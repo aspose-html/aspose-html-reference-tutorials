@@ -2,7 +2,7 @@
 title: Editing a Document in .NET with Aspose.HTML
 linktitle: Editing a Document in .NET with Aspose.HTML
 second_title: Aspose.Slides .NET HTML manipulation API
-description: 
+description: Learn how to work with HTML documents in .NET using Aspose.HTML. This comprehensive tutorial covers document creation, manipulation, and styling. Get started now!
 type: docs
 weight: 12
 url: /net/working-with-html-documents/editing-a-document-dotnet-aspose-html/
@@ -14,11 +14,11 @@ Welcome to our tutorial on using Aspose.HTML for .NET, a powerful tool for handl
 
 Before we dive into the code examples, make sure you have the following prerequisites in place:
 
-1. **Visual Studio**: You'll need Visual Studio installed on your machine to follow along with the examples.
+1. Visual Studio: You'll need Visual Studio installed on your machine to follow along with the examples.
 
-2. **Aspose.HTML for .NET**: You should have Aspose.HTML for .NET library installed. You can download it from [here](https://releases.aspose.com/html/net/).
+2. Aspose.HTML for .NET: You should have Aspose.HTML for .NET library installed. You can download it from [here](https://releases.aspose.com/html/net/).
 
-3. **A Basic Understanding of C#**: Familiarity with C# programming will be helpful, but even if you're new to C#, you can still follow along and learn.
+3. A Basic Understanding of C#: Familiarity with C# programming will be helpful, but even if you're new to C#, you can still follow along and learn.
 
 ## Importing Necessary Namespaces
 
@@ -54,7 +54,7 @@ static void EditDocumentTree()
 }
 ```
 
-**Explanation:**
+### Explanation:
 
 1. We start by creating a new HTML document using `Aspose.Html.HTMLDocument()`.
 
@@ -88,7 +88,7 @@ static void EditDocumentTreeWithAppendRemoveChild()
 }
 ```
 
-**Explanation:**
+### Explanation:
 
 1. We create an HTML document with existing elements, including a `<p>` and a `<div>`.
 
@@ -118,7 +118,7 @@ static void EditHtml()
 }
 ```
 
-**Explanation:**
+### Explanation:
 
 1. We create a new HTML document.
 
@@ -151,7 +151,7 @@ static void EditElementStyle()
 }
 ```
 
-**Explanation:**
+### Explanation:
 
 1. We create an HTML document with embedded CSS that sets the color of `<p>` elements to red.
 
@@ -184,7 +184,7 @@ static void EditElementStyleUsingAttribute()
 }
 ```
 
-**Explanation:**
+### Explanation:
 
 1. We create an HTML document with embedded CSS that sets the color of `<p>` elements to red.
 
@@ -210,98 +210,19 @@ If you have any questions or need further assistance, don't hesitate to visit th
 
 ## Frequently Asked Questions (FAQs)
 
-1. **What is Aspose.HTML for .NET?**
-   - Aspose.HTML for .NET is a powerful library for working with HTML documents in .NET applications.
+### What is Aspose.HTML for .NET?
+Aspose.HTML for .NET is a powerful library for working with HTML documents in .NET applications.
 
-2. **Where can I download Aspose.HTML for .NET?**
-   - You can download Aspose.HTML for .NET from [here](https://releases.aspose.com/html/net/).
+### Where can I download Aspose.HTML for .NET?
+You can download Aspose.HTML for .NET from [here](https://releases.aspose.com/html/net/).
 
-3. **Is there a free trial available?**
-   - Yes, you can get a free trial of Aspose.HTML from [here](https://releases.aspose.com/).
+### Is there a free trial available?
+Yes, you can get a free trial of Aspose.HTML from [here](https://releases.aspose.com/).
 
-4. **How can I purchase a license?**
-   - To purchase a license, visit [this link](https://purchase.aspose.com/buy).
+### How can I purchase a license?
+To purchase a license, visit [this link](https://purchase.aspose.com/buy).
 
-5. **Do I need prior experience with HTML to use Aspose.HTML for .NET?**
-   - While HTML knowledge is helpful, you can use Aspose.HTML for .NET even if you're not an HTML expert.
+### Do I need prior experience with HTML to use Aspose.HTML for .NET?
+While HTML knowledge is helpful, you can use Aspose.HTML for .NET even if you're not an HTML expert.
 
-## Search Engine Optimized Description
 
-Learn how to work with HTML documents in .NET using Aspose.HTML. This comprehensive tutorial covers document creation, manipulation, and styling. Get started now!
-
-**Note:** Please make sure to check the latest documentation and updates from Aspose.HTML as the library may have evolved since the last knowledge update in September 2021.
-## Complete Source Code
-```csharp
-
-        static void EditDocumentTree()
-        {
-            using (var document = new Aspose.Html.HTMLDocument())
-            {
-                var body = document.Body;
-                // Create paragraph element
-                var p = (Aspose.Html.HTMLParagraphElement)document.CreateElement("p");
-                // Set custom attribute
-                p.SetAttribute("id", "my-paragraph");
-                // Create text node
-                var text = document.CreateTextNode("my first paragraph");
-                // Attach text to the paragraph
-                p.AppendChild(text);
-                // Attach paragraph to the document body
-                body.AppendChild(p);
-            }
-        }
-        static void EditDocumentTreeWithAppendRemoveChild()
-        {
-            using (var document = new Aspose.Html.HTMLDocument("<p>paragraph</p><div>some element to remove</div>", "about:blank"))
-            {
-                var body = document.Body;
-                // Get "div" element
-                var div = (Aspose.Html.HTMLDivElement)body.GetElementsByTagName("div").First();
-                // Remove found element
-                body.RemoveChild(div);
-            }
-        }
-        static void EditHtml()
-        {
-            using (var document = new Aspose.Html.HTMLDocument())
-            {
-                // Get body element
-                var body = document.Body;
-                // Set content of the body element
-                body.InnerHTML = "<p>paragraph</p>";
-                // Move to the first child
-                var node = body.FirstChild;
-                System.Console.WriteLine(node.LocalName);
-            }
-        }
-        static void EditElementStyle()
-        {
-            using (var document = new Aspose.Html.HTMLDocument("<style>p { color: red; }</style><p>my first paragraph</p>", "about:blank"))
-            {
-                // Get the element to inspect
-                var element = document.GetElementsByTagName("p")[0];
-                // Get the CSS view object
-                var view = (Aspose.Html.Dom.Css.IViewCSS)document.Context.Window;
-                // Get the computed style of the element
-                var declaration = view.GetComputedStyle(element);
-                // Get "color" property value
-                System.Console.WriteLine(declaration.Color); // rgb(255, 0, 0)
-            }
-        }
-        static void EditElementStyleUsingAttribute()
-        {
-            using (var document = new Aspose.Html.HTMLDocument("<style>p { color: red; }</style><p>my first paragraph</p>", "about:blank"))
-            {
-                // Get the element to edit
-                var element = (Aspose.Html.HTMLElement)document.GetElementsByTagName("p")[0];
-                // Get the CSS view object
-                var view = (Aspose.Html.Dom.Css.IViewCSS)document.Context.Window;
-                // Get the computed style of the element
-                var declaration = view.GetComputedStyle(element);
-                // Set green color
-                element.Style.Color = "green";
-                // Get "color" property value
-                System.Console.WriteLine(declaration.Color); // rgb(0, 128, 0)
-            }
-        }
-```
