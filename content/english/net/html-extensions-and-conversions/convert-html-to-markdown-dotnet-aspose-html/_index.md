@@ -14,7 +14,7 @@ url: /net/html-extensions-and-conversions/convert-html-to-markdown-dotnet-aspose
         {
             // ExStart:HTMLtoMarkdown
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir_Data();
+            string dataDir = "Your Data Directory";
             using (var document = new Aspose.Html.HTMLDocument("<p>my first paragraph</p>" +
                                                    "<p>my second paragraph</p>", dataDir))
             {
@@ -25,7 +25,7 @@ url: /net/html-extensions-and-conversions/convert-html-to-markdown-dotnet-aspose
         public static void MarkdownOptions()
         {
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir_Data();
+            string dataDir = "Your Data Directory";
             // ExStart:MarkdownOptions
             using (var document = new Aspose.Html.HTMLDocument("<p>my first paragraph</p>", dataDir))
             {
@@ -37,7 +37,7 @@ url: /net/html-extensions-and-conversions/convert-html-to-markdown-dotnet-aspose
         public static void DefineMarkdownRules()
         {
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir_Data();
+            string dataDir = "Your Data Directory";
             // ExStart:DefineRules
             using (var document = new Aspose.Html.HTMLDocument("<p>my first paragraph</p>", dataDir))
             {

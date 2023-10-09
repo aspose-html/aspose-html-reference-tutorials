@@ -13,7 +13,7 @@ url: /net/rendering-html-documents/render-epub-as-xps-dotnet-aspose-html/
         public static void Run()
         {
             // ExStart:1
-            string dataDir = RunExamples.GetDataDir_Data();
+            string dataDir = "Your Data Directory";
             using (var fs = File.OpenRead(dataDir + "document.epub"))
             using (var device = new Aspose.Html.Rendering.Xps.XpsDevice(dataDir + "document_out.xps"))
             using (var renderer = new Aspose.Html.Rendering.EpubRenderer())

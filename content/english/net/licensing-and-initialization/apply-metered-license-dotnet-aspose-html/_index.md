@@ -14,7 +14,7 @@ url: /net/licensing-and-initialization/apply-metered-license-dotnet-aspose-html/
         {
             // ExStart:ApplyMeteredLicense
             // The path to the documents directory
-            string dataDir = RunExamples.GetDataDir_Data();
+            string dataDir = "Your Data Directory";
             // set metered public and private keys
             Aspose.Html.Metered metered = new Aspose.Html.Metered();
             // Access the setMeteredKey property and pass public and private keys as parameters

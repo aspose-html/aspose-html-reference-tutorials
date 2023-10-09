@@ -14,7 +14,7 @@ url: /net/canvas-and-image-manipulation/convert-svg-to-xps-dotnet-aspose-html/
         {
             // ExStart:1
             // The path to the documents directory
-            string dataDir = RunExamples.GetDataDir_Data();
+            string dataDir = "Your Data Directory";
             // Source SVG document  
             SVGDocument svgDocument = new SVGDocument(dataDir + "input.svg");
             // Initialize XpsSaveOptions 

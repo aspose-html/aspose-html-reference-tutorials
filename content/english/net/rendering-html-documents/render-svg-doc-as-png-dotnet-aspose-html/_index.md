@@ -13,7 +13,7 @@ url: /net/rendering-html-documents/render-svg-doc-as-png-dotnet-aspose-html/
         public static void Run()
         {
             // ExStart:1
-            string dataDir = RunExamples.GetDataDir_Data();
+            string dataDir = "Your Data Directory";
             using (var document = new Aspose.Html.Dom.Svg.SVGDocument("<svg xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='40'/></svg>", @"c:\work\"))
             {
                 using (SvgRenderer renderer = new SvgRenderer())

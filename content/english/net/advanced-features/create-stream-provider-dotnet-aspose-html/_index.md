@@ -14,7 +14,7 @@ url: /net/advanced-features/create-stream-provider-dotnet-aspose-html/
         {
             // ExStart:1
             // The path to the documents directory
-            string dataDir = RunExamples.GetDataDir_Data();
+            string dataDir = "Your Data Directory";
             // Create a custom StreamProvider based on ICreateStreamProvider interface 
             using (MemoryStreamProvider streamProvider = new MemoryStreamProvider())
             {

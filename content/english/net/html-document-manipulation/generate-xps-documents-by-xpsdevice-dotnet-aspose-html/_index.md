@@ -13,7 +13,7 @@ url: /net/html-document-manipulation/generate-xps-documents-by-xpsdevice-dotnet-
         public static void Run()
         {
             // ExStart:1
-            string dataDir = RunExamples.GetDataDir_Data();
+            string dataDir = "Your Data Directory";
             using (var document = new Aspose.Html.HTMLDocument("<style>p { color: green; }</style><p>my first paragraph</p>", @"c:\work\"))
             {
                 using (XpsDevice device = new XpsDevice(new XpsRenderingOptions()

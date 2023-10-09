@@ -14,7 +14,7 @@ url: /net/rendering-html-documents/rendering-timeout-dotnet-aspose-html/
         {
             // ExStart:RenderingTimeout
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir_Data();
+            string dataDir = "Your Data Directory";
             // Create an instance of the HTML document
             using (var document = new Aspose.Html.HTMLDocument())
             {
@@ -35,7 +35,7 @@ url: /net/rendering-html-documents/rendering-timeout-dotnet-aspose-html/
         {
             // ExStart:IndefiniteTimeout
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir_Data();
+            string dataDir = "Your Data Directory";
             // Create an instance of the HTML document
             using (var document = new Aspose.Html.HTMLDocument())
             {

@@ -13,7 +13,7 @@ url: /net/rendering-html-documents/render-multiple-documents-dotnet-aspose-html/
         public static void Run()
         {
             // ExStart:1
-            string dataDir = RunExamples.GetDataDir_Data();
+            string dataDir = "Your Data Directory";
             using (var document = new Aspose.Html.HTMLDocument("<style>p { color: green; }</style><p>my first paragraph</p>", @"c:\work\"))
             using (var document2 = new Aspose.Html.HTMLDocument("<style>p { color: blue; }</style><p>my first paragraph</p>", @"c:\work\"))
             {

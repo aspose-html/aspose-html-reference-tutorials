@@ -14,7 +14,7 @@ url: /net/html-extensions-and-conversions/convert-html-to-mhtml-dotnet-aspose-ht
         {
             // ExStart:1
             // The path to the documents directory
-            string dataDir = RunExamples.GetDataDir_Data();
+            string dataDir = "Your Data Directory";
             // Source HTML Document 
             HTMLDocument htmlDocument = new HTMLDocument(dataDir + "input.html");
             // Initialize MHTMLSaveOptions

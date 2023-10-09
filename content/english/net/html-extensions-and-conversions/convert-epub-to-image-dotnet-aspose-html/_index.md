@@ -12,7 +12,7 @@ url: /net/html-extensions-and-conversions/convert-epub-to-image-dotnet-aspose-ht
 ```csharp
         public static void WithASingleLine()
         {
-            string dataDir = RunExamples.GetDataDir_Data();
+            string dataDir = "Your Data Directory";
             // Open an existing EPUB file for reading.
             using (var stream = System.IO.File.OpenRead(dataDir + "input.epub"))
             {
@@ -22,7 +22,7 @@ url: /net/html-extensions-and-conversions/convert-epub-to-image-dotnet-aspose-ht
         }
         public static void ConvertEPUBToJPG()
         {
-            string dataDir = RunExamples.GetDataDir_Data();
+            string dataDir = "Your Data Directory";
             // Open an existing EPUB file for reading.
             using (var stream = System.IO.File.OpenRead(dataDir + "input.epub"))
             {
@@ -34,7 +34,7 @@ url: /net/html-extensions-and-conversions/convert-epub-to-image-dotnet-aspose-ht
         }
         public static void ConvertEPUBToPNG()
         {
-            string dataDir = RunExamples.GetDataDir_Data();
+            string dataDir = "Your Data Directory";
             // Opens an existing EPUB file for reading.
             using (var stream = System.IO.File.OpenRead(dataDir + "input.epub"))
             {
@@ -46,7 +46,7 @@ url: /net/html-extensions-and-conversions/convert-epub-to-image-dotnet-aspose-ht
         }
         public static void ConvertEPUBToBMP()
         {
-            string dataDir = RunExamples.GetDataDir_Data();
+            string dataDir = "Your Data Directory";
             // Open an existing EPUB file for reading.
             using (var stream = System.IO.File.OpenRead(dataDir + "input.epub"))
             {
@@ -58,7 +58,7 @@ url: /net/html-extensions-and-conversions/convert-epub-to-image-dotnet-aspose-ht
         }
         public static void ConvertEPUBToGIF()
         {
-            string dataDir = RunExamples.GetDataDir_Data();
+            string dataDir = "Your Data Directory";
             // Open an existing EPUB file for reading.
             using (var stream = System.IO.File.OpenRead(dataDir + "input.epub"))
             {
@@ -70,7 +70,7 @@ url: /net/html-extensions-and-conversions/convert-epub-to-image-dotnet-aspose-ht
         }
         public static void ConvertEPUBToTIFF()
         {
-            string dataDir = RunExamples.GetDataDir_Data();
+            string dataDir = "Your Data Directory";
             // Open an existing EPUB file for reading.
             using (var stream = System.IO.File.OpenRead(dataDir + "input.epub"))
             {
@@ -82,7 +82,7 @@ url: /net/html-extensions-and-conversions/convert-epub-to-image-dotnet-aspose-ht
         }
         public static void SpecifyImageSaveOptions()
         {
-            string dataDir = RunExamples.GetDataDir_Data();
+            string dataDir = "Your Data Directory";
             // Open an existing EPUB file for reading.
             using (var stream = System.IO.File.OpenRead(dataDir + "input.epub"))
             {
@@ -104,7 +104,7 @@ url: /net/html-extensions-and-conversions/convert-epub-to-image-dotnet-aspose-ht
         }
         public static void SpecifyCustomStreamProvider()
         {
-            string dataDir = RunExamples.GetDataDir_Data();
+            string dataDir = "Your Data Directory";
             // Open an existing EPUB file for reading.
             using (var stream = System.IO.File.OpenRead(dataDir + "input.epub"))
             {

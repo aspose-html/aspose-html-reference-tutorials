@@ -12,7 +12,7 @@ url: /net/html-extensions-and-conversions/convert-epub-to-xps-dotnet-aspose-html
 ```csharp
         public static void WithASingleLine()
         {
-            string dataDir = RunExamples.GetDataDir_Data();
+            string dataDir = "Your Data Directory";
             // Open an existing EPUB file for reading.
             using (var stream = System.IO.File.OpenRead(dataDir + "input.epub"))
             {
@@ -22,7 +22,7 @@ url: /net/html-extensions-and-conversions/convert-epub-to-xps-dotnet-aspose-html
         }
         public static void ConvertEPUBFileToXPS()
         {
-            string dataDir = RunExamples.GetDataDir_Data();
+            string dataDir = "Your Data Directory";
             // Open an existing EPUB file for reading.
             using (var stream = System.IO.File.OpenRead(dataDir + "input.epub"))
             {
@@ -34,7 +34,7 @@ url: /net/html-extensions-and-conversions/convert-epub-to-xps-dotnet-aspose-html
         }
         public static void SpecifyXpsSaveOptions()
         {
-            string dataDir = RunExamples.GetDataDir_Data();
+            string dataDir = "Your Data Directory";
             // Open an existing EPUB file for reading.
             using (var stream = System.IO.File.OpenRead(dataDir + "input.epub"))
             {
@@ -56,7 +56,7 @@ url: /net/html-extensions-and-conversions/convert-epub-to-xps-dotnet-aspose-html
         }
         public static void SpecifyCustomStreamProvider()
         {
-            string dataDir = RunExamples.GetDataDir_Data();
+            string dataDir = "Your Data Directory";
             // Open an existing EPUB file for reading.
             using (var stream = System.IO.File.OpenRead(dataDir + "input.epub"))
             {

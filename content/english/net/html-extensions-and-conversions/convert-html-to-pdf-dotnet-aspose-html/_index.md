@@ -14,7 +14,7 @@ url: /net/html-extensions-and-conversions/convert-html-to-pdf-dotnet-aspose-html
         {
             // ExStart:1
             // The path to the documents directory
-            string dataDir = RunExamples.GetDataDir_Data();
+            string dataDir = "Your Data Directory";
             // Source HTML document  
             HTMLDocument htmlDocument = new HTMLDocument(dataDir + "input.html");
             // Initialize PdfSaveOptions 

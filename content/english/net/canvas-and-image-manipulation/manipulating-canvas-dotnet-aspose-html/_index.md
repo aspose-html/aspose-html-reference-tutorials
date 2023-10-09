@@ -14,7 +14,7 @@ url: /net/canvas-and-image-manipulation/manipulating-canvas-dotnet-aspose-html/
         {
             // ExStart:ManipulateCanvas
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir_Data();
+            string dataDir = "Your Data Directory";
             // Create an empty document
             using (HTMLDocument document = new HTMLDocument())
             {

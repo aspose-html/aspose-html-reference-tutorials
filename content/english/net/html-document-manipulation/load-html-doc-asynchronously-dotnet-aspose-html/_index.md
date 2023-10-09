@@ -14,7 +14,7 @@ url: /net/html-document-manipulation/load-html-doc-asynchronously-dotnet-aspose-
         {
             // ExStart:LoadHTMLdocAsyn
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir_Data();
+            string dataDir = "Your Data Directory";
             var document = new HTMLDocument();
             // subscribe to the event 'OnReadyStateChange' that will be fired once document is completely loaded
             document.OnReadyStateChange += (sender, @event) =>
@@ -31,7 +31,7 @@ url: /net/html-document-manipulation/load-html-doc-asynchronously-dotnet-aspose-
         {
             // ExStart:EventNavigate
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir_Data();
+            string dataDir = "Your Data Directory";
             var document = new HTMLDocument();
             // you can subscribe to the event 'OnLoad'
             document.OnLoad += (sender, @event) =>

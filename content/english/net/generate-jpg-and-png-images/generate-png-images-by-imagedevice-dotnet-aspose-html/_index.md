@@ -13,7 +13,7 @@ url: /net/generate-jpg-and-png-images/generate-png-images-by-imagedevice-dotnet-
         public static void Run()
         {
             // ExStart:1
-            string dataDir = RunExamples.GetDataDir_Data();
+            string dataDir = "Your Data Directory";
             using (var document = new Aspose.Html.HTMLDocument("<style>p { color: green; }</style><p>my first paragraph</p>", @"c:\work\"))
             {
                 using (ImageDevice device = new ImageDevice(dataDir + @"document_out.png"))

@@ -14,7 +14,7 @@ url: /net/html-document-manipulation/merge-html-with-json-dotnet-aspose-html/
         {
             // ExStart:1
             // The path to the documents directory
-            string dataDir = RunExamples.GetDataDir_Data();
+            string dataDir = "Your Data Directory";
             // HTML template document 
             HTMLDocument templateHtml = new HTMLDocument(dataDir + "HTMLTemplateForJson.html");
             //XML data for merging 

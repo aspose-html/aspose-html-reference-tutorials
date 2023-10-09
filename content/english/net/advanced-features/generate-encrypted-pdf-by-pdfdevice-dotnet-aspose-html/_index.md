@@ -13,7 +13,7 @@ url: /net/advanced-features/generate-encrypted-pdf-by-pdfdevice-dotnet-aspose-ht
         public static void Run()
         {
             // ExStart:1
-            string dataDir = RunExamples.GetDataDir_Data();
+            string dataDir = "Your Data Directory";
             using (var document = new Aspose.Html.HTMLDocument("<style>p { color: green; }</style><p>my first paragraph</p>", @"c:\work\"))
             {
                 var options = new PdfRenderingOptions()

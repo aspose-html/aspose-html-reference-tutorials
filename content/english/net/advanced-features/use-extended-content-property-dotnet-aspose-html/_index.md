@@ -13,7 +13,7 @@ url: /net/advanced-features/use-extended-content-property-dotnet-aspose-html/
         public static void Run()
         {
             // ExStart:1
-            string dataDir = RunExamples.GetDataDir_Data();
+            string dataDir = "Your Data Directory";
             //  Initialize configuration object and set up the page-margins for the document
             Configuration configuration = new Configuration();
             configuration.GetService<IUserAgentService>().UserStyleSheet = @"
