@@ -34,7 +34,7 @@ using Aspose.Html;
 ## Creating an SVG Document
 
 ```csharp
-private static void CreateSVG()
+static void CreateSVG()
 {
     using (var document = new SVGDocument("<svg xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='40'/></svg>", "about:blank"))
     {
@@ -48,7 +48,7 @@ In this example, we create an SVG document by providing the SVG content and a ba
 ## Creating an HTML Document from Scratch
 
 ```csharp
-private static void FromScratch()
+static void FromScratch()
 {
     using (var document = new HTMLDocument())
     {
@@ -62,7 +62,7 @@ This example demonstrates how to create an HTML document from scratch. The `HTML
 ## Creating an HTML Document from a Local File
 
 ```csharp
-private static void FromLocalFile()
+static void FromLocalFile()
 {
     string dataDir = "Your Data Directory";
     using (var document = new HTMLDocument(dataDir + "input.html"))
@@ -77,7 +77,7 @@ If you have an existing HTML file on your local system, you can load it using th
 ## Creating an HTML Document from a Remote URL
 
 ```csharp
-private static void FromRemoteURL()
+static void FromRemoteURL()
 {
     using (var document = new HTMLDocument("http://your.site.com/"))
     {
@@ -91,7 +91,7 @@ Sometimes, you may need to work with HTML content hosted on a remote server. Thi
 ## Creating an HTML Document from a Remote URL (Alternative)
 
 ```csharp
-private static void FromRemoteURL1()
+static void FromRemoteURL1()
 {
     using (var document = new HTMLDocument(new Url("http://your.site.com/")))
     {
@@ -105,7 +105,7 @@ This alternative approach also shows how to create an HTML document from a remot
 ## Creating an HTML Document from HTML Content
 
 ```csharp
-private static void FromHTML()
+static void FromHTML()
 {
     using (var document = new HTMLDocument("<p>my first paragraph</p>", "."))
     {
@@ -119,7 +119,7 @@ If you have HTML content in a string format, you can create an HTML document wit
 ## Creating an HTML Document from a Stream
 
 ```csharp
-private static void FromStream()
+static void FromStream()
 {
     using (MemoryStream mem = new MemoryStream())
     using (StreamWriter sw = new StreamWriter(mem))
