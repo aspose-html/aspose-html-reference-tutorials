@@ -20,8 +20,6 @@ is_root: true
 
 ### [Barcode Generation in HTML Documents](./barcode-generation-in-html-documents/)
 
-### [Table Manipulation in  HTML Documents](./table-manipulation-in--html-documents/)
-
 ### [Licensing and Initialization](./licensing-and-initialization/)
 
 ### [Generate JPG and PNG Images](./generate-jpg-and-png-images/)
