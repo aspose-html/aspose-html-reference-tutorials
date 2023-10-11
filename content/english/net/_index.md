@@ -21,7 +21,7 @@ is_root: true
 ### [Barcode Generation in HTML Documents](./barcode-generation-in-html-documents/)
 
 ### [Licensing and Initialization](./licensing-and-initialization/)
-
+Discover how to effectively utilize Aspose.HTML for .NET through our comprehensive licensing and initialization tutorials. Unlock the full potential of this tool.
 ### [Generate JPG and PNG Images](./generate-jpg-and-png-images/)
 
 ### [Rendering HTML Documents](./rendering-html-documents/)
