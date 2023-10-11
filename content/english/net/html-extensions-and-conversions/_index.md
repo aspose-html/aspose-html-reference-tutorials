@@ -11,7 +11,9 @@ url: /net/html-extensions-and-conversions/
 ## HTML Extensions and Conversions Tutorials
 ### [Convert HTML to PDF in .NET with Aspose.HTML](./convert-html-to-pdf-dotnet-aspose-html/)
 ### [Convert EPUB to Image in .NET with Aspose.HTML](./convert-epub-to-image-dotnet-aspose-html/)
+Learn how to convert EPUB to images using Aspose.HTML for .NET. Step-by-step tutorial with code examples and customizable options.
 ### [Convert EPUB to PDF in .NET with Aspose.HTML](./convert-epub-to-pdf-dotnet-aspose-html/)
+Learn how to convert EPUB to PDF using Aspose.HTML for .NET. This step-by-step guide covers customization options, FAQs, and more for seamless document conversion.
 ### [Convert EPUB to XPS in .NET with Aspose.HTML](./convert-epub-to-xps-dotnet-aspose-html/)
 ### [Convert HTML to BMP in .NET with Aspose.HTML](./convert-html-to-bmp-dotnet-aspose-html/)
 ### [Convert HTML to DOC and DOCX in .NET with Aspose.HTML](./convert-html-to-doc-docx-dotnet-aspose-html/)
