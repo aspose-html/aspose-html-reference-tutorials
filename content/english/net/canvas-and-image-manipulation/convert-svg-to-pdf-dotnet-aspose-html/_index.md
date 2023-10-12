@@ -27,21 +27,8 @@ Now, let's start with the code and break it down into multiple steps to ensure y
 To work with Aspose.HTML for .NET, you need to import the relevant namespaces. Here's how you do it:
 
 ```csharp
-// ExStart:1
-// The path to the documents directory
-string dataDir = "Your Data Directory";
-// Source SVG document  
-SVGDocument svgDocument = new SVGDocument(dataDir + "input.svg");
-// Initialize pdfSaveOptions 
-PdfSaveOptions options = new PdfSaveOptions()
-{
-	JpegQuality = 100
-};
-// Output file path 
-string outputFile = dataDir + "SVGtoPDF_Output.pdf";
-// Convert SVG to PDF 
-Converter.ConvertSVG(svgDocument, options, outputFile);
-// ExEnd:1
+using Aspose.Html;
+using Aspose.Html.Converters;
 ```
 
 Now, let's break this code down into multiple steps.

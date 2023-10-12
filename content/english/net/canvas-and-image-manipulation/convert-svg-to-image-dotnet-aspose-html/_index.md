@@ -22,21 +22,13 @@ Before we embark on this SVG to image conversion journey, make sure you have the
 
 ## Importing Namespaces
 
-To get started, you'll need to import the necessary namespaces in your .NET project. These namespaces will enable you to use Aspose.HTML for .NET effectively. Here's how you can do it:
+
+The first step is to import the necessary namespaces for your project. This allows your code to access the functionality provided by the Aspose.HTML for .NET library.
 
 ```csharp
-// ExStart:1
-// The path to the documents directory
-string dataDir = "Your Data Directory";
-// Source SVG document  
-SVGDocument svgDocument = new SVGDocument(dataDir + "input.svg");
-// Initialize ImageSaveOptions 
-ImageSaveOptions options = new ImageSaveOptions(ImageFormat.Jpeg);
-// Output file path 
-string outputFile = dataDir + "SVGtoImage_Output.jpeg";
-// Convert SVG to Image
-Converter.ConvertSVG(svgDocument, options, outputFile);
-// ExEnd:1
+using Aspose.Html;
+using Aspose.Html.Rendering.Image;
+using Aspose.Html.Converters;
 ```
 
 Now, let's break down each step and explain it in detail.
