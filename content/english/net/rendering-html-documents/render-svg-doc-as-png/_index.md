@@ -82,7 +82,7 @@ We hope this tutorial has been informative and that you're now equipped to explo
    You can obtain a temporary license [here](https://purchase.aspose.com/temporary-license/) or purchase a full license [here](https://purchase.aspose.com/buy).
 
 3. ### Where can I find documentation for Aspose.HTML for .NET?
-   You can refer to the official documentation [here](https://reference.aspose.com/html/net/).
+   You can refer to the documentation [here](https://reference.aspose.com/html/net/).
 
 4. ### Is Aspose.HTML for .NET suitable for both desktop and web applications?
    Yes, Aspose.HTML for .NET can be used in both desktop and web applications, making it a versatile choice for various projects.

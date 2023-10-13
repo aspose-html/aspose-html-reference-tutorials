@@ -182,7 +182,7 @@ Have any questions or encountered issues? Check out the [Aspose.HTML Documentati
 Aspose.HTML for .NET is a powerful library that enables developers to work with HTML, EPUB, and XPS documents in .NET applications.
 
 ### Where can I download Aspose.HTML for .NET?
-You can download Aspose.HTML for .NET from the [official download page](https://releases.aspose.com/html/net/).
+You can download Aspose.HTML for .NET from the [download page](https://releases.aspose.com/html/net/).
 
 ### Is there a free trial available for Aspose.HTML for .NET?
 Yes, you can get a free trial from [here](https://releases.aspose.com/).

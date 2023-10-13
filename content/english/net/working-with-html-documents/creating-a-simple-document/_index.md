@@ -18,7 +18,7 @@ Before we embark on this journey, let's ensure you have the necessary prerequisi
 
 ### 1. .NET Development Environment
 
-You should have a .NET development environment set up on your machine. If you haven't already, you can download and install the latest version of .NET from the official Microsoft website.
+You should have a .NET development environment set up on your machine. If you haven't already, you can download and install the latest version of .NET from the Microsoft website.
 
 ### 2. Aspose.HTML for .NET
 
@@ -151,5 +151,5 @@ You can obtain a temporary license for Aspose.HTML for .NET [here](https://purch
 
 ### 5. Where can I get support for Aspose.HTML for .NET?
 
-You can get support and ask questions about Aspose.HTML for .NET on the official [Aspose Forum](https://forum.aspose.com/).
+You can get support and ask questions about Aspose.HTML for .NET on the [Aspose Forum](https://forum.aspose.com/).
 

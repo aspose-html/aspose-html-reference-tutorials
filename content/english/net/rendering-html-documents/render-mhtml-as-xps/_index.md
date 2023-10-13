@@ -21,7 +21,7 @@ Make sure you have Visual Studio installed on your system. Aspose.HTML for .NET 
 
 ### 2. Aspose.HTML for .NET
 
-You'll need to download and install Aspose.HTML for .NET. You can get it from the official download link [here](https://releases.aspose.com/html/net/).
+You'll need to download and install Aspose.HTML for .NET. You can get it from the download link [here](https://releases.aspose.com/html/net/).
 
 ### 3. Basic Knowledge of .NET
 
@@ -90,13 +90,13 @@ Aspose.HTML for .NET is a valuable tool for developers working on HTML manipulat
 Aspose.HTML for .NET is a library that provides HTML manipulation and rendering capabilities for .NET developers. It allows you to work with HTML documents in various formats.
 
 ### Where can I download Aspose.HTML for .NET?
-You can download Aspose.HTML for .NET from the official release page [here](https://releases.aspose.com/html/net/).
+You can download Aspose.HTML for .NET from the release page [here](https://releases.aspose.com/html/net/).
 
 ### Is there a free trial available?
 Yes, you can access a free trial of Aspose.HTML for .NET [here](https://releases.aspose.com/).
 
 ### How can I get support for Aspose.HTML for .NET?
-You can seek support and assistance from the Aspose.HTML community on the official [forum](https://forum.aspose.com/).
+You can seek support and assistance from the Aspose.HTML community on the [forum](https://forum.aspose.com/).
 
 ### Can I purchase a temporary license for Aspose.HTML for .NET?
-Yes, you can obtain a temporary license from the official purchase page [here](https://purchase.aspose.com/temporary-license/).
+Yes, you can obtain a temporary license from the purchase page [here](https://purchase.aspose.com/temporary-license/).

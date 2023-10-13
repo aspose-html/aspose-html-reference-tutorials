@@ -16,7 +16,7 @@ In today's digital age, web content is vital, and so is the ability to manipulat
 
 Before we dive into the tutorial, make sure you have the following prerequisites in place:
 
-1. Aspose.HTML for .NET Library: Download and install the Aspose.HTML for .NET library from the [official website](https://releases.aspose.com/html/net/). You will need this library to work through the examples.
+1. Aspose.HTML for .NET Library: Download and install the Aspose.HTML for .NET library from the [website](https://releases.aspose.com/html/net/). You will need this library to work through the examples.
 
 2. A Development Environment: Ensure that you have a .NET development environment set up, including Visual Studio or any other suitable code editor.
 

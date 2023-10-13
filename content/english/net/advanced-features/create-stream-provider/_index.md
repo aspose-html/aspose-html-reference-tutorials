@@ -109,7 +109,7 @@ In this step, you retrieve the converted XPS data from the memory stream and sav
 
 In this tutorial, we've covered the fundamentals of using Aspose.HTML for .NET. We started by setting up the prerequisites, importing the necessary namespaces, and then broke down a code example into multiple steps to convert an HTML document to XPS format.
 
-Aspose.HTML for .NET offers a wide range of capabilities beyond what we've explored here. To further enhance your skills, refer to the [official documentation](https://reference.aspose.com/html/net/) and explore more advanced features and use cases.
+Aspose.HTML for .NET offers a wide range of capabilities beyond what we've explored here. To further enhance your skills, refer to the [documentation](https://reference.aspose.com/html/net/) and explore more advanced features and use cases.
 
 ## FAQ's
 
@@ -131,4 +131,4 @@ A4: Temporary licenses can be obtained from [here](https://purchase.aspose.com/t
 
 ### Q5. Where can I seek help or discuss issues related to Aspose.HTML for .NET?
 
-A5: You can visit the official Aspose forums for support and discussions at [this link](https://forum.aspose.com/).
+A5: You can visit the Aspose forums for support and discussions at [this link](https://forum.aspose.com/).

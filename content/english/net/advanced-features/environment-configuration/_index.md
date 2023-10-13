@@ -16,9 +16,9 @@ Before we dive into using Aspose.HTML for .NET, you'll need to ensure you have t
 
 1. Visual Studio: Make sure you have Visual Studio installed on your development machine. Aspose.HTML for .NET is designed to work seamlessly with Visual Studio.
 
-2. Aspose.HTML for .NET: You can download the Aspose.HTML for .NET library from the official website. Use the following link to access the download page: [Download Aspose.HTML for .NET](https://releases.aspose.com/html/net/).
+2. Aspose.HTML for .NET: You can download the Aspose.HTML for .NET library from the website. Use the following link to access the download page: [Download Aspose.HTML for .NET](https://releases.aspose.com/html/net/).
 
-3. Installation and License: After downloading the library, follow the installation instructions provided in the documentation. You may also need a valid license to use some of the advanced features. You can obtain a license from the official Aspose website: [Purchase Aspose.HTML License](https://purchase.aspose.com/buy).
+3. Installation and License: After downloading the library, follow the installation instructions provided in the documentation. You may also need a valid license to use some of the advanced features. You can obtain a license from the Aspose website: [Purchase Aspose.HTML License](https://purchase.aspose.com/buy).
 
 4. Free Trial: If you want to try out Aspose.HTML before purchasing a license, you can get a free trial version from this link: [Aspose.HTML Free Trial](https://releases.aspose.com/).
 
@@ -175,7 +175,7 @@ A1: Yes, you can try Aspose.HTML for .NET with a free trial version, but some ad
 
 ### Q2: How can I obtain a license for Aspose.HTML for .NET?
 
-A2: You can purchase a license from the official Aspose website: [Purchase Aspose.HTML License](https://purchase.aspose.com/buy).
+A2: You can purchase a license from the Aspose website: [Purchase Aspose.HTML License](https://purchase.aspose.com/buy).
 
 ### Q3: What formats can I convert HTML documents to using Aspose.HTML for .NET?
 
@@ -187,4 +187,4 @@ A4: Yes, you can find help and support on the Aspose forums: [Aspose.HTML Suppor
 
 ### Q5: Does Aspose.HTML for .NET provide documentation and tutorials?
 
-A5: Yes, you can access the official documentation here: [Aspose.HTML for .NET Documentation](https://reference.aspose.com/html/net/).
+A5: Yes, you can access the documentation here: [Aspose.HTML for .NET Documentation](https://reference.aspose.com/html/net/).

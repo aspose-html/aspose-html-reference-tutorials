@@ -14,9 +14,9 @@ In today's digital age, the ability to manipulate and convert various document f
 
 Before we dive into the world of Aspose.HTML for .NET, you should ensure you have the following prerequisites in place:
 
-1. Visual Studio: Make sure you have Visual Studio installed on your system. You can download it from the official website.
+1. Visual Studio: Make sure you have Visual Studio installed on your system. You can download it from the website.
 
-2. Aspose.HTML for .NET: You can obtain the library from the official Aspose website [here](https://releases.aspose.com/html/net/).
+2. Aspose.HTML for .NET: You can obtain the library from the Aspose website [here](https://releases.aspose.com/html/net/).
 
 3. Your Data Directory: Prepare a directory where you store your EPUB files and where the output images will be saved.
 
@@ -188,7 +188,7 @@ Aspose.HTML for .NET is a versatile library that simplifies working with EPUB an
 
 ### 1. Where can I download Aspose.HTML for .NET?
 
-You can download Aspose.HTML for .NET from the official releases page [here](https://releases.aspose.com/html/net/).
+You can download Aspose.HTML for .NET from the releases page [here](https://releases.aspose.com/html/net/).
 
 ### 2. How can I get a temporary license for Aspose.HTML for .NET?
 

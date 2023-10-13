@@ -20,7 +20,7 @@ You should have a working development environment with Visual Studio or any othe
 
 ### 2. Aspose.HTML for .NET Library
 
-Ensure that you've downloaded and installed the Aspose.HTML for .NET library. You can obtain it from the official download link: [Aspose.HTML for .NET](https://releases.aspose.com/html/net/).
+Ensure that you've downloaded and installed the Aspose.HTML for .NET library. You can obtain it from the download link: [Aspose.HTML for .NET](https://releases.aspose.com/html/net/).
 
 ### 3. Basic Knowledge of C# and .NET
 
@@ -102,7 +102,7 @@ Aspose.HTML for .NET is a powerful library that enables developers to manipulate
 
 ### 2. Where can I find documentation for Aspose.HTML for .NET?
 
-You can access the official documentation here: [Aspose.HTML for .NET Documentation](https://reference.aspose.com/html/net/).
+You can access the documentation here: [Aspose.HTML for .NET Documentation](https://reference.aspose.com/html/net/).
 
 ### 3. Is there a free trial version of Aspose.HTML for .NET available?
 

@@ -209,7 +209,7 @@ Now, you have learned how to convert EPUB files to PDF using Aspose.HTML for .NE
 
 Aspose.HTML for .NET is a versatile tool for converting EPUB files to PDF, offering customization options to tailor the resulting PDF document to your needs. Whether you require simple conversions or advanced customization, Aspose.HTML has you covered.
 
-If you haven't already, you can download Aspose.HTML for .NET from the [official website](https://releases.aspose.com/html/net/) and start using it in your .NET applications today.
+If you haven't already, you can download Aspose.HTML for .NET from the [website](https://releases.aspose.com/html/net/) and start using it in your .NET applications today.
 
 ---
 

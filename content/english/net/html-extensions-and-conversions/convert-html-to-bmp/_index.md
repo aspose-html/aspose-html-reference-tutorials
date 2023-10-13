@@ -19,7 +19,7 @@ To use Aspose.HTML for .NET, you need a .NET development environment set up on y
 
 ### Aspose.HTML for .NET Library
 
-You must have the Aspose.HTML for .NET library installed. You can obtain it from the official website, [Download Aspose.HTML for .NET](https://releases.aspose.com/html/net/). Make sure to follow the installation instructions provided.
+You must have the Aspose.HTML for .NET library installed. You can obtain it from the website, [Download Aspose.HTML for .NET](https://releases.aspose.com/html/net/). Make sure to follow the installation instructions provided.
 
 ### HTML Document to Work With
 
@@ -85,13 +85,13 @@ Congratulations! You have successfully converted an HTML document to a BMP image
 
 ## Conclusion
 
-Aspose.HTML for .NET is a versatile library that simplifies HTML document manipulation and conversion tasks. In this tutorial, we focused on converting HTML to BMP. However, this library offers many more capabilities that can enhance your web development projects. Explore the [official documentation](https://reference.aspose.com/html/net/) for a deeper understanding of its features and functionalities.
+Aspose.HTML for .NET is a versatile library that simplifies HTML document manipulation and conversion tasks. In this tutorial, we focused on converting HTML to BMP. However, this library offers many more capabilities that can enhance your web development projects. Explore the [documentation](https://reference.aspose.com/html/net/) for a deeper understanding of its features and functionalities.
 
 ## Frequently Asked Questions (FAQs)
 
 ### 1. Where can I find additional documentation for Aspose.HTML for .NET?
 
-For comprehensive documentation and detailed usage examples, visit the [official documentation](https://reference.aspose.com/html/net/).
+For comprehensive documentation and detailed usage examples, visit the [documentation](https://reference.aspose.com/html/net/).
 
 ### 2. How can I obtain a temporary license for Aspose.HTML for .NET?
 

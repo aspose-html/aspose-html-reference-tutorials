@@ -13,7 +13,7 @@ In the fast-paced world of web development and document processing, having the r
 
 Before we embark on this journey, let's ensure we have everything we need:
 
-1. Aspose.HTML for .NET: Make sure you have this library installed. You can download it from the [official Aspose.HTML for .NET download page](https://releases.aspose.com/html/net/).
+1. Aspose.HTML for .NET: Make sure you have this library installed. You can download it from the [Aspose.HTML for .NET download page](https://releases.aspose.com/html/net/).
 
 2. .NET Development Environment: You should have a working .NET development environment installed on your machine.
 
@@ -81,7 +81,7 @@ In conclusion, Aspose.HTML for .NET simplifies complex HTML document handling, m
 Aspose.HTML for .NET is a .NET library that enables developers to manipulate and render HTML documents programmatically.
 
 ### 2. Where can I download Aspose.HTML for .NET?
-You can download Aspose.HTML for .NET from the [official download page](https://releases.aspose.com/html/net/).
+You can download Aspose.HTML for .NET from the [download page](https://releases.aspose.com/html/net/).
 
 ### 3. Can I try Aspose.HTML for .NET before purchasing?
 Yes, you can access a free trial of Aspose.HTML for .NET from [here](https://releases.aspose.com/).

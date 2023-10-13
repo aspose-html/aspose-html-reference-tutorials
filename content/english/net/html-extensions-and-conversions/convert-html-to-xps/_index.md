@@ -16,7 +16,7 @@ Before we dive into the depths of Aspose.HTML for .NET, it's crucial to prepare 
 
 ### Install Visual Studio
 
-First and foremost, ensure you have Visual Studio installed on your system. If not, download and install it from the official Microsoft website.
+First and foremost, ensure you have Visual Studio installed on your system. If not, download and install it from the Microsoft website.
 
 ### Acquire Aspose.HTML for .NET
 

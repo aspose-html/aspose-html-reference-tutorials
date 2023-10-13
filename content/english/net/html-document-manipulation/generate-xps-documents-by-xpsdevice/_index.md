@@ -20,11 +20,11 @@ Before we dive into using Aspose.HTML for .NET, you should ensure that you have 
 
 1. Visual Studio Installed
 
-You'll need Visual Studio, the integrated development environment for .NET, to work with Aspose.HTML. If you haven't installed it yet, you can download it from the official website.
+You'll need Visual Studio, the integrated development environment for .NET, to work with Aspose.HTML. If you haven't installed it yet, you can download it from the website.
 
 2. Aspose.HTML for .NET
 
-To get started, you must have Aspose.HTML for .NET. You can download the library from the [official download page](https://releases.aspose.com/html/net/).
+To get started, you must have Aspose.HTML for .NET. You can download the library from the [download page](https://releases.aspose.com/html/net/).
 
 3. Basic C# Knowledge
 
@@ -102,7 +102,7 @@ A2: Yes, Aspose.HTML for .NET is compatible with Windows, Linux, and macOS, maki
 
 ### Q3: Do I need a license to use Aspose.HTML for .NET?
 
-A3: Yes, you'll need a valid license to use Aspose.HTML for .NET in your commercial projects. You can obtain a license from the [official purchase page](https://purchase.aspose.com/buy).
+A3: Yes, you'll need a valid license to use Aspose.HTML for .NET in your commercial projects. You can obtain a license from the [purchase page](https://purchase.aspose.com/buy).
 
 ### Q4: Is there a trial version available for testing?
 

@@ -16,11 +16,11 @@ Before we begin harnessing the potential of Aspose.HTML for .NET, let's ensure y
 
 1. Visual Studio Installed
 
-To use Aspose.HTML in your .NET project, you must have Visual Studio installed on your system. If you haven't already, you can download it from the official website.
+To use Aspose.HTML in your .NET project, you must have Visual Studio installed on your system. If you haven't already, you can download it from the website.
 
 2. Aspose.HTML for .NET
 
-You need to download and install Aspose.HTML for .NET. You can get it from the official [download link](https://releases.aspose.com/html/net/).
+You need to download and install Aspose.HTML for .NET. You can get it from the [download link](https://releases.aspose.com/html/net/).
 
 3. Aspose.HTML License
 

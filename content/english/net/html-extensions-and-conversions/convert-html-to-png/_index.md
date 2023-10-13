@@ -18,7 +18,7 @@ Before we dive into using Aspose.HTML for .NET, make sure you have the following
 
 ### 1. Install Aspose.HTML for .NET
 
-To get started, you need to install Aspose.HTML for .NET. You can download the library from the official website, [here](https://releases.aspose.com/html/net/). Follow the installation instructions provided to set up Aspose.HTML in your .NET project.
+To get started, you need to install Aspose.HTML for .NET. You can download the library from the website, [here](https://releases.aspose.com/html/net/). Follow the installation instructions provided to set up Aspose.HTML in your .NET project.
 
 ### 2. Import Necessary Namespace
 
@@ -89,7 +89,7 @@ Aspose.HTML for .NET is a versatile library that simplifies working with HTML do
 Aspose.HTML for .NET is not a free library. You can check out the pricing and licensing options [here](https://purchase.aspose.com/buy).
 
 ### Where can I find further documentation for Aspose.HTML for .NET?
-You can refer to the official documentation [here](https://reference.aspose.com/html/net/) for in-depth information and examples.
+You can refer to the documentation [here](https://reference.aspose.com/html/net/) for in-depth information and examples.
 
 ### Can I try Aspose.HTML for .NET before purchasing it?
 Yes, you can explore a free trial version [here](https://releases.aspose.com/) to evaluate its features and capabilities.

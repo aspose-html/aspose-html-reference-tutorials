@@ -16,7 +16,7 @@ Before we dive into the conversion process, make sure you have the following pre
 
 ### 1. Aspose.HTML for .NET Library
 
-You need to have the Aspose.HTML for .NET library installed. If you haven't done this already, you can download it from the official website [here](https://releases.aspose.com/html/net/). Follow the installation instructions provided on the website.
+You need to have the Aspose.HTML for .NET library installed. If you haven't done this already, you can download it from the website [here](https://releases.aspose.com/html/net/). Follow the installation instructions provided on the website.
 
 ### 2. Sample HTML Document
 
@@ -99,7 +99,7 @@ Yes, you can. As shown in the example, you can set resource handling rules using
 
 ### Where can I find more resources and documentation for Aspose.HTML for .NET?
 
-You can explore the official [Aspose.HTML documentation](https://reference.aspose.com/html/net/) for in-depth information, tutorials, and API references. Additionally, the [Aspose.HTML forum](https://forum.aspose.com/) is a great place to seek help and discuss any issues or questions you may have.
+You can explore the [Aspose.HTML documentation](https://reference.aspose.com/html/net/) for in-depth information, tutorials, and API references. Additionally, the [Aspose.HTML forum](https://forum.aspose.com/) is a great place to seek help and discuss any issues or questions you may have.
 
 ### Is there a free trial available for Aspose.HTML for .NET?
 
