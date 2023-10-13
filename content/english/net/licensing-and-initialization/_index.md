@@ -35,7 +35,7 @@ With Aspose.HTML for .NET, you can perform a wide range of HTML manipulations. F
 Aspose.HTML for .NET isn't just a tool; it's a creative canvas for web developers. You can unleash your creativity and build stunning web applications, generate reports, and much more. The only limit is your imagination.
 
 ## Licensing and Initialization Tutorials
-### [Apply Metered License in .NET with Aspose.HTML](./apply-metered-license-dotnet-aspose-html/)
+### [Apply Metered License in .NET with Aspose.HTML](./apply-metered-license/)
 Learn how to apply a metered license in Aspose.HTML for .NET. Manage your HTML manipulation needs efficiently. Get started now!
 
 In conclusion, our licensing and initialization tutorials for Aspose.HTML for .NET are your gateway to a smoother and more efficient web development experience. By following our step-by-step guidance, you'll be equipped with the skills needed to harness the full potential of this powerful library. So, why wait? Start your journey into the world of Aspose.HTML for .NET today and unlock the true potential of web development with ease.

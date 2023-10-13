@@ -34,15 +34,15 @@ So, whether you're a seasoned developer or just starting your journey into HTML 
 
 Now that you have Aspose.HTML for .NET set up, it's time to explore the tutorials that will help you master HTML rendering. Below is a listing of tutorials that cover various aspects of rendering HTML documents:
 
-### [Render HTML as PNG in .NET with Aspose.HTML](./render-html-as-png-dotnet-aspose-html/)
+### [Render HTML as PNG in .NET with Aspose.HTML](./render-html-as-png/)
 Learn to work with Aspose.HTML for .NET: Manipulate HTML, convert to various formats, and more. Dive into this comprehensive tutorial!
-### [Render EPUB as XPS in .NET with Aspose.HTML](./render-epub-as-xps-dotnet-aspose-html/)
+### [Render EPUB as XPS in .NET with Aspose.HTML](./render-epub-as-xps/)
 Learn how to create and render HTML documents with Aspose.HTML for .NET in this comprehensive tutorial. Dive into the world of HTML manipulation, web scraping, and more.
-### [Rendering Timeout in .NET with Aspose.HTML](./rendering-timeout-dotnet-aspose-html/)
+### [Rendering Timeout in .NET with Aspose.HTML](./rendering-timeout/)
 Learn how to control rendering timeouts effectively in Aspose.HTML for .NET. Explore rendering options and ensure smooth HTML document rendering.
-### [Render MHTML as XPS in .NET with Aspose.HTML](./render-mhtml-as-xps-dotnet-aspose-html/)
+### [Render MHTML as XPS in .NET with Aspose.HTML](./render-mhtml-as-xps/)
  Learn to render MHTML as XPS in .NET with Aspose.HTML. Enhance your HTML manipulation skills and boost your web development projects!
-### [Render Multiple Documents in .NET with Aspose.HTML](./render-multiple-documents-dotnet-aspose-html/)
+### [Render Multiple Documents in .NET with Aspose.HTML](./render-multiple-documents/)
 Learn to render multiple HTML documents using Aspose.HTML for .NET. Boost your document processing capabilities with this powerful library.
-### [Render SVG Doc as PNG in .NET with Aspose.HTML](./render-svg-doc-as-png-dotnet-aspose-html/)
+### [Render SVG Doc as PNG in .NET with Aspose.HTML](./render-svg-doc-as-png/)
 Unlock the power of Aspose.HTML for .NET! Learn how to Render SVG Doc as PNG effortlessly. Dive into step-by-step examples and FAQs. Get started now!
