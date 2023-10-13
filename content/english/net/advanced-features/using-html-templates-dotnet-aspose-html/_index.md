@@ -104,7 +104,9 @@ This HTML template includes placeholders like `{{FirstName}}`, `{{LastName}}`, `
 Finally, invoke the `Converter.ConvertTemplate` method to populate your HTML template with the data from the JSON source.
 
 ```csharp
-Aspose.Html.Converters.Converter.ConvertTemplate("template.html", new Aspose.Html.Converters.TemplateData("data-source.json"), new Aspose.Html.Loading.TemplateLoadOptions(), "document.html");
+Aspose.Html.Converters.Converter.ConvertTemplate(
+"template.html", new Aspose.Html.Converters.TemplateData("data-source.json"), new Aspose.Html.Loading.TemplateLoadOptions(), "document.html"
+);
 ```
 
 This code takes the "template.html" file, substitutes the placeholders with the corresponding JSON values, and saves the result in "document.html."

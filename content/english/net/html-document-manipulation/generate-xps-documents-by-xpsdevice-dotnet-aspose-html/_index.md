@@ -40,7 +40,7 @@ Now that you have the prerequisites in place, let's move on to the steps to use 
 
 The first step is to import the necessary namespace. This is crucial for your .NET application to recognize and use Aspose.HTML for .NET.
 
-### Step 1: Import the Aspose.HTML Namespace
+### Import the Aspose.HTML Namespace
 
 In your C# code, add the following line at the top to import the Aspose.HTML namespace:
 
@@ -50,11 +50,9 @@ using Aspose.Html;
 
 This enables your application to access the classes and methods provided by Aspose.HTML.
 
-## Getting Started with Aspose.HTML for .NET
-
 With the prerequisites in place and the namespace imported, you can start using Aspose.HTML for .NET to work with HTML documents. Here's a simple example to get you started.
 
-### Step 2: Create an HTMLDocument
+## Create an HTMLDocument
 
 You can create an `HTMLDocument` object that represents an HTML document. You need to pass the HTML content and the path to your data directory where any related files are stored.
 
@@ -69,7 +67,7 @@ using (var document = new Aspose.Html.HTMLDocument("<style>p { color: green; }</
 
 The HTML content is passed as a string in the constructor, and `dataDir` points to your data directory.
 
-### Step 3: Rendering the HTML Document
+### Rendering the HTML Document to XPS
 
 Now, let's render the HTML document to a specific format. In this example, we'll render it to an XPS file.
 

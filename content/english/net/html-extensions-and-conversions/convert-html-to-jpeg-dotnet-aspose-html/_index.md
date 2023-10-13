@@ -113,7 +113,7 @@ Aspose.HTML for .NET is a valuable tool for developers, making HTML manipulation
 
 If you encounter any issues or have questions, don't hesitate to seek support from the Aspose community [here](https://forum.aspose.com/).
 
-### FAQs
+## FAQs
 
 ### Is Aspose.HTML for .NET free?
    Aspose.HTML for .NET is a paid library, but you can explore it with a free trial. To purchase a license, visit [here](https://purchase.aspose.com/buy).

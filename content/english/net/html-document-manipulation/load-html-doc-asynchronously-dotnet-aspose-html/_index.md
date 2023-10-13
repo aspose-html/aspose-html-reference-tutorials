@@ -130,7 +130,7 @@ Aspose.HTML for .NET simplifies working with HTML documents, allowing developers
 
 If you want to delve deeper into the capabilities of Aspose.HTML for .NET, refer to the [documentation](https://reference.aspose.com/html/net/) for more details and examples.
 
-### FAQ's
+## FAQ's
 
 ### Q1: Is Aspose.HTML for .NET compatible with the latest .NET Framework versions?
 

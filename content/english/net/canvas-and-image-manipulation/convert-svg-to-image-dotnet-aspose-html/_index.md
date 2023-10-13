@@ -33,7 +33,7 @@ using Aspose.Html.Converters;
 
 Now, let's break down each step and explain it in detail.
 
-### Step 1: Setting the Data Directory
+## Step 1: Setting the Data Directory
 
 ```csharp
 string dataDir = "Your Data Directory";
@@ -41,7 +41,7 @@ string dataDir = "Your Data Directory";
 
 In the first step, you need to specify the data directory where your SVG file is located. Replace `"Your Data Directory"` with the actual path to your SVG file.
 
-### Step 2: Loading the SVG Document
+## Step 2: Loading the SVG Document
 
 ```csharp
 SVGDocument svgDocument = new SVGDocument(dataDir + "input.svg");
@@ -49,7 +49,7 @@ SVGDocument svgDocument = new SVGDocument(dataDir + "input.svg");
 
 This step involves creating an instance of the `SVGDocument` class by loading your SVG document. Make sure the file name (`"input.svg"`) matches your SVG file's name.
 
-### Step 3: Initializing ImageSaveOptions
+## Step 3: Initializing ImageSaveOptions
 
 ```csharp
 ImageSaveOptions options = new ImageSaveOptions(ImageFormat.Jpeg);
@@ -57,7 +57,7 @@ ImageSaveOptions options = new ImageSaveOptions(ImageFormat.Jpeg);
 
 Here, you initialize an instance of `ImageSaveOptions` and specify the image format you want as the output. In this case, we've chosen JPEG.
 
-### Step 4: Setting the Output File Path
+## Step 4: Setting the Output File Path
 
 ```csharp
 string outputFile = dataDir + "SVGtoImage_Output.jpeg";
@@ -65,7 +65,7 @@ string outputFile = dataDir + "SVGtoImage_Output.jpeg";
 
 You set the path for the output image file. Replace `"SVGtoImage_Output.jpeg"` with the desired name for your output image.
 
-### Step 5: Converting SVG to Image
+## Step 5: Converting SVG to Image
 
 ```csharp
 Converter.ConvertSVG(svgDocument, options, outputFile);

@@ -67,7 +67,7 @@ This code calls the `ConvertHTML` method with your `htmlDocument`, the `options`
 
 Congratulations! You've successfully converted an HTML document to a TIFF image using Aspose.HTML for .NET.
 
----
+## Conclusion
 
 In conclusion, Aspose.HTML for .NET provides a powerful and efficient way to convert HTML documents to various formats, including TIFF. By following these simple steps, you can enhance your web development projects and create content that's visually appealing and accessible.
 
