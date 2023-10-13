@@ -1,6 +1,6 @@
 ---
 title: Convert HTML to XPS in .NET with Aspose.HTML
-linktitle: Convert HTML to XPS in .NET with Aspose.HTML
+linktitle: Convert HTML to XPS in .NET
 second_title: Aspose.Slides .NET HTML manipulation API
 description: Discover the power of Aspose.HTML for .NET. Convert HTML to XPS effortlessly. Prerequisites, step-by-step guide, and FAQs included.
 type: docs

@@ -1,6 +1,6 @@
 ---
 title: Convert SVG to Image in .NET with Aspose.HTML
-linktitle: Convert SVG to Image in .NET with Aspose.HTML
+linktitle: Convert SVG to Image in .NET
 second_title: Aspose.Slides .NET HTML manipulation API
 description: Convert SVG to Images in .NET with Aspose.HTML. A Comprehensive Tutorial for Developers. Easily transform SVG documents into JPEG, PNG, BMP, and GIF formats.
 type: docs

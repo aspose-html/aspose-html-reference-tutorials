@@ -1,6 +1,6 @@
 ---
 title: Load HTML Documents with Credentials in .NET with Aspose.HTML
-linktitle: Load HTML Documents with Credentials in .NET with Aspose.HTML
+linktitle: Load HTML Documents with Credentials in .NET
 second_title: Aspose.Slides .NET HTML manipulation API
 description: Learn how to supercharge your SEO with Aspose.HTML for .NET. Boost rankings, analyze web content, and optimize for search engines.
 type: docs

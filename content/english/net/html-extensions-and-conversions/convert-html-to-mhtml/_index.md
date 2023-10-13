@@ -1,6 +1,6 @@
 ---
 title: Convert HTML to MHTML in .NET with Aspose.HTML
-linktitle: Convert HTML to MHTML in .NET with Aspose.HTML
+linktitle: Convert HTML to MHTML in .NET
 second_title: Aspose.Slides .NET HTML manipulation API
 description: Convert HTML to MHTML in .NET with Aspose.HTML - A step-by-step guide for efficient web content archiving. Learn how to use Aspose.HTML for .NET to create MHTML archives.
 type: docs

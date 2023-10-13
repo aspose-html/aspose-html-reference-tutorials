@@ -1,6 +1,6 @@
 ---
 title: Fine-Tuning Converters in .NET with Aspose.HTML
-linktitle: Fine-Tuning Converters in .NET with Aspose.HTML
+linktitle: Fine-Tuning Converters in .NET
 second_title: Aspose.Slides .NET HTML manipulation API
 description: Learn how to convert HTML to PDF, XPS, and images with Aspose.HTML for .NET. Step-by-step tutorial with code examples and FAQs.
 type: docs

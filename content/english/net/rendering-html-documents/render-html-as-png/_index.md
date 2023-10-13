@@ -1,6 +1,6 @@
 ---
 title: Render HTML as PNG in .NET with Aspose.HTML
-linktitle: Render HTML as PNG in .NET with Aspose.HTML
+linktitle: Render HTML as PNG in .NET
 second_title: Aspose.Slides .NET HTML manipulation API
 description: Learn to work with Aspose.HTML for .NET. Manipulate HTML, convert to various formats, and more. Dive into this comprehensive tutorial!
 type: docs

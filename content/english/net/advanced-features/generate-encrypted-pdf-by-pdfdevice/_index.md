@@ -1,6 +1,6 @@
 ---
 title: Generate Encrypted PDF by PdfDevice in .NET with Aspose.HTML
-linktitle: Generate Encrypted PDF by PdfDevice in .NET with Aspose.HTML
+linktitle: Generate Encrypted PDF by PdfDevice in .NET
 second_title: Aspose.Slides .NET HTML manipulation API
 description: Convert HTML to PDF dynamically with Aspose.HTML for .NET. Easy integration, customizable options, and robust performance.
 type: docs

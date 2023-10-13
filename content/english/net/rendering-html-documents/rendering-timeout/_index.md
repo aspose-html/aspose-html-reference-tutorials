@@ -1,6 +1,6 @@
 ---
 title: Rendering Timeout in .NET with Aspose.HTML
-linktitle: Rendering Timeout in .NET with Aspose.HTML
+linktitle: Rendering Timeout in .NET
 second_title: Aspose.Slides .NET HTML manipulation API
 description: Learn how to control rendering timeouts effectively in Aspose.HTML for .NET. Explore rendering options and ensure smooth HTML document rendering.
 type: docs
