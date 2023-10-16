@@ -9,4 +9,4 @@ url: /java/conversion-canvas-to-pdf/
 ---
 
 ## Conversion - Canvas to PDF Tutorials
-### [Converting Canvas to PDF](.//conversion/canvas-to-pdf/)
+### [Converting Canvas to PDF](./canvas-to-pdf/)

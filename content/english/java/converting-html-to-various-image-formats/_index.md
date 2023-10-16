@@ -9,7 +9,7 @@ url: /java/converting-html-to-various-image-formats/
 ---
 
 ## Converting HTML to Various Image Formats Tutorials
-### [Converting HTML to BMP](.//conversion/convert-html-to-bmp/)
-### [Converting HTML to GIF](.//conversion/convert-html-to-gif/)
-### [Converting HTML to JPG](.//conversion/convert-html-to-jpg/)
-### [Converting HTML to PNG](.//conversion/convert-html-to-png/)
+### [Converting HTML to BMP](./convert-html-to-bmp/)
+### [Converting HTML to GIF](./convert-html-to-gif/)
+### [Converting HTML to JPG](./convert-html-to-jpg/)
+### [Converting HTML to PNG](./convert-html-to-png/)

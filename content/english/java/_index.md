@@ -8,7 +8,7 @@ description:
 is_root: true
 ---
 
-### [Advanced Usage of Aspose.HTML Java](./advanced-usage-of-aspose.html-java/)
+### [Advanced Usage of Aspose.HTML Java](./advanced-usage/)
 
 ### [Conversion - Canvas to PDF](./conversion-canvas-to-pdf/)
 

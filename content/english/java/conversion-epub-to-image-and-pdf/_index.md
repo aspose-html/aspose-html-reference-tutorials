@@ -9,5 +9,5 @@ url: /java/conversion-epub-to-image-and-pdf/
 ---
 
 ## Conversion - EPUB to Image and PDF Tutorials
-### [Converting EPUB to Image](.//conversion/convert-epub-to-image/)
-### [Converting EPUB to PDF](.//conversion/convert-epub-to-pdf/)
+### [Converting EPUB to Image](./convert-epub-to-image/)
+### [Converting EPUB to PDF](./convert-epub-to-pdf/)

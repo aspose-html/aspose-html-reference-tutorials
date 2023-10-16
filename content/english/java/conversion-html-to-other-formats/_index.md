@@ -9,10 +9,10 @@ url: /java/conversion-html-to-other-formats/
 ---
 
 ## Conversion - HTML to Other Formats Tutorials
-### [Converting HTML to PDF](.//conversion/convert-html-to-pdf/)
-### [Converting HTML to MHTML](.//conversion/convert-html-to-mhtml/)
-### [Converting HTML to XPS](.//conversion/convert-html-to-xps/)
-### [Converting Markdown to HTML](.//conversion/convert-markdown-to-html/)
-### [Converting SVG to Image](.//conversion/convert-svg-to-image/)
-### [Converting SVG to PDF](.//conversion/convert-svg-to-pdf/)
-### [Converting SVG to XPS](.//conversion/convert-svg-to-xps/)
+### [Converting HTML to PDF](./convert-html-to-pdf/)
+### [Converting HTML to MHTML](./convert-html-to-mhtml/)
+### [Converting HTML to XPS](./convert-html-to-xps/)
+### [Converting Markdown to HTML](./convert-markdown-to-html/)
+### [Converting SVG to Image](./convert-svg-to-image/)
+### [Converting SVG to PDF](./convert-svg-to-pdf/)
+### [Converting SVG to XPS](./convert-svg-to-xps/)

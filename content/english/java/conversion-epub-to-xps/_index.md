@@ -9,4 +9,4 @@ url: /java/conversion-epub-to-xps/
 ---
 
 ## Conversion - EPUB to XPS Tutorials
-### [Converting EPUB to XPS](.//conversion/convert-epub-to-xps/)
+### [Converting EPUB to XPS](./convert-epub-to-xps/)

@@ -9,11 +9,11 @@ url: /java/converting-between-epub-and-image-formats/
 ---
 
 ## Converting Between EPUB and Image Formats Tutorials
-### [Converting EPUB to BMP](.//conversion/convert-epub-to-bmp/)
-### [Converting EPUB to GIF](.//conversion/convert-epub-to-gif/)
-### [Converting EPUB to JPG](.//conversion/convert-epub-to-jpg/)
-### [Converting EPUB to PNG](.//conversion/convert-epub-to-png/)
-### [Converting EPUB to TIFF](.//conversion/convert-epub-to-tiff/)
-### [Specifying Custom Stream Provider for EPUB to Image Conversion](.//conversion/convert-epub-to-image-specify-custom-stream-provider/)
-### [Specifying Image Save Options for EPUB to Image Conversion](.//conversion/convert-epub-to-image-specify-image-save-options/)
-### [Converting EPUB to Image with a Single Line of Code](.//conversion/convert-epub-to-image-single-line/)
+### [Converting EPUB to BMP](./convert-epub-to-bmp/)
+### [Converting EPUB to GIF](./convert-epub-to-gif/)
+### [Converting EPUB to JPG](./convert-epub-to-jpg/)
+### [Converting EPUB to PNG](./convert-epub-to-png/)
+### [Converting EPUB to TIFF](./convert-epub-to-tiff/)
+### [Specifying Custom Stream Provider for EPUB to Image Conversion](./convert-epub-to-image-specify-custom-stream-provider/)
+### [Specifying Image Save Options for EPUB to Image Conversion](./convert-epub-to-image-specify-image-save-options/)
+### [Converting EPUB to Image with a Single Line of Code](./convert-epub-to-image-single-line/)
