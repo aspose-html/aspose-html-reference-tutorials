@@ -9,4 +9,5 @@ url: /java/conversion-canvas-to-pdf/
 ---
 
 ## Conversion - Canvas to PDF Tutorials
-### [Converting Canvas to PDF](./canvas-to-pdf/)
+### [Convert HTML Canvas to PDF with Aspose.HTML for Java](./canvas-to-pdf/)
+Learn how to convert HTML Canvas to PDF with Aspose.HTML for Java in this step-by-step guide.
