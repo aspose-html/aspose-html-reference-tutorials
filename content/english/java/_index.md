@@ -8,26 +8,24 @@ description:
 is_root: true
 ---
 
-### [Advanced Aspose.HTML Usage](./advanced-aspose.html-usage/)
+### [Advanced Usage of Aspose.HTML Java](./advanced-usage-of-aspose.html-java/)
 
-### [EPUB Conversion](./epub-conversion/)
+### [Conversion - Canvas to PDF](./conversion-canvas-to-pdf/)
 
-### [HTML Conversion - Image](./html-conversion---image/)
+### [Conversion - EPUB to Image and PDF](./conversion-epub-to-image-and-pdf/)
 
-### [HTML Conversion - Markdown](./html-conversion---markdown/)
+### [Conversion - EPUB to XPS](./conversion-epub-to-xps/)
 
-### [HTML Conversion - PDF](./html-conversion---pdf/)
+### [Conversion - HTML to Various Image Formats](./conversion-html-to-various-image-formats/)
 
-### [HTML Conversion - XPS](./html-conversion---xps/)
+### [Conversion - HTML to Other Formats](./conversion-html-to-other-formats/)
 
-### [Converting Between Formats - Image](./converting-between-formats---image/)
+### [Converting Between EPUB and Image Formats](./converting-between-epub-and-image-formats/)
 
-### [Converting Between Formats - PDF](./converting-between-formats---pdf/)
+### [Converting EPUB to PDF](./converting-epub-to-pdf/)
 
-### [Converting Between Formats - HTML to Image](./converting-between-formats---html-to-image/)
+### [Converting EPUB to XPS](./converting-epub-to-xps/)
 
-### [Converting Between Formats - HTML to Markdown](./converting-between-formats---html-to-markdown/)
+### [Converting HTML to Various Image Formats](./converting-html-to-various-image-formats/)
 
-### [Converting Between Formats - HTML to PDF](./converting-between-formats---html-to-pdf/)
-
-### [Converting Between Formats - HTML to XPS](./converting-between-formats---html-to-xps/)
+### [Converting EPUB to PDF](./converting-epub-to-pdf/)
