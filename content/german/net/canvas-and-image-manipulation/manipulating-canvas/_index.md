@@ -1,7 +1,7 @@
 ---
 title: Bearbeiten von Canvas in .NET mit Aspose.HTML
 linktitle: Bearbeiten von Canvas in .NET
-second_title: Aspose.Slides .NET HTML-Manipulations-API
+second_title: Aspose.HTML .NET HTML-Manipulations-API
 description: Erfahren Sie, wie Sie HTML-Dokumente mit Aspose.HTML für .NET bearbeiten. Dieses umfassende Tutorial behandelt die Grundlagen, Voraussetzungen und Schritt-für-Schritt-Beispiele.
 type: docs
 weight: 10

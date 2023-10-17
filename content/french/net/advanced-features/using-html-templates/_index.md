@@ -1,7 +1,7 @@
 ---
 title: Utilisation de modèles HTML dans .NET avec Aspose.HTML
 linktitle: Utilisation de modèles HTML dans .NET
-second_title: API de manipulation HTML Aspose.Slides .NET
+second_title: API de manipulation HTML Aspose.HTML .NET
 description: Découvrez comment utiliser Aspose.HTML pour .NET pour générer dynamiquement des documents HTML à partir de données JSON. Exploitez la puissance de la manipulation HTML dans vos applications .NET.
 type: docs
 weight: 17

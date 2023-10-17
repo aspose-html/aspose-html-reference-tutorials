@@ -1,7 +1,7 @@
 ---
 title: 使用 Aspose.HTML 在 .NET 中操作 Canvas
 linktitle: 在 .NET 中操作画布
-second_title: Aspose.Slides .NET HTML 操作 API
+second_title: Aspose.HTML .NET HTML 操作 API
 description: 了解如何使用 Aspose.HTML for .NET 操作 HTML 文档。这个综合教程涵盖了基础知识、先决条件和分步示例。
 type: docs
 weight: 10

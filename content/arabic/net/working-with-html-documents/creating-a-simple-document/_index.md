@@ -1,7 +1,7 @@
 ---
 title: إنشاء مستند بسيط في .NET باستخدام Aspose.HTML
 linktitle: إنشاء مستند بسيط في .NET
-second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة HTML
+second_title: Aspose.HTML .NET واجهة برمجة تطبيقات معالجة HTML
 description: تعلم كيفية العمل مع مستندات HTML في .NET باستخدام Aspose.HTML. قم بإنشاء HTML ومعالجته وتحويله بسهولة. ابدأ اليوم!
 type: docs
 weight: 11

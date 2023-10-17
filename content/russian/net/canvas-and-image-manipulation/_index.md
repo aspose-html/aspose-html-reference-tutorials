@@ -1,7 +1,7 @@
 ---
 title: Манипуляции с холстом и изображениями
 linktitle: Манипуляции с холстом и изображениями
-second_title: Aspose.Slides .NET API манипулирования HTML
+second_title: Aspose.HTML .NET API манипулирования HTML
 description: Научитесь манипулировать изображениями с помощью Aspose.HTML для .NET с помощью пошаговых руководств. Откройте для себя возможности холста и редактирования изображений.
 type: docs
 weight: 22

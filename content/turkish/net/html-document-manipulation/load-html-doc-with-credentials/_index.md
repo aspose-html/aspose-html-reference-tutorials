@@ -1,7 +1,7 @@
 ---
 title: Aspose.HTML ile HTML Belgelerini Kimlik Bilgileriyle birlikte .NET'e yükleyin
 linktitle: .NET'te Kimlik Bilgileriyle HTML Belgelerini Yükleme
-second_title: Aspose.Slides .NET HTML işleme API'si
+second_title: Aspose.HTML .NET HTML işleme API'si
 description: Aspose.HTML for .NET ile SEO'nuzu nasıl güçlendireceğinizi öğrenin. Sıralamaları artırın, web içeriğini analiz edin ve arama motorları için optimize edin.
 type: docs
 weight: 11

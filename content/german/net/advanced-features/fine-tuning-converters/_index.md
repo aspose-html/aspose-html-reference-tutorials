@@ -1,7 +1,7 @@
 ---
 title: Feinabstimmung von Konvertern in .NET mit Aspose.HTML
 linktitle: Feinabstimmung von Konvertern in .NET
-second_title: Aspose.Slides .NET HTML-Manipulations-API
+second_title: Aspose.HTML .NET HTML-Manipulations-API
 description: Erfahren Sie, wie Sie mit Aspose.HTML für .NET HTML in PDF, XPS und Bilder konvertieren. Schritt-für-Schritt-Anleitung mit Codebeispielen und FAQs.
 type: docs
 weight: 16

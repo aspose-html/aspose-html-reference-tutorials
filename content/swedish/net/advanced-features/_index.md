@@ -1,7 +1,7 @@
 ---
 title: Avancerade funktioner
 linktitle: Avancerade funktioner
-second_title: Aspose.Slides .NET HTML manipulation API
+second_title: Aspose.HTML .NET HTML manipulation API
 description: Lås upp avancerade .NET-funktioner med Aspose.HTML! Från miljökonfiguration till webbskrapning, utforska omfattande handledningar för kraftfull webbutveckling.
 type: docs
 weight: 24

@@ -1,7 +1,7 @@
 ---
 title: 使用 Aspose.HTML 在 .NET 中应用计量许可证
 linktitle: 在 .NET 中应用计量许可证
-second_title: Aspose.Slides .NET HTML 操作 API
+second_title: Aspose.HTML .NET HTML 操作 API
 description: 了解如何在 Aspose.HTML for .NET 中应用计量许可证。有效管理您的 HTML 操作需求。现在就开始！
 type: docs
 weight: 10

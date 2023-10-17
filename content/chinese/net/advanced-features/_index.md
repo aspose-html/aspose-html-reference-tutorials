@@ -1,7 +1,7 @@
 ---
 title: 高级功能
 linktitle: 高级功能
-second_title: Aspose.Slides .NET HTML 操作 API
+second_title: Aspose.HTML .NET HTML 操作 API
 description: 使用 Aspose.HTML 解锁高级 .NET 功能！从环境配置到网页抓取，探索强大的网页开发的综合教程。
 type: docs
 weight: 24

@@ -1,7 +1,7 @@
 ---
 title: Fusionner HTML avec XML dans .NET avec Aspose.HTML
 linktitle: Fusionner HTML avec XML dans .NET
-second_title: API de manipulation HTML Aspose.Slides .NET
+second_title: API de manipulation HTML Aspose.HTML .NET
 description: Apprenez à utiliser Aspose.HTML pour .NET. Importez un espace de noms, fusionnez HTML avec XML et améliorez vos compétences en développement Web avec ce guide complet.
 type: docs
 weight: 18

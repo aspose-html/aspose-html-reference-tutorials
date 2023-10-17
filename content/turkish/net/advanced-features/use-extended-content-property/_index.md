@@ -1,7 +1,7 @@
 ---
 title: Aspose.HTML ile .NET'te Genişletilmiş İçerik Özelliğini kullanın
 linktitle: .NET'te Genişletilmiş İçerik Özelliğini Kullanma
-second_title: Aspose.Slides .NET HTML işleme API'si
+second_title: Aspose.HTML .NET HTML işleme API'si
 description: Bu adım adım kılavuzla Aspose.HTML for .NET'in nasıl kullanılacağını öğrenin. HTML becerilerinizi geliştirin ve web geliştirme projelerinizi kolaylaştırın.
 type: docs
 weight: 14

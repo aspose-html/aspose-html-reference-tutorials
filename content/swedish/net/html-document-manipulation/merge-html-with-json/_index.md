@@ -1,7 +1,7 @@
 ---
 title: Slå samman HTML med Json i .NET med Aspose.HTML
 linktitle: Slå samman HTML med Json i .NET
-second_title: Aspose.Slides .NET HTML manipulation API
+second_title: Aspose.HTML .NET HTML manipulation API
 description: Lär dig att skapa dynamiskt och webbinnehåll med Aspose.HTML för .NET. Styr din onlinenärvaro och engagera din publik.
 type: docs
 weight: 17

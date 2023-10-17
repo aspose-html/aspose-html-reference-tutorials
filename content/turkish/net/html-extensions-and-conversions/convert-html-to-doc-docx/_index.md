@@ -1,7 +1,7 @@
 ---
 title: Aspose.HTML ile HTML'yi .NET'te DOC ve DOCX'e dönüştürün
 linktitle: HTML'yi .NET'te DOC ve DOCX'e dönüştürün
-second_title: Aspose.Slides .NET HTML işleme API'si
+second_title: Aspose.HTML .NET HTML işleme API'si
 description: Bu adım adım kılavuzla Aspose.HTML for .NET'in gücünden nasıl yararlanacağınızı öğrenin. HTML'yi zahmetsizce DOCX'e dönüştürün ve .NET projelerinizin seviyesini yükseltin. Bu gün başlayacağım!
 type: docs
 weight: 15

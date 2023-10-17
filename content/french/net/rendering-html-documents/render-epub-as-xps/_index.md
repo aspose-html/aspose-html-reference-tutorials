@@ -1,7 +1,7 @@
 ---
 title: Rendre EPUB au format XPS dans .NET avec Aspose.HTML
 linktitle: Rendre EPUB au format XPS dans .NET
-second_title: API de manipulation HTML Aspose.Slides .NET
+second_title: API de manipulation HTML Aspose.HTML .NET
 description: Découvrez comment créer et afficher des documents HTML avec Aspose.HTML pour .NET dans ce didacticiel complet. Plongez dans le monde de la manipulation HTML, du web scraping et bien plus encore.
 type: docs
 weight: 11

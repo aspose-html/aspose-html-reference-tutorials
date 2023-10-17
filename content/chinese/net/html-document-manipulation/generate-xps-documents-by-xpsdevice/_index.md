@@ -1,7 +1,7 @@
 ---
 title: 使用 Aspose.HTML 在 .NET 中通过 XpsDevice 生成 XPS 文档
 linktitle: 在.NET中通过XpsDevice生成XPS文档
-second_title: Aspose.Slides .NET HTML 操作 API
+second_title: Aspose.HTML .NET HTML 操作 API
 description: 使用 Aspose.HTML for .NET 释放 Web 开发的潜力。轻松创建、转换和操作 HTML 文档。
 type: docs
 weight: 19

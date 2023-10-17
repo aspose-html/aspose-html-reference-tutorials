@@ -1,7 +1,7 @@
 ---
 title: Работа с HTML-документами
 linktitle: Работа с HTML-документами
-second_title: Aspose.Slides .NET API манипулирования HTML
+second_title: Aspose.HTML .NET API манипулирования HTML
 description: Откройте для себя мир создания и обработки HTML-документов в .NET с помощью Aspose.HTML. От создания простых документов до глубокого редактирования.
 type: docs
 weight: 23

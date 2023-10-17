@@ -1,7 +1,7 @@
 ---
 title: Saving a Document in .NET with Aspose.HTML
 linktitle: Saving a Document in .NET
-second_title: Aspose.Slides .NET HTML manipulation API
+second_title: Aspose.HTML .NET HTML manipulation API
 description: Unlock the power of Aspose.HTML for .NET with our step-by-step guide. Learn to create, manipulate, and convert HTML and SVG documents
 type: docs
 weight: 16

@@ -1,7 +1,7 @@
 ---
 title: Charger du HTML à l'aide d'une URL dans .NET avec Aspose.HTML
 linktitle: Charger du HTML à l'aide d'une URL dans .NET
-second_title: API de manipulation HTML Aspose.Slides .NET
+second_title: API de manipulation HTML Aspose.HTML .NET
 description: Découvrez comment exploiter la puissance d'Aspose.HTML pour .NET. Boostez votre développement Web avec la manipulation et le rendu HTML.
 type: docs
 weight: 13

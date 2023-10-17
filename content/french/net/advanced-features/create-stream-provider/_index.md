@@ -1,7 +1,7 @@
 ---
 title: Créer un fournisseur de flux dans .NET avec Aspose.HTML
 linktitle: Créer un fournisseur de flux dans .NET
-second_title: API de manipulation HTML Aspose.Slides .NET
+second_title: API de manipulation HTML Aspose.HTML .NET
 description: Découvrez comment utiliser Aspose.HTML pour .NET pour manipuler efficacement des documents HTML. Tutoriel étape par étape pour les développeurs.
 type: docs
 weight: 11

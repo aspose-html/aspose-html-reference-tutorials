@@ -1,7 +1,7 @@
 ---
 title: 使用 Aspose.HTML 在 .NET 中将 MHTML 渲染为 XPS
 linktitle: 在 .NET 中将 MHTML 呈现为 XPS
-second_title: Aspose.Slides .NET HTML 操作 API
+second_title: Aspose.HTML .NET HTML 操作 API
 description: 学习使用 Aspose.HTML 在 .NET 中将 MHTML 渲染为 XPS。增强您的 HTML 操作技能并促进您的 Web 开发项目！
 type: docs
 weight: 13

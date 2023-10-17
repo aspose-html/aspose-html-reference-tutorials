@@ -1,7 +1,7 @@
 ---
 title: Using HTML Templates in .NET with Aspose.HTML
 linktitle: Using HTML Templates in .NET
-second_title: Aspose.Slides .NET HTML manipulation API
+second_title: Aspose.HTML .NET HTML manipulation API
 description: Learn how to use Aspose.HTML for .NET to dynamically generate HTML documents from JSON data. Harness the power of HTML manipulation in your .NET applications.
 type: docs
 weight: 17

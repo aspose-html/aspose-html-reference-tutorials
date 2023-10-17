@@ -1,7 +1,7 @@
 ---
 title: Slå samman HTML med XML i .NET med Aspose.HTML
 linktitle: Slå samman HTML med XML i .NET
-second_title: Aspose.Slides .NET HTML manipulation API
+second_title: Aspose.HTML .NET HTML manipulation API
 description: Lär dig att använda Aspose.HTML för .NET. Importera namnutrymme, slå samman HTML med XML och förbättra dina färdigheter i webbutveckling med den här omfattande guiden.
 type: docs
 weight: 18

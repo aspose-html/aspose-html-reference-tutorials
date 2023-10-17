@@ -1,7 +1,7 @@
 ---
 title: قم بعرض HTML بتنسيق PNG في .NET باستخدام Aspose.HTML
 linktitle: تقديم HTML كـ PNG في .NET
-second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة HTML
+second_title: Aspose.HTML .NET واجهة برمجة تطبيقات معالجة HTML
 description: تعلم كيفية العمل مع Aspose.HTML لـ .NET. التعامل مع HTML، والتحويل إلى تنسيقات مختلفة، والمزيد. الغوص في هذا البرنامج التعليمي الشامل!
 type: docs
 weight: 10

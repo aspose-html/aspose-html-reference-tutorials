@@ -1,7 +1,7 @@
 ---
 title: تقديم مستندات HTML
 linktitle: تقديم مستندات HTML
-second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة HTML
+second_title: Aspose.HTML .NET واجهة برمجة تطبيقات معالجة HTML
 description: تعرف على كيفية عرض مستندات HTML بسهولة باستخدام Aspose.HTML لبرامج .NET التعليمية. استكشف قائمة شاملة من البرامج التعليمية لإتقان عرض HTML.
 type: docs
 weight: 29

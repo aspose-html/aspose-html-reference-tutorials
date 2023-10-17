@@ -1,7 +1,7 @@
 ---
 title: Aspose.HTML ile .NET'te HTML Şablonlarını Kullanmak
 linktitle: .NET'te HTML Şablonlarını Kullanma
-second_title: Aspose.Slides .NET HTML işleme API'si
+second_title: Aspose.HTML .NET HTML işleme API'si
 description: JSON verilerinden dinamik olarak HTML belgeleri oluşturmak için Aspose.HTML for .NET'i nasıl kullanacağınızı öğrenin. .NET uygulamalarınızda HTML manipülasyonunun gücünden yararlanın.
 type: docs
 weight: 17

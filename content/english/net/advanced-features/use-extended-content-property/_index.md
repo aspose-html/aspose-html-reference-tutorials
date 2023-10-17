@@ -1,7 +1,7 @@
 ---
 title: Use Extended Content Property in .NET with Aspose.HTML
 linktitle: Use Extended Content Property in .NET
-second_title: Aspose.Slides .NET HTML manipulation API
+second_title: Aspose.HTML .NET HTML manipulation API
 description: Learn how to use Aspose.HTML for .NET with this step-by-step guide. Enhance your HTML skills and streamline your web development projects.
 type: docs
 weight: 14

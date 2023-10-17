@@ -1,7 +1,7 @@
 ---
 title: Aspose.HTML ile HTML'yi .NET'te MHTML'ye dönüştürün
 linktitle: .NET'te HTML'yi MHTML'ye dönüştürün
-second_title: Aspose.Slides .NET HTML işleme API'si
+second_title: Aspose.HTML .NET HTML işleme API'si
 description: Aspose.HTML ile HTML'yi .NET'te MHTML'ye dönüştürün - Verimli web içeriği arşivlemesi için adım adım kılavuz. MHTML arşivleri oluşturmak için Aspose.HTML for .NET'i nasıl kullanacağınızı öğrenin.
 type: docs
 weight: 19

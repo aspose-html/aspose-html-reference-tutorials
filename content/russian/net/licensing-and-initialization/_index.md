@@ -1,7 +1,7 @@
 ---
 title: Лицензирование и инициализация
 linktitle: Лицензирование и инициализация
-second_title: Aspose.Slides .NET API манипулирования HTML
+second_title: Aspose.HTML .NET API манипулирования HTML
 description: Узнайте, как эффективно использовать Aspose.HTML для .NET, с помощью наших подробных руководств по лицензированию и инициализации. Раскройте весь потенциал этого инструмента.
 type: docs
 weight: 27

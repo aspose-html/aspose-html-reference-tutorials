@@ -1,7 +1,7 @@
 ---
 title: Aspose.HTML ile Bir Belgeyi .NET'e Kaydetmek
 linktitle: .NET'te Belge Kaydetme
-second_title: Aspose.Slides .NET HTML işleme API'si
+second_title: Aspose.HTML .NET HTML işleme API'si
 description: Adım adım kılavuzumuzla Aspose.HTML for .NET'in gücünün kilidini açın. HTML ve SVG belgelerini oluşturmayı, değiştirmeyi ve dönüştürmeyi öğrenin
 type: docs
 weight: 16

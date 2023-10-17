@@ -1,7 +1,7 @@
 ---
 title: 使用 Aspose.HTML 在 .NET 中通过 ImageDevice 生成 JPG 图像
 linktitle: .NET 中通过 ImageDevice 生成 JPG 图像
-second_title: Aspose.Slides .NET HTML 操作 API
+second_title: Aspose.HTML .NET HTML 操作 API
 description: 了解如何使用 Aspose.HTML for .NET 创建动态网页。本分步教程涵盖先决条件、命名空间以及将 HTML 渲染为图像。
 type: docs
 weight: 10

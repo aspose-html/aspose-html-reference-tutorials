@@ -1,7 +1,7 @@
 ---
 title: Fusionner HTML avec Json dans .NET avec Aspose.HTML
 linktitle: Fusionner HTML avec Json dans .NET
-second_title: API de manipulation HTML Aspose.Slides .NET
+second_title: API de manipulation HTML Aspose.HTML .NET
 description: Apprenez à créer du contenu dynamique et Web à l'aide d'Aspose.HTML pour .NET. Renforcez votre présence en ligne et engagez votre public.
 type: docs
 weight: 17

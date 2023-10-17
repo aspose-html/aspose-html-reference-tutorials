@@ -1,7 +1,7 @@
 ---
 title: تحرير مستند في .NET باستخدام Aspose.HTML
 linktitle: تحرير مستند في .NET
-second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة HTML
+second_title: Aspose.HTML .NET واجهة برمجة تطبيقات معالجة HTML
 description: تعرف على كيفية العمل مع مستندات HTML في .NET باستخدام Aspose.HTML. يغطي هذا البرنامج التعليمي الشامل إنشاء المستندات ومعالجتها وتصميمها. نبدأ الآن!
 type: docs
 weight: 12

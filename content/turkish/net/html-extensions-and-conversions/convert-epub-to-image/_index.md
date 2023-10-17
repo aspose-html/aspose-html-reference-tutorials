@@ -1,7 +1,7 @@
 ---
 title: Aspose.HTML ile EPUB'u .NET'teki Görüntüye Dönüştürün
 linktitle: EPUB'u .NET'te Görüntüye Dönüştürme
-second_title: Aspose.Slides .NET HTML işleme API'si
+second_title: Aspose.HTML .NET HTML işleme API'si
 description: Aspose.HTML for .NET kullanarak EPUB'u görüntülere nasıl dönüştüreceğinizi öğrenin. Kod örnekleri ve özelleştirilebilir seçenekler içeren adım adım eğitim.
 type: docs
 weight: 11

@@ -1,7 +1,7 @@
 ---
 title: HTML Document Manipulation
 linktitle: HTML Document Manipulation
-second_title: Aspose.Slides .NET HTML manipulation API
+second_title: Aspose.HTML .NET HTML manipulation API
 description: Discover how Aspose.HTML for .NET empowers you to manipulate HTML documents efficiently. Explore tutorials that guide you through the process.
 type: docs
 weight: 21

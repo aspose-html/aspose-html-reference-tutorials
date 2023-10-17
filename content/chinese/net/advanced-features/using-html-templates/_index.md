@@ -1,7 +1,7 @@
 ---
 title: 在 .NET 中通过 Aspose.HTML 使用 HTML 模板
 linktitle: 在 .NET 中使用 HTML 模板
-second_title: Aspose.Slides .NET HTML 操作 API
+second_title: Aspose.HTML .NET HTML 操作 API
 description: 了解如何使用 Aspose.HTML for .NET 从 JSON 数据动态生成 HTML 文档。在 .NET 应用程序中利用 HTML 操作的强大功能。
 type: docs
 weight: 17

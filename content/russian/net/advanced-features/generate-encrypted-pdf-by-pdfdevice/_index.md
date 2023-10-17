@@ -1,7 +1,7 @@
 ---
 title: Создайте зашифрованный PDF-файл с помощью PdfDevice в .NET с помощью Aspose.HTML
 linktitle: Создать зашифрованный PDF-файл с помощью PdfDevice в .NET
-second_title: Aspose.Slides .NET API манипулирования HTML
+second_title: Aspose.HTML .NET API манипулирования HTML
 description: Динамически конвертируйте HTML в PDF с помощью Aspose.HTML для .NET. Простая интеграция, настраиваемые параметры и надежная производительность.
 type: docs
 weight: 15

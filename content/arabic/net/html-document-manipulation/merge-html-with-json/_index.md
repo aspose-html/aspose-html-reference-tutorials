@@ -1,7 +1,7 @@
 ---
 title: دمج HTML مع Json في .NET باستخدام Aspose.HTML
 linktitle: دمج HTML مع Json في .NET
-second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة HTML
+second_title: Aspose.HTML .NET واجهة برمجة تطبيقات معالجة HTML
 description: تعلم كيفية إنشاء محتوى ديناميكي ومحتوى ويب باستخدام Aspose.HTML لـ .NET. قم بتعزيز تواجدك على الإنترنت وإشراك جمهورك.
 type: docs
 weight: 17

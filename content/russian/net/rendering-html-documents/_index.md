@@ -1,7 +1,7 @@
 ---
 title: Рендеринг HTML-документов
 linktitle: Рендеринг HTML-документов
-second_title: Aspose.Slides .NET API манипулирования HTML
+second_title: Aspose.HTML .NET API манипулирования HTML
 description: Узнайте, как с легкостью визуализировать HTML-документы, используя учебные пособия Aspose.HTML для .NET. Ознакомьтесь с полным списком учебных пособий по освоению HTML-рендеринга.
 type: docs
 weight: 29

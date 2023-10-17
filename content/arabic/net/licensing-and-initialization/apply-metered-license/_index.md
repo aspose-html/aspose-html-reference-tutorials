@@ -1,7 +1,7 @@
 ---
 title: قم بتطبيق الترخيص المقنن في .NET باستخدام Aspose.HTML
 linktitle: تطبيق الترخيص المقنن في .NET
-second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة HTML
+second_title: Aspose.HTML .NET واجهة برمجة تطبيقات معالجة HTML
 description: تعرف على كيفية تطبيق ترخيص مقنن في Aspose.HTML لـ .NET. إدارة احتياجات معالجة HTML الخاصة بك بكفاءة. نبدأ الآن!
 type: docs
 weight: 10

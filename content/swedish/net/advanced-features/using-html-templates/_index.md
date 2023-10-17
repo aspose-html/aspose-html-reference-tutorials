@@ -1,7 +1,7 @@
 ---
 title: Använda HTML-mallar i .NET med Aspose.HTML
 linktitle: Använda HTML-mallar i .NET
-second_title: Aspose.Slides .NET HTML manipulation API
+second_title: Aspose.HTML .NET HTML manipulation API
 description: Lär dig hur du använder Aspose.HTML för .NET för att dynamiskt generera HTML-dokument från JSON-data. Utnyttja kraften i HTML-manipulation i dina .NET-applikationer.
 type: docs
 weight: 17

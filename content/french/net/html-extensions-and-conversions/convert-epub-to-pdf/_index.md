@@ -1,7 +1,7 @@
 ---
 title: Convertir EPUB en PDF dans .NET avec Aspose.HTML
 linktitle: Convertir EPUB en PDF dans .NET
-second_title: API de manipulation HTML Aspose.Slides .NET
+second_title: API de manipulation HTML Aspose.HTML .NET
 description: Découvrez comment convertir EPUB en PDF à l'aide d'Aspose.HTML pour .NET. Ce guide étape par étape couvre les options de personnalisation, les FAQ et bien plus encore pour une conversion transparente des documents.
 type: docs
 weight: 12

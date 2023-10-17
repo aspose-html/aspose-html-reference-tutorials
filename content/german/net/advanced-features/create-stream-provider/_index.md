@@ -1,7 +1,7 @@
 ---
 title: Erstellen Sie einen Stream-Provider in .NET mit Aspose.HTML
 linktitle: Erstellen Sie einen Stream-Anbieter in .NET
-second_title: Aspose.Slides .NET HTML-Manipulations-API
+second_title: Aspose.HTML .NET HTML-Manipulations-API
 description: Erfahren Sie, wie Sie Aspose.HTML für .NET verwenden, um HTML-Dokumente effizient zu bearbeiten. Schritt-für-Schritt-Anleitung für Entwickler.
 type: docs
 weight: 11

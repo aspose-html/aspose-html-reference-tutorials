@@ -1,7 +1,7 @@
 ---
 title: العمل مع وثائق HTML
 linktitle: العمل مع وثائق HTML
-second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة HTML
+second_title: Aspose.HTML .NET واجهة برمجة تطبيقات معالجة HTML
 description: اكتشف عالم إنشاء مستندات HTML ومعالجتها في .NET باستخدام Aspose.HTML. من إنشاء مستندات بسيطة إلى التحرير المتعمق.
 type: docs
 weight: 23

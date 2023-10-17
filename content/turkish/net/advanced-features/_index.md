@@ -1,7 +1,7 @@
 ---
 title: Gelişmiş özellikler
 linktitle: Gelişmiş özellikler
-second_title: Aspose.Slides .NET HTML işleme API'si
+second_title: Aspose.HTML .NET HTML işleme API'si
 description: Aspose.HTML ile gelişmiş .NET özelliklerinin kilidini açın! Ortam yapılandırmasından web kazımaya kadar güçlü web geliştirme için kapsamlı eğitimleri keşfedin.
 type: docs
 weight: 24

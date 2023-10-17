@@ -1,7 +1,7 @@
 ---
 title: Aspose.HTML ile HTML Belgelerini .NET'e Eşzamansız Yükleme
 linktitle: HTML Belgelerini .NET'te Eşzamansız Olarak Yükleme
-second_title: Aspose.Slides .NET HTML işleme API'si
+second_title: Aspose.HTML .NET HTML işleme API'si
 description: HTML belgeleriyle çalışmak için Aspose.HTML for .NET'i nasıl kullanacağınızı öğrenin. Geliştiriciler için örnekler ve SSS içeren adım adım kılavuz.
 type: docs
 weight: 10

@@ -1,7 +1,7 @@
 ---
 title: Umgebungskonfiguration in .NET mit Aspose.HTML
 linktitle: Umgebungskonfiguration in .NET
-second_title: Aspose.Slides .NET HTML-Manipulations-API
+second_title: Aspose.HTML .NET HTML-Manipulations-API
 description: Erfahren Sie, wie Sie mit HTML-Dokumenten in .NET arbeiten und Aspose.HTML für Aufgaben wie Skriptverwaltung, benutzerdefinierte Stile, JavaScript-Ausführungssteuerung und mehr verwenden. Dieses umfassende Tutorial bietet Schritt-für-Schritt-Beispiele und FAQs, um Ihnen den Einstieg zu erleichtern.
 type: docs
 weight: 10

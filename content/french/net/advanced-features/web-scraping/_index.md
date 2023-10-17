@@ -1,7 +1,7 @@
 ---
 title: Web Scraping dans .NET avec Aspose.HTML
 linktitle: Scraping Web dans .NET
-second_title: API de manipulation HTML Aspose.Slides .NET
+second_title: API de manipulation HTML Aspose.HTML .NET
 description: Apprenez à manipuler des documents HTML dans .NET avec Aspose.HTML. Naviguez, filtrez, interrogez et sélectionnez efficacement les éléments pour un développement Web amélioré.
 type: docs
 weight: 13

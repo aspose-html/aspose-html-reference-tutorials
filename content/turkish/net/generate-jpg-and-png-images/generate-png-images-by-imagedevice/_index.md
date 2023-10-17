@@ -1,7 +1,7 @@
 ---
 title: Aspose.HTML ile .NET'te ImageDevice ile PNG Görüntüleri oluşturun
 linktitle: .NET'te ImageDevice ile PNG Görüntüleri Oluşturun
-second_title: Aspose.Slides .NET HTML işleme API'si
+second_title: Aspose.HTML .NET HTML işleme API'si
 description: HTML belgelerini işlemek, HTML'yi görüntülere dönüştürmek ve daha fazlası için Aspose.HTML for .NET'i kullanmayı öğrenin. SSS'lerle adım adım eğitim.
 type: docs
 weight: 11

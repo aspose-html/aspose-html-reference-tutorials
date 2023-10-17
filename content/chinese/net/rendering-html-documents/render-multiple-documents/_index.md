@@ -1,7 +1,7 @@
 ---
 title: 使用 Aspose.HTML 在 .NET 中渲染多个文档
 linktitle: 在 .NET 中渲染多个文档
-second_title: Aspose.Slides .NET HTML 操作 API
+second_title: Aspose.HTML .NET HTML 操作 API
 description: 学习使用 Aspose.HTML for .NET 呈现多个 HTML 文档。利用这个强大的库提高您的文档处理能力。
 type: docs
 weight: 14

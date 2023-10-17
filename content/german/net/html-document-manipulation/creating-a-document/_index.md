@@ -1,7 +1,7 @@
 ---
 title: Erstellen eines Dokuments in .NET mit Aspose.HTML
 linktitle: Erstellen eines Dokuments in .NET
-second_title: Aspose.Slides .NET HTML-Manipulations-API
+second_title: Aspose.HTML .NET HTML-Manipulations-API
 description: Entfesseln Sie die Leistungsfähigkeit von Aspose.HTML für .NET. Erfahren Sie, wie Sie mit Leichtigkeit HTML- und SVG-Dokumente erstellen, bearbeiten und optimieren. Entdecken Sie Schritt-für-Schritt-Beispiele und FAQs.
 type: docs
 weight: 14

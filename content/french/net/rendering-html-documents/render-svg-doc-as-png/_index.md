@@ -1,7 +1,7 @@
 ---
 title: Rendre le document SVG au format PNG dans .NET avec Aspose.HTML
 linktitle: Rendre le document SVG au format PNG dans .NET
-second_title: API de manipulation HTML Aspose.Slides .NET
+second_title: API de manipulation HTML Aspose.HTML .NET
 description: Libérez la puissance d’Aspose.HTML pour .NET ! Apprenez à restituer facilement un document SVG au format PNG. Découvrez des exemples étape par étape et des FAQ. Commencez maintenant!
 type: docs
 weight: 15

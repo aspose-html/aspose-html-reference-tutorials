@@ -1,7 +1,7 @@
 ---
 title: Тайм-аут рендеринга в .NET с помощью Aspose.HTML
 linktitle: Тайм-аут рендеринга в .NET
-second_title: Aspose.Slides .NET API манипулирования HTML
+second_title: Aspose.HTML .NET API манипулирования HTML
 description: Узнайте, как эффективно управлять тайм-аутами рендеринга в Aspose.HTML для .NET. Изучите параметры рендеринга и обеспечьте плавный рендеринг HTML-документов.
 type: docs
 weight: 12

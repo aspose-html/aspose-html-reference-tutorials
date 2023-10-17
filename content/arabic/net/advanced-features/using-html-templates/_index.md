@@ -1,7 +1,7 @@
 ---
 title: استخدام قوالب HTML في .NET مع Aspose.HTML
 linktitle: استخدام قوالب HTML في .NET
-second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة HTML
+second_title: Aspose.HTML .NET واجهة برمجة تطبيقات معالجة HTML
 description: تعرف على كيفية استخدام Aspose.HTML لـ .NET لإنشاء مستندات HTML ديناميكيًا من بيانات JSON. استغل قوة معالجة HTML في تطبيقات .NET الخاصة بك.
 type: docs
 weight: 17

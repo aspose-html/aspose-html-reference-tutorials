@@ -1,7 +1,7 @@
 ---
 title: Создание изображений JPG и PNG
 linktitle: Создание изображений JPG и PNG
-second_title: Aspose.Slides .NET API манипулирования HTML
+second_title: Aspose.HTML .NET API манипулирования HTML
 description: Узнайте, как создавать изображения JPG и PNG с помощью Aspose.HTML для .NET, с помощью наших руководств. Создавайте потрясающую графику без особых усилий.
 type: docs
 weight: 28

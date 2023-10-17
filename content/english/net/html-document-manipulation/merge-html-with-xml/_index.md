@@ -1,7 +1,7 @@
 ---
 title: Merge HTML with XML in .NET with Aspose.HTML
 linktitle: Merge HTML with XML in .NET
-second_title: Aspose.Slides .NET HTML manipulation API
+second_title: Aspose.HTML .NET HTML manipulation API
 description: Learn to use Aspose.HTML for .NET. Import namespace, merge HTML with XML, and enhance your web development skills with this comprehensive guide.
 type: docs
 weight: 18

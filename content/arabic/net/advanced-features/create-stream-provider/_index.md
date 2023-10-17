@@ -1,7 +1,7 @@
 ---
 title: قم بإنشاء موفر الدفق في .NET باستخدام Aspose.HTML
 linktitle: إنشاء موفر دفق في .NET
-second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة HTML
+second_title: Aspose.HTML .NET واجهة برمجة تطبيقات معالجة HTML
 description: تعرف على كيفية استخدام Aspose.HTML لـ .NET لمعالجة مستندات HTML بكفاءة. برنامج تعليمي خطوة بخطوة للمطورين.
 type: docs
 weight: 11

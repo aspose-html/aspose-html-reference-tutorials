@@ -1,7 +1,7 @@
 ---
 title: Führen Sie HTML mit Json in .NET mit Aspose.HTML zusammen
 linktitle: HTML mit Json in .NET zusammenführen
-second_title: Aspose.Slides .NET HTML-Manipulations-API
+second_title: Aspose.HTML .NET HTML-Manipulations-API
 description: Erfahren Sie, wie Sie mit Aspose.HTML für .NET dynamische Inhalte und Webinhalte erstellen. Stärken Sie Ihre Online-Präsenz und binden Sie Ihr Publikum ein.
 type: docs
 weight: 17

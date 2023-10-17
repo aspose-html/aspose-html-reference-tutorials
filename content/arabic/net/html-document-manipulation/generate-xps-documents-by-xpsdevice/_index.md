@@ -1,7 +1,7 @@
 ---
 title: قم بإنشاء مستندات XPS بواسطة XpsDevice في .NET باستخدام Aspose.HTML
 linktitle: قم بإنشاء مستندات XPS بواسطة XpsDevice في .NET
-second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة HTML
+second_title: Aspose.HTML .NET واجهة برمجة تطبيقات معالجة HTML
 description: أطلق العنان لإمكانات تطوير الويب باستخدام Aspose.HTML لـ .NET. يمكنك إنشاء مستندات HTML وتحويلها ومعالجتها بسهولة.
 type: docs
 weight: 19

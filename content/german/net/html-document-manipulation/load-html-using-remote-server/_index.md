@@ -1,7 +1,7 @@
 ---
 title: Laden Sie HTML über einen Remote-Server in .NET mit Aspose.HTML
 linktitle: Laden Sie HTML mithilfe eines Remote-Servers in .NET
-second_title: Aspose.Slides .NET HTML-Manipulations-API
+second_title: Aspose.HTML .NET HTML-Manipulations-API
 description: Nutzen Sie das Potenzial von Aspose.HTML für .NET mit unserem umfassenden Leitfaden. Erfahren Sie, wie Sie Namespaces importieren, auf Remote-HTML-Dokumente zugreifen und vieles mehr.
 type: docs
 weight: 12

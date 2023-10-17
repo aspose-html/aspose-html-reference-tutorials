@@ -1,7 +1,7 @@
 ---
 title: Точная настройка конвертеров в .NET с помощью Aspose.HTML
 linktitle: Точная настройка преобразователей в .NET
-second_title: Aspose.Slides .NET API манипулирования HTML
+second_title: Aspose.HTML .NET API манипулирования HTML
 description: Узнайте, как конвертировать HTML в PDF, XPS и изображения с помощью Aspose.HTML для .NET. Пошаговое руководство с примерами кода и часто задаваемыми вопросами.
 type: docs
 weight: 16

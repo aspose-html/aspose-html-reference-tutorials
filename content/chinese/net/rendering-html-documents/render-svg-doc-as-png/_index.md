@@ -1,7 +1,7 @@
 ---
 title: 使用 Aspose.HTML 将 SVG 文档渲染为 .NET 中的 PNG
 linktitle: 在 .NET 中将 SVG 文档渲染为 PNG
-second_title: Aspose.Slides .NET HTML 操作 API
+second_title: Aspose.HTML .NET HTML 操作 API
 description: 释放 Aspose.HTML for .NET 的强大功能！了解如何轻松将 SVG 文档渲染为 PNG。深入研究分步示例和常见问题解答。现在就开始！
 type: docs
 weight: 15

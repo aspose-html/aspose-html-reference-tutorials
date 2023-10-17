@@ -1,7 +1,7 @@
 ---
 title: Konvertieren Sie SVG in .NET mit Aspose.HTML in PDF
 linktitle: Konvertieren Sie SVG in PDF in .NET
-second_title: Aspose.Slides .NET HTML-Manipulations-API
+second_title: Aspose.HTML .NET HTML-Manipulations-API
 description: Erfahren Sie, wie Sie SVG mit Aspose.HTML für .NET in PDF konvertieren. Hochwertiges Schritt-für-Schritt-Tutorial für eine effiziente Dokumentenverarbeitung.
 type: docs
 weight: 12

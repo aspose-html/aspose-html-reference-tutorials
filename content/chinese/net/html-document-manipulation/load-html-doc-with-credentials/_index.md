@@ -1,7 +1,7 @@
 ---
 title: 使用 Aspose.HTML 在 .NET 中加载带有凭据的 HTML 文档
 linktitle: 在 .NET 中使用凭据加载 HTML 文档
-second_title: Aspose.Slides .NET HTML 操作 API
+second_title: Aspose.HTML .NET HTML 操作 API
 description: 了解如何使用 Aspose.HTML for .NET 增强您的 SEO。提高排名、分析网络内容并针对搜索引擎进行优化。
 type: docs
 weight: 11

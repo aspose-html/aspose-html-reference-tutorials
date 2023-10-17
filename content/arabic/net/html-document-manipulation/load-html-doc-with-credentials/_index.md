@@ -1,7 +1,7 @@
 ---
 title: قم بتحميل مستندات HTML ببيانات الاعتماد في .NET باستخدام Aspose.HTML
 linktitle: قم بتحميل مستندات HTML ببيانات الاعتماد في .NET
-second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة HTML
+second_title: Aspose.HTML .NET واجهة برمجة تطبيقات معالجة HTML
 description: تعرف على كيفية تعزيز تحسين محركات البحث لديك باستخدام Aspose.HTML لـ .NET. تعزيز التصنيف، وتحليل محتوى الويب، وتحسين محركات البحث.
 type: docs
 weight: 11

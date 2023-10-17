@@ -1,7 +1,7 @@
 ---
 title: Generieren Sie verschlüsselte PDF-Dateien von PdfDevice in .NET mit Aspose.HTML
 linktitle: Generieren Sie verschlüsselte PDFs mit PdfDevice in .NET
-second_title: Aspose.Slides .NET HTML-Manipulations-API
+second_title: Aspose.HTML .NET HTML-Manipulations-API
 description: Konvertieren Sie HTML dynamisch in PDF mit Aspose.HTML für .NET. Einfache Integration, anpassbare Optionen und robuste Leistung.
 type: docs
 weight: 15

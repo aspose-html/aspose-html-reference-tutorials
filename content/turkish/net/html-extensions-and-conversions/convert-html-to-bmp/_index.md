@@ -1,7 +1,7 @@
 ---
 title: Aspose.HTML ile HTML'yi .NET'te BMP'ye dönüştürün
 linktitle: .NET'te HTML'yi BMP'ye dönüştürün
-second_title: Aspose.Slides .NET HTML işleme API'si
+second_title: Aspose.HTML .NET HTML işleme API'si
 description: Aspose.HTML for .NET kullanarak HTML'yi .NET'te BMP'ye nasıl dönüştüreceğinizi öğrenin. Aspose.HTML for .NET'ten Yararlanmak için web geliştiricilerine yönelik kapsamlı kılavuz.
 type: docs
 weight: 14

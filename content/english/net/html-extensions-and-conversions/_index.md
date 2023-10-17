@@ -1,7 +1,7 @@
 ---
 title: HTML Extensions and Conversions
 linktitle: HTML Extensions and Conversions
-second_title: Aspose.Slides .NET HTML manipulation API
+second_title: Aspose.HTML .NET HTML manipulation API
 description: Discover HTML extensions and conversion tutorials using Aspose.HTML for .NET. Learn how to optimize web development with these comprehensive tutorials.
 type: docs
 weight: 20

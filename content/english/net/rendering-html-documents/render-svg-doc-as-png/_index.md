@@ -1,7 +1,7 @@
 ---
 title: Render SVG Doc as PNG in .NET with Aspose.HTML
 linktitle: Render SVG Doc as PNG in .NET
-second_title: Aspose.Slides .NET HTML manipulation API
+second_title: Aspose.HTML .NET HTML manipulation API
 description: Unlock the power of Aspose.HTML for .NET! Learn how to Render SVG Doc as PNG effortlessly. Dive into step-by-step examples and FAQs. Get started now!
 type: docs
 weight: 15

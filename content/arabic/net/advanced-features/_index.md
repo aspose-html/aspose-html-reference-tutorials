@@ -1,7 +1,7 @@
 ---
 title: الخيارات المتقدمة
 linktitle: الخيارات المتقدمة
-second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة HTML
+second_title: Aspose.HTML .NET واجهة برمجة تطبيقات معالجة HTML
 description: افتح ميزات .NET المتقدمة باستخدام Aspose.HTML! بدءًا من تكوين البيئة وحتى استخراج الويب، استكشف البرامج التعليمية الشاملة لتطوير الويب بشكل فعال.
 type: docs
 weight: 24

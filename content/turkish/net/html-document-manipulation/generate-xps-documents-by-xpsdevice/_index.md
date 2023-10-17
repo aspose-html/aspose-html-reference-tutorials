@@ -1,7 +1,7 @@
 ---
 title: Aspose.HTML ile .NET'te XpsDevice ile XPS Belgeleri oluşturun
 linktitle: .NET'te XPsDevice ile XPS Belgeleri Oluşturun
-second_title: Aspose.Slides .NET HTML işleme API'si
+second_title: Aspose.HTML .NET HTML işleme API'si
 description: Aspose.HTML for .NET ile web geliştirmenin potansiyelini ortaya çıkarın. HTML belgelerini kolayca oluşturun, dönüştürün ve değiştirin.
 type: docs
 weight: 19

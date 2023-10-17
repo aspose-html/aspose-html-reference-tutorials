@@ -1,7 +1,7 @@
 ---
 title: Преобразование HTML в BMP в .NET с помощью Aspose.HTML
 linktitle: Преобразование HTML в BMP в .NET
-second_title: Aspose.Slides .NET API манипулирования HTML
+second_title: Aspose.HTML .NET API манипулирования HTML
 description: Узнайте, как конвертировать HTML в BMP в .NET с помощью Aspose.HTML для .NET. Комплексное руководство для веб-разработчиков по использованию Aspose.HTML для .NET.
 type: docs
 weight: 14

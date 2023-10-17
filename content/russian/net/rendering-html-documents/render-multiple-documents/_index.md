@@ -1,7 +1,7 @@
 ---
 title: Рендеринг нескольких документов в .NET с помощью Aspose.HTML
 linktitle: Рендеринг нескольких документов в .NET
-second_title: Aspose.Slides .NET API манипулирования HTML
+second_title: Aspose.HTML .NET API манипулирования HTML
 description: Научитесь визуализировать несколько HTML-документов с помощью Aspose.HTML для .NET. Расширьте свои возможности обработки документов с помощью этой мощной библиотеки.
 type: docs
 weight: 14

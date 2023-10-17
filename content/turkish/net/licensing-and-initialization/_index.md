@@ -1,7 +1,7 @@
 ---
 title: Lisanslama ve Başlatma
 linktitle: Lisanslama ve Başlatma
-second_title: Aspose.Slides .NET HTML işleme API'si
+second_title: Aspose.HTML .NET HTML işleme API'si
 description: Kapsamlı lisanslama ve başlatma eğitimlerimiz aracılığıyla Aspose.HTML for .NET'i etkili bir şekilde nasıl kullanacağınızı keşfedin. Bu aracın tüm potansiyelini ortaya çıkarın.
 type: docs
 weight: 27

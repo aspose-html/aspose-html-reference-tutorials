@@ -1,7 +1,7 @@
 ---
 title: Загружайте HTML-документы асинхронно в .NET с помощью Aspose.HTML
 linktitle: Загрузка HTML-документов асинхронно в .NET
-second_title: Aspose.Slides .NET API манипулирования HTML
+second_title: Aspose.HTML .NET API манипулирования HTML
 description: Узнайте, как использовать Aspose.HTML для .NET для работы с HTML-документами. Пошаговое руководство с примерами и часто задаваемыми вопросами для разработчиков.
 type: docs
 weight: 10

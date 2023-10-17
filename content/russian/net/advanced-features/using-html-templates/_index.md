@@ -1,7 +1,7 @@
 ---
 title: Использование HTML-шаблонов в .NET с Aspose.HTML
 linktitle: Использование HTML-шаблонов в .NET
-second_title: Aspose.Slides .NET API манипулирования HTML
+second_title: Aspose.HTML .NET API манипулирования HTML
 description: Узнайте, как использовать Aspose.HTML для .NET для динамического создания HTML-документов из данных JSON. Используйте возможности манипуляций с HTML в своих приложениях .NET.
 type: docs
 weight: 17

@@ -1,7 +1,7 @@
 ---
 title: Verwenden Sie die erweiterte Inhaltseigenschaft in .NET mit Aspose.HTML
 linktitle: Verwenden Sie die erweiterte Inhaltseigenschaft in .NET
-second_title: Aspose.Slides .NET HTML-Manipulations-API
+second_title: Aspose.HTML .NET HTML-Manipulations-API
 description: Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie Aspose.HTML für .NET verwenden. Verbessern Sie Ihre HTML-Kenntnisse und optimieren Sie Ihre Webentwicklungsprojekte.
 type: docs
 weight: 14

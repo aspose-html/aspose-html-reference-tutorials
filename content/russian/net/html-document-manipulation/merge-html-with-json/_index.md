@@ -1,7 +1,7 @@
 ---
 title: Объедините HTML с Json в .NET с помощью Aspose.HTML
 linktitle: Объединить HTML с Json в .NET
-second_title: Aspose.Slides .NET API манипулирования HTML
+second_title: Aspose.HTML .NET API манипулирования HTML
 description: Научитесь создавать динамический и веб-контент с помощью Aspose.HTML для .NET. Расширьте свое присутствие в Интернете и вовлекайте свою аудиторию.
 type: docs
 weight: 17

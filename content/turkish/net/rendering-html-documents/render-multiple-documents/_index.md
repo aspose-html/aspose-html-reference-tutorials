@@ -1,7 +1,7 @@
 ---
 title: Aspose.HTML ile .NET'te Birden Fazla Belgeyi Oluşturun
 linktitle: .NET'te Birden Çok Belge Oluşturma
-second_title: Aspose.Slides .NET HTML işleme API'si
+second_title: Aspose.HTML .NET HTML işleme API'si
 description: Aspose.HTML for .NET kullanarak birden fazla HTML belgesini işlemeyi öğrenin. Bu güçlü kitaplıkla belge işleme yeteneklerinizi artırın.
 type: docs
 weight: 14

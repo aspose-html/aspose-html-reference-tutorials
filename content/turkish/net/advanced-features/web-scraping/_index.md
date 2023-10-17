@@ -1,7 +1,7 @@
 ---
 title: Aspose.HTML ile .NET'te Web Scraping
 linktitle: .NET'te Web Kazıma
-second_title: Aspose.Slides .NET HTML işleme API'si
+second_title: Aspose.HTML .NET HTML işleme API'si
 description: Aspose.HTML ile .NET'te HTML belgelerini yönetmeyi öğrenin. Gelişmiş web geliştirme için öğeleri etkili bir şekilde gezinin, filtreleyin, sorgulayın ve seçin.
 type: docs
 weight: 13

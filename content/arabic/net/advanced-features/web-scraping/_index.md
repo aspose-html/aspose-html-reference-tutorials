@@ -1,7 +1,7 @@
 ---
 title: تجريف الويب في .NET باستخدام Aspose.HTML
 linktitle: تجريف الويب في .NET
-second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة HTML
+second_title: Aspose.HTML .NET واجهة برمجة تطبيقات معالجة HTML
 description: تعلم كيفية التعامل مع مستندات HTML في .NET باستخدام Aspose.HTML. يمكنك التنقل بين العناصر وتصفيتها والاستعلام عنها وتحديدها بشكل فعال لتحسين تطوير الويب.
 type: docs
 weight: 13

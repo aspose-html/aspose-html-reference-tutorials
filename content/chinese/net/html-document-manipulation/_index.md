@@ -1,7 +1,7 @@
 ---
 title: HTML 文档操作
 linktitle: HTML 文档操作
-second_title: Aspose.Slides .NET HTML 操作 API
+second_title: Aspose.HTML .NET HTML 操作 API
 description: 了解 Aspose.HTML for .NET 如何帮助您高效地操作 HTML 文档。探索指导您完成整个过程的教程。
 type: docs
 weight: 21

@@ -1,7 +1,7 @@
 ---
 title: Загрузка HTML с помощью удаленного сервера в .NET с помощью Aspose.HTML
 linktitle: Загрузка HTML с помощью удаленного сервера в .NET
-second_title: Aspose.Slides .NET API манипулирования HTML
+second_title: Aspose.HTML .NET API манипулирования HTML
 description: Раскройте потенциал Aspose.HTML для .NET с помощью нашего подробного руководства. Узнайте, как импортировать пространства имен, получать доступ к удаленным HTML-документам и многое другое.
 type: docs
 weight: 12

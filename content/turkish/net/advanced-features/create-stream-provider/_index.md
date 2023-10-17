@@ -1,7 +1,7 @@
 ---
 title: Aspose.HTML ile .NET'te Akış Sağlayıcısı Oluşturun
 linktitle: .NET'te Akış Sağlayıcısı Oluşturma
-second_title: Aspose.Slides .NET HTML işleme API'si
+second_title: Aspose.HTML .NET HTML işleme API'si
 description: HTML belgelerini verimli bir şekilde yönetmek için Aspose.HTML for .NET'i nasıl kullanacağınızı öğrenin. Geliştiriciler için adım adım eğitim.
 type: docs
 weight: 11

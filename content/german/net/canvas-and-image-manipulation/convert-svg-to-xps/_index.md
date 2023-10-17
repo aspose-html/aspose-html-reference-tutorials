@@ -1,7 +1,7 @@
 ---
 title: Konvertieren Sie SVG in XPS in .NET mit Aspose.HTML
 linktitle: Konvertieren Sie SVG in XPS in .NET
-second_title: Aspose.Slides .NET HTML-Manipulations-API
+second_title: Aspose.HTML .NET HTML-Manipulations-API
 description: Erfahren Sie, wie Sie SVG mit Aspose.HTML für .NET in XPS konvertieren. Steigern Sie Ihre Webentwicklung mit dieser leistungsstarken Bibliothek.
 type: docs
 weight: 13

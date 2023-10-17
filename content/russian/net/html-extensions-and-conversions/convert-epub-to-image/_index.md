@@ -1,7 +1,7 @@
 ---
 title: Преобразование EPUB в изображение в .NET с помощью Aspose.HTML
 linktitle: Преобразование EPUB в изображение в .NET
-second_title: Aspose.Slides .NET API манипулирования HTML
+second_title: Aspose.HTML .NET API манипулирования HTML
 description: Узнайте, как конвертировать EPUB в изображения с помощью Aspose.HTML для .NET. Пошаговое руководство с примерами кода и настраиваемыми параметрами.
 type: docs
 weight: 11

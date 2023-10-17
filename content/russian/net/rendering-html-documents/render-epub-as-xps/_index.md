@@ -1,7 +1,7 @@
 ---
 title: Рендеринг EPUB как XPS в .NET с помощью Aspose.HTML
 linktitle: Рендеринг EPUB как XPS в .NET
-second_title: Aspose.Slides .NET API манипулирования HTML
+second_title: Aspose.HTML .NET API манипулирования HTML
 description: Из этого подробного руководства вы узнаете, как создавать и отображать HTML-документы с помощью Aspose.HTML для .NET. Погрузитесь в мир манипуляций с HTML, парсинга веб-страниц и многого другого.
 type: docs
 weight: 11

@@ -1,7 +1,7 @@
 ---
 title: تحسين محولات الضبط في .NET باستخدام Aspose.HTML
 linktitle: محولات الضبط الدقيق في .NET
-second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة HTML
+second_title: Aspose.HTML .NET واجهة برمجة تطبيقات معالجة HTML
 description: تعرف على كيفية تحويل HTML إلى PDF وXPS والصور باستخدام Aspose.HTML لـ .NET. برنامج تعليمي خطوة بخطوة مع أمثلة التعليمات البرمجية والأسئلة الشائعة.
 type: docs
 weight: 16

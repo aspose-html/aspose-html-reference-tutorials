@@ -1,7 +1,7 @@
 ---
 title: قم بعرض MHTML كـ XPS في .NET باستخدام Aspose.HTML
 linktitle: قم بعرض MHTML كـ XPS في .NET
-second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة HTML
+second_title: Aspose.HTML .NET واجهة برمجة تطبيقات معالجة HTML
 description: تعلم كيفية عرض MHTML كـ XPS في .NET باستخدام Aspose.HTML. عزز مهاراتك في معالجة HTML وعزز مشاريع تطوير الويب الخاصة بك!
 type: docs
 weight: 13

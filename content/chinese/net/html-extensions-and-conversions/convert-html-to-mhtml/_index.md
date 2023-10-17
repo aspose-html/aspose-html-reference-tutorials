@@ -1,7 +1,7 @@
 ---
 title: 使用 Aspose.HTML 将 .NET 中的 HTML 转换为 MHTML
 linktitle: 在 .NET 中将 HTML 转换为 MHTML
-second_title: Aspose.Slides .NET HTML 操作 API
+second_title: Aspose.HTML .NET HTML 操作 API
 description: 使用 Aspose.HTML 将 .NET 中的 HTML 转换为 MHTML - 高效 Web 内容归档的分步指南。了解如何使用 Aspose.HTML for .NET 创建 MHTML 档案。
 type: docs
 weight: 19

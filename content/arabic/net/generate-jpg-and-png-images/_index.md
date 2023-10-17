@@ -1,7 +1,7 @@
 ---
 title: توليد صور JPG وPNG
 linktitle: توليد صور JPG وPNG
-second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة HTML
+second_title: Aspose.HTML .NET واجهة برمجة تطبيقات معالجة HTML
 description: تعرف على كيفية إنشاء صور JPG وPNG باستخدام Aspose.HTML لـ .NET من خلال برامجنا التعليمية. قم بإنشاء رسومات مذهلة دون عناء.
 type: docs
 weight: 28

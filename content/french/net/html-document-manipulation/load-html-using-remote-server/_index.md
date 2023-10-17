@@ -1,7 +1,7 @@
 ---
 title: Charger du HTML à l'aide d'un serveur distant dans .NET avec Aspose.HTML
 linktitle: Charger du HTML à l'aide d'un serveur distant dans .NET
-second_title: API de manipulation HTML Aspose.Slides .NET
+second_title: API de manipulation HTML Aspose.HTML .NET
 description: Libérez le potentiel d’Aspose.HTML pour .NET avec notre guide complet. Découvrez comment importer des espaces de noms, accéder à des documents HTML distants, et bien plus encore.
 type: docs
 weight: 12

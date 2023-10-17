@@ -1,7 +1,7 @@
 ---
 title: Ladda HTML-dokument asynkront i .NET med Aspose.HTML
 linktitle: Ladda HTML-dokument asynkront i .NET
-second_title: Aspose.Slides .NET HTML manipulation API
+second_title: Aspose.HTML .NET HTML manipulation API
 description: Lär dig hur du använder Aspose.HTML för .NET för att arbeta med HTML-dokument. Steg-för-steg-guide med exempel och vanliga frågor för utvecklare.
 type: docs
 weight: 10

@@ -1,7 +1,7 @@
 ---
 title: Aspose.HTML ile .NET'te Dönüştürücülerin İnce Ayarı
 linktitle: .NET'te Dönüştürücülerin İnce Ayarı
-second_title: Aspose.Slides .NET HTML işleme API'si
+second_title: Aspose.HTML .NET HTML işleme API'si
 description: Aspose.HTML for .NET ile HTML'yi PDF'ye, XPS'ye ve görsellere nasıl dönüştüreceğinizi öğrenin. Kod örnekleri ve SSS içeren adım adım eğitim.
 type: docs
 weight: 16

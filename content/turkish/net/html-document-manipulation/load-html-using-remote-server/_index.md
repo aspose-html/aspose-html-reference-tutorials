@@ -1,7 +1,7 @@
 ---
 title: Aspose.HTML ile .NET'te Uzak Sunucu Kullanarak HTML Yükleme
 linktitle: .NET'te Uzak Sunucu Kullanarak HTML Yükleme
-second_title: Aspose.Slides .NET HTML işleme API'si
+second_title: Aspose.HTML .NET HTML işleme API'si
 description: Kapsamlı kılavuzumuzla Aspose.HTML for .NET'in potansiyelini ortaya çıkarın. Ad alanlarını nasıl içe aktaracağınızı, uzak HTML belgelerine nasıl erişeceğinizi ve daha fazlasını öğrenin.
 type: docs
 weight: 12

@@ -1,7 +1,7 @@
 ---
 title: Aspose.HTML ile MHTML'yi .NET'te XPS olarak işleme
 linktitle: .NET'te MHTML'yi XPS olarak işleme
-second_title: Aspose.Slides .NET HTML işleme API'si
+second_title: Aspose.HTML .NET HTML işleme API'si
 description: Aspose.HTML ile MHTML'yi .NET'te XPS olarak işlemeyi öğrenin. HTML manipülasyon becerilerinizi geliştirin ve web geliştirme projelerinizi geliştirin!
 type: docs
 weight: 13

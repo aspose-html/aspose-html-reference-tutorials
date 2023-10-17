@@ -1,7 +1,7 @@
 ---
 title: Aspose.HTML ile .NET'te URL Kullanarak HTML Yükleme
 linktitle: .NET'te URL Kullanarak HTML Yükleme
-second_title: Aspose.Slides .NET HTML işleme API'si
+second_title: Aspose.HTML .NET HTML işleme API'si
 description: Aspose.HTML for .NET'in gücünden nasıl yararlanacağınızı öğrenin. HTML manipülasyonu ve oluşturma ile web geliştirmenizi artırın.
 type: docs
 weight: 13

@@ -1,7 +1,7 @@
 ---
 title: Erweiterte Funktionen
 linktitle: Erweiterte Funktionen
-second_title: Aspose.Slides .NET HTML-Manipulations-API
+second_title: Aspose.HTML .NET HTML-Manipulations-API
 description: Schalten Sie erweiterte .NET-Funktionen mit Aspose.HTML frei! Entdecken Sie umfassende Tutorials für eine leistungsstarke Webentwicklung, von der Umgebungskonfiguration bis zum Web-Scraping.
 type: docs
 weight: 24

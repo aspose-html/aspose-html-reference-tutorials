@@ -1,7 +1,7 @@
 ---
 title: Laden Sie HTML mithilfe einer URL in .NET mit Aspose.HTML
 linktitle: Laden Sie HTML mithilfe einer URL in .NET
-second_title: Aspose.Slides .NET HTML-Manipulations-API
+second_title: Aspose.HTML .NET HTML-Manipulations-API
 description: Erfahren Sie, wie Sie die Leistungsfähigkeit von Aspose.HTML für .NET nutzen. Steigern Sie Ihre Webentwicklung durch HTML-Manipulation und -Rendering.
 type: docs
 weight: 13

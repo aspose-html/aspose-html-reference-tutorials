@@ -1,7 +1,7 @@
 ---
 title: Aspose.HTML ile EPUB'u .NET'te XPS olarak işleyin
 linktitle: EPUB'u .NET'te XPS olarak işleme
-second_title: Aspose.Slides .NET HTML işleme API'si
+second_title: Aspose.HTML .NET HTML işleme API'si
 description: Bu kapsamlı eğitimde Aspose.HTML for .NET ile HTML belgeleri oluşturmayı ve işlemeyi öğrenin. HTML manipülasyonu, web kazıma ve daha fazlasının dünyasına dalın.
 type: docs
 weight: 11

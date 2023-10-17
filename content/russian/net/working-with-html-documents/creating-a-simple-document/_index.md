@@ -1,7 +1,7 @@
 ---
 title: Создание простого документа в .NET с помощью Aspose.HTML
 linktitle: Создание простого документа в .NET
-second_title: Aspose.Slides .NET API манипулирования HTML
+second_title: Aspose.HTML .NET API манипулирования HTML
 description: Научитесь работать с HTML-документами в .NET, используя Aspose.HTML. Создавайте, манипулируйте и конвертируйте HTML без особых усилий. Начните сегодня!
 type: docs
 weight: 11

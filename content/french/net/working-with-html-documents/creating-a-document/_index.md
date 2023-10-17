@@ -1,7 +1,7 @@
 ---
 title: Création d'un document HTML dans .NET avec Aspose.HTML
 linktitle: Création d'un document HTML dans .NET
-second_title: API de manipulation HTML Aspose.Slides .NET
+second_title: API de manipulation HTML Aspose.HTML .NET
 description: Apprenez à créer des documents HTML dans .NET à l'aide d'Aspose.HTML, à partir de zéro ou à partir d'URL. Un tutoriel complet pour les développeurs Web.
 type: docs
 weight: 10

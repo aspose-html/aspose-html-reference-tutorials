@@ -1,7 +1,7 @@
 ---
 title: Appliquer une licence limitée dans .NET avec Aspose.HTML
 linktitle: Appliquer une licence limitée dans .NET
-second_title: API de manipulation HTML Aspose.Slides .NET
+second_title: API de manipulation HTML Aspose.HTML .NET
 description: Découvrez comment appliquer une licence limitée dans Aspose.HTML pour .NET. Gérez efficacement vos besoins en manipulation HTML. Commencez maintenant!
 type: docs
 weight: 10

@@ -1,7 +1,7 @@
 ---
 title: 使用 Aspose.HTML 在 .NET 中使用远程服务器加载 HTML
 linktitle: 在 .NET 中使用远程服务器加载 HTML
-second_title: Aspose.Slides .NET HTML 操作 API
+second_title: Aspose.HTML .NET HTML 操作 API
 description: 通过我们的综合指南释放 Aspose.HTML for .NET 的潜力。了解如何导入命名空间、访问远程 HTML 文档等。
 type: docs
 weight: 12

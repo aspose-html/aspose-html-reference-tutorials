@@ -1,7 +1,7 @@
 ---
 title: Aspose.HTML ile SVG Dokümanını .NET'te PNG olarak işleyin
 linktitle: .NET'te SVG Dokümanını PNG olarak işleme
-second_title: Aspose.Slides .NET HTML işleme API'si
+second_title: Aspose.HTML .NET HTML işleme API'si
 description: Aspose.HTML for .NET'in gücünün kilidini açın! SVG Belgesini zahmetsizce PNG olarak nasıl oluşturacağınızı öğrenin. Adım adım örneklere ve SSS'lere göz atın. Şimdi başla!
 type: docs
 weight: 15

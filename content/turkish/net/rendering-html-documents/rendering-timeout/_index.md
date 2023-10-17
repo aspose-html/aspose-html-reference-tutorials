@@ -1,7 +1,7 @@
 ---
 title: Aspose.HTML ile .NET'te İşleme Zaman Aşımı
 linktitle: .NET'te İşleme Zaman Aşımı
-second_title: Aspose.Slides .NET HTML işleme API'si
+second_title: Aspose.HTML .NET HTML işleme API'si
 description: Aspose.HTML for .NET'te görüntü oluşturma zaman aşımlarını etkili bir şekilde nasıl kontrol edeceğinizi öğrenin. İşleme seçeneklerini keşfedin ve HTML belgesinin sorunsuz şekilde işlenmesini sağlayın.
 type: docs
 weight: 12

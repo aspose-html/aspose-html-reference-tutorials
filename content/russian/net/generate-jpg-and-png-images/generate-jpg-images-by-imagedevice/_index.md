@@ -1,7 +1,7 @@
 ---
 title: Создание изображений JPG с помощью ImageDevice в .NET с помощью Aspose.HTML
 linktitle: Создание изображений JPG с помощью ImageDevice в .NET
-second_title: Aspose.Slides .NET API манипулирования HTML
+second_title: Aspose.HTML .NET API манипулирования HTML
 description: Узнайте, как создавать динамические веб-страницы с помощью Aspose.HTML для .NET. В этом пошаговом руководстве рассматриваются предварительные требования, пространства имен и рендеринг HTML в изображения.
 type: docs
 weight: 10

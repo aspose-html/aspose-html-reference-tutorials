@@ -1,7 +1,7 @@
 ---
 title: Rendera flera dokument i .NET med Aspose.HTML
 linktitle: Rendera flera dokument i .NET
-second_title: Aspose.Slides .NET HTML manipulation API
+second_title: Aspose.HTML .NET HTML manipulation API
 description: Lär dig att rendera flera HTML-dokument med Aspose.HTML för .NET. Förbättra dina dokumentbehandlingsmöjligheter med detta kraftfulla bibliotek.
 type: docs
 weight: 14

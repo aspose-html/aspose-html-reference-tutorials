@@ -1,7 +1,7 @@
 ---
 title: Render Multiple Documents in .NET with Aspose.HTML
 linktitle: Render Multiple Documents in .NET
-second_title: Aspose.Slides .NET HTML manipulation API
+second_title: Aspose.HTML .NET HTML manipulation API
 description: Learn to render multiple HTML documents using Aspose.HTML for .NET. Boost your document processing capabilities with this powerful library.
 type: docs
 weight: 14

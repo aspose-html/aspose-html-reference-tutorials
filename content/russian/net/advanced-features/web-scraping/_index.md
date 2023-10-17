@@ -1,7 +1,7 @@
 ---
 title: Парсинг веб-страниц в .NET с помощью Aspose.HTML
 linktitle: Парсинг веб-страниц в .NET
-second_title: Aspose.Slides .NET API манипулирования HTML
+second_title: Aspose.HTML .NET API манипулирования HTML
 description: Научитесь манипулировать HTML-документами в .NET с помощью Aspose.HTML. Эффективно перемещайтесь, фильтруйте, запрашивайте и выбирайте элементы для улучшения веб-разработки.
 type: docs
 weight: 13

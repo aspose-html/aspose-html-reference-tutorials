@@ -1,7 +1,7 @@
 ---
 title: Загрузка HTML-документов с учетными данными в .NET с помощью Aspose.HTML
 linktitle: Загрузка HTML-документов с учетными данными в .NET
-second_title: Aspose.Slides .NET API манипулирования HTML
+second_title: Aspose.HTML .NET API манипулирования HTML
 description: Узнайте, как повысить эффективность вашего SEO с помощью Aspose.HTML для .NET. Повышайте рейтинг, анализируйте веб-контент и оптимизируйте его для поисковых систем.
 type: docs
 weight: 11

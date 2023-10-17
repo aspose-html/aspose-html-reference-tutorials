@@ -1,7 +1,7 @@
 ---
 title: Aspose.HTML ile HTML'yi .NET'te PNG olarak işleyin
 linktitle: .NET'te HTML'yi PNG olarak işleme
-second_title: Aspose.Slides .NET HTML işleme API'si
+second_title: Aspose.HTML .NET HTML işleme API'si
 description: Aspose.HTML for .NET ile çalışmayı öğrenin. HTML'yi yönetin, çeşitli formatlara dönüştürün ve daha fazlasını yapın. Bu kapsamlı eğitime dalın!
 type: docs
 weight: 10

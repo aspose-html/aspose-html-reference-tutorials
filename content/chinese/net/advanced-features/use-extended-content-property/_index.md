@@ -1,7 +1,7 @@
 ---
 title: 将 .NET 中的扩展内容属性与 Aspose.HTML 结合使用
 linktitle: 在 .NET 中使用扩展内容属性
-second_title: Aspose.Slides .NET HTML 操作 API
+second_title: Aspose.HTML .NET HTML 操作 API
 description: 通过此分步指南了解如何使用 Aspose.HTML for .NET。增强您的 HTML 技能并简化您的 Web 开发项目。
 type: docs
 weight: 14

@@ -1,7 +1,7 @@
 ---
 title: 使用 Aspose.HTML 将 .NET 中的 HTML 转换为 DOC 和 DOCX
 linktitle: 在 .NET 中将 HTML 转换为 DOC 和 DOCX
-second_title: Aspose.Slides .NET HTML 操作 API
+second_title: Aspose.HTML .NET HTML 操作 API
 description: 在此分步指南中了解如何利用 Aspose.HTML for .NET 的强大功能。轻松将 HTML 转换为 DOCX 并升级您的 .NET 项目。今天就开始吧！
 type: docs
 weight: 15

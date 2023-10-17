@@ -1,7 +1,7 @@
 ---
 title: 使用 Aspose.HTML 在 .NET 中将 EPUB 渲染为 XPS
 linktitle: 在 .NET 中将 EPUB 渲染为 XPS
-second_title: Aspose.Slides .NET HTML 操作 API
+second_title: Aspose.HTML .NET HTML 操作 API
 description: 在这个综合教程中了解如何使用 Aspose.HTML for .NET 创建和渲染 HTML 文档。深入了解 HTML 操作、网页抓取等领域。
 type: docs
 weight: 11

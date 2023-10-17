@@ -1,7 +1,7 @@
 ---
 title: 使用 Aspose.HTML 在 .NET 中通过 PdfDevice 生成加密 PDF
 linktitle: 在.NET中通过PdfDevice生成加密PDF
-second_title: Aspose.Slides .NET HTML 操作 API
+second_title: Aspose.HTML .NET HTML 操作 API
 description: 使用 Aspose.HTML for .NET 将 HTML 动态转换为 PDF。轻松集成、可定制选项和强大的性能。
 type: docs
 weight: 15

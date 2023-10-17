@@ -1,7 +1,7 @@
 ---
 title: Aspose.HTML ile .NET'te HTML Belgesi Oluşturma
 linktitle: .NET'te HTML Belgesi Oluşturma
-second_title: Aspose.Slides .NET HTML işleme API'si
+second_title: Aspose.HTML .NET HTML işleme API'si
 description: Aspose.HTML kullanarak .NET'te sıfırdan veya URL'lerden HTML belgeleri oluşturmayı öğrenin. Web geliştiricileri için kapsamlı bir eğitim.
 type: docs
 weight: 10

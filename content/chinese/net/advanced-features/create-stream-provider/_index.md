@@ -1,7 +1,7 @@
 ---
 title: 使用 Aspose.HTML 在 .NET 中创建流提供程序
 linktitle: 在 .NET 中创建流提供程序
-second_title: Aspose.Slides .NET HTML 操作 API
+second_title: Aspose.HTML .NET HTML 操作 API
 description: 了解如何使用 Aspose.HTML for .NET 高效地操作 HTML 文档。面向开发人员的分步教程。
 type: docs
 weight: 11

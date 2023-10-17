@@ -1,7 +1,7 @@
 ---
 title: Generera XPS-dokument av XpsDevice i .NET med Aspose.HTML
 linktitle: Generera XPS-dokument med XpsDevice i .NET
-second_title: Aspose.Slides .NET HTML manipulation API
+second_title: Aspose.HTML .NET HTML manipulation API
 description: Lås upp potentialen för webbutveckling med Aspose.HTML för .NET. Skapa, konvertera och manipulera HTML-dokument enkelt.
 type: docs
 weight: 19

@@ -1,7 +1,7 @@
 ---
 title: HTML Uzantıları ve Dönüşümleri
 linktitle: HTML Uzantıları ve Dönüşümleri
-second_title: Aspose.Slides .NET HTML işleme API'si
+second_title: Aspose.HTML .NET HTML işleme API'si
 description: Aspose.HTML for .NET'i kullanarak HTML uzantılarını ve dönüştürme eğitimlerini keşfedin. Bu kapsamlı eğitimlerle web geliştirmeyi nasıl optimize edeceğinizi öğrenin.
 type: docs
 weight: 20

@@ -1,7 +1,7 @@
 ---
 title: قم بعرض EPUB على هيئة XPS في .NET باستخدام Aspose.HTML
 linktitle: قم بعرض EPUB كـ XPS في .NET
-second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة HTML
+second_title: Aspose.HTML .NET واجهة برمجة تطبيقات معالجة HTML
 description: تعرف على كيفية إنشاء مستندات HTML وعرضها باستخدام Aspose.HTML لـ .NET في هذا البرنامج التعليمي الشامل. انغمس في عالم معالجة HTML وتجريد الويب والمزيد.
 type: docs
 weight: 11

@@ -1,7 +1,7 @@
 ---
 title: Rendering HTML Documents
 linktitle: Rendering HTML Documents
-second_title: Aspose.Slides .NET HTML manipulation API
+second_title: Aspose.HTML .NET HTML manipulation API
 description: Learn how to render HTML documents with ease using Aspose.HTML for .NET tutorials. Explore a comprehensive listing of tutorials to master HTML rendering.
 type: docs
 weight: 29

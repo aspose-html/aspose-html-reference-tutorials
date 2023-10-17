@@ -1,7 +1,7 @@
 ---
 title: 使用 Aspose.HTML 在 .NET 中渲染超时
 linktitle: .NET 中的渲染超时
-second_title: Aspose.Slides .NET HTML 操作 API
+second_title: Aspose.HTML .NET HTML 操作 API
 description: 了解如何在 Aspose.HTML for .NET 中有效控制渲染超时。探索渲染选项并确保 HTML 文档渲染流畅。
 type: docs
 weight: 12

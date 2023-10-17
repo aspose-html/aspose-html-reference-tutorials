@@ -1,7 +1,7 @@
 ---
 title: قم بتحميل HTML باستخدام URL في .NET باستخدام Aspose.HTML
 linktitle: قم بتحميل HTML باستخدام URL في .NET
-second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة HTML
+second_title: Aspose.HTML .NET واجهة برمجة تطبيقات معالجة HTML
 description: تعرف على كيفية الاستفادة من قوة Aspose.HTML لـ .NET. عزز تطوير الويب الخاص بك من خلال معالجة HTML وعرضها.
 type: docs
 weight: 13

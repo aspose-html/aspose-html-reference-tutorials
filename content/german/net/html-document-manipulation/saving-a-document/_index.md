@@ -1,7 +1,7 @@
 ---
 title: Speichern eines Dokuments in .NET mit Aspose.HTML
 linktitle: Speichern eines Dokuments in .NET
-second_title: Aspose.Slides .NET HTML-Manipulations-API
+second_title: Aspose.HTML .NET HTML-Manipulations-API
 description: Nutzen Sie die Leistungsfähigkeit von Aspose.HTML für .NET mit unserer Schritt-für-Schritt-Anleitung. Erfahren Sie, wie Sie HTML- und SVG-Dokumente erstellen, bearbeiten und konvertieren
 type: docs
 weight: 16

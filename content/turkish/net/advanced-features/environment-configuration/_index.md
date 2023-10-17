@@ -1,7 +1,7 @@
 ---
 title: Aspose.HTML ile .NET'te Ortam Yapılandırması
 linktitle: .NET'te Ortam Yapılandırması
-second_title: Aspose.Slides .NET HTML işleme API'si
+second_title: Aspose.HTML .NET HTML işleme API'si
 description: Komut dosyası yönetimi, özel stiller, JavaScript yürütme kontrolü ve daha fazlası gibi görevler için Aspose.HTML kullanarak .NET'te HTML belgeleriyle nasıl çalışılacağını öğrenin. Bu kapsamlı eğitim, başlamanıza yardımcı olacak adım adım örnekler ve SSS'ler sağlar.
 type: docs
 weight: 10

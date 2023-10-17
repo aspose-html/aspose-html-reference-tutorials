@@ -1,7 +1,7 @@
 ---
 title: 使用 .NET 中的 URL 和 Aspose.HTML 加载 HTML
 linktitle: 在 .NET 中使用 URL 加载 HTML
-second_title: Aspose.Slides .NET HTML 操作 API
+second_title: Aspose.HTML .NET HTML 操作 API
 description: 了解如何利用 Aspose.HTML for .NET 的强大功能。通过 HTML 操作和渲染来促进您的 Web 开发。
 type: docs
 weight: 13

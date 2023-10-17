@@ -1,7 +1,7 @@
 ---
 title: Загрузите HTML, используя URL-адрес в .NET с помощью Aspose.HTML
 linktitle: Загрузка HTML с использованием URL-адреса в .NET
-second_title: Aspose.Slides .NET API манипулирования HTML
+second_title: Aspose.HTML .NET API манипулирования HTML
 description: Узнайте, как использовать возможности Aspose.HTML для .NET. Улучшите свою веб-разработку с помощью манипуляций и рендеринга HTML.
 type: docs
 weight: 13

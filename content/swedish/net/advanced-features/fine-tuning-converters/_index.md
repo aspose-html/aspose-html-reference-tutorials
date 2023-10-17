@@ -1,7 +1,7 @@
 ---
 title: Finjustera omvandlare i .NET med Aspose.HTML
 linktitle: Finjustera omvandlare i .NET
-second_title: Aspose.Slides .NET HTML manipulation API
+second_title: Aspose.HTML .NET HTML manipulation API
 description: Lär dig hur du konverterar HTML till PDF, XPS och bilder med Aspose.HTML för .NET. Steg-för-steg handledning med kodexempel och vanliga frågor.
 type: docs
 weight: 16

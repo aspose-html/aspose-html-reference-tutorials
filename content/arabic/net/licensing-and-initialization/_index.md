@@ -1,7 +1,7 @@
 ---
 title: الترخيص والتهيئة
 linktitle: الترخيص والتهيئة
-second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة HTML
+second_title: Aspose.HTML .NET واجهة برمجة تطبيقات معالجة HTML
 description: اكتشف كيفية استخدام Aspose.HTML لـ .NET بشكل فعال من خلال برامجنا التعليمية الشاملة للترخيص والتهيئة. أطلق العنان للإمكانات الكاملة لهذه الأداة.
 type: docs
 weight: 27

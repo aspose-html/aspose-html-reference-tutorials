@@ -1,7 +1,7 @@
 ---
 title: Объедините HTML с XML в .NET с помощью Aspose.HTML
 linktitle: Объединить HTML с XML в .NET
-second_title: Aspose.Slides .NET API манипулирования HTML
+second_title: Aspose.HTML .NET API манипулирования HTML
 description: Научитесь использовать Aspose.HTML для .NET. Импортируйте пространство имен, объединяйте HTML с XML и улучшите свои навыки веб-разработки с помощью этого подробного руководства.
 type: docs
 weight: 18

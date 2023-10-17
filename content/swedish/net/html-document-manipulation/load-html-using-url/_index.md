@@ -1,7 +1,7 @@
 ---
 title: Ladda HTML med URL i .NET med Aspose.HTML
 linktitle: Ladda HTML med URL i .NET
-second_title: Aspose.Slides .NET HTML manipulation API
+second_title: Aspose.HTML .NET HTML manipulation API
 description: Lär dig hur du utnyttjar kraften i Aspose.HTML för .NET. Öka din webbutveckling med HTML-manipulation och rendering.
 type: docs
 weight: 13

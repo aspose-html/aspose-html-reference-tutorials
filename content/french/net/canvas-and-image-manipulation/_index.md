@@ -1,7 +1,7 @@
 ---
 title: Manipulation de canevas et d'images
 linktitle: Manipulation de canevas et d'images
-second_title: API de manipulation HTML Aspose.Slides .NET
+second_title: API de manipulation HTML Aspose.HTML .NET
 description: Apprenez à manipuler des images avec Aspose.HTML pour .NET grâce à des didacticiels étape par étape. Découvrez la puissance du canevas et de l’édition d’images.
 type: docs
 weight: 22

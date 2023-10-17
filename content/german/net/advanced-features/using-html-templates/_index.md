@@ -1,7 +1,7 @@
 ---
 title: Verwenden von HTML-Vorlagen in .NET mit Aspose.HTML
 linktitle: Verwendung von HTML-Vorlagen in .NET
-second_title: Aspose.Slides .NET HTML-Manipulations-API
+second_title: Aspose.HTML .NET HTML-Manipulations-API
 description: Erfahren Sie, wie Sie Aspose.HTML für .NET verwenden, um HTML-Dokumente dynamisch aus JSON-Daten zu generieren. Nutzen Sie die Möglichkeiten der HTML-Manipulation in Ihren .NET-Anwendungen.
 type: docs
 weight: 17

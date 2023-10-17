@@ -1,7 +1,7 @@
 ---
 title: Создайте поставщика потоков в .NET с помощью Aspose.HTML
 linktitle: Создать поставщика потока в .NET
-second_title: Aspose.Slides .NET API манипулирования HTML
+second_title: Aspose.HTML .NET API манипулирования HTML
 description: Узнайте, как использовать Aspose.HTML для .NET для эффективного управления HTML-документами. Пошаговое руководство для разработчиков.
 type: docs
 weight: 11

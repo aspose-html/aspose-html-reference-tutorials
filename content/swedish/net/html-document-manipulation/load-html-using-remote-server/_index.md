@@ -1,7 +1,7 @@
 ---
 title: Ladda HTML med hjälp av en fjärrserver i .NET med Aspose.HTML
 linktitle: Ladda HTML med hjälp av en fjärrserver i .NET
-second_title: Aspose.Slides .NET HTML manipulation API
+second_title: Aspose.HTML .NET HTML manipulation API
 description: Lås upp potentialen hos Aspose.HTML för .NET med vår omfattande guide. Lär dig hur du importerar namnområden, kommer åt fjärranslutna HTML-dokument och mer.
 type: docs
 weight: 12

@@ -1,7 +1,7 @@
 ---
 title: Speicher-Stream-Anbieter in .NET mit Aspose.HTML
 linktitle: Speicher-Stream-Anbieter in .NET
-second_title: Aspose.Slides .NET HTML-Manipulations-API
+second_title: Aspose.HTML .NET HTML-Manipulations-API
 description: Erfahren Sie, wie Sie mit Aspose.HTML beeindruckende HTML-Dokumente in .NET erstellen. Folgen Sie unserer Schritt-für-Schritt-Anleitung und nutzen Sie die Möglichkeiten der HTML-Manipulation.
 type: docs
 weight: 12

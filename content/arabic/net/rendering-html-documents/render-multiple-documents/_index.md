@@ -1,7 +1,7 @@
 ---
 title: عرض مستندات متعددة في .NET باستخدام Aspose.HTML
 linktitle: تقديم مستندات متعددة في .NET
-second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة HTML
+second_title: Aspose.HTML .NET واجهة برمجة تطبيقات معالجة HTML
 description: تعلم كيفية عرض مستندات HTML متعددة باستخدام Aspose.HTML لـ .NET. عزز قدرات معالجة المستندات لديك باستخدام هذه المكتبة القوية.
 type: docs
 weight: 14

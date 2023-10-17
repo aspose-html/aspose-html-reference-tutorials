@@ -1,7 +1,7 @@
 ---
 title: Rendern Sie MHTML als XPS in .NET mit Aspose.HTML
 linktitle: Rendern Sie MHTML als XPS in .NET
-second_title: Aspose.Slides .NET HTML-Manipulations-API
+second_title: Aspose.HTML .NET HTML-Manipulations-API
 description: Erfahren Sie, wie Sie MHTML als XPS in .NET mit Aspose.HTML rendern. Verbessern Sie Ihre HTML-Manipulationsfähigkeiten und fördern Sie Ihre Webentwicklungsprojekte!
 type: docs
 weight: 13

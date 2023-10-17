@@ -1,7 +1,7 @@
 ---
 title: Spara ett dokument i .NET med Aspose.HTML
 linktitle: Spara ett dokument i .NET
-second_title: Aspose.Slides .NET HTML manipulation API
+second_title: Aspose.HTML .NET HTML manipulation API
 description: Lås upp kraften i Aspose.HTML för .NET med vår steg-för-steg-guide. Lär dig att skapa, manipulera och konvertera HTML- och SVG-dokument
 type: docs
 weight: 16

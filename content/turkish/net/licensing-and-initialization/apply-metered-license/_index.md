@@ -1,7 +1,7 @@
 ---
 title: Aspose.HTML ile .NET'te Ölçülü Lisans uygulayın
 linktitle: .NET'te Ölçülü Lisans Uygula
-second_title: Aspose.Slides .NET HTML işleme API'si
+second_title: Aspose.HTML .NET HTML işleme API'si
 description: Aspose.HTML for .NET'te ölçülü lisansın nasıl uygulanacağını öğrenin. HTML manipülasyon ihtiyaçlarınızı verimli bir şekilde yönetin. Şimdi başla!
 type: docs
 weight: 10

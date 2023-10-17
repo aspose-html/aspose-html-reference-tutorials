@@ -1,7 +1,7 @@
 ---
 title: Создание документов XPS с помощью XpsDevice в .NET с помощью Aspose.HTML
 linktitle: Создание документов XPS с помощью XpsDevice в .NET
-second_title: Aspose.Slides .NET API манипулирования HTML
+second_title: Aspose.HTML .NET API манипулирования HTML
 description: Раскройте потенциал веб-разработки с помощью Aspose.HTML для .NET. Легко создавайте, конвертируйте и манипулируйте HTML-документами.
 type: docs
 weight: 19

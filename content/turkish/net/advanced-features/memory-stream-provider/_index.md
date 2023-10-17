@@ -1,7 +1,7 @@
 ---
 title: Aspose.HTML ile .NET'te Bellek Akışı Sağlayıcısı
 linktitle: .NET'te Bellek Akışı Sağlayıcısı
-second_title: Aspose.Slides .NET HTML işleme API'si
+second_title: Aspose.HTML .NET HTML işleme API'si
 description: Aspose.HTML ile .NET'te çarpıcı HTML belgelerinin nasıl oluşturulacağını öğrenin. Adım adım eğitimimizi takip edin ve HTML manipülasyonunun gücünün kilidini açın.
 type: docs
 weight: 12

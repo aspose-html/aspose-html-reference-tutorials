@@ -1,7 +1,7 @@
 ---
 title: تحويل EPUB إلى XPS في .NET باستخدام Aspose.HTML
 linktitle: تحويل EPUB إلى XPS في .NET
-second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة HTML
+second_title: Aspose.HTML .NET واجهة برمجة تطبيقات معالجة HTML
 description: تعرف على كيفية تحويل EPUB إلى XPS في .NET باستخدام Aspose.HTML لـ .NET. اتبع دليلنا خطوة بخطوة لإجراء تحويلات سهلة.
 type: docs
 weight: 13

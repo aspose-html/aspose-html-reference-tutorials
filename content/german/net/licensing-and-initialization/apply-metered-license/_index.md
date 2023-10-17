@@ -1,7 +1,7 @@
 ---
 title: Wenden Sie eine gemessene Lizenz in .NET mit Aspose.HTML an
 linktitle: Wenden Sie eine gemessene Lizenz in .NET an
-second_title: Aspose.Slides .NET HTML-Manipulations-API
+second_title: Aspose.HTML .NET HTML-Manipulations-API
 description: Erfahren Sie, wie Sie eine getaktete Lizenz in Aspose.HTML für .NET anwenden. Verwalten Sie Ihre HTML-Manipulationsanforderungen effizient. Jetzt loslegen!
 type: docs
 weight: 10

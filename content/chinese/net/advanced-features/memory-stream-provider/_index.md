@@ -1,7 +1,7 @@
 ---
 title: .NET 中的内存流提供程序与 Aspose.HTML
 linktitle: .NET 中的内存流提供程序
-second_title: Aspose.Slides .NET HTML 操作 API
+second_title: Aspose.HTML .NET HTML 操作 API
 description: 了解如何使用 Aspose.HTML 在 .NET 中创建令人惊叹的 HTML 文档。遵循我们的分步教程并释放 HTML 操作的力量。
 type: docs
 weight: 12

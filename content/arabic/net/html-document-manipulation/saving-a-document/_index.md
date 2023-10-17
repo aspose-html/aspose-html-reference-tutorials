@@ -1,7 +1,7 @@
 ---
 title: حفظ مستند في .NET باستخدام Aspose.HTML
 linktitle: حفظ مستند في .NET
-second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة HTML
+second_title: Aspose.HTML .NET واجهة برمجة تطبيقات معالجة HTML
 description: أطلق العنان لقوة Aspose.HTML لـ .NET من خلال دليلنا التفصيلي خطوة بخطوة. تعلم كيفية إنشاء مستندات HTML وSVG ومعالجتها وتحويلها
 type: docs
 weight: 16

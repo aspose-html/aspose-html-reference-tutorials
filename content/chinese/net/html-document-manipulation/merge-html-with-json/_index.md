@@ -1,7 +1,7 @@
 ---
 title: 使用 Aspose.HTML 将 .NET 中的 HTML 与 Json 合并
 linktitle: 在 .NET 中将 HTML 与 Json 合并
-second_title: Aspose.Slides .NET HTML 操作 API
+second_title: Aspose.HTML .NET HTML 操作 API
 description: 学习使用 Aspose.HTML for .NET 创建动态和 Web 内容。增强您的在线形象并吸引您的受众。
 type: docs
 weight: 17

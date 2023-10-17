@@ -1,7 +1,7 @@
 ---
 title: عرض المهلة في .NET باستخدام Aspose.HTML
 linktitle: عرض المهلة في .NET
-second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة HTML
+second_title: Aspose.HTML .NET واجهة برمجة تطبيقات معالجة HTML
 description: تعرف على كيفية التحكم في مهلات العرض بشكل فعال في Aspose.HTML لـ .NET. استكشف خيارات العرض وتأكد من عرض مستند HTML بسلاسة.
 type: docs
 weight: 12

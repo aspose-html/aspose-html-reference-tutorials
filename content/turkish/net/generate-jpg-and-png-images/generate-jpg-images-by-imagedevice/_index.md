@@ -1,7 +1,7 @@
 ---
 title: Aspose.HTML ile .NET'te ImageDevice ile JPG Görüntüleri oluşturun
 linktitle: .NET'te ImageDevice ile JPG Görüntüleri Oluşturun
-second_title: Aspose.Slides .NET HTML işleme API'si
+second_title: Aspose.HTML .NET HTML işleme API'si
 description: Aspose.HTML for .NET kullanarak dinamik web sayfalarının nasıl oluşturulacağını öğrenin. Bu adım adım eğitim, önkoşulları, ad alanlarını ve HTML'yi görüntülere dönüştürmeyi kapsar.
 type: docs
 weight: 10

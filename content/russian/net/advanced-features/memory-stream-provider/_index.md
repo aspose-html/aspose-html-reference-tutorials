@@ -1,7 +1,7 @@
 ---
 title: Поставщик потоков памяти в .NET с помощью Aspose.HTML
 linktitle: Поставщик потоков памяти в .NET
-second_title: Aspose.Slides .NET API манипулирования HTML
+second_title: Aspose.HTML .NET API манипулирования HTML
 description: Узнайте, как создавать потрясающие HTML-документы в .NET с помощью Aspose.HTML. Следуйте нашему пошаговому руководству и раскройте возможности манипуляции HTML.
 type: docs
 weight: 12
