@@ -2,7 +2,7 @@
 title: Specifying Image Save Options for EPUB to Image Conversion
 linktitle: Specifying Image Save Options for EPUB to Image Conversion
 second_title: Java HTML Processing with Aspose.HTML
-description: Learn to use Aspose.HTML for Java: Convert EPUB to image & more. Explore our step-by-step guide. #JavaDevelopment #WebDevelopment #DocumentConversion
+description: Learn to use Aspose.HTML for Java for converting EPUB to image & more. Explore our step-by-step guide. #JavaDevelopment #WebDevelopment #DocumentConversion
 type: docs
 weight: 16
 url: /java/converting-epub-to-pdf/convert-epub-to-image-specify-image-save-options/
