@@ -1,6 +1,6 @@
 ---
 title: Automatice el llenado de formularios HTML con Aspose.HTML para Java
-linktitle: Editor de formularios HTML: rellenar y enviar formularios
+linktitle: Editor de formularios HTML rellenar y enviar formularios
 second_title: Procesamiento HTML de Java con Aspose.HTML
 description: Aprenda a automatizar el llenado y envío de formularios HTML con Aspose.HTML para Java. Simplifique la interacción web con este tutorial.
 type: docs

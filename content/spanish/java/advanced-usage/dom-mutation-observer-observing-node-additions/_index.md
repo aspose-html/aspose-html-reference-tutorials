@@ -1,6 +1,6 @@
 ---
 title: Observador de mutaciones DOM con Aspose.HTML para Java
-linktitle: Observador de mutaciones DOM: observación de adiciones de nodos
+linktitle: Observador de mutaciones DOM observación de adiciones de nodos
 second_title: Procesamiento HTML de Java con Aspose.HTML
 description: Aprenda a utilizar Aspose.HTML para Java para implementar un observador de mutaciones DOM en esta guía paso a paso. Supervise y reaccione a los cambios DOM de forma eficaz.
 type: docs

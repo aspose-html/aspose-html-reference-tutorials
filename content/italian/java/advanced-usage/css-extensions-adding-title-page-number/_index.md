@@ -1,6 +1,6 @@
 ---
 title: Personalizza i margini della pagina HTML con Aspose.HTML
-linktitle: Estensioni CSS: aggiunta di titolo e numero di pagina
+linktitle: Estensioni CSS aggiunta di titolo e numero di pagina
 second_title: Elaborazione HTML Java con Aspose.HTML
 description: Scopri come personalizzare i margini della pagina, aggiungere numeri di pagina e titoli ai documenti HTML utilizzando Aspose.HTML per Java.
 type: docs

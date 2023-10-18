@@ -2,7 +2,7 @@
 title: Aprenda la manipulación de documentos HTML con Aspose.HTML
 linktitle: Tutoriales de Aspose.HTML
 additionalTitle: Referencias de API de Aspose
-description: Domine la manipulación de HTML con los tutoriales de Aspose.HTML: desde el análisis hasta la conversión, guía paso a paso para desarrolladores.
+description: Domine la manipulación de HTML con los tutoriales de Aspose.HTML desde el análisis hasta la conversión, guía paso a paso para desarrolladores.
 type: docs
 weight: 11
 url: /es/

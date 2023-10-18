@@ -1,6 +1,6 @@
 ---
 title: Personalice los márgenes de la página HTML con Aspose.HTML
-linktitle: Extensiones CSS: agregar título y número de página
+linktitle: Extensiones CSS agregar título y número de página
 second_title: Procesamiento HTML de Java con Aspose.HTML
 description: Aprenda a personalizar los márgenes de las páginas, agregar números de página y títulos a documentos HTML usando Aspose.HTML para Java.
 type: docs

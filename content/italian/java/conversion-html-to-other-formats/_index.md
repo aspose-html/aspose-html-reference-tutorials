@@ -1,6 +1,6 @@
 ---
-title: Conversione: tutorial da HTML ad altri formati
-linktitle: Conversione: da HTML ad altri formati
+title: Conversione tutorial da HTML ad altri formati
+linktitle: Conversione da HTML ad altri formati
 second_title: Elaborazione HTML Java con Aspose.HTML
 description: Impara a convertire HTML in PDF, MHTML, XPS, Markdown, SVG e altro in Java utilizzando Aspose.HTML. Conversioni di documenti di alta qualità rese semplici.
 type: docs

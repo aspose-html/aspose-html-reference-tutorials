@@ -2,7 +2,7 @@
 title: Handledning för konvertering av EPUB till XPS
 linktitle: Konvertering - EPUB till XPS
 second_title: Java HTML-bearbetning med Aspose.HTML
-description: Lär dig hur du konverterar EPUB till XPS med Aspose.HTML för Java. Få en steg-för-steg-guide och kodexempel, och utforska Aspose.HTML:s möjligheter i dessa handledningar.
+description: Lär dig hur du konverterar EPUB till XPS med Aspose.HTML för Java. Få en steg-för-steg-guide och kodexempel, och utforska Aspose.HTMLs möjligheter i dessa handledningar.
 type: docs
 weight: 23
 url: /sv/java/conversion-epub-to-xps/

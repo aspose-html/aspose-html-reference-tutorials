@@ -1,6 +1,6 @@
 ---
-title: Conversione: tutorial da Canvas a PDF
-linktitle: Conversione: tela in PDF
+title: Conversione tutorial da Canvas a PDF
+linktitle: Conversione tela in PDF
 second_title: Elaborazione HTML Java con Aspose.HTML
 description: Scopri come convertire HTML Canvas in PDF con Aspose.HTML per Java in questa guida completa. Padroneggia l'arte della trasformazione digitale!
 type: docs

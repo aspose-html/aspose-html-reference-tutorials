@@ -1,6 +1,6 @@
 ---
 title: Tutoriales de conversión de HTML a varios formatos de imagen
-linktitle: Conversión: HTML a varios formatos de imagen
+linktitle: Conversión HTML a varios formatos de imagen
 second_title: Procesamiento HTML de Java con Aspose.HTML
 description: Aprenda a convertir HTML a varios formatos de imagen como BMP, GIF, JPEG, PNG y TIFF utilizando Aspose.HTML para Java. Este completo tutorial cubre el procesamiento eficiente de documentos.
 type: docs

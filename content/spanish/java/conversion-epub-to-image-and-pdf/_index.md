@@ -1,6 +1,6 @@
 ---
-title: Conversión: EPUB a imagen y PDF
-linktitle: Conversión: EPUB a imagen y PDF
+title: Conversión EPUB a imagen y PDF
+linktitle: Conversión EPUB a imagen y PDF
 second_title: Procesamiento HTML de Java con Aspose.HTML
 description: Convierta EPUB a imágenes de manera eficiente usando Aspose.HTML para Java. Esta guía paso a paso simplifica el proceso. Aprenda también la conversión de EPUB a PDF.
 type: docs
