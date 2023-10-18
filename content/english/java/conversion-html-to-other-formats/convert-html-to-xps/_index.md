@@ -34,7 +34,7 @@ import com.aspose.html.drawing.Color;
 import com.aspose.html.converters.Converter;
 ```
 
-### Step 1: Load the HTML Document
+## Load the HTML Document
 
 To convert an HTML document to XPS, you first need to load the HTML document. This is achieved using the `HTMLDocument` class.
 
@@ -42,7 +42,7 @@ To convert an HTML document to XPS, you first need to load the HTML document. Th
 HTMLDocument htmlDocument = new HTMLDocument("path/to/your/input.html");
 ```
 
-### Step 2: Initialize XpsSaveOptions
+## Initialize XpsSaveOptions
 
 Set the XPS conversion options. You can customize various settings like background color, page size, and more.
 
@@ -51,7 +51,7 @@ XpsSaveOptions options = new XpsSaveOptions();
 options.setBackgroundColor(Color.getCyan());
 ```
 
-### Step 3: Define the Output File Path
+## Define the Output File Path
 
 Specify the path where the converted XPS file will be saved.
 
@@ -59,7 +59,7 @@ Specify the path where the converted XPS file will be saved.
 String outputFile = "path/to/your/output.xps";
 ```
 
-### Step 4: Perform the Conversion
+## Perform the Conversion
 
 Now, perform the conversion from HTML to XPS using Aspose.HTML's `Converter` class.
 

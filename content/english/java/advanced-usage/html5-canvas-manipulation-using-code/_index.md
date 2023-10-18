@@ -15,7 +15,7 @@ Before diving into this tutorial, there are a few prerequisites you should have 
 
 - Java Environment: Ensure that you have Java installed on your system. You can download Java from [here](https://www.java.com/download/).
 
-- Aspose.HTML for Java: Make sure you have the Aspose.HTML for Java library installed. You can download it from the official [download page](https://releases.aspose.com/html/java/).
+- Aspose.HTML for Java: Make sure you have the Aspose.HTML for Java library installed. You can download it from the [download page](https://releases.aspose.com/html/java/).
 
 - IDE: You can use any Integrated Development Environment (IDE) of your choice. Eclipse, IntelliJ IDEA, or any other Java IDE would work fine.
 
@@ -149,7 +149,7 @@ A2: Yes, you can download a free trial version from [here](https://releases.aspo
 
 ### Q3: Where can I find documentation and support for Aspose.HTML for Java?
 
-A3: You can access the official documentation at [https://reference.aspose.com/html/java/](https://reference.aspose.com/html/java/). For support and discussions, visit the [Aspose forums](https://forum.aspose.com/).
+A3: You can access the documentation at [https://reference.aspose.com/html/java/](https://reference.aspose.com/html/java/). For support and discussions, visit the [Aspose forums](https://forum.aspose.com/).
 
 ### Q4: Can I use Aspose.HTML for Java with other programming languages?
 

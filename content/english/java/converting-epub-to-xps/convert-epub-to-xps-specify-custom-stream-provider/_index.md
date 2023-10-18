@@ -15,7 +15,7 @@ To successfully convert EPUB to XPS, ensure you have the following prerequisites
 
 ### 1. Aspose.HTML for Java Library
 
-You must have the Aspose.HTML for Java library installed and configured in your Java environment. If you haven't already, you can download the library from the [official download link](https://releases.aspose.com/html/java/).
+You must have the Aspose.HTML for Java library installed and configured in your Java environment. If you haven't already, you can download the library from the [download link](https://releases.aspose.com/html/java/).
 
 ### 2. Input EPUB File
 
@@ -114,7 +114,7 @@ With these five steps, you've successfully converted your EPUB file to XPS using
         }
 ```
 
-# Conclusion
+## Conclusion
 
 Converting EPUB to XPS is a valuable skill in today's digital landscape. Aspose.HTML for Java simplifies the process, making it efficient and reliable. By following the steps outlined in this guide, you can easily achieve this conversion.
 
@@ -140,7 +140,7 @@ Yes, Aspose.HTML for Java supports the conversion of various document formats, i
 
 ### 5. Where can I find additional resources and support?
 
-For documentation and support, visit the [official Aspose.HTML for Java documentation](https://reference.aspose.com/html/java/) and [support forum](https://forum.aspose.com/).
+For documentation and support, visit the [Aspose.HTML for Java documentation](https://reference.aspose.com/html/java/) and [support forum](https://forum.aspose.com/).
 
 
 

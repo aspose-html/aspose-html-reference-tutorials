@@ -14,9 +14,9 @@ Are you looking to convert EPUB files to XPS format using Java? Aspose.HTML for 
 
 Before we get started, make sure you have the following prerequisites in place:
 
-1. Java Development Kit (JDK): Ensure you have Java Development Kit (JDK) installed on your system. You can download it from the official Oracle website or any other trusted source.
+1. Java Development Kit (JDK): Ensure you have Java Development Kit (JDK) installed on your system. You can download it from the Oracle website or any other trusted source.
 
-2. Aspose.HTML for Java Library: Download and install the Aspose.HTML for Java library from the official [Aspose.HTML for Java Documentation](https://reference.aspose.com/html/java/). You can use the [Download Link](https://releases.aspose.com/html/java/) for this purpose.
+2. Aspose.HTML for Java Library: Download and install the Aspose.HTML for Java library from the [Aspose.HTML for Java Documentation](https://reference.aspose.com/html/java/). You can use the [Download Link](https://releases.aspose.com/html/java/) for this purpose.
 
 3. IDE (Integrated Development Environment): Choose your favorite Java IDE for coding. IntelliJ IDEA, Eclipse, or NetBeans are popular choices.
 
@@ -76,17 +76,17 @@ Have more questions or need further assistance? Check out the [Aspose.HTML Forum
 
 ## FAQs
 
-1. ## Can I convert multiple EPUB files in one go?
+### Can I convert multiple EPUB files in one go?
 Yes, you can loop through a list of EPUB files and convert them to XPS one by one using the provided example.
 
-2. ## Is a temporary license available for testing?
+### Is a temporary license available for testing?
 Yes, you can obtain a temporary license for testing purposes by visiting the [Temporary License Page](https://purchase.aspose.com/temporary-license/).
 
-3. ## What versions of EPUB are supported for conversion?
+### What versions of EPUB are supported for conversion?
 Aspose.HTML for Java supports EPUB 2 and 3 formats.
 
-4. ## Are there any other output formats supported besides XPS?
+### Are there any other output formats supported besides XPS?
 Yes, Aspose.HTML for Java supports conversion to various other formats, such as PDF, TIFF, and more. Check the documentation for details.
 
-5. ## Is Aspose.HTML suitable for commercial projects?
+### Is Aspose.HTML suitable for commercial projects?
 Absolutely. Aspose.HTML is a powerful and reliable solution for both personal and commercial projects.

@@ -16,7 +16,7 @@ Before we get started with the actual conversion process, make sure you have the
 
 - Java Development Environment: Ensure that you have a Java development environment set up on your system.
 
-- Aspose.HTML for Java: You should have the Aspose.HTML for Java library installed. You can download it from the official [Aspose.HTML for Java documentation](https://reference.aspose.com/html/java/).
+- Aspose.HTML for Java: You should have the Aspose.HTML for Java library installed. You can download it from the [Aspose.HTML for Java documentation](https://reference.aspose.com/html/java/).
 
 - HTML Content: Prepare the HTML content that you want to convert to a PNG image.
 
@@ -84,11 +84,11 @@ In this tutorial, we've demonstrated how to use Aspose.HTML for Java to convert 
 
 ## FAQs
 
-### Where can I find the official documentation for Aspose.HTML for Java?
+### Where can I find the documentation for Aspose.HTML for Java?
    You can find the documentation at [Aspose.HTML for Java Documentation](https://reference.aspose.com/html/java/).
 
 ### How can I download Aspose.HTML for Java?
-   You can download it from the official website: [Download Aspose.HTML for Java](https://releases.aspose.com/html/java/).
+   You can download it from the website: [Download Aspose.HTML for Java](https://releases.aspose.com/html/java/).
 
 ### Is there a free trial available for Aspose.HTML for Java?
    Yes, you can get a free trial from [Aspose.HTML Free Trial](https://releases.aspose.com/).

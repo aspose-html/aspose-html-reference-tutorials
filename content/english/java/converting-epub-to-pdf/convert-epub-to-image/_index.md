@@ -18,7 +18,7 @@ Before we dive into the conversion process, here are the prerequisites you need 
 
 1. Java Development Environment: You should have Java Development Kit (JDK) installed on your computer.
 
-2. Aspose.HTML for Java Library: Download and install Aspose.HTML for Java from [the official website](https://releases.aspose.com/html/java/).
+2. Aspose.HTML for Java Library: Download and install Aspose.HTML for Java from [the website](https://releases.aspose.com/html/java/).
 
 3. EPUB File: You'll need an EPUB file that you want to convert to an image. Ensure that it's accessible on your system.
 

@@ -93,8 +93,8 @@ A3: Yes, Aspose.HTML for Java supports the conversion of HTML documents to vario
 
 ### 4: Are there any limitations when using Aspose.HTML for Java?
 
-A4: As with any software library, there might be some limitations and system requirements. It's essential to check the official documentation for specific details and updates.
+A4: As with any software library, there might be some limitations and system requirements. It's essential to check the documentation for specific details and updates.
 
 ### Q5: Where can I find more resources and documentation for Aspose.HTML for Java?
 
-A5: You can find detailed documentation and additional resources on the official Aspose.HTML for Java [documentation page](https://reference.aspose.com/html/java/).
+A5: You can find detailed documentation and additional resources on the Aspose.HTML for Java [documentation page](https://reference.aspose.com/html/java/).

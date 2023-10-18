@@ -16,11 +16,11 @@ Before we embark on our journey of converting EPUB to PDF using Aspose.HTML, the
 
 ### 1. Java Development Environment
 
-To work with Aspose.HTML in Java, you need a functional Java development environment. Ensure you have Java Development Kit (JDK) installed on your system. You can download it from [Oracle's official website](https://www.oracle.com/java/technologies/javase-downloads.html).
+To work with Aspose.HTML in Java, you need a functional Java development environment. Ensure you have Java Development Kit (JDK) installed on your system. You can download it from [Oracle's website](https://www.oracle.com/java/technologies/javase-downloads.html).
 
 ### 2. Aspose.HTML Library
 
-You must obtain the Aspose.HTML library for Java. You can download it from the official Aspose website's [download page](https://releases.aspose.com/html/java/).
+You must obtain the Aspose.HTML library for Java. You can download it from the Aspose website's [download page](https://releases.aspose.com/html/java/).
 
 ### 3. Sample EPUB File
 
@@ -134,7 +134,7 @@ Yes, Aspose.HTML offers various licensing options, including temporary licenses.
 
 ### 4. Does Aspose.HTML provide documentation for further assistance?
 
-Absolutely! You can find comprehensive documentation and resources for Aspose.HTML on their [official documentation page](https://reference.aspose.com/html/java/).
+Absolutely! You can find comprehensive documentation and resources for Aspose.HTML on their [documentation page](https://reference.aspose.com/html/java/).
 
 ### 5. What other document formats can Aspose.HTML handle?
 

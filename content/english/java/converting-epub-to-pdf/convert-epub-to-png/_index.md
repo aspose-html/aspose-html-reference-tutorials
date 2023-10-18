@@ -14,7 +14,7 @@ In today's digital age, the need to convert various file formats is quite common
 
 Before we begin, there are a few prerequisites you need to have in place:
 
-1. Java Development Environment: Ensure you have Java installed on your system. You can download and install Java from the official website: [Java Downloads](https://www.oracle.com/java/technologies/javase-downloads.html).
+1. Java Development Environment: Ensure you have Java installed on your system. You can download and install Java from the website: [Java Downloads](https://www.oracle.com/java/technologies/javase-downloads.html).
 
 2. Aspose.HTML for Java: You must have the Aspose.HTML for Java library. You can download it from [Aspose.HTML for Java](https://releases.aspose.com/html/java/).
 
@@ -77,7 +77,7 @@ In this guide, we've learned how to convert EPUB to PNG using Aspose.HTML for Ja
    Aspose.HTML for Java is not free, but you can explore a free trial version [here](https://releases.aspose.com/) to get a feel for its capabilities.
 
 ### Where can I find the documentation for Aspose.HTML for Java?
-   The official documentation can be found [here](https://reference.aspose.com/html/java/). It's a valuable resource for understanding the library's features and functionality.
+   The documentation can be found [here](https://reference.aspose.com/html/java/). It's a valuable resource for understanding the library's features and functionality.
 
 ### How can I obtain a temporary license for Aspose.HTML for Java?
    If you need a temporary license, you can visit [this link](https://purchase.aspose.com/temporary-license/) to request one.
@@ -86,4 +86,4 @@ In this guide, we've learned how to convert EPUB to PNG using Aspose.HTML for Ja
    The Aspose.HTML for Java community forum is a great place to seek support and guidance. You can access it [here](https://forum.aspose.com/).
 
 ### What other file formats can Aspose.HTML for Java handle?
-   Aspose.HTML for Java supports a wide range of file formats for conversion and manipulation, including HTML, PDF, and more. Check the official documentation for a comprehensive list of supported formats.
+   Aspose.HTML for Java supports a wide range of file formats for conversion and manipulation, including HTML, PDF, and more. Check the documentation for a comprehensive list of supported formats.

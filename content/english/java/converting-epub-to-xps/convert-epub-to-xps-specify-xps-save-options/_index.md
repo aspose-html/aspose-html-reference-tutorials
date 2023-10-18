@@ -15,7 +15,7 @@ Before we dive into the tutorial, there are a few prerequisites you need to have
 
 1. Java Development Environment: Ensure that you have Java Development Kit (JDK) installed on your system.
 
-2. Aspose.HTML for Java Library: Download and install Aspose.HTML for Java from the official [download link](https://releases.aspose.com/html/java/).
+2. Aspose.HTML for Java Library: Download and install Aspose.HTML for Java from the [download link](https://releases.aspose.com/html/java/).
 
 3. EPUB File: You will need an EPUB file that you want to convert to XPS.
 
@@ -85,7 +85,7 @@ In this tutorial, we have walked you through the process of specifying XPS save 
 Aspose.HTML for Java is a powerful library for working with HTML and EPUB files, allowing developers to perform various operations, including conversion to different formats.
 
 ### 2. Can I use Aspose.HTML for Java in my commercial projects?
-Yes, you can use Aspose.HTML for Java in commercial projects. For licensing details, you can visit the official [purchase page](https://purchase.aspose.com/buy).
+Yes, you can use Aspose.HTML for Java in commercial projects. For licensing details, you can visit the [purchase page](https://purchase.aspose.com/buy).
 
 ### 3. Is there a free trial available for Aspose.HTML for Java?
 Yes, you can explore the library with a free trial. Download it from [here](https://releases.aspose.com/).

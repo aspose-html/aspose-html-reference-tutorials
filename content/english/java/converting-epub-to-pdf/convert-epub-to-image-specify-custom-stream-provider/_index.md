@@ -14,11 +14,11 @@ Are you ready to harness the power of Aspose.HTML for Java? This comprehensive g
 
 Before we dive into using Aspose.HTML for Java, there are a few things you need to have in place:
 
-1. Java Development Environment: Ensure that you have Java properly installed on your system. You can download Java from the official website.
+1. Java Development Environment: Ensure that you have Java properly installed on your system. You can download Java from the website.
 
 2. Aspose.HTML for Java Library: You'll need to obtain the Aspose.HTML for Java library. You can find it [here](https://releases.aspose.com/html/java/).
 
-3. Aspose.HTML Documentation: The official documentation for Aspose.HTML for Java can be found [here](https://reference.aspose.com/html/java/).
+3. Aspose.HTML Documentation: The documentation for Aspose.HTML for Java can be found [here](https://reference.aspose.com/html/java/).
 
 4. IDE (Integrated Development Environment): You can choose any Java-compatible IDE like Eclipse or IntelliJ IDEA.
 
@@ -92,9 +92,9 @@ Congratulations! You've successfully learned how to use Aspose.HTML for Java to 
 
 Aspose.HTML for Java is a library that allows Java developers to work with HTML, EPUB, and other web-related formats.
 
-### 2. Where can I find the official documentation for Aspose.HTML for Java?
+### 2. Where can I find the documentation for Aspose.HTML for Java?
 
-You can find the official documentation [here](https://reference.aspose.com/html/java/).
+You can find the documentation [here](https://reference.aspose.com/html/java/).
 
 ### 3. Is there a free trial available?
 

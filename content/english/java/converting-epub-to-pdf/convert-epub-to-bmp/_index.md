@@ -16,9 +16,9 @@ In the digital age, content transformation and conversion are essential tasks fo
 
 Before you get started with the EPUB to BMP conversion using Aspose.HTML for Java, make sure you have the following prerequisites in place:
 
-1. Java Development Environment: Ensure that you have a Java development environment set up on your system. You can download and install the latest version of Java from [Oracle's official website](https://www.oracle.com/java/technologies/javase-downloads.html).
+1. Java Development Environment: Ensure that you have a Java development environment set up on your system. You can download and install the latest version of Java from [Oracle's website](https://www.oracle.com/java/technologies/javase-downloads.html).
 
-2. Aspose.HTML for Java: You need to have Aspose.HTML for Java library installed. You can download it from the [official Aspose.HTML for Java download page](https://releases.aspose.com/html/java/).
+2. Aspose.HTML for Java: You need to have Aspose.HTML for Java library installed. You can download it from the [Aspose.HTML for Java download page](https://releases.aspose.com/html/java/).
 
 3. EPUB File: Have an EPUB file that you want to convert to BMP. You can use any EPUB file, or you can download a sample EPUB file for testing.
 
@@ -76,7 +76,7 @@ Converting EPUB to BMP format is a valuable skill when working with digital cont
 ## Frequently Asked Questions
 
 ### Is Aspose.HTML for Java a free library?
-No, Aspose.HTML for Java is not free. You can obtain a license or a temporary license for your development needs from [Aspose's official website](https://purchase.aspose.com/buy) or [temporary license page](https://purchase.aspose.com/temporary-license/).
+No, Aspose.HTML for Java is not free. You can obtain a license or a temporary license for your development needs from [Aspose's website](https://purchase.aspose.com/buy) or [temporary license page](https://purchase.aspose.com/temporary-license/).
 
 ### Can I convert other formats to BMP using Aspose.HTML for Java?
 Aspose.HTML for Java primarily focuses on HTML and EPUB conversions. However, you can explore additional Aspose libraries for converting various formats.
@@ -88,5 +88,5 @@ Aspose.HTML for Java provides a reliable BMP conversion process. However, perfor
 If you encounter any issues or need assistance, you can visit the [Aspose support forum](https://forum.aspose.com/) for help.
 
 ### What other formats does Aspose.HTML for Java support for conversion?
-Aspose.HTML for Java supports various formats, including PDF, XPS, and many image formats. You can explore the official documentation [here](https://reference.aspose.com/html/java/) for more details.
+Aspose.HTML for Java supports various formats, including PDF, XPS, and many image formats. You can explore the documentation [here](https://reference.aspose.com/html/java/) for more details.
 

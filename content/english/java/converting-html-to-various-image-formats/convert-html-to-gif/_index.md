@@ -14,7 +14,7 @@ In the digital age, the ability to convert HTML to various formats is crucial, w
 
 Before you begin, make sure you have the following prerequisites in place:
 
-1. Aspose.HTML for Java Library: Download and install the Aspose.HTML for Java library from the [official download link](https://releases.aspose.com/html/java/). Ensure you have a valid license or use the [temporary license](https://purchase.aspose.com/temporary-license/) if needed.
+1. Aspose.HTML for Java Library: Download and install the Aspose.HTML for Java library from the [download link](https://releases.aspose.com/html/java/). Ensure you have a valid license or use the [temporary license](https://purchase.aspose.com/temporary-license/) if needed.
 
 2. Java Development Environment: You should have a Java development environment set up on your system.
 
@@ -74,7 +74,7 @@ In this final step, we use the `Converter` class to convert the HTML document in
 
 Converting HTML to GIF with Aspose.HTML for Java is a straightforward process, and this guide has provided you with the essential steps to achieve it. With Aspose.HTML, you can effortlessly create GIF images from HTML documents, opening up new possibilities for your projects and applications.
 
-For more detailed information and additional features, consult the [official documentation](https://reference.aspose.com/html/java/).
+For more detailed information and additional features, consult the [documentation](https://reference.aspose.com/html/java/).
 
 ## Frequently Asked Questions (FAQs)
 

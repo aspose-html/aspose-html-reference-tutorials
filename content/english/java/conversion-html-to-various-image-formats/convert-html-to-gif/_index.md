@@ -80,7 +80,7 @@ Converter.convertHTML(htmlDocument, options, outputFile);
 
 In this tutorial, we've covered the step-by-step process of converting HTML to GIF using Aspose.HTML for Java. With the right prerequisites and the provided code examples, you can seamlessly integrate this functionality into your Java applications. Aspose.HTML is a powerful tool that simplifies HTML conversion tasks.
 
-For more details and advanced usage, please refer to the [official documentation](https://reference.aspose.com/html/java/).
+For more details and advanced usage, please refer to the [documentation](https://reference.aspose.com/html/java/).
 
 ## FAQ's
 

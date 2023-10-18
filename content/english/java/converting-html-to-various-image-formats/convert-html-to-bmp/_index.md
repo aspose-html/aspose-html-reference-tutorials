@@ -16,7 +16,7 @@ Before we get started, ensure that you have the following prerequisites in place
 
 1. Java Development Environment: Make sure you have Java installed on your system. You can download Java from [here](https://www.java.com/download/).
 
-2. Aspose.HTML for Java Library: You'll need to have the Aspose.HTML for Java library. If you haven't already, you can obtain it from the [official download page](https://releases.aspose.com/html/java/).
+2. Aspose.HTML for Java Library: You'll need to have the Aspose.HTML for Java library. If you haven't already, you can obtain it from the [download page](https://releases.aspose.com/html/java/).
 
 3. Integrated Development Environment (IDE): Choose an IDE of your preference. IntelliJ IDEA, Eclipse, or any other Java-compatible IDE will do.
 
@@ -104,7 +104,7 @@ You've just unlocked a powerful tool for converting HTML to BMP with Aspose.HTML
 ## Frequently Asked Questions (FAQs)
 
 ### Is Aspose.HTML for Java free to use?
-Aspose.HTML for Java is a commercial library. You can check out the pricing and licensing details on the [official purchase page](https://purchase.aspose.com/buy).
+Aspose.HTML for Java is a commercial library. You can check out the pricing and licensing details on the [purchase page](https://purchase.aspose.com/buy).
 
 ### Do I need a temporary license for Aspose.HTML for Java?
 A temporary license is not required for evaluation purposes. You can download the library from [here](https://releases.aspose.com/) and test it without a license.
@@ -116,4 +116,4 @@ You can explore the comprehensive documentation at [Aspose.HTML for Java Documen
 Yes, you can. Aspose.HTML for Java supports multiple image formats, including BMP, PNG, JPEG, and more.
 
 ### What is the file size limitation for HTML to BMP conversion?
-The file size limitation may vary based on your license. For detailed information, refer to the official documentation.
+The file size limitation may vary based on your license. For detailed information, refer to the documentation.

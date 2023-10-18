@@ -16,9 +16,9 @@ In the realm of document conversion, the EPUB to TIFF conversion stands as a val
 
 Before you embark on the journey of EPUB to TIFF conversion using Aspose.HTML for Java, you need to ensure that you have the following prerequisites in place:
 
-1. Java Development Environment: You should have a working Java development environment on your system. If not, you can download and install Java Development Kit (JDK) from the official Oracle website.
+1. Java Development Environment: You should have a working Java development environment on your system. If not, you can download and install Java Development Kit (JDK) from the Oracle website.
 
-2. Aspose.HTML for Java Library: Obtain the Aspose.HTML for Java library from the official website or through the provided download link: [Aspose.HTML for Java](https://releases.aspose.com/html/java/).
+2. Aspose.HTML for Java Library: Obtain the Aspose.HTML for Java library from the website or through the provided download link: [Aspose.HTML for Java](https://releases.aspose.com/html/java/).
 
 3. Input EPUB File: You must have the EPUB file that you wish to convert to TIFF. Make sure it is accessible in your system.
 
@@ -76,12 +76,12 @@ Ensure you add exception handling code to catch any errors that might occur duri
 
 In this comprehensive guide, we've walked you through the process of converting EPUB to TIFF using Aspose.HTML for Java. With the right prerequisites in place and by following the step-by-step instructions, you can seamlessly transform your EPUB documents into high-quality TIFF images, opening up new possibilities for your document management needs.
 
-For further assistance and to explore more features of Aspose.HTML for Java, you can refer to the [official documentation](https://reference.aspose.com/html/java/) or download the library from [here](https://releases.aspose.com/html/java/).
+For further assistance and to explore more features of Aspose.HTML for Java, you can refer to the [documentation](https://reference.aspose.com/html/java/) or download the library from [here](https://releases.aspose.com/html/java/).
 
 ## Frequently Asked Questions (FAQs)
 
 ### Is Aspose.HTML for Java free to use?
-   Aspose.HTML for Java is a commercial library. You can obtain a temporary license for evaluation or purchase a full license from the official website.
+   Aspose.HTML for Java is a commercial library. You can obtain a temporary license for evaluation or purchase a full license from the website.
 
 ### Can I convert multiple EPUB files to TIFF in a single run?
    Yes, you can batch convert EPUB files to TIFF by iterating through your files and applying the conversion process for each one.
@@ -93,5 +93,5 @@ For further assistance and to explore more features of Aspose.HTML for Java, you
    Yes, Aspose.HTML for Java is compatible with various Java libraries and can be integrated into your Java applications and projects.
 
 ### Where can I find community support for Aspose.HTML for Java?
-   You can join the Aspose community on their [official forum](https://forum.aspose.com/) to ask questions, share your experiences, and get assistance from other users and the Aspose team.
+   You can join the Aspose community on their [forum](https://forum.aspose.com/) to ask questions, share your experiences, and get assistance from other users and the Aspose team.
 

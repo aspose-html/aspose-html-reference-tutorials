@@ -18,7 +18,7 @@ Before we begin, ensure that you have the following prerequisites in place:
 
 - Java Development Environment: You must have a Java development environment set up on your system.
 
-- Aspose.HTML for Java: Download and install the Aspose.HTML for Java library. You can find the library and related documentation on the [official website](https://releases.aspose.com/html/java/).
+- Aspose.HTML for Java: Download and install the Aspose.HTML for Java library. You can find the library and related documentation on the [website](https://releases.aspose.com/html/java/).
 
 - EPUB File: You'll need an EPUB file that you want to convert to PDF.
 
@@ -98,7 +98,7 @@ In this tutorial, we've learned how to use Aspose.HTML for Java to convert EPUB 
 ## Frequently Asked Questions (FAQs)
 
 ### Is Aspose.HTML for Java a free library?
-Aspose.HTML for Java is a commercial library, but you can obtain a free trial version from their [official website](https://releases.aspose.com/).
+Aspose.HTML for Java is a commercial library, but you can obtain a free trial version from their [website](https://releases.aspose.com/).
 
 ### What EPUB formats are supported for conversion?
 Aspose.HTML for Java supports the conversion of various EPUB formats, ensuring compatibility with most EPUB documents.

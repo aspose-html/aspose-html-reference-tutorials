@@ -15,7 +15,7 @@ In the realm of web development, ensuring the presentation of your content is to
 
 Before we dive into the technical details of converting EPUB to PDF using Aspose.HTML for Java, you need to ensure that you have the following prerequisites in place:
 
-1. Java Development Environment: Make sure you have a Java development environment set up on your system. If not, you can download and install the Java Development Kit (JDK) from the official Oracle website.
+1. Java Development Environment: Make sure you have a Java development environment set up on your system. If not, you can download and install the Java Development Kit (JDK) from the Oracle website.
 
 2. Aspose.HTML for Java: You'll need to download and install the Aspose.HTML for Java library. You can find the download link [here](https://releases.aspose.com/html/java/).
 

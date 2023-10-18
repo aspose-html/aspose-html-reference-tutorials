@@ -14,7 +14,7 @@ In the digital age, transforming HTML content into various formats is a common n
 
 Before you begin, make sure you have the following prerequisites in place:
 
-1. Java Development Environment: Ensure you have Java installed on your system. You can download and install it from the official Java website.
+1. Java Development Environment: Ensure you have Java installed on your system. You can download and install it from the Java website.
 
 2. Aspose.HTML for Java Library: You need to have Aspose.HTML for Java library installed. If you haven't done so already, you can download it from [here](https://releases.aspose.com/html/java/).
 
@@ -91,7 +91,7 @@ If you have any further questions or need support, feel free to visit the [Aspos
 Aspose.HTML for Java is a Java library that allows developers to work with HTML documents and perform various operations, including HTML to JPG conversion.
 
 ### Where can I download Aspose.HTML for Java?
-You can download Aspose.HTML for Java from the official releases page [here](https://releases.aspose.com/html/java/).
+You can download Aspose.HTML for Java from the releases page [here](https://releases.aspose.com/html/java/).
 
 ### Is there a free trial available?
 Yes, you can get a free trial of Aspose.HTML for Java from [here](https://releases.aspose.com/).

@@ -91,7 +91,7 @@ Have questions or need assistance? Feel free to reach out to the [Aspose.HTML co
 
 ### 1. Where can I find the Aspose.HTML for Java documentation?
 
-You can access the official documentation [here](https://reference.aspose.com/html/java/). It provides comprehensive information and examples to help you get started.
+You can access the documentation [here](https://reference.aspose.com/html/java/). It provides comprehensive information and examples to help you get started.
 
 ### 2. Is there a free trial version of Aspose.HTML for Java available?
 
