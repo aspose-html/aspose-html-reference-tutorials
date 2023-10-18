@@ -42,7 +42,7 @@ static void EditDocumentTree()
         var body = document.Body;
         // Skapa styckeelement
         var p = (Aspose.Html.HTMLParagraphElement)document.CreateElement("p");
-        // Ange anpassat attribut
+        // Ställ in anpassat attribut
         p.SetAttribute("id", "my-paragraph");
         // Skapa textnod
         var text = document.CreateTextNode("my first paragraph");

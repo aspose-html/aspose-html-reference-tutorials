@@ -1,7 +1,7 @@
 ---
 title: Crear un documento HTML en .NET con Aspose.HTML
 linktitle: Crear un documento HTML en .NET
-second_title: Aspose.Slides API de manipulación HTML .NET
+second_title: Aspose.HTML .NET API de manipulación de HTML
 description: Aprenda a crear documentos HTML en .NET usando Aspose.HTML, desde cero o desde URL. Un tutorial completo para desarrolladores web.
 type: docs
 weight: 10
@@ -149,7 +149,7 @@ Aspose.HTML para .NET proporciona un potente conjunto de herramientas para crear
  R1: Aspose.HTML para .NET ofrece una prueba gratuita, pero para su uso completo, deberá adquirir una licencia. Puedes encontrar más detalles en[https://purchase.aspose.com/buy](https://purchase.aspose.com/buy).
 
 ### P2: ¿Cómo puedo obtener una licencia temporal de Aspose.HTML para .NET?
- R2: Si necesita una licencia temporal, puede obtener una en[https://purchase.aspose.com/temporary-license/](https://purchase.aspose.com/temporary-license/).
+R2: Si necesita una licencia temporal, puede obtener una en[https://purchase.aspose.com/temporary-license/](https://purchase.aspose.com/temporary-license/).
 
 ### P3: ¿Dónde puedo encontrar documentación para Aspose.HTML para .NET?
  R3: La documentación se puede encontrar en[https://reference.aspose.com/html/net/](https://reference.aspose.com/html/net/).

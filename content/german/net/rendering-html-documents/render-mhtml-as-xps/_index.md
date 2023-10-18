@@ -60,7 +60,7 @@ using (var renderer = new MhtmlRenderer())
 
 ### Schritt 1: Einrichtung des Datenverzeichnisses
 
- Im`dataDir` Variable, ersetzen`"Your Data Directory"`mit dem Pfad zu dem Verzeichnis, in dem sich Ihr MHTML-Dokument befindet.
+ Im`dataDir` Variable, ersetzen`"Your Data Directory"` mit dem Pfad zu dem Verzeichnis, in dem sich Ihr MHTML-Dokument befindet.
 
 ### Schritt 2: Öffnen der MHTML-Datei
 
@@ -76,7 +76,7 @@ using (var renderer = new MhtmlRenderer())
 
 ### Schritt 5: Rendern
 
- Schließlich verwenden wir die`renderer.Render` Methode zum Rendern des MHTML-Dokuments (geöffnet in Schritt 2) auf dem XPS-Gerät (erstellt in Schritt 3). Dieser Schritt konvertiert das MHTML-Dokument effektiv in das XPS-Format.
+ Schließlich verwenden wir die`renderer.Render`Methode zum Rendern des MHTML-Dokuments (geöffnet in Schritt 2) auf dem XPS-Gerät (erstellt in Schritt 3). Dieser Schritt konvertiert das MHTML-Dokument effektiv in das XPS-Format.
 
 Wenn Sie diese Schritte befolgen, können Sie MHTML-Dokumente mit Aspose.HTML für .NET mühelos als XPS-Dateien rendern.
 
@@ -96,7 +96,7 @@ Aspose.HTML für .NET ist eine Bibliothek, die HTML-Manipulations- und Rendering
  Ja, Sie können auf eine kostenlose Testversion von Aspose.HTML für .NET zugreifen[Hier](https://releases.aspose.com/).
 
 ### Wie erhalte ich Unterstützung für Aspose.HTML für .NET?
- Sie können Unterstützung und Hilfe von der Aspose.HTML-Community auf der Website erhalten[Forum](https://forum.aspose.com/).
+Sie können Unterstützung und Hilfe von der Aspose.HTML-Community auf der Website erhalten[Forum](https://forum.aspose.com/).
 
 ### Kann ich eine temporäre Lizenz für Aspose.HTML für .NET erwerben?
  Ja, Sie können auf der Kaufseite eine temporäre Lizenz erwerben[Hier](https://purchase.aspose.com/temporary-license/).

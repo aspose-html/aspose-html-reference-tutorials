@@ -16,11 +16,11 @@ Bevor Sie in die Welt von Aspose.HTML für .NET eintauchen, stellen Sie sicher, 
 
 1. Eine .NET-Entwicklungsumgebung
 
- Sie benötigen eine funktionierende .NET-Entwicklungsumgebung auf Ihrem Computer. Wenn Sie es nicht installiert haben, gehen Sie zu[Website von Microsoft](https://docs.microsoft.com/en-us/dotnet/core/install/) für detaillierte Anweisungen.
+Sie benötigen eine funktionierende .NET-Entwicklungsumgebung auf Ihrem Computer. Wenn Sie es nicht installiert haben, gehen Sie zu[Website von Microsoft](https://docs.microsoft.com/en-us/dotnet/core/install/) für detaillierte Anweisungen.
 
 2. Aspose.HTML für .NET-Bibliothek
 
-Laden Sie die Aspose.HTML für .NET-Bibliothek aus dem Download-Bereich der Website unter herunter[Hier](https://releases.aspose.com/html/net/). Sie können die Version auswählen, die den Anforderungen Ihres Projekts entspricht.
+ Laden Sie die Aspose.HTML für .NET-Bibliothek aus dem Download-Bereich der Website unter herunter[Hier](https://releases.aspose.com/html/net/). Sie können die Version auswählen, die den Anforderungen Ihres Projekts entspricht.
 
 3. Vorlagendateien
 

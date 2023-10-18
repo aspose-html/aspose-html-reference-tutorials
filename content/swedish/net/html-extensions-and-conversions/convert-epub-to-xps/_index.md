@@ -172,9 +172,9 @@ Grattis! Du har framgångsrikt konverterat en EPUB-fil till XPS-format med Aspos
 
 ## Slutsats
 
-den här omfattande handledningen undersökte vi hur man kan utnyttja Aspose.HTML för .NET för att konvertera EPUB-filer till XPS-format med olika anpassningsalternativ. Oavsett om du är en erfaren utvecklare eller precis har börjat, förenklar Aspose.HTML processen, så att du enkelt kan hantera EPUB till XPS-konverteringar.
+I den här omfattande handledningen undersökte vi hur man kan utnyttja Aspose.HTML för .NET för att konvertera EPUB-filer till XPS-format med olika anpassningsalternativ. Oavsett om du är en erfaren utvecklare eller precis har börjat, förenklar Aspose.HTML processen, så att du enkelt kan hantera EPUB till XPS-konverteringar.
 
- Har du frågor eller stött på problem? Kolla in[Aspose.HTML-dokumentation](https://reference.aspose.com/html/net/) för mer insikter eller sök hjälp från[Aspose.HTML Community Forum](https://forum.aspose.com/).
+ Har du frågor eller stött på problem? Kolla in[Aspose.HTML-dokumentation](https://reference.aspose.com/html/net/) för fler insikter eller sök hjälp från[Aspose.HTML Community Forum](https://forum.aspose.com/).
 
 ## Vanliga frågor
 
@@ -191,4 +191,4 @@ Aspose.HTML för .NET är ett kraftfullt bibliotek som gör det möjligt för ut
  För att få en tillfällig licens, besök[sida för tillfällig licens](https://purchase.aspose.com/temporary-license/).
 
 ### Var kan jag hitta fler handledningar och dokumentation för Aspose.HTML för .NET?
-Utforska ett brett utbud av handledningar och detaljerad dokumentation om[Aspose.HTML-dokumentation](https://reference.aspose.com/html/net/) sida.
+ Utforska ett brett utbud av handledningar och detaljerad dokumentation om[Aspose.HTML-dokumentation](https://reference.aspose.com/html/net/) sida.

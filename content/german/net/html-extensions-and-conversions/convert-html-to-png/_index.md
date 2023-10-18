@@ -18,7 +18,7 @@ Bevor wir uns mit der Verwendung von Aspose.HTML für .NET befassen, stellen Sie
 
 ### 1. Installieren Sie Aspose.HTML für .NET
 
- Um zu beginnen, müssen Sie Aspose.HTML für .NET installieren. Sie können die Bibliothek von der Website herunterladen,[Hier](https://releases.aspose.com/html/net/). Befolgen Sie die bereitgestellten Installationsanweisungen, um Aspose.HTML in Ihrem .NET-Projekt einzurichten.
+ Um zu beginnen, müssen Sie Aspose.HTML für .NET installieren. Sie können die Bibliothek von der Website herunterladen.[Hier](https://releases.aspose.com/html/net/). Befolgen Sie die bereitgestellten Installationsanweisungen, um Aspose.HTML in Ihrem .NET-Projekt einzurichten.
 
 ### 2. Importieren Sie den erforderlichen Namespace
 

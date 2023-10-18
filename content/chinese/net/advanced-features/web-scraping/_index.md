@@ -181,13 +181,13 @@ public static void CSSSelectorUsageExample()
 
 ## 结论
 
-Aspose.HTML for .NET 是一个多功能库，使 .NET 开发人员能够高效地处理 HTML 文档。凭借其强大的导航、过滤、查询和选择元素功能，您可以无缝处理各种 HTML 处理任务。通过遵循本教程并浏览以下位置的文档[Aspose.HTML for .NET 文档](https://reference.aspose.com/html/net/)，您可以为您的 .NET 应用程序释放此工具的全部潜力。
+ Aspose.HTML for .NET 是一个多功能库，使 .NET 开发人员能够高效地处理 HTML 文档。凭借其强大的导航、过滤、查询和选择元素功能，您可以无缝处理各种 HTML 处理任务。通过遵循本教程并浏览以下位置的文档[Aspose.HTML for .NET 文档](https://reference.aspose.com/html/net/)，您可以为您的 .NET 应用程序释放此工具的全部潜力。
 
 ## 常见问题解答
 
 ### Q1. Aspose.HTML for .NET 可以免费使用吗？
 
- A1：Aspose.HTML for .NET 提供免费试用版，但要用于生产用途，您需要购买许可证。您可以在以下位置找到许可详细信息和选项[Aspose.HTML 购买](https://purchase.aspose.com/buy).
+A1：Aspose.HTML for .NET 提供免费试用版，但要用于生产用途，您需要购买许可证。您可以在以下位置找到许可详细信息和选项[Aspose.HTML 购买](https://purchase.aspose.com/buy).
 
 ### Q2。如何获得 Aspose.HTML for .NET 的临时许可证？
 

@@ -16,7 +16,7 @@ url: /ar/net/html-document-manipulation/saving-a-document/
 
 - بيئة التطوير: تأكد من تثبيت Visual Studio أو أي بيئة تطوير .NET أخرى على جهاز الكمبيوتر الخاص بك.
 
--  Aspose.HTML لـ .NET: أنت بحاجة إلى الحصول على Aspose.HTML لمكتبة .NET. يمكنك تنزيله من[هنا](https://releases.aspose.com/html/net/).
+- Aspose.HTML لـ .NET: أنت بحاجة إلى الحصول على Aspose.HTML لمكتبة .NET. يمكنك تنزيله من[هنا](https://releases.aspose.com/html/net/).
 
 - معرفة لغة C#: الإلمام بلغة البرمجة C# مفيد ولكنه ليس إلزاميًا. تم تصميم هذا الدليل ليكون مناسبًا للمبتدئين.
 
@@ -64,7 +64,7 @@ using (var document = new Aspose.Html.HTMLDocument("document.html"))
 {
     // إنشاء مثيل خيارات الحفظ
     var options = new Aspose.Html.Saving.HTMLSaveOptions();
-    // اضبط الحد الأقصى لعمق المعالجة على 0 لقطع ملفات HTML المرتبطة.
+    //اضبط الحد الأقصى لعمق المعالجة على 0 لقطع ملفات HTML المرتبطة.
     options.ResourceHandlingOptions.MaxHandlingDepth = 0;
     // احفظ المستند
     document.Save(@".\html-to-file-example\document.html", options);

@@ -1,7 +1,7 @@
 ---
 title: Lavorare con documenti HTML
 linktitle: Lavorare con documenti HTML
-second_title: Aspose.Slides API di manipolazione HTML .NET
+second_title: Aspose.HTML .NET API di manipolazione HTML
 description: Scopri il mondo della creazione e manipolazione di documenti HTML in .NET con Aspose.HTML. Dalla creazione di documenti semplici alla modifica approfondita.
 type: docs
 weight: 23
@@ -24,7 +24,7 @@ Il primo passo del nostro viaggio è imparare come creare documenti HTML da zero
 
 ### [Creazione di un documento semplice in .NET con Aspose.HTML](./creating-a-simple-document/)
 
-Una volta apprese le nozioni di base, approfondiremo il processo di creazione. In questa sezione imparerai come creare semplici documenti HTML utilizzando Aspose.HTML ed esploreremo varie funzionalità che consentono una facile manipolazione. Che tu stia creando una pagina Web, generando contenuto o convertendo dati in HTML, questo tutorial ti fornirà le conoscenze necessarie.
+Una volta apprese le nozioni di base, approfondiremo il processo di creazione. In questa sezione imparerai come creare semplici documenti HTML utilizzando Aspose.HTML ed esploreremo varie funzionalità che consentono una facile manipolazione. Che tu stia creando una pagina Web, generando contenuti o convertendo dati in HTML, questo tutorial ti fornirà le conoscenze necessarie.
 
 ### [Modifica di un documento in .NET con Aspose.HTML](./editing-a-document/)
 

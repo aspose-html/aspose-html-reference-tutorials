@@ -99,7 +99,7 @@ Aspose.HTML für .NET ist eine Bibliothek, die es .NET-Entwicklern ermöglicht, 
  Ja, Sie können eine kostenlose Testversion von erhalten[dieser Link](https://releases.aspose.com/).
 
 ### Wie kann ich temporäre Lizenzen für Aspose.HTML für .NET erhalten?
-Temporäre Lizenzen sind erhältlich über[dieser Link](https://purchase.aspose.com/temporary-license/).
+ Temporäre Lizenzen sind erhältlich über[dieser Link](https://purchase.aspose.com/temporary-license/).
 
 ### Wo kann ich Hilfe oder Unterstützung für Aspose.HTML für .NET suchen?
  Sie können die Aspose-Foren für Support und Community-Diskussionen besuchen[Hier](https://forum.aspose.com/).

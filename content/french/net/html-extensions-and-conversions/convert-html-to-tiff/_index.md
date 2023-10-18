@@ -74,7 +74,7 @@ En conclusion, Aspose.HTML pour .NET fournit un moyen puissant et efficace de co
 ## FAQ
 
 ### Où puis-je trouver la documentation d’Aspose.HTML pour .NET ?
-Vous pouvez accéder à la documentation[ici](https://reference.aspose.com/html/net/).
+ Vous pouvez accéder à la documentation[ici](https://reference.aspose.com/html/net/).
 
 ### Comment puis-je télécharger Aspose.HTML pour .NET ?
  Vous pouvez le télécharger depuis[ce lien](https://releases.aspose.com/html/net/).

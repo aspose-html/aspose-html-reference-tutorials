@@ -74,7 +74,7 @@ Sammanfattningsvis erbjuder Aspose.HTML för .NET ett kraftfullt och effektivt s
 ## Vanliga frågor
 
 ### Var kan jag hitta dokumentationen för Aspose.HTML för .NET?
-Du kan komma åt dokumentationen[här](https://reference.aspose.com/html/net/).
+ Du kan komma åt dokumentationen[här](https://reference.aspose.com/html/net/).
 
 ### Hur kan jag ladda ner Aspose.HTML för .NET?
  Du kan ladda ner den från[den här länken](https://releases.aspose.com/html/net/).

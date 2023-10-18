@@ -43,7 +43,7 @@ Bu eğitimde, Aspose.HTML for .NET kullanarak bir HTML belgesini BMP resim forma
 
 ### Veri Dizinini Tanımlayın
 
-Veri dizininizin yolunu belirterek başlayın. Burası HTML belgenizin bulunduğu yerdir. Yer değiştirmek`"Your Data Directory"` gerçek yol ile.
+ Veri dizininizin yolunu belirterek başlayın. Burası HTML belgenizin bulunduğu yerdir. Yer değiştirmek`"Your Data Directory"` gerçek yol ile.
 
 ```csharp
 string dataDir = "Your Data Directory";
@@ -95,7 +95,7 @@ Aspose.HTML for .NET, HTML belgesi düzenleme ve dönüştürme görevlerini bas
 
 ### 2. Aspose.HTML for .NET için nasıl geçici lisans alabilirim?
 
- Geçici bir lisansa ihtiyacınız varsa, buradan bir tane alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/).
+Geçici bir lisansa ihtiyacınız varsa, buradan bir tane alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/).
 
 ### 3. Aspose.HTML for .NET ile ilgili nereden destek ve yardım alabilirim?
 

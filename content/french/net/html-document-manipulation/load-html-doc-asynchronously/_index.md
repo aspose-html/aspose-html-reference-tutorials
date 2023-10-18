@@ -24,7 +24,7 @@ Visual Studio doit être installé sur votre système, car nous allons écrire d
 
 3. Compréhension de base du HTML
 
-Avoir une compréhension fondamentale du HTML sera utile, même si ce n'est pas obligatoire. Aspose.HTML pour .NET simplifie de nombreuses tâches complexes.
+Avoir une compréhension fondamentale du HTML sera utile, même si ce n’est pas obligatoire. Aspose.HTML pour .NET simplifie de nombreuses tâches complexes.
 
 ## Importation d'espaces de noms
 

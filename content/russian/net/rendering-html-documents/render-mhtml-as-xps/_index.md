@@ -1,7 +1,7 @@
 ---
 title: Отображение MHTML как XPS в .NET с помощью Aspose.HTML
-linktitle: Рендеринг MHTML как XPS в .NET
-second_title: Aspose.HTML .NET API манипулирования HTML
+linktitle: Отображение MHTML как XPS в .NET
+second_title: API манипуляций с HTML Aspose.HTML .NET
 description: Научитесь отображать MHTML как XPS в .NET с помощью Aspose.HTML. Совершенствуйте свои навыки манипулирования HTML и улучшите свои проекты веб-разработки!
 type: docs
 weight: 13
@@ -60,7 +60,7 @@ using (var renderer = new MhtmlRenderer())
 
 ### Шаг 1. Настройка каталога данных
 
- в`dataDir` переменная, заменить`"Your Data Directory"`с путем к каталогу, в котором находится ваш документ MHTML.
+ в`dataDir` переменная, заменить`"Your Data Directory"` с путем к каталогу, в котором находится ваш документ MHTML.
 
 ### Шаг 2. Открытие файла MHTML
 
@@ -76,7 +76,7 @@ using (var renderer = new MhtmlRenderer())
 
 ### Шаг 5: Рендеринг
 
- Наконец, мы используем`renderer.Render` метод для визуализации документа MHTML (открытого на шаге 2) на устройстве XPS (созданном на шаге 3). Этот шаг эффективно преобразует документ MHTML в формат XPS.
+ Наконец, мы используем`renderer.Render`метод для визуализации документа MHTML (открытого на шаге 2) на устройстве XPS (созданном на шаге 3). Этот шаг эффективно преобразует документ MHTML в формат XPS.
 
 Следуя этим шагам, вы сможете легко отображать документы MHTML в виде файлов XPS, используя Aspose.HTML для .NET.
 
@@ -96,7 +96,7 @@ Aspose.HTML for .NET — это библиотека, предоставляющ
  Да, вы можете получить доступ к бесплатной пробной версии Aspose.HTML для .NET.[здесь](https://releases.aspose.com/).
 
 ### Как я могу получить поддержку Aspose.HTML для .NET?
- Вы можете обратиться за поддержкой и помощью к сообществу Aspose.HTML на сайте[Форум](https://forum.aspose.com/).
+Вы можете обратиться за поддержкой и помощью к сообществу Aspose.HTML на сайте[Форум](https://forum.aspose.com/).
 
 ### Могу ли я приобрести временную лицензию на Aspose.HTML для .NET?
  Да, вы можете получить временную лицензию на странице покупки.[здесь](https://purchase.aspose.com/temporary-license/).

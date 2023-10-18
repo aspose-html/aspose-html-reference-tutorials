@@ -1,7 +1,7 @@
 ---
 title: Создайте поставщика потоков в .NET с помощью Aspose.HTML
 linktitle: Создать поставщика потока в .NET
-second_title: Aspose.HTML .NET API манипулирования HTML
+second_title: API манипуляций с HTML Aspose.HTML .NET
 description: Узнайте, как использовать Aspose.HTML для .NET для эффективного управления HTML-документами. Пошаговое руководство для разработчиков.
 type: docs
 weight: 11
@@ -17,9 +17,9 @@ Aspose.HTML for .NET — это универсальная библиотека,
 
 Прежде чем приступить к изучению руководства, убедитесь, что у вас есть следующие предварительные условия:
 
-1.  Visual Studio: Чтобы начать работу с Aspose.HTML для .NET, вам потребуется установить Visual Studio на вашем компьютере. Вы можете скачать его[здесь](https://visualstudio.microsoft.com/).
+1. Visual Studio: Чтобы начать работу с Aspose.HTML для .NET, вам потребуется установить Visual Studio на вашем компьютере. Вы можете скачать его[здесь](https://visualstudio.microsoft.com/).
 
-2. Библиотека Aspose.HTML для .NET: Загрузите и установите библиотеку Aspose.HTML для .NET. Вы можете получить его от[здесь](https://releases.aspose.com/html/net/).
+2.  Библиотека Aspose.HTML для .NET: Загрузите и установите библиотеку Aspose.HTML для .NET. Вы можете получить его от[здесь](https://releases.aspose.com/html/net/).
 
 3. Базовые знания C#. Фундаментальное понимание программирования на C# будет полезно для изучения примеров кода.
 
@@ -51,7 +51,7 @@ using System.IO;
 string dataDir = "Your Data Directory";
 ```
 
- На этом этапе вы определяете переменную`dataDir` чтобы указать каталог, в котором будет сохранен выходной файл. Обязательно замените`"Your Data Directory"`с фактическим путем к желаемому каталогу.
+На этом этапе вы определяете переменную`dataDir` чтобы указать каталог, в котором будет сохранен выходной файл. Обязательно замените`"Your Data Directory"` с фактическим путем к желаемому каталогу.
 
 ### Шаг 2. Создайте собственный StreamProvider
 
@@ -89,7 +89,7 @@ document.Body.AppendChild(document.CreateTextNode("Hello world!!!"));
 Aspose.Html.Converters.Converter.ConvertHTML(document, new XpsSaveOptions(), streamProvider);
 ```
 
- Здесь вы используете`Converter` класс для преобразования HTML-документа в формат XPS.`XpsSaveOptions()` предоставляет настройки для преобразования и`streamProvider` управляет выпуском.
+ Здесь вы используете`Converter` класс для преобразования HTML-документа в формат XPS.`XpsSaveOptions()`предоставляет настройки для преобразования и`streamProvider` управляет выпуском.
 
 ### Шаг 6: Сохраните результат
 
@@ -115,11 +115,11 @@ using (FileStream fs = File.Create(dataDir + "output.xps"))
 
 ### Вопрос 1. Что такое Aspose.HTML для .NET?
 
-A1: Aspose.HTML for .NET — это мощная библиотека, которая позволяет разработчикам .NET работать с документами HTML, включая создание, манипулирование и преобразование в различные форматы.
+A1: Aspose.HTML for .NET — это мощная библиотека, которая позволяет .NET-разработчикам работать с HTML-документами, включая создание, манипулирование и преобразование в различные форматы.
 
 ### В2. Где я могу скачать Aspose.HTML для .NET?
 
- A2: Вы можете скачать библиотеку с[эта ссылка](https://releases.aspose.com/html/net/).
+A2: Вы можете скачать библиотеку с[эта ссылка](https://releases.aspose.com/html/net/).
 
 ### Вопрос 3. Доступна ли бесплатная пробная версия?
 

@@ -1,7 +1,7 @@
 ---
 title: Crea provider di streaming in .NET con Aspose.HTML
 linktitle: Crea provider di streaming in .NET
-second_title: Aspose.Slides API di manipolazione HTML .NET
+second_title: Aspose.HTML .NET API di manipolazione HTML
 description: Scopri come utilizzare Aspose.HTML per .NET per manipolare i documenti HTML in modo efficiente. Tutorial passo passo per gli sviluppatori.
 type: docs
 weight: 11
@@ -17,9 +17,9 @@ Aspose.HTML per .NET è una libreria versatile che consente agli sviluppatori .N
 
 Prima di immergerti nel tutorial, assicurati di disporre dei seguenti prerequisiti:
 
-1.  Visual Studio: per iniziare con Aspose.HTML per .NET, avrai bisogno di Visual Studio installato sul tuo computer. Puoi scaricarlo[Qui](https://visualstudio.microsoft.com/).
+1. Visual Studio: per iniziare con Aspose.HTML per .NET, avrai bisogno di Visual Studio installato sul tuo computer. Puoi scaricarlo[Qui](https://visualstudio.microsoft.com/).
 
-2. Libreria Aspose.HTML per .NET: scaricare e installare la libreria Aspose.HTML per .NET. Puoi ottenerlo da[Qui](https://releases.aspose.com/html/net/).
+2.  Libreria Aspose.HTML per .NET: scaricare e installare la libreria Aspose.HTML per .NET. Puoi ottenerlo da[Qui](https://releases.aspose.com/html/net/).
 
 3. Conoscenza di base di C#: una comprensione fondamentale della programmazione C# sarà utile per seguire gli esempi di codice.
 
@@ -51,7 +51,7 @@ Ora suddividiamo l'esempio di codice fornito in più passaggi e spieghiamo ogni 
 string dataDir = "Your Data Directory";
 ```
 
- In questo passaggio si definisce una variabile`dataDir` per specificare la directory in cui verrà salvato il file di output. Assicurati di sostituire`"Your Data Directory"`con il percorso effettivo della directory desiderata.
+In questo passaggio si definisce una variabile`dataDir` per specificare la directory in cui verrà salvato il file di output. Assicurati di sostituire`"Your Data Directory"` con il percorso effettivo della directory desiderata.
 
 ### Passaggio 2: crea uno StreamProvider personalizzato
 
@@ -89,7 +89,7 @@ Questa riga aggiunge un semplice "Ciao mondo!!!" testo nel documento HTML. Puoi 
 Aspose.Html.Converters.Converter.ConvertHTML(document, new XpsSaveOptions(), streamProvider);
 ```
 
- Qui, usi il file`Converter` classe per convertire il documento HTML in formato XPS. IL`XpsSaveOptions()` fornisce le impostazioni per la conversione e`streamProvider` gestisce l'output.
+ Qui, usi il file`Converter` classe per convertire il documento HTML in formato XPS. IL`XpsSaveOptions()`fornisce le impostazioni per la conversione e`streamProvider` gestisce l'output.
 
 ### Passaggio 6: salvare l'output
 
@@ -119,7 +119,7 @@ A1: Aspose.HTML per .NET è una potente libreria che consente agli sviluppatori 
 
 ### Q2. Dove posso scaricare Aspose.HTML per .NET?
 
- A2: È possibile scaricare la libreria da[questo link](https://releases.aspose.com/html/net/).
+A2: È possibile scaricare la libreria da[questo link](https://releases.aspose.com/html/net/).
 
 ### Q3. È disponibile una prova gratuita?
 

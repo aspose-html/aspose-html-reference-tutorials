@@ -14,7 +14,7 @@ url: /zh/net/html-extensions-and-conversions/convert-epub-to-pdf/
 
 在开始之前，请确保您具备以下先决条件：
 
-1.  Aspose.HTML for .NET：确保您的 .NET 项目中安装了 Aspose.HTML for .NET。您可以从以下位置下载：[这里](https://releases.aspose.com/html/net/).
+1. Aspose.HTML for .NET：确保您的 .NET 项目中安装了 Aspose.HTML for .NET。您可以从以下位置下载：[这里](https://releases.aspose.com/html/net/).
 
 2. 您的数据目录：您将需要一个用于存储 EPUB 文件的数据目录。
 

@@ -17,15 +17,15 @@ Aspose.HTML für .NET ist eine vielseitige Bibliothek, die .NET-Entwicklern die 
 
 Bevor Sie mit dem Tutorial beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
 
-1.  Visual Studio: Um mit Aspose.HTML für .NET zu beginnen, muss Visual Studio auf Ihrem Computer installiert sein. Sie können es herunterladen[Hier](https://visualstudio.microsoft.com/).
+1. Visual Studio: Um mit Aspose.HTML für .NET zu beginnen, muss Visual Studio auf Ihrem Computer installiert sein. Sie können es herunterladen[Hier](https://visualstudio.microsoft.com/).
 
-2. Aspose.HTML für .NET-Bibliothek: Laden Sie die Aspose.HTML für .NET-Bibliothek herunter und installieren Sie sie. Sie können es von bekommen[Hier](https://releases.aspose.com/html/net/).
+2.  Aspose.HTML für .NET-Bibliothek: Laden Sie die Aspose.HTML für .NET-Bibliothek herunter und installieren Sie sie. Sie können es von bekommen[Hier](https://releases.aspose.com/html/net/).
 
 3. Grundlegende C#-Kenntnisse: Ein grundlegendes Verständnis der C#-Programmierung ist für das Verfolgen der Codebeispiele von Vorteil.
 
 Nachdem Sie nun die Voraussetzungen geschaffen haben, wollen wir uns mit dem Kern dieses Tutorials befassen.
 
-## Namespaces importieren
+## Namensräume importieren
 
 In C# sind Namespaces für die Organisation und den Zugriff auf Bibliotheken unerlässlich. Um mit Aspose.HTML für .NET arbeiten zu können, müssen Sie die erforderlichen Namespaces am Anfang Ihres Codes importieren. So machen Sie es:
 
@@ -51,7 +51,7 @@ Lassen Sie uns nun das bereitgestellte Codebeispiel in mehrere Schritte aufteile
 string dataDir = "Your Data Directory";
 ```
 
- In diesem Schritt definieren Sie eine Variable`dataDir` um das Verzeichnis anzugeben, in dem Ihre Ausgabedatei gespeichert wird. Unbedingt austauschen`"Your Data Directory"`mit dem tatsächlichen Pfad zu Ihrem gewünschten Verzeichnis.
+In diesem Schritt definieren Sie eine Variable`dataDir` um das Verzeichnis anzugeben, in dem Ihre Ausgabedatei gespeichert wird. Unbedingt austauschen`"Your Data Directory"` mit dem tatsächlichen Pfad zu Ihrem gewünschten Verzeichnis.
 
 ### Schritt 2: Erstellen Sie einen benutzerdefinierten StreamProvider
 
@@ -89,7 +89,7 @@ Diese Zeile fügt ein einfaches „Hallo Welt!!!“ hinzu. Text in das HTML-Doku
 Aspose.Html.Converters.Converter.ConvertHTML(document, new XpsSaveOptions(), streamProvider);
 ```
 
- Hier verwenden Sie die`Converter` Klasse zum Konvertieren des HTML-Dokuments in das XPS-Format. Der`XpsSaveOptions()` stellt Einstellungen für die Konvertierung bereit und`streamProvider` verwaltet die Ausgabe.
+ Hier verwenden Sie die`Converter` Klasse zum Konvertieren des HTML-Dokuments in das XPS-Format. Der`XpsSaveOptions()`stellt Einstellungen für die Konvertierung bereit und`streamProvider` verwaltet die Ausgabe.
 
 ### Schritt 6: Speichern Sie die Ausgabe
 
@@ -119,7 +119,7 @@ A1: Aspose.HTML für .NET ist eine leistungsstarke Bibliothek, die es .NET-Entwi
 
 ### Q2. Wo kann ich Aspose.HTML für .NET herunterladen?
 
- A2: Sie können die Bibliothek herunterladen unter[dieser Link](https://releases.aspose.com/html/net/).
+A2: Sie können die Bibliothek herunterladen unter[dieser Link](https://releases.aspose.com/html/net/).
 
 ### Q3. Gibt es eine kostenlose Testversion?
 

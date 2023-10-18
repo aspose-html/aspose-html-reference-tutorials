@@ -149,7 +149,7 @@ Aspose.HTML för .NET tillhandahåller en kraftfull uppsättning verktyg för at
  S1: Aspose.HTML för .NET erbjuder en gratis provperiod, men för full användning måste du köpa en licens. Du hittar mer information på[https://purchase.aspose.com/buy](https://purchase.aspose.com/buy).
 
 ### F2: Hur kan jag få en tillfällig licens för Aspose.HTML för .NET?
- S2: Om du behöver en tillfällig licens kan du få en på[https://purchase.aspose.com/temporary-license/](https://purchase.aspose.com/temporary-license/).
+S2: Om du behöver en tillfällig licens kan du få en på[https://purchase.aspose.com/temporary-license/](https://purchase.aspose.com/temporary-license/).
 
 ### F3: Var kan jag hitta dokumentation för Aspose.HTML för .NET?
  S3: Dokumentationen finns på[https://reference.aspose.com/html/net/](https://reference.aspose.com/html/net/).

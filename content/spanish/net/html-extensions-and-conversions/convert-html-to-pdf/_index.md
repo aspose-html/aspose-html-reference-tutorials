@@ -1,7 +1,7 @@
 ---
 title: Convierta HTML a PDF en .NET con Aspose.HTML
 linktitle: Convertir HTML a PDF en .NET
-second_title: Aspose.Slides API de manipulación HTML .NET
+second_title: Aspose.HTML .NET API de manipulación de HTML
 description: Convierta HTML a PDF sin esfuerzo con Aspose.HTML para .NET. Siga nuestra guía paso a paso y libere el poder de la conversión de HTML a PDF.
 type: docs
 weight: 10

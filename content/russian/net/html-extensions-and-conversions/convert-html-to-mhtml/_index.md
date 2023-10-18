@@ -1,7 +1,7 @@
 ---
 title: Преобразование HTML в MHTML в .NET с помощью Aspose.HTML
 linktitle: Преобразование HTML в MHTML в .NET
-second_title: Aspose.HTML .NET API манипулирования HTML
+second_title: API манипуляций с HTML Aspose.HTML .NET
 description: Преобразование HTML в MHTML в .NET с помощью Aspose.HTML — пошаговое руководство по эффективному архивированию веб-контента. Узнайте, как использовать Aspose.HTML для .NET для создания архивов MHTML.
 type: docs
 weight: 19

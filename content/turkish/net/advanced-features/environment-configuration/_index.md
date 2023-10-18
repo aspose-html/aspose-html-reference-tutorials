@@ -128,7 +128,7 @@ using (var configuration = new Aspose.Html.Configuration())
 }
 ```
 
-Bu örnekte, JavaScript yürütme süresini 10 saniyeyle sınırladık, böylece komut dosyasının süresiz olarak çalışmamasını sağladık, bu da performans sorunlarına neden olabilir.
+Bu örnekte, JavaScript yürütme süresini 10 saniyeyle sınırlandırdık, böylece komut dosyasının süresiz olarak çalışmamasını sağladık, bu da performans sorunlarına neden olabilir.
 
 ## Özel Mesaj İşleyicisi
 

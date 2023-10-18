@@ -38,7 +38,7 @@ url: /ar/net/html-document-manipulation/load-html-doc-asynchronously/
 
 في مشروعك، انقر بزر الماوس الأيمن على "المراجع" في مستكشف الحلول وحدد "إضافة مرجع".
 
-### 3. استعرض بحثًا عن Aspose.HTML لـ .NET
+### 3. استعرض Aspose.HTML لـ .NET
 
 انقر فوق الزر "استعراض" في "إدارة المراجع" وحدد موقع الملف Aspose.HTML.dll. يوجد هذا الملف عادةً في دليل التثبيت الخاص بمكتبة Aspose.HTML.
 

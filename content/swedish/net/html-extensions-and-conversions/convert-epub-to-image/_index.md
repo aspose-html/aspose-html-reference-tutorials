@@ -107,7 +107,7 @@ Du kan anpassa bildutmatningen genom att ange alternativ som sidstorlek och bakg
 2.  Öppna EPUB-filen för läsning med a`FileStream`.
 3.  Skapa en`ImageSaveOptions` objekt och ange önskat utdataformat (JPEG).
 4. Anpassa sidstorleken och bakgrundsfärgen om det behövs.
-5.  Ring`ConvertEPUB` metod, skicka EPUB-strömmen, bildsparalternativen och utdatafilens namn.
+5.  Ring`ConvertEPUB`metod, skicka EPUB-strömmen, bildsparalternativen och utdatafilens namn.
 6. EPUB-filen konverteras till en bild med de angivna alternativen.
 
 ## Ange en anpassad strömleverantör
@@ -174,7 +174,7 @@ class MemoryStreamProvider : Aspose.Html.IO.ICreateStreamProvider
 1.  Ange sökvägen till din EPUB-fil i`dataDir` variabel.
 2.  Öppna EPUB-filen för läsning med a`FileStream`.
 3.  Skapa en`MemoryStreamProvider` för att hantera anpassade utströmmar.
-4.  Ring`ConvertEPUB`metod, skicka EPUB-strömmen, bildsparalternativen (JPEG) och den anpassade strömleverantören.
+4.  Ring`ConvertEPUB` metod, skicka EPUB-strömmen, bildsparalternativen (JPEG) och den anpassade strömleverantören.
 5. Iterera genom minnesströmmarna i den anpassade leverantören, spara dem i enskilda filer.
 6. Det här exemplet låter dig manipulera och spara flera utdataströmmar efter behov.
 

@@ -1,7 +1,7 @@
 ---
 title: Unisci HTML con XML in .NET con Aspose.HTML
 linktitle: Unisci HTML con XML in .NET
-second_title: Aspose.Slides API di manipolazione HTML .NET
+second_title: Aspose.HTML .NET API di manipolazione HTML
 description: Impara a usare Aspose.HTML per .NET. Importa lo spazio dei nomi, unisci HTML con XML e migliora le tue capacità di sviluppo web con questa guida completa.
 type: docs
 weight: 18
@@ -16,11 +16,11 @@ Prima di immergerti nel mondo di Aspose.HTML per .NET, assicurati di disporre de
 
 1. Un ambiente di sviluppo .NET
 
- Avrai bisogno di un ambiente di sviluppo .NET funzionante sul tuo computer. Se non lo hai installato, vai su[Il sito web di Microsoft](https://docs.microsoft.com/en-us/dotnet/core/install/) per istruzioni dettagliate.
+Avrai bisogno di un ambiente di sviluppo .NET funzionante sul tuo computer. Se non lo hai installato, vai su[Il sito web di Microsoft](https://docs.microsoft.com/en-us/dotnet/core/install/) per istruzioni dettagliate.
 
 2. Aspose.HTML per la libreria .NET
 
-Scarica la libreria Aspose.HTML per .NET dalla sezione download del sito Web all'indirizzo[Qui](https://releases.aspose.com/html/net/). Puoi scegliere la versione che si adatta alle esigenze del tuo progetto.
+ Scarica la libreria Aspose.HTML per .NET dalla sezione download del sito Web all'indirizzo[Qui](https://releases.aspose.com/html/net/). Puoi scegliere la versione che si adatta alle esigenze del tuo progetto.
 
 3. File modello
 

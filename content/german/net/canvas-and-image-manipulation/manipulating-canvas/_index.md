@@ -25,7 +25,7 @@ Bevor wir uns mit der Verwendung von Aspose.HTML für .NET befassen, müssen Sie
 
 Nachdem wir nun die Voraussetzungen geschaffen haben, beginnen wir mit der Erkundung der Funktionen von Aspose.HTML für .NET.
 
-## Namespaces importieren
+## Namensräume importieren
 
 In Ihrem C#-Projekt müssen Sie die erforderlichen Namespaces importieren, um Aspose.HTML für .NET zu verwenden. So können Sie es machen:
 

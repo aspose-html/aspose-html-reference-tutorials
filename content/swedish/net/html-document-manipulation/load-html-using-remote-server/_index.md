@@ -58,11 +58,11 @@ Nu när du har lagt grunden, låt oss utforska några praktiska exempel med Aspo
 
 ### Laddar HTML från en fjärrserver
 
-det här exemplet laddar vi ett HTML-dokument från en fjärrserver.
+I det här exemplet laddar vi ett HTML-dokument från en fjärrserver.
 
 ### Steg 1: Initiera ett HTML-dokument
 
- För att komma igång måste du initiera en`HTMLDocument` med URL-adressen till fjärr-HTML-dokumentet.
+ För att komma igång måste du initiera en`HTMLDocument`med URL-adressen till fjärr-HTML-dokumentet.
 
 ```csharp
 HTMLDocument document = new HTMLDocument(new Url(@"https://www.w3.org/TR/html5/"));

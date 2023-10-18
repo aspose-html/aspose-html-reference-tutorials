@@ -25,7 +25,7 @@ url: /zh/net/rendering-html-documents/render-multiple-documents/
 
 ## 导入命名空间
 
-首先，让我们导入必要的命名空间以在 C# 代码中访问 Aspose.HTML for .NET 功能：
+首先，让我们在 C# 代码中导入必要的命名空间来访问 Aspose.HTML for .NET 功能：
 
 ```csharp
 using Aspose.Html;

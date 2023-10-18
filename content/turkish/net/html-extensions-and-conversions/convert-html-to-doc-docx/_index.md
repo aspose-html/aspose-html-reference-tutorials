@@ -99,7 +99,7 @@ Aspose.HTML for .NET, .NET geliştiricilerinin HTML belgelerini programlı olara
  Evet, ücretsiz deneme sürümünü şuradan edinebilirsiniz:[bu bağlantı](https://releases.aspose.com/).
 
 ### Aspose.HTML for .NET için nasıl geçici lisans alabilirim?
-Geçici lisanslar şu adresten edinilebilir:[bu bağlantı](https://purchase.aspose.com/temporary-license/).
+ Geçici lisanslar şu adresten edinilebilir:[bu bağlantı](https://purchase.aspose.com/temporary-license/).
 
 ### Aspose.HTML for .NET için nereden yardım veya destek alabilirim?
  Destek ve topluluk tartışmaları için Aspose forumlarını ziyaret edebilirsiniz.[Burada](https://forum.aspose.com/).

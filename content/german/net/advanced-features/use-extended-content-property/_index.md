@@ -30,7 +30,7 @@ Verwenden Sie Ihren bevorzugten Texteditor oder Ihre integrierte Entwicklungsumg
 
 Während Aspose.HTML für .NET für eine Vielzahl von Aufgaben verwendet werden kann, sind grundlegende HTML-Kenntnisse hilfreich.
 
-## Namespaces importieren
+## Namensräume importieren
 
 Nachdem Sie nun die Voraussetzungen geschaffen haben, können Sie mit der Arbeit mit Aspose.HTML für .NET beginnen. Lassen Sie uns die erforderlichen Namespaces importieren, um Ihnen den Einstieg zu erleichtern.
 

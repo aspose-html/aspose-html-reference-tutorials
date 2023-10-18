@@ -48,7 +48,7 @@ using (var document2 = new Aspose.Html.HTMLDocument("<style>p { color: blue; }</
 }
 ```
 
- Yukarıdaki kodda iki HTML belgesi oluşturduk,`document` Ve`document2`, her biri farklı metin renklerine sahip basit bir paragraf içerir.
+Yukarıdaki kodda iki HTML belgesi oluşturduk,`document` Ve`document2`, her biri farklı metin renklerine sahip basit bir paragraf içerir.
 
 ## Adım 2: Birden Çok Belge Oluşturun
 

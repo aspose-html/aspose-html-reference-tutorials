@@ -67,7 +67,7 @@ using (var renderer = new EpubRenderer())
 
 2.  Créer un périphérique de rendu XPS : Nous créons un périphérique de rendu XPS à l'aide du`XpsDevice` classe. Cet appareil sera utilisé pour restituer le contenu du document EPUB au format XPS.
 
-3.  Créer un moteur de rendu EPUB : nous créons une instance du`EpubRenderer`classe. Cette classe offre des capacités de rendu spécifiquement adaptées aux documents EPUB.
+3.  Créer un moteur de rendu EPUB : nous créons une instance du`EpubRenderer` classe. Cette classe offre des capacités de rendu spécifiquement adaptées aux documents EPUB.
 
 4.  Rendre le document EPUB au format XPS : Enfin, nous appelons le`Render` méthode du`EpubRenderer` classe pour effectuer le rendu. La sortie rendue sera enregistrée sous forme de fichier XPS à l'emplacement spécifié.
 
@@ -93,7 +93,7 @@ Oui, Aspose.HTML pour .NET prend en charge divers formats de sortie, notamment P
 
 ### 4. Où puis-je demander de l'aide ou partager mes expériences avec la bibliothèque ?
 
- Vous pouvez rejoindre la communauté Aspose et demander de l'aide ou partager vos expériences sur le[Forum Aspose](https://forum.aspose.com/).
+Vous pouvez rejoindre la communauté Aspose et demander de l'aide ou partager vos expériences sur le[Forum Aspose](https://forum.aspose.com/).
 
 ### 5. Puis-je utiliser Aspose.HTML pour .NET dans des projets commerciaux ?
 

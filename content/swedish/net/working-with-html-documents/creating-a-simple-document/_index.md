@@ -64,7 +64,7 @@ var document = new HTMLDocument();
 
 ### Steg 3: Lägga till en bild
 
-Nu lägger vi till en bild i HTML-dokumentet. Vi skapar en`img` element med hjälp av`CreateElement` metod, ställ in dess`Src`, `Alt` , och`Title` attribut och sedan lägg till det i dokumentets`Body`.
+Nu lägger vi till en bild i HTML-dokumentet. Vi skapar en`img` element med hjälp av`CreateElement` metod, ställ in dess`Src`, `Alt` och`Title` attribut och sedan lägg till det i dokumentets`Body`.
 
 ```csharp
 if (document.CreateElement("img") is HTMLImageElement img)

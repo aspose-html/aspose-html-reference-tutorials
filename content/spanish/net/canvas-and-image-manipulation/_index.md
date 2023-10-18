@@ -1,7 +1,7 @@
 ---
 title: Manipulación de lienzos e imágenes
 linktitle: Manipulación de lienzos e imágenes
-second_title: Aspose.Slides API de manipulación HTML .NET
+second_title: Aspose.HTML .NET API de manipulación de HTML
 description: Aprenda a manipular imágenes con Aspose.HTML para .NET a través de tutoriales paso a paso. Descubra el poder del lienzo y la edición de imágenes.
 type: docs
 weight: 22

@@ -1,7 +1,7 @@
 ---
 title: Cargue documentos HTML de forma asincrónica en .NET con Aspose.HTML
 linktitle: Cargar documentos HTML de forma asincrónica en .NET
-second_title: Aspose.Slides API de manipulación HTML .NET
+second_title: Aspose.HTML .NET API de manipulación de HTML
 description: Aprenda a utilizar Aspose.HTML para .NET para trabajar con documentos HTML. Guía paso a paso con ejemplos y preguntas frecuentes para desarrolladores.
 type: docs
 weight: 10

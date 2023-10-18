@@ -18,9 +18,9 @@ I den här handledningen kommer vi att utforska några väsentliga funktioner i 
 
 Innan vi dyker in i exemplen, se till att du har följande förutsättningar på plats:
 
-- Aspose.HTML for .NET: Du bör ha Aspose.HTML for .NET-biblioteket installerat. Du kan ladda ner den från[nedladdningslänk](https://releases.aspose.com/html/net/).
+-  Aspose.HTML for .NET: Du bör ha Aspose.HTML for .NET-biblioteket installerat. Du kan ladda ner den från[nedladdningslänk](https://releases.aspose.com/html/net/).
 
--  Tillfällig licens (valfritt): Om du inte har en giltig licens kan du få en tillfällig licens från[här](https://purchase.aspose.com/temporary-license/).
+- Tillfällig licens (valfritt): Om du inte har en giltig licens kan du få en tillfällig licens från[här](https://purchase.aspose.com/temporary-license/).
 
 Låt oss nu utforska några vanliga användningsfall med Aspose.HTML för .NET.
 
@@ -499,7 +499,7 @@ using (HTMLRenderer renderer = new HTMLRenderer())
 using (var device = new PdfDevice("output.pdf"))
 ```
 
-### Steg 5: Återge HTML till PDF med Timeout
+### Steg 5: Gör HTML till PDF med Timeout
 
 ```csharp
 renderer.Render(device, TimeSpan.FromSeconds(5), document);

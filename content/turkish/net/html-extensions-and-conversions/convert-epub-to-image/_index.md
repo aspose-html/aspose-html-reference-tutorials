@@ -107,7 +107,7 @@ Sayfa boyutu ve arka plan rengi gibi seçenekleri belirterek görüntü çıktı
 2.  EPUB dosyasını okumak için bir kullanarak açın.`FileStream`.
 3.  Oluşturduğunuz bir`ImageSaveOptions` nesneyi seçin ve istenen çıktı formatını (JPEG) belirtin.
 4. Gerekirse sayfa boyutunu ve arka plan rengini özelleştirin.
-5.  Ara`ConvertEPUB` yöntemi, EPUB akışının, görüntü kaydetme seçeneklerinin ve çıktı dosyası adının iletilmesi.
+5.  Ara`ConvertEPUB`yöntemi, EPUB akışının, görüntü kaydetme seçeneklerinin ve çıktı dosyası adının iletilmesi.
 6. EPUB dosyası belirtilen seçeneklerle bir görüntüye dönüştürülür.
 
 ## Özel Akış Sağlayıcısı Belirtin
@@ -174,7 +174,7 @@ class MemoryStreamProvider : Aspose.Html.IO.ICreateStreamProvider
 1.  EPUB dosyanızın yolunu şu adreste belirtin:`dataDir` değişken.
 2.  EPUB dosyasını okumak için bir kullanarak açın.`FileStream`.
 3.  Oluşturmak`MemoryStreamProvider` özel çıktı akışlarını yönetmek için.
-4.  Ara`ConvertEPUB`EPUB akışını, görüntü kaydetme seçeneklerini (JPEG) ve özel akış sağlayıcısını geçirme yöntemi.
+4.  Ara`ConvertEPUB` EPUB akışını, görüntü kaydetme seçeneklerini (JPEG) ve özel akış sağlayıcısını geçirme yöntemi.
 5. Özel sağlayıcıdaki bellek akışlarını yineleyin ve bunları ayrı ayrı dosyalara kaydedin.
 6. Bu örnek, birden fazla çıktı akışını gerektiği gibi değiştirmenize ve kaydetmenize olanak tanır.
 

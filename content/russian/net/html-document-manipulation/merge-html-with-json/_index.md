@@ -1,7 +1,7 @@
 ---
 title: Объедините HTML с Json в .NET с помощью Aspose.HTML
 linktitle: Объединить HTML с Json в .NET
-second_title: Aspose.HTML .NET API манипулирования HTML
+second_title: API манипуляций с HTML Aspose.HTML .NET
 description: Научитесь создавать динамический и веб-контент с помощью Aspose.HTML для .NET. Расширьте свое присутствие в Интернете и вовлекайте свою аудиторию.
 type: docs
 weight: 17
@@ -26,7 +26,7 @@ using Aspose.Html;
 
 ## Шаг 1. Документ HTML-шаблона
 
-Во-первых, вам понадобится документ-шаблон HTML, с которым вы хотите работать. Убедитесь, что в вашем коде указан путь к каталогу документов HTML. Вы можете сделать это, изменив`dataDir` переменная следующим образом:
+ Во-первых, вам понадобится документ-шаблон HTML, с которым вы хотите работать. Убедитесь, что в вашем коде указан путь к каталогу документов HTML. Вы можете сделать это, изменив`dataDir` переменная следующим образом:
 
 ```csharp
 // Путь к каталогу документов
@@ -65,7 +65,7 @@ string templateOutput = dataDir + "MergeHTMLWithJson_Output.html";
 Последний шаг — использовать Aspose.HTML для .NET для объединения шаблона HTML с данными XML. Вот код, который делает именно это:
 
 ```csharp
-//Объединить шаблон HTML с данными XML
+// Объединить шаблон HTML с данными XML
 Converter.ConvertTemplate(templateHtml, data, new TemplateLoadOptions(), templateOutput);
 ```
 
@@ -87,7 +87,7 @@ Converter.ConvertTemplate(templateHtml, data, new TemplateLoadOptions(), templat
 
 ### Вопрос 2. Где я могу найти дополнительную документацию и учебные пособия?
 
-A2: Подробную документацию и руководства можно найти по адресу[Aspose.HTML-документация](https://reference.aspose.com/html/net/).
+ A2: Подробную документацию и руководства можно найти по адресу[Aspose.HTML-документация](https://reference.aspose.com/html/net/).
 
 ### Вопрос 3: Могу ли я попробовать Aspose.HTML для .NET перед покупкой?
 

@@ -1,7 +1,7 @@
 ---
 title: Converti EPUB in immagine in .NET con Aspose.HTML
 linktitle: Converti EPUB in immagine in .NET
-second_title: Aspose.Slides API di manipolazione HTML .NET
+second_title: Aspose.HTML .NET API di manipolazione HTML
 description: Scopri come convertire EPUB in immagini utilizzando Aspose.HTML per .NET. Tutorial passo passo con esempi di codice e opzioni personalizzabili.
 type: docs
 weight: 11
@@ -107,7 +107,7 @@ Puoi personalizzare l'output dell'immagine specificando opzioni come la dimensio
 2.  Apri il file EPUB per la lettura utilizzando a`FileStream`.
 3.  Creare un`ImageSaveOptions` oggetto e specificare il formato di output desiderato (JPEG).
 4. Personalizza le dimensioni della pagina e il colore dello sfondo, se necessario.
-5.  Chiama il`ConvertEPUB` metodo, passando il flusso EPUB, le opzioni di salvataggio dell'immagine e il nome del file di output.
+5.  Chiama il`ConvertEPUB`metodo, passando il flusso EPUB, le opzioni di salvataggio dell'immagine e il nome del file di output.
 6. Il file EPUB viene convertito in un'immagine con le opzioni specificate.
 
 ## Specifica un provider di streaming personalizzato
@@ -174,7 +174,7 @@ class MemoryStreamProvider : Aspose.Html.IO.ICreateStreamProvider
 1.  Fornisci il percorso del tuo file EPUB nel file`dataDir` variabile.
 2.  Apri il file EPUB per la lettura utilizzando a`FileStream`.
 3.  Creare un`MemoryStreamProvider` per gestire flussi di output personalizzati.
-4.  Chiama il`ConvertEPUB`metodo, passando il flusso EPUB, le opzioni di salvataggio dell'immagine (JPEG) e il provider di flusso personalizzato.
+4.  Chiama il`ConvertEPUB` metodo, passando il flusso EPUB, le opzioni di salvataggio dell'immagine (JPEG) e il provider di flusso personalizzato.
 5. Scorrere i flussi di memoria nel provider personalizzato, salvarli in singoli file.
 6. Questo esempio consente di manipolare e salvare più flussi di output secondo necessità.
 

@@ -1,7 +1,7 @@
 ---
 title: Tiempo de espera de renderizado en .NET con Aspose.HTML
 linktitle: Tiempo de espera de renderizado en .NET
-second_title: Aspose.Slides API de manipulación HTML .NET
+second_title: Aspose.HTML .NET API de manipulación de HTML
 description: Aprenda a controlar eficazmente los tiempos de espera de renderizado en Aspose.HTML para .NET. Explore las opciones de representación y garantice una representación fluida de documentos HTML.
 type: docs
 weight: 12

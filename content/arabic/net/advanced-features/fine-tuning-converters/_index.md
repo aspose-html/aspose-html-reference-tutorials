@@ -18,9 +18,9 @@ Aspose.HTML for .NET هي مكتبة قوية تسمح للمطورين بمعا
 
 قبل أن نتعمق في الأمثلة، تأكد من توفر المتطلبات الأساسية التالية:
 
-- Aspose.HTML لـ .NET: يجب أن تكون مكتبة Aspose.HTML لـ .NET مثبتة لديك. يمكنك تنزيله من[رابط التحميل](https://releases.aspose.com/html/net/).
+-  Aspose.HTML لـ .NET: يجب أن تكون مكتبة Aspose.HTML لـ .NET مثبتة لديك. يمكنك تنزيله من[رابط التحميل](https://releases.aspose.com/html/net/).
 
--  الترخيص المؤقت (اختياري): إذا لم يكن لديك ترخيص صالح، يمكنك الحصول على ترخيص مؤقت من[هنا](https://purchase.aspose.com/temporary-license/).
+- الترخيص المؤقت (اختياري): إذا لم يكن لديك ترخيص صالح، يمكنك الحصول على ترخيص مؤقت من[هنا](https://purchase.aspose.com/temporary-license/).
 
 الآن، دعنا نستكشف بعض حالات الاستخدام الشائعة مع Aspose.HTML لـ .NET.
 

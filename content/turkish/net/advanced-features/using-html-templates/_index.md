@@ -97,7 +97,7 @@ var template = @"
 System.IO.File.WriteAllText("template.html", template);
 ```
 
- Bu HTML şablonu aşağıdaki gibi yer tutucuları içerir:`{{FirstName}}`, `{{LastName}}`, `{{Address.Street}}`, `{{Address.Number}}` , Ve`{{Address.City}}`, bunu gerçek verilerle değiştireceğiz.
+ Bu HTML şablonu aşağıdaki gibi yer tutucuları içerir:`{{FirstName}}`, `{{LastName}}`, `{{Address.Street}}`, `{{Address.Number}}` Ve`{{Address.City}}`, bunu gerçek verilerle değiştireceğiz.
 
 ## 3. Adım: HTML Şablonunu Doldurun
 
@@ -129,11 +129,11 @@ Cevap1: Aspose.HTML for .NET, .NET geliştiricilerinin HTML belgeleri ve şablon
 
 ### S3. Aspose.HTML for .NET'i nasıl indirebilirim?
 
- Cevap3: Aspose.HTML for .NET'i indirme sayfasından indirebilirsiniz[Burada](https://releases.aspose.com/html/net/).
+Cevap3: Aspose.HTML for .NET'i indirme sayfasından indirebilirsiniz[Burada](https://releases.aspose.com/html/net/).
 
 ### S4. Aspose.HTML for .NET'in ücretsiz deneme sürümü mevcut mu?
 
-Cevap4: Evet, Aspose.HTML for .NET'i adresinden ücretsiz deneme sürümünü indirerek deneyebilirsiniz.[Burada](https://releases.aspose.com/).
+ Cevap4: Evet, Aspose.HTML for .NET'i adresinden ücretsiz deneme sürümünü indirerek deneyebilirsiniz.[Burada](https://releases.aspose.com/).
 
 ### S5. Aspose.HTML for .NET için geçici bir lisansa ihtiyacım var mı?
 

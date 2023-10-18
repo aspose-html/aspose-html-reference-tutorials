@@ -22,7 +22,7 @@ Um diesem Tutorial erfolgreich zu folgen und die Leistungsfähigkeit von Aspose.
 
 Nachdem Sie nun alle Voraussetzungen geschaffen haben, können wir beginnen.
 
-## Namespaces importieren
+## Namensräume importieren
 
 Bevor Sie Aspose.HTML für .NET verwenden, müssen Sie die erforderlichen Namespaces importieren. Diese Namespaces enthalten Klassen und Methoden, die für die Arbeit mit HTML-Dokumenten unerlässlich sind. Nachfolgend finden Sie eine Liste der Namespaces, die Sie importieren sollten:
 

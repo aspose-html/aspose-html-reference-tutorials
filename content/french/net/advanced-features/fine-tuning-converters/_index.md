@@ -18,9 +18,9 @@ Dans ce didacticiel, nous explorerons certaines fonctionnalités essentielles d'
 
 Avant de plonger dans les exemples, assurez-vous que les conditions préalables suivantes sont remplies :
 
-- Aspose.HTML pour .NET : la bibliothèque Aspose.HTML pour .NET doit être installée. Vous pouvez le télécharger depuis le[lien de téléchargement](https://releases.aspose.com/html/net/).
+-  Aspose.HTML pour .NET : la bibliothèque Aspose.HTML pour .NET doit être installée. Vous pouvez le télécharger depuis le[lien de téléchargement](https://releases.aspose.com/html/net/).
 
--  Licence temporaire (facultatif) : Si vous n'avez pas de licence valide, vous pouvez obtenir une licence temporaire auprès de[ici](https://purchase.aspose.com/temporary-license/).
+- Licence temporaire (facultatif) : Si vous n'avez pas de licence valide, vous pouvez obtenir une licence temporaire auprès de[ici](https://purchase.aspose.com/temporary-license/).
 
 Explorons maintenant quelques cas d'utilisation courants avec Aspose.HTML pour .NET.
 

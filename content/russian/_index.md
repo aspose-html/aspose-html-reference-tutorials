@@ -26,3 +26,21 @@ is_root: true
 - [Лицензирование и инициализация](./net/licensing-and-initialization/)
 - [Создание изображений JPG и PNG](./net/generate-jpg-and-png-images/)
 - [Рендеринг HTML-документов](./net/rendering-html-documents/)
+
+## Учебные пособия по Aspose.HTML для Java
+{{% alert color="primary" %}}
+Ознакомьтесь с обширной коллекцией руководств по Aspose.HTML для Java, предлагающих подробные инструкции и понимание универсальных функций этой мощной библиотеки. Независимо от того, являетесь ли вы разработчиком, который хочет настроить поля HTML-страницы, внедрить DOM Mutation Observer, манипулировать HTML5 Canvas, автоматизировать заполнение HTML-форм или овладеть искусством преобразования различных форматов, таких как EPUB, в изображения и PDF, эти учебные пособия содержат пошаговые инструкции. пошаговые инструкции и примеры кода для улучшения ваших навыков обработки HTML. Раскройте весь потенциал Aspose.HTML для Java и с легкостью оптимизируйте задачи веб-разработки и преобразования документов. 
+{{% /alert %}}
+
+Это ссылки на некоторые полезные ресурсы:
+ 
+- [Расширенное использование Aspose.HTML Java](./java/advanced-usage/)
+- [Преобразование холста в PDF](./java/conversion-canvas-to-pdf/)
+- [Преобразование – EPUB в изображения и PDF](./java/conversion-epub-to-image-and-pdf/)
+- [Преобразование — EPUB в XPS](./java/conversion-epub-to-xps/)
+- [Преобразование HTML в различные форматы изображений](./java/conversion-html-to-various-image-formats/)
+- [Преобразование HTML в другие форматы](./java/conversion-html-to-other-formats/)
+- [Преобразование между EPUB и форматами изображений](./java/converting-between-epub-and-image-formats/)
+- [Преобразование EPUB в PDF](./java/converting-epub-to-pdf/)
+- [Преобразование EPUB в XPS](./java/converting-epub-to-xps/)
+- [Преобразование HTML в различные форматы изображений](./java/converting-html-to-various-image-formats/)

@@ -1,7 +1,7 @@
 ---
 title: Объедините HTML с XML в .NET с помощью Aspose.HTML
 linktitle: Объединить HTML с XML в .NET
-second_title: Aspose.HTML .NET API манипулирования HTML
+second_title: API манипуляций с HTML Aspose.HTML .NET
 description: Научитесь использовать Aspose.HTML для .NET. Импортируйте пространство имен, объединяйте HTML с XML и улучшите свои навыки веб-разработки с помощью этого подробного руководства.
 type: docs
 weight: 18
@@ -16,11 +16,11 @@ url: /ru/net/html-document-manipulation/merge-html-with-xml/
 
 1. Среда разработки .NET
 
- Вам понадобится работающая среда разработки .NET на вашем компьютере. Если он у вас не установлен, перейдите по ссылке[веб-сайт Microsoft](https://docs.microsoft.com/en-us/dotnet/core/install/) для получения подробных инструкций.
+Вам понадобится работающая среда разработки .NET на вашем компьютере. Если он у вас не установлен, перейдите по ссылке[веб-сайт Microsoft](https://docs.microsoft.com/en-us/dotnet/core/install/) для получения подробных инструкций.
 
 2. Aspose.HTML для библиотеки .NET
 
-Загрузите библиотеку Aspose.HTML для .NET из раздела загрузки веб-сайта по адресу:[здесь](https://releases.aspose.com/html/net/). Вы можете выбрать версию, которая соответствует требованиям вашего проекта.
+ Загрузите библиотеку Aspose.HTML для .NET из раздела загрузки веб-сайта по адресу:[здесь](https://releases.aspose.com/html/net/). Вы можете выбрать версию, которая соответствует требованиям вашего проекта.
 
 3. Файлы шаблонов
 

@@ -1,7 +1,7 @@
 ---
 title: Licencia e inicialización
 linktitle: Licencia e inicialización
-second_title: Aspose.Slides API de manipulación HTML .NET
+second_title: Aspose.HTML .NET API de manipulación de HTML
 description: Descubra cómo utilizar eficazmente Aspose.HTML para .NET a través de nuestros completos tutoriales de inicialización y licencias. Libere todo el potencial de esta herramienta.
 type: docs
 weight: 27

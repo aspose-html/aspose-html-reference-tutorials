@@ -17,9 +17,9 @@ Aspose.HTML for .NET, .NET geliştiricilerinin HTML belgeleriyle zahmetsizce ça
 
 Eğiticiye dalmadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
 
-1.  Visual Studio: Aspose.HTML for .NET'e başlamak için makinenizde Visual Studio'nun kurulu olması gerekir. İndirebilirsin[Burada](https://visualstudio.microsoft.com/).
+1. Visual Studio: Aspose.HTML for .NET'e başlamak için makinenizde Visual Studio'nun kurulu olması gerekir. İndirebilirsin[Burada](https://visualstudio.microsoft.com/).
 
-2. Aspose.HTML for .NET Library: Aspose.HTML for .NET kütüphanesini indirip yükleyin. Şu adresten alabilirsiniz:[Burada](https://releases.aspose.com/html/net/).
+2.  Aspose.HTML for .NET Library: Aspose.HTML for .NET kütüphanesini indirin ve yükleyin. Şu adresten alabilirsiniz:[Burada](https://releases.aspose.com/html/net/).
 
 3. Temel C# Bilgisi: C# programlamanın temel bir anlayışı, kod örneklerini takip etmek için faydalı olacaktır.
 
@@ -51,7 +51,7 @@ Bu ad alanları size HTML belgesinin işlenmesi için gereken sınıfları ve y�
 string dataDir = "Your Data Directory";
 ```
 
- Bu adımda bir değişken tanımlarsınız`dataDir` çıktı dosyanızın kaydedileceği dizini belirtmek için. Değiştirdiğinizden emin olun`"Your Data Directory"`İstediğiniz dizine giden gerçek yol ile.
+Bu adımda bir değişken tanımlarsınız`dataDir` çıktı dosyanızın kaydedileceği dizini belirtmek için. Değiştirdiğinizden emin olun`"Your Data Directory"` İstediğiniz dizine giden gerçek yol ile.
 
 ### Adım 2: Özel StreamProvider Oluşturun
 
@@ -89,7 +89,7 @@ Bu satıra basit bir "Merhaba dünya!!!" eklenir. HTML belgesine metin. Bu içer
 Aspose.Html.Converters.Converter.ConvertHTML(document, new XpsSaveOptions(), streamProvider);
 ```
 
- Burada,`Converter` HTML belgesini XPS biçimine dönüştürmek için sınıf.`XpsSaveOptions()` dönüşüm için ayarlar sağlar ve`streamProvider` çıktıyı yönetir.
+ Burada,`Converter` HTML belgesini XPS biçimine dönüştürmek için sınıf.`XpsSaveOptions()`dönüşüm için ayarlar sağlar ve`streamProvider` çıktıyı yönetir.
 
 ### Adım 6: Çıktıyı Kaydet
 
@@ -119,7 +119,7 @@ Cevap1: Aspose.HTML for .NET, .NET geliştiricilerinin, oluşturma, değiştirme
 
 ### Q2. Aspose.HTML for .NET'i nereden indirebilirim?
 
- Cevap2: Kütüphaneyi şuradan indirebilirsiniz:[bu bağlantı](https://releases.aspose.com/html/net/).
+Cevap2: Kütüphaneyi şuradan indirebilirsiniz:[bu bağlantı](https://releases.aspose.com/html/net/).
 
 ### S3. Ücretsiz deneme mevcut mu?
 

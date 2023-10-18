@@ -1,7 +1,7 @@
 ---
 title: Cargar Documentos HTML con Credenciales en .NET con Aspose.HTML
 linktitle: Cargar Documentos HTML con Credenciales en .NET
-second_title: Aspose.Slides API de manipulación HTML .NET
+second_title: Aspose.HTML .NET API de manipulación de HTML
 description: Aprenda cómo potenciar su SEO con Aspose.HTML para .NET. Mejore las clasificaciones, analice el contenido web y optimice para los motores de búsqueda.
 type: docs
 weight: 11
@@ -66,7 +66,7 @@ string requestUri = "https://httpbin.org/basic-auth/user/passwd";
 
 En este paso, define el URI al que desea realizar una solicitud HTTP. Este URI puede ser cualquier página web que desee analizar u optimizar para SEO.
 
-### Paso 4: realizar una solicitud HTTP
+### Paso 4: realice una solicitud HTTP
 
 ```csharp
 try

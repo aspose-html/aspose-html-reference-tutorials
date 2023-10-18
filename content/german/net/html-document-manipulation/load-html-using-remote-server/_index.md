@@ -62,7 +62,7 @@ In diesem Beispiel laden wir ein HTML-Dokument von einem Remote-Server.
 
 ### Schritt 1: Initialisieren Sie ein HTML-Dokument
 
- Um zu beginnen, müssen Sie eine initialisieren`HTMLDocument` unter Verwendung der URL des Remote-HTML-Dokuments.
+ Um zu beginnen, müssen Sie eine initialisieren`HTMLDocument`unter Verwendung der URL des Remote-HTML-Dokuments.
 
 ```csharp
 HTMLDocument document = new HTMLDocument(new Url(@"https://www.w3.org/TR/html5/"));

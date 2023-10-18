@@ -17,9 +17,9 @@ Aspose.HTML pour .NET est une bibliothèque polyvalente qui permet aux développ
 
 Avant de plonger dans le didacticiel, assurez-vous que les conditions préalables suivantes sont remplies :
 
-1.  Visual Studio : pour commencer avec Aspose.HTML pour .NET, vous devez installer Visual Studio sur votre ordinateur. Vous pouvez le télécharger[ici](https://visualstudio.microsoft.com/).
+1. Visual Studio : pour commencer avec Aspose.HTML pour .NET, vous devez installer Visual Studio sur votre ordinateur. Vous pouvez le télécharger[ici](https://visualstudio.microsoft.com/).
 
-2. Bibliothèque Aspose.HTML pour .NET : téléchargez et installez la bibliothèque Aspose.HTML pour .NET. Vous pouvez l'obtenir de[ici](https://releases.aspose.com/html/net/).
+2.  Bibliothèque Aspose.HTML pour .NET : téléchargez et installez la bibliothèque Aspose.HTML pour .NET. Vous pouvez l'obtenir de[ici](https://releases.aspose.com/html/net/).
 
 3. Connaissances de base en C# : Une compréhension fondamentale de la programmation C# sera bénéfique pour suivre les exemples de code.
 
@@ -51,7 +51,7 @@ Maintenant, décomposons l'exemple de code fourni en plusieurs étapes et expliq
 string dataDir = "Your Data Directory";
 ```
 
- Dans cette étape, vous définissez une variable`dataDir` pour spécifier le répertoire dans lequel votre fichier de sortie sera enregistré. Assurez-vous de remplacer`"Your Data Directory"`avec le chemin réel vers le répertoire souhaité.
+Dans cette étape, vous définissez une variable`dataDir` pour spécifier le répertoire dans lequel votre fichier de sortie sera enregistré. Assurez-vous de remplacer`"Your Data Directory"` avec le chemin réel vers le répertoire souhaité.
 
 ### Étape 2 : Créer un StreamProvider personnalisé
 
@@ -89,7 +89,7 @@ Cette ligne ajoute un simple "Bonjour tout le monde !!!" texte au document HTML.
 Aspose.Html.Converters.Converter.ConvertHTML(document, new XpsSaveOptions(), streamProvider);
 ```
 
- Ici, vous utilisez le`Converter` classe pour convertir le document HTML au format XPS. Le`XpsSaveOptions()` fournit des paramètres pour la conversion, et`streamProvider` gère la sortie.
+ Ici, vous utilisez le`Converter` classe pour convertir le document HTML au format XPS. Le`XpsSaveOptions()`fournit des paramètres pour la conversion, et`streamProvider` gère la sortie.
 
 ### Étape 6 : Enregistrez la sortie
 
@@ -119,7 +119,7 @@ A1 : Aspose.HTML pour .NET est une bibliothèque puissante qui permet aux déve
 
 ### Q2. Où puis-je télécharger Aspose.HTML pour .NET ?
 
- A2 : Vous pouvez télécharger la bibliothèque depuis[ce lien](https://releases.aspose.com/html/net/).
+A2 : Vous pouvez télécharger la bibliothèque depuis[ce lien](https://releases.aspose.com/html/net/).
 
 ### Q3. Existe-t-il un essai gratuit disponible ?
 

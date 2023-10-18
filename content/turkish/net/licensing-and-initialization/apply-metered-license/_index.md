@@ -33,7 +33,7 @@ Burada örnek kodu birden çok adıma ayıracağız ve her adımı ayrıntılı 
 
 ### Veri Dizini Yolunu Ayarla:
 
-    Öncelikle, giriş HTML dosyanızın bulunduğu veri dizininizin yolunu ayarlamanız gerekir. Değiştirmeniz gerekecek`"Your Data Directory"` gerçek yol ile.
+   Öncelikle, giriş HTML dosyanızın bulunduğu veri dizininizin yolunu ayarlamanız gerekir. Değiştirmeniz gerekecek`"Your Data Directory"` gerçek yol ile.
 
    ```csharp
    string dataDir = "Your Data Directory";
@@ -84,7 +84,7 @@ Tarifeli lisans, kullanımınıza bağlı olarak Aspose.HTML için kullandıkça
  Kütüphaneyi adresinden indirebilirsiniz.[Burada](https://releases.aspose.com/html/net/).
 
 ### Aspose.HTML for .NET için ücretsiz deneme seçenekleri mevcut mu?
-Evet, ücretsiz deneme sürümüne şuradan erişebilirsiniz:[Burada](https://releases.aspose.com/).
+ Evet, ücretsiz deneme sürümüne şuradan erişebilirsiniz:[Burada](https://releases.aspose.com/).
 
 ### Aspose.HTML for .NET hakkında nereden destek alabilirim veya soru sorabilirim?
  Topluluğa katılabilir ve destek arayabilirsiniz.[Forumlar](https://forum.aspose.com/).

@@ -1,7 +1,7 @@
 ---
 title: Genere PDF cifrado mediante PdfDevice en .NET con Aspose.HTML
 linktitle: Genere PDF cifrado mediante PdfDevice en .NET
-second_title: Aspose.Slides API de manipulación HTML .NET
+second_title: Aspose.HTML .NET API de manipulación de HTML
 description: Convierta HTML a PDF dinámicamente con Aspose.HTML para .NET. Fácil integración, opciones personalizables y rendimiento sólido.
 type: docs
 weight: 15

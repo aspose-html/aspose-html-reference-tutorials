@@ -43,7 +43,7 @@ Dans ce didacticiel, nous nous concentrerons sur la conversion d'un document HTM
 
 ### Définir le répertoire de données
 
-Commencez par spécifier le chemin d'accès à votre répertoire de données. C'est ici que se trouve votre document HTML. Remplacer`"Your Data Directory"` avec le chemin réel.
+ Commencez par spécifier le chemin d'accès à votre répertoire de données. C'est ici que se trouve votre document HTML. Remplacer`"Your Data Directory"` avec le chemin réel.
 
 ```csharp
 string dataDir = "Your Data Directory";
@@ -95,7 +95,7 @@ Aspose.HTML pour .NET est une bibliothèque polyvalente qui simplifie les tâche
 
 ### 2. Comment puis-je obtenir une licence temporaire pour Aspose.HTML pour .NET ?
 
- Si vous avez besoin d'un permis temporaire, vous pouvez en obtenir un auprès de[ici](https://purchase.aspose.com/temporary-license/).
+Si vous avez besoin d'un permis temporaire, vous pouvez en obtenir un auprès de[ici](https://purchase.aspose.com/temporary-license/).
 
 ### 3. Où puis-je obtenir de l'aide et de l'assistance concernant Aspose.HTML pour .NET ?
 

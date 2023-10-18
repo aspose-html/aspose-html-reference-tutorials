@@ -69,7 +69,7 @@ Bu örnek, Aspose.HTML for .NET'in SVG'den PNG'ye dönüştürme gibi karmaşık
 
 ## Çözüm
 
-Aspose.HTML for .NET, .NET geliştiricilerinin HTML belgeleriyle sorunsuz bir şekilde çalışmasını sağlayan çok yönlü bir kitaplıktır. Doğru önkoşulların yerine getirilmesi ve sağlanan ad alanları ile örneklerin sağlam bir şekilde anlaşılmasıyla, projeleriniz için bu kitaplığın tüm potansiyelini ortaya çıkarabilirsiniz.
+Aspose.HTML for .NET, .NET geliştiricilerinin HTML belgeleriyle sorunsuz bir şekilde çalışmasını sağlayan çok yönlü bir kitaplıktır. Doğru önkoşulların yerine getirilmesi ve sağlanan ad alanlarının ve örneklerin sağlam bir şekilde anlaşılmasıyla, projeleriniz için bu kitaplığın tüm potansiyelini ortaya çıkarabilirsiniz.
 
 Bu eğitimin bilgilendirici olduğunu ve artık web geliştirme yolculuğunuzda Aspose.HTML for .NET'i daha fazla keşfedebilecek donanıma sahip olduğunuzu umuyoruz.
 

@@ -1,7 +1,7 @@
 ---
 title: HTML-расширения и преобразования
 linktitle: HTML-расширения и преобразования
-second_title: Aspose.HTML .NET API манипулирования HTML
+second_title: API манипуляций с HTML Aspose.HTML .NET
 description: Откройте для себя расширения HTML и учебные пособия по преобразованию с использованием Aspose.HTML для .NET. Узнайте, как оптимизировать веб-разработку, с помощью этих подробных руководств.
 type: docs
 weight: 20

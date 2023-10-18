@@ -1,7 +1,7 @@
 ---
 title: Ajuste preciso de convertidores en .NET con Aspose.HTML
 linktitle: Convertidores de ajuste fino en .NET
-second_title: Aspose.Slides API de manipulación HTML .NET
+second_title: Aspose.HTML .NET API de manipulación de HTML
 description: Aprenda a convertir HTML a PDF, XPS e imágenes con Aspose.HTML para .NET. Tutorial paso a paso con ejemplos de código y preguntas frecuentes.
 type: docs
 weight: 16
@@ -18,9 +18,9 @@ En este tutorial, exploraremos algunas características esenciales de Aspose.HTM
 
 Antes de profundizar en los ejemplos, asegúrese de cumplir con los siguientes requisitos previos:
 
-- Aspose.HTML para .NET: Debe tener instalada la biblioteca Aspose.HTML para .NET. Puedes descargarlo desde el[enlace de descarga](https://releases.aspose.com/html/net/).
+-  Aspose.HTML para .NET: Debe tener instalada la biblioteca Aspose.HTML para .NET. Puedes descargarlo desde el[enlace de descarga](https://releases.aspose.com/html/net/).
 
--  Licencia temporal (opcional): si no tiene una licencia válida, puede obtener una licencia temporal de[aquí](https://purchase.aspose.com/temporary-license/).
+- Licencia temporal (opcional): si no tiene una licencia válida, puede obtener una licencia temporal de[aquí](https://purchase.aspose.com/temporary-license/).
 
 Ahora, exploremos algunos casos de uso comunes con Aspose.HTML para .NET.
 

@@ -47,7 +47,7 @@ Bevor wir uns mit den Einzelheiten von Aspose.HTML für .NET befassen, stellen S
 </table>
 ```
 
-## Namespaces importieren
+## Namensräume importieren
 
 Als Erstes importieren wir die erforderlichen Namespaces in Ihr .NET-Projekt:
 
@@ -97,7 +97,7 @@ var template = @"
 System.IO.File.WriteAllText("template.html", template);
 ```
 
- Diese HTML-Vorlage enthält Platzhalter wie`{{FirstName}}`, `{{LastName}}`, `{{Address.Street}}`, `{{Address.Number}}` , Und`{{Address.City}}`, die wir durch die tatsächlichen Daten ersetzen.
+ Diese HTML-Vorlage enthält Platzhalter wie`{{FirstName}}`, `{{LastName}}`, `{{Address.Street}}`, `{{Address.Number}}` Und`{{Address.City}}`, die wir durch die tatsächlichen Daten ersetzen.
 
 ## Schritt 3: Füllen Sie die HTML-Vorlage aus
 
@@ -129,11 +129,11 @@ A1: Aspose.HTML für .NET ist eine leistungsstarke Bibliothek, die es .NET-Entwi
 
 ### Q3. Wie kann ich Aspose.HTML für .NET herunterladen?
 
- A3: Sie können Aspose.HTML für .NET von der Download-Seite herunterladen[Hier](https://releases.aspose.com/html/net/).
+A3: Sie können Aspose.HTML für .NET von der Download-Seite herunterladen[Hier](https://releases.aspose.com/html/net/).
 
 ### Q4. Gibt es eine kostenlose Testversion für Aspose.HTML für .NET?
 
-A4: Ja, Sie können Aspose.HTML für .NET ausprobieren, indem Sie die kostenlose Testversion von herunterladen[Hier](https://releases.aspose.com/).
+ A4: Ja, Sie können Aspose.HTML für .NET ausprobieren, indem Sie die kostenlose Testversion von herunterladen[Hier](https://releases.aspose.com/).
 
 ### F5. Benötige ich eine temporäre Lizenz für Aspose.HTML für .NET?
 

@@ -1,7 +1,7 @@
 ---
 title: Genere imágenes PNG mediante ImageDevice en .NET con Aspose.HTML
 linktitle: Generar imágenes PNG mediante ImageDevice en .NET
-second_title: Aspose.Slides API de manipulación HTML .NET
+second_title: Aspose.HTML .NET API de manipulación de HTML
 description: Aprenda a utilizar Aspose.HTML para .NET para manipular documentos HTML, convertir HTML en imágenes y más. Tutorial paso a paso con preguntas frecuentes.
 type: docs
 weight: 11

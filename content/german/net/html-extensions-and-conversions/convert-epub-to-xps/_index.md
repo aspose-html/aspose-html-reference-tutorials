@@ -191,4 +191,4 @@ Aspose.HTML für .NET ist eine leistungsstarke Bibliothek, die Entwicklern die A
  Um eine temporäre Lizenz zu erhalten, besuchen Sie die[temporäre Lizenzseite](https://purchase.aspose.com/temporary-license/).
 
 ### Wo finde ich weitere Tutorials und Dokumentation für Aspose.HTML für .NET?
-Entdecken Sie eine große Auswahl an Tutorials und ausführlicher Dokumentation zum Thema[Aspose.HTML-Dokumentation](https://reference.aspose.com/html/net/) Seite.
+ Entdecken Sie eine große Auswahl an Tutorials und ausführlicher Dokumentation zum Thema[Aspose.HTML-Dokumentation](https://reference.aspose.com/html/net/) Seite.

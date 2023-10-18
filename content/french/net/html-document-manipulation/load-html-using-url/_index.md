@@ -20,7 +20,7 @@ Avoir une solide maîtrise de C# et du framework .NET est crucial. Si vous débu
 
 2. Visual Studio installé
 
-Assurez-vous que Visual Studio, un environnement de développement intégré (IDE) populaire pour le développement .NET, est installé sur votre système. Sinon, vous pouvez le télécharger depuis[ici](https://visualstudio.microsoft.com/).
+ Assurez-vous que Visual Studio, un environnement de développement intégré (IDE) populaire pour le développement .NET, est installé sur votre système. Sinon, vous pouvez le télécharger depuis[ici](https://visualstudio.microsoft.com/).
 
 3. Aspose.HTML pour .NET
 
@@ -110,4 +110,4 @@ A2 : Oui, Aspose.HTML pour .NET est polyvalent et peut être utilisé dans les a
 
 ### Q5 : Comment puis-je obtenir une licence temporaire pour Aspose.HTML pour .NET ?
    
- A5 : Si vous avez besoin d'une licence temporaire pour votre projet, vous pouvez en obtenir une[ici](https://purchase.aspose.com/temporary-license/).
+A5 : Si vous avez besoin d'une licence temporaire pour votre projet, vous pouvez en obtenir une[ici](https://purchase.aspose.com/temporary-license/).

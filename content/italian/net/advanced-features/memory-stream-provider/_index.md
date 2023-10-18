@@ -1,7 +1,7 @@
 ---
 title: Provider di flusso di memoria in .NET con Aspose.HTML
 linktitle: Provider di flusso di memoria in .NET
-second_title: Aspose.Slides API di manipolazione HTML .NET
+second_title: Aspose.HTML .NET API di manipolazione HTML
 description: Scopri come creare straordinari documenti HTML in .NET con Aspose.HTML. Segui il nostro tutorial passo passo e sblocca il potere della manipolazione HTML.
 type: docs
 weight: 12
@@ -93,7 +93,7 @@ Non dimenticare di rilasciare le risorse quando hai finito con il documento:
 document.Dispose();
 ```
 
-E questo è tutto! Hai creato con successo un documento HTML utilizzando Aspose.HTML per .NET e ne hai persino eseguito il rendering in un formato diverso.
+questo è tutto! Hai creato con successo un documento HTML utilizzando Aspose.HTML per .NET e ne hai persino eseguito il rendering in un formato diverso.
 
 ## Conclusione
 

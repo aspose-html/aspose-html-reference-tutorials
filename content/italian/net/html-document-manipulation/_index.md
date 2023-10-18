@@ -1,7 +1,7 @@
 ---
 title: Manipolazione di documenti HTML
 linktitle: Manipolazione di documenti HTML
-second_title: Aspose.Slides API di manipolazione HTML .NET
+second_title: Aspose.HTML .NET API di manipolazione HTML
 description: Scopri come Aspose.HTML per .NET ti consente di manipolare i documenti HTML in modo efficiente. Esplora i tutorial che ti guidano attraverso il processo.
 type: docs
 weight: 21
@@ -36,7 +36,7 @@ Ora tuffiamoci nella miniera di tutorial che ti aspettano:
 
 3. Manipolazione degli elementi DOM: questo tutorial ti fornisce le competenze per navigare e manipolare il DOM HTML. È la chiave per apportare modifiche precise ai tuoi documenti.
 
-I nostri tutorial sono progettati per soddisfare vari livelli di abilità, dai principianti agli sviluppatori esperti. Ogni tutorial fornisce istruzioni chiare e dettagliate, per assicurarti di non rimanere mai al buio.
+nostri tutorial sono progettati per soddisfare vari livelli di abilità, dai principianti agli sviluppatori esperti. Ogni tutorial fornisce istruzioni chiare e dettagliate, per assicurarti di non rimanere mai al buio.
 
 ## Il vantaggio Aspose.HTML per .NET
 

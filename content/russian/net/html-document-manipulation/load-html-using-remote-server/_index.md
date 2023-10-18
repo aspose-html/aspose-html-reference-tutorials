@@ -1,7 +1,7 @@
 ---
 title: Загрузка HTML с помощью удаленного сервера в .NET с помощью Aspose.HTML
 linktitle: Загрузка HTML с помощью удаленного сервера в .NET
-second_title: Aspose.HTML .NET API манипулирования HTML
+second_title: API манипуляций с HTML Aspose.HTML .NET
 description: Раскройте потенциал Aspose.HTML для .NET с помощью нашего подробного руководства. Узнайте, как импортировать пространства имен, получать доступ к удаленным HTML-документам и многое другое.
 type: docs
 weight: 12
@@ -62,7 +62,7 @@ using Aspose.Html;
 
 ### Шаг 1. Инициализируйте HTMLDocument
 
- Для начала вам необходимо инициализировать`HTMLDocument` используя URL-адрес удаленного HTML-документа.
+ Для начала вам необходимо инициализировать`HTMLDocument`используя URL-адрес удаленного HTML-документа.
 
 ```csharp
 HTMLDocument document = new HTMLDocument(new Url(@"https://www.w3.org/TR/html5/"));

@@ -1,7 +1,7 @@
 ---
 title: Преобразование HTML в XPS в .NET с помощью Aspose.HTML
 linktitle: Преобразование HTML в XPS в .NET
-second_title: Aspose.HTML .NET API манипулирования HTML
+second_title: API манипуляций с HTML Aspose.HTML .NET
 description: Откройте для себя возможности Aspose.HTML для .NET. Конвертируйте HTML в XPS без особых усилий. Включены предварительные требования, пошаговое руководство и часто задаваемые вопросы.
 type: docs
 weight: 22

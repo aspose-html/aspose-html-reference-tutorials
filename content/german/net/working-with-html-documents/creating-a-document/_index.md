@@ -22,7 +22,7 @@ Bevor Sie diese Reise antreten, stellen Sie sicher, dass die folgenden Vorausset
 
 Nachdem wir nun die Voraussetzungen erfüllt haben, beginnen wir mit der Erstellung von HTML-Dokumenten.
 
-## Namespaces importieren
+## Namensräume importieren
 
 Zunächst müssen Sie die erforderlichen Namespaces importieren, um Aspose.HTML in Ihrem C#-Projekt verwenden zu können. Fügen Sie Ihrer Codedatei die folgenden using-Anweisungen hinzu:
 
@@ -149,7 +149,7 @@ Aspose.HTML für .NET bietet leistungsstarke Tools zum Erstellen und Bearbeiten 
  A1: Aspose.HTML für .NET bietet eine kostenlose Testversion, für die vollständige Nutzung müssen Sie jedoch eine Lizenz erwerben. Weitere Details finden Sie unter[https://purchase.aspose.com/buy](https://purchase.aspose.com/buy).
 
 ### F2: Wie kann ich eine temporäre Lizenz für Aspose.HTML für .NET erhalten?
- A2: Wenn Sie eine temporäre Lizenz benötigen, können Sie diese unter erhalten[https://purchase.aspose.com/temporary-license/](https://purchase.aspose.com/temporary-license/).
+A2: Wenn Sie eine temporäre Lizenz benötigen, können Sie diese unter erhalten[https://purchase.aspose.com/temporary-license/](https://purchase.aspose.com/temporary-license/).
 
 ### F3: Wo finde ich Dokumentation für Aspose.HTML für .NET?
  A3: Die Dokumentation finden Sie unter[https://reference.aspose.com/html/net/](https://reference.aspose.com/html/net/).

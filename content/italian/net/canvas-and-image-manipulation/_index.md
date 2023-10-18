@@ -1,7 +1,7 @@
 ---
 title: Manipolazione di immagini e tele
 linktitle: Manipolazione di immagini e tele
-second_title: Aspose.Slides API di manipolazione HTML .NET
+second_title: Aspose.HTML .NET API di manipolazione HTML
 description: Impara a manipolare le immagini con Aspose.HTML per .NET attraverso tutorial passo-passo. Scopri la potenza della tela e dell'editing delle immagini.
 type: docs
 weight: 22

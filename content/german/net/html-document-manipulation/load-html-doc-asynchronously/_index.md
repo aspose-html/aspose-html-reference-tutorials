@@ -26,7 +26,7 @@ Auf Ihrem System sollte Visual Studio installiert sein, da wir in diesem Tutoria
 
 Grundlegende HTML-Kenntnisse sind hilfreich, aber nicht zwingend erforderlich. Aspose.HTML für .NET vereinfacht viele komplexe Aufgaben.
 
-## Namespaces importieren
+## Namensräume importieren
 
 Beginnen wir mit dem Importieren der erforderlichen Namespaces für die Arbeit mit Aspose.HTML für .NET. Dieser Schritt ist entscheidend für den Zugriff auf die Funktionen der Bibliothek.
 

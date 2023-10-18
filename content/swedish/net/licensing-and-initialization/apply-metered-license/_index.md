@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /sv/net/licensing-and-initialization/apply-metered-license/
 ---
-I den här självstudien guidar vi dig genom processen att ansöka om en uppmätt licens i din .NET-applikation med Aspose.HTML. En uppmätt licens är ett bekvämt sätt att hantera licenser för dina HTML-manipuleringsbehov. Genom att följa stegen nedan kommer du att kunna tillämpa en mätlicens på ditt Aspose.HTML for .NET-projekt.
+den här självstudien guidar vi dig genom processen att ansöka om en uppmätt licens i din .NET-applikation med Aspose.HTML. En uppmätt licens är ett bekvämt sätt att hantera licenser för dina HTML-manipuleringsbehov. Genom att följa stegen nedan kommer du att kunna tillämpa en mätlicens på ditt Aspose.HTML for .NET-projekt.
 
 ## Förutsättningar
 
@@ -33,7 +33,7 @@ Här kommer vi att dela upp exempelkoden i flera steg och förklara varje steg i
 
 ### Ställ in datakatalogsökväg:
 
-    Först bör du ställa in sökvägen till din datakatalog där din HTML-inmatningsfil finns. Du måste byta ut`"Your Data Directory"` med den faktiska vägen.
+   Först bör du ställa in sökvägen till din datakatalog där din HTML-inmatningsfil finns. Du måste byta ut`"Your Data Directory"` med den faktiska vägen.
 
    ```csharp
    string dataDir = "Your Data Directory";
@@ -68,7 +68,7 @@ Det är allt! Du har använt en uppmätt licens på ditt .NET-projekt och laddat
 
 ## Slutsats
 
-I den här handledningen har vi visat hur man tillämpar en mätlicens med Aspose.HTML för .NET. Genom att följa dessa steg kan du sömlöst integrera Aspose.HTML i dina .NET-applikationer för HTML-manipulation.
+den här handledningen har vi visat hur man tillämpar en mätlicens med Aspose.HTML för .NET. Genom att följa dessa steg kan du sömlöst integrera Aspose.HTML i dina .NET-applikationer för HTML-manipulation.
 
 ---
 
@@ -84,7 +84,7 @@ En uppmätt licens tillåter dig att betala för Aspose.HTML på en pay-as-you-g
  Du kan ladda ner biblioteket från[här](https://releases.aspose.com/html/net/).
 
 ### Finns det några gratis provversioner tillgängliga för Aspose.HTML för .NET?
-Ja, du kan få tillgång till en gratis provperiod från[här](https://releases.aspose.com/).
+ Ja, du kan få tillgång till en gratis provperiod från[här](https://releases.aspose.com/).
 
 ### Var kan jag få support eller ställa frågor om Aspose.HTML för .NET?
  Du kan gå med i gemenskapen och söka stöd på[Aspose-forum](https://forum.aspose.com/).

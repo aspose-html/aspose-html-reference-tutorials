@@ -62,7 +62,7 @@ using Aspose.Html;
 
 ### الخطوة 1: تهيئة مستند HTML
 
- للبدء، تحتاج إلى تهيئة`HTMLDocument` باستخدام عنوان URL لمستند HTML البعيد.
+ للبدء، تحتاج إلى تهيئة`HTMLDocument`باستخدام عنوان URL لمستند HTML البعيد.
 
 ```csharp
 HTMLDocument document = new HTMLDocument(new Url(@"https://www.w3.org/TR/html5/"));

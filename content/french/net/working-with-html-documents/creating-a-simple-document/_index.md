@@ -64,7 +64,7 @@ var document = new HTMLDocument();
 
 ### Étape 3 : Ajout d'une image
 
-Maintenant, nous ajoutons une image au document HTML. Nous créons un`img` élément en utilisant le`CreateElement` méthode, définissez sa`Src`, `Alt` , et`Title` attributs, puis ajoutez-le au document`Body`.
+Maintenant, nous ajoutons une image au document HTML. Nous créons un`img` élément en utilisant le`CreateElement` méthode, définissez sa`Src`, `Alt` et`Title` attributs, puis ajoutez-le au document`Body`.
 
 ```csharp
 if (document.CreateElement("img") is HTMLImageElement img)

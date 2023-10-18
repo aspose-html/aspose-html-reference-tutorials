@@ -20,7 +20,7 @@ Bevor Sie in die Welt von Aspose.HTML für .NET eintauchen, benötigen Sie einig
 
 3. Grundlegende HTML-Kenntnisse: Vertrautheit mit HTML-Strukturen und -Elementen ist für die effektive Nutzung von Aspose.HTML für .NET unerlässlich.
 
-## Namespaces importieren
+## Namensräume importieren
 
 Zunächst müssen Sie die erforderlichen Namespaces in Ihr C#-Projekt importieren. Diese Namespaces bieten Zugriff auf die Aspose.HTML für .NET-Klassen und -Funktionen:
 
@@ -50,7 +50,7 @@ public static void NavigateThroughHTML()
         var element = document.Body.FirstChild;
         Console.WriteLine(element.TextContent); // Ausgabe: Hallo
 
-        //Rufen Sie den Verweis auf den Leerraum zwischen HTML-Elementen ab
+        // Rufen Sie den Verweis auf den Leerraum zwischen HTML-Elementen ab
         element = element.NextSibling;
         Console.WriteLine(element.TextContent); // Ausgabe: ' '
 
@@ -161,7 +161,7 @@ public static void CSSSelectorUsageExample()
     // Initialisieren Sie ein Dokument basierend auf dem vorbereiteten Code
     using (var document = new HTMLDocument(code, "."))
     {
-        // Verwenden Sie einen CSS-Selektor, um Elemente basierend auf Klasse und Hierarchie zu extrahieren
+        //Verwenden Sie einen CSS-Selektor, um Elemente basierend auf Klasse und Hierarchie zu extrahieren
         var elements = document.QuerySelectorAll(".happy span");
         
         // Durchlaufen Sie die resultierende Liste der Elemente
@@ -181,13 +181,13 @@ Mit diesen Beispielen haben Sie ein grundlegendes Verständnis für das Navigier
 
 ## Abschluss
 
-Aspose.HTML für .NET ist eine vielseitige Bibliothek, die .NET-Entwicklern die effiziente Arbeit mit HTML-Dokumenten ermöglicht. Mit seinen leistungsstarken Funktionen zum Navigieren, Filtern, Abfragen und Auswählen von Elementen können Sie verschiedene HTML-Verarbeitungsaufgaben nahtlos erledigen. Indem Sie diesem Tutorial folgen und die Dokumentation unter erkunden[Aspose.HTML für .NET-Dokumentation](https://reference.aspose.com/html/net/)können Sie das volle Potenzial dieses Tools für Ihre .NET-Anwendungen nutzen.
+ Aspose.HTML für .NET ist eine vielseitige Bibliothek, die .NET-Entwicklern die effiziente Arbeit mit HTML-Dokumenten ermöglicht. Mit seinen leistungsstarken Funktionen zum Navigieren, Filtern, Abfragen und Auswählen von Elementen können Sie verschiedene HTML-Verarbeitungsaufgaben nahtlos erledigen. Indem Sie diesem Tutorial folgen und die Dokumentation unter erkunden[Aspose.HTML für .NET-Dokumentation](https://reference.aspose.com/html/net/)können Sie das volle Potenzial dieses Tools für Ihre .NET-Anwendungen nutzen.
 
 ## FAQs
 
 ### Q1. Ist die Nutzung von Aspose.HTML für .NET kostenlos?
 
- A1: Aspose.HTML für .NET bietet eine kostenlose Testversion, für den Produktionseinsatz müssen Sie jedoch eine Lizenz erwerben. Lizenzdetails und Optionen finden Sie unter[Aspose.HTML-Kauf](https://purchase.aspose.com/buy).
+A1: Aspose.HTML für .NET bietet eine kostenlose Testversion, für den Produktionseinsatz müssen Sie jedoch eine Lizenz erwerben. Lizenzdetails und Optionen finden Sie unter[Aspose.HTML-Kauf](https://purchase.aspose.com/buy).
 
 ### Q2. Wie kann ich eine temporäre Lizenz für Aspose.HTML für .NET erhalten?
 

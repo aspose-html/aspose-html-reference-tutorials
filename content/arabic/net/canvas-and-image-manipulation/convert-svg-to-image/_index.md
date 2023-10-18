@@ -63,7 +63,7 @@ ImageSaveOptions options = new ImageSaveOptions(ImageFormat.Jpeg);
 string outputFile = dataDir + "SVGtoImage_Output.jpeg";
 ```
 
- قمت بتعيين المسار لملف الصورة الناتج. يستبدل`"SVGtoImage_Output.jpeg"` بالاسم المطلوب لصورة الإخراج الخاصة بك.
+قمت بتعيين المسار لملف الصورة الناتج. يستبدل`"SVGtoImage_Output.jpeg"` بالاسم المطلوب لصورة الإخراج الخاصة بك.
 
 ## الخطوة 5: تحويل SVG إلى صورة
 
@@ -71,7 +71,7 @@ string outputFile = dataDir + "SVGtoImage_Output.jpeg";
 Converter.ConvertSVG(svgDocument, options, outputFile);
 ```
 
-هذه هي الخطوة الحاسمة التي تستخدم فيها Aspose.HTML لـ .NET لتحويل مستند SVG الخاص بك إلى تنسيق الصورة المحدد. ال`Converter.ConvertSVG` تأخذ الطريقة مستند SVG وخيارات الصورة ومسار ملف الإخراج كمعلمات.
+ هذه هي الخطوة الحاسمة التي تستخدم فيها Aspose.HTML لـ .NET لتحويل مستند SVG الخاص بك إلى تنسيق الصورة المحدد. ال`Converter.ConvertSVG` تأخذ الطريقة مستند SVG وخيارات الصورة ومسار ملف الإخراج كمعلمات.
 
 من خلال هذه الخطوات، يمكنك تحويل ملفات SVG الخاصة بك إلى صور بسهولة باستخدام Aspose.HTML for .NET. إن بساطة المكتبة وفعاليتها تجعلها أداة قيمة للمطورين.
 

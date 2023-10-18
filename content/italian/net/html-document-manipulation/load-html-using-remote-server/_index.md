@@ -1,7 +1,7 @@
 ---
 title: Carica HTML utilizzando un server remoto in .NET con Aspose.HTML
 linktitle: Carica HTML utilizzando un server remoto in .NET
-second_title: Aspose.Slides API di manipolazione HTML .NET
+second_title: Aspose.HTML .NET API di manipolazione HTML
 description: Sblocca il potenziale di Aspose.HTML per .NET con la nostra guida completa. Scopri come importare spazi dei nomi, accedere a documenti HTML remoti e altro ancora.
 type: docs
 weight: 12
@@ -62,7 +62,7 @@ In questo esempio, caricheremo un documento HTML da un server remoto.
 
 ### Passaggio 1: inizializza un documento HTML
 
- Per iniziare, è necessario inizializzare un file`HTMLDocument` utilizzando l'URL del documento HTML remoto.
+ Per iniziare, è necessario inizializzare un file`HTMLDocument`utilizzando l'URL del documento HTML remoto.
 
 ```csharp
 HTMLDocument document = new HTMLDocument(new Url(@"https://www.w3.org/TR/html5/"));

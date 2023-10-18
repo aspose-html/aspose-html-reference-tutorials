@@ -64,7 +64,7 @@ var document = new HTMLDocument();
 
 ### الخطوة 3: إضافة صورة
 
-الآن، نقوم بإضافة صورة إلى مستند HTML. نحن ننشئ`img` العنصر باستخدام`CreateElement` الطريقة، تعيين لها`Src`, `Alt` ، و`Title` السمات، ثم قم بإلحاقها بالمستند`Body`.
+الآن، نقوم بإضافة صورة إلى مستند HTML. نحن ننشئ`img` العنصر باستخدام`CreateElement` الطريقة، تعيين لها`Src`, `Alt`، و`Title` السمات، ثم قم بإلحاقها بالمستند`Body`.
 
 ```csharp
 if (document.CreateElement("img") is HTMLImageElement img)

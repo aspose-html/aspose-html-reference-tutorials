@@ -48,7 +48,7 @@ using (var document2 = new Aspose.Html.HTMLDocument("<style>p { color: blue; }</
 }
 ```
 
- I koden ovan har vi skapat två HTML-dokument,`document` och`document2`, var och en innehåller ett enkelt stycke med olika textfärger.
+ koden ovan har vi skapat två HTML-dokument,`document` och`document2`, var och en innehåller ett enkelt stycke med olika textfärger.
 
 ## Steg 2: Återge flera dokument
 

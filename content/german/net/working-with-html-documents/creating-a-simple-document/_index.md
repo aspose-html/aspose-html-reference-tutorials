@@ -64,7 +64,7 @@ var document = new HTMLDocument();
 
 ### Schritt 3: Ein Bild hinzufügen
 
-Jetzt fügen wir dem HTML-Dokument ein Bild hinzu. Wir erstellen eine`img` Element mit dem`CreateElement` Methode, legen Sie sie fest`Src`, `Alt` , Und`Title` Attribute hinzufügen und dann an die des Dokuments anhängen`Body`.
+Jetzt fügen wir dem HTML-Dokument ein Bild hinzu. Wir erstellen eine`img` Element mit dem`CreateElement` Methode, legen Sie sie fest`Src`, `Alt` Und`Title` Attribute hinzufügen und dann an die des Dokuments anhängen`Body`.
 
 ```csharp
 if (document.CreateElement("img") is HTMLImageElement img)

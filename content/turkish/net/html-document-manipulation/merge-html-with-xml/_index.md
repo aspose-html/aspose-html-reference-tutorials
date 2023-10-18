@@ -16,11 +16,11 @@ Aspose.HTML for .NET dünyasına dalmadan önce aşağıdaki önkoşulların mev
 
 1. .NET Geliştirme Ortamı
 
- Makinenizde çalışan bir .NET geliştirme ortamına ihtiyacınız olacak. Eğer yüklemediyseniz şu adrese gidin:[Microsoft'un web sitesi](https://docs.microsoft.com/en-us/dotnet/core/install/) ayrıntılı talimatlar için.
+Makinenizde çalışan bir .NET geliştirme ortamına ihtiyacınız olacak. Eğer yüklemediyseniz şu adrese gidin:[Microsoft'un web sitesi](https://docs.microsoft.com/en-us/dotnet/core/install/) ayrıntılı talimatlar için.
 
 2. Aspose.HTML for .NET Kitaplığı
 
-Aspose.HTML for .NET kitaplığını web sitesinin indirme bölümünden indirin:[Burada](https://releases.aspose.com/html/net/). Projenizin gereksinimlerine uygun sürümü seçebilirsiniz.
+ Aspose.HTML for .NET kitaplığını web sitesinin indirme bölümünden indirin:[Burada](https://releases.aspose.com/html/net/). Projenizin gereksinimlerine uygun sürümü seçebilirsiniz.
 
 3. Şablon Dosyaları
 

@@ -48,7 +48,7 @@ using (var document2 = new Aspose.Html.HTMLDocument("<style>p { color: blue; }</
 }
 ```
 
- Dans le code ci-dessus, nous avons créé deux documents HTML,`document` et`document2`, chacun contenant un simple paragraphe avec des couleurs de texte différentes.
+Dans le code ci-dessus, nous avons créé deux documents HTML,`document` et`document2`, chacun contenant un simple paragraphe avec des couleurs de texte différentes.
 
 ## Étape 2 : rendre plusieurs documents
 

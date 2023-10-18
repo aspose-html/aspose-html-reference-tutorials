@@ -1,7 +1,7 @@
 ---
 title: Render HTML come PNG in .NET con Aspose.HTML
 linktitle: Visualizza HTML come PNG in .NET
-second_title: Aspose.Slides API di manipolazione HTML .NET
+second_title: Aspose.HTML .NET API di manipolazione HTML
 description: Impara a lavorare con Aspose.HTML per .NET. Manipola HTML, converti in vari formati e altro ancora. Tuffati in questo tutorial completo!
 type: docs
 weight: 10
@@ -62,7 +62,7 @@ using (var document = new Aspose.Html.HTMLDocument("<style>p { color: green; }</
 
 ### Passaggio 1: crea un oggetto documento HTML
 
- In questo passaggio creiamo un file`HTMLDocument`oggetto, che rappresenta un documento HTML. Puoi passare il contenuto HTML come stringa al costruttore e puoi anche specificare il percorso di base per risolvere i percorsi relativi.
+ In questo passaggio creiamo un file`HTMLDocument` oggetto, che rappresenta un documento HTML. Puoi passare il contenuto HTML come stringa al costruttore e puoi anche specificare il percorso di base per risolvere i percorsi relativi.
 
 ### Passaggio 2: crea un renderer HTML
 
@@ -74,7 +74,7 @@ using (var document = new Aspose.Html.HTMLDocument("<style>p { color: green; }</
 
 ## Conclusione
 
- In questo tutorial, ti abbiamo presentato Aspose.HTML per .NET e abbiamo fornito una suddivisione del codice di esempio. Questo è solo l'inizio di ciò che puoi realizzare con questa potente libreria. Puoi esplorare la sua vasta documentazione[Qui](https://reference.aspose.com/html/net/) e accedi a risorse e supporto aggiuntivi su[Aspose forum](https://forum.aspose.com/).
+In questo tutorial, ti abbiamo presentato Aspose.HTML per .NET e abbiamo fornito una suddivisione del codice di esempio. Questo è solo l'inizio di ciò che puoi realizzare con questa potente libreria. Puoi esplorare la sua vasta documentazione[Qui](https://reference.aspose.com/html/net/) e accedi a risorse e supporto aggiuntivi su[Aspose forum](https://forum.aspose.com/).
 
 Se hai domande o hai bisogno di assistenza con Aspose.HTML per .NET, non esitare a contattare la comunità Aspose o consultare la documentazione per ulteriori indicazioni.
 
@@ -93,4 +93,4 @@ Se hai domande o hai bisogno di assistenza con Aspose.HTML per .NET, non esitare
     Sì, puoi scaricare una versione di prova gratuita di Aspose.HTML per .NET[Qui](https://releases.aspose.com/).
 
 ### Dove posso trovare altri tutorial e documentazione?
-    Puoi esplorare la documentazione completa e le esercitazioni su[Aspose.HTML per la pagina della documentazione .NET](https://reference.aspose.com/html/net/).
+   Puoi esplorare la documentazione completa e le esercitazioni su[Aspose.HTML per la pagina della documentazione .NET](https://reference.aspose.com/html/net/).

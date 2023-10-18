@@ -2,7 +2,7 @@
 title: 使用 Aspose.HTML 在 .NET 中通过 ImageDevice 生成 PNG 图像
 linktitle: 在.NET中通过ImageDevice生成PNG图像
 second_title: Aspose.HTML .NET HTML 操作 API
-description: 学习使用 Aspose.HTML for .NET 来操作 HTML 文档、将 HTML 转换为图像等等。包含常见问题解答的分步教程。
+description: 学习使用 Aspose.HTML for .NET 来操作 HTML 文档、将 HTML 转换为图像等。包含常见问题解答的分步教程。
 type: docs
 weight: 11
 url: /zh/net/generate-jpg-and-png-images/generate-png-images-by-imagedevice/

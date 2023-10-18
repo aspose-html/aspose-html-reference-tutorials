@@ -1,7 +1,7 @@
 ---
 title: Web Scraping in .NET con Aspose.HTML
 linktitle: Web Scraping in .NET
-second_title: Aspose.Slides API di manipolazione HTML .NET
+second_title: Aspose.HTML .NET API di manipolazione HTML
 description: Impara a manipolare documenti HTML in .NET con Aspose.HTML. Naviga, filtra, interroga e seleziona gli elementi in modo efficace per uno sviluppo web avanzato.
 type: docs
 weight: 13
@@ -50,7 +50,7 @@ public static void NavigateThroughHTML()
         var element = document.Body.FirstChild;
         Console.WriteLine(element.TextContent); // Uscita: Ciao
 
-        //Ottieni il riferimento allo spazio bianco tra gli elementi HTML
+        // Ottieni il riferimento allo spazio bianco tra gli elementi HTML
         element = element.NextSibling;
         Console.WriteLine(element.TextContent); // Produzione: ' '
 
@@ -161,7 +161,7 @@ public static void CSSSelectorUsageExample()
     // Inizializza un documento in base al codice preparato
     using (var document = new HTMLDocument(code, "."))
     {
-        // Utilizza un selettore CSS per estrarre elementi in base alla classe e alla gerarchia
+        //Utilizza un selettore CSS per estrarre elementi in base alla classe e alla gerarchia
         var elements = document.QuerySelectorAll(".happy span");
         
         // Iterare sull'elenco di elementi risultante
@@ -181,13 +181,13 @@ Con questi esempi, hai acquisito una conoscenza fondamentale di come navigare, f
 
 ## Conclusione
 
-Aspose.HTML per .NET è una libreria versatile che consente agli sviluppatori .NET di lavorare in modo efficiente con documenti HTML. Con le sue potenti funzionalità per la navigazione, il filtraggio, l'esecuzione di query e la selezione di elementi, puoi gestire varie attività di elaborazione HTML senza problemi. Seguendo questo tutorial ed esplorando la documentazione all'indirizzo[Aspose.HTML per la documentazione .NET](https://reference.aspose.com/html/net/), puoi sfruttare tutto il potenziale di questo strumento per le tue applicazioni .NET.
+ Aspose.HTML per .NET è una libreria versatile che consente agli sviluppatori .NET di lavorare in modo efficiente con documenti HTML. Con le sue potenti funzionalità per la navigazione, il filtraggio, l'esecuzione di query e la selezione di elementi, puoi gestire varie attività di elaborazione HTML senza problemi. Seguendo questo tutorial ed esplorando la documentazione all'indirizzo[Aspose.HTML per la documentazione .NET](https://reference.aspose.com/html/net/), puoi sfruttare tutto il potenziale di questo strumento per le tue applicazioni .NET.
 
 ## Domande frequenti
 
 ### Q1. Aspose.HTML per .NET è gratuito?
 
- A1: Aspose.HTML per .NET offre una versione di prova gratuita, ma per l'utilizzo in produzione sarà necessario acquistare una licenza. Puoi trovare i dettagli e le opzioni di licenza su[Aspose.HTML Acquisto](https://purchase.aspose.com/buy).
+A1: Aspose.HTML per .NET offre una versione di prova gratuita, ma per l'utilizzo in produzione sarà necessario acquistare una licenza. Puoi trovare i dettagli e le opzioni di licenza su[Aspose.HTML Acquisto](https://purchase.aspose.com/buy).
 
 ### Q2. Come posso ottenere una licenza temporanea per Aspose.HTML per .NET?
 

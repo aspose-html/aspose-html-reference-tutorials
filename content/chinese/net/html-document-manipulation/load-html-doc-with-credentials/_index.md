@@ -20,7 +20,7 @@ url: /zh/net/html-document-manipulation/load-html-doc-with-credentials/
 
 2. 用于 .NET 的 Aspose.HTML
 
-您将需要获取 Aspose.HTML for .NET。您可以从网站下载[这里](https://releases.aspose.com/html/net/). 
+您需要获取 Aspose.HTML for .NET。您可以从网站下载[这里](https://releases.aspose.com/html/net/). 
 
 3. API 密钥或许可证
 

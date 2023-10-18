@@ -26,3 +26,21 @@ is_root: true
 - [许可和初始化](./net/licensing-and-initialization/)
 - [生成 JPG 和 PNG 图像](./net/generate-jpg-and-png-images/)
 - [渲染 HTML 文档](./net/rendering-html-documents/)
+
+## Java 教程的 Aspose.HTML
+{{% alert color="primary" %}}
+探索有关 Aspose.HTML for Java 的全面教程集，为这个强大的库的多功能功能提供深入的指导和见解。无论您是希望自定义 HTML 页边距、实现 DOM Mutation Observer、操作 HTML5 Canvas、自动填充 HTML 表单的开发人员，还是掌握将 EPUB 等各种格式转换为图像和 PDF 的技术，这些教程都提供了分步说明：步骤说明和代码示例可增强您的 HTML 处理技能。释放 Aspose.HTML for Java 的全部潜力，轻松简化您的 Web 开发和文档转换任务。 
+{{% /alert %}}
+
+这些是一些有用资源的链接：
+ 
+- [Aspose.HTML Java 的高级用法](./java/advanced-usage/)
+- [转换 - 画布到 PDF](./java/conversion-canvas-to-pdf/)
+- [转换 - EPUB 到图像和 PDF](./java/conversion-epub-to-image-and-pdf/)
+- [转换 - EPUB 到 XPS](./java/conversion-epub-to-xps/)
+- [转换 - HTML 到各种图像格式](./java/conversion-html-to-various-image-formats/)
+- [转换 - HTML 到其他格式](./java/conversion-html-to-other-formats/)
+- [EPUB 和图像格式之间的转换](./java/converting-between-epub-and-image-formats/)
+- [将 EPUB 转换为 PDF](./java/converting-epub-to-pdf/)
+- [将 EPUB 转换为 XPS](./java/converting-epub-to-xps/)
+- [将 HTML 转换为各种图像格式](./java/converting-html-to-various-image-formats/)

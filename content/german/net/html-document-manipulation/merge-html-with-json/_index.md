@@ -26,7 +26,7 @@ Lassen Sie uns nun den Prozess in mehrere Schritte unterteilen, um eine Schritt-
 
 ## Schritt 1: HTML-Vorlagendokument
 
-Zunächst benötigen Sie ein HTML-Vorlagendokument, mit dem Sie arbeiten möchten. Stellen Sie sicher, dass in Ihrem Code der Pfad zum HTML-Dokumentverzeichnis eingerichtet ist. Sie können dies tun, indem Sie die ändern`dataDir` variabel wie folgt:
+ Zunächst benötigen Sie ein HTML-Vorlagendokument, mit dem Sie arbeiten möchten. Stellen Sie sicher, dass in Ihrem Code der Pfad zum HTML-Dokumentverzeichnis eingerichtet ist. Sie können dies tun, indem Sie die ändern`dataDir` variabel wie folgt:
 
 ```csharp
 // Der Pfad zum Dokumentenverzeichnis
@@ -65,7 +65,7 @@ string templateOutput = dataDir + "MergeHTMLWithJson_Output.html";
 Der letzte Schritt besteht darin, Aspose.HTML für .NET zu verwenden, um die HTML-Vorlage mit den XML-Daten zusammenzuführen. Hier ist der Code, um genau das zu tun:
 
 ```csharp
-//HTML-Vorlage mit XML-Daten zusammenführen
+// HTML-Vorlage mit XML-Daten zusammenführen
 Converter.ConvertTemplate(templateHtml, data, new TemplateLoadOptions(), templateOutput);
 ```
 
@@ -87,7 +87,7 @@ A1: Ja, Aspose.HTML für .NET bietet benutzerfreundliche Tools und Dokumentation
 
 ### F2: Wo finde ich weitere Dokumentation und Tutorials?
 
-A2: Ausführliche Dokumentation und Tutorials finden Sie unter[Aspose.HTML-Dokumentation](https://reference.aspose.com/html/net/).
+ A2: Ausführliche Dokumentation und Tutorials finden Sie unter[Aspose.HTML-Dokumentation](https://reference.aspose.com/html/net/).
 
 ### F3: Kann ich Aspose.HTML für .NET vor dem Kauf testen?
 

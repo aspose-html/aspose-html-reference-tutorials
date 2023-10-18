@@ -48,7 +48,7 @@ using (var document2 = new Aspose.Html.HTMLDocument("<style>p { color: blue; }</
 }
 ```
 
- في الكود أعلاه، قمنا بإنشاء مستندين HTML،`document` و`document2`، تحتوي كل منها على فقرة بسيطة بألوان نصية مختلفة.
+في الكود أعلاه، قمنا بإنشاء مستندين HTML،`document` و`document2`، تحتوي كل منها على فقرة بسيطة بألوان نصية مختلفة.
 
 ## الخطوة 2: تقديم مستندات متعددة
 

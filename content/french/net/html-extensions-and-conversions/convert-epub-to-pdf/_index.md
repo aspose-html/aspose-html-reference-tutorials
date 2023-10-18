@@ -14,7 +14,7 @@ Dans ce didacticiel, nous explorerons comment utiliser Aspose.HTML pour .NET pou
 
 Avant de commencer, assurez-vous que les conditions préalables suivantes sont remplies :
 
-1.  Aspose.HTML pour .NET : assurez-vous que Aspose.HTML pour .NET est installé dans votre projet .NET. Vous pouvez le télécharger depuis[ici](https://releases.aspose.com/html/net/).
+1. Aspose.HTML pour .NET : assurez-vous que Aspose.HTML pour .NET est installé dans votre projet .NET. Vous pouvez le télécharger depuis[ici](https://releases.aspose.com/html/net/).
 
 2. Votre répertoire de données : vous aurez besoin d'un répertoire de données dans lequel vos fichiers EPUB sont stockés.
 
@@ -56,7 +56,7 @@ Converter.ConvertEPUB(stream, options, "output.pdf");
 ```
 
 -  Créer une instance de`PdfSaveOptions` pour spécifier les paramètres de conversion PDF.
--  Utilisez le`Converter.ConvertEPUB`méthode pour convertir l’EPUB en PDF avec les options données.
+-  Utilisez le`Converter.ConvertEPUB` méthode pour convertir l’EPUB en PDF avec les options données.
 - Enregistrez le PDF résultant sous « output.pdf ».
 
 ## Spécifier les options d'enregistrement PDF

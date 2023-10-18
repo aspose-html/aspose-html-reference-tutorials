@@ -41,7 +41,7 @@ Bu ad alanlarının içe aktarılmasıyla artık adım adım örneklere dalmaya 
 // Boş bir HTML Belgesini başlatın.
 using (var document = new Aspose.Html.HTMLDocument())
 {
-    // Bir metin öğesi oluşturun ve bunu belgeye ekleyin
+    // Bir metin öğesi oluşturun ve onu belgeye ekleyin
     var text = document.CreateTextNode("Hello World!");
     document.Body.AppendChild(text);
     // Belgeyi diske kaydedin.

@@ -50,7 +50,7 @@ public static void NavigateThroughHTML()
         var element = document.Body.FirstChild;
         Console.WriteLine(element.TextContent); // الإخراج: مرحبا
 
-        //احصل على مرجع للمسافة البيضاء بين عناصر HTML
+        // احصل على مرجع للمسافة البيضاء بين عناصر HTML
         element = element.NextSibling;
         Console.WriteLine(element.TextContent); // انتاج: ' '
 
@@ -161,7 +161,7 @@ public static void CSSSelectorUsageExample()
     // قم بتهيئة مستند بناءً على الكود المعد
     using (var document = new HTMLDocument(code, "."))
     {
-        // استخدم محدد CSS لاستخراج العناصر بناءً على الفئة والتسلسل الهرمي
+        //استخدم محدد CSS لاستخراج العناصر بناءً على الفئة والتسلسل الهرمي
         var elements = document.QuerySelectorAll(".happy span");
         
         // كرر على قائمة العناصر الناتجة
@@ -181,13 +181,13 @@ public static void CSSSelectorUsageExample()
 
 ## خاتمة
 
-Aspose.HTML for .NET هي مكتبة متعددة الاستخدامات تمكن مطوري .NET من العمل بكفاءة مع مستندات HTML. بفضل ميزاته القوية للتنقل والتصفية والاستعلام واختيار العناصر، يمكنك التعامل مع مهام معالجة HTML المختلفة بسلاسة. باتباع هذا البرنامج التعليمي واستكشاف الوثائق في[Aspose.HTML لتوثيق .NET](https://reference.aspose.com/html/net/)، يمكنك إطلاق الإمكانات الكاملة لهذه الأداة لتطبيقات .NET الخاصة بك.
+ Aspose.HTML for .NET هي مكتبة متعددة الاستخدامات تمكن مطوري .NET من العمل بكفاءة مع مستندات HTML. بفضل ميزاته القوية للتنقل والتصفية والاستعلام واختيار العناصر، يمكنك التعامل مع مهام معالجة HTML المختلفة بسلاسة. باتباع هذا البرنامج التعليمي واستكشاف الوثائق في[Aspose.HTML لتوثيق .NET](https://reference.aspose.com/html/net/)، يمكنك إطلاق الإمكانات الكاملة لهذه الأداة لتطبيقات .NET الخاصة بك.
 
 ## الأسئلة الشائعة
 
 ### س1. هل Aspose.HTML for .NET مجاني للاستخدام؟
 
- ج1: يوفر Aspose.HTML for .NET إصدارًا تجريبيًا مجانيًا، ولكن للاستخدام الإنتاجي، ستحتاج إلى شراء ترخيص. يمكنك العثور على تفاصيل وخيارات الترخيص على[شراء Aspose.HTML](https://purchase.aspose.com/buy).
+ج1: يوفر Aspose.HTML for .NET إصدارًا تجريبيًا مجانيًا، ولكن للاستخدام الإنتاجي، ستحتاج إلى شراء ترخيص. يمكنك العثور على تفاصيل وخيارات الترخيص على[شراء Aspose.HTML](https://purchase.aspose.com/buy).
 
 ### س2. كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.HTML لـ .NET؟
 

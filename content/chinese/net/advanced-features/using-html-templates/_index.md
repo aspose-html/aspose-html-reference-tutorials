@@ -129,11 +129,11 @@ A1：Aspose.HTML for .NET 是一个功能强大的库，使 .NET 开发人员能
 
 ### Q3。如何下载 .NET 版 Aspose.HTML？
 
- A3：您可以从下载页面下载Aspose.HTML for .NET[这里](https://releases.aspose.com/html/net/).
+A3：您可以从下载页面下载Aspose.HTML for .NET[这里](https://releases.aspose.com/html/net/).
 
 ### Q4。 Aspose.HTML for .NET 是否有免费试用版？
 
-A4：是的，您可以通过下载免费试用版来尝试 Aspose.HTML for .NET[这里](https://releases.aspose.com/).
+ A4：是的，您可以通过下载免费试用版来尝试 Aspose.HTML for .NET[这里](https://releases.aspose.com/).
 
 ### Q5.我需要 Aspose.HTML for .NET 的临时许可证吗？
 

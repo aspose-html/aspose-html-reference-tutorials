@@ -74,7 +74,7 @@ Sonuç olarak Aspose.HTML for .NET, HTML belgelerini TIFF dahil çeşitli format
 ## SSS
 
 ### Aspose.HTML for .NET belgelerini nerede bulabilirim?
-Dokümantasyona ulaşabilirsiniz[Burada](https://reference.aspose.com/html/net/).
+ Dokümantasyona ulaşabilirsiniz[Burada](https://reference.aspose.com/html/net/).
 
 ### Aspose.HTML for .NET'i nasıl indirebilirim?
  Şuradan indirebilirsiniz[bu bağlantı](https://releases.aspose.com/html/net/).

@@ -1,7 +1,7 @@
 ---
 title: Converti HTML in BMP in .NET con Aspose.HTML
 linktitle: Converti HTML in BMP in .NET
-second_title: Aspose.Slides API di manipolazione HTML .NET
+second_title: Aspose.HTML .NET API di manipolazione HTML
 description: Scopri come convertire HTML in BMP in .NET utilizzando Aspose.HTML per .NET. Guida completa per gli sviluppatori web per sfruttare Aspose.HTML per .NET.
 type: docs
 weight: 14
@@ -43,7 +43,7 @@ In questo tutorial, ci concentreremo sulla conversione di un documento HTML in u
 
 ### Definire la directory dei dati
 
-Inizia specificando il percorso della directory dei dati. Qui è dove si trova il tuo documento HTML. Sostituire`"Your Data Directory"` con il percorso vero e proprio.
+ Inizia specificando il percorso della directory dei dati. Qui è dove si trova il tuo documento HTML. Sostituire`"Your Data Directory"` con il percorso vero e proprio.
 
 ```csharp
 string dataDir = "Your Data Directory";
@@ -95,7 +95,7 @@ Aspose.HTML per .NET è una libreria versatile che semplifica le attività di ma
 
 ### 2. Come posso ottenere una licenza temporanea per Aspose.HTML per .NET?
 
- Se hai bisogno di una licenza temporanea, puoi ottenerne una da[Qui](https://purchase.aspose.com/temporary-license/).
+Se hai bisogno di una licenza temporanea, puoi ottenerne una da[Qui](https://purchase.aspose.com/temporary-license/).
 
 ### 3. Dove posso ottenere supporto e assistenza con Aspose.HTML per .NET?
 

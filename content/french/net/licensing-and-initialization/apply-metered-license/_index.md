@@ -33,7 +33,7 @@ Ici, nous allons décomposer l'exemple de code en plusieurs étapes et expliquer
 
 ### Définir le chemin du répertoire de données :
 
-    Tout d’abord, vous devez définir le chemin d’accès à votre répertoire de données où se trouve votre fichier HTML d’entrée. Vous devrez remplacer`"Your Data Directory"` avec le chemin réel.
+   Tout d’abord, vous devez définir le chemin d’accès à votre répertoire de données où se trouve votre fichier HTML d’entrée. Vous devrez remplacer`"Your Data Directory"` avec le chemin réel.
 
    ```csharp
    string dataDir = "Your Data Directory";
@@ -84,7 +84,7 @@ Une licence limitée vous permet de payer pour Aspose.HTML sur une base de paiem
  Vous pouvez télécharger la bibliothèque depuis[ici](https://releases.aspose.com/html/net/).
 
 ### Existe-t-il des options d’essai gratuit disponibles pour Aspose.HTML pour .NET ?
-Oui, vous pouvez accéder à un essai gratuit à partir de[ici](https://releases.aspose.com/).
+ Oui, vous pouvez accéder à un essai gratuit à partir de[ici](https://releases.aspose.com/).
 
 ### Où puis-je obtenir de l'aide ou poser des questions sur Aspose.HTML pour .NET ?
  Vous pouvez rejoindre la communauté et demander de l'aide sur le[Forums Aspose](https://forum.aspose.com/).

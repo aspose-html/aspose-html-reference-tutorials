@@ -14,7 +14,7 @@ url: /ar/net/html-extensions-and-conversions/convert-epub-to-pdf/
 
 قبل البدء، تأكد من توفر المتطلبات الأساسية التالية:
 
-1.  Aspose.HTML for .NET: تأكد من تثبيت Aspose.HTML for .NET في مشروع .NET الخاص بك. يمكنك تنزيله من[هنا](https://releases.aspose.com/html/net/).
+1. Aspose.HTML for .NET: تأكد من تثبيت Aspose.HTML for .NET في مشروع .NET الخاص بك. يمكنك تنزيله من[هنا](https://releases.aspose.com/html/net/).
 
 2. دليل البيانات الخاص بك: ستحتاج إلى دليل بيانات حيث يتم تخزين ملفات EPUB الخاصة بك.
 
@@ -56,7 +56,7 @@ Converter.ConvertEPUB(stream, options, "output.pdf");
 ```
 
 -  إنشاء مثيل ل`PdfSaveOptions` لتحديد إعدادات تحويل PDF.
--  استخدم ال`Converter.ConvertEPUB`طريقة لتحويل EPUB إلى PDF مع الخيارات المحددة.
+-  استخدم ال`Converter.ConvertEPUB` طريقة لتحويل EPUB إلى PDF مع الخيارات المحددة.
 - احفظ ملف PDF الناتج باسم "output.pdf".
 
 ## حدد خيارات حفظ PDF

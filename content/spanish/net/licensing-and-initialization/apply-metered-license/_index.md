@@ -1,7 +1,7 @@
 ---
 title: Aplicar licencia medida en .NET con Aspose.HTML
 linktitle: Aplicar licencia medida en .NET
-second_title: Aspose.Slides API de manipulación HTML .NET
+second_title: Aspose.HTML .NET API de manipulación de HTML
 description: Aprenda cómo aplicar una licencia medida en Aspose.HTML para .NET. Administre sus necesidades de manipulación HTML de manera eficiente. ¡Empieza ahora!
 type: docs
 weight: 10
@@ -33,7 +33,7 @@ Aquí, dividiremos el código de ejemplo en varios pasos y explicaremos cada pas
 
 ### Establecer ruta del directorio de datos:
 
-    Primero, debe establecer la ruta a su directorio de datos donde se encuentra su archivo HTML de entrada. Necesitarás reemplazar`"Your Data Directory"` con el camino real.
+   Primero, debe establecer la ruta a su directorio de datos donde se encuentra su archivo HTML de entrada. Necesitarás reemplazar`"Your Data Directory"` con el camino real.
 
    ```csharp
    string dataDir = "Your Data Directory";
@@ -84,7 +84,7 @@ Una licencia medida le permite pagar Aspose.HTML según el uso, dependiendo de s
  Puedes descargar la biblioteca desde[aquí](https://releases.aspose.com/html/net/).
 
 ### ¿Hay opciones de prueba gratuitas disponibles para Aspose.HTML para .NET?
-Sí, puedes acceder a una prueba gratuita desde[aquí](https://releases.aspose.com/).
+ Sí, puedes acceder a una prueba gratuita desde[aquí](https://releases.aspose.com/).
 
 ### ¿Dónde puedo obtener soporte o hacer preguntas sobre Aspose.HTML para .NET?
  Puedes unirte a la comunidad y buscar apoyo en el[Aspose Foros](https://forum.aspose.com/).

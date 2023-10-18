@@ -108,7 +108,7 @@ using (StringReader sr = new StringReader(response.Content.ReadAsString()))
 
 ### س1: هل Aspose.HTML متوافق مع كافة إصدارات .NET؟
 
- ج1: يتوافق Aspose.HTML for .NET مع إصدارات .NET المختلفة، ولكن من الضروري التحقق من الوثائق للحصول على تفاصيل توافق محددة. يمكنك العثور على مزيد من المعلومات[هنا](https://reference.aspose.com/html/net/).
+ ج1: يتوافق Aspose.HTML for .NET مع إصدارات .NET المختلفة، ولكن من الضروري التحقق من الوثائق للحصول على تفاصيل توافق معينة. يمكنك العثور على مزيد من المعلومات[هنا](https://reference.aspose.com/html/net/).
 
 ### س2: هل يمكنني استخدام Aspose.HTML لتحسين محركات البحث على صفحات الويب الديناميكية؟
 
