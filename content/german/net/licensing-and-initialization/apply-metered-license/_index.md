@@ -1,7 +1,7 @@
 ---
 title: Wenden Sie eine gemessene Lizenz in .NET mit Aspose.HTML an
 linktitle: Wenden Sie eine gemessene Lizenz in .NET an
-second_title: Aspose.Slides .NET HTML-Manipulations-API
+second_title: Aspose.HTML .NET HTML-Manipulations-API
 description: Erfahren Sie, wie Sie eine getaktete Lizenz in Aspose.HTML für .NET anwenden. Verwalten Sie Ihre HTML-Manipulationsanforderungen effizient. Jetzt loslegen!
 type: docs
 weight: 10
@@ -21,7 +21,7 @@ Lassen Sie uns nun den Beispielcode aufschlüsseln und jeden Schritt im Detail e
 
 ## Namespaces importieren
 
-In Ihrem .NET-Projekt müssen Sie die erforderlichen Namespaces einschließen. Fügen Sie am Anfang Ihrer C#-Datei die folgenden using-Anweisungen hinzu:
+In Ihrem .NET-Projekt müssen Sie die erforderlichen Namespaces einbinden. Fügen Sie am Anfang Ihrer C#-Datei die folgenden using-Anweisungen hinzu:
 
 ```csharp
 using Aspose.Html;
@@ -33,7 +33,7 @@ Hier unterteilen wir den Beispielcode in mehrere Schritte und erklären jeden Sc
 
 ### Datenverzeichnispfad festlegen:
 
-    Zunächst sollten Sie den Pfad zu Ihrem Datenverzeichnis festlegen, in dem sich Ihre Eingabe-HTML-Datei befindet. Sie müssen ersetzen`"Your Data Directory"` mit dem tatsächlichen Pfad.
+   Zunächst sollten Sie den Pfad zu Ihrem Datenverzeichnis festlegen, in dem sich Ihre Eingabe-HTML-Datei befindet. Sie müssen ersetzen`"Your Data Directory"` mit dem tatsächlichen Pfad.
 
    ```csharp
    string dataDir = "Your Data Directory";
@@ -84,7 +84,7 @@ Mit einer gebührenpflichtigen Lizenz können Sie Aspose.HTML abhängig von Ihre
  Sie können die Bibliothek herunterladen unter[Hier](https://releases.aspose.com/html/net/).
 
 ### Gibt es kostenlose Testoptionen für Aspose.HTML für .NET?
-Ja, Sie können auf eine kostenlose Testversion zugreifen[Hier](https://releases.aspose.com/).
+ Ja, Sie können auf eine kostenlose Testversion zugreifen[Hier](https://releases.aspose.com/).
 
 ### Wo kann ich Unterstützung erhalten oder Fragen zu Aspose.HTML für .NET stellen?
  Sie können der Community beitreten und Unterstützung suchen[Aspose-Foren](https://forum.aspose.com/).

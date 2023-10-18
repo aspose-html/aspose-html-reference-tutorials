@@ -1,7 +1,7 @@
 ---
 title: Aspose.HTML ile .NET'te URL Kullanarak HTML Yükleme
 linktitle: .NET'te URL Kullanarak HTML Yükleme
-second_title: Aspose.Slides .NET HTML işleme API'si
+second_title: Aspose.HTML .NET HTML işleme API'si
 description: Aspose.HTML for .NET'in gücünden nasıl yararlanacağınızı öğrenin. HTML manipülasyonu ve oluşturma ile web geliştirmenizi artırın.
 type: docs
 weight: 13
@@ -20,7 +20,7 @@ C# ve .NET çerçevesini sağlam bir şekilde kavramak çok önemlidir. Bu tekno
 
 2. Visual Studio Yüklü
 
-Sisteminizde .NET geliştirme için popüler bir tümleşik geliştirme ortamı (IDE) olan Visual Studio'nun yüklü olduğundan emin olun. Değilse, adresinden indirebilirsiniz.[Burada](https://visualstudio.microsoft.com/).
+ Sisteminizde .NET geliştirme için popüler bir tümleşik geliştirme ortamı (IDE) olan Visual Studio'nun yüklü olduğundan emin olun. Değilse, adresinden indirebilirsiniz.[Burada](https://visualstudio.microsoft.com/).
 
 3. .NET için Aspose.HTML
 
@@ -110,4 +110,4 @@ C2: Evet, Aspose.HTML for .NET çok yönlüdür ve hem web hem de masaüstü uyg
 
 ### S5: Aspose.HTML for .NET için geçici lisansı nasıl edinebilirim?
    
- Cevap5: Projeniz için geçici bir lisansa ihtiyacınız varsa bir tane alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/).
+Cevap5: Projeniz için geçici bir lisansa ihtiyacınız varsa bir tane alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/).

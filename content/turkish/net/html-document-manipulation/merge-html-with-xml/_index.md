@@ -1,7 +1,7 @@
 ---
 title: Aspose.HTML ile .NET'te HTML ile XML'i birleştirme
 linktitle: .NET'te HTML'yi XML ile birleştirme
-second_title: Aspose.Slides .NET HTML işleme API'si
+second_title: Aspose.HTML .NET HTML işleme API'si
 description: Aspose.HTML for .NET'i kullanmayı öğrenin. Bu kapsamlı kılavuzla ad alanını içe aktarın, HTML'yi XML ile birleştirin ve web geliştirme becerilerinizi geliştirin.
 type: docs
 weight: 18
@@ -16,11 +16,11 @@ Aspose.HTML for .NET dünyasına dalmadan önce aşağıdaki önkoşulların mev
 
 1. .NET Geliştirme Ortamı
 
- Makinenizde çalışan bir .NET geliştirme ortamına ihtiyacınız olacak. Eğer yüklemediyseniz şu adrese gidin:[Microsoft'un web sitesi](https://docs.microsoft.com/en-us/dotnet/core/install/) ayrıntılı talimatlar için.
+Makinenizde çalışan bir .NET geliştirme ortamına ihtiyacınız olacak. Eğer yüklemediyseniz şu adrese gidin:[Microsoft'un web sitesi](https://docs.microsoft.com/en-us/dotnet/core/install/) ayrıntılı talimatlar için.
 
 2. Aspose.HTML for .NET Kitaplığı
 
-Aspose.HTML for .NET kitaplığını web sitesinin indirme bölümünden indirin:[Burada](https://releases.aspose.com/html/net/). Projenizin gereksinimlerine uygun sürümü seçebilirsiniz.
+ Aspose.HTML for .NET kitaplığını web sitesinin indirme bölümünden indirin:[Burada](https://releases.aspose.com/html/net/). Projenizin gereksinimlerine uygun sürümü seçebilirsiniz.
 
 3. Şablon Dosyaları
 

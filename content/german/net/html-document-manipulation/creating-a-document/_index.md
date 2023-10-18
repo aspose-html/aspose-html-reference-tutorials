@@ -1,7 +1,7 @@
 ---
 title: Erstellen eines Dokuments in .NET mit Aspose.HTML
 linktitle: Erstellen eines Dokuments in .NET
-second_title: Aspose.Slides .NET HTML-Manipulations-API
+second_title: Aspose.HTML .NET HTML-Manipulations-API
 description: Entfesseln Sie die Leistungsfähigkeit von Aspose.HTML für .NET. Erfahren Sie, wie Sie mit Leichtigkeit HTML- und SVG-Dokumente erstellen, bearbeiten und optimieren. Entdecken Sie Schritt-für-Schritt-Beispiele und FAQs.
 type: docs
 weight: 14
@@ -22,7 +22,7 @@ Um diesem Tutorial erfolgreich zu folgen und die Leistungsfähigkeit von Aspose.
 
 Nachdem Sie nun alle Voraussetzungen geschaffen haben, können wir beginnen.
 
-## Namespaces importieren
+## Namensräume importieren
 
 Bevor Sie Aspose.HTML für .NET verwenden, müssen Sie die erforderlichen Namespaces importieren. Diese Namespaces enthalten Klassen und Methoden, die für die Arbeit mit HTML-Dokumenten unerlässlich sind. Nachfolgend finden Sie eine Liste der Namespaces, die Sie importieren sollten:
 

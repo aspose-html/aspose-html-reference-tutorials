@@ -1,7 +1,7 @@
 ---
 title: Aspose.HTML ile .NET'te HTML'yi Json ile birleştirme
 linktitle: HTML'yi .NET'te Json ile birleştirme
-second_title: Aspose.Slides .NET HTML işleme API'si
+second_title: Aspose.HTML .NET HTML işleme API'si
 description: Aspose.HTML for .NET'i kullanarak dinamik ve web içeriği oluşturmayı öğrenin. Çevrimiçi varlığınızı güçlendirin ve hedef kitlenizin ilgisini çekin.
 type: docs
 weight: 17
@@ -26,7 +26,7 @@ using Aspose.Html;
 
 ## Adım 1: HTML Şablonu Belgesi
 
-Öncelikle çalışmak istediğiniz bir HTML şablon belgesine ihtiyacınız olacak. Kodunuzda HTML belge dizininin yolunun ayarlandığından emin olun. Bunu değiştirerek yapabilirsiniz`dataDir` aşağıdaki gibi değişken:
+ Öncelikle çalışmak istediğiniz bir HTML şablon belgesine ihtiyacınız olacak. Kodunuzda HTML belge dizininin yolunun ayarlandığından emin olun. Bunu değiştirerek yapabilirsiniz`dataDir` aşağıdaki gibi değişken:
 
 ```csharp
 // Belgeler dizininin yolu
@@ -65,7 +65,7 @@ string templateOutput = dataDir + "MergeHTMLWithJson_Output.html";
 Son adım, HTML şablonunu XML verileriyle birleştirmek için Aspose.HTML for .NET'i kullanmaktır. İşte bunu yapacak kod:
 
 ```csharp
-//HTML şablonunu XML verileriyle birleştirme
+// HTML şablonunu XML verileriyle birleştirme
 Converter.ConvertTemplate(templateHtml, data, new TemplateLoadOptions(), templateOutput);
 ```
 
@@ -87,7 +87,7 @@ C1: Evet, Aspose.HTML for .NET kullanıcı dostu araçlar ve belgeler sunarak he
 
 ### S2: Daha fazla belge ve öğreticiyi nerede bulabilirim?
 
-Cevap2: Ayrıntılı belgeleri ve eğitimleri şu adreste bulabilirsiniz:[Aspose.HTML Belgeleri](https://reference.aspose.com/html/net/).
+ Cevap2: Ayrıntılı belgeleri ve eğitimleri şu adreste bulabilirsiniz:[Aspose.HTML Belgeleri](https://reference.aspose.com/html/net/).
 
 ### S3: Satın almadan önce Aspose.HTML for .NET'i deneyebilir miyim?
 

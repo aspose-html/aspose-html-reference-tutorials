@@ -1,14 +1,14 @@
 ---
 title: Aspose.HTML ile HTML'yi .NET'te PNG olarak işleyin
 linktitle: .NET'te HTML'yi PNG olarak işleme
-second_title: Aspose.Slides .NET HTML işleme API'si
+second_title: Aspose.HTML .NET HTML işleme API'si
 description: Aspose.HTML for .NET ile çalışmayı öğrenin. HTML'yi yönetin, çeşitli formatlara dönüştürün ve daha fazlasını yapın. Bu kapsamlı eğitime dalın!
 type: docs
 weight: 10
 url: /tr/net/rendering-html-documents/render-html-as-png/
 ---
 
-Bu eğitimde, HTML belgeleriyle programlı olarak çalışmak için güçlü bir araç olan Aspose.HTML for .NET dünyasını derinlemesine inceleyeceğiz. İster deneyimli bir geliştirici olun ister .NET programlama dünyasında yolculuğunuza yeni başlıyor olun, bu eğitim size ad alanlarını içe aktarmaktan pratik örneklere kadar Aspose.HTML'nin temelleri konusunda rehberlik edecektir.
+Bu eğitimde, HTML belgeleriyle programlı olarak çalışmak için güçlü bir araç olan Aspose.HTML for .NET dünyasını derinlemesine inceleyeceğiz. İster deneyimli bir geliştirici olun ister .NET programlama dünyasında yolculuğunuza yeni başlıyor olun, bu eğitim size ad alanlarının içe aktarılmasından pratik örneklerin ayrıntılı bir şekilde anlatılmasına kadar Aspose.HTML'nin temelleri konusunda rehberlik edecektir.
 
 ## giriiş
 
@@ -62,7 +62,7 @@ using (var document = new Aspose.Html.HTMLDocument("<style>p { color: green; }</
 
 ### Adım 1: Bir HTML Belge Nesnesi Oluşturun
 
- Bu adımda bir oluşturuyoruz.`HTMLDocument`Bir HTML belgesini temsil eden nesne. HTML içeriğini bir dize olarak yapıcıya iletebilir ve ayrıca göreli yolları çözümlemek için temel yolu da belirtebilirsiniz.
+ Bu adımda bir oluşturuyoruz.`HTMLDocument` Bir HTML belgesini temsil eden nesne. HTML içeriğini bir dize olarak yapıcıya iletebilir ve ayrıca göreli yolları çözümlemek için temel yolu da belirtebilirsiniz.
 
 ### 2. Adım: Bir HTML Oluşturucu Oluşturun
 
@@ -74,7 +74,7 @@ using (var document = new Aspose.Html.HTMLDocument("<style>p { color: green; }</
 
 ## Çözüm
 
- Bu eğitimde size Aspose.HTML for .NET'i tanıttık ve örnek kodun bir dökümünü sunduk. Bu, bu güçlü kütüphaneyle başarabileceklerinizin sadece başlangıcı. Kapsamlı belgelerini inceleyebilirsiniz[Burada](https://reference.aspose.com/html/net/) ve ek kaynaklara ve desteğe erişin[forumlar](https://forum.aspose.com/).
+Bu eğitimde size Aspose.HTML for .NET'i tanıttık ve örnek kodun bir dökümünü sunduk. Bu, bu güçlü kütüphaneyle başarabileceklerinizin sadece başlangıcı. Kapsamlı belgelerini inceleyebilirsiniz[Burada](https://reference.aspose.com/html/net/) ve ek kaynaklara ve desteğe erişin[forumlar](https://forum.aspose.com/).
 
 Aspose.HTML for .NET ile ilgili herhangi bir sorunuz varsa veya yardıma ihtiyacınız varsa Aspose topluluğuyla iletişime geçmekten veya daha fazla rehberlik için belgelere başvurmaktan çekinmeyin.
 
@@ -93,4 +93,4 @@ Aspose.HTML for .NET ile ilgili herhangi bir sorunuz varsa veya yardıma ihtiyac
     Evet, Aspose.HTML for .NET'in ücretsiz deneme sürümünü indirebilirsiniz[Burada](https://releases.aspose.com/).
 
 ### Daha fazla öğreticiyi ve belgeyi nerede bulabilirim?
-    Kapsamlı belgeleri ve eğitimleri keşfedebilirsiniz.[Aspose.HTML for .NET dokümantasyon sayfası](https://reference.aspose.com/html/net/).
+   Kapsamlı belgeleri ve eğitimleri keşfedebilirsiniz.[Aspose.HTML for .NET dokümantasyon sayfası](https://reference.aspose.com/html/net/).

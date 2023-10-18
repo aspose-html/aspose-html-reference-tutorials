@@ -1,7 +1,7 @@
 ---
 title: Aspose.HTML ile .NET'te Dönüştürücülerin İnce Ayarı
 linktitle: .NET'te Dönüştürücülerin İnce Ayarı
-second_title: Aspose.Slides .NET HTML işleme API'si
+second_title: Aspose.HTML .NET HTML işleme API'si
 description: Aspose.HTML for .NET ile HTML'yi PDF'ye, XPS'ye ve görsellere nasıl dönüştüreceğinizi öğrenin. Kod örnekleri ve SSS içeren adım adım eğitim.
 type: docs
 weight: 16
@@ -18,9 +18,9 @@ Bu eğitimde Aspose.HTML for .NET'in bazı temel özelliklerini inceleyeceğiz v
 
 Örneklere dalmadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
 
-- Aspose.HTML for .NET: Aspose.HTML for .NET kütüphanesinin kurulu olması gerekir. adresinden indirebilirsiniz.[İndirme: {link](https://releases.aspose.com/html/net/).
+-  Aspose.HTML for .NET: Aspose.HTML for .NET kütüphanesinin kurulu olması gerekir. adresinden indirebilirsiniz.[İndirme: {link](https://releases.aspose.com/html/net/).
 
--  Geçici Lisans (İsteğe Bağlı): Geçerli bir lisansınız yoksa, geçici lisansı adresinden alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/).
+- Geçici Lisans (İsteğe Bağlı): Geçerli bir lisansınız yoksa, geçici lisansı adresinden alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/).
 
 Şimdi Aspose.HTML for .NET'in bazı yaygın kullanım örneklerini inceleyelim.
 
@@ -448,7 +448,7 @@ using (var document3 = new HTMLDocument(code3, "."))
 using (HTMLRenderer renderer = new HTMLRenderer())
 ```
 
-### Adım 4: Birleştirilmiş Çıktı için PDF Aygıtı Oluşturun
+### 4. Adım: Birleştirilmiş Çıktı için PDF Aygıtı Oluşturun
 
 ```csharp
 using (var device = new PdfDevice("output.pdf"))

@@ -1,7 +1,7 @@
 ---
 title: قم بإنشاء ملف PDF مشفر بواسطة PdfDevice في .NET باستخدام Aspose.HTML
 linktitle: قم بإنشاء ملف PDF مشفر بواسطة PdfDevice في .NET
-second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة HTML
+second_title: Aspose.HTML .NET واجهة برمجة تطبيقات معالجة HTML
 description: قم بتحويل HTML إلى PDF ديناميكيًا باستخدام Aspose.HTML لـ .NET. تكامل سهل وخيارات قابلة للتخصيص وأداء قوي.
 type: docs
 weight: 15

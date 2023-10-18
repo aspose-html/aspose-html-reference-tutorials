@@ -1,7 +1,7 @@
 ---
 title: 许可和初始化
 linktitle: 许可和初始化
-second_title: Aspose.Slides .NET HTML 操作 API
+second_title: Aspose.HTML .NET HTML 操作 API
 description: 通过我们全面的许可和初始化教程，了解如何有效利用 Aspose.HTML for .NET。释放此工具的全部潜力。
 type: docs
 weight: 27

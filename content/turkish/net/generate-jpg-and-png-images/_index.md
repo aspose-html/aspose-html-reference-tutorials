@@ -1,7 +1,7 @@
 ---
 title: JPG ve PNG Görüntüleri Oluşturun
 linktitle: JPG ve PNG Görüntüleri Oluşturun
-second_title: Aspose.Slides .NET HTML işleme API'si
+second_title: Aspose.HTML .NET HTML işleme API'si
 description: Eğitimlerimizle Aspose.HTML for .NET kullanarak JPG ve PNG görselleri oluşturmayı öğrenin. Zahmetsizce çarpıcı grafikler oluşturun.
 type: docs
 weight: 28

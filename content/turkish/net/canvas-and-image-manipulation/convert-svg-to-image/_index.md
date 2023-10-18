@@ -1,7 +1,7 @@
 ---
 title: Aspose.HTML ile SVG'yi .NET'te Görüntüye Dönüştürün
 linktitle: .NET'te SVG'yi Görüntüye Dönüştürme
-second_title: Aspose.Slides .NET HTML işleme API'si
+second_title: Aspose.HTML .NET HTML işleme API'si
 description: Aspose.HTML ile SVG'yi .NET'teki Görsellere dönüştürün. Geliştiriciler için Kapsamlı Bir Eğitim. SVG belgelerini kolayca JPEG, PNG, BMP ve GIF formatlarına dönüştürün.
 type: docs
 weight: 11
@@ -63,7 +63,7 @@ ImageSaveOptions options = new ImageSaveOptions(ImageFormat.Jpeg);
 string outputFile = dataDir + "SVGtoImage_Output.jpeg";
 ```
 
- Çıktı görüntü dosyasının yolunu ayarlarsınız. Yer değiştirmek`"SVGtoImage_Output.jpeg"` çıktı resminiz için istediğiniz adla.
+Çıktı görüntü dosyasının yolunu ayarlarsınız. Yer değiştirmek`"SVGtoImage_Output.jpeg"` çıktı resminiz için istediğiniz adla.
 
 ## Adım 5: SVG'yi Görüntüye Dönüştürme
 
@@ -71,7 +71,7 @@ string outputFile = dataDir + "SVGtoImage_Output.jpeg";
 Converter.ConvertSVG(svgDocument, options, outputFile);
 ```
 
-Bu, SVG belgenizi belirtilen görüntü formatına dönüştürmek için Aspose.HTML for .NET'i kullandığınız çok önemli adımdır.`Converter.ConvertSVG` yöntem SVG belgesini, görüntü seçeneklerini ve çıktı dosyası yolunu parametre olarak alır.
+ Bu, SVG belgenizi belirtilen görüntü formatına dönüştürmek için Aspose.HTML for .NET'i kullandığınız çok önemli adımdır.`Converter.ConvertSVG` yöntem SVG belgesini, görüntü seçeneklerini ve çıktı dosyası yolunu parametre olarak alır.
 
 Bu adımlarla, Aspose.HTML for .NET'i kullanarak SVG dosyalarınızı zahmetsizce görüntülere dönüştürebilirsiniz. Kütüphanenin basitliği ve etkililiği onu geliştiriciler için değerli bir araç haline getiriyor.
 

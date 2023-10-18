@@ -1,7 +1,7 @@
 ---
 title: Merge HTML with Json in .NET with Aspose.HTML
 linktitle: Merge HTML with Json in .NET
-second_title: Aspose.Slides .NET HTML manipulation API
+second_title: Aspose.HTML .NET HTML manipulation API
 description: Learn to create dynamic and web content using Aspose.HTML for .NET. Empower your online presence and engage your audience.
 type: docs
 weight: 17

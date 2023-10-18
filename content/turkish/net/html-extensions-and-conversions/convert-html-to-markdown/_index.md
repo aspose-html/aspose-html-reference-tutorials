@@ -1,7 +1,7 @@
 ---
 title: Aspose.HTML ile HTML'yi .NET'te Markdown'a dönüştürün
 linktitle: .NET'te HTML'yi Markdown'a dönüştürün
-second_title: Aspose.Slides .NET HTML işleme API'si
+second_title: Aspose.HTML .NET HTML işleme API'si
 description: Etkin içerik işleme için Aspose.HTML kullanarak HTML'yi .NET'te Markdown'a nasıl dönüştüreceğinizi öğrenin. Sorunsuz bir dönüştürme süreci için adım adım rehberlik alın.
 type: docs
 weight: 18

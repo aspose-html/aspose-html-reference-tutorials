@@ -1,7 +1,7 @@
 ---
 title: Aspose.HTML ile .NET'te Canvas'ı Düzenleme
 linktitle: .NET'te Canvas'ı Düzenleme
-second_title: Aspose.Slides .NET HTML işleme API'si
+second_title: Aspose.HTML .NET HTML işleme API'si
 description: Aspose.HTML for .NET ile HTML belgelerini nasıl değiştireceğinizi öğrenin. Bu kapsamlı eğitimde temel bilgiler, ön koşullar ve adım adım örnekler yer almaktadır.
 type: docs
 weight: 10

@@ -1,7 +1,7 @@
 ---
 title: قم بتحميل HTML باستخدام خادم بعيد في .NET باستخدام Aspose.HTML
 linktitle: قم بتحميل HTML باستخدام خادم بعيد في .NET
-second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة HTML
+second_title: Aspose.HTML .NET واجهة برمجة تطبيقات معالجة HTML
 description: أطلق العنان لإمكانات Aspose.HTML لـ .NET من خلال دليلنا الشامل. تعرف على كيفية استيراد مساحات الأسماء والوصول إلى مستندات HTML البعيدة والمزيد.
 type: docs
 weight: 12
@@ -62,7 +62,7 @@ using Aspose.Html;
 
 ### الخطوة 1: تهيئة مستند HTML
 
- للبدء، تحتاج إلى تهيئة`HTMLDocument` باستخدام عنوان URL لمستند HTML البعيد.
+ للبدء، تحتاج إلى تهيئة`HTMLDocument`باستخدام عنوان URL لمستند HTML البعيد.
 
 ```csharp
 HTMLDocument document = new HTMLDocument(new Url(@"https://www.w3.org/TR/html5/"));

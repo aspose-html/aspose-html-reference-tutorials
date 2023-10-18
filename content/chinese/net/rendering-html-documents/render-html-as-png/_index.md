@@ -1,7 +1,7 @@
 ---
 title: 使用 Aspose.HTML 在 .NET 中将 HTML 渲染为 PNG
 linktitle: 在 .NET 中将 HTML 渲染为 PNG
-second_title: Aspose.Slides .NET HTML 操作 API
+second_title: Aspose.HTML .NET HTML 操作 API
 description: 学习使用 Aspose.HTML for .NET。操作 HTML、转换为各种格式等等。深入学习这个综合教程！
 type: docs
 weight: 10

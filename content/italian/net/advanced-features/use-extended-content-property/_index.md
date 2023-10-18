@@ -1,7 +1,7 @@
 ---
 title: Utilizzare la proprietà del contenuto esteso in .NET con Aspose.HTML
 linktitle: Utilizzare la proprietà contenuto esteso in .NET
-second_title: Aspose.Slides API di manipolazione HTML .NET
+second_title: Aspose.HTML .NET API di manipolazione HTML
 description: Scopri come utilizzare Aspose.HTML per .NET con questa guida passo passo. Migliora le tue competenze HTML e semplifica i tuoi progetti di sviluppo web.
 type: docs
 weight: 14

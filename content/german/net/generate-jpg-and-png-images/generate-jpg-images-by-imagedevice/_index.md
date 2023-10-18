@@ -1,7 +1,7 @@
 ---
 title: Generieren Sie JPG-Bilder von ImageDevice in .NET mit Aspose.HTML
 linktitle: Generieren Sie JPG-Bilder von ImageDevice in .NET
-second_title: Aspose.Slides .NET HTML-Manipulations-API
+second_title: Aspose.HTML .NET HTML-Manipulations-API
 description: Erfahren Sie, wie Sie dynamische Webseiten mit Aspose.HTML für .NET erstellen. Dieses Schritt-für-Schritt-Tutorial behandelt Voraussetzungen, Namespaces und das Rendern von HTML in Bilder.
 type: docs
 weight: 10
@@ -26,7 +26,7 @@ Um Aspose.HTML in Ihrem .NET-Projekt verwenden zu können, muss Visual Studio au
 
 Stellen Sie sicher, dass Sie über eine gültige Aspose.HTML-Lizenz verfügen, um diese Bibliothek in Ihrem Projekt verwenden zu können. Wenn Sie noch keins haben, können Sie eines erhalten[temporäre Lizenz](https://purchase.aspose.com/temporary-license/) für Test- und Entwicklungszwecke.
 
-## Namespaces importieren
+## Namensräume importieren
 
 Öffnen Sie in Ihrem Visual Studio-Projekt Ihre CS-Datei und importieren Sie zunächst die erforderlichen Namespaces:
 

@@ -1,7 +1,7 @@
 ---
 title: ملحقات وتحويلات HTML
 linktitle: ملحقات وتحويلات HTML
-second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة HTML
+second_title: Aspose.HTML .NET واجهة برمجة تطبيقات معالجة HTML
 description: اكتشف ملحقات HTML وبرامج تعليمية للتحويل باستخدام Aspose.HTML لـ .NET. تعرف على كيفية تحسين تطوير الويب باستخدام هذه البرامج التعليمية الشاملة.
 type: docs
 weight: 20

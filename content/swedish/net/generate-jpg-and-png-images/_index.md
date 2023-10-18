@@ -1,7 +1,7 @@
 ---
 title: Skapa JPG- och PNG-bilder
 linktitle: Skapa JPG- och PNG-bilder
-second_title: Aspose.Slides .NET HTML manipulation API
+second_title: Aspose.HTML .NET HTML manipulation API
 description: Lär dig hur du genererar JPG- och PNG-bilder med Aspose.HTML för .NET med våra tutorials. Skapa fantastisk grafik utan ansträngning.
 type: docs
 weight: 28

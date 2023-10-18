@@ -1,7 +1,7 @@
 ---
 title: استخدم خاصية المحتوى الموسعة في .NET مع Aspose.HTML
 linktitle: استخدم خاصية المحتوى الموسعة في .NET
-second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة HTML
+second_title: Aspose.HTML .NET واجهة برمجة تطبيقات معالجة HTML
 description: تعرف على كيفية استخدام Aspose.HTML لـ .NET من خلال هذا الدليل التفصيلي خطوة بخطوة. قم بتحسين مهارات HTML الخاصة بك وتبسيط مشاريع تطوير الويب الخاصة بك.
 type: docs
 weight: 14

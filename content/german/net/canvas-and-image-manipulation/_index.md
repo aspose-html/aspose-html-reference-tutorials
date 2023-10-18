@@ -1,7 +1,7 @@
 ---
 title: Leinwand- und Bildmanipulation
 linktitle: Leinwand- und Bildmanipulation
-second_title: Aspose.Slides .NET HTML-Manipulations-API
+second_title: Aspose.HTML .NET HTML-Manipulations-API
 description: Erfahren Sie anhand von Schritt-für-Schritt-Anleitungen, wie Sie Bilder mit Aspose.HTML für .NET bearbeiten. Entdecken Sie die Leistungsfähigkeit der Leinwand- und Bildbearbeitung.
 type: docs
 weight: 22

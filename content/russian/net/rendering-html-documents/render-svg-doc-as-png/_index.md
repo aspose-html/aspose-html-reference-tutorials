@@ -1,7 +1,7 @@
 ---
 title: Отрисовка SVG-документа в формате PNG в .NET с помощью Aspose.HTML
 linktitle: Рендеринг SVG-документа в формате PNG в .NET
-second_title: Aspose.Slides .NET API манипулирования HTML
+second_title: API манипуляций с HTML Aspose.HTML .NET
 description: Раскройте возможности Aspose.HTML для .NET! Узнайте, как легко визуализировать документ SVG в формате PNG. Погрузитесь в пошаговые примеры и часто задаваемые вопросы. Начать сейчас!
 type: docs
 weight: 15

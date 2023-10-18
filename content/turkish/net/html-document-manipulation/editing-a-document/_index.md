@@ -1,7 +1,7 @@
 ---
 title: Aspose.HTML ile .NET'te Belge Düzenleme
 linktitle: .NET'te Belge Düzenleme
-second_title: Aspose.Slides .NET HTML işleme API'si
+second_title: Aspose.HTML .NET HTML işleme API'si
 description: Aspose.HTML for .NET ile büyüleyici web içeriği oluşturun. HTML, CSS ve daha fazlasını nasıl değiştireceğinizi öğrenin.
 type: docs
 weight: 15

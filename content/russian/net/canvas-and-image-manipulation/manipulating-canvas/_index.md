@@ -1,7 +1,7 @@
 ---
 title: Управление холстом в .NET с помощью Aspose.HTML
 linktitle: Управление холстом в .NET
-second_title: Aspose.Slides .NET API манипулирования HTML
+second_title: API манипуляций с HTML Aspose.HTML .NET
 description: Узнайте, как манипулировать HTML-документами с помощью Aspose.HTML для .NET. В этом подробном руководстве рассматриваются основы, предварительные требования и пошаговые примеры.
 type: docs
 weight: 10

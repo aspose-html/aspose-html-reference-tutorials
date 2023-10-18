@@ -1,7 +1,7 @@
 ---
 title: Converti HTML in PNG in .NET con Aspose.HTML
 linktitle: Converti HTML in PNG in .NET
-second_title: Aspose.Slides API di manipolazione HTML .NET
+second_title: Aspose.HTML .NET API di manipolazione HTML
 description: Scopri come utilizzare Aspose.HTML per .NET per manipolare e convertire documenti HTML. Guida dettagliata per uno sviluppo .NET efficace.
 type: docs
 weight: 20

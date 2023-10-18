@@ -1,7 +1,7 @@
 ---
 title: Utilisation de modèles HTML dans .NET avec Aspose.HTML
 linktitle: Utilisation de modèles HTML dans .NET
-second_title: API de manipulation HTML Aspose.Slides .NET
+second_title: API de manipulation HTML Aspose.HTML .NET
 description: Découvrez comment utiliser Aspose.HTML pour .NET pour générer dynamiquement des documents HTML à partir de données JSON. Exploitez la puissance de la manipulation HTML dans vos applications .NET.
 type: docs
 weight: 17
@@ -97,7 +97,7 @@ var template = @"
 System.IO.File.WriteAllText("template.html", template);
 ```
 
- Ce modèle HTML comprend des espaces réservés tels que`{{FirstName}}`, `{{LastName}}`, `{{Address.Street}}`, `{{Address.Number}}` , et`{{Address.City}}`, que nous remplacerons par les données réelles.
+ Ce modèle HTML comprend des espaces réservés tels que`{{FirstName}}`, `{{LastName}}`, `{{Address.Street}}`, `{{Address.Number}}` et`{{Address.City}}`, que nous remplacerons par les données réelles.
 
 ## Étape 3 : Remplissez le modèle HTML
 
@@ -129,11 +129,11 @@ A1 : Aspose.HTML pour .NET est une bibliothèque puissante qui permet aux déve
 
 ### Q3. Comment puis-je télécharger Aspose.HTML pour .NET ?
 
- A3 : Vous pouvez télécharger Aspose.HTML pour .NET à partir de la page de téléchargement[ici](https://releases.aspose.com/html/net/).
+A3 : Vous pouvez télécharger Aspose.HTML pour .NET à partir de la page de téléchargement[ici](https://releases.aspose.com/html/net/).
 
 ### Q4. Existe-t-il un essai gratuit disponible pour Aspose.HTML pour .NET ?
 
-A4 : Oui, vous pouvez essayer Aspose.HTML pour .NET en téléchargeant la version d'essai gratuite à partir de[ici](https://releases.aspose.com/).
+ A4 : Oui, vous pouvez essayer Aspose.HTML pour .NET en téléchargeant la version d'essai gratuite à partir de[ici](https://releases.aspose.com/).
 
 ### Q5. Ai-je besoin d’une licence temporaire pour Aspose.HTML pour .NET ?
 

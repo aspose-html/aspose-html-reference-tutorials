@@ -1,14 +1,14 @@
 ---
 title: Aspose.HTML ile .NET'te Uzak Sunucu Kullanarak HTML Yükleme
 linktitle: .NET'te Uzak Sunucu Kullanarak HTML Yükleme
-second_title: Aspose.Slides .NET HTML işleme API'si
+second_title: Aspose.HTML .NET HTML işleme API'si
 description: Kapsamlı kılavuzumuzla Aspose.HTML for .NET'in potansiyelini ortaya çıkarın. Ad alanlarını nasıl içe aktaracağınızı, uzak HTML belgelerine nasıl erişeceğinizi ve daha fazlasını öğrenin.
 type: docs
 weight: 12
 url: /tr/net/html-document-manipulation/load-html-using-remote-server/
 ---
 
-Sürekli gelişen web geliştirme dünyasında Aspose.HTML for .NET, HTML belgelerini yönetmek için geniş bir yetenek yelpazesi sunan güçlü bir araç olarak ortaya çıktı. İster deneyimli bir geliştirici olun ister yeni başlıyor olun, bu kılavuz size temel adımlar, ön koşullar ve ad alanlarını içe aktarma süreci boyunca yol göstererek Aspose.HTML for .NET'in tüm potansiyelinden yararlanmanızı sağlayacaktır. Öyleyse gelin derinlemesine inceleyelim ve bu çok yönlü araçtan en iyi şekilde nasıl yararlanabileceğinizi keşfedelim.
+Sürekli gelişen web geliştirme dünyasında Aspose.HTML for .NET, HTML belgelerini yönetmek için geniş bir yetenek yelpazesi sunan güçlü bir araç olarak ortaya çıktı. İster deneyimli bir geliştirici olun ister yeni başlıyor olun, bu kılavuz size temel adımlar, ön koşullar ve ad alanlarını içe aktarma süreci boyunca yol gösterecek ve Aspose.HTML for .NET'in tüm potansiyelinden faydalanmanızı sağlayacaktır. Öyleyse gelin derinlemesine inceleyelim ve bu çok yönlü araçtan en iyi şekilde nasıl yararlanabileceğinizi keşfedelim.
 
 ## Önkoşullar
 
@@ -62,7 +62,7 @@ Bu örnekte uzak bir sunucudan bir HTML belgesi yükleyeceğiz.
 
 ### 1. Adım: Bir HTMLDocument'i başlatın
 
- Başlamak için bir başlatmanız gerekir`HTMLDocument` uzak HTML belgesinin URL'sini kullanarak.
+ Başlamak için bir başlatmanız gerekir`HTMLDocument`uzak HTML belgesinin URL'sini kullanarak.
 
 ```csharp
 HTMLDocument document = new HTMLDocument(new Url(@"https://www.w3.org/TR/html5/"));

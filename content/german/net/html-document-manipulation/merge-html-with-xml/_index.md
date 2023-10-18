@@ -1,7 +1,7 @@
 ---
 title: Führen Sie HTML mit XML in .NET mit Aspose.HTML zusammen
 linktitle: HTML mit XML in .NET zusammenführen
-second_title: Aspose.Slides .NET HTML-Manipulations-API
+second_title: Aspose.HTML .NET HTML-Manipulations-API
 description: Erfahren Sie, wie Sie Aspose.HTML für .NET verwenden. Importieren Sie Namespaces, führen Sie HTML mit XML zusammen und verbessern Sie Ihre Webentwicklungsfähigkeiten mit diesem umfassenden Leitfaden.
 type: docs
 weight: 18
@@ -16,11 +16,11 @@ Bevor Sie in die Welt von Aspose.HTML für .NET eintauchen, stellen Sie sicher, 
 
 1. Eine .NET-Entwicklungsumgebung
 
- Sie benötigen eine funktionierende .NET-Entwicklungsumgebung auf Ihrem Computer. Wenn Sie es nicht installiert haben, gehen Sie zu[Website von Microsoft](https://docs.microsoft.com/en-us/dotnet/core/install/) für detaillierte Anweisungen.
+Sie benötigen eine funktionierende .NET-Entwicklungsumgebung auf Ihrem Computer. Wenn Sie es nicht installiert haben, gehen Sie zu[Website von Microsoft](https://docs.microsoft.com/en-us/dotnet/core/install/) für detaillierte Anweisungen.
 
 2. Aspose.HTML für .NET-Bibliothek
 
-Laden Sie die Aspose.HTML für .NET-Bibliothek aus dem Download-Bereich der Website unter herunter[Hier](https://releases.aspose.com/html/net/). Sie können die Version auswählen, die den Anforderungen Ihres Projekts entspricht.
+ Laden Sie die Aspose.HTML für .NET-Bibliothek aus dem Download-Bereich der Website unter herunter[Hier](https://releases.aspose.com/html/net/). Sie können die Version auswählen, die den Anforderungen Ihres Projekts entspricht.
 
 3. Vorlagendateien
 

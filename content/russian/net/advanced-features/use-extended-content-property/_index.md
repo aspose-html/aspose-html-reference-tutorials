@@ -1,7 +1,7 @@
 ---
 title: Используйте свойство расширенного содержимого в .NET с Aspose.HTML
 linktitle: Используйте свойство расширенного содержимого в .NET
-second_title: Aspose.Slides .NET API манипулирования HTML
+second_title: API манипуляций с HTML Aspose.HTML .NET
 description: Узнайте, как использовать Aspose.HTML для .NET, с помощью этого пошагового руководства. Совершенствуйте свои навыки работы с HTML и оптимизируйте свои проекты веб-разработки.
 type: docs
 weight: 14

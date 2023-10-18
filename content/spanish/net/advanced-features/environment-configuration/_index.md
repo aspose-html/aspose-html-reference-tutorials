@@ -1,7 +1,7 @@
 ---
 title: Configuración del entorno en .NET con Aspose.HTML
 linktitle: Configuración del entorno en .NET
-second_title: Aspose.Slides API de manipulación HTML .NET
+second_title: Aspose.HTML .NET API de manipulación de HTML
 description: Aprenda a trabajar con documentos HTML en .NET usando Aspose.HTML para tareas como administración de scripts, estilos personalizados, control de ejecución de JavaScript y más. Este completo tutorial proporciona ejemplos paso a paso y preguntas frecuentes para ayudarle a empezar.
 type: docs
 weight: 10

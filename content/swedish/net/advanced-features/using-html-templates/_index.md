@@ -1,7 +1,7 @@
 ---
 title: Använda HTML-mallar i .NET med Aspose.HTML
 linktitle: Använda HTML-mallar i .NET
-second_title: Aspose.Slides .NET HTML manipulation API
+second_title: Aspose.HTML .NET HTML manipulation API
 description: Lär dig hur du använder Aspose.HTML för .NET för att dynamiskt generera HTML-dokument från JSON-data. Utnyttja kraften i HTML-manipulation i dina .NET-applikationer.
 type: docs
 weight: 17
@@ -97,7 +97,7 @@ var template = @"
 System.IO.File.WriteAllText("template.html", template);
 ```
 
- Denna HTML-mall innehåller platshållare som`{{FirstName}}`, `{{LastName}}`, `{{Address.Street}}`, `{{Address.Number}}` , och`{{Address.City}}`, som vi ersätter med de faktiska uppgifterna.
+ Denna HTML-mall innehåller platshållare som`{{FirstName}}`, `{{LastName}}`, `{{Address.Street}}`, `{{Address.Number}}` och`{{Address.City}}`, som vi ersätter med de faktiska uppgifterna.
 
 ## Steg 3: Fyll i HTML-mallen
 
@@ -115,7 +115,7 @@ Grattis! Du har framgångsrikt utnyttjat kraften i Aspose.HTML för .NET för at
 
 ## Slutsats
 
-den här handledningen utforskade vi grunderna för att använda Aspose.HTML för .NET för att skapa HTML-dokument dynamiskt. Vi täckte förutsättningarna, importerade namnutrymmen och delade ner varje steg i detalj. Genom att följa dessa steg kan du sömlöst integrera HTML-dokumentgenerering i dina .NET-applikationer.
+I den här handledningen utforskade vi grunderna för att använda Aspose.HTML för .NET för att skapa HTML-dokument dynamiskt. Vi täckte förutsättningarna, importerade namnutrymmen och delade ner varje steg i detalj. Genom att följa dessa steg kan du sömlöst integrera HTML-dokumentgenerering i dina .NET-applikationer.
 
 ## FAQ's
 
@@ -129,11 +129,11 @@ S1: Aspose.HTML för .NET är ett kraftfullt bibliotek som gör det möjligt fö
 
 ### Q3. Hur kan jag ladda ner Aspose.HTML för .NET?
 
- S3: Du kan ladda ner Aspose.HTML för .NET från nedladdningssidan[här](https://releases.aspose.com/html/net/).
+S3: Du kan ladda ner Aspose.HTML för .NET från nedladdningssidan[här](https://releases.aspose.com/html/net/).
 
 ### Q4. Finns det en gratis testversion tillgänglig för Aspose.HTML för .NET?
 
-S4: Ja, du kan prova Aspose.HTML för .NET genom att ladda ner den kostnadsfria testversionen från[här](https://releases.aspose.com/).
+ S4: Ja, du kan prova Aspose.HTML för .NET genom att ladda ner den kostnadsfria testversionen från[här](https://releases.aspose.com/).
 
 ### F5. Behöver jag en tillfällig licens för Aspose.HTML för .NET?
 

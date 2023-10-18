@@ -1,7 +1,7 @@
 ---
 title: Ladda HTML med URL i .NET med Aspose.HTML
 linktitle: Ladda HTML med URL i .NET
-second_title: Aspose.Slides .NET HTML manipulation API
+second_title: Aspose.HTML .NET HTML manipulation API
 description: Lär dig hur du utnyttjar kraften i Aspose.HTML för .NET. Öka din webbutveckling med HTML-manipulation och rendering.
 type: docs
 weight: 13
@@ -20,7 +20,7 @@ Att ha ett gediget grepp om C# och .NET-ramverket är avgörande. Om du är ny p
 
 2. Visual Studio installerad
 
-Se till att du har Visual Studio, en populär integrerad utvecklingsmiljö (IDE) för .NET-utveckling, installerad på ditt system. Om inte kan du ladda ner den från[här](https://visualstudio.microsoft.com/).
+ Se till att du har Visual Studio, en populär integrerad utvecklingsmiljö (IDE) för .NET-utveckling, installerad på ditt system. Om inte kan du ladda ner den från[här](https://visualstudio.microsoft.com/).
 
 3. Aspose.HTML för .NET
 
@@ -110,4 +110,4 @@ S2: Ja, Aspose.HTML för .NET är mångsidig och kan användas i både webb- och
 
 ### F5: Hur får jag en tillfällig licens för Aspose.HTML för .NET?
    
- S5: Om du behöver en tillfällig licens för ditt projekt kan du få en[här](https://purchase.aspose.com/temporary-license/).
+S5: Om du behöver en tillfällig licens för ditt projekt kan du få en[här](https://purchase.aspose.com/temporary-license/).

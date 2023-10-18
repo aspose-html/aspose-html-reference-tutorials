@@ -1,7 +1,7 @@
 ---
 title: HTML-tillägg och -konverteringar
 linktitle: HTML-tillägg och -konverteringar
-second_title: Aspose.Slides .NET HTML manipulation API
+second_title: Aspose.HTML .NET HTML manipulation API
 description: Upptäck HTML-tillägg och självstudiekurser för konvertering med Aspose.HTML för .NET. Lär dig hur du optimerar webbutveckling med dessa omfattande handledningar.
 type: docs
 weight: 20

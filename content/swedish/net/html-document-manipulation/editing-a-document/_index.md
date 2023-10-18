@@ -1,7 +1,7 @@
 ---
 title: Redigera ett dokument i .NET med Aspose.HTML
 linktitle: Redigera ett dokument i .NET
-second_title: Aspose.Slides .NET HTML manipulation API
+second_title: Aspose.HTML .NET HTML manipulation API
 description: Skapa fängslande webbinnehåll med Aspose.HTML för .NET. Lär dig hur du manipulerar HTML, CSS och mer.
 type: docs
 weight: 15

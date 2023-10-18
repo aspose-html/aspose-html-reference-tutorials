@@ -1,7 +1,7 @@
 ---
 title: Genere imágenes JPG mediante ImageDevice en .NET con Aspose.HTML
 linktitle: Genere imágenes JPG mediante ImageDevice en .NET
-second_title: Aspose.Slides API de manipulación HTML .NET
+second_title: Aspose.HTML .NET API de manipulación de HTML
 description: Aprenda a crear páginas web dinámicas utilizando Aspose.HTML para .NET. Este tutorial paso a paso cubre los requisitos previos, los espacios de nombres y la representación de HTML en imágenes.
 type: docs
 weight: 10
@@ -110,7 +110,7 @@ Ahora es su turno de explorar y crear impresionantes páginas web y documentos u
    
 R1: Sí, Aspose.HTML para .NET es una herramienta valiosa para el desarrollo web que le permite manipular y generar contenido HTML de forma dinámica.
 
-### P2: ¿Puedo usar Aspose.HTML para .NET con una licencia de prueba?
+### P2: ¿Puedo utilizar Aspose.HTML para .NET con una licencia de prueba?
    
  R2: ¡Absolutamente! Puedes obtener un[licencia temporal](https://purchase.aspose.com/temporary-license/) para pruebas y desarrollo.
 

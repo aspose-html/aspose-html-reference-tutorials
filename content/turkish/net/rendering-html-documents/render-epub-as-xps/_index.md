@@ -1,7 +1,7 @@
 ---
 title: Aspose.HTML ile EPUB'u .NET'te XPS olarak işleyin
 linktitle: EPUB'u .NET'te XPS olarak işleme
-second_title: Aspose.Slides .NET HTML işleme API'si
+second_title: Aspose.HTML .NET HTML işleme API'si
 description: Bu kapsamlı eğitimde Aspose.HTML for .NET ile HTML belgeleri oluşturmayı ve işlemeyi öğrenin. HTML manipülasyonu, web kazıma ve daha fazlasının dünyasına dalın.
 type: docs
 weight: 11
@@ -67,7 +67,7 @@ using (var renderer = new EpubRenderer())
 
 2.  XPS işleme cihazı oluşturun: Aşağıdakileri kullanarak bir XPS işleme cihazı oluşturuyoruz:`XpsDevice` sınıf. Bu cihaz, EPUB belgesindeki içeriği XPS formatına dönüştürmek için kullanılacaktır.
 
-3.  Bir EPUB oluşturucu oluşturun: EPUB'un bir örneğini oluştururuz.`EpubRenderer`sınıf. Bu sınıf, özellikle EPUB belgeleri için uyarlanmış işleme yetenekleri sağlar.
+3.  Bir EPUB oluşturucu oluşturun: EPUB'un bir örneğini oluştururuz.`EpubRenderer` sınıf. Bu sınıf, özellikle EPUB belgeleri için uyarlanmış işleme yetenekleri sağlar.
 
 4.  EPUB belgesini XPS formatına dönüştürün: Son olarak,`Render` yöntemi`EpubRenderer` Render işlemini gerçekleştirmek için sınıf. İşlenen çıktı, belirtilen konuma bir XPS dosyası olarak kaydedilecektir.
 
@@ -93,7 +93,7 @@ Evet, Aspose.HTML for .NET, PDF, görüntü formatları ve daha fazlası dahil o
 
 ### 4. Nereden yardım alabilirim veya deneyimlerimi kütüphaneyle paylaşabilirim?
 
- Aspose topluluğuna katılabilir ve yardım isteyebilir veya deneyimlerinizi paylaşabilirsiniz.[Forumu aspose](https://forum.aspose.com/).
+Aspose topluluğuna katılabilir ve yardım isteyebilir veya deneyimlerinizi paylaşabilirsiniz.[Forumu aspose](https://forum.aspose.com/).
 
 ### 5. Aspose.HTML for .NET'i ticari projelerde kullanabilir miyim?
 

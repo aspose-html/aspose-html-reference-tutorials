@@ -1,7 +1,7 @@
 ---
 title: Charger des documents HTML avec des informations d'identification dans .NET avec Aspose.HTML
 linktitle: Charger des documents HTML avec des informations d'identification dans .NET
-second_title: API de manipulation HTML Aspose.Slides .NET
+second_title: API de manipulation HTML Aspose.HTML .NET
 description: Apprenez à booster votre référencement avec Aspose.HTML pour .NET. Améliorez les classements, analysez le contenu Web et optimisez pour les moteurs de recherche.
 type: docs
 weight: 11

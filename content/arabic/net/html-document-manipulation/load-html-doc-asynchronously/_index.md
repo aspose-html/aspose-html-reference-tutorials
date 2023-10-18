@@ -1,7 +1,7 @@
 ---
 title: قم بتحميل مستندات HTML بشكل غير متزامن في .NET باستخدام Aspose.HTML
 linktitle: تحميل مستندات HTML بشكل غير متزامن في .NET
-second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة HTML
+second_title: Aspose.HTML .NET واجهة برمجة تطبيقات معالجة HTML
 description: تعرف على كيفية استخدام Aspose.HTML لـ .NET للعمل مع مستندات HTML. دليل خطوة بخطوة مع الأمثلة والأسئلة الشائعة للمطورين.
 type: docs
 weight: 10
@@ -38,7 +38,7 @@ url: /ar/net/html-document-manipulation/load-html-doc-asynchronously/
 
 في مشروعك، انقر بزر الماوس الأيمن على "المراجع" في مستكشف الحلول وحدد "إضافة مرجع".
 
-### 3. استعرض بحثًا عن Aspose.HTML لـ .NET
+### 3. استعرض Aspose.HTML لـ .NET
 
 انقر فوق الزر "استعراض" في "إدارة المراجع" وحدد موقع الملف Aspose.HTML.dll. يوجد هذا الملف عادةً في دليل التثبيت الخاص بمكتبة Aspose.HTML.
 

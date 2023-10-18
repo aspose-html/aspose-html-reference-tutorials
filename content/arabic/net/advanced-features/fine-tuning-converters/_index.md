@@ -1,7 +1,7 @@
 ---
 title: تحسين محولات الضبط في .NET باستخدام Aspose.HTML
 linktitle: محولات الضبط الدقيق في .NET
-second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة HTML
+second_title: Aspose.HTML .NET واجهة برمجة تطبيقات معالجة HTML
 description: تعرف على كيفية تحويل HTML إلى PDF وXPS والصور باستخدام Aspose.HTML لـ .NET. برنامج تعليمي خطوة بخطوة مع أمثلة التعليمات البرمجية والأسئلة الشائعة.
 type: docs
 weight: 16
@@ -18,9 +18,9 @@ Aspose.HTML for .NET هي مكتبة قوية تسمح للمطورين بمعا
 
 قبل أن نتعمق في الأمثلة، تأكد من توفر المتطلبات الأساسية التالية:
 
-- Aspose.HTML لـ .NET: يجب أن تكون مكتبة Aspose.HTML لـ .NET مثبتة لديك. يمكنك تنزيله من[رابط التحميل](https://releases.aspose.com/html/net/).
+-  Aspose.HTML لـ .NET: يجب أن تكون مكتبة Aspose.HTML لـ .NET مثبتة لديك. يمكنك تنزيله من[رابط التحميل](https://releases.aspose.com/html/net/).
 
--  الترخيص المؤقت (اختياري): إذا لم يكن لديك ترخيص صالح، يمكنك الحصول على ترخيص مؤقت من[هنا](https://purchase.aspose.com/temporary-license/).
+- الترخيص المؤقت (اختياري): إذا لم يكن لديك ترخيص صالح، يمكنك الحصول على ترخيص مؤقت من[هنا](https://purchase.aspose.com/temporary-license/).
 
 الآن، دعنا نستكشف بعض حالات الاستخدام الشائعة مع Aspose.HTML لـ .NET.
 

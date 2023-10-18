@@ -1,7 +1,7 @@
 ---
 title: التعامل مع Canvas في .NET باستخدام Aspose.HTML
 linktitle: التعامل مع اللوحة القماشية في .NET
-second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة HTML
+second_title: Aspose.HTML .NET واجهة برمجة تطبيقات معالجة HTML
 description: تعرف على كيفية التعامل مع مستندات HTML باستخدام Aspose.HTML لـ .NET. يغطي هذا البرنامج التعليمي الشامل الأساسيات والمتطلبات الأساسية والأمثلة خطوة بخطوة.
 type: docs
 weight: 10

@@ -1,7 +1,7 @@
 ---
 title: إنشاء مستند HTML في .NET باستخدام Aspose.HTML
 linktitle: إنشاء مستند HTML في .NET
-second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة HTML
+second_title: Aspose.HTML .NET واجهة برمجة تطبيقات معالجة HTML
 description: تعرف على كيفية إنشاء مستندات HTML في .NET باستخدام Aspose.HTML، من البداية أو من عناوين URL. برنامج تعليمي شامل لمطوري الويب.
 type: docs
 weight: 10
@@ -149,7 +149,7 @@ static void FromStream()
  ج1: يقدم Aspose.HTML for .NET نسخة تجريبية مجانية، ولكن للاستخدام الكامل، ستحتاج إلى شراء ترخيص. يمكنك العثور على مزيد من التفاصيل في[https://purchase.aspose.com/buy](https://purchase.aspose.com/buy).
 
 ### س2: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.HTML لـ .NET؟
- ج2: إذا كنت بحاجة إلى ترخيص مؤقت، يمكنك الحصول عليه من[https://purchase.aspose.com/temporary-license/](https://purchase.aspose.com/temporary-license/).
+ج2: إذا كنت بحاجة إلى ترخيص مؤقت، يمكنك الحصول عليه من[https://purchase.aspose.com/temporary-license/](https://purchase.aspose.com/temporary-license/).
 
 ### س3: أين يمكنني العثور على وثائق Aspose.HTML لـ .NET؟
  ج3: يمكن العثور على الوثائق في[https://reference.aspose.com/html/net/](https://reference.aspose.com/html/net/).

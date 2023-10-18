@@ -1,7 +1,7 @@
 ---
 title: Bearbeiten von Canvas in .NET mit Aspose.HTML
 linktitle: Bearbeiten von Canvas in .NET
-second_title: Aspose.Slides .NET HTML-Manipulations-API
+second_title: Aspose.HTML .NET HTML-Manipulations-API
 description: Erfahren Sie, wie Sie HTML-Dokumente mit Aspose.HTML für .NET bearbeiten. Dieses umfassende Tutorial behandelt die Grundlagen, Voraussetzungen und Schritt-für-Schritt-Beispiele.
 type: docs
 weight: 10
@@ -25,7 +25,7 @@ Bevor wir uns mit der Verwendung von Aspose.HTML für .NET befassen, müssen Sie
 
 Nachdem wir nun die Voraussetzungen geschaffen haben, beginnen wir mit der Erkundung der Funktionen von Aspose.HTML für .NET.
 
-## Namespaces importieren
+## Namensräume importieren
 
 In Ihrem C#-Projekt müssen Sie die erforderlichen Namespaces importieren, um Aspose.HTML für .NET zu verwenden. So können Sie es machen:
 

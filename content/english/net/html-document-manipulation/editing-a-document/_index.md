@@ -1,7 +1,7 @@
 ---
 title: Editing a Document in .NET with Aspose.HTML
 linktitle: Editing a Document in .NET
-second_title: Aspose.Slides .NET HTML manipulation API
+second_title: Aspose.HTML .NET HTML manipulation API
 description: Create captivating web content with Aspose.HTML for .NET. Learn how to manipulate HTML, CSS, and more.
 type: docs
 weight: 15

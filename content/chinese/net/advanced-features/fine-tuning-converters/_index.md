@@ -1,7 +1,7 @@
 ---
 title: 使用 Aspose.HTML 微调 .NET 中的转换器
 linktitle: 在 .NET 中微调转换器
-second_title: Aspose.Slides .NET HTML 操作 API
+second_title: Aspose.HTML .NET HTML 操作 API
 description: 了解如何使用 Aspose.HTML for .NET 将 HTML 转换为 PDF、XPS 和图像。包含代码示例和常见问题解答的分步教程。
 type: docs
 weight: 16
@@ -18,7 +18,7 @@ Aspose.HTML for .NET 是一个功能强大的库，允许开发人员操作和�
 
 在我们深入研究示例之前，请确保您具备以下先决条件：
 
-- Aspose.HTML for .NET：您应该安装 Aspose.HTML for .NET 库。您可以从[下载链接](https://releases.aspose.com/html/net/).
+-  Aspose.HTML for .NET：您应该安装 Aspose.HTML for .NET 库。您可以从[下载链接](https://releases.aspose.com/html/net/).
 
 - 临时许可证（可选）：如果您没有有效许可证，您可以从以下位置获取临时许可证：[这里](https://purchase.aspose.com/temporary-license/).
 

@@ -1,7 +1,7 @@
 ---
 title: Create Stream Provider in .NET with Aspose.HTML
 linktitle: Create Stream Provider in .NET
-second_title: Aspose.Slides .NET HTML manipulation API
+second_title: Aspose.HTML .NET HTML manipulation API
 description: Learn how to use Aspose.HTML for .NET to manipulate HTML documents efficiently. Step-by-step tutorial for developers.
 type: docs
 weight: 11

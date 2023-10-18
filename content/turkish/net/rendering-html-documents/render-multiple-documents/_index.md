@@ -1,7 +1,7 @@
 ---
 title: Aspose.HTML ile .NET'te Birden Fazla Belgeyi Oluşturun
 linktitle: .NET'te Birden Çok Belge Oluşturma
-second_title: Aspose.Slides .NET HTML işleme API'si
+second_title: Aspose.HTML .NET HTML işleme API'si
 description: Aspose.HTML for .NET kullanarak birden fazla HTML belgesini işlemeyi öğrenin. Bu güçlü kitaplıkla belge işleme yeteneklerinizi artırın.
 type: docs
 weight: 14
@@ -48,7 +48,7 @@ using (var document2 = new Aspose.Html.HTMLDocument("<style>p { color: blue; }</
 }
 ```
 
- Yukarıdaki kodda iki HTML belgesi oluşturduk,`document` Ve`document2`, her biri farklı metin renklerine sahip basit bir paragraf içerir.
+Yukarıdaki kodda iki HTML belgesi oluşturduk,`document` Ve`document2`, her biri farklı metin renklerine sahip basit bir paragraf içerir.
 
 ## Adım 2: Birden Çok Belge Oluşturun
 

@@ -1,7 +1,7 @@
 ---
 title: Rendera MHTML som XPS i .NET med Aspose.HTML
 linktitle: Rendera MHTML som XPS i .NET
-second_title: Aspose.Slides .NET HTML manipulation API
+second_title: Aspose.HTML .NET HTML manipulation API
 description: Lär dig att rendera MHTML som XPS i .NET med Aspose.HTML. Förbättra dina HTML-manipuleringsfärdigheter och öka dina webbutvecklingsprojekt!
 type: docs
 weight: 13
@@ -9,7 +9,7 @@ url: /sv/net/rendering-html-documents/render-mhtml-as-xps/
 ---
 ## Introduktion
 
-webbutvecklingens dynamiska värld kan det göra stor skillnad att ha rätt verktyg och bibliotek till ditt förfogande. Om du arbetar med HTML-manipulation och rendering i .NET är Aspose.HTML för .NET ett kraftfullt bibliotek som kan förenkla dina uppgifter och förbättra dina möjligheter. I den här handledningen kommer vi att dyka djupt in i Aspose.HTML för .NET, dela upp exempel i hanterbara steg och ge tydliga förklaringar för var och en.
+I webbutvecklingens dynamiska värld kan det göra stor skillnad att ha rätt verktyg och bibliotek till ditt förfogande. Om du arbetar med HTML-manipulation och rendering i .NET är Aspose.HTML för .NET ett kraftfullt bibliotek som kan förenkla dina uppgifter och förbättra dina möjligheter. I den här handledningen kommer vi att dyka djupt in i Aspose.HTML för .NET, dela upp exempel i hanterbara steg och ge tydliga förklaringar för var och en.
 
 ## Förutsättningar
 
@@ -60,7 +60,7 @@ using (var renderer = new MhtmlRenderer())
 
 ### Steg 1: Datakataloginställning
 
- I den`dataDir` variabel, ersätta`"Your Data Directory"`med sökvägen till katalogen där ditt MHTML-dokument finns.
+ I den`dataDir` variabel, ersätta`"Your Data Directory"` med sökvägen till katalogen där ditt MHTML-dokument finns.
 
 ### Steg 2: Öppna MHTML-filen
 
@@ -76,7 +76,7 @@ using (var renderer = new MhtmlRenderer())
 
 ### Steg 5: Rendering
 
- Slutligen använder vi`renderer.Render` metod för att återge MHTML-dokumentet (öppnat i steg 2) till XPS-enheten (skapat i steg 3). Detta steg konverterar effektivt MHTML-dokumentet till XPS-format.
+ Slutligen använder vi`renderer.Render`metod för att återge MHTML-dokumentet (öppnat i steg 2) till XPS-enheten (skapat i steg 3). Detta steg konverterar effektivt MHTML-dokumentet till XPS-format.
 
 Genom att följa dessa steg kan du enkelt rendera MHTML-dokument som XPS-filer med Aspose.HTML för .NET.
 
@@ -96,7 +96,7 @@ Aspose.HTML for .NET är ett bibliotek som tillhandahåller HTML-manipulation oc
  Ja, du kan få tillgång till en gratis testversion av Aspose.HTML för .NET[här](https://releases.aspose.com/).
 
 ### Hur kan jag få support för Aspose.HTML för .NET?
- Du kan söka stöd och hjälp från Aspose.HTML-communityt på[forum](https://forum.aspose.com/).
+Du kan söka stöd och hjälp från Aspose.HTML-communityt på[forum](https://forum.aspose.com/).
 
 ### Kan jag köpa en tillfällig licens för Aspose.HTML för .NET?
  Ja, du kan få en tillfällig licens från köpsidan[här](https://purchase.aspose.com/temporary-license/).

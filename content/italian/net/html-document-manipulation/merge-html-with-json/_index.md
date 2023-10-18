@@ -1,7 +1,7 @@
 ---
 title: Unisci HTML con Json in .NET con Aspose.HTML
 linktitle: Unisci HTML con Json in .NET
-second_title: Aspose.Slides API di manipolazione HTML .NET
+second_title: Aspose.HTML .NET API di manipolazione HTML
 description: Impara a creare contenuti dinamici e web utilizzando Aspose.HTML per .NET. Potenzia la tua presenza online e coinvolgi il tuo pubblico.
 type: docs
 weight: 17
@@ -26,7 +26,7 @@ Ora suddividiamo il processo in più passaggi per una guida passo passo:
 
 ## Passaggio 1: documento modello HTML
 
-Innanzitutto, avrai bisogno di un documento modello HTML con cui desideri lavorare. Assicurati di avere il percorso della directory dei documenti HTML impostato nel tuo codice. Puoi farlo modificando il file`dataDir` variabile come segue:
+ Innanzitutto, avrai bisogno di un documento modello HTML con cui desideri lavorare. Assicurati di avere il percorso della directory dei documenti HTML impostato nel tuo codice. Puoi farlo modificando il file`dataDir` variabile come segue:
 
 ```csharp
 // Il percorso della directory dei documenti
@@ -65,7 +65,7 @@ string templateOutput = dataDir + "MergeHTMLWithJson_Output.html";
 Il passaggio finale consiste nell'utilizzare Aspose.HTML per .NET per unire il modello HTML con i dati XML. Ecco il codice per fare proprio questo:
 
 ```csharp
-//Unisci il modello HTML con i dati XML
+// Unisci il modello HTML con i dati XML
 Converter.ConvertTemplate(templateHtml, data, new TemplateLoadOptions(), templateOutput);
 ```
 
@@ -87,7 +87,7 @@ A1: Sì, Aspose.HTML per .NET offre strumenti e documentazione intuitivi, renden
 
 ### Q2: Dove posso trovare ulteriore documentazione ed esercitazioni?
 
-R2: È possibile trovare documentazione dettagliata ed esercitazioni all'indirizzo[Documentazione Aspose.HTML](https://reference.aspose.com/html/net/).
+ R2: È possibile trovare documentazione dettagliata ed esercitazioni all'indirizzo[Documentazione Aspose.HTML](https://reference.aspose.com/html/net/).
 
 ### Q3: Posso provare Aspose.HTML per .NET prima dell'acquisto?
 

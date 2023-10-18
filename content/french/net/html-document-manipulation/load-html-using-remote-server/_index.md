@@ -1,7 +1,7 @@
 ---
 title: Charger du HTML à l'aide d'un serveur distant dans .NET avec Aspose.HTML
 linktitle: Charger du HTML à l'aide d'un serveur distant dans .NET
-second_title: API de manipulation HTML Aspose.Slides .NET
+second_title: API de manipulation HTML Aspose.HTML .NET
 description: Libérez le potentiel d’Aspose.HTML pour .NET avec notre guide complet. Découvrez comment importer des espaces de noms, accéder à des documents HTML distants, et bien plus encore.
 type: docs
 weight: 12
@@ -38,7 +38,7 @@ Maintenant que vous avez réglé vos prérequis, il est temps d'importer les esp
 
 Lancez Visual Studio et ouvrez votre projet existant ou créez-en un nouveau, en fonction de vos besoins.
 
-### Étape 2 : ajouter une référence à Aspose.HTML
+### Étape 2 : Ajouter une référence à Aspose.HTML
 
 Pour importer la bibliothèque Aspose.HTML pour .NET, cliquez avec le bouton droit sur votre projet dans l'Explorateur de solutions, sélectionnez « Ajouter », puis choisissez « Référence ». Dans le gestionnaire de références, cliquez sur « Parcourir » et accédez à l'emplacement où vous avez installé la bibliothèque Aspose.HTML pour .NET. Ajoutez une référence à l'assembly "Aspose.HTML.dll".
 
@@ -62,7 +62,7 @@ Dans cet exemple, nous allons charger un document HTML depuis un serveur distant
 
 ### Étape 1 : initialiser un document HTML
 
- Pour commencer, vous devez initialiser un`HTMLDocument` en utilisant l'URL du document HTML distant.
+ Pour commencer, vous devez initialiser un`HTMLDocument`en utilisant l'URL du document HTML distant.
 
 ```csharp
 HTMLDocument document = new HTMLDocument(new Url(@"https://www.w3.org/TR/html5/"));

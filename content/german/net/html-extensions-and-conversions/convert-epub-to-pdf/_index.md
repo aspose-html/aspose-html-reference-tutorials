@@ -1,7 +1,7 @@
 ---
 title: Konvertieren Sie EPUB in PDF in .NET mit Aspose.HTML
 linktitle: Konvertieren Sie EPUB in PDF in .NET
-second_title: Aspose.Slides .NET HTML-Manipulations-API
+second_title: Aspose.HTML .NET HTML-Manipulations-API
 description: Erfahren Sie, wie Sie EPUB mit Aspose.HTML für .NET in PDF konvertieren. Diese Schritt-für-Schritt-Anleitung behandelt Anpassungsoptionen, FAQs und mehr für eine nahtlose Dokumentenkonvertierung.
 type: docs
 weight: 12
@@ -14,7 +14,7 @@ In diesem Tutorial erfahren Sie, wie Sie Aspose.HTML für .NET verwenden, um EPU
 
 Bevor Sie beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
 
-1.  Aspose.HTML für .NET: Stellen Sie sicher, dass Aspose.HTML für .NET in Ihrem .NET-Projekt installiert ist. Sie können es herunterladen unter[Hier](https://releases.aspose.com/html/net/).
+1. Aspose.HTML für .NET: Stellen Sie sicher, dass Aspose.HTML für .NET in Ihrem .NET-Projekt installiert ist. Sie können es herunterladen unter[Hier](https://releases.aspose.com/html/net/).
 
 2. Ihr Datenverzeichnis: Sie benötigen ein Datenverzeichnis, in dem Ihre EPUB-Dateien gespeichert sind.
 
@@ -56,7 +56,7 @@ Converter.ConvertEPUB(stream, options, "output.pdf");
 ```
 
 -  Erstellen Sie eine Instanz von`PdfSaveOptions` , um PDF-Konvertierungseinstellungen festzulegen.
--  Benutzen Sie die`Converter.ConvertEPUB`Methode zum Konvertieren von EPUB in PDF mit den angegebenen Optionen.
+-  Benutzen Sie die`Converter.ConvertEPUB` Methode zum Konvertieren von EPUB in PDF mit den angegebenen Optionen.
 - Speichern Sie das resultierende PDF als „output.pdf“.
 
 ## Geben Sie PDF-Speicheroptionen an

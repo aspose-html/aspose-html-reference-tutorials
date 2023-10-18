@@ -1,7 +1,7 @@
 ---
 title: Aspose.HTML ile HTML'yi .NET'te JPEG'e dönüştürün
 linktitle: .NET'te HTML'yi JPEG'e dönüştürün
-second_title: Aspose.Slides .NET HTML işleme API'si
+second_title: Aspose.HTML .NET HTML işleme API'si
 description: Aspose.HTML for .NET ile HTML'yi .NET'te JPEG'e nasıl dönüştüreceğinizi öğrenin. Aspose.HTML for .NET'in gücünden yararlanmaya yönelik adım adım kılavuz.
 type: docs
 weight: 17

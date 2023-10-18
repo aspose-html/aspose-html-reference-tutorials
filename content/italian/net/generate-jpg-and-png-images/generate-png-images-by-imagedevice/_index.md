@@ -1,7 +1,7 @@
 ---
 title: Genera immagini PNG da ImageDevice in .NET con Aspose.HTML
 linktitle: Genera immagini PNG tramite ImageDevice in .NET
-second_title: Aspose.Slides API di manipolazione HTML .NET
+second_title: Aspose.HTML .NET API di manipolazione HTML
 description: Impara a utilizzare Aspose.HTML per .NET per manipolare documenti HTML, convertire HTML in immagini e altro ancora. Tutorial passo passo con domande frequenti.
 type: docs
 weight: 11
@@ -14,7 +14,7 @@ Sei pronto a sfruttare la potenza di Aspose.HTML per .NET per creare straordinar
 
 Aspose.HTML per .NET è una libreria straordinaria che consente agli sviluppatori .NET di lavorare con documenti HTML senza sforzo. Sia che tu voglia convertire HTML in vari formati, estrarre dati da pagine Web o manipolare il contenuto HTML in modo programmatico, Aspose.HTML per .NET ti copre.
 
-In questo tutorial esploreremo gli aspetti chiave dell'utilizzo di Aspose.HTML per .NET, inclusa l'importazione di spazi dei nomi, prerequisiti e l'approfondimento di vari esempi. Forniremo un'analisi dettagliata di ciascun esempio per assicurarti di comprendere a fondo i concetti.
+In questo tutorial esploreremo gli aspetti chiave dell'utilizzo di Aspose.HTML per .NET, inclusa l'importazione di spazi dei nomi, prerequisiti e immersione in vari esempi. Forniremo un'analisi dettagliata di ciascun esempio per assicurarti di comprendere a fondo i concetti.
 
 ## Prerequisiti
 

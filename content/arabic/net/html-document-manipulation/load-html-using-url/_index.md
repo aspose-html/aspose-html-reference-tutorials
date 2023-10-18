@@ -1,7 +1,7 @@
 ---
 title: قم بتحميل HTML باستخدام URL في .NET باستخدام Aspose.HTML
 linktitle: قم بتحميل HTML باستخدام URL في .NET
-second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة HTML
+second_title: Aspose.HTML .NET واجهة برمجة تطبيقات معالجة HTML
 description: تعرف على كيفية الاستفادة من قوة Aspose.HTML لـ .NET. عزز تطوير الويب الخاص بك من خلال معالجة HTML وعرضها.
 type: docs
 weight: 13
@@ -20,7 +20,7 @@ url: /ar/net/html-document-manipulation/load-html-using-url/
 
 2. تم تثبيت الاستوديو المرئي
 
-تأكد من تثبيت Visual Studio، وهو بيئة تطوير متكاملة شائعة (IDE) لتطوير .NET، على نظامك. إذا لم يكن الأمر كذلك، يمكنك تنزيله من[هنا](https://visualstudio.microsoft.com/).
+ تأكد من تثبيت Visual Studio، وهو بيئة تطوير متكاملة شائعة (IDE) لتطوير .NET، على نظامك. إذا لم يكن الأمر كذلك، يمكنك تنزيله من[هنا](https://visualstudio.microsoft.com/).
 
 3. Aspose.HTML لـ .NET
 
@@ -110,4 +110,4 @@ Console.WriteLine(document.Body.InnerHTML);
 
 ### س5: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.HTML لـ .NET؟
    
- ج5: إذا كنت بحاجة إلى ترخيص مؤقت لمشروعك، يمكنك الحصول عليه[هنا](https://purchase.aspose.com/temporary-license/).
+ج5: إذا كنت بحاجة إلى ترخيص مؤقت لمشروعك، يمكنك الحصول عليه[هنا](https://purchase.aspose.com/temporary-license/).

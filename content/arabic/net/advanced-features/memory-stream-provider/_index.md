@@ -1,7 +1,7 @@
 ---
 title: موفر تدفق الذاكرة في .NET مع Aspose.HTML
 linktitle: موفر دفق الذاكرة في .NET
-second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة HTML
+second_title: Aspose.HTML .NET واجهة برمجة تطبيقات معالجة HTML
 description: تعرف على كيفية إنشاء مستندات HTML مذهلة في .NET باستخدام Aspose.HTML. اتبع برنامجنا التعليمي خطوة بخطوة واكتشف قوة معالجة HTML.
 type: docs
 weight: 12

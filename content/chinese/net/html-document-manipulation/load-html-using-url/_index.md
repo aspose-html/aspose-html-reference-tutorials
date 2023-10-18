@@ -1,7 +1,7 @@
 ---
 title: 使用 .NET 中的 URL 和 Aspose.HTML 加载 HTML
 linktitle: 在 .NET 中使用 URL 加载 HTML
-second_title: Aspose.Slides .NET HTML 操作 API
+second_title: Aspose.HTML .NET HTML 操作 API
 description: 了解如何利用 Aspose.HTML for .NET 的强大功能。通过 HTML 操作和渲染来促进您的 Web 开发。
 type: docs
 weight: 13
@@ -30,7 +30,7 @@ url: /zh/net/html-document-manipulation/load-html-using-url/
 
 文本编辑器对于编写和编辑代码至关重要。您可以选择您喜欢的文本编辑器，但 Visual Studio 还提供了代码编辑器以方便您使用。
 
-现在我们已经满足了先决条件，让我们深入了解如何开始使用 Aspose.HTML for .NET 的详细信息。
+现在我们已经满足了先决条件，让我们深入了解如何开始使用 Aspose.HTML for .NET。
 
 ## 导入命名空间
 
@@ -110,4 +110,4 @@ A2：是的，Aspose.HTML for .NET 用途广泛，可用于 Web 和桌面应用�
 
 ### Q5：如何获得 Aspose.HTML for .NET 的临时许可证？
    
- A5：如果您的项目需要临时许可证，您可以获得一个[这里](https://purchase.aspose.com/temporary-license/).
+A5：如果您的项目需要临时许可证，您可以获得一个[这里](https://purchase.aspose.com/temporary-license/).

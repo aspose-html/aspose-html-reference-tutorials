@@ -1,7 +1,7 @@
 ---
 title: قم بعرض HTML بتنسيق PNG في .NET باستخدام Aspose.HTML
 linktitle: تقديم HTML كـ PNG في .NET
-second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة HTML
+second_title: Aspose.HTML .NET واجهة برمجة تطبيقات معالجة HTML
 description: تعلم كيفية العمل مع Aspose.HTML لـ .NET. التعامل مع HTML، والتحويل إلى تنسيقات مختلفة، والمزيد. الغوص في هذا البرنامج التعليمي الشامل!
 type: docs
 weight: 10
@@ -62,7 +62,7 @@ using (var document = new Aspose.Html.HTMLDocument("<style>p { color: green; }</
 
 ### الخطوة 1: إنشاء كائن مستند HTML
 
- في هذه الخطوة نقوم بإنشاء`HTMLDocument`الكائن الذي يمثل مستند HTML. يمكنك تمرير محتوى HTML كسلسلة إلى المنشئ، ويمكنك أيضًا تحديد المسار الأساسي لحل المسارات النسبية.
+ في هذه الخطوة نقوم بإنشاء`HTMLDocument` الكائن الذي يمثل مستند HTML. يمكنك تمرير محتوى HTML كسلسلة إلى المنشئ، ويمكنك أيضًا تحديد المسار الأساسي لحل المسارات النسبية.
 
 ### الخطوة 2: إنشاء عارض HTML
 
@@ -74,7 +74,7 @@ using (var document = new Aspose.Html.HTMLDocument("<style>p { color: green; }</
 
 ## خاتمة
 
- في هذا البرنامج التعليمي، قدمنا لك Aspose.HTML لـ .NET وقدمنا تحليلاً لمثال التعليمات البرمجية. هذه مجرد بداية لما يمكنك تحقيقه باستخدام هذه المكتبة القوية. يمكنك استكشاف وثائقها واسعة النطاق[هنا](https://reference.aspose.com/html/net/) والوصول إلى موارد إضافية والدعم على[اطرح المنتديات](https://forum.aspose.com/).
+في هذا البرنامج التعليمي، قدمنا لك Aspose.HTML لـ .NET وقدمنا تحليلاً لمثال التعليمات البرمجية. هذه مجرد بداية لما يمكنك تحقيقه باستخدام هذه المكتبة القوية. يمكنك استكشاف وثائقها واسعة النطاق[هنا](https://reference.aspose.com/html/net/) والوصول إلى موارد إضافية والدعم على[اطرح المنتديات](https://forum.aspose.com/).
 
 إذا كانت لديك أية أسئلة أو كنت بحاجة إلى مساعدة فيما يتعلق بـ Aspose.HTML for .NET، فلا تتردد في التواصل مع مجتمع Aspose أو الرجوع إلى الوثائق للحصول على مزيد من الإرشادات.
 
@@ -93,4 +93,4 @@ using (var document = new Aspose.Html.HTMLDocument("<style>p { color: green; }</
     نعم، يمكنك تنزيل نسخة تجريبية مجانية من Aspose.HTML لـ .NET[هنا](https://releases.aspose.com/).
 
 ### أين يمكنني العثور على المزيد من البرامج التعليمية والوثائق؟
-    يمكنك استكشاف الوثائق والبرامج التعليمية الشاملة على الموقع[Aspose.HTML لصفحة وثائق .NET](https://reference.aspose.com/html/net/).
+   يمكنك استكشاف الوثائق والبرامج التعليمية الشاملة على الموقع[Aspose.HTML لصفحة وثائق .NET](https://reference.aspose.com/html/net/).

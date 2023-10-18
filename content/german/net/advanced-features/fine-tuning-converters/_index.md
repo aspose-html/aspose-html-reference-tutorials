@@ -1,7 +1,7 @@
 ---
 title: Feinabstimmung von Konvertern in .NET mit Aspose.HTML
 linktitle: Feinabstimmung von Konvertern in .NET
-second_title: Aspose.Slides .NET HTML-Manipulations-API
+second_title: Aspose.HTML .NET HTML-Manipulations-API
 description: Erfahren Sie, wie Sie mit Aspose.HTML für .NET HTML in PDF, XPS und Bilder konvertieren. Schritt-für-Schritt-Anleitung mit Codebeispielen und FAQs.
 type: docs
 weight: 16
@@ -18,9 +18,9 @@ In diesem Tutorial werden wir einige wesentliche Funktionen von Aspose.HTML für
 
 Bevor wir uns mit den Beispielen befassen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
 
-- Aspose.HTML für .NET: Sie sollten die Aspose.HTML für .NET-Bibliothek installiert haben. Sie können es hier herunterladen[Download-Link](https://releases.aspose.com/html/net/).
+-  Aspose.HTML für .NET: Sie sollten die Aspose.HTML für .NET-Bibliothek installiert haben. Sie können es hier herunterladen[Download-Link](https://releases.aspose.com/html/net/).
 
--  Temporäre Lizenz (optional): Wenn Sie keine gültige Lizenz haben, können Sie bei uns eine temporäre Lizenz erwerben[Hier](https://purchase.aspose.com/temporary-license/).
+- Temporäre Lizenz (optional): Wenn Sie keine gültige Lizenz haben, können Sie bei uns eine temporäre Lizenz erhalten[Hier](https://purchase.aspose.com/temporary-license/).
 
 Lassen Sie uns nun einige häufige Anwendungsfälle mit Aspose.HTML für .NET untersuchen.
 

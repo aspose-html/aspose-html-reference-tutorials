@@ -1,7 +1,7 @@
 ---
 title: دمج HTML مع XML في .NET باستخدام Aspose.HTML
 linktitle: دمج HTML مع XML في .NET
-second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة HTML
+second_title: Aspose.HTML .NET واجهة برمجة تطبيقات معالجة HTML
 description: تعلم كيفية استخدام Aspose.HTML لـ .NET. قم باستيراد مساحة الاسم، ودمج HTML مع XML، وعزز مهاراتك في تطوير الويب باستخدام هذا الدليل الشامل.
 type: docs
 weight: 18
@@ -16,11 +16,11 @@ url: /ar/net/html-document-manipulation/merge-html-with-xml/
 
 1. بيئة تطوير .NET
 
- ستحتاج إلى بيئة تطوير .NET عاملة على جهازك. إذا لم تكن قد قمت بتثبيته، انتقل إلى[موقع مايكروسوفت](https://docs.microsoft.com/en-us/dotnet/core/install/) للحصول على تعليمات مفصلة.
+ستحتاج إلى بيئة تطوير .NET عاملة على جهازك. إذا لم تكن قد قمت بتثبيته، انتقل إلى[موقع مايكروسوفت](https://docs.microsoft.com/en-us/dotnet/core/install/) للحصول على تعليمات مفصلة.
 
 2. Aspose.HTML لمكتبة .NET
 
-قم بتنزيل مكتبة Aspose.HTML for .NET من قسم التنزيل بموقع الويب على[هنا](https://releases.aspose.com/html/net/). يمكنك اختيار الإصدار الذي يناسب متطلبات مشروعك.
+ قم بتنزيل مكتبة Aspose.HTML for .NET من قسم التنزيل بموقع الويب على[هنا](https://releases.aspose.com/html/net/). يمكنك اختيار الإصدار الذي يناسب متطلبات مشروعك.
 
 3. ملفات القالب
 
@@ -60,7 +60,7 @@ using Aspose.Html;
 
 ### الخطوة 2: تحديد دليل البيانات
 
-قم بتعيين المسار إلى دليل البيانات الخاص بك، حيث يوجد قالب HTML وملفات بيانات XML. ستحتاج إلى هذا المسار لمعالجة الملف. على سبيل المثال:
+قم بتعيين المسار إلى دليل البيانات الخاص بك، حيث يوجد قالب HTML وملفات بيانات XML. ستحتاج إلى هذا المسار لمعالجة الملفات. على سبيل المثال:
 
 ```csharp
 string dataDir = "Your Data Directory";

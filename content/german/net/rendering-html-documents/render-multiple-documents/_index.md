@@ -1,7 +1,7 @@
 ---
 title: Rendern Sie mehrere Dokumente in .NET mit Aspose.HTML
 linktitle: Rendern Sie mehrere Dokumente in .NET
-second_title: Aspose.Slides .NET HTML-Manipulations-API
+second_title: Aspose.HTML .NET HTML-Manipulations-API
 description: Erfahren Sie, wie Sie mehrere HTML-Dokumente mit Aspose.HTML für .NET rendern. Steigern Sie Ihre Fähigkeiten zur Dokumentenverarbeitung mit dieser leistungsstarken Bibliothek.
 type: docs
 weight: 14
@@ -48,7 +48,7 @@ using (var document2 = new Aspose.Html.HTMLDocument("<style>p { color: blue; }</
 }
 ```
 
- Im obigen Code haben wir zwei HTML-Dokumente erstellt:`document` Und`document2`, die jeweils einen einfachen Absatz mit unterschiedlichen Textfarben enthalten.
+Im obigen Code haben wir zwei HTML-Dokumente erstellt:`document` Und`document2`, die jeweils einen einfachen Absatz mit unterschiedlichen Textfarben enthalten.
 
 ## Schritt 2: Mehrere Dokumente rendern
 
@@ -66,7 +66,7 @@ using (XpsDevice device = new XpsDevice(dataDir + @"document_out.xps"))
 
 ## Schritt 3: Führen Sie den Code aus
 
- Nachdem wir nun unseren Code zum Erstellen, Laden und Rendern mehrerer HTML-Dokumente geschrieben haben, können Sie ihn in Ihrer .NET-Entwicklungsumgebung ausführen. Unbedingt austauschen`"Your Data Directory"` mit dem tatsächlichen Pfad, in dem Sie die Ausgabe speichern möchten.
+ Nachdem wir nun unseren Code zum Erstellen, Laden und Rendern mehrerer HTML-Dokumente geschrieben haben, können Sie ihn in Ihrer .NET-Entwicklungsumgebung ausführen. Unbedingt ersetzen`"Your Data Directory"` mit dem tatsächlichen Pfad, in dem Sie die Ausgabe speichern möchten.
 
 Nach der Ausführung des Codes finden Sie das gerenderte XPS-Dokument im angegebenen Verzeichnis.
 

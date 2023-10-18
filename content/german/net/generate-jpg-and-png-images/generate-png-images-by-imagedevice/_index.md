@@ -1,7 +1,7 @@
 ---
 title: Generieren Sie PNG-Bilder von ImageDevice in .NET mit Aspose.HTML
 linktitle: Generieren Sie PNG-Bilder von ImageDevice in .NET
-second_title: Aspose.Slides .NET HTML-Manipulations-API
+second_title: Aspose.HTML .NET HTML-Manipulations-API
 description: Erfahren Sie, wie Sie mit Aspose.HTML für .NET HTML-Dokumente bearbeiten, HTML in Bilder konvertieren und vieles mehr. Schritt-für-Schritt-Anleitung mit FAQs.
 type: docs
 weight: 11
@@ -38,7 +38,7 @@ Die Installation von Visual Studio ist zwar nicht zwingend erforderlich, kann de
 
 Nachdem Sie nun alle Voraussetzungen erfüllt haben, beginnen wir mit der Erkundung von Aspose.HTML für .NET.
 
-## Namespaces importieren
+## Namensräume importieren
 
 Bevor Sie Aspose.HTML für .NET effektiv nutzen können, ist es wichtig, die erforderlichen Namespaces in Ihr Projekt zu importieren. Dieser Schritt ist von entscheidender Bedeutung, da er Ihrem Code ermöglicht, nahtlos auf die Funktionalität der Bibliothek zuzugreifen.
 

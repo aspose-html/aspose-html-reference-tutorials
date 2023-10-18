@@ -1,7 +1,7 @@
 ---
 title: Aspose.HTML ile HTML'yi .NET'te GIF'e dönüştürün
 linktitle: .NET'te HTML'yi GIF'e dönüştürün
-second_title: Aspose.Slides .NET HTML işleme API'si
+second_title: Aspose.HTML .NET HTML işleme API'si
 description: HTML'yi GIF'e dönüştürmek için adım adım kılavuz. Önkoşullar, kod örnekleri, SSS'ler ve daha fazlası! Aspose.HTML ile HTML manipülasyonunuzu optimize edin.
 type: docs
 weight: 16

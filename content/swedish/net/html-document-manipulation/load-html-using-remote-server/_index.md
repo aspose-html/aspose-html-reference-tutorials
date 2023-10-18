@@ -1,7 +1,7 @@
 ---
 title: Ladda HTML med hjälp av en fjärrserver i .NET med Aspose.HTML
 linktitle: Ladda HTML med hjälp av en fjärrserver i .NET
-second_title: Aspose.Slides .NET HTML manipulation API
+second_title: Aspose.HTML .NET HTML manipulation API
 description: Lås upp potentialen hos Aspose.HTML för .NET med vår omfattande guide. Lär dig hur du importerar namnområden, kommer åt fjärranslutna HTML-dokument och mer.
 type: docs
 weight: 12
@@ -58,11 +58,11 @@ Nu när du har lagt grunden, låt oss utforska några praktiska exempel med Aspo
 
 ### Laddar HTML från en fjärrserver
 
-det här exemplet laddar vi ett HTML-dokument från en fjärrserver.
+I det här exemplet laddar vi ett HTML-dokument från en fjärrserver.
 
 ### Steg 1: Initiera ett HTML-dokument
 
- För att komma igång måste du initiera en`HTMLDocument` med URL-adressen till fjärr-HTML-dokumentet.
+ För att komma igång måste du initiera en`HTMLDocument`med URL-adressen till fjärr-HTML-dokumentet.
 
 ```csharp
 HTMLDocument document = new HTMLDocument(new Url(@"https://www.w3.org/TR/html5/"));

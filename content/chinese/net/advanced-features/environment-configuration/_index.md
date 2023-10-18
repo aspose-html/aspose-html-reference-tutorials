@@ -1,7 +1,7 @@
 ---
 title: 使用 Aspose.HTML 在 .NET 中配置环境
 linktitle: .NET中的环境配置
-second_title: Aspose.Slides .NET HTML 操作 API
+second_title: Aspose.HTML .NET HTML 操作 API
 description: 了解如何使用 Aspose.HTML 在 .NET 中处理 HTML 文档，以执行脚本管理、自定义样式、JavaScript 执行控制等任务。这个综合教程提供了分步示例和常见问题解答，以帮助您入门。
 type: docs
 weight: 10

@@ -1,7 +1,7 @@
 ---
 title: HTML 扩展和转换
 linktitle: HTML 扩展和转换
-second_title: Aspose.Slides .NET HTML 操作 API
+second_title: Aspose.HTML .NET HTML 操作 API
 description: 了解使用 Aspose.HTML for .NET 的 HTML 扩展和转换教程。通过这些综合教程了解如何优化 Web 开发。
 type: docs
 weight: 20

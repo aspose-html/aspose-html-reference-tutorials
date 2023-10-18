@@ -1,7 +1,7 @@
 ---
 title: Advanced Features
 linktitle: Advanced Features
-second_title: Aspose.Slides .NET HTML manipulation API
+second_title: Aspose.HTML .NET HTML manipulation API
 description: Unlock advanced .NET features with Aspose.HTML! From environment configuration to web scraping, explore comprehensive tutorials for powerful web development.
 type: docs
 weight: 24

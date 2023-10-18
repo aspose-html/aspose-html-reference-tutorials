@@ -1,7 +1,7 @@
 ---
 title: Fonctionnalités avancées
 linktitle: Fonctionnalités avancées
-second_title: API de manipulation HTML Aspose.Slides .NET
+second_title: API de manipulation HTML Aspose.HTML .NET
 description: Débloquez des fonctionnalités .NET avancées avec Aspose.HTML ! De la configuration de l'environnement au web scraping, explorez des didacticiels complets pour un développement Web puissant.
 type: docs
 weight: 24

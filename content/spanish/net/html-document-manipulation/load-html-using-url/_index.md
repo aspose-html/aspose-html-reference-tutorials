@@ -1,7 +1,7 @@
 ---
 title: Cargue HTML usando URL en .NET con Aspose.HTML
 linktitle: Cargar HTML usando URL en .NET
-second_title: Aspose.Slides API de manipulación HTML .NET
+second_title: Aspose.HTML .NET API de manipulación de HTML
 description: Aprenda cómo aprovechar el poder de Aspose.HTML para .NET. Impulsa tu desarrollo web con manipulación y renderizado HTML.
 type: docs
 weight: 13
@@ -20,7 +20,7 @@ Tener un conocimiento sólido de C# y .NET Framework es fundamental. Si es nuevo
 
 2. Visual Studio instalado
 
-Asegúrese de tener Visual Studio, un popular entorno de desarrollo integrado (IDE) para el desarrollo .NET, instalado en su sistema. Si no, puedes descargarlo desde[aquí](https://visualstudio.microsoft.com/).
+ Asegúrese de tener Visual Studio, un popular entorno de desarrollo integrado (IDE) para el desarrollo .NET, instalado en su sistema. Si no, puedes descargarlo desde[aquí](https://visualstudio.microsoft.com/).
 
 3. Aspose.HTML para .NET
 
@@ -110,4 +110,4 @@ R2: Sí, Aspose.HTML para .NET es versátil y se puede utilizar tanto en aplicac
 
 ### P5: ¿Cómo obtengo una licencia temporal de Aspose.HTML para .NET?
    
- R5: Si necesita una licencia temporal para su proyecto, puede obtener una[aquí](https://purchase.aspose.com/temporary-license/).
+R5: Si necesita una licencia temporal para su proyecto, puede obtener una[aquí](https://purchase.aspose.com/temporary-license/).

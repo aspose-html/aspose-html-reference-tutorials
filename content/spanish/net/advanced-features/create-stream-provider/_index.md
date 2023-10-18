@@ -1,7 +1,7 @@
 ---
 title: Crear proveedor de transmisión en .NET con Aspose.HTML
 linktitle: Crear proveedor de transmisión en .NET
-second_title: Aspose.Slides API de manipulación HTML .NET
+second_title: Aspose.HTML .NET API de manipulación de HTML
 description: Aprenda a utilizar Aspose.HTML para .NET para manipular documentos HTML de manera eficiente. Tutorial paso a paso para desarrolladores.
 type: docs
 weight: 11
@@ -17,9 +17,9 @@ Aspose.HTML para .NET es una biblioteca versátil que permite a los desarrollado
 
 Antes de sumergirse en el tutorial, asegúrese de cumplir con los siguientes requisitos previos:
 
-1.  Visual Studio: para comenzar con Aspose.HTML para .NET, necesitará tener Visual Studio instalado en su máquina. Puedes descargarlo[aquí](https://visualstudio.microsoft.com/).
+1. Visual Studio: para comenzar con Aspose.HTML para .NET, necesitará tener Visual Studio instalado en su máquina. Puedes descargarlo[aquí](https://visualstudio.microsoft.com/).
 
-2. Aspose.HTML para la biblioteca .NET: descargue e instale la biblioteca Aspose.HTML para .NET. Puedes obtenerlo de[aquí](https://releases.aspose.com/html/net/).
+2.  Aspose.HTML para la biblioteca .NET: descargue e instale la biblioteca Aspose.HTML para .NET. Puedes obtenerlo de[aquí](https://releases.aspose.com/html/net/).
 
 3. Conocimientos básicos de C#: una comprensión fundamental de la programación en C# será beneficiosa para seguir los ejemplos de código.
 
@@ -51,7 +51,7 @@ Ahora, dividamos el ejemplo de código proporcionado en varios pasos y expliquem
 string dataDir = "Your Data Directory";
 ```
 
- En este paso, usted define una variable`dataDir` para especificar el directorio donde se guardará el archivo de salida. Asegúrate de reemplazar`"Your Data Directory"`con la ruta real al directorio deseado.
+En este paso, usted define una variable`dataDir` para especificar el directorio donde se guardará el archivo de salida. Asegúrate de reemplazar`"Your Data Directory"` con la ruta real al directorio deseado.
 
 ### Paso 2: cree un StreamProvider personalizado
 
@@ -81,7 +81,7 @@ using (HTMLDocument document = new HTMLDocument())
 document.Body.AppendChild(document.CreateTextNode("Hello world!!!"));
 ```
 
-Esta línea agrega un simple "¡¡¡Hola mundo!!!" texto al documento HTML. Puede modificar este contenido según sus requisitos.
+Esta línea agrega un simple "¡¡¡Hola mundo!!!" texto al documento HTML. Puede modificar este contenido según sus necesidades.
 
 ### Paso 5: convertir HTML a XPS
 
@@ -89,7 +89,7 @@ Esta línea agrega un simple "¡¡¡Hola mundo!!!" texto al documento HTML. Pued
 Aspose.Html.Converters.Converter.ConvertHTML(document, new XpsSaveOptions(), streamProvider);
 ```
 
- Aquí se utiliza el`Converter` clase para convertir el documento HTML al formato XPS. El`XpsSaveOptions()` proporciona configuraciones para la conversión, y`streamProvider` gestiona la salida.
+ Aquí se utiliza el`Converter` clase para convertir el documento HTML al formato XPS. El`XpsSaveOptions()`proporciona configuraciones para la conversión, y`streamProvider` gestiona la salida.
 
 ### Paso 6: guarde la salida
 
@@ -119,7 +119,7 @@ R1: Aspose.HTML para .NET es una poderosa biblioteca que permite a los desarroll
 
 ### P2. ¿Dónde puedo descargar Aspose.HTML para .NET?
 
- A2: Puede descargar la biblioteca desde[este enlace](https://releases.aspose.com/html/net/).
+A2: Puede descargar la biblioteca desde[este enlace](https://releases.aspose.com/html/net/).
 
 ### P3. ¿Hay una prueba gratuita disponible?
 

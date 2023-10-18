@@ -1,7 +1,7 @@
 ---
 title: Carica documenti HTML con credenziali in .NET con Aspose.HTML
 linktitle: Carica documenti HTML con credenziali in .NET
-second_title: Aspose.Slides API di manipolazione HTML .NET
+second_title: Aspose.HTML .NET API di manipolazione HTML
 description: Scopri come potenziare il tuo SEO con Aspose.HTML per .NET. Migliora il posizionamento, analizza i contenuti web e ottimizza per i motori di ricerca.
 type: docs
 weight: 11
@@ -16,7 +16,7 @@ Prima di immergerti nel mondo di Aspose.HTML per .NET e l'ottimizzazione SEO, de
 
 1. Ambiente .NET
 
-Per utilizzare Aspose.HTML per .NET, è necessario disporre di un ambiente .NET funzionante. Ciò include l'installazione di Visual Studio o qualsiasi altro ambiente di sviluppo .NET che preferisci.
+Per utilizzare Aspose.HTML per .NET, è necessario disporre di un ambiente .NET funzionante configurato. Ciò include l'installazione di Visual Studio o qualsiasi altro ambiente di sviluppo .NET che preferisci.
 
 2. Aspose.HTML per .NET
 

@@ -1,7 +1,7 @@
 ---
 title: قم بتحويل HTML إلى TIFF في .NET باستخدام Aspose.HTML
 linktitle: تحويل HTML إلى TIFF في .NET
-second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة HTML
+second_title: Aspose.HTML .NET واجهة برمجة تطبيقات معالجة HTML
 description: تعرف على كيفية تحويل HTML إلى TIFF باستخدام Aspose.HTML لـ .NET. اتبع دليلنا خطوة بخطوة لتحسين محتوى الويب بكفاءة.
 type: docs
 weight: 21
@@ -26,7 +26,7 @@ using Aspose.Html;
 
 ## الخطوة 1: مصدر مستند HTML
 
-لبدء التحويل، ستحتاج إلى مستند HTML المصدر الذي تريد تحويله. تأكد من أن لديك المسار إلى هذا المستند في متناول يدك. إليك كيفية تهيئته في التعليمات البرمجية الخاصة بك:
+لبدء التحويل، ستحتاج إلى مستند HTML المصدر الذي تريد تحويله. تأكد من أن لديك المسار إلى هذا المستند في متناول يديك. إليك كيفية تهيئته في التعليمات البرمجية الخاصة بك:
 
 ```csharp
 string dataDir = "Your Data Directory";
@@ -74,7 +74,7 @@ Converter.ConvertHTML(htmlDocument, options, outputFile);
 ## الأسئلة الشائعة
 
 ### أين يمكنني العثور على الوثائق الخاصة بـ Aspose.HTML لـ .NET؟
-يمكنك الوصول إلى الوثائق[هنا](https://reference.aspose.com/html/net/).
+ يمكنك الوصول إلى الوثائق[هنا](https://reference.aspose.com/html/net/).
 
 ### كيف يمكنني تنزيل Aspose.HTML لـ .NET؟
  يمكنك تنزيله من[هذا الرابط](https://releases.aspose.com/html/net/).

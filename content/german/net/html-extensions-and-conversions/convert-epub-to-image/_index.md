@@ -1,7 +1,7 @@
 ---
 title: Konvertieren Sie EPUB in ein Bild in .NET mit Aspose.HTML
 linktitle: Konvertieren Sie EPUB in ein Bild in .NET
-second_title: Aspose.Slides .NET HTML-Manipulations-API
+second_title: Aspose.HTML .NET HTML-Manipulations-API
 description: Erfahren Sie, wie Sie EPUB mit Aspose.HTML für .NET in Bilder konvertieren. Schritt-für-Schritt-Anleitung mit Codebeispielen und anpassbaren Optionen.
 type: docs
 weight: 11
@@ -107,7 +107,7 @@ Sie können die Bildausgabe anpassen, indem Sie Optionen wie Seitengröße und H
 2.  Öffnen Sie die EPUB-Datei zum Lesen mit a`FileStream`.
 3.  Erstelle ein`ImageSaveOptions` Objekt und geben Sie das gewünschte Ausgabeformat (JPEG) an.
 4. Passen Sie bei Bedarf die Seitengröße und Hintergrundfarbe an.
-5.  Ruf den`ConvertEPUB` -Methode und übergibt den EPUB-Stream, die Bildspeicheroptionen und den Namen der Ausgabedatei.
+5.  Ruf den`ConvertEPUB`-Methode und übergibt den EPUB-Stream, die Bildspeicheroptionen und den Namen der Ausgabedatei.
 6. Die EPUB-Datei wird mit den angegebenen Optionen in ein Bild konvertiert.
 
 ## Geben Sie einen benutzerdefinierten Stream-Anbieter an
@@ -174,7 +174,7 @@ class MemoryStreamProvider : Aspose.Html.IO.ICreateStreamProvider
 1.  Geben Sie den Pfad zu Ihrer EPUB-Datei an`dataDir` Variable.
 2.  Öffnen Sie die EPUB-Datei zum Lesen mit a`FileStream`.
 3.  Ein ... kreieren`MemoryStreamProvider` um benutzerdefinierte Ausgabeströme zu verarbeiten.
-4.  Ruf den`ConvertEPUB`-Methode, die den EPUB-Stream, die Bildspeicheroptionen (JPEG) und den benutzerdefinierten Stream-Anbieter übergibt.
+4.  Ruf den`ConvertEPUB` -Methode, die den EPUB-Stream, die Bildspeicheroptionen (JPEG) und den benutzerdefinierten Stream-Anbieter übergibt.
 5. Durchlaufen Sie die Speicherströme im benutzerdefinierten Anbieter und speichern Sie sie in einzelnen Dateien.
 6. In diesem Beispiel können Sie mehrere Ausgabestreams nach Bedarf bearbeiten und speichern.
 

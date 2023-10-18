@@ -1,7 +1,7 @@
 ---
 title: Editar un documento en .NET con Aspose.HTML
 linktitle: Editar un documento en .NET
-second_title: Aspose.Slides API de manipulación HTML .NET
+second_title: Aspose.HTML .NET API de manipulación de HTML
 description: Aprenda a trabajar con documentos HTML en .NET usando Aspose.HTML. Este completo tutorial cubre la creación, manipulación y estilo de documentos. ¡Empieza ahora!
 type: docs
 weight: 12
@@ -211,7 +211,7 @@ En este tutorial, cubrimos los fundamentos del uso de Aspose.HTML para .NET para
 ## Preguntas frecuentes (FAQ)
 
 ### ¿Qué es Aspose.HTML para .NET?
-Aspose.HTML para .NET es una poderosa biblioteca para trabajar con documentos HTML en aplicaciones .NET.
+Aspose.HTML para .NET es una potente biblioteca para trabajar con documentos HTML en aplicaciones .NET.
 
 ### ¿Dónde puedo descargar Aspose.HTML para .NET?
  Puede descargar Aspose.HTML para .NET desde[aquí](https://releases.aspose.com/html/net/).

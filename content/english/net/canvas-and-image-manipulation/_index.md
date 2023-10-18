@@ -1,7 +1,7 @@
 ---
 title: Canvas and Image Manipulation
 linktitle: Canvas and Image Manipulation
-second_title: Aspose.Slides .NET HTML manipulation API
+second_title: Aspose.HTML .NET HTML manipulation API
 description: Learn to manipulate images with Aspose.HTML for .NET through step-by-step tutorials. Discover the power of canvas and image editing.
 type: docs
 weight: 22

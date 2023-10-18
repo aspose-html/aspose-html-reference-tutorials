@@ -26,3 +26,21 @@ is_root: true
 - [الترخيص والتهيئة](./net/licensing-and-initialization/)
 - [توليد صور JPG وPNG](./net/generate-jpg-and-png-images/)
 - [تقديم مستندات HTML](./net/rendering-html-documents/)
+
+## Aspose.HTML لدروس جافا
+{{% alert color="primary" %}}
+استكشف مجموعة شاملة من البرامج التعليمية على Aspose.HTML لـ Java، والتي تقدم إرشادات ورؤى متعمقة حول الميزات المتنوعة لهذه المكتبة القوية. سواء كنت مطورًا يتطلع إلى تخصيص هوامش صفحة HTML، أو تنفيذ DOM Mutation Observer، أو التعامل مع HTML5 Canvas، أو أتمتة ملء نماذج HTML، أو إتقان فن تحويل التنسيقات المختلفة مثل EPUB إلى صور وPDF، فإن هذه البرامج التعليمية توفر خطوة بخطوة- تعليمات الخطوة وأمثلة التعليمات البرمجية لتعزيز مهارات معالجة HTML لديك. أطلق العنان للإمكانات الكاملة لـ Aspose.HTML لـ Java وقم بتبسيط مهام تطوير الويب وتحويل المستندات بسهولة. 
+{{% /alert %}}
+
+وهذه روابط لبعض الموارد المفيدة:
+ 
+- [الاستخدام المتقدم لـ Aspose.HTML Java](./java/advanced-usage/)
+- [التحويل - قماش إلى PDF](./java/conversion-canvas-to-pdf/)
+- [التحويل - EPUB إلى صورة وPDF](./java/conversion-epub-to-image-and-pdf/)
+- [التحويل - EPUB إلى XPS](./java/conversion-epub-to-xps/)
+- [التحويل - HTML إلى تنسيقات الصور المختلفة](./java/conversion-html-to-various-image-formats/)
+- [التحويل - HTML إلى صيغ أخرى](./java/conversion-html-to-other-formats/)
+- [التحويل بين EPUB وتنسيقات الصور](./java/converting-between-epub-and-image-formats/)
+- [تحويل EPUB إلى PDF](./java/converting-epub-to-pdf/)
+- [تحويل EPUB إلى XPS](./java/converting-epub-to-xps/)
+- [تحويل HTML إلى صيغ الصور المختلفة](./java/converting-html-to-various-image-formats/)

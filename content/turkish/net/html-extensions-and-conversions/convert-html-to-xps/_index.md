@@ -1,7 +1,7 @@
 ---
 title: Aspose.HTML ile HTML'yi .NET'te XPS'ye dönüştürün
 linktitle: .NET'te HTML'yi XPS'ye dönüştürün
-second_title: Aspose.Slides .NET HTML işleme API'si
+second_title: Aspose.HTML .NET HTML işleme API'si
 description: Aspose.HTML for .NET'in gücünü keşfedin. HTML'yi zahmetsizce XPS'ye dönüştürün. Önkoşullar, adım adım kılavuz ve SSS'ler dahildir.
 type: docs
 weight: 22

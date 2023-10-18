@@ -1,7 +1,7 @@
 ---
 title: استخدام قوالب HTML في .NET مع Aspose.HTML
 linktitle: استخدام قوالب HTML في .NET
-second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة HTML
+second_title: Aspose.HTML .NET واجهة برمجة تطبيقات معالجة HTML
 description: تعرف على كيفية استخدام Aspose.HTML لـ .NET لإنشاء مستندات HTML ديناميكيًا من بيانات JSON. استغل قوة معالجة HTML في تطبيقات .NET الخاصة بك.
 type: docs
 weight: 17
@@ -97,7 +97,7 @@ var template = @"
 System.IO.File.WriteAllText("template.html", template);
 ```
 
- يتضمن قالب HTML هذا عناصر نائبة مثل`{{FirstName}}`, `{{LastName}}`, `{{Address.Street}}`, `{{Address.Number}}` ، و`{{Address.City}}`، والتي سنقوم باستبدالها بالبيانات الفعلية.
+ يتضمن قالب HTML هذا عناصر نائبة مثل`{{FirstName}}`, `{{LastName}}`, `{{Address.Street}}`, `{{Address.Number}}`، و`{{Address.City}}`، والتي سنقوم باستبدالها بالبيانات الفعلية.
 
 ## الخطوة 3: ملء قالب HTML
 
@@ -129,11 +129,11 @@ Aspose.Html.Converters.Converter.ConvertTemplate(
 
 ### س3. كيف يمكنني تنزيل Aspose.HTML لـ .NET؟
 
- ج3: يمكنك تنزيل Aspose.HTML لـ .NET من صفحة التنزيل[هنا](https://releases.aspose.com/html/net/).
+ج3: يمكنك تنزيل Aspose.HTML لـ .NET من صفحة التنزيل[هنا](https://releases.aspose.com/html/net/).
 
 ### س 4. هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.HTML لـ .NET؟
 
-ج4: نعم، يمكنك تجربة Aspose.HTML for .NET عن طريق تنزيل الإصدار التجريبي المجاني من[هنا](https://releases.aspose.com/).
+ ج4: نعم، يمكنك تجربة Aspose.HTML for .NET عن طريق تنزيل الإصدار التجريبي المجاني من[هنا](https://releases.aspose.com/).
 
 ### س5. هل أحتاج إلى ترخيص مؤقت لـ Aspose.HTML لـ .NET؟
 

@@ -1,7 +1,7 @@
 ---
 title: Convertir SVG en PDF dans .NET avec Aspose.HTML
 linktitle: Convertir SVG en PDF dans .NET
-second_title: API de manipulation HTML Aspose.Slides .NET
+second_title: API de manipulation HTML Aspose.HTML .NET
 description: Découvrez comment convertir SVG en PDF avec Aspose.HTML pour .NET. Tutoriel étape par étape de haute qualité pour un traitement efficace des documents.
 type: docs
 weight: 12
@@ -87,7 +87,7 @@ A1 : Aspose.HTML pour .NET est une bibliothèque puissante qui permet aux déve
 
 ### Q2 : L'utilisation d'Aspose.HTML pour .NET est-elle gratuite ?
 
- A2 : Aspose.HTML pour .NET propose un essai gratuit, mais pour une utilisation complète des fonctionnalités et en production, une licence est requise. Vous pouvez obtenir un[permis temporaire](https://purchase.aspose.com/temporary-license/) pour tester.
+ A2 : Aspose.HTML pour .NET propose un essai gratuit, mais pour une utilisation complète des fonctionnalités et en production, une licence est requise. Vous pouvez obtenir un[permis temporaire](https://purchase.aspose.com/temporary-license/) pour tester.
 
 ### Q3 : Puis-je personnaliser les paramètres de conversion PDF ?
 

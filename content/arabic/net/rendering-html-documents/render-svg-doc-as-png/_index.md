@@ -1,7 +1,7 @@
 ---
 title: قم بعرض SVG Doc بتنسيق PNG في .NET باستخدام Aspose.HTML
 linktitle: قم بعرض SVG Doc بتنسيق PNG في .NET
-second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة HTML
+second_title: Aspose.HTML .NET واجهة برمجة تطبيقات معالجة HTML
 description: أطلق العنان لقوة Aspose.HTML لـ .NET! تعرف على كيفية عرض SVG Doc بصيغة PNG بسهولة. تعمق في الأمثلة والأسئلة الشائعة خطوة بخطوة. نبدأ الآن!
 type: docs
 weight: 15

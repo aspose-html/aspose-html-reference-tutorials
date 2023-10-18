@@ -1,7 +1,7 @@
 ---
 title: HTML Belgesi İşleme
 linktitle: HTML Belgesi İşleme
-second_title: Aspose.Slides .NET HTML işleme API'si
+second_title: Aspose.HTML .NET HTML işleme API'si
 description: Aspose.HTML for .NET'in HTML belgelerini verimli bir şekilde yönetmenizi nasıl sağladığını keşfedin. Süreç boyunca size yol gösterecek eğitimleri keşfedin.
 type: docs
 weight: 21

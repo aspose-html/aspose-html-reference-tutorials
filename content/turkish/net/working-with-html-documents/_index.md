@@ -1,7 +1,7 @@
 ---
 title: HTML Belgeleriyle Çalışmak
 linktitle: HTML Belgeleriyle Çalışmak
-second_title: Aspose.Slides .NET HTML işleme API'si
+second_title: Aspose.HTML .NET HTML işleme API'si
 description: Aspose.HTML ile .NET'te HTML belgesi oluşturma ve işleme dünyasını keşfedin. Basit belgeler oluşturmaktan derinlemesine düzenlemeye kadar.
 type: docs
 weight: 23

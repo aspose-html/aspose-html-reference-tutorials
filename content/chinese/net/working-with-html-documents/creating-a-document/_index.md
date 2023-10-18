@@ -1,7 +1,7 @@
 ---
 title: 使用 Aspose.HTML 在 .NET 中创建 HTML 文档
 linktitle: 在 .NET 中创建 HTML 文档
-second_title: Aspose.Slides .NET HTML 操作 API
+second_title: Aspose.HTML .NET HTML 操作 API
 description: 了解如何使用 Aspose.HTML 在 .NET 中从头开始或从 URL 创建 HTML 文档。面向 Web 开发人员的综合教程。
 type: docs
 weight: 10
@@ -149,7 +149,7 @@ Aspose.HTML for .NET 提供了一组强大的工具，用于在 .NET 应用程�
  A1：Aspose.HTML for .NET 提供免费试用版，但要完全使用，您需要购买许可证。您可以在以下位置找到更多详细信息：[https://purchase.aspose.com/buy](https://purchase.aspose.com/buy).
 
 ### 问题 2：如何获得 Aspose.HTML for .NET 的临时许可证？
- A2：如果您需要临时许可证，您可以在[https://purchase.aspose.com/temporary-license/](https://purchase.aspose.com/temporary-license/).
+A2：如果您需要临时许可证，您可以在[https://purchase.aspose.com/temporary-license/](https://purchase.aspose.com/temporary-license/).
 
 ### 问题 3：在哪里可以找到 Aspose.HTML for .NET 的文档？
  A3：文档可以在以下位置找到：[https://reference.aspose.com/html/net/](https://reference.aspose.com/html/net/).

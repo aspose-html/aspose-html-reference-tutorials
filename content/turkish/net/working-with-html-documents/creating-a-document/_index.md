@@ -1,7 +1,7 @@
 ---
 title: Aspose.HTML ile .NET'te HTML Belgesi Oluşturma
 linktitle: .NET'te HTML Belgesi Oluşturma
-second_title: Aspose.Slides .NET HTML işleme API'si
+second_title: Aspose.HTML .NET HTML işleme API'si
 description: Aspose.HTML kullanarak .NET'te sıfırdan veya URL'lerden HTML belgeleri oluşturmayı öğrenin. Web geliştiricileri için kapsamlı bir eğitim.
 type: docs
 weight: 10
@@ -149,7 +149,7 @@ Aspose.HTML for .NET, .NET uygulamalarınızda HTML belgeleri oluşturmanız ve 
  Cevap1: Aspose.HTML for .NET ücretsiz bir deneme sunuyor ancak tam kullanım için bir lisans satın almanız gerekecek. Daha fazla ayrıntıyı şu adreste bulabilirsiniz:[https://purchase.aspose.com/buy](https://purchase.aspose.com/buy).
 
 ### S2: Aspose.HTML for .NET için nasıl geçici lisans alabilirim?
- Cevap2: Geçici bir lisansa ihtiyacınız varsa, şu adresten bir tane alabilirsiniz:[https://purchase.aspose.com/temporary-license/](https://purchase.aspose.com/temporary-license/).
+Cevap2: Geçici bir lisansa ihtiyacınız varsa, şu adresten bir tane alabilirsiniz:[https://purchase.aspose.com/temporary-license/](https://purchase.aspose.com/temporary-license/).
 
 ### S3: Aspose.HTML for .NET belgelerini nerede bulabilirim?
  A3: Dokümantasyon şu adreste bulunabilir:[https://reference.aspose.com/html/net/](https://reference.aspose.com/html/net/).

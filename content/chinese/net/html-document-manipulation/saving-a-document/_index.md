@@ -1,7 +1,7 @@
 ---
 title: 使用 Aspose.HTML 在 .NET 中保存文档
 linktitle: 在 .NET 中保存文档
-second_title: Aspose.Slides .NET HTML 操作 API
+second_title: Aspose.HTML .NET HTML 操作 API
 description: 通过我们的分步指南释放 Aspose.HTML for .NET 的强大功能。学习创建、操作和转换 HTML 和 SVG 文档
 type: docs
 weight: 16
@@ -16,7 +16,7 @@ url: /zh/net/html-document-manipulation/saving-a-document/
 
 - 开发环境：确保您的计算机上安装了 Visual Studio 或任何其他 .NET 开发环境。
 
--  Aspose.HTML for .NET：您需要获取Aspose.HTML for .NET 库。您可以从以下位置下载：[这里](https://releases.aspose.com/html/net/).
+- Aspose.HTML for .NET：您需要获取Aspose.HTML for .NET 库。您可以从以下位置下载：[这里](https://releases.aspose.com/html/net/).
 
 - C# 知识：熟悉 C# 编程语言是有益的，但不是强制性的。本指南旨在适合初学者。
 

@@ -1,7 +1,7 @@
 ---
 title: Rendre MHTML au format XPS dans .NET avec Aspose.HTML
 linktitle: Rendre MHTML au format XPS dans .NET
-second_title: API de manipulation HTML Aspose.Slides .NET
+second_title: API de manipulation HTML Aspose.HTML .NET
 description: Apprenez à restituer MHTML au format XPS dans .NET avec Aspose.HTML. Améliorez vos compétences en manipulation HTML et boostez vos projets de développement web !
 type: docs
 weight: 13
@@ -60,7 +60,7 @@ using (var renderer = new MhtmlRenderer())
 
 ### Étape 1 : configuration du répertoire de données
 
- Dans le`dataDir` variable, remplacer`"Your Data Directory"`avec le chemin d'accès au répertoire où se trouve votre document MHTML.
+ Dans le`dataDir` variable, remplacer`"Your Data Directory"` avec le chemin d'accès au répertoire où se trouve votre document MHTML.
 
 ### Étape 2 : Ouverture du fichier MHTML
 
@@ -76,7 +76,7 @@ using (var renderer = new MhtmlRenderer())
 
 ### Étape 5 : Rendu
 
- Enfin, nous utilisons le`renderer.Render` méthode pour restituer le document MHTML (ouvert à l’étape 2) sur le périphérique XPS (créé à l’étape 3). Cette étape convertit efficacement le document MHTML au format XPS.
+ Enfin, nous utilisons le`renderer.Render`méthode pour restituer le document MHTML (ouvert à l’étape 2) sur le périphérique XPS (créé à l’étape 3). Cette étape convertit efficacement le document MHTML au format XPS.
 
 En suivant ces étapes, vous pouvez facilement restituer des documents MHTML sous forme de fichiers XPS à l'aide d'Aspose.HTML pour .NET.
 
@@ -96,7 +96,7 @@ Aspose.HTML for .NET est une bibliothèque qui fournit des fonctionnalités de m
  Oui, vous pouvez accéder à un essai gratuit d'Aspose.HTML pour .NET[ici](https://releases.aspose.com/).
 
 ### Comment puis-je obtenir de l’assistance pour Aspose.HTML pour .NET ?
- Vous pouvez demander le soutien et l'assistance de la communauté Aspose.HTML sur le[forum](https://forum.aspose.com/).
+Vous pouvez demander le soutien et l'assistance de la communauté Aspose.HTML sur le[forum](https://forum.aspose.com/).
 
 ### Puis-je acheter une licence temporaire pour Aspose.HTML pour .NET ?
  Oui, vous pouvez obtenir une licence temporaire depuis la page d'achat[ici](https://purchase.aspose.com/temporary-license/).

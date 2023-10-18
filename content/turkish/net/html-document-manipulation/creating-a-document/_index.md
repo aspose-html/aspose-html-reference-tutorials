@@ -1,7 +1,7 @@
 ---
 title: Aspose.HTML ile .NET'te Belge Oluşturma
 linktitle: .NET'te Belge Oluşturma
-second_title: Aspose.Slides .NET HTML işleme API'si
+second_title: Aspose.HTML .NET HTML işleme API'si
 description: .NET için Aspose.HTML'nin gücünü açığa çıkarın. HTML ve SVG Belgelerini Kolaylıkla Oluşturmayı, Düzenlemeyi ve Optimize Etmeyi Öğrenin. Adım Adım Örnekleri ve SSS'leri keşfedin.
 type: docs
 weight: 14
@@ -41,7 +41,7 @@ Bu ad alanlarının içe aktarılmasıyla artık adım adım örneklere dalmaya 
 // Boş bir HTML Belgesini başlatın.
 using (var document = new Aspose.Html.HTMLDocument())
 {
-    // Bir metin öğesi oluşturun ve bunu belgeye ekleyin
+    // Bir metin öğesi oluşturun ve onu belgeye ekleyin
     var text = document.CreateTextNode("Hello World!");
     document.Body.AppendChild(text);
     // Belgeyi diske kaydedin.

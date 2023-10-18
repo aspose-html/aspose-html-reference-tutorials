@@ -1,7 +1,7 @@
 ---
 title: 使用 Aspose.HTML 在 .NET 中异步加载 HTML 文档
 linktitle: 在 .NET 中异步加载 HTML 文档
-second_title: Aspose.Slides .NET HTML 操作 API
+second_title: Aspose.HTML .NET HTML 操作 API
 description: 了解如何使用 Aspose.HTML for .NET 处理 HTML 文档。为开发人员提供包含示例和常见问题解答的分步指南。
 type: docs
 weight: 10

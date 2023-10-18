@@ -1,7 +1,7 @@
 ---
 title: Aspose.HTML ile .NET'te Web Scraping
 linktitle: .NET'te Web Kazıma
-second_title: Aspose.Slides .NET HTML işleme API'si
+second_title: Aspose.HTML .NET HTML işleme API'si
 description: Aspose.HTML ile .NET'te HTML belgelerini yönetmeyi öğrenin. Gelişmiş web geliştirme için öğeleri etkili bir şekilde gezinin, filtreleyin, sorgulayın ve seçin.
 type: docs
 weight: 13
@@ -33,7 +33,7 @@ using Aspose.Html.Css;
 
 Önkoşullar mevcut ve ad alanları içe aktarıldıktan sonra, Aspose.HTML for .NET'in etkili bir şekilde nasıl kullanılacağını göstermek için bazı önemli örnekleri adım adım inceleyelim.
 
-## HTML'de Gezinmek
+## HTML'de Gezinme
 
 Bu örnekte, bir HTML belgesinde gezineceğiz ve öğelerine adım adım erişeceğiz.
 
@@ -50,7 +50,7 @@ public static void NavigateThroughHTML()
         var element = document.Body.FirstChild;
         Console.WriteLine(element.TextContent); // Çıktı: Merhaba
 
-        //HTML öğeleri arasındaki boşluklara referans alın
+        // HTML öğeleri arasındaki boşluklara referans alın
         element = element.NextSibling;
         Console.WriteLine(element.TextContent); // Çıktı: ' '
 
@@ -161,7 +161,7 @@ public static void CSSSelectorUsageExample()
     // Hazırlanan koda göre bir belgeyi başlatın
     using (var document = new HTMLDocument(code, "."))
     {
-        // Sınıf ve hiyerarşiye dayalı öğeleri çıkarmak için bir CSS seçici kullanın
+        //Sınıf ve hiyerarşiye dayalı öğeleri çıkarmak için bir CSS seçici kullanın
         var elements = document.QuerySelectorAll(".happy span");
         
         // Sonuçta ortaya çıkan öğe listesi üzerinde yineleme yapın
@@ -181,13 +181,13 @@ Bu örneklerle Aspose.HTML for .NET kullanarak HTML belgelerindeki öğelerin na
 
 ## Çözüm
 
-Aspose.HTML for .NET, .NET geliştiricilerinin HTML belgeleriyle verimli bir şekilde çalışmasını sağlayan çok yönlü bir kitaplıktır. Gezinme, filtreleme, sorgulama ve öğeleri seçmeye yönelik güçlü özellikleri sayesinde çeşitli HTML işleme görevlerini sorunsuz bir şekilde gerçekleştirebilirsiniz. Bu öğreticiyi takip ederek ve adresindeki belgeleri inceleyerek[Aspose.HTML for .NET Belgeleri](https://reference.aspose.com/html/net/).NET uygulamalarınız için bu aracın tüm potansiyelini ortaya çıkarabilirsiniz.
+ Aspose.HTML for .NET, .NET geliştiricilerinin HTML belgeleriyle verimli bir şekilde çalışmasını sağlayan çok yönlü bir kitaplıktır. Gezinme, filtreleme, sorgulama ve öğeleri seçmeye yönelik güçlü özellikleri sayesinde çeşitli HTML işleme görevlerini sorunsuz bir şekilde gerçekleştirebilirsiniz. Bu öğreticiyi takip ederek ve adresindeki belgeleri inceleyerek[Aspose.HTML for .NET Belgeleri](https://reference.aspose.com/html/net/).NET uygulamalarınız için bu aracın tüm potansiyelini ortaya çıkarabilirsiniz.
 
 ## SSS'ler
 
 ### S1. Aspose.HTML for .NET'in kullanımı ücretsiz mi?
 
- Cevap1: Aspose.HTML for .NET ücretsiz deneme sürümü sunuyor ancak üretim kullanımı için bir lisans satın almanız gerekecek. Lisanslama ayrıntılarını ve seçeneklerini şu adreste bulabilirsiniz:[Aspose.HTML Satın Alma](https://purchase.aspose.com/buy).
+Cevap1: Aspose.HTML for .NET ücretsiz deneme sürümü sunuyor ancak üretim kullanımı için bir lisans satın almanız gerekecek. Lisanslama ayrıntılarını ve seçeneklerini şu adreste bulabilirsiniz:[Aspose.HTML Satın Alma](https://purchase.aspose.com/buy).
 
 ### Q2. Aspose.HTML for .NET için nasıl geçici lisans alabilirim?
 

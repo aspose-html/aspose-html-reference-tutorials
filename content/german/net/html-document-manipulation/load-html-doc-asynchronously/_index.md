@@ -1,7 +1,7 @@
 ---
 title: Laden Sie HTML-Dokumente asynchron in .NET mit Aspose.HTML
 linktitle: Laden Sie HTML-Dokumente asynchron in .NET
-second_title: Aspose.Slides .NET HTML-Manipulations-API
+second_title: Aspose.HTML .NET HTML-Manipulations-API
 description: Erfahren Sie, wie Sie Aspose.HTML für .NET verwenden, um mit HTML-Dokumenten zu arbeiten. Schritt-für-Schritt-Anleitung mit Beispielen und FAQs für Entwickler.
 type: docs
 weight: 10
@@ -26,7 +26,7 @@ Auf Ihrem System sollte Visual Studio installiert sein, da wir in diesem Tutoria
 
 Grundlegende HTML-Kenntnisse sind hilfreich, aber nicht zwingend erforderlich. Aspose.HTML für .NET vereinfacht viele komplexe Aufgaben.
 
-## Namespaces importieren
+## Namensräume importieren
 
 Beginnen wir mit dem Importieren der erforderlichen Namespaces für die Arbeit mit Aspose.HTML für .NET. Dieser Schritt ist entscheidend für den Zugriff auf die Funktionen der Bibliothek.
 

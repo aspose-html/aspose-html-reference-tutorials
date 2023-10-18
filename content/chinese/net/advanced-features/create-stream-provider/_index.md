@@ -1,7 +1,7 @@
 ---
 title: 使用 Aspose.HTML 在 .NET 中创建流提供程序
 linktitle: 在 .NET 中创建流提供程序
-second_title: Aspose.Slides .NET HTML 操作 API
+second_title: Aspose.HTML .NET HTML 操作 API
 description: 了解如何使用 Aspose.HTML for .NET 高效地操作 HTML 文档。面向开发人员的分步教程。
 type: docs
 weight: 11
@@ -17,7 +17,7 @@ Aspose.HTML for .NET 是一个多功能库，使 .NET 开发人员能够轻松�
 
 在深入学习本教程之前，请确保您具备以下先决条件：
 
-1.  Visual Studio：要开始使用 Aspose.HTML for .NET，您需要在计算机上安装 Visual Studio。你可以下载它[这里](https://visualstudio.microsoft.com/).
+1. Visual Studio：要开始使用 Aspose.HTML for .NET，您需要在计算机上安装 Visual Studio。你可以下载它[这里](https://visualstudio.microsoft.com/).
 
 2. Aspose.HTML for .NET 库：下载并安装 Aspose.HTML for .NET 库。你可以从[这里](https://releases.aspose.com/html/net/).
 
@@ -119,7 +119,7 @@ A1：Aspose.HTML for .NET 是一个功能强大的库，允许 .NET 开发人员
 
 ### Q2。在哪里可以下载 Aspose.HTML for .NET？
 
- A2：您可以从以下位置下载该库：[这个链接](https://releases.aspose.com/html/net/).
+A2：您可以从以下位置下载该库：[这个链接](https://releases.aspose.com/html/net/).
 
 ### Q3。有免费试用吗？
 

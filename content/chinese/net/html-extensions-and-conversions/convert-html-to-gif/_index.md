@@ -1,7 +1,7 @@
 ---
 title: 使用 Aspose.HTML 将 .NET 中的 HTML 转换为 GIF
 linktitle: 在 .NET 中将 HTML 转换为 GIF
-second_title: Aspose.Slides .NET HTML 操作 API
+second_title: Aspose.HTML .NET HTML 操作 API
 description: 将 HTML 转换为 GIF 的分步指南。先决条件、代码示例、常见问题解答等等！使用 Aspose.HTML 优化您的 HTML 操作。
 type: docs
 weight: 16

@@ -1,7 +1,7 @@
 ---
 title: معالجة مستندات HTML
 linktitle: معالجة مستندات HTML
-second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة HTML
+second_title: Aspose.HTML .NET واجهة برمجة تطبيقات معالجة HTML
 description: اكتشف كيف يمكّنك Aspose.HTML for .NET من التعامل مع مستندات HTML بكفاءة. استكشف البرامج التعليمية التي ترشدك خلال هذه العملية.
 type: docs
 weight: 21

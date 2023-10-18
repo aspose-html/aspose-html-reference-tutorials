@@ -1,7 +1,7 @@
 ---
 title: تكوين البيئة في .NET باستخدام Aspose.HTML
 linktitle: تكوين البيئة في .NET
-second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة HTML
+second_title: Aspose.HTML .NET واجهة برمجة تطبيقات معالجة HTML
 description: تعرف على كيفية العمل مع مستندات HTML في .NET باستخدام Aspose.HTML لمهام مثل إدارة البرامج النصية والأنماط المخصصة والتحكم في تنفيذ JavaScript والمزيد. يوفر هذا البرنامج التعليمي الشامل أمثلة خطوة بخطوة والأسئلة الشائعة لتبدأ.
 type: docs
 weight: 10

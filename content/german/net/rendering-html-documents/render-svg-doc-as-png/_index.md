@@ -1,7 +1,7 @@
 ---
 title: Rendern Sie SVG-Dokumente als PNG in .NET mit Aspose.HTML
 linktitle: Rendern Sie das SVG-Dokument als PNG in .NET
-second_title: Aspose.Slides .NET HTML-Manipulations-API
+second_title: Aspose.HTML .NET HTML-Manipulations-API
 description: Nutzen Sie die Leistungsfähigkeit von Aspose.HTML für .NET! Erfahren Sie, wie Sie SVG-Dokumente mühelos als PNG rendern. Tauchen Sie ein in Schritt-für-Schritt-Beispiele und FAQs. Jetzt loslegen!
 type: docs
 weight: 15
@@ -12,7 +12,7 @@ In der sich ständig weiterentwickelnden Landschaft der Webentwicklung ist es en
 
 ## Einführung
 
-Aspose.HTML für .NET ist eine leistungsstarke Bibliothek, die Entwicklern die mühelose Arbeit mit HTML-Dokumenten in .NET-Anwendungen ermöglicht. Egal, ob Sie HTML-Inhalte analysieren, manipulieren oder rendern müssen, Aspose.HTML hat alles, was Sie brauchen. Dieses Tutorial soll Ihre Anlaufstelle für das Verständnis und die effektive Verwendung von Aspose.HTML für .NET sein.
+Aspose.HTML für .NET ist eine leistungsstarke Bibliothek, die Entwicklern die mühelose Arbeit mit HTML-Dokumenten in .NET-Anwendungen ermöglicht. Egal, ob Sie HTML-Inhalte analysieren, manipulieren oder rendern müssen, Aspose.HTML hat alles, was Sie brauchen. Dieses Tutorial soll Ihre Anlaufstelle sein, um Aspose.HTML für .NET effektiv zu verstehen und zu verwenden.
 
 ## Voraussetzungen
 

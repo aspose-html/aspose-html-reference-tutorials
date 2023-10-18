@@ -1,13 +1,13 @@
 ---
 title: Skapa Stream Provider i .NET med Aspose.HTML
 linktitle: Skapa Stream Provider i .NET
-second_title: Aspose.Slides .NET HTML manipulation API
+second_title: Aspose.HTML .NET HTML manipulation API
 description: Lär dig hur du använder Aspose.HTML för .NET för att manipulera HTML-dokument effektivt. Steg-för-steg handledning för utvecklare.
 type: docs
 weight: 11
 url: /sv/net/advanced-features/create-stream-provider/
 ---
-en värld av webbutveckling och dokumentmanipulation står Aspose.HTML för .NET som ett kraftfullt verktyg. Denna handledning guidar dig genom processen att använda Aspose.HTML för .NET, bryta ner varje steg och förklara dess betydelse. Oavsett om du är en erfaren utvecklare eller precis har börjat, hjälper den här guiden dig att utnyttja funktionerna i Aspose.HTML för .NET effektivt.
+I en värld av webbutveckling och dokumentmanipulation står Aspose.HTML för .NET som ett kraftfullt verktyg. Denna handledning guidar dig genom processen att använda Aspose.HTML för .NET, bryta ner varje steg och förklara dess betydelse. Oavsett om du är en erfaren utvecklare eller precis har börjat, hjälper den här guiden dig att utnyttja funktionerna i Aspose.HTML för .NET effektivt.
 
 ## Introduktion
 
@@ -17,9 +17,9 @@ Aspose.HTML för .NET är ett mångsidigt bibliotek som gör det möjligt för .
 
 Innan du dyker in i handledningen, se till att du har följande förutsättningar på plats:
 
-1.  Visual Studio: För att börja med Aspose.HTML för .NET behöver du Visual Studio installerat på din maskin. Du kan ladda ner den[här](https://visualstudio.microsoft.com/).
+1. Visual Studio: För att börja med Aspose.HTML för .NET behöver du Visual Studio installerat på din maskin. Du kan ladda ner den[här](https://visualstudio.microsoft.com/).
 
-2. Aspose.HTML for .NET Library: Ladda ner och installera Aspose.HTML for .NET-biblioteket. Du kan få det från[här](https://releases.aspose.com/html/net/).
+2.  Aspose.HTML for .NET Library: Ladda ner och installera Aspose.HTML for .NET-biblioteket. Du kan få det från[här](https://releases.aspose.com/html/net/).
 
 3. Grundläggande C#-kunskap: En grundläggande förståelse för C#-programmering kommer att vara fördelaktigt för att följa kodexemplen.
 
@@ -51,7 +51,7 @@ Låt oss nu dela upp det medföljande kodexemplet i flera steg och förklara var
 string dataDir = "Your Data Directory";
 ```
 
- I det här steget definierar du en variabel`dataDir` för att ange katalogen där din utdatafil ska sparas. Se till att byta ut`"Your Data Directory"`med den faktiska sökvägen till din önskade katalog.
+ det här steget definierar du en variabel`dataDir` för att ange katalogen där din utdatafil ska sparas. Se till att byta ut`"Your Data Directory"` med den faktiska sökvägen till din önskade katalog.
 
 ### Steg 2: Skapa en anpassad StreamProvider
 
@@ -89,7 +89,7 @@ Den här raden lägger till ett enkelt "Hej världen!!!" text till HTML-dokument
 Aspose.Html.Converters.Converter.ConvertHTML(document, new XpsSaveOptions(), streamProvider);
 ```
 
- Här använder du`Converter` klass för att konvertera HTML-dokumentet till XPS-format. De`XpsSaveOptions()` ger inställningar för konverteringen, och`streamProvider` hanterar produktionen.
+ Här använder du`Converter` klass för att konvertera HTML-dokumentet till XPS-format. De`XpsSaveOptions()`ger inställningar för konverteringen, och`streamProvider` hanterar produktionen.
 
 ### Steg 6: Spara utdata
 
@@ -103,7 +103,7 @@ using (FileStream fs = File.Create(dataDir + "output.xps"))
 }
 ```
 
-det här steget hämtar du den konverterade XPS-datan från minnesströmmen och sparar den i en utdatafil med namnet "output.xps" i den angivna datakatalogen.
+I det här steget hämtar du den konverterade XPS-datan från minnesströmmen och sparar den i en utdatafil med namnet "output.xps" i den angivna datakatalogen.
 
 ## Slutsats
 
@@ -119,7 +119,7 @@ S1: Aspose.HTML för .NET är ett kraftfullt bibliotek som låter .NET-utvecklar
 
 ### Q2. Var kan jag ladda ner Aspose.HTML för .NET?
 
- A2: Du kan ladda ner biblioteket från[den här länken](https://releases.aspose.com/html/net/).
+A2: Du kan ladda ner biblioteket från[den här länken](https://releases.aspose.com/html/net/).
 
 ### Q3. Finns det en gratis provperiod?
 

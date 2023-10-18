@@ -1,7 +1,7 @@
 ---
 title: Applicare la licenza misurata in .NET con Aspose.HTML
 linktitle: Applicare la licenza a consumo in .NET
-second_title: Aspose.Slides API di manipolazione HTML .NET
+second_title: Aspose.HTML .NET API di manipolazione HTML
 description: Scopri come applicare una licenza a consumo in Aspose.HTML per .NET. Gestisci le tue esigenze di manipolazione HTML in modo efficiente. Inizia ora!
 type: docs
 weight: 10
@@ -33,7 +33,7 @@ Qui suddivideremo il codice di esempio in più passaggi e spiegheremo ogni passa
 
 ### Imposta il percorso della directory dei dati:
 
-    Innanzitutto, dovresti impostare il percorso della directory dei dati in cui si trova il file HTML di input. Dovrai sostituire`"Your Data Directory"` con il percorso vero e proprio.
+   Innanzitutto, dovresti impostare il percorso della directory dei dati in cui si trova il file HTML di input. Dovrai sostituire`"Your Data Directory"` con il percorso vero e proprio.
 
    ```csharp
    string dataDir = "Your Data Directory";
@@ -84,7 +84,7 @@ Una licenza a consumo ti consente di pagare Aspose.HTML in base al consumo, a se
  È possibile scaricare la libreria da[Qui](https://releases.aspose.com/html/net/).
 
 ### Sono disponibili opzioni di prova gratuite per Aspose.HTML per .NET?
-Sì, puoi accedere a una prova gratuita da[Qui](https://releases.aspose.com/).
+ Sì, puoi accedere a una prova gratuita da[Qui](https://releases.aspose.com/).
 
 ### Dove posso ottenere supporto o porre domande su Aspose.HTML per .NET?
  Puoi unirti alla comunità e cercare supporto su[Aspose Forum](https://forum.aspose.com/).

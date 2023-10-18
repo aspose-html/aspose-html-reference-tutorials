@@ -1,7 +1,7 @@
 ---
 title: إنشاء مستند في .NET باستخدام Aspose.HTML
 linktitle: إنشاء مستند في .NET
-second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة HTML
+second_title: Aspose.HTML .NET واجهة برمجة تطبيقات معالجة HTML
 description: أطلق العنان لقوة Aspose.HTML لـ .NET. تعلم كيفية إنشاء مستندات HTML وSVG ومعالجتها وتحسينها بسهولة. استكشف الأمثلة والأسئلة الشائعة خطوة بخطوة.
 type: docs
 weight: 14
@@ -173,7 +173,7 @@ Console.WriteLine("Waiting for loading...");
 Console.ReadLine();
 ```
 
-في هذا المثال، نقوم بتحميل مستند HTML بشكل غير متزامن ونتعامل مع الحدث 'ReadyStateChange' لعرض المحتوى عند اكتمال التحميل.
+في هذا المثال، نقوم بتحميل مستند HTML بشكل غير متزامن ونتعامل مع الحدث "ReadyStateChange" لعرض المحتوى عند اكتمال التحميل.
 
 ## التعامل مع حدث "OnLoad".
 

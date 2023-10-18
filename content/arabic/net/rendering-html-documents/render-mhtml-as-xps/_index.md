@@ -1,7 +1,7 @@
 ---
 title: قم بعرض MHTML كـ XPS في .NET باستخدام Aspose.HTML
 linktitle: قم بعرض MHTML كـ XPS في .NET
-second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة HTML
+second_title: Aspose.HTML .NET واجهة برمجة تطبيقات معالجة HTML
 description: تعلم كيفية عرض MHTML كـ XPS في .NET باستخدام Aspose.HTML. عزز مهاراتك في معالجة HTML وعزز مشاريع تطوير الويب الخاصة بك!
 type: docs
 weight: 13
@@ -60,7 +60,7 @@ using (var renderer = new MhtmlRenderer())
 
 ### الخطوة 1: إعداد دليل البيانات
 
- في ال`dataDir` متغير، استبدال`"Your Data Directory"`بالمسار إلى الدليل الذي يوجد به مستند MHTML الخاص بك.
+ في ال`dataDir` متغير، استبدال`"Your Data Directory"` بالمسار إلى الدليل الذي يوجد به مستند MHTML الخاص بك.
 
 ### الخطوة 2: فتح الملف MHTML
 
@@ -76,7 +76,7 @@ using (var renderer = new MhtmlRenderer())
 
 ### الخطوة 5: التقديم
 
- وأخيراً نستخدم`renderer.Render` طريقة لعرض مستند MHTML (المفتوح في الخطوة 2) إلى جهاز XPS (الذي تم إنشاؤه في الخطوة 3). تعمل هذه الخطوة على تحويل مستند MHTML إلى تنسيق XPS بشكل فعال.
+ وأخيراً نستخدم`renderer.Render`طريقة لعرض مستند MHTML (المفتوح في الخطوة 2) إلى جهاز XPS (الذي تم إنشاؤه في الخطوة 3). تعمل هذه الخطوة على تحويل مستند MHTML إلى تنسيق XPS بشكل فعال.
 
 باتباع هذه الخطوات، يمكنك بسهولة عرض مستندات MHTML كملفات XPS باستخدام Aspose.HTML لـ .NET.
 
@@ -96,7 +96,7 @@ Aspose.HTML for .NET هي مكتبة توفر إمكانيات معالجة وع
  نعم، يمكنك الوصول إلى النسخة التجريبية المجانية من Aspose.HTML لـ .NET[هنا](https://releases.aspose.com/).
 
 ### كيف يمكنني الحصول على دعم لـ Aspose.HTML لـ .NET؟
- يمكنك طلب الدعم والمساعدة من مجتمع Aspose.HTML على[المنتدى](https://forum.aspose.com/).
+يمكنك طلب الدعم والمساعدة من مجتمع Aspose.HTML على[المنتدى](https://forum.aspose.com/).
 
 ### هل يمكنني شراء ترخيص مؤقت لـ Aspose.HTML لـ .NET؟
  نعم، يمكنك الحصول على ترخيص مؤقت من صفحة الشراء[هنا](https://purchase.aspose.com/temporary-license/).

@@ -1,7 +1,7 @@
 ---
 title: Délai d'expiration du rendu dans .NET avec Aspose.HTML
 linktitle: Délai d'expiration du rendu dans .NET
-second_title: API de manipulation HTML Aspose.Slides .NET
+second_title: API de manipulation HTML Aspose.HTML .NET
 description: Découvrez comment contrôler efficacement les délais d'attente de rendu dans Aspose.HTML pour .NET. Explorez les options de rendu et assurez un rendu fluide des documents HTML.
 type: docs
 weight: 12

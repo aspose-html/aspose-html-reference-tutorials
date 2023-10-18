@@ -1,7 +1,7 @@
 ---
 title: Konvertera HTML till DOC och DOCX i .NET med Aspose.HTML
 linktitle: Konvertera HTML till DOC och DOCX i .NET
-second_title: Aspose.Slides .NET HTML manipulation API
+second_title: Aspose.HTML .NET HTML manipulation API
 description: Lär dig hur du utnyttjar kraften i Aspose.HTML för .NET i denna steg-för-steg-guide. Konvertera HTML till DOCX utan ansträngning och höj dina .NET-projekt i nivå. Kom igång idag!
 type: docs
 weight: 15
@@ -99,7 +99,7 @@ Aspose.HTML for .NET är ett bibliotek som gör det möjligt för .NET-utvecklar
  Ja, du kan få en gratis testversion från[den här länken](https://releases.aspose.com/).
 
 ### Hur kan jag få tillfälliga licenser för Aspose.HTML för .NET?
-Tillfälliga licenser är tillgängliga via[den här länken](https://purchase.aspose.com/temporary-license/).
+ Tillfälliga licenser är tillgängliga via[den här länken](https://purchase.aspose.com/temporary-license/).
 
 ### Var kan jag söka hjälp eller support för Aspose.HTML för .NET?
  Du kan besöka Aspose-forumen för support och diskussioner i samhället[här](https://forum.aspose.com/).

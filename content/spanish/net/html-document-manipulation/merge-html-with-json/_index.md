@@ -1,7 +1,7 @@
 ---
 title: Fusionar HTML con Json en .NET con Aspose.HTML
 linktitle: Fusionar HTML con Json en .NET
-second_title: Aspose.Slides API de manipulación HTML .NET
+second_title: Aspose.HTML .NET API de manipulación de HTML
 description: Aprenda a crear contenido web y dinámico utilizando Aspose.HTML para .NET. Potencia tu presencia online y atrae a tu audiencia.
 type: docs
 weight: 17
@@ -26,7 +26,7 @@ Ahora, dividamos el proceso en varios pasos para obtener una guía paso a paso:
 
 ## Paso 1: documento de plantilla HTML
 
-Primero, necesitará un documento de plantilla HTML con el que desee trabajar. Asegúrese de tener la ruta al directorio de documentos HTML configurada en su código. Puedes hacer esto modificando el`dataDir` variable de la siguiente manera:
+ Primero, necesitará un documento de plantilla HTML con el que desee trabajar. Asegúrese de tener la ruta al directorio de documentos HTML configurada en su código. Puedes hacer esto modificando el`dataDir` variable de la siguiente manera:
 
 ```csharp
 // La ruta al directorio de documentos.
@@ -65,7 +65,7 @@ string templateOutput = dataDir + "MergeHTMLWithJson_Output.html";
 El último paso es utilizar Aspose.HTML para .NET para fusionar la plantilla HTML con los datos XML. Aquí está el código para hacer precisamente eso:
 
 ```csharp
-//Fusionar plantilla HTML con datos XML
+// Fusionar plantilla HTML con datos XML
 Converter.ConvertTemplate(templateHtml, data, new TemplateLoadOptions(), templateOutput);
 ```
 
@@ -87,7 +87,7 @@ R1: Sí, Aspose.HTML para .NET ofrece herramientas y documentación fáciles de 
 
 ### P2: ¿Dónde puedo encontrar más documentación y tutoriales?
 
-A2: Puede encontrar documentación detallada y tutoriales en[Documentación Aspose.HTML](https://reference.aspose.com/html/net/).
+ A2: Puede encontrar documentación detallada y tutoriales en[Documentación Aspose.HTML](https://reference.aspose.com/html/net/).
 
 ### P3: ¿Puedo probar Aspose.HTML para .NET antes de comprarlo?
 

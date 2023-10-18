@@ -1,7 +1,7 @@
 ---
 title: قم بتطبيق الترخيص المقنن في .NET باستخدام Aspose.HTML
 linktitle: تطبيق الترخيص المقنن في .NET
-second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة HTML
+second_title: Aspose.HTML .NET واجهة برمجة تطبيقات معالجة HTML
 description: تعرف على كيفية تطبيق ترخيص مقنن في Aspose.HTML لـ .NET. إدارة احتياجات معالجة HTML الخاصة بك بكفاءة. نبدأ الآن!
 type: docs
 weight: 10
@@ -33,7 +33,7 @@ using Aspose.Html;
 
 ### تعيين مسار دليل البيانات:
 
-    أولاً، يجب عليك تعيين المسار إلى دليل البيانات الخاص بك حيث يوجد ملف HTML المدخل. سوف تحتاج إلى استبدال`"Your Data Directory"` مع المسار الفعلي
+   أولاً، يجب عليك تعيين المسار إلى دليل البيانات الخاص بك حيث يوجد ملف HTML المدخل. سوف تحتاج إلى استبدال`"Your Data Directory"` مع المسار الفعلي
 
    ```csharp
    string dataDir = "Your Data Directory";
@@ -84,7 +84,7 @@ using Aspose.Html;
  يمكنك تحميل المكتبة من[هنا](https://releases.aspose.com/html/net/).
 
 ### هل هناك أي خيارات تجريبية مجانية متاحة لـ Aspose.HTML لـ .NET؟
-نعم، يمكنك الوصول إلى النسخة التجريبية المجانية من[هنا](https://releases.aspose.com/).
+ نعم، يمكنك الوصول إلى النسخة التجريبية المجانية من[هنا](https://releases.aspose.com/).
 
 ### أين يمكنني الحصول على الدعم أو طرح الأسئلة حول Aspose.HTML لـ .NET؟
  يمكنك الانضمام إلى المجتمع وطلب الدعم على[منتديات أبوس](https://forum.aspose.com/).

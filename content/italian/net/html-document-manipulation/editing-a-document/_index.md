@@ -1,7 +1,7 @@
 ---
 title: Modifica di un documento in .NET con Aspose.HTML
 linktitle: Modifica di un documento in .NET
-second_title: Aspose.Slides API di manipolazione HTML .NET
+second_title: Aspose.HTML .NET API di manipolazione HTML
 description: Crea contenuti web accattivanti con Aspose.HTML per .NET. Scopri come manipolare HTML, CSS e altro ancora.
 type: docs
 weight: 15

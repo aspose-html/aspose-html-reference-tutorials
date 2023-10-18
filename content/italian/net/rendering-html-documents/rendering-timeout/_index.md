@@ -1,7 +1,7 @@
 ---
 title: Timeout del rendering in .NET con Aspose.HTML
 linktitle: Timeout del rendering in .NET
-second_title: Aspose.Slides API di manipolazione HTML .NET
+second_title: Aspose.HTML .NET API di manipolazione HTML
 description: Scopri come controllare efficacemente i timeout del rendering in Aspose.HTML per .NET. Esplora le opzioni di rendering e assicurati un rendering fluido dei documenti HTML.
 type: docs
 weight: 12
@@ -39,7 +39,7 @@ Questi spazi dei nomi forniscono l'accesso alla libreria Aspose.HTML, consentend
 
 ## Spiegazione del timeout del rendering
 
- Il timeout del rendering è un aspetto cruciale durante il rendering di documenti HTML, soprattutto negli scenari in cui il processo di rendering può richiedere una quantità di tempo imprevedibile. Aspose.HTML per .NET fornisce due metodi per controllare i timeout del rendering:`RenderingTimeout` E`IndefiniteTimeout`. Analizziamo ciascuno di questi metodi e comprendiamo il loro utilizzo.
+ Il timeout del rendering è un aspetto cruciale durante il rendering di documenti HTML, soprattutto negli scenari in cui il processo di rendering potrebbe richiedere una quantità di tempo imprevedibile. Aspose.HTML per .NET fornisce due metodi per controllare i timeout del rendering:`RenderingTimeout` E`IndefiniteTimeout`. Analizziamo ciascuno di questi metodi e comprendiamo il loro utilizzo.
 
 ### RenderingTimeout
 

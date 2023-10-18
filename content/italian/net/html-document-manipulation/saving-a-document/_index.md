@@ -1,7 +1,7 @@
 ---
 title: Salvataggio di un documento in .NET con Aspose.HTML
 linktitle: Salvare un documento in .NET
-second_title: Aspose.Slides API di manipolazione HTML .NET
+second_title: Aspose.HTML .NET API di manipolazione HTML
 description: Sblocca la potenza di Aspose.HTML per .NET con la nostra guida passo passo. Impara a creare, manipolare e convertire documenti HTML e SVG
 type: docs
 weight: 16
@@ -16,7 +16,7 @@ Prima di intraprendere questo viaggio, assicuriamoci di avere tutto ciò di cui 
 
 - Ambiente di sviluppo: assicurati di avere Visual Studio o qualsiasi altro ambiente di sviluppo .NET installato sul tuo computer.
 
--  Aspose.HTML per .NET: è necessario ottenere la libreria Aspose.HTML per .NET. Puoi scaricarlo da[Qui](https://releases.aspose.com/html/net/).
+- Aspose.HTML per .NET: è necessario ottenere la libreria Aspose.HTML per .NET. Puoi scaricarlo da[Qui](https://releases.aspose.com/html/net/).
 
 - Conoscenza di C#: la familiarità con il linguaggio di programmazione C# è utile ma non obbligatoria. Questa guida è progettata per essere adatta ai principianti.
 
@@ -64,7 +64,7 @@ using (var document = new Aspose.Html.HTMLDocument("document.html"))
 {
     // Crea un'istanza di opzioni di salvataggio
     var options = new Aspose.Html.Saving.HTMLSaveOptions();
-    // Imposta la profondità di gestione massima su 0 per tagliare i file HTML collegati.
+    //Imposta la profondità di gestione massima su 0 per tagliare i file HTML collegati.
     options.ResourceHandlingOptions.MaxHandlingDepth = 0;
     // Salva il documento
     document.Save(@".\html-to-file-example\document.html", options);

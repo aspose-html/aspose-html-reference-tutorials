@@ -1,7 +1,7 @@
 ---
 title: Création d'un document simple dans .NET avec Aspose.HTML
 linktitle: Création d'un document simple dans .NET
-second_title: API de manipulation HTML Aspose.Slides .NET
+second_title: API de manipulation HTML Aspose.HTML .NET
 description: Apprenez à travailler avec des documents HTML dans .NET à l'aide d'Aspose.HTML. Créez, manipulez et convertissez du HTML sans effort. Commencer aujourd'hui!
 type: docs
 weight: 11
@@ -64,7 +64,7 @@ var document = new HTMLDocument();
 
 ### Étape 3 : Ajout d'une image
 
-Maintenant, nous ajoutons une image au document HTML. Nous créons un`img` élément en utilisant le`CreateElement` méthode, définissez sa`Src`, `Alt` , et`Title` attributs, puis ajoutez-le au document`Body`.
+Maintenant, nous ajoutons une image au document HTML. Nous créons un`img` élément en utilisant le`CreateElement` méthode, définissez sa`Src`, `Alt` et`Title` attributs, puis ajoutez-le au document`Body`.
 
 ```csharp
 if (document.CreateElement("img") is HTMLImageElement img)

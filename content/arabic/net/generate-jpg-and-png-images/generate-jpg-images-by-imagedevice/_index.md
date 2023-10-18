@@ -1,7 +1,7 @@
 ---
 title: قم بإنشاء صور JPG بواسطة ImageDevice في .NET باستخدام Aspose.HTML
 linktitle: قم بإنشاء صور JPG بواسطة ImageDevice في .NET
-second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة HTML
+second_title: Aspose.HTML .NET واجهة برمجة تطبيقات معالجة HTML
 description: تعرف على كيفية إنشاء صفحات ويب ديناميكية باستخدام Aspose.HTML لـ .NET. يغطي هذا البرنامج التعليمي خطوة بخطوة المتطلبات الأساسية ومساحات الأسماء وتقديم HTML إلى الصور.
 type: docs
 weight: 10

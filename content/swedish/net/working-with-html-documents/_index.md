@@ -1,7 +1,7 @@
 ---
 title: Arbeta med HTML-dokument
 linktitle: Arbeta med HTML-dokument
-second_title: Aspose.Slides .NET HTML manipulation API
+second_title: Aspose.HTML .NET HTML manipulation API
 description: Upptäck en värld av HTML-dokument skapande och manipulation i .NET med Aspose.HTML. Från att skapa enkla dokument till djupgående redigering.
 type: docs
 weight: 23

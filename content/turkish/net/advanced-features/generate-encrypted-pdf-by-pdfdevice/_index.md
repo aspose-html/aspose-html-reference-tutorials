@@ -1,7 +1,7 @@
 ---
 title: Aspose.HTML ile .NET'te PdfDevice ile Şifrelenmiş PDF oluşturun
 linktitle: .NET'te PdfDevice ile Şifrelenmiş PDF Oluşturun
-second_title: Aspose.Slides .NET HTML işleme API'si
+second_title: Aspose.HTML .NET HTML işleme API'si
 description: Aspose.HTML for .NET ile HTML'yi dinamik olarak PDF'ye dönüştürün. Kolay entegrasyon, özelleştirilebilir seçenekler ve güçlü performans.
 type: docs
 weight: 15

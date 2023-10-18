@@ -1,7 +1,7 @@
 ---
 title: Aspose.HTML ile .NET'te Basit Belge Oluşturma
 linktitle: .NET'te Basit Bir Belge Oluşturma
-second_title: Aspose.Slides .NET HTML işleme API'si
+second_title: Aspose.HTML .NET HTML işleme API'si
 description: Aspose.HTML kullanarak .NET'te HTML belgeleriyle çalışmayı öğrenin. HTML'yi zahmetsizce oluşturun, değiştirin ve dönüştürün. Bu gün başlayacağım!
 type: docs
 weight: 11
@@ -10,7 +10,7 @@ url: /tr/net/working-with-html-documents/creating-a-simple-document/
 
 ## giriiş
 
-Web geliştirme dünyasında HTML belgeleri oluşturmak ve değiştirmek temel bir görevdir. İster basit bir web sayfası ister karmaşık bir web uygulaması oluşturuyor olun, HTML belgesini işlemek için güvenilir bir araca sahip olmak çok önemlidir. Bu eğitimde, HTML belgeleriyle sorunsuz bir şekilde çalışmanıza olanak tanıyan güçlü bir kütüphane olan Aspose.HTML for .NET dünyasına dalacağız. 
+Web geliştirme dünyasında HTML belgeleri oluşturmak ve değiştirmek temel bir görevdir. İster basit bir web sayfası ister karmaşık bir web uygulaması oluşturuyor olun, HTML belgesini işlemek için güvenilir bir araca sahip olmak çok önemlidir. Bu derste, HTML belgeleriyle sorunsuz bir şekilde çalışmanıza olanak tanıyan güçlü bir kütüphane olan Aspose.HTML for .NET dünyasına dalacağız. 
 
 ## Önkoşullar
 
@@ -26,7 +26,7 @@ Makinenizde bir .NET geliştirme ortamının kurulu olması gerekir. Henüz yapm
 
 ### 3. Metin Düzenleyici veya IDE
 
-.NET kodunuzu yazmak ve çalıştırmak için bir metin düzenleyicisine veya Tümleşik Geliştirme Ortamına (IDE) ihtiyacınız olacaktır. Popüler seçenekler arasında Visual Studio, Visual Studio Code veya JetBrains Rider bulunur.
+.NET kodunuzu yazmak ve çalıştırmak için bir metin düzenleyicisine veya Tümleşik Geliştirme Ortamına (IDE) ihtiyacınız olacak. Popüler seçenekler arasında Visual Studio, Visual Studio Code veya JetBrains Rider bulunur.
 
 Artık önkoşulları karşıladığınıza göre, öğreticiye devam edelim.
 
@@ -64,7 +64,7 @@ var document = new HTMLDocument();
 
 ### 3. Adım: Resim Ekleme
 
-Şimdi HTML belgesine bir resim ekliyoruz. Biz bir yaratıyoruz`img` öğesini kullanarak`CreateElement` yöntemini ayarlayın`Src`, `Alt` , Ve`Title` niteliklerini seçin ve ardından bunu belgenin`Body`.
+Şimdi HTML belgesine bir resim ekliyoruz. Biz bir yaratıyoruz`img` öğesini kullanarak`CreateElement` yöntemini ayarlayın`Src`, `Alt` Ve`Title` niteliklerini seçin ve ardından bunu belgenin`Body`.
 
 ```csharp
 if (document.CreateElement("img") is HTMLImageElement img)

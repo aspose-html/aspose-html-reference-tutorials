@@ -1,7 +1,7 @@
 ---
 title: Carica HTML utilizzando l'URL in .NET con Aspose.HTML
 linktitle: Carica HTML utilizzando l'URL in .NET
-second_title: Aspose.Slides API di manipolazione HTML .NET
+second_title: Aspose.HTML .NET API di manipolazione HTML
 description: Scopri come sfruttare la potenza di Aspose.HTML per .NET. Potenzia il tuo sviluppo web con la manipolazione e il rendering HTML.
 type: docs
 weight: 13
@@ -20,7 +20,7 @@ Avere una solida conoscenza di C# e del framework .NET è fondamentale. Se sei n
 
 2. Visual Studio installato
 
-Assicurati di avere Visual Studio, un popolare ambiente di sviluppo integrato (IDE) per lo sviluppo .NET, installato sul tuo sistema. In caso contrario, puoi scaricarlo da[Qui](https://visualstudio.microsoft.com/).
+ Assicurati di avere Visual Studio, un popolare ambiente di sviluppo integrato (IDE) per lo sviluppo .NET, installato sul tuo sistema. In caso contrario, puoi scaricarlo da[Qui](https://visualstudio.microsoft.com/).
 
 3. Aspose.HTML per .NET
 
@@ -98,7 +98,7 @@ A1: Aspose.HTML per .NET offre un'ampia gamma di funzionalità, tra cui l'analis
 
 ### Q2: Aspose.HTML per .NET è adatto sia per applicazioni Web che desktop?
    
-A2: Sì, Aspose.HTML per .NET è versatile e può essere utilizzato sia in applicazioni web che desktop. Le sue capacità lo rendono ideale per una varietà di scenari.
+A2: Sì, Aspose.HTML per .NET è versatile e può essere utilizzato sia in applicazioni Web che desktop. Le sue capacità lo rendono ideale per una varietà di scenari.
 
 ### Q3: Dove posso trovare risorse aggiuntive e supporto per Aspose.HTML per .NET?
    
@@ -110,4 +110,4 @@ A2: Sì, Aspose.HTML per .NET è versatile e può essere utilizzato sia in appli
 
 ### Q5: Come posso ottenere una licenza temporanea per Aspose.HTML per .NET?
    
- R5: Se hai bisogno di una licenza temporanea per il tuo progetto, puoi ottenerne una[Qui](https://purchase.aspose.com/temporary-license/).
+R5: Se hai bisogno di una licenza temporanea per il tuo progetto, puoi ottenerne una[Qui](https://purchase.aspose.com/temporary-license/).

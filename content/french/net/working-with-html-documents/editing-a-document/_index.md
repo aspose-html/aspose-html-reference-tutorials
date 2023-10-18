@@ -1,7 +1,7 @@
 ---
 title: Modification d'un document dans .NET avec Aspose.HTML
 linktitle: Modification d'un document dans .NET
-second_title: API de manipulation HTML Aspose.Slides .NET
+second_title: API de manipulation HTML Aspose.HTML .NET
 description: Apprenez à travailler avec des documents HTML dans .NET à l'aide d'Aspose.HTML. Ce didacticiel complet couvre la création, la manipulation et le style de documents. Commencez maintenant!
 type: docs
 weight: 12

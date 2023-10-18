@@ -1,7 +1,7 @@
 ---
 title: Apply Metered License in .NET with Aspose.HTML
 linktitle: Apply Metered License in .NET
-second_title: Aspose.Slides .NET HTML manipulation API
+second_title: Aspose.HTML .NET HTML manipulation API
 description: Learn how to apply a metered license in Aspose.HTML for .NET. Manage your HTML manipulation needs efficiently. Get started now!
 type: docs
 weight: 10

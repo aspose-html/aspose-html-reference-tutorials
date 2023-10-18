@@ -1,7 +1,7 @@
 ---
 title: HTML-Erweiterungen und -Konvertierungen
 linktitle: HTML-Erweiterungen und -Konvertierungen
-second_title: Aspose.Slides .NET HTML-Manipulations-API
+second_title: Aspose.HTML .NET HTML-Manipulations-API
 description: Entdecken Sie HTML-Erweiterungen und Konvertierungs-Tutorials mit Aspose.HTML für .NET. Erfahren Sie mit diesen umfassenden Tutorials, wie Sie die Webentwicklung optimieren können.
 type: docs
 weight: 20

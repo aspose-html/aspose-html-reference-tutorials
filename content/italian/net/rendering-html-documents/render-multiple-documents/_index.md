@@ -1,7 +1,7 @@
 ---
 title: Rendering di più documenti in .NET con Aspose.HTML
 linktitle: Rendering di più documenti in .NET
-second_title: Aspose.Slides API di manipolazione HTML .NET
+second_title: Aspose.HTML .NET API di manipolazione HTML
 description: Impara a eseguire il rendering di più documenti HTML utilizzando Aspose.HTML per .NET. Potenzia le tue capacità di elaborazione dei documenti con questa potente libreria.
 type: docs
 weight: 14
@@ -48,7 +48,7 @@ using (var document2 = new Aspose.Html.HTMLDocument("<style>p { color: blue; }</
 }
 ```
 
- Nel codice sopra, abbiamo creato due documenti HTML,`document` E`document2`, ciascuno contenente un paragrafo semplice con colori di testo diversi.
+Nel codice sopra, abbiamo creato due documenti HTML,`document` E`document2`, ciascuno contenente un paragrafo semplice con colori di testo diversi.
 
 ## Passaggio 2: rendering di più documenti
 

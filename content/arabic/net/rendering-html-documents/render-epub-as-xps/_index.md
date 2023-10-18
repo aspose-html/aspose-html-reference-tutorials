@@ -1,7 +1,7 @@
 ---
 title: قم بعرض EPUB على هيئة XPS في .NET باستخدام Aspose.HTML
 linktitle: قم بعرض EPUB كـ XPS في .NET
-second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة HTML
+second_title: Aspose.HTML .NET واجهة برمجة تطبيقات معالجة HTML
 description: تعرف على كيفية إنشاء مستندات HTML وعرضها باستخدام Aspose.HTML لـ .NET في هذا البرنامج التعليمي الشامل. انغمس في عالم معالجة HTML وتجريد الويب والمزيد.
 type: docs
 weight: 11
@@ -67,7 +67,7 @@ using (var renderer = new EpubRenderer())
 
 2.  إنشاء جهاز عرض XPS: نقوم بإنشاء جهاز عرض XPS باستخدام`XpsDevice` فصل. سيتم استخدام هذا الجهاز لعرض المحتوى من مستند EPUB إلى تنسيق XPS.
 
-3.  إنشاء عارض EPUB: نقوم بإنشاء مثيل لـ`EpubRenderer`فصل. توفر هذه الفئة إمكانات عرض مصممة خصيصًا لمستندات EPUB.
+3.  إنشاء عارض EPUB: نقوم بإنشاء مثيل لـ`EpubRenderer` فصل. توفر هذه الفئة إمكانات عرض مصممة خصيصًا لمستندات EPUB.
 
 4.  تقديم مستند EPUB إلى تنسيق XPS: أخيرًا، نقوم باستدعاء`Render` طريقة`EpubRenderer` فئة لأداء العرض. سيتم حفظ الإخراج المقدم كملف XPS في الموقع المحدد.
 
@@ -93,7 +93,7 @@ using (var renderer = new EpubRenderer())
 
 ### 4. أين يمكنني طلب المساعدة أو مشاركة تجاربي مع المكتبة؟
 
- يمكنك الانضمام إلى مجتمع Aspose وطلب المساعدة أو مشاركة تجاربك على[منتدى Aspose](https://forum.aspose.com/).
+يمكنك الانضمام إلى مجتمع Aspose وطلب المساعدة أو مشاركة تجاربك على[منتدى Aspose](https://forum.aspose.com/).
 
 ### 5. هل يمكنني استخدام Aspose.HTML لـ .NET في المشاريع التجارية؟
 

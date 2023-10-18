@@ -1,7 +1,7 @@
 ---
 title: Aspose.HTML ile .NET'te Ölçülü Lisans uygulayın
 linktitle: .NET'te Ölçülü Lisans Uygula
-second_title: Aspose.Slides .NET HTML işleme API'si
+second_title: Aspose.HTML .NET HTML işleme API'si
 description: Aspose.HTML for .NET'te ölçülü lisansın nasıl uygulanacağını öğrenin. HTML manipülasyon ihtiyaçlarınızı verimli bir şekilde yönetin. Şimdi başla!
 type: docs
 weight: 10
@@ -33,7 +33,7 @@ Burada örnek kodu birden çok adıma ayıracağız ve her adımı ayrıntılı 
 
 ### Veri Dizini Yolunu Ayarla:
 
-    Öncelikle, giriş HTML dosyanızın bulunduğu veri dizininizin yolunu ayarlamanız gerekir. Değiştirmeniz gerekecek`"Your Data Directory"` gerçek yol ile.
+   Öncelikle, giriş HTML dosyanızın bulunduğu veri dizininizin yolunu ayarlamanız gerekir. Değiştirmeniz gerekecek`"Your Data Directory"` gerçek yol ile.
 
    ```csharp
    string dataDir = "Your Data Directory";
@@ -84,7 +84,7 @@ Tarifeli lisans, kullanımınıza bağlı olarak Aspose.HTML için kullandıkça
  Kütüphaneyi adresinden indirebilirsiniz.[Burada](https://releases.aspose.com/html/net/).
 
 ### Aspose.HTML for .NET için ücretsiz deneme seçenekleri mevcut mu?
-Evet, ücretsiz deneme sürümüne şuradan erişebilirsiniz:[Burada](https://releases.aspose.com/).
+ Evet, ücretsiz deneme sürümüne şuradan erişebilirsiniz:[Burada](https://releases.aspose.com/).
 
 ### Aspose.HTML for .NET hakkında nereden destek alabilirim veya soru sorabilirim?
  Topluluğa katılabilir ve destek arayabilirsiniz.[Forumlar](https://forum.aspose.com/).

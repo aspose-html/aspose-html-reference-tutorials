@@ -1,7 +1,7 @@
 ---
 title: قماش والتلاعب بالصور
 linktitle: قماش والتلاعب بالصور
-second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة HTML
+second_title: Aspose.HTML .NET واجهة برمجة تطبيقات معالجة HTML
 description: تعلم كيفية التعامل مع الصور باستخدام Aspose.HTML لـ .NET من خلال البرامج التعليمية خطوة بخطوة. اكتشف قوة اللوحة القماشية وتحرير الصور.
 type: docs
 weight: 22

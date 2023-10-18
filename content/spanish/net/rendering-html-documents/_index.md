@@ -1,7 +1,7 @@
 ---
 title: Representación de documentos HTML
 linktitle: Representación de documentos HTML
-second_title: Aspose.Slides API de manipulación HTML .NET
+second_title: Aspose.HTML .NET API de manipulación de HTML
 description: Aprenda a renderizar documentos HTML con facilidad utilizando los tutoriales de Aspose.HTML para .NET. Explore una lista completa de tutoriales para dominar la representación HTML.
 type: docs
 weight: 29

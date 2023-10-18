@@ -1,7 +1,7 @@
 ---
 title: Расширенные возможности
 linktitle: Расширенные возможности
-second_title: Aspose.Slides .NET API манипулирования HTML
+second_title: API манипуляций с HTML Aspose.HTML .NET
 description: Разблокируйте расширенные возможности .NET с помощью Aspose.HTML! От настройки среды до очистки веб-страниц — изучите подробные руководства по эффективной веб-разработке.
 type: docs
 weight: 24

@@ -1,7 +1,7 @@
 ---
 title: Laden Sie HTML-Dokumente mit Anmeldeinformationen in .NET mit Aspose.HTML
 linktitle: Laden Sie HTML-Dokumente mit Anmeldeinformationen in .NET
-second_title: Aspose.Slides .NET HTML-Manipulations-API
+second_title: Aspose.HTML .NET HTML-Manipulations-API
 description: Erfahren Sie, wie Sie Ihre SEO mit Aspose.HTML für .NET optimieren. Steigern Sie Ihr Ranking, analysieren Sie Webinhalte und optimieren Sie sie für Suchmaschinen.
 type: docs
 weight: 11

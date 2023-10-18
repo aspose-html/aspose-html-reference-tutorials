@@ -1,7 +1,7 @@
 ---
 title: Aspose.HTML ile MHTML'yi .NET'te XPS olarak işleme
 linktitle: .NET'te MHTML'yi XPS olarak işleme
-second_title: Aspose.Slides .NET HTML işleme API'si
+second_title: Aspose.HTML .NET HTML işleme API'si
 description: Aspose.HTML ile MHTML'yi .NET'te XPS olarak işlemeyi öğrenin. HTML manipülasyon becerilerinizi geliştirin ve web geliştirme projelerinizi geliştirin!
 type: docs
 weight: 13
@@ -60,7 +60,7 @@ using (var renderer = new MhtmlRenderer())
 
 ### Adım 1: Veri Dizini Kurulumu
 
- İçinde`dataDir` değişken, değiştir`"Your Data Directory"`MHTML belgenizin bulunduğu dizinin yolu ile birlikte.
+ İçinde`dataDir` değişken, değiştir`"Your Data Directory"` MHTML belgenizin bulunduğu dizinin yolu ile birlikte.
 
 ### Adım 2: MHTML Dosyasını Açma
 
@@ -76,7 +76,7 @@ using (var renderer = new MhtmlRenderer())
 
 ### Adım 5: Oluşturma
 
- Son olarak şunu kullanıyoruz:`renderer.Render` MHTML belgesini (2. Adımda açılan) XPS cihazına (3. Adımda oluşturulan) işleme yöntemini kullanın. Bu adım, MHTML belgesini etkili bir şekilde XPS biçimine dönüştürür.
+ Son olarak şunu kullanıyoruz:`renderer.Render`MHTML belgesini (2. Adımda açılan) XPS cihazına (3. Adımda oluşturulan) işleme yöntemini kullanın. Bu adım, MHTML belgesini etkili bir şekilde XPS biçimine dönüştürür.
 
 Bu adımları izleyerek Aspose.HTML for .NET'i kullanarak MHTML belgelerini zahmetsizce XPS dosyaları olarak oluşturabilirsiniz.
 
@@ -96,7 +96,7 @@ Aspose.HTML for .NET, .NET geliştiricileri için HTML işleme ve işleme yetene
  Evet, Aspose.HTML for .NET'in ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/).
 
 ### Aspose.HTML for .NET için nasıl destek alabilirim?
- Aspose.HTML topluluğundan destek ve yardım alabilirsiniz.[forum](https://forum.aspose.com/).
+Aspose.HTML topluluğundan destek ve yardım alabilirsiniz.[forum](https://forum.aspose.com/).
 
 ### Aspose.HTML for .NET için geçici bir lisans satın alabilir miyim?
  Evet, satın alma sayfasından geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).

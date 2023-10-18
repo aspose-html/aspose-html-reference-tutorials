@@ -1,7 +1,7 @@
 ---
 title: 使用 Aspose.HTML 将 .NET 中的 HTML 与 XML 合并
 linktitle: 在 .NET 中将 HTML 与 XML 合并
-second_title: Aspose.Slides .NET HTML 操作 API
+second_title: Aspose.HTML .NET HTML 操作 API
 description: 学习使用 Aspose.HTML for .NET。通过这份综合指南导入命名空间、将 HTML 与 XML 合并并增强您的 Web 开发技能。
 type: docs
 weight: 18

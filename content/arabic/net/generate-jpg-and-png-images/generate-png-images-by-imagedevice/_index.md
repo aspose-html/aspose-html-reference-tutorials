@@ -1,7 +1,7 @@
 ---
 title: قم بإنشاء صور PNG بواسطة ImageDevice في .NET باستخدام Aspose.HTML
 linktitle: قم بإنشاء صور PNG بواسطة ImageDevice في .NET
-second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة HTML
+second_title: Aspose.HTML .NET واجهة برمجة تطبيقات معالجة HTML
 description: تعرّف على كيفية استخدام Aspose.HTML لـ .NET لمعالجة مستندات HTML، وتحويل HTML إلى صور، والمزيد. برنامج تعليمي خطوة بخطوة مع الأسئلة الشائعة.
 type: docs
 weight: 11

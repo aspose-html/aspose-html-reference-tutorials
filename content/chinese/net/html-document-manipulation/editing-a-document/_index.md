@@ -1,7 +1,7 @@
 ---
 title: 使用 Aspose.HTML 在 .NET 中编辑文档
 linktitle: 在 .NET 中编辑文档
-second_title: Aspose.Slides .NET HTML 操作 API
+second_title: Aspose.HTML .NET HTML 操作 API
 description: 使用 Aspose.HTML for .NET 创建引人入胜的 Web 内容。了解如何操作 HTML、CSS 等。
 type: docs
 weight: 15

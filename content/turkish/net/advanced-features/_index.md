@@ -1,7 +1,7 @@
 ---
 title: Gelişmiş özellikler
 linktitle: Gelişmiş özellikler
-second_title: Aspose.Slides .NET HTML işleme API'si
+second_title: Aspose.HTML .NET HTML işleme API'si
 description: Aspose.HTML ile gelişmiş .NET özelliklerinin kilidini açın! Ortam yapılandırmasından web kazımaya kadar güçlü web geliştirme için kapsamlı eğitimleri keşfedin.
 type: docs
 weight: 24
@@ -29,7 +29,7 @@ Aspose.HTML ile .NET'te çarpıcı HTML belgelerinin nasıl oluşturulacağını
 ### [Aspose.HTML ile .NET'te Web Scraping](./web-scraping/)
 Aspose.HTML ile .NET'te HTML belgelerini yönetmeyi öğrenin. Gelişmiş web geliştirme için öğeleri etkili bir şekilde gezinin, filtreleyin, sorgulayın ve seçin.
 ### [Aspose.HTML ile .NET'te Genişletilmiş İçerik Özelliğini kullanın](./use-extended-content-property/)
-Aspose.HTML for .NET'i kullanarak dinamik web içeriği oluşturmayı öğrenin. Eğitimimiz yeni başlayanlar için önkoşulları, adım adım talimatları ve SSS'leri kapsamaktadır.
+Aspose.HTML for .NET'i kullanarak dinamik web içeriği oluşturmayı öğrenin. Eğitimimiz yeni başlayanlar için önkoşulları, adım adım talimatları ve SSS'leri kapsar.
 ### [Aspose.HTML ile .NET'te PdfDevice ile Şifrelenmiş PDF oluşturun](./generate-encrypted-pdf-by-pdfdevice/)
 Aspose.HTML for .NET ile HTML'yi dinamik olarak PDF'ye dönüştürün. Kolay entegrasyon, özelleştirilebilir seçenekler ve güçlü performans.
 ### [Aspose.HTML ile .NET'te Dönüştürücülerin İnce Ayarı](./fine-tuning-converters/)

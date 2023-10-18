@@ -1,7 +1,7 @@
 ---
 title: إنشاء مستند بسيط في .NET باستخدام Aspose.HTML
 linktitle: إنشاء مستند بسيط في .NET
-second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة HTML
+second_title: Aspose.HTML .NET واجهة برمجة تطبيقات معالجة HTML
 description: تعلم كيفية العمل مع مستندات HTML في .NET باستخدام Aspose.HTML. قم بإنشاء HTML ومعالجته وتحويله بسهولة. ابدأ اليوم!
 type: docs
 weight: 11
@@ -64,7 +64,7 @@ var document = new HTMLDocument();
 
 ### الخطوة 3: إضافة صورة
 
-الآن، نقوم بإضافة صورة إلى مستند HTML. نحن ننشئ`img` العنصر باستخدام`CreateElement` الطريقة، تعيين لها`Src`, `Alt` ، و`Title` السمات، ثم قم بإلحاقها بالمستند`Body`.
+الآن، نقوم بإضافة صورة إلى مستند HTML. نحن ننشئ`img` العنصر باستخدام`CreateElement` الطريقة، تعيين لها`Src`, `Alt`، و`Title` السمات، ثم قم بإلحاقها بالمستند`Body`.
 
 ```csharp
 if (document.CreateElement("img") is HTMLImageElement img)

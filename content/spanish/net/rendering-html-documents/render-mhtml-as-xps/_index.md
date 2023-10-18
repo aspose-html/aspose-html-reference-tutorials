@@ -1,7 +1,7 @@
 ---
 title: Renderice MHTML como XPS en .NET con Aspose.HTML
 linktitle: Renderizar MHTML como XPS en .NET
-second_title: Aspose.Slides API de manipulación HTML .NET
+second_title: Aspose.HTML .NET API de manipulación de HTML
 description: Aprenda a representar MHTML como XPS en .NET con Aspose.HTML. ¡Mejora tus habilidades de manipulación de HTML e impulsa tus proyectos de desarrollo web!
 type: docs
 weight: 13
@@ -60,7 +60,7 @@ using (var renderer = new MhtmlRenderer())
 
 ### Paso 1: Configuración del directorio de datos
 
- En el`dataDir` variable, reemplazar`"Your Data Directory"`con la ruta al directorio donde se encuentra su documento MHTML.
+ En el`dataDir` variable, reemplazar`"Your Data Directory"` con la ruta al directorio donde se encuentra su documento MHTML.
 
 ### Paso 2: abrir el archivo MHTML
 
@@ -76,7 +76,7 @@ using (var renderer = new MhtmlRenderer())
 
 ### Paso 5: renderizado
 
- Finalmente, utilizamos el`renderer.Render` método para representar el documento MHTML (abierto en el paso 2) en el dispositivo XPS (creado en el paso 3). Este paso convierte efectivamente el documento MHTML al formato XPS.
+ Finalmente, utilizamos el`renderer.Render`método para representar el documento MHTML (abierto en el paso 2) en el dispositivo XPS (creado en el paso 3). Este paso convierte efectivamente el documento MHTML al formato XPS.
 
 Si sigue estos pasos, podrá representar sin esfuerzo documentos MHTML como archivos XPS utilizando Aspose.HTML para .NET.
 
@@ -96,7 +96,7 @@ Aspose.HTML para .NET es una biblioteca que proporciona capacidades de manipulac
  Sí, puedes acceder a una prueba gratuita de Aspose.HTML para .NET[aquí](https://releases.aspose.com/).
 
 ### ¿Cómo puedo obtener soporte para Aspose.HTML para .NET?
- Puede buscar soporte y asistencia de la comunidad Aspose.HTML en el[foro](https://forum.aspose.com/).
+Puede buscar soporte y asistencia de la comunidad Aspose.HTML en el[foro](https://forum.aspose.com/).
 
 ### ¿Puedo comprar una licencia temporal de Aspose.HTML para .NET?
  Sí, puede obtener una licencia temporal desde la página de compra.[aquí](https://purchase.aspose.com/temporary-license/).

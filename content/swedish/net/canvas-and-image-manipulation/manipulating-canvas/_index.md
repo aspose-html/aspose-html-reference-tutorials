@@ -1,7 +1,7 @@
 ---
 title: Manipulera Canvas i .NET med Aspose.HTML
 linktitle: Manipulera Canvas i .NET
-second_title: Aspose.Slides .NET HTML manipulation API
+second_title: Aspose.HTML .NET HTML manipulation API
 description: Lär dig hur du manipulerar HTML-dokument med Aspose.HTML för .NET. Denna omfattande handledning täcker grunderna, förutsättningarna och steg-för-steg-exempel.
 type: docs
 weight: 10
@@ -9,7 +9,7 @@ url: /sv/net/canvas-and-image-manipulation/manipulating-canvas/
 ---
 # En djupgående handledning om hur du använder Aspose.HTML för .NET
 
-webbutvecklingsvärlden är att arbeta med HTML och manipulera det ett vanligt krav. Aspose.HTML för .NET är ett kraftfullt verktyg som kan göra denna process mer effektiv och effektiv. I den här handledningen kommer vi att utforska hur man använder Aspose.HTML för .NET för att manipulera HTML-dokument och utföra olika uppgifter. Vi kommer att dela upp varje exempel i flera steg och ge detaljerade förklaringar för varje steg.
+I webbutvecklingsvärlden är att arbeta med HTML och manipulera det ett vanligt krav. Aspose.HTML för .NET är ett kraftfullt verktyg som kan göra denna process mer effektiv och effektiv. I den här handledningen kommer vi att utforska hur man använder Aspose.HTML för .NET för att manipulera HTML-dokument och utföra olika uppgifter. Vi kommer att dela upp varje exempel i flera steg och ge detaljerade förklaringar för varje steg.
 
 ## Förutsättningar
 

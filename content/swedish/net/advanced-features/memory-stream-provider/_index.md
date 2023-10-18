@@ -1,7 +1,7 @@
 ---
 title: Minnesströmsleverantör i .NET med Aspose.HTML
 linktitle: Minnesströmleverantör i .NET
-second_title: Aspose.Slides .NET HTML manipulation API
+second_title: Aspose.HTML .NET HTML manipulation API
 description: Lär dig hur du skapar fantastiska HTML-dokument i .NET med Aspose.HTML. Följ vår steg-för-steg handledning och lås upp kraften i HTML-manipulation.
 type: docs
 weight: 12

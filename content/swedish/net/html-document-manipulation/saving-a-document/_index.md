@@ -1,14 +1,14 @@
 ---
 title: Spara ett dokument i .NET med Aspose.HTML
 linktitle: Spara ett dokument i .NET
-second_title: Aspose.Slides .NET HTML manipulation API
+second_title: Aspose.HTML .NET HTML manipulation API
 description: Lås upp kraften i Aspose.HTML för .NET med vår steg-för-steg-guide. Lär dig att skapa, manipulera och konvertera HTML- och SVG-dokument
 type: docs
 weight: 16
 url: /sv/net/html-document-manipulation/saving-a-document/
 ---
 
-dagens digitala tidsålder är det viktigt att skapa och manipulera HTML- och SVG-dokument för många mjukvaruutvecklare och företag. Aspose.HTML för .NET är ett kraftfullt bibliotek som förenklar dessa uppgifter och erbjuder olika funktioner för att arbeta med HTML, SVG och mer. I den här omfattande guiden kommer vi att dyka in i det väsentliga i Aspose.HTML för .NET, och dela upp varje exempel i lätta att följa steg. Oavsett om du är en erfaren utvecklare eller precis har börjat, kommer du att tycka att den här guiden är ovärderlig för att utnyttja funktionerna i Aspose.HTML.
+I dagens digitala tidsålder är det viktigt att skapa och manipulera HTML- och SVG-dokument för många mjukvaruutvecklare och företag. Aspose.HTML för .NET är ett kraftfullt bibliotek som förenklar dessa uppgifter och erbjuder olika funktioner för att arbeta med HTML, SVG och mer. I den här omfattande guiden kommer vi att dyka in i det väsentliga i Aspose.HTML för .NET, och dela upp varje exempel i lätta att följa steg. Oavsett om du är en erfaren utvecklare eller precis har börjat, kommer du att tycka att den här guiden är ovärderlig för att utnyttja funktionerna i Aspose.HTML.
 
 ## Förutsättningar
 
@@ -16,7 +16,7 @@ Innan vi ger oss ut på den här resan, låt oss se till att du har allt du beh�
 
 - Utvecklingsmiljö: Se till att du har Visual Studio eller någon annan .NET-utvecklingsmiljö installerad på din dator.
 
--  Aspose.HTML for .NET: Du måste skaffa Aspose.HTML for .NET-biblioteket. Du kan ladda ner den från[här](https://releases.aspose.com/html/net/).
+- Aspose.HTML for .NET: Du måste skaffa Aspose.HTML for .NET-biblioteket. Du kan ladda ner den från[här](https://releases.aspose.com/html/net/).
 
 - Kunskaper i C#: Bekantskap med programmeringsspråket C# är fördelaktigt men inte obligatoriskt. Den här guiden är designad för att vara nybörjarvänlig.
 
@@ -64,14 +64,14 @@ using (var document = new Aspose.Html.HTMLDocument("document.html"))
 {
     // Skapa instans av Spara alternativ
     var options = new Aspose.Html.Saving.HTMLSaveOptions();
-    // Ställ in det maximala hanteringsdjupet till 0 för att klippa bort länkade HTML-filer.
+    //Ställ in det maximala hanteringsdjupet till 0 för att klippa bort länkade HTML-filer.
     options.ResourceHandlingOptions.MaxHandlingDepth = 0;
     // Spara dokumentet
     document.Save(@".\html-to-file-example\document.html", options);
 }
 ```
 
-det här exemplet laddar vi ett HTML-dokument i minnet, ställer in maximalt hanteringsdjup för att klippa bort länkade filer och sparar dokumentet. 
+I det här exemplet laddar vi ett HTML-dokument i minnet, ställer in maximalt hanteringsdjup för att klippa bort länkade filer och sparar dokumentet. 
 
 ## HTML till MHTML
 

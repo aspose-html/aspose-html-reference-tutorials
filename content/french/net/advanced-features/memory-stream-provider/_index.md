@@ -1,7 +1,7 @@
 ---
 title: Fournisseur de flux de mémoire dans .NET avec Aspose.HTML
 linktitle: Fournisseur de flux de mémoire dans .NET
-second_title: API de manipulation HTML Aspose.Slides .NET
+second_title: API de manipulation HTML Aspose.HTML .NET
 description: Apprenez à créer de superbes documents HTML dans .NET avec Aspose.HTML. Suivez notre didacticiel étape par étape et débloquez la puissance de la manipulation HTML.
 type: docs
 weight: 12

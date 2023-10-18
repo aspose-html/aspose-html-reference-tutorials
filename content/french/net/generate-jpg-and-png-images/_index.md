@@ -1,7 +1,7 @@
 ---
 title: Générer des images JPG et PNG
 linktitle: Générer des images JPG et PNG
-second_title: API de manipulation HTML Aspose.Slides .NET
+second_title: API de manipulation HTML Aspose.HTML .NET
 description: Apprenez à générer des images JPG et PNG à l'aide d'Aspose.HTML pour .NET avec nos didacticiels. Créez des graphismes époustouflants sans effort.
 type: docs
 weight: 28
@@ -32,7 +32,7 @@ L'intégration d'Aspose.HTML pour .NET dans vos projets .NET se fait sans probl�
 
 ## Générer des didacticiels d'images JPG et PNG
 ### [Générez des images JPG par ImageDevice dans .NET avec Aspose.HTML](./generate-jpg-images-by-imagedevice/)
-Découvrez comment créer des pages Web dynamiques à l'aide d'Aspose.HTML pour .NET. Ce didacticiel étape par étape couvre les conditions préalables, les espaces de noms et le rendu HTML en images.
+Découvrez comment créer des pages Web dynamiques à l'aide d'Aspose.HTML pour .NET. Ce didacticiel étape par étape couvre les prérequis, les espaces de noms et le rendu HTML en images.
 ### [Générer des images PNG par ImageDevice dans .NET avec Aspose.HTML](./generate-png-images-by-imagedevice/)
 Apprenez à utiliser Aspose.HTML pour .NET pour manipuler des documents HTML, convertir du HTML en images, et bien plus encore. Tutoriel étape par étape avec FAQ.
 

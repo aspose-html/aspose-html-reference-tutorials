@@ -1,7 +1,7 @@
 ---
 title: 画布和图像处理
 linktitle: 画布和图像处理
-second_title: Aspose.Slides .NET HTML 操作 API
+second_title: Aspose.HTML .NET HTML 操作 API
 description: 通过分步教程学习使用 Aspose.HTML for .NET 操作图像。发现画布和图像编辑的力量。
 type: docs
 weight: 22

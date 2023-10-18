@@ -1,14 +1,14 @@
 ---
 title: Använd Extended Content Property i .NET med Aspose.HTML
 linktitle: Använd Extended Content Property i .NET
-second_title: Aspose.Slides .NET HTML manipulation API
+second_title: Aspose.HTML .NET HTML manipulation API
 description: Lär dig hur du använder Aspose.HTML för .NET med denna steg-för-steg-guide. Förbättra dina HTML-kunskaper och effektivisera dina webbutvecklingsprojekt.
 type: docs
 weight: 14
 url: /sv/net/advanced-features/use-extended-content-property/
 ---
 
-en värld av webbutveckling är att arbeta med HTML en grundläggande färdighet. Aspose.HTML för .NET är ett kraftfullt verktyg som kan göra dina HTML-relaterade uppgifter enklare och effektivare. Den här handledningen tar dig igenom stegen för att komma igång med Aspose.HTML för .NET, inklusive förutsättningar, import av namnrymder och dela upp varje exempel i lätta att följa steg.
+I en värld av webbutveckling är att arbeta med HTML en grundläggande färdighet. Aspose.HTML för .NET är ett kraftfullt verktyg som kan göra dina HTML-relaterade uppgifter enklare och effektivare. Den här handledningen tar dig igenom stegen för att komma igång med Aspose.HTML för .NET, inklusive förutsättningar, import av namnrymder och dela upp varje exempel i lätta att följa steg.
 
 ## Förutsättningar
 

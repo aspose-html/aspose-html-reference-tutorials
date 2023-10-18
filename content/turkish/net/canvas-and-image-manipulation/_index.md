@@ -1,7 +1,7 @@
 ---
 title: Kanvas ve Görüntü İşleme
 linktitle: Kanvas ve Görüntü İşleme
-second_title: Aspose.Slides .NET HTML işleme API'si
+second_title: Aspose.HTML .NET HTML işleme API'si
 description: Adım adım eğitimlerle Aspose.HTML for .NET ile görüntüleri değiştirmeyi öğrenin. Kanvas ve resim düzenlemenin gücünü keşfedin.
 type: docs
 weight: 22

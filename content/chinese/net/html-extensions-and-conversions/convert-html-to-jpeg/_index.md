@@ -1,7 +1,7 @@
 ---
 title: 使用 Aspose.HTML 将 .NET 中的 HTML 转换为 JPEG
 linktitle: 在 .NET 中将 HTML 转换为 JPEG
-second_title: Aspose.Slides .NET HTML 操作 API
+second_title: Aspose.HTML .NET HTML 操作 API
 description: 了解如何使用 Aspose.HTML for .NET 将 .NET 中的 HTML 转换为 JPEG。利用 Aspose.HTML for .NET 的强大功能的分步指南。
 type: docs
 weight: 17
@@ -27,7 +27,7 @@ Aspose.HTML for .NET 是一个功能丰富的库，使开发人员能够无缝�
 ### 3..NET框架
 确保您已安装 .NET Framework。 Aspose.HTML for .NET 需要 .NET Framework 2.0 或更高版本。
 
-### 4. C# 的基本理解
+### 4. C# 的基本了解
 熟悉 C# 编程语言将会很有帮助，因为我们将用 C# 编写代码。
 
 现在您已经具备了先决条件，让我们开始使用 Aspose.HTML for .NET。
@@ -125,7 +125,7 @@ Aspose.HTML for .NET 对于开发人员来说是一个有价值的工具，它�
    Aspose.HTML for .NET 支持各种输出格式，除了 JPEG 之外，还包括 PDF、PNG 和 XPS。
 
 ### 免费试用版有任何限制吗？
-   免费试用版有一些限制，例如对输出文档加水印。要消除这些限制，您需要购买许可证。
+   免费试用版有一些限制，例如在输出文档上加水印。要消除这些限制，您需要购买许可证。
 
 ### Aspose.HTML for .NET 适合网页抓取吗？
    虽然 Aspose.HTML for .NET 主要用于文档操作，但它可以通过从 HTML 文档中提取数据来用于网页抓取。

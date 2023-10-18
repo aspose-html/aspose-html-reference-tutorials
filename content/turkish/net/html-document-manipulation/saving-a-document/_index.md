@@ -1,7 +1,7 @@
 ---
 title: Aspose.HTML ile Bir Belgeyi .NET'e Kaydetmek
 linktitle: .NET'te Belge Kaydetme
-second_title: Aspose.Slides .NET HTML işleme API'si
+second_title: Aspose.HTML .NET HTML işleme API'si
 description: Adım adım kılavuzumuzla Aspose.HTML for .NET'in gücünün kilidini açın. HTML ve SVG belgelerini oluşturmayı, değiştirmeyi ve dönüştürmeyi öğrenin
 type: docs
 weight: 16
@@ -16,7 +16,7 @@ Bu yolculuğa çıkmadan önce ihtiyacınız olan her şeye sahip olduğunuzdan 
 
 - Geliştirme Ortamı: Bilgisayarınızda Visual Studio'nun veya başka bir .NET geliştirme ortamının kurulu olduğundan emin olun.
 
--  Aspose.HTML for .NET: Aspose.HTML for .NET kitaplığını edinmeniz gerekir. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/html/net/).
+- Aspose.HTML for .NET: Aspose.HTML for .NET kitaplığını edinmeniz gerekir. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/html/net/).
 
 - C# Bilgisi: C# programlama diline aşinalık faydalıdır ancak zorunlu değildir. Bu kılavuz yeni başlayanlar için uygun olacak şekilde tasarlanmıştır.
 
@@ -38,7 +38,7 @@ Bu ad alanı, çeşitli HTML ve SVG işleme yeteneklerine erişmenizi sağlayaca
 // Boş bir HTML Belgesini başlatın.
 using (var document = new Aspose.Html.HTMLDocument())
 {
-    // Bir metin öğesi oluşturun ve bunu belgeye ekleyin
+    // Bir metin öğesi oluşturun ve onu belgeye ekleyin
     var text = document.CreateTextNode("Hello World!");
     document.Body.AppendChild(text);
     // HTML'yi diskteki dosyaya kaydedin.
@@ -64,7 +64,7 @@ using (var document = new Aspose.Html.HTMLDocument("document.html"))
 {
     // Kaydetme Seçenekleri örneği oluştur
     var options = new Aspose.Html.Saving.HTMLSaveOptions();
-    // Bağlantılı HTML dosyalarını kesmek için maksimum işleme derinliğini 0'a ayarlayın.
+    //Bağlantılı HTML dosyalarını kesmek için maksimum işleme derinliğini 0'a ayarlayın.
     options.ResourceHandlingOptions.MaxHandlingDepth = 0;
     // Belgeyi kaydet
     document.Save(@".\html-to-file-example\document.html", options);

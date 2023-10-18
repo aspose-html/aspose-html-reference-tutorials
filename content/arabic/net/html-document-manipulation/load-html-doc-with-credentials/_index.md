@@ -1,7 +1,7 @@
 ---
 title: قم بتحميل مستندات HTML ببيانات الاعتماد في .NET باستخدام Aspose.HTML
 linktitle: قم بتحميل مستندات HTML ببيانات الاعتماد في .NET
-second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة HTML
+second_title: Aspose.HTML .NET واجهة برمجة تطبيقات معالجة HTML
 description: تعرف على كيفية تعزيز تحسين محركات البحث لديك باستخدام Aspose.HTML لـ .NET. تعزيز التصنيف، وتحليل محتوى الويب، وتحسين محركات البحث.
 type: docs
 weight: 11
@@ -108,7 +108,7 @@ using (StringReader sr = new StringReader(response.Content.ReadAsString()))
 
 ### س1: هل Aspose.HTML متوافق مع كافة إصدارات .NET؟
 
- ج1: يتوافق Aspose.HTML for .NET مع إصدارات .NET المختلفة، ولكن من الضروري التحقق من الوثائق للحصول على تفاصيل توافق محددة. يمكنك العثور على مزيد من المعلومات[هنا](https://reference.aspose.com/html/net/).
+ ج1: يتوافق Aspose.HTML for .NET مع إصدارات .NET المختلفة، ولكن من الضروري التحقق من الوثائق للحصول على تفاصيل توافق معينة. يمكنك العثور على مزيد من المعلومات[هنا](https://reference.aspose.com/html/net/).
 
 ### س2: هل يمكنني استخدام Aspose.HTML لتحسين محركات البحث على صفحات الويب الديناميكية؟
 

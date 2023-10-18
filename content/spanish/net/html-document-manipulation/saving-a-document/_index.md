@@ -1,7 +1,7 @@
 ---
 title: Guardar un documento en .NET con Aspose.HTML
 linktitle: Guardar un documento en .NET
-second_title: Aspose.Slides API de manipulación HTML .NET
+second_title: Aspose.HTML .NET API de manipulación de HTML
 description: Desbloquee el poder de Aspose.HTML para .NET con nuestra guía paso a paso. Aprenda a crear, manipular y convertir documentos HTML y SVG
 type: docs
 weight: 16
@@ -16,7 +16,7 @@ Antes de embarcarnos en este viaje, asegurémonos de que tiene todo lo que neces
 
 - Entorno de desarrollo: asegúrese de tener Visual Studio o cualquier otro entorno de desarrollo .NET instalado en su computadora.
 
--  Aspose.HTML para .NET: Debe obtener la biblioteca Aspose.HTML para .NET. Puedes descargarlo desde[aquí](https://releases.aspose.com/html/net/).
+- Aspose.HTML para .NET: Debe obtener la biblioteca Aspose.HTML para .NET. Puedes descargarlo desde[aquí](https://releases.aspose.com/html/net/).
 
 - Conocimiento de C#: la familiaridad con el lenguaje de programación C# es beneficiosa pero no obligatoria. Esta guía está diseñada para que sea fácil de usar para principiantes.
 
@@ -64,7 +64,7 @@ using (var document = new Aspose.Html.HTMLDocument("document.html"))
 {
     // Crear instancia de Opciones de guardado
     var options = new Aspose.Html.Saving.HTMLSaveOptions();
-    // Establezca la profundidad máxima de manejo en 0 para cortar los archivos HTML vinculados.
+    //Establezca la profundidad máxima de manejo en 0 para cortar los archivos HTML vinculados.
     options.ResourceHandlingOptions.MaxHandlingDepth = 0;
     // guardar el documento
     document.Save(@".\html-to-file-example\document.html", options);
