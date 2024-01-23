@@ -75,7 +75,7 @@ Converter.convertEPUB(
 
 ## أسئلة مكررة
 
-### هل Aspose.HTML for Java مكتبة مجانية؟
+### هل يعتبر Aspose.HTML for Java مكتبة مجانية؟
 لا، Aspose.HTML لـ Java ليس مجانيًا. يمكنك الحصول على ترخيص أو ترخيص مؤقت لاحتياجات التطوير الخاصة بك من[موقع Aspose](https://purchase.aspose.com/buy) أو[صفحة الترخيص المؤقتة](https://purchase.aspose.com/temporary-license/).
 
 ### هل يمكنني تحويل التنسيقات الأخرى إلى BMP باستخدام Aspose.HTML لـ Java؟

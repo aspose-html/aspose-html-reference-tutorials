@@ -98,7 +98,7 @@ A1: Aspose.HTML per .NET offre un'ampia gamma di funzionalità, tra cui l'analis
 
 ### Q2: Aspose.HTML per .NET è adatto sia per applicazioni Web che desktop?
    
-A2: Sì, Aspose.HTML per .NET è versatile e può essere utilizzato sia in applicazioni Web che desktop. Le sue capacità lo rendono ideale per una varietà di scenari.
+A2: Sì, Aspose.HTML per .NET è versatile e può essere utilizzato sia in applicazioni web che desktop. Le sue capacità lo rendono ideale per una varietà di scenari.
 
 ### Q3: Dove posso trovare risorse aggiuntive e supporto per Aspose.HTML per .NET?
    

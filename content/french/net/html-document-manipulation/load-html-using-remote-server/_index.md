@@ -79,7 +79,7 @@ if (document.Body.ChildNodes.Length == 0)
 }
 ```
 
-### Étape 3 : Obtenir l'URI du document
+### Étape 3 : Obtenir l'URI du document
 
  Pour récupérer l'URI du document, vous pouvez utiliser le`DocumentURI` propriété.
 

@@ -49,7 +49,7 @@ String inputMarkdownFile = Resources.input("input.md");
 String outputHTMLFile = Resources.output("Markdown-to-HTML.out.html");
 ```
 
-## Adım 3: Dönüşümü Gerçekleştirin
+## 3. Adım: Dönüşümü Gerçekleştirin
 
  Sürecin kalbi Markdown dosyasını HTML'ye dönüştürmektir. Aspose.HTML for Java, bu adımı inanılmaz derecede basit hale getiriyor`convertMarkdown` yöntem.
 

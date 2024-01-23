@@ -109,7 +109,7 @@ Bu adımda, dönüştürülen XPS verilerini bellek akışından alır ve belirt
 
 Bu eğitimde Aspose.HTML for .NET kullanımının temellerini ele aldık. Önkoşulları ayarlayarak, gerekli ad alanlarını içe aktararak başladık ve ardından bir HTML belgesini XPS biçimine dönüştürmek için bir kod örneğini birden çok adıma ayırdık.
 
- Aspose.HTML for .NET burada keşfettiklerimizin ötesinde geniş bir yetenek yelpazesi sunuyor. Becerilerinizi daha da geliştirmek için bkz.[dokümantasyon](https://reference.aspose.com/html/net/) ve daha gelişmiş özellikleri ve kullanım örneklerini keşfedin.
+ Aspose.HTML for .NET burada keşfettiklerimizin ötesinde geniş bir yetenek yelpazesi sunar. Becerilerinizi daha da geliştirmek için bkz.[dokümantasyon](https://reference.aspose.com/html/net/) ve daha gelişmiş özellikleri ve kullanım örneklerini keşfedin.
 
 ## SSS'ler
 

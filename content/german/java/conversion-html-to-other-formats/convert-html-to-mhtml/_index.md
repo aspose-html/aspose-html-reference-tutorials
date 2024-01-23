@@ -23,7 +23,7 @@ Nachdem Sie nun die Voraussetzungen geschaffen haben, fahren wir mit den nächst
 
 ## Pakete importieren
 
-Um zu beginnen, müssen Sie die erforderlichen Pakete für Ihr Java-Projekt importieren. Fügen Sie Ihrem Java-Code die folgenden Importanweisungen hinzu:
+Um zu beginnen, müssen Sie die notwendigen Pakete für Ihr Java-Projekt importieren. Fügen Sie Ihrem Java-Code die folgenden Importanweisungen hinzu:
 
 ```java
 import com.aspose.html.HTMLDocument;

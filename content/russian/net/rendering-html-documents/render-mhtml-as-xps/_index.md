@@ -1,6 +1,6 @@
 ---
 title: Отображение MHTML как XPS в .NET с помощью Aspose.HTML
-linktitle: Отображение MHTML как XPS в .NET
+linktitle: Рендеринг MHTML как XPS в .NET
 second_title: API манипуляций с HTML Aspose.HTML .NET
 description: Научитесь отображать MHTML как XPS в .NET с помощью Aspose.HTML. Совершенствуйте свои навыки манипулирования HTML и улучшите свои проекты веб-разработки!
 type: docs

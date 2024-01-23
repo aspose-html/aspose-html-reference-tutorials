@@ -416,7 +416,7 @@ options.PageSetup.AnyPage = new Page(
 using (var device = new XpsDevice(options, "output.xps"))
 ```
 
-### Шаг 5. Преобразование HTML в XPS
+### Шаг 5. Преобразование HTML в XPS
 
 ```csharp
 document.RenderTo(device);
@@ -464,7 +464,7 @@ renderer.Render(device, document1, document2, document3);
 
 ## Установить тайм-аут рендеринга
 
-### Шаг 1. Подготовьте HTML-код с помощью JavaScript.
+### Шаг 1. Подготовьте HTML-код с помощью JavaScript
 
 ```csharp
 var code = @"

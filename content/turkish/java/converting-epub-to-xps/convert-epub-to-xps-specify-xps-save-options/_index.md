@@ -17,7 +17,7 @@ Eğiticiye dalmadan önce, yerine getirmeniz gereken birkaç önkoşul vardır:
 
 2.  Aspose.HTML for Java Library: Aspose.HTML for Java'yı şu adresten indirip yükleyin:[İndirme: {link](https://releases.aspose.com/html/java/).
 
-3. EPUB Dosyası: XPS'e dönüştürmek istediğiniz bir EPUB dosyasına ihtiyacınız olacak.
+3. EPUB Dosyası: XPS'ye dönüştürmek istediğiniz bir EPUB dosyasına ihtiyacınız olacak.
 
 Artık önkoşullarımızı yerine getirdiğimize göre, EPUB'dan XPS'ye yönelik XPS kaydetme seçeneklerini belirlemek için gereken adımlara geçelim.
 

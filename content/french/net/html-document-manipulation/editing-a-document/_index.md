@@ -30,7 +30,7 @@ Une fois ces éléments essentiels en place, commençons notre voyage dans le mo
 
 Dans tout projet .NET, il est essentiel d'importer les espaces de noms requis avant de travailler avec Aspose.HTML. Voici comment procéder :
 
-### Étape 1 : Importer des espaces de noms
+### Étape 1 : Importer les espaces de noms
 
 ```csharp
 using Aspose.Html;
@@ -148,7 +148,7 @@ Vous disposez désormais des connaissances nécessaires pour créer un contenu W
 
 ## Conclusion
 
-Aspose.HTML pour .NET vous permet de créer, manipuler et restituer facilement du contenu HTML. Avec les bons outils et un esprit créatif, vous pouvez créer du contenu Web qui captive votre public. Commencez votre voyage avec Aspose.HTML dès aujourd'hui et débloquez un monde de possibilités.
+Aspose.HTML pour .NET vous permet de créer, manipuler et restituer facilement du contenu HTML. Avec les bons outils et un esprit créatif, vous pouvez créer du contenu Web qui captive votre public. Commencez votre voyage avec Aspose.HTML dès aujourd’hui et débloquez un monde de possibilités.
 
 ## FAQ
 

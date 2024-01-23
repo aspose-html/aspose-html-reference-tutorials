@@ -57,7 +57,7 @@ try (java.io.FileInputStream fileInputStream = new java.io.FileInputStream("path
 
  Sostituire`"path/to/your/input.epub"` con il percorso effettivo del file del tuo EPUB.
 
-### Passaggio 2: inizializza ImageSaveOptions
+### Passaggio 2: inizializzare ImageSaveOptions
 
  Successivamente, inizializza il file`ImageSaveOptions` con il formato immagine desiderato (in questo caso BMP):
 

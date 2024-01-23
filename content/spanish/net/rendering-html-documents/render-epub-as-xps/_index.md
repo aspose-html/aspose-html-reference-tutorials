@@ -93,7 +93,7 @@ Sí, Aspose.HTML para .NET admite varios formatos de salida, incluidos PDF, form
 
 ### 4. ¿Dónde puedo buscar ayuda o compartir mis experiencias con la biblioteca?
 
-Puede unirse a la comunidad Aspose y buscar ayuda o compartir sus experiencias en el[aspose foro](https://forum.aspose.com/).
+Puede unirse a la comunidad Aspose y buscar ayuda o compartir sus experiencias en el[asponer foro](https://forum.aspose.com/).
 
 ### 5. ¿Puedo utilizar Aspose.HTML para .NET en proyectos comerciales?
 

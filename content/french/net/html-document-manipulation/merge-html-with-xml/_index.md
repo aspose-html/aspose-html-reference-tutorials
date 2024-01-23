@@ -16,7 +16,7 @@ Avant de plonger dans le monde d'Aspose.HTML pour .NET, assurez-vous d'avoir les
 
 1. Un environnement de développement .NET
 
-Vous aurez besoin d'un environnement de développement .NET fonctionnel sur votre ordinateur. Si vous ne l'avez pas installé, rendez-vous sur[Le site Web de Microsoft](https://docs.microsoft.com/en-us/dotnet/core/install/) pour des instructions détaillées.
+Vous aurez besoin d'un environnement de développement .NET fonctionnel sur votre machine. Si vous ne l'avez pas installé, rendez-vous sur[Le site Web de Microsoft](https://docs.microsoft.com/en-us/dotnet/core/install/) pour des instructions détaillées.
 
 2. Aspose.HTML pour la bibliothèque .NET
 

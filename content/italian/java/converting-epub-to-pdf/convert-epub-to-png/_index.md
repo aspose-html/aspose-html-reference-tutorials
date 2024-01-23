@@ -43,7 +43,7 @@ try (FileInputStream fileInputStream = new FileInputStream("path/to/your/input.e
 
  Assicurati di sostituire`"path/to/your/input.epub"` con il percorso effettivo del file EPUB.
 
-## Passaggio 2: inizializza ImageSaveOptions
+## Passaggio 2: inizializzare ImageSaveOptions
 
 ImageSaveOptions ti consente di specificare il formato in cui desideri salvare il contenuto EPUB. In questo caso, vogliamo salvarlo come immagine PNG. Inizializza le opzioni come mostrato di seguito:
 

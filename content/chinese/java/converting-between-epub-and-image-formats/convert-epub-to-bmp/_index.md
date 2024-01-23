@@ -95,7 +95,7 @@ A2：是的，您可以将 EPUB 文件转换为各种图像格式，包括 BMP�
 
 ### Q3：我需要高级编程技能才能使用 Aspose.HTML for Java 吗？
 
-A3：虽然基本的 Java 知识是有益的，但 Aspose.HTML 提供了用户友好的 API 和全面的文档，使所有技能级别都可以访问该过程。
+A3：虽然基本的 Java 知识是有益的，但 Aspose.HTML 提供了用户友好的 API 和全面的文档，使所有技能水平都可以访问该过程。
 
 ### 问题 4：我可以在哪里寻求 Aspose.HTML for Java 的帮助或支持？
 

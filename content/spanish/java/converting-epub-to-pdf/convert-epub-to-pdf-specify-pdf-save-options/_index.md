@@ -51,7 +51,7 @@ options.setPageSetup(pageSetup);
 options.setBackgroundColor(com.aspose.html.drawing.Color.getAliceBlue());
 ```
 
-## Paso 3: Convertir EPUB a PDF
+## Paso 3: convertir EPUB a PDF
 
  Ahora llama al`ConvertEPUB` Método para convertir el archivo EPUB a PDF. Especifique el flujo de entrada, las opciones para guardar PDF y la ubicación de salida. Así es como se hace:
 
@@ -63,7 +63,7 @@ com.aspose.html.converters.Converter.convertEPUB(
 );
 ```
 
-¡Felicidades! Ha convertido con éxito un archivo EPUB a PDF utilizando Aspose.HTML para Java. Ahora puede acceder al archivo PDF convertido en la ubicación de salida especificada.
+¡Felicidades! Ha convertido con éxito un archivo EPUB a PDF usando Aspose.HTML para Java. Ahora puede acceder al archivo PDF convertido en la ubicación de salida especificada.
 
 ## Código fuente completo
 ```java

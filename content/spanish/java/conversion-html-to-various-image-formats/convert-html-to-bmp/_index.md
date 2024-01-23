@@ -69,7 +69,7 @@ com.aspose.html.converters.Converter.convertHTML(htmlDocument, options, outputFi
 
  Este es el paso final donde realizamos la conversión de HTML a BMP. El`htmlDocument`, `options` y`outputFile` Las variables deben configurarse como se describe en los pasos anteriores.
 
-¡Eso es todo! Ha convertido con éxito su documento HTML a una imagen BMP usando Aspose.HTML para Java.
+¡Eso es todo! Ha convertido con éxito su documento HTML a una imagen BMP utilizando Aspose.HTML para Java.
 
 ## Conclusión
 

@@ -143,7 +143,7 @@ static void EditElementStyle()
         var element = document.GetElementsByTagName("p")[0];
         // Hämta CSS-vyobjektet
         var view = (Aspose.Html.Dom.Css.IViewCSS)document.Context.Window;
-        // Få den beräknade stilen för elementet
+        // Få elementets beräknade stil
         var declaration = view.GetComputedStyle(element);
         // Få "färg" egenskapsvärde
         System.Console.WriteLine(declaration.Color); // rgb(255; 0; 0)
@@ -153,7 +153,7 @@ static void EditElementStyle()
 
 ### Förklaring:
 
-1.  Vi skapar ett HTML-dokument med inbäddad CSS som sätter färgen på`<p>` element till rött.
+1.  Vi skapar ett HTML-dokument med inbäddad CSS som anger färgen på`<p>` element till rött.
 
 2.  Vi hämtar`<p>` element använder`document.GetElementsByTagName("p")[0]`.
 
@@ -174,7 +174,7 @@ static void EditElementStyleUsingAttribute()
         var element = (Aspose.Html.HTMLElement)document.GetElementsByTagName("p")[0];
         // Hämta CSS-vyobjektet
         var view = (Aspose.Html.Dom.Css.IViewCSS)document.Context.Window;
-        // Få den beräknade stilen för elementet
+        // Få elementets beräknade stil
         var declaration = view.GetComputedStyle(element);
         // Ställ in grön färg
         element.Style.Color = "green";
@@ -186,7 +186,7 @@ static void EditElementStyleUsingAttribute()
 
 ### Förklaring:
 
-1.  Vi skapar ett HTML-dokument med inbäddad CSS som sätter färgen på`<p>` element till rött.
+1.  Vi skapar ett HTML-dokument med inbäddad CSS som anger färgen på`<p>` element till rött.
 
 2.  Vi hämtar`<p>` element använder`document.GetElementsByTagName("p")[0]`.
 

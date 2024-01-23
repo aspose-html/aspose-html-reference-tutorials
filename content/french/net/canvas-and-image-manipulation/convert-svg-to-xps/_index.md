@@ -93,7 +93,7 @@ A1 : Aspose.HTML pour .NET convient aussi bien aux développeurs débutants qu'e
 
 ### Q4 : Existe-t-il des licences temporaires disponibles ?
 
- A4 : Oui, des licences temporaires pour Aspose.HTML pour .NET peuvent être obtenues[ici](https://purchase.aspose.com/temporary-license/).
+ A4 : Oui, des licences temporaires pour Aspose.HTML pour .NET peuvent être obtenues[ici](https://purchase.aspose.com/temporary-license/).
 
 ### Q5 : Quels sont les avantages de la conversion de SVG en XPS ?
 

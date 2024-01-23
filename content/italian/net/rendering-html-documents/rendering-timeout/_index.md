@@ -43,7 +43,7 @@ Questi spazi dei nomi forniscono l'accesso alla libreria Aspose.HTML, consentend
 
 ### RenderingTimeout
 
- IL`RenderingTimeout` Il metodo consente di specificare un limite di tempo massimo per il rendering di un documento HTML. Se il processo di rendering supera questo limite, verrà interrotto.
+ IL`RenderingTimeout` Il metodo consente di specificare un limite di tempo massimo per il rendering di un documento HTML. Se il processo di rendering supera questo limite, verrà terminato.
 
  Ecco una descrizione dettagliata di come utilizzare il`RenderingTimeout` metodo:
 

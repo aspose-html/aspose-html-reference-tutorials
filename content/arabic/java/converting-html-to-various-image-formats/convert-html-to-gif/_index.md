@@ -44,7 +44,7 @@ try (java.io.FileWriter fileWriter = new java.io.FileWriter("document.html")) {
 }
 ```
 
-في هذه الخطوة، نقوم بإنشاء كود HTML بسيط يحتوي على النص "Hello World!!" واحفظه في ملف باسم "document.html."
+في هذه الخطوة، نقوم بإنشاء كود HTML بسيط يحتوي على النص "Hello World!!" واحفظه في ملف باسم "document.html".
 
 ### الخطوة 2: تهيئة مستند HTML
 
@@ -72,7 +72,7 @@ Converter.convertHTML(document, options, "output.gif");
 
 ## خاتمة
 
-يعد تحويل HTML إلى GIF باستخدام Aspose.HTML لـ Java عملية مباشرة، وقد قدم لك هذا الدليل الخطوات الأساسية لتحقيق ذلك. باستخدام Aspose.HTML، يمكنك إنشاء صور GIF بسهولة من مستندات HTML، مما يفتح إمكانيات جديدة لمشاريعك وتطبيقاتك.
+يعد تحويل HTML إلى GIF باستخدام Aspose.HTML لـ Java عملية مباشرة، وقد قدم لك هذا الدليل الخطوات الأساسية لتحقيق ذلك. باستخدام Aspose.HTML، يمكنك بسهولة إنشاء صور GIF من مستندات HTML، مما يفتح إمكانيات جديدة لمشاريعك وتطبيقاتك.
 
  للحصول على معلومات أكثر تفصيلاً وميزات إضافية، راجع[توثيق](https://reference.aspose.com/html/java/).
 

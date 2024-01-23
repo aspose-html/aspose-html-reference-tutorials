@@ -20,7 +20,7 @@ MHTML (MIME HTML) ist ein Format zum Archivieren von Webseiten. Aspose.HTML für
 
 ## Konvertieren von HTML in XPS
 
-XPS (XML Paper Specification) ist ein elektronisches Dokumentformat, das zum einfachen Teilen und Drucken entwickelt wurde. Aspose.HTML für Java optimiert den Prozess der Konvertierung von HTML in XPS. Mit der einfachen Schritt-für-Schritt-Anleitung können Sie mühelos plattformübergreifende Dokumente erstellen. Teilen Sie Ihre HTML-Inhalte in einem allgemein akzeptierten Format.
+XPS (XML Paper Specification) ist ein elektronisches Dokumentformat, das zum einfachen Teilen und Drucken entwickelt wurde. Aspose.HTML für Java optimiert den Prozess der Konvertierung von HTML in XPS. Mit der einfachen Schritt-für-Schritt-Anleitung können Sie problemlos plattformübergreifende Dokumente erstellen. Teilen Sie Ihre HTML-Inhalte in einem allgemein akzeptierten Format.
 
 ## Konvertieren von Markdown in HTML
 

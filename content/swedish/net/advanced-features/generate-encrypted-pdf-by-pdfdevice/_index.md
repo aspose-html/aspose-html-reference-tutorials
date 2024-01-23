@@ -69,7 +69,7 @@ using (PdfDevice device = new PdfDevice(options, dataDir + @"document_out.pdf"))
 }
 ```
 
- I det här sista steget använder vi`RenderTo` metod för att konvertera HTML-dokumentet till en PDF. Vi passerar`PdfDevice` instans och den önskade sökvägen för utdatafilen. HTML-innehållet kommer att omvandlas till ett PDF-dokument med de angivna inställningarna.
+ I detta sista steg använder vi`RenderTo` metod för att konvertera HTML-dokumentet till en PDF. Vi passerar`PdfDevice` instans och den önskade sökvägen för utdatafilen. HTML-innehållet kommer att omvandlas till ett PDF-dokument med de angivna inställningarna.
 
 Grattis! Du har framgångsrikt konverterat HTML till PDF dynamiskt med Aspose.HTML för .NET. Du kan nu integrera denna kod i din webbapplikation eller ditt projekt efter behov.
 

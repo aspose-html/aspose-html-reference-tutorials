@@ -94,7 +94,7 @@ Aspose.HTML per Java semplifica il processo di conversione dei file EPUB in imma
 
  R1: Aspose.HTML per Java è una libreria commerciale, ma puoi esplorare le sue funzionalità con a[prova gratuita](https://releases.aspose.com/html/java).
 
-### Q2: è disponibile documentazione per Aspose.HTML per Java?
+### Q2: È disponibile documentazione per Aspose.HTML per Java?
 
  A2: Sì, è possibile trovare una documentazione completa[Qui](https://reference.aspose.com/html/java/).
 

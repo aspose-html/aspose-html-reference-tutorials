@@ -68,7 +68,7 @@ ImageSaveOptions options = new ImageSaveOptions(ImageFormat.Gif);
 Converter.convertHTML(document, options, "output.gif");
 ```
 
- I det här sista steget använder vi`Converter` klass för att konvertera HTML-dokumentet till en GIF-bild med de givna alternativen. Den utgående GIF-bilden kommer att sparas som "output.gif."
+ I detta sista steg använder vi`Converter` klass för att konvertera HTML-dokumentet till en GIF-bild med de givna alternativen. Den utgående GIF-bilden kommer att sparas som "output.gif."
 
 ## Slutsats
 

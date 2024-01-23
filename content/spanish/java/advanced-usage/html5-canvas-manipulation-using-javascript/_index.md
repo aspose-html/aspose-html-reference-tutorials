@@ -62,7 +62,7 @@ try (FileWriter fileWriter = new FileWriter("document.html")) {
 }
 ```
 
-## Paso 2: Inicializar un documento HTML
+## Paso 2: inicializar un documento HTML
 
 En este paso, utilizará Aspose.HTML para inicializar un documento HTML a partir del archivo HTML que acaba de crear.
 

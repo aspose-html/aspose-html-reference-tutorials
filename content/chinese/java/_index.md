@@ -13,7 +13,7 @@ Aspose.HTML for Java 是一个多功能库，提供广泛的功能来增强您�
 HTML 文档处理的重要方面之一是控制页面布局。 Aspose.HTML for Java 允许您轻松自定义 HTML 页边距。无论您需要精确控制间距还是希望创建具有独特格式的文档，本教程都将指导您完成整个过程。
 
 ## 实现 DOM 突变观察器
-了解文档对象模型 (DOM) 的变化对于许多 Web 应用程序至关重要。使用 Aspose.HTML for Java，您可以实现 DOM Mutation Observer，它使您能够检测并响应 HTML 结构中的更改。此功能对于动态 Web 内容和交互式应用程序特别有用。
+了解文档对象模型 (DOM) 的变化对于许多 Web 应用程序至关重要。使用 Aspose.HTML for Java，您可以实现 DOM Mutation Observer，它使您能够检测并响应 HTML 结构中的变化。此功能对于动态 Web 内容和交互式应用程序特别有用。
 
 ## 操作 HTML5 画布
 HTML5 Canvas 是用于创建图形和动画的强大工具。借助 Aspose.HTML for Java，您可以操纵 HTML5 Canvas 创建具有视觉吸引力的 Web 内容。本教程将引导您完成充分利用 Canvas 元素潜力的步骤。

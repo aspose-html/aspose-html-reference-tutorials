@@ -63,7 +63,7 @@ Artık HTML belgesini Aspose.HTML for .NET kullanarak TIFF'e dönüştürmeye ha
 Converter.ConvertHTML(htmlDocument, options, outputFile);
 ```
 
- Bu kod şunu çağırır:`ConvertHTML` sizin yönteminizle`htmlDocument` ,`options` tanımladınız ve`outputFile` yol.
+ Bu kod şunu çağırır:`ConvertHTML` Seninle yöntem`htmlDocument` ,`options` tanımladınız ve`outputFile` yol.
 
 Tebrikler! Aspose.HTML for .NET'i kullanarak bir HTML belgesini başarıyla TIFF görüntüsüne dönüştürdünüz.
 

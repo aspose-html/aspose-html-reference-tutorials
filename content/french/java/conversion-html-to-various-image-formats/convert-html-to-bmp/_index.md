@@ -19,7 +19,7 @@ Avant de nous lancer dans le processus de conversion, vous devez remplir certain
 
 1. Environnement de développement Java
 
- Assurez-vous d'avoir un environnement de développement Java configuré sur votre système. Sinon, vous pouvez suivre la documentation sur[Le site d'Oracle](https://www.oracle.com/java/technologies/javase-downloads.html) pour commencer.
+ Assurez-vous d'avoir un environnement de développement Java configuré sur votre système. Sinon, vous pouvez suivre la documentation sur[Le site Web d'Oracle](https://www.oracle.com/java/technologies/javase-downloads.html) pour commencer.
 
 2. Aspose.HTML pour Java
 

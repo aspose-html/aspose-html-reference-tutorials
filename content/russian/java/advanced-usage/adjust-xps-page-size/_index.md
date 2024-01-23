@@ -72,7 +72,7 @@ com.aspose.html.rendering.xps.XpsRenderingOptions xps_options = new com.aspose.h
 
 Здесь мы создаем параметры рендеринга XPS для настройки процесса рендеринга.
 
-## Шаг 4. Отрегулируйте размер страницы
+## Шаг 4. Отрегулируйте размер страницы.
 
 ```java
 com.aspose.html.drawing.Page page = new com.aspose.html.drawing.Page(new com.aspose.html.drawing.Size(100, 100));
@@ -110,7 +110,7 @@ A1: Aspose.HTML for Java — это библиотека Java, которая п
 
  A2: Вы можете загрузить библиотеку Aspose.HTML для Java с сайта[эта ссылка](https://releases.aspose.com/html/java/).
 
-### Вопрос 3. Существует ли бесплатная пробная версия Aspose.HTML для Java?
+### Вопрос 3: Существует ли бесплатная пробная версия Aspose.HTML для Java?
 
  О3: Да, вы можете получить бесплатную пробную версию Aspose.HTML для Java на сайте[здесь](https://releases.aspose.com/).
 

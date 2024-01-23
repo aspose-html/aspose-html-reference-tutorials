@@ -62,7 +62,7 @@ Aspose.HTML for Java ile EPUB'u JPG formatına dönüştürmek artık çok kolay
 
 ### S1: Java için Aspose.HTML nedir?
 
-Cevap1: Aspose.HTML for Java, HTML ve çeşitli belge formatlarıyla çalışmaya yönelik, çok çeşitli özellikler ve işlevler sağlayan bir Java kütüphanesidir.
+Cevap1: Aspose.HTML for Java, HTML ve çeşitli belge formatlarıyla çalışmaya yönelik, çok çeşitli özellikler ve işlevler sunan bir Java kütüphanesidir.
 
 ### S2: Aspose.HTML for Java'yı nereden indirebilirim?
 

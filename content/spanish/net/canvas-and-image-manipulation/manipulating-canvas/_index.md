@@ -104,7 +104,7 @@ using (var device = new XpsDevice("Your Output Directory\\canvas.xps"))
 
 Ahora ha creado con éxito un documento HTML, ha manipulado un elemento de lienzo y ha representado el resultado en un archivo XPS utilizando Aspose.HTML para .NET.
 
-En este tutorial, cubrimos los conceptos básicos del uso de Aspose.HTML para .NET para manipular documentos HTML. Es una herramienta poderosa para que los desarrolladores web trabajen con HTML y realicen diversas tareas. A medida que explores más, descubrirás sus capacidades con más profundidad.
+En este tutorial, cubrimos los conceptos básicos del uso de Aspose.HTML para .NET para manipular documentos HTML. Es una herramienta poderosa para que los desarrolladores web trabajen con HTML y realicen diversas tareas. A medida que explore más, descubrirá sus capacidades con más profundidad.
 
 ## Conclusión
 

@@ -129,7 +129,7 @@ Bu ad alanları Aspose.HTML kitaplığına erişim sağlayarak HTML belgeleri ve
    renderer.Render(device, -1, document);
    ```
 
-   Bu kod satırında, oluşturma işleminin tüm dahili görevler tamamlanana kadar devam etmesine izin veren, süresiz bir oluşturma zaman aşımı belirtiyoruz.
+   Bu kod satırında, oluşturma sürecinin tüm dahili görevler tamamlanana kadar devam etmesine izin veren, süresiz bir oluşturma zaman aşımı belirtiyoruz.
 
 ## Çözüm
 
@@ -148,7 +148,7 @@ Artık Aspose.HTML for .NET'te görüntü oluşturma zaman aşımlarını iyice 
     Aspose.HTML for .NET belgelerine erişebilirsiniz[Burada](https://reference.aspose.com/html/net/). Kütüphanenin özelliklerinin ve API'lerinin nasıl kullanılacağına ilişkin ayrıntılı bilgiler içerir.
 
 ### Aspose.HTML for .NET'in ücretsiz deneme sürümü mevcut mu?
-    Evet, Aspose.HTML for .NET'in ücretsiz deneme sürümünü edinebilirsiniz[Burada](https://releases.aspose.com/). Deneme, satın alma işlemi yapmadan önce kütüphanenin yeteneklerini keşfetmenize olanak tanır.
+    Evet, Aspose.HTML for .NET'in ücretsiz deneme sürümünü edinebilirsiniz[Burada](https://releases.aspose.com/). Deneme, satın alma işlemi yapmadan önce kitaplığın yeteneklerini keşfetmenize olanak tanır.
 
 ### Aspose.HTML for .NET için nasıl geçici lisans alabilirim?
    Aspose.HTML for .NET için geçici bir lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/). Geçici lisanslar test ve değerlendirme amacıyla kullanışlıdır.

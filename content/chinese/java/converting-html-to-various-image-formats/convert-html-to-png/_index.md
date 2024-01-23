@@ -8,7 +8,7 @@ weight: 13
 url: /zh/java/converting-html-to-various-image-formats/convert-html-to-png/
 ---
 
-在 Web 开发领域，将 HTML 内容转换为其他格式的能力通常是一项至关重要的任务。一个常见的需求是将 HTML 转换为 PNG 等图像格式。 Aspose.HTML for Java 提供了一个强大的解决方案来轻松完成此任务。在本分步教程中，我们将指导您完成使用 Aspose.HTML for Java 将 HTML 转换为 PNG 的过程。
+在 Web 开发领域，将 HTML 内容转换为其他格式的能力通常是一项至关重要的任务。一个常见的要求是将 HTML 转换为 PNG 等图像格式。 Aspose.HTML for Java 提供了一个强大的解决方案来轻松完成此任务。在本分步教程中，我们将指导您完成使用 Aspose.HTML for Java 将 HTML 转换为 PNG 的过程。
 
 ## 先决条件
 

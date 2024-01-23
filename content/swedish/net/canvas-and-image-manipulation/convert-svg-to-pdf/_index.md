@@ -42,7 +42,7 @@ string dataDir = "Your Data Directory";
 
 ## Steg 2: Laddar SVG-dokumentet
 ```csharp
-// Källa SVG-dokument
+// SVG-källdokument
 SVGDocument svgDocument = new SVGDocument(dataDir + "input.svg");
 ```
 Den här koden skapar en instans av SVGDocument-klassen genom att ladda SVG-filen med namnet "input.svg" från den angivna datakatalogen.

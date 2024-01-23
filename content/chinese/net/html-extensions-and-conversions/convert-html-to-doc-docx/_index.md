@@ -90,7 +90,7 @@ Converter.ConvertHTML(htmlDocument, options, dataDir + "HTMLtoDOCX_out.docx");
 ## 常见问题解答
 
 ### 什么是 .NET 的 Aspose.HTML？
-Aspose.HTML for .NET 是一个库，使 .NET 开发人员能够以编程方式操作和处理 HTML 文档。
+Aspose.HTML for .NET 是一个库，使 .NET 开发人员能够以编程方式操纵和处理 HTML 文档。
 
 ### 在哪里可以找到 Aspose.HTML 文档？
 你可以找到文档[这里](https://reference.aspose.com/html/net/).

@@ -31,7 +31,7 @@ Aspose.HTML for Java ile EPUB dosyalarını etkili bir şekilde görsellere dön
 Aspose.HTML for Java ile EPUB'u XPS'ye nasıl dönüştürebileceğinizi keşfedin. Bu eğitimde ayrıntılı, adım adım bir kılavuz sunulur ve Aspose.HTML'nin bu dönüşümleri yönetme yeteneklerini keşfetmeye yönelik kod örnekleri sunulur. Ayrıca daha fazla kontrol için özel akış sağlayıcılarını ve XPS kaydetme seçeneklerini nasıl belirleyeceğinizi de öğreneceksiniz.
 
 ## Dönüşüm - HTML'den Çeşitli Resim Formatlarına
-Aspose.HTML for Java'yı kullanarak HTML içeriğini BMP, GIF, JPEG, PNG ve TIFF gibi çeşitli görüntü formatlarına nasıl dönüştüreceğinizi öğrenin. Bu kapsamlı eğitim, sizi verimli belge işleme için gereken becerilerle donatarak HTML belgelerinizden yüksek kaliteli görüntüler oluşturmanıza olanak tanır.
+Aspose.HTML for Java'yı kullanarak HTML içeriğini BMP, GIF, JPEG, PNG ve TIFF gibi çeşitli görüntü formatlarına nasıl dönüştüreceğinizi öğrenin. Bu kapsamlı eğitim, sizi verimli belge işleme için gereken becerilerle donatacak ve HTML belgelerinizden yüksek kaliteli görüntüler oluşturmanıza olanak tanıyacaktır.
 
 ## Dönüştürme - HTML'yi Diğer Formatlara
 Aspose.HTML for Java, HTML'yi PDF, MHTML, XPS, Markdown, SVG ve daha fazlası dahil olmak üzere diğer çeşitli formatlara dönüştürmeyi çocuk oyuncağı haline getirir. Bu eğitim, yüksek kaliteli belge dönüşümlerini kolaylıkla sağlayarak süreç boyunca size rehberlik edecektir.

@@ -30,7 +30,7 @@ url: /zh/net/html-document-manipulation/load-html-using-url/
 
 文本编辑器对于编写和编辑代码至关重要。您可以选择您喜欢的文本编辑器，但 Visual Studio 还提供了代码编辑器以方便您使用。
 
-现在我们已经满足了先决条件，让我们深入了解如何开始使用 Aspose.HTML for .NET。
+现在我们已经满足了先决条件，让我们深入了解如何开始使用 Aspose.HTML for .NET 的详细信息。
 
 ## 导入命名空间
 

@@ -91,7 +91,7 @@ HTML belgelerini verimli bir şekilde MHTML formatına dönüştürmek, web geli
 
 ### MHTML nedir ve neden kullanılır?
 
-"MIME HTML"nin kısaltması olan MHTML, bir web sayfasını ve kaynaklarını tek bir dosyaya kaydetmenize olanak tanıyan bir web sayfası arşiv biçimidir. Yaygın olarak web içeriğini arşivlemek, web sayfalarını tek dosyalar olarak paylaşmak ve farklı sunucularda barındırılsalar bile tüm kaynakların (resimler, stil sayfaları vb.) dahil edilmesini sağlamak için kullanılır.
+"MIME HTML"nin kısaltması olan MHTML, bir web sayfasını ve kaynaklarını tek bir dosyaya kaydetmenize olanak tanıyan bir web sayfası arşiv biçimidir. Yaygın olarak web içeriğini arşivlemek, web sayfalarını tek dosyalar halinde paylaşmak ve farklı sunucularda barındırılsalar bile tüm kaynakların (resimler, stil sayfaları vb.) dahil edilmesini sağlamak için kullanılır.
 
 ### MHTML'ye dönüştürürken kaynak işlemeyi özelleştirebilir miyim?
 

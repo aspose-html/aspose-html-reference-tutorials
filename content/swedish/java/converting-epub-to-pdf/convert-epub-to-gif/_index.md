@@ -37,7 +37,7 @@ För att börja måste du öppna en befintlig EPUB-fil för läsning. Använd f�
 
 ```java
 try (FileInputStream fileInputStream = new FileInputStream("input.epub")) {
-    // Din kod för konvertering går här.
+    // Din kod för konvertering kommer här.
 }
 ```
 
@@ -45,7 +45,7 @@ try (FileInputStream fileInputStream = new FileInputStream("input.epub")) {
 
 ## Steg 2: Initiera ImageSaveOptions
 
- Du måste initiera`ImageSaveOptions` för att konfigurera GIF-bilden. Så här gör du:
+ Du måste initiera`ImageSaveOptions` för att konfigurera GIF-bildutgången. Så här gör du:
 
 ```java
 ImageSaveOptions options = new ImageSaveOptions(ImageFormat.Gif);

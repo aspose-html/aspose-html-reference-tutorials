@@ -74,7 +74,7 @@ Converter.convertEPUB(
 
 ## 结论
 
-在这份综合指南中，我们引导您完成了使用 Aspose.HTML for Java 将 EPUB 转换为 TIFF 的过程。满足正确的先决条件并按照分步说明操作，您可以将 EPUB 文档无缝转换为高质量 TIFF 图像，从而为您的文档管理需求开辟新的可能性。
+在本综合指南中，我们引导您完成了使用 Aspose.HTML for Java 将 EPUB 转换为 TIFF 的过程。满足正确的先决条件并按照分步说明操作，您可以将 EPUB 文档无缝转换为高质量 TIFF 图像，从而为您的文档管理需求开辟新的可能性。
 
 如需进一步帮助并探索 Aspose.HTML for Java 的更多功能，您可以参考[文档](https://reference.aspose.com/html/java/)或从以下位置下载该库[这里](https://releases.aspose.com/html/java/).
 

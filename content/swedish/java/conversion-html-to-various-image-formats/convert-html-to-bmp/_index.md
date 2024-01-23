@@ -58,7 +58,7 @@ com.aspose.html.saving.ImageSaveOptions options = new com.aspose.html.saving.Ima
 String outputFile = "path/to/your/output/HTMLtoBMP_Output.bmp";
 ```
 
- Ange sökvägen där du vill spara den konverterade BMP-bilden. Byta ut`"path/to/your/output/HTMLtoBMP_Output.bmp"` med din önskade utdatafilsökväg.
+ Ange sökvägen där du vill spara den konverterade BMP-bilden. Byta ut`"path/to/your/output/HTMLtoBMP_Output.bmp"` med din önskade sökväg för utdatafil.
 
 ### Steg 4: Konvertera HTML till BMP
 

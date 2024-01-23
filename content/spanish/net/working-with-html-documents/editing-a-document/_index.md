@@ -204,7 +204,7 @@ Este ejemplo demuestra cómo modificar directamente el estilo de un elemento HTM
 
 En este tutorial, cubrimos los fundamentos del uso de Aspose.HTML para .NET para crear, manipular y diseñar documentos HTML dentro de sus aplicaciones .NET. Exploramos varios ejemplos, desde la creación de un documento HTML hasta la edición de su estructura y estilos. Con estas habilidades, podrá manejar documentos HTML de forma eficaz en sus proyectos .NET.
 
- Si tiene alguna pregunta o necesita más ayuda, no dude en visitar el[Aspose.HTML para documentación .NET](https://reference.aspose.com/html/net/) o buscar ayuda en el[aspose foro](https://forum.aspose.com/).
+ Si tiene alguna pregunta o necesita más ayuda, no dude en visitar el[Aspose.HTML para documentación .NET](https://reference.aspose.com/html/net/) o buscar ayuda en el[asponer foro](https://forum.aspose.com/).
 
 ---
 

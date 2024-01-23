@@ -67,7 +67,7 @@ PdfSaveOptions options = new PdfSaveOptions();
 Converter.convertEPUB(fileInputStream, options, "output.pdf");
 ```
 
-يقوم سطر التعليمات البرمجية هذا بتحويل ملف EPUB إلى PDF وحفظه بتنسيق "output.pdf" في دليل المشروع الخاص بك.
+يقوم سطر التعليمات البرمجية هذا بتحويل ملف EPUB إلى PDF وحفظه كـ "output.pdf" في دليل المشروع الخاص بك.
 
 ## خاتمة
 

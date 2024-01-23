@@ -93,7 +93,7 @@ document.Body.AppendChild(orderedListElement);
 
 ### Schritt 5: Hinzufügen einer Tabelle
 
- Abschließend fügen wir dem Dokument eine Tabelle hinzu. Wir erstellen ein`table` Element erstellen, Zeilen und Zellen erstellen und deren festlegen`Id` Und`TextContent`, und hängen Sie sie an die Tabelle an.
+ Abschließend fügen wir dem Dokument eine Tabelle hinzu. Wir erstellen eine`table` Element erstellen, Zeilen und Zellen erstellen und deren festlegen`Id` Und`TextContent`, und hängen Sie sie an die Tabelle an.
 
 ```csharp
 var table = document.CreateElement("table") as HTMLTableElement;

@@ -63,7 +63,7 @@ using (var device = new PdfDevice("output.pdf"))
 document.RenderTo(device);
 ```
 
-Det här exemplet konverterar ett HTML-utdrag till ett PDF-dokument. Du kan anpassa HTML-koden och utdatafilen efter behov.
+Det här exemplet konverterar ett HTML-kodavsnitt till ett PDF-dokument. Du kan anpassa HTML-koden och utdatafilen efter behov.
 
 ## Ställ in anpassad sidstorlek
 
@@ -499,7 +499,7 @@ using (HTMLRenderer renderer = new HTMLRenderer())
 using (var device = new PdfDevice("output.pdf"))
 ```
 
-### Steg 5: Gör HTML till PDF med Timeout
+### Steg 5: Återge HTML till PDF med Timeout
 
 ```csharp
 renderer.Render(device, TimeSpan.FromSeconds(5), document);

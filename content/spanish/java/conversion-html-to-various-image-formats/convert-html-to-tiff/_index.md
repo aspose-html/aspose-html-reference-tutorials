@@ -35,7 +35,7 @@ En su proyecto Java, necesita importar los paquetes necesarios para trabajar con
 
 Primero, abra su proyecto Java en su entorno de desarrollo integrado (IDE) preferido. Puede ser Eclipse, IntelliJ IDEA o cualquier otro de su elección.
 
-### Paso 2: Agregar la biblioteca Aspose.HTML
+### Paso 2: agregar la biblioteca Aspose.HTML
 
 Agregue la biblioteca Aspose.HTML a su proyecto. Puede hacer esto incluyendo el archivo JAR que descargó anteriormente en el classpath.
 

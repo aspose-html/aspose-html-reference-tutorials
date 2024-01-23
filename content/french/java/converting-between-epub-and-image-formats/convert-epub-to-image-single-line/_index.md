@@ -7,11 +7,11 @@ type: docs
 weight: 17
 url: /fr/java/converting-between-epub-and-image-formats/convert-epub-to-image-single-line/
 ---
-Cherchez-vous un moyen simple de convertir des fichiers EPUB en images à l’aide de Java ? Aspose.HTML pour Java a ce qu'il vous faut ! Dans ce didacticiel complet, nous vous guiderons pas à pas tout au long du processus. Ainsi, même si vous débutez dans ce domaine, vous pourrez le faire sans effort. 
+Recherchez-vous un moyen simple de convertir des fichiers EPUB en images à l’aide de Java ? Aspose.HTML pour Java a ce qu'il vous faut ! Dans ce didacticiel complet, nous vous guiderons pas à pas tout au long du processus. Ainsi, même si vous débutez dans ce domaine, vous pourrez le faire sans effort. 
 
 ## Conditions préalables
 
-Avant de vous lancer dans le processus de conversion, vous devez mettre en place quelques conditions préalables :
+Avant de vous lancer dans le processus de conversion, vous devez remplir quelques conditions préalables :
 
 1. Environnement de développement Java
 

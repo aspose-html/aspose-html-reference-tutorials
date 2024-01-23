@@ -46,7 +46,7 @@ try (FileInputStream fileInputStream = new FileInputStream("input.epub")) {
 
 ## Steg 2: Initiera ImageSaveOptions
 
-Vi kommer att initiera`ImageSaveOptions` för att ange i vilket format vi vill spara bilderna. I det här fallet använder vi JPEG-format.
+Vi initierar`ImageSaveOptions` för att ange i vilket format vi vill spara bilderna. I det här fallet använder vi JPEG-format.
 
 ```java
 ImageSaveOptions options = new ImageSaveOptions(ImageFormat.Jpeg);

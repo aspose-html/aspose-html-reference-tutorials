@@ -97,7 +97,7 @@ Specifying PDF Save Options for EPUB to PDF
 
 ## الأسئلة المتداولة (الأسئلة الشائعة)
 
-### هل Aspose.HTML for Java مكتبة مجانية؟
+### هل يعتبر Aspose.HTML for Java مكتبة مجانية؟
  Aspose.HTML for Java هي مكتبة تجارية، ولكن يمكنك الحصول على نسخة تجريبية مجانية منها[موقع إلكتروني](https://releases.aspose.com/).
 
 ### ما هي تنسيقات EPUB المدعومة للتحويل؟

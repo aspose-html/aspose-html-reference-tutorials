@@ -20,7 +20,7 @@ L’un des aspects cruciaux à prendre en compte lors de l’utilisation d’un 
 
 ## L'initialisation démystifiée
 
-Après avoir géré les licences, il est temps de se lancer dans l'initialisation. Une initialisation appropriée est la clé pour libérer tout le potentiel d’Aspose.HTML pour .NET. Nos didacticiels vous guideront tout au long du processus, garantissant que vous maîtrisez bien la configuration correcte de la bibliothèque. 
+Après avoir géré les licences, il est temps de se lancer dans l’initialisation. Une initialisation appropriée est la clé pour libérer tout le potentiel d’Aspose.HTML pour .NET. Nos didacticiels vous guideront tout au long du processus, garantissant que vous maîtrisez bien la configuration correcte de la bibliothèque. 
 
 ## Intégration transparente avec vos projets .NET
 

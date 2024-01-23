@@ -52,7 +52,7 @@ PdfSaveOptions options = new PdfSaveOptions();
 options.setJpegQuality(100);
 ```
 
-## Étape 3 : définir le chemin de sortie
+## Étape 3 : Définir le chemin de sortie
 
 Spécifiez le chemin du fichier PDF de sortie. Assurez-vous que le répertoire de sortie est accessible et que vous disposez des autorisations en écriture.
 

@@ -33,7 +33,7 @@ using Aspose.Html.Css;
 
 Önkoşullar mevcut ve ad alanları içe aktarıldıktan sonra, Aspose.HTML for .NET'in etkili bir şekilde nasıl kullanılacağını göstermek için bazı önemli örnekleri adım adım inceleyelim.
 
-## HTML'de Gezinme
+## HTML'de Gezinmek
 
 Bu örnekte, bir HTML belgesinde gezineceğiz ve öğelerine adım adım erişeceğiz.
 

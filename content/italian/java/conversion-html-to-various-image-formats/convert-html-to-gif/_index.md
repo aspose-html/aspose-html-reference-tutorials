@@ -52,7 +52,7 @@ Innanzitutto, devi caricare il documento HTML che desideri convertire. Assicurat
 HTMLDocument htmlDocument = new HTMLDocument("your_input.html");
 ```
 
-### Passaggio 2: inizializza ImageSaveOptions
+### Passaggio 2: inizializzare ImageSaveOptions
 
  Inizializza il`ImageSaveOptions` classe per specificare il formato di output, che in questo caso è GIF.
 

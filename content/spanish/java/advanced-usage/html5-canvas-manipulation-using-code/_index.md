@@ -100,7 +100,7 @@ context.setStrokeStyle(gradient);
 
 Este paso establece los estilos de relleno y trazo de nuestro pincel de degradado.
 
-## Paso 7: escriba texto y rellene el rectángulo
+## Paso 7: escribe texto y rellena el rectángulo
 
 Podemos utilizar el contexto de Canvas para realizar varias operaciones de dibujo. En este ejemplo, escribiremos texto y rellenaremos un rectángulo:
 

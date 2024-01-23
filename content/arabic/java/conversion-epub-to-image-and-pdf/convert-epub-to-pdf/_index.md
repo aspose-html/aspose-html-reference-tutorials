@@ -81,7 +81,7 @@ Converter.convertEPUB(fileInputStream, options, outputFile);
 
 ### س1: ما هو Aspose.HTML لـ Java؟
 
-A1: Aspose.HTML for Java عبارة عن مكتبة Java توفر نطاقًا واسعًا من إمكانيات معالجة HTML ومعالجتها، بما في ذلك تحويل EPUB إلى PDF.
+A1: Aspose.HTML for Java عبارة عن مكتبة Java توفر نطاقًا واسعًا من إمكانات معالجة HTML ومعالجتها، بما في ذلك تحويل EPUB إلى PDF.
 
 ### س2: هل يمكنني استخدام Aspose.HTML لـ Java في مشاريعي التجارية؟
 
