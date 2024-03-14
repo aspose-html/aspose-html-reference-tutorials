@@ -121,7 +121,7 @@ observer.disconnect();
 
 ## 结论
 
-在本教程中，我们介绍了使用 Aspose.HTML for Java 实现 DOM 突变观察器的过程。您已经学习了如何创建观察者、配置它、更改 DOM、等待观察以及停止观察。现在，您已经具备了在 Java 项目中应用 DOM Mutation Observers 来有效监视 HTML 文档 DOM 变化并做出反应的技能。
+在本教程中，我们介绍了使用 Aspose.HTML for Java 实现 DOM 突变观察器的过程。您已经学习了如何创建观察者、配置它、更改 DOM、等待观察以及停止观察。现在，您已经掌握了在 Java 项目中应用 DOM Mutation Observers 来有效监视 HTML 文档 DOM 变化并做出反应的技能。
 
 如果您有任何疑问或遇到问题，请随时寻求帮助[Aspose.HTML 论坛](https://forum.aspose.com/)。此外，您还可以访问[文档](https://reference.aspose.com/html/java/)有关 Java 版 Aspose.HTML 的详细信息。
 

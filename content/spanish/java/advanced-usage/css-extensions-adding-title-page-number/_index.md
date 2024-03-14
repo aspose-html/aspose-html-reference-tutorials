@@ -66,7 +66,7 @@ try {
 
 En este paso, inicializamos el objeto de configuración y configuramos márgenes de página personalizados, incluida la posición del contador de páginas y el título de la página.
 
-## Paso 2: Inicializar un documento HTML
+## Paso 2: inicializar un documento HTML
 
 ```java
 // Inicializar un documento HTML

@@ -43,7 +43,7 @@ try (FileInputStream fileInputStream = new FileInputStream("input.epub")) {
 
  Sostituire`"input.epub"` con il percorso effettivo del file EPUB.
 
-## Passaggio 2: inizializza ImageSaveOptions
+## Passaggio 2: inizializzare ImageSaveOptions
 
  Dovrai inizializzare`ImageSaveOptions` per configurare l'output dell'immagine GIF. Ecco come farlo:
 

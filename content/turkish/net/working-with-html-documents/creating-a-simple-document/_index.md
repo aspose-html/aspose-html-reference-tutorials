@@ -26,7 +26,7 @@ Makinenizde bir .NET geliştirme ortamının kurulu olması gerekir. Henüz yapm
 
 ### 3. Metin Düzenleyici veya IDE
 
-.NET kodunuzu yazmak ve çalıştırmak için bir metin düzenleyicisine veya Tümleşik Geliştirme Ortamına (IDE) ihtiyacınız olacak. Popüler seçenekler arasında Visual Studio, Visual Studio Code veya JetBrains Rider bulunur.
+.NET kodunuzu yazmak ve çalıştırmak için bir metin düzenleyicisine veya Tümleşik Geliştirme Ortamına (IDE) ihtiyacınız olacaktır. Popüler seçenekler arasında Visual Studio, Visual Studio Code veya JetBrains Rider bulunur.
 
 Artık önkoşulları karşıladığınıza göre, öğreticiye devam edelim.
 

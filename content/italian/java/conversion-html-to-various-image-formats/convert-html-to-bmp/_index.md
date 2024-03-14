@@ -42,7 +42,7 @@ com.aspose.html.HTMLDocument htmlDocument = new com.aspose.html.HTMLDocument("pa
 
  In questo passaggio creiamo un file`HTMLDocument` istanza utilizzando il percorso del file HTML. Sostituire`"path/to/your/input.html"`con il percorso effettivo del file HTML.
 
-### Passaggio 2: inizializza ImageSaveOptions
+### Passaggio 2: inizializzare ImageSaveOptions
 
 ```java
 // Inizializza ImageSaveOptions

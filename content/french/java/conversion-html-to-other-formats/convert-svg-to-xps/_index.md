@@ -56,7 +56,7 @@ XpsSaveOptions options = new XpsSaveOptions();
 options.setBackgroundColor(Color.getCyan());
 ```
 
-## Étape 3 : définir le chemin de sortie
+## Étape 3 : Définir le chemin de sortie
 
 Spécifiez le chemin où vous souhaitez enregistrer le fichier XPS converti.
 

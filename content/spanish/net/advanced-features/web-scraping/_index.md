@@ -8,7 +8,7 @@ weight: 13
 url: /es/net/advanced-features/web-scraping/
 ---
 
-En la era digital actual, manipular y extraer información de documentos HTML es una tarea común para los desarrolladores. Aspose.HTML para .NET es una poderosa herramienta que simplifica el procesamiento y manipulación de HTML en aplicaciones .NET. En este tutorial, exploraremos varios aspectos de Aspose.HTML para .NET, incluidos requisitos previos, espacios de nombres y ejemplos paso a paso para ayudarle a aprovechar todo su potencial.
+En la era digital actual, manipular y extraer información de documentos HTML es una tarea común para los desarrolladores. Aspose.HTML para .NET es una poderosa herramienta que simplifica el procesamiento y manipulación de HTML en aplicaciones .NET. En este tutorial, exploraremos varios aspectos de Aspose.HTML para .NET, incluidos requisitos previos, espacios de nombres y ejemplos paso a paso para ayudarlo a aprovechar todo su potencial.
 
 ## Requisitos previos
 

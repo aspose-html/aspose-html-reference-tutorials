@@ -20,7 +20,7 @@ Innan du börjar, se till att du har följande på plats:
 
 2. Aspose.HTML för Java
 
-Du måste ha Aspose.HTML för Java. Om du inte har skaffat det ännu kan du ladda ner det från Asposes webbplats. Besök[Aspose.HTML för Java](https://releases.aspose.com/html/java/) för att skaffa de nödvändiga biblioteken.
+Du måste ha Aspose.HTML för Java. Om du inte har skaffat det ännu kan du ladda ner det från Asposes webbplats. Besök[Aspose.HTML för Java](https://releases.aspose.com/html/java/) för att få de nödvändiga biblioteken.
 
 3. SVG-dokument
 

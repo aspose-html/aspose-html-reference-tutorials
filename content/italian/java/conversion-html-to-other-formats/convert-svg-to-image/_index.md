@@ -45,7 +45,7 @@ Ora, suddividiamo il codice di esempio in più passaggi per una comprensione pi�
 SVGDocument svgDocument = new SVGDocument(Resources.input("input.svg"));
 ```
 
-### Passaggio 2: inizializza ImageSaveOptions
+### Passaggio 2: inizializzare ImageSaveOptions
 
  Successivamente, inizializzerai il file`ImageSaveOptions` oggetto. Qui è dove definisci il formato dell'immagine di output, in questo caso stiamo usando JPEG.
 

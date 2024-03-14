@@ -148,7 +148,7 @@ var options = new PdfRenderingOptions()
 };
 ```
 
-### Schritt 4: PDF-Gerät erstellen und Optionen und Ausgabedatei für niedrige Auflösung festlegen
+### Schritt 4: PDF-Gerät erstellen und Optionen und Ausgabedatei für niedrige Auflösung angeben
 
 ```csharp
 using (var device = new PdfDevice(options, "output_resolution_50.pdf"))

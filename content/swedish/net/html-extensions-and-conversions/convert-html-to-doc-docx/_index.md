@@ -48,7 +48,7 @@ I din C#-kodfil, lägg till följande med hjälp av direktivet högst upp för a
 using Aspose.Html;
 ```
 
-Vi delar upp processen för att konvertera ett HTML-dokument till DOCX-format i flera steg, så att du förstår varje aspekt tydligt.
+Vi delar upp processen för att konvertera ett HTML-dokument till DOCX-format i flera steg, för att säkerställa att du förstår varje aspekt tydligt.
 
 ## Definiera din datakatalog
 

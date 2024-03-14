@@ -20,7 +20,7 @@ Antes de sumergirnos en el tutorial, asegúrese de cumplir con los siguientes re
 
 2. Un entorno de desarrollo: asegúrese de tener configurado un entorno de desarrollo .NET, incluido Visual Studio o cualquier otro editor de código adecuado.
 
-3. Conocimientos básicos de C#: la familiaridad con la programación de C# será útil para comprender e implementar los ejemplos.
+3. Conocimientos básicos de C#: la familiaridad con la programación en C# será útil para comprender e implementar los ejemplos.
 
 ## Importar espacio de nombres
 
@@ -59,7 +59,7 @@ using (var document = new Aspose.Html.HTMLDocument("<p>my first paragraph</p>" +
 document.Save(dataDir + "Markdown.md", Saving.HTMLSaveFormat.Markdown);
 ```
 
-¡Felicidades! Ha convertido con éxito un documento HTML a Markdown usando Aspose.HTML para .NET.
+¡Felicidades! Ha convertido con éxito un documento HTML a Markdown utilizando Aspose.HTML para .NET.
 
 ## Definir reglas de conversión de rebajas
 

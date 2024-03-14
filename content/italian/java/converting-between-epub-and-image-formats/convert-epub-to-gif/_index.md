@@ -45,7 +45,7 @@ Ora suddividiamo il processo di conversione da EPUB a GIF in una serie di passag
 try (FileInputStream fileInputStream = new FileInputStream("input.epub")) {
 ```
 
-### Passaggio 2: inizializza ImageSaveOptions
+### Passaggio 2: inizializzare ImageSaveOptions
 
  Successivamente, inizializza il file`ImageSaveOptions` per il processo di conversione. Specifica il formato di output come GIF.
 

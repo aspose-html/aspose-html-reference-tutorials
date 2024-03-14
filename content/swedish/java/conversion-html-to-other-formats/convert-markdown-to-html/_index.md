@@ -73,7 +73,7 @@ S1: Ja, du kan använda den med valfri Java IDE du väljer.
 
 ### F2: Finns det en gratis testversion tillgänglig för Aspose.HTML för Java?
 
- S2: Ja, du kan få tillgång till en gratis testversion[här](https://releases.aspose.com/html/java).
+ A2: Ja, du kan få tillgång till en gratis testversion[här](https://releases.aspose.com/html/java).
 
 ### F3: Var kan jag hitta mer dokumentation för Aspose.HTML för Java?
 

@@ -83,7 +83,7 @@ Puoi personalizzare le dimensioni e i margini della pagina in base alle tue esig
 ### Passaggio 6: rendering dell'HTML
 
 ```csharp
-    // Se il documento ha un elemento la cui dimensione è più grande di quella predefinita dalla dimensione della pagina dell'utente, le pagine di output verranno regolate.
+    // Se il documento contiene un elemento la cui dimensione è maggiore di quella predefinita dalla dimensione della pagina dell'utente, le pagine di output verranno regolate.
     options.PageSetup.AdjustToWidestPage = true;
     using (ImageDevice device = new ImageDevice(options, dataDir + @"document_out.jpg"))
     {

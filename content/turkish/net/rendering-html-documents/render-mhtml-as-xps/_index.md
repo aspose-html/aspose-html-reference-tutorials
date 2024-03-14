@@ -70,7 +70,7 @@ using (var renderer = new MhtmlRenderer())
 
  Bunun bir örneğini oluşturuyoruz`XpsDevice` XPS (XML Kağıt Belirtimi) biçimi için işleme aygıtını temsil eden sınıf. Çıkış XPS dosyasının oluşturulacağı yer burasıdır.
 
-### Adım 4: MHTML Oluşturucuyu Başlatma
+### 4. Adım: MHTML Oluşturucuyu Başlatma
 
  Bunun bir örneğini oluşturuyoruz`MhtmlRenderer` MHTML belgelerinin işlenmesinden sorumlu olan sınıf.
 

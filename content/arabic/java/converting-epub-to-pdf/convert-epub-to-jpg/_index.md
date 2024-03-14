@@ -54,7 +54,7 @@ ImageSaveOptions options = new ImageSaveOptions(ImageFormat.Jpeg);
 
 ## الخطوة 3: تحويل EPUB إلى JPG
 
- الآن، سوف نتصل بـ`convertEPUB` طريقة إجراء التحويل. هذه الطريقة تأخذ`FileInputStream` بالنسبة لملف EPUB، فإن ملف`ImageSaveOptions`، ومسار ملف الإخراج.
+ الآن، سوف نتصل بـ`convertEPUB` طريقة إجراء التحويل. هذه الطريقة تأخذ`FileInputStream` بالنسبة لملف EPUB، فإن ملف`ImageSaveOptions`ومسار ملف الإخراج.
 
 ```java
 Converter.convertEPUB(fileInputStream, options, "output.jpg");

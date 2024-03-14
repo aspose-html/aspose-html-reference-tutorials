@@ -35,7 +35,7 @@ HTMLDocument htmlDocument = new HTMLDocument(dataDir + "input.html");
 
  In questo codice,`dataDir` è la directory in cui si trova il documento HTML. Dovresti sostituire`"Your Data Directory"` con il percorso vero e proprio.
 
-## Passaggio 2: inizializza ImageSaveOptions
+## Passaggio 2: inizializzare ImageSaveOptions
 
  Ora ti consigliamo di impostare il file`ImageSaveOptions` per specificare il formato di output. In questo caso, utilizzeremo TIFF. Ecco come farlo:
 

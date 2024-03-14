@@ -76,7 +76,7 @@ ImageSaveOptions options = new ImageSaveOptions(ImageFormat.Tiff);
 
 ### Steg 6: Ställ in utdatafilssökvägen
 
-Ange sökvägen till utdatafilen för TIFF-bilden:
+Ange utdatafilens sökväg för TIFF-bilden:
 
 ```java
 String outputFile = "path/to/your/output.tif";

@@ -54,7 +54,7 @@ using System.Collections.Generic;
 
 1. 在 dataDir 变量中提供 EPUB 文件的路径。
 2. 使用 FileStream 打开 EPUB 文件进行阅读。
-3. 调用 ConvertEPUB 方法，传递 EPUB 流、指定输出格式 (JPEG) 的 ImageSaveOptions 以及输出文件名 (“output.jpg”)。
+3. 调用 ConvertEPUB 方法，传递 EPUB 流、指定输出格式 (JPEG) 的 ImageSaveOptions 以及输出文件名（“output.jpg”）。
 5. EPUB 文件将转换为 JPEG 图像。
 
 在此示例中，我们打开一个 EPUB 文件，读取其内容，并将其转换为 JPEG 图像格式。输出图像保存为“output.jpg”。

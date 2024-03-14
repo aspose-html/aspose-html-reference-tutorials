@@ -66,7 +66,7 @@ using (XpsDevice device = new XpsDevice(dataDir + @"document_out.xps"))
 
 ## Schritt 3: Führen Sie den Code aus
 
- Nachdem wir nun unseren Code zum Erstellen, Laden und Rendern mehrerer HTML-Dokumente geschrieben haben, können Sie ihn in Ihrer .NET-Entwicklungsumgebung ausführen. Unbedingt ersetzen`"Your Data Directory"` mit dem tatsächlichen Pfad, in dem Sie die Ausgabe speichern möchten.
+ Nachdem wir nun unseren Code zum Erstellen, Laden und Rendern mehrerer HTML-Dokumente geschrieben haben, können Sie ihn in Ihrer .NET-Entwicklungsumgebung ausführen. Unbedingt austauschen`"Your Data Directory"` mit dem tatsächlichen Pfad, in dem Sie die Ausgabe speichern möchten.
 
 Nach der Ausführung des Codes finden Sie das gerenderte XPS-Dokument im angegebenen Verzeichnis.
 

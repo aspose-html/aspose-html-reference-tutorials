@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /tr/java/conversion-epub-to-image-and-pdf/convert-epub-to-image/
 ---
-Bu kapsamlı eğitimde, EPUB belgelerini görüntülere dönüştürmek için Aspose.HTML for Java'nın nasıl kullanılacağını keşfedeceğiz. EPUB popüler bir e-Kitap formatıdır ve bunu görsellere dönüştürebilmek, küçük resimler, kapak görselleri oluşturmak veya web sitenizde kitap alıntılarını paylaşmak gibi çeşitli senaryolarda oldukça yararlı olabilir. Aspose.HTML for Java bu görev için güçlü bir çözüm sunar. Bunu zahmetsizce nasıl başaracağınızı öğrenmek için aşağıdaki adımları izleyin.
+Bu kapsamlı eğitimde, EPUB belgelerini görüntülere dönüştürmek için Aspose.HTML for Java'nın nasıl kullanılacağını keşfedeceğiz. EPUB popüler bir e-Kitap formatıdır ve bunu görsellere dönüştürebilmek, küçük resimler, kapak görselleri oluşturmak veya web sitenizde kitap alıntılarını paylaşmak gibi çeşitli senaryolarda oldukça faydalı olabilir. Aspose.HTML for Java bu görev için güçlü bir çözüm sunar. Bunu zahmetsizce nasıl başaracağınızı öğrenmek için aşağıdaki adımları izleyin.
 
 ## Önkoşullar
 

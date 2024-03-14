@@ -28,7 +28,7 @@ Att konvertera EPUB till PDF är bara början. Aspose.HTML för Java öppnar upp
 
 I den här omfattande guiden tar vi dig genom varje steg och säkerställer att du har kunskapen och verktygen för att bemästra EPUB till PDF-konvertering. Säg adjö till formathuvudvärk och välkomna det enkla med Aspose.HTML för Java.
 
-Redo att börja? Låt oss dyka in i en värld av sömlös dokumentkonvertering med Aspose.HTML för Java. Följ vår steg-för-steg-guide och förvandla dina EPUB-filer till PDF-format idag. Ditt innehåll, ditt sätt.
+Redo att komma igång? Låt oss dyka in i en värld av sömlös dokumentkonvertering med Aspose.HTML för Java. Följ vår steg-för-steg-guide och förvandla dina EPUB-filer till PDF-format idag. Ditt innehåll, ditt sätt.
 
 Lås upp potentialen för ditt digitala innehåll med Aspose.HTML för Java. Starta din konverteringsresa från EPUB till PDF nu.
 ## Handledning för att konvertera EPUB till PDF

@@ -26,7 +26,7 @@ Du behöver en fungerande .NET-utvecklingsmiljö på din maskin. Om du inte har 
 
 Samla HTML-mallen och XML-datafilerna som du tänker arbeta med. Du behöver dessa för att följa med exemplen i den här guiden.
 
-4. Grundläggande kunskaper om .NET
+4. Grundläggande kunskaper i .NET
 
 En grundläggande förståelse för .NET-programmering är väsentlig. Om du är ny på .NET, överväg att börja med introduktionshandledningar eller kurser tillgängliga online.
 

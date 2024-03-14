@@ -48,7 +48,7 @@ try (FileInputStream fileInputStream = new FileInputStream("path/to/input.epub")
 
 In questo passaggio, apriamo il file EPUB per la lettura. Assicurati di fornire il percorso corretto del tuo file EPUB al posto di`"path/to/input.epub"`.
 
-## Passaggio 2: inizializza ImageSaveOptions
+## Passaggio 2: inizializzare ImageSaveOptions
 
 ```java
 ImageSaveOptions options = new ImageSaveOptions(ImageFormat.Tiff);

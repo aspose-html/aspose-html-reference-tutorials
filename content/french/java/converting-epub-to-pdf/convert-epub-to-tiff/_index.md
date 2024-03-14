@@ -14,7 +14,7 @@ Dans le domaine de la conversion de documents, la conversion EPUB en TIFF consti
 
 ## Conditions préalables
 
-Avant de vous lancer dans la conversion EPUB vers TIFF à l'aide d'Aspose.HTML pour Java, vous devez vous assurer que les conditions préalables suivantes sont remplies :
+Avant de vous lancer dans la conversion EPUB vers TIFF à l'aide d'Aspose.HTML pour Java, vous devez vous assurer que les conditions préalables suivantes sont en place :
 
 1. Environnement de développement Java : vous devez disposer d'un environnement de développement Java fonctionnel sur votre système. Sinon, vous pouvez télécharger et installer Java Development Kit (JDK) à partir du site Web d'Oracle.
 

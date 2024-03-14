@@ -1,6 +1,6 @@
 ---
 title: Примените дозированную лицензию в .NET с помощью Aspose.HTML
-linktitle: Применить дозированную лицензию в .NET
+linktitle: Применить лимитную лицензию в .NET
 second_title: API манипуляций с HTML Aspose.HTML .NET
 description: Узнайте, как применить дозированную лицензию в Aspose.HTML для .NET. Эффективно управляйте своими потребностями в манипуляциях с HTML. Начать сейчас!
 type: docs

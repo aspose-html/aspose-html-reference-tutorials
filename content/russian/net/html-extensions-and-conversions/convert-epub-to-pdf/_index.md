@@ -35,7 +35,7 @@ using Aspose.Html.Saving;
 using Aspose.Html.Converters;
 ```
 
-### Шаг 3. Откройте файл EPUB.
+### Шаг 3. Откройте файл EPUB
 
 ```csharp
 string dataDir = "Your Data Directory";
@@ -76,7 +76,7 @@ using Aspose.Html.IO;
 using Aspose.Html.Drawing;
 ```
 
-### Шаг 3. Откройте файл EPUB.
+### Шаг 3. Откройте файл EPUB
 
 ```csharp
 string dataDir = "Your Data Directory";
@@ -127,7 +127,7 @@ using Aspose.Html.Converters;
 using Aspose.Html.IO;
 ```
 
-### Шаг 3. Откройте файл EPUB.
+### Шаг 3. Откройте файл EPUB
 
 ```csharp
 string dataDir = "Your Data Directory";

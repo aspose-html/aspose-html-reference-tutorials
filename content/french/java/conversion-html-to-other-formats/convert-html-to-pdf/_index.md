@@ -52,7 +52,7 @@ options.setJpegQuality(100);
 
  Vous pouvez ajuster le`jpegQuality` valeur selon vos besoins. Une valeur plus élevée entraîne une meilleure qualité d’image mais peut augmenter la taille du fichier.
 
-## Étape 3 : définir le chemin de sortie
+## Étape 3 : Définir le chemin de sortie
 
  Avant la conversion, spécifiez le chemin où vous souhaitez enregistrer le fichier PDF généré. Remplacer`"path/to/your/output.pdf"` avec le chemin de fichier souhaité :
 

@@ -73,7 +73,7 @@ R2: ¡Absolutamente! Aspose.HTML para Java está diseñado para manejar conversi
 
 ### P3: ¿Puedo personalizar las dimensiones y la calidad de la imagen de salida durante la conversión?
 
- R3: Sí, puedes personalizar las dimensiones y la calidad de la imagen modificando el`ImageSaveOptions` antes de la conversión. 
+ R3: Sí, puede personalizar las dimensiones y la calidad de la imagen modificando el`ImageSaveOptions` antes de la conversión. 
 
 ### P4: ¿Aspose.HTML para Java ofrece una versión de prueba gratuita?
 

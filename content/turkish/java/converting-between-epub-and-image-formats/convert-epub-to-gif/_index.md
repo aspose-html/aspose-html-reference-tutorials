@@ -53,7 +53,7 @@ try (FileInputStream fileInputStream = new FileInputStream("input.epub")) {
     ImageSaveOptions options = new ImageSaveOptions(ImageFormat.Gif);
 ```
 
-### Adım 3: Dönüşümü Gerçekleştirin
+### 3. Adım: Dönüşümü Gerçekleştirin
 
  Şimdi EPUB dosyasını GIF görüntüsüne dönüştürmenin zamanı geldi. Kullan`Converter.convertEPUB` Bu amaçla yönteme geçerek`fileInputStream`, `options` ve istenen çıktı dosyası yolu. Burada kullanıyoruz`"output.gif"` çıktı dosyası olarak.
 

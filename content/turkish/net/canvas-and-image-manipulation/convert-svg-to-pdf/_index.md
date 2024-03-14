@@ -16,7 +16,7 @@ Adım adım sürece dalmadan önce ihtiyacınız olan her şeye sahip olduğunuz
 
 1.  Aspose.HTML for .NET: Aspose.HTML for .NET'in kurulu olması gerekir. Henüz sahip değilseniz, adresinden indirebilirsiniz.[indirme sayfası](https://releases.aspose.com/html/net/).
 
-2. Veri Dizininiz: SVG dosyanızın bulunduğu yerde bir veri dizininiz olduğundan emin olun. Bu yolu kodunuzda belirtmeniz gerekir.
+2. Veri Dizininiz: SVG dosyanızın bulunduğu yerde bir veri dizininiz olduğundan emin olun. Bu yolu kodunuzda belirtmeniz gerekecektir.
 
 3. Temel C# Bilgisi: Aspose.HTML for .NET ile etkileşimde bulunmak için C# programlama diline aşina olmak faydalı olacaktır.
 

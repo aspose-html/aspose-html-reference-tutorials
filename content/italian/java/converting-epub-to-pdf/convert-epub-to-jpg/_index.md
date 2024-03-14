@@ -44,7 +44,7 @@ try (FileInputStream fileInputStream = new FileInputStream("input.epub")) {
 }
 ```
 
-## Passaggio 2: inizializza ImageSaveOptions
+## Passaggio 2: inizializzare ImageSaveOptions
 
 Inizializzeremo il file`ImageSaveOptions` per specificare il formato in cui vogliamo salvare le immagini. In questo caso, stiamo utilizzando il formato JPEG.
 

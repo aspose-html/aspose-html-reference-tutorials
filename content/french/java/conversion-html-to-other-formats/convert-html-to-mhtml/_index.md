@@ -13,7 +13,7 @@ Dans le monde du développement Web, une gestion et une conversion efficaces des
 
 Avant de nous lancer dans le processus de conversion, vous devez vous assurer que quelques conditions préalables sont remplies :
 
-1. Environnement de développement Java : assurez-vous d'avoir configuré un environnement de développement Java sur votre système. Sinon, vous pouvez télécharger et installer la dernière version du Java Development Kit (JDK) à partir de[Le site d'Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
+1. Environnement de développement Java : assurez-vous d'avoir configuré un environnement de développement Java sur votre système. Sinon, vous pouvez télécharger et installer la dernière version du Java Development Kit (JDK) à partir de[Le site Web d'Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
 
 2.  Aspose.HTML pour Java : Vous aurez besoin de la bibliothèque Aspose.HTML pour Java. Vous pouvez le télécharger depuis le[Documentation Aspose.HTML pour Java](https://reference.aspose.com/html/java/).
 

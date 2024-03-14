@@ -16,7 +16,7 @@ Avant de nous lancer dans la conversion d'EPUB en PDF à l'aide d'Aspose.HTML, i
 
 ### 1. Environnement de développement Java
 
- Pour travailler avec Aspose.HTML en Java, vous avez besoin d'un environnement de développement Java fonctionnel. Assurez-vous que le kit de développement Java (JDK) est installé sur votre système. Vous pouvez le télécharger depuis[Le site d'Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
+ Pour travailler avec Aspose.HTML en Java, vous avez besoin d'un environnement de développement Java fonctionnel. Assurez-vous que le kit de développement Java (JDK) est installé sur votre système. Vous pouvez le télécharger depuis[Le site Web d'Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
 
 ### 2. Bibliothèque Aspose.HTML
 

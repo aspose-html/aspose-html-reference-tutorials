@@ -36,7 +36,7 @@ Starten Sie Ihr C#-Projekt in Ihrer bevorzugten IDE.
 
 ### Schritt 2: Fügen Sie den Aspose.HTML-Namespace hinzu
 
-Fügen Sie am Anfang Ihres C#-Codes die folgende using-Anweisung hinzu:
+Fügen Sie die folgende using-Anweisung am Anfang Ihres C#-Codes hinzu:
 
 ```csharp
 using Aspose.Html;

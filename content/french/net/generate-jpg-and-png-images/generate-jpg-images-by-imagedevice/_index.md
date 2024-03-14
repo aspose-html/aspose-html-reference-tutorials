@@ -98,7 +98,7 @@ C'est ça! Vous avez réussi à restituer du HTML sur une image à l'aide d'Aspo
 
 ## Conclusion
 
-Aspose.HTML pour .NET est une bibliothèque polyvalente qui vous permet de manipuler facilement du contenu HTML dans vos applications .NET. Avec une bonne configuration et une utilisation appropriée des espaces de noms, vous pouvez créer des pages Web dynamiques, générer des rapports et effectuer diverses tâches liées au HTML de manière transparente.
+Aspose.HTML pour .NET est une bibliothèque polyvalente qui vous permet de manipuler facilement du contenu HTML dans vos applications .NET. Avec la bonne configuration et l'utilisation appropriée des espaces de noms, vous pouvez créer des pages Web dynamiques, générer des rapports et effectuer diverses tâches liées au HTML de manière transparente.
 
  Si vous rencontrez des problèmes ou avez besoin d'aide supplémentaire, n'hésitez pas à visiter le Aspose.HTML[forum d'entraide](https://forum.aspose.com/).
 

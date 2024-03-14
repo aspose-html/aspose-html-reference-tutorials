@@ -85,7 +85,7 @@ Cevap1: Aspose.HTML for Java, JPEG, PNG, BMP ve daha fazlası dahil olmak üzere
 
  A2: Kesinlikle! Ayarlayabilirsiniz`ImageSaveOptions` Kalite ve çözünürlük gibi parametreleri belirterek görüntü dönüşümüne ince ayar yapmak için.
 
-### S3: Aspose.HTML for Java'nın kullanımı ücretsiz midir?
+### S3: Aspose.HTML for Java'nın kullanımı ücretsiz mi?
 
 Cevap3: Aspose.HTML, özelliklerini keşfetmenize olanak tanıyan ücretsiz bir deneme sürümü sunuyor. Tam işlevsellik ve ticari kullanım için bir lisans satın alabilirsiniz.[Burada](https://purchase.aspose.com/buy).
 

@@ -80,7 +80,7 @@ Con questi semplici passaggi, puoi convertire facilmente i documenti SVG in form
 
 ### Q1: Cos'è SVG e perché dovrei convertirlo in XPS?
 
-A1: Scalable Vector Graphics (SVG) è un formato di immagine vettoriale basato su XML utilizzato per la grafica Web. XPS (XML PaperSpecification) è un formato di documento fisso che fornisce un modo affidabile per condividere e stampare documenti. La conversione da SVG a XPS può essere necessaria quando si desidera mantenere la qualità della grafica vettoriale per la stampa o altre applicazioni.
+A1: Scalable Vector Graphics (SVG) è un formato di immagine vettoriale basato su XML utilizzato per la grafica web. XPS (XML PaperSpecification) è un formato di documento fisso che fornisce un modo affidabile per condividere e stampare documenti. La conversione da SVG a XPS può essere necessaria quando si desidera mantenere la qualità della grafica vettoriale per la stampa o altre applicazioni.
 
 ### Q2: Posso convertire SVG in XPS con un colore di sfondo diverso?
 

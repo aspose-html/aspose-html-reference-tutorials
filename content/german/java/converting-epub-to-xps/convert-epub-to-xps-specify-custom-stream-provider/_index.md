@@ -116,7 +116,7 @@ Mit diesen fünf Schritten haben Sie Ihre EPUB-Datei mit Aspose.HTML für Java e
 
 ## Abschluss
 
-Das Konvertieren von EPUB in XPS ist in der heutigen digitalen Landschaft eine wertvolle Fähigkeit. Aspose.HTML für Java vereinfacht den Prozess und macht ihn effizient und zuverlässig. Wenn Sie die in dieser Anleitung beschriebenen Schritte befolgen, können Sie diese Konvertierung problemlos erreichen.
+Das Konvertieren von EPUB in XPS ist in der heutigen digitalen Landschaft eine wertvolle Fähigkeit. Aspose.HTML für Java vereinfacht den Prozess und macht ihn effizient und zuverlässig. Wenn Sie die in dieser Anleitung beschriebenen Schritte befolgen, können Sie diese Konvertierung problemlos durchführen.
 
 Lassen Sie uns nun einige häufig gestellte Fragen beantworten, um für mehr Klarheit zu sorgen.
 

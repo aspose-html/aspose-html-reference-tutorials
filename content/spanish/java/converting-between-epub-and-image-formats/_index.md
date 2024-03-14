@@ -8,7 +8,7 @@ weight: 26
 url: /es/java/converting-between-epub-and-image-formats/
 ---
 
-¿Está buscando una forma sencilla de convertir archivos EPUB a varios formatos de imagen? Estás en el lugar correcto. En esta guía completa, lo guiaremos a través del proceso paso a paso, utilizando Aspose.HTML para Java. Ya sea que desee convertir EPUB a BMP, GIF, JPG, PNG, TIFF o necesite orientación para especificar proveedores de transmisión personalizados u opciones para guardar imágenes, lo tenemos cubierto.
+¿Está buscando una forma sencilla de convertir archivos EPUB a varios formatos de imagen? Estás en el lugar correcto. En esta guía completa, lo guiaremos a través del proceso paso a paso, utilizando Aspose.HTML para Java. Ya sea que desee convertir EPUB a BMP, GIF, JPG, PNG, TIFF o necesite orientación sobre cómo especificar proveedores de transmisión personalizados u opciones para guardar imágenes, lo tenemos cubierto.
 
 ## Convertir EPUB a BMP
 Si está interesado en convertir imágenes EPUB a BMP, lo hemos puesto increíblemente fácil para usted. Aspose.HTML para Java ofrece una solución fácil de usar. Sigue nuestra guía y convertirás EPUB a BMP con facilidad. 

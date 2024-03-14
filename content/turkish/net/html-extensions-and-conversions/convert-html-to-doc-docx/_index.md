@@ -48,7 +48,7 @@ Aspose.HTML ad alanını içe aktarmak için C# kod dosyanızın en üstüne aş
 using Aspose.Html;
 ```
 
-Bir HTML belgesini DOCX biçimine dönüştürme sürecini birden fazla adıma ayırarak her yönü net bir şekilde anlamanızı sağlayacağız.
+Bir HTML belgesini DOCX biçimine dönüştürme sürecini birden fazla adıma ayırarak her bir yönü net bir şekilde anlamanızı sağlayacağız.
 
 ## Veri Dizininizi Tanımlayın
 

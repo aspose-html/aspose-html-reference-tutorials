@@ -86,7 +86,7 @@ Und das ist es! Sie haben eine EPUB-Datei mit Aspose.HTML für Java erfolgreich 
 
 ## Abschluss
 
-Aspose.HTML für Java vereinfacht die Konvertierung von EPUB-Dateien in Bilder. Mit den in dieser Anleitung beschriebenen Schritten können Sie diese Aufgabe schnell und effektiv erledigen. Denken Sie daran, die Voraussetzungen zu erfüllen und die erforderlichen Pakete zu importieren, um einen reibungslosen Konvertierungsprozess zu gewährleisten.
+Aspose.HTML für Java vereinfacht die Konvertierung von EPUB-Dateien in Bilder. Mit den in dieser Anleitung beschriebenen Schritten können Sie diese Aufgabe schnell und effektiv ausführen. Denken Sie daran, die Voraussetzungen zu erfüllen und die erforderlichen Pakete zu importieren, um einen reibungslosen Konvertierungsprozess zu gewährleisten.
 
 ## FAQs
 

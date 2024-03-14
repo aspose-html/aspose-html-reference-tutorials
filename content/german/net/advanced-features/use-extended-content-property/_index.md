@@ -8,7 +8,7 @@ weight: 14
 url: /de/net/advanced-features/use-extended-content-property/
 ---
 
-In der Welt der Webentwicklung ist die Arbeit mit HTML eine grundlegende Fähigkeit. Aspose.HTML für .NET ist ein leistungsstarkes Tool, das Ihre HTML-bezogenen Aufgaben einfacher und effizienter machen kann. Dieses Tutorial führt Sie durch die Schritte für den Einstieg in Aspose.HTML für .NET, einschließlich der Voraussetzungen, des Importierens von Namespaces und der Aufteilung jedes Beispiels in leicht verständliche Schritte.
+In der Welt der Webentwicklung ist die Arbeit mit HTML eine grundlegende Fähigkeit. Aspose.HTML für .NET ist ein leistungsstarkes Tool, das Ihre HTML-bezogenen Aufgaben einfacher und effizienter machen kann. Dieses Tutorial führt Sie durch die Schritte zum Einstieg in Aspose.HTML für .NET, einschließlich der Voraussetzungen, des Importierens von Namespaces und der Aufteilung jedes Beispiels in leicht verständliche Schritte.
 
 ## Voraussetzungen
 

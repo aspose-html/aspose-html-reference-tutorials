@@ -46,7 +46,7 @@ try (java.io.FileWriter fileWriter = new java.io.FileWriter("document.html")) {
 
 En este paso, creamos un código HTML simple que contiene el texto "¡¡Hola mundo!!" y guárdelo en un archivo llamado "document.html".
 
-### Paso 2: Inicializar un documento HTML
+### Paso 2: inicializar un documento HTML
 
 ```java
 HTMLDocument document = new HTMLDocument("document.html");

@@ -67,7 +67,7 @@ Converter.convertEPUB(fileInputStream, options, "output.gif");
 
 In dieser Schritt-für-Schritt-Anleitung haben wir erläutert, wie Sie mit Aspose.HTML für Java eine EPUB-Datei in ein GIF-Bild konvertieren. Dieser Prozess ist für verschiedene Anwendungen wertvoll, darunter die gemeinsame Nutzung von Inhalten, die Archivierung und Multimedia-Präsentationen. Mit den richtigen Voraussetzungen und den bereitgestellten Codeschnipseln können Sie diese Konvertierung einfach effizient und effektiv durchführen.
 
-Dank Aspose.HTML für Java haben Sie jetzt die Möglichkeit, EPUB-Dateien ganz einfach in GIF zu konvertieren. Probieren Sie es aus und entdecken Sie die Möglichkeiten!
+Dank Aspose.HTML für Java haben Sie jetzt die Möglichkeit, EPUB-Dateien ganz einfach in GIF zu konvertieren. Probieren Sie es aus und erkunden Sie die Möglichkeiten!
 
 ## Häufig gestellte Fragen (FAQs)
 

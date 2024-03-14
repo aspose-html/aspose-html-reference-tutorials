@@ -62,7 +62,7 @@ try (FileInputStream fileInputStream = new FileInputStream("input.epub")) {
 }
 ```
 
-هذا كل شيء! من خلال هذه الخطوات البسيطة، يمكنك تحويل ملف EPUB الخاص بك بسهولة إلى صورة GIF باستخدام Aspose.HTML لـ Java.
+هذا كل شيء! من خلال هذه الخطوات البسيطة، يمكنك تحويل ملف EPUB الخاص بك بسلاسة إلى صورة GIF باستخدام Aspose.HTML لـ Java.
 
 ## خاتمة
 

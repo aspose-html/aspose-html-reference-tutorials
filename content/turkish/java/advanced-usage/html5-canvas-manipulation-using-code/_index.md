@@ -157,4 +157,4 @@ Cevap4: Aspose.HTML öncelikli olarak Java için tasarlanmıştır ancak Aspose,
 
 ### S5: Web geliştirmede HTML5 Canvas'ın diğer kullanım durumları nelerdir?
 
-Cevap5: HTML5 Canvas, oyun oluşturma, etkileşimli veri görselleştirmeleri, resim düzenleme uygulamaları ve daha fazlası dahil olmak üzere çeşitli amaçlar için kullanılabilir. Çok yönlülüğü ana güçlü yönlerinden biridir.
+Cevap5: HTML5 Canvas, oyun oluşturma, etkileşimli veri görselleştirmeleri, resim düzenleme uygulamaları ve daha fazlası dahil olmak üzere çeşitli amaçlarla kullanılabilir. Çok yönlülüğü ana güçlü yönlerinden biridir.

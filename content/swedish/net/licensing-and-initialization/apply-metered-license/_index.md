@@ -1,6 +1,6 @@
 ---
 title: Använd Metered License i .NET med Aspose.HTML
-linktitle: Tillämpa Metered License i .NET
+linktitle: Använd Metered License i .NET
 second_title: Aspose.HTML .NET HTML manipulation API
 description: Lär dig hur du tillämpar en mätlicens i Aspose.HTML för .NET. Hantera dina HTML-manipuleringsbehov effektivt. Börja nu!
 type: docs

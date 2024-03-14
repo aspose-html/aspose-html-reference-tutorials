@@ -16,7 +16,7 @@ url: /fr/java/converting-epub-to-pdf/convert-epub-to-bmp/
 
 Avant de commencer la conversion EPUB en BMP à l'aide d'Aspose.HTML pour Java, assurez-vous que les conditions préalables suivantes sont remplies :
 
-1.  Environnement de développement Java : assurez-vous qu'un environnement de développement Java est configuré sur votre système. Vous pouvez télécharger et installer la dernière version de Java à partir de[Le site d'Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
+1.  Environnement de développement Java : assurez-vous qu'un environnement de développement Java est configuré sur votre système. Vous pouvez télécharger et installer la dernière version de Java à partir de[Le site Web d'Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
 
 2.  Aspose.HTML pour Java : vous devez avoir installé la bibliothèque Aspose.HTML pour Java. Vous pouvez le télécharger depuis le[Page de téléchargement d'Aspose.HTML pour Java](https://releases.aspose.com/html/java/).
 

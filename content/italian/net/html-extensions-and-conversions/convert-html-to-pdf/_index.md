@@ -86,7 +86,7 @@ string outputPDF = dataDir + "HTMLtoPDF_Output.pdf";
 Converter.ConvertHTML(htmlDocument, options, outputPDF);
 ```
 
-E il gioco è fatto! Il tuo contenuto HTML viene ora trasformato in un documento PDF, grazie ad Aspose.HTML per .NET.
+E il gioco è fatto! Il tuo contenuto HTML è ora trasformato in un documento PDF, grazie ad Aspose.HTML per .NET.
 
 ## Conclusione
 

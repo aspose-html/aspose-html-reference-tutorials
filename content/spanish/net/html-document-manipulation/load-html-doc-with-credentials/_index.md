@@ -66,7 +66,7 @@ string requestUri = "https://httpbin.org/basic-auth/user/passwd";
 
 En este paso, define el URI al que desea realizar una solicitud HTTP. Este URI puede ser cualquier página web que desee analizar u optimizar para SEO.
 
-### Paso 4: realice una solicitud HTTP
+### Paso 4: realizar una solicitud HTTP
 
 ```csharp
 try

@@ -2,7 +2,7 @@
 title: Наблюдатель мутаций DOM с Aspose.HTML для Java
 linktitle: DOM Mutation Observer — наблюдение за добавлениями узлов
 second_title: Обработка Java HTML с помощью Aspose.HTML
-description: Узнайте, как использовать Aspose.HTML для Java для реализации наблюдателя мутаций DOM в этом пошаговом руководстве. Эффективно отслеживайте и реагируйте на изменения DOM.
+description: Узнайте, как использовать Aspose.HTML для Java для реализации наблюдателя мутаций DOM в этом пошаговом руководстве. Эффективно отслеживайте изменения DOM и реагируйте на них.
 type: docs
 weight: 11
 url: /ru/java/advanced-usage/dom-mutation-observer-observing-node-additions/
@@ -135,7 +135,7 @@ A1: Наблюдатель мутаций DOM — это функция JavaScri
 
  О2: Да, вы можете использовать Aspose.HTML для Java в коммерческих проектах. Вы можете найти информацию о лицензировании и покупке[здесь](https://purchase.aspose.com/buy).
 
-### Вопрос 3. Существует ли бесплатная пробная версия Aspose.HTML для Java?
+### Вопрос 3: Существует ли бесплатная пробная версия Aspose.HTML для Java?
 
  О3: Да, вы можете получить бесплатную пробную версию Aspose.HTML для Java.[здесь](https://releases.aspose.com/). Это позволяет вам изучить его особенности и возможности перед совершением покупки.
 

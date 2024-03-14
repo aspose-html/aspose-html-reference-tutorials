@@ -150,4 +150,4 @@ R2: Sí, Aspose.HTML para .NET proporciona funciones para convertir HTML a vario
 
 ### P5: ¿Dónde puedo buscar ayuda y soporte para Aspose.HTML para .NET?
 
- R5: Puede encontrar una comunidad de usuarios y expertos en el[aspose foro](https://forum.aspose.com/) para hacer preguntas y obtener apoyo.
+ R5: Puede encontrar una comunidad de usuarios y expertos en el[asponer foro](https://forum.aspose.com/) para hacer preguntas y obtener apoyo.
