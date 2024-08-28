@@ -18,9 +18,11 @@ Unlock the power of HTML manipulation with Aspose.HTML for Java. Learn to load H
 ### [Advanced File Loading for HTML Documents in Aspose.HTML for Java](./advanced-file-loading-html-documents/)
 Learn how to load, manipulate, and save HTML documents using Aspose.HTML for Java in this step-by-step guide. Unlock advanced HTML processing in your Java projects.
 ### [Load HTML Documents from Stream with Aspose.HTML for Java](./load-html-documents-from-stream/)
+Learn how to load HTML documents from streams using Aspose.HTML for Java. This guide provides a step-by-step tutorial for seamless HTML manipulation.
 ### [Create HTML Documents from String in Aspose.HTML for Java](./create-html-documents-from-string/)
 Learn how to create HTML documents from strings in Aspose.HTML for Java with this step-by-step guide.
 ### [Load HTML Documents from URL in Aspose.HTML for Java](./load-html-documents-from-url/)
+Discover how to easily load HTML documents from a URL in Java with Aspose.HTML. Step-by-step tutorial included.
 ### [Generate New HTML Documents using Aspose.HTML for Java](./generate-new-html-documents/)
 Learn how to create new HTML documents using Aspose.HTML for Java with this easy step-by-step guide. Start generating dynamic HTML content.
 ### [Handle Document Load Events in Aspose.HTML for Java](./handle-document-load-events/)
