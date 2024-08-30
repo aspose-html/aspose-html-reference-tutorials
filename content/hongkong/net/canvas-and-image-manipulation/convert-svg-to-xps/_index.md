@@ -61,7 +61,7 @@ string outputFile = dataDir + "SVGtoXPS_Output.xps";
 
 我們指定輸出 XPS 檔案的路徑，該檔案將在轉換後產生。
 
-## 第 5 步：將 SVG 轉換為 XPS
+## 步驟 5：將 SVG 轉換為 XPS
 
 ```csharp
 Converter.ConvertSVG(svgDocument, options, outputFile);

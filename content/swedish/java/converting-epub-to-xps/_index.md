@@ -45,7 +45,7 @@ I vissa fall kanske du vill finjustera XPS-utgången. Aspose.HTML för Java ger 
 ## Konvertera EPUB till XPS självstudier
 Utforska våra handledningar för att lära dig mer om hur du använder Aspose.HTML för Java i olika scenarier, vilket gör dina dokumenthanteringsuppgifter till en lek. Att konvertera EPUB till XPS har aldrig varit enklare!
 ### [Konvertera EPUB till XPS](./convert-epub-to-xps/)
-Lär dig hur du konverterar EPUB till XPS med Aspose.HTML för Java. En steg-för-steg-guide för sömlös konvertering från EPUB till XPS. Prova det nu!
+Lär dig hur du konverterar EPUB till XPS med Aspose.HTML för Java. En steg-för-steg-guide för sömlös konvertering från EPUB till XPS. Prova nu!
 ### [Ange anpassad strömleverantör för EPUB till XPS](./convert-epub-to-xps-specify-custom-stream-provider/)
 Konvertera EPUB till XPS utan ansträngning med Aspose.HTML för Java. Följ denna steg-för-steg-guide för en sömlös konverteringsprocess.
 ### [Ange XPS-sparalternativ för EPUB till XPS](./convert-epub-to-xps-specify-xps-save-options/)

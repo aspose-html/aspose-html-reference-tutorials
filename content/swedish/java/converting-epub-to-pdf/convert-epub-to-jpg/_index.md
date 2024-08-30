@@ -36,11 +36,11 @@ Låt oss nu dela upp konverteringsprocessen i flera steg.
 
 ## Steg 1: Öppna EPUB-filen
 
- I det här steget öppnar vi EPUB-filen för läsning med en`FileInputStream` . Byta ut`'input.epub'` med sökvägen till din EPUB-fil.
+ I det här steget öppnar vi EPUB-filen för läsning med en`FileInputStream` . Ersätta`'input.epub'` med sökvägen till din EPUB-fil.
 
 ```java
 try (FileInputStream fileInputStream = new FileInputStream("input.epub")) {
-    // Din kod för nästa steg kommer att hamna här.
+    // Din kod för nästa steg kommer här.
 }
 ```
 
@@ -60,7 +60,7 @@ ImageSaveOptions options = new ImageSaveOptions(ImageFormat.Jpeg);
 Converter.convertEPUB(fileInputStream, options, "output.jpg");
 ```
 
-Det är allt! Du har framgångsrikt konverterat en EPUB-fil till JPG-bilder med Aspose.HTML för Java.
+Det är det! Du har framgångsrikt konverterat en EPUB-fil till JPG-bilder med Aspose.HTML för Java.
 
 ## Slutsats
 

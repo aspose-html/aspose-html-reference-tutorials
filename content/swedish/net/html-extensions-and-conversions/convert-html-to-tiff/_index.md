@@ -77,13 +77,13 @@ Sammanfattningsvis erbjuder Aspose.HTML för .NET ett kraftfullt och effektivt s
  Du kan komma åt dokumentationen[här](https://reference.aspose.com/html/net/).
 
 ### Hur kan jag ladda ner Aspose.HTML för .NET?
- Du kan ladda ner den från[den här länken](https://releases.aspose.com/html/net/).
+ Du kan ladda ner den från[denna länk](https://releases.aspose.com/html/net/).
 
 ### Finns det en gratis testversion tillgänglig för Aspose.HTML för .NET?
  Ja, du kan få en gratis provperiod från[här](https://releases.aspose.com/).
 
 ### Kan jag få en tillfällig licens för Aspose.HTML för .NET?
- Ja, du kan få en tillfällig licens från[här](https://purchase.aspose.com/temporary-license/).
+Ja, du kan få en tillfällig licens från[här](https://purchase.aspose.com/temporary-license/).
 
 ### Var kan jag få support för Aspose.HTML för .NET?
  Du kan hitta stöd och engagera dig i samhället på[Asposes forum](https://forum.aspose.com/).

@@ -16,7 +16,7 @@ Innan du ger dig ut på denna resa, se till att du har följande förutsättning
 
 1. Visual Studio: Se till att du har Visual Studio installerat på ditt system.
 
-2.  Aspose.HTML for .NET: Ladda ner och installera Aspose.HTML for .NET-biblioteket. Du hittar nedladdningslänken[här](https://releases.aspose.com/html/net/).
+2. Aspose.HTML for .NET: Ladda ner och installera Aspose.HTML for .NET-biblioteket. Du hittar nedladdningslänken[här](https://releases.aspose.com/html/net/).
 
 3. Grundläggande kunskaper i C#: Bekanta dig med grunderna i programmeringsspråket i C#.
 
@@ -43,7 +43,7 @@ static void CreateSVG()
 }
 ```
 
- I det här exemplet skapar vi ett SVG-dokument genom att tillhandahålla SVG-innehållet och en bas-URL. De`SVGDocument`klass från Aspose.HTML för .NET låter dig manipulera SVG-dokument utan ansträngning.
+ I det här exemplet skapar vi ett SVG-dokument genom att tillhandahålla SVG-innehållet och en bas-URL. De`SVGDocument` klass från Aspose.HTML för .NET låter dig manipulera SVG-dokument utan ansträngning.
 
 ## Skapa ett HTML-dokument från grunden
 
@@ -57,7 +57,7 @@ static void FromScratch()
 }
 ```
 
- Det här exemplet visar hur man skapar ett HTML-dokument från början. De`HTMLDocument` klass tillhandahåller en tom arbetsyta för ditt HTML-innehåll.
+ Det här exemplet visar hur man skapar ett HTML-dokument från början. De`HTMLDocument`klass tillhandahåller en tom arbetsyta för ditt HTML-innehåll.
 
 ## Skapa ett HTML-dokument från en lokal fil
 
@@ -135,7 +135,7 @@ static void FromStream()
 }
 ```
 
-I det här exemplet visar vi hur man skapar ett HTML-dokument från data i en minnesström. Detta kan vara användbart när du har HTML-innehåll i en ström och vill manipulera det.
+det här exemplet visar vi hur man skapar ett HTML-dokument från data i en minnesström. Detta kan vara användbart när du har HTML-innehåll i en ström och vill manipulera det.
 
 ## Slutsats
 
@@ -149,10 +149,10 @@ Aspose.HTML för .NET tillhandahåller en kraftfull uppsättning verktyg för at
  S1: Aspose.HTML för .NET erbjuder en gratis provperiod, men för full användning måste du köpa en licens. Du hittar mer information på[https://purchase.aspose.com/buy](https://purchase.aspose.com/buy).
 
 ### F2: Hur kan jag få en tillfällig licens för Aspose.HTML för .NET?
-S2: Om du behöver en tillfällig licens kan du få en på[https://purchase.aspose.com/temporary-license/](https://purchase.aspose.com/temporary-license/).
+ S2: Om du behöver en tillfällig licens kan du få en på[https://purchase.aspose.com/temporary-license/](https://purchase.aspose.com/temporary-license/).
 
 ### F3: Var kan jag hitta dokumentation för Aspose.HTML för .NET?
- S3: Dokumentationen finns på[https://reference.aspose.com/html/net/](https://reference.aspose.com/html/net/).
+S3: Dokumentationen finns på[https://reference.aspose.com/html/net/](https://reference.aspose.com/html/net/).
 
 ### F4: Finns det några andra Aspose-bibliotek för .NET-utveckling?
  S4: Ja, Aspose tillhandahåller en rad bibliotek för olika filformat och dokumentmanipuleringsuppgifter. Kolla in deras utbud på[https://products.aspose.com/](https://products.aspose.com/).

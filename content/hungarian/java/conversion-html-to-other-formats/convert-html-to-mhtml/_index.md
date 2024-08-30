@@ -75,7 +75,7 @@ Converter.convertHTML(htmlDocument, options, outputMHTML);
 
  Végül használja a`Converter` osztályt, hogy a HTML-dokumentumot MHTML-re konvertálja az Ön által konfigurált opciók felhasználásával.
 
-Gratulálunk! Sikeresen konvertált egy HTML-dokumentumot MHTML-re az Aspose.HTML for Java használatával.
+Gratulálok! Sikeresen konvertált egy HTML-dokumentumot MHTML-re az Aspose.HTML for Java használatával.
 
 ## Következtetés
 
@@ -91,7 +91,7 @@ Ebben az oktatóanyagban a HTML MHTML-re konvertálásának folyamatát vizsgál
 
 ### 2. kérdés: Testreszabhatom az Aspose.HTML for Java erőforráskezelési szabályait?
 
-2. válasz: Igen, az Aspose.HTML for Java lehetővé teszi az erőforrás-kezelési szabályok testreszabását, lehetővé téve az erőforrások kezelésének szabályozását az átalakítás során.
+2. válasz: Igen, az Aspose.HTML for Java lehetővé teszi az erőforrás-kezelési szabályok testreszabását, így szabályozhatja az erőforrások kezelését az átalakítás során.
 
 ### 3. kérdés: Az Aspose.HTML for Java alkalmas kötegelt konverzióra?
 

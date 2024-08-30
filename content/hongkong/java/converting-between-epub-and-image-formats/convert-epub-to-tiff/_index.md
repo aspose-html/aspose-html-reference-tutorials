@@ -75,7 +75,7 @@ Converter.convertEPUB(fileInputStream, options, "output.tiff");
 
 ### Q1：什麼是 Java 版 Aspose.HTML？
 
-A1：Aspose.HTML for Java 是一個函式庫，允許開發人員在 Java 應用程式中操作、轉換和處理 HTML 和各種其他文件格式。
+A1：Aspose.HTML for Java 是一個函式庫，允許開發人員在 Java 應用程式中操縱、轉換和處理 HTML 和各種其他文件格式。
 
 ### Q2：哪裡可以下載 Aspose.HTML for Java？
 

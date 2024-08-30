@@ -81,7 +81,7 @@ if (document.Body.ChildNodes.Length == 0)
 
 ### Steg 3: Hämta dokument-URI
 
- För att hämta dokumentets URI kan du använda`DocumentURI` fast egendom.
+ För att hämta dokumentets URI kan du använda`DocumentURI` egendom.
 
 ```csharp
 Console.WriteLine("Print Document URI = " + document.DocumentURI);

@@ -14,7 +14,7 @@ Az állandóan fejlődő digitális környezetben a lenyűgöző webes tartalom 
 
 Mielőtt belevetnénk magunkat az Aspose.HTML for .NET világába, győződjön meg arról, hogy a következő előfeltételeket teljesíti:
 
-1. Visual Studio: .NET-alkalmazások készítéséhez telepíteni kell a Visual Studio-t a rendszerére.
+1. Visual Studio: .NET-alkalmazások készítéséhez telepítenie kell a Visual Studio-t a rendszerére.
 
 2. Aspose.HTML for .NET: Töltse le az Aspose.HTML for .NET könyvtárat innen[itt](https://releases.aspose.com/html/net/). Ügyeljen arra, hogy a megfelelő verziót válassza.
 

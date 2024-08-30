@@ -16,7 +16,7 @@ Než začneme s procesem převodu, musíte se ujistit, že máte splněny násle
 
 1. Java Development Kit (JDK): Ujistěte se, že máte v systému nainstalovanou Java SE 8 nebo novější.
 
-2.  Knihovna Aspose.HTML for Java: Stáhněte si a nainstalujte knihovnu Aspose.HTML for Java z[tady](https://releases.aspose.com/html/java/).
+2.  Knihovna Aspose.HTML for Java: Stáhněte si a nainstalujte knihovnu Aspose.HTML for Java z[zde](https://releases.aspose.com/html/java/).
 
 3. Soubor EPUB: Měli byste mít soubor EPUB, který chcete převést na obrázky JPG.
 
@@ -40,7 +40,7 @@ Nyní si rozdělme proces převodu do několika kroků.
 
 ```java
 try (FileInputStream fileInputStream = new FileInputStream("input.epub")) {
-    // Zde bude váš kód pro další kroky.
+    // Zde bude uveden váš kód pro další kroky.
 }
 ```
 
@@ -60,7 +60,7 @@ ImageSaveOptions options = new ImageSaveOptions(ImageFormat.Jpeg);
 Converter.convertEPUB(fileInputStream, options, "output.jpg");
 ```
 
-A je to! Úspěšně jste převedli soubor EPUB na obrázky JPG pomocí Aspose.HTML pro Java.
+To je vše! Úspěšně jste převedli soubor EPUB na obrázky JPG pomocí Aspose.HTML pro Java.
 
 ## Závěr
 
@@ -77,11 +77,11 @@ V tomto tutoriálu jsme probrali kroky k převodu souboru EPUB na obrázky JPG p
    Ano, Aspose.HTML for Java podporuje převod různých formátů, včetně HTML, EPUB a dalších.
 
 ### Jak mohu získat dočasnou licenci pro Aspose.HTML pro Java?
-    Dočasnou licenci můžete získat od[tady](https://purchase.aspose.com/temporary-license/).
+    Dočasnou licenci můžete získat od[zde](https://purchase.aspose.com/temporary-license/).
 
 ### Jsou k dispozici nějaké komplexní dokumentační zdroje pro Aspose.HTML pro Javu?
     Ano, podrobnou dokumentaci najdete na[Aspose.HTML pro dokumentaci Java](https://reference.aspose.com/html/java/).
 
 ### Kde si mohu zakoupit plnou licenci pro Aspose.HTML pro Java?
-    Plnou licenci si můžete zakoupit od[tady](https://purchase.aspose.com/buy).
+    Plnou licenci si můžete zakoupit od[zde](https://purchase.aspose.com/buy).
 

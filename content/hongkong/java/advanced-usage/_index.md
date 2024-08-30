@@ -30,11 +30,11 @@ DOM（文件物件模型）是任何網頁的支柱。使用 Aspose.HTML for Jav
 
 您需要從 HTML 內容創建高品質的 PDF 嗎？使用Aspose.HTML for Java，您可以輕鬆調整PDF頁面大小。此外，如果您使用 XPS 文檔，則可以輕鬆控制 XPS 文件的輸出尺寸。這些功能對於需要精確控製文件尺寸的任何人來說都是非常寶貴的。
 
-總之，Aspose.HTML for Java 為 Web 開發人員開啟了一個充滿可能性的世界。這些高級教程提供了有關如何充分利用這個強大工具的深入指導。無論您是想微調 HTML 頁面呈現、監控即時 DOM 變更、建立精美的圖形、自動填寫表單還是控製文件頁面大小，Aspose.HTML for Java 都能滿足您的需求。掌握這些技能後，您將能夠創建既具有視覺吸引力又功能高效的 Web 內容。
+總之，Aspose.HTML for Java 為 Web 開發人員開啟了一個充滿可能性的世界。這些高級教程提供了有關如何充分利用這個強大工具的深入指導。無論您是想微調 HTML 頁面呈現、監控即時 DOM 變更、建立精美的圖形、自動填寫表單或控製文件頁面大小，Aspose.HTML for Java 都能滿足您的需求。掌握這些技能後，您將能夠創建既具有視覺吸引力又功能高效的 Web 內容。
 
 那麼，為什麼還要等呢？深入研究這些教學課程，並利用 Aspose.HTML for Java 將您的 HTML 操作技能提升到新的水平。您的網頁開發專案將會感謝您！
 
-本文提供了有關 Aspose.HTML for Java 的高級用法的詳細信息，涵蓋了可以幫助 Web 開發人員提高 HTML 操作技能的各種功能和技術。它解釋瞭如何自訂 HTML 頁邊距、實作 DOM Mutation Observer、操作 HTML5 Canvas、自動填入 HTML 表單以及使用 Aspose.HTML for Java 調整 PDF/XPS 頁面大小。本文旨在以對話式和資訊豐富的風格吸引讀者，使主題變得平易近人，並吸引希望提高 Web 開發能力的開發人員。
+本文提供了有關 Aspose.HTML for Java 高級用法的詳細信息，涵蓋了可幫助 Web 開發人員提高 HTML 操作技能的各種功能和技術。它解釋瞭如何自訂 HTML 頁邊距、實作 DOM Mutation Observer、操作 HTML5 Canvas、自動填入 HTML 表單以及使用 Aspose.HTML for Java 調整 PDF/XPS 頁面大小。本文旨在以對話式和資訊豐富的風格吸引讀者，使主題變得平易近人，並吸引希望提高 Web 開發能力的開發人員。
 
 ## Aspose.HTML Java 教學的高階用法
 ### [使用 Aspose.HTML 自訂 HTML 頁邊距](./css-extensions-adding-title-page-number/)

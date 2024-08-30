@@ -140,4 +140,4 @@ Ebben az oktatóanyagban megvizsgáltuk, hogyan állíthatja be a PDF oldalmére
 
 ### 5. kérdés: Elérhető az Aspose.HTML for Java ingyenes próbaverziója?
 
- 5. válasz: Igen, elérheti az Aspose.HTML for Java ingyenes próbaverzióját a webhelyről[ez a link](https://releases.aspose.com/).
+ 5. válasz: Igen, elérheti az Aspose.HTML for Java ingyenes próbaverzióját a webhelyről[ezt a linket](https://releases.aspose.com/).

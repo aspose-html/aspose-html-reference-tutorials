@@ -16,11 +16,11 @@ Než se ponoříte do Aspose.HTML pro .NET, musíte mít splněno několik před
 
 ### 1. Prostředí .NET
 
- Ujistěte se, že máte v systému nastaveno prostředí .NET. Pokud jste to ještě neudělali, můžete si stáhnout a nainstalovat .NET SDK z[tady](https://releases.aspose.com/html/net/).
+ Ujistěte se, že máte v systému nastaveno prostředí .NET. Pokud jste to ještě neudělali, můžete si stáhnout a nainstalovat .NET SDK z[zde](https://releases.aspose.com/html/net/).
 
 ### 2. Aspose.HTML pro .NET
 
- Budete si muset stáhnout a nainstalovat Aspose.HTML pro .NET. Odkaz ke stažení najdete[tady](https://releases.aspose.com/html/net/).
+ Budete si muset stáhnout a nainstalovat Aspose.HTML pro .NET. Odkaz ke stažení najdete[zde](https://releases.aspose.com/html/net/).
 
 ### 3. Textový editor nebo IDE
 
@@ -100,9 +100,9 @@ using (XpsDevice device = new XpsDevice(dataDir + "output_out.xps"))
 
 ## Závěr
 
-Gratulujeme! Právě jste udělali své první kroky do světa Aspose.HTML pro .NET. Se správnými předpoklady a importovanými jmennými prostory jste na dobré cestě k efektivnější a výkonnější práci s dokumenty HTML.
+Gratuluji! Právě jste udělali své první kroky do světa Aspose.HTML pro .NET. Se správnými předpoklady a importovanými jmennými prostory jste na dobré cestě k efektivnější a výkonnější práci s dokumenty HTML.
 
- Pokud máte nějaké dotazy nebo potřebujete další pomoc, neváhejte navštívit[Dokumentace Aspose.HTML](https://reference.aspose.com/html/net/) nebo se obrátit na[Fórum podpory Aspose.HTML](https://forum.aspose.com/).
+ Pokud máte nějaké dotazy nebo potřebujete další pomoc, neváhejte navštívit[Dokumentace Aspose.HTML](https://reference.aspose.com/html/net/) nebo se obraťte na[Fórum podpory Aspose.HTML](https://forum.aspose.com/).
 
 ---
 

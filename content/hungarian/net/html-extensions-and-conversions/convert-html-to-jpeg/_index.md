@@ -12,7 +12,7 @@ A webfejlesztés világában az Aspose.HTML for .NET egy hatékony és sokoldal�
 
 ## Bevezetés
 
-Az Aspose.HTML for .NET egy funkciókban gazdag könyvtár, amely lehetővé teszi a fejlesztők számára, hogy zökkenőmentesen dolgozzanak HTML-dokumentumokkal. Ezzel a könyvtárral különféle műveleteket hajthat végre a HTML-fájlokon, beleértve a különböző formátumokba konvertálást, a dokumentumelemek manipulálását stb. Ebben a lépésenkénti útmutatóban a HTML JPEG formátumba konvertálásának folyamatát mutatjuk be .NET környezetben. Kezdjük el!
+Az Aspose.HTML for .NET egy funkciókban gazdag könyvtár, amely lehetővé teszi a fejlesztők számára, hogy zökkenőmentesen dolgozzanak HTML-dokumentumokkal. Ezzel a könyvtárral különféle műveleteket hajthat végre a HTML-fájlokon, beleértve a különböző formátumokba konvertálást, a dokumentumelemek manipulálását stb. Ebben a lépésenkénti útmutatóban a HTML JPEG formátumba konvertálásának folyamatát mutatjuk be .NET környezetben. Kezdjük is!
 
 ## Előfeltételek
 
@@ -34,7 +34,7 @@ Most, hogy megvannak az előfeltételek, kezdjük el az Aspose.HTML for .NET has
 
 ## Névtér importálása
 
-Az Aspose.HTML for .NET használatának megkezdéséhez importálnia kell a szükséges névtereket. Kovesd ezeket a lepeseket:
+Az Aspose.HTML for .NET használatának megkezdéséhez importálnia kell a szükséges névtereket. Kövesse az alábbi lépéseket:
 
 ### Nyissa meg Visual Studio projektjét
 
@@ -105,7 +105,7 @@ Most itt az ideje átalakítani a HTML-dokumentumot JPEG-képpé.
 Converter.ConvertHTML(htmlDocument, options, outputFile);
 ```
 
-És ez az! Sikeresen konvertált egy HTML-dokumentumot JPEG-képpé az Aspose.HTML for .NET használatával.
+És ennyi! Sikeresen konvertált egy HTML-dokumentumot JPEG-képpé az Aspose.HTML for .NET használatával.
 
 ## Következtetés
 

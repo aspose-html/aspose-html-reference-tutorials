@@ -2,7 +2,7 @@
 title: Konverze EPUB na XPS s Aspose.HTML pro Javu
 linktitle: Převod EPUB na XPS
 second_title: Java HTML zpracování s Aspose.HTML
-description: Přečtěte si, jak převést EPUB na XPS pomocí Aspose.HTML pro Java. Podrobný průvodce pro bezproblémový převod EPUB na XPS. Vyzkoušej to teď!
+description: Přečtěte si, jak převést EPUB na XPS pomocí Aspose.HTML pro Java. Podrobný průvodce pro bezproblémový převod EPUB na XPS. Zkuste to hned!
 type: docs
 weight: 10
 url: /cs/java/converting-epub-to-xps/convert-epub-to-xps/
@@ -52,7 +52,7 @@ try (FileInputStream fileInputStream = new FileInputStream("input.epub")) {
 XpsSaveOptions options = new XpsSaveOptions();
 ```
 
- Zde vytvoříme instanci`XpsSaveOptions`, který určuje možnosti uložení souboru XPS.
+Zde vytvoříme instanci`XpsSaveOptions`, který určuje možnosti uložení souboru XPS.
 
 ## Převést EPUB na XPS
 
@@ -66,13 +66,13 @@ Converter.convertEPUB(
 
  Nyní používáme`Converter.convertEPUB` metoda pro převod souboru EPUB do formátu XPS. Metoda trvá`fileInputStream` ,`options` jsme vytvořili dříve, a název výstupního souboru, který je v tomto příkladu "output.xps." Podle potřeby můžete změnit název výstupního souboru.
 
-A to je vše! Úspěšně jste převedli soubor EPUB do formátu XPS pomocí Aspose.HTML pro Java.
+A je to! Úspěšně jste převedli soubor EPUB do formátu XPS pomocí Aspose.HTML pro Java.
 
 ## Závěr
 
 V tomto tutoriálu jsme se naučili, jak převést soubory EPUB do formátu XPS v Javě pomocí Aspose.HTML. Se správnými předpoklady a jednoduchým příkladem kódu můžete tuto funkci snadno integrovat do svých aplikací Java.
 
- Máte další otázky nebo potřebujete další pomoc? Podívejte se na[Fórum Aspose.HTML](https://forum.aspose.com/) pro podporu.
+ Máte další otázky nebo potřebujete další pomoc? Podívejte se na[Fórum Aspose.HTML](https://forum.aspose.com/) za podporu.
 
 ## Nejčastější dotazy
 
@@ -80,7 +80,7 @@ V tomto tutoriálu jsme se naučili, jak převést soubory EPUB do formátu XPS 
 Ano, můžete procházet seznam souborů EPUB a převádět je na XPS jeden po druhém pomocí poskytnutého příkladu.
 
 ### Je k dispozici dočasná licence pro testování?
- Ano, dočasnou licenci pro testovací účely můžete získat návštěvou stránky[Stránka dočasné licence](https://purchase.aspose.com/temporary-license/).
+Ano, dočasnou licenci pro testovací účely můžete získat návštěvou stránky[Stránka dočasné licence](https://purchase.aspose.com/temporary-license/).
 
 ### Jaké verze EPUB jsou podporovány pro převod?
 Aspose.HTML for Java podporuje formáty EPUB 2 a 3.

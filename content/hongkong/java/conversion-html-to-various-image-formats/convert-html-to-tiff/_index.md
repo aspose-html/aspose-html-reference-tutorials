@@ -29,7 +29,7 @@ url: /zh-hant/java/conversion-html-to-various-image-formats/convert-html-to-tiff
 
 ## 導入包
 
-在您的 Java 專案中，您需要匯入必要的套件才能使用 Aspose.HTML for Java。按著這些次序：
+在您的 Java 專案中，您需要匯入必要的套件才能使用 Aspose.HTML for Java。請依照下列步驟操作：
 
 ### 第 1 步：開啟您的 Java 項目
 

@@ -8,7 +8,7 @@ weight: 12
 url: /cs/net/canvas-and-image-manipulation/convert-svg-to-pdf/
 ---
 
-Ve světě vývoje webu a zpracování dokumentů je běžným požadavkem potřeba převést soubory Scalable Vector Graphics (SVG) do formátu PDF (Portable Document Format). S výkonem Aspose.HTML pro .NET se tento úkol stává nejen dosažitelným, ale také efektivním. V tomto tutoriálu vás provedeme procesem převodu SVG do PDF pomocí Aspose.HTML pro .NET. 
+Ve světě vývoje webu a zpracování dokumentů je běžným požadavkem potřeba převést soubory SVG (Scalable Vector Graphics) do formátu PDF (Portable Document Format). S výkonem Aspose.HTML pro .NET se tento úkol stává nejen dosažitelným, ale také efektivním. V tomto tutoriálu vás provedeme procesem převodu SVG do PDF pomocí Aspose.HTML pro .NET. 
 
 ## Předpoklady
 

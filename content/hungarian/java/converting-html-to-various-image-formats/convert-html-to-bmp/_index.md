@@ -24,7 +24,7 @@ Ha az előfeltételek adottak, folytassuk a következő lépésekkel.
 
 ## Csomagok importálása
 
-Most importáljuk a szükséges csomagokat az Aspose.HTML for Java használatához a projektben. Kovesd ezeket a lepeseket:
+Most importáljuk a szükséges csomagokat az Aspose.HTML for Java használatához a projektben. Kövesse az alábbi lépéseket:
 
 ### 1. lépés: Hozzon létre egy új Java projektet
 
@@ -113,7 +113,7 @@ Ezen lépések végrehajtásával sikeresen konvertált egy HTML-dokumentumot BM
  Az átfogó dokumentációt a címen tekintheti meg[Aspose.HTML a Java dokumentációhoz](https://reference.aspose.com/html/java/).
 
 ### Átalakíthatom a HTML-t más képformátumokká az Aspose.HTML for Java használatával?
-Igen tudsz. Az Aspose.HTML for Java többféle képformátumot támogat, beleértve a BMP-t, PNG-t, JPEG-et és egyebeket.
+Igen, megteheti. Az Aspose.HTML for Java többféle képformátumot támogat, beleértve a BMP-t, PNG-t, JPEG-et és egyebeket.
 
 ### Mi a fájlméret-korlátozás a HTML-ből BMP-be konvertáláshoz?
 A fájlméret korlátozása a licenctől függően változhat. Részletes információkért lásd a dokumentációt.

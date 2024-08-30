@@ -75,7 +75,7 @@ using (XpsDevice device = new XpsDevice(dataDir + @"document_out.xps"))
 
 總之，Aspose.HTML for .NET 簡化了複雜的 HTML 文件處理，使其成為開發人員的寶貴工具。透過執行這些步驟，您可以輕鬆呈現多個文件並在 .NET 專案中充分利用該程式庫的潛力。
 
-## 經常問的問題
+## 常見問題解答
 
 ### 1.什麼是.NET 的 Aspose.HTML？
 Aspose.HTML for .NET 是一個 .NET 函式庫，使開發人員能夠以程式設計方式操作和呈現 HTML 文件。

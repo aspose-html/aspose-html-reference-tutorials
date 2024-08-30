@@ -73,7 +73,7 @@ Converter.ConvertTemplate(templateHtml, data, new TemplateLoadOptions(), templat
 
 將 Aspose.HTML 合併到您的工作流程中可以讓您自動產生內容，使您的網站不僅具有吸引力，而且對搜尋引擎友好。 
 
-還在等什麼？開始使用 Aspose.HTML for .NET 並將您的線上內容提升到新的水平！
+那麼，你還在等什麼？開始使用 Aspose.HTML for .NET 並將您的線上內容提升到新的水平！
 
 ## 結論
 
@@ -95,7 +95,7 @@ A1：是的，Aspose.HTML for .NET 提供了使用者友善的工具和文檔，
 
 ### Q4：Aspose.HTML for .NET 是否提供技術支援？
 
- A4：是的，您可以從社區獲得技術支援和幫助：[Aspose.HTML 論壇](https://forum.aspose.com/).
+ A4：是的，您可以從社區獲得技術支援和協助：[Aspose.HTML 論壇](https://forum.aspose.com/).
 
 ### Q5：哪裡可以購買 Aspose.HTML for .NET？
 

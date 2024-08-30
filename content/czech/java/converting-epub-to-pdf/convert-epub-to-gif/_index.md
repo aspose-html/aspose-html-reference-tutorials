@@ -16,7 +16,7 @@ Než se pustíte do procesu převodu, musíte splnit několik předpokladů:
 
 - Základní znalost programování v Javě.
 - Vývojové prostředí Java nainstalované ve vašem systému.
--  Aspose.HTML pro knihovnu Java. Můžete si jej stáhnout z[tady](https://releases.aspose.com/html/java/).
+-  Aspose.HTML pro knihovnu Java. Můžete si jej stáhnout z[zde](https://releases.aspose.com/html/java/).
 - Soubor EPUB, který chcete převést na GIF.
 
 ## Importujte balíčky
@@ -29,7 +29,7 @@ import com.aspose.html.converters.Converter;
 import java.io.FileInputStream;
 ```
 
-Nyní si rozdělme proces převodu do několika kroků:
+Nyní rozdělme proces převodu do několika kroků:
 
 ## Krok 1: Otevřete soubor EPUB
 
@@ -61,7 +61,7 @@ Nyní je čas převést soubor EPUB na GIF pomocí Aspose.HTML pro Java. Zde je 
 Converter.convertEPUB(fileInputStream, options, "output.gif");
 ```
 
- Tento kód volá`convertEPUB` metoda, absolvování`fileInputStream` ,`options` jste inicializovali dříve, a požadovaný název výstupního souboru, který je v tomto příkladu "output.gif". 
+ Tento kód volá`convertEPUB` metoda, předávání`fileInputStream` ,`options` jste inicializovali dříve, a požadovaný název výstupního souboru, který je v tomto příkladu "output.gif". 
 
 ## Závěr
 
@@ -81,7 +81,7 @@ Absolutně! Aspose.HTML for Java podporuje širokou škálu převodů mimo EPUB 
  Dokumentaci najdete na[Aspose.HTML pro dokumentaci Java](https://reference.aspose.com/html/java/) podporu při[Aspose Support](https://forum.aspose.com/).
 
 ### Je k dispozici bezplatná zkušební verze pro Aspose.HTML pro Javu?
- Ano, můžete získat bezplatnou zkušební verzi od[tady](https://releases.aspose.com/).
+ Ano, můžete získat bezplatnou zkušební verzi od[zde](https://releases.aspose.com/).
 
 ### Jaké jsou systémové požadavky pro používání Aspose.HTML pro Java?
 Abyste mohli začít, potřebujete vývojové prostředí Java a knihovnu Aspose.HTML for Java.

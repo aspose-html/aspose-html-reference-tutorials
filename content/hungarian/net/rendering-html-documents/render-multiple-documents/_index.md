@@ -71,7 +71,7 @@ using (XpsDevice device = new XpsDevice(dataDir + @"document_out.xps"))
 A kód végrehajtása után a megadott könyvtárban megtalálja a renderelt XPS dokumentumot.
 
 ## Következtetés
-Gratulálunk! Sikeresen renderelt több HTML-dokumentumot az Aspose.HTML for .NET használatával. Ez csak egy a sok hatékony szolgáltatás közül, amelyet ez a könyvtár kínál a dokumentumok kezeléséhez és feldolgozásához.
+Gratulálok! Sikeresen renderelt több HTML-dokumentumot az Aspose.HTML for .NET használatával. Ez csak egy a sok hatékony szolgáltatás közül, amelyet ez a könyvtár kínál a dokumentumok kezeléséhez és feldolgozásához.
 
 Összefoglalva, az Aspose.HTML for .NET leegyszerűsíti az összetett HTML-dokumentumok kezelését, így értékes eszközzé teszi a fejlesztők számára. Ha követi ezeket a lépéseket, egyszerűen előállíthat több dokumentumot, és kihasználhatja a könyvtárban rejlő lehetőségeket .NET-projektjeiben.
 
@@ -87,7 +87,7 @@ Az Aspose.HTML for .NET egy .NET-könyvtár, amely lehetővé teszi a fejlesztő
  Igen, elérheti az Aspose.HTML ingyenes próbaverzióját a .NET-hez innen[itt](https://releases.aspose.com/).
 
 ### 4. Hogyan szerezhetek ideiglenes licencet az Aspose.HTML for .NET számára?
- Ideiglenes engedély megszerzéséhez látogasson el ide[ez a link](https://purchase.aspose.com/temporary-license/).
+ Ideiglenes engedély megszerzéséhez látogasson el ide[ezt a linket](https://purchase.aspose.com/temporary-license/).
 
 ### 5. Hol kaphatok támogatást az Aspose.HTML for .NET számára?
  Támogatást és közösségi beszélgetéseket találhat az oldalon[Aspose.HTML fórum](https://forum.aspose.com/).

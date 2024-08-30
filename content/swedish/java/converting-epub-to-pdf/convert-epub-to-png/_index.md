@@ -80,7 +80,7 @@ I den här guiden har vi lärt oss hur man konverterar EPUB till PNG med Aspose.
     Dokumentationen kan hittas[här](https://reference.aspose.com/html/java/). Det är en värdefull resurs för att förstå bibliotekets egenskaper och funktionalitet.
 
 ### Hur kan jag få en tillfällig licens för Aspose.HTML för Java?
-    Om du behöver en tillfällig licens kan du besöka[den här länken](https://purchase.aspose.com/temporary-license/) att begära en.
+    Om du behöver en tillfällig licens kan du besöka[denna länk](https://purchase.aspose.com/temporary-license/) att begära en.
 
 ### Var kan jag få support för Aspose.HTML för Java?
     Gemenskapsforumet Aspose.HTML för Java är ett bra ställe att söka stöd och vägledning. Du kan komma åt den[här](https://forum.aspose.com/).

@@ -77,7 +77,7 @@ Converter.convertEPUB(fileInputStream, options, "path/to/your/output.bmp");
 
  Cserélje ki`"path/to/your/output.bmp"` a tényleges fájl elérési úttal, ahová a BMP kimenetet menteni szeretné.
 
-És ez az! Sikeresen konvertált egy EPUB-fájlt BMP-re az Aspose.HTML for Java használatával.
+És ennyi! Sikeresen konvertált egy EPUB-fájlt BMP-re az Aspose.HTML for Java használatával.
 
 ## Következtetés
 

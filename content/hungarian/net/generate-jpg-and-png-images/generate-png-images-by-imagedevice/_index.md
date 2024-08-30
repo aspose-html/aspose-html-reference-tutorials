@@ -12,9 +12,9 @@ Készen áll arra, hogy kihasználja az Aspose.HTML for .NET erejét lenyűgöz�
 
 ## Bevezetés
 
-Az Aspose.HTML for .NET egy figyelemre méltó könyvtár, amely lehetővé teszi a .NET fejlesztők számára, hogy könnyedén dolgozzanak HTML dokumentumokkal. Függetlenül attól, hogy a HTML-t különböző formátumokba szeretné konvertálni, adatokat szeretne kinyerni a weboldalakról, vagy programozottan szeretné manipulálni a HTML-tartalmat, az Aspose.HTML for .NET megoldást nyújt Önnek.
+Az Aspose.HTML for .NET egy figyelemre méltó könyvtár, amely lehetővé teszi a .NET fejlesztők számára, hogy könnyedén dolgozzanak HTML dokumentumokkal. Függetlenül attól, hogy a HTML-t különböző formátumokba szeretné konvertálni, adatokat szeretne kinyerni weboldalakról, vagy programozottan szeretné manipulálni a HTML-tartalmat, az Aspose.HTML for .NET megoldást nyújt Önnek.
 
-Ebben az oktatóanyagban megvizsgáljuk az Aspose.HTML for .NET használatának kulcsfontosságú szempontjait, beleértve a névterek importálását, az előfeltételeket és a különféle példákba való búvárkodást. Lépésről lépésre lebontjuk az egyes példákat, hogy biztosítsuk a fogalmak alapos megértését.
+Ebben az oktatóanyagban megvizsgáljuk az Aspose.HTML for .NET használatának legfontosabb szempontjait, beleértve a névterek importálását, az előfeltételeket és a különféle példákba való búvárkodást. Lépésről lépésre lebontjuk az egyes példákat, hogy biztosítsuk a fogalmak alapos megértését.
 
 ## Előfeltételek
 
@@ -30,11 +30,11 @@ Bár nem kötelező, a Visual Studio telepítése sokkal kényelmesebbé teheti 
 
 3. Aspose.HTML for .NET Library
 
- Le kell töltenie az Aspose.HTML for .NET könyvtárat. Meglátogatni a[letöltési oldal](https://releases.aspose.com/html/net/) hogy megszerezze a legújabb verziót.
+ Le kell töltenie az Aspose.HTML for .NET könyvtárat. Látogassa meg a[letöltési oldal](https://releases.aspose.com/html/net/) hogy megszerezze a legújabb verziót.
 
 4. Ingyenes próbaverzió vagy licenc
 
- A kezdéshez választhatja az ingyenes próbaverzió használatát, vagy vásárolhat licencet a könyvtárhoz. Ingyenes próbaverziót kaphat[itt](https://releases.aspose.com/) vagy vásároljon licencet innen[ez a link](https://purchase.aspose.com/buy) . Szükség esetén ideiglenes engedélyt is szerezhet[itt](https://purchase.aspose.com/temporary-license/).
+ A kezdéshez választhatja az ingyenes próbaverzió használatát, vagy vásárolhat licencet a könyvtárhoz. Ingyenes próbaverziót kaphat[itt](https://releases.aspose.com/) vagy vásároljon licencet innen[ezt a linket](https://purchase.aspose.com/buy) . Szükség esetén ideiglenes engedélyt is szerezhet[itt](https://purchase.aspose.com/temporary-license/).
 
 Most, hogy minden előfeltétel megvan, kezdjük el az Aspose.HTML for .NET felfedezését.
 
@@ -78,7 +78,7 @@ using (var document = new Aspose.Html.HTMLDocument("<style>p { color: green; }</
 
 2. HTML-dokumentum létrehozása: HTML-dokumentum-példányt kezdeményezünk a megjeleníteni kívánt HTML-tartalommal.
 
-3.  Renderelés képeszközre: Egy ImageDevice segítségével határozzuk meg a kimeneti formátumot (képet) és a keletkezett kép mentési helyét. Ebben az esetben a kép a következő néven lesz elmentve`document_out.png`.
+3.  Renderelés képeszközre: Egy ImageDevice segítségével határozzuk meg a kimeneti formátumot (képet) és az eredményül kapott kép mentési helyét. Ebben az esetben a kép a következő néven lesz elmentve`document_out.png`.
 
 Ezen lépések követésével zökkenőmentesen renderelheti a HTML-tartalmat képpé, és számos lehetőséget nyit meg a webtartalom vizuális megjelenítésének létrehozására.
 

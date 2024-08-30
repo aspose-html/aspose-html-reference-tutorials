@@ -10,7 +10,7 @@ url: /cs/net/generate-jpg-and-png-images/generate-png-images-by-imagedevice/
 
 Jste připraveni využít sílu Aspose.HTML pro .NET k vytvoření úžasných webových stránek a manipulaci s HTML dokumenty? Tento obsáhlý tutoriál vás provede základními informacemi, od předpokladů až po pokročilé příklady. Rozebereme každý krok a zajistíme, že pochopíte každý aspekt této všestranné knihovny.
 
-## Úvod
+## Zavedení
 
 Aspose.HTML for .NET je pozoruhodná knihovna, která umožňuje vývojářům .NET pracovat s dokumenty HTML bez námahy. Ať už chcete převádět HTML do různých formátů, extrahovat data z webových stránek nebo programově manipulovat s obsahem HTML, Aspose.HTML pro .NET vám pomůže.
 
@@ -34,7 +34,7 @@ když to není povinné, instalace sady Visual Studio může výrazně usnadnit 
 
 4. Bezplatná zkušební verze nebo licence
 
- Chcete-li začít, můžete se rozhodnout použít bezplatnou zkušební verzi nebo zakoupit licenci pro knihovnu. Můžete získat bezplatnou zkušební verzi[tady](https://releases.aspose.com/) nebo zakoupit licenci od[tento odkaz](https://purchase.aspose.com/buy) . V případě potřeby můžete také získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
+ Chcete-li začít, můžete se rozhodnout použít bezplatnou zkušební verzi nebo zakoupit licenci pro knihovnu. Můžete získat bezplatnou zkušební verzi[zde](https://releases.aspose.com/) nebo zakoupit licenci od[tento odkaz](https://purchase.aspose.com/buy) . V případě potřeby můžete také získat dočasnou licenci[zde](https://purchase.aspose.com/temporary-license/).
 
 Nyní, když máte všechny předpoklady na místě, začněme prozkoumávat Aspose.HTML pro .NET.
 
@@ -100,7 +100,7 @@ Odpověď 2: Ano, můžete bezproblémově integrovat Aspose.HTML for .NET s C#,
 
 ### Q3: Je k dispozici bezplatná zkušební verze?
 
-A3: Ano, můžete získat bezplatnou zkušební verzi Aspose.HTML pro .NET[tady](https://releases.aspose.com/).
+A3: Ano, můžete získat bezplatnou zkušební verzi Aspose.HTML pro .NET[zde](https://releases.aspose.com/).
 
 ### Q4: Kde najdu dokumentaci pro Aspose.HTML pro .NET?
 

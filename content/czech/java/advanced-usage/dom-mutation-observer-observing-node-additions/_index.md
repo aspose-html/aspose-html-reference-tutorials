@@ -16,7 +16,7 @@ Než se pustíme do používání Aspose.HTML pro Java, ujistěte se, že máte 
 
 1. Vývojové prostředí Java: Ujistěte se, že máte v systému nainstalovanou sadu Java Development Kit (JDK).
 
-2.  Aspose.HTML for Java: Budete si muset stáhnout a nainstalovat Aspose.HTML for Java. Odkaz ke stažení najdete[tady](https://releases.aspose.com/html/java/).
+2.  Aspose.HTML for Java: Budete si muset stáhnout a nainstalovat Aspose.HTML for Java. Odkaz ke stažení najdete[zde](https://releases.aspose.com/html/java/).
 
 3. IDE (Integrated Development Environment): Pro psaní a spouštění kódu Java použijte preferované Java IDE, jako je IntelliJ IDEA nebo Eclipse.
 
@@ -133,11 +133,11 @@ A1: DOM Mutation Observer je funkce JavaScriptu, která vám umožňuje sledovat
 
 ### Q2: Mohu použít Aspose.HTML pro Java ve svých komerčních projektech?
 
- A2: Ano, můžete použít Aspose.HTML pro Java v komerčních projektech. Můžete najít informace o licencích a nákupu[tady](https://purchase.aspose.com/buy).
+ A2: Ano, můžete použít Aspose.HTML pro Java v komerčních projektech. Můžete najít informace o licencích a nákupu[zde](https://purchase.aspose.com/buy).
 
 ### Q3: Je k dispozici bezplatná zkušební verze pro Aspose.HTML pro Java?
 
- A3: Ano, můžete získat bezplatnou zkušební verzi Aspose.HTML pro Java[tady](https://releases.aspose.com/). To vám umožní prozkoumat jeho funkce a možnosti před nákupem.
+ A3: Ano, můžete získat bezplatnou zkušební verzi Aspose.HTML pro Java[zde](https://releases.aspose.com/). To vám umožní prozkoumat jeho funkce a možnosti před nákupem.
 
 ### Q4: Jaká je výhoda pozorování změn znakových dat pomocí Mutation Observer?
 

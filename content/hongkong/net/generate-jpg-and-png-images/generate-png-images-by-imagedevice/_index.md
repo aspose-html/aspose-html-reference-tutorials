@@ -2,7 +2,7 @@
 title: 使用 Aspose.HTML 在 .NET 中透過 ImageDevice 產生 PNG 映像
 linktitle: 在.NET中透過ImageDevice產生PNG圖像
 second_title: Aspose.HTML .NET HTML 操作 API
-description: 學習使用 Aspose.HTML for .NET 來操作 HTML 文件、將 HTML 轉換為圖像等等。包含常見問題的逐步教學。
+description: 學習使用 Aspose.HTML for .NET 來操作 HTML 文件、將 HTML 轉換為圖片等。包含常見問題的逐步教學。
 type: docs
 weight: 11
 url: /zh-hant/net/generate-jpg-and-png-images/generate-png-images-by-imagedevice/
@@ -86,7 +86,7 @@ using (var document = new Aspose.Html.HTMLDocument("<style>p { color: green; }</
 
 Aspose.HTML for .NET 是一個功能強大的工具，可以簡化 .NET 開發人員的 HTML 文件操作和轉換任務。透過遵循本教學並了解先決條件、匯入命名空間並探索實際範例，您就可以很好地掌握這個多功能函式庫。
 
-有疑問或需要協助嗎？不要猶豫，來參觀吧[Aspose.HTML 支援論壇](https://forum.aspose.com/)尋求專家協助以及與社群的討論。
+有疑問或需要協助嗎？不要猶豫，來參觀[Aspose.HTML 支援論壇](https://forum.aspose.com/)尋求專家協助以及與社群的討論。
 
 ## 常見問題解答
 
@@ -106,6 +106,6 @@ A3：是的，您可以獲得 Aspose.HTML for .NET 的免費試用版[這裡](ht
 
  A4：該文件位於[https://reference.aspose.com/html/net/](https://reference.aspose.com/html/net/).
 
-### 問題 5：如何購買 Aspose.HTML for .NET 的授權？
+### Q5：如何購買 Aspose.HTML for .NET 的授權？
 
  A5：您可以從以下位置購買許可證：[https://purchase.aspose.com/buy](https://purchase.aspose.com/buy).

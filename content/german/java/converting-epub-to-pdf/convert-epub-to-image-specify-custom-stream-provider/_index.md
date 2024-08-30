@@ -1,34 +1,34 @@
 ---
-title: Angeben eines benutzerdefinierten Stream-Anbieters für die EPUB-zu-Bild-Konvertierung
-linktitle: Angeben eines benutzerdefinierten Stream-Anbieters für die EPUB-zu-Bild-Konvertierung
-second_title: Java HTML-Verarbeitung mit Aspose.HTML
+title: Angeben eines benutzerdefinierten Stream-Providers für die Konvertierung von EPUB in ein Bild
+linktitle: Angeben eines benutzerdefinierten Stream-Providers für die Konvertierung von EPUB in ein Bild
+second_title: Java-HTML-Verarbeitung mit Aspose.HTML
 description: Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.HTML für Java EPUB-Dateien in Bilder konvertieren.
 type: docs
 weight: 15
 url: /de/java/converting-epub-to-pdf/convert-epub-to-image-specify-custom-stream-provider/
 ---
 
-Sind Sie bereit, die Leistungsfähigkeit von Aspose.HTML für Java zu nutzen? Dieser umfassende Leitfaden führt Sie Schritt für Schritt durch den Prozess. Egal, ob Sie ein erfahrener Entwickler sind oder gerade erst anfangen, bei uns sind Sie an der richtigen Adresse. 
+Sind Sie bereit, die Leistungsfähigkeit von Aspose.HTML für Java zu nutzen? Diese umfassende Anleitung führt Sie Schritt für Schritt durch den Prozess. Egal, ob Sie ein erfahrener Entwickler sind oder gerade erst anfangen, wir haben das Richtige für Sie. 
 
 ## Voraussetzungen
 
-Bevor wir uns mit der Verwendung von Aspose.HTML für Java befassen, müssen Sie einige Dinge bereithalten:
+Bevor wir uns mit der Verwendung von Aspose.HTML für Java befassen, müssen einige Dinge bereitstehen:
 
 1. Java-Entwicklungsumgebung: Stellen Sie sicher, dass Java ordnungsgemäß auf Ihrem System installiert ist. Sie können Java von der Website herunterladen.
 
-2.  Aspose.HTML für Java-Bibliothek: Sie müssen die Aspose.HTML für Java-Bibliothek erwerben. Du kannst es finden[Hier](https://releases.aspose.com/html/java/).
+2.  Aspose.HTML für Java-Bibliothek: Sie müssen die Aspose.HTML für Java-Bibliothek herunterladen. Sie finden sie[Hier](https://releases.aspose.com/html/java/).
 
-3.  Aspose.HTML-Dokumentation: Die Dokumentation für Aspose.HTML für Java finden Sie hier[Hier](https://reference.aspose.com/html/java/).
+3.  Aspose.HTML Dokumentation: Die Dokumentation für Aspose.HTML für Java finden Sie[Hier](https://reference.aspose.com/html/java/).
 
 4. IDE (Integrated Development Environment): Sie können jede Java-kompatible IDE wie Eclipse oder IntelliJ IDEA wählen.
 
 ## Pakete importieren
 
-In diesem Abschnitt führen wir Sie durch den Prozess des Imports der erforderlichen Pakete, um mit Aspose.HTML für Java zu beginnen.
+In diesem Abschnitt führen wir Sie durch den Prozess des Importierens der erforderlichen Pakete, um mit Aspose.HTML für Java zu beginnen.
 
-## Öffnen Sie eine vorhandene EPUB-Datei
+## Öffnen einer vorhandenen EPUB-Datei
 
-Zunächst müssen Sie eine vorhandene EPUB-Datei zum Lesen öffnen. So können Sie es machen:
+Zuerst müssen Sie eine vorhandene EPUB-Datei zum Lesen öffnen. So geht's:
 
 ```java
 try (java.io.FileInputStream fileInputStream = new java.io.FileInputStream(Resources.input("input.epub"))) {
@@ -36,7 +36,7 @@ try (java.io.FileInputStream fileInputStream = new java.io.FileInputStream(Resou
 }
 ```
 
-## Erstellen Sie einen MemoryStreamProvider
+## Erstellen eines MemoryStreamProviders
 
 Um EPUB in ein Bild zu konvertieren, müssen Sie eine Instanz von MemoryStreamProvider erstellen:
 
@@ -46,9 +46,9 @@ try (MemoryStreamProvider streamProvider = new MemoryStreamProvider()) {
 }
 ```
 
-## Konvertieren Sie EPUB in ein Bild
+## EPUB in Bild konvertieren
 
-Nun konvertieren wir die EPUB-Datei mit dem MemoryStreamProvider in ein Bild:
+Konvertieren wir nun die EPUB-Datei mithilfe des MemoryStreamProviders in ein Bild:
 
 ```java
 com.aspose.html.converters.Converter.convertEPUB(
@@ -58,7 +58,7 @@ com.aspose.html.converters.Converter.convertEPUB(
 );
 ```
 
-## Greifen Sie auf Speicherströme zu
+## Zugriff auf Speicherströme
 
 Sie können auf die Speicherströme zugreifen, die die resultierenden Daten enthalten:
 
@@ -70,9 +70,9 @@ for (int i = 0; i < size; i++) {
 }
 ```
 
-## Leeren Sie die Seite in die Ausgabedatei
+## Seite in Ausgabedatei leeren
 
-Schließlich müssen Sie die Seite in die Ausgabedatei leeren:
+Abschließend müssen Sie die Seite in die Ausgabedatei übertragen:
 
 ```java
 try (java.io.FileOutputStream fileOutputStream = new java.io.FileOutputStream(Resources.output("page_{" + (i + 1) + "}.jpg"))) {
@@ -84,7 +84,7 @@ try (java.io.FileOutputStream fileOutputStream = new java.io.FileOutputStream(Re
 
 ## Abschluss
 
-Glückwunsch! Sie haben erfolgreich gelernt, wie Sie mit Aspose.HTML für Java EPUB-Dateien in Bilder konvertieren. Diese leistungsstarke Bibliothek eröffnet eine Welt voller Möglichkeiten für Ihre Java-Anwendungen.
+Herzlichen Glückwunsch! Sie haben erfolgreich gelernt, wie Sie mit Aspose.HTML für Java EPUB-Dateien in Bilder konvertieren. Diese leistungsstarke Bibliothek eröffnet eine Welt voller Möglichkeiten für Ihre Java-Anwendungen.
 
 ## FAQs
 
@@ -94,7 +94,7 @@ Aspose.HTML für Java ist eine Bibliothek, die es Java-Entwicklern ermöglicht, 
 
 ### 2. Wo finde ich die Dokumentation für Aspose.HTML für Java?
 
- Die Dokumentation finden Sie hier[Hier](https://reference.aspose.com/html/java/).
+ Die Dokumentation finden Sie[Hier](https://reference.aspose.com/html/java/).
 
 ### 3. Gibt es eine kostenlose Testversion?
 

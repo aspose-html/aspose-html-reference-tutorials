@@ -7,7 +7,7 @@ type: docs
 weight: 12
 url: /el/java/converting-between-epub-and-image-formats/convert-epub-to-jpg/
 ---
-Σε αυτό το βήμα προς βήμα σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία μετατροπής ενός αρχείου EPUB σε μορφή JPG χρησιμοποιώντας το Aspose.HTML για Java. Το Aspose.HTML είναι μια ισχυρή βιβλιοθήκη που σας επιτρέπει να εργάζεστε με HTML και διάφορες μορφές, καθιστώντας το μια εξαιρετική επιλογή για το χειρισμό μετατροπών EPUB. Ας αρχίσουμε!
+Σε αυτό το βήμα προς βήμα σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία μετατροπής ενός αρχείου EPUB σε μορφή JPG χρησιμοποιώντας το Aspose.HTML για Java. Το Aspose.HTML είναι μια ισχυρή βιβλιοθήκη που σας επιτρέπει να εργάζεστε με HTML και διάφορες μορφές, καθιστώντας το μια εξαιρετική επιλογή για το χειρισμό μετατροπών EPUB. Ας ξεκινήσουμε!
 
 ## Προαπαιτούμενα
 
@@ -38,7 +38,7 @@ import com.aspose.html.converters.Converter;
 
 ```java
 try (FileInputStream fileInputStream = new FileInputStream("input.epub")) {
-    // Εκκίνηση ImageSaveOptions
+    // Αρχικοποίηση ImageSaveOptions
     ImageSaveOptions options = new ImageSaveOptions(ImageFormat.Jpeg);
     
     //Καλέστε τη μέθοδο ConvertEPUB για να μετατρέψετε το αρχείο EPUB σε JPG.
@@ -52,7 +52,7 @@ try (FileInputStream fileInputStream = new FileInputStream("input.epub")) {
 -  Δημιουργούμε`ImageSaveOptions` και καθορίστε τη μορφή ως JPG.
 -  Τέλος, ονομάζουμε το`convertEPUB` μέθοδος εκτέλεσης της μετατροπής. Η έξοδος θα αποθηκευτεί ως "output.jpg."
 
-## συμπέρασμα
+## Σύναψη
 
 Η μετατροπή EPUB σε μορφή JPG γίνεται εύκολα με το Aspose.HTML για Java. Ακολουθώντας τα βήματα που περιγράφονται σε αυτό το σεμινάριο, μπορείτε να χειριστείτε αποτελεσματικά τις μετατροπές EPUB και να δημιουργήσετε εικόνες JPG από τα αρχεία EPUB σας.
 

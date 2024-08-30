@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /cs/java/converting-between-epub-and-image-formats/convert-epub-to-bmp/
 ---
-## Úvod
+## Zavedení
 
 Pokud chcete převést soubory EPUB na obrázky BMP pomocí Javy, jste na správném místě. Aspose.HTML for Java nabízí výkonné a efektivní řešení, jak toho dosáhnout. V tomto podrobném průvodci vás provedeme celým procesem a zajistíme, že jej zvládnou i začátečníci. Než se ponoříme do podrobných kroků, pojďme si projít předpoklady a importovat balíčky potřebné pro tento úkol.
 
@@ -21,7 +21,7 @@ Ujistěte se, že máte funkční vývojové prostředí Java, včetně nainstal
 
 2. Aspose.HTML pro Javu
 
- Měli byste mít Aspose.HTML pro Javu připravenou k použití. Pokud jste to ještě neudělali, můžete si ji stáhnout[tady](https://releases.aspose.com/html/java/).
+ Měli byste mít Aspose.HTML pro Javu připravenou k použití. Pokud jste to ještě neudělali, můžete si ji stáhnout[zde](https://releases.aspose.com/html/java/).
 
 3. Soubor EPUB
 
@@ -77,17 +77,17 @@ Converter.convertEPUB(fileInputStream, options, "path/to/your/output.bmp");
 
  Nahradit`"path/to/your/output.bmp"` se skutečnou cestou k souboru, kam chcete uložit výstup BMP.
 
-to je vše! Úspěšně jste převedli soubor EPUB na BMP pomocí Aspose.HTML for Java.
+je to! Úspěšně jste převedli soubor EPUB na BMP pomocí Aspose.HTML for Java.
 
 ## Závěr
 
- Převod obrázků EPUB do BMP v Javě nebyl nikdy jednodušší díky Aspose.HTML pro Javu. Pomocí tohoto podrobného průvodce můžete rychle a efektivně převádět soubory EPUB. Prozkoumejte rozsáhlou dokumentaci Aspose.HTML[tady](https://reference.aspose.com/html/java/)a začněte se svými projekty ještě dnes!
+ Převod obrázků EPUB do BMP v Javě nebyl nikdy jednodušší díky Aspose.HTML pro Javu. Pomocí tohoto podrobného průvodce můžete rychle a efektivně převádět soubory EPUB. Prozkoumejte rozsáhlou dokumentaci Aspose.HTML[zde](https://reference.aspose.com/html/java/)a začněte se svými projekty ještě dnes!
 
 ## Často kladené otázky
 
 ### Q1: Je Aspose.HTML for Java zdarma k použití?
 
- A1: Aspose.HTML pro Java není zdarma, ale nabízí bezplatnou zkušební verzi. Můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/) hodnotit produkt.
+ A1: Aspose.HTML pro Java není zdarma, ale nabízí bezplatnou zkušební verzi. Můžete získat dočasnou licenci[zde](https://purchase.aspose.com/temporary-license/) hodnotit produkt.
 
 ### Q2: Mohu převést EPUB do jiných obrazových formátů pomocí Aspose.HTML pro Java?
 
@@ -99,7 +99,7 @@ Odpověď 3: Zatímco základní znalost jazyka Java je prospěšná, Aspose.HTM
 
 ### Q4: Kde mohu hledat pomoc nebo podporu pro Aspose.HTML pro Java?
 
- Odpověď 4: Pokud narazíte na problémy nebo máte dotazy, navštivte fórum komunity Aspose.HTML[tady](https://forum.aspose.com/) za podporu a pomoc.
+ Odpověď 4: Pokud narazíte na problémy nebo máte dotazy, navštivte fórum komunity Aspose.HTML[zde](https://forum.aspose.com/) za podporu a pomoc.
 
 ### Otázka 5: Existuje omezení velikosti souborů EPUB, které lze převést pomocí Aspose.HTML pro Java?
 

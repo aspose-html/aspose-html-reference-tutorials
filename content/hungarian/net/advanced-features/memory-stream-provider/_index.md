@@ -24,7 +24,7 @@ Most, hogy az előfeltételeink rendben vannak, folytassuk a lenyűgöző HTML-d
 
 ## Névterek importálása
 
-A kezdéshez importálnia kell a szükséges névtereket a .NET-projektbe. Ezek a névterek hozzáférést biztosítanak az Aspose.HTML könyvtárhoz, lehetővé téve a HTML-dokumentumok programozott kezelését. Íme az importálandó alapvető névterek:
+A kezdéshez importálnia kell a szükséges névtereket a .NET-projektbe. Ezek a névterek hozzáférést biztosítanak az Aspose.HTML könyvtárhoz, lehetővé téve a HTML-dokumentumok programozott kezelését. Itt vannak az importálandó alapvető névterek:
 
 ```csharp
 using Aspose.Html;
@@ -93,7 +93,7 @@ Ne felejtse el felszabadítani az erőforrásokat, ha végzett a dokumentummal:
 document.Dispose();
 ```
 
-És ez az! Sikeresen létrehozott egy HTML-dokumentumot az Aspose.HTML for .NET használatával, és más formátumba is renderelte.
+És ennyi! Sikeresen létrehozott egy HTML-dokumentumot az Aspose.HTML for .NET használatával, és más formátumba is renderelte.
 
 ## Következtetés
 

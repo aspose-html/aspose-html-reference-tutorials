@@ -26,7 +26,7 @@ Aspose.HTML för .NET förenklar bildredigering. Du kan ladda bilder, använda f
 
 ## Steg-för-steg-instruktioner
 
-För att komma igång har vi en omfattande lista med handledningar. Dessa steg-för-steg-guider leder dig genom olika aspekter av arbetsytan och bildmanipulering med Aspose.HTML för .NET. Från att skapa interaktiva diagram till att designa anpassade märken, du hittar handledningar för alla färdighetsnivåer.
+För att komma igång har vi en omfattande lista med handledningar. Dessa steg-för-steg-guider leder dig genom olika aspekter av duk- och bildmanipulering med Aspose.HTML för .NET. Från att skapa interaktiva diagram till att designa anpassade märken, du hittar handledningar för alla färdighetsnivåer.
 
 ## Handledningar för canvas och bildmanipulation
 ### [Manipulera Canvas i .NET med Aspose.HTML](./manipulating-canvas/)

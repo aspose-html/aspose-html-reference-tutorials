@@ -66,7 +66,7 @@ ImageSaveOptions options = new ImageSaveOptions(ImageFormat.Png);
 Converter.convertHTML(document, options, "output.png");
 ```
 
-## Städa
+## Rengöring
 
 Glöm inte att släppa några resurser och städa upp efter att konverteringen är klar.
 

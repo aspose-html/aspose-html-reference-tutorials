@@ -1,34 +1,34 @@
 ---
-title: EPUB'dan Görüntüye Dönüştürme için Özel Akış Sağlayıcısını Belirleme
-linktitle: EPUB'dan Görüntüye Dönüştürme için Özel Akış Sağlayıcısını Belirleme
+title: EPUB'dan Görüntüye Dönüştürme için Özel Akış Sağlayıcısının Belirlenmesi
+linktitle: EPUB'dan Görüntüye Dönüştürme için Özel Akış Sağlayıcısının Belirlenmesi
 second_title: Aspose.HTML ile Java HTML İşleme
-description: Bu adım adım kılavuzla EPUB dosyalarını görsellere dönüştürmek için Aspose.HTML for Java'yı nasıl kullanacağınızı öğrenin.
+description: Bu adım adım kılavuzla EPUB dosyalarını görsellere dönüştürmek için Aspose.HTML for Java'nın nasıl kullanılacağını öğrenin.
 type: docs
 weight: 15
 url: /tr/java/converting-epub-to-pdf/convert-epub-to-image-specify-custom-stream-provider/
 ---
 
-Aspose.HTML for Java'nın gücünden yararlanmaya hazır mısınız? Bu kapsamlı kılavuz süreç boyunca size adım adım yol gösterecektir. İster deneyimli bir geliştirici olun, ister yeni başlıyor olun, yanınızdayız. 
+Java için Aspose.HTML'nin gücünden yararlanmaya hazır mısınız? Bu kapsamlı kılavuz, sizi adım adım süreçte yönlendirecektir. İster deneyimli bir geliştirici olun, ister yeni başlıyor olun, sizi koruduk. 
 
-## Önkoşullar
+## Ön koşullar
 
-Aspose.HTML for Java'yı kullanmaya başlamadan önce, sahip olmanız gereken birkaç şey var:
+Java için Aspose.HTML'i kullanmaya başlamadan önce, yerinde olması gereken birkaç şey var:
 
-1. Java Geliştirme Ortamı: Java'nın sisteminizde düzgün şekilde kurulu olduğundan emin olun. Java'yı web sitesinden indirebilirsiniz.
+1. Java Geliştirme Ortamı: Java'nın sisteminize düzgün bir şekilde yüklendiğinden emin olun. Java'yı web sitesinden indirebilirsiniz.
 
-2.  Aspose.HTML for Java Library: Aspose.HTML for Java kütüphanesini edinmeniz gerekecektir. Bulabilirsin[Burada](https://releases.aspose.com/html/java/).
+2.  Java Kütüphanesi için Aspose.HTML: Java kütüphanesi için Aspose.HTML'i edinmeniz gerekecek. Bunu şurada bulabilirsiniz:[Burada](https://releases.aspose.com/html/java/).
 
-3.  Aspose.HTML Belgeleri: Aspose.HTML for Java belgelerini burada bulabilirsiniz[Burada](https://reference.aspose.com/html/java/).
+3.  Aspose.HTML Belgeleri: Java için Aspose.HTML belgeleri şu adreste bulunabilir:[Burada](https://reference.aspose.com/html/java/).
 
-4. IDE (Entegre Geliştirme Ortamı): Eclipse veya IntelliJ IDEA gibi Java uyumlu herhangi bir IDE'yi seçebilirsiniz.
+4. IDE (Bütünleşik Geliştirme Ortamı): Eclipse veya IntelliJ IDEA gibi herhangi bir Java uyumlu IDE'yi seçebilirsiniz.
 
 ## Paketleri İçe Aktar
 
-Bu bölümde Aspose.HTML for Java'ya başlamak için gerekli paketleri içe aktarma sürecinde size rehberlik edeceğiz.
+Bu bölümde, Aspose.HTML for Java'yı kullanmaya başlamak için gerekli paketleri içe aktarma sürecinde size rehberlik edeceğiz.
 
-## Mevcut bir EPUB Dosyasını Açma
+## Mevcut bir EPUB Dosyasını Açın
 
-Öncelikle mevcut bir EPUB dosyasını okumak için açmanız gerekir. Bunu nasıl yapabileceğiniz aşağıda açıklanmıştır:
+Öncelikle, okumak için mevcut bir EPUB dosyasını açmanız gerekir. Bunu şu şekilde yapabilirsiniz:
 
 ```java
 try (java.io.FileInputStream fileInputStream = new java.io.FileInputStream(Resources.input("input.epub"))) {
@@ -36,9 +36,9 @@ try (java.io.FileInputStream fileInputStream = new java.io.FileInputStream(Resou
 }
 ```
 
-## MemoryStreamProvider'ı oluşturun
+## Bir MemoryStreamProvider Oluşturun
 
-EPUB'u bir görüntüye dönüştürmek için MemoryStreamProvider'ın bir örneğini oluşturmanız gerekir:
+EPUB'ı bir görüntüye dönüştürmek için MemoryStreamProvider örneğini oluşturmanız gerekir:
 
 ```java
 try (MemoryStreamProvider streamProvider = new MemoryStreamProvider()) {
@@ -46,9 +46,9 @@ try (MemoryStreamProvider streamProvider = new MemoryStreamProvider()) {
 }
 ```
 
-## EPUB'u Resme Dönüştür
+## EPUB'ı Görüntüye Dönüştür
 
-Şimdi EPUB dosyasını MemoryStreamProvider'ı kullanarak bir görüntüye dönüştürelim:
+Şimdi EPUB dosyasını MemoryStreamProvider kullanarak bir resme dönüştürelim:
 
 ```java
 com.aspose.html.converters.Converter.convertEPUB(
@@ -60,7 +60,7 @@ com.aspose.html.converters.Converter.convertEPUB(
 
 ## Bellek Akışlarına Erişim
 
-Ortaya çıkan verileri içeren bellek akışlarına erişebilirsiniz:
+Sonuç verilerini içeren bellek akışlarına erişebilirsiniz:
 
 ```java
 int size = streamProvider.lStream.size();
@@ -70,9 +70,9 @@ for (int i = 0; i < size; i++) {
 }
 ```
 
-## Dosya Çıktısını Almak için Sayfayı Temizle
+## Sayfayı Çıktı Dosyasına Aktar
 
-Son olarak sayfayı çıktı dosyasına aktarmanız gerekir:
+Son olarak sayfayı çıktı dosyasına aktarmanız gerekiyor:
 
 ```java
 try (java.io.FileOutputStream fileOutputStream = new java.io.FileOutputStream(Resources.output("page_{" + (i + 1) + "}.jpg"))) {
@@ -84,26 +84,26 @@ try (java.io.FileOutputStream fileOutputStream = new java.io.FileOutputStream(Re
 
 ## Çözüm
 
-Tebrikler! EPUB dosyalarını görsellere dönüştürmek için Aspose.HTML for Java'yı nasıl kullanacağınızı başarıyla öğrendiniz. Bu güçlü kütüphane, Java uygulamalarınız için bir olasılıklar dünyasının kapılarını açar.
+Tebrikler! EPUB dosyalarını resimlere dönüştürmek için Aspose.HTML for Java'yı nasıl kullanacağınızı başarıyla öğrendiniz. Bu güçlü kütüphane, Java uygulamalarınız için bir olasılıklar dünyasının kapılarını açar.
 
 ## SSS
 
 ### 1. Java için Aspose.HTML nedir?
 
-Aspose.HTML for Java, Java geliştiricilerinin HTML, EPUB ve web ile ilgili diğer formatlarla çalışmasına olanak tanıyan bir kütüphanedir.
+Java için Aspose.HTML, Java geliştiricilerinin HTML, EPUB ve diğer web ile ilgili formatlarla çalışmasına olanak tanıyan bir kütüphanedir.
 
-### 2. Aspose.HTML for Java belgelerini nerede bulabilirim?
+### 2. Java için Aspose.HTML dokümanlarını nerede bulabilirim?
 
  Belgeleri bulabilirsiniz[Burada](https://reference.aspose.com/html/java/).
 
-### 3. Ücretsiz deneme mevcut mu?
+### 3. Ücretsiz deneme imkanı var mı?
 
- Evet, Aspose.HTML for Java'nın ücretsiz deneme sürümünü edinebilirsiniz[Burada](https://releases.aspose.com/).
+ Evet, Java için Aspose.HTML'nin ücretsiz deneme sürümünü edinebilirsiniz[Burada](https://releases.aspose.com/).
 
-### 4. Aspose.HTML for Java için nasıl geçici lisans alabilirim?
+### 4. Java için Aspose.HTML için geçici lisansı nasıl alabilirim?
 
- Geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+ Geçici bir lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
 
-### 5. Aspose.HTML for Java desteğini nereden alabilirim?
+### 5. Java için Aspose.HTML desteğini nereden alabilirim?
 
- Şu adreste destek bulabilirsiniz:[forumlar](https://forum.aspose.com/).
+ Destek için buraya tıklayabilirsiniz.[Aspose forumları](https://forum.aspose.com/).

@@ -93,7 +93,7 @@ document.Body.AppendChild(orderedListElement);
 
 ### 5. lépés: Táblázat hozzáadása
 
- Végül egy táblázatot adunk a dokumentumhoz. Létrehozunk a`table` elemet, hozzon létre sorokat és cellákat, állítsa be azokat`Id` és`TextContent`, és csatolja őket a táblázathoz.
+ Végül egy táblázatot adunk a dokumentumhoz. Létrehozunk a`table` elemet, hozzon létre sorokat és cellákat, állítsa be azokat`Id` és`TextContent`, és fűzze őket a táblázathoz.
 
 ```csharp
 var table = document.CreateElement("table") as HTMLTableElement;
@@ -123,7 +123,7 @@ Végül elmentjük a HTML dokumentumot a megadott kimeneti fájlba.
 document.Save(outputHtml);
 ```
 
-Gratulálunk! Most hozott létre egy egyszerű HTML-dokumentumot az Aspose.HTML for .NET használatával. Ez csak a kezdete annak, amit ezzel a hatékony könyvtárral elérhet.
+Gratulálok! Most hozott létre egy egyszerű HTML-dokumentumot az Aspose.HTML for .NET használatával. Ez csak a kezdete annak, amit ezzel a hatékony könyvtárral elérhet.
 
 ## Következtetés
 
@@ -135,7 +135,7 @@ Boldog kódolást!
 
 ### 1. Mi az Aspose.HTML for .NET?
 
-Az Aspose.HTML for .NET egy .NET-könyvtár, amely átfogó funkcionalitást biztosít a HTML-dokumentumok különféle módokon történő kezeléséhez, például létrehozáshoz, kezeléshez és átalakításhoz.
+Az Aspose.HTML for .NET egy .NET-könyvtár, amely átfogó funkcionalitást biztosít a HTML-dokumentumok különféle módokon történő kezeléséhez, például létrehozáshoz, manipulációhoz és átalakításhoz.
 
 ### 2. Hol találom az Aspose.HTML for .NET dokumentációját?
 
@@ -147,7 +147,7 @@ Az Aspose.HTML for .NET egy .NET-könyvtár, amely átfogó funkcionalitást biz
 
 ### 4. Hogyan szerezhetek ideiglenes licencet az Aspose.HTML for .NET számára?
 
-Az Aspose.HTML for .NET számára ideiglenes licencet szerezhet[itt](https://purchase.aspose.com/temporary-license/).
+ Az Aspose.HTML for .NET számára ideiglenes licencet szerezhet[itt](https://purchase.aspose.com/temporary-license/).
 
 ### 5. Hol kaphatok támogatást az Aspose.HTML for .NET számára?
 

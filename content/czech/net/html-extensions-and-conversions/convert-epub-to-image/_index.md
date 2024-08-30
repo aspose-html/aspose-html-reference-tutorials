@@ -16,7 +16,7 @@ Než se ponoříme do světa Aspose.HTML pro .NET, měli byste se ujistit, že m
 
 1. Visual Studio: Ujistěte se, že máte v systému nainstalované Visual Studio. Můžete si jej stáhnout z webu.
 
-2.  Aspose.HTML pro .NET: Knihovnu můžete získat z webu Aspose[tady](https://releases.aspose.com/html/net/).
+2.  Aspose.HTML pro .NET: Knihovnu můžete získat z webu Aspose[zde](https://releases.aspose.com/html/net/).
 
 3. Váš datový adresář: Připravte si adresář, kam uložíte soubory EPUB a kam se budou ukládat výstupní obrázky.
 
@@ -107,7 +107,7 @@ Výstup obrázku můžete přizpůsobit zadáním voleb, jako je velikost strán
 2.  Otevřete soubor EPUB pro čtení pomocí a`FileStream`.
 3.  Vytvořit`ImageSaveOptions` objekt a zadejte požadovaný výstupní formát (JPEG).
 4. V případě potřeby přizpůsobte velikost stránky a barvu pozadí.
-5.  Zavolej`ConvertEPUB`způsob, předávání toku EPUB, možnosti uložení obrázku a název výstupního souboru.
+5.  Zavolejte na`ConvertEPUB`způsob, předávání toku EPUB, možnosti uložení obrázku a název výstupního souboru.
 6. Soubor EPUB se převede na obrázek se zadanými možnostmi.
 
 ## Zadejte vlastního poskytovatele streamu
@@ -173,8 +173,8 @@ class MemoryStreamProvider : Aspose.Html.IO.ICreateStreamProvider
 ### Kroky
 1.  Zadejte cestu k souboru EPUB v`dataDir` variabilní.
 2.  Otevřete soubor EPUB pro čtení pomocí a`FileStream`.
-3.  Vytvořit`MemoryStreamProvider` pro zpracování vlastních výstupních proudů.
-4.  Zavolej`ConvertEPUB` způsob, předávání streamu EPUB, možností uložení obrázku (JPEG) a vlastního poskytovatele streamu.
+3.  Vytvořte a`MemoryStreamProvider` pro zpracování vlastních výstupních proudů.
+4.  Zavolejte na`ConvertEPUB` způsob, předávání streamu EPUB, možností uložení obrázku (JPEG) a vlastního poskytovatele streamu.
 5. Procházejte toky paměti ve vlastním poskytovateli a ukládejte je do jednotlivých souborů.
 6. Tento příklad vám umožňuje podle potřeby manipulovat a ukládat více výstupních proudů.
 
@@ -188,15 +188,15 @@ Aspose.HTML for .NET je všestranná knihovna, která zjednodušuje práci s dok
 
 ### 1. Kde si mohu stáhnout Aspose.HTML pro .NET?
 
- Aspose.HTML pro .NET si můžete stáhnout ze stránky vydání[tady](https://releases.aspose.com/html/net/).
+ Aspose.HTML pro .NET si můžete stáhnout ze stránky vydání[zde](https://releases.aspose.com/html/net/).
 
 ### 2. Jak mohu získat dočasnou licenci pro Aspose.HTML pro .NET?
 
- Chcete-li získat dočasnou licenci, navštivte stránku dočasné licence[tady](https://purchase.aspose.com/temporary-license/).
+ Chcete-li získat dočasnou licenci, navštivte stránku dočasné licence[zde](https://purchase.aspose.com/temporary-license/).
 
 ### 3. Kde najdu další podporu pro Aspose.HTML pro .NET?
 
- V případě jakýchkoli dotazů nebo problémů můžete požádat o pomoc komunitu Aspose na fóru podpory[tady](https://forum.aspose.com/).
+ V případě jakýchkoli dotazů nebo problémů můžete požádat o pomoc komunitu Aspose na fóru podpory[zde](https://forum.aspose.com/).
 
 ### 4. Mohu převést dokumenty EPUB do jiných formátů, jako je PDF nebo XPS?
 

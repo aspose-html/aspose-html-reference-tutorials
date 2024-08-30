@@ -63,11 +63,11 @@ string outputFile = dataDir + "HTMLtoTIFF_Output.tif";
 Converter.ConvertHTML(htmlDocument, options, outputFile);
 ```
 
- Αυτός ο κωδικός καλεί το`ConvertHTML` μέθοδος με σας`htmlDocument` , ο`options` έχετε ορίσει, και το`outputFile` μονοπάτι.
+ Αυτός ο κωδικός καλεί το`ConvertHTML` μέθοδο με σας`htmlDocument` , το`options` έχετε ορίσει, και το`outputFile` μονοπάτι.
 
 Συγχαρητήρια! Μετατρέψατε επιτυχώς ένα έγγραφο HTML σε εικόνα TIFF χρησιμοποιώντας το Aspose.HTML για .NET.
 
-## συμπέρασμα
+## Σύναψη
 
 Συμπερασματικά, το Aspose.HTML για .NET παρέχει έναν ισχυρό και αποτελεσματικό τρόπο μετατροπής εγγράφων HTML σε διάφορες μορφές, συμπεριλαμβανομένου του TIFF. Ακολουθώντας αυτά τα απλά βήματα, μπορείτε να βελτιώσετε τα έργα ανάπτυξης ιστού σας και να δημιουργήσετε περιεχόμενο που είναι οπτικά ελκυστικό και προσβάσιμο.
 
@@ -77,13 +77,13 @@ Converter.ConvertHTML(htmlDocument, options, outputFile);
  Μπορείτε να αποκτήσετε πρόσβαση στην τεκμηρίωση[εδώ](https://reference.aspose.com/html/net/).
 
 ### Πώς μπορώ να κατεβάσω το Aspose.HTML για .NET;
- Μπορείτε να το κατεβάσετε από[αυτός ο σύνδεσμος](https://releases.aspose.com/html/net/).
+ Μπορείτε να το κατεβάσετε από[αυτόν τον σύνδεσμο](https://releases.aspose.com/html/net/).
 
 ### Υπάρχει διαθέσιμη δωρεάν δοκιμή για το Aspose.HTML για .NET;
  Ναι, μπορείτε να λάβετε δωρεάν δοκιμή από[εδώ](https://releases.aspose.com/).
 
 ### Μπορώ να αποκτήσω μια προσωρινή άδεια χρήσης για το Aspose.HTML για .NET;
- Ναι, μπορείτε να λάβετε προσωρινή άδεια από[εδώ](https://purchase.aspose.com/temporary-license/).
+Ναι, μπορείτε να λάβετε προσωρινή άδεια από[εδώ](https://purchase.aspose.com/temporary-license/).
 
 ### Πού μπορώ να λάβω υποστήριξη για το Aspose.HTML για .NET;
  Μπορείτε να βρείτε υποστήριξη και να αλληλεπιδράσετε με την κοινότητα στη διεύθυνση[το φόρουμ του Aspose](https://forum.aspose.com/).

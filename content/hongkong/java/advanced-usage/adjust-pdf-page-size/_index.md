@@ -118,7 +118,7 @@ pdf_renderer.render(device, html_document);
 
 在本教學中，我們探討如何使用 Aspose.HTML for Java 將 HTML 轉換為 PDF 時調整 PDF 頁面大小。您已經了解了先決條件，匯入了所需的套件，並按照逐步指南完成了此任務。使用 Aspose.HTML for Java，您可以輕鬆控制生成的 PDF 的頁面大小，確保您的內容按預期顯示。
 
-請隨意嘗試不同的頁面大小和設置，以滿足您的特定要求。如果您遇到任何問題或有其他疑問，請隨時尋求協助[Aspose.HTML for Java 文檔](https://reference.aspose.com/html/java/)或者[Aspose 支援論壇](https://forum.aspose.com/).
+請隨意嘗試不同的頁面大小和設置，以滿足您的特定要求。如果您遇到任何問題或有其他疑問，請隨時尋求協助[Aspose.HTML for Java 文檔](https://reference.aspose.com/html/java/)或[Aspose 支援論壇](https://forum.aspose.com/).
 
 ## 常見問題解答
 

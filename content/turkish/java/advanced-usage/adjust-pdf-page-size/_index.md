@@ -1,26 +1,26 @@
 ---
-title: Aspose.HTML for Java ile PDF Sayfa Boyutunu Ayarlama
+title: Java için Aspose.HTML ile PDF Sayfa Boyutunu Ayarlayın
 linktitle: PDF Sayfa Boyutunu Ayarlama
 second_title: Aspose.HTML ile Java HTML İşleme
-description: Aspose.HTML for Java ile PDF sayfa boyutunu nasıl ayarlayacağınızı öğrenin. Zahmetsizce HTML'den yüksek kaliteli PDF'ler oluşturun. Sayfa boyutlarını etkili bir şekilde kontrol edin.
+description: Java için Aspose.HTML ile PDF sayfa boyutunu nasıl ayarlayacağınızı öğrenin. HTML'den zahmetsizce yüksek kaliteli PDF'ler oluşturun. Sayfa boyutlarını etkili bir şekilde kontrol edin.
 type: docs
 weight: 15
 url: /tr/java/advanced-usage/adjust-pdf-page-size/
 ---
 
-Günümüzün dijital çağında, HTML içeriğinden yüksek kaliteli PDF'ler oluşturma ihtiyacı artıyor. Aspose.HTML for Java, HTML belgelerini zahmetsizce PDF formatına dönüştürmenize olanak tanıyan güçlü bir Java kütüphanesidir. Bu eğitimde Aspose.HTML for Java kullanarak HTML'yi PDF'ye dönüştürürken sayfa boyutunu ayarlamaya odaklanacağız.
+Günümüzün dijital çağında, HTML içeriklerinden yüksek kaliteli PDF'ler üretme ihtiyacı artmaktadır. Aspose.HTML for Java, HTML belgelerini zahmetsizce PDF formatına dönüştürmenize olanak tanıyan güçlü bir Java kütüphanesidir. Bu eğitimde, Aspose.HTML for Java kullanarak HTML'yi PDF'ye dönüştürürken sayfa boyutunu ayarlamaya odaklanacağız.
 
-## Önkoşullar
+## Ön koşullar
 
-Başlamadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
+Başlamadan önce aşağıdaki ön koşulların mevcut olduğundan emin olun:
 
-- Java Geliştirme Ortamı: Sisteminizde Java Geliştirme Kitinin (JDK) kurulu olduğundan emin olun.
--  Aspose.HTML for Java: Aspose.HTML for Java'yı web sitesinden indirip yüklemeniz gerekir.[Burada](https://releases.aspose.com/html/java/).
-- HTML Belgesi: Dönüşüme hazır bir HTML belgeniz olmalıdır. Değilse, bir tane oluşturun veya mevcut bir HTML dosyasını kullanın.
+- Java Geliştirme Ortamı: Sisteminizde Java Geliştirme Kiti'nin (JDK) yüklü olduğundan emin olun.
+-  Java için Aspose.HTML: Web sitesinden Java için Aspose.HTML'yi indirip yüklemeniz gerekiyor[Burada](https://releases.aspose.com/html/java/).
+- HTML Belgesi: Dönüştürmeye hazır bir HTML belgeniz olmalı. Yoksa, bir tane oluşturun veya mevcut bir HTML dosyasını kullanın.
 
 ## Paketleri İçe Aktar
 
-Başlamak için Aspose.HTML for Java ile çalışmak üzere gerekli paketleri içe aktarmanız gerekir. Aşağıdaki kod parçacığı bunun nasıl yapılacağını gösterir:
+Başlamak için, Java için Aspose.HTML ile çalışmak için gerekli paketleri içe aktarmanız gerekir. Aşağıdaki kod parçacığı bunu nasıl yapacağınızı gösterir:
 
 ```java
 import com.aspose.html.HTMLDocument;
@@ -31,11 +31,11 @@ import com.aspose.html.drawing.Size;
 import com.aspose.html.rendering.PageSetup;
 ```
 
-Artık önkoşulları yerine getirdiğinize ve gerekli paketleri içe aktardığınıza göre, PDF sayfa boyutunu ayarlama sürecini birden fazla adıma ayıralım:
+Artık ön koşullara sahip olduğunuza ve gerekli paketleri içe aktardığınıza göre, PDF sayfa boyutunu ayarlama sürecini birden fazla adıma bölelim:
 
-## 1. Adım: HTML İçeriğini Okumak
+## Adım 1: HTML İçeriğini Okuma
 
-Öncelikle PDF'ye dönüştürmek istediğiniz HTML içeriğini okumanız gerekir. Bu örnekte HTML'yi "FirstFile.html" adlı bir dosyadan okuyacağız.
+Öncelikle, PDF'ye dönüştürmek istediğiniz HTML içeriğini okumanız gerekir. Bu örnekte, "FirstFile.html" adlı bir dosyadan HTML'yi okuyacağız.
 
 ```java
 try (java.io.FileInputStream fileInputStream = new java.io.FileInputStream(Resources.input("FirstFile.html"))) {
@@ -50,7 +50,7 @@ try (java.io.FileOutputStream fileOutputStream = new java.io.FileOutputStream(Re
     byte[] bytes = new byte[fileInputStream.available()];
     fileInputStream.read(bytes);
     fileOutputStream.write(bytes);
-    // Buraya özel HTML stilleri veya içeriği ekleyin
+    // Buraya özel HTML stilleri veya içerik ekleyin
     String style = "<style>\n" +
                    ".st\n" +
                    "{\n" +
@@ -67,22 +67,22 @@ try (java.io.FileOutputStream fileOutputStream = new java.io.FileOutputStream(Re
 }
 ```
 
-## 3. Adım: HTML'yi PDF'ye dönüştürme
+## Adım 3: HTML'yi PDF'ye dönüştürme
 
-Şimdi HTML içeriğini bir PDF dosyasına dönüştüreceksiniz. İki senaryoyu ele alacağız: Biri sayfa boyutunun içerik genişliğine göre ayarlanmadığı, diğeri ayarlandığı senaryo.
+Şimdi, HTML içeriğini bir PDF dosyasına dönüştüreceksiniz. İki senaryoyu ele alacağız: birincisi sayfa boyutunun içerik genişliğine göre ayarlanmadığı senaryo, diğeri ise ayarlandığı senaryo.
 
-### Sayfa Boyutu Ayarlanmadı
+### Sayfa Boyutu Ayarlanmamış
 
-Bu senaryoda sayfa boyutu sabit bir genişliğe ve yüksekliğe ayarlanmıştır; bu boyutların aşılması durumunda içerik kırpılabilir.
+Bu senaryoda sayfa boyutu sabit bir genişliğe ve yüksekliğe ayarlanır ve bu boyutları aşarsa içerik kırpılabilir.
 
 ```java
 String pdf_output;
 com.aspose.html.rendering.HtmlRenderer pdf_renderer = new com.aspose.html.rendering.HtmlRenderer();
 
-// HTML dosyasından bir HTMLDocument örneği oluşturma
+// HTML dosyasından bir HTMLDocument örneği oluşturun
 com.aspose.html.HTMLDocument html_document = new com.aspose.html.HTMLDocument(Resources.output("FirstFileOut.html"));
 
-// PDF oluşturma seçeneklerini ayarlama
+// PDF oluşturma seçeneklerini ayarlayın
 com.aspose.html.rendering.pdf.PdfRenderingOptions pdf_options = new com.aspose.html.rendering.pdf.PdfRenderingOptions();
 com.aspose.html.rendering.PageSetup pageSetup = new com.aspose.html.rendering.PageSetup();
 pageSetup.setAnyPage(new com.aspose.html.drawing.Page(new com.aspose.html.drawing.Size(100, 100)));
@@ -116,28 +116,28 @@ pdf_renderer.render(device, html_document);
 
 ## Çözüm
 
-Bu eğitimde Aspose.HTML for Java kullanarak HTML'yi PDF'ye dönüştürürken PDF sayfa boyutunun nasıl ayarlanacağını araştırdık. Bu görevi gerçekleştirmek için önkoşulları öğrendiniz, gerekli paketleri içe aktardınız ve adım adım kılavuzu izlediniz. Aspose.HTML for Java ile, oluşturduğunuz PDF'lerin sayfa boyutunu kolayca kontrol edebilir, içeriğinizin istediğiniz gibi görüntülendiğinden emin olabilirsiniz.
+Bu eğitimde, Aspose.HTML for Java kullanarak HTML'yi PDF'ye dönüştürürken PDF sayfa boyutunun nasıl ayarlanacağını inceledik. Ön koşulları öğrendiniz, gerekli paketleri içe aktardınız ve bu görevi başarmak için adım adım bir kılavuzu takip ettiniz. Aspose.HTML for Java ile, oluşturulan PDF'lerinizin sayfa boyutunu kolayca kontrol edebilir ve içeriğinizin amaçlandığı gibi görüntülenmesini sağlayabilirsiniz.
 
- Özel gereksinimlerinizi karşılamak için farklı sayfa boyutları ve ayarlarıyla denemeler yapmaktan çekinmeyin. Herhangi bir sorunla karşılaşırsanız veya başka sorularınız varsa, yardım istemekten çekinmeyin.[Java belgeleri için Aspose.HTML](https://reference.aspose.com/html/java/) ya da[Aspose destek forumu](https://forum.aspose.com/).
+ Belirli gereksinimlerinizi karşılamak için farklı sayfa boyutları ve ayarları denemekten çekinmeyin. Herhangi bir sorunla karşılaşırsanız veya başka sorularınız varsa, yardım istemekten çekinmeyin[Java için Aspose.HTML belgeleri](https://reference.aspose.com/html/java/) veya[Aspose destek forumu](https://forum.aspose.com/).
 
-## SSS'ler
+## SSS
 
 ### S1: Java için Aspose.HTML nedir?
 
-Cevap1: Aspose.HTML for Java, HTML belgeleriyle çalışmanıza, bunları değiştirmenize, dönüştürmenize ve PDF dahil çeşitli formatlara dönüştürmenize olanak tanıyan bir Java kitaplığıdır.
+A1: Java için Aspose.HTML, HTML belgeleriyle çalışmanıza, bunları düzenlemenize, dönüştürmenize ve PDF de dahil olmak üzere çeşitli biçimlere dönüştürmenize olanak tanıyan bir Java kütüphanesidir.
 
 ### S2: Aspose.HTML for Java ile HTML'yi PDF'ye dönüştürürken PDF sayfa boyutunu nasıl ayarlayabilirim?
 
- Cevap 2: PDF sayfa boyutunu, düğmesini kullanarak ayarlayabilirsiniz.`PageSetup` sınıf ve ayarlama`AdjustToWidestPage` mülkiyet`true` veya 'yanlış, gereksinimlerinize bağlı olarak.
+ A2: PDF sayfa boyutunu,`PageSetup` sınıf ve ayarlama`AdjustToWidestPage` mülk`true` veya ihtiyaçlarınıza bağlı olarak `false`.
 
-### S3: HTML içeriğinin stilini PDF'ye dönüştürmeden önce özelleştirebilir miyim?
+### S3: HTML içeriğini PDF'e dönüştürmeden önce stilini özelleştirebilir miyim?
 
-C3: Evet, öğreticide gösterildiği gibi, PDF'ye dönüştürmeden önce HTML içeriğinize CSS ve HTML öğeleri ekleyerek stili özelleştirebilirsiniz.
+C3: Evet, eğitimde gösterildiği gibi, HTML içeriğinizi PDF'e dönüştürmeden önce CSS ve HTML öğelerini ekleyerek stili özelleştirebilirsiniz.
 
-### S4: Aspose.HTML for Java belgelerini nerede bulabilirim?
+### S4: Java için Aspose.HTML belgelerini nerede bulabilirim?
 
  A4: Belgelere başvurabilirsiniz[Burada](https://reference.aspose.com/html/java/) Kapsamlı bilgi ve örnekler için.
 
-### S5: Aspose.HTML for Java'nın ücretsiz deneme sürümü mevcut mu?
+### S5: Aspose.HTML for Java için ücretsiz deneme sürümü mevcut mu?
 
- Cevap5: Evet, Aspose.HTML for Java'nın ücretsiz deneme sürümüne şu adresten erişebilirsiniz:[bu bağlantı](https://releases.aspose.com/).
+ C5: Evet, Java için Aspose.HTML'nin ücretsiz deneme sürümüne şu adresten erişebilirsiniz:[bu bağlantı](https://releases.aspose.com/).

@@ -60,7 +60,7 @@ using (var renderer = new MhtmlRenderer())
 
 ### 第 1 步：資料目錄設定
 
-在裡面`dataDir`變數，替換`"Your Data Directory"`以及 MHTML 文件所在目錄的路徑。
+在`dataDir`變數，替換`"Your Data Directory"`以及 MHTML 文件所在目錄的路徑。
 
 ### 步驟 2：開啟 MHTML 文件
 

@@ -1,24 +1,24 @@
 ---
 title: Utilizzo di modelli HTML in .NET con Aspose.HTML
 linktitle: Utilizzo di modelli HTML in .NET
-second_title: Aspose.HTML .NET API di manipolazione HTML
-description: Scopri come utilizzare Aspose.HTML per .NET per generare dinamicamente documenti HTML da dati JSON. Sfrutta la potenza della manipolazione HTML nelle tue applicazioni .NET.
+second_title: Aspose.HTML API di manipolazione HTML .NET
+description: Scopri come usare Aspose.HTML per .NET per generare dinamicamente documenti HTML da dati JSON. Sfrutta la potenza della manipolazione HTML nelle tue applicazioni .NET.
 type: docs
 weight: 17
 url: /it/net/advanced-features/using-html-templates/
 ---
 
-Se stai cercando di lavorare con documenti e modelli HTML nelle tue applicazioni .NET, sei nel posto giusto! Aspose.HTML per .NET è una libreria versatile che consente agli sviluppatori di manipolare documenti e modelli HTML senza sforzo. In questo tutorial, approfondiremo gli elementi essenziali dell'utilizzo di Aspose.HTML per .NET, suddividendo ogni passaggio e fornendo una spiegazione chiara lungo il percorso.
+Se stai cercando di lavorare con documenti e template HTML nelle tue applicazioni .NET, sei nel posto giusto! Aspose.HTML per .NET è una libreria versatile che consente agli sviluppatori di manipolare documenti e template HTML senza sforzo. In questo tutorial, approfondiremo gli elementi essenziali dell'utilizzo di Aspose.HTML per .NET, suddividendo ogni passaggio e fornendo una spiegazione chiara lungo il percorso.
 
 ## Prerequisiti
 
-Prima di immergerci nel nocciolo della questione di Aspose.HTML per .NET, assicurati di disporre dei seguenti prerequisiti:
+Prima di addentrarci nei dettagli di Aspose.HTML per .NET, assicurati di avere i seguenti prerequisiti:
 
 1. Visual Studio: assicurati di avere Visual Studio installato sul tuo computer. Puoi scaricarlo dal sito web se non lo hai già.
 
-2.  Aspose.HTML per .NET: è necessario che Aspose.HTML per .NET sia installato nel progetto Visual Studio. Puoi ottenerlo da[documentazione](https://reference.aspose.com/html/net/).
+2.  Aspose.HTML per .NET: devi avere Aspose.HTML per .NET installato nel tuo progetto Visual Studio. Puoi ottenerlo da[documentazione](https://reference.aspose.com/html/net/).
 
-3. Dati JSON: prepara un'origine dati JSON che desideri utilizzare per popolare il tuo modello HTML. Per questo tutorial utilizzeremo i seguenti dati JSON:
+3. Dati JSON: prepara una fonte dati JSON che vuoi usare per popolare il tuo modello HTML. Per questo tutorial, useremo i seguenti dati JSON:
 
 ```json
 {
@@ -32,7 +32,7 @@ Prima di immergerci nel nocciolo della questione di Aspose.HTML per .NET, assicu
 }
 ```
 
-4. Modello HTML: crea un modello HTML che desideri riempire con i dati JSON. Ecco un semplice esempio:
+4. Modello HTML: crea un modello HTML che vuoi riempire con i dati JSON. Ecco un semplice esempio:
 
 ```html
 <table border=1>
@@ -47,7 +47,7 @@ Prima di immergerci nel nocciolo della questione di Aspose.HTML per .NET, assicu
 </table>
 ```
 
-## Importazione di spazi dei nomi
+## Importazione di namespace
 
 Per prima cosa, importiamo gli spazi dei nomi necessari nel tuo progetto .NET:
 
@@ -56,11 +56,11 @@ using Aspose.Html.Converters;
 using Aspose.Html.Loading;
 ```
 
-Ora che abbiamo coperto i prerequisiti e importato gli spazi dei nomi richiesti, analizziamo ogni passaggio in dettaglio.
+Ora che abbiamo esaminato i prerequisiti e importato gli spazi dei nomi richiesti, analizziamo in dettaglio ogni passaggio.
 
 ## Passaggio 1: preparare un'origine dati JSON
 
-Inizia creando un'origine dati JSON che contenga le informazioni che desideri inserire nel tuo modello HTML. In questo esempio, abbiamo già preparato un'origine dati JSON come menzionato nei prerequisiti. Salvalo in un file, ad esempio "data-source.json".
+Inizia creando una sorgente dati JSON che contenga le informazioni che vuoi inserire nel tuo modello HTML. In questo esempio, abbiamo già preparato una sorgente dati JSON come menzionato nei prerequisiti. Salvala in un file, ad esempio, "data-source.json".
 
 ```csharp
 var data = @"{
@@ -79,7 +79,7 @@ Questo frammento di codice legge i dati JSON e li scrive in un file denominato "
 
 ## Passaggio 2: preparare un modello HTML
 
-Ora creiamo un modello HTML che desideri compilare con i dati JSON. Salva questo modello in un file, ad esempio "template.html".
+Ora, creiamo un modello HTML che vuoi popolare con i dati JSON. Salva questo modello in un file, come "template.html".
 
 ```csharp
 var template = @"
@@ -99,9 +99,9 @@ System.IO.File.WriteAllText("template.html", template);
 
  Questo modello HTML include segnaposto come`{{FirstName}}`, `{{LastName}}`, `{{Address.Street}}`, `{{Address.Number}}` E`{{Address.City}}`, che sostituiremo con i dati effettivi.
 
-## Passaggio 3: compila il modello HTML
+## Passaggio 3: popolare il modello HTML
 
- Infine, invoca il`Converter.ConvertTemplate` metodo per popolare il modello HTML con i dati dall'origine JSON.
+ Infine, invocare il`Converter.ConvertTemplate` Metodo per popolare il tuo modello HTML con i dati provenienti dalla sorgente JSON.
 
 ```csharp
 Aspose.Html.Converters.Converter.ConvertTemplate(
@@ -115,26 +115,26 @@ Congratulazioni! Hai sfruttato con successo la potenza di Aspose.HTML per .NET p
 
 ## Conclusione
 
-In questo tutorial, abbiamo esplorato i fondamenti dell'utilizzo di Aspose.HTML per .NET per creare documenti HTML in modo dinamico. Abbiamo trattato i prerequisiti, importato gli spazi dei nomi e analizzato ogni passaggio in dettaglio. Seguendo questi passaggi è possibile integrare perfettamente la generazione di documenti HTML nelle applicazioni .NET.
+In questo tutorial, abbiamo esplorato i fondamenti dell'uso di Aspose.HTML per .NET per creare documenti HTML in modo dinamico. Abbiamo trattato i prerequisiti, l'importazione di namespace e la suddivisione dettagliata di ogni passaggio. Seguendo questi passaggi, puoi integrare senza problemi la generazione di documenti HTML nelle tue applicazioni .NET.
 
 ## Domande frequenti
 
-### Q1. Cos'è Aspose.HTML per .NET?
+### D1. Che cos'è Aspose.HTML per .NET?
 
-A1: Aspose.HTML per .NET è una potente libreria che consente agli sviluppatori .NET di lavorare con documenti e modelli HTML a livello di codice. Semplifica attività come la generazione, la conversione e la manipolazione di HTML.
+A1: Aspose.HTML per .NET è una potente libreria che consente agli sviluppatori .NET di lavorare con documenti e template HTML a livello di programmazione. Semplifica attività come la generazione, la conversione e la manipolazione di HTML.
 
-### Q2. Dove posso trovare la documentazione per Aspose.HTML per .NET?
+### D2. Dove posso trovare la documentazione per Aspose.HTML per .NET?
 
- A2: è possibile accedere alla documentazione per Aspose.HTML per .NET[Qui](https://reference.aspose.com/html/net/). Fornisce informazioni complete, inclusi riferimenti API ed esempi di codice.
+ A2: Puoi accedere alla documentazione per Aspose.HTML per .NET[Qui](https://reference.aspose.com/html/net/)Fornisce informazioni complete, inclusi riferimenti API ed esempi di codice.
 
-### Q3. Come posso scaricare Aspose.HTML per .NET?
+### D3. Come posso scaricare Aspose.HTML per .NET?
 
-A3: È possibile scaricare Aspose.HTML per .NET dalla pagina di download[Qui](https://releases.aspose.com/html/net/).
+A3: Puoi scaricare Aspose.HTML per .NET dalla pagina di download[Qui](https://releases.aspose.com/html/net/).
 
-### Q4. È disponibile una prova gratuita per Aspose.HTML per .NET?
+### D4. È disponibile una versione di prova gratuita di Aspose.HTML per .NET?
 
  A4: Sì, puoi provare Aspose.HTML per .NET scaricando la versione di prova gratuita da[Qui](https://releases.aspose.com/).
 
-### Q5. Ho bisogno di una licenza temporanea per Aspose.HTML per .NET?
+### D5. Ho bisogno di una licenza temporanea per Aspose.HTML per .NET?
 
- R5: Se hai bisogno di una licenza temporanea a scopo di valutazione, puoi ottenerne una da[Qui](https://purchase.aspose.com/temporary-license/).
+ A5: Se hai bisogno di una licenza temporanea per scopi di valutazione, puoi ottenerne una da[Qui](https://purchase.aspose.com/temporary-license/).

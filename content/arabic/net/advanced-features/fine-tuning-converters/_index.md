@@ -1,7 +1,7 @@
 ---
-title: تحسين محولات الضبط في .NET باستخدام Aspose.HTML
-linktitle: محولات الضبط الدقيق في .NET
-second_title: Aspose.HTML .NET واجهة برمجة تطبيقات معالجة HTML
+title: ضبط المحولات بدقة في .NET باستخدام Aspose.HTML
+linktitle: ضبط المحولات بدقة في .NET
+second_title: Aspose.HTML .NET HTML manipulation API
 description: تعرف على كيفية تحويل HTML إلى PDF وXPS والصور باستخدام Aspose.HTML لـ .NET. برنامج تعليمي خطوة بخطوة مع أمثلة التعليمات البرمجية والأسئلة الشائعة.
 type: docs
 weight: 16
@@ -10,23 +10,23 @@ url: /ar/net/advanced-features/fine-tuning-converters/
 
 ## مقدمة
 
-Aspose.HTML for .NET هي مكتبة قوية تسمح للمطورين بمعالجة وتحويل مستندات HTML بتنسيقات مختلفة. سواء كنت بحاجة إلى تحويل HTML إلى PDF أو XPS أو صور، أو تنفيذ مهام أخرى متعلقة بـ HTML، فإن Aspose.HTML يوفر مجموعة قوية من الأدوات لمساعدتك في إنجاز المهمة.
+Aspose.HTML for .NET هي مكتبة قوية تتيح للمطورين التعامل مع مستندات HTML وتحويلها إلى تنسيقات مختلفة. سواء كنت بحاجة إلى تحويل HTML إلى PDF أو XPS أو صور، أو تنفيذ مهام أخرى متعلقة بـ HTML، فإن Aspose.HTML توفر مجموعة قوية من الأدوات لمساعدتك في إنجاز المهمة.
 
-في هذا البرنامج التعليمي، سوف نستكشف بعض الميزات الأساسية لـ Aspose.HTML for .NET ونقدم شرحًا خطوة بخطوة لكل مثال. بحلول نهاية هذا البرنامج التعليمي، سيكون لديك فهم قوي لكيفية استخدام Aspose.HTML لـ .NET في تطبيقات .NET الخاصة بك.
+في هذا البرنامج التعليمي، سنستكشف بعض الميزات الأساسية لـ Aspose.HTML for .NET وسنقدم شرحًا خطوة بخطوة لكل مثال. وبحلول نهاية هذا البرنامج التعليمي، ستكون لديك فكرة واضحة عن كيفية استخدام Aspose.HTML for .NET في تطبيقات .NET الخاصة بك.
 
 ## المتطلبات الأساسية
 
 قبل أن نتعمق في الأمثلة، تأكد من توفر المتطلبات الأساسية التالية:
 
--  Aspose.HTML لـ .NET: يجب أن تكون مكتبة Aspose.HTML لـ .NET مثبتة لديك. يمكنك تنزيله من[رابط التحميل](https://releases.aspose.com/html/net/).
+-  Aspose.HTML for .NET: يجب أن يكون لديك مكتبة Aspose.HTML for .NET مثبتة. يمكنك تنزيلها من[رابط التحميل](https://releases.aspose.com/html/net/).
 
-- الترخيص المؤقت (اختياري): إذا لم يكن لديك ترخيص صالح، يمكنك الحصول على ترخيص مؤقت من[هنا](https://purchase.aspose.com/temporary-license/).
+-  رخصة مؤقتة (اختياري): إذا لم يكن لديك ترخيص صالح، يمكنك الحصول على ترخيص مؤقت من[هنا](https://purchase.aspose.com/temporary-license/).
 
-الآن، دعنا نستكشف بعض حالات الاستخدام الشائعة مع Aspose.HTML لـ .NET.
+الآن، دعونا نستكشف بعض حالات الاستخدام الشائعة مع Aspose.HTML لـ .NET.
 
 ## استيراد مساحات الأسماء
 
-في كود C# الخاص بك، ابدأ باستيراد مساحات الأسماء الضرورية:
+في الكود C# الخاص بك، ابدأ باستيراد المساحات الأساسية الضرورية:
 
 ```csharp
 using Aspose.Html;
@@ -39,7 +39,7 @@ using Aspose.Html.Drawing;
 
 ## تحويل HTML إلى PDF
 
-### الخطوة 1: إعداد كود HTML
+### الخطوة 1: تحضير كود HTML
 
 ```csharp
 var code = @"<span>Hello World!!</span>";
@@ -57,7 +57,7 @@ using (var document = new HTMLDocument(code, "."))
 using (var device = new PdfDevice("output.pdf"))
 ```
 
-### الخطوة 4: تقديم HTML إلى PDF
+### الخطوة 4: تحويل HTML إلى PDF
 
 ```csharp
 document.RenderTo(device);
@@ -65,9 +65,9 @@ document.RenderTo(device);
 
 يقوم هذا المثال بتحويل مقتطف HTML إلى مستند PDF. يمكنك تخصيص كود HTML وملف الإخراج حسب الحاجة.
 
-## ضبط حجم الصفحة المخصص
+## تعيين حجم الصفحة المخصص
 
-### الخطوة 1: إعداد كود HTML
+### الخطوة 1: تحضير كود HTML
 
 ```csharp
 var code = @"<span>Hello World!!</span>";
@@ -100,17 +100,17 @@ var options = new PdfRenderingOptions()
 using (var device = new PdfDevice(options, "output.pdf"))
 ```
 
-### الخطوة 5: تقديم HTML إلى PDF
+### الخطوة 5: تحويل HTML إلى PDF
 
 ```csharp
 document.RenderTo(device);
 ```
 
-يوضح هذا المثال كيفية تعيين حجم صفحة مخصص لمستند PDF الناتج.
+يوضح هذا المثال كيفية تعيين حجم صفحة مخصص للمستند PDF الناتج.
 
-## ضبط القرار
+## ضبط الدقة
 
-### الخطوة 1: إعداد كود HTML وحفظه في الملف
+### الخطوة 1: تحضير كود HTML وحفظه في الملف
 
 ```csharp
 var code = @"
@@ -154,7 +154,7 @@ var options = new PdfRenderingOptions()
 using (var device = new PdfDevice(options, "output_resolution_50.pdf"))
 ```
 
-### الخطوة 5: تقديم HTML إلى PDF للحصول على دقة منخفضة
+### الخطوة 5: تحويل HTML إلى PDF للدقة المنخفضة
 
 ```csharp
 document.RenderTo(device);
@@ -176,17 +176,17 @@ options = new PdfRenderingOptions()
 using (var device = new PdfDevice(options, "output_resolution_300.pdf"))
 ```
 
-### الخطوة 8: تقديم HTML إلى PDF للحصول على دقة عالية
+### الخطوة 8: تحويل HTML إلى PDF للحصول على دقة عالية
 
 ```csharp
 document.RenderTo(device);
 ```
 
-يوضح هذا المثال كيفية ضبط الدقة عند تحويل HTML إلى PDF، مع الأخذ في الاعتبار الشاشات ذات الدقة المنخفضة والعالية.
+يوضح هذا المثال كيفية ضبط الدقة عند عرض HTML إلى PDF، مع الأخذ في الاعتبار الشاشات ذات الدقة المنخفضة والعالية.
 
 ## تحديد لون الخلفية
 
-### الخطوة 1: إعداد كود HTML وحفظه في الملف
+### الخطوة 1: تحضير كود HTML وحفظه في الملف
 
 ```csharp
 var code = @"<p>Hello World!!</p>";
@@ -214,7 +214,7 @@ var options = new PdfRenderingOptions()
 using (var device = new PdfDevice(options, "output.pdf"))
 ```
 
-### الخطوة 5: تقديم HTML إلى PDF
+### الخطوة 5: تحويل HTML إلى PDF
 
 ```csharp
 document.RenderTo(device);
@@ -222,9 +222,9 @@ document.RenderTo(device);
 
 يوضح هذا المثال كيفية تحديد لون الخلفية عند تحويل HTML إلى PDF.
 
-## تعيين أحجام الصفحة اليسرى واليمنى
+## تعيين أحجام الصفحات اليمنى واليسرى
 
-### الخطوة 1: إعداد كود HTML
+### الخطوة 1: تحضير كود HTML
 
 ```csharp
 var code = @"<style>div { page-break-after: always; }</style>
@@ -240,7 +240,7 @@ var code = @"<style>div { page-break-after: always; }</style>
 using (var document = new HTMLDocument(code, "."))
 ```
 
-### الخطوة 3: إنشاء خيارات عرض PDF بأحجام الصفحة اليسرى واليمنى
+### الخطوة 3: إنشاء خيارات عرض PDF باستخدام أحجام الصفحات اليمنى واليسرى
 
 ```csharp
 var options = new PdfRenderingOptions();
@@ -256,7 +256,7 @@ options.PageSetup.SetLeftRightPage(
 using (var device = new PdfDevice(options, "output.pdf"))
 ```
 
-### الخطوة 5: تقديم HTML إلى PDF
+### الخطوة 5: تحويل HTML إلى PDF
 
 ```csharp
 document.RenderTo(device);
@@ -264,9 +264,9 @@ document.RenderTo(device);
 
 يوضح هذا المثال كيفية تعيين أحجام مختلفة للصفحات اليمنى واليسرى عند تحويل HTML إلى PDF.
 
-## ضبط حجم الصفحة على المحتوى
+## ضبط حجم الصفحة حسب المحتوى
 
-### الخطوة 1: إعداد كود HTML
+### الخطوة 1: تحضير كود HTML
 
 ```csharp
 var code = @"<style>
@@ -296,17 +296,17 @@ options.PageSetup.AdjustToWidestPage = true;
 using (var device = new PdfDevice(options, "output.pdf"))
 ```
 
-### الخطوة 5: تقديم HTML إلى PDF
+### الخطوة 5: تحويل HTML إلى PDF
 
 ```csharp
 document.RenderTo(device);
 ```
 
-يوضح هذا المثال كيفية ضبط حجم الصفحة على المحتوى الأوسع عند تحويل HTML إلى PDF.
+يوضح هذا المثال كيفية ضبط حجم الصفحة لأوسع المحتوى عند تحويل HTML إلى PDF.
 
 ## تحديد أذونات PDF
 
-### الخطوة 1: إعداد كود HTML
+### الخطوة 1: تحضير كود HTML
 
 ```csharp
 var code = @"<div>Hello World!!</div>";
@@ -318,7 +318,7 @@ var code = @"<div>Hello World!!</div>";
 using (var document = new HTMLDocument(code, "."))
 ```
 
-### الخطوة 3: إنشاء خيارات عرض PDF مع الأذونات
+### الخطوة 3: إنشاء خيارات عرض PDF باستخدام الأذونات
 
 ```csharp
 var options = new PdfRenderingOptions();
@@ -336,7 +336,7 @@ options.Encryption = new PdfEncryptionInfo(
 using (var device = new PdfDevice(options, "output.pdf"))
 ```
 
-### الخطوة 5: تقديم HTML إلى PDF
+### الخطوة 5: تحويل HTML إلى PDF
 
 ```csharp
 document.RenderTo(device);
@@ -344,9 +344,9 @@ document.RenderTo(device);
 
 يوضح هذا المثال كيفية تحديد الأذونات والتشفير عند تحويل HTML إلى ملف PDF محمي.
 
-## حدد خيارات خاصة بالصورة
+## تحديد خيارات خاصة بالصورة
 
-### الخطوة 1: إعداد كود HTML
+### الخطوة 1: تحضير كود HTML
 
 ```csharp
 var code = @"<div>Hello World!!</div>";
@@ -370,23 +370,23 @@ var options = new ImageRenderingOptions()
 };
 ```
 
-### الخطوة 4: إنشاء جهاز صورة وتحديد الخيارات وملف الإخراج
+### الخطوة 4: إنشاء جهاز الصورة وتحديد الخيارات وملف الإخراج
 
 ```csharp
 using (var device = new ImageDevice(options, "output.jpg"))
 ```
 
-### الخطوة 5: تقديم HTML إلى الصورة
+### الخطوة 5: تحويل HTML إلى صورة
 
 ```csharp
 document.RenderTo(device);
 ```
 
-يوضح هذا المثال كيفية تحويل HTML إلى صورة باستخدام خيارات عرض محددة، مثل التنسيق والدقة ووضع التجانس.
+يوضح هذا المثال كيفية تحويل HTML إلى صورة باستخدام خيارات عرض محددة، مثل التنسيق والدقة ووضع التنعيم.
 
-## حدد خيارات عرض XPS
+## تحديد خيارات عرض XPS
 
-### الخطوة 1: إعداد كود HTML
+### الخطوة 1: تحضير كود HTML
 
 ```csharp
 var code = @"<span>Hello World!!</span>";
@@ -398,7 +398,7 @@ var code = @"<span>Hello World!!</span>";
 using (var document = new HTMLDocument(code, "."))
 ```
 
-### الخطوة 3: إنشاء خيارات عرض XPS بحجم الصفحة
+### الخطوة 3: إنشاء خيارات عرض XPS باستخدام حجم الصفحة
 
 ```csharp
 var options = new XpsRenderingOptions();
@@ -416,7 +416,7 @@ options.PageSetup.AnyPage = new Page(
 using (var device = new XpsDevice(options, "output.xps"))
 ```
 
-### الخطوة 5: تقديم HTML إلى XPS
+### الخطوة 5: تحويل HTML إلى XPS
 
 ```csharp
 document.RenderTo(device);
@@ -424,7 +424,7 @@ document.RenderTo(device);
 
 يوضح هذا المثال كيفية تحويل HTML إلى XPS باستخدام حجم الصفحة المخصص وخيارات العرض.
 
-## دمج مستندات HTML المتعددة في PDF
+## دمج مستندات HTML متعددة في PDF
 
 ### الخطوة 1: إعداد كود HTML لمستندات متعددة
 
@@ -442,13 +442,13 @@ using (var document2 = new HTMLDocument(code2, "."))
 using (var document3 = new HTMLDocument(code3, "."))
 ```
 
-### الخطوة 3: تهيئة عارض HTML
+### الخطوة 3: تهيئة مُقدم HTML
 
 ```csharp
 using (HTMLRenderer renderer = new HTMLRenderer())
 ```
 
-### الخطوة 4: إنشاء جهاز PDF للمخرجات المدمجة
+### الخطوة 4: إنشاء جهاز PDF للإخراج المدمج
 
 ```csharp
 using (var device = new PdfDevice("output.pdf"))
@@ -462,9 +462,9 @@ renderer.Render(device, document1, document2, document3);
 
 يوضح هذا المثال كيفية دمج مستندات HTML متعددة في ملف PDF واحد باستخدام Aspose.HTML لـ .NET.
 
-## قم بتعيين مهلة العرض
+## تعيين مهلة العرض
 
-### الخطوة 1: إعداد تعليمات HTML البرمجية باستخدام JavaScript
+### الخطوة 1: تحضير كود HTML باستخدام JavaScript
 
 ```csharp
 var code = @"
@@ -487,7 +487,7 @@ var code = @"
 using (var document = new HTMLDocument(code, "."))
 ```
 
-### الخطوة 3: تهيئة عارض HTML
+### الخطوة 3: تهيئة مُقدم HTML
 
 ```csharp
 using (HTMLRenderer renderer = new HTMLRenderer())
@@ -499,37 +499,37 @@ using (HTMLRenderer renderer = new HTMLRenderer())
 using (var device = new PdfDevice("output.pdf"))
 ```
 
-### الخطوة 5: تحويل HTML إلى PDF مع انتهاء المهلة
+### الخطوة 5: تحويل HTML إلى PDF باستخدام مهلة زمنية
 
 ```csharp
 renderer.Render(device, TimeSpan.FromSeconds(5), document);
 ```
 
-يوضح هذا المثال كيفية تعيين مهلة العرض عند تحويل HTML إلى PDF، وهو ما يمكن أن يكون مفيدًا عند التعامل مع محتوى ديناميكي أو نصوص برمجية طويلة التشغيل.
+يوضح هذا المثال كيفية تعيين مهلة عرض عند تحويل HTML إلى PDF، وهو أمر قد يكون مفيدًا عند التعامل مع محتوى ديناميكي أو نصوص برمجية طويلة الأمد.
 
 ## خاتمة
 
-Aspose.HTML for .NET هي مكتبة متعددة الاستخدامات تمكن المطورين من العمل مع مستندات HTML بكفاءة. في هذا البرنامج التعليمي، قمنا بتغطية أمثلة مختلفة، بدءًا من تحويلات HTML الأساسية إلى PDF إلى ميزات أكثر تقدمًا مثل أحجام الصفحات المخصصة ودرجات الدقة والأذونات. باتباع هذه الأمثلة، يمكنك الاستفادة من الإمكانات الكاملة لـ Aspose.HTML لـ .NET في تطبيقات .NET الخاصة بك.
+Aspose.HTML for .NET هي مكتبة متعددة الاستخدامات تمكن المطورين من العمل مع مستندات HTML بكفاءة. في هذا البرنامج التعليمي، قمنا بتغطية أمثلة مختلفة، من التحويلات الأساسية من HTML إلى PDF إلى ميزات أكثر تقدمًا مثل أحجام الصفحات المخصصة والدقة والأذونات. باتباع هذه الأمثلة، يمكنك الاستفادة من الإمكانات الكاملة لـ Aspose.HTML for .NET في تطبيقات .NET الخاصة بك.
 
- إذا كان لديك أي أسئلة أو كنت بحاجة إلى مزيد من المساعدة، فلا تتردد في زيارة[منتدى Aspose.HTML](https://forum.aspose.com/) للدعم والتوجيه.
+ إذا كان لديك أي أسئلة أو تحتاج إلى مزيد من المساعدة، فلا تتردد في زيارة[منتدى Aspose.HTML](https://forum.aspose.com/) للحصول على الدعم والتوجيه.
 
 ## الأسئلة الشائعة
 
 ### س1. ما هو Aspose.HTML لـ .NET؟
    
-A1: Aspose.HTML for .NET عبارة عن مكتبة .NET تمكن المطورين من معالجة مستندات HTML وتحويلها برمجيًا. فهو يوفر نطاقًا واسعًا من الميزات للعمل مع محتوى HTML، بما في ذلك HTML إلى PDF وXPS وتحويل الصور، بالإضافة إلى خيارات العرض المتقدمة.
+A1: Aspose.HTML for .NET هي مكتبة .NET تتيح للمطورين التعامل مع مستندات HTML وتحويلها برمجيًا. وهي توفر مجموعة واسعة من الميزات للعمل مع محتوى HTML، بما في ذلك تحويل HTML إلى PDF وXPS وتحويل الصور، بالإضافة إلى خيارات العرض المتقدمة.
 
 ### س2. أين يمكنني تنزيل Aspose.HTML لـ .NET؟
 
- ج٢: يمكنك تنزيل Aspose.HTML لـ .NET من ملف[رابط التحميل](https://releases.aspose.com/html/net/).
+ A2: يمكنك تنزيل Aspose.HTML لـ .NET من[رابط التحميل](https://releases.aspose.com/html/net/).
 
 ### س3. هل أحتاج إلى ترخيص لاستخدام Aspose.HTML لـ .NET؟
 
-ج3: بينما يمكنك استخدام Aspose.HTML لـ .NET بدون ترخيص، فمن المستحسن الحصول على ترخيص للاستخدام الإنتاجي لفتح كافة الميزات وإزالة أي علامات مائية أو قيود.
+ج3: على الرغم من أنه يمكنك استخدام Aspose.HTML لـ .NET بدون ترخيص، فمن المستحسن الحصول على ترخيص للاستخدام الإنتاجي لفتح جميع الميزات وإزالة أي علامات مائية أو قيود.
 
-### س 4. كيف يمكنني حماية ملفات PDF الخاصة بي التي تم إنشاؤها باستخدام Aspose.HTML لـ .NET؟
+### س4. كيف يمكنني حماية ملفات PDF التي تم إنشاؤها باستخدام Aspose.HTML لـ .NET؟
 
-ج4: يمكنك تحديد أذونات PDF وإعدادات التشفير عند تحويل HTML إلى PDF باستخدام Aspose.HTML لـ .NET. يتيح لك ذلك التحكم في من يمكنه الوصول إلى ملفات PDF الناتجة وتعديلها.
+ج4: يمكنك تحديد أذونات PDF وإعدادات التشفير عند عرض HTML إلى PDF باستخدام Aspose.HTML for .NET. يتيح لك هذا التحكم في من يمكنه الوصول إلى ملفات PDF الناتجة وتعديلها.
 
 ### س5. هل يمكنني تحويل HTML إلى تنسيقات أخرى مثل XPS أو الصور؟
 

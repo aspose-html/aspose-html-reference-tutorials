@@ -10,7 +10,7 @@ url: /hu/net/html-extensions-and-conversions/convert-html-to-markdown/
 
 ## Bevezetés
 
-mai digitális korban a webes tartalom létfontosságú, csakúgy, mint a hatékony manipulálás és konvertálás képessége. Az Aspose.HTML for .NET egy hatékony könyvtár, amely leegyszerűsíti a HTML-dokumentumok feldolgozását, lehetővé téve a HTML-tartalom könnyű konvertálását különböző formátumokba. Ez a részletes útmutató végigvezeti az Aspose.HTML for .NET használatán a HTML Markdown formátumba konvertálásához.
+mai digitális korban a webes tartalom létfontosságú, csakúgy, mint a hatékony manipulálás és konvertálás képessége. Az Aspose.HTML for .NET egy hatékony könyvtár, amely leegyszerűsíti a HTML-dokumentumok feldolgozását, lehetővé téve a HTML-tartalom egyszerű konvertálását különféle formátumokba. Ez a részletes útmutató végigvezeti az Aspose.HTML for .NET használatán a HTML Markdown formátumba konvertálásához.
 
 ## Előfeltételek
 
@@ -59,7 +59,7 @@ using (var document = new Aspose.Html.HTMLDocument("<p>my first paragraph</p>" +
 document.Save(dataDir + "Markdown.md", Saving.HTMLSaveFormat.Markdown);
 ```
 
-Gratulálunk! Sikeresen konvertált egy HTML-dokumentumot Markdown formátumba az Aspose.HTML for .NET használatával.
+Gratulálok! Sikeresen konvertált egy HTML-dokumentumot Markdown formátumba az Aspose.HTML for .NET használatával.
 
 ## Határozza meg a leértékelési konverziós szabályokat
 

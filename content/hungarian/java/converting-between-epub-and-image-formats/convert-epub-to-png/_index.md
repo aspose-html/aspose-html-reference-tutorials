@@ -56,7 +56,7 @@ ImageSaveOptions options = new ImageSaveOptions(ImageFormat.Png);
 Converter.convertEPUB(fileInputStream, options, "output.png");
 ```
 
-Ez az! Sikeresen konvertált egy EPUB-fájlt PNG-képpé az Aspose.HTML for Java használatával. A konvertált PNG-fájlt a projektkönyvtárban találja.
+Ennyi! Sikeresen konvertált egy EPUB-fájlt PNG-képpé az Aspose.HTML for Java használatával. A konvertált PNG-fájlt a projektkönyvtárban találja.
 
 ## Következtetés
  Az Aspos.HTML for Java hatékony és egyszerű módot biztosít az EPUB-fájlok PNG-képekké konvertálására. Az alábbi lépések követésével zökkenőmentesen integrálhatja ezt a funkciót Java-alkalmazásaiba. Ha bármilyen problémába ütközik, vagy kérdése van, keresse fel az Aspose.HTML fórumot támogatásért:[Aspose.HTML fórum](https://forum.aspose.com/).

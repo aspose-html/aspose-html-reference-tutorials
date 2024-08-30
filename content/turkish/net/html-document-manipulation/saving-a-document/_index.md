@@ -1,44 +1,44 @@
 ---
-title: Aspose.HTML ile Bir Belgeyi .NET'e Kaydetmek
-linktitle: .NET'te Belge Kaydetme
+title: Aspose.HTML ile .NET'te Bir Belgeyi Kaydetme
+linktitle: .NET'te Bir Belgeyi Kaydetme
 second_title: Aspose.HTML .NET HTML işleme API'si
-description: Adım adım kılavuzumuzla Aspose.HTML for .NET'in gücünün kilidini açın. HTML ve SVG belgelerini oluşturmayı, değiştirmeyi ve dönüştürmeyi öğrenin
+description: Adım adım kılavuzumuzla .NET için Aspose.HTML'nin gücünü açığa çıkarın. HTML ve SVG belgeleri oluşturmayı, düzenlemeyi ve dönüştürmeyi öğrenin
 type: docs
 weight: 16
 url: /tr/net/html-document-manipulation/saving-a-document/
 ---
 
-Günümüzün dijital çağında, HTML ve SVG belgelerini oluşturmak ve değiştirmek birçok yazılım geliştiricisi ve işletme için çok önemlidir. Aspose.HTML for .NET, HTML, SVG ve daha fazlasıyla çalışmak için çeşitli işlevler sunan, bu görevleri basitleştiren güçlü bir kütüphanedir. Bu kapsamlı kılavuzda Aspose.HTML for .NET'in temellerini inceleyeceğiz ve her örneği takip edilmesi kolay adımlara ayıracağız. İster deneyimli bir geliştirici olun ister yeni başlıyor olun, Aspose.HTML'nin yeteneklerinden yararlanmak için bu kılavuzun çok değerli olduğunu göreceksiniz.
+Günümüzün dijital çağında, HTML ve SVG belgeleri oluşturmak ve düzenlemek birçok yazılım geliştiricisi ve işletmesi için olmazsa olmazdır. Aspose.HTML for .NET, bu görevleri basitleştiren, HTML, SVG ve daha fazlasıyla çalışmak için çeşitli işlevler sunan güçlü bir kütüphanedir. Bu kapsamlı kılavuzda, Aspose.HTML for .NET'in temellerine dalacağız ve her örneği kolayca takip edilebilen adımlara ayıracağız. İster deneyimli bir geliştirici olun, ister yeni başlıyor olun, bu kılavuzu Aspose.HTML'in yeteneklerinden yararlanmak için paha biçilmez bulacaksınız.
 
-## Önkoşullar
+## Ön koşullar
 
 Bu yolculuğa çıkmadan önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
-- Geliştirme Ortamı: Bilgisayarınızda Visual Studio'nun veya başka bir .NET geliştirme ortamının kurulu olduğundan emin olun.
+- Geliştirme Ortamı: Bilgisayarınızda Visual Studio veya başka bir .NET geliştirme ortamının yüklü olduğundan emin olun.
 
-- Aspose.HTML for .NET: Aspose.HTML for .NET kitaplığını edinmeniz gerekir. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/html/net/).
+- .NET için Aspose.HTML: .NET için Aspose.HTML kütüphanesini edinmeniz gerekir. Bunu şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/html/net/).
 
-- C# Bilgisi: C# programlama diline aşinalık faydalıdır ancak zorunlu değildir. Bu kılavuz yeni başlayanlar için uygun olacak şekilde tasarlanmıştır.
+- C# Bilgisi: C# programlama diline aşinalık faydalıdır ancak zorunlu değildir. Bu kılavuz yeni başlayanlar için uygundur.
 
 ## Ad Alanını İçe Aktar
 
-Aspose.HTML for .NET'i kullanmaya başlamak için gerekli ad alanlarını projenize aktarmanız gerekir. C# kodunuzda aşağıdaki ad alanını ekleyin:
+.NET için Aspose.HTML kullanmaya başlamak için, gerekli ad alanlarını projenize aktarmanız gerekir. C# kodunuzda, aşağıdaki ad alanını ekleyin:
 
-### Adım 1: Aspose.HTML Ad Alanını İçe Aktarın
+### Adım 1: Aspose.HTML Ad Alanını İçe Aktar
 ```csharp
 using Aspose.Html;
 ```
 
-Bu ad alanı, çeşitli HTML ve SVG işleme yeteneklerine erişmenizi sağlayacaktır.
+Bu ad alanı size çeşitli HTML ve SVG düzenleme yeteneklerine erişim imkanı verecektir.
 
-## HTML'yi Dosyaya Dönüştürmek
+## HTML'den Dosyaya
 
-### 1. Adım: Boş bir HTML Belgesini Başlatın
+### Adım 1: Boş bir HTML Belgesi Başlatın
 ```csharp
-// Boş bir HTML Belgesini başlatın.
+// Boş bir HTML Belgesi başlatın.
 using (var document = new Aspose.Html.HTMLDocument())
 {
-    // Bir metin öğesi oluşturun ve onu belgeye ekleyin
+    // Bir metin öğesi oluşturun ve bunu belgeye ekleyin
     var text = document.CreateTextNode("Hello World!");
     document.Body.AppendChild(text);
     // HTML'yi diskteki dosyaya kaydedin.
@@ -46,44 +46,44 @@ using (var document = new Aspose.Html.HTMLDocument())
 }
 ```
 
-Bu örnekte bir HTML belgesi oluşturup basit bir "Merhaba Dünya!" ekliyoruz. ona mesaj at. Daha sonra HTML'yi diskteki bir dosyaya kaydediyoruz.
+Bu örnekte, bir HTML belgesi oluşturuyoruz ve ona basit bir "Hello World!" metni ekliyoruz. Daha sonra HTML'yi diskteki bir dosyaya kaydediyoruz.
 
 ## Bağlantılı Dosya Olmadan HTML
 
-### Adım 1: Basit Bir HTML Dosyası Hazırlayın
+### Adım 1: Basit bir HTML Dosyası Hazırlayın
 ```csharp
 System.IO.File.WriteAllText("document.html", "<p>Hello World!</p>" +
                                              "<a href='linked.html'>linked file</a>");
 ```
 
-Burada, başka bir dosyaya bağlantı bağlantısı içeren temel bir HTML dosyası oluşturuyoruz.
+Burada, başka bir dosyaya bağlantı veren basit bir HTML dosyası oluşturuyoruz.
 
-### Adım 2: 'document.html'yi Belleğe yükleyin
+### Adım 2: 'document.html'yi Belleğe Yükleyin
 ```csharp
 using (var document = new Aspose.Html.HTMLDocument("document.html"))
 {
-    // Kaydetme Seçenekleri örneği oluştur
+    // Kaydetme Seçenekleri örneğini oluştur
     var options = new Aspose.Html.Saving.HTMLSaveOptions();
-    //Bağlantılı HTML dosyalarını kesmek için maksimum işleme derinliğini 0'a ayarlayın.
+    //Bağlantılı HTML dosyalarını kesmek için maksimum işleme derinliğini 0 olarak ayarlayın.
     options.ResourceHandlingOptions.MaxHandlingDepth = 0;
     // Belgeyi kaydet
     document.Save(@".\html-to-file-example\document.html", options);
 }
 ```
 
-Bu örnekte, belleğe bir HTML belgesi yüklüyoruz, bağlantılı dosyaları kesmek için maksimum işleme derinliğini ayarlıyoruz ve belgeyi kaydediyoruz. 
+Bu örnekte, bir HTML belgesini belleğe yüklüyoruz, bağlantılı dosyaları kesmek için maksimum işleme derinliğini ayarlıyoruz ve belgeyi kaydediyoruz. 
 
-## HTML'den MHTML'ye
+## HTML'den MHTML'e
 
-### Adım 1: Basit Bir HTML Dosyası Hazırlayın
+### Adım 1: Basit bir HTML Dosyası Hazırlayın
 ```csharp
 System.IO.File.WriteAllText("document.html", "<p>Hello World!</p>" +
                                              "<a href='linked.html'>linked file</a>");
 ```
 
-Örnek 2'deki gibi, başka bir dosyaya bağlantı bağlantısı içeren temel bir HTML dosyası oluşturuyoruz.
+Örnek 2'deki gibi, başka bir dosyaya bağlantı veren basit bir HTML dosyası oluşturuyoruz.
 
-### Adım 2: 'document.html'yi Belleğe yükleyin ve MHTML olarak kaydedin
+### Adım 2: 'document.html' dosyasını Belleğe yükleyin ve MHTML olarak kaydedin
 ```csharp
 using (var document = new Aspose.Html.HTMLDocument("document.html"))
 {
@@ -92,7 +92,7 @@ using (var document = new Aspose.Html.HTMLDocument("document.html"))
 }
 ```
 
-Burada HTML belgesini belleğe yükleyip MHTML formatında kaydediyoruz.
+Burada HTML dokümanını belleğe yükleyip MHTML formatında kaydediyoruz.
 
 ## HTML'den Markdown'a
 
@@ -101,7 +101,7 @@ Burada HTML belgesini belleğe yükleyip MHTML formatında kaydediyoruz.
 var html_code = "<H2>Hello World!</H2>";
 ```
 
- Bu adımda, aşağıdakileri içeren bir HTML kod pasajını tanımlarız:`<H2>` eleman.
+ Bu adımda, bir HTML kod parçacığı tanımlıyoruz.`<H2>` öğe.
 
 ### Adım 2: Belgeyi HTML Kodundan Başlatın ve Markdown Olarak Kaydedin
 ```csharp
@@ -112,14 +112,14 @@ using (var document = new Aspose.Html.HTMLDocument(html_code, "."))
 }
 ```
 
-Kod pasajından bir HTML belgesi oluşturup bunu Markdown dosyası olarak kaydediyoruz.
+Kod parçacığından bir HTML belgesi oluşturup bunu Markdown dosyası olarak kaydediyoruz.
 
-## Dosyaya SVG
+## SVG'yi Dosyaya Dönüştür
 
-### 1. Adım: Bir SVG Kodu Hazırlayın
+### Adım 1: Bir SVG Kodu Hazırlayın
 ```csharp
 var code = @"
-    <svg xmlns='http://www.w3.org/2000/svg' height='80' width='300'>
+    <svg xmlns='http://www.w3.org/2000/svg' yükseklik='80' genişlik='300'>
         <g fill='none'>
             <path stroke='red' d='M5 20 l215 0' />
             <path stroke='black' d='M5 40 l215 0' />
@@ -128,9 +128,9 @@ var code = @"
     </svg>";
 ```
 
-Burada basit, renkli bir grafik çizen bir SVG kodu oluşturuyoruz.
+Burada basit ve renkli bir grafik çizen bir SVG kodu oluşturuyoruz.
 
-### Adım 2: Koddan bir SVG Belgesini Başlatın ve Diske Kaydedin
+### Adım 2: Koddan bir SVG Belgesi Başlatın ve Diske Kaydedin
 ```csharp
 using (var document = new Aspose.Html.Dom.Svg.SVGDocument(code, "."))
 {
@@ -143,26 +143,26 @@ Bu adımda koddan bir SVG belgesi oluşturup bunu SVG dosyası olarak kaydediyor
 
 ## Çözüm
 
-Aspose.HTML for .NET, .NET uygulamalarınızda HTML ve SVG belge işlemeyi kolaylaştıran çok yönlü bir kütüphanedir. Bu kılavuzda, her birini adım adım talimatlara ayırarak beş temel örneği ele aldık. Belgeleri oluşturuyor, değiştiriyor veya dönüştürüyorsanız Aspose.HTML yanınızdadır. Bu adımları izleyerek bu güçlü araçta uzmanlaşma yolunda emin adımlarla ilerliyorsunuz.
+.NET için Aspose.HTML, .NET uygulamalarınızda HTML ve SVG belge işlemeyi basitleştiren çok yönlü bir kütüphanedir. Bu kılavuzda, her birini adım adım talimatlara ayırarak beş temel örneği ele aldık. Belgeleri oluşturuyor, işliyor veya dönüştürüyor olun, Aspose.HTML sizi korur. Bu adımları izleyerek, bu güçlü aracı ustalıkla kullanma yolunda iyi bir mesafe kat etmiş olursunuz.
 
-## SSS'ler
+## SSS
 
-### S1: Aspose.HTML for .NET nedir?
+### S1: .NET için Aspose.HTML nedir?
 
-Cevap1: Aspose.HTML for .NET, HTML ve SVG belgeleriyle çalışmak için oluşturma, değiştirme ve dönüştürme de dahil olmak üzere çok çeşitli özellikler sağlayan bir .NET kitaplığıdır.
+A1: Aspose.HTML for .NET, HTML ve SVG belgeleriyle çalışmak için oluşturma, düzenleme ve dönüştürme dahil olmak üzere çok çeşitli özellikler sağlayan bir .NET kütüphanesidir.
 
 ### S2: Aspose.HTML for .NET'i nereden indirebilirim?
 
- Cevap2: Aspose.HTML for .NET'i şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/html/net/).
+ A2: .NET için Aspose.HTML'yi şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/html/net/).
 
-### S3: Aspose.HTML for .NET yeni başlayanlar için uygun mu?
+### S3: Aspose.HTML for .NET yeni başlayanlar için uygun mudur?
 
-Cevap3: Evet, Aspose.HTML for .NET hem yeni başlayanlar hem de deneyimli geliştiriciler tarafından kullanılabilir. Bu kılavuzdaki örnekler yeni başlayanlara uygun olacak şekilde tasarlanmıştır.
+C3: Evet, Aspose.HTML for .NET hem yeni başlayanlar hem de deneyimli geliştiriciler tarafından kullanılabilir. Bu kılavuzdaki örnekler yeni başlayanlar için uygun olacak şekilde tasarlanmıştır.
 
-### S4: Aspose.HTML for .NET'i kullanarak HTML'yi diğer formatlara dönüştürebilir miyim?
+### S4: Aspose.HTML for .NET kullanarak HTML'yi diğer formatlara dönüştürebilir miyim?
 
-Cevap4: Evet, Aspose.HTML for .NET, örneklerde gösterildiği gibi MHTML ve Markdown da dahil olmak üzere çeşitli formatlara dönüştürmeyi destekler.
+C4: Evet, Aspose.HTML for .NET, örneklerde gösterildiği gibi MHTML ve Markdown dahil olmak üzere çeşitli biçimlere dönüştürmeyi destekler.
 
-### S5: Aspose.HTML for .NET desteğini nereden alabilirim?
+### S5: Aspose.HTML for .NET için desteği nereden alabilirim?
 
- Cevap5: Aspose.HTML topluluk forumunda destek ve sorularınızın yanıtlarını bulabilirsiniz.[Burada](https://forum.aspose.com/).
+ A5: Aspose.HTML topluluk forumunda destek ve sorularınızın yanıtlarını bulabilirsiniz[Burada](https://forum.aspose.com/).

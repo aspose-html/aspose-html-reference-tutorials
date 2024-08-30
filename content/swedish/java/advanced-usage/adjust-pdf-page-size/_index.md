@@ -140,4 +140,4 @@ S3: Ja, du kan anpassa stilen genom att lägga till CSS- och HTML-element i ditt
 
 ### F5: Finns det en gratis testversion tillgänglig för Aspose.HTML för Java?
 
- S5: Ja, du kan få tillgång till en gratis testversion av Aspose.HTML för Java från[den här länken](https://releases.aspose.com/).
+ S5: Ja, du kan få tillgång till en gratis testversion av Aspose.HTML för Java från[denna länk](https://releases.aspose.com/).

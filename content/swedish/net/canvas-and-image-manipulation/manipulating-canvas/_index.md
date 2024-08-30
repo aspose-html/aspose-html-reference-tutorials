@@ -17,7 +17,7 @@ Innan vi börjar använda Aspose.HTML för .NET måste du se till att du har fö
 
 1. Visual Studio: Se till att du har Visual Studio installerat på ditt system.
 
-2.  Aspose.HTML for .NET Library: Ladda ner Aspose.HTML for .NET-biblioteket från[hemsida](https://releases.aspose.com/html/net/).
+2.  Aspose.HTML for .NET Library: Ladda ner Aspose.HTML for .NET-biblioteket från[webbplats](https://releases.aspose.com/html/net/).
 
 3. .NET Framework: Se till att du har .NET Framework installerat på ditt system.
 
@@ -122,7 +122,7 @@ S2: Ja, Aspose.HTML för .NET kan användas i olika miljöer, inklusive Windows 
 
 ### F3: Finns det några licensalternativ tillgängliga för Aspose.HTML för .NET?
 
- S3: Ja, du kan utforska licensalternativ, inklusive gratis provperioder och tillfälliga licenser, på[hemsida](https://purchase.aspose.com/buy).
+ S3: Ja, du kan utforska licensalternativ, inklusive gratis provperioder och tillfälliga licenser, på[webbplats](https://purchase.aspose.com/buy).
 
 ### F4: Var kan jag hitta fler handledningar och stöd för Aspose.HTML för .NET?
 

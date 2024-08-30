@@ -16,7 +16,7 @@ Než se vydáte na tuto cestu, ujistěte se, že máte splněny následující p
 
 1. Visual Studio: Ujistěte se, že máte v systému nainstalované Visual Studio.
 
-2.  Aspose.HTML for .NET: Stáhněte a nainstalujte knihovnu Aspose.HTML for .NET. Odkaz ke stažení najdete[tady](https://releases.aspose.com/html/net/).
+2. Aspose.HTML for .NET: Stáhněte a nainstalujte knihovnu Aspose.HTML for .NET. Odkaz ke stažení najdete[zde](https://releases.aspose.com/html/net/).
 
 3. Základní znalost C#: Seznamte se se základy programovacího jazyka C#.
 
@@ -43,7 +43,7 @@ static void CreateSVG()
 }
 ```
 
- V tomto příkladu vytvoříme dokument SVG poskytnutím obsahu SVG a základní adresy URL. The`SVGDocument`třída z Aspose.HTML pro .NET vám umožňuje bez námahy manipulovat s dokumenty SVG.
+ V tomto příkladu vytvoříme dokument SVG poskytnutím obsahu SVG a základní adresy URL. The`SVGDocument` třída z Aspose.HTML pro .NET vám umožňuje bez námahy manipulovat s dokumenty SVG.
 
 ## Vytvoření dokumentu HTML od nuly
 
@@ -57,7 +57,7 @@ static void FromScratch()
 }
 ```
 
- Tento příklad ukazuje, jak vytvořit dokument HTML od začátku. The`HTMLDocument` class poskytuje prázdné plátno pro váš obsah HTML.
+ Tento příklad ukazuje, jak vytvořit dokument HTML od začátku. The`HTMLDocument`class poskytuje prázdné plátno pro váš obsah HTML.
 
 ## Vytvoření dokumentu HTML z místního souboru
 
@@ -135,7 +135,7 @@ static void FromStream()
 }
 ```
 
-V tomto příkladu si ukážeme, jak vytvořit dokument HTML z dat v toku paměti. To může být užitečné, když máte ve streamu obsah HTML a chcete s ním manipulovat.
+tomto příkladu si ukážeme, jak vytvořit dokument HTML z dat v toku paměti. To může být užitečné, když máte ve streamu obsah HTML a chcete s ním manipulovat.
 
 ## Závěr
 
@@ -149,10 +149,10 @@ Aspose.HTML for .NET poskytuje výkonnou sadu nástrojů pro vytváření a prá
  Odpověď 1: Aspose.HTML for .NET nabízí bezplatnou zkušební verzi, ale pro plné využití si budete muset zakoupit licenci. Více podrobností najdete na[https://purchase.aspose.com/buy](https://purchase.aspose.com/buy).
 
 ### Q2: Jak mohu získat dočasnou licenci pro Aspose.HTML pro .NET?
-A2: Pokud potřebujete dočasnou licenci, můžete ji získat na[https://purchase.aspose.com/temporary-license/](https://purchase.aspose.com/temporary-license/).
+ A2: Pokud potřebujete dočasnou licenci, můžete ji získat na[https://purchase.aspose.com/temporary-license/](https://purchase.aspose.com/temporary-license/).
 
 ### Q3: Kde najdu dokumentaci pro Aspose.HTML pro .NET?
- A3: Dokumentaci lze nalézt na[https://reference.aspose.com/html/net/](https://reference.aspose.com/html/net/).
+A3: Dokumentaci lze nalézt na[https://reference.aspose.com/html/net/](https://reference.aspose.com/html/net/).
 
 ### Q4: Existují nějaké další knihovny Aspose pro vývoj .NET?
  Odpověď 4: Ano, Aspose poskytuje řadu knihoven pro různé formáty souborů a úlohy manipulace s dokumenty. Podívejte se na jejich nabídku na[https://products.aspose.com/](https://products.aspose.com/).

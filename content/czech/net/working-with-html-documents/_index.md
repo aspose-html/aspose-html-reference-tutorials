@@ -10,7 +10,7 @@ url: /cs/net/working-with-html-documents/
 
 Jste webový vývojář a chcete se ponořit do oblasti tvorby a manipulace s HTML dokumenty pomocí .NET? Už nehledejte! V této komplexní sérii výukových programů prozkoumáme sílu Aspose.HTML a jak může zjednodušit vaše úkoly. Ať už jste začátečník nebo zkušený vývojář, najdete zde cenné postřehy a praktické tipy, jak zlepšit své dovednosti.
 
-## Úvod
+## Zavedení
 
 HTML dokumenty jsou páteří webu a schopnost s nimi efektivně vytvářet a manipulovat je zásadní dovedností každého webového vývojáře. V této sérii výukových programů se zaměříme na práci s HTML dokumenty v prostředí .NET a budeme to dělat s pomocí Aspose.HTML, výkonné a všestranné knihovny.
 

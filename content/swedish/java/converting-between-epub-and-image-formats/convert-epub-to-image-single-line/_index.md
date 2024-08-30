@@ -43,13 +43,13 @@ import com.aspose.html.saving.ImageSaveOptions;
 import com.aspose.html.rendering.image.ImageFormat;
 ```
 
-## Bryta ner
+## Sammanbrott
 
 Låt oss sedan dela upp exempelkoden i flera steg för en bättre förståelse av konverteringsprocessen.
 
 ### Steg 2: Öppna EPUB-filen
 
- I det här steget öppnar vi en befintlig EPUB-fil för läsning. Byta ut`input.epub` med sökvägen till din EPUB-fil.
+ I det här steget öppnar vi en befintlig EPUB-fil för läsning. Ersätta`input.epub` med sökvägen till din EPUB-fil.
 
 ```java
 try (java.io.FileInputStream fileInputStream = new java.io.FileInputStream("input.epub")) {
@@ -68,7 +68,7 @@ try (java.io.FileInputStream fileInputStream = new java.io.FileInputStream("inpu
 }
 ```
 
-Och det är allt! Du har framgångsrikt konverterat en EPUB-fil till en bild med Aspose.HTML för Java.
+Och det är det! Du har framgångsrikt konverterat en EPUB-fil till en bild med Aspose.HTML för Java.
 
 ## Slutsats
 
@@ -96,4 +96,4 @@ S4: Aspose.HTML för Java stöder olika bildformat, inklusive JPEG, PNG och BMP,
 
 ### F5: Finns det några tillfälliga licensalternativ?
 
- S5: Ja, du kan få en tillfällig licens för Aspose.HTML för Java från[den här länken](https://purchase.aspose.com/temporary-license/).
+ S5: Ja, du kan få en tillfällig licens för Aspose.HTML för Java från[denna länk](https://purchase.aspose.com/temporary-license/).

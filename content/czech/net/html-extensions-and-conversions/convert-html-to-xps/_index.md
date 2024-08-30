@@ -20,7 +20,7 @@ Nejprve se ujistěte, že máte v systému nainstalované Visual Studio. Pokud n
 
 ### Získejte Aspose.HTML pro .NET
 
- Chcete-li začít, budete muset získat Aspose.HTML pro .NET. Můžete si jej stáhnout z[tady](https://releases.aspose.com/html/net/).
+ Chcete-li začít, budete muset získat Aspose.HTML pro .NET. Můžete si jej stáhnout z[zde](https://releases.aspose.com/html/net/).
 
 ### Vytvořte projekt .NET
 
@@ -88,7 +88,7 @@ string outputFile = dataDir + "output.xps";
 Converter.ConvertHTML(htmlDocument, options, outputFile);
 ```
 
-to je vše! Úspěšně jste převedli dokument HTML na XPS pomocí Aspose.HTML for .NET.
+A je to! Úspěšně jste převedli dokument HTML na XPS pomocí Aspose.HTML for .NET.
 
 Závěrem lze říci, že Aspose.HTML for .NET je cenným nástrojem pro vývojáře pracující s dokumenty HTML. Dodržováním nezbytných předpokladů a podrobného průvodce můžete bezproblémově integrovat Aspose.HTML do svých projektů .NET a provádět úkoly, jako je převod HTML na XPS.
 
@@ -103,10 +103,10 @@ Nyní se podívejme na některé běžné otázky.
    Ano, můžete přizpůsobit různé aspekty procesu převodu, včetně velikosti stránky, okrajů a dalších.
 
 ### 3. Jsou k dispozici nějaké možnosti licencování?
-    Aspose.HTML for .NET nabízí flexibilní možnosti licencování, včetně bezplatné zkušební verze a dočasných licencí. Návštěva[tady](https://purchase.aspose.com/buy) pro detaily.
+    Aspose.HTML for .NET nabízí flexibilní možnosti licencování, včetně bezplatné zkušební verze a dočasných licencí. Návštěva[zde](https://purchase.aspose.com/buy) pro podrobnosti.
 
 ### 4. Jak mohu získat podporu pro Aspose.HTML pro .NET?
-    Pokud máte dotazy nebo narazíte na problémy, komunitní fórum Aspose je skvělým místem, kde můžete hledat podporu. Návštěva[tady](https://forum.aspose.com/) pro pomoc.
+   Pokud máte dotazy nebo narazíte na problémy, komunitní fórum Aspose je skvělým místem, kde můžete hledat podporu. Návštěva[zde](https://forum.aspose.com/) o pomoc.
 
 ### 5. Dokáže Aspose.HTML for .NET zpracovat složité HTML dokumenty?
    Ano, Aspose.HTML for .NET je navržen pro zpracování složitých HTML dokumentů, takže je vhodný pro širokou škálu případů použití.

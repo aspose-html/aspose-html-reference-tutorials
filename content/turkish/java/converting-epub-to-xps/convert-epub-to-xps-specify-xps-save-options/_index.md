@@ -1,29 +1,29 @@
 ---
-title: EPUB'dan XPS'ye için XPS Kaydetme Seçeneklerini Belirleme
-linktitle: EPUB'dan XPS'ye için XPS Kaydetme Seçeneklerini Belirleme
+title: EPUB'dan XPS'e XPS Kaydetme Seçeneklerini Belirleme
+linktitle: EPUB'dan XPS'e XPS Kaydetme Seçeneklerini Belirleme
 second_title: Aspose.HTML ile Java HTML İşleme
-description: Bu adım adım eğitimde EPUB'dan XPS'ye yönelik XPS kaydetme seçeneklerini belirlemek için Aspose.HTML for Java'yı nasıl kullanacağınızı öğrenin. EPUB dosyalarını sorunsuz bir şekilde dönüştürün.
+description: Bu adım adım eğitimde EPUB'dan XPS'e XPS kaydetme seçeneklerini belirtmek için Aspose.HTML for Java'yı nasıl kullanacağınızı öğrenin. EPUB dosyalarını sorunsuz bir şekilde dönüştürün.
 type: docs
 weight: 12
 url: /tr/java/converting-epub-to-xps/convert-epub-to-xps-specify-xps-save-options/
 ---
-Web geliştirme dünyasında, EPUB dosyalarını XPS formatına dönüştürme yeteneği değerli bir araçtır. Aspose.HTML for Java, bu dönüşümü kolaylıkla gerçekleştirme olanağı sunan güçlü bir kütüphanedir. Bu kapsamlı eğitimde, Aspose.HTML for Java'yı kullanarak EPUB'dan XPS'ye XPS kaydetme seçeneklerini belirleme sürecinde size rehberlik edeceğiz.
+Web geliştirme dünyasında, EPUB dosyalarını XPS formatına dönüştürme yeteneği değerli bir araçtır. Java için Aspose.HTML, bu dönüşümü kolaylıkla gerçekleştirme yeteneği sunan güçlü bir kütüphanedir. Bu kapsamlı eğitimde, Java için Aspose.HTML kullanarak EPUB'dan XPS'e XPS kaydetme seçeneklerini belirleme sürecinde size rehberlik edeceğiz.
 
-## Önkoşullar
+## Ön koşullar
 
-Eğiticiye dalmadan önce, yerine getirmeniz gereken birkaç önkoşul vardır:
+Eğitime başlamadan önce, yerine getirmeniz gereken birkaç ön koşul bulunmaktadır:
 
-1. Java Geliştirme Ortamı: Sisteminizde Java Geliştirme Kitinin (JDK) kurulu olduğundan emin olun.
+1. Java Geliştirme Ortamı: Sisteminizde Java Geliştirme Kiti'nin (JDK) yüklü olduğundan emin olun.
 
-2.  Aspose.HTML for Java Library: Aspose.HTML for Java'yı şu adresten indirip yükleyin:[İndirme: {link](https://releases.aspose.com/html/java/).
+2.  Java Kütüphanesi için Aspose.HTML: Java için Aspose.HTML'yi şuradan indirin ve yükleyin:[indirme bağlantısı](https://releases.aspose.com/html/java/).
 
-3. EPUB Dosyası: XPS'ye dönüştürmek istediğiniz bir EPUB dosyasına ihtiyacınız olacak.
+3. EPUB Dosyası: XPS'e dönüştürmek istediğiniz bir EPUB dosyasına ihtiyacınız olacak.
 
-Artık önkoşullarımızı yerine getirdiğimize göre, EPUB'dan XPS'ye yönelik XPS kaydetme seçeneklerini belirlemek için gereken adımlara geçelim.
+Artık ön koşullarımız hazır olduğuna göre, EPUB'dan XPS'e XPS kaydetme seçeneklerini belirtmek için gereken adımlara geçelim.
 
 ## Paketleri İçe Aktar
 
-Öncelikle Aspose.HTML for Java ile çalışmak için gerekli paketleri içe aktarmanız gerekir. Bunu Java dosyanızın başına aşağıdaki kodu ekleyerek yapabilirsiniz:
+Öncelikle, Java için Aspose.HTML ile çalışmak için gerekli paketleri içe aktarmanız gerekir. Bunu, Java dosyanızın başına aşağıdaki kodu ekleyerek yapabilirsiniz:
 
 ```java
 import java.io.FileInputStream;
@@ -37,19 +37,19 @@ import com.aspose.html.converters.Converter;
 import com.aspose.html.system.io.resources.Resources;
 ```
 
-## EPUB Dosyasını açın
+## EPUB Dosyasını Aç
 
 Okumak için mevcut bir EPUB dosyasını açarak başlayın. Aşağıdaki kod parçacığını kullanabilirsiniz:
 
 ```java
 try (FileInputStream fileInputStream = new FileInputStream(Resources.input("input.epub"))) {
-    //EPUB dosya işleme kodunuz buraya gelecek.
+    //EPUB dosya işleme kodunuz buraya gelir.
 }
 ```
 
-## XPS Kaydetme Seçenekleri Oluşturun
+## XPS Kaydetme Seçeneklerini Oluştur
 
-Daha sonra, özel sayfa boyutuna ve arka plan rengine sahip bir XpsSaveOptions örneğini oluşturun. Bu, PageSetup ve seçeneklerin yapılandırılmasıyla yapılır. Bunu şu şekilde başarabilirsiniz:
+Sonra, özel sayfa boyutu ve arka plan rengiyle XpsSaveOptions'ın bir örneğini oluşturun. Bu, PageSetup ve seçenekleri yapılandırarak yapılır. Bunu nasıl başarabileceğiniz aşağıda açıklanmıştır:
 
 ```java
 XpsSaveOptions options = new XpsSaveOptions();
@@ -61,9 +61,9 @@ options.setPageSetup(pageSetup);
 options.setBackgroundColor(Color.getAliceBlue());
 ```
 
-## EPUB'u XPS'ye dönüştür
+## EPUB'ı XPS'e dönüştür
 
- Son olarak, aramanız gerekir.`convertEPUB` EPUB'dan XPS'ye dönüştürme işlemini gerçekleştirme yöntemi. İşte bunun kodu:
+ Son olarak, aramanız gerekir`convertEPUB` EPUB'ı XPS'e dönüştürmenin yöntemi. İşte bunun için kod:
 
 ```java
 Converter.convertEPUB(
@@ -73,25 +73,25 @@ Converter.convertEPUB(
 );
 ```
 
-Bu adımları uyguladığınızda, Aspose.HTML for Java'yı kullanarak EPUB'dan XPS'ye dönüştürme için XPS kaydetme seçeneklerini artık kolayca belirleyebilirsiniz. Bu eğitimde size kapsamlı bir kılavuz sağlanmıştır ve bu adımları izleyerek EPUB dosyalarıyla sorunsuz bir şekilde çalışabilir ve bunları XPS formatına dönüştürebilirsiniz.
+Bu adımlar yerinde olduğunda, artık Aspose.HTML for Java kullanarak EPUB'dan XPS'e dönüştürme için XPS kaydetme seçeneklerini kolayca belirtebilirsiniz. Bu eğitim size kapsamlı bir kılavuz sağlamıştır ve bu adımları izleyerek EPUB dosyalarıyla sorunsuz bir şekilde çalışabilir ve bunları XPS biçimine dönüştürebilirsiniz.
 
 ## Çözüm
 
-Bu eğitimde, Aspose.HTML for Java'yı kullanarak EPUB'dan XPS'ye dönüştürme için XPS kaydetme seçeneklerini belirleme sürecinde size yol gösterdik. Doğru ön koşullar ve adım adım kılavuzla, web geliştirme projeleriniz için bu kitaplığın gücünden verimli bir şekilde yararlanabilirsiniz.
+Bu eğitimde, Aspose.HTML for Java kullanarak EPUB'dan XPS'e dönüştürme için XPS kaydetme seçeneklerini belirleme sürecinde size yol gösterdik. Doğru ön koşullar ve adım adım kılavuzla, bu kütüphanenin gücünden web geliştirme projeleriniz için verimli bir şekilde yararlanabilirsiniz.
 
 ## SSS
 
 ### 1. Java için Aspose.HTML nedir?
-Aspose.HTML for Java, HTML ve EPUB dosyalarıyla çalışmak için güçlü bir kütüphanedir ve geliştiricilerin farklı formatlara dönüştürme de dahil olmak üzere çeşitli işlemleri gerçekleştirmesine olanak tanır.
+Java için Aspose.HTML, HTML ve EPUB dosyalarıyla çalışmak için güçlü bir kütüphanedir ve geliştiricilerin farklı formatlara dönüştürme de dahil olmak üzere çeşitli işlemleri gerçekleştirmesine olanak tanır.
 
 ### 2. Aspose.HTML for Java'yı ticari projelerimde kullanabilir miyim?
- Evet, Aspose.HTML for Java'yı ticari projelerde kullanabilirsiniz. Lisans ayrıntıları için şu adresi ziyaret edebilirsiniz:[satın alma sayfası](https://purchase.aspose.com/buy).
+ Evet, ticari projelerde Java için Aspose.HTML kullanabilirsiniz. Lisanslama ayrıntıları için şu adresi ziyaret edebilirsiniz:[satın alma sayfası](https://purchase.aspose.com/buy).
 
-### 3. Aspose.HTML for Java'nın ücretsiz deneme sürümü mevcut mu?
- Evet, ücretsiz deneme sürümüyle kütüphaneyi keşfedebilirsiniz. Şuradan indirin:[Burada](https://releases.aspose.com/).
+### 3. Aspose.HTML for Java için ücretsiz deneme sürümü mevcut mu?
+ Evet, kütüphaneyi ücretsiz denemeyle keşfedebilirsiniz. Buradan indirin[Burada](https://releases.aspose.com/).
 
-### 4. Aspose.HTML for Java hakkında nereden destek alabilirim veya soru sorabilirim?
- Destek ve tartışmalar için Aspose forumlarını şu adresten ziyaret edebilirsiniz:[https://forum.aspose.com/](https://forum.aspose.com/).
+### 4. Java için Aspose.HTML hakkında nereden destek alabilirim veya soru sorabilirim?
+ Destek ve tartışmalar için Aspose forumlarını ziyaret edebilirsiniz.[https://forum.aspose.com/](https://forum.aspose.com/).
 
-### 5. Aspose.HTML for Java'nın sistem gereksinimleri nelerdir?
-Aspose.HTML for Java, bir Java Geliştirme Kiti (JDK) ve uyumlu bir işletim sistemi gerektirir. Bu eğitimde belirtilen önkoşulları karşıladığınızdan emin olun.
+### 5. Java için Aspose.HTML'in sistem gereksinimleri nelerdir?
+Java için Aspose.HTML, bir Java Geliştirme Kiti (JDK) ve uyumlu bir işletim sistemi gerektirir. Bu eğitimde belirtilen ön koşulları karşıladığınızdan emin olun.

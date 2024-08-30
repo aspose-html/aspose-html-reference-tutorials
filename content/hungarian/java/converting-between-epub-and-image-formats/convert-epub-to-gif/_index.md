@@ -14,7 +14,7 @@ A folyamatosan fejlődő digitális környezetben a különböző dokumentumform
 Mielőtt az Aspose.HTML for Java használatával elkezdené az EPUB-fájlt GIF formátumba konvertálni, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
 
 1. Java fejlesztői környezet:
-    Győződjön meg arról, hogy működő Java fejlesztői környezet, beleértve a Java Development Kit-et (JDK), telepítve van a rendszerére. A legújabb JDK-t letöltheti a[Oracle webhely](https://www.oracle.com/java/technologies/javase-downloads.html).
+    Győződjön meg arról, hogy működő Java fejlesztői környezet, beleértve a Java Development Kit-et (JDK), telepítve van a rendszerére. A legújabb JDK letölthető a[Oracle webhely](https://www.oracle.com/java/technologies/javase-downloads.html).
 
 2. Aspose.HTML for Java Library:
     A projektben telepíteni kell az Aspose.HTML for Java könyvtárat. A letöltéshez szükséges csomagokat megtalálod[itt](https://releases.aspose.com/html/java/).
@@ -62,7 +62,7 @@ try (FileInputStream fileInputStream = new FileInputStream("input.epub")) {
 }
 ```
 
-Ez az! Ezekkel az egyszerű lépésekkel zökkenőmentesen konvertálhatja EPUB-fájlját GIF-képpé az Aspose.HTML for Java segítségével.
+Ennyi! Ezekkel az egyszerű lépésekkel zökkenőmentesen konvertálhatja EPUB-fájlját GIF-képpé az Aspose.HTML for Java segítségével.
 
 ## Következtetés
 
@@ -74,15 +74,15 @@ Ebben az oktatóanyagban bemutatjuk az EPUB-fájlok GIF-képpé alakításának 
 
 ### 1. kérdés: Használhatom az Aspose.HTML for Java-t kereskedelmi projektekben?
 
-1. válasz: Igen, az Aspose.HTML for Java használható kereskedelmi és nem kereskedelmi projektekben is. Meglátogatni a[vásárlási oldal](https://purchase.aspose.com/buy) az engedélyezési részletekért.
+1. válasz: Igen, az Aspose.HTML for Java használható kereskedelmi és nem kereskedelmi projektekben is. Látogassa meg a[vásárlási oldal](https://purchase.aspose.com/buy) az engedélyezési részletekért.
 
 ### 2. kérdés: Van ingyenes próbaverzió?
 
- 2. válasz: Igen, elérheti az Aspose.HTML for Java ingyenes próbaverzióját innen[ez a link](https://releases.aspose.com/).
+ 2. válasz: Igen, elérheti az Aspose.HTML for Java ingyenes próbaverzióját innen[ezt a linket](https://releases.aspose.com/).
 
 ### 3. kérdés: Hogyan szerezhetek ideiglenes licencet az Aspose.HTML for Java számára?
 
- V3: Ideiglenes engedélyt kaphat, ha ellátogat[ez a link](https://purchase.aspose.com/temporary-license/).
+ V3: Ideiglenes engedélyt kaphat, ha ellátogat[ezt a linket](https://purchase.aspose.com/temporary-license/).
 
 ### 4. kérdés: Milyen egyéb dokumentumkonverziókat tud kezelni az Aspos.HTML for Java?
 

@@ -106,7 +106,7 @@ using (XpsDevice device = new XpsDevice(dataDir + "output_out.xps"))
 
 ---
 
-## 經常問的問題
+## 常見問題解答
 
 ### 什麼是 .NET 的 Aspose.HTML？
    Aspose.HTML for .NET 是一個 .NET 函式庫，允許開發人員處理 HTML 文件並對其執行各種操作。

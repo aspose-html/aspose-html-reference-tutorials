@@ -16,7 +16,7 @@ dagens digitala tidsålder är webbinnehåll avgörande, och det är också för
 
 Innan vi dyker in i handledningen, se till att du har följande förutsättningar på plats:
 
-1.  Aspose.HTML for .NET Library: Ladda ner och installera Aspose.HTML for .NET-biblioteket från[hemsida](https://releases.aspose.com/html/net/). Du behöver det här biblioteket för att arbeta igenom exemplen.
+1.  Aspose.HTML for .NET Library: Ladda ner och installera Aspose.HTML for .NET-biblioteket från[webbplats](https://releases.aspose.com/html/net/). Du behöver det här biblioteket för att arbeta igenom exemplen.
 
 2. En utvecklingsmiljö: Se till att du har en .NET-utvecklingsmiljö inställd, inklusive Visual Studio eller någon annan lämplig kodredigerare.
 

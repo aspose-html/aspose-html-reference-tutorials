@@ -79,7 +79,7 @@ Converter.convertEPUB(
 );
 ```
 
-這是我們將 EPUB 檔案轉換為影像的關鍵步驟。確保這件事`"output.jpg"`指定要儲存輸出影像的路徑。
+這是我們將 EPUB 檔案轉換為影像的關鍵步驟。確保`"output.jpg"`指定要儲存輸出影像的路徑。
 
 透過這些步驟，您可以使用 Aspose.HTML for Java 將 EPUB 檔案無縫轉換為映像。
 
@@ -91,7 +91,7 @@ Converter.convertEPUB(
 
 ### Q1: 我可以將 EPUB 檔案轉換為其他影像格式嗎？
 
- A1: 是的，可以。在裡面`ImageSaveOptions`在初始化步驟中，您可以指定不同的映像格式，例如 PNG 或 GIF，以相應地轉換您的 EPUB 檔案。
+ A1: 是的，可以。在`ImageSaveOptions`在初始化步驟中，您可以指定不同的映像格式，例如 PNG 或 GIF，以相應地轉換您的 EPUB 檔案。
 
 ### Q2：Aspose.HTML for Java 支援 EPUB3 嗎？
 

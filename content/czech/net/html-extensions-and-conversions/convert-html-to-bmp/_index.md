@@ -81,7 +81,7 @@ string outputFile = dataDir + "HTMLtoBMP_Output.bmp";
 Converter.ConvertHTML(htmlDocument, options, outputFile);
 ```
 
-Gratulujeme! Úspěšně jste převedli dokument HTML na obrázek BMP pomocí Aspose.HTML for .NET.
+Gratuluji! Úspěšně jste převedli dokument HTML na obrázek BMP pomocí Aspose.HTML for .NET.
 
 ## Závěr
 
@@ -95,7 +95,7 @@ Aspose.HTML for .NET je všestranná knihovna, která zjednodušuje manipulaci s
 
 ### 2. Jak mohu získat dočasnou licenci pro Aspose.HTML pro .NET?
 
-Pokud potřebujete dočasnou licenci, můžete ji získat od[tady](https://purchase.aspose.com/temporary-license/).
+Pokud potřebujete dočasnou licenci, můžete ji získat od[zde](https://purchase.aspose.com/temporary-license/).
 
 ### 3. Kde mohu získat podporu a pomoc s Aspose.HTML pro .NET?
 
@@ -103,7 +103,7 @@ Pokud potřebujete dočasnou licenci, můžete ji získat od[tady](https://purch
 
 ### 4. Mohu vyzkoušet Aspose.HTML pro .NET zdarma?
 
- Ano, můžete prozkoumat Aspose.HTML pro .NET stažením bezplatné zkušební verze z[tento odkaz](https://releases.aspose.com/).
+ Ano, Aspose.HTML pro .NET můžete prozkoumat stažením bezplatné zkušební verze z[tento odkaz](https://releases.aspose.com/).
 
 ### 5. Jaké jsou podporované formáty obrázků pro převod v Aspose.HTML pro .NET?
 

@@ -36,11 +36,11 @@ A .NET projektben adjon hozzá hivatkozást az Aspose.HTML összeállításra. E
 
 ## A névtér importálása
 
-környezet előkészítése és az előfeltételek összegyűjtése után a következő lépés a szükséges névtér importálása. Ez lehetővé teszi a kódjában található Aspose.HTML for .NET funkcióinak elérését.
+A környezet előkészítése és az előfeltételek összegyűjtése után a következő lépés a szükséges névtér importálása. Ez lehetővé teszi a kódjában található Aspose.HTML for .NET funkcióinak elérését.
 
 ### 1. lépés: Importálja az Aspose.HTML névteret
 
-A C#-kódban adja hozzá a következő sort az Aspose.HTML névtér importálásához:
+C#-kódban adja hozzá a következő sort az Aspose.HTML névtér importálásához:
 
 ```csharp
 using Aspose.Html;
@@ -88,7 +88,7 @@ string outputFile = dataDir + "output.xps";
 Converter.ConvertHTML(htmlDocument, options, outputFile);
 ```
 
-És ez az! Sikeresen konvertált egy HTML-dokumentumot XPS-re az Aspose.HTML for .NET használatával.
+És ennyi! Sikeresen konvertált egy HTML-dokumentumot XPS-re az Aspose.HTML for .NET használatával.
 
 Összefoglalva, az Aspose.HTML for .NET értékes eszköz a HTML-dokumentumokkal dolgozó fejlesztők számára. Az előfeltételek és a lépésenkénti útmutató követésével zökkenőmentesen integrálhatja az Aspose.HTML-t .NET-projektjeibe, és végrehajthat olyan feladatokat, mint a HTML-ből XPS-be való átalakítás.
 
@@ -103,10 +103,10 @@ Most pedig válaszoljunk néhány gyakori kérdésre.
    Igen, személyre szabhatja az átalakítási folyamat különböző aspektusait, beleértve az oldalméretet, a margókat és egyebeket.
 
 ### 3. Rendelkezésre állnak-e licencelési lehetőségek?
-    Az Aspose.HTML for .NET rugalmas licencelési lehetőségeket kínál, beleértve az ingyenes próbaverziót és az ideiglenes licenceket. Látogatás[itt](https://purchase.aspose.com/buy) a részletekért.
+    Az Aspose.HTML for .NET rugalmas licencelési lehetőségeket kínál, beleértve az ingyenes próbaverziót és az ideiglenes licenceket. Látogatás[itt](https://purchase.aspose.com/buy) részletekért.
 
 ### 4. Hogyan kaphatok támogatást az Aspose.HTML for .NET számára?
-    Ha kérdése van, vagy problémákba ütközik, az Aspose közösségi fórum nagyszerű hely, ahol támogatást kérhet. Látogatás[itt](https://forum.aspose.com/) segítségért.
+   Ha kérdése van, vagy problémákba ütközik, az Aspose közösségi fórum nagyszerű hely, ahol támogatást kérhet. Látogatás[itt](https://forum.aspose.com/) segítségért.
 
 ### 5. Az Aspose.HTML for .NET képes kezelni az összetett HTML dokumentumokat?
    Igen, az Aspose.HTML for .NET összetett HTML-dokumentumok kezelésére készült, így számos felhasználási esetre alkalmas.

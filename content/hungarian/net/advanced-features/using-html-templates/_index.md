@@ -111,7 +111,7 @@ Aspose.Html.Converters.Converter.ConvertTemplate(
 
 Ez a kód a „template.html” fájlt veszi fel, a helyőrzőket a megfelelő JSON-értékekkel helyettesíti, és az eredményt a „document.html” fájlba menti.
 
-Gratulálunk! Sikeresen kihasználta az Aspose.HTML for .NET erejét, hogy dinamikusan hozzon létre HTML-dokumentumokat JSON-adatokból.
+Gratulálok! Sikeresen kihasználta az Aspose.HTML for .NET erejét, hogy dinamikusan hozzon létre HTML-dokumentumokat JSON-adatokból.
 
 ## Következtetés
 

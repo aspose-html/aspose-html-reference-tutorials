@@ -95,7 +95,7 @@ Converter.ConvertHTML(htmlDocument, options, outputFile);
 
 ## 結論
 
-在本教程中，我們探索了 Aspose.HTML for .NET 的強大功能以及如何使用它將 HTML 轉換為 GIF。具備正確的先決條件和流程的逐步分解後，您現在就可以在 .NET 開發專案中利用此工具了。無論您正在處理 Web 應用程式、報告或任何其他 HTML 相關任務，Aspose.HTML for .NET 都是您工具包中的寶貴資產。
+在本教程中，我們探索了 Aspose.HTML for .NET 的強大功能以及如何使用它將 HTML 轉換為 GIF。具備正確的先決條件並逐步分解流程後，您現在就可以在 .NET 開發專案中利用此工具了。無論您正在處理 Web 應用程式、報告或任何其他 HTML 相關任務，Aspose.HTML for .NET 都是您工具包中的寶貴資產。
 
 如果您有任何疑問或在此過程中遇到任何問題，請隨時向 Aspose 社群尋求協助。他們透過他們的[論壇](https://forum.aspose.com/).
 
@@ -108,7 +108,7 @@ Converter.ConvertHTML(htmlDocument, options, outputFile);
 Aspose.HTML for .NET 支援多種輸出格式，包括 PDF、PNG、JPEG 等。該庫在選擇所需的輸出格式方面提供了極大的靈活性。
 
 ### 我可以在使用 Aspose.HTML for .NET 轉換之前操作 HTML 文件嗎？
-絕對地！ Aspose.HTML for .NET 提供了用於解析、修改和分析 HTML 文件的豐富工具，可讓您在轉換之前自訂內容。
+絕對地！ Aspose.HTML for .NET 提供了用於解析、修改和分析 HTML 文件的廣泛工具，可讓您在轉換之前自訂內容。
 
 ### 我可以轉換的 HTML 文件的大小有限制嗎？
 Aspose.HTML for .NET 針對效能進行了最佳化，但大型 HTML 文件可能需要更多記憶體。確保您有足夠的資源可用於轉換是一個很好的做法。

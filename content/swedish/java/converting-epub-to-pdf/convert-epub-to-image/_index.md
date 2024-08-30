@@ -18,7 +18,7 @@ Innan vi dyker in i konverteringsprocessen, här är förutsättningarna du beh�
 
 1. Java Development Environment: Du bör ha Java Development Kit (JDK) installerat på din dator.
 
-2.  Aspose.HTML for Java Library: Ladda ner och installera Aspose.HTML for Java från[hemsidan](https://releases.aspose.com/html/java/).
+2.  Aspose.HTML for Java Library: Ladda ner och installera Aspose.HTML for Java från[webbplatsen](https://releases.aspose.com/html/java/).
 
 3. EPUB-fil: Du behöver en EPUB-fil som du vill konvertera till en bild. Se till att den är tillgänglig på ditt system.
 
@@ -41,11 +41,11 @@ Det första steget är att öppna EPUB-filen du vill konvertera. Använd följan
 
 ```java
 try (FileInputStream fileInputStream = new FileInputStream("path/to/your/input.epub")) {
-    // Din kod för nästa steg kommer att hamna här.
+    // Din kod för nästa steg kommer här.
 }
 ```
 
- Byta ut`"path/to/your/input.epub"` med den faktiska sökvägen till din EPUB-fil.
+ Ersätta`"path/to/your/input.epub"` med den faktiska sökvägen till din EPUB-fil.
 
 ## Konvertera EPUB till bild
 
@@ -63,7 +63,7 @@ Denna kod konverterar EPUB-filen du öppnade i steg 1 till en JPEG-bild. Du kan 
 
 ## Ange utdatasökväg
 
- det här steget måste du ange sökvägen där den konverterade bilden ska sparas. Byta ut`"path/to/your/output.jpg"` med den faktiska sökvägen där du vill spara bilden.
+ det här steget måste du ange sökvägen där den konverterade bilden ska sparas. Ersätta`"path/to/your/output.jpg"` med den faktiska sökvägen där du vill spara bilden.
 
 Nu har du framgångsrikt konverterat din EPUB-fil till en bild med Aspose.HTML för Java.
 
@@ -74,7 +74,7 @@ I den här handledningen har vi gått igenom processen steg-för-steg för att k
 ## Vanliga frågor
 
 ### F1: Kan jag konvertera EPUB-filer till andra format än JPEG?
-Jo det kan du. Aspose.HTML för Java ger alternativ för att konvertera EPUB-filer till olika bildformat, inklusive PNG, BMP och TIFF.
+Ja, det kan du. Aspose.HTML för Java ger alternativ för att konvertera EPUB-filer till olika bildformat, inklusive PNG, BMP och TIFF.
 
 ### F2: Behöver jag programmeringskunskaper för att använda Aspose.HTML för Java?
 Även om viss programmeringskunskap är till hjälp, gör de medföljande kodexemplen konverteringsprocessen enkel, även för nybörjare.

@@ -43,7 +43,7 @@ import com.aspose.html.saving.ImageSaveOptions;
 import com.aspose.html.rendering.image.ImageFormat;
 ```
 
-## Bontás
+## Lebontás
 
 Ezután bontsuk le a példakódot több lépésre, hogy jobban megértsük a konverziós folyamatot.
 
@@ -68,7 +68,7 @@ try (java.io.FileInputStream fileInputStream = new java.io.FileInputStream("inpu
 }
 ```
 
-És ez az! Sikeresen konvertált egy EPUB-fájlt képpé az Aspose.HTML for Java használatával.
+És ennyi! Sikeresen konvertált egy EPUB-fájlt képpé az Aspose.HTML for Java használatával.
 
 ## Következtetés
 
@@ -96,4 +96,4 @@ Most lehetősége van arra, hogy zökkenőmentesen konvertálja az EPUB fájloka
 
 ### 5. kérdés: Vannak-e ideiglenes licencelési lehetőségek?
 
- 5. válasz: Igen, beszerezhet ideiglenes licencet az Aspose.HTML for Java számára a következőtől:[ez a link](https://purchase.aspose.com/temporary-license/).
+ 5. válasz: Igen, beszerezhet ideiglenes licencet az Aspose.HTML for Java számára a következőtől:[ezt a linket](https://purchase.aspose.com/temporary-license/).

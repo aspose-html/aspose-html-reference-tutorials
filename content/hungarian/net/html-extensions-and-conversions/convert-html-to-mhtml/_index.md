@@ -79,7 +79,7 @@ Converter.ConvertHTML(htmlDocument, options, outputMHTML);
 
  Most itt az ideje átalakítani a HTML-dokumentumot MHTML-re. A`ConvertHTML` A metódus a betöltött HTML-dokumentumot, a beállított beállításokat és a kimeneti fájl elérési útját veszi paraméterként.
 
-Gratulálunk! Sikeresen konvertált egy HTML-dokumentumot MHTML-re az Aspose.HTML for .NET használatával. Most már elérheti az MHTML fájlt a megadott kimeneti útvonalon.
+Gratulálok! Sikeresen konvertált egy HTML-dokumentumot MHTML-re az Aspose.HTML for .NET használatával. Most már elérheti az MHTML fájlt a megadott kimeneti útvonalon.
 
 ## Következtetés
 
@@ -91,11 +91,11 @@ Most foglalkozzunk néhány gyakran ismételt kérdéssel (GYIK), hogy még jobb
 
 ### Mi az MHTML, és miért használják?
 
-Az MHTML, a „MIME HTML” rövidítése, egy weboldal-archívum formátum, amely lehetővé teszi, hogy egyetlen fájlba mentse a weboldalt és annak erőforrásait. Gyakran használják webes tartalom archiválására, weboldalak egyetlen fájlként való megosztására, valamint annak biztosítására, hogy minden erőforrás (képek, stíluslapok stb.) szerepeljen, még akkor is, ha azokat különböző szervereken tárolják.
+Az MHTML, a „MIME HTML” rövidítése, egy weboldal-archívum formátum, amely lehetővé teszi, hogy egyetlen fájlba mentse a weboldalt és annak erőforrásait. Általában webes tartalom archiválására, weboldalak egyetlen fájlként való megosztására és annak biztosítására használják, hogy minden erőforrás (képek, stíluslapok stb.) szerepeljen, még akkor is, ha azokat különböző szervereken tárolják.
 
 ### Testreszabhatom az erőforráskezelést az MHTML-re konvertáláskor?
 
- Igen tudsz. Ahogy a példában látható, az erőforrás-kezelési szabályokat a`ResourceHandlingOptions` a`MHTMLSaveOptions`osztály. Beállíthatja, hogy az MHTML-fájl milyen mélységű erőforrásokat tartalmazzon.
+ Igen, megteheti. Ahogy a példában látható, az erőforrás-kezelési szabályokat a`ResourceHandlingOptions` a`MHTMLSaveOptions`osztály. Beállíthatja, hogy az MHTML-fájl milyen mélységű erőforrásokat tartalmazzon.
 
 ### Hol találok további forrásokat és dokumentációt az Aspose.HTML for .NET-hez?
 
@@ -103,7 +103,7 @@ Az MHTML, a „MIME HTML” rövidítése, egy weboldal-archívum formátum, ame
 
 ### Létezik ingyenes próbaverzió az Aspose.HTML for .NET számára?
 
- Igen, ingyenesen kipróbálhatja az Aspose.HTML .NET-hez, ha felkeresi[ez a link](https://releases.aspose.com/). A próbaverzió lehetővé teszi a könyvtár funkcióinak felfedezését a vásárlás előtt.
+ Igen, ingyenesen kipróbálhatja az Aspose.HTML .NET-hez, ha felkeresi[ezt a linket](https://releases.aspose.com/). A próbaverzió lehetővé teszi a könyvtár funkcióinak felfedezését a vásárlás előtt.
 
 ### Hogyan szerezhetek ideiglenes licencet az Aspose.HTML for .NET számára?
 

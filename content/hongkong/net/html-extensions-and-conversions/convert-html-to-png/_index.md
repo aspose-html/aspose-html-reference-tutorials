@@ -83,7 +83,7 @@ Converter.ConvertHTML(htmlDocument, options, outputFile);
 
 Aspose.HTML for .NET 是一個多功能函式庫，可簡化 .NET 應用程式中 HTML 文件的使用。透過提供的逐步範例和先決條件，您應該能夠在專案中有效地利用該程式庫。利用 Aspose.HTML 的強大功能無縫地建立、操作和轉換 HTML 文件。
 
-## 經常問的問題
+## 常見問題解答
 
 ### Aspose.HTML for .NET 可以免費使用嗎？
  Aspose.HTML for .NET 不是一個免費的函式庫。您可以查看定價和授權選項[這裡](https://purchase.aspose.com/buy).

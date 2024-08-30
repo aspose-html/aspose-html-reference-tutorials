@@ -20,7 +20,7 @@ Na svém počítači budete potřebovat funkční vývojové prostředí .NET. P
 
 2. Aspose.HTML pro knihovnu .NET
 
- Stáhněte si knihovnu Aspose.HTML for .NET ze sekce stahování na webu[tady](https://releases.aspose.com/html/net/). Můžete si vybrat verzi, která vyhovuje požadavkům vašeho projektu.
+ Stáhněte si knihovnu Aspose.HTML for .NET ze sekce stahování na webu[zde](https://releases.aspose.com/html/net/). Můžete si vybrat verzi, která vyhovuje požadavkům vašeho projektu.
 
 3. Soubory šablon
 
@@ -36,7 +36,7 @@ K psaní a spouštění kódu .NET použijte libovolný editor kódu, jako je Vi
 
 ## Import jmenného prostoru Aspose.HTML
 
-Než budete moci využít sílu Aspose.HTML pro .NET, musíte do svého projektu importovat potřebný jmenný prostor. Následuj tyto kroky:
+Než budete moci využít sílu Aspose.HTML pro .NET, musíte do svého projektu importovat potřebný jmenný prostor. Postupujte takto:
 
 ### Krok 1: Otevřete svůj projekt
 
@@ -112,17 +112,17 @@ Odpověď 1: Aspose.HTML for .NET je výkonná knihovna, která umožňuje vývo
 
 ### Q2: Kde najdu dokumentaci pro Aspose.HTML pro .NET?
 
- A2: Dokumentaci lze nalézt[tady](https://reference.aspose.com/html/net/), poskytující podrobné informace a příklady.
+ A2: Dokumentaci lze nalézt[zde](https://reference.aspose.com/html/net/), poskytující podrobné informace a příklady.
 
 ### Q3: Je k dispozici bezplatná zkušební verze?
 
- A3: Ano, máte přístup k bezplatné zkušební verzi Aspose.HTML pro .NET[tady](https://releases.aspose.com/).
+ A3: Ano, máte přístup k bezplatné zkušební verzi Aspose.HTML pro .NET[zde](https://releases.aspose.com/).
 
 ### Q4: Jak mohu zakoupit licenci pro Aspose.HTML pro .NET?
 
- A4: Licenci si můžete zakoupit na návštěvě[tento odkaz](https://purchase.aspose.com/buy).
+ A4: Licenci si můžete zakoupit na adrese[tento odkaz](https://purchase.aspose.com/buy).
 
 ### Q5: Kde mohu získat podporu a pomoc pro Aspose.HTML pro .NET?
 
- Odpověď 5: Komunita a fórum podpory Aspose.HTML je skvělým místem pro hledání pomoci a spojení s ostatními uživateli. Navštivte fórum[tady](https://forum.aspose.com/).
+ Odpověď 5: Komunita a fórum podpory Aspose.HTML je skvělým místem pro hledání pomoci a spojení s ostatními uživateli. Navštivte fórum[zde](https://forum.aspose.com/).
 F

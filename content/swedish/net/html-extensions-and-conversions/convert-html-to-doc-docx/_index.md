@@ -24,7 +24,7 @@ Du behöver en fungerande .NET-utvecklingsmiljö, inklusive Visual Studio eller 
 
 ### 2. Aspose.HTML för .NET
 
- Du måste ha Aspose.HTML för .NET installerat. Du kan ladda ner den från webbplatsen med[den här länken](https://releases.aspose.com/html/net/).
+ Du måste ha Aspose.HTML för .NET installerat. Du kan ladda ner den från webbplatsen med[denna länk](https://releases.aspose.com/html/net/).
 
 ### 3. HTML-dokument att arbeta med
 
@@ -48,7 +48,7 @@ I din C#-kodfil, lägg till följande med hjälp av direktivet högst upp för a
 using Aspose.Html;
 ```
 
-Vi delar upp processen för att konvertera ett HTML-dokument till DOCX-format i flera steg, för att säkerställa att du förstår varje aspekt tydligt.
+Vi delar upp processen för att konvertera ett HTML-dokument till DOCX-format i flera steg, så att du förstår varje aspekt tydligt.
 
 ## Definiera din datakatalog
 
@@ -60,7 +60,7 @@ string dataDir = "Your Data Directory";
 
 ## Ladda HTML-dokumentet
 
- Du måste ladda HTML-dokumentet du vill konvertera med Aspose.HTML's`HTMLDocument` klass. Byta ut`"input.html"` med det faktiska filnamnet eller sökvägen till din HTML-fil.
+ Du måste ladda HTML-dokumentet du vill konvertera med Aspose.HTML's`HTMLDocument` klass. Ersätta`"input.html"` med det faktiska filnamnet eller sökvägen till din HTML-fil.
 
 ```csharp
 HTMLDocument htmlDocument = new HTMLDocument(dataDir + "input.html");
@@ -96,10 +96,10 @@ Aspose.HTML for .NET är ett bibliotek som gör det möjligt för .NET-utvecklar
  Du hittar dokumentationen[här](https://reference.aspose.com/html/net/).
 
 ### Är Aspose.HTML för .NET tillgängligt för en gratis provperiod?
- Ja, du kan få en gratis testversion från[den här länken](https://releases.aspose.com/).
+ Ja, du kan få en gratis testversion från[denna länk](https://releases.aspose.com/).
 
 ### Hur kan jag få tillfälliga licenser för Aspose.HTML för .NET?
- Tillfälliga licenser är tillgängliga via[den här länken](https://purchase.aspose.com/temporary-license/).
+ Tillfälliga licenser är tillgängliga via[denna länk](https://purchase.aspose.com/temporary-license/).
 
 ### Var kan jag söka hjälp eller support för Aspose.HTML för .NET?
  Du kan besöka Aspose-forumen för support och diskussioner i samhället[här](https://forum.aspose.com/).

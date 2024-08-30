@@ -113,7 +113,7 @@ Du har precis låst upp ett kraftfullt verktyg för att konvertera HTML till BMP
  Du kan utforska den omfattande dokumentationen på[Aspose.HTML för Java-dokumentation](https://reference.aspose.com/html/java/).
 
 ### Kan jag konvertera HTML till andra bildformat med Aspose.HTML för Java?
-Jo det kan du. Aspose.HTML för Java stöder flera bildformat, inklusive BMP, PNG, JPEG och mer.
+Ja, det kan du. Aspose.HTML för Java stöder flera bildformat, inklusive BMP, PNG, JPEG och mer.
 
 ### Vad är filstorleksbegränsningen för HTML till BMP-konvertering?
 Filstorleksbegränsningen kan variera beroende på din licens. För detaljerad information, se dokumentationen.

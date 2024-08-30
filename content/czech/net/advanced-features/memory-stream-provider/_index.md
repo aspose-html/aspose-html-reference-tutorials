@@ -18,7 +18,7 @@ Než se pustíte do výukového programu, ujistěte se, že máte splněny násl
 
 2.  Aspose.HTML for .NET: Stáhněte a nainstalujte knihovnu Aspose.HTML for .NET z[odkaz ke stažení](https://releases.aspose.com/html/net/).
 
-3.  Licence: Chcete-li používat Aspose.HTML pro .NET, budete potřebovat platnou licenci. Dočasnou licenci můžete získat od[tady](https://purchase.aspose.com/temporary-license/).
+3.  Licence: Chcete-li používat Aspose.HTML pro .NET, budete potřebovat platnou licenci. Dočasnou licenci můžete získat od[zde](https://purchase.aspose.com/temporary-license/).
 
 Nyní, když máme naše předpoklady v pořádku, pojďme krok za krokem rozebrat vytváření úžasných HTML dokumentů pomocí Aspose.HTML for .NET.
 
@@ -93,7 +93,7 @@ Až budete s dokumentem hotovi, nezapomeňte uvolnit zdroje:
 document.Dispose();
 ```
 
-to je vše! Úspěšně jste vytvořili dokument HTML pomocí Aspose.HTML pro .NET a dokonce jste jej vykreslili do jiného formátu.
+je to! Úspěšně jste vytvořili dokument HTML pomocí Aspose.HTML pro .NET a dokonce jste jej vykreslili do jiného formátu.
 
 ## Závěr
 
@@ -109,7 +109,7 @@ Odpověď 1: Aspose.HTML for .NET je výkonná knihovna, která vám umožňuje 
 
 ### Q2. Potřebuji licenci k používání Aspose.HTML pro .NET?
 
- Odpověď 2: Ano, k použití Aspose.HTML pro .NET potřebujete platnou licenci. Dočasnou licenci můžete získat od[tady](https://purchase.aspose.com/temporary-license/).
+ Odpověď 2: Ano, k použití Aspose.HTML pro .NET potřebujete platnou licenci. Dočasnou licenci můžete získat od[zde](https://purchase.aspose.com/temporary-license/).
 
 ### Q3. Mohu vykreslit HTML dokumenty do různých formátů pomocí Aspose.HTML pro .NET?
 
@@ -117,8 +117,8 @@ Odpověď 3: Ano, Aspose.HTML for .NET poskytuje možnost vykreslovat dokumenty 
 
 ### Q4. Kde najdu další dokumentaci a zdroje?
 
- A4: Máte přístup k dokumentaci pro Aspose.HTML pro .NET[tady](https://reference.aspose.com/html/net/).
+ A4: Máte přístup k dokumentaci pro Aspose.HTML pro .NET[zde](https://reference.aspose.com/html/net/).
 
 ### Q5. Je k dispozici bezplatná zkušební verze?
 
- A5: Ano, můžete prozkoumat bezplatnou zkušební verzi Aspose.HTML pro .NET[tady](https://releases.aspose.com/).
+ A5: Ano, můžete prozkoumat bezplatnou zkušební verzi Aspose.HTML pro .NET[zde](https://releases.aspose.com/).

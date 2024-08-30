@@ -44,7 +44,7 @@ import com.aspose.html.converters.Converter;
 
 A szükséges Aspose.HTML osztályok eléréséhez győződjön meg arról, hogy ezeket az importálási utasításokat szerepeltette a Java fájl elején.
 
-## Példa lebontásra: EPUB konvertálása képpé
+## Lebontási példa: EPUB konvertálása képpé
 
 Most vessünk egy konkrét példát az Aspose.HTML Java használatára. Végigvezetjük az EPUB-fájlok képformátumba konvertálásának lépésein.
 
@@ -79,7 +79,7 @@ Converter.convertEPUB(fileInputStream, options, Resources.output("output.jpg"));
 
  Hívja a`convertEPUB` módszer az EPUB fájl JPG képpé konvertálására. Győződjön meg arról, hogy megadta a bemeneti fájl adatfolyamát, a beállításokat és a kívánt kimeneti fájl elérési utat.
 
-Gratulálunk! Sikeresen konvertált egy EPUB-fájlt képpé az Aspose.HTML for Java használatával.
+Gratulálok! Sikeresen konvertált egy EPUB-fájlt képpé az Aspose.HTML for Java használatával.
 
 ## Következtetés
 

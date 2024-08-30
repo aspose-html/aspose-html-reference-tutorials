@@ -16,7 +16,7 @@ Než se vydáme na tuto cestu, ujistěte se, že máte vše, co potřebujete:
 
 - Vývojové prostředí: Ujistěte se, že máte v počítači nainstalované Visual Studio nebo jiné vývojové prostředí .NET.
 
-- Aspose.HTML for .NET: Potřebujete získat knihovnu Aspose.HTML for .NET. Můžete si jej stáhnout z[tady](https://releases.aspose.com/html/net/).
+- Aspose.HTML for .NET: Potřebujete získat knihovnu Aspose.HTML for .NET. Můžete si jej stáhnout z[zde](https://releases.aspose.com/html/net/).
 
 - Znalost C#: Znalost programovacího jazyka C# je výhodou, ale není podmínkou. Tato příručka je navržena tak, aby byla vhodná pro začátečníky.
 
@@ -153,7 +153,7 @@ Odpověď 1: Aspose.HTML for .NET je knihovna .NET, která poskytuje širokou š
 
 ### Q2: Kde mohu stáhnout Aspose.HTML pro .NET?
 
- A2: Aspose.HTML pro .NET si můžete stáhnout z[tady](https://releases.aspose.com/html/net/).
+ A2: Aspose.HTML pro .NET si můžete stáhnout z[zde](https://releases.aspose.com/html/net/).
 
 ### Q3: Je Aspose.HTML pro .NET vhodný pro začátečníky?
 
@@ -165,4 +165,4 @@ Odpověď 4: Ano, Aspose.HTML for .NET podporuje převod do různých formátů,
 
 ### Q5: Kde mohu získat podporu pro Aspose.HTML pro .NET?
 
- Odpověď 5: Podporu a odpovědi na své otázky můžete najít na fóru komunity Aspose.HTML[tady](https://forum.aspose.com/).
+ Odpověď 5: Podporu a odpovědi na své otázky můžete najít na fóru komunity Aspose.HTML[zde](https://forum.aspose.com/).

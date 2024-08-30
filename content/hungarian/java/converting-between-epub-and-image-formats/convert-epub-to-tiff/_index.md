@@ -63,7 +63,7 @@ ImageSaveOptions options = new ImageSaveOptions(ImageFormat.Tiff);
 Converter.convertEPUB(fileInputStream, options, "output.tiff");
 ```
 
-Ez az! Sikeresen konvertált egy EPUB-fájlt TIFF-képpé az Aspose.HTML for Java használatával. A konvertált TIFF-fájlt a megadott kimeneti útvonalon találhatja meg.
+Ennyi! Sikeresen konvertált egy EPUB-fájlt TIFF-képpé az Aspose.HTML for Java használatával. A konvertált TIFF-fájlt a megadott kimeneti útvonalon találhatja meg.
 
 ## Következtetés
 
@@ -87,7 +87,7 @@ Ha bármilyen kérdése van, vagy bármilyen problémája van, nyugodtan kérjen
 
 ### 4. kérdés: Kaphatok ideiglenes licencet az Aspose.HTML for Java számára?
 
- 4. válasz: Igen, ideiglenes licencet szerezhet az Aspose.HTML for Java számára, ha felkeresi[ez a link](https://purchase.aspose.com/temporary-license/).
+ 4. válasz: Igen, ideiglenes licencet szerezhet az Aspose.HTML for Java számára, ha felkeresi[ezt a linket](https://purchase.aspose.com/temporary-license/).
 
 ### 5. kérdés: Hol találom az Aspose.HTML for Java dokumentációját?
 

@@ -73,7 +73,7 @@ Ez a kódsor konvertálja az EPUB-fájlt PDF-be, és „output.pdf” néven men
 
 Ebben az oktatóanyagban megvizsgáltuk, hogyan használhatja az Aspose.HTML for Java fájlt az EPUB egyszerű konvertálásához PDF formátumba. A megfelelő csomagok importálásával és néhány sornyi kóddal sokoldalúbbá és hozzáférhetőbbé teheti EPUB-dokumentumait. Az Aspose.HTML for Java leegyszerűsíti ezt a feladatot, így értékes eszköz a webfejlesztők és tartalomkészítők számára.
 
- Mostantól javíthatja tartalmai kompatibilitását, és szélesebb közönséget érhet el, ha zökkenőmentesen konvertálja EPUB-dokumentumait PDF-be az Aspose.HTML for Java segítségével. Ha bármilyen problémába ütközik, vagy további segítségre van szüksége, ne habozzon felfedezni az Aspose.HTML for Java-t[dokumentáció](https://reference.aspose.com/html/java/) vagy kérjen segítséget az Aspose közösségtől[támogatói fórum](https://forum.aspose.com/).
+ Mostantól javíthatja tartalmai kompatibilitását, és szélesebb közönséget érhet el, ha zökkenőmentesen konvertálja EPUB-dokumentumait PDF-be az Aspose.HTML for Java segítségével. Ha bármilyen problémába ütközik, vagy további segítségre van szüksége, ne habozzon felfedezni az Aspose.HTML for Java-t[dokumentáció](https://reference.aspose.com/html/java/) vagy kérjen segítséget az Aspose közösségtől[támogatási fórum](https://forum.aspose.com/).
 
 ## Gyakran Ismételt Kérdések (GYIK)
 

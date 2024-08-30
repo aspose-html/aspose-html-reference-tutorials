@@ -172,11 +172,11 @@ class MemoryStreamProvider : Aspose.Html.IO.ICreateStreamProvider
 
 ## 結論
 
-在這個綜合教學中，我們探索如何利用 Aspose.HTML for .NET 透過各種自訂選項將 EPUB 檔案轉換為 XPS 格式。無論您是經驗豐富的開發人員還是新手，Aspose.HTML 都可以簡化流程，讓您輕鬆處理 EPUB 到 XPS 的轉換。
+在這個綜合教學中，我們探索如何利用 Aspose.HTML for .NET 透過各種自訂選項將 EPUB 檔案轉換為 XPS 格式。無論您是經驗豐富的開發人員還是新手，Aspose.HTML 都能簡化流程，讓您輕鬆處理 EPUB 到 XPS 的轉換。
 
 有任何疑問或遇到問題嗎？查看[Aspose.HTML 文檔](https://reference.aspose.com/html/net/)獲取更多見解或尋求協助[Aspose.HTML 社群論壇](https://forum.aspose.com/).
 
-## 經常問的問題
+## 常見問題解答
 
 ### 什麼是 .NET 的 Aspose.HTML？
 Aspose.HTML for .NET 是一個功能強大的函式庫，使開發人員能夠在 .NET 應用程式中使用 HTML、EPUB 和 XPS 文件。

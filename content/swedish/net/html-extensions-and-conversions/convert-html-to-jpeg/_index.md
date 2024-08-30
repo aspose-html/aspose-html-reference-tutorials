@@ -12,7 +12,7 @@ I en värld av webbutveckling är Aspose.HTML för .NET ett kraftfullt och mång
 
 ## Introduktion
 
-Aspose.HTML för .NET är ett funktionsrikt bibliotek som gör det möjligt för utvecklare att arbeta med HTML-dokument sömlöst. Med det här biblioteket kan du utföra olika operationer på HTML-filer, inklusive konvertering till olika format, manipulering av dokumentelement och mer. I denna steg-för-steg-guide kommer vi att fördjupa oss i processen att konvertera HTML till JPEG i en .NET-miljö. Låt oss börja!
+Aspose.HTML för .NET är ett funktionsrikt bibliotek som gör det möjligt för utvecklare att arbeta med HTML-dokument sömlöst. Med det här biblioteket kan du utföra olika operationer på HTML-filer, inklusive konvertering till olika format, manipulering av dokumentelement och mer. I denna steg-för-steg-guide kommer vi att fördjupa oss i processen att konvertera HTML till JPEG i en .NET-miljö. Låt oss komma igång!
 
 ## Förutsättningar
 
@@ -105,7 +105,7 @@ Nu är det dags att konvertera HTML-dokumentet till en JPEG-bild.
 Converter.ConvertHTML(htmlDocument, options, outputFile);
 ```
 
-Och det är allt! Du har framgångsrikt konverterat ett HTML-dokument till en JPEG-bild med Aspose.HTML för .NET.
+Och det är det! Du har framgångsrikt konverterat ett HTML-dokument till en JPEG-bild med Aspose.HTML för .NET.
 
 ## Slutsats
 

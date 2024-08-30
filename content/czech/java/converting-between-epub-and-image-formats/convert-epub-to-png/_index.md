@@ -13,9 +13,9 @@ Hledáte bezproblémový způsob převodu souborů EPUB na obrázky PNG v Javě?
 
 Než se ponoříme do procesu převodu, je třeba splnit několik předpokladů:
 
-1.  Vývojové prostředí Java: Ujistěte se, že máte v systému nainstalovanou Javu. Nejnovější verzi Javy si můžete stáhnout a nainstalovat z[tady](https://www.oracle.com/java/technologies/javase-downloads.html).
+1.  Vývojové prostředí Java: Ujistěte se, že máte v systému nainstalovanou Javu. Nejnovější verzi Javy si můžete stáhnout a nainstalovat z[zde](https://www.oracle.com/java/technologies/javase-downloads.html).
 
-2. Aspose.HTML for Java: Budete potřebovat knihovnu Aspose.HTML for Java. Pokud jej ještě nemáte, můžete si jej stáhnout z[tady](https://releases.aspose.com/html/java/).
+2. Aspose.HTML for Java: Budete potřebovat knihovnu Aspose.HTML for Java. Pokud jej ještě nemáte, můžete si jej stáhnout z[zde](https://releases.aspose.com/html/java/).
 
 3. Soubor EPUB: Připravte soubor EPUB, který chcete převést na obrázek PNG. Ujistěte se, že máte přístup k tomuto souboru ve vašem místním systému.
 
@@ -56,7 +56,7 @@ ImageSaveOptions options = new ImageSaveOptions(ImageFormat.Png);
 Converter.convertEPUB(fileInputStream, options, "output.png");
 ```
 
-A je to! Úspěšně jste převedli soubor EPUB na obrázek PNG pomocí Aspose.HTML for Java. Převedený soubor PNG najdete v adresáři projektu.
+To je vše! Úspěšně jste převedli soubor EPUB na obrázek PNG pomocí Aspose.HTML for Java. Převedený soubor PNG najdete v adresáři projektu.
 
 ## Závěr
  Aspose.HTML for Java poskytuje výkonný a přímočarý způsob převodu souborů EPUB na obrázky PNG. Pomocí těchto kroků můžete tuto funkci bez problémů integrovat do svých aplikací Java. Pokud narazíte na nějaké problémy nebo máte dotazy, navštivte fórum Aspose.HTML, kde získáte podporu:[Fórum Aspose.HTML](https://forum.aspose.com/).
@@ -77,8 +77,8 @@ A2: Rozhodně! Aspose.HTML for Java je navržen tak, aby efektivně zvládal dá
 
 ### Q4: Nabízí Aspose.HTML for Java bezplatnou zkušební verzi?
 
- A4: Ano, máte přístup k bezplatné zkušební verzi Aspose.HTML pro Java[tady](https://releases.aspose.com/).
+ A4: Ano, máte přístup k bezplatné zkušební verzi Aspose.HTML pro Java[zde](https://releases.aspose.com/).
 
 ### Q5: Kde najdu podrobnou dokumentaci k Aspose.HTML pro Java?
 
- A5: Můžete nahlédnout do dokumentace[tady](https://reference.aspose.com/html/java/), který poskytuje podrobné informace o Aspose.HTML pro funkce a použití Java.
+ A5: Můžete nahlédnout do dokumentace[zde](https://reference.aspose.com/html/java/), který poskytuje podrobné informace o Aspose.HTML pro funkce a použití Java.

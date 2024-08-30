@@ -1,26 +1,26 @@
 ---
-title: Aspose.HTML for Java を使用して PDF ページ サイズを調整する
-linktitle: PDFのページサイズを調整する
+title: Aspose.HTML for Java で PDF ページ サイズを調整する
+linktitle: PDF ページサイズの調整
 second_title: Aspose.HTML を使用した Java HTML 処理
-description: Aspose.HTML for Java を使用して PDF ページ サイズを調整する方法を学びます。 HTML から高品質の PDF を簡単に作成できます。ページのサイズを効果的に制御します。
+description: Aspose.HTML for Java を使用して PDF ページ サイズを調整する方法を学びます。HTML から高品質の PDF を簡単に作成します。ページ サイズを効果的に制御します。
 type: docs
 weight: 15
 url: /ja/java/advanced-usage/adjust-pdf-page-size/
 ---
 
-今日のデジタル時代では、HTML コンテンツから高品質の PDF を生成するニーズが高まっています。 Aspose.HTML for Java は、HTML ドキュメントを PDF 形式に簡単に変換できる強力な Java ライブラリです。このチュートリアルでは、Aspose.HTML for Java を使用して HTML を PDF に変換するときのページ サイズの調整に焦点を当てます。
+今日のデジタル時代では、HTML コンテンツから高品質の PDF を生成する必要性が高まっています。Aspose.HTML for Java は、HTML ドキュメントを PDF 形式に簡単に変換できる強力な Java ライブラリです。このチュートリアルでは、Aspose.HTML for Java を使用して HTML を PDF に変換する際のページ サイズの調整に焦点を当てます。
 
 ## 前提条件
 
 始める前に、次の前提条件が満たされていることを確認してください。
 
-- Java 開発環境: システムに Java Development Kit (JDK) がインストールされていることを確認します。
--  Aspose.HTML for Java: Web サイトから Aspose.HTML for Java をダウンロードしてインストールする必要があります。[ここ](https://releases.aspose.com/html/java/).
-- HTML ドキュメント: 変換できる HTML ドキュメントを用意する必要があります。そうでない場合は、作成するか、既存の HTML ファイルを使用します。
+- Java 開発環境: システムに Java 開発キット (JDK) がインストールされていることを確認します。
+-  Aspose.HTML for Java: Aspose.HTML for JavaをWebサイトからダウンロードしてインストールする必要があります。[ここ](https://releases.aspose.com/html/java/).
+- HTML ドキュメント: 変換用の HTML ドキュメントを用意しておく必要があります。用意していない場合は、作成するか、既存の HTML ファイルを使用します。
 
 ## パッケージのインポート
 
-まず、Aspose.HTML for Java を使用するために必要なパッケージをインポートする必要があります。次のコード スニペットは、これを行う方法を示しています。
+まず、Aspose.HTML for Java を使用するために必要なパッケージをインポートする必要があります。次のコード スニペットは、その方法を示しています。
 
 ```java
 import com.aspose.html.HTMLDocument;
@@ -31,9 +31,9 @@ import com.aspose.html.drawing.Size;
 import com.aspose.html.rendering.PageSetup;
 ```
 
-前提条件を整え、必要なパッケージをインポートしたので、PDF ページ サイズを調整するプロセスを複数のステップに分けてみましょう。
+前提条件が整い、必要なパッケージがインポートされたので、PDF ページ サイズを調整するプロセスを複数のステップに分解してみましょう。
 
-## ステップ 1: HTML コンテンツを読む
+## ステップ1: HTMLコンテンツの読み取り
 
 まず、PDF に変換する HTML コンテンツを読み取る必要があります。この例では、「FirstFile.html」という名前のファイルから HTML を読み取ります。
 
@@ -41,7 +41,7 @@ import com.aspose.html.rendering.PageSetup;
 try (java.io.FileInputStream fileInputStream = new java.io.FileInputStream(Resources.input("FirstFile.html"))) {
 ```
 
-## ステップ 2: HTML コンテンツの作成
+## ステップ2: HTMLコンテンツの作成
 
 次に、HTML コンテンツを「FirstFileOut.html」という名前のファイルに書き込みます。
 
@@ -67,22 +67,22 @@ try (java.io.FileOutputStream fileOutputStream = new java.io.FileOutputStream(Re
 }
 ```
 
-## ステップ 3: HTML を PDF にレンダリングする
+## ステップ3: HTMLをPDFにレンダリングする
 
-次に、HTML コンテンツを PDF ファイルにレンダリングします。ページ サイズがコンテンツの幅に合わせて調整されない場合と、ページ サイズが調整される場合の 2 つのシナリオについて説明します。
+ここで、HTML コンテンツを PDF ファイルにレンダリングします。ページ サイズがコンテンツの幅に合わせて調整されないシナリオと、調整されるシナリオの 2 つのシナリオについて説明します。
 
-### ページサイズは調整されていません
+### ページサイズが調整されていません
 
-このシナリオでは、ページ サイズが固定の幅と高さに設定されているため、これらのサイズを超えるとコンテンツが切り取られる可能性があります。
+このシナリオでは、ページ サイズは固定の幅と高さに設定されており、これらの寸法を超えるとコンテンツが切り取られる可能性があります。
 
 ```java
 String pdf_output;
 com.aspose.html.rendering.HtmlRenderer pdf_renderer = new com.aspose.html.rendering.HtmlRenderer();
 
-// HTML ファイルから HTMLDocument インスタンスを作成する
+// HTMLファイルからHTMLDocumentインスタンスを作成する
 com.aspose.html.HTMLDocument html_document = new com.aspose.html.HTMLDocument(Resources.output("FirstFileOut.html"));
 
-//PDF レンダリング オプションを設定する
+//PDFレンダリングオプションを設定する
 com.aspose.html.rendering.pdf.PdfRenderingOptions pdf_options = new com.aspose.html.rendering.pdf.PdfRenderingOptions();
 com.aspose.html.rendering.PageSetup pageSetup = new com.aspose.html.rendering.PageSetup();
 pageSetup.setAnyPage(new com.aspose.html.drawing.Page(new com.aspose.html.drawing.Size(100, 100)));
@@ -96,7 +96,7 @@ com.aspose.html.rendering.pdf.PdfDevice device = new com.aspose.html.rendering.p
 pdf_renderer.render(device, html_document);
 ```
 
-### コンテンツの幅に合わせてページ サイズを調整
+### コンテンツの幅に合わせてページサイズを調整
 
 このシナリオでは、ページ サイズはコンテンツの幅に応じて調整されます。
 
@@ -116,28 +116,28 @@ pdf_renderer.render(device, html_document);
 
 ## 結論
 
-このチュートリアルでは、Aspose.HTML for Java を使用して HTML を PDF に変換するときに PDF ページ サイズを調整する方法を検討しました。前提条件を学習し、必要なパッケージをインポートし、ステップバイステップのガイドに従ってこのタスクを完了しました。 Aspose.HTML for Java を使用すると、生成された PDF のページ サイズを簡単に制御でき、コンテンツが意図したとおりに表示されるようになります。
+このチュートリアルでは、Aspose.HTML for Java を使用して HTML を PDF に変換するときに PDF ページ サイズを調整する方法について説明しました。前提条件を理解し、必要なパッケージをインポートし、このタスクを達成するためのステップ バイ ステップ ガイドに従いました。Aspose.HTML for Java を使用すると、生成された PDF のページ サイズを簡単に制御し、コンテンツが意図したとおりに表示されるようにすることができます。
 
-特定の要件を満たすために、さまざまなページ サイズと設定を自由に試してみてください。問題が発生した場合、またはさらに質問がある場合は、遠慮なくサポートを求めてください。[Aspose.HTML for Java ドキュメント](https://reference.aspose.com/html/java/)または[Aspose サポート フォーラム](https://forum.aspose.com/).
+さまざまなページサイズや設定を試して、特定の要件を満たしてください。問題が発生したり、さらに質問がある場合は、遠慮なくお問い合わせください。[Aspose.HTML for Java ドキュメント](https://reference.aspose.com/html/java/)または[Aspose サポート フォーラム](https://forum.aspose.com/).
 
 ## よくある質問
 
 ### Q1: Aspose.HTML for Java とは何ですか?
 
-A1: Aspose.HTML for Java は、HTML ドキュメントの操作、操作、変換、PDF などのさまざまな形式へのレンダリングを可能にする Java ライブラリです。
+A1: Aspose.HTML for Java は、HTML ドキュメントを操作、変換し、PDF を含むさまざまな形式でレンダリングできる Java ライブラリです。
 
 ### Q2: Aspose.HTML for Java を使用して HTML を PDF に変換するときに、PDF ページ サイズを調整するにはどうすればよいですか?
 
- A2: PDF のページ サイズは、`PageSetup`クラスと設定`AdjustToWidestPage`財産を`true`要件に応じて、または `false。
+ A2: PDFのページサイズは、`PageSetup`クラスと設定`AdjustToWidestPage`財産に`true`または、要件に応じて false になります。
 
-### Q3: HTML コンテンツを PDF に変換する前に、そのスタイルをカスタマイズできますか?
+### Q3: HTML コンテンツを PDF に変換する前にスタイルをカスタマイズできますか?
 
-A3: はい、チュートリアルで説明されているように、PDF に変換する前に HTML コンテンツに CSS 要素と HTML 要素を追加することで、スタイルをカスタマイズできます。
+A3: はい、チュートリアルで説明されているように、PDF に変換する前に HTML コンテンツに CSS および HTML 要素を追加してスタイルをカスタマイズできます。
 
-### Q4: Aspose.HTML for Java のドキュメントはどこで見つけられますか?
+### Q4: Aspose.HTML for Java のドキュメントはどこにありますか?
 
- A4: ドキュメントを参照してください。[ここ](https://reference.aspose.com/html/java/)包括的な情報と例については、こちらをご覧ください。
+ A4: ドキュメントを参照してください[ここ](https://reference.aspose.com/html/java/)包括的な情報と例については、こちらをご覧ください。
 
-### Q5: Aspose.HTML for Java の無料トライアルはありますか?
+### Q5: Aspose.HTML for Java の無料試用版はありますか?
 
- A5: はい、次のサイトから Aspose.HTML for Java の無料トライアルにアクセスできます。[このリンク](https://releases.aspose.com/).
+ A5: はい、Aspose.HTML for Javaの無料トライアルは以下からご利用いただけます。[このリンク](https://releases.aspose.com/).

@@ -10,7 +10,7 @@ url: /hu/java/conversion-html-to-other-formats/convert-markdown-to-html/
 
 ## Bevezetés
 
-Zökkenőmentesen szeretné konvertálni a Markdown-t HTML-re Java segítségével? Az Aspose.HTML for Java a legjobb megoldás. Ebben az átfogó útmutatóban végigvezetjük a folyamaton, biztosítva, hogy világosan megértse az egyes lépéseket. Ennek az oktatóanyagnak a végére felkészülten kezelheti a Markdown-HTML átalakítást, mint egy profi. Kezdjük el!
+Zökkenőmentesen szeretné konvertálni a Markdown-t HTML-re Java segítségével? Az Aspose.HTML for Java a legjobb megoldás. Ebben az átfogó útmutatóban végigvezetjük a folyamaton, biztosítva, hogy világosan megértse az egyes lépéseket. Ennek az oktatóanyagnak a végére felkészülten kezelheti a Markdown-HTML átalakítást, mint egy profi. Kezdjük is!
 
 ## Előfeltételek
 

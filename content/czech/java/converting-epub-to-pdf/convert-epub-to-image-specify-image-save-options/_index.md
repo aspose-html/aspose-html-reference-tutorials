@@ -16,7 +16,7 @@ Než se ponoříte do světa Aspose.HTML pro Java, měli byste se ujistit, že m
 
 1. Vývojové prostředí Java: Ujistěte se, že máte v systému nainstalovanou sadu Java Development Kit (JDK).
 
-2. Aspose.HTML for Java: Stáhněte a nainstalujte knihovnu Aspose.HTML for Java. Odkaz ke stažení najdete[tady](https://releases.aspose.com/html/java/).
+2. Aspose.HTML for Java: Stáhněte a nainstalujte knihovnu Aspose.HTML for Java. Odkaz ke stažení najdete[zde](https://releases.aspose.com/html/java/).
 
 3. Editor kódu: Použijte libovolný editor kódu podle svého výběru, jako je Eclipse, IntelliJ IDEA nebo Visual Studio Code.
 
@@ -77,29 +77,29 @@ options.setBackgroundColor(Color.getAliceBlue());
 Converter.convertEPUB(fileInputStream, options, Resources.output("output.jpg"));
 ```
 
- Zavolej`convertEPUB` metoda pro převod souboru EPUB na obrázek JPG. Ujistěte se, že jste zadali proud vstupního souboru, možnosti a požadovanou cestu k výstupnímu souboru.
+ Zavolejte na`convertEPUB` metoda pro převod souboru EPUB na obrázek JPG. Ujistěte se, že jste zadali proud vstupního souboru, možnosti a požadovanou cestu k výstupnímu souboru.
 
-Gratulujeme! Úspěšně jste převedli soubor EPUB na obrázek pomocí Aspose.HTML for Java.
+Gratuluji! Úspěšně jste převedli soubor EPUB na obrázek pomocí Aspose.HTML for Java.
 
 ## Závěr
 
 Aspose.HTML for Java je všestranná knihovna, která umožňuje vývojářům Java pracovat s dokumenty HTML a provádět různé konverze bez námahy. Pomocí tohoto podrobného průvodce jste se naučili importovat balíčky a převést soubor EPUB na obrázek. Nyní jste připraveni prozkoumat další funkce a uvolnit plný potenciál Aspose.HTML pro Java ve svých projektech vývoje webu.
 
- Máte otázky nebo potřebujete pomoc? Neváhejte oslovit[Komunita Aspose.HTML](https://forum.aspose.com/) pro podporu.
+ Máte otázky nebo potřebujete pomoc? Neváhejte oslovit[Komunita Aspose.HTML](https://forum.aspose.com/) za podporu.
 
 ## Často kladené otázky (FAQ)
 
 ### 1. Kde najdu dokumentaci Aspose.HTML for Java?
 
- Máte přístup k dokumentaci[tady](https://reference.aspose.com/html/java/). Poskytuje komplexní informace a příklady, které vám pomohou začít.
+ Máte přístup k dokumentaci[zde](https://reference.aspose.com/html/java/). Poskytuje komplexní informace a příklady, které vám pomohou začít.
 
 ### 2. Je k dispozici bezplatná zkušební verze Aspose.HTML pro Java?
 
- Ano, můžete si stáhnout bezplatnou zkušební verzi[tady](https://releases.aspose.com/). Umožňuje vám prozkoumat možnosti knihovny před nákupem.
+ Ano, můžete si stáhnout bezplatnou zkušební verzi[zde](https://releases.aspose.com/). Umožňuje vám prozkoumat možnosti knihovny před nákupem.
 
 ### 3. Jak mohu získat dočasnou licenci pro Aspose.HTML for Java?
 
- Pokud potřebujete dočasnou licenci, můžete si ji pořídit[tady](https://purchase.aspose.com/temporary-license/).
+ Pokud potřebujete dočasnou licenci, můžete si ji pořídit[zde](https://purchase.aspose.com/temporary-license/).
 
 ### 4. Dokáže Aspose.HTML for Java zvládnout jiné převody dokumentů?
 

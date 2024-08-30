@@ -16,7 +16,7 @@ Než se ponoříme do příkladů kódu, ujistěte se, že máte splněny násle
 
 1. Visual Studio: Abyste mohli postupovat podle příkladů, budete potřebovat Visual Studio nainstalované na vašem počítači.
 
-2.  Aspose.HTML for .NET: Měli byste mít nainstalovanou knihovnu Aspose.HTML for .NET. Můžete si jej stáhnout z[tady](https://releases.aspose.com/html/net/).
+2.  Aspose.HTML for .NET: Měli byste mít nainstalovanou knihovnu Aspose.HTML for .NET. Můžete si jej stáhnout z[zde](https://releases.aspose.com/html/net/).
 
 3. Základní porozumění C#: Znalost programování v C# bude užitečné, ale i když jste v C# noví, stále můžete sledovat a učit se.
 
@@ -60,7 +60,7 @@ static void EditDocumentTree()
 
 2. Přistupujeme k prvku těla dokumentu.
 
-3. Dále vytvoříme element odstavce HTML (`<p>` ) použitím`document.CreateElement("p")`.
+3. Dále vytvoříme element odstavce HTML (`<p>` ) pomocí`document.CreateElement("p")`.
 
 4.  Nastavíme vlastní atribut`id` pro prvek odstavce.
 
@@ -94,7 +94,7 @@ static void EditDocumentTreeWithAppendRemoveChild()
 
 2. Přistupujeme k prvku těla dokumentu.
 
-3.  Použitím`body.GetElementsByTagName("div").First()` , získáme první`<div>` prvek v dokumentu.
+3.  Použití`body.GetElementsByTagName("div").First()` , získáme první`<div>` prvek v dokumentu.
 
 4.  Vybrané odstraníme`<div>` prvek z těla dokumentu pomocí`body.RemoveChild(div)`.
 
@@ -124,7 +124,7 @@ static void EditHtml()
 
 2. Přistupujeme k prvku těla dokumentu.
 
-3.  Použitím`body.InnerHTML` , nastavíme obsah HTML těla na`<p>paragraph</p>`.
+3.  Použití`body.InnerHTML` , nastavíme obsah HTML těla na`<p>paragraph</p>`.
 
 4.  Načteme první podřízený prvek těla pomocí`body.FirstChild`.
 
@@ -190,7 +190,7 @@ static void EditElementStyleUsingAttribute()
 
 2.  Získáváme`<p>` pomocí prvku`document.GetElementsByTagName("p")[0]`.
 
-3.  Přistoupíme k objektu pohledu CSS a získáme vypočítaný styl`<p>` prvek před jakoukoliv změnou.
+3.  Přistoupíme k objektu pohledu CSS a získáme vypočítaný styl`<p>` prvek před jakoukoli změnou.
 
 4.  Změníme barvu`<p>` prvek k zelenému použití`element.Style.Color = "green"`.
 
@@ -202,7 +202,7 @@ Tento příklad ukazuje, jak přímo upravit styl prvku HTML pomocí atributů.
 
 ## Závěr
 
-V tomto tutoriálu jsme probrali základy používání Aspose.HTML pro .NET k vytváření, manipulaci a stylování HTML dokumentů v rámci vašich .NET aplikací. Prozkoumali jsme různé příklady, od vytvoření dokumentu HTML až po úpravu jeho struktury a stylů. S těmito dovednostmi můžete efektivně pracovat s HTML dokumenty ve svých .NET projektech.
+V tomto tutoriálu jsme probrali základy používání Aspose.HTML pro .NET k vytváření, manipulaci a stylování HTML dokumentů v rámci vašich .NET aplikací. Prozkoumali jsme různé příklady, od vytvoření dokumentu HTML až po úpravu jeho struktury a stylů. S těmito dovednostmi můžete efektivně pracovat s dokumenty HTML ve svých projektech .NET.
 
  Pokud máte nějaké dotazy nebo potřebujete další pomoc, neváhejte a navštivte[Aspose.HTML pro dokumentaci .NET](https://reference.aspose.com/html/net/) nebo vyhledejte pomoc na[Aspose fórum](https://forum.aspose.com/).
 
@@ -214,10 +214,10 @@ V tomto tutoriálu jsme probrali základy používání Aspose.HTML pro .NET k v
 Aspose.HTML for .NET je výkonná knihovna pro práci s dokumenty HTML v aplikacích .NET.
 
 ### Kde si mohu stáhnout Aspose.HTML pro .NET?
- Aspose.HTML pro .NET si můžete stáhnout z[tady](https://releases.aspose.com/html/net/).
+ Aspose.HTML pro .NET si můžete stáhnout z[zde](https://releases.aspose.com/html/net/).
 
 ### Je k dispozici bezplatná zkušební verze?
- Ano, můžete získat bezplatnou zkušební verzi Aspose.HTML od[tady](https://releases.aspose.com/).
+ Ano, můžete získat bezplatnou zkušební verzi Aspose.HTML od[zde](https://releases.aspose.com/).
 
 ### Jak si mohu zakoupit licenci?
  Chcete-li zakoupit licenci, navštivte[tento odkaz](https://purchase.aspose.com/buy).

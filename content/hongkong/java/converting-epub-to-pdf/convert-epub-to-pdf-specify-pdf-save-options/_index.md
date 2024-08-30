@@ -26,7 +26,7 @@ Aspose.HTML for Java 是處理 HTML 和 EPUB 文件的強大工具。在本逐�
 
 ## 第 1 步：開啟 EPUB 文件
 
-首先，開啟現有的 EPUB 檔案進行閱讀。您可以使用`FileInputStream`為了達成這個。這是此步驟的程式碼：
+首先，開啟現有的 EPUB 檔案進行閱讀。您可以使用`FileInputStream`為了實現這一點。這是此步驟的程式碼：
 
 ```java
 try (java.io.FileInputStream fileInputStream = new java.io.FileInputStream(Resources.input("input.epub"))) {

@@ -7,7 +7,7 @@ type: docs
 weight: 12
 url: /sv/java/converting-between-epub-and-image-formats/convert-epub-to-jpg/
 ---
-I denna steg-för-steg handledning kommer vi att guida dig genom processen att konvertera en EPUB-fil till JPG-format med Aspose.HTML för Java. Aspose.HTML är ett kraftfullt bibliotek som låter dig arbeta med HTML och olika format, vilket gör det till ett utmärkt val för att hantera EPUB-konverteringar. Låt oss börja!
+I denna steg-för-steg handledning kommer vi att guida dig genom processen att konvertera en EPUB-fil till JPG-format med Aspose.HTML för Java. Aspose.HTML är ett kraftfullt bibliotek som låter dig arbeta med HTML och olika format, vilket gör det till ett utmärkt val för att hantera EPUB-konverteringar. Låt oss komma igång!
 
 ## Förutsättningar
 

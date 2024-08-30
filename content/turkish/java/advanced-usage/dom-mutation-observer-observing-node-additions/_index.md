@@ -1,6 +1,6 @@
 ---
-title: Aspose.HTML for Java ile DOM Mutasyon Gözlemcisi
-linktitle: DOM Mutation Observer - Düğüm Eklemelerini Gözlemleme
+title: Java için Aspose.HTML ile DOM Mutasyon Gözlemcisi
+linktitle: DOM Mutasyon Gözlemcisi - Düğüm Eklemelerini Gözlemleme
 second_title: Aspose.HTML ile Java HTML İşleme
 description: Bu adım adım kılavuzda DOM Mutation Observer'ı uygulamak için Aspose.HTML for Java'yı nasıl kullanacağınızı öğrenin. DOM değişikliklerini etkili bir şekilde izleyin ve bunlara tepki verin.
 type: docs
@@ -8,24 +8,24 @@ weight: 11
 url: /tr/java/advanced-usage/dom-mutation-observer-observing-node-additions/
 ---
 
-Bir HTML belgesinin Belge Nesne Modelindeki (DOM) değişiklikleri gözlemlemek ve bunlara tepki vermek isteyen bir Java geliştiricisi misiniz? Aspose.HTML for Java bu görev için güçlü bir çözüm sunar. Bu adım adım kılavuzda, bir HTML belgesi oluşturmak ve Mutation Observer ile düğüm eklemelerini gözlemlemek için Aspose.HTML for Java'nın nasıl kullanılacağını keşfedeceğiz. Bu eğitim, her örneği birden fazla adıma ayırarak süreç boyunca size yol gösterecektir. Sonunda, DOM Mutation Observers'ı Java projelerinize kolaylıkla uygulayabileceksiniz.
+Bir HTML belgesinin Belge Nesne Modeli'ndeki (DOM) değişiklikleri gözlemlemek ve bunlara tepki vermek isteyen bir Java geliştiricisi misiniz? Java için Aspose.HTML bu görev için güçlü bir çözüm sunar. Bu adım adım kılavuzda, bir HTML belgesi oluşturmak ve Mutation Observer ile düğüm eklemelerini gözlemlemek için Java için Aspose.HTML'i nasıl kullanacağınızı keşfedeceğiz. Bu eğitim, her örneği birden fazla adıma bölerek sizi süreçte yönlendirecektir. Sonunda, Java projelerinizde DOM Mutation Observer'ları kolaylıkla uygulayabileceksiniz.
 
-## Önkoşullar
+## Ön koşullar
 
-Aspose.HTML for Java kullanımına geçmeden önce gerekli önkoşulların mevcut olduğundan emin olalım:
+Java için Aspose.HTML'i kullanmaya başlamadan önce, gerekli ön koşulların mevcut olduğundan emin olalım:
 
-1. Java Geliştirme Ortamı: Sisteminizde Java Geliştirme Kitinin (JDK) kurulu olduğundan emin olun.
+1. Java Geliştirme Ortamı: Sisteminizde Java Geliştirme Kiti'nin (JDK) yüklü olduğundan emin olun.
 
-2.  Aspose.HTML for Java: Aspose.HTML for Java'yı indirip yüklemeniz gerekecek. İndirme linkini bulabilirsiniz[Burada](https://releases.aspose.com/html/java/).
+2.  Java için Aspose.HTML: Java için Aspose.HTML'i indirip yüklemeniz gerekecektir. İndirme bağlantısını bulabilirsiniz[Burada](https://releases.aspose.com/html/java/).
 
-3. IDE (Entegre Geliştirme Ortamı): Java kodunu yazmak ve çalıştırmak için IntelliJ IDEA veya Eclipse gibi tercih ettiğiniz Java IDE'yi kullanın.
+3. IDE (Bütünleşik Geliştirme Ortamı): Java kodu yazmak ve çalıştırmak için IntelliJ IDEA veya Eclipse gibi tercih ettiğiniz Java IDE'sini kullanın.
 
 ## Paketleri İçe Aktar
 
-Aspose.HTML for Java'yı kullanmaya başlamak için gerekli paketleri Java kodunuza aktarmanız gerekir. Bunu nasıl yapabileceğiniz aşağıda açıklanmıştır:
+Java için Aspose.HTML'i kullanmaya başlamak için gerekli paketleri Java kodunuza aktarmanız gerekir. Bunu şu şekilde yapabilirsiniz:
 
 ```java
-// Gerekli paketleri içe aktar
+// Gerekli paketleri içe aktarın
 import com.aspose.html.HTMLDocument;
 import com.aspose.html.dom.mutations.MutationObserver;
 import com.aspose.html.dom.mutations.MutationCallback;
@@ -39,11 +39,11 @@ import com.aspose.html.generic.IGenericList;
 HTMLDocument document = new HTMLDocument();
 ```
 
-Artık gerekli paketleri içe aktardığınıza göre, Java'da DOM Mutation Observer'ı uygulamaya yönelik adım adım kılavuza geçelim.
+Artık gerekli paketleri içe aktardığımıza göre, Java'da DOM Mutation Observer'ı uygulamaya yönelik adım adım kılavuza geçelim.
 
 ## Adım 1: Mutasyon Gözlemcisi Örneği Oluşturun
 
-Öncelikle bir Mutation Observer örneği oluşturmanız gerekir. Bu gözlemci DOM'daki değişiklikleri izleyecek ve mutasyonlar meydana geldiğinde bir geri arama işlevi yürütecektir.
+Öncelikle bir Mutation Observer örneği oluşturmanız gerekir. Bu gözlemci DOM'daki değişiklikleri izleyecek ve mutasyonlar meydana geldiğinde bir geri çağırma işlevini yürütecektir.
 
 ```java
 MutationObserver observer = new MutationObserver(new MutationCallback() {
@@ -61,11 +61,11 @@ MutationObserver observer = new MutationObserver(new MutationCallback() {
 });
 ```
 
-Bu adımda, DOM'a düğümler eklendiğinde mesaj yazdıran geri çağırma işlevine sahip bir gözlemci oluşturuyoruz.
+Bu adımda, DOM'a düğümler eklendiğinde bir mesaj yazdıran bir geri çağırma işlevine sahip bir gözlemci oluşturuyoruz.
 
-## Adım 2: Observer'ı yapılandırın
+## Adım 2: Gözlemciyi Yapılandırın
 
-Şimdi gözlemciyi istenilen seçeneklerle yapılandıralım. Karakter verilerindeki değişikliklerin yanı sıra alt liste değişikliklerini ve alt ağaç değişikliklerini de gözlemlemek istiyoruz.
+Şimdi, gözlemciyi istenilen seçeneklerle yapılandıralım. Çocuk listesi değişikliklerini ve alt ağaç değişikliklerini ve karakter verilerindeki değişiklikleri gözlemlemek istiyoruz.
 
 ```java
 MutationObserverInit config = new MutationObserverInit();
@@ -73,15 +73,15 @@ config.setChildList(true);
 config.setSubtree(true);
 config.setCharacterData(true);
 
-// Belirtilen konfigürasyonla gözlemlemek için hedef düğüme geçin
+// Belirtilen yapılandırmayla gözlemlemek için hedef düğümü geçirin
 observer.observe(document.getBody(), config);
 ```
 
- Burada ayarları yapıyoruz`config` Alt liste, alt ağaç ve karakter verisi değişikliklerinin gözlemlenmesini sağlayan nesne. Daha sonra hedef düğüme geçeriz (bu durumda belgenin`<body>`) ve gözlemciye konfigürasyon.
+ Burada, şunu ayarladık:`config` nesne, çocuk listesini, alt ağacı ve karakter veri değişikliklerini gözlemlemeyi etkinleştirir. Daha sonra hedef düğümü (bu durumda, belgenin`<body>`) ve yapılandırmayı gözlemciye iletir.
 
-## 3. Adım: DOM'yi değiştirin
+## Adım 3: DOM'u değiştirin
 
-Şimdi gözlemciyi tetiklemek için DOM'da bazı değişiklikler yapacağız. Bir paragraf öğesi oluşturacağız ve onu belgenin gövdesine ekleyeceğiz.
+Şimdi, gözlemciyi tetiklemek için DOM'da bazı değişiklikler yapacağız. Bir paragraf öğesi oluşturacağız ve bunu belgenin gövdesine ekleyeceğiz.
 
 ```java
 // Bir paragraf öğesi oluşturun ve bunu belge gövdesine ekleyin
@@ -93,56 +93,56 @@ Text text = document.createTextNode("Hello World");
 p.appendChild(text);
 ```
 
-Bu adımda bir HTML paragraf öğesi oluşturup onu belgenin gövdesine ekliyoruz. Daha sonra "Merhaba Dünya" içeriğine sahip bir metin düğümü oluşturup onu paragrafa ekliyoruz.
+Bu adımda bir HTML paragraf öğesi oluşturup bunu belgenin gövdesine ekliyoruz. Daha sonra, "Hello World" içeriğine sahip bir metin düğümü oluşturup bunu paragrafa ekliyoruz.
 
 ## Adım 4: Gözlemleri Bekleyin (Eşzamansız)
 
-Mutasyonlar eş zamanlı olarak gözlemlenmediğinden gözlemcinin değişiklikleri yakalaması için bir süre beklememiz gerekir. kullanacağız`synchronized` Ve`wait` bu amaçla aşağıda gösterildiği gibi.
+Mutasyonlar eş zamanlı olarak gözlemlendiğinden, gözlemcinin değişiklikleri yakalamasına izin vermek için bir an beklememiz gerekir.`synchronized` Ve`wait` Bu amaçla aşağıda gösterildiği gibi.
 
 ```java
-// Mutasyonlar eşzamansız modda çalıştığından birkaç saniye bekleyin
+// Mutasyonlar asenkron modda çalıştığı için birkaç saniye bekleyin
 synchronized (this) {
     wait(5000);
 }
 ```
 
-Burada gözlemcinin herhangi bir mutasyonu yakalama şansına sahip olmasını sağlamak için 5 saniye bekliyoruz.
+Burada gözlemcinin herhangi bir mutasyonu yakalama şansına sahip olduğundan emin olmak için 5 saniye bekliyoruz.
 
-## Adım 5: Gözlemlemeyi Durdurun
+## Adım 5: Gözlemlemeyi bırakın
 
-Son olarak, gözlemlemeyi bitirdiğinizde, kaynakları serbest bırakmak için gözlemcinin bağlantısını kesmek önemlidir.
+Son olarak, gözlemlemeyi bitirdiğinizde kaynakları serbest bırakmak için gözlemcinin bağlantısını kesmeniz önemlidir.
 
 ```java
 // Gözlemlemeyi bırak
 observer.disconnect();
 ```
 
-Bu adımla gözlemi tamamladınız ve kaynakları temizleyebilirsiniz.
+Bu adımla gözlemi tamamlamış olursunuz ve kaynakları temizleyebilirsiniz.
 
 ## Çözüm
 
-Bu eğitimde, DOM Mutation Observer'ı uygulamak için Aspose.HTML for Java kullanma sürecini anlattık. Bir gözlemci oluşturmayı, onu yapılandırmayı, DOM'da değişiklik yapmayı, gözlemleri beklemeyi ve gözlemlemeyi nasıl durduracağınızı öğrendiniz. Artık, HTML belgelerinin DOM'undaki değişiklikleri etkili bir şekilde izlemek ve bunlara tepki vermek için Java projelerinizde DOM Mutasyon Gözlemcilerini uygulama becerisine sahipsiniz.
+Bu eğitimde, Java için Aspose.HTML'i kullanarak bir DOM Mutation Observer uygulama sürecini ele aldık. Bir gözlemci oluşturmayı, yapılandırmayı, DOM'da değişiklikler yapmayı, gözlemleri beklemeyi ve gözlemlemeyi durdurmayı öğrendiniz. Artık, HTML belgelerinin DOM'undaki değişiklikleri etkili bir şekilde izlemek ve bunlara tepki vermek için Java projelerinizde DOM Mutation Observer'ları uygulama becerisine sahipsiniz.
 
-Herhangi bir sorunuz varsa veya sorunla karşılaşırsanız, yardım istemekten çekinmeyin.[Aspose.HTML forumu](https://forum.aspose.com/) . Ek olarak, şuraya erişebilirsiniz:[dokümantasyon](https://reference.aspose.com/html/java/) Aspose.HTML for Java hakkında ayrıntılı bilgi için.
+Herhangi bir sorunuz varsa veya sorunla karşılaşırsanız, yardım istemekten çekinmeyin.[Aspose.HTML forumu](https://forum.aspose.com/) Ek olarak, şunlara erişebilirsiniz:[belgeleme](https://reference.aspose.com/html/java/) Java için Aspose.HTML hakkında detaylı bilgi için.
 
-## SSS'ler
+## SSS
 
 ### S1: DOM Mutasyon Gözlemcisi nedir?
 
-Cevap1: DOM Mutasyon Gözlemcisi, bir HTML belgesinin Belge Nesne Modelindeki (DOM) değişiklikleri izlemenize olanak tanıyan bir JavaScript özelliğidir. DOM düğümlerinin eklenmesine, silinmesine veya değiştirilmesine gerçek zamanlı olarak tepki vermenin bir yolunu sağlar.
+A1: DOM Mutation Observer, bir HTML belgesinin Belge Nesne Modeli'ndeki (DOM) değişiklikleri izlemenize olanak tanıyan bir JavaScript özelliğidir. DOM düğümlerinin eklenmesine, silinmesine veya değiştirilmesine gerçek zamanlı olarak tepki vermenin bir yolunu sağlar.
 
-### S2: Aspose.HTML for Java'yı ticari projelerimde kullanabilir miyim?
+### S2: Ticari projelerimde Aspose.HTML for Java'yı kullanabilir miyim?
 
- Cevap2: Evet, Aspose.HTML for Java'yı ticari projelerde kullanabilirsiniz. Lisanslama ve satın alma bilgilerini bulabilirsiniz[Burada](https://purchase.aspose.com/buy).
+ A2: Evet, ticari projelerde Java için Aspose.HTML kullanabilirsiniz. Lisanslama ve satın alma bilgilerini bulabilirsiniz[Burada](https://purchase.aspose.com/buy).
 
-### S3: Aspose.HTML for Java'nın ücretsiz deneme sürümü mevcut mu?
+### S3: Aspose.HTML for Java için ücretsiz deneme sürümü mevcut mu?
 
- Cevap3: Evet, Aspose.HTML for Java'nın ücretsiz deneme sürümünü edinebilirsiniz[Burada](https://releases.aspose.com/). Bu, satın alma işlemi yapmadan önce özelliklerini ve yeteneklerini keşfetmenizi sağlar.
+ A3: Evet, Java için Aspose.HTML'nin ücretsiz deneme sürümünü edinebilirsiniz[Burada](https://releases.aspose.com/). Bu, satın alma işlemi yapmadan önce özelliklerini ve yeteneklerini keşfetmenizi sağlar.
 
-### S4: Karakter verisi değişikliklerini Mutation Observer ile gözlemlemenin faydası nedir?
+### S4: Mutation Observer ile karakter verilerindeki değişiklikleri gözlemlemenin faydası nedir?
 
-Cevap4: Karakter verisi değişikliklerini gözlemlemek, HTML öğelerinin metin içeriğindeki değişiklikleri izlemek ve bunlara tepki vermek istediğiniz senaryolar için kullanışlıdır. Örneğin, bunu web formlarındaki kullanıcı girişini izlemek ve yanıtlamak için kullanabilirsiniz.
+A4: Karakter verisi değişikliklerini gözlemlemek, HTML öğelerinin metin içeriğindeki değişiklikleri izlemek ve bunlara tepki vermek istediğiniz senaryolar için yararlıdır. Örneğin, bunu web formlarındaki kullanıcı girdisini izlemek ve bunlara yanıt vermek için kullanabilirsiniz.
 
-### S5: Aspose.HTML for Java'yı kullanırken kaynakları nasıl elden çıkarabilirim?
+### S5: Java için Aspose.HTML kullanırken kaynakları nasıl imha edebilirim?
 
- C5: İşiniz bittiğinde kaynakları serbest bırakmak önemlidir. Örneğimizde kullandık`document.dispose()` HTML belgesiyle ilişkili kaynakları temizlemek için. Bellek sızıntılarını önlemek için oluşturduğunuz tüm nesneleri ve kaynakları attığınızdan emin olun.
+ A5: İşiniz bittiğinde kaynakları serbest bırakmak önemlidir. Örneğimizde,`document.dispose()` HTML belgesiyle ilişkili kaynakları temizlemek için. Bellek sızıntılarını önlemek için oluşturduğunuz tüm nesneleri ve kaynakları elden çıkardığınızdan emin olun.

@@ -8,7 +8,7 @@ weight: 14
 url: /cs/net/html-document-manipulation/creating-a-document/
 ---
 
-V neustále se vyvíjejícím světě vývoje webových aplikací je zásadní zůstat na špici. Aspose.HTML for .NET poskytuje vývojářům robustní sadu nástrojů pro práci s dokumenty HTML. Ať už začínáte od nuly, načítáte ze souboru, stahujete z adresy URL nebo zpracováváte dokumenty SVG, tato knihovna nabízí všestrannost, kterou potřebujete.
+V neustále se vyvíjejícím světě vývoje webových aplikací je zásadní zůstat na špici. Aspose.HTML for .NET poskytuje vývojářům robustní sadu nástrojů pro práci s dokumenty HTML. Ať už začínáte od nuly, načítáte ze souboru, vytahujete z adresy URL nebo zpracováváte dokumenty SVG, tato knihovna nabízí všestrannost, kterou potřebujete.
 
 tomto podrobném průvodci se ponoříme do základů používání Aspose.HTML pro .NET a zajistíme, že budete dobře vybaveni k používání tohoto mocného nástroje ve svých projektech vývoje webu. Než se ponoříme do podrobností, pojďme si projít předpoklady a nezbytné jmenné prostory, abyste mohli začít svou cestu.
 
@@ -118,7 +118,7 @@ using (var sw = new System.IO.StreamWriter(mem))
     // Nastavte pozici na začátek
     sw.Flush();
     mem.Seek(0, System.IO.SeekOrigin.Begin);
-    // Inicializujte dokument z datového proudu paměti
+    // Inicializujte dokument z paměti
     using (var document = new Aspose.Html.HTMLDocument(mem, "."))
     {
         // Uložte dokument na disk.
@@ -156,7 +156,7 @@ var document = new Aspose.Html.HTMLDocument();
 ```csharp
 document.OnReadyStateChange += (sender, @event) =>
 {
-    //Zkontrolujte hodnotu vlastnosti 'ReadyState'.
+    // Zkontrolujte hodnotu vlastnosti 'ReadyState'.
     if (document.ReadyState == "complete")
     {
         Console.WriteLine(document.DocumentElement.OuterHTML);
@@ -230,7 +230,7 @@ A3: Rozhodně! Aspose.HTML for .NET je díky své schopnosti načítat dokumenty
 Odpověď 5: Úplnou dokumentaci a přístup k možnostem stahování naleznete na následujících odkazech:
 
 - [Dokumentace](https://reference.aspose.com/html/net/)
-- [Stažení](https://releases.aspose.com/html/net/)
-- [Koupit](https://purchase.aspose.com/buy)
-- [Zkušební verze zdarma](https://releases.aspose.com/)
+- [Stáhnout](https://releases.aspose.com/html/net/)
+- [Nakoupit](https://purchase.aspose.com/buy)
+- [Bezplatná zkušební verze](https://releases.aspose.com/)
 - [Dočasná licence](https://purchase.aspose.com/temporary-license/)

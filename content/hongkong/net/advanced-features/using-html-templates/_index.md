@@ -129,7 +129,7 @@ A1：Aspose.HTML for .NET 是一個功能強大的函式庫，使 .NET 開發人
 
 ### Q3。如何下載 .NET 版 Aspose.HTML？
 
-A3：您可以從下載頁面下載 Aspose.HTML for .NET[這裡](https://releases.aspose.com/html/net/).
+A3：您可以從下載頁面下載Aspose.HTML for .NET[這裡](https://releases.aspose.com/html/net/).
 
 ### Q4。 Aspose.HTML for .NET 是否有免費試用版？
 

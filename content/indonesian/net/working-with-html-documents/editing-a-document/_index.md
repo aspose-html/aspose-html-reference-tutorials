@@ -1,28 +1,28 @@
 ---
-title: Mengedit Dokumen di .NET dengan Aspose.HTML
-linktitle: Mengedit Dokumen di .NET
+title: Mengedit Dokumen dalam .NET dengan Aspose.HTML
+linktitle: Mengedit Dokumen dalam .NET
 second_title: Aspose.HTML .NET API manipulasi HTML
-description: Pelajari cara bekerja dengan dokumen HTML di .NET menggunakan Aspose.HTML. Tutorial komprehensif ini mencakup pembuatan, manipulasi, dan penataan dokumen. Mulai sekarang!
+description: Pelajari cara bekerja dengan dokumen HTML di .NET menggunakan Aspose.HTML. Tutorial komprehensif ini mencakup pembuatan, manipulasi, dan penataan dokumen. Mulailah sekarang!
 type: docs
 weight: 12
 url: /id/net/working-with-html-documents/editing-a-document/
 ---
 
-Selamat datang di tutorial kami tentang penggunaan Aspose.HTML untuk .NET, alat canggih untuk menangani dokumen HTML di aplikasi .NET Anda. Dalam tutorial ini, kami akan memandu Anda melalui langkah-langkah penting untuk bekerja dengan dokumen HTML menggunakan Aspose.HTML. Baik Anda seorang pengembang berpengalaman atau baru memulai pengembangan .NET, panduan ini akan membantu Anda memanfaatkan potensi penuh Aspose.HTML untuk proyek Anda.
+Selamat datang di tutorial kami tentang penggunaan Aspose.HTML untuk .NET, alat yang hebat untuk menangani dokumen HTML di aplikasi .NET Anda. Dalam tutorial ini, kami akan memandu Anda melalui langkah-langkah penting untuk bekerja dengan dokumen HTML menggunakan Aspose.HTML. Apakah Anda seorang pengembang berpengalaman atau baru memulai pengembangan .NET, panduan ini akan membantu Anda memanfaatkan potensi penuh Aspose.HTML untuk proyek Anda.
 
 ## Prasyarat
 
-Sebelum kita mendalami contoh kode, pastikan Anda memiliki prasyarat berikut:
+Sebelum kita masuk ke contoh kode, pastikan Anda memiliki prasyarat berikut:
 
-1. Visual Studio: Anda perlu menginstal Visual Studio di mesin Anda untuk mengikuti contohnya.
+1. Visual Studio: Anda perlu menginstal Visual Studio di komputer Anda untuk mengikuti contoh-contoh berikut.
 
-2.  Aspose.HTML untuk .NET: Anda harus menginstal perpustakaan Aspose.HTML untuk .NET. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/html/net/).
+2.  Aspose.HTML untuk .NET: Anda harus menginstal pustaka Aspose.HTML untuk .NET. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/html/net/).
 
-3. Pemahaman Dasar tentang C#: Keakraban dengan pemrograman C# akan sangat membantu, namun meskipun Anda baru mengenal C#, Anda tetap dapat mengikuti dan belajar.
+3. Pemahaman Dasar tentang C#: Keakraban dengan pemrograman C# akan sangat membantu, tetapi meskipun Anda baru mengenal C#, Anda tetap dapat mengikuti dan belajar.
 
-## Mengimpor Namespace yang Diperlukan
+## Mengimpor Ruang Nama yang Diperlukan
 
-Untuk mulai menggunakan Aspose.HTML untuk .NET, Anda perlu mengimpor namespace yang diperlukan. Inilah cara Anda melakukannya:
+Untuk mulai menggunakan Aspose.HTML untuk .NET, Anda perlu mengimpor namespace yang diperlukan. Berikut cara melakukannya:
 
 ```csharp
 using Aspose.Html;
@@ -30,7 +30,7 @@ using Aspose.Html.Dom;
 using Aspose.Html.Dom.Css;
 ```
 
-Sekarang setelah Anda memenuhi prasyaratnya, mari kita bagi setiap contoh menjadi beberapa langkah dan jelaskan setiap langkah secara mendetail.
+Sekarang setelah Anda memenuhi prasyarat yang ditentukan, mari kita uraikan setiap contoh menjadi beberapa langkah dan jelaskan setiap langkah secara terperinci.
 
 ## Contoh 1: Membuat dan Mengedit Dokumen HTML
 
@@ -58,19 +58,19 @@ static void EditDocumentTree()
 
 1.  Kita mulai dengan membuat dokumen HTML baru menggunakan`Aspose.Html.HTMLDocument()`.
 
-2. Kami mengakses elemen isi dokumen.
+2. Kita mengakses elemen isi dokumen.
 
 3. Selanjutnya, kita membuat elemen paragraf HTML (`<p>` ) menggunakan`document.CreateElement("p")`.
 
 4.  Kami menetapkan atribut khusus`id` untuk elemen paragraf.
 
-5.  Node teks dibuat menggunakan`document.CreateTextNode("my first paragraph")`.
+5.  Sebuah simpul teks dibuat menggunakan`document.CreateTextNode("my first paragraph")`.
 
 6.  Kami melampirkan simpul teks ke elemen paragraf menggunakan`p.AppendChild(text)`.
 
-7. Terakhir, kita lampirkan paragraf tersebut ke badan dokumen.
+7. Terakhir, kami lampirkan paragraf ke badan dokumen.
 
-Contoh ini menunjukkan cara membuat dan memanipulasi struktur dokumen HTML.
+Contoh ini memperagakan cara membuat dan memanipulasi struktur dokumen HTML.
 
 ## Contoh 2: Menghapus Elemen dari Dokumen HTML
 
@@ -80,7 +80,7 @@ static void EditDocumentTreeWithAppendRemoveChild()
     using (var document = new Aspose.Html.HTMLDocument("<p>paragraph</p><div>some element to remove</div>", "about:blank"))
     {
         var body = document.Body;
-        // Dapatkan elemen "div".
+        // Dapatkan elemen "div"
         var div = (Aspose.Html.HTMLDivElement)body.GetElementsByTagName("div").First();
         // Hapus elemen yang ditemukan
         body.RemoveChild(div);
@@ -90,11 +90,11 @@ static void EditDocumentTreeWithAppendRemoveChild()
 
 ### Penjelasan:
 
-1.  Kami membuat dokumen HTML dengan elemen yang ada, termasuk a`<p>` dan sebuah`<div>`.
+1.  Kami membuat dokumen HTML dengan elemen yang ada, termasuk`<p>` dan sebuah`<div>`.
 
-2. Kami mengakses elemen isi dokumen.
+2. Kita mengakses elemen isi dokumen.
 
-3.  Menggunakan`body.GetElementsByTagName("div").First()` , kami mengambil yang pertama`<div>` elemen dalam dokumen.
+3.  Menggunakan`body.GetElementsByTagName("div").First()` , kita mengambil yang pertama`<div>` elemen dalam dokumen.
 
 4.  Kami menghapus yang dipilih`<div>` elemen dari badan dokumen menggunakan`body.RemoveChild(div)`.
 
@@ -109,7 +109,7 @@ static void EditHtml()
     {
         // Dapatkan elemen tubuh
         var body = document.Body;
-        // Tetapkan konten elemen body
+        // Mengatur konten elemen body
         body.InnerHTML = "<p>paragraph</p>";
         // Pindah ke anak pertama
         var node = body.FirstChild;
@@ -120,17 +120,17 @@ static void EditHtml()
 
 ### Penjelasan:
 
-1. Kami membuat dokumen HTML baru.
+1. Kita membuat dokumen HTML baru.
 
-2. Kami mengakses elemen isi dokumen.
+2. Kita mengakses elemen isi dokumen.
 
-3.  Menggunakan`body.InnerHTML` , kami menyetel konten HTML pada badannya`<p>paragraph</p>`.
+3.  Menggunakan`body.InnerHTML` , kita atur konten HTML dari badan menjadi`<p>paragraph</p>`.
 
-4.  Kami mengambil elemen anak pertama dari tubuh menggunakan`body.FirstChild`.
+4.  Kami mengambil elemen anak pertama dari badan menggunakan`body.FirstChild`.
 
 5. Kami mencetak nama lokal elemen anak pertama ke konsol.
 
-Contoh ini menunjukkan cara mengatur dan mengambil konten HTML suatu elemen dalam dokumen HTML.
+Contoh ini memperagakan cara mengatur dan mengambil konten HTML suatu elemen dalam dokumen HTML.
 
 ## Contoh 4: Mengedit Gaya Elemen
 
@@ -145,8 +145,8 @@ static void EditElementStyle()
         var view = (Aspose.Html.Dom.Css.IViewCSS)document.Context.Window;
         // Dapatkan gaya elemen yang dihitung
         var declaration = view.GetComputedStyle(element);
-        // Dapatkan nilai properti "warna".
-        System.Console.WriteLine(declaration.Color); // rgb(255, 0, 0)
+        // Dapatkan nilai properti "warna"
+        System.Console.WriteLine(declaration.Color); // warna merah(255, 0, 0)
     }
 }
 ```
@@ -155,13 +155,13 @@ static void EditElementStyle()
 
 1.  Kami membuat dokumen HTML dengan CSS tertanam yang mengatur warna`<p>` elemen menjadi merah.
 
-2.  Kami mengambil`<p>` elemen menggunakan`document.GetElementsByTagName("p")[0]`.
+2.  Kami mengambil kembali`<p>` elemen menggunakan`document.GetElementsByTagName("p")[0]`.
 
-3.  Kami mengakses objek tampilan CSS dan mendapatkan gaya yang dihitung`<p>` elemen.
+3.  Kami mengakses objek tampilan CSS dan mendapatkan gaya terhitung dari`<p>` elemen.
 
-4. Kami mengambil dan mencetak nilai properti "warna", yang disetel ke merah di CSS.
+4. Kami mengambil dan mencetak nilai properti "warna", yang ditetapkan menjadi merah di CSS.
 
-Contoh ini menunjukkan cara memeriksa dan memanipulasi gaya CSS elemen HTML.
+Contoh ini memperagakan cara memeriksa dan memanipulasi gaya CSS elemen HTML.
 
 ## Contoh 5: Mengubah Gaya Elemen Menggunakan Atribut
 
@@ -178,7 +178,7 @@ static void EditElementStyleUsingAttribute()
         var declaration = view.GetComputedStyle(element);
         // Atur warna hijau
         element.Style.Color = "green";
-        // Dapatkan nilai properti "warna".
+        // Dapatkan nilai properti "warna"
         System.Console.WriteLine(declaration.Color); // rgb(0, 128, 0)
     }
 }
@@ -188,39 +188,39 @@ static void EditElementStyleUsingAttribute()
 
 1.  Kami membuat dokumen HTML dengan CSS tertanam yang mengatur warna`<p>` elemen menjadi merah.
 
-2.  Kami mengambil`<p>` elemen menggunakan`document.GetElementsByTagName("p")[0]`.
+2.  Kami mengambil kembali`<p>` elemen menggunakan`document.GetElementsByTagName("p")[0]`.
 
-3.  Kami mengakses objek tampilan CSS dan mendapatkan gaya yang dihitung`<p>` elemen sebelum perubahan apa pun.
+3.  Kami mengakses objek tampilan CSS dan mendapatkan gaya terhitung dari`<p>` elemen sebelum terjadi perubahan apa pun.
 
-4.  Kami mengubah warnanya`<p>` elemen menjadi hijau menggunakan`element.Style.Color = "green"`.
+4.  Kami mengubah warna`<p>` elemen menjadi hijau menggunakan`element.Style.Color = "green"`.
 
-5. Kami mengambil dan mencetak nilai "warna" yang diperbarui
+5. Kami mengambil dan mencetak nilai terbaru dari "warna"
 
  properti, yang sekarang berwarna hijau.
 
-Contoh ini menunjukkan cara memodifikasi gaya elemen HTML secara langsung menggunakan atribut.
+Contoh ini memperagakan cara langsung mengubah gaya elemen HTML menggunakan atribut.
 
 ## Kesimpulan
 
-Dalam tutorial ini, kami telah membahas dasar-dasar penggunaan Aspose.HTML untuk .NET untuk membuat, memanipulasi, dan menata gaya dokumen HTML dalam aplikasi .NET Anda. Kami menjelajahi berbagai contoh, mulai dari membuat dokumen HTML hingga mengedit struktur dan gayanya. Dengan keterampilan ini, Anda dapat menangani dokumen HTML secara efektif di proyek .NET Anda.
+Dalam tutorial ini, kami telah membahas dasar-dasar penggunaan Aspose.HTML untuk .NET guna membuat, memanipulasi, dan memberi gaya pada dokumen HTML dalam aplikasi .NET Anda. Kami mengeksplorasi berbagai contoh, mulai dari membuat dokumen HTML hingga mengedit struktur dan gayanya. Dengan keterampilan ini, Anda dapat menangani dokumen HTML secara efektif dalam proyek .NET Anda.
 
- Jika Anda memiliki pertanyaan atau memerlukan bantuan lebih lanjut, jangan ragu untuk mengunjungi[Aspose.HTML untuk dokumentasi .NET](https://reference.aspose.com/html/net/) atau mencari bantuan di[Asumsikan forum](https://forum.aspose.com/).
+ Jika Anda memiliki pertanyaan atau memerlukan bantuan lebih lanjut, jangan ragu untuk mengunjungi[Dokumentasi Aspose.HTML untuk .NET](https://reference.aspose.com/html/net/) atau mencari bantuan di[Forum Aspose](https://forum.aspose.com/).
 
 ---
 
 ## Pertanyaan yang Sering Diajukan (FAQ)
 
 ### Apa itu Aspose.HTML untuk .NET?
-Aspose.HTML untuk .NET adalah perpustakaan yang kuat untuk bekerja dengan dokumen HTML dalam aplikasi .NET.
+Aspose.HTML untuk .NET adalah pustaka yang ampuh untuk bekerja dengan dokumen HTML dalam aplikasi .NET.
 
 ### Di mana saya dapat mengunduh Aspose.HTML untuk .NET?
  Anda dapat mengunduh Aspose.HTML untuk .NET dari[Di Sini](https://releases.aspose.com/html/net/).
 
 ### Apakah ada uji coba gratis yang tersedia?
- Ya, Anda bisa mendapatkan uji coba gratis Aspose.HTML dari[Di Sini](https://releases.aspose.com/).
+ Ya, Anda bisa mendapatkan uji coba Aspose.HTML gratis dari[Di Sini](https://releases.aspose.com/).
 
-### Bagaimana saya bisa membeli lisensi?
- Untuk membeli lisensi, kunjungi[Link ini](https://purchase.aspose.com/buy).
+### Bagaimana saya dapat membeli lisensi?
+ Untuk membeli lisensi, kunjungi[tautan ini](https://purchase.aspose.com/buy).
 
 ### Apakah saya memerlukan pengalaman sebelumnya dengan HTML untuk menggunakan Aspose.HTML untuk .NET?
 Meskipun pengetahuan HTML sangat membantu, Anda dapat menggunakan Aspose.HTML untuk .NET meskipun Anda bukan ahli HTML.

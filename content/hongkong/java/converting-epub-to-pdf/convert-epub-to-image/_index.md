@@ -74,7 +74,7 @@ Converter.convertEPUB(
 ## 常見問題解答
 
 ### Q1: 我可以將 EPUB 檔案轉換為 JPEG 以外的格式嗎？
-是的你可以。 Aspose.HTML for Java 提供了將 EPUB 檔案轉換為各種影像格式的選項，包括 PNG、BMP 和 TIFF。
+是的，你可以。 Aspose.HTML for Java 提供了將 EPUB 檔案轉換為各種影像格式的選項，包括 PNG、BMP 和 TIFF。
 
 ### Q2：使用 Aspose.HTML for Java 需要程式設計技能嗎？
 雖然一些程式設計知識很有幫助，但提供的程式碼範例使轉換過程變得簡單，即使對於初學者也是如此。

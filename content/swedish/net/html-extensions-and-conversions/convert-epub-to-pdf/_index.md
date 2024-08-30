@@ -45,7 +45,7 @@ using (var stream = System.IO.File.OpenRead(dataDir + "input.epub"))
 }
 ```
 
--  Byta ut`"Your Data Directory"` med den faktiska katalogen där din EPUB-fil finns.
+-  Ersätta`"Your Data Directory"` med den faktiska katalogen där din EPUB-fil finns.
 - Denna kod öppnar EPUB-filen för läsning.
 
 ### Steg 4: Ställ in PDF-alternativ och utför konvertering
@@ -86,7 +86,7 @@ using (var stream = System.IO.File.OpenRead(dataDir + "input.epub"))
 }
 ```
 
--  Byta ut`"Your Data Directory"` med den faktiska katalogen för din EPUB-fil.
+-  Ersätta`"Your Data Directory"` med den faktiska katalogen för din EPUB-fil.
 - Öppna EPUB-filen för läsning.
 
 ### Steg 4: Anpassa PDF-alternativ
@@ -137,7 +137,7 @@ using (var stream = System.IO.File.OpenRead(dataDir + "input.epub"))
 }
 ```
 
--  Byta ut`"Your Data Directory"` med den faktiska katalogen för din EPUB-fil.
+-  Ersätta`"Your Data Directory"` med den faktiska katalogen för din EPUB-fil.
 - Öppna EPUB-filen för läsning.
 
 ### Steg 4: Använd en anpassad strömleverantör
@@ -209,7 +209,7 @@ Nu har du lärt dig hur du konverterar EPUB-filer till PDF med Aspose.HTML för 
 
 Aspose.HTML för .NET är ett mångsidigt verktyg för att konvertera EPUB-filer till PDF, som erbjuder anpassningsalternativ för att skräddarsy det resulterande PDF-dokumentet efter dina behov. Oavsett om du behöver enkla omvandlingar eller avancerad anpassning, har Aspose.HTML dig täckt.
 
- Om du inte redan har gjort det kan du ladda ner Aspose.HTML för .NET från[hemsida](https://releases.aspose.com/html/net/) och börja använda det i dina .NET-applikationer idag.
+ Om du inte redan har gjort det kan du ladda ner Aspose.HTML för .NET från[webbplats](https://releases.aspose.com/html/net/) och börja använda det i dina .NET-applikationer idag.
 
 ---
 

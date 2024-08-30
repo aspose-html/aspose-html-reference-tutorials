@@ -1,28 +1,28 @@
 ---
-title: Pas het XPS-paginaformaat aan met Aspose.HTML voor Java
+title: Pas XPS-paginaformaat aan met Aspose.HTML voor Java
 linktitle: XPS-paginaformaat aanpassen
 second_title: Java HTML-verwerking met Aspose.HTML
-description: Leer hoe u het XPS-paginaformaat kunt aanpassen met Aspose.HTML voor Java. Beheer eenvoudig de uitvoerafmetingen van uw XPS-documenten.
+description: Leer hoe u de XPS-paginagrootte aanpast met Aspose.HTML voor Java. Beheer eenvoudig de uitvoerafmetingen van uw XPS-documenten.
 type: docs
 weight: 16
 url: /nl/java/advanced-usage/adjust-xps-page-size/
 ---
 
-In deze zelfstudie begeleiden we u bij het aanpassen van de XPS-paginagrootte met Aspose.HTML voor Java. Met deze krachtige bibliotheek kunt u HTML-documenten manipuleren en in verschillende formaten weergeven, waaronder XPS. Het aanpassen van het paginaformaat is essentieel als u de uitvoerafmetingen van uw XPS-document wilt beheren.
+In deze tutorial begeleiden we u door het proces van het aanpassen van de XPS-paginagrootte met behulp van Aspose.HTML voor Java. Met deze krachtige bibliotheek kunt u HTML-documenten manipuleren en ze in verschillende formaten weergeven, waaronder XPS. Het aanpassen van de paginagrootte is essentieel wanneer u de uitvoerafmetingen van uw XPS-document wilt regelen.
 
 ## Vereisten
 
-Voordat we beginnen, zorg ervoor dat u aan de volgende vereisten voldoet:
+Voordat we beginnen, moet u ervoor zorgen dat aan de volgende voorwaarden is voldaan:
 
-1. Java-ontwikkelomgeving: Zorg ervoor dat Java Development Kit (JDK) op uw systeem is geïnstalleerd.
+1. Java-ontwikkelomgeving: zorg ervoor dat de Java Development Kit (JDK) op uw systeem is geïnstalleerd.
 
-2.  Aspose.HTML voor Java-bibliotheek: u moet de Aspose.HTML voor Java-bibliotheek downloaden en opnemen in uw Java-project. Je kunt de bibliotheek vinden[hier](https://releases.aspose.com/html/java/).
+2.  Aspose.HTML voor Java-bibliotheek: U moet de Aspose.HTML voor Java-bibliotheek downloaden en opnemen in uw Java-project. U kunt de bibliotheek vinden[hier](https://releases.aspose.com/html/java/).
 
-3. HTML-bestand invoeren: bereid een HTML-bestand voor dat u wilt weergeven en pas het XPS-paginaformaat aan. Voor deze zelfstudie kunt u uw eigen HTML-bestand gebruiken.
+3. Input HTML-bestand: bereid een HTML-bestand voor dat u wilt renderen en pas de XPS-paginagrootte aan. U kunt uw eigen HTML-bestand gebruiken voor deze tutorial.
 
 ## Pakketten importeren
 
-Eerst moet u de benodigde pakketten importeren om met Aspose.HTML voor Java te kunnen werken. Voeg deze pakketten toe aan het begin van uw Java-klasse:
+Eerst moet u de benodigde pakketten importeren om te werken met Aspose.HTML voor Java. Neem deze pakketten op aan het begin van uw Java-klasse:
 
 ```java
 import com.aspose.html.drawing.Page;
@@ -33,7 +33,7 @@ import com.aspose.html.rendering.xps.XpsRenderingOptions;
 import com.aspose.html.HTMLDocument;
 ```
 
-## Stap 1: Stel de naam van het invoerbestand in
+## Stap 1: Stel de invoerbestandsnaam in
 
 ```java
 try (java.io.FileInputStream fileInputStream = new java.io.FileInputStream("YourInputFile.html")) {
@@ -64,15 +64,15 @@ String style = "<style>\n" +
 
  Deze stap omvat het maken van een`HTMLDocument` en er stijlen aan toevoegen.
 
-## Stap 3: Maak XPS-renderingopties
+## Stap 3: XPS-renderingopties maken
 
 ```java
 com.aspose.html.rendering.xps.XpsRenderingOptions xps_options = new com.aspose.html.rendering.xps.XpsRenderingOptions();
 ```
 
-Hier creëren we XPS-renderingopties om het renderingproces te configureren.
+Hier maken we XPS-renderingopties om het renderingproces te configureren.
 
-## Stap 4: Pas het paginaformaat aan
+## Stap 4: Pas de paginagrootte aan
 
 ```java
 com.aspose.html.drawing.Page page = new com.aspose.html.drawing.Page(new com.aspose.html.drawing.Size(100, 100));
@@ -82,9 +82,9 @@ pageSetup.setAdjustToWidestPage(false);
 xps_options.setPageSetup(pageSetup);
 ```
 
-Deze stap omvat het instellen van het paginaformaat en het opgeven of dit moet worden aangepast aan de breedste pagina.
+In deze stap stelt u het paginaformaat in en geeft u aan of u het formaat wilt aanpassen aan de breedste pagina.
 
-## Stap 5: Geef de uitvoer weer
+## Stap 5: De uitvoer renderen
 
 ```java
 com.aspose.html.rendering.xps.XpsDevice device = new com.aspose.html.rendering.xps.XpsDevice(xps_options, "YourOutputFile.xps");
@@ -96,15 +96,15 @@ In de laatste stap renderen we de XPS-uitvoer met behulp van de geconfigureerde 
 
 ## Conclusie
 
-In deze zelfstudie hebben we u laten zien hoe u de XPS-paginagrootte kunt aanpassen met Aspose.HTML voor Java. U kunt de uitvoerafmetingen van uw XPS-documenten zelf bepalen, zodat ze aan uw specifieke eisen voldoen. Met de meegeleverde code en stappen kunt u deze functie eenvoudig in uw Java-applicaties implementeren.
+In deze tutorial hebben we je laten zien hoe je de XPS-paginagrootte aanpast met Aspose.HTML voor Java. Je kunt de uitvoerafmetingen van je XPS-documenten beheren en ervoor zorgen dat ze voldoen aan je specifieke vereisten. Met de meegeleverde code en stappen kun je deze functie eenvoudig implementeren in je Java-toepassingen.
 
- Als u vragen heeft of meer hulp nodig heeft, kunt u gerust een bezoek brengen aan de[Aspose.HTML voor Java-documentatie](https://reference.aspose.com/html/java/) of vraag om hulp op de[Aspose-forum](https://forum.aspose.com/).
+ Als u vragen heeft of verdere hulp nodig heeft, kunt u gerust een bezoek brengen aan de[Aspose.HTML voor Java-documentatie](https://reference.aspose.com/html/java/) of vraag om hulp op de[Aspose-forum](https://forum.aspose.com/).
 
 ## Veelgestelde vragen
 
 ### V1: Wat is Aspose.HTML voor Java?
 
-A1: Aspose.HTML voor Java is een Java-bibliotheek waarmee ontwikkelaars HTML-documenten kunnen manipuleren en converteren naar verschillende formaten, zoals XPS, PDF en afbeeldingen.
+A1: Aspose.HTML voor Java is een Java-bibliotheek waarmee ontwikkelaars HTML-documenten kunnen bewerken en converteren naar verschillende formaten, zoals XPS, PDF en afbeeldingen.
 
 ### V2: Waar kan ik Aspose.HTML voor Java downloaden?
 
@@ -112,12 +112,12 @@ A1: Aspose.HTML voor Java is een Java-bibliotheek waarmee ontwikkelaars HTML-doc
 
 ### V3: Is er een gratis proefversie beschikbaar voor Aspose.HTML voor Java?
 
- A3: Ja, u kunt een gratis proefversie van Aspose.HTML voor Java verkrijgen[hier](https://releases.aspose.com/).
+ A3: Ja, u kunt een gratis proefversie van Aspose.HTML voor Java krijgen van[hier](https://releases.aspose.com/).
 
-### V4: Hoe kan ik een tijdelijke licentie verkrijgen voor Aspose.HTML voor Java?
+### V4: Hoe kan ik een tijdelijke licentie voor Aspose.HTML voor Java verkrijgen?
 
- A4: Ga naar om een tijdelijke licentie voor Aspose.HTML voor Java te verkrijgen[deze pagina](https://purchase.aspose.com/temporary-license/).
+ A4: Om een tijdelijke licentie voor Aspose.HTML voor Java te krijgen, bezoek[deze pagina](https://purchase.aspose.com/temporary-license/).
 
 ### V5: Kan ik ondersteuning krijgen voor Aspose.HTML voor Java?
 
- A5: Ja, u kunt hulp en ondersteuning zoeken bij de Aspose-gemeenschap op de website[Aspose-forum](https://forum.aspose.com/).
+ A5: Ja, u kunt hulp en ondersteuning zoeken bij de Aspose-community op de[Aspose-forum](https://forum.aspose.com/).

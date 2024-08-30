@@ -36,7 +36,7 @@ import com.aspose.html.converters.Converter;
 
 Med de nödvändiga paketen importerade är du redo att påbörja konverteringsprocessen.
 
-## Bryta ner
+## Sammanbrott
 
 Låt oss nu dela upp exemplet du gav i flera steg och förklara var och en i detalj.
 
@@ -66,7 +66,7 @@ Ange sökvägen där du vill spara den genererade JPEG-bilden.
 String outputFile = "HTMLtoJPEG_Output.jpeg";
 ```
 
- Byta ut`"HTMLtoJPEG_Output.jpeg"` med din önskade filsökväg.
+ Ersätta`"HTMLtoJPEG_Output.jpeg"` med din önskade filsökväg.
 
 ### Steg 5: Konvertera HTML till JPEG
 
@@ -76,7 +76,7 @@ String outputFile = "HTMLtoJPEG_Output.jpeg";
 Converter.convertHTML(htmlDocument, options, outputFile);
 ```
 
-Och det är allt! Du har framgångsrikt konverterat ett HTML-dokument till en JPEG-bild med Aspose.HTML för Java.
+Och det är det! Du har framgångsrikt konverterat ett HTML-dokument till en JPEG-bild med Aspose.HTML för Java.
 
 ## Slutsats
 
@@ -86,7 +86,7 @@ I den här handledningen har vi visat hur man konverterar HTML till JPEG med Asp
 
 ### F1: Är Aspose.HTML för Java ett gratisverktyg?
 
- S1: Nej, Aspose.HTML för Java är en kommersiell produkt. Du kan hitta licensierings- och prisinformation[här](https://purchase.aspose.com/buy).
+ S1: Nej, Aspose.HTML för Java är en kommersiell produkt. Du kan hitta licens- och prisinformation[här](https://purchase.aspose.com/buy).
 
 ### F2: Kan jag prova Aspose.HTML för Java innan jag köper?
 

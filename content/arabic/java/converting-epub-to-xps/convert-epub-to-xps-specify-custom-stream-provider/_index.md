@@ -1,29 +1,29 @@
 ---
-title: تحديد موفر الدفق المخصص لـ EPUB إلى XPS
-linktitle: تحديد موفر الدفق المخصص لـ EPUB إلى XPS
-second_title: معالجة Java HTML باستخدام Aspose.HTML
-description: قم بتحويل EPUB إلى XPS بسهولة باستخدام Aspose.HTML لـ Java. اتبع هذا الدليل خطوة بخطوة للحصول على عملية تحويل سلسة.
+title: تحديد موفر البث المخصص لـ EPUB إلى XPS
+linktitle: تحديد موفر البث المخصص لـ EPUB إلى XPS
+second_title: معالجة HTML باستخدام Java مع Aspose.HTML
+description: يمكنك تحويل EPUB إلى XPS بسهولة باستخدام Aspose.HTML for Java. اتبع هذا الدليل خطوة بخطوة للحصول على عملية تحويل سلسة.
 type: docs
 weight: 11
 url: /ar/java/converting-epub-to-xps/convert-epub-to-xps-specify-custom-stream-provider/
 ---
-في العصر الرقمي الحالي، أصبحت الحاجة إلى تحويل ملفات EPUB إلى تنسيقات أخرى، مثل XPS، أكثر شيوعًا من أي وقت مضى. يعد Aspose.HTML for Java أداة قوية يمكنها مساعدتك في تحقيق ذلك دون عناء. في هذا الدليل التفصيلي، سنستكشف كيفية تحويل ملف EPUB إلى XPS باستخدام Aspose.HTML لـ Java. قبل أن نتعمق في التفاصيل، دعنا نتناول المتطلبات الأساسية التي ستحتاجها لهذه العملية.
+في العصر الرقمي الحالي، أصبحت الحاجة إلى تحويل ملفات EPUB إلى تنسيقات أخرى، مثل XPS، أكثر شيوعًا من أي وقت مضى. يعد Aspose.HTML for Java أداة قوية يمكنها مساعدتك في تحقيق ذلك دون عناء. في هذا الدليل التفصيلي، سنستكشف كيفية تحويل ملف EPUB إلى XPS باستخدام Aspose.HTML for Java. قبل الخوض في التفاصيل، دعنا نستعرض المتطلبات الأساسية التي ستحتاجها لهذه العملية.
 
 ## المتطلبات الأساسية
 
 لتحويل EPUB إلى XPS بنجاح، تأكد من توفر المتطلبات الأساسية التالية:
 
-### 1. Aspose.HTML لمكتبة جافا
+### 1. Aspose.HTML لمكتبة Java
 
- يجب أن يكون لديك مكتبة Aspose.HTML لـ Java مثبتة وتكوينها في بيئة Java الخاصة بك. إذا لم تكن قد قمت بذلك بالفعل، يمكنك تنزيل المكتبة من[رابط التحميل](https://releases.aspose.com/html/java/).
+ يجب أن يكون لديك مكتبة Aspose.HTML for Java مثبتة ومُهيأة في بيئة Java الخاصة بك. إذا لم تكن قد قمت بذلك بالفعل، فيمكنك تنزيل المكتبة من[رابط التحميل](https://releases.aspose.com/html/java/).
 
 ### 2. إدخال ملف EPUB
 
-أنت بحاجة إلى ملف EPUB موجود تريد تحويله إلى XPS. تأكد من أن هذا الملف جاهز لعملية التحويل.
+تحتاج إلى ملف EPUB موجود تريد تحويله إلى XPS. تأكد من أن هذا الملف جاهز لعملية التحويل.
 
-الآن بعد أن توفرت لديك كافة المتطلبات الأساسية، فلنتابع الدليل خطوة بخطوة حول كيفية تحويل ملف EPUB الخاص بك إلى XPS باستخدام Aspose.HTML لـ Java.
+الآن بعد أن أصبحت كل المتطلبات الأساسية جاهزة، دعنا ننتقل إلى الدليل خطوة بخطوة حول كيفية تحويل ملف EPUB إلى XPS باستخدام Aspose.HTML لـ Java.
 
-## حزم الاستيراد
+## استيراد الحزم
 
 قبل أن تبدأ، تأكد من استيراد الحزم اللازمة لـ Aspose.HTML لـ Java لاستخدام وظائفها.
 
@@ -36,9 +36,9 @@ import java.io.FileOutputStream;
 import java.io.InputStream;
 ```
 
-## افتح ملف إبوب
+## افتح ملف EPUB
 
- أولاً، ستحتاج إلى فتح ملف EPUB الموجود للقراءة. في هذه الخطوة سنستخدم أ`FileInputStream` للوصول إلى ملف EPUB.
+ أولاً، ستحتاج إلى فتح ملف EPUB الحالي للقراءة. في هذه الخطوة، سنستخدم`FileInputStream` للوصول إلى ملف EPUB.
 
 ```java
 try (FileInputStream fileInputStream = new FileInputStream("path/to/your/input.epub")) {
@@ -48,7 +48,7 @@ try (FileInputStream fileInputStream = new FileInputStream("path/to/your/input.e
 
 ## إنشاء MemoryStreamProvider
 
- بعد ذلك، يجب عليك إنشاء مثيل لـ`MemoryStreamProvider`. سيتم استخدام هذا في عملية التحويل من EPUB إلى XPS.
+ بعد ذلك، يجب عليك إنشاء مثيل لـ`MemoryStreamProvider`سيتم استخدام هذا في عملية التحويل من EPUB إلى XPS.
 
 ```java
 try (MemoryStreamProvider streamProvider = new MemoryStreamProvider()) {
@@ -58,7 +58,7 @@ try (MemoryStreamProvider streamProvider = new MemoryStreamProvider()) {
 
 ## تحويل EPUB إلى XPS
 
- الآن، لنقم بتحويل ملف EPUB إلى XPS باستخدام ملف`Converter.convertEPUB` طريقة.
+ الآن، دعنا نحول ملف EPUB إلى XPS باستخدام`Converter.convertEPUB` طريقة.
 
 ```java
 Converter.convertEPUB(
@@ -70,15 +70,15 @@ Converter.convertEPUB(
 
 ## الحصول على البيانات الناتجة
 
-بعد اكتمال التحويل، يمكنك الوصول إلى تدفق الذاكرة الذي يحتوي على بيانات XPS الناتجة.
+بعد اكتمال عملية التحويل، يمكنك الوصول إلى مجرى الذاكرة الذي يحتوي على بيانات XPS الناتجة.
 
 ```java
 InputStream inputStream = streamProvider.getStream().findFirst().get();
 ```
 
-## حفظ الإخراج
+## حفظ الناتج
 
-لإكمال التحويل، يجب عليك مسح البيانات الناتجة إلى ملف الإخراج. في هذا المثال، نقوم بحفظه باسم "output.xps."
+لإكمال عملية التحويل، يجب عليك تفريغ بيانات النتيجة في ملف إخراج. في هذا المثال، نقوم بحفظها باسم "output.xps".
 
 ```java
 try (FileOutputStream fileOutputStream = new FileOutputStream("path/to/your/output.xps")) {
@@ -88,23 +88,23 @@ try (FileOutputStream fileOutputStream = new FileOutputStream("path/to/your/outp
 }
 ```
 
-من خلال هذه الخطوات الخمس، تكون قد نجحت في تحويل ملف EPUB إلى XPS باستخدام Aspose.HTML لـ Java.
+باستخدام هذه الخطوات الخمس، تكون قد قمت بتحويل ملف EPUB إلى XPS بنجاح باستخدام Aspose.HTML لـ Java.
 
-## كود المصدر الكامل
+## الكود المصدر الكامل
 ```java
-        // افتح ملف EPUB موجود للقراءة.
+        // افتح ملف EPUB الموجود للقراءة.
         try (java.io.FileInputStream fileInputStream = new java.io.FileInputStream(Resources.input("input.epub"))) {
-            // قم بإنشاء مثيل لـ MemoryStreamProvider
+            // إنشاء مثيل لـ MemoryStreamProvider
             try (MemoryStreamProvider streamProvider = new MemoryStreamProvider()) {
-                // قم بتحويل EPUB إلى XPS باستخدام MemoryStreamProvider
+                // تحويل EPUB إلى XPS باستخدام MemoryStreamProvider
                 com.aspose.html.converters.Converter.convertEPUB(
                         fileInputStream,
                         new com.aspose.html.saving.XpsSaveOptions(),
                         streamProvider.lStream
                 );
-                // الوصول إلى دفق الذاكرة الذي يحتوي على البيانات الناتجة
+                // احصل على إمكانية الوصول إلى مجرى الذاكرة الذي يحتوي على البيانات الناتجة
                 java.io.InputStream inputStream = streamProvider.lStream.stream().findFirst().get();
-                // تدفق البيانات النتيجة إلى ملف الإخراج
+                // قم بمسح بيانات النتيجة إلى ملف الإخراج
                 try (java.io.FileOutputStream fileOutputStream = new java.io.FileOutputStream(Resources.output("output.xps"))) {
                     byte[] buffer = new byte[inputStream.available()];
                     inputStream.read(buffer);
@@ -116,30 +116,30 @@ try (FileOutputStream fileOutputStream = new FileOutputStream("path/to/your/outp
 
 ## خاتمة
 
-يعد تحويل EPUB إلى XPS مهارة قيمة في المشهد الرقمي اليوم. يعمل Aspose.HTML for Java على تبسيط العملية، مما يجعلها فعالة وموثوقة. باتباع الخطوات الموضحة في هذا الدليل، يمكنك تحقيق هذا التحويل بسهولة.
+يعد تحويل EPUB إلى XPS مهارة قيمة في المشهد الرقمي الحالي. يعمل Aspose.HTML for Java على تبسيط العملية، مما يجعلها فعّالة وموثوقة. باتباع الخطوات الموضحة في هذا الدليل، يمكنك تحقيق هذا التحويل بسهولة.
 
-الآن، دعونا نتناول بعض الأسئلة المتداولة لتوفير المزيد من الوضوح.
+والآن، دعونا نتناول بعض الأسئلة الشائعة لتوفير المزيد من الوضوح.
 
 ## الأسئلة الشائعة
 
 ### 1. ما هو EPUB؟
 
-EPUB، اختصار للنشر الإلكتروني، هو تنسيق ملف يستخدم على نطاق واسع للكتب الإلكترونية. لقد تم تصميمه ليكون قابلاً للقراءة بسهولة على الأجهزة المختلفة، مثل أجهزة القراءة الإلكترونية والأجهزة اللوحية والهواتف الذكية.
+EPUB، اختصارًا لـ Electronic Publication (النشر الإلكتروني)، هو تنسيق ملفات يستخدم على نطاق واسع للكتب الإلكترونية. وهو مصمم ليكون سهل القراءة على أجهزة مختلفة، مثل أجهزة قراءة الكتب الإلكترونية والأجهزة اللوحية والهواتف الذكية.
 
 ### 2. ما هو XPS؟
 
-يرمز XPS إلى مواصفات ورق XML، وهو تنسيق مستند تم إنشاؤه بواسطة Microsoft. يتم استخدامه لمشاركة المستندات وأرشفتها بمظهر وتخطيط متسقين.
+XPS تعني XML Paper Specification، وهو تنسيق مستند أنشأته شركة Microsoft. ويُستخدم لمشاركة المستندات وأرشفتها بمظهر وتخطيط متناسقين.
 
-### 3. لماذا نستخدم Aspose.HTML لجافا؟
+### 3. لماذا استخدام Aspose.HTML لـ Java؟
 
-Aspose.HTML for Java هي مكتبة قوية تعمل على تبسيط مهام معالجة المستندات وتحويلها وعرضها. فهو يوفر ميزات ودعمًا شاملاً لتنسيقات المستندات المختلفة، مما يجعله أداة قيمة للمطورين.
+Aspose.HTML for Java هي مكتبة قوية تبسط مهام معالجة المستندات وتحويلها وعرضها. وهي توفر ميزات واسعة النطاق ودعمًا لتنسيقات المستندات المختلفة، مما يجعلها أداة قيمة للمطورين.
 
 ### 4. هل يمكنني تحويل تنسيقات المستندات الأخرى باستخدام Aspose.HTML لـ Java؟
 
-نعم، يدعم Aspose.HTML for Java تحويل تنسيقات المستندات المختلفة، بما في ذلك HTML وEPUB وXPS والمزيد. إنها أداة متعددة الاستخدامات لإدارة المستندات.
+نعم، يدعم Aspose.HTML for Java تحويل تنسيقات المستندات المختلفة، بما في ذلك HTML وEPUB وXPS والمزيد. إنه أداة متعددة الاستخدامات لإدارة المستندات.
 
-### 5. أين يمكنني العثور على موارد ودعم إضافي؟
+### 5. أين يمكنني العثور على الموارد والدعم الإضافي؟
 
- للحصول على التوثيق والدعم، قم بزيارة[Aspose.HTML لوثائق جافا](https://reference.aspose.com/html/java/) و[منتدى الدعم](https://forum.aspose.com/).
+ للحصول على التوثيق والدعم، قم بزيارة[توثيق Aspose.HTML لـ Java](https://reference.aspose.com/html/java/) و[منتدى الدعم](https://forum.aspose.com/).
 
 

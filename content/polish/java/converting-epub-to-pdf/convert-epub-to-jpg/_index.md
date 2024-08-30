@@ -1,20 +1,20 @@
 ---
-title: Konwertuj EPUB na JPG za pomocą Aspose.HTML dla Java
-linktitle: Konwersja EPUB-a na JPG
+title: Konwertuj EPUB do JPG za pomocą Aspose.HTML dla Java
+linktitle: Konwersja EPUB do JPG
 second_title: Przetwarzanie HTML w Javie za pomocą Aspose.HTML
-description: Dowiedz się, jak konwertować obrazy EPUB do JPG za pomocą Aspose.HTML dla Java. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać bezproblemową konwersję.
+description: Dowiedz się, jak konwertować obrazy EPUB na JPG za pomocą Aspose.HTML dla Java. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać bezproblemową konwersję.
 type: docs
 weight: 12
 url: /pl/java/converting-epub-to-pdf/convert-epub-to-jpg/
 ---
 
-W tym przewodniku krok po kroku pokażemy, jak przekonwertować plik EPUB na obrazy JPG przy użyciu biblioteki Aspose.HTML for Java. Aspose.HTML dla Java to potężne narzędzie do pracy z plikami HTML i EPUB, oferujące szereg funkcji do konwersji i manipulacji.
+W tym przewodniku krok po kroku pokażemy Ci, jak przekonwertować plik EPUB na obrazy JPG przy użyciu biblioteki Aspose.HTML for Java. Aspose.HTML for Java to potężne narzędzie do pracy z plikami HTML i EPUB, oferujące szereg funkcji do konwersji i manipulacji.
 
-## Warunki wstępne
+## Wymagania wstępne
 
 Zanim rozpoczniemy proces konwersji, musisz upewnić się, że spełnione są następujące wymagania wstępne:
 
-1. Zestaw Java Development Kit (JDK): Upewnij się, że w systemie zainstalowana jest wersja Java SE 8 lub nowsza.
+1. Java Development Kit (JDK): Upewnij się, że w systemie zainstalowana jest Java SE 8 lub nowsza.
 
 2.  Biblioteka Aspose.HTML dla Java: Pobierz i zainstaluj bibliotekę Aspose.HTML dla Java ze strony[Tutaj](https://releases.aspose.com/html/java/).
 
@@ -22,66 +22,66 @@ Zanim rozpoczniemy proces konwersji, musisz upewnić się, że spełnione są na
 
 ## Importuj pakiety
 
-Aby rozpocząć, musisz zaimportować niezbędne pakiety z Aspose.HTML dla Java. Oto jak to zrobić:
+Na początek musisz zaimportować niezbędne pakiety z Aspose.HTML dla Java. Oto jak to zrobić:
 
 ```java
-// Zaimportuj wymagane pakiety Aspose.HTML dla Java
+// Zaimportuj wymagany plik Aspose.HTML dla pakietów Java
 import com.aspose.html.saving.ImageSaveOptions;
 import com.aspose.html.rendering.image.ImageFormat;
 import com.aspose.html.converters.Converter;
 import java.io.FileInputStream;
 ```
 
-Podzielmy teraz proces konwersji na wiele etapów.
+Teraz podzielimy proces konwersji na kilka kroków.
 
 ## Krok 1: Otwórz plik EPUB
 
- W tym kroku otworzymy plik EPUB do odczytu za pomocą pliku`FileInputStream` . Zastępować`'input.epub'` ze ścieżką do pliku EPUB.
+ W tym kroku otworzymy plik EPUB do odczytu za pomocą`FileInputStream` . Zastępować`'input.epub'` ze ścieżką do pliku EPUB.
 
 ```java
 try (FileInputStream fileInputStream = new FileInputStream("input.epub")) {
-    // Twój kod kolejnych kroków znajdzie się tutaj.
+    // Kod dla kolejnych kroków będzie umieszczony tutaj.
 }
 ```
 
-## Krok 2: Zainicjuj opcje ImageSaveOptions
+## Krok 2: Zainicjuj ImageSaveOptions
 
-Zainicjujemy`ImageSaveOptions` aby określić format, w jakim chcemy zapisywać obrazy. W tym przypadku używamy formatu JPEG.
+Zainicjujemy`ImageSaveOptions` aby określić format, w którym chcemy zapisać obrazy. W tym przypadku używamy formatu JPEG.
 
 ```java
 ImageSaveOptions options = new ImageSaveOptions(ImageFormat.Jpeg);
 ```
 
-## Krok 3: Konwertuj EPUB na JPG
+## Krok 3: Konwersja EPUB do JPG
 
- Teraz zadzwonimy do`convertEPUB` metoda wykonania konwersji. Ta metoda wymaga`FileInputStream` dla pliku EPUB,`ImageSaveOptions`i ścieżkę pliku wyjściowego.
+ Teraz nazwiemy`convertEPUB` metoda wykonania konwersji. Ta metoda przyjmuje`FileInputStream` dla pliku EPUB,`ImageSaveOptions`i ścieżkę do pliku wyjściowego.
 
 ```java
 Converter.convertEPUB(fileInputStream, options, "output.jpg");
 ```
 
-Otóż to! Pomyślnie przekonwertowałeś plik EPUB na obrazy JPG przy użyciu Aspose.HTML dla Java.
+To wszystko! Udało Ci się przekonwertować plik EPUB na obrazy JPG przy użyciu Aspose.HTML dla Java.
 
 ## Wniosek
 
-W tym samouczku omówiliśmy kroki konwersji pliku EPUB na obrazy JPG przy użyciu Aspose.HTML dla Java. Ta biblioteka zapewnia solidny i prosty sposób pracy z różnymi formatami plików, co czyni ją cennym narzędziem dla programistów.
+W tym samouczku omówiliśmy kroki konwersji pliku EPUB na obrazy JPG przy użyciu Aspose.HTML dla Javy. Ta biblioteka zapewnia solidny i prosty sposób pracy z różnymi formatami plików, co czyni ją cennym narzędziem dla programistów.
 
- Jeśli napotkasz jakiekolwiek problemy lub masz dalsze pytania, nie wahaj się zwrócić o pomoc do społeczności Aspose pod adresem[Forum Aspose](https://forum.aspose.com/).
+ Jeśli napotkasz jakiekolwiek problemy lub będziesz mieć dalsze pytania, nie wahaj się szukać pomocy u społeczności Aspose pod adresem[Fora Aspose](https://forum.aspose.com/).
 
 ## Często zadawane pytania (FAQ)
 
-### Czy korzystanie z Aspose.HTML dla Java jest darmowe?
-    Aspose.HTML dla Java jest biblioteką komercyjną, ale możesz ją eksplorować za pomocą pliku[bezpłatna wersja próbna](https://releases.aspose.com/).
+### Czy Aspose.HTML dla Java jest darmowy?
+    Aspose.HTML dla Javy to biblioteka komercyjna, ale można ją eksplorować za pomocą[bezpłatny okres próbny](https://releases.aspose.com/).
 
 ### Czy mogę konwertować inne formaty plików za pomocą Aspose.HTML dla Java?
-   Tak, Aspose.HTML dla Java obsługuje konwersję różnych formatów, w tym HTML, EPUB i innych.
+   Tak, Aspose.HTML for Java obsługuje konwersję różnych formatów, w tym HTML, EPUB i innych.
 
-### Jak mogę uzyskać tymczasową licencję na Aspose.HTML dla Java?
-    Licencję tymczasową można uzyskać od[Tutaj](https://purchase.aspose.com/temporary-license/).
+### W jaki sposób mogę uzyskać tymczasową licencję na Aspose.HTML dla Java?
+    Możesz uzyskać tymczasową licencję od[Tutaj](https://purchase.aspose.com/temporary-license/).
 
-### Czy są dostępne obszerne zasoby dokumentacji dla Aspose.HTML dla Java?
+### Czy są dostępne jakieś kompleksowe źródła dokumentacji dla Aspose.HTML dla Java?
     Tak, szczegółową dokumentację można znaleźć pod adresem[Aspose.HTML dla dokumentacji Java](https://reference.aspose.com/html/java/).
 
-### Gdzie mogę kupić pełną licencję na Aspose.HTML dla Java?
-    Pełną licencję można kupić w witrynie[Tutaj](https://purchase.aspose.com/buy).
+### Gdzie mogę nabyć pełną licencję na Aspose.HTML dla Java?
+    Pełną licencję można zakupić tutaj:[Tutaj](https://purchase.aspose.com/buy).
 

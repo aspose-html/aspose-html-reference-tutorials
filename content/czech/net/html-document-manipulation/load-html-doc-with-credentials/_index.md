@@ -20,11 +20,11 @@ Chcete-li používat Aspose.HTML pro .NET, měli byste mít nastavené funkční
 
 2. Aspose.HTML pro .NET
 
-Budete si muset pořídit Aspose.HTML for .NET. Můžete si jej stáhnout z webu[tady](https://releases.aspose.com/html/net/). 
+Budete si muset pořídit Aspose.HTML for .NET. Můžete si jej stáhnout z webu[zde](https://releases.aspose.com/html/net/). 
 
 3. API klíč nebo licence
 
- Chcete-li získat přístup k funkcím Aspose.HTML, možná budete muset získat klíč API nebo licenci. Dočasnou licenci můžete získat od[tady](https://purchase.aspose.com/temporary-license/) nebo zakoupit plnou licenci od[tady](https://purchase.aspose.com/buy).
+ Chcete-li získat přístup k funkcím Aspose.HTML, možná budete muset získat klíč API nebo licenci. Dočasnou licenci můžete získat od[zde](https://purchase.aspose.com/temporary-license/) nebo zakoupit plnou licenci od[zde](https://purchase.aspose.com/buy).
 
 4. Základní znalost HTML
 
@@ -54,7 +54,7 @@ HTMLDocument document = new HTMLDocument();
 
 Zde vytvoříte instanci třídy HTMLDocument. Tento dokument bude sloužit k načítání obsahu HTML a manipulaci s ním.
 
-## Zhroutit se
+## Zhroucení
 
 Pojďme si rozdělit příklad do několika kroků, které vám pomohou pochopit, jak používat Aspose.HTML pro .NET pro optimalizaci SEO.
 
@@ -108,7 +108,7 @@ V tomto článku jsme prozkoumali použití Aspose.HTML pro .NET jako mocného n
 
 ### Q1: Je Aspose.HTML kompatibilní se všemi verzemi .NET?
 
- Odpověď 1: Aspose.HTML for .NET je kompatibilní s různými verzemi .NET, je však nezbytné zkontrolovat konkrétní podrobnosti o kompatibilitě v dokumentaci. Více informací naleznete[tady](https://reference.aspose.com/html/net/).
+ Odpověď 1: Aspose.HTML for .NET je kompatibilní s různými verzemi .NET, je však nezbytné zkontrolovat konkrétní podrobnosti o kompatibilitě v dokumentaci. Více informací naleznete[zde](https://reference.aspose.com/html/net/).
 
 ### Q2: Mohu použít Aspose.HTML pro SEO optimalizaci na dynamických webových stránkách?
 
@@ -116,11 +116,11 @@ A2: Ano, Aspose.HTML můžete použít pro SEO optimalizaci na statických i dyn
 
 ### Q3: Jak mohu získat úplnou licenci pro Aspose.HTML pro .NET?
 
- A3: Můžete si zakoupit úplnou licenci pro Aspose.HTML pro .NET[tady](https://purchase.aspose.com/buy).
+ A3: Můžete si zakoupit úplnou licenci pro Aspose.HTML pro .NET[zde](https://purchase.aspose.com/buy).
 
 ### Q4: Jsou pro Aspose.HTML k dispozici nějaké další zdroje nebo výukové programy?
 
- Odpověď 4: Ano, užitečné návody a zdroje najdete na fóru Aspose.HTML[tady](https://forum.aspose.com/).
+ Odpověď 4: Ano, užitečné návody a zdroje najdete na fóru Aspose.HTML[zde](https://forum.aspose.com/).
 
 ### Q5: Jaké další nástroje SEO doplňují Aspose.HTML pro .NET?
 

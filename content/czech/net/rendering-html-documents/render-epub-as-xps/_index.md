@@ -8,7 +8,7 @@ weight: 11
 url: /cs/net/rendering-html-documents/render-epub-as-xps/
 ---
 
-## Úvod
+## Zavedení
 
 Vítejte v tomto komplexním tutoriálu o použití Aspose.HTML pro .NET k vytváření a vykreslování HTML dokumentů. Aspose.HTML for .NET je výkonná knihovna, která umožňuje vývojářům pracovat se soubory HTML programově, což z ní činí cenný nástroj pro širokou škálu aplikací, od web scrapingu až po generování reportů.
 
@@ -26,7 +26,7 @@ Než se ponoříte do Aspose.HTML pro .NET, musíte se ujistit, že máte splně
 
 1. Vývojové prostředí: Ujistěte se, že máte na svém počítači nastavené vývojové prostředí .NET. Můžete si stáhnout a nainstalovat Visual Studio nebo použít Visual Studio Code pro vývoj.
 
-2.  Aspose.HTML for .NET: Stáhněte si a nainstalujte knihovnu Aspose.HTML for .NET z[tady](https://releases.aspose.com/html/net/) . Můžete také získat bezplatnou zkušební verzi nebo zakoupit licenci od[tady](https://purchase.aspose.com/buy).
+2.  Aspose.HTML for .NET: Stáhněte si a nainstalujte knihovnu Aspose.HTML for .NET z[zde](https://releases.aspose.com/html/net/) . Můžete také získat bezplatnou zkušební verzi nebo zakoupit licenci od[zde](https://purchase.aspose.com/buy).
 
 3. Datový adresář: Připravte si adresář, kam budete ukládat své HTML soubory, jako je "Váš adresář dat" zmíněný v příkladu kódu.
 
@@ -71,7 +71,7 @@ using (var renderer = new EpubRenderer())
 
 4.  Vykreslení dokumentu EPUB do formátu XPS: Nakonec zavoláme`Render` metoda`EpubRenderer` třídy k provedení vykreslení. Vykreslený výstup bude uložen jako soubor XPS na určené místo.
 
-Gratulujeme! Úspěšně jste vytvořili a vykreslili dokument HTML pomocí Aspose.HTML for .NET.
+Gratuluji! Úspěšně jste vytvořili a vykreslili dokument HTML pomocí Aspose.HTML for .NET.
 
 ## Závěr
 
@@ -89,7 +89,7 @@ Ano, Aspose.HTML for .NET podporuje různé výstupní formáty, včetně PDF, o
 
 ### 3. Je k dispozici bezplatná zkušební verze?
 
- Ano, můžete získat bezplatnou zkušební verzi Aspose.HTML pro .NET od[tady](https://releases.aspose.com/).
+ Ano, můžete získat bezplatnou zkušební verzi Aspose.HTML pro .NET od[zde](https://releases.aspose.com/).
 
 ### 4. Kde mohu vyhledat pomoc nebo se podělit o své zkušenosti s knihovnou?
 
@@ -97,5 +97,5 @@ Můžete se připojit ke komunitě Aspose a vyhledat pomoc nebo sdílet své zku
 
 ### 5. Mohu použít Aspose.HTML pro .NET v komerčních projektech?
 
- Ano, můžete použít Aspose.HTML pro .NET v komerčních projektech zakoupením licence od[tady](https://purchase.aspose.com/buy).
+ Ano, můžete použít Aspose.HTML pro .NET v komerčních projektech zakoupením licence od[zde](https://purchase.aspose.com/buy).
 

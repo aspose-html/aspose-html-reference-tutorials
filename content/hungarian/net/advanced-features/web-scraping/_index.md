@@ -52,7 +52,7 @@ public static void NavigateThroughHTML()
 
         // Szerezze meg a hivatkozást a HTML-elemek közötti szóközre
         element = element.NextSibling;
-        Console.WriteLine(element.TextContent); // Kimenet: ' '
+        Console.WriteLine(element.TextContent); // Kimenet: ''
 
         // Szerezze meg a hivatkozást a második SPAN elemre
         element = element.NextSibling;

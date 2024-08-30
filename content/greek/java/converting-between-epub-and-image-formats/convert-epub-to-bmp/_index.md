@@ -79,7 +79,7 @@ Converter.convertEPUB(fileInputStream, options, "path/to/your/output.bmp");
 
 Και τέλος! Μετατρέψατε με επιτυχία ένα αρχείο EPUB σε BMP χρησιμοποιώντας το Aspose.HTML για Java.
 
-## συμπέρασμα
+## Σύναψη
 
  Η μετατροπή εικόνων EPUB σε BMP στην Java δεν ήταν ποτέ ευκολότερη, χάρη στο Aspose.HTML για Java. Με αυτόν τον οδηγό βήμα προς βήμα, μπορείτε να μετατρέψετε γρήγορα και αποτελεσματικά τα αρχεία EPUB. Εξερευνήστε την εκτενή τεκμηρίωση του Aspose.HTML[εδώ](https://reference.aspose.com/html/java/), και ξεκινήστε με τα έργα σας σήμερα!
 

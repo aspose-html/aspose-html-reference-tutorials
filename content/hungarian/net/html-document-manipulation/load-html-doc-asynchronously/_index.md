@@ -134,7 +134,7 @@ Az Aspose.HTML for .NET leegyszerűsíti a HTML-dokumentumokkal való munkát, l
 
 ### 1. kérdés: Az Aspose.HTML for .NET kompatibilis a legújabb .NET-keretrendszer-verziókkal?
 
-1. válasz: Az Aspose.HTML for .NET rendszeresen frissül, hogy támogassa a legújabb .NET-keretrendszer-verziókat. Ügyeljen arra, hogy a dokumentációban ellenőrizze az adott verzió kompatibilitását.
+1. válasz: Az Aspose.HTML for .NET rendszeresen frissül, hogy támogassa a legújabb .NET-keretrendszer-verziókat. Győződjön meg arról, hogy a dokumentációban ellenőrizze az adott verzió kompatibilitását.
 
 ### 2. kérdés: Átalakíthatok HTML dokumentumokat más formátumokba az Aspose.HTML for .NET használatával?
 

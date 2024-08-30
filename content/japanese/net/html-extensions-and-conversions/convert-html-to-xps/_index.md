@@ -2,41 +2,41 @@
 title: Aspose.HTML を使用して .NET で HTML を XPS に変換する
 linktitle: .NET で HTML を XPS に変換する
 second_title: Aspose.HTML .NET HTML 操作 API
-description: Aspose.HTML for .NET の威力を実感してください。 HTML を XPS に簡単に変換します。前提条件、ステップバイステップガイド、FAQ が含まれています。
+description: Aspose.HTML for .NET のパワーを体験してください。HTML を XPS に簡単に変換できます。前提条件、ステップバイステップ ガイド、FAQ が含まれています。
 type: docs
 weight: 22
 url: /ja/net/html-extensions-and-conversions/convert-html-to-xps/
 ---
 
-進化し続ける Web 開発環境において、成功には適切なツールを活用することが不可欠です。 Aspose.HTML for .NET は、開発者が HTML ドキュメントを簡単に操作できるようにするツールの 1 つです。このガイドは、Aspose.HTML for .NET の世界を段階的に説明するものです。その前提条件、名前空間のインポートを検討し、HTML を XPS 形式に変換する実際の例を詳しく掘り下げます。それでは、この教育探検に出発しましょう。
+進化し続ける Web 開発の分野では、適切なツールを活用することが成功の鍵となります。Aspose.HTML for .NET は、開発者が HTML ドキュメントを簡単に操作できるようにするツールの 1 つです。このガイドは、Aspose.HTML for .NET の世界をステップ バイ ステップで紹介するものです。前提条件、名前空間のインポートについて説明し、HTML を XPS 形式に変換する実用的な例を詳しく見ていきます。それでは、この教育的な旅に出発しましょう。
 
 ## 前提条件
 
-Aspose.HTML for .NET の詳細に入る前に、必要な前提条件を準備することが重要です。
+Aspose.HTML for .NET の詳細に進む前に、必要な前提条件を準備することが重要です。
 
-### Visual Studio をインストールする
+### Visual Studioをインストールする
 
-何よりもまず、システムに Visual Studio がインストールされていることを確認してください。そうでない場合は、Microsoft Web サイトからダウンロードしてインストールします。
+まず、システムに Visual Studio がインストールされていることを確認してください。インストールされていない場合は、Microsoft の Web サイトからダウンロードしてインストールしてください。
 
-### .NET 用の Aspose.HTML を取得する
+### Aspose.HTML for .NET を入手する
 
-開始するには、.NET 用の Aspose.HTML を入手する必要があります。からダウンロードできます[ここ](https://releases.aspose.com/html/net/).
+始めるには、Aspose.HTML for .NETを入手する必要があります。ここからダウンロードできます。[ここ](https://releases.aspose.com/html/net/).
 
-### .NETプロジェクトを作成する
+### .NET プロジェクトを作成する
 
-Visual Studio で新しい .NET プロジェクトをセットアップします。開発要件に合わせて、適切なプロジェクト タイプとフレームワーク バージョンを選択してください。
+Visual Studio で新しい .NET プロジェクトをセットアップします。開発要件に合わせて適切なプロジェクト タイプとフレームワーク バージョンを選択します。
 
-### HTMLドキュメント
+### HTML ドキュメント
 
 XPS 形式に変換する HTML ドキュメントがあることを確認してください。既存の HTML ファイルを使用することも、新しい HTML ファイルを作成することもできます。
 
-### 参照の追加
+### 参照を追加
 
 .NET プロジェクトで、Aspose.HTML アセンブリへの参照を追加します。これは、Aspose.HTML をプロジェクトに統合するために不可欠です。
 
-## ネームスペースのインポート
+## 名前空間のインポート
 
-環境を準備し、前提条件を集めたら、次のステップは必要な名前空間をインポートすることです。これにより、コード内で Aspose.HTML for .NET の機能にアクセスできるようになります。
+環境を準備し、前提条件を収集したら、次のステップは必要な名前空間をインポートすることです。これにより、コード内で Aspose.HTML for .NET の機能にアクセスできるようになります。
 
 ### ステップ 1: Aspose.HTML 名前空間をインポートする
 
@@ -50,20 +50,20 @@ using Aspose.Html;
 
 ## HTML から XPS への変換
 
-準備が整ったので、Aspose.HTML for .NET を使用して HTML ドキュメントを XPS 形式に変換する実際の例に進みましょう。
+準備ができたので、Aspose.HTML for .NET を使用して HTML ドキュメントを XPS 形式に変換する実践的な例に進みましょう。
 
-### ステップ 2: HTML ドキュメントをロードする
+### ステップ2: HTMLドキュメントを読み込む
 
-まず、変換する HTML ドキュメントをロードする必要があります。交換する`"Your Data Directory"`HTML ファイルへの実際のパスを指定します。
+まず、変換したいHTML文書を読み込む必要があります。`"Your Data Directory"` HTML ファイルへの実際のパス:
 
 ```csharp
 string dataDir = "Your Data Directory";
 HTMLDocument htmlDocument = new HTMLDocument(dataDir + "input.html");
 ```
 
-### ステップ 3: XpsSaveOptions を初期化する
+### ステップ3: XpsSaveOptionsを初期化する
 
-次に、インスタンスを作成します`XpsSaveOptions`XPS 変換プロセスをカスタマイズします。要件に応じて背景色などのオプションを設定できます。
+さて、インスタンスを作成します`XpsSaveOptions`XPS 変換プロセスをカスタマイズします。必要に応じて背景色などのオプションを設定できます。
 
 ```csharp
 XpsSaveOptions options = new XpsSaveOptions
@@ -72,43 +72,43 @@ XpsSaveOptions options = new XpsSaveOptions
 };
 ```
 
-### ステップ 4: 出力パスを定義する
+### ステップ4: 出力パスを定義する
 
-変換されたドキュメントが保存される出力 XPS ファイルのパスを指定します。
+変換されたドキュメントを保存する出力 XPS ファイルのパスを指定します。
 
 ```csharp
 string outputFile = dataDir + "output.xps";
 ```
 
-### ステップ 5: 変換を実行する
+### ステップ5: 変換を実行する
 
-最後に、次を使用して変換を実行します。`Converter.ConvertHTML`方法。これにより、指定されたオプションを使用して HTML ドキュメントが XPS 形式に変換されます。
+最後に、`Converter.ConvertHTML`メソッド。これにより、指定されたオプションを使用して HTML ドキュメントが XPS 形式に変換されます。
 
 ```csharp
 Converter.ConvertHTML(htmlDocument, options, outputFile);
 ```
 
-以上です！ Aspose.HTML for .NET を使用して HTML ドキュメントを XPS に変換することに成功しました。
+これで完了です。Aspose.HTML for .NET を使用して HTML ドキュメントを XPS に正常に変換できました。
 
-結論として、Aspose.HTML for .NET は、HTML ドキュメントを扱う開発者にとって貴重なツールです。前提条件とステップバイステップのガイドに従うことで、Aspose.HTML を .NET プロジェクトにシームレスに統合し、HTML から XPS への変換などのタスクを実行できます。
+結論として、Aspose.HTML for .NET は HTML ドキュメントを扱う開発者にとって貴重なツールです。前提条件とステップバイステップ ガイドに従うことで、Aspose.HTML を .NET プロジェクトにシームレスに統合し、HTML から XPS への変換などのタスクを実行できます。
 
-ここで、よくある質問に答えてみましょう。
+それでは、よくある質問にお答えしましょう。
 
 ## よくある質問
 
 ### 1. Aspose.HTML for .NET はすべての .NET フレームワークと互換性がありますか?
-   Aspose.HTML for .NET は幅広い .NET フレームワークをサポートし、ほとんどのプロジェクト設定との互換性を保証します。
+   Aspose.HTML for .NET は幅広い .NET フレームワークをサポートしており、ほとんどのプロジェクト設定との互換性が保証されます。
 
 ### 2. XPS 変換をさらにカスタマイズできますか?
    はい、ページ サイズ、余白など、変換プロセスのさまざまな側面をカスタマイズできます。
 
-### 3. 利用可能なライセンス オプションはありますか?
-    Aspose.HTML for .NET は、無料試用版や一時ライセンスなどの柔軟なライセンス オプションを提供します。訪問[ここ](https://purchase.aspose.com/buy)詳細については。
+### 3. 利用できるライセンス オプションはありますか?
+    Aspose.HTML for .NET は、無料トライアルや一時ライセンスなど、柔軟なライセンス オプションを提供しています。[ここ](https://purchase.aspose.com/buy)詳細については。
 
-### 4. Aspose.HTML for .NET のサポートを取得するにはどうすればよいですか?
-   質問がある場合、または問題が発生した場合は、Aspose コミュニティ フォーラムがサポートを求めるのに最適な場所です。訪問[ここ](https://forum.aspose.com/)援助のために。
+### 4. Aspose.HTML for .NET のサポートを受けるにはどうすればよいですか?
+   質問がある場合や問題が発生した場合、Asposeコミュニティフォーラムはサポートを求めるのに最適な場所です。[ここ](https://forum.aspose.com/)援助をお願いします。
 
 ### 5. Aspose.HTML for .NET は複雑な HTML ドキュメントを処理できますか?
    はい、Aspose.HTML for .NET は複雑な HTML ドキュメントを処理できるように設計されており、幅広いユースケースに適しています。
 
-このガイドでは、前提条件から実践的な例まで、Aspose.HTML for .NET の基本について説明しました。適切な知識とツールがあれば、Web 開発プロジェクトで Aspose.HTML for .NET の機能を活用できます。
+このガイドでは、前提条件から実際の例まで、Aspose.HTML for .NET の基礎について説明しました。適切な知識とツールがあれば、Web 開発プロジェクトで Aspose.HTML for .NET のパワーを活用できます。

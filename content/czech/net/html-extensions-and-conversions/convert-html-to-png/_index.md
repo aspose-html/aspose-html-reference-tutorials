@@ -8,7 +8,7 @@ weight: 20
 url: /cs/net/html-extensions-and-conversions/convert-html-to-png/
 ---
 
-## Úvod
+## Zavedení
 
 Aspose.HTML for .NET je výkonná knihovna, která vám umožňuje pracovat s dokumenty HTML ve vašich aplikacích .NET. Ať už potřebujete převést HTML do jiných formátů, manipulovat s HTML dokumenty nebo z nich extrahovat data, Aspose.HTML poskytuje řadu funkcí, které vám usnadní práci. V tomto obsáhlém průvodci rozebereme použití Aspose.HTML pro .NET na sérii příkladů krok za krokem. To vám pomůže pochopit, jak využít plný potenciál této knihovny ve vašich projektech.
 
@@ -18,7 +18,7 @@ Než se pustíme do používání Aspose.HTML pro .NET, ujistěte se, že máte 
 
 ### 1. Nainstalujte Aspose.HTML pro .NET
 
- Chcete-li začít, musíte nainstalovat Aspose.HTML pro .NET. Knihovnu si můžete stáhnout z webových stránek,[tady](https://releases.aspose.com/html/net/). Postupujte podle pokynů k instalaci a nastavte Aspose.HTML v projektu .NET.
+ Chcete-li začít, musíte nainstalovat Aspose.HTML pro .NET. Knihovnu si můžete stáhnout z webových stránek,[zde](https://releases.aspose.com/html/net/). Postupujte podle pokynů k instalaci a nastavte Aspose.HTML v projektu .NET.
 
 ### 2. Importujte nezbytný jmenný prostor
 
@@ -86,16 +86,16 @@ Aspose.HTML for .NET je všestranná knihovna, která zjednodušuje práci s dok
 ## Často kladené otázky
 
 ### Je Aspose.HTML pro .NET zdarma k použití?
- Aspose.HTML for .NET není bezplatná knihovna. Můžete se podívat na ceny a možnosti licencí[tady](https://purchase.aspose.com/buy).
+ Aspose.HTML for .NET není bezplatná knihovna. Můžete se podívat na ceny a možnosti licencí[zde](https://purchase.aspose.com/buy).
 
 ### Kde najdu další dokumentaci k Aspose.HTML pro .NET?
- Můžete se podívat na dokumentaci[tady](https://reference.aspose.com/html/net/) pro podrobné informace a příklady.
+ Můžete se podívat na dokumentaci[zde](https://reference.aspose.com/html/net/) pro podrobné informace a příklady.
 
 ### Mohu si Aspose.HTML pro .NET vyzkoušet před jeho zakoupením?
- Ano, můžete prozkoumat bezplatnou zkušební verzi[tady](https://releases.aspose.com/) vyhodnotit jeho vlastnosti a možnosti.
+ Ano, můžete prozkoumat bezplatnou zkušební verzi[zde](https://releases.aspose.com/) vyhodnotit jeho vlastnosti a možnosti.
 
 ### Jak mohu získat podporu pro Aspose.HTML pro .NET?
- Pokud máte nějaké dotazy nebo potřebujete pomoc, můžete navštívit fóra Aspose[tady](https://forum.aspose.com/) získat pomoc od komunity a odborníků.
+ Pokud máte nějaké dotazy nebo potřebujete pomoc, můžete navštívit fóra Aspose[zde](https://forum.aspose.com/) získat pomoc od komunity a odborníků.
 
 ### Jaké formáty mohu převést do HTML pomocí Aspose.HTML pro .NET?
 Aspose.HTML for .NET podporuje převod HTML do různých formátů, včetně PDF, PNG, JPEG, BMP a dalších.

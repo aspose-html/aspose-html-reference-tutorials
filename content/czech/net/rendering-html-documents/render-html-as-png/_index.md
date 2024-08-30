@@ -10,7 +10,7 @@ url: /cs/net/rendering-html-documents/render-html-as-png/
 
 V tomto tutoriálu se ponoříme do světa Aspose.HTML for .NET, mocného nástroje pro programovou práci s dokumenty HTML. Ať už jste zkušený vývojář nebo teprve začínáte svou cestu do světa programování .NET, tento tutoriál vás provede základy Aspose.HTML, od importu jmenných prostorů až po praktické příklady.
 
-## Úvod
+## Zavedení
 
 Aspose.HTML for .NET je všestranná knihovna, která umožňuje vývojářům snadno manipulovat s HTML dokumenty. Ať už potřebujete převést HTML do jiných formátů, extrahovat data z HTML dokumentů nebo vytvořit dynamický HTML obsah, Aspose.HTML vás pokryje. V tomto tutoriálu prozkoumáme jeho možnosti krok za krokem.
 
@@ -20,9 +20,9 @@ Než se ponoříme do příkladů kódu, budete potřebovat několik předpoklad
 
 1. Visual Studio: Ujistěte se, že máte nainstalované Visual Studio, protože budeme psát kód .NET.
 
-2.  Aspose.HTML for .NET: Stáhněte si a nainstalujte knihovnu Aspose.HTML for .NET z[tento odkaz](https://releases.aspose.com/html/net/) . Můžete si vybrat mezi bezplatnou zkušební verzí nebo zakoupením licence[tady](https://purchase.aspose.com/buy).
+2.  Aspose.HTML for .NET: Stáhněte si a nainstalujte knihovnu Aspose.HTML for .NET z[tento odkaz](https://releases.aspose.com/html/net/) . Můžete si vybrat mezi bezplatnou zkušební verzí nebo zakoupením licence[zde](https://purchase.aspose.com/buy).
 
-3. .NET Framework nebo .NET Core: Ujistěte se, že máte na vývojovém počítači nainstalované rozhraní .NET Framework nebo .NET Core, v závislosti na požadavcích vašeho projektu.
+3. .NET Framework nebo .NET Core: Ujistěte se, že máte na svém vývojovém počítači nainstalované rozhraní .NET Framework nebo .NET Core, v závislosti na požadavcích vašeho projektu.
 
 4. Editor kódu: Můžete použít Visual Studio nebo jakýkoli jiný editor kódu podle vašeho výběru.
 
@@ -68,13 +68,13 @@ using (var document = new Aspose.Html.HTMLDocument("<style>p { color: green; }</
 
  Zde vytvoříme`HtmlRenderer` objekt. Toto je hlavní komponenta zodpovědná za vykreslování obsahu HTML. 
 
-### Krok 3: Přeneste dokument HTML do formátu PNG
+### Krok 3: Vykreslete dokument HTML do formátu PNG
 
  Nakonec vykreslíme dokument HTML do obrázku PNG pomocí`HtmlRenderer` a`ImageDevice` . Výsledný obrázek PNG bude uložen ve specifikovaném formátu`dataDir`.
 
 ## Závěr
 
- tomto tutoriálu jsme vám představili Aspose.HTML pro .NET a poskytli rozpis příkladu kódu. Toto je jen začátek toho, čeho můžete dosáhnout s touto výkonnou knihovnou. Můžete prozkoumat jeho rozsáhlou dokumentaci[tady](https://reference.aspose.com/html/net/) a přístup k dalším zdrojům a podpoře na webu[Aspose fóra](https://forum.aspose.com/).
+ tomto tutoriálu jsme vám představili Aspose.HTML pro .NET a poskytli rozpis příkladu kódu. Toto je jen začátek toho, čeho můžete dosáhnout s touto výkonnou knihovnou. Můžete prozkoumat jeho rozsáhlou dokumentaci[zde](https://reference.aspose.com/html/net/) a přístup k dalším zdrojům a podpoře na webu[Aspose fóra](https://forum.aspose.com/).
 
 Pokud máte nějaké dotazy nebo potřebujete pomoc s Aspose.HTML pro .NET, neváhejte se obrátit na komunitu Aspose nebo si prostudujte dokumentaci pro další pokyny.
 
@@ -84,13 +84,13 @@ Pokud máte nějaké dotazy nebo potřebujete pomoc s Aspose.HTML pro .NET, nev�
    Aspose.HTML for .NET je knihovna, která umožňuje vývojářům manipulovat a převádět HTML dokumenty programově v aplikacích .NET.
 
 ### Jak mohu získat dočasnou licenci pro Aspose.HTML pro .NET?
-    Můžete získat dočasnou licenci pro Aspose.HTML pro .NET[tady](https://purchase.aspose.com/temporary-license/).
+    Můžete získat dočasnou licenci pro Aspose.HTML pro .NET[zde](https://purchase.aspose.com/temporary-license/).
 
 ### Mohu převést HTML do jiných formátů pomocí Aspose.HTML pro .NET?
    Ano, Aspose.HTML for .NET poskytuje různé konvertory pro převod HTML do formátů jako PDF, XPS a obrázky.
 
 ### Je k dispozici bezplatná zkušební verze pro Aspose.HTML pro .NET?
-    Ano, můžete si stáhnout bezplatnou zkušební verzi Aspose.HTML pro .NET[tady](https://releases.aspose.com/).
+    Ano, můžete si stáhnout bezplatnou zkušební verzi Aspose.HTML pro .NET[zde](https://releases.aspose.com/).
 
 ### Kde najdu další návody a dokumentaci?
    Můžete prozkoumat komplexní dokumentaci a návody na[Stránka dokumentace Aspose.HTML for .NET](https://reference.aspose.com/html/net/).

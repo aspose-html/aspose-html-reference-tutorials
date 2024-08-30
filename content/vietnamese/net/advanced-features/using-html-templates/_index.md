@@ -1,24 +1,24 @@
 ---
-title: Sử dụng Mẫu HTML trong .NET với Aspose.HTML
-linktitle: Sử dụng Mẫu HTML trong .NET
-second_title: Aspose.HTML .NET HTML thao tác API
-description: Tìm hiểu cách sử dụng Aspose.HTML cho .NET để tạo động các tài liệu HTML từ dữ liệu JSON. Khai thác sức mạnh của thao tác HTML trong các ứng dụng .NET của bạn.
+title: Sử dụng mẫu HTML trong .NET với Aspose.HTML
+linktitle: Sử dụng mẫu HTML trong .NET
+second_title: Aspose.HTML .NET API thao tác HTML
+description: Tìm hiểu cách sử dụng Aspose.HTML cho .NET để tạo tài liệu HTML động từ dữ liệu JSON. Khai thác sức mạnh của thao tác HTML trong các ứng dụng .NET của bạn.
 type: docs
 weight: 17
 url: /vi/net/advanced-features/using-html-templates/
 ---
 
-Nếu bạn đang muốn làm việc với các tài liệu và mẫu HTML trong ứng dụng .NET của mình thì bạn đã đến đúng nơi! Aspose.HTML for .NET là một thư viện đa năng cho phép các nhà phát triển thao tác các tài liệu và mẫu HTML một cách dễ dàng. Trong hướng dẫn này, chúng ta sẽ đi sâu vào các yếu tố cần thiết của việc sử dụng Aspose.HTML cho .NET, chia nhỏ từng bước và đưa ra lời giải thích rõ ràng trong quá trình thực hiện.
+Nếu bạn đang muốn làm việc với các tài liệu và mẫu HTML trong các ứng dụng .NET của mình, bạn đã đến đúng nơi rồi! Aspose.HTML for .NET là một thư viện đa năng giúp các nhà phát triển dễ dàng thao tác với các tài liệu và mẫu HTML. Trong hướng dẫn này, chúng ta sẽ đi sâu vào những điều cốt yếu khi sử dụng Aspose.HTML for .NET, chia nhỏ từng bước và cung cấp giải thích rõ ràng trong suốt quá trình.
 
 ## Điều kiện tiên quyết
 
-Trước khi chúng ta đi sâu vào nội dung chi tiết của Aspose.HTML cho .NET, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
+Trước khi đi sâu vào chi tiết của Aspose.HTML cho .NET, hãy đảm bảo bạn đã đáp ứng các điều kiện tiên quyết sau:
 
-1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy của mình. Bạn có thể tải xuống từ trang web nếu bạn chưa có nó.
+1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy của mình. Bạn có thể tải xuống từ trang web nếu bạn chưa có.
 
-2.  Aspose.HTML for .NET: Bạn cần cài đặt Aspose.HTML for .NET trong dự án Visual Studio của mình. Bạn có thể lấy nó từ[tài liệu](https://reference.aspose.com/html/net/).
+2.  Aspose.HTML cho .NET: Bạn cần cài đặt Aspose.HTML cho .NET trong dự án Visual Studio của mình. Bạn có thể tải xuống từ[tài liệu](https://reference.aspose.com/html/net/).
 
-3. Dữ liệu JSON: Chuẩn bị nguồn dữ liệu JSON mà bạn muốn sử dụng để điền mẫu HTML của mình. Đối với hướng dẫn này, chúng tôi sẽ sử dụng dữ liệu JSON sau:
+3. Dữ liệu JSON: Chuẩn bị nguồn dữ liệu JSON mà bạn muốn sử dụng để điền vào mẫu HTML của mình. Đối với hướng dẫn này, chúng tôi sẽ sử dụng dữ liệu JSON sau:
 
 ```json
 {
@@ -32,7 +32,7 @@ Trước khi chúng ta đi sâu vào nội dung chi tiết của Aspose.HTML cho
 }
 ```
 
-4. Mẫu HTML: Tạo mẫu HTML mà bạn muốn điền dữ liệu JSON. Đây là một ví dụ đơn giản:
+4. Mẫu HTML: Tạo mẫu HTML mà bạn muốn điền dữ liệu JSON. Sau đây là một ví dụ đơn giản:
 
 ```html
 <table border=1>
@@ -49,18 +49,18 @@ Trước khi chúng ta đi sâu vào nội dung chi tiết của Aspose.HTML cho
 
 ## Nhập không gian tên
 
-Trước tiên, hãy nhập các vùng tên cần thiết vào dự án .NET của bạn:
+Trước tiên, hãy nhập các không gian tên cần thiết vào dự án .NET của bạn:
 
 ```csharp
 using Aspose.Html.Converters;
 using Aspose.Html.Loading;
 ```
 
-Bây giờ chúng ta đã đề cập đến các điều kiện tiên quyết và nhập các không gian tên bắt buộc, hãy chia nhỏ từng bước một cách chi tiết.
+Bây giờ chúng ta đã đề cập đến các điều kiện tiên quyết và nhập các không gian tên cần thiết, hãy cùng phân tích chi tiết từng bước.
 
 ## Bước 1: Chuẩn bị nguồn dữ liệu JSON
 
-Bắt đầu bằng cách tạo nguồn dữ liệu JSON chứa thông tin bạn muốn chèn vào mẫu HTML của mình. Trong ví dụ này, chúng tôi đã chuẩn bị sẵn nguồn dữ liệu JSON như đã đề cập trong phần điều kiện tiên quyết. Lưu nó vào một tệp, ví dụ: "data-source.json."
+Bắt đầu bằng cách tạo nguồn dữ liệu JSON chứa thông tin bạn muốn chèn vào mẫu HTML của mình. Trong ví dụ này, chúng tôi đã chuẩn bị nguồn dữ liệu JSON như đã đề cập trong các điều kiện tiên quyết. Lưu nó vào một tệp, ví dụ: "data-source.json."
 
 ```csharp
 var data = @"{
@@ -75,11 +75,11 @@ var data = @"{
 System.IO.File.WriteAllText("data-source.json", data);
 ```
 
-Đoạn mã này đọc dữ liệu JSON và ghi nó vào một tệp có tên "data-source.json".
+Đoạn mã này đọc dữ liệu JSON và ghi vào tệp có tên "data-source.json".
 
 ## Bước 2: Chuẩn bị mẫu HTML
 
-Bây giờ, hãy tạo một mẫu HTML mà bạn muốn điền dữ liệu JSON. Lưu mẫu này vào một tệp, chẳng hạn như "template.html."
+Bây giờ, hãy tạo một mẫu HTML mà bạn muốn điền dữ liệu JSON. Lưu mẫu này vào một tệp, chẳng hạn như "template.html".
 
 ```csharp
 var template = @"
@@ -97,11 +97,11 @@ var template = @"
 System.IO.File.WriteAllText("template.html", template);
 ```
 
- Mẫu HTML này bao gồm các phần giữ chỗ như`{{FirstName}}`, `{{LastName}}`, `{{Address.Street}}`, `{{Address.Number}}` Và`{{Address.City}}`, chúng tôi sẽ thay thế bằng dữ liệu thực tế.
+ Mẫu HTML này bao gồm các chỗ giữ chỗ như`{{FirstName}}`, `{{LastName}}`, `{{Address.Street}}`, `{{Address.Number}}` Và`{{Address.City}}`, chúng ta sẽ thay thế bằng dữ liệu thực tế.
 
 ## Bước 3: Điền mẫu HTML
 
- Cuối cùng, gọi`Converter.ConvertTemplate` phương pháp để điền vào mẫu HTML của bạn dữ liệu từ nguồn JSON.
+ Cuối cùng, hãy gọi`Converter.ConvertTemplate` phương pháp để điền dữ liệu từ nguồn JSON vào mẫu HTML của bạn.
 
 ```csharp
 Aspose.Html.Converters.Converter.ConvertTemplate(
@@ -109,32 +109,32 @@ Aspose.Html.Converters.Converter.ConvertTemplate(
 );
 ```
 
-Mã này lấy tệp "template.html", thay thế phần giữ chỗ bằng các giá trị JSON tương ứng và lưu kết quả trong "document.html".
+Đoạn mã này lấy tệp "template.html", thay thế các chỗ giữ chỗ bằng các giá trị JSON tương ứng và lưu kết quả trong "document.html".
 
-Chúc mừng! Bạn đã khai thác thành công sức mạnh của Aspose.HTML dành cho .NET để tạo động các tài liệu HTML từ dữ liệu JSON.
+Xin chúc mừng! Bạn đã khai thác thành công sức mạnh của Aspose.HTML cho .NET để tạo tài liệu HTML động từ dữ liệu JSON.
 
 ## Phần kết luận
 
-Trong hướng dẫn này, chúng tôi đã khám phá các nguyên tắc cơ bản của việc sử dụng Aspose.HTML cho .NET để tạo tài liệu HTML một cách linh hoạt. Chúng tôi đã đề cập đến các điều kiện tiên quyết, nhập vùng tên và chia nhỏ từng bước một cách chi tiết. Bằng cách làm theo các bước này, bạn có thể tích hợp liền mạch việc tạo tài liệu HTML vào các ứng dụng .NET của mình.
+Trong hướng dẫn này, chúng tôi đã khám phá những điều cơ bản khi sử dụng Aspose.HTML cho .NET để tạo tài liệu HTML một cách động. Chúng tôi đã đề cập đến các điều kiện tiên quyết, nhập không gian tên và phân tích chi tiết từng bước. Bằng cách làm theo các bước này, bạn có thể tích hợp liền mạch việc tạo tài liệu HTML vào các ứng dụng .NET của mình.
 
 ## Câu hỏi thường gặp
 
-### Q1. Aspose.HTML dành cho .NET là gì?
+### Câu hỏi 1. Aspose.HTML dành cho .NET là gì?
 
-Câu trả lời 1: Aspose.HTML for .NET là một thư viện mạnh mẽ cho phép các nhà phát triển .NET làm việc với các tài liệu và mẫu HTML theo chương trình. Nó đơn giản hóa các tác vụ như tạo, chuyển đổi và thao tác HTML.
+A1: Aspose.HTML for .NET là một thư viện mạnh mẽ cho phép các nhà phát triển .NET làm việc với các tài liệu và mẫu HTML theo chương trình. Nó đơn giản hóa các tác vụ như tạo, chuyển đổi và thao tác HTML.
 
-### Q2. Tôi có thể tìm tài liệu về Aspose.HTML cho .NET ở đâu?
+### Câu hỏi 2. Tôi có thể tìm tài liệu về Aspose.HTML cho .NET ở đâu?
 
- Câu trả lời 2: Bạn có thể truy cập tài liệu về Aspose.HTML for .NET[đây](https://reference.aspose.com/html/net/). Nó cung cấp thông tin toàn diện, bao gồm các tài liệu tham khảo API và các ví dụ về mã.
+ A2: Bạn có thể truy cập tài liệu về Aspose.HTML cho .NET[đây](https://reference.aspose.com/html/net/). Nó cung cấp thông tin toàn diện, bao gồm các tài liệu tham khảo API và ví dụ mã.
 
-### Q3. Làm cách nào tôi có thể tải xuống Aspose.HTML cho .NET?
+### Câu hỏi 3. Làm thế nào tôi có thể tải xuống Aspose.HTML cho .NET?
 
-Câu trả lời 3: Bạn có thể tải xuống Aspose.HTML cho .NET từ trang tải xuống[đây](https://releases.aspose.com/html/net/).
+A3: Bạn có thể tải xuống Aspose.HTML cho .NET từ trang tải xuống[đây](https://releases.aspose.com/html/net/).
 
-### Q4. Có bản dùng thử miễn phí dành cho Aspose.HTML cho .NET không?
+### Câu hỏi 4. Có bản dùng thử miễn phí Aspose.HTML dành cho .NET không?
 
- Câu trả lời 4: Có, bạn có thể dùng thử Aspose.HTML cho .NET bằng cách tải xuống phiên bản dùng thử miễn phí từ[đây](https://releases.aspose.com/).
+ A4: Có, bạn có thể dùng thử Aspose.HTML cho .NET bằng cách tải xuống phiên bản dùng thử miễn phí từ[đây](https://releases.aspose.com/).
 
-### Q5. Tôi có cần giấy phép tạm thời cho Aspose.HTML cho .NET không?
+### Câu hỏi 5. Tôi có cần giấy phép tạm thời cho Aspose.HTML dành cho .NET không?
 
- Câu trả lời 5: Nếu bạn yêu cầu giấy phép tạm thời cho mục đích đánh giá, bạn có thể lấy giấy phép từ[đây](https://purchase.aspose.com/temporary-license/).
+ A5: Nếu bạn cần giấy phép tạm thời cho mục đích đánh giá, bạn có thể xin giấy phép từ[đây](https://purchase.aspose.com/temporary-license/).

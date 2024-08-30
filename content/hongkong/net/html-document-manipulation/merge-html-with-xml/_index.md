@@ -36,7 +36,7 @@ url: /zh-hant/net/html-document-manipulation/merge-html-with-xml/
 
 ## 導入 Aspose.HTML 命名空間
 
-在利用 Aspose.HTML for .NET 的強大功能之前，您需要將必要的命名空間匯入到您的專案中。按著這些次序：
+在利用 Aspose.HTML for .NET 的強大功能之前，您需要將必要的命名空間匯入到您的專案中。請依照下列步驟操作：
 
 ### 第 1 步：開啟您的項目
 
@@ -125,4 +125,4 @@ A1：Aspose.HTML for .NET 是一個功能強大的函式庫，可讓開發人員
 ### 問題 5：我可以在哪裡獲得 Aspose.HTML for .NET 的支援和協助？
 
  A5：Aspose.HTML 社群和支援論壇是尋求協助和與其他使用者聯繫的好地方。訪問論壇[這裡](https://forum.aspose.com/).
-F
+f

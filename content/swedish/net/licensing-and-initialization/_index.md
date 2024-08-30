@@ -18,7 +18,7 @@ Låt oss först och främst bekanta oss med Aspose.HTML för .NET. Det här bibl
 
 En av de avgörande aspekterna att tänka på när du använder någon programvara är licensiering. Aspose.HTML för .NET gör licensiering till en lek. Med våra steg-för-steg tutorials lär du dig hur du licensierar biblioteket, vilket säkerställer att din utveckling är både laglig och problemfri. 
 
-## Initialisering Avmystifierad
+## Initialisering avmystifierad
 
 Efter att ha hanterat licensiering är det dags att dyka in i initiering. Korrekt initiering är nyckeln till att låsa upp den fulla potentialen hos Aspose.HTML för .NET. Våra handledningar leder dig genom processen och säkerställer att du är väl bevandrad i att ställa in biblioteket korrekt. 
 
@@ -36,6 +36,6 @@ Aspose.HTML för .NET är inte bara ett verktyg; det är en kreativ duk för web
 
 ## Licensie- och initieringsstudier
 ### [Använd Metered License i .NET med Aspose.HTML](./apply-metered-license/)
-Lär dig hur du tillämpar en mätlicens i Aspose.HTML för .NET. Hantera dina HTML-manipuleringsbehov effektivt. Börja nu!
+Lär dig hur du tillämpar en mätlicens i Aspose.HTML för .NET. Hantera dina HTML-manipuleringsbehov effektivt. Kom igång nu!
 
 Sammanfattningsvis är våra licens- och initialiseringshandledningar för Aspose.HTML för .NET din inkörsport till en smidigare och effektivare webbutvecklingsupplevelse. Genom att följa vår steg-för-steg-vägledning kommer du att vara utrustad med de färdigheter som behövs för att utnyttja den fulla potentialen i detta kraftfulla bibliotek. Så varför vänta? Börja din resa in i världen av Aspose.HTML för .NET idag och lås upp den sanna potentialen för webbutveckling med lätthet.

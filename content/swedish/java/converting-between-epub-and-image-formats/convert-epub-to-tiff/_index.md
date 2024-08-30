@@ -41,7 +41,7 @@ Låt oss nu dela upp konverteringsprocessen i flera steg.
 
 ### Steg 2.1: Öppna EPUB-filen
 
- Du måste öppna en befintlig EPUB-fil för läsning. Byta ut`"input.epub"` med sökvägen till din EPUB-fil.
+ Du måste öppna en befintlig EPUB-fil för läsning. Ersätta`"input.epub"` med sökvägen till din EPUB-fil.
 
 ```java
 try (FileInputStream fileInputStream = new FileInputStream("input.epub")) {
@@ -63,7 +63,7 @@ ImageSaveOptions options = new ImageSaveOptions(ImageFormat.Tiff);
 Converter.convertEPUB(fileInputStream, options, "output.tiff");
 ```
 
-Det är allt! Du har framgångsrikt konverterat en EPUB-fil till en TIFF-bild med Aspose.HTML för Java. Du kan hitta den konverterade TIFF-filen på den angivna utdatasökvägen.
+Det är det! Du har framgångsrikt konverterat en EPUB-fil till en TIFF-bild med Aspose.HTML för Java. Du kan hitta den konverterade TIFF-filen på den angivna utdatasökvägen.
 
 ## Slutsats
 
@@ -87,7 +87,7 @@ S1: Aspose.HTML för Java är ett bibliotek som tillåter utvecklare att manipul
 
 ### F4: Kan jag få en tillfällig licens för Aspose.HTML för Java?
 
- S4: Ja, du kan få en tillfällig licens för Aspose.HTML för Java genom att besöka[den här länken](https://purchase.aspose.com/temporary-license/).
+ S4: Ja, du kan få en tillfällig licens för Aspose.HTML för Java genom att besöka[denna länk](https://purchase.aspose.com/temporary-license/).
 
 ### F5: Var kan jag hitta dokumentationen för Aspose.HTML för Java?
 

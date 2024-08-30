@@ -1,8 +1,8 @@
 ---
-title: Aspose.HTML ile EPUB'u .NET'te XPS olarak işleyin
-linktitle: EPUB'u .NET'te XPS olarak işleme
+title: Aspose.HTML ile .NET'te EPUB'ı XPS olarak işleyin
+linktitle: EPUB'ı .NET'te XPS olarak işle
 second_title: Aspose.HTML .NET HTML işleme API'si
-description: Bu kapsamlı eğitimde Aspose.HTML for .NET ile HTML belgeleri oluşturmayı ve işlemeyi öğrenin. HTML manipülasyonu, web kazıma ve daha fazlasının dünyasına dalın.
+description: Bu kapsamlı eğitimde Aspose.HTML for .NET ile HTML belgelerinin nasıl oluşturulacağını ve işleneceğini öğrenin. HTML manipülasyonu, web kazıma ve daha fazlasının dünyasına dalın.
 type: docs
 weight: 11
 url: /tr/net/rendering-html-documents/render-epub-as-xps/
@@ -10,29 +10,29 @@ url: /tr/net/rendering-html-documents/render-epub-as-xps/
 
 ## giriiş
 
-HTML belgeleri oluşturmak ve işlemek için Aspose.HTML for .NET'in kullanımına ilişkin bu kapsamlı eğitime hoş geldiniz. Aspose.HTML for .NET, geliştiricilerin HTML dosyalarıyla programlı olarak çalışmasına olanak tanıyan güçlü bir kütüphanedir; bu da onu web kazımaktan rapor oluşturmaya kadar çok çeşitli uygulamalar için değerli bir araç haline getirir.
+HTML belgeleri oluşturmak ve işlemek için Aspose.HTML for .NET'i kullanmaya yönelik bu kapsamlı eğitime hoş geldiniz. Aspose.HTML for .NET, geliştiricilerin HTML dosyalarıyla programatik olarak çalışmasına olanak tanıyan güçlü bir kütüphanedir ve bu da onu web kazımadan rapor oluşturmaya kadar çok çeşitli uygulamalar için değerli bir araç haline getirir.
 
 Bu eğitimde aşağıdaki konuları ele alacağız:
-- Önkoşullar: Başlamak için neye ihtiyacınız var?
-- Ad Alanlarını İçe Aktar: Projenize dahil edilecek gerekli ad alanları.
-- HTML Belgeleri Oluşturma ve İşleme: Sağlanan kod örneğini birden çok adıma ayıracağız ve her adımı ayrıntılı olarak açıklayacağız.
+- Ön koşullar: Başlamak için ihtiyacınız olanlar.
+- Ad Alanlarını İçe Aktar: Projenize dahil etmeniz gereken ad alanları.
+- HTML Belgeleri Oluşturma ve Görüntüleme: Sağlanan kod örneğini birden fazla adıma böleceğiz ve her adımı ayrıntılı olarak açıklayacağız.
 - Sonuç: Öğrendiklerimizin kısa bir özeti.
-- Sıkça Sorulan Sorular (SSS): Sık sorulan soruların yanıtları.
-- Arama Motoru Optimize Edilmiş Açıklama: SEO için kısa bir açıklama.
+- Sıkça Sorulan Sorular (SSS): Yaygın soruların yanıtları.
+- Arama Motoru İçin Optimize Edilmiş Açıklama: SEO için kısa bir açıklama.
 
-## Önkoşullar
+## Ön koşullar
 
-Aspose.HTML for .NET'e dalmadan önce aşağıdaki önkoşulların mevcut olduğundan emin olmanız gerekir:
+.NET için Aspose.HTML'e dalmadan önce, aşağıdaki ön koşulların mevcut olduğundan emin olmanız gerekir:
 
 1. Geliştirme Ortamı: Makinenizde bir .NET geliştirme ortamının kurulu olduğundan emin olun. Visual Studio'yu indirip yükleyebilir veya geliştirme için Visual Studio Code'u kullanabilirsiniz.
 
-2.  Aspose.HTML for .NET: Aspose.HTML for .NET kitaplığını şu adresten indirip yükleyin:[Burada](https://releases.aspose.com/html/net/) . Ayrıca ücretsiz deneme sürümünden yararlanabilir veya adresinden lisans satın alabilirsiniz.[Burada](https://purchase.aspose.com/buy).
+2.  .NET için Aspose.HTML: .NET için Aspose.HTML kitaplığını şu adresten indirin ve yükleyin:[Burada](https://releases.aspose.com/html/net/) Ayrıca ücretsiz deneme alabilir veya lisans satın alabilirsiniz.[Burada](https://purchase.aspose.com/buy).
 
-3. Veri Dizini: Kod örneğinde bahsedilen "Veri Dizininiz" gibi HTML dosyalarınızı saklayacağınız bir dizin hazırlayın.
+3. Veri Dizini: Kod örneğinde bahsedilen "Veri Dizini" gibi HTML dosyalarınızı saklayacağınız bir dizin hazırlayın.
 
 ## Ad Alanlarını İçe Aktar
 
-Aspose.HTML for .NET ile çalışmak için aşağıdaki ad alanlarını projenize aktarmanız gerekir:
+.NET için Aspose.HTML ile çalışmak için projenize aşağıdaki ad alanlarını aktarmanız gerekir:
 
 ```csharp
 using Aspose.Html.Rendering.Xps;
@@ -40,60 +40,60 @@ using Aspose.Html.Rendering.EpubRenderer;
 using System.IO;
 ```
 
-Bu ad alanları Aspose.HTML for .NET'in işleme yeteneklerine erişim sağlar ve HTML ve EPUB belgelerini değiştirmenize olanak sağlar.
+Bu ad alanları, Aspose.HTML for .NET'in oluşturma yeteneklerine erişim sağlar ve HTML ve EPUB belgelerini düzenlemenize olanak tanır.
 
-## HTML Belgeleri Oluşturma ve İşleme
+## HTML Belgeleri Oluşturma ve Görüntüleme
 
-Şimdi verilen kod örneğini birden çok adıma ayıralım ve her adımı açıklayalım:
+Şimdi verilen kod örneğini birden fazla adıma bölelim ve her adımı açıklayalım:
 
 ```csharp
 string dataDir = "Your Data Directory";
 
-// 1. Adım: EPUB belgesini okumak için açın
+// Adım 1: Okumak için EPUB belgesini açın
 using (var fs = File.OpenRead(dataDir + "document.epub"))
 
-// 2. Adım: XPS işleme cihazı oluşturun
+// Adım 2: Bir XPS işleme aygıtı oluşturun
 using (var device = new XpsDevice(dataDir + "document_out.xps"))
 
-// 3. Adım: Bir EPUB oluşturucu oluşturun
+// Adım 3: Bir EPUB oluşturucusu oluşturun
 using (var renderer = new EpubRenderer())
 {
-    // 4. Adım: EPUB belgesini XPS formatına dönüştürün
+    // Adım 4: EPUB belgesini XPS formatına dönüştürün
     renderer.Render(device, fs);
 }
 ```
 
-1.  EPUB belgesini okumak için açın: Bu adımda, bir EPUB belgesini (dosya yolu ile belirtilen) okumak için bir dosya kullanarak açıyoruz.`FileStream`. Bu belge oluşturmanın kaynağı olacaktır.
+1.  Okuma için EPUB belgesini açın: Bu adımda, bir EPUB belgesini (dosya yoluyla belirtilen) okumak için açıyoruz.`FileStream`Bu belge, sunumun kaynağı olacaktır.
 
-2.  XPS işleme cihazı oluşturun: Aşağıdakileri kullanarak bir XPS işleme cihazı oluşturuyoruz:`XpsDevice` sınıf. Bu cihaz, EPUB belgesindeki içeriği XPS formatına dönüştürmek için kullanılacaktır.
+2.  Bir XPS işleme aygıtı oluşturun: XPS işleme aygıtını kullanarak oluşturuyoruz`XpsDevice` sınıf. Bu cihaz, EPUB belgesindeki içeriği XPS formatına dönüştürmek için kullanılacaktır.
 
-3.  Bir EPUB oluşturucu oluşturun: EPUB'un bir örneğini oluştururuz.`EpubRenderer` sınıf. Bu sınıf, özellikle EPUB belgeleri için uyarlanmış işleme yetenekleri sağlar.
+3.  Bir EPUB oluşturucu oluşturun: Bir EPUB örneği oluşturuyoruz`EpubRenderer` sınıf. Bu sınıf, EPUB belgeleri için özel olarak tasarlanmış işleme yetenekleri sağlar.
 
-4.  EPUB belgesini XPS formatına dönüştürün: Son olarak,`Render` yöntemi`EpubRenderer` Render işlemini gerçekleştirmek için sınıf. İşlenen çıktı, belirtilen konuma bir XPS dosyası olarak kaydedilecektir.
+4.  EPUB belgesini XPS biçimine dönüştürün: Son olarak,`Render` yöntemi`EpubRenderer` işlemeyi gerçekleştirecek sınıf. İşlenen çıktı belirtilen konumda bir XPS dosyası olarak kaydedilecektir.
 
-Tebrikler! Aspose.HTML for .NET'i kullanarak başarıyla bir HTML belgesi oluşturup işlediniz.
+Tebrikler! Aspose.HTML for .NET kullanarak bir HTML belgesini başarıyla oluşturdunuz ve işlediniz.
 
 ## Çözüm
 
-Bu eğitimde Aspose.HTML for .NET kullanarak HTML belgeleri oluşturmak ve işlemek için gerekli adımları inceledik. Bu adımları izleyerek ve gerekli ad alanlarını içe aktararak, .NET uygulamalarınızda Aspose.HTML for .NET'in gücünden yararlanabilirsiniz.
+Bu eğitimde, Aspose.HTML for .NET kullanarak HTML belgeleri oluşturma ve işlemenin temel adımlarını inceledik. Bu adımları izleyerek ve gerekli ad alanlarını içe aktararak, .NET uygulamalarınızda Aspose.HTML for .NET'in gücünden yararlanabilirsiniz.
 
 ## Sıkça Sorulan Sorular (SSS)
 
-### 1. Aspose.HTML for .NET'i web kazıma için kullanabilir miyim?
+### 1. Web kazıma için Aspose.HTML for .NET'i kullanabilir miyim?
 
-Evet, Aspose.HTML for .NET, web sayfalarından HTML içeriği yükleyerek ve onu programlı olarak değiştirerek web kazıma görevleri için kullanılabilir.
+Evet, Aspose.HTML for .NET, web sayfalarından HTML içeriği yükleyerek ve bunu programlı olarak işleyerek web kazıma görevleri için kullanılabilir.
 
-### 2. Aspose.HTML for .NET, XPS'in yanı sıra diğer çıktı formatlarını da destekliyor mu?
+### 2. Aspose.HTML for .NET, XPS dışında başka çıktı formatlarını da destekliyor mu?
 
-Evet, Aspose.HTML for .NET, PDF, görüntü formatları ve daha fazlası dahil olmak üzere çeşitli çıktı formatlarını destekler. Detaylı bilgi için dokümanları inceleyebilirsiniz.
+Evet, Aspose.HTML for .NET, PDF, resim biçimleri ve daha fazlası dahil olmak üzere çeşitli çıktı biçimlerini destekler. Ayrıntılı bilgi için belgeleri inceleyebilirsiniz.
 
-### 3. Ücretsiz deneme mevcut mu?
+### 3. Ücretsiz deneme imkanı var mı?
 
  Evet, Aspose.HTML for .NET'in ücretsiz deneme sürümünü şu adresten edinebilirsiniz:[Burada](https://releases.aspose.com/).
 
-### 4. Nereden yardım alabilirim veya deneyimlerimi kütüphaneyle paylaşabilirim?
+### 4. Kütüphaneyle ilgili yardıma nereden ulaşabilirim veya deneyimlerimi nerede paylaşabilirim?
 
-Aspose topluluğuna katılabilir ve yardım isteyebilir veya deneyimlerinizi paylaşabilirsiniz.[Forumu aspose](https://forum.aspose.com/).
+Aspose topluluğuna katılabilir ve yardım isteyebilir veya deneyimlerinizi paylaşabilirsiniz.[Aspose forumu](https://forum.aspose.com/).
 
 ### 5. Aspose.HTML for .NET'i ticari projelerde kullanabilir miyim?
 

@@ -1,8 +1,8 @@
 ---
-title: Aspose.HTML ile .NET'te Basit Belge Oluşturma
+title: Aspose.HTML ile .NET'te Basit Bir Belge Oluşturma
 linktitle: .NET'te Basit Bir Belge Oluşturma
 second_title: Aspose.HTML .NET HTML işleme API'si
-description: Aspose.HTML kullanarak .NET'te HTML belgeleriyle çalışmayı öğrenin. HTML'yi zahmetsizce oluşturun, değiştirin ve dönüştürün. Bu gün başlayacağım!
+description: Aspose.HTML kullanarak .NET'te HTML belgeleriyle çalışmayı öğrenin. HTML'yi zahmetsizce oluşturun, işleyin ve dönüştürün. Bugün başlayın!
 type: docs
 weight: 11
 url: /tr/net/working-with-html-documents/creating-a-simple-document/
@@ -10,29 +10,29 @@ url: /tr/net/working-with-html-documents/creating-a-simple-document/
 
 ## giriiş
 
-Web geliştirme dünyasında HTML belgeleri oluşturmak ve değiştirmek temel bir görevdir. İster basit bir web sayfası ister karmaşık bir web uygulaması oluşturuyor olun, HTML belgesini işlemek için güvenilir bir araca sahip olmak çok önemlidir. Bu derste, HTML belgeleriyle sorunsuz bir şekilde çalışmanıza olanak tanıyan güçlü bir kütüphane olan Aspose.HTML for .NET dünyasına dalacağız. 
+Web geliştirme dünyasında, HTML belgeleri oluşturmak ve düzenlemek temel bir görevdir. Basit bir web sayfası veya karmaşık bir web uygulaması oluşturuyor olun, HTML belge düzenleme için güvenilir bir araca sahip olmak çok önemlidir. Bu eğitimde, HTML belgeleriyle sorunsuz bir şekilde çalışmanıza olanak tanıyan güçlü bir kütüphane olan Aspose.HTML for .NET dünyasına dalacağız. 
 
-## Önkoşullar
+## Ön koşullar
 
 Bu yolculuğa çıkmadan önce gerekli ön koşulların mevcut olduğundan emin olalım:
 
 ### 1. .NET Geliştirme Ortamı
 
-Makinenizde bir .NET geliştirme ortamının kurulu olması gerekir. Henüz yapmadıysanız, .NET'in en son sürümünü Microsoft web sitesinden indirip yükleyebilirsiniz.
+Makinenizde bir .NET geliştirme ortamı kurulu olmalıdır. Henüz kurulu değilse, Microsoft web sitesinden .NET'in en son sürümünü indirip yükleyebilirsiniz.
 
 ### 2. .NET için Aspose.HTML
 
- Bu eğitimdeki örnekleri takip etmek için Aspose.HTML for .NET kitaplığını indirip yüklemeniz gerekecektir. İndirme linkini bulabilirsiniz[Burada](https://releases.aspose.com/html/net/).
+ Bu eğitimdeki örnekleri takip etmek için Aspose.HTML for .NET kütüphanesini indirip yüklemeniz gerekecektir. İndirme bağlantısını bulabilirsiniz[Burada](https://releases.aspose.com/html/net/).
 
 ### 3. Metin Düzenleyici veya IDE
 
-.NET kodunuzu yazmak ve çalıştırmak için bir metin düzenleyicisine veya Tümleşik Geliştirme Ortamına (IDE) ihtiyacınız olacaktır. Popüler seçenekler arasında Visual Studio, Visual Studio Code veya JetBrains Rider bulunur.
+.NET kodunuzu yazmak ve çalıştırmak için bir metin düzenleyicisine veya Entegre Geliştirme Ortamına (IDE) ihtiyacınız olacak. Popüler seçenekler arasında Visual Studio, Visual Studio Code veya JetBrains Rider bulunur.
 
-Artık önkoşulları karşıladığınıza göre, öğreticiye devam edelim.
+Artık ön koşulları tamamladığımıza göre eğitime geçebiliriz.
 
 ## Ad Alanlarını İçe Aktar
 
-Kod örneklerine geçmeden önce gerekli ad alanlarını Aspose.HTML for .NET'ten içe aktaralım. Bu ad alanları, HTML belgeleriyle çalışmak için kullanacağımız sınıfları ve yöntemleri içerir.
+Kod örneklerine dalmadan önce, .NET için Aspose.HTML'den gerekli ad alanlarını içe aktaralım. Bu ad alanları, HTML belgeleriyle çalışmak için kullanacağımız sınıfları ve yöntemleri içerir.
 
 ```csharp
 using Aspose.Html;
@@ -43,28 +43,28 @@ using Aspose.Html.Rendering;
 
 ## Basit Bir HTML Belgesi Oluşturma
 
-Bu örnekte bir resim, sıralı bir liste ve bir tablo içeren basit bir HTML belgesi oluşturacağız. Her adımı ayrı ayrı ele alalım ve ayrıntılı olarak açıklayalım.
+Bu örnekte, bir resim, sıralı bir liste ve bir tablo içeren basit bir HTML belgesi oluşturacağız. Her adımı parçalara ayırıp ayrıntılı olarak açıklayalım.
 
 ### Adım 1: Çıktı Dosyasını Ayarlama
 
-HTML belgemizin kaydedileceği çıktı dosyasını tanımlayarak başlıyoruz.
+Öncelikle HTML dokümanımızın kaydedileceği çıktı dosyasını tanımlayarak başlayalım.
 
 ```csharp
 string dataDir = "Your Data Directory";
 String outputHtml = dataDir + "SimpleDocument.html";
 ```
 
-### Adım 2: HTML Belgesi Oluşturma
+### Adım 2: Bir HTML Belgesi Oluşturma
 
- Daha sonra örneğinin bir örneğini oluşturuyoruz.`HTMLDocument` Bir HTML belgesini temsil eden sınıf.
+ Daha sonra, bir örnek oluşturuyoruz`HTMLDocument` HTML belgesini temsil eden sınıf.
 
 ```csharp
 var document = new HTMLDocument();
 ```
 
-### 3. Adım: Resim Ekleme
+### Adım 3: Bir Resim Ekleme
 
-Şimdi HTML belgesine bir resim ekliyoruz. Biz bir yaratıyoruz`img` öğesini kullanarak`CreateElement` yöntemini ayarlayın`Src`, `Alt` Ve`Title` niteliklerini seçin ve ardından bunu belgenin`Body`.
+Şimdi HTML belgesine bir resim ekliyoruz. Bir resim oluşturuyoruz`img` öğesini kullanarak`CreateElement` yöntem, kendi yöntemini ayarla`Src`, `Alt` Ve`Title` öznitelikleri ve ardından bunları belgenin`Body`.
 
 ```csharp
 if (document.CreateElement("img") is HTMLImageElement img)
@@ -78,7 +78,7 @@ if (document.CreateElement("img") is HTMLImageElement img)
 
 ### Adım 4: Sıralı Liste Ekleme
 
- Daha sonra belgeye sıralı bir liste ekliyoruz. Biz bir yaratıyoruz`ol` öğesini seçin ve ona liste öğeleri eklemek için yineleyin.
+ Sonra, belgeye sıralı bir liste ekliyoruz. Bir`ol` öğesini seçin ve liste öğelerini eklemek için yineleyin.
 
 ```csharp
 var orderedListElement = document.CreateElement("ol") as HTMLOListElement;
@@ -93,7 +93,7 @@ document.Body.AppendChild(orderedListElement);
 
 ### Adım 5: Tablo Ekleme
 
- Son olarak belgeye bir tablo ekliyoruz. Biz bir yaratıyoruz`table` öğe, satırlar ve hücreler oluşturun, bunları ayarlayın`Id` Ve`TextContent`ve bunları tabloya ekleyin.
+ Son olarak belgeye bir tablo ekliyoruz. Bir tablo oluşturuyoruz`table` öğe, satırlar ve hücreler oluşturun, bunların`Id` Ve`TextContent`ve bunları tabloya ekleyin.
 
 ```csharp
 var table = document.CreateElement("table") as HTMLTableElement;
@@ -117,38 +117,38 @@ document.Body.AppendChild(table);
 
 ### Adım 6: Belgeyi Kaydetme
 
-Son olarak HTML belgesini belirtilen çıktı dosyasına kaydediyoruz.
+Son olarak HTML dokümanını belirtilen çıktı dosyasına kaydediyoruz.
 
 ```csharp
 document.Save(outputHtml);
 ```
 
-Tebrikler! Aspose.HTML for .NET'i kullanarak basit bir HTML belgesi oluşturdunuz. Bu, bu güçlü kütüphaneyle başarabileceklerinizin sadece başlangıcı.
+Tebrikler! .NET için Aspose.HTML kullanarak basit bir HTML belgesi oluşturdunuz. Bu, bu güçlü kütüphaneyle başarabileceklerinizin sadece başlangıcı.
 
 ## Çözüm
 
-Bu eğitimde size Aspose.HTML for .NET'i tanıttık ve temel bir HTML belgesi oluşturma konusunda size yol gösterdik. Bu kitaplığı daha fazla araştırdıkça, .NET uygulamalarında HTML belgeleriyle çalışmaya yönelik kapsamlı yeteneklerini keşfedeceksiniz. İster web uygulamaları geliştirin, ister HTML ile ilgili görevleri otomatikleştirin, ister karmaşık belge dönüşümleri gerçekleştirin, Aspose.HTML for .NET ihtiyacınızı karşılar.
+Bu eğitimde, size .NET için Aspose.HTML'i tanıttık ve temel bir HTML belgesi oluşturma konusunda size yol gösterdik. Bu kütüphaneyi daha fazla keşfettikçe, .NET uygulamalarında HTML belgeleriyle çalışmak için kapsamlı yeteneklerini keşfedeceksiniz. İster web uygulamaları geliştiriyor, ister HTML ile ilgili görevleri otomatikleştiriyor veya karmaşık belge dönüşümleri gerçekleştiriyor olun, .NET için Aspose.HTML sizi korur.
 
-Mutlu kodlama!
+Keyifli kodlamalar!
 
 ## SSS
 
-### 1. Aspose.HTML for .NET nedir?
+### 1. .NET için Aspose.HTML nedir?
 
-Aspose.HTML for .NET, HTML belgeleriyle oluşturma, değiştirme ve dönüştürme gibi çeşitli yollarla çalışmak için kapsamlı işlevsellik sağlayan bir .NET kitaplığıdır.
+Aspose.HTML for .NET, HTML belgeleriyle oluşturma, düzenleme ve dönüştürme gibi çeşitli yollarla çalışmak için kapsamlı işlevler sağlayan bir .NET kütüphanesidir.
 
-### 2. Aspose.HTML for .NET belgelerini nerede bulabilirim?
+### 2. Aspose.HTML for .NET'in belgelerini nerede bulabilirim?
 
- Aspose.HTML for .NET belgelerini bulabilirsiniz[Burada](https://reference.aspose.com/html/net/).
+ .NET için Aspose.HTML belgelerini bulabilirsiniz[Burada](https://reference.aspose.com/html/net/).
 
-### 3. Aspose.HTML for .NET'in ücretsiz deneme sürümü mevcut mu?
+### 3. Aspose.HTML for .NET için ücretsiz deneme sürümü mevcut mu?
 
  Evet, Aspose.HTML for .NET'in ücretsiz deneme sürümünü edinebilirsiniz[Burada](https://releases.aspose.com/).
 
-### 4. Aspose.HTML for .NET için nasıl geçici lisans alabilirim?
+### 4. Aspose.HTML for .NET için geçici lisansı nasıl alabilirim?
 
-Aspose.HTML for .NET için geçici bir lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+ .NET için Aspose.HTML için geçici bir lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
 
-### 5. Aspose.HTML for .NET desteğini nereden alabilirim?
+### 5. Aspose.HTML for .NET için desteği nereden alabilirim?
 
- Aspose.HTML for .NET hakkında destek alabilir ve soru sorabilirsiniz.[Aspose Forumu](https://forum.aspose.com/).
+ Aspose.HTML for .NET hakkında destek alabilir ve soru sorabilirsiniz.[Aspose Forum](https://forum.aspose.com/).

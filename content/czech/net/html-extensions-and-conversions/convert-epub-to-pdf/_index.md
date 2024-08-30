@@ -14,7 +14,7 @@ V tomto tutoriálu prozkoumáme, jak používat Aspose.HTML pro .NET k převodu 
 
 Než začnete, ujistěte se, že máte splněny následující předpoklady:
 
-1. Aspose.HTML for .NET: Ujistěte se, že máte v projektu .NET nainstalovaný Aspose.HTML for .NET. Můžete si jej stáhnout z[tady](https://releases.aspose.com/html/net/).
+1. Aspose.HTML for .NET: Ujistěte se, že máte v projektu .NET nainstalovaný Aspose.HTML for .NET. Můžete si jej stáhnout z[zde](https://releases.aspose.com/html/net/).
 
 2. Váš datový adresář: Budete potřebovat datový adresář, kde jsou uloženy vaše soubory EPUB.
 
@@ -151,7 +151,7 @@ using (var streamProvider = new MemoryStreamProvider())
 }
 ```
 
--  Vytvořit`MemoryStreamProvider` spravovat výsledek převodu jako paměťový proud.
+-  Vytvořte a`MemoryStreamProvider` spravovat výsledek převodu jako paměťový proud.
 -  Použijte`Converter.ConvertEPUB` metoda s vlastním poskytovatelem streamu.
 
 ### Krok 5: Uložte výsledek
@@ -209,14 +209,14 @@ Nyní jste se naučili, jak převádět soubory EPUB do PDF pomocí Aspose.HTML 
 
 Aspose.HTML for .NET je všestranný nástroj pro převod souborů EPUB do PDF, který nabízí možnosti přizpůsobení pro přizpůsobení výsledného dokumentu PDF vašim potřebám. Ať už požadujete jednoduché konverze nebo pokročilé přizpůsobení, Aspose.HTML vás pokryje.
 
- Pokud jste to ještě neudělali, můžete si stáhnout Aspose.HTML pro .NET z webu[webová stránka](https://releases.aspose.com/html/net/) a začněte jej používat ve svých aplikacích .NET ještě dnes.
+ Pokud jste to ještě neudělali, můžete si stáhnout Aspose.HTML pro .NET z webu[webové stránky](https://releases.aspose.com/html/net/) a začněte jej používat ve svých aplikacích .NET ještě dnes.
 
 ---
 
 ## Nejčastější dotazy
 
 ### Je Aspose.HTML pro .NET zdarma k použití?
-    Aspose.HTML for .NET je komerční produkt, ale je k dispozici bezplatná zkušební verze[tady](https://releases.aspose.com/).
+    Aspose.HTML for .NET je komerční produkt, ale je k dispozici bezplatná zkušební verze[zde](https://releases.aspose.com/).
 
 ### Mohu upravit vzhled převedeného PDF?
    Ano, vzhled PDF si můžete přizpůsobit úpravou voleb, jako je velikost stránky a barva pozadí, jak je znázorněno v příkladu 2.

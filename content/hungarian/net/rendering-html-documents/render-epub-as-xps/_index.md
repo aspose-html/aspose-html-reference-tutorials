@@ -71,7 +71,7 @@ using (var renderer = new EpubRenderer())
 
 4.  Renderje le az EPUB dokumentumot XPS formátumba: Végül hívjuk a`Render` módszere a`EpubRenderer` osztályt a renderelés elvégzéséhez. A renderelt kimenet XPS-fájlként kerül mentésre a megadott helyen.
 
-Gratulálunk! Sikeresen létrehozott és előállított egy HTML-dokumentumot az Aspose.HTML for .NET használatával.
+Gratulálok! Sikeresen létrehozott és előállított egy HTML-dokumentumot az Aspose.HTML for .NET használatával.
 
 ## Következtetés
 

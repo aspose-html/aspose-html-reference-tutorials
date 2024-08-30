@@ -10,7 +10,7 @@ url: /cs/net/advanced-features/
 
 Jste připraveni odemknout plný potenciál Aspose.HTML pro .NET? V tomto článku vás vezmeme na cestu pokročilými funkcemi a možnostmi Aspose.HTML a poskytneme vám podrobné návody, jak zlepšit vaši odbornost.
 
-## Úvod
+## Zavedení
 
 Aspose.HTML for .NET je výkonný nástroj, který umožňuje vývojářům pracovat s dokumenty HTML programově. Ať už vytváříte webové aplikace, analyzujete soubory HTML nebo převádíte HTML do jiných formátů, Aspose.HTML celý proces zjednodušuje. V tomto článku se ponoříme do pokročilých funkcí a funkcí Aspose.HTML a poskytneme vám nástroje, které potřebujete, abyste své projekty posunuli na další úroveň.
 

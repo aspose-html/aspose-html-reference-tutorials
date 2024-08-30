@@ -2,7 +2,7 @@
 title: HTML till GIF-konvertering med Aspose.HTML för Java
 linktitle: Konvertera HTML till GIF
 second_title: Java HTML-bearbetning med Aspose.HTML
-description: Konvertera enkelt HTML till GIF med Aspose.HTML för Java. Skapa fantastiska bilder från HTML-dokument. Börja nu!
+description: Konvertera enkelt HTML till GIF med Aspose.HTML för Java. Skapa fantastiska bilder från HTML-dokument. Kom igång nu!
 type: docs
 weight: 11
 url: /sv/java/converting-html-to-various-image-formats/convert-html-to-gif/
@@ -68,7 +68,7 @@ ImageSaveOptions options = new ImageSaveOptions(ImageFormat.Gif);
 Converter.convertHTML(document, options, "output.gif");
 ```
 
- I detta sista steg använder vi`Converter` klass för att konvertera HTML-dokumentet till en GIF-bild med de givna alternativen. Den utgående GIF-bilden kommer att sparas som "output.gif."
+ I det här sista steget använder vi`Converter` klass för att konvertera HTML-dokumentet till en GIF-bild med de givna alternativen. Den utgående GIF-bilden kommer att sparas som "output.gif."
 
 ## Slutsats
 

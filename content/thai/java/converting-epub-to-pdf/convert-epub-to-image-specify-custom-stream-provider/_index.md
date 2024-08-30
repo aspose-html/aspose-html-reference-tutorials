@@ -1,34 +1,34 @@
 ---
-title: การระบุผู้ให้บริการสตรีมแบบกำหนดเองสำหรับ EPUB เป็นการแปลงรูปภาพ
-linktitle: การระบุผู้ให้บริการสตรีมแบบกำหนดเองสำหรับ EPUB เป็นการแปลงรูปภาพ
+title: การระบุผู้ให้บริการสตรีมแบบกำหนดเองสำหรับการแปลง EPUB เป็นรูปภาพ
+linktitle: การระบุผู้ให้บริการสตรีมแบบกำหนดเองสำหรับการแปลง EPUB เป็นรูปภาพ
 second_title: การประมวลผล Java HTML ด้วย Aspose.HTML
-description: เรียนรู้วิธีใช้ Aspose.HTML สำหรับ Java เพื่อแปลงไฟล์ EPUB เป็นรูปภาพด้วยคำแนะนำทีละขั้นตอนนี้
+description: เรียนรู้วิธีใช้ Aspose.HTML สำหรับ Java เพื่อแปลงไฟล์ EPUB เป็นรูปภาพด้วยคู่มือทีละขั้นตอนนี้
 type: docs
 weight: 15
 url: /th/java/converting-epub-to-pdf/convert-epub-to-image-specify-custom-stream-provider/
 ---
 
-คุณพร้อมที่จะควบคุมพลังของ Aspose.HTML สำหรับ Java แล้วหรือยัง? คู่มือที่ครอบคลุมนี้จะแนะนำคุณตลอดกระบวนการทีละขั้นตอน ไม่ว่าคุณจะเป็นนักพัฒนาที่มีประสบการณ์หรือเพิ่งเริ่มต้น เราก็พร้อมช่วยคุณ 
+คุณพร้อมที่จะใช้ประโยชน์จากพลังของ Aspose.HTML สำหรับ Java แล้วหรือยัง? คู่มือฉบับสมบูรณ์นี้จะแนะนำคุณทีละขั้นตอน ไม่ว่าคุณจะเป็นนักพัฒนาที่มีประสบการณ์หรือเพิ่งเริ่มต้น เราก็ช่วยคุณได้ 
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนที่เราจะเจาะลึกเรื่องการใช้ Aspose.HTML สำหรับ Java มีบางสิ่งที่คุณต้องเตรียม:
+ก่อนที่เราจะเจาะลึกการใช้ Aspose.HTML สำหรับ Java มีบางสิ่งบางอย่างที่คุณต้องมี:
 
 1. สภาพแวดล้อมการพัฒนา Java: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Java อย่างถูกต้องบนระบบของคุณ คุณสามารถดาวน์โหลด Java ได้จากเว็บไซต์
 
-2.  Aspose.HTML สำหรับไลบรารี Java: คุณจะต้องมี Aspose.HTML สำหรับไลบรารี Java คุณสามารถหามันได้[ที่นี่](https://releases.aspose.com/html/java/).
+2.  Aspose.HTML สำหรับไลบรารี Java: คุณจะต้องได้รับไลบรารี Aspose.HTML สำหรับ Java คุณสามารถค้นหาได้[ที่นี่](https://releases.aspose.com/html/java/).
 
-3.  เอกสารประกอบ Aspose.HTML: สามารถดูเอกสารประกอบสำหรับ Aspose.HTML สำหรับ Java ได้[ที่นี่](https://reference.aspose.com/html/java/).
+3.  เอกสารประกอบ Aspose.HTML: สามารถพบเอกสารประกอบสำหรับ Aspose.HTML สำหรับ Java ได้[ที่นี่](https://reference.aspose.com/html/java/).
 
 4. IDE (Integrated Development Environment): คุณสามารถเลือก IDE ที่เข้ากันได้กับ Java เช่น Eclipse หรือ IntelliJ IDEA
 
 ## แพ็คเกจนำเข้า
 
-ในส่วนนี้ เราจะแนะนำคุณตลอดขั้นตอนการนำเข้าแพ็คเกจที่จำเป็นเพื่อเริ่มต้นใช้งาน Aspose.HTML สำหรับ Java
+ในส่วนนี้ เราจะแนะนำคุณเกี่ยวกับขั้นตอนการนำเข้าแพ็คเกจที่จำเป็นเพื่อเริ่มต้นใช้งาน Aspose.HTML สำหรับ Java
 
 ## เปิดไฟล์ EPUB ที่มีอยู่
 
-ขั้นแรก คุณต้องเปิดไฟล์ EPUB ที่มีอยู่เพื่ออ่าน ต่อไปนี้คือวิธีที่คุณสามารถทำได้:
+ขั้นแรก คุณต้องเปิดไฟล์ EPUB ที่มีอยู่เพื่ออ่าน โดยคุณสามารถทำได้ดังนี้:
 
 ```java
 try (java.io.FileInputStream fileInputStream = new java.io.FileInputStream(Resources.input("input.epub"))) {
@@ -48,7 +48,7 @@ try (MemoryStreamProvider streamProvider = new MemoryStreamProvider()) {
 
 ## แปลง EPUB เป็นรูปภาพ
 
-ตอนนี้ มาแปลงไฟล์ EPUB เป็นรูปภาพโดยใช้ MemoryStreamProvider:
+ตอนนี้เรามาแปลงไฟล์ EPUB เป็นรูปภาพโดยใช้ MemoryStreamProvider กัน:
 
 ```java
 com.aspose.html.converters.Converter.convertEPUB(
@@ -58,9 +58,9 @@ com.aspose.html.converters.Converter.convertEPUB(
 );
 ```
 
-## เข้าถึงสตรีมหน่วยความจำ
+## การเข้าถึงสตรีมหน่วยความจำ
 
-คุณสามารถเข้าถึงสตรีมหน่วยความจำที่มีข้อมูลผลลัพธ์ได้:
+คุณสามารถเข้าถึงสตรีมหน่วยความจำที่ประกอบด้วยข้อมูลผลลัพธ์ได้:
 
 ```java
 int size = streamProvider.lStream.size();
@@ -70,9 +70,9 @@ for (int i = 0; i < size; i++) {
 }
 ```
 
-## ล้างเพจไปยังไฟล์เอาท์พุต
+## ล้างเพจไปยังไฟล์เอาต์พุต
 
-สุดท้าย คุณต้องล้างเพจไปยังไฟล์เอาท์พุต:
+สุดท้ายคุณต้องล้างเพจไปยังไฟล์เอาท์พุต:
 
 ```java
 try (java.io.FileOutputStream fileOutputStream = new java.io.FileOutputStream(Resources.output("page_{" + (i + 1) + "}.jpg"))) {
@@ -84,26 +84,26 @@ try (java.io.FileOutputStream fileOutputStream = new java.io.FileOutputStream(Re
 
 ## บทสรุป
 
-ยินดีด้วย! คุณได้เรียนรู้วิธีใช้ Aspose.HTML สำหรับ Java เพื่อแปลงไฟล์ EPUB เป็นรูปภาพเรียบร้อยแล้ว ไลบรารีอันทรงพลังนี้เปิดโลกแห่งความเป็นไปได้สำหรับแอปพลิเคชัน Java ของคุณ
+ขอแสดงความยินดี! คุณได้เรียนรู้วิธีใช้ Aspose.HTML สำหรับ Java เพื่อแปลงไฟล์ EPUB เป็นรูปภาพสำเร็จแล้ว ไลบรารีอันทรงพลังนี้จะเปิดโลกแห่งความเป็นไปได้ให้กับแอปพลิเคชัน Java ของคุณ
 
 ## คำถามที่พบบ่อย
 
-### 1. Aspose.HTML สำหรับ Java คืออะไร
+### 1. Aspose.HTML สำหรับ Java คืออะไร?
 
-Aspose.HTML สำหรับ Java เป็นไลบรารีที่ช่วยให้นักพัฒนา Java สามารถทำงานกับ HTML, EPUB และรูปแบบอื่นๆ ที่เกี่ยวข้องกับเว็บ
+Aspose.HTML สำหรับ Java เป็นไลบรารีที่ช่วยให้ผู้พัฒนา Java สามารถทำงานกับ HTML, EPUB และรูปแบบอื่นๆ ที่เกี่ยวข้องกับเว็บได้
 
-### 2. ฉันจะหาเอกสารสำหรับ Aspose.HTML สำหรับ Java ได้ที่ไหน
+### 2. ฉันสามารถหาเอกสารสำหรับ Aspose.HTML สำหรับ Java ได้ที่ไหน
 
- คุณสามารถค้นหาเอกสาร[ที่นี่](https://reference.aspose.com/html/java/).
+ คุณสามารถค้นหาเอกสารประกอบได้[ที่นี่](https://reference.aspose.com/html/java/).
 
 ### 3. มีการทดลองใช้ฟรีหรือไม่?
 
- ใช่ คุณสามารถทดลองใช้ Aspose.HTML สำหรับ Java ได้ฟรี[ที่นี่](https://releases.aspose.com/).
+ ใช่ คุณสามารถรับ Aspose.HTML สำหรับ Java รุ่นทดลองใช้งานฟรีได้[ที่นี่](https://releases.aspose.com/).
 
-### 4. ฉันจะรับใบอนุญาตชั่วคราวสำหรับ Aspose.HTML สำหรับ Java ได้อย่างไร
+### 4. ฉันจะได้รับใบอนุญาตชั่วคราวสำหรับ Aspose.HTML สำหรับ Java ได้อย่างไร
 
- คุณสามารถขอรับใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
+ คุณสามารถขอใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
 
-### 5. ฉันจะรับการสนับสนุนสำหรับ Aspose.HTML สำหรับ Java ได้ที่ไหน
+### 5. ฉันจะได้รับการสนับสนุนสำหรับ Aspose.HTML สำหรับ Java ได้จากที่ไหน
 
- คุณสามารถค้นหาการสนับสนุนได้ที่[กำหนดฟอรั่ม](https://forum.aspose.com/).
+ คุณสามารถหาการสนับสนุนได้ที่[ฟอรั่ม Aspose](https://forum.aspose.com/).

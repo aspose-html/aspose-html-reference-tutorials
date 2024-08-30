@@ -8,7 +8,7 @@ weight: 10
 url: /sv/net/html-document-manipulation/load-html-doc-asynchronously/
 ---
 
-I dagens digitala landskap är att skapa och manipulera HTML-dokument ett grundläggande krav för många program. Aspose.HTML för .NET är ett kraftfullt verktyg som låter utvecklare arbeta med HTML-dokument utan ansträngning. I den här steg-för-steg-guiden kommer vi att utforska hur man importerar de nödvändiga namnrymden, och vi kommer att ge flera exempel och dela upp var och en i hanterbara steg.
+I dagens digitala landskap är att skapa och manipulera HTML-dokument ett grundläggande krav för många program. Aspose.HTML för .NET är ett kraftfullt verktyg som låter utvecklare arbeta med HTML-dokument utan ansträngning. I den här steg-för-steg-guiden kommer vi att undersöka hur man importerar de nödvändiga namnrymden, och vi kommer att ge flera exempel och dela upp var och en i hanterbara steg.
 
 ## Förutsättningar
 
@@ -91,7 +91,7 @@ Den här händelsen låter dig utföra åtgärder när HTML-dokumentet är helt 
 document.Navigate(dataDir + "input.html");
 ```
 
- Använd den här raden för att ladda HTML-filen du vill arbeta med. Byta ut`"input.html"` med det faktiska filnamnet.
+ Använd den här raden för att ladda HTML-filen du vill arbeta med. Ersätta`"input.html"` med det faktiska filnamnet.
 
 ## Navigera och manipulera dokumentet
 

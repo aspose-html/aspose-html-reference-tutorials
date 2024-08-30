@@ -10,7 +10,7 @@ url: /cs/net/html-document-manipulation/generate-xps-documents-by-xpsdevice/
 
 V digitálním věku efektivní vývoj webu často spoléhá na integraci různých nástrojů a knihoven, které zefektivňují proces vývoje. Aspose.HTML for .NET je jedním z takových nástrojů, který může výrazně zlepšit vaše projekty vývoje webu. Tato výkonná knihovna vám umožňuje programově manipulovat s dokumenty HTML. V tomto podrobném průvodci vám představíme Aspose.HTML pro .NET, provedeme vás nezbytnými předpoklady a předvedeme, jak s knihovnou začít.
 
-## Úvod
+## Zavedení
 
 Aspose.HTML for .NET je všestranná knihovna, která umožňuje vývojářům vytvářet, upravovat a převádět dokumenty HTML v aplikacích .NET. Ať už chcete dynamicky generovat HTML dokumenty, převádět je do jiných formátů nebo extrahovat data z existujících HTML souborů, Aspose.HTML pro .NET vás pokryje. Tato příručka vás provede procesem začlenění této knihovny do vašich projektů .NET.
 
@@ -106,7 +106,7 @@ Odpověď 2: Ano, Aspose.HTML for .NET je kompatibilní s Windows, Linuxem a mac
 
 ### Q4: Je k dispozici zkušební verze pro testování?
 
- A4: Ano, můžete vyzkoušet Aspose.HTML pro .NET stažením zkušební verze z[tady](https://releases.aspose.com/).
+ A4: Ano, můžete vyzkoušet Aspose.HTML pro .NET stažením zkušební verze z[zde](https://releases.aspose.com/).
 
 ### Q5: Kde mohu najít podporu nebo požádat o pomoc s Aspose.HTML pro .NET?
 

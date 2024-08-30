@@ -54,7 +54,7 @@ options.setJpegQuality(100);
 
 ## Steg 3: Definiera utdatavägen
 
- Innan du konverterar, ange sökvägen där du vill spara den genererade PDF-filen. Byta ut`"path/to/your/output.pdf"` med önskad filsökväg:
+ Innan du konverterar, ange sökvägen där du vill spara den genererade PDF-filen. Ersätta`"path/to/your/output.pdf"` med önskad filsökväg:
 
 ```java
 String outputPDF = "path/to/your/output.pdf";

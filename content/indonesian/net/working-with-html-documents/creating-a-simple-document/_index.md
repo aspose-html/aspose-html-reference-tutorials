@@ -2,7 +2,7 @@
 title: Membuat Dokumen Sederhana di .NET dengan Aspose.HTML
 linktitle: Membuat Dokumen Sederhana di .NET
 second_title: Aspose.HTML .NET API manipulasi HTML
-description: Pelajari cara bekerja dengan dokumen HTML di .NET menggunakan Aspose.HTML. Membuat, memanipulasi, dan mengonversi HTML dengan mudah. Mulailah hari ini!
+description: Pelajari cara bekerja dengan dokumen HTML dalam .NET menggunakan Aspose.HTML. Buat, manipulasi, dan konversi HTML dengan mudah. Mulailah hari ini!
 type: docs
 weight: 11
 url: /id/net/working-with-html-documents/creating-a-simple-document/
@@ -10,29 +10,29 @@ url: /id/net/working-with-html-documents/creating-a-simple-document/
 
 ## Perkenalan
 
-Dalam dunia pengembangan web, membuat dan memanipulasi dokumen HTML adalah tugas mendasar. Baik Anda membuat halaman web sederhana atau aplikasi web yang kompleks, memiliki alat yang andal untuk manipulasi dokumen HTML sangatlah penting. Dalam tutorial ini, kita akan menyelami dunia Aspose.HTML untuk .NET, sebuah perpustakaan canggih yang memungkinkan Anda bekerja dengan dokumen HTML dengan lancar. 
+Dalam dunia pengembangan web, membuat dan memanipulasi dokumen HTML merupakan tugas mendasar. Baik Anda membuat halaman web sederhana atau aplikasi web yang kompleks, memiliki alat yang andal untuk memanipulasi dokumen HTML sangatlah penting. Dalam tutorial ini, kita akan menyelami dunia Aspose.HTML untuk .NET, pustaka canggih yang memungkinkan Anda bekerja dengan dokumen HTML dengan lancar. 
 
 ## Prasyarat
 
-Sebelum kita memulai perjalanan ini, pastikan Anda memiliki prasyarat yang diperlukan:
+Sebelum kita memulai perjalanan ini, mari pastikan Anda memiliki prasyarat yang diperlukan:
 
 ### 1. Lingkungan Pengembangan .NET
 
-Anda harus menyiapkan lingkungan pengembangan .NET di mesin Anda. Jika Anda belum melakukannya, Anda dapat mengunduh dan menginstal .NET versi terbaru dari situs web Microsoft.
+Anda harus menyiapkan lingkungan pengembangan .NET di komputer Anda. Jika belum, Anda dapat mengunduh dan menginstal versi .NET terbaru dari situs web Microsoft.
 
 ### 2. Aspose.HTML untuk .NET
 
- Untuk mengikuti contoh dalam tutorial ini, Anda perlu mengunduh dan menginstal pustaka Aspose.HTML untuk .NET. Anda dapat menemukan tautan unduhan[Di Sini](https://releases.aspose.com/html/net/).
+ Untuk mengikuti contoh-contoh dalam tutorial ini, Anda perlu mengunduh dan memasang pustaka Aspose.HTML for .NET. Anda dapat menemukan tautan unduhannya[Di Sini](https://releases.aspose.com/html/net/).
 
 ### 3. Editor Teks atau IDE
 
-Anda memerlukan editor teks atau Lingkungan Pengembangan Terpadu (IDE) untuk menulis dan menjalankan kode .NET Anda. Pilihan populer termasuk Visual Studio, Visual Studio Code, atau JetBrains Rider.
+Anda memerlukan editor teks atau Integrated Development Environment (IDE) untuk menulis dan menjalankan kode .NET Anda. Pilihan yang populer meliputi Visual Studio, Visual Studio Code, atau JetBrains Rider.
 
-Sekarang setelah prasyaratnya terpenuhi, mari lanjutkan ke tutorial.
+Sekarang setelah Anda memenuhi prasyarat yang ditentukan, mari kita lanjutkan ke tutorialnya.
 
-## Impor Namespace
+## Mengimpor Ruang Nama
 
-Sebelum kita mempelajari contoh kode, mari impor namespace yang diperlukan dari Aspose.HTML untuk .NET. Namespace ini berisi kelas dan metode yang akan kita gunakan untuk bekerja dengan dokumen HTML.
+Sebelum kita membahas contoh kode, mari impor namespace yang diperlukan dari Aspose.HTML untuk .NET. Namespace ini berisi kelas dan metode yang akan kita gunakan untuk bekerja dengan dokumen HTML.
 
 ```csharp
 using Aspose.Html;
@@ -43,11 +43,11 @@ using Aspose.Html.Rendering;
 
 ## Membuat Dokumen HTML Sederhana
 
-Dalam contoh ini, kita akan membuat dokumen HTML sederhana dengan gambar, daftar terurut, dan tabel. Mari kita uraikan setiap langkah dan jelaskan secara detail.
+Dalam contoh ini, kita akan membuat dokumen HTML sederhana dengan gambar, daftar berurut, dan tabel. Mari kita uraikan setiap langkah dan jelaskan secara terperinci.
 
-### Langkah 1: Menyiapkan File Keluaran
+### Langkah 1: Menyiapkan File Output
 
-Kita mulai dengan menentukan file keluaran tempat dokumen HTML kita akan disimpan.
+Kita mulai dengan mendefinisikan berkas keluaran di mana dokumen HTML kita akan disimpan.
 
 ```csharp
 string dataDir = "Your Data Directory";
@@ -56,7 +56,7 @@ String outputHtml = dataDir + "SimpleDocument.html";
 
 ### Langkah 2: Membuat Dokumen HTML
 
- Selanjutnya, kita membuat sebuah instance dari`HTMLDocument` kelas, yang mewakili dokumen HTML.
+ Selanjutnya, kita membuat sebuah instance dari`HTMLDocument` kelas, yang merepresentasikan dokumen HTML.
 
 ```csharp
 var document = new HTMLDocument();
@@ -64,7 +64,7 @@ var document = new HTMLDocument();
 
 ### Langkah 3: Menambahkan Gambar
 
-Sekarang, kami menambahkan gambar ke dokumen HTML. Kami membuat`img` elemen menggunakan`CreateElement` metode, atur nya`Src`, `Alt` Dan`Title` atribut, dan kemudian menambahkannya ke dokumen`Body`.
+Sekarang, kita tambahkan gambar ke dokumen HTML. Kita buat`img` elemen menggunakan`CreateElement` metode, aturlah`Src`, `Alt` Dan`Title` atribut, lalu menambahkannya ke dokumen`Body`.
 
 ```csharp
 if (document.CreateElement("img") is HTMLImageElement img)
@@ -76,9 +76,9 @@ if (document.CreateElement("img") is HTMLImageElement img)
 }
 ```
 
-### Langkah 4: Menambahkan Daftar Pesanan
+### Langkah 4: Menambahkan Daftar Berurut
 
- Selanjutnya, kami menambahkan daftar terurut ke dokumen. Kami membuat`ol` elemen dan ulangi untuk menambahkan item daftar ke dalamnya.
+ Selanjutnya, kita tambahkan daftar yang diurutkan ke dalam dokumen. Kita buat sebuah`ol` elemen dan ulangi untuk menambahkan item daftar ke dalamnya.
 
 ```csharp
 var orderedListElement = document.CreateElement("ol") as HTMLOListElement;
@@ -93,7 +93,7 @@ document.Body.AppendChild(orderedListElement);
 
 ### Langkah 5: Menambahkan Tabel
 
- Terakhir, kami menambahkan tabel ke dokumen. Kami membuat`table` elemen, membuat baris dan sel, mengaturnya`Id` Dan`TextContent`, dan menambahkannya ke tabel.
+ Terakhir, kita tambahkan tabel ke dokumen. Kita buat tabel`table` elemen, membuat baris dan sel, mengaturnya`Id` Dan`TextContent`, dan menambahkannya ke tabel.
 
 ```csharp
 var table = document.CreateElement("table") as HTMLTableElement;
@@ -123,32 +123,32 @@ Terakhir, kami menyimpan dokumen HTML ke file keluaran yang ditentukan.
 document.Save(outputHtml);
 ```
 
-Selamat! Anda baru saja membuat dokumen HTML sederhana menggunakan Aspose.HTML untuk .NET. Ini hanyalah permulaan dari apa yang dapat Anda capai dengan perpustakaan canggih ini.
+Selamat! Anda baru saja membuat dokumen HTML sederhana menggunakan Aspose.HTML untuk .NET. Ini hanyalah awal dari apa yang dapat Anda capai dengan pustaka canggih ini.
 
 ## Kesimpulan
 
-Dalam tutorial ini, kami telah memperkenalkan Anda ke Aspose.HTML untuk .NET dan memandu Anda membuat dokumen HTML dasar. Saat Anda menjelajahi perpustakaan ini lebih jauh, Anda akan menemukan kemampuannya yang luas untuk bekerja dengan dokumen HTML dalam aplikasi .NET. Baik Anda mengembangkan aplikasi web, mengotomatiskan tugas terkait HTML, atau melakukan konversi dokumen yang kompleks, Aspose.HTML untuk .NET siap membantu Anda.
+Dalam tutorial ini, kami telah memperkenalkan Anda pada Aspose.HTML untuk .NET dan memandu Anda membuat dokumen HTML dasar. Saat Anda menjelajahi pustaka ini lebih jauh, Anda akan menemukan kemampuannya yang luas untuk bekerja dengan dokumen HTML dalam aplikasi .NET. Baik Anda sedang mengembangkan aplikasi web, mengotomatiskan tugas-tugas terkait HTML, atau melakukan konversi dokumen yang rumit, Aspose.HTML untuk .NET siap membantu Anda.
 
 Selamat membuat kode!
 
-## FAQ
+## Tanya Jawab Umum
 
 ### 1. Apa itu Aspose.HTML untuk .NET?
 
 Aspose.HTML untuk .NET adalah pustaka .NET yang menyediakan fungsionalitas komprehensif untuk bekerja dengan dokumen HTML dalam berbagai cara, seperti pembuatan, manipulasi, dan konversi.
 
-### 2. Di mana saya dapat menemukan dokumentasi Aspose.HTML untuk .NET?
+### 2. Di mana saya dapat menemukan dokumentasi untuk Aspose.HTML for .NET?
 
- Anda dapat menemukan dokumentasi Aspose.HTML untuk .NET[Di Sini](https://reference.aspose.com/html/net/).
+ Anda dapat menemukan dokumentasi untuk Aspose.HTML untuk .NET[Di Sini](https://reference.aspose.com/html/net/).
 
-### 3. Apakah tersedia uji coba gratis Aspose.HTML untuk .NET?
+### 3. Apakah ada uji coba gratis yang tersedia untuk Aspose.HTML untuk .NET?
 
  Ya, Anda bisa mendapatkan uji coba gratis Aspose.HTML untuk .NET[Di Sini](https://releases.aspose.com/).
 
-### 4. Bagaimana saya bisa mendapatkan lisensi sementara Aspose.HTML untuk .NET?
+### 4. Bagaimana cara mendapatkan lisensi sementara untuk Aspose.HTML for .NET?
 
-Anda bisa mendapatkan lisensi sementara untuk Aspose.HTML untuk .NET[Di Sini](https://purchase.aspose.com/temporary-license/).
+ Anda dapat memperoleh lisensi sementara untuk Aspose.HTML untuk .NET[Di Sini](https://purchase.aspose.com/temporary-license/).
 
-### 5. Di mana saya bisa mendapatkan dukungan Aspose.HTML untuk .NET?
+### 5. Di mana saya bisa mendapatkan dukungan untuk Aspose.HTML untuk .NET?
 
- Anda bisa mendapatkan dukungan dan mengajukan pertanyaan tentang Aspose.HTML untuk .NET di[Asumsikan Forum](https://forum.aspose.com/).
+ Anda bisa mendapatkan dukungan dan mengajukan pertanyaan tentang Aspose.HTML untuk .NET di[Forum Aspose](https://forum.aspose.com/).

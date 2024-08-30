@@ -17,7 +17,7 @@ Než se pustíme do používání Aspose.HTML pro .NET, musíte se ujistit, že 
 
 1. Visual Studio: Ujistěte se, že máte v systému nainstalované Visual Studio.
 
-2.  Aspose.HTML for .NET Library: Stáhněte si knihovnu Aspose.HTML for .NET z[webová stránka](https://releases.aspose.com/html/net/).
+2.  Aspose.HTML for .NET Library: Stáhněte si knihovnu Aspose.HTML for .NET z[webové stránky](https://releases.aspose.com/html/net/).
 
 3. .NET Framework: Ujistěte se, že máte v systému nainstalované rozhraní .NET Framework.
 
@@ -122,11 +122,11 @@ Odpověď 2: Ano, Aspose.HTML for .NET lze použít v různých prostředích, v
 
 ### Q3: Jsou nějaké možnosti licencování dostupné pro Aspose.HTML pro .NET?
 
- A3: Ano, můžete prozkoumat možnosti licencování, včetně bezplatných zkušebních verzí a dočasných licencí, na[webová stránka](https://purchase.aspose.com/buy).
+ A3: Ano, můžete prozkoumat možnosti licencování, včetně bezplatných zkušebních verzí a dočasných licencí, na[webové stránky](https://purchase.aspose.com/buy).
 
 ### Q4: Kde najdu další výukové programy a podporu pro Aspose.HTML pro .NET?
 
- A4: Můžete přistupovat k výukovým programům a získat podporu od komunity Aspose na[Fórum](https://forum.aspose.com/).
+ A4: Můžete přistupovat k výukovým programům a získat podporu od komunity Aspose na[forum](https://forum.aspose.com/).
 
 ### Q5: Jaké formáty souborů mohu exportovat dokumenty HTML pomocí Aspose.HTML for .NET?
 

@@ -15,7 +15,7 @@ Než začneme, ujistěte se, že máte splněny následující předpoklady:
 
 1. Vývojové prostředí Java: Ujistěte se, že máte na svém počítači nastavené vývojové prostředí Java.
 
-2.  Aspose.HTML for Java: Stáhněte si a nainstalujte knihovnu Aspose.HTML for Java z[tady](https://releases.aspose.com/html/java/).
+2.  Aspose.HTML for Java: Stáhněte si a nainstalujte knihovnu Aspose.HTML for Java z[zde](https://releases.aspose.com/html/java/).
 
 ## Importujte balíčky
 
@@ -94,7 +94,7 @@ V tomto kroku nastavíme výstupní zařízení a vykreslíme HTML dokument. Dok
 
 ## Závěr
 
-Gratulujeme! Úspěšně jste se naučili, jak vytvářet vlastní okraje stránek a přidávat čísla a názvy stránek do dokumentů HTML pomocí Aspose.HTML for Java. Toto přizpůsobení vám umožní vytvářet profesionálnější a vizuálně přitažlivější dokumenty.
+Gratuluji! Úspěšně jste se naučili, jak vytvářet vlastní okraje stránek a přidávat čísla a názvy stránek do dokumentů HTML pomocí Aspose.HTML for Java. Toto přizpůsobení vám umožní vytvářet profesionálnější a vizuálně přitažlivější dokumenty.
 
  Pokud máte nějaké dotazy nebo se potýkáte s nějakými problémy, neváhejte navštívit[Aspose.HTML pro dokumentaci Java](https://reference.aspose.com/html/java/) nebo vyhledejte pomoc na[Aspose fórum podpory](https://forum.aspose.com/).
 
@@ -118,4 +118,4 @@ Odpověď 4: Ano, Aspose.HTML for Java lze použít k převodu dokumentů HTML d
 
 ### Q5: Potřebuji licenci pro používání Aspose.HTML pro Java?
 
- A5: Ano, můžete získat licenci nebo bezplatnou zkušební verzi[tady](https://purchase.aspose.com/buy) nebo[tady](https://releases.aspose.com/).
+ A5: Ano, můžete získat licenci nebo bezplatnou zkušební verzi[zde](https://purchase.aspose.com/buy) nebo[zde](https://releases.aspose.com/).

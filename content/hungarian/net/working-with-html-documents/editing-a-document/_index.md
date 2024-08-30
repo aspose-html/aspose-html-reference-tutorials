@@ -2,7 +2,7 @@
 title: Dokumentum szerkesztése .NET-ben az Aspose.HTML segítségével
 linktitle: Dokumentum szerkesztése .NET-ben
 second_title: Aspose.HTML .NET HTML manipulációs API
-description: Ismerje meg, hogyan dolgozhat HTML-dokumentumokkal .NET-ben az Aspose.HTML használatával. Ez az átfogó oktatóanyag a dokumentumok létrehozásával, manipulálásával és stílusával foglalkozik. Kezd el most!
+description: Ismerje meg, hogyan dolgozhat HTML-dokumentumokkal .NET-ben az Aspose.HTML használatával. Ez az átfogó oktatóanyag a dokumentumok létrehozásával, manipulálásával és stílusával foglalkozik. Kezdje el most!
 type: docs
 weight: 12
 url: /hu/net/working-with-html-documents/editing-a-document/
@@ -220,7 +220,7 @@ Az Aspose.HTML for .NET egy hatékony könyvtár a .NET-alkalmazások HTML-dokum
  Igen, letöltheti az Aspose.HTML ingyenes próbaverzióját a webhelyről[itt](https://releases.aspose.com/).
 
 ### Hogyan vásárolhatok licencet?
- Licenc vásárlásához látogasson el ide[ez a link](https://purchase.aspose.com/buy).
+ Licenc vásárlásához látogasson el ide[ezt a linket](https://purchase.aspose.com/buy).
 
 ### Szükségem van előzetes HTML-tapasztalatra az Aspose.HTML for .NET használatához?
 Bár a HTML-ismeret hasznos, az Aspose.HTML-t .NET-hez akkor is használhatja, ha nem HTML-szakértő.

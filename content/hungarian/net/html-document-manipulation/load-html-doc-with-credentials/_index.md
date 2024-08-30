@@ -54,7 +54,7 @@ HTMLDocument document = new HTMLDocument();
 
 Itt létrehozhatja a HTMLDocument osztály példányát. Ez a dokumentum a HTML-tartalom betöltésére és kezelésére szolgál.
 
-## Bontás
+## Lebontás
 
 Bontsunk le egy példát több lépésre, hogy megértse, hogyan használható az Aspose.HTML for .NET a SEO optimalizálására.
 
@@ -124,4 +124,4 @@ Ebben a cikkben megvizsgáltuk az Aspose.HTML for .NET használatát a SEO optim
 
 ### 5. kérdés: Milyen egyéb SEO-eszközök egészítik ki az Aspose.HTML-t a .NET-hez?
 
-5. válasz: Míg az Aspose.HTML kiválóan alkalmas a HTML-kezelésre, érdemes lehet más SEO-eszközöket használni kulcsszóelemzéshez, backlink monitorozáshoz stb. Az átfogó SEO-optimalizáláshoz tanácsos különféle eszközök kombinációját megvizsgálni.
+5. válasz: Míg az Aspose.HTML kiválóan alkalmas HTML-manipulációra, érdemes lehet más SEO-eszközöket használni kulcsszóelemzéshez, backlink monitorozáshoz stb. Az átfogó SEO-optimalizáláshoz tanácsos különféle eszközök kombinációját megvizsgálni.

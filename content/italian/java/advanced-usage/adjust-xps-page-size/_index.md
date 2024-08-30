@@ -8,21 +8,21 @@ weight: 16
 url: /it/java/advanced-usage/adjust-xps-page-size/
 ---
 
-In questo tutorial, ti guideremo attraverso il processo di regolazione delle dimensioni della pagina XPS utilizzando Aspose.HTML per Java. Questa potente libreria ti consente di manipolare documenti HTML e renderli in vari formati, incluso XPS. La regolazione delle dimensioni della pagina è essenziale quando è necessario controllare le dimensioni di output del documento XPS.
+In questo tutorial, ti guideremo attraverso il processo di regolazione delle dimensioni della pagina XPS utilizzando Aspose.HTML per Java. Questa potente libreria ti consente di manipolare documenti HTML e renderli in vari formati, incluso XPS. La regolazione delle dimensioni della pagina è essenziale quando devi controllare le dimensioni di output del tuo documento XPS.
 
 ## Prerequisiti
 
-Prima di iniziare, assicurati di disporre dei seguenti prerequisiti:
+Prima di iniziare, assicurati di avere i seguenti prerequisiti:
 
-1. Ambiente di sviluppo Java: assicurati di avere Java Development Kit (JDK) installato sul tuo sistema.
+1. Ambiente di sviluppo Java: assicurati di avere installato Java Development Kit (JDK) sul tuo sistema.
 
-2.  Libreria Aspose.HTML per Java: è necessario scaricare e includere la libreria Aspose.HTML per Java nel progetto Java. Puoi trovare la biblioteca[Qui](https://releases.aspose.com/html/java/).
+2.  Aspose.HTML per la libreria Java: devi scaricare e includere la libreria Aspose.HTML per Java nel tuo progetto Java. Puoi trovare la libreria[Qui](https://releases.aspose.com/html/java/).
 
-3. File HTML di input: prepara un file HTML di cui desideri eseguire il rendering e per il quale regola le dimensioni della pagina XPS. Puoi utilizzare il tuo file HTML per questo tutorial.
+3. File HTML di input: prepara un file HTML che vuoi rendere e per il quale vuoi regolare la dimensione della pagina XPS. Puoi usare il tuo file HTML per questo tutorial.
 
 ## Importa pacchetti
 
-Innanzitutto, devi importare i pacchetti necessari per lavorare con Aspose.HTML per Java. Includi questi pacchetti all'inizio della tua classe Java:
+Per prima cosa, devi importare i pacchetti necessari per lavorare con Aspose.HTML per Java. Includi questi pacchetti all'inizio della tua classe Java:
 
 ```java
 import com.aspose.html.drawing.Page;
@@ -41,9 +41,9 @@ try (java.io.FileInputStream fileInputStream = new java.io.FileInputStream("Your
 }
 ```
 
- In questo passaggio, leggiamo il file di input HTML utilizzando un file`FileInputStream`.
+ In questo passaggio, leggiamo il tuo file di input HTML utilizzando un`FileInputStream`.
 
-## Passaggio 2: crea un documento HTML e imposta gli stili
+## Passaggio 2: creare un documento HTML e impostare gli stili
 
 ```java
 com.aspose.html.HTMLDocument html_document = new com.aspose.html.HTMLDocument("YourOutputFile.html");
@@ -62,9 +62,9 @@ String style = "<style>\n" +
 // ...
 ```
 
- Questo passaggio prevede la creazione di un file`HTMLDocument` e aggiungendo stili ad esso.
+ Questo passaggio comporta la creazione di un`HTMLDocument` e aggiungendovi degli stili.
 
-## Passaggio 3: crea opzioni di rendering XPS
+## Passaggio 3: creare opzioni di rendering XPS
 
 ```java
 com.aspose.html.rendering.xps.XpsRenderingOptions xps_options = new com.aspose.html.rendering.xps.XpsRenderingOptions();
@@ -82,7 +82,7 @@ pageSetup.setAdjustToWidestPage(false);
 xps_options.setPageSetup(pageSetup);
 ```
 
-Questo passaggio prevede l'impostazione delle dimensioni della pagina e la specifica se adattarla alla pagina più larga.
+Questo passaggio consiste nell'impostare le dimensioni della pagina e specificare se adattarle alla pagina più larga.
 
 ## Passaggio 5: rendering dell'output
 
@@ -92,32 +92,32 @@ com.aspose.html.rendering.xps.XpsDevice device = new com.aspose.html.rendering.x
 renderer.render(device, html_document);
 ```
 
-Nel passaggio finale, eseguiamo il rendering dell'output XPS utilizzando le opzioni configurate.
+Nell'ultimo passaggio, eseguiamo il rendering dell'output XPS utilizzando le opzioni configurate.
 
 ## Conclusione
 
-In questo tutorial, ti abbiamo mostrato come regolare le dimensioni della pagina XPS utilizzando Aspose.HTML per Java. Puoi controllare le dimensioni di output dei tuoi documenti XPS, assicurandoti che soddisfino i tuoi requisiti specifici. Con il codice e i passaggi forniti, puoi facilmente implementare questa funzionalità nelle tue applicazioni Java.
+In questo tutorial, ti abbiamo mostrato come regolare le dimensioni della pagina XPS usando Aspose.HTML per Java. Puoi controllare le dimensioni di output dei tuoi documenti XPS, assicurandoti che soddisfino i tuoi requisiti specifici. Con il codice e i passaggi forniti, puoi implementare facilmente questa funzionalità nelle tue applicazioni Java.
 
- Se hai domande o hai bisogno di ulteriore assistenza, non esitare a visitare il[Aspose.HTML per la documentazione Java](https://reference.aspose.com/html/java/) o chiedi aiuto su[Aspose Forum](https://forum.aspose.com/).
+ Se hai domande o hai bisogno di ulteriore assistenza, non esitare a visitare il[Documentazione di Aspose.HTML per Java](https://reference.aspose.com/html/java/) o chiedi aiuto su[Forum di Aspose](https://forum.aspose.com/).
 
 ## Domande frequenti
 
-### Q1: Cos'è Aspose.HTML per Java?
+### D1: Che cos'è Aspose.HTML per Java?
 
 A1: Aspose.HTML per Java è una libreria Java che consente agli sviluppatori di manipolare e convertire documenti HTML in vari formati, come XPS, PDF e immagini.
 
-### Q2: Dove posso scaricare Aspose.HTML per Java?
+### D2: Dove posso scaricare Aspose.HTML per Java?
 
- A2: È possibile scaricare la libreria Aspose.HTML per Java da[questo link](https://releases.aspose.com/html/java/).
+ A2: Puoi scaricare la libreria Aspose.HTML per Java da[questo collegamento](https://releases.aspose.com/html/java/).
 
-### Q3: È disponibile una prova gratuita per Aspose.HTML per Java?
+### D3: È disponibile una versione di prova gratuita di Aspose.HTML per Java?
 
  A3: Sì, puoi ottenere una prova gratuita di Aspose.HTML per Java da[Qui](https://releases.aspose.com/).
 
-### Q4: Come posso ottenere una licenza temporanea per Aspose.HTML per Java?
+### D4: Come posso ottenere una licenza temporanea per Aspose.HTML per Java?
 
  A4: Per ottenere una licenza temporanea per Aspose.HTML per Java, visitare[questa pagina](https://purchase.aspose.com/temporary-license/).
 
-### Q5: Posso ottenere supporto per Aspose.HTML per Java?
+### D5: Posso ottenere supporto per Aspose.HTML per Java?
 
- R5: Sì, puoi chiedere aiuto e supporto alla comunità Aspose su[Aspose Forum](https://forum.aspose.com/).
+ A5: Sì, puoi cercare aiuto e supporto dalla comunità Aspose su[Forum di Aspose](https://forum.aspose.com/).

@@ -28,7 +28,7 @@ Ujistěte se, že máte v systému nainstalované Visual Studio. Aspose.HTML for
 
 4: Bezplatná zkušební verze nebo platná licence
 
- Chcete-li začít pracovat s Aspose.HTML pro .NET, můžete se rozhodnout pro bezplatnou zkušební verzi nebo si zakoupit platnou licenci. Můžete požádat o bezplatnou zkušební licenci od[tady](https://releases.aspose.com/) , nebo pokud jste připraveni se zavázat, můžete si zakoupit licenci na[Aspose Nákup](https://purchase.aspose.com/buy).
+ Chcete-li začít pracovat s Aspose.HTML pro .NET, můžete se rozhodnout pro bezplatnou zkušební verzi nebo si zakoupit platnou licenci. Můžete požádat o bezplatnou zkušební licenci od[zde](https://releases.aspose.com/) , nebo pokud jste připraveni se zavázat, můžete si zakoupit licenci na[Aspose Nákup](https://purchase.aspose.com/buy).
 
 ## Import požadovaného jmenného prostoru
 
@@ -109,7 +109,7 @@ Odpověď 1: Aspose.HTML for .NET je knihovna, která umožňuje vývojářům p
 
 ### Q2: Jak mohu získat bezplatnou zkušební verzi Aspose.HTML pro .NET?
 
- A2: Můžete požádat o bezplatnou zkušební licenci od[tady](https://releases.aspose.com/).
+ A2: Můžete požádat o bezplatnou zkušební licenci od[zde](https://releases.aspose.com/).
 
 ### Q3: Jaké jsou výhody použití Aspose.HTML pro .NET oproti standardní manipulaci s HTML?
 

@@ -131,7 +131,7 @@ document.renderTo(device);
 
 Ez a lépés befejezi a renderelési folyamatot, és a vászontartalom PDF-fájlba kerül.
 
-Gratulálunk! Sikeresen létrehozott egy HTML-dokumentumot, hozzáadott egy Canvas-elemet, kezelte a vásznat, és az Aspose.HTML for Java használatával PDF-formátumba renderelte. Ez az oktatóanyag nagyszerű kiindulópontként szolgálhat HTML5 Canvas projektjeihez.
+Gratulálok! Sikeresen létrehozott egy HTML-dokumentumot, hozzáadott egy Canvas-elemet, kezelte a vásznat, és az Aspose.HTML for Java használatával PDF-formátumba renderelte. Ez az oktatóanyag nagyszerű kiindulópontként szolgálhat HTML5 Canvas projektjeihez.
 
 ## Következtetés
 

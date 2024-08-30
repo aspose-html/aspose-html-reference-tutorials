@@ -181,7 +181,7 @@ Pomocí těchto příkladů jste získali základní znalosti o tom, jak prochá
 
 ## Závěr
 
- Aspose.HTML for .NET je všestranná knihovna, která umožňuje vývojářům .NET efektivně pracovat s dokumenty HTML. Díky jeho výkonným funkcím pro navigaci, filtrování, dotazování a výběr prvků můžete bez problémů zvládnout různé úlohy zpracování HTML. Podle tohoto návodu a prozkoumání dokumentace na adrese[Aspose.HTML pro dokumentaci .NET](https://reference.aspose.com/html/net/), můžete odemknout plný potenciál tohoto nástroje pro vaše aplikace .NET.
+ Aspose.HTML for .NET je všestranná knihovna, která umožňuje vývojářům .NET efektivně pracovat s dokumenty HTML. Díky jeho výkonným funkcím pro navigaci, filtrování, dotazování a výběr prvků můžete bez problémů zvládnout různé úlohy zpracování HTML. Podle tohoto návodu a prozkoumání dokumentace na adrese[Aspose.HTML pro .NET dokumentaci](https://reference.aspose.com/html/net/), můžete odemknout plný potenciál tohoto nástroje pro vaše aplikace .NET.
 
 ## FAQ
 

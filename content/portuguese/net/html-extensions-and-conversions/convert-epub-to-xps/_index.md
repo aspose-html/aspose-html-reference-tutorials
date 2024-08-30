@@ -1,22 +1,22 @@
 ---
-title: Converta EPUB em XPS em .NET com Aspose.HTML
-linktitle: Converter EPUB em XPS em .NET
-second_title: API de manipulação de HTML Aspose.HTML .NET
-description: Aprenda como converter EPUB em XPS em .NET usando Aspose.HTML para .NET. Siga nosso guia passo a passo para conversões sem esforço.
+title: Converter EPUB para XPS em .NET com Aspose.HTML
+linktitle: Converter EPUB para XPS no .NET
+second_title: Aspose.HTML .NET API de manipulação de HTML
+description: Aprenda como converter EPUB para XPS em .NET usando Aspose.HTML para .NET. Siga nosso guia passo a passo para conversões sem esforço.
 type: docs
 weight: 13
 url: /pt/net/html-extensions-and-conversions/convert-epub-to-xps/
 ---
 
-Você está procurando uma maneira perfeita de converter arquivos EPUB para o formato XPS em seus aplicativos .NET? Aspose.HTML for .NET fornece uma solução poderosa para conseguir isso sem esforço. Neste guia passo a passo, orientaremos você no processo de conversão de EPUB em XPS usando Aspose.HTML. Vamos começar!
+Você está procurando uma maneira perfeita de converter arquivos EPUB para o formato XPS em seus aplicativos .NET? O Aspose.HTML para .NET fornece uma solução poderosa para conseguir isso sem esforço. Neste guia passo a passo, nós o guiaremos pelo processo de conversão de EPUB para XPS usando o Aspose.HTML. Vamos começar!
 
 ## Pré-requisitos
 
-Antes de mergulhar no processo de conversão de EPUB em XPS, você precisará garantir que possui os seguintes pré-requisitos:
+Antes de começar o processo de conversão de EPUB para XPS, você precisa garantir que possui os seguintes pré-requisitos:
 
 ### 1. Biblioteca Aspose.HTML para .NET
 
- Certifique-se de ter a biblioteca Aspose.HTML for .NET instalada em seu projeto. Caso ainda não tenha feito isso, você pode obtê-lo no[Página de download do Aspose.HTML para .NET](https://releases.aspose.com/html/net/).
+ Certifique-se de ter a biblioteca Aspose.HTML para .NET instalada em seu projeto. Se você não tiver feito isso, você pode obtê-la em[Página de download do Aspose.HTML para .NET](https://releases.aspose.com/html/net/).
 
 ### 2. Arquivo EPUB de entrada
 
@@ -36,7 +36,7 @@ using Aspose.Html.Converters;
 using Aspose.Html.Drawing;
 ```
 
-## Converter EPUB em XPS
+## Converter EPUB para XPS
 
 Vamos dividir o processo de conversão de um arquivo EPUB para o formato XPS em várias etapas.
 
@@ -60,19 +60,19 @@ Crie uma instância de XpsSaveOptions. Esta etapa é crucial para configurar a s
 var options = new XpsSaveOptions();
 ```
 
-### Etapa 1.3: Converter EPUB em XPS
+### Etapa 1.3: converter EPUB para XPS
 
-Agora, vamos chamar o método ConvertEPUB para converter EPUB em XPS:
+Agora, vamos chamar o método ConvertEPUB para converter o EPUB para XPS:
 
 ```csharp
 ConvertEPUB(stream, options, "output.xps");
 ```
 
-## Especifique opções XPS personalizadas
+## Especificar opções XPS personalizadas
 
 Você pode personalizar ainda mais a saída XPS especificando opções personalizadas, como tamanho da página e cor de fundo.
 
-### Etapa 2.1: tamanho de página personalizado e cor de fundo
+### Etapa 2.1: Tamanho de página personalizado e cor de fundo
 
 Crie uma instância de XpsSaveOptions com tamanho de página e cor de fundo personalizados:
 
@@ -90,19 +90,19 @@ var options = new XpsSaveOptions()
 };
 ```
 
-### Etapa 2.2: Converter EPUB em XPS com opções personalizadas
+### Etapa 2.2: converter EPUB para XPS com opções personalizadas
 
-Agora, chame o método ConvertEPUB para converter EPUB em XPS com as opções personalizadas:
+Agora, chame o método ConvertEPUB para converter o EPUB em XPS com as opções personalizadas:
 
 ```csharp
 ConvertEPUB(stream, options, "output.xps");
 ```
 
-## Use provedor de stream personalizado
+## Usar Provedor de Fluxo Personalizado
 
-Nesta etapa, converteremos EPUB em XPS usando um provedor de stream personalizado, permitindo manipular os dados resultantes.
+Nesta etapa, converteremos EPUB para XPS usando um provedor de fluxo personalizado, permitindo que você manipule os dados resultantes.
 
-### Etapa 3.1: Crie um MemoryStreamProvider
+### Etapa 3.1: Criar um MemoryStreamProvider
 
 Crie uma instância de MemoryStreamProvider:
 
@@ -113,17 +113,17 @@ using (var streamProvider = new MemoryStreamProvider())
 }
 ```
 
-### Etapa 3.2: Converter EPUB em XPS com Stream Provider
+### Etapa 3.2: converter EPUB para XPS com o Stream Provider
 
-Converta EPUB em XPS usando MemoryStreamProvider:
+Converta EPUB para XPS usando o MemoryStreamProvider:
 
 ```csharp
 ConvertEPUB(stream, new XpsSaveOptions(), streamProvider);
 ```
 
-### Etapa 3.3: Acesse e salve o resultado
+### Etapa 3.3: Acessar e salvar o resultado
 
-Recupere o fluxo de memória que contém os dados convertidos e salve-o em um arquivo de saída:
+Recupere o fluxo de memória contendo os dados convertidos e salve-o em um arquivo de saída:
 
 ```csharp
 var memory = streamProvider.Streams.First();
@@ -144,14 +144,14 @@ class MemoryStreamProvider : Aspose.Html.IO.ICreateStreamProvider
             public List<System.IO.MemoryStream> Streams { get; } = new List<System.IO.MemoryStream>();
             public System.IO.Stream GetStream(string name, string extension)
             {
-                // Este método é chamado quando um único fluxo de saída é necessário, por exemplo para formatos XPS, PDF ou TIFF.
+                // Este método é chamado quando apenas um fluxo de saída é necessário, por exemplo, para formatos XPS, PDF ou TIFF.
                 System.IO.MemoryStream result = new System.IO.MemoryStream();
                 Streams.Add(result);
                 return result;
             }
             public System.IO.Stream GetStream(string name, string extension, int page)
             {
-                // Este método é chamado quando é necessária a criação de vários fluxos de saída. Por exemplo, durante a renderização de HTML para listar os arquivos de imagem (JPG, PNG, etc.)
+                // Este método é chamado quando a criação de múltiplos fluxos de saída é necessária. Por exemplo, durante a renderização de HTML para listar os arquivos de imagem (JPG, PNG, etc.)
                 System.IO.MemoryStream result = new System.IO.MemoryStream();
                 Streams.Add(result);
                 return result;
@@ -172,23 +172,23 @@ Parabéns! Você converteu com sucesso um arquivo EPUB para o formato XPS usando
 
 ## Conclusão
 
-Neste tutorial abrangente, exploramos como aproveitar o Aspose.HTML for .NET para converter arquivos EPUB para o formato XPS com várias opções de personalização. Quer você seja um desenvolvedor experiente ou esteja apenas começando, o Aspose.HTML simplifica o processo, permitindo que você lide com conversões de EPUB para XPS com facilidade.
+Neste tutorial abrangente, exploramos como aproveitar o Aspose.HTML para .NET para converter arquivos EPUB para o formato XPS com várias opções de personalização. Seja você um desenvolvedor experiente ou apenas iniciante, o Aspose.HTML simplifica o processo, permitindo que você lide com conversões de EPUB para XPS com facilidade.
 
- Tem alguma dúvida ou encontrou problemas? Confira a[Documentação Aspose.HTML](https://reference.aspose.com/html/net/) para obter mais informações ou procure ajuda do[Fórum da comunidade Aspose.HTML](https://forum.aspose.com/).
+ Tem alguma dúvida ou encontrou algum problema? Confira o[Documentação Aspose.HTML](https://reference.aspose.com/html/net/) para mais informações ou procure ajuda do[Fórum da Comunidade Aspose.HTML](https://forum.aspose.com/).
 
-## perguntas frequentes
+## Perguntas frequentes
 
 ### O que é Aspose.HTML para .NET?
-Aspose.HTML for .NET é uma biblioteca poderosa que permite aos desenvolvedores trabalhar com documentos HTML, EPUB e XPS em aplicativos .NET.
+Aspose.HTML para .NET é uma biblioteca poderosa que permite aos desenvolvedores trabalhar com documentos HTML, EPUB e XPS em aplicativos .NET.
 
 ### Onde posso baixar o Aspose.HTML para .NET?
  Você pode baixar Aspose.HTML para .NET em[página de download](https://releases.aspose.com/html/net/).
 
-### Existe uma avaliação gratuita disponível para Aspose.HTML for .NET?
- Sim, você pode obter um teste gratuito em[aqui](https://releases.aspose.com/).
+### Existe uma avaliação gratuita disponível para o Aspose.HTML para .NET?
+ Sim, você pode obter uma avaliação gratuita em[aqui](https://releases.aspose.com/).
 
-### Como posso obter uma licença temporária do Aspose.HTML for .NET?
+### Como posso obter uma licença temporária para Aspose.HTML para .NET?
  Para obter uma licença temporária, visite o[página de licença temporária](https://purchase.aspose.com/temporary-license/).
 
-### Onde posso encontrar mais tutoriais e documentação para Aspose.HTML for .NET?
+### Onde posso encontrar mais tutoriais e documentação para Aspose.HTML para .NET?
  Explore uma ampla variedade de tutoriais e documentação detalhada sobre o[Documentação Aspose.HTML](https://reference.aspose.com/html/net/) página.

@@ -119,7 +119,7 @@ För att rendera vår HTML5 Canvas till en PDF måste vi skapa en PDF-utdataenhe
 PdfDevice device = new PdfDevice("canvas.output.2.pdf");
 ```
 
-Detta steg ställer in PDF-enheten för rendering.
+Det här steget ställer in PDF-enheten för rendering.
 
 ## Steg 9: Gör HTML5 Canvas till PDF
 

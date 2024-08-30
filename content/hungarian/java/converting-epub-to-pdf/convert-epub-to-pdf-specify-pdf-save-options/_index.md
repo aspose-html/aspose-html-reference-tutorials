@@ -26,7 +26,7 @@ Most pedig vessünk egy pillantást az EPUB-nak PDF-re konvertálására vonatko
 
 ## 1. lépés: Nyissa meg az EPUB-fájlt
 
- Kezdésként nyisson meg egy meglévő EPUB-fájlt olvasásra. Használhatja a`FileInputStream` elérni ezt. Íme a lépés kódja:
+ Kezdésként nyisson meg egy meglévő EPUB-fájlt olvasásra. Használhatja a`FileInputStream` ennek eléréséhez. Íme a lépés kódja:
 
 ```java
 try (java.io.FileInputStream fileInputStream = new java.io.FileInputStream(Resources.input("input.epub"))) {
@@ -53,7 +53,7 @@ options.setBackgroundColor(com.aspose.html.drawing.Color.getAliceBlue());
 
 ## 3. lépés: Az EPUB konvertálása PDF-be
 
- Most hívd a`ConvertEPUB` módszer az EPUB fájl PDF formátumba konvertálására. Adja meg a bemeneti adatfolyamot, a PDF mentési beállításokat és a kimeneti helyet. Íme, hogyan történik:
+ Most hívd a`ConvertEPUB` módszerrel konvertálhatja az EPUB fájlt PDF-be. Adja meg a bemeneti adatfolyamot, a PDF mentési beállításokat és a kimeneti helyet. Íme, hogyan történik:
 
 ```java
 com.aspose.html.converters.Converter.convertEPUB(
@@ -63,7 +63,7 @@ com.aspose.html.converters.Converter.convertEPUB(
 );
 ```
 
-Gratulálunk! Sikeresen konvertált egy EPUB-fájlt PDF-be az Aspose.HTML for Java használatával. Most már elérheti a konvertált PDF-fájlt a megadott kimeneti helyen.
+Gratulálok! Sikeresen konvertált egy EPUB-fájlt PDF-be az Aspose.HTML for Java használatával. Most már elérheti a konvertált PDF-fájlt a megadott kimeneti helyen.
 
 ## Teljes forráskód
 ```java

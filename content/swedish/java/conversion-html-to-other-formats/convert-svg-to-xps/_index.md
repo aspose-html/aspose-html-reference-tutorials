@@ -96,4 +96,4 @@ S3: Aspose.HTML för Java är ett robust bibliotek, men det är viktigt att gran
 
 ### F5: Finns det en gratis provperiod?
 
- S5: Ja, du kan få tillgång till en gratis testversion av Aspose.HTML för Java på Aspose-webbplatsen. Besök[Aspose.HTML gratis provperiod](https://releases.aspose.com/) för att starta.
+ S5: Ja, du kan få tillgång till en gratis testversion av Aspose.HTML för Java på Aspose-webbplatsen. Besök[Aspose.HTML gratis provperiod](https://releases.aspose.com/) för att komma igång.

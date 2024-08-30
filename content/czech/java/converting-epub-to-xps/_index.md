@@ -10,7 +10,7 @@ url: /cs/java/converting-epub-to-xps/
 
 V tomto článku vás provedeme procesem převodu souborů EPUB do formátu XPS pomocí výkonných nástrojů, které poskytuje Aspose.HTML for Java. Ať už jste vývojář nebo někdo, kdo chce převést své e-knihy do jiného formátu, náš podrobný průvodce zajistí, že proces převodu bude bezproblémový a bezproblémový.
 
-## Úvod
+## Zavedení
 
 Soubory EPUB (Electronic Publication) jsou široce používány pro e-knihy a publikace. Mohou však nastat situace, kdy budete muset převést soubory EPUB do formátu XPS (XML Paper Specification). XPS je formát elektronického souboru s pevným rozložením, který zajišťuje, že se váš obsah zobrazí přesně tak, jak byl zamýšlen, na různých zařízeních a platformách.
 
@@ -45,7 +45,7 @@ V některých případech můžete chtít doladit výstup XPS. Aspose.HTML for J
 ## Převod EPUB na XPS výukové programy
 Prozkoumejte naše výukové programy a zjistěte více o používání Aspose.HTML pro Java v různých scénářích, díky čemuž budou vaše úlohy správy dokumentů hračkou. Převod EPUB na XPS nebyl nikdy jednodušší!
 ### [Převod EPUB na XPS](./convert-epub-to-xps/)
-Přečtěte si, jak převést EPUB na XPS pomocí Aspose.HTML pro Java. Podrobný průvodce pro bezproblémový převod EPUB na XPS. Vyzkoušej to teď!
+Přečtěte si, jak převést EPUB na XPS pomocí Aspose.HTML pro Java. Podrobný průvodce pro bezproblémový převod EPUB na XPS. Zkuste to hned!
 ### [Určení vlastního poskytovatele streamu pro EPUB až XPS](./convert-epub-to-xps-specify-custom-stream-provider/)
 Převeďte EPUB na XPS bez námahy pomocí Aspose.HTML pro Java. Postupujte podle tohoto podrobného průvodce pro bezproblémový proces převodu.
 ### [Určení možností uložení XPS pro EPUB do XPS](./convert-epub-to-xps-specify-xps-save-options/)

@@ -40,7 +40,7 @@ string dataDir = "Your Data Directory";
 SVGDocument svgDocument = new SVGDocument(dataDir + "input.svg");
 ```
 
- Itt létrehozunk egy példányt`SVGDocument` és töltse be az SVG-dokumentumot a megadott fájlútvonalról.
+Itt létrehozunk egy példányt`SVGDocument` és töltse be az SVG-dokumentumot a megadott fájlútvonalról.
 
 ## 3. lépés: Inicializálja az XpsSaveOptions-t
 

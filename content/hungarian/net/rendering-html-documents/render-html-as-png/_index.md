@@ -8,7 +8,7 @@ weight: 10
 url: /hu/net/rendering-html-documents/render-html-as-png/
 ---
 
-Ebben az oktatóanyagban elmélyülünk az Aspose.HTML for .NET világában, amely egy hatékony eszköz a HTML-dokumentumok programozott kezeléséhez. Akár tapasztalt fejlesztő, akár csak most kezdi utazását a .NET programozás világában, ez az oktatóanyag végigvezeti Önt az Aspose.HTML lényegein, a névterek importálásától a gyakorlati példák lebontásáig.
+Ebben az oktatóanyagban elmélyülünk az Aspose.HTML for .NET világában, amely egy hatékony eszköz a HTML-dokumentumok programozott kezeléséhez. Akár tapasztalt fejlesztő, akár csak most kezdi utazását a .NET-programozás világában, ez az oktatóanyag végigvezeti az Aspose.HTML alapjain, a névterek importálásától a gyakorlati példák lebontásáig.
 
 ## Bevezetés
 
@@ -20,7 +20,7 @@ Mielőtt belemerülnénk a kódpéldákba, szüksége lesz néhány előfeltéte
 
 1. Visual Studio: Győződjön meg arról, hogy telepítve van a Visual Studio, mivel .NET kódot fogunk írni.
 
-2.  Aspose.HTML for .NET: Töltse le és telepítse az Aspose.HTML for .NET könyvtárat innen[ez a link](https://releases.aspose.com/html/net/) . Választhat az ingyenes próbaverzió vagy a licenc megvásárlása között[itt](https://purchase.aspose.com/buy).
+2.  Aspose.HTML for .NET: Töltse le és telepítse az Aspose.HTML for .NET könyvtárat innen[ezt a linket](https://releases.aspose.com/html/net/) . Választhat az ingyenes próbaverzió vagy a licenc megvásárlása között[itt](https://purchase.aspose.com/buy).
 
 3. .NET-keretrendszer vagy .NET Core: Győződjön meg arról, hogy a fejlesztői gépen a .NET-keretrendszer vagy a .NET Core telepítve van, a projekt követelményeitől függően.
 
@@ -66,7 +66,7 @@ using (var document = new Aspose.Html.HTMLDocument("<style>p { color: green; }</
 
 ### 2. lépés: Hozzon létre egy HTML-megjelenítőt
 
- Itt létrehozunk egy`HtmlRenderer` tárgy. Ez a HTML-tartalom megjelenítéséért felelős alapvető összetevő. 
+ Itt létrehozunk egy`HtmlRenderer` objektum. Ez a HTML-tartalom megjelenítéséért felelős alapvető összetevő. 
 
 ### 3. lépés: Renderje le a HTML-dokumentumot PNG formátumban
 

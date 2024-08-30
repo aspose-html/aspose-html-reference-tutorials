@@ -34,7 +34,7 @@ Aspose.HTML for Java 是一個強大且使用者友善的函式庫，可以簡�
 
 4. 儲存 XPS 檔案：將 XPS 檔案儲存到您所需的位置。
 
-## 指定自訂流程提供程序
+## 指定自訂流提供者
 
 有時，您可能需要指定自訂流程提供者來處理轉換。 Aspose.HTML for Java 可讓您有效率地完成此操作，確保您的 EPUB 到 XPS 轉換符合您的特定要求。
 
@@ -45,7 +45,7 @@ Aspose.HTML for Java 是一個強大且使用者友善的函式庫，可以簡�
 ## 將 EPUB 轉換為 XPS 教學課程
 瀏覽我們的教程，了解有關在各種場景中使用 Aspose.HTML for Java 的更多信息，使您的文件管理任務變得輕而易舉。將 EPUB 轉換為 XPS 從未如此簡單！
 ### [將 EPUB 轉換為 XPS](./convert-epub-to-xps/)
-了解如何使用 Aspose.HTML for Java 將 EPUB 轉換為 XPS。將 EPUB 無縫轉換為 XPS 的分步指南。現在就試試！
+了解如何使用 Aspose.HTML for Java 將 EPUB 轉換為 XPS。將 EPUB 無縫轉換為 XPS 的分步指南。現在就試試吧！
 ### [指定 EPUB 到 XPS 的自訂流程提供程序](./convert-epub-to-xps-specify-custom-stream-provider/)
 使用 Aspose.HTML for Java 輕鬆將 EPUB 轉換為 XPS。請遵循此逐步指南以實現無縫轉換流程。
 ### [指定 EPUB 到 XPS 的 XPS 儲存選項](./convert-epub-to-xps-specify-xps-save-options/)

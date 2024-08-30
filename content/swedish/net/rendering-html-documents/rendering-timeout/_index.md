@@ -18,7 +18,7 @@ När du renderar HTML-dokument med Aspose.HTML för .NET kan du stöta på scena
 
 Innan vi fördjupar oss i renderingstidsgränser, se till att du har följande förutsättningar på plats:
 
-1.  Aspose.HTML för .NET: För att följa med i denna handledning måste du ha Aspose.HTML för .NET installerat. Du kan ladda ner den[här](https://releases.aspose.com/html/net/).
+1. Aspose.HTML för .NET: För att följa med i denna handledning måste du ha Aspose.HTML för .NET installerat. Du kan ladda ner den[här](https://releases.aspose.com/html/net/).
 
 2. .NET-miljö: Se till att du har en fungerande .NET-miljö, eftersom Aspose.HTML är ett .NET-bibliotek.
 
@@ -39,7 +39,7 @@ Dessa namnrymder ger tillgång till Aspose.HTML-biblioteket, vilket gör att du 
 
 ## Timeout för rendering förklaras
 
- Timeout för rendering är en avgörande aspekt vid rendering av HTML-dokument, särskilt i scenarier där renderingsprocessen kan ta en oförutsägbar tid. Aspose.HTML för .NET tillhandahåller två metoder för att kontrollera renderingstidsgränser:`RenderingTimeout` och`IndefiniteTimeout`. Låt oss bryta ner var och en av dessa metoder och förstå hur de används.
+Timeout för rendering är en avgörande aspekt vid rendering av HTML-dokument, särskilt i scenarier där renderingsprocessen kan ta en oförutsägbar tid. Aspose.HTML för .NET tillhandahåller två metoder för att kontrollera renderingstidsgränser:`RenderingTimeout` och`IndefiniteTimeout`. Låt oss bryta ner var och en av dessa metoder och förstå hur de används.
 
 ### RenderingTimeout
 
@@ -84,7 +84,7 @@ Dessa namnrymder ger tillgång till Aspose.HTML-biblioteket, vilket gör att du 
    renderer.Render(device, TimeSpan.FromSeconds(5), document);
    ```
 
-   I den här kodraden anger vi en renderingstid på 5 sekunder. Om renderingsprocessen tar längre tid än så kommer den att avslutas.
+   den här kodraden anger vi en renderingstid på 5 sekunder. Om renderingsprocessen tar längre tid än så kommer den att avslutas.
 
 ### Obestämd Timeout
 
@@ -133,7 +133,7 @@ Dessa namnrymder ger tillgång till Aspose.HTML-biblioteket, vilket gör att du 
 
 ## Slutsats
 
- I den här handledningen har vi utforskat konceptet med att rendera timeout i Aspose.HTML för .NET. Vi har diskuterat två metoder,`RenderingTimeout` och`IndefiniteTimeout`som gör att du effektivt kan kontrollera renderingstiden. Genom att förstå och använda dessa metoder kan du säkerställa att dina HTML-renderingsprocesser löper smidigt, även i scenarier med oförutsägbara renderingstider.
+ I den här handledningen har vi utforskat konceptet med att rendera timeout i Aspose.HTML för .NET. Vi har diskuterat två metoder,`RenderingTimeout` och`IndefiniteTimeout`, som gör att du effektivt kan kontrollera renderingstiden. Genom att förstå och använda dessa metoder kan du säkerställa att dina HTML-renderingsprocesser löper smidigt, även i scenarier med oförutsägbara renderingstider.
 
 Nu när du har ett gediget grepp om renderingstidsgränser i Aspose.HTML för .NET, är du väl rustad att hantera komplexa HTML-renderingsuppgifter effektivt.
 
@@ -148,13 +148,13 @@ Nu när du har ett gediget grepp om renderingstidsgränser i Aspose.HTML för .N
     Du kan komma åt dokumentationen för Aspose.HTML för .NET[här](https://reference.aspose.com/html/net/). Den innehåller detaljerad information om hur du använder bibliotekets funktioner och API:er.
 
 ### Finns det en gratis testversion tillgänglig för Aspose.HTML för .NET?
-    Ja, du kan få en gratis provversion av Aspose.HTML för .NET[här](https://releases.aspose.com/). Testversionen låter dig utforska bibliotekets möjligheter innan du gör ett köp.
+    Ja, du kan få en gratis testversion av Aspose.HTML för .NET[här](https://releases.aspose.com/). Testversionen låter dig utforska bibliotekets möjligheter innan du gör ett köp.
 
 ### Hur kan jag få en tillfällig licens för Aspose.HTML för .NET?
-   Du kan få en tillfällig licens för Aspose.HTML för .NET[här](https://purchase.aspose.com/temporary-license/). Tillfälliga licenser är användbara för test- och utvärderingssyften.
+    Du kan få en tillfällig licens för Aspose.HTML för .NET[här](https://purchase.aspose.com/temporary-license/). Tillfälliga licenser är användbara för test- och utvärderingssyften.
 
 ### Var kan jag söka hjälp och support för Aspose.HTML för .NET?
-    Om du har några frågor eller behöver hjälp med Aspose.HTML för .NET kan du besöka[Aspose.HTML forum](https://forum.aspose.com/) att få hjälp från samhället och Asposes stödpersonal.
+   Om du har några frågor eller behöver hjälp med Aspose.HTML för .NET kan du besöka[Aspose.HTML forum](https://forum.aspose.com/) att få hjälp från samhället och Asposes stödpersonal.
 
 
 

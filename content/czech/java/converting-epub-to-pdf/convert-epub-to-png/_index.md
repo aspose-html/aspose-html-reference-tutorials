@@ -74,16 +74,16 @@ V této příručce jsme se naučili, jak převést EPUB na PNG pomocí Aspose.H
 ## Nejčastější dotazy
 
 ### Je Aspose.HTML pro Java zdarma k použití?
-    Aspose.HTML for Java není zdarma, ale můžete prozkoumat bezplatnou zkušební verzi[tady](https://releases.aspose.com/) získat pocit z jeho schopností.
+    Aspose.HTML for Java není zdarma, ale můžete prozkoumat bezplatnou zkušební verzi[zde](https://releases.aspose.com/) získat pocit z jeho schopností.
 
 ### Kde najdu dokumentaci k Aspose.HTML pro Java?
-    Dokumentaci lze nalézt[tady](https://reference.aspose.com/html/java/). Je to cenný zdroj pro pochopení funkcí a funkcí knihovny.
+    Dokumentaci lze nalézt[zde](https://reference.aspose.com/html/java/). Je to cenný zdroj pro pochopení funkcí a funkcí knihovny.
 
 ### Jak mohu získat dočasnou licenci pro Aspose.HTML pro Java?
     Pokud potřebujete dočasnou licenci, můžete navštívit[tento odkaz](https://purchase.aspose.com/temporary-license/) požádat o jednu.
 
 ### Kde mohu získat podporu pro Aspose.HTML pro Java?
-    Komunitní fórum Aspose.HTML for Java je skvělým místem pro hledání podpory a vedení. Můžete k němu přistupovat[tady](https://forum.aspose.com/).
+    Komunitní fórum Aspose.HTML for Java je skvělým místem pro hledání podpory a vedení. Můžete k němu přistupovat[zde](https://forum.aspose.com/).
 
 ### Jaké další formáty souborů dokáže Aspose.HTML for Java zpracovat?
    Aspose.HTML for Java podporuje širokou škálu formátů souborů pro konverzi a manipulaci, včetně HTML, PDF a dalších. Úplný seznam podporovaných formátů naleznete v dokumentaci.

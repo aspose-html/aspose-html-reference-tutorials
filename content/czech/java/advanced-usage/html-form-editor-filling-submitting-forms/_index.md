@@ -15,7 +15,7 @@ Než se vrhneme na kroky vyplňování a odesílání formulářů HTML pomocí 
 
 1. Vývojové prostředí Java: Potřebujete funkční vývojové prostředí Java, včetně JDK a IDE (např. IntelliJ IDEA, Eclipse).
 
-2.  Aspose.HTML for Java: Stáhněte si a nainstalujte Aspose.HTML for Java z webové stránky. Odkaz ke stažení najdete[tady](https://releases.aspose.com/html/java/).
+2.  Aspose.HTML for Java: Stáhněte si a nainstalujte Aspose.HTML for Java z webové stránky. Odkaz ke stažení najdete[zde](https://releases.aspose.com/html/java/).
 
 3. Konfigurace IDE: Ujistěte se, že je vaše IDE správně nakonfigurováno pro použití Aspose.HTML for Java ve vašem projektu Java.
 
@@ -126,7 +126,7 @@ Odpověď 1: Ano, Aspose.HTML for Java můžete použít k interakci s formulá�
 
 ### Q2: Je Aspose.HTML pro Java zdarma k použití?
 
- A2: Aspose.HTML for Java je komerční knihovna. Podrobnosti o licencích a cenách najdete na webu Aspose[tady](https://purchase.aspose.com/buy).
+ A2: Aspose.HTML for Java je komerční knihovna. Podrobnosti o licencích a cenách najdete na webu Aspose[zde](https://purchase.aspose.com/buy).
 
 ### Q3: Mohu vyzkoušet Aspose.HTML for Java před zakoupením licence?
 
@@ -134,4 +134,4 @@ Odpověď 1: Ano, Aspose.HTML for Java můžete použít k interakci s formulá�
 
 ### Q4: Kde najdu další podporu a pomoc pro Aspose.HTML pro Java?
 
- A4: Pro jakoukoli technickou podporu můžete navštívit fóra Aspose[tady](https://forum.aspose.com/).
+ A4: Pro jakoukoli technickou podporu můžete navštívit fóra Aspose[zde](https://forum.aspose.com/).

@@ -62,7 +62,7 @@ try (FileInputStream fileInputStream = new FileInputStream("input.epub")) {
 }
 ```
 
-Det är allt! Med dessa enkla steg kan du sömlöst konvertera din EPUB-fil till en GIF-bild med Aspose.HTML för Java.
+Det är det! Med dessa enkla steg kan du sömlöst konvertera din EPUB-fil till en GIF-bild med Aspose.HTML för Java.
 
 ## Slutsats
 
@@ -78,11 +78,11 @@ S1: Ja, du kan använda Aspose.HTML för Java i både kommersiella och icke-komm
 
 ### F2: Finns det en gratis provperiod?
 
- S2: Ja, du kan få tillgång till en gratis testversion av Aspose.HTML för Java från[den här länken](https://releases.aspose.com/).
+ S2: Ja, du kan få tillgång till en gratis testversion av Aspose.HTML för Java från[denna länk](https://releases.aspose.com/).
 
 ### F3: Hur kan jag få en tillfällig licens för Aspose.HTML för Java?
 
- A3: Du kan få en tillfällig licens genom att besöka[den här länken](https://purchase.aspose.com/temporary-license/).
+ A3: Du kan få en tillfällig licens genom att besöka[denna länk](https://purchase.aspose.com/temporary-license/).
 
 ### F4: Vilka andra dokumentkonverteringar kan Aspose.HTML för Java hantera?
 

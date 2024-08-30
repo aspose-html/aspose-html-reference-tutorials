@@ -1,7 +1,7 @@
 ---
-title: قم بتحويل HTML إلى Markdown في .NET باستخدام Aspose.HTML
+title: تحويل HTML إلى Markdown في .NET باستخدام Aspose.HTML
 linktitle: تحويل HTML إلى Markdown في .NET
-second_title: Aspose.HTML .NET واجهة برمجة تطبيقات معالجة HTML
+second_title: Aspose.HTML .NET HTML manipulation API
 description: تعرف على كيفية تحويل HTML إلى Markdown في .NET باستخدام Aspose.HTML لمعالجة المحتوى بكفاءة. احصل على إرشادات خطوة بخطوة لعملية تحويل سلسة.
 type: docs
 weight: 18
@@ -10,62 +10,62 @@ url: /ar/net/html-extensions-and-conversions/convert-html-to-markdown/
 
 ## مقدمة
 
-في العصر الرقمي الحالي، يعد محتوى الويب أمرًا حيويًا، وكذلك القدرة على التعامل معه وتحويله بكفاءة. Aspose.HTML for .NET هي مكتبة قوية تعمل على تبسيط معالجة مستندات HTML، مما يسمح لك بتحويل محتوى HTML إلى تنسيقات مختلفة بسهولة. سيرشدك هذا الدليل خطوة بخطوة خلال عملية استخدام Aspose.HTML لـ .NET لتحويل HTML إلى تنسيق Markdown.
+في العصر الرقمي الحالي، يعد محتوى الويب أمرًا بالغ الأهمية، وكذلك القدرة على التعامل معه وتحويله بكفاءة. Aspose.HTML for .NET هي مكتبة قوية تبسط معالجة مستندات HTML، مما يسمح لك بتحويل محتوى HTML إلى تنسيقات مختلفة بسهولة. سيرشدك هذا الدليل خطوة بخطوة خلال عملية استخدام Aspose.HTML for .NET لتحويل HTML إلى تنسيق Markdown.
 
 ## المتطلبات الأساسية
 
 قبل أن نتعمق في البرنامج التعليمي، تأكد من توفر المتطلبات الأساسية التالية:
 
-1.  Aspose.HTML لمكتبة .NET: قم بتنزيل وتثبيت Aspose.HTML لمكتبة .NET من[موقع إلكتروني](https://releases.aspose.com/html/net/). سوف تحتاج إلى هذه المكتبة للعمل من خلال الأمثلة.
+1.  مكتبة Aspose.HTML لـ .NET: قم بتنزيل مكتبة Aspose.HTML لـ .NET وتثبيتها من[موقع إلكتروني](https://releases.aspose.com/html/net/)سوف تحتاج إلى هذه المكتبة للعمل على الأمثلة.
 
-2. بيئة التطوير: تأكد من إعداد بيئة تطوير .NET، بما في ذلك Visual Studio أو أي محرر تعليمات برمجية مناسب آخر.
+2. بيئة التطوير: تأكد من إعداد بيئة تطوير .NET لديك، بما في ذلك Visual Studio أو أي محرر أكواد مناسب آخر.
 
-3. المعرفة الأساسية بـ C#: الإلمام ببرمجة C# سيكون مفيدًا في فهم الأمثلة وتنفيذها.
+3. المعرفة الأساسية بلغة C#: ستكون المعرفة ببرمجة C# مفيدة في فهم الأمثلة وتنفيذها.
 
 ## استيراد مساحة الاسم
 
-للبدء، تحتاج إلى استيراد مساحة الاسم Aspose.HTML إلى مشروع C# الخاص بك. يتيح لك هذا الوصول إلى الفئات والأساليب المطلوبة لتحويل HTML إلى Markdown.
+للبدء، تحتاج إلى استيراد مساحة اسم Aspose.HTML إلى مشروع C# الخاص بك. يتيح لك هذا الوصول إلى الفئات والطرق المطلوبة لتحويل HTML إلى Markdown.
 
-### الخطوة 1: قم باستيراد مساحة الاسم Aspose.HTML
+### الخطوة 1: استيراد مساحة اسم Aspose.HTML
 
 ```csharp
 using Aspose.Html;
 ```
 
-مع استيراد مساحة الاسم، يمكنك الآن متابعة تحويل HTML إلى Markdown.
+بعد استيراد مساحة الاسم، يمكنك الآن المضي قدمًا في تحويل HTML إلى Markdown.
 
-## قم بتحويل HTML إلى Markdown في .NET باستخدام Aspose.HTML
+## تحويل HTML إلى Markdown في .NET باستخدام Aspose.HTML
 
 في هذا المثال، سنوضح كيفية تحويل مستند HTML إلى Markdown باستخدام Aspose.HTML لـ .NET. 
 
 ### الخطوة 1: إنشاء مستند HTML
 
-ابدأ بإنشاء مستند HTML باستخدام Aspose.HTML. في هذا المثال، لدينا محتوى HTML بسيط مكون من فقرتين.
+ابدأ بإنشاء مستند HTML باستخدام Aspose.HTML. في هذا المثال، لدينا محتوى HTML بسيط يتكون من فقرتين.
 
 ```csharp
 string dataDir = "Your Data Directory";
 using (var document = new Aspose.Html.HTMLDocument("<p>my first paragraph</p>" +
 "<p>my second paragraph</p>", dataDir))
 {
-    // سيتم وضع الرمز الخاص بك هنا
+    // سيتم وضع الكود الخاص بك هنا
 }
 ```
 
-### الخطوة 2: حفظ باسم تخفيض السعر
+### الخطوة 2: الحفظ بتنسيق Markdown
 
- الآن، دعونا نحفظ محتوى HTML كـ Markdown. في هذه الخطوة نستخدم`Saving.HTMLSaveFormat.Markdown` خيار لتحديد التنسيق.
+ الآن، دعنا نحفظ محتوى HTML بتنسيق Markdown. في هذه الخطوة، نستخدم`Saving.HTMLSaveFormat.Markdown` خيار لتحديد التنسيق.
 
 ```csharp
 document.Save(dataDir + "Markdown.md", Saving.HTMLSaveFormat.Markdown);
 ```
 
-تهانينا! لقد نجحت في تحويل مستند HTML إلى Markdown باستخدام Aspose.HTML لـ .NET.
+مبروك! لقد قمت بنجاح بتحويل مستند HTML إلى Markdown باستخدام Aspose.HTML for .NET.
 
-## تحديد قواعد تحويل تخفيض السعر
+## تحديد قواعد تحويل Markdown
 
-في بعض الأحيان، قد ترغب في تخصيص قواعد تحويل Markdown لتضمين أو استبعاد عناصر HTML محددة. في هذا المثال، سنحدد قواعد تحويل العناصر المحددة فقط.
+في بعض الأحيان، قد ترغب في تخصيص قواعد تحويل Markdown لتضمين عناصر HTML معينة أو استبعادها. في هذا المثال، سنحدد قواعد لتحويل العناصر المحددة فقط.
 
-### الخطوة 1: تحديد قواعد تخفيض السعر
+### الخطوة 1: تحديد قواعد Markdown
 
  أولاً، قم بإنشاء مستند HTML كما هو موضح في المثال السابق. ثم قم بإنشاء`MarkdownSaveOptions` كائن لتحديد قواعد التحويل.
 
@@ -75,24 +75,24 @@ using (var document = new Aspose.Html.HTMLDocument("<p>my first paragraph</p>", 
 {
     var options = new Aspose.Html.Saving.MarkdownSaveOptions();
     
-    // اضبط القواعد: سيتم تحويل العناصر <a> و<img> و<p> فقط إلى تخفيض السعر.
+    // تعيين القواعد: سيتم تحويل العناصر <a>، و<img>، و<p> فقط إلى Markdown.
     options.Features = MarkdownFeatures.Link | MarkdownFeatures.Image | MarkdownFeatures.AutomaticParagraph;
     
     document.Save(dataDir + "Markdown.md", options);
 }
 ```
 
-باتباع هذه الخطوة، يمكنك التحكم في عناصر HTML المحددة التي يتم تحويلها إلى Markdown.
+من خلال اتباع هذه الخطوة، يمكنك التحكم في عناصر HTML المحددة التي يتم تحويلها إلى Markdown.
 
 ## خاتمة
 
- يعمل Aspose.HTML for .NET على تبسيط تحويل HTML إلى Markdown بأسلوب مباشر. باستخدام الأمثلة المقدمة والدليل خطوة بخطوة، لديك الآن الأدوات اللازمة لمعالجة محتوى HTML وتحويله إلى Markdown بكفاءة. استكشف Aspose.HTML للحصول على وثائق .NET[هنا](https://reference.aspose.com/html/net/) لمزيد من الميزات والخيارات المتقدمة.
+ يُبسِّط Aspose.HTML for .NET عملية تحويل HTML إلى Markdown بطريقة مباشرة. باستخدام الأمثلة المقدمة والدليل خطوة بخطوة، أصبح لديك الآن الأدوات اللازمة للتعامل بكفاءة مع محتوى HTML وتحويله إلى Markdown. استكشف وثائق Aspose.HTML for .NET[هنا](https://reference.aspose.com/html/net/) لمزيد من الميزات والخيارات المتقدمة.
 
 ## الأسئلة الشائعة
 
-### 1. هل Aspose.HTML for .NET مجاني للاستخدام؟
+### 1. هل استخدام Aspose.HTML لـ .NET مجاني؟
 
-لا، Aspose.HTML for .NET هي مكتبة تجارية، وسوف تحتاج إلى ترخيص صالح لاستخدامها في مشاريعك. يمكنك الحصول على ترخيص مؤقت للاختبار من[هنا](https://purchase.aspose.com/temporary-license/).
+لا، Aspose.HTML for .NET هي مكتبة تجارية، وستحتاج إلى ترخيص صالح لاستخدامها في مشاريعك. يمكنك الحصول على ترخيص مؤقت للاختبار من[هنا](https://purchase.aspose.com/temporary-license/).
 
 ### 2. هل يمكنني تحويل مستندات HTML المعقدة إلى Markdown؟
 
@@ -100,11 +100,11 @@ using (var document = new Aspose.Html.HTMLDocument("<p>my first paragraph</p>", 
 
 ### 3. هل يتوفر الدعم الفني لـ Aspose.HTML لـ .NET؟
 
- نعم، يمكنك الحصول على الدعم الفني والمساعدة من مجتمع Aspose.HTML على موقعهم[المنتدى](https://forum.aspose.com/).
+ نعم، يمكنك الحصول على الدعم الفني والمساعدة من مجتمع Aspose.HTML على[منتدى](https://forum.aspose.com/).
 
-### 4. هل هناك تنسيقات إخراج أخرى مدعومة إلى جانب Markdown؟
+### 4. هل هناك تنسيقات إخراج أخرى مدعومة بالإضافة إلى Markdown؟
 
-نعم، يدعم Aspose.HTML for .NET تنسيقات الإخراج المختلفة، بما في ذلك PDF وXPS وEPUB والمزيد. راجع الوثائق للحصول على قائمة شاملة بالتنسيقات المدعومة.
+نعم، يدعم Aspose.HTML for .NET تنسيقات إخراج مختلفة، بما في ذلك PDF وXPS وEPUB والمزيد. راجع الوثائق للحصول على قائمة شاملة بالتنسيقات المدعومة.
 
 ### 5. هل يمكنني تجربة Aspose.HTML لـ .NET قبل الشراء؟
 

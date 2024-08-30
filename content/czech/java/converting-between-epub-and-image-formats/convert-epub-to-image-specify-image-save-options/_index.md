@@ -7,7 +7,7 @@ type: docs
 weight: 16
 url: /cs/java/converting-between-epub-and-image-formats/convert-epub-to-image-specify-image-save-options/
 ---
-V neustále se vyvíjejícím světě webového vývoje je Aspose.HTML for Java mocným nástrojem a dnes se ponoříme do jeho zásadního aspektu: zadáním možností ukládání obrázků pro EPUB na převod obrázků. V tomto podrobném průvodci se naučíte, jak bez námahy využít možnosti Aspose.HTML pro Java k převodu souborů EPUB na obrázky. Než se však ponoříme do podrobností, ujistíme se, že máme pokryty všechny předpoklady.
+V neustále se vyvíjejícím světě webového vývoje představuje Aspose.HTML for Java mocný nástroj a dnes se ponoříme do jeho zásadního aspektu: zadáním možností uložení obrázku pro převod EPUB na obrázek. V tomto podrobném průvodci se naučíte, jak bez námahy využít možnosti Aspose.HTML pro Java k převodu souborů EPUB na obrázky. Než se však ponoříme do podrobností, ujistíme se, že máme pokryty všechny předpoklady.
 
 ## Předpoklady
 
@@ -15,7 +15,7 @@ Než se pustíme do naší cesty k převodu souborů EPUB na obrázky, musíte s
 
 1. Prostředí Java
 
- Ujistěte se, že máte ve svém systému nastavené vývojové prostředí Java. Pokud nemáte nainstalovanou Javu, můžete si ji stáhnout a nainstalovat z[tady](https://www.java.com).
+ Ujistěte se, že máte ve svém systému nastavené vývojové prostředí Java. Pokud nemáte nainstalovanou Javu, můžete si ji stáhnout a nainstalovat z[zde](https://www.java.com).
 
 2. Aspose.HTML pro Javu
 
@@ -79,7 +79,7 @@ Converter.convertEPUB(
 );
 ```
 
- Toto je zásadní krok, kdy převedeme soubor EPUB na obrázek. Ujisti se že`"output.jpg"` určuje cestu, kam chcete uložit výstupní obraz.
+ Toto je zásadní krok, kdy převedeme soubor EPUB na obrázek. Zajistěte to`"output.jpg"` určuje cestu, kam chcete uložit výstupní obraz.
 
 Pomocí těchto kroků můžete bez problémů převádět soubory EPUB na obrázky pomocí Aspose.HTML for Java.
 

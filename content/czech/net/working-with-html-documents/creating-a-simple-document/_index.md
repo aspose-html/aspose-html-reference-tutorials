@@ -8,7 +8,7 @@ weight: 11
 url: /cs/net/working-with-html-documents/creating-a-simple-document/
 ---
 
-## Úvod
+## Zavedení
 
 Ve světě webového vývoje je vytváření a manipulace s HTML dokumenty základním úkolem. Ať už vytváříte jednoduchou webovou stránku nebo složitou webovou aplikaci, mít spolehlivý nástroj pro manipulaci s HTML dokumenty je zásadní. V tomto tutoriálu se ponoříme do světa Aspose.HTML for .NET, výkonné knihovny, která vám umožní bezproblémově pracovat s HTML dokumenty. 
 
@@ -22,7 +22,7 @@ Na vašem počítači byste měli mít nastavené vývojové prostředí .NET. P
 
 ### 2. Aspose.HTML pro .NET
 
- Abyste mohli postupovat podle příkladů v tomto tutoriálu, budete si muset stáhnout a nainstalovat knihovnu Aspose.HTML for .NET. Odkaz ke stažení najdete[tady](https://releases.aspose.com/html/net/).
+ Abyste mohli postupovat podle příkladů v tomto tutoriálu, budete si muset stáhnout a nainstalovat knihovnu Aspose.HTML for .NET. Odkaz ke stažení najdete[zde](https://releases.aspose.com/html/net/).
 
 ### 3. Textový editor nebo IDE
 
@@ -64,7 +64,7 @@ var document = new HTMLDocument();
 
 ### Krok 3: Přidání obrázku
 
-Nyní do HTML dokumentu přidáme obrázek. Vytváříme`img` prvek pomocí`CreateElement` metodu, nastavte ji`Src`, `Alt` a`Title` atributy a poté je připojte k dokumentu`Body`.
+Nyní do HTML dokumentu přidáme obrázek. Vytváříme`img` prvek pomocí`CreateElement` metodu, nastavte ji`Src`, `Alt`a`Title` atributy a poté je připojte k dokumentu`Body`.
 
 ```csharp
 if (document.CreateElement("img") is HTMLImageElement img)
@@ -123,7 +123,7 @@ Nakonec HTML dokument uložíme do zadaného výstupního souboru.
 document.Save(outputHtml);
 ```
 
-Gratulujeme! Právě jste vytvořili jednoduchý HTML dokument pomocí Aspose.HTML pro .NET. Toto je jen začátek toho, čeho můžete dosáhnout s touto výkonnou knihovnou.
+Gratuluji! Právě jste vytvořili jednoduchý HTML dokument pomocí Aspose.HTML pro .NET. Toto je jen začátek toho, čeho můžete dosáhnout s touto výkonnou knihovnou.
 
 ## Závěr
 
@@ -139,15 +139,15 @@ Aspose.HTML for .NET je knihovna .NET, která poskytuje komplexní funkce pro pr
 
 ### 2. Kde najdu dokumentaci k Aspose.HTML pro .NET?
 
- Můžete najít dokumentaci pro Aspose.HTML pro .NET[tady](https://reference.aspose.com/html/net/).
+ Můžete najít dokumentaci pro Aspose.HTML pro .NET[zde](https://reference.aspose.com/html/net/).
 
 ### 3. Je k dispozici bezplatná zkušební verze pro Aspose.HTML pro .NET?
 
- Ano, můžete získat bezplatnou zkušební verzi Aspose.HTML pro .NET[tady](https://releases.aspose.com/).
+ Ano, můžete získat bezplatnou zkušební verzi Aspose.HTML pro .NET[zde](https://releases.aspose.com/).
 
 ### 4. Jak mohu získat dočasnou licenci pro Aspose.HTML pro .NET?
 
-Můžete získat dočasnou licenci pro Aspose.HTML pro .NET[tady](https://purchase.aspose.com/temporary-license/).
+ Můžete získat dočasnou licenci pro Aspose.HTML pro .NET[zde](https://purchase.aspose.com/temporary-license/).
 
 ### 5. Kde mohu získat podporu pro Aspose.HTML pro .NET?
 

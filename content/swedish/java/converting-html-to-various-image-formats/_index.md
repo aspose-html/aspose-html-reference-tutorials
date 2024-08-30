@@ -38,7 +38,7 @@ PNG-bilder är kända för sin höga kvalitet och stöd för transparens. Börja
 ### [Konvertera HTML till BMP](./convert-html-to-bmp/)
 Lär dig hur du enkelt konverterar HTML till BMP med Aspose.HTML för Java. En steg-för-steg-guide med förutsättningar och paketimport. Utforska nu!
 ### [Konvertera HTML till GIF](./convert-html-to-gif/)
-Konvertera enkelt HTML till GIF med Aspose.HTML för Java. Skapa fantastiska bilder från HTML-dokument. Börja nu!
+Konvertera enkelt HTML till GIF med Aspose.HTML för Java. Skapa fantastiska bilder från HTML-dokument. Kom igång nu!
 ### [Konvertera HTML till JPG](./convert-html-to-jpg/)
 Lär dig hur du konverterar HTML till JPG med Aspose.HTML för Java. Följ vår steg-för-steg-guide för sömlös HTML till JPG-konvertering.
 ### [Konvertera HTML till PNG](./convert-html-to-png/)

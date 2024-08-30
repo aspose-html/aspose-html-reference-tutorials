@@ -76,7 +76,7 @@ if (document != null) {
 }
 ```
 
-Gratulálunk! Sikeresen konvertálta a HTML-t PNG-re az Aspose.HTML for Java használatával. Mostantól szükség szerint használhatja a generált PNG-képet a projektjeiben.
+Gratulálok! Sikeresen konvertálta a HTML-t PNG-re az Aspose.HTML for Java használatával. Mostantól szükség szerint használhatja a generált PNG-képet a projektjeiben.
 
 ## Következtetés
 

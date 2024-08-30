@@ -94,7 +94,7 @@ try {
 
 本教學為您提供如何使用 JavaScript 和 Aspose.HTML for Java 操作 HTML5 Canvas 的逐步指南。借助這些技能，您可以在 Web 應用程式中建立動態和互動式圖形。嘗試不同的形狀、顏色和動畫，以進一步增強您的 Web 專案。
 
-如果您有任何疑問或遇到任何問題，請隨時訪問[Aspose.HTML 論壇](https://forum.aspose.com/)為了支持。
+如果您有任何疑問或遇到任何問題，請隨時訪問[Aspose.HTML 論壇](https://forum.aspose.com/)尋求支持。
 
 ## 常見問題解答
 

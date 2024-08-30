@@ -8,25 +8,25 @@ weight: 19
 url: /nl/net/html-extensions-and-conversions/convert-html-to-mhtml/
 ---
 
-In de wereld van webontwikkeling is efficiënte documentconversie cruciaal. De Aspose.HTML voor .NET-bibliotheek is een krachtig hulpmiddel dat de conversie van HTML-documenten naar verschillende formaten, waaronder MHTML, vereenvoudigt. MHTML, een afkorting van 'MIME HTML', is een archiefindeling voor webpagina's waarmee u een webpagina en de bijbehorende bronnen in één bestand kunt opslaan. In deze stapsgewijze handleiding leiden we u door het proces van het converteren van een HTML-document naar MHTML met behulp van Aspose.HTML voor .NET.
+In de wereld van webontwikkeling is efficiënte documentconversie cruciaal. De Aspose.HTML voor .NET-bibliotheek is een krachtige tool die de conversie van HTML-documenten naar verschillende formaten, waaronder MHTML, vereenvoudigt. MHTML, de afkorting van "MIME HTML", is een webpagina-archiefformaat waarmee u een webpagina en de bijbehorende bronnen in één bestand kunt opslaan. In deze stapsgewijze handleiding leiden we u door het proces van het converteren van een HTML-document naar MHTML met behulp van Aspose.HTML voor .NET.
 
 ## Vereisten
 
-Voordat we ingaan op het conversieproces, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
+Voordat we met het conversieproces beginnen, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
 
 ### 1. Aspose.HTML voor .NET-bibliotheek
 
- U moet de Aspose.HTML voor .NET-bibliotheek geïnstalleerd hebben. Als u dit nog niet heeft gedaan, kunt u deze downloaden van de website[hier](https://releases.aspose.com/html/net/). Volg de installatie-instructies op de website.
+ U moet de Aspose.HTML voor .NET-bibliotheek geïnstalleerd hebben. Als u dit nog niet gedaan hebt, kunt u het downloaden van de website[hier](https://releases.aspose.com/html/net/)Volg de installatie-instructies op de website.
 
-### 2. Voorbeeld van een HTML-document
+### 2. Voorbeeld HTML-document
 
-Om de conversie uit te voeren, heeft u een HTML-document nodig om mee te werken. Zorg ervoor dat u een voorbeeld-HTML-bestand bij de hand heeft. U kunt uw eigen HTML-document gebruiken of een voorbeeld downloaden van de[Aspose.HTML-documentatie](https://reference.aspose.com/html/net/).
+Om de conversie uit te voeren, hebt u een HTML-document nodig om mee te werken. Zorg ervoor dat u een voorbeeld van een HTML-bestand bij de hand hebt. U kunt uw eigen HTML-document gebruiken of een voorbeeld downloaden van de[Aspose.HTML-documentatie](https://reference.aspose.com/html/net/).
 
-Nu u aan de vereisten voldoet, gaan we verder met de conversie.
+Nu de vereisten zijn vervuld, kunnen we verdergaan met de conversie.
 
 ## Naamruimte importeren
 
-Eerst moet u de benodigde naamruimten in uw C#-code importeren. Dit is essentieel om toegang te krijgen tot de klassen en methoden die door de Aspose.HTML-bibliotheek worden aangeboden.
+Eerst moet u de benodigde namespaces importeren in uw C#-code. Dit is essentieel om toegang te krijgen tot de klassen en methoden die worden geleverd door de Aspose.HTML-bibliotheek.
 
 ### Importeer de vereiste naamruimte
 
@@ -34,14 +34,14 @@ Eerst moet u de benodigde naamruimten in uw C#-code importeren. Dit is essentiee
 using Aspose.Html;
 ```
 
-Nu u de benodigde naamruimte heeft geïmporteerd, kunt u doorgaan met het daadwerkelijke conversieproces.
+Nu u de benodigde naamruimte hebt geïmporteerd, kunt u doorgaan met het daadwerkelijke conversieproces.
 
-Voor de duidelijkheid zullen we de conversie van een HTML-document naar MHTML in verschillende stappen opsplitsen.
+Voor de duidelijkheid splitsen we de conversie van een HTML-document naar MHTML op in verschillende stappen.
 
 ## Laad het HTML-document
 
 ```csharp
-string dataDir = "Your Data Directory"; // Geef uw gegevensmap op
+string dataDir = "Your Data Directory"; // Geef uw gegevensdirectory op
 HTMLDocument htmlDocument = new HTMLDocument(dataDir + "input.html"); // Laad het HTML-document
 ```
 
@@ -53,7 +53,7 @@ In deze stap geeft u het pad naar uw HTML-document op. Aspose.HTML laadt het HTM
 MHTMLSaveOptions options = new MHTMLSaveOptions();
 ```
 
- Hier initialiseert u de`MHTMLSaveOptions` class, die opties biedt voor de MHTML-conversie.
+ Hier initialiseert u de`MHTMLSaveOptions` klasse, die opties biedt voor de MHTML-conversie.
 
 ## Regels voor resourceverwerking instellen
 
@@ -61,15 +61,15 @@ MHTMLSaveOptions options = new MHTMLSaveOptions();
 options.ResourceHandlingOptions.MaxHandlingDepth = 1;
 ```
 
-U kunt regels voor resourceverwerking instellen op basis van uw vereisten. In dit voorbeeld beperken we de maximale verwerkingsdiepte tot 1, wat betekent dat alleen het HTML-hoofddocument en de directe bronnen ervan in het MHTML-bestand worden opgenomen.
+U kunt resource handling-regels instellen op basis van uw vereisten. In dit voorbeeld beperken we de maximale handling-diepte tot 1, wat betekent dat alleen het hoofd-HTML-document en de directe resources in het MHTML-bestand worden opgenomen.
 
 ## Geef het uitvoerpad op
 
 ```csharp
-string outputMHTML = dataDir + "HTMLtoMHTML_Output.mht"; // Geef het pad voor het uitvoerbestand op
+string outputMHTML = dataDir + "HTMLtoMHTML_Output.mht"; // Geef het pad naar het uitvoerbestand op
 ```
 
-In deze stap geeft u het pad op voor het resulterende MHTML-bestand. Dit is waar het geconverteerde MHTML-document wordt opgeslagen.
+In deze stap specificeert u het pad voor het resulterende MHTML-bestand. Dit is waar het geconverteerde MHTML-document wordt opgeslagen.
 
 ## Voer de conversie uit
 
@@ -77,25 +77,25 @@ In deze stap geeft u het pad op voor het resulterende MHTML-bestand. Dit is waar
 Converter.ConvertHTML(htmlDocument, options, outputMHTML);
 ```
 
- Nu is het tijd om het HTML-document naar MHTML te converteren. De`ConvertHTML` method neemt het geladen HTML-document, de opties die u hebt ingesteld en het pad van het uitvoerbestand als parameters.
+ Nu is het tijd om het HTML-document naar MHTML te converteren.`ConvertHTML` Deze methode neemt het geladen HTML-document, de door u ingestelde opties en het pad naar het uitvoerbestand als parameters.
 
-Gefeliciteerd! U hebt met succes een HTML-document naar MHTML geconverteerd met Aspose.HTML voor .NET. U hebt nu toegang tot het MHTML-bestand via het opgegeven uitvoerpad.
+Gefeliciteerd! U hebt met succes een HTML-document geconverteerd naar MHTML met behulp van Aspose.HTML voor .NET. U kunt nu het MHTML-bestand openen via het opgegeven uitvoerpad.
 
 ## Conclusie
 
-Het efficiënt converteren van HTML-documenten naar het MHTML-formaat is een waardevolle vaardigheid voor webontwikkelaars en makers van inhoud. Aspose.HTML voor .NET vereenvoudigt dit proces en maakt het toegankelijk en gebruiksvriendelijk. Door de hierboven beschreven stapsgewijze handleiding te volgen, kunt u moeiteloos MHTML-archieven van uw webinhoud maken.
+Het efficiënt converteren van HTML-documenten naar MHTML-formaat is een waardevolle vaardigheid voor webontwikkelaars en content creators. Aspose.HTML voor .NET vereenvoudigt dit proces, waardoor het toegankelijk en gebruiksvriendelijk wordt. Door de hierboven beschreven stapsgewijze handleiding te volgen, kunt u moeiteloos MHTML-archieven van uw webcontent maken.
 
-Laten we nu enkele veelgestelde vragen (FAQ's) bespreken om meer duidelijkheid over dit onderwerp te verschaffen.
+Laten we nu een aantal veelgestelde vragen (FAQ's) beantwoorden om meer duidelijkheid te verschaffen over dit onderwerp.
 
 ## Veelgestelde vragen
 
 ### Wat is MHTML en waarom wordt het gebruikt?
 
-MHTML, een afkorting van 'MIME HTML', is een archiefindeling voor webpagina's waarmee u een webpagina en de bijbehorende bronnen in één bestand kunt opslaan. Het wordt vaak gebruikt voor het archiveren van webinhoud, het delen van webpagina's als afzonderlijke bestanden en ervoor zorgen dat alle bronnen (afbeeldingen, stylesheets, enz.) worden opgenomen, zelfs als ze op verschillende servers worden gehost.
+MHTML, kort voor "MIME HTML," is een webpagina-archiefformaat waarmee u een webpagina en de bijbehorende bronnen in één bestand kunt opslaan. Het wordt vaak gebruikt voor het archiveren van webinhoud, het delen van webpagina's als afzonderlijke bestanden en het verzekeren dat alle bronnen (afbeeldingen, stylesheets, etc.) zijn opgenomen, zelfs als ze op verschillende servers worden gehost.
 
-### Kan ik de verwerking van bronnen aanpassen bij het converteren naar MHTML?
+### Kan ik de resourceverwerking aanpassen bij het converteren naar MHTML?
 
- Ja, dat kan. Zoals u in het voorbeeld ziet, kunt u regels voor resourceverwerking instellen met behulp van de`ResourceHandlingOptions` van de`MHTMLSaveOptions`klas. U kunt de diepte bepalen waarin bronnen in het MHTML-bestand worden opgenomen.
+ Ja, dat kan. Zoals in het voorbeeld wordt getoond, kunt u resource handling-regels instellen met behulp van de`ResourceHandlingOptions` van de`MHTMLSaveOptions`klasse. U kunt de diepte bepalen waarin resources in het MHTML-bestand worden opgenomen.
 
 ### Waar kan ik meer bronnen en documentatie vinden voor Aspose.HTML voor .NET?
 
@@ -103,9 +103,9 @@ MHTML, een afkorting van 'MIME HTML', is een archiefindeling voor webpagina's wa
 
 ### Is er een gratis proefversie beschikbaar voor Aspose.HTML voor .NET?
 
- Ja, u kunt een gratis proefversie van Aspose.HTML voor .NET krijgen door naar te gaan[deze link](https://releases.aspose.com/). Met de proefversie kunt u de functies van de bibliotheek verkennen voordat u een aankoop doet.
+ Ja, u kunt een gratis proefversie van Aspose.HTML voor .NET krijgen door naar[deze link](https://releases.aspose.com/)Met de proefversie kunt u de functies van de bibliotheek uitproberen voordat u tot aankoop overgaat.
 
 ### Hoe verkrijg ik een tijdelijke licentie voor Aspose.HTML voor .NET?
 
- Als u een tijdelijke licentie nodig heeft, kunt u deze verkrijgen bij de[Aspose.Aankoop website](https://purchase.aspose.com/temporary-license/). Met deze tijdelijke licentie krijgt u voor een beperkte tijd toegang tot de volledige functionaliteit van de bibliotheek.
+ Als u een tijdelijke vergunning nodig hebt, kunt u deze verkrijgen bij de[Aspose.Aankoop website](https://purchase.aspose.com/temporary-license/)Met deze tijdelijke licentie krijgt u gedurende een beperkte tijd toegang tot de volledige functionaliteit van de bibliotheek.
 

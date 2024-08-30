@@ -75,11 +75,11 @@ Converter.convertHTML(htmlDocument, options, outputMHTML);
 
  Nakonec použijte`Converter` třídy pro převod dokumentu HTML na MHTML s využitím vámi nakonfigurovaných možností.
 
-Gratulujeme! Úspěšně jste převedli dokument HTML na MHTML pomocí Aspose.HTML for Java.
+Gratuluji! Úspěšně jste převedli dokument HTML na MHTML pomocí Aspose.HTML for Java.
 
 ## Závěr
 
-V tomto tutoriálu jsme prozkoumali proces převodu HTML na MHTML pomocí Aspose.HTML pro Java. Se správnými předpoklady, importem balíčků a podrobnými pokyny můžete efektivně zpracovávat HTML dokumenty a snadno je převádět do MHTML.
+V tomto tutoriálu jsme prozkoumali proces převodu HTML na MHTML pomocí Aspose.HTML pro Java. Se správnými předpoklady, importem balíčků a podrobnými pokyny můžete efektivně zpracovávat dokumenty HTML a snadno je převádět do MHTML.
 
  Pro další informace a podporu můžete navštívit stránku[Aspose.HTML pro dokumentaci Java](https://reference.aspose.com/html/java/) a vyhledat pomoc u[Aspose komunitní fóra](https://forum.aspose.com/).
 
@@ -91,7 +91,7 @@ Odpověď 1: MHTML (MIME HTML) je formát souboru, který kombinuje HTML a jeho 
 
 ### Q2: Mohu upravit pravidla pro zpracování prostředků v Aspose.HTML pro Java?
 
-Odpověď 2: Ano, Aspose.HTML for Java vám umožňuje přizpůsobit pravidla pro manipulaci se zdroji, což vám dává kontrolu nad tím, jak se zachází se zdroji během převodu.
+Odpověď 2: Ano, Aspose.HTML for Java vám umožňuje přizpůsobit pravidla pro manipulaci se zdroji, což vám dává kontrolu nad tím, jak jsou zdroje zpracovány během převodu.
 
 ### Q3: Je Aspose.HTML for Java vhodný pro dávkové konverze?
 
@@ -103,4 +103,4 @@ A4: Aspose.HTML for Java nabízí pokročilé funkce, zpracování zdrojů a mo�
 
 ### Q5: Jak mohu získat dočasnou licenci pro Aspose.HTML pro Java?
 
-A5: Můžete získat dočasnou licenci pro Aspose.HTML pro Java z[tady](https://purchase.aspose.com/temporary-license/).
+A5: Můžete získat dočasnou licenci pro Aspose.HTML pro Java z[zde](https://purchase.aspose.com/temporary-license/).

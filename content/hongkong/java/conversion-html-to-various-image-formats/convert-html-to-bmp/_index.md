@@ -19,7 +19,7 @@ Aspose.HTML for Java 是一個功能強大的程式庫，使開發人員能夠�
 
 1. Java開發環境
 
-確保您的系統上設定了 Java 開發環境。如果沒有，您可以按照以下文件進行操作[甲骨文網站](https://www.oracle.com/java/technologies/javase-downloads.html)開始。
+確保您的系統上設定了 Java 開發環境。如果沒有，您可以按照以下文件進行操作[甲骨文網站](https://www.oracle.com/java/technologies/javase-downloads.html)開始吧。
 
 2. 用於 Java 的 Aspose.HTML
 

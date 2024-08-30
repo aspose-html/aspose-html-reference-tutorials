@@ -1,6 +1,6 @@
 ---
 title: Render MHTML sebagai XPS di .NET dengan Aspose.HTML
-linktitle: Render MHTML sebagai XPS di .NET
+linktitle: Merender MHTML sebagai XPS di .NET
 second_title: Aspose.HTML .NET API manipulasi HTML
 description: Pelajari cara merender MHTML sebagai XPS di .NET dengan Aspose.HTML. Tingkatkan keterampilan manipulasi HTML Anda dan tingkatkan proyek pengembangan web Anda!
 type: docs
@@ -9,7 +9,7 @@ url: /id/net/rendering-html-documents/render-mhtml-as-xps/
 ---
 ## Perkenalan
 
-Dalam dunia pengembangan web yang dinamis, memiliki alat dan perpustakaan yang tepat dapat membuat perbedaan besar. Jika Anda bekerja dengan manipulasi dan rendering HTML di .NET, Aspose.HTML untuk .NET adalah pustaka canggih yang dapat menyederhanakan tugas dan meningkatkan kemampuan Anda. Dalam tutorial ini, kita akan mendalami Aspose.HTML untuk .NET, memecah contoh menjadi langkah-langkah yang dapat dikelola dan memberikan penjelasan yang jelas untuk masing-masing langkah.
+Dalam dunia pengembangan web yang dinamis, memiliki alat dan pustaka yang tepat dapat membuat perbedaan besar. Jika Anda bekerja dengan manipulasi dan rendering HTML dalam .NET, Aspose.HTML untuk .NET adalah pustaka hebat yang dapat menyederhanakan tugas dan meningkatkan kemampuan Anda. Dalam tutorial ini, kita akan mendalami Aspose.HTML untuk .NET, memecah contoh menjadi langkah-langkah yang mudah dikelola dan memberikan penjelasan yang jelas untuk masing-masing langkah.
 
 ## Prasyarat
 
@@ -17,36 +17,36 @@ Sebelum kita memulai perjalanan ini dengan Aspose.HTML untuk .NET, ada beberapa 
 
 ### 1. Visual Studio Terpasang
 
-Pastikan Anda telah menginstal Visual Studio di sistem Anda. Aspose.HTML untuk .NET bekerja secara lancar dengan Visual Studio, dan menginstalnya akan memfasilitasi proses pengembangan Anda.
+Pastikan Anda telah menginstal Visual Studio di sistem Anda. Aspose.HTML untuk .NET bekerja dengan lancar dengan Visual Studio, dan menginstalnya akan memudahkan proses pengembangan Anda.
 
 ### 2. Aspose.HTML untuk .NET
 
- Anda harus mengunduh dan menginstal Aspose.HTML untuk .NET. Anda bisa mendapatkannya dari tautan unduhan[Di Sini](https://releases.aspose.com/html/net/).
+ Anda perlu mengunduh dan menginstal Aspose.HTML untuk .NET. Anda bisa mendapatkannya dari tautan unduhan[Di Sini](https://releases.aspose.com/html/net/).
 
 ### 3. Pengetahuan Dasar tentang .NET
 
-Pemahaman mendasar tentang kerangka .NET dan bahasa pemrograman C# akan bermanfaat saat kita menjelajahi Aspose.HTML untuk .NET.
+Pemahaman mendasar tentang kerangka kerja .NET dan bahasa pemrograman C# akan bermanfaat saat kita menjelajahi Aspose.HTML untuk .NET.
 
 ### 4. Pengaturan Direktori Data
 
 Buat direktori untuk data Anda. Dalam contoh kami, kami akan menyebutnya sebagai "Direktori Data Anda".
 
-Sekarang kita telah membahas prasyaratnya, mari beralih ke memahami namespace dan menguraikan contoh langkah demi langkah.
+Sekarang setelah kita membahas prasyaratnya, mari beralih ke pemahaman namespace dan menguraikan contoh langkah demi langkah.
 
-## Impor Namespace
+## Mengimpor Ruang Nama
 
-Dalam proyek C# Anda, mulailah dengan mengimpor namespace yang diperlukan. Namespace digunakan untuk mengatur kelas, metode, dan elemen lain dalam kode Anda. Untuk Aspose.HTML untuk .NET, Anda terutama memerlukan namespace berikut:
+Dalam proyek C# Anda, mulailah dengan mengimpor namespace yang diperlukan. Namespace digunakan untuk mengatur kelas, metode, dan elemen lain dalam kode Anda. Untuk Aspose.HTML for .NET, Anda terutama memerlukan namespace berikut:
 
 ```csharp
 using Aspose.Html.Rendering.Xps;
 using Aspose.Html.Rendering.MhtmlRenderer;
 ```
 
-Namespace ini menyediakan kelas penting yang diperlukan untuk merender HTML ke format berbeda.
+Ruang nama ini menyediakan kelas-kelas penting yang dibutuhkan untuk merender HTML ke berbagai format.
 
 ## Contoh: Merender MHTML sebagai XPS di .NET dengan Aspose.HTML
 
-Sekarang, mari kita bagi contoh yang Anda berikan menjadi beberapa langkah dan jelaskan setiap langkah secara menyeluruh:
+Sekarang, mari kita uraikan contoh yang Anda berikan menjadi beberapa langkah dan jelaskan setiap langkah secara menyeluruh:
 
 ```csharp
 string dataDir = "Your Data Directory";
@@ -60,7 +60,7 @@ using (var renderer = new MhtmlRenderer())
 
 ### Langkah 1: Pengaturan Direktori Data
 
- Dalam`dataDir` variabel, ganti`"Your Data Directory"` dengan jalur ke direktori tempat dokumen MHTML Anda berada.
+ Di dalam`dataDir` variabel, ganti`"Your Data Directory"` dengan jalur ke direktori tempat dokumen MHTML Anda berada.
 
 ### Langkah 2: Membuka File MHTML
 
@@ -68,26 +68,26 @@ using (var renderer = new MhtmlRenderer())
 
 ### Langkah 3: Membuat Perangkat Rendering XPS
 
- Kami membuat sebuah instance dari`XpsDevice` kelas, yang mewakili perangkat rendering untuk format XPS (Spesifikasi Kertas XML). Di sinilah file output XPS akan dihasilkan.
+ Kami membuat sebuah contoh dari`XpsDevice` class, yang merupakan perangkat rendering untuk format XPS (XML Paper Specification). Di sinilah file XPS keluaran akan dibuat.
 
 ### Langkah 4: Menginisialisasi Renderer MHTML
 
- Kami membuat sebuah instance dari`MhtmlRenderer` kelas, yang bertanggung jawab untuk merender dokumen MHTML.
+ Kami membuat sebuah contoh dari`MhtmlRenderer` kelas, yang bertanggung jawab untuk merender dokumen MHTML.
 
-### Langkah 5: Merender
+### Langkah 5: Rendering
 
- Akhirnya, kami menggunakan`renderer.Render`metode untuk merender dokumen MHTML (dibuka pada Langkah 2) ke perangkat XPS (dibuat pada Langkah 3). Langkah ini secara efektif mengubah dokumen MHTML ke format XPS.
+ Terakhir, kami menggunakan`renderer.Render`metode untuk merender dokumen MHTML (dibuka pada Langkah 2) ke perangkat XPS (dibuat pada Langkah 3). Langkah ini secara efektif mengonversi dokumen MHTML ke format XPS.
 
-Dengan mengikuti langkah-langkah ini, Anda dapat dengan mudah merender dokumen MHTML sebagai file XPS menggunakan Aspose.HTML untuk .NET.
+Dengan mengikuti langkah-langkah ini, Anda dapat dengan mudah menyajikan dokumen MHTML sebagai file XPS menggunakan Aspose.HTML untuk .NET.
 
 ## Kesimpulan
 
-Aspose.HTML untuk .NET adalah alat berharga bagi pengembang yang mengerjakan manipulasi dan rendering HTML dalam aplikasi .NET. Dalam tutorial ini, kita membahas prasyarat, mengimpor namespace yang diperlukan, dan menguraikan contoh rendering MHTML sebagai XPS menjadi langkah-langkah yang dapat dikelola. Dengan pengetahuan ini, Anda dapat memanfaatkan kekuatan Aspose.HTML untuk .NET untuk meningkatkan proyek pengembangan web Anda.
+Aspose.HTML untuk .NET merupakan alat yang berharga bagi para pengembang yang mengerjakan manipulasi dan rendering HTML dalam aplikasi .NET. Dalam tutorial ini, kami membahas prasyarat, mengimpor namespace yang diperlukan, dan menguraikan contoh rendering MHTML sebagai XPS menjadi langkah-langkah yang dapat dikelola. Dengan pengetahuan ini, Anda dapat memanfaatkan kekuatan Aspose.HTML untuk .NET guna menyempurnakan proyek pengembangan web Anda.
 
-## FAQ
+## Tanya Jawab Umum
 
 ### Apa itu Aspose.HTML untuk .NET?
-Aspose.HTML untuk .NET adalah perpustakaan yang menyediakan kemampuan manipulasi dan rendering HTML untuk pengembang .NET. Ini memungkinkan Anda untuk bekerja dengan dokumen HTML dalam berbagai format.
+Aspose.HTML untuk .NET adalah pustaka yang menyediakan kemampuan manipulasi dan rendering HTML untuk pengembang .NET. Pustaka ini memungkinkan Anda bekerja dengan dokumen HTML dalam berbagai format.
 
 ### Di mana saya dapat mengunduh Aspose.HTML untuk .NET?
  Anda dapat mengunduh Aspose.HTML untuk .NET dari halaman rilis[Di Sini](https://releases.aspose.com/html/net/).
@@ -98,5 +98,5 @@ Aspose.HTML untuk .NET adalah perpustakaan yang menyediakan kemampuan manipulasi
 ### Bagaimana saya bisa mendapatkan dukungan untuk Aspose.HTML untuk .NET?
 Anda dapat mencari dukungan dan bantuan dari komunitas Aspose.HTML di[forum](https://forum.aspose.com/).
 
-### Bisakah saya membeli lisensi sementara Aspose.HTML untuk .NET?
+### Bisakah saya membeli lisensi sementara untuk Aspose.HTML untuk .NET?
  Ya, Anda bisa mendapatkan lisensi sementara dari halaman pembelian[Di Sini](https://purchase.aspose.com/temporary-license/).

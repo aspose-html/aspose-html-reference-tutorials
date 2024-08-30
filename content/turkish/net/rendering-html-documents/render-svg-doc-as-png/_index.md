@@ -1,34 +1,34 @@
 ---
-title: Aspose.HTML ile SVG Dokümanını .NET'te PNG olarak işleyin
-linktitle: .NET'te SVG Dokümanını PNG olarak işleme
+title: Aspose.HTML ile .NET'te SVG Belgesini PNG Olarak Oluşturun
+linktitle: SVG Belgesini .NET'te PNG Olarak Oluşturun
 second_title: Aspose.HTML .NET HTML işleme API'si
-description: Aspose.HTML for .NET'in gücünün kilidini açın! SVG Belgesini zahmetsizce PNG olarak nasıl oluşturacağınızı öğrenin. Adım adım örneklere ve SSS'lere göz atın. Şimdi başla!
+description: .NET için Aspose.HTML'nin gücünü açığa çıkarın! SVG Doc'u zahmetsizce PNG olarak nasıl işleyeceğiniz öğrenin. Adım adım örneklere ve SSS'lere dalın. Hemen başlayın!
 type: docs
 weight: 15
 url: /tr/net/rendering-html-documents/render-svg-doc-as-png/
 ---
 
-Web geliştirmenin sürekli gelişen ortamında, doğru araçların elinizin altında olması, projelerinizin başarısını garantilemek için çok önemlidir. Aspose.HTML for .NET, HTML işleme ve işleme görevlerinizi büyük ölçüde basitleştirebilecek araçlardan biridir. Bu eğitimde Aspose.HTML for .NET dünyasını derinlemesine inceleyeceğiz, temel özelliklerini ayrıntılı olarak inceleyeceğiz ve başlamanıza yardımcı olacak adım adım örnekler sunacağız.
+Sürekli gelişen web geliştirme ortamında, projelerinizin başarısını garantilemek için doğru araçlara sahip olmak elinizin altında olması çok önemlidir. Aspose.HTML for .NET, HTML düzenleme ve işleme görevlerinizi büyük ölçüde basitleştirebilen bu araçlardan biridir. Bu eğitimde, Aspose.HTML for .NET dünyasına dalacağız, temel özelliklerini açıklayacağız ve başlamanıza yardımcı olmak için adım adım örnekler sunacağız.
 
 ## giriiş
 
-Aspose.HTML for .NET, geliştiricilerin .NET uygulamalarındaki HTML belgeleriyle zahmetsizce çalışmasını sağlayan güçlü bir kütüphanedir. HTML içeriğini ayrıştırmak, değiştirmek veya işlemek istiyorsanız Aspose.HTML yanınızda olacaktır. Bu eğitim, Aspose.HTML for .NET'i etkili bir şekilde anlamak ve kullanmak için başvurulacak kaynağınız olmayı amaçlamaktadır.
+Aspose.HTML for .NET, geliştiricilerin .NET uygulamalarında HTML belgeleriyle zahmetsizce çalışmasını sağlayan güçlü bir kütüphanedir. HTML içeriğini ayrıştırmanız, düzenlemeniz veya işlemeniz gerekip gerekmediğine bakılmaksızın, Aspose.HTML sizin için her şeyi yapar. Bu eğitim, Aspose.HTML for .NET'i etkili bir şekilde anlamanız ve kullanmanız için başvuracağınız kaynak olmayı hedefler.
 
-## Önkoşullar
+## Ön koşullar
 
-Aspose.HTML for .NET'in ayrıntılarına dalmadan önce, yerine getirmeniz gereken birkaç önkoşul var:
+.NET için Aspose.HTML'in ayrıntılarına dalmadan önce, yerine getirmeniz gereken birkaç ön koşul vardır:
 
-1. Geliştirme Ortamı: .NET için çalışan bir geliştirme ortamına sahip olduğunuzdan emin olun. Sisteminizde Visual Studio veya başka bir .NET IDE'nin kurulu olması gerekir.
+1. Geliştirme Ortamı: .NET için çalışan bir geliştirme ortamınız olduğundan emin olun. Sisteminizde Visual Studio veya başka bir .NET IDE yüklü olmalıdır.
 
-2.  Aspose.HTML Kütüphanesi: Aspose.HTML for .NET kütüphanesini şu adresten indirin:[İndirme: {link](https://releases.aspose.com/html/net/). Projenize yükleyin.
+2.  Aspose.HTML Kütüphanesi: .NET için Aspose.HTML kütüphanesini şu adresten indirin:[indirme bağlantısı](https://releases.aspose.com/html/net/). Bunu projenize kurun.
 
-3.  Lisans: Aspose.HTML for .NET'i uygulamalarınızda kullanmak için bir lisansa ihtiyacınız olacak. Geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/) veya tam lisans satın alın[Burada](https://purchase.aspose.com/buy).
+3.  Lisans: Uygulamalarınızda Aspose.HTML for .NET kullanmak için bir lisansa ihtiyacınız olacak. Geçici bir lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/) veya tam lisans satın alın[Burada](https://purchase.aspose.com/buy).
 
-Artık önkoşulları yerine getirdiğinize göre, bazı temel ad alanlarını inceleyelim ve uygulamalı örneklere dalalım.
+Artık ön koşullara sahip olduğunuza göre, bazı temel ad alanlarını inceleyelim ve uygulamalı örneklere geçelim.
 
 ## Ad Alanlarını İçe Aktar
 
-Herhangi bir .NET projesinde Aspose.HTML tarafından sağlanan işlevselliğe erişmek için gerekli ad alanlarını içe aktararak işe başlarsınız. Sıklıkla kullanacağınız bazı önemli ad alanları şunlardır:
+Herhangi bir .NET projesinde, Aspose.HTML tarafından sağlanan işlevselliğe erişmek için gerekli ad alanlarını içe aktararak başlarsınız. Sıklıkla kullanacağınız bazı temel ad alanları şunlardır:
 
 ```csharp
 using Aspose.Html;
@@ -37,15 +37,15 @@ using Aspose.Html.Dom;
 using Aspose.Html.Rendering.Image;
 ```
 
-Bu ad alanları, belge işleme, oluşturma ve dönüştürme de dahil olmak üzere HTML ile ilgili çok çeşitli görevleri kapsar.
+Bu ad alanları, belge düzenleme, oluşturma ve dönüştürme dahil olmak üzere HTML ile ilgili görevlerin geniş bir yelpazesini kapsar.
 
 ## SVG'yi PNG olarak işleme
 
-Bir SVG belgesini PNG görüntüsü olarak oluşturmaya yönelik pratik bir örnekle başlayalım.
+Bir SVG belgesini PNG resmi olarak işlemenin pratik bir örneğiyle başlayalım.
 
 ```csharp
 string dataDir = "Your Data Directory";
-using (var document = new Aspose.Html.Dom.Svg.SVGDocument("<svg xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='40'/></svg>", @"c:\work\"))
+using (var document = new Aspose.Html.Dom.Svg.SVGDocument("<svg xmlns='http://www.w3.org/2000/svg'><daire cx='50' cy='50' r='40'/></svg>", @"c:\work\"))
 {
     using (SvgRenderer renderer = new SvgRenderer())
     using (ImageDevice device = new ImageDevice(dataDir + @"document_out.png"))
@@ -59,33 +59,33 @@ Açıklama:
 
 1. Çıktı görüntüsünün kaydedileceği veri dizinini belirtiyoruz.
 
-2.  Bir örneğini oluşturuyoruz`SVGDocument` SVG içeriğini ve temel URI'yi sağlayarak.
+2.  Bir örnek oluşturuyoruz`SVGDocument` SVG içeriğini ve temel URI'yi sağlayarak.
 
-3.  Daha sonra kullanıyoruz`SvgRenderer` Ve`ImageDevice` SVG belgesini PNG görüntüsü olarak oluşturmak için.
+3.  Daha sonra şunu kullanırız:`SvgRenderer` Ve`ImageDevice` SVG belgesini PNG resmi olarak işlemek için.
 
-4. Ortaya çıkan PNG görüntüsü belirtilen veri dizinine kaydedilir.
+4. Elde edilen PNG görüntüsü belirtilen veri dizinine kaydedilir.
 
-Bu örnek, Aspose.HTML for .NET'in SVG'den PNG'ye dönüştürme gibi karmaşık görevleri nasıl basitleştirdiğini gösteriyor. Benzer ilkeleri HTML ile ilgili çeşitli işlemlere uygulayabilirsiniz.
+Bu örnek, Aspose.HTML for .NET'in SVG'den PNG'ye dönüştürme gibi karmaşık görevleri nasıl basitleştirebileceğini göstermektedir. Benzer prensipleri çeşitli HTML ile ilgili işlemlere uygulayabilirsiniz.
 
 ## Çözüm
 
-Aspose.HTML for .NET, .NET geliştiricilerinin HTML belgeleriyle sorunsuz bir şekilde çalışmasını sağlayan çok yönlü bir kitaplıktır. Doğru önkoşulların yerine getirilmesi ve sağlanan ad alanlarının ve örneklerin sağlam bir şekilde anlaşılmasıyla, projeleriniz için bu kitaplığın tüm potansiyelini ortaya çıkarabilirsiniz.
+Aspose.HTML for .NET, .NET geliştiricilerinin HTML belgeleriyle sorunsuz bir şekilde çalışmasını sağlayan çok yönlü bir kütüphanedir. Doğru ön koşullar ve sağlanan ad alanları ve örnekler hakkında sağlam bir anlayışla, projeleriniz için bu kütüphanenin tüm potansiyelini ortaya çıkarabilirsiniz.
 
-Bu eğitimin bilgilendirici olduğunu ve artık web geliştirme yolculuğunuzda Aspose.HTML for .NET'i daha fazla keşfedebilecek donanıma sahip olduğunuzu umuyoruz.
+Bu eğitimin bilgilendirici olduğunu ve artık web geliştirme yolculuğunuzda Aspose.HTML for .NET'i daha fazla keşfetmeye hazır olduğunuzu umuyoruz.
 
-## SSS (Sık Sorulan Sorular)
+## SSS (Sıkça Sorulan Sorular)
 
 1. ### .NET için Aspose.HTML nedir?
-   Aspose.HTML for .NET, .NET geliştiricilerinin uygulamalarında HTML içeriğini işlemesine, ayrıştırmasına ve işlemesine olanak tanıyan bir kitaplıktır.
+   Aspose.HTML for .NET, .NET geliştiricilerinin uygulamalarında HTML içeriğini düzenlemelerine, ayrıştırmalarına ve işlemelerine olanak tanıyan bir kütüphanedir.
 
-2. ### Aspose.HTML for .NET lisansını nasıl edinebilirim?
-    Geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/) veya tam lisans satın alın[Burada](https://purchase.aspose.com/buy).
+2. ### Aspose.HTML for .NET için lisansı nasıl alabilirim?
+    Geçici bir lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/) veya tam lisans satın alın[Burada](https://purchase.aspose.com/buy).
 
-3. ### Aspose.HTML for .NET belgelerini nerede bulabilirim?
+3. ### Aspose.HTML for .NET için dokümanları nerede bulabilirim?
     Belgelere başvurabilirsiniz[Burada](https://reference.aspose.com/html/net/).
 
-4. ### Aspose.HTML for .NET hem masaüstü hem de web uygulamaları için uygun mu?
-   Evet, Aspose.HTML for .NET hem masaüstü hem de web uygulamalarında kullanılabilir, bu da onu çeşitli projeler için çok yönlü bir seçim haline getirir.
+4. ### Aspose.HTML for .NET hem masaüstü hem de web uygulamaları için uygun mudur?
+   Evet, Aspose.HTML for .NET hem masaüstü hem de web uygulamalarında kullanılabilir ve bu da onu çeşitli projeler için çok yönlü bir seçim haline getirir.
 
 5. ### Aspose.HTML for .NET kullanarak HTML belgelerini diğer formatlara dönüştürebilir miyim?
-   Evet, Aspose.HTML for .NET'i kullanarak HTML belgelerini resimler, PDF'ler ve daha fazlası dahil olmak üzere çeşitli formatlara dönüştürebilirsiniz.
+   Evet, Aspose.HTML for .NET'i kullanarak HTML belgelerini resim, PDF ve daha fazlası dahil olmak üzere çeşitli biçimlere dönüştürebilirsiniz.

@@ -130,7 +130,7 @@ A webhelyeken található HTML-űrlapok kitöltésének és elküldésének auto
 
 ### 3. kérdés: Kipróbálhatom az Aspose.HTML for Java fájlt a licenc megvásárlása előtt?
 
- 3. válasz: Igen, felfedezheti az Aspose.HTML Javahoz készült ingyenes próbaverzióját. A próbaverziót innen töltheti le[ez a link](https://releases.aspose.com/).
+ 3. válasz: Igen, felfedezheti az Aspose.HTML Javahoz készült ingyenes próbaverzióját. A próbaverziót innen töltheti le[ezt a linket](https://releases.aspose.com/).
 
 ### 4. kérdés: Hol találok további támogatást és segítséget az Aspose.HTML for Java számára?
 

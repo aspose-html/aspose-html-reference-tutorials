@@ -8,11 +8,11 @@ weight: 16
 url: /cs/net/advanced-features/fine-tuning-converters/
 ---
 
-## Úvod
+## Zavedení
 
 Aspose.HTML for .NET je výkonná knihovna, která umožňuje vývojářům manipulovat a převádět HTML dokumenty v různých formátech. Ať už potřebujete převést HTML na PDF, XPS nebo obrázky nebo provádět jiné úkoly související s HTML, Aspose.HTML poskytuje robustní sadu nástrojů, které vám pomohou dokončit práci.
 
-V tomto tutoriálu prozkoumáme některé základní funkce Aspose.HTML pro .NET a poskytneme vysvětlení krok za krokem pro každý příklad. Na konci tohoto tutoriálu budete dobře rozumět tomu, jak používat Aspose.HTML pro .NET ve vašich aplikacích .NET.
+tomto tutoriálu prozkoumáme některé základní funkce Aspose.HTML pro .NET a poskytneme vysvětlení krok za krokem pro každý příklad. Na konci tohoto tutoriálu budete dobře rozumět tomu, jak používat Aspose.HTML pro .NET ve vašich aplikacích .NET.
 
 ## Předpoklady
 
@@ -20,7 +20,7 @@ Než se vrhneme na příklady, ujistěte se, že máte splněny následující p
 
 -  Aspose.HTML for .NET: Měli byste mít nainstalovanou knihovnu Aspose.HTML for .NET. Můžete si jej stáhnout z[odkaz ke stažení](https://releases.aspose.com/html/net/).
 
-- Dočasná licence (volitelné): Pokud nemáte platnou licenci, můžete získat dočasnou licenci od[tady](https://purchase.aspose.com/temporary-license/).
+-  Dočasná licence (volitelné): Pokud nemáte platnou licenci, můžete získat dočasnou licenci od[zde](https://purchase.aspose.com/temporary-license/).
 
 Nyní se podívejme na některé běžné případy použití s Aspose.HTML pro .NET.
 

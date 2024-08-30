@@ -93,7 +93,7 @@ Glöm inte att släppa resurser när du är klar med dokumentet:
 document.Dispose();
 ```
 
-Och det är allt! Du har framgångsrikt skapat ett HTML-dokument med Aspose.HTML för .NET och till och med renderat det till ett annat format.
+Och det är det! Du har framgångsrikt skapat ett HTML-dokument med Aspose.HTML för .NET och till och med renderat det till ett annat format.
 
 ## Slutsats
 

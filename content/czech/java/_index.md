@@ -16,7 +16,7 @@ Jedním ze základních aspektů zpracování HTML dokumentu je kontrola rozvrž
 Pochopení změn v objektovém modelu dokumentu (DOM) je pro mnoho webových aplikací zásadní. S Aspose.HTML for Java můžete implementovat DOM Mutation Observer, který vám umožní detekovat a reagovat na změny ve struktuře HTML. Tato funkce je užitečná zejména pro dynamický webový obsah a interaktivní aplikace.
 
 ## Manipulace s HTML5 Canvasem
-HTML5 Canvas je výkonný nástroj pro tvorbu grafiky a animací. S Aspose.HTML for Java můžete manipulovat s HTML5 Canvasem a vytvářet vizuálně přitažlivý webový obsah. Tento tutoriál vás provede kroky k využití plného potenciálu prvku Canvas.
+HTML5 Canvas je výkonný nástroj pro tvorbu grafiky a animací. S Aspose.HTML for Java můžete manipulovat s HTML5 Canvas a vytvářet vizuálně přitažlivý webový obsah. Tento tutoriál vás provede kroky k využití plného potenciálu prvku Canvas.
 
 ## Automatizace vyplňování HTML formulářů
 Vyplňování formulářů HTML může být zdlouhavý úkol, zejména při práci s velkým množstvím dokumentů. Aspose.HTML for Java zjednodušuje tento proces tím, že nabízí automatizační nástroje pro rychlé a efektivní vyplnění formulářů HTML. Rozlučte se s ručním zadáváním dat s tímto návodem.
@@ -46,7 +46,7 @@ Prozkoumejte tyto výukové programy a odemkněte plný potenciál Aspose.HTML p
 
 ## Aspose.HTML pro výukové programy Java
 ### [Pokročilé použití Aspose.HTML Java](./advanced-usage/)
-Naučte se, jak upravit okraje HTML stránky, implementovat DOM Mutation Observer, manipulovat s HTML5 Canvas, automatizovat vyplňování HTML formulářů a další pomocí Aspose.HTML Java.
+Naučte se, jak přizpůsobit okraje HTML stránek, implementovat DOM Mutation Observer, manipulovat s HTML5 Canvas, automatizovat vyplňování HTML formulářů a další pomocí Aspose.HTML Java.
 ### [Konverze – plátno do PDF](./conversion-canvas-to-pdf/)
 této komplexní příručce se dozvíte, jak převést HTML Canvas do PDF pomocí Aspose.HTML for Java. Ovládněte umění digitální transformace!
 ### [Konverze - EPUB na obrázek a PDF](./conversion-epub-to-image-and-pdf/)
@@ -65,3 +65,25 @@ Odemkněte převod EPUB na PDF pomocí Aspose.HTML for Java, výkonné Java knih
 Objevte krok za krokem proces převodu EPUB na XPS pomocí Aspose.HTML Java. Naučte se určit vlastní poskytovatele streamu a možnosti uložení XPS pro konverze.
 ### [Převod HTML do různých formátů obrázků](./converting-html-to-various-image-formats/)
 Prozkoumejte výukové programy o převodu HTML na BMP, GIF, JPG a PNG bez námahy s Aspose.HTML pro Java. Vytvářejte úžasné obrázky z dokumentů HTML.
+### [HTML5 a Canvas Rendering s Aspose.HTML pro Javu](./html5-canvas-rendering/)
+Objevte komplexní výukové programy na Aspose.HTML pro Java, které pokrývají HTML5 a vykreslování plátna, abyste obohatili své dovednosti v oblasti vývoje webu.
+### [CSS a HTML úpravy formulářů s Aspose.HTML pro Javu](./css-html-form-editing/)
+Rychle se naučte upravovat formuláře CSS a HTML pomocí Aspose.HTML for Java v těchto bystrých výukových programech, které dávají vývojářům pokročilé dovednosti.
+### [Manipulace s daty a správa streamů v Aspose.HTML pro Javu](./data-handling-stream-management/)
+Prozkoumejte naše výukové programy Aspose.HTML for Java, které popisují, jak bez námahy převést paměťové proudy na soubory a obrázky HTML na obrázky JPEG.
+### [Mutace pozorovatelé a manipulátoři v Aspose.HTML pro Javu](./mutation-observers-handlers/)
+Prozkoumejte výukové programy Aspose.HTML for Java pokrývající pokročilé pozorovatele mutací a bezpečné obslužné rutiny pověření pro vylepšení vašich webových aplikací.
+### [Vlastní schéma a zpracování zpráv v Aspose.HTML pro Javu](./custom-schema-message-handling/)
+Zjistěte, jak zvládnout Aspose.HTML pro Java pomocí výukových programů pro filtrování a zpracování zpráv vlastního schématu. Začněte vytvářet aplikace na míru.
+### [Zpracování zpráv a vytváření sítí v Aspose.HTML pro Javu](./message-handling-networking/)
+Zvládněte Aspose.HTML pro Javu s výukovými programy pro práci se zprávami, vytváření sítí a další. Vylepšete své dovednosti ve zpracování dokumentů.
+### [Vytváření a správa HTML dokumentů v Aspose.HTML pro Java](./creating-managing-html-documents/)
+Prozkoumejte nejlepší výukové programy pro vytváření a správu HTML dokumentů pomocí Aspose.HTML pro Java. Ideální pro vývojáře Java, kteří hledají podrobné průvodce krok za krokem.
+### [Editace HTML dokumentů v Aspose.HTML pro Javu](./editing-html-documents/)
+Prozkoumejte komplexní výukové programy Aspose.HTML pro Java. Naučte se úpravy dokumentů HTML, implementaci CSS a správu obsahu pomocí podrobných průvodců.
+### [Konfigurace prostředí v Aspose.HTML pro Javu](./configuring-environment/)
+Prozkoumejte, jak nakonfigurovat prostředí v Aspose.HTML pro Java. Naučte se nastavovat znakové sady, konfigurovat písma a efektivně používat obslužné programy zpráv.
+### [Ukládání HTML dokumentů v Aspose.HTML pro Java](./saving-html-documents/)
+Objevte komplexní výukové programy Aspose.HTML for Java, které vás provedou ukládáním dokumentů HTML, převodem na Markdown a dalšími.
+### [Manipulace se soubory ZIP v Aspose.HTML pro Java](./handling-zip-files/)
+Odemkněte sílu Aspose.HTML pro Java. Prozkoumejte výukové programy pro manipulaci se soubory ZIP a naučte se základní techniky pro efektivní správu archivů ZIP.

@@ -1,44 +1,44 @@
 ---
-title: Aspose.HTML ile .NET'te Genişletilmiş İçerik Özelliğini kullanın
-linktitle: .NET'te Genişletilmiş İçerik Özelliğini Kullanma
+title: .NET'te Aspose.HTML ile Genişletilmiş İçerik Özelliğini Kullanma
+linktitle: .NET'te Genişletilmiş İçerik Özelliğini Kullanın
 second_title: Aspose.HTML .NET HTML işleme API'si
-description: Bu adım adım kılavuzla Aspose.HTML for .NET'in nasıl kullanılacağını öğrenin. HTML becerilerinizi geliştirin ve web geliştirme projelerinizi kolaylaştırın.
+description: Bu adım adım kılavuzla Aspose.HTML for .NET'i nasıl kullanacağınızı öğrenin. HTML becerilerinizi geliştirin ve web geliştirme projelerinizi kolaylaştırın.
 type: docs
 weight: 14
 url: /tr/net/advanced-features/use-extended-content-property/
 ---
 
-Web geliştirme dünyasında HTML ile çalışmak temel bir beceridir. Aspose.HTML for .NET, HTML ile ilgili görevlerinizi daha kolay ve verimli hale getirebilecek güçlü bir araçtır. Bu eğitim size Aspose.HTML for .NET'i kullanmaya başlamanız için gereken adımları gösterecek; önkoşullar, ad alanlarının içe aktarılması ve her örneğin takip edilmesi kolay adımlara bölünmesi dahil.
+Web geliştirme dünyasında HTML ile çalışmak temel bir beceridir. Aspose.HTML for .NET, HTML ile ilgili görevlerinizi daha kolay ve daha verimli hale getirebilecek güçlü bir araçtır. Bu eğitim, ön koşullar, ad alanlarını içe aktarma ve her örneği takip etmesi kolay adımlara ayırma dahil olmak üzere Aspose.HTML for .NET ile başlama adımlarında size yol gösterecektir.
 
-## Önkoşullar
+## Ön koşullar
 
-Aspose.HTML for .NET'e dalmadan önce yerine getirmeniz gereken birkaç önkoşul vardır:
+.NET için Aspose.HTML'e dalmadan önce, yerine getirmeniz gereken birkaç ön koşul vardır:
 
 ### 1. .NET Ortamı
 
- Sisteminizde .NET ortamının kurulu olduğundan emin olun. Henüz yapmadıysanız, .NET SDK'yı şu adresten indirip yükleyebilirsiniz:[Burada](https://releases.aspose.com/html/net/).
+ Sisteminizde bir .NET ortamının kurulu olduğundan emin olun. Henüz kurmadıysanız, .NET SDK'yı şu adresten indirip kurabilirsiniz:[Burada](https://releases.aspose.com/html/net/).
 
 ### 2. .NET için Aspose.HTML
 
- Aspose.HTML for .NET'i indirip yüklemeniz gerekecek. İndirme linkini bulabilirsiniz[Burada](https://releases.aspose.com/html/net/).
+ .NET için Aspose.HTML'i indirip yüklemeniz gerekecektir. İndirme bağlantısını bulabilirsiniz[Burada](https://releases.aspose.com/html/net/).
 
 ### 3. Metin Düzenleyici veya IDE
 
-.NET kodunuzu yazmak ve çalıştırmak için tercih ettiğiniz metin düzenleyiciyi veya entegre geliştirme ortamını (IDE) kullanın. Visual Studio mükemmel bir seçimdir ancak başka herhangi bir düzenleyiciyi de kullanabilirsiniz.
+.NET kodunuzu yazmak ve çalıştırmak için tercih ettiğiniz metin düzenleyicisini veya entegre geliştirme ortamını (IDE) kullanın. Visual Studio mükemmel bir seçimdir, ancak başka herhangi bir düzenleyiciyi de kullanabilirsiniz.
 
-### 4. Temel HTML Bilgisi
+### 4. HTML'nin Temel Bilgileri
 
-Aspose.HTML for .NET çeşitli görevler için kullanılabilse de, temel HTML bilgisine sahip olmak faydalı olacaktır.
+Aspose.HTML for .NET çeşitli görevler için kullanılabilir ancak temel HTML bilgisine sahip olmak faydalı olacaktır.
 
 ## Ad Alanlarını İçe Aktarma
 
-Artık önkoşulları yerine getirdiğinize göre Aspose.HTML for .NET ile çalışmaya başlayabilirsiniz. Başlamak için gerekli ad alanlarını içe aktaralım.
+Artık ön koşullara sahip olduğunuza göre, .NET için Aspose.HTML ile çalışmaya başlayabilirsiniz. Başlamanız için gerekli ad alanlarını içe aktaralım.
 
-## Adım 1: Yeni Bir .NET Projesi Oluşturun
+## Adım 1: Yeni bir .NET Projesi Oluşturun
 
-Henüz yapmadıysanız tercih ettiğiniz geliştirme ortamında yeni bir .NET projesi oluşturun.
+Eğer henüz yapmadıysanız, tercih ettiğiniz geliştirme ortamında yeni bir .NET projesi oluşturun.
 
-## Adım 2: Aspose.HTML Ad Alanını İçe Aktarın
+## Adım 2: Aspose.HTML Ad Alanını İçe Aktar
 
 .NET projenizde Aspose.HTML ad alanını içe aktarmanız gerekir. Bu, Aspose.HTML tarafından sağlanan sınıflara ve yöntemlere erişmenizi sağlar.
 
@@ -46,9 +46,9 @@ Henüz yapmadıysanız tercih ettiğiniz geliştirme ortamında yeni bir .NET pr
 using Aspose.Html;
 ```
 
-## 3. Adım: Yapılandırmayı Başlatın
+## Adım 3: Yapılandırmayı Başlatın
 
-Aspose.HTML belgenizi yapılandırmak için bazı parametreleri ayarlamanız gerekir. Bunu nasıl yapabileceğiniz aşağıda açıklanmıştır:
+Aspose.HTML belgenizi yapılandırmak için bazı parametreleri ayarlamanız gerekir. Bunu şu şekilde yapabilirsiniz:
 
 ```csharp
 string dataDir = "Your Data Directory";
@@ -76,50 +76,50 @@ configuration.GetService<IUserAgentService>().UserStyleSheet = @"
     }";
 ```
 
-## 4. Adım: Boş Bir Belgeyi Başlatın
+## Adım 4: Boş Bir Belge Başlatın
 
-Verilen konfigürasyonla yeni bir HTML belgesi oluşturun.
+Verilen yapılandırmayla yeni bir HTML belgesi oluşturun.
 
 ```csharp
 using (HTMLDocument document = new HTMLDocument(configuration))
 {
-    // HTML belgesiyle çalışma kodunuz buraya gelecek
+    // HTML belgesiyle çalışmak için kodunuz buraya gelir
 }
 ```
 
-## Adım 5: Çıkış Cihazını Başlatın
+## Adım 5: Bir Çıkış Aygıtını Başlatın
 
-HTML içeriğinizi oluşturmak için bir çıktı cihazını başlatmanız gerekir. Bu örnekte bir XPS cihazı kullanacağız.
+HTML içeriğinizi işlemek için bir çıktı aygıtı başlatmanız gerekir. Bu örnekte bir XPS aygıtı kullanacağız.
 
 ```csharp
 using (XpsDevice device = new XpsDevice(dataDir + "output_out.xps"))
 {
-    // Belgeyi oluşturmaya yönelik kodunuz buraya gelecek
+    // Belgeyi oluşturma kodunuz buraya gelir
 }
 ```
 
 ## Çözüm
 
-Tebrikler! Aspose.HTML for .NET dünyasına ilk adımlarınızı attınız. Doğru önkoşulların mevcut olması ve ad alanlarının içe aktarılmasıyla, HTML belgeleriyle daha verimli ve güçlü bir şekilde çalışma yolunda ilerliyorsunuz.
+Tebrikler! .NET için Aspose.HTML dünyasına ilk adımlarınızı attınız. Doğru ön koşullar sağlandığında ve ad alanları içe aktarıldığında, HTML belgeleriyle daha verimli ve güçlü bir şekilde çalışmaya doğru yoldasınız.
 
- Herhangi bir sorunuz varsa veya daha fazla yardıma ihtiyacınız varsa, şu adresi ziyaret etmekten çekinmeyin:[Aspose.HTML belgeleri](https://reference.aspose.com/html/net/) veya iletişime geçin[Aspose.HTML destek forumu](https://forum.aspose.com/).
+ Herhangi bir sorunuz varsa veya daha fazla yardıma ihtiyacınız varsa, lütfen şu adresi ziyaret edin:[Aspose.HTML belgeleri](https://reference.aspose.com/html/net/) veya ulaşın[Aspose.HTML destek forumu](https://forum.aspose.com/).
 
 ---
 
 ## Sıkça Sorulan Sorular
 
 ### .NET için Aspose.HTML nedir?
-   Aspose.HTML for .NET, geliştiricilerin HTML belgeleriyle çalışmasına ve bunlar üzerinde çeşitli işlemler gerçekleştirmesine olanak tanıyan bir .NET kitaplığıdır.
+   Aspose.HTML for .NET, geliştiricilerin HTML belgeleriyle çalışmasına ve bunlar üzerinde çeşitli işlemler yapmasına olanak tanıyan bir .NET kütüphanesidir.
 
-### Aspose.HTML for .NET'in kullanımı ücretsiz mi?
-   Aspose.HTML for .NET hem ücretsiz deneme hem de ücretli sürüm sunuyor. Deneme sürümüyle özelliklerini keşfedebilirsiniz ancak tam işlevsellik için lisans satın almanız gerekebilir.
+### Aspose.HTML for .NET'i kullanmak ücretsiz mi?
+   Aspose.HTML for .NET hem ücretsiz deneme hem de ücretli sürüm sunar. Deneme sürümüyle özelliklerini keşfedebilirsiniz, ancak tam işlevsellik için bir lisans satın almanız gerekebilir.
 
 ### Aspose.HTML for .NET'i diğer .NET kütüphaneleri ve çerçeveleriyle birlikte kullanabilir miyim?
-   Evet, Aspose.HTML for .NET'i diğer .NET kütüphaneleri ve çerçeveleriyle entegre ederek web geliştirme yeteneklerinizi geliştirebilirsiniz.
+   Evet, web geliştirme yeteneklerinizi geliştirmek için Aspose.HTML for .NET'i diğer .NET kütüphaneleri ve çerçeveleriyle entegre edebilirsiniz.
 
-### Aspose.HTML for .NET ile ne tür görevleri gerçekleştirebilirim?
-   Aspose.HTML for .NET, HTML belgelerini ayrıştırmanıza, dönüştürmenize ve değiştirmenize olanak tanır, bu da onu web geliştiricileri ve içerik yaratıcıları için değerli bir araç haline getirir.
+### Aspose.HTML for .NET ile hangi tür görevleri gerçekleştirebilirim?
+   Aspose.HTML for .NET, HTML belgelerini ayrıştırmanıza, dönüştürmenize ve düzenlemenize olanak tanır; bu da onu web geliştiricileri ve içerik oluşturucuları için değerli bir araç haline getirir.
 
-### Aspose.HTML for .NET için ek kaynaklar veya eğitimler mevcut mu?
-    Evet, bu konuda daha fazla eğitim ve belge bulabilirsiniz.[Aspose.HTML web sitesi](https://reference.aspose.com/html/net/).
+### Aspose.HTML for .NET için ek kaynaklar veya öğreticiler var mı?
+    Evet, daha fazla öğretici ve belgeyi şu adreste bulabilirsiniz:[Aspose.HTML web sitesi](https://reference.aspose.com/html/net/).
 

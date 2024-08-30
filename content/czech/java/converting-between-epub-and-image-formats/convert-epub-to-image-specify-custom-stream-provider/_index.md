@@ -13,9 +13,9 @@ Pokud chcete převést soubory EPUB na obrázky v Javě, Aspose.HTML for Java je
 
 Než začnete s převodem, ujistěte se, že máte splněny následující předpoklady:
 
-- Java Development Kit (JDK): V systému byste měli mít nainstalovanou sadu Java SE Development Kit (JDK). Můžete si jej stáhnout z[tady](https://www.oracle.com/java/technologies/javase-downloads.html).
+- Java Development Kit (JDK): V systému byste měli mít nainstalovanou sadu Java SE Development Kit (JDK). Můžete si jej stáhnout z[zde](https://www.oracle.com/java/technologies/javase-downloads.html).
 
--  Aspose.HTML for Java: Musíte mít knihovnu Aspose.HTML for Java. Pokud jste to ještě neudělali, můžete to získat[tady](https://releases.aspose.com/html/java/).
+-  Aspose.HTML for Java: Musíte mít knihovnu Aspose.HTML for Java. Pokud jste to ještě neudělali, můžete to získat[zde](https://releases.aspose.com/html/java/).
 
 - Soubor EPUB: Připravte soubor EPUB, který chcete převést na obrázky.
 
@@ -82,7 +82,7 @@ for (int i = 0; i < size; i++) {
 }
 ```
 
-A to je vše! Úspěšně jste převedli soubor EPUB na obrázky pomocí Aspose.HTML for Java.
+A je to! Úspěšně jste převedli soubor EPUB na obrázky pomocí Aspose.HTML for Java.
 
 ## Závěr
 
@@ -96,11 +96,11 @@ Aspose.HTML for Java zjednodušuje proces převodu souborů EPUB na obrázky. Po
 
 ### Q2: Je k dispozici nějaká dokumentace pro Aspose.HTML pro Java?
 
- A2: Ano, můžete najít komplexní dokumentaci[tady](https://reference.aspose.com/html/java/).
+ A2: Ano, můžete najít komplexní dokumentaci[zde](https://reference.aspose.com/html/java/).
 
 ### Q3: Jak mohu získat dočasnou licenci pro Aspose.HTML pro Java?
 
- A3: Můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
+ A3: Můžete získat dočasnou licenci[zde](https://purchase.aspose.com/temporary-license/).
 
 ### Q4: Kde mohu získat podporu pro Aspose.HTML pro Java?
 
@@ -108,4 +108,4 @@ Aspose.HTML for Java zjednodušuje proces převodu souborů EPUB na obrázky. Po
 
 ### Q5: Mohu převést soubory EPUB do jiných obrazových formátů?
 
- A5: Ano, můžete přizpůsobit výstupní formát úpravou`ImageSaveOptions` . Změň`ImageFormat` do požadovaného formátu, jako je PNG nebo GIF.
+ A5: Ano, můžete přizpůsobit výstupní formát úpravou`ImageSaveOptions` . Změňte`ImageFormat` do požadovaného formátu, jako je PNG nebo GIF.

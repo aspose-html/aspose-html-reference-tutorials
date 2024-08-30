@@ -1,5 +1,5 @@
 ---
-title: 使用 Aspose.HTML 將 .NET 中的 HTML 轉換為 Markdown
+title: 使用 Aspose.HTML 將 HTML 轉換為 .NET 中的 Markdown
 linktitle: 在 .NET 中將 HTML 轉換為 Markdown
 second_title: Aspose.HTML .NET HTML 操作 API
 description: 了解如何使用 Aspose.HTML 將 HTML 轉換為 .NET 中的 Markdown，以實現高效率的內容操作。取得無縫轉換過程的逐步指導。
@@ -34,7 +34,7 @@ using Aspose.Html;
 
 匯入命名空間後，現在可以繼續進行 HTML 到 Markdown 的轉換。
 
-## 使用 Aspose.HTML 將 .NET 中的 HTML 轉換為 Markdown
+## 使用 Aspose.HTML 將 HTML 轉換為 .NET 中的 Markdown
 
 在此範例中，我們將示範如何使用 Aspose.HTML for .NET 將 HTML 文件轉換為 Markdown。 
 

@@ -18,7 +18,7 @@ url: /zh-hant/net/rendering-html-documents/rendering-timeout/
 
 在我們深入研究渲染超時之前，請確保滿足以下先決條件：
 
-1.  Aspose.HTML for .NET：要學習本教學課程，您需要安裝 Aspose.HTML for .NET。你可以下載它[這裡](https://releases.aspose.com/html/net/).
+1. Aspose.HTML for .NET：要學習本教學課程，您需要安裝 Aspose.HTML for .NET。你可以下載它[這裡](https://releases.aspose.com/html/net/).
 
 2. .NET 環境：確保您有一個有效的 .NET 環境，因為 Aspose.HTML 是一個 .NET 函式庫。
 
@@ -39,7 +39,7 @@ using Aspose.Html.Rendering;
 
 ## 渲染超時解釋
 
-渲染逾時是渲染 HTML 文件時的一個重要方面，尤其是在渲染過程可能需要不可預測的時間的情況下。 Aspose.HTML for .NET 提供了兩種控制渲染逾時的方法：`RenderingTimeout`和`IndefiniteTimeout`。讓我們分解這些方法並了解它們的用法。
+渲染逾時是渲染 HTML 文件時的一個重要方面，特別是在渲染過程可能需要不可預測的時間的情況下。 Aspose.HTML for .NET 提供了兩種控制渲染逾時的方法：`RenderingTimeout`和`IndefiniteTimeout`。讓我們分解這些方法並了解它們的用法。
 
 ### 渲染超時
 

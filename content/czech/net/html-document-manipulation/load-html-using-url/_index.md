@@ -20,11 +20,11 @@ Mít solidní znalost C# a frameworku .NET je zásadní. Pokud s těmito technol
 
 2. Visual Studio nainstalováno
 
- Ujistěte se, že máte v systému nainstalované Visual Studio, oblíbené integrované vývojové prostředí (IDE) pro vývoj .NET. Pokud ne, můžete si jej stáhnout z[tady](https://visualstudio.microsoft.com/).
+ Ujistěte se, že máte v systému nainstalované Visual Studio, oblíbené integrované vývojové prostředí (IDE) pro vývoj .NET. Pokud ne, můžete si jej stáhnout z[zde](https://visualstudio.microsoft.com/).
 
 3. Aspose.HTML pro .NET
 
- Budete muset získat knihovnu Aspose.HTML for .NET. Můžete si jej stáhnout ze stránky vydání[tady](https://releases.aspose.com/html/net/).
+ Budete muset získat knihovnu Aspose.HTML for .NET. Můžete si jej stáhnout ze stránky vydání[zde](https://releases.aspose.com/html/net/).
 
 4. Textový editor
 
@@ -34,7 +34,7 @@ Nyní, když máme pokryty předpoklady, pojďme se ponořit do podrobností, ja
 
 ## Import jmenného prostoru
 
-Prvním krokem při používání Aspose.HTML pro .NET je import požadovaných jmenných prostorů do vašeho projektu. To vám umožní bezproblémový přístup k funkcím knihovny. Následuj tyto kroky:
+Prvním krokem při používání Aspose.HTML pro .NET je import požadovaných jmenných prostorů do vašeho projektu. To vám umožní bezproblémový přístup k funkcím knihovny. Postupujte takto:
 
 ### 1. Vytvořte nový projekt
 
@@ -54,7 +54,7 @@ using Aspose.Html;
 
 S importovaným jmenným prostorem jste nyní připraveni začít používat Aspose.HTML ve svém .NET projektu.
 
-## Zhroutit se
+## Zhroucení
 
 Abychom ilustrovali sílu a všestrannost Aspose.HTML pro .NET, rozdělme si běžný případ použití do několika kroků. V tomto příkladu načteme obsah HTML z adresy URL a vytiskneme její vnitřní kód HTML do konzoly.
 
@@ -102,12 +102,12 @@ A2: Ano, Aspose.HTML for .NET je univerzální a lze jej použít ve webových i
 
 ### Q3: Kde najdu další zdroje a podporu pro Aspose.HTML pro .NET?
    
- A3: Můžete prozkoumat dokumentaci[tady](https://reference.aspose.com/html/net/) a vyhledejte pomoc od komunity na fóru Aspose[tady](https://forum.aspose.com/).
+ A3: Můžete prozkoumat dokumentaci[zde](https://reference.aspose.com/html/net/) a vyhledejte pomoc od komunity na fóru Aspose[zde](https://forum.aspose.com/).
 
 ### Q4: Je k dispozici zkušební verze pro Aspose.HTML pro .NET?
    
- A4: Ano, máte přístup k bezplatné zkušební verzi[tady](https://releases.aspose.com/). Umožňuje vám prozkoumat funkce knihovny před nákupem.
+ A4: Ano, máte přístup k bezplatné zkušební verzi[zde](https://releases.aspose.com/). Umožňuje vám prozkoumat funkce knihovny před nákupem.
 
 ### Q5: Jak získám dočasnou licenci pro Aspose.HTML for .NET?
    
-A5: Pokud potřebujete pro svůj projekt dočasnou licenci, můžete ji získat[tady](https://purchase.aspose.com/temporary-license/).
+A5: Pokud potřebujete pro svůj projekt dočasnou licenci, můžete ji získat[zde](https://purchase.aspose.com/temporary-license/).

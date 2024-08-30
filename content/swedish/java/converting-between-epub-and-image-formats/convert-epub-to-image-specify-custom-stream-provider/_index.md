@@ -82,7 +82,7 @@ for (int i = 0; i < size; i++) {
 }
 ```
 
-Och det är allt! Du har framgångsrikt konverterat en EPUB-fil till bilder med Aspose.HTML för Java.
+Och det är det! Du har framgångsrikt konverterat en EPUB-fil till bilder med Aspose.HTML för Java.
 
 ## Slutsats
 

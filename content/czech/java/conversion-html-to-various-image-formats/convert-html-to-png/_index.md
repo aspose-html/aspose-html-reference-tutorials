@@ -33,7 +33,7 @@ import com.aspose.html.rendering.image.ImageFormat;
 import com.aspose.html.converters.Converter;
 ```
 
- V tomto příkladu importujeme požadované balíčky, včetně`HTMLDocument`, `ImageSaveOptions`, `ImageFormat` a`Converter`.
+ V tomto příkladu importujeme požadované balíčky, včetně`HTMLDocument`, `ImageSaveOptions`, `ImageFormat`a`Converter`.
 
 ## Převod HTML do PNG – krok za krokem
 
@@ -70,7 +70,7 @@ Měli byste definovat cestu, kam se převedený obrázek PNG uloží.
 String outputFile = "HTMLtoPNG_Output.png";
 ```
 
- Nastav`outputFile` proměnnou na požadovanou cestu pro obrázek PNG.
+ Nastavte`outputFile` proměnnou na požadovanou cestu pro obrázek PNG.
 
 ### Krok 4: Provedení konverze
 
@@ -101,11 +101,11 @@ Odpověď 2: Ano, dokumenty HTML můžete převést do různých obrazových for
 
 ### Q3: Existují nějaké možnosti licencování pro Aspose.HTML pro Java?
 
- A3: Ano, Aspose nabízí různé možnosti licencování, včetně bezplatných zkušebních verzí a dočasných licencí. Můžete je prozkoumat[tady](https://purchase.aspose.com/buy) a[tady](https://purchase.aspose.com/temporary-license/).
+ A3: Ano, Aspose nabízí různé možnosti licencování, včetně bezplatných zkušebních verzí a dočasných licencí. Můžete je prozkoumat[zde](https://purchase.aspose.com/buy) a[zde](https://purchase.aspose.com/temporary-license/).
 
 ### Q4: Kde najdu dokumentaci k Aspose.HTML pro Java?
 
- Odpověď 4: Na webu Aspose máte přístup k podrobné dokumentaci a zdrojům[tady](https://reference.aspose.com/html/java/).
+ Odpověď 4: Na webu Aspose máte přístup k podrobné dokumentaci a zdrojům[zde](https://reference.aspose.com/html/java/).
 
 ### Q5: Je Aspose.HTML for Java vhodný pro web scraping?
 

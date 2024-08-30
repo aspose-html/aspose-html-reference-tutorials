@@ -61,7 +61,7 @@ String outputFile = "path/to/your/output.xps";
 
 ## Utför konverteringen
 
- Utför nu konverteringen från HTML till XPS med Aspose.HTML's`Converter` klass.
+Utför nu konverteringen från HTML till XPS med Aspose.HTML's`Converter` klass.
 
 ```java
 Converter.convertHTML(htmlDocument, options, outputFile);

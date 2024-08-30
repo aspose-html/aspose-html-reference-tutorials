@@ -1,31 +1,31 @@
 ---
-title: Aspose.HTML for Java ile HTML'yi XPS'ye dönüştürün
-linktitle: HTML'yi XPS'ye dönüştürme
+title: Aspose.HTML for Java ile HTML'yi XPS'e dönüştürün
+linktitle: HTML'yi XPS'e dönüştürme
 second_title: Aspose.HTML ile Java HTML İşleme
-description: Aspose.HTML for Java'yı kullanarak HTML'yi zahmetsizce XPS'ye nasıl dönüştürebileceğinizi öğrenin. Platformlar arası belgeleri kolaylıkla oluşturun.
+description: Aspose.HTML for Java kullanarak HTML'yi XPS'e zahmetsizce nasıl dönüştüreceğinizi öğrenin. Platformlar arası belgeleri kolaylıkla oluşturun.
 type: docs
 weight: 12
 url: /tr/java/conversion-html-to-other-formats/convert-html-to-xps/
 ---
-Web geliştirme ve belge işleme alanında, HTML belgelerini çeşitli formatlara dönüştürme ihtiyacı yaygın ve önemli bir görevdir. Aspose.HTML for Java, HTML'yi XPS'ye (XML Kağıt Spesifikasyonu) sorunsuz bir şekilde dönüştürmek için güçlü bir çözüm sunar; bu, özellikle paylaşılması veya yazdırılması gereken belgeler oluşturmak için kullanışlıdır. Bu adım adım kılavuz, bu dönüşümü zahmetsizce gerçekleştirebilmenizi sağlayacak şekilde size süreç boyunca yol gösterecektir.
+Web geliştirme ve belge işleme alanında, HTML belgelerini çeşitli biçimlere dönüştürme ihtiyacı yaygın ve önemli bir görevdir. Java için Aspose.HTML, HTML'yi XPS'e (XML Kağıt Belirtimi) sorunsuz bir şekilde dönüştürmek için güçlü bir çözüm sunar; bu, özellikle paylaşılması veya yazdırılması gereken belgeler oluşturmak için kullanışlıdır. Bu adım adım kılavuz, bu dönüşümü zahmetsizce gerçekleştirebilmenizi sağlayarak sizi süreçte yönlendirecektir.
 
-## Önkoşullar
+## Ön koşullar
 
-Aspose.HTML for Java kullanarak HTML'yi XPS'ye dönüştürme yolculuğuna çıkmadan önce, sağlamanız gereken birkaç önkoşul vardır:
+Aspose.HTML for Java kullanarak HTML'yi XPS'e dönüştürme yolculuğuna başlamadan önce, sağlamanız gereken birkaç ön koşul vardır:
 
--  Aspose.HTML for Java Library: Aspose.HTML for Java kütüphanesinin kurulu olduğundan emin olun. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/html/java/).
+-  Java Kütüphanesi için Aspose.HTML: Java kütüphanesi için Aspose.HTML'in yüklü olduğundan emin olun. Bunu şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/html/java/).
 
-- Dönüştürülecek HTML Belgesi: Dönüştürmek istediğiniz HTML belgesine sahip olmalısınız. Eğer elinizde yoksa örnek bir HTML dosyası oluşturabilir veya mevcut bir dosyayı kullanabilirsiniz.
+- Dönüştürülecek HTML Belgesi: Dönüştürmek istediğiniz HTML belgesine sahip olmalısınız. Eğer yoksa, örnek bir HTML dosyası oluşturabilir veya var olan birini kullanabilirsiniz.
 
-- Java Geliştirme Ortamı: Bu eğitimde sağlanan kod örneklerini uygulamak için Java programlamaya ilişkin temel bir anlayış gereklidir.
+- Java Geliştirme Ortamı: Bu eğitimde sunulan kod örneklerini uygulamak için temel düzeyde Java programlama bilgisine sahip olmak gerekir.
 
 - Entegre Geliştirme Ortamı (IDE): Sorunsuz bir geliştirme deneyimi için Eclipse veya IntelliJ IDEA gibi bir Java IDE kullanmanızı öneririz.
 
-Artık gerekli önkoşulları yerine getirdiğinize göre, Aspose.HTML for Java kullanarak HTML'yi XPS'ye dönüştürme adımlarına geçelim.
+Artık gerekli ön koşullara sahip olduğunuza göre, Aspose.HTML for Java kullanarak HTML'yi XPS'e dönüştürme adımlarına geçelim.
 
 ## Paketleri İçe Aktar
 
-Başlamak için gerekli paketleri Aspose.HTML kütüphanesinden içe aktarmanız gerekir. Bu adım, dönüşüm için gereken işlevlere erişim açısından çok önemlidir.
+Başlamak için, Aspose.HTML kütüphanesinden gerekli paketleri içe aktarmanız gerekir. Bu adım, dönüşüm için gereken işlevlere erişmek için çok önemlidir.
 
 ```java
 import com.aspose.html.HTMLDocument;
@@ -36,7 +36,7 @@ import com.aspose.html.converters.Converter;
 
 ## HTML Belgesini Yükle
 
- Bir HTML belgesini XPS'ye dönüştürmek için öncelikle HTML belgesini yüklemeniz gerekir. Bu, aşağıdakiler kullanılarak elde edilir:`HTMLDocument` sınıf.
+ Bir HTML belgesini XPS'e dönüştürmek için öncelikle HTML belgesini yüklemeniz gerekir. Bu, şu şekilde gerçekleştirilir:`HTMLDocument` sınıf.
 
 ```java
 HTMLDocument htmlDocument = new HTMLDocument("path/to/your/input.html");
@@ -51,7 +51,7 @@ XpsSaveOptions options = new XpsSaveOptions();
 options.setBackgroundColor(Color.getCyan());
 ```
 
-## Çıkış Dosyası Yolunu Tanımlayın
+## Çıktı Dosya Yolunu Tanımlayın
 
 Dönüştürülen XPS dosyasının kaydedileceği yolu belirtin.
 
@@ -59,40 +59,40 @@ Dönüştürülen XPS dosyasının kaydedileceği yolu belirtin.
 String outputFile = "path/to/your/output.xps";
 ```
 
-## Dönüşümü Gerçekleştirin
+## Dönüştürmeyi Gerçekleştirin
 
- Şimdi Aspose.HTML'yi kullanarak HTML'den XPS'e dönüştürme işlemini gerçekleştirin.`Converter` sınıf.
+Şimdi, Aspose.HTML'yi kullanarak HTML'den XPS'e dönüştürmeyi gerçekleştirin`Converter` sınıf.
 
 ```java
 Converter.convertHTML(htmlDocument, options, outputFile);
 ```
 
-Tebrikler! Aspose.HTML for Java'yı kullanarak bir HTML belgesini başarıyla XPS'ye dönüştürdünüz.
+Tebrikler! Aspose.HTML for Java kullanarak bir HTML belgesini XPS'e başarıyla dönüştürdünüz.
 
 ## Çözüm
 
-HTML'yi XPS'ye dönüştürmek, belgelerle ve web içeriğiyle çalışan herkes için değerli bir beceridir. Aspose.HTML for Java bu süreci basitleştirerek HTML kaynaklarından zahmetsizce XPS belgeleri oluşturmanıza olanak tanır. Bu eğitimde özetlenen adımlarla Aspose.HTML'nin gücünden yararlanabilir ve belge dönüştürme olanakları dünyasının kilidini açabilirsiniz.
+HTML'yi XPS'e dönüştürmek, belgeler ve web içeriğiyle çalışan herkes için değerli bir beceridir. Java için Aspose.HTML bu süreci basitleştirir ve HTML kaynaklarından XPS belgelerini zahmetsizce oluşturmanıza olanak tanır. Bu eğitimde özetlenen adımlarla Aspose.HTML'nin gücünden yararlanabilir ve belge dönüştürme olanakları dünyasının kilidini açabilirsiniz.
 
  Herhangi bir sorunla karşılaşırsanız veya daha fazla yardıma ihtiyacınız olursa, yardım istemekten çekinmeyin.[Aspose.HTML forumu](https://forum.aspose.com/).
 
-## SSS'ler
+## SSS
 
-### S1: XPS nedir ve neden HTML'yi XPS'e dönüştürmem gerekiyor?
+### S1: XPS nedir ve neden HTML'yi XPS'e dönüştürmem gerekir?
 
-Cevap1: XPS, elektronik belge paylaşımı ve yazdırma için kullanılan bir dosya formatı olan XML Kağıt Belirtimi anlamına gelir. Farklı platformlarda ve cihazlarda tutarlı bir şekilde görüntülenmesi ve yazdırılması gereken belgeler oluşturmak istediğinizde HTML'yi XPS'ye dönüştürmek faydalıdır.
+A1: XPS, elektronik belge paylaşımı ve yazdırma için kullanılan bir dosya biçimi olan XML Kağıt Spesifikasyonu anlamına gelir. HTML'yi XPS'e dönüştürmek, farklı platformlar ve aygıtlar arasında tutarlı bir şekilde görüntülenmesi ve yazdırılması gereken belgeler oluşturmak istediğinizde faydalıdır.
 
 ### S2: Dönüştürme sırasında XPS belgesinin görünümünü özelleştirebilir miyim?
 
-Cevap2: Evet, XpsSaveOptions'ı ayarlayarak XPS belgesinin arka plan rengi, sayfa boyutu ve daha fazlası gibi çeşitli yönlerini özelleştirebilirsiniz.
+C2: Evet, XpsSaveOptions'ı ayarlayarak XPS belgesinin arka plan rengi, sayfa boyutu ve daha fazlası gibi çeşitli yönlerini özelleştirebilirsiniz.
 
-### S3: Aspose.HTML for Java ücretsiz bir araç mıdır?
+### S3: Java için Aspose.HTML ücretsiz bir araç mıdır?
 
- Cevap3: Aspose.HTML for Java ticari bir kütüphanedir, ancak yeteneklerini değerlendirmek için ücretsiz deneme sürümünü edinebilirsiniz. Daha fazla ayrıntı için şu adresi ziyaret edin:[Burada](https://releases.aspose.com/html/java).
+ A3: Java için Aspose.HTML ticari bir kütüphanedir, ancak yeteneklerini değerlendirmek için ücretsiz bir deneme sürümü edinebilirsiniz. Daha fazla ayrıntı için şu adresi ziyaret edin:[Burada](https://releases.aspose.com/html/java).
 
-### S4: Aspose.HTML for Java ile başka hangi belge formatlarını dönüştürebilirim?
+### S4: Aspose.HTML for Java ile hangi diğer belge biçimlerini dönüştürebilirim?
 
-Cevap4: Aspose.HTML for Java, HTML belgelerinin PDF, XPS ve daha fazlası dahil olmak üzere çeşitli formatlara dönüştürülmesini destekler.
+C4: Java için Aspose.HTML, HTML belgelerinin PDF, XPS ve daha fazlası dahil olmak üzere çeşitli biçimlere dönüştürülmesini destekler.
 
-### S5: Aspose.HTML for Java'yı Java projemde kullanabilir miyim?
+### S5: Java projemde Aspose.HTML for Java'yı kullanabilir miyim?
 
-A5: Kesinlikle! Aspose.HTML for Java, Java geliştiricileri için tasarlanmıştır ve Java uygulamalarınıza sorunsuz bir şekilde entegre edilebilir.
+C5: Kesinlikle! Aspose.HTML for Java, Java geliştiricileri için tasarlanmıştır ve Java uygulamalarınıza sorunsuz bir şekilde entegre edilebilir.

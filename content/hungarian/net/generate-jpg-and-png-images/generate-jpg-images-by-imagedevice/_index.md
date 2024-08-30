@@ -94,13 +94,13 @@ Igényei szerint testreszabhatja az oldalméretet és a margókat.
 
 Ez az utolsó lépés, ahol a HTML-tartalmat képpé rendereljük, és elmentjük egy megadott könyvtárba.
 
-Ez az! Sikeresen leképezte a HTML-kódot az Aspose.HTML for .NET használatával.
+Ennyi! Sikeresen leképezte a HTML-kódot az Aspose.HTML for .NET használatával.
 
 ## Következtetés
 
 Az Aspose.HTML for .NET egy sokoldalú könyvtár, amely lehetővé teszi a HTML-tartalom egyszerű kezelését .NET-alkalmazásaiban. A megfelelő beállítással és a névterek megfelelő használatával zökkenőmentesen hozhat létre dinamikus weboldalakat, készíthet jelentéseket, és zökkenőmentesen hajthat végre különféle, HTML-lel kapcsolatos feladatokat.
 
- Ha bármilyen problémába ütközik, vagy további segítségre van szüksége, ne habozzon felkeresni az Aspose.HTML oldalt[támogatói fórum](https://forum.aspose.com/).
+ Ha bármilyen problémába ütközik, vagy további segítségre van szüksége, ne habozzon felkeresni az Aspose.HTML oldalt[támogatási fórum](https://forum.aspose.com/).
 
 Most Önön a sor, hogy felfedezzen és készítsen lenyűgöző weboldalakat és dokumentumokat az Aspose.HTML for .NET használatával. Boldog kódolást!
 
@@ -120,7 +120,7 @@ Most Önön a sor, hogy felfedezzen és készítsen lenyűgöző weboldalakat é
 
 ### 4. kérdés: Létezik közösség vagy fórum az Aspose.HTML támogatására?
    
- 4. válasz: Igen, az Aspose.HTML-ben találhat segítséget és megvitathatja a problémákat[támogatói fórum](https://forum.aspose.com/).
+ 4. válasz: Igen, az Aspose.HTML-ben találhat segítséget és megvitathatja a problémákat[támogatási fórum](https://forum.aspose.com/).
 
 ### 5. kérdés: Integrálhatom az Aspose.HTML for .NET-et a .NET Core projektembe?
 

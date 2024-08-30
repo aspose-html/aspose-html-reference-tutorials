@@ -15,7 +15,7 @@ Než začnete převádět HTML do PDF pomocí Aspose.HTML for Java, ujistěte se
 
 1. Vývojové prostředí Java: Ve vašem systému byste měli mít nastavené vývojové prostředí Java. Pokud jste tak ještě neučinili, stáhněte si a nainstalujte nejnovější verzi Java Development Kit (JDK) z webu Oracle.
 
-2.  Aspose.HTML for Java: Musíte získat knihovnu Aspose.HTML for Java. Můžete si jej stáhnout z[tady](https://releases.aspose.com/html/java/). Nezapomeňte knihovnu zahrnout do svého projektu.
+2.  Aspose.HTML for Java: Musíte získat knihovnu Aspose.HTML for Java. Můžete si jej stáhnout z[zde](https://releases.aspose.com/html/java/). Nezapomeňte knihovnu zahrnout do svého projektu.
 
 3. HTML dokument k převodu: Musíte mít HTML dokument, který chcete převést do PDF. Pokud žádný nemáte, můžete vytvořit jednoduchý soubor HTML nebo použít existující.
 

@@ -54,7 +54,7 @@ using Aspose.Html;
 
 Med namnområdet importerat är du nu redo att börja använda Aspose.HTML i ditt .NET-projekt.
 
-## Bryta ner
+## Sammanbrott
 
 För att illustrera kraften och mångsidigheten hos Aspose.HTML för .NET, låt oss dela upp ett vanligt användningsfall i flera steg. I det här exemplet laddar vi HTML-innehåll från en URL och skriver ut dess inre HTML till konsolen.
 

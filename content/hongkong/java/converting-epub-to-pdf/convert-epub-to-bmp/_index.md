@@ -73,7 +73,7 @@ Converter.convertEPUB(
 
 在處理數位內容時，將 EPUB 轉換為 BMP 格式是一項寶貴的技能。 Aspose.HTML for Java 為這項任務提供了一個高效且簡單的解決方案。透過遵循本文概述的逐步指南，您可以輕鬆執行 EPUB 到 BMP 的轉換並將其整合到您的專案中。
 
-## 經常問的問題
+## 常見問題解答
 
 ### Aspose.HTML for Java 是免費的函式庫嗎？
 不，Aspose.HTML for Java 不是免費的。您可以從以下位置取得許可證或臨時許可證以滿足您的開發需求[阿斯普斯的網站](https://purchase.aspose.com/buy)或者[臨時許可證頁面](https://purchase.aspose.com/temporary-license/).
@@ -85,7 +85,7 @@ Aspose.HTML for Java 主要專注於 HTML 和 EPUB 轉換。不過，您可以�
 Aspose.HTML for Java 提供了可靠的 BMP 轉換過程。但是，效能和輸出品質可能會根據 EPUB 檔案的複雜程度而有所不同。
 
 ### 如何獲得對 Aspose.HTML for Java 的支援？
-如果您遇到任何問題或需要協助，您可以訪問[Aspose 支援論壇](https://forum.aspose.com/)求助。
+如果您遇到任何問題或需要協助，您可以訪問[Aspose 支援論壇](https://forum.aspose.com/)尋求幫助。
 
 ### Aspose.HTML for Java 支援轉換哪些其他格式？
- Aspose.HTML for Java 支援各種格式，包括 PDF、XPS 和許多影像格式。您可以瀏覽文檔[這裡](https://reference.aspose.com/html/java/)更多細節。
+ Aspose.HTML for Java 支援各種格式，包括 PDF、XPS 和許多影像格式。您可以瀏覽文檔[這裡](https://reference.aspose.com/html/java/)了解更多詳情。

@@ -9,7 +9,7 @@ url: /hu/java/conversion-html-to-other-formats/convert-svg-to-image/
 ---
 ## Bevezetés
 
-A Scalable Vector Graphics-ot (SVG) képformátumokká szeretné konvertálni Java használatával? Az Aspose.HTML for Java a tökéletes eszköz erre a feladatra. Ebben az átfogó útmutatóban lépésről lépésre végigvezetjük a folyamaton. Kitérünk az előfeltételekre, a csomagok importálására, és az egyes példákat több lépésre bontjuk. Az oktatóanyag végére könnyedén konvertálhatja az SVG fájlokat különböző képformátumokba az Aspose.HTML segítségével. Kezdjük el!
+A Scalable Vector Graphics-ot (SVG) képformátumokká szeretné konvertálni Java használatával? Az Aspose.HTML for Java a tökéletes eszköz erre a feladatra. Ebben az átfogó útmutatóban lépésről lépésre végigvezetjük a folyamaton. Kitérünk az előfeltételekre, a csomagok importálására, és az egyes példákat több lépésre bontjuk. Az oktatóanyag végére könnyedén konvertálhatja az SVG fájlokat különböző képformátumokba az Aspose.HTML segítségével. Kezdjük is!
 
 ## Előfeltételek
 
@@ -33,13 +33,13 @@ import com.aspose.html.rendering.image.ImageFormat;
 import com.aspose.html.converters.Converter;
 ```
 
-## Bontás 
+## Lebontás 
 
 Most bontsuk le a példakódot több lépésre a részletesebb megértés érdekében:
 
 ### 1. lépés: Töltse be az SVG-dokumentumot
 
- Először is be kell töltenie azt az SVG-dokumentumot, amelyet Java-ra szeretne konvertálni`SVGDocument` tárgy. Cserélje ki`"input.svg"` az SVG-fájl elérési útjával.
+ Először is be kell töltenie azt az SVG-dokumentumot, amelyet Java-ra szeretne konvertálni`SVGDocument` objektum. Cserélje ki`"input.svg"` az SVG-fájl elérési útjával.
 
 ```java
 SVGDocument svgDocument = new SVGDocument(Resources.input("input.svg"));
@@ -47,7 +47,7 @@ SVGDocument svgDocument = new SVGDocument(Resources.input("input.svg"));
 
 ### 2. lépés: Inicializálja az ImageSaveOptions opciót
 
- Ezután inicializálja a`ImageSaveOptions` tárgy. Itt határozhatja meg a kimeneti képformátumot, ebben az esetben JPEG-et használunk.
+ Ezután inicializálja a`ImageSaveOptions` objektum. Itt határozhatja meg a kimeneti képformátumot, ebben az esetben JPEG-et használunk.
 
 ```java
 ImageSaveOptions options = new ImageSaveOptions(ImageFormat.Jpeg);
@@ -95,4 +95,4 @@ Most pedig válaszoljunk néhány gyakori kérdésre.
 
 ### 5. kérdés: Kaphatok ideiglenes licencet az Aspose.HTML for Java számára?
 
- 5. válasz: Igen, ideiglenes licencet szerezhet értékelési vagy tesztelési célból[ez a link](https://purchase.aspose.com/temporary-license/).
+ 5. válasz: Igen, ideiglenes licencet szerezhet értékelési vagy tesztelési célból[ezt a linket](https://purchase.aspose.com/temporary-license/).

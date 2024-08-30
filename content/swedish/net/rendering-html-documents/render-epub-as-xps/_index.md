@@ -28,7 +28,7 @@ Innan du dyker in i Aspose.HTML för .NET måste du se till att du har följande
 
 2.  Aspose.HTML for .NET: Ladda ner och installera Aspose.HTML for .NET-biblioteket från[här](https://releases.aspose.com/html/net/) . Du kan också få en gratis provperiod eller köpa en licens från[här](https://purchase.aspose.com/buy).
 
-3. Datakatalog: Förbered en katalog där du kommer att lagra dina HTML-filer, till exempel "Din datakatalog" som nämns i kodexemplet.
+3. Datakatalog: Förbered en katalog där du ska lagra dina HTML-filer, till exempel "Din datakatalog" som nämns i kodexemplet.
 
 ## Importera namnområden
 
@@ -40,7 +40,7 @@ using Aspose.Html.Rendering.EpubRenderer;
 using System.IO;
 ```
 
-Dessa namnrymder ger tillgång till renderingsmöjligheterna i Aspose.HTML för .NET och gör att du kan manipulera HTML- och EPUB-dokument.
+Dessa namnutrymmen ger tillgång till renderingsmöjligheterna i Aspose.HTML för .NET och gör att du kan manipulera HTML- och EPUB-dokument.
 
 ## Skapa och rendera HTML-dokument
 

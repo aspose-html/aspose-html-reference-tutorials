@@ -14,7 +14,7 @@ tomto tutoriálu vás provedeme procesem použití měřené licence ve vaší a
 Než budete pokračovat, ujistěte se, že máte splněny následující předpoklady:
 
 -  Platná licence Aspose.HTML pro .NET. Můžete jej získat z[Aspose Nákup](https://purchase.aspose.com/buy).
--  Knihovna Aspose.HTML for .NET, kterou si můžete stáhnout[tady](https://releases.aspose.com/html/net/).
+-  Knihovna Aspose.HTML for .NET, kterou si můžete stáhnout[zde](https://releases.aspose.com/html/net/).
 - Cesta k vašemu datovému adresáři, kam jste uložili vstupní soubor HTML.
 
 Nyní si rozeberme ukázkový kód a podrobně vysvětlíme každý krok:
@@ -58,13 +58,13 @@ Zde si ukázkový kód rozdělíme do několika kroků a každý krok podrobně 
 
 ### Vytiskněte vnitřní HTML:
 
-   Po načtení dokumentu HTML můžete získat přístup k vnitřnímu HTML souboru a vytisknout jej do konzole pro ověření.
+   Po načtení dokumentu HTML můžete přistupovat k vnitřnímu HTML souboru a vytisknout jej do konzole pro ověření.
 
    ```csharp
    Console.WriteLine(document.Body.InnerHTML);
    ```
 
-A je to! Úspěšně jste na svůj projekt .NET použili měřenou licenci a načetli jste dokument HTML.
+To je vše! Úspěšně jste na svůj projekt .NET použili měřenou licenci a načetli jste dokument HTML.
 
 ## Závěr
 
@@ -81,10 +81,10 @@ Měřená licence vám umožňuje platit za Aspose.HTML na základě průběžn�
  Měřenou licenci si můžete zakoupit od[Aspose Nákup](https://purchase.aspose.com/buy).
 
 ### Jak si mohu stáhnout knihovnu Aspose.HTML pro .NET?
- Knihovnu si můžete stáhnout z[tady](https://releases.aspose.com/html/net/).
+ Knihovnu si můžete stáhnout z[zde](https://releases.aspose.com/html/net/).
 
 ### Existují nějaké bezplatné zkušební možnosti dostupné pro Aspose.HTML pro .NET?
- Ano, máte přístup k bezplatné zkušební verzi z[tady](https://releases.aspose.com/).
+ Ano, máte přístup k bezplatné zkušební verzi z[zde](https://releases.aspose.com/).
 
 ### Kde mohu získat podporu nebo se ptát na Aspose.HTML pro .NET?
  Můžete se připojit ke komunitě a hledat podporu na[Aspose fóra](https://forum.aspose.com/).

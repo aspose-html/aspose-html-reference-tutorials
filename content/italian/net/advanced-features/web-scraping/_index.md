@@ -1,28 +1,28 @@
 ---
 title: Web Scraping in .NET con Aspose.HTML
-linktitle: Web Scraping in .NET
-second_title: Aspose.HTML .NET API di manipolazione HTML
-description: Impara a manipolare documenti HTML in .NET con Aspose.HTML. Naviga, filtra, interroga e seleziona gli elementi in modo efficace per uno sviluppo web avanzato.
+linktitle: Web scraping in .NET
+second_title: Aspose.HTML API di manipolazione HTML .NET
+description: Impara a manipolare documenti HTML in .NET con Aspose.HTML. Naviga, filtra, interroga e seleziona elementi in modo efficace per uno sviluppo web avanzato.
 type: docs
 weight: 13
 url: /it/net/advanced-features/web-scraping/
 ---
 
-Nell'era digitale di oggi, manipolare ed estrarre informazioni dai documenti HTML è un compito comune per gli sviluppatori. Aspose.HTML per .NET è un potente strumento che semplifica l'elaborazione e la manipolazione dell'HTML nelle applicazioni .NET. In questo tutorial esploreremo vari aspetti di Aspose.HTML per .NET, inclusi prerequisiti, spazi dei nomi ed esempi passo passo per aiutarti a sfruttare tutto il suo potenziale.
+Nell'era digitale odierna, manipolare ed estrarre informazioni da documenti HTML è un compito comune per gli sviluppatori. Aspose.HTML per .NET è un potente strumento che semplifica l'elaborazione e la manipolazione HTML nelle applicazioni .NET. In questo tutorial, esploreremo vari aspetti di Aspose.HTML per .NET, inclusi prerequisiti, namespace ed esempi passo dopo passo per aiutarti a sfruttarne appieno il potenziale.
 
 ## Prerequisiti
 
-Prima di immergerti nel mondo di Aspose.HTML per .NET, avrai bisogno di alcuni prerequisiti:
+Prima di immergerti nel mondo di Aspose.HTML per .NET, sono necessari alcuni prerequisiti:
 
 1. Ambiente di sviluppo: assicurati di disporre di un ambiente di sviluppo funzionante configurato con Visual Studio o qualsiasi altro IDE compatibile per lo sviluppo .NET.
 
-2.  Aspose.HTML per .NET: scarica e installa la libreria Aspose.HTML per .NET da[Link per scaricare](https://releases.aspose.com/html/net/). Puoi scegliere tra la versione di prova gratuita o quella con licenza in base alle tue esigenze.
+2.  Aspose.HTML per .NET: Scarica e installa la libreria Aspose.HTML per .NET da[collegamento per il download](https://releases.aspose.com/html/net/)Puoi scegliere tra la versione di prova gratuita o quella con licenza in base alle tue esigenze.
 
-3. Conoscenza di base di HTML: la familiarità con la struttura e gli elementi HTML è essenziale per utilizzare in modo efficace Aspose.HTML per .NET.
+3. Conoscenza di base dell'HTML: la familiarità con la struttura e gli elementi HTML è essenziale per utilizzare in modo efficace Aspose.HTML per .NET.
 
-## Importazione di spazi dei nomi
+## Importazione di namespace
 
-Per iniziare, devi importare gli spazi dei nomi necessari nel tuo progetto C#. Questi spazi dei nomi forniscono l'accesso alle classi e funzionalità Aspose.HTML per .NET:
+Per iniziare, devi importare i namespace necessari nel tuo progetto C#. Questi namespace forniscono accesso alle classi e alle funzionalità di Aspose.HTML per .NET:
 
 ```csharp
 using Aspose.Html;
@@ -31,11 +31,11 @@ using Aspose.Html.XPath;
 using Aspose.Html.Css;
 ```
 
-Con i prerequisiti in atto e gli spazi dei nomi importati, analizziamo passo dopo passo alcuni esempi chiave per illustrare come utilizzare Aspose.HTML per .NET in modo efficace.
+Una volta soddisfatti i prerequisiti e importati gli spazi dei nomi, analizziamo passo dopo passo alcuni esempi chiave per illustrare come utilizzare in modo efficace Aspose.HTML per .NET.
 
-## Navigazione attraverso HTML
+## Navigazione in HTML
 
-In questo esempio navigheremo attraverso un documento HTML e accederemo ai suoi elementi passo dopo passo.
+In questo esempio, navigheremo attraverso un documento HTML e accederemo ai suoi elementi passo dopo passo.
 
 ```csharp
 public static void NavigateThroughHTML()
@@ -50,22 +50,22 @@ public static void NavigateThroughHTML()
         var element = document.Body.FirstChild;
         Console.WriteLine(element.TextContent); // Uscita: Ciao
 
-        // Ottieni il riferimento allo spazio bianco tra gli elementi HTML
+        // Ottieni il riferimento allo spazio vuoto tra gli elementi HTML
         element = element.NextSibling;
         Console.WriteLine(element.TextContent); // Produzione: ' '
 
         // Ottieni il riferimento al secondo elemento SPAN
         element = element.NextSibling;
-        Console.WriteLine(element.TextContent); // Uscita: Mondo!
+        Console.WriteLine(element.TextContent); // Risultato: Mondo!
     }
 }
 ```
 
- In questo esempio creiamo un documento HTML, accediamo al suo primo figlio (a`SPAN` element), lo spazio bianco tra gli elementi e il secondo`SPAN` elemento, che mostra la navigazione di base.
+ In questo esempio, creiamo un documento HTML, accediamo al suo primo figlio (un`SPAN` elemento), lo spazio vuoto tra gli elementi e il secondo`SPAN` elemento che illustra la navigazione di base.
 
 ## Utilizzo dei filtri dei nodi
 
-I filtri dei nodi consentono di elaborare selettivamente elementi specifici all'interno di un documento HTML.
+I filtri dei nodi consentono di elaborare in modo selettivo elementi specifici all'interno di un documento HTML.
 
 ```csharp
 public static void NodeFilterUsageExample()
@@ -77,7 +77,7 @@ public static void NodeFilterUsageExample()
         <img src='image2.png'>
         <p>World!</p>";
     
-    // Inizializza un documento in base al codice preparato
+    // Inizializzare un documento in base al codice preparato
     using (var document = new HTMLDocument(code, "."))
     {
         // Crea un TreeWalker con un filtro personalizzato per gli elementi dell'immagine
@@ -87,15 +87,15 @@ public static void NodeFilterUsageExample()
             {
                 var image = (HTMLImageElement)iterator.CurrentNode;
                 Console.WriteLine(image.Src);
-                // Risultato: immagine1.png
-                // Risultato: immagine2.png
+                // Risultato: image1.png
+                // Risultato: image2.png
             }
         }
     }
 }
 ```
 
- Questo esempio dimostra come utilizzare un filtro del nodo personalizzato per estrarre elementi specifici (in questo caso,`IMG` elementi) dal documento HTML.
+ Questo esempio mostra come utilizzare un filtro nodo personalizzato per estrarre elementi specifici (in questo caso,`IMG` elementi) dal documento HTML.
 
 ## Query XPath
 
@@ -116,32 +116,32 @@ public static void XPathQueryUsageExample()
         </p>
     ";
     
-    // Inizializza un documento in base al codice preparato
+    // Inizializzare un documento in base al codice preparato
     using (var document = new HTMLDocument(code, "."))
     {
-        // Valuta un'espressione XPath per selezionare elementi specifici
-        var result = document.Evaluate("//*[@class='happy']//span",
+        // Valutare un'espressione XPath per selezionare elementi specifici
+        var result = document.Evaluate("//*[@class='happy']//intervallo",
                                         document,
                                         null,
                                         XPathResultType.Any,
                                         null);
         
-        // Iterare sui nodi risultanti
+        // Eseguire l'iterazione sui nodi risultanti
         for (Node node; (node = result.IterateNext()) != null;)
         {
             Console.WriteLine(node.TextContent);
             // Uscita: Ciao
-            // Uscita: Mondo!
+            // Risultato: Mondo!
         }
     }
 }
 ```
 
-Questo esempio mostra l'uso delle query XPath per individuare gli elementi nel documento HTML in base ai loro attributi e alla loro struttura.
+Questo esempio illustra l'uso delle query XPath per individuare gli elementi nel documento HTML in base ai loro attributi e alla loro struttura.
 
 ## Selettori CSS
 
-I selettori CSS forniscono un modo alternativo per selezionare gli elementi in un documento HTML, in modo simile al modo in cui i fogli di stile CSS prendono di mira gli elementi.
+I selettori CSS forniscono un metodo alternativo per selezionare gli elementi in un documento HTML, in modo simile al modo in cui i fogli di stile CSS indirizzano gli elementi.
 
 ```csharp
 public static void CSSSelectorUsageExample()
@@ -158,49 +158,49 @@ public static void CSSSelectorUsageExample()
         </p>
     ";
     
-    // Inizializza un documento in base al codice preparato
+    // Inizializzare un documento in base al codice preparato
     using (var document = new HTMLDocument(code, "."))
     {
-        //Utilizza un selettore CSS per estrarre elementi in base alla classe e alla gerarchia
+        //Utilizzare un selettore CSS per estrarre gli elementi in base alla classe e alla gerarchia
         var elements = document.QuerySelectorAll(".happy span");
         
-        // Iterare sull'elenco di elementi risultante
+        // Eseguire l'iterazione sull'elenco risultante degli elementi
         foreach (HTMLElement element in elements)
         {
             Console.WriteLine(element.InnerHTML);
             // Uscita: Ciao
-            // Uscita: Mondo!
+            // Risultato: Mondo!
         }
     }
 }
 ```
 
-Qui, dimostriamo come utilizzare i selettori CSS per indirizzare elementi specifici nel documento HTML.
+In questo articolo mostreremo come utilizzare i selettori CSS per selezionare elementi specifici nel documento HTML.
 
-Con questi esempi, hai acquisito una conoscenza fondamentale di come navigare, filtrare, eseguire query e selezionare elementi nei documenti HTML utilizzando Aspose.HTML per .NET.
+Grazie a questi esempi, avrai acquisito le nozioni fondamentali su come navigare, filtrare, interrogare e selezionare elementi nei documenti HTML utilizzando Aspose.HTML per .NET.
 
 ## Conclusione
 
- Aspose.HTML per .NET è una libreria versatile che consente agli sviluppatori .NET di lavorare in modo efficiente con documenti HTML. Con le sue potenti funzionalità per la navigazione, il filtraggio, l'esecuzione di query e la selezione di elementi, puoi gestire varie attività di elaborazione HTML senza problemi. Seguendo questo tutorial ed esplorando la documentazione all'indirizzo[Aspose.HTML per la documentazione .NET](https://reference.aspose.com/html/net/), puoi sfruttare tutto il potenziale di questo strumento per le tue applicazioni .NET.
+ Aspose.HTML per .NET è una libreria versatile che consente agli sviluppatori .NET di lavorare in modo efficiente con i documenti HTML. Grazie alle sue potenti funzionalità per la navigazione, il filtraggio, l'interrogazione e la selezione di elementi, puoi gestire senza problemi varie attività di elaborazione HTML. Seguendo questo tutorial ed esplorando la documentazione su[Documentazione di Aspose.HTML per .NET](https://reference.aspose.com/html/net/)puoi sfruttare appieno il potenziale di questo strumento per le tue applicazioni .NET.
 
 ## Domande frequenti
 
-### Q1. Aspose.HTML per .NET è gratuito?
+### D1. Aspose.HTML per .NET è gratuito?
 
-A1: Aspose.HTML per .NET offre una versione di prova gratuita, ma per l'utilizzo in produzione sarà necessario acquistare una licenza. Puoi trovare i dettagli e le opzioni di licenza su[Aspose.HTML Acquisto](https://purchase.aspose.com/buy).
+A1: Aspose.HTML per .NET offre una versione di prova gratuita, ma per l'uso in produzione, dovrai acquistare una licenza. Puoi trovare i dettagli e le opzioni di licenza su[Acquisto Aspose.HTML](https://purchase.aspose.com/buy).
 
-### Q2. Come posso ottenere una licenza temporanea per Aspose.HTML per .NET?
+### D2. Come posso ottenere una licenza temporanea per Aspose.HTML per .NET?
 
- R2: È possibile ottenere una licenza temporanea a scopo di test da[Licenza temporanea Aspose.HTML](https://purchase.aspose.com/temporary-license/).
+ A2: È possibile ottenere una licenza temporanea per scopi di prova da[Licenza temporanea Aspose.HTML](https://purchase.aspose.com/temporary-license/).
 
-### Q3. Dove posso cercare aiuto o supporto per Aspose.HTML per .NET?
+### D3. Dove posso cercare aiuto o supporto per Aspose.HTML per .NET?
 
- R3: Se riscontri problemi o hai domande, puoi visitare il[Aspose.HTML Forum](https://forum.aspose.com/) per l'assistenza e il sostegno della comunità.
+ A3: Se riscontri problemi o hai domande, puoi visitare il[Forum di Aspose.HTML](https://forum.aspose.com/) per assistenza e supporto alla comunità.
 
-### Q4. Esistono risorse aggiuntive per l'apprendimento di Aspose.HTML per .NET?
+### D4. Esistono risorse aggiuntive per apprendere Aspose.HTML per .NET?
 
- R4: Oltre a questo tutorial, puoi esplorare altri tutorial e documentazione su[Aspose.HTML per la pagina della documentazione .NET](https://reference.aspose.com/html/net/).
+ A4: Insieme a questo tutorial, puoi esplorare altri tutorial e documentazione su[Pagina di documentazione di Aspose.HTML per .NET](https://reference.aspose.com/html/net/).
 
-### Q5. Aspose.HTML per .NET è compatibile con le ultime versioni di .NET?
+### D5. Aspose.HTML per .NET è compatibile con le ultime versioni di .NET?
 
-A5: Aspose.HTML per .NET viene regolarmente aggiornato per garantire la compatibilità con le ultime versioni e tecnologie di .NET.
+A5: Aspose.HTML per .NET viene aggiornato regolarmente per garantire la compatibilità con le ultime versioni e tecnologie .NET.

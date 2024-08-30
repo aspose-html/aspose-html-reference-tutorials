@@ -18,7 +18,7 @@ Innan vi börjar, se till att du har följande förutsättningar på plats:
 
 - Java-utvecklingsmiljö: Du måste ha en Java-utvecklingsmiljö inställd på ditt system.
 
--  Aspose.HTML for Java: Ladda ner och installera Aspose.HTML for Java-biblioteket. Du kan hitta biblioteket och relaterad dokumentation på[hemsida](https://releases.aspose.com/html/java/).
+-  Aspose.HTML for Java: Ladda ner och installera Aspose.HTML for Java-biblioteket. Du kan hitta biblioteket och relaterad dokumentation på[webbplats](https://releases.aspose.com/html/java/).
 
 - EPUB-fil: Du behöver en EPUB-fil som du vill konvertera till PDF.
 
@@ -30,7 +30,7 @@ Låt oss nu dyka in i steg-för-steg-guiden för att konvertera EPUB till PDF me
 
 ```java
 try (java.io.FileInputStream fileInputStream = new java.io.FileInputStream(Resources.input("input.epub"))) {
-    // Din kod för nästa steg kommer att hamna här.
+    // Din kod för nästa steg kommer här.
 }
 ```
 
@@ -98,7 +98,7 @@ den här handledningen har vi lärt oss hur man använder Aspose.HTML för Java 
 ## Vanliga frågor (FAQs)
 
 ### Är Aspose.HTML för Java ett gratis bibliotek?
- Aspose.HTML för Java är ett kommersiellt bibliotek, men du kan få en gratis testversion från deras[hemsida](https://releases.aspose.com/).
+ Aspose.HTML för Java är ett kommersiellt bibliotek, men du kan få en gratis testversion från deras[webbplats](https://releases.aspose.com/).
 
 ### Vilka EPUB-format stöds för konvertering?
 Aspose.HTML för Java stöder konvertering av olika EPUB-format, vilket säkerställer kompatibilitet med de flesta EPUB-dokument.

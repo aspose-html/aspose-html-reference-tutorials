@@ -1,25 +1,25 @@
 ---
 title: Dostosuj marginesy strony HTML za pomocą Aspose.HTML
-linktitle: Rozszerzenia CSS - Dodawanie tytułu i numeru strony
+linktitle: Rozszerzenia CSS - dodawanie tytułu i numeru strony
 second_title: Przetwarzanie HTML w Javie za pomocą Aspose.HTML
-description: Dowiedz się, jak dostosować marginesy strony, dodać numery stron i tytuły do dokumentów HTML za pomocą Aspose.HTML dla Java.
+description: Dowiedz się, jak dostosowywać marginesy stron, dodawać numery stron i tytuły do dokumentów HTML, korzystając z Aspose.HTML dla Java.
 type: docs
 weight: 10
 url: /pl/java/advanced-usage/css-extensions-adding-title-page-number/
 ---
-Aspose.HTML for Java to potężna biblioteka do przetwarzania dokumentów HTML w aplikacjach Java. W tym samouczku przyjrzymy się, jak tworzyć niestandardowe marginesy strony oraz dodawać numery stron i tytuły do dokumentów HTML za pomocą Aspose.HTML dla Java. Ten przewodnik krok po kroku podzieli proces na łatwe do wykonania kroki, które pomogą Ci łatwo zintegrować te funkcje z dokumentami HTML.
+Aspose.HTML for Java to potężna biblioteka do przetwarzania dokumentów HTML w aplikacjach Java. W tym samouczku pokażemy, jak tworzyć niestandardowe marginesy stron i dodawać numery stron oraz tytuły do dokumentów HTML za pomocą Aspose.HTML for Java. Ten przewodnik krok po kroku podzieli proces na łatwe do opanowania kroki, aby pomóc Ci łatwo zintegrować te funkcje z dokumentami HTML.
 
-## Warunki wstępne
+## Wymagania wstępne
 
 Zanim zaczniemy, upewnij się, że spełnione są następujące wymagania wstępne:
 
-1. Środowisko programistyczne Java: Upewnij się, że na komputerze jest skonfigurowane środowisko programistyczne Java.
+1. Środowisko programistyczne Java: Upewnij się, że na swoim komputerze masz skonfigurowane środowisko programistyczne Java.
 
 2.  Aspose.HTML dla Java: Pobierz i zainstaluj bibliotekę Aspose.HTML dla Java ze strony[Tutaj](https://releases.aspose.com/html/java/).
 
 ## Importuj pakiety
 
-Aby rozpocząć, musisz zaimportować niezbędne pakiety z Aspose.HTML dla Java. Dodaj następujące instrukcje importu do kodu Java:
+Aby rozpocząć, musisz zaimportować niezbędne pakiety z Aspose.HTML dla Java. Dodaj następujące polecenia importu do swojego kodu Java:
 
 ```java
 // Importuj pakiety Aspose.HTML
@@ -29,15 +29,15 @@ import com.aspose.html.HTMLDocument;
 import com.aspose.html.rendering.xps.XpsDevice;
 ```
 
-Podzielmy teraz proces dodawania niestandardowych marginesów strony, numerów stron i tytułów na łatwe do wykonania kroki:
+Teraz podzielimy proces dodawania niestandardowych marginesów stron, numerów stron i tytułów na łatwiejsze do wykonania kroki:
 
 ## Krok 1: Zainicjuj konfigurację i marginesy strony
 
 ```java
-// Zainicjuj obiekt konfiguracyjny i ustaw marginesy strony dokumentu
+// Zainicjuj obiekt konfiguracji i ustaw marginesy strony dla dokumentu
 Configuration configuration = new Configuration();
 try {
-    // Uzyskaj usługę Agenta użytkownika
+    // Pobierz usługę User Agent
     IUserAgentService userAgent = configuration.getService(IUserAgentService.class);
     // Ustaw styl niestandardowych marginesów i utwórz na nich znaczniki
     userAgent.setUserStyleSheet("@page\n" +
@@ -64,7 +64,7 @@ try {
             "}\n");
 ```
 
-Na tym etapie inicjujemy obiekt konfiguracyjny i ustawiamy niestandardowe marginesy strony, w tym położenie licznika strony i tytuł strony.
+W tym kroku inicjujemy obiekt konfiguracji i konfigurujemy niestandardowe marginesy strony, łącznie z położeniem licznika stron i tytułem strony.
 
 ## Krok 2: Zainicjuj dokument HTML
 
@@ -90,32 +90,32 @@ try {
 }
 ```
 
-Na tym etapie konfigurujemy urządzenie wyjściowe i renderujemy dokument HTML. Dokument zostanie przetworzony i zapisany jako plik XPS z określonymi marginesami strony, numerami stron i tytułem.
+W tym kroku konfigurujemy urządzenie wyjściowe i renderujemy dokument HTML. Dokument zostanie przetworzony i zapisany jako plik XPS z określonymi marginesami strony, numerami stron i tytułem.
 
 ## Wniosek
 
-Gratulacje! Pomyślnie nauczyłeś się tworzyć niestandardowe marginesy strony oraz dodawać numery stron i tytuły do dokumentów HTML za pomocą Aspose.HTML dla Java. To dostosowanie umożliwia tworzenie bardziej profesjonalnych i atrakcyjnych wizualnie dokumentów.
+Gratulacje! Udało Ci się nauczyć, jak tworzyć niestandardowe marginesy stron i dodawać numery stron oraz tytuły do dokumentów HTML za pomocą Aspose.HTML dla Java. Ta personalizacja pozwala Ci tworzyć bardziej profesjonalne i atrakcyjne wizualnie dokumenty.
 
- Jeśli masz jakieś pytania lub napotkasz jakiekolwiek problemy, zapraszamy do odwiedzenia strony[Aspose.HTML dla dokumentacji Java](https://reference.aspose.com/html/java/) lub poproś o pomoc na stronie[Forum wsparcia Aspose](https://forum.aspose.com/).
+ Jeśli masz jakiekolwiek pytania lub napotkasz jakiekolwiek problemy, możesz odwiedzić naszą stronę[Aspose.HTML dla dokumentacji Java](https://reference.aspose.com/html/java/) lub poszukaj pomocy na[Forum wsparcia Aspose](https://forum.aspose.com/).
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
-### P1: Co to jest Aspose.HTML dla Java?
+### P1: Czym jest Aspose.HTML dla Java?
 
-O1: Aspose.HTML for Java to biblioteka Java zapewniająca zaawansowane narzędzia do pracy z dokumentami HTML w aplikacjach Java.
+A1: Aspose.HTML for Java to biblioteka Java oferująca zaawansowane narzędzia do pracy z dokumentami HTML w aplikacjach Java.
 
-### P2: Czy mogę bardziej dostosować marginesy strony?
+### P2: Czy mogę dodatkowo dostosować marginesy strony?
 
-Odpowiedź 2: Tak, możesz modyfikować style CSS w kroku 1, aby dostosować marginesy strony zgodnie ze swoimi wymaganiami.
+A2: Tak, możesz zmodyfikować style CSS w kroku 1, aby dostosować marginesy strony zgodnie ze swoimi wymaganiami.
 
 ### P3: Jak mogę dodać więcej treści do dokumentu HTML?
 
-O3: Możesz zmodyfikować treść HTML w kroku 2, zastępując przykładową treść własną.
+A3: Możesz zmodyfikować zawartość HTML w kroku 2, zastępując przykładową zawartość własną.
 
 ### P4: Czy Aspose.HTML dla Java jest kompatybilny z innymi formatami dokumentów?
 
-O4: Tak, Aspose.HTML for Java może być używany do konwersji dokumentów HTML do różnych formatów, w tym PDF, XPS i obrazów.
+A4: Tak, Aspose.HTML for Java można używać do konwersji dokumentów HTML do różnych formatów, w tym PDF, XPS i obrazów.
 
-### P5: Czy potrzebuję licencji na używanie Aspose.HTML dla Java?
+### P5: Czy potrzebuję licencji, aby używać Aspose.HTML dla Java?
 
- Odpowiedź 5: Tak, możesz uzyskać licencję lub bezpłatną wersję próbną[Tutaj](https://purchase.aspose.com/buy) Lub[Tutaj](https://releases.aspose.com/).
+ A5: Tak, możesz uzyskać licencję lub bezpłatną wersję próbną[Tutaj](https://purchase.aspose.com/buy) Lub[Tutaj](https://releases.aspose.com/).

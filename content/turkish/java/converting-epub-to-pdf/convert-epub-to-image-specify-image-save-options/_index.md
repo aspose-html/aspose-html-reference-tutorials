@@ -1,36 +1,36 @@
 ---
-title: EPUB'dan Görüntüye Dönüştürme için Görüntü Kaydetme Seçeneklerini Belirleme
-linktitle: EPUB'dan Görüntüye Dönüştürme için Görüntü Kaydetme Seçeneklerini Belirleme
+title: EPUB'dan Görüntüye Dönüştürme için Görüntü Kaydetme Seçeneklerinin Belirlenmesi
+linktitle: EPUB'dan Görüntüye Dönüştürme için Görüntü Kaydetme Seçeneklerinin Belirlenmesi
 second_title: Aspose.HTML ile Java HTML İşleme
-description: EPUB'u görsele dönüştürmek ve daha fazlası için Aspose.HTML for Java'yı kullanmayı öğrenin. Adım adım kılavuzumuzu keşfedin. #JavaDevelopment #WebDevelopment #DocumentConversion
+description: EPUB'ı görüntüye dönüştürmek ve daha fazlası için Java için Aspose.HTML'i kullanmayı öğrenin. Adım adım kılavuzumuzu keşfedin. #JavaDevelopment #WebDevelopment #DocumentConversion
 type: docs
 weight: 16
 url: /tr/java/converting-epub-to-pdf/convert-epub-to-image-specify-image-save-options/
 ---
 
-Web geliştirme ve belge işleme dünyasında Aspose.HTML for Java güçlü bir araç olarak öne çıkıyor. Bu Java kitaplığı, geliştiricilerin HTML belgelerini işlemesine, dönüşümleri gerçekleştirmesine ve dinamik web uygulamalarını sorunsuz bir şekilde oluşturmasına olanak tanır. Bu kapsamlı kılavuzda, Aspose.HTML for Java'nın temellerini size anlatacağız ve örnekleri adım adım talimatlara ayıracağız.
+Web geliştirme ve belge düzenleme dünyasında, Java için Aspose.HTML güçlü bir araç olarak öne çıkıyor. Bu Java kütüphanesi, geliştiricilerin HTML belgelerini yönetmesini, dönüşümler gerçekleştirmesini ve dinamik web uygulamaları sorunsuz bir şekilde oluşturmasını sağlar. Bu kapsamlı kılavuzda, örnekleri adım adım talimatlara ayırarak Java için Aspose.HTML'nin temellerini size anlatacağız.
 
-## Önkoşullar
+## Ön koşullar
 
-Aspose.HTML for Java dünyasına dalmadan önce aşağıdaki önkoşulların mevcut olduğundan emin olmalısınız:
+Java için Aspose.HTML dünyasına dalmadan önce, aşağıdaki ön koşulların mevcut olduğundan emin olmalısınız:
 
-1. Java Geliştirme Ortamı: Sisteminizde Java Geliştirme Kitinin (JDK) kurulu olduğundan emin olun.
+1. Java Geliştirme Ortamı: Sisteminizde Java Geliştirme Kiti'nin (JDK) yüklü olduğundan emin olun.
 
-2. Aspose.HTML for Java: Aspose.HTML for Java kitaplığını indirip yükleyin. İndirme linkini bulabilirsiniz[Burada](https://releases.aspose.com/html/java/).
+2. Java için Aspose.HTML: Java için Aspose.HTML kitaplığını indirin ve yükleyin. İndirme bağlantısını bulabilirsiniz[Burada](https://releases.aspose.com/html/java/).
 
-3. Kod Düzenleyici: Eclipse, IntelliJ IDEA veya Visual Studio Code gibi seçtiğiniz herhangi bir kod düzenleyiciyi kullanın.
+3. Kod Düzenleyici: Eclipse, IntelliJ IDEA veya Visual Studio Code gibi dilediğiniz kod düzenleyiciyi kullanın.
 
-4. Temel Java Bilgisi: Java programlamaya aşinalık çok önemlidir.
+4. Temel Java Bilgisi: Java programlamaya aşinalık şarttır.
 
-5. Öğrenme Arzusu: Aspose.HTML for Java'yı keşfetme ve tüm potansiyelinden yararlanma coşkusu.
+5. Öğrenme Arzusu: Aspose.HTML for Java'yı keşfetme ve en üst potansiyeliyle kullanma konusunda coşku.
 
-Artık başlamaya hazırsınız, bir sonraki adıma geçelim.
+Artık başlamaya hazır olduğunuza göre, bir sonraki adıma geçelim.
 
 ## Paketleri İçe Aktar
 
-Bu bölümde gerekli paketleri içe aktaracağız ve ortamınızı Aspose.HTML for Java'yı etkili bir şekilde kullanabilmeniz için ayarlayacağız. 
+Bu bölümde gerekli paketleri içe aktaracağız ve Aspose.HTML for Java'yı etkili bir şekilde kullanmak için ortamınızı ayarlayacağız. 
 
-### Adım 1: Aspose.HTML Sınıflarını İçe Aktarın
+### Adım 1: Aspose.HTML Sınıflarını İçe Aktar
 
 ```java
 import com.aspose.html.saving.ImageSaveOptions;
@@ -42,21 +42,21 @@ import com.aspose.html.drawing.Color;
 import com.aspose.html.converters.Converter;
 ```
 
-Gerekli Aspose.HTML sınıflarına erişmek için bu içe aktarma ifadelerini Java dosyanızın başına eklediğinizden emin olun.
+Gerekli Aspose.HTML sınıflarına erişmek için Java dosyanızın başına bu içe aktarma ifadelerini eklediğinizden emin olun.
 
-## Örnek Döküm: EPUB'u Görüntüye Dönüştürme
+## Örnek Ayrıntı: EPUB'ı Görüntüye Dönüştürme
 
-Şimdi Aspose.HTML for Java kullanımına ilişkin spesifik bir örneğe bakalım. EPUB dosyasını resim formatına dönüştürme adımlarında size yol göstereceğiz.
+Şimdi, Java için Aspose.HTML'i kullanmanın belirli bir örneğine dalalım. Bir EPUB dosyasını bir resim biçimine dönüştürme adımlarında size yol göstereceğiz.
 
-### Adım 2: EPUB Dosyasını açın
+### Adım 2: EPUB Dosyasını Açın
 
 ```java
 try (java.io.FileInputStream fileInputStream = new java.io.FileInputStream(Resources.input("input.epub"))) {
 ```
 
-Okumak için mevcut bir EPUB dosyasını açarak başlayın. EPUB dosyanızın doğru yolunu girdiğinizden emin olun.
+Okumak için mevcut bir EPUB dosyasını açarak başlayın. EPUB dosyanıza doğru yolu sağladığınızdan emin olun.
 
-### 3. Adım: ImageSaveOptions'ı başlatın
+### Adım 3: ImageSaveOptions'ı başlatın
 
 ```java
 ImageSaveOptions options = new ImageSaveOptions(ImageFormat.Jpeg);
@@ -71,40 +71,40 @@ options.setBackgroundColor(Color.getAliceBlue());
 
  Başlat`ImageSaveOptions` İstenilen görüntü formatı (bu durumda JPEG), özel sayfa boyutu ve arka plan rengiyle.
 
-### Adım 4: EPUB'u Resme Dönüştürün
+### Adım 4: EPUB'ı Görüntüye Dönüştür
 
 ```java
 Converter.convertEPUB(fileInputStream, options, Resources.output("output.jpg"));
 ```
 
- Ara`convertEPUB` EPUB dosyasını JPG görüntüsüne dönüştürme yöntemi. Giriş dosyası akışını, seçenekleri ve istediğiniz çıkış dosyası yolunu belirttiğinizden emin olun.
+ Ara`convertEPUB` EPUB dosyasını JPG resmine dönüştürme yöntemi. Giriş dosya akışını, seçenekleri ve istenen çıktı dosya yolunu belirttiğinizden emin olun.
 
-Tebrikler! Bir EPUB dosyasını Aspose.HTML for Java kullanarak başarıyla bir görüntüye dönüştürdünüz.
+Tebrikler! Aspose.HTML for Java kullanarak bir EPUB dosyasını başarıyla bir resme dönüştürdünüz.
 
 ## Çözüm
 
-Aspose.HTML for Java, Java geliştiricilerinin HTML belgeleriyle çalışmasına ve çeşitli dönüştürmeleri zahmetsizce gerçekleştirmesine olanak tanıyan çok yönlü bir kitaplıktır. Bu adım adım kılavuzla paketleri nasıl içe aktaracağınızı ve bir EPUB dosyasını bir görüntüye nasıl dönüştüreceğinizi öğrendiniz. Artık daha fazla özelliği keşfedecek ve web geliştirme projelerinizde Aspose.HTML for Java'nın tüm potansiyelini açığa çıkaracak donanıma sahipsiniz.
+Java için Aspose.HTML, Java geliştiricilerinin HTML belgeleriyle çalışmasını ve çeşitli dönüşümleri zahmetsizce gerçekleştirmesini sağlayan çok yönlü bir kütüphanedir. Bu adım adım kılavuzla, paketleri nasıl içe aktaracağınızı ve bir EPUB dosyasını bir görüntüye nasıl dönüştüreceğinizi öğrendiniz. Artık daha fazla özelliği keşfetmek ve web geliştirme projelerinizde Java için Aspose.HTML'nin tüm potansiyelini ortaya çıkarmak için donanımlısınız.
 
- Sorularınız mı var veya yardıma mı ihtiyacınız var? İletişime geçmekten çekinmeyin[Aspose.HTML topluluğu](https://forum.aspose.com/) destek için.
+ Sorularınız mı var veya yardıma mı ihtiyacınız var? Bize ulaşmaktan çekinmeyin[Aspose.HTML topluluğu](https://forum.aspose.com/) destek için.
 
 ## Sıkça Sorulan Sorular (SSS)
 
-### 1. Aspose.HTML for Java belgelerini nerede bulabilirim?
+### 1. Java için Aspose.HTML belgelerini nerede bulabilirim?
 
- Dokümantasyona ulaşabilirsiniz[Burada](https://reference.aspose.com/html/java/). Başlamanıza yardımcı olacak kapsamlı bilgiler ve örnekler sağlar.
+ Belgelere erişebilirsiniz[Burada](https://reference.aspose.com/html/java/)Başlamanıza yardımcı olacak kapsamlı bilgiler ve örnekler sunar.
 
-### 2. Aspose.HTML for Java'nın ücretsiz deneme sürümü mevcut mu?
+### 2. Java için Aspose.HTML'in ücretsiz deneme sürümü mevcut mu?
 
- Evet, ücretsiz deneme sürümünü indirebilirsiniz[Burada](https://releases.aspose.com/). Bir satın alma işlemi yapmadan önce kütüphanenin yeteneklerini keşfetmenize olanak tanır.
+ Evet, ücretsiz deneme sürümünü indirebilirsiniz[Burada](https://releases.aspose.com/). Satın alma işlemi yapmadan önce kütüphanenin olanaklarını keşfetmenize olanak tanır.
 
-### 3. Aspose.HTML for Java için nasıl geçici lisans alabilirim?
+### 3. Java için Aspose.HTML için geçici lisansı nasıl alabilirim?
 
- Geçici bir lisansa ihtiyacınız varsa bir tane alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/).
+ Geçici bir lisansa ihtiyacınız varsa, bir tane edinebilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
 
-### 4. Aspose.HTML for Java diğer belge dönüştürme işlemlerini gerçekleştirebilir mi?
+### 4. Aspose.HTML for Java diğer belge dönüşümlerini de işleyebilir mi?
 
-Evet, Aspose.HTML for Java, HTML'den PDF'ye, HTML'den görüntüye ve daha fazlasını içeren çeşitli belge dönüştürmelerini destekler.
+Evet, Aspose.HTML for Java, HTML'den PDF'e, HTML'den görüntüye ve daha fazlası dahil olmak üzere çeşitli belge dönüşümlerini destekler.
 
 ### 5. Aspose.HTML for Java hem yeni başlayanlar hem de deneyimli geliştiriciler için uygun mudur?
 
-Kesinlikle! Aspose.HTML for Java her seviyeden geliştiriciye hitap etmektedir. Yeni başlayanlar kolayca başlayabilir, deneyimli geliştiriciler ise gelişmiş özelliklerinden yararlanabilir.
+Kesinlikle! Aspose.HTML for Java her seviyedeki geliştiriciye hitap eder. Yeni başlayanlar kolayca başlayabilirken, deneyimli geliştiriciler gelişmiş özelliklerini kullanabilir.

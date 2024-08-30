@@ -72,7 +72,7 @@ String outputFile = "path-to-your-output.xps";
 Converter.convertSVG(svgDocument, options, outputFile);
 ```
 
-## συμπέρασμα
+## Σύναψη
 
 Με αυτά τα απλά βήματα, μπορείτε να μετατρέψετε αβίαστα έγγραφα SVG σε μορφή XPS χρησιμοποιώντας το Aspose.HTML για Java. Αυτή η ισχυρή βιβλιοθήκη απλοποιεί τη διαδικασία και είναι ένα πολύτιμο εργαλείο για τους προγραμματιστές.
 

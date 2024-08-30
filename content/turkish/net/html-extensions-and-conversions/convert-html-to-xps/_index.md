@@ -1,46 +1,46 @@
 ---
-title: Aspose.HTML ile HTML'yi .NET'te XPS'ye dönüştürün
-linktitle: .NET'te HTML'yi XPS'ye dönüştürün
+title: Aspose.HTML ile .NET'te HTML'yi XPS'e dönüştürün
+linktitle: .NET'te HTML'yi XPS'e dönüştürme
 second_title: Aspose.HTML .NET HTML işleme API'si
-description: Aspose.HTML for .NET'in gücünü keşfedin. HTML'yi zahmetsizce XPS'ye dönüştürün. Önkoşullar, adım adım kılavuz ve SSS'ler dahildir.
+description: .NET için Aspose.HTML'nin gücünü keşfedin. HTML'yi XPS'e zahmetsizce dönüştürün. Ön koşullar, adım adım kılavuz ve SSS dahildir.
 type: docs
 weight: 22
 url: /tr/net/html-extensions-and-conversions/convert-html-to-xps/
 ---
 
-Sürekli gelişen web geliştirme ortamında, doğru araçları kullanmak başarı için çok önemlidir. Aspose.HTML for .NET, geliştiricilerin HTML belgeleriyle zahmetsizce çalışmasını sağlayan araçlardan biridir. Bu kılavuz Aspose.HTML for .NET dünyasına adım adım bir yolculuktur. Bunun önkoşullarını inceleyeceğiz, ad alanlarını içe aktaracağız ve HTML'yi XPS formatına dönüştürmenin pratik bir örneğini inceleyeceğiz. Öyleyse bu eğitim gezisine başlayalım.
+Sürekli gelişen web geliştirme ortamında, doğru araçları kullanmak başarı için olmazsa olmazdır. .NET için Aspose.HTML, geliştiricilerin HTML belgeleriyle zahmetsizce çalışmasını sağlayan araçlardan biridir. Bu kılavuz, .NET için Aspose.HTML dünyasına adım adım bir yolculuktur. Ön koşullarını, ad alanlarını içe aktarmayı ve HTML'yi XPS biçimine dönüştürmenin pratik bir örneğini inceleyeceğiz. Hadi, bu eğitim seferine çıkalım.
 
-## Önkoşullar
+## Ön koşullar
 
-Aspose.HTML for .NET'in derinliklerine dalmadan önce gerekli önkoşulları hazırlamamız çok önemli.
+Aspose.HTML for .NET'in derinliklerine dalmadan önce, gerekli ön koşulları sağlamamız çok önemlidir.
 
 ### Visual Studio'yu yükleyin
 
-Öncelikle sisteminizde Visual Studio'nun kurulu olduğundan emin olun. Değilse, Microsoft web sitesinden indirip yükleyin.
+Öncelikle, sisteminizde Visual Studio'nun yüklü olduğundan emin olun. Değilse, Microsoft web sitesinden indirip yükleyin.
 
 ### .NET için Aspose.HTML'yi edinin
 
- Başlamak için Aspose.HTML for .NET'i edinmeniz gerekir. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/html/net/).
+ Başlamak için, .NET için Aspose.HTML'i edinmeniz gerekir. Bunu şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/html/net/).
 
-### .NET Projesi Oluşturma
+### Bir .NET Projesi Oluşturun
 
-Visual Studio'da yeni bir .NET projesi ayarlayın. Geliştirme gereksinimlerinize uyacak uygun proje türünü ve çerçeve sürümünü seçin.
+Visual Studio'da yeni bir .NET projesi kurun. Geliştirme gereksinimlerinize uygun proje türünü ve çerçeve sürümünü seçin.
 
 ### HTML Belgesi
 
 XPS formatına dönüştürmek istediğiniz bir HTML belgeniz olduğundan emin olun. Mevcut bir HTML dosyasını kullanabilir veya yeni bir tane oluşturabilirsiniz.
 
-### Referans ekle
+### Referans Ekle
 
-.NET projenize Aspose.HTML derlemesine bir referans ekleyin. Aspose.HTML'yi projenize entegre etmek için bu çok önemlidir.
+.NET projenizde Aspose.HTML derlemesine bir referans ekleyin. Bu, Aspose.HTML'yi projenize entegre etmek için önemlidir.
 
 ## Ad Alanını İçe Aktarma
 
-Ortamınızı hazırladıktan ve önkoşulları topladıktan sonraki adım, gerekli ad alanını içe aktarmaktır. Bu, kodunuzdaki Aspose.HTML for .NET işlevlerine erişmenizi sağlar.
+Ortamınızı hazırladıktan ve ön koşulları topladıktan sonraki adım gerekli ad alanını içe aktarmaktır. Bu, kodunuzda Aspose.HTML for .NET'in işlevlerine erişmenizi sağlar.
 
-### Adım 1: Aspose.HTML Ad Alanını İçe Aktarın
+### Adım 1: Aspose.HTML Ad Alanını İçe Aktar
 
-Aspose.HTML ad alanını içe aktarmak için C# kodunuza aşağıdaki satırı ekleyin:
+C# kodunuzda Aspose.HTML ad alanını içe aktarmak için aşağıdaki satırı ekleyin:
 
 ```csharp
 using Aspose.Html;
@@ -48,22 +48,22 @@ using Aspose.Html;
 
 Artık projenizde Aspose.HTML ile çalışmaya hazırsınız.
 
-## HTML'yi XPS'ye dönüştürme
+## HTML'yi XPS'e dönüştürme
 
-Artık aşamayı ayarladığınıza göre, Aspose.HTML for .NET kullanarak bir HTML belgesini XPS formatına dönüştürmenin pratik örneğine geçelim.
+Artık ortamı hazırladığımıza göre Aspose.HTML for .NET kullanarak bir HTML belgesini XPS formatına dönüştürmenin pratik örneğine geçelim.
 
 ### Adım 2: HTML Belgesini Yükleyin
 
- Başlamak için dönüştürmek istediğiniz HTML belgesini yüklemeniz gerekir. Yer değiştirmek`"Your Data Directory"` HTML dosyanızın gerçek yoluyla:
+ Başlamak için, dönüştürmek istediğiniz HTML belgesini yüklemeniz gerekir. Değiştir`"Your Data Directory"` HTML dosyanızın gerçek yolu ile:
 
 ```csharp
 string dataDir = "Your Data Directory";
 HTMLDocument htmlDocument = new HTMLDocument(dataDir + "input.html");
 ```
 
-### 3. Adım: XpsSaveOptions'ı başlatın
+### Adım 3: XpsSaveOptions'ı başlatın
 
- Şimdi bir örneğini oluşturun`XpsSaveOptions` XPS dönüştürme işlemini özelleştirmek için. Gereksinimlerinize göre arka plan rengi gibi seçenekleri ayarlayabilirsiniz:
+ Şimdi, bir örnek oluşturun`XpsSaveOptions` XPS dönüştürme sürecini özelleştirmek için. Gereksinimlerinize göre arka plan rengi gibi seçenekleri ayarlayabilirsiniz:
 
 ```csharp
 XpsSaveOptions options = new XpsSaveOptions
@@ -72,7 +72,7 @@ XpsSaveOptions options = new XpsSaveOptions
 };
 ```
 
-### Adım 4: Çıkış Yolunu Tanımlayın
+### Adım 4: Çıktı Yolunu Tanımlayın
 
 Dönüştürülen belgenin kaydedileceği çıktı XPS dosyasının yolunu belirtin:
 
@@ -80,35 +80,35 @@ Dönüştürülen belgenin kaydedileceği çıktı XPS dosyasının yolunu belir
 string outputFile = dataDir + "output.xps";
 ```
 
-### Adım 5: Dönüşümü Gerçekleştirin
+### Adım 5: Dönüştürmeyi Gerçekleştirin
 
- Son olarak dönüşümü kullanarak işlemi gerçekleştirin.`Converter.ConvertHTML` yöntem. Bu, HTML belgenizi belirtilen seçeneklerle XPS biçimine dönüştürecektir:
+ Son olarak, dönüştürmeyi kullanarak gerçekleştirin`Converter.ConvertHTML` method. Bu, HTML belgenizi belirtilen seçeneklerle XPS formatına dönüştürecektir:
 
 ```csharp
 Converter.ConvertHTML(htmlDocument, options, outputFile);
 ```
 
-Ve bu kadar! Aspose.HTML for .NET'i kullanarak bir HTML belgesini başarıyla XPS'ye dönüştürdünüz.
+Ve işte bu kadar! Aspose.HTML for .NET kullanarak bir HTML belgesini XPS'e başarıyla dönüştürdünüz.
 
-Sonuç olarak Aspose.HTML for .NET, HTML belgeleriyle çalışan geliştiriciler için değerli bir araçtır. Önkoşulları ve adım adım kılavuzu takip ederek Aspose.HTML'yi .NET projelerinize sorunsuz bir şekilde entegre edebilir ve HTML'den XPS'ye dönüştürme gibi görevleri gerçekleştirebilirsiniz.
+Sonuç olarak, .NET için Aspose.HTML, HTML belgeleriyle çalışan geliştiriciler için değerli bir araçtır. Ön koşulları ve adım adım kılavuzu izleyerek, Aspose.HTML'yi .NET projelerinize sorunsuz bir şekilde entegre edebilir ve HTML'den XPS'e dönüştürme gibi görevleri gerçekleştirebilirsiniz.
 
-Şimdi bazı genel soruları ele alalım.
+Şimdi sık sorulan sorulara bir göz atalım.
 
 ## SSS
 
-### 1. Aspose.HTML for .NET tüm .NET çerçeveleriyle uyumlu mudur?
-   Aspose.HTML for .NET, çok çeşitli .NET çerçevelerini destekleyerek çoğu proje kurulumuyla uyumluluk sağlar.
+### 1. Aspose.HTML for .NET tüm .NET framework'leriyle uyumlu mudur?
+   Aspose.HTML for .NET, birçok .NET framework'ünü destekleyerek çoğu proje kurulumuyla uyumluluğu garanti eder.
 
-### 2. XPS dönüşümünü daha da özelleştirebilir miyim?
+### 2. XPS dönüşümünü daha fazla özelleştirebilir miyim?
    Evet, sayfa boyutu, kenar boşlukları ve daha fazlası dahil olmak üzere dönüştürme sürecinin çeşitli yönlerini özelleştirebilirsiniz.
 
 ### 3. Herhangi bir lisanslama seçeneği mevcut mu?
-    Aspose.HTML for .NET, ücretsiz deneme ve geçici lisanslar da dahil olmak üzere esnek lisanslama seçenekleri sunar. Ziyaret etmek[Burada](https://purchase.aspose.com/buy) detaylar için.
+    Aspose.HTML for .NET, ücretsiz deneme ve geçici lisanslar da dahil olmak üzere esnek lisanslama seçenekleri sunar. Ziyaret edin[Burada](https://purchase.aspose.com/buy) Ayrıntılar için.
 
 ### 4. Aspose.HTML for .NET desteğini nasıl alabilirim?
-    Sorularınız varsa veya sorunlarla karşılaşırsanız Aspose topluluk forumu destek almak için harika bir yerdir. Ziyaret etmek[Burada](https://forum.aspose.com/) yardım için.
+   Sorularınız varsa veya sorunlarla karşılaşırsanız, Aspose topluluk forumu destek almak için harika bir yerdir. Ziyaret edin[Burada](https://forum.aspose.com/) yardım için.
 
 ### 5. Aspose.HTML for .NET karmaşık HTML belgelerini işleyebilir mi?
-   Evet, Aspose.HTML for .NET karmaşık HTML belgelerini işlemek için tasarlanmıştır ve bu da onu çok çeşitli kullanım senaryolarına uygun hale getirir.
+   Evet, Aspose.HTML for .NET karmaşık HTML belgelerini işleyecek şekilde tasarlanmıştır ve bu da onu çok çeşitli kullanım durumları için uygun hale getirir.
 
-Bu kılavuzda, önkoşullardan pratik bir örneğe kadar Aspose.HTML for .NET'in temellerini inceledik. Doğru bilgi ve araçlarla web geliştirme projelerinizde Aspose.HTML for .NET'in gücünden yararlanabilirsiniz.
+Bu kılavuzda, ön koşullardan pratik bir örneğe kadar .NET için Aspose.HTML'nin temellerini inceledik. Doğru bilgi ve araçlarla, web geliştirme projelerinizde .NET için Aspose.HTML'nin gücünden yararlanabilirsiniz.

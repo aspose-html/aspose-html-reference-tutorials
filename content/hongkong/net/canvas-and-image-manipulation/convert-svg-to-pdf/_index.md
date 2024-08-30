@@ -87,7 +87,7 @@ A1：Aspose.HTML for .NET 是一個功能強大的函式庫，使開發人員能
 
 ### Q2：Aspose.HTML for .NET 可以免費使用嗎？
 
- A2：Aspose.HTML for .NET 提供免費試用版，但要獲得完整功能和生產使用，需要許可證。你可以獲得一個[臨時執照](https://purchase.aspose.com/temporary-license/)供測試用。
+ A2：Aspose.HTML for .NET 提供免費試用版，但要獲得完整功能和生產使用，需要許可證。你可以獲得一個[臨時執照](https://purchase.aspose.com/temporary-license/)用於測試。
 
 ### Q3：我可以自訂PDF轉換設定嗎？
 

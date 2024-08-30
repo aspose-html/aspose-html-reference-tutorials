@@ -20,7 +20,7 @@ Innan vi dyker in i kodexemplen behöver du några förutsättningar:
 
 1. Visual Studio: Se till att du har Visual Studio installerat, eftersom vi kommer att skriva .NET-kod.
 
-2.  Aspose.HTML for .NET: Ladda ner och installera Aspose.HTML for .NET-biblioteket från[den här länken](https://releases.aspose.com/html/net/) . Du kan välja mellan den kostnadsfria provperioden eller att köpa en licens[här](https://purchase.aspose.com/buy).
+2.  Aspose.HTML for .NET: Ladda ner och installera Aspose.HTML for .NET-biblioteket från[denna länk](https://releases.aspose.com/html/net/) . Du kan välja mellan den kostnadsfria provperioden eller att köpa en licens[här](https://purchase.aspose.com/buy).
 
 3. .NET Framework eller .NET Core: Se till att du har antingen .NET Framework eller .NET Core installerat på din utvecklingsmaskin, beroende på dina projektkrav.
 
