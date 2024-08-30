@@ -1,8 +1,8 @@
 ---
 title: Passen Sie die XPS-Seitengröße mit Aspose.HTML für Java an
 linktitle: Anpassen der XPS-Seitengröße
-second_title: Java HTML-Verarbeitung mit Aspose.HTML
-description: Erfahren Sie, wie Sie die XPS-Seitengröße mit Aspose.HTML für Java anpassen. Steuern Sie ganz einfach die Ausgabeabmessungen Ihrer XPS-Dokumente.
+second_title: Java-HTML-Verarbeitung mit Aspose.HTML
+description: Erfahren Sie, wie Sie die XPS-Seitengröße mit Aspose.HTML für Java anpassen. Steuern Sie die Ausgabeabmessungen Ihrer XPS-Dokumente ganz einfach.
 type: docs
 weight: 16
 url: /de/java/advanced-usage/adjust-xps-page-size/
@@ -14,15 +14,15 @@ In diesem Tutorial führen wir Sie durch den Prozess der Anpassung der XPS-Seite
 
 Bevor wir beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
 
-1. Java-Entwicklungsumgebung: Stellen Sie sicher, dass auf Ihrem System das Java Development Kit (JDK) installiert ist.
+1. Java-Entwicklungsumgebung: Stellen Sie sicher, dass Java Development Kit (JDK) auf Ihrem System installiert ist.
 
 2.  Aspose.HTML für Java-Bibliothek: Sie müssen die Aspose.HTML für Java-Bibliothek herunterladen und in Ihr Java-Projekt einbinden. Sie finden die Bibliothek[Hier](https://releases.aspose.com/html/java/).
 
-3. HTML-Eingabedatei: Bereiten Sie eine HTML-Datei vor, die Sie rendern möchten, und passen Sie die XPS-Seitengröße an. Sie können für dieses Tutorial Ihre eigene HTML-Datei verwenden.
+3. HTML-Eingabedatei: Bereiten Sie eine HTML-Datei vor, die Sie rendern möchten, und passen Sie die XPS-Seitengröße dafür an. Sie können für dieses Tutorial Ihre eigene HTML-Datei verwenden.
 
 ## Pakete importieren
 
-Zunächst müssen Sie die erforderlichen Pakete importieren, um mit Aspose.HTML für Java arbeiten zu können. Fügen Sie diese Pakete am Anfang Ihres Java-Kurses ein:
+Zuerst müssen Sie die erforderlichen Pakete importieren, um mit Aspose.HTML für Java arbeiten zu können. Fügen Sie diese Pakete am Anfang Ihrer Java-Klasse ein:
 
 ```java
 import com.aspose.html.drawing.Page;
@@ -41,7 +41,7 @@ try (java.io.FileInputStream fileInputStream = new java.io.FileInputStream("Your
 }
 ```
 
- In diesem Schritt lesen wir Ihre HTML-Eingabedatei mit a`FileInputStream`.
+ In diesem Schritt lesen wir Ihre HTML-Eingabedatei mit einem`FileInputStream`.
 
 ## Schritt 2: Erstellen Sie ein HTML-Dokument und legen Sie Stile fest
 
@@ -62,9 +62,9 @@ String style = "<style>\n" +
 // ...
 ```
 
- Dieser Schritt umfasst das Erstellen einer`HTMLDocument` und Stile hinzufügen.
+ Dieser Schritt umfasst die Erstellung eines`HTMLDocument` und Stile hinzufügen.
 
-## Schritt 3: Erstellen Sie XPS-Rendering-Optionen
+## Schritt 3: XPS-Rendering-Optionen erstellen
 
 ```java
 com.aspose.html.rendering.xps.XpsRenderingOptions xps_options = new com.aspose.html.rendering.xps.XpsRenderingOptions();
@@ -82,9 +82,9 @@ pageSetup.setAdjustToWidestPage(false);
 xps_options.setPageSetup(pageSetup);
 ```
 
-In diesem Schritt wird die Seitengröße festgelegt und angegeben, ob sie an die breiteste Seite angepasst werden soll.
+In diesem Schritt legen Sie die Seitengröße fest und geben an, ob diese an die breiteste Seite angepasst werden soll.
 
-## Schritt 5: Rendern Sie die Ausgabe
+## Schritt 5: Rendern der Ausgabe
 
 ```java
 com.aspose.html.rendering.xps.XpsDevice device = new com.aspose.html.rendering.xps.XpsDevice(xps_options, "YourOutputFile.xps");
@@ -96,21 +96,21 @@ Im letzten Schritt rendern wir die XPS-Ausgabe mit den konfigurierten Optionen.
 
 ## Abschluss
 
-In diesem Tutorial haben wir Ihnen gezeigt, wie Sie die XPS-Seitengröße mit Aspose.HTML für Java anpassen. Sie können die Ausgabeabmessungen Ihrer XPS-Dokumente steuern und so sicherstellen, dass sie Ihren spezifischen Anforderungen entsprechen. Mit dem bereitgestellten Code und den bereitgestellten Schritten können Sie diese Funktion problemlos in Ihren Java-Anwendungen implementieren.
+In diesem Tutorial haben wir Ihnen gezeigt, wie Sie die XPS-Seitengröße mit Aspose.HTML für Java anpassen. Sie können die Ausgabeabmessungen Ihrer XPS-Dokumente steuern und sicherstellen, dass sie Ihren spezifischen Anforderungen entsprechen. Mit dem bereitgestellten Code und den Schritten können Sie diese Funktion problemlos in Ihre Java-Anwendungen implementieren.
 
- Wenn Sie Fragen haben oder weitere Hilfe benötigen, besuchen Sie bitte die[Aspose.HTML für Java-Dokumentation](https://reference.aspose.com/html/java/) oder bitten Sie um Hilfe[Aspose-Forum](https://forum.aspose.com/).
+ Wenn Sie Fragen haben oder weitere Hilfe benötigen, besuchen Sie bitte die[Aspose.HTML für Java-Dokumentation](https://reference.aspose.com/html/java/) oder bitten Sie um Hilfe auf der[Aspose Forum](https://forum.aspose.com/).
 
-## FAQs
+## Häufig gestellte Fragen
 
 ### F1: Was ist Aspose.HTML für Java?
 
-A1: Aspose.HTML für Java ist eine Java-Bibliothek, die es Entwicklern ermöglicht, HTML-Dokumente zu bearbeiten und in verschiedene Formate wie XPS, PDF und Bilder zu konvertieren.
+A1: Aspose.HTML für Java ist eine Java-Bibliothek, mit der Entwickler HTML-Dokumente bearbeiten und in verschiedene Formate wie XPS, PDF und Bilder konvertieren können.
 
 ### F2: Wo kann ich Aspose.HTML für Java herunterladen?
 
- A2: Sie können die Aspose.HTML für Java-Bibliothek von herunterladen[dieser Link](https://releases.aspose.com/html/java/).
+ A2: Sie können die Aspose.HTML für Java-Bibliothek herunterladen von[dieser Link](https://releases.aspose.com/html/java/).
 
-### F3: Gibt es eine kostenlose Testversion für Aspose.HTML für Java?
+### F3: Gibt es eine kostenlose Testversion von Aspose.HTML für Java?
 
  A3: Ja, Sie können eine kostenlose Testversion von Aspose.HTML für Java erhalten von[Hier](https://releases.aspose.com/).
 
@@ -118,6 +118,6 @@ A1: Aspose.HTML für Java ist eine Java-Bibliothek, die es Entwicklern ermöglic
 
  A4: Um eine temporäre Lizenz für Aspose.HTML für Java zu erhalten, besuchen Sie[diese Seite](https://purchase.aspose.com/temporary-license/).
 
-### F5: Kann ich Unterstützung für Aspose.HTML für Java erhalten?
+### F5: Kann ich Support für Aspose.HTML für Java erhalten?
 
- A5: Ja, Sie können Hilfe und Unterstützung von der Aspose-Community erhalten[Aspose-Forum](https://forum.aspose.com/).
+ A5: Ja, Sie können Hilfe und Unterstützung von der Aspose-Community erhalten auf der[Aspose Forum](https://forum.aspose.com/).

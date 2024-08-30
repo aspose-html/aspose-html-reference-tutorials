@@ -7,7 +7,7 @@ type: docs
 weight: 13
 url: /cs/net/rendering-html-documents/render-mhtml-as-xps/
 ---
-## Úvod
+## Zavedení
 
 V dynamickém světě webového vývoje může mít k dispozici ty správné nástroje a knihovny zásadní význam. Pokud pracujete s HTML manipulací a vykreslováním v .NET, Aspose.HTML for .NET je výkonná knihovna, která může zjednodušit vaše úkoly a rozšířit vaše možnosti. V tomto tutoriálu se ponoříme hluboko do Aspose.HTML pro .NET, rozdělíme příklady do zvládnutelných kroků a poskytneme jasná vysvětlení pro každý z nich.
 
@@ -21,7 +21,7 @@ Ujistěte se, že máte v systému nainstalované Visual Studio. Aspose.HTML for
 
 ### 2. Aspose.HTML pro .NET
 
- Budete si muset stáhnout a nainstalovat Aspose.HTML pro .NET. Můžete jej získat z odkazu ke stažení[tady](https://releases.aspose.com/html/net/).
+ Budete si muset stáhnout a nainstalovat Aspose.HTML pro .NET. Můžete jej získat z odkazu ke stažení[zde](https://releases.aspose.com/html/net/).
 
 ### 3. Základní znalost .NET
 
@@ -90,13 +90,13 @@ Aspose.HTML for .NET je cenný nástroj pro vývojáře, kteří pracují na man
 Aspose.HTML for .NET je knihovna, která poskytuje možnosti manipulace s HTML a vykreslování pro vývojáře .NET. Umožňuje pracovat s HTML dokumenty v různých formátech.
 
 ### Kde si mohu stáhnout Aspose.HTML pro .NET?
- Aspose.HTML pro .NET si můžete stáhnout ze stránky vydání[tady](https://releases.aspose.com/html/net/).
+ Aspose.HTML pro .NET si můžete stáhnout ze stránky vydání[zde](https://releases.aspose.com/html/net/).
 
 ### Je k dispozici bezplatná zkušební verze?
- Ano, máte přístup k bezplatné zkušební verzi Aspose.HTML pro .NET[tady](https://releases.aspose.com/).
+ Ano, máte přístup k bezplatné zkušební verzi Aspose.HTML pro .NET[zde](https://releases.aspose.com/).
 
 ### Jak mohu získat podporu pro Aspose.HTML pro .NET?
-Můžete vyhledat podporu a pomoc od komunity Aspose.HTML na[Fórum](https://forum.aspose.com/).
+Můžete vyhledat podporu a pomoc od komunity Aspose.HTML na[forum](https://forum.aspose.com/).
 
 ### Mohu si zakoupit dočasnou licenci pro Aspose.HTML pro .NET?
- Ano, dočasnou licenci můžete získat ze stránky nákupu[tady](https://purchase.aspose.com/temporary-license/).
+ Ano, dočasnou licenci můžete získat ze stránky nákupu[zde](https://purchase.aspose.com/temporary-license/).

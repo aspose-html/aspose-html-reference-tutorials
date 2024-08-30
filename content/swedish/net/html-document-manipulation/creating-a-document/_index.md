@@ -156,7 +156,7 @@ var document = new Aspose.Html.HTMLDocument();
 ```csharp
 document.OnReadyStateChange += (sender, @event) =>
 {
-    //Kontrollera värdet på egenskapen "ReadyState".
+    // Kontrollera värdet på egenskapen "ReadyState".
     if (document.ReadyState == "complete")
     {
         Console.WriteLine(document.DocumentElement.OuterHTML);
@@ -203,7 +203,7 @@ Console.ReadLine();
 
 Det här exemplet visar att du laddar ett HTML-dokument asynkront och hanterar händelsen 'OnLoad' för att visa innehållet när det är klart.
 
-## Sammanfattningsvis
+## Avslutningsvis
 
 I webbutvecklingens dynamiska värld är det avgörande att ha rätt verktyg till ditt förfogande. Aspose.HTML för .NET ger dig möjlighet att skapa, manipulera och bearbeta HTML- och SVG-dokument effektivt. Den här omfattande guiden har gått igenom det väsentliga och säkerställt att du kan utnyttja kraften i Aspose.HTML för .NET i dina projekt.
 
@@ -217,7 +217,7 @@ S1: Aspose.HTML för .NET är ett kraftfullt .NET-bibliotek som gör det möjlig
 
 S2: Ja, Aspose.HTML för .NET är kompatibel med både .NET Framework och .NET Core, vilket gör det till ett mångsidigt val för moderna .NET-applikationer.
 
-### F3: Är Aspose.HTML för .NET lämplig för webbskrapning och analys?
+### F3: Är Aspose.HTML för .NET lämpligt för webbskrapning och analys?
 
 A3: Absolut! Aspose.HTML för .NET är ett utmärkt val för webbskrapnings- och analysuppgifter, tack vare dess förmåga att ladda HTML-dokument från webbadresser och strängar. Du kan extrahera data, utföra analyser och mer.
 
@@ -231,6 +231,6 @@ S5: För omfattande dokumentation och tillgång till nedladdningsalternativ kan 
 
 - [Dokumentation](https://reference.aspose.com/html/net/)
 - [Ladda ner](https://releases.aspose.com/html/net/)
-- [köpa](https://purchase.aspose.com/buy)
+- [Köpa](https://purchase.aspose.com/buy)
 - [Gratis provperiod](https://releases.aspose.com/)
 - [Tillfällig licens](https://purchase.aspose.com/temporary-license/)

@@ -91,7 +91,7 @@ Converter.ConvertHTML(htmlDocument, options, outputFile);
 
  A`Converter` osztályt az Aspose.HTML biztosítja az átalakítás végrehajtásához. Paraméterként veszi a HTML-dokumentumot, a képformátum-beállításokat és a kimeneti fájl elérési útját.
 
-Gratulálunk! Sikeresen konvertált egy HTML-dokumentumot GIF formátumba az Aspose.HTML for .NET használatával. Ez az átfogó útmutató végigvezeti Önt az egyes lépéseken, és biztosítja, hogy világosan megértse a folyamatot.
+Gratulálok! Sikeresen konvertált egy HTML-dokumentumot GIF formátumba az Aspose.HTML for .NET használatával. Ez az átfogó útmutató végigvezeti Önt az egyes lépéseken, és biztosítja, hogy világosan megértse a folyamatot.
 
 ## Következtetés
 

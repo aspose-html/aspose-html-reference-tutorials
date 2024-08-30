@@ -18,7 +18,7 @@ url: /zh-hant/net/working-with-html-documents/editing-a-document/
 
 2.  Aspose.HTML for .NET：您應該安裝 Aspose.HTML for .NET 程式庫。您可以從以下位置下載：[這裡](https://releases.aspose.com/html/net/).
 
-3. 對 C# 的基本了解：熟悉 C# 程式設計將會很有幫助，但即使您是 C# 新手，您仍然可以繼續學習。
+3. 對 C# 的基本了解：熟悉 C# 程式設計將會很有幫助，但即使您是 C# 新手，您仍然可以跟隨並學習。
 
 ## 導入必要的命名空間
 

@@ -1,30 +1,30 @@
 ---
-title: Convertitori di ottimizzazione in .NET con Aspose.HTML
-linktitle: Convertitori di ottimizzazione in .NET
-second_title: Aspose.HTML .NET API di manipolazione HTML
-description: Scopri come convertire HTML in PDF, XPS e immagini con Aspose.HTML per .NET. Tutorial passo passo con esempi di codice e domande frequenti.
+title: Ottimizzazione dei convertitori in .NET con Aspose.HTML
+linktitle: Ottimizzazione dei convertitori in .NET
+second_title: Aspose.HTML API di manipolazione HTML .NET
+description: Scopri come convertire HTML in PDF, XPS e immagini con Aspose.HTML per .NET. Esercitazione dettagliata con esempi di codice e FAQ.
 type: docs
 weight: 16
 url: /it/net/advanced-features/fine-tuning-converters/
 ---
 
-## introduzione
+## Introduzione
 
-Aspose.HTML per .NET è una potente libreria che consente agli sviluppatori di manipolare e convertire documenti HTML in vari formati. Sia che tu abbia bisogno di convertire HTML in PDF, XPS o immagini o di eseguire altre attività relative all'HTML, Aspose.HTML fornisce un robusto set di strumenti per aiutarti a portare a termine il lavoro.
+Aspose.HTML per .NET è una potente libreria che consente agli sviluppatori di manipolare e convertire documenti HTML in vari formati. Che tu debba convertire HTML in PDF, XPS o immagini, o eseguire altre attività correlate a HTML, Aspose.HTML fornisce un robusto set di strumenti per aiutarti a portare a termine il lavoro.
 
-In questo tutorial, esploreremo alcune funzionalità essenziali di Aspose.HTML per .NET e forniremo spiegazioni dettagliate per ciascun esempio. Alla fine di questo tutorial, avrai una solida conoscenza di come utilizzare Aspose.HTML per .NET nelle tue applicazioni .NET.
+In questo tutorial, esploreremo alcune funzionalità essenziali di Aspose.HTML per .NET e forniremo spiegazioni passo dopo passo per ogni esempio. Alla fine di questo tutorial, avrai una solida comprensione di come usare Aspose.HTML per .NET nelle tue applicazioni .NET.
 
 ## Prerequisiti
 
-Prima di immergerci negli esempi, assicurati di avere i seguenti prerequisiti:
+Prima di addentrarci negli esempi, assicurati di avere i seguenti prerequisiti:
 
--  Aspose.HTML per .NET: dovresti avere la libreria Aspose.HTML per .NET installata. Puoi scaricarlo da[Link per scaricare](https://releases.aspose.com/html/net/).
+-  Aspose.HTML per .NET: dovresti avere installata la libreria Aspose.HTML per .NET. Puoi scaricarla da[collegamento per il download](https://releases.aspose.com/html/net/).
 
-- Licenza temporanea (facoltativa): se non disponi di una licenza valida, puoi ottenere una licenza temporanea da[Qui](https://purchase.aspose.com/temporary-license/).
+-  Licenza temporanea (facoltativa): se non si dispone di una licenza valida, è possibile ottenere una licenza temporanea da[Qui](https://purchase.aspose.com/temporary-license/).
 
 Ora esploriamo alcuni casi d'uso comuni con Aspose.HTML per .NET.
 
-## Importa spazi dei nomi
+## Importazione degli spazi dei nomi
 
 Nel codice C#, inizia importando gli spazi dei nomi necessari:
 
@@ -37,7 +37,7 @@ using Aspose.Html.Rendering.Pdf.Encryption;
 using Aspose.Html.Drawing;
 ```
 
-## Converti HTML in PDF
+## Convertire HTML in PDF
 
 ### Passaggio 1: preparare il codice HTML
 
@@ -45,27 +45,27 @@ using Aspose.Html.Drawing;
 var code = @"<span>Hello World!!</span>";
 ```
 
-### Passaggio 2: inizializza il documento HTML
+### Passaggio 2: inizializzare il documento HTML
 
 ```csharp
 using (var document = new HTMLDocument(code, "."))
 ```
 
-### Passaggio 3: crea un dispositivo PDF e specifica il file di output
+### Passaggio 3: creare un dispositivo PDF e specificare il file di output
 
 ```csharp
 using (var device = new PdfDevice("output.pdf"))
 ```
 
-### Passaggio 4: renderizza HTML in PDF
+### Passaggio 4: Trasformare l'HTML in PDF
 
 ```csharp
 document.RenderTo(device);
 ```
 
-Questo esempio converte uno snippet HTML in un documento PDF. È possibile personalizzare il codice HTML e il file di output secondo necessità.
+Questo esempio converte uno snippet HTML in un documento PDF. Puoi personalizzare il codice HTML e il file di output in base alle tue esigenze.
 
-## Imposta dimensioni pagina personalizzate
+## Imposta dimensione pagina personalizzata
 
 ### Passaggio 1: preparare il codice HTML
 
@@ -73,13 +73,13 @@ Questo esempio converte uno snippet HTML in un documento PDF. È possibile perso
 var code = @"<span>Hello World!!</span>";
 ```
 
-### Passaggio 2: inizializza il documento HTML
+### Passaggio 2: inizializzare il documento HTML
 
 ```csharp
 using (var document = new HTMLDocument(code, "."))
 ```
 
-### Passaggio 3: crea opzioni di rendering PDF
+### Passaggio 3: creare opzioni di rendering PDF
 
 ```csharp
 var options = new PdfRenderingOptions()
@@ -94,23 +94,23 @@ var options = new PdfRenderingOptions()
 };
 ```
 
-### Passaggio 4: crea un dispositivo PDF e specifica le opzioni e il file di output
+### Passaggio 4: creare un dispositivo PDF e specificare le opzioni e il file di output
 
 ```csharp
 using (var device = new PdfDevice(options, "output.pdf"))
 ```
 
-### Passaggio 5: renderizza HTML in PDF
+### Passaggio 5: Trasformare l'HTML in PDF
 
 ```csharp
 document.RenderTo(device);
 ```
 
-Questo esempio dimostra come impostare una dimensione di pagina personalizzata per il documento PDF risultante.
+Questo esempio mostra come impostare una dimensione di pagina personalizzata per il documento PDF risultante.
 
 ## Regola la risoluzione
 
-### Passaggio 1: preparare il codice HTML e salvarlo su file
+### Passaggio 1: preparare il codice HTML e salvarlo nel file
 
 ```csharp
 var code = @"
@@ -132,13 +132,13 @@ var code = @"
 System.IO.File.WriteAllText("document.html", code);
 ```
 
-### Passaggio 2: inizializza il documento HTML
+### Passaggio 2: inizializzare il documento HTML
 
 ```csharp
 using (var document = new HTMLDocument("document.html"))
 ```
 
-### Passaggio 3: crea opzioni di rendering PDF per la bassa risoluzione
+### Passaggio 3: creare opzioni di rendering PDF per bassa risoluzione
 
 ```csharp
 var options = new PdfRenderingOptions()
@@ -148,19 +148,19 @@ var options = new PdfRenderingOptions()
 };
 ```
 
-### Passaggio 4: crea un dispositivo PDF e specifica le opzioni e il file di output per la bassa risoluzione
+### Passaggio 4: creare un dispositivo PDF e specificare le opzioni e il file di output per la bassa risoluzione
 
 ```csharp
 using (var device = new PdfDevice(options, "output_resolution_50.pdf"))
 ```
 
-### Passaggio 5: renderizza HTML in PDF per la bassa risoluzione
+### Passaggio 5: rendering di HTML in PDF per bassa risoluzione
 
 ```csharp
 document.RenderTo(device);
 ```
 
-### Passaggio 6: crea opzioni di rendering PDF per l'alta risoluzione
+### Passaggio 6: creare opzioni di rendering PDF per alta risoluzione
 
 ```csharp
 options = new PdfRenderingOptions()
@@ -170,36 +170,36 @@ options = new PdfRenderingOptions()
 };
 ```
 
-### Passaggio 7: crea un dispositivo PDF e specifica le opzioni e il file di output per l'alta risoluzione
+### Passaggio 7: creare un dispositivo PDF e specificare le opzioni e il file di output per l'alta risoluzione
 
 ```csharp
 using (var device = new PdfDevice(options, "output_resolution_300.pdf"))
 ```
 
-### Passaggio 8: renderizza HTML in PDF per l'alta risoluzione
+### Passaggio 8: rendering di HTML in PDF per alta risoluzione
 
 ```csharp
 document.RenderTo(device);
 ```
 
-Questo esempio illustra come regolare la risoluzione durante il rendering di HTML in PDF, considerando sia gli schermi a bassa che ad alta risoluzione.
+Questo esempio illustra come regolare la risoluzione durante il rendering di HTML in PDF, tenendo conto sia degli schermi a bassa che di quelli ad alta risoluzione.
 
-## Specifica il colore di sfondo
+## Specificare il colore di sfondo
 
-### Passaggio 1: preparare il codice HTML e salvarlo su file
+### Passaggio 1: preparare il codice HTML e salvarlo nel file
 
 ```csharp
 var code = @"<p>Hello World!!</p>";
 System.IO.File.WriteAllText("document.html", code);
 ```
 
-### Passaggio 2: inizializza il documento HTML
+### Passaggio 2: inizializzare il documento HTML
 
 ```csharp
 using (var document = new HTMLDocument("document.html"))
 ```
 
-### Passaggio 3: inizializza le opzioni di rendering PDF con il colore di sfondo
+### Passaggio 3: inizializzare le opzioni di rendering PDF con il colore di sfondo
 
 ```csharp
 var options = new PdfRenderingOptions()
@@ -208,19 +208,19 @@ var options = new PdfRenderingOptions()
 };
 ```
 
-### Passaggio 4: crea un dispositivo PDF e specifica le opzioni e il file di output
+### Passaggio 4: creare un dispositivo PDF e specificare le opzioni e il file di output
 
 ```csharp
 using (var device = new PdfDevice(options, "output.pdf"))
 ```
 
-### Passaggio 5: renderizza HTML in PDF
+### Passaggio 5: Trasformare l'HTML in PDF
 
 ```csharp
 document.RenderTo(device);
 ```
 
-Questo esempio dimostra come specificare un colore di sfondo durante la conversione da HTML a PDF.
+Questo esempio mostra come specificare un colore di sfondo durante la conversione di HTML in PDF.
 
 ## Imposta le dimensioni della pagina sinistra e destra
 
@@ -234,13 +234,13 @@ var code = @"<style>div { page-break-after: always; }</style>
     <div>Fourth Page</div>";
 ```
 
-### Passaggio 2: inizializza il documento HTML
+### Passaggio 2: inizializzare il documento HTML
 
 ```csharp
 using (var document = new HTMLDocument(code, "."))
 ```
 
-### Passaggio 3: crea opzioni di rendering PDF con le dimensioni della pagina sinistra e destra
+### Passaggio 3: creare opzioni di rendering PDF con dimensioni di pagina sinistra e destra
 
 ```csharp
 var options = new PdfRenderingOptions();
@@ -250,19 +250,19 @@ options.PageSetup.SetLeftRightPage(
 );
 ```
 
-### Passaggio 4: crea un dispositivo PDF e specifica le opzioni e il file di output
+### Passaggio 4: creare un dispositivo PDF e specificare le opzioni e il file di output
 
 ```csharp
 using (var device = new PdfDevice(options, "output.pdf"))
 ```
 
-### Passaggio 5: renderizza HTML in PDF
+### Passaggio 5: Trasformare l'HTML in PDF
 
 ```csharp
 document.RenderTo(device);
 ```
 
-Questo esempio mostra come impostare dimensioni di pagina diverse per le pagine sinistra e destra durante la conversione da HTML a PDF.
+Questo esempio mostra come impostare dimensioni di pagina diverse per la pagina sinistra e quella destra durante la conversione di HTML in PDF.
 
 ## Adatta le dimensioni della pagina al contenuto
 
@@ -276,13 +276,13 @@ var code = @"<style>
 <div style='border: 1px solid red; width: 600px'>Second Page</div>";
 ```
 
-### Passaggio 2: inizializza il documento HTML
+### Passaggio 2: inizializzare il documento HTML
 
 ```csharp
 using (var document = new HTMLDocument(code, "."))
 ```
 
-### Passaggio 3: crea opzioni di rendering PDF
+### Passaggio 3: creare opzioni di rendering PDF
 
 ```csharp
 var options = new PdfRenderingOptions();
@@ -290,19 +290,19 @@ options.PageSetup.AnyPage = new Page(new Size(500, 200));
 options.PageSetup.AdjustToWidestPage = true;
 ```
 
-### Passaggio 4: crea un dispositivo PDF e specifica le opzioni e il file di output
+### Passaggio 4: creare un dispositivo PDF e specificare le opzioni e il file di output
 
 ```csharp
 using (var device = new PdfDevice(options, "output.pdf"))
 ```
 
-### Passaggio 5: renderizza HTML in PDF
+### Passaggio 5: Trasformare l'HTML in PDF
 
 ```csharp
 document.RenderTo(device);
 ```
 
-Questo esempio dimostra come adattare le dimensioni della pagina al contenuto più ampio durante la conversione da HTML a PDF.
+Questo esempio mostra come adattare le dimensioni della pagina al contenuto più ampio durante la conversione di HTML in PDF.
 
 ## Specificare le autorizzazioni PDF
 
@@ -312,13 +312,13 @@ Questo esempio dimostra come adattare le dimensioni della pagina al contenuto pi
 var code = @"<div>Hello World!!</div>";
 ```
 
-### Passaggio 2: inizializza il documento HTML
+### Passaggio 2: inizializzare il documento HTML
 
 ```csharp
 using (var document = new HTMLDocument(code, "."))
 ```
 
-### Passaggio 3: crea opzioni di rendering PDF con autorizzazioni
+### Passaggio 3: creare opzioni di rendering PDF con autorizzazioni
 
 ```csharp
 var options = new PdfRenderingOptions();
@@ -330,19 +330,19 @@ options.Encryption = new PdfEncryptionInfo(
 );
 ```
 
-### Passaggio 4: crea un dispositivo PDF e specifica le opzioni e il file di output
+### Passaggio 4: creare un dispositivo PDF e specificare le opzioni e il file di output
 
 ```csharp
 using (var device = new PdfDevice(options, "output.pdf"))
 ```
 
-### Passaggio 5: renderizza HTML in PDF
+### Passaggio 5: Trasformare l'HTML in PDF
 
 ```csharp
 document.RenderTo(device);
 ```
 
-Questo esempio dimostra come specificare autorizzazioni e crittografia durante la conversione di HTML in un PDF protetto.
+Questo esempio mostra come specificare autorizzazioni e crittografia durante la conversione di HTML in un PDF protetto.
 
 ## Specificare le opzioni specifiche dell'immagine
 
@@ -352,13 +352,13 @@ Questo esempio dimostra come specificare autorizzazioni e crittografia durante l
 var code = @"<div>Hello World!!</div>";
 ```
 
-### Passaggio 2: inizializza il documento HTML
+### Passaggio 2: inizializzare il documento HTML
 
 ```csharp
 using (var document = new HTMLDocument(code, "."))
 ```
 
-### Passaggio 3: crea opzioni di rendering dell'immagine
+### Passaggio 3: creare opzioni di rendering delle immagini
 
 ```csharp
 var options = new ImageRenderingOptions()
@@ -376,13 +376,13 @@ var options = new ImageRenderingOptions()
 using (var device = new ImageDevice(options, "output.jpg"))
 ```
 
-### Passaggio 5: rendering dell'HTML nell'immagine
+### Passaggio 5: rendering dell'HTML in immagine
 
 ```csharp
 document.RenderTo(device);
 ```
 
-Questo esempio dimostra come convertire HTML in un'immagine con opzioni di rendering specifiche, come formato, risoluzione e modalità di smussamento.
+Questo esempio mostra come convertire l'HTML in un'immagine con opzioni di rendering specifiche, come formato, risoluzione e modalità di levigatura.
 
 ## Specificare le opzioni di rendering XPS
 
@@ -392,13 +392,13 @@ Questo esempio dimostra come convertire HTML in un'immagine con opzioni di rende
 var code = @"<span>Hello World!!</span>";
 ```
 
-### Passaggio 2: inizializza il documento HTML
+### Passaggio 2: inizializzare il documento HTML
 
 ```csharp
 using (var document = new HTMLDocument(code, "."))
 ```
 
-### Passaggio 3: crea opzioni di rendering XPS con dimensioni pagina
+### Passaggio 3: creare opzioni di rendering XPS con dimensioni di pagina
 
 ```csharp
 var options = new XpsRenderingOptions();
@@ -410,19 +410,19 @@ options.PageSetup.AnyPage = new Page(
 );
 ```
 
-### Passaggio 4: crea il dispositivo XPS e specifica le opzioni e il file di output
+### Passaggio 4: creare un dispositivo XPS e specificare le opzioni e il file di output
 
 ```csharp
 using (var device = new XpsDevice(options, "output.xps"))
 ```
 
-### Passaggio 5: rendering di HTML in XPS
+### Passaggio 5: rendering HTML in XPS
 
 ```csharp
 document.RenderTo(device);
 ```
 
-Questo esempio mostra come convertire HTML in XPS con dimensioni di pagina personalizzate e opzioni di rendering.
+Questo esempio mostra come convertire HTML in XPS con dimensioni di pagina e opzioni di rendering personalizzate.
 
 ## Combina più documenti HTML in PDF
 
@@ -434,7 +434,7 @@ var code2 = @"<br><span style='color: blue'>Hello World!!</span>";
 var code3 = @"<br><span style='color: red'>Hello World!!</span>";
 ```
 
-### Passaggio 2: crea documenti HTML da unire
+### Passaggio 2: creare documenti HTML da unire
 
 ```csharp
 using (var document1 = new HTMLDocument(code1, "."))
@@ -442,27 +442,27 @@ using (var document2 = new HTMLDocument(code2, "."))
 using (var document3 = new HTMLDocument(code3, "."))
 ```
 
-### Passaggio 3: inizializza il renderer HTML
+### Passaggio 3: inizializzare il renderer HTML
 
 ```csharp
 using (HTMLRenderer renderer = new HTMLRenderer())
 ```
 
-### Passaggio 4: crea un dispositivo PDF per l'output unito
+### Passaggio 4: creare un dispositivo PDF per l'output unito
 
 ```csharp
 using (var device = new PdfDevice("output.pdf"))
 ```
 
-### Passaggio 5: unisci i documenti HTML in PDF
+### Passaggio 5: unire i documenti HTML in PDF
 
 ```csharp
 renderer.Render(device, document1, document2, document3);
 ```
 
-Questo esempio dimostra come combinare più documenti HTML in un singolo file PDF utilizzando Aspose.HTML per .NET.
+Questo esempio mostra come combinare più documenti HTML in un unico file PDF utilizzando Aspose.HTML per .NET.
 
-## Imposta il timeout del rendering
+## Imposta timeout di rendering
 
 ### Passaggio 1: preparare il codice HTML con JavaScript
 
@@ -481,19 +481,19 @@ var code = @"
     </script>";
 ```
 
-### Passaggio 2: inizializza il documento HTML
+### Passaggio 2: inizializzare il documento HTML
 
 ```csharp
 using (var document = new HTMLDocument(code, "."))
 ```
 
-### Passaggio 3: inizializza il renderer HTML
+### Passaggio 3: inizializzare il renderer HTML
 
 ```csharp
 using (HTMLRenderer renderer = new HTMLRenderer())
 ```
 
-### Passaggio 4: crea un dispositivo PDF e imposta il timeout del rendering
+### Passaggio 4: creare un dispositivo PDF e impostare il timeout di rendering
 
 ```csharp
 using (var device = new PdfDevice("output.pdf"))
@@ -505,32 +505,32 @@ using (var device = new PdfDevice("output.pdf"))
 renderer.Render(device, TimeSpan.FromSeconds(5), document);
 ```
 
-Questo esempio dimostra come impostare un timeout di rendering durante la conversione di HTML in PDF, il che può essere utile quando si ha a che fare con contenuto dinamico o script di lunga esecuzione.
+Questo esempio mostra come impostare un timeout di rendering durante la conversione di HTML in PDF, il che può essere utile quando si ha a che fare con contenuti dinamici o script di lunga durata.
 
 ## Conclusione
 
-Aspose.HTML per .NET è una libreria versatile che consente agli sviluppatori di lavorare in modo efficiente con i documenti HTML. In questo tutorial abbiamo trattato vari esempi, dalle conversioni di base da HTML a PDF a funzionalità più avanzate come dimensioni di pagina personalizzate, risoluzioni e autorizzazioni. Seguendo questi esempi, puoi sfruttare tutto il potenziale di Aspose.HTML per .NET nelle tue applicazioni .NET.
+Aspose.HTML per .NET è una libreria versatile che consente agli sviluppatori di lavorare in modo efficiente con i documenti HTML. In questo tutorial, abbiamo trattato vari esempi, dalle conversioni di base da HTML a PDF a funzionalità più avanzate come dimensioni di pagina personalizzate, risoluzioni e permessi. Seguendo questi esempi, puoi sfruttare appieno il potenziale di Aspose.HTML per .NET nelle tue applicazioni .NET.
 
- Se hai domande o hai bisogno di ulteriore assistenza, non esitare a visitare il[Aspose.HTML Forum](https://forum.aspose.com/) per supporto e guida.
+ Se hai domande o hai bisogno di ulteriore assistenza, non esitare a visitare il[Forum di Aspose.HTML](https://forum.aspose.com/) per supporto e guida.
 
 ## Domande frequenti
 
-### Q1. Cos'è Aspose.HTML per .NET?
+### D1. Che cos'è Aspose.HTML per .NET?
    
-A1: Aspose.HTML per .NET è una libreria .NET che consente agli sviluppatori di manipolare e convertire documenti HTML a livello di codice. Offre un'ampia gamma di funzionalità per lavorare con contenuti HTML, inclusi HTML in PDF, XPS e conversione di immagini, nonché opzioni di rendering avanzate.
+A1: Aspose.HTML per .NET è una libreria .NET che consente agli sviluppatori di manipolare e convertire i documenti HTML a livello di programmazione. Offre un'ampia gamma di funzionalità per lavorare con contenuti HTML, tra cui HTML in PDF, XPS e conversione di immagini, nonché opzioni di rendering avanzate.
 
-### Q2. Dove posso scaricare Aspose.HTML per .NET?
+### D2. Dove posso scaricare Aspose.HTML per .NET?
 
- A2: È possibile scaricare Aspose.HTML per .NET da[Link per scaricare](https://releases.aspose.com/html/net/).
+ A2: Puoi scaricare Aspose.HTML per .NET da[collegamento per il download](https://releases.aspose.com/html/net/).
 
-### Q3. Ho bisogno di una licenza per utilizzare Aspose.HTML per .NET?
+### D3. Ho bisogno di una licenza per utilizzare Aspose.HTML per .NET?
 
-A3: Sebbene sia possibile utilizzare Aspose.HTML per .NET senza licenza, è consigliabile ottenere una licenza per uso produttivo per sbloccare tutte le funzionalità e rimuovere eventuali filigrane o limitazioni.
+R3: Sebbene sia possibile utilizzare Aspose.HTML per .NET senza licenza, si consiglia di ottenere una licenza per l'uso in produzione per sbloccare tutte le funzionalità e rimuovere eventuali filigrane o limitazioni.
 
-### Q4. Come posso proteggere i miei file PDF generati con Aspose.HTML per .NET?
+### D4. Come posso proteggere i miei file PDF generati con Aspose.HTML per .NET?
 
-A4: È possibile specificare le autorizzazioni PDF e le impostazioni di crittografia durante il rendering di HTML in PDF utilizzando Aspose.HTML per .NET. Ciò consente di controllare chi può accedere e modificare i file PDF risultanti.
+A4: È possibile specificare le autorizzazioni PDF e le impostazioni di crittografia quando si esegue il rendering di HTML in PDF utilizzando Aspose.HTML per .NET. Ciò consente di controllare chi può accedere e modificare i file PDF risultanti.
 
-### Q5. Posso convertire HTML in altri formati come XPS o immagini?
+### D5. Posso convertire l'HTML in altri formati come XPS o immagini?
 
-A5: Sì, Aspose.HTML per .NET supporta la conversione di HTML in vari formati, inclusi PDF, XPS e immagini (ad esempio JPEG). Puoi personalizzare le impostazioni di conversione per soddisfare i tuoi requisiti specifici.
+A5: Sì, Aspose.HTML per .NET supporta la conversione di HTML in vari formati, tra cui PDF, XPS e immagini (ad esempio, JPEG). Puoi personalizzare le impostazioni di conversione per soddisfare i tuoi requisiti specifici.

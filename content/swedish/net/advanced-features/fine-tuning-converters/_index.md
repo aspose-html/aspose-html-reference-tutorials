@@ -12,7 +12,7 @@ url: /sv/net/advanced-features/fine-tuning-converters/
 
 Aspose.HTML för .NET är ett kraftfullt bibliotek som låter utvecklare manipulera och konvertera HTML-dokument i olika format. Oavsett om du behöver konvertera HTML till PDF, XPS eller bilder, eller utföra andra HTML-relaterade uppgifter, tillhandahåller Aspose.HTML en robust uppsättning verktyg som hjälper dig att få jobbet gjort.
 
-I den här handledningen kommer vi att utforska några väsentliga funktioner i Aspose.HTML för .NET och ge steg-för-steg förklaringar för varje exempel. I slutet av denna handledning kommer du att ha en gedigen förståelse för hur du använder Aspose.HTML för .NET i dina .NET-applikationer.
+den här handledningen kommer vi att utforska några väsentliga funktioner i Aspose.HTML för .NET och ge steg-för-steg förklaringar för varje exempel. I slutet av denna handledning kommer du att ha en gedigen förståelse för hur du använder Aspose.HTML för .NET i dina .NET-applikationer.
 
 ## Förutsättningar
 
@@ -20,7 +20,7 @@ Innan vi dyker in i exemplen, se till att du har följande förutsättningar på
 
 -  Aspose.HTML for .NET: Du bör ha Aspose.HTML for .NET-biblioteket installerat. Du kan ladda ner den från[nedladdningslänk](https://releases.aspose.com/html/net/).
 
-- Tillfällig licens (valfritt): Om du inte har en giltig licens kan du få en tillfällig licens från[här](https://purchase.aspose.com/temporary-license/).
+-  Tillfällig licens (valfritt): Om du inte har en giltig licens kan du få en tillfällig licens från[här](https://purchase.aspose.com/temporary-license/).
 
 Låt oss nu utforska några vanliga användningsfall med Aspose.HTML för .NET.
 
@@ -63,7 +63,7 @@ using (var device = new PdfDevice("output.pdf"))
 document.RenderTo(device);
 ```
 
-Det här exemplet konverterar ett HTML-kodavsnitt till ett PDF-dokument. Du kan anpassa HTML-koden och utdatafilen efter behov.
+Det här exemplet konverterar ett HTML-utdrag till ett PDF-dokument. Du kan anpassa HTML-koden och utdatafilen efter behov.
 
 ## Ställ in anpassad sidstorlek
 

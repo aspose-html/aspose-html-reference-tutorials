@@ -18,7 +18,7 @@ Az EPUB (Electronic Publication) fájlokat széles körben használják e-könyv
 
 1. Konzisztencia: Az XPS-fájlok megtartják a dokumentumok eredeti formázását és elrendezését, így ideálisak a precíz formázást igénylő dokumentumok nyomtatásához és megosztásához.
 
-2. Univerzális kompatibilitás: Az XPS-fájlok bármely XPS-formátumot támogató eszközön vagy operációs rendszeren megnyithatók, így biztosítva, hogy tartalmai szélesebb közönséghez is eljussanak.
+2. Univerzális kompatibilitás: Az XPS-fájlok bármely olyan eszközön vagy operációs rendszeren megnyithatók, amely támogatja az XPS-formátumot, így biztosítva, hogy tartalma szélesebb közönséghez jusson el.
 
 3. Fokozott biztonság: Az XPS-fájlok digitálisan aláírhatók, így megvédheti tartalmait a jogosulatlan hozzáféréstől vagy módosítástól.
 
@@ -40,12 +40,12 @@ Néha előfordulhat, hogy egyéni adatfolyam-szolgáltatókat kell megadnia a ko
 
 ## XPS mentési beállítások megadása
 
-Bizonyos esetekben érdemes lehet finomhangolni az XPS kimenetet. Az Aspose.HTML for Java lehetőséget biztosít XPS-mentési beállítások megadására, így Ön szabályozhatja a végső XPS-dokumentum tulajdonságait és megjelenését.
+Bizonyos esetekben érdemes lehet finomhangolni az XPS kimenetet. Az Aspose.HTML for Java lehetőséget biztosít XPS mentési beállítások megadására, így Ön szabályozhatja a végső XPS-dokumentum tulajdonságait és megjelenését.
 
 ## EPUB konvertálása XPS-re oktatóanyagok
 Tekintse meg oktatóanyagainkat, hogy többet tudjon meg az Aspose.HTML for Java különféle forgatókönyvekben történő használatáról, így a dokumentumkezelési feladatok gyerekjáték. Az EPUB konvertálása XPS-re még soha nem volt ilyen egyszerű!
 ### [EPUB konvertálása XPS-re](./convert-epub-to-xps/)
-Ismerje meg, hogyan konvertálhat EPUB-t XPS-re az Aspose.HTML for Java használatával. Lépésről lépésre szóló útmutató a zökkenőmentes EPUB-ból XPS-be konvertáláshoz. Probáld ki most!
+Ismerje meg, hogyan konvertálhat EPUB-t XPS-re az Aspose.HTML for Java használatával. Lépésről lépésre szóló útmutató a zökkenőmentes EPUB-ból XPS-be konvertáláshoz. Próbálja ki most!
 ### [Egyéni adatfolyam-szolgáltató megadása az EPUB-hoz XPS-hez](./convert-epub-to-xps-specify-custom-stream-provider/)
 Az Aspose.HTML for Java segítségével könnyedén konvertálhat EPUB-t XPS-re. Kövesse ezt a lépésről lépésre szóló útmutatót a zökkenőmentes átalakítási folyamat érdekében.
 ### [XPS mentési beállítások megadása az EPUB-hoz XPS-hez](./convert-epub-to-xps-specify-xps-save-options/)

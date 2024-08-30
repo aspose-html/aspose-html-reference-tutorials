@@ -55,7 +55,7 @@ Först måste du öppna en befintlig EPUB-fil för läsning. Du kan uppnå detta
 try (java.io.FileInputStream fileInputStream = new java.io.FileInputStream("path/to/your/input.epub")) {
 ```
 
- Byta ut`"path/to/your/input.epub"` med den faktiska sökvägen till din EPUB.
+ Ersätta`"path/to/your/input.epub"` med den faktiska sökvägen till din EPUB.
 
 ### Steg 2: Initiera ImageSaveOptions
 
@@ -75,9 +75,9 @@ Detta steg säkerställer att utdata kommer att vara i BMP-format.
 Converter.convertEPUB(fileInputStream, options, "path/to/your/output.bmp");
 ```
 
- Byta ut`"path/to/your/output.bmp"` med den faktiska filsökvägen där du vill spara BMP-utdata.
+ Ersätta`"path/to/your/output.bmp"` med den faktiska filsökvägen där du vill spara BMP-utdata.
 
-Och det är allt! Du har framgångsrikt konverterat en EPUB-fil till BMP med Aspose.HTML för Java.
+Och det är det! Du har framgångsrikt konverterat en EPUB-fil till BMP med Aspose.HTML för Java.
 
 ## Slutsats
 

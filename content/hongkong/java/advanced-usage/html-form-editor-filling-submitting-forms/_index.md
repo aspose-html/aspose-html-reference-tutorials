@@ -13,7 +13,7 @@ url: /zh-hant/java/advanced-usage/html-form-editor-filling-submitting-forms/
 
 在我們深入了解使用 Aspose.HTML for Java 填寫和提交 HTML 表單的步驟之前，您應該確保滿足以下先決條件：
 
-1. Java 開發環境：您需要一個有效的 Java 開發環境，包括 JDK 和 IDE（例如 IntelliJ IDEA、Eclipse）。
+1. Java 開發環境：您需要一個有效的Java 開發環境，包括JDK 和IDE（例如IntelliJ IDEA、Eclipse）。
 
 2.  Aspose.HTML for Java：從網站下載並安裝 Aspose.HTML for Java。你可以找到下載鏈接[這裡](https://releases.aspose.com/html/java/).
 

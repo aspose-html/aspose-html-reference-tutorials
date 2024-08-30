@@ -84,7 +84,7 @@ try (java.io.FileOutputStream fileOutputStream = new java.io.FileOutputStream(Re
 
 ## Következtetés
 
-Gratulálunk! Sikeresen megtanulta az Aspose.HTML for Java használatát EPUB-fájlok képpé konvertálására. Ez a hatékony könyvtár a lehetőségek világát nyitja meg Java-alkalmazásai számára.
+Gratulálok! Sikeresen megtanulta az Aspose.HTML for Java használatát EPUB-fájlok képpé konvertálására. Ez a hatékony könyvtár a lehetőségek világát nyitja meg Java-alkalmazásai számára.
 
 ## GYIK
 

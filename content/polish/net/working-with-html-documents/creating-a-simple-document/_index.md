@@ -1,8 +1,8 @@
 ---
-title: Tworzenie prostego dokumentu w .NET za pomocą Aspose.HTML
+title: Tworzenie prostego dokumentu w .NET z Aspose.HTML
 linktitle: Tworzenie prostego dokumentu w .NET
 second_title: Aspose.HTML .NET API manipulacji HTML
-description: Naucz się pracować z dokumentami HTML w .NET przy użyciu Aspose.HTML. Twórz, manipuluj i konwertuj HTML bez wysiłku. Zacznij dziś!
+description: Naucz się pracować z dokumentami HTML w .NET przy użyciu Aspose.HTML. Twórz, manipuluj i konwertuj HTML bez wysiłku. Zacznij już dziś!
 type: docs
 weight: 11
 url: /pl/net/working-with-html-documents/creating-a-simple-document/
@@ -10,25 +10,25 @@ url: /pl/net/working-with-html-documents/creating-a-simple-document/
 
 ## Wstęp
 
-świecie tworzenia stron internetowych tworzenie dokumentów HTML i manipulowanie nimi jest zadaniem podstawowym. Niezależnie od tego, czy budujesz prostą stronę internetową, czy złożoną aplikację internetową, posiadanie niezawodnego narzędzia do manipulacji dokumentami HTML jest kluczowe. W tym samouczku zagłębimy się w świat Aspose.HTML dla .NET, potężnej biblioteki, która pozwala na płynną pracę z dokumentami HTML. 
+świecie rozwoju sieci tworzenie i manipulowanie dokumentami HTML jest podstawowym zadaniem. Niezależnie od tego, czy budujesz prostą stronę internetową, czy złożoną aplikację internetową, posiadanie niezawodnego narzędzia do manipulowania dokumentami HTML jest kluczowe. W tym samouczku zanurzymy się w świat Aspose.HTML dla .NET, potężnej biblioteki, która umożliwia bezproblemową pracę z dokumentami HTML. 
 
-## Warunki wstępne
+## Wymagania wstępne
 
-Zanim wyruszymy w tę podróż, upewnijmy się, że posiadamy niezbędne warunki wstępne:
+Zanim wyruszymy w tę podróż, upewnijmy się, że masz niezbędne warunki wstępne:
 
 ### 1. Środowisko programistyczne .NET
 
-Na swoim komputerze powinieneś mieć skonfigurowane środowisko programistyczne .NET. Jeśli jeszcze tego nie zrobiłeś, możesz pobrać i zainstalować najnowszą wersję .NET z witryny Microsoft.
+Powinieneś mieć środowisko programistyczne .NET skonfigurowane na swoim komputerze. Jeśli jeszcze tego nie zrobiłeś, możesz pobrać i zainstalować najnowszą wersję .NET ze strony internetowej Microsoft.
 
 ### 2. Aspose.HTML dla .NET
 
- Aby postępować zgodnie z przykładami zawartymi w tym samouczku, musisz pobrać i zainstalować bibliotekę Aspose.HTML dla .NET. Możesz znaleźć link do pobrania[Tutaj](https://releases.aspose.com/html/net/).
+ Aby śledzić przykłady w tym samouczku, musisz pobrać i zainstalować bibliotekę Aspose.HTML dla .NET. Link do pobrania znajdziesz[Tutaj](https://releases.aspose.com/html/net/).
 
 ### 3. Edytor tekstu lub IDE
 
-Do napisania i uruchomienia kodu .NET będziesz potrzebować edytora tekstu lub zintegrowanego środowiska programistycznego (IDE). Popularne opcje obejmują Visual Studio, Visual Studio Code lub JetBrains Rider.
+Będziesz potrzebować edytora tekstu lub zintegrowanego środowiska programistycznego (IDE), aby pisać i uruchamiać kod .NET. Popularne wybory to Visual Studio, Visual Studio Code lub JetBrains Rider.
 
-Teraz, gdy masz już wymagania wstępne, przejdźmy do samouczka.
+Teraz, gdy spełniliśmy już wszystkie wymagania wstępne, możemy przejść do samouczka.
 
 ## Importuj przestrzenie nazw
 
@@ -43,11 +43,11 @@ using Aspose.Html.Rendering;
 
 ## Tworzenie prostego dokumentu HTML
 
-W tym przykładzie utworzymy prosty dokument HTML zawierający obraz, uporządkowaną listę i tabelę. Rozłóżmy każdy krok i wyjaśnijmy go szczegółowo.
+W tym przykładzie utworzymy prosty dokument HTML z obrazem, uporządkowaną listą i tabelą. Rozłóżmy każdy krok i wyjaśnijmy go szczegółowo.
 
 ### Krok 1: Konfigurowanie pliku wyjściowego
 
-Zaczynamy od zdefiniowania pliku wyjściowego, w którym zostanie zapisany nasz dokument HTML.
+Zacznijmy od zdefiniowania pliku wyjściowego, w którym zostanie zapisany nasz dokument HTML.
 
 ```csharp
 string dataDir = "Your Data Directory";
@@ -56,7 +56,7 @@ String outputHtml = dataDir + "SimpleDocument.html";
 
 ### Krok 2: Tworzenie dokumentu HTML
 
- Następnie tworzymy instancję`HTMLDocument` klasa, która reprezentuje dokument HTML.
+ Następnie tworzymy instancję`HTMLDocument` Klasa, która reprezentuje dokument HTML.
 
 ```csharp
 var document = new HTMLDocument();
@@ -64,21 +64,21 @@ var document = new HTMLDocument();
 
 ### Krok 3: Dodawanie obrazu
 
-Teraz dodajemy obraz do dokumentu HTML. Tworzymy`img` element za pomocą`CreateElement` metodę, ustaw ją`Src`, `Alt` I`Title` atrybuty, a następnie dołącz je do dokumentu`Body`.
+Teraz dodajemy obraz do dokumentu HTML. Tworzymy`img` element używający`CreateElement` metoda, ustaw ją`Src`, `Alt` I`Title` atrybuty, a następnie dołącz je do dokumentu`Body`.
 
 ```csharp
 if (document.CreateElement("img") is HTMLImageElement img)
 {
-    img.Src = "http://przez.placeholder.com/400x200";
+    img.Src = "http://poprzez.placeholder.com/400x200";
     img.Alt = "Placeholder 400x200";
     img.Title = "Placeholder image";
     document.Body.AppendChild(img);
 }
 ```
 
-### Krok 4: Dodanie listy uporządkowanej
+### Krok 4: Dodawanie listy uporządkowanej
 
- Następnie dodajemy do dokumentu uporządkowaną listę. Tworzymy`ol` element i wykonaj iterację, aby dodać do niego elementy listy.
+ Następnie dodajemy uporządkowaną listę do dokumentu. Tworzymy`ol` element i powtórz, aby dodać do niego elementy listy.
 
 ```csharp
 var orderedListElement = document.CreateElement("ol") as HTMLOListElement;
@@ -93,7 +93,7 @@ document.Body.AppendChild(orderedListElement);
 
 ### Krok 5: Dodawanie tabeli
 
- Na koniec dodajemy do dokumentu tabelę. Tworzymy`table` element, utwórz wiersze i komórki, ustaw ich`Id` I`TextContent`i dołącz je do tabeli.
+ Na koniec dodajemy tabelę do dokumentu. Tworzymy`table` element, utwórz wiersze i komórki, ustaw ich`Id` I`TextContent`i dodaj je do tabeli.
 
 ```csharp
 var table = document.CreateElement("table") as HTMLTableElement;
@@ -117,38 +117,38 @@ document.Body.AppendChild(table);
 
 ### Krok 6: Zapisywanie dokumentu
 
-Na koniec zapisujemy dokument HTML w określonym pliku wyjściowym.
+Na koniec zapisujemy dokument HTML do określonego pliku wyjściowego.
 
 ```csharp
 document.Save(outputHtml);
 ```
 
-Gratulacje! Właśnie utworzyłeś prosty dokument HTML przy użyciu Aspose.HTML dla .NET. To dopiero początek tego, co możesz osiągnąć dzięki tej potężnej bibliotece.
+Gratulacje! Właśnie stworzyłeś prosty dokument HTML przy użyciu Aspose.HTML dla .NET. To dopiero początek tego, co możesz osiągnąć dzięki tej potężnej bibliotece.
 
 ## Wniosek
 
-tym samouczku przedstawiliśmy Ci Aspose.HTML dla .NET i przeprowadziliśmy Cię przez proces tworzenia podstawowego dokumentu HTML. W miarę dalszej eksploracji tej biblioteki odkryjesz jej szerokie możliwości pracy z dokumentami HTML w aplikacjach .NET. Niezależnie od tego, czy tworzysz aplikacje internetowe, automatyzujesz zadania związane z HTML, czy wykonujesz złożone konwersje dokumentów, Aspose.HTML dla .NET pomoże Ci.
+tym samouczku przedstawiliśmy Ci Aspose.HTML dla .NET i przeprowadziliśmy Cię przez proces tworzenia podstawowego dokumentu HTML. W miarę dalszego poznawania tej biblioteki odkryjesz jej rozbudowane możliwości pracy z dokumentami HTML w aplikacjach .NET. Niezależnie od tego, czy tworzysz aplikacje internetowe, automatyzujesz zadania związane z HTML, czy wykonujesz złożone konwersje dokumentów, Aspose.HTML dla .NET ma wszystko, czego potrzebujesz.
 
 Miłego kodowania!
 
 ## Często zadawane pytania
 
-### 1. Co to jest Aspose.HTML dla .NET?
+### 1. Czym jest Aspose.HTML dla .NET?
 
-Aspose.HTML dla .NET to biblioteka .NET zapewniająca wszechstronną funkcjonalność do pracy z dokumentami HTML na różne sposoby, takie jak tworzenie, manipulowanie i konwersja.
+Aspose.HTML for .NET to biblioteka .NET oferująca wszechstronną funkcjonalność umożliwiającą pracę z dokumentami HTML na różne sposoby, na przykład poprzez ich tworzenie, modyfikowanie i konwersję.
 
 ### 2. Gdzie mogę znaleźć dokumentację Aspose.HTML dla .NET?
 
- Możesz znaleźć dokumentację Aspose.HTML dla .NET[Tutaj](https://reference.aspose.com/html/net/).
+ Dokumentację Aspose.HTML dla .NET można znaleźć[Tutaj](https://reference.aspose.com/html/net/).
 
-### 3. Czy dostępna jest bezpłatna wersja próbna Aspose.HTML dla .NET?
+### 3. Czy jest dostępna bezpłatna wersja próbna Aspose.HTML dla .NET?
 
- Tak, możesz uzyskać bezpłatną wersję próbną Aspose.HTML dla .NET[Tutaj](https://releases.aspose.com/).
+ Tak, możesz otrzymać bezpłatną wersję próbną Aspose.HTML dla .NET[Tutaj](https://releases.aspose.com/).
 
 ### 4. Jak mogę uzyskać tymczasową licencję na Aspose.HTML dla .NET?
 
-Możesz uzyskać tymczasową licencję na Aspose.HTML dla .NET[Tutaj](https://purchase.aspose.com/temporary-license/).
+ Możesz uzyskać tymczasową licencję na Aspose.HTML dla .NET[Tutaj](https://purchase.aspose.com/temporary-license/).
 
 ### 5. Gdzie mogę uzyskać pomoc dotyczącą Aspose.HTML dla .NET?
 
- Możesz uzyskać pomoc i zadawać pytania dotyczące Aspose.HTML dla .NET na stronie[Forum Aspose](https://forum.aspose.com/).
+ Możesz uzyskać pomoc i zadać pytania dotyczące Aspose.HTML dla .NET na stronie[Forum Aspose](https://forum.aspose.com/).

@@ -1,31 +1,31 @@
 ---
-title: Obserwator mutacji DOM z Aspose.HTML dla Java
-linktitle: Obserwator mutacji DOM - obserwacja dodań węzłów
+title: DOM Mutation Observer z Aspose.HTML dla Java
+linktitle: DOM Mutation Observer - Obserwowanie dodatków węzłów
 second_title: Przetwarzanie HTML w Javie za pomocą Aspose.HTML
-description: Z tego przewodnika krok po kroku dowiesz się, jak używać Aspose.HTML dla Java do implementacji obserwatora mutacji DOM. Skutecznie monitoruj i reaguj na zmiany DOM.
+description: Dowiedz się, jak używać Aspose.HTML dla Java do implementacji DOM Mutation Observer w tym przewodniku krok po kroku. Monitoruj i reaguj na zmiany DOM skutecznie.
 type: docs
 weight: 11
 url: /pl/java/advanced-usage/dom-mutation-observer-observing-node-additions/
 ---
 
-Czy jesteś programistą Java i chcesz obserwować zmiany w obiektowym modelu dokumentu (DOM) dokumentu HTML i reagować na nie? Aspose.HTML dla Java zapewnia potężne rozwiązanie tego zadania. W tym przewodniku krok po kroku odkryjemy, jak używać Aspose.HTML dla Java do tworzenia dokumentu HTML i obserwowania dodawania węzłów za pomocą obserwatora mutacji. Ten samouczek przeprowadzi Cię przez cały proces, dzieląc każdy przykład na wiele kroków. Na koniec będziesz mógł z łatwością wdrożyć obserwatorów mutacji DOM w swoich projektach Java.
+Czy jesteś programistą Java, który chce obserwować i reagować na zmiany w Document Object Model (DOM) dokumentu HTML? Aspose.HTML for Java zapewnia potężne rozwiązanie tego zadania. W tym przewodniku krok po kroku pokażemy, jak używać Aspose.HTML for Java do tworzenia dokumentu HTML i obserwowania dodawania węzłów za pomocą Mutation Observer. Ten samouczek przeprowadzi Cię przez proces, dzieląc każdy przykład na wiele kroków. Na koniec będziesz w stanie z łatwością zaimplementować DOM Mutation Observers w swoich projektach Java.
 
-## Warunki wstępne
+## Wymagania wstępne
 
-Zanim zagłębimy się w używanie Aspose.HTML dla Java, upewnijmy się, że masz niezbędne wymagania wstępne:
+Zanim przejdziemy do szczegółów dotyczących używania Aspose.HTML w Javie, upewnijmy się, że spełnione są niezbędne wymagania wstępne:
 
-1. Środowisko programistyczne Java: Upewnij się, że w systemie jest zainstalowany zestaw Java Development Kit (JDK).
+1. Środowisko programistyczne Java: Upewnij się, że w systemie zainstalowany jest Java Development Kit (JDK).
 
-2.  Aspose.HTML dla Java: Musisz pobrać i zainstalować Aspose.HTML dla Java. Możesz znaleźć link do pobrania[Tutaj](https://releases.aspose.com/html/java/).
+2.  Aspose.HTML dla Java: Musisz pobrać i zainstalować Aspose.HTML dla Java. Link do pobrania znajdziesz[Tutaj](https://releases.aspose.com/html/java/).
 
-3. IDE (Zintegrowane środowisko programistyczne): Użyj preferowanego środowiska Java IDE, takiego jak IntelliJ IDEA lub Eclipse, do pisania i uruchamiania kodu Java.
+3. IDE (zintegrowane środowisko programistyczne): do pisania i uruchamiania kodu Java użyj preferowanego środowiska IDE Java, takiego jak IntelliJ IDEA lub Eclipse.
 
 ## Importuj pakiety
 
-Aby rozpocząć korzystanie z Aspose.HTML dla Java, musisz zaimportować wymagane pakiety do swojego kodu Java. Oto jak możesz to zrobić:
+Aby rozpocząć pracę z Aspose.HTML dla Javy, musisz zaimportować wymagane pakiety do swojego kodu Java. Oto, jak możesz to zrobić:
 
 ```java
-// Zaimportuj niezbędne pakiety
+// Importuj niezbędne pakiety
 import com.aspose.html.HTMLDocument;
 import com.aspose.html.dom.mutations.MutationObserver;
 import com.aspose.html.dom.mutations.MutationCallback;
@@ -39,11 +39,11 @@ import com.aspose.html.generic.IGenericList;
 HTMLDocument document = new HTMLDocument();
 ```
 
-Teraz, gdy zaimportowałeś wymagane pakiety, przejdźmy do przewodnika krok po kroku dotyczącego implementacji obserwatora mutacji DOM w Javie.
+Teraz, gdy zaimportowałeś wymagane pakiety, możemy przejść do przewodnika krok po kroku, który pokaże Ci, jak wdrożyć obserwatora mutacji DOM w Javie.
 
 ## Krok 1: Utwórz instancję obserwatora mutacji
 
-Najpierw musisz utworzyć instancję obserwatora mutacji. Ten obserwator będzie obserwował zmiany w DOM i wykona funkcję wywołania zwrotnego, gdy wystąpią mutacje.
+Najpierw musisz utworzyć instancję Mutation Observer. Ten obserwator będzie obserwował zmiany w DOM i wykonywał funkcję wywołania zwrotnego, gdy wystąpią mutacje.
 
 ```java
 MutationObserver observer = new MutationObserver(new MutationCallback() {
@@ -61,11 +61,11 @@ MutationObserver observer = new MutationObserver(new MutationCallback() {
 });
 ```
 
-W tym kroku tworzymy obserwatora z funkcją wywołania zwrotnego, która wypisuje komunikat po dodaniu węzłów do DOM.
+W tym kroku tworzymy obserwatora z funkcją wywołania zwrotnego, która drukuje komunikat w momencie dodania węzłów do DOM.
 
-## Krok 2: Skonfiguruj Observera
+## Krok 2: Skonfiguruj Obserwatora
 
-Teraz skonfigurujmy obserwatora z żądanymi opcjami. Chcemy obserwować zmiany w listach podrzędnych i poddrzewie, a także zmiany w danych znakowych.
+Teraz skonfigurujmy obserwatora z pożądanymi opcjami. Chcemy obserwować zmiany listy dzieci i zmiany poddrzewa, a także zmiany danych znaków.
 
 ```java
 MutationObserverInit config = new MutationObserverInit();
@@ -77,11 +77,11 @@ config.setCharacterData(true);
 observer.observe(document.getBody(), config);
 ```
 
- Tutaj ustawiamy`config` obiekt, aby umożliwić obserwację zmian w listach podrzędnych, poddrzewie i danych znakowych. Następnie przekazujemy węzeł docelowy (w tym przypadku dokument`<body>`) i konfigurację dla obserwatora.
+ Tutaj ustawiamy`config` obiekt umożliwiający obserwację zmian listy dzieci, poddrzewa i danych znaków. Następnie przekazujemy węzeł docelowy (w tym przypadku dokument`<body>`) i konfigurację obserwatorowi.
 
-## Krok 3: Zmodyfikuj DOM
+## Krok 3: Modyfikuj DOM
 
-Teraz wprowadzimy pewne zmiany w DOM, aby wyzwolić obserwatora. Utworzymy element akapitu i dołączymy go do treści dokumentu.
+Teraz wprowadzimy kilka zmian w DOM, aby uruchomić obserwatora. Utworzymy element akapitu i dodamy go do treści dokumentu.
 
 ```java
 // Utwórz element akapitu i dołącz go do treści dokumentu
@@ -93,56 +93,56 @@ Text text = document.createTextNode("Hello World");
 p.appendChild(text);
 ```
 
-Na tym etapie tworzymy element akapitu HTML i dodajemy go do treści dokumentu. Następnie tworzymy węzeł tekstowy o treści „Hello World” i dołączamy go do akapitu.
+W tym kroku tworzymy element akapitu HTML i dodajemy go do treści dokumentu. Następnie tworzymy węzeł tekstowy z treścią „Hello World” i dołączamy go do akapitu.
 
-## Krok 4: Poczekaj na obserwacje (asynchronicznie)
+## Krok 4: Czekaj na obserwacje (asynchronicznie)
 
-Ponieważ mutacje obserwuje się asynchronicznie, musimy poczekać chwilę, aby obserwator mógł uchwycić zmiany. Użyjemy`synchronized` I`wait` w tym celu, jak pokazano poniżej.
+Ponieważ mutacje są obserwowane asynchronicznie, musimy odczekać chwilę, aby umożliwić obserwatorowi uchwycenie zmian. Użyjemy`synchronized` I`wait` w tym celu, jak pokazano poniżej.
 
 ```java
-// Ponieważ mutacje działają w trybie asynchronicznym, poczekaj kilka sekund
+// Ponieważ mutacje działają w trybie asynchronicznym, odczekaj kilka sekund
 synchronized (this) {
     wait(5000);
 }
 ```
 
-Tutaj czekamy 5 sekund, aby mieć pewność, że obserwator ma szansę uchwycić wszelkie mutacje.
+Tutaj czekamy 5 sekund, aby mieć pewność, że obserwator będzie miał szansę wychwycić wszelkie mutacje.
 
 ## Krok 5: Przestań obserwować
 
-Na koniec, po zakończeniu obserwacji, konieczne jest odłączenie obserwatora w celu uwolnienia zasobów.
+Na koniec, po zakończeniu obserwacji, należy koniecznie odłączyć obserwatora i zwolnić zasoby.
 
 ```java
 // Przestań obserwować
 observer.disconnect();
 ```
 
-Na tym etapie zakończyłeś obserwację i możesz oczyścić zasoby.
+Ten krok kończy obserwację i pozwala na oczyszczenie zasobów.
 
 ## Wniosek
 
-W tym samouczku omówiliśmy proces używania Aspose.HTML dla Java do implementacji obserwatora mutacji DOM. Nauczyłeś się, jak stworzyć obserwatora, skonfigurować go, wprowadzić zmiany w DOM, czekać na obserwacje i przestać obserwować. Teraz masz umiejętności stosowania obserwatorów mutacji DOM w swoich projektach Java w celu skutecznego monitorowania i reagowania na zmiany w DOM dokumentów HTML.
+W tym samouczku przeprowadziliśmy proces korzystania z Aspose.HTML dla Java w celu zaimplementowania DOM Mutation Observer. Nauczyłeś się, jak utworzyć obserwatora, skonfigurować go, wprowadzić zmiany w DOM, czekać na obserwacje i zatrzymać obserwację. Teraz masz umiejętności, aby zastosować DOM Mutation Observers w swoich projektach Java w celu monitorowania i reagowania na zmiany w DOM dokumentów HTML.
 
-Jeśli masz jakieś pytania lub napotkasz problemy, nie wahaj się szukać pomocy w[Forum Aspose.HTML](https://forum.aspose.com/) . Dodatkowo możesz uzyskać dostęp do[dokumentacja](https://reference.aspose.com/html/java/) aby uzyskać szczegółowe informacje na temat Aspose.HTML dla Java.
+Jeśli masz jakiekolwiek pytania lub napotkasz problemy, nie wahaj się szukać pomocy w[Forum Aspose.HTML](https://forum.aspose.com/) Dodatkowo możesz uzyskać dostęp do[dokumentacja](https://reference.aspose.com/html/java/) aby uzyskać szczegółowe informacje na temat Aspose.HTML dla Java.
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
-### P1: Co to jest obserwator mutacji DOM?
+### P1: Czym jest obserwator mutacji DOM?
 
-O1: Obserwator mutacji DOM to funkcja języka JavaScript, która umożliwia śledzenie zmian w modelu obiektowym dokumentu (DOM) dokumentu HTML. Umożliwia reagowanie w czasie rzeczywistym na dodawanie, usuwanie lub modyfikacje węzłów DOM.
+A1: DOM Mutation Observer to funkcja JavaScript, która umożliwia obserwowanie zmian w Document Object Model (DOM) dokumentu HTML. Zapewnia sposób reagowania na dodawanie, usuwanie lub modyfikowanie węzłów DOM w czasie rzeczywistym.
 
-### P2: Czy mogę używać Aspose.HTML dla Java w moich projektach komercyjnych?
+### P2: Czy mogę używać Aspose.HTML for Java w moich projektach komercyjnych?
 
- O2: Tak, możesz używać Aspose.HTML dla Java w projektach komercyjnych. Można znaleźć informacje dotyczące licencji i zakupów[Tutaj](https://purchase.aspose.com/buy).
+ A2: Tak, możesz używać Aspose.HTML dla Java w projektach komercyjnych. Informacje o licencjonowaniu i zakupie można znaleźć[Tutaj](https://purchase.aspose.com/buy).
 
-### P3: Czy dostępna jest bezpłatna wersja próbna Aspose.HTML dla Java?
+### P3: Czy jest dostępna bezpłatna wersja próbna Aspose.HTML dla Java?
 
- Odpowiedź 3: Tak, możesz uzyskać bezpłatną wersję próbną Aspose.HTML dla Java[Tutaj](https://releases.aspose.com/). Dzięki temu możesz zapoznać się z jego funkcjami i możliwościami przed dokonaniem zakupu.
+ A3: Tak, możesz otrzymać bezpłatną wersję próbną Aspose.HTML dla Java[Tutaj](https://releases.aspose.com/)Dzięki temu możesz zapoznać się z jego funkcjami i możliwościami przed dokonaniem zakupu.
 
-### P4: Jaka jest korzyść z obserwacji zmian danych postaci za pomocą Obserwatora Mutacji?
+### P4: Jakie korzyści daje obserwacja zmian danych cech za pomocą Mutation Observer?
 
-O4: Obserwowanie zmian danych znakowych jest przydatne w scenariuszach, w których chcesz monitorować i reagować na zmiany w zawartości tekstowej elementów HTML. Można go na przykład używać do śledzenia danych wprowadzanych przez użytkowników w formularzach internetowych i odpowiadania na nie.
+A4: Obserwowanie zmian danych znakowych jest przydatne w scenariuszach, w których chcesz monitorować i reagować na zmiany w treści tekstowej elementów HTML. Na przykład możesz użyć go do śledzenia i reagowania na dane wprowadzane przez użytkownika w formularzach internetowych.
 
-### P5: Jak pozbyć się zasobów podczas korzystania z Aspose.HTML dla Java?
+### P5: W jaki sposób mogę pozbyć się zasobów, korzystając z Aspose.HTML dla Java?
 
- Odpowiedź 5: Ważne jest, aby zwolnić zasoby, gdy skończysz. W naszym przykładzie użyliśmy`document.dispose()` aby wyczyścić zasoby powiązane z dokumentem HTML. Pamiętaj, aby pozbyć się wszelkich utworzonych obiektów i zasobów, aby uniknąć wycieków pamięci.
+ A5: Ważne jest, aby zwolnić zasoby, gdy skończysz. W naszym przykładzie użyliśmy`document.dispose()` aby oczyścić zasoby powiązane z dokumentem HTML. Upewnij się, że pozbędziesz się wszystkich obiektów i zasobów, które utworzysz, aby uniknąć wycieków pamięci.

@@ -54,13 +54,13 @@ ImageSaveOptions options = new ImageSaveOptions(ImageFormat.Jpeg);
 
 ## 3. lépés: Az EPUB konvertálása JPG formátumba
 
- Most felhívjuk a`convertEPUB` az átalakítás végrehajtásának módja. Ez a módszer a`FileInputStream` az EPUB fájl esetében a`ImageSaveOptions`és a kimeneti fájl elérési útját.
+ Most felhívjuk a`convertEPUB` az átalakítás végrehajtásának módja. Ez a módszer a`FileInputStream` az EPUB fájl esetében a`ImageSaveOptions`, és a kimeneti fájl elérési útját.
 
 ```java
 Converter.convertEPUB(fileInputStream, options, "output.jpg");
 ```
 
-Ez az! Sikeresen konvertált egy EPUB-fájlt JPG-képekké az Aspose.HTML for Java használatával.
+Ennyi! Sikeresen konvertált egy EPUB-fájlt JPG-képekké az Aspose.HTML for Java használatával.
 
 ## Következtetés
 
@@ -77,7 +77,7 @@ Ebben az oktatóanyagban bemutatjuk az EPUB-fájlok JPG-képekké alakításána
    Igen, az Aspose.HTML for Java támogatja a különféle formátumok konvertálását, beleértve a HTML-t, az EPUB-t és egyebeket.
 
 ### Hogyan szerezhetek ideiglenes licencet az Aspose.HTML for Java számára?
-    Ideiglenes jogosítványt szerezhet be[itt](https://purchase.aspose.com/temporary-license/).
+    Ideiglenes engedélyt szerezhet be[itt](https://purchase.aspose.com/temporary-license/).
 
 ### Vannak átfogó dokumentációs források az Aspose.HTML for Java számára?
     Igen, a részletes dokumentációt megtalálja a címen[Aspose.HTML a Java dokumentációhoz](https://reference.aspose.com/html/java/).

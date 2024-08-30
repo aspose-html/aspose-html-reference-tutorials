@@ -37,7 +37,7 @@ import com.aspose.html.HTMLDocument;
 
 ```java
 try (java.io.FileInputStream fileInputStream = new java.io.FileInputStream("YourInputFile.html")) {
-    //……
+    //…
 }
 ```
 
@@ -59,7 +59,7 @@ String style = "<style>\n" +
                "<div id=id3 class=''st'' style='color: blue;'>Aspose.HTML rendering Text in Blue Color</div>\n" +
                "<div id=id3 class=''st'' style='color: red;'>Aspose.HTML rendering Text in Red Color</div>\n";
 
-//……
+//…
 ```
 
 此步驟涉及建立一個`HTMLDocument`並向其添加樣式。
@@ -116,7 +116,7 @@ A1：Aspose.HTML for Java 是一個 Java 函式庫，可讓開發人員操作 HT
 
 ### Q4：如何取得 Aspose.HTML for Java 的臨時授權？
 
- A4：若要取得 Aspose.HTML for Java 的臨時許可證，請造訪[這一頁](https://purchase.aspose.com/temporary-license/).
+ A4：若要取得 Aspose.HTML for Java 的臨時許可證，請造訪[本頁](https://purchase.aspose.com/temporary-license/).
 
 ### Q5：我可以獲得 Aspose.HTML for Java 的支援嗎？
 

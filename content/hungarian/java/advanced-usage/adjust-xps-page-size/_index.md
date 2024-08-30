@@ -108,7 +108,7 @@ Ebben az oktatóanyagban megmutattuk, hogyan állíthatja be az XPS oldalméret�
 
 ### 2. kérdés: Honnan tölthetem le az Aspose.HTML for Java-t?
 
- 2. válasz: Letöltheti az Aspose.HTML for Java könyvtárat innen[ez a link](https://releases.aspose.com/html/java/).
+ 2. válasz: Letöltheti az Aspose.HTML for Java könyvtárat innen[ezt a linket](https://releases.aspose.com/html/java/).
 
 ### 3. kérdés: Elérhető ingyenes próbaverzió az Aspose.HTML for Java számára?
 
@@ -116,7 +116,7 @@ Ebben az oktatóanyagban megmutattuk, hogyan állíthatja be az XPS oldalméret�
 
 ### 4. kérdés: Hogyan szerezhetek ideiglenes licencet az Aspose.HTML for Java számára?
 
- 4. válasz: Ha ideiglenes licencet szeretne szerezni az Aspose.HTML for Java számára, látogasson el a webhelyre[ez az oldal](https://purchase.aspose.com/temporary-license/).
+ 4. válasz: Ha ideiglenes licencet szeretne szerezni az Aspose.HTML for Java számára, látogasson el a webhelyre[ezt az oldalt](https://purchase.aspose.com/temporary-license/).
 
 ### 5. kérdés: Kaphatok támogatást az Aspose.HTML for Java számára?
 

@@ -60,7 +60,7 @@ using (var renderer = new MhtmlRenderer())
 
 ### 1. lépés: Adatkönyvtár beállítása
 
- Ban,-ben`dataDir` változó, csere`"Your Data Directory"` annak a könyvtárnak az elérési útjával, ahol az MHTML-dokumentum található.
+ A`dataDir` változó, csere`"Your Data Directory"` annak a könyvtárnak az elérési útjával, ahol az MHTML-dokumentum található.
 
 ### 2. lépés: Nyissa meg az MHTML fájlt
 

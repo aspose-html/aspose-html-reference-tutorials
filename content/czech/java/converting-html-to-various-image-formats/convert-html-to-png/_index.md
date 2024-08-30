@@ -76,7 +76,7 @@ if (document != null) {
 }
 ```
 
-Gratulujeme! Úspěšně jste převedli HTML na PNG pomocí Aspose.HTML for Java. Vygenerovaný obrázek PNG nyní můžete použít ve svých projektech podle potřeby.
+Gratuluji! Úspěšně jste převedli HTML na PNG pomocí Aspose.HTML for Java. Vygenerovaný obrázek PNG nyní můžete použít ve svých projektech podle potřeby.
 
 ## Závěr
 
@@ -88,7 +88,7 @@ V tomto tutoriálu jsme si ukázali, jak používat Aspose.HTML pro Java k přev
     Dokumentaci najdete na[Aspose.HTML pro dokumentaci Java](https://reference.aspose.com/html/java/).
 
 ### Jak si mohu stáhnout Aspose.HTML pro Java?
-    Stáhnout si ho můžete z webu:[Stáhněte si Aspose.HTML pro Java](https://releases.aspose.com/html/java/).
+    Můžete si jej stáhnout z webu:[Stáhněte si Aspose.HTML pro Java](https://releases.aspose.com/html/java/).
 
 ### Je k dispozici bezplatná zkušební verze pro Aspose.HTML pro Javu?
     Ano, můžete získat bezplatnou zkušební verzi od[Bezplatná zkušební verze Aspose.HTML](https://releases.aspose.com/).

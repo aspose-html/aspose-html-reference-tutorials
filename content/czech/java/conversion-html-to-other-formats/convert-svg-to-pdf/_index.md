@@ -18,7 +18,7 @@ Než se ponoříte do procesu převodu, je třeba vyřešit několik předpoklad
  Ujistěte se, že máte v systému nainstalovanou sadu Java Development Kit (JDK). Můžete si jej stáhnout z[Věštec](https://www.oracle.com/java/technologies/javase-downloads.html) nebo použijte open-source alternativy, jako je OpenJDK.
 
 2. Aspose.HTML pro Javu
- Stáhněte a nainstalujte Aspose.HTML for Java z webu. Odkaz ke stažení je k dispozici[tady](https://releases.aspose.com/html/java/).
+ Stáhněte a nainstalujte Aspose.HTML for Java z webu. Odkaz ke stažení je k dispozici[zde](https://releases.aspose.com/html/java/).
 
 3. Vložte dokument SVG
 Budete potřebovat dokument SVG, který chcete převést do PDF. Umístěte jej do adresáře přístupného pro vaši aplikaci Java.
@@ -54,7 +54,7 @@ options.setJpegQuality(100);
 
 ## Krok 3: Definujte výstupní cestu
 
-Zadejte cestu k výstupnímu souboru PDF. Ujistěte se, že výstupní adresář je přístupný a že máte oprávnění k zápisu.
+Zadejte cestu pro výstupní soubor PDF. Ujistěte se, že výstupní adresář je přístupný a že máte oprávnění k zápisu.
 
 ```java
 String outputFile = Resources.output("SVGtoPDF_Output.pdf");
@@ -68,7 +68,7 @@ String outputFile = Resources.output("SVGtoPDF_Output.pdf");
 Converter.convertSVG(svgDocument, options, outputFile);
 ```
 
-Gratulujeme! Úspěšně jste převedli dokument SVG do PDF pomocí Aspose.HTML for Java. Nyní můžete přistupovat k PDF na zadané výstupní cestě.
+Gratuluji! Úspěšně jste převedli dokument SVG do PDF pomocí Aspose.HTML for Java. Nyní můžete přistupovat k PDF na zadané výstupní cestě.
 
 ## Závěr
 

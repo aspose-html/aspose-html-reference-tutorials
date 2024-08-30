@@ -40,7 +40,7 @@ Most, hogy megvannak az előfeltételek, kezdjük a szükséges csomagok import�
 com.aspose.html.HTMLDocument htmlDocument = new com.aspose.html.HTMLDocument("path/to/your/input.html");
 ```
 
- Ebben a lépésben létrehozunk egy`HTMLDocument` példányt a HTML-fájl elérési útját használva. Cserélje ki`"path/to/your/input.html"` HTML-fájl tényleges elérési útjával.
+ Ebben a lépésben létrehozunk egy`HTMLDocument` példányt a HTML-fájl elérési útját használva. Cserélje ki`"path/to/your/input.html"` a HTML-fájl tényleges elérési útjával.
 
 ### 2. lépés: Inicializálja az ImageSaveOptions opciót
 
@@ -69,7 +69,7 @@ com.aspose.html.converters.Converter.convertHTML(htmlDocument, options, outputFi
 
  Ez az utolsó lépés, ahol végrehajtjuk a HTML-ből BMP-be konvertálást. A`htmlDocument`, `options` és`outputFile` a változókat az előző lépésekben leírtak szerint kell beállítani.
 
-Ez az! Sikeresen konvertálta HTML-dokumentumát BMP-képpé az Aspose.HTML for Java használatával.
+Ennyi! Sikeresen konvertálta HTML-dokumentumát BMP-képpé az Aspose.HTML for Java használatával.
 
 ## Következtetés
 

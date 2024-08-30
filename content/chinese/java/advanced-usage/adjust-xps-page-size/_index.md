@@ -8,21 +8,21 @@ weight: 16
 url: /zh/java/advanced-usage/adjust-xps-page-size/
 ---
 
-在本教程中，我们将指导您完成使用 Aspose.HTML for Java 调整 XPS 页面大小的过程。这个功能强大的库允许您操作 HTML 文档并将其呈现为各种格式，包括 XPS。当您需要控制 XPS 文档的输出尺寸时，调整页面尺寸至关重要。
+在本教程中，我们将指导您使用 Aspose.HTML for Java 调整 XPS 页面大小的过程。这个功能强大的库允许您操作 HTML 文档并将其呈现为各种格式，包括 XPS。当您需要控制 XPS 文档的输出尺寸时，调整页面大小至关重要。
 
 ## 先决条件
 
-在我们开始之前，请确保您具备以下先决条件：
+在开始之前，请确保您已满足以下先决条件：
 
 1. Java 开发环境：确保您的系统上安装了 Java 开发工具包 (JDK)。
 
-2.  Aspose.HTML for Java 库：您需要下载 Aspose.HTML for Java 库并将其包含在您的 Java 项目中。你可以找到图书馆[这里](https://releases.aspose.com/html/java/).
+2.  Aspose.HTML for Java 库：您需要下载 Aspose.HTML for Java 库并将其包含在 Java 项目中。您可以找到库[这里](https://releases.aspose.com/html/java/).
 
-3. 输入 HTML 文件：准备要渲染的 HTML 文件并调整 XPS 页面大小。您可以在本教程中使用自己的 HTML 文件。
+3. 输入 HTML 文件：准备要渲染并调整 XPS 页面大小的 HTML 文件。在本教程中，您可以使用自己的 HTML 文件。
 
 ## 导入包
 
-首先，您需要导入必要的包才能使用 Aspose.HTML for Java。在 Java 类的开头包含这些包：
+首先，您需要导入使用 Aspose.HTML for Java 所需的包。在 Java 类的开头包含这些包：
 
 ```java
 import com.aspose.html.drawing.Page;
@@ -33,7 +33,7 @@ import com.aspose.html.rendering.xps.XpsRenderingOptions;
 import com.aspose.html.HTMLDocument;
 ```
 
-## 第1步：设置输入文件名
+## 步骤 1：设置输入文件名
 
 ```java
 try (java.io.FileInputStream fileInputStream = new java.io.FileInputStream("YourInputFile.html")) {
@@ -62,9 +62,9 @@ String style = "<style>\n" +
 //...
 ```
 
-此步骤涉及创建一个`HTMLDocument`并向其添加样式。
+此步骤涉及创建一个`HTMLDocument`并添加样式。
 
-## 第 3 步：创建 XPS 渲染选项
+## 步骤 3：创建 XPS 渲染选项
 
 ```java
 com.aspose.html.rendering.xps.XpsRenderingOptions xps_options = new com.aspose.html.rendering.xps.XpsRenderingOptions();
@@ -82,9 +82,9 @@ pageSetup.setAdjustToWidestPage(false);
 xps_options.setPageSetup(pageSetup);
 ```
 
-此步骤涉及设置页面大小并指定是否将其调整为最宽页面。
+这一步涉及设置页面大小并指定是否将其调整为最宽的页面。
 
-## 第 5 步：渲染输出
+## 步骤 5：渲染输出
 
 ```java
 com.aspose.html.rendering.xps.XpsDevice device = new com.aspose.html.rendering.xps.XpsDevice(xps_options, "YourOutputFile.xps");
@@ -92,32 +92,32 @@ com.aspose.html.rendering.xps.XpsDevice device = new com.aspose.html.rendering.x
 renderer.render(device, html_document);
 ```
 
-在最后一步中，我们使用配置的选项渲染 XPS 输出。
+在最后一步，我们使用配置的选项呈现 XPS 输出。
 
 ## 结论
 
-在本教程中，我们向您展示了如何使用 Aspose.HTML for Java 调整 XPS 页面大小。您可以控制 XPS 文档的输出尺寸，确保它们满足您的特定要求。通过提供的代码和步骤，您可以在 Java 应用程序中轻松实现此功能。
+在本教程中，我们向您展示了如何使用 Aspose.HTML for Java 调整 XPS 页面大小。您可以控制 XPS 文档的输出尺寸，确保它们满足您的特定要求。使用提供的代码和步骤，您可以轻松地在 Java 应用程序中实现此功能。
 
-如果您有任何疑问或需要进一步帮助，请随时访问[Aspose.HTML for Java 文档](https://reference.aspose.com/html/java/)或寻求帮助[Aspose论坛](https://forum.aspose.com/).
+如果您有任何疑问或需要进一步的帮助，请随时访问[Aspose.HTML for Java 文档](https://reference.aspose.com/html/java/)或寻求帮助[Aspose 论坛](https://forum.aspose.com/).
 
 ## 常见问题解答
 
-### Q1：什么是 Java 版 Aspose.HTML？
+### 问题1:什么是 Aspose.HTML for Java？
 
-A1：Aspose.HTML for Java 是一个 Java 库，允许开发人员操作 HTML 文档并将其转换为各种格式，例如 XPS、PDF 和图像。
+A1：Aspose.HTML for Java 是一个 Java 库，允许开发人员操作和转换 HTML 文档为各种格式，例如 XPS、PDF 和图像。
 
-### Q2：哪里可以下载 Aspose.HTML for Java？
+### 问题2：我可以在哪里下载 Aspose.HTML for Java？
 
- A2：您可以从以下位置下载 Aspose.HTML for Java 库：[这个链接](https://releases.aspose.com/html/java/).
+ A2: 您可以从以下位置下载 Aspose.HTML for Java 库[此链接](https://releases.aspose.com/html/java/).
 
-### 问题 3：Aspose.HTML for Java 是否有免费试用版？
+### 问题3：Aspose.HTML for Java 有免费试用版吗？
 
- A3：是的，您可以从以下位置获得 Aspose.HTML for Java 的免费试用版：[这里](https://releases.aspose.com/).
+ A3：是的，您可以从以下网站免费试用 Aspose.HTML for Java[这里](https://releases.aspose.com/).
 
-### Q4：如何获得 Aspose.HTML for Java 的临时许可证？
+### Q4: 如何获取 Aspose.HTML for Java 的临时许可证？
 
- A4：要获取 Aspose.HTML for Java 的临时许可证，请访问[这一页](https://purchase.aspose.com/temporary-license/).
+ A4: 要获取 Aspose.HTML for Java 的临时许可证，请访问[本页](https://purchase.aspose.com/temporary-license/).
 
-### Q5：我可以获得 Aspose.HTML for Java 的支持吗？
+### 问题5：我可以获得 Aspose.HTML for Java 的支持吗？
 
- A5：是的，您可以向Aspose社区寻求帮助和支持[Aspose论坛](https://forum.aspose.com/).
+ A5：是的，您可以在 Aspose 社区上寻求帮助和支持[Aspose 论坛](https://forum.aspose.com/).

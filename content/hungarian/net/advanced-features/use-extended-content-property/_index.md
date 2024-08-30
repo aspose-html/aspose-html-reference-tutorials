@@ -100,7 +100,7 @@ using (XpsDevice device = new XpsDevice(dataDir + "output_out.xps"))
 
 ## Következtetés
 
-Gratulálunk! Most tette meg az első lépéseit az Aspose.HTML for .NET világába. A megfelelő előfeltételek és az importált névterek birtokában jó úton halad a HTML-dokumentumokkal való hatékonyabb és hatékonyabb munka felé.
+Gratulálok! Most tette meg az első lépéseit az Aspose.HTML for .NET világába. A megfelelő előfeltételek és az importált névterek birtokában jó úton halad a HTML-dokumentumokkal való hatékonyabb és hatékonyabb munka felé.
 
  Ha bármilyen kérdése van, vagy további segítségre van szüksége, keresse fel a[Aspose.HTML dokumentáció](https://reference.aspose.com/html/net/) vagy nyúljon a[Aspose.HTML támogatási fórum](https://forum.aspose.com/).
 

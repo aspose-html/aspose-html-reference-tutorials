@@ -34,7 +34,7 @@ Aspose.HTML for .NET 是一個功能豐富的程式庫，可讓開發人員無�
 
 ## 導入命名空間
 
-要開始使用 Aspose.HTML for .NET，您需要匯入必要的命名空間。按著這些次序：
+要開始使用 Aspose.HTML for .NET，您需要匯入必要的命名空間。請依照下列步驟操作：
 
 ### 開啟您的 Visual Studio 項目
 
@@ -125,7 +125,7 @@ Aspose.HTML for .NET 對於開發人員來說是一個有價值的工具，它�
    Aspose.HTML for .NET 支援各種輸出格式，除了 JPEG 之外，還包括 PDF、PNG 和 XPS。
 
 ### 免費試用版有任何限制嗎？
-   免費試用版有一些限制，例如在輸出文件上加浮水印。要消除這些限制，您需要購買許可證。
+   免費試用版有一些限制，例如對輸出文件加浮水印。要消除這些限制，您需要購買許可證。
 
 ### Aspose.HTML for .NET 適合網頁抓取嗎？
    雖然 Aspose.HTML for .NET 主要用於文件操作，但它可以透過從 HTML 文件中提取資料來用於網頁抓取。

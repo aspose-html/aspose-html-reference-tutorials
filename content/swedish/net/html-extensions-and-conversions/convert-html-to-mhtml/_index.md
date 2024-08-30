@@ -95,7 +95,7 @@ MHTML, förkortning för "MIME HTML", är ett webbsidearkivformat som låter dig
 
 ### Kan jag anpassa resurshanteringen vid konvertering till MHTML?
 
- Jo det kan du. Som visas i exemplet kan du ställa in resurshanteringsregler med hjälp av`ResourceHandlingOptions` av`MHTMLSaveOptions`klass. Du kan styra i vilket djup resurserna ingår i MHTML-filen.
+ Ja, det kan du. Som visas i exemplet kan du ställa in resurshanteringsregler med hjälp av`ResourceHandlingOptions` av`MHTMLSaveOptions`klass. Du kan styra i vilket djup resurserna ingår i MHTML-filen.
 
 ### Var kan jag hitta mer resurser och dokumentation för Aspose.HTML för .NET?
 
@@ -103,7 +103,7 @@ MHTML, förkortning för "MIME HTML", är ett webbsidearkivformat som låter dig
 
 ### Finns det en gratis testversion tillgänglig för Aspose.HTML för .NET?
 
- Ja, du kan få en gratis provversion av Aspose.HTML för .NET genom att besöka[den här länken](https://releases.aspose.com/). Testversionen låter dig utforska bibliotekets funktioner innan du gör ett köp.
+ Ja, du kan få en gratis provversion av Aspose.HTML för .NET genom att besöka[denna länk](https://releases.aspose.com/). Testversionen låter dig utforska bibliotekets funktioner innan du gör ett köp.
 
 ### Hur får jag en tillfällig licens för Aspose.HTML för .NET?
 

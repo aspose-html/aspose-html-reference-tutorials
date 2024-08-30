@@ -44,7 +44,7 @@ import com.aspose.html.converters.Converter;
 
 Se till att du har inkluderat dessa importsatser i början av din Java-fil för att komma åt de obligatoriska Aspose.HTML-klasserna.
 
-## Exempeluppdelning: Konvertera EPUB till bild
+## Exempel uppdelning: Konvertera EPUB till bild
 
 Låt oss nu dyka in i ett specifikt exempel på att använda Aspose.HTML för Java. Vi går igenom stegen för att konvertera en EPUB-fil till ett bildformat.
 
@@ -85,7 +85,7 @@ Grattis! Du har framgångsrikt konverterat en EPUB-fil till en bild med Aspose.H
 
 Aspose.HTML for Java är ett mångsidigt bibliotek som ger Java-utvecklare möjlighet att arbeta med HTML-dokument och utföra olika konverteringar utan ansträngning. Med den här steg-för-steg-guiden har du lärt dig hur du importerar paket och konverterar en EPUB-fil till en bild. Du är nu utrustad för att utforska fler funktioner och frigöra den fulla potentialen hos Aspose.HTML för Java i dina webbutvecklingsprojekt.
 
- Har du frågor eller behöver du hjälp? Hör gärna av dig till[Aspose.HTML community](https://forum.aspose.com/) för support.
+ Har du frågor eller behöver du hjälp? Hör gärna av dig till[Aspose.HTML community](https://forum.aspose.com/) för stöd.
 
 ## Vanliga frågor (FAQs)
 

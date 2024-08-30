@@ -60,7 +60,7 @@ using (var document = new Aspose.Html.HTMLDocument("<style>p { color: green; }</
 {
 ```
 
- I detta steg initierar vi en`HTMLDocument` med ditt HTML-innehåll. Byt ut sökvägen och HTML-innehållet efter behov.
+ I det här steget initierar vi en`HTMLDocument` med ditt HTML-innehåll. Byt ut sökvägen och HTML-innehållet efter behov.
 
 ### Steg 4: Initiera renderingsalternativ
 
@@ -94,7 +94,7 @@ Du kan anpassa sidstorleken och marginalerna enligt dina krav.
 
 Detta är det sista steget där vi renderar HTML-innehållet till en bild och sparar det i en specificerad katalog.
 
-Det är allt! Du har framgångsrikt renderat HTML till en bild med Aspose.HTML för .NET.
+Det är det! Du har framgångsrikt renderat HTML till en bild med Aspose.HTML för .NET.
 
 ## Slutsats
 

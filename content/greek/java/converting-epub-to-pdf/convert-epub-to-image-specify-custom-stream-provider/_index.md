@@ -82,7 +82,7 @@ try (java.io.FileOutputStream fileOutputStream = new java.io.FileOutputStream(Re
 }
 ```
 
-## συμπέρασμα
+## Σύναψη
 
 Συγχαρητήρια! Έχετε μάθει με επιτυχία πώς να χρησιμοποιείτε το Aspose.HTML για Java για τη μετατροπή αρχείων EPUB σε εικόνες. Αυτή η ισχυρή βιβλιοθήκη ανοίγει έναν κόσμο δυνατοτήτων για τις εφαρμογές σας Java.
 

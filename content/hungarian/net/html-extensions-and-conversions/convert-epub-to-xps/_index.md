@@ -8,7 +8,7 @@ weight: 13
 url: /hu/net/html-extensions-and-conversions/convert-epub-to-xps/
 ---
 
-Zökkenőmentes módot keres az EPUB-fájlok XPS-formátumba konvertálására .NET-alkalmazásaiban? Az Aspose.HTML for .NET hatékony megoldást kínál ennek könnyed elérésére. Ebben a részletes útmutatóban végigvezetjük az Aspose.HTML használatával az EPUB XPS formátumba konvertálásának folyamatán. Kezdjük el!
+Zökkenőmentes módot keres az EPUB-fájlok XPS-formátumba konvertálására .NET-alkalmazásaiban? Az Aspose.HTML for .NET hatékony megoldást kínál ennek könnyed elérésére. Ebben a részletes útmutatóban végigvezetjük az Aspose.HTML használatával az EPUB XPS formátumba konvertálásának folyamatán. Kezdjük is!
 
 ## Előfeltételek
 
@@ -168,7 +168,7 @@ class MemoryStreamProvider : Aspose.Html.IO.ICreateStreamProvider
             }
         }
 ```
-Gratulálunk! Sikeresen konvertált egy EPUB-fájlt XPS-formátumba az Aspose.HTML for .NET használatával.
+Gratulálok! Sikeresen konvertált egy EPUB-fájlt XPS-formátumba az Aspose.HTML for .NET használatával.
 
 ## Következtetés
 

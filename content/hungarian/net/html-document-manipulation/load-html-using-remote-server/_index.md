@@ -1,6 +1,6 @@
 ---
 title: HTML betöltése távoli kiszolgáló használatával .NET-ben az Aspose.HTML-lel
-linktitle: HTML betöltése távoli kiszolgáló használatával a .NET-ben
+linktitle: HTML betöltése távoli kiszolgáló segítségével a .NET-ben
 second_title: Aspose.HTML .NET HTML manipulációs API
 description: Kibontakoztassa az Aspose.HTML-ben rejlő lehetőségeket .NET-hez átfogó útmutatónkkal. Ismerje meg, hogyan importálhat névtereket, hogyan férhet hozzá távoli HTML-dokumentumokhoz stb.
 type: docs

@@ -88,7 +88,7 @@ Aspose.HTML for Java je výkonná knihovna pro práci se soubory HTML a EPUB, kt
  Ano, Aspose.HTML pro Javu můžete používat v komerčních projektech. Podrobnosti o licencování naleznete na adrese[nákupní stránku](https://purchase.aspose.com/buy).
 
 ### 3. Je k dispozici bezplatná zkušební verze pro Aspose.HTML pro Java?
- Ano, knihovnu můžete prozkoumat pomocí bezplatné zkušební verze. Stáhněte si jej z[tady](https://releases.aspose.com/).
+ Ano, knihovnu můžete prozkoumat pomocí bezplatné zkušební verze. Stáhněte si jej z[zde](https://releases.aspose.com/).
 
 ### 4. Kde mohu získat podporu nebo se ptát na Aspose.HTML pro Java?
  Můžete navštívit fóra Aspose pro podporu a diskuse na adrese[https://forum.aspose.com/](https://forum.aspose.com/).

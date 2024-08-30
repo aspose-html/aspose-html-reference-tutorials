@@ -17,7 +17,7 @@ Než začnete převádět EPUB na GIF pomocí Aspose.HTML pro Java, ujistěte se
     Ujistěte se, že máte ve svém systému nainstalované funkční vývojové prostředí Java, včetně sady Java Development Kit (JDK). Nejnovější JDK si můžete stáhnout z[Web společnosti Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
 
 2. Aspose.HTML pro knihovnu Java:
-    V projektu musíte mít nainstalovanou knihovnu Aspose.HTML for Java. Můžete najít potřebné balíčky ke stažení[tady](https://releases.aspose.com/html/java/).
+    V projektu musíte mít nainstalovanou knihovnu Aspose.HTML for Java. Můžete najít potřebné balíčky ke stažení[zde](https://releases.aspose.com/html/java/).
 
 3. Soubor EPUB:
    Připravte si soubor EPUB, který chcete převést na obrázek GIF. Pro tento výukový program můžete použít jakýkoli soubor EPUB.
@@ -62,7 +62,7 @@ try (FileInputStream fileInputStream = new FileInputStream("input.epub")) {
 }
 ```
 
-A je to! Pomocí těchto jednoduchých kroků můžete bez problémů převést svůj soubor EPUB na obrázek GIF pomocí Aspose.HTML for Java.
+To je vše! Pomocí těchto jednoduchých kroků můžete bez problémů převést svůj soubor EPUB na obrázek GIF pomocí Aspose.HTML for Java.
 
 ## Závěr
 

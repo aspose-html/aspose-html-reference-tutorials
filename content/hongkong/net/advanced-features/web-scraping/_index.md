@@ -14,7 +14,7 @@ url: /zh-hant/net/advanced-features/web-scraping/
 
 在深入了解 Aspose.HTML for .NET 的世界之前，您需要滿足一些先決條件：
 
-1. 開發環境：確保您擁有一個使用 Visual Studio 或任何其他用於 .NET 開發的相容 IDE 設定的工作開發環境。
+1. 開發環境：確保您擁有使用 Visual Studio 或任何其他用於 .NET 開發的相容 IDE 設定的工作開發環境。
 
 2.  Aspose.HTML for .NET：從下列位置下載並安裝 Aspose.HTML for .NET 函式庫：[下載連結](https://releases.aspose.com/html/net/)。您可以根據需要選擇免費試用版或授權版。
 

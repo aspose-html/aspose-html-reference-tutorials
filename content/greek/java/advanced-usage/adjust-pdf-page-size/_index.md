@@ -71,7 +71,7 @@ try (java.io.FileOutputStream fileOutputStream = new java.io.FileOutputStream(Re
 
 Τώρα, θα αποδώσετε το περιεχόμενο HTML σε ένα αρχείο PDF. Θα καλύψουμε δύο σενάρια: ένα όπου το μέγεθος της σελίδας δεν προσαρμόζεται στο πλάτος του περιεχομένου και ένα άλλο όπου προσαρμόζεται.
 
-### Το μέγεθος σελίδας δεν έχει προσαρμοστεί
+### Το μέγεθος της σελίδας δεν έχει προσαρμοστεί
 
 Σε αυτό το σενάριο, το μέγεθος της σελίδας ορίζεται σε ένα σταθερό πλάτος και ύψος, το οποίο μπορεί να περικόψει το περιεχόμενο εάν υπερβαίνει αυτές τις διαστάσεις.
 
@@ -92,7 +92,7 @@ pdf_options.setPageSetup(pageSetup);
 pdf_output = Resources.output("not-adjusted-to-widest-page_out.pdf");
 com.aspose.html.rendering.pdf.PdfDevice device = new com.aspose.html.rendering.pdf.PdfDevice(pdf_options, pdf_output);
 
-//Αποδώστε την έξοδο
+//Απόδοση της εξόδου
 pdf_renderer.render(device, html_document);
 ```
 
@@ -110,11 +110,11 @@ pdf_options.setPageSetup(pageSetup);
 pdf_output = Resources.output("adjusted-to-widest-page_out.pdf");
 device = new com.aspose.html.rendering.pdf.PdfDevice(pdf_options, pdf_output);
 
-//Αποδώστε την έξοδο
+//Απόδοση της εξόδου
 pdf_renderer.render(device, html_document);
 ```
 
-## συμπέρασμα
+## Σύναψη
 
 Σε αυτό το σεμινάριο, έχουμε εξερευνήσει τον τρόπο προσαρμογής του μεγέθους σελίδας PDF κατά τη μετατροπή HTML σε PDF χρησιμοποιώντας το Aspose.HTML για Java. Έχετε μάθει τις προϋποθέσεις, έχετε εισαγάγει τα απαιτούμενα πακέτα και ακολουθείτε έναν οδηγό βήμα προς βήμα για να επιτύχετε αυτήν την εργασία. Με το Aspose.HTML για Java, μπορείτε να ελέγχετε εύκολα το μέγεθος της σελίδας των PDF που δημιουργείτε, διασφαλίζοντας ότι το περιεχόμενό σας εμφανίζεται όπως προορίζεται.
 
@@ -140,4 +140,4 @@ A3: Ναι, μπορείτε να προσαρμόσετε το στυλ προ�
 
 ### Ε5: Υπάρχει διαθέσιμη δωρεάν δοκιμή για το Aspose.HTML για Java;
 
- A5: Ναι, μπορείτε να αποκτήσετε πρόσβαση σε μια δωρεάν δοκιμή του Aspose.HTML για Java από[αυτός ο σύνδεσμος](https://releases.aspose.com/).
+ A5: Ναι, μπορείτε να αποκτήσετε πρόσβαση σε μια δωρεάν δοκιμή του Aspose.HTML για Java από[αυτόν τον σύνδεσμο](https://releases.aspose.com/).

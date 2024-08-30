@@ -168,7 +168,7 @@ class MemoryStreamProvider : Aspose.Html.IO.ICreateStreamProvider
             }
         }
 ```
-Gratulujeme! Úspěšně jste převedli soubor EPUB do formátu XPS pomocí Aspose.HTML pro .NET.
+Gratuluji! Úspěšně jste převedli soubor EPUB do formátu XPS pomocí Aspose.HTML pro .NET.
 
 ## Závěr
 
@@ -185,7 +185,7 @@ Aspose.HTML for .NET je výkonná knihovna, která umožňuje vývojářům prac
  Aspose.HTML pro .NET si můžete stáhnout z[stránka ke stažení](https://releases.aspose.com/html/net/).
 
 ### Je k dispozici bezplatná zkušební verze pro Aspose.HTML pro .NET?
- Ano, můžete získat bezplatnou zkušební verzi od[tady](https://releases.aspose.com/).
+ Ano, můžete získat bezplatnou zkušební verzi od[zde](https://releases.aspose.com/).
 
 ### Jak mohu získat dočasnou licenci pro Aspose.HTML pro .NET?
  Chcete-li získat dočasnou licenci, navštivte[dočasná licenční stránka](https://purchase.aspose.com/temporary-license/).

@@ -108,7 +108,7 @@ S1: Aspose.HTML for Java är ett Java-bibliotek som låter utvecklare manipulera
 
 ### F2: Var kan jag ladda ner Aspose.HTML för Java?
 
- S2: Du kan ladda ner Aspose.HTML for Java-biblioteket från[den här länken](https://releases.aspose.com/html/java/).
+ S2: Du kan ladda ner Aspose.HTML for Java-biblioteket från[denna länk](https://releases.aspose.com/html/java/).
 
 ### F3: Finns det en gratis testversion tillgänglig för Aspose.HTML för Java?
 

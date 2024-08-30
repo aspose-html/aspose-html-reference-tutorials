@@ -39,7 +39,7 @@ Låt oss nu dela upp varje steg och förklara det i detalj.
 string dataDir = "Your Data Directory";
 ```
 
- I det första steget måste du ange datakatalogen där din SVG-fil finns. Byta ut`"Your Data Directory"` med den faktiska sökvägen till din SVG-fil.
+ I det första steget måste du ange datakatalogen där din SVG-fil finns. Ersätta`"Your Data Directory"` med den faktiska sökvägen till din SVG-fil.
 
 ## Steg 2: Laddar SVG-dokumentet
 
@@ -63,7 +63,7 @@ ImageSaveOptions options = new ImageSaveOptions(ImageFormat.Jpeg);
 string outputFile = dataDir + "SVGtoImage_Output.jpeg";
 ```
 
-Du anger sökvägen för utdatafilen. Byta ut`"SVGtoImage_Output.jpeg"` med önskat namn för din utdatabild.
+Du anger sökvägen för utdatafilen. Ersätta`"SVGtoImage_Output.jpeg"` med önskat namn för din utdatabild.
 
 ## Steg 5: Konvertera SVG till bild
 
@@ -91,7 +91,7 @@ S2: Aspose.HTML för .NET stöder flera bildformat, inklusive JPEG, PNG, BMP och
 
 ### Q3. Finns det en gratis testversion av Aspose.HTML för .NET?
 
- S3: Ja, du kan komma åt en gratis testversion av Aspose.HTML för .NET från[den här länken](https://releases.aspose.com/).
+ S3: Ja, du kan komma åt en gratis testversion av Aspose.HTML för .NET från[denna länk](https://releases.aspose.com/).
 
 ### Q4. Kan jag få support för eventuella problem eller frågor relaterade till Aspose.HTML för .NET?
 

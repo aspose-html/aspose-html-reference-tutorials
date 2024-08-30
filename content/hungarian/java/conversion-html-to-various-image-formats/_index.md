@@ -16,7 +16,7 @@ A HTML konvertálása BMP-vé gyakori követelmény azok számára, akik a webes
 
 ## HTML konvertálása GIF-be
 
-Szeretné konvertálni a HTML-t GIF-képekké Java nyelven? Az Aspose.HTML for Java átfogó, lépésenkénti útmutatót kínál ennek hatékony megvalósításához. Akár animált webtartalmat hoz létre, akár egyszerűen csak jó minőségű képformátumra van szüksége, ez az oktatóanyag végigvezeti Önt a folyamaton, és ez gyerekjáték.
+Szeretné konvertálni a HTML-t GIF-képekké Java nyelven? Az Aspose.HTML for Java átfogó, lépésenkénti útmutatót kínál ennek hatékony megvalósításához. Akár animált webtartalmat hoz létre, akár egyszerűen csak jó minőségű képformátumra van szüksége, ez az oktatóanyag végigvezeti Önt a folyamaton, így gyerekjáték.
 
 ## HTML konvertálása JPEG formátumba
 

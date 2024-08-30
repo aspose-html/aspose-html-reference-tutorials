@@ -19,7 +19,7 @@ Než se ponoříte do procesu převodu, musíte mít splněno několik předpokl
 
 2. Aspose.HTML pro Javu
 
- Ujistěte se, že máte knihovnu Aspose.HTML for Java. Můžete si jej stáhnout z[tady](https://releases.aspose.com/html/java/).
+ Ujistěte se, že máte knihovnu Aspose.HTML for Java. Můžete si jej stáhnout z[zde](https://releases.aspose.com/html/java/).
 
 3. Soubor EPUB
 
@@ -43,7 +43,7 @@ import com.aspose.html.saving.ImageSaveOptions;
 import com.aspose.html.rendering.image.ImageFormat;
 ```
 
-## Zhroutit se
+## Zhroucení
 
 Dále si ukázkový kód rozdělíme do několika kroků, abychom lépe porozuměli procesu převodu.
 
@@ -68,7 +68,7 @@ try (java.io.FileInputStream fileInputStream = new java.io.FileInputStream("inpu
 }
 ```
 
-A to je vše! Úspěšně jste převedli soubor EPUB na obrázek pomocí Aspose.HTML for Java.
+A je to! Úspěšně jste převedli soubor EPUB na obrázek pomocí Aspose.HTML for Java.
 
 ## Závěr
 
@@ -84,7 +84,7 @@ Nyní máte možnost plynule převádět soubory EPUB na obrázky v Javě. Ať u
 
 ### Q2: Mohu vyzkoušet Aspose.HTML pro Java před nákupem?
 
- A2: Ano, můžete prozkoumat Aspose.HTML pro Java stažením bezplatné zkušební verze z[tady](https://releases.aspose.com/html/java).
+ A2: Ano, můžete prozkoumat Aspose.HTML pro Java stažením bezplatné zkušební verze z[zde](https://releases.aspose.com/html/java).
 
 ### Q3: Kde mohu získat podporu nebo vyhledat pomoc?
 

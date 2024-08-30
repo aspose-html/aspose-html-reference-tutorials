@@ -100,7 +100,7 @@ var options = new PdfSaveOptions()
 ```
 
 -  Hozzon létre egy példányt a`PdfSaveOptions` és testreszabhatja igényei szerint.
-- Ebben a példában az oldal méretét 3000 pixel szélesre és 1000 képpont magasságra, a háttérszínt pedig Alice Blue-ra állítjuk.
+- Ebben a példában az oldal méretét 3000 pixel szélesre és 1000 pixel magasságra, a háttérszínt pedig Alice Blue-ra állítjuk.
 
 ### 5. lépés: Hajtsa végre az átalakítást
 
@@ -151,7 +151,7 @@ using (var streamProvider = new MemoryStreamProvider())
 }
 ```
 
--  Hozzon létre egy`MemoryStreamProvider` hogy az átalakítás eredményét memóriafolyamként kezelje.
+-  Hozzon létre a`MemoryStreamProvider` hogy az átalakítás eredményét memóriafolyamként kezelje.
 -  Használja a`Converter.ConvertEPUB` módszert az egyéni adatfolyam-szolgáltatóval.
 
 ### 5. lépés: Mentse el az eredményt
@@ -207,7 +207,7 @@ Most megtanulta, hogyan konvertálhat EPUB fájlokat PDF formátumba az Aspose.H
 
 ## Következtetés
 
-Az Aspose.HTML for .NET egy sokoldalú eszköz az EPUB-fájlok PDF-formátumba konvertálására, és testreszabási lehetőségeket kínál a létrejövő PDF-dokumentum igényeinek megfelelő személyre szabásához. Akár egyszerű konverziókra, akár speciális testreszabásra van szüksége, az Aspose.HTML mindent megtalál.
+Az Aspose.HTML for .NET egy sokoldalú eszköz az EPUB-fájlok PDF-formátumba konvertálására, testreszabási lehetőségeket kínálva a létrejövő PDF-dokumentum igényeinek megfelelő személyre szabásához. Akár egyszerű konverziókra, akár speciális testreszabásra van szüksége, az Aspose.HTML mindent megtalál.
 
  Ha még nem tette meg, letöltheti az Aspose.HTML for .NET fájlt a[weboldal](https://releases.aspose.com/html/net/) és már ma elkezdheti használni a .NET-alkalmazásaiban.
 

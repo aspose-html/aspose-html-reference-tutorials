@@ -1,28 +1,28 @@
 ---
-title: Editar un documento en .NET con Aspose.HTML
-linktitle: Editar un documento en .NET
-second_title: Aspose.HTML .NET API de manipulación de HTML
-description: Aprenda a trabajar con documentos HTML en .NET usando Aspose.HTML. Este completo tutorial cubre la creación, manipulación y estilo de documentos. ¡Empieza ahora!
+title: Edición de un documento en .NET con Aspose.HTML
+linktitle: Edición de un documento en .NET
+second_title: Aspose.HTML .NET API de manipulación HTML
+description: Aprenda a trabajar con documentos HTML en .NET con Aspose.HTML. Este completo tutorial cubre la creación, manipulación y estilo de documentos. ¡Comience ahora!
 type: docs
 weight: 12
 url: /es/net/working-with-html-documents/editing-a-document/
 ---
 
-Bienvenido a nuestro tutorial sobre el uso de Aspose.HTML para .NET, una poderosa herramienta para manejar documentos HTML en sus aplicaciones .NET. En este tutorial, lo guiaremos a través de los pasos esenciales para trabajar con documentos HTML usando Aspose.HTML. Si es un desarrollador experimentado o recién comienza con el desarrollo .NET, esta guía lo ayudará a aprovechar todo el potencial de Aspose.HTML para sus proyectos.
+Bienvenido a nuestro tutorial sobre el uso de Aspose.HTML para .NET, una potente herramienta para manejar documentos HTML en sus aplicaciones .NET. En este tutorial, le guiaremos a través de los pasos esenciales para trabajar con documentos HTML utilizando Aspose.HTML. Tanto si es un desarrollador experimentado como si recién está comenzando con el desarrollo .NET, esta guía le ayudará a aprovechar todo el potencial de Aspose.HTML para sus proyectos.
 
-## Requisitos previos
+## Prerrequisitos
 
-Antes de profundizar en los ejemplos de código, asegúrese de cumplir con los siguientes requisitos previos:
+Antes de profundizar en los ejemplos de código, asegúrese de tener los siguientes requisitos previos:
 
-1. Visual Studio: necesitará Visual Studio instalado en su máquina para seguir los ejemplos.
+1. Visual Studio: necesitará tener Visual Studio instalado en su máquina para seguir los ejemplos.
 
-2.  Aspose.HTML para .NET: Debe tener instalada la biblioteca Aspose.HTML para .NET. Puedes descargarlo desde[aquí](https://releases.aspose.com/html/net/).
+2.  Aspose.HTML para .NET: Debe tener instalada la biblioteca Aspose.HTML para .NET. Puede descargarla desde[aquí](https://releases.aspose.com/html/net/).
 
-3. Una comprensión básica de C#: la familiaridad con la programación de C# será útil, pero incluso si eres nuevo en C#, aún puedes seguirlo y aprender.
+3. Un conocimiento básico de C#: Estar familiarizado con la programación en C# será útil, pero incluso si eres nuevo en C#, puedes seguir y aprender.
 
-## Importación de espacios de nombres necesarios
+## Importación de los espacios de nombres necesarios
 
-Para comenzar a usar Aspose.HTML para .NET, debe importar los espacios de nombres requeridos. Así es como puedes hacerlo:
+Para comenzar a utilizar Aspose.HTML para .NET, debe importar los espacios de nombres necesarios. A continuación, le indicamos cómo hacerlo:
 
 ```csharp
 using Aspose.Html;
@@ -30,9 +30,9 @@ using Aspose.Html.Dom;
 using Aspose.Html.Dom.Css;
 ```
 
-Ahora que tiene cubiertos los requisitos previos, dividamos cada ejemplo en varios pasos y expliquemos cada paso en detalle.
+Ahora que ya cubres los requisitos previos, vamos a dividir cada ejemplo en varios pasos y explicar cada paso en detalle.
 
-## Ejemplo 1: creación y edición de un documento HTML
+## Ejemplo 1: Creación y edición de un documento HTML
 
 ```csharp
 static void EditDocumentTree()
@@ -64,15 +64,15 @@ static void EditDocumentTree()
 
 4.  Establecemos un atributo personalizado`id` para el elemento de párrafo.
 
-5.  Un nodo de texto se crea usando`document.CreateTextNode("my first paragraph")`.
+5.  Se crea un nodo de texto utilizando`document.CreateTextNode("my first paragraph")`.
 
 6.  Adjuntamos el nodo de texto al elemento de párrafo usando`p.AppendChild(text)`.
 
-7. Finalmente adjuntamos el párrafo al cuerpo del documento.
+7. Finalmente, adjuntamos el párrafo al cuerpo del documento.
 
 Este ejemplo demuestra cómo crear y manipular la estructura de un documento HTML.
 
-## Ejemplo 2: eliminar un elemento de un documento HTML
+## Ejemplo 2: Eliminar un elemento de un documento HTML
 
 ```csharp
 static void EditDocumentTreeWithAppendRemoveChild()
@@ -96,11 +96,11 @@ static void EditDocumentTreeWithAppendRemoveChild()
 
 3.  Usando`body.GetElementsByTagName("div").First()` , recuperamos el primero`<div>` elemento en el documento.
 
-4.  Eliminamos los seleccionados.`<div>` elemento del cuerpo del documento usando`body.RemoveChild(div)`.
+4.  Eliminamos lo seleccionado`<div>` elemento del cuerpo del documento utilizando`body.RemoveChild(div)`.
 
 Este ejemplo demuestra cómo manipular y eliminar elementos de un documento HTML existente.
 
-## Ejemplo 3: edición de contenido HTML
+## Ejemplo 3: Edición de contenido HTML
 
 ```csharp
 static void EditHtml()
@@ -109,7 +109,7 @@ static void EditHtml()
     {
         // Obtener elemento del cuerpo
         var body = document.Body;
-        // Establecer el contenido del elemento del cuerpo.
+        // Establecer el contenido del elemento del cuerpo
         body.InnerHTML = "<p>paragraph</p>";
         // Pasar al primer hijo
         var node = body.FirstChild;
@@ -124,26 +124,26 @@ static void EditHtml()
 
 2. Accedemos al elemento cuerpo del documento.
 
-3.  Usando`body.InnerHTML` , configuramos el contenido HTML del cuerpo en`<p>paragraph</p>`.
+3.  Usando`body.InnerHTML` , establecemos el contenido HTML del cuerpo en`<p>paragraph</p>`.
 
 4.  Recuperamos el primer elemento hijo del cuerpo usando`body.FirstChild`.
 
 5. Imprimimos el nombre local del primer elemento hijo en la consola.
 
-Este ejemplo demuestra cómo configurar y recuperar el contenido HTML de un elemento dentro de un documento HTML.
+Este ejemplo demuestra cómo establecer y recuperar el contenido HTML de un elemento dentro de un documento HTML.
 
-## Ejemplo 4: edición de estilos de elementos
+## Ejemplo 4: Edición de estilos de elementos
 
 ```csharp
 static void EditElementStyle()
 {
     using (var document = new Aspose.Html.HTMLDocument("<style>p { color: red; }</style><p>my first paragraph</p>", "about:blank"))
     {
-        // Obtenga el elemento para inspeccionar
+        // Obtener el elemento a inspeccionar
         var element = document.GetElementsByTagName("p")[0];
         // Obtener el objeto de vista CSS
         var view = (Aspose.Html.Dom.Css.IViewCSS)document.Context.Window;
-        // Obtener el estilo calculado del elemento.
+        // Obtener el estilo calculado del elemento
         var declaration = view.GetComputedStyle(element);
         // Obtener el valor de la propiedad "color"
         System.Console.WriteLine(declaration.Color); // rgb(255, 0, 0)
@@ -155,26 +155,26 @@ static void EditElementStyle()
 
 1.  Creamos un documento HTML con CSS incrustado que establece el color de`<p>` elementos a rojo.
 
-2.  Recuperamos el`<p>` elemento usando`document.GetElementsByTagName("p")[0]`.
+2.  Recuperamos el`<p>` elemento que utiliza`document.GetElementsByTagName("p")[0]`.
 
 3.  Accedemos al objeto de vista CSS y obtenemos el estilo calculado del`<p>` elemento.
 
-4. Recuperamos e imprimimos el valor de la propiedad "color", que está configurada en rojo en el CSS.
+4. Recuperamos e imprimimos el valor de la propiedad "color", que está establecida en rojo en el CSS.
 
 Este ejemplo demuestra cómo inspeccionar y manipular los estilos CSS de elementos HTML.
 
-## Ejemplo 5: cambiar el estilo del elemento mediante atributos
+## Ejemplo 5: Cambiar el estilo de un elemento mediante atributos
 
 ```csharp
 static void EditElementStyleUsingAttribute()
 {
     using (var document = new Aspose.Html.HTMLDocument("<style>p { color: red; }</style><p>my first paragraph</p>", "about:blank"))
     {
-        // Obtener el elemento para editar
+        // Obtener el elemento a editar
         var element = (Aspose.Html.HTMLElement)document.GetElementsByTagName("p")[0];
         // Obtener el objeto de vista CSS
         var view = (Aspose.Html.Dom.Css.IViewCSS)document.Context.Window;
-        // Obtener el estilo calculado del elemento.
+        // Obtener el estilo calculado del elemento
         var declaration = view.GetComputedStyle(element);
         // Establecer color verde
         element.Style.Color = "green";
@@ -188,23 +188,23 @@ static void EditElementStyleUsingAttribute()
 
 1.  Creamos un documento HTML con CSS incrustado que establece el color de`<p>` elementos a rojo.
 
-2.  Recuperamos el`<p>` elemento usando`document.GetElementsByTagName("p")[0]`.
+2.  Recuperamos el`<p>` elemento que utiliza`document.GetElementsByTagName("p")[0]`.
 
 3.  Accedemos al objeto de vista CSS y obtenemos el estilo calculado del`<p>` elemento antes de cualquier cambio.
 
-4.  Cambiamos el color de la`<p>` elemento a verde usando`element.Style.Color = "green"`.
+4.  Cambiamos el color de la`<p>` Elemento para usar de forma ecológica`element.Style.Color = "green"`.
 
 5. Recuperamos e imprimimos el valor actualizado del "color"
 
- propiedad, que ahora está verde.
+ propiedad, que ahora es verde.
 
 Este ejemplo demuestra cómo modificar directamente el estilo de un elemento HTML utilizando atributos.
 
 ## Conclusión
 
-En este tutorial, cubrimos los fundamentos del uso de Aspose.HTML para .NET para crear, manipular y diseñar documentos HTML dentro de sus aplicaciones .NET. Exploramos varios ejemplos, desde la creación de un documento HTML hasta la edición de su estructura y estilos. Con estas habilidades, podrá manejar documentos HTML de forma eficaz en sus proyectos .NET.
+En este tutorial, hemos cubierto los aspectos básicos del uso de Aspose.HTML para .NET para crear, manipular y aplicar estilos a documentos HTML dentro de sus aplicaciones .NET. Exploramos varios ejemplos, desde la creación de un documento HTML hasta la edición de su estructura y estilos. Con estas habilidades, puede manejar documentos HTML de manera eficaz en sus proyectos .NET.
 
- Si tiene alguna pregunta o necesita más ayuda, no dude en visitar el[Aspose.HTML para documentación .NET](https://reference.aspose.com/html/net/) o buscar ayuda en el[asponer foro](https://forum.aspose.com/).
+ Si tiene alguna pregunta o necesita más ayuda, no dude en visitar el[Documentación de Aspose.HTML para .NET](https://reference.aspose.com/html/net/) o buscar ayuda en el[Foro de Aspose](https://forum.aspose.com/).
 
 ---
 
@@ -217,11 +217,11 @@ Aspose.HTML para .NET es una potente biblioteca para trabajar con documentos HTM
  Puede descargar Aspose.HTML para .NET desde[aquí](https://releases.aspose.com/html/net/).
 
 ### ¿Hay una prueba gratuita disponible?
- Sí, puede obtener una prueba gratuita de Aspose.HTML desde[aquí](https://releases.aspose.com/).
+ Sí, puedes obtener una prueba gratuita de Aspose.HTML desde[aquí](https://releases.aspose.com/).
 
 ### ¿Cómo puedo comprar una licencia?
- Para comprar una licencia, visite[este enlace](https://purchase.aspose.com/buy).
+ Para comprar una licencia, visite[Este enlace](https://purchase.aspose.com/buy).
 
-### ¿Necesito experiencia previa con HTML para usar Aspose.HTML para .NET?
-Si bien el conocimiento de HTML es útil, puede utilizar Aspose.HTML para .NET incluso si no es un experto en HTML.
+### ¿Necesito experiencia previa con HTML para utilizar Aspose.HTML para .NET?
+Si bien el conocimiento de HTML es útil, puedes usar Aspose.HTML para .NET incluso si no eres un experto en HTML.
 

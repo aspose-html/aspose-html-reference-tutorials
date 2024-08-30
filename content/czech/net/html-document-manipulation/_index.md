@@ -30,7 +30,7 @@ Aspose.HTML pro .NET nabízí nespočet výhod:
 
 Nyní se pojďme ponořit do pokladnice výukových programů, které na vás čekají:
 
-1. Začínáme s Aspose.HTML pro .NET: Pokud jste s Aspose.HTML pro .NET noví, tento návod je vaším výchozím bodem. Naučte se, jak nastavit prostředí, a ochutnejte, co tato výkonná knihovna umí.
+1. Začínáme s Aspose.HTML pro .NET: Pokud s Aspose.HTML pro .NET teprve začínáte, tento návod je vaším výchozím bodem. Naučte se, jak nastavit prostředí, a vyzkoušejte, co tato výkonná knihovna umí.
 
 2. Převod HTML do PDF: Osvojte si umění převodu HTML dokumentů na PDF soubory. S Aspose.HTML pro .NET je to hračka.
 

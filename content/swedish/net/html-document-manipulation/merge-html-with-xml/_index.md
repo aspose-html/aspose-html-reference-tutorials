@@ -26,7 +26,7 @@ Du behöver en fungerande .NET-utvecklingsmiljö på din maskin. Om du inte har 
 
 Samla HTML-mallen och XML-datafilerna som du tänker arbeta med. Du behöver dessa för att följa med exemplen i den här guiden.
 
-4. Grundläggande kunskaper i .NET
+4. Grundläggande kunskaper om .NET
 
 En grundläggande förståelse för .NET-programmering är väsentlig. Om du är ny på .NET, överväg att börja med introduktionshandledningar eller kurser tillgängliga online.
 
@@ -120,7 +120,7 @@ S1: Aspose.HTML för .NET är ett kraftfullt bibliotek som låter utvecklare arb
 
 ### F4: Hur kan jag köpa en licens för Aspose.HTML för .NET?
 
- S4: Du kan köpa en licens genom att besöka[den här länken](https://purchase.aspose.com/buy).
+ S4: Du kan köpa en licens genom att besöka[denna länk](https://purchase.aspose.com/buy).
 
 ### F5: Var kan jag få support och hjälp för Aspose.HTML för .NET?
 

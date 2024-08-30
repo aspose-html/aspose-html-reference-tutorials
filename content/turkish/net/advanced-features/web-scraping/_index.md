@@ -1,28 +1,28 @@
 ---
-title: Aspose.HTML ile .NET'te Web Scraping
+title: Aspose.HTML ile .NET'te Web Kazıma
 linktitle: .NET'te Web Kazıma
 second_title: Aspose.HTML .NET HTML işleme API'si
-description: Aspose.HTML ile .NET'te HTML belgelerini yönetmeyi öğrenin. Gelişmiş web geliştirme için öğeleri etkili bir şekilde gezinin, filtreleyin, sorgulayın ve seçin.
+description: Aspose.HTML ile .NET'te HTML belgelerini düzenlemeyi öğrenin. Gelişmiş web geliştirme için öğeleri etkili bir şekilde gezinin, filtreleyin, sorgulayın ve seçin.
 type: docs
 weight: 13
 url: /tr/net/advanced-features/web-scraping/
 ---
 
-Günümüzün dijital çağında, HTML belgelerinden bilgi çıkarmak ve değiştirmek geliştiricilerin ortak bir görevidir. Aspose.HTML for .NET, .NET uygulamalarında HTML işlemeyi ve değiştirmeyi kolaylaştıran güçlü bir araçtır. Bu eğitimde Aspose.HTML for .NET'in önkoşullar, ad alanları ve tüm potansiyelinden yararlanmanıza yardımcı olacak adım adım örnekler de dahil olmak üzere çeşitli yönlerini inceleyeceğiz.
+Günümüzün dijital çağında, HTML belgelerinden bilgi işlemek ve çıkarmak geliştiriciler için yaygın bir görevdir. .NET için Aspose.HTML, .NET uygulamalarında HTML işleme ve işlemeyi basitleştiren güçlü bir araçtır. Bu eğitimde, .NET için Aspose.HTML'nin ön koşullar, ad alanları ve tüm potansiyelinden yararlanmanıza yardımcı olacak adım adım örnekler dahil olmak üzere çeşitli yönlerini keşfedeceğiz.
 
-## Önkoşullar
+## Ön koşullar
 
-Aspose.HTML for .NET dünyasına dalmadan önce birkaç ön koşula ihtiyacınız olacak:
+.NET için Aspose.HTML dünyasına dalmadan önce birkaç ön koşula ihtiyacınız olacak:
 
-1. Geliştirme Ortamı: Visual Studio veya herhangi bir uyumlu .NET geliştirme için IDE ile ayarlanmış, çalışan bir geliştirme ortamına sahip olduğunuzdan emin olun.
+1. Geliştirme Ortamı: .NET geliştirme için Visual Studio veya uyumlu herhangi bir IDE ile çalışan bir geliştirme ortamı kurduğunuzdan emin olun.
 
-2.  Aspose.HTML for .NET: Aspose.HTML for .NET kitaplığını aşağıdaki adresten indirip yükleyin:[İndirme: {link](https://releases.aspose.com/html/net/). İhtiyaçlarınıza göre ücretsiz deneme sürümü veya lisanslı sürüm arasında seçim yapabilirsiniz.
+2.  .NET için Aspose.HTML: .NET için Aspose.HTML kitaplığını indirin ve yükleyin.[indirme bağlantısı](https://releases.aspose.com/html/net/)İhtiyaçlarınıza göre ücretsiz deneme sürümü veya lisanslı sürüm arasında seçim yapabilirsiniz.
 
-3. Temel HTML Bilgisi: Aspose.HTML for .NET'i etkili bir şekilde kullanmak için HTML yapısına ve öğelerine aşina olmak çok önemlidir.
+3. Temel HTML Bilgisi: Aspose.HTML for .NET'i etkili bir şekilde kullanmak için HTML yapısı ve öğelerine aşina olmak önemlidir.
 
 ## Ad Alanlarını İçe Aktarma
 
-Başlamak için gerekli ad alanlarını C# projenize aktarmanız gerekir. Bu ad alanları Aspose.HTML for .NET sınıflarına ve işlevlerine erişim sağlar:
+Başlamak için, C# projenize gerekli ad alanlarını içe aktarmanız gerekir. Bu ad alanları, .NET sınıfları ve işlevleri için Aspose.HTML'ye erişim sağlar:
 
 ```csharp
 using Aspose.Html;
@@ -31,11 +31,11 @@ using Aspose.Html.XPath;
 using Aspose.Html.Css;
 ```
 
-Önkoşullar mevcut ve ad alanları içe aktarıldıktan sonra, Aspose.HTML for .NET'in etkili bir şekilde nasıl kullanılacağını göstermek için bazı önemli örnekleri adım adım inceleyelim.
+Ön koşullar sağlandıktan ve ad alanları içe aktarıldıktan sonra, Aspose.HTML for .NET'in etkili bir şekilde nasıl kullanılacağını göstermek için bazı önemli örnekleri adım adım ele alalım.
 
-## HTML'de Gezinmek
+## HTML'de Gezinme
 
-Bu örnekte, bir HTML belgesinde gezineceğiz ve öğelerine adım adım erişeceğiz.
+Bu örnekte bir HTML belgesinde gezinip, adım adım öğelerine erişeceğiz.
 
 ```csharp
 public static void NavigateThroughHTML()
@@ -43,10 +43,10 @@ public static void NavigateThroughHTML()
     // Bir HTML kodu hazırlayın
     var html_code = "<span>Hello</span> <span>World!</span>";
     
-    // Hazırlanan koddan bir belgeyi başlat
+    // Hazırlanan koddan bir belge başlatın
     using (var document = new HTMLDocument(html_code, "."))
     {
-        // BODY'nin ilk çocuğuna (ilk SPAN) referansı alın
+        // BODY'nin ilk çocuğuna (ilk SPAN) ait referansı alın
         var element = document.Body.FirstChild;
         Console.WriteLine(element.TextContent); // Çıktı: Merhaba
 
@@ -61,11 +61,11 @@ public static void NavigateThroughHTML()
 }
 ```
 
- Bu örnekte, bir HTML belgesi oluşturuyoruz, onun ilk çocuğuna (a) erişiyoruz.`SPAN` eleman), elemanlar arasındaki boşluk ve ikinci`SPAN` temel gezinmeyi gösteren öğe.
+ Bu örnekte bir HTML belgesi oluşturuyoruz, ilk çocuğuna (bir`SPAN` eleman), elemanlar arasındaki boşluk ve ikinci`SPAN` Temel gezinmeyi gösteren öğe.
 
 ## Düğüm Filtrelerini Kullanma
 
-Düğüm filtreleri, bir HTML belgesindeki belirli öğeleri seçerek işlemenize olanak tanır.
+Düğüm filtreleri, bir HTML belgesindeki belirli öğeleri seçici bir şekilde işlemenize olanak tanır.
 
 ```csharp
 public static void NodeFilterUsageExample()
@@ -77,10 +77,10 @@ public static void NodeFilterUsageExample()
         <img src='image2.png'>
         <p>World!</p>";
     
-    // Hazırlanan koda göre bir belgeyi başlatın
+    // Hazırlanan koda dayalı bir belge başlatın
     using (var document = new HTMLDocument(code, "."))
     {
-        // Görüntü öğeleri için özel filtreli bir TreeWalker oluşturun
+        // Görüntü öğeleri için özel bir filtreye sahip bir TreeWalker oluşturun
         using (var iterator = document.CreateTreeWalker(document, NodeFilter.SHOW_ALL, new OnlyImageFilter()))
         {
             while (iterator.NextNode() != null)
@@ -95,7 +95,7 @@ public static void NodeFilterUsageExample()
 }
 ```
 
- Bu örnek, belirli öğeleri ayıklamak için özel bir düğüm filtresinin nasıl kullanılacağını gösterir (bu durumda,`IMG` öğeleri) HTML belgesinden.
+ Bu örnek, belirli öğeleri (bu durumda,`IMG` HTML belgesinden öğeler) silinir.
 
 ## XPath Sorguları
 
@@ -116,17 +116,17 @@ public static void XPathQueryUsageExample()
         </p>
     ";
     
-    // Hazırlanan koda göre bir belgeyi başlatın
+    // Hazırlanan koda dayalı bir belge başlatın
     using (var document = new HTMLDocument(code, "."))
     {
         // Belirli öğeleri seçmek için bir XPath ifadesini değerlendirin
-        var result = document.Evaluate("//*[@class='mutlu']//span",
+        var result = document.Evaluate("//*[@class='happy']//genişlik",
                                         document,
                                         null,
                                         XPathResultType.Any,
                                         null);
         
-        // Ortaya çıkan düğümler üzerinde yineleme
+        // Sonuçlanan düğümler üzerinde yineleme yapın
         for (Node node; (node = result.IterateNext()) != null;)
         {
             Console.WriteLine(node.TextContent);
@@ -137,11 +137,11 @@ public static void XPathQueryUsageExample()
 }
 ```
 
-Bu örnek, HTML belgesindeki öğeleri niteliklerine ve yapılarına göre bulmak için XPath sorgularının kullanımını gösterir.
+Bu örnek, HTML belgesindeki öğeleri niteliklerine ve yapılarına göre bulmak için XPath sorgularının kullanımını göstermektedir.
 
-## CSS Seçiciler
+## CSS Seçicileri
 
-CSS seçicileri, CSS stil sayfalarının öğeleri hedeflemesine benzer şekilde, bir HTML belgesindeki öğeleri seçmek için alternatif bir yol sağlar.
+CSS seçicileri, CSS stil sayfalarının öğeleri hedefleme biçimine benzer şekilde, bir HTML belgesindeki öğeleri seçmek için alternatif bir yol sağlar.
 
 ```csharp
 public static void CSSSelectorUsageExample()
@@ -158,13 +158,13 @@ public static void CSSSelectorUsageExample()
         </p>
     ";
     
-    // Hazırlanan koda göre bir belgeyi başlatın
+    // Hazırlanan koda dayalı bir belge başlatın
     using (var document = new HTMLDocument(code, "."))
     {
-        //Sınıf ve hiyerarşiye dayalı öğeleri çıkarmak için bir CSS seçici kullanın
+        //Sınıf ve hiyerarşiye göre öğeleri çıkarmak için bir CSS seçici kullanın
         var elements = document.QuerySelectorAll(".happy span");
         
-        // Sonuçta ortaya çıkan öğe listesi üzerinde yineleme yapın
+        // Sonuçlanan elemanlar listesi üzerinde yineleme yapın
         foreach (HTMLElement element in elements)
         {
             Console.WriteLine(element.InnerHTML);
@@ -175,32 +175,32 @@ public static void CSSSelectorUsageExample()
 }
 ```
 
-Burada, HTML belgesindeki belirli öğeleri hedeflemek için CSS seçicilerin nasıl kullanılacağını gösteriyoruz.
+Burada, HTML belgesindeki belirli öğeleri hedeflemek için CSS seçicilerinin nasıl kullanılacağını gösteriyoruz.
 
-Bu örneklerle Aspose.HTML for .NET kullanarak HTML belgelerindeki öğelerin nasıl gezinileceği, filtreleneceği, sorgulanacağı ve seçileceği konusunda temel bir anlayış elde ettiniz.
+Bu örneklerle, Aspose.HTML for .NET kullanarak HTML belgelerindeki öğelerde gezinme, filtreleme, sorgulama ve seçme konusunda temel bir anlayış kazandınız.
 
 ## Çözüm
 
- Aspose.HTML for .NET, .NET geliştiricilerinin HTML belgeleriyle verimli bir şekilde çalışmasını sağlayan çok yönlü bir kitaplıktır. Gezinme, filtreleme, sorgulama ve öğeleri seçmeye yönelik güçlü özellikleri sayesinde çeşitli HTML işleme görevlerini sorunsuz bir şekilde gerçekleştirebilirsiniz. Bu öğreticiyi takip ederek ve adresindeki belgeleri inceleyerek[Aspose.HTML for .NET Belgeleri](https://reference.aspose.com/html/net/).NET uygulamalarınız için bu aracın tüm potansiyelini ortaya çıkarabilirsiniz.
+ .NET için Aspose.HTML, .NET geliştiricilerinin HTML belgeleriyle verimli bir şekilde çalışmasını sağlayan çok yönlü bir kütüphanedir. Gezinme, filtreleme, sorgulama ve öğeleri seçme için güçlü özellikleriyle çeşitli HTML işleme görevlerini sorunsuz bir şekilde halledebilirsiniz. Bu öğreticiyi takip ederek ve şu adresteki belgeleri inceleyerek:[.NET için Aspose.HTML Belgeleri](https://reference.aspose.com/html/net/), .NET uygulamalarınız için bu aracın tüm potansiyelini ortaya çıkarabilirsiniz.
 
-## SSS'ler
+## SSS
 
-### S1. Aspose.HTML for .NET'in kullanımı ücretsiz mi?
+### S1. Aspose.HTML for .NET'i kullanmak ücretsiz mi?
 
-Cevap1: Aspose.HTML for .NET ücretsiz deneme sürümü sunuyor ancak üretim kullanımı için bir lisans satın almanız gerekecek. Lisanslama ayrıntılarını ve seçeneklerini şu adreste bulabilirsiniz:[Aspose.HTML Satın Alma](https://purchase.aspose.com/buy).
+A1: Aspose.HTML for .NET ücretsiz deneme sürümü sunar, ancak üretim kullanımı için bir lisans satın almanız gerekir. Lisanslama ayrıntılarını ve seçeneklerini şu adreste bulabilirsiniz:[Aspose.HTML Satın Al](https://purchase.aspose.com/buy).
 
-### Q2. Aspose.HTML for .NET için nasıl geçici lisans alabilirim?
+### S2. Aspose.HTML for .NET için geçici lisansı nasıl alabilirim?
 
- Cevap2: Test amaçlı olarak geçici bir lisans alabilirsiniz.[Aspose.HTML Geçici Lisans](https://purchase.aspose.com/temporary-license/).
+ A2: Test amaçlı geçici lisansı şu adresten alabilirsiniz:[Aspose.HTML Geçici Lisansı](https://purchase.aspose.com/temporary-license/).
 
-### S3. Aspose.HTML for .NET için nereden yardım veya destek alabilirim?
+### S3. Aspose.HTML for .NET için yardım veya desteği nereden alabilirim?
 
- A3: Herhangi bir sorunla karşılaşırsanız veya sorularınız varsa, şu adresi ziyaret edebilirsiniz:[Aspose.HTML Forumu](https://forum.aspose.com/) yardım ve topluluk desteği için.
+ A3: Herhangi bir sorunla karşılaşırsanız veya sorularınız varsa, şu adresi ziyaret edebilirsiniz:[Aspose.HTML Forum](https://forum.aspose.com/) yardım ve toplum desteği için.
 
-### S4. Aspose.HTML for .NET'i öğrenmek için ek kaynaklar var mı?
+### S4. .NET için Aspose.HTML öğrenmek için ek kaynaklar var mı?
 
- Cevap4: Bu eğitimin yanı sıra, konuyla ilgili daha fazla eğitim ve belgeyi keşfedebilirsiniz.[Aspose.HTML for .NET dokümantasyon sayfası](https://reference.aspose.com/html/net/).
+ A4: Bu eğitimle birlikte, daha fazla eğitim ve belgeyi inceleyebilirsiniz.[Aspose.HTML for .NET dokümantasyon sayfası](https://reference.aspose.com/html/net/).
 
-### S5. Aspose.HTML for .NET en son .NET sürümleriyle uyumlu mu?
+### S5. Aspose.HTML for .NET en son .NET sürümleriyle uyumlu mudur?
 
-Cevap5: Aspose.HTML for .NET, en yeni .NET sürümleri ve teknolojileriyle uyumluluğun sağlanması amacıyla düzenli olarak güncellenmektedir.
+C5: Aspose.HTML for .NET, en son .NET sürümleri ve teknolojileriyle uyumluluğun sağlanması amacıyla düzenli olarak güncellenmektedir.

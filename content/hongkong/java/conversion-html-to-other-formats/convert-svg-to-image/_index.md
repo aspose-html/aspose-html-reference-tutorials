@@ -9,7 +9,7 @@ url: /zh-hant/java/conversion-html-to-other-formats/convert-svg-to-image/
 ---
 ## 介紹
 
-您是否希望使用 Java 將可縮放向量圖形 (SVG) 轉換為影像格式？ Aspose.HTML for Java 是完成此任務的完美工具。在這份綜合指南中，我們將逐步引導您完成整個過程。我們將介紹先決條件、導入包，並將每個範例分解為多個步驟。在本教學結束時，您將能夠使用 Aspose.HTML 輕鬆地將 SVG 檔案轉換為各種影像格式。讓我們開始吧！
+您是否希望使用 Java 將可縮放向量圖形 (SVG) 轉換為圖像格式？ Aspose.HTML for Java 是完成此任務的完美工具。在這份綜合指南中，我們將逐步引導您完成整個過程。我們將介紹先決條件、導入包，並將每個範例分解為多個步驟。在本教學結束時，您將能夠使用 Aspose.HTML 輕鬆地將 SVG 檔案轉換為各種影像格式。讓我們開始吧！
 
 ## 先決條件
 

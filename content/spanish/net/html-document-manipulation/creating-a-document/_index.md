@@ -1,18 +1,18 @@
 ---
-title: Creando un documento en .NET con Aspose.HTML
-linktitle: Crear un documento en .NET
-second_title: Aspose.HTML .NET API de manipulación de HTML
-description: Libere el poder de Aspose.HTML para .NET. Aprenda a crear, manipular y optimizar documentos HTML y SVG con facilidad. Explore ejemplos paso a paso y preguntas frecuentes.
+title: Creación de un documento en .NET con Aspose.HTML
+linktitle: Creando un documento en .NET
+second_title: Aspose.HTML .NET API de manipulación HTML
+description: Descubra el poder de Aspose.HTML para .NET. Aprenda a crear, manipular y optimizar documentos HTML y SVG con facilidad. Explore ejemplos paso a paso y preguntas frecuentes.
 type: docs
 weight: 14
 url: /es/net/html-document-manipulation/creating-a-document/
 ---
 
-En el mundo del desarrollo web en constante evolución, mantenerse a la vanguardia es esencial. Aspose.HTML para .NET proporciona a los desarrolladores un sólido conjunto de herramientas para trabajar con documentos HTML. Ya sea que esté comenzando desde cero, cargando desde un archivo, extrayendo de una URL o manejando documentos SVG, esta biblioteca ofrece la versatilidad que necesita.
+En el mundo del desarrollo web, que está en constante evolución, es fundamental mantenerse a la vanguardia. Aspose.HTML para .NET ofrece a los desarrolladores un conjunto de herramientas sólido para trabajar con documentos HTML. Ya sea que comience desde cero, cargue desde un archivo, extraiga desde una URL o gestione documentos SVG, esta biblioteca ofrece la versatilidad que necesita.
 
-En esta guía paso a paso, profundizaremos en los fundamentos del uso de Aspose.HTML para .NET, asegurándonos de que esté bien equipado para utilizar esta poderosa herramienta en sus proyectos de desarrollo web. Antes de profundizar en los detalles, repasemos los requisitos previos y los espacios de nombres necesarios para iniciar su viaje.
+En esta guía paso a paso, profundizaremos en los aspectos básicos del uso de Aspose.HTML para .NET, lo que garantizará que esté bien equipado para utilizar esta poderosa herramienta en sus proyectos de desarrollo web. Antes de profundizar en los detalles, repasemos los requisitos previos y los espacios de nombres necesarios para comenzar su recorrido.
 
-## Requisitos previos
+## Prerrequisitos
 
 Para seguir con éxito este tutorial y aprovechar el poder de Aspose.HTML para .NET, necesitará los siguientes requisitos previos:
 
@@ -20,28 +20,28 @@ Para seguir con éxito este tutorial y aprovechar el poder de Aspose.HTML para .
 - Un editor de código como Visual Studio.
 - Conocimientos básicos de programación en C#.
 
-Ahora que ya tiene los requisitos previos establecidos, comencemos.
+Ahora que ya tienes los requisitos previos establecidos, comencemos.
 
-## Importando espacios de nombres
+## Importación de espacios de nombres
 
-Antes de comenzar a usar Aspose.HTML para .NET, debe importar los espacios de nombres necesarios. Estos espacios de nombres contienen clases y métodos que son vitales para trabajar con documentos HTML. A continuación se muestra una lista de espacios de nombres que debe importar:
+Antes de comenzar a utilizar Aspose.HTML para .NET, debe importar los espacios de nombres necesarios. Estos espacios de nombres contienen clases y métodos que son fundamentales para trabajar con documentos HTML. A continuación, se incluye una lista de los espacios de nombres que debe importar:
 
 ```csharp
 using Aspose.Html;
 using Aspose.Html.Dom.Svg;
 ```
 
-Una vez importados estos espacios de nombres, ya está listo para sumergirse en los ejemplos paso a paso.
+Con estos espacios de nombres importados, ahora está listo para sumergirse en los ejemplos paso a paso.
 
-## Crear un documento HTML desde cero
+## Creando un documento HTML desde cero
 
-### Paso 1: inicializar un documento HTML vacío
+### Paso 1: Inicializar un documento HTML vacío
 
 ```csharp
-// Inicialice un documento HTML vacío.
+// Inicializar un documento HTML vacío.
 using (var document = new Aspose.Html.HTMLDocument())
 {
-    // Crea un elemento de texto y agrégalo al documento.
+    // Crea un elemento de texto y agrégalo al documento
     var text = document.CreateTextNode("Hello World!");
     document.Body.AppendChild(text);
     // Guarde el documento en el disco.
@@ -49,51 +49,51 @@ using (var document = new Aspose.Html.HTMLDocument())
 }
 ```
 
-En este ejemplo, comenzamos creando un documento HTML vacío y agregando un "¡Hola mundo!" enviarle un mensaje de texto. Luego guardamos el documento en un archivo.
+En este ejemplo, comenzamos creando un documento HTML vacío y le agregamos el texto "¡Hola mundo!". Luego, guardamos el documento en un archivo.
 
 ## Crear un documento HTML a partir de un archivo
 
-### Paso 1: prepare un archivo 'document.html'
+### Paso 1: Prepare un archivo 'document.html'
 
 ```csharp
 System.IO.File.WriteAllText("document.html", "Hello World!");
 ```
 
-### Paso 2: cargar desde un archivo 'document.html'
+### Paso 2: Cargar desde un archivo 'document.html'
 
 ```csharp
 using (var document = new Aspose.Html.HTMLDocument("document.html"))
 {
-    // Escriba el contenido del documento en el flujo de salida.
+    // Escribe el contenido del documento en el flujo de salida.
     Console.WriteLine(document.DocumentElement.OuterHTML);
 }
 ```
 
-Aquí preparamos un archivo con "¡Hola mundo!" contenido y luego cárguelo como un documento HTML. Imprimimos el contenido del documento en la consola.
+Aquí, preparamos un archivo con el contenido "Hola mundo" y luego lo cargamos como un documento HTML. Imprimimos el contenido del documento en la consola.
 
 ## Crear un documento HTML a partir de una URL
 
-### Paso 1: cargar un documento desde una página web
+### Paso 1: Cargar un documento desde una página web
 
 ```csharp
 using (var document = new Aspose.Html.HTMLDocument("https://html.spec.whatwg.org/multipage/introduction.html"))
 {
-    // Escriba el contenido del documento en el flujo de salida.
+    // Escribe el contenido del documento en el flujo de salida.
     Console.WriteLine(document.DocumentElement.OuterHTML);
 }
 ```
 
 En este ejemplo, cargamos un documento HTML directamente desde una página web y mostramos su contenido.
 
-## Crear un documento HTML a partir de una cadena
+## Creación de un documento HTML a partir de una cadena
 
-### Paso 1: preparar un código HTML
+### Paso 1: Preparar un código HTML
 
 ```csharp
 var html_code = "<p>Hello World!</p>";
 ```
 
-### Paso 2: inicializar el documento desde la variable de cadena
+### Paso 2: Inicializar el documento desde la variable de cadena
 
 ```csharp
 using (var document = new Aspose.Html.HTMLDocument(html_code, "."))
@@ -105,17 +105,17 @@ using (var document = new Aspose.Html.HTMLDocument(html_code, "."))
 
 Aquí, creamos un documento HTML a partir de una variable de cadena y lo guardamos en un archivo.
 
-## Crear un documento HTML a partir de un MemoryStream
+## Creación de un documento HTML a partir de un MemoryStream
 
-### Paso 1: crear un objeto de flujo de memoria
+### Paso 1: Crear un objeto de flujo de memoria
 
 ```csharp
 using (var mem = new System.IO.MemoryStream())
 using (var sw = new System.IO.StreamWriter(mem))
 {
-    // Escriba el código HTML en el objeto de memoria.
+    // Escribe el código HTML en el objeto de memoria
     sw.Write("<p>Hello World!</p>");
-    // Establecer la posición al principio.
+    // Establezca la posición al principio
     sw.Flush();
     mem.Seek(0, System.IO.SeekOrigin.Begin);
     // Inicializar documento desde el flujo de memoria
@@ -131,12 +131,12 @@ En este ejemplo, creamos un documento HTML a partir de un flujo de memoria y lo 
 
 ## Trabajar con documentos SVG
 
-### Paso 1: Inicialice el documento SVG a partir de una cadena
+### Paso 1: Inicializar el documento SVG a partir de una cadena
 
 ```csharp
-using (var document = new Aspose.Html.Dom.Svg.SVGDocument("<svg xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='40'/></svg>", "."))
+using (var document = new Aspose.Html.Dom.Svg.SVGDocument("<svg xmlns='http://<circle cx='50' cy='50' r='40'/></svg>", "."))
 {
-    // Escriba el contenido del documento en el flujo de salida.
+    // Escribe el contenido del documento en el flujo de salida.
     Console.WriteLine(document.DocumentElement.OuterHTML);
 }
 ```
@@ -145,7 +145,7 @@ Aquí, creamos y mostramos un documento SVG a partir de una cadena.
 
 ## Cargar un documento HTML de forma asincrónica
 
-### Paso 1: crear la instancia del documento HTML
+### Paso 1: Crear la instancia del documento HTML
 
 ```csharp
 var document = new Aspose.Html.HTMLDocument();
@@ -156,7 +156,7 @@ var document = new Aspose.Html.HTMLDocument();
 ```csharp
 document.OnReadyStateChange += (sender, @event) =>
 {
-    //Verifique el valor de la propiedad 'ReadyState'.
+    // Verifique el valor de la propiedad 'ReadyState'.
     if (document.ReadyState == "complete")
     {
         Console.WriteLine(document.DocumentElement.OuterHTML);
@@ -165,7 +165,7 @@ document.OnReadyStateChange += (sender, @event) =>
 };
 ```
 
-### Paso 3: navegar de forma asincrónica en el Uri especificado
+### Paso 3: Navegar de forma asincrónica en la Uri especificada
 
 ```csharp
 document.Navigate("https://html.spec.whatwg.org/multipage/introduction.html");
@@ -177,7 +177,7 @@ En este ejemplo, cargamos un documento HTML de forma asincrónica y manejamos el
 
 ## Manejo del evento 'OnLoad'
 
-### Paso 1: crear la instancia del documento HTML
+### Paso 1: Crear la instancia del documento HTML
 
 ```csharp
 var document = new Aspose.Html.HTMLDocument();
@@ -193,7 +193,7 @@ document.OnLoad += (sender, @event) =>
 };
 ```
 
-### Paso 3: navegar de forma asincrónica en el Uri especificado
+### Paso 3: Navegar de forma asincrónica en la Uri especificada
 
 ```csharp
 document.Navigate("https://html.spec.whatwg.org/multipage/introduction.html");
@@ -201,36 +201,36 @@ Console.WriteLine("Waiting for loading...");
 Console.ReadLine();
 ```
 
-Este ejemplo demuestra la carga de un documento HTML de forma asincrónica y el manejo del evento 'OnLoad' para mostrar el contenido al finalizar.
+Este ejemplo demuestra cómo cargar un documento HTML de forma asincrónica y manejar el evento 'OnLoad' para mostrar el contenido una vez finalizado.
 
 ## En conclusión
 
-En el dinámico mundo del desarrollo web, tener las herramientas adecuadas a su disposición es crucial. Aspose.HTML para .NET le proporciona los medios para crear, manipular y procesar documentos HTML y SVG de manera eficiente. Esta guía completa lo ha guiado a través de los conceptos básicos, asegurando que pueda aprovechar el poder de Aspose.HTML para .NET en sus proyectos.
+En el dinámico mundo del desarrollo web, es fundamental contar con las herramientas adecuadas. Aspose.HTML para .NET le proporciona los medios para crear, manipular y procesar documentos HTML y SVG de manera eficiente. Esta guía completa le ha enseñado los aspectos básicos para que pueda aprovechar el poder de Aspose.HTML para .NET en sus proyectos.
 
 ## Preguntas frecuentes
 
 ### P1: ¿Qué es Aspose.HTML para .NET?
 
-R1: Aspose.HTML para .NET es una poderosa biblioteca .NET que permite a los desarrolladores trabajar con documentos HTML y SVG. Proporciona una amplia gama de funciones, desde la creación de documentos desde cero hasta el análisis y manipulación de archivos HTML y SVG existentes.
+A1: Aspose.HTML para .NET es una potente biblioteca .NET que permite a los desarrolladores trabajar con documentos HTML y SVG. Ofrece una amplia gama de funciones, desde la creación de documentos desde cero hasta el análisis y la manipulación de archivos HTML y SVG existentes.
 
 ### P2: ¿Puedo usar Aspose.HTML para .NET con .NET Core?
 
-R2: Sí, Aspose.HTML para .NET es compatible tanto con .NET Framework como con .NET Core, lo que lo convierte en una opción versátil para aplicaciones .NET modernas.
+A2: Sí, Aspose.HTML para .NET es compatible con .NET Framework y .NET Core, lo que lo convierte en una opción versátil para las aplicaciones .NET modernas.
 
-### P3: ¿Aspose.HTML para .NET es adecuado para el análisis y el scraping web?
+### P3: ¿Aspose.HTML para .NET es adecuado para el raspado y análisis web?
 
-R3: ¡Absolutamente! Aspose.HTML para .NET es una excelente opción para tareas de análisis y raspado web, gracias a su capacidad para cargar documentos HTML desde URL y cadenas. Puede extraer datos, realizar análisis y más.
+A3: ¡Por supuesto! Aspose.HTML para .NET es una excelente opción para tareas de análisis y extracción de datos web, gracias a su capacidad para cargar documentos HTML desde URL y cadenas. Puede extraer datos, realizar análisis y mucho más.
 
-### P4: ¿Cómo puedo acceder al soporte de Aspose.HTML para .NET?
+### P4: ¿Cómo puedo acceder al soporte para Aspose.HTML para .NET?
 
- R4: Si encuentra algún problema o tiene preguntas mientras usa Aspose.HTML para .NET, puede visitar el[Foro Aspose](https://forum.aspose.com/) para el apoyo y asistencia de la comunidad y los expertos de Aspose.
+ A4: Si encuentra algún problema o tiene preguntas mientras usa Aspose.HTML para .NET, puede visitar el[Foro de Aspose](https://forum.aspose.com/) para recibir apoyo y asistencia de la comunidad y de los expertos de Aspose.
 
-### R5: ¿Dónde puedo encontrar documentación detallada y opciones de descarga?
+### A5: ¿Dónde puedo encontrar documentación detallada y opciones de descarga?
 
-R5: Para obtener documentación completa y acceso a opciones de descarga, puede consultar los siguientes enlaces:
+A5: Para obtener documentación completa y acceder a las opciones de descarga, puede consultar los siguientes enlaces:
 
 - [Documentación](https://reference.aspose.com/html/net/)
 - [Descargar](https://releases.aspose.com/html/net/)
 - [Comprar](https://purchase.aspose.com/buy)
-- [Prueba gratis](https://releases.aspose.com/)
-- [Licencia Temporal](https://purchase.aspose.com/temporary-license/)
+- [Prueba gratuita](https://releases.aspose.com/)
+- [Licencia temporal](https://purchase.aspose.com/temporary-license/)

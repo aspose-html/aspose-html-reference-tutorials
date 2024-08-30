@@ -43,7 +43,7 @@ import com.aspose.html.saving.ImageSaveOptions;
 import com.aspose.html.rendering.image.ImageFormat;
 ```
 
-## Επαθε βλάβη
+## Ανάλυση
 
 Στη συνέχεια, ας αναλύσουμε τον κώδικα του παραδείγματος σε πολλά βήματα για καλύτερη κατανόηση της διαδικασίας μετατροπής.
 
@@ -70,7 +70,7 @@ try (java.io.FileInputStream fileInputStream = new java.io.FileInputStream("inpu
 
 Και τέλος! Μετατρέψατε με επιτυχία ένα αρχείο EPUB σε εικόνα χρησιμοποιώντας το Aspose.HTML για Java.
 
-## συμπέρασμα
+## Σύναψη
 
 Σε αυτό το σεμινάριο, έχουμε καλύψει τη διαδικασία βήμα προς βήμα μετατροπής του EPUB σε εικόνα χρησιμοποιώντας το Aspose.HTML για Java. Με τα σωστά πακέτα και μια βασική κατανόηση της Java, μπορείτε εύκολα να ενσωματώσετε αυτή τη λειτουργικότητα στις εφαρμογές σας Java. Μη διστάσετε να εξερευνήσετε το[Aspose.HTML για τεκμηρίωση Java](https://reference.aspose.com/html/java/) για περισσότερες λεπτομέρειες και χαρακτηριστικά.
 
@@ -80,7 +80,7 @@ try (java.io.FileInputStream fileInputStream = new java.io.FileInputStream("inpu
 
 ### Ε1: Είναι το Aspose.HTML για Java μια δωρεάν βιβλιοθήκη;
 
- A1: Το Aspose.HTML για Java δεν είναι δωρεάν. Μπορείτε να βρείτε πληροφορίες τιμολόγησης και αδειοδότησης στο[Aspose website](https://purchase.aspose.com/buy).
+ A1: Το Aspose.HTML για Java δεν είναι δωρεάν. Μπορείτε να βρείτε πληροφορίες τιμολόγησης και αδειοδότησης στο[Aspose ιστότοπο](https://purchase.aspose.com/buy).
 
 ### Ε2: Μπορώ να δοκιμάσω το Aspose.HTML για Java πριν το αγοράσω;
 
@@ -96,4 +96,4 @@ A4: Το Aspose.HTML για Java υποστηρίζει διάφορες μορ�
 
 ### Ε5: Υπάρχουν διαθέσιμες προσωρινές επιλογές αδειοδότησης;
 
- A5: Ναι, μπορείτε να αποκτήσετε μια προσωρινή άδεια χρήσης για το Aspose.HTML για Java από[αυτός ο σύνδεσμος](https://purchase.aspose.com/temporary-license/).
+ A5: Ναι, μπορείτε να αποκτήσετε μια προσωρινή άδεια χρήσης για το Aspose.HTML για Java από[αυτόν τον σύνδεσμο](https://purchase.aspose.com/temporary-license/).

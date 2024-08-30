@@ -34,7 +34,7 @@ Se till att du har .NET Framework installerat på din dator. Du kan ladda ner de
 
 4. Gratis provversion eller licens
 
- För att komma igång kan du välja att använda den kostnadsfria testversionen eller köpa en licens för biblioteket. Du kan få en gratis provperiod[här](https://releases.aspose.com/) eller köp en licens från[den här länken](https://purchase.aspose.com/buy) . Vid behov kan du också skaffa en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
+ För att komma igång kan du välja att använda den kostnadsfria testversionen eller köpa en licens för biblioteket. Du kan få en gratis provperiod[här](https://releases.aspose.com/) eller köp en licens från[denna länk](https://purchase.aspose.com/buy) . Vid behov kan du också skaffa en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
 
 Nu när du har alla förutsättningar på plats, låt oss börja utforska Aspose.HTML för .NET.
 
@@ -74,7 +74,7 @@ using (var document = new Aspose.Html.HTMLDocument("<style>p { color: green; }</
 
 ### Steg-för-steg förklaring:
 
-1.  Ställa in datakatalogen: Börja med att definiera katalogen där dina data finns. Byta ut`"Your Data Directory"` med den faktiska vägen.
+1.  Ställa in datakatalogen: Börja med att definiera katalogen där dina data finns. Ersätta`"Your Data Directory"` med den faktiska vägen.
 
 2. Skapa ett HTML-dokument: Vi initierar en HTMLDocument-instans med det HTML-innehåll du vill rendera.
 

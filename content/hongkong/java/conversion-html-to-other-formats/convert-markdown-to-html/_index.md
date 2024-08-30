@@ -59,7 +59,7 @@ Converter.convertMarkdown(inputMarkdownFile, outputHTMLFile);
 
 ## 第 4 步：檢查輸出
 
-轉換完成後，您可以在步驟 2 中指定的位置存取包含轉換內容的 HTML 檔案。您現在可以根據需要檢視、編輯或共用 HTML 文件。
+轉換完成後，您可以在步驟 2 中指定的位置存取包含轉換內容的 HTML 檔案。
 
 ## 結論
 

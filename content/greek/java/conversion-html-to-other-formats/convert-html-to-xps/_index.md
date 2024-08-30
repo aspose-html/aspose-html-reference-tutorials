@@ -61,7 +61,7 @@ String outputFile = "path/to/your/output.xps";
 
 ## Εκτελέστε τη Μετατροπή
 
- Τώρα, εκτελέστε τη μετατροπή από HTML σε XPS χρησιμοποιώντας το Aspose.HTML's`Converter` τάξη.
+Τώρα, εκτελέστε τη μετατροπή από HTML σε XPS χρησιμοποιώντας το Aspose.HTML's`Converter` τάξη.
 
 ```java
 Converter.convertHTML(htmlDocument, options, outputFile);
@@ -69,7 +69,7 @@ Converter.convertHTML(htmlDocument, options, outputFile);
 
 Συγχαρητήρια! Μετατρέψατε επιτυχώς ένα έγγραφο HTML σε XPS χρησιμοποιώντας το Aspose.HTML για Java.
 
-## συμπέρασμα
+## Σύναψη
 
 Η μετατροπή HTML σε XPS είναι μια πολύτιμη δεξιότητα για όποιον εργάζεται με έγγραφα και περιεχόμενο ιστού. Το Aspose.HTML για Java απλοποιεί αυτή τη διαδικασία, επιτρέποντάς σας να δημιουργείτε εύκολα έγγραφα XPS από πηγές HTML. Με τα βήματα που περιγράφονται σε αυτό το σεμινάριο, μπορείτε να αξιοποιήσετε τη δύναμη του Aspose.HTML και να ξεκλειδώσετε έναν κόσμο δυνατοτήτων μετατροπής εγγράφων.
 

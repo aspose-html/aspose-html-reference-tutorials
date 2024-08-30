@@ -8,7 +8,7 @@ weight: 15
 url: /hu/net/advanced-features/generate-encrypted-pdf-by-pdfdevice/
 ---
 
-webfejlesztés rohanó világában a HTML dinamikus PDF formátumú konvertálása általános követelmény lett. Akár jelentéseket, akár számlákat szeretne készíteni, akár egyszerűen webes tartalmat szeretne archiválni, az Aspose.HTML for .NET egy hatékony eszköz, amely leegyszerűsíti ezt a folyamatot. Ebben az oktatóanyagban végigvezetjük a dinamikus HTML-ből PDF-vé konvertálás lépésein az Aspose.HTML for .NET használatával.
+A webfejlesztés rohanó világában a HTML dinamikus PDF formátumú konvertálása általános követelmény lett. Akár jelentéseket, akár számlákat szeretne készíteni, akár egyszerűen webes tartalmat szeretne archiválni, az Aspose.HTML for .NET egy hatékony eszköz, amely leegyszerűsíti ezt a folyamatot. Ebben az oktatóanyagban végigvezetjük a dinamikus HTML-ből PDF-vé konvertálás lépésein az Aspose.HTML for .NET használatával.
 
 ## Előfeltételek
 
@@ -35,7 +35,7 @@ using System.Drawing;
 
 Most bontsuk fel az Ön által megadott példakódot több lépésre, és magyarázzuk el az egyes lépéseket.
 
-## Bontás
+## Lebontás
 
 ### 1. lépés: Inicializálja a HTML-dokumentumot
 
@@ -43,7 +43,7 @@ Most bontsuk fel az Ön által megadott példakódot több lépésre, és magyar
 using (var document = new Aspose.Html.HTMLDocument("<style>p { color: green; }</style><p>my first paragraph</p>", @"c:\work\"))
 ```
 
- Ebben a lépésben létrehozzuk a`HTMLDocument`osztály, amely a konvertálni kívánt HTML-tartalmat képviseli. HTML-tartalmát karakterláncként is átadhatja. Győződjön meg arról, hogy a megfelelő elérési utat adta meg a munkakönyvtárhoz.
+ Ebben a lépésben létrehozzuk a`HTMLDocument` osztály, amely a konvertálni kívánt HTML-tartalmat képviseli. HTML-tartalmát karakterláncként is átadhatja. Győződjön meg arról, hogy a megfelelő elérési utat adta meg a munkakönyvtárhoz.
 
 ### 2. lépés: Konfigurálja a PDF-leképezési beállításokat
 
@@ -69,9 +69,9 @@ using (PdfDevice device = new PdfDevice(options, dataDir + @"document_out.pdf"))
 }
 ```
 
- Ebben az utolsó lépésben a`RenderTo` módszer a HTML-dokumentum PDF formátumba konvertálására. Elhaladunk a`PdfDevice` példányt és a kívánt kimeneti fájl elérési útját. A HTML tartalom PDF dokumentummá alakul a megadott beállításokkal.
+ Ebben az utolsó lépésben a`RenderTo` módszerrel konvertálhatja a HTML-dokumentumot PDF-be. Elhaladunk a`PdfDevice` példányt és a kívánt kimeneti fájl elérési útját. A HTML tartalom PDF dokumentummá alakul a megadott beállításokkal.
 
-Gratulálunk! Sikeresen konvertálta a HTML-t PDF-vé dinamikusan az Aspose.HTML for .NET használatával. Mostantól szükség szerint integrálhatja ezt a kódot webalkalmazásába vagy projektjébe.
+Gratulálok! Sikeresen konvertálta a HTML-t PDF-be dinamikusan az Aspose.HTML for .NET használatával. Mostantól szükség szerint integrálhatja ezt a kódot webalkalmazásába vagy projektjébe.
 
 ## Következtetés
 
@@ -93,7 +93,7 @@ A2: Abszolút! Módosíthatja a renderelési beállításokat az oldalméret, a 
 
 ### Q4. Van ingyenes próbaverzió?
 
-4. válasz: Igen, az Aspose.HTML for .NET egy ingyenes próbaverzióval felfedezhető. Fogj neki[itt](https://releases.aspose.com/).
+4. válasz: Igen, az Aspose.HTML for .NET egy ingyenes próbaverzióval felfedezhető. Kezdje el[itt](https://releases.aspose.com/).
 
 ### Q5. Hol kaphatok segítséget és támogatást?
 

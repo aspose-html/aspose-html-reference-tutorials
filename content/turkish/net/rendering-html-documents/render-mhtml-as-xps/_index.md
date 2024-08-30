@@ -1,52 +1,52 @@
 ---
-title: Aspose.HTML ile MHTML'yi .NET'te XPS olarak işleme
-linktitle: .NET'te MHTML'yi XPS olarak işleme
+title: Aspose.HTML ile .NET'te MHTML'yi XPS olarak işleyin
+linktitle: MHTML'yi .NET'te XPS olarak işle
 second_title: Aspose.HTML .NET HTML işleme API'si
-description: Aspose.HTML ile MHTML'yi .NET'te XPS olarak işlemeyi öğrenin. HTML manipülasyon becerilerinizi geliştirin ve web geliştirme projelerinizi geliştirin!
+description: Aspose.HTML ile .NET'te MHTML'yi XPS olarak işlemeyi öğrenin. HTML düzenleme becerilerinizi geliştirin ve web geliştirme projelerinizi hızlandırın!
 type: docs
 weight: 13
 url: /tr/net/rendering-html-documents/render-mhtml-as-xps/
 ---
 ## giriiş
 
-Web geliştirmenin dinamik dünyasında, doğru araç ve kitaplıkların elinizin altında olması büyük fark yaratabilir. .NET'te HTML işleme ve işleme ile çalışıyorsanız Aspose.HTML for .NET, görevlerinizi basitleştirebilecek ve yeteneklerinizi geliştirebilecek güçlü bir kitaplıktır. Bu eğitimde Aspose.HTML for .NET'in derinliklerine ineceğiz, örnekleri yönetilebilir adımlara ayıracağız ve her biri için net açıklamalar sunacağız.
+Dinamik web geliştirme dünyasında, doğru araçlara ve kütüphanelere sahip olmak her şeyi değiştirebilir. .NET'te HTML düzenleme ve işlemeyle çalışıyorsanız, .NET için Aspose.HTML görevlerinizi basitleştirebilecek ve yeteneklerinizi artırabilecek güçlü bir kütüphanedir. Bu eğitimde, .NET için Aspose.HTML'i derinlemesine inceleyeceğiz, örnekleri yönetilebilir adımlara böleceğiz ve her biri için net açıklamalar sağlayacağız.
 
-## Önkoşullar
+## Ön koşullar
 
-Aspose.HTML for .NET ile bu yolculuğa çıkmadan önce, yerine getirmeniz gereken birkaç önkoşul var:
+Aspose.HTML for .NET ile bu yolculuğa başlamadan önce, yerine getirmeniz gereken birkaç ön koşul bulunmaktadır:
 
-### 1. Visual Studio Yüklü
+### 1. Visual Studio Yüklendi
 
-Sisteminizde Visual Studio'nun kurulu olduğundan emin olun. Aspose.HTML for .NET, Visual Studio ile sorunsuz bir şekilde çalışır ve kurulu olması, geliştirme sürecinizi kolaylaştıracaktır.
+Sisteminizde Visual Studio'nun yüklü olduğundan emin olun. Aspose.HTML for .NET, Visual Studio ile sorunsuz bir şekilde çalışır ve yüklü olması geliştirme sürecinizi kolaylaştıracaktır.
 
 ### 2. .NET için Aspose.HTML
 
- Aspose.HTML for .NET'i indirip yüklemeniz gerekecek. İndirme linkinden alabilirsiniz[Burada](https://releases.aspose.com/html/net/).
+ .NET için Aspose.HTML'i indirip yüklemeniz gerekecek. Bunu indirme bağlantısından alabilirsiniz[Burada](https://releases.aspose.com/html/net/).
 
-### 3. .NET'in Temel Bilgisi
+### 3. .NET'in Temel Bilgileri
 
-Aspose.HTML for .NET'i incelerken .NET çerçevesi ve C# programlama dili hakkında temel bir anlayışa sahip olmak faydalı olacaktır.
+.NET için Aspose.HTML'i keşfederken .NET framework ve C# programlama dili hakkında temel bir anlayışa sahip olmak faydalı olacaktır.
 
 ### 4. Veri Dizini Kurulumu
 
-Verileriniz için bir dizin oluşturun. Örneklerimizde buna "Veri Dizininiz" adını vereceğiz.
+Verileriniz için bir dizin oluşturun. Örneklerimizde buna "Veri Dizininiz" diyeceğiz.
 
-Artık önkoşulları ele aldığımıza göre, ad alanlarını anlamaya ve örnekleri adım adım açıklamaya geçelim.
+Ön koşulları ele aldığımıza göre, şimdi ad alanlarını anlamaya ve örnekleri adım adım incelemeye geçelim.
 
 ## Ad Alanlarını İçe Aktar
 
-C# projenizde gerekli ad alanlarını içe aktararak başlayın. Ad alanları, kodunuzdaki sınıfları, yöntemleri ve diğer öğeleri düzenlemek için kullanılır. Aspose.HTML for .NET için öncelikle aşağıdaki ad alanlarına ihtiyacınız olacak:
+C# projenizde, gerekli ad alanlarını içe aktararak başlayın. Ad alanları, kodunuzdaki sınıfları, yöntemleri ve diğer öğeleri düzenlemek için kullanılır. .NET için Aspose.HTML için, öncelikle aşağıdaki ad alanlarına ihtiyacınız olacak:
 
 ```csharp
 using Aspose.Html.Rendering.Xps;
 using Aspose.Html.Rendering.MhtmlRenderer;
 ```
 
-Bu ad alanları, HTML'yi farklı formatlara dönüştürmek için gereken temel sınıfları sağlar.
+Bu ad alanları, HTML'yi farklı biçimlere dönüştürmek için gereken temel sınıfları sağlar.
 
-## Örnek: Aspose.HTML ile .NET'te MHTML'yi XPS olarak işlemek
+## Örnek: Aspose.HTML ile .NET'te MHTML'yi XPS olarak işleme
 
-Şimdi verdiğiniz örneği birden fazla adıma ayıralım ve her adımı ayrıntılı bir şekilde açıklayalım:
+Şimdi verdiğiniz örneği birden fazla adıma bölelim ve her adımı ayrıntılı olarak açıklayalım:
 
 ```csharp
 string dataDir = "Your Data Directory";
@@ -60,43 +60,43 @@ using (var renderer = new MhtmlRenderer())
 
 ### Adım 1: Veri Dizini Kurulumu
 
- İçinde`dataDir` değişken, değiştir`"Your Data Directory"` MHTML belgenizin bulunduğu dizinin yolu ile birlikte.
+ İçinde`dataDir` değişken, değiştir`"Your Data Directory"` MHTML belgenizin bulunduğu dizinin yolunu belirtin.
 
 ### Adım 2: MHTML Dosyasını Açma
 
- biz kullanıyoruz`File.OpenRead` Belirtilen veri dizininden "document.mht" adlı MHTML dosyasını açma yöntemini kullanın.
+ Biz kullanıyoruz`File.OpenRead` Belirtilen veri dizininden "document.mht" adlı MHTML dosyasını açma yöntemi.
 
-### 3. Adım: XPS İşleme Aygıtı Oluşturma
+### Adım 3: XPS İşleme Aygıtı Oluşturma
 
- Bunun bir örneğini oluşturuyoruz`XpsDevice` XPS (XML Kağıt Belirtimi) biçimi için işleme aygıtını temsil eden sınıf. Çıkış XPS dosyasının oluşturulacağı yer burasıdır.
+ Bir örneğini oluşturuyoruz`XpsDevice` XPS (XML Kağıt Belirtimi) biçimi için işleme aygıtını temsil eden sınıf. Çıkış XPS dosyasının oluşturulacağı yer burasıdır.
 
-### 4. Adım: MHTML Oluşturucuyu Başlatma
+### Adım 4: MHTML Oluşturucuyu Başlatma
 
- Bunun bir örneğini oluşturuyoruz`MhtmlRenderer` MHTML belgelerinin işlenmesinden sorumlu olan sınıf.
+ Bir örneğini oluşturuyoruz`MhtmlRenderer` MHTML belgelerinin işlenmesinden sorumlu sınıf.
 
-### Adım 5: Oluşturma
+### Adım 5: İşleme
 
- Son olarak şunu kullanıyoruz:`renderer.Render`MHTML belgesini (2. Adımda açılan) XPS cihazına (3. Adımda oluşturulan) işleme yöntemini kullanın. Bu adım, MHTML belgesini etkili bir şekilde XPS biçimine dönüştürür.
+ Son olarak şunu kullanırız:`renderer.Render`MHTML belgesini (Adım 2'de açılan) XPS aygıtına (Adım 3'te oluşturulan) işleme yöntemi. Bu adım, MHTML belgesini etkili bir şekilde XPS biçimine dönüştürür.
 
-Bu adımları izleyerek Aspose.HTML for .NET'i kullanarak MHTML belgelerini zahmetsizce XPS dosyaları olarak oluşturabilirsiniz.
+Aşağıdaki adımları izleyerek Aspose.HTML for .NET'i kullanarak MHTML belgelerini zahmetsizce XPS dosyalarına dönüştürebilirsiniz.
 
 ## Çözüm
 
-Aspose.HTML for .NET, .NET uygulamalarında HTML işleme ve işleme üzerinde çalışan geliştiriciler için değerli bir araçtır. Bu öğreticide önkoşulları tartıştık, gerekli ad alanlarını içe aktardık ve MHTML'yi XPS olarak işleme örneğini yönetilebilir adımlara ayırdık. Bu bilgiyle, web geliştirme projelerinizi geliştirmek için Aspose.HTML for .NET'in gücünden yararlanabilirsiniz.
+.NET için Aspose.HTML, .NET uygulamalarında HTML düzenleme ve işleme üzerinde çalışan geliştiriciler için değerli bir araçtır. Bu eğitimde, ön koşulları ele aldık, gerekli ad alanlarını içe aktardık ve MHTML'yi XPS olarak işleme örneğini yönetilebilir adımlara böldük. Bu bilgiyle, web geliştirme projelerinizi geliştirmek için .NET için Aspose.HTML'nin gücünden yararlanabilirsiniz.
 
 ## SSS
 
 ### .NET için Aspose.HTML nedir?
 Aspose.HTML for .NET, .NET geliştiricileri için HTML işleme ve işleme yetenekleri sağlayan bir kütüphanedir. Çeşitli formatlardaki HTML belgeleriyle çalışmanıza olanak tanır.
 
-### Aspose.HTML for .NET'i nereden indirebilirim?
- Aspose.HTML for .NET'i sürüm sayfasından indirebilirsiniz[Burada](https://releases.aspose.com/html/net/).
+### .NET için Aspose.HTML'i nereden indirebilirim?
+ .NET için Aspose.HTML'i sürüm sayfasından indirebilirsiniz[Burada](https://releases.aspose.com/html/net/).
 
-### Ücretsiz deneme mevcut mu?
+### Ücretsiz deneme imkanı var mı?
  Evet, Aspose.HTML for .NET'in ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/).
 
-### Aspose.HTML for .NET için nasıl destek alabilirim?
+### .NET için Aspose.HTML desteğini nasıl alabilirim?
 Aspose.HTML topluluğundan destek ve yardım alabilirsiniz.[forum](https://forum.aspose.com/).
 
 ### Aspose.HTML for .NET için geçici bir lisans satın alabilir miyim?
- Evet, satın alma sayfasından geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+ Evet, satın alma sayfasından geçici bir lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).

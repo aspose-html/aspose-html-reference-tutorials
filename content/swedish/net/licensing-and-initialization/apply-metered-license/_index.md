@@ -2,7 +2,7 @@
 title: Använd Metered License i .NET med Aspose.HTML
 linktitle: Använd Metered License i .NET
 second_title: Aspose.HTML .NET HTML manipulation API
-description: Lär dig hur du tillämpar en mätlicens i Aspose.HTML för .NET. Hantera dina HTML-manipuleringsbehov effektivt. Börja nu!
+description: Lär dig hur du tillämpar en mätlicens i Aspose.HTML för .NET. Hantera dina HTML-manipuleringsbehov effektivt. Kom igång nu!
 type: docs
 weight: 10
 url: /sv/net/licensing-and-initialization/apply-metered-license/
@@ -41,7 +41,7 @@ Här kommer vi att dela upp exempelkoden i flera steg och förklara varje steg i
 
 ### Ställ in uppmätta offentliga och privata nycklar:
 
-    För att ansöka om en mätlicens måste du tillhandahålla dina offentliga och privata nycklar. Du kan få dessa nycklar när du köper en mätlicens från Aspose. Byta ut`"*****"` med dina faktiska offentliga och privata nycklar.
+    För att ansöka om en mätlicens måste du tillhandahålla dina offentliga och privata nycklar. Du kan få dessa nycklar när du köper en mätlicens från Aspose. Ersätta`"*****"` med dina faktiska offentliga och privata nycklar.
 
    ```csharp
    Aspose.Html.Metered metered = new Aspose.Html.Metered();
@@ -64,7 +64,7 @@ Här kommer vi att dela upp exempelkoden i flera steg och förklara varje steg i
    Console.WriteLine(document.Body.InnerHTML);
    ```
 
-Det är allt! Du har använt en uppmätt licens på ditt .NET-projekt och laddat ett HTML-dokument.
+Det är det! Du har använt en uppmätt licens på ditt .NET-projekt och laddat ett HTML-dokument.
 
 ## Slutsats
 

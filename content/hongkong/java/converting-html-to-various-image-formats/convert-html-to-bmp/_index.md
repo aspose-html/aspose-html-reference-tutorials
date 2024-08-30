@@ -24,7 +24,7 @@ url: /zh-hant/java/converting-html-to-various-image-formats/convert-html-to-bmp/
 
 ## 導入包
 
-現在，讓我們匯入必要的套件以開始在專案中使用 Aspose.HTML for Java。按著這些次序：
+現在，讓我們匯入必要的套件以開始在專案中使用 Aspose.HTML for Java。請依照下列步驟操作：
 
 ### 第 1 步：建立一個新的 Java 項目
 
@@ -113,7 +113,7 @@ if (document != null) {
 您可以在以下位置瀏覽全面的文件：[Aspose.HTML for Java 文檔](https://reference.aspose.com/html/java/).
 
 ### 我可以使用 Aspose.HTML for Java 將 HTML 轉換為其他圖片格式嗎？
-是的你可以。 Aspose.HTML for Java 支援多種影像格式，包括 BMP、PNG、JPEG 等。
+是的，你可以。 Aspose.HTML for Java 支援多種影像格式，包括 BMP、PNG、JPEG 等。
 
 ### HTML 到 BMP 轉換的檔案大小限制是多少？
 文件大小限制可能會因您的許可證而異。有關詳細信息，請參閱文件。

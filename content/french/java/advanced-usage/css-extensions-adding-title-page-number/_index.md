@@ -2,22 +2,22 @@
 title: Personnaliser les marges des pages HTML avec Aspose.HTML
 linktitle: Extensions CSS - Ajout d'un titre et d'un numéro de page
 second_title: Traitement HTML Java avec Aspose.HTML
-description: Découvrez comment personnaliser les marges des pages, ajouter des numéros de page et des titres aux documents HTML à l'aide d'Aspose.HTML pour Java.
+description: Découvrez comment personnaliser les marges de page, ajouter des numéros de page et des titres aux documents HTML à l'aide d'Aspose.HTML pour Java.
 type: docs
 weight: 10
 url: /fr/java/advanced-usage/css-extensions-adding-title-page-number/
 ---
-Aspose.HTML pour Java est une bibliothèque puissante pour traiter des documents HTML dans des applications Java. Dans ce didacticiel, nous explorerons comment créer des marges de page personnalisées et ajouter des numéros de page et des titres à vos documents HTML à l'aide d'Aspose.HTML pour Java. Ce guide étape par étape décomposera le processus en étapes gérables pour vous aider à intégrer facilement ces fonctionnalités dans vos documents HTML.
+Aspose.HTML pour Java est une bibliothèque puissante pour le traitement de documents HTML dans des applications Java. Dans ce didacticiel, nous découvrirons comment créer des marges de page personnalisées et ajouter des numéros de page et des titres à vos documents HTML à l'aide d'Aspose.HTML pour Java. Ce guide étape par étape décomposera le processus en étapes faciles à gérer pour vous aider à intégrer facilement ces fonctionnalités dans vos documents HTML.
 
-## Conditions préalables
+## Prérequis
 
 Avant de commencer, assurez-vous que les conditions préalables suivantes sont remplies :
 
-1. Environnement de développement Java : assurez-vous d'avoir configuré un environnement de développement Java sur votre ordinateur.
+1. Environnement de développement Java : assurez-vous qu'un environnement de développement Java est configuré sur votre ordinateur.
 
-2.  Aspose.HTML pour Java : téléchargez et installez la bibliothèque Aspose.HTML pour Java à partir de[ici](https://releases.aspose.com/html/java/).
+2.  Aspose.HTML pour Java : Téléchargez et installez la bibliothèque Aspose.HTML pour Java depuis[ici](https://releases.aspose.com/html/java/).
 
-## Importer des packages
+## Paquets d'importation
 
 Pour commencer, vous devez importer les packages nécessaires depuis Aspose.HTML pour Java. Ajoutez les instructions d'importation suivantes à votre code Java :
 
@@ -29,15 +29,15 @@ import com.aspose.html.HTMLDocument;
 import com.aspose.html.rendering.xps.XpsDevice;
 ```
 
-Maintenant, décomposons le processus d'ajout de marges de page personnalisées, de numéros de page et de titres en étapes gérables :
+Maintenant, décomposons le processus d’ajout de marges de page, de numéros de page et de titres personnalisés en étapes gérables :
 
-## Étape 1 : initialiser la configuration et les marges de page
+## Étape 1 : Initialiser la configuration et les marges de page
 
 ```java
-// Initialisez l'objet de configuration et configurez les marges de page pour le document
+// Initialiser l'objet de configuration et configurer les marges de page du document
 Configuration configuration = new Configuration();
 try {
-    // Obtenez le service User Agent
+    // Obtenir le service User Agent
     IUserAgentService userAgent = configuration.getService(IUserAgentService.class);
     // Définissez le style des marges personnalisées et créez des marques dessus
     userAgent.setUserStyleSheet("@page\n" +
@@ -64,18 +64,18 @@ try {
             "}\n");
 ```
 
-Dans cette étape, nous initialisons l'objet de configuration et configurons des marges de page personnalisées, y compris la position du compteur de pages et le titre de la page.
+Dans cette étape, nous initialisons l’objet de configuration et configurons les marges de page personnalisées, y compris la position du compteur de pages et le titre de la page.
 
-## Étape 2 : initialiser un document HTML
+## Étape 2 : Initialiser un document HTML
 
 ```java
 // Initialiser un document HTML
 HTMLDocument document = new HTMLDocument("<div>Hello World!!!</div>", ".", configuration);
 ```
 
-Ici, nous créons un document HTML avec un exemple de contenu (dans ce cas, un message "Hello World") et appliquons la configuration de l'étape 1.
+Ici, nous créons un document HTML avec un exemple de contenu (dans ce cas, un message « Hello World ») et appliquons la configuration de l’étape 1.
 
-## Étape 3 : initialiser un périphérique de sortie et restituer le document
+## Étape 3 : Initialiser un périphérique de sortie et générer le document
 
 ```java
 // Initialiser un périphérique de sortie
@@ -90,32 +90,32 @@ try {
 }
 ```
 
-Dans cette étape, nous configurons un périphérique de sortie et restituons le document HTML. Le document sera traité et enregistré sous forme de fichier XPS avec les marges de page, les numéros de page et le titre spécifiés.
+Dans cette étape, nous configurons un périphérique de sortie et générons le document HTML. Le document sera traité et enregistré sous forme de fichier XPS avec les marges de page, les numéros de page et le titre spécifiés.
 
 ## Conclusion
 
-Toutes nos félicitations! Vous avez appris avec succès comment créer des marges de page personnalisées et ajouter des numéros de page et des titres à vos documents HTML à l'aide d'Aspose.HTML pour Java. Cette personnalisation vous permet de créer des documents plus professionnels et visuellement attrayants.
+Félicitations ! Vous avez appris avec succès à créer des marges de page personnalisées et à ajouter des numéros de page et des titres à vos documents HTML à l'aide d'Aspose.HTML pour Java. Cette personnalisation vous permet de créer des documents plus professionnels et visuellement plus attrayants.
 
- Si vous avez des questions ou rencontrez des problèmes, n'hésitez pas à visiter le[Documentation Aspose.HTML pour Java](https://reference.aspose.com/html/java/) ou demander de l'aide sur le[Forum d'assistance Aspose](https://forum.aspose.com/).
+ Si vous avez des questions ou rencontrez des problèmes, n'hésitez pas à visiter le[Documentation d'Aspose.HTML pour Java](https://reference.aspose.com/html/java/) ou demander de l'aide sur le[Forum d'assistance Aspose](https://forum.aspose.com/).
 
 ## FAQ
 
-### Q1 : Qu'est-ce qu'Aspose.HTML pour Java ?
+### Q1 : Qu'est-ce qu'Aspose.HTML pour Java ?
 
-A1 : Aspose.HTML for Java est une bibliothèque Java qui fournit des outils puissants pour travailler avec des documents HTML dans des applications Java.
+A1 : Aspose.HTML pour Java est une bibliothèque Java qui fournit des outils puissants pour travailler avec des documents HTML dans des applications Java.
 
-### Q2 : Puis-je personnaliser davantage les marges de la page ?
+### Q2 : Puis-je personnaliser davantage les marges de la page ?
 
-A2 : Oui, vous pouvez modifier les styles CSS à l'étape 1 pour personnaliser les marges de page selon vos besoins.
+A2 : Oui, vous pouvez modifier les styles CSS à l’étape 1 pour personnaliser les marges de page selon vos besoins.
 
-### Q3 : Comment puis-je ajouter plus de contenu au document HTML ?
+### Q3 : Comment puis-je ajouter plus de contenu au document HTML ?
 
-A3 : Vous pouvez modifier le contenu HTML à l'étape 2 en remplaçant l'exemple de contenu par le vôtre.
+A3 : Vous pouvez modifier le contenu HTML de l’étape 2 en remplaçant l’exemple de contenu par le vôtre.
 
-### Q4 : Aspose.HTML pour Java est-il compatible avec d'autres formats de documents ?
+### Q4 : Aspose.HTML pour Java est-il compatible avec d’autres formats de documents ?
 
-A4 : Oui, Aspose.HTML pour Java peut être utilisé pour convertir des documents HTML vers différents formats, notamment PDF, XPS et images.
+A4 : Oui, Aspose.HTML pour Java peut être utilisé pour convertir des documents HTML en divers formats, notamment PDF, XPS et images.
 
-### Q5 : Ai-je besoin d’une licence pour utiliser Aspose.HTML pour Java ?
+### Q5 : Ai-je besoin d'une licence pour utiliser Aspose.HTML pour Java ?
 
- A5 : Oui, vous pouvez obtenir une licence ou un essai gratuit auprès de[ici](https://purchase.aspose.com/buy) ou[ici](https://releases.aspose.com/).
+ A5 : Oui, vous pouvez obtenir une licence ou un essai gratuit auprès de[ici](https://purchase.aspose.com/buy) ou[ici](https://releases.aspose.com/).

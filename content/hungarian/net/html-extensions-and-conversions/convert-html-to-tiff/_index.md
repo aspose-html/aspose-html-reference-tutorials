@@ -63,9 +63,9 @@ Most készen áll a HTML-dokumentum TIFF-formátumba konvertálására az Aspose
 Converter.ConvertHTML(htmlDocument, options, outputFile);
 ```
 
- Ez a kód a`ConvertHTML` módszer a te`htmlDocument` , a`options` definiáltad, és a`outputFile` pálya.
+ Ez a kód a`ConvertHTML` módszer a te`htmlDocument` , a`options` definiáltad, és a`outputFile` útvonal.
 
-Gratulálunk! Sikeresen konvertált egy HTML-dokumentumot TIFF-képpé az Aspose.HTML for .NET használatával.
+Gratulálok! Sikeresen konvertált egy HTML-dokumentumot TIFF-képpé az Aspose.HTML for .NET használatával.
 
 ## Következtetés
 
@@ -77,13 +77,13 @@ Gratulálunk! Sikeresen konvertált egy HTML-dokumentumot TIFF-képpé az Aspose
  Hozzáférhet a dokumentációhoz[itt](https://reference.aspose.com/html/net/).
 
 ### Hogyan tölthetem le az Aspose.HTML-t .NET-hez?
- Letöltheti innen[ez a link](https://releases.aspose.com/html/net/).
+ Letöltheti innen[ezt a linket](https://releases.aspose.com/html/net/).
 
 ### Létezik ingyenes próbaverzió az Aspose.HTML for .NET számára?
  Igen, ingyenes próbaverziót kaphat a webhelyen[itt](https://releases.aspose.com/).
 
 ### Kaphatok ideiglenes licencet az Aspose.HTML for .NET számára?
- Igen, kaphat ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
+Igen, kaphat ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
 
 ### Hol kaphatok támogatást az Aspose.HTML for .NET számára?
  Támogatást találhat és kapcsolatba léphet a közösséggel a következő címen[Aspose fóruma](https://forum.aspose.com/).

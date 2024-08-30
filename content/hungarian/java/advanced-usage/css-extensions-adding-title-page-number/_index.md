@@ -94,7 +94,7 @@ Ebben a lépésben beállítunk egy kimeneti eszközt és rendereljük a HTML do
 
 ## Következtetés
 
-Gratulálunk! Sikeresen megtanulta, hogyan hozhat létre egyéni oldalmargókat, és hogyan adhat hozzá oldalszámokat és címeket HTML-dokumentumaihoz az Aspose.HTML for Java használatával. Ezzel a testreszabással professzionálisabb és látványosabb dokumentumokat hozhat létre.
+Gratulálok! Sikeresen megtanulta, hogyan hozhat létre egyéni oldalmargókat, és hogyan adhat hozzá oldalszámokat és címeket HTML-dokumentumaihoz az Aspose.HTML for Java használatával. Ezzel a testreszabással professzionálisabb és látványosabb dokumentumokat hozhat létre.
 
  Ha bármilyen kérdése van, vagy bármilyen problémája van, keresse fel a[Aspose.HTML a Java dokumentációhoz](https://reference.aspose.com/html/java/) vagy kérjen segítséget a[Aspose támogatási fórum](https://forum.aspose.com/).
 

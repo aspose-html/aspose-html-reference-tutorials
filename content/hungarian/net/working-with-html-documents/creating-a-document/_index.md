@@ -16,7 +16,7 @@ Mielőtt elindulna ezen az úton, győződjön meg arról, hogy a következő el
 
 1. Visual Studio: Győződjön meg arról, hogy a Visual Studio telepítve van a rendszeren.
 
-2.  Aspose.HTML for .NET: Töltse le és telepítse az Aspose.HTML for .NET könyvtárat. A letöltési linket megtalálod[itt](https://releases.aspose.com/html/net/).
+2. Aspose.HTML for .NET: Töltse le és telepítse az Aspose.HTML for .NET könyvtárat. A letöltési linket megtalálod[itt](https://releases.aspose.com/html/net/).
 
 3. C# alapismeretek: Ismerkedjen meg a C# programozási nyelv alapjaival.
 
@@ -43,7 +43,7 @@ static void CreateSVG()
 }
 ```
 
- Ebben a példában az SVG-tartalom és az alap URL megadásával SVG-dokumentumot hozunk létre. A`SVGDocument`Az Aspose.HTML for .NET osztálya lehetővé teszi az SVG-dokumentumok könnyed kezelését.
+ Ebben a példában az SVG-tartalom és az alap URL megadásával SVG-dokumentumot hozunk létre. A`SVGDocument` Az Aspose.HTML for .NET osztálya lehetővé teszi az SVG-dokumentumok könnyed kezelését.
 
 ## HTML-dokumentum létrehozása a semmiből
 
@@ -57,7 +57,7 @@ static void FromScratch()
 }
 ```
 
- Ez a példa bemutatja, hogyan hozhat létre HTML-dokumentumot a semmiből. A`HTMLDocument` osztály egy üres vásznat biztosít a HTML-tartalom számára.
+ Ez a példa bemutatja, hogyan hozhat létre HTML-dokumentumot a semmiből. A`HTMLDocument`osztály egy üres vásznat biztosít a HTML-tartalom számára.
 
 ## HTML-dokumentum létrehozása helyi fájlból
 
@@ -149,10 +149,10 @@ Az Aspose.HTML for .NET hatékony eszközkészletet biztosít HTML-dokumentumok 
  1. válasz: Az Aspose.HTML for .NET ingyenes próbaverziót kínál, de a teljes használathoz licencet kell vásárolnia. További részleteket a címen találhat[https://purchase.aspose.com/buy](https://purchase.aspose.com/buy).
 
 ### 2. kérdés: Hogyan szerezhetek ideiglenes licencet az Aspose.HTML for .NET számára?
-2. válasz: Ha ideiglenes licencre van szüksége, a következő címen szerezheti be[https://purchase.aspose.com/temporary-license/](https://purchase.aspose.com/temporary-license/).
+ 2. válasz: Ha ideiglenes licencre van szüksége, a következő címen szerezheti be[https://purchase.aspose.com/temporary-license/](https://purchase.aspose.com/temporary-license/).
 
 ### 3. kérdés: Hol találom az Aspose.HTML for .NET dokumentációját?
- A3: A dokumentáció a következő címen található:[https://reference.aspose.com/html/net/](https://reference.aspose.com/html/net/).
+A3: A dokumentáció a következő címen található:[https://reference.aspose.com/html/net/](https://reference.aspose.com/html/net/).
 
 ### 4. kérdés: Vannak más Aspose-könyvtárak .NET-fejlesztéshez?
  4. válasz: Igen, az Aspose számos könyvtárat biztosít különféle fájlformátumokhoz és dokumentumkezelési feladatokhoz. Tekintse meg kínálatukat a címen[https://products.aspose.com/](https://products.aspose.com/).

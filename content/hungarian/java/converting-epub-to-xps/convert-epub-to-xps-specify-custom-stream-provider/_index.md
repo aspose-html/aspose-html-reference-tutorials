@@ -140,6 +140,6 @@ Igen, az Aspose.HTML for Java támogatja a különféle dokumentumformátumok, k
 
 ### 5. Hol találhatok további forrásokat és támogatást?
 
- Dokumentációért és támogatásért keresse fel a[Aspose.HTML a Java dokumentációhoz](https://reference.aspose.com/html/java/) és[támogatói fórum](https://forum.aspose.com/).
+ Dokumentációért és támogatásért keresse fel a[Aspose.HTML a Java dokumentációhoz](https://reference.aspose.com/html/java/) és[támogatási fórum](https://forum.aspose.com/).
 
 

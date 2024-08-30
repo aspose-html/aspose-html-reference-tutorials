@@ -140,6 +140,6 @@ Ano, Aspose.HTML for Java podporuje převod různých formátů dokumentů, vče
 
 ### 5. Kde najdu další zdroje a podporu?
 
- Pro dokumentaci a podporu navštivte[Aspose.HTML pro dokumentaci Java](https://reference.aspose.com/html/java/) a[Fórum podpory](https://forum.aspose.com/).
+ Pro dokumentaci a podporu navštivte[Aspose.HTML pro dokumentaci Java](https://reference.aspose.com/html/java/) a[fórum podpory](https://forum.aspose.com/).
 
 

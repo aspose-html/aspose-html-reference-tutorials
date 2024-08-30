@@ -173,7 +173,7 @@ class MemoryStreamProvider : Aspose.Html.IO.ICreateStreamProvider
 ### Lépések
 1.  Adja meg az EPUB-fájl elérési útját a`dataDir` változó.
 2.  Nyissa meg az EPUB-fájlt olvasáshoz a`FileStream`.
-3.  Hozzon létre egy`MemoryStreamProvider` egyéni kimeneti adatfolyamok kezelésére.
+3.  Hozzon létre a`MemoryStreamProvider` egyéni kimeneti adatfolyamok kezelésére.
 4.  Hívja a`ConvertEPUB` módszer, az EPUB adatfolyam átadása, a képmentési beállítások (JPEG) és az egyéni adatfolyam-szolgáltató.
 5. Ismételje meg a memóriafolyamokat az egyéni szolgáltatóban, és mentse őket egyedi fájlokba.
 6. Ez a példa lehetővé teszi több kimeneti adatfolyam kezelését és mentését, ha szükséges.

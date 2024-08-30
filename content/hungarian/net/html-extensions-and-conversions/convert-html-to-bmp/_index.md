@@ -51,7 +51,7 @@ string dataDir = "Your Data Directory";
 
 ### Töltse be a HTML-dokumentumot
 
- A HTML-dokumentum használatához be kell töltenie egy`HTMLDocument` tárgy. Cserélje ki`"input.html"` a HTML dokumentum nevével.
+ A HTML-dokumentum használatához be kell töltenie egy`HTMLDocument` objektum. Cserélje ki`"input.html"` a HTML dokumentum nevével.
 
 ```csharp
 HTMLDocument htmlDocument = new HTMLDocument(dataDir + "input.html");
@@ -81,7 +81,7 @@ string outputFile = dataDir + "HTMLtoBMP_Output.bmp";
 Converter.ConvertHTML(htmlDocument, options, outputFile);
 ```
 
-Gratulálunk! Sikeresen konvertált egy HTML-dokumentumot BMP-képpé az Aspose.HTML for .NET használatával.
+Gratulálok! Sikeresen konvertált egy HTML-dokumentumot BMP-képpé az Aspose.HTML for .NET használatával.
 
 ## Következtetés
 
@@ -103,7 +103,7 @@ Ha ideiglenes jogosítványra van szüksége, beszerezhet egyet[itt](https://pur
 
 ### 4. Kipróbálhatom ingyenesen az Aspose.HTML for .NET fájlt?
 
- Igen, felfedezheti az Aspose.HTML for .NET-et, ha letölti az ingyenes próbaverziót a webhelyről[ez a link](https://releases.aspose.com/).
+ Igen, felfedezheti az Aspose.HTML for .NET-et, ha letölti az ingyenes próbaverziót a webhelyről[ezt a linket](https://releases.aspose.com/).
 
 ### 5. Melyek a támogatott képformátumok az Aspose.HTML for .NET-hez való konvertálásához?
 

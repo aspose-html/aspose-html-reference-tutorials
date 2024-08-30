@@ -1,26 +1,26 @@
 ---
-title: Konwersja EPUB do XPS za pomocą Aspose.HTML dla Java
-linktitle: Konwersja EPUB-a na XPS
+title: Konwersja EPUB do XPS z Aspose.HTML dla Java
+linktitle: Konwersja EPUB do XPS
 second_title: Przetwarzanie HTML w Javie za pomocą Aspose.HTML
-description: Dowiedz się, jak przekonwertować EPUB na XPS przy użyciu Aspose.HTML dla Java. Przewodnik krok po kroku dotyczący bezproblemowej konwersji plików EPUB na XPS. Spróbuj teraz!
+description: Dowiedz się, jak przekonwertować EPUB na XPS za pomocą Aspose.HTML dla Java. Przewodnik krok po kroku dotyczący płynnej konwersji EPUB na XPS. Wypróbuj teraz!
 type: docs
 weight: 10
 url: /pl/java/converting-epub-to-xps/convert-epub-to-xps/
 ---
 
-Czy chcesz przekonwertować pliki EPUB do formatu XPS przy użyciu Java? Aspose.HTML dla Java jest tutaj, aby uprościć proces. Ten przewodnik krok po kroku przeprowadzi Cię przez całą procedurę, od wymagań wstępnych po importowanie niezbędnych pakietów i podzielenie każdego przykładu na wiele łatwych do wykonania kroków.
+Czy chcesz przekonwertować pliki EPUB do formatu XPS za pomocą Javy? Aspose.HTML for Java jest tutaj, aby uprościć ten proces. Ten przewodnik krok po kroku przeprowadzi Cię przez całą procedurę, od wymagań wstępnych po importowanie niezbędnych pakietów i rozbicie każdego przykładu na wiele łatwych do wykonania kroków.
 
-## Warunki wstępne
+## Wymagania wstępne
 
 Zanim zaczniemy, upewnij się, że spełnione są następujące wymagania wstępne:
 
-1. Zestaw Java Development Kit (JDK): Upewnij się, że w systemie jest zainstalowany zestaw Java Development Kit (JDK). Można go pobrać ze strony internetowej Oracle lub z innego zaufanego źródła.
+1. Java Development Kit (JDK): Upewnij się, że masz zainstalowany Java Development Kit (JDK) w swoim systemie. Możesz go pobrać ze strony Oracle lub dowolnego innego zaufanego źródła.
 
-2. Biblioteka Aspose.HTML dla Java: Pobierz i zainstaluj bibliotekę Aspose.HTML dla Java z witryny[Aspose.HTML dla dokumentacji Java](https://reference.aspose.com/html/java/) . Możesz skorzystać z[Link do pobrania](https://releases.aspose.com/html/java/) w tym celu.
+2. Biblioteka Aspose.HTML dla Java: Pobierz i zainstaluj bibliotekę Aspose.HTML dla Java ze strony[Aspose.HTML dla dokumentacji Java](https://reference.aspose.com/html/java/) Możesz użyć[Link do pobrania](https://releases.aspose.com/html/java/) w tym celu.
 
-3. IDE (Zintegrowane środowisko programistyczne): Wybierz swoje ulubione środowisko Java do kodowania. Popularnymi wyborami są IntelliJ IDEA, Eclipse lub NetBeans.
+3. IDE (Integrated Development Environment): Wybierz swoje ulubione środowisko IDE Java do kodowania. Popularnymi wyborami są IntelliJ IDEA, Eclipse lub NetBeans.
 
-4. Plik EPUB: Będziesz potrzebował pliku EPUB, który chcesz przekonwertować na XPS. Upewnij się, że masz gotowy ten plik.
+4. Plik EPUB: Będziesz potrzebować pliku EPUB, który chcesz przekonwertować na XPS. Upewnij się, że masz ten plik gotowy.
 
 ## Importuj pakiety
 
@@ -34,9 +34,9 @@ import com.aspose.html.converters.Converter;
 import java.io.FileInputStream;
 ```
 
-Teraz, gdy mamy już przygotowane wymagania wstępne i zaimportowane wymagane pakiety, przejdźmy do przykładu.
+Teraz, gdy spełniliśmy wszystkie wymagania wstępne i zaimportowaliśmy wymagane pakiety, przejdźmy do przykładu.
 
-W tej sekcji podzielimy proces konwersji pliku EPUB na format XPS na wiele kroków.
+W tej sekcji przedstawimy proces konwersji pliku EPUB do formatu XPS w kilku krokach.
 
 ## Otwórz plik EPUB
 
@@ -44,17 +44,17 @@ W tej sekcji podzielimy proces konwersji pliku EPUB na format XPS na wiele krok�
 try (FileInputStream fileInputStream = new FileInputStream("input.epub")) {
 ```
 
- Na tym etapie otwieramy plik EPUB do odczytu za pomocą pliku`FileInputStream`. Upewnij się, że plik EPUB, który chcesz przekonwertować, ma nazwę „input.epub” lub odpowiednio zaktualizuj ścieżkę pliku.
+ W tym kroku otwieramy plik EPUB do czytania za pomocą`FileInputStream`. Upewnij się, że plik EPUB, który chcesz przekonwertować, nazywa się „input.epub” lub odpowiednio zaktualizuj ścieżkę pliku.
 
-## Utwórz opcje XpsSave
+## Utwórz opcje zapisu Xps
 
 ```java
 XpsSaveOptions options = new XpsSaveOptions();
 ```
 
- Tutaj tworzymy instancję`XpsSaveOptions`, który określa opcje zapisywania pliku XPS.
+Tutaj tworzymy instancję`XpsSaveOptions`, który określa opcje zapisywania pliku XPS.
 
-## Konwertuj EPUB na XPS
+## Konwertuj EPUB do XPS
 
 ```java
 Converter.convertEPUB(
@@ -64,29 +64,29 @@ Converter.convertEPUB(
 );
 ```
 
- Teraz używamy`Converter.convertEPUB` metoda konwersji pliku EPUB do formatu XPS. Metoda polega na`fileInputStream` ,`options` utworzyliśmy wcześniej, oraz nazwę pliku wyjściowego, która w tym przykładzie to „output.xps”. W razie potrzeby możesz zmienić nazwę pliku wyjściowego.
+ Teraz używamy`Converter.convertEPUB` metoda konwersji pliku EPUB do formatu XPS. Metoda przyjmuje`fileInputStream` , ten`options` utworzyliśmy wcześniej, a nazwa pliku wyjściowego, która w tym przykładzie to „output.xps”. Możesz zmienić nazwę pliku wyjściowego w razie potrzeby.
 
-I to wszystko! Pomyślnie przekonwertowałeś plik EPUB do formatu XPS przy użyciu Aspose.HTML dla Java.
+I to wszystko! Udało Ci się przekonwertować plik EPUB do formatu XPS przy użyciu Aspose.HTML dla Java.
 
 ## Wniosek
 
-W tym samouczku nauczyliśmy się, jak konwertować pliki EPUB do formatu XPS w Javie przy użyciu Aspose.HTML. Dzięki odpowiednim wymaganiom wstępnym i prostemu przykładowi kodu można łatwo zintegrować tę funkcjonalność z aplikacjami Java.
+W tym samouczku nauczyliśmy się, jak konwertować pliki EPUB do formatu XPS w Javie przy użyciu Aspose.HTML. Przy odpowiednich wymaganiach wstępnych i prostym przykładzie kodu możesz łatwo zintegrować tę funkcjonalność ze swoimi aplikacjami Java.
 
- Masz więcej pytań lub potrzebujesz dalszej pomocy? Sprawdź[Forum Aspose.HTML](https://forum.aspose.com/) dla wsparcia.
+ Masz więcej pytań lub potrzebujesz dalszej pomocy? Sprawdź[Forum Aspose.HTML](https://forum.aspose.com/) o wsparcie.
 
 ## Często zadawane pytania
 
-### Czy mogę przekonwertować wiele plików EPUB za jednym razem?
-Tak, możesz przeglądać listę plików EPUB i konwertować je jeden po drugim do formatu XPS, korzystając z podanego przykładu.
+### Czy mogę przekonwertować wiele plików EPUB na raz?
+Tak, możesz przejrzeć listę plików EPUB i przekonwertować je pojedynczo na format XPS, korzystając z podanego przykładu.
 
-### Czy dostępna jest licencja tymczasowa do testowania?
- Tak, możesz uzyskać tymczasową licencję do celów testowych, odwiedzając stronę[Strona licencji tymczasowej](https://purchase.aspose.com/temporary-license/).
+### Czy jest dostępna tymczasowa licencja do celów testowych?
+Tak, możesz uzyskać tymczasową licencję do celów testowych, odwiedzając stronę[Strona licencji tymczasowej](https://purchase.aspose.com/temporary-license/).
 
-### Jakie wersje EPUB są obsługiwane przy konwersji?
+### Jakie wersje formatu EPUB są obsługiwane w ramach konwersji?
 Aspose.HTML dla Java obsługuje formaty EPUB 2 i 3.
 
 ### Czy oprócz XPS obsługiwane są jakieś inne formaty wyjściowe?
-Tak, Aspose.HTML dla Java obsługuje konwersję do różnych innych formatów, takich jak PDF, TIFF i inne. Sprawdź dokumentację, aby uzyskać szczegółowe informacje.
+Tak, Aspose.HTML for Java obsługuje konwersję do różnych innych formatów, takich jak PDF, TIFF i inne. Sprawdź dokumentację, aby uzyskać szczegółowe informacje.
 
 ### Czy Aspose.HTML nadaje się do projektów komercyjnych?
-Absolutnie. Aspose.HTML to potężne i niezawodne rozwiązanie zarówno dla projektów osobistych, jak i komercyjnych.
+Zdecydowanie. Aspose.HTML to potężne i niezawodne rozwiązanie zarówno dla projektów osobistych, jak i komercyjnych.

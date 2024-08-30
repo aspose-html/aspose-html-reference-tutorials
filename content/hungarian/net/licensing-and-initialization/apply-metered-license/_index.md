@@ -2,7 +2,7 @@
 title: Alkalmazza a mért licencet a .NET-ben az Aspose.HTML segítségével
 linktitle: Alkalmazza a mért licencet a .NET-ben
 second_title: Aspose.HTML .NET HTML manipulációs API
-description: Ismerje meg, hogyan alkalmazhat fizetős licencet az Aspose.HTML for .NET-ben. Hatékonyan kezelheti HTML-kezelési igényeit. Kezd el most!
+description: Ismerje meg, hogyan alkalmazhat fizetős licencet az Aspose.HTML for .NET-ben. Hatékonyan kezelheti HTML-kezelési igényeit. Kezdje el most!
 type: docs
 weight: 10
 url: /hu/net/licensing-and-initialization/apply-metered-license/
@@ -64,7 +64,7 @@ Itt a példakódot több lépésre bontjuk, és minden lépést részletesen elm
    Console.WriteLine(document.Body.InnerHTML);
    ```
 
-Ez az! Sikeresen alkalmazta a fizetős licencet .NET-projektjéhez, és betöltött egy HTML-dokumentumot.
+Ennyi! Sikeresen alkalmazta a fizetős licencet .NET-projektjéhez, és betöltött egy HTML-dokumentumot.
 
 ## Következtetés
 
@@ -84,7 +84,7 @@ A mért licenc lehetővé teszi, hogy az Aspose.HTML-ért felosztó-kirovó alap
  A könyvtárat innen töltheti le[itt](https://releases.aspose.com/html/net/).
 
 ### Vannak ingyenes próbaverziók az Aspose.HTML for .NET számára?
- Igen, elérheti az ingyenes próbaverziót a webhelyről[itt](https://releases.aspose.com/).
+ Igen, elérheti az ingyenes próbaverziót innen[itt](https://releases.aspose.com/).
 
 ### Hol kaphatok támogatást, vagy hol tehetek fel kérdéseket az Aspose.HTML for .NET-hez kapcsolódóan?
  Csatlakozhat a közösséghez, és támogatást kérhet a[Aspose fórumok](https://forum.aspose.com/).

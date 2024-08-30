@@ -36,7 +36,7 @@ A .NET-kód írásához és végrehajtásához használjon egy választott kóds
 
 ## Az Aspose.HTML névtér importálása
 
-Mielőtt kihasználná az Aspose.HTML for .NET erejét, importálnia kell a szükséges névteret a projektbe. Kovesd ezeket a lepeseket:
+Mielőtt kihasználná az Aspose.HTML for .NET erejét, importálnia kell a szükséges névteret a projektbe. Kövesse az alábbi lépéseket:
 
 ### 1. lépés: Nyissa meg projektjét
 
@@ -102,7 +102,7 @@ Ezzel a hat lépéssel sikeresen egyesítette egy HTML-sablont XML-adatokkal az 
 
 ## Következtetés
 
-Ebben az átfogó útmutatóban elmélyültünk az Aspose.HTML for .NET világában, amely biztosítja az előfeltételeket, a névtér importálását, valamint a HTML-sablonok XML-adatokkal való egyesítése részletes lebontását. Ezzel a tudással felvértezve készen áll arra, hogy webfejlesztési projektjeit új magasságokba emelje az Aspose.HTML erejével.
+Ebben az átfogó útmutatóban elmélyültünk az Aspose.HTML for .NET világában, biztosítva az előfeltételeket, a névtér importálását és a HTML-sablonok XML-adatokkal való egyesítése részletes lebontását. Ezzel a tudással felvértezve készen áll arra, hogy webfejlesztési projektjeit új magasságokba emelje az Aspose.HTML erejével.
 
 ## GYIK
 
@@ -120,7 +120,7 @@ Ebben az átfogó útmutatóban elmélyültünk az Aspose.HTML for .NET világá
 
 ### 4. kérdés: Hogyan vásárolhatok licencet az Aspose.HTML for .NET számára?
 
- 4. válasz: Licenceket vásárolhat, ha felkeresi[ez a link](https://purchase.aspose.com/buy).
+ 4. válasz: Licenceket vásárolhat, ha felkeresi[ezt a linket](https://purchase.aspose.com/buy).
 
 ### 5. kérdés: Hol kaphatok támogatást és segítséget az Aspose.HTML for .NET-hez?
 

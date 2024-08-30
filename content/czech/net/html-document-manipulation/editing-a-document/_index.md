@@ -16,11 +16,11 @@ Než se ponoříme do světa Aspose.HTML pro .NET, ujistěte se, že máte spln�
 
 1. Visual Studio: Chcete-li vytvářet aplikace .NET, musíte mít v systému nainstalované Visual Studio.
 
-2. Aspose.HTML pro .NET: Stáhněte si knihovnu Aspose.HTML pro .NET z[tady](https://releases.aspose.com/html/net/). Ujistěte se, že jste vybrali vhodnou verzi.
+2. Aspose.HTML pro .NET: Stáhněte si knihovnu Aspose.HTML pro .NET z[zde](https://releases.aspose.com/html/net/). Ujistěte se, že jste vybrali vhodnou verzi.
 
 3.  Dokumentace Aspose.HTML: Vždy se můžete podívat na[dokumentace](https://reference.aspose.com/html/net/) pro hluboké znalosti a reference.
 
-4.  Licence: V závislosti na vašem použití budete možná potřebovat platnou licenci pro Aspose.HTML. Můžete jej získat z[tady](https://purchase.aspose.com/buy) nebo použijte a[dočasná licence](https://purchase.aspose.com/temporary-license/) pro zkušební účely.
+4.  Licence: V závislosti na vašem použití budete možná potřebovat platnou licenci pro Aspose.HTML. Můžete jej získat z[zde](https://purchase.aspose.com/buy) nebo použijte a[dočasná licence](https://purchase.aspose.com/temporary-license/) pro zkušební účely.
 
 5.  Podpora: Pokud narazíte na nějaké problémy nebo potřebujete pomoc, navštivte stránku[Fórum Aspose.HTML](https://forum.aspose.com/) hledat pomoc u komunity.
 
@@ -28,7 +28,7 @@ S těmito základními náležitostmi začněme naši cestu do světa Aspose.HTM
 
 ## Import jmenného prostoru
 
-V každém projektu .NET je nezbytné před prací s Aspose.HTML naimportovat požadované jmenné prostory. Můžete to udělat takto:
+V každém projektu .NET je nezbytné před prací s Aspose.HTML importovat požadované jmenné prostory. Můžete to udělat takto:
 
 ### Krok 1: Import jmenných prostorů
 
@@ -158,7 +158,7 @@ Odpověď 1: Ano, Aspose.HTML for .NET nabízí uživatelsky přívětivé rozhr
 
 ### Q2: Mohu použít Aspose.HTML pro .NET pro komerční projekty?
 
- A2: Ano, můžete získat komerční licenci od[tady](https://purchase.aspose.com/buy) pro vaše komerční projekty.
+ A2: Ano, můžete získat komerční licenci od[zde](https://purchase.aspose.com/buy) pro vaše komerční projekty.
 
 ### Q3: Jak mohu získat podporu komunity pro Aspose.HTML pro .NET?
 

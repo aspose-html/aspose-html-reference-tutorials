@@ -17,7 +17,7 @@ Mielőtt belevágna a HTML-ből PNG-be konvertálásba az Aspose.HTML for Java h
 Győződjön meg arról, hogy a rendszeren be van állítva Java fejlesztői környezet. A Java Development Kit (JDK) letölthető és telepíthető az Oracle webhelyéről.
 
 2. Aspose.HTML Java-hoz
- Az Aspose.HTML for Java-nak telepítve kell lennie. Ha még nem tette meg, ennek segítségével letöltheti a könyvtárat az Aspose webhelyéről[Letöltési link](https://releases.aspose.com/html/java/).
+ Az Aspose.HTML for Java-nak telepítve kell lennie. Ha még nem tette meg, ennek segítségével letöltheti a könyvtárat az Aspose webhelyéről[Letöltési hivatkozás](https://releases.aspose.com/html/java/).
 
 3. HTML dokumentum
 Szüksége lesz egy HTML-dokumentumra, amelyet PNG-képpé szeretne konvertálni. Győződjön meg arról, hogy ez a dokumentum készen áll az átalakításra.
@@ -87,7 +87,7 @@ Ez a kódsor elindítja az átalakítási folyamatot, paraméterként a betölt�
 
 Ebben az oktatóanyagban végigvezettük a HTML-dokumentumok PNG-képpé konvertálásának folyamatán az Aspose.HTML for Java használatával. Megismerte az előfeltételeket, a szükséges csomagok importálását és az átalakítási folyamat lépésről lépésre történő lebontását. Az Aspose.HTML segítségével a HTML-dokumentumok és -konverziók kezelése egyszerű feladattá válik.
 
- Ha bármilyen problémába ütközik, vagy kérdése van, ne habozzon, kérjen segítséget az Aspose közösségtől a[Támogatói fórum](https://forum.aspose.com/).
+ Ha bármilyen problémába ütközik, vagy kérdése van, ne habozzon, kérjen segítséget az Aspose közösségtől a[Támogatási fórum](https://forum.aspose.com/).
 
 ## GYIK
 

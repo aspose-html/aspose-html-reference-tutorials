@@ -20,7 +20,7 @@ Förbättra dina dokumentbehandlingsmöjligheter genom att lära dig hur du ange
 
 ## Ange PDF-sparalternativ för EPUB till PDF
 
-Anpassa din EPUB till PDF-konvertering ytterligare genom att ange alternativ för PDF-lagring. Aspose.HTML för Java ger dig kontroll, så att du kan skapa PDF-dokument precis som du vill.
+Anpassa din EPUB till PDF-konvertering ytterligare genom att ange PDF-sparalternativ. Aspose.HTML för Java ger dig kontroll, så att du kan skapa PDF-dokument precis som du vill.
 
 ## Förvandla digitalt innehåll
 

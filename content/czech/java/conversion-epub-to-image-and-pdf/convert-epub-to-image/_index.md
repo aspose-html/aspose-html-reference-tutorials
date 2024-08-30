@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /cs/java/conversion-epub-to-image-and-pdf/convert-epub-to-image/
 ---
-tomto komplexním tutoriálu prozkoumáme, jak používat Aspose.HTML pro Java k převodu dokumentů EPUB na obrázky. EPUB je populární formát e-knihy a možnost převést jej na obrázky může být docela užitečná v různých situacích, jako je vytváření miniatur, obrázků na obálce nebo sdílení úryvků z knih na vašem webu. Aspose.HTML for Java poskytuje výkonné řešení pro tento úkol. Postupujte podle níže uvedených kroků a zjistěte, jak toho dosáhnout bez námahy.
+V tomto komplexním tutoriálu prozkoumáme, jak používat Aspose.HTML pro Java k převodu dokumentů EPUB na obrázky. EPUB je populární formát e-knihy a možnost převést jej na obrázky může být docela užitečná v různých situacích, jako je vytváření miniatur, obrázků na obálce nebo sdílení úryvků z knih na vašem webu. Aspose.HTML for Java poskytuje výkonné řešení pro tento úkol. Postupujte podle níže uvedených kroků a zjistěte, jak toho dosáhnout bez námahy.
 
 ## Předpoklady
 
@@ -64,7 +64,7 @@ String outputFile = "path/to/your/EPUBtoImageOutput.jpeg";
 
 ### Krok 2.4: Proveďte konverzi
 
- Nyní použijte`Converter.convertEPUB`způsob provedení převodu. Projděte v`fileInputStream`, `options` a`outputFile`.
+ Nyní použijte`Converter.convertEPUB` způsob provedení převodu. Projděte v`fileInputStream`, `options` a`outputFile`.
 
 ```java
 Converter.convertEPUB(fileInputStream, options, outputFile);
@@ -82,7 +82,7 @@ V tomto tutoriálu jsme se naučili, jak převést dokument EPUB na obrázek pom
 
 ### Q1: Je Aspose.HTML for Java zdarma k použití?
 
- Odpověď 1: Aspose.HTML for Java nabízí bezplatnou zkušební verzi, ale pro další používání je vyžadována licence. Dočasnou licenci můžete získat od[tady](https://purchase.aspose.com/temporary-license/).
+ Odpověď 1: Aspose.HTML for Java nabízí bezplatnou zkušební verzi, ale pro další používání je vyžadována licence. Dočasnou licenci můžete získat od[zde](https://purchase.aspose.com/temporary-license/).
 
 ### Q2: Jaké formáty obrázků jsou podporovány pro převod?
 

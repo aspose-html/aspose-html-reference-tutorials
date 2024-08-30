@@ -68,7 +68,7 @@ String outputFile = Resources.output("SVGtoPDF_Output.pdf");
 Converter.convertSVG(svgDocument, options, outputFile);
 ```
 
-Gratulálunk! Sikeresen konvertált egy SVG-dokumentumot PDF formátumba az Aspose.HTML for Java használatával. Mostantól a megadott kimeneti útvonalon érheti el a PDF-fájlt.
+Gratulálok! Sikeresen konvertált egy SVG-dokumentumot PDF formátumba az Aspose.HTML for Java használatával. Mostantól a megadott kimeneti útvonalon érheti el a PDF-fájlt.
 
 ## Következtetés
 

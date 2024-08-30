@@ -36,7 +36,7 @@ Pokud potřebujete převést SVG do PDF v Javě, Aspose.HTML pro Javu nabízí b
 
 ## Převod SVG na XPS
 
-XPS je ideální formát pro sdílení dokumentů. S Aspose.HTML pro Java je převod SVG na XPS přímočarý. Průvodce krok za krokem zjednodušuje převod a umožňuje vytvářet univerzálně čitelné dokumenty.
+XPS je ideální formát pro sdílení dokumentů. S Aspose.HTML for Java je převod SVG na XPS přímočarý. Průvodce krok za krokem zjednodušuje převod a umožňuje vytvářet univerzálně čitelné dokumenty.
 
 Závěrem lze říci, že zvládnutí umění převodu obsahu HTML do různých formátů může značně rozšířit vaše možnosti v digitální sféře. Aspose.HTML for Java poskytuje uživatelsky přívětivá řešení pro HTML až PDF, MHTML, XPS, Markdown, SVG a další. S jejich podrobnými průvodci můžete s jistotou zvládnout různé potřeby převodu dokumentů a pokaždé zajistit vysoce kvalitní výstup. Prozkoumejte tyto výukové programy a odemkněte plný potenciál svého obsahu HTML.
 

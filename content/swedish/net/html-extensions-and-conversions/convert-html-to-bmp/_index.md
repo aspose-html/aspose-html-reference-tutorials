@@ -43,7 +43,7 @@ den här handledningen kommer vi att fokusera på att konvertera ett HTML-dokume
 
 ### Definiera datakatalogen
 
- Börja med att ange sökvägen till din datakatalog. Det är här ditt HTML-dokument finns. Byta ut`"Your Data Directory"` med den faktiska vägen.
+ Börja med att ange sökvägen till din datakatalog. Det är här ditt HTML-dokument finns. Ersätta`"Your Data Directory"` med den faktiska vägen.
 
 ```csharp
 string dataDir = "Your Data Directory";
@@ -51,7 +51,7 @@ string dataDir = "Your Data Directory";
 
 ### Ladda HTML-dokumentet
 
- För att arbeta med ditt HTML-dokument måste du ladda det i en`HTMLDocument` objekt. Byta ut`"input.html"` med namnet på ditt HTML-dokument.
+ För att arbeta med ditt HTML-dokument måste du ladda det i en`HTMLDocument` objekt. Ersätta`"input.html"` med namnet på ditt HTML-dokument.
 
 ```csharp
 HTMLDocument htmlDocument = new HTMLDocument(dataDir + "input.html");
@@ -67,7 +67,7 @@ ImageSaveOptions options = new ImageSaveOptions(ImageFormat.Bmp);
 
 ### Ange sökväg för utdatafil
 
- Du måste ange sökvägen där den konverterade BMP-filen kommer att sparas. Byta ut`"HTMLtoBMP_Output.bmp"` med önskad sökväg för utdatafilen.
+ Du måste ange sökvägen där den konverterade BMP-filen kommer att sparas. Ersätta`"HTMLtoBMP_Output.bmp"` med önskad sökväg för utdatafilen.
 
 ```csharp
 string outputFile = dataDir + "HTMLtoBMP_Output.bmp";
@@ -103,7 +103,7 @@ Om du behöver en tillfällig licens kan du få en från[här](https://purchase.
 
 ### 4. Kan jag prova Aspose.HTML för .NET gratis?
 
- Ja, du kan utforska Aspose.HTML för .NET genom att ladda ner den kostnadsfria testversionen från[den här länken](https://releases.aspose.com/).
+ Ja, du kan utforska Aspose.HTML för .NET genom att ladda ner den kostnadsfria testversionen från[denna länk](https://releases.aspose.com/).
 
 ### 5. Vilka bildformat stöds för konvertering i Aspose.HTML för .NET?
 

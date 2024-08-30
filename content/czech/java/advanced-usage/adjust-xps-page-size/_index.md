@@ -16,7 +16,7 @@ Než začneme, ujistěte se, že máte splněny následující předpoklady:
 
 1. Java Development Environment: Ujistěte se, že máte v systému nainstalovanou sadu Java Development Kit (JDK).
 
-2.  Knihovna Aspose.HTML for Java: Musíte si stáhnout a zahrnout knihovnu Aspose.HTML for Java do svého projektu Java. Knihovnu najdete[tady](https://releases.aspose.com/html/java/).
+2.  Knihovna Aspose.HTML for Java: Musíte si stáhnout a zahrnout knihovnu Aspose.HTML for Java do svého projektu Java. Knihovnu najdete[zde](https://releases.aspose.com/html/java/).
 
 3. Vstupní soubor HTML: Připravte soubor HTML, který chcete vykreslit, a upravte velikost stránky XPS. Pro tento výukový program můžete použít svůj vlastní soubor HTML.
 
@@ -112,11 +112,11 @@ Odpověď 1: Aspose.HTML for Java je knihovna Java, která umožňuje vývojář
 
 ### Q3: Je k dispozici bezplatná zkušební verze pro Aspose.HTML pro Java?
 
- A3: Ano, můžete získat bezplatnou zkušební verzi Aspose.HTML pro Java od[tady](https://releases.aspose.com/).
+ A3: Ano, můžete získat bezplatnou zkušební verzi Aspose.HTML pro Java od[zde](https://releases.aspose.com/).
 
 ### Q4: Jak mohu získat dočasnou licenci pro Aspose.HTML pro Java?
 
- A4: Chcete-li získat dočasnou licenci pro Aspose.HTML pro Java, navštivte[tato stránka](https://purchase.aspose.com/temporary-license/).
+ A4: Chcete-li získat dočasnou licenci pro Aspose.HTML pro Java, navštivte[tuto stránku](https://purchase.aspose.com/temporary-license/).
 
 ### Q5: Mohu získat podporu pro Aspose.HTML pro Java?
 

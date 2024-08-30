@@ -29,7 +29,7 @@ Nyní, když máte připravené předpoklady, přejděme k hlavním krokům pro 
 
 ## Importujte balíčky
 
-Ve vašem projektu Java musíte importovat potřebné balíčky pro práci s Aspose.HTML for Java. Následuj tyto kroky:
+Ve vašem projektu Java musíte importovat potřebné balíčky pro práci s Aspose.HTML for Java. Postupujte takto:
 
 ### Krok 1: Otevřete svůj projekt Java
 
@@ -64,7 +64,7 @@ Chcete-li začít, musíte načíst dokument HTML. Použijte následující kód
 HTMLDocument htmlDocument = new HTMLDocument("path/to/your/input.html");
 ```
 
- Nahradit`"path/to/your/input.html"`se skutečnou cestou k vašemu HTML souboru.
+ Nahradit`"path/to/your/input.html"` se skutečnou cestou k vašemu HTML souboru.
 
 ### Krok 5: Inicializujte ImageSaveOptions
 
@@ -92,13 +92,13 @@ Nyní převeďte HTML dokument na TIFF pomocí Aspose.HTML:
 Converter.convertHTML(htmlDocument, options, outputFile);
 ```
 
-Gratulujeme! Úspěšně jste převedli svůj HTML dokument na obrázek TIFF pomocí Aspose.HTML for Java. Nyní můžete použít vygenerovaný soubor TIFF podle potřeby.
+Gratuluji! Úspěšně jste převedli svůj HTML dokument na obrázek TIFF pomocí Aspose.HTML for Java. Nyní můžete použít vygenerovaný soubor TIFF podle potřeby.
 
 ## Závěr
 
 V této příručce jsme vás provedli procesem převodu HTML na TIFF pomocí Aspose.HTML pro Java. Se správnými předpoklady, importováním balíčků a dodržováním podrobných pokynů můžete tohoto převodu snadno dosáhnout. Aspose.HTML for Java je výkonný nástroj pro práci se soubory HTML a nyní máte znalosti, abyste z něj mohli vytěžit maximum.
 
- Máte nějaké otázky nebo čelíte problémům? Podívejte se na[Dokumentace Aspose.HTML](https://reference.aspose.com/html/java/)nebo navštivte[Aspose fórum podpory](https://forum.aspose.com/) pro pomoc.
+ Máte nějaké otázky nebo čelíte problémům? Podívejte se na[Dokumentace Aspose.HTML](https://reference.aspose.com/html/java/)nebo navštivte[Aspose fórum podpory](https://forum.aspose.com/) o pomoc.
 
 ## FAQ
 
@@ -112,11 +112,11 @@ Odpověď 2: Ano, Aspose.HTML for Java je kompatibilní s více verzemi Java, v�
 
 ### Q3: Vyžaduje Aspose.HTML for Java licenci pro komerční použití?
 
- A3: Ano, pro komerční použití je třeba zakoupit licenci. Více informací naleznete[tady](https://purchase.aspose.com/buy).
+ A3: Ano, pro komerční použití je třeba zakoupit licenci. Více informací naleznete[zde](https://purchase.aspose.com/buy).
 
 ### Q4: Je k dispozici zkušební verze pro Aspose.HTML pro Java?
 
- A4: Ano, můžete získat bezplatnou zkušební verzi od[tady](https://releases.aspose.com/html/java).
+ A4: Ano, můžete získat bezplatnou zkušební verzi od[zde](https://releases.aspose.com/html/java).
 
 ### Q5: Jaké jsou podporované verze HTML pro převod?
 

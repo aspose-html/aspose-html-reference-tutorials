@@ -64,7 +64,7 @@ String outputFile = "path/to/your/EPUBtoImageOutput.jpeg";
 
 ### 2.4. lépés: Hajtsa végre az átalakítást
 
- Most használja a`Converter.convertEPUB`az átalakítás végrehajtásának módja. Haladjon be a`fileInputStream`, `options` , és a`outputFile`.
+ Most használja a`Converter.convertEPUB` az átalakítás végrehajtásának módja. Haladjon be a`fileInputStream`, `options` , és a`outputFile`.
 
 ```java
 Converter.convertEPUB(fileInputStream, options, outputFile);

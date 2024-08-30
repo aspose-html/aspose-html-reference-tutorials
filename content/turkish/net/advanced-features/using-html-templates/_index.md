@@ -1,22 +1,22 @@
 ---
-title: Aspose.HTML ile .NET'te HTML Şablonlarını Kullanmak
+title: Aspose.HTML ile .NET'te HTML Şablonlarını Kullanma
 linktitle: .NET'te HTML Şablonlarını Kullanma
 second_title: Aspose.HTML .NET HTML işleme API'si
-description: JSON verilerinden dinamik olarak HTML belgeleri oluşturmak için Aspose.HTML for .NET'i nasıl kullanacağınızı öğrenin. .NET uygulamalarınızda HTML manipülasyonunun gücünden yararlanın.
+description: JSON verilerinden HTML belgelerini dinamik olarak oluşturmak için Aspose.HTML for .NET'i nasıl kullanacağınızı öğrenin. .NET uygulamalarınızda HTML manipülasyonunun gücünden yararlanın.
 type: docs
 weight: 17
 url: /tr/net/advanced-features/using-html-templates/
 ---
 
-.NET uygulamalarınızda HTML belgeleri ve şablonlarıyla çalışmak istiyorsanız doğru yerdesiniz! Aspose.HTML for .NET, geliştiricilerin HTML belgelerini ve şablonlarını zahmetsizce işlemesine olanak tanıyan çok yönlü bir kitaplıktır. Bu eğitimde, Aspose.HTML for .NET kullanımının temellerini her adımı ayrıntılı olarak inceleyerek ve yol boyunca net bir açıklama sunarak ele alacağız.
+.NET uygulamalarınızda HTML belgeleri ve şablonlarıyla çalışmak istiyorsanız doğru yerdesiniz! Aspose.HTML for .NET, geliştiricilerin HTML belgelerini ve şablonlarını zahmetsizce düzenlemesini sağlayan çok yönlü bir kütüphanedir. Bu eğitimde, Aspose.HTML for .NET'i kullanmanın temellerini ele alacağız, her adımı parçalara ayıracağız ve yol boyunca net bir açıklama sunacağız.
 
-## Önkoşullar
+## Ön koşullar
 
-Aspose.HTML for .NET'in ayrıntılarına girmeden önce aşağıdaki önkoşulların yerine getirildiğinden emin olun:
+Aspose.HTML for .NET'in ayrıntılarına dalmadan önce, aşağıdaki ön koşulların mevcut olduğundan emin olun:
 
-1. Visual Studio: Makinenizde Visual Studio'nun kurulu olduğundan emin olun. Henüz sahip değilseniz web sitesinden indirebilirsiniz.
+1. Visual Studio: Makinenizde Visual Studio'nun yüklü olduğundan emin olun. Zaten yüklü değilse web sitesinden indirebilirsiniz.
 
-2.  Aspose.HTML for .NET: Visual Studio projenizde Aspose.HTML for .NET'in kurulu olması gerekir. adresinden temin edebilirsiniz.[dokümantasyon](https://reference.aspose.com/html/net/).
+2.  .NET için Aspose.HTML: Visual Studio projenizde .NET için Aspose.HTML'in yüklü olması gerekir. Bunu şuradan edinebilirsiniz:[belgeleme](https://reference.aspose.com/html/net/).
 
 3. JSON Verileri: HTML şablonunuzu doldurmak için kullanmak istediğiniz bir JSON veri kaynağı hazırlayın. Bu eğitim için aşağıdaki JSON verilerini kullanacağız:
 
@@ -56,11 +56,11 @@ using Aspose.Html.Converters;
 using Aspose.Html.Loading;
 ```
 
-Artık önkoşulları ele aldığımıza ve gerekli ad alanlarını içe aktardığımıza göre, her adımı ayrıntılı olarak ele alalım.
+Artık ön koşulları ele aldığımıza ve gerekli ad alanlarını içe aktardığımıza göre, her adımı ayrıntılı olarak inceleyelim.
 
-## 1. Adım: JSON Veri Kaynağını Hazırlayın
+## Adım 1: Bir JSON Veri Kaynağı Hazırlayın
 
-HTML şablonunuza eklemek istediğiniz bilgileri içeren bir JSON veri kaynağı oluşturarak başlayın. Bu örnekte zaten önkoşullarda belirtildiği gibi bir JSON veri kaynağı hazırladık. Bunu bir dosyaya kaydedin; örneğin "data-source.json."
+HTML şablonunuza eklemek istediğiniz bilgileri tutan bir JSON veri kaynağı oluşturarak başlayın. Bu örnekte, ön koşullarda belirtildiği gibi bir JSON veri kaynağı hazırladık. Bunu bir dosyaya kaydedin, örneğin, "data-source.json."
 
 ```csharp
 var data = @"{
@@ -75,11 +75,11 @@ var data = @"{
 System.IO.File.WriteAllText("data-source.json", data);
 ```
 
-Bu kod parçacığı, JSON verilerini okur ve bunu "data-source.json" adlı bir dosyaya yazar.
+Bu kod parçacığı JSON verilerini okur ve "data-source.json" adlı bir dosyaya yazar.
 
 ## Adım 2: Bir HTML Şablonu Hazırlayın
 
-Şimdi JSON verileriyle doldurmak istediğiniz bir HTML şablonu oluşturalım. Bu şablonu "template.html" gibi bir dosyaya kaydedin.
+Şimdi, JSON verileriyle doldurmak istediğiniz bir HTML şablonu oluşturalım. Bu şablonu "template.html" gibi bir dosyaya kaydedin.
 
 ```csharp
 var template = @"
@@ -97,11 +97,11 @@ var template = @"
 System.IO.File.WriteAllText("template.html", template);
 ```
 
- Bu HTML şablonu aşağıdaki gibi yer tutucuları içerir:`{{FirstName}}`, `{{LastName}}`, `{{Address.Street}}`, `{{Address.Number}}` Ve`{{Address.City}}`, bunu gerçek verilerle değiştireceğiz.
+ Bu HTML şablonu şu gibi yer tutucuları içerir:`{{FirstName}}`, `{{LastName}}`, `{{Address.Street}}`, `{{Address.Number}}` Ve`{{Address.City}}`Bunu gerçek verilerle değiştireceğiz.
 
-## 3. Adım: HTML Şablonunu Doldurun
+## Adım 3: HTML Şablonunu Doldurun
 
- Son olarak, şunu çağırın:`Converter.ConvertTemplate` HTML şablonunuzu JSON kaynağındaki verilerle doldurma yöntemini kullanın.
+ Son olarak, şunu çağırın:`Converter.ConvertTemplate` HTML şablonunuzu JSON kaynağındaki verilerle doldurma yöntemi.
 
 ```csharp
 Aspose.Html.Converters.Converter.ConvertTemplate(
@@ -111,30 +111,30 @@ Aspose.Html.Converters.Converter.ConvertTemplate(
 
 Bu kod "template.html" dosyasını alır, yer tutucuları karşılık gelen JSON değerleriyle değiştirir ve sonucu "document.html" dosyasına kaydeder.
 
-Tebrikler! JSON verilerinden dinamik olarak HTML belgeleri oluşturmak için Aspose.HTML for .NET'in gücünden başarıyla yararlandınız.
+Tebrikler! Aspose.HTML for .NET'in gücünden yararlanarak JSON verilerinden dinamik olarak HTML belgeleri ürettiniz.
 
 ## Çözüm
 
-Bu eğitimde, dinamik olarak HTML belgeleri oluşturmak için Aspose.HTML for .NET kullanmanın temellerini inceledik. Önkoşulları, ad alanlarının içe aktarılmasını ve her adımı ayrıntılı olarak ele aldık. Bu adımları izleyerek HTML belgesi oluşturmayı .NET uygulamalarınıza sorunsuz bir şekilde entegre edebilirsiniz.
+Bu eğitimde, HTML belgelerini dinamik olarak oluşturmak için .NET için Aspose.HTML kullanmanın temellerini inceledik. Ön koşulları, ad alanlarını içe aktarmayı ve her adımı ayrıntılı olarak ele aldık. Bu adımları izleyerek, HTML belge oluşturmayı .NET uygulamalarınıza sorunsuz bir şekilde entegre edebilirsiniz.
 
-## SSS'ler
+## SSS
 
 ### S1. .NET için Aspose.HTML nedir?
 
-Cevap1: Aspose.HTML for .NET, .NET geliştiricilerinin HTML belgeleri ve şablonlarıyla programlı olarak çalışmasını sağlayan güçlü bir kütüphanedir. HTML oluşturma, dönüştürme ve işleme gibi görevleri basitleştirir.
+A1: Aspose.HTML for .NET, .NET geliştiricilerinin HTML belgeleri ve şablonlarıyla programatik olarak çalışmasını sağlayan güçlü bir kütüphanedir. HTML oluşturma, dönüştürme ve düzenleme gibi görevleri basitleştirir.
 
-### Q2. Aspose.HTML for .NET belgelerini nerede bulabilirim?
+### S2. Aspose.HTML for .NET'in belgelerini nerede bulabilirim?
 
- Cevap2: Aspose.HTML for .NET belgelerine erişebilirsiniz[Burada](https://reference.aspose.com/html/net/). API referansları ve kod örnekleri de dahil olmak üzere kapsamlı bilgiler sağlar.
+ A2: .NET için Aspose.HTML belgelerine erişebilirsiniz[Burada](https://reference.aspose.com/html/net/)API referansları ve kod örnekleri de dahil olmak üzere kapsamlı bilgiler sağlar.
 
 ### S3. Aspose.HTML for .NET'i nasıl indirebilirim?
 
-Cevap3: Aspose.HTML for .NET'i indirme sayfasından indirebilirsiniz[Burada](https://releases.aspose.com/html/net/).
+A3: .NET için Aspose.HTML'yi indirme sayfasından indirebilirsiniz[Burada](https://releases.aspose.com/html/net/).
 
-### S4. Aspose.HTML for .NET'in ücretsiz deneme sürümü mevcut mu?
+### S4. Aspose.HTML for .NET için ücretsiz deneme sürümü mevcut mu?
 
- Cevap4: Evet, Aspose.HTML for .NET'i adresinden ücretsiz deneme sürümünü indirerek deneyebilirsiniz.[Burada](https://releases.aspose.com/).
+ C4: Evet, Aspose.HTML for .NET'i ücretsiz deneme sürümünü indirerek deneyebilirsiniz.[Burada](https://releases.aspose.com/).
 
 ### S5. Aspose.HTML for .NET için geçici bir lisansa ihtiyacım var mı?
 
- Cevap 5: Değerlendirme amacıyla geçici bir lisansa ihtiyacınız varsa, şu adresten edinebilirsiniz:[Burada](https://purchase.aspose.com/temporary-license/).
+ A5: Değerlendirme amaçlı geçici bir lisansa ihtiyacınız varsa, bunu şu adresten alabilirsiniz:[Burada](https://purchase.aspose.com/temporary-license/).

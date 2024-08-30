@@ -156,7 +156,7 @@ var document = new Aspose.Html.HTMLDocument();
 ```csharp
 document.OnReadyStateChange += (sender, @event) =>
 {
-    //Ελέγξτε την τιμή της ιδιότητας «ReadyState».
+    // Ελέγξτε την τιμή της ιδιότητας «ReadyState».
     if (document.ReadyState == "complete")
     {
         Console.WriteLine(document.DocumentElement.OuterHTML);
@@ -203,7 +203,7 @@ Console.ReadLine();
 
 Αυτό το παράδειγμα δείχνει την ασύγχρονη φόρτωση ενός εγγράφου HTML και τον χειρισμό του συμβάντος "OnLoad" για την εμφάνιση του περιεχομένου μετά την ολοκλήρωση.
 
-## Συμπερασματικά
+## Συμπέρασμα
 
 Στον δυναμικό κόσμο της ανάπτυξης ιστού, το να έχετε τα σωστά εργαλεία στη διάθεσή σας είναι ζωτικής σημασίας. Το Aspose.HTML για .NET σάς εξοπλίζει με τα μέσα για να δημιουργείτε, να χειρίζεστε και να επεξεργάζεστε έγγραφα HTML και SVG αποτελεσματικά. Αυτός ο περιεκτικός οδηγός σας καθοδήγησε στα βασικά, διασφαλίζοντας ότι μπορείτε να αξιοποιήσετε τη δύναμη του Aspose.HTML για .NET στα έργα σας.
 
@@ -229,8 +229,8 @@ A2: Ναι, το Aspose.HTML για .NET είναι συμβατό τόσο με
 
 A5: Για πλήρη τεκμηρίωση και πρόσβαση στις επιλογές λήψης, μπορείτε να ανατρέξετε στους ακόλουθους συνδέσμους:
 
-- [Τεκμηρίωση](https://reference.aspose.com/html/net/)
-- [Κατεβάστε](https://releases.aspose.com/html/net/)
+- [Απόδειξη με έγγραφα](https://reference.aspose.com/html/net/)
+- [Λήψη](https://releases.aspose.com/html/net/)
 - [Αγορά](https://purchase.aspose.com/buy)
 - [Δωρεάν δοκιμή](https://releases.aspose.com/)
 - [Προσωρινή Άδεια](https://purchase.aspose.com/temporary-license/)

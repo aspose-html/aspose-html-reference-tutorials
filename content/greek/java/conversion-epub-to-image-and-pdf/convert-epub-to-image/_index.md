@@ -64,7 +64,7 @@ String outputFile = "path/to/your/EPUBtoImageOutput.jpeg";
 
 ### Βήμα 2.4: Εκτελέστε τη Μετατροπή
 
- Τώρα, χρησιμοποιήστε το`Converter.convertEPUB`μέθοδος εκτέλεσης της μετατροπής. Περάστε στο`fileInputStream`, `options` , και το`outputFile`.
+ Τώρα, χρησιμοποιήστε το`Converter.convertEPUB` μέθοδος εκτέλεσης της μετατροπής. Περάστε στο`fileInputStream`, `options` , και το`outputFile`.
 
 ```java
 Converter.convertEPUB(fileInputStream, options, outputFile);
@@ -72,7 +72,7 @@ Converter.convertEPUB(fileInputStream, options, outputFile);
 
 Με αυτά τα βήματα, μπορείτε να μετατρέψετε με επιτυχία ένα έγγραφο EPUB σε εικόνα χρησιμοποιώντας το Aspose.HTML για Java.
 
-## συμπέρασμα
+## Σύναψη
 
 Σε αυτό το σεμινάριο, μάθαμε πώς να μετατρέπουμε ένα έγγραφο EPUB σε εικόνα χρησιμοποιώντας το Aspose.HTML για Java. Με μερικά απλά βήματα και τις ισχυρές δυνατότητες του Aspose.HTML, μπορείτε να χειριστείτε αποτελεσματικά τις μετατροπές EPUB στις εφαρμογές σας Java.
 

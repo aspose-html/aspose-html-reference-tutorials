@@ -12,13 +12,13 @@ A webfejlesztés világában a HTML-tartalom megjelenítése alapvető feladat. 
 
 ## Bevezetés
 
-HTML-dokumentumok Aspose.HTML for .NET használatával történő előállítása során előfordulhat, hogy a megjelenítési folyamat a vártnál tovább tart. Ilyen esetekben elengedhetetlen annak megértése, hogyan kell kezelni a renderelési időtúllépéseket az alkalmazás zökkenőmentes végrehajtása érdekében.
+A HTML-dokumentumok Aspose.HTML for .NET használatával történő előállítása során előfordulhat, hogy a megjelenítési folyamat a vártnál tovább tart. Ilyen esetekben elengedhetetlen annak megértése, hogyan kell kezelni a renderelési időtúllépéseket az alkalmazás zökkenőmentes végrehajtása érdekében.
 
 ## Előfeltételek
 
 Mielőtt belemerülnénk a megjelenítési időtúllépésekbe, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
 
-1.  Aspose.HTML for .NET: Az oktatóanyag követéséhez telepíteni kell az Aspose.HTML for .NET-et. Letöltheti[itt](https://releases.aspose.com/html/net/).
+1. Aspose.HTML for .NET: Az oktatóanyag követéséhez telepíteni kell az Aspose.HTML for .NET-et. Letöltheti[itt](https://releases.aspose.com/html/net/).
 
 2. .NET-környezet: Győződjön meg arról, hogy működő .NET-környezete van, mivel az Aspose.HTML egy .NET-könyvtár.
 
@@ -28,7 +28,7 @@ Most, hogy az előfeltételeink rendben vannak, folytassuk a renderelési időt�
 
 ## Névterek importálása
 
-kódolás megkezdése előtt importálnia kell a szükséges névtereket az Aspose.HTML for .NET használatához:
+A kódolás megkezdése előtt importálnia kell a szükséges névtereket az Aspose.HTML for .NET használatához:
 
 ```csharp
 using Aspose.Html;
@@ -39,7 +39,7 @@ Ezek a névterek hozzáférést biztosítanak az Aspose.HTML könyvtárhoz, lehe
 
 ## Renderelési időtúllépés magyarázata
 
- A renderelési időtúllépés kulcsfontosságú szempont a HTML-dokumentumok renderelésekor, különösen olyan esetekben, amikor a renderelési folyamat előre nem látható ideig tarthat. Az Aspose.HTML for .NET két módszert biztosít a megjelenítési időtúllépések szabályozására:`RenderingTimeout` és`IndefiniteTimeout`. Nézzük meg ezeket a módszereket, és értsük meg a használatukat.
+ renderelési időtúllépés kulcsfontosságú szempont a HTML-dokumentumok renderelésekor, különösen olyan esetekben, amikor a renderelési folyamat előre nem látható ideig tarthat. Az Aspose.HTML for .NET két módszert biztosít a megjelenítési időtúllépések szabályozására:`RenderingTimeout` és`IndefiniteTimeout`. Nézzük meg ezeket a módszereket, és értsük meg a használatukat.
 
 ### RenderingTimeout
 
@@ -58,7 +58,7 @@ Ezek a névterek hozzáférést biztosítanak az Aspose.HTML könyvtárhoz, lehe
 
    Ez a lépés inicializálja a renderelni kívánt HTML-dokumentumot.
 
-#### Keresse meg a HTML-fájlt:
+#### Navigáljon a HTML-fájlhoz:
 
    ```csharp
    document.Navigate(dataDir + "input.html");
@@ -103,7 +103,7 @@ Ezek a névterek hozzáférést biztosítanak az Aspose.HTML könyvtárhoz, lehe
 
    Ez a lépés inicializálja a renderelni kívánt HTML-dokumentumot.
 
-#### Keresse meg a HTML-fájlt:
+#### Navigáljon a HTML-fájlhoz:
 
    ```csharp
    document.Navigate(dataDir + "input.html");
@@ -133,7 +133,7 @@ Ezek a névterek hozzáférést biztosítanak az Aspose.HTML könyvtárhoz, lehe
 
 ## Következtetés
 
- Ebben az oktatóanyagban megvizsgáltuk a megjelenítési időtúllépés fogalmát az Aspose.HTML for .NET-ben. Két módszerről beszéltünk,`RenderingTimeout` és`IndefiniteTimeout`amelyek lehetővé teszik a megjelenítési időtartam hatékony szabályozását. Ezen módszerek megértésével és használatával biztosíthatja, hogy HTML-megjelenítési folyamatai zökkenőmentesen fussanak, még előre nem látható renderelési idők esetén is.
+ Ebben az oktatóanyagban megvizsgáltuk a megjelenítési időtúllépés fogalmát az Aspose.HTML for .NET-ben. Két módszerről beszéltünk,`RenderingTimeout` és`IndefiniteTimeout`, amelyek lehetővé teszik a megjelenítési időtartam hatékony szabályozását. Ezen módszerek megértésével és használatával biztosíthatja, hogy HTML-megjelenítési folyamatai zökkenőmentesen fussanak, még előre nem látható renderelési idők esetén is.
 
 Most, hogy jól ismeri az Aspose.HTML for .NET renderelési időtúllépéseit, jól felkészült az összetett HTML-megjelenítési feladatok hatékony kezelésére.
 
@@ -151,10 +151,10 @@ Most, hogy jól ismeri az Aspose.HTML for .NET renderelési időtúllépéseit, 
     Igen, ingyenesen kipróbálhatja az Aspose.HTML-t .NET-hez[itt](https://releases.aspose.com/). A próbaverzió lehetővé teszi a könyvtár lehetőségeinek felfedezését a vásárlás előtt.
 
 ### Hogyan szerezhetek ideiglenes licencet az Aspose.HTML for .NET számára?
-   Az Aspose.HTML for .NET számára ideiglenes licencet szerezhet[itt](https://purchase.aspose.com/temporary-license/). Az ideiglenes licencek hasznosak tesztelési és értékelési célokra.
+    Az Aspose.HTML for .NET számára ideiglenes licencet szerezhet[itt](https://purchase.aspose.com/temporary-license/). Az ideiglenes licencek hasznosak tesztelési és értékelési célokra.
 
 ### Hol kérhetek segítséget és támogatást az Aspose.HTML for .NET-hez?
-    Ha bármilyen kérdése van, vagy segítségre van szüksége az Aspose.HTML for .NET-hez kapcsolódóan, keresse fel a[Aspose.HTML fórum](https://forum.aspose.com/) hogy segítséget kérjen a közösségtől és az Aspose támogató személyzetétől.
+   Ha bármilyen kérdése van, vagy segítségre van szüksége az Aspose.HTML for .NET-hez kapcsolódóan, keresse fel a[Aspose.HTML fórum](https://forum.aspose.com/) hogy segítséget kérjen a közösségtől és az Aspose támogató személyzetétől.
 
 
 

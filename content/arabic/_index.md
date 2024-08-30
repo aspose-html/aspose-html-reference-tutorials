@@ -1,46 +1,46 @@
 ---
-title: تعلم معالجة مستندات HTML باستخدام Aspose.HTML
+title: تعلم التعامل مع مستندات HTML باستخدام Aspose.HTML
 linktitle: دروس Aspose.HTML
-additionalTitle: Aspose API المراجع
-description: أتقن معالجة HTML باستخدام دروس Aspose.HTML - بدءًا من التحليل وحتى التحويل، وإرشادات خطوة بخطوة للمطورين.
+additionalTitle: مراجع API لـ Aspose
+description: إتقان التعامل مع HTML باستخدام دروس Aspose.HTML - من التحليل إلى التحويل، إرشادات خطوة بخطوة للمطورين.
 type: docs
 weight: 11
 url: /ar/
 is_root: true
 ---
 
-استكشف دروس Aspose.HTML الشاملة لإتقان معالجة مستندات HTML باستخدام مكتبة Aspose.HTML القوية. بدءًا من التحليل والعرض وحتى تحويل ملفات HTML، توفر هذه البرامج التعليمية إرشادات خطوة بخطوة للمطورين
+استكشف دروس Aspose.HTML الشاملة لإتقان التعامل مع مستندات HTML باستخدام مكتبة Aspose.HTML القوية. من التحليل والعرض إلى تحويل ملفات HTML، توفر هذه الدروس إرشادات خطوة بخطوة للمطورين
 
-## Aspose.HTML لبرامج .NET التعليمية
+## دروس تعليمية حول Aspose.HTML لـ .NET
 {{% alert color="primary" %}}
-اكتشف البرامج التعليمية والأمثلة الشاملة لتسخير إمكانات Aspose.HTML لـ .NET. انغمس في ثروة من الموارد لإطلاق العنان للإمكانات الكاملة لـ Aspose.HTML، ورفع مهاراتك في تطوير .NET إلى آفاق جديدة. سواء كنت تتطلع إلى تحليل مستندات HTML أو معالجتها أو تحويلها، فإن برامجنا التعليمية توفر المعرفة والإرشادات التي تحتاجها للتفوق في مشاريع التطوير الخاصة بك 
+اكتشف دروسًا وأمثلة شاملة لتسخير إمكانيات Aspose.HTML لـ .NET. انغمس في ثروة من الموارد لإطلاق العنان للإمكانات الكاملة لـ Aspose.HTML، ورفع مهارات تطوير .NET الخاصة بك إلى مستويات جديدة. سواء كنت تبحث عن تحليل مستندات HTML أو معالجتها أو تحويلها، فإن دروسنا التعليمية توفر لك المعرفة والتوجيه اللازمين للتفوق في مشاريع التطوير الخاصة بك 
 {{% /alert %}}
 
-وهذه روابط لبعض الموارد المفيدة:
+وفيما يلي روابط لبعض الموارد المفيدة:
  
-- [ملحقات وتحويلات HTML](./net/html-extensions-and-conversions/)
+- [امتدادات HTML والتحويلات](./net/html-extensions-and-conversions/)
 - [معالجة مستندات HTML](./net/html-document-manipulation/)
-- [قماش والتلاعب بالصور](./net/canvas-and-image-manipulation/)
-- [العمل مع وثائق HTML](./net/working-with-html-documents/)
-- [الخيارات المتقدمة](./net/advanced-features/)
+- [معالجة الصور واللوحات](./net/canvas-and-image-manipulation/)
+- [العمل مع مستندات HTML](./net/working-with-html-documents/)
+- [الميزات المتقدمة](./net/advanced-features/)
 - [الترخيص والتهيئة](./net/licensing-and-initialization/)
-- [توليد صور JPG وPNG](./net/generate-jpg-and-png-images/)
-- [تقديم مستندات HTML](./net/rendering-html-documents/)
+- [إنشاء صور JPG و PNG](./net/generate-jpg-and-png-images/)
+- [عرض مستندات HTML](./net/rendering-html-documents/)
 
-## Aspose.HTML لدروس جافا
+## دروس تعليمية حول Aspose.HTML لـ Java
 {{% alert color="primary" %}}
-استكشف مجموعة شاملة من البرامج التعليمية على Aspose.HTML لـ Java، والتي تقدم إرشادات ورؤى متعمقة حول الميزات المتنوعة لهذه المكتبة القوية. سواء كنت مطورًا يتطلع إلى تخصيص هوامش صفحة HTML، أو تنفيذ DOM Mutation Observer، أو التعامل مع HTML5 Canvas، أو أتمتة ملء نماذج HTML، أو إتقان فن تحويل التنسيقات المختلفة مثل EPUB إلى صور وPDF، فإن هذه البرامج التعليمية توفر خطوة بخطوة- تعليمات الخطوة وأمثلة التعليمات البرمجية لتعزيز مهارات معالجة HTML لديك. أطلق العنان للإمكانات الكاملة لـ Aspose.HTML لـ Java وقم بتبسيط مهام تطوير الويب وتحويل المستندات بسهولة. 
+استكشف مجموعة شاملة من الدروس التعليمية حول Aspose.HTML for Java، والتي تقدم إرشادات ورؤى متعمقة حول الميزات المتعددة الاستخدامات لهذه المكتبة القوية. سواء كنت مطورًا يبحث عن تخصيص هوامش صفحات HTML، أو تنفيذ DOM Mutation Observer، أو التلاعب بـ HTML5 Canvas، أو أتمتة ملء نماذج HTML، أو إتقان فن تحويل التنسيقات المختلفة مثل EPUB إلى صور وPDF، فإن هذه الدروس التعليمية توفر تعليمات خطوة بخطوة وأمثلة أكواد لتعزيز مهارات معالجة HTML لديك. أطلق العنان للإمكانات الكاملة لـ Aspose.HTML for Java وقم بتبسيط مهام تطوير الويب وتحويل المستندات بسهولة. 
 {{% /alert %}}
 
-وهذه روابط لبعض الموارد المفيدة:
+وفيما يلي روابط لبعض الموارد المفيدة:
  
 - [الاستخدام المتقدم لـ Aspose.HTML Java](./java/advanced-usage/)
-- [التحويل - قماش إلى PDF](./java/conversion-canvas-to-pdf/)
-- [التحويل - EPUB إلى صورة وPDF](./java/conversion-epub-to-image-and-pdf/)
-- [التحويل - EPUB إلى XPS](./java/conversion-epub-to-xps/)
+- [التحويل - من Canvas إلى PDF](./java/conversion-canvas-to-pdf/)
+- [التحويل - EPUB إلى صورة و PDF](./java/conversion-epub-to-image-and-pdf/)
+- [التحويل من EPUB إلى XPS](./java/conversion-epub-to-xps/)
 - [التحويل - HTML إلى تنسيقات الصور المختلفة](./java/conversion-html-to-various-image-formats/)
-- [التحويل - HTML إلى صيغ أخرى](./java/conversion-html-to-other-formats/)
-- [التحويل بين EPUB وتنسيقات الصور](./java/converting-between-epub-and-image-formats/)
+- [التحويل - HTML إلى تنسيقات أخرى](./java/conversion-html-to-other-formats/)
+- [التحويل بين تنسيق EPUB وتنسيق الصور](./java/converting-between-epub-and-image-formats/)
 - [تحويل EPUB إلى PDF](./java/converting-epub-to-pdf/)
 - [تحويل EPUB إلى XPS](./java/converting-epub-to-xps/)
-- [تحويل HTML إلى صيغ الصور المختلفة](./java/converting-html-to-various-image-formats/)
+- [تحويل HTML إلى تنسيقات الصور المختلفة](./java/converting-html-to-various-image-formats/)

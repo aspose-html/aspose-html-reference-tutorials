@@ -1,6 +1,6 @@
 ---
 title: Gunakan Properti Konten yang Diperluas di .NET dengan Aspose.HTML
-linktitle: Gunakan Properti Konten yang Diperluas di .NET
+linktitle: Gunakan Properti Konten Diperluas di .NET
 second_title: Aspose.HTML .NET API manipulasi HTML
 description: Pelajari cara menggunakan Aspose.HTML untuk .NET dengan panduan langkah demi langkah ini. Tingkatkan keterampilan HTML Anda dan sederhanakan proyek pengembangan web Anda.
 type: docs
@@ -8,7 +8,7 @@ weight: 14
 url: /id/net/advanced-features/use-extended-content-property/
 ---
 
-Dalam dunia pengembangan web, bekerja dengan HTML adalah keterampilan mendasar. Aspose.HTML untuk .NET adalah alat canggih yang dapat membuat tugas terkait HTML Anda menjadi lebih mudah dan efisien. Tutorial ini akan memandu Anda melalui langkah-langkah untuk memulai Aspose.HTML untuk .NET, termasuk prasyarat, mengimpor namespace, dan mengelompokkan setiap contoh menjadi langkah-langkah yang mudah diikuti.
+Dalam dunia pengembangan web, bekerja dengan HTML merupakan keterampilan mendasar. Aspose.HTML untuk .NET merupakan alat canggih yang dapat mempermudah dan mengefisienkan tugas-tugas terkait HTML Anda. Tutorial ini akan memandu Anda melalui langkah-langkah untuk memulai Aspose.HTML untuk .NET, termasuk prasyarat, mengimpor namespace, dan menguraikan setiap contoh menjadi langkah-langkah yang mudah diikuti.
 
 ## Prasyarat
 
@@ -16,23 +16,23 @@ Sebelum Anda mendalami Aspose.HTML untuk .NET, ada beberapa prasyarat yang perlu
 
 ### 1. Lingkungan .NET
 
- Pastikan Anda memiliki lingkungan .NET yang diatur di sistem Anda. Jika Anda belum melakukannya, Anda dapat mengunduh dan menginstal .NET SDK dari[Di Sini](https://releases.aspose.com/html/net/).
+ Pastikan Anda telah menyiapkan lingkungan .NET di sistem Anda. Jika belum, Anda dapat mengunduh dan menginstal .NET SDK dari[Di Sini](https://releases.aspose.com/html/net/).
 
 ### 2. Aspose.HTML untuk .NET
 
- Anda perlu mengunduh dan menginstal Aspose.HTML untuk .NET. Anda dapat menemukan tautan unduhan[Di Sini](https://releases.aspose.com/html/net/).
+ Anda perlu mengunduh dan menginstal Aspose.HTML untuk .NET. Anda dapat menemukan tautan unduhannya[Di Sini](https://releases.aspose.com/html/net/).
 
 ### 3. Editor Teks atau IDE
 
-Gunakan editor teks pilihan Anda atau lingkungan pengembangan terintegrasi (IDE) untuk menulis dan menjalankan kode .NET Anda. Visual Studio adalah pilihan yang bagus, tetapi Anda juga dapat menggunakan editor lain.
+Gunakan editor teks pilihan Anda atau lingkungan pengembangan terintegrasi (IDE) untuk menulis dan menjalankan kode .NET Anda. Visual Studio adalah pilihan yang sangat baik, tetapi Anda juga dapat menggunakan editor lainnya.
 
 ### 4. Pengetahuan Dasar HTML
 
 Meskipun Aspose.HTML untuk .NET dapat digunakan untuk berbagai tugas, memiliki pemahaman dasar tentang HTML akan sangat membantu.
 
-## Mengimpor Namespace
+## Mengimpor Ruang Nama
 
-Sekarang setelah Anda memiliki prasyarat, Anda dapat mulai bekerja dengan Aspose.HTML untuk .NET. Mari impor namespace yang diperlukan untuk membantu Anda memulai.
+Setelah Anda memiliki prasyarat yang diperlukan, Anda dapat mulai bekerja dengan Aspose.HTML untuk .NET. Mari impor namespace yang diperlukan untuk membantu Anda memulai.
 
 ## Langkah 1: Buat Proyek .NET Baru
 
@@ -40,7 +40,7 @@ Jika Anda belum melakukannya, buat proyek .NET baru di lingkungan pengembangan p
 
 ## Langkah 2: Impor Namespace Aspose.HTML
 
-Dalam proyek .NET Anda, Anda perlu mengimpor namespace Aspose.HTML. Hal ini memungkinkan Anda untuk mengakses kelas dan metode yang disediakan oleh Aspose.HTML.
+Dalam proyek .NET Anda, Anda perlu mengimpor namespace Aspose.HTML. Ini memungkinkan Anda untuk mengakses kelas dan metode yang disediakan oleh Aspose.HTML.
 
 ```csharp
 using Aspose.Html;
@@ -48,7 +48,7 @@ using Aspose.Html;
 
 ## Langkah 3: Inisialisasi Konfigurasi
 
-Untuk mengonfigurasi dokumen Aspose.HTML, Anda perlu menyiapkan beberapa parameter. Inilah cara Anda melakukannya:
+Untuk mengonfigurasi dokumen Aspose.HTML, Anda perlu mengatur beberapa parameter. Berikut cara melakukannya:
 
 ```csharp
 string dataDir = "Your Data Directory";
@@ -89,7 +89,7 @@ using (HTMLDocument document = new HTMLDocument(configuration))
 
 ## Langkah 5: Inisialisasi Perangkat Output
 
-Untuk merender konten HTML, Anda perlu menginisialisasi perangkat keluaran. Dalam contoh ini, kita akan menggunakan perangkat XPS.
+Untuk merender konten HTML, Anda perlu menginisialisasi perangkat output. Dalam contoh ini, kami akan menggunakan perangkat XPS.
 
 ```csharp
 using (XpsDevice device = new XpsDevice(dataDir + "output_out.xps"))
@@ -100,24 +100,24 @@ using (XpsDevice device = new XpsDevice(dataDir + "output_out.xps"))
 
 ## Kesimpulan
 
-Selamat! Anda baru saja mengambil langkah pertama ke dunia Aspose.HTML untuk .NET. Dengan prasyarat yang tepat dan namespace yang diimpor, Anda sudah siap untuk bekerja dengan dokumen HTML dengan cara yang lebih efisien dan kuat.
+Selamat! Anda baru saja melangkah pertama kali ke dunia Aspose.HTML untuk .NET. Dengan prasyarat yang tepat dan namespace yang diimpor, Anda sudah berada di jalur yang tepat untuk bekerja dengan dokumen HTML dengan cara yang lebih efisien dan canggih.
 
- Jika Anda memiliki pertanyaan atau memerlukan bantuan lebih lanjut, silakan kunjungi[Dokumentasi Aspose.HTML](https://reference.aspose.com/html/net/) atau menghubungi[Forum dukungan Aspose.HTML](https://forum.aspose.com/).
+ Jika Anda memiliki pertanyaan atau memerlukan bantuan lebih lanjut, jangan ragu untuk mengunjungi[Dokumentasi Aspose.HTML](https://reference.aspose.com/html/net/) atau hubungi[Forum dukungan Aspose.HTML](https://forum.aspose.com/).
 
 ---
 
 ## Pertanyaan yang Sering Diajukan
 
 ### Apa itu Aspose.HTML untuk .NET?
-   Aspose.HTML untuk .NET adalah pustaka .NET yang memungkinkan pengembang bekerja dengan dokumen HTML dan melakukan berbagai operasi pada dokumen tersebut.
+   Aspose.HTML untuk .NET adalah pustaka .NET yang memungkinkan pengembang untuk bekerja dengan dokumen HTML dan melakukan berbagai operasi pada dokumen tersebut.
 
 ### Apakah Aspose.HTML untuk .NET gratis untuk digunakan?
-   Aspose.HTML untuk .NET menawarkan uji coba gratis dan versi berbayar. Anda dapat menjelajahi fitur-fiturnya dengan versi uji coba, namun untuk fungsionalitas penuh, Anda mungkin perlu membeli lisensi.
+   Aspose.HTML untuk .NET menawarkan versi uji coba gratis dan versi berbayar. Anda dapat menjelajahi fitur-fiturnya dengan versi uji coba, tetapi untuk fungsionalitas penuh, Anda mungkin perlu membeli lisensi.
 
-### Bisakah saya menggunakan Aspose.HTML untuk .NET dengan pustaka dan kerangka kerja .NET lainnya?
+### Dapatkah saya menggunakan Aspose.HTML untuk .NET dengan pustaka dan kerangka kerja .NET lainnya?
    Ya, Anda dapat mengintegrasikan Aspose.HTML untuk .NET dengan pustaka dan kerangka kerja .NET lainnya untuk meningkatkan kemampuan pengembangan web Anda.
 
-### Tugas apa yang dapat saya lakukan dengan Aspose.HTML untuk .NET?
+### Tugas macam apa yang dapat saya lakukan dengan Aspose.HTML untuk .NET?
    Aspose.HTML untuk .NET memungkinkan Anda mengurai, mengonversi, dan memanipulasi dokumen HTML, menjadikannya alat yang berharga bagi pengembang web dan pembuat konten.
 
 ### Apakah ada sumber daya atau tutorial tambahan yang tersedia untuk Aspose.HTML untuk .NET?

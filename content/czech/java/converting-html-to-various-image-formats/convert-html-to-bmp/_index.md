@@ -14,7 +14,7 @@ Jste připraveni využít sílu Aspose.HTML pro Java k bezproblémovému převod
 
 Než začneme, ujistěte se, že máte splněny následující předpoklady:
 
-1.  Vývojové prostředí Java: Ujistěte se, že máte v systému nainstalovanou Javu. Java si můžete stáhnout z[tady](https://www.java.com/download/).
+1.  Vývojové prostředí Java: Ujistěte se, že máte v systému nainstalovanou Javu. Java si můžete stáhnout z[zde](https://www.java.com/download/).
 
 2.  Knihovna Aspose.HTML for Java: Budete potřebovat knihovnu Aspose.HTML for Java. Pokud jste tak ještě neučinili, můžete jej získat z[stránka ke stažení](https://releases.aspose.com/html/java/).
 
@@ -24,7 +24,7 @@ Po splnění předpokladů přejdeme k dalším krokům.
 
 ## Importujte balíčky
 
-Nyní naimportujeme potřebné balíčky, abyste mohli začít používat Aspose.HTML for Java ve svém projektu. Následuj tyto kroky:
+Nyní naimportujeme potřebné balíčky, abyste mohli začít používat Aspose.HTML for Java ve svém projektu. Postupujte takto:
 
 ### Krok 1: Vytvořte nový projekt Java
 
@@ -107,13 +107,13 @@ Právě jste odemkli výkonný nástroj pro převod HTML do BMP pomocí Aspose.H
  Aspose.HTML for Java je komerční knihovna. Ceny a podrobnosti o licencích si můžete prohlédnout na[nákupní stránku](https://purchase.aspose.com/buy).
 
 ### Potřebuji dočasnou licenci pro Aspose.HTML pro Java?
- Pro účely hodnocení není vyžadována dočasná licence. Knihovnu si můžete stáhnout z[tady](https://releases.aspose.com/) a vyzkoušet to bez licence.
+ Pro účely hodnocení není vyžadována dočasná licence. Knihovnu si můžete stáhnout z[zde](https://releases.aspose.com/) a vyzkoušet to bez licence.
 
 ### Kde najdu dokumentaci k Aspose.HTML pro Java?
  Kompletní dokumentaci si můžete prohlédnout na[Aspose.HTML pro dokumentaci Java](https://reference.aspose.com/html/java/).
 
 ### Mohu převést HTML do jiných obrazových formátů pomocí Aspose.HTML for Java?
-Ano můžeš. Aspose.HTML for Java podporuje více formátů obrázků, včetně BMP, PNG, JPEG a dalších.
+Ano, můžete. Aspose.HTML for Java podporuje více formátů obrázků, včetně BMP, PNG, JPEG a dalších.
 
 ### Jaké je omezení velikosti souboru pro převod HTML na BMP?
 Omezení velikosti souboru se může lišit v závislosti na vaší licenci. Podrobné informace naleznete v dokumentaci.

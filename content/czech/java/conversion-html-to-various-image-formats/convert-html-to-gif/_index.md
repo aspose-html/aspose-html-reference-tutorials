@@ -15,11 +15,11 @@ Než se ponoříme do procesu převodu, ujistěte se, že máte splněny nezbytn
 
 1. Vývojové prostředí Java
 
-Ujistěte se, že máte v systému nainstalovanou Javu. Můžete si stáhnout nejnovější verzi Javy[tady](https://www.oracle.com/java/technologies/javase-downloads.html).
+Ujistěte se, že máte v systému nainstalovanou Javu. Můžete si stáhnout nejnovější verzi Javy[zde](https://www.oracle.com/java/technologies/javase-downloads.html).
 
 2. Aspose.HTML pro Javu
 
- Musíte si stáhnout a nainstalovat Aspose.HTML pro Javu. Odkaz ke stažení najdete[tady](https://releases.aspose.com/html/java/).
+ Musíte si stáhnout a nainstalovat Aspose.HTML pro Javu. Odkaz ke stažení najdete[zde](https://releases.aspose.com/html/java/).
 
 3. HTML dokument
 
@@ -86,7 +86,7 @@ V tomto tutoriálu jsme probrali krok za krokem proces převodu HTML na GIF pomo
 
 ### Q1: Je Aspose.HTML for Java bezplatný nástroj?
 
- Odpověď 1: Aspose.HTML nabízí bezplatnou zkušební verzi, ale pro plnohodnotné použití si možná budete muset zakoupit licenci. Můžete prozkoumat možnosti licencování[tady](https://purchase.aspose.com/buy).
+ Odpověď 1: Aspose.HTML nabízí bezplatnou zkušební verzi, ale pro plnohodnotné použití si možná budete muset zakoupit licenci. Můžete prozkoumat možnosti licencování[zde](https://purchase.aspose.com/buy).
 
 ### Q2: Mohu použít Aspose.HTML pro jiné převody dokumentů?
 
@@ -102,4 +102,4 @@ Odpověď 3: Aspose.HTML podporuje různé formáty obrázků, včetně GIF, PNG
 
 ### Q5: Jak získám dočasnou licenci pro testovací účely?
 
- A5: Můžete získat dočasnou licenci pro testování od[tady](https://purchase.aspose.com/temporary-license/).
+ A5: Můžete získat dočasnou licenci pro testování od[zde](https://purchase.aspose.com/temporary-license/).

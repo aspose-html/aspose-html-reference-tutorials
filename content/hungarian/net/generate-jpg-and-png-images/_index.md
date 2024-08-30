@@ -14,7 +14,7 @@ Az Aspose.HTML for .NET egy hatékony könyvtár, amely lehetővé teszi a fejle
 
 Először is beszéljük meg, miért érdemes az Aspose.HTML-t választania a .NET-hez a képalkotáshoz. Ez a könyvtár zökkenőmentes és hatékony módot biztosít a HTML különböző képformátumokká konvertálására, beleértve a JPG-t és a PNG-t. Legyen szó lenyűgöző webhely-előnézetről, miniatűr képekről vagy tetszetős jelentésekről, az Aspose.HTML for .NET mindent megtalál.
 
-## Elkezdeni
+## Kezdő lépések
 
 Mielőtt belevágna a képalkotási folyamatba, be kell állítania az Aspose.HTML-t a .NET-hez. Kezdje a könyvtár NuGet-en keresztüli telepítésével, majd megkezdheti a próbalicencet. Miután telepítette a könyvtárat, készen áll a képek létrehozására HTML-tartalmából.
 

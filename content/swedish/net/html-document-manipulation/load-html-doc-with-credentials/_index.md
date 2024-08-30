@@ -30,7 +30,7 @@ Du måste skaffa Aspose.HTML för .NET. Du kan ladda ner den från webbplatsen[h
 
 En grundläggande förståelse för HTML är avgörande för att få ut det mesta av Aspose.HTML för .NET. Du bör vara bekant med HTML-taggar, attribut och strukturen i HTML-dokument.
 
-5. Internet anslutning
+5. Internetanslutning
 
 Du behöver en aktiv internetanslutning för att göra förfrågningar och hämta data under SEO-optimeringsprocessen.
 
@@ -54,7 +54,7 @@ HTMLDocument document = new HTMLDocument();
 
 Här skapar du en instans av HTMLDocument-klassen. Detta dokument kommer att användas för att ladda och manipulera HTML-innehåll.
 
-## Bryta ner
+## Sammanbrott
 
 Låt oss dela upp ett exempel i flera steg för att hjälpa dig förstå hur du använder Aspose.HTML för .NET för SEO-optimering.
 

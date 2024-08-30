@@ -94,13 +94,13 @@ Velikost stránky a okraje si můžete upravit podle svých požadavků.
 
 Toto je poslední krok, kdy vykreslíme obsah HTML do obrázku a uložíme jej do určeného adresáře.
 
-A je to! Úspěšně jste vykreslili HTML do obrázku pomocí Aspose.HTML for .NET.
+To je vše! Úspěšně jste vykreslili HTML do obrázku pomocí Aspose.HTML for .NET.
 
 ## Závěr
 
 Aspose.HTML for .NET je všestranná knihovna, která vám umožňuje snadno manipulovat s obsahem HTML ve vašich aplikacích .NET. Při správném nastavení a správném používání jmenných prostorů můžete bez problémů vytvářet dynamické webové stránky, generovat sestavy a provádět různé úkoly související s HTML.
 
- Pokud narazíte na nějaké problémy nebo potřebujete další pomoc, neváhejte navštívit Aspose.HTML[Fórum podpory](https://forum.aspose.com/).
+ Pokud narazíte na nějaké problémy nebo potřebujete další pomoc, neváhejte navštívit Aspose.HTML[fórum podpory](https://forum.aspose.com/).
 
 Nyní je řada na vás, abyste prozkoumali a vytvořili úžasné webové stránky a dokumenty pomocí Aspose.HTML for .NET. Šťastné kódování!
 
@@ -120,7 +120,7 @@ Odpověď 3: Aspose.HTML for .NET podporuje různé výstupní formáty, včetn�
 
 ### Q4: Existuje komunita nebo fórum pro podporu Aspose.HTML?
    
- A4: Ano, můžete najít pomoc a diskutovat o problémech v Aspose.HTML[Fórum podpory](https://forum.aspose.com/).
+ A4: Ano, můžete najít pomoc a diskutovat o problémech v Aspose.HTML[fórum podpory](https://forum.aspose.com/).
 
 ### Q5: Mohu integrovat Aspose.HTML for .NET do svého projektu .NET Core?
 

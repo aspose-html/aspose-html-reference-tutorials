@@ -40,7 +40,7 @@ string dataDir = "Your Data Directory";
 SVGDocument svgDocument = new SVGDocument(dataDir + "input.svg");
 ```
 
- Här skapar vi en instans av`SVGDocument` och ladda SVG-dokumentet från den angivna sökvägen.
+Här skapar vi en instans av`SVGDocument` och ladda SVG-dokumentet från den angivna sökvägen.
 
 ## Steg 3: Initiera XpsSaveOptions
 

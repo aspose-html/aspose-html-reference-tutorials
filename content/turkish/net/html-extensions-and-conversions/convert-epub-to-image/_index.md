@@ -1,30 +1,30 @@
 ---
-title: Aspose.HTML ile EPUB'u .NET'teki Görüntüye Dönüştürün
-linktitle: EPUB'u .NET'te Görüntüye Dönüştürme
+title: Aspose.HTML ile .NET'te EPUB'ı Görüntüye Dönüştürme
+linktitle: EPUB'ı .NET'te Görüntüye Dönüştürme
 second_title: Aspose.HTML .NET HTML işleme API'si
-description: Aspose.HTML for .NET kullanarak EPUB'u görüntülere nasıl dönüştüreceğinizi öğrenin. Kod örnekleri ve özelleştirilebilir seçenekler içeren adım adım eğitim.
+description: Aspose.HTML for .NET kullanarak EPUB'ı görsellere nasıl dönüştüreceğinizi öğrenin. Kod örnekleri ve özelleştirilebilir seçenekler içeren adım adım eğitim.
 type: docs
 weight: 11
 url: /tr/net/html-extensions-and-conversions/convert-epub-to-image/
 ---
 
-Günümüzün dijital çağında, çeşitli belge formatlarını değiştirme ve dönüştürme yeteneği değerli bir beceridir. Aspose.HTML for .NET, geliştiricilerin HTML ve EPUB belgeleriyle zahmetsizce çalışmasına olanak tanıyan güçlü bir araçtır. Bu eğitimde Aspose.HTML for .NET dünyasını derinlemesine inceleyeceğiz ve EPUB belgelerini çeşitli görüntü formatlarına dönüştürme sürecinde size rehberlik edeceğiz. Her örneği birden fazla adıma ayıracağız ve yol boyunca her adımı açıklayacağız.
+Günümüzün dijital çağında, çeşitli belge biçimlerini düzenleme ve dönüştürme yeteneği değerli bir beceridir. Aspose.HTML for .NET, geliştiricilerin HTML ve EPUB belgeleriyle zahmetsizce çalışmasına olanak tanıyan güçlü bir araçtır. Bu eğitimde, Aspose.HTML for .NET dünyasına dalacağız ve EPUB belgelerini çeşitli resim biçimlerine dönüştürme sürecinde size rehberlik edeceğiz. Her örneği birden fazla adıma bölerek her adımı açıklayacağız.
 
-## Önkoşullar
+## Ön koşullar
 
-Aspose.HTML for .NET dünyasına dalmadan önce aşağıdaki önkoşulların mevcut olduğundan emin olmalısınız:
+.NET için Aspose.HTML dünyasına dalmadan önce, aşağıdaki ön koşulların mevcut olduğundan emin olmalısınız:
 
-1. Visual Studio: Sisteminizde Visual Studio'nun kurulu olduğundan emin olun. Web sitesinden indirebilirsiniz.
+1. Visual Studio: Sisteminizde Visual Studio'nun yüklü olduğundan emin olun. Bunu web sitesinden indirebilirsiniz.
 
-2.  Aspose.HTML for .NET: Kütüphaneyi Aspose web sitesinden edinebilirsiniz.[Burada](https://releases.aspose.com/html/net/).
+2.  .NET için Aspose.HTML: Kütüphaneyi Aspose web sitesinden edinebilirsiniz[Burada](https://releases.aspose.com/html/net/).
 
 3. Veri Dizininiz: EPUB dosyalarınızı saklayacağınız ve çıktı görsellerinin kaydedileceği bir dizin hazırlayın.
 
-4. Temel C# Bilgisi: C# programlamaya aşina olmak, bu eğitimde sağlanan kod örneklerini anlamak ve uygulamak için çok önemlidir.
+4. Temel C# Bilgisi: Bu eğitimde sunulan kod örneklerini anlamak ve uygulamak için C# programlamaya aşinalık şarttır.
 
 ## Gerekli Ad Alanlarını İçe Aktarma
 
-Aspose.HTML for .NET ile çalışmaya başlamadan önce gerekli ad alanlarını C# kodunuza aktarmanız gerekir. Bu ad alanları Aspose.HTML for .NET özelliklerine erişim sağlar.
+Aspose.HTML for .NET ile çalışmaya başlamadan önce, gerekli ad alanlarını C# kodunuza aktarmanız gerekir. Bu ad alanları, Aspose.HTML for .NET özelliklerine erişim sağlar.
 
 ```csharp
 using Aspose.Html.Converters;
@@ -37,31 +37,31 @@ using System.Drawing;
 using System.Collections.Generic;
 ```
 
-Artık önkoşulları ve ad alanlarını oluşturduğumuza göre adım adım örneklere geçelim.
+Artık ön koşullar ve ad alanları hazır olduğuna göre, adım adım örneklere geçelim.
 
-## EPUB'u JPEG'e dönüştürme
+## EPUB'ı JPEG'e dönüştürme
 
 ```csharp
     string dataDir = "Your Data Directory";
-    // Okumak için mevcut bir EPUB dosyasını açın.
+    // Mevcut bir EPUB dosyasını okumak için açın.
     using (var stream = File.OpenRead(Path.Combine(dataDir, "input.epub")))
     {
-        // EPUB dosyasını görüntüye dönüştürmek için ConvertEPUB yöntemini çağırın.
+        // EPUB dosyasını görüntüye dönüştürmek için ConvertEPUB metodunu çağırın.
         Converter.ConvertEPUB(stream, new ImageSaveOptions(ImageFormat.Jpeg), "output.jpg");
     }
 ```
 ### Adımlar
 
 1. dataDir değişkeninde EPUB dosyanızın yolunu belirtin.
-2. FileStream kullanarak okumak için EPUB dosyasını açın.
-3. EPUB akışını, çıktı biçimini (JPEG) ve çıktı dosyası adını ("output.jpg") belirten ImageSaveOptions'ı ileterek ConvertEPUB yöntemini çağırın.
-5. EPUB dosyası JPEG görüntüsüne dönüştürülür.
+2. EPUB dosyasını FileStream kullanarak okumak için açın.
+3. EPUB akışını, çıktı formatını (JPEG) ve çıktı dosya adını ("output.jpg") belirten bir ImageSaveOptions'ı geçirerek ConvertEPUB yöntemini çağırın.
+5. EPUB dosyası JPEG görüntüye dönüştürülür.
 
-Bu örnekte bir EPUB dosyasını açıyoruz, içeriğini okuyoruz ve onu JPEG görüntü formatına dönüştürüyoruz. Çıktı görüntüsü "output.jpg" olarak kaydedilir.
+Bu örnekte bir EPUB dosyasını açıyoruz, içeriğini okuyoruz ve onu JPEG resim biçimine dönüştürüyoruz. Çıktı resmi "output.jpg" olarak kaydedilir.
 
-## EPUB'u PNG'ye dönüştürme
+## EPUB'ı PNG'ye dönüştürme
 
-Benzer kod yapılarını kullanarak EPUB dosyalarını kolaylıkla PNG, BMP, GIF ve TIFF gibi çeşitli görüntü formatlarına dönüştürebilirsiniz. PNG'ye dönüştürmeye ilişkin bir örnek:
+Benzer kod yapılarını kullanarak EPUB dosyalarını PNG, BMP, GIF ve TIFF gibi çeşitli resim biçimlerine kolayca dönüştürebilirsiniz. PNG'ye dönüştürmeye yönelik bir örnek şöyledir:
 
 ```csharp
 
@@ -74,14 +74,14 @@ Benzer kod yapılarını kullanarak EPUB dosyalarını kolaylıkla PNG, BMP, GIF
 
 ```
 ### Adımlar
-1. FileStream kullanarak okumak için EPUB dosyasını açın.
-2. Bir ImageSaveOptions nesnesini istenen çıktı biçimiyle (bu durumda PNG) başlatın.
-3. EPUB akışını, görüntü kaydetme seçeneklerini ve çıktı dosyası adını ileterek ConvertEPUB yöntemini çağırın.
-4. EPUB dosyası belirtilen görüntü formatına dönüştürülür.
+1. EPUB dosyasını FileStream kullanarak okumak için açın.
+2. İstenilen çıktı biçimini (bu durumda PNG) kullanarak bir ImageSaveOptions nesnesi başlatın.
+3. ConvertEPUB yöntemini çağırın, EPUB akışını, resim kaydetme seçeneklerini ve çıktı dosya adını geçirin.
+4. EPUB dosyası belirtilen resim formatına dönüştürülür.
 
 ## Görüntü Kaydetme Seçeneklerini Belirleyin
 
-Sayfa boyutu ve arka plan rengi gibi seçenekleri belirterek görüntü çıktısını özelleştirebilirsiniz. İşte bir örnek:
+Sayfa boyutu ve arka plan rengi gibi seçenekleri belirleyerek görüntü çıktısını özelleştirebilirsiniz. İşte bir örnek:
 
 ```csharp
     string dataDir = "Your Data Directory";
@@ -103,16 +103,16 @@ Sayfa boyutu ve arka plan rengi gibi seçenekleri belirterek görüntü çıktı
 ```
 ### Adımlar
 
-1.  EPUB dosyanızın yolunu şu adreste belirtin:`dataDir` değişken.
-2.  EPUB dosyasını okumak için bir kullanarak açın.`FileStream`.
-3.  Oluşturduğunuz bir`ImageSaveOptions` nesneyi seçin ve istenen çıktı formatını (JPEG) belirtin.
+1.  EPUB dosyanızın yolunu belirtin`dataDir` değişken.
+2.  EPUB dosyasını okumak için açın`FileStream`.
+3.  Bir tane oluştur`ImageSaveOptions` nesneyi seçin ve istediğiniz çıktı formatını (JPEG) belirtin.
 4. Gerekirse sayfa boyutunu ve arka plan rengini özelleştirin.
-5.  Ara`ConvertEPUB`yöntemi, EPUB akışının, görüntü kaydetme seçeneklerinin ve çıktı dosyası adının iletilmesi.
-6. EPUB dosyası belirtilen seçeneklerle bir görüntüye dönüştürülür.
+5.  Ara`ConvertEPUB`yöntem, EPUB akışını, resim kaydetme seçeneklerini ve çıktı dosya adını geçirme.
+6. EPUB dosyası belirtilen seçeneklerle görüntüye dönüştürülür.
 
-## Özel Akış Sağlayıcısı Belirtin
+## Özel Bir Akış Sağlayıcısı Belirleyin
 
-Çıkış akışını değiştirmeniz gerekiyorsa özel bir akış sağlayıcısı kullanabilirsiniz. İşte bir örnek:
+Çıktı akışını düzenlemeniz gerekiyorsa, özel bir akış sağlayıcısı kullanabilirsiniz. İşte bir örnek:
 
 ```csharp
     string dataDir = "Your Data Directory";
@@ -141,29 +141,29 @@ MemoryStreamProvider Sınıfı Kaynak Kodu.
 ```csharp
 class MemoryStreamProvider : Aspose.Html.IO.ICreateStreamProvider
         {
-            // Belge oluşturma sırasında oluşturulan MemoryStream nesnelerinin listesi
+            // Belgenin işlenmesi sırasında oluşturulan MemoryStream nesnelerinin listesi
             public List<System.IO.MemoryStream> Streams { get; } = new List<System.IO.MemoryStream>();
             public System.IO.Stream GetStream(string name, string extension)
             {
-                // Bu yöntem, örneğin XPS, PDF veya TIFF formatları için yalnızca bir çıktı akışı gerektiğinde çağrılır.
+                // Bu yöntem, yalnızca bir çıktı akışı gerektiğinde, örneğin XPS, PDF veya TIFF formatları için çağrılır.
                 System.IO.MemoryStream result = new System.IO.MemoryStream();
                 Streams.Add(result);
                 return result;
             }
             public System.IO.Stream GetStream(string name, string extension, int page)
             {
-                // Bu yöntem, birden fazla çıktı akışının oluşturulması gerektiğinde çağrılır. Örneğin, HTML oluşturma sırasında görüntü dosyalarının (JPG, PNG, vb.)
+                // Bu yöntem, birden fazla çıktı akışının oluşturulması gerektiğinde çağrılır. Örneğin, HTML'yi görüntü dosyalarının (JPG, PNG, vb.) listesine dönüştürme sırasında
                 System.IO.MemoryStream result = new System.IO.MemoryStream();
                 Streams.Add(result);
                 return result;
             }
             public void ReleaseStream(System.IO.Stream stream)
             {
-                // Burada verilerle dolu akışı serbest bırakabilir ve örneğin sabit sürücüye aktarabilirsiniz.
+                // Burada, verilerle dolu akışı serbest bırakabilir ve örneğin onu sabit diske aktarabilirsiniz
             }
             public void Dispose()
             {
-                // Kaynakları serbest bırakma
+                // Kaynakları serbest bırakmak
                 foreach (var stream in Streams)
                     stream.Dispose();
             }
@@ -171,16 +171,16 @@ class MemoryStreamProvider : Aspose.Html.IO.ICreateStreamProvider
 ```
 
 ### Adımlar
-1.  EPUB dosyanızın yolunu şu adreste belirtin:`dataDir` değişken.
-2.  EPUB dosyasını okumak için bir kullanarak açın.`FileStream`.
-3.  Oluşturmak`MemoryStreamProvider` özel çıktı akışlarını yönetmek için.
-4.  Ara`ConvertEPUB` EPUB akışını, görüntü kaydetme seçeneklerini (JPEG) ve özel akış sağlayıcısını geçirme yöntemi.
-5. Özel sağlayıcıdaki bellek akışlarını yineleyin ve bunları ayrı ayrı dosyalara kaydedin.
-6. Bu örnek, birden fazla çıktı akışını gerektiği gibi değiştirmenize ve kaydetmenize olanak tanır.
+1.  EPUB dosyanızın yolunu belirtin`dataDir` değişken.
+2.  EPUB dosyasını okumak için açın`FileStream`.
+3.  Bir tane oluştur`MemoryStreamProvider` özel çıktı akışlarını işlemek için.
+4.  Ara`ConvertEPUB` yöntem, EPUB akışını, resim kaydetme seçeneklerini (JPEG) ve özel akış sağlayıcısını geçirme.
+5. Özel sağlayıcıdaki bellek akışları arasında gezinin ve bunları ayrı dosyalara kaydedin.
+6. Bu örnek, gerektiğinde birden fazla çıktı akışını düzenlemenize ve kaydetmenize olanak tanır.
 
 ## Çözüm
 
-Aspose.HTML for .NET, EPUB ve HTML belgeleriyle çalışmayı kolaylaştıran çok yönlü bir kütüphanedir. EPUB belgelerini çeşitli görüntü formatlarına dönüştürme yeteneği ve özelleştirilebilir seçenekleriyle geliştiricilere geniş bir uygulama yelpazesi sunar.
+Aspose.HTML for .NET, EPUB ve HTML belgeleriyle çalışmayı basitleştiren çok yönlü bir kütüphanedir. EPUB belgelerini çeşitli resim biçimlerine dönüştürme yeteneği ve özelleştirilebilir seçeneklerle, geliştiriciler için çok çeşitli uygulamalar sunar.
 
 ---
 
@@ -188,20 +188,20 @@ Aspose.HTML for .NET, EPUB ve HTML belgeleriyle çalışmayı kolaylaştıran ç
 
 ### 1. Aspose.HTML for .NET'i nereden indirebilirim?
 
- Aspose.HTML for .NET'i sürümler sayfasından indirebilirsiniz[Burada](https://releases.aspose.com/html/net/).
+ .NET için Aspose.HTML'i sürümler sayfasından indirebilirsiniz[Burada](https://releases.aspose.com/html/net/).
 
-### 2. Aspose.HTML for .NET için nasıl geçici lisans alabilirim?
+### 2. Aspose.HTML for .NET için geçici lisansı nasıl alabilirim?
 
  Geçici lisans almak için geçici lisans sayfasını ziyaret edin[Burada](https://purchase.aspose.com/temporary-license/).
 
 ### 3. Aspose.HTML for .NET için ek desteği nerede bulabilirim?
 
- Sorularınız veya sorunlarınız için destek forumunda Aspose topluluğundan yardım isteyebilirsiniz.[Burada](https://forum.aspose.com/).
+ Herhangi bir soru veya sorun için destek forumunda Aspose topluluğundan yardım isteyebilirsiniz[Burada](https://forum.aspose.com/).
 
 ### 4. EPUB belgelerini PDF veya XPS gibi diğer formatlara dönüştürebilir miyim?
 
-Evet, EPUB belgelerini PDF ve XPS dahil olmak üzere çeşitli formatlara dönüştürmek için Aspose.HTML for .NET'i kullanabilirsiniz.
+Evet, EPUB belgelerini PDF ve XPS dahil olmak üzere çeşitli biçimlere dönüştürmek için Aspose.HTML for .NET'i kullanabilirsiniz.
 
 ### 5. Aspose.HTML for .NET hem küçük hem de büyük ölçekli projeler için uygun mudur?
 
-Kesinlikle! Aspose.HTML for .NET ölçeklenebilir olacak şekilde tasarlanmıştır, bu da onu her boyuttaki proje için mükemmel bir seçim haline getirir.
+Kesinlikle! Aspose.HTML for .NET ölçeklenebilir olacak şekilde tasarlanmıştır ve bu da onu her boyuttaki proje için harika bir seçim haline getirir.

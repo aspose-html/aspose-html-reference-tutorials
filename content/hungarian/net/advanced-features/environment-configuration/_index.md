@@ -8,7 +8,7 @@ weight: 10
 url: /hu/net/advanced-features/environment-configuration/
 ---
 
-mai digitális világban a HTML dokumentumok létrehozása és kezelése sok fejlesztő számára alapvető feladat. Függetlenül attól, hogy webalkalmazást épít, vagy a HTML-t más formátumba, például PDF- vagy képekké kell konvertálnia, az Aspose.HTML for .NET egy hatékony eszköz az eszköztárban. Ebben az oktatóanyagban megvizsgáljuk az Aspose.HTML for .NET különböző aspektusait, beleértve az előfeltételeket, a névterek importálását és a részletes magyarázatokkal ellátott, lépésről lépésre bemutatott példákat.
+A mai digitális világban a HTML dokumentumok létrehozása és kezelése sok fejlesztő számára alapvető feladat. Függetlenül attól, hogy webalkalmazást épít, vagy a HTML-t más formátumba, például PDF- vagy képekké kell konvertálnia, az Aspose.HTML for .NET egy hatékony eszköz az eszköztárban. Ebben az oktatóanyagban megvizsgáljuk az Aspose.HTML for .NET különböző aspektusait, beleértve az előfeltételeket, a névterek importálását és a részletes magyarázatokkal ellátott, lépésről lépésre bemutatott példákat.
 
 ## Előfeltételek
 
@@ -18,7 +18,7 @@ Mielőtt belemerülnénk az Aspose.HTML for .NET használatába, meg kell győz�
 
 2.  Aspose.HTML for .NET: Letöltheti az Aspose.HTML for .NET könyvtárat a webhelyről. A letöltési oldal eléréséhez használja a következő linket:[Töltse le az Aspose.HTML-t .NET-hez](https://releases.aspose.com/html/net/).
 
-3. Telepítés és licenc: A könyvtár letöltése után kövesse a dokumentációban található telepítési utasításokat. Egyes speciális funkciók használatához érvényes licencre is szükség lehet. A licencet az Aspose webhelyéről szerezheti be:[Vásároljon Aspose.HTML licencet](https://purchase.aspose.com/buy).
+3.  Telepítés és licenc: A könyvtár letöltése után kövesse a dokumentációban található telepítési utasításokat. Egyes speciális funkciók használatához érvényes licencre is szükség lehet. A licencet az Aspose webhelyéről szerezheti be:[Vásároljon Aspose.HTML licencet](https://purchase.aspose.com/buy).
 
 4.  Ingyenes próbaverzió: Ha licencvásárlás előtt szeretné kipróbálni az Aspose.HTML-t, ingyenes próbaverziót szerezhet be erről a linkről:[Aspose.HTML ingyenes próbaverzió](https://releases.aspose.com/).
 
@@ -42,7 +42,7 @@ Ezekkel a névterekkel importálva elérheti az Aspose.HTML for .NET által bizt
 
 ## Parancsfájlok végrehajtásának letiltása
 
-Kezdjük egy alappéldával a szkript végrehajtásának letiltására egy HTML-dokumentumban, és PDF formátumba konvertálására. Kovesd ezeket a lepeseket:
+Kezdjük egy alappéldával a szkript végrehajtásának letiltására egy HTML-dokumentumban, és PDF formátumba konvertálására. Kövesse az alábbi lépéseket:
 
 1. Hozzon létre egy HTML kódrészletet, és mentse el a "document.html" nevű fájlba.
 
@@ -98,7 +98,7 @@ using (var configuration = new Aspose.Html.Configuration())
 }
 ```
 
- Ebben a példában egyéni stílust alkalmaztunk a`<span>`elemet, a szöveg színét zöldre állítva. Az Aspose.HTML for .NET lehetővé teszi a stílusok egyszerű kezelését.
+ Ebben a példában egyéni stílust alkalmaztunk a`<span>` elemet, a szöveg színét zöldre állítva. Az Aspose.HTML for .NET lehetővé teszi a stílusok egyszerű kezelését.
 
 ## JavaScript végrehajtási időtúllépés
 

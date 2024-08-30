@@ -24,7 +24,7 @@ url: /el/net/html-extensions-and-conversions/convert-html-to-doc-docx/
 
 ### 2. Aspose.HTML για .NET
 
- Πρέπει να έχετε εγκατεστημένο το Aspose.HTML για .NET. Μπορείτε να το κατεβάσετε από τον ιστότοπο χρησιμοποιώντας[αυτός ο σύνδεσμος](https://releases.aspose.com/html/net/).
+ Πρέπει να έχετε εγκατεστημένο το Aspose.HTML για .NET. Μπορείτε να το κατεβάσετε από τον ιστότοπο χρησιμοποιώντας[αυτόν τον σύνδεσμο](https://releases.aspose.com/html/net/).
 
 ### 3. Έγγραφο HTML για εργασία
 
@@ -52,7 +52,7 @@ using Aspose.Html;
 
 ## Καθορίστε τον Κατάλογο δεδομένων σας
 
- ο`dataDir` μεταβλητή δείχνει τον κατάλογο όπου βρίσκεται το έγγραφό σας HTML. Βεβαιωθείτε ότι έχει ρυθμιστεί σωστά στον κατάλογο δεδομένων του έργου σας.
+ Ο`dataDir` μεταβλητή δείχνει τον κατάλογο όπου βρίσκεται το έγγραφό σας HTML. Βεβαιωθείτε ότι έχει ρυθμιστεί σωστά στον κατάλογο δεδομένων του έργου σας.
 
 ```csharp
 string dataDir = "Your Data Directory";
@@ -83,7 +83,7 @@ options.DocumentFormat = Rendering.Doc.DocumentFormat.DOCX;
 Converter.ConvertHTML(htmlDocument, options, dataDir + "HTMLtoDOCX_out.docx");
 ```
 
-## συμπέρασμα
+## Σύναψη
 
 Μόλις ξύσατε την επιφάνεια του τι μπορεί να κάνει το Aspose.HTML για .NET για εσάς. Αυτός ο οδηγός βήμα προς βήμα παρουσίασε τα αρχικά βήματα μετατροπής ενός εγγράφου HTML σε μορφή DOCX χρησιμοποιώντας το Aspose.HTML. Με περαιτέρω εξερεύνηση και εξάσκηση, μπορείτε να αξιοποιήσετε πλήρως τις δυνατότητές του στα έργα σας .NET.
 
@@ -96,10 +96,10 @@ Converter.ConvertHTML(htmlDocument, options, dataDir + "HTMLtoDOCX_out.docx");
  Μπορείτε να βρείτε την τεκμηρίωση[εδώ](https://reference.aspose.com/html/net/).
 
 ### Είναι το Aspose.HTML για .NET διαθέσιμο για δωρεάν δοκιμή;
- Ναι, μπορείτε να λάβετε μια δωρεάν δοκιμαστική έκδοση από[αυτός ο σύνδεσμος](https://releases.aspose.com/).
+ Ναι, μπορείτε να λάβετε μια δωρεάν δοκιμαστική έκδοση από[αυτόν τον σύνδεσμο](https://releases.aspose.com/).
 
 ### Πώς μπορώ να λάβω προσωρινές άδειες χρήσης για το Aspose.HTML για .NET;
- Διατίθενται προσωρινές άδειες μέσω[αυτός ο σύνδεσμος](https://purchase.aspose.com/temporary-license/).
+ Διατίθενται προσωρινές άδειες μέσω[αυτόν τον σύνδεσμο](https://purchase.aspose.com/temporary-license/).
 
 ### Πού μπορώ να αναζητήσω βοήθεια ή υποστήριξη για το Aspose.HTML για .NET;
  Μπορείτε να επισκεφτείτε τα φόρουμ του Aspose για υποστήριξη και συζητήσεις με την κοινότητα[εδώ](https://forum.aspose.com/).

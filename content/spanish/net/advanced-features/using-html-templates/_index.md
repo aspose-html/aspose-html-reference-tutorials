@@ -1,24 +1,24 @@
 ---
-title: Usando plantillas HTML en .NET con Aspose.HTML
-linktitle: Usando plantillas HTML en .NET
-second_title: Aspose.HTML .NET API de manipulación de HTML
-description: Aprenda a utilizar Aspose.HTML para .NET para generar dinámicamente documentos HTML a partir de datos JSON. Aproveche el poder de la manipulación HTML en sus aplicaciones .NET.
+title: Uso de plantillas HTML en .NET con Aspose.HTML
+linktitle: Uso de plantillas HTML en .NET
+second_title: Aspose.HTML .NET API de manipulación HTML
+description: Aprenda a utilizar Aspose.HTML para .NET para generar documentos HTML de forma dinámica a partir de datos JSON. Aproveche el poder de la manipulación de HTML en sus aplicaciones .NET.
 type: docs
 weight: 17
 url: /es/net/advanced-features/using-html-templates/
 ---
 
-Si buscas trabajar con documentos y plantillas HTML en tus aplicaciones .NET, ¡estás en el lugar correcto! Aspose.HTML para .NET es una biblioteca versátil que permite a los desarrolladores manipular documentos y plantillas HTML sin esfuerzo. En este tutorial, profundizaremos en los conceptos básicos del uso de Aspose.HTML para .NET, desglosando cada paso y brindando una explicación clara a lo largo del camino.
+Si desea trabajar con documentos y plantillas HTML en sus aplicaciones .NET, ¡está en el lugar correcto! Aspose.HTML para .NET es una biblioteca versátil que permite a los desarrolladores manipular documentos y plantillas HTML sin esfuerzo. En este tutorial, profundizaremos en los aspectos básicos del uso de Aspose.HTML para .NET, desglosando cada paso y brindando una explicación clara a lo largo del proceso.
 
-## Requisitos previos
+## Prerrequisitos
 
-Antes de profundizar en el meollo de la cuestión de Aspose.HTML para .NET, asegúrese de tener implementados los siguientes requisitos previos:
+Antes de profundizar en los detalles de Aspose.HTML para .NET, asegúrese de tener los siguientes requisitos previos:
 
-1. Visual Studio: asegúrese de tener Visual Studio instalado en su máquina. Puedes descargarlo desde el sitio web si aún no lo tienes.
+1. Visual Studio: Asegúrate de tener Visual Studio instalado en tu equipo. Puedes descargarlo desde el sitio web si aún no lo tienes.
 
-2.  Aspose.HTML para .NET: debe tener Aspose.HTML para .NET instalado en su proyecto de Visual Studio. Puedes obtenerlo del[documentación](https://reference.aspose.com/html/net/).
+2.  Aspose.HTML para .NET: Debe tener Aspose.HTML para .NET instalado en su proyecto de Visual Studio. Puede obtenerlo desde el sitio web[documentación](https://reference.aspose.com/html/net/).
 
-3. Datos JSON: prepare una fuente de datos JSON que desee utilizar para completar su plantilla HTML. Para este tutorial, usaremos los siguientes datos JSON:
+3. Datos JSON: prepara una fuente de datos JSON que quieras usar para completar tu plantilla HTML. Para este tutorial, usaremos los siguientes datos JSON:
 
 ```json
 {
@@ -32,7 +32,7 @@ Antes de profundizar en el meollo de la cuestión de Aspose.HTML para .NET, aseg
 }
 ```
 
-4. Plantilla HTML: cree una plantilla HTML que desee completar con los datos JSON. He aquí un ejemplo sencillo:
+4. Plantilla HTML: crea una plantilla HTML que quieras rellenar con los datos JSON. A continuación, te mostramos un ejemplo sencillo:
 
 ```html
 <table border=1>
@@ -47,20 +47,20 @@ Antes de profundizar en el meollo de la cuestión de Aspose.HTML para .NET, aseg
 </table>
 ```
 
-## Importando espacios de nombres
+## Importación de espacios de nombres
 
-Primero lo primero, importemos los espacios de nombres necesarios en su proyecto .NET:
+Lo primero es lo primero, importemos los espacios de nombres necesarios en su proyecto .NET:
 
 ```csharp
 using Aspose.Html.Converters;
 using Aspose.Html.Loading;
 ```
 
-Ahora que cubrimos los requisitos previos e importamos los espacios de nombres necesarios, analicemos cada paso en detalle.
+Ahora que hemos cubierto los requisitos previos e importado los espacios de nombres necesarios, analicemos cada paso en detalle.
 
 ## Paso 1: preparar una fuente de datos JSON
 
-Comience creando una fuente de datos JSON que contenga la información que desea insertar en su plantilla HTML. En este ejemplo, ya hemos preparado una fuente de datos JSON como se menciona en los requisitos previos. Guárdelo en un archivo, por ejemplo, "data-source.json".
+Comience por crear una fuente de datos JSON que contenga la información que desea insertar en su plantilla HTML. En este ejemplo, ya hemos preparado una fuente de datos JSON como se menciona en los requisitos previos. Guárdela en un archivo, por ejemplo, "data-source.json".
 
 ```csharp
 var data = @"{
@@ -77,9 +77,9 @@ System.IO.File.WriteAllText("data-source.json", data);
 
 Este fragmento de código lee los datos JSON y los escribe en un archivo llamado "data-source.json".
 
-## Paso 2: preparar una plantilla HTML
+## Paso 2: Preparar una plantilla HTML
 
-Ahora, creemos una plantilla HTML que desea completar con los datos JSON. Guarde esta plantilla en un archivo, como "template.html".
+Ahora, vamos a crear una plantilla HTML que deseamos rellenar con los datos JSON. Guarde esta plantilla en un archivo, como "template.html".
 
 ```csharp
 var template = @"
@@ -99,9 +99,9 @@ System.IO.File.WriteAllText("template.html", template);
 
  Esta plantilla HTML incluye marcadores de posición como`{{FirstName}}`, `{{LastName}}`, `{{Address.Street}}`, `{{Address.Number}}` y`{{Address.City}}`, que reemplazaremos con los datos reales.
 
-## Paso 3: complete la plantilla HTML
+## Paso 3: Rellene la plantilla HTML
 
- Finalmente, invoca el`Converter.ConvertTemplate` método para completar su plantilla HTML con los datos de la fuente JSON.
+ Por último, invocar el`Converter.ConvertTemplate` método para rellenar su plantilla HTML con los datos de la fuente JSON.
 
 ```csharp
 Aspose.Html.Converters.Converter.ConvertTemplate(
@@ -111,30 +111,30 @@ Aspose.Html.Converters.Converter.ConvertTemplate(
 
 Este código toma el archivo "template.html", sustituye los marcadores de posición con los valores JSON correspondientes y guarda el resultado en "document.html".
 
-¡Felicidades! Ha aprovechado con éxito el poder de Aspose.HTML para .NET para generar dinámicamente documentos HTML a partir de datos JSON.
+¡Felicitaciones! Ha aprovechado con éxito el poder de Aspose.HTML para .NET para generar documentos HTML de forma dinámica a partir de datos JSON.
 
 ## Conclusión
 
-En este tutorial, exploramos los fundamentos del uso de Aspose.HTML para .NET para crear documentos HTML dinámicamente. Cubrimos los requisitos previos, la importación de espacios de nombres y desglosamos cada paso en detalle. Si sigue estos pasos, podrá integrar perfectamente la generación de documentos HTML en sus aplicaciones .NET.
+En este tutorial, exploramos los aspectos básicos del uso de Aspose.HTML para .NET para crear documentos HTML de forma dinámica. Cubrimos los requisitos previos, la importación de espacios de nombres y desglosamos cada paso en detalle. Si sigue estos pasos, podrá integrar sin problemas la generación de documentos HTML en sus aplicaciones .NET.
 
 ## Preguntas frecuentes
 
 ### P1. ¿Qué es Aspose.HTML para .NET?
 
-R1: Aspose.HTML para .NET es una potente biblioteca que permite a los desarrolladores de .NET trabajar con documentos y plantillas HTML mediante programación. Simplifica tareas como la generación, conversión y manipulación de HTML.
+A1: Aspose.HTML para .NET es una potente biblioteca que permite a los desarrolladores de .NET trabajar con documentos y plantillas HTML de forma programática. Simplifica tareas como la generación, conversión y manipulación de HTML.
 
 ### P2. ¿Dónde puedo encontrar la documentación de Aspose.HTML para .NET?
 
- A2: Puede acceder a la documentación de Aspose.HTML para .NET[aquí](https://reference.aspose.com/html/net/). Proporciona información completa, incluidas referencias de API y ejemplos de código.
+ A2: Puede acceder a la documentación de Aspose.HTML para .NET[aquí](https://reference.aspose.com/html/net/)Proporciona información completa, incluidas referencias de API y ejemplos de código.
 
 ### P3. ¿Cómo puedo descargar Aspose.HTML para .NET?
 
-R3: Puede descargar Aspose.HTML para .NET desde la página de descarga[aquí](https://releases.aspose.com/html/net/).
+A3: Puede descargar Aspose.HTML para .NET desde la página de descarga[aquí](https://releases.aspose.com/html/net/).
 
-### P4. ¿Hay una prueba gratuita disponible para Aspose.HTML para .NET?
+### P4. ¿Hay una versión de prueba gratuita disponible para Aspose.HTML para .NET?
 
- R4: Sí, puede probar Aspose.HTML para .NET descargando la versión de prueba gratuita desde[aquí](https://releases.aspose.com/).
+ A4: Sí, puedes probar Aspose.HTML para .NET descargando la versión de prueba gratuita desde[aquí](https://releases.aspose.com/).
 
-### P5. ¿Necesito una licencia temporal de Aspose.HTML para .NET?
+### P5. ¿Necesito una licencia temporal para Aspose.HTML para .NET?
 
- R5: Si necesita una licencia temporal para fines de evaluación, puede obtener una de[aquí](https://purchase.aspose.com/temporary-license/).
+ A5: Si necesita una licencia temporal para fines de evaluación, puede obtenerla en[aquí](https://purchase.aspose.com/temporary-license/).

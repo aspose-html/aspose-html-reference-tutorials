@@ -35,7 +35,7 @@ string dataDir = "Your Data Directory";
 
 ## Krok 2: Načtěte šablonu HTML
 
-S nastavenou cestou adresáře byste měli načíst dokument šablony HTML. Můžete to provést pomocí následujícího kódu:
+S nastavenou cestou k adresáři byste měli načíst dokument šablony HTML. Můžete to provést pomocí následujícího kódu:
 
 ```csharp
 // HTML šablona dokumentu

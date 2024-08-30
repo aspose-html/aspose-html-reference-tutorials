@@ -15,7 +15,7 @@ url: /zh-hant/java/conversion-html-to-other-formats/convert-html-to-mhtml/
 
 1. Java 開發環境：確保您的系統上設定了 Java 開發環境。如果沒有，您可以從以下位置下載並安裝最新版本的 Java 開發工具包 (JDK)：[甲骨文網站](https://www.oracle.com/java/technologies/javase-downloads.html).
 
-2. Aspose.HTML for Java：您將需要 Aspose.HTML for Java 函式庫。您可以從[Aspose.HTML for Java 文檔](https://reference.aspose.com/html/java/).
+2.  Aspose.HTML for Java：您將需要 Aspose.HTML for Java 函式庫。您可以從[Aspose.HTML for Java 文檔](https://reference.aspose.com/html/java/).
 
 3. HTML 文件：準備要轉換為 MHTML 的 HTML 文件。您可以使用現有的 HTML 檔案或建立一個新檔案。
 
@@ -91,7 +91,7 @@ A1：MHTML（MIME HTML）是一種將 HTML 及其資源（例如圖像和樣式�
 
 ### Q2：我可以在Aspose.HTML for Java中自訂資源處理規則嗎？
 
-A2：是的，Aspose.HTML for Java 可讓您自訂資源處理規則，讓您可以控制轉換過程中資源的處理方式。
+A2：是的，Aspose.HTML for Java 可讓您自訂資源處理規則，讓您可以控制轉換期間資源的處理方式。
 
 ### Q3：Aspose.HTML for Java適合批次轉換嗎？
 
@@ -99,7 +99,7 @@ A3：是的，Aspose.HTML for Java 可用於批次轉換，使其成為處理多
 
 ### Q4：與其他轉換工具相比，使用 Aspose.HTML for Java 有何優點？
 
-A4：Aspose.HTML for Java 提供進階功能、資源處理和自訂選項，使其成為 HTML 到 MHTML 轉換的可靠選擇。
+A4：Aspose.HTML for Java 提供了進階功能、資源處理和自訂選項，使其成為 HTML 到 MHTML 轉換的可靠選擇。
 
 ### Q5：如何取得 Aspose.HTML for Java 的臨時授權？
 

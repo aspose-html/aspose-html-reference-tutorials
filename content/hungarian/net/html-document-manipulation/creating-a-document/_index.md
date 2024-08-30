@@ -156,7 +156,7 @@ var document = new Aspose.Html.HTMLDocument();
 ```csharp
 document.OnReadyStateChange += (sender, @event) =>
 {
-    //Ellenőrizze a „ReadyState” tulajdonság értékét.
+    // Ellenőrizze a „ReadyState” tulajdonság értékét.
     if (document.ReadyState == "complete")
     {
         Console.WriteLine(document.DocumentElement.OuterHTML);
@@ -203,7 +203,7 @@ Console.ReadLine();
 
 Ez a példa egy HTML-dokumentum aszinkron betöltését és az „OnLoad” esemény kezelését mutatja be a tartalom megjelenítéséhez a befejezés után.
 
-## Következtetésképpen
+## Befejezésül
 
 A webfejlesztés dinamikus világában kulcsfontosságú, hogy a megfelelő eszközökkel rendelkezzen. Az Aspose.HTML for .NET lehetővé teszi a HTML- és SVG-dokumentumok hatékony létrehozását, kezelését és feldolgozását. Ez az átfogó útmutató végigvezeti Önt a lényeges dolgokon, és biztosítja, hogy projektjei során ki tudja használni az Aspose.HTML for .NET erejét.
 
@@ -231,6 +231,6 @@ A3: Abszolút! Az Aspose.HTML for .NET kiváló választás webkaparási és ele
 
 - [Dokumentáció](https://reference.aspose.com/html/net/)
 - [Letöltés](https://releases.aspose.com/html/net/)
-- [megvesz](https://purchase.aspose.com/buy)
+- [Vétel](https://purchase.aspose.com/buy)
 - [Ingyenes próbaverzió](https://releases.aspose.com/)
 - [Ideiglenes jogosítvány](https://purchase.aspose.com/temporary-license/)

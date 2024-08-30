@@ -1,22 +1,22 @@
 ---
-title: Aspose.HTML for Java ile HTML'den JPG'ye Dönüştürme
+title: Java için Aspose.HTML ile HTML'den JPG'ye Dönüştürme
 linktitle: HTML'yi JPG'ye dönüştürme
 second_title: Aspose.HTML ile Java HTML İşleme
-description: Aspose.HTML for Java'yı kullanarak HTML'yi JPG'ye nasıl dönüştüreceğinizi öğrenin. Sorunsuz HTML'den JPG'ye dönüşüm için adım adım kılavuzumuzu izleyin.
+description: Aspose.HTML for Java kullanarak HTML'yi JPG'ye nasıl dönüştüreceğinizi öğrenin. Sorunsuz HTML'den JPG'ye dönüştürme için adım adım kılavuzumuzu izleyin.
 type: docs
 weight: 12
 url: /tr/java/converting-html-to-various-image-formats/convert-html-to-jpg/
 ---
 
-Dijital çağda HTML içeriğini çeşitli formatlara dönüştürmek yaygın bir ihtiyaçtır. Aspose.HTML for Java, HTML'yi JPG'ye dönüştürme işlemini kolaylaştıran güçlü bir kütüphanedir. Bu kapsamlı kılavuzda süreç boyunca size adım adım yol göstereceğiz. Aspose.HTML for Java ile HTML'den JPG'ye dönüştürme konusunda uzmanlaşmak için önkoşulları, paketleri nasıl içe aktaracağınızı öğrenecek ve her örneği birden fazla adıma ayıracaksınız.
+Dijital çağda, HTML içeriğini çeşitli biçimlere dönüştürmek yaygın bir ihtiyaçtır. Aspose.HTML for Java, HTML'yi JPG'ye dönüştürme sürecini basitleştiren güçlü bir kütüphanedir. Bu kapsamlı kılavuzda, sizi adım adım süreçte yönlendireceğiz. Ön koşulları, paketlerin nasıl içe aktarılacağını ve Aspose.HTML for Java ile HTML'yi JPG'ye dönüştürmede ustalaşmak için her örneği birden fazla adıma ayırmayı öğreneceksiniz.
 
-## Önkoşullar
+## Ön koşullar
 
-Başlamadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
+Başlamadan önce aşağıdaki ön koşulların mevcut olduğundan emin olun:
 
-1. Java Geliştirme Ortamı: Sisteminizde Java'nın kurulu olduğundan emin olun. Java web sitesinden indirip kurabilirsiniz.
+1. Java Geliştirme Ortamı: Sisteminizde Java'nın yüklü olduğundan emin olun. Java web sitesinden indirip yükleyebilirsiniz.
 
-2.  Aspose.HTML for Java Library: Aspose.HTML for Java kütüphanesinin kurulu olması gerekir. Henüz yapmadıysanız adresinden indirebilirsiniz.[Burada](https://releases.aspose.com/html/java/).
+2.  Java Kütüphanesi için Aspose.HTML: Java kütüphanesi için Aspose.HTML'in yüklü olması gerekir. Eğer henüz yapmadıysanız, şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/html/java/).
 
 ## Paketleri İçe Aktar
 
@@ -30,11 +30,11 @@ import com.aspose.html.converters.Converter;
 import java.io.FileWriter;
 ```
 
-Şimdi HTML'den JPG'ye dönüştürme sürecini birden fazla adıma ayıralım:
+Şimdi HTML'den JPG'ye dönüştürme sürecini birden fazla adıma bölelim:
 
 ## HTML Kodunu Hazırlayın
 
-Öncelikle JPG resmine dönüştürmek istediğiniz HTML kodunu hazırlayın. Bunu bir HTML dosyası veya HTML kodu içeren bir dize oluşturarak yapabilirsiniz.
+Öncelikle, JPG resmine dönüştürmek istediğiniz HTML kodunu hazırlayın. Bunu bir HTML dosyası veya HTML kodu içeren bir dize oluşturarak yapabilirsiniz.
 
 ```java
 String code = "<span>Hello</span> <span>World!!</span>";
@@ -45,15 +45,15 @@ try (FileWriter fileWriter = new FileWriter("document.html")) {
 
 ## HTML Belgesini Başlat
 
-Daha sonra, yeni oluşturduğunuz HTML dosyasından bir HTML belgesini başlatmanız gerekir. Bu Aspose.HTML kütüphanesi kullanılarak yapılır.
+Sonra, az önce oluşturduğunuz HTML dosyasından bir HTML belgesi başlatmanız gerekir. Bu, Aspose.HTML kütüphanesi kullanılarak yapılır.
 
 ```java
 HTMLDocument document = new HTMLDocument("document.html");
 ```
 
-## ImageSaveOptions'ı Yapılandırın
+## ImageSaveOptions'ı yapılandırın
 
- Şimdi yapılandırın`ImageSaveOptions` görüntüyü kaydetmek istediğiniz formatı belirtmek için. Bu durumda JPEG'e dönüştürüyoruz.
+ Şimdi, şunu yapılandırın:`ImageSaveOptions` Resmi kaydetmek istediğiniz formatı belirtmek için. Bu durumda JPEG'e dönüştürüyoruz.
 
 ```java
 ImageSaveOptions options = new ImageSaveOptions(ImageFormat.Jpeg);
@@ -69,7 +69,7 @@ Converter.convertHTML(document, options, "output.jpg");
 
 ## Temizlemek
 
-Dönüşümü tamamladıktan sonra kaynakları serbest bırakmayı unutmayın.
+Dönüştürme işlemini tamamladıktan sonra kaynakları serbest bırakmayı unutmayın.
 
 ```java
 if (document != null) {
@@ -77,27 +77,27 @@ if (document != null) {
 }
 ```
 
-Tebrikler! Aspose.HTML for Java'yı kullanarak HTML'yi başarıyla JPG'ye dönüştürdünüz.
+Tebrikler! Aspose.HTML for Java kullanarak HTML'yi JPG'ye başarıyla dönüştürdünüz.
 
 ## Çözüm
 
-Aspose.HTML for Java, HTML'yi JPG'ye dönüştürme işlemini basitleştirerek onu geliştiriciler için önemli bir araç haline getirir. Bu adım adım kılavuzla HTML'yi nasıl hazırlayacağınızı, belgeleri nasıl başlatacağınızı, seçenekleri nasıl yapılandıracağınızı ve dönüştürmeyi nasıl gerçekleştireceğinizi öğrendiniz. Artık bu özelliği Java uygulamalarınıza zahmetsizce entegre edebilirsiniz.
+Java için Aspose.HTML, HTML'yi JPG'ye dönüştürme sürecini basitleştirerek geliştiriciler için olmazsa olmaz bir araç haline getirir. Bu adım adım kılavuzla HTML'yi nasıl hazırlayacağınızı, belgeleri nasıl başlatacağınızı, seçenekleri nasıl yapılandıracağınızı ve dönüştürmeyi nasıl gerçekleştireceğinizi öğrendiniz. Artık bu özelliği Java uygulamalarınıza zahmetsizce entegre edebilirsiniz.
 
- Başka sorularınız varsa veya desteğe ihtiyacınız varsa şu adresi ziyaret etmekten çekinmeyin:[Java belgeleri için Aspose.HTML](https://reference.aspose.com/html/java/) veya iletişime geçin[Aspose destek forumu](https://forum.aspose.com/).
+ Başka sorularınız varsa veya desteğe ihtiyacınız varsa, lütfen şu adresi ziyaret edin:[Java için Aspose.HTML belgeleri](https://reference.aspose.com/html/java/) veya ulaşın[Aspose destek forumu](https://forum.aspose.com/).
 
 ## Sıkça Sorulan Sorular
 
 ### Java için Aspose.HTML nedir?
-Aspose.HTML for Java, geliştiricilerin HTML belgeleriyle çalışmasına ve HTML'den JPG'ye dönüştürme dahil çeşitli işlemleri gerçekleştirmesine olanak tanıyan bir Java kitaplığıdır.
+Aspose.HTML for Java, geliştiricilerin HTML belgeleriyle çalışmasına ve HTML'den JPG'ye dönüştürme de dahil olmak üzere çeşitli işlemleri gerçekleştirmesine olanak tanıyan bir Java kütüphanesidir.
 
-### Aspose.HTML for Java'yı nereden indirebilirim?
- Aspose.HTML for Java'yı sürümler sayfasından indirebilirsiniz[Burada](https://releases.aspose.com/html/java/).
+### Java için Aspose.HTML'i nereden indirebilirim?
+ Java için Aspose.HTML'i sürümler sayfasından indirebilirsiniz[Burada](https://releases.aspose.com/html/java/).
 
-### Ücretsiz deneme mevcut mu?
- Evet, Aspose.HTML for Java'nın ücretsiz deneme sürümünü şu adresten edinebilirsiniz:[Burada](https://releases.aspose.com/).
+### Ücretsiz deneme imkanı var mı?
+ Evet, Java için Aspose.HTML'nin ücretsiz deneme sürümünü şu adresten edinebilirsiniz:[Burada](https://releases.aspose.com/).
 
 ### Ticari kullanım için lisansa ihtiyacım var mı?
- Evet, ticari kullanım için adresinden lisans satın alabilirsiniz.[bu bağlantı](https://purchase.aspose.com/buy).
+ Evet, ticari kullanım için lisans satın alabilirsiniz.[bu bağlantı](https://purchase.aspose.com/buy).
 
 ### Geçici lisansları nasıl alabilirim?
-Geçici bir lisansa ihtiyacınız varsa, buradan bir tane alabilirsiniz.[bu bağlantı](https://purchase.aspose.com/temporary-license/).
+Geçici bir lisansa ihtiyacınız varsa, bunu şu adresten alabilirsiniz:[bu bağlantı](https://purchase.aspose.com/temporary-license/).

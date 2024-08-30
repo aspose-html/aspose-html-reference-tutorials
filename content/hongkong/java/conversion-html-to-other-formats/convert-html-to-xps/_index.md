@@ -36,7 +36,7 @@ import com.aspose.html.converters.Converter;
 
 ## 載入 HTML 文件
 
-要將 HTML 文件轉換為 XPS，首先需要載入 HTML 文件。這是透過使用`HTMLDocument`班級。
+要將 HTML 文件轉換為 XPS，首先需要載入 HTML 文件。這是使用以下方法實現的`HTMLDocument`班級。
 
 ```java
 HTMLDocument htmlDocument = new HTMLDocument("path/to/your/input.html");

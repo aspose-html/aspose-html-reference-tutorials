@@ -46,7 +46,7 @@ try (FileInputStream fileInputStream = new FileInputStream("input.epub")) {
 
 ### 第 2 步：初始化 XpsSaveOptions
 
-您需要設定 XpsSaveOptions 進行轉換。根據您的要求定制它。就是這樣：
+您需要設定 XpsSaveOptions 進行轉換。根據您的要求定制它。方法如下：
 
 ```java
 XpsSaveOptions options = new XpsSaveOptions();

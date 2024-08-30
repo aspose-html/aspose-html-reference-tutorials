@@ -13,7 +13,7 @@ Ve světě webového vývoje otevřelo HTML5 svět možností pro vytváření i
 
 Než se pustíte do tohoto tutoriálu, měli byste mít splněno několik předpokladů:
 
--  Prostředí Java: Ujistěte se, že máte v systému nainstalovanou Javu. Java si můžete stáhnout z[tady](https://www.java.com/download/).
+-  Prostředí Java: Ujistěte se, že máte v systému nainstalovanou Javu. Java si můžete stáhnout z[zde](https://www.java.com/download/).
 
 -  Aspose.HTML for Java: Ujistěte se, že máte nainstalovanou knihovnu Aspose.HTML for Java. Můžete si jej stáhnout z[stránka ke stažení](https://releases.aspose.com/html/java/).
 
@@ -131,7 +131,7 @@ document.renderTo(device);
 
 Tento krok dokončí proces vykreslování a obsah našeho plátna se uloží do souboru PDF.
 
-Gratulujeme! Úspěšně jste vytvořili dokument HTML, přidali prvek Canvas, manipulovali s plátnem a vykreslili jej do PDF pomocí Aspose.HTML for Java. Tento tutoriál by měl sloužit jako skvělý výchozí bod pro vaše projekty HTML5 Canvas.
+Gratuluji! Úspěšně jste vytvořili dokument HTML, přidali prvek Canvas, manipulovali s plátnem a vykreslili jej do PDF pomocí Aspose.HTML for Java. Tento tutoriál by měl sloužit jako skvělý výchozí bod pro vaše projekty HTML5 Canvas.
 
 ## Závěr
 
@@ -145,7 +145,7 @@ tomto tutoriálu jsme prozkoumali vzrušující svět HTML5 Canvas manipulace po
 
 ### Q2: Je k dispozici bezplatná zkušební verze pro Aspose.HTML pro Java?
 
- A2: Ano, můžete si stáhnout bezplatnou zkušební verzi z[tady](https://releases.aspose.com/).
+ A2: Ano, můžete si stáhnout bezplatnou zkušební verzi z[zde](https://releases.aspose.com/).
 
 ### Q3: Kde najdu dokumentaci a podporu pro Aspose.HTML pro Java?
 

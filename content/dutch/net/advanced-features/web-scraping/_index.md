@@ -1,28 +1,28 @@
 ---
-title: Webscrapen in .NET met Aspose.HTML
-linktitle: Webscrapen in .NET
+title: Webscraping in .NET met Aspose.HTML
+linktitle: Webscraping in .NET
 second_title: Aspose.HTML .NET HTML-manipulatie-API
-description: Leer HTML-documenten manipuleren in .NET met Aspose.HTML. Navigeer, filter, bevraag en selecteer elementen effectief voor verbeterde webontwikkeling.
+description: Leer HTML-documenten te manipuleren in .NET met Aspose.HTML. Navigeer, filter, query en selecteer elementen effectief voor verbeterde webontwikkeling.
 type: docs
 weight: 13
 url: /nl/net/advanced-features/web-scraping/
 ---
 
-In het huidige digitale tijdperk is het manipuleren en extraheren van informatie uit HTML-documenten een veel voorkomende taak voor ontwikkelaars. Aspose.HTML voor .NET is een krachtig hulpmiddel dat HTML-verwerking en -manipulatie in .NET-toepassingen vereenvoudigt. In deze zelfstudie verkennen we verschillende aspecten van Aspose.HTML voor .NET, inclusief vereisten, naamruimten en stapsgewijze voorbeelden, zodat u het volledige potentieel ervan kunt benutten.
+In het digitale tijdperk van vandaag is het manipuleren en extraheren van informatie uit HTML-documenten een veelvoorkomende taak voor ontwikkelaars. Aspose.HTML voor .NET is een krachtige tool die HTML-verwerking en -manipulatie in .NET-toepassingen vereenvoudigt. In deze tutorial verkennen we verschillende aspecten van Aspose.HTML voor .NET, waaronder vereisten, naamruimten en stapsgewijze voorbeelden om u te helpen het volledige potentieel ervan te benutten.
 
 ## Vereisten
 
-Voordat je in de wereld van Aspose.HTML voor .NET duikt, heb je een aantal vereisten nodig:
+Voordat u zich verdiept in de wereld van Aspose.HTML voor .NET, hebt u een aantal vereisten nodig:
 
-1. Ontwikkelomgeving: Zorg ervoor dat u over een werkende ontwikkelomgeving beschikt met Visual Studio of een andere compatibele IDE voor .NET-ontwikkeling.
+1. Ontwikkelomgeving: Zorg ervoor dat u een werkende ontwikkelomgeving hebt ingesteld met Visual Studio of een andere compatibele IDE voor .NET-ontwikkeling.
 
-2.  Aspose.HTML voor .NET: Download en installeer de Aspose.HTML voor .NET-bibliotheek van de[download link](https://releases.aspose.com/html/net/). U kunt kiezen tussen de gratis proefversie of een gelicentieerde versie, afhankelijk van uw behoeften.
+2.  Aspose.HTML voor .NET: Download en installeer de Aspose.HTML voor .NET-bibliotheek van de[downloadlink](https://releases.aspose.com/html/net/)U kunt kiezen tussen de gratis proefversie of een gelicentieerde versie, afhankelijk van uw behoeften.
 
-3. Basiskennis van HTML: Bekendheid met de HTML-structuur en -elementen is essentieel om Aspose.HTML effectief te gebruiken voor .NET.
+3. Basiskennis van HTML: Kennis van de HTML-structuur en -elementen is essentieel om Aspose.HTML voor .NET effectief te kunnen gebruiken.
 
 ## Naamruimten importeren
 
-Om te beginnen moet u de benodigde naamruimten in uw C#-project importeren. Deze naamruimten bieden toegang tot de Aspose.HTML voor .NET-klassen en functionaliteiten:
+Om te beginnen moet u de benodigde naamruimten importeren in uw C#-project. Deze naamruimten bieden toegang tot de Aspose.HTML voor .NET-klassen en -functionaliteiten:
 
 ```csharp
 using Aspose.Html;
@@ -31,46 +31,46 @@ using Aspose.Html.XPath;
 using Aspose.Html.Css;
 ```
 
-Nu aan de vereisten is voldaan en de naamruimten zijn geïmporteerd, gaan we stap voor stap enkele belangrijke voorbeelden opsplitsen om te illustreren hoe u Aspose.HTML voor .NET effectief kunt gebruiken.
+Nu de vereisten aanwezig zijn en de naamruimten zijn geïmporteerd, gaan we stap voor stap enkele belangrijke voorbeelden bespreken om te laten zien hoe u Aspose.HTML voor .NET effectief kunt gebruiken.
 
 ## Navigeren door HTML
 
-In dit voorbeeld navigeren we door een HTML-document en krijgen we stap voor stap toegang tot de elementen ervan.
+In dit voorbeeld navigeren we door een HTML-document en openen we stap voor stap de elementen ervan.
 
 ```csharp
 public static void NavigateThroughHTML()
 {
-    // Bereid een HTML-code voor
+    // Maak een HTML-code
     var html_code = "<span>Hello</span> <span>World!</span>";
     
     // Initialiseer een document vanuit de voorbereide code
     using (var document = new HTMLDocument(html_code, "."))
     {
-        // Verkrijg de verwijzing naar het eerste kind (eerste SPAN) van het LICHAAM
+        // Verkrijg de referentie naar het eerste kind (eerste SPAN) van het BODY
         var element = document.Body.FirstChild;
-        Console.WriteLine(element.TextContent); // Uitgang: Hallo
+        Console.WriteLine(element.TextContent); // Uitvoer: Hallo
 
-        // Haal de verwijzing naar de witruimte tussen HTML-elementen op
+        // Verwijzing naar de witruimte tussen HTML-elementen ophalen
         element = element.NextSibling;
-        Console.WriteLine(element.TextContent); // Uitvoer: ''
+        Console.WriteLine(element.TextContent); // Uitvoer: ' '
 
-        // Haal de verwijzing naar het tweede SPAN-element op
+        // Verwijzing naar het tweede SPAN-element ophalen
         element = element.NextSibling;
-        Console.WriteLine(element.TextContent); // Uitgang: Wereld!
+        Console.WriteLine(element.TextContent); // Uitvoer: Wereld!
     }
 }
 ```
 
- In dit voorbeeld maken we een HTML-document, openen het eerste onderliggende document (a`SPAN` element), de witruimte tussen elementen, en de tweede`SPAN` element, dat de basisnavigatie demonstreert.
+ In dit voorbeeld maken we een HTML-document, openen we het eerste kind (een`SPAN` element), de witruimte tussen elementen en de tweede`SPAN` element, dat de basisnavigatie demonstreert.
 
-## Knooppuntfilters gebruiken
+## Nodefilters gebruiken
 
-Met knooppuntfilters kunt u selectief specifieke elementen binnen een HTML-document verwerken.
+Met knooppuntfilters kunt u specifieke elementen binnen een HTML-document selectief verwerken.
 
 ```csharp
 public static void NodeFilterUsageExample()
 {
-    // Bereid een HTML-code voor
+    // Maak een HTML-code
     var code = @"
         <p>Hello</p>
         <img src='image1.png'>
@@ -87,15 +87,15 @@ public static void NodeFilterUsageExample()
             {
                 var image = (HTMLImageElement)iterator.CurrentNode;
                 Console.WriteLine(image.Src);
-                // Uitvoer: afbeelding1.png
-                // Uitvoer: afbeelding2.png
+                // Uitvoer: image1.png
+                // Uitvoer: image2.png
             }
         }
     }
 }
 ```
 
- Dit voorbeeld laat zien hoe u een aangepast knooppuntfilter gebruikt om specifieke elementen te extraheren (in dit geval:`IMG` elementen) uit het HTML-document.
+ Dit voorbeeld laat zien hoe u een aangepast knooppuntfilter kunt gebruiken om specifieke elementen te extraheren (in dit geval`IMG` elementen) uit het HTML-document.
 
 ## XPath-query's
 
@@ -104,7 +104,7 @@ Met XPath-query's kunt u op basis van specifieke criteria naar elementen in een 
 ```csharp
 public static void XPathQueryUsageExample()
 {
-    // Bereid een HTML-code voor
+    // Maak een HTML-code
     var code = @"
         <div class='happy'>
             <div>
@@ -120,7 +120,7 @@ public static void XPathQueryUsageExample()
     using (var document = new HTMLDocument(code, "."))
     {
         // Evalueer een XPath-expressie om specifieke elementen te selecteren
-        var result = document.Evaluate("//*[@class='gelukkig']//span",
+        var result = document.Evaluate("//*[@class='happy']//span",
                                         document,
                                         null,
                                         XPathResultType.Any,
@@ -130,23 +130,23 @@ public static void XPathQueryUsageExample()
         for (Node node; (node = result.IterateNext()) != null;)
         {
             Console.WriteLine(node.TextContent);
-            // Uitgang: Hallo
-            // Uitgang: Wereld!
+            // Uitvoer: Hallo
+            // Uitvoer: Wereld!
         }
     }
 }
 ```
 
-Dit voorbeeld toont het gebruik van XPath-query's om elementen in het HTML-document te lokaliseren op basis van hun attributen en structuur.
+Dit voorbeeld laat zien hoe XPath-query's worden gebruikt om elementen in het HTML-document te vinden op basis van hun kenmerken en structuur.
 
-## CSS-kiezers
+## CSS-selectoren
 
-CSS-selectors bieden een alternatieve manier om elementen in een HTML-document te selecteren, vergelijkbaar met de manier waarop CSS-stylesheets elementen targeten.
+CSS-selectors bieden een alternatieve manier om elementen in een HTML-document te selecteren, vergelijkbaar met de manier waarop CSS-stijlbladen elementen selecteren.
 
 ```csharp
 public static void CSSSelectorUsageExample()
 {
-    // Bereid een HTML-code voor
+    // Maak een HTML-code
     var code = @"
         <div class='happy'>
             <div>
@@ -168,8 +168,8 @@ public static void CSSSelectorUsageExample()
         foreach (HTMLElement element in elements)
         {
             Console.WriteLine(element.InnerHTML);
-            // Uitgang: Hallo
-            // Uitgang: Wereld!
+            // Uitvoer: Hallo
+            // Uitvoer: Wereld!
         }
     }
 }
@@ -177,30 +177,30 @@ public static void CSSSelectorUsageExample()
 
 Hier laten we zien hoe u CSS-selectors kunt gebruiken om specifieke elementen in het HTML-document te targeten.
 
-Met deze voorbeelden heeft u een fundamenteel inzicht gekregen in hoe u met Aspose.HTML voor .NET kunt navigeren, filteren, opvragen en selecteren van elementen in HTML-documenten.
+Met deze voorbeelden hebt u een basiskennis gekregen over hoe u met Aspose.HTML voor .NET door elementen in HTML-documenten kunt navigeren, deze kunt filteren, opvragen en selecteren.
 
 ## Conclusie
 
- Aspose.HTML voor .NET is een veelzijdige bibliotheek waarmee .NET-ontwikkelaars efficiënt met HTML-documenten kunnen werken. Met de krachtige functies voor navigatie, filteren, opvragen en selecteren van elementen kunt u verschillende HTML-verwerkingstaken naadloos afhandelen. Door deze tutorial te volgen en de documentatie te verkennen op[Aspose.HTML voor .NET-documentatie](https://reference.aspose.com/html/net/), kunt u het volledige potentieel van deze tool voor uw .NET-applicaties benutten.
+ Aspose.HTML voor .NET is een veelzijdige bibliotheek die .NET-ontwikkelaars in staat stelt om efficiënt met HTML-documenten te werken. Met de krachtige functies voor navigatie, filteren, query's en het selecteren van elementen kunt u verschillende HTML-verwerkingstaken naadloos afhandelen. Door deze tutorial te volgen en de documentatie op[Aspose.HTML voor .NET-documentatie](https://reference.aspose.com/html/net/)kunt u het volledige potentieel van deze tool voor uw .NET-toepassingen benutten.
 
 ## Veelgestelde vragen
 
-### Q1. Is Aspose.HTML voor .NET gratis te gebruiken?
+### V1. Is Aspose.HTML voor .NET gratis te gebruiken?
 
-A1: Aspose.HTML voor .NET biedt een gratis proefversie, maar voor productiegebruik moet u een licentie aanschaffen. Licentiegegevens en -opties vindt u op[Aspose.HTML-aankoop](https://purchase.aspose.com/buy).
+A1: Aspose.HTML voor .NET biedt een gratis proefversie, maar voor productiegebruik moet u een licentie aanschaffen. U kunt licentiedetails en -opties vinden op[Aspose.HTML Aankoop](https://purchase.aspose.com/buy).
 
-### Vraag 2. Hoe kan ik een tijdelijke licentie krijgen voor Aspose.HTML voor .NET?
+### Vraag 2. Hoe kan ik een tijdelijke licentie voor Aspose.HTML voor .NET krijgen?
 
  A2: U kunt een tijdelijke licentie voor testdoeleinden verkrijgen bij[Aspose.HTML Tijdelijke licentie](https://purchase.aspose.com/temporary-license/).
 
-### Q3. Waar kan ik hulp of ondersteuning zoeken voor Aspose.HTML voor .NET?
+### Vraag 3. Waar kan ik hulp of ondersteuning krijgen voor Aspose.HTML voor .NET?
 
- A3: Als u problemen ondervindt of vragen heeft, kunt u terecht bij de[Aspose.HTML-forum](https://forum.aspose.com/) voor hulp en gemeenschapsondersteuning.
+ A3: Als u problemen ondervindt of vragen heeft, kunt u terecht op de[Aspose.HTML-forum](https://forum.aspose.com/) voor hulp en ondersteuning van de gemeenschap.
 
-### Q4. Zijn er aanvullende bronnen voor het leren van Aspose.HTML voor .NET?
+### Vraag 4. Zijn er aanvullende bronnen om Aspose.HTML voor .NET te leren?
 
- A4: Naast deze zelfstudie kunt u meer zelfstudies en documentatie verkennen over de[Aspose.HTML voor .NET-documentatiepagina](https://reference.aspose.com/html/net/).
+ A4: Naast deze tutorial kunt u meer tutorials en documentatie over de[Aspose.HTML voor .NET documentatiepagina](https://reference.aspose.com/html/net/).
 
-### Vraag 5. Is Aspose.HTML voor .NET compatibel met de nieuwste .NET-versies?
+### V5. Is Aspose.HTML voor .NET compatibel met de nieuwste .NET-versies?
 
 A5: Aspose.HTML voor .NET wordt regelmatig bijgewerkt om compatibiliteit met de nieuwste .NET-versies en -technologieën te garanderen.

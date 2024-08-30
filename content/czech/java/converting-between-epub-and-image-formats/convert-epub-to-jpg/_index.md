@@ -14,7 +14,7 @@ V tomto tutoriálu krok za krokem vás provedeme procesem převodu souboru EPUB 
 Než začneme, ujistěte se, že máte splněny následující předpoklady:
 
 1. Aspose.HTML pro Javu
- Budete muset mít nainstalovaný Aspose.HTML for Java. Můžete si jej stáhnout z webu[tady](https://releases.aspose.com/html/java/).
+ Budete muset mít nainstalovaný Aspose.HTML for Java. Můžete si jej stáhnout z webu[zde](https://releases.aspose.com/html/java/).
 
 2. Vývojové prostředí Java
 Ujistěte se, že máte v systému nainstalovanou Javu a nastavené vývojové prostředí.
@@ -66,16 +66,16 @@ Odpověď 1: Aspose.HTML for Java je knihovna Java pro práci s HTML a různými
 
 ### Q2: Kde si mohu stáhnout Aspose.HTML pro Java?
 
- A2: Aspose.HTML pro Java si můžete stáhnout z webu[tady](https://releases.aspose.com/html/java/).
+ A2: Aspose.HTML pro Java si můžete stáhnout z webu[zde](https://releases.aspose.com/html/java/).
 
 ### Q3: Je k dispozici bezplatná zkušební verze?
 
- A3: Ano, máte přístup k bezplatné zkušební verzi Aspose.HTML pro Java[tady](https://releases.aspose.com/).
+ A3: Ano, máte přístup k bezplatné zkušební verzi Aspose.HTML pro Java[zde](https://releases.aspose.com/).
 
 ### Q4: Jak získám podporu pro Aspose.HTML pro Java?
 
- Odpověď 4: Můžete získat podporu a pomoc od komunity Aspose tím, že navštívíte jejich[Fórum](https://forum.aspose.com/).
+ Odpověď 4: Můžete získat podporu a pomoc od komunity Aspose tím, že navštívíte jejich[forum](https://forum.aspose.com/).
 
 ### Q5: Mohu získat dočasnou licenci pro Aspose.HTML pro Java?
 
-A5: Ano, můžete získat dočasnou licenci od[tady](https://purchase.aspose.com/temporary-license/).
+A5: Ano, můžete získat dočasnou licenci od[zde](https://purchase.aspose.com/temporary-license/).

@@ -130,7 +130,7 @@ S1: Ja, du kan använda Aspose.HTML för Java för att interagera med HTML-formu
 
 ### F3: Kan jag prova Aspose.HTML för Java innan jag köper en licens?
 
- S3: Ja, du kan utforska en gratis testversion av Aspose.HTML för Java. Du kan ladda ner testversionen från[den här länken](https://releases.aspose.com/).
+ S3: Ja, du kan utforska en gratis testversion av Aspose.HTML för Java. Du kan ladda ner testversionen från[denna länk](https://releases.aspose.com/).
 
 ### F4: Var kan jag hitta ytterligare support och hjälp för Aspose.HTML för Java?
 

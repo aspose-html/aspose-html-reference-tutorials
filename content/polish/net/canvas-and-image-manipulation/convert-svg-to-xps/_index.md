@@ -1,30 +1,30 @@
 ---
-title: Konwertuj SVG na XPS w .NET za pomocą Aspose.HTML
-linktitle: Konwertuj SVG na XPS w .NET
+title: Konwertuj SVG do XPS w .NET za pomocą Aspose.HTML
+linktitle: Konwertuj SVG do XPS w .NET
 second_title: Aspose.HTML .NET API manipulacji HTML
-description: Dowiedz się, jak przekonwertować SVG na XPS przy użyciu Aspose.HTML dla .NET. Przyspiesz tworzenie stron internetowych dzięki tej potężnej bibliotece.
+description: Dowiedz się, jak przekonwertować SVG do XPS za pomocą Aspose.HTML dla .NET. Przyspiesz rozwój swoich stron internetowych dzięki tej potężnej bibliotece.
 type: docs
 weight: 13
 url: /pl/net/canvas-and-image-manipulation/convert-svg-to-xps/
 ---
 
-W stale zmieniającym się środowisku tworzenia stron internetowych i generowania treści zapotrzebowanie na wydajne narzędzia jest sprawą najwyższej wagi. Aspose.HTML dla .NET jest jednym z takich narzędzi, które pozwala programistom bezproblemowo pracować z dokumentami HTML i SVG. W tym samouczku przeprowadzimy Cię przez proces używania Aspose.HTML dla .NET do konwersji SVG na XPS, demonstrując łatwość i możliwości tej biblioteki.
+W ciągle zmieniającym się krajobrazie rozwoju sieci i generowania treści potrzeba wydajnych narzędzi jest najważniejsza. Aspose.HTML dla .NET to jedno z takich narzędzi, które pozwala deweloperom na bezproblemową pracę z dokumentami HTML i SVG. W tym samouczku przeprowadzimy Cię przez proces używania Aspose.HTML dla .NET do konwersji SVG na XPS, demonstrując łatwość i moc tej biblioteki.
 
-## Warunki wstępne
+## Wymagania wstępne
 
-Zanim przejdziesz do samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
+Zanim przejdziesz do samouczka, upewnij się, że spełnione są następujące wymagania wstępne:
 
-1. Visual Studio: Będziesz potrzebował Visual Studio lub innego środowiska programistycznego .NET zainstalowanego w swoim systemie.
+1. Visual Studio: Będziesz potrzebować programu Visual Studio lub innego środowiska programistycznego .NET zainstalowanego na swoim systemie.
 
-2.  Aspose.HTML dla .NET: Pobierz bibliotekę Aspose.HTML dla .NET ze strony internetowej. Możesz to znaleźć[Tutaj](https://releases.aspose.com/html/net/).
+2.  Aspose.HTML dla .NET: Pobierz bibliotekę Aspose.HTML dla .NET ze strony internetowej. Możesz ją znaleźć[Tutaj](https://releases.aspose.com/html/net/).
 
-3. Wejściowy dokument SVG: Przygotuj dokument SVG, który chcesz przekonwertować na format XPS. Upewnij się, że masz ten plik zapisany w swoim katalogu danych.
+3. Wprowadź dokument SVG: Przygotuj dokument SVG, który chcesz przekonwertować na XPS. Upewnij się, że masz ten plik zapisany w katalogu danych.
 
-Teraz zacznijmy od samouczka.
+Zacznijmy teraz samouczek.
 
 ## Importuj przestrzenie nazw
 
-W tej sekcji zaimportujemy niezbędne przestrzenie nazw i podzielimy każdy przykład na wiele kroków, szczegółowo wyjaśniając każdy krok.
+W tej sekcji zaimportujemy niezbędne przestrzenie nazw i podzielimy każdy przykład na kilka kroków, szczegółowo wyjaśniając każdy z nich.
 
 ## Krok 1: Zainicjuj katalog danych
 
@@ -32,7 +32,7 @@ W tej sekcji zaimportujemy niezbędne przestrzenie nazw i podzielimy każdy przy
 string dataDir = "Your Data Directory";
 ```
 
- W tym kroku inicjujemy plik`dataDir` zmienną ze ścieżką do katalogu danych. Powinieneś wymienić`"Your Data Directory"` z rzeczywistą ścieżką, w której znajduje się wejściowy dokument SVG.
+ W tym kroku inicjujemy`dataDir` zmienną ze ścieżką do katalogu danych. Powinieneś zastąpić`"Your Data Directory"` z rzeczywistą ścieżką, gdzie znajduje się Twój wejściowy dokument SVG.
 
 ## Krok 2: Załaduj dokument SVG
 
@@ -40,9 +40,9 @@ string dataDir = "Your Data Directory";
 SVGDocument svgDocument = new SVGDocument(dataDir + "input.svg");
 ```
 
- Tutaj tworzymy instancję`SVGDocument` i załaduj dokument SVG z określonej ścieżki pliku.
+Tutaj tworzymy instancję`SVGDocument` i załaduj dokument SVG ze wskazanej ścieżki dostępu.
 
-## Krok 3: Zainicjuj opcje XpsSave
+## Krok 3: Zainicjuj XpsSaveOptions
 
 ```csharp
 XpsSaveOptions options = new XpsSaveOptions()
@@ -51,50 +51,50 @@ XpsSaveOptions options = new XpsSaveOptions()
 };
 ```
 
- W tym kroku inicjujemy plik`XpsSaveOptions` i ustaw kolor tła na cyjan. Możesz dostosować tę opcję zgodnie ze swoimi wymaganiami.
+ W tym kroku inicjujemy`XpsSaveOptions` i ustaw kolor tła na cyjan. Możesz dostosować tę opcję zgodnie ze swoimi wymaganiami.
 
-## Krok 4: Zdefiniuj ścieżkę pliku wyjściowego
+## Krok 4: Zdefiniuj ścieżkę do pliku wyjściowego
 
 ```csharp
 string outputFile = dataDir + "SVGtoXPS_Output.xps";
 ```
 
-Podajemy ścieżkę do wyjściowego pliku XPS, który zostanie wygenerowany po konwersji.
+Podajemy ścieżkę do pliku wyjściowego XPS, który zostanie wygenerowany po konwersji.
 
-## Krok 5: Konwertuj SVG na XPS
+## Krok 5: Konwertuj SVG do XPS
 
 ```csharp
 Converter.ConvertSVG(svgDocument, options, outputFile);
 ```
 
- Na koniec używamy`Converter` class, aby przekonwertować dokument SVG na XPS przy użyciu dostarczonych opcji. Wynikowy plik XPS zostanie zapisany pod określoną ścieżką pliku wyjściowego.
+ Na koniec używamy`Converter` klasa do konwersji dokumentu SVG do XPS przy użyciu podanych opcji. Wynikowy plik XPS zostanie zapisany w określonej ścieżce pliku wyjściowego.
 
-Wykonując te kroki, możesz bezproblemowo przekonwertować SVG na XPS przy użyciu Aspose.HTML dla .NET.
+Postępując zgodnie z poniższymi krokami, możesz bezproblemowo przekonwertować SVG na XPS przy użyciu Aspose.HTML dla .NET.
 
 ## Wniosek
 
-Aspose.HTML dla .NET to potężna biblioteka, która upraszcza pracę z dokumentami HTML i SVG. W tym samouczku przeprowadziliśmy Cię przez proces konwersji formatu SVG na XPS. Importując niezbędne przestrzenie nazw i postępując zgodnie z instrukcjami, możesz wykorzystać tę bibliotekę do ulepszenia swoich projektów tworzenia stron internetowych.
+Aspose.HTML dla .NET to potężna biblioteka, która upraszcza pracę z dokumentami HTML i SVG. W tym samouczku przeprowadziliśmy Cię przez proces konwersji SVG na XPS. Importując niezbędne przestrzenie nazw i wykonując kroki, możesz wykorzystać tę bibliotekę do ulepszenia swoich projektów rozwoju sieci.
 
-Teraz masz narzędzia i wiedzę do wydajnej pracy z Aspose.HTML dla .NET. Zacznij więc odkrywać jego możliwości i odblokuj nowe możliwości w tworzeniu stron internetowych!
+Teraz masz narzędzia i wiedzę, aby wydajnie pracować z Aspose.HTML dla .NET. Więc zacznij odkrywać jego możliwości i odblokuj nowe możliwości w rozwoju sieci!
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
-### P1: Czy Aspose.HTML dla .NET jest odpowiedni dla początkujących?
+### P1: Czy Aspose.HTML dla .NET nadaje się dla początkujących?
 
-O1: Aspose.HTML dla .NET jest odpowiedni zarówno dla początkujących, jak i doświadczonych programistów. Zawiera obszerną dokumentację ułatwiającą rozpoczęcie pracy.
+A1: Aspose.HTML dla .NET jest odpowiedni zarówno dla początkujących, jak i doświadczonych programistów. Oferuje kompleksową dokumentację, która pomoże Ci zacząć.
 
-### P2: Czy mogę skorzystać z bezpłatnej wersji próbnej Aspose.HTML dla .NET?
+### P2: Czy mogę skorzystać z bezpłatnej wersji próbnej Aspose.HTML dla platformy .NET?
 
  A2: Tak, możesz uzyskać dostęp do bezpłatnej wersji próbnej Aspose.HTML dla .NET[Tutaj](https://releases.aspose.com/).
 
-### P3: Gdzie mogę znaleźć wsparcie dla Aspose.HTML dla .NET?
+### P3: Gdzie mogę znaleźć pomoc techniczną dotyczącą Aspose.HTML dla .NET?
 
- Odpowiedź 3: Możesz znaleźć wsparcie i zadawać pytania na stronie[Forum Aspose.HTML](https://forum.aspose.com/).
+ A3: Możesz znaleźć wsparcie i zadać pytania na[Forum Aspose.HTML](https://forum.aspose.com/).
 
-### P4: Czy dostępne są licencje tymczasowe?
+### P4: Czy są dostępne jakieś licencje tymczasowe?
 
- O4: Tak, można uzyskać tymczasowe licencje na Aspose.HTML dla .NET[Tutaj](https://purchase.aspose.com/temporary-license/).
+ A4: Tak, można uzyskać tymczasowe licencje na Aspose.HTML dla .NET[Tutaj](https://purchase.aspose.com/temporary-license/).
 
-### P5: Jakie są zalety konwersji SVG na XPS?
+### P5: Jakie są zalety konwersji SVG do XPS?
 
-O5: Konwersja SVG na XPS umożliwia tworzenie grafiki wektorowej, którą można łatwo przeglądać i drukować w różnych aplikacjach, co czyni ją cennym narzędziem do generowania dokumentów i zadań drukowania.
+A5: Konwersja SVG do XPS umożliwia tworzenie grafiki wektorowej, którą można łatwo przeglądać i drukować w różnych aplikacjach, co czyni ją cennym narzędziem przy tworzeniu i drukowaniu dokumentów.

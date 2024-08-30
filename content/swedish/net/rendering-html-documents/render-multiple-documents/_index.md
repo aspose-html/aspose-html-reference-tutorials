@@ -87,7 +87,7 @@ Aspose.HTML för .NET är ett .NET-bibliotek som gör det möjligt för utveckla
  Ja, du kan få tillgång till en gratis testversion av Aspose.HTML för .NET från[här](https://releases.aspose.com/).
 
 ### 4. Hur kan jag få en tillfällig licens för Aspose.HTML för .NET?
- För att få en tillfällig licens, besök[den här länken](https://purchase.aspose.com/temporary-license/).
+ För att få en tillfällig licens, besök[denna länk](https://purchase.aspose.com/temporary-license/).
 
 ### 5. Var kan jag få support för Aspose.HTML för .NET?
  Du kan hitta stöd och diskussioner i samhället på[Aspose.HTML forum](https://forum.aspose.com/).

@@ -2,7 +2,7 @@
 title: Převod HTML na GIF pomocí Aspose.HTML pro Javu
 linktitle: Převod HTML na GIF
 second_title: Java HTML zpracování s Aspose.HTML
-description: Snadno převeďte HTML na GIF pomocí Aspose.HTML pro Java. Vytvářejte úžasné obrázky z dokumentů HTML. Začněte hned!
+description: Snadno převeďte HTML na GIF pomocí Aspose.HTML pro Javu. Vytvářejte úžasné obrázky z dokumentů HTML. Začněte hned!
 type: docs
 weight: 11
 url: /cs/java/converting-html-to-various-image-formats/convert-html-to-gif/
@@ -14,7 +14,7 @@ digitálním věku je schopnost převádět HTML do různých formátů zásadn�
 
 Než začnete, ujistěte se, že máte splněny následující předpoklady:
 
-1. Knihovna Aspose.HTML for Java: Stáhněte a nainstalujte knihovnu Aspose.HTML for Java z[odkaz ke stažení](https://releases.aspose.com/html/java/) . Ujistěte se, že máte platnou licenci nebo použijte[dočasná licence](https://purchase.aspose.com/temporary-license/) V případě potřeby.
+1. Knihovna Aspose.HTML for Java: Stáhněte a nainstalujte knihovnu Aspose.HTML for Java z[odkaz ke stažení](https://releases.aspose.com/html/java/) . Ujistěte se, že máte platnou licenci nebo použijte[dočasná licence](https://purchase.aspose.com/temporary-license/) v případě potřeby.
 
 2. Vývojové prostředí Java: Ve vašem systému byste měli mít nastavené vývojové prostředí Java.
 
@@ -82,7 +82,7 @@ Převod HTML na GIF pomocí Aspose.HTML pro Java je jednoduchý proces a tato p�
    Aspose.HTML for Java je výkonná knihovna, která umožňuje vývojářům pracovat s dokumenty HTML, včetně převodu do různých formátů, jako jsou GIF, PDF a další.
 
 ### Potřebuji licenci pro Aspose.HTML pro Java?
- Ano, k použití Aspose.HTML for Java ve svých projektech potřebujete platnou licenci. Dočasnou licenci můžete získat od[tady](https://purchase.aspose.com/temporary-license/) pro testovací účely.
+ Ano, k použití Aspose.HTML for Java ve svých projektech potřebujete platnou licenci. Dočasnou licenci můžete získat od[zde](https://purchase.aspose.com/temporary-license/) pro testovací účely.
 
 ### Mohu převést složité HTML dokumenty na GIF pomocí Aspose.HTML for Java?
 Ano, Aspose.HTML for Java podporuje převod jednoduchých i složitých HTML dokumentů do formátu GIF.

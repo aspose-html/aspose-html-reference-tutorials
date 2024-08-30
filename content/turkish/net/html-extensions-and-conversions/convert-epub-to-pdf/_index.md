@@ -1,52 +1,52 @@
 ---
-title: Aspose.HTML ile EPUB'u .NET'te PDF'ye dönüştürün
-linktitle: .NET'te EPUB'u PDF'ye dönüştürün
+title: Aspose.HTML ile .NET'te EPUB'ı PDF'ye dönüştürün
+linktitle: .NET'te EPUB'ı PDF'ye dönüştürün
 second_title: Aspose.HTML .NET HTML işleme API'si
-description: Aspose.HTML for .NET'i kullanarak EPUB'u PDF'ye nasıl dönüştüreceğinizi öğrenin. Bu adım adım kılavuz, sorunsuz belge dönüştürme için özelleştirme seçeneklerini, SSS'leri ve daha fazlasını kapsar.
+description: Aspose.HTML for .NET kullanarak EPUB'u PDF'ye nasıl dönüştüreceğinizi öğrenin. Bu adım adım kılavuz, kusursuz belge dönüşümü için özelleştirme seçeneklerini, SSS'leri ve daha fazlasını kapsar.
 type: docs
 weight: 12
 url: /tr/net/html-extensions-and-conversions/convert-epub-to-pdf/
 ---
 
-Bu eğitimde, EPUB dosyalarını PDF'ye dönüştürmek için Aspose.HTML for .NET'in nasıl kullanılacağını inceleyeceğiz. Aspose.HTML, HTML ve EPUB belgeleriyle çalışmak için çeşitli işlevler sağlayan güçlü bir .NET kitaplığıdır. Önkoşulları ele alacağız, gerekli ad alanlarını içe aktaracağız ve birden fazla örneği inceleyerek her adımı ayrıntılı olarak açıklayacağız.
+Bu eğitimde, EPUB dosyalarını PDF'ye dönüştürmek için Aspose.HTML for .NET'in nasıl kullanılacağını inceleyeceğiz. Aspose.HTML, HTML ve EPUB belgeleriyle çalışmak için çeşitli işlevler sağlayan güçlü bir .NET kütüphanesidir. Ön koşulları ele alacağız, gerekli ad alanlarını içe aktaracağız ve her adımı ayrıntılı olarak açıklayarak birden fazla örneği parçalara ayıracağız.
 
-## Önkoşullar
+## Ön koşullar
 
-Başlamadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
+Başlamadan önce aşağıdaki ön koşulların mevcut olduğundan emin olun:
 
-1. Aspose.HTML for .NET: .NET projenizde Aspose.HTML for .NET'in kurulu olduğundan emin olun. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/html/net/).
+1. .NET için Aspose.HTML: .NET projenizde .NET için Aspose.HTML'nin yüklü olduğundan emin olun. Bunu şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/html/net/).
 
 2. Veri Dizininiz: EPUB dosyalarınızın saklandığı bir veri dizinine ihtiyacınız olacak.
 
-Şimdi Aspose.HTML for .NET kullanarak EPUB'u PDF'ye dönüştürmenin adım adım sürecine dalalım.
+Şimdi Aspose.HTML for .NET kullanarak EPUB'ı PDF'ye dönüştürme sürecine adım adım bakalım.
 
-## EPUB'u PDF'ye dönüştür
+## EPUB'ı PDF'ye dönüştür
 
-### 1. Adım: Projenizi Başlatın
+### Adım 1: Projenizi Başlatın
 
-Bir .NET projenizin kurulu olduğundan ve Aspose.HTML for .NET'in kurulu olduğundan emin olun.
+Bir .NET projenizin kurulu olduğundan ve .NET için Aspose.HTML'in yüklü olduğundan emin olun.
 
-### 2. Adım: Gerekli Ad Alanlarını İçe Aktarın
+### Adım 2: Gerekli Ad Alanlarını İçe Aktarın
 
-C# kod dosyanızda gerekli ad alanlarını içe aktarın:
+C# kod dosyanıza gerekli ad alanlarını içe aktarın:
 
 ```csharp
 using Aspose.Html.Saving;
 using Aspose.Html.Converters;
 ```
 
-### 3. Adım: EPUB Dosyasını açın
+### Adım 3: EPUB Dosyasını Açın
 
 ```csharp
 string dataDir = "Your Data Directory";
 using (var stream = System.IO.File.OpenRead(dataDir + "input.epub"))
 {
-    // Sonraki adıma devam et...
+    // Bir sonraki adıma geçin...
 }
 ```
 
 -  Yer değiştirmek`"Your Data Directory"` EPUB dosyanızın bulunduğu gerçek dizinle.
-- Bu kod EPUB dosyasını okumak için açar.
+- Bu kod EPUB dosyasını okumaya açar.
 
 ### Adım 4: PDF Seçeneklerini Ayarlayın ve Dönüştürmeyi Gerçekleştirin
 
@@ -55,17 +55,17 @@ var options = new PdfSaveOptions();
 Converter.ConvertEPUB(stream, options, "output.pdf");
 ```
 
--  Bir örneğini oluşturun`PdfSaveOptions` PDF dönüştürme ayarlarını belirtmek için.
--  Kullan`Converter.ConvertEPUB` Verilen seçeneklerle EPUB'u PDF'ye dönüştürme yöntemi.
-- Ortaya çıkan PDF'yi "output.pdf" olarak kaydedin.
+-  Bir örnek oluşturun`PdfSaveOptions` PDF dönüştürme ayarlarını belirtmek için.
+-  Kullanın`Converter.ConvertEPUB` Verilen seçeneklerle EPUB'ı PDF'e dönüştürme yöntemi.
+- Elde edilen PDF'i "output.pdf" olarak kaydedin.
 
 ## PDF Kaydetme Seçeneklerini Belirleyin
 
-### 1. Adım: Projenizi Başlatın
+### Adım 1: Projenizi Başlatın
 
-Bir .NET projenizin kurulu olduğundan ve Aspose.HTML for .NET'in kurulu olduğundan emin olun.
+Bir .NET projenizin kurulu olduğundan ve .NET için Aspose.HTML'in yüklü olduğundan emin olun.
 
-### 2. Adım: Gerekli Ad Alanlarını İçe Aktarın
+### Adım 2: Gerekli Ad Alanlarını İçe Aktarın
 
 Gerekli ad alanlarını C# kodunuza aktarın:
 
@@ -76,20 +76,20 @@ using Aspose.Html.IO;
 using Aspose.Html.Drawing;
 ```
 
-### 3. Adım: EPUB Dosyasını açın
+### Adım 3: EPUB Dosyasını Açın
 
 ```csharp
 string dataDir = "Your Data Directory";
 using (var stream = System.IO.File.OpenRead(dataDir + "input.epub"))
 {
-    // Sonraki adıma devam et...
+    // Bir sonraki adıma geçin...
 }
 ```
 
--  Yer değiştirmek`"Your Data Directory"` EPUB dosyanızın gerçek dizini ile.
-- Okumak için EPUB dosyasını açın.
+-  Yer değiştirmek`"Your Data Directory"` EPUB dosyanızın gerçek diziniyle.
+- EPUB dosyasını okumak için açın.
 
-### 4. Adım: PDF Seçeneklerini Özelleştirin
+### Adım 4: PDF Seçeneklerini Özelleştirin
 
 ```csharp
 var options = new PdfSaveOptions()
@@ -99,25 +99,25 @@ var options = new PdfSaveOptions()
 };
 ```
 
--  Bir örneğini oluşturun`PdfSaveOptions` ve ihtiyaçlarınıza göre özelleştirin.
-- Bu örnekte sayfa boyutunu 3000 piksel genişliğe ve 1000 piksel yüksekliğe, arka plan rengini ise Alice Mavisi olarak ayarladık.
+-  Bir örnek oluşturun`PdfSaveOptions` ve ihtiyaçlarınıza göre özelleştirebilirsiniz.
+- Bu örnekte sayfa boyutunu 3000 piksel genişliğe ve 1000 piksel yüksekliğe, arka plan rengini ise Alice Blue olarak ayarladık.
 
-### Adım 5: Dönüşümü Gerçekleştirin
+### Adım 5: Dönüştürmeyi Gerçekleştirin
 
 ```csharp
 Converter.ConvertEPUB(stream, options, "output.pdf");
 ```
 
--  Kullan`Converter.ConvertEPUB` EPUB'u özel seçeneklerle PDF'ye dönüştürme yöntemi.
-- Ortaya çıkan PDF'yi "output.pdf" olarak kaydedin.
+-  Kullanın`Converter.ConvertEPUB` EPUB'ı özel seçeneklerle PDF'e dönüştürme yöntemi.
+- Elde edilen PDF'i "output.pdf" olarak kaydedin.
 
-## Özel Akış Sağlayıcıyı Kullan
+## Özel Akış Sağlayıcısını Kullan
 
-### 1. Adım: Projenizi Başlatın
+### Adım 1: Projenizi Başlatın
 
-Bir .NET projesi oluşturun ve Aspose.HTML for .NET'i yükleyin.
+Bir .NET projesi kurun ve .NET için Aspose.HTML'i yükleyin.
 
-### 2. Adım: Gerekli Ad Alanlarını İçe Aktarın
+### Adım 2: Gerekli Ad Alanlarını İçe Aktarın
 
 C# kodunuzda gerekli ad alanlarını içe aktarın:
 
@@ -127,34 +127,34 @@ using Aspose.Html.Converters;
 using Aspose.Html.IO;
 ```
 
-### 3. Adım: EPUB Dosyasını açın
+### Adım 3: EPUB Dosyasını Açın
 
 ```csharp
 string dataDir = "Your Data Directory";
 using (var stream = System.IO.File.OpenRead(dataDir + "input.epub"))
 {
-    // Sonraki adıma devam et...
+    // Bir sonraki adıma geçin...
 }
 ```
 
--  Yer değiştirmek`"Your Data Directory"` EPUB dosyanızın gerçek dizini ile.
-- Okumak için EPUB dosyasını açın.
+-  Yer değiştirmek`"Your Data Directory"` EPUB dosyanızın gerçek diziniyle.
+- EPUB dosyasını okumak için açın.
 
-### 4. Adım: Özel Akış Sağlayıcısı Kullanın
+### Adım 4: Özel Bir Akış Sağlayıcısı Kullanın
 
 ```csharp
 using (var streamProvider = new MemoryStreamProvider())
 {
     Converter.ConvertEPUB(stream, new PdfSaveOptions(), streamProvider);
 
-    // Sonraki adıma devam et...
+    // Bir sonraki adıma geçin...
 }
 ```
 
--  Oluşturmak`MemoryStreamProvider` Dönüşüm sonucunu bir bellek akışı olarak yönetmek için.
--  Kullan`Converter.ConvertEPUB` özel akış sağlayıcısıyla yöntem.
+-  Bir tane oluştur`MemoryStreamProvider` dönüştürme sonucunu bir bellek akışı olarak yönetmek için.
+-  Kullanın`Converter.ConvertEPUB` özel akış sağlayıcısı ile yöntem.
 
-### Adım 5: Sonucu Kaydet
+### Adım 5: Sonucu Kaydedin
 
 ```csharp
 var memory = streamProvider.Streams.First();
@@ -168,65 +168,65 @@ using (System.IO.FileStream fs = System.IO.File.Create("output.pdf"))
 
 - Dönüştürülen verileri içeren bellek akışına erişin.
 - Akış konumunu başlangıca ayarlayın.
-- Bir çıktı PDF dosyası oluşturun ve içeriği bellek akışından bu dosyaya kopyalayın.
+- Bir çıktı PDF dosyası oluşturun ve içeriği bellek akışından ona kopyalayın.
 
 ### Sınıf MemoryStreamProvider kaynak kodu. 
 
 ```csharp
 class MemoryStreamProvider : Aspose.Html.IO.ICreateStreamProvider
         {
-            // Belge oluşturma sırasında oluşturulan MemoryStream nesnelerinin listesi
+            // Belgenin işlenmesi sırasında oluşturulan MemoryStream nesnelerinin listesi
             public List<System.IO.MemoryStream> Streams { get; } = new List<System.IO.MemoryStream>();
             public System.IO.Stream GetStream(string name, string extension)
             {
-                // Bu yöntem, örneğin XPS, PDF veya TIFF formatları için yalnızca bir çıktı akışı gerektiğinde çağrılır.
+                // Bu yöntem, yalnızca bir çıktı akışı gerektiğinde, örneğin XPS, PDF veya TIFF formatları için çağrılır.
                 System.IO.MemoryStream result = new System.IO.MemoryStream();
                 Streams.Add(result);
                 return result;
             }
             public System.IO.Stream GetStream(string name, string extension, int page)
             {
-                // Bu yöntem, birden fazla çıktı akışının oluşturulması gerektiğinde çağrılır. Örneğin, HTML oluşturma sırasında görüntü dosyalarının (JPG, PNG, vb.)
+                // Bu yöntem, birden fazla çıktı akışının oluşturulması gerektiğinde çağrılır. Örneğin, HTML'yi görüntü dosyalarının (JPG, PNG, vb.) listesine dönüştürme sırasında
                 System.IO.MemoryStream result = new System.IO.MemoryStream();
                 Streams.Add(result);
                 return result;
             }
             public void ReleaseStream(System.IO.Stream stream)
             {
-                // Burada verilerle dolu akışı serbest bırakabilir ve örneğin sabit sürücüye aktarabilirsiniz.
+                // Burada, verilerle dolu akışı serbest bırakabilir ve örneğin onu sabit diske aktarabilirsiniz
             }
             public void Dispose()
             {
-                // Kaynakları serbest bırakma
+                // Kaynakları serbest bırakmak
                 foreach (var stream in Streams)
                     stream.Dispose();
             }
         }
 ```
-Artık çeşitli seçenekler ve özelleştirme olanaklarıyla Aspose.HTML for .NET kullanarak EPUB dosyalarını PDF'ye nasıl dönüştüreceğinizi öğrendiniz. Aspose.HTML süreci basitleştirerek belge dönüştürme işleminiz üzerinde esneklik ve kontrol sağlar.
+Artık, çeşitli seçenekler ve özelleştirme olanaklarıyla Aspose.HTML for .NET kullanarak EPUB dosyalarını PDF'ye nasıl dönüştüreceğinizi öğrendiniz. Aspose.HTML, belge dönüştürmeniz üzerinde esneklik ve kontrol sağlayarak süreci basitleştirir.
 
 ## Çözüm
 
-Aspose.HTML for .NET, EPUB dosyalarını PDF'ye dönüştürmek için kullanılan çok yönlü bir araçtır ve ortaya çıkan PDF belgesini ihtiyaçlarınıza göre uyarlamak için özelleştirme seçenekleri sunar. İster basit dönüşümlere ister gelişmiş özelleştirmeye ihtiyacınız olsun, Aspose.HTML ihtiyacınızı karşılar.
+Aspose.HTML for .NET, EPUB dosyalarını PDF'ye dönüştürmek için çok yönlü bir araçtır ve ortaya çıkan PDF belgesini ihtiyaçlarınıza göre uyarlamak için özelleştirme seçenekleri sunar. Basit dönüştürmeler veya gelişmiş özelleştirmeler gerektirse de, Aspose.HTML sizin için her şeyi yapar.
 
- Henüz yapmadıysanız Aspose.HTML for .NET'i şu adresten indirebilirsiniz:[İnternet sitesi](https://releases.aspose.com/html/net/) ve bugün .NET uygulamalarınızda kullanmaya başlayın.
+ Henüz yapmadıysanız, .NET için Aspose.HTML'yi şu adresten indirebilirsiniz:[web sitesi](https://releases.aspose.com/html/net/) ve bugün .NET uygulamalarınızda kullanmaya başlayın.
 
 ---
 
 ## SSS
 
-### Aspose.HTML for .NET'in kullanımı ücretsiz mi?
-    Aspose.HTML for .NET ticari bir üründür ancak ücretsiz deneme sürümü mevcuttur[Burada](https://releases.aspose.com/).
+### Aspose.HTML for .NET'i kullanmak ücretsiz mi?
+    Aspose.HTML for .NET ticari bir üründür, ancak ücretsiz deneme sürümü mevcuttur[Burada](https://releases.aspose.com/).
 
-### Dönüştürülen PDF'nin görünümünü özelleştirebilir miyim?
+### Dönüştürülen PDF'in görünümünü özelleştirebilir miyim?
    Evet, Örnek 2'de gösterildiği gibi sayfa boyutu ve arka plan rengi gibi seçenekleri ayarlayarak PDF görünümünü özelleştirebilirsiniz.
 
-### Aspose.HTML for .NET için nasıl destek alabilirim?
+### .NET için Aspose.HTML desteğini nasıl alabilirim?
     Destek ve kaynakları şu adreste bulabilirsiniz:[Aspose.HTML forumu](https://forum.aspose.com/).
 
 ### Aspose.HTML for .NET ile dönüştürebileceğim başka formatlar var mı?
-   Evet, Aspose.HTML for .NET, aralarında HTML, EPUB ve daha fazlasının da bulunduğu çeşitli belge formatlarını destekler.
+   Evet, Aspose.HTML for .NET HTML, EPUB ve daha fazlası dahil olmak üzere çeşitli belge biçimlerini destekler.
 
-### Aspose.HTML for ..NET büyük ölçekli belge dönüştürmeye uygun mu?
-   Aspose.HTML for .NET, büyük ölçekli belge dönüştürme işlemlerini verimli bir şekilde gerçekleştirecek şekilde tasarlanmıştır ve bu da onu çok çeşitli uygulamalar için uygun hale getirir.
+### Aspose.HTML for ..NET büyük ölçekli belge dönüştürme için uygun mudur?
+   .NET için Aspose.HTML, geniş ölçekli belge dönüşümlerini verimli bir şekilde gerçekleştirmek üzere tasarlanmıştır ve bu sayede çok çeşitli uygulamalar için uygundur.
 

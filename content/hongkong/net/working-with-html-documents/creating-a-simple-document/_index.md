@@ -78,7 +78,7 @@ if (document.CreateElement("img") is HTMLImageElement img)
 
 ### 第 4 步：新增有序列表
 
-接下來，我們將有序列表新增到文件中。我們創建一個`ol`元素並迭代以向其中添加列表項。
+接下來，我們將有序列表新增到文件中。我們創建一個`ol`元素並迭代以向其添加列表項。
 
 ```csharp
 var orderedListElement = document.CreateElement("ol") as HTMLOListElement;

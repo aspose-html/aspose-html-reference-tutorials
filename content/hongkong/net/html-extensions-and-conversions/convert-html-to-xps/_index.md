@@ -90,7 +90,7 @@ Converter.ConvertHTML(htmlDocument, options, outputFile);
 
 就是這樣！您已使用 Aspose.HTML for .NET 成功將 HTML 文件轉換為 XPS。
 
-總之，Aspose.HTML for .NET 對於處理 HTML 文件的開發人員來說是一個很有價值的工具。透過遵循先決條件和逐步指南，您可以將 Aspose.HTML 無縫整合到您的 .NET 專案中，並執行 HTML 到 XPS 轉換等任務。
+總之，Aspose.HTML for .NET 對於處理 HTML 文件的開發人員來說是一個很有價值的工具。透過遵循先決條件和逐步指南，您可以將 Aspose.HTML 無縫整合到 .NET 專案中，並執行 HTML 到 XPS 轉換等任務。
 
 現在，我們來解決一些常見問題。
 

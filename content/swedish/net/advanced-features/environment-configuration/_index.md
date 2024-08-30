@@ -8,7 +8,7 @@ weight: 10
 url: /sv/net/advanced-features/environment-configuration/
 ---
 
-dagens digitala värld är att skapa och manipulera HTML-dokument en grundläggande uppgift för många utvecklare. Oavsett om du bygger en webbapplikation eller behöver konvertera HTML till andra format som PDF eller bilder, är Aspose.HTML för .NET ett kraftfullt verktyg att ha i din verktygslåda. I den här handledningen kommer vi att utforska olika aspekter av Aspose.HTML för .NET, inklusive förutsättningar, import av namnutrymmen och steg-för-steg-exempel med detaljerade förklaringar.
+I dagens digitala värld är att skapa och manipulera HTML-dokument en grundläggande uppgift för många utvecklare. Oavsett om du bygger en webbapplikation eller behöver konvertera HTML till andra format som PDF eller bilder, är Aspose.HTML för .NET ett kraftfullt verktyg att ha i din verktygslåda. I den här handledningen kommer vi att utforska olika aspekter av Aspose.HTML för .NET, inklusive förutsättningar, import av namnutrymmen och steg-för-steg-exempel med detaljerade förklaringar.
 
 ## Förutsättningar
 
@@ -18,7 +18,7 @@ Innan vi börjar använda Aspose.HTML för .NET måste du se till att du har fö
 
 2.  Aspose.HTML for .NET: Du kan ladda ner Aspose.HTML for .NET-biblioteket från webbplatsen. Använd följande länk för att komma åt nedladdningssidan:[Ladda ner Aspose.HTML för .NET](https://releases.aspose.com/html/net/).
 
-3. Installation och licens: När du har laddat ner biblioteket, följ installationsinstruktionerna i dokumentationen. Du kan också behöva en giltig licens för att använda några av de avancerade funktionerna. Du kan få en licens från Asposes webbplats:[Köp Aspose.HTML-licens](https://purchase.aspose.com/buy).
+3.  Installation och licens: När du har laddat ner biblioteket, följ installationsinstruktionerna i dokumentationen. Du kan också behöva en giltig licens för att använda några av de avancerade funktionerna. Du kan få en licens från Asposes webbplats:[Köp Aspose.HTML-licens](https://purchase.aspose.com/buy).
 
 4.  Gratis provversion: Om du vill prova Aspose.HTML innan du köper en licens, kan du få en gratis testversion från denna länk:[Aspose.HTML gratis provperiod](https://releases.aspose.com/).
 
@@ -98,7 +98,7 @@ using (var configuration = new Aspose.Html.Configuration())
 }
 ```
 
- I det här exemplet har vi använt en anpassad stil på`<span>`element och ställer in dess textfärg till grön. Aspose.HTML för .NET låter dig manipulera stilar med lätthet.
+ I det här exemplet har vi använt en anpassad stil på`<span>` element och ställer in dess textfärg till grön. Aspose.HTML för .NET låter dig manipulera stilar med lätthet.
 
 ## JavaScript-exekveringstidsgräns
 
@@ -128,7 +128,7 @@ using (var configuration = new Aspose.Html.Configuration())
 }
 ```
 
-I det här exemplet har vi begränsat JavaScript-körningstiden till 10 sekunder, för att säkerställa att skriptet inte körs på obestämd tid, vilket potentiellt kan orsaka prestandaproblem.
+det här exemplet har vi begränsat JavaScript-körningstiden till 10 sekunder, för att säkerställa att skriptet inte körs på obestämd tid, vilket potentiellt kan orsaka prestandaproblem.
 
 ## Anpassad meddelandehanterare
 

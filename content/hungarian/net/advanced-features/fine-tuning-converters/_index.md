@@ -1,5 +1,5 @@
 ---
-title: .NET konvertereinek finomhangolása az Aspose.HTML-lel
+title: A .NET konvertereinek finomhangolása az Aspose.HTML-lel
 linktitle: Finomhangoló konverterek .NET-ben
 second_title: Aspose.HTML .NET HTML manipulációs API
 description: Ismerje meg, hogyan konvertálhat HTML-t PDF-be, XPS-be és képekké az Aspose.HTML for .NET segítségével. Lépésről lépésre bemutató oktatóprogram kódpéldákkal és GYIK-vel.
@@ -20,7 +20,7 @@ Mielőtt belemerülnénk a példákba, győződjön meg arról, hogy a következ
 
 -  Aspose.HTML for .NET: telepítenie kell az Aspose.HTML for .NET könyvtárat. Letöltheti a[letöltési link](https://releases.aspose.com/html/net/).
 
-- Ideiglenes licenc (opcionális): Ha nem rendelkezik érvényes engedéllyel, ideiglenes engedélyt szerezhet a következő címen:[itt](https://purchase.aspose.com/temporary-license/).
+-  Ideiglenes licenc (opcionális): Ha nem rendelkezik érvényes engedéllyel, ideiglenes engedélyt szerezhet a következő címen:[itt](https://purchase.aspose.com/temporary-license/).
 
 Most nézzünk meg néhány gyakori használati esetet az Aspose.HTML for .NET esetében.
 
@@ -184,7 +184,7 @@ document.RenderTo(device);
 
 Ez a példa azt szemlélteti, hogyan állíthatja be a felbontást a HTML PDF-formátumba való renderelésekor, figyelembe véve mind az alacsony, mind a nagy felbontású képernyőket.
 
-## Adja meg a háttérszínt
+## Adja meg a Háttér színét
 
 ### 1. lépés: Készítse elő a HTML-kódot, és mentse fájlba
 

@@ -24,7 +24,7 @@ Szüksége van egy működő .NET fejlesztői környezetre, beleértve a Visual 
 
 ### 2. Aspose.HTML for .NET
 
- Az Aspose.HTML for .NET-nek telepítve kell lennie. segítségével letöltheti a webhelyről[ez a link](https://releases.aspose.com/html/net/).
+ Az Aspose.HTML for .NET-nek telepítve kell lennie. segítségével letöltheti a webhelyről[ezt a linket](https://releases.aspose.com/html/net/).
 
 ### 3. HTML-dokumentum, amellyel dolgozni
 
@@ -96,10 +96,10 @@ Az Aspose.HTML for .NET egy olyan könyvtár, amely lehetővé teszi a .NET-fejl
  A dokumentációt megtalálod[itt](https://reference.aspose.com/html/net/).
 
 ### Az Aspose.HTML for .NET elérhető ingyenes próbaverzióra?
- Igen, ingyenes próbaverziót szerezhet be a webhelyről[ez a link](https://releases.aspose.com/).
+ Igen, ingyenes próbaverziót szerezhet be a webhelyről[ezt a linket](https://releases.aspose.com/).
 
 ### Hogyan szerezhetek ideiglenes licenceket az Aspose.HTML for .NET számára?
- Ideiglenes engedélyek a következőn keresztül érhetők el[ez a link](https://purchase.aspose.com/temporary-license/).
+ Ideiglenes engedélyek a következőn keresztül érhetők el[ezt a linket](https://purchase.aspose.com/temporary-license/).
 
 ### Hol kérhetek segítséget vagy támogatást az Aspose.HTML for .NET-hez?
  Látogassa meg az Aspose fórumait támogatásért és közösségi megbeszélésekért[itt](https://forum.aspose.com/).

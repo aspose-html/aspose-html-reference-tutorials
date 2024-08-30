@@ -7,7 +7,7 @@ type: docs
 weight: 12
 url: /cs/java/conversion-html-to-various-image-formats/convert-html-to-jpeg/
 ---
-## Úvod
+## Zavedení
 
 Ve světě vývoje webu a zpracování dokumentů je často potřeba převádět HTML dokumenty do různých formátů, jako jsou obrázky JPEG. Aspose.HTML for Java poskytuje robustní řešení pro tento úkol. V tomto obsáhlém tutoriálu vás provedeme procesem převodu HTML do JPEG pomocí Aspose.HTML for Java. 
 
@@ -17,7 +17,7 @@ Než se pustíme do podrobného průvodce, musíte se ujistit, že máte splněn
 
 1. Vývojové prostředí Java: Ujistěte se, že máte ve svém systému nastavené vývojové prostředí Java.
 
-2.  Aspose.HTML for Java: Stáhněte si a nainstalujte Aspose.HTML for Java z webové stránky. Odkaz ke stažení najdete[tady](https://releases.aspose.com/html/java/).
+2.  Aspose.HTML for Java: Stáhněte si a nainstalujte Aspose.HTML for Java z webové stránky. Odkaz ke stažení najdete[zde](https://releases.aspose.com/html/java/).
 
 3. Dokument HTML: Připravte dokument HTML, který chcete převést na obrázek JPEG.
 
@@ -36,7 +36,7 @@ import com.aspose.html.converters.Converter;
 
 S importovanými požadovanými balíčky jste připraveni zahájit proces převodu.
 
-## Zhroutit se
+## Zhroucení
 
 Nyní si rozdělíme příklad, který jste poskytli, do několika kroků, přičemž každý z nich podrobně vysvětlíme.
 
@@ -76,7 +76,7 @@ String outputFile = "HTMLtoJPEG_Output.jpeg";
 Converter.convertHTML(htmlDocument, options, outputFile);
 ```
 
-A to je vše! Úspěšně jste převedli dokument HTML na obrázek JPEG pomocí Aspose.HTML for Java.
+A je to! Úspěšně jste převedli dokument HTML na obrázek JPEG pomocí Aspose.HTML for Java.
 
 ## Závěr
 
@@ -86,15 +86,15 @@ V tomto tutoriálu jsme si ukázali, jak převést HTML do JPEG pomocí Aspose.H
 
 ### Q1: Je Aspose.HTML for Java bezplatný nástroj?
 
- A1: Ne, Aspose.HTML for Java je komerční produkt. Můžete najít informace o licencích a cenách[tady](https://purchase.aspose.com/buy).
+ A1: Ne, Aspose.HTML for Java je komerční produkt. Můžete najít informace o licencích a cenách[zde](https://purchase.aspose.com/buy).
 
 ### Q2: Mohu vyzkoušet Aspose.HTML pro Java před nákupem?
 
- A2: Ano, můžete si stáhnout bezplatnou zkušební verzi z[tady](https://releases.aspose.com/html/java).
+ A2: Ano, můžete si stáhnout bezplatnou zkušební verzi z[zde](https://releases.aspose.com/html/java).
 
 ### Q3: Jak mohu získat podporu pro Aspose.HTML pro Java?
 
-Odpověď 3: Podporu a interakci s komunitou můžete najít na fórech Aspose[tady](https://forum.aspose.com/).
+Odpověď 3: Podporu a interakci s komunitou můžete najít na fórech Aspose[zde](https://forum.aspose.com/).
 
 ### Q4: Na jaké další formáty dokumentů lze Aspose.HTML for Java převést?
 

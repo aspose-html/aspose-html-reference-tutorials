@@ -41,7 +41,7 @@ import java.io.FileInputStream;
 try (FileInputStream fileInputStream = new FileInputStream("path/to/your/input.epub")) {
 ```
 
-確保您更換`"path/to/your/input.epub"`與 EPUB 檔案的實際檔案路徑。
+確保更換`"path/to/your/input.epub"`與 EPUB 檔案的實際檔案路徑。
 
 ## 步驟2：初始化ImageSaveOptions
 

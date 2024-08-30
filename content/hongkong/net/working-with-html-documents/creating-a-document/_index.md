@@ -16,7 +16,7 @@ url: /zh-hant/net/working-with-html-documents/creating-a-document/
 
 1. Visual Studio：確保您的系統上安裝了 Visual Studio。
 
-2.  Aspose.HTML for .NET：下載並安裝 Aspose.HTML for .NET 函式庫。你可以找到下載鏈接[這裡](https://releases.aspose.com/html/net/).
+2. Aspose.HTML for .NET：下載並安裝 Aspose.HTML for .NET 函式庫。你可以找到下載鏈接[這裡](https://releases.aspose.com/html/net/).
 
 3. C# 基礎知識：熟悉 C# 程式語言基礎。
 
@@ -149,10 +149,10 @@ Aspose.HTML for .NET 提供了一組強大的工具，可在 .NET 應用程式�
  A1：Aspose.HTML for .NET 提供免費試用版，但要完全使用，您需要購買授權。您可以在以下位置找到更多詳細資訊：[https://purchase.aspose.com/buy](https://purchase.aspose.com/buy).
 
 ### 問題 2：如何取得 Aspose.HTML for .NET 的臨時授權？
-A2：如果您需要臨時許可證，您可以在[https://purchase.aspose.com/temporary-license/](https://purchase.aspose.com/temporary-license/).
+ A2：如果您需要臨時許可證，您可以在[https://purchase.aspose.com/temporary-license/](https://purchase.aspose.com/temporary-license/).
 
 ### 問題 3：在哪裡可以找到 Aspose.HTML for .NET 的文件？
- A3：文件可以在以下位置找到：[https://reference.aspose.com/html/net/](https://reference.aspose.com/html/net/).
+A3：文件可以在以下位置找到：[https://reference.aspose.com/html/net/](https://reference.aspose.com/html/net/).
 
 ### Q4：還有其他用於.NET 開發的Aspose 函式庫嗎？
  A4：是的，Aspose 為各種文件格式和文件操作任務提供了一系列函式庫。查看他們的產品[https://products.aspose.com/](https://products.aspose.com/).

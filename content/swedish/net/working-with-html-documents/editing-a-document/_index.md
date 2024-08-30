@@ -2,7 +2,7 @@
 title: Redigera ett dokument i .NET med Aspose.HTML
 linktitle: Redigera ett dokument i .NET
 second_title: Aspose.HTML .NET HTML manipulation API
-description: Lär dig hur du arbetar med HTML-dokument i .NET med Aspose.HTML. Denna omfattande handledning täcker dokumentskapande, manipulation och styling. Börja nu!
+description: Lär dig hur du arbetar med HTML-dokument i .NET med Aspose.HTML. Denna omfattande handledning täcker dokumentskapande, manipulation och styling. Kom igång nu!
 type: docs
 weight: 12
 url: /sv/net/working-with-html-documents/editing-a-document/
@@ -60,7 +60,7 @@ static void EditDocumentTree()
 
 2. Vi kommer åt dokumentets kroppselement.
 
-3. Därefter skapar vi ett HTML-styckeelement (`<p>` ) använder sig av`document.CreateElement("p")`.
+3. Därefter skapar vi ett HTML-styckeelement (`<p>` ) använder`document.CreateElement("p")`.
 
 4.  Vi anger ett anpassat attribut`id` för paragrafelementet.
 
@@ -94,7 +94,7 @@ static void EditDocumentTreeWithAppendRemoveChild()
 
 2. Vi kommer åt dokumentets kroppselement.
 
-3.  Använder sig av`body.GetElementsByTagName("div").First()` , hämtar vi den första`<div>` element i dokumentet.
+3.  Använder`body.GetElementsByTagName("div").First()` , hämtar vi den första`<div>` element i dokumentet.
 
 4.  Vi tar bort det valda`<div>` element från dokumentets huvuddel med hjälp av`body.RemoveChild(div)`.
 
@@ -124,7 +124,7 @@ static void EditHtml()
 
 2. Vi kommer åt dokumentets kroppselement.
 
-3.  Använder sig av`body.InnerHTML` , ställer vi in HTML-innehållet i kroppen till`<p>paragraph</p>`.
+3.  Använder`body.InnerHTML` , ställer vi in HTML-innehållet i kroppen till`<p>paragraph</p>`.
 
 4.  Vi hämtar det första underordnade elementet i kroppen med hjälp av`body.FirstChild`.
 
@@ -153,7 +153,7 @@ static void EditElementStyle()
 
 ### Förklaring:
 
-1.  Vi skapar ett HTML-dokument med inbäddad CSS som anger färgen på`<p>` element till rött.
+1.  Vi skapar ett HTML-dokument med inbäddad CSS som sätter färgen på`<p>` element till rött.
 
 2.  Vi hämtar`<p>` element använder`document.GetElementsByTagName("p")[0]`.
 
@@ -186,7 +186,7 @@ static void EditElementStyleUsingAttribute()
 
 ### Förklaring:
 
-1.  Vi skapar ett HTML-dokument med inbäddad CSS som anger färgen på`<p>` element till rött.
+1.  Vi skapar ett HTML-dokument med inbäddad CSS som sätter färgen på`<p>` element till rött.
 
 2.  Vi hämtar`<p>` element använder`document.GetElementsByTagName("p")[0]`.
 
@@ -220,7 +220,7 @@ Aspose.HTML for .NET är ett kraftfullt bibliotek för att arbeta med HTML-dokum
  Ja, du kan få en gratis provversion av Aspose.HTML från[här](https://releases.aspose.com/).
 
 ### Hur kan jag köpa en licens?
- För att köpa en licens, besök[den här länken](https://purchase.aspose.com/buy).
+ För att köpa en licens, besök[denna länk](https://purchase.aspose.com/buy).
 
 ### Behöver jag tidigare erfarenhet av HTML för att använda Aspose.HTML för .NET?
 Även om HTML-kunskap är användbart, kan du använda Aspose.HTML för .NET även om du inte är en HTML-expert.

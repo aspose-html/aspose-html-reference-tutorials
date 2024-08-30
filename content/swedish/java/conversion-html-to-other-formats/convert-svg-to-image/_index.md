@@ -9,7 +9,7 @@ url: /sv/java/conversion-html-to-other-formats/convert-svg-to-image/
 ---
 ## Introduktion
 
-Vill du konvertera Scalable Vector Graphics (SVG) till bildformat med Java? Aspose.HTML för Java är det perfekta verktyget för denna uppgift. I den här omfattande guiden går vi igenom processen steg för steg. Vi kommer att täcka förutsättningar, importera paket och dela upp varje exempel i flera steg. I slutet av denna handledning kan du enkelt konvertera SVG-filer till olika bildformat med Aspose.HTML. Låt oss börja!
+Vill du konvertera Scalable Vector Graphics (SVG) till bildformat med Java? Aspose.HTML för Java är det perfekta verktyget för denna uppgift. I den här omfattande guiden går vi igenom processen steg för steg. Vi kommer att täcka förutsättningar, importera paket och dela upp varje exempel i flera steg. I slutet av denna handledning kan du enkelt konvertera SVG-filer till olika bildformat med Aspose.HTML. Låt oss komma igång!
 
 ## Förutsättningar
 
@@ -33,13 +33,13 @@ import com.aspose.html.rendering.image.ImageFormat;
 import com.aspose.html.converters.Converter;
 ```
 
-## Bryta ner 
+## Sammanbrott 
 
 Låt oss nu dela upp exempelkoden i flera steg för en mer detaljerad förståelse:
 
 ### Steg 1: Ladda SVG-dokumentet
 
- Först måste du ladda SVG-dokumentet du vill konvertera till en Java`SVGDocument` objekt. Byta ut`"input.svg"` med sökvägen till din SVG-fil.
+ Först måste du ladda SVG-dokumentet du vill konvertera till en Java`SVGDocument` objekt. Ersätta`"input.svg"` med sökvägen till din SVG-fil.
 
 ```java
 SVGDocument svgDocument = new SVGDocument(Resources.input("input.svg"));
@@ -95,4 +95,4 @@ S3: Aspose.HTML erbjuder en gratis testversion, så att du kan utforska dess fun
 
 ### F5: Kan jag få en tillfällig licens för Aspose.HTML för Java?
 
- S5: Ja, du kan få en tillfällig licens för utvärdering eller testning från[den här länken](https://purchase.aspose.com/temporary-license/).
+ S5: Ja, du kan få en tillfällig licens för utvärdering eller testning från[denna länk](https://purchase.aspose.com/temporary-license/).

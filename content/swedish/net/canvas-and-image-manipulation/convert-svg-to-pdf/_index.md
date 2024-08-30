@@ -42,7 +42,7 @@ string dataDir = "Your Data Directory";
 
 ## Steg 2: Laddar SVG-dokumentet
 ```csharp
-// SVG-källdokument
+// Källa SVG-dokument
 SVGDocument svgDocument = new SVGDocument(dataDir + "input.svg");
 ```
 Den här koden skapar en instans av SVGDocument-klassen genom att ladda SVG-filen med namnet "input.svg" från den angivna datakatalogen.
@@ -87,7 +87,7 @@ S1: Aspose.HTML för .NET är ett kraftfullt bibliotek som gör det möjligt fö
 
 ### F2: Är Aspose.HTML för .NET gratis att använda?
 
- S2: Aspose.HTML för .NET erbjuder en gratis testversion, men för full funktionalitet och produktionsanvändning krävs en licens. Du kan få en[tillfällig licens](https://purchase.aspose.com/temporary-license/) för provning.
+ S2: Aspose.HTML för .NET erbjuder en gratis testversion, men för full funktionalitet och produktionsanvändning krävs en licens. Du kan få en[tillfällig licens](https://purchase.aspose.com/temporary-license/) för testning.
 
 ### F3: Kan jag anpassa PDF-konverteringsinställningarna?
 

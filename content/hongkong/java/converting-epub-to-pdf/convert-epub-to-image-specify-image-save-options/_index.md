@@ -85,7 +85,7 @@ Converter.convertEPUB(fileInputStream, options, Resources.output("output.jpg"));
 
 Aspose.HTML for Java 是一個多功能函式庫，使 Java 開發人員能夠輕鬆處理 HTML 文件並執行各種轉換。透過本逐步指南，您已經了解如何匯入套件以及如何將 EPUB 檔案轉換為映像。現在您可以在 Web 開發專案中探索更多功能並釋放 Aspose.HTML for Java 的全部潛力。
 
-有疑問或需要協助嗎？請隨時聯繫[Aspose.HTML 社區](https://forum.aspose.com/)為了支持。
+有疑問或需要協助嗎？請隨時聯繫[Aspose.HTML 社區](https://forum.aspose.com/)尋求支持。
 
 ## 常見問題 (FAQ)
 

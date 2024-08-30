@@ -70,7 +70,7 @@ using (var document = new Aspose.Html.HTMLDocument("<style>p { color: green; }</
 
 ### 步驟 3：將 HTML 文件渲染為 PNG
 
-最後，我們使用以下命令將 HTML 文件渲染為 PNG 圖像`HtmlRenderer`和`ImageDevice`。產生的 PNG 影像將保存在指定的位置`dataDir`.
+最後，我們使用以下命令將 HTML 文件渲染為 PNG 圖像`HtmlRenderer`和一個`ImageDevice`。產生的 PNG 影像將保存在指定的位置`dataDir`.
 
 ## 結論
 

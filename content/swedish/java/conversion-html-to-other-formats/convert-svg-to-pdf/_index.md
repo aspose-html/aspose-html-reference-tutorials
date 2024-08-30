@@ -54,7 +54,7 @@ options.setJpegQuality(100);
 
 ## Steg 3: Definiera utdatavägen
 
-Ange sökvägen för utdata-PDF-filen. Se till att utdatakatalogen är tillgänglig och att du har skrivbehörighet.
+Ange sökvägen för den utgående PDF-filen. Se till att utdatakatalogen är tillgänglig och att du har skrivbehörighet.
 
 ```java
 String outputFile = Resources.output("SVGtoPDF_Output.pdf");

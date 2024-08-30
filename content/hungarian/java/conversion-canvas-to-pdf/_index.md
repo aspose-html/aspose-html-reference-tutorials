@@ -14,7 +14,7 @@ Készen áll arra, hogy felfedezze a HTML Canvas PDF-re konvertálásának leny�
 
 Mielőtt belevágnánk az oktatóanyagba, beszéljük meg röviden, miért érdemes a HTML Canvast PDF-be konvertálni. A Canvas elem egy hatékony eszköz a weboldalak grafikáinak megjelenítésére, de amikor munkája megosztásáról vagy kinyomtatásáról van szó, a PDF-formátumok a legjobbak. Konzisztens, professzionális megjelenést és érzetet biztosítanak a különböző eszközökön és platformokon. A vászon PDF formátumba konvertálása biztosítja, hogy a műalkotások és a tervek kiváló minőségben megmaradjanak.
 
-## Elkezdeni
+## Kezdő lépések
 
 ### 1. Az Aspose.HTML for Java telepítése
 
@@ -26,7 +26,7 @@ Miután telepítette az Aspose.HTML for Java programot, ideje beállítani a fej
 
 ## Canvas konvertálása PDF-be
 
-A környezet beállítása után kezdjük el a Canvas PDF formátumba konvertálásának aprólékos dolgait. Az Aspose.HTML for Java biztosítja a szükséges eszközöket és módszereket ennek zökkenőmentes eléréséhez. Végigvezetjük a folyamaton, biztosítva, hogy megértse az egyes lépéseket, és magabiztosan alkalmazza azokat.
+környezet beállítása után kezdjük el a Canvas PDF formátumba konvertálásának aprólékos dolgait. Az Aspose.HTML for Java biztosítja a szükséges eszközöket és módszereket ennek zökkenőmentes eléréséhez. Végigvezetjük a folyamaton, biztosítva, hogy megértse az egyes lépéseket, és magabiztosan alkalmazza azokat.
 
 ## Következtetés
 

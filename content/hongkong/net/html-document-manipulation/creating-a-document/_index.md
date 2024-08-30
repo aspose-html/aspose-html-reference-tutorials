@@ -205,7 +205,7 @@ Console.ReadLine();
 
 ## 綜上所述
 
-在動態的 Web 開發世界中，擁有合適的工具至關重要。 Aspose.HTML for .NET 為您提供了高效能建立、操作和處理 HTML 和 SVG 文件的方法。這份全面的指南引導您了解了基本知識，確保您可以在專案中利用 Aspose.HTML for .NET 的強大功能。
+在動態的 Web 開發世界中，擁有合適的工具至關重要。 Aspose.HTML for .NET 為您提供了高效能建立、操作和處理 HTML 和 SVG 文件的方法。這份全面的指南向您介紹了基本知識，確保您可以在專案中利用 Aspose.HTML for .NET 的強大功能。
 
 ## 常見問題解答
 

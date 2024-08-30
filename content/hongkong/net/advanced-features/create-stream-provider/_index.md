@@ -17,7 +17,7 @@ Aspose.HTML for .NET 是一個多功能函式庫，可讓 .NET 開發人員輕�
 
 在深入學習本教程之前，請確保您具備以下先決條件：
 
-1. Visual Studio：要開始使用 Aspose.HTML for .NET，您需要在電腦上安裝 Visual Studio。你可以下載它[這裡](https://visualstudio.microsoft.com/).
+1.  Visual Studio：要開始使用 Aspose.HTML for .NET，您需要在電腦上安裝 Visual Studio。你可以下載它[這裡](https://visualstudio.microsoft.com/).
 
 2. Aspose.HTML for .NET 函式庫：下載並安裝 Aspose.HTML for .NET 函式庫。你可以從[這裡](https://releases.aspose.com/html/net/).
 
@@ -119,7 +119,7 @@ A1：Aspose.HTML for .NET 是一個功能強大的函式庫，允許 .NET 開發
 
 ### Q2。在哪裡可以下載 Aspose.HTML for .NET？
 
-A2：您可以從以下位置下載該庫：[這個連結](https://releases.aspose.com/html/net/).
+ A2：您可以從以下位置下載該庫：[這個連結](https://releases.aspose.com/html/net/).
 
 ### Q3。有免費試用嗎？
 

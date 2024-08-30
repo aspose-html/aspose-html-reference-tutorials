@@ -15,7 +15,7 @@ Než se pustíte do tohoto výukového programu, ujistěte se, že máte splněn
 
 - Vývojové prostředí Java: Ujistěte se, že máte v systému nainstalovanou Java JDK.
 
--  Aspose.HTML for Java Library: Stáhněte si a nainstalujte Aspose.HTML for Java z[tady](https://releases.aspose.com/html/java/).
+-  Aspose.HTML for Java Library: Stáhněte si a nainstalujte Aspose.HTML for Java z[zde](https://releases.aspose.com/html/java/).
 
 - IDE (Integrated Development Environment): Jakékoli Java IDE podle vašeho výběru, jako je Eclipse nebo IntelliJ IDEA.
 
@@ -88,13 +88,13 @@ try {
 }
 ```
 
-Gratulujeme! Úspěšně jste vytvořili dokument HTML s prvkem Canvas, nakreslili na něj pomocí JavaScriptu a převedli jej do PDF pomocí Aspose.HTML for Java.
+Gratuluji! Úspěšně jste vytvořili dokument HTML s prvkem Canvas, nakreslili na něj pomocí JavaScriptu a převedli jej do PDF pomocí Aspose.HTML for Java.
 
 ## Závěr
 
 Tento tutoriál vám poskytl podrobný návod, jak manipulovat s HTML5 Canvas pomocí JavaScriptu s Aspose.HTML for Java. S těmito dovednostmi můžete vytvářet dynamickou a interaktivní grafiku ve svých webových aplikacích. Experimentujte s různými tvary, barvami a animacemi, abyste své webové projekty dále vylepšili.
 
- Pokud máte nějaké dotazy nebo narazíte na nějaké problémy, neváhejte navštívit[Fórum Aspose.HTML](https://forum.aspose.com/) pro podporu.
+ Pokud máte nějaké dotazy nebo narazíte na nějaké problémy, neváhejte navštívit[Fórum Aspose.HTML](https://forum.aspose.com/) za podporu.
 
 ## FAQ
 
@@ -104,16 +104,16 @@ Odpověď 1: Aspose.HTML for Java je výkonná knihovna, která umožňuje vývo
 
 ### Q2: Mohu použít Aspose.HTML pro Java v komerčních projektech?
 
- A2: Ano, můžete použít Aspose.HTML pro Java v komerčních projektech. Informace o licencích naleznete na[nákupní stránku](https://purchase.aspose.com/buy).
+ A2: Ano, můžete použít Aspose.HTML pro Java v komerčních projektech. Informace o licencích naleznete na adrese[nákupní stránku](https://purchase.aspose.com/buy).
 
 ### Q3: Jsou k dispozici nějaké bezplatné zkušební verze?
 
-A3: Ano, máte přístup k bezplatné zkušební verzi Aspose.HTML pro Java z[tady](https://releases.aspose.com/).
+A3: Ano, máte přístup k bezplatné zkušební verzi Aspose.HTML pro Java z[zde](https://releases.aspose.com/).
 
 ### Q4: Jak mohu získat dočasnou licenci pro Aspose.HTML pro Java?
 
- A4: Můžete získat dočasnou licenci pro účely testování a hodnocení[tady](https://purchase.aspose.com/temporary-license/).
+ A4: Můžete získat dočasnou licenci pro účely testování a hodnocení[zde](https://purchase.aspose.com/temporary-license/).
 
 ### Q5: Kde najdu dokumentaci k Aspose.HTML pro Java?
 
- A5: Dokumentaci pro Aspose.HTML pro Java lze nalézt[tady](https://reference.aspose.com/html/java/).
+ A5: Dokumentaci pro Aspose.HTML pro Java lze nalézt[zde](https://reference.aspose.com/html/java/).

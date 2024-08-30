@@ -37,7 +37,7 @@ Az átalakítási folyamatot lépések sorozatára bontjuk az egyértelmű és s
 com.aspose.html.HTMLDocument document = new com.aspose.html.HTMLDocument(Resources.input("canvas.html"));
 ```
 
- Ebben a lépésben betöltjük a vászon elemet tartalmazó HTML dokumentumot. Cserélje ki`"canvas.html"` HTML-fájl tényleges elérési útjával.
+ Ebben a lépésben betöltjük a vászon elemet tartalmazó HTML dokumentumot. Cserélje ki`"canvas.html"` a HTML-fájl tényleges elérési útjával.
 
 ### 2. lépés: Hozzon létre HTML renderert
 
@@ -93,7 +93,7 @@ Az Aspose.HTML for Java hatékony és hatékony módot biztosít a HTML-tartalom
 
 ### 3. kérdés: Vannak-e licencelési lehetőségek az Aspose.HTML számára?
 
- 3. válasz: Igen, felfedezhet különböző engedélyezési lehetőségeket, beleértve a[ingyenes próbaverzió](https://releases.aspose.com/) és[ideiglenes engedélyek](https://purchase.aspose.com/temporary-license/)valamint licencek vásárlása kereskedelmi használatra.
+ 3. válasz: Igen, felfedezhet különböző engedélyezési lehetőségeket, beleértve a[ingyenes próbaverzió](https://releases.aspose.com/) és[ideiglenes engedélyek](https://purchase.aspose.com/temporary-license/), valamint licencek vásárlása kereskedelmi használatra.
 
 ### 4. kérdés: Testreszabhatom a PDF kimenetet az Aspose.HTML for Java használatával?
 

@@ -41,7 +41,7 @@ try (FileInputStream fileInputStream = new FileInputStream("input.epub")) {
 }
 ```
 
- Byta ut`"input.epub"` med den faktiska sökvägen till din EPUB-fil.
+ Ersätta`"input.epub"` med den faktiska sökvägen till din EPUB-fil.
 
 ## Steg 2: Initiera ImageSaveOptions
 

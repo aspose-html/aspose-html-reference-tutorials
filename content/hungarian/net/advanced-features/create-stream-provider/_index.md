@@ -17,7 +17,7 @@ Az Aspose.HTML for .NET egy sokoldalú könyvtár, amely lehetővé teszi a .NET
 
 Mielőtt belevágna az oktatóanyagba, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
 
-1. Visual Studio: Az Aspose.HTML for .NET használatához először telepítenie kell a Visual Studio programot a számítógépére. Letöltheti[itt](https://visualstudio.microsoft.com/).
+1.  Visual Studio: Az Aspose.HTML for .NET használatához először telepítenie kell a Visual Studio programot a számítógépére. Letöltheti[itt](https://visualstudio.microsoft.com/).
 
 2.  Aspose.HTML for .NET Library: Töltse le és telepítse az Aspose.HTML for .NET könyvtárat. től lehet kapni[itt](https://releases.aspose.com/html/net/).
 
@@ -27,7 +27,7 @@ Most, hogy készen vannak az előfeltételek, ássuk be ennek az oktatóanyagnak
 
 ## Névterek importálása
 
-A C# nyelvben a névterek elengedhetetlenek a könyvtárak rendszerezéséhez és eléréséhez. Az Aspose.HTML for .NET használatához importálnia kell a szükséges névtereket a kód elejére. Íme, hogyan kell csinálni:
+C# nyelvben a névterek elengedhetetlenek a könyvtárak rendszerezéséhez és eléréséhez. Az Aspose.HTML for .NET használatához importálnia kell a szükséges névtereket a kód elejére. Íme, hogyan kell csinálni:
 
 ```csharp
 using Aspose.Html;
@@ -51,7 +51,7 @@ Most bontsuk fel a megadott kódpéldát több lépésre, és magyarázzuk el r�
 string dataDir = "Your Data Directory";
 ```
 
-Ebben a lépésben definiál egy változót`dataDir` hogy megadja azt a könyvtárat, ahová a kimeneti fájl mentésre kerül. Ügyeljen arra, hogy cserélje ki`"Your Data Directory"` a kívánt könyvtár tényleges elérési útjával.
+ Ebben a lépésben definiál egy változót`dataDir` hogy megadja azt a könyvtárat, ahová a kimeneti fájl mentésre kerül. Ügyeljen arra, hogy cserélje ki`"Your Data Directory"` a kívánt könyvtár tényleges elérési útjával.
 
 ### 2. lépés: Hozzon létre egy egyéni StreamProvider-t
 
@@ -69,7 +69,7 @@ using (MemoryStreamProvider streamProvider = new MemoryStreamProvider())
 ```csharp
 using (HTMLDocument document = new HTMLDocument())
 {
-    // Itt található a HTML-dokumentumkezelés kódja
+    //Itt található a HTML-dokumentumkezelés kódja
 }
 ```
 
@@ -89,7 +89,7 @@ Ez a sor hozzáad egy egyszerű "Hello world!!!" szöveget a HTML dokumentumba. 
 Aspose.Html.Converters.Converter.ConvertHTML(document, new XpsSaveOptions(), streamProvider);
 ```
 
- Itt használja a`Converter` osztályt a HTML-dokumentum XPS formátumba konvertálásához. A`XpsSaveOptions()`beállításokat biztosít az átalakításhoz, és`streamProvider` kezeli a kimenetet.
+ Itt használja a`Converter` osztályt a HTML-dokumentum XPS formátumba konvertálásához. A`XpsSaveOptions()` beállításokat biztosít az átalakításhoz, és`streamProvider` kezeli a kimenetet.
 
 ### 6. lépés: Mentse el a kimenetet
 
@@ -119,7 +119,7 @@ Ebben az oktatóanyagban az Aspose.HTML .NET-hez használatának alapjait ismert
 
 ### Q2. Honnan tölthetem le az Aspose.HTML-t .NET-hez?
 
-2. válasz: A könyvtárat innen töltheti le[ez a link](https://releases.aspose.com/html/net/).
+ 2. válasz: A könyvtárat innen töltheti le[ezt a linket](https://releases.aspose.com/html/net/).
 
 ### Q3. Van ingyenes próbaverzió?
 
@@ -131,4 +131,4 @@ Ebben az oktatóanyagban az Aspose.HTML .NET-hez használatának alapjait ismert
 
 ### Q5. Hol kérhetek segítséget, vagy hol tudok megbeszélni az Aspose.HTML for .NET-hez kapcsolódó problémákat?
 
- 5. válasz: Támogatásért és megbeszélésekért felkeresheti az Aspose fórumait a címen[ez a link](https://forum.aspose.com/).
+ 5. válasz: Támogatásért és megbeszélésekért felkeresheti az Aspose fórumait a címen[ezt a linket](https://forum.aspose.com/).

@@ -16,7 +16,7 @@ Než se ponoříte do výukového programu, ujistěte se, že máte splněny ná
 
 1. Visual Studio: Budete potřebovat Visual Studio nebo jakékoli jiné vývojové prostředí .NET nainstalované ve vašem systému.
 
-2.  Aspose.HTML for .NET: Stáhněte si knihovnu Aspose.HTML for .NET z webu. Můžete to najít[tady](https://releases.aspose.com/html/net/).
+2.  Aspose.HTML for .NET: Stáhněte si knihovnu Aspose.HTML for .NET z webu. Můžete to najít[zde](https://releases.aspose.com/html/net/).
 
 3. Vstup dokumentu SVG: Připravte dokument SVG, který chcete převést na XPS. Ujistěte se, že máte tento soubor uložený ve svém datovém adresáři.
 
@@ -40,7 +40,7 @@ string dataDir = "Your Data Directory";
 SVGDocument svgDocument = new SVGDocument(dataDir + "input.svg");
 ```
 
- Zde vytvoříme instanci`SVGDocument` a načtěte dokument SVG ze zadané cesty k souboru.
+Zde vytvoříme instanci`SVGDocument` a načtěte dokument SVG ze zadané cesty k souboru.
 
 ## Krok 3: Inicializujte XpsSaveOptions
 
@@ -85,7 +85,7 @@ A1: Aspose.HTML for .NET je vhodný pro začátečníky i zkušené vývojáře.
 
 ### Q2: Mohu použít bezplatnou zkušební verzi Aspose.HTML pro .NET?
 
- A2: Ano, máte přístup k bezplatné zkušební verzi Aspose.HTML pro .NET[tady](https://releases.aspose.com/).
+ A2: Ano, máte přístup k bezplatné zkušební verzi Aspose.HTML pro .NET[zde](https://releases.aspose.com/).
 
 ### Q3: Kde najdu podporu pro Aspose.HTML pro .NET?
 
@@ -93,7 +93,7 @@ A1: Aspose.HTML for .NET je vhodný pro začátečníky i zkušené vývojáře.
 
 ### Q4: Jsou k dispozici nějaké dočasné licence?
 
- A4: Ano, dočasné licence pro Aspose.HTML pro .NET lze získat[tady](https://purchase.aspose.com/temporary-license/).
+ A4: Ano, dočasné licence pro Aspose.HTML pro .NET lze získat[zde](https://purchase.aspose.com/temporary-license/).
 
 ### Q5: Jaké jsou výhody převodu SVG na XPS?
 

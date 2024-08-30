@@ -15,11 +15,11 @@ Než se pustíme do procesu převodu, ujistěte se, že máte splněny následuj
 
 1. Vývojové prostředí Java
 
- Ujistěte se, že máte ve svém systému nastavené vývojové prostředí Java. Java si můžete stáhnout a nainstalovat z webu[tady](https://www.oracle.com/java/).
+ Ujistěte se, že máte ve svém systému nastavené vývojové prostředí Java. Java si můžete stáhnout a nainstalovat z webu[zde](https://www.oracle.com/java/).
 
 2. Aspose.HTML pro Javu
 
- Musíte mít nainstalovanou knihovnu Aspose.HTML for Java. Můžete si jej stáhnout z webu[tady](https://releases.aspose.com/html/java/).
+ Musíte mít nainstalovanou knihovnu Aspose.HTML for Java. Můžete si jej stáhnout z webu[zde](https://releases.aspose.com/html/java/).
 
 3. Dokument EPUB
 
@@ -69,7 +69,7 @@ String outputFile = "EPUBtoPDF_Output.pdf";
 Converter.convertEPUB(fileInputStream, options, outputFile);
 ```
 
-A je to! Úspěšně jste převedli dokument EPUB do PDF pomocí Aspose.HTML pro Java.
+To je vše! Úspěšně jste převedli dokument EPUB do PDF pomocí Aspose.HTML pro Java.
 
 ## Závěr
 
@@ -85,11 +85,11 @@ Odpověď 1: Aspose.HTML for Java je knihovna Java, která poskytuje širokou š
 
 ### Q2: Mohu použít Aspose.HTML pro Java ve svých komerčních projektech?
 
- Odpověď 2: Ano, Aspose.HTML for Java je k dispozici pro komerční použití. Můžete najít podrobnosti o licencích a možnosti nákupu[tady](https://purchase.aspose.com/buy).
+ Odpověď 2: Ano, Aspose.HTML for Java je k dispozici pro komerční použití. Můžete najít podrobnosti o licencích a možnosti nákupu[zde](https://purchase.aspose.com/buy).
 
 ### Q3: Je k dispozici bezplatná zkušební verze pro Aspose.HTML pro Java?
 
- A3: Ano, můžete vyzkoušet Aspose.HTML pro Javu s bezplatnou zkušební verzí. Získejte zkušební verzi[tady](https://releases.aspose.com/html/java).
+ A3: Ano, můžete vyzkoušet Aspose.HTML pro Javu s bezplatnou zkušební verzí. Získejte zkušební verzi[zde](https://releases.aspose.com/html/java).
 
 ### Q4: Jaké jsou systémové požadavky pro Aspose.HTML pro Java?
 

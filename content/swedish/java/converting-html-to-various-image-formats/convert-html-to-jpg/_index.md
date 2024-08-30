@@ -8,7 +8,7 @@ weight: 12
 url: /sv/java/converting-html-to-various-image-formats/convert-html-to-jpg/
 ---
 
-I den digitala tidsåldern är det ett vanligt behov att omvandla HTML-innehåll till olika format. Aspose.HTML för Java är ett kraftfullt bibliotek som förenklar processen att konvertera HTML till JPG. I den här omfattande guiden går vi igenom processen steg för steg. Du kommer att lära dig om förutsättningarna, hur du importerar paket och dela upp varje exempel i flera steg för att bemästra HTML till JPG-konvertering med Aspose.HTML för Java.
+den digitala tidsåldern är det ett vanligt behov att omvandla HTML-innehåll till olika format. Aspose.HTML för Java är ett kraftfullt bibliotek som förenklar processen att konvertera HTML till JPG. I den här omfattande guiden går vi igenom processen steg för steg. Du kommer att lära dig om förutsättningarna, hur du importerar paket och dela upp varje exempel i flera steg för att bemästra HTML till JPG-konvertering med Aspose.HTML för Java.
 
 ## Förutsättningar
 
@@ -67,7 +67,7 @@ Det sista steget är att konvertera HTML-dokumentet till en JPG-bild med de angi
 Converter.convertHTML(document, options, "output.jpg");
 ```
 
-## Städa
+## Rengöring
 
 Glöm inte att släppa resurserna när du är klar med konverteringen.
 
@@ -97,7 +97,7 @@ Aspose.HTML for Java är ett Java-bibliotek som låter utvecklare arbeta med HTM
  Ja, du kan få en gratis testversion av Aspose.HTML för Java från[här](https://releases.aspose.com/).
 
 ### Behöver jag en licens för kommersiellt bruk?
- Ja, för kommersiellt bruk kan du köpa en licens från[den här länken](https://purchase.aspose.com/buy).
+ Ja, för kommersiellt bruk kan du köpa en licens från[denna länk](https://purchase.aspose.com/buy).
 
 ### Hur kan jag få tillfälliga licenser?
-Om du behöver en tillfällig licens kan du få en från[den här länken](https://purchase.aspose.com/temporary-license/).
+Om du behöver en tillfällig licens kan du få en från[denna länk](https://purchase.aspose.com/temporary-license/).

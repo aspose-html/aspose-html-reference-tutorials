@@ -10,7 +10,7 @@ url: /cs/net/html-extensions-and-conversions/convert-html-to-jpeg/
 
 Ve světě webového vývoje je Aspose.HTML for .NET výkonný a všestranný nástroj, který umožňuje vývojářům snadno manipulovat s HTML dokumenty. Tento komplexní průvodce vás provede procesem importu jmenných prostorů a rozdělením příkladů do několika kroků pomocí Aspose.HTML for .NET. Ať už jste zkušený vývojář nebo nováček, tento tutoriál vám pomůže využít potenciál této knihovny.
 
-## Úvod
+## Zavedení
 
 Aspose.HTML for .NET je knihovna bohatá na funkce, která umožňuje vývojářům bezproblémově pracovat s dokumenty HTML. Pomocí této knihovny můžete provádět různé operace se soubory HTML, včetně převodu do různých formátů, manipulace s prvky dokumentu a dalších. V tomto podrobném průvodci se ponoříme do procesu převodu HTML na JPEG v prostředí .NET. Začněme!
 
@@ -19,10 +19,10 @@ Aspose.HTML for .NET je knihovna bohatá na funkce, která umožňuje vývojář
 Než se pustíte do výukového programu, je třeba zajistit několik předpokladů:
 
 ### 1. Visual Studio nainstalováno
- Ujistěte se, že máte v systému nainstalované Visual Studio. Můžete si jej stáhnout[tady](https://visualstudio.microsoft.com/downloads/).
+ Ujistěte se, že máte v systému nainstalované Visual Studio. Můžete si jej stáhnout[zde](https://visualstudio.microsoft.com/downloads/).
 
 ### 2. Aspose.HTML for .NET Library
- Měli byste mít knihovnu Aspose.HTML for .NET. Můžeš to dostat[tady](https://releases.aspose.com/html/net/).
+ Měli byste mít knihovnu Aspose.HTML for .NET. Můžete to získat[zde](https://releases.aspose.com/html/net/).
 
 ### 3. .NET Framework
 Ujistěte se, že máte nainstalované rozhraní .NET Framework. Aspose.HTML pro .NET vyžaduje rozhraní .NET Framework 2.0 nebo vyšší.
@@ -34,7 +34,7 @@ Nyní, když máte připravené předpoklady, začněme pracovat s Aspose.HTML p
 
 ## Import jmenného prostoru
 
-Chcete-li začít používat Aspose.HTML pro .NET, musíte importovat potřebné jmenné prostory. Následuj tyto kroky:
+Chcete-li začít používat Aspose.HTML pro .NET, musíte importovat potřebné jmenné prostory. Postupujte takto:
 
 ### Otevřete svůj projekt Visual Studio
 
@@ -105,18 +105,18 @@ Nyní je čas převést dokument HTML na obrázek JPEG.
 Converter.ConvertHTML(htmlDocument, options, outputFile);
 ```
 
-A to je vše! Úspěšně jste převedli dokument HTML na obrázek JPEG pomocí Aspose.HTML for .NET.
+A je to! Úspěšně jste převedli dokument HTML na obrázek JPEG pomocí Aspose.HTML for .NET.
 
 ## Závěr
 
 Aspose.HTML for .NET je cenným nástrojem pro vývojáře, který usnadňuje manipulaci a převod HTML. V této příručce jsme prošli procesem importu jmenných prostorů a převodu HTML na JPEG v prostředí .NET. S Aspose.HTML pro .NET máte možnost bez námahy zvládnout různé úkoly související s HTML.
 
- Pokud narazíte na nějaké problémy nebo máte dotazy, neváhejte požádat o podporu komunitu Aspose[tady](https://forum.aspose.com/).
+ Pokud narazíte na nějaké problémy nebo máte dotazy, neváhejte požádat o podporu komunitu Aspose[zde](https://forum.aspose.com/).
 
 ## Nejčastější dotazy
 
 ### Je Aspose.HTML pro .NET zdarma?
-    Aspose.HTML for .NET je placená knihovna, ale můžete ji prozkoumat pomocí bezplatné zkušební verze. Chcete-li zakoupit licenci, navštivte[tady](https://purchase.aspose.com/buy).
+    Aspose.HTML for .NET je placená knihovna, ale můžete ji prozkoumat pomocí bezplatné zkušební verze. Chcete-li zakoupit licenci, navštivte[zde](https://purchase.aspose.com/buy).
 
 ### Mohu použít Aspose.HTML pro .NET s .NET Core?
    Ano, Aspose.HTML for .NET je kompatibilní s .NET Core, takže jej můžete použít ve svých projektech .NET Core.

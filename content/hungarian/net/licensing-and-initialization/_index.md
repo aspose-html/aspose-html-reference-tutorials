@@ -36,6 +36,6 @@ Az Aspose.HTML for .NET nem csak egy eszköz; ez egy kreatív vászon webfejlesz
 
 ## Engedélyezési és inicializálási oktatóanyagok
 ### [Alkalmazza a mért licencet a .NET-ben az Aspose.HTML segítségével](./apply-metered-license/)
-Ismerje meg, hogyan alkalmazhat fizetős licencet az Aspose.HTML for .NET-ben. Hatékonyan kezelheti HTML-kezelési igényeit. Kezd el most!
+Ismerje meg, hogyan alkalmazhat fizetős licencet az Aspose.HTML for .NET-ben. Hatékonyan kezelheti HTML-kezelési igényeit. Kezdje el most!
 
 Összefoglalva, az Aspose.HTML for .NET licencelési és inicializálási oktatóanyagai átjárót jelentenek a gördülékenyebb és hatékonyabb webfejlesztési élményhez. Ha követi lépésről lépésre szóló útmutatásunkat, olyan készségekre lesz szüksége, amelyek szükségesek ahhoz, hogy kiaknázzák a nagy teljesítményű könyvtárban rejlő lehetőségeket. Szóval minek várni? Kezdje el utazását az Aspose.HTML for .NET világába még ma, és tárja ki könnyedén a webfejlesztés valódi lehetőségeit.

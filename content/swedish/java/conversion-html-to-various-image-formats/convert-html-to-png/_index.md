@@ -17,7 +17,7 @@ Innan du dyker in i HTML-till-PNG-konvertering med Aspose.HTML för Java, se til
 Se till att du har en Java-utvecklingsmiljö inställd på ditt system. Du kan ladda ner och installera Java Development Kit (JDK) från Oracles webbplats.
 
 2. Aspose.HTML för Java
- Du måste ha Aspose.HTML för Java installerat. Om du inte redan har gjort det kan du ladda ner biblioteket från Asposes webbplats med detta[Nedladdningslänk](https://releases.aspose.com/html/java/).
+ Du måste ha Aspose.HTML för Java installerat. Om du inte redan har gjort det kan du ladda ner biblioteket från Asposes webbplats med detta[Ladda ner länk](https://releases.aspose.com/html/java/).
 
 3. HTML-dokument
 Du behöver ett HTML-dokument som du vill konvertera till en PNG-bild. Se till att du har detta dokument redo för konvertering.

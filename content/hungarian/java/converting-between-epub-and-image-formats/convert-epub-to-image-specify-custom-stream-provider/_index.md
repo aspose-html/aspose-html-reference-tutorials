@@ -82,7 +82,7 @@ for (int i = 0; i < size; i++) {
 }
 ```
 
-És ez az! Sikeresen konvertált egy EPUB-fájlt képekké az Aspose.HTML for Java használatával.
+És ennyi! Sikeresen konvertált egy EPUB-fájlt képekké az Aspose.HTML for Java használatával.
 
 ## Következtetés
 

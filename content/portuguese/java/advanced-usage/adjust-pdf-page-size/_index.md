@@ -1,26 +1,26 @@
 ---
 title: Ajuste o tamanho da página PDF com Aspose.HTML para Java
-linktitle: Ajustando o tamanho da página PDF
-second_title: Processamento Java HTML com Aspose.HTML
-description: Aprenda como ajustar o tamanho da página PDF com Aspose.HTML para Java. Crie PDFs de alta qualidade a partir de HTML sem esforço. Controle as dimensões da página de forma eficaz.
+linktitle: Ajustando o tamanho da página do PDF
+second_title: Processamento HTML Java com Aspose.HTML
+description: Aprenda a ajustar o tamanho da página PDF com Aspose.HTML para Java. Crie PDFs de alta qualidade a partir de HTML sem esforço. Controle as dimensões da página de forma eficaz.
 type: docs
 weight: 15
 url: /pt/java/advanced-usage/adjust-pdf-page-size/
 ---
 
-Na era digital de hoje, a necessidade de gerar PDFs de alta qualidade a partir de conteúdo HTML está aumentando. Aspose.HTML for Java é uma biblioteca Java poderosa que permite converter documentos HTML para o formato PDF sem esforço. Neste tutorial, focaremos no ajuste do tamanho da página ao converter HTML em PDF usando Aspose.HTML para Java.
+Na era digital de hoje, a necessidade de gerar PDFs de alta qualidade a partir de conteúdo HTML está aumentando. Aspose.HTML para Java é uma poderosa biblioteca Java que permite converter documentos HTML para o formato PDF sem esforço. Neste tutorial, focaremos em ajustar o tamanho da página ao converter HTML para PDF usando Aspose.HTML para Java.
 
 ## Pré-requisitos
 
 Antes de começar, certifique-se de ter os seguintes pré-requisitos em vigor:
 
-- Ambiente de Desenvolvimento Java: Certifique-se de ter o Java Development Kit (JDK) instalado em seu sistema.
+- Ambiente de desenvolvimento Java: certifique-se de ter o Java Development Kit (JDK) instalado no seu sistema.
 -  Aspose.HTML para Java: Você precisa baixar e instalar o Aspose.HTML para Java do site[aqui](https://releases.aspose.com/html/java/).
-- Documento HTML: você deve ter um documento HTML pronto para conversão. Caso contrário, crie um ou use um arquivo HTML existente.
+- Documento HTML: Você deve ter um documento HTML pronto para conversão. Se não, crie um ou use um arquivo HTML existente.
 
-## Importar pacotes
+## Pacotes de importação
 
-Para começar, você precisa importar os pacotes necessários para trabalhar com Aspose.HTML for Java. O trecho de código a seguir demonstra como fazer isso:
+Para começar, você precisa importar os pacotes necessários para trabalhar com Aspose.HTML para Java. O seguinte trecho de código demonstra como fazer isso:
 
 ```java
 import com.aspose.html.HTMLDocument;
@@ -31,26 +31,26 @@ import com.aspose.html.drawing.Size;
 import com.aspose.html.rendering.PageSetup;
 ```
 
-Agora que você atendeu aos pré-requisitos e importou os pacotes necessários, vamos dividir o processo de ajuste do tamanho da página PDF em várias etapas:
+Agora que você tem os pré-requisitos definidos e importou os pacotes necessários, vamos dividir o processo de ajuste do tamanho da página do PDF em várias etapas:
 
 ## Etapa 1: Lendo conteúdo HTML
 
-Primeiro, você precisa ler o conteúdo HTML que deseja converter para PDF. Neste exemplo, leremos o HTML de um arquivo chamado “FirstFile.html”.
+Primeiro, você precisa ler o conteúdo HTML que deseja converter para PDF. Neste exemplo, leremos o HTML de um arquivo chamado "FirstFile.html".
 
 ```java
 try (java.io.FileInputStream fileInputStream = new java.io.FileInputStream(Resources.input("FirstFile.html"))) {
 ```
 
-## Etapa 2: escrever conteúdo HTML
+## Etapa 2: Escrevendo conteúdo HTML
 
-A seguir, você gravará o conteúdo HTML em um arquivo chamado “FirstFileOut.html”.
+Em seguida, você escreverá o conteúdo HTML em um arquivo chamado "FirstFileOut.html".
 
 ```java
 try (java.io.FileOutputStream fileOutputStream = new java.io.FileOutputStream(Resources.output("FirstFileOut.html"))) {
     byte[] bytes = new byte[fileInputStream.available()];
     fileInputStream.read(bytes);
     fileOutputStream.write(bytes);
-    // Adicione estilos ou conteúdo HTML personalizado aqui
+    // Adicione estilos ou conteúdo HTML personalizados aqui
     String style = "<style>\n" +
                    ".st\n" +
                    "{\n" +
@@ -67,13 +67,13 @@ try (java.io.FileOutputStream fileOutputStream = new java.io.FileOutputStream(Re
 }
 ```
 
-## Passo 3: Renderizando HTML para PDF
+## Etapa 3: Renderizando HTML para PDF
 
-Agora, você renderizará o conteúdo HTML em um arquivo PDF. Cobriremos dois cenários: um onde o tamanho da página não é ajustado à largura do conteúdo e outro onde é ajustado.
+Agora, você renderizará o conteúdo HTML para um arquivo PDF. Cobriremos dois cenários: um em que o tamanho da página não é ajustado à largura do conteúdo e outro em que é ajustado.
 
 ### Tamanho da página não ajustado
 
-Nesse cenário, o tamanho da página é definido com largura e altura fixas, o que pode cortar o conteúdo se exceder essas dimensões.
+Nesse cenário, o tamanho da página é definido como largura e altura fixas, o que pode cortar o conteúdo se ele exceder essas dimensões.
 
 ```java
 String pdf_output;
@@ -116,28 +116,28 @@ pdf_renderer.render(device, html_document);
 
 ## Conclusão
 
-Neste tutorial, exploramos como ajustar o tamanho da página PDF ao converter HTML em PDF usando Aspose.HTML para Java. Você aprendeu os pré-requisitos, importou os pacotes necessários e seguiu um guia passo a passo para realizar esta tarefa. Com Aspose.HTML for Java, você pode controlar facilmente o tamanho da página dos PDFs gerados, garantindo que seu conteúdo seja exibido conforme pretendido.
+Neste tutorial, exploramos como ajustar o tamanho da página PDF ao converter HTML para PDF usando Aspose.HTML para Java. Você aprendeu os pré-requisitos, importou os pacotes necessários e seguiu um guia passo a passo para realizar esta tarefa. Com Aspose.HTML para Java, você pode controlar facilmente o tamanho da página dos seus PDFs gerados, garantindo que seu conteúdo seja exibido conforme o esperado.
 
- Sinta-se à vontade para experimentar diferentes tamanhos e configurações de página para atender às suas necessidades específicas. Se você encontrar algum problema ou tiver mais dúvidas, não hesite em procurar ajuda do[Documentação Aspose.HTML para Java](https://reference.aspose.com/html/java/) ou o[Aspose fórum de suporte](https://forum.aspose.com/).
+ Sinta-se à vontade para experimentar diferentes tamanhos de página e configurações para atender às suas necessidades específicas. Se você encontrar algum problema ou tiver mais perguntas, não hesite em procurar assistência do[Aspose.HTML para documentação Java](https://reference.aspose.com/html/java/) ou o[Fórum de suporte Aspose](https://forum.aspose.com/).
 
 ## Perguntas frequentes
 
-### Q1: O que é Aspose.HTML para Java?
+### P1: O que é Aspose.HTML para Java?
 
-A1: Aspose.HTML for Java é uma biblioteca Java que permite trabalhar com documentos HTML, manipular, converter e renderizá-los em vários formatos, incluindo PDF.
+A1: Aspose.HTML para Java é uma biblioteca Java que permite trabalhar com documentos HTML, manipulá-los, convertê-los e renderizá-los em vários formatos, incluindo PDF.
 
-### Q2: Como posso ajustar o tamanho da página PDF ao converter HTML em PDF com Aspose.HTML para Java?
+### P2: Como posso ajustar o tamanho da página PDF ao converter HTML para PDF com Aspose.HTML para Java?
 
- A2: Você pode ajustar o tamanho da página PDF usando o`PageSetup` classe e definir o`AdjustToWidestPage` propriedade para`true` ou `false, dependendo de seus requisitos.
+ A2: Você pode ajustar o tamanho da página do PDF usando o`PageSetup` classe e configuração do`AdjustToWidestPage` propriedade para`true` ou `falso, dependendo de suas necessidades.
 
-### P3: Posso personalizar o estilo do conteúdo HTML antes de convertê-lo para PDF?
+### P3: Posso personalizar o estilo do conteúdo HTML antes de convertê-lo em PDF?
 
-A3: Sim, você pode personalizar o estilo adicionando elementos CSS e HTML ao seu conteúdo HTML antes de convertê-lo para PDF, conforme demonstrado no tutorial.
+R3: Sim, você pode personalizar o estilo adicionando elementos CSS e HTML ao seu conteúdo HTML antes de convertê-lo em PDF, conforme demonstrado no tutorial.
 
-### Q4: Onde posso encontrar a documentação do Aspose.HTML para Java?
+### P4: Onde posso encontrar a documentação do Aspose.HTML para Java?
 
- A4: Você pode consultar a documentação[aqui](https://reference.aspose.com/html/java/) para obter informações abrangentes e exemplos.
+ A4: Você pode consultar a documentação[aqui](https://reference.aspose.com/html/java/) para obter informações e exemplos abrangentes.
 
-### Q5: Existe uma avaliação gratuita disponível para Aspose.HTML para Java?
+### P5: Existe uma avaliação gratuita disponível do Aspose.HTML para Java?
 
- A5: Sim, você pode acessar uma avaliação gratuita do Aspose.HTML for Java em[esse link](https://releases.aspose.com/).
+ R5: Sim, você pode acessar uma avaliação gratuita do Aspose.HTML para Java em[este link](https://releases.aspose.com/).

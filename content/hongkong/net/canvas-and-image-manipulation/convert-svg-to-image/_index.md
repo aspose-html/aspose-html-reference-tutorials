@@ -18,7 +18,7 @@ url: /zh-hant/net/canvas-and-image-manipulation/convert-svg-to-image/
 
 2.  Aspose.HTML for .NET：從下列位置下載並安裝 Aspose.HTML for .NET[下載頁面](https://releases.aspose.com/html/net/).
 
-3. 您的 SVG 文件：確保您擁有要轉換為映像的 SVG 文件。您需要在程式碼中提供此文件的路徑。
+3. 您的 SVG 文件：確保您擁有要轉換為映像的 SVG 文件。您需要在程式碼中提供該檔案的路徑。
 
 ## 導入命名空間
 
@@ -77,7 +77,7 @@ Converter.ConvertSVG(svgDocument, options, outputFile);
 
 ## 結論
 
-Aspose.HTML for .NET 可讓開發人員將 SVG 文件無縫轉換為各種影像格式。具備正確的先決條件並清楚地了解該過程，您就可以有效地利用該庫的強大功能。本教學為您提供了開始 SVG 到圖像轉換之旅所需的步驟和指導。
+Aspose.HTML for .NET 可讓開發人員將 SVG 文件無縫轉換為各種影像格式。具備正確的先決條件並清楚地了解該過程，您就可以有效地利用該庫的強大功能。本教學為您提供了開始 SVG 到影像轉換之旅所需的步驟和指導。
 
 ## 常見問題解答
 

@@ -46,7 +46,7 @@ try (FileInputStream fileInputStream = new FileInputStream("input.epub")) {
 
 ### Steg 2: Initiera XpsSaveOptions
 
-Du måste ställa in XpsSaveOptions för konverteringen. Anpassa den enligt dina krav. Här är hur:
+Du måste ställa in XpsSaveOptions för konverteringen. Anpassa den enligt dina krav. Så här gör du:
 
 ```java
 XpsSaveOptions options = new XpsSaveOptions();

@@ -7,19 +7,19 @@ type: docs
 weight: 10
 url: /vi/java/conversion-epub-to-xps/convert-epub-to-xps/
 ---
-Trong hướng dẫn toàn diện này, chúng tôi sẽ hướng dẫn bạn quy trình chuyển đổi tài liệu EPUB sang định dạng XPS bằng Aspose.HTML cho Java. Tôi sẽ đảm bảo rằng bạn không chỉ học cách thực hiện nhiệm vụ này mà còn hiểu nó một cách thấu đáo. 
+Trong hướng dẫn toàn diện này, chúng tôi sẽ hướng dẫn bạn quy trình chuyển đổi tài liệu EPUB sang định dạng XPS bằng Aspose.HTML cho Java. Tôi sẽ đảm bảo rằng bạn không chỉ học cách thực hiện nhiệm vụ này mà còn hiểu rõ nó. 
 
 ## Điều kiện tiên quyết
 
-Trước khi chúng ta đi sâu vào quá trình chuyển đổi, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
+Trước khi bắt đầu quá trình chuyển đổi, hãy đảm bảo bạn đã đáp ứng đủ các điều kiện tiên quyết sau:
 
-- Môi trường phát triển Java: Bạn cần cài đặt Java trên hệ thống của mình để hoạt động với Aspose.HTML cho Java.
+- Môi trường phát triển Java: Bạn cần cài đặt Java trên hệ thống của mình để làm việc với Aspose.HTML cho Java.
 - Thư viện Aspose.HTML cho Java: Tải xuống và cài đặt thư viện Aspose.HTML cho Java từ trang web.
 - Tài liệu EPUB: Chuẩn bị tài liệu EPUB mà bạn muốn chuyển đổi sang XPS.
 
-## Gói nhập khẩu
+## Nhập gói
 
-Để bắt đầu, bạn cần nhập các gói cần thiết để sử dụng Aspose.HTML cho Java. Đây là cách bạn có thể làm điều đó:
+Để bắt đầu, bạn sẽ cần nhập các gói cần thiết để sử dụng Aspose.HTML cho Java. Sau đây là cách bạn có thể thực hiện:
 
 ```java
 import com.aspose.html.drawing.Color;
@@ -28,7 +28,7 @@ import com.aspose.html.converters.Converter;
 import java.io.FileInputStream;
 ```
 
-Bây giờ bạn đã nhập các gói thiết yếu, hãy chia quá trình chuyển đổi thành các bước đơn giản.
+Bây giờ bạn đã nhập các gói cần thiết, chúng ta hãy chia nhỏ quy trình chuyển đổi thành các bước đơn giản.
 
 ## Quá trình chuyển đổi
 
@@ -46,16 +46,16 @@ try (FileInputStream fileInputStream = new FileInputStream("input.epub")) {
 
 ### Bước 2: Khởi tạo XpsSaveOptions
 
-Bạn sẽ cần thiết lập XpsSaveOptions để chuyển đổi. Tùy chỉnh nó theo yêu cầu của bạn. Đây là cách thực hiện:
+Bạn sẽ cần thiết lập XpsSaveOptions để chuyển đổi. Tùy chỉnh theo yêu cầu của bạn. Sau đây là cách thực hiện:
 
 ```java
 XpsSaveOptions options = new XpsSaveOptions();
 options.setBackgroundColor(Color.getCyan());
 ```
 
-### Bước 3: Chỉ định đường dẫn tệp đầu ra
+### Bước 3: Chỉ định Đường dẫn Tệp Đầu ra
 
-Quyết định nơi bạn muốn lưu tệp XPS đã chuyển đổi. Cung cấp đường dẫn tệp như thế này:
+Quyết định nơi bạn muốn lưu tệp XPS đã chuyển đổi. Cung cấp đường dẫn tệp như sau:
 
 ```java
 String outputFile = "EPUBtoXPS_Output.xps";
@@ -69,31 +69,31 @@ Cuối cùng, chuyển đổi tài liệu EPUB sang định dạng XPS bằng m�
 Converter.convertEPUB(fileInputStream, options, outputFile);
 ```
 
-Bây giờ bạn đã chuyển đổi thành công tài liệu EPUB sang định dạng XPS, bạn có thể truy cập tệp XPS kết quả tại vị trí đã chỉ định.
+Bây giờ bạn đã chuyển đổi thành công tài liệu EPUB sang định dạng XPS, bạn có thể truy cập tệp XPS kết quả ở vị trí đã chỉ định.
 
 ## Phần kết luận
 
-Trong hướng dẫn này, bạn đã học cách chuyển đổi tài liệu EPUB sang định dạng XPS bằng Aspose.HTML cho Java. Bằng cách làm theo các bước đơn giản này, bạn có thể thực hiện chuyển đổi này một cách hiệu quả và tùy chỉnh nó cho phù hợp với nhu cầu của mình.
+Trong hướng dẫn này, bạn đã học cách chuyển đổi tài liệu EPUB sang định dạng XPS bằng Aspose.HTML cho Java. Bằng cách làm theo các bước đơn giản sau, bạn có thể thực hiện chuyển đổi này một cách hiệu quả và tùy chỉnh theo nhu cầu của mình.
 
- Nếu bạn gặp bất kỳ vấn đề gì hoặc cần hỗ trợ thêm, đừng ngần ngại tìm kiếm sự trợ giúp từ[Diễn đàn hỗ trợ Aspose.HTML](https://forum.aspose.com/).
+ Nếu bạn gặp bất kỳ vấn đề nào hoặc cần hỗ trợ thêm, đừng ngần ngại tìm kiếm sự trợ giúp từ[Diễn đàn hỗ trợ Aspose.HTML](https://forum.aspose.com/).
 
 ## Câu hỏi thường gặp
 
 ### Câu hỏi 1: Aspose.HTML dành cho Java là gì?
 
-Câu trả lời 1: Aspose.HTML cho Java là một thư viện mạnh mẽ cho phép các nhà phát triển thao tác và chuyển đổi tài liệu HTML và EPUB bằng Java.
+A1: Aspose.HTML for Java là một thư viện mạnh mẽ cho phép các nhà phát triển thao tác và chuyển đổi các tài liệu HTML và EPUB bằng Java.
 
-### Câu hỏi 2: Aspose.HTML cho Java có được sử dụng miễn phí không?
+### Câu hỏi 2: Aspose.HTML cho Java có miễn phí không?
 
- Câu trả lời 2: Aspose.HTML cho Java là một thư viện thương mại, nhưng bạn có thể khám phá chức năng của nó bằng cách sử dụng một[dùng thử miễn phí](https://releases.aspose.com/).
+ A2: Aspose.HTML cho Java là một thư viện thương mại, nhưng bạn có thể khám phá chức năng của nó bằng cách sử dụng[dùng thử miễn phí](https://releases.aspose.com/).
 
-### Câu hỏi 3: Tôi có thể tùy chỉnh đầu ra XPS với các màu khác nhau không?
+### Câu hỏi 3: Tôi có thể tùy chỉnh đầu ra XPS bằng nhiều màu sắc khác nhau không?
 
-Câu trả lời 3: Có, bạn có thể tùy chỉnh đầu ra XPS bằng cách sửa đổi XpsSaveOptions, bao gồm cả màu nền, như được hiển thị trong hướng dẫn.
+A3: Có, bạn có thể tùy chỉnh đầu ra XPS bằng cách sửa đổi XpsSaveOptions, bao gồm cả màu nền, như được hiển thị trong hướng dẫn.
 
-### Câu hỏi 4: Aspose.HTML dành cho Java có tương thích với nhiều môi trường Java khác nhau không?
+### Câu hỏi 4: Aspose.HTML cho Java có tương thích với nhiều môi trường Java khác nhau không?
 
-Câu trả lời 4: Có, Aspose.HTML cho Java tương thích với các môi trường phát triển Java khác nhau, khiến nó trở thành một công cụ linh hoạt dành cho các nhà phát triển.
+A4: Có, Aspose.HTML for Java tương thích với nhiều môi trường phát triển Java khác nhau, khiến nó trở thành một công cụ đa năng cho các nhà phát triển.
 
 ### Câu hỏi 5: Tôi có thể tìm tài liệu về Aspose.HTML cho Java ở đâu?
 

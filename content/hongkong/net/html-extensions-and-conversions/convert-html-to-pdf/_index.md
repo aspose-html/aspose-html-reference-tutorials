@@ -94,7 +94,7 @@ Converter.ConvertHTML(htmlDocument, options, outputPDF);
 
 ---
 
-## 經常問的問題
+## 常見問題解答
 
 ### 1.什麼是.NET 的 Aspose.HTML？
 

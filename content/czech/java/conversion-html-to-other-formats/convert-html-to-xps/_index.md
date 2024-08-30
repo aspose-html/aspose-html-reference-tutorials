@@ -13,7 +13,7 @@ oblasti webového vývoje a zpracování dokumentů je potřeba převádět HTML
 
 Než se pustíte do převodu HTML na XPS pomocí Aspose.HTML for Java, musíte zajistit několik předpokladů:
 
--  Knihovna Aspose.HTML for Java: Ujistěte se, že máte nainstalovanou knihovnu Aspose.HTML for Java. Můžete si jej stáhnout z[tady](https://releases.aspose.com/html/java/).
+-  Knihovna Aspose.HTML for Java: Ujistěte se, že máte nainstalovanou knihovnu Aspose.HTML for Java. Můžete si jej stáhnout z[zde](https://releases.aspose.com/html/java/).
 
 - HTML dokument k převodu: Měli byste mít HTML dokument, který chcete převést. Pokud žádný nemáte, můžete vytvořit ukázkový soubor HTML nebo použít existující.
 
@@ -61,13 +61,13 @@ String outputFile = "path/to/your/output.xps";
 
 ## Proveďte konverzi
 
- Nyní proveďte převod z HTML do XPS pomocí Aspose.HTML's`Converter` třída.
+Nyní proveďte převod z HTML do XPS pomocí Aspose.HTML's`Converter` třída.
 
 ```java
 Converter.convertHTML(htmlDocument, options, outputFile);
 ```
 
-Gratulujeme! Úspěšně jste převedli dokument HTML na XPS pomocí Aspose.HTML for Java.
+Gratuluji! Úspěšně jste převedli dokument HTML na XPS pomocí Aspose.HTML for Java.
 
 ## Závěr
 
@@ -87,7 +87,7 @@ Odpověď 2: Ano, můžete upravit různé aspekty dokumentu XPS, jako je barva 
 
 ### Q3: Je Aspose.HTML for Java bezplatný nástroj?
 
- Odpověď 3: Aspose.HTML for Java je komerční knihovna, ale můžete získat bezplatnou zkušební verzi, abyste mohli vyhodnotit její schopnosti. Další podrobnosti naleznete na adrese[tady](https://releases.aspose.com/html/java).
+ Odpověď 3: Aspose.HTML for Java je komerční knihovna, ale můžete získat bezplatnou zkušební verzi, abyste mohli vyhodnotit její schopnosti. Další podrobnosti naleznete na adrese[zde](https://releases.aspose.com/html/java).
 
 ### Q4: Jaké další formáty dokumentů mohu převést pomocí Aspose.HTML pro Java?
 

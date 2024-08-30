@@ -15,7 +15,7 @@ dnešní digitální době je potřeba generovat vysoce kvalitní soubory PDF z 
 Než začnete, ujistěte se, že máte splněny následující předpoklady:
 
 - Java Development Environment: Ujistěte se, že máte v systému nainstalovanou sadu Java Development Kit (JDK).
--  Aspose.HTML for Java: Musíte si stáhnout a nainstalovat Aspose.HTML for Java z webu[tady](https://releases.aspose.com/html/java/).
+-  Aspose.HTML for Java: Musíte si stáhnout a nainstalovat Aspose.HTML for Java z webu[zde](https://releases.aspose.com/html/java/).
 - HTML dokument: Měli byste mít připravený HTML dokument ke konverzi. Pokud ne, vytvořte jej nebo použijte existující soubor HTML.
 
 ## Importujte balíčky
@@ -136,7 +136,7 @@ Odpověď 3: Ano, styl můžete přizpůsobit přidáním prvků CSS a HTML do o
 
 ### Q4: Kde najdu dokumentaci k Aspose.HTML pro Java?
 
- A4: Můžete nahlédnout do dokumentace[tady](https://reference.aspose.com/html/java/) pro vyčerpávající informace a příklady.
+ A4: Můžete nahlédnout do dokumentace[zde](https://reference.aspose.com/html/java/) pro vyčerpávající informace a příklady.
 
 ### Q5: Je k dispozici bezplatná zkušební verze pro Aspose.HTML pro Java?
 

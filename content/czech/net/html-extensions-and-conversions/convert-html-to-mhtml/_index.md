@@ -16,7 +16,7 @@ Než se pustíme do procesu převodu, ujistěte se, že máte splněny následuj
 
 ### 1. Aspose.HTML for .NET Library
 
- Musíte mít nainstalovanou knihovnu Aspose.HTML for .NET. Pokud jste to ještě neudělali, můžete si jej stáhnout z webu[tady](https://releases.aspose.com/html/net/). Postupujte podle pokynů k instalaci uvedených na webových stránkách.
+ Musíte mít nainstalovanou knihovnu Aspose.HTML for .NET. Pokud jste to ještě neudělali, můžete si jej stáhnout z webu[zde](https://releases.aspose.com/html/net/). Postupujte podle pokynů k instalaci uvedených na webových stránkách.
 
 ### 2. Ukázka HTML dokumentu
 
@@ -79,7 +79,7 @@ Converter.ConvertHTML(htmlDocument, options, outputMHTML);
 
  Nyní je čas převést dokument HTML na MHTML. The`ConvertHTML` Metoda bere jako parametry načtený dokument HTML, možnosti, které jste nastavili, a cestu k výstupnímu souboru.
 
-Gratulujeme! Úspěšně jste převedli dokument HTML na MHTML pomocí Aspose.HTML for .NET. Nyní můžete přistupovat k souboru MHTML na zadané výstupní cestě.
+Gratuluji! Úspěšně jste převedli dokument HTML na MHTML pomocí Aspose.HTML for .NET. Nyní můžete přistupovat k souboru MHTML na zadané výstupní cestě.
 
 ## Závěr
 
@@ -95,7 +95,7 @@ MHTML, zkratka pro „MIME HTML“, je formát archivu webových stránek, kter�
 
 ### Mohu přizpůsobit zacházení se zdroji při převodu na MHTML?
 
- Ano můžeš. Jak je znázorněno v příkladu, můžete nastavit pravidla pro manipulaci se zdroji pomocí`ResourceHandlingOptions` z`MHTMLSaveOptions`třída. Můžete ovládat hloubku, do jaké jsou prostředky zahrnuty do souboru MHTML.
+ Ano, můžete. Jak je znázorněno v příkladu, můžete nastavit pravidla pro manipulaci se zdroji pomocí`ResourceHandlingOptions` z`MHTMLSaveOptions`třída. Můžete ovládat hloubku, do jaké jsou prostředky zahrnuty do souboru MHTML.
 
 ### Kde najdu další zdroje a dokumentaci pro Aspose.HTML pro .NET?
 

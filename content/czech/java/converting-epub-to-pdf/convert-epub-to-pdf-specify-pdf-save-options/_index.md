@@ -8,7 +8,7 @@ weight: 12
 url: /cs/java/converting-epub-to-pdf/convert-epub-to-pdf-specify-pdf-save-options/
 ---
 
-## Úvod
+## Zavedení
 
 Aspose.HTML for Java je výkonný nástroj pro práci s dokumenty HTML a EPUB. V tomto podrobném průvodci vás provedeme procesem převodu souboru EPUB do PDF pomocí Aspose.HTML for Java. Ať už jste zkušený vývojář nebo teprve začínáte, tento tutoriál vám poskytne znalosti a dovednosti potřebné k efektivnímu provádění tohoto úkolu.
 
@@ -18,7 +18,7 @@ Než začneme, ujistěte se, že máte splněny následující předpoklady:
 
 - Vývojové prostředí Java: Ve vašem systému musíte mít nastavené vývojové prostředí Java.
 
--  Aspose.HTML for Java: Stáhněte a nainstalujte knihovnu Aspose.HTML for Java. Knihovnu a související dokumentaci najdete na[webová stránka](https://releases.aspose.com/html/java/).
+-  Aspose.HTML for Java: Stáhněte a nainstalujte knihovnu Aspose.HTML for Java. Knihovnu a související dokumentaci najdete na[webové stránky](https://releases.aspose.com/html/java/).
 
 - Soubor EPUB: Budete potřebovat soubor EPUB, který chcete převést do PDF.
 
@@ -26,11 +26,11 @@ Nyní se pojďme ponořit do podrobného průvodce převodem EPUB do PDF pomocí
 
 ## Krok 1: Otevřete soubor EPUB
 
- Chcete-li začít, otevřete existující soubor EPUB ke čtení. Můžete použít a`FileInputStream` dosáhnout toho. Zde je kód pro tento krok:
+ Chcete-li začít, otevřete existující soubor EPUB ke čtení. Můžete použít a`FileInputStream` abychom toho dosáhli. Zde je kód pro tento krok:
 
 ```java
 try (java.io.FileInputStream fileInputStream = new java.io.FileInputStream(Resources.input("input.epub"))) {
-    // Zde bude váš kód pro další kroky.
+    // Zde bude uveden váš kód pro další kroky.
 }
 ```
 
@@ -63,7 +63,7 @@ com.aspose.html.converters.Converter.convertEPUB(
 );
 ```
 
-Gratulujeme! Úspěšně jste převedli soubor EPUB do PDF pomocí Aspose.HTML pro Java. Nyní máte přístup k převedenému souboru PDF v zadaném výstupním umístění.
+Gratuluji! Úspěšně jste převedli soubor EPUB do PDF pomocí Aspose.HTML pro Java. Nyní máte přístup k převedenému souboru PDF v zadaném výstupním umístění.
 
 ## Kompletní zdrojový kód
 ```java
@@ -98,7 +98,7 @@ tomto tutoriálu jsme se naučili, jak používat Aspose.HTML pro Java k převod
 ## Často kladené otázky (FAQ)
 
 ### Je Aspose.HTML for Java bezplatná knihovna?
- Aspose.HTML for Java je komerční knihovna, ale můžete z ní získat bezplatnou zkušební verzi[webová stránka](https://releases.aspose.com/).
+ Aspose.HTML for Java je komerční knihovna, ale můžete z ní získat bezplatnou zkušební verzi[webové stránky](https://releases.aspose.com/).
 
 ### Jaké formáty EPUB jsou podporovány pro převod?
 Aspose.HTML for Java podporuje konverzi různých formátů EPUB, což zajišťuje kompatibilitu s většinou dokumentů EPUB.

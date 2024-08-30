@@ -8,7 +8,7 @@ weight: 15
 url: /zh-hant/java/conversion-html-to-other-formats/convert-svg-to-pdf/
 ---
 
-在不斷發展的 Web 開發和文件轉換領域，Aspose.HTML for Java 成為一個強大的工具包，用於將可擴展向量圖形 (SVG) 文件無縫轉換為可移植文檔格式 (PDF) 文件。憑藉其直觀的 API，該庫簡化了複雜的任務，確保了高品質的結果。在本逐步指南中，我們將探索如何利用 Aspose.HTML for Java 的功能輕鬆將 SVG 轉換為 PDF。
+在不斷發展的 Web 開發和文件轉換領域，Aspose.HTML for Java 作為一個強大的工具包出現，用於將可擴展向量圖形 (SVG) 文件無縫轉換為可移植文檔格式 (PDF) 文件。憑藉其直觀的 API，該庫簡化了複雜的任務，確保了高品質的結果。在本逐步指南中，我們將探索如何利用 Aspose.HTML for Java 的功能輕鬆將 SVG 轉換為 PDF。
 
 ## 先決條件
 
@@ -90,7 +90,7 @@ Aspose.HTML for Java 簡化了 SVG 到 PDF 的轉換，使其成為尋求高效�
 
 ### Q4：Aspose.HTML for Java 還可以處理哪些其他文件格式？
 
-A4：Aspose.HTML for Java能夠處理各種文件格式，包括HTML、PDF等。
+A4：Aspose.HTML for Java 能夠處理各種文件格式，包括 HTML、PDF 等。
 
 ### Q5：Aspose.HTML for Java 是否相容於不同的 Java 版本？
 

@@ -50,7 +50,7 @@ using System.Collections.Generic;
         Converter.ConvertEPUB(stream, new ImageSaveOptions(ImageFormat.Jpeg), "output.jpg");
     }
 ```
-### 腳步
+### 步驟
 
 1. 在 dataDir 變數中提供 EPUB 檔案的路徑。
 2. 使用 FileStream 開啟 EPUB 檔案進行閱讀。
@@ -73,7 +73,7 @@ using System.Collections.Generic;
     }
 
 ```
-### 腳步
+### 步驟
 1. 使用 FileStream 開啟 EPUB 檔案進行閱讀。
 2. 使用所需的輸出格式（在本例中為 PNG）初始化 ImageSaveOptions 物件。
 3. 呼叫 ConvertEPUB 方法，傳遞 EPUB 流、映像保存選項和輸出檔名。
@@ -101,7 +101,7 @@ using System.Collections.Generic;
         Converter.ConvertEPUB(stream, options, "output.jpg");
     }
 ```
-### 腳步
+### 步驟
 
 1. 在中提供 EPUB 檔案的路徑`dataDir`多變的。
 2. 使用以下命令開啟 EPUB 檔案進行閱讀`FileStream`.
@@ -170,7 +170,7 @@ class MemoryStreamProvider : Aspose.Html.IO.ICreateStreamProvider
         }
 ```
 
-### 腳步
+### 步驟
 1. 在中提供 EPUB 檔案的路徑`dataDir`多變的。
 2. 使用以下命令開啟 EPUB 檔案進行閱讀`FileStream`.
 3. 創建一個`MemoryStreamProvider`處理自訂輸出流。
@@ -184,7 +184,7 @@ Aspose.HTML for .NET 是一個多功能函式庫，可簡化 EPUB 和 HTML 文�
 
 ---
 
-## 經常問的問題
+## 常見問題解答
 
 ### 1. 在哪裡可以下載 Aspose.HTML for .NET？
 

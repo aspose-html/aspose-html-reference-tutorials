@@ -127,7 +127,7 @@ Grattis! Du har precis skapat ett enkelt HTML-dokument med Aspose.HTML för .NET
 
 ## Slutsats
 
-den här handledningen har vi introducerat dig till Aspose.HTML för .NET och väglett dig genom att skapa ett grundläggande HTML-dokument. När du utforskar det här biblioteket ytterligare kommer du att upptäcka dess omfattande möjligheter att arbeta med HTML-dokument i .NET-applikationer. Oavsett om du utvecklar webbapplikationer, automatiserar HTML-relaterade uppgifter eller utför komplexa dokumentkonverteringar, har Aspose.HTML för .NET dig täckt.
+den här självstudien har vi introducerat dig till Aspose.HTML för .NET och väglett dig genom att skapa ett grundläggande HTML-dokument. När du utforskar det här biblioteket ytterligare kommer du att upptäcka dess omfattande möjligheter att arbeta med HTML-dokument i .NET-applikationer. Oavsett om du utvecklar webbapplikationer, automatiserar HTML-relaterade uppgifter eller utför komplexa dokumentkonverteringar, har Aspose.HTML för .NET dig täckt.
 
 Glad kodning!
 
@@ -143,11 +143,11 @@ Aspose.HTML for .NET är ett .NET-bibliotek som tillhandahåller omfattande funk
 
 ### 3. Finns det en gratis testversion tillgänglig för Aspose.HTML för .NET?
 
- Ja, du kan få en gratis provversion av Aspose.HTML för .NET[här](https://releases.aspose.com/).
+ Ja, du kan få en gratis testversion av Aspose.HTML för .NET[här](https://releases.aspose.com/).
 
 ### 4. Hur kan jag få en tillfällig licens för Aspose.HTML för .NET?
 
-Du kan få en tillfällig licens för Aspose.HTML för .NET[här](https://purchase.aspose.com/temporary-license/).
+ Du kan få en tillfällig licens för Aspose.HTML för .NET[här](https://purchase.aspose.com/temporary-license/).
 
 ### 5. Var kan jag få support för Aspose.HTML för .NET?
 

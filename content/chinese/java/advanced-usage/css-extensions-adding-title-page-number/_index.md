@@ -1,21 +1,21 @@
 ---
-title: 使用 Aspose.HTML 自定义 HTML 页边距
+title: 使用 Aspose.HTML 自定义 HTML 页面边距
 linktitle: CSS 扩展 - 添加标题和页码
 second_title: 使用 Aspose.HTML 进行 Java HTML 处理
-description: 了解如何使用 Aspose.HTML for Java 自定义页边距、添加页码和标题到 HTML 文档。
+description: 了解如何使用 Aspose.HTML for Java 自定义页边距、向 HTML 文档添加页码和标题。
 type: docs
 weight: 10
 url: /zh/java/advanced-usage/css-extensions-adding-title-page-number/
 ---
-Aspose.HTML for Java 是一个功能强大的库，用于在 Java 应用程序中处理 HTML 文档。在本教程中，我们将探讨如何使用 Aspose.HTML for Java 创建自定义页边距以及将页码和标题添加到 HTML 文档中。本分步指南将把该过程分解为可管理的步骤，以帮助您轻松地将这些功能集成到 HTML 文档中。
+Aspose.HTML for Java 是一个功能强大的库，用于在 Java 应用程序中处理 HTML 文档。在本教程中，我们将探索如何使用 Aspose.HTML for Java 创建自定义页边距以及向 HTML 文档添加页码和标题。本分步指南将把该过程分解为可管理的步骤，以帮助您轻松地将这些功能集成到 HTML 文档中。
 
 ## 先决条件
 
-在我们开始之前，请确保您具备以下先决条件：
+在开始之前，请确保您已满足以下先决条件：
 
-1. Java 开发环境：确保您的计算机上设置有 Java 开发环境。
+1. Java 开发环境：确保您的计算机上已设置 Java 开发环境。
 
-2.  Aspose.HTML for Java：下载并安装 Aspose.HTML for Java 库[这里](https://releases.aspose.com/html/java/).
+2.  Aspose.HTML for Java：从以下网址下载并安装 Aspose.HTML for Java 库[这里](https://releases.aspose.com/html/java/).
 
 ## 导入包
 
@@ -29,9 +29,9 @@ import com.aspose.html.HTMLDocument;
 import com.aspose.html.rendering.xps.XpsDevice;
 ```
 
-现在，让我们将添加自定义页边距、页码和标题的过程分解为可管理的步骤：
+现在，让我们将添加自定义页边距、页码和标题的过程分解为易于管理的步骤：
 
-## 第 1 步：初始化配置和页边距
+## 步骤 1：初始化配置和页边距
 
 ```java
 //初始化配置对象并设置文档的页边距
@@ -73,9 +73,9 @@ try {
 HTMLDocument document = new HTMLDocument("<div>Hello World!!!</div>", ".", configuration);
 ```
 
-在这里，我们创建一个包含示例内容（在本例中为“Hello World”消息）的 HTML 文档，并应用步骤 1 中的配置。
+在这里，我们创建一个包含示例内容（在本例中为“Hello World”消息）的 HTML 文档并应用步骤 1 中的配置。
 
-## 步骤 3：初始化输出设备并渲染文档
+## 步骤 3：初始化输出设备并呈现文档
 
 ```java
 //初始化输出设备
@@ -90,32 +90,32 @@ try {
 }
 ```
 
-在此步骤中，我们设置输出设备并渲染 HTML 文档。文档将被处理并保存为具有指定页边距、页码和标题的 XPS 文件。
+在此步骤中，我们设置输出设备并渲染 HTML 文档。该文档将被处理并保存为具有指定页边距、页码和标题的 XPS 文件。
 
 ## 结论
 
-恭喜！您已经成功学习了如何使用 Aspose.HTML for Java 创建自定义页边距以及向 HTML 文档添加页码和标题。这种自定义允许您创建更专业且更具视觉吸引力的文档。
+恭喜！您已成功学会如何使用 Aspose.HTML for Java 创建自定义页边距以及向 HTML 文档添加页码和标题。此自定义功能可让您创建更专业、更具视觉吸引力的文档。
 
 如果您有任何疑问或遇到任何问题，请随时访问[Aspose.HTML for Java 文档](https://reference.aspose.com/html/java/)或寻求帮助[Aspose 支持论坛](https://forum.aspose.com/).
 
 ## 常见问题解答
 
-### Q1：什么是 Java 版 Aspose.HTML？
+### 问题1:什么是 Aspose.HTML for Java？
 
-A1：Aspose.HTML for Java 是一个 Java 库，它提供了在 Java 应用程序中处理 HTML 文档的强大工具。
+A1：Aspose.HTML for Java 是一个 Java 库，它为在 Java 应用程序中处理 HTML 文档提供了强大的工具。
 
 ### Q2：我可以进一步自定义页边距吗？
 
-A2：是的，您可以在步骤 1 中修改 CSS 样式，以根据您的要求自定义页边距。
+A2：是的，您可以修改步骤 1 中的 CSS 样式来根据您的要求自定义页边距。
 
-### Q3：如何在 HTML 文档中添加更多内容？
+### Q3：如何向 HTML 文档添加更多内容？
 
 A3：您可以修改步骤2中的HTML内容，将示例内容替换为您自己的内容。
 
-### Q4：Aspose.HTML for Java 是否与其他文档格式兼容？
+### Q4：Aspose.HTML for Java 是否兼容其他文档格式？
 
 A4：是的，Aspose.HTML for Java 可用于将 HTML 文档转换为各种格式，包括 PDF、XPS 和图像。
 
-### Q5：使用 Aspose.HTML for Java 需要许可证吗？
+### 问题5：使用 Aspose.HTML for Java 需要许可证吗？
 
- A5：是的，您可以从以下位置获取许可证或免费试用版：[这里](https://purchase.aspose.com/buy)或者[这里](https://releases.aspose.com/).
+ A5：是的，你可以从以下位置获取许可证或免费试用版[这里](https://purchase.aspose.com/buy)或者[这里](https://releases.aspose.com/).

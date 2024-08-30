@@ -97,7 +97,7 @@ var template = @"
 System.IO.File.WriteAllText("template.html", template);
 ```
 
- Tato šablona HTML obsahuje zástupné symboly jako`{{FirstName}}`, `{{LastName}}`, `{{Address.Street}}`, `{{Address.Number}}` a`{{Address.City}}`, které nahradíme skutečnými údaji.
+ Tato šablona HTML obsahuje zástupné symboly jako`{{FirstName}}`, `{{LastName}}`, `{{Address.Street}}`, `{{Address.Number}}`a`{{Address.City}}`, které nahradíme skutečnými údaji.
 
 ## Krok 3: Vyplňte šablonu HTML
 
@@ -111,7 +111,7 @@ Aspose.Html.Converters.Converter.ConvertTemplate(
 
 Tento kód převezme soubor „template.html“, nahradí zástupné symboly odpovídajícími hodnotami JSON a uloží výsledek do souboru „document.html“.
 
-Gratulujeme! Úspěšně jste využili sílu Aspose.HTML pro .NET k dynamickému generování HTML dokumentů z dat JSON.
+Gratuluji! Úspěšně jste využili sílu Aspose.HTML pro .NET k dynamickému generování HTML dokumentů z dat JSON.
 
 ## Závěr
 
@@ -125,16 +125,16 @@ A1: Aspose.HTML for .NET je výkonná knihovna, která umožňuje vývojářům 
 
 ### Q2. Kde najdu dokumentaci k Aspose.HTML pro .NET?
 
- A2: Můžete získat přístup k dokumentaci pro Aspose.HTML pro .NET[tady](https://reference.aspose.com/html/net/). Poskytuje komplexní informace, včetně referencí API a příkladů kódu.
+ A2: Můžete získat přístup k dokumentaci pro Aspose.HTML pro .NET[zde](https://reference.aspose.com/html/net/). Poskytuje komplexní informace, včetně referencí API a příkladů kódu.
 
 ### Q3. Jak si mohu stáhnout Aspose.HTML pro .NET?
 
-A3: Aspose.HTML pro .NET si můžete stáhnout ze stránky stahování[tady](https://releases.aspose.com/html/net/).
+A3: Aspose.HTML pro .NET si můžete stáhnout ze stránky stahování[zde](https://releases.aspose.com/html/net/).
 
 ### Q4. Je k dispozici bezplatná zkušební verze pro Aspose.HTML pro .NET?
 
- A4: Ano, můžete vyzkoušet Aspose.HTML pro .NET stažením bezplatné zkušební verze z[tady](https://releases.aspose.com/).
+ A4: Ano, můžete vyzkoušet Aspose.HTML pro .NET stažením bezplatné zkušební verze z[zde](https://releases.aspose.com/).
 
 ### Q5. Potřebuji dočasnou licenci pro Aspose.HTML pro .NET?
 
- A5: Pokud požadujete dočasnou licenci pro účely hodnocení, můžete ji získat od[tady](https://purchase.aspose.com/temporary-license/).
+ A5: Pokud požadujete dočasnou licenci pro účely hodnocení, můžete ji získat od[zde](https://purchase.aspose.com/temporary-license/).

@@ -84,7 +84,7 @@ Converter.convertEPUB(fileInputStream, options, outputFile);
 
 A1：Aspose.HTML for Java 提供免費試用，但要繼續使用，需要許可證。您可以從以下地址取得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
 
-### Q2：支援哪些圖片格式轉換？
+### Q2：支援哪些影像格式轉換？
 
 A2：Aspose.HTML for Java 支援多種影像格式，包括 JPEG、PNG、TIFF 和 BMP。
 

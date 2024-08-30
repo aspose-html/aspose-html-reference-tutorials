@@ -1,44 +1,44 @@
 ---
-title: Aspose.HTML を使用して .NET にドキュメントを保存する
-linktitle: .NET でのドキュメントの保存
+title: Aspose.HTML を使用して .NET でドキュメントを保存する
+linktitle: .NET でドキュメントを保存する
 second_title: Aspose.HTML .NET HTML 操作 API
-description: ステップバイステップのガイドを使用して、Aspose.HTML for .NET の機能を最大限に活用してください。 HTML および SVG ドキュメントの作成、操作、変換方法を学びます
+description: ステップバイステップガイドで Aspose.HTML for .NET のパワーを解き放ちましょう。HTML および SVG ドキュメントの作成、操作、変換方法を学びます。
 type: docs
 weight: 16
 url: /ja/net/html-document-manipulation/saving-a-document/
 ---
 
-今日のデジタル時代では、HTML および SVG ドキュメントの作成と操作は、多くのソフトウェア開発者や企業にとって不可欠です。 Aspose.HTML for .NET は、これらのタスクを簡素化する強力なライブラリであり、HTML、SVG などを操作するためのさまざまな機能を提供します。この包括的なガイドでは、Aspose.HTML for .NET の要点を詳しく説明し、各例をわかりやすい手順に分けて説明します。経験豊富な開発者であっても、初心者であっても、このガイドは Aspose.HTML の機能を活用する上で非常に有益であることがわかります。
+今日のデジタル時代では、HTML および SVG ドキュメントの作成と操作は、多くのソフトウェア開発者や企業にとって不可欠です。Aspose.HTML for .NET は、これらのタスクを簡素化し、HTML、SVG などを操作するさまざまな機能を提供する強力なライブラリです。この包括的なガイドでは、Aspose.HTML for .NET の基本を詳しく説明し、各例をわかりやすい手順に分解します。熟練した開発者でも、始めたばかりの開発者でも、このガイドは Aspose.HTML の機能を活用する上で非常に役立ちます。
 
 ## 前提条件
 
-この旅に着手する前に、必要なものがすべて揃っていることを確認してください。
+この旅に出発する前に、必要なものがすべて揃っていることを確認しましょう。
 
-- 開発環境: Visual Studio またはその他の .NET 開発環境がコンピュータにインストールされていることを確認してください。
+- 開発環境: コンピューターに Visual Studio またはその他の .NET 開発環境がインストールされていることを確認します。
 
-- Aspose.HTML for .NET: Aspose.HTML for .NET ライブラリを取得する必要があります。からダウンロードできます[ここ](https://releases.aspose.com/html/net/).
+- Aspose.HTML for .NET: Aspose.HTML for .NETライブラリを入手する必要があります。ダウンロードはこちらからできます。[ここ](https://releases.aspose.com/html/net/).
 
-- C# の知識: C# プログラミング言語に精通していると有益ですが、必須ではありません。このガイドは初心者向けに作成されています。
+- C# の知識: C# プログラミング言語の知識があると有利ですが、必須ではありません。このガイドは初心者向けに設計されています。
 
 ## 名前空間のインポート
 
-Aspose.HTML for .NET の使用を開始するには、必要な名前空間をプロジェクトにインポートする必要があります。 C# コードに次の名前空間を含めます。
+Aspose.HTML for .NET の使用を開始するには、必要な名前空間をプロジェクトにインポートする必要があります。C# コードに次の名前空間を含めます。
 
 ### ステップ 1: Aspose.HTML 名前空間をインポートする
 ```csharp
 using Aspose.Html;
 ```
 
-この名前空間により、さまざまな HTML および SVG 操作機能へのアクセスが許可されます。
+この名前空間により、さまざまな HTML および SVG 操作機能にアクセスできるようになります。
 
-## HTMLからファイルへ
+## HTML からファイルへ
 
-### ステップ 1: 空の HTML ドキュメントを初期化する
+### ステップ1: 空のHTMLドキュメントを初期化する
 ```csharp
 //空の HTML ドキュメントを初期化します。
 using (var document = new Aspose.Html.HTMLDocument())
 {
-    //テキスト要素を作成してドキュメントに追加する
+    //テキスト要素を作成し、ドキュメントに追加する
     var text = document.CreateTextNode("Hello World!");
     document.Body.AppendChild(text);
     //HTML をディスク上のファイルに保存します。
@@ -46,11 +46,11 @@ using (var document = new Aspose.Html.HTMLDocument())
 }
 ```
 
-この例では、HTML ドキュメントを作成し、単純な「Hello World!」を追加します。それにテキストを送信します。次に、HTML をディスク上のファイルに保存します。
+この例では、HTML ドキュメントを作成し、それに単純な「Hello World!」テキストを追加します。次に、HTML をディスク上のファイルに保存します。
 
-## リンクされたファイルのない HTML
+## リンクファイルなしの HTML
 
-### ステップ 1: 単純な HTML ファイルを準備する
+### ステップ1: シンプルなHTMLファイルを準備する
 ```csharp
 System.IO.File.WriteAllText("document.html", "<p>Hello World!</p>" +
                                              "<a href='linked.html'>linked file</a>");
@@ -58,24 +58,24 @@ System.IO.File.WriteAllText("document.html", "<p>Hello World!</p>" +
 
 ここでは、別のファイルへのアンカー リンクを含む基本的な HTML ファイルを作成します。
 
-### ステップ 2: 「document.html」をメモリにロードする
+### ステップ2: 'document.html'をメモリにロードする
 ```csharp
 using (var document = new Aspose.Html.HTMLDocument("document.html"))
 {
-    //保存オプションのインスタンスを作成する
+    //保存オプションインスタンスを作成する
     var options = new Aspose.Html.Saving.HTMLSaveOptions();
-    //リンクされた HTML ファイルを切り離すには、最大処理深度を 0 に設定します。
+    //リンクされた HTML ファイルを切断するには、最大処理深度を 0 に設定します。
     options.ResourceHandlingOptions.MaxHandlingDepth = 0;
     //文書を保存する
     document.Save(@".\html-to-file-example\document.html", options);
 }
 ```
 
-この例では、HTML ドキュメントをメモリにロードし、リンクされたファイルを切り離すための最大処理深度を設定し、ドキュメントを保存します。 
+この例では、HTML ドキュメントをメモリに読み込み、リンクされたファイルを切り取るための最大処理深度を設定して、ドキュメントを保存します。 
 
-## HTMLからMHTMLへ
+## HTML から MHTML へ
 
-### ステップ 1: 単純な HTML ファイルを準備する
+### ステップ1: シンプルなHTMLファイルを準備する
 ```csharp
 System.IO.File.WriteAllText("document.html", "<p>Hello World!</p>" +
                                              "<a href='linked.html'>linked file</a>");
@@ -83,27 +83,27 @@ System.IO.File.WriteAllText("document.html", "<p>Hello World!</p>" +
 
 例 2 と同様に、別のファイルへのアンカー リンクを含む基本的な HTML ファイルを作成します。
 
-### ステップ 2: 「document.html」をメモリにロードし、MHTML として保存する
+### ステップ2: 「document.html」をメモリに読み込み、MHTMLとして保存する
 ```csharp
 using (var document = new Aspose.Html.HTMLDocument("document.html"))
 {
-    //ドキュメントを MHTML として保存する
+    //ドキュメントをMHTMLとして保存する
     document.Save(@".\html-to-file-example\document.mht", Aspose.Html.Saving.HTMLSaveFormat.MHTML);
 }
 ```
 
-ここでは、HTML ドキュメントをメモリにロードし、MHTML 形式で保存します。
+ここでは、HTML ドキュメントをメモリに読み込み、MHTML 形式で保存します。
 
-## HTMLからマークダウンへ
+## HTML から Markdown へ
 
-### ステップ 1: HTML コードを準備する
+### ステップ1: HTMLコードを準備する
 ```csharp
 var html_code = "<H2>Hello World!</H2>";
 ```
 
-このステップでは、次の内容を含む HTML コード スニペットを定義します。`<H2>`要素。
+このステップでは、HTMLコードスニペットを定義します。`<H2>`要素。
 
-### ステップ 2: HTML コードからドキュメントを初期化し、マークダウンとして保存する
+### ステップ2: HTMLコードからドキュメントを初期化し、Markdownとして保存する
 ```csharp
 using (var document = new Aspose.Html.HTMLDocument(html_code, "."))
 {
@@ -112,11 +112,11 @@ using (var document = new Aspose.Html.HTMLDocument(html_code, "."))
 }
 ```
 
-コード スニペットから HTML ドキュメントを作成し、Markdown ファイルとして保存します。
+コード スニペットから HTML ドキュメントを作成し、それを Markdown ファイルとして保存します。
 
-## SVGをファイルへ
+## SVG からファイルへ
 
-### ステップ 1: SVG コードを準備する
+### ステップ1: SVGコードを準備する
 ```csharp
 var code = @"
     <svg xmlns='http://www.w3.org/2000/svg' 高さ='80' 幅='300'>
@@ -134,7 +134,7 @@ var code = @"
 ```csharp
 using (var document = new Aspose.Html.Dom.Svg.SVGDocument(code, "."))
 {
-    //SVG ファイルをディスクに保存します
+    //SVGファイルをディスクに保存する
     document.Save("document.svg");
 }
 ```
@@ -143,17 +143,17 @@ using (var document = new Aspose.Html.Dom.Svg.SVGDocument(code, "."))
 
 ## 結論
 
-Aspose.HTML for .NET は、.NET アプリケーションでの HTML および SVG ドキュメントの処理を簡素化する多用途ライブラリです。このガイドでは、5 つの重要な例を取り上げ、それぞれを段階的な手順に分けて説明しました。ドキュメントの作成、操作、変換のいずれを行う場合でも、Aspose.HTML が対応します。これらの手順に従うことで、この強力なツールをマスターできるようになります。
+Aspose.HTML for .NET は、.NET アプリケーションでの HTML および SVG ドキュメントの処理を簡素化する多目的ライブラリです。このガイドでは、5 つの重要な例を取り上げ、それぞれをステップ バイ ステップの手順に分解して説明しています。ドキュメントの作成、操作、または変換のいずれを行う場合でも、Aspose.HTML が役立ちます。これらの手順に従うことで、この強力なツールを習得する準備が整います。
 
 ## よくある質問
 
 ### Q1: Aspose.HTML for .NET とは何ですか?
 
-A1: Aspose.HTML for .NET は、作成、操作、変換など、HTML および SVG ドキュメントを操作するための幅広い機能を提供する .NET ライブラリです。
+A1: Aspose.HTML for .NET は、HTML および SVG ドキュメントの作成、操作、変換など、さまざまな機能を提供する .NET ライブラリです。
 
-### Q2: .NET 用の Aspose.HTML はどこでダウンロードできますか?
+### Q2: Aspose.HTML for .NET はどこからダウンロードできますか?
 
- A2: Aspose.HTML for .NET は、次のサイトからダウンロードできます。[ここ](https://releases.aspose.com/html/net/).
+ A2: Aspose.HTML for .NETは以下からダウンロードできます。[ここ](https://releases.aspose.com/html/net/).
 
 ### Q3: Aspose.HTML for .NET は初心者に適していますか?
 
@@ -161,8 +161,8 @@ A3: はい、Aspose.HTML for .NET は初心者と経験豊富な開発者の両�
 
 ### Q4: Aspose.HTML for .NET を使用して HTML を他の形式に変換できますか?
 
-A4: はい、Aspose.HTML for .NET は、例に示すように、MHTML や Markdown などのさまざまな形式への変換をサポートしています。
+A4: はい、Aspose.HTML for .NET は、例に示すように、MHTML や Markdown を含むさまざまな形式への変換をサポートしています。
 
-### Q5: Aspose.HTML for .NET のサポートはどこで入手できますか?
+### Q5: Aspose.HTML for .NET のサポートはどこで受けられますか?
 
- A5: Aspose.HTML コミュニティ フォーラムでサポートと質問への回答を見つけることができます。[ここ](https://forum.aspose.com/).
+ A5: Aspose.HTMLコミュニティフォーラムでサポートや質問への回答を見つけることができます。[ここ](https://forum.aspose.com/).

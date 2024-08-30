@@ -1,22 +1,22 @@
 ---
-title: 使用 Aspose.HTML 在 .NET 中进行网页抓取
-linktitle: .NET 中的网页抓取
+title: 使用 Aspose.HTML 在 .NET 中进行 Web 抓取
+linktitle: .NET 中的 Web 抓取
 second_title: Aspose.HTML .NET HTML 操作 API
-description: 学习使用 Aspose.HTML 操作 .NET 中的 HTML 文档。有效地导航、过滤、查询和选择元素以增强 Web 开发。
+description: 学习使用 Aspose.HTML 在 .NET 中操作 HTML 文档。有效地导航、过滤、查询和选择元素，以增强 Web 开发。
 type: docs
 weight: 13
 url: /zh/net/advanced-features/web-scraping/
 ---
 
-在当今的数字时代，从 HTML 文档中操作和提取信息是开发人员的一项常见任务。 Aspose.HTML for .NET 是一个功能强大的工具，可以简化 .NET 应用程序中的 HTML 处理和操作。在本教程中，我们将探讨 Aspose.HTML for .NET 的各个方面，包括先决条件、命名空间和分步示例，以帮助您充分利用其潜力。
+在当今的数字时代，操作和提取 HTML 文档中的信息是开发人员的常见任务。Aspose.HTML for .NET 是一款功能强大的工具，可简化 .NET 应用程序中的 HTML 处理和操作。在本教程中，我们将探索 Aspose.HTML for .NET 的各个方面，包括先决条件、命名空间和分步示例，以帮助您充分利用其潜力。
 
 ## 先决条件
 
 在深入了解 Aspose.HTML for .NET 的世界之前，您需要满足一些先决条件：
 
-1. 开发环境：确保您拥有一个使用 Visual Studio 或任何其他用于 .NET 开发的兼容 IDE 设置的工作开发环境。
+1. 开发环境：确保您已使用 Visual Studio 或任何其他兼容 .NET 开发的 IDE 设置了可用的开发环境。
 
-2.  Aspose.HTML for .NET：从以下位置下载并安装 Aspose.HTML for .NET 库：[下载链接](https://releases.aspose.com/html/net/)。您可以根据需要选择免费试用版或许可版。
+2.  Aspose.HTML for .NET：从以下位置下载并安装 Aspose.HTML for .NET 库[下载链接](https://releases.aspose.com/html/net/)。您可以根据需要选择免费试用版或许可版。
 
 3. HTML 基础知识：熟悉 HTML 结构和元素对于有效使用 Aspose.HTML for .NET 至关重要。
 
@@ -31,7 +31,7 @@ using Aspose.Html.XPath;
 using Aspose.Html.Css;
 ```
 
-满足先决条件并导入命名空间后，我们将逐步分解一些关键示例，以说明如何有效地使用 Aspose.HTML for .NET。
+在满足先决条件并导入命名空间的情况下，让我们逐步分解一些关键示例，以说明如何有效地使用 Aspose.HTML for .NET。
 
 ## 通过 HTML 导航
 
@@ -46,11 +46,11 @@ public static void NavigateThroughHTML()
     //从准备好的代码初始化文档
     using (var document = new HTMLDocument(html_code, "."))
     {
-        //获取对 BODY 的第一个子级（第一个 SPAN）的引用
+        //获取对 BODY 的第一个子项（第一个 SPAN）的引用
         var element = document.Body.FirstChild;
-        Console.WriteLine(element.TextContent); //输出：你好
+        Console.WriteLine(element.TextContent); //输出：Hello
 
-        //获取对 HTML 元素之间的空白的引用
+        //获取对 HTML 元素之间空白的引用
         element = element.NextSibling;
         Console.WriteLine(element.TextContent); //输出： ' '
 
@@ -61,7 +61,7 @@ public static void NavigateThroughHTML()
 }
 ```
 
-在此示例中，我们创建一个 HTML 文档，访问其第一个子文档（a`SPAN`元素）、元素之间的空白以及第二个`SPAN`元素，演示基本导航。
+在这个例子中，我们创建一个 HTML 文档，访问它的第一个子文档（a`SPAN`元素）、元素之间的空白，以及第二个`SPAN`元素，演示基本导航。
 
 ## 使用节点过滤器
 
@@ -77,10 +77,10 @@ public static void NodeFilterUsageExample()
         <img src='image2.png'>
         <p>World!</p>";
     
-    //根据准备好的代码初始化一个文档
+    //根据准备好的代码初始化文档
     using (var document = new HTMLDocument(code, "."))
     {
-        //使用图像元素的自定义过滤器创建 TreeWalker
+        //使用自定义图像元素过滤器创建 TreeWalker
         using (var iterator = document.CreateTreeWalker(document, NodeFilter.SHOW_ALL, new OnlyImageFilter()))
         {
             while (iterator.NextNode() != null)
@@ -95,7 +95,7 @@ public static void NodeFilterUsageExample()
 }
 ```
 
-此示例演示如何使用自定义节点过滤器来提取特定元素（在本例中，`IMG`元素）来自 HTML 文档。
+此示例演示如何使用自定义节点过滤器提取特定元素（在本例中为`IMG`HTML 文档中包含元素的集合。
 
 ## XPath 查询
 
@@ -116,7 +116,7 @@ public static void XPathQueryUsageExample()
         </p>
     ";
     
-    //根据准备好的代码初始化一个文档
+    //根据准备好的代码初始化文档
     using (var document = new HTMLDocument(code, "."))
     {
         //评估 XPath 表达式以选择特定元素
@@ -130,7 +130,7 @@ public static void XPathQueryUsageExample()
         for (Node node; (node = result.IterateNext()) != null;)
         {
             Console.WriteLine(node.TextContent);
-            //输出：你好
+            //输出：Hello
             //输出：世界！
         }
     }
@@ -141,7 +141,7 @@ public static void XPathQueryUsageExample()
 
 ## CSS 选择器
 
-CSS 选择器提供了另一种选择 HTML 文档中的元素的方法，类似于 CSS 样式表定位元素的方式。
+CSS 选择器提供了一种在 HTML 文档中选择元素的另一种方法，类似于 CSS 样式表定位元素的方式。
 
 ```csharp
 public static void CSSSelectorUsageExample()
@@ -158,7 +158,7 @@ public static void CSSSelectorUsageExample()
         </p>
     ";
     
-    //根据准备好的代码初始化一个文档
+    //根据准备好的代码初始化文档
     using (var document = new HTMLDocument(code, "."))
     {
         //使用 CSS 选择器根据类和层次结构提取元素
@@ -168,7 +168,7 @@ public static void CSSSelectorUsageExample()
         foreach (HTMLElement element in elements)
         {
             Console.WriteLine(element.InnerHTML);
-            //输出：你好
+            //输出：Hello
             //输出：世界！
         }
     }
@@ -177,30 +177,30 @@ public static void CSSSelectorUsageExample()
 
 在这里，我们演示如何使用 CSS 选择器来定位 HTML 文档中的特定元素。
 
-通过这些示例，您对如何使用 Aspose.HTML for .NET 在 HTML 文档中导航、过滤、查询和选择元素有了基本的了解。
+通过这些示例，您将对如何使用 Aspose.HTML for .NET 导航、过滤、查询和选择 HTML 文档中的元素有一个基本的了解。
 
 ## 结论
 
- Aspose.HTML for .NET 是一个多功能库，使 .NET 开发人员能够高效地处理 HTML 文档。凭借其强大的导航、过滤、查询和选择元素功能，您可以无缝处理各种 HTML 处理任务。通过遵循本教程并浏览以下位置的文档[Aspose.HTML for .NET 文档](https://reference.aspose.com/html/net/)，您可以为您的 .NET 应用程序释放此工具的全部潜力。
+ Aspose.HTML for .NET 是一个多功能库，可帮助 .NET 开发人员高效处理 HTML 文档。借助其强大的导航、过滤、查询和选择元素功能，您可以无缝处理各种 HTML 处理任务。通过遵循本教程并浏览以下文档[Aspose.HTML for .NET 文档](https://reference.aspose.com/html/net/)，您可以充分发挥此工具在 .NET 应用程序中的潜力。
 
 ## 常见问题解答
 
 ### Q1. Aspose.HTML for .NET 可以免费使用吗？
 
-A1：Aspose.HTML for .NET 提供免费试用版，但要用于生产用途，您需要购买许可证。您可以在以下位置找到许可详细信息和选项[Aspose.HTML 购买](https://purchase.aspose.com/buy).
+A1：Aspose.HTML for .NET 提供免费试用版，但若要用于生产，则需要购买许可证。您可以在以下位置找到许可详细信息和选项[Aspose.HTML 购买](https://purchase.aspose.com/buy).
 
-### Q2。如何获得 Aspose.HTML for .NET 的临时许可证？
+### Q2. 如何获取 Aspose.HTML for .NET 的临时许可证？
 
- A2：您可以从以下位置获取用于测试目的的临时许可证：[Aspose.HTML临时许可证](https://purchase.aspose.com/temporary-license/).
+ A2：您可以从以下网站获取用于测试目的的临时许可证[Aspose.HTML 临时许可证](https://purchase.aspose.com/temporary-license/).
 
-### Q3。我可以在哪里寻求 Aspose.HTML for .NET 的帮助或支持？
+### Q3. 我可以在哪里寻求有关 Aspose.HTML for .NET 的帮助或支持？
 
- A3：如果您遇到任何问题或有疑问，您可以访问[Aspose.HTML 论坛](https://forum.aspose.com/)寻求帮助和社区支持。
+ A3：如果您遇到任何问题或有疑问，您可以访问[Aspose.HTML 论坛](https://forum.aspose.com/)寻求援助和社区支持。
 
-### Q4。是否有任何其他资源可用于学习 Aspose.HTML for .NET？
+### Q4. 有没有其他资源可以用于学习 Aspose.HTML for .NET？
 
- A4：除了本教程之外，您还可以探索有关以下内容的更多教程和文档：[Aspose.HTML for .NET 文档页面](https://reference.aspose.com/html/net/).
+ A4：除了本教程之外，您还可以探索[Aspose.HTML for .NET 文档页面](https://reference.aspose.com/html/net/).
 
 ### Q5. Aspose.HTML for .NET 与最新的 .NET 版本兼容吗？
 
-A5：Aspose.HTML for .NET 会定期更新，以确保与最新的 .NET 版本和技术兼容。
+A5：Aspose.HTML for .NET 会定期更新以确保与最新的 .NET 版本和技术兼容。

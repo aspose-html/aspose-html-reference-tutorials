@@ -1,26 +1,26 @@
 ---
-title: Menentukan Penyedia Aliran Khusus untuk Konversi EPUB ke Gambar
-linktitle: Menentukan Penyedia Aliran Khusus untuk Konversi EPUB ke Gambar
-second_title: Pemrosesan Java HTML dengan Aspose.HTML
+title: Menentukan Penyedia Aliran Kustom untuk Konversi EPUB ke Gambar
+linktitle: Menentukan Penyedia Aliran Kustom untuk Konversi EPUB ke Gambar
+second_title: Pemrosesan HTML Java dengan Aspose.HTML
 description: Pelajari cara menggunakan Aspose.HTML untuk Java untuk mengonversi file EPUB menjadi gambar dengan panduan langkah demi langkah ini.
 type: docs
 weight: 15
 url: /id/java/converting-epub-to-pdf/convert-epub-to-image-specify-custom-stream-provider/
 ---
 
-Apakah Anda siap memanfaatkan kekuatan Aspose.HTML untuk Java? Panduan komprehensif ini akan memandu Anda melalui prosesnya, langkah demi langkah. Baik Anda seorang pengembang berpengalaman atau baru memulai, kami siap membantu Anda. 
+Apakah Anda siap memanfaatkan kekuatan Aspose.HTML untuk Java? Panduan lengkap ini akan memandu Anda melalui prosesnya, langkah demi langkah. Baik Anda pengembang berpengalaman atau baru memulai, kami siap membantu Anda. 
 
 ## Prasyarat
 
-Sebelum kita mendalami penggunaan Aspose.HTML untuk Java, ada beberapa hal yang perlu Anda siapkan:
+Sebelum kita mulai menggunakan Aspose.HTML untuk Java, ada beberapa hal yang perlu Anda siapkan:
 
-1. Lingkungan Pengembangan Java: Pastikan Anda telah menginstal Java dengan benar di sistem Anda. Anda dapat mengunduh Java dari situs web.
+1. Lingkungan Pengembangan Java: Pastikan Java telah terinstal dengan benar di sistem Anda. Anda dapat mengunduh Java dari situs web.
 
-2.  Aspose.HTML untuk Perpustakaan Java: Anda harus mendapatkan perpustakaan Aspose.HTML untuk Java. Kamu bisa menemukannya[Di Sini](https://releases.aspose.com/html/java/).
+2.  Pustaka Aspose.HTML untuk Java: Anda perlu mendapatkan pustaka Aspose.HTML untuk Java. Anda dapat menemukannya[Di Sini](https://releases.aspose.com/html/java/).
 
-3.  Dokumentasi Aspose.HTML: Dokumentasi Aspose.HTML untuk Java dapat ditemukan[Di Sini](https://reference.aspose.com/html/java/).
+3.  Dokumentasi Aspose.HTML: Dokumentasi untuk Aspose.HTML untuk Java dapat ditemukan[Di Sini](https://reference.aspose.com/html/java/).
 
-4. IDE (Lingkungan Pengembangan Terpadu): Anda dapat memilih IDE apa pun yang kompatibel dengan Java seperti Eclipse atau IntelliJ IDEA.
+4. IDE (Integrated Development Environment): Anda dapat memilih IDE yang kompatibel dengan Java seperti Eclipse atau IntelliJ IDEA.
 
 ## Paket Impor
 
@@ -28,7 +28,7 @@ Di bagian ini, kami akan memandu Anda melalui proses mengimpor paket yang diperl
 
 ## Buka File EPUB yang Ada
 
-Pertama, Anda perlu membuka file EPUB yang ada untuk dibaca. Inilah cara Anda melakukannya:
+Pertama, Anda perlu membuka file EPUB yang sudah ada untuk dibaca. Berikut cara melakukannya:
 
 ```java
 try (java.io.FileInputStream fileInputStream = new java.io.FileInputStream(Resources.input("input.epub"))) {
@@ -36,9 +36,9 @@ try (java.io.FileInputStream fileInputStream = new java.io.FileInputStream(Resou
 }
 ```
 
-## Buat Penyedia MemoryStream
+## Buat MemoryStreamProvider
 
-Untuk mengonversi EPUB menjadi gambar, Anda harus membuat instance MemoryStreamProvider:
+Untuk mengonversi EPUB ke gambar, Anda perlu membuat instance MemoryStreamProvider:
 
 ```java
 try (MemoryStreamProvider streamProvider = new MemoryStreamProvider()) {
@@ -48,7 +48,7 @@ try (MemoryStreamProvider streamProvider = new MemoryStreamProvider()) {
 
 ## Konversi EPUB ke Gambar
 
-Sekarang, mari kita konversi file EPUB menjadi gambar menggunakan MemoryStreamProvider:
+Sekarang, mari kita ubah file EPUB menjadi gambar menggunakan MemoryStreamProvider:
 
 ```java
 com.aspose.html.converters.Converter.convertEPUB(
@@ -58,7 +58,7 @@ com.aspose.html.converters.Converter.convertEPUB(
 );
 ```
 
-## Akses Aliran Memori
+## Aliran Memori Akses
 
 Anda dapat mengakses aliran memori yang berisi data yang dihasilkan:
 
@@ -72,7 +72,7 @@ for (int i = 0; i < size; i++) {
 
 ## Siram Halaman ke File Keluaran
 
-Terakhir, Anda perlu memindahkan halaman ke file keluaran:
+Terakhir, Anda perlu membuang halaman tersebut ke berkas keluaran:
 
 ```java
 try (java.io.FileOutputStream fileOutputStream = new java.io.FileOutputStream(Resources.output("page_{" + (i + 1) + "}.jpg"))) {
@@ -84,26 +84,26 @@ try (java.io.FileOutputStream fileOutputStream = new java.io.FileOutputStream(Re
 
 ## Kesimpulan
 
-Selamat! Anda telah berhasil mempelajari cara menggunakan Aspose.HTML untuk Java untuk mengonversi file EPUB menjadi gambar. Pustaka yang kuat ini membuka banyak kemungkinan untuk aplikasi Java Anda.
+Selamat! Anda telah berhasil mempelajari cara menggunakan Aspose.HTML untuk Java guna mengonversi file EPUB menjadi gambar. Pustaka canggih ini membuka banyak kemungkinan untuk aplikasi Java Anda.
 
-## FAQ
+## Tanya Jawab Umum
 
 ### 1. Apa itu Aspose.HTML untuk Java?
 
-Aspose.HTML untuk Java adalah perpustakaan yang memungkinkan pengembang Java bekerja dengan HTML, EPUB, dan format terkait web lainnya.
+Aspose.HTML untuk Java adalah pustaka yang memungkinkan pengembang Java untuk bekerja dengan HTML, EPUB, dan format terkait web lainnya.
 
-### 2. Di mana saya dapat menemukan dokumentasi Aspose.HTML untuk Java?
+### 2. Di mana saya dapat menemukan dokumentasi untuk Aspose.HTML untuk Java?
 
  Anda dapat menemukan dokumentasinya[Di Sini](https://reference.aspose.com/html/java/).
 
-### 3. Apakah tersedia uji coba gratis?
+### 3. Apakah ada uji coba gratis yang tersedia?
 
  Ya, Anda bisa mendapatkan uji coba gratis Aspose.HTML untuk Java[Di Sini](https://releases.aspose.com/).
 
-### 4. Bagaimana cara mendapatkan lisensi sementara Aspose.HTML untuk Java?
+### 4. Bagaimana cara mendapatkan lisensi sementara untuk Aspose.HTML untuk Java?
 
  Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
 
-### 5. Di mana saya bisa mendapatkan dukungan Aspose.HTML untuk Java?
+### 5. Di mana saya bisa mendapatkan dukungan untuk Aspose.HTML untuk Java?
 
- Anda dapat menemukan dukungan di[Asumsikan forum](https://forum.aspose.com/).
+ Anda dapat menemukan dukungan di[Forum Aspose](https://forum.aspose.com/).

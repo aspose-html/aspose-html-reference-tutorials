@@ -36,7 +36,7 @@ import com.aspose.html.converters.Converter;
 
 A szükséges csomagok importálásával készen áll az átalakítási folyamat megkezdésére.
 
-## Bontás
+## Lebontás
 
 Most bontsuk fel az Ön által megadott példát több lépésre, mindegyiket részletesen elmagyarázva.
 
@@ -76,7 +76,7 @@ String outputFile = "HTMLtoJPEG_Output.jpeg";
 Converter.convertHTML(htmlDocument, options, outputFile);
 ```
 
-És ez az! Sikeresen konvertált egy HTML dokumentumot JPEG képpé az Aspose.HTML for Java használatával.
+És ennyi! Sikeresen konvertált egy HTML dokumentumot JPEG képpé az Aspose.HTML for Java használatával.
 
 ## Következtetés
 

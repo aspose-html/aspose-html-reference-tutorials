@@ -40,12 +40,12 @@ url: /el/java/conversion-html-to-various-image-formats/convert-html-to-bmp/
 com.aspose.html.HTMLDocument htmlDocument = new com.aspose.html.HTMLDocument("path/to/your/input.html");
 ```
 
- Σε αυτό το βήμα, δημιουργούμε ένα`HTMLDocument` παράδειγμα χρησιμοποιώντας τη διαδρομή του αρχείου HTML σας. Αντικαθιστώ`"path/to/your/input.html"`με την πραγματική διαδρομή προς το αρχείο HTML.
+ Σε αυτό το βήμα, δημιουργούμε ένα`HTMLDocument` παράδειγμα χρησιμοποιώντας τη διαδρομή του αρχείου HTML σας. Αντικαθιστώ`"path/to/your/input.html"` με την πραγματική διαδρομή προς το αρχείο HTML.
 
 ### Βήμα 2: Αρχικοποίηση ImageSaveOptions
 
 ```java
-// Εκκίνηση ImageSaveOptions
+// Αρχικοποίηση ImageSaveOptions
 com.aspose.html.saving.ImageSaveOptions options = new com.aspose.html.saving.ImageSaveOptions(com.aspose.html.rendering.image.ImageFormat.Bmp);
 ```
 
@@ -67,11 +67,11 @@ String outputFile = "path/to/your/output/HTMLtoBMP_Output.bmp";
 com.aspose.html.converters.Converter.convertHTML(htmlDocument, options, outputFile);
 ```
 
- Αυτό είναι το τελευταίο βήμα όπου εκτελούμε τη μετατροπή HTML σε BMP. ο`htmlDocument`, `options` και`outputFile` Οι μεταβλητές θα πρέπει να οριστούν όπως περιγράφεται στα προηγούμενα βήματα.
+ Αυτό είναι το τελευταίο βήμα όπου εκτελούμε τη μετατροπή HTML σε BMP. Ο`htmlDocument`, `options` και`outputFile` Οι μεταβλητές θα πρέπει να οριστούν όπως περιγράφεται στα προηγούμενα βήματα.
 
-Αυτό είναι! Μετατρέψατε με επιτυχία το έγγραφό σας HTML σε εικόνα BMP χρησιμοποιώντας το Aspose.HTML για Java.
+Αυτό είναι όλο! Μετατρέψατε με επιτυχία το έγγραφό σας HTML σε εικόνα BMP χρησιμοποιώντας το Aspose.HTML για Java.
 
-## συμπέρασμα
+## Σύναψη
 
 Σε αυτό το σεμινάριο, καλύψαμε ολόκληρη τη διαδικασία μετατροπής εικόνων HTML σε BMP χρησιμοποιώντας το Aspose.HTML για Java. Ξεκινήσαμε με τα προαπαιτούμενα, σας καθοδηγήσαμε στην εισαγωγή των απαιτούμενων πακέτων και αναλύσαμε κάθε βήμα για μια ολοκληρωμένη κατανόηση. Τώρα μπορείτε εύκολα να ενσωματώσετε αυτή τη λειτουργία στα έργα σας Java.
 

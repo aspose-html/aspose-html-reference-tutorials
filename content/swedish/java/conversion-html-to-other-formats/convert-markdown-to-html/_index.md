@@ -10,7 +10,7 @@ url: /sv/java/conversion-html-to-other-formats/convert-markdown-to-html/
 
 ## Introduktion
 
-Vill du sömlöst konvertera Markdown till HTML med Java? Aspose.HTML för Java är din bästa lösning. I den här omfattande guiden leder vi dig genom processen och säkerställer att du har en tydlig förståelse för varje steg. I slutet av denna handledning kommer du att vara utrustad för att hantera Markdown-to-HTML-konvertering som ett proffs. Låt oss börja!
+Vill du sömlöst konvertera Markdown till HTML med Java? Aspose.HTML för Java är din bästa lösning. I den här omfattande guiden leder vi dig genom processen och säkerställer att du har en tydlig förståelse för varje steg. I slutet av denna handledning kommer du att vara utrustad för att hantera Markdown-to-HTML-konvertering som ett proffs. Låt oss komma igång!
 
 ## Förutsättningar
 
@@ -18,7 +18,7 @@ Innan du går in i konverteringsprocessen, se till att du har följande föruts�
 
 1.  Java Development Environment: Se till att du har Java installerat på ditt system. Om inte, ladda ner och installera den från[här](https://www.java.com).
 
-2.  Aspose.HTML for Java: Du behöver Aspose.HTML for Java-biblioteket. Du kan ladda ner den från[hemsida](https://releases.aspose.com/html/java/).
+2.  Aspose.HTML for Java: Du behöver Aspose.HTML for Java-biblioteket. Du kan ladda ner den från[webbplats](https://releases.aspose.com/html/java/).
 
 3. Markdown-fil: Ha en Markdown-fil som du vill konvertera till HTML. Om du inte har en, kan du skapa en enkel Markdown-fil med valfri textredigerare.
 

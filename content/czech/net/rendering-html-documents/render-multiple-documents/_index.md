@@ -71,7 +71,7 @@ using (XpsDevice device = new XpsDevice(dataDir + @"document_out.xps"))
 Po provedení kódu najdete vykreslený dokument XPS v zadaném adresáři.
 
 ## Závěr
-Gratulujeme! Úspěšně jste vykreslili několik dokumentů HTML pomocí Aspose.HTML pro .NET. Toto je jen jedna z mnoha výkonných funkcí, které tato knihovna nabízí pro manipulaci a zpracování dokumentů.
+Gratuluji! Úspěšně jste vykreslili několik dokumentů HTML pomocí Aspose.HTML pro .NET. Toto je jen jedna z mnoha výkonných funkcí, které tato knihovna nabízí pro manipulaci a zpracování dokumentů.
 
 Závěrem lze říci, že Aspose.HTML for .NET zjednodušuje zpracování složitých HTML dokumentů, což z něj činí cenný nástroj pro vývojáře. Pomocí těchto kroků můžete snadno vykreslit více dokumentů a využít plný potenciál této knihovny ve svých projektech .NET.
 
@@ -84,7 +84,7 @@ Aspose.HTML for .NET je knihovna .NET, která umožňuje vývojářům manipulov
  Aspose.HTML pro .NET si můžete stáhnout z[stránka ke stažení](https://releases.aspose.com/html/net/).
 
 ### 3. Mohu Aspose.HTML pro .NET vyzkoušet před nákupem?
- Ano, máte přístup k bezplatné zkušební verzi Aspose.HTML pro .NET z[tady](https://releases.aspose.com/).
+ Ano, máte přístup k bezplatné zkušební verzi Aspose.HTML pro .NET z[zde](https://releases.aspose.com/).
 
 ### 4. Jak mohu získat dočasnou licenci pro Aspose.HTML pro .NET?
  Chcete-li získat dočasnou licenci, navštivte[tento odkaz](https://purchase.aspose.com/temporary-license/).

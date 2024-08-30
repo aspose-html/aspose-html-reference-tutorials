@@ -61,13 +61,13 @@ String outputFile = "path/to/your/output.xps";
 
 ## Hajtsa végre az átalakítást
 
- Most hajtsa végre a HTML-ről XPS-re való átalakítást az Aspose.HTML segítségével`Converter` osztály.
+Most hajtsa végre a HTML-ről XPS-re való átalakítást az Aspose.HTML segítségével`Converter` osztály.
 
 ```java
 Converter.convertHTML(htmlDocument, options, outputFile);
 ```
 
-Gratulálunk! Sikeresen konvertált egy HTML-dokumentumot XPS-re az Aspose.HTML for Java használatával.
+Gratulálok! Sikeresen konvertált egy HTML-dokumentumot XPS-re az Aspose.HTML for Java használatával.
 
 ## Következtetés
 

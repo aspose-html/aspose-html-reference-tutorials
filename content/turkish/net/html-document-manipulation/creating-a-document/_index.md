@@ -2,46 +2,46 @@
 title: Aspose.HTML ile .NET'te Belge Oluşturma
 linktitle: .NET'te Belge Oluşturma
 second_title: Aspose.HTML .NET HTML işleme API'si
-description: .NET için Aspose.HTML'nin gücünü açığa çıkarın. HTML ve SVG Belgelerini Kolaylıkla Oluşturmayı, Düzenlemeyi ve Optimize Etmeyi Öğrenin. Adım Adım Örnekleri ve SSS'leri keşfedin.
+description: .NET için Aspose.HTML'nin Gücünü Serbest Bırakın. HTML ve SVG Belgelerini Kolayca Oluşturmayı, Düzenlemeyi ve Optimize Etmeyi Öğrenin. Adım Adım Örnekleri ve SSS'leri keşfedin.
 type: docs
 weight: 14
 url: /tr/net/html-document-manipulation/creating-a-document/
 ---
 
-Sürekli gelişen web geliştirme dünyasında, diğerlerinden önde olmak çok önemlidir. Aspose.HTML for .NET, geliştiricilere HTML belgeleriyle çalışmak için güçlü bir araç seti sağlar. İster sıfırdan başlıyor olun, ister bir dosyadan yükleme yapıyor, ister bir URL'den çekiyor veya SVG belgelerini kullanıyor olun, bu kitaplık ihtiyacınız olan çok yönlülüğü sunar.
+Sürekli gelişen web geliştirme dünyasında, eğrinin önünde kalmak esastır. Aspose.HTML for .NET, geliştiricilere HTML belgeleriyle çalışmak için sağlam bir araç takımı sağlar. Sıfırdan başlıyor, bir dosyadan yüklüyor, bir URL'den çekiyor veya SVG belgeleriyle uğraşıyor olun, bu kitaplık ihtiyacınız olan çok yönlülüğü sunar.
 
-Bu adım adım kılavuzda, Aspose.HTML for .NET kullanımının temellerini inceleyerek, bu güçlü aracı web geliştirme projelerinizde kullanmak için iyi bir donanıma sahip olmanızı sağlayacağız. Ayrıntılara dalmadan önce yolculuğunuzu başlatmak için önkoşulları ve gerekli ad alanlarını gözden geçirelim.
+Bu adım adım kılavuzda, .NET için Aspose.HTML'i kullanmanın temellerine inerek, web geliştirme projelerinizde bu güçlü aracı kullanmak için iyi donanımlı olduğunuzdan emin olacağız. Ayrıntılara dalmadan önce, yolculuğunuza başlamak için ön koşulları ve gerekli ad alanlarını gözden geçirelim.
 
-## Önkoşullar
+## Ön koşullar
 
-Bu eğitimi başarıyla takip etmek ve Aspose.HTML for .NET'in gücünden yararlanmak için aşağıdaki önkoşullara ihtiyacınız olacak:
+Bu eğitimi başarıyla takip etmek ve .NET için Aspose.HTML'nin gücünden yararlanmak için aşağıdaki ön koşullara ihtiyacınız olacak:
 
-- .NET Framework veya .NET Core yüklü bir Windows makinesi.
-- Visual Studio gibi bir kod düzenleyici.
-- Temel C# programlama bilgisi.
+- .NET Framework veya .NET Core yüklü bir Windows bilgisayarı.
+- Visual Studio benzeri bir kod editörü.
+- C# programlamanın temel bilgisi.
 
-Artık önkoşullarınızı yerine getirdiğinize göre başlayalım.
+Artık ön koşullarınızı tamamladığınıza göre, başlayalım.
 
 ## Ad Alanlarını İçe Aktarma
 
-Aspose.HTML for .NET'i kullanmaya başlamadan önce gerekli ad alanlarını içe aktarmanız gerekir. Bu ad alanları, HTML belgeleriyle çalışmak için hayati önem taşıyan sınıfları ve yöntemleri içerir. Aşağıda içe aktarmanız gereken ad alanlarının listesi verilmiştir:
+.NET için Aspose.HTML kullanmaya başlamadan önce, gerekli ad alanlarını içe aktarmanız gerekir. Bu ad alanları, HTML belgeleriyle çalışmak için hayati önem taşıyan sınıflar ve yöntemler içerir. Aşağıda içe aktarmanız gereken ad alanlarının bir listesi bulunmaktadır:
 
 ```csharp
 using Aspose.Html;
 using Aspose.Html.Dom.Svg;
 ```
 
-Bu ad alanlarının içe aktarılmasıyla artık adım adım örneklere dalmaya hazırsınız.
+Bu ad alanlarını içe aktardıktan sonra artık adım adım örneklere dalmaya hazırsınız.
 
-## Sıfırdan HTML Belgesi Oluşturma
+## Sıfırdan Bir HTML Belgesi Oluşturma
 
-### 1. Adım: Boş bir HTML Belgesini Başlatın
+### Adım 1: Boş bir HTML Belgesi Başlatın
 
 ```csharp
-// Boş bir HTML Belgesini başlatın.
+// Boş bir HTML Belgesi başlatın.
 using (var document = new Aspose.Html.HTMLDocument())
 {
-    // Bir metin öğesi oluşturun ve onu belgeye ekleyin
+    // Bir metin öğesi oluşturun ve bunu belgeye ekleyin
     var text = document.CreateTextNode("Hello World!");
     document.Body.AppendChild(text);
     // Belgeyi diske kaydedin.
@@ -49,45 +49,45 @@ using (var document = new Aspose.Html.HTMLDocument())
 }
 ```
 
-Bu örnekte boş bir HTML belgesi oluşturup bir "Merhaba Dünya!" ekleyerek başlıyoruz. ona mesaj at. Daha sonra belgeyi bir dosyaya kaydediyoruz.
+Bu örnekte, boş bir HTML belgesi oluşturarak ve ona bir "Hello World!" metni ekleyerek başlıyoruz. Daha sonra belgeyi bir dosyaya kaydediyoruz.
 
-## Dosyadan HTML Belgesi Oluşturma
+## Bir Dosyadan HTML Belgesi Oluşturma
 
-### 1. Adım: Bir 'document.html' dosyası hazırlayın
+### Adım 1: Bir 'document.html' dosyası hazırlayın
 
 ```csharp
 System.IO.File.WriteAllText("document.html", "Hello World!");
 ```
 
-### 2. Adım: 'document.html' dosyasından yükleyin
+### Adım 2: 'document.html' dosyasından yükleyin
 
 ```csharp
 using (var document = new Aspose.Html.HTMLDocument("document.html"))
 {
-    // Belge içeriğini çıktı akışına yazın.
+    // Belge içeriğini çıktı akışına yaz.
     Console.WriteLine(document.DocumentElement.OuterHTML);
 }
 ```
 
-Burada "Merhaba Dünya!" başlıklı bir dosya hazırlıyoruz. içeriği oluşturun ve ardından onu bir HTML belgesi olarak yükleyin. Belgenin içeriğini konsola yazdırıyoruz.
+Burada, "Hello World!" içeriğine sahip bir dosya hazırlıyoruz ve ardından bunu bir HTML belgesi olarak yüklüyoruz. Belgenin içeriğini konsola yazdırıyoruz.
 
 ## URL'den HTML Belgesi Oluşturma
 
-### 1. Adım: Bir web sayfasından belge yükleyin
+### Adım 1: Bir web sayfasından bir belge yükleyin
 
 ```csharp
 using (var document = new Aspose.Html.HTMLDocument("https://html.spec.whatwg.org/multipage/introduction.html"))
 {
-    // Belge içeriğini çıktı akışına yazın.
+    // Belge içeriğini çıktı akışına yaz.
     Console.WriteLine(document.DocumentElement.OuterHTML);
 }
 ```
 
-Bu örnekte, bir HTML belgesini doğrudan bir web sayfasından yüklüyoruz ve içeriğini görüntülüyoruz.
+Bu örnekte bir HTML belgesini doğrudan bir web sayfasından yükleyip içeriğini görüntülüyoruz.
 
 ## Bir Dizeden HTML Belgesi Oluşturma
 
-### 1. Adım: Bir HTML kodu hazırlayın
+### Adım 1: Bir HTML kodu hazırlayın
 
 ```csharp
 var html_code = "<p>Hello World!</p>";
@@ -103,11 +103,11 @@ using (var document = new Aspose.Html.HTMLDocument(html_code, "."))
 }
 ```
 
-Burada bir string değişkeninden bir HTML belgesi oluşturup bunu bir dosyaya kaydediyoruz.
+Burada bir dize değişkeninden bir HTML belgesi oluşturup bunu bir dosyaya kaydediyoruz.
 
-## MemoryStream'den HTML Belgesi Oluşturma
+## MemoryStream'den bir HTML Belgesi Oluşturma
 
-### 1. Adım: Bir bellek akışı nesnesi oluşturun
+### Adım 1: Bir bellek akışı nesnesi oluşturun
 
 ```csharp
 using (var mem = new System.IO.MemoryStream())
@@ -115,7 +115,7 @@ using (var sw = new System.IO.StreamWriter(mem))
 {
     // HTML Kodunu bellek nesnesine yazın
     sw.Write("<p>Hello World!</p>");
-    // Konumu başlangıca ayarla
+    // Pozisyonu başlangıca ayarlayın
     sw.Flush();
     mem.Seek(0, System.IO.SeekOrigin.Begin);
     // Belgeyi bellek akışından başlat
@@ -129,19 +129,19 @@ using (var sw = new System.IO.StreamWriter(mem))
 
 Bu örnekte, bir bellek akışından bir HTML belgesi oluşturup bunu bir dosyaya kaydediyoruz.
 
-## SVG Belgeleriyle Çalışmak
+## SVG Belgeleriyle Çalışma
 
-### 1. Adım: SVG Belgesini bir dizeden başlatın
+### Adım 1: SVG Belgesini bir dizeden başlatın
 
 ```csharp
-using (var document = new Aspose.Html.Dom.Svg.SVGDocument("<svg xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='40'/></svg>", "."))
+using (var document = new Aspose.Html.Dom.Svg.SVGDocument("<svg xmlns='http://www.w3.org/2000/svg'><daire cx='50' cy='50' r='40'/></svg>", "."))
 {
-    // Belge içeriğini çıktı akışına yazın.
+    // Belge içeriğini çıktı akışına yaz.
     Console.WriteLine(document.DocumentElement.OuterHTML);
 }
 ```
 
-Burada bir dizeden bir SVG belgesi oluşturup görüntülüyoruz.
+Burada bir dizgeden bir SVG belgesi oluşturup görüntülüyoruz.
 
 ## Bir HTML Belgesini Eşzamansız Olarak Yükleme
 
@@ -151,12 +151,12 @@ Burada bir dizeden bir SVG belgesi oluşturup görüntülüyoruz.
 var document = new Aspose.Html.HTMLDocument();
 ```
 
-### 2. Adım: 'ReadyStateChange' etkinliğine abone olun
+### Adım 2: 'ReadyStateChange' etkinliğine abone olun
 
 ```csharp
 document.OnReadyStateChange += (sender, @event) =>
 {
-    //'ReadyState' özelliğinin değerini kontrol edin.
+    // 'ReadyState' özelliğinin değerini kontrol edin.
     if (document.ReadyState == "complete")
     {
         Console.WriteLine(document.DocumentElement.OuterHTML);
@@ -173,9 +173,9 @@ Console.WriteLine("Waiting for loading...");
 Console.ReadLine();
 ```
 
-Bu örnekte, bir HTML belgesini eşzamansız olarak yüklüyoruz ve yükleme tamamlandığında içeriği görüntülemek için 'ReadyStateChange' olayını işliyoruz.
+Bu örnekte, bir HTML belgesini eş zamanlı olarak yüklüyoruz ve yükleme tamamlandığında içeriği görüntülemek için 'ReadyStateChange' olayını işliyoruz.
 
-## 'Yükte' Olayını Yönetme
+## 'OnLoad' Olayının İşlenmesi
 
 ### Adım 1: HTML Belgesi örneğini oluşturun
 
@@ -183,7 +183,7 @@ Bu örnekte, bir HTML belgesini eşzamansız olarak yüklüyoruz ve yükleme tam
 var document = new Aspose.Html.HTMLDocument();
 ```
 
-### 2. Adım: 'Yükte' etkinliğine abone olun
+### Adım 2: 'OnLoad' etkinliğine abone olun
 
 ```csharp
 document.OnLoad += (sender, @event) =>
@@ -201,36 +201,36 @@ Console.WriteLine("Waiting for loading...");
 Console.ReadLine();
 ```
 
-Bu örnek, bir HTML belgesinin eşzamansız olarak yüklenmesini ve tamamlandığında içeriğin görüntülenmesi için 'Yüklendiğinde' olayının işlenmesini gösterir.
+Bu örnek, bir HTML belgesinin eş zamanlı olarak yüklenmesini ve tamamlandığında içeriği görüntülemek için 'OnLoad' olayının işlenmesini göstermektedir.
 
 ## Sonuç olarak
 
-Web geliştirmenin dinamik dünyasında, doğru araçların elinizin altında olması çok önemlidir. Aspose.HTML for .NET, sizi HTML ve SVG belgelerini verimli bir şekilde oluşturma, değiştirme ve işleme araçlarıyla donatır. Bu kapsamlı kılavuz, projelerinizde Aspose.HTML for .NET'in gücünden yararlanabilmenizi sağlayacak temel bilgiler konusunda size yol gösterdi.
+Dinamik web geliştirme dünyasında, emrinizde doğru araçlara sahip olmak çok önemlidir. Aspose.HTML for .NET, HTML ve SVG belgelerini verimli bir şekilde oluşturmanız, düzenlemeniz ve işlemeniz için gereken araçları sağlar. Bu kapsamlı kılavuz, projelerinizde Aspose.HTML for .NET'in gücünden yararlanabilmenizi sağlayarak sizi temel konularda yönlendirmiştir.
 
-## SSS'ler
+## SSS
 
-### S1: Aspose.HTML for .NET nedir?
+### S1: .NET için Aspose.HTML nedir?
 
-Cevap1: Aspose.HTML for .NET, geliştiricilerin HTML ve SVG belgeleriyle çalışmasına olanak tanıyan güçlü bir .NET kitaplığıdır. Sıfırdan belge oluşturmaktan mevcut HTML ve SVG dosyalarını ayrıştırmaya ve değiştirmeye kadar çok çeşitli özellikler sunar.
+A1: Aspose.HTML for .NET, geliştiricilerin HTML ve SVG belgeleriyle çalışmasını sağlayan güçlü bir .NET kütüphanesidir. Sıfırdan belge oluşturmaktan mevcut HTML ve SVG dosyalarını ayrıştırmaya ve düzenlemeye kadar çok çeşitli özellikler sunar.
 
-### S2: Aspose.HTML for .NET'i .NET Core ile kullanabilir miyim?
+### S2: .NET Core ile Aspose.HTML for .NET'i kullanabilir miyim?
 
-C2: Evet, Aspose.HTML for .NET hem .NET Framework hem de .NET Core ile uyumludur, bu da onu modern .NET uygulamaları için çok yönlü bir seçim haline getiriyor.
+C2: Evet, Aspose.HTML for .NET hem .NET Framework hem de .NET Core ile uyumludur ve bu da onu modern .NET uygulamaları için çok yönlü bir seçenek haline getirir.
 
 ### S3: Aspose.HTML for .NET web kazıma ve ayrıştırma için uygun mudur?
 
-A3: Kesinlikle! Aspose.HTML for .NET, HTML belgelerini URL'lerden ve dizelerden yükleme yeteneği sayesinde web kazıma ve ayrıştırma görevleri için mükemmel bir seçimdir. Verileri çıkarabilir, analiz gerçekleştirebilir ve daha fazlasını yapabilirsiniz.
+C3: Kesinlikle! Aspose.HTML for .NET, URL'lerden ve dizelerden HTML belgeleri yükleme yeteneği sayesinde web kazıma ve ayrıştırma görevleri için mükemmel bir seçimdir. Veri çıkarabilir, analiz gerçekleştirebilir ve daha fazlasını yapabilirsiniz.
 
 ### S4: Aspose.HTML for .NET desteğine nasıl erişebilirim?
 
- Cevap4: Aspose.HTML for .NET'i kullanırken herhangi bir sorunla karşılaşırsanız veya sorularınız olursa şu adresi ziyaret edebilirsiniz:[Aspose Forumu](https://forum.aspose.com/) Topluluktan ve Aspose uzmanlarından destek ve yardım için.
+ A4: Aspose.HTML for .NET kullanırken herhangi bir sorunla karşılaşırsanız veya sorularınız varsa, şu adresi ziyaret edebilirsiniz:[Aspose Forum](https://forum.aspose.com/) Topluluktan ve Aspose uzmanlarından destek ve yardım için.
 
-### Cevap5: Ayrıntılı belgeleri ve indirme seçeneklerini nerede bulabilirim?
+### C5: Ayrıntılı dokümantasyonu ve indirme seçeneklerini nerede bulabilirim?
 
-Cevap5: Kapsamlı belgeler ve indirme seçeneklerine erişim için aşağıdaki bağlantılara başvurabilirsiniz:
+C5: Kapsamlı dokümantasyon ve indirme seçeneklerine erişim için aşağıdaki bağlantılara başvurabilirsiniz:
 
-- [Dokümantasyon](https://reference.aspose.com/html/net/)
+- [Belgeleme](https://reference.aspose.com/html/net/)
 - [İndirmek](https://releases.aspose.com/html/net/)
 - [Satın almak](https://purchase.aspose.com/buy)
-- [Ücretsiz deneme](https://releases.aspose.com/)
+- [Ücretsiz Deneme](https://releases.aspose.com/)
 - [Geçici Lisans](https://purchase.aspose.com/temporary-license/)

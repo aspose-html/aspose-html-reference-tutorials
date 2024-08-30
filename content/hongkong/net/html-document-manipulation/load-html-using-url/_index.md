@@ -30,11 +30,11 @@ url: /zh-hant/net/html-document-manipulation/load-html-using-url/
 
 文字編輯器對於編寫和編輯程式碼至關重要。您可以選擇您喜歡的文字編輯器，但 Visual Studio 也提供了程式碼編輯器以方便您使用。
 
-現在我們已經滿足了先決條件，讓我們深入了解如何開始使用 Aspose.HTML for .NET 的詳細資訊。
+現在我們已經滿足了先決條件，讓我們深入了解如何開始使用 Aspose.HTML for .NET。
 
 ## 導入命名空間
 
-使用 Aspose.HTML for .NET 的第一步是將所需的命名空間匯入到您的專案中。這將使您能夠無縫存取該庫的功能。按著這些次序：
+使用 Aspose.HTML for .NET 的第一步是將所需的命名空間匯入到您的專案中。這將使您能夠無縫存取該庫的功能。請依照下列步驟操作：
 
 ### 1. 建立一個新項目
 
@@ -86,7 +86,7 @@ Console.WriteLine(document.Body.InnerHTML);
 
 在這份綜合指南中，我們探討了使用 Aspose.HTML for .NET 的基本面，從先決條件到導入命名空間以及分解實際範例。掌握這些知識後，您可以更深入地了解這個強大程式庫的功能，並使用它來增強您的 Web 開發專案。
 
-透過將 Aspose.HTML for .NET 合併到您的工具包中，您可以在 HTML 操作和渲染方面取得顯著的效果。無論您是經驗豐富的開發人員還是 .NET 世界的新手，Aspose.HTML 都可以讓您建立動態 Web 應用程式並簡化您的開發流程。
+透過將 Aspose.HTML for .NET 合併到您的工具包中，您可以在 HTML 操作和渲染方面取得顯著的效果。無論您是經驗豐富的開發人員還是 .NET 世界的新手，Aspose.HTML 都使您能夠建立動態 Web 應用程式並簡化您的開發流程。
 
 釋放 Aspose.HTML for .NET 的潛力，並為 Web 開發創新打開新的大門。
 

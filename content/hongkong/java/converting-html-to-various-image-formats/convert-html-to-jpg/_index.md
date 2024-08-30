@@ -53,7 +53,7 @@ HTMLDocument document = new HTMLDocument("document.html");
 
 ## 配置影像保存選項
 
-現在，配置`ImageSaveOptions`指定要儲存影像的格式。在本例中，我們將轉換為 JPEG。
+現在，配置`ImageSaveOptions`指定要儲存影像的格式。
 
 ```java
 ImageSaveOptions options = new ImageSaveOptions(ImageFormat.Jpeg);
@@ -85,7 +85,7 @@ Aspose.HTML for Java 簡化了將 HTML 轉換為 JPG 的過程，使其成為開
 
 如果您還有任何其他問題或需要支持，請隨時訪問[Aspose.HTML for Java 文檔](https://reference.aspose.com/html/java/)或聯繫[Aspose 支援論壇](https://forum.aspose.com/).
 
-## 經常問的問題
+## 常見問題解答
 
 ### 什麼是 Java 版 Aspose.HTML？
 Aspose.HTML for Java 是一個 Java 函式庫，可讓開發人員處理 HTML 文件並執行各種操作，包括 HTML 到 JPG 的轉換。

@@ -29,7 +29,7 @@ Zde jsou odkazy na některé užitečné zdroje:
 
 ## Aspose.HTML pro výukové programy Java
 {{% alert color="primary" %}}
-Prozkoumejte obsáhlou sbírku výukových programů na Aspose.HTML pro Java, které nabízejí podrobné pokyny a vhled do všestranných funkcí této výkonné knihovny. Ať už jste vývojář, který chce upravit okraje HTML stránek, implementovat DOM Mutation Observer, manipulovat s HTML5 Canvasem, automatizovat vyplňování HTML formulářů nebo ovládat umění převodu různých formátů, jako je EPUB na obrázky a PDF, tyto výukové programy poskytují krok za krokem krokové pokyny a příklady kódu pro zlepšení vašich dovedností ve zpracování HTML. Uvolněte plný potenciál Aspose.HTML pro Javu a snadno zjednodušte svůj vývoj webu a převod dokumentů. 
+Prozkoumejte obsáhlou sbírku výukových programů na Aspose.HTML pro Java, které nabízejí podrobné pokyny a vhled do všestranných funkcí této výkonné knihovny. Ať už jste vývojář, který chce upravit okraje HTML stránek, implementovat DOM Mutation Observer, manipulovat s HTML5 Canvasem, automatizovat vyplňování HTML formulářů nebo ovládat umění převodu různých formátů, jako je EPUB, na obrázky a PDF, tyto výukové programy poskytují krok za krokem krokové pokyny a příklady kódu pro zlepšení vašich dovedností ve zpracování HTML. Uvolněte plný potenciál Aspose.HTML pro Javu a snadno zjednodušte svůj vývoj webu a převod dokumentů. 
 {{% /alert %}}
 
 Zde jsou odkazy na některé užitečné zdroje:

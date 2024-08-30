@@ -65,7 +65,7 @@ Converter.convertEPUB(
 );
 ```
 
-Och det är allt! Du har framgångsrikt konverterat en EPUB-fil till BMP-format med Aspose.HTML för Java.
+Och det är det! Du har framgångsrikt konverterat en EPUB-fil till BMP-format med Aspose.HTML för Java.
 
 Sammanfattningsvis beskriver dessa tre steg hela processen att konvertera EPUB-filer till BMP med Aspose.HTML för Java. Se till att du har de nödvändiga förutsättningarna och de nödvändiga paketen importerade och följ sedan dessa steg för att slutföra konverteringen. Oavsett om du vill konvertera e-böcker, dokument eller annat innehåll i EPUB-format till BMP, förenklar den här guiden processen för dig.
 
@@ -88,4 +88,4 @@ Aspose.HTML för Java ger en pålitlig BMP-konverteringsprocess. Prestanda och u
  Om du stöter på några problem eller behöver hjälp kan du besöka[Aspose supportforum](https://forum.aspose.com/) för hjälp.
 
 ### Vilka andra format stöder Aspose.HTML för Java för konvertering?
- Aspose.HTML för Java stöder olika format, inklusive PDF, XPS och många bildformat. Du kan utforska dokumentationen[här](https://reference.aspose.com/html/java/)för mer detaljer.
+ Aspose.HTML för Java stöder olika format, inklusive PDF, XPS och många bildformat. Du kan utforska dokumentationen[här](https://reference.aspose.com/html/java/)för mer information.

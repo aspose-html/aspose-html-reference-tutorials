@@ -22,7 +22,7 @@ Plátno je jako digitální plátno, kde můžete malovat, kreslit a vytvářet 
 
 ## Snadná úprava obrázků
 
-Aspose.HTML for .NET zjednodušuje úpravy obrázků. Můžete načítat obrázky, používat filtry, upravovat barvy a dokonce vytvářet miniatury. Ať už potřebujete změnit velikost obrázků produktů pro webové stránky elektronického obchodu nebo zlepšit kvalitu uživatelem nahraných avatarů, s touto knihovnou je to hračka.
+Aspose.HTML for .NET zjednodušuje úpravy obrázků. Můžete načítat obrázky, používat filtry, upravovat barvy a dokonce vytvářet miniatury. Ať už potřebujete změnit velikost obrázků produktů pro webovou stránku elektronického obchodu nebo zlepšit kvalitu uživatelem nahraných avatarů, s touto knihovnou je to hračka.
 
 ## Návody krok za krokem
 

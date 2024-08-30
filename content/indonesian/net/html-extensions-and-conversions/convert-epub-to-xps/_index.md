@@ -1,30 +1,30 @@
 ---
-title: Konversikan EPUB ke XPS di .NET dengan Aspose.HTML
-linktitle: Konversikan EPUB ke XPS di .NET
+title: Konversi EPUB ke XPS dalam .NET dengan Aspose.HTML
+linktitle: Konversi EPUB ke XPS dalam .NET
 second_title: Aspose.HTML .NET API manipulasi HTML
-description: Pelajari cara mengonversi EPUB ke XPS di .NET menggunakan Aspose.HTML untuk .NET. Ikuti panduan langkah demi langkah kami untuk konversi yang mudah.
+description: Pelajari cara mengonversi EPUB ke XPS dalam format .NET menggunakan Aspose.HTML untuk .NET. Ikuti panduan langkah demi langkah kami untuk konversi yang mudah.
 type: docs
 weight: 13
 url: /id/net/html-extensions-and-conversions/convert-epub-to-xps/
 ---
 
-Apakah Anda mencari cara mudah untuk mengonversi file EPUB ke format XPS di aplikasi .NET Anda? Aspose.HTML untuk .NET memberikan solusi ampuh untuk mencapai hal ini dengan mudah. Dalam panduan langkah demi langkah ini, kami akan memandu Anda melalui proses mengonversi EPUB ke XPS menggunakan Aspose.HTML. Mari kita mulai!
+Apakah Anda mencari cara mudah untuk mengonversi file EPUB ke format XPS di aplikasi .NET Anda? Aspose.HTML untuk .NET menyediakan solusi hebat untuk mencapainya dengan mudah. Dalam panduan langkah demi langkah ini, kami akan memandu Anda melalui proses mengonversi EPUB ke XPS menggunakan Aspose.HTML. Mari kita mulai!
 
 ## Prasyarat
 
-Sebelum Anda mendalami proses konversi EPUB ke XPS, Anda harus memastikan bahwa Anda memiliki prasyarat berikut:
+Sebelum Anda memulai proses konversi EPUB ke XPS, Anda harus memastikan bahwa Anda memiliki prasyarat berikut:
 
-### 1. Aspose.HTML untuk Perpustakaan .NET
+### 1. Pustaka Aspose.HTML untuk .NET
 
- Pastikan Anda telah menginstal pustaka Aspose.HTML untuk .NET di proyek Anda. Jika Anda belum melakukannya, Anda bisa mendapatkannya dari[Aspose.HTML untuk halaman Unduh .NET](https://releases.aspose.com/html/net/).
+ Pastikan Anda telah menginstal pustaka Aspose.HTML for .NET di proyek Anda. Jika Anda belum melakukannya, Anda dapat memperolehnya dari[Aspose.HTML untuk halaman unduhan .NET](https://releases.aspose.com/html/net/).
 
-### 2. Masukkan File EPUB
+### 2. Masukkan berkas EPUB
 
-Anda memerlukan file EPUB yang ingin Anda konversi ke XPS. Pastikan Anda memiliki file EPUB yang tersedia untuk konversi.
+Anda memerlukan file EPUB yang ingin dikonversi ke XPS. Pastikan Anda memiliki file EPUB yang tersedia untuk konversi.
 
 ### 3. Lingkungan Pengembangan .NET
 
-Panduan ini mengasumsikan Anda telah menyiapkan lingkungan pengembangan .NET yang berfungsi di mesin Anda.
+Panduan ini mengasumsikan Anda telah memiliki lingkungan pengembangan .NET yang berfungsi pada komputer Anda.
 
 ## Impor Ruang Nama
 
@@ -36,9 +36,9 @@ using Aspose.Html.Converters;
 using Aspose.Html.Drawing;
 ```
 
-## Konversikan EPUB ke XPS
+## Konversi EPUB ke XPS
 
-Mari kita uraikan proses konversi file EPUB ke format XPS menjadi beberapa langkah.
+Mari kita uraikan proses mengonversi berkas EPUB ke format XPS menjadi beberapa langkah.
 
 ### Langkah 1.1: Buka File EPUB
 
@@ -48,13 +48,13 @@ Pertama, buka file EPUB yang ada untuk dibaca menggunakan FileStream:
 string dataDir = "Your Data Directory";
 using (var stream = System.IO.File.OpenRead(dataDir + "input.epub"))
 {
-    // Lanjutkan dengan proses konversi
+    // Lanjutkan proses konversi
 }
 ```
 
 ### Langkah 1.2: Buat XpsSaveOptions
 
-Buat sebuah instance dari XpsSaveOptions. Langkah ini penting untuk mengonfigurasi keluaran XPS:
+Buat contoh XpsSaveOptions. Langkah ini penting untuk mengonfigurasi keluaran XPS:
 
 ```csharp
 var options = new XpsSaveOptions();
@@ -62,19 +62,19 @@ var options = new XpsSaveOptions();
 
 ### Langkah 1.3: Konversi EPUB ke XPS
 
-Sekarang, panggil metode ConvertEPUB untuk mengonversi EPUB ke XPS:
+Sekarang, mari panggil metode ConvertEPUB untuk mengonversi EPUB ke XPS:
 
 ```csharp
 ConvertEPUB(stream, options, "output.xps");
 ```
 
-## Tentukan Opsi XPS Khusus
+## Tentukan Opsi XPS Kustom
 
-Anda dapat menyesuaikan lebih lanjut keluaran XPS dengan menentukan opsi khusus seperti ukuran halaman dan warna latar belakang.
+Anda dapat menyesuaikan keluaran XPS lebih lanjut dengan menentukan opsi khusus seperti ukuran halaman dan warna latar belakang.
 
 ### Langkah 2.1: Ukuran Halaman Kustom dan Warna Latar Belakang
 
-Buat instance XpsSaveOptions dengan ukuran halaman khusus dan warna latar belakang:
+Buat contoh XpsSaveOptions dengan ukuran halaman dan warna latar belakang khusus:
 
 ```csharp
 var options = new XpsSaveOptions()
@@ -98,24 +98,24 @@ Sekarang, panggil metode ConvertEPUB untuk mengonversi EPUB ke XPS dengan opsi k
 ConvertEPUB(stream, options, "output.xps");
 ```
 
-## Gunakan Penyedia Aliran Khusus
+## Gunakan Penyedia Aliran Kustom
 
-Pada langkah ini, kami akan mengonversi EPUB ke XPS menggunakan penyedia streaming khusus, sehingga Anda dapat memanipulasi data yang dihasilkan.
+Pada langkah ini, kami akan mengonversi EPUB ke XPS menggunakan penyedia aliran khusus, yang memungkinkan Anda memanipulasi data yang dihasilkan.
 
 ### Langkah 3.1: Buat MemoryStreamProvider
 
-Buat sebuah instance dari MemoryStreamProvider:
+Buat contoh MemoryStreamProvider:
 
 ```csharp
 using (var streamProvider = new MemoryStreamProvider())
 {
-    // Lanjutkan dengan proses konversi
+    // Lanjutkan proses konversi
 }
 ```
 
 ### Langkah 3.2: Konversi EPUB ke XPS dengan Penyedia Streaming
 
-Konversikan EPUB ke XPS dengan menggunakan MemoryStreamProvider:
+Konversi EPUB ke XPS dengan menggunakan MemoryStreamProvider:
 
 ```csharp
 ConvertEPUB(stream, new XpsSaveOptions(), streamProvider);
@@ -135,7 +135,7 @@ using (System.IO.FileStream fs = System.IO.File.Create("output.xps"))
 }
 ```
 
-### Kode Sumber MemoryStreamProvider Kelas
+### Kode Sumber Kelas MemoryStreamProvider
 
 ```csharp
 class MemoryStreamProvider : Aspose.Html.IO.ICreateStreamProvider
@@ -151,14 +151,14 @@ class MemoryStreamProvider : Aspose.Html.IO.ICreateStreamProvider
             }
             public System.IO.Stream GetStream(string name, string extension, int page)
             {
-                // Metode ini dipanggil ketika pembuatan beberapa aliran keluaran diperlukan. Misalnya selama rendering HTML ke daftar file gambar (JPG, PNG, dll.)
+                // Metode ini dipanggil saat diperlukan pembuatan beberapa aliran output. Misalnya saat merender HTML ke daftar file gambar (JPG, PNG, dll.)
                 System.IO.MemoryStream result = new System.IO.MemoryStream();
                 Streams.Add(result);
                 return result;
             }
             public void ReleaseStream(System.IO.Stream stream)
             {
-                // Di sini Anda dapat melepaskan aliran yang berisi data dan, misalnya, mengalirkannya ke hard-drive
+                // Di sini Anda dapat melepaskan aliran yang diisi dengan data dan, misalnya, membuangnya ke hard-drive
             }
             public void Dispose()
             {
@@ -168,27 +168,27 @@ class MemoryStreamProvider : Aspose.Html.IO.ICreateStreamProvider
             }
         }
 ```
-Selamat! Anda telah berhasil mengonversi file EPUB ke format XPS menggunakan Aspose.HTML untuk .NET.
+Selamat! Anda berhasil mengonversi file EPUB ke format XPS menggunakan Aspose.HTML untuk .NET.
 
 ## Kesimpulan
 
-Dalam tutorial komprehensif ini, kami mempelajari cara memanfaatkan Aspose.HTML untuk .NET untuk mengonversi file EPUB ke format XPS dengan berbagai opsi penyesuaian. Baik Anda seorang pengembang berpengalaman atau baru memulai, Aspose.HTML menyederhanakan prosesnya, memungkinkan Anda menangani konversi EPUB ke XPS dengan mudah.
+Dalam tutorial komprehensif ini, kami menjajaki cara memanfaatkan Aspose.HTML untuk .NET guna mengonversi file EPUB ke format XPS dengan berbagai opsi penyesuaian. Baik Anda pengembang berpengalaman atau baru memulai, Aspose.HTML menyederhanakan proses, sehingga Anda dapat menangani konversi EPUB ke XPS dengan mudah.
 
- Ada pertanyaan atau mengalami masalah? Lihat[Dokumentasi Aspose.HTML](https://reference.aspose.com/html/net/) untuk wawasan lebih lanjut atau mencari bantuan dari[Forum Komunitas Aspose.HTML](https://forum.aspose.com/).
+ Punya pertanyaan atau mengalami masalah? Lihat[Dokumentasi Aspose.HTML](https://reference.aspose.com/html/net/) untuk wawasan lebih lanjut atau mencari bantuan dari[Forum Komunitas Aspose.HTML](https://forum.aspose.com/).
 
 ## Pertanyaan yang Sering Diajukan
 
 ### Apa itu Aspose.HTML untuk .NET?
-Aspose.HTML untuk .NET adalah perpustakaan canggih yang memungkinkan pengembang bekerja dengan dokumen HTML, EPUB, dan XPS dalam aplikasi .NET.
+Aspose.HTML untuk .NET adalah pustaka hebat yang memungkinkan pengembang untuk bekerja dengan dokumen HTML, EPUB, dan XPS dalam aplikasi .NET.
 
 ### Di mana saya dapat mengunduh Aspose.HTML untuk .NET?
- Anda dapat mengunduh Aspose.HTML untuk .NET dari[Unduh Halaman](https://releases.aspose.com/html/net/).
+ Anda dapat mengunduh Aspose.HTML untuk .NET dari[halaman unduhan](https://releases.aspose.com/html/net/).
 
 ### Apakah ada uji coba gratis yang tersedia untuk Aspose.HTML untuk .NET?
  Ya, Anda bisa mendapatkan uji coba gratis dari[Di Sini](https://releases.aspose.com/).
 
-### Bagaimana saya bisa mendapatkan lisensi sementara Aspose.HTML untuk .NET?
+### Bagaimana cara memperoleh lisensi sementara untuk Aspose.HTML untuk .NET?
  Untuk mendapatkan lisensi sementara, kunjungi[halaman lisensi sementara](https://purchase.aspose.com/temporary-license/).
 
-### Di mana saya dapat menemukan lebih banyak tutorial dan dokumentasi untuk Aspose.HTML untuk .NET?
- Jelajahi beragam tutorial dan dokumentasi mendetail di[Dokumentasi Aspose.HTML](https://reference.aspose.com/html/net/) halaman.
+### Di mana saya dapat menemukan lebih banyak tutorial dan dokumentasi untuk Aspose.HTML for .NET?
+ Jelajahi berbagai tutorial dan dokumentasi terperinci tentang[Dokumentasi Aspose.HTML](https://reference.aspose.com/html/net/) halaman.

@@ -1,36 +1,36 @@
 ---
-title: Aspose.HTML for Java ile SVG'yi XPS'ye dönüştürün
-linktitle: SVG'yi XPS'ye dönüştürme
+title: Java için Aspose.HTML ile SVG'yi XPS'e dönüştürün
+linktitle: SVG'yi XPS'e dönüştürme
 second_title: Aspose.HTML ile Java HTML İşleme
-description: Aspose.HTML for Java ile SVG'yi XPS'ye nasıl dönüştüreceğinizi öğrenin. Sorunsuz dönüşümler için basit, adım adım kılavuz.
+description: Java için Aspose.HTML ile SVG'yi XPS'e nasıl dönüştüreceğinizi öğrenin. Sorunsuz dönüşümler için basit, adım adım kılavuz.
 type: docs
 weight: 16
 url: /tr/java/conversion-html-to-other-formats/convert-svg-to-xps/
 ---
 
-Ölçeklenebilir Vektör Grafikleri (SVG) dosyalarını sorunsuz bir şekilde XPS formatına dönüştürmek istiyorsanız Aspose.HTML for Java güçlü bir çözüm sunar. Bu adım adım kılavuz, Aspose.HTML'nin Java kütüphanesini kullanarak SVG'yi XPS'ye dönüştürme sürecinde size yol gösterecektir. Teknik ayrıntılara dalmadan önce ihtiyacınız olan her şeye sahip olduğunuzdan ve ön koşulları anladığınızdan emin olalım.
+Ölçeklenebilir Vektör Grafikleri (SVG) dosyalarını sorunsuz bir şekilde XPS formatına dönüştürmek istiyorsanız, Java için Aspose.HTML güçlü bir çözüm sunar. Bu adım adım kılavuz, Aspose.HTML'nin Java kütüphanesini kullanarak SVG'yi XPS'ye dönüştürme sürecinde size yol gösterecektir. Teknik ayrıntılara dalmadan önce, ihtiyacınız olan her şeye sahip olduğunuzdan ve ön koşulları anladığınızdan emin olalım.
 
-## Önkoşullar
+## Ön koşullar
 
-Başlamadan önce aşağıdakilerin yerinde olduğundan emin olun:
+Başlamadan önce aşağıdakilerin mevcut olduğundan emin olun:
 
 1. Java Geliştirme Ortamı
 
- Makinenizde bir Java geliştirme ortamı kurulu olmalıdır. Java yüklü değilse, adresinden en son sürümü indirip yükleyin.[Java'nın web sitesi](https://www.oracle.com/java/technologies/javase-downloads.html).
+ Makinenizde bir Java geliştirme ortamı kurulu olmalıdır. Java yüklü değilse, en son sürümü şu adresten indirip yükleyin:[Java'nın web sitesi](https://www.oracle.com/java/technologies/javase-downloads.html).
 
 2. Java için Aspose.HTML
 
-Java için Aspose.HTML'ye sahip olmanız gerekir. Henüz edinmediyseniz Aspose web sitesinden indirebilirsiniz. Ziyaret etmek[Java için Aspose.HTML](https://releases.aspose.com/html/java/) Gerekli kütüphaneleri almak için.
+Java için Aspose.HTML'e sahip olmanız gerekir. Henüz edinmediyseniz, Aspose web sitesinden indirebilirsiniz. Ziyaret edin[Java için Aspose.HTML](https://releases.aspose.com/html/java/) Gerekli kütüphaneleri edinmek için.
 
 3. SVG Belgesi
 
-XPS'ye dönüştürmek istediğiniz bir SVG belgeniz olmalıdır. Bu SVG dosyasının yolunu bildiğinizden emin olun.
+XPS'e dönüştürmek istediğiniz bir SVG belgeniz olmalı. Bu SVG dosyasının yolunu bildiğinizden emin olun.
 
-Artık önkoşullarınızı sıraladığınıza göre, Aspose.HTML for Java kullanarak SVG'yi XPS'ye dönüştürme adımlarına geçelim.
+Artık ön koşullarınızı tamamladığınıza göre, Aspose.HTML for Java kullanarak SVG'yi XPS'e dönüştürme adımlarına geçelim.
 
 ## Paketleri İçe Aktar
 
-Başlangıç olarak gerekli paketleri Java projenize aktarın. Bu adım Aspose.HTML sınıflarına ve yöntemlerine erişmek için gereklidir.
+Başlamak için, gerekli paketleri Java projenize aktarın. Bu adım, Aspose.HTML sınıflarına ve yöntemlerine erişmek için önemlidir.
 
 ```java
 import com.aspose.html.dom.svg.SVGDocument;
@@ -39,7 +39,7 @@ import com.aspose.html.drawing.Color;
 import com.aspose.html.converters.Converter;
 ```
 
-## 1. Adım: SVG Belgesini Yükleyin
+## Adım 1: SVG Belgesini Yükleyin
 
 Öncelikle SVG dosyanızı yükleyerek bir SVGDocument örneği oluşturun.
 
@@ -47,7 +47,7 @@ import com.aspose.html.converters.Converter;
 SVGDocument svgDocument = new SVGDocument("path-to-your-input.svg");
 ```
 
-## 2. Adım: XPS Dönüşümünü Yapılandırın
+## Adım 2: XPS Dönüşümünü Yapılandırın
 
 XpsSaveOptions'ı başlatın ve dönüştürme ayarlarını gerektiği gibi özelleştirin. Arka plan rengi gibi özellikleri ayarlayabilirsiniz.
 
@@ -56,7 +56,7 @@ XpsSaveOptions options = new XpsSaveOptions();
 options.setBackgroundColor(Color.getCyan());
 ```
 
-## Adım 3: Çıkış Yolunu Tanımlayın
+## Adım 3: Çıktı Yolunu Tanımlayın
 
 Dönüştürülen XPS dosyasını kaydetmek istediğiniz yolu belirtin.
 
@@ -64,9 +64,9 @@ Dönüştürülen XPS dosyasını kaydetmek istediğiniz yolu belirtin.
 String outputFile = "path-to-your-output.xps";
 ```
 
-## 4. Adım: SVG'yi XPS'ye dönüştürün
+## Adım 4: SVG'yi XPS'e dönüştürün
 
-Şimdi Dönüştürücünün ConvertSVG yöntemini çağırarak dönüştürmeyi yürütün. Parametre olarak SVGDocument'i, seçenekleri ve çıktı dosyası yolunu sağlayın.
+Şimdi, Dönüştürücünün convertSVG metodunu çağırarak dönüştürmeyi gerçekleştirin. Parametre olarak SVGDocument, seçenekler ve çıktı dosyası yolunu sağlayın.
 
 ```java
 Converter.convertSVG(svgDocument, options, outputFile);
@@ -74,26 +74,26 @@ Converter.convertSVG(svgDocument, options, outputFile);
 
 ## Çözüm
 
-Bu basit adımlarla, Aspose.HTML for Java'yı kullanarak SVG belgelerini zahmetsizce XPS formatına dönüştürebilirsiniz. Bu güçlü kitaplık süreci kolaylaştırır ve geliştiriciler için değerli bir araçtır.
+Bu basit adımlarla, Aspose.HTML for Java kullanarak SVG belgelerini zahmetsizce XPS formatına dönüştürebilirsiniz. Bu güçlü kütüphane süreci kolaylaştırır ve geliştiriciler için değerli bir araçtır.
 
-## SSS'ler
+## SSS
 
-### S1: SVG nedir ve onu neden XPS'ye dönüştürmem gerekiyor?
+### S1: SVG nedir ve neden onu XPS'e dönüştürmem gerekir?
 
-A1: Ölçeklenebilir Vektör Grafikleri (SVG), web grafikleri için kullanılan XML tabanlı bir vektör görüntü formatıdır. XPS (XML Kağıt Spesifikasyonu), belgeleri paylaşmak ve yazdırmak için güvenilir bir yol sağlayan sabit belge formatıdır. Yazdırma veya diğer uygulamalar için vektör grafiklerinin kalitesini korumak istediğinizde SVG'yi XPS'ye dönüştürmek gerekli olabilir.
+A1: Ölçeklenebilir Vektör Grafikleri (SVG), web grafikleri için kullanılan XML tabanlı bir vektör görüntü biçimidir. XPS (XML Kağıt Spesifikasyonu), belgeleri paylaşmanın ve yazdırmanın güvenilir bir yolunu sağlayan sabit belge biçimidir. Yazdırma veya diğer uygulamalar için vektör grafiklerinin kalitesini korumak istediğinizde SVG'yi XPS'e dönüştürmek gerekebilir.
 
-### S2: SVG'yi farklı bir arka plan rengiyle XPS'ye dönüştürebilir miyim?
+### S2: SVG'yi farklı bir arka plan rengiyle XPS'e dönüştürebilir miyim?
 
- Cevap2: Evet, dönüştürme işlemi sırasında arka plan rengini özelleştirebilirsiniz. Kılavuzda gösterildiği gibi,`options.setBackgroundColor` tercih ettiğiniz arka plan rengini ayarlama yöntemini kullanın.
+ A2: Evet, dönüştürme işlemi sırasında arka plan rengini özelleştirebilirsiniz. Kılavuzda gösterildiği gibi,`options.setBackgroundColor` Tercih ettiğiniz arka plan rengini ayarlama yöntemi.
 
-### S3: Aspose.HTML for Java'yı kullanırken herhangi bir sınırlama var mı?
+### S3: Java için Aspose.HTML kullanırken herhangi bir sınırlama var mı?
 
-Cevap3: Aspose.HTML for Java sağlam bir kütüphanedir ancak projenizle uyumluluğu sağlamak için dokümantasyonu ve sistem gereksinimlerini gözden geçirmeniz önemlidir.
+C3: Java için Aspose.HTML sağlam bir kütüphanedir, ancak projenizle uyumluluğunu sağlamak için dokümantasyonu ve sistem gereksinimlerini incelemeniz önemlidir.
 
-### S4: Aspose.HTML for Java desteğini nasıl alabilirim?
+### S4: Java için Aspose.HTML desteğini nasıl alabilirim?
 
- C4: Herhangi bir sorunla karşılaşırsanız veya yardıma ihtiyacınız olursa, şu adresi ziyaret edebilirsiniz:[Aspose.HTML Forumu](https://forum.aspose.com/) topluluk desteği için veya Aspose'un destek ekibiyle iletişime geçin.
+ A4: Herhangi bir sorunla karşılaşırsanız veya yardıma ihtiyacınız olursa, şu adresi ziyaret edebilirsiniz:[Aspose.HTML Forum](https://forum.aspose.com/) Topluluk desteği için veya Aspose'un destek ekibiyle iletişime geçin.
 
-### S5: Ücretsiz deneme sürümü var mı?
+### S5: Ücretsiz deneme imkanı var mı?
 
- C5: Evet, Aspose web sitesinden Aspose.HTML for Java'nın ücretsiz deneme sürümüne erişebilirsiniz. Ziyaret etmek[Aspose.HTML Ücretsiz Deneme](https://releases.aspose.com/) başlamak.
+ A5: Evet, Aspose web sitesinden Java için Aspose.HTML'nin ücretsiz deneme sürümüne erişebilirsiniz. Ziyaret edin[Aspose.HTML Ücretsiz Deneme](https://releases.aspose.com/) Başlamak için.

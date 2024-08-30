@@ -91,13 +91,13 @@ Converter.ConvertHTML(htmlDocument, options, outputFile);
 
  The`Converter` třídu poskytuje Aspose.HTML k provedení převodu. Jako parametry bere dokument HTML, možnosti formátu obrázku a cestu k výstupnímu souboru.
 
-Gratulujeme! Úspěšně jste převedli dokument HTML na GIF pomocí Aspose.HTML for .NET. Tento obsáhlý průvodce vás provede každým krokem a zajistí vám jasné pochopení procesu.
+Gratuluji! Úspěšně jste převedli dokument HTML na GIF pomocí Aspose.HTML for .NET. Tento obsáhlý průvodce vás provede každým krokem a zajistí vám jasné pochopení procesu.
 
 ## Závěr
 
 tomto tutoriálu jsme prozkoumali výkonné možnosti Aspose.HTML pro .NET a jak jej použít k převodu HTML na GIF. Se správnými předpoklady a podrobným rozpisem procesu jste nyní dobře vybaveni k využití tohoto nástroje ve svých vývojových projektech .NET. Ať už pracujete na webových aplikacích, sestavách nebo jakýchkoli jiných úlohách souvisejících s HTML, Aspose.HTML for .NET je cenným aktivem ve vaší sadě nástrojů.
 
- Pokud máte nějaké dotazy nebo se během cesty setkáte s nějakými problémy, neváhejte požádat o pomoc komunitu Aspose. Poskytují vynikající podporu prostřednictvím svých[Fórum](https://forum.aspose.com/).
+ Pokud máte nějaké dotazy nebo se během cesty setkáte s nějakými problémy, neváhejte požádat o pomoc komunitu Aspose. Poskytují vynikající podporu prostřednictvím svých[forum](https://forum.aspose.com/).
 
 ## Nejčastější dotazy
 

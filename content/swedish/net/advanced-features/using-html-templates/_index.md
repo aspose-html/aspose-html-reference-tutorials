@@ -109,7 +109,7 @@ Aspose.Html.Converters.Converter.ConvertTemplate(
 );
 ```
 
-Den här koden tar filen "template.html", ersätter platshållarna med motsvarande JSON-värden och sparar resultatet i "document.html."
+Den här koden tar filen "template.html", ersätter platshållarna med motsvarande JSON-värden och sparar resultatet i "document.html".
 
 Grattis! Du har framgångsrikt utnyttjat kraften i Aspose.HTML för .NET för att dynamiskt generera HTML-dokument från JSON-data.
 

@@ -69,7 +69,7 @@ String outputFile = "EPUBtoPDF_Output.pdf";
 Converter.convertEPUB(fileInputStream, options, outputFile);
 ```
 
-Det är allt! Du har framgångsrikt konverterat ett EPUB-dokument till PDF med Aspose.HTML för Java.
+Det är det! Du har framgångsrikt konverterat ett EPUB-dokument till PDF med Aspose.HTML för Java.
 
 ## Slutsats
 

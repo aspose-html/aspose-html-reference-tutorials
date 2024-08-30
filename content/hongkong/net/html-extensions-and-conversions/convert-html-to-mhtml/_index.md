@@ -89,13 +89,13 @@ Converter.ConvertHTML(htmlDocument, options, outputMHTML);
 
 ## 常見問題解答
 
-### 什麼是 MHTML？為什麼要使用它？
+### 什麼是 MHTML？
 
 MHTML 是「MIME HTML」的縮寫，是一種網頁存檔格式，可讓您將網頁及其資源保存在單一檔案中。它通常用於存檔 Web 內容、將網頁作為單一文件共用以及確保包含所有資源（圖像、樣式表等），即使它們託管在不同的伺服器上也是如此。
 
 ### 轉換為 MHTML 時可以自訂資源處理嗎？
 
-是的你可以。如範例所示，您可以使用以下命令設定資源處理規則`ResourceHandlingOptions`的`MHTMLSaveOptions`班級。您可以控制 MHTML 檔案中包含資源的深度。
+是的，你可以。如範例所示，您可以使用以下命令設定資源處理規則`ResourceHandlingOptions`的`MHTMLSaveOptions`班級。您可以控制 MHTML 檔案中包含資源的深度。
 
 ### 在哪裡可以找到有關 Aspose.HTML for .NET 的更多資源和文件？
 
