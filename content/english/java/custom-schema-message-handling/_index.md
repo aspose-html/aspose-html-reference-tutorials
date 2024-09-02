@@ -1,6 +1,6 @@
 ---
 title: Custom Schema and Message Handling in Aspose.HTML for Java
-linktitle: Custom Schema and Message Handling in Aspose.HTML for Java
+linktitle: Custom Schema and Message Handling in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 description: Discover how to master Aspose.HTML for Java with tutorials on custom schema message filtering and handling. Start building tailored applications.
 type: docs

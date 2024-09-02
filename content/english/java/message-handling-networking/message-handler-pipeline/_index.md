@@ -1,6 +1,6 @@
 ---
 title: Creating Message Handler Pipelines in Aspose.HTML for Java
-linktitle: Creating Message Handler Pipelines in Aspose.HTML for Java
+linktitle: Creating Message Handler Pipelines in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 description: Learn how to create message handler pipelines in Aspose.HTML for Java with this detailed, step-by-step guide. Convert ZIPs to PDF effortlessly.
 type: docs

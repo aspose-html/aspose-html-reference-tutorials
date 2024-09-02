@@ -1,6 +1,6 @@
 ---
 title: Convert Memory Stream to File using Aspose.HTML for Java
-linktitle: Convert Memory Stream to File using Aspose.HTML for Java
+linktitle: Convert Memory Stream to File using Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 description: Convert HTML to JPEG with Aspose.HTML for Java using memory streams. Follow this step-by-step guide for seamless HTML to image conversion.
 type: docs

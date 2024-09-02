@@ -1,6 +1,6 @@
 ---
 title: Load HTML Documents from URL in Aspose.HTML for Java
-linktitle: Load HTML Documents from URL in Aspose.HTML for Java
+linktitle: Load HTML Documents from URL in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 description: Discover how to easily load HTML documents from a URL in Java with Aspose.HTML. Step-by-step tutorial included.
 type: docs

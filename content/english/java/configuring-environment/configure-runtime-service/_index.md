@@ -1,6 +1,6 @@
 ---
 title: Configure Runtime Service in Aspose.HTML for Java
-linktitle: Configure Runtime Service in Aspose.HTML for Java
+linktitle: Configure Runtime Service in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 description: Learn how to configure the Runtime Service in Aspose.HTML for Java to optimize script execution, preventing infinite loops, and improving application performance.
 type: docs

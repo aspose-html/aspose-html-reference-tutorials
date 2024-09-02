@@ -1,6 +1,6 @@
 ---
 title: Save HTML Document in Aspose.HTML for Java
-linktitle: Save HTML Document in Aspose.HTML for Java
+linktitle: Save HTML Document in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 description: Learn how to save HTML documents using Aspose.HTML for Java with this comprehensive step-by-step guide designed for beginners and experts.
 type: docs

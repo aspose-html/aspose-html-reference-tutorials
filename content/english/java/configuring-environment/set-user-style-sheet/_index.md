@@ -1,6 +1,6 @@
 ---
 title: Set User Style Sheet in Aspose.HTML for Java
-linktitle: Set User Style Sheet in Aspose.HTML for Java
+linktitle: Set User Style Sheet in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 description: Learn how to set a custom user stylesheet in Aspose.HTML for Java, enhancing your document styling and converting HTML to PDF with ease.
 type: docs

@@ -1,6 +1,6 @@
 ---
 title: ZIP File Schema Handler in Aspose.HTML for Java
-linktitle: ZIP File Schema Handler in Aspose.HTML for Java
+linktitle: ZIP File Schema Handler in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 description: Master ZIP file handling in Java with Aspose.HTML. Learn how to implement a ZIP file schema handler, serving files directly from ZIP archives with detailed, step-by-step guidance.
 type: docs

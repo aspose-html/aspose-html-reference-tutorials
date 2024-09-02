@@ -1,6 +1,6 @@
 ---
 title: Web Request Execution in Aspose.HTML for Java
-linktitle: Web Request Execution in Aspose.HTML for Java
+linktitle: Web Request Execution in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 description: Learn to execute web requests using Aspose.HTML for Java with this comprehensive, step-by-step guide. Enhance your HTML document management skills.
 type: docs

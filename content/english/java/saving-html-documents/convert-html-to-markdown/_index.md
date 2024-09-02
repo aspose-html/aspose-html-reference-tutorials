@@ -1,6 +1,6 @@
 ---
 title: Convert HTML to Markdown in Aspose.HTML for Java
-linktitle: Convert HTML to Markdown in Aspose.HTML for Java
+linktitle: Convert HTML to Markdown in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 description: Easily convert HTML to Markdown using Aspose.HTML for Java. Follow this step-by-step guide for smooth content conversion and manipulation.
 type: docs

@@ -1,6 +1,6 @@
 ---
 title: Manage Inner and Outer HTML Properties in Aspose.HTML for Java
-linktitle: Manage Inner and Outer HTML Properties in Aspose.HTML for Java
+linktitle: Manage Inner and Outer HTML Properties in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 description: Learn how to manage inner and outer HTML properties in Aspose.HTML for Java with this step-by-step guide, perfect for web developers and content creators.
 type: docs

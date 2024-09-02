@@ -1,6 +1,6 @@
 ---
 title: Data Handling and Stream Management in Aspose.HTML for Java
-linktitle: Data Handling and Stream Management in Aspose.HTML for Java
+linktitle: Data Handling and Stream Management in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 description: Explore our Aspose.HTML for Java tutorials, covering how to convert memory streams to files and HTML to JPEG images effortlessly.
 type: docs

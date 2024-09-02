@@ -1,6 +1,6 @@
 ---
 title: Add Inline CSS to HTML Documents in Aspose.HTML for Java
-linktitle: Add Inline CSS to HTML Documents in Aspose.HTML for Java
+linktitle: Add Inline CSS to HTML Documents in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 description: Learn how to add inline CSS to HTML documents using Aspose.HTML for Java. This step-by-step guide helps you style HTML and convert it to PDF with ease.
 type: docs

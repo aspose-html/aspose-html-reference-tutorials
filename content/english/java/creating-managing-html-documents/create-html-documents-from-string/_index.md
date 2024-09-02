@@ -1,6 +1,6 @@
 ---
 title: Create HTML Documents from String in Aspose.HTML for Java
-linktitle: Create HTML Documents from String in Aspose.HTML for Java
+linktitle: Create HTML Documents from String in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 description: Learn how to create HTML documents from strings in Aspose.HTML for Java with this step-by-step guide.
 type: docs

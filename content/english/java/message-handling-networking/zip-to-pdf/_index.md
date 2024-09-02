@@ -1,6 +1,6 @@
 ---
 title: Convert ZIP to PDF with Aspose.HTML for Java
-linktitle: Convert ZIP to PDF with Aspose.HTML for Java
+linktitle: Convert ZIP to PDF with Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 description: Easily convert your ZIP files to PDF using Aspose.HTML for Java with this step-by-step guide.
 type: docs

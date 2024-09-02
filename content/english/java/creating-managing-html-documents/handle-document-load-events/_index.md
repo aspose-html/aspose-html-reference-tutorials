@@ -1,6 +1,6 @@
 ---
 title: Handle Document Load Events in Aspose.HTML for Java
-linktitle: Handle Document Load Events in Aspose.HTML for Java
+linktitle: Handle Document Load Events in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 description: Learn to handle document load events in Aspose.HTML for Java with this step-by-step guide. Enhance your web applications.
 type: docs

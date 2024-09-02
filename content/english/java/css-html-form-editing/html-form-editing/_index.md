@@ -1,6 +1,6 @@
 ---
 title: HTML Form Editing and Submission with Aspose.HTML for Java
-linktitle: HTML Form Editing and Submission with Aspose.HTML for Java
+linktitle: HTML Form Editing and Submission with Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 description: Learn how to edit and submit HTML forms programmatically using Aspose.HTML for Java in this comprehensive step-by-step guide.
 type: docs

@@ -1,6 +1,6 @@
 ---
 title: Apply External CSS to HTML Documents in Aspose.HTML for Java
-linktitle: Apply External CSS to HTML Documents in Aspose.HTML for Java
+linktitle: Apply External CSS to HTML Documents in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 description: Discover how to apply external CSS to HTML documents using Aspose.HTML for Java! Follow this step-by-step guide for a complete tutorial.
 type: docs

@@ -1,6 +1,6 @@
 ---
 title: Mutation Observers and Handlers in Aspose.HTML for Java
-linktitle: Mutation Observers and Handlers in Aspose.HTML for Java
+linktitle: Mutation Observers and Handlers in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 description: Explore Aspose.HTML for Java tutorials covering advanced Mutation Observers and secure Credential Handlers to enhance your web applications.
 type: docs

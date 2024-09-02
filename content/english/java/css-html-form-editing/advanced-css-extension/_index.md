@@ -1,6 +1,6 @@
 ---
 title: Advanced CSS Extension Techniques with Aspose.HTML for Java
-linktitle: Advanced CSS Extension Techniques with Aspose.HTML for Java
+linktitle: Advanced CSS Extension Techniques with Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 description: Learn how to use Aspose.HTML for Java to apply advanced CSS techniques, including custom page margins and dynamic content. A detailed, hands-on tutorial for developers.
 type: docs

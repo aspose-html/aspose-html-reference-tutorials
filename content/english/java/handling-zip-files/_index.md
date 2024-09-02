@@ -1,6 +1,6 @@
 ---
 title: Handling ZIP Files in Aspose.HTML for Java
-linktitle: Handling ZIP Files in Aspose.HTML for Java
+linktitle: Handling ZIP Files in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 description: Unlock the power of Aspose.HTML for Java. Explore tutorials on handling ZIP files and learn essential techniques to manage ZIP archives effectively.
 type: docs

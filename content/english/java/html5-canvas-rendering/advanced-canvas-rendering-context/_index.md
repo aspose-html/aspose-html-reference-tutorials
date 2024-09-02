@@ -1,6 +1,6 @@
 ---
 title: Advanced Canvas Rendering Context in Aspose.HTML for Java
-linktitle: Advanced Canvas Rendering Context in Aspose.HTML for Java
+linktitle: Advanced Canvas Rendering Context in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 description: Create and render HTML5 Canvas with Aspose.HTML for Java. Learn step-by-step how to draw, style, and export to PDF using this powerful Java library.
 type: docs
