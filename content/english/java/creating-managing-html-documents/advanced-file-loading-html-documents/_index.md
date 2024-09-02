@@ -1,6 +1,6 @@
 ---
 title: Advanced File Loading for HTML Documents in Aspose.HTML for Java
-linktitle: Advanced File Loading for HTML Documents in Aspose.HTML for Java
+linktitle: Advanced File Loading for HTML Documents in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 description: Learn how to load, manipulate, and save HTML documents using Aspose.HTML for Java in this step-by-step guide. Unlock advanced HTML processing in your Java projects.
 type: docs

@@ -1,6 +1,6 @@
 ---
 title: Create Empty HTML Documents in Aspose.HTML for Java
-linktitle: Create Empty HTML Documents in Aspose.HTML for Java
+linktitle: Create Empty HTML Documents in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 description: Learn how to create empty HTML documents in Java using Aspose.HTML with our detailed step-by-step tutorial, perfect for developers of all levels.
 type: docs

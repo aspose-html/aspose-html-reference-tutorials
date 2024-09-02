@@ -1,6 +1,6 @@
 ---
 title: Using Credential Handler in Aspose.HTML for Java
-linktitle: Using Credential Handler in Aspose.HTML for Java
+linktitle: Using Credential Handler in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 description: Discover how to implement a secure Credential Handler using Aspose.HTML for Java to manage user authentication effectively.
 type: docs

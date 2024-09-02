@@ -1,6 +1,6 @@
 ---
 title: Comprehensive Aspose.HTML Java Tutorials
-linktitle: Aspose.HTML for Java Tutorials
+linktitle: Aspose.HTML Tutorials
 type: docs
 weight: 10
 url: /java/

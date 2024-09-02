@@ -1,6 +1,6 @@
 ---
 title: Creating and Managing HTML Documents in Aspose.HTML for Java
-linktitle: Creating and Managing HTML Documents in Aspose.HTML for Java
+linktitle: Creating and Managing HTML Documents in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 description: Explore the top tutorials for creating and managing HTML documents using Aspose.HTML for Java. Perfect for Java developers seeking detailed, step-by-step guides.
 type: docs

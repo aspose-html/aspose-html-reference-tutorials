@@ -1,6 +1,6 @@
 ---
 title: Advanced External CSS Editing with Aspose.HTML for Java
-linktitle: Advanced External CSS Editing with Aspose.HTML for Java
+linktitle: Advanced External CSS Editing with Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 description: Master the art of editing external CSS with Aspose.HTML for Java. This detailed, step-by-step guide walks you through creating dynamic, styled HTML documents.
 type: docs

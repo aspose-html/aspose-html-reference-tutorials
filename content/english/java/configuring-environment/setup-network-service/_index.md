@@ -1,6 +1,6 @@
 ---
 title: Set Up Network Service in Aspose.HTML for Java
-linktitle: Set Up Network Service in Aspose.HTML for Java
+linktitle: Set Up Network Service in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 description: Learn how to set up a network service in Aspose.HTML for Java, manage network resources, and convert HTML to PNG with custom error handling.
 type: docs

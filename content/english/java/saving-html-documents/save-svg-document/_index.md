@@ -1,6 +1,6 @@
 ---
 title: Save SVG Document in Aspose.HTML for Java
-linktitle: Save SVG Document in Aspose.HTML for Java
+linktitle: Save SVG Document in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 description: Learn how to save SVG documents using Aspose.HTML for Java with this easy step-by-step guide packed with examples.
 type: docs

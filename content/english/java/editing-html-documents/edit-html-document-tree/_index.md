@@ -1,6 +1,6 @@
 ---
 title: Edit HTML Document Tree in Aspose.HTML for Java
-linktitle: Edit HTML Document Tree in Aspose.HTML for Java
+linktitle: Edit HTML Document Tree in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 description: Discover how to manipulate HTML documents using Aspose.HTML for Java. A step-by-step guide for efficient content management.
 type: docs

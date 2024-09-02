@@ -1,6 +1,6 @@
 ---
 title: Editing HTML Documents in Aspose.HTML for Java
-linktitle: Editing HTML Documents in Aspose.HTML for Java
+linktitle: Editing HTML Documents in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 description: Explore comprehensive Aspose.HTML for Java tutorials. Learn HTML document editing, CSS implementation, and content management with step-by-step guides.
 type: docs

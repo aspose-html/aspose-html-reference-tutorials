@@ -1,6 +1,6 @@
 ---
 title: Manage Network Timeout in Aspose.HTML for Java
-linktitle: Manage Network Timeout in Aspose.HTML for Java
+linktitle: Manage Network Timeout in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 description: Learn how to manage network timeouts using Aspose.HTML for Java in this comprehensive guide. Ensure smooth user experiences with effective timeout handling.
 type: docs

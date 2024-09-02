@@ -1,6 +1,6 @@
 ---
 title: Message Handling and Networking in Aspose.HTML for Java
-linktitle: Message Handling and Networking in Aspose.HTML for Java
+linktitle: Message Handling and Networking in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 description: Master Aspose.HTML for Java with tutorials on message handling, networking, and more. Enhance your document processing skills.
 type: docs

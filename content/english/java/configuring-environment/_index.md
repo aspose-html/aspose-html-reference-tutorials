@@ -1,6 +1,6 @@
 ---
 title: Configuring Environment in Aspose.HTML for Java
-linktitle: Configuring Environment in Aspose.HTML for Java
+linktitle: Configuring Environment in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 description: Explore how to configure the environment in Aspose.HTML for Java. Learn to set character sets, configure fonts, and use message handlers effectively.
 type: docs

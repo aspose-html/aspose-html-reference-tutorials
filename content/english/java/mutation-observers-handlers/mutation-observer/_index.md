@@ -1,6 +1,6 @@
 ---
 title: Advanced Mutation Observer with Aspose.HTML for Java
-linktitle: Advanced Mutation Observer with Aspose.HTML for Java
+linktitle: Advanced Mutation Observer with Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 description: Learn how to implement an advanced Mutation Observer with Aspose.HTML for Java, tracking DOM changes seamlessly. Dive into our step-by-step guide.
 type: docs

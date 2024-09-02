@@ -1,6 +1,6 @@
 ---
 title: ZIP Archive Message Handler in Aspose.HTML for Java
-linktitle: ZIP Archive Message Handler in Aspose.HTML for Java
+linktitle: ZIP Archive Message Handler in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 description: Learn how to create a ZIP Archive Message Handler using Aspose.HTML for Java. This guide breaks down each step to help you efficiently manage and serve files from ZIP archives.
 type: docs

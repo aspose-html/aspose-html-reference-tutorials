@@ -1,6 +1,6 @@
 ---
 title: Create HTML Documents Asynchronously in Aspose.HTML for Java
-linktitle: Create HTML Documents Asynchronously in Aspose.HTML for Java
+linktitle: Create HTML Documents Asynchronously in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 description: Master HTML document creation asynchronously with Aspose.HTML for Java. Step-by-step guide, tips, and FAQs included for swift learning.
 type: docs

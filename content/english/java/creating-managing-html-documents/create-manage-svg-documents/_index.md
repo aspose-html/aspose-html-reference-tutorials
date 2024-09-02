@@ -1,6 +1,6 @@
 ---
 title: Create and Manage SVG Documents in Aspose.HTML for Java
-linktitle: Create and Manage SVG Documents in Aspose.HTML for Java
+linktitle: Create and Manage SVG Documents in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 description: Learn to create and manage SVG documents using Aspose.HTML for Java! This comprehensive guide covers everything from basic creation to advanced manipulation.
 type: docs

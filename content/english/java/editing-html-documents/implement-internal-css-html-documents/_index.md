@@ -1,6 +1,6 @@
 ---
 title: Implement Internal CSS in HTML Documents with Aspose.HTML for Java
-linktitle: Implement Internal CSS in HTML Documents with Aspose.HTML for Java
+linktitle: Implement Internal CSS in HTML Documents with Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 description: Learn to implement internal CSS in HTML documents using Aspose.HTML for Java with our easy step-by-step tutorial.
 type: docs

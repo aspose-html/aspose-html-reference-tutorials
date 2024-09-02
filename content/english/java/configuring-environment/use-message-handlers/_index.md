@@ -1,6 +1,6 @@
 ---
 title: Use Message Handlers in Aspose.HTML for Java
-linktitle: Use Message Handlers in Aspose.HTML for Java
+linktitle: Use Message Handlers in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 description: Learn how to use message handlers in Aspose.HTML for Java to handle missing images and other network operations effectively.
 type: docs

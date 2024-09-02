@@ -1,6 +1,6 @@
 ---
 title: Configure Fonts in Aspose.HTML for Java
-linktitle: Configure Fonts in Aspose.HTML for Java
+linktitle: Configure Fonts in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 description: Learn how to configure fonts in Aspose.HTML for Java with this detailed, step-by-step guide. Enhance your HTML to PDF conversions with custom fonts and styles.
 type: docs

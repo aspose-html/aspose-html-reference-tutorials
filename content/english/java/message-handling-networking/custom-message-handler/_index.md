@@ -1,6 +1,6 @@
 ---
 title: Implement Custom Message Handlers with Aspose.HTML for Java
-linktitle: Implement Custom Message Handlers with Aspose.HTML for Java
+linktitle: Implement Custom Message Handlers with Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 description: Discover how to implement custom message handlers in Aspose.HTML for Java to enhance document processing and handle logs efficiently.
 type: docs

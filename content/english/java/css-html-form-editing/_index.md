@@ -1,6 +1,6 @@
 ---
 title: CSS and HTML Form Editing with Aspose.HTML for Java
-linktitle: CSS and HTML Form Editing with Aspose.HTML for Java
+linktitle: CSS and HTML Form Editing with Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 description: Quickly learn to edit CSS and HTML forms with Aspose.HTML for Java in these insightful tutorials that empower developers with advanced skills.
 type: docs

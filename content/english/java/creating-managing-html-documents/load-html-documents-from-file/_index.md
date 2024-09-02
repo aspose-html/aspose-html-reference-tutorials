@@ -1,6 +1,6 @@
 ---
 title: Load HTML Documents from File in Aspose.HTML for Java
-linktitle: Load HTML Documents from File in Aspose.HTML for Java
+linktitle: Load HTML Documents from File in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 description: Unlock the power of HTML manipulation with Aspose.HTML for Java. Learn to load HTML documents from files with step-by-step tutorials.
 type: docs

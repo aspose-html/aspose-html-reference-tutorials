@@ -1,6 +1,6 @@
 ---
 title: Custom Schema Message Filtering in Aspose.HTML for Java
-linktitle: Custom Schema Message Filtering in Aspose.HTML for Java
+linktitle: Custom Schema Message Filtering in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 description: Learn how to implement a custom schema message filter in Java using Aspose.HTML. Follow our step-by-step guide for a secure, tailored application experience.
 type: docs
