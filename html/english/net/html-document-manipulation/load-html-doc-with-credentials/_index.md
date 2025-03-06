@@ -3,10 +3,16 @@ title: Load HTML Documents with Credentials in .NET with Aspose.HTML
 linktitle: Load HTML Documents with Credentials in .NET
 second_title: Aspose.HTML .NET HTML manipulation API
 description: Learn how to supercharge your SEO with Aspose.HTML for .NET. Boost rankings, analyze web content, and optimize for search engines.
-type: docs
 weight: 11
 url: /net/html-document-manipulation/load-html-doc-with-credentials/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Load HTML Documents with Credentials in .NET with Aspose.HTML
+
 
 If you're a developer working with .NET and want to enhance your web application's SEO capabilities, you're in the right place. In this step-by-step guide, we will explore how to use Aspose.HTML for .NET to optimize your website for search engines. Aspose.HTML is a powerful library that enables you to manipulate HTML documents in a .NET environment, making it an invaluable tool for SEO purposes. In this article, we will cover the prerequisites, import namespaces, and break down examples into multiple steps to help you get started with Aspose.HTML.
 
@@ -125,3 +131,10 @@ A4: Yes, you can find helpful tutorials and resources on the Aspose.HTML forum [
 ### Q5: What other SEO tools complement Aspose.HTML for .NET?
 
 A5: While Aspose.HTML is excellent for HTML manipulation, you may want to use other SEO tools for keyword analysis, backlink monitoring, and more. It's advisable to explore a combination of tools for comprehensive SEO optimization.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Рендеринг MHTML как XPS в .NET с помощью Aspose.HTML
 linktitle: Отображение MHTML как XPS в .NET
 second_title: API манипуляции HTML Aspose.HTML .NET
 description: Научитесь отображать MHTML как XPS в .NET с Aspose.HTML. Улучшите свои навыки работы с HTML и ускорьте свои проекты по веб-разработке!
-type: docs
 weight: 13
 url: /ru/net/rendering-html-documents/render-mhtml-as-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Рендеринг MHTML как XPS в .NET с помощью Aspose.HTML
+
 ## Введение
 
 В динамичном мире веб-разработки наличие правильных инструментов и библиотек может иметь решающее значение. Если вы работаете с манипуляцией HTML и рендерингом в .NET, Aspose.HTML для .NET — это мощная библиотека, которая может упростить ваши задачи и расширить ваши возможности. В этом руководстве мы подробно рассмотрим Aspose.HTML для .NET, разбив примеры на управляемые шаги и предоставив понятные объяснения для каждого из них.
@@ -100,3 +106,9 @@ Aspose.HTML для .NET — это библиотека, которая пред
 
 ### Могу ли я приобрести временную лицензию на Aspose.HTML для .NET?
  Да, вы можете получить временную лицензию на странице покупки.[здесь](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Salva il documento HTML nel file in Aspose.HTML per Java
 linktitle: Salva il documento HTML nel file in Aspose.HTML per Java
 second_title: Elaborazione HTML Java con Aspose.HTML
 description: Scopri come salvare un documento HTML in un file utilizzando Aspose.HTML per Java, perfetto per gestire facilmente più risorse collegate.
-type: docs
 weight: 11
 url: /it/java/saving-html-documents/save-html-to-file/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Salva il documento HTML nel file in Aspose.HTML per Java
+
 ## Introduzione
 In questo tutorial, esploreremo come salvare un documento HTML in un file mentre gestisci risorse collegate. Ciò è particolarmente utile quando lavori su progetti che coinvolgono più file HTML: pensalo come una pagina web che fa riferimento ad altre pagine web. Alla fine di questa guida, sarai in grado di usare Aspose.HTML per Java per gestire i tuoi documenti HTML in modo flessibile ed efficiente.
 ## Prerequisiti
@@ -88,3 +94,9 @@ Sì! Aspose.HTML supporta vari tipi di risorse, tra cui immagini, stili e script
  Puoi visitare il forum di supporto di Aspose[Qui](https://forum.aspose.com/c/html/29) per qualsiasi domanda o aiuto di cui potresti aver bisogno.
 ### Posso usare Aspose.HTML per progetti commerciali?  
 Sì, Aspose.HTML può essere utilizzato in progetti commerciali, ma dovrai acquistare una licenza. Puoi trovare le opzioni di licenza[Qui](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

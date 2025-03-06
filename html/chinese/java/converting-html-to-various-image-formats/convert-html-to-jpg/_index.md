@@ -3,10 +3,16 @@ title: 使用 Aspose.HTML for Java 将 HTML 转换为 JPG
 linktitle: 将 HTML 转换为 JPG
 second_title: 使用 Aspose.HTML 进行 Java HTML 处理
 description: 了解如何使用 Aspose.HTML for Java 将 HTML 转换为 JPG。按照我们的分步指南进行无缝 HTML 到 JPG 转换。
-type: docs
 weight: 12
 url: /zh/java/converting-html-to-various-image-formats/convert-html-to-jpg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.HTML for Java 将 HTML 转换为 JPG
+
 
 在数字时代，将 HTML 内容转换为各种格式是一种常见的需求。Aspose.HTML for Java 是一个功能强大的库，可简化将 HTML 转换为 JPG 的过程。在本综合指南中，我们将逐步指导您完成该过程。您将了解先决条件、如何导入包，并将每个示例分解为多个步骤，以掌握使用 Aspose.HTML for Java 将 HTML 转换为 JPG 的过程。
 
@@ -101,3 +107,9 @@ Aspose.HTML for Java 是一个 Java 库，允许开发人员处理 HTML 文档�
 
 ### 我如何获得临时执照？
 如果你需要临时驾照，你可以从[此链接](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

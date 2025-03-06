@@ -3,10 +3,16 @@ title: مراقب طفرة DOM مع Aspose.HTML لـ Java
 linktitle: DOM Mutation Observer - مراقبة إضافات العقد
 second_title: معالجة HTML باستخدام Java مع Aspose.HTML
 description: تعرف على كيفية استخدام Aspose.HTML for Java لتنفيذ DOM Mutation Observer في هذا الدليل خطوة بخطوة. راقب تغييرات DOM وتفاعل معها بفعالية.
-type: docs
 weight: 11
 url: /ar/java/advanced-usage/dom-mutation-observer-observing-node-additions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# مراقب طفرة DOM مع Aspose.HTML لـ Java
+
 
 هل أنت مطور Java وتبحث عن مراقبة التغييرات في نموذج كائن المستند (DOM) لمستند HTML والاستجابة لها؟ يوفر Aspose.HTML for Java حلاً قويًا لهذه المهمة. في هذا الدليل التفصيلي، سنستكشف كيفية استخدام Aspose.HTML for Java لإنشاء مستند HTML ومراقبة إضافات العقد باستخدام Mutation Observer. سيرشدك هذا البرنامج التعليمي خلال العملية، ويقسم كل مثال إلى خطوات متعددة. بحلول النهاية، ستتمكن من تنفيذ DOM Mutation Observers في مشاريع Java الخاصة بك بسهولة.
 
@@ -146,3 +152,9 @@ A1: إن DOM Mutation Observer هي ميزة JavaScript تتيح لك مراقب
 ### س5: كيف أتخلص من الموارد عند استخدام Aspose.HTML لـ Java؟
 
  ج5: من المهم تحرير الموارد عند الانتهاء منها. في مثالنا، استخدمنا`document.dispose()` لتنظيف الموارد المرتبطة بمستند HTML. تأكد من التخلص من أي كائنات وموارد تقوم بإنشائها لتجنب تسرب الذاكرة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

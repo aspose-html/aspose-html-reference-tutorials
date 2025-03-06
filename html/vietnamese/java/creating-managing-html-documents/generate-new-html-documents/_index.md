@@ -3,10 +3,16 @@ title: Tạo tài liệu HTML mới bằng Aspose.HTML cho Java
 linktitle: Tạo tài liệu HTML mới bằng Aspose.HTML cho Java
 second_title: Xử lý HTML Java với Aspose.HTML
 description: Tìm hiểu cách tạo tài liệu HTML mới bằng Aspose.HTML cho Java với hướng dẫn từng bước dễ dàng này. Bắt đầu tạo nội dung HTML động.
-type: docs
 weight: 17
 url: /vi/java/creating-managing-html-documents/generate-new-html-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo tài liệu HTML mới bằng Aspose.HTML cho Java
+
 ## Giới thiệu
 Tạo tài liệu HTML chưa bao giờ dễ dàng hơn thế, nhờ vào các công cụ mạnh mẽ như Aspose.HTML cho Java. Với thư viện này trong bộ công cụ của bạn, bạn có thể dễ dàng tạo, thao tác và quản lý nội dung HTML theo chương trình. Cho dù bạn đang xây dựng ứng dụng web, tự động hóa việc tạo tài liệu hay chỉ muốn nâng cao các dự án Java của mình, Aspose.HTML đều có thể đáp ứng nhu cầu của bạn. Trong hướng dẫn này, chúng ta sẽ đi sâu vào các dòng mã cần thiết để tạo tài liệu HTML mới bằng thư viện tuyệt vời này.
 ## Điều kiện tiên quyết
@@ -66,3 +72,9 @@ Aspose.HTML for Java là một thư viện được thiết kế để tạo, x�
 Chắc chắn rồi! Thư viện hỗ trợ nhiều tính năng HTML, bao gồm cả kiểu CSS và tích hợp JavaScript.
 ### Tôi có thể tìm thêm trợ giúp và hỗ trợ cho Aspose.HTML ở đâu?
  Bạn có thể truy cập diễn đàn hỗ trợ Aspose tại[Diễn đàn Aspose](https://forum.aspose.com/c/html/29) để được hỗ trợ và giúp đỡ cộng đồng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

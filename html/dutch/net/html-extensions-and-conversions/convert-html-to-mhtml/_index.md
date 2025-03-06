@@ -3,10 +3,16 @@ title: Converteer HTML naar MHTML in .NET met Aspose.HTML
 linktitle: Converteer HTML naar MHTML in .NET
 second_title: Aspose.HTML .NET HTML-manipulatie-API
 description: Converteer HTML naar MHTML in .NET met Aspose.HTML - Een stapsgewijze handleiding voor efficiënte archivering van webinhoud. Leer hoe u Aspose.HTML voor .NET gebruikt om MHTML-archieven te maken.
-type: docs
 weight: 19
 url: /nl/net/html-extensions-and-conversions/convert-html-to-mhtml/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Converteer HTML naar MHTML in .NET met Aspose.HTML
+
 
 In de wereld van webontwikkeling is efficiënte documentconversie cruciaal. De Aspose.HTML voor .NET-bibliotheek is een krachtige tool die de conversie van HTML-documenten naar verschillende formaten, waaronder MHTML, vereenvoudigt. MHTML, de afkorting van "MIME HTML", is een webpagina-archiefformaat waarmee u een webpagina en de bijbehorende bronnen in één bestand kunt opslaan. In deze stapsgewijze handleiding leiden we u door het proces van het converteren van een HTML-document naar MHTML met behulp van Aspose.HTML voor .NET.
 
@@ -109,3 +115,10 @@ MHTML, kort voor "MIME HTML," is een webpagina-archiefformaat waarmee u een webp
 
  Als u een tijdelijke vergunning nodig hebt, kunt u deze verkrijgen bij de[Aspose.Aankoop website](https://purchase.aspose.com/temporary-license/)Met deze tijdelijke licentie krijgt u gedurende een beperkte tijd toegang tot de volledige functionaliteit van de bibliotheek.
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

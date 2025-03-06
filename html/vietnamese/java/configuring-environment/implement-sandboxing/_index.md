@@ -3,10 +3,16 @@ title: Triển khai Sandboxing trong Aspose.HTML cho Java
 linktitle: Triển khai Sandboxing trong Aspose.HTML cho Java
 second_title: Xử lý HTML Java với Aspose.HTML
 description: Tìm hiểu cách triển khai hộp cát trong Aspose.HTML cho Java để kiểm soát an toàn việc thực thi tập lệnh trong tài liệu HTML của bạn và chuyển đổi chúng sang PDF.
-type: docs
 weight: 15
 url: /vi/java/configuring-environment/implement-sandboxing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Triển khai Sandboxing trong Aspose.HTML cho Java
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng tôi sẽ hướng dẫn cách triển khai sandbox bằng Aspose.HTML cho Java. Chúng tôi sẽ hướng dẫn bạn từ thiết lập môi trường đến viết tệp HTML đơn giản, cấu hình sandbox và chuyển đổi HTML sang PDF, đồng thời kiểm soát các tập lệnh có khả năng gây hại. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay chỉ mới bắt đầu, hướng dẫn này sẽ cung cấp cho bạn các công cụ cần thiết để tạo nội dung web an toàn một cách dễ dàng.
 ## Điều kiện tiên quyết
@@ -89,3 +95,9 @@ Không phải lúc nào cũng vậy, nhưng điều này rất quan trọng khi 
  Các tập lệnh được bảo vệ bằng hộp cát sẽ không thực thi và các hiệu ứng của chúng (như`document.write`) sẽ không xuất hiện trong kết quả đầu ra.
 ### Tôi có thể chuyển đổi HTML dạng hộp cát sang các định dạng khác ngoài PDF không?
 Chắc chắn rồi! Aspose.HTML for Java hỗ trợ chuyển đổi sang nhiều định dạng khác nhau, bao gồm hình ảnh, XPS, v.v.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

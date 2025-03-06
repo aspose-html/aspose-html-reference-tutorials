@@ -3,10 +3,16 @@ title: Применить измеренную лицензию в .NET с Aspos
 linktitle: Применить измеренную лицензию в .NET
 second_title: API манипуляции HTML Aspose.HTML .NET
 description: Узнайте, как применить лимитированную лицензию в Aspose.HTML для .NET. Эффективно управляйте своими потребностями в обработке HTML. Начните прямо сейчас!
-type: docs
 weight: 10
 url: /ru/net/licensing-and-initialization/apply-metered-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Применить измеренную лицензию в .NET с Aspose.HTML
+
 В этом руководстве мы проведем вас через процесс применения лимитированной лицензии в вашем приложении .NET с помощью Aspose.HTML. Лиценция с лимитированной лицензией — это удобный способ управления лицензированием для ваших потребностей в манипуляциях HTML. Выполнив следующие шаги, вы сможете применить лимитированную лицензию к вашему проекту Aspose.HTML для .NET.
 
 ## Предпосылки
@@ -88,3 +94,9 @@ using Aspose.Html;
 
 ### Где я могу получить поддержку или задать вопросы по Aspose.HTML для .NET?
  Вы можете присоединиться к сообществу и обратиться за поддержкой на[Форумы Aspose](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

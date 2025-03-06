@@ -3,10 +3,16 @@ title: การบันทึกเอกสาร HTML ใน Aspose.HTML ส
 linktitle: การบันทึกเอกสาร HTML ใน Aspose.HTML สำหรับ Java
 second_title: การประมวลผล Java HTML ด้วย Aspose.HTML
 description: ค้นพบบทช่วยสอน Aspose.HTML สำหรับ Java ที่ครอบคลุมที่ให้คำแนะนำคุณในการบันทึกเอกสาร HTML การแปลงเป็น Markdown และอื่นๆ อีกมากมาย
-type: docs
 weight: 30
 url: /th/java/saving-html-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การบันทึกเอกสาร HTML ใน Aspose.HTML สำหรับ Java
+
 ## การแนะนำ
 
 เมื่อต้องจัดการเอกสาร HTML ใน Java Aspose.HTML ถือเป็นไลบรารีที่ใช้งานได้หลากหลาย หากคุณเคยรู้สึกสับสนกับความซับซ้อนของการประมวลผลเอกสาร HTML ไม่ต้องกังวล! ชุดบทช่วยสอนนี้ออกแบบมาเพื่อลดความซับซ้อนในการเรียนรู้ของคุณ เราจะครอบคลุมฟังก์ชันหลักๆ เพื่อให้แน่ใจว่าคุณสามารถบันทึกและจัดการเอกสาร HTML ได้อย่างมืออาชีพ 
@@ -48,3 +54,9 @@ url: /th/java/saving-html-documents/
 เรียนรู้วิธีบันทึกเอกสาร HTML เป็น MHTML โดยใช้ Aspose.HTML สำหรับ Java ด้วยคู่มือทีละขั้นตอนนี้ พร้อมด้วยตัวอย่างโค้ดและเคล็ดลับที่เป็นประโยชน์
 ### [บันทึกเอกสาร SVG ใน Aspose.HTML สำหรับ Java](./save-svg-document/)
 เรียนรู้วิธีบันทึกเอกสาร SVG โดยใช้ Aspose.HTML สำหรับ Java ด้วยคู่มือทีละขั้นตอนง่าย ๆ ที่อัดแน่นไปด้วยตัวอย่าง
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Καθορισμός παρόχου προσαρμοσμένης ροής
 linktitle: Καθορισμός παρόχου προσαρμοσμένης ροής για EPUB σε XPS
 second_title: Επεξεργασία Java HTML με Aspose.HTML
 description: Μετατρέψτε το EPUB σε XPS χωρίς κόπο χρησιμοποιώντας το Aspose.HTML για Java. Ακολουθήστε αυτόν τον οδηγό βήμα προς βήμα για μια απρόσκοπτη διαδικασία μετατροπής.
-type: docs
 weight: 11
 url: /el/java/converting-epub-to-xps/convert-epub-to-xps-specify-custom-stream-provider/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Καθορισμός παρόχου προσαρμοσμένης ροής για EPUB σε XPS
+
 Στη σημερινή ψηφιακή εποχή, η ανάγκη μετατροπής αρχείων EPUB σε άλλες μορφές, όπως το XPS, είναι πιο συνηθισμένη από ποτέ. Το Aspose.HTML για Java είναι ένα ισχυρό εργαλείο που μπορεί να σας βοηθήσει να το πετύχετε αυτό χωρίς κόπο. Σε αυτόν τον οδηγό βήμα προς βήμα, θα εξερευνήσουμε πώς να μετατρέψετε ένα αρχείο EPUB σε XPS χρησιμοποιώντας το Aspose.HTML για Java. Πριν βουτήξουμε στις λεπτομέρειες, ας εξετάσουμε τις προϋποθέσεις που θα χρειαστείτε για αυτήν τη διαδικασία.
 
 ## Προαπαιτούμενα
@@ -143,3 +149,10 @@ try (FileOutputStream fileOutputStream = new FileOutputStream("path/to/your/outp
  Για τεκμηρίωση και υποστήριξη, επισκεφθείτε τη διεύθυνση[Aspose.HTML για τεκμηρίωση Java](https://reference.aspose.com/html/java/) και[φόρουμ υποστήριξης](https://forum.aspose.com/).
 
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

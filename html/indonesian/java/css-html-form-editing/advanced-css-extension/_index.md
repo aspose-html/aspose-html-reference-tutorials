@@ -3,10 +3,16 @@ title: Teknik Ekstensi CSS Lanjutan dengan Aspose.HTML untuk Java
 linktitle: Teknik Ekstensi CSS Lanjutan dengan Aspose.HTML untuk Java
 second_title: Pemrosesan HTML Java dengan Aspose.HTML
 description: Pelajari cara menggunakan Aspose.HTML untuk Java guna menerapkan teknik CSS tingkat lanjut, termasuk margin halaman khusus dan konten dinamis. Tutorial terperinci dan praktis untuk pengembang.
-type: docs
 weight: 10
 url: /id/java/css-html-form-editing/advanced-css-extension/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Teknik Ekstensi CSS Lanjutan dengan Aspose.HTML untuk Java
+
 ## Perkenalan
 Apakah Anda siap untuk meningkatkan keterampilan CSS Anda ke tingkat berikutnya? Bayangkan menerapkan gaya tingkat lanjut ke dokumen HTML Anda dengan mudah, menyesuaikan margin, dan memasukkan konten ke dalam margin tersebut seperti seorang profesional—semuanya sambil menggunakan Java! Kedengarannya menarik, bukan? Inilah yang akan kita bahas dalam tutorial ini. Kita akan menyelami dunia Aspose.HTML untuk Java dan menemukan cara memanfaatkan kemampuannya yang hebat untuk meningkatkan gaya CSS Anda. Apakah Anda seorang pengembang berpengalaman atau baru memulai, panduan ini akan memandu Anda melalui setiap langkah dengan penjelasan yang jelas dan contoh langsung.
 Dalam tutorial ini, kita akan fokus pada penerapan margin khusus dan penambahan konten ke margin tersebut menggunakan Aspose.HTML untuk Java. Pada akhirnya, Anda akan memiliki pemahaman yang mendalam tentang cara mengontrol tata letak halaman dengan CSS dan cara membuat dokumen dengan konten dinamis, seperti nomor halaman dan judul, dalam gaya yang Anda inginkan.
@@ -94,3 +100,9 @@ Anda dapat menerapkan CSS khusus dengan menggunakan layanan User Agent dalam Asp
 Tentu saja! Aspose.HTML untuk Java dirancang untuk menangani tugas pemrosesan dokumen berskala besar, sehingga cocok untuk aplikasi tingkat perusahaan yang memerlukan kemampuan pemrosesan HTML yang tangguh.
 ### Dapatkah saya mencoba Aspose.HTML untuk Java sebelum membeli?
 Ya, Anda dapat mengunduh uji coba gratis Aspose.HTML untuk Java dari[Situs web Aspose](https://releases.aspose.com/html/java/)Ini akan memungkinkan Anda menjelajahi fitur-fiturnya dan melihat bagaimana fitur tersebut sesuai dengan alur kerja pengembangan Anda.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

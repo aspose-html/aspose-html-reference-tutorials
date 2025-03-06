@@ -3,10 +3,16 @@ title: Java용 Aspose.HTML의 ZIP 아카이브 메시지 핸들러
 linktitle: Java용 Aspose.HTML의 ZIP 아카이브 메시지 핸들러
 second_title: Aspose.HTML을 사용한 Java HTML 처리
 description: Java용 Aspose.HTML을 사용하여 ZIP 아카이브 메시지 핸들러를 만드는 방법을 알아보세요. 이 가이드는 각 단계를 분석하여 ZIP 아카이브에서 파일을 효율적으로 관리하고 제공하는 데 도움을 줍니다.
-type: docs
 weight: 10
 url: /ko/java/handling-zip-files/zip-archive-message-handler/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.HTML의 ZIP 아카이브 메시지 핸들러
+
 ## 소개
 ZIP 아카이브 작업은 다양한 형식의 데이터를 관리하는 데 중요한 부분이 될 수 있으며, 특히 웹 리소스를 효율적으로 처리하는 경우에 그렇습니다. 이 가이드에서는 Java용 Aspose.HTML을 사용하여 ZIP 아카이브 메시지 핸들러를 만드는 방법을 안내합니다. 이 핸들러를 사용하면 ZIP 아카이브에서 직접 파일을 읽고 네트워크 요청에 대한 응답으로 제공할 수 있습니다. 특히 단일 아카이브로 압축된 대량의 데이터를 처리할 때 파일 관리를 간소화하는 강력한 방법입니다.
 ## 필수 조건
@@ -110,3 +116,10 @@ ZIP 아카이브에서 파일을 직접 읽고 이를 네트워크 응답으로 
  모든 경우에 필요하지는 않지만 구현`dispose` 핸들러가 사용하는 모든 리소스가 적절히 해제되었는지 확인하는 것이 좋은 방법입니다.
 ### 이 핸들러를 웹 서버에서 사용할 수 있나요?  
 물론입니다! 이 핸들러는 HTTP 요청에 응답하여 ZIP 아카이브에서 파일을 제공해야 하는 웹 애플리케이션에서 사용하도록 설계되었습니다.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

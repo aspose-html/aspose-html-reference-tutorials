@@ -3,10 +3,16 @@ title: Наблюдатели и обработчики мутаций в Aspose
 linktitle: Наблюдатели и обработчики мутаций в Aspose.HTML для Java
 second_title: Обработка Java HTML с помощью Aspose.HTML
 description: Изучите руководства Aspose.HTML для Java, охватывающие расширенные наблюдатели мутаций и безопасные обработчики учетных данных для улучшения ваших веб-приложений.
-type: docs
 weight: 23
 url: /ru/java/mutation-observers-handlers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Наблюдатели и обработчики мутаций в Aspose.HTML для Java
+
 ## Введение
 
 Если вы ищете способ улучшить свои веб-приложения Java, вы, вероятно, слышали об Aspose.HTML. Но позвольте мне сказать вам, что это не просто какая-то обычная библиотека — это мощный инструмент для динамического управления документами HTML. В этом руководстве мы рассмотрим два основных компонента: наблюдатели мутаций и обработчики учетных данных, позволяющие вам вывести свои приложения на новый уровень. 
@@ -28,3 +34,9 @@ url: /ru/java/mutation-observers-handlers/
 Узнайте, как реализовать расширенный Mutation Observer с Aspose.HTML для Java, отслеживая изменения DOM без проблем. Погрузитесь в наше пошаговое руководство.
 ### [Использование обработчика учетных данных в Aspose.HTML для Java](./credential-handler/)
 Узнайте, как реализовать безопасный обработчик учетных данных с помощью Aspose.HTML для Java для эффективного управления аутентификацией пользователей.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

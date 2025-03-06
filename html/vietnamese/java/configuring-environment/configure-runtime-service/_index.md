@@ -3,10 +3,16 @@ title: Cấu hình dịch vụ Runtime trong Aspose.HTML cho Java
 linktitle: Cấu hình dịch vụ Runtime trong Aspose.HTML cho Java
 second_title: Xử lý HTML Java với Aspose.HTML
 description: Tìm hiểu cách cấu hình Dịch vụ thời gian chạy trong Aspose.HTML cho Java để tối ưu hóa việc thực thi tập lệnh, ngăn ngừa vòng lặp vô hạn và cải thiện hiệu suất ứng dụng.
-type: docs
 weight: 14
 url: /vi/java/configuring-environment/configure-runtime-service/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cấu hình dịch vụ Runtime trong Aspose.HTML cho Java
+
 ## Giới thiệu
 Bạn đã bao giờ tự hỏi làm thế nào để các ứng dụng Java của mình chạy nhanh hơn và hiệu quả hơn chưa? Cho dù bạn đang xây dựng một ứng dụng web phức tạp hay chỉ mày mò một số tài liệu HTML, thì tốc độ là yếu tố cốt lõi. Hãy tưởng tượng bạn có thể giới hạn thời gian chạy một tập lệnh hoặc tốc độ khởi động ứng dụng của hệ thống. Nghe có vẻ khá tiện dụng phải không? Đó chính xác là lúc Dịch vụ thời gian chạy trong Aspose.HTML cho Java phát huy tác dụng. Trong hướng dẫn này, chúng ta sẽ đi sâu vào cách bạn có thể định cấu hình Dịch vụ thời gian chạy trong Aspose.HTML cho Java để tăng hiệu suất ứng dụng của mình bằng cách kiểm soát thời gian thực thi tập lệnh.
 ## Điều kiện tiên quyết
@@ -100,3 +106,9 @@ Có, việc loại bỏ các đối tượng này là cần thiết để giải
  Chắc chắn rồi! Bạn có thể thiết lập thời gian chờ ở bất kỳ giá trị nào phù hợp với nhu cầu của bạn bằng cách sửa đổi`TimeSpan.fromSeconds()` tham số.
 ### Tôi có thể nhận hỗ trợ ở đâu nếu gặp sự cố với Aspose.HTML cho Java?  
  Để được hỗ trợ, bạn có thể truy cập[Diễn đàn Aspose.HTML](https://forum.aspose.com/c/html/29).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

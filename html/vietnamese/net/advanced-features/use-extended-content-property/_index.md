@@ -3,10 +3,16 @@ title: Sử dụng Thuộc tính Nội dung Mở rộng trong .NET với Aspose.
 linktitle: Sử dụng Thuộc tính Nội dung Mở rộng trong .NET
 second_title: Aspose.HTML .NET API thao tác HTML
 description: Tìm hiểu cách sử dụng Aspose.HTML cho .NET với hướng dẫn từng bước này. Nâng cao kỹ năng HTML và hợp lý hóa các dự án phát triển web của bạn.
-type: docs
 weight: 14
 url: /vi/net/advanced-features/use-extended-content-property/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sử dụng Thuộc tính Nội dung Mở rộng trong .NET với Aspose.HTML
+
 
 Trong thế giới phát triển web, làm việc với HTML là một kỹ năng cơ bản. Aspose.HTML cho .NET là một công cụ mạnh mẽ có thể giúp các tác vụ liên quan đến HTML của bạn dễ dàng và hiệu quả hơn. Hướng dẫn này sẽ hướng dẫn bạn các bước để bắt đầu với Aspose.HTML cho .NET, bao gồm các điều kiện tiên quyết, nhập không gian tên và chia nhỏ từng ví dụ thành các bước dễ thực hiện.
 
@@ -123,3 +129,10 @@ Xin chúc mừng! Bạn vừa thực hiện những bước đầu tiên vào th
 ### Có tài nguyên hoặc hướng dẫn bổ sung nào dành cho Aspose.HTML dành cho .NET không?
     Có, bạn có thể tìm thêm hướng dẫn và tài liệu trên[Trang web Aspose.HTML](https://reference.aspose.com/html/net/).
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Zapisz HTML do MHTML w Aspose.HTML dla Java
 linktitle: Zapisz HTML do MHTML w Aspose.HTML dla Java
 second_title: Przetwarzanie HTML w Javie za pomocą Aspose.HTML
 description: Dowiedz się, jak zapisywać dokumenty HTML w formacie MHTML za pomocą Aspose.HTML dla Java, korzystając z tego przewodnika krok po kroku, który zawiera przykłady kodu i praktyczne wskazówki.
-type: docs
 weight: 13
 url: /pl/java/saving-html-documents/save-html-to-mhtml/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zapisz HTML do MHTML w Aspose.HTML dla Java
+
 ## Wstęp
 W rozległym świecie rozwoju sieci i reprezentacji danych mogłeś natknąć się na różne formaty plików. Jednym z takich formatów jest MHTML, świetny sposób na łączenie dokumentów HTML ze wszystkimi ich składnikami (takimi jak obrazy i pliki połączone) w jednym pliku. Dzięki temu udostępnianie i przechowywanie stron internetowych jest wygodne. Jeśli chcesz zapisać zawartość HTML jako MHTML przy użyciu Aspose.HTML dla Java, jesteś we właściwym miejscu! W tym przewodniku przeprowadzimy Cię przez cały proces, krok po kroku, zapewniając, że zrozumiesz wszystko po drodze.
 
@@ -109,3 +115,9 @@ Tak, Aspose.HTML obsługuje różne formaty plików, co pozwala na konwersję do
 
 ### Gdzie mogę znaleźć więcej dokumentacji na temat Aspose.HTML dla Java?
  Pełną dokumentację i przykłady można znaleźć na stronie[Strona dokumentacji HTML Aspose](https://reference.aspose.com/html/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

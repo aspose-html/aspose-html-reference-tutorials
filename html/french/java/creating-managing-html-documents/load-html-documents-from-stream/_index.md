@@ -3,10 +3,16 @@ title: Charger des documents HTML à partir d'un flux avec Aspose.HTML pour Java
 linktitle: Charger des documents HTML à partir d'un flux avec Aspose.HTML pour Java
 second_title: Traitement HTML Java avec Aspose.HTML
 description: Découvrez comment charger des documents HTML à partir de flux à l'aide d'Aspose.HTML pour Java. Ce guide fournit un didacticiel étape par étape pour une manipulation HTML transparente.
-type: docs
 weight: 14
 url: /fr/java/creating-managing-html-documents/load-html-documents-from-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Charger des documents HTML à partir d'un flux avec Aspose.HTML pour Java
+
 ## Introduction
 Lorsqu'il s'agit de travailler avec des documents HTML en Java, les développeurs ont souvent besoin de bibliothèques fiables et efficaces. Aspose.HTML pour Java est l'un de ces outils puissants. Cette bibliothèque offre un éventail impressionnant de fonctionnalités pour manipuler et convertir du contenu HTML de manière transparente. Dans ce didacticiel, nous verrons comment charger des documents HTML à partir d'un flux et les enregistrer dans un fichier à l'aide d'Aspose.HTML, en vous fournissant des instructions claires, étape par étape.
 ## Prérequis
@@ -58,3 +64,9 @@ Aspose.HTML pour Java est une bibliothèque puissante qui permet aux développeu
  Vérifiez le[documentation](https://reference.aspose.com/html/java/) pour plus d'exemples et de guides détaillés sur l'utilisation d'Aspose.HTML.
 ### Que dois-je faire si je rencontre des problèmes ?
  Si vous rencontrez des problèmes, consultez le[Forum de soutien](https://forum.aspose.com/c/html/29) pour obtenir de l'aide de la communauté ou de l'équipe Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

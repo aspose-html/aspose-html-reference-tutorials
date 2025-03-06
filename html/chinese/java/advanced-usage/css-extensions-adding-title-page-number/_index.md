@@ -3,10 +3,16 @@ title: 使用 Aspose.HTML 自定义 HTML 页面边距
 linktitle: CSS 扩展 - 添加标题和页码
 second_title: 使用 Aspose.HTML 进行 Java HTML 处理
 description: 了解如何使用 Aspose.HTML for Java 自定义页边距、向 HTML 文档添加页码和标题。
-type: docs
 weight: 10
 url: /zh/java/advanced-usage/css-extensions-adding-title-page-number/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.HTML 自定义 HTML 页面边距
+
 Aspose.HTML for Java 是一个功能强大的库，用于在 Java 应用程序中处理 HTML 文档。在本教程中，我们将探索如何使用 Aspose.HTML for Java 创建自定义页边距以及向 HTML 文档添加页码和标题。本分步指南将把该过程分解为可管理的步骤，以帮助您轻松地将这些功能集成到 HTML 文档中。
 
 ## 先决条件
@@ -119,3 +125,9 @@ A4：是的，Aspose.HTML for Java 可用于将 HTML 文档转换为各种格式
 ### 问题5：使用 Aspose.HTML for Java 需要许可证吗？
 
  A5：是的，你可以从以下位置获取许可证或免费试用版[这里](https://purchase.aspose.com/buy)或者[这里](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

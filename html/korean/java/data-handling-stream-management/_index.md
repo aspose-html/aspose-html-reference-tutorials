@@ -3,10 +3,16 @@ title: Java용 Aspose.HTML에서의 데이터 처리 및 스트림 관리
 linktitle: Java용 Aspose.HTML에서의 데이터 처리 및 스트림 관리
 second_title: Aspose.HTML을 사용한 Java HTML 처리
 description: Java용 Aspose.HTML 튜토리얼을 살펴보세요. 메모리 스트림을 파일로, HTML을 JPEG 이미지로 쉽게 변환하는 방법을 다룹니다.
-type: docs
 weight: 22
 url: /ko/java/data-handling-stream-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.HTML에서의 데이터 처리 및 스트림 관리
+
 ## 소개
 
 Aspose.HTML for Java로 HTML 데이터 처리의 비밀을 밝힐 준비가 되셨나요? HTML 콘텐츠를 다양한 형식으로 변환하는 복잡한 과정에 얽매인 적이 있다면, 즐거운 시간을 보내실 겁니다. 이 가이드에서는 메모리 스트림을 파일로, HTML 문서를 JPEG 이미지로 변환하는 과정을 분석해 보겠습니다. 생각보다 간단하고, 끝까지 보면 프로가 된 기분이 들 것입니다!
@@ -20,3 +26,9 @@ Aspose.HTML for Java로 HTML 데이터 처리의 비밀을 밝힐 준비가 되�
 ## Aspose.HTML for Java 튜토리얼에서의 데이터 처리 및 스트림 관리
 ### [Java용 Aspose.HTML을 사용하여 메모리 스트림을 파일로 변환](./memory-stream-to-file/)
 메모리 스트림을 사용하여 Aspose.HTML for Java로 HTML을 JPEG로 변환합니다. HTML을 이미지로 원활하게 변환하기 위한 단계별 가이드를 따르세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

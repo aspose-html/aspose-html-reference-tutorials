@@ -3,10 +3,16 @@ title: Alkalmazza a mért licencet a .NET-ben az Aspose.HTML segítségével
 linktitle: Alkalmazza a mért licencet a .NET-ben
 second_title: Aspose.HTML .NET HTML manipulációs API
 description: Ismerje meg, hogyan alkalmazhat fizetős licencet az Aspose.HTML for .NET-ben. Hatékonyan kezelheti HTML-kezelési igényeit. Kezdje el most!
-type: docs
 weight: 10
 url: /hu/net/licensing-and-initialization/apply-metered-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Alkalmazza a mért licencet a .NET-ben az Aspose.HTML segítségével
+
 Ebben az oktatóanyagban végigvezetjük a mérőszámos licenc alkalmazásának folyamatán az Aspose.HTML használatával. A mérőszámos licenc kényelmes módja a HTML-kezelési igények licenckezelésének. Az alábbi lépések követésével mérős licencet alkalmazhat Aspose.HTML for .NET projektjéhez.
 
 ## Előfeltételek
@@ -88,3 +94,9 @@ A mért licenc lehetővé teszi, hogy az Aspose.HTML-ért felosztó-kirovó alap
 
 ### Hol kaphatok támogatást, vagy hol tehetek fel kérdéseket az Aspose.HTML for .NET-hez kapcsolódóan?
  Csatlakozhat a közösséghez, és támogatást kérhet a[Aspose fórumok](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Gérer les événements de chargement de documents dans Aspose.HTML pour 
 linktitle: Gérer les événements de chargement de documents dans Aspose.HTML pour Java
 second_title: Traitement HTML Java avec Aspose.HTML
 description: Apprenez à gérer les événements de chargement de documents dans Aspose.HTML pour Java avec ce guide étape par étape. Améliorez vos applications Web.
-type: docs
 weight: 18
 url: /fr/java/creating-managing-html-documents/handle-document-load-events/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gérer les événements de chargement de documents dans Aspose.HTML pour Java
+
 ## Introduction
 En matière de développement Web, la gestion des événements de chargement de documents est essentielle pour garantir le bon fonctionnement et l'efficacité de votre application. Si vous travaillez avec des documents HTML en Java, Aspose.HTML fournit une bibliothèque puissante qui vous permet de manipuler facilement des documents HTML. Dans ce didacticiel, nous découvrirons comment gérer les événements de chargement de documents à l'aide d'Aspose.HTML pour Java. Que vous soyez un développeur débutant ou expérimenté, ce guide vous guidera tout au long du processus étape par étape.
 ## Prérequis
@@ -69,3 +75,9 @@ Aspose.HTML pour Java est une bibliothèque qui permet aux développeurs de cré
  Oui, vous pouvez trouver de l'aide et poser des questions sur le[Forum Aspose](https://forum.aspose.com/c/html/29).
 ### Comment obtenir une licence temporaire pour Aspose.HTML ?
  Vous pouvez demander une licence temporaire en visitant le[Page de licence temporaire Aspose](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.HTML Java 教學的高階用法
 linktitle: Aspose.HTML Java 的高階用法
 second_title: 使用 Aspose.HTML 進行 Java HTML 處理
 description: 了解如何使用 Aspose.HTML Java 自訂 HTML 頁邊距、實作 DOM Mutation Observer、操作 HTML5 Canvas、自動填入 HTML 表單等。
-type: docs
 weight: 20
 url: /zh-hant/java/advanced-usage/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.HTML Java 教學的高階用法
+
 
 在 Web 開發領域，掌握 HTML 操作藝術至關重要。 Aspose.HTML for Java 帶來了大量的功能，使您能夠將您的 HTML 技能提升到一個新的水平。在本文中，我們將深入研究一些進階技術，幫助您利用 Aspose.HTML for Java 的強大功能。
 
@@ -51,3 +57,9 @@ DOM（文件物件模型）是任何網頁的支柱。使用 Aspose.HTML for Jav
 了解如何使用 Aspose.HTML for Java 調整 PDF 頁面大小。輕鬆從 HTML 創建高品質的 PDF。有效控制頁面尺寸。
 ### [使用 Aspose.HTML for Java 調整 XPS 頁面大小](./adjust-xps-page-size/)
 了解如何使用 Aspose.HTML for Java 調整 XPS 頁面大小。輕鬆控制 XPS 文件的輸出尺寸。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

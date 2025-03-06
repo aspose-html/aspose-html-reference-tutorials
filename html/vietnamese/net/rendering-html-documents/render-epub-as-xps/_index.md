@@ -3,10 +3,16 @@ title: Kết xuất EPUB dưới dạng XPS trong .NET với Aspose.HTML
 linktitle: Kết xuất EPUB dưới dạng XPS trong .NET
 second_title: Aspose.HTML .NET API thao tác HTML
 description: Tìm hiểu cách tạo và hiển thị tài liệu HTML bằng Aspose.HTML cho .NET trong hướng dẫn toàn diện này. Khám phá thế giới thao tác HTML, thu thập dữ liệu web và nhiều hơn nữa.
-type: docs
 weight: 11
 url: /vi/net/rendering-html-documents/render-epub-as-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kết xuất EPUB dưới dạng XPS trong .NET với Aspose.HTML
+
 
 ## Giới thiệu
 
@@ -99,3 +105,10 @@ Bạn có thể tham gia cộng đồng Aspose và tìm kiếm sự hỗ trợ h
 
  Có, bạn có thể sử dụng Aspose.HTML cho .NET trong các dự án thương mại bằng cách mua giấy phép từ[đây](https://purchase.aspose.com/buy).
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

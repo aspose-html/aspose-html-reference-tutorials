@@ -3,10 +3,16 @@ title: 指定 EPUB 到 PDF 的 PDF 儲存選項
 linktitle: 指定 EPUB 到 PDF 的 PDF 儲存選項
 second_title: 使用 Aspose.HTML 進行 Java HTML 處理
 description: 了解如何使用強大的 HTML 操作庫 Aspose.HTML 在 Java 中將 EPUB 轉換為 PDF。
-type: docs
 weight: 12
 url: /zh-hant/java/converting-epub-to-pdf/convert-epub-to-pdf-specify-pdf-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 指定 EPUB 到 PDF 的 PDF 儲存選項
+
 
 ## 介紹
 
@@ -111,3 +117,10 @@ Aspose.HTML for Java支援各種EPUB格式的轉換，確保與大多數EPUB文�
 
 ### 在哪裡可以獲得 Aspose.HTML for Java 的支援？
 您可以在以下位置找到問題的答案並尋求支持[Aspose.HTML 論壇](https://forum.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Rendu des documents HTML
 linktitle: Rendu des documents HTML
 second_title: API de manipulation HTML Aspose.HTML .NET
 description: Découvrez comment restituer facilement des documents HTML à l'aide des didacticiels Aspose.HTML pour .NET. Découvrez une liste complète de didacticiels pour maîtriser le rendu HTML.
-type: docs
 weight: 29
 url: /fr/net/rendering-html-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rendu des documents HTML
+
 
 Vous souhaitez acquérir une expertise dans le rendu de documents HTML à l'aide d'Aspose.HTML pour .NET ? Ne cherchez plus ! Dans ce guide complet, nous vous guiderons pas à pas tout au long du processus, afin que vous puissiez maîtriser le rendu HTML avec Aspose.HTML.
 
@@ -46,3 +52,9 @@ Découvrez comment contrôler efficacement les délais d'expiration du rendu dan
 Apprenez à générer plusieurs documents HTML à l'aide d'Aspose.HTML pour .NET. Boostez vos capacités de traitement de documents avec cette puissante bibliothèque.
 ### [Rendre un document SVG au format PNG dans .NET avec Aspose.HTML](./render-svg-doc-as-png/)
 Libérez la puissance d'Aspose.HTML pour .NET ! Apprenez à restituer un document SVG au format PNG sans effort. Plongez dans des exemples étape par étape et des FAQ. Commencez maintenant !
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

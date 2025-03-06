@@ -3,10 +3,16 @@ title: Triển khai Trình xử lý tin nhắn tùy chỉnh với Aspose.HTML ch
 linktitle: Triển khai Trình xử lý tin nhắn tùy chỉnh với Aspose.HTML cho Java
 second_title: Xử lý HTML Java với Aspose.HTML
 description: Khám phá cách triển khai trình xử lý tin nhắn tùy chỉnh trong Aspose.HTML cho Java để nâng cao khả năng xử lý tài liệu và xử lý nhật ký hiệu quả.
-type: docs
 weight: 11
 url: /vi/java/message-handling-networking/custom-message-handler/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Triển khai Trình xử lý tin nhắn tùy chỉnh với Aspose.HTML cho Java
+
 ## Giới thiệu
 Khi nói đến việc xử lý tài liệu HTML theo chương trình, thư viện Aspose.HTML cho Java nổi bật. Cho dù bạn là nhà phát triển muốn thao tác dữ liệu HTML, chuyển đổi tài liệu hay chỉ cần một công cụ đáng tin cậy để quản lý nội dung web, Aspose.HTML đều đáng để cân nhắc. Với các tính năng mạnh mẽ và hiệu suất vượt trội, nó cho phép các nhà phát triển đào sâu vào thao tác HTML mà không cần sự phức tạp của các thư viện khác. Trong hướng dẫn này, chúng ta sẽ khám phá cách triển khai trình xử lý tin nhắn tùy chỉnh bằng Aspose.HTML cho Java.
 ## Điều kiện tiên quyết
@@ -65,3 +71,9 @@ Aspose.HTML for Java là một thư viện cho phép các nhà phát triển t�
  Chắc chắn rồi! Bạn có thể dùng thử Aspose.HTML miễn phí bằng cách truy cập bản dùng thử miễn phí của họ[đây](https://releases.aspose.com/).
 ### Tôi có thể tìm thấy sự hỗ trợ cho Aspose.HTML ở đâu?
  Bạn có thể tìm kiếm sự hỗ trợ từ cộng đồng Aspose trên diễn đàn của họ[đây](https://forum.aspose.com/c/html/29).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

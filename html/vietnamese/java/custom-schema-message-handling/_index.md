@@ -3,10 +3,16 @@ title: Xử lý lược đồ và tin nhắn tùy chỉnh trong Aspose.HTML cho 
 linktitle: Xử lý lược đồ và tin nhắn tùy chỉnh trong Aspose.HTML cho Java
 second_title: Xử lý HTML Java với Aspose.HTML
 description: Khám phá cách làm chủ Aspose.HTML cho Java với hướng dẫn về lọc và xử lý tin nhắn lược đồ tùy chỉnh. Bắt đầu xây dựng các ứng dụng phù hợp.
-type: docs
 weight: 24
 url: /vi/java/custom-schema-message-handling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xử lý lược đồ và tin nhắn tùy chỉnh trong Aspose.HTML cho Java
+
 ## Giới thiệu
 
 Khi nói đến việc phát triển ứng dụng, nhu cầu kiểm soát chính xác đối với truyền dữ liệu là tối quan trọng. Hãy tưởng tượng bạn đang cố gắng dò đài phát thanh yêu thích của mình, nhưng tất cả những gì bạn nhận được là âm thanh tĩnh; đó là cách mà các thông điệp hỗn loạn không được lọc hoặc quản lý kém có thể cảm thấy trong ứng dụng của bạn. Đây là nơi Aspose.HTML for Java tỏa sáng, cho phép các nhà phát triển triển khai các lược đồ nhắn tin tùy chỉnh để lọc, xử lý và do đó hợp lý hóa việc trao đổi dữ liệu một cách hiệu quả.
@@ -28,3 +34,9 @@ Bây giờ, chúng ta đừng quên về xử lý tin nhắn. Hãy tưởng tư�
 Tìm hiểu cách triển khai bộ lọc tin nhắn lược đồ tùy chỉnh trong Java bằng Aspose.HTML. Làm theo hướng dẫn từng bước của chúng tôi để có trải nghiệm ứng dụng an toàn, phù hợp.
 ### [Trình xử lý tin nhắn lược đồ tùy chỉnh với Aspose.HTML cho Java](./custom-schema-message-handler/)
 Học cách tạo trình xử lý tin nhắn lược đồ tùy chỉnh bằng Aspose.HTML cho Java. Hướng dẫn này hướng dẫn bạn từng bước trong suốt quá trình.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

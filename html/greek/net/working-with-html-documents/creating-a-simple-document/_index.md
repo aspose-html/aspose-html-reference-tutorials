@@ -3,10 +3,16 @@ title: Δημιουργία απλού εγγράφου σε .NET με Aspose.HT
 linktitle: Δημιουργία απλού εγγράφου στο .NET
 second_title: Aspose.HTML .NET API χειρισμού HTML
 description: Μάθετε να εργάζεστε με έγγραφα HTML στο .NET χρησιμοποιώντας το Aspose.HTML. Δημιουργήστε, χειριστείτε και μετατρέψτε HTML χωρίς κόπο. Ξεκινήστε σήμερα!
-type: docs
 weight: 11
 url: /el/net/working-with-html-documents/creating-a-simple-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Δημιουργία απλού εγγράφου σε .NET με Aspose.HTML
+
 
 ## Εισαγωγή
 
@@ -152,3 +158,10 @@ document.Save(outputHtml);
 ### 5. Πού μπορώ να λάβω υποστήριξη για το Aspose.HTML για .NET;
 
  Μπορείτε να λάβετε υποστήριξη και να κάνετε ερωτήσεις σχετικά με το Aspose.HTML για .NET στο[Aspose Forum](https://forum.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

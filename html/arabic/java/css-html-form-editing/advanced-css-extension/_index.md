@@ -3,10 +3,16 @@ title: تقنيات توسعة CSS المتقدمة مع Aspose.HTML لـ Java
 linktitle: تقنيات توسعة CSS المتقدمة مع Aspose.HTML لـ Java
 second_title: معالجة HTML باستخدام Java مع Aspose.HTML
 description: تعرف على كيفية استخدام Aspose.HTML for Java لتطبيق تقنيات CSS المتقدمة، بما في ذلك هوامش الصفحات المخصصة والمحتوى الديناميكي. برنامج تعليمي عملي مفصل للمطورين.
-type: docs
 weight: 10
 url: /ar/java/css-html-form-editing/advanced-css-extension/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تقنيات توسعة CSS المتقدمة مع Aspose.HTML لـ Java
+
 ## مقدمة
 هل أنت مستعد لرفع مهاراتك في CSS إلى المستوى التالي؟ تخيل أنك تستطيع بكل سهولة تطبيق التصميم المتقدم على مستندات HTML الخاصة بك، وتخصيص الهوامش، وإدراج المحتوى في تلك الهوامش مثل المحترفين—كل هذا أثناء استخدام Java! يبدو الأمر مثيرًا، أليس كذلك؟ هذا هو بالضبط ما سنستكشفه في هذا البرنامج التعليمي. سنغوص في عالم Aspose.HTML لـ Java ونكتشف كيفية الاستفادة من قدراته القوية لتحسين تصميم CSS الخاص بك. سواء كنت مطورًا متمرسًا أو بدأت للتو، فإن هذا الدليل سيرشدك خلال كل خطوة من خلال تفسيرات واضحة وأمثلة عملية.
 في هذا البرنامج التعليمي، سنركز على تطبيق الهوامش المخصصة وإضافة المحتوى إلى تلك الهوامش باستخدام Aspose.HTML for Java. وبحلول النهاية، ستكتسب فهمًا جيدًا لكيفية التحكم في تخطيط الصفحة باستخدام CSS وكيفية إنشاء مستندات بمحتوى ديناميكي، مثل أرقام الصفحات والعناوين، بالأسلوب الذي تريده.
@@ -94,3 +100,9 @@ Aspose.HTML for Java هي مكتبة تتيح للمطورين إنشاء وتح
 بالتأكيد! تم تصميم Aspose.HTML for Java للتعامل مع مهام معالجة المستندات واسعة النطاق، مما يجعله مناسبًا لتطبيقات مستوى المؤسسات التي تتطلب قدرات معالجة HTML قوية.
 ### هل يمكنني تجربة Aspose.HTML لـ Java قبل الشراء؟
 نعم، يمكنك تنزيل نسخة تجريبية مجانية من Aspose.HTML لـ Java من[موقع اسبوس](https://releases.aspose.com/html/java/)سيسمح لك هذا باستكشاف ميزاته ومعرفة مدى ملاءمته لسير عمل التطوير الخاص بك.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

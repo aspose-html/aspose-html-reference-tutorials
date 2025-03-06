@@ -3,10 +3,16 @@ title: EPUB에서 PDF로 PDF 저장 옵션 지정
 linktitle: EPUB에서 PDF로 PDF 저장 옵션 지정
 second_title: Aspose.HTML을 사용한 Java HTML 처리
 description: 강력한 HTML 조작 라이브러리인 Aspose.HTML을 사용하여 Java에서 EPUB를 PDF로 변환하는 방법을 알아보세요.
-type: docs
 weight: 12
 url: /ko/java/converting-epub-to-pdf/convert-epub-to-pdf-specify-pdf-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# EPUB에서 PDF로 PDF 저장 옵션 지정
+
 
 ## 소개
 
@@ -111,3 +117,10 @@ Java용 Aspose.HTML은 다양한 EPUB 형식의 변환을 지원하여 대부분
 
 ### Java용 Aspose.HTML에 대한 지원은 어디에서 받을 수 있나요?
 귀하의 질문에 대한 답변을 찾고 지원을 요청할 수 있습니다.[Aspose.HTML 포럼](https://forum.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: التعامل مع Canvas في .NET باستخدام Aspose.HTML
 linktitle: التعامل مع Canvas في .NET
 second_title: Aspose.HTML .NET HTML manipulation API
 description: تعرف على كيفية التعامل مع مستندات HTML باستخدام Aspose.HTML لـ .NET. يغطي هذا البرنامج التعليمي الشامل الأساسيات والمتطلبات الأساسية والأمثلة خطوة بخطوة.
-type: docs
 weight: 10
 url: /ar/net/canvas-and-image-manipulation/manipulating-canvas/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# التعامل مع Canvas في .NET باستخدام Aspose.HTML
+
 # برنامج تعليمي متعمق حول استخدام Aspose.HTML لـ .NET
 
 في عالم تطوير الويب، يعد العمل باستخدام HTML والتلاعب به متطلبًا شائعًا. تعد Aspose.HTML for .NET أداة قوية يمكنها جعل هذه العملية أكثر كفاءة وفعالية. في هذا البرنامج التعليمي، سنستكشف كيفية استخدام Aspose.HTML for .NET للتلاعب بمستندات HTML وأداء مهام مختلفة. سنقوم بتقسيم كل مثال إلى خطوات متعددة وتقديم تفسيرات مفصلة لكل خطوة.
@@ -131,3 +137,10 @@ using (var device = new XpsDevice("Your Output Directory\\canvas.xps"))
 ### س5: ما هي تنسيقات الملفات التي يمكنني تصدير مستندات HTML إليها باستخدام Aspose.HTML لـ .NET؟
 
 A5: يدعم Aspose.HTML for .NET التصدير إلى تنسيقات مختلفة، بما في ذلك XPS وPDF والمزيد. يمكنك تصفح الوثائق للحصول على معلومات مفصلة.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

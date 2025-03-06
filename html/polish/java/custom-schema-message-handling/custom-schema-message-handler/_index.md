@@ -3,10 +3,16 @@ title: Niestandardowy program do obsługi komunikatów schematu z Aspose.HTML dl
 linktitle: Niestandardowy program do obsługi komunikatów schematu z Aspose.HTML dla języka Java
 second_title: Przetwarzanie HTML w Javie za pomocą Aspose.HTML
 description: Naucz się tworzyć niestandardowy program obsługi wiadomości schematu przy użyciu Aspose.HTML dla Java. Ten samouczek przeprowadzi Cię krok po kroku przez ten proces.
-type: docs
 weight: 11
 url: /pl/java/custom-schema-message-handling/custom-schema-message-handler/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Niestandardowy program do obsługi komunikatów schematu z Aspose.HTML dla języka Java
+
 ## Wstęp
 Witajcie, koledzy programiści! Jeśli chcesz ulepszyć swoje aplikacje Java o solidne możliwości manipulacji HTML, trafiłeś we właściwe miejsce. Dzisiaj zagłębimy się w to, jak utworzyć niestandardowy program obsługi wiadomości schematu przy użyciu Aspose.HTML dla Java. Wyobraź sobie, że jesteś szefem kuchni, który przygotowuje specjalne danie; ten program obsługi jest jak Twój tajny sos, który podnosi standardowy przepis do rangi wykwintnego posiłku. Pozwala Ci bezproblemowo zarządzać i filtrować wiadomości HTML na podstawie własnych specyfikacji schematu.
 ## Wymagania wstępne
@@ -92,3 +98,9 @@ Aspose.HTML for Java służy do manipulowania plikami HTML i konwertowania ich w
  Tak, możesz zakupić stałą licencję na Aspose.HTML[Tutaj](https://purchase.aspose.com/buy).
 ### Gdzie mogę znaleźć pomoc dotyczącą Aspose.HTML?
  Dostęp do pomocy technicznej można uzyskać, odwiedzając forum Aspose poświęcone językowi HTML[Tutaj](https://forum.aspose.com/c/html/29).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Memanipulasi Canvas di .NET dengan Aspose.HTML
 linktitle: Memanipulasi Kanvas di .NET
 second_title: Aspose.HTML .NET API manipulasi HTML
 description: Pelajari cara memanipulasi dokumen HTML dengan Aspose.HTML untuk .NET. Tutorial komprehensif ini mencakup dasar-dasar, prasyarat, dan contoh langkah demi langkah.
-type: docs
 weight: 10
 url: /id/net/canvas-and-image-manipulation/manipulating-canvas/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Memanipulasi Canvas di .NET dengan Aspose.HTML
+
 # Tutorial Mendalam tentang Penggunaan Aspose.HTML untuk .NET
 
 Dalam dunia pengembangan web, bekerja dengan HTML dan memanipulasinya merupakan persyaratan umum. Aspose.HTML untuk .NET adalah alat canggih yang dapat membuat proses ini lebih efisien dan efektif. Dalam tutorial ini, kita akan menjelajahi cara menggunakan Aspose.HTML untuk .NET guna memanipulasi dokumen HTML dan melakukan berbagai tugas. Kita akan membagi setiap contoh menjadi beberapa langkah dan memberikan penjelasan terperinci untuk setiap langkah.
@@ -131,3 +137,10 @@ A2: Ya, Aspose.HTML untuk .NET dapat digunakan di berbagai lingkungan, termasuk 
 ### Q5: Format file apa yang dapat saya ekspor dokumen HTML menggunakan Aspose.HTML untuk .NET?
 
 A5: Aspose.HTML untuk .NET mendukung ekspor ke berbagai format, termasuk XPS, PDF, dan lainnya. Jelajahi dokumentasi untuk informasi terperinci.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

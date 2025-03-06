@@ -3,10 +3,16 @@ title: Convertir HTML en XPS dans .NET avec Aspose.HTML
 linktitle: Convertir HTML en XPS dans .NET
 second_title: API de manipulation HTML Aspose.HTML .NET
 description: Découvrez la puissance d'Aspose.HTML pour .NET. Convertissez facilement du HTML en XPS. Prérequis, guide étape par étape et FAQ inclus.
-type: docs
 weight: 22
 url: /fr/net/html-extensions-and-conversions/convert-html-to-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Convertir HTML en XPS dans .NET avec Aspose.HTML
+
 
 Dans le paysage en constante évolution du développement Web, il est essentiel de disposer des bons outils pour réussir. Aspose.HTML pour .NET est l'un de ces outils qui permet aux développeurs de travailler avec des documents HTML sans effort. Ce guide est un voyage étape par étape dans le monde d'Aspose.HTML pour .NET. Nous explorerons ses prérequis, l'importation d'espaces de noms et nous plongerons dans un exemple pratique de conversion de HTML au format XPS. Alors, embarquons-nous pour cette expédition éducative.
 
@@ -112,3 +118,9 @@ Maintenant, abordons quelques questions courantes.
    Oui, Aspose.HTML pour .NET est conçu pour gérer des documents HTML complexes, ce qui le rend adapté à un large éventail de cas d'utilisation.
 
 Dans ce guide, nous avons exploré les bases d'Aspose.HTML pour .NET, des prérequis à un exemple pratique. Avec les connaissances et les outils appropriés, vous pouvez exploiter la puissance d'Aspose.HTML pour .NET dans vos projets de développement Web.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

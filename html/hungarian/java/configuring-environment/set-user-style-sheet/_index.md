@@ -3,10 +3,16 @@ title: Felhasználói stíluslap beállítása az Aspose.HTML for Java-ban
 linktitle: Felhasználói stíluslap beállítása az Aspose.HTML for Java-ban
 second_title: Java HTML feldolgozás Aspose.HTML-lel
 description: Ismerje meg, hogyan állíthat be egyéni felhasználói stíluslapot az Aspose.HTML for Java-ban, javítva a dokumentum stílusát, és könnyedén konvertálhatja a HTML-t PDF-be.
-type: docs
 weight: 16
 url: /hu/java/configuring-environment/set-user-style-sheet/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Felhasználói stíluslap beállítása az Aspose.HTML for Java-ban
+
 ## Bevezetés
 Volt már olyan, hogy saját egyedi stílusával szeretné módosítani HTML-dokumentumai megjelenését? Képzelje el, hogy egy weboldalt készít, és szeretné biztosítani, hogy a címsorok egy bizonyos színűek legyenek, vagy hogy a bekezdések egységes megjelenésűek legyenek a különböző eszközökön. Itt lépnek életbe a felhasználói stíluslapok! Ebben az oktatóanyagban megvizsgáljuk, hogyan állíthat be egyéni felhasználói stíluslapot az Aspose.HTML for Java használatával. Függetlenül attól, hogy összefüggő dizájnt szeretne létrehozni dokumentumaihoz, vagy egyszerűen csak kísérletezik különböző stílusokkal, ez az útmutató egyszerű és vonzó módon végigvezeti a teljes folyamaton.
 ## Előfeltételek
@@ -104,3 +110,9 @@ Igen, ugyanúgy csatolhat külső CSS-fájlokat, mint egy normál HTML-dokumentu
 A nem támogatott CSS-tulajdonságokat a rendszer egyszerűen figyelmen kívül hagyja, így a stíluslap többi része hiba nélkül alkalmazható.
 ### Átalakíthatom a HTML-t PDF-től eltérő formátumba?  
 Igen, az Aspose.HTML for Java támogatja a HTML konvertálását különféle formátumokba, beleértve az XPS-t, TIFF-et és egyebeket.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

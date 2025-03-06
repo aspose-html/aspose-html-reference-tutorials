@@ -3,10 +3,16 @@ title: 使用 Aspose.HTML for Java 将 HTML 保存为 MHTML
 linktitle: 使用 Aspose.HTML for Java 将 HTML 保存为 MHTML
 second_title: 使用 Aspose.HTML 进行 Java HTML 处理
 description: 通过本分步指南（其中包含代码示例和实用技巧），了解如何使用 Aspose.HTML for Java 将 HTML 文档保存为 MHTML。
-type: docs
 weight: 13
 url: /zh/java/saving-html-documents/save-html-to-mhtml/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.HTML for Java 将 HTML 保存为 MHTML
+
 ## 介绍
 在广阔的 Web 开发和数据表示世界中，您可能遇到过各种文件格式。其中一种格式是 MHTML，这是一种将 HTML 文档及其所有组件（如图像和链接文件）捆绑到单个文件中的好方法。这使得共享和存储网页变得方便。如果您希望使用 Aspose.HTML for Java 将 HTML 内容保存为 MHTML，那么您来对地方了！在本指南中，我们将逐步引导您完成整个过程，确保您掌握所有内容。
 
@@ -109,3 +115,9 @@ Aspose.HTML for Java 提供了一个易于使用的 API，用于操作、转换�
 
 ### 在哪里可以找到有关 Aspose.HTML for Java 的更多文档？
 您可以在[Aspose HTML 文档页面](https://reference.aspose.com/html/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

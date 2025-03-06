@@ -3,10 +3,16 @@ title: Aspose.HTML を使用して .NET で拡張コンテンツ プロパティ
 linktitle: .NET で拡張コンテンツ プロパティを使用する
 second_title: Aspose.HTML .NET HTML 操作 API
 description: このステップバイステップ ガイドで、Aspose.HTML for .NET の使用方法を学びます。HTML スキルを強化し、Web 開発プロジェクトを効率化します。
-type: docs
 weight: 14
 url: /ja/net/advanced-features/use-extended-content-property/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.HTML を使用して .NET で拡張コンテンツ プロパティを使用する
+
 
 Web 開発の世界では、HTML の操作は基本的なスキルです。Aspose.HTML for .NET は、HTML 関連のタスクを簡単かつ効率的に実行できる強力なツールです。このチュートリアルでは、前提条件、名前空間のインポート、各例をわかりやすい手順に分解するなど、Aspose.HTML for .NET を使い始めるための手順を説明します。
 
@@ -123,3 +129,10 @@ using (XpsDevice device = new XpsDevice(dataDir + "output_out.xps"))
 ### Aspose.HTML for .NET 用の追加のリソースやチュートリアルはありますか?
    はい、より多くのチュートリアルとドキュメントは[Aspose.HTML ウェブサイト](https://reference.aspose.com/html/net/).
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

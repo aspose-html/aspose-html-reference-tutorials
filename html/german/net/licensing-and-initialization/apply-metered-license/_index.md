@@ -3,10 +3,16 @@ title: Wenden Sie eine getaktete Lizenz in .NET mit Aspose.HTML an
 linktitle: Anwenden einer getakteten Lizenz in .NET
 second_title: Aspose.HTML .NET HTML-Manipulations-API
 description: Erfahren Sie, wie Sie in Aspose.HTML für .NET eine dosierte Lizenz anwenden. Verwalten Sie Ihre HTML-Manipulationsanforderungen effizient. Jetzt loslegen!
-type: docs
 weight: 10
 url: /de/net/licensing-and-initialization/apply-metered-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Wenden Sie eine getaktete Lizenz in .NET mit Aspose.HTML an
+
 In diesem Tutorial führen wir Sie durch den Prozess der Anwendung einer gemessenen Lizenz in Ihrer .NET-Anwendung mit Aspose.HTML. Eine gemessene Lizenz ist eine praktische Möglichkeit, die Lizenzierung für Ihre HTML-Manipulationsanforderungen zu verwalten. Indem Sie die folgenden Schritte ausführen, können Sie eine gemessene Lizenz auf Ihr Aspose.HTML für .NET-Projekt anwenden.
 
 ## Voraussetzungen
@@ -88,3 +94,9 @@ Mit einer nutzungsabhängigen Lizenz können Sie für Aspose.HTML nutzungsabhän
 
 ### Wo kann ich Support erhalten oder Fragen zu Aspose.HTML für .NET stellen?
  Sie können der Community beitreten und Unterstützung suchen auf der[Aspose-Foren](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

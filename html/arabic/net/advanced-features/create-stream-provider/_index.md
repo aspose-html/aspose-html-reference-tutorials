@@ -3,10 +3,16 @@ title: إنشاء موفر تدفق في .NET باستخدام Aspose.HTML
 linktitle: إنشاء موفر البث في .NET
 second_title: Aspose.HTML .NET HTML manipulation API
 description: تعرف على كيفية استخدام Aspose.HTML لـ .NET للتعامل مع مستندات HTML بكفاءة. برنامج تعليمي خطوة بخطوة للمطورين.
-type: docs
 weight: 11
 url: /ar/net/advanced-features/create-stream-provider/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إنشاء موفر تدفق في .NET باستخدام Aspose.HTML
+
 في عالم تطوير الويب ومعالجة المستندات، يعد Aspose.HTML for .NET أداة قوية. سيرشدك هذا البرنامج التعليمي خلال عملية استخدام Aspose.HTML for .NET، مع تفصيل كل خطوة وشرح أهميتها. سواء كنت مطورًا متمرسًا أو مبتدئًا، سيساعدك هذا الدليل على الاستفادة من إمكانيات Aspose.HTML for .NET بشكل فعال.
 
 ## مقدمة
@@ -132,3 +138,9 @@ A1: Aspose.HTML for .NET هي مكتبة قوية تسمح لمطوري .NET ب�
 ### س5. أين يمكنني طلب المساعدة أو مناقشة القضايا المتعلقة بـ Aspose.HTML لـ .NET؟
 
  ج5: يمكنك زيارة منتديات Aspose للحصول على الدعم والمناقشات على[هذا الرابط](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

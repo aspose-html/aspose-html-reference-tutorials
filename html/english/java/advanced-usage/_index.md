@@ -3,10 +3,16 @@ title: Advanced Usage of Aspose.HTML Java Tutorials
 linktitle: Advanced Usage of Aspose.HTML Java
 second_title: Java HTML Processing with Aspose.HTML
 description: Learn how to customize HTML page margins, implement a DOM Mutation Observer, manipulate HTML5 Canvas, automate HTML form filling, and more using Aspose.HTML Java.
-type: docs
 weight: 20
 url: /java/advanced-usage/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Advanced Usage of Aspose.HTML Java Tutorials
+
 
 In the world of web development, mastering the art of HTML manipulation is crucial. Aspose.HTML for Java brings a plethora of features that enable you to take your HTML skills to the next level. In this article, we'll delve into some advanced techniques that will help you harness the power of Aspose.HTML for Java.
 
@@ -51,3 +57,9 @@ Learn how to automate HTML form filling and submission with Aspose.HTML for Java
 Learn how to adjust PDF page size with Aspose.HTML for Java. Create high-quality PDFs from HTML effortlessly. Control page dimensions effectively.
 ### [Adjust XPS Page Size with Aspose.HTML for Java](./adjust-xps-page-size/)
 Learn how to adjust XPS page size with Aspose.HTML for Java. Control the output dimensions of your XPS documents easily.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

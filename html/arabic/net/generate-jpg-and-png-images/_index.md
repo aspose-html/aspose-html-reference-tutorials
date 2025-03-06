@@ -3,10 +3,16 @@ title: إنشاء صور JPG و PNG
 linktitle: إنشاء صور JPG و PNG
 second_title: Aspose.HTML .NET HTML manipulation API
 description: تعرف على كيفية إنشاء صور بتنسيق JPG وPNG باستخدام Aspose.HTML لـ .NET من خلال دروسنا التعليمية. أنشئ رسومات مذهلة دون عناء.
-type: docs
 weight: 28
 url: /ar/net/generate-jpg-and-png-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إنشاء صور JPG و PNG
+
  
 Aspose.HTML for .NET هي مكتبة قوية تتيح للمطورين إنشاء صور بتنسيق JPG وPNG من مستندات HTML بسهولة. في هذا البرنامج التعليمي، سنستكشف كيفية الاستفادة من الإمكانات الكاملة لـ Aspose.HTML for .NET لإنشاء صور عالية الجودة من محتوى HTML الخاص بك.
 
@@ -41,3 +47,9 @@ Aspose.HTML for .NET هي مكتبة قوية تتيح للمطورين إنشا
 في الختام، يوفر Aspose.HTML for .NET حلاً سهل الاستخدام وقويًا لإنشاء صور JPG وPNG من محتوى HTML. سواء كنت مطورًا متمرسًا أو مبتدئًا، فسترشدك هذه البرامج التعليمية خلال العملية. أنشئ صورًا جذابة بصريًا تبرز وترفع من مستوى مشاريعك باستخدام Aspose.HTML for .NET.
 
 لذا، لماذا الانتظار؟ ابدأ في استكشاف عالم تحويل HTML إلى صورة باستخدام Aspose.HTML لـ .NET اليوم. اكتشف إمكانيات جديدة واجعل تطبيقات الويب وسطح المكتب أكثر جاذبية وجاذبية بصريًا. استمتع بالبرمجة!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

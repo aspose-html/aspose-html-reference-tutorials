@@ -3,10 +3,16 @@ title: تنفيذ Sandboxing في Aspose.HTML لـ Java
 linktitle: تنفيذ Sandboxing في Aspose.HTML لـ Java
 second_title: معالجة HTML باستخدام Java مع Aspose.HTML
 description: تعرف على كيفية تنفيذ الحماية في Aspose.HTML لـ Java للتحكم بشكل آمن في تنفيذ البرامج النصية في مستندات HTML وتحويلها إلى PDF.
-type: docs
 weight: 15
 url: /ar/java/configuring-environment/implement-sandboxing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تنفيذ Sandboxing في Aspose.HTML لـ Java
+
 ## مقدمة
 في هذا البرنامج التعليمي، سنشرح كيفية تنفيذ الحماية باستخدام Aspose.HTML لـ Java. سنأخذك من إعداد بيئتك إلى كتابة ملف HTML بسيط، وتكوين الحماية، وتحويل HTML إلى PDF، كل ذلك مع الحفاظ على البرامج النصية الضارة المحتملة تحت السيطرة. سواء كنت مطورًا متمرسًا أو بدأت للتو، سيوفر لك هذا الدليل الأدوات التي تحتاجها لإنشاء محتوى ويب آمن بسهولة.
 ## المتطلبات الأساسية
@@ -89,3 +95,9 @@ if (configuration != null) {
  لن يتم تنفيذ البرامج النصية التي تم وضعها في صندوق رمل، وتأثيراتها (مثل`document.write`) لن تظهر في الإخراج.
 ### هل يمكنني تحويل HTML المحمي بصندوق الرمل إلى تنسيقات أخرى إلى جانب PDF؟
 بالتأكيد! يدعم Aspose.HTML for Java التحويل إلى تنسيقات مختلفة، بما في ذلك الصور وXPS والمزيد.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

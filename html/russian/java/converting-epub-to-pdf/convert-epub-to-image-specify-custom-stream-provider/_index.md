@@ -3,10 +3,16 @@ title: Указание поставщика пользовательского 
 linktitle: Указание поставщика пользовательского потока для преобразования EPUB в изображение
 second_title: Обработка Java HTML с помощью Aspose.HTML
 description: Узнайте, как использовать Aspose.HTML для Java для преобразования файлов EPUB в изображения с помощью этого пошагового руководства.
-type: docs
 weight: 15
 url: /ru/java/converting-epub-to-pdf/convert-epub-to-image-specify-custom-stream-provider/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Указание поставщика пользовательского потока для преобразования EPUB в изображение
+
 
 Вы готовы использовать мощь Aspose.HTML для Java? Это всеобъемлющее руководство проведет вас через весь процесс, шаг за шагом. Независимо от того, являетесь ли вы опытным разработчиком или только начинаете, мы вам поможем. 
 
@@ -107,3 +113,10 @@ Aspose.HTML для Java — это библиотека, которая позв
 ### 5. Где я могу получить поддержку по Aspose.HTML для Java?
 
  Вы можете найти поддержку на[Форумы Aspose](https://forum.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

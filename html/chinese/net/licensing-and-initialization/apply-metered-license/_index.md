@@ -3,10 +3,16 @@ title: 使用 Aspose.HTML 在 .NET 中应用计量许可证
 linktitle: 在 .NET 中应用计量许可证
 second_title: Aspose.HTML .NET HTML 操作 API
 description: 了解如何在 Aspose.HTML for .NET 中应用计量许可证。高效管理您的 HTML 操作需求。立即开始！
-type: docs
 weight: 10
 url: /zh/net/licensing-and-initialization/apply-metered-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.HTML 在 .NET 中应用计量许可证
+
 在本教程中，我们将指导您使用 Aspose.HTML 在 .NET 应用程序中应用计量许可证的过程。计量许可证是一种管理 HTML 操作需求许可的便捷方式。通过遵循以下步骤，您将能够将计量许可证应用于您的 Aspose.HTML for .NET 项目。
 
 ## 先决条件
@@ -88,3 +94,9 @@ using Aspose.Html;
 
 ### 在哪里可以获得支持或者询问有关 Aspose.HTML for .NET 的问题？
 您可以加入社区并寻求支持[Aspose 论坛](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

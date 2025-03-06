@@ -3,10 +3,16 @@ title: Java용 Aspose.HTML에서 글꼴 구성
 linktitle: Java용 Aspose.HTML에서 글꼴 구성
 second_title: Aspose.HTML을 사용한 Java HTML 처리
 description: 이 자세한 단계별 가이드를 통해 Java용 Aspose.HTML에서 글꼴을 구성하는 방법을 알아보세요. 사용자 지정 글꼴과 스타일로 HTML에서 PDF로의 변환을 강화하세요.
-type: docs
 weight: 11
 url: /ko/java/configuring-environment/configure-fonts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.HTML에서 글꼴 구성
+
 ## 소개
 Java에서 HTML 문서로 작업할 때, 시각적으로 매력적이고 읽기 쉬운 콘텐츠를 만드는 데 글꼴을 올바르게 구성하는 것이 필수적입니다. 보고서를 생성하든, 웹 페이지를 만들든, 문서를 변환하든, 글꼴이 올바르게 구성되었는지 확인하는 것은 상당한 차이를 만들 수 있습니다. 이 튜토리얼에서는 환경을 설정하는 것부터 사용자 정의 글꼴로 HTML을 PDF로 변환하는 것까지 Java용 Aspose.HTML에서 글꼴을 구성하는 과정을 안내합니다. 그럼, 시작해 볼까요!
 
@@ -123,3 +129,9 @@ Java용 Aspose.HTML에서 글꼴을 구성하는 것은 HTML 문서의 모양과
 네, Aspose.HTML은 광범위한 CSS 스타일을 지원합니다. 일반 웹 환경에서처럼 복잡한 스타일을 적용할 수 있습니다.
 ### 더 많은 예와 문서는 어디에서 볼 수 있나요?  
  더 자세한 예와 문서는 다음에서 찾을 수 있습니다.[Java 문서 페이지용 Aspose.HTML](https://reference.aspose.com/html/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 在 Aspose.HTML for Java 中处理凭证管道
 linktitle: 在 Aspose.HTML for Java 中处理凭证管道
 second_title: 使用 Aspose.HTML 进行 Java HTML 处理
 description: 在本分步指南中了解如何使用 Aspose.HTML for Java 安全地处理凭据。探索基本技巧和最佳实践。
-type: docs
 weight: 10
 url: /zh/java/message-handling-networking/credentials-pipeline/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.HTML for Java 中处理凭证管道
+
 ## 介绍
 在日益数字化的世界中，维护敏感信息的安全比以往任何时候都更加重要。当您在 Java 中处理 HTML 内容并希望确保与 Web 服务的交互安全高效时，Aspose.HTML for Java 库可以为您提供帮助。在本文中，我们将深入探讨如何使用 Aspose.HTML for Java 安全地处理凭据，从而创建一个允许与网络和外部服务安全交互的环境。
 ## 先决条件
@@ -74,3 +80,9 @@ Aspose.HTML for Java 是一个功能强大的库，旨在操作 HTML 文档，�
 您可以获取临时许可证以进行测试[这里](https://purchase.aspose.com/temporary-license/).
 ### Aspose.HTML for Java 有免费试用版吗？
 是的，您可以下载免费试用版[这里](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

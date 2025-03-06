@@ -3,10 +3,16 @@ title: EPUB에서 이미지로 변환하기 위한 사용자 지정 스트림 �
 linktitle: EPUB에서 이미지로 변환하기 위한 사용자 지정 스트림 공급자 지정
 second_title: Aspose.HTML을 사용한 Java HTML 처리
 description: 이 단계별 가이드를 통해 Java용 Aspose.HTML을 사용하여 EPUB 파일을 이미지로 변환하는 방법을 알아보세요.
-type: docs
 weight: 15
 url: /ko/java/converting-epub-to-pdf/convert-epub-to-image-specify-custom-stream-provider/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# EPUB에서 이미지로 변환하기 위한 사용자 지정 스트림 공급자 지정
+
 
 Java용 Aspose.HTML의 힘을 활용할 준비가 되셨나요? 이 포괄적인 가이드는 단계별로 프로세스를 안내합니다. 노련한 개발자이든 막 시작하든, 저희가 도와드리겠습니다. 
 
@@ -107,3 +113,10 @@ Java용 Aspose.HTML은 Java 개발자가 HTML, EPUB 및 기타 웹 관련 형식
 ### 5. Java용 Aspose.HTML에 대한 지원은 어디서 받을 수 있나요?
 
  지원은 다음에서 찾을 수 있습니다.[Aspose 포럼](https://forum.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

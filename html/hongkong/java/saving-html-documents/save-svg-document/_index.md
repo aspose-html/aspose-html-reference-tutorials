@@ -3,10 +3,16 @@ title: 在 Aspose.HTML for Java 中儲存 SVG 文檔
 linktitle: 在 Aspose.HTML for Java 中儲存 SVG 文檔
 second_title: 使用 Aspose.HTML 進行 Java HTML 處理
 description: 透過這個包含範例的簡單逐步指南，了解如何使用 Aspose.HTML for Java 儲存 SVG 文件。
-type: docs
 weight: 14
 url: /zh-hant/java/saving-html-documents/save-svg-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.HTML for Java 中儲存 SVG 文檔
+
 ## 介紹
 您準備好使用 Aspose.HTML for Java 進入 SVG 文件的世界了嗎？無論您是希望提高技能的開發人員還是希望自動化文件處理的設計師，本指南都是為您量身定制的。 SVG（即可擴展向量圖形）是一種功能強大的格式，可在網路上呈現高品質的圖形。在本教程中，我們將分解使用 Aspose.HTML 儲存 SVG 文件的過程，使其易於遵循和實作。
 ## 先決條件
@@ -67,3 +73,9 @@ SVG 代表可縮放向量圖形，它是一種支援互動性和動畫的二維�
 您可以查看[Aspose HTML 文件](https://reference.aspose.com/html/java/)有關其類別和方法的詳細資訊。
 ### Aspose 產品有可用的支援嗎？
 是的，您可以訪問[Aspose論壇](https://forum.aspose.com/c/html/29)用於支持和社區討論。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

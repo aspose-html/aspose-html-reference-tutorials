@@ -3,10 +3,16 @@ title: Appliquer une licence mesurée dans .NET avec Aspose.HTML
 linktitle: Appliquer une licence mesurée dans .NET
 second_title: API de manipulation HTML Aspose.HTML .NET
 description: Découvrez comment appliquer une licence limitée dans Aspose.HTML pour .NET. Gérez efficacement vos besoins de manipulation HTML. Commencez dès maintenant !
-type: docs
 weight: 10
 url: /fr/net/licensing-and-initialization/apply-metered-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Appliquer une licence mesurée dans .NET avec Aspose.HTML
+
 Dans ce didacticiel, nous vous guiderons tout au long du processus d'application d'une licence limitée dans votre application .NET à l'aide d'Aspose.HTML. Une licence limitée est un moyen pratique de gérer les licences pour vos besoins de manipulation HTML. En suivant les étapes ci-dessous, vous pourrez appliquer une licence limitée à votre projet Aspose.HTML pour .NET.
 
 ## Prérequis
@@ -88,3 +94,9 @@ Une licence à tarif limité vous permet de payer Aspose.HTML au fur et à mesur
 
 ### Où puis-je obtenir de l'aide ou poser des questions sur Aspose.HTML pour .NET ?
  Vous pouvez rejoindre la communauté et demander de l'aide sur le[Forums Aspose](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

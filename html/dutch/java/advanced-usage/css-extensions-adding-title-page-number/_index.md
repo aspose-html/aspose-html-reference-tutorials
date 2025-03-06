@@ -3,10 +3,16 @@ title: Pas HTML-paginamarges aan met Aspose.HTML
 linktitle: CSS-extensies - Titel en paginanummer toevoegen
 second_title: Java HTML-verwerking met Aspose.HTML
 description: Leer hoe u paginamarges kunt aanpassen, paginanummers en titels kunt toevoegen aan HTML-documenten met Aspose.HTML voor Java.
-type: docs
 weight: 10
 url: /nl/java/advanced-usage/css-extensions-adding-title-page-number/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pas HTML-paginamarges aan met Aspose.HTML
+
 Aspose.HTML voor Java is een krachtige bibliotheek voor het verwerken van HTML-documenten in Java-applicaties. In deze tutorial gaan we onderzoeken hoe u aangepaste paginamarges kunt maken en paginanummers en titels kunt toevoegen aan uw HTML-documenten met Aspose.HTML voor Java. Deze stapsgewijze handleiding verdeelt het proces in beheersbare stappen om u te helpen deze functies eenvoudig te integreren in uw HTML-documenten.
 
 ## Vereisten
@@ -119,3 +125,9 @@ A4: Ja, Aspose.HTML voor Java kan worden gebruikt om HTML-documenten te converte
 ### V5: Heb ik een licentie nodig om Aspose.HTML voor Java te gebruiken?
 
  A5: Ja, u kunt een licentie of een gratis proefversie verkrijgen van[hier](https://purchase.aspose.com/buy) of[hier](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

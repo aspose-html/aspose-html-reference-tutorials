@@ -3,10 +3,16 @@ title: Aspose.HTML을 사용하여 .NET에서 SVG를 PDF로 변환
 linktitle: .NET에서 SVG를 PDF로 변환
 second_title: Aspose.HTML .NET HTML 조작 API
 description: Aspose.HTML for .NET을 사용하여 SVG를 PDF로 변환하는 방법을 알아보세요. 효율적인 문서 처리를 위한 고품질의 단계별 튜토리얼입니다.
-type: docs
 weight: 12
 url: /ko/net/canvas-and-image-manipulation/convert-svg-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.HTML을 사용하여 .NET에서 SVG를 PDF로 변환
+
 
 웹 개발 및 문서 처리 분야에서는 SVG(Scalable Vector Graphics) 파일을 PDF(Portable Document Format)로 변환해야 하는 것이 일반적인 요구 사항입니다. Aspose.HTML for .NET의 힘으로 이 작업은 달성 가능할 뿐만 아니라 효율적이 됩니다. 이 튜토리얼에서는 Aspose.HTML for .NET을 사용하여 SVG를 PDF로 변환하는 과정을 안내합니다. 
 
@@ -100,3 +106,9 @@ A3: 네, 귀하의 특정 요구 사항에 맞춰 이미지 품질, 페이지 �
 ### 질문 5: Aspose.HTML을 사용하여 .NET에서 변환할 수 있는 다른 형식이 있나요?
 
 A5: 네, Aspose.HTML for .NET은 HTML, SVG 등 다양한 문서 형식을 지원합니다. 자세한 내용은 설명서를 확인하세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

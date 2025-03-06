@@ -3,10 +3,16 @@ title: Édition et soumission de formulaires HTML avec Aspose.HTML pour Java
 linktitle: Édition et soumission de formulaires HTML avec Aspose.HTML pour Java
 second_title: Traitement HTML Java avec Aspose.HTML
 description: Découvrez comment modifier et soumettre des formulaires HTML par programmation à l'aide d'Aspose.HTML pour Java dans ce guide complet étape par étape.
-type: docs
 weight: 11
 url: /fr/java/css-html-form-editing/html-form-editing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Édition et soumission de formulaires HTML avec Aspose.HTML pour Java
+
 ## Introduction
 Dans le monde actuel axé sur le Web, l'interaction avec les formulaires HTML est une tâche courante pour les développeurs, qu'il s'agisse de remplir des formulaires, de les soumettre ou d'automatiser la saisie de données. Aspose.HTML pour Java fournit une solution robuste pour gérer les formulaires HTML par programmation. Cet article vous guidera dans la modification et la soumission de formulaires HTML à l'aide d'Aspose.HTML pour Java, avec un didacticiel étape par étape qui décompose le processus en éléments gérables.
 ## Prérequis
@@ -112,3 +118,9 @@ Aspose.HTML pour Java est une bibliothèque qui permet aux développeurs de trav
 Actuellement, les soumissions de formulaires sont synchrones. Cependant, vous pouvez gérer les opérations asynchrones dans votre application Java en exécutant la soumission dans un thread distinct.
 ### Que se passe-t-il si la soumission du formulaire échoue ?
  Si la soumission échoue, le`SubmissionResult`l'objet ne sera pas marqué comme réussi et vous pouvez gérer les erreurs en inspectant le message de réponse ou les détails de l'exception.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

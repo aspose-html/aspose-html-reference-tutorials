@@ -3,11 +3,16 @@ title: تعلم التعامل مع مستندات HTML باستخدام Aspose.
 linktitle: دروس Aspose.HTML
 additionalTitle: مراجع API لـ Aspose
 description: إتقان التعامل مع HTML باستخدام دروس Aspose.HTML - من التحليل إلى التحويل، إرشادات خطوة بخطوة للمطورين.
-type: docs
 weight: 11
 url: /ar/
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تعلم التعامل مع مستندات HTML باستخدام Aspose.HTML
+
 
 استكشف دروس Aspose.HTML الشاملة لإتقان التعامل مع مستندات HTML باستخدام مكتبة Aspose.HTML القوية. من التحليل والعرض إلى تحويل ملفات HTML، توفر هذه الدروس إرشادات خطوة بخطوة للمطورين
 
@@ -44,3 +49,9 @@ is_root: true
 - [تحويل EPUB إلى PDF](./java/converting-epub-to-pdf/)
 - [تحويل EPUB إلى XPS](./java/converting-epub-to-xps/)
 - [تحويل HTML إلى تنسيقات الصور المختلفة](./java/converting-html-to-various-image-formats/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

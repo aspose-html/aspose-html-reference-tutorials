@@ -3,10 +3,16 @@ title: Credential Handler gebruiken in Aspose.HTML voor Java
 linktitle: Credential Handler gebruiken in Aspose.HTML voor Java
 second_title: Java HTML-verwerking met Aspose.HTML
 description: Ontdek hoe u een veilige Credential Handler implementeert met Aspose.HTML voor Java om gebruikersauthenticatie effectief te beheren.
-type: docs
 weight: 11
 url: /nl/java/mutation-observers-handlers/credential-handler/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Credential Handler gebruiken in Aspose.HTML voor Java
+
 ## Invoering
 Bij het werken met webapplicaties die gebruikersreferenties vereisen voor authenticatie, is het cruciaal om die referenties effectief te beheren. Dat is waar Aspose.HTML voor Java in het spel komt, met tools om dit proces te stroomlijnen. In deze handleiding verdiepen we ons in hoe u een Credential Handler implementeert met Aspose.HTML voor Java, om veilige bewerkingen in uw applicaties te garanderen.
 ## Vereisten
@@ -92,3 +98,9 @@ Aspose.HTML voor Java is een bibliotheek die is ontworpen om HTML-bestanden te m
  Absoluut! Je kunt ondersteuning vinden en je kunt je aansluiten bij de community op[Aspose-forums](https://forum.aspose.com/c/html/29).
 ###  Wat is het doel van de`setPreAuthenticate(true)` method?  
 Deze methode zorgt ervoor dat de inloggegevens automatisch in de aanvraagheader worden gebruikt voor authenticatie, zonder dat de gebruiker hierom wordt gevraagd.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

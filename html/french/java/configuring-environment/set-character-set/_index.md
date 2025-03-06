@@ -3,10 +3,16 @@ title: Définir le jeu de caractères dans Aspose.HTML pour Java
 linktitle: Définir le jeu de caractères dans Aspose.HTML pour Java
 second_title: Traitement HTML Java avec Aspose.HTML
 description: Découvrez comment définir le jeu de caractères dans Aspose.HTML pour Java et convertir du HTML en PDF dans ce guide étape par étape. Assurez un codage et un rendu de texte corrects.
-type: docs
 weight: 10
 url: /fr/java/configuring-environment/set-character-set/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Définir le jeu de caractères dans Aspose.HTML pour Java
+
 ## Introduction
 Si vous travaillez avec des documents HTML en Java, il est essentiel de vous assurer que le jeu de caractères est correct pour un codage et un rendu corrects du texte. Dans ce guide, nous verrons comment définir le jeu de caractères à l'aide d'Aspose.HTML pour Java. Ce didacticiel complet vous guidera à travers chaque étape du processus, en vous offrant une compréhension claire de la manière de gérer efficacement les jeux de caractères.
 ## Prérequis
@@ -104,3 +110,9 @@ Oui, Aspose.HTML pour Java vous permet de convertir du HTML en divers formats, n
  Bien que Java dispose d'un récupérateur de mémoire, il est recommandé de libérer manuellement les ressources telles que les configurations et les documents à l'aide de l'`dispose` méthode.
 ### Où puis-je obtenir un essai gratuit d'Aspose.HTML pour Java ?  
  Vous pouvez télécharger une version d'essai gratuite à partir du[Page de sortie d'Aspose](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

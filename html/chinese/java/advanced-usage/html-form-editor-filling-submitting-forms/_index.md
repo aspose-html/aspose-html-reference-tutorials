@@ -3,10 +3,16 @@ title: 使用 Aspose.HTML for Java 自动填写 HTML 表单
 linktitle: HTML 表单编辑器 - 填写和提交表单
 second_title: 使用 Aspose.HTML 进行 Java HTML 处理
 description: 了解如何使用 Aspose.HTML for Java 自动填写和提交 HTML 表单。通过本教程简化 Web 交互。
-type: docs
 weight: 14
 url: /zh/java/advanced-usage/html-form-editor-filling-submitting-forms/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.HTML for Java 自动填写 HTML 表单
+
 在当今的数字时代，网站通常包含用于各种目的的表单，例如用户注册、反馈或在线购物。作为 Java 开发人员，您可能需要自动完成在网站上填写和提交 HTML 表单的过程。幸运的是，使用 Aspose.HTML for Java，您可以无缝实现这一点。在本教程中，我们将探讨如何利用 Aspose.HTML for Java 在目标网站上填写和提交 HTML 表单。
 
 ## 先决条件
@@ -135,3 +141,9 @@ A1：是的，您可以使用 Aspose.HTML for Java 与大多数允许以编程�
 ### 问题 4：在哪里可以找到有关 Aspose.HTML for Java 的进一步支持和帮助？
 
  A4：如需任何技术支持，您可以访问 Aspose 论坛[这里](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

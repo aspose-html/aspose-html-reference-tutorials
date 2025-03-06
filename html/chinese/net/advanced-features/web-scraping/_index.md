@@ -3,10 +3,16 @@ title: 使用 Aspose.HTML 在 .NET 中进行 Web 抓取
 linktitle: .NET 中的 Web 抓取
 second_title: Aspose.HTML .NET HTML 操作 API
 description: 学习使用 Aspose.HTML 在 .NET 中操作 HTML 文档。有效地导航、过滤、查询和选择元素，以增强 Web 开发。
-type: docs
 weight: 13
 url: /zh/net/advanced-features/web-scraping/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.HTML 在 .NET 中进行 Web 抓取
+
 
 在当今的数字时代，操作和提取 HTML 文档中的信息是开发人员的常见任务。Aspose.HTML for .NET 是一款功能强大的工具，可简化 .NET 应用程序中的 HTML 处理和操作。在本教程中，我们将探索 Aspose.HTML for .NET 的各个方面，包括先决条件、命名空间和分步示例，以帮助您充分利用其潜力。
 
@@ -204,3 +210,9 @@ A1：Aspose.HTML for .NET 提供免费试用版，但若要用于生产，则需
 ### Q5. Aspose.HTML for .NET 与最新的 .NET 版本兼容吗？
 
 A5：Aspose.HTML for .NET 会定期更新以确保与最新的 .NET 版本和技术兼容。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

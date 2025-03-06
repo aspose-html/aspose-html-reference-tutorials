@@ -3,10 +3,16 @@ title: Java용 Aspose.HTML에서 런타임 서비스 구성
 linktitle: Java용 Aspose.HTML에서 런타임 서비스 구성
 second_title: Aspose.HTML을 사용한 Java HTML 처리
 description: 스크립트 실행을 최적화하고 무한 루프를 방지하며 애플리케이션 성능을 개선하기 위해 Java용 Aspose.HTML에서 런타임 서비스를 구성하는 방법을 알아보세요.
-type: docs
 weight: 14
 url: /ko/java/configuring-environment/configure-runtime-service/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.HTML에서 런타임 서비스 구성
+
 ## 소개
 Java 애플리케이션을 더 빠르고 효율적으로 실행하는 방법에 대해 생각해 본 적이 있나요? 복잡한 웹 애플리케이션을 빌드하든 HTML 문서를 만지작거리든, 속도가 중요합니다. 스크립트가 실행되는 시간이나 시스템이 앱을 시작하는 속도를 제한할 수 있다고 상상해 보세요. 꽤 편리해 보이지 않나요? 바로 여기서 Aspose.HTML for Java의 Runtime Service가 등장합니다. 이 튜토리얼에서는 스크립트 실행 시간을 제어하여 애플리케이션의 성능을 높이기 위해 Aspose.HTML for Java의 Runtime Service를 구성하는 방법에 대해 자세히 알아보겠습니다.
 ## 필수 조건
@@ -100,3 +106,9 @@ HTML 문서가 멋진 일을 할 수 없다면 무슨 소용이 있겠어요? �
  물론입니다! 필요에 맞는 값으로 시간 초과를 설정할 수 있습니다.`TimeSpan.fromSeconds()` 매개변수.
 ### Java용 Aspose.HTML을 사용하는 데 문제가 발생하면 어디에서 지원을 받을 수 있나요?  
  지원을 받으려면 다음을 방문하세요.[Aspose.HTML 포럼](https://forum.aspose.com/c/html/29).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

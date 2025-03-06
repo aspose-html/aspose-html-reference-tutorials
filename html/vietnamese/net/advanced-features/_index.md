@@ -3,10 +3,16 @@ title: Tính năng nâng cao
 linktitle: Tính năng nâng cao
 second_title: Aspose.HTML .NET API thao tác HTML
 description: Mở khóa các tính năng .NET nâng cao với Aspose.HTML! Từ cấu hình môi trường đến thu thập dữ liệu web, hãy khám phá các hướng dẫn toàn diện để phát triển web mạnh mẽ.
-type: docs
 weight: 24
 url: /vi/net/advanced-features/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tính năng nâng cao
+
 
 Bạn đã sẵn sàng để khai thác toàn bộ tiềm năng của Aspose.HTML cho .NET chưa? Trong bài viết này, chúng tôi sẽ đưa bạn vào hành trình khám phá các tính năng và khả năng nâng cao của Aspose.HTML, cung cấp cho bạn các hướng dẫn chuyên sâu để nâng cao trình độ của bạn.
 
@@ -41,3 +47,9 @@ Tìm hiểu cách sử dụng Aspose.HTML cho .NET để tạo tài liệu HTML 
 ## Phần kết luận
 
 Aspose.HTML cho .NET mở ra cánh cửa đến một thế giới khả năng khi làm việc với các tài liệu HTML trong các ứng dụng .NET của bạn. Các hướng dẫn tính năng nâng cao này sẽ trang bị cho bạn kiến thức và kỹ năng cần thiết để khai thác toàn bộ tiềm năng của Aspose.HTML. Nâng cao các dự án phát triển của bạn, tiết kiệm thời gian và tạo ra các giải pháp đáng chú ý với Aspose.HTML cho .NET. Bắt đầu với các hướng dẫn của chúng tôi ngay hôm nay và đưa phát triển web của bạn lên một tầm cao mới.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Créer des documents HTML vides dans Aspose.HTML pour Java
 linktitle: Créer des documents HTML vides dans Aspose.HTML pour Java
 second_title: Traitement HTML Java avec Aspose.HTML
 description: Apprenez à créer des documents HTML vides en Java à l'aide d'Aspose.HTML avec notre didacticiel détaillé étape par étape, parfait pour les développeurs de tous niveaux.
-type: docs
 weight: 11
 url: /fr/java/creating-managing-html-documents/create-empty-html-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Créer des documents HTML vides dans Aspose.HTML pour Java
+
 ## Introduction
 En ce qui concerne la gestion des documents HTML en Java, Aspose.HTML est une boîte à outils puissante qui facilite la création, la manipulation et la gestion des documents HTML. Que vous soyez un développeur cherchant à automatiser votre génération HTML ou quelqu'un qui souhaite ajouter plus de fonctionnalités à vos applications Web, la création d'un document HTML vide est souvent la première étape. Dans ce guide, nous vous expliquerons le processus de création d'un document HTML vide à l'aide d'Aspose.HTML pour Java. Alors, prenez votre boisson préférée et plongeons-nous dans le vif du sujet !
 ## Prérequis
@@ -51,3 +57,9 @@ Bien qu'Aspose.HTML propose un essai gratuit, une licence est nécessaire pour u
 Le fait de ne pas supprimer l’objet document peut entraîner des fuites de mémoire, en particulier dans les applications plus volumineuses.
 ### Puis-je modifier le document HTML après l'avoir enregistré ?
 Oui, vous pouvez rouvrir le document enregistré et modifier son contenu selon vos besoins avant de le sauvegarder à nouveau.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

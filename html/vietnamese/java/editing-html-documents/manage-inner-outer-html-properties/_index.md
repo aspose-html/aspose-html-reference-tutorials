@@ -3,10 +3,16 @@ title: Quản lý Thuộc tính HTML Bên trong và Bên ngoài trong Aspose.HTM
 linktitle: Quản lý Thuộc tính HTML Bên trong và Bên ngoài trong Aspose.HTML cho Java
 second_title: Xử lý HTML Java với Aspose.HTML
 description: Tìm hiểu cách quản lý các thuộc tính HTML bên trong và bên ngoài trong Aspose.HTML cho Java với hướng dẫn từng bước này, hoàn hảo cho các nhà phát triển web và người sáng tạo nội dung.
-type: docs
 weight: 15
 url: /vi/java/editing-html-documents/manage-inner-outer-html-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Quản lý Thuộc tính HTML Bên trong và Bên ngoài trong Aspose.HTML cho Java
+
 ## Giới thiệu
 Trong thế giới tập trung vào web ngày nay, việc hiểu cách thao tác HTML là điều cần thiết đối với cả nhà phát triển và người sáng tạo nội dung. Giống như việc vẽ trên một bức tranh kỹ thuật số, nơi mã của bạn có thể quyết định giao diện và chức năng. Hãy đến với Aspose.HTML dành cho Java, một thư viện tuyệt vời cung cấp các khả năng độc đáo để quản lý HTML và CSS theo chương trình. Trong hướng dẫn này, chúng ta sẽ khám phá thế giới của Aspose.HTML bằng cách khám phá cách quản lý các thuộc tính HTML bên trong và bên ngoài, giúp nội dung web của chúng ta không chỉ năng động mà còn hấp dẫn. Hãy thắt dây an toàn khi chúng ta bắt đầu hành trình thông tin này!
 
@@ -112,3 +118,10 @@ Aspose.HTML chủ yếu được thiết kế cho các ứng dụng Java, nhưng
 
 ### Tôi có thể tìm sự hỗ trợ ở đâu nếu gặp vấn đề?  
  Nếu bạn cần trợ giúp, hãy truy cập diễn đàn Aspose[đây](https://forum.aspose.com/c/html/29) để được hướng dẫn từ cộng đồng các nhà phát triển và chuyên gia Aspose.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

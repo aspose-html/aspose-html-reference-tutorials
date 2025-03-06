@@ -3,10 +3,16 @@ title: Használja az Aspose.HTML for Java üzenetkezelőit
 linktitle: Használja az Aspose.HTML for Java üzenetkezelőit
 second_title: Java HTML feldolgozás Aspose.HTML-lel
 description: Ismerje meg, hogyan használhatja az Aspose.HTML for Java üzenetkezelőit a hiányzó képek és egyéb hálózati műveletek hatékony kezelésére.
-type: docs
 weight: 12
 url: /hu/java/configuring-environment/use-message-handlers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Használja az Aspose.HTML for Java üzenetkezelőit
+
 ## Bevezetés
 Ebben az oktatóanyagban egy gyakorlati példát mutatunk be az üzenetkezelők használatára az Aspose.HTML for Java-ban. Elkészítünk egy egyszerű HTML-dokumentumot, amely egy hiányzó képre hivatkozik, és bemutatjuk, hogyan lehet elkapni és kezelni a hibát egyéni üzenetkezelővel. Akár új az Aspose.HTML-ben, akár bővíteni szeretné készségeit, ez az útmutató a hálózati műveletek hatékony kezeléséhez szükséges betekintést nyújt.
 ## Előfeltételek
@@ -109,3 +115,9 @@ Igen, több üzenetkezelőt is összeláncolhat, hogy különböző forgatókön
 Igen, ezeknek az objektumoknak a selejtezése biztosítja az összes erőforrás megfelelő felszabadítását, megelőzve a memóriaszivárgást.
 ### Kezelhetek más típusú hibákat üzenetkezelőkkel?
 Teljesen! Az üzenetkezelők testreszabhatók a különféle típusú hibák kezelésére, nem csak a hiányzó erőforrások kezelésére.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

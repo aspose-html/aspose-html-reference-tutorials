@@ -3,10 +3,16 @@ title: Použijte Metered License v .NET s Aspose.HTML
 linktitle: Použít měřenou licenci v .NET
 second_title: Aspose.HTML .NET API pro manipulaci s HTML
 description: Přečtěte si, jak použít měřenou licenci v Aspose.HTML pro .NET. Spravujte své potřeby manipulace s HTML efektivně. Začněte hned!
-type: docs
 weight: 10
 url: /cs/net/licensing-and-initialization/apply-metered-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Použijte Metered License v .NET s Aspose.HTML
+
 tomto tutoriálu vás provedeme procesem použití měřené licence ve vaší aplikaci .NET pomocí Aspose.HTML. Měřená licence je pohodlný způsob, jak spravovat licencování pro vaše potřeby manipulace s HTML. Podle následujících kroků budete moci na svůj projekt Aspose.HTML for .NET použít měřenou licenci.
 
 ## Předpoklady
@@ -88,3 +94,9 @@ Měřená licence vám umožňuje platit za Aspose.HTML na základě průběžn�
 
 ### Kde mohu získat podporu nebo se ptát na Aspose.HTML pro .NET?
  Můžete se připojit ke komunitě a hledat podporu na[Aspose fóra](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

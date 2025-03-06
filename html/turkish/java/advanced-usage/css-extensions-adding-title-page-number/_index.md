@@ -3,10 +3,16 @@ title: Aspose.HTML ile HTML Sayfa Kenar Boşluklarını Özelleştirin
 linktitle: CSS Uzantıları - Başlık ve Sayfa Numarası Ekleme
 second_title: Aspose.HTML ile Java HTML İşleme
 description: Aspose.HTML for Java kullanarak HTML belgelerine sayfa kenar boşluklarını nasıl özelleştireceğinizi, sayfa numaralarını ve başlıkları nasıl ekleyeceğinizi öğrenin.
-type: docs
 weight: 10
 url: /tr/java/advanced-usage/css-extensions-adding-title-page-number/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.HTML ile HTML Sayfa Kenar Boşluklarını Özelleştirin
+
 Java için Aspose.HTML, Java uygulamalarında HTML belgelerini işlemek için güçlü bir kütüphanedir. Bu eğitimde, Aspose.HTML for Java kullanarak özel sayfa kenar boşlukları oluşturmayı ve HTML belgelerinize sayfa numaraları ve başlıklar eklemeyi inceleyeceğiz. Bu adım adım kılavuz, bu özellikleri HTML belgelerinize kolayca entegre etmenize yardımcı olmak için süreci yönetilebilir adımlara bölecektir.
 
 ## Ön koşullar
@@ -119,3 +125,9 @@ C4: Evet, Aspose.HTML for Java, HTML belgelerini PDF, XPS ve resimler dahil olma
 ### S5: Java için Aspose.HTML kullanmak için lisansa ihtiyacım var mı?
 
  A5: Evet, lisans veya ücretsiz denemeyi şu adresten edinebilirsiniz:[Burada](https://purchase.aspose.com/buy) veya[Burada](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Ukládání HTML dokumentů v Aspose.HTML pro Java
 linktitle: Ukládání HTML dokumentů v Aspose.HTML pro Java
 second_title: Java HTML zpracování s Aspose.HTML
 description: Objevte komplexní výukové programy Aspose.HTML for Java, které vás provedou ukládáním dokumentů HTML, převodem na Markdown a dalšími.
-type: docs
 weight: 30
 url: /cs/java/saving-html-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ukládání HTML dokumentů v Aspose.HTML pro Java
+
 ## Zavedení
 
 Pokud jde o manipulaci s HTML dokumenty v Javě, Aspose.HTML vyniká jako všestranná knihovna. Pokud jste se někdy cítili ohromeni složitostí zpracování dokumentů HTML, nebojte se! Tato série výukových programů je přizpůsobena tak, aby vám zjednodušila křivku učení. Pokryjeme hlavní funkce a zajistíme, že můžete ukládat a manipulovat s dokumenty HTML jako profesionál. 
@@ -48,3 +54,9 @@ Snadno převeďte HTML na Markdown pomocí Aspose.HTML pro Java. Postupujte podl
 Naučte se ukládat HTML dokumenty jako MHTML pomocí Aspose.HTML for Java pomocí tohoto podrobného průvodce, doplněného příklady kódu a praktickými tipy.
 ### [Uložte dokument SVG v Aspose.HTML pro Java](./save-svg-document/)
 Naučte se ukládat dokumenty SVG pomocí Aspose.HTML for Java pomocí tohoto jednoduchého podrobného průvodce plného příkladů.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

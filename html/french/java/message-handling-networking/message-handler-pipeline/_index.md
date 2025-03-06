@@ -3,10 +3,16 @@ title: Création de pipelines de gestion de messages dans Aspose.HTML pour Java
 linktitle: Création de pipelines de gestion de messages dans Aspose.HTML pour Java
 second_title: Traitement HTML Java avec Aspose.HTML
 description: Découvrez comment créer des pipelines de gestion de messages dans Aspose.HTML pour Java avec ce guide détaillé, étape par étape. Convertissez des fichiers ZIP en PDF sans effort.
-type: docs
 weight: 13
 url: /fr/java/message-handling-networking/message-handler-pipeline/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Création de pipelines de gestion de messages dans Aspose.HTML pour Java
+
 ## Introduction
 Dans ce guide, nous allons examiner de plus près comment créer des pipelines de gestion de messages avec Aspose.HTML. Que vous soyez un développeur chevronné ou un débutant en codage cherchant à améliorer vos compétences, ce didacticiel vous fournira toutes les instructions, astuces et conseils essentiels étape par étape dont vous avez besoin pour démarrer avec cette fantastique bibliothèque. Allons-y !
 ## Prérequis
@@ -119,3 +125,9 @@ Aspose.HTML pour Java est une bibliothèque utilisée pour manipuler des documen
 Pour toute demande de renseignements, vous pouvez visiter le[Forum d'assistance Aspose](https://forum.aspose.com/c/html/29).
 ### Que sont les gestionnaires de messages dans Aspose.HTML ?
 Les gestionnaires de messages sont des composants qui traitent différentes étapes du pipeline de manipulation de documents, comme la journalisation des durées ou la conversion des formats de documents.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

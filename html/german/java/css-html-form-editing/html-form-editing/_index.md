@@ -3,10 +3,16 @@ title: Bearbeiten und Senden von HTML-Formularen mit Aspose.HTML für Java
 linktitle: Bearbeiten und Senden von HTML-Formularen mit Aspose.HTML für Java
 second_title: Java-HTML-Verarbeitung mit Aspose.HTML
 description: Erfahren Sie in dieser umfassenden Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.HTML für Java programmgesteuert HTML-Formulare bearbeiten und übermitteln.
-type: docs
 weight: 11
 url: /de/java/css-html-form-editing/html-form-editing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bearbeiten und Senden von HTML-Formularen mit Aspose.HTML für Java
+
 ## Einführung
 In der heutigen webbasierten Welt ist die Interaktion mit HTML-Formularen eine alltägliche Aufgabe für Entwickler, sei es das Ausfüllen, Senden oder Automatisieren der Dateneingabe. Aspose.HTML für Java bietet eine robuste Lösung für die programmgesteuerte Verwaltung von HTML-Formularen. Dieser Artikel führt Sie durch das Bearbeiten und Senden von HTML-Formularen mit Aspose.HTML für Java und enthält ein schrittweises Tutorial, das den Vorgang in überschaubare Teile aufteilt.
 ## Voraussetzungen
@@ -112,3 +118,9 @@ Aspose.HTML für Java ist eine Bibliothek, die es Entwicklern ermöglicht, mit H
 Derzeit sind Formularübermittlungen synchron. Sie können jedoch asynchrone Vorgänge in Ihrer Java-Anwendung verwalten, indem Sie die Übermittlung in einem separaten Thread ausführen.
 ### Was passiert, wenn das Absenden des Formulars fehlschlägt?
  Wenn die Übermittlung fehlschlägt,`SubmissionResult`Objekt wird nicht als erfolgreich markiert und Sie können Fehler behandeln, indem Sie die Antwortnachricht oder die Ausnahmedetails überprüfen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: تنفيذ CSS داخلي في مستندات HTML باستخدام Aspos
 linktitle: تنفيذ CSS داخلي في مستندات HTML باستخدام Aspose.HTML لـ Java
 second_title: معالجة HTML باستخدام Java مع Aspose.HTML
 description: تعلم كيفية تنفيذ CSS الداخلي في مستندات HTML باستخدام Aspose.HTML لـ Java من خلال البرنامج التعليمي السهل خطوة بخطوة.
-type: docs
 weight: 16
 url: /ar/java/editing-html-documents/implement-internal-css-html-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تنفيذ CSS داخلي في مستندات HTML باستخدام Aspose.HTML لـ Java
+
 ## مقدمة
 غالبًا ما يتلخص إنشاء صفحات ويب جميلة ومنظمة بشكل جيد في عنصر واحد بالغ الأهمية: التصميم. في تطوير الويب، يشبه CSS (أوراق الأنماط المتتالية) تزيين HTML الخاص بك - فهو يجعل كل شيء يبدو جذابًا ومنظمًا. اليوم، سنتعمق في كيفية دمج CSS الداخلي داخل مستندات HTML باستخدام Aspose.HTML لـ Java. سواء كنت مبتدئًا أو مطورًا متمرسًا، فإن هذا البرنامج التعليمي سيوضح الخطوات بطريقة بسيطة وجذابة.
 ## المتطلبات الأساسية
@@ -91,3 +97,9 @@ document.renderTo(device);
  يمكنك زيارة[منتدى دعم Aspose](https://forum.aspose.com/c/html/29) للحصول على المساعدة.
 ### هل هناك اعتبارات تتعلق بالأداء عند تحويل HTML إلى PDF؟  
 نعم، قد يستغرق عرض مستندات HTML المعقدة وقتًا أطول؛ ولكن تحسين المحتوى قد يؤدي إلى تحسين الأداء.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

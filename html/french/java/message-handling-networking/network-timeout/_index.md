@@ -3,10 +3,16 @@ title: Gérer le délai d'expiration du réseau dans Aspose.HTML pour Java
 linktitle: Gérer le délai d'expiration du réseau dans Aspose.HTML pour Java
 second_title: Traitement HTML Java avec Aspose.HTML
 description: Découvrez comment gérer les délais d'expiration du réseau à l'aide d'Aspose.HTML pour Java dans ce guide complet. Assurez une expérience utilisateur fluide grâce à une gestion efficace des délais d'expiration.
-type: docs
 weight: 12
 url: /fr/java/message-handling-networking/network-timeout/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gérer le délai d'expiration du réseau dans Aspose.HTML pour Java
+
 ## Introduction
 Lors du développement d'applications qui s'appuient sur des opérations réseau, la gestion des délais d'attente réseau est essentielle pour garantir une expérience utilisateur fluide. Imaginez que vous essayez de charger une page Web et qu'il faut une éternité pour répondre. Frustrant, n'est-ce pas ? C'est là qu'Aspose.HTML pour Java s'avère utile, en fournissant des outils robustes pour gérer les documents HTML et leurs conversions. Dans ce didacticiel, nous allons découvrir comment gérer efficacement les délais d'attente réseau à l'aide d'Aspose.HTML pour Java. Nous allons décomposer le processus étape par étape, en veillant à ce que vous compreniez chaque partie de l'implémentation.
 ## Prérequis
@@ -72,3 +78,9 @@ Aspose.HTML pour Java est une bibliothèque qui permet aux développeurs de trav
  Si vous rencontrez des problèmes, vous pouvez demander de l'aide auprès du[Forum Aspose](https://forum.aspose.com/c/html/29).
 ### Comment obtenir une licence temporaire pour Aspose.HTML ?
  Vous pouvez demander une licence temporaire à des fins de test[ici](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Hitelesítőadat-kezelő használata az Aspose.HTML for Java-ban
 linktitle: Hitelesítőadat-kezelő használata az Aspose.HTML for Java-ban
 second_title: Java HTML feldolgozás Aspose.HTML-lel
 description: Fedezze fel, hogyan valósíthat meg biztonságos hitelesítő adatkezelőt az Aspose.HTML for Java használatával a felhasználói hitelesítés hatékony kezelése érdekében.
-type: docs
 weight: 11
 url: /hu/java/mutation-observers-handlers/credential-handler/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hitelesítőadat-kezelő használata az Aspose.HTML for Java-ban
+
 ## Bevezetés
 Amikor olyan webalkalmazásokkal dolgozik, amelyek hitelesítéshez felhasználói hitelesítési adatokat igényelnek, ezeknek a hitelesítési adatoknak a hatékony kezelése kulcsfontosságú. Itt jön képbe az Aspose.HTML for Java, amely eszközöket biztosít a folyamat egyszerűsítéséhez. Ebben az útmutatóban megvizsgáljuk, hogyan valósíthat meg hitelesítőadat-kezelőt az Aspose.HTML for Java segítségével, amely biztosítja az alkalmazások biztonságos működését.
 ## Előfeltételek
@@ -92,3 +98,9 @@ Az Aspose.HTML for Java egy könyvtár, amelyet HTML-fájlok kezelésére és k�
  Teljesen! Támogatást találhat és kapcsolatba léphet a közösséggel a következő címen[Aspose fórumok](https://forum.aspose.com/c/html/29).
 ###  Mi a célja a`setPreAuthenticate(true)` method?  
 Ez a módszer biztosítja, hogy a hitelesítési adatok automatikusan, a felhasználó felszólítása nélkül kerüljenek felhasználásra a kérés fejlécében a hitelesítéshez.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

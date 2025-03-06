@@ -3,10 +3,16 @@ title: Java용 Aspose.HTML을 사용하여 ZIP을 JPG로 변환
 linktitle: Java용 Aspose.HTML을 사용하여 ZIP을 JPG로 변환
 second_title: Aspose.HTML을 사용한 Java HTML 처리
 description: 이 단계별 가이드를 통해 Java용 Aspose.HTML을 사용하여 ZIP 파일을 JPG 이미지로 변환하는 방법을 알아보세요.
-type: docs
 weight: 15
 url: /ko/java/message-handling-networking/zip-to-jpg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.HTML을 사용하여 ZIP을 JPG로 변환
+
 ## 소개
 Java를 사용하여 ZIP 파일을 JPG 이미지로 변환하는 효과적인 방법을 찾고 있다면, 당신은 올바른 곳에 있습니다! Aspose.HTML은 HTML 문서와 관련 파일 형식을 처리하는 과정을 단순화하는 강력한 라이브러리입니다. 이 튜토리얼에서는 ZIP 파일을 JPG 이미지로 쉽게 변환하는 과정을 단계별로 안내합니다. 이 튜토리얼에는 가장 초보적인 프로그래머에게도 도움이 되는 유용한 정보가 가득합니다.
 ## 필수 조건
@@ -107,3 +113,9 @@ Aspose.HTML은 다양한 형식의 HTML 문서를 처리하고 이를 이미지�
 물론입니다! ZIP 파일의 내용을 반복하고 여러 HTML 문서를 JPG로 변환할 수 있습니다.
 ### Aspose.HTML에 대한 지원은 어디서 받을 수 있나요?
  방문할 수 있습니다[Aspose 지원 포럼](https://forum.aspose.com/c/html/29) 도움이 필요하면.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

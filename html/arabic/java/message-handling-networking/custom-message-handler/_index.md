@@ -3,10 +3,16 @@ title: تنفيذ معالجات الرسائل المخصصة باستخدام 
 linktitle: تنفيذ معالجات الرسائل المخصصة باستخدام Aspose.HTML لـ Java
 second_title: معالجة HTML باستخدام Java مع Aspose.HTML
 description: اكتشف كيفية تنفيذ معالجات الرسائل المخصصة في Aspose.HTML لـ Java لتحسين معالجة المستندات ومعالجة السجلات بكفاءة.
-type: docs
 weight: 11
 url: /ar/java/message-handling-networking/custom-message-handler/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تنفيذ معالجات الرسائل المخصصة باستخدام Aspose.HTML لـ Java
+
 ## مقدمة
 عندما يتعلق الأمر بالتعامل مع مستندات HTML برمجيًا، فإن مكتبة Aspose.HTML for Java تبرز. سواء كنت مطورًا يبحث عن معالجة بيانات HTML أو تحويل المستندات أو تحتاج ببساطة إلى أداة موثوقة لإدارة محتوى الويب، فإن Aspose.HTML تستحق النظر فيها. بفضل ميزاتها القوية وأدائها الاستثنائي، فهي تسمح للمطورين بالتعمق في معالجة HTML دون التعقيدات التي تواجهها المكتبات الأخرى. في هذا الدليل، سنستكشف كيفية تنفيذ معالجات الرسائل المخصصة باستخدام Aspose.HTML for Java.
 ## المتطلبات الأساسية
@@ -65,3 +71,9 @@ Aspose.HTML for Java هي مكتبة تتيح للمطورين إنشاء ومع
  بالتأكيد! يمكنك تجربة Aspose.HTML مجانًا من خلال الوصول إلى النسخة التجريبية المجانية[هنا](https://releases.aspose.com/).
 ### أين يمكنني العثور على الدعم لـ Aspose.HTML؟
  يمكنك طلب الدعم من مجتمع Aspose على المنتدى الخاص بهم[هنا](https://forum.aspose.com/c/html/29).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

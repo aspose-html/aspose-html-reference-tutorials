@@ -3,10 +3,16 @@ title: Ange XPS-sparalternativ för EPUB till XPS
 linktitle: Ange XPS-sparalternativ för EPUB till XPS
 second_title: Java HTML-bearbetning med Aspose.HTML
 description: Lär dig hur du använder Aspose.HTML för Java för att ange XPS-sparalternativ för EPUB till XPS i denna steg-för-steg-handledning. Konvertera EPUB-filer sömlöst.
-type: docs
 weight: 12
 url: /sv/java/converting-epub-to-xps/convert-epub-to-xps-specify-xps-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ange XPS-sparalternativ för EPUB till XPS
+
 en värld av webbutveckling är möjligheten att konvertera EPUB-filer till XPS-format ett värdefullt verktyg. Aspose.HTML för Java är ett kraftfullt bibliotek som erbjuder möjligheten att utföra denna konvertering med lätthet. I den här omfattande handledningen guidar vi dig genom processen att specificera XPS-sparalternativ för EPUB till XPS med Aspose.HTML för Java.
 
 ## Förutsättningar
@@ -95,3 +101,9 @@ Aspose.HTML för Java är ett kraftfullt bibliotek för att arbeta med HTML- och
 
 ### 5. Vilka är systemkraven för Aspose.HTML för Java?
 Aspose.HTML för Java kräver ett Java Development Kit (JDK) och ett kompatibelt operativsystem. Se till att du uppfyller de krav som nämns i denna handledning.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

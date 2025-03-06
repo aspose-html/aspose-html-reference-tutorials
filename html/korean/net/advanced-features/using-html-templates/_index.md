@@ -3,10 +3,16 @@ title: Aspose.HTML을 사용하여 .NET에서 HTML 템플릿 사용
 linktitle: .NET에서 HTML 템플릿 사용
 second_title: Aspose.HTML .NET HTML 조작 API
 description: .NET용 Aspose.HTML을 사용하여 JSON 데이터에서 HTML 문서를 동적으로 생성하는 방법을 알아보세요. .NET 애플리케이션에서 HTML 조작의 힘을 활용하세요.
-type: docs
 weight: 17
 url: /ko/net/advanced-features/using-html-templates/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.HTML을 사용하여 .NET에서 HTML 템플릿 사용
+
 
 .NET 애플리케이션에서 HTML 문서와 템플릿을 사용하고 싶다면, 당신은 올바른 곳에 있습니다! Aspose.HTML for .NET은 개발자가 HTML 문서와 템플릿을 손쉽게 조작할 수 있도록 하는 다재다능한 라이브러리입니다. 이 튜토리얼에서는 Aspose.HTML for .NET을 사용하는 데 필요한 기본 사항을 살펴보고, 각 단계를 분석하고 그 과정에서 명확한 설명을 제공합니다.
 
@@ -138,3 +144,9 @@ A3: Aspose.HTML for .NET은 다운로드 페이지에서 다운로드할 수 있
 ### Q5. Aspose.HTML for .NET에 임시 라이센스가 필요합니까?
 
  A5: 평가 목적으로 임시 라이센스가 필요한 경우 다음에서 라이센스를 얻을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

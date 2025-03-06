@@ -3,10 +3,16 @@ title: Aspose.HTML for Java でのカスタム スキーマとメッセージ処
 linktitle: Aspose.HTML for Java でのカスタム スキーマとメッセージ処理
 second_title: Aspose.HTML を使用した Java HTML 処理
 description: カスタム スキーマ メッセージのフィルタリングと処理に関するチュートリアルで、Aspose.HTML for Java を習得する方法を学びます。カスタマイズされたアプリケーションの構築を開始します。
-type: docs
 weight: 24
 url: /ja/java/custom-schema-message-handling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.HTML for Java でのカスタム スキーマとメッセージ処理
+
 ## 導入
 
 アプリケーションの開発においては、データ通信を正確に制御することが最も重要です。お気に入りのラジオ局を選局しようとしても、受信できるのは雑音だけだと想像してください。フィルタリングされていない、または適切に管理されていないメッセージは、アプリケーションで混乱を招く可能性があります。ここで Aspose.HTML for Java が活躍します。開発者は、フィルタリング、処理、およびデータ交換の効率化を行うカスタム メッセージング スキーマを実装できます。
@@ -28,3 +34,9 @@ Aspose.HTML for Java のカスタム スキーマ メッセージ フィルタ�
 Aspose.HTML を使用して Java でカスタム スキーマ メッセージ フィルターを実装する方法を学びます。安全でカスタマイズされたアプリケーション エクスペリエンスを実現するには、ステップ バイ ステップ ガイドに従ってください。
 ### [Aspose.HTML for Java を使用したカスタム スキーマ メッセージ ハンドラー](./custom-schema-message-handler/)
 Aspose.HTML for Java を使用してカスタム スキーマ メッセージ ハンドラーを作成する方法を学習します。このチュートリアルでは、プロセスを段階的に説明します。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Menangani Peristiwa Pemuatan Dokumen di Aspose.HTML untuk Java
 linktitle: Menangani Peristiwa Pemuatan Dokumen di Aspose.HTML untuk Java
 second_title: Pemrosesan HTML Java dengan Aspose.HTML
 description: Pelajari cara menangani peristiwa pemuatan dokumen di Aspose.HTML untuk Java dengan panduan langkah demi langkah ini. Tingkatkan aplikasi web Anda.
-type: docs
 weight: 18
 url: /id/java/creating-managing-html-documents/handle-document-load-events/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menangani Peristiwa Pemuatan Dokumen di Aspose.HTML untuk Java
+
 ## Perkenalan
 Dalam pengembangan web, penanganan peristiwa pemuatan dokumen sangat penting untuk memastikan bahwa aplikasi Anda berjalan lancar dan efisien. Jika Anda bekerja dengan dokumen HTML di Java, Aspose.HTML menyediakan pustaka canggih yang memungkinkan Anda memanipulasi dokumen HTML dengan mudah. Dalam tutorial ini, kita akan membahas cara menangani peristiwa pemuatan dokumen menggunakan Aspose.HTML untuk Java. Baik Anda seorang pemula atau pengembang berpengalaman, panduan ini akan memandu Anda melalui proses ini langkah demi langkah.
 ## Prasyarat
@@ -69,3 +75,9 @@ Aspose.HTML untuk Java adalah pustaka yang memungkinkan pengembang untuk membuat
  Ya, Anda dapat menemukan dukungan dan mengajukan pertanyaan di[Forum Aspose](https://forum.aspose.com/c/html/29).
 ### Bagaimana cara mendapatkan lisensi sementara untuk Aspose.HTML?
  Anda dapat meminta lisensi sementara dengan mengunjungi[Aspose halaman lisensi sementara](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

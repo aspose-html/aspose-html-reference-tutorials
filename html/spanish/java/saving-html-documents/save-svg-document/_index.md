@@ -3,10 +3,16 @@ title: Guardar documento SVG en Aspose.HTML para Java
 linktitle: Guardar documento SVG en Aspose.HTML para Java
 second_title: Procesamiento de HTML en Java con Aspose.HTML
 description: Aprenda a guardar documentos SVG usando Aspose.HTML para Java con esta sencilla guía paso a paso repleta de ejemplos.
-type: docs
 weight: 14
 url: /es/java/saving-html-documents/save-svg-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Guardar documento SVG en Aspose.HTML para Java
+
 ## Introducción
 ¿Está listo para sumergirse en el mundo de los documentos SVG con Aspose.HTML para Java? Ya sea que sea un desarrollador que busca mejorar sus habilidades o un diseñador que desea automatizar el manejo de documentos, esta guía está hecha a su medida. SVG, o Gráficos vectoriales escalables, es un formato poderoso que permite gráficos de alta calidad en la web. En este tutorial, desglosaremos el proceso de guardar un documento SVG con Aspose.HTML, lo que lo hará fácil de seguir e implementar.
 ## Prerrequisitos
@@ -67,3 +73,9 @@ Sí, asegúrese de estar utilizando JDK 8 o superior para garantizar la compatib
  Puedes consultar el[Documentación HTML de Aspose](https://reference.aspose.com/html/java/) para obtener información detallada sobre sus clases y métodos.
 ### ¿Hay soporte disponible para los productos Aspose?
  Sí, puedes visitar el[Foro de Aspose](https://forum.aspose.com/c/html/29) para soporte y discusiones comunitarias.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

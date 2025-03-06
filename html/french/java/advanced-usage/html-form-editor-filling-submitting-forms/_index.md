@@ -3,10 +3,16 @@ title: Automatisez le remplissage des formulaires HTML avec Aspose.HTML pour Jav
 linktitle: Éditeur de formulaires HTML - Remplissage et soumission de formulaires
 second_title: Traitement HTML Java avec Aspose.HTML
 description: Apprenez à automatiser le remplissage et la soumission de formulaires HTML avec Aspose.HTML pour Java. Simplifiez l'interaction sur le Web avec ce didacticiel.
-type: docs
 weight: 14
 url: /fr/java/advanced-usage/html-form-editor-filling-submitting-forms/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Automatisez le remplissage des formulaires HTML avec Aspose.HTML pour Java
+
 À l'ère du numérique, les sites Web contiennent souvent des formulaires à des fins diverses, telles que l'enregistrement des utilisateurs, les commentaires ou les achats en ligne. En tant que développeur Java, vous devrez peut-être automatiser le processus de remplissage et d'envoi de formulaires HTML sur les sites Web. Heureusement, avec Aspose.HTML pour Java, vous pouvez y parvenir en toute transparence. Dans ce didacticiel, nous verrons comment utiliser Aspose.HTML pour Java pour remplir et envoyer des formulaires HTML sur un site Web cible.
 
 ## Prérequis
@@ -135,3 +141,9 @@ A1 : Oui, vous pouvez utiliser Aspose.HTML pour Java pour interagir avec les fo
 ### Q4 : Où puis-je trouver une assistance et un support supplémentaires pour Aspose.HTML pour Java ?
 
  A4 : Pour toute assistance technique, vous pouvez visiter les forums Aspose[ici](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Convertir HTML en XPS avec Aspose.HTML pour Java
 linktitle: Conversion de HTML en XPS
 second_title: Traitement HTML Java avec Aspose.HTML
 description: Découvrez comment convertir facilement du HTML en XPS à l'aide d'Aspose.HTML pour Java. Créez facilement des documents multiplateformes.
-type: docs
 weight: 12
 url: /fr/java/conversion-html-to-other-formats/convert-html-to-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Convertir HTML en XPS avec Aspose.HTML pour Java
+
 Dans le domaine du développement Web et du traitement de documents, la conversion de documents HTML en différents formats est une tâche courante et cruciale. Aspose.HTML pour Java offre une solution puissante pour convertir de manière transparente du HTML en XPS (XML Paper Specification), ce qui est particulièrement utile pour créer des documents qui doivent être partagés ou imprimés. Ce guide étape par étape vous guidera tout au long du processus, vous permettant de réaliser cette conversion sans effort.
 
 ## Prérequis
@@ -96,3 +102,9 @@ A4 : Aspose.HTML pour Java prend en charge la conversion de documents HTML en d
 ### Q5 : Puis-je utiliser Aspose.HTML pour Java dans mon projet Java ?
 
 A5 : Absolument ! Aspose.HTML pour Java est conçu pour les développeurs Java et peut être intégré de manière transparente dans vos applications Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

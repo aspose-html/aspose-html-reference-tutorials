@@ -3,10 +3,16 @@ title: Tạo một tài liệu đơn giản trong .NET với Aspose.HTML
 linktitle: Tạo một tài liệu đơn giản trong .NET
 second_title: Aspose.HTML .NET API thao tác HTML
 description: Học cách làm việc với tài liệu HTML trong .NET bằng Aspose.HTML. Tạo, thao tác và chuyển đổi HTML dễ dàng. Bắt đầu ngay hôm nay!
-type: docs
 weight: 11
 url: /vi/net/working-with-html-documents/creating-a-simple-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo một tài liệu đơn giản trong .NET với Aspose.HTML
+
 
 ## Giới thiệu
 
@@ -152,3 +158,10 @@ Aspose.HTML for .NET là thư viện .NET cung cấp chức năng toàn diện �
 ### 5. Tôi có thể nhận hỗ trợ cho Aspose.HTML cho .NET ở đâu?
 
  Bạn có thể nhận được hỗ trợ và đặt câu hỏi về Aspose.HTML cho .NET trên[Diễn đàn Aspose](https://forum.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

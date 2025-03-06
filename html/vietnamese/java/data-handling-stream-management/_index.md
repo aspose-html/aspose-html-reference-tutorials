@@ -3,10 +3,16 @@ title: Xử lý dữ liệu và quản lý luồng trong Aspose.HTML cho Java
 linktitle: Xử lý dữ liệu và quản lý luồng trong Aspose.HTML cho Java
 second_title: Xử lý HTML Java với Aspose.HTML
 description: Khám phá hướng dẫn Aspose.HTML cho Java của chúng tôi, bao gồm cách chuyển đổi luồng bộ nhớ thành tệp và HTML thành hình ảnh JPEG một cách dễ dàng.
-type: docs
 weight: 22
 url: /vi/java/data-handling-stream-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xử lý dữ liệu và quản lý luồng trong Aspose.HTML cho Java
+
 ## Giới thiệu
 
 Bạn đã sẵn sàng để khám phá những bí mật về xử lý dữ liệu HTML với Aspose.HTML cho Java chưa? Nếu bạn từng thấy mình vướng vào sự phức tạp của việc chuyển đổi nội dung HTML thành nhiều định dạng khác nhau, thì bạn sẽ được thưởng thức. Trong hướng dẫn này, chúng tôi sẽ phân tích quy trình chuyển đổi luồng bộ nhớ thành tệp và tài liệu HTML thành hình ảnh JPEG. Nó đơn giản hơn bạn nghĩ và đến cuối cùng, bạn sẽ cảm thấy mình như một chuyên gia!
@@ -20,3 +26,9 @@ Trước hết, chúng ta hãy nói về luồng bộ nhớ là gì. Hãy hình 
 ## Xử lý dữ liệu và quản lý luồng trong Aspose.HTML cho Java
 ### [Chuyển đổi Memory Stream thành File bằng Aspose.HTML cho Java](./memory-stream-to-file/)
 Chuyển đổi HTML sang JPEG bằng Aspose.HTML cho Java sử dụng luồng bộ nhớ. Thực hiện theo hướng dẫn từng bước này để chuyển đổi HTML sang hình ảnh liền mạch.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

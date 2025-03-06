@@ -3,10 +3,16 @@ title: Manipulating Canvas in .NET with Aspose.HTML
 linktitle: Manipulating Canvas in .NET
 second_title: Aspose.HTML .NET HTML manipulation API
 description: Learn how to manipulate HTML documents with Aspose.HTML for .NET. This comprehensive tutorial covers the basics, prerequisites, and step-by-step examples.
-type: docs
 weight: 10
 url: /net/canvas-and-image-manipulation/manipulating-canvas/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulating Canvas in .NET with Aspose.HTML
+
 # An In-Depth Tutorial on Using Aspose.HTML for .NET
 
 In the world of web development, working with HTML and manipulating it is a common requirement. Aspose.HTML for .NET is a powerful tool that can make this process more efficient and effective. In this tutorial, we will explore how to use Aspose.HTML for .NET to manipulate HTML documents and perform various tasks. We will break down each example into multiple steps and provide detailed explanations for each step.
@@ -132,3 +138,10 @@ A4: You can access tutorials and get support from the Aspose community on the [f
 
 A5: Aspose.HTML for .NET supports exporting to various formats, including XPS, PDF, and more. Explore the documentation for detailed information.
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

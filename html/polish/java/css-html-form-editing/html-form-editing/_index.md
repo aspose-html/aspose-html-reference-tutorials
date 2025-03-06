@@ -3,10 +3,16 @@ title: Edycja i przesyłanie formularzy HTML za pomocą Aspose.HTML dla Java
 linktitle: Edycja i przesyłanie formularzy HTML za pomocą Aspose.HTML dla Java
 second_title: Przetwarzanie HTML w Javie za pomocą Aspose.HTML
 description: Dowiedz się, jak edytować i przesyłać formularze HTML programowo, korzystając z Aspose.HTML for Java, dzięki temu kompleksowemu przewodnikowi krok po kroku.
-type: docs
 weight: 11
 url: /pl/java/css-html-form-editing/html-form-editing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Edycja i przesyłanie formularzy HTML za pomocą Aspose.HTML dla Java
+
 ## Wstęp
 W dzisiejszym świecie opartym na sieci, interakcja z formularzami HTML jest powszechnym zadaniem dla programistów, niezależnie od tego, czy chodzi o wypełnianie formularzy, przesyłanie ich, czy automatyzację wprowadzania danych. Aspose.HTML for Java zapewnia solidne rozwiązanie do zarządzania formularzami HTML programowo. Ten artykuł przeprowadzi Cię przez edycję i przesyłanie formularzy HTML za pomocą Aspose.HTML for Java, z samouczkiem krok po kroku, który dzieli proces na łatwe do opanowania części.
 ## Wymagania wstępne
@@ -112,3 +118,9 @@ Aspose.HTML for Java to biblioteka, która umożliwia programistom pracę z doku
 Obecnie przesyłanie formularzy odbywa się synchronicznie. Możesz jednak zarządzać operacjami asynchronicznymi w swojej aplikacji Java, uruchamiając przesyłanie w osobnym wątku.
 ### Co się stanie, jeśli wysłanie formularza się nie powiedzie?
  Jeżeli przesłanie nie powiedzie się,`SubmissionResult`Obiekt nie zostanie oznaczony jako pomyślnie wykonany, a błędy można obsłużyć, sprawdzając komunikat odpowiedzi lub szczegóły wyjątku.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

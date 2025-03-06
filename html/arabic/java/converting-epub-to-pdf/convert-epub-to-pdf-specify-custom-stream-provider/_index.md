@@ -3,10 +3,16 @@ title: تحديد موفر البث المخصص لتحويل EPUB إلى PDF
 linktitle: تحديد موفر البث المخصص لتحويل EPUB إلى PDF
 second_title: معالجة HTML باستخدام Java مع Aspose.HTML
 description: تعرف على كيفية تحويل EPUB إلى PDF في Java بسهولة باستخدام Aspose.HTML، مما يعزز قدرات معالجة المستندات لديك.
-type: docs
 weight: 11
 url: /ar/java/converting-epub-to-pdf/convert-epub-to-pdf-specify-custom-stream-provider/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحديد موفر البث المخصص لتحويل EPUB إلى PDF
+
 
 هل أنت مطور جافا تبحث عن تحويل ملفات EPUB إلى PDF بسلاسة وكفاءة؟ إذا كان الأمر كذلك، فقد وصلت إلى المكان الصحيح. في هذا الدليل خطوة بخطوة، سنستكشف كيفية تحقيق ذلك باستخدام Aspose.HTML، وهي مكتبة Java قوية. ليست هناك حاجة إلى خبرة سابقة، حيث سنقسم العملية إلى خطوات سهلة المتابعة. لذا، دعنا نتعمق في تحويل ملفات EPUB إلى PDF بسهولة!
 
@@ -141,3 +147,10 @@ Specifying Custom Stream Provider for EPUB to PDF
 يدعم Aspose.HTML مجموعة واسعة من تنسيقات المستندات، بما في ذلك HTML وXHTML وMHTML والمزيد، مما يسمح لك بالعمل مع مجموعة متنوعة من أنواع المستندات الرقمية.
 
 قم بتعزيز قدرات معالجة المستندات لديك باستخدام Aspose.HTML وقم بتبسيط مهام تحويل المستندات الخاصة بك اليوم!
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

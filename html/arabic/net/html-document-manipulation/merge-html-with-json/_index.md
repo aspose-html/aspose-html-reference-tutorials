@@ -3,10 +3,16 @@ title: دمج HTML مع Json في .NET باستخدام Aspose.HTML
 linktitle: دمج HTML مع Json في .NET
 second_title: Aspose.HTML .NET HTML manipulation API
 description: تعلم كيفية إنشاء محتوى ديناميكي ومحتوى ويب باستخدام Aspose.HTML لـ .NET. قم بتعزيز حضورك على الإنترنت وإشراك جمهورك.
-type: docs
 weight: 17
 url: /ar/net/html-document-manipulation/merge-html-with-json/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# دمج HTML مع Json في .NET باستخدام Aspose.HTML
+
 
 في المشهد الرقمي الحالي، يعد التواجد على الإنترنت أمرًا بالغ الأهمية للشركات والأفراد على حد سواء. أحد الجوانب الرئيسية لهذا التواجد على الإنترنت هو إنشاء محتوى ويب ليس جذابًا بصريًا فحسب، بل وأيضًا مُحسَّن لمحركات البحث. Aspose.HTML for .NET هي أداة قوية تمكن المطورين ومنشئي المحتوى من تحقيق ذلك. في هذا الدليل الشامل، سنوجهك خلال عملية الاستفادة من إمكانيات Aspose.HTML for .NET لإنشاء محتوى ويب مُحسَّن لمحركات البحث. 
 
@@ -100,3 +106,9 @@ Converter.ConvertTemplate(templateHtml, data, new TemplateLoadOptions(), templat
 ### س5: أين يمكنني شراء Aspose.HTML لـ .NET؟
 
  A5: يمكنك شراء Aspose.HTML لـ .NET من[شراء Aspose.HTML](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

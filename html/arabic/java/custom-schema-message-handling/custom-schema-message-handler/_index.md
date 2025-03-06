@@ -3,10 +3,16 @@ title: معالج رسائل المخطط المخصص مع Aspose.HTML لـ Jav
 linktitle: معالج رسائل المخطط المخصص مع Aspose.HTML لـ Java
 second_title: معالجة HTML باستخدام Java مع Aspose.HTML
 description: تعلم كيفية إنشاء معالج رسائل مخطط مخصص باستخدام Aspose.HTML لـ Java. يرشدك هذا البرنامج التعليمي خطوة بخطوة خلال العملية.
-type: docs
 weight: 11
 url: /ar/java/custom-schema-message-handling/custom-schema-message-handler/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# معالج رسائل المخطط المخصص مع Aspose.HTML لـ Java
+
 ## مقدمة
 مرحبًا بكم، أيها المطورون الزملاء! إذا كنتم تتطلعون إلى تعزيز تطبيقات Java الخاصة بكم باستخدام قدرات معالجة HTML القوية، فقد وصلتم إلى المكان الصحيح. اليوم، سنتعمق في كيفية إنشاء معالج رسائل مخطط مخصص باستخدام Aspose.HTML لـ Java. تخيل أنك طاهي تقوم بإعداد طبق خاص؛ هذا المعالج يشبه الصلصة السرية التي ترفع وصفة قياسية إلى وجبة شهية. فهو يسمح لك بإدارة رسائل HTML وتصفيتها بسلاسة استنادًا إلى مواصفات المخطط الخاصة بك.
 ## المتطلبات الأساسية
@@ -92,3 +98,9 @@ public class CustomHandlerTest {
  نعم، يمكنك شراء ترخيص دائم لـ Aspose.HTML[هنا](https://purchase.aspose.com/buy).
 ### أين يمكنني العثور على الدعم لـ Aspose.HTML؟
  يمكنك الوصول إلى الدعم من خلال زيارة منتدى Aspose لـ HTML[هنا](https://forum.aspose.com/c/html/29).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.HTML for Java で EPUB を画像に変換する
 linktitle: EPUB から画像への変換のためのカスタム ストリーム プロバイダーの指定
 second_title: Aspose.HTML を使用した Java HTML 処理
 description: Aspose.HTML for Java を使用して EPUB を画像に変換する方法を学びます。シームレスな変換のためのステップバイステップ ガイド。
-type: docs
 weight: 15
 url: /ja/java/converting-between-epub-and-image-formats/convert-epub-to-image-specify-custom-stream-provider/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.HTML for Java で EPUB を画像に変換する
+
 Java で EPUB ファイルを画像に変換する場合、Aspose.HTML for Java はプロセスを効率化できる強力なツールです。このステップバイステップ ガイドでは、インストールから EPUB ファイルの画像ファイルへの変換まで、プロセス全体を順を追って説明します。また、前提条件を示し、必要なパッケージを紹介します。
 
 ## 前提条件
@@ -109,3 +115,9 @@ A3: 臨時免許証を取得できます[ここ](https://purchase.aspose.com/tem
 ### Q5: EPUB ファイルを他の画像形式に変換できますか?
 
  A5: はい、出力形式をカスタマイズできます。`ImageSaveOptions` . 変更する`ImageFormat`PNG や GIF などの希望の形式に変換します。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

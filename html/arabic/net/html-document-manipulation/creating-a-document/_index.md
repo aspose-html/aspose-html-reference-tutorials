@@ -3,10 +3,16 @@ title: إنشاء مستند في .NET باستخدام Aspose.HTML
 linktitle: إنشاء مستند في .NET
 second_title: Aspose.HTML .NET HTML manipulation API
 description: أطلق العنان لقوة Aspose.HTML لـ .NET. تعلم كيفية إنشاء مستندات HTML وSVG ومعالجتها وتحسينها بسهولة. استكشف الأمثلة والأسئلة الشائعة خطوة بخطوة.
-type: docs
 weight: 14
 url: /ar/net/html-document-manipulation/creating-a-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إنشاء مستند في .NET باستخدام Aspose.HTML
+
 
 في عالم تطوير الويب المتطور باستمرار، يعد البقاء في المقدمة أمرًا ضروريًا. توفر Aspose.HTML for .NET للمطورين مجموعة أدوات قوية للعمل مع مستندات HTML. سواء كنت تبدأ من الصفر، أو تقوم بالتحميل من ملف، أو تسحب من عنوان URL، أو تتعامل مع مستندات SVG، فإن هذه المكتبة توفر التنوع الذي تحتاجه.
 
@@ -234,3 +240,9 @@ A1: Aspose.HTML for .NET هي مكتبة .NET قوية تتيح للمطورين
 - [يشتري](https://purchase.aspose.com/buy)
 - [نسخة تجريبية مجانية](https://releases.aspose.com/)
 - [رخصة مؤقتة](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Java용 Aspose.HTML의 뮤테이션 관찰자 및 핸들러
 linktitle: Java용 Aspose.HTML의 뮤테이션 관찰자 및 핸들러
 second_title: Aspose.HTML을 사용한 Java HTML 처리
 description: 웹 애플리케이션을 향상시키기 위한 고급 돌연변이 관찰자와 안전한 자격 증명 핸들러를 다루는 Java용 Aspose.HTML 튜토리얼을 살펴보세요.
-type: docs
 weight: 23
 url: /ko/java/mutation-observers-handlers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.HTML의 뮤테이션 관찰자 및 핸들러
+
 ## 소개
 
 Java 웹 애플리케이션을 개선하려는 퀘스트를 하고 있다면 아마도 Aspose.HTML에 대해 들어보셨을 것입니다. 하지만 말씀드리자면, 그것은 그저 평범한 라이브러리가 아닙니다. HTML 문서를 동적으로 관리하는 강력한 라이브러리입니다. 이 가이드에서는 두 가지 필수 구성 요소인 Mutation Observer와 Credential Handler를 살펴보겠습니다. 이를 통해 애플리케이션을 강화할 수 있습니다. 
@@ -28,3 +34,9 @@ Aspose.HTML for Java로 고급 Mutation Observer를 구현하는 것은 간단�
 Java용 Aspose.HTML로 고급 Mutation Observer를 구현하고 DOM 변경 사항을 원활하게 추적하는 방법을 알아보세요. 단계별 가이드를 살펴보세요.
 ### [Java용 Aspose.HTML에서 Credential Handler 사용](./credential-handler/)
 Java용 Aspose.HTML을 사용하여 안전한 자격 증명 핸들러를 구현하고 사용자 인증을 효과적으로 관리하는 방법을 알아보세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

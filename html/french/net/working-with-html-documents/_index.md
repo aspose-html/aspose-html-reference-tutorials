@@ -3,10 +3,16 @@ title: Travailler avec des documents HTML
 linktitle: Travailler avec des documents HTML
 second_title: API de manipulation HTML Aspose.HTML .NET
 description: Découvrez le monde de la création et de la manipulation de documents HTML dans .NET avec Aspose.HTML. De la création de documents simples à l'édition approfondie.
-type: docs
 weight: 23
 url: /fr/net/working-with-html-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Travailler avec des documents HTML
+
 
 Vous êtes un développeur Web souhaitant vous lancer dans la création et la manipulation de documents HTML à l'aide de .NET ? Ne cherchez plus ! Dans cette série complète de tutoriels, nous explorerons la puissance d'Aspose.HTML et la manière dont il peut simplifier vos tâches. Que vous soyez un développeur débutant ou expérimenté, vous trouverez des informations précieuses et des conseils pratiques pour améliorer vos compétences.
 
@@ -29,3 +35,9 @@ Une fois que vous aurez compris les bases, nous approfondirons le processus de c
 ### [Modification d'un document dans .NET avec Aspose.HTML](./editing-a-document/)
 
 Maintenant, passons à un niveau supérieur de compétences. L'édition de documents HTML est une tâche courante pour les développeurs Web, et Aspose.HTML simplifie considérablement ce processus. Dans cette section, nous aborderons la création, la manipulation et le style des documents. Vous découvrirez comment améliorer l'apparence et la fonctionnalité de votre contenu Web, en le rendant attrayant et convivial.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

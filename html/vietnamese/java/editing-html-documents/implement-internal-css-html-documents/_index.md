@@ -3,10 +3,16 @@ title: Triển khai CSS nội bộ trong tài liệu HTML với Aspose.HTML cho 
 linktitle: Triển khai CSS nội bộ trong tài liệu HTML với Aspose.HTML cho Java
 second_title: Xử lý HTML Java với Aspose.HTML
 description: Học cách triển khai CSS nội bộ trong tài liệu HTML bằng Aspose.HTML cho Java với hướng dẫn từng bước dễ dàng của chúng tôi.
-type: docs
 weight: 16
 url: /vi/java/editing-html-documents/implement-internal-css-html-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Triển khai CSS nội bộ trong tài liệu HTML với Aspose.HTML cho Java
+
 ## Giới thiệu
 Việc tạo ra các trang web đẹp và có cấu trúc tốt thường phụ thuộc vào một yếu tố quan trọng: kiểu dáng. Trong phát triển web, CSS (Cascading Style Sheets) giống như trang phục cho HTML của bạn—nó làm cho mọi thứ trông hấp dẫn và có tổ chức. Hôm nay, chúng ta sẽ tìm hiểu cách tích hợp CSS nội bộ vào các tài liệu HTML bằng Aspose.HTML cho Java. Cho dù bạn là người mới bắt đầu hay là một nhà phát triển dày dạn kinh nghiệm, hướng dẫn này sẽ chia nhỏ các bước theo cách đơn giản và hấp dẫn.
 ## Điều kiện tiên quyết
@@ -91,3 +97,9 @@ Không, Aspose.HTML là một thư viện thương mại, nhưng bạn có thể
  Bạn có thể ghé thăm[Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/html/29) để được hỗ trợ.
 ### Có cân nhắc nào về hiệu suất khi chuyển đổi HTML sang PDF không?  
 Có, các tài liệu HTML phức tạp có thể mất nhiều thời gian hơn để hiển thị; việc tối ưu hóa nội dung có thể cải thiện hiệu suất.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: บันทึกเอกสาร HTML ลงในไฟล์ใน 
 linktitle: บันทึกเอกสาร HTML ลงในไฟล์ใน Aspose.HTML สำหรับ Java
 second_title: การประมวลผล Java HTML ด้วย Aspose.HTML
 description: เรียนรู้วิธีการบันทึกเอกสาร HTML ลงในไฟล์โดยใช้ Aspose.HTML สำหรับ Java ซึ่งเหมาะอย่างยิ่งสำหรับการจัดการทรัพยากรที่เชื่อมโยงกันหลายรายการได้อย่างง่ายดาย
-type: docs
 weight: 11
 url: /th/java/saving-html-documents/save-html-to-file/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# บันทึกเอกสาร HTML ลงในไฟล์ใน Aspose.HTML สำหรับ Java
+
 ## การแนะนำ
 ในบทช่วยสอนนี้ เราจะมาเรียนรู้วิธีการบันทึกเอกสาร HTML ลงในไฟล์ในขณะที่จัดการทรัพยากรที่เชื่อมโยงกัน ซึ่งมีประโยชน์อย่างยิ่งเมื่อคุณกำลังทำงานกับโปรเจ็กต์ที่เกี่ยวข้องกับไฟล์ HTML หลายไฟล์ ลองนึกภาพว่าเป็นเว็บเพจที่อ้างอิงเว็บเพจอื่นๆ เมื่ออ่านคู่มือนี้จบ คุณจะสามารถใช้ Aspose.HTML สำหรับ Java เพื่อจัดการเอกสาร HTML ของคุณได้อย่างยืดหยุ่นและมีประสิทธิภาพ
 ## ข้อกำหนดเบื้องต้น
@@ -88,3 +94,9 @@ Aspose.HTML เป็น API ที่มีประสิทธิภาพซ
  คุณสามารถเยี่ยมชมฟอรั่มสนับสนุน Aspose ได้[ที่นี่](https://forum.aspose.com/c/html/29) สำหรับคำถามหรือความช่วยเหลือใด ๆ ที่คุณอาจต้องการ
 ### ฉันสามารถใช้ Aspose.HTML สำหรับโครงการเชิงพาณิชย์ได้หรือไม่  
 ใช่ Aspose.HTML สามารถใช้ในโครงการเชิงพาณิชย์ได้ แต่คุณจะต้องซื้อใบอนุญาต คุณสามารถค้นหาตัวเลือกใบอนุญาตได้[ที่นี่](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

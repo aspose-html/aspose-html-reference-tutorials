@@ -3,10 +3,16 @@ title: إنشاء مستندات HTML جديدة باستخدام Aspose.HTML ل
 linktitle: إنشاء مستندات HTML جديدة باستخدام Aspose.HTML لـ Java
 second_title: معالجة HTML باستخدام Java مع Aspose.HTML
 description: تعرف على كيفية إنشاء مستندات HTML جديدة باستخدام Aspose.HTML for Java من خلال هذا الدليل السهل خطوة بخطوة. ابدأ في إنشاء محتوى HTML ديناميكي.
-type: docs
 weight: 17
 url: /ar/java/creating-managing-html-documents/generate-new-html-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إنشاء مستندات HTML جديدة باستخدام Aspose.HTML لـ Java
+
 ## مقدمة
 لم يكن إنشاء مستندات HTML أسهل من أي وقت مضى، وذلك بفضل الأدوات القوية مثل Aspose.HTML for Java. باستخدام هذه المكتبة في مجموعة أدواتك، يمكنك إنشاء محتوى HTML ومعالجته وإدارته برمجيًا بسلاسة. سواء كنت تقوم ببناء تطبيق ويب أو أتمتة إنشاء المستندات أو ببساطة تبحث عن تحسين مشاريع Java الخاصة بك، فإن Aspose.HTML ستلبي احتياجاتك. في هذا البرنامج التعليمي، سنخوض بعمق في أسطر التعليمات البرمجية اللازمة لإنشاء مستندات HTML جديدة باستخدام هذه المكتبة الرائعة.
 ## المتطلبات الأساسية
@@ -66,3 +72,9 @@ Aspose.HTML for Java هي مكتبة مصممة لإنشاء مستندات HTML
 بالتأكيد! تدعم المكتبة مجموعة واسعة من ميزات HTML، بما في ذلك تصميم CSS وتكامل JavaScript.
 ### أين يمكنني العثور على مزيد من المساعدة والدعم لـ Aspose.HTML؟
  يمكنك زيارة منتدى دعم Aspose على[منتدى اسبوس](https://forum.aspose.com/c/html/29) للحصول على المساعدة والدعم المجتمعي.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

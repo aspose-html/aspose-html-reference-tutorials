@@ -3,10 +3,16 @@ title: Az Aspose.HTML Java oktatóanyagok haladó használata
 linktitle: Az Aspose.HTML Java haladó használata
 second_title: Java HTML feldolgozás Aspose.HTML-lel
 description: Tanulja meg, hogyan szabhatja testre a HTML-oldal margóit, hogyan implementálhat DOM-mutációfigyelőt, hogyan kezelheti a HTML5 Canvast, automatizálhatja a HTML-űrlapok kitöltését és még sok mást az Aspose.HTML Java használatával.
-type: docs
 weight: 20
 url: /hu/java/advanced-usage/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Az Aspose.HTML Java oktatóanyagok haladó használata
+
 
 webfejlesztés világában a HTML-kezelés művészetének elsajátítása kulcsfontosságú. Az Aspose.HTML for Java számos olyan funkciót kínál, amelyek lehetővé teszik HTML-készségeinek a következő szintre emelését. Ebben a cikkben olyan fejlett technikákat mutatunk be, amelyek segítenek kihasználni az Aspose.HTML for Java erejét.
 
@@ -51,3 +57,9 @@ Ismerje meg, hogyan automatizálhatja a HTML űrlapok kitöltését és benyújt
 Ismerje meg, hogyan állíthatja be a PDF oldalméretét az Aspose.HTML for Java segítségével. Hozzon létre könnyedén kiváló minőségű PDF-eket HTML-ből. Az oldalméretek hatékony szabályozása.
 ### [Állítsa be az XPS oldalméretét az Aspose.HTML for Java segítségével](./adjust-xps-page-size/)
 Ismerje meg, hogyan állíthatja be az XPS oldalméretét az Aspose.HTML for Java segítségével. Egyszerűen szabályozhatja XPS-dokumentumai kimeneti méreteit.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

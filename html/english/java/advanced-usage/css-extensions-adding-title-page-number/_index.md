@@ -3,10 +3,16 @@ title: Customize HTML Page Margins with Aspose.HTML
 linktitle: CSS Extensions - Adding Title and Page Number
 second_title: Java HTML Processing with Aspose.HTML
 description: Learn how to customize page margins, add page numbers, and titles to HTML documents using Aspose.HTML for Java.
-type: docs
 weight: 10
 url: /java/advanced-usage/css-extensions-adding-title-page-number/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Customize HTML Page Margins with Aspose.HTML
+
 Aspose.HTML for Java is a powerful library for processing HTML documents in Java applications. In this tutorial, we will explore how to create custom page margins and add page numbers and titles to your HTML documents using Aspose.HTML for Java. This step-by-step guide will break down the process into manageable steps to help you easily integrate these features into your HTML documents.
 
 ## Prerequisites
@@ -119,3 +125,10 @@ A4: Yes, Aspose.HTML for Java can be used to convert HTML documents to various f
 ### Q5: Do I need a license for using Aspose.HTML for Java?
 
 A5: Yes, you can obtain a license or a free trial from [here](https://purchase.aspose.com/buy) or [here](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

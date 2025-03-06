@@ -3,10 +3,16 @@ title: Ange PDF-sparalternativ för EPUB till PDF
 linktitle: Ange PDF-sparalternativ för EPUB till PDF
 second_title: Java HTML-bearbetning med Aspose.HTML
 description: Lär dig hur du konverterar EPUB till PDF i Java med Aspose.HTML, ett kraftfullt HTML-manipuleringsbibliotek.
-type: docs
 weight: 12
 url: /sv/java/converting-epub-to-pdf/convert-epub-to-pdf-specify-pdf-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ange PDF-sparalternativ för EPUB till PDF
+
 
 ## Introduktion
 
@@ -111,3 +117,10 @@ Testversionen kan ha vissa begränsningar, så det rekommenderas att du kontroll
 
 ### Var kan jag få support för Aspose.HTML för Java?
 Du kan hitta svar på dina frågor och söka stöd på[Aspose.HTML forum](https://forum.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

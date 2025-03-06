@@ -3,10 +3,16 @@ title: 使用 Aspose.HTML 在 .NET 中创建 HTML 文档
 linktitle: 在 .NET 中创建 HTML 文档
 second_title: Aspose.HTML .NET HTML 操作 API
 description: 了解如何使用 Aspose.HTML 在 .NET 中从头或从 URL 创建 HTML 文档。面向 Web 开发人员的综合教程。
-type: docs
 weight: 10
 url: /zh/net/working-with-html-documents/creating-a-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.HTML 在 .NET 中创建 HTML 文档
+
 
 在 Web 开发和数据处理领域，拥有一个强大的工具来创建、修改和处理 HTML 文档是必不可少的。Aspose.HTML for .NET 就是这样一种工具，它可以简化您的 HTML 相关任务。在本综合教程中，我们将逐步探索如何使用 Aspose.HTML for .NET 创建 HTML 文档。在深入研究示例之前，让我们先介绍一些先决条件。
 
@@ -159,3 +165,10 @@ A3：文档可以在以下位置找到[https://reference.aspose.com/html/net/](h
 
 ### 问题5:我可以在我的Web应用程序中使用Aspose.HTML for .NET吗？
 A5：是的，Aspose.HTML for .NET 与 Web 应用程序兼容，使其成为桌面和基于 Web 的项目的多功能选择。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

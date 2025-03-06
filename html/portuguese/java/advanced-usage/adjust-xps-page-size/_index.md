@@ -3,10 +3,16 @@ title: Ajuste o tamanho da página XPS com Aspose.HTML para Java
 linktitle: Ajustando o tamanho da página XPS
 second_title: Processamento HTML Java com Aspose.HTML
 description: Aprenda como ajustar o tamanho da página XPS com Aspose.HTML para Java. Controle as dimensões de saída dos seus documentos XPS facilmente.
-type: docs
 weight: 16
 url: /pt/java/advanced-usage/adjust-xps-page-size/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ajuste o tamanho da página XPS com Aspose.HTML para Java
+
 
 Neste tutorial, nós o guiaremos pelo processo de ajuste do tamanho da página XPS usando Aspose.HTML para Java. Esta biblioteca poderosa permite que você manipule documentos HTML e os renderize em vários formatos, incluindo XPS. Ajustar o tamanho da página é essencial quando você precisa controlar as dimensões de saída do seu documento XPS.
 
@@ -121,3 +127,9 @@ A1: Aspose.HTML para Java é uma biblioteca Java que permite aos desenvolvedores
 ### P5: Posso obter suporte para Aspose.HTML para Java?
 
  R5: Sim, você pode buscar ajuda e suporte da comunidade Aspose no[Fórum Aspose](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

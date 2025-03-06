@@ -3,10 +3,16 @@ title: Specifying PDF Save Options for EPUB to PDF
 linktitle: Specifying PDF Save Options for EPUB to PDF
 second_title: Java HTML Processing with Aspose.HTML
 description: Learn how to convert EPUB to PDF in Java using Aspose.HTML, a powerful HTML manipulation library.
-type: docs
 weight: 12
 url: /java/converting-epub-to-pdf/convert-epub-to-pdf-specify-pdf-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Specifying PDF Save Options for EPUB to PDF
+
 
 ## Introduction
 
@@ -112,3 +118,10 @@ The trial version may have some limitations, so it's recommended to check the do
 ### Where can I get support for Aspose.HTML for Java?
 You can find answers to your questions and seek support on the [Aspose.HTML forum](https://forum.aspose.com/).
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

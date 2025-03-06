@@ -3,10 +3,16 @@ title: Java için Aspose.HTML'de Sandboxing'i Uygulama
 linktitle: Java için Aspose.HTML'de Sandboxing'i Uygulama
 second_title: Aspose.HTML ile Java HTML İşleme
 description: HTML belgelerinizdeki komut dosyası yürütmeyi güvenli bir şekilde kontrol etmek ve bunları PDF'ye dönüştürmek için Aspose.HTML for Java'da sanal alanı nasıl uygulayacağınızı öğrenin.
-type: docs
 weight: 15
 url: /tr/java/configuring-environment/implement-sandboxing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java için Aspose.HTML'de Sandboxing'i Uygulama
+
 ## giriiş
 Bu eğitimde, Java için Aspose.HTML kullanarak sandbox'ın nasıl uygulanacağını ele alacağız. Ortamınızı kurmaktan basit bir HTML dosyası yazmaya, sandbox'ı yapılandırmaya ve HTML'nizi bir PDF'ye dönüştürmeye kadar her şeyi yapacağız ve tüm bunları potansiyel olarak zararlı komut dosyalarını kontrol altında tutarak yapacağız. İster deneyimli bir geliştirici olun ister yeni başlıyor olun, bu kılavuz size güvenli web içeriğini kolaylıkla oluşturmanız için gereken araçları sağlayacaktır.
 ## Ön koşullar
@@ -89,3 +95,9 @@ Her zaman değil, ancak güvenilmeyen içeriklerle çalışırken veya sıkı g�
  Sandbox'ta bulunan betikler yürütülmeyecek ve etkileri (örneğin`document.write`) çıktıda görünmeyecektir.
 ### Sandbox'lı HTML'yi PDF'nin yanı sıra diğer formatlara dönüştürebilir miyim?
 Kesinlikle! Aspose.HTML for Java, resimler, XPS ve daha fazlası dahil olmak üzere çeşitli formatlara dönüştürmeyi destekler.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

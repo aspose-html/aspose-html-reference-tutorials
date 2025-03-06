@@ -3,10 +3,16 @@ title: Określanie opcji zapisu PDF dla EPUB do PDF
 linktitle: Określanie opcji zapisu PDF dla EPUB do PDF
 second_title: Przetwarzanie HTML w Javie za pomocą Aspose.HTML
 description: Dowiedz się, jak przekonwertować format EPUB na PDF w języku Java, korzystając z Aspose.HTML, potężnej biblioteki do obróbki kodu HTML.
-type: docs
 weight: 12
 url: /pl/java/converting-epub-to-pdf/convert-epub-to-pdf-specify-pdf-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Określanie opcji zapisu PDF dla EPUB do PDF
+
 
 ## Wstęp
 
@@ -111,3 +117,10 @@ Wersja próbna może mieć pewne ograniczenia, dlatego zaleca się zapoznanie z 
 
 ### Gdzie mogę uzyskać pomoc dotyczącą Aspose.HTML dla Java?
 Odpowiedzi na swoje pytania i pomoc znajdziesz na stronie[Forum Aspose.HTML](https://forum.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

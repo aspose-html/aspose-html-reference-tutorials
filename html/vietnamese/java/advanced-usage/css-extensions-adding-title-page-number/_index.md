@@ -3,10 +3,16 @@ title: Tùy chỉnh lề trang HTML với Aspose.HTML
 linktitle: Phần mở rộng CSS - Thêm Tiêu đề và Số trang
 second_title: Xử lý HTML Java với Aspose.HTML
 description: Tìm hiểu cách tùy chỉnh lề trang, thêm số trang và tiêu đề vào tài liệu HTML bằng Aspose.HTML cho Java.
-type: docs
 weight: 10
 url: /vi/java/advanced-usage/css-extensions-adding-title-page-number/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tùy chỉnh lề trang HTML với Aspose.HTML
+
 Aspose.HTML for Java là một thư viện mạnh mẽ để xử lý các tài liệu HTML trong các ứng dụng Java. Trong hướng dẫn này, chúng ta sẽ khám phá cách tạo lề trang tùy chỉnh và thêm số trang và tiêu đề vào tài liệu HTML của bạn bằng Aspose.HTML for Java. Hướng dẫn từng bước này sẽ chia nhỏ quy trình thành các bước dễ quản lý để giúp bạn dễ dàng tích hợp các tính năng này vào tài liệu HTML của mình.
 
 ## Điều kiện tiên quyết
@@ -119,3 +125,9 @@ A4: Có, Aspose.HTML for Java có thể được sử dụng để chuyển đ�
 ### Câu hỏi 5: Tôi có cần giấy phép để sử dụng Aspose.HTML cho Java không?
 
  A5: Có, bạn có thể lấy giấy phép hoặc dùng thử miễn phí từ[đây](https://purchase.aspose.com/buy) hoặc[đây](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

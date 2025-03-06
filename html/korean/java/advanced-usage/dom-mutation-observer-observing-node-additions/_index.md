@@ -3,10 +3,16 @@ title: Java용 Aspose.HTML을 사용한 DOM Mutation Observer
 linktitle: DOM Mutation Observer - 노드 추가 관찰
 second_title: Aspose.HTML을 사용한 Java HTML 처리
 description: 이 단계별 가이드에서 Aspose.HTML for Java를 사용하여 DOM Mutation Observer를 구현하는 방법을 알아보세요. DOM 변경 사항을 효과적으로 모니터링하고 대응하세요.
-type: docs
 weight: 11
 url: /ko/java/advanced-usage/dom-mutation-observer-observing-node-additions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.HTML을 사용한 DOM Mutation Observer
+
 
 HTML 문서의 문서 객체 모델(DOM)에서 변경 사항을 관찰하고 대응하고자 하는 Java 개발자입니까? Aspose.HTML for Java는 이 작업에 강력한 솔루션을 제공합니다. 이 단계별 가이드에서는 Aspose.HTML for Java를 사용하여 HTML 문서를 만들고 Mutation Observer로 노드 추가를 관찰하는 방법을 살펴보겠습니다. 이 튜토리얼은 각 예제를 여러 단계로 나누어 프로세스를 안내합니다. 마지막에는 Java 프로젝트에서 DOM Mutation Observer를 쉽게 구현할 수 있을 것입니다.
 
@@ -146,3 +152,9 @@ A4: 문자 데이터 변경 사항을 관찰하는 것은 HTML 요소의 텍스�
 ### Q5: Java에서 Aspose.HTML을 사용할 때 리소스를 어떻게 처리합니까?
 
  A5: 작업이 끝나면 리소스를 해제하는 것이 중요합니다. 우리의 예에서 우리는 다음을 사용했습니다.`document.dispose()` HTML 문서와 관련된 리소스를 정리합니다. 메모리 누수를 피하기 위해 만든 모든 객체와 리소스를 폐기해야 합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

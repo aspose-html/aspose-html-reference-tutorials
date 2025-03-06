@@ -3,10 +3,16 @@ title: أتمتة ملء نماذج HTML باستخدام Aspose.HTML لـ Java
 linktitle: محرر نماذج HTML - ملء النماذج وإرسالها
 second_title: معالجة HTML باستخدام Java مع Aspose.HTML
 description: تعرف على كيفية أتمتة ملء نماذج HTML وإرسالها باستخدام Aspose.HTML for Java. قم بتبسيط التفاعل على الويب باستخدام هذا البرنامج التعليمي.
-type: docs
 weight: 14
 url: /ar/java/advanced-usage/html-form-editor-filling-submitting-forms/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# أتمتة ملء نماذج HTML باستخدام Aspose.HTML لـ Java
+
 في العصر الرقمي الحالي، غالبًا ما تحتوي مواقع الويب على نماذج لأغراض مختلفة، مثل تسجيل المستخدم أو التعليقات أو التسوق عبر الإنترنت. بصفتك مطور Java، قد تحتاج إلى أتمتة عملية ملء نماذج HTML وإرسالها على مواقع الويب. لحسن الحظ، باستخدام Aspose.HTML for Java، يمكنك تحقيق ذلك بسلاسة. في هذا البرنامج التعليمي، سنستكشف كيفية استخدام Aspose.HTML for Java لملء نماذج HTML وإرسالها على موقع ويب مستهدف.
 
 ## المتطلبات الأساسية
@@ -135,3 +141,9 @@ if (result.isSuccess()) {
 ### س4: أين يمكنني العثور على مزيد من الدعم والمساعدة لـ Aspose.HTML لـ Java؟
 
  ج4: للحصول على أي دعم فني، يمكنك زيارة منتديات Aspose[هنا](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

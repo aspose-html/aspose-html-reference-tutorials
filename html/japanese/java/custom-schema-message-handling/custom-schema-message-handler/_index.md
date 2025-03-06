@@ -3,10 +3,16 @@ title: Aspose.HTML for Java を使用したカスタム スキーマ メッセ�
 linktitle: Aspose.HTML for Java を使用したカスタム スキーマ メッセージ ハンドラー
 second_title: Aspose.HTML を使用した Java HTML 処理
 description: Aspose.HTML for Java を使用してカスタム スキーマ メッセージ ハンドラーを作成する方法を学習します。このチュートリアルでは、プロセスを段階的に説明します。
-type: docs
 weight: 11
 url: /ja/java/custom-schema-message-handling/custom-schema-message-handler/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.HTML for Java を使用したカスタム スキーマ メッセージ ハンドラー
+
 ## 導入
 開発者の皆さん、ようこそ! 強力な HTML 操作機能で Java アプリケーションを強化したいと考えているなら、ここはまさにうってつけです。今日は、Aspose.HTML for Java を使用してカスタム スキーマ メッセージ ハンドラーを作成する方法について詳しく説明します。特別な料理を作るシェフを想像してください。このハンドラーは、標準レシピをグルメ料理に昇華させる秘密のソースのようなものです。独自のスキーマ仕様に基づいて、HTML メッセージをシームレスに管理およびフィルター処理できます。
 ## 前提条件
@@ -92,3 +98,9 @@ Aspose.HTML for Java は、Java アプリケーションで HTML ファイルを
 はい、Aspose.HTMLの永久ライセンスを購入できます。[ここ](https://purchase.aspose.com/buy).
 ### Aspose.HTML のサポートはどこで見つかりますか?
  HTMLのAsposeフォーラムにアクセスしてサポートを受けることができます。[ここ](https://forum.aspose.com/c/html/29).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

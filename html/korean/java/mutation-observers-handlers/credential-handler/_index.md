@@ -3,10 +3,16 @@ title: Java용 Aspose.HTML에서 Credential Handler 사용
 linktitle: Java용 Aspose.HTML에서 Credential Handler 사용
 second_title: Aspose.HTML을 사용한 Java HTML 처리
 description: Java용 Aspose.HTML을 사용하여 안전한 자격 증명 핸들러를 구현하고 사용자 인증을 효과적으로 관리하는 방법을 알아보세요.
-type: docs
 weight: 11
 url: /ko/java/mutation-observers-handlers/credential-handler/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.HTML에서 Credential Handler 사용
+
 ## 소개
 인증을 위해 사용자 자격 증명이 필요한 웹 애플리케이션으로 작업할 때 이러한 자격 증명을 효과적으로 관리하는 것이 중요합니다. 바로 여기서 Aspose.HTML for Java가 등장하여 이 프로세스를 간소화하는 도구를 제공합니다. 이 가이드에서는 Aspose.HTML for Java로 자격 증명 핸들러를 구현하여 애플리케이션에서 안전한 작업을 보장하는 방법을 자세히 살펴보겠습니다.
 ## 필수 조건
@@ -92,3 +98,9 @@ Java용 Aspose.HTML은 HTML 파일을 조작하고 Java 애플리케이션에서
  물론입니다! 커뮤니티에서 지원을 받고 참여하실 수 있습니다.[Aspose 포럼](https://forum.aspose.com/c/html/29).
 ###  의 목적은 무엇입니까?`setPreAuthenticate(true)` method?  
 이 방법을 사용하면 사용자에게 묻지 않고도 자격 증명이 요청 헤더에서 자동으로 인증을 위해 사용됩니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

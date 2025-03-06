@@ -3,10 +3,16 @@ title: Trình quan sát và xử lý đột biến trong Aspose.HTML cho Java
 linktitle: Trình quan sát và xử lý đột biến trong Aspose.HTML cho Java
 second_title: Xử lý HTML Java với Aspose.HTML
 description: Khám phá hướng dẫn về Aspose.HTML dành cho Java bao gồm Mutation Observer nâng cao và Credential Handler an toàn để nâng cao ứng dụng web của bạn.
-type: docs
 weight: 23
 url: /vi/java/mutation-observers-handlers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Trình quan sát và xử lý đột biến trong Aspose.HTML cho Java
+
 ## Giới thiệu
 
 Nếu bạn đang tìm cách cải thiện các ứng dụng web Java của mình, có lẽ bạn đã nghe nói đến Aspose.HTML. Nhưng hãy để tôi nói cho bạn biết, nó không chỉ là một thư viện thông thường—mà là một công cụ mạnh mẽ để quản lý các tài liệu HTML một cách năng động. Trong hướng dẫn này, chúng ta sẽ khám phá hai thành phần thiết yếu: Mutation Observers và Credential Handlers, cho phép bạn tăng tốc các ứng dụng của mình. 
@@ -28,3 +34,9 @@ Bằng cách triển khai Trình xử lý thông tin xác thực an toàn, bạn
 Tìm hiểu cách triển khai Mutation Observer nâng cao với Aspose.HTML cho Java, theo dõi các thay đổi DOM một cách liền mạch. Khám phá hướng dẫn từng bước của chúng tôi.
 ### [Sử dụng Credential Handler trong Aspose.HTML cho Java](./credential-handler/)
 Khám phá cách triển khai Trình xử lý thông tin xác thực an toàn bằng Aspose.HTML cho Java để quản lý xác thực người dùng hiệu quả.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Java용 Aspose.HTML에서 HTML 문서에 외부 CSS 적용
 linktitle: Java용 Aspose.HTML에서 HTML 문서에 외부 CSS 적용
 second_title: Aspose.HTML을 사용한 Java HTML 처리
 description: Aspose.HTML for Java를 사용하여 외부 CSS를 HTML 문서에 적용하는 방법을 알아보세요! 이 단계별 가이드를 따라 완전한 튜토리얼을 확인하세요.
-type: docs
 weight: 12
 url: /ko/java/editing-html-documents/apply-external-css-html-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.HTML에서 HTML 문서에 외부 CSS 적용
+
 ## 소개
 HTML 문서로 작업할 때 스타일을 적용하면 프레젠테이션과 사용자 경험에 큰 차이를 만들 수 있습니다. Java에 뛰어들고 Aspose.HTML 라이브러리를 사용하여 HTML 문서에 외부 CSS 스타일을 적용하는 방법을 배우고 싶다면, 당신은 올바른 곳에 있습니다! 이 가이드는 Java나 CSS를 처음 접하는 사람도 쉽게 사용할 수 있도록 단계별로 프로세스를 설명합니다.
 ## 필수 조건
@@ -101,3 +107,9 @@ Java용 Aspose.HTML은 개발자가 Java 애플리케이션에서 HTML 문서를
 네! 내부 CSS는 HTML 문서 내에서 정의되는 반면, 외부 CSS는 별도의 파일에 배치되어 문서에 연결됩니다.
 ### Java용 Aspose.HTML에 대한 지원은 어떻게 받을 수 있나요?
  커뮤니티 지원은 다음을 통해 액세스할 수 있습니다.[Aspose 포럼](https://forum.aspose.com/c/html/29) 질문이나 문제가 발생하면 연락해 주세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

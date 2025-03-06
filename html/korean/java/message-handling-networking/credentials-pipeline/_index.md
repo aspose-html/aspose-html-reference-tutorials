@@ -3,10 +3,16 @@ title: Java용 Aspose.HTML에서 자격 증명 파이프라인 처리
 linktitle: Java용 Aspose.HTML에서 자격 증명 파이프라인 처리
 second_title: Aspose.HTML을 사용한 Java HTML 처리
 description: 이 단계별 가이드에서 Aspose.HTML for Java를 사용하여 자격 증명을 안전하게 처리하는 방법을 알아보세요. 필수적인 팁과 모범 사례를 살펴보세요.
-type: docs
 weight: 10
 url: /ko/java/message-handling-networking/credentials-pipeline/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.HTML에서 자격 증명 파이프라인 처리
+
 ## 소개
 점점 더 디지털화되는 세상에서 민감한 정보의 보안을 유지하는 것은 그 어느 때보다 중요합니다. Java에서 HTML 콘텐츠를 다루고 웹 서비스와의 상호 작용이 안전하고 효율적이도록 하려는 경우 Aspose.HTML for Java 라이브러리가 구출에 나섭니다. 이 문서에서는 Aspose.HTML for Java를 사용하여 자격 증명을 안전하게 처리하는 방법을 살펴보고 네트워크 및 외부 서비스와 안전하게 상호 작용할 수 있는 환경을 만듭니다.
 ## 필수 조건
@@ -74,3 +80,9 @@ Java용 Aspose.HTML은 HTML 문서를 읽고, 쓰고, 다양한 형식으로 변
  테스트 목적으로 임시 라이센스를 취득할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
 ### Java용 Aspose.HTML의 무료 평가판이 있나요?
  네, 무료 체험판을 다운로드할 수 있습니다.[여기](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

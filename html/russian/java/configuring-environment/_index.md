@@ -3,10 +3,16 @@ title: Настройка среды в Aspose.HTML для Java
 linktitle: Настройка среды в Aspose.HTML для Java
 second_title: Обработка Java HTML с помощью Aspose.HTML
 description: Изучите, как настроить среду в Aspose.HTML для Java. Узнайте, как устанавливать наборы символов, настраивать шрифты и эффективно использовать обработчики сообщений.
-type: docs
 weight: 29
 url: /ru/java/configuring-environment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Настройка среды в Aspose.HTML для Java
+
 ## Введение
 
 Когда дело доходит до работы с Aspose.HTML для Java, первым шагом является настройка среды. Независимо от того, являетесь ли вы опытным разработчиком или только начинаете, правильная настройка имеет решающее значение. Почему? Потому что правильно настроенная среда гарантирует, что все будет работать гладко, от базового анализа HTML до сложных преобразований, таких как HTML в PDF или PNG.
@@ -65,3 +71,9 @@ url: /ru/java/configuring-environment/
 Узнайте, как реализовать «песочницу» в Aspose.HTML для Java, чтобы безопасно контролировать выполнение скриптов в ваших HTML-документах и преобразовывать их в PDF.
 ### [Установка пользовательской таблицы стилей в Aspose.HTML для Java](./set-user-style-sheet/)
 Узнайте, как настроить пользовательскую таблицу стилей в Aspose.HTML для Java, улучшив стиль документа и с легкостью преобразуя HTML в PDF.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

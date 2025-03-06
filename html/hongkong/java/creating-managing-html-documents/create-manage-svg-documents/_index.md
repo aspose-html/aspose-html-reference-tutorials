@@ -3,10 +3,16 @@ title: 在 Aspose.HTML for Java 中建立和管理 SVG 文檔
 linktitle: 在 Aspose.HTML for Java 中建立和管理 SVG 文檔
 second_title: 使用 Aspose.HTML 進行 Java HTML 處理
 description: 學習使用 Aspose.HTML for Java 建立和管理 SVG 文件！這本綜合指南涵蓋了從基本創建到高級操作的所有內容。
-type: docs
 weight: 19
 url: /zh-hant/java/creating-managing-html-documents/create-manage-svg-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.HTML for Java 中建立和管理 SVG 文檔
+
 ## 介紹
 在現代網頁開發世界中，動態和響應式圖形在增強使用者體驗方面發揮著至關重要的作用。可擴展向量圖形 (SVG) 因其在各種設備上的靈活性和高品質解析度而成為開發人員的最愛。透過強大的 Aspose.HTML for Java 程式庫，開發人員可以輕鬆地以程式設計方式建立和操作 SVG 文件。讓我們深入探討如何利用 Aspose.HTML 來管理 Java 應用程式中的 SVG 圖形！
 ## 先決條件
@@ -83,3 +89,9 @@ SVG 代表可縮放向量圖形，它是基於 XML 的向量圖像，可以在�
 您可以建立任何 SVG 形狀，包括圓形、矩形、多邊形和路徑。
 ### 我如何獲得對 Aspose.HTML 的支援？
 您可以在以下位置找到支持[Aspose論壇](https://forum.aspose.com/c/html/29).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

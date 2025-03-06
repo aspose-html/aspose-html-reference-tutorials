@@ -3,10 +3,16 @@ title: Java용 Aspose.HTML에서 빈 HTML 문서 만들기
 linktitle: Java용 Aspose.HTML에서 빈 HTML 문서 만들기
 second_title: Aspose.HTML을 사용한 Java HTML 처리
 description: 모든 수준의 개발자에게 적합한 자세한 단계별 튜토리얼을 통해 Aspose.HTML을 사용하여 Java로 빈 HTML 문서를 만드는 방법을 알아보세요.
-type: docs
 weight: 11
 url: /ko/java/creating-managing-html-documents/create-empty-html-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.HTML에서 빈 HTML 문서 만들기
+
 ## 소개
 Java에서 HTML 문서를 처리하는 경우 Aspose.HTML은 HTML 문서를 쉽게 만들고, 조작하고, 관리할 수 있는 강력한 툴킷입니다. HTML 생성을 자동화하려는 개발자이든 웹 애플리케이션에 더 많은 기능을 추가하려는 사람이든 빈 HTML 문서를 만드는 것이 종종 첫 번째 단계입니다. 이 가이드에서는 Aspose.HTML for Java를 사용하여 빈 HTML 문서를 만드는 과정을 안내해 드리겠습니다. 좋아하는 음료를 들고 시작해 볼까요!
 ## 필수 조건
@@ -51,3 +57,9 @@ Aspose.HTML은 무료 체험판을 제공하지만, 확장 사용을 위해서�
 문서 객체를 처리하지 못하면 메모리 누수가 발생할 수 있으며, 특히 대규모 애플리케이션에서 그렇습니다.
 ### HTML 문서를 저장한 후에 수정할 수 있나요?
 네, 저장된 문서를 다시 열어 필요에 따라 내용을 수정한 후 다시 저장할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

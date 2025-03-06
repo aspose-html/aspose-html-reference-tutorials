@@ -3,10 +3,16 @@ title: Расширенное использование Aspose.HTML Java Tutori
 linktitle: Расширенное использование Aspose.HTML Java
 second_title: Обработка Java HTML с помощью Aspose.HTML
 description: Узнайте, как настраивать поля HTML-страницы, внедрять DOM Mutation Observer, управлять HTML5 Canvas, автоматизировать заполнение HTML-форм и многое другое с помощью Aspose.HTML Java.
-type: docs
 weight: 20
 url: /ru/java/advanced-usage/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Расширенное использование Aspose.HTML Java Tutorials
+
 
 В мире веб-разработки овладение искусством манипуляции HTML имеет решающее значение. Aspose.HTML для Java предлагает множество функций, которые позволят вам вывести свои навыки HTML на новый уровень. В этой статье мы рассмотрим некоторые продвинутые методы, которые помогут вам использовать всю мощь Aspose.HTML для Java.
 
@@ -51,3 +57,9 @@ DOM (Document Object Model) — это основа любой веб-стран
 Узнайте, как настроить размер страницы PDF с помощью Aspose.HTML для Java. Создавайте высококачественные PDF из HTML без усилий. Эффективно контролируйте размеры страницы.
 ### [Настройте размер страницы XPS с помощью Aspose.HTML для Java](./adjust-xps-page-size/)
 Узнайте, как настроить размер страницы XPS с помощью Aspose.HTML для Java. Легко контролируйте выходные размеры ваших документов XPS.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

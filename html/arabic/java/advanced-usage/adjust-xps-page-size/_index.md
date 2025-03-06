@@ -3,10 +3,16 @@ title: ضبط حجم الصفحة في XPS باستخدام Aspose.HTML لـ Jav
 linktitle: ضبط حجم الصفحة في XPS
 second_title: معالجة HTML باستخدام Java مع Aspose.HTML
 description: تعرف على كيفية ضبط حجم صفحة XPS باستخدام Aspose.HTML لـ Java. يمكنك التحكم في أبعاد إخراج مستندات XPS بسهولة.
-type: docs
 weight: 16
 url: /ar/java/advanced-usage/adjust-xps-page-size/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ضبط حجم الصفحة في XPS باستخدام Aspose.HTML لـ Java
+
 
 في هذا البرنامج التعليمي، سنرشدك خلال عملية ضبط حجم صفحة XPS باستخدام Aspose.HTML for Java. تتيح لك هذه المكتبة القوية التعامل مع مستندات HTML وتقديمها بتنسيقات مختلفة، بما في ذلك XPS. يعد ضبط حجم الصفحة أمرًا ضروريًا عندما تحتاج إلى التحكم في أبعاد الإخراج لمستند XPS.
 
@@ -121,3 +127,9 @@ A1: Aspose.HTML for Java هي مكتبة Java تسمح للمطورين بمعا
 ### س5: هل يمكنني الحصول على دعم Aspose.HTML لـ Java؟
 
  ج5: نعم، يمكنك طلب المساعدة والدعم من مجتمع Aspose على[منتدى اسبوس](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

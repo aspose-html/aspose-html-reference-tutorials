@@ -3,10 +3,16 @@ title: Configure Fonts in Aspose.HTML for Java
 linktitle: Configure Fonts in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 description: Learn how to configure fonts in Aspose.HTML for Java with this detailed, step-by-step guide. Enhance your HTML to PDF conversions with custom fonts and styles.
-type: docs
 weight: 11
 url: /java/configuring-environment/configure-fonts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Configure Fonts in Aspose.HTML for Java
+
 ## Introduction
 When working with HTML documents in Java, configuring fonts correctly is essential for creating visually appealing and readable content. Whether you're generating reports, creating web pages, or converting documents, ensuring that your fonts are properly configured can make a significant difference. This tutorial will walk you through the process of configuring fonts in Aspose.HTML for Java, from setting up your environment to converting HTML to PDF with custom fonts. So, let’s dive in!
 
@@ -123,3 +129,10 @@ You can customize the PDF output by modifying the `PdfSaveOptions` object passed
 Yes, Aspose.HTML supports a wide range of CSS styles. You can apply complex styles just as you would in a regular web environment.
 ### Where can I find more examples and documentation?  
 You can find more detailed examples and documentation on the [Aspose.HTML for Java documentation page](https://reference.aspose.com/html/java/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Dokładne dostrajanie konwerterów w .NET za pomocą Aspose.HTML
 linktitle: Konwertery dostrajające w .NET
 second_title: Aspose.HTML .NET API manipulacji HTML
 description: Dowiedz się, jak konwertować HTML na PDF, XPS i obrazy za pomocą Aspose.HTML dla .NET. Samouczek krok po kroku z przykładami kodu i często zadawanymi pytaniami.
-type: docs
 weight: 16
 url: /pl/net/advanced-features/fine-tuning-converters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dokładne dostrajanie konwerterów w .NET za pomocą Aspose.HTML
+
 
 ## Wstęp
 
@@ -534,3 +540,9 @@ A4: Możesz określić uprawnienia PDF i ustawienia szyfrowania podczas renderow
 ### P5. Czy mogę konwertować HTML do innych formatów, takich jak XPS lub obrazy?
 
 A5: Tak, Aspose.HTML dla .NET obsługuje konwersję HTML do różnych formatów, w tym PDF, XPS i obrazów (np. JPEG). Możesz dostosować ustawienia konwersji, aby spełnić swoje specyficzne wymagania.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

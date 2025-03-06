@@ -3,10 +3,16 @@ title: Save HTML to MHTML in Aspose.HTML for Java
 linktitle: Save HTML to MHTML in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 description: Learn how to save HTML documents as MHTML using Aspose.HTML for Java with this step-by-step guide, complete with code examples and practical tips.
-type: docs
 weight: 13
 url: /java/saving-html-documents/save-html-to-mhtml/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Save HTML to MHTML in Aspose.HTML for Java
+
 ## Introduction
 In the vast world of web development and data representation, you might have come across various file formats. One such format is MHTML, a great way to bundle HTML documents with all their components (like images and linked files) into a single file. This makes sharing and storing web pages convenient. If you are looking to save HTML content as MHTML using Aspose.HTML for Java, you’re in the right place! In this guide, we’ll walk you through the entire process, step by step, ensuring you grasp everything along the way.
 
@@ -109,3 +115,10 @@ Aspose.HTML offers a free trial; however, for extended usage and features, a pai
 
 ### Where can I find more documentation on Aspose.HTML for Java?
 You can find comprehensive documentation and examples on the [Aspose HTML documentation page](https://reference.aspose.com/html/java/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

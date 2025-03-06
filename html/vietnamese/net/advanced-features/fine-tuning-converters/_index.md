@@ -3,10 +3,16 @@ title: Tinh chỉnh bộ chuyển đổi trong .NET với Aspose.HTML
 linktitle: Tinh chỉnh bộ chuyển đổi trong .NET
 second_title: Aspose.HTML .NET API thao tác HTML
 description: Tìm hiểu cách chuyển đổi HTML sang PDF, XPS và hình ảnh bằng Aspose.HTML cho .NET. Hướng dẫn từng bước với các ví dụ về mã và câu hỏi thường gặp.
-type: docs
 weight: 16
 url: /vi/net/advanced-features/fine-tuning-converters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tinh chỉnh bộ chuyển đổi trong .NET với Aspose.HTML
+
 
 ## Giới thiệu
 
@@ -534,3 +540,9 @@ A4: Bạn có thể chỉ định quyền PDF và cài đặt mã hóa khi kết
 ### Câu hỏi 5. Tôi có thể chuyển đổi HTML sang các định dạng khác như XPS hoặc hình ảnh không?
 
 A5: Có, Aspose.HTML for .NET hỗ trợ chuyển đổi HTML sang nhiều định dạng khác nhau, bao gồm PDF, XPS và hình ảnh (ví dụ: JPEG). Bạn có thể tùy chỉnh cài đặt chuyển đổi để đáp ứng các yêu cầu cụ thể của mình.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Mutatie-observatoren en handlers in Aspose.HTML voor Java
 linktitle: Mutatie-observatoren en handlers in Aspose.HTML voor Java
 second_title: Java HTML-verwerking met Aspose.HTML
 description: Ontdek Aspose.HTML voor Java-zelfstudies over geavanceerde mutatieobservatoren en veilige referentiehandlers om uw webapplicaties te verbeteren.
-type: docs
 weight: 23
 url: /nl/java/mutation-observers-handlers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mutatie-observatoren en handlers in Aspose.HTML voor Java
+
 ## Invoering
 
 Als u op zoek bent naar manieren om uw Java-webapplicaties te verbeteren, hebt u waarschijnlijk wel eens gehoord van Aspose.HTML. Maar laat me u vertellen, het is niet zomaar een gewone bibliotheek, het is een krachtpatser voor het dynamisch beheren van HTML-documenten. In deze gids verkennen we twee essentiële componenten: Mutation Observers en Credential Handlers, waarmee u uw applicaties een boost kunt geven. 
@@ -28,3 +34,9 @@ Door een veilige Credential Handler te implementeren, kunt u de credentials van 
 Leer hoe u een geavanceerde Mutation Observer implementeert met Aspose.HTML voor Java, waarmee u DOM-wijzigingen naadloos kunt volgen. Duik in onze stapsgewijze handleiding.
 ### [Credential Handler gebruiken in Aspose.HTML voor Java](./credential-handler/)
 Ontdek hoe u een veilige Credential Handler implementeert met Aspose.HTML voor Java om gebruikersauthenticatie effectief te beheren.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

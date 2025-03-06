@@ -3,10 +3,16 @@ title: Implementacja Sandboxingu w Aspose.HTML dla Java
 linktitle: Implementacja Sandboxingu w Aspose.HTML dla Java
 second_title: Przetwarzanie HTML w Javie za pomocą Aspose.HTML
 description: Dowiedz się, jak wdrożyć sandboxing w Aspose.HTML dla Java, aby bezpiecznie kontrolować wykonywanie skryptów w dokumentach HTML i konwertować je do formatu PDF.
-type: docs
 weight: 15
 url: /pl/java/configuring-environment/implement-sandboxing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Implementacja Sandboxingu w Aspose.HTML dla Java
+
 ## Wstęp
 tym samouczku pokażemy, jak wdrożyć sandboxing przy użyciu Aspose.HTML dla Javy. Przeprowadzimy Cię od konfiguracji środowiska do napisania prostego pliku HTML, skonfigurowania sandboxa i konwersji HTML do PDF, a wszystko to przy jednoczesnym zachowaniu potencjalnie szkodliwych skryptów pod kontrolą. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz, ten przewodnik zapewni Ci narzędzia, których potrzebujesz, aby z łatwością tworzyć bezpieczne treści internetowe.
 ## Wymagania wstępne
@@ -89,3 +95,9 @@ Nie zawsze, ale jest to szczególnie ważne w przypadku pracy z treściami, któ
  Skrypty, które są w trybie piaskownicy, nie zostaną wykonane, a ich efekty (takie jak`document.write`) nie pojawi się na wyjściu.
 ### Czy mogę przekonwertować skrypt HTML z trybu sandbox do innych formatów niż PDF?
 Oczywiście! Aspose.HTML dla Java obsługuje konwersję do różnych formatów, w tym obrazów, XPS i innych.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

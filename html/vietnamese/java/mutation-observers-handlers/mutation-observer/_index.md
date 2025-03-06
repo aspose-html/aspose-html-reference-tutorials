@@ -3,10 +3,16 @@ title: Advanced Mutation Observer với Aspose.HTML cho Java
 linktitle: Advanced Mutation Observer với Aspose.HTML cho Java
 second_title: Xử lý HTML Java với Aspose.HTML
 description: Tìm hiểu cách triển khai Mutation Observer nâng cao với Aspose.HTML cho Java, theo dõi các thay đổi DOM một cách liền mạch. Khám phá hướng dẫn từng bước của chúng tôi.
-type: docs
 weight: 10
 url: /vi/java/mutation-observers-handlers/mutation-observer/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Advanced Mutation Observer với Aspose.HTML cho Java
+
 ## Giới thiệu
 Bạn đang muốn tìm hiểu sâu hơn về thao tác DOM và theo dõi các thay đổi trong Java bằng Aspose.HTML? Vâng, bạn đã đến đúng nơi rồi! Trong hướng dẫn này, chúng ta sẽ đi sâu vào cách tận dụng API Mutation Observer mạnh mẽ do Aspose.HTML cung cấp cho Java. Tính năng tiện lợi này cho phép chúng ta lắng nghe các thay đổi trong DOM, biến nó thành một công cụ tuyệt vời cho các ứng dụng web động. Vậy, hãy bắt đầu thôi!
 ## Điều kiện tiên quyết
@@ -108,3 +114,9 @@ Có, miễn là bạn đưa thư viện Aspose.HTML vào dự án của mình, b
 Mutation Observers được thiết kế để đạt hiệu quả. Tuy nhiên, việc quan sát quá mức hoặc không cần thiết vẫn có thể ảnh hưởng đến hiệu suất, do đó, điều cần thiết là phải cấu hình chúng một cách khôn ngoan.
 ### Tôi có thể tìm thêm tài nguyên về Aspose.HTML ở đâu?
  Bạn có thể kiểm tra[Tài liệu Aspose](https://reference.aspose.com/html/java/) để biết thêm thông tin và hướng dẫn.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 在 Aspose.HTML for Java 中設定字元集
 linktitle: 在 Aspose.HTML for Java 中設定字元集
 second_title: 使用 Aspose.HTML 進行 Java HTML 處理
 description: 在此逐步指南中了解如何在 Aspose.HTML for Java 中設定字元集以及如何將 HTML 轉換為 PDF。確保正確的文字編碼和呈現。
-type: docs
 weight: 10
 url: /zh-hant/java/configuring-environment/set-character-set/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.HTML for Java 中設定字元集
+
 ## 介紹
 如果您使用 Java 處理 HTML 文檔，那麼確保正確的字元集對於正確編碼和呈現文字至關重要。在本指南中，我們將探討如何使用 Aspose.HTML for Java 設定字元集。這個全面的教程將引導您完成過程的每一步，讓您清楚地了解如何有效地處理字元集。
 ## 先決條件
@@ -104,3 +110,9 @@ try {
 雖然 Java 確實有垃圾收集器，但使用手動釋放配置和文件等資源是一個很好的做法。`dispose`方法。
 ### 在哪裡可以獲得 Aspose.HTML for Java 的免費試用版？  
 您可以從以下位置下載免費試用版：[Aspose 發佈頁面](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

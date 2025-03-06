@@ -3,10 +3,16 @@ title: Aspose.HTML を使用して .NET で従量制ライセンスを適用す�
 linktitle: .NET で従量制ライセンスを適用する
 second_title: Aspose.HTML .NET HTML 操作 API
 description: Aspose.HTML for .NET で従量制ライセンスを適用する方法を学びます。HTML 操作のニーズを効率的に管理します。今すぐ始めましょう!
-type: docs
 weight: 10
 url: /ja/net/licensing-and-initialization/apply-metered-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.HTML を使用して .NET で従量制ライセンスを適用する
+
 このチュートリアルでは、Aspose.HTML を使用して .NET アプリケーションに従量制ライセンスを適用する手順を説明します。従量制ライセンスは、HTML 操作のニーズに合わせてライセンスを管理する便利な方法です。以下の手順に従うと、Aspose.HTML for .NET プロジェクトに従量制ライセンスを適用できます。
 
 ## 前提条件
@@ -88,3 +94,9 @@ using Aspose.Html;
 
 ### Aspose.HTML for .NET に関するサポートを受けたり質問したりするにはどこに行けばよいですか?
 コミュニティに参加してサポートを求めることができます[Aspose フォーラム](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

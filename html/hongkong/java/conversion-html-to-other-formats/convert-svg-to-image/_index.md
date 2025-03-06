@@ -3,10 +3,16 @@ title: 使用 Aspose.HTML for Java 將 SVG 轉換為映像
 linktitle: 將 SVG 轉換為影像
 second_title: 使用 Aspose.HTML 進行 Java HTML 處理
 description: 了解如何使用 Aspose.HTML 將 SVG 轉換為 Java 中的映像。高品質輸出的綜合指南。
-type: docs
 weight: 14
 url: /zh-hant/java/conversion-html-to-other-formats/convert-svg-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.HTML for Java 將 SVG 轉換為映像
+
 ## 介紹
 
 您是否希望使用 Java 將可縮放向量圖形 (SVG) 轉換為圖像格式？ Aspose.HTML for Java 是完成此任務的完美工具。在這份綜合指南中，我們將逐步引導您完成整個過程。我們將介紹先決條件、導入包，並將每個範例分解為多個步驟。在本教學結束時，您將能夠使用 Aspose.HTML 輕鬆地將 SVG 檔案轉換為各種影像格式。讓我們開始吧！
@@ -96,3 +102,9 @@ A3：Aspose.HTML 提供免費試用版，讓您探索其功能。如需完整功
 ### Q5：我可以獲得 Aspose.HTML for Java 的臨時授權嗎？
 
  A5：是的，您可以從以下位置取得用於評估或測試目的的臨時許可證：[這個連結](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Thiết lập dịch vụ mạng trong Aspose.HTML cho Java
 linktitle: Thiết lập dịch vụ mạng trong Aspose.HTML cho Java
 second_title: Xử lý HTML Java với Aspose.HTML
 description: Tìm hiểu cách thiết lập dịch vụ mạng trong Aspose.HTML cho Java, quản lý tài nguyên mạng và chuyển đổi HTML sang PNG với cách xử lý lỗi tùy chỉnh.
-type: docs
 weight: 13
 url: /vi/java/configuring-environment/setup-network-service/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thiết lập dịch vụ mạng trong Aspose.HTML cho Java
+
 ## Giới thiệu
 Bạn có muốn tinh chỉnh quá trình xử lý tài liệu HTML của mình bằng Java không? Có thể bạn đang làm việc trên một dự án liên quan đến việc chuyển đổi tài liệu HTML thành hình ảnh hoặc các định dạng khác và bạn cần quản lý các dịch vụ mạng một cách hiệu quả. Vâng, bạn đã đến đúng nơi rồi! Hướng dẫn này sẽ hướng dẫn bạn thiết lập dịch vụ mạng trong Aspose.HTML cho Java, chia nhỏ từng bước để bạn có thể dễ dàng thực hiện theo. Cho dù bạn là một nhà phát triển dày dạn kinh nghiệm hay chỉ mới bắt đầu, hướng dẫn này sẽ giúp quá trình này trở nên rõ ràng, dễ hiểu và thậm chí có thể thú vị một chút.
 ## Điều kiện tiên quyết
@@ -90,3 +96,9 @@ Bằng cách triển khai trình xử lý tin nhắn tùy chỉnh, bạn có th�
 Chắc chắn rồi! Việc dọn dẹp tài nguyên sẽ ngăn ngừa rò rỉ bộ nhớ và giúp ứng dụng của bạn chạy trơn tru.
 ### Tôi có thể tùy chỉnh trình xử lý thông báo lỗi không?  
 Có, trình xử lý thông báo lỗi có thể được tùy chỉnh để ghi lại thông tin chi tiết cụ thể, gửi cảnh báo hoặc thậm chí kích hoạt các quy trình khác dựa trên lỗi gặp phải.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

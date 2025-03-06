@@ -3,10 +3,16 @@ title: Menggunakan Penanganan Pesan di Aspose.HTML untuk Java
 linktitle: Menggunakan Penanganan Pesan di Aspose.HTML untuk Java
 second_title: Pemrosesan HTML Java dengan Aspose.HTML
 description: Pelajari cara menggunakan penanganan pesan di Aspose.HTML untuk Java untuk menangani gambar yang hilang dan operasi jaringan lainnya secara efektif.
-type: docs
 weight: 12
 url: /id/java/configuring-environment/use-message-handlers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menggunakan Penanganan Pesan di Aspose.HTML untuk Java
+
 ## Perkenalan
 Dalam tutorial ini, kami akan memandu Anda melalui contoh praktis penggunaan pengendali pesan di Aspose.HTML untuk Java. Kami akan menyiapkan dokumen HTML sederhana yang merujuk pada gambar yang hilang dan menunjukkan cara menemukan dan menangani kesalahan menggunakan pengendali pesan kustom. Baik Anda baru mengenal Aspose.HTML atau ingin mengembangkan keterampilan Anda, panduan ini akan memberi Anda wawasan yang Anda butuhkan untuk mengelola operasi jaringan secara efektif.
 ## Prasyarat
@@ -109,3 +115,9 @@ Ya, Anda dapat menggabungkan beberapa penangan pesan bersama-sama untuk menangan
 Ya, membuang objek-objek ini memastikan semua sumber daya dilepaskan dengan benar, mencegah kebocoran memori.
 ### Bisakah saya menangani jenis kesalahan lain dengan penanganan pesan?
 Tentu saja! Penanganan pesan dapat disesuaikan untuk menangani berbagai jenis kesalahan, bukan hanya sumber daya yang hilang.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

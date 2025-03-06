@@ -3,10 +3,16 @@ title: Tạo hình ảnh JPG và PNG
 linktitle: Tạo hình ảnh JPG và PNG
 second_title: Aspose.HTML .NET API thao tác HTML
 description: Tìm hiểu cách tạo hình ảnh JPG và PNG bằng Aspose.HTML cho .NET với hướng dẫn của chúng tôi. Tạo đồ họa tuyệt đẹp một cách dễ dàng.
-type: docs
 weight: 28
 url: /vi/net/generate-jpg-and-png-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo hình ảnh JPG và PNG
+
  
 Aspose.HTML for .NET là một thư viện mạnh mẽ cho phép các nhà phát triển tạo hình ảnh JPG và PNG từ các tài liệu HTML một cách dễ dàng. Trong hướng dẫn này, chúng ta sẽ khám phá cách khai thác toàn bộ tiềm năng của Aspose.HTML for .NET để tạo hình ảnh chất lượng cao từ nội dung HTML của bạn.
 
@@ -41,3 +47,9 @@ Học cách sử dụng Aspose.HTML cho .NET để thao tác với các tài li�
 Tóm lại, Aspose.HTML for .NET cung cấp giải pháp mạnh mẽ và thân thiện với người dùng để tạo hình ảnh JPG và PNG từ nội dung HTML. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu, các hướng dẫn này sẽ hướng dẫn bạn trong suốt quá trình. Tạo hình ảnh hấp dẫn trực quan, nổi bật và nâng cao dự án của bạn với Aspose.HTML for .NET.
 
 Vậy thì còn chần chừ gì nữa? Hãy bắt đầu khám phá thế giới chuyển đổi HTML sang hình ảnh với Aspose.HTML cho .NET ngay hôm nay. Mở khóa những khả năng mới và làm cho các ứng dụng web và máy tính để bàn của bạn hấp dẫn và bắt mắt hơn nữa. Chúc bạn viết mã vui vẻ!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

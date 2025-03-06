@@ -3,10 +3,16 @@ title: Chỉnh sửa cây tài liệu HTML nâng cao trong Aspose.HTML cho Java
 linktitle: Chỉnh sửa cây tài liệu HTML nâng cao trong Aspose.HTML cho Java
 second_title: Xử lý HTML Java với Aspose.HTML
 description: Khám phá cách chỉnh sửa tài liệu HTML bằng Aspose.HTML cho Java với hướng dẫn từng bước này, bao gồm tạo kiểu, đoạn văn và chuyển đổi sang PDF.
-type: docs
 weight: 11
 url: /vi/java/editing-html-documents/advanced-html-document-tree-editing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chỉnh sửa cây tài liệu HTML nâng cao trong Aspose.HTML cho Java
+
 ## Giới thiệu
 
 Trong bối cảnh kỹ thuật số ngày nay, khả năng thao tác các tài liệu HTML theo chương trình là rất quan trọng đối với cả nhà phát triển và nhà thiết kế. Bạn đã bao giờ muốn chỉnh sửa tài liệu HTML một cách liền mạch bằng Java chưa? Vâng, hãy chuẩn bị tinh thần vì Aspose.HTML for Java sẽ giúp bạn đơn giản hóa điều đó! Thư viện mạnh mẽ này không chỉ cho phép bạn xử lý HTML mà còn cung cấp cho bạn các công cụ để chuyển đổi các tài liệu đó thành các định dạng khác nhau như PDF. Trong hướng dẫn này, chúng ta sẽ đi sâu vào các kỹ thuật chỉnh sửa cây nâng cao bằng Aspose.HTML for Java.
@@ -138,3 +144,9 @@ Aspose.HTML cung cấp bản dùng thử miễn phí để đánh giá, nhưng �
  Bạn có thể tìm thấy sự hỗ trợ trên[Diễn đàn Aspose](https://forum.aspose.com/c/html/29).
 ### Làm thế nào để tôi có được giấy phép tạm thời cho Aspose.HTML?
  Bạn có thể xin giấy phép tạm thời từ[Trang mua hàng Aspose](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

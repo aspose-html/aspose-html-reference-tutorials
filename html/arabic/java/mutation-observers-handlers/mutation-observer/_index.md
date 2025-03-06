@@ -3,10 +3,16 @@ title: مراقب الطفرات المتقدم مع Aspose.HTML لـ Java
 linktitle: مراقب الطفرات المتقدم مع Aspose.HTML لـ Java
 second_title: معالجة HTML باستخدام Java مع Aspose.HTML
 description: تعرف على كيفية تنفيذ مراقب الطفرات المتقدم باستخدام Aspose.HTML لـ Java، وتتبع تغييرات DOM بسلاسة. انغمس في دليلنا خطوة بخطوة.
-type: docs
 weight: 10
 url: /ar/java/mutation-observers-handlers/mutation-observer/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# مراقب الطفرات المتقدم مع Aspose.HTML لـ Java
+
 ## مقدمة
 هل تبحث عن تعميق فهمك لمعالجة DOM وتتبع التغييرات في Java باستخدام Aspose.HTML؟ حسنًا، أنت في المكان المناسب! في هذا البرنامج التعليمي، سنتعمق في كيفية الاستفادة من واجهة برمجة التطبيقات القوية Mutation Observer التي يوفرها Aspose.HTML لـ Java. تتيح لنا هذه الميزة الرائعة الاستماع إلى التغييرات في DOM، مما يجعلها أداة رائعة لتطبيقات الويب الديناميكية. لذا، فلنبدأ!
 ## المتطلبات الأساسية
@@ -108,3 +114,9 @@ System.in.read();
 تم تصميم مراقبي الطفرات ليكونوا فعالين. ومع ذلك، فإن الملاحظات المفرطة أو غير الضرورية قد تؤثر على الأداء، لذا من الضروري تكوينها بحكمة.
 ### أين يمكنني العثور على المزيد من الموارد حول Aspose.HTML؟
  يمكنك التحقق من[توثيق Aspose](https://reference.aspose.com/html/java/) لمزيد من المعلومات والدروس التعليمية.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

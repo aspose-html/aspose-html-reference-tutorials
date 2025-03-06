@@ -3,10 +3,16 @@ title: 변환 - HTML에서 다른 형식으로의 튜토리얼
 linktitle: 변환 - HTML에서 다른 형식으로
 second_title: Aspose.HTML을 사용한 Java HTML 처리
 description: Aspose.HTML을 사용하여 Java에서 HTML을 PDF, MHTML, XPS, Markdown, SVG 등으로 변환하는 방법을 알아보세요. 고품질 문서 변환이 쉬워졌습니다.
-type: docs
 weight: 25
 url: /ko/java/conversion-html-to-other-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 변환 - HTML에서 다른 형식으로의 튜토리얼
+
 
 디지털 세계에서 HTML 콘텐츠를 다양한 형식으로 변환하는 능력은 매우 귀중한 기술입니다. 웹 개발자, 콘텐츠 제작자 또는 HTML 데이터를 조작하려는 사람이라면 HTML을 다른 형식으로 변환하는 방법을 아는 것이 역량을 크게 향상시킬 수 있습니다. 이 문서에서는 Aspose.HTML for Java를 사용하여 HTML을 다른 형식으로 변환하는 방법에 대한 자습서를 살펴보겠습니다.
 
@@ -55,3 +61,9 @@ Aspose.HTML을 사용하여 Java에서 SVG를 이미지로 변환하는 방법�
 Aspose.HTML을 사용하여 Java에서 SVG를 PDF로 변환합니다. 고품질 문서 변환을 위한 완벽한 솔루션입니다.
 ### [SVG를 XPS로 변환](./convert-svg-to-xps/)
 Java용 Aspose.HTML을 사용하여 SVG를 XPS로 변환하는 방법을 알아보세요. 매끄러운 변환을 위한 간단하고 단계별 가이드.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

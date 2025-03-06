@@ -3,10 +3,16 @@ title: Handling Credentials Pipeline in Aspose.HTML for Java
 linktitle: Handling Credentials Pipeline in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 description: Learn how to securely handle credentials using Aspose.HTML for Java in this step-by-step guide. Explore essential tips and best practices.
-type: docs
 weight: 10
 url: /java/message-handling-networking/credentials-pipeline/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Handling Credentials Pipeline in Aspose.HTML for Java
+
 ## Introduction
 In the increasingly digital world, maintaining the security of sensitive information is more crucial than ever. When you’re dealing with HTML content in Java and want to ensure that your interactions with web services are secure and efficient, the Aspose.HTML for Java library comes to the rescue. In this article, we’ll dive into how to handle credentials securely using Aspose.HTML for Java, creating an environment that allows for safe interaction with networks and external services.
 ## Prerequisites
@@ -74,3 +80,10 @@ For help, you can visit the [Aspose support forum](https://forum.aspose.com/c/ht
 You can acquire a temporary license for testing purposes [here](https://purchase.aspose.com/temporary-license/).
 ### Is there a free trial available for Aspose.HTML for Java?
 Yes, you can download a free trial version [here](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

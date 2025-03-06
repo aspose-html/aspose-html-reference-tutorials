@@ -3,10 +3,16 @@ title: Handling ZIP Files in Aspose.HTML for Java
 linktitle: Handling ZIP Files in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 description: Unlock the power of Aspose.HTML for Java. Explore tutorials on handling ZIP files and learn essential techniques to manage ZIP archives effectively.
-type: docs
 weight: 31
 url: /java/handling-zip-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Handling ZIP Files in Aspose.HTML for Java
+
 ## Introduction
 
 Dealing with ZIP files can seem daunting, but with Aspose.HTML for Java, it’s as easy as pie! Imagine trying to pack your entire wardrobe into just one suitcase. Similarly, ZIP files allow us to bundle various files together, keeping them organized and compact. Aspose.HTML provides robust tools to handle these compressed packages, making it easier for developers to manage and serve files efficiently.
@@ -30,3 +36,9 @@ Curious about how to implement it? [Read more](./zip-file-schema-handler/) and b
 Learn how to create a ZIP Archive Message Handler using Aspose.HTML for Java. This guide breaks down each step to help you efficiently manage and serve files from ZIP archives.
 ### [ZIP File Schema Handler in Aspose.HTML for Java](./zip-file-schema-handler/)
 Master ZIP file handling in Java with Aspose.HTML. Learn how to implement a ZIP file schema handler, serving files directly from ZIP archives with detailed, step-by-step guidance.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

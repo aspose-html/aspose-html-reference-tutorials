@@ -3,10 +3,16 @@ title: 在 Aspose.HTML for Java 中设置字符集
 linktitle: 在 Aspose.HTML for Java 中设置字符集
 second_title: 使用 Aspose.HTML 进行 Java HTML 处理
 description: 在本分步指南中了解如何在 Aspose.HTML for Java 中设置字符集并将 HTML 转换为 PDF。确保正确的文本编码和渲染。
-type: docs
 weight: 10
 url: /zh/java/configuring-environment/set-character-set/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.HTML for Java 中设置字符集
+
 ## 介绍
 如果您使用 Java 处理 HTML 文档，确保正确的字符集对于正确编码和呈现文本至关重要。在本指南中，我们将探讨如何使用 Aspose.HTML for Java 设置字符集。本综合教程将引导您完成该过程的每个步骤，让您清楚地了解如何有效地处理字符集。
 ## 先决条件
@@ -104,3 +110,9 @@ try {
 虽然 Java 确实有垃圾收集器，但最好使用`dispose`方法。
 ### 在哪里可以免费试用 Aspose.HTML for Java？  
 您可以从[Aspose 发布页面](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

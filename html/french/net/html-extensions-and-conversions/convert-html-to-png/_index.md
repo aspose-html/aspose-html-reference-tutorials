@@ -3,10 +3,16 @@ title: Convertir HTML en PNG dans .NET avec Aspose.HTML
 linktitle: Convertir HTML en PNG dans .NET
 second_title: API de manipulation HTML Aspose.HTML .NET
 description: Découvrez comment utiliser Aspose.HTML pour .NET pour manipuler et convertir des documents HTML. Guide étape par étape pour un développement .NET efficace.
-type: docs
 weight: 20
 url: /fr/net/html-extensions-and-conversions/convert-html-to-png/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Convertir HTML en PNG dans .NET avec Aspose.HTML
+
 
 ## Introduction
 
@@ -99,3 +105,9 @@ Aspose.HTML pour .NET est une bibliothèque polyvalente qui simplifie le travail
 
 ### Dans quels formats puis-je convertir du HTML à l'aide d'Aspose.HTML pour .NET ?
 Aspose.HTML pour .NET prend en charge la conversion de HTML en divers formats, notamment PDF, PNG, JPEG, BMP, etc.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

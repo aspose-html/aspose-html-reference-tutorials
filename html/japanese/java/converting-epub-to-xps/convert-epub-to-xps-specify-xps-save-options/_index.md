@@ -3,10 +3,16 @@ title: EPUB から XPS への XPS 保存オプションの指定
 linktitle: EPUB から XPS への XPS 保存オプションの指定
 second_title: Aspose.HTML を使用した Java HTML 処理
 description: このステップバイステップのチュートリアルでは、Aspose.HTML for Java を使用して、EPUB から XPS への XPS 保存オプションを指定する方法を学びます。EPUB ファイルをシームレスに変換します。
-type: docs
 weight: 12
 url: /ja/java/converting-epub-to-xps/convert-epub-to-xps-specify-xps-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# EPUB から XPS への XPS 保存オプションの指定
+
 Web 開発の世界では、EPUB ファイルを XPS 形式に変換する機能は貴重なツールです。Aspose.HTML for Java は、この変換を簡単に実行できる強力なライブラリです。この包括的なチュートリアルでは、Aspose.HTML for Java を使用して EPUB から XPS への XPS 保存オプションを指定する手順を説明します。
 
 ## 前提条件
@@ -95,3 +101,9 @@ Aspose.HTML for Java は、HTML および EPUB ファイルの操作のための
 
 ### 5. Aspose.HTML for Java のシステム要件は何ですか?
 Aspose.HTML for Java には、Java 開発キット (JDK) と互換性のあるオペレーティング システムが必要です。このチュートリアルに記載されている前提条件を満たしていることを確認してください。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

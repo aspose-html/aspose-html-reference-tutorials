@@ -3,10 +3,16 @@ title: Pokročilé použití výukových programů Aspose.HTML Java
 linktitle: Pokročilé použití Aspose.HTML Java
 second_title: Java HTML zpracování s Aspose.HTML
 description: Naučte se, jak upravit okraje HTML stránky, implementovat DOM Mutation Observer, manipulovat s HTML5 Canvas, automatizovat vyplňování HTML formulářů a další pomocí Aspose.HTML Java.
-type: docs
 weight: 20
 url: /cs/java/advanced-usage/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pokročilé použití výukových programů Aspose.HTML Java
+
 
 Ve světě webového vývoje je zvládnutí umění manipulace s HTML zásadní. Aspose.HTML for Java přináší nepřeberné množství funkcí, které vám umožní posunout vaše znalosti HTML na další úroveň. V tomto článku se ponoříme do některých pokročilých technik, které vám pomohou využít sílu Aspose.HTML pro Javu.
 
@@ -51,3 +57,9 @@ Naučte se automatizovat vyplňování a odesílání formulářů HTML pomocí 
 Naučte se, jak upravit velikost stránky PDF pomocí Aspose.HTML pro Java. Vytvářejte bez námahy vysoce kvalitní soubory PDF z HTML. Efektivně kontrolujte rozměry stránky.
 ### [Upravte velikost stránky XPS pomocí Aspose.HTML pro Java](./adjust-xps-page-size/)
 Naučte se, jak upravit velikost stránky XPS pomocí Aspose.HTML pro Java. Snadno ovládejte výstupní rozměry svých dokumentů XPS.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Een HTML-document maken in .NET met Aspose.HTML
 linktitle: Een HTML-document maken in .NET
 second_title: Aspose.HTML .NET HTML-manipulatie-API
 description: Leer hoe u HTML-documenten in .NET maakt met Aspose.HTML, vanaf nul of vanaf URL's. Een uitgebreide tutorial voor webontwikkelaars.
-type: docs
 weight: 10
 url: /nl/net/working-with-html-documents/creating-a-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Een HTML-document maken in .NET met Aspose.HTML
+
 
 Op het gebied van webontwikkeling en datamanipulatie is een krachtige tool om HTML-documenten te maken, te wijzigen en ermee te werken onmisbaar. Aspose.HTML voor .NET is zo'n tool die uw HTML-gerelateerde taken kan vereenvoudigen. In deze uitgebreide tutorial gaan we stap voor stap bekijken hoe u HTML-documenten kunt maken met Aspose.HTML voor .NET. Voordat we in de voorbeelden duiken, bespreken we eerst enkele vereisten.
 
@@ -159,3 +165,10 @@ A3: De documentatie is te vinden op[https://reference.aspose.com/html/net/](http
 
 ### V5: Kan ik Aspose.HTML voor .NET gebruiken in mijn webapplicaties?
 A5: Ja, Aspose.HTML voor .NET is compatibel met webapplicaties, waardoor het een veelzijdige keuze is voor zowel desktop- als webgebaseerde projecten.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

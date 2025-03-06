@@ -3,10 +3,16 @@ title: Tạo và quản lý tài liệu SVG trong Aspose.HTML cho Java
 linktitle: Tạo và quản lý tài liệu SVG trong Aspose.HTML cho Java
 second_title: Xử lý HTML Java với Aspose.HTML
 description: Học cách tạo và quản lý tài liệu SVG bằng Aspose.HTML cho Java! Hướng dẫn toàn diện này bao gồm mọi thứ từ việc tạo cơ bản đến thao tác nâng cao.
-type: docs
 weight: 19
 url: /vi/java/creating-managing-html-documents/create-manage-svg-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo và quản lý tài liệu SVG trong Aspose.HTML cho Java
+
 ## Giới thiệu
 Trong thế giới phát triển web hiện đại, đồ họa động và phản hồi đóng vai trò quan trọng trong việc nâng cao trải nghiệm của người dùng. Scalable Vector Graphics (SVG) đã trở thành công cụ được các nhà phát triển ưa chuộng vì tính linh hoạt và độ phân giải chất lượng cao trên nhiều thiết bị khác nhau. Với thư viện Aspose.HTML mạnh mẽ dành cho Java, các nhà phát triển có thể dễ dàng tạo và thao tác các tài liệu SVG theo chương trình. Hãy cùng tìm hiểu cách bạn có thể tận dụng Aspose.HTML để quản lý đồ họa SVG trong các ứng dụng Java của mình!
 ## Điều kiện tiên quyết
@@ -83,3 +89,9 @@ SVG là viết tắt của Scalable Vector Graphics, là hình ảnh vector dự
 Bạn có thể tạo bất kỳ hình dạng SVG nào, bao gồm hình tròn, hình chữ nhật, đa giác và đường dẫn.
 ### Tôi có thể nhận được hỗ trợ cho Aspose.HTML như thế nào?
 Bạn có thể tìm thấy sự hỗ trợ trong[Diễn đàn Aspose](https://forum.aspose.com/c/html/29).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

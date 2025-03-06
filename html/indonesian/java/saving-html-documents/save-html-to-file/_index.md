@@ -3,10 +3,16 @@ title: Simpan Dokumen HTML ke File di Aspose.HTML untuk Java
 linktitle: Simpan Dokumen HTML ke File di Aspose.HTML untuk Java
 second_title: Pemrosesan HTML Java dengan Aspose.HTML
 description: Pelajari cara menyimpan dokumen HTML ke file menggunakan Aspose.HTML untuk Java, sempurna untuk menangani beberapa sumber daya yang terhubung dengan mudah.
-type: docs
 weight: 11
 url: /id/java/saving-html-documents/save-html-to-file/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Simpan Dokumen HTML ke File di Aspose.HTML untuk Java
+
 ## Perkenalan
 Dalam tutorial ini, kita akan menjelajahi cara menyimpan dokumen HTML ke dalam sebuah berkas sambil mengelola sumber daya yang terhubung. Hal ini khususnya berguna saat Anda mengerjakan proyek yang melibatkan beberapa berkas HTML—anggap saja seperti halaman web yang merujuk ke halaman web lainnya. Di akhir panduan ini, Anda akan diperlengkapi untuk menggunakan Aspose.HTML untuk Java guna mengelola dokumen HTML Anda secara fleksibel dan efisien.
 ## Prasyarat
@@ -88,3 +94,9 @@ Ya! Aspose.HTML mendukung berbagai jenis sumber daya, termasuk gambar, gaya, dan
  Anda dapat mengunjungi forum dukungan Aspose[Di Sini](https://forum.aspose.com/c/html/29) untuk pertanyaan atau bantuan apa pun yang mungkin Anda perlukan.
 ### Dapatkah saya menggunakan Aspose.HTML untuk proyek komersial?  
 Ya, Aspose.HTML dapat digunakan dalam proyek komersial, tetapi Anda perlu membeli lisensi. Anda dapat menemukan opsi lisensi[Di Sini](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

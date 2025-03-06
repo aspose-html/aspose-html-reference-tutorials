@@ -3,10 +3,16 @@ title: Určení možností uložení XPS pro EPUB do XPS
 linktitle: Určení možností uložení XPS pro EPUB do XPS
 second_title: Java HTML zpracování s Aspose.HTML
 description: V tomto podrobném návodu se dozvíte, jak pomocí Aspose.HTML for Java určit možnosti uložení XPS pro EPUB do XPS. Bezproblémově převádějte soubory EPUB.
-type: docs
 weight: 12
 url: /cs/java/converting-epub-to-xps/convert-epub-to-xps-specify-xps-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Určení možností uložení XPS pro EPUB do XPS
+
 Ve světě webového vývoje je schopnost převádět soubory EPUB do formátu XPS cenným nástrojem. Aspose.HTML for Java je výkonná knihovna, která nabízí možnost provádět tuto konverzi snadno. V tomto komplexním tutoriálu vás provedeme procesem zadání možností uložení XPS pro EPUB do XPS pomocí Aspose.HTML pro Java.
 
 ## Předpoklady
@@ -95,3 +101,9 @@ Aspose.HTML for Java je výkonná knihovna pro práci se soubory HTML a EPUB, kt
 
 ### 5. Jaké jsou systémové požadavky pro Aspose.HTML for Java?
 Aspose.HTML for Java vyžaduje Java Development Kit (JDK) a kompatibilní operační systém. Ujistěte se, že splňujete předpoklady uvedené v tomto kurzu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

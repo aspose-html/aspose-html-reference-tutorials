@@ -3,10 +3,16 @@ title: Rendelje meg az MHTML-t XPS-ként .NET-ben az Aspose.HTML-lel
 linktitle: Az MHTML megjelenítése XPS-ként a .NET-ben
 second_title: Aspose.HTML .NET HTML manipulációs API
 description: Tanulja meg az MHTML-t XPS-ként renderelni .NET-ben az Aspose.HTML segítségével. Növelje HTML-kezelési készségeit, és lendítse fel webfejlesztési projektjeit!
-type: docs
 weight: 13
 url: /hu/net/rendering-html-documents/render-mhtml-as-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rendelje meg az MHTML-t XPS-ként .NET-ben az Aspose.HTML-lel
+
 ## Bevezetés
 
 A webfejlesztés dinamikus világában, ha a megfelelő eszközök és könyvtárak állnak az Ön rendelkezésére, az mindent megváltoztathat. Ha HTML-kezeléssel és -megjelenítéssel dolgozik .NET-ben, az Aspose.HTML for .NET egy hatékony könyvtár, amely leegyszerűsítheti a feladatokat és bővítheti képességeit. Ebben az oktatóanyagban mélyen elmerülünk az Aspose.HTML for .NET-hez, a példákat kezelhető lépésekre bontjuk, és mindegyikhez világos magyarázatot adunk.
@@ -100,3 +106,9 @@ Támogatást és segítséget kérhet az Aspose.HTML közösségtől a webhelyen
 
 ### Vásárolhatok ideiglenes licencet az Aspose.HTML for .NET számára?
  Igen, a vásárlási oldalon szerezhet be ideiglenes licencet[itt](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

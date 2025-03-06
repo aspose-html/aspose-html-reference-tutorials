@@ -3,10 +3,16 @@ title: Advanced HTML Document Tree Editing in Aspose.HTML for Java
 linktitle: Advanced HTML Document Tree Editing in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 description: Discover how to edit HTML documents using Aspose.HTML for Java with this step-by-step guide, including creating styles, paragraphs, and converting to PDF.
-type: docs
 weight: 11
 url: /java/editing-html-documents/advanced-html-document-tree-editing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Advanced HTML Document Tree Editing in Aspose.HTML for Java
+
 ## Introduction
 
 In today’s digital landscape, the ability to manipulate HTML documents programmatically is crucial for developers and designers alike. Ever wanted to seamlessly edit HTML documents using Java? Well, hold onto your hats because Aspose.HTML for Java is here to simplify that! This powerful library not only lets you handle HTML but also gives you the tools to convert those documents into different formats like PDF. In this guide, we'll dive into advanced tree editing techniques using Aspose.HTML for Java.
@@ -138,3 +144,10 @@ Aspose.HTML offers a free trial for evaluation, but for extended use, a license 
 You can find support on the [Aspose forum](https://forum.aspose.com/c/html/29).
 ### How do I get a temporary license for Aspose.HTML?
 You can obtain a temporary license from the [Aspose purchase page](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

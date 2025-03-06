@@ -3,10 +3,16 @@ title: معالج رسائل أرشيف ZIP في Aspose.HTML لـ Java
 linktitle: معالج رسائل أرشيف ZIP في Aspose.HTML لـ Java
 second_title: معالجة HTML باستخدام Java مع Aspose.HTML
 description: تعرف على كيفية إنشاء معالج رسائل أرشيف ZIP باستخدام Aspose.HTML لـ Java. يوضح هذا الدليل كل خطوة لمساعدتك على إدارة الملفات من أرشيفات ZIP وتقديمها بكفاءة.
-type: docs
 weight: 10
 url: /ar/java/handling-zip-files/zip-archive-message-handler/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# معالج رسائل أرشيف ZIP في Aspose.HTML لـ Java
+
 ## مقدمة
 يمكن أن يكون العمل مع أرشيفات ZIP جزءًا أساسيًا من إدارة البيانات بتنسيقات مختلفة، وخاصةً عندما يتعلق الأمر بالتعامل مع موارد الويب بكفاءة. في هذا الدليل، سنرشدك خلال إنشاء معالج رسائل أرشيف ZIP باستخدام Aspose.HTML لـ Java. سيسمح لك هذا المعالج بقراءة الملفات مباشرة من أرشيفات ZIP وتقديمها كردود على طلبات الشبكة. إنها طريقة فعالة لتبسيط إدارة الملفات، وخاصةً عند التعامل مع مجموعات كبيرة من البيانات المضغوطة في أرشيف واحد.
 ## المتطلبات الأساسية
@@ -110,3 +116,10 @@ invoke(context);
  في حين أنه قد لا يكون ضروريًا في كل حالة، فإن التنفيذ`dispose` من الجيد أن نضمن تحرير أي موارد يستخدمها المعالج بشكل صحيح.
 ### هل يمكن استخدام هذا المعالج في خادم الويب؟  
 بالتأكيد! تم تصميم هذا المعالج لاستخدامه في تطبيقات الويب حيث تحتاج إلى تقديم ملفات من أرشيفات ZIP استجابة لطلبات HTTP.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

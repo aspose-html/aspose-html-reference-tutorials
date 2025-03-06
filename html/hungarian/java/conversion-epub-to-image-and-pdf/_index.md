@@ -3,10 +3,16 @@ title: Konvertálás – EPUB képpé és PDF-be
 linktitle: Konvertálás – EPUB képpé és PDF-be
 second_title: Java HTML feldolgozás Aspose.HTML-lel
 description: Az Aspose.HTML for Java segítségével hatékonyan konvertálja az EPUB-fájlt képekké. Ez a lépésenkénti útmutató leegyszerűsíti a folyamatot. Tanuld meg az EPUB-ból PDF-be konvertálást is.
-type: docs
 weight: 22
 url: /hu/java/conversion-epub-to-image-and-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konvertálás – EPUB képpé és PDF-be
+
 EPUB-fájljait képekké vagy PDF-fájlokká szeretné konvertálni? Jó helyen jársz! Ebben az átfogó oktatóanyagban bemutatjuk, hogyan konvertálhat könnyedén EPUB-t képekké az Aspose.HTML for Java segítségével, és hogyan lehet az EPUB-ból PDF-be konvertálni ugyanezt az eszközt. 
 
 ## EPUB konvertálása képekké az Aspose.HTML for Java segítségével
@@ -35,3 +41,9 @@ Miután elsajátította az EPUB-ból képeket, itt az ideje, hogy felfedezze az 
 Ismerje meg, hogyan konvertálhat EPUB-t képpé az Aspose.HTML for Java használatával. Egyszerű, lépésenkénti útmutató a hatékony konverziókhoz.
 ### [EPUB konvertálás PDF-be az Aspose.HTML for Java segítségével](./convert-epub-to-pdf/)
 Ismerje meg, hogyan konvertálhat EPUB-t PDF-be az Aspose.HTML for Java segítségével. Ez a lépésenkénti útmutató az előfeltételeket, a csomagimportálást és a kódpéldákat tartalmazza. Kezdje el az EPUB–PDF konvertálást.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

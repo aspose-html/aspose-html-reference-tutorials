@@ -3,10 +3,16 @@ title: Aspose.HTML を使用して .NET で MHTML を XPS としてレンダリ�
 linktitle: .NET で MHTML を XPS としてレンダリングする
 second_title: Aspose.HTML .NET HTML 操作 API
 description: Aspose.HTML を使用して、.NET で MHTML を XPS としてレンダリングする方法を学びます。HTML 操作スキルを強化し、Web 開発プロジェクトを強化しましょう。
-type: docs
 weight: 13
 url: /ja/net/rendering-html-documents/render-mhtml-as-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.HTML を使用して .NET で MHTML を XPS としてレンダリングする
+
 ## 導入
 
 動的な Web 開発の世界では、適切なツールとライブラリを自由に使えるかどうかが大きな違いを生みます。.NET で HTML の操作とレンダリングを行う場合、Aspose.HTML for .NET は、タスクを簡素化し、機能を強化できる強力なライブラリです。このチュートリアルでは、Aspose.HTML for .NET について詳しく説明し、例を扱いやすい手順に分解して、各手順について明確な説明を提供します。
@@ -100,3 +106,9 @@ Aspose.HTMLコミュニティからサポートや支援を受けることがで
 
 ### Aspose.HTML for .NET の一時ライセンスを購入できますか?
 はい、購入ページから一時ライセンスを取得できます。[ここ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

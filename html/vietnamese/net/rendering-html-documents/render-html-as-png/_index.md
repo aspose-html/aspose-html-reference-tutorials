@@ -3,10 +3,16 @@ title: Kết xuất HTML dưới dạng PNG trong .NET với Aspose.HTML
 linktitle: Hiển thị HTML dưới dạng PNG trong .NET
 second_title: Aspose.HTML .NET API thao tác HTML
 description: Học cách làm việc với Aspose.HTML cho .NET. Thao tác HTML, chuyển đổi sang nhiều định dạng khác nhau và hơn thế nữa. Khám phá hướng dẫn toàn diện này!
-type: docs
 weight: 10
 url: /vi/net/rendering-html-documents/render-html-as-png/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kết xuất HTML dưới dạng PNG trong .NET với Aspose.HTML
+
 
 Trong hướng dẫn này, chúng ta sẽ đi sâu vào thế giới của Aspose.HTML cho .NET, một công cụ mạnh mẽ để làm việc với các tài liệu HTML theo chương trình. Cho dù bạn là một nhà phát triển dày dạn kinh nghiệm hay chỉ mới bắt đầu hành trình của mình trong thế giới lập trình .NET, hướng dẫn này sẽ hướng dẫn bạn qua các yếu tố cần thiết của Aspose.HTML, từ việc nhập không gian tên đến việc phân tích các ví dụ thực tế.
 
@@ -94,3 +100,9 @@ Nếu bạn có bất kỳ câu hỏi nào hoặc cần trợ giúp về Aspose.
 
 ### Tôi có thể tìm thêm hướng dẫn và tài liệu ở đâu?
    Bạn có thể khám phá tài liệu và hướng dẫn toàn diện về[Trang tài liệu Aspose.HTML cho .NET](https://reference.aspose.com/html/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

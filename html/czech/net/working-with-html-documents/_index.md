@@ -3,10 +3,16 @@ title: Práce s HTML dokumenty
 linktitle: Práce s HTML dokumenty
 second_title: Aspose.HTML .NET API pro manipulaci s HTML
 description: Objevte svět vytváření a manipulace s HTML dokumenty v .NET s Aspose.HTML. Od vytváření jednoduchých dokumentů až po hloubkové úpravy.
-type: docs
 weight: 23
 url: /cs/net/working-with-html-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Práce s HTML dokumenty
+
 
 Jste webový vývojář a chcete se ponořit do oblasti tvorby a manipulace s HTML dokumenty pomocí .NET? Už nehledejte! V této komplexní sérii výukových programů prozkoumáme sílu Aspose.HTML a jak může zjednodušit vaše úkoly. Ať už jste začátečník nebo zkušený vývojář, najdete zde cenné postřehy a praktické tipy, jak zlepšit své dovednosti.
 
@@ -29,3 +35,9 @@ Jakmile pochopíte základy, ponoříme se hlouběji do procesu tvorby. V této 
 ### [Úprava dokumentu v .NET pomocí Aspose.HTML](./editing-a-document/)
 
 Nyní posuňte vaše dovednosti na další úroveň. Úpravy HTML dokumentů jsou běžným úkolem webových vývojářů a Aspose.HTML tento proces výrazně zjednodušuje. V této části se budeme zabývat tvorbou dokumentu, manipulací s ním a stylováním. Zjistíte, jak vylepšit vzhled a funkčnost vašeho webového obsahu, aby byl poutavý a uživatelsky přívětivý.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

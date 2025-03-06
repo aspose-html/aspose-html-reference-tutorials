@@ -3,10 +3,16 @@ title: Converting Between EPUB and Image Formats Tutorials
 linktitle: Converting Between EPUB and Image Formats
 second_title: Java HTML Processing with Aspose.HTML
 description: Effortlessly convert EPUB files to multiple image formats using Aspose.HTML for Java. Step-by-step guide for seamless conversions.
-type: docs
 weight: 26
 url: /java/converting-between-epub-and-image-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Converting Between EPUB and Image Formats Tutorials
+
 
 Are you looking for a hassle-free way to convert EPUB files to various image formats? You're in the right place. In this comprehensive guide, we will walk you through the process step by step, using Aspose.HTML for Java. Whether you want to convert EPUB to BMP, GIF, JPG, PNG, TIFF, or need guidance on specifying custom stream providers or image save options, we've got you covered.
 
@@ -52,3 +58,9 @@ Learn how to convert EPUB to images with Aspose.HTML for Java. Step-by-step guid
 Learn how to convert EPUB files to images using Aspose.HTML for Java. This step-by-step guide covers prerequisites, package imports, and the conversion process.
 ### [Converting EPUB to Image with a Single Line of Code](./convert-epub-to-image-single-line/)
 Learn how to convert EPUB to images with Aspose.HTML for Java. Step-by-step guide for effortless conversions.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

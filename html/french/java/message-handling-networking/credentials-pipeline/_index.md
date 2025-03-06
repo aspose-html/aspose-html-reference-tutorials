@@ -3,10 +3,16 @@ title: Gestion du pipeline d'informations d'identification dans Aspose.HTML pour
 linktitle: Gestion du pipeline d'informations d'identification dans Aspose.HTML pour Java
 second_title: Traitement HTML Java avec Aspose.HTML
 description: Découvrez comment gérer les informations d'identification de manière sécurisée à l'aide d'Aspose.HTML pour Java dans ce guide étape par étape. Découvrez des conseils essentiels et des bonnes pratiques.
-type: docs
 weight: 10
 url: /fr/java/message-handling-networking/credentials-pipeline/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gestion du pipeline d'informations d'identification dans Aspose.HTML pour Java
+
 ## Introduction
 Dans un monde de plus en plus numérique, la sécurité des informations sensibles est plus cruciale que jamais. Lorsque vous traitez du contenu HTML en Java et que vous souhaitez vous assurer que vos interactions avec les services Web sont sécurisées et efficaces, la bibliothèque Aspose.HTML pour Java vient à la rescousse. Dans cet article, nous verrons comment gérer les informations d'identification de manière sécurisée à l'aide d'Aspose.HTML pour Java, en créant un environnement qui permet une interaction sécurisée avec les réseaux et les services externes.
 ## Prérequis
@@ -74,3 +80,9 @@ Aspose.HTML pour Java est une bibliothèque puissante conçue pour manipuler des
  Vous pouvez acquérir une licence temporaire à des fins de test[ici](https://purchase.aspose.com/temporary-license/).
 ### Existe-t-il un essai gratuit disponible pour Aspose.HTML pour Java ?
  Oui, vous pouvez télécharger une version d'essai gratuite[ici](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

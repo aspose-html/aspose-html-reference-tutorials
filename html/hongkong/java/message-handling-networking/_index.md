@@ -3,10 +3,16 @@ title: Aspose.HTML for Java 中的訊息處理與網絡
 linktitle: Aspose.HTML for Java 中的訊息處理與網絡
 second_title: 使用 Aspose.HTML 進行 Java HTML 處理
 description: 透過有關訊息處理、網路等的教程掌握 Aspose.HTML for Java。提升您的文件處理技能。
-type: docs
 weight: 25
 url: /zh-hant/java/message-handling-networking/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.HTML for Java 中的訊息處理與網絡
+
 ## 介紹
 
 Aspose.HTML for Java 是用於管理和操作 HTML 文件的強大工具包，但它不僅僅是處理文件。其核心優勢之一在於有效管理訊息和網路功能。本文重點介紹了一些基本教程，可以幫助您熟練地在專案中使用該程式庫。
@@ -44,3 +50,9 @@ Aspose.HTML for Java 是用於管理和操作 HTML 文件的強大工具包，�
 透過此逐步指南，了解如何使用 Aspose.HTML for Java 將 ZIP 檔案轉換為 JPG 映像。
 ### [使用 Aspose.HTML for Java 將 ZIP 轉換為 PDF](./zip-to-pdf/)
 透過此逐步指南，使用 Aspose.HTML for Java 輕鬆將 ZIP 檔案轉換為 PDF。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

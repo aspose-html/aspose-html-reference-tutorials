@@ -3,10 +3,16 @@ title: Aspose.HTML for Java で HTML フォームの入力を自動化する
 linktitle: HTML フォーム エディター - フォームの入力と送信
 second_title: Aspose.HTML を使用した Java HTML 処理
 description: Aspose.HTML for Java を使用して HTML フォームの入力と送信を自動化する方法を学びます。このチュートリアルで Web 操作を簡素化します。
-type: docs
 weight: 14
 url: /ja/java/advanced-usage/html-form-editor-filling-submitting-forms/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.HTML for Java で HTML フォームの入力を自動化する
+
 今日のデジタル時代では、Web サイトにはユーザー登録、フィードバック、オンライン ショッピングなど、さまざまな目的のフォームが含まれることがよくあります。Java 開発者として、Web サイトで HTML フォームに入力して送信するプロセスを自動化する必要があるかもしれません。幸いなことに、Aspose.HTML for Java を使用すると、これをシームレスに実現できます。このチュートリアルでは、Aspose.HTML for Java を使用して、対象の Web サイトで HTML フォームに入力して送信する方法について説明します。
 
 ## 前提条件
@@ -135,3 +141,9 @@ A1: はい、Aspose.HTML for Java を使用して、プログラムによるフ�
 ### Q4: Aspose.HTML for Java のさらなるサポートと支援はどこで受けられますか?
 
  A4: 技術的なサポートについては、Asposeフォーラムをご覧ください。[ここ](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

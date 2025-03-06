@@ -3,10 +3,16 @@ title: Tải tệp nâng cao cho tài liệu HTML trong Aspose.HTML cho Java
 linktitle: Tải tệp nâng cao cho tài liệu HTML trong Aspose.HTML cho Java
 second_title: Xử lý HTML Java với Aspose.HTML
 description: Tìm hiểu cách tải, thao tác và lưu tài liệu HTML bằng Aspose.HTML cho Java trong hướng dẫn từng bước này. Mở khóa xử lý HTML nâng cao trong các dự án Java của bạn.
-type: docs
 weight: 13
 url: /vi/java/creating-managing-html-documents/advanced-file-loading-html-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tải tệp nâng cao cho tài liệu HTML trong Aspose.HTML cho Java
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình tải tài liệu HTML từ tệp bằng Aspose.HTML cho Java. Nhưng hãy đợi đã, chúng tôi sẽ không chỉ tải bất kỳ tệp HTML nào—chúng tôi sẽ tải tệp đó, xử lý tệp đó và lưu tệp đó với tên mới! Đến cuối hướng dẫn này, bạn sẽ nắm vững cách xử lý tài liệu HTML một cách dễ dàng và bạn sẽ muốn khám phá thêm các tính năng nâng cao hơn.
 ## Điều kiện tiên quyết
@@ -52,3 +58,9 @@ Có, Aspose.HTML for Java hỗ trợ chuyển đổi tài liệu HTML sang nhi�
  Bạn có thể tải xuống phiên bản mới nhất của Aspose.HTML cho Java từ[Trang phát hành Aspose](https://releases.aspose.com/html/java/). Thực hiện theo hướng dẫn cài đặt được cung cấp trong tài liệu.
 ### Tôi có thể sử dụng Aspose.HTML cho Java mà không cần giấy phép không?
  Có, nhưng phiên bản miễn phí có một số hạn chế. Để mở khóa đầy đủ các tính năng, bạn sẽ cần mua giấy phép hoặc xin giấy phép tạm thời từ[Trang web của Aspose](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

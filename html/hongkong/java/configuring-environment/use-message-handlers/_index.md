@@ -3,10 +3,16 @@ title: 在 Aspose.HTML for Java 中使用訊息處理程序
 linktitle: 在 Aspose.HTML for Java 中使用訊息處理程序
 second_title: 使用 Aspose.HTML 進行 Java HTML 處理
 description: 了解如何使用 Aspose.HTML for Java 中的訊息處理程序來有效處理遺失的映像和其他網路操作。
-type: docs
 weight: 12
 url: /zh-hant/java/configuring-environment/use-message-handlers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.HTML for Java 中使用訊息處理程序
+
 ## 介紹
 在本教程中，我們將引導您完成在 Aspose.HTML for Java 中使用訊息處理程序的實際範例。我們將準備一個引用遺失影像的簡單 HTML 文檔，並示範如何使用自訂訊息處理程序捕獲和處理錯誤。無論您是 Aspose.HTML 新手還是希望擴展您的技能，本指南都將為您提供有效管理網路運作所需的見解。
 ## 先決條件
@@ -109,3 +115,9 @@ Aspose.HTML for Java 是一個功能強大的函式庫，可讓開發人員在 J
 是的，處置這些物件可確保正確釋放所有資源，從而防止記憶體洩漏。
 ### 我可以使用訊息處理程序處理其他類型的錯誤嗎？
 絕對地！可以自訂訊息處理程序來處理各種類型的錯誤，而不僅僅是缺少資源。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

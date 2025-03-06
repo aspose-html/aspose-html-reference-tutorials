@@ -3,10 +3,16 @@ title: Преобразование - Учебники по преобразов
 linktitle: Преобразование - HTML в другие форматы
 second_title: Обработка Java HTML с помощью Aspose.HTML
 description: Узнайте, как преобразовать HTML в PDF, MHTML, XPS, Markdown, SVG и многое другое в Java с помощью Aspose.HTML. Высококачественные преобразования документов стали проще.
-type: docs
 weight: 25
 url: /ru/java/conversion-html-to-other-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Преобразование - Учебники по преобразованию HTML в другие форматы
+
 
 В цифровом мире способность конвертировать HTML-контент в различные форматы является бесценным навыком. Независимо от того, являетесь ли вы веб-разработчиком, создателем контента или просто тем, кто хочет манипулировать данными HTML, знание того, как конвертировать HTML в другие форматы, может значительно расширить ваши возможности. В этой статье мы рассмотрим руководства по конвертации HTML в различные форматы с помощью Aspose.HTML для Java.
 
@@ -55,3 +61,9 @@ XPS — идеальный формат для обмена документам
 Конвертируйте SVG в PDF в Java с помощью Aspose.HTML. Идеальное решение для высококачественного преобразования документов.
 ### [Преобразование SVG в XPS](./convert-svg-to-xps/)
 Узнайте, как преобразовать SVG в XPS с помощью Aspose.HTML для Java. Простое пошаговое руководство для бесшовных преобразований.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

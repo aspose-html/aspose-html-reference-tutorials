@@ -3,10 +3,16 @@ title: 在 Aspose.HTML for Java 中配置字体
 linktitle: 在 Aspose.HTML for Java 中配置字体
 second_title: 使用 Aspose.HTML 进行 Java HTML 处理
 description: 通过本详细、循序渐进的指南，了解如何在 Aspose.HTML for Java 中配置字体。使用自定义字体和样式增强 HTML 到 PDF 的转换。
-type: docs
 weight: 11
 url: /zh/java/configuring-environment/configure-fonts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.HTML for Java 中配置字体
+
 ## 介绍
 在 Java 中处理 HTML 文档时，正确配置字体对于创建具有视觉吸引力和可读性的内容至关重要。无论您是生成报告、创建网页还是转换文档，确保正确配置字体都会产生重大影响。本教程将引导您完成在 Aspose.HTML for Java 中配置字体的过程，从设置环境到使用自定义字体将 HTML 转换为 PDF。那么，让我们开始吧！
 
@@ -123,3 +129,9 @@ if (configuration != null) {
 是的，Aspose.HTML 支持多种 CSS 样式。您可以像在常规 Web 环境中一样应用复杂的样式。
 ### 在哪里可以找到更多示例和文档？  
 您可以在以下位置找到更详细的示例和文档[Aspose.HTML for Java 文档页面](https://reference.aspose.com/html/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

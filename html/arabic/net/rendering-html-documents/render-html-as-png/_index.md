@@ -3,10 +3,16 @@ title: عرض HTML بصيغة PNG في .NET باستخدام Aspose.HTML
 linktitle: تقديم HTML بصيغة PNG في .NET
 second_title: Aspose.HTML .NET HTML manipulation API
 description: تعلم كيفية العمل باستخدام Aspose.HTML لـ .NET. التعامل مع HTML وتحويله إلى تنسيقات مختلفة والمزيد. انغمس في هذا البرنامج التعليمي الشامل!
-type: docs
 weight: 10
 url: /ar/net/rendering-html-documents/render-html-as-png/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# عرض HTML بصيغة PNG في .NET باستخدام Aspose.HTML
+
 
 في هذا البرنامج التعليمي، سنتعمق في عالم Aspose.HTML لـ .NET، وهي أداة قوية للعمل مع مستندات HTML برمجيًا. سواء كنت مطورًا متمرسًا أو بدأت للتو رحلتك في عالم برمجة .NET، فإن هذا البرنامج التعليمي سيرشدك خلال أساسيات Aspose.HTML، من استيراد مساحات الأسماء إلى تحليل الأمثلة العملية.
 
@@ -94,3 +100,9 @@ using (var document = new Aspose.Html.HTMLDocument("<style>p { color: green; }</
 
 ### أين يمكنني العثور على المزيد من البرامج التعليمية والوثائق؟
    يمكنك استكشاف الوثائق الشاملة والبرامج التعليمية على[صفحة توثيق Aspose.HTML لـ .NET](https://reference.aspose.com/html/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

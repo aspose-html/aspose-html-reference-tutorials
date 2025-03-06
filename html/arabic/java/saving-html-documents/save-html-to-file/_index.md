@@ -3,10 +3,16 @@ title: حفظ مستند HTML في ملف في Aspose.HTML لـ Java
 linktitle: حفظ مستند HTML في ملف في Aspose.HTML لـ Java
 second_title: معالجة HTML باستخدام Java مع Aspose.HTML
 description: تعرف على كيفية حفظ مستند HTML في ملف باستخدام Aspose.HTML لـ Java، وهو مثالي للتعامل مع الموارد المرتبطة المتعددة بسهولة.
-type: docs
 weight: 11
 url: /ar/java/saving-html-documents/save-html-to-file/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# حفظ مستند HTML في ملف في Aspose.HTML لـ Java
+
 ## مقدمة
 في هذا البرنامج التعليمي، سنستكشف كيفية حفظ مستند HTML في ملف أثناء إدارة الموارد المرتبطة. وهذا مفيد بشكل خاص عندما تعمل على مشاريع تتضمن ملفات HTML متعددة - فكر في الأمر مثل صفحة ويب تشير إلى صفحات ويب أخرى. بحلول نهاية هذا الدليل، ستكون مجهزًا لاستخدام Aspose.HTML لـ Java لإدارة مستندات HTML الخاصة بك بمرونة وكفاءة.
 ## المتطلبات الأساسية
@@ -88,3 +94,9 @@ Aspose.HTML عبارة عن واجهة برمجة تطبيقات قوية تُس
  يمكنك زيارة منتدى دعم Aspose[هنا](https://forum.aspose.com/c/html/29) لأي أسئلة أو مساعدة قد تحتاجها.
 ### هل يمكنني استخدام Aspose.HTML للمشاريع التجارية؟  
 نعم، يمكن استخدام Aspose.HTML في المشاريع التجارية، ولكنك ستحتاج إلى شراء ترخيص. يمكنك العثور على خيارات الترخيص[هنا](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

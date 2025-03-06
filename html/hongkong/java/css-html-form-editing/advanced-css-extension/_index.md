@@ -3,10 +3,16 @@ title: 使用 Aspose.HTML for Java 的高階 CSS 擴充技術
 linktitle: 使用 Aspose.HTML for Java 的高階 CSS 擴充技術
 second_title: 使用 Aspose.HTML 進行 Java HTML 處理
 description: 了解如何使用 Aspose.HTML for Java 來應用進階 CSS 技術，包括自訂頁邊距和動態內容。為開發人員提供的詳細實務教學。
-type: docs
 weight: 10
 url: /zh-hant/java/css-html-form-editing/advanced-css-extension/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.HTML for Java 的高階 CSS 擴充技術
+
 ## 介紹
 您準備好將您的 CSS 技能提升到新的水平了嗎？想像一下，您可以像專業人士一樣輕鬆地將高級樣式應用到您的 HTML 文件、自訂邊距並在這些邊距中插入內容 — 所有這一切都可以使用 Java！聽起來很令人興奮，對吧？這正是我們將在本教程中探討的內容。我們將深入了解 Aspose.HTML for Java 的世界，並了解如何利用其強大的功能來增強您的 CSS 樣式。無論您是經驗豐富的開發人員還是剛剛入門，本指南都將透過清晰的解釋和實踐範例引導您完成每一步。
 在本教程中，我們將重點放在應用自訂邊距並使用 Aspose.HTML for Java 將內容新增至這些邊距。最後，您將深入了解如何使用 CSS 控制頁面佈局以及如何以所需的樣式產生具有動態內容（例如頁碼和標題）的文件。
@@ -94,3 +100,9 @@ Aspose.HTML for Java 是一個函式庫，使開發人員能夠在 Java 應用�
 絕對地！ Aspose.HTML for Java 旨在處理大規模文件處理任務，使其適合需要強大 HTML 處理能力的企業級應用程式。
 ### 我可以在購買前試用 Aspose.HTML for Java 嗎？
 是的，您可以從以下位置下載 Aspose.HTML for Java 的免費試用版：[阿斯普斯網站](https://releases.aspose.com/html/java/)。這將使您能夠探索其功能並了解它如何適合您的開發工作流程。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

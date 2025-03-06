@@ -3,10 +3,16 @@ title: عرض EPUB بتنسيق XPS في .NET باستخدام Aspose.HTML
 linktitle: عرض EPUB بتنسيق XPS في .NET
 second_title: Aspose.HTML .NET HTML manipulation API
 description: تعرف على كيفية إنشاء مستندات HTML وعرضها باستخدام Aspose.HTML لـ .NET في هذا البرنامج التعليمي الشامل. انغمس في عالم معالجة HTML وكشط الويب والمزيد.
-type: docs
 weight: 11
 url: /ar/net/rendering-html-documents/render-epub-as-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# عرض EPUB بتنسيق XPS في .NET باستخدام Aspose.HTML
+
 
 ## مقدمة
 
@@ -99,3 +105,10 @@ using (var renderer = new EpubRenderer())
 
  نعم، يمكنك استخدام Aspose.HTML لـ .NET في المشاريع التجارية عن طريق شراء ترخيص من[هنا](https://purchase.aspose.com/buy).
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

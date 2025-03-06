@@ -3,10 +3,16 @@ title: Chuyển đổi HTML sang JPEG trong .NET với Aspose.HTML
 linktitle: Chuyển đổi HTML sang JPEG trong .NET
 second_title: Aspose.HTML .NET API thao tác HTML
 description: Tìm hiểu cách chuyển đổi HTML sang JPEG trong .NET với Aspose.HTML cho .NET. Hướng dẫn từng bước để khai thác sức mạnh của Aspose.HTML cho .NET.
-type: docs
 weight: 17
 url: /vi/net/html-extensions-and-conversions/convert-html-to-jpeg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chuyển đổi HTML sang JPEG trong .NET với Aspose.HTML
+
 
 Trong thế giới phát triển web, Aspose.HTML for .NET là một công cụ mạnh mẽ và đa năng cho phép các nhà phát triển thao tác các tài liệu HTML một cách dễ dàng. Hướng dẫn toàn diện này sẽ hướng dẫn bạn qua quy trình nhập không gian tên và chia nhỏ các ví dụ thành nhiều bước bằng cách sử dụng Aspose.HTML for .NET. Cho dù bạn là một nhà phát triển dày dạn kinh nghiệm hay một người mới bắt đầu, hướng dẫn này sẽ giúp bạn khai thác tiềm năng của thư viện này.
 
@@ -129,3 +135,9 @@ Aspose.HTML for .NET là một công cụ hữu ích cho các nhà phát triển
 
 ### Aspose.HTML cho .NET có phù hợp để thu thập dữ liệu web không?
    Trong khi Aspose.HTML cho .NET chủ yếu dùng để xử lý tài liệu, nó có thể được sử dụng để thu thập dữ liệu web bằng cách trích xuất dữ liệu từ các tài liệu HTML.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

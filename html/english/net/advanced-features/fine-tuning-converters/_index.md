@@ -3,10 +3,16 @@ title: Fine-Tuning Converters in .NET with Aspose.HTML
 linktitle: Fine-Tuning Converters in .NET
 second_title: Aspose.HTML .NET HTML manipulation API
 description: Learn how to convert HTML to PDF, XPS, and images with Aspose.HTML for .NET. Step-by-step tutorial with code examples and FAQs.
-type: docs
 weight: 16
 url: /net/advanced-features/fine-tuning-converters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Fine-Tuning Converters in .NET with Aspose.HTML
+
 
 ## Introduction
 
@@ -534,3 +540,10 @@ A4: You can specify PDF permissions and encryption settings when rendering HTML 
 ### Q5. Can I convert HTML to other formats like XPS or images?
 
 A5: Yes, Aspose.HTML for .NET supports converting HTML to various formats, including PDF, XPS, and images (e.g., JPEG). You can customize the conversion settings to meet your specific requirements.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Пользовательский обработчик сообщений 
 linktitle: Пользовательский обработчик сообщений схемы с Aspose.HTML для Java
 second_title: Обработка Java HTML с помощью Aspose.HTML
 description: Научитесь создавать обработчик сообщений пользовательской схемы с помощью Aspose.HTML для Java. Это руководство проведет вас пошагово через весь процесс.
-type: docs
 weight: 11
 url: /ru/java/custom-schema-message-handling/custom-schema-message-handler/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Пользовательский обработчик сообщений схемы с Aspose.HTML для Java
+
 ## Введение
 Добро пожаловать, коллеги-разработчики! Если вы хотите улучшить свои приложения Java с помощью надежных возможностей обработки HTML, вы попали по адресу. Сегодня мы подробно рассмотрим, как создать обработчик сообщений пользовательской схемы с помощью Aspose.HTML для Java. Представьте, что вы шеф-повар, готовящий особое блюдо; этот обработчик — как ваш секретный соус, который превращает стандартный рецепт в изысканное блюдо. Он позволяет вам легко управлять и фильтровать сообщения HTML на основе ваших собственных спецификаций схемы.
 ## Предпосылки
@@ -92,3 +98,9 @@ Aspose.HTML для Java используется для обработки и п
  Да, вы можете приобрести постоянную лицензию на Aspose.HTML.[здесь](https://purchase.aspose.com/buy).
 ### Где я могу найти поддержку Aspose.HTML?
  Вы можете получить поддержку, посетив форум Aspose для HTML.[здесь](https://forum.aspose.com/c/html/29).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

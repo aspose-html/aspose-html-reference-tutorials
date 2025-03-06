@@ -3,10 +3,16 @@ title: Java için Aspose.HTML'de ZIP Arşiv Mesaj İşleyicisi
 linktitle: Java için Aspose.HTML'de ZIP Arşiv Mesaj İşleyicisi
 second_title: Aspose.HTML ile Java HTML İşleme
 description: Java için Aspose.HTML kullanarak bir ZIP Arşiv Mesaj İşleyicisi oluşturmayı öğrenin. Bu kılavuz, ZIP arşivlerinden dosyaları verimli bir şekilde yönetmenize ve sunmanıza yardımcı olmak için her adımı parçalara ayırır.
-type: docs
 weight: 10
 url: /tr/java/handling-zip-files/zip-archive-message-handler/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java için Aspose.HTML'de ZIP Arşiv Mesaj İşleyicisi
+
 ## giriiş
 ZIP arşivleriyle çalışmak, özellikle web kaynaklarını verimli bir şekilde yönetmeye gelince, çeşitli biçimlerdeki verileri yönetmenin önemli bir parçası olabilir. Bu kılavuzda, Java için Aspose.HTML kullanarak bir ZIP Arşiv Mesaj İşleyicisi oluşturma konusunda size yol göstereceğiz. Bu işleyici, dosyaları doğrudan ZIP arşivlerinden okumanıza ve bunları ağ isteklerine yanıt olarak sunmanıza olanak tanır. Özellikle tek bir arşive sıkıştırılmış büyük veri kümeleriyle uğraşırken, dosya yönetimini kolaylaştırmanın güçlü bir yoludur.
 ## Ön koşullar
@@ -110,3 +116,10 @@ Dosya bulunamazsa, işleyici kaynağın bulunamadığını belirten bir 404 yan�
  Her durumda gerekli olmasa da, uygulanması`dispose` İşleyicinin kullandığı tüm kaynakların uygun şekilde serbest bırakılmasını sağlamak iyi bir uygulamadır.
 ### Bu işleyici bir web sunucusunda kullanılabilir mi?  
 Kesinlikle! Bu işleyici, HTTP isteklerine yanıt olarak ZIP arşivlerinden dosyalar sunmanız gereken web uygulamalarında kullanılmak üzere tasarlanmıştır.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

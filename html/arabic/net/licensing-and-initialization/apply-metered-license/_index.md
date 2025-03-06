@@ -3,10 +3,16 @@ title: تطبيق ترخيص Metered في .NET باستخدام Aspose.HTML
 linktitle: تطبيق الترخيص المقنن في .NET
 second_title: Aspose.HTML .NET HTML manipulation API
 description: تعرف على كيفية تطبيق ترخيص مقنن في Aspose.HTML لـ .NET. قم بإدارة احتياجاتك الخاصة بمعالجة HTML بكفاءة. ابدأ الآن!
-type: docs
 weight: 10
 url: /ar/net/licensing-and-initialization/apply-metered-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تطبيق ترخيص Metered في .NET باستخدام Aspose.HTML
+
 في هذا البرنامج التعليمي، سنرشدك خلال عملية تطبيق ترخيص مقنن في تطبيق .NET الخاص بك باستخدام Aspose.HTML. الترخيص المقنن هو طريقة ملائمة لإدارة الترخيص لاحتياجات معالجة HTML الخاصة بك. باتباع الخطوات أدناه، ستتمكن من تطبيق ترخيص مقنن على مشروع Aspose.HTML الخاص بك لـ .NET.
 
 ## المتطلبات الأساسية
@@ -88,3 +94,9 @@ using Aspose.Html;
 
 ### أين يمكنني الحصول على الدعم أو طرح الأسئلة حول Aspose.HTML لـ .NET؟
  يمكنك الانضمام إلى المجتمع وطلب الدعم على[منتديات اسبوس](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

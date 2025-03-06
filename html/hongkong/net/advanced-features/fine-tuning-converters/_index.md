@@ -3,10 +3,16 @@ title: 使用 Aspose.HTML 微調 .NET 中的轉換器
 linktitle: 在 .NET 中微調轉換器
 second_title: Aspose.HTML .NET HTML 操作 API
 description: 了解如何使用 Aspose.HTML for .NET 將 HTML 轉換為 PDF、XPS 和映像。包含程式碼範例和常見問題的逐步教學。
-type: docs
 weight: 16
 url: /zh-hant/net/advanced-features/fine-tuning-converters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.HTML 微調 .NET 中的轉換器
+
 
 ## 介紹
 
@@ -534,3 +540,9 @@ A4：使用 Aspose.HTML for .NET 將 HTML 渲染為 PDF 時，您可以指定 PD
 ### Q5.我可以將 HTML 轉換為其他格式（例如 XPS 或圖像）嗎？
 
 A5：是的，Aspose.HTML for .NET 支援將 HTML 轉換為各種格式，包括 PDF、XPS 和映像（例如 JPEG）。您可以自訂轉換設定以滿足您的特定要求。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

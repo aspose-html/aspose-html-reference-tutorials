@@ -3,10 +3,16 @@ title: Configurer les polices dans Aspose.HTML pour Java
 linktitle: Configurer les polices dans Aspose.HTML pour Java
 second_title: Traitement HTML Java avec Aspose.HTML
 description: Découvrez comment configurer les polices dans Aspose.HTML pour Java avec ce guide détaillé, étape par étape. Améliorez vos conversions HTML en PDF avec des polices et des styles personnalisés.
-type: docs
 weight: 11
 url: /fr/java/configuring-environment/configure-fonts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Configurer les polices dans Aspose.HTML pour Java
+
 ## Introduction
 Lorsque vous travaillez avec des documents HTML en Java, il est essentiel de configurer correctement les polices pour créer un contenu visuellement attrayant et lisible. Que vous génériez des rapports, créiez des pages Web ou convertissiez des documents, vous assurer que vos polices sont correctement configurées peut faire une différence significative. Ce didacticiel vous guidera tout au long du processus de configuration des polices dans Aspose.HTML pour Java, de la configuration de votre environnement à la conversion de HTML en PDF avec des polices personnalisées. Alors, allons-y !
 
@@ -123,3 +129,9 @@ La configuration des polices dans Aspose.HTML pour Java est un processus simple 
 Oui, Aspose.HTML prend en charge une large gamme de styles CSS. Vous pouvez appliquer des styles complexes comme vous le feriez dans un environnement Web classique.
 ### Où puis-je trouver plus d’exemples et de documentation ?  
  Vous pouvez trouver des exemples et de la documentation plus détaillés sur le[Page de documentation d'Aspose.HTML pour Java](https://reference.aspose.com/html/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

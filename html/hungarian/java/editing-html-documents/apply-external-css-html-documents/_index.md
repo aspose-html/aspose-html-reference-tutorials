@@ -3,10 +3,16 @@ title: Alkalmazzon külső CSS-t a HTML-dokumentumokra az Aspose.HTML for Java-b
 linktitle: Alkalmazzon külső CSS-t a HTML-dokumentumokra az Aspose.HTML for Java-ban
 second_title: Java HTML feldolgozás Aspose.HTML-lel
 description: Fedezze fel, hogyan alkalmazhat külső CSS-t HTML-dokumentumokra az Aspose.HTML for Java használatával! Kövesse ezt a lépésről lépésre szóló útmutatót a teljes oktatóanyaghoz.
-type: docs
 weight: 12
 url: /hu/java/editing-html-documents/apply-external-css-html-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Alkalmazzon külső CSS-t a HTML-dokumentumokra az Aspose.HTML for Java-ban
+
 ## Bevezetés
 Amikor HTML-dokumentumokkal dolgozik, a stílusok alkalmazása jelentősen megváltoztathatja a megjelenítést és a felhasználói élményt. Ha belemerül a Java-ba, és szeretné megtanulni, hogyan alkalmazhat külső CSS-stílusokat HTML-dokumentumaira az Aspose.HTML könyvtár segítségével, akkor jó helyen jár! Ennek az útmutatónak a célja, hogy lépésről lépésre megvilágítsa a folyamatot, megkönnyítve ezzel még azok számára is, akik még nem ismerik a Java-t vagy a CSS-t.
 ## Előfeltételek
@@ -101,3 +107,9 @@ Nem, miután letöltötte a szükséges könyvtárfájlokat, offline is használ
 Igen! A belső CSS-t egy HTML-dokumentumban határozzák meg, míg a külső CSS-t egy külön fájlba helyezik, és a dokumentumhoz kapcsolják.
 ### Hogyan kaphatok támogatást az Aspose.HTML for Java számára?
  A közösségi támogatást a következőn keresztül érheti el[Aspose fórum](https://forum.aspose.com/c/html/29) bármilyen kérdéssel vagy problémával kapcsolatban.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

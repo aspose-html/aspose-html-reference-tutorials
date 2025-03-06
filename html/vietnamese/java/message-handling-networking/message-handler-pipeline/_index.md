@@ -3,10 +3,16 @@ title: Tạo đường ống xử lý tin nhắn trong Aspose.HTML cho Java
 linktitle: Tạo đường ống xử lý tin nhắn trong Aspose.HTML cho Java
 second_title: Xử lý HTML Java với Aspose.HTML
 description: Tìm hiểu cách tạo đường ống xử lý tin nhắn trong Aspose.HTML cho Java với hướng dẫn chi tiết từng bước này. Chuyển đổi ZIP sang PDF dễ dàng.
-type: docs
 weight: 13
 url: /vi/java/message-handling-networking/message-handler-pipeline/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo đường ống xử lý tin nhắn trong Aspose.HTML cho Java
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ xem xét kỹ hơn cách tạo đường ống xử lý tin nhắn bằng Aspose.HTML. Cho dù bạn là một nhà phát triển dày dạn kinh nghiệm hay một người mới học lập trình muốn nâng cao kỹ năng của mình, hướng dẫn này sẽ cung cấp cho bạn tất cả các hướng dẫn từng bước, mẹo và thủ thuật cần thiết để bắt đầu với thư viện tuyệt vời này. Hãy cùng bắt đầu nhé!
 ## Điều kiện tiên quyết
@@ -119,3 +125,9 @@ Aspose.HTML for Java là một thư viện được sử dụng để thao tác 
 Mọi thắc mắc, bạn có thể truy cập[Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/html/29).
 ### Trình xử lý tin nhắn trong Aspose.HTML là gì?
 Trình xử lý tin nhắn là các thành phần xử lý nhiều giai đoạn khác nhau trong quy trình thao tác tài liệu, như thời lượng ghi nhật ký hoặc chuyển đổi định dạng tài liệu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

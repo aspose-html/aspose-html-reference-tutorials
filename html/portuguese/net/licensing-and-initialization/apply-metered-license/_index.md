@@ -3,10 +3,16 @@ title: Aplicar licença medida em .NET com Aspose.HTML
 linktitle: Aplicar licença medida no .NET
 second_title: Aspose.HTML .NET API de manipulação de HTML
 description: Aprenda como aplicar uma licença medida no Aspose.HTML para .NET. Gerencie suas necessidades de manipulação de HTML de forma eficiente. Comece agora!
-type: docs
 weight: 10
 url: /pt/net/licensing-and-initialization/apply-metered-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aplicar licença medida em .NET com Aspose.HTML
+
 Neste tutorial, nós o guiaremos pelo processo de aplicação de uma licença medida em seu aplicativo .NET usando Aspose.HTML. Uma licença medida é uma maneira conveniente de gerenciar o licenciamento para suas necessidades de manipulação de HTML. Seguindo as etapas abaixo, você poderá aplicar uma licença medida ao seu projeto Aspose.HTML para .NET.
 
 ## Pré-requisitos
@@ -88,3 +94,9 @@ Uma licença medida permite que você pague pelo Aspose.HTML em uma base de paga
 
 ### Onde posso obter suporte ou tirar dúvidas sobre o Aspose.HTML para .NET?
  Você pode se juntar à comunidade e buscar suporte no[Fóruns Aspose](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

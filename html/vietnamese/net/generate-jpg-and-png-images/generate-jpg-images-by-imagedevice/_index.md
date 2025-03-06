@@ -3,10 +3,16 @@ title: Tạo hình ảnh JPG bằng ImageDevice trong .NET với Aspose.HTML
 linktitle: Tạo hình ảnh JPG bằng ImageDevice trong .NET
 second_title: Aspose.HTML .NET API thao tác HTML
 description: Tìm hiểu cách tạo trang web động bằng Aspose.HTML cho .NET. Hướng dẫn từng bước này bao gồm các điều kiện tiên quyết, không gian tên và kết xuất HTML thành hình ảnh.
-type: docs
 weight: 10
 url: /vi/net/generate-jpg-and-png-images/generate-jpg-images-by-imagedevice/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo hình ảnh JPG bằng ImageDevice trong .NET với Aspose.HTML
+
 
 Bạn có muốn tạo các trang web động với khả năng kiểm soát liền mạch nội dung HTML của mình trong các ứng dụng .NET không? Nếu vậy, bạn đã đến đúng nơi rồi! Trong hướng dẫn này, chúng ta sẽ tìm hiểu sâu hơn về cách sử dụng Aspose.HTML cho .NET, một thư viện mạnh mẽ giúp các nhà phát triển dễ dàng thao tác và tạo nội dung HTML. Chúng tôi sẽ đề cập đến các điều kiện tiên quyết, nhập không gian tên và hướng dẫn bạn từng bước thực hiện các ví dụ. Vậy thì, hãy bắt đầu hành trình thú vị này nhé!
 
@@ -125,3 +131,9 @@ A3: Aspose.HTML cho .NET hỗ trợ nhiều định dạng đầu ra, bao gồm 
 ### Câu hỏi 5: Tôi có thể tích hợp Aspose.HTML cho .NET vào dự án .NET Core của mình không?
 
 A5: Có, Aspose.HTML cho .NET tương thích với cả .NET Framework và .NET Core.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

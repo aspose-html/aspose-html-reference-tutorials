@@ -3,10 +3,16 @@ title: Aspose.HTML के साथ HTML पेज मार्जिन को 
 linktitle: CSS एक्सटेंशन - शीर्षक और पृष्ठ संख्या जोड़ना
 second_title: Aspose.HTML के साथ जावा HTML प्रसंस्करण
 description: Java के लिए Aspose.HTML का उपयोग करके HTML दस्तावेज़ों में पृष्ठ मार्जिन को अनुकूलित करना, पृष्ठ संख्या और शीर्षक जोड़ना सीखें।
-type: docs
 weight: 10
 url: /hi/java/advanced-usage/css-extensions-adding-title-page-number/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.HTML के साथ HTML पेज मार्जिन को अनुकूलित करें
+
 Aspose.HTML for Java, Java अनुप्रयोगों में HTML दस्तावेज़ों को संसाधित करने के लिए एक शक्तिशाली लाइब्रेरी है। इस ट्यूटोरियल में, हम यह पता लगाएंगे कि Aspose.HTML for Java का उपयोग करके कस्टम पेज मार्जिन कैसे बनाएं और अपने HTML दस्तावेज़ों में पेज नंबर और शीर्षक कैसे जोड़ें। यह चरण-दर-चरण मार्गदर्शिका प्रक्रिया को प्रबंधनीय चरणों में विभाजित करेगी ताकि आप इन सुविधाओं को अपने HTML दस्तावेज़ों में आसानी से एकीकृत कर सकें।
 
 ## आवश्यक शर्तें
@@ -119,3 +125,9 @@ A4: हां, Java के लिए Aspose.HTML का उपयोग HTML द
 ### प्रश्न 5: क्या मुझे Java के लिए Aspose.HTML का उपयोग करने के लिए लाइसेंस की आवश्यकता है?
 
  A5: हाँ, आप लाइसेंस या निःशुल्क परीक्षण प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/buy) या[यहाँ](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

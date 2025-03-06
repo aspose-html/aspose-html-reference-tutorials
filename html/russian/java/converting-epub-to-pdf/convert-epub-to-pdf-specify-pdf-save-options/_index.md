@@ -3,10 +3,16 @@ title: Указание параметров сохранения PDF для EPU
 linktitle: Указание параметров сохранения PDF для EPUB в PDF
 second_title: Обработка Java HTML с помощью Aspose.HTML
 description: Узнайте, как конвертировать EPUB в PDF на Java с помощью Aspose.HTML, мощной библиотеки для работы с HTML.
-type: docs
 weight: 12
 url: /ru/java/converting-epub-to-pdf/convert-epub-to-pdf-specify-pdf-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Указание параметров сохранения PDF для EPUB в PDF
+
 
 ## Введение
 
@@ -111,3 +117,10 @@ Aspose.HTML для Java поддерживает преобразование р
 
 ### Где я могу получить поддержку по Aspose.HTML для Java?
 Вы можете найти ответы на свои вопросы и обратиться за поддержкой на сайте[Форум Aspose.HTML](https://forum.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

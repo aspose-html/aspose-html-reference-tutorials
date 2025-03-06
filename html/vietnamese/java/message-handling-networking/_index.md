@@ -3,10 +3,16 @@ title: Xử lý tin nhắn và mạng trong Aspose.HTML cho Java
 linktitle: Xử lý tin nhắn và mạng trong Aspose.HTML cho Java
 second_title: Xử lý HTML Java với Aspose.HTML
 description: Làm chủ Aspose.HTML cho Java với các hướng dẫn về xử lý tin nhắn, mạng và nhiều hơn nữa. Nâng cao kỹ năng xử lý tài liệu của bạn.
-type: docs
 weight: 25
 url: /vi/java/message-handling-networking/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xử lý tin nhắn và mạng trong Aspose.HTML cho Java
+
 ## Giới thiệu
 
 Aspose.HTML for Java là một bộ công cụ mạnh mẽ để quản lý và thao tác các tài liệu HTML, nhưng nó không chỉ xử lý các tệp. Một trong những điểm mạnh cốt lõi của nó nằm ở khả năng quản lý hiệu quả các tin nhắn và khả năng kết nối mạng. Bài viết này nêu bật các hướng dẫn thiết yếu có thể giúp bạn thành thạo trong việc sử dụng thư viện này cho các dự án của mình.
@@ -44,3 +50,9 @@ Học cách thực hiện các yêu cầu web bằng Aspose.HTML cho Java với 
 Tìm hiểu cách chuyển đổi tệp ZIP sang ảnh JPG bằng Aspose.HTML cho Java với hướng dẫn từng bước này.
 ### [Chuyển đổi ZIP sang PDF bằng Aspose.HTML cho Java](./zip-to-pdf/)
 Dễ dàng chuyển đổi tệp ZIP sang PDF bằng Aspose.HTML cho Java với hướng dẫn từng bước này.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

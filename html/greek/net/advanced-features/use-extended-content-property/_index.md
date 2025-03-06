@@ -3,10 +3,16 @@ title: Χρησιμοποιήστε την ιδιότητα εκτεταμένο
 linktitle: Χρησιμοποιήστε την ιδιότητα εκτεταμένου περιεχομένου στο .NET
 second_title: Aspose.HTML .NET API χειρισμού HTML
 description: Μάθετε πώς να χρησιμοποιείτε το Aspose.HTML για .NET με αυτόν τον οδηγό βήμα προς βήμα. Βελτιώστε τις δεξιότητές σας σε HTML και βελτιστοποιήστε τα έργα ανάπτυξης ιστού σας.
-type: docs
 weight: 14
 url: /el/net/advanced-features/use-extended-content-property/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Χρησιμοποιήστε την ιδιότητα εκτεταμένου περιεχομένου στο .NET με το Aspose.HTML
+
 
 Στον κόσμο της ανάπτυξης Ιστού, η εργασία με HTML είναι μια θεμελιώδης δεξιότητα. Το Aspose.HTML για .NET είναι ένα ισχυρό εργαλείο που μπορεί να κάνει τις εργασίες σας που σχετίζονται με HTML ευκολότερες και πιο αποτελεσματικές. Αυτό το σεμινάριο θα σας καθοδηγήσει στα βήματα για να ξεκινήσετε με το Aspose.HTML για .NET, συμπεριλαμβανομένων των προαπαιτούμενων, της εισαγωγής χώρων ονομάτων και της ανάλυσης κάθε παραδείγματος σε βήματα που μπορείτε να ακολουθήσετε εύκολα.
 
@@ -123,3 +129,10 @@ using (XpsDevice device = new XpsDevice(dataDir + "output_out.xps"))
 ### Υπάρχουν διαθέσιμοι πρόσθετοι πόροι ή σεμινάρια για το Aspose.HTML για .NET;
     Ναι, μπορείτε να βρείτε περισσότερα σεμινάρια και τεκμηρίωση για το[Ιστότοπος Aspose.HTML](https://reference.aspose.com/html/net/).
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

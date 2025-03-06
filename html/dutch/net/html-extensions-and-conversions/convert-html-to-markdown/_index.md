@@ -3,10 +3,16 @@ title: Converteer HTML naar Markdown in .NET met Aspose.HTML
 linktitle: Converteer HTML naar Markdown in .NET
 second_title: Aspose.HTML .NET HTML-manipulatie-API
 description: Leer hoe u HTML naar Markdown converteert in .NET met Aspose.HTML voor efficiënte contentmanipulatie. Krijg stapsgewijze begeleiding voor een naadloos conversieproces.
-type: docs
 weight: 18
 url: /nl/net/html-extensions-and-conversions/convert-html-to-markdown/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Converteer HTML naar Markdown in .NET met Aspose.HTML
+
 
 ## Invoering
 
@@ -109,3 +115,10 @@ Ja, Aspose.HTML voor .NET ondersteunt verschillende uitvoerformaten, waaronder P
 ### 5. Kan ik Aspose.HTML voor .NET uitproberen voordat ik het koop?
 
  Zeker! U kunt een gratis proefversie van Aspose.HTML voor .NET downloaden van[hier](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

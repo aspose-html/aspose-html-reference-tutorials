@@ -3,10 +3,16 @@ title: HTML to MHTML Conversion with Aspose.HTML for Java
 linktitle: Converting HTML to MHTML
 second_title: Java HTML Processing with Aspose.HTML
 description: Effortlessly convert HTML to MHTML using Aspose.HTML for Java. Follow our step-by-step guide for efficient HTML-to-MHTML conversion.
-type: docs
 weight: 11
 url: /java/conversion-html-to-other-formats/convert-html-to-mhtml/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# HTML to MHTML Conversion with Aspose.HTML for Java
+
 In the world of web development, efficient handling and conversion of HTML documents are crucial. Aspose.HTML for Java is a powerful tool that simplifies the conversion of HTML to MHTML, offering a seamless experience for developers. In this tutorial, we will guide you through the process of converting HTML to MHTML using Aspose.HTML for Java. We'll break down the steps, prerequisites, and import packages, ensuring you have a smooth journey.
 
 ## Prerequisites
@@ -104,3 +110,10 @@ A4: Aspose.HTML for Java offers advanced features, resource handling, and custom
 ### Q5: How can I obtain a temporary license for Aspose.HTML for Java?
 
 A5: You can obtain a temporary license for Aspose.HTML for Java from [here](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Générer des documents XPS par XpsDevice dans .NET avec Aspose.HTML
 linktitle: Générer des documents XPS avec XpsDevice dans .NET
 second_title: API de manipulation HTML Aspose.HTML .NET
 description: Libérez le potentiel du développement Web avec Aspose.HTML pour .NET. Créez, convertissez et manipulez facilement des documents HTML.
-type: docs
 weight: 19
 url: /fr/net/html-document-manipulation/generate-xps-documents-by-xpsdevice/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Générer des documents XPS par XpsDevice dans .NET avec Aspose.HTML
+
 
 À l'ère du numérique, le développement Web efficace repose souvent sur l'intégration de divers outils et bibliothèques pour rationaliser le processus de développement. Aspose.HTML pour .NET est l'un de ces outils qui peut grandement améliorer vos projets de développement Web. Cette puissante bibliothèque vous permet de manipuler des documents HTML par programmation. Dans ce guide étape par étape, nous vous présenterons Aspose.HTML pour .NET, vous guiderons à travers les prérequis et vous montrerons comment démarrer avec la bibliothèque.
 
@@ -111,3 +117,9 @@ A2 : Oui, Aspose.HTML pour .NET est compatible avec Windows, Linux et macOS, ce
 ### Q5 : Où puis-je trouver de l’aide ou demander de l’aide avec Aspose.HTML pour .NET ?
 
  A5 : Si vous rencontrez des problèmes ou avez des questions, vous pouvez visiter le[Forums Aspose.HTML](https://forum.aspose.com/) pour le support de la communauté ou contactez l'équipe d'assistance Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

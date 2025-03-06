@@ -3,10 +3,16 @@ title: Użyj rozszerzonej właściwości zawartości w .NET z Aspose.HTML
 linktitle: Użyj rozszerzonej właściwości zawartości w .NET
 second_title: Aspose.HTML .NET API manipulacji HTML
 description: Dowiedz się, jak używać Aspose.HTML dla .NET dzięki temu przewodnikowi krok po kroku. Udoskonal swoje umiejętności HTML i usprawnij swoje projekty rozwoju sieci.
-type: docs
 weight: 14
 url: /pl/net/advanced-features/use-extended-content-property/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Użyj rozszerzonej właściwości zawartości w .NET z Aspose.HTML
+
 
 W świecie tworzenia stron internetowych praca z HTML jest podstawową umiejętnością. Aspose.HTML dla .NET to potężne narzędzie, które może ułatwić i usprawnić zadania związane z HTML. Ten samouczek przeprowadzi Cię przez kroki, aby rozpocząć pracę z Aspose.HTML dla .NET, w tym wymagania wstępne, importowanie przestrzeni nazw i rozbicie każdego przykładu na łatwe do wykonania kroki.
 
@@ -123,3 +129,10 @@ Gratulacje! Właśnie postawiłeś pierwsze kroki w świecie Aspose.HTML dla .NE
 ### Czy są dostępne jakieś dodatkowe zasoby lub samouczki dotyczące Aspose.HTML dla .NET?
     Tak, więcej samouczków i dokumentacji znajdziesz na stronie[Strona internetowa Aspose.HTML](https://reference.aspose.com/html/net/).
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: إنشاء صور PNG بواسطة ImageDevice في .NET باستخدام
 linktitle: إنشاء صور PNG بواسطة ImageDevice في .NET
 second_title: Aspose.HTML .NET HTML manipulation API
 description: تعلم كيفية استخدام Aspose.HTML لـ .NET لمعالجة مستندات HTML وتحويل HTML إلى صور والمزيد. برنامج تعليمي خطوة بخطوة مع الأسئلة الشائعة.
-type: docs
 weight: 11
 url: /ar/net/generate-jpg-and-png-images/generate-png-images-by-imagedevice/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إنشاء صور PNG بواسطة ImageDevice في .NET باستخدام Aspose.HTML
+
 
 هل أنت مستعد لتسخير قوة Aspose.HTML لـ .NET لإنشاء صفحات ويب مذهلة ومعالجة مستندات HTML؟ سيرشدك هذا البرنامج التعليمي الشامل إلى الأساسيات، من المتطلبات الأساسية إلى الأمثلة المتقدمة. سنقوم بتقسيم كل خطوة وضمان فهمك لكل جانب من جوانب هذه المكتبة متعددة الاستخدامات.
 
@@ -109,3 +115,9 @@ A1: Aspose.HTML for .NET هي مكتبة تتيح لمطوري .NET العمل �
 ### س5: كيف يمكنني شراء ترخيص لـ Aspose.HTML لـ .NET؟
 
  أ5: يمكنك شراء ترخيص من[https://purchase.aspose.com/buy](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

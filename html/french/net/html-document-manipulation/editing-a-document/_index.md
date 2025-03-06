@@ -3,10 +3,16 @@ title: Modification d'un document dans .NET avec Aspose.HTML
 linktitle: Modification d'un document dans .NET
 second_title: API de manipulation HTML Aspose.HTML .NET
 description: Créez du contenu Web captivant avec Aspose.HTML pour .NET. Apprenez à manipuler HTML, CSS et bien plus encore.
-type: docs
 weight: 15
 url: /fr/net/html-document-manipulation/editing-a-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Modification d'un document dans .NET avec Aspose.HTML
+
 
 Dans un paysage numérique en constante évolution, la création de contenu Web attrayant est essentielle pour se démarquer et engager votre public. Grâce à la puissance d'Aspose.HTML pour .NET, vous pouvez créer facilement du contenu Web fascinant. Cet article vous guidera tout au long du processus, en vous permettant d'exploiter tout le potentiel de cet outil remarquable.
 
@@ -171,3 +177,9 @@ A4 : Oui, Aspose.HTML pour .NET prend en charge divers formats de sortie, notam
 ### Q5 : Puis-je utiliser Aspose.HTML pour .NET dans des environnements non Windows ?
 
 A5 : Oui, Aspose.HTML pour .NET est multiplateforme et peut être utilisé dans des environnements non Windows.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

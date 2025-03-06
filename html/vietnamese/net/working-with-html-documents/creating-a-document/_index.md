@@ -3,10 +3,16 @@ title: Tạo một tài liệu HTML trong .NET với Aspose.HTML
 linktitle: Tạo một tài liệu HTML trong .NET
 second_title: Aspose.HTML .NET API thao tác HTML
 description: Tìm hiểu cách tạo tài liệu HTML trong .NET bằng Aspose.HTML, từ đầu hoặc từ URL. Hướng dẫn toàn diện dành cho nhà phát triển web.
-type: docs
 weight: 10
 url: /vi/net/working-with-html-documents/creating-a-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo một tài liệu HTML trong .NET với Aspose.HTML
+
 
 Trong lĩnh vực phát triển web và thao tác dữ liệu, việc có một công cụ mạnh mẽ để tạo, sửa đổi và làm việc với các tài liệu HTML là điều không thể thiếu. Aspose.HTML cho .NET là một công cụ như vậy có thể đơn giản hóa các tác vụ liên quan đến HTML của bạn. Trong hướng dẫn toàn diện này, chúng ta sẽ khám phá cách tạo tài liệu HTML bằng Aspose.HTML cho .NET từng bước. Trước khi đi sâu vào các ví dụ, chúng ta hãy xem qua một số điều kiện tiên quyết.
 
@@ -159,3 +165,10 @@ A3: Tài liệu có thể được tìm thấy tại[https://reference.aspose.co
 
 ### Câu hỏi 5: Tôi có thể sử dụng Aspose.HTML cho .NET trong ứng dụng web của mình không?
 A5: Có, Aspose.HTML cho .NET tương thích với các ứng dụng web, khiến nó trở thành lựa chọn linh hoạt cho cả các dự án trên máy tính để bàn và trên web.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

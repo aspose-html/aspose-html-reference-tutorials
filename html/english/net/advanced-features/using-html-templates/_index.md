@@ -3,10 +3,16 @@ title: Using HTML Templates in .NET with Aspose.HTML
 linktitle: Using HTML Templates in .NET
 second_title: Aspose.HTML .NET HTML manipulation API
 description: Learn how to use Aspose.HTML for .NET to dynamically generate HTML documents from JSON data. Harness the power of HTML manipulation in your .NET applications.
-type: docs
 weight: 17
 url: /net/advanced-features/using-html-templates/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Using HTML Templates in .NET with Aspose.HTML
+
 
 If you're looking to work with HTML documents and templates in your .NET applications, you're in the right place! Aspose.HTML for .NET is a versatile library that empowers developers to manipulate HTML documents and templates effortlessly. In this tutorial, we'll delve into the essentials of using Aspose.HTML for .NET, breaking down each step and providing a clear explanation along the way.
 
@@ -138,3 +144,10 @@ A4: Yes, you can try Aspose.HTML for .NET by downloading the free trial version 
 ### Q5. Do I need a temporary license for Aspose.HTML for .NET?
 
 A5: If you require a temporary license for evaluation purposes, you can obtain one from [here](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

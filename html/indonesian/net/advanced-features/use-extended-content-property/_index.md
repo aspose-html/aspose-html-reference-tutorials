@@ -3,10 +3,16 @@ title: Gunakan Properti Konten yang Diperluas di .NET dengan Aspose.HTML
 linktitle: Gunakan Properti Konten Diperluas di .NET
 second_title: Aspose.HTML .NET API manipulasi HTML
 description: Pelajari cara menggunakan Aspose.HTML untuk .NET dengan panduan langkah demi langkah ini. Tingkatkan keterampilan HTML Anda dan sederhanakan proyek pengembangan web Anda.
-type: docs
 weight: 14
 url: /id/net/advanced-features/use-extended-content-property/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gunakan Properti Konten yang Diperluas di .NET dengan Aspose.HTML
+
 
 Dalam dunia pengembangan web, bekerja dengan HTML merupakan keterampilan mendasar. Aspose.HTML untuk .NET merupakan alat canggih yang dapat mempermudah dan mengefisienkan tugas-tugas terkait HTML Anda. Tutorial ini akan memandu Anda melalui langkah-langkah untuk memulai Aspose.HTML untuk .NET, termasuk prasyarat, mengimpor namespace, dan menguraikan setiap contoh menjadi langkah-langkah yang mudah diikuti.
 
@@ -123,3 +129,10 @@ Selamat! Anda baru saja melangkah pertama kali ke dunia Aspose.HTML untuk .NET. 
 ### Apakah ada sumber daya atau tutorial tambahan yang tersedia untuk Aspose.HTML untuk .NET?
     Ya, Anda dapat menemukan lebih banyak tutorial dan dokumentasi di[Situs web Aspose.HTML](https://reference.aspose.com/html/net/).
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

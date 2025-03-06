@@ -3,10 +3,16 @@ title: Edición y envío de formularios HTML con Aspose.HTML para Java
 linktitle: Edición y envío de formularios HTML con Aspose.HTML para Java
 second_title: Procesamiento de HTML en Java con Aspose.HTML
 description: Aprenda a editar y enviar formularios HTML mediante programación utilizando Aspose.HTML para Java en esta completa guía paso a paso.
-type: docs
 weight: 11
 url: /es/java/css-html-form-editing/html-form-editing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Edición y envío de formularios HTML con Aspose.HTML para Java
+
 ## Introducción
 En el mundo actual, dominado por la Web, interactuar con formularios HTML es una tarea habitual para los desarrolladores, ya sea para completar formularios, enviarlos o automatizar la entrada de datos. Aspose.HTML para Java ofrece una solución sólida para gestionar formularios HTML de forma programática. Este artículo le guiará en la edición y el envío de formularios HTML mediante Aspose.HTML para Java, con un tutorial paso a paso que divide el proceso en partes manejables.
 ## Prerrequisitos
@@ -112,3 +118,9 @@ Aspose.HTML para Java es una biblioteca que permite a los desarrolladores trabaj
 Actualmente, los envíos de formularios son sincrónicos. Sin embargo, puede administrar operaciones asincrónicas en su aplicación Java ejecutando el envío en un hilo independiente.
 ### ¿Qué sucede si falla el envío del formulario?
  Si la presentación falla, el`SubmissionResult`El objeto no se marcará como exitoso y podrá manejar los errores inspeccionando el mensaje de respuesta o los detalles de la excepción.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Pengikisan Web dalam .NET dengan Aspose.HTML
 linktitle: Pengikisan Web dalam .NET
 second_title: Aspose.HTML .NET API manipulasi HTML
 description: Pelajari cara memanipulasi dokumen HTML dalam .NET dengan Aspose.HTML. Navigasi, filter, kueri, dan pilih elemen secara efektif untuk pengembangan web yang lebih baik.
-type: docs
 weight: 13
 url: /id/net/advanced-features/web-scraping/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pengikisan Web dalam .NET dengan Aspose.HTML
+
 
 Di era digital saat ini, memanipulasi dan mengekstrak informasi dari dokumen HTML merupakan tugas umum bagi para pengembang. Aspose.HTML untuk .NET merupakan alat canggih yang menyederhanakan pemrosesan dan manipulasi HTML dalam aplikasi .NET. Dalam tutorial ini, kita akan menjelajahi berbagai aspek Aspose.HTML untuk .NET, termasuk prasyarat, namespace, dan contoh langkah demi langkah untuk membantu Anda memanfaatkan potensinya secara maksimal.
 
@@ -204,3 +210,9 @@ A1: Aspose.HTML untuk .NET menawarkan versi uji coba gratis, tetapi untuk penggu
 ### Q5. Apakah Aspose.HTML untuk .NET kompatibel dengan versi .NET terbaru?
 
 A5: Aspose.HTML untuk .NET diperbarui secara berkala untuk memastikan kompatibilitas dengan versi dan teknologi .NET terbaru.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

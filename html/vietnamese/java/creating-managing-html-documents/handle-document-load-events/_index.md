@@ -3,10 +3,16 @@ title: Xử lý sự kiện tải tài liệu trong Aspose.HTML cho Java
 linktitle: Xử lý sự kiện tải tài liệu trong Aspose.HTML cho Java
 second_title: Xử lý HTML Java với Aspose.HTML
 description: Học cách xử lý các sự kiện tải tài liệu trong Aspose.HTML cho Java với hướng dẫn từng bước này. Nâng cao ứng dụng web của bạn.
-type: docs
 weight: 18
 url: /vi/java/creating-managing-html-documents/handle-document-load-events/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xử lý sự kiện tải tài liệu trong Aspose.HTML cho Java
+
 ## Giới thiệu
 Khi nói đến phát triển web, việc xử lý các sự kiện tải tài liệu là rất quan trọng để đảm bảo ứng dụng của bạn chạy trơn tru và hiệu quả. Nếu bạn đang làm việc với các tài liệu HTML trong Java, Aspose.HTML cung cấp một thư viện mạnh mẽ cho phép bạn thao tác các tài liệu HTML một cách dễ dàng. Trong hướng dẫn này, chúng ta sẽ khám phá cách xử lý các sự kiện tải tài liệu bằng Aspose.HTML cho Java. Cho dù bạn là người mới bắt đầu hay là nhà phát triển có kinh nghiệm, hướng dẫn này sẽ hướng dẫn bạn từng bước trong quy trình.
 ## Điều kiện tiên quyết
@@ -69,3 +75,9 @@ Aspose.HTML for Java là một thư viện cho phép các nhà phát triển t�
  Có, bạn có thể tìm thấy sự hỗ trợ và đặt câu hỏi trên[Diễn đàn Aspose](https://forum.aspose.com/c/html/29).
 ### Làm thế nào để tôi có được giấy phép tạm thời cho Aspose.HTML?
  Bạn có thể yêu cầu giấy phép tạm thời bằng cách truy cập[Trang giấy phép tạm thời Aspose](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

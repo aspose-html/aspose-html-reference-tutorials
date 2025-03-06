@@ -3,10 +3,16 @@ title: 使用 Aspose.HTML for Java 進行 DOM 突變觀察
 linktitle: DOM Mutation Observer - 觀察節點添加
 second_title: 使用 Aspose.HTML 進行 Java HTML 處理
 description: 在此逐步指南中了解如何使用 Aspose.HTML for Java 來實作 DOM Mutation Observer。有效監控 DOM 變更並做出反應。
-type: docs
 weight: 11
 url: /zh-hant/java/advanced-usage/dom-mutation-observer-observing-node-additions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.HTML for Java 進行 DOM 突變觀察
+
 
 您是 Java 開發人員，希望觀察 HTML 文件的文檔物件模型 (DOM) 中的變更並對其做出反應嗎？ Aspose.HTML for Java 為這項任務提供了強大的解決方案。在本逐步指南中，我們將探索如何使用 Aspose.HTML for Java 建立 HTML 文件並使用 Mutation Observer 觀察節點新增。本教學將引導您完成整個過程，將每個範例分解為多個步驟。最後，您將能夠在 Java 專案中輕鬆實作 DOM Mutation Observers。
 
@@ -146,3 +152,9 @@ A4：觀察字元資料變化對於您想要監控 HTML 元素文字內容變化
 ### Q5：使用Aspose.HTML for Java時如何處理資源？
 
  A5：完成後釋放資源很重要。在我們的範例中，我們使用了`document.dispose()`清理與 HTML 文件關聯的資源。確保處置您創建的任何物件和資源以避免記憶體洩漏。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

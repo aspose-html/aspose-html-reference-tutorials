@@ -3,10 +3,16 @@ title: Lưu tài liệu HTML trong Aspose.HTML cho Java
 linktitle: Lưu tài liệu HTML trong Aspose.HTML cho Java
 second_title: Xử lý HTML Java với Aspose.HTML
 description: Khám phá hướng dẫn toàn diện về Aspose.HTML cho Java hướng dẫn bạn cách lưu tài liệu HTML, chuyển đổi sang Markdown và nhiều hơn nữa.
-type: docs
 weight: 30
 url: /vi/java/saving-html-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lưu tài liệu HTML trong Aspose.HTML cho Java
+
 ## Giới thiệu
 
 Khi nói đến việc xử lý tài liệu HTML trong Java, Aspose.HTML nổi bật như một thư viện đa năng. Nếu bạn từng cảm thấy choáng ngợp trước sự phức tạp của việc xử lý tài liệu HTML, đừng lo lắng! Chuỗi hướng dẫn này được thiết kế để đơn giản hóa quá trình học tập của bạn. Chúng tôi sẽ đề cập đến các chức năng chính, đảm bảo bạn có thể lưu và thao tác tài liệu HTML như một chuyên gia. 
@@ -48,3 +54,9 @@ Dễ dàng chuyển đổi HTML sang Markdown bằng Aspose.HTML cho Java. Thự
 Tìm hiểu cách lưu tài liệu HTML dưới dạng MHTML bằng Aspose.HTML cho Java với hướng dẫn từng bước này, kèm theo các ví dụ mã và mẹo thực tế.
 ### [Lưu tài liệu SVG trong Aspose.HTML cho Java](./save-svg-document/)
 Tìm hiểu cách lưu tài liệu SVG bằng Aspose.HTML cho Java với hướng dẫn từng bước dễ dàng kèm theo nhiều ví dụ này.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

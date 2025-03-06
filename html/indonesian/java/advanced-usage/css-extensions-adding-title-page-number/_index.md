@@ -3,10 +3,16 @@ title: Sesuaikan Margin Halaman HTML dengan Aspose.HTML
 linktitle: Ekstensi CSS - Menambahkan Judul dan Nomor Halaman
 second_title: Pemrosesan HTML Java dengan Aspose.HTML
 description: Pelajari cara menyesuaikan margin halaman, menambahkan nomor halaman, dan judul ke dokumen HTML menggunakan Aspose.HTML untuk Java.
-type: docs
 weight: 10
 url: /id/java/advanced-usage/css-extensions-adding-title-page-number/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sesuaikan Margin Halaman HTML dengan Aspose.HTML
+
 Aspose.HTML untuk Java adalah pustaka yang hebat untuk memproses dokumen HTML dalam aplikasi Java. Dalam tutorial ini, kita akan menjelajahi cara membuat margin halaman khusus dan menambahkan nomor halaman dan judul ke dokumen HTML Anda menggunakan Aspose.HTML untuk Java. Panduan langkah demi langkah ini akan menguraikan proses menjadi langkah-langkah yang mudah dikelola untuk membantu Anda mengintegrasikan fitur-fitur ini ke dalam dokumen HTML Anda dengan mudah.
 
 ## Prasyarat
@@ -119,3 +125,9 @@ A4: Ya, Aspose.HTML untuk Java dapat digunakan untuk mengonversi dokumen HTML ke
 ### Q5: Apakah saya memerlukan lisensi untuk menggunakan Aspose.HTML untuk Java?
 
  A5: Ya, Anda bisa mendapatkan lisensi atau uji coba gratis dari[Di Sini](https://purchase.aspose.com/buy) atau[Di Sini](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Chuyển đổi HTML sang XPS trong .NET với Aspose.HTML
 linktitle: Chuyển đổi HTML sang XPS trong .NET
 second_title: Aspose.HTML .NET API thao tác HTML
 description: Khám phá sức mạnh của Aspose.HTML cho .NET. Chuyển đổi HTML sang XPS dễ dàng. Bao gồm các điều kiện tiên quyết, hướng dẫn từng bước và Câu hỏi thường gặp.
-type: docs
 weight: 22
 url: /vi/net/html-extensions-and-conversions/convert-html-to-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chuyển đổi HTML sang XPS trong .NET với Aspose.HTML
+
 
 Trong bối cảnh phát triển web không ngừng thay đổi, việc khai thác đúng công cụ là điều cần thiết để thành công. Aspose.HTML cho .NET là một công cụ như vậy giúp các nhà phát triển làm việc với các tài liệu HTML một cách dễ dàng. Hướng dẫn này là hành trình từng bước vào thế giới của Aspose.HTML cho .NET. Chúng ta sẽ khám phá các điều kiện tiên quyết, nhập không gian tên và đi sâu vào ví dụ thực tế về việc chuyển đổi HTML sang định dạng XPS. Vậy, hãy bắt đầu chuyến thám hiểm giáo dục này.
 
@@ -112,3 +118,9 @@ Bây giờ, chúng ta hãy cùng giải đáp một số câu hỏi thường g�
    Có, Aspose.HTML cho .NET được thiết kế để xử lý các tài liệu HTML phức tạp, phù hợp với nhiều trường hợp sử dụng.
 
 Trong hướng dẫn này, chúng tôi đã khám phá những điều cơ bản của Aspose.HTML cho .NET, từ các điều kiện tiên quyết đến ví dụ thực tế. Với kiến thức và công cụ phù hợp, bạn có thể khai thác sức mạnh của Aspose.HTML cho .NET trong các dự án phát triển web của mình.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

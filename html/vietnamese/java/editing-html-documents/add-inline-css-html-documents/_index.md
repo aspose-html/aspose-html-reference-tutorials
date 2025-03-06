@@ -3,10 +3,16 @@ title: Thêm CSS nội tuyến vào tài liệu HTML trong Aspose.HTML cho Java
 linktitle: Thêm CSS nội tuyến vào tài liệu HTML trong Aspose.HTML cho Java
 second_title: Xử lý HTML Java với Aspose.HTML
 description: Tìm hiểu cách thêm CSS nội tuyến vào tài liệu HTML bằng Aspose.HTML cho Java. Hướng dẫn từng bước này giúp bạn định dạng HTML và chuyển đổi sang PDF dễ dàng.
-type: docs
 weight: 14
 url: /vi/java/editing-html-documents/add-inline-css-html-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm CSS nội tuyến vào tài liệu HTML trong Aspose.HTML cho Java
+
 ## Giới thiệu
 Nếu bạn đang xử lý các tài liệu HTML và muốn làm cho nội dung hấp dẫn hơn bằng một số CSS nội tuyến, bạn đã đến đúng nơi rồi! Aspose.HTML for Java cung cấp một cách mạnh mẽ để thao tác các tệp HTML, cho phép bạn thêm kiểu, tạo thiết kế phản hồi và nhiều hơn nữa. Cho dù bạn là nhà phát triển muốn tự động hóa việc tạo tài liệu hay chỉ đơn giản là quan tâm đến cách tạo kiểu động cho nội dung HTML bằng Java, hướng dẫn này sẽ hướng dẫn bạn từng bước trong quy trình.
 ## Điều kiện tiên quyết
@@ -69,3 +75,9 @@ Có, bạn có thể tải các tệp HTML hiện có, chỉnh sửa chúng và 
 Aspose.HTML for Java có thể chuyển đổi HTML sang nhiều định dạng khác nhau, bao gồm PDF, XPS và hình ảnh.
 ### Tôi có cần kết nối internet để sử dụng Aspose.HTML cho Java không?
 Không, Aspose.HTML for Java hoạt động ngoại tuyến, mặc dù cần có kết nối internet để tải xuống thư viện hoặc truy cập tài liệu trực tuyến.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

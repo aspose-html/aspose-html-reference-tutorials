@@ -3,10 +3,16 @@ title: 使用 Aspose.HTML 將 .NET 中的 HTML 轉換為 MHTML
 linktitle: 在 .NET 中將 HTML 轉換為 MHTML
 second_title: Aspose.HTML .NET HTML 操作 API
 description: 使用 Aspose.HTML 將 .NET 中的 HTML 轉換為 MHTML - 高效 Web 內容歸檔的逐步指南。了解如何使用 Aspose.HTML for .NET 建立 MHTML 檔案。
-type: docs
 weight: 19
 url: /zh-hant/net/html-extensions-and-conversions/convert-html-to-mhtml/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.HTML 將 .NET 中的 HTML 轉換為 MHTML
+
 
 在 Web 開發領域，高效的文件轉換至關重要。 Aspose.HTML for .NET 函式庫是一個功能強大的工具，可以簡化 HTML 文件到各種格式（包括 MHTML）的轉換。 MHTML 是「MIME HTML」的縮寫，是一種網頁存檔格式，可讓您將網頁及其資源保存在單一檔案中。在本逐步指南中，我們將引導您完成使用 Aspose.HTML for .NET 將 HTML 文件轉換為 MHTML 的過程。
 
@@ -109,3 +115,10 @@ MHTML 是「MIME HTML」的縮寫，是一種網頁存檔格式，可讓您將�
 
 如果您需要臨時許可證，您可以從[Aspose.購買網站](https://purchase.aspose.com/temporary-license/)。該臨時許可證將授予您在有限的時間內存取該庫的全部功能的權限。
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

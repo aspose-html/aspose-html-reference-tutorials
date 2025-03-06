@@ -3,10 +3,16 @@ title: Thu thập dữ liệu web trong .NET với Aspose.HTML
 linktitle: Thu thập dữ liệu web trong .NET
 second_title: Aspose.HTML .NET API thao tác HTML
 description: Học cách thao tác các tài liệu HTML trong .NET với Aspose.HTML. Điều hướng, lọc, truy vấn và chọn các thành phần hiệu quả để phát triển web nâng cao.
-type: docs
 weight: 13
 url: /vi/net/advanced-features/web-scraping/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thu thập dữ liệu web trong .NET với Aspose.HTML
+
 
 Trong thời đại kỹ thuật số ngày nay, việc thao tác và trích xuất thông tin từ các tài liệu HTML là một nhiệm vụ phổ biến đối với các nhà phát triển. Aspose.HTML cho .NET là một công cụ mạnh mẽ giúp đơn giản hóa việc xử lý và thao tác HTML trong các ứng dụng .NET. Trong hướng dẫn này, chúng ta sẽ khám phá nhiều khía cạnh khác nhau của Aspose.HTML cho .NET, bao gồm các điều kiện tiên quyết, không gian tên và các ví dụ từng bước để giúp bạn khai thác hết tiềm năng của nó.
 
@@ -204,3 +210,9 @@ A1: Aspose.HTML cho .NET cung cấp phiên bản dùng thử miễn phí, nhưng
 ### Câu hỏi 5. Aspose.HTML cho .NET có tương thích với các phiên bản .NET mới nhất không?
 
 A5: Aspose.HTML cho .NET được cập nhật thường xuyên để đảm bảo khả năng tương thích với các phiên bản và công nghệ .NET mới nhất.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

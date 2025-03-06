@@ -3,10 +3,16 @@ title: Convert EPUB to BMP with Aspose.HTML for Java
 linktitle: Converting EPUB to BMP
 second_title: Java HTML Processing with Aspose.HTML
 description: Learn how to convert EPUB files to BMP images using Aspose.HTML for Java with this easy step-by-step guide.
-type: docs
 weight: 10
 url: /java/converting-between-epub-and-image-formats/convert-epub-to-bmp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Convert EPUB to BMP with Aspose.HTML for Java
+
 ## Introduction
 
 If you're looking to convert EPUB files to BMP images using Java, you're in the right place. Aspose.HTML for Java offers a powerful and efficient solution to achieve this. In this step-by-step guide, we'll walk you through the process, ensuring that even beginners can follow along. Before we dive into the detailed steps, let's go over the prerequisites and import packages required for this task.
@@ -104,3 +110,10 @@ A4: If you encounter issues or have questions, visit the Aspose.HTML community f
 ### Q5: Is there a limit to the size of EPUB files that can be converted with Aspose.HTML for Java?
 
 A5: Aspose.HTML for Java can handle large EPUB files efficiently, and there are no strict size limitations.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

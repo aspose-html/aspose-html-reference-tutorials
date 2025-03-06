@@ -3,10 +3,16 @@ title: Utilizar controladores de mensajes en Aspose.HTML para Java
 linktitle: Utilizar controladores de mensajes en Aspose.HTML para Java
 second_title: Procesamiento de HTML en Java con Aspose.HTML
 description: Aprenda a utilizar controladores de mensajes en Aspose.HTML para Java para gestionar imágenes faltantes y otras operaciones de red de manera efectiva.
-type: docs
 weight: 12
 url: /es/java/configuring-environment/use-message-handlers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Utilizar controladores de mensajes en Aspose.HTML para Java
+
 ## Introducción
 En este tutorial, le mostraremos un ejemplo práctico del uso de controladores de mensajes en Aspose.HTML para Java. Prepararemos un documento HTML simple que haga referencia a una imagen faltante y demostraremos cómo detectar y manejar el error mediante un controlador de mensajes personalizado. Ya sea que recién esté familiarizado con Aspose.HTML o que desee ampliar sus habilidades, esta guía le brindará la información que necesita para administrar las operaciones de red de manera eficaz.
 ## Prerrequisitos
@@ -109,3 +115,9 @@ Sí, puede encadenar varios controladores de mensajes para gestionar diferentes 
 Sí, la eliminación de estos objetos garantiza que todos los recursos se liberen correctamente, evitando pérdidas de memoria.
 ### ¿Puedo gestionar otros tipos de errores con los controladores de mensajes?
 ¡Por supuesto! Los controladores de mensajes se pueden personalizar para gestionar distintos tipos de errores, no solo recursos faltantes.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

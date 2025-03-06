@@ -3,10 +3,16 @@ title: ตัวจัดการข้อความเก็บถาวร 
 linktitle: ตัวจัดการข้อความเก็บถาวร ZIP ใน Aspose.HTML สำหรับ Java
 second_title: การประมวลผล Java HTML ด้วย Aspose.HTML
 description: เรียนรู้วิธีสร้าง ZIP Archive Message Handler โดยใช้ Aspose.HTML สำหรับ Java คู่มือนี้จะอธิบายแต่ละขั้นตอนเพื่อช่วยให้คุณจัดการและให้บริการไฟล์จากไฟล์ ZIP ได้อย่างมีประสิทธิภาพ
-type: docs
 weight: 10
 url: /th/java/handling-zip-files/zip-archive-message-handler/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ตัวจัดการข้อความเก็บถาวร ZIP ใน Aspose.HTML สำหรับ Java
+
 ## การแนะนำ
 การทำงานกับไฟล์ ZIP อาจเป็นส่วนสำคัญในการจัดการข้อมูลในรูปแบบต่างๆ โดยเฉพาะอย่างยิ่งเมื่อต้องจัดการทรัพยากรบนเว็บอย่างมีประสิทธิภาพ ในคู่มือนี้ เราจะแนะนำคุณเกี่ยวกับการสร้าง ZIP Archive Message Handler โดยใช้ Aspose.HTML สำหรับ Java ตัวจัดการนี้จะช่วยให้คุณอ่านไฟล์ได้โดยตรงจากไฟล์ ZIP และทำหน้าที่เป็นการตอบสนองต่อคำขอเครือข่าย ถือเป็นวิธีที่มีประสิทธิภาพในการปรับปรุงการจัดการไฟล์ โดยเฉพาะอย่างยิ่งเมื่อต้องจัดการกับชุดข้อมูลขนาดใหญ่ที่บีบอัดไว้ในไฟล์เดียว
 ## ข้อกำหนดเบื้องต้น
@@ -110,3 +116,10 @@ invoke(context);
  แม้ว่าอาจไม่จำเป็นในทุกกรณี แต่การนำไปปฏิบัติ`dispose` ถือเป็นแนวทางปฏิบัติที่ดีในการทำให้แน่ใจว่าทรัพยากรใดๆ ที่ใช้โดยตัวจัดการจะได้รับการปล่อยออกอย่างถูกต้อง
 ### ตัวจัดการนี้สามารถใช้ในเว็บเซิร์ฟเวอร์ได้หรือไม่?  
 แน่นอน! ตัวจัดการนี้ได้รับการออกแบบมาเพื่อใช้ในแอปพลิเคชันเว็บที่คุณต้องให้บริการไฟล์จากไฟล์เก็บถาวร ZIP เพื่อตอบสนองต่อคำขอ HTTP
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

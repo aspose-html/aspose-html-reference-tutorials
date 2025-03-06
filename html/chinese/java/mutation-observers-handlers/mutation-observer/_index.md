@@ -3,10 +3,16 @@ title: 使用 Aspose.HTML for Java 进行高级变异观察
 linktitle: 使用 Aspose.HTML for Java 进行高级变异观察
 second_title: 使用 Aspose.HTML 进行 Java HTML 处理
 description: 了解如何使用 Aspose.HTML for Java 实现高级 Mutation Observer，无缝跟踪 DOM 变化。深入了解我们的分步指南。
-type: docs
 weight: 10
 url: /zh/java/mutation-observers-handlers/mutation-observer/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.HTML for Java 进行高级变异观察
+
 ## 介绍
 您是否希望加深对 DOM 操作的理解并使用 Aspose.HTML 跟踪 Java 中的更改？好吧，您来对地方了！在本教程中，我们将深入研究如何利用 Aspose.HTML for Java 提供的强大的 Mutation Observer API。这个漂亮的功能使我们能够监听 DOM 中的更改，使其成为动态 Web 应用程序的绝佳工具。那么，让我们开始吧！
 ## 先决条件
@@ -108,3 +114,9 @@ Aspose.HTML 提供了一个用于操作 HTML 文档的强大库，并提供 Muta
 突变观察器的设计目标是高效。然而，过多或不必要的观察仍可能影响性能，因此明智地配置它们至关重要。
 ### 在哪里可以找到有关 Aspose.HTML 的更多资源？
 您可以检查[Aspose 文档](https://reference.aspose.com/html/java/)了解更多信息和教程。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

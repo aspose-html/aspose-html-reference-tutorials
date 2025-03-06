@@ -3,10 +3,16 @@ title: Skema Kustom dan Penanganan Pesan di Aspose.HTML untuk Java
 linktitle: Skema Kustom dan Penanganan Pesan di Aspose.HTML untuk Java
 second_title: Pemrosesan HTML Java dengan Aspose.HTML
 description: Temukan cara menguasai Aspose.HTML untuk Java dengan tutorial tentang penyaringan dan penanganan pesan skema kustom. Mulai membangun aplikasi yang disesuaikan.
-type: docs
 weight: 24
 url: /id/java/custom-schema-message-handling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Skema Kustom dan Penanganan Pesan di Aspose.HTML untuk Java
+
 ## Perkenalan
 
 Dalam hal pengembangan aplikasi, kebutuhan akan kontrol yang tepat atas komunikasi data sangatlah penting. Bayangkan mencoba menyetel stasiun radio favorit Anda, tetapi yang Anda dapatkan hanyalah pesan statis; begitulah kacaunya pesan yang tidak tersaring atau tidak terkelola dengan baik dalam aplikasi Anda. Di sinilah Aspose.HTML untuk Java bersinar, memungkinkan pengembang untuk mengimplementasikan skema pengiriman pesan khusus yang menyaring, menangani, dan dengan demikian menyederhanakan pertukaran data secara efisien.
@@ -28,3 +34,9 @@ Sekarang, jangan lupakan penanganan pesan. Bayangkan diri Anda sebagai pengemudi
 Pelajari cara menerapkan filter pesan skema kustom di Java menggunakan Aspose.HTML. Ikuti panduan langkah demi langkah kami untuk pengalaman aplikasi yang aman dan sesuai kebutuhan.
 ### [Penanganan Pesan Skema Kustom dengan Aspose.HTML untuk Java](./custom-schema-message-handler/)
 Pelajari cara membuat pengendali pesan skema khusus menggunakan Aspose.HTML untuk Java. Tutorial ini memandu Anda langkah demi langkah melalui prosesnya.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

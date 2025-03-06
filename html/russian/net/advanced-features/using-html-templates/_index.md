@@ -3,10 +3,16 @@ title: Использование HTML-шаблонов в .NET с Aspose.HTML
 linktitle: Использование HTML-шаблонов в .NET
 second_title: API манипуляции HTML Aspose.HTML .NET
 description: Узнайте, как использовать Aspose.HTML для .NET для динамической генерации HTML-документов из данных JSON. Используйте мощь манипуляции HTML в своих приложениях .NET.
-type: docs
 weight: 17
 url: /ru/net/advanced-features/using-html-templates/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Использование HTML-шаблонов в .NET с Aspose.HTML
+
 
 Если вы хотите работать с HTML-документами и шаблонами в своих .NET-приложениях, вы попали по адресу! Aspose.HTML для .NET — это универсальная библиотека, которая позволяет разработчикам без труда манипулировать HTML-документами и шаблонами. В этом руководстве мы углубимся в основы использования Aspose.HTML для .NET, разбив каждый шаг и предоставив четкое объяснение по ходу дела.
 
@@ -138,3 +144,9 @@ A3: Вы можете загрузить Aspose.HTML для .NET со стран
 ### В5. Нужна ли мне временная лицензия для Aspose.HTML для .NET?
 
  A5: Если вам требуется временная лицензия для целей оценки, вы можете получить ее у[здесь](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

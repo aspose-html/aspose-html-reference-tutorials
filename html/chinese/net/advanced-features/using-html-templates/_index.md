@@ -3,10 +3,16 @@ title: 使用 Aspose.HTML 在 .NET 中使用 HTML 模板
 linktitle: 在 .NET 中使用 HTML 模板
 second_title: Aspose.HTML .NET HTML 操作 API
 description: 了解如何使用 Aspose.HTML for .NET 从 JSON 数据动态生成 HTML 文档。在您的 .NET 应用程序中充分利用 HTML 操作的强大功能。
-type: docs
 weight: 17
 url: /zh/net/advanced-features/using-html-templates/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.HTML 在 .NET 中使用 HTML 模板
+
 
 如果您希望在 .NET 应用程序中使用 HTML 文档和模板，那么您来对地方了！Aspose.HTML for .NET 是一个多功能库，可帮助开发人员轻松操作 HTML 文档和模板。在本教程中，我们将深入探讨使用 Aspose.HTML for .NET 的基本知识，分解每个步骤并提供清晰的解释。
 
@@ -138,3 +144,9 @@ A3：您可以从下载页面下载 Aspose.HTML for .NET[这里](https://release
 ### Q5. 我需要 Aspose.HTML for .NET 的临时许可证吗？
 
  A5：如果您需要临时许可证以进行评估，您可以从以下位置获取：[这里](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

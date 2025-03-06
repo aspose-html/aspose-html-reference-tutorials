@@ -3,10 +3,16 @@ title: Charger du HTML à l'aide d'une URL dans .NET avec Aspose.HTML
 linktitle: Charger du HTML à l'aide d'une URL dans .NET
 second_title: API de manipulation HTML Aspose.HTML .NET
 description: Découvrez comment exploiter la puissance d'Aspose.HTML pour .NET. Boostez votre développement Web grâce à la manipulation et au rendu HTML.
-type: docs
 weight: 13
 url: /fr/net/html-document-manipulation/load-html-using-url/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Charger du HTML à l'aide d'une URL dans .NET avec Aspose.HTML
+
 
 Vous cherchez à exploiter tout le potentiel d'Aspose.HTML pour .NET, une bibliothèque polyvalente pour la manipulation et le rendu HTML ? Si vous êtes un développeur ou un propriétaire d'entreprise cherchant à améliorer vos applications Web avec des fonctionnalités HTML avancées, vous êtes au bon endroit. Dans ce guide étape par étape, nous vous guiderons tout au long du processus d'utilisation d'Aspose.HTML pour .NET, en commençant par les prérequis et en plongeant dans l'espace de noms d'importation et plusieurs exemples. À la fin de ce didacticiel, vous serez bien équipé pour intégrer cet outil puissant dans vos projets et améliorer votre flux de travail de développement Web.
 
@@ -111,3 +117,9 @@ A2 : Oui, Aspose.HTML pour .NET est polyvalent et peut être utilisé à la foi
 ### Q5 : Comment obtenir une licence temporaire pour Aspose.HTML pour .NET ?
    
 A5 : Si vous avez besoin d’une licence temporaire pour votre projet, vous pouvez en obtenir une[ici](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

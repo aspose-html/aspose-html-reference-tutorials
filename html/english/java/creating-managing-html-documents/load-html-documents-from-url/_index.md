@@ -3,10 +3,16 @@ title: Load HTML Documents from URL in Aspose.HTML for Java
 linktitle: Load HTML Documents from URL in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 description: Discover how to easily load HTML documents from a URL in Java with Aspose.HTML. Step-by-step tutorial included.
-type: docs
 weight: 16
 url: /java/creating-managing-html-documents/load-html-documents-from-url/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Load HTML Documents from URL in Aspose.HTML for Java
+
 ## Introduction
 Welcome! If you've landed here, you're probably looking to dive into the fascinating world of HTML manipulation using Aspose.HTML for Java. Allow me to take you on an exciting journey where we’ll explore how to load HTML documents directly from a URL. The flexibility of working with HTML in Java can be a game-changer, whether you’re developing a web application, extracting content, or simply experimenting with document processing.
 In this tutorial, we’ll not only touch the surface of loading HTML but also break it down into easy-to-follow steps. You’ll walk away with clear insights and practical examples, making this a valuable addition to your programming toolkit.
@@ -88,3 +94,10 @@ Absolutely! You simply need to add the dependency to your `pom.xml`, which makes
 With Aspose.HTML, you can handle HTML documents, allowing you to create, manipulate, and convert these documents easily.
 ### Where can I get support if I encounter issues?  
 You can get support on the Aspose forum [here](https://forum.aspose.com/c/html/29).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

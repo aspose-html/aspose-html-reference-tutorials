@@ -3,10 +3,16 @@ title: Gebruik berichthandlers in Aspose.HTML voor Java
 linktitle: Gebruik berichthandlers in Aspose.HTML voor Java
 second_title: Java HTML-verwerking met Aspose.HTML
 description: Leer hoe u berichtverwerkers in Aspose.HTML voor Java kunt gebruiken om ontbrekende afbeeldingen en andere netwerkbewerkingen effectief te verwerken.
-type: docs
 weight: 12
 url: /nl/java/configuring-environment/use-message-handlers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gebruik berichthandlers in Aspose.HTML voor Java
+
 ## Invoering
 In deze tutorial leiden we je door een praktisch voorbeeld van het gebruik van berichthandlers in Aspose.HTML voor Java. We bereiden een eenvoudig HTML-document voor dat verwijst naar een ontbrekende afbeelding en laten zien hoe je de fout kunt opvangen en afhandelen met behulp van een aangepaste berichthandler. Of je nu nieuw bent met Aspose.HTML of je vaardigheden wilt uitbreiden, deze gids geeft je de inzichten die je nodig hebt om netwerkbewerkingen effectief te beheren.
 ## Vereisten
@@ -109,3 +115,9 @@ Ja, u kunt meerdere berichtverwerkers aan elkaar koppelen om verschillende scena
 Ja, door deze objecten te verwijderen, worden alle bronnen op de juiste manier vrijgegeven en worden geheugenlekken voorkomen.
 ### Kan ik andere soorten fouten verwerken met berichtverwerkers?
 Absoluut! Berichtenhandlers kunnen worden aangepast om verschillende soorten fouten te verwerken, niet alleen ontbrekende bronnen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

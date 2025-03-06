@@ -3,10 +3,16 @@ title: Java용 Aspose.HTML을 사용하여 사용자 정의 메시지 핸들러 
 linktitle: Java용 Aspose.HTML을 사용하여 사용자 정의 메시지 핸들러 구현
 second_title: Aspose.HTML을 사용한 Java HTML 처리
 description: Java용 Aspose.HTML에서 사용자 정의 메시지 핸들러를 구현하여 문서 처리를 개선하고 로그를 효율적으로 처리하는 방법을 알아보세요.
-type: docs
 weight: 11
 url: /ko/java/message-handling-networking/custom-message-handler/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.HTML을 사용하여 사용자 정의 메시지 핸들러 구현
+
 ## 소개
 HTML 문서를 프로그래밍 방식으로 처리하는 경우 Aspose.HTML for Java 라이브러리가 돋보입니다. HTML 데이터를 조작하거나, 문서를 변환하거나, 단순히 웹 콘텐츠를 관리하기 위한 안정적인 도구가 필요한 개발자이든 Aspose.HTML은 고려할 가치가 있습니다. 강력한 기능과 뛰어난 성능을 통해 개발자는 다른 라이브러리의 복잡성 없이 HTML 조작을 심층적으로 수행할 수 있습니다. 이 가이드에서는 Aspose.HTML for Java를 사용하여 사용자 지정 메시지 핸들러를 구현하는 방법을 살펴보겠습니다.
 ## 필수 조건
@@ -65,3 +71,9 @@ Java용 Aspose.HTML은 개발자가 Java에서 HTML 문서 및 기타 리소스�
  물론입니다! 무료 체험판에 접속하여 Aspose.HTML을 무료로 사용해 보세요.[여기](https://releases.aspose.com/).
 ### Aspose.HTML에 대한 지원은 어디에서 찾을 수 있나요?
  Aspose 커뮤니티 포럼에서 지원을 요청할 수 있습니다.[여기](https://forum.aspose.com/c/html/29).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

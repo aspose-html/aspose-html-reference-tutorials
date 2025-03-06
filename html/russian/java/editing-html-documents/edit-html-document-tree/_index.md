@@ -3,10 +3,16 @@ title: Редактировать дерево HTML-документов в Aspo
 linktitle: Редактировать дерево HTML-документов в Aspose.HTML для Java
 second_title: Обработка Java HTML с помощью Aspose.HTML
 description: Узнайте, как управлять HTML-документами с помощью Aspose.HTML для Java. Пошаговое руководство по эффективному управлению контентом.
-type: docs
 weight: 10
 url: /ru/java/editing-html-documents/edit-html-document-tree/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Редактировать дерево HTML-документов в Aspose.HTML для Java
+
 ## Введение
 Когда дело доходит до программного управления HTML-документами, Aspose.HTML для Java дает разработчикам надежный инструментарий для работы. Независимо от того, хотите ли вы создать новые элементы, изменить существующие или управлять структурой документа, эта библиотека обеспечивает бесшовную интеграцию и эффективные методы кодирования. В этом руководстве вы узнаете, как редактировать дерево HTML-документа с помощью Aspose.HTML для Java, разбирая его шаг за шагом.
 ## Предпосылки
@@ -86,3 +92,9 @@ Aspose.HTML для Java — это библиотека, которая позв
  Да, для длительного использования требуется действующая лицензия, но вы можете начать с временной лицензии.[здесь](https://purchase.aspose.com/temporary-license/).
 ### Где я могу найти поддержку Aspose.HTML?
  Вы можете получить поддержку на форуме Aspose.[здесь](https://forum.aspose.com/c/html/29).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

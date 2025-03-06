@@ -3,10 +3,16 @@ title: Új HTML-dokumentumok létrehozása az Aspose.HTML for Java használatáv
 linktitle: Új HTML-dokumentumok létrehozása az Aspose.HTML for Java használatával
 second_title: Java HTML feldolgozás Aspose.HTML-lel
 description: Ebből az egyszerű, lépésenkénti útmutatóból megtudhatja, hogyan hozhat létre új HTML-dokumentumokat az Aspose.HTML for Java használatával. Kezdje el a dinamikus HTML-tartalom generálását.
-type: docs
 weight: 17
 url: /hu/java/creating-managing-html-documents/generate-new-html-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Új HTML-dokumentumok létrehozása az Aspose.HTML for Java használatával
+
 ## Bevezetés
 A HTML-dokumentumok létrehozása soha nem volt ilyen egyszerű, köszönhetően az olyan hatékony eszközöknek, mint az Aspose.HTML for Java. Az eszköztárban található tár segítségével problémamentesen generálhat, kezelhet és kezelhet programozottan HTML-tartalmakat. Akár webalkalmazást épít, akár dokumentumkészítést automatizál, akár egyszerűen csak javítani kívánja Java-projektjeit, az Aspose.HTML mindent megtesz. Ebben az oktatóanyagban mélyen elmélyülünk azokban a kódsorokban, amelyek szükségesek új HTML-dokumentumok létrehozásához ennek a hihetetlen könyvtárnak a használatával.
 ## Előfeltételek
@@ -66,3 +72,9 @@ Az Aspose.HTML for Java egy könyvtár, amelyet arra terveztek, hogy zökkenőme
 Teljesen! A könyvtár a HTML-szolgáltatások széles skáláját támogatja, beleértve a CSS stílust és a JavaScript integrációt.
 ### Hol találok további segítséget és támogatást az Aspose.HTML-hez?
  Az Aspose támogatási fórumát a következő címen érheti el[Aspose fórum](https://forum.aspose.com/c/html/29) segítségért és közösségi támogatásért.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

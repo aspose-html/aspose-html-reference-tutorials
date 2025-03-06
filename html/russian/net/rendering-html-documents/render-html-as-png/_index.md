@@ -3,10 +3,16 @@ title: Рендеринг HTML как PNG в .NET с помощью Aspose.HTML
 linktitle: Отобразить HTML как PNG в .NET
 second_title: API манипуляции HTML Aspose.HTML .NET
 description: Научитесь работать с Aspose.HTML для .NET. Манипулируйте HTML, конвертируйте в различные форматы и многое другое. Погрузитесь в этот всеобъемлющий учебник!
-type: docs
 weight: 10
 url: /ru/net/rendering-html-documents/render-html-as-png/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Рендеринг HTML как PNG в .NET с помощью Aspose.HTML
+
 
 В этом руководстве мы погрузимся в мир Aspose.HTML для .NET, мощного инструмента для программной работы с HTML-документами. Независимо от того, являетесь ли вы опытным разработчиком или только начинаете свой путь в мире программирования .NET, это руководство проведет вас через основы Aspose.HTML, от импорта пространств имен до разбора практических примеров.
 
@@ -94,3 +100,9 @@ using (var document = new Aspose.Html.HTMLDocument("<style>p { color: green; }</
 
 ### Где я могу найти больше учебных пособий и документации?
    Вы можете изучить подробную документацию и учебные пособия по[Страница документации Aspose.HTML для .NET](https://reference.aspose.com/html/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

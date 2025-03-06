@@ -3,10 +3,16 @@ title: 使用 Aspose.HTML 在 .NET 中合并 HTML 和 Json
 linktitle: 在 .NET 中将 HTML 与 Json 合并
 second_title: Aspose.HTML .NET HTML 操作 API
 description: 学习使用 Aspose.HTML for .NET 创建动态和 Web 内容。增强您的在线形象并吸引您的受众。
-type: docs
 weight: 17
 url: /zh/net/html-document-manipulation/merge-html-with-json/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.HTML 在 .NET 中合并 HTML 和 Json
+
 
 在当今的数字环境中，拥有在线形象对于企业和个人都至关重要。这种在线形象的关键方面之一是创建不仅具有视觉吸引力而且针对搜索引擎进行了优化的 Web 内容。Aspose.HTML for .NET 是一款功能强大的工具，可帮助开发人员和内容创建者实现这一目标。在本综合指南中，我们将引导您完成利用 Aspose.HTML for .NET 功能创建 SEO 优化的 Web 内容的过程。 
 
@@ -100,3 +106,9 @@ A1：是的，Aspose.HTML for .NET 提供了用户友好的工具和文档，初
 ### Q5: 我可以在哪里购买 Aspose.HTML for .NET？
 
  A5：您可以在以下网址购买 Aspose.HTML for .NET[Aspose.HTML 购买](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

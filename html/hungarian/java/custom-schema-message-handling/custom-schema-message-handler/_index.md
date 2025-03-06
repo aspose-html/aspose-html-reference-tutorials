@@ -3,10 +3,16 @@ title: Egyéni sémaüzenetkezelő Aspose.HTML for Java-val
 linktitle: Egyéni sémaüzenetkezelő Aspose.HTML for Java-val
 second_title: Java HTML feldolgozás Aspose.HTML-lel
 description: Ismerje meg, hogyan hozhat létre egyéni sémaüzenetkezelőt az Aspose.HTML for Java használatával. Ez az oktatóanyag lépésről lépésre végigvezeti a folyamaton.
-type: docs
 weight: 11
 url: /hu/java/custom-schema-message-handling/custom-schema-message-handler/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Egyéni sémaüzenetkezelő Aspose.HTML for Java-val
+
 ## Bevezetés
 Üdvözöljük, fejlesztő kollégák! Ha Java-alkalmazásait robusztus HTML-kezelési képességekkel szeretné továbbfejleszteni, akkor jó helyen jár. Ma mélyrehatóan foglalkozunk azzal, hogyan hozhatunk létre egyéni sémaüzenetkezelőt az Aspose.HTML for Java használatával. Képzeld el, hogy egy szakács vagy, aki egy különleges ételt készít; ez a kezelő olyan, mint a titkos szósz, amely egy standard receptet egy ínyenc étkezéssé emel. Lehetővé teszi a HTML-üzenetek zökkenőmentes kezelését és szűrését saját sémaspecifikációi alapján.
 ## Előfeltételek
@@ -92,3 +98,9 @@ Az Aspose.HTML for Java HTML-fájlok manipulálására és konvertálására szo
  Igen, vásárolhat állandó licencet az Aspose.HTML-hez[itt](https://purchase.aspose.com/buy).
 ### Hol találok támogatást az Aspose.HTML-hez?
  A támogatást az Aspose HTML-fórumának meglátogatásával érheti el[itt](https://forum.aspose.com/c/html/29).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

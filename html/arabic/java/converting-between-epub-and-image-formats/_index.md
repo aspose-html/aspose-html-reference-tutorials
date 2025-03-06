@@ -3,10 +3,16 @@ title: دروس تحويل بين تنسيقات EPUB والصور
 linktitle: التحويل بين تنسيق EPUB وتنسيق الصور
 second_title: معالجة HTML باستخدام Java مع Aspose.HTML
 description: يمكنك تحويل ملفات EPUB إلى تنسيقات صور متعددة بسهولة باستخدام Aspose.HTML for Java. دليل خطوة بخطوة لإجراء تحويلات سلسة.
-type: docs
 weight: 26
 url: /ar/java/converting-between-epub-and-image-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# دروس تحويل بين تنسيقات EPUB والصور
+
 
 هل تبحث عن طريقة خالية من المتاعب لتحويل ملفات EPUB إلى تنسيقات صور مختلفة؟ أنت في المكان المناسب. في هذا الدليل الشامل، سنرشدك خلال العملية خطوة بخطوة، باستخدام Aspose.HTML for Java. سواء كنت تريد تحويل EPUB إلى BMP أو GIF أو JPG أو PNG أو TIFF أو كنت بحاجة إلى إرشادات حول تحديد موفري البث المخصصين أو خيارات حفظ الصور، فلدينا ما يلبي احتياجاتك.
 
@@ -52,3 +58,9 @@ url: /ar/java/converting-between-epub-and-image-formats/
 تعرف على كيفية تحويل ملفات EPUB إلى صور باستخدام Aspose.HTML for Java. يغطي هذا الدليل خطوة بخطوة المتطلبات الأساسية واستيراد الحزم وعملية التحويل.
 ### [تحويل EPUB إلى صورة بسطر واحد من التعليمات البرمجية](./convert-epub-to-image-single-line/)
 تعرف على كيفية تحويل EPUB إلى صور باستخدام Aspose.HTML for Java. دليل خطوة بخطوة لإجراء عمليات تحويل سهلة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Állítsa be az XPS oldalméretét az Aspose.HTML for Java segítségéve
 linktitle: XPS oldalméret beállítása
 second_title: Java HTML feldolgozás Aspose.HTML-lel
 description: Ismerje meg, hogyan állíthatja be az XPS oldalméretét az Aspose.HTML for Java segítségével. Egyszerűen szabályozhatja XPS-dokumentumai kimeneti méreteit.
-type: docs
 weight: 16
 url: /hu/java/advanced-usage/adjust-xps-page-size/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Állítsa be az XPS oldalméretét az Aspose.HTML for Java segítségével
+
 
 Ebben az oktatóanyagban végigvezetjük az XPS-oldalméret beállításának folyamatán az Aspose.HTML for Java használatával. Ez a nagy teljesítményű könyvtár lehetővé teszi a HTML-dokumentumok kezelését és különféle formátumokba, köztük XPS-be való renderelését. Az oldalméret beállítása elengedhetetlen, ha szabályozni kell az XPS-dokumentum kimeneti méreteit.
 
@@ -121,3 +127,9 @@ Ebben az oktatóanyagban megmutattuk, hogyan állíthatja be az XPS oldalméret�
 ### 5. kérdés: Kaphatok támogatást az Aspose.HTML for Java számára?
 
  V5: Igen, segítséget és támogatást kérhet az Aspose közösségtől a webhelyen[Aspose fórum](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

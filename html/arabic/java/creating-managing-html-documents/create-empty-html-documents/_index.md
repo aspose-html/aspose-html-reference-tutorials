@@ -3,10 +3,16 @@ title: إنشاء مستندات HTML فارغة في Aspose.HTML لـ Java
 linktitle: إنشاء مستندات HTML فارغة في Aspose.HTML لـ Java
 second_title: معالجة HTML باستخدام Java مع Aspose.HTML
 description: تعرف على كيفية إنشاء مستندات HTML فارغة في Java باستخدام Aspose.HTML من خلال البرنامج التعليمي المفصل خطوة بخطوة، وهو مثالي للمطورين من جميع المستويات.
-type: docs
 weight: 11
 url: /ar/java/creating-managing-html-documents/create-empty-html-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إنشاء مستندات HTML فارغة في Aspose.HTML لـ Java
+
 ## مقدمة
 عندما يتعلق الأمر بالتعامل مع مستندات HTML في Java، فإن Aspose.HTML عبارة عن مجموعة أدوات قوية تجعل إنشاء مستندات HTML ومعالجتها وإدارتها أمرًا سهلاً. سواء كنت مطورًا يبحث عن أتمتة إنشاء HTML أو شخصًا يريد إضافة المزيد من الوظائف إلى تطبيقات الويب الخاصة بك، فإن إنشاء مستند HTML فارغ غالبًا ما يكون الخطوة الأولى. في هذا الدليل، سنوجهك خلال عملية إنشاء مستند HTML فارغ باستخدام Aspose.HTML لـ Java. لذا، احصل على مشروبك المفضل، ولنبدأ!
 ## المتطلبات الأساسية
@@ -51,3 +57,9 @@ Aspose.HTML for Java هي مكتبة تسمح للمطورين بإنشاء مس
 قد يؤدي الفشل في التخلص من كائن المستند إلى حدوث تسربات للذاكرة، وخاصة في التطبيقات الأكبر حجمًا.
 ### هل يمكنني تعديل مستند HTML بعد الحفظ؟
 نعم، يمكنك إعادة فتح المستند المحفوظ وتعديل محتوياته حسب الحاجة قبل حفظه مرة أخرى.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

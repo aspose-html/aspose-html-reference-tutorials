@@ -3,10 +3,16 @@ title: Cấu hình môi trường trong Aspose.HTML cho Java
 linktitle: Cấu hình môi trường trong Aspose.HTML cho Java
 second_title: Xử lý HTML Java với Aspose.HTML
 description: Khám phá cách cấu hình môi trường trong Aspose.HTML cho Java. Tìm hiểu cách thiết lập bộ ký tự, cấu hình phông chữ và sử dụng trình xử lý tin nhắn hiệu quả.
-type: docs
 weight: 29
 url: /vi/java/configuring-environment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cấu hình môi trường trong Aspose.HTML cho Java
+
 ## Giới thiệu
 
 Khi nói đến việc làm việc với Aspose.HTML cho Java, bước đầu tiên là cấu hình môi trường của bạn. Cho dù bạn là một nhà phát triển dày dạn kinh nghiệm hay chỉ mới bắt đầu, việc thiết lập đúng là rất quan trọng. Tại sao? Bởi vì một môi trường được cấu hình tốt đảm bảo mọi thứ chạy trơn tru, từ phân tích cú pháp HTML cơ bản đến các chuyển đổi phức tạp như HTML sang PDF hoặc PNG.
@@ -65,3 +71,9 @@ Tìm hiểu cách cấu hình Dịch vụ thời gian chạy trong Aspose.HTML c
 Tìm hiểu cách triển khai hộp cát trong Aspose.HTML cho Java để kiểm soát an toàn việc thực thi tập lệnh trong tài liệu HTML của bạn và chuyển đổi chúng sang PDF.
 ### [Thiết lập User Style Sheet trong Aspose.HTML cho Java](./set-user-style-sheet/)
 Tìm hiểu cách thiết lập bảng định kiểu người dùng tùy chỉnh trong Aspose.HTML cho Java, cải thiện kiểu dáng tài liệu và chuyển đổi HTML sang PDF một cách dễ dàng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

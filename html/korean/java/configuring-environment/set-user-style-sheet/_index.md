@@ -3,10 +3,16 @@ title: Java용 Aspose.HTML에서 사용자 스타일 시트 설정
 linktitle: Java용 Aspose.HTML에서 사용자 스타일 시트 설정
 second_title: Aspose.HTML을 사용한 Java HTML 처리
 description: Java용 Aspose.HTML에서 사용자 정의 스타일 시트를 설정하는 방법을 알아보고, 문서 스타일을 향상시키고 HTML을 PDF로 쉽게 변환하세요.
-type: docs
 weight: 16
 url: /ko/java/configuring-environment/set-user-style-sheet/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.HTML에서 사용자 스타일 시트 설정
+
 ## 소개
 HTML 문서의 모양을 고유한 스타일로 조정하고 싶은 적이 있나요? 웹 페이지를 만들고 있다고 상상해보세요. 제목을 특정 색상으로 돋보이게 하거나 문단이 여러 기기에서 일관된 모양을 유지하도록 하려고 합니다. 이때 사용자 스타일시트가 필요합니다! 이 튜토리얼에서는 Java용 Aspose.HTML을 사용하여 사용자 지정 스타일시트를 설정하는 방법을 살펴보겠습니다. 문서에 대한 일관된 디자인을 만들거나 다양한 스타일을 실험하고 싶은 경우 이 가이드는 간단하고 매력적인 방식으로 전체 프로세스를 안내합니다.
 ## 필수 조건
@@ -104,3 +110,9 @@ if (configuration != null) {
 지원되지 않는 CSS 속성은 무시되므로 나머지 스타일시트는 오류 없이 적용될 수 있습니다.
 ### HTML을 PDF 이외의 형식으로 변환할 수 있나요?  
 네, Java용 Aspose.HTML은 HTML을 XPS, TIFF 등 다양한 포맷으로 변환하는 것을 지원합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

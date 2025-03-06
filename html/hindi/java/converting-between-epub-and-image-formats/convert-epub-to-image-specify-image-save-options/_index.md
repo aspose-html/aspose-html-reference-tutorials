@@ -3,10 +3,16 @@ title: Java के लिए Aspose.HTML का उपयोग करके EPU
 linktitle: EPUB से छवि रूपांतरण के लिए छवि सहेजने के विकल्प निर्दिष्ट करना
 second_title: Aspose.HTML के साथ जावा HTML प्रसंस्करण
 description: जानें कि Java के लिए Aspose.HTML का उपयोग करके EPUB फ़ाइलों को छवियों में कैसे परिवर्तित किया जाए। यह चरण-दर-चरण मार्गदर्शिका पूर्वापेक्षाएँ, पैकेज आयात और रूपांतरण प्रक्रिया को कवर करती है।
-type: docs
 weight: 16
 url: /hi/java/converting-between-epub-and-image-formats/convert-epub-to-image-specify-image-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java के लिए Aspose.HTML का उपयोग करके EPUB को छवि में बदलें
+
 वेब डेवलपमेंट की लगातार विकसित होती दुनिया में, Aspose.HTML for Java एक शक्तिशाली उपकरण के रूप में खड़ा है, और आज, हम इसके एक महत्वपूर्ण पहलू पर चर्चा कर रहे हैं: EPUB से इमेज रूपांतरण के लिए इमेज सेव विकल्प निर्दिष्ट करना। इस चरण-दर-चरण मार्गदर्शिका में, आप सीखेंगे कि EPUB फ़ाइलों को इमेज में बदलने के लिए Aspose.HTML for Java की क्षमताओं का आसानी से उपयोग कैसे करें। लेकिन इससे पहले कि हम बारीकियों में उतरें, आइए सुनिश्चित करें कि हमने आवश्यक शर्तें पूरी कर ली हैं।
 
 ## आवश्यक शर्तें
@@ -108,3 +114,9 @@ A3: आप EPUB से छवि रूपांतरण के दौरान
 ### प्रश्न 5: क्या Aspose.HTML for Java सभी Java संस्करणों के साथ संगत है?
 
 A5: Java के लिए Aspose.HTML, Java 1.7 या बाद के संस्करणों के साथ संगत है, जो इसे Java वातावरण की एक विस्तृत श्रृंखला के लिए उपयुक्त बनाता है।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

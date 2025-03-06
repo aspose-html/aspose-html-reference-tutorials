@@ -3,10 +3,16 @@ title: Pas Metered License toe in .NET met Aspose.HTML
 linktitle: Metered-licentie toepassen in .NET
 second_title: Aspose.HTML .NET HTML-manipulatie-API
 description: Leer hoe u een gemeten licentie toepast in Aspose.HTML voor .NET. Beheer uw HTML-manipulatiebehoeften efficiënt. Ga nu aan de slag!
-type: docs
 weight: 10
 url: /nl/net/licensing-and-initialization/apply-metered-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pas Metered License toe in .NET met Aspose.HTML
+
 In deze tutorial begeleiden we u door het proces van het toepassen van een gemeten licentie in uw .NET-toepassing met behulp van Aspose.HTML. Een gemeten licentie is een handige manier om licenties te beheren voor uw HTML-manipulatiebehoeften. Door de onderstaande stappen te volgen, kunt u een gemeten licentie toepassen op uw Aspose.HTML voor .NET-project.
 
 ## Vereisten
@@ -88,3 +94,9 @@ Met een metered licentie kunt u Aspose.HTML betalen op een pay-as-you-go basis, 
 
 ### Waar kan ik ondersteuning krijgen of vragen stellen over Aspose.HTML voor .NET?
  U kunt zich bij de community aansluiten en ondersteuning zoeken op de[Aspose-forums](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

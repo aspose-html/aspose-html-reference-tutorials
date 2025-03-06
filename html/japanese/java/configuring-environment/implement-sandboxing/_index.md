@@ -3,10 +3,16 @@ title: Aspose.HTML for Java でサンドボックスを実装する
 linktitle: Aspose.HTML for Java でサンドボックスを実装する
 second_title: Aspose.HTML を使用した Java HTML 処理
 description: Aspose.HTML for Java でサンドボックスを実装して、HTML ドキュメント内のスクリプトの実行を安全に制御し、PDF に変換する方法を学習します。
-type: docs
 weight: 15
 url: /ja/java/configuring-environment/implement-sandboxing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.HTML for Java でサンドボックスを実装する
+
 ## 導入
 このチュートリアルでは、Aspose.HTML for Java を使用してサンドボックスを実装する方法について説明します。環境の設定から、単純な HTML ファイルの作成、サンドボックスの構成、HTML から PDF への変換まで、潜在的に有害なスクリプトを制御しながら、すべてを説明します。熟練した開発者でも、初心者でも、このガイドは、安全な Web コンテンツを簡単に作成するために必要なツールを提供します。
 ## 前提条件
@@ -89,3 +95,9 @@ Aspose.HTML for Java のサンドボックス化は、HTML ドキュメント内
 サンドボックス化されたスクリプトは実行されず、その影響（`document.write`) は出力に表示されません。
 ### サンドボックス化された HTML を PDF 以外の形式に変換できますか?
 もちろんです! Aspose.HTML for Java は、画像、XPS など、さまざまな形式への変換をサポートしています。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.HTML for Java を使用した DOM ミューテーション オブ�
 linktitle: DOM ミューテーション オブザーバー - ノード追加の監視
 second_title: Aspose.HTML を使用した Java HTML 処理
 description: このステップバイステップ ガイドでは、Aspose.HTML for Java を使用して DOM Mutation Observer を実装する方法を学習します。DOM の変更を効果的に監視して対応します。
-type: docs
 weight: 11
 url: /ja/java/advanced-usage/dom-mutation-observer-observing-node-additions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.HTML for Java を使用した DOM ミューテーション オブザーバー
+
 
 HTML ドキュメントのドキュメント オブジェクト モデル (DOM) の変更を監視して対応したいと考えている Java 開発者ですか? Aspose.HTML for Java は、このタスクのための強力なソリューションを提供します。このステップ バイ ステップ ガイドでは、Aspose.HTML for Java を使用して HTML ドキュメントを作成し、Mutation Observer を使用してノードの追加を監視する方法について説明します。このチュートリアルでは、各例を複数のステップに分割して、プロセスを順を追って説明します。最後には、Java プロジェクトに DOM Mutation Observer を簡単に実装できるようになります。
 
@@ -146,3 +152,9 @@ A4: 文字データの変更を観察することは、HTML 要素のテキス�
 ### Q5: Aspose.HTML for Java を使用するときにリソースを破棄するにはどうすればよいですか?
 
  A5: 作業が終わったらリソースを解放することが重要です。この例では、`document.dispose()` HTML ドキュメントに関連付けられたリソースをクリーンアップします。メモリ リークを回避するために、作成したオブジェクトとリソースを必ず破棄してください。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

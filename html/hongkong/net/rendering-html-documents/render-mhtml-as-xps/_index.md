@@ -3,10 +3,16 @@ title: 使用 Aspose.HTML 在 .NET 中將 MHTML 渲染為 XPS
 linktitle: 在 .NET 中將 MHTML 呈現為 XPS
 second_title: Aspose.HTML .NET HTML 操作 API
 description: 學習使用 Aspose.HTML 在 .NET 中將 MHTML 渲染為 XPS。增強您的 HTML 操作技能並促進您的 Web 開發專案！
-type: docs
 weight: 13
 url: /zh-hant/net/rendering-html-documents/render-mhtml-as-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.HTML 在 .NET 中將 MHTML 渲染為 XPS
+
 ## 介紹
 
 在動態的 Web 開發世界中，擁有合適的工具和函式庫可以讓一切變得不同。如果您在 .NET 中進行 HTML 操作和渲染，Aspose.HTML for .NET 是一個功能強大的程式庫，可以簡化您的任務並增強您的功能。在本教程中，我們將深入研究 Aspose.HTML for .NET，將範例分解為可管理的步驟，並為每個步驟提供清晰的解釋。
@@ -100,3 +106,9 @@ Aspose.HTML for .NET 是一個為 .NET 開發人員提供 HTML 操作和渲染�
 
 ### 我可以購買 Aspose.HTML for .NET 的臨時授權嗎？
 是的，您可以從購買頁面取得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

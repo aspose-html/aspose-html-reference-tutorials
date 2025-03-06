@@ -3,10 +3,16 @@ title: Java용 Aspose.HTML에서 샌드박싱 구현
 linktitle: Java용 Aspose.HTML에서 샌드박싱 구현
 second_title: Aspose.HTML을 사용한 Java HTML 처리
 description: Java용 Aspose.HTML에서 샌드박싱을 구현하여 HTML 문서에서 스크립트 실행을 안전하게 제어하고 이를 PDF로 변환하는 방법을 알아보세요.
-type: docs
 weight: 15
 url: /ko/java/configuring-environment/implement-sandboxing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.HTML에서 샌드박싱 구현
+
 ## 소개
 이 튜토리얼에서는 Java용 Aspose.HTML을 사용하여 샌드박싱을 구현하는 방법을 살펴보겠습니다. 환경 설정부터 간단한 HTML 파일 작성, 샌드박스 구성, HTML을 PDF로 변환하는 방법까지 안내해 드리며, 잠재적으로 유해한 스크립트를 제어합니다. 노련한 개발자이든 막 시작하는 개발자이든, 이 가이드는 안전한 웹 콘텐츠를 쉽게 만드는 데 필요한 도구를 제공합니다.
 ## 필수 조건
@@ -89,3 +95,9 @@ Java용 Aspose.HTML의 샌드박싱은 HTML 문서에서 스크립트 및 기타
  샌드박스화된 스크립트는 실행되지 않으며 해당 효과(예:`document.write`출력에 )이 나타나지 않습니다.
 ### 샌드박스 HTML을 PDF 외의 다른 형식으로 변환할 수 있나요?
 물론입니다! Aspose.HTML for Java는 이미지, XPS 등 다양한 형식으로의 변환을 지원합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

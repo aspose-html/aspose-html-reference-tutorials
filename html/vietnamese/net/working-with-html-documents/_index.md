@@ -3,10 +3,16 @@ title: Làm việc với tài liệu HTML
 linktitle: Làm việc với tài liệu HTML
 second_title: Aspose.HTML .NET API thao tác HTML
 description: Khám phá thế giới tạo và chỉnh sửa tài liệu HTML trong .NET với Aspose.HTML. Từ việc tạo tài liệu đơn giản đến chỉnh sửa chuyên sâu.
-type: docs
 weight: 23
 url: /vi/net/working-with-html-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Làm việc với tài liệu HTML
+
 
 Bạn có phải là một nhà phát triển web đang muốn dấn thân vào lĩnh vực tạo và xử lý tài liệu HTML bằng .NET không? Không cần tìm đâu xa! Trong loạt bài hướng dẫn toàn diện này, chúng ta sẽ khám phá sức mạnh của Aspose.HTML và cách nó có thể đơn giản hóa các tác vụ của bạn. Cho dù bạn là người mới hay là một nhà phát triển giàu kinh nghiệm, bạn sẽ tìm thấy những hiểu biết sâu sắc có giá trị và các mẹo thực tế để nâng cao kỹ năng của mình.
 
@@ -29,3 +35,9 @@ Sau khi nắm được những điều cơ bản, chúng ta sẽ đi sâu hơn v
 ### [Chỉnh sửa tài liệu trong .NET với Aspose.HTML](./editing-a-document/)
 
 Bây giờ, hãy đưa kỹ năng của bạn lên một tầm cao mới. Chỉnh sửa tài liệu HTML là một nhiệm vụ phổ biến đối với các nhà phát triển web và Aspose.HTML đơn giản hóa đáng kể quy trình này. Trong phần này, chúng tôi sẽ đề cập đến việc tạo, thao tác và định dạng tài liệu. Bạn sẽ khám phá cách nâng cao giao diện và chức năng của nội dung web, khiến nội dung đó hấp dẫn và thân thiện với người dùng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

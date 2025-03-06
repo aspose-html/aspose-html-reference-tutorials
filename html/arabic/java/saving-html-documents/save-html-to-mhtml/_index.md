@@ -3,10 +3,16 @@ title: حفظ HTML إلى MHTML في Aspose.HTML لـ Java
 linktitle: حفظ HTML إلى MHTML في Aspose.HTML لـ Java
 second_title: معالجة HTML باستخدام Java مع Aspose.HTML
 description: تعرف على كيفية حفظ مستندات HTML بتنسيق MHTML باستخدام Aspose.HTML لـ Java من خلال هذا الدليل خطوة بخطوة، والذي يشتمل على أمثلة التعليمات البرمجية والنصائح العملية.
-type: docs
 weight: 13
 url: /ar/java/saving-html-documents/save-html-to-mhtml/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# حفظ HTML إلى MHTML في Aspose.HTML لـ Java
+
 ## مقدمة
 في عالم تطوير الويب وتمثيل البيانات الواسع، ربما تكون قد صادفت تنسيقات ملفات مختلفة. أحد هذه التنسيقات هو MHTML، وهي طريقة رائعة لتجميع مستندات HTML مع جميع مكوناتها (مثل الصور والملفات المرتبطة) في ملف واحد. وهذا يجعل مشاركة صفحات الويب وتخزينها أمرًا مريحًا. إذا كنت تبحث عن حفظ محتوى HTML بتنسيق MHTML باستخدام Aspose.HTML for Java، فأنت في المكان المناسب! في هذا الدليل، سنرشدك خلال العملية بأكملها، خطوة بخطوة، لضمان فهمك لكل شيء على طول الطريق.
 
@@ -109,3 +115,9 @@ MHTML (MIME HTML) هو تنسيق أرشيف لصفحات الويب يجمع HT
 
 ### أين يمكنني العثور على مزيد من الوثائق حول Aspose.HTML لـ Java؟
  يمكنك العثور على وثائق وأمثلة شاملة على[صفحة توثيق Aspose HTML](https://reference.aspose.com/html/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

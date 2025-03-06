@@ -3,10 +3,16 @@ title: Conversion - HTML to Other Formats Tutorials
 linktitle: Conversion - HTML to Other Formats
 second_title: Java HTML Processing with Aspose.HTML
 description: Learn to convert HTML to PDF, MHTML, XPS, Markdown, SVG, and more in Java using Aspose.HTML. High-quality document conversions made easy.
-type: docs
 weight: 25
 url: /java/conversion-html-to-other-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Conversion - HTML to Other Formats Tutorials
+
 
 In the digital world, the ability to convert HTML content to various formats is an invaluable skill. Whether you are a web developer, content creator, or just someone looking to manipulate HTML data, knowing how to convert HTML to other formats can greatly enhance your capabilities. In this article, we will explore tutorials on converting HTML to different formats using Aspose.HTML for Java.
 
@@ -55,3 +61,9 @@ Learn how to convert SVG to images in Java with Aspose.HTML. Comprehensive guide
 Convert SVG to PDF in Java with Aspose.HTML. A seamless solution for high-quality document conversion.
 ### [Converting SVG to XPS](./convert-svg-to-xps/)
 Learn how to convert SVG to XPS with Aspose.HTML for Java. Simple, step-by-step guide for seamless conversions.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

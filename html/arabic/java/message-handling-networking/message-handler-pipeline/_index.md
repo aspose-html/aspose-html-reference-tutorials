@@ -3,10 +3,16 @@ title: إنشاء خطوط أنابيب معالجة الرسائل في Aspose.
 linktitle: إنشاء خطوط أنابيب معالجة الرسائل في Aspose.HTML لـ Java
 second_title: معالجة HTML باستخدام Java مع Aspose.HTML
 description: تعرف على كيفية إنشاء خطوط أنابيب معالجة الرسائل في Aspose.HTML for Java باستخدام هذا الدليل المفصل خطوة بخطوة. قم بتحويل ملفات ZIP إلى PDF بسهولة.
-type: docs
 weight: 13
 url: /ar/java/message-handling-networking/message-handler-pipeline/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إنشاء خطوط أنابيب معالجة الرسائل في Aspose.HTML لـ Java
+
 ## مقدمة
 في هذا الدليل، سنلقي نظرة عن كثب على كيفية إنشاء خطوط أنابيب معالجة الرسائل باستخدام Aspose.HTML. سواء كنت مطورًا متمرسًا أو مبتدئًا في البرمجة وتبحث عن تحسين مهاراتك، فسيوفر لك هذا البرنامج التعليمي جميع التعليمات والنصائح والحيل الأساسية خطوة بخطوة التي تحتاجها للبدء في استخدام هذه المكتبة الرائعة. فلنبدأ!
 ## المتطلبات الأساسية
@@ -119,3 +125,9 @@ Aspose.HTML for Java هي مكتبة تستخدم لمعالجة مستندات 
 لأي استفسارات يمكنكم زيارة[منتدى دعم Aspose](https://forum.aspose.com/c/html/29).
 ### ما هي معالجات الرسائل في Aspose.HTML؟
 معالجات الرسائل هي مكونات تعالج مراحل مختلفة في خط أنابيب معالجة المستندات، مثل فترات التسجيل أو تحويل تنسيقات المستندات.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

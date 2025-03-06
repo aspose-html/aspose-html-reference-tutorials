@@ -3,10 +3,16 @@ title: การใช้เทมเพลต HTML ใน .NET ด้วย Asp
 linktitle: การใช้เทมเพลต HTML ใน .NET
 second_title: API การจัดการ HTML ของ Aspose.HTML .NET
 description: เรียนรู้วิธีใช้ Aspose.HTML สำหรับ .NET เพื่อสร้างเอกสาร HTML แบบไดนามิกจากข้อมูล JSON ใช้ประโยชน์จากพลังของการจัดการ HTML ในแอปพลิเคชัน .NET ของคุณ
-type: docs
 weight: 17
 url: /th/net/advanced-features/using-html-templates/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การใช้เทมเพลต HTML ใน .NET ด้วย Aspose.HTML
+
 
 หากคุณกำลังมองหาวิธีทำงานกับเอกสารและเทมเพลต HTML ในแอปพลิเคชัน .NET คุณมาถูกที่แล้ว! Aspose.HTML สำหรับ .NET เป็นไลบรารีที่มีความยืดหยุ่นซึ่งช่วยให้นักพัฒนาสามารถจัดการเอกสารและเทมเพลต HTML ได้อย่างง่ายดาย ในบทช่วยสอนนี้ เราจะเจาะลึกถึงสิ่งสำคัญในการใช้ Aspose.HTML สำหรับ .NET โดยจะแบ่งขั้นตอนแต่ละขั้นตอนและให้คำอธิบายที่ชัดเจนตลอดขั้นตอน
 
@@ -138,3 +144,9 @@ A3: คุณสามารถดาวน์โหลด Aspose.HTML สำห
 ### คำถามที่ 5 ฉันต้องมีใบอนุญาตชั่วคราวสำหรับ Aspose.HTML สำหรับ .NET หรือไม่?
 
  A5: หากคุณต้องการใบอนุญาตชั่วคราวเพื่อวัตถุประสงค์ในการประเมินผล คุณสามารถขอรับได้จาก[ที่นี่](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

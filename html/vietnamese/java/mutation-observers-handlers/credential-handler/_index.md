@@ -3,10 +3,16 @@ title: Sử dụng Credential Handler trong Aspose.HTML cho Java
 linktitle: Sử dụng Credential Handler trong Aspose.HTML cho Java
 second_title: Xử lý HTML Java với Aspose.HTML
 description: Khám phá cách triển khai Trình xử lý thông tin xác thực an toàn bằng Aspose.HTML cho Java để quản lý xác thực người dùng hiệu quả.
-type: docs
 weight: 11
 url: /vi/java/mutation-observers-handlers/credential-handler/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sử dụng Credential Handler trong Aspose.HTML cho Java
+
 ## Giới thiệu
 Khi làm việc với các ứng dụng web yêu cầu thông tin xác thực của người dùng, việc quản lý thông tin xác thực đó một cách hiệu quả là rất quan trọng. Đó là lúc Aspose.HTML for Java phát huy tác dụng, cung cấp các công cụ để hợp lý hóa quy trình này. Trong hướng dẫn này, chúng ta sẽ đi sâu vào cách triển khai Trình xử lý thông tin xác thực với Aspose.HTML for Java, đảm bảo các hoạt động an toàn trong ứng dụng của bạn.
 ## Điều kiện tiên quyết
@@ -92,3 +98,9 @@ Aspose.HTML for Java là một thư viện được thiết kế để thao tác
  Chắc chắn rồi! Bạn có thể tìm thấy sự hỗ trợ và tham gia cộng đồng tại[Diễn đàn Aspose](https://forum.aspose.com/c/html/29).
 ###  Mục đích của việc này là gì?`setPreAuthenticate(true)` method?  
 Phương pháp này đảm bảo rằng thông tin xác thực được sử dụng tự động trong tiêu đề yêu cầu để xác thực mà không cần nhắc nhở người dùng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

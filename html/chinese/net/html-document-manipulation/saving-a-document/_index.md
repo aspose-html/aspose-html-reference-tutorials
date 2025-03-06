@@ -3,10 +3,16 @@ title: 使用 Aspose.HTML 在 .NET 中保存文档
 linktitle: 在 .NET 中保存文档
 second_title: Aspose.HTML .NET HTML 操作 API
 description: 通过我们的分步指南解锁 Aspose.HTML for .NET 的强大功能。学习创建、操作和转换 HTML 和 SVG 文档
-type: docs
 weight: 16
 url: /zh/net/html-document-manipulation/saving-a-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.HTML 在 .NET 中保存文档
+
 
 在当今的数字时代，创建和操作 HTML 和 SVG 文档对于许多软件开发人员和企业来说都是必不可少的。Aspose.HTML for .NET 是一个功能强大的库，可以简化这些任务，提供各种功能来处理 HTML、SVG 等。在本综合指南中，我们将深入探讨 Aspose.HTML for .NET 的基本知识，将每个示例分解为易于遵循的步骤。无论您是经验丰富的开发人员还是刚刚起步，您都会发现本指南对于利用 Aspose.HTML 的功能非常有用。
 
@@ -166,3 +172,9 @@ A4：是的，Aspose.HTML for .NET 支持转换为各种格式，包括 MHTML �
 ### Q5：在哪里可以获得 Aspose.HTML for .NET 的支持？
 
  A5：您可以在 Aspose.HTML 社区论坛中找到支持和问题的答案[这里](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

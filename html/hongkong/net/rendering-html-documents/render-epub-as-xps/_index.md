@@ -3,10 +3,16 @@ title: 使用 Aspose.HTML 在 .NET 中將 EPUB 渲染為 XPS
 linktitle: 在 .NET 中將 EPUB 渲染為 XPS
 second_title: Aspose.HTML .NET HTML 操作 API
 description: 在這個綜合教學中了解如何使用 Aspose.HTML for .NET 建立和渲染 HTML 文件。深入了解 HTML 操作、網頁抓取等領域。
-type: docs
 weight: 11
 url: /zh-hant/net/rendering-html-documents/render-epub-as-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.HTML 在 .NET 中將 EPUB 渲染為 XPS
+
 
 ## 介紹
 
@@ -99,3 +105,10 @@ using (var renderer = new EpubRenderer())
 
 是的，您可以透過購買許可證在商業項目中使用 Aspose.HTML for .NET[這裡](https://purchase.aspose.com/buy).
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

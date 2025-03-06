@@ -3,10 +3,16 @@ title: تكوين الخطوط في Aspose.HTML لـ Java
 linktitle: تكوين الخطوط في Aspose.HTML لـ Java
 second_title: معالجة HTML باستخدام Java مع Aspose.HTML
 description: تعرف على كيفية تكوين الخطوط في Aspose.HTML لـ Java باستخدام هذا الدليل المفصل خطوة بخطوة. يمكنك تحسين تحويلات HTML إلى PDF باستخدام الخطوط والأنماط المخصصة.
-type: docs
 weight: 11
 url: /ar/java/configuring-environment/configure-fonts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تكوين الخطوط في Aspose.HTML لـ Java
+
 ## مقدمة
 عند العمل مع مستندات HTML في Java، يعد تكوين الخطوط بشكل صحيح أمرًا ضروريًا لإنشاء محتوى جذاب بصريًا وقابل للقراءة. سواء كنت تقوم بإنشاء تقارير أو إنشاء صفحات ويب أو تحويل مستندات، فإن التأكد من تكوين الخطوط بشكل صحيح يمكن أن يحدث فرقًا كبيرًا. سيرشدك هذا البرنامج التعليمي خلال عملية تكوين الخطوط في Aspose.HTML لـ Java، من إعداد البيئة الخاصة بك إلى تحويل HTML إلى PDF باستخدام خطوط مخصصة. لذا، دعنا نتعمق!
 
@@ -123,3 +129,9 @@ if (configuration != null) {
 نعم، يدعم Aspose.HTML مجموعة واسعة من أنماط CSS. يمكنك تطبيق أنماط معقدة كما تفعل في بيئة الويب العادية.
 ### أين يمكنني العثور على المزيد من الأمثلة والوثائق؟  
  يمكنك العثور على أمثلة ووثائق أكثر تفصيلاً على[صفحة توثيق Aspose.HTML لـ Java](https://reference.aspose.com/html/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: HTML Form Editing and Submission with Aspose.HTML for Java
 linktitle: HTML Form Editing and Submission with Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 description: Learn how to edit and submit HTML forms programmatically using Aspose.HTML for Java in this comprehensive step-by-step guide.
-type: docs
 weight: 11
 url: /java/css-html-form-editing/html-form-editing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# HTML Form Editing and Submission with Aspose.HTML for Java
+
 ## Introduction
 In today’s web-driven world, interacting with HTML forms is a common task for developers, whether it’s filling out forms, submitting them, or automating data entry. Aspose.HTML for Java provides a robust solution for managing HTML forms programmatically. This article will guide you through editing and submitting HTML forms using Aspose.HTML for Java, with a step-by-step tutorial that breaks down the process into manageable pieces.
 ## Prerequisites
@@ -112,3 +118,10 @@ You can configure the `FormSubmitter` object to include user credentials and han
 Currently, form submissions are synchronous. However, you can manage asynchronous operations in your Java application by running the submission in a separate thread.
 ### What happens if the form submission fails?
 If the submission fails, the `SubmissionResult` object will not be marked as successful, and you can handle errors by inspecting the response message or exception details.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

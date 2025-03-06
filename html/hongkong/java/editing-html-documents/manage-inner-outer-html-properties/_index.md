@@ -3,10 +3,16 @@ title: 在 Aspose.HTML for Java 中管理內部和外部 HTML 屬性
 linktitle: 在 Aspose.HTML for Java 中管理內部和外部 HTML 屬性
 second_title: 使用 Aspose.HTML 進行 Java HTML 處理
 description: 透過此逐步指南，了解如何在 Aspose.HTML for Java 中管理內部和外部 HTML 屬性，非常適合 Web 開發人員和內容創作者。
-type: docs
 weight: 15
 url: /zh-hant/java/editing-html-documents/manage-inner-outer-html-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.HTML for Java 中管理內部和外部 HTML 屬性
+
 ## 介紹
 在當今以網路為中心的世界中，了解如何操作 HTML 對於開發人員和內容創作者至關重要。這很像在數位畫布上繪畫，您的程式碼可以決定外觀和功能。 Aspose.HTML for Java 是一個出色的函式庫，它提供了以程式設計方式管理 HTML 和 CSS 的獨特功能。在本指南中，我們將透過探索如何管理內部和外部 HTML 屬性來深入了解 Aspose.HTML 的世界，使我們的 Web 內容不僅動態且引人入勝。繫好安全帶，讓我們踏上這段資訊豐富的旅程！
 
@@ -112,3 +118,10 @@ Aspose.HTML 主要是為 Java 應用程式設計的，但您可以在可以與 A
 
 ### 如果遇到問題，我可以在哪裡找到支援？  
 如果您需要協助，請造訪 Aspose 論壇[這裡](https://forum.aspose.com/c/html/29)取得開發者社群和 Aspose 專家的指導。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

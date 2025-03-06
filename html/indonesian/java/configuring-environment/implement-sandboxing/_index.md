@@ -3,10 +3,16 @@ title: Menerapkan Sandboxing di Aspose.HTML untuk Java
 linktitle: Menerapkan Sandboxing di Aspose.HTML untuk Java
 second_title: Pemrosesan HTML Java dengan Aspose.HTML
 description: Pelajari cara menerapkan sandboxing di Aspose.HTML untuk Java untuk mengontrol eksekusi skrip secara aman dalam dokumen HTML Anda dan mengonversinya ke PDF.
-type: docs
 weight: 15
 url: /id/java/configuring-environment/implement-sandboxing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menerapkan Sandboxing di Aspose.HTML untuk Java
+
 ## Perkenalan
 Dalam tutorial ini, kami akan memandu Anda untuk menerapkan sandboxing menggunakan Aspose.HTML untuk Java. Kami akan memandu Anda mulai dari menyiapkan lingkungan hingga menulis file HTML sederhana, mengonfigurasi sandbox, dan mengonversi HTML Anda ke PDF, sambil tetap mengendalikan skrip yang berpotensi membahayakan. Baik Anda pengembang berpengalaman atau baru memulai, panduan ini akan memberi Anda alat yang Anda butuhkan untuk membuat konten web yang aman dengan mudah.
 ## Prasyarat
@@ -89,3 +95,9 @@ Tidak selalu, tetapi ini penting saat bekerja dengan konten yang tidak tepercaya
  Skrip yang di-sandbox tidak akan dieksekusi, dan efeknya (seperti`document.write`) tidak akan muncul dalam keluaran.
 ### Bisakah saya mengonversi HTML kotak pasir ke format lain selain PDF?
 Tentu saja! Aspose.HTML untuk Java mendukung konversi ke berbagai format, termasuk gambar, XPS, dan banyak lagi.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

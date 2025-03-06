@@ -3,10 +3,16 @@ title: Określanie niestandardowego dostawcy strumienia dla konwersji EPUB na ob
 linktitle: Określanie niestandardowego dostawcy strumienia dla konwersji EPUB na obraz
 second_title: Przetwarzanie HTML w Javie za pomocą Aspose.HTML
 description: Dowiedz się, jak używać Aspose.HTML for Java do konwersji plików EPUB na obrazy, korzystając z tego przewodnika krok po kroku.
-type: docs
 weight: 15
 url: /pl/java/converting-epub-to-pdf/convert-epub-to-image-specify-custom-stream-provider/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Określanie niestandardowego dostawcy strumienia dla konwersji EPUB na obraz
+
 
 Czy jesteś gotowy wykorzystać moc Aspose.HTML dla Java? Ten kompleksowy przewodnik przeprowadzi Cię przez proces krok po kroku. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz, mamy dla Ciebie rozwiązanie. 
 
@@ -107,3 +113,10 @@ Aspose.HTML for Java to biblioteka umożliwiająca programistom Java pracę z pl
 ### 5. Gdzie mogę uzyskać pomoc dotyczącą Aspose.HTML dla Java?
 
  Wsparcie znajdziesz na[Fora Aspose](https://forum.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

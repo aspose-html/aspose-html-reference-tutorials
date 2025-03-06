@@ -3,10 +3,16 @@ title: Memory Stream Provider in .NET with Aspose.HTML
 linktitle: Memory Stream Provider in .NET
 second_title: Aspose.HTML .NET HTML manipulation API
 description: Learn how to create stunning HTML documents in .NET with Aspose.HTML. Follow our step-by-step tutorial and unlock the power of HTML manipulation.
-type: docs
 weight: 12
 url: /net/advanced-features/memory-stream-provider/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Memory Stream Provider in .NET with Aspose.HTML
+
 
 Are you looking to harness the power of Aspose.HTML for .NET to create beautiful and feature-rich HTML documents in your .NET applications? You're in the right place! In this comprehensive tutorial, we'll guide you through the process, breaking down each step into easy-to-follow instructions. Whether you're a seasoned developer or just starting with Aspose.HTML, this guide will ensure you create remarkable HTML documents effortlessly.
 
@@ -123,3 +129,10 @@ A4: You can access the documentation for Aspose.HTML for .NET [here](https://ref
 
 A5: Yes, you can explore a free trial of Aspose.HTML for .NET [here](https://releases.aspose.com/).
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

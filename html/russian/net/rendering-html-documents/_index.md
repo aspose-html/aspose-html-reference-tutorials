@@ -3,10 +3,16 @@ title: Рендеринг HTML-документов
 linktitle: Рендеринг HTML-документов
 second_title: API манипуляции HTML Aspose.HTML .NET
 description: Узнайте, как легко визуализировать HTML-документы с помощью учебных пособий Aspose.HTML для .NET. Изучите полный список учебных пособий, чтобы освоить визуализацию HTML.
-type: docs
 weight: 29
 url: /ru/net/rendering-html-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Рендеринг HTML-документов
+
 
 Хотите получить опыт в рендеринге HTML-документов с помощью Aspose.HTML для .NET? Не ищите дальше! В этом подробном руководстве мы проведем вас по всему процессу шаг за шагом, гарантируя, что вы станете экспертом в рендеринге HTML с помощью Aspose.HTML.
 
@@ -46,3 +52,9 @@ Aspose.HTML для .NET выделяется как лучший выбор дл
 Научитесь визуализировать несколько HTML-документов с помощью Aspose.HTML для .NET. Расширьте свои возможности обработки документов с помощью этой мощной библиотеки.
 ### [Рендеринг SVG Doc как PNG в .NET с помощью Aspose.HTML](./render-svg-doc-as-png/)
 Откройте для себя мощь Aspose.HTML для .NET! Узнайте, как легко визуализировать SVG Doc как PNG. Погрузитесь в пошаговые примеры и часто задаваемые вопросы. Начните прямо сейчас!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

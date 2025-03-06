@@ -3,10 +3,16 @@ title: Aspose.HTML for Java の ZIP アーカイブ メッセージ ハンドラ
 linktitle: Aspose.HTML for Java の ZIP アーカイブ メッセージ ハンドラー
 second_title: Aspose.HTML を使用した Java HTML 処理
 description: Aspose.HTML for Java を使用して ZIP アーカイブ メッセージ ハンドラーを作成する方法を学びます。このガイドでは、ZIP アーカイブのファイルを効率的に管理および提供できるように、各手順を詳しく説明します。
-type: docs
 weight: 10
 url: /ja/java/handling-zip-files/zip-archive-message-handler/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.HTML for Java の ZIP アーカイブ メッセージ ハンドラー
+
 ## 導入
 ZIP アーカイブの操作は、さまざまな形式のデータを管理する上で、特に Web リソースを効率的に処理する場合に重要な部分です。このガイドでは、Aspose.HTML for Java を使用して ZIP アーカイブ メッセージ ハンドラーを作成する手順を説明します。このハンドラーを使用すると、ZIP アーカイブから直接ファイルを読み取り、ネットワーク要求への応答として提供できます。これは、特に 1 つのアーカイブに圧縮された大量のデータ セットを処理する場合に、ファイル管理を効率化する強力な方法です。
 ## 前提条件
@@ -110,3 +116,10 @@ ZIP アーカイブから直接ファイルを読み取り、ネットワーク�
 すべてのケースで必要というわけではないが、`dispose`ハンドラによって使用されるリソースが適切に解放されるようにすることは良い習慣です。
 ### このハンドラは Web サーバーで使用できますか?  
 もちろんです! このハンドラーは、HTTP リクエストに応答して ZIP アーカイブからファイルを提供する必要がある Web アプリケーションで使用するように設計されています。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

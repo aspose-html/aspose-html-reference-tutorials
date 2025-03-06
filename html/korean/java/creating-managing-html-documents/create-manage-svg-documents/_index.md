@@ -3,10 +3,16 @@ title: Java용 Aspose.HTML에서 SVG 문서 만들기 및 관리
 linktitle: Java용 Aspose.HTML에서 SVG 문서 만들기 및 관리
 second_title: Aspose.HTML을 사용한 Java HTML 처리
 description: Java용 Aspose.HTML을 사용하여 SVG 문서를 만들고 관리하는 방법을 알아보세요! 이 포괄적인 가이드는 기본 생성부터 고급 조작까지 모든 것을 다룹니다.
-type: docs
 weight: 19
 url: /ko/java/creating-managing-html-documents/create-manage-svg-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.HTML에서 SVG 문서 만들기 및 관리
+
 ## 소개
 웹 개발의 현대 세계에서 동적이고 반응형 그래픽은 사용자 경험을 향상시키는 데 중요한 역할을 합니다. 확장 가능한 벡터 그래픽(SVG)은 다양한 기기에서 유연성과 고품질 해상도로 개발자에게 선호도가 높아졌습니다. 강력한 Aspose.HTML for Java 라이브러리를 사용하면 개발자는 SVG 문서를 프로그래밍 방식으로 쉽게 만들고 조작할 수 있습니다. Java 애플리케이션에서 SVG 그래픽을 관리하기 위해 Aspose.HTML을 활용하는 방법을 살펴보겠습니다!
 ## 필수 조건
@@ -83,3 +89,9 @@ SVG는 확장 가능 벡터 그래픽(Scalable Vector Graphics)의 약자로, �
 원, 사각형, 다각형, 경로 등 모든 SVG 모양을 만들 수 있습니다.
 ### Aspose.HTML에 대한 지원은 어떻게 받을 수 있나요?
 다음에서 지원을 찾을 수 있습니다.[Aspose 포럼](https://forum.aspose.com/c/html/29).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

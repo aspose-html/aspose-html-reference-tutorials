@@ -3,10 +3,16 @@ title: Konversi HTML ke MHTML di .NET dengan Aspose.HTML
 linktitle: Konversi HTML ke MHTML di .NET
 second_title: Aspose.HTML .NET API manipulasi HTML
 description: Konversi HTML ke MHTML dalam .NET dengan Aspose.HTML - Panduan langkah demi langkah untuk pengarsipan konten web yang efisien. Pelajari cara menggunakan Aspose.HTML untuk .NET guna membuat arsip MHTML.
-type: docs
 weight: 19
 url: /id/net/html-extensions-and-conversions/convert-html-to-mhtml/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konversi HTML ke MHTML di .NET dengan Aspose.HTML
+
 
 Dalam dunia pengembangan web, konversi dokumen yang efisien sangatlah penting. Pustaka Aspose.HTML untuk .NET adalah alat yang hebat yang menyederhanakan konversi dokumen HTML ke dalam berbagai format, termasuk MHTML. MHTML, kependekan dari "MIME HTML," adalah format arsip halaman web yang memungkinkan Anda menyimpan halaman web dan sumber dayanya dalam satu berkas. Dalam panduan langkah demi langkah ini, kami akan memandu Anda melalui proses konversi dokumen HTML ke MHTML menggunakan Aspose.HTML untuk .NET.
 
@@ -109,3 +115,10 @@ MHTML, kependekan dari "MIME HTML," adalah format arsip halaman web yang memungk
 
  Jika Anda memerlukan lisensi sementara, Anda dapat memperolehnya dari[Situs web Aspose.Purchase](https://purchase.aspose.com/temporary-license/)Lisensi sementara ini akan memberi Anda akses ke fungsionalitas penuh perpustakaan untuk waktu terbatas.
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Δημιουργία αγωγών χειρισμού μηνυμάτων �
 linktitle: Δημιουργία αγωγών χειρισμού μηνυμάτων στο Aspose.HTML για Java
 second_title: Επεξεργασία Java HTML με Aspose.HTML
 description: Μάθετε πώς να δημιουργείτε γραμμές διαχείρισης μηνυμάτων στο Aspose.HTML για Java με αυτόν τον λεπτομερή, βήμα προς βήμα οδηγό. Μετατρέψτε τα ZIP σε PDF χωρίς κόπο.
-type: docs
 weight: 13
 url: /el/java/message-handling-networking/message-handler-pipeline/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Δημιουργία αγωγών χειρισμού μηνυμάτων στο Aspose.HTML για Java
+
 ## Εισαγωγή
 Σε αυτόν τον οδηγό, θα ρίξουμε μια πιο προσεκτική ματιά στον τρόπο δημιουργίας αγωγών διαχείρισης μηνυμάτων με το Aspose.HTML. Είτε είστε έμπειρος προγραμματιστής είτε αρχάριος προγραμματιστής που θέλει να βελτιώσει τις δεξιότητές σας, αυτό το σεμινάριο θα σας παρέχει όλες τις βασικές οδηγίες βήμα προς βήμα, συμβουλές και κόλπα που χρειάζεστε για να ξεκινήσετε με αυτήν τη φανταστική βιβλιοθήκη. Ας μπούμε σε αυτό!
 ## Προαπαιτούμενα
@@ -119,3 +125,9 @@ document.renderTo(device);
 Για οποιαδήποτε απορία, μπορείτε να επισκεφτείτε το[Aspose Support Forum](https://forum.aspose.com/c/html/29).
 ### Τι είναι οι χειριστές μηνυμάτων στο Aspose.HTML;
 Οι χειριστές μηνυμάτων είναι στοιχεία που επεξεργάζονται διάφορα στάδια στη διοχέτευση χειρισμού εγγράφων, όπως η διάρκεια καταγραφής ή η μετατροπή μορφών εγγράφων.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

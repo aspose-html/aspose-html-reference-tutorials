@@ -3,10 +3,16 @@ title: Java için Aspose.HTML'de Kimlik Bilgisi İşleyicisini Kullanma
 linktitle: Java için Aspose.HTML'de Kimlik Bilgisi İşleyicisini Kullanma
 second_title: Aspose.HTML ile Java HTML İşleme
 description: Kullanıcı kimlik doğrulamasını etkili bir şekilde yönetmek için Java için Aspose.HTML'i kullanarak güvenli bir Kimlik Bilgisi İşleyicisinin nasıl uygulanacağını keşfedin.
-type: docs
 weight: 11
 url: /tr/java/mutation-observers-handlers/credential-handler/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java için Aspose.HTML'de Kimlik Bilgisi İşleyicisini Kullanma
+
 ## giriiş
 Kimlik doğrulaması için kullanıcı kimlik bilgileri gerektiren web uygulamalarıyla çalışırken, bu kimlik bilgilerini etkili bir şekilde yönetmek çok önemlidir. İşte tam bu noktada Aspose.HTML for Java devreye girerek bu süreci kolaylaştıran araçlar sunar. Bu kılavuzda, uygulamalarınızda güvenli işlemleri garanti altına alarak Aspose.HTML for Java ile bir Kimlik Bilgisi İşleyicisi'nin nasıl uygulanacağını inceleyeceğiz.
 ## Ön koşullar
@@ -92,3 +98,9 @@ Java için Aspose.HTML, Java uygulamalarında HTML dosyalarını düzenlemek ve 
  Kesinlikle! Topluluktan destek alabilir ve onlarla etkileşime girebilirsiniz[Aspose forumları](https://forum.aspose.com/c/html/29).
 ###  Amacı nedir?`setPreAuthenticate(true)` method?  
 Bu yöntem, kimlik bilgilerinin kullanıcıya sorulmadan kimlik doğrulaması için istek başlığında otomatik olarak kullanılmasını sağlar.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

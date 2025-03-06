@@ -3,10 +3,16 @@ title: Conversión de SVG a imágenes con Aspose.HTML para Java
 linktitle: Conversión de SVG a imagen
 second_title: Procesamiento de HTML en Java con Aspose.HTML
 description: Aprenda a convertir SVG a imágenes en Java con Aspose.HTML. Guía completa para obtener resultados de alta calidad.
-type: docs
 weight: 14
 url: /es/java/conversion-html-to-other-formats/convert-svg-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Conversión de SVG a imágenes con Aspose.HTML para Java
+
 ## Introducción
 
 ¿Está buscando convertir gráficos vectoriales escalables (SVG) a formatos de imagen con Java? Aspose.HTML para Java es la herramienta perfecta para esta tarea. En esta guía completa, lo guiaremos a través del proceso paso a paso. Cubriremos los requisitos previos, la importación de paquetes y desglosaremos cada ejemplo en varios pasos. Al final de este tutorial, podrá convertir sin esfuerzo archivos SVG a varios formatos de imagen con Aspose.HTML. ¡Comencemos!
@@ -96,3 +102,9 @@ A3: Aspose.HTML ofrece una versión de prueba gratuita que le permite explorar s
 ### Q5: ¿Puedo obtener una licencia temporal de Aspose.HTML para Java?
 
  A5: Sí, puede obtener una licencia temporal para fines de evaluación o prueba de[Este enlace](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

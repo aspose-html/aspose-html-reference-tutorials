@@ -3,10 +3,16 @@ title: Tạo tài liệu HTML trống trong Aspose.HTML cho Java
 linktitle: Tạo tài liệu HTML trống trong Aspose.HTML cho Java
 second_title: Xử lý HTML Java với Aspose.HTML
 description: Tìm hiểu cách tạo tài liệu HTML trống trong Java bằng Aspose.HTML với hướng dẫn từng bước chi tiết của chúng tôi, hoàn hảo cho các nhà phát triển ở mọi cấp độ.
-type: docs
 weight: 11
 url: /vi/java/creating-managing-html-documents/create-empty-html-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo tài liệu HTML trống trong Aspose.HTML cho Java
+
 ## Giới thiệu
 Khi nói đến việc xử lý các tài liệu HTML trong Java, Aspose.HTML là một bộ công cụ mạnh mẽ giúp việc tạo, thao tác và quản lý các tài liệu HTML trở nên dễ dàng. Cho dù bạn là một nhà phát triển muốn tự động hóa việc tạo HTML hay là người muốn thêm nhiều chức năng hơn vào các ứng dụng web của mình, thì việc tạo một tài liệu HTML trống thường là bước đầu tiên. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình tạo một tài liệu HTML trống bằng Aspose.HTML cho Java. Vậy thì, hãy lấy đồ uống yêu thích của bạn và bắt đầu thôi!
 ## Điều kiện tiên quyết
@@ -51,3 +57,9 @@ Trong khi Aspose.HTML cung cấp bản dùng thử miễn phí, nó yêu cầu g
 Không loại bỏ đối tượng tài liệu có thể dẫn đến rò rỉ bộ nhớ, đặc biệt là trong các ứng dụng lớn hơn.
 ### Tôi có thể sửa đổi tài liệu HTML sau khi lưu không?
 Có, bạn có thể mở lại tài liệu đã lưu và sửa đổi nội dung nếu cần trước khi lưu lại.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

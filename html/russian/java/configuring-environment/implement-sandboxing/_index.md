@@ -3,10 +3,16 @@ title: Реализация песочницы в Aspose.HTML для Java
 linktitle: Реализация песочницы в Aspose.HTML для Java
 second_title: Обработка Java HTML с помощью Aspose.HTML
 description: Узнайте, как реализовать «песочницу» в Aspose.HTML для Java, чтобы безопасно контролировать выполнение скриптов в ваших HTML-документах и преобразовывать их в PDF.
-type: docs
 weight: 15
 url: /ru/java/configuring-environment/implement-sandboxing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Реализация песочницы в Aspose.HTML для Java
+
 ## Введение
 В этом руководстве мы рассмотрим, как реализовать песочницу с помощью Aspose.HTML для Java. Мы проведем вас от настройки среды до написания простого HTML-файла, настройки песочницы и преобразования HTML в PDF, все это время контролируя потенциально опасные скрипты. Независимо от того, являетесь ли вы опытным разработчиком или только начинаете, это руководство предоставит вам инструменты, необходимые для создания безопасного веб-контента с легкостью.
 ## Предпосылки
@@ -89,3 +95,9 @@ if (configuration != null) {
  Скрипты, находящиеся в песочнице, не будут выполняться, а их эффекты (например,`document.write`) не будет отображаться в выходных данных.
 ### Могу ли я преобразовать изолированный HTML-файл в другие форматы, помимо PDF?
 Конечно! Aspose.HTML для Java поддерживает преобразование в различные форматы, включая изображения, XPS и другие.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

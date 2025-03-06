@@ -3,10 +3,16 @@ title: 使用 Aspose.HTML for Java 将 HTML Canvas 转换为 PDF
 linktitle: 将画布转换为 PDF
 second_title: 使用 Aspose.HTML 进行 Java HTML 处理
 description: 通过本分步指南了解如何使用 Aspose.HTML for Java 将 HTML Canvas 转换为 PDF。
-type: docs
 weight: 10
 url: /zh/java/conversion-canvas-to-pdf/canvas-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.HTML for Java 将 HTML Canvas 转换为 PDF
+
 在本综合教程中，我们将引导您完成使用 Aspose.HTML for Java 将 Canvas 转换为 PDF 的过程。Aspose.HTML 是一个功能强大的库，允许您操作 HTML 文档，使其成为各种应用程序的宝贵工具，包括将 HTML 内容转换为 PDF。要继续本教程，请确保您已具备必要的先决条件。
 
 ## 先决条件
@@ -102,3 +108,9 @@ A4：当然！Aspose.HTML 提供了许多自定义 PDF 输出的选项，例如�
 ### Q5: 在哪里可以找到 Aspose.HTML for Java 的详细文档？
 
  A5: 您可以在[Aspose.HTML 文档](https://reference.aspose.com/html/java/)页。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Especificación de un proveedor de transmisión personalizado para la con
 linktitle: Especificación de un proveedor de transmisión personalizado para la conversión de EPUB a imagen
 second_title: Procesamiento de HTML en Java con Aspose.HTML
 description: Aprenda a utilizar Aspose.HTML para Java para convertir archivos EPUB en imágenes con esta guía paso a paso.
-type: docs
 weight: 15
 url: /es/java/converting-epub-to-pdf/convert-epub-to-image-specify-custom-stream-provider/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Especificación de un proveedor de transmisión personalizado para la conversión de EPUB a imagen
+
 
 ¿Está listo para aprovechar el poder de Aspose.HTML para Java? Esta guía completa lo guiará a través del proceso, paso a paso. Ya sea que sea un desarrollador experimentado o recién esté comenzando, lo ayudaremos. 
 
@@ -107,3 +113,10 @@ Aspose.HTML para Java es una biblioteca que permite a los desarrolladores de Jav
 ### 5. ¿Dónde puedo obtener soporte para Aspose.HTML para Java?
 
  Puede encontrar ayuda en el[Foros de Aspose](https://forum.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

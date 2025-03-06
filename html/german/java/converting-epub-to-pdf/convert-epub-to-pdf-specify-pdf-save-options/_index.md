@@ -3,10 +3,16 @@ title: Festlegen von PDF-Speicheroptionen für EPUB in PDF
 linktitle: Festlegen von PDF-Speicheroptionen für EPUB in PDF
 second_title: Java-HTML-Verarbeitung mit Aspose.HTML
 description: Erfahren Sie, wie Sie mit Aspose.HTML, einer leistungsstarken HTML-Bearbeitungsbibliothek, EPUB in Java in PDF konvertieren.
-type: docs
 weight: 12
 url: /de/java/converting-epub-to-pdf/convert-epub-to-pdf-specify-pdf-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Festlegen von PDF-Speicheroptionen für EPUB in PDF
+
 
 ## Einführung
 
@@ -111,3 +117,10 @@ Die Testversion weist möglicherweise einige Einschränkungen auf. Es wird daher
 
 ### Wo erhalte ich Support für Aspose.HTML für Java?
 Antworten auf Ihre Fragen und Unterstützung finden Sie auf der[Aspose.HTML-Forum](https://forum.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

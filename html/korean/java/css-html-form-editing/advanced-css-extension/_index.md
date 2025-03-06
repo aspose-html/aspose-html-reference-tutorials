@@ -3,10 +3,16 @@ title: Java용 Aspose.HTML을 사용한 고급 CSS 확장 기술
 linktitle: Java용 Aspose.HTML을 사용한 고급 CSS 확장 기술
 second_title: Aspose.HTML을 사용한 Java HTML 처리
 description: Aspose.HTML for Java를 사용하여 사용자 정의 페이지 여백 및 동적 콘텐츠를 포함한 고급 CSS 기술을 적용하는 방법을 알아보세요. 개발자를 위한 자세하고 실용적인 튜토리얼입니다.
-type: docs
 weight: 10
 url: /ko/java/css-html-form-editing/advanced-css-extension/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.HTML을 사용한 고급 CSS 확장 기술
+
 ## 소개
 CSS 기술을 한 단계 업그레이드할 준비가 되셨나요? HTML 문서에 고급 스타일을 손쉽게 적용하고, 여백을 사용자 지정하고, Java를 사용하는 동안 프로처럼 여백에 콘텐츠를 삽입하는 것을 상상해보세요! 흥미진진하게 들리죠? 이것이 바로 이 튜토리얼에서 살펴볼 내용입니다. Java용 Aspose.HTML의 세계로 뛰어들어 강력한 기능을 활용하여 CSS 스타일을 개선하는 방법을 알아봅니다. 노련한 개발자이든 방금 시작한 개발자이든, 이 가이드는 명확한 설명과 실습 예제를 통해 모든 단계를 안내합니다.
 이 튜토리얼에서는 사용자 지정 여백을 적용하고 Java용 Aspose.HTML을 사용하여 여백에 콘텐츠를 추가하는 데 중점을 둡니다. 마지막에는 CSS로 페이지 레이아웃을 제어하는 방법과 원하는 스타일로 페이지 번호 및 제목과 같은 동적 콘텐츠가 있는 문서를 생성하는 방법을 확실히 이해하게 될 것입니다.
@@ -94,3 +100,9 @@ Aspose.HTML for Java 내의 User Agent 서비스를 사용하여 사용자 정�
 물론입니다! Aspose.HTML for Java는 대규모 문서 처리 작업을 처리하도록 설계되어 강력한 HTML 처리 기능이 필요한 엔터프라이즈급 애플리케이션에 적합합니다.
 ### 구매하기 전에 Java용 Aspose.HTML을 사용해 볼 수 있나요?
 예, Java용 Aspose.HTML의 무료 평가판을 다운로드할 수 있습니다.[Aspose 웹사이트](https://releases.aspose.com/html/java/)이를 통해 해당 기능을 탐색하고 개발 워크플로에 어떻게 들어맞는지 확인할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

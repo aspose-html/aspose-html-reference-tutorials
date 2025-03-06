@@ -3,10 +3,16 @@ title: Tải tài liệu HTML từ tệp trong Aspose.HTML cho Java
 linktitle: Tải tài liệu HTML từ tệp trong Aspose.HTML cho Java
 second_title: Xử lý HTML Java với Aspose.HTML
 description: Mở khóa sức mạnh của thao tác HTML với Aspose.HTML cho Java. Học cách tải tài liệu HTML từ tệp với hướng dẫn từng bước.
-type: docs
 weight: 12
 url: /vi/java/creating-managing-html-documents/load-html-documents-from-file/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tải tài liệu HTML từ tệp trong Aspose.HTML cho Java
+
 ## Giới thiệu
 Bạn đã sẵn sàng để đắm mình vào thế giới thao tác tài liệu HTML chưa? Cho dù bạn là một nhà phát triển dày dạn kinh nghiệm hay chỉ mới bắt đầu, việc hiểu cách xử lý các tệp HTML theo chương trình có thể mở ra vô số cơ hội cho các dự án của bạn. Hướng dẫn này tập trung vào cách tải các tài liệu HTML từ một tệp bằng Aspose.HTML cho Java, cung cấp cho bạn tất cả các bước và mẹo cần thiết mà bạn cần. Từ việc thiết lập môi trường của bạn đến thực hiện tải tài liệu thành công đầu tiên của bạn, tôi ở đây để giúp bạn trong từng bước thực hiện.
 ## Điều kiện tiên quyết
@@ -59,3 +65,9 @@ Aspose.HTML for Java là một thư viện mạnh mẽ được thiết kế đ�
  Bạn có thể tìm thấy sự hỗ trợ trên[Diễn đàn Aspose](https://forum.aspose.com/c/html/29).
 ### Làm thế nào tôi có thể mua giấy phép cho Aspose.HTML?  
  Bạn có thể mua giấy phép từ[Trang mua hàng Aspose](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

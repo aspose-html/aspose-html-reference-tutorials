@@ -3,10 +3,16 @@ title: Aspose.HTML で HTML ページの余白をカスタマイズする
 linktitle: CSS 拡張機能 - タイトルとページ番号の追加
 second_title: Aspose.HTML を使用した Java HTML 処理
 description: Aspose.HTML for Java を使用して、ページ余白をカスタマイズし、ページ番号とタイトルを HTML ドキュメントに追加する方法を学びます。
-type: docs
 weight: 10
 url: /ja/java/advanced-usage/css-extensions-adding-title-page-number/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.HTML で HTML ページの余白をカスタマイズする
+
 Aspose.HTML for Java は、Java アプリケーションで HTML ドキュメントを処理するための強力なライブラリです。このチュートリアルでは、Aspose.HTML for Java を使用して、カスタム ページ マージンを作成し、HTML ドキュメントにページ番号とタイトルを追加する方法について説明します。このステップ バイ ステップ ガイドでは、プロセスを管理しやすいステップに分解して、これらの機能を HTML ドキュメントに簡単に統合できるようにします。
 
 ## 前提条件
@@ -119,3 +125,9 @@ A4: はい、Aspose.HTML for Java を使用すると、HTML ドキュメント�
 ### Q5: Aspose.HTML for Java を使用するにはライセンスが必要ですか?
 
  A5: はい、ライセンスまたは無料トライアルは以下から入手できます。[ここ](https://purchase.aspose.com/buy)または[ここ](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: إدارة مهلة الشبكة في Aspose.HTML لـ Java
 linktitle: إدارة مهلة الشبكة في Aspose.HTML لـ Java
 second_title: معالجة HTML باستخدام Java مع Aspose.HTML
 description: تعرف على كيفية إدارة مهلة الشبكة باستخدام Aspose.HTML لـ Java في هذا الدليل الشامل. اضمن تجربة مستخدم سلسة من خلال التعامل الفعال مع مهلة الشبكة.
-type: docs
 weight: 12
 url: /ar/java/message-handling-networking/network-timeout/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إدارة مهلة الشبكة في Aspose.HTML لـ Java
+
 ## مقدمة
 عند تطوير التطبيقات التي تعتمد على عمليات الشبكة، فإن إدارة أوقات توقف الشبكة أمر بالغ الأهمية لضمان تجارب سلسة للمستخدم. تخيل أنك تحاول تحميل صفحة ويب، وتستغرق وقتًا طويلاً للاستجابة. إنه أمر محبط، أليس كذلك؟ هنا يأتي دور Aspose.HTML for Java، حيث يوفر أدوات قوية لإدارة مستندات HTML وتحويلاتها. في هذا البرنامج التعليمي، سنتعمق في كيفية إدارة أوقات توقف الشبكة بشكل فعال باستخدام Aspose.HTML for Java. سنقوم بتقسيم العملية خطوة بخطوة، لضمان فهمك لكل جزء من التنفيذ.
 ## المتطلبات الأساسية
@@ -72,3 +78,9 @@ Aspose.HTML for Java هي مكتبة تسمح للمطورين بالعمل مع
  إذا واجهت أي مشاكل، يمكنك طلب الدعم من[منتدى اسبوس](https://forum.aspose.com/c/html/29).
 ### كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.HTML؟
  يمكنك طلب ترخيص مؤقت لأغراض الاختبار[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

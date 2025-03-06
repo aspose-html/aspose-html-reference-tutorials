@@ -3,10 +3,16 @@ title: دمج HTML مع XML في .NET باستخدام Aspose.HTML
 linktitle: دمج HTML مع XML في .NET
 second_title: Aspose.HTML .NET HTML manipulation API
 description: تعلم كيفية استخدام Aspose.HTML لـ .NET. قم باستيراد مساحة الأسماء ودمج HTML مع XML وتعزيز مهارات تطوير الويب لديك باستخدام هذا الدليل الشامل.
-type: docs
 weight: 18
 url: /ar/net/html-document-manipulation/merge-html-with-xml/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# دمج HTML مع XML في .NET باستخدام Aspose.HTML
+
 
 في المشهد الديناميكي لتطوير الويب، فإن امتلاك الأدوات المناسبة تحت تصرفك يمكن أن يحدث فرقًا كبيرًا. يعد Aspose.HTML for .NET أحد هذه الأدوات التي تمكن المطورين من إنشاء ومعالجة وتحويل مستندات HTML بسلاسة داخل إطار عمل .NET. سواء كنت مطورًا متمرسًا أو بدأت رحلتك للتو، فإن هذا الدليل الشامل سيأخذك خلال الخطوات، من المتطلبات الأساسية إلى الاستخدام المتقدم، ويقسم كل مثال إلى تعليمات خطوة بخطوة. بحلول نهاية هذا البرنامج التعليمي، ستكون على دراية جيدة بفن استخدام Aspose.HTML for .NET.
 
@@ -126,3 +132,9 @@ A1: Aspose.HTML for .NET هي مكتبة قوية تسمح للمطورين با
 
  أ5: يعد مجتمع Aspose.HTML ومنتدى الدعم مكانًا رائعًا لطلب المساعدة والتواصل مع المستخدمين الآخرين. قم بزيارة المنتدى[هنا](https://forum.aspose.com/).
 ف
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

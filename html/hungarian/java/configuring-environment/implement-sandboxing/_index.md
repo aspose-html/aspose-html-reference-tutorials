@@ -3,10 +3,16 @@ title: A Sandboxing megvalósítása az Aspose.HTML for Java-ban
 linktitle: A Sandboxing megvalósítása az Aspose.HTML for Java-ban
 second_title: Java HTML feldolgozás Aspose.HTML-lel
 description: Ismerje meg, hogyan valósíthat meg sandboxingot az Aspose.HTML for Java programban, hogy biztonságosan vezérelje a szkriptek végrehajtását HTML-dokumentumaiban, és konvertálja azokat PDF-be.
-type: docs
 weight: 15
 url: /hu/java/configuring-environment/implement-sandboxing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# A Sandboxing megvalósítása az Aspose.HTML for Java-ban
+
 ## Bevezetés
 Ebben az oktatóanyagban bemutatjuk, hogyan valósíthat meg sandboxot az Aspose.HTML for Java használatával. Elvezetjük Önt a környezet beállításától egészen egy egyszerű HTML-fájl írásáig, a sandbox konfigurálásáig és a HTML-kód PDF-formátumba konvertálásáig, miközben a potenciálisan káros szkripteket kontroll alatt tartjuk. Akár tapasztalt fejlesztő, akár csak most kezdi, ez az útmutató megadja a biztonságos webes tartalom egyszerű létrehozásához szükséges eszközöket.
 ## Előfeltételek
@@ -89,3 +95,9 @@ Nem mindig, de kulcsfontosságú, ha nem megbízható tartalommal dolgozik, vagy
  A sandboxba helyezett szkriptek nem futnak le, és hatásaik (pl`document.write`) nem jelenik meg a kimenetben.
 ### Átalakíthatom a sandbox HTML-t a PDF-en kívül más formátumokra?
 Teljesen! Az Aspos.HTML for Java támogatja a különféle formátumokká konvertálást, beleértve a képeket, az XPS-t és egyebeket.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

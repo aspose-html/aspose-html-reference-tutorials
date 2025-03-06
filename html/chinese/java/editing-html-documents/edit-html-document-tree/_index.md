@@ -3,10 +3,16 @@ title: 在 Aspose.HTML for Java 中编辑 HTML 文档树
 linktitle: 在 Aspose.HTML for Java 中编辑 HTML 文档树
 second_title: 使用 Aspose.HTML 进行 Java HTML 处理
 description: 了解如何使用 Aspose.HTML for Java 操作 HTML 文档。高效内容管理的分步指南。
-type: docs
 weight: 10
 url: /zh/java/editing-html-documents/edit-html-document-tree/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.HTML for Java 中编辑 HTML 文档树
+
 ## 介绍
 在以编程方式操作 HTML 文档时，Aspose.HTML for Java 为开发人员提供了强大的工具包。无论您是要创建新元素、修改现有元素还是管理文档结构，此库都可实现无缝集成和高效的编码实践。在本教程中，您将学习如何使用 Aspose.HTML for Java 编辑 HTML 文档树，并逐步分解它。
 ## 先决条件
@@ -86,3 +92,9 @@ Aspose.HTML for Java 是一个库，允许开发人员使用 Java 以编程方�
 是的，延长使用期限需要有效的许可证，但你可以先使用临时许可证[这里](https://purchase.aspose.com/temporary-license/).
 ### 在哪里可以找到对 Aspose.HTML 的支持？
 您可以从 Aspose 论坛获得支持[这里](https://forum.aspose.com/c/html/29).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

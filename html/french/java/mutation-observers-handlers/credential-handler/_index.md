@@ -3,10 +3,16 @@ title: Utilisation du gestionnaire d'informations d'identification dans Aspose.H
 linktitle: Utilisation du gestionnaire d'informations d'identification dans Aspose.HTML pour Java
 second_title: Traitement HTML Java avec Aspose.HTML
 description: Découvrez comment implémenter un gestionnaire d'informations d'identification sécurisé à l'aide d'Aspose.HTML pour Java pour gérer efficacement l'authentification des utilisateurs.
-type: docs
 weight: 11
 url: /fr/java/mutation-observers-handlers/credential-handler/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Utilisation du gestionnaire d'informations d'identification dans Aspose.HTML pour Java
+
 ## Introduction
 Lorsque vous travaillez avec des applications Web qui nécessitent des informations d'identification utilisateur pour l'authentification, il est essentiel de gérer efficacement ces informations d'identification. C'est là qu'Aspose.HTML pour Java entre en jeu, en fournissant des outils pour rationaliser ce processus. Dans ce guide, nous allons découvrir comment implémenter un gestionnaire d'informations d'identification avec Aspose.HTML pour Java, garantissant ainsi des opérations sécurisées dans vos applications.
 ## Prérequis
@@ -92,3 +98,9 @@ Aspose.HTML pour Java est une bibliothèque conçue pour manipuler des fichiers 
  Absolument ! Vous pouvez trouver du soutien et vous engager auprès de la communauté sur[Forums Aspose](https://forum.aspose.com/c/html/29).
 ###  Quel est le but de la`setPreAuthenticate(true)` method?  
 Cette méthode garantit que les informations d’identification sont utilisées automatiquement dans l’en-tête de la demande pour l’authentification sans demander l’autorisation à l’utilisateur.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Добавьте встроенный CSS в HTML-документы в A
 linktitle: Добавьте встроенный CSS в HTML-документы в Aspose.HTML для Java
 second_title: Обработка Java HTML с помощью Aspose.HTML
 description: Узнайте, как добавлять встроенный CSS в HTML-документы с помощью Aspose.HTML для Java. Это пошаговое руководство поможет вам стилизовать HTML и с легкостью преобразовать его в PDF.
-type: docs
 weight: 14
 url: /ru/java/editing-html-documents/add-inline-css-html-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Добавьте встроенный CSS в HTML-документы в Aspose.HTML для Java
+
 ## Введение
 Если вы работаете с HTML-документами и хотите оживить содержимое встроенным CSS, вы попали по адресу! Aspose.HTML для Java предлагает мощный способ манипулирования HTML-файлами, позволяя добавлять стили, создавать адаптивные дизайны и многое другое. Независимо от того, являетесь ли вы разработчиком, желающим автоматизировать создание документов, или просто заинтересованным в том, как динамически стилизовать HTML-контент с помощью Java, это руководство проведет вас через весь процесс шаг за шагом.
 ## Предпосылки
@@ -69,3 +75,9 @@ Aspose.HTML для Java совместим с JDK 8 и выше.
 Aspose.HTML для Java может конвертировать HTML в различные форматы, включая PDF, XPS и изображения.
 ### Нужно ли мне подключение к Интернету для использования Aspose.HTML для Java?
 Нет, Aspose.HTML для Java работает в автономном режиме, хотя для загрузки библиотеки или доступа к онлайн-документации требуется подключение к Интернету.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

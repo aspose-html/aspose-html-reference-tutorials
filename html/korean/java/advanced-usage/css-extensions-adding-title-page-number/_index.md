@@ -3,10 +3,16 @@ title: Aspose.HTML로 HTML 페이지 여백 사용자 정의
 linktitle: CSS 확장 - 제목 및 페이지 번호 추가
 second_title: Aspose.HTML을 사용한 Java HTML 처리
 description: Aspose.HTML for Java를 사용하여 페이지 여백을 사용자 정의하고, HTML 문서에 페이지 번호와 제목을 추가하는 방법을 알아보세요.
-type: docs
 weight: 10
 url: /ko/java/advanced-usage/css-extensions-adding-title-page-number/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.HTML로 HTML 페이지 여백 사용자 정의
+
 Aspose.HTML for Java는 Java 애플리케이션에서 HTML 문서를 처리하기 위한 강력한 라이브러리입니다. 이 튜토리얼에서는 Aspose.HTML for Java를 사용하여 사용자 정의 페이지 여백을 만들고 HTML 문서에 페이지 번호와 제목을 추가하는 방법을 살펴보겠습니다. 이 단계별 가이드는 이러한 기능을 HTML 문서에 쉽게 통합할 수 있도록 프로세스를 관리 가능한 단계로 나눕니다.
 
 ## 필수 조건
@@ -119,3 +125,9 @@ A4: 네, Aspose.HTML for Java를 사용하면 HTML 문서를 PDF, XPS, 이미지
 ### Q5: Java용 Aspose.HTML을 사용하려면 라이선스가 필요합니까?
 
  A5: 네, 라이센스나 무료 체험판을 받으실 수 있습니다.[여기](https://purchase.aspose.com/buy) 또는[여기](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

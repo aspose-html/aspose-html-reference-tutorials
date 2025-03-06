@@ -3,10 +3,16 @@ title: HTML Extensions and Conversions
 linktitle: HTML Extensions and Conversions
 second_title: Aspose.HTML .NET HTML manipulation API
 description: Discover HTML extensions and conversion tutorials using Aspose.HTML for .NET. Learn how to optimize web development with these comprehensive tutorials.
-type: docs
 weight: 20
 url: /net/html-extensions-and-conversions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# HTML Extensions and Conversions
+
 
 Are you eager to enhance your web development skills and unlock the power of HTML extensions and conversions? Look no further! In this comprehensive guide, we'll delve into the world of HTML extensions and conversions tutorials using Aspose.HTML for .NET.
 
@@ -63,3 +69,10 @@ Discover the power of Aspose.HTML for .NET: Convert HTML to XPS effortlessly. Pr
 In conclusion, HTML extensions and conversions are essential elements of modern web development. Aspose.HTML for .NET simplifies the process and makes it accessible to developers of all levels. By following our tutorials, you'll be well on your way to becoming a proficient web developer with a broad skill set.
 
 So, what are you waiting for? Let's embark on this exciting journey to explore HTML extensions and conversions using Aspose.HTML for .NET. Your web development projects will never be the same!
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

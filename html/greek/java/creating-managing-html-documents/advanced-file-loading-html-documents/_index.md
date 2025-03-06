@@ -3,10 +3,16 @@ title: Σύνθετη φόρτωση αρχείων για έγγραφα HTML �
 linktitle: Σύνθετη φόρτωση αρχείων για έγγραφα HTML στο Aspose.HTML για Java
 second_title: Επεξεργασία Java HTML με Aspose.HTML
 description: Μάθετε πώς να φορτώνετε, να χειρίζεστε και να αποθηκεύετε έγγραφα HTML χρησιμοποιώντας το Aspose.HTML για Java σε αυτόν τον οδηγό βήμα προς βήμα. Ξεκλειδώστε την προηγμένη επεξεργασία HTML στα έργα σας Java.
-type: docs
 weight: 13
 url: /el/java/creating-managing-html-documents/advanced-file-loading-html-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Σύνθετη φόρτωση αρχείων για έγγραφα HTML στο Aspose.HTML για Java
+
 ## Εισαγωγή
 Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία φόρτωσης εγγράφων HTML από ένα αρχείο χρησιμοποιώντας το Aspose.HTML για Java. Αλλά περιμένετε, δεν πρόκειται απλώς να φορτώσουμε οποιοδήποτε αρχείο HTML - θα το φορτώσουμε, θα το χειριστούμε και θα το αποθηκεύσουμε με ένα νέο όνομα! Μέχρι το τέλος αυτού του οδηγού, θα έχετε μια σταθερή κατανόηση του τρόπου χειρισμού εγγράφων HTML με ευκολία και θα σας κουράσει να βουτήξετε σε πιο προηγμένες λειτουργίες.
 ## Προαπαιτούμενα
@@ -52,3 +58,9 @@ document.save("Sprite_out.html");
  Μπορείτε να κάνετε λήψη της πιο πρόσφατης έκδοσης του Aspose.HTML για Java από το[Σελίδα εκδόσεων Aspose](https://releases.aspose.com/html/java/). Ακολουθήστε τις οδηγίες εγκατάστασης που παρέχονται στην τεκμηρίωση.
 ### Μπορώ να χρησιμοποιήσω το Aspose.HTML για Java χωρίς άδεια χρήσης;
  Ναι, αλλά η δωρεάν έκδοση έχει κάποιους περιορισμούς. Για να ξεκλειδώσετε τις πλήρεις δυνατότητες, θα χρειαστεί να αγοράσετε μια άδεια ή να αποκτήσετε μια προσωρινή από[Ο ιστότοπος του Aspose](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

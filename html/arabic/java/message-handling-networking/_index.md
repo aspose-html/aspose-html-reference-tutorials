@@ -3,10 +3,16 @@ title: معالجة الرسائل والشبكات في Aspose.HTML لـ Java
 linktitle: معالجة الرسائل والشبكات في Aspose.HTML لـ Java
 second_title: معالجة HTML باستخدام Java مع Aspose.HTML
 description: تعلّم استخدام Aspose.HTML للغة Java من خلال دروس تعليمية حول التعامل مع الرسائل والشبكات والمزيد. عزز مهاراتك في معالجة المستندات.
-type: docs
 weight: 25
 url: /ar/java/message-handling-networking/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# معالجة الرسائل والشبكات في Aspose.HTML لـ Java
+
 ## مقدمة
 
 تُعد Aspose.HTML for Java مجموعة أدوات قوية لإدارة مستندات HTML ومعالجتها، ولكنها لا تقتصر على التعامل مع الملفات فقط. تكمن إحدى نقاط قوتها الأساسية في إدارة الرسائل وقدرات الشبكات بكفاءة. تسلط هذه المقالة الضوء على البرامج التعليمية الأساسية التي يمكن أن تساعدك على إتقان استخدام هذه المكتبة في مشاريعك.
@@ -44,3 +50,9 @@ url: /ar/java/message-handling-networking/
 تعرف على كيفية تحويل ملفات ZIP إلى صور JPG باستخدام Aspose.HTML لـ Java من خلال هذا الدليل خطوة بخطوة.
 ### [تحويل ZIP إلى PDF باستخدام Aspose.HTML لـ Java](./zip-to-pdf/)
 يمكنك بسهولة تحويل ملفات ZIP إلى PDF باستخدام Aspose.HTML لـ Java باستخدام هذا الدليل خطوة بخطوة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

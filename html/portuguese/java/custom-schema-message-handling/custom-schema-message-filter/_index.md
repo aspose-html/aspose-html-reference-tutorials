@@ -3,10 +3,16 @@ title: Filtragem de mensagens de esquema personalizado em Aspose.HTML para Java
 linktitle: Filtragem de mensagens de esquema personalizado em Aspose.HTML para Java
 second_title: Processamento HTML Java com Aspose.HTML
 description: Aprenda a implementar um filtro de mensagem de esquema personalizado em Java usando Aspose.HTML. Siga nosso guia passo a passo para uma experiência de aplicativo segura e personalizada.
-type: docs
 weight: 10
 url: /pt/java/custom-schema-message-handling/custom-schema-message-filter/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Filtragem de mensagens de esquema personalizado em Aspose.HTML para Java
+
 ## Introdução
  Criar soluções personalizadas que atendam a necessidades específicas geralmente requer um mergulho profundo nas ferramentas e bibliotecas disponíveis. Ao trabalhar com documentos HTML em Java, a API Aspose.HTML para Java oferece uma riqueza de funcionalidades que podem ser adaptadas às suas necessidades. Uma dessas personalizações envolve filtrar mensagens com base em um esquema personalizado usando o`MessageFilter`classe. Neste guia, nós o guiaremos pelo processo de implementação de um Custom Schema Message Filter usando Aspose.HTML para Java. Seja você um desenvolvedor experiente ou apenas um iniciante, este tutorial ajudará você a criar um mecanismo de filtragem robusto, adaptado aos requisitos específicos do seu aplicativo.
 ## Pré-requisitos
@@ -92,3 +98,9 @@ Um filtro de mensagem de esquema personalizado permite que você controle quais 
 Aspose.HTML para Java é compatível com JDK 8 e versões posteriores. Sempre garanta que você esteja usando uma versão suportada para desempenho ideal.
 ### Como obtenho suporte para Aspose.HTML para Java?
  Você pode acessar o suporte através do[Fórum de suporte Aspose](https://forum.aspose.com/c/html/29), onde você pode fazer perguntas e obter ajuda da comunidade e dos desenvolvedores do Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

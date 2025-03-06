@@ -3,10 +3,16 @@ title: Aspose.HTML을 사용하여 .NET에서 Metered License 적용
 linktitle: .NET에서 Metered License 적용
 second_title: Aspose.HTML .NET HTML 조작 API
 description: .NET용 Aspose.HTML에서 미터드 라이선스를 적용하는 방법을 알아보세요. HTML 조작 요구 사항을 효율적으로 관리하세요. 지금 시작하세요!
-type: docs
 weight: 10
 url: /ko/net/licensing-and-initialization/apply-metered-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.HTML을 사용하여 .NET에서 Metered License 적용
+
 이 튜토리얼에서는 Aspose.HTML을 사용하여 .NET 애플리케이션에 계량 라이선스를 적용하는 과정을 안내합니다. 계량 라이선스는 HTML 조작 요구 사항에 대한 라이선스를 관리하는 편리한 방법입니다. 아래 단계를 따르면 .NET용 Aspose.HTML 프로젝트에 계량 라이선스를 적용할 수 있습니다.
 
 ## 필수 조건
@@ -88,3 +94,9 @@ using Aspose.Html;
 
 ### Aspose.HTML for .NET에 대한 지원이나 질문은 어디에서 받을 수 있나요?
  커뮤니티에 가입하여 지원을 요청할 수 있습니다.[Aspose 포럼](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

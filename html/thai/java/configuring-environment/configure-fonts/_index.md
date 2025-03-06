@@ -3,10 +3,16 @@ title: กำหนดค่าแบบอักษรใน Aspose.HTML สำ
 linktitle: กำหนดค่าแบบอักษรใน Aspose.HTML สำหรับ Java
 second_title: การประมวลผล Java HTML ด้วย Aspose.HTML
 description: เรียนรู้วิธีการกำหนดค่าแบบอักษรใน Aspose.HTML สำหรับ Java ด้วยคู่มือทีละขั้นตอนโดยละเอียดนี้ ปรับปรุงการแปลง HTML เป็น PDF ของคุณด้วยแบบอักษรและรูปแบบที่กำหนดเอง
-type: docs
 weight: 11
 url: /th/java/configuring-environment/configure-fonts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# กำหนดค่าแบบอักษรใน Aspose.HTML สำหรับ Java
+
 ## การแนะนำ
 เมื่อทำงานกับเอกสาร HTML ใน Java การกำหนดค่าฟอนต์อย่างถูกต้องถือเป็นสิ่งสำคัญสำหรับการสร้างเนื้อหาที่ดึงดูดสายตาและอ่านได้ ไม่ว่าคุณจะกำลังสร้างรายงาน สร้างเว็บเพจ หรือแปลงเอกสาร การกำหนดค่าฟอนต์ให้ถูกต้องก็สามารถสร้างความแตกต่างได้อย่างมาก บทช่วยสอนนี้จะแนะนำคุณเกี่ยวกับขั้นตอนการกำหนดค่าฟอนต์ใน Aspose.HTML สำหรับ Java ตั้งแต่การตั้งค่าสภาพแวดล้อมของคุณไปจนถึงการแปลง HTML เป็น PDF ด้วยฟอนต์ที่กำหนดเอง มาเริ่มกันเลย!
 
@@ -123,3 +129,9 @@ if (configuration != null) {
 ใช่ Aspose.HTML รองรับรูปแบบ CSS มากมาย คุณสามารถใช้รูปแบบที่ซับซ้อนได้เช่นเดียวกับการใช้งานในสภาพแวดล้อมเว็บทั่วไป
 ### ฉันสามารถหาตัวอย่างและเอกสารเพิ่มเติมได้ที่ไหน  
  คุณสามารถค้นหาตัวอย่างและเอกสารประกอบโดยละเอียดเพิ่มเติมได้ที่[หน้าเอกสาร Aspose.HTML สำหรับ Java](https://reference.aspose.com/html/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: DOM Mutation Observer Aspose.HTML for Java-val
 linktitle: DOM Mutation Observer – Csomópont-kiegészítések megfigyelése
 second_title: Java HTML feldolgozás Aspose.HTML-lel
 description: Ebből a lépésről lépésre szóló útmutatóból megtudhatja, hogyan használja az Aspose.HTML for Java-t DOM-mutáció-megfigyelő megvalósításához. Hatékonyan figyeli és reagál a DOM-változásokra.
-type: docs
 weight: 11
 url: /hu/java/advanced-usage/dom-mutation-observer-observing-node-additions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# DOM Mutation Observer Aspose.HTML for Java-val
+
 
 Ön Java-fejlesztő, aki egy HTML-dokumentum Document Object Model (DOM) változásait szeretné megfigyelni és reagálni? Az Aspose.HTML for Java hatékony megoldást kínál erre a feladatra. Ebben a lépésenkénti útmutatóban megvizsgáljuk, hogyan használhatjuk az Aspose.HTML for Java-t HTML-dokumentumok létrehozására és a csomópontok hozzáadásának megfigyelésére a Mutation Observer segítségével. Ez az oktatóanyag végigvezeti a folyamaton, minden példát több lépésre bontva. A végére könnyedén implementálhatja a DOM mutációfigyelőket Java projektjeibe.
 
@@ -146,3 +152,9 @@ Ha bármilyen kérdése van, vagy problémába ütközik, ne habozzon kérni seg
 ### 5. kérdés: Hogyan távolíthatom el az erőforrásokat az Aspose.HTML for Java használatakor?
 
  5. válasz: Fontos, hogy felszabadítsa az erőforrásokat, ha végzett. Példánkban használtuk`document.dispose()` a HTML-dokumentumhoz társított erőforrások megtisztításához. Ügyeljen arra, hogy a létrehozott objektumokat és erőforrásokat semmisítse meg, hogy elkerülje a memóriaszivárgást.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

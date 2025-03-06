@@ -3,10 +3,16 @@ title: Aspose.HTML ile .NET'te Web Kazıma
 linktitle: .NET'te Web Kazıma
 second_title: Aspose.HTML .NET HTML işleme API'si
 description: Aspose.HTML ile .NET'te HTML belgelerini düzenlemeyi öğrenin. Gelişmiş web geliştirme için öğeleri etkili bir şekilde gezinin, filtreleyin, sorgulayın ve seçin.
-type: docs
 weight: 13
 url: /tr/net/advanced-features/web-scraping/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.HTML ile .NET'te Web Kazıma
+
 
 Günümüzün dijital çağında, HTML belgelerinden bilgi işlemek ve çıkarmak geliştiriciler için yaygın bir görevdir. .NET için Aspose.HTML, .NET uygulamalarında HTML işleme ve işlemeyi basitleştiren güçlü bir araçtır. Bu eğitimde, .NET için Aspose.HTML'nin ön koşullar, ad alanları ve tüm potansiyelinden yararlanmanıza yardımcı olacak adım adım örnekler dahil olmak üzere çeşitli yönlerini keşfedeceğiz.
 
@@ -204,3 +210,9 @@ A1: Aspose.HTML for .NET ücretsiz deneme sürümü sunar, ancak üretim kullan�
 ### S5. Aspose.HTML for .NET en son .NET sürümleriyle uyumlu mudur?
 
 C5: Aspose.HTML for .NET, en son .NET sürümleri ve teknolojileriyle uyumluluğun sağlanması amacıyla düzenli olarak güncellenmektedir.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

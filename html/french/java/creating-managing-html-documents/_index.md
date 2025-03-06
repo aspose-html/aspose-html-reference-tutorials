@@ -3,10 +3,16 @@ title: Création et gestion de documents HTML dans Aspose.HTML pour Java
 linktitle: Création et gestion de documents HTML dans Aspose.HTML pour Java
 second_title: Traitement HTML Java avec Aspose.HTML
 description: Découvrez les meilleurs tutoriels pour créer et gérer des documents HTML à l'aide d'Aspose.HTML pour Java. Idéal pour les développeurs Java à la recherche de guides détaillés, étape par étape.
-type: docs
 weight: 27
 url: /fr/java/creating-managing-html-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Création et gestion de documents HTML dans Aspose.HTML pour Java
+
 ## Introduction
 
 Aspose.HTML pour Java propose une boîte à outils puissante pour les développeurs souhaitant travailler avec des documents HTML de manière transparente dans leurs applications Java. Que vous soyez un développeur débutant ou expérimenté, maîtriser la création et la gestion de documents HTML peut améliorer considérablement les capacités de votre projet. Explorons quelques-uns des meilleurs tutoriels qui peuvent vous guider tout au long du processus.
@@ -56,3 +62,9 @@ Apprenez à créer de nouveaux documents HTML à l'aide d'Aspose.HTML pour Java 
 Apprenez à gérer les événements de chargement de documents dans Aspose.HTML pour Java avec ce guide étape par étape. Améliorez vos applications Web.
 ### [Créer et gérer des documents SVG dans Aspose.HTML pour Java](./create-manage-svg-documents/)
 Apprenez à créer et à gérer des documents SVG à l'aide d'Aspose.HTML pour Java ! Ce guide complet couvre tout, de la création de base à la manipulation avancée.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

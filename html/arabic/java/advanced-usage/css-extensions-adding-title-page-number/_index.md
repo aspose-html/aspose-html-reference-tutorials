@@ -3,10 +3,16 @@ title: تخصيص هوامش صفحات HTML باستخدام Aspose.HTML
 linktitle: ملحقات CSS - إضافة عنوان ورقم الصفحة
 second_title: معالجة HTML باستخدام Java مع Aspose.HTML
 description: تعرف على كيفية تخصيص هوامش الصفحات وإضافة أرقام الصفحات والعناوين إلى مستندات HTML باستخدام Aspose.HTML لـ Java.
-type: docs
 weight: 10
 url: /ar/java/advanced-usage/css-extensions-adding-title-page-number/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تخصيص هوامش صفحات HTML باستخدام Aspose.HTML
+
 Aspose.HTML for Java هي مكتبة قوية لمعالجة مستندات HTML في تطبيقات Java. في هذا البرنامج التعليمي، سنستكشف كيفية إنشاء هوامش صفحات مخصصة وإضافة أرقام وعناوين الصفحات إلى مستندات HTML الخاصة بك باستخدام Aspose.HTML for Java. سيقسم هذا الدليل خطوة بخطوة العملية إلى خطوات يمكن إدارتها لمساعدتك على دمج هذه الميزات بسهولة في مستندات HTML الخاصة بك.
 
 ## المتطلبات الأساسية
@@ -119,3 +125,9 @@ A1: Aspose.HTML for Java هي مكتبة Java توفر أدوات قوية لل�
 ### س5: هل أحتاج إلى ترخيص لاستخدام Aspose.HTML لـ Java؟
 
  ج5: نعم، يمكنك الحصول على ترخيص أو نسخة تجريبية مجانية من[هنا](https://purchase.aspose.com/buy) أو[هنا](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

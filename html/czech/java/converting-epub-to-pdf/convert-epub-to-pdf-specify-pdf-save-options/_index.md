@@ -3,10 +3,16 @@ title: Určení možností uložení PDF pro EPUB do PDF
 linktitle: Určení možností uložení PDF pro EPUB do PDF
 second_title: Java HTML zpracování s Aspose.HTML
 description: Naučte se převádět EPUB do PDF v Javě pomocí Aspose.HTML, výkonné knihovny pro manipulaci s HTML.
-type: docs
 weight: 12
 url: /cs/java/converting-epub-to-pdf/convert-epub-to-pdf-specify-pdf-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Určení možností uložení PDF pro EPUB do PDF
+
 
 ## Zavedení
 
@@ -111,3 +117,10 @@ Zkušební verze může mít určitá omezení, proto se doporučuje podívat se
 
 ### Kde mohu získat podporu pro Aspose.HTML pro Java?
 Můžete najít odpovědi na své otázky a hledat podporu na[Fórum Aspose.HTML](https://forum.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: تعيين مجموعة الأحرف في Aspose.HTML لـ Java
 linktitle: تعيين مجموعة الأحرف في Aspose.HTML لـ Java
 second_title: معالجة HTML باستخدام Java مع Aspose.HTML
 description: تعرف على كيفية ضبط مجموعة الأحرف في Aspose.HTML لـ Java وتحويل HTML إلى PDF في هذا الدليل خطوة بخطوة. تأكد من ترميز النص والعرض المناسبين.
-type: docs
 weight: 10
 url: /ar/java/configuring-environment/set-character-set/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تعيين مجموعة الأحرف في Aspose.HTML لـ Java
+
 ## مقدمة
 إذا كنت تعمل مع مستندات HTML في Java، فإن التأكد من مجموعة الأحرف الصحيحة أمر بالغ الأهمية للترميز الصحيح وتقديم النص. في هذا الدليل، سنستكشف كيفية تعيين مجموعة الأحرف باستخدام Aspose.HTML لـ Java. سيرشدك هذا البرنامج التعليمي الشامل خلال كل خطوة من العملية، مما يوفر فهمًا واضحًا لكيفية التعامل مع مجموعات الأحرف بشكل فعال.
 ## المتطلبات الأساسية
@@ -104,3 +110,9 @@ try {
  على الرغم من أن Java لديها جامع قمامة، فمن الجيد إصدار الموارد يدويًا مثل التكوينات والمستندات باستخدام`dispose` طريقة.
 ### أين يمكنني الحصول على نسخة تجريبية مجانية من Aspose.HTML لـ Java؟  
  يمكنك تنزيل نسخة تجريبية مجانية من[صفحة إصدارات Aspose](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

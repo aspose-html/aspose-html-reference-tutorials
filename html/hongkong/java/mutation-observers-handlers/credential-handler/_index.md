@@ -3,10 +3,16 @@ title: 在 Aspose.HTML for Java 中使用憑證處理程序
 linktitle: 在 Aspose.HTML for Java 中使用憑證處理程序
 second_title: 使用 Aspose.HTML 進行 Java HTML 處理
 description: 了解如何使用 Aspose.HTML for Java 實作安全的憑證處理程序，以有效管理使用者身分驗證。
-type: docs
 weight: 11
 url: /zh-hant/java/mutation-observers-handlers/credential-handler/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.HTML for Java 中使用憑證處理程序
+
 ## 介紹
 當使用需要使用者憑證進行驗證的 Web 應用程式時，有效管理這些憑證至關重要。這就是 Aspose.HTML for Java 發揮作用的地方，它提供了簡化此過程的工具。在本指南中，我們將深入研究如何使用 Aspose.HTML for Java 實作憑證處理程序，以確保應用程式中的安全操作。
 ## 先決條件
@@ -92,3 +98,9 @@ Aspose.HTML for Java 是一個旨在操作 HTML 檔案並處理 Java 應用程�
 絕對地！您可以在以下位置找到支持並與社區互動：[Aspose 論壇](https://forum.aspose.com/c/html/29).
 ### 目的是什麼`setPreAuthenticate(true)` method?  
 此方法可確保在請求標頭中自動使用憑證進行身份驗證，而無需提示使用者。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

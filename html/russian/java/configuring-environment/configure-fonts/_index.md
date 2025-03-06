@@ -3,10 +3,16 @@ title: Настройка шрифтов в Aspose.HTML для Java
 linktitle: Настройка шрифтов в Aspose.HTML для Java
 second_title: Обработка Java HTML с помощью Aspose.HTML
 description: Узнайте, как настроить шрифты в Aspose.HTML для Java с помощью этого подробного пошагового руководства. Улучшите свои преобразования HTML в PDF с помощью пользовательских шрифтов и стилей.
-type: docs
 weight: 11
 url: /ru/java/configuring-environment/configure-fonts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Настройка шрифтов в Aspose.HTML для Java
+
 ## Введение
 При работе с HTML-документами в Java правильная настройка шрифтов имеет важное значение для создания визуально привлекательного и читаемого контента. Независимо от того, создаете ли вы отчеты, создаете веб-страницы или конвертируете документы, обеспечение правильной настройки шрифтов может иметь существенное значение. Это руководство проведет вас через процесс настройки шрифтов в Aspose.HTML для Java, от настройки среды до конвертации HTML в PDF с пользовательскими шрифтами. Итак, давайте погрузимся!
 
@@ -123,3 +129,9 @@ if (configuration != null) {
 Да, Aspose.HTML поддерживает широкий спектр стилей CSS. Вы можете применять сложные стили так же, как и в обычной веб-среде.
 ### Где я могу найти больше примеров и документации?  
  Более подробные примеры и документацию вы можете найти на сайте[Страница документации Aspose.HTML для Java](https://reference.aspose.com/html/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

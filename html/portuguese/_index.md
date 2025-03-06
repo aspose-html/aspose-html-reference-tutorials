@@ -3,11 +3,16 @@ title: Aprenda manipulação de documentos HTML com Aspose.HTML
 linktitle: Tutoriais Aspose.HTML
 additionalTitle: Referências da API Aspose
 description: Domine a manipulação de HTML com os tutoriais do Aspose.HTML - da análise à conversão, orientação passo a passo para desenvolvedores.
-type: docs
 weight: 11
 url: /pt/
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aprenda manipulação de documentos HTML com Aspose.HTML
+
 
 Explore tutoriais abrangentes do Aspose.HTML para dominar a manipulação de documentos HTML usando a poderosa biblioteca Aspose.HTML. Da análise e renderização à conversão de arquivos HTML, esses tutoriais fornecem orientação passo a passo para desenvolvedores
 
@@ -44,3 +49,9 @@ Aqui estão links para alguns recursos úteis:
 - [Convertendo EPUB para PDF](./java/converting-epub-to-pdf/)
 - [Convertendo EPUB para XPS](./java/converting-epub-to-xps/)
 - [Convertendo HTML para vários formatos de imagem](./java/converting-html-to-various-image-formats/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

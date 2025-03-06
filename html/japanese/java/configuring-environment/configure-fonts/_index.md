@@ -3,10 +3,16 @@ title: Aspose.HTML for Java でフォントを構成する
 linktitle: Aspose.HTML for Java でフォントを構成する
 second_title: Aspose.HTML を使用した Java HTML 処理
 description: この詳細なステップバイステップ ガイドで、Aspose.HTML for Java でフォントを構成する方法を学びます。カスタム フォントとスタイルを使用して、HTML から PDF への変換を強化します。
-type: docs
 weight: 11
 url: /ja/java/configuring-environment/configure-fonts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.HTML for Java でフォントを構成する
+
 ## 導入
 Java で HTML ドキュメントを操作する場合、見た目が魅力的で読みやすいコンテンツを作成するには、フォントを正しく構成することが重要です。レポートの生成、Web ページの作成、ドキュメントの変換のいずれの場合でも、フォントが適切に構成されていることを確認すると、大きな違いが生じます。このチュートリアルでは、環境の設定からカスタム フォントを使用した HTML から PDF への変換まで、Aspose.HTML for Java でフォントを構成するプロセスを順を追って説明します。それでは始めましょう。
 
@@ -123,3 +129,9 @@ Aspose.HTML for Java でのフォントの構成は簡単なプロセスで、HT
 はい、Aspose.HTML は幅広い CSS スタイルをサポートしています。通常の Web 環境と同じように、複雑なスタイルを適用できます。
 ### その他の例やドキュメントはどこで見つかりますか?  
 より詳細な例とドキュメントについては、[Aspose.HTML for Java ドキュメント ページ](https://reference.aspose.com/html/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Java용 Aspose.HTML에서 메시지 핸들러 사용
 linktitle: Java용 Aspose.HTML에서 메시지 핸들러 사용
 second_title: Aspose.HTML을 사용한 Java HTML 처리
 description: Java용 Aspose.HTML에서 메시지 핸들러를 사용하여 누락된 이미지와 기타 네트워크 작업을 효과적으로 처리하는 방법을 알아보세요.
-type: docs
 weight: 12
 url: /ko/java/configuring-environment/use-message-handlers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.HTML에서 메시지 핸들러 사용
+
 ## 소개
 이 튜토리얼에서는 Java용 Aspose.HTML에서 메시지 핸들러를 사용하는 실제 예를 안내해 드리겠습니다. 누락된 이미지를 참조하는 간단한 HTML 문서를 준비하고 사용자 지정 메시지 핸들러를 사용하여 오류를 포착하고 처리하는 방법을 보여드리겠습니다. Aspose.HTML을 처음 사용하든 기술을 확장하려는 경우 이 가이드는 네트워크 작업을 효과적으로 관리하는 데 필요한 통찰력을 제공합니다.
 ## 필수 조건
@@ -109,3 +115,9 @@ Java용 Aspose.HTML은 개발자가 Java 애플리케이션에서 HTML 문서를
 네, 이러한 객체를 삭제하면 모든 리소스가 올바르게 해제되어 메모리 누수가 방지됩니다.
 ### 메시지 핸들러로 다른 유형의 오류를 처리할 수 있나요?
 물론입니다! 메시지 핸들러는 누락된 리소스뿐만 아니라 다양한 유형의 오류를 처리하도록 사용자 정의할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

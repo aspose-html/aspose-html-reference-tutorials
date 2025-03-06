@@ -3,10 +3,16 @@ title: 在 Aspose.HTML for Java 中儲存 HTML 文檔
 linktitle: 在 Aspose.HTML for Java 中儲存 HTML 文檔
 second_title: 使用 Aspose.HTML 進行 Java HTML 處理
 description: 探索全面的 Aspose.HTML for Java 教學課程，引導您完成儲存 HTML 文件、轉換為 Markdown 等操作。
-type: docs
 weight: 30
 url: /zh-hant/java/saving-html-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.HTML for Java 中儲存 HTML 文檔
+
 ## 介紹
 
 當談到用 Java 處理 HTML 文件時，Aspose.HTML 作為一個多功能庫脫穎而出。如果您曾經對 HTML 文件處理的複雜性感到不知所措，請不要擔心！本教程系列專為簡化您的學習曲線而量身定制。我們將介紹主要功能，確保您可以像專業人士一樣儲存和操作 HTML 文件。 
@@ -48,3 +54,9 @@ url: /zh-hant/java/saving-html-documents/
 透過本逐步指南（包含程式碼範例和實用技巧），了解如何使用 Aspose.HTML for Java 將 HTML 文件儲存為 MHTML。
 ### [在 Aspose.HTML for Java 中儲存 SVG 文檔](./save-svg-document/)
 透過這個包含範例的簡單逐步指南，了解如何使用 Aspose.HTML for Java 儲存 SVG 文件。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

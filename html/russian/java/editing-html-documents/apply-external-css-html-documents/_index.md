@@ -3,10 +3,16 @@ title: Применение внешнего CSS к HTML-документам в
 linktitle: Применение внешнего CSS к HTML-документам в Aspose.HTML для Java
 second_title: Обработка Java HTML с помощью Aspose.HTML
 description: Узнайте, как применять внешний CSS к HTML-документам с помощью Aspose.HTML для Java! Следуйте этому пошаговому руководству для полного руководства.
-type: docs
 weight: 12
 url: /ru/java/editing-html-documents/apply-external-css-html-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Применение внешнего CSS к HTML-документам в Aspose.HTML для Java
+
 ## Введение
 При работе с HTML-документами применение стилей может иметь решающее значение для представления и пользовательского опыта. Если вы погружаетесь в Java и хотите узнать, как применять внешние стили CSS к вашим HTML-документам с помощью библиотеки Aspose.HTML, вы попали по адресу! Цель этого руководства — пошаговое описание процесса, что упрощает его даже для новичков в Java или CSS.
 ## Предпосылки
@@ -101,3 +107,9 @@ Aspose.HTML для Java — это мощная библиотека, котор
 Да! Внутренний CSS определяется в HTML-документе, тогда как внешний CSS размещается в отдельном файле и связан с документом.
 ### Как я могу получить поддержку Aspose.HTML для Java?
  Вы можете получить доступ к поддержке сообщества через[Форум Aspose](https://forum.aspose.com/c/html/29) по любым вопросам или проблемам, с которыми вы можете столкнуться.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

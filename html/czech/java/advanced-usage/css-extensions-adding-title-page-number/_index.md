@@ -3,10 +3,16 @@ title: Přizpůsobte okraje stránky HTML pomocí Aspose.HTML
 linktitle: Rozšíření CSS - Přidání názvu a čísla stránky
 second_title: Java HTML zpracování s Aspose.HTML
 description: Naučte se, jak upravit okraje stránek, přidat čísla stránek a nadpisy do dokumentů HTML pomocí Aspose.HTML for Java.
-type: docs
 weight: 10
 url: /cs/java/advanced-usage/css-extensions-adding-title-page-number/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Přizpůsobte okraje stránky HTML pomocí Aspose.HTML
+
 Aspose.HTML for Java je výkonná knihovna pro zpracování dokumentů HTML v aplikacích Java. V tomto tutoriálu prozkoumáme, jak vytvořit vlastní okraje stránek a přidat čísla a názvy stránek do dokumentů HTML pomocí Aspose.HTML for Java. Tento podrobný průvodce rozdělí proces na zvládnutelné kroky, které vám pomohou snadno integrovat tyto funkce do vašich dokumentů HTML.
 
 ## Předpoklady
@@ -119,3 +125,9 @@ Odpověď 4: Ano, Aspose.HTML for Java lze použít k převodu dokumentů HTML d
 ### Q5: Potřebuji licenci pro používání Aspose.HTML pro Java?
 
  A5: Ano, můžete získat licenci nebo bezplatnou zkušební verzi[zde](https://purchase.aspose.com/buy) nebo[zde](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

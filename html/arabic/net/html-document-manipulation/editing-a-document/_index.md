@@ -3,10 +3,16 @@ title: تحرير مستند في .NET باستخدام Aspose.HTML
 linktitle: تحرير مستند في .NET
 second_title: Aspose.HTML .NET HTML manipulation API
 description: أنشئ محتوى ويب جذابًا باستخدام Aspose.HTML for .NET. تعرّف على كيفية التعامل مع HTML وCSS والمزيد.
-type: docs
 weight: 15
 url: /ar/net/html-document-manipulation/editing-a-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحرير مستند في .NET باستخدام Aspose.HTML
+
 
 في عالم رقمي متطور باستمرار، يعد إنشاء محتوى ويب جذاب أمرًا بالغ الأهمية للتميز وإشراك جمهورك. بفضل قوة Aspose.HTML for .NET، يمكنك إنشاء محتوى ويب ساحر بسهولة. سترشدك هذه المقالة خلال العملية، وتضمن لك الاستفادة الكاملة من الإمكانات الكاملة لهذه الأداة الرائعة.
 
@@ -171,3 +177,9 @@ using (var device = new PdfDevice("output.pdf"))
 ### س5: هل يمكنني استخدام Aspose.HTML لـ .NET في بيئات غير Windows؟
 
 ج5: نعم، Aspose.HTML لـ .NET متعدد الأنظمة ويمكن استخدامه في بيئات غير Windows.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 將 .NET 中的擴充內容屬性與 Aspose.HTML 結合使用
 linktitle: 在 .NET 中使用擴充內容屬性
 second_title: Aspose.HTML .NET HTML 操作 API
 description: 透過此逐步指南了解如何使用 Aspose.HTML for .NET。增強您的 HTML 技能並簡化您的 Web 開發專案。
-type: docs
 weight: 14
 url: /zh-hant/net/advanced-features/use-extended-content-property/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 將 .NET 中的擴充內容屬性與 Aspose.HTML 結合使用
+
 
 在 Web 開發領域，使用 HTML 是一項基本技能。 Aspose.HTML for .NET 是一個功能強大的工具，可以讓您的 HTML 相關任務變得更輕鬆、更有效率。本教學將引導您完成 Aspose.HTML for .NET 的入門步驟，包括先決條件、匯入命名空間以及將每個範例分解為易於遵循的步驟。
 
@@ -123,3 +129,10 @@ using (XpsDevice device = new XpsDevice(dataDir + "output_out.xps"))
 ### 是否有其他資源或教學可用於 Aspose.HTML for .NET？
    是的，您可以在以下位置找到更多教學課程和文檔[Aspose.HTML網站](https://reference.aspose.com/html/net/).
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

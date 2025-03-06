@@ -3,10 +3,16 @@ title: Set Up Network Service in Aspose.HTML for Java
 linktitle: Set Up Network Service in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 description: Learn how to set up a network service in Aspose.HTML for Java, manage network resources, and convert HTML to PNG with custom error handling.
-type: docs
 weight: 13
 url: /java/configuring-environment/setup-network-service/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Set Up Network Service in Aspose.HTML for Java
+
 ## Introduction
 Are you looking to fine-tune your HTML document processing with Java? Maybe you're working on a project that involves converting HTML documents into images or other formats, and you need to manage network services efficiently. Well, you’re in the right place! This tutorial will walk you through setting up a network service in Aspose.HTML for Java, breaking down each step in detail so you can follow along with ease. Whether you're a seasoned developer or just starting, this guide will make the process clear, straightforward, and maybe even a little fun.
 ## Prerequisites
@@ -90,3 +96,10 @@ By implementing a custom message handler, you can log errors as they occur, prov
 Absolutely! Cleaning up resources prevents memory leaks and keeps your application running smoothly.
 ### Can I customize the error message handler?  
 Yes, the error message handler can be customized to log specific details, send alerts, or even trigger other processes based on the errors encountered.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

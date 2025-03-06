@@ -3,10 +3,16 @@ title: Crear y administrar documentos SVG en Aspose.HTML para Java
 linktitle: Crear y administrar documentos SVG en Aspose.HTML para Java
 second_title: Procesamiento de HTML en Java con Aspose.HTML
 description: Aprenda a crear y gestionar documentos SVG con Aspose.HTML para Java. Esta guía completa cubre todo, desde la creación básica hasta la manipulación avanzada.
-type: docs
 weight: 19
 url: /es/java/creating-managing-html-documents/create-manage-svg-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Crear y administrar documentos SVG en Aspose.HTML para Java
+
 ## Introducción
 En el mundo moderno del desarrollo web, los gráficos dinámicos y adaptables desempeñan un papel crucial en la mejora de la experiencia del usuario. Los gráficos vectoriales escalables (SVG) se han convertido en los favoritos entre los desarrolladores por su flexibilidad y resolución de alta calidad en varios dispositivos. Con la potente biblioteca Aspose.HTML para Java, los desarrolladores pueden crear y manipular fácilmente documentos SVG mediante programación. ¡Veamos cómo puedes aprovechar Aspose.HTML para gestionar gráficos SVG en tus aplicaciones Java!
 ## Prerrequisitos
@@ -83,3 +89,9 @@ SVG significa Gráficos vectoriales escalables, que son imágenes vectoriales ba
 Puede crear cualquier forma SVG, incluidos círculos, rectángulos, polígonos y rutas.
 ### ¿Cómo puedo obtener soporte para Aspose.HTML?
 Puede encontrar apoyo en el[Foro de Aspose](https://forum.aspose.com/c/html/29).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

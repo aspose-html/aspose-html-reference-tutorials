@@ -3,10 +3,16 @@ title: EPUB'dan PDF'e PDF Kaydetme Seçeneklerini Belirleme
 linktitle: EPUB'dan PDF'e PDF Kaydetme Seçeneklerini Belirleme
 second_title: Aspose.HTML ile Java HTML İşleme
 description: Güçlü bir HTML düzenleme kütüphanesi olan Aspose.HTML'i kullanarak Java'da EPUB'u PDF'ye nasıl dönüştüreceğinizi öğrenin.
-type: docs
 weight: 12
 url: /tr/java/converting-epub-to-pdf/convert-epub-to-pdf-specify-pdf-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# EPUB'dan PDF'e PDF Kaydetme Seçeneklerini Belirleme
+
 
 ## giriiş
 
@@ -111,3 +117,10 @@ Deneme sürümünün bazı kısıtlamaları olabilir, bu nedenle ayrıntılar i�
 
 ### Java için Aspose.HTML desteğini nereden alabilirim?
 Sorularınıza cevap bulabilir ve destek alabilirsiniz.[Aspose.HTML forumu](https://forum.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

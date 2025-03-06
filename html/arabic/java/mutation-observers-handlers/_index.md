@@ -3,10 +3,16 @@ title: مراقبو الطفرات ومعالجوها في Aspose.HTML لـ Java
 linktitle: مراقبو الطفرات ومعالجوها في Aspose.HTML لـ Java
 second_title: معالجة HTML باستخدام Java مع Aspose.HTML
 description: استكشف دروس Aspose.HTML لـ Java التي تغطي مراقبي الطفرات المتقدمين ومعالجات الاعتماد الآمنة لتحسين تطبيقات الويب الخاصة بك.
-type: docs
 weight: 23
 url: /ar/java/mutation-observers-handlers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# مراقبو الطفرات ومعالجوها في Aspose.HTML لـ Java
+
 ## مقدمة
 
 إذا كنت تسعى إلى تحسين تطبيقات الويب الخاصة بك باستخدام Java، فمن المحتمل أنك سمعت عن Aspose.HTML. ولكن دعني أخبرك، إنها ليست مجرد مكتبة عادية، بل إنها أداة قوية لإدارة مستندات HTML بشكل ديناميكي. في هذا الدليل، سنستكشف مكونين أساسيين: Mutation Observers وCredential Handlers، مما يسمح لك بتعزيز تطبيقاتك. 
@@ -28,3 +34,9 @@ url: /ar/java/mutation-observers-handlers/
 تعرف على كيفية تنفيذ مراقب الطفرات المتقدم باستخدام Aspose.HTML لـ Java، وتتبع تغييرات DOM بسلاسة. انغمس في دليلنا خطوة بخطوة.
 ### [استخدام Credential Handler في Aspose.HTML لـ Java](./credential-handler/)
 اكتشف كيفية تنفيذ Credential Handler آمن باستخدام Aspose.HTML لـ Java لإدارة مصادقة المستخدم بشكل فعال.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

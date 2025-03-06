@@ -3,10 +3,16 @@ title: Προσαρμόστε τα περιθώρια σελίδας HTML με �
 linktitle: Επεκτάσεις CSS - Προσθήκη τίτλου και αριθμού σελίδας
 second_title: Επεξεργασία Java HTML με Aspose.HTML
 description: Μάθετε πώς να προσαρμόζετε τα περιθώρια σελίδων, να προσθέτετε αριθμούς σελίδων και τίτλους σε έγγραφα HTML χρησιμοποιώντας το Aspose.HTML για Java.
-type: docs
 weight: 10
 url: /el/java/advanced-usage/css-extensions-adding-title-page-number/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Προσαρμόστε τα περιθώρια σελίδας HTML με το Aspose.HTML
+
 Το Aspose.HTML για Java είναι μια ισχυρή βιβλιοθήκη για την επεξεργασία εγγράφων HTML σε εφαρμογές Java. Σε αυτό το σεμινάριο, θα διερευνήσουμε πώς να δημιουργήσετε προσαρμοσμένα περιθώρια σελίδας και να προσθέσετε αριθμούς σελίδων και τίτλους στα έγγραφά σας HTML χρησιμοποιώντας το Aspose.HTML για Java. Αυτός ο οδηγός βήμα προς βήμα θα αναλύσει τη διαδικασία σε διαχειρίσιμα βήματα για να σας βοηθήσει να ενσωματώσετε εύκολα αυτές τις δυνατότητες στα έγγραφά σας HTML.
 
 ## Προαπαιτούμενα
@@ -119,3 +125,9 @@ A4: Ναι, το Aspose.HTML για Java μπορεί να χρησιμοποι�
 ### Ε5: Χρειάζομαι άδεια χρήσης για τη χρήση του Aspose.HTML για Java;
 
  A5: Ναι, μπορείτε να αποκτήσετε άδεια ή δωρεάν δοκιμή από[εδώ](https://purchase.aspose.com/buy) ή[εδώ](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Webbskrapning i .NET med Aspose.HTML
 linktitle: Webbskrapning i .NET
 second_title: Aspose.HTML .NET HTML manipulation API
 description: Lär dig att manipulera HTML-dokument i .NET med Aspose.HTML. Navigera, filtrera, fråga och välj element effektivt för förbättrad webbutveckling.
-type: docs
 weight: 13
 url: /sv/net/advanced-features/web-scraping/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Webbskrapning i .NET med Aspose.HTML
+
 
 dagens digitala tidsålder är det en vanlig uppgift för utvecklare att manipulera och extrahera information från HTML-dokument. Aspose.HTML för .NET är ett kraftfullt verktyg som förenklar HTML-bearbetning och manipulation i .NET-applikationer. I den här handledningen kommer vi att utforska olika aspekter av Aspose.HTML för .NET, inklusive förutsättningar, namnutrymmen och steg-för-steg-exempel för att hjälpa dig att utnyttja dess fulla potential.
 
@@ -204,3 +210,9 @@ S1: Aspose.HTML för .NET erbjuder en gratis testversion, men för produktionsan
 ### F5. Är Aspose.HTML för .NET kompatibel med de senaste .NET-versionerna?
 
 S5: Aspose.HTML för .NET uppdateras regelbundet för att säkerställa kompatibilitet med de senaste .NET-versionerna och teknologierna.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

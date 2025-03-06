@@ -3,10 +3,16 @@ title: Apply External CSS to HTML Documents in Aspose.HTML for Java
 linktitle: Apply External CSS to HTML Documents in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 description: Discover how to apply external CSS to HTML documents using Aspose.HTML for Java! Follow this step-by-step guide for a complete tutorial.
-type: docs
 weight: 12
 url: /java/editing-html-documents/apply-external-css-html-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Apply External CSS to HTML Documents in Aspose.HTML for Java
+
 ## Introduction
 When working with HTML documents, applying styles can make all the difference in presentation and user experience. If you’re diving into Java and want to learn how to apply external CSS styles to your HTML documents using the Aspose.HTML library, you’re in the right place! This guide aims to illuminate the process step-by-step, making it easy even for those who might be new to Java or CSS.
 ## Prerequisites
@@ -101,3 +107,10 @@ Yes, you can create multiple `<link>` elements and append them to the document's
 Yes! Internal CSS is defined within an HTML document, while external CSS is placed in a separate file and linked to the document.
 ### How can I get support for Aspose.HTML for Java?
 You can access community support through the [Aspose forum](https://forum.aspose.com/c/html/29) for any questions or issues you may encounter.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: EPUB를 PNG로 변환
 linktitle: EPUB를 PNG로 변환
 second_title: Aspose.HTML을 사용한 Java HTML 처리
 description: Java용 Aspose.HTML을 사용하여 EPUB를 PNG로 변환하는 방법을 알아보세요. 단계별 가이드를 따라 eBook 콘텐츠를 시각적으로 매력적으로 만들어보세요.
-type: docs
 weight: 13
 url: /ko/java/converting-epub-to-pdf/convert-epub-to-png/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# EPUB를 PNG로 변환
+
 
 오늘날의 디지털 시대에 다양한 파일 형식을 변환해야 할 필요성은 매우 흔합니다. EPUB는 전자책에 인기 있는 형식이고 PNG는 일반적으로 사용되는 이미지 형식입니다. EPUB 파일을 PNG 이미지로 변환하는 것은 유용한 작업이 될 수 있으며, Aspose.HTML for Java는 이 목적에 대한 완벽한 솔루션을 제공합니다. 이 단계별 가이드에서는 Aspose.HTML for Java를 사용하여 EPUB를 PNG로 변환하는 과정을 안내합니다.
 
@@ -87,3 +93,9 @@ Converter.convertEPUB(
 
 ### Aspose.HTML for Java에서는 어떤 다른 파일 형식을 처리할 수 있나요?
    Aspose.HTML for Java는 HTML, PDF 등을 포함하여 변환 및 조작을 위한 광범위한 파일 형식을 지원합니다. 지원되는 형식의 포괄적인 목록은 설명서를 확인하세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

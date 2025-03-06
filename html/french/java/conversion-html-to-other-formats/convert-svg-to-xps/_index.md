@@ -3,10 +3,16 @@ title: Convertir SVG en XPS avec Aspose.HTML pour Java
 linktitle: Conversion de SVG en XPS
 second_title: Traitement HTML Java avec Aspose.HTML
 description: Découvrez comment convertir SVG en XPS avec Aspose.HTML pour Java. Guide simple, étape par étape, pour des conversions fluides.
-type: docs
 weight: 16
 url: /fr/java/conversion-html-to-other-formats/convert-svg-to-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Convertir SVG en XPS avec Aspose.HTML pour Java
+
 
 Si vous souhaitez convertir de manière transparente des fichiers Scalable Vector Graphics (SVG) au format XPS, Aspose.HTML pour Java offre une solution puissante. Ce guide étape par étape vous guidera tout au long du processus de conversion de SVG en XPS à l'aide de la bibliothèque Java d'Aspose.HTML. Avant de plonger dans les détails techniques, assurons-nous que vous disposez de tout ce dont vous avez besoin et que vous comprenez les prérequis.
 
@@ -97,3 +103,9 @@ A3 : Aspose.HTML pour Java est une bibliothèque robuste, mais il est essentiel
 ### Q5 : Existe-t-il un essai gratuit disponible ?
 
  A5 : Oui, vous pouvez accéder à un essai gratuit d'Aspose.HTML pour Java sur le site Web d'Aspose. Visitez[Essai gratuit d'Aspose.HTML](https://releases.aspose.com/) pour commencer.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

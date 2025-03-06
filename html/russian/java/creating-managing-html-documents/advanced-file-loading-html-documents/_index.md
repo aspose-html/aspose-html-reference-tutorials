@@ -3,10 +3,16 @@ title: Расширенная загрузка файлов для HTML-доку
 linktitle: Расширенная загрузка файлов для HTML-документов в Aspose.HTML для Java
 second_title: Обработка Java HTML с помощью Aspose.HTML
 description: Узнайте, как загружать, изменять и сохранять HTML-документы с помощью Aspose.HTML для Java в этом пошаговом руководстве. Откройте для себя расширенную обработку HTML в своих проектах Java.
-type: docs
 weight: 13
 url: /ru/java/creating-managing-html-documents/advanced-file-loading-html-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Расширенная загрузка файлов для HTML-документов в Aspose.HTML для Java
+
 ## Введение
 В этом руководстве мы проведем вас через процесс загрузки HTML-документов из файла с помощью Aspose.HTML для Java. Но подождите, мы не просто загрузим любой HTML-файл — мы загрузим его, обработаем его и сохраним под новым именем! К концу этого руководства вы будете иметь твердое представление о том, как легко обрабатывать HTML-документы, и вам не терпится погрузиться в более продвинутые функции.
 ## Предпосылки
@@ -52,3 +58,9 @@ Aspose.HTML для Java — это мощный API, позволяющий ра
  Вы можете загрузить последнюю версию Aspose.HTML для Java с сайта[Страница релизов Aspose](https://releases.aspose.com/html/java/). Следуйте инструкциям по установке, приведенным в документации.
 ### Могу ли я использовать Aspose.HTML для Java без лицензии?
  Да, но бесплатная версия имеет некоторые ограничения. Чтобы разблокировать все функции, вам нужно будет купить лицензию или получить временную от[Сайт Aspose](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

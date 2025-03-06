@@ -3,10 +3,16 @@ title: Niestandardowy schemat i obsługa wiadomości w Aspose.HTML dla Java
 linktitle: Niestandardowy schemat i obsługa wiadomości w Aspose.HTML dla Java
 second_title: Przetwarzanie HTML w Javie za pomocą Aspose.HTML
 description: Dowiedz się, jak opanować Aspose.HTML dla Javy dzięki samouczkom na temat filtrowania i obsługi niestandardowych schematów wiadomości. Zacznij budować dostosowane aplikacje.
-type: docs
 weight: 24
 url: /pl/java/custom-schema-message-handling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Niestandardowy schemat i obsługa wiadomości w Aspose.HTML dla Java
+
 ## Wstęp
 
 Jeśli chodzi o tworzenie aplikacji, potrzeba precyzyjnej kontroli nad komunikacją danych jest najważniejsza. Wyobraź sobie, że próbujesz dostroić się do swojej ulubionej stacji radiowej, ale wszystko, co otrzymujesz, to statyczność; tak chaotyczne, niefiltrowane lub źle zarządzane wiadomości mogą wydawać się w Twojej aplikacji. To właśnie tutaj Aspose.HTML dla Javy błyszczy, umożliwiając programistom implementację niestandardowych schematów wiadomości, które filtrują, obsługują i tym samym usprawniają wymianę danych.
@@ -28,3 +34,9 @@ Teraz nie zapomnijmy o obsłudze wiadomości. Wyobraź sobie, że jesteś za ste
 Dowiedz się, jak zaimplementować niestandardowy filtr komunikatów schematu w Javie przy użyciu Aspose.HTML. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać bezpieczne, dostosowane środowisko aplikacji.
 ### [Niestandardowy program do obsługi komunikatów schematu z Aspose.HTML dla języka Java](./custom-schema-message-handler/)
 Naucz się tworzyć niestandardowy program obsługi wiadomości schematu przy użyciu Aspose.HTML dla Java. Ten samouczek przeprowadzi Cię krok po kroku przez ten proces.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

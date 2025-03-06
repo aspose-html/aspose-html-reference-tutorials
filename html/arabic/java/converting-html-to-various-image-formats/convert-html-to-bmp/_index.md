@@ -3,10 +3,16 @@ title: تحويل HTML إلى BMP باستخدام Aspose.HTML لـ Java
 linktitle: تحويل HTML إلى BMP
 second_title: معالجة HTML باستخدام Java مع Aspose.HTML
 description: تعرف على كيفية تحويل HTML إلى BMP بسهولة باستخدام Aspose.HTML for Java. دليل خطوة بخطوة مع المتطلبات الأساسية واستيراد الحزم. استكشف الآن!
-type: docs
 weight: 10
 url: /ar/java/converting-html-to-various-image-formats/convert-html-to-bmp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحويل HTML إلى BMP باستخدام Aspose.HTML لـ Java
+
 
 هل أنت مستعد للاستفادة من قوة Aspose.HTML for Java لتحويل مستندات HTML إلى صور BMP بسلاسة؟ في هذا الدليل التفصيلي، سنرشدك خلال العملية بإرشادات مفصلة. سواء كنت مطورًا محترفًا أو مبتدئًا، فلدينا ما يناسبك. دعنا نغوص في عالم تحويل HTML إلى BMP!
 
@@ -117,3 +123,9 @@ if (document != null) {
 
 ### ما هو حد حجم الملف لتحويل HTML إلى BMP؟
 قد يختلف حد حجم الملف وفقًا للترخيص الخاص بك. للحصول على معلومات مفصلة، راجع الوثائق.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Modifica e invio di moduli HTML con Aspose.HTML per Java
 linktitle: Modifica e invio di moduli HTML con Aspose.HTML per Java
 second_title: Elaborazione HTML Java con Aspose.HTML
 description: Scopri come modificare e inviare moduli HTML a livello di programmazione utilizzando Aspose.HTML per Java in questa guida completa passo dopo passo.
-type: docs
 weight: 11
 url: /it/java/css-html-form-editing/html-form-editing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Modifica e invio di moduli HTML con Aspose.HTML per Java
+
 ## Introduzione
 Nel mondo odierno guidato dal web, interagire con i moduli HTML è un compito comune per gli sviluppatori, che si tratti di compilare moduli, inviarli o automatizzare l'immissione di dati. Aspose.HTML per Java fornisce una soluzione solida per la gestione di moduli HTML a livello di programmazione. Questo articolo ti guiderà attraverso la modifica e l'invio di moduli HTML utilizzando Aspose.HTML per Java, con un tutorial passo dopo passo che suddivide il processo in parti gestibili.
 ## Prerequisiti
@@ -112,3 +118,9 @@ Aspose.HTML per Java è una libreria che consente agli sviluppatori di lavorare 
 Attualmente, gli invii dei moduli sono sincroni. Tuttavia, puoi gestire le operazioni asincrone nella tua applicazione Java eseguendo l'invio in un thread separato.
 ### Cosa succede se l'invio del modulo non riesce?
  Se l'invio fallisce, il`SubmissionResult`l'oggetto non verrà contrassegnato come riuscito e sarà possibile gestire gli errori esaminando il messaggio di risposta o i dettagli dell'eccezione.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

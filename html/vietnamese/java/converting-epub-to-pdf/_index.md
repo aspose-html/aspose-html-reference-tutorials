@@ -3,10 +3,16 @@ title: Chuyển đổi EPUB sang PDF
 linktitle: Chuyển đổi EPUB sang PDF
 second_title: Xử lý HTML Java với Aspose.HTML
 description: Mở khóa chuyển đổi EPUB sang PDF với Aspose.HTML cho Java, thư viện Java mạnh mẽ. Tạo nội dung dễ truy cập một cách dễ dàng.
-type: docs
 weight: 27
 url: /vi/java/converting-epub-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chuyển đổi EPUB sang PDF
+
 
 Bạn đang tìm kiếm một cách dễ dàng để chuyển đổi tệp EPUB sang định dạng PDF? Aspose.HTML for Java cung cấp cho bạn chìa khóa để mở khóa chuyển đổi EPUB sang PDF một cách dễ dàng. Trong bài viết này, chúng tôi sẽ hướng dẫn bạn quy trình chuyển đổi tệp EPUB sang PDF bằng sức mạnh của Java. Không còn sự bực bội nữa, chỉ cần chuyển đổi tài liệu liền mạch.
 
@@ -54,3 +60,9 @@ Tìm hiểu cách sử dụng Aspose.HTML cho Java để chuyển đổi tệp E
 Học cách sử dụng Aspose.HTML cho Java: Chuyển đổi EPUB sang hình ảnh và nhiều hơn nữa. Khám phá hướng dẫn từng bước của chúng tôi.
 ### [Chuyển đổi EPUB sang hình ảnh](./convert-epub-to-image/)
 Tìm hiểu cách chuyển đổi EPUB sang hình ảnh bằng Aspose.HTML cho Java. Chuyển đổi nội dung kỹ thuật số của bạn một cách dễ dàng. Có kèm hướng dẫn từng bước.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

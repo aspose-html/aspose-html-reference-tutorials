@@ -3,10 +3,16 @@ title: Pengeditan dan Pengiriman Formulir HTML dengan Aspose.HTML untuk Java
 linktitle: Pengeditan dan Pengiriman Formulir HTML dengan Aspose.HTML untuk Java
 second_title: Pemrosesan HTML Java dengan Aspose.HTML
 description: Pelajari cara mengedit dan mengirimkan formulir HTML secara terprogram menggunakan Aspose.HTML untuk Java dalam panduan langkah demi langkah yang komprehensif ini.
-type: docs
 weight: 11
 url: /id/java/css-html-form-editing/html-form-editing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pengeditan dan Pengiriman Formulir HTML dengan Aspose.HTML untuk Java
+
 ## Perkenalan
 Dalam dunia berbasis web saat ini, berinteraksi dengan formulir HTML merupakan tugas umum bagi para pengembang, baik itu mengisi formulir, mengirimkannya, atau mengotomatiskan entri data. Aspose.HTML untuk Java menyediakan solusi yang tangguh untuk mengelola formulir HTML secara terprogram. Artikel ini akan memandu Anda mengedit dan mengirimkan formulir HTML menggunakan Aspose.HTML untuk Java, dengan tutorial langkah demi langkah yang membagi proses menjadi beberapa bagian yang mudah dikelola.
 ## Prasyarat
@@ -112,3 +118,9 @@ Aspose.HTML untuk Java adalah pustaka yang memungkinkan pengembang untuk bekerja
 Saat ini, pengiriman formulir bersifat sinkron. Namun, Anda dapat mengelola operasi asinkron di aplikasi Java Anda dengan menjalankan pengiriman di thread terpisah.
 ### Apa yang terjadi jika pengiriman formulir gagal?
  Jika pengiriman gagal,`SubmissionResult`objek tidak akan ditandai sebagai berhasil, dan Anda dapat menangani kesalahan dengan memeriksa pesan respons atau detail pengecualian.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

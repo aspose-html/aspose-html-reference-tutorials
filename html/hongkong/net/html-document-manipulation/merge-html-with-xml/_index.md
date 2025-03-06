@@ -3,10 +3,16 @@ title: 使用 Aspose.HTML 將 .NET 中的 HTML 與 XML 合併
 linktitle: 在 .NET 中將 HTML 與 XML 合併
 second_title: Aspose.HTML .NET HTML 操作 API
 description: 學習使用 Aspose.HTML for .NET。透過此綜合指南匯入命名空間、將 HTML 與 XML 合併並增強您的 Web 開發技能。
-type: docs
 weight: 18
 url: /zh-hant/net/html-document-manipulation/merge-html-with-xml/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.HTML 將 .NET 中的 HTML 與 XML 合併
+
 
 在動態的 Web 開發環境中，擁有合適的工具可以發揮重要作用。 Aspose.HTML for .NET 就是這樣一種工具，它使開發人員能夠在 .NET 框架內無縫地建立、操作和轉換 HTML 文件。無論您是經驗豐富的開發人員還是剛開始您的開發之旅，這份綜合指南都將引導您完成從先決條件到高級用法的各個步驟，並將每個範例分解為逐步說明。學完本教學後，您將精通使用 Aspose.HTML for .NET 的技巧。
 
@@ -126,3 +132,9 @@ A1：Aspose.HTML for .NET 是一個功能強大的函式庫，可讓開發人員
 
  A5：Aspose.HTML 社群和支援論壇是尋求協助和與其他使用者聯繫的好地方。訪問論壇[這裡](https://forum.aspose.com/).
 f
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

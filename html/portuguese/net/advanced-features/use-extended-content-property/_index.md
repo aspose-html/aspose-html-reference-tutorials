@@ -3,10 +3,16 @@ title: Use a propriedade de conteúdo estendido no .NET com Aspose.HTML
 linktitle: Usar propriedade de conteúdo estendido no .NET
 second_title: Aspose.HTML .NET API de manipulação de HTML
 description: Aprenda a usar Aspose.HTML para .NET com este guia passo a passo. Melhore suas habilidades em HTML e simplifique seus projetos de desenvolvimento web.
-type: docs
 weight: 14
 url: /pt/net/advanced-features/use-extended-content-property/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Use a propriedade de conteúdo estendido no .NET com Aspose.HTML
+
 
 No mundo do desenvolvimento web, trabalhar com HTML é uma habilidade fundamental. O Aspose.HTML para .NET é uma ferramenta poderosa que pode tornar suas tarefas relacionadas a HTML mais fáceis e eficientes. Este tutorial o levará pelas etapas para começar a usar o Aspose.HTML para .NET, incluindo pré-requisitos, importação de namespaces e divisão de cada exemplo em etapas fáceis de seguir.
 
@@ -123,3 +129,10 @@ Parabéns! Você acabou de dar seus primeiros passos no mundo do Aspose.HTML par
 ### Há algum recurso ou tutorial adicional disponível para o Aspose.HTML para .NET?
     Sim, você pode encontrar mais tutoriais e documentação no[Site Aspose.HTML](https://reference.aspose.com/html/net/).
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

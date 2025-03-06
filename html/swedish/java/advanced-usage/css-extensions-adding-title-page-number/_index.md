@@ -3,10 +3,16 @@ title: Anpassa HTML-sidmarginaler med Aspose.HTML
 linktitle: CSS-tillägg - Lägga till titel och sidnummer
 second_title: Java HTML-bearbetning med Aspose.HTML
 description: Lär dig hur du anpassar sidmarginaler, lägger till sidnummer och titlar till HTML-dokument med Aspose.HTML för Java.
-type: docs
 weight: 10
 url: /sv/java/advanced-usage/css-extensions-adding-title-page-number/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Anpassa HTML-sidmarginaler med Aspose.HTML
+
 Aspose.HTML for Java är ett kraftfullt bibliotek för bearbetning av HTML-dokument i Java-applikationer. I den här handledningen kommer vi att utforska hur du skapar anpassade sidmarginaler och lägger till sidnummer och titlar till dina HTML-dokument med Aspose.HTML för Java. Denna steg-för-steg-guide kommer att dela upp processen i hanterbara steg för att hjälpa dig att enkelt integrera dessa funktioner i dina HTML-dokument.
 
 ## Förutsättningar
@@ -119,3 +125,9 @@ S4: Ja, Aspose.HTML för Java kan användas för att konvertera HTML-dokument ti
 ### F5: Behöver jag en licens för att använda Aspose.HTML för Java?
 
  S5: Ja, du kan få en licens eller en gratis provperiod från[här](https://purchase.aspose.com/buy) eller[här](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

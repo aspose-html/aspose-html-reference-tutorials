@@ -3,10 +3,16 @@ title: 使用 Aspose.HTML for Java 編輯並提交 HTML 表單
 linktitle: 使用 Aspose.HTML for Java 編輯並提交 HTML 表單
 second_title: 使用 Aspose.HTML 進行 Java HTML 處理
 description: 在此綜合逐步指南中，了解如何使用 Aspose.HTML for Java 以程式設計方式編輯和提交 HTML 表單。
-type: docs
 weight: 11
 url: /zh-hant/java/css-html-form-editing/html-form-editing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.HTML for Java 編輯並提交 HTML 表單
+
 ## 介紹
 在當今網路驅動的世界中，與 HTML 表單互動是開發人員的常見任務，無論是填寫表單、提交表單或自動輸入資料。 Aspose.HTML for Java 提供了一個以程式設計方式管理 HTML 表單的強大解決方案。本文將指導您使用 Aspose.HTML for Java 編輯和提交 HTML 表單，並透過逐步教學將該過程分解為可管理的部分。
 ## 先決條件
@@ -112,3 +118,9 @@ Aspose.HTML for Java 是一個函式庫，允許開發人員在 Java 應用程�
 目前，表單提交是同步的。但是，您可以透過在單獨的執行緒中執行提交來管理 Java 應用程式中的非同步操作。
 ### 如果表單提交失敗怎麼辦？
 如果提交失敗，`SubmissionResult`物件不會被標記為成功，您可以透過檢查回應訊息或異常詳細資訊來處理錯誤。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

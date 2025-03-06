@@ -3,10 +3,16 @@ title: Hiển thị tài liệu HTML
 linktitle: Hiển thị tài liệu HTML
 second_title: Aspose.HTML .NET API thao tác HTML
 description: Tìm hiểu cách kết xuất tài liệu HTML dễ dàng bằng hướng dẫn Aspose.HTML cho .NET. Khám phá danh sách hướng dẫn toàn diện để thành thạo kết xuất HTML.
-type: docs
 weight: 29
 url: /vi/net/rendering-html-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hiển thị tài liệu HTML
+
 
 Bạn có muốn nâng cao chuyên môn trong việc dựng tài liệu HTML bằng Aspose.HTML cho .NET không? Không cần tìm đâu xa! Trong hướng dẫn toàn diện này, chúng tôi sẽ hướng dẫn bạn từng bước trong quy trình, đảm bảo bạn trở nên thành thạo trong việc dựng HTML bằng Aspose.HTML.
 
@@ -46,3 +52,9 @@ Tìm hiểu cách kiểm soát thời gian chờ kết xuất hiệu quả trong
 Học cách hiển thị nhiều tài liệu HTML bằng Aspose.HTML cho .NET. Tăng cường khả năng xử lý tài liệu của bạn với thư viện mạnh mẽ này.
 ### [Kết xuất SVG Doc thành PNG trong .NET với Aspose.HTML](./render-svg-doc-as-png/)
 Mở khóa sức mạnh của Aspose.HTML cho .NET! Tìm hiểu cách Render SVG Doc thành PNG một cách dễ dàng. Tìm hiểu các ví dụ từng bước và câu hỏi thường gặp. Bắt đầu ngay!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

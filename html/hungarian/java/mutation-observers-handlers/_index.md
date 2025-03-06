@@ -3,10 +3,16 @@ title: Mutációmegfigyelők és -kezelők az Aspose.HTML for Java-ban
 linktitle: Mutációmegfigyelők és -kezelők az Aspose.HTML for Java-ban
 second_title: Java HTML feldolgozás Aspose.HTML-lel
 description: Fedezze fel az Aspose.HTML for Java oktatóanyagát, amely fejlett mutációmegfigyelőket és biztonságos hitelesítőadat-kezelőket tartalmaz a webalkalmazások fejlesztéséhez.
-type: docs
 weight: 23
 url: /hu/java/mutation-observers-handlers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mutációmegfigyelők és -kezelők az Aspose.HTML for Java-ban
+
 ## Bevezetés
 
 Ha arra törekszik, hogy javítsa Java webalkalmazásait, valószínűleg hallott már az Aspose.HTML-ről. De hadd mondjam el, ez nem csak egy közönséges könyvtár, hanem a HTML-dokumentumok dinamikus kezelésének egyik eszköze. Ebben az útmutatóban két alapvető összetevőt vizsgálunk meg: a mutációmegfigyelőket és a hitelesítő adatok kezelőit, amelyek lehetővé teszik az alkalmazások feltöltését. 
@@ -28,3 +34,9 @@ Most pedig lássuk be: a felhasználói hitelesítő adatok kezelése nem séta 
 Ismerje meg, hogyan valósíthat meg fejlett mutációs megfigyelőt az Aspose.HTML for Java segítségével, amely zökkenőmentesen követi a DOM-változásokat. Merüljön el lépésről lépésre útmutatónkban.
 ### [Hitelesítőadat-kezelő használata az Aspose.HTML for Java-ban](./credential-handler/)
 Fedezze fel, hogyan valósíthat meg biztonságos hitelesítő adatkezelőt az Aspose.HTML for Java használatával a felhasználói hitelesítés hatékony kezelése érdekében.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

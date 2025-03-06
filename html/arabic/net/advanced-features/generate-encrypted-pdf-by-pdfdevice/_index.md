@@ -3,10 +3,16 @@ title: إنشاء ملف PDF مشفر بواسطة PdfDevice في .NET باست�
 linktitle: إنشاء ملف PDF مشفر بواسطة PdfDevice في .NET
 second_title: Aspose.HTML .NET HTML manipulation API
 description: قم بتحويل HTML إلى PDF ديناميكيًا باستخدام Aspose.HTML لـ .NET. تكامل سهل وخيارات قابلة للتخصيص وأداء قوي.
-type: docs
 weight: 15
 url: /ar/net/advanced-features/generate-encrypted-pdf-by-pdfdevice/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إنشاء ملف PDF مشفر بواسطة PdfDevice في .NET باستخدام Aspose.HTML
+
 
 في عالم تطوير الويب السريع الخطى، أصبحت الحاجة إلى تحويل HTML إلى PDF بشكل ديناميكي متطلبًا شائعًا. سواء كنت تريد إنشاء تقارير أو فواتير أو أرشفة محتوى ويب ببساطة، فإن Aspose.HTML for .NET هي أداة قوية يمكنها تبسيط هذه العملية. في هذا البرنامج التعليمي، سنوضح لك الخطوات اللازمة لتحقيق تحويل HTML إلى PDF ديناميكيًا باستخدام Aspose.HTML for .NET.
 
@@ -98,3 +104,9 @@ using (PdfDevice device = new PdfDevice(options, dataDir + @"document_out.pdf"))
 ### س5. أين يمكنني الحصول على المساعدة والدعم؟
 
  ج5: لأي أسئلة أو مشكلات، يمكنك زيارة منتديات Aspose للحصول على الدعم والمناقشات:[يدعم](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

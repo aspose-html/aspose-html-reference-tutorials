@@ -3,10 +3,16 @@ title: حفظ مستند في .NET باستخدام Aspose.HTML
 linktitle: حفظ مستند في .NET
 second_title: Aspose.HTML .NET HTML manipulation API
 description: اكتشف قوة Aspose.HTML لـ .NET من خلال دليلنا خطوة بخطوة. تعلم كيفية إنشاء مستندات HTML وSVG ومعالجتها وتحويلها
-type: docs
 weight: 16
 url: /ar/net/html-document-manipulation/saving-a-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# حفظ مستند في .NET باستخدام Aspose.HTML
+
 
 في العصر الرقمي الحالي، يعد إنشاء ومعالجة مستندات HTML وSVG أمرًا ضروريًا للعديد من مطوري البرامج والشركات. Aspose.HTML for .NET هي مكتبة قوية تبسط هذه المهام، وتقدم وظائف متنوعة للعمل مع HTML وSVG والمزيد. في هذا الدليل الشامل، سنتعمق في أساسيات Aspose.HTML for .NET، ونقسم كل مثال إلى خطوات سهلة المتابعة. سواء كنت مطورًا متمرسًا أو بدأت للتو، فستجد هذا الدليل لا يقدر بثمن للاستفادة من إمكانيات Aspose.HTML.
 
@@ -166,3 +172,9 @@ A1: Aspose.HTML for .NET هي مكتبة .NET توفر مجموعة واسعة �
 ### س5: أين يمكنني الحصول على الدعم لـ Aspose.HTML لـ .NET؟
 
  ج5: يمكنك العثور على الدعم والإجابات على أسئلتك في منتدى مجتمع Aspose.HTML[هنا](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

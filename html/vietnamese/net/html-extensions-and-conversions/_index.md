@@ -3,10 +3,16 @@ title: Phần mở rộng và chuyển đổi HTML
 linktitle: Phần mở rộng và chuyển đổi HTML
 second_title: Aspose.HTML .NET API thao tác HTML
 description: Khám phá các tiện ích mở rộng HTML và hướng dẫn chuyển đổi bằng Aspose.HTML cho .NET. Tìm hiểu cách tối ưu hóa phát triển web với các hướng dẫn toàn diện này.
-type: docs
 weight: 20
 url: /vi/net/html-extensions-and-conversions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Phần mở rộng và chuyển đổi HTML
+
 
 Bạn có muốn nâng cao kỹ năng phát triển web và mở khóa sức mạnh của tiện ích mở rộng và chuyển đổi HTML không? Không cần tìm đâu xa! Trong hướng dẫn toàn diện này, chúng ta sẽ đi sâu vào thế giới của các hướng dẫn về tiện ích mở rộng và chuyển đổi HTML bằng Aspose.HTML cho .NET.
 
@@ -63,3 +69,9 @@ Khám phá sức mạnh của Aspose.HTML cho .NET: Chuyển đổi HTML sang XP
 Tóm lại, phần mở rộng và chuyển đổi HTML là những yếu tố thiết yếu của phát triển web hiện đại. Aspose.HTML cho .NET đơn giản hóa quy trình và giúp các nhà phát triển ở mọi cấp độ có thể tiếp cận. Bằng cách làm theo hướng dẫn của chúng tôi, bạn sẽ tiến gần đến mục tiêu trở thành một nhà phát triển web thành thạo với bộ kỹ năng rộng.
 
 Vậy, bạn còn chờ gì nữa? Hãy bắt đầu hành trình thú vị này để khám phá các tiện ích mở rộng và chuyển đổi HTML bằng Aspose.HTML cho .NET. Các dự án phát triển web của bạn sẽ không bao giờ giống nhau!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

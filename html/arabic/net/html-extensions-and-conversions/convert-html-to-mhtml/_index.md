@@ -3,10 +3,16 @@ title: تحويل HTML إلى MHTML في .NET باستخدام Aspose.HTML
 linktitle: تحويل HTML إلى MHTML في .NET
 second_title: Aspose.HTML .NET HTML manipulation API
 description: تحويل HTML إلى MHTML في .NET باستخدام Aspose.HTML - دليل خطوة بخطوة لأرشفة محتوى الويب بكفاءة. تعرف على كيفية استخدام Aspose.HTML لـ .NET لإنشاء أرشيفات MHTML.
-type: docs
 weight: 19
 url: /ar/net/html-extensions-and-conversions/convert-html-to-mhtml/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحويل HTML إلى MHTML في .NET باستخدام Aspose.HTML
+
 
 في عالم تطوير الويب، يعد تحويل المستندات بكفاءة أمرًا بالغ الأهمية. تعد مكتبة Aspose.HTML for .NET أداة قوية تبسط تحويل مستندات HTML إلى تنسيقات مختلفة، بما في ذلك MHTML. MHTML، اختصارًا لـ "MIME HTML"، هو تنسيق أرشيف لصفحات الويب يسمح لك بحفظ صفحة ويب ومواردها في ملف واحد. في هذا الدليل التفصيلي، سنرشدك خلال عملية تحويل مستند HTML إلى MHTML باستخدام Aspose.HTML for .NET.
 
@@ -109,3 +115,10 @@ MHTML، اختصار لـ "MIME HTML"، هو تنسيق أرشفة لصفحات 
 
  إذا كنت بحاجة إلى ترخيص مؤقت، يمكنك الحصول عليه من[موقع Aspose.Purchase](https://purchase.aspose.com/temporary-license/)سيمنحك هذا الترخيص المؤقت إمكانية الوصول إلى كامل وظائف المكتبة لفترة محدودة.
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

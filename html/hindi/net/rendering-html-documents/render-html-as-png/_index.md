@@ -3,10 +3,16 @@ title: Aspose.HTML के साथ .NET में HTML को PNG के रू
 linktitle: .NET में HTML को PNG के रूप में प्रस्तुत करें
 second_title: Aspose.HTML .NET HTML हेरफेर एपीआई
 description: .NET के लिए Aspose.HTML के साथ काम करना सीखें। HTML में हेरफेर करें, विभिन्न प्रारूपों में कनवर्ट करें, और बहुत कुछ। इस व्यापक ट्यूटोरियल में गोता लगाएँ!
-type: docs
 weight: 10
 url: /hi/net/rendering-html-documents/render-html-as-png/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.HTML के साथ .NET में HTML को PNG के रूप में प्रस्तुत करें
+
 
 इस ट्यूटोरियल में, हम .NET के लिए Aspose.HTML की दुनिया में गहराई से जाएंगे, जो HTML दस्तावेज़ों के साथ प्रोग्रामेटिक रूप से काम करने के लिए एक शक्तिशाली उपकरण है। चाहे आप एक अनुभवी डेवलपर हों या .NET प्रोग्रामिंग की दुनिया में अपनी यात्रा शुरू कर रहे हों, यह ट्यूटोरियल आपको Aspose.HTML की अनिवार्यताओं के माध्यम से मार्गदर्शन करेगा, नामस्थानों को आयात करने से लेकर व्यावहारिक उदाहरणों को तोड़ने तक।
 
@@ -94,3 +100,9 @@ using (var document = new Aspose.Html.HTMLDocument("<style>p { color: green; }</
 
 ### मैं और अधिक ट्यूटोरियल और दस्तावेज़ कहां पा सकता हूं?
    आप इस पर व्यापक दस्तावेज और ट्यूटोरियल देख सकते हैं[.NET के लिए Aspose.HTML दस्तावेज़न पृष्ठ](https://reference.aspose.com/html/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

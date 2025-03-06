@@ -3,10 +3,16 @@ title: Personnaliser les marges des pages HTML avec Aspose.HTML
 linktitle: Extensions CSS - Ajout d'un titre et d'un numéro de page
 second_title: Traitement HTML Java avec Aspose.HTML
 description: Découvrez comment personnaliser les marges de page, ajouter des numéros de page et des titres aux documents HTML à l'aide d'Aspose.HTML pour Java.
-type: docs
 weight: 10
 url: /fr/java/advanced-usage/css-extensions-adding-title-page-number/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Personnaliser les marges des pages HTML avec Aspose.HTML
+
 Aspose.HTML pour Java est une bibliothèque puissante pour le traitement de documents HTML dans des applications Java. Dans ce didacticiel, nous découvrirons comment créer des marges de page personnalisées et ajouter des numéros de page et des titres à vos documents HTML à l'aide d'Aspose.HTML pour Java. Ce guide étape par étape décomposera le processus en étapes faciles à gérer pour vous aider à intégrer facilement ces fonctionnalités dans vos documents HTML.
 
 ## Prérequis
@@ -119,3 +125,9 @@ A4 : Oui, Aspose.HTML pour Java peut être utilisé pour convertir des document
 ### Q5 : Ai-je besoin d'une licence pour utiliser Aspose.HTML pour Java ?
 
  A5 : Oui, vous pouvez obtenir une licence ou un essai gratuit auprès de[ici](https://purchase.aspose.com/buy) ou[ici](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

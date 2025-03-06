@@ -3,10 +3,16 @@ title: 使用 Aspose.HTML for Java 將 HTML 轉換為 PNG
 linktitle: 將 HTML 轉換為 PNG
 second_title: 使用 Aspose.HTML 進行 Java HTML 處理
 description: 了解如何在 Java 中使用 Aspose.HTML 將 HTML 轉換為 PNG 圖片。包含逐步說明的綜合指南。
-type: docs
 weight: 13
 url: /zh-hant/java/conversion-html-to-various-image-formats/convert-html-to-png/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.HTML for Java 將 HTML 轉換為 PNG
+
 在這個綜合教學中，我們將引導您完成使用 Aspose.HTML for Java 將 HTML 文件轉換為 PNG 映像的過程。該庫是處理 HTML 文件的強大工具，並提供廣泛的功能，包括 HTML 到圖像的轉換。在本指南結束時，您將清楚地了解先決條件、如何匯入必要的套件以及轉換過程的逐步細分。
 
 ## 先決條件
@@ -110,3 +116,9 @@ A2：是的，您可以將 HTML 文件轉換為各種圖像格式，包括 PNG�
 ### Q5：Aspose.HTML for Java 適合網頁抓取嗎？
 
 A5：雖然它主要是為文件操作而設計的，但它可以透過其 HTML 解析功能用於網頁抓取。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -1,12 +1,17 @@
 ---
 title: دروس شاملة حول Aspose.HTML Java
 linktitle: دروس تعليمية حول Aspose.HTML لـ Java
-type: docs
 weight: 10
 url: /ar/java/
 description: اكتشف قوة Aspose.HTML لـ Java من خلال البرامج التعليمية المتقدمة. تعلم كيفية التعامل مع صفحات HTML وتحويل EPUB إلى تنسيقات مختلفة وتخصيص HTML Canvas مثل المحترفين.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# دروس شاملة حول Aspose.HTML Java
+
 Aspose.HTML for Java هي مكتبة متعددة الاستخدامات توفر مجموعة واسعة من الإمكانات لتحسين مهام معالجة HTML. في هذه المقالة، سنتعمق في جوانب مختلفة من Aspose.HTML for Java ونستكشف استخدامها المتقدم من خلال سلسلة من الدروس التعليمية الشاملة.
 
 ## تخصيص هوامش صفحات HTML
@@ -87,3 +92,9 @@ HTML5 Canvas هي أداة قوية لإنشاء الرسومات والرسوم
 اكتشف دروس Aspose.HTML الشاملة لـ Java والتي ترشدك خلال حفظ مستندات HTML، وتحويلها إلى Markdown، والمزيد.
 ### [التعامل مع ملفات ZIP في Aspose.HTML لـ Java](./handling-zip-files/)
 اكتشف قوة Aspose.HTML للغة Java. استكشف البرامج التعليمية حول التعامل مع ملفات ZIP وتعلم التقنيات الأساسية لإدارة أرشيفات ZIP بفعالية.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

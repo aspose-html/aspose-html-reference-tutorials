@@ -3,10 +3,16 @@ title: 轉換 - HTML 到其他格式教程
 linktitle: 轉換 - HTML 到其他格式
 second_title: 使用 Aspose.HTML 進行 Java HTML 處理
 description: 學習使用 Aspose.HTML 將 HTML 轉換為 PDF、MHTML、XPS、Markdown、SVG 等。高品質文件轉換變得簡單。
-type: docs
 weight: 25
 url: /zh-hant/java/conversion-html-to-other-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 轉換 - HTML 到其他格式教程
+
 
 在數位世界中，將 HTML 內容轉換為各種格式的能力是一項非常寶貴的技能。無論您是 Web 開發人員、內容創建者，還是只是希望操作 HTML 數據，了解如何將 HTML 轉換為其他格式都可以極大地增強您的能力。在本文中，我們將探索使用 Aspose.HTML for Java 將 HTML 轉換為不同格式的教學課程。
 
@@ -55,3 +61,9 @@ XPS 是文件共用的理想格式。使用 Aspose.HTML for Java，將 SVG 轉�
 使用 Aspose.HTML 在 Java 中將 SVG 轉換為 PDF。高品質文件轉換的無縫解決方案。
 ### [將 SVG 轉換為 XPS](./convert-svg-to-xps/)
 了解如何使用 Aspose.HTML for Java 將 SVG 轉換為 XPS。無縫轉換的簡單逐步指南。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

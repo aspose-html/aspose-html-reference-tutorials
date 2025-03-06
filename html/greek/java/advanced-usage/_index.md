@@ -3,10 +3,16 @@ title: Προηγμένη χρήση του Aspose.HTML Java Tutorials
 linktitle: Προηγμένη χρήση του Aspose.HTML Java
 second_title: Επεξεργασία Java HTML με Aspose.HTML
 description: Μάθετε πώς να προσαρμόζετε τα περιθώρια σελίδας HTML, να εφαρμόζετε έναν Παρατηρητή μετάλλαξης DOM, να χειρίζεστε τον καμβά HTML5, να αυτοματοποιείτε τη συμπλήρωση φόρμας HTML και πολλά άλλα χρησιμοποιώντας Aspose.HTML Java.
-type: docs
 weight: 20
 url: /el/java/advanced-usage/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Προηγμένη χρήση του Aspose.HTML Java Tutorials
+
 
 Στον κόσμο της ανάπτυξης Ιστού, η γνώση της τέχνης του χειρισμού HTML είναι ζωτικής σημασίας. Το Aspose.HTML για Java φέρνει μια πληθώρα δυνατοτήτων που σας επιτρέπουν να ανεβάσετε τις δεξιότητές σας HTML στο επόμενο επίπεδο. Σε αυτό το άρθρο, θα εμβαθύνουμε σε ορισμένες προηγμένες τεχνικές που θα σας βοηθήσουν να αξιοποιήσετε τη δύναμη του Aspose.HTML για Java.
 
@@ -51,3 +57,9 @@ url: /el/java/advanced-usage/
 Μάθετε πώς να προσαρμόζετε το μέγεθος σελίδας PDF με το Aspose.HTML για Java. Δημιουργήστε αρχεία PDF υψηλής ποιότητας από HTML χωρίς κόπο. Ελέγξτε αποτελεσματικά τις διαστάσεις της σελίδας.
 ### [Προσαρμόστε το μέγεθος σελίδας XPS με το Aspose.HTML για Java](./adjust-xps-page-size/)
 Μάθετε πώς να προσαρμόζετε το μέγεθος σελίδας XPS με το Aspose.HTML για Java. Ελέγξτε εύκολα τις διαστάσεις εξόδου των εγγράφων XPS σας.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

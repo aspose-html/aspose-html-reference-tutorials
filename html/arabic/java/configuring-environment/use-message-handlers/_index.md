@@ -3,10 +3,16 @@ title: استخدام معالجات الرسائل في Aspose.HTML لـ Java
 linktitle: استخدام معالجات الرسائل في Aspose.HTML لـ Java
 second_title: معالجة HTML باستخدام Java مع Aspose.HTML
 description: تعرف على كيفية استخدام معالجات الرسائل في Aspose.HTML لـ Java للتعامل مع الصور المفقودة وغيرها من عمليات الشبكة بشكل فعال.
-type: docs
 weight: 12
 url: /ar/java/configuring-environment/use-message-handlers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# استخدام معالجات الرسائل في Aspose.HTML لـ Java
+
 ## مقدمة
 في هذا البرنامج التعليمي، سنطلعك على مثال عملي لاستخدام معالجات الرسائل في Aspose.HTML لـ Java. سنقوم بإعداد مستند HTML بسيط يشير إلى صورة مفقودة ونوضح كيفية اكتشاف الخطأ ومعالجته باستخدام معالج رسائل مخصص. سواء كنت جديدًا على Aspose.HTML أو تتطلع إلى توسيع مهاراتك، سيمنحك هذا الدليل الرؤى التي تحتاجها لإدارة عمليات الشبكة بفعالية.
 ## المتطلبات الأساسية
@@ -109,3 +115,9 @@ Aspose.HTML for Java هي مكتبة قوية تسمح للمطورين بإنش
 نعم، إن التخلص من هذه الكائنات يضمن تحرير كافة الموارد بشكل صحيح، مما يمنع تسرب الذاكرة.
 ### هل يمكنني التعامل مع أنواع أخرى من الأخطاء باستخدام معالجات الرسائل؟
 بالتأكيد! يمكن تخصيص معالجات الرسائل للتعامل مع أنواع مختلفة من الأخطاء، وليس فقط الموارد المفقودة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

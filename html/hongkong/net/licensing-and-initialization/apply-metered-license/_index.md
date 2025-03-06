@@ -3,10 +3,16 @@ title: 使用 Aspose.HTML 在 .NET 中套用計量許可證
 linktitle: 在 .NET 中應用計量許可證
 second_title: Aspose.HTML .NET HTML 操作 API
 description: 了解如何在 Aspose.HTML for .NET 中套用計量許可證。有效管理您的 HTML 操作需求。現在就開始吧！
-type: docs
 weight: 10
 url: /zh-hant/net/licensing-and-initialization/apply-metered-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.HTML 在 .NET 中套用計量許可證
+
 在本教程中，我們將指導您完成使用 Aspose.HTML 在 .NET 應用程式中應用計量授權的過程。計量許可證是管理您的 HTML 操作需求的許可的便捷方法。透過執行下列步驟，您將能夠將計量許可證套用至您的 Aspose.HTML for .NET 專案。
 
 ## 先決條件
@@ -88,3 +94,9 @@ using Aspose.Html;
 
 ### 我可以在哪裡獲得有關 Aspose.HTML for .NET 的支援或提出問題？
 您可以加入社群並尋求支持[Aspose 論壇](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

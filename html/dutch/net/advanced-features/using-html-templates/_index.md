@@ -3,10 +3,16 @@ title: HTML-sjablonen gebruiken in .NET met Aspose.HTML
 linktitle: HTML-sjablonen gebruiken in .NET
 second_title: Aspose.HTML .NET HTML-manipulatie-API
 description: Leer hoe u Aspose.HTML voor .NET kunt gebruiken om dynamisch HTML-documenten te genereren uit JSON-gegevens. Benut de kracht van HTML-manipulatie in uw .NET-toepassingen.
-type: docs
 weight: 17
 url: /nl/net/advanced-features/using-html-templates/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# HTML-sjablonen gebruiken in .NET met Aspose.HTML
+
 
 Als u met HTML-documenten en -sjablonen in uw .NET-toepassingen wilt werken, bent u hier aan het juiste adres! Aspose.HTML voor .NET is een veelzijdige bibliotheek waarmee ontwikkelaars moeiteloos HTML-documenten en -sjablonen kunnen bewerken. In deze tutorial duiken we in de basisprincipes van het gebruik van Aspose.HTML voor .NET, waarbij we elke stap uiteenzetten en onderweg een duidelijke uitleg geven.
 
@@ -138,3 +144,9 @@ A3: U kunt Aspose.HTML voor .NET downloaden vanaf de downloadpagina[hier](https:
 ### V5. Heb ik een tijdelijke licentie nodig voor Aspose.HTML voor .NET?
 
  A5: Als u een tijdelijke vergunning nodig hebt voor evaluatiedoeleinden, kunt u deze verkrijgen bij[hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

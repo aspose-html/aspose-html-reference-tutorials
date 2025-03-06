@@ -3,10 +3,16 @@ title: Edición de documentos HTML en Aspose.HTML para Java
 linktitle: Edición de documentos HTML en Aspose.HTML para Java
 second_title: Procesamiento de HTML en Java con Aspose.HTML
 description: Explora tutoriales completos de Aspose.HTML para Java. Aprende a editar documentos HTML, implementar CSS y administrar contenido con guías paso a paso.
-type: docs
 weight: 28
 url: /es/java/editing-html-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Edición de documentos HTML en Aspose.HTML para Java
+
 ## Introducción
 
 ¿Estás listo para sumergirte en el mundo de la edición HTML y el estilo CSS con Aspose.HTML para Java? Ya seas un desarrollador experimentado o recién estés comenzando, esta colección de tutoriales es tu recurso de referencia para dominar la manipulación de documentos HTML. ¡Veamos lo que te espera!
@@ -52,3 +58,9 @@ Aprenda a agregar CSS en línea a documentos HTML con Aspose.HTML para Java. Est
 Aprenda a administrar propiedades HTML internas y externas en Aspose.HTML para Java con esta guía paso a paso, perfecta para desarrolladores web y creadores de contenido.
 ### [Implemente CSS interno en documentos HTML con Aspose.HTML para Java](./implement-internal-css-html-documents/)
 Aprenda a implementar CSS interno en documentos HTML usando Aspose.HTML para Java con nuestro sencillo tutorial paso a paso.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

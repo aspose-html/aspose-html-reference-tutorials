@@ -3,10 +3,16 @@ title: Egyszerű dokumentum létrehozása .NET-ben az Aspose.HTML segítségéve
 linktitle: Egyszerű dokumentum létrehozása .NET-ben
 second_title: Aspose.HTML .NET HTML manipulációs API
 description: Tanuljon meg dolgozni HTML-dokumentumokkal .NET-ben az Aspose.HTML használatával. Könnyen létrehozhat, manipulálhat és konvertálhat HTML-t. Kezdje el még ma!
-type: docs
 weight: 11
 url: /hu/net/working-with-html-documents/creating-a-simple-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Egyszerű dokumentum létrehozása .NET-ben az Aspose.HTML segítségével
+
 
 ## Bevezetés
 
@@ -152,3 +158,10 @@ Az Aspose.HTML for .NET egy .NET-könyvtár, amely átfogó funkcionalitást biz
 ### 5. Hol kaphatok támogatást az Aspose.HTML for .NET számára?
 
  Támogatást kaphat, és kérdéseket tehet fel az Aspose.HTML for .NET-hez kapcsolódóan a webhelyen[Aspose fórum](https://forum.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

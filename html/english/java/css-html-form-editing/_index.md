@@ -3,10 +3,16 @@ title: CSS and HTML Form Editing with Aspose.HTML for Java
 linktitle: CSS and HTML Form Editing with Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 description: Quickly learn to edit CSS and HTML forms with Aspose.HTML for Java in these insightful tutorials that empower developers with advanced skills.
-type: docs
 weight: 21
 url: /java/css-html-form-editing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CSS and HTML Form Editing with Aspose.HTML for Java
+
 ## Introduction
 
 When you're diving into web development, mastering CSS and HTML forms is like learning to ride a bicycle; it opens up a world of possibilities! And if you're using Aspose.HTML for Java, you're in for a treat because this library makes editing and submitting forms a breeze. Whether you're a seasoned pro or just getting started, these tutorials will guide you through everything you need to know.
@@ -24,3 +30,9 @@ Now, let’s shift gears and explore how to effectively edit and submit HTML for
 Learn how to use Aspose.HTML for Java to apply advanced CSS techniques, including custom page margins and dynamic content. A detailed, hands-on tutorial for developers.
 ### [HTML Form Editing and Submission with Aspose.HTML for Java](./html-form-editing/)
 Learn how to edit and submit HTML forms programmatically using Aspose.HTML for Java in this comprehensive step-by-step guide.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

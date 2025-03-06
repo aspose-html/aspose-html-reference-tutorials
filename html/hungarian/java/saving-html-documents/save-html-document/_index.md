@@ -3,10 +3,16 @@ title: Mentse el a HTML-dokumentumot az Aspose.HTML for Java-ban
 linktitle: Mentse el a HTML-dokumentumot az Aspose.HTML for Java-ban
 second_title: Java HTML feldolgozás Aspose.HTML-lel
 description: Tanulja meg, hogyan menthet HTML-dokumentumokat az Aspose.HTML for Java használatával ebből a kezdőknek és szakértőknek készült, lépésről lépésre szóló útmutatóból.
-type: docs
 weight: 10
 url: /hu/java/saving-html-documents/save-html-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mentse el a HTML-dokumentumot az Aspose.HTML for Java-ban
+
 ## Bevezetés
 Ha HTML-dokumentumokkal kell dolgozni Java nyelven, egy megbízható könyvtár mindent megtehet. Az Aspose.HTML for Java az egyik ilyen eszköz, amellyel a fejlesztők könnyedén hozhatnak létre, kezelhetnek és menthetnek HTML dokumentumokat. Ebben az oktatóanyagban bemutatjuk, hogyan menthet el HTML-dokumentumot az Aspose.HTML for Java használatával. 
 ## Előfeltételek
@@ -82,3 +88,9 @@ Az Aspose.HTML for Java egy olyan könyvtár, amely lehetővé teszi a fejleszt�
  Teljesen! Részletes dokumentációt találhat a[Aspose dokumentációs oldal](https://reference.aspose.com/html/java/).
 ### Hogyan vásárolhatom meg az Aspose.HTML for Java-t?  
  A könyvtárat megvásárolhatja a[Aspose vásárlási oldal](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

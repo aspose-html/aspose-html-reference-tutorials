@@ -3,10 +3,16 @@ title: Εφαρμογή Sandboxing στο Aspose.HTML για Java
 linktitle: Εφαρμογή Sandboxing στο Aspose.HTML για Java
 second_title: Επεξεργασία Java HTML με Aspose.HTML
 description: Μάθετε πώς να εφαρμόζετε το sandboxing στο Aspose.HTML για Java για να ελέγχετε με ασφάλεια την εκτέλεση σεναρίων στα έγγραφά σας HTML και να τα μετατρέπετε σε PDF.
-type: docs
 weight: 15
 url: /el/java/configuring-environment/implement-sandboxing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Εφαρμογή Sandboxing στο Aspose.HTML για Java
+
 ## Εισαγωγή
 Σε αυτό το σεμινάριο, θα δούμε πώς να εφαρμόσετε το sandboxing χρησιμοποιώντας το Aspose.HTML για Java. Θα σας μεταφέρουμε από τη ρύθμιση του περιβάλλοντός σας μέχρι τη σύνταξη ενός απλού αρχείου HTML, τη διαμόρφωση του sandbox και τη μετατροπή του HTML σας σε PDF, διατηρώντας παράλληλα υπό έλεγχο τα δυνητικά επιβλαβή σενάρια. Είτε είστε έμπειρος προγραμματιστής είτε μόλις ξεκινάτε, αυτός ο οδηγός θα σας δώσει τα εργαλεία που χρειάζεστε για να δημιουργήσετε εύκολα ασφαλές περιεχόμενο ιστού.
 ## Προαπαιτούμενα
@@ -89,3 +95,9 @@ if (configuration != null) {
  Τα σενάρια που βρίσκονται σε sandbox δεν θα εκτελεστούν και τα εφέ τους (όπως`document.write`) δεν θα εμφανιστεί στην έξοδο.
 ### Μπορώ να μετατρέψω HTML σε sandbox σε άλλες μορφές εκτός από το PDF;
 Απολύτως! Το Aspose.HTML για Java υποστηρίζει τη μετατροπή σε διάφορες μορφές, συμπεριλαμβανομένων εικόνων, XPS και άλλων.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

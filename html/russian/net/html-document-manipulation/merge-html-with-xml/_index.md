@@ -3,10 +3,16 @@ title: Объединение HTML с XML в .NET с помощью Aspose.HTML
 linktitle: Объединение HTML с XML в .NET
 second_title: API манипуляции HTML Aspose.HTML .NET
 description: Изучите использование Aspose.HTML для .NET. Импортируйте пространство имен, объединяйте HTML с XML и улучшайте свои навыки веб-разработки с помощью этого всеобъемлющего руководства.
-type: docs
 weight: 18
 url: /ru/net/html-document-manipulation/merge-html-with-xml/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Объединение HTML с XML в .NET с помощью Aspose.HTML
+
 
 В динамичном ландшафте веб-разработки наличие правильных инструментов в вашем распоряжении может иметь решающее значение. Aspose.HTML для .NET — один из таких инструментов, который дает разработчикам возможность создавать, изменять и преобразовывать HTML-документы без проблем в рамках .NET. Независимо от того, являетесь ли вы опытным разработчиком или только начинаете свой путь, это всеобъемлющее руководство проведет вас по всем этапам, от предварительных условий до расширенного использования, разбив каждый пример на пошаговые инструкции. К концу этого руководства вы будете хорошо разбираться в искусстве использования Aspose.HTML для .NET.
 
@@ -126,3 +132,9 @@ A1: Aspose.HTML для .NET — это мощная библиотека, кот
 
  A5: Сообщество Aspose.HTML и форум поддержки — это отличное место, где можно получить помощь и пообщаться с другими пользователями. Посетите форум[здесь](https://forum.aspose.com/).
 ф
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

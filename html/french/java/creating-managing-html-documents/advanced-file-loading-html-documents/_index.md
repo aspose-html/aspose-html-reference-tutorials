@@ -3,10 +3,16 @@ title: Chargement de fichiers avancé pour les documents HTML dans Aspose.HTML p
 linktitle: Chargement de fichiers avancé pour les documents HTML dans Aspose.HTML pour Java
 second_title: Traitement HTML Java avec Aspose.HTML
 description: Découvrez comment charger, manipuler et enregistrer des documents HTML à l'aide d'Aspose.HTML pour Java dans ce guide étape par étape. Débloquez le traitement HTML avancé dans vos projets Java.
-type: docs
 weight: 13
 url: /fr/java/creating-managing-html-documents/advanced-file-loading-html-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chargement de fichiers avancé pour les documents HTML dans Aspose.HTML pour Java
+
 ## Introduction
 Dans ce tutoriel, nous vous expliquerons le processus de chargement de documents HTML à partir d'un fichier à l'aide d'Aspose.HTML pour Java. Mais attendez, nous n'allons pas simplement charger n'importe quel fichier HTML : nous allons le charger, le manipuler et l'enregistrer sous un nouveau nom ! À la fin de ce guide, vous aurez une solide compréhension de la manière de gérer facilement les documents HTML et vous aurez hâte de vous plonger dans des fonctionnalités plus avancées.
 ## Prérequis
@@ -52,3 +58,9 @@ Oui, Aspose.HTML pour Java prend en charge la conversion de documents HTML en di
  Vous pouvez télécharger la dernière version d'Aspose.HTML pour Java à partir du[Page de sortie d'Aspose](https://releases.aspose.com/html/java/). Suivez les instructions d'installation fournies dans la documentation.
 ### Puis-je utiliser Aspose.HTML pour Java sans licence ?
  Oui, mais la version gratuite présente certaines limitations. Pour débloquer toutes les fonctionnalités, vous devrez acheter une licence ou obtenir une licence temporaire auprès de[Site Web d'Aspose](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

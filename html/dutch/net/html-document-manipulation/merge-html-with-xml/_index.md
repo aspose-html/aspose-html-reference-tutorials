@@ -3,10 +3,16 @@ title: Voeg HTML samen met XML in .NET met Aspose.HTML
 linktitle: HTML samenvoegen met XML in .NET
 second_title: Aspose.HTML .NET HTML-manipulatie-API
 description: Leer Aspose.HTML voor .NET gebruiken. Importeer namespace, voeg HTML samen met XML en verbeter uw webontwikkelingsvaardigheden met deze uitgebreide gids.
-type: docs
 weight: 18
 url: /nl/net/html-document-manipulation/merge-html-with-xml/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Voeg HTML samen met XML in .NET met Aspose.HTML
+
 
 In het dynamische landschap van webontwikkeling kan het hebben van de juiste tools tot uw beschikking het verschil maken. Aspose.HTML voor .NET is zo'n tool die ontwikkelaars de mogelijkheid geeft om HTML-documenten naadloos te maken, te manipuleren en te converteren binnen het .NET-framework. Of u nu een doorgewinterde ontwikkelaar bent of net begint met uw reis, deze uitgebreide gids neemt u mee door de stappen, van vereisten tot geavanceerd gebruik, waarbij elk voorbeeld wordt opgesplitst in stapsgewijze instructies. Aan het einde van deze tutorial bent u goed thuis in de kunst van het gebruik van Aspose.HTML voor .NET.
 
@@ -126,3 +132,9 @@ A1: Aspose.HTML voor .NET is een krachtige bibliotheek waarmee ontwikkelaars met
 
  A5: De Aspose.HTML community en support forum is een geweldige plek om hulp te zoeken en contact te leggen met andere gebruikers. Bezoek het forum[hier](https://forum.aspose.com/).
 F
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

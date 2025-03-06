@@ -3,10 +3,16 @@ title: DOM Mutation Observer με Aspose.HTML για Java
 linktitle: DOM Mutation Observer - Παρατήρηση προσθηκών κόμβων
 second_title: Επεξεργασία Java HTML με Aspose.HTML
 description: Μάθετε πώς να χρησιμοποιείτε το Aspose.HTML για Java για την υλοποίηση ενός DOM Mutation Observer σε αυτόν τον οδηγό βήμα προς βήμα. Παρακολουθήστε και αντιδράστε αποτελεσματικά στις αλλαγές DOM.
-type: docs
 weight: 11
 url: /el/java/advanced-usage/dom-mutation-observer-observing-node-additions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# DOM Mutation Observer με Aspose.HTML για Java
+
 
 Είστε προγραμματιστής Java που θέλει να παρατηρήσει και να αντιδράσει σε αλλαγές στο μοντέλο αντικειμένου εγγράφου (DOM) ενός εγγράφου HTML; Το Aspose.HTML για Java παρέχει μια ισχυρή λύση για αυτήν την εργασία. Σε αυτόν τον οδηγό βήμα προς βήμα, θα διερευνήσουμε πώς να χρησιμοποιήσετε το Aspose.HTML για Java για τη δημιουργία ενός εγγράφου HTML και την παρατήρηση προσθηκών κόμβων με έναν Παρατηρητή μετάλλαξης. Αυτό το σεμινάριο θα σας καθοδηγήσει στη διαδικασία, αναλύοντας κάθε παράδειγμα σε πολλά βήματα. Στο τέλος, θα μπορείτε να εφαρμόσετε τους Παρατηρητές Μετάλλαξης DOM στα έργα σας Java με ευκολία.
 
@@ -146,3 +152,9 @@ A4: Η παρατήρηση αλλαγών δεδομένων χαρακτήρω
 ### Ε5: Πώς μπορώ να διαθέσω πόρους όταν χρησιμοποιώ το Aspose.HTML για Java;
 
  A5: Είναι σημαντικό να αποδεσμεύσετε πόρους όταν τελειώσετε. Στο παράδειγμά μας χρησιμοποιήσαμε`document.dispose()` για να καθαρίσετε πόρους που σχετίζονται με το έγγραφο HTML. Φροντίστε να απορρίψετε τυχόν αντικείμενα και πόρους που δημιουργείτε για να αποφύγετε διαρροές μνήμης.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Ajuste o tamanho da página PDF com Aspose.HTML para Java
 linktitle: Ajustando o tamanho da página do PDF
 second_title: Processamento HTML Java com Aspose.HTML
 description: Aprenda a ajustar o tamanho da página PDF com Aspose.HTML para Java. Crie PDFs de alta qualidade a partir de HTML sem esforço. Controle as dimensões da página de forma eficaz.
-type: docs
 weight: 15
 url: /pt/java/advanced-usage/adjust-pdf-page-size/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ajuste o tamanho da página PDF com Aspose.HTML para Java
+
 
 Na era digital de hoje, a necessidade de gerar PDFs de alta qualidade a partir de conteúdo HTML está aumentando. Aspose.HTML para Java é uma poderosa biblioteca Java que permite converter documentos HTML para o formato PDF sem esforço. Neste tutorial, focaremos em ajustar o tamanho da página ao converter HTML para PDF usando Aspose.HTML para Java.
 
@@ -141,3 +147,9 @@ R3: Sim, você pode personalizar o estilo adicionando elementos CSS e HTML ao se
 ### P5: Existe uma avaliação gratuita disponível do Aspose.HTML para Java?
 
  R5: Sim, você pode acessar uma avaliação gratuita do Aspose.HTML para Java em[este link](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

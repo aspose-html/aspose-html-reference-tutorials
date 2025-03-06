@@ -3,10 +3,16 @@ title: Java के लिए Aspose.HTML में HTML दस्तावेज
 linktitle: Java के लिए Aspose.HTML में HTML दस्तावेज़ों पर बाह्य CSS लागू करें
 second_title: Aspose.HTML के साथ जावा HTML प्रसंस्करण
 description: जानें कि Java के लिए Aspose.HTML का उपयोग करके HTML दस्तावेज़ों पर बाहरी CSS कैसे लागू करें! संपूर्ण ट्यूटोरियल के लिए इस चरण-दर-चरण मार्गदर्शिका का पालन करें।
-type: docs
 weight: 12
 url: /hi/java/editing-html-documents/apply-external-css-html-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java के लिए Aspose.HTML में HTML दस्तावेज़ों पर बाह्य CSS लागू करें
+
 ## परिचय
 HTML दस्तावेज़ों के साथ काम करते समय, स्टाइल लागू करने से प्रस्तुति और उपयोगकर्ता अनुभव में बहुत अंतर आ सकता है। यदि आप जावा में गोता लगा रहे हैं और सीखना चाहते हैं कि Aspose.HTML लाइब्रेरी का उपयोग करके अपने HTML दस्तावेज़ों में बाहरी CSS स्टाइल कैसे लागू करें, तो आप सही जगह पर हैं! इस गाइड का उद्देश्य प्रक्रिया को चरण-दर-चरण स्पष्ट करना है, जिससे यह उन लोगों के लिए भी आसान हो जाता है जो जावा या CSS के लिए नए हो सकते हैं।
 ## आवश्यक शर्तें
@@ -101,3 +107,9 @@ Aspose.HTML for Java एक शक्तिशाली लाइब्रेर
 हाँ! आंतरिक CSS को HTML दस्तावेज़ के भीतर परिभाषित किया जाता है, जबकि बाहरी CSS को एक अलग फ़ाइल में रखा जाता है और दस्तावेज़ से लिंक किया जाता है।
 ### मैं Java के लिए Aspose.HTML का समर्थन कैसे प्राप्त कर सकता हूं?
  आप सामुदायिक सहायता तक पहुंच सकते हैं[एस्पोज फोरम](https://forum.aspose.com/c/html/29) आपके सामने आने वाले किसी भी प्रश्न या समस्या के लिए।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

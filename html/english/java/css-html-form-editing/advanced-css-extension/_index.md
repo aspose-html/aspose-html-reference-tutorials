@@ -3,10 +3,16 @@ title: Advanced CSS Extension Techniques with Aspose.HTML for Java
 linktitle: Advanced CSS Extension Techniques with Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 description: Learn how to use Aspose.HTML for Java to apply advanced CSS techniques, including custom page margins and dynamic content. A detailed, hands-on tutorial for developers.
-type: docs
 weight: 10
 url: /java/css-html-form-editing/advanced-css-extension/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Advanced CSS Extension Techniques with Aspose.HTML for Java
+
 ## Introduction
 Are you ready to take your CSS skills to the next level? Imagine effortlessly applying advanced styling to your HTML documents, customizing margins, and inserting content in those margins like a pro—all while using Java! Sounds exciting, right? This is exactly what we'll explore in this tutorial. We'll dive into the world of Aspose.HTML for Java and discover how to leverage its powerful capabilities to enhance your CSS styling. Whether you're a seasoned developer or just getting started, this guide will walk you through every step with clear explanations and hands-on examples.
 In this tutorial, we'll focus on applying custom margins and adding content to those margins using Aspose.HTML for Java. By the end, you'll have a solid understanding of how to control page layout with CSS and how to generate documents with dynamic content, such as page numbers and titles, in your desired style.
@@ -94,3 +100,10 @@ You can apply custom CSS by using the User Agent service within Aspose.HTML for 
 Absolutely! Aspose.HTML for Java is designed to handle large-scale document processing tasks, making it suitable for enterprise-level applications that require robust HTML processing capabilities.
 ### Can I try Aspose.HTML for Java before purchasing?
 Yes, you can download a free trial of Aspose.HTML for Java from the [Aspose website](https://releases.aspose.com/html/java/). This will allow you to explore its features and see how it fits into your development workflow.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

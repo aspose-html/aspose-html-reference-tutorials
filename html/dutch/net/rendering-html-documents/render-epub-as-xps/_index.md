@@ -3,10 +3,16 @@ title: EPUB renderen als XPS in .NET met Aspose.HTML
 linktitle: EPUB renderen als XPS in .NET
 second_title: Aspose.HTML .NET HTML-manipulatie-API
 description: Leer hoe u HTML-documenten kunt maken en renderen met Aspose.HTML voor .NET in deze uitgebreide tutorial. Duik in de wereld van HTML-manipulatie, webscraping en meer.
-type: docs
 weight: 11
 url: /nl/net/rendering-html-documents/render-epub-as-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# EPUB renderen als XPS in .NET met Aspose.HTML
+
 
 ## Invoering
 
@@ -99,3 +105,10 @@ Ja, Aspose.HTML voor .NET ondersteunt verschillende uitvoerformaten, waaronder P
 
  Ja, u kunt Aspose.HTML voor .NET gebruiken in commerciële projecten door een licentie aan te schaffen bij[hier](https://purchase.aspose.com/buy).
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

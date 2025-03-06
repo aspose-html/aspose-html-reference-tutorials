@@ -3,10 +3,16 @@ title: استخدام قوالب HTML في .NET مع Aspose.HTML
 linktitle: استخدام قوالب HTML في .NET
 second_title: Aspose.HTML .NET HTML manipulation API
 description: تعرف على كيفية استخدام Aspose.HTML لـ .NET لإنشاء مستندات HTML بشكل ديناميكي من بيانات JSON. استغل قوة معالجة HTML في تطبيقات .NET الخاصة بك.
-type: docs
 weight: 17
 url: /ar/net/advanced-features/using-html-templates/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# استخدام قوالب HTML في .NET مع Aspose.HTML
+
 
 إذا كنت تبحث عن العمل باستخدام مستندات وقوالب HTML في تطبيقات .NET، فأنت في المكان المناسب! Aspose.HTML for .NET هي مكتبة متعددة الاستخدامات تمكن المطورين من التعامل مع مستندات وقوالب HTML بسهولة. في هذا البرنامج التعليمي، سنتعمق في أساسيات استخدام Aspose.HTML for .NET، مع تفصيل كل خطوة وتقديم شرح واضح على طول الطريق.
 
@@ -138,3 +144,9 @@ A1: Aspose.HTML for .NET هي مكتبة قوية تتيح لمطوري .NET ا�
 ### س5. هل أحتاج إلى ترخيص مؤقت لـ Aspose.HTML لـ .NET؟
 
  ج5: إذا كنت بحاجة إلى ترخيص مؤقت لأغراض التقييم، فيمكنك الحصول عليه من[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

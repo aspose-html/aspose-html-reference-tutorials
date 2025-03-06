@@ -3,10 +3,16 @@ title: إنشاء مستند بسيط في .NET باستخدام Aspose.HTML
 linktitle: إنشاء مستند بسيط في .NET
 second_title: Aspose.HTML .NET HTML manipulation API
 description: تعلم كيفية العمل مع مستندات HTML في .NET باستخدام Aspose.HTML. قم بإنشاء HTML ومعالجته وتحويله بسهولة. ابدأ اليوم!
-type: docs
 weight: 11
 url: /ar/net/working-with-html-documents/creating-a-simple-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إنشاء مستند بسيط في .NET باستخدام Aspose.HTML
+
 
 ## مقدمة
 
@@ -152,3 +158,10 @@ Aspose.HTML for .NET هي مكتبة .NET توفر وظائف شاملة للع�
 ### 5. أين يمكنني الحصول على الدعم لـ Aspose.HTML لـ .NET؟
 
  يمكنك الحصول على الدعم وطرح الأسئلة حول Aspose.HTML لـ .NET على[منتدى اسبوس](https://forum.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

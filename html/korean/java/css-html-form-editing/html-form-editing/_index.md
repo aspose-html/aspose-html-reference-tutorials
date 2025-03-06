@@ -3,10 +3,16 @@ title: Aspose.HTML for Java를 사용한 HTML 양식 편집 및 제출
 linktitle: Aspose.HTML for Java를 사용한 HTML 양식 편집 및 제출
 second_title: Aspose.HTML을 사용한 Java HTML 처리
 description: 이 포괄적인 단계별 가이드를 통해 Java용 Aspose.HTML을 사용하여 HTML 양식을 프로그래밍 방식으로 편집하고 제출하는 방법을 알아보세요.
-type: docs
 weight: 11
 url: /ko/java/css-html-form-editing/html-form-editing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.HTML for Java를 사용한 HTML 양식 편집 및 제출
+
 ## 소개
 오늘날의 웹 중심 세계에서 HTML 양식과 상호 작용하는 것은 개발자에게 일반적인 작업입니다. 양식을 작성하든, 제출하든, 데이터 입력을 자동화하든 말입니다. Aspose.HTML for Java는 HTML 양식을 프로그래밍 방식으로 관리하기 위한 강력한 솔루션을 제공합니다. 이 문서에서는 Aspose.HTML for Java를 사용하여 HTML 양식을 편집하고 제출하는 방법을 안내하며, 프로세스를 관리 가능한 부분으로 나누는 단계별 튜토리얼을 제공합니다.
 ## 필수 조건
@@ -112,3 +118,9 @@ Aspose.HTML for Java는 개발자가 Java 애플리케이션에서 HTML 문서�
 현재, 양식 제출은 동기적입니다. 그러나 별도의 스레드에서 제출을 실행하여 Java 애플리케이션에서 비동기 작업을 관리할 수 있습니다.
 ### 양식 제출에 실패하면 어떻게 되나요?
  제출이 실패하면`SubmissionResult`객체는 성공으로 표시되지 않으며, 응답 메시지나 예외 세부 정보를 검사하여 오류를 처리할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

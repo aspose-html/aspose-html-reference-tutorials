@@ -3,10 +3,16 @@ title: Thiết lập Bộ ký tự trong Aspose.HTML cho Java
 linktitle: Thiết lập Bộ ký tự trong Aspose.HTML cho Java
 second_title: Xử lý HTML Java với Aspose.HTML
 description: Tìm hiểu cách thiết lập bộ ký tự trong Aspose.HTML cho Java và chuyển đổi HTML sang PDF trong hướng dẫn từng bước này. Đảm bảo mã hóa và hiển thị văn bản chính xác.
-type: docs
 weight: 10
 url: /vi/java/configuring-environment/set-character-set/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thiết lập Bộ ký tự trong Aspose.HTML cho Java
+
 ## Giới thiệu
 Nếu bạn đang làm việc với các tài liệu HTML trong Java, việc đảm bảo bộ ký tự chính xác là rất quan trọng để mã hóa và hiển thị văn bản đúng cách. Trong hướng dẫn này, chúng ta sẽ khám phá cách thiết lập bộ ký tự bằng Aspose.HTML cho Java. Hướng dẫn toàn diện này sẽ hướng dẫn bạn từng bước của quy trình, cung cấp hiểu biết rõ ràng về cách xử lý bộ ký tự hiệu quả.
 ## Điều kiện tiên quyết
@@ -104,3 +110,9 @@ Có, Aspose.HTML for Java cho phép bạn chuyển đổi HTML sang nhiều đ�
  Mặc dù Java có trình thu gom rác, nhưng giải phóng thủ công các tài nguyên như cấu hình và tài liệu bằng cách sử dụng`dispose` phương pháp.
 ### Tôi có thể dùng thử Aspose.HTML cho Java miễn phí ở đâu?  
  Bạn có thể tải xuống bản dùng thử miễn phí từ[Trang phát hành Aspose](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

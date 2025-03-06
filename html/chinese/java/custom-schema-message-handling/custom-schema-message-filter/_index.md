@@ -3,10 +3,16 @@ title: Aspose.HTML for Java 中的自定义模式消息过滤
 linktitle: Aspose.HTML for Java 中的自定义模式消息过滤
 second_title: 使用 Aspose.HTML 进行 Java HTML 处理
 description: 了解如何使用 Aspose.HTML 在 Java 中实现自定义架构消息过滤器。按照我们的分步指南，获得安全、量身定制的应用程序体验。
-type: docs
 weight: 10
 url: /zh/java/custom-schema-message-handling/custom-schema-message-filter/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.HTML for Java 中的自定义模式消息过滤
+
 ## 介绍
 创建满足特定需求的自定义解决方案通常需要深入研究可用的工具和库。在 Java 中处理 HTML 文档时，Aspose.HTML for Java API 提供了丰富的功能，可以根据您的需求进行定制。其中一种定制涉及使用`MessageFilter`类。在本指南中，我们将引导您完成使用 Aspose.HTML for Java 实现自定义架构消息过滤器的过程。无论您是经验丰富的开发人员还是刚刚入门，本教程都将帮助您创建适合您应用程序特定要求的强大过滤机制。
 ## 先决条件
@@ -92,3 +98,9 @@ Aspose.HTML for Java 是一个强大的 API，用于在 Java 应用程序中操�
 Aspose.HTML for Java 与 JDK 8 及更高版本兼容。请务必确保使用受支持的版本以获得最佳性能。
 ### 如何获得 Aspose.HTML for Java 的支持？
 您可以通过以下方式获得支持[Aspose 支持论坛](https://forum.aspose.com/c/html/29)，您可以在这里提出问题并获得社区和 Aspose 开发人员的帮助。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 在 Aspose.HTML for Java 中将内联 CSS 添加到 HTML 文档
 linktitle: 在 Aspose.HTML for Java 中将内联 CSS 添加到 HTML 文档
 second_title: 使用 Aspose.HTML 进行 Java HTML 处理
 description: 了解如何使用 Aspose.HTML for Java 将内联 CSS 添加到 HTML 文档。本分步指南可帮助您轻松设置 HTML 样式并将其转换为 PDF。
-type: docs
 weight: 14
 url: /zh/java/editing-html-documents/add-inline-css-html-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.HTML for Java 中将内联 CSS 添加到 HTML 文档
+
 ## 介绍
 如果您正在处理 HTML 文档并希望使用一些内联 CSS 来丰富内容，那么您来对地方了！Aspose.HTML for Java 提供了一种强大的方法来操作 HTML 文件，允许您添加样式、创建响应式设计等等。无论您是希望自动化文档创建的开发人员，还是仅仅对如何使用 Java 动态设置 HTML 内容的样式感兴趣，本指南都将逐步引导您完成该过程。
 ## 先决条件
@@ -69,3 +75,9 @@ Aspose.HTML for Java 与 JDK 8 及更高版本兼容。
 Aspose.HTML for Java 可以将 HTML 转换为各种格式，包括 PDF、XPS 和图像。
 ### 我需要互联网连接才能使用 Aspose.HTML for Java 吗？
 不是，Aspose.HTML for Java 可以离线工作，但需要互联网连接才能下载库或访问在线文档。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Chuyển đổi ZIP sang PDF bằng Aspose.HTML cho Java
 linktitle: Chuyển đổi ZIP sang PDF bằng Aspose.HTML cho Java
 second_title: Xử lý HTML Java với Aspose.HTML
 description: Dễ dàng chuyển đổi tệp ZIP sang PDF bằng Aspose.HTML cho Java với hướng dẫn từng bước này.
-type: docs
 weight: 16
 url: /vi/java/message-handling-networking/zip-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chuyển đổi ZIP sang PDF bằng Aspose.HTML cho Java
+
 ## Giới thiệu
 Bạn đã bao giờ thấy mình bị chôn vùi dưới một núi các tệp ZIP, tuyệt vọng tìm kiếm cách chuyển đổi chúng sang định dạng PDF chưa? Bạn không đơn độc! Chúng ta sống trong một thế giới mà thông tin được đóng gói và nén lại, khiến việc truy cập trở nên khó khăn. May mắn thay, với Aspose.HTML dành cho Java, việc chuyển đổi các tệp ZIP tiện dụng đó thành các tệp PDF đẹp mắt chỉ cách bạn vài dòng mã. Vì vậy, hãy lấy đồ trượt tuyết máy tính của bạn; chúng ta sắp đến đoạn dốc chuyển đổi.
 ## Điều kiện tiên quyết
@@ -86,3 +92,9 @@ Có, bạn có thể thêm nhiều tài liệu HTML vào tệp ZIP và tất c�
 Có, nó chạy trên Java, do đó tương thích với bất kỳ nền tảng nào hỗ trợ thời gian chạy Java.
 ###. Tôi có thể nhận trợ giúp ở đâu nếu gặp sự cố?  
  Để được hỗ trợ, bạn có thể truy cập[Diễn đàn Aspose](https://forum.aspose.com/c/html/29).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

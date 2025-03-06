@@ -3,10 +3,16 @@ title: Configure Runtime Service in Aspose.HTML for Java
 linktitle: Configure Runtime Service in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 description: Learn how to configure the Runtime Service in Aspose.HTML for Java to optimize script execution, preventing infinite loops, and improving application performance.
-type: docs
 weight: 14
 url: /java/configuring-environment/configure-runtime-service/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Configure Runtime Service in Aspose.HTML for Java
+
 ## Introduction
 Ever wondered how to make your Java applications run faster and more efficiently? Whether you're building a complex web application or just tinkering around with some HTML documents, speed is of the essence. Imagine being able to limit how long a script runs or how quickly your system starts up apps. Sounds pretty handy, right? That’s exactly where the Runtime Service in Aspose.HTML for Java comes in. In this tutorial, we’ll take a deep dive into how you can configure the Runtime Service in Aspose.HTML for Java to boost your application's performance by controlling script execution time.
 ## Prerequisites
@@ -100,3 +106,10 @@ Yes, disposing of these objects is essential to free up resources and prevent me
 Absolutely! You can set the timeout to any value that suits your needs by modifying the `TimeSpan.fromSeconds()` parameter.
 ### Where can I get support if I encounter issues with Aspose.HTML for Java?  
 For support, you can visit the [Aspose.HTML forum](https://forum.aspose.com/c/html/29).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

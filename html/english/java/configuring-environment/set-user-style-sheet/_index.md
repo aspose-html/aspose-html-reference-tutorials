@@ -3,10 +3,16 @@ title: Set User Style Sheet in Aspose.HTML for Java
 linktitle: Set User Style Sheet in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 description: Learn how to set a custom user stylesheet in Aspose.HTML for Java, enhancing your document styling and converting HTML to PDF with ease.
-type: docs
 weight: 16
 url: /java/configuring-environment/set-user-style-sheet/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Set User Style Sheet in Aspose.HTML for Java
+
 ## Introduction
 Ever found yourself wanting to tweak the appearance of your HTML documents with your own unique style? Imagine you’re crafting a webpage, and you want to ensure the headings pop with a certain color or the paragraphs have a consistent look across different devices. This is where user stylesheets come into play! In this tutorial, we’ll explore how to set a custom user stylesheet using Aspose.HTML for Java. Whether you’re looking to create a cohesive design for your documents or simply experimenting with different styles, this guide will walk you through the entire process in a simple and engaging way.
 ## Prerequisites
@@ -104,3 +110,10 @@ Yes, you can link external CSS files just like you would in a regular HTML docum
 Unsupported CSS properties are simply ignored, allowing the rest of your stylesheet to be applied without errors.
 ### Can I convert HTML to formats other than PDF?  
 Yes, Aspose.HTML for Java supports converting HTML to various formats, including XPS, TIFF, and more.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

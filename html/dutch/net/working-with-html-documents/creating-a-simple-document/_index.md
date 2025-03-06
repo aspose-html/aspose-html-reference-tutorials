@@ -3,10 +3,16 @@ title: Een eenvoudig document maken in .NET met Aspose.HTML
 linktitle: Een eenvoudig document maken in .NET
 second_title: Aspose.HTML .NET HTML-manipulatie-API
 description: Leer werken met HTML-documenten in .NET met Aspose.HTML. Maak, manipuleer en converteer moeiteloos HTML. Ga vandaag nog aan de slag!
-type: docs
 weight: 11
 url: /nl/net/working-with-html-documents/creating-a-simple-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Een eenvoudig document maken in .NET met Aspose.HTML
+
 
 ## Invoering
 
@@ -152,3 +158,10 @@ Aspose.HTML voor .NET is een .NET-bibliotheek die uitgebreide functionaliteit bi
 ### 5. Waar kan ik ondersteuning krijgen voor Aspose.HTML voor .NET?
 
  U kunt ondersteuning krijgen en vragen stellen over Aspose.HTML voor .NET op de[Aspose-forum](https://forum.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

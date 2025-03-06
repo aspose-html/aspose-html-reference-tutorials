@@ -3,10 +3,16 @@ title: Advanced External CSS Editing with Aspose.HTML for Java
 linktitle: Advanced External CSS Editing with Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 description: Master the art of editing external CSS with Aspose.HTML for Java. This detailed, step-by-step guide walks you through creating dynamic, styled HTML documents.
-type: docs
 weight: 13
 url: /java/editing-html-documents/advanced-external-css-editing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Advanced External CSS Editing with Aspose.HTML for Java
+
 ## Introduction
 In the world of web development, the ability to control the styling of your HTML content through CSS (Cascading Style Sheets) is crucial. Whether you're designing a simple webpage or creating a complex web application, external CSS allows for greater flexibility and reusability of styles across multiple pages. But what if you want to manipulate these styles programmatically? That's where Aspose.HTML for Java comes into play. This powerful library enables you to create, edit, and manage HTML documents with ease, including the manipulation of external CSS files.
 In this tutorial, we’ll explore how to use Aspose.HTML for Java to edit external CSS files. We’ll walk through every step, from setting up your environment to creating a stunning HTML document styled entirely by external CSS. By the end, you’ll have a solid understanding of how to leverage Aspose.HTML for Java to take your web development skills to the next level.
@@ -81,3 +87,9 @@ You can add additional CSS properties by appending them to the `styleContent` st
 Aspose.HTML for Java is compatible with Java 8 and above, ensuring that you can use it in most modern Java environments.
 ### Can I use Aspose.HTML for Java to generate dynamic CSS content?
 Yes, you can dynamically generate CSS content within your Java application and apply it to HTML documents using Aspose.HTML for Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

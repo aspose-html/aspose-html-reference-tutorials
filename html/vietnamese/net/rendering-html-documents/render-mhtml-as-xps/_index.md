@@ -3,10 +3,16 @@ title: Kết xuất MHTML dưới dạng XPS trong .NET với Aspose.HTML
 linktitle: Hiển thị MHTML dưới dạng XPS trong .NET
 second_title: Aspose.HTML .NET API thao tác HTML
 description: Học cách render MHTML dưới dạng XPS trong .NET với Aspose.HTML. Nâng cao kỹ năng xử lý HTML và thúc đẩy các dự án phát triển web của bạn!
-type: docs
 weight: 13
 url: /vi/net/rendering-html-documents/render-mhtml-as-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kết xuất MHTML dưới dạng XPS trong .NET với Aspose.HTML
+
 ## Giới thiệu
 
 Trong thế giới năng động của phát triển web, việc có các công cụ và thư viện phù hợp có thể tạo nên sự khác biệt. Nếu bạn đang làm việc với thao tác và kết xuất HTML trong .NET, Aspose.HTML cho .NET là một thư viện mạnh mẽ có thể đơn giản hóa các tác vụ của bạn và nâng cao khả năng của bạn. Trong hướng dẫn này, chúng ta sẽ đi sâu vào Aspose.HTML cho .NET, chia nhỏ các ví dụ thành các bước dễ quản lý và cung cấp giải thích rõ ràng cho từng bước.
@@ -100,3 +106,9 @@ Bạn có thể tìm kiếm sự hỗ trợ và trợ giúp từ cộng đồng 
 
 ### Tôi có thể mua giấy phép tạm thời cho Aspose.HTML dành cho .NET không?
  Có, bạn có thể lấy giấy phép tạm thời từ trang mua hàng[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

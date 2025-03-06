@@ -3,10 +3,16 @@ title: Aspose.HTML for Java 中的 ZIP 存檔訊息處理程序
 linktitle: Aspose.HTML for Java 中的 ZIP 存檔訊息處理程序
 second_title: 使用 Aspose.HTML 進行 Java HTML 處理
 description: 了解如何使用 Aspose.HTML for Java 建立 ZIP 存檔訊息處理程序。本指南詳細介紹了每個步驟，以幫助您有效地管理和提供 ZIP 檔案中的文件。
-type: docs
 weight: 10
 url: /zh-hant/java/handling-zip-files/zip-archive-message-handler/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.HTML for Java 中的 ZIP 存檔訊息處理程序
+
 ## 介紹
 使用 ZIP 檔案可能是管理各種格式資料的關鍵部分，尤其是在有效率地處理 Web 資源時。在本指南中，我們將引導您使用 Aspose.HTML for Java 建立 ZIP 存檔訊息處理程序。此處理程序將允許您直接從 ZIP 檔案中讀取檔案並將它們作為對網路請求的回應。這是簡化文件管理的有效方法，尤其是在處理壓縮到單一存檔中的大量資料時。
 ## 先決條件
@@ -110,3 +116,10 @@ invoke(context);
 雖然可能並非在所有情況下都需要，但實施`dispose`是確保正確釋放處理程序所使用的任何資源的良好做法。
 ### 這個處理程序可以在 Web 伺服器中使用嗎？  
 絕對地！此處理程序設計用於 Web 應用程序，您需要在其中提供 ZIP 檔案中的檔案以回應 HTTP 請求。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Java용 Aspose.HTML의 사용자 정의 스키마 및 메시지 처리
 linktitle: Java용 Aspose.HTML의 사용자 정의 스키마 및 메시지 처리
 second_title: Aspose.HTML을 사용한 Java HTML 처리
 description: 사용자 지정 스키마 메시지 필터링 및 처리에 대한 튜토리얼을 통해 Java용 Aspose.HTML을 마스터하는 방법을 알아보세요. 맞춤형 애플리케이션을 구축하기 시작하세요.
-type: docs
 weight: 24
 url: /ko/java/custom-schema-message-handling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.HTML의 사용자 정의 스키마 및 메시지 처리
+
 ## 소개
 
 애플리케이션을 개발할 때 데이터 통신에 대한 정확한 제어가 가장 중요합니다. 좋아하는 라디오 방송국을 틀려고 하지만, 나오는 게 정적일 뿐이라고 상상해보세요. 필터링되지 않거나 제대로 관리되지 않은 메시지가 애플리케이션에서 얼마나 혼란스러울 수 있는지 보여주는 것입니다. 여기서 Aspose.HTML for Java가 빛을 발하며, 개발자가 데이터 교환을 효율적으로 필터링, 처리, 간소화하는 사용자 지정 메시징 스키마를 구현할 수 있습니다.
@@ -28,3 +34,9 @@ Java용 Aspose.HTML에서 사용자 지정 스키마 메시지 필터링에 대�
 Aspose.HTML을 사용하여 Java에서 사용자 정의 스키마 메시지 필터를 구현하는 방법을 알아보세요. 안전하고 맞춤화된 애플리케이션 경험을 위한 단계별 가이드를 따르세요.
 ### [Java용 Aspose.HTML을 사용한 사용자 정의 스키마 메시지 핸들러](./custom-schema-message-handler/)
 Aspose.HTML for Java를 사용하여 사용자 지정 스키마 메시지 핸들러를 만드는 방법을 알아보세요. 이 튜토리얼은 단계별로 프로세스를 안내합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

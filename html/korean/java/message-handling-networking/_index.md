@@ -3,10 +3,16 @@ title: Java용 Aspose.HTML에서의 메시지 처리 및 네트워킹
 linktitle: Java용 Aspose.HTML에서의 메시지 처리 및 네트워킹
 second_title: Aspose.HTML을 사용한 Java HTML 처리
 description: 메시지 처리, 네트워킹 등에 대한 튜토리얼을 통해 Java용 Aspose.HTML을 마스터하세요. 문서 처리 기술을 향상시키세요.
-type: docs
 weight: 25
 url: /ko/java/message-handling-networking/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.HTML에서의 메시지 처리 및 네트워킹
+
 ## 소개
 
 Aspose.HTML for Java는 HTML 문서를 관리하고 조작하기 위한 강력한 툴킷이지만, 단순히 파일을 처리하는 데 그치지 않습니다. 핵심 강점 중 하나는 메시지와 네트워킹 기능을 효율적으로 관리하는 데 있습니다. 이 문서에서는 이 라이브러리를 프로젝트에 사용하는 데 능숙해지는 데 도움이 되는 필수 튜토리얼을 강조합니다.
@@ -44,3 +50,9 @@ Java용 Aspose.HTML에서 사용자 정의 메시지 핸들러를 구현하여 �
 이 단계별 가이드를 통해 Java용 Aspose.HTML을 사용하여 ZIP 파일을 JPG 이미지로 변환하는 방법을 알아보세요.
 ### [Java용 Aspose.HTML을 사용하여 ZIP을 PDF로 변환](./zip-to-pdf/)
 이 단계별 가이드에 따라 Java용 Aspose.HTML을 사용하여 ZIP 파일을 PDF로 쉽게 변환하세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

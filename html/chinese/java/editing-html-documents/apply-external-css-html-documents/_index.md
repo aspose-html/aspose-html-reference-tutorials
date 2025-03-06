@@ -3,10 +3,16 @@ title: 在 Aspose.HTML for Java 中将外部 CSS 应用于 HTML 文档
 linktitle: 在 Aspose.HTML for Java 中将外部 CSS 应用于 HTML 文档
 second_title: 使用 Aspose.HTML 进行 Java HTML 处理
 description: 了解如何使用 Aspose.HTML for Java 将外部 CSS 应用于 HTML 文档！按照本分步指南获取完整教程。
-type: docs
 weight: 12
 url: /zh/java/editing-html-documents/apply-external-css-html-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.HTML for Java 中将外部 CSS 应用于 HTML 文档
+
 ## 介绍
 处理 HTML 文档时，应用样式会对演示和用户体验产生重大影响。如果您正在深入研究 Java，并想学习如何使用 Aspose.HTML 库将外部 CSS 样式应用于 HTML 文档，那么您来对地方了！本指南旨在逐步说明该过程，即使是 Java 或 CSS 新手也可以轻松掌握。
 ## 先决条件
@@ -101,3 +107,9 @@ Aspose.HTML for Java 是一个功能强大的库，允许开发人员在 Java �
 是的！内部 CSS 在 HTML 文档中定义，而外部 CSS 则放在单独的文件中并链接到文档。
 ### 如何获得 Aspose.HTML for Java 的支持？
 您可以通过以下方式获取社区支持[Aspose 论坛](https://forum.aspose.com/c/html/29)对于您可能遇到的任何问题或疑问。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

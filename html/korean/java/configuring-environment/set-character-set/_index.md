@@ -3,10 +3,16 @@ title: Java용 Aspose.HTML에서 문자 집합 설정
 linktitle: Java용 Aspose.HTML에서 문자 집합 설정
 second_title: Aspose.HTML을 사용한 Java HTML 처리
 description: 이 단계별 가이드에서 Java용 Aspose.HTML에서 문자 집합을 설정하는 방법과 HTML을 PDF로 변환하는 방법을 알아보세요. 적절한 텍스트 인코딩과 렌더링을 보장하세요.
-type: docs
 weight: 10
 url: /ko/java/configuring-environment/set-character-set/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.HTML에서 문자 집합 설정
+
 ## 소개
 Java에서 HTML 문서로 작업하는 경우 올바른 문자 집합을 보장하는 것이 텍스트의 적절한 인코딩 및 렌더링에 중요합니다. 이 가이드에서는 Aspose.HTML for Java를 사용하여 문자 집합을 설정하는 방법을 살펴보겠습니다. 이 포괄적인 튜토리얼은 프로세스의 모든 단계를 안내하여 문자 집합을 효과적으로 처리하는 방법에 대한 명확한 이해를 제공합니다.
 ## 필수 조건
@@ -104,3 +110,9 @@ try {
  Java에는 가비지 수집기가 있지만 구성 및 문서와 같은 리소스를 수동으로 해제하는 것이 좋습니다.`dispose` 방법.
 ### Java용 Aspose.HTML 무료 평가판은 어디서 받을 수 있나요?  
  무료 평가판을 다운로드할 수 있습니다.[Aspose 릴리스 페이지](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

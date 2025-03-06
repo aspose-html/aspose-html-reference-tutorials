@@ -3,10 +3,16 @@ title: Java용 Aspose.HTML에서 네트워크 서비스 설정
 linktitle: Java용 Aspose.HTML에서 네트워크 서비스 설정
 second_title: Aspose.HTML을 사용한 Java HTML 처리
 description: Java용 Aspose.HTML에서 네트워크 서비스를 설정하는 방법, 네트워크 리소스를 관리하는 방법, 사용자 정의 오류 처리를 통해 HTML을 PNG로 변환하는 방법을 알아보세요.
-type: docs
 weight: 13
 url: /ko/java/configuring-environment/setup-network-service/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.HTML에서 네트워크 서비스 설정
+
 ## 소개
 Java로 HTML 문서 처리를 미세 조정하고 싶으신가요? HTML 문서를 이미지나 다른 형식으로 변환하는 프로젝트를 진행 중이고 네트워크 서비스를 효율적으로 관리해야 할 수도 있습니다. 글쎄요, 당신은 올바른 곳에 있습니다! 이 튜토리얼은 Java용 Aspose.HTML에서 네트워크 서비스를 설정하는 방법을 안내하며, 각 단계를 자세히 설명하여 쉽게 따라할 수 있도록 합니다. 노련한 개발자이든 초보자이든, 이 가이드는 프로세스를 명확하고 간단하며, 어쩌면 약간 재미있게 만들어 줄 것입니다.
 ## 필수 조건
@@ -90,3 +96,9 @@ if (configuration != null) {
 물론입니다! 리소스를 정리하면 메모리 누수가 방지되고 애플리케이션이 원활하게 실행됩니다.
 ### 오류 메시지 처리기를 사용자 정의할 수 있나요?  
 네, 오류 메시지 처리기를 사용자 정의하여 특정 세부 정보를 기록하고, 경고를 보내거나, 발생한 오류에 따라 다른 프로세스를 트리거할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: تحرير مستندات HTML في Aspose.HTML لـ Java
 linktitle: تحرير مستندات HTML في Aspose.HTML لـ Java
 second_title: معالجة HTML باستخدام Java مع Aspose.HTML
 description: استكشف دروس Aspose.HTML الشاملة لـ Java. تعلَّم تحرير مستندات HTML وتنفيذ CSS وإدارة المحتوى باستخدام أدلة خطوة بخطوة.
-type: docs
 weight: 28
 url: /ar/java/editing-html-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحرير مستندات HTML في Aspose.HTML لـ Java
+
 ## مقدمة
 
 هل أنت مستعد للغوص في عالم تحرير HTML وتنسيق CSS باستخدام Aspose.HTML for Java؟ سواء كنت مطورًا متمرسًا أو مبتدئًا، فإن مجموعة البرامج التعليمية هذه هي موردك المفضل لإتقان التعامل مع مستندات HTML. دعنا نستعرض ما ينتظرنا!
@@ -52,3 +58,9 @@ url: /ar/java/editing-html-documents/
 تعرف على كيفية إدارة خصائص HTML الداخلية والخارجية في Aspose.HTML لـ Java باستخدام هذا الدليل خطوة بخطوة، وهو مثالي لمطوري الويب ومنشئي المحتوى.
 ### [تنفيذ CSS داخلي في مستندات HTML باستخدام Aspose.HTML لـ Java](./implement-internal-css-html-documents/)
 تعلم كيفية تنفيذ CSS الداخلي في مستندات HTML باستخدام Aspose.HTML لـ Java من خلال البرنامج التعليمي السهل خطوة بخطوة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

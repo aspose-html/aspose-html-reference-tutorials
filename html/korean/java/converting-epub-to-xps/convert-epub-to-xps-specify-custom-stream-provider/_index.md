@@ -3,10 +3,16 @@ title: EPUB에서 XPS로의 사용자 지정 스트림 공급자 지정
 linktitle: EPUB에서 XPS로의 사용자 지정 스트림 공급자 지정
 second_title: Aspose.HTML을 사용한 Java HTML 처리
 description: Java용 Aspose.HTML을 사용하여 EPUB를 XPS로 손쉽게 변환하세요. 원활한 변환 프로세스를 위한 단계별 가이드를 따르세요.
-type: docs
 weight: 11
 url: /ko/java/converting-epub-to-xps/convert-epub-to-xps-specify-custom-stream-provider/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# EPUB에서 XPS로의 사용자 지정 스트림 공급자 지정
+
 오늘날의 디지털 시대에 EPUB 파일을 XPS와 같은 다른 형식으로 변환해야 할 필요성은 그 어느 때보다 더 흔합니다. Aspose.HTML for Java는 이를 손쉽게 달성하는 데 도움이 되는 강력한 도구입니다. 이 단계별 가이드에서는 Aspose.HTML for Java를 사용하여 EPUB 파일을 XPS로 변환하는 방법을 살펴보겠습니다. 세부 사항을 살펴보기 전에 이 프로세스에 필요한 전제 조건을 살펴보겠습니다.
 
 ## 필수 조건
@@ -143,3 +149,10 @@ Aspose.HTML for Java는 문서 조작, 변환 및 렌더링 작업을 간소화�
  설명서 및 지원은 다음을 방문하세요.[Java 설명서를 위한 Aspose.HTML](https://reference.aspose.com/html/java/) 그리고[지원 포럼](https://forum.aspose.com/).
 
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

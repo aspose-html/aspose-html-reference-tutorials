@@ -3,10 +3,16 @@ title: Contexte de rendu de canevas avancé dans Aspose.HTML pour Java
 linktitle: Contexte de rendu de canevas avancé dans Aspose.HTML pour Java
 second_title: Traitement HTML Java avec Aspose.HTML
 description: Créez et affichez des fichiers HTML5 Canvas avec Aspose.HTML pour Java. Apprenez étape par étape à dessiner, à styliser et à exporter au format PDF à l'aide de cette puissante bibliothèque Java.
-type: docs
 weight: 10
 url: /fr/java/html5-canvas-rendering/advanced-canvas-rendering-context/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Contexte de rendu de canevas avancé dans Aspose.HTML pour Java
+
 ## Introduction
 Si vous travaillez avec du contenu Web, vous savez déjà à quel point HTML5 Canvas est essentiel pour le rendu des graphiques directement dans le navigateur. Mais saviez-vous que vous pouvez exploiter la puissance de HTML5 Canvas directement dans vos applications Java ? Avec Aspose.HTML pour Java, vous pouvez créer, manipuler et restituer des éléments HTML5 Canvas par programmation, ce qui vous donne le contrôle ultime sur votre contenu Web, sans même avoir besoin d'un navigateur. Cela vous semble intriguant ? Plongeons dans ce processus fascinant, en le décomposant étape par étape pour que vous puissiez le maîtriser comme un pro.
 ## Prérequis
@@ -106,3 +112,9 @@ Bien qu'Aspose.HTML pour Java soit puissant pour le rendu statique, il est princ
 Oui, Aspose.HTML pour Java prend en charge les polices personnalisées, qui peuvent être appliquées lors du rendu de texte sur le canevas.
 ### Comment puis-je obtenir une licence temporaire pour essayer Aspose.HTML pour Java ?
  Vous pouvez obtenir un permis temporaire en visitant[ici](https://purchase.aspose.com/temporary-license/) et en suivant les instructions pour évaluer le produit avec toutes ses fonctionnalités.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Testreszabhatja a HTML oldalmargóit az Aspose.HTML segítségével
 linktitle: CSS-kiterjesztések – Cím és oldalszám hozzáadása
 second_title: Java HTML feldolgozás Aspose.HTML-lel
 description: Ismerje meg, hogyan szabhatja testre az oldalmargókat, hogyan adhat hozzá oldalszámokat és címeket HTML-dokumentumokhoz az Aspose.HTML for Java használatával.
-type: docs
 weight: 10
 url: /hu/java/advanced-usage/css-extensions-adding-title-page-number/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Testreszabhatja a HTML oldalmargóit az Aspose.HTML segítségével
+
 Az Aspose.HTML for Java egy hatékony könyvtár a HTML dokumentumok Java alkalmazásokban történő feldolgozásához. Ebben az oktatóanyagban megvizsgáljuk, hogyan hozhat létre egyéni oldalmargókat, és hogyan adhat hozzá oldalszámokat és címeket a HTML-dokumentumokhoz az Aspose.HTML for Java használatával. Ez a lépésenkénti útmutató a folyamatot kezelhető lépésekre bontja, hogy megkönnyítse ezeknek a szolgáltatásoknak a HTML-dokumentumaiba való integrálását.
 
 ## Előfeltételek
@@ -119,3 +125,9 @@ Gratulálok! Sikeresen megtanulta, hogyan hozhat létre egyéni oldalmargókat, 
 ### 5. kérdés: Szükségem van licencre az Aspose.HTML for Java használatához?
 
  5. válasz: Igen, licencet vagy ingyenes próbaverziót szerezhet be[itt](https://purchase.aspose.com/buy) vagy[itt](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

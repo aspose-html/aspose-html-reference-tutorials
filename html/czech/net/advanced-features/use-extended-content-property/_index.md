@@ -3,10 +3,16 @@ title: Použijte vlastnost Extended Content Property v .NET s Aspose.HTML
 linktitle: Použijte vlastnost Extended Content Property v .NET
 second_title: Aspose.HTML .NET API pro manipulaci s HTML
 description: Naučte se používat Aspose.HTML pro .NET pomocí tohoto podrobného průvodce. Vylepšete své znalosti HTML a zefektivněte své projekty vývoje webu.
-type: docs
 weight: 14
 url: /cs/net/advanced-features/use-extended-content-property/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Použijte vlastnost Extended Content Property v .NET s Aspose.HTML
+
 
 Ve světě webového vývoje je práce s HTML základní dovedností. Aspose.HTML for .NET je výkonný nástroj, který může usnadnit a zefektivnit vaše úkoly související s HTML. Tento výukový program vás provede kroky, jak začít s Aspose.HTML pro .NET, včetně předpokladů, importu jmenných prostorů a rozdělení každého příkladu do snadno pochopitelných kroků.
 
@@ -123,3 +129,10 @@ Gratuluji! Právě jste udělali své první kroky do světa Aspose.HTML pro .NE
 ### Jsou pro Aspose.HTML pro .NET k dispozici nějaké další zdroje nebo návody?
     Ano, další návody a dokumentaci najdete na[Web Aspose.HTML](https://reference.aspose.com/html/net/).
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

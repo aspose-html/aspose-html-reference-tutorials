@@ -3,10 +3,16 @@ title: Hợp nhất HTML với XML trong .NET với Aspose.HTML
 linktitle: Kết hợp HTML với XML trong .NET
 second_title: Aspose.HTML .NET API thao tác HTML
 description: Học cách sử dụng Aspose.HTML cho .NET. Nhập không gian tên, hợp nhất HTML với XML và nâng cao kỹ năng phát triển web của bạn với hướng dẫn toàn diện này.
-type: docs
 weight: 18
 url: /vi/net/html-document-manipulation/merge-html-with-xml/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hợp nhất HTML với XML trong .NET với Aspose.HTML
+
 
 Trong bối cảnh phát triển web năng động, việc có đúng công cụ theo ý bạn có thể tạo nên sự khác biệt. Aspose.HTML cho .NET là một công cụ như vậy giúp các nhà phát triển có khả năng tạo, thao tác và chuyển đổi tài liệu HTML một cách liền mạch trong khuôn khổ .NET. Cho dù bạn là một nhà phát triển dày dạn kinh nghiệm hay chỉ mới bắt đầu hành trình của mình, hướng dẫn toàn diện này sẽ hướng dẫn bạn từng bước, từ các điều kiện tiên quyết đến cách sử dụng nâng cao, chia nhỏ từng ví dụ thành hướng dẫn từng bước. Đến cuối hướng dẫn này, bạn sẽ thành thạo trong nghệ thuật sử dụng Aspose.HTML cho .NET.
 
@@ -126,3 +132,9 @@ A1: Aspose.HTML for .NET là một thư viện mạnh mẽ cho phép các nhà p
 
  A5: Cộng đồng Aspose.HTML và diễn đàn hỗ trợ là nơi tuyệt vời để tìm kiếm sự trợ giúp và kết nối với những người dùng khác. Truy cập diễn đàn[đây](https://forum.aspose.com/).
 f
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

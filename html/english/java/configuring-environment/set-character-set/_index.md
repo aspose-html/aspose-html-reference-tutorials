@@ -3,10 +3,16 @@ title: Set Character Set in Aspose.HTML for Java
 linktitle: Set Character Set in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 description: Learn how to set the character set in Aspose.HTML for Java and convert HTML to PDF in this step-by-step guide. Ensure proper text encoding and rendering.
-type: docs
 weight: 10
 url: /java/configuring-environment/set-character-set/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Set Character Set in Aspose.HTML for Java
+
 ## Introduction
 If you're working with HTML documents in Java, ensuring the correct character set is crucial for proper encoding and rendering of text. In this guide, we’ll explore how to set the character set using Aspose.HTML for Java. This comprehensive tutorial will walk you through every step of the process, providing a clear understanding of how to handle character sets effectively.
 ## Prerequisites
@@ -104,3 +110,10 @@ Yes, Aspose.HTML for Java allows you to convert HTML to various formats, includi
 While Java does have a garbage collector, it’s a good practice to manually release resources like configurations and documents using the `dispose` method.
 ### Where can I get a free trial of Aspose.HTML for Java?  
 You can download a free trial from the [Aspose releases page](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

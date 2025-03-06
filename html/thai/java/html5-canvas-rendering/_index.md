@@ -3,10 +3,16 @@ title: การเรนเดอร์ HTML5 และ Canvas ด้วย Asp
 linktitle: การเรนเดอร์ HTML5 และ Canvas ด้วย Aspose.HTML สำหรับ Java
 second_title: การประมวลผล Java HTML ด้วย Aspose.HTML
 description: ค้นพบบทช่วยสอนที่ครอบคลุมเกี่ยวกับ Aspose.HTML สำหรับ Java ครอบคลุม HTML5 และการเรนเดอร์ Canvas เพื่อเสริมทักษะการพัฒนาเว็บของคุณ
-type: docs
 weight: 20
 url: /th/java/html5-canvas-rendering/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การเรนเดอร์ HTML5 และ Canvas ด้วย Aspose.HTML สำหรับ Java
+
 ## การแนะนำ
 
 เมื่อต้องพัฒนาเว็บ การเรนเดอร์กราฟิกอาจดูเป็นเรื่องท้าทาย แต่ด้วย Aspose.HTML สำหรับ Java คุณสามารถทำให้กระบวนการนี้ง่ายขึ้นได้ โดยเฉพาะเมื่อทำงานกับ HTML5 และ Canvas ไม่ว่าคุณจะเป็นนักพัฒนาที่มีประสบการณ์หรือเพิ่งเริ่มต้น ไลบรารี Java อันทรงพลังนี้สามารถยกระดับโปรเจ็กต์ของคุณได้อย่างมาก มาเจาะลึกบทช่วยสอนที่มีอยู่ซึ่งจะช่วยให้คุณเชี่ยวชาญการเรนเดอร์ Canvas กัน!
@@ -24,3 +30,9 @@ url: /th/java/html5-canvas-rendering/
 สร้างและเรนเดอร์ HTML5 Canvas ด้วย Aspose.HTML สำหรับ Java เรียนรู้ทีละขั้นตอนเกี่ยวกับการวาด สไตล์ และการส่งออกเป็น PDF โดยใช้ไลบรารี Java อันทรงพลังนี้
 ### [เรียนรู้ HTML5 Canvas ด้วย Aspose.HTML สำหรับ Java](./html5-canvas/)
 เรียนรู้วิธีการสร้างและแปลง HTML5 Canvas เป็น PDF โดยใช้ Aspose.HTML สำหรับ Java คู่มือนี้เหมาะสำหรับนักพัฒนาที่ต้องการปรับปรุงโครงการเว็บของตน
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

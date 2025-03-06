@@ -3,10 +3,16 @@ title: Menentukan Penyedia Aliran Kustom untuk Konversi EPUB ke Gambar
 linktitle: Menentukan Penyedia Aliran Kustom untuk Konversi EPUB ke Gambar
 second_title: Pemrosesan HTML Java dengan Aspose.HTML
 description: Pelajari cara menggunakan Aspose.HTML untuk Java untuk mengonversi file EPUB menjadi gambar dengan panduan langkah demi langkah ini.
-type: docs
 weight: 15
 url: /id/java/converting-epub-to-pdf/convert-epub-to-image-specify-custom-stream-provider/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menentukan Penyedia Aliran Kustom untuk Konversi EPUB ke Gambar
+
 
 Apakah Anda siap memanfaatkan kekuatan Aspose.HTML untuk Java? Panduan lengkap ini akan memandu Anda melalui prosesnya, langkah demi langkah. Baik Anda pengembang berpengalaman atau baru memulai, kami siap membantu Anda. 
 
@@ -107,3 +113,10 @@ Aspose.HTML untuk Java adalah pustaka yang memungkinkan pengembang Java untuk be
 ### 5. Di mana saya bisa mendapatkan dukungan untuk Aspose.HTML untuk Java?
 
  Anda dapat menemukan dukungan di[Forum Aspose](https://forum.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

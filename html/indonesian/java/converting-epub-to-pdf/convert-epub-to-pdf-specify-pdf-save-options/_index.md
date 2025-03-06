@@ -3,10 +3,16 @@ title: Menentukan Opsi Penyimpanan PDF untuk EPUB ke PDF
 linktitle: Menentukan Opsi Penyimpanan PDF untuk EPUB ke PDF
 second_title: Pemrosesan HTML Java dengan Aspose.HTML
 description: Pelajari cara mengonversi EPUB ke PDF di Java menggunakan Aspose.HTML, pustaka manipulasi HTML yang canggih.
-type: docs
 weight: 12
 url: /id/java/converting-epub-to-pdf/convert-epub-to-pdf-specify-pdf-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menentukan Opsi Penyimpanan PDF untuk EPUB ke PDF
+
 
 ## Perkenalan
 
@@ -111,3 +117,10 @@ Versi uji coba mungkin memiliki beberapa keterbatasan, jadi sebaiknya periksa do
 
 ### Di mana saya bisa mendapatkan dukungan untuk Aspose.HTML untuk Java?
 Anda dapat menemukan jawaban atas pertanyaan Anda dan mencari dukungan di[Forum Aspose.HTML](https://forum.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

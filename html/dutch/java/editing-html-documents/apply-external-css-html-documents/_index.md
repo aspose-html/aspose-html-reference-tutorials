@@ -3,10 +3,16 @@ title: Externe CSS toepassen op HTML-documenten in Aspose.HTML voor Java
 linktitle: Externe CSS toepassen op HTML-documenten in Aspose.HTML voor Java
 second_title: Java HTML-verwerking met Aspose.HTML
 description: Ontdek hoe u externe CSS toepast op HTML-documenten met Aspose.HTML voor Java! Volg deze stapsgewijze handleiding voor een complete tutorial.
-type: docs
 weight: 12
 url: /nl/java/editing-html-documents/apply-external-css-html-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Externe CSS toepassen op HTML-documenten in Aspose.HTML voor Java
+
 ## Invoering
 Bij het werken met HTML-documenten kan het toepassen van stijlen het verschil maken in presentatie en gebruikerservaring. Als u zich verdiept in Java en wilt leren hoe u externe CSS-stijlen kunt toepassen op uw HTML-documenten met behulp van de Aspose.HTML-bibliotheek, bent u hier aan het juiste adres! Deze gids is bedoeld om het proces stap voor stap te verduidelijken, waardoor het zelfs voor mensen die nieuw zijn in Java of CSS eenvoudig is.
 ## Vereisten
@@ -101,3 +107,9 @@ Nee, zodra u de benodigde bibliotheekbestanden hebt gedownload, kunt u Aspose.HT
 Ja! Interne CSS wordt gedefinieerd in een HTML-document, terwijl externe CSS in een apart bestand wordt geplaatst en aan het document wordt gekoppeld.
 ### Hoe kan ik ondersteuning krijgen voor Aspose.HTML voor Java?
  U kunt toegang krijgen tot ondersteuning van de gemeenschap via de[Aspose-forum](https://forum.aspose.com/c/html/29) voor eventuele vragen of problemen die u tegenkomt.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

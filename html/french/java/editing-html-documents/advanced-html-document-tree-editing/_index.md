@@ -3,10 +3,16 @@ title: Édition avancée de l'arborescence des documents HTML dans Aspose.HTML p
 linktitle: Édition avancée de l'arborescence des documents HTML dans Aspose.HTML pour Java
 second_title: Traitement HTML Java avec Aspose.HTML
 description: Découvrez comment modifier des documents HTML à l'aide d'Aspose.HTML pour Java avec ce guide étape par étape, y compris la création de styles, de paragraphes et la conversion en PDF.
-type: docs
 weight: 11
 url: /fr/java/editing-html-documents/advanced-html-document-tree-editing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Édition avancée de l'arborescence des documents HTML dans Aspose.HTML pour Java
+
 ## Introduction
 
 Dans le paysage numérique actuel, la capacité de manipuler des documents HTML par programmation est cruciale pour les développeurs et les concepteurs. Vous avez toujours voulu éditer des documents HTML de manière transparente à l'aide de Java ? Eh bien, accrochez-vous à vos chapeaux, car Aspose.HTML pour Java est là pour vous simplifier la tâche ! Cette puissante bibliothèque vous permet non seulement de gérer le HTML, mais vous offre également les outils pour convertir ces documents en différents formats tels que PDF. Dans ce guide, nous allons nous plonger dans les techniques avancées d'édition d'arborescence à l'aide d'Aspose.HTML pour Java.
@@ -138,3 +144,9 @@ Aspose.HTML propose un essai gratuit pour l'évaluation, mais pour une utilisati
  Vous pouvez trouver du soutien sur le[Forum Aspose](https://forum.aspose.com/c/html/29).
 ### Comment obtenir une licence temporaire pour Aspose.HTML ?
  Vous pouvez obtenir une licence temporaire auprès du[Page d'achat Aspose](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

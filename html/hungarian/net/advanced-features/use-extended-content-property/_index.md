@@ -3,10 +3,16 @@ title: Használja a kiterjesztett tartalomtulajdonságot a .NET-ben az Aspose.HT
 linktitle: Használja a kiterjesztett tartalomtulajdonságot a .NET-ben
 second_title: Aspose.HTML .NET HTML manipulációs API
 description: Ebből a lépésenkénti útmutatóból megtudhatja, hogyan használja az Aspose.HTML-t .NET-hez. Növelje HTML-készségeit, és egyszerűsítse webfejlesztési projektjeit.
-type: docs
 weight: 14
 url: /hu/net/advanced-features/use-extended-content-property/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Használja a kiterjesztett tartalomtulajdonságot a .NET-ben az Aspose.HTML-lel
+
 
 A webfejlesztés világában a HTML-lel való munka alapvető készség. Az Aspose.HTML for .NET egy hatékony eszköz, amellyel könnyebbé és hatékonyabbá teheti a HTML-hez kapcsolódó feladatokat. Ez az oktatóanyag végigvezeti az Aspose.HTML for .NET használatának megkezdéséhez szükséges lépéseken, beleértve az előfeltételeket, a névterek importálását és az egyes példák könnyen követhető lépésekre bontását.
 
@@ -123,3 +129,10 @@ Gratulálok! Most tette meg az első lépéseit az Aspose.HTML for .NET világá
 ### Vannak további források vagy oktatóanyagok az Aspose.HTML for .NET számára?
     Igen, további oktatóanyagokat és dokumentációt talál a[Aspose.HTML webhely](https://reference.aspose.com/html/net/).
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

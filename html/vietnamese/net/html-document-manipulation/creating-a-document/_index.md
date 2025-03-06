@@ -3,10 +3,16 @@ title: Tạo một tài liệu trong .NET với Aspose.HTML
 linktitle: Tạo một tài liệu trong .NET
 second_title: Aspose.HTML .NET API thao tác HTML
 description: Giải phóng sức mạnh của Aspose.HTML cho .NET. Học cách tạo, thao tác và tối ưu hóa tài liệu HTML và SVG một cách dễ dàng. Khám phá các ví dụ từng bước và câu hỏi thường gặp.
-type: docs
 weight: 14
 url: /vi/net/html-document-manipulation/creating-a-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo một tài liệu trong .NET với Aspose.HTML
+
 
 Trong thế giới phát triển web không ngừng thay đổi, việc đi trước một bước là điều cần thiết. Aspose.HTML cho .NET cung cấp cho các nhà phát triển một bộ công cụ mạnh mẽ để làm việc với các tài liệu HTML. Cho dù bạn đang bắt đầu từ đầu, tải từ tệp, kéo từ URL hay xử lý các tài liệu SVG, thư viện này cung cấp tính linh hoạt mà bạn cần.
 
@@ -234,3 +240,9 @@ A5: Để biết tài liệu đầy đủ và quyền truy cập vào các tùy 
 - [Mua](https://purchase.aspose.com/buy)
 - [Dùng thử miễn phí](https://releases.aspose.com/)
 - [Giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

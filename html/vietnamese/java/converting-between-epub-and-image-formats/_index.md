@@ -3,10 +3,16 @@ title: Hướng dẫn chuyển đổi giữa định dạng EPUB và hình ảnh
 linktitle: Chuyển đổi giữa các định dạng EPUB và hình ảnh
 second_title: Xử lý HTML Java với Aspose.HTML
 description: Chuyển đổi tệp EPUB sang nhiều định dạng hình ảnh dễ dàng bằng Aspose.HTML cho Java. Hướng dẫn từng bước để chuyển đổi liền mạch.
-type: docs
 weight: 26
 url: /vi/java/converting-between-epub-and-image-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hướng dẫn chuyển đổi giữa định dạng EPUB và hình ảnh
+
 
 Bạn đang tìm kiếm một cách dễ dàng để chuyển đổi các tệp EPUB sang nhiều định dạng hình ảnh khác nhau? Bạn đã đến đúng nơi rồi. Trong hướng dẫn toàn diện này, chúng tôi sẽ hướng dẫn bạn từng bước thực hiện quy trình, sử dụng Aspose.HTML cho Java. Cho dù bạn muốn chuyển đổi EPUB sang BMP, GIF, JPG, PNG, TIFF hay cần hướng dẫn về cách chỉ định nhà cung cấp luồng tùy chỉnh hoặc tùy chọn lưu hình ảnh, chúng tôi đều có thể giúp bạn.
 
@@ -52,3 +58,9 @@ Tìm hiểu cách chuyển đổi EPUB sang hình ảnh bằng Aspose.HTML cho J
 Tìm hiểu cách chuyển đổi tệp EPUB thành hình ảnh bằng Aspose.HTML cho Java. Hướng dẫn từng bước này bao gồm các điều kiện tiên quyết, nhập gói và quy trình chuyển đổi.
 ### [Chuyển đổi EPUB sang hình ảnh chỉ bằng một dòng mã](./convert-epub-to-image-single-line/)
 Tìm hiểu cách chuyển đổi EPUB sang hình ảnh bằng Aspose.HTML cho Java. Hướng dẫn từng bước để chuyển đổi dễ dàng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

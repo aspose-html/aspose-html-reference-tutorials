@@ -3,10 +3,16 @@ title: Расширенные функции
 linktitle: Расширенные функции
 second_title: API манипуляции HTML Aspose.HTML .NET
 description: Откройте для себя расширенные возможности .NET с Aspose.HTML! От настройки среды до веб-скрапинга — изучите комплексные руководства по эффективной веб-разработке.
-type: docs
 weight: 24
 url: /ru/net/advanced-features/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Расширенные функции
+
 
 Вы готовы раскрыть весь потенциал Aspose.HTML для .NET? В этой статье мы отправимся в путешествие по расширенным функциям и возможностям Aspose.HTML, предоставив вам подробные руководства для повышения вашего мастерства.
 
@@ -41,3 +47,9 @@ Aspose.HTML для .NET — это мощный инструмент, позво
 ## Заключение
 
 Aspose.HTML для .NET открывает дверь в мир возможностей, когда дело доходит до работы с HTML-документами в ваших .NET-приложениях. Эти расширенные руководства по функциям снабдят вас знаниями и навыками, необходимыми для использования всего потенциала Aspose.HTML. Поднимите свои проекты разработки, сэкономьте время и создайте замечательные решения с Aspose.HTML для .NET. Начните с наших руководств сегодня и выведите свою веб-разработку на новый уровень.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

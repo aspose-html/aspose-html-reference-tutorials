@@ -3,10 +3,16 @@ title: تصفية رسائل المخطط المخصص في Aspose.HTML لـ Jav
 linktitle: تصفية رسائل المخطط المخصص في Aspose.HTML لـ Java
 second_title: معالجة HTML باستخدام Java مع Aspose.HTML
 description: تعرف على كيفية تنفيذ مرشح رسائل مخطط مخصص في Java باستخدام Aspose.HTML. اتبع دليلنا خطوة بخطوة للحصول على تجربة تطبيق آمنة ومخصصة.
-type: docs
 weight: 10
 url: /ar/java/custom-schema-message-handling/custom-schema-message-filter/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تصفية رسائل المخطط المخصص في Aspose.HTML لـ Java
+
 ## مقدمة
  غالبًا ما يتطلب إنشاء حلول مخصصة تلبي احتياجات محددة الغوص العميق في الأدوات والمكتبات المتاحة. عند العمل مع مستندات HTML في Java، توفر واجهة برمجة التطبيقات Aspose.HTML for Java مجموعة كبيرة من الوظائف التي يمكن تخصيصها وفقًا لاحتياجاتك. يتضمن أحد هذه التخصيصات تصفية الرسائل استنادًا إلى مخطط مخصص باستخدام`MessageFilter`في هذا الدليل، سنطلعك على عملية تنفيذ مرشح رسائل مخطط مخصص باستخدام Aspose.HTML لـ Java. سواء كنت مطورًا متمرسًا أو بدأت للتو، سيساعدك هذا البرنامج التعليمي في إنشاء آلية تصفية قوية مصممة خصيصًا لمتطلبات تطبيقك المحددة.
 ## المتطلبات الأساسية
@@ -92,3 +98,9 @@ Aspose.HTML for Java عبارة عن واجهة برمجة تطبيقات قوي
 يتوافق Aspose.HTML for Java مع JDK 8 والإصدارات الأحدث. تأكد دائمًا من استخدام إصدار مدعوم للحصول على الأداء الأمثل.
 ### كيف أحصل على الدعم لـ Aspose.HTML لـ Java؟
  يمكنك الوصول إلى الدعم من خلال[منتدى دعم Aspose](https://forum.aspose.com/c/html/29)حيث يمكنك طرح الأسئلة والحصول على المساعدة من المجتمع ومطوري Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

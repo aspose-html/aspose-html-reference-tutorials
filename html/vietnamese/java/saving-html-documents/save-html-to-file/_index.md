@@ -3,10 +3,16 @@ title: Lưu tài liệu HTML vào tệp trong Aspose.HTML cho Java
 linktitle: Lưu tài liệu HTML vào tệp trong Aspose.HTML cho Java
 second_title: Xử lý HTML Java với Aspose.HTML
 description: Tìm hiểu cách lưu tài liệu HTML vào tệp bằng Aspose.HTML cho Java, hoàn hảo để xử lý nhiều tài nguyên được liên kết một cách dễ dàng.
-type: docs
 weight: 11
 url: /vi/java/saving-html-documents/save-html-to-file/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lưu tài liệu HTML vào tệp trong Aspose.HTML cho Java
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ khám phá cách lưu tài liệu HTML vào tệp trong khi quản lý các tài nguyên được liên kết. Điều này đặc biệt hữu ích khi bạn đang làm việc trên các dự án liên quan đến nhiều tệp HTML—hãy nghĩ về nó như một trang web tham chiếu đến các trang web khác. Đến cuối hướng dẫn này, bạn sẽ được trang bị để sử dụng Aspose.HTML cho Java để quản lý tài liệu HTML của mình một cách linh hoạt và hiệu quả.
 ## Điều kiện tiên quyết
@@ -88,3 +94,9 @@ Có! Aspose.HTML hỗ trợ nhiều loại tài nguyên khác nhau, bao gồm h�
  Bạn có thể truy cập diễn đàn hỗ trợ Aspose[đây](https://forum.aspose.com/c/html/29) để được giải đáp mọi thắc mắc hoặc trợ giúp bạn cần.
 ### Tôi có thể sử dụng Aspose.HTML cho các dự án thương mại không?  
 Có, Aspose.HTML có thể được sử dụng trong các dự án thương mại, nhưng bạn sẽ cần phải mua giấy phép. Bạn có thể tìm thấy các tùy chọn cấp phép[đây](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

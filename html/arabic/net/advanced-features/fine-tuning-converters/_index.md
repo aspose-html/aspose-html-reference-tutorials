@@ -3,10 +3,16 @@ title: ضبط المحولات بدقة في .NET باستخدام Aspose.HTML
 linktitle: ضبط المحولات بدقة في .NET
 second_title: Aspose.HTML .NET HTML manipulation API
 description: تعرف على كيفية تحويل HTML إلى PDF وXPS والصور باستخدام Aspose.HTML لـ .NET. برنامج تعليمي خطوة بخطوة مع أمثلة التعليمات البرمجية والأسئلة الشائعة.
-type: docs
 weight: 16
 url: /ar/net/advanced-features/fine-tuning-converters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ضبط المحولات بدقة في .NET باستخدام Aspose.HTML
+
 
 ## مقدمة
 
@@ -534,3 +540,9 @@ A1: Aspose.HTML for .NET هي مكتبة .NET تتيح للمطورين التع
 ### س5. هل يمكنني تحويل HTML إلى تنسيقات أخرى مثل XPS أو الصور؟
 
 ج5: نعم، يدعم Aspose.HTML for .NET تحويل HTML إلى تنسيقات مختلفة، بما في ذلك PDF وXPS والصور (على سبيل المثال، JPEG). يمكنك تخصيص إعدادات التحويل لتلبية متطلباتك المحددة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

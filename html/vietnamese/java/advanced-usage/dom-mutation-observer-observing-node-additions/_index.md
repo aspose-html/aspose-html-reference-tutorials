@@ -3,10 +3,16 @@ title: DOM Mutation Observer với Aspose.HTML cho Java
 linktitle: DOM Mutation Observer - Quan sát các nút bổ sung
 second_title: Xử lý HTML Java với Aspose.HTML
 description: Tìm hiểu cách sử dụng Aspose.HTML cho Java để triển khai DOM Mutation Observer trong hướng dẫn từng bước này. Theo dõi và phản ứng hiệu quả với các thay đổi DOM.
-type: docs
 weight: 11
 url: /vi/java/advanced-usage/dom-mutation-observer-observing-node-additions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# DOM Mutation Observer với Aspose.HTML cho Java
+
 
 Bạn có phải là nhà phát triển Java đang muốn quan sát và phản ứng với những thay đổi trong Document Object Model (DOM) của một tài liệu HTML không? Aspose.HTML for Java cung cấp một giải pháp mạnh mẽ cho nhiệm vụ này. Trong hướng dẫn từng bước này, chúng ta sẽ khám phá cách sử dụng Aspose.HTML for Java để tạo một tài liệu HTML và quan sát các nút bổ sung bằng Mutation Observer. Hướng dẫn này sẽ hướng dẫn bạn thực hiện quy trình, chia nhỏ từng ví dụ thành nhiều bước. Đến cuối, bạn sẽ có thể triển khai DOM Mutation Observer trong các dự án Java của mình một cách dễ dàng.
 
@@ -146,3 +152,9 @@ A4: Việc quan sát các thay đổi dữ liệu ký tự hữu ích cho các t
 ### Câu hỏi 5: Làm thế nào để tôi loại bỏ tài nguyên khi sử dụng Aspose.HTML cho Java?
 
  A5: Điều quan trọng là giải phóng tài nguyên khi bạn hoàn tất. Trong ví dụ của chúng tôi, chúng tôi đã sử dụng`document.dispose()` để dọn dẹp các tài nguyên liên quan đến tài liệu HTML. Đảm bảo loại bỏ mọi đối tượng và tài nguyên bạn tạo ra để tránh rò rỉ bộ nhớ.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

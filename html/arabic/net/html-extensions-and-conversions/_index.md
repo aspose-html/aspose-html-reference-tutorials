@@ -3,10 +3,16 @@ title: امتدادات HTML والتحويلات
 linktitle: امتدادات HTML والتحويلات
 second_title: Aspose.HTML .NET HTML manipulation API
 description: اكتشف امتدادات HTML ودروس التحويل باستخدام Aspose.HTML لـ .NET. تعرف على كيفية تحسين تطوير الويب باستخدام هذه الدروس الشاملة.
-type: docs
 weight: 20
 url: /ar/net/html-extensions-and-conversions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# امتدادات HTML والتحويلات
+
 
 هل أنت حريص على تعزيز مهارات تطوير الويب لديك وإطلاق العنان لقوة ملحقات HTML وتحويلاتها؟ لا داعي للبحث أكثر! في هذا الدليل الشامل، سنتعمق في عالم دروس ملحقات HTML وتحويلاتها باستخدام Aspose.HTML لـ .NET.
 
@@ -63,3 +69,9 @@ url: /ar/net/html-extensions-and-conversions/
 في الختام، تعد امتدادات HTML وتحويلاتها عناصر أساسية لتطوير الويب الحديث. يعمل Aspose.HTML for .NET على تبسيط العملية وجعلها في متناول المطورين من جميع المستويات. باتباع دروسنا التعليمية، ستكون على الطريق الصحيح لتصبح مطور ويب ماهرًا يتمتع بمجموعة واسعة من المهارات.
 
 إذن، ما الذي تنتظره؟ لنبدأ هذه الرحلة المثيرة لاستكشاف امتدادات HTML وتحويلاتها باستخدام Aspose.HTML لـ .NET. لن تكون مشاريع تطوير الويب الخاصة بك كما كانت من قبل أبدًا!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

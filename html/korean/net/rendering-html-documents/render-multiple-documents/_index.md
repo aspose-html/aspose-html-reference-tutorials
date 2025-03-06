@@ -3,10 +3,16 @@ title: Aspose.HTML을 사용하여 .NET에서 여러 문서 렌더링
 linktitle: .NET에서 여러 문서 렌더링
 second_title: Aspose.HTML .NET HTML 조작 API
 description: Aspose.HTML for .NET을 사용하여 여러 HTML 문서를 렌더링하는 방법을 배우세요. 이 강력한 라이브러리로 문서 처리 능력을 향상시키세요.
-type: docs
 weight: 14
 url: /ko/net/rendering-html-documents/render-multiple-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.HTML을 사용하여 .NET에서 여러 문서 렌더링
+
 빠르게 움직이는 웹 개발 및 문서 처리의 세계에서 적절한 도구를 사용하는 것은 필수적입니다. Aspose.HTML for .NET은 개발자가 HTML 문서를 손쉽게 조작하고 렌더링할 수 있는 강력한 라이브러리입니다. 이 튜토리얼에서는 Aspose.HTML for .NET을 사용하여 여러 문서를 렌더링하는 방법을 자세히 알아보겠습니다.
 
 ## 필수 조건
@@ -91,3 +97,10 @@ using (XpsDevice device = new XpsDevice(dataDir + @"document_out.xps"))
 
 ### 5. .NET용 Aspose.HTML에 대한 지원은 어디서 받을 수 있나요?
  지원 및 커뮤니티 토론은 다음에서 찾을 수 있습니다.[Aspose.HTML 포럼](https://forum.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

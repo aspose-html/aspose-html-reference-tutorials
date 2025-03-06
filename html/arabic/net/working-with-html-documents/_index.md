@@ -3,10 +3,16 @@ title: العمل مع مستندات HTML
 linktitle: العمل مع مستندات HTML
 second_title: Aspose.HTML .NET HTML manipulation API
 description: اكتشف عالم إنشاء المستندات HTML ومعالجتها في .NET باستخدام Aspose.HTML. من إنشاء مستندات بسيطة إلى التحرير المتعمق.
-type: docs
 weight: 23
 url: /ar/net/working-with-html-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# العمل مع مستندات HTML
+
 
 هل أنت مطور ويب تتطلع إلى التعمق في عالم إنشاء مستندات HTML ومعالجتها باستخدام .NET؟ لا مزيد من البحث! في سلسلة الدروس الشاملة هذه، سنستكشف قوة Aspose.HTML وكيف يمكنها تبسيط مهامك. سواء كنت مبتدئًا أو مطورًا متمرسًا، فستجد رؤى قيمة ونصائح عملية لتعزيز مهاراتك.
 
@@ -29,3 +35,9 @@ url: /ar/net/working-with-html-documents/
 ### [تحرير مستند في .NET باستخدام Aspose.HTML](./editing-a-document/)
 
 الآن، دعنا ننتقل بمهاراتك إلى المستوى التالي. إن تحرير مستندات HTML مهمة شائعة بين مطوري الويب، ويعمل Aspose.HTML على تبسيط هذه العملية بشكل كبير. في هذا القسم، سنغطي إنشاء المستندات ومعالجتها وتصميمها. ستكتشف كيفية تحسين مظهر ووظائف محتوى الويب الخاص بك، مما يجعله جذابًا وسهل الاستخدام.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

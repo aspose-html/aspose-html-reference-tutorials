@@ -3,10 +3,16 @@ title: Générer de nouveaux documents HTML à l'aide d'Aspose.HTML pour Java
 linktitle: Générer de nouveaux documents HTML à l'aide d'Aspose.HTML pour Java
 second_title: Traitement HTML Java avec Aspose.HTML
 description: Apprenez à créer de nouveaux documents HTML à l'aide d'Aspose.HTML pour Java grâce à ce guide étape par étape simple. Commencez à générer du contenu HTML dynamique.
-type: docs
 weight: 17
 url: /fr/java/creating-managing-html-documents/generate-new-html-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Générer de nouveaux documents HTML à l'aide d'Aspose.HTML pour Java
+
 ## Introduction
 Créer des documents HTML n'a jamais été aussi simple grâce à des outils puissants comme Aspose.HTML pour Java. Avec cette bibliothèque dans votre boîte à outils, vous pouvez générer, manipuler et gérer du contenu HTML de manière transparente par programmation. Que vous créiez une application Web, automatisiez la création de documents ou cherchiez simplement à améliorer vos projets Java, Aspose.HTML est là pour vous. Dans ce didacticiel, nous allons approfondir les lignes de code nécessaires pour créer de nouveaux documents HTML à l'aide de cette incroyable bibliothèque.
 ## Prérequis
@@ -66,3 +72,9 @@ Aspose.HTML pour Java est une bibliothèque conçue pour créer, manipuler et co
 Absolument ! La bibliothèque prend en charge une large gamme de fonctionnalités HTML, notamment le style CSS et l'intégration JavaScript.
 ### Où puis-je trouver plus d’aide et de support pour Aspose.HTML ?
  Vous pouvez visiter le forum d'assistance Aspose à l'adresse[Forum Aspose](https://forum.aspose.com/c/html/29) pour l'assistance et le soutien communautaire.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Προσαρμοσμένο πρόγραμμα χειρισμού μηνυ
 linktitle: Προσαρμοσμένο πρόγραμμα χειρισμού μηνυμάτων σχήματος με Aspose.HTML για Java
 second_title: Επεξεργασία Java HTML με Aspose.HTML
 description: Μάθετε να δημιουργείτε ένα προσαρμοσμένο πρόγραμμα χειρισμού μηνυμάτων σχήματος χρησιμοποιώντας το Aspose.HTML για Java. Αυτό το σεμινάριο σας καθοδηγεί βήμα προς βήμα στη διαδικασία.
-type: docs
 weight: 11
 url: /el/java/custom-schema-message-handling/custom-schema-message-handler/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Προσαρμοσμένο πρόγραμμα χειρισμού μηνυμάτων σχήματος με Aspose.HTML για Java
+
 ## Εισαγωγή
 Καλώς ήρθατε, συνάδελφοι προγραμματιστές! Αν θέλετε να βελτιώσετε τις εφαρμογές σας Java με ισχυρές δυνατότητες χειρισμού HTML, έχετε φτάσει στο σωστό σημείο. Σήμερα, εξετάζουμε τον τρόπο δημιουργίας ενός προσαρμοσμένου προγράμματος χειρισμού μηνυμάτων σχήματος χρησιμοποιώντας το Aspose.HTML για Java. Φανταστείτε ότι είστε σεφ που φτιάχνει ένα ιδιαίτερο πιάτο. αυτός ο χειριστής είναι σαν τη μυστική σάλτσα σας που αναδεικνύει μια τυπική συνταγή σε γκουρμέ γεύμα. Σας επιτρέπει να διαχειρίζεστε και να φιλτράρετε απρόσκοπτα μηνύματα HTML με βάση τις δικές σας προδιαγραφές σχήματος.
 ## Προαπαιτούμενα
@@ -92,3 +98,9 @@ public class CustomHandlerTest {
  Ναι, μπορείτε να αγοράσετε μια μόνιμη άδεια χρήσης για το Aspose.HTML[εδώ](https://purchase.aspose.com/buy).
 ### Πού μπορώ να βρω υποστήριξη για το Aspose.HTML;
  Μπορείτε να αποκτήσετε πρόσβαση στην υποστήριξη μεταβαίνοντας στο φόρουμ Aspose για HTML[εδώ](https://forum.aspose.com/c/html/29).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

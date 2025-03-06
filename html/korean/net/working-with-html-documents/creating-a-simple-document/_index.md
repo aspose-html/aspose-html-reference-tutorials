@@ -3,10 +3,16 @@ title: Aspose.HTML을 사용하여 .NET에서 간단한 문서 만들기
 linktitle: .NET에서 간단한 문서 만들기
 second_title: Aspose.HTML .NET HTML 조작 API
 description: Aspose.HTML을 사용하여 .NET에서 HTML 문서로 작업하는 방법을 배우세요. HTML을 손쉽게 만들고, 조작하고, 변환하세요. 오늘 시작하세요!
-type: docs
 weight: 11
 url: /ko/net/working-with-html-documents/creating-a-simple-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.HTML을 사용하여 .NET에서 간단한 문서 만들기
+
 
 ## 소개
 
@@ -152,3 +158,10 @@ document.Save(outputHtml);
 ### 5. .NET용 Aspose.HTML에 대한 지원은 어디서 받을 수 있나요?
 
  Aspose.HTML for .NET에 대한 지원을 받고 질문할 수 있습니다.[애스포지 포럼](https://forum.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

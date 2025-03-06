@@ -3,10 +3,16 @@ title: Chỉnh sửa và gửi biểu mẫu HTML bằng Aspose.HTML cho Java
 linktitle: Chỉnh sửa và gửi biểu mẫu HTML bằng Aspose.HTML cho Java
 second_title: Xử lý HTML Java với Aspose.HTML
 description: Tìm hiểu cách chỉnh sửa và gửi biểu mẫu HTML theo chương trình bằng Aspose.HTML cho Java trong hướng dẫn từng bước toàn diện này.
-type: docs
 weight: 11
 url: /vi/java/css-html-form-editing/html-form-editing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chỉnh sửa và gửi biểu mẫu HTML bằng Aspose.HTML cho Java
+
 ## Giới thiệu
 Trong thế giới web ngày nay, tương tác với các biểu mẫu HTML là một nhiệm vụ phổ biến đối với các nhà phát triển, cho dù đó là điền biểu mẫu, gửi biểu mẫu hay tự động nhập dữ liệu. Aspose.HTML for Java cung cấp giải pháp mạnh mẽ để quản lý biểu mẫu HTML theo chương trình. Bài viết này sẽ hướng dẫn bạn cách chỉnh sửa và gửi biểu mẫu HTML bằng Aspose.HTML for Java, với hướng dẫn từng bước chia nhỏ quy trình thành các phần dễ quản lý.
 ## Điều kiện tiên quyết
@@ -112,3 +118,9 @@ Aspose.HTML for Java là một thư viện cho phép các nhà phát triển là
 Hiện tại, việc gửi biểu mẫu là đồng bộ. Tuy nhiên, bạn có thể quản lý các hoạt động không đồng bộ trong ứng dụng Java của mình bằng cách chạy việc gửi trong một luồng riêng biệt.
 ### Điều gì xảy ra nếu việc gửi biểu mẫu không thành công?
  Nếu việc nộp bài không thành công,`SubmissionResult`đối tượng sẽ không được đánh dấu là thành công và bạn có thể xử lý lỗi bằng cách kiểm tra thông báo phản hồi hoặc chi tiết ngoại lệ.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

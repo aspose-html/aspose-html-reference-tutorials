@@ -3,10 +3,16 @@ title: Creación de un documento en .NET con Aspose.HTML
 linktitle: Creando un documento en .NET
 second_title: Aspose.HTML .NET API de manipulación HTML
 description: Descubra el poder de Aspose.HTML para .NET. Aprenda a crear, manipular y optimizar documentos HTML y SVG con facilidad. Explore ejemplos paso a paso y preguntas frecuentes.
-type: docs
 weight: 14
 url: /es/net/html-document-manipulation/creating-a-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Creación de un documento en .NET con Aspose.HTML
+
 
 En el mundo del desarrollo web, que está en constante evolución, es fundamental mantenerse a la vanguardia. Aspose.HTML para .NET ofrece a los desarrolladores un conjunto de herramientas sólido para trabajar con documentos HTML. Ya sea que comience desde cero, cargue desde un archivo, extraiga desde una URL o gestione documentos SVG, esta biblioteca ofrece la versatilidad que necesita.
 
@@ -234,3 +240,9 @@ A5: Para obtener documentación completa y acceder a las opciones de descarga, p
 - [Comprar](https://purchase.aspose.com/buy)
 - [Prueba gratuita](https://releases.aspose.com/)
 - [Licencia temporal](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Gebruik Extended Content Property in .NET met Aspose.HTML
 linktitle: Uitgebreide inhoudseigenschap gebruiken in .NET
 second_title: Aspose.HTML .NET HTML-manipulatie-API
 description: Leer hoe u Aspose.HTML voor .NET gebruikt met deze stapsgewijze handleiding. Verbeter uw HTML-vaardigheden en stroomlijn uw webontwikkelingsprojecten.
-type: docs
 weight: 14
 url: /nl/net/advanced-features/use-extended-content-property/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gebruik Extended Content Property in .NET met Aspose.HTML
+
 
 In de wereld van webontwikkeling is werken met HTML een fundamentele vaardigheid. Aspose.HTML voor .NET is een krachtige tool die uw HTML-gerelateerde taken eenvoudiger en efficiënter kan maken. Deze tutorial neemt u mee door de stappen om aan de slag te gaan met Aspose.HTML voor .NET, inclusief vereisten, het importeren van naamruimten en het opsplitsen van elk voorbeeld in eenvoudig te volgen stappen.
 
@@ -123,3 +129,10 @@ Gefeliciteerd! U hebt zojuist uw eerste stappen gezet in de wereld van Aspose.HT
 ### Zijn er aanvullende bronnen of tutorials beschikbaar voor Aspose.HTML voor .NET?
     Ja, u kunt meer tutorials en documentatie vinden op de[Aspose.HTML-website](https://reference.aspose.com/html/net/).
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

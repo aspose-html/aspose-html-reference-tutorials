@@ -1,12 +1,17 @@
 ---
 title: 綜合 Aspose.HTML Java 教程
 linktitle: Java 教程的 Aspose.HTML
-type: docs
 weight: 10
 url: /zh-hant/java/
 description: 透過進階教學探索 Aspose.HTML for Java 的強大功能。學習操作 HTML 頁面、將 EPUB 轉換為各種格式以及像專業人士一樣自訂 HTML Canvas。
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 綜合 Aspose.HTML Java 教程
+
 Aspose.HTML for Java 是一個多功能函式庫，提供廣泛的功能來增強您的 HTML 處理任務。在本文中，我們將深入研究 Aspose.HTML for Java 的各個方面，並透過一系列綜合教學來探索其進階用法。
 
 ## 自訂 HTML 頁邊距
@@ -87,3 +92,9 @@ Aspose.HTML for Java 可以輕鬆地將 HTML 轉換為各種其他格式，包�
 探索全面的 Aspose.HTML for Java 教學課程，引導您完成儲存 HTML 文件、轉換為 Markdown 等操作。
 ### [在 Aspose.HTML for Java 中處理 ZIP 文件](./handling-zip-files/)
 釋放 Aspose.HTML for Java 的強大功能。探索處理 ZIP 檔案的教學課程並學習有效管理 ZIP 檔案的基本技術。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

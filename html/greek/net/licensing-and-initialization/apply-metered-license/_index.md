@@ -3,10 +3,16 @@ title: Εφαρμογή Metered License σε .NET με Aspose.HTML
 linktitle: Εφαρμογή Metered License στο .NET
 second_title: Aspose.HTML .NET API χειρισμού HTML
 description: Μάθετε πώς μπορείτε να εφαρμόσετε μια μετρημένη άδεια στο Aspose.HTML για .NET. Διαχειριστείτε τις ανάγκες χειρισμού HTML αποτελεσματικά. Ξεκινήστε τώρα!
-type: docs
 weight: 10
 url: /el/net/licensing-and-initialization/apply-metered-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Εφαρμογή Metered License σε .NET με Aspose.HTML
+
 Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία εφαρμογής μιας μετρημένης άδειας στην εφαρμογή σας .NET χρησιμοποιώντας Aspose.HTML. Η μετρημένη άδεια είναι ένας βολικός τρόπος διαχείρισης της αδειοδότησης για τις ανάγκες χειρισμού HTML. Ακολουθώντας τα παρακάτω βήματα, θα μπορείτε να εφαρμόσετε μια μετρημένη άδεια στο έργο Aspose.HTML για .NET.
 
 ## Προαπαιτούμενα
@@ -88,3 +94,9 @@ using Aspose.Html;
 
 ### Πού μπορώ να λάβω υποστήριξη ή να κάνω ερωτήσεις σχετικά με το Aspose.HTML για .NET;
  Μπορείτε να γίνετε μέλος της κοινότητας και να αναζητήσετε υποστήριξη στο[Aspose Forums](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

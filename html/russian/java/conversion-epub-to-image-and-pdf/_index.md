@@ -3,10 +3,16 @@ title: Конвертация - EPUB в изображение и PDF
 linktitle: Конвертация - EPUB в изображение и PDF
 second_title: Обработка Java HTML с помощью Aspose.HTML
 description: Эффективно конвертируйте EPUB в изображения с помощью Aspose.HTML для Java. Это пошаговое руководство упрощает процесс. Изучите также конвертацию EPUB в PDF.
-type: docs
 weight: 22
 url: /ru/java/conversion-epub-to-image-and-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Конвертация - EPUB в изображение и PDF
+
 Хотите конвертировать файлы EPUB в изображения или PDF? Вы в правильном месте! В этом подробном руководстве мы покажем вам, как легко конвертировать EPUB в изображения с помощью Aspose.HTML для Java, а также рассмотрим конвертацию EPUB в PDF с помощью того же инструмента. 
 
 ## Конвертация EPUB в изображения с помощью Aspose.HTML для Java
@@ -35,3 +41,9 @@ Aspose.HTML для Java — это мощный инструмент, котор
 Узнайте, как преобразовать EPUB в изображение с помощью Aspose.HTML для Java. Простое пошаговое руководство для эффективных преобразований.
 ### [Конвертация EPUB в PDF с помощью Aspose.HTML для Java](./convert-epub-to-pdf/)
 Узнайте, как конвертировать EPUB в PDF с помощью Aspose.HTML для Java. Это пошаговое руководство охватывает предварительные условия, импорт пакетов и примеры кода. Начните конвертацию EPUB в PDF.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

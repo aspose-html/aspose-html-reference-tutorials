@@ -3,10 +3,16 @@ title: Save HTML Document to File in Aspose.HTML for Java
 linktitle: Save HTML Document to File in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 description: Learn how to save an HTML document to a file using Aspose.HTML for Java, perfect for handling multiple linked resources with ease.
-type: docs
 weight: 11
 url: /java/saving-html-documents/save-html-to-file/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Save HTML Document to File in Aspose.HTML for Java
+
 ## Introduction
 In this tutorial, we'll explore how to save an HTML document to a file while managing linked resources. This is particularly useful when you're working on projects that involve multiple HTML files—think of it like a web page that references other web pages. By the end of this guide, you’ll be equipped to use Aspose.HTML for Java to manage your HTML documents flexibly and efficiently.
 ## Prerequisites
@@ -88,3 +94,10 @@ Absolutely! You can get a free trial of Aspose.HTML [here](https://releases.aspo
 You can visit the Aspose support forum [here](https://forum.aspose.com/c/html/29) for any questions or help you might need.
 ### Can I use Aspose.HTML for commercial projects?  
 Yes, Aspose.HTML can be used in commercial projects, but you'll need to purchase a license. You can find licensing options [here](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: تحديد خيارات حفظ PDF لتحويل EPUB إلى PDF
 linktitle: تحديد خيارات حفظ PDF لتحويل EPUB إلى PDF
 second_title: معالجة HTML باستخدام Java مع Aspose.HTML
 description: تعرف على كيفية تحويل EPUB إلى PDF في Java باستخدام Aspose.HTML، وهي مكتبة قوية لمعالجة HTML.
-type: docs
 weight: 12
 url: /ar/java/converting-epub-to-pdf/convert-epub-to-pdf-specify-pdf-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحديد خيارات حفظ PDF لتحويل EPUB إلى PDF
+
 
 ## مقدمة
 
@@ -111,3 +117,10 @@ Specifying PDF Save Options for EPUB to PDF
 
 ### أين يمكنني الحصول على الدعم لـ Aspose.HTML لـ Java؟
 يمكنك العثور على إجابات لأسئلتك وطلب الدعم على[منتدى Aspose.HTML](https://forum.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

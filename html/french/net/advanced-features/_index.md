@@ -3,10 +3,16 @@ title: Fonctionnalités avancées
 linktitle: Fonctionnalités avancées
 second_title: API de manipulation HTML Aspose.HTML .NET
 description: Débloquez des fonctionnalités .NET avancées avec Aspose.HTML ! De la configuration de l'environnement au scraping Web, explorez des tutoriels complets pour un développement Web puissant.
-type: docs
 weight: 24
 url: /fr/net/advanced-features/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Fonctionnalités avancées
+
 
 Êtes-vous prêt à exploiter tout le potentiel d'Aspose.HTML pour .NET ? Dans cet article, nous vous ferons découvrir les fonctionnalités et capacités avancées d'Aspose.HTML, en vous proposant des didacticiels approfondis pour améliorer vos compétences.
 
@@ -41,3 +47,9 @@ Découvrez comment utiliser Aspose.HTML pour .NET pour générer dynamiquement d
 ## Conclusion
 
 Aspose.HTML pour .NET ouvre la porte à un monde de possibilités lorsqu'il s'agit de travailler avec des documents HTML dans vos applications .NET. Ces didacticiels de fonctionnalités avancées vous fourniront les connaissances et les compétences nécessaires pour exploiter tout le potentiel d'Aspose.HTML. Améliorez vos projets de développement, gagnez du temps et créez des solutions remarquables avec Aspose.HTML pour .NET. Commencez dès aujourd'hui avec nos didacticiels et faites passer votre développement Web au niveau supérieur.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

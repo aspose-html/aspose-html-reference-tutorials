@@ -3,10 +3,16 @@ title: Handle Document Load Events in Aspose.HTML for Java
 linktitle: Handle Document Load Events in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 description: Learn to handle document load events in Aspose.HTML for Java with this step-by-step guide. Enhance your web applications.
-type: docs
 weight: 18
 url: /java/creating-managing-html-documents/handle-document-load-events/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Handle Document Load Events in Aspose.HTML for Java
+
 ## Introduction
 When it comes to web development, handling document load events is crucial for ensuring that your application runs smoothly and efficiently. If you're working with HTML documents in Java, Aspose.HTML provides a powerful library that allows you to manipulate HTML documents with ease. In this tutorial, we will explore how to handle document load events using Aspose.HTML for Java. Whether you're a beginner or an experienced developer, this guide will walk you through the process step-by-step.
 ## Prerequisites
@@ -69,3 +75,10 @@ Yes, you can try Aspose.HTML for free by downloading a trial version from the [A
 Yes, you can find support and ask questions on the [Aspose forum](https://forum.aspose.com/c/html/29).
 ### How do I get a temporary license for Aspose.HTML?
 You can request a temporary license by visiting the [Aspose temporary license page](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.HTML ile .NET'te Ölçülü Lisans Uygulayın
 linktitle: .NET'te Ölçülü Lisansı Uygula
 second_title: Aspose.HTML .NET HTML işleme API'si
 description: Aspose.HTML for .NET'te ölçülü bir lisansın nasıl uygulanacağını öğrenin. HTML işleme ihtiyaçlarınızı verimli bir şekilde yönetin. Hemen başlayın!
-type: docs
 weight: 10
 url: /tr/net/licensing-and-initialization/apply-metered-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.HTML ile .NET'te Ölçülü Lisans Uygulayın
+
 Bu eğitimde, Aspose.HTML kullanarak .NET uygulamanızda ölçülü bir lisans uygulama sürecinde size rehberlik edeceğiz. Ölçülü lisans, HTML düzenleme ihtiyaçlarınız için lisanslamayı yönetmenin kullanışlı bir yoludur. Aşağıdaki adımları izleyerek, Aspose.HTML for .NET projenize ölçülü bir lisans uygulayabileceksiniz.
 
 ## Ön koşullar
@@ -88,3 +94,9 @@ Bu eğitimde, .NET için Aspose.HTML kullanarak ölçülü bir lisansın nasıl 
 
 ### Aspose.HTML for .NET hakkında destek alabilir veya sorularımı nereden sorabilirim?
  Topluluğa katılabilir ve destek arayabilirsiniz[Aspose Forumları](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

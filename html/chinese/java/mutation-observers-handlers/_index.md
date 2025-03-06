@@ -3,10 +3,16 @@ title: Aspose.HTML for Java 中的突变观察器和处理程序
 linktitle: Aspose.HTML for Java 中的突变观察器和处理程序
 second_title: 使用 Aspose.HTML 进行 Java HTML 处理
 description: 探索 Aspose.HTML for Java 教程，涵盖高级 Mutation Observers 和安全凭证处理程序，以增强您的 Web 应用程序。
-type: docs
 weight: 23
 url: /zh/java/mutation-observers-handlers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.HTML for Java 中的突变观察器和处理程序
+
 ## 介绍
 
 如果您正在寻求改进 Java Web 应用程序，那么您可能听说过 Aspose.HTML。但让我告诉您，它不仅仅是一个普通的库，它是动态管理 HTML 文档的强大工具。在本指南中，我们将探索两个基本组件：突变观察器和凭据处理程序，让您可以增强应用程序的性能。 
@@ -28,3 +34,9 @@ url: /zh/java/mutation-observers-handlers/
 了解如何使用 Aspose.HTML for Java 实现高级 Mutation Observer，无缝跟踪 DOM 变化。深入了解我们的分步指南。
 ### [在 Aspose.HTML for Java 中使用凭证处理程序](./credential-handler/)
 了解如何使用 Aspose.HTML for Java 实现安全凭证处理程序来有效地管理用户身份验证。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

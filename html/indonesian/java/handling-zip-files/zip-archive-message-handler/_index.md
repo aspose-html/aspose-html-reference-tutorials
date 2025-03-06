@@ -3,10 +3,16 @@ title: Penanganan Pesan Arsip ZIP di Aspose.HTML untuk Java
 linktitle: Penanganan Pesan Arsip ZIP di Aspose.HTML untuk Java
 second_title: Pemrosesan HTML Java dengan Aspose.HTML
 description: Pelajari cara membuat ZIP Archive Message Handler menggunakan Aspose.HTML untuk Java. Panduan ini menguraikan setiap langkah untuk membantu Anda mengelola dan menyajikan file dari arsip ZIP secara efisien.
-type: docs
 weight: 10
 url: /id/java/handling-zip-files/zip-archive-message-handler/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Penanganan Pesan Arsip ZIP di Aspose.HTML untuk Java
+
 ## Perkenalan
 Bekerja dengan arsip ZIP dapat menjadi bagian penting dalam mengelola data dalam berbagai format, terutama dalam hal menangani sumber daya web secara efisien. Dalam panduan ini, kami akan memandu Anda membuat ZIP Archive Message Handler menggunakan Aspose.HTML untuk Java. Handler ini akan memungkinkan Anda untuk membaca file secara langsung dari arsip ZIP dan menyajikannya sebagai respons terhadap permintaan jaringan. Ini adalah cara yang ampuh untuk menyederhanakan manajemen file, terutama saat menangani kumpulan data besar yang dikompresi menjadi satu arsip.
 ## Prasyarat
@@ -110,3 +116,10 @@ Jika berkas tidak ditemukan, pengendali mengembalikan respons 404, yang menunjuk
  Meskipun mungkin tidak diperlukan dalam setiap kasus, penerapan`dispose` merupakan praktik yang baik untuk memastikan bahwa semua sumber daya yang digunakan oleh pengendali dilepaskan dengan benar.
 ### Bisakah pengendali ini digunakan di server web?  
 Tentu saja! Handler ini dirancang untuk digunakan dalam aplikasi web tempat Anda perlu menyajikan file dari arsip ZIP sebagai respons terhadap permintaan HTTP.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

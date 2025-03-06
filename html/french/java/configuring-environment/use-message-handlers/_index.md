@@ -3,10 +3,16 @@ title: Utiliser les gestionnaires de messages dans Aspose.HTML pour Java
 linktitle: Utiliser les gestionnaires de messages dans Aspose.HTML pour Java
 second_title: Traitement HTML Java avec Aspose.HTML
 description: Découvrez comment utiliser les gestionnaires de messages dans Aspose.HTML pour Java pour gérer efficacement les images manquantes et d’autres opérations réseau.
-type: docs
 weight: 12
 url: /fr/java/configuring-environment/use-message-handlers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Utiliser les gestionnaires de messages dans Aspose.HTML pour Java
+
 ## Introduction
 Dans ce didacticiel, nous vous présenterons un exemple pratique d'utilisation de gestionnaires de messages dans Aspose.HTML pour Java. Nous préparerons un document HTML simple qui référence une image manquante et montrerons comment détecter et gérer l'erreur à l'aide d'un gestionnaire de messages personnalisé. Que vous soyez novice en matière d'Aspose.HTML ou que vous cherchiez à étendre vos compétences, ce guide vous donnera les informations dont vous avez besoin pour gérer efficacement les opérations réseau.
 ## Prérequis
@@ -109,3 +115,9 @@ Oui, vous pouvez enchaîner plusieurs gestionnaires de messages pour gérer diff
 Oui, l’élimination de ces objets garantit que toutes les ressources sont correctement libérées, évitant ainsi les fuites de mémoire.
 ### Puis-je gérer d’autres types d’erreurs avec des gestionnaires de messages ?
 Absolument ! Les gestionnaires de messages peuvent être personnalisés pour gérer différents types d'erreurs, pas seulement les ressources manquantes.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

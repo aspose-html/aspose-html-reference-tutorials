@@ -3,10 +3,16 @@ title: Manipulation du canevas HTML5 avec Aspose.HTML pour Java
 linktitle: Manipulation du canevas HTML5 à l'aide de JavaScript
 second_title: Traitement HTML Java avec Aspose.HTML
 description: Apprenez à manipuler HTML5 Canvas avec JavaScript à l'aide d'Aspose.HTML pour Java. Créez des graphiques dynamiques et convertissez-les en PDF.
-type: docs
 weight: 13
 url: /fr/java/advanced-usage/html5-canvas-manipulation-using-javascript/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulation du canevas HTML5 avec Aspose.HTML pour Java
+
 Dans le monde numérique d'aujourd'hui, les applications Web interactives et les sites Web visuellement attrayants deviennent de plus en plus importants. HTML5 Canvas, associé à JavaScript, fournit une excellente plate-forme pour créer des graphiques dynamiques et interactifs dans vos pages Web. En tant que rédacteur SEO compétent, je vous guiderai tout au long du processus de manipulation de HTML5 Canvas à l'aide de JavaScript, en exploitant la puissance d'Aspose.HTML pour Java. À la fin de ce didacticiel, vous serez en mesure de créer, de modifier et d'enregistrer des documents HTML avec des éléments Canvas et de les convertir en PDF. Commençons !
 
 ## Prérequis
@@ -117,3 +123,9 @@ A3 : Oui, vous pouvez accéder à une version d'essai gratuite d'Aspose.HTML po
 ### Q5 : Où puis-je trouver la documentation d'Aspose.HTML pour Java ?
 
  A5 : La documentation d'Aspose.HTML pour Java est disponible[ici](https://reference.aspose.com/html/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

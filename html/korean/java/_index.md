@@ -1,12 +1,17 @@
 ---
 title: 포괄적인 Aspose.HTML Java 튜토리얼
 linktitle: Java 튜토리얼을 위한 Aspose.HTML
-type: docs
 weight: 10
 url: /ko/java/
 description: 고급 튜토리얼로 Java용 Aspose.HTML의 힘을 알아보세요. HTML 페이지를 조작하고, EPUB를 다양한 형식으로 변환하고, HTML Canvas를 프로처럼 사용자 정의하는 방법을 배우세요.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 포괄적인 Aspose.HTML Java 튜토리얼
+
 Aspose.HTML for Java는 HTML 처리 작업을 강화하기 위한 광범위한 기능을 제공하는 다재다능한 라이브러리입니다. 이 글에서는 Aspose.HTML for Java의 다양한 측면을 살펴보고 포괄적인 튜토리얼 시리즈를 통해 고급 사용법을 살펴보겠습니다.
 
 ## HTML 페이지 여백 사용자 정의
@@ -87,3 +92,9 @@ Java용 Aspose.HTML에서 환경을 구성하는 방법을 알아보세요. 문�
 HTML 문서 저장, 마크다운으로 변환 등을 안내하는 포괄적인 Aspose.HTML for Java 튜토리얼을 확인해 보세요.
 ### [Java용 Aspose.HTML에서 ZIP 파일 처리](./handling-zip-files/)
 Java용 Aspose.HTML의 힘을 활용하세요. ZIP 파일을 처리하는 방법에 대한 튜토리얼을 살펴보고 ZIP 아카이브를 효과적으로 관리하는 데 필요한 기술을 배우세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

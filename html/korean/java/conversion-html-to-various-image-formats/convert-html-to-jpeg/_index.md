@@ -3,10 +3,16 @@ title: Java용 Aspose.HTML을 사용하여 HTML을 JPEG로 변환
 linktitle: HTML을 JPEG로 변환
 second_title: Aspose.HTML을 사용한 Java HTML 처리
 description: Aspose.HTML for Java로 HTML을 JPEG로 변환하는 방법을 알아보세요. 원활한 문서 처리를 위한 단계별 가이드.
-type: docs
 weight: 12
 url: /ko/java/conversion-html-to-various-image-formats/convert-html-to-jpeg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.HTML을 사용하여 HTML을 JPEG로 변환
+
 ## 소개
 
 웹 개발 및 문서 처리 분야에서는 HTML 문서를 JPEG 이미지와 같은 다양한 형식으로 변환해야 할 필요가 종종 있습니다. Aspose.HTML for Java는 이 작업에 대한 강력한 솔루션을 제공합니다. 이 포괄적인 튜토리얼에서는 Aspose.HTML for Java를 사용하여 HTML을 JPEG로 변환하는 과정을 안내합니다. 
@@ -103,3 +109,9 @@ A4: Java용 Aspose.HTML은 PDF, XPS 및 다양한 이미지 형식을 포함한 
 ### 질문 5: 변환 과정에 고급 사용자 정의 옵션이 있나요?
 
 A5: 네, Java용 Aspose.HTML은 이미지 품질과 해상도 설정 등 변환을 사용자 정의하기 위한 광범위한 옵션을 제공합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

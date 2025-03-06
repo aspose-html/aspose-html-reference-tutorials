@@ -3,10 +3,16 @@ title: تكوين خدمة وقت التشغيل في Aspose.HTML لـ Java
 linktitle: تكوين خدمة وقت التشغيل في Aspose.HTML لـ Java
 second_title: معالجة HTML باستخدام Java مع Aspose.HTML
 description: تعرف على كيفية تكوين خدمة وقت التشغيل في Aspose.HTML لـ Java لتحسين تنفيذ البرنامج النصي، ومنع الحلقات اللانهائية، وتحسين أداء التطبيق.
-type: docs
 weight: 14
 url: /ar/java/configuring-environment/configure-runtime-service/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تكوين خدمة وقت التشغيل في Aspose.HTML لـ Java
+
 ## مقدمة
 هل تساءلت يومًا كيف يمكنك جعل تطبيقات Java تعمل بشكل أسرع وأكثر كفاءة؟ سواء كنت تقوم ببناء تطبيق ويب معقد أو مجرد العبث ببعض مستندات HTML، فإن السرعة هي جوهر الأمر. تخيل أن تكون قادرًا على تحديد مدة تشغيل البرنامج النصي أو مدى سرعة تشغيل النظام للتطبيقات. يبدو الأمر مفيدًا جدًا، أليس كذلك؟ هذا هو المكان الذي تأتي فيه خدمة وقت التشغيل في Aspose.HTML for Java. في هذا البرنامج التعليمي، سنتعمق في كيفية تكوين خدمة وقت التشغيل في Aspose.HTML for Java لتعزيز أداء تطبيقك من خلال التحكم في وقت تنفيذ البرنامج النصي.
 ## المتطلبات الأساسية
@@ -100,3 +106,9 @@ try {
  بالتأكيد! يمكنك ضبط مهلة الانتظار على أي قيمة تناسب احتياجاتك عن طريق تعديل`TimeSpan.fromSeconds()` المعلمة.
 ### أين يمكنني الحصول على الدعم إذا واجهت مشاكل مع Aspose.HTML لـ Java؟  
  للحصول على الدعم، يمكنك زيارة[منتدى Aspose.HTML](https://forum.aspose.com/c/html/29).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

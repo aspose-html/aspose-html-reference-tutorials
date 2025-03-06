@@ -3,10 +3,16 @@ title: 使用 Aspose.HTML 在 .NET 中通过 PdfDevice 生成加密 PDF
 linktitle: 在 .NET 中使用 PdfDevice 生成加密 PDF
 second_title: Aspose.HTML .NET HTML 操作 API
 description: 使用 Aspose.HTML for .NET 动态将 HTML 转换为 PDF。轻松集成、可自定义选项和强大的性能。
-type: docs
 weight: 15
 url: /zh/net/advanced-features/generate-encrypted-pdf-by-pdfdevice/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.HTML 在 .NET 中通过 PdfDevice 生成加密 PDF
+
 
 在快节奏的 Web 开发世界中，动态地将 HTML 转换为 PDF 已成为一种常见要求。无论您是要生成报告、发票还是仅仅存档 Web 内容，Aspose.HTML for .NET 都是一个可以简化此过程的强大工具。在本教程中，我们将引导您完成使用 Aspose.HTML for .NET 实现动态 HTML 到 PDF 转换的步骤。
 
@@ -98,3 +104,9 @@ A4：是的，您可以免费试用 Aspose.HTML for .NET。立即开始[这里](
 ### Q5. 我可以在哪里获得帮助和支持？
 
  A5：如有任何疑问或问题，您可以访问 Aspose 论坛寻求支持和讨论：[支持](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

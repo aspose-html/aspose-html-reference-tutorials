@@ -3,10 +3,16 @@ title: Passen Sie HTML-Seitenränder mit Aspose.HTML an
 linktitle: CSS-Erweiterungen - Hinzufügen von Titel und Seitenzahl
 second_title: Java-HTML-Verarbeitung mit Aspose.HTML
 description: Erfahren Sie, wie Sie mit Aspose.HTML für Java Seitenränder anpassen und Seitenzahlen und Titel zu HTML-Dokumenten hinzufügen.
-type: docs
 weight: 10
 url: /de/java/advanced-usage/css-extensions-adding-title-page-number/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Passen Sie HTML-Seitenränder mit Aspose.HTML an
+
 Aspose.HTML für Java ist eine leistungsstarke Bibliothek zur Verarbeitung von HTML-Dokumenten in Java-Anwendungen. In diesem Tutorial erfahren Sie, wie Sie mit Aspose.HTML für Java benutzerdefinierte Seitenränder erstellen und Seitenzahlen und Titel zu Ihren HTML-Dokumenten hinzufügen. Diese Schritt-für-Schritt-Anleitung unterteilt den Prozess in überschaubare Schritte, damit Sie diese Funktionen problemlos in Ihre HTML-Dokumente integrieren können.
 
 ## Voraussetzungen
@@ -119,3 +125,9 @@ A4: Ja, Aspose.HTML für Java kann zum Konvertieren von HTML-Dokumenten in versc
 ### F5: Benötige ich eine Lizenz, um Aspose.HTML für Java zu verwenden?
 
  A5: Ja, Sie können eine Lizenz oder eine kostenlose Testversion erhalten von[Hier](https://purchase.aspose.com/buy) oder[Hier](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

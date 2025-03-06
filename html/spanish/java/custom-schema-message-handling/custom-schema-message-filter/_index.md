@@ -3,10 +3,16 @@ title: Filtrado de mensajes de esquema personalizado en Aspose.HTML para Java
 linktitle: Filtrado de mensajes de esquema personalizado en Aspose.HTML para Java
 second_title: Procesamiento de HTML en Java con Aspose.HTML
 description: Aprenda a implementar un filtro de mensajes de esquema personalizado en Java con Aspose.HTML. Siga nuestra guía paso a paso para disfrutar de una experiencia de aplicación segura y personalizada.
-type: docs
 weight: 10
 url: /es/java/custom-schema-message-handling/custom-schema-message-filter/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Filtrado de mensajes de esquema personalizado en Aspose.HTML para Java
+
 ## Introducción
  La creación de soluciones personalizadas que satisfagan necesidades específicas a menudo requiere una inmersión profunda en las herramientas y bibliotecas disponibles. Al trabajar con documentos HTML en Java, la API Aspose.HTML para Java ofrece una gran cantidad de funciones que se pueden adaptar a sus necesidades. Una de esas personalizaciones implica filtrar mensajes en función de un esquema personalizado utilizando el`MessageFilter`Clase. En esta guía, le explicaremos el proceso de implementación de un filtro de mensajes de esquema personalizado con Aspose.HTML para Java. Tanto si es un desarrollador experimentado como si recién está comenzando, este tutorial le ayudará a crear un mecanismo de filtrado sólido adaptado a los requisitos específicos de su aplicación.
 ## Prerrequisitos
@@ -92,3 +98,9 @@ Un filtro de mensajes de esquema personalizado le permite controlar qué solicit
 Aspose.HTML para Java es compatible con JDK 8 y versiones posteriores. Asegúrese siempre de utilizar una versión compatible para obtener un rendimiento óptimo.
 ### ¿Cómo puedo obtener soporte para Aspose.HTML para Java?
  Puede acceder al soporte a través de[Foro de soporte de Aspose](https://forum.aspose.com/c/html/29), donde puedes hacer preguntas y obtener ayuda de la comunidad y los desarrolladores de Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

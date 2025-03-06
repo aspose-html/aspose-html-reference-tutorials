@@ -3,10 +3,16 @@ title: Tạo và quản lý tài liệu HTML trong Aspose.HTML cho Java
 linktitle: Tạo và quản lý tài liệu HTML trong Aspose.HTML cho Java
 second_title: Xử lý HTML Java với Aspose.HTML
 description: Khám phá các hướng dẫn hàng đầu để tạo và quản lý tài liệu HTML bằng Aspose.HTML cho Java. Hoàn hảo cho các nhà phát triển Java đang tìm kiếm hướng dẫn chi tiết, từng bước.
-type: docs
 weight: 27
 url: /vi/java/creating-managing-html-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo và quản lý tài liệu HTML trong Aspose.HTML cho Java
+
 ## Giới thiệu
 
 Aspose.HTML for Java cung cấp một bộ công cụ mạnh mẽ cho các nhà phát triển muốn làm việc với các tài liệu HTML một cách liền mạch trong các ứng dụng Java của họ. Cho dù bạn là người mới bắt đầu hay là một nhà phát triển dày dạn kinh nghiệm, việc thành thạo việc tạo và quản lý các tài liệu HTML có thể nâng cao đáng kể khả năng của dự án của bạn. Hãy cùng khám phá một số hướng dẫn hàng đầu có thể hướng dẫn bạn trong suốt quá trình này.
@@ -56,3 +62,9 @@ Tìm hiểu cách tạo tài liệu HTML mới bằng Aspose.HTML cho Java với
 Học cách xử lý các sự kiện tải tài liệu trong Aspose.HTML cho Java với hướng dẫn từng bước này. Nâng cao ứng dụng web của bạn.
 ### [Tạo và quản lý tài liệu SVG trong Aspose.HTML cho Java](./create-manage-svg-documents/)
 Học cách tạo và quản lý tài liệu SVG bằng Aspose.HTML cho Java! Hướng dẫn toàn diện này bao gồm mọi thứ từ việc tạo cơ bản đến thao tác nâng cao.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

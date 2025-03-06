@@ -3,10 +3,16 @@ title: Controlador de mensajes de esquema personalizado con Aspose.HTML para Jav
 linktitle: Controlador de mensajes de esquema personalizado con Aspose.HTML para Java
 second_title: Procesamiento de HTML en Java con Aspose.HTML
 description: Aprenda a crear un controlador de mensajes de esquema personalizado con Aspose.HTML para Java. Este tutorial le guiará paso a paso a través del proceso.
-type: docs
 weight: 11
 url: /es/java/custom-schema-message-handling/custom-schema-message-handler/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Controlador de mensajes de esquema personalizado con Aspose.HTML para Java
+
 ## Introducción
 ¡Bienvenidos, compañeros desarrolladores! Si buscan mejorar sus aplicaciones Java con sólidas capacidades de manipulación de HTML, han llegado al lugar correcto. Hoy profundizaremos en cómo crear un controlador de mensajes de esquema personalizado utilizando Aspose.HTML para Java. Imagine que es un chef que elabora un plato especial; este controlador es como su salsa secreta que eleva una receta estándar a una comida gourmet. Le permite administrar y filtrar sin problemas los mensajes HTML según sus propias especificaciones de esquema.
 ## Prerrequisitos
@@ -92,3 +98,9 @@ Aspose.HTML para Java se utiliza para manipular y convertir archivos HTML en apl
  Sí, puedes comprar una licencia permanente para Aspose.HTML[aquí](https://purchase.aspose.com/buy).
 ### ¿Dónde puedo encontrar soporte para Aspose.HTML?
  Puede acceder al soporte visitando el foro de Aspose para HTML[aquí](https://forum.aspose.com/c/html/29).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

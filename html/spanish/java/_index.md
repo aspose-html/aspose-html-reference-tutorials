@@ -1,12 +1,17 @@
 ---
 title: Tutoriales completos de Java Aspose.HTML
 linktitle: Tutoriales de Aspose.HTML para Java
-type: docs
 weight: 10
 url: /es/java/
 description: Descubra el poder de Aspose.HTML para Java con tutoriales avanzados. Aprenda a manipular páginas HTML, convertir EPUB a varios formatos y personalizar HTML Canvas como un profesional.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tutoriales completos de Java Aspose.HTML
+
 Aspose.HTML para Java es una biblioteca versátil que ofrece una amplia gama de funciones para mejorar las tareas de procesamiento de HTML. En este artículo, analizaremos en profundidad varios aspectos de Aspose.HTML para Java y exploraremos su uso avanzado a través de una serie de tutoriales completos.
 
 ## Personalización de los márgenes de la página HTML
@@ -87,3 +92,9 @@ Descubra cómo configurar el entorno en Aspose.HTML para Java. Aprenda a configu
 Descubra tutoriales completos de Aspose.HTML para Java que lo guiarán a través del proceso de guardar documentos HTML, convertir a Markdown y más.
 ### [Manejo de archivos ZIP en Aspose.HTML para Java](./handling-zip-files/)
 Descubra el poder de Aspose.HTML para Java. Explore tutoriales sobre cómo manejar archivos ZIP y aprenda técnicas esenciales para administrar archivos ZIP de manera eficaz.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

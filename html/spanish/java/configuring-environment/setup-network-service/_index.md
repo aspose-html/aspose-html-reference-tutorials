@@ -3,10 +3,16 @@ title: Configurar el servicio de red en Aspose.HTML para Java
 linktitle: Configurar el servicio de red en Aspose.HTML para Java
 second_title: Procesamiento de HTML en Java con Aspose.HTML
 description: Aprenda a configurar un servicio de red en Aspose.HTML para Java, administrar recursos de red y convertir HTML a PNG con manejo de errores personalizado.
-type: docs
 weight: 13
 url: /es/java/configuring-environment/setup-network-service/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Configurar el servicio de red en Aspose.HTML para Java
+
 ## Introducción
 ¿Está buscando perfeccionar el procesamiento de documentos HTML con Java? Quizás esté trabajando en un proyecto que implique convertir documentos HTML en imágenes u otros formatos y necesite administrar servicios de red de manera eficiente. ¡Pues está en el lugar correcto! Este tutorial lo guiará en la configuración de un servicio de red en Aspose.HTML para Java, desglosando cada paso en detalle para que pueda seguirlo con facilidad. Ya sea que sea un desarrollador experimentado o recién esté comenzando, esta guía le hará el proceso claro, sencillo y tal vez hasta un poco divertido.
 ## Prerrequisitos
@@ -90,3 +96,9 @@ Al implementar un controlador de mensajes personalizado, puede registrar errores
 ¡Por supuesto! Limpiar los recursos evita fugas de memoria y permite que la aplicación funcione sin problemas.
 ### ¿Puedo personalizar el controlador de mensajes de error?  
 Sí, el controlador de mensajes de error se puede personalizar para registrar detalles específicos, enviar alertas o incluso activar otros procesos en función de los errores encontrados.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

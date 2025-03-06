@@ -3,10 +3,16 @@ title: Zastosuj licencję mierzoną w .NET z Aspose.HTML
 linktitle: Zastosuj licencję licznikową w .NET
 second_title: Aspose.HTML .NET API manipulacji HTML
 description: Dowiedz się, jak zastosować licencję metered w Aspose.HTML dla .NET. Zarządzaj wydajnie swoimi potrzebami w zakresie manipulacji HTML. Zacznij teraz!
-type: docs
 weight: 10
 url: /pl/net/licensing-and-initialization/apply-metered-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zastosuj licencję mierzoną w .NET z Aspose.HTML
+
 tym samouczku przeprowadzimy Cię przez proces stosowania licencji mierzonej w Twojej aplikacji .NET przy użyciu Aspose.HTML. Licencja mierzona to wygodny sposób zarządzania licencjonowaniem dla Twoich potrzeb manipulacji HTML. Wykonując poniższe kroki, będziesz w stanie zastosować licencję mierzoną do swojego projektu Aspose.HTML dla .NET.
 
 ## Wymagania wstępne
@@ -88,3 +94,9 @@ Licencja licznikowa pozwala płacić za Aspose.HTML na zasadzie pay-as-you-go, w
 
 ### Gdzie mogę uzyskać pomoc lub zadać pytania dotyczące Aspose.HTML dla .NET?
  Możesz dołączyć do społeczności i szukać wsparcia na[Fora Aspose](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

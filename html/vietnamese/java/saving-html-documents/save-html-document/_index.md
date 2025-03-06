@@ -3,10 +3,16 @@ title: Lưu tài liệu HTML trong Aspose.HTML cho Java
 linktitle: Lưu tài liệu HTML trong Aspose.HTML cho Java
 second_title: Xử lý HTML Java với Aspose.HTML
 description: Tìm hiểu cách lưu tài liệu HTML bằng Aspose.HTML cho Java với hướng dẫn từng bước toàn diện được thiết kế dành cho người mới bắt đầu và chuyên gia.
-type: docs
 weight: 10
 url: /vi/java/saving-html-documents/save-html-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lưu tài liệu HTML trong Aspose.HTML cho Java
+
 ## Giới thiệu
 Khi nói đến việc làm việc với các tài liệu HTML trong Java, một thư viện đáng tin cậy có thể tạo ra tất cả sự khác biệt. Aspose.HTML cho Java là một công cụ như vậy cho phép các nhà phát triển tạo, thao tác và lưu các tài liệu HTML một cách dễ dàng. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn cách lưu tài liệu HTML bằng Aspose.HTML cho Java. 
 ## Điều kiện tiên quyết
@@ -82,3 +88,9 @@ Aspose.HTML for Java là một thư viện cho phép các nhà phát triển t�
  Chắc chắn rồi! Bạn có thể tìm thấy tài liệu toàn diện về[Trang tài liệu Aspose](https://reference.aspose.com/html/java/).
 ### Làm thế nào tôi có thể mua Aspose.HTML cho Java?  
  Bạn có thể mua thư viện từ[Trang mua hàng Aspose](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

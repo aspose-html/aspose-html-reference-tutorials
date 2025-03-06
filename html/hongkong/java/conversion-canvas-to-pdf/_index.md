@@ -3,10 +3,16 @@ title: 轉換 - Canvas 到 PDF 教程
 linktitle: 轉換 - 畫佈到 PDF
 second_title: 使用 Aspose.HTML 進行 Java HTML 處理
 description: 在這份綜合指南中了解如何使用 Aspose.HTML for Java 將 HTML Canvas 轉換為 PDF。掌握數位轉型的藝術！
-type: docs
 weight: 21
 url: /zh-hant/java/conversion-canvas-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 轉換 - Canvas 到 PDF 教程
+
 
 您準備好探索使用 Aspose.HTML for Java 將 HTML Canvas 轉換為 PDF 的迷人世界了嗎？如果是這樣，那麼您來對地方了。在本文中，我們將一步步帶您踏上從基礎知識到精通的旅程。最後，您將具備將 Canvas 創作無縫轉換為 PDF 文件所需的知識和技能。
 
@@ -36,3 +42,9 @@ url: /zh-hant/java/conversion-canvas-to-pdf/
 ## 轉換 - Canvas 到 PDF 教程
 ### [使用 Aspose.HTML for Java 將 HTML Canvas 轉換為 PDF](./canvas-to-pdf/)
 在此逐步指南中了解如何使用 Aspose.HTML for Java 將 HTML Canvas 轉換為 PDF。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

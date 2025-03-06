@@ -3,10 +3,16 @@ title: Use Message Handlers in Aspose.HTML for Java
 linktitle: Use Message Handlers in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 description: Learn how to use message handlers in Aspose.HTML for Java to handle missing images and other network operations effectively.
-type: docs
 weight: 12
 url: /java/configuring-environment/use-message-handlers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Use Message Handlers in Aspose.HTML for Java
+
 ## Introduction
 In this tutorial, we'll walk you through a practical example of using message handlers in Aspose.HTML for Java. We’ll prepare a simple HTML document that references a missing image and demonstrate how to catch and handle the error using a custom message handler. Whether you're new to Aspose.HTML or looking to expand your skills, this guide will give you the insights you need to manage network operations effectively.
 ## Prerequisites
@@ -109,3 +115,10 @@ Yes, you can chain multiple message handlers together to handle different scenar
 Yes, disposing of these objects ensures that all resources are properly released, preventing memory leaks.
 ### Can I handle other types of errors with message handlers?
 Absolutely! Message handlers can be customized to handle various types of errors, not just missing resources.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

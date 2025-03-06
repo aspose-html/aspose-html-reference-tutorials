@@ -3,10 +3,16 @@ title: Chỉnh sửa tài liệu HTML trong Aspose.HTML cho Java
 linktitle: Chỉnh sửa tài liệu HTML trong Aspose.HTML cho Java
 second_title: Xử lý HTML Java với Aspose.HTML
 description: Khám phá hướng dẫn toàn diện về Aspose.HTML cho Java. Tìm hiểu cách chỉnh sửa tài liệu HTML, triển khai CSS và quản lý nội dung với hướng dẫn từng bước.
-type: docs
 weight: 28
 url: /vi/java/editing-html-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chỉnh sửa tài liệu HTML trong Aspose.HTML cho Java
+
 ## Giới thiệu
 
 Bạn đã sẵn sàng để đắm mình vào thế giới chỉnh sửa HTML và tạo kiểu CSS bằng Aspose.HTML cho Java chưa? Cho dù bạn là một nhà phát triển dày dạn kinh nghiệm hay chỉ mới bắt đầu, bộ sưu tập hướng dẫn này là nguồn tài nguyên dành cho bạn để thành thạo thao tác tài liệu HTML. Hãy cùng xem qua những gì đang chờ đón bạn!
@@ -52,3 +58,9 @@ Tìm hiểu cách thêm CSS nội tuyến vào tài liệu HTML bằng Aspose.HT
 Tìm hiểu cách quản lý các thuộc tính HTML bên trong và bên ngoài trong Aspose.HTML cho Java với hướng dẫn từng bước này, hoàn hảo cho các nhà phát triển web và người sáng tạo nội dung.
 ### [Triển khai CSS nội bộ trong tài liệu HTML với Aspose.HTML cho Java](./implement-internal-css-html-documents/)
 Học cách triển khai CSS nội bộ trong tài liệu HTML bằng Aspose.HTML cho Java với hướng dẫn từng bước dễ dàng của chúng tôi.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

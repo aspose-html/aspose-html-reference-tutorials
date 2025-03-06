@@ -3,10 +3,16 @@ title: 在 Aspose.HTML for Java 中實作沙箱
 linktitle: 在 Aspose.HTML for Java 中實作沙箱
 second_title: 使用 Aspose.HTML 進行 Java HTML 處理
 description: 了解如何在 Aspose.HTML for Java 中實作沙箱，以安全地控制 HTML 文件中的腳本執行並將其轉換為 PDF。
-type: docs
 weight: 15
 url: /zh-hant/java/configuring-environment/implement-sandboxing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.HTML for Java 中實作沙箱
+
 ## 介紹
 在本教程中，我們將介紹如何使用 Aspose.HTML for Java 實作沙箱。我們將引導您從設定環境到編寫簡單的 HTML 檔案、配置沙箱以及將 HTML 轉換為 PDF，同時控制潛在有害的腳本。無論您是經驗豐富的開發人員還是剛入門，本指南都將為您提供輕鬆建立安全 Web 內容所需的工具。
 ## 先決條件
@@ -89,3 +95,9 @@ Aspose.HTML for Java 中的沙箱是一項安全功能，可讓您控制 HTML �
 沙盒中的腳本將不會執行，並且它們的效果（例如`document.write`不會出現在輸出中。
 ### 我可以將沙盒 HTML 轉換為 PDF 以外的其他格式嗎？
 絕對地！ Aspose.HTML for Java 支援轉換為各種格式，包括映像、XPS 等。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

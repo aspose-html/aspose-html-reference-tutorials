@@ -3,10 +3,16 @@ title: Aspose.HTML के साथ .NET में एक सरल दस्त
 linktitle: .NET में एक सरल दस्तावेज़ बनाना
 second_title: Aspose.HTML .NET HTML हेरफेर एपीआई
 description: Aspose.HTML का उपयोग करके .NET में HTML दस्तावेज़ों के साथ काम करना सीखें। HTML को आसानी से बनाएँ, उसमें बदलाव करें और उसे रूपांतरित करें। आज ही शुरू करें!
-type: docs
 weight: 11
 url: /hi/net/working-with-html-documents/creating-a-simple-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.HTML के साथ .NET में एक सरल दस्तावेज़ बनाना
+
 
 ## परिचय
 
@@ -152,3 +158,10 @@ Aspose.HTML for .NET एक .NET लाइब्रेरी है जो HTML 
 ### 5. मुझे .NET के लिए Aspose.HTML का समर्थन कहां मिल सकता है?
 
  आप सहायता प्राप्त कर सकते हैं और Aspose.HTML for .NET के बारे में प्रश्न पूछ सकते हैं[एस्पोज फोरम](https://forum.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

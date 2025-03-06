@@ -3,10 +3,16 @@ title: Terapkan Lisensi Terukur di .NET dengan Aspose.HTML
 linktitle: Terapkan Lisensi Terukur di .NET
 second_title: Aspose.HTML .NET API manipulasi HTML
 description: Pelajari cara menerapkan lisensi terukur di Aspose.HTML untuk .NET. Kelola kebutuhan manipulasi HTML Anda secara efisien. Mulailah sekarang!
-type: docs
 weight: 10
 url: /id/net/licensing-and-initialization/apply-metered-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Terapkan Lisensi Terukur di .NET dengan Aspose.HTML
+
 Dalam tutorial ini, kami akan memandu Anda melalui proses penerapan lisensi terukur dalam aplikasi .NET Anda menggunakan Aspose.HTML. Lisensi terukur adalah cara mudah untuk mengelola lisensi untuk kebutuhan manipulasi HTML Anda. Dengan mengikuti langkah-langkah di bawah ini, Anda akan dapat menerapkan lisensi terukur ke proyek Aspose.HTML for .NET Anda.
 
 ## Prasyarat
@@ -88,3 +94,9 @@ Lisensi berbayar memungkinkan Anda membayar Aspose.HTML berdasarkan pemakaian, t
 
 ### Di mana saya bisa mendapatkan dukungan atau mengajukan pertanyaan tentang Aspose.HTML untuk .NET?
  Anda dapat bergabung dengan komunitas dan mencari dukungan di[Forum Aspose](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

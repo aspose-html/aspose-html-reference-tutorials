@@ -1,12 +1,17 @@
 ---
 title: Átfogó Aspose.HTML Java oktatóanyagok
 linktitle: Aspose.HTML for Java Tutorials
-type: docs
 weight: 10
 url: /hu/java/
 description: Fedezze fel az Aspose.HTML for Java erejét a speciális oktatóanyagok segítségével. Tanulja meg a HTML-oldalak kezelését, az EPUB-t különféle formátumokká konvertálni, és profi módon testreszabhatja a HTML Canvast.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Átfogó Aspose.HTML Java oktatóanyagok
+
 Az Aspose.HTML for Java egy sokoldalú könyvtár, amely a lehetőségek széles skáláját kínálja a HTML-feldolgozási feladatok javításához. Ebben a cikkben az Aspose.HTML for Java különféle aspektusaiba fogunk elmélyülni, és átfogó oktatóanyagok sorozatán keresztül megismerkedünk a fejlett használattal.
 
 ## HTML oldalmargók testreszabása
@@ -87,3 +92,9 @@ Fedezze fel, hogyan konfigurálhatja a környezetet az Aspose.HTML for Java-ban.
 Fedezze fel az átfogó Aspose.HTML for Java oktatóanyagot, amely végigvezeti Önt a HTML-dokumentumok mentésén, a Markdown-ba való konvertáláson és sok máson.
 ### [ZIP-fájlok kezelése Aspose.HTML for Java-ban](./handling-zip-files/)
 Fedezze fel az Aspose.HTML for Java erejét. Fedezze fel a ZIP-fájlok kezelésével kapcsolatos oktatóanyagokat, és tanulja meg a ZIP-archívumok hatékony kezelésének alapvető technikáit.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

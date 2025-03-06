@@ -3,11 +3,16 @@ title: Pelajari Manipulasi Dokumen HTML dengan Aspose.HTML
 linktitle: Tutorial Aspose.HTML
 additionalTitle: Referensi API Aspose
 description: Kuasai manipulasi HTML dengan tutorial Aspose.HTML - dari penguraian hingga konversi, panduan langkah demi langkah untuk pengembang.
-type: docs
 weight: 11
 url: /id/
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pelajari Manipulasi Dokumen HTML dengan Aspose.HTML
+
 
 Jelajahi tutorial Aspose.HTML yang komprehensif untuk menguasai manipulasi dokumen HTML menggunakan pustaka Aspose.HTML yang canggih. Dari penguraian dan perenderan hingga konversi file HTML, tutorial ini menyediakan panduan langkah demi langkah bagi para pengembang
 
@@ -44,3 +49,9 @@ Berikut ini adalah tautan ke beberapa sumber daya yang bermanfaat:
 - [Mengonversi EPUB ke PDF](./java/converting-epub-to-pdf/)
 - [Mengonversi EPUB ke XPS](./java/converting-epub-to-xps/)
 - [Mengonversi HTML ke Berbagai Format Gambar](./java/converting-html-to-various-image-formats/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

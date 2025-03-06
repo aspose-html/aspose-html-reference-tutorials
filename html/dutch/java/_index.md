@@ -1,12 +1,17 @@
 ---
 title: Uitgebreide Aspose.HTML Java-zelfstudies
 linktitle: Aspose.HTML voor Java-zelfstudies
-type: docs
 weight: 10
 url: /nl/java/
 description: Ontdek de kracht van Aspose.HTML voor Java met geavanceerde tutorials. Leer HTML-pagina's te bewerken, EPUB naar verschillende formaten te converteren en HTML Canvas als een pro aan te passen.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Uitgebreide Aspose.HTML Java-zelfstudies
+
 Aspose.HTML voor Java is een veelzijdige bibliotheek die een breed scala aan mogelijkheden biedt om uw HTML-verwerkingstaken te verbeteren. In dit artikel duiken we in verschillende aspecten van Aspose.HTML voor Java en verkennen we het geavanceerde gebruik ervan via een reeks uitgebreide tutorials.
 
 ## HTML-paginamarges aanpassen
@@ -87,3 +92,9 @@ Ontdek hoe u de omgeving in Aspose.HTML voor Java configureert. Leer hoe u teken
 Ontdek uitgebreide Aspose.HTML voor Java-zelfstudies die u helpen bij het opslaan van HTML-documenten, het converteren naar Markdown en meer.
 ### [ZIP-bestanden verwerken in Aspose.HTML voor Java](./handling-zip-files/)
 Ontdek de kracht van Aspose.HTML voor Java. Bekijk tutorials over het verwerken van ZIP-bestanden en leer essentiële technieken om ZIP-archieven effectief te beheren.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

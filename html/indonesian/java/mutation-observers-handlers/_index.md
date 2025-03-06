@@ -3,10 +3,16 @@ title: Pengamat dan Penangan Mutasi di Aspose.HTML untuk Java
 linktitle: Pengamat dan Penangan Mutasi di Aspose.HTML untuk Java
 second_title: Pemrosesan HTML Java dengan Aspose.HTML
 description: Jelajahi tutorial Aspose.HTML untuk Java yang mencakup Pengamat Mutasi tingkat lanjut dan Penangan Kredensial yang aman untuk menyempurnakan aplikasi web Anda.
-type: docs
 weight: 23
 url: /id/java/mutation-observers-handlers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pengamat dan Penangan Mutasi di Aspose.HTML untuk Java
+
 ## Perkenalan
 
 Jika Anda sedang berupaya meningkatkan aplikasi web Java Anda, Anda mungkin pernah mendengar tentang Aspose.HTML. Namun, perlu saya katakan, ini bukan sekadar pustaka biasa—ini adalah pusat kekuatan untuk mengelola dokumen HTML secara dinamis. Dalam panduan ini, kita akan membahas dua komponen penting: Mutation Observers dan Credential Handlers, yang memungkinkan Anda meningkatkan aplikasi Anda. 
@@ -28,3 +34,9 @@ Dengan menerapkan Credential Handler yang aman, Anda dapat mengelola kredensial 
 Pelajari cara mengimplementasikan Mutation Observer tingkat lanjut dengan Aspose.HTML untuk Java, yang melacak perubahan DOM dengan lancar. Pelajari panduan langkah demi langkah kami.
 ### [Menggunakan Credential Handler di Aspose.HTML untuk Java](./credential-handler/)
 Temukan cara menerapkan Credential Handler yang aman menggunakan Aspose.HTML untuk Java untuk mengelola autentikasi pengguna secara efektif.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

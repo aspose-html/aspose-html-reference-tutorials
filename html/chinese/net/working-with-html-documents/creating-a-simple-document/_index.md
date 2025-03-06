@@ -3,10 +3,16 @@ title: 使用 Aspose.HTML 在 .NET 中创建简单文档
 linktitle: 在 .NET 中创建简单文档
 second_title: Aspose.HTML .NET HTML 操作 API
 description: 学习使用 Aspose.HTML 在 .NET 中处理 HTML 文档。轻松创建、操作和转换 HTML。立即开始！
-type: docs
 weight: 11
 url: /zh/net/working-with-html-documents/creating-a-simple-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.HTML 在 .NET 中创建简单文档
+
 
 ## 介绍
 
@@ -152,3 +158,10 @@ Aspose.HTML for .NET 是一个 .NET 库，它提供了以各种方式处理 HTML
 ### 5. 在哪里可以获得 Aspose.HTML for .NET 的支持？
 
 您可以在以下位置获取支持并询问有关 Aspose.HTML for .NET 的问题[Aspose 论坛](https://forum.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

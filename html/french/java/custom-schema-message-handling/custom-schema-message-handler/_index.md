@@ -3,10 +3,16 @@ title: Gestionnaire de messages de schéma personnalisé avec Aspose.HTML pour J
 linktitle: Gestionnaire de messages de schéma personnalisé avec Aspose.HTML pour Java
 second_title: Traitement HTML Java avec Aspose.HTML
 description: Apprenez à créer un gestionnaire de messages de schéma personnalisé à l'aide d'Aspose.HTML pour Java. Ce didacticiel vous guide étape par étape tout au long du processus.
-type: docs
 weight: 11
 url: /fr/java/custom-schema-message-handling/custom-schema-message-handler/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gestionnaire de messages de schéma personnalisé avec Aspose.HTML pour Java
+
 ## Introduction
 Bienvenue, chers développeurs ! Si vous cherchez à améliorer vos applications Java avec de solides capacités de manipulation HTML, vous êtes au bon endroit. Aujourd'hui, nous allons découvrir comment créer un gestionnaire de messages de schéma personnalisé à l'aide d'Aspose.HTML pour Java. Imaginez que vous êtes un chef qui prépare un plat spécial ; ce gestionnaire est comme votre sauce secrète qui élève une recette standard au rang de repas gastronomique. Il vous permet de gérer et de filtrer de manière transparente les messages HTML en fonction de vos propres spécifications de schéma.
 ## Prérequis
@@ -92,3 +98,9 @@ Aspose.HTML pour Java est utilisé pour manipuler et convertir des fichiers HTML
  Oui, vous pouvez acheter une licence permanente pour Aspose.HTML[ici](https://purchase.aspose.com/buy).
 ### Où puis-je trouver du support pour Aspose.HTML ?
  Vous pouvez accéder au support en visitant le forum Aspose pour HTML[ici](https://forum.aspose.com/c/html/29).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

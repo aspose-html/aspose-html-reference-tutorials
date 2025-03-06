@@ -3,10 +3,16 @@ title: Converteer EPUB naar JPG met Aspose.HTML voor Java
 linktitle: EPUB naar JPG converteren
 second_title: Java HTML-verwerking met Aspose.HTML
 description: Leer hoe u EPUB naar JPG converteert met Aspose.HTML voor Java. Volg onze stapsgewijze handleiding en benut de kracht van Aspose.HTML.
-type: docs
 weight: 12
 url: /nl/java/converting-between-epub-and-image-formats/convert-epub-to-jpg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Converteer EPUB naar JPG met Aspose.HTML voor Java
+
 In deze stapsgewijze tutorial begeleiden we u door het proces van het converteren van een EPUB-bestand naar JPG-formaat met behulp van Aspose.HTML voor Java. Aspose.HTML is een krachtige bibliotheek waarmee u met HTML en verschillende formaten kunt werken, waardoor het een uitstekende keuze is voor het verwerken van EPUB-conversies. Laten we beginnen!
 
 ## Vereisten
@@ -79,3 +85,10 @@ A1: Aspose.HTML voor Java is een Java-bibliotheek voor het werken met HTML en ve
 ### V5: Kan ik een tijdelijke licentie voor Aspose.HTML voor Java verkrijgen?
 
 A5: Ja, u kunt een tijdelijke licentie krijgen van[hier](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.HTML を使用して .NET で Canvas を操作する
 linktitle: .NET での Canvas の操作
 second_title: Aspose.HTML .NET HTML 操作 API
 description: Aspose.HTML for .NET を使用して HTML ドキュメントを操作する方法を学びます。この包括的なチュートリアルでは、基本、前提条件、およびステップバイステップの例について説明します。
-type: docs
 weight: 10
 url: /ja/net/canvas-and-image-manipulation/manipulating-canvas/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.HTML を使用して .NET で Canvas を操作する
+
 # Aspose.HTML for .NET の使用に関する詳細なチュートリアル
 
 Web 開発の世界では、HTML の操作は一般的な要件です。Aspose.HTML for .NET は、このプロセスをより効率的かつ効果的に行うことができる強力なツールです。このチュートリアルでは、Aspose.HTML for .NET を使用して HTML ドキュメントを操作し、さまざまなタスクを実行する方法について説明します。各例を複数のステップに分割し、各ステップについて詳しく説明していきます。
@@ -131,3 +137,10 @@ A2: はい、Aspose.HTML for .NET は、Windows および非 Windows プラッ�
 ### Q5: Aspose.HTML for .NET を使用して HTML ドキュメントをどのファイル形式でエクスポートできますか?
 
 A5: Aspose.HTML for .NET は、XPS、PDF など、さまざまな形式へのエクスポートをサポートしています。詳細については、ドキュメントを参照してください。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

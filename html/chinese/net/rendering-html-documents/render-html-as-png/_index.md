@@ -3,10 +3,16 @@ title: 使用 Aspose.HTML 在 .NET 中将 HTML 渲染为 PNG
 linktitle: 在 .NET 中将 HTML 渲染为 PNG
 second_title: Aspose.HTML .NET HTML 操作 API
 description: 学习使用 Aspose.HTML for .NET。操作 HTML、转换为各种格式等等。深入了解这个全面的教程！
-type: docs
 weight: 10
 url: /zh/net/rendering-html-documents/render-html-as-png/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.HTML 在 .NET 中将 HTML 渲染为 PNG
+
 
 在本教程中，我们将深入研究 Aspose.HTML for .NET 的世界，这是一个强大的工具，用于以编程方式处理 HTML 文档。无论您是经验丰富的开发人员，还是刚刚开始 .NET 编程之旅，本教程都将指导您了解 Aspose.HTML 的基本知识，从导入命名空间到分解实际示例。
 
@@ -94,3 +100,9 @@ using (var document = new Aspose.Html.HTMLDocument("<style>p { color: green; }</
 
 ### 在哪里可以找到更多教程和文档？
    您可以探索[Aspose.HTML for .NET 文档页面](https://reference.aspose.com/html/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

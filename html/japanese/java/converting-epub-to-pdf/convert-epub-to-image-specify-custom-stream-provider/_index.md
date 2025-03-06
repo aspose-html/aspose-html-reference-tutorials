@@ -3,10 +3,16 @@ title: EPUB から画像への変換のためのカスタム ストリーム プ
 linktitle: EPUB から画像への変換のためのカスタム ストリーム プロバイダーの指定
 second_title: Aspose.HTML を使用した Java HTML 処理
 description: このステップバイステップ ガイドでは、Aspose.HTML for Java を使用して EPUB ファイルを画像に変換する方法を学習します。
-type: docs
 weight: 15
 url: /ja/java/converting-epub-to-pdf/convert-epub-to-image-specify-custom-stream-provider/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# EPUB から画像への変換のためのカスタム ストリーム プロバイダーの指定
+
 
 Aspose.HTML for Java のパワーを活用する準備はできていますか? この包括的なガイドでは、プロセスをステップごとに説明します。熟練した開発者でも、始めたばかりの開発者でも、私たちがサポートします。 
 
@@ -107,3 +113,10 @@ Aspose.HTML for Java は、Java 開発者が HTML、EPUB、およびその他の
 ### 5. Aspose.HTML for Java のサポートはどこで受けられますか?
 
 サポートについては、[Aspose フォーラム](https://forum.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

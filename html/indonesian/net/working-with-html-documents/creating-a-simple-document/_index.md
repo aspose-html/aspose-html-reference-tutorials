@@ -3,10 +3,16 @@ title: Membuat Dokumen Sederhana di .NET dengan Aspose.HTML
 linktitle: Membuat Dokumen Sederhana di .NET
 second_title: Aspose.HTML .NET API manipulasi HTML
 description: Pelajari cara bekerja dengan dokumen HTML dalam .NET menggunakan Aspose.HTML. Buat, manipulasi, dan konversi HTML dengan mudah. Mulailah hari ini!
-type: docs
 weight: 11
 url: /id/net/working-with-html-documents/creating-a-simple-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Membuat Dokumen Sederhana di .NET dengan Aspose.HTML
+
 
 ## Perkenalan
 
@@ -152,3 +158,10 @@ Aspose.HTML untuk .NET adalah pustaka .NET yang menyediakan fungsionalitas kompr
 ### 5. Di mana saya bisa mendapatkan dukungan untuk Aspose.HTML untuk .NET?
 
  Anda bisa mendapatkan dukungan dan mengajukan pertanyaan tentang Aspose.HTML untuk .NET di[Forum Aspose](https://forum.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Implementare Sandbox in Aspose.HTML per Java
 linktitle: Implementare Sandbox in Aspose.HTML per Java
 second_title: Elaborazione HTML Java con Aspose.HTML
 description: Scopri come implementare il sandboxing in Aspose.HTML per Java per controllare in modo sicuro l'esecuzione degli script nei tuoi documenti HTML e convertirli in PDF.
-type: docs
 weight: 15
 url: /it/java/configuring-environment/implement-sandboxing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Implementare Sandbox in Aspose.HTML per Java
+
 ## Introduzione
 In questo tutorial, ti guideremo attraverso l'implementazione del sandboxing usando Aspose.HTML per Java. Ti accompagneremo dall'impostazione del tuo ambiente alla scrittura di un semplice file HTML, alla configurazione del sandbox e alla conversione del tuo HTML in un PDF, il tutto tenendo sotto controllo gli script potenzialmente dannosi. Che tu sia uno sviluppatore esperto o alle prime armi, questa guida ti fornirà gli strumenti necessari per creare facilmente contenuti web sicuri.
 ## Prerequisiti
@@ -89,3 +95,9 @@ Non sempre, ma è fondamentale quando si lavora con contenuti non attendibili o 
  Gli script che sono in sandbox non verranno eseguiti e i loro effetti (come`document.write`) non apparirà nell'output.
 ### Posso convertire l'HTML sandbox in altri formati oltre al PDF?
 Assolutamente! Aspose.HTML per Java supporta la conversione in vari formati, tra cui immagini, XPS e altro ancora.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

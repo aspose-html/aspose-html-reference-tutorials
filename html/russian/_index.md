@@ -3,11 +3,16 @@ title: Изучите работу с HTML-документами с помощ�
 linktitle: Учебники Aspose.HTML
 additionalTitle: Ссылки API Aspose
 description: Освойте работу с HTML с помощью учебных пособий Aspose.HTML — от анализа до преобразования, пошаговые руководства для разработчиков.
-type: docs
 weight: 11
 url: /ru/
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Изучите работу с HTML-документами с помощью Aspose.HTML
+
 
 Изучите всеобъемлющие руководства Aspose.HTML, чтобы освоить манипуляции с HTML-документами с помощью мощной библиотеки Aspose.HTML. От анализа и рендеринга до преобразования HTML-файлов эти руководства предоставляют пошаговые инструкции для разработчиков
 
@@ -44,3 +49,9 @@ is_root: true
 - [Конвертация EPUB в PDF](./java/converting-epub-to-pdf/)
 - [Конвертация EPUB в XPS](./java/converting-epub-to-xps/)
 - [Преобразование HTML в различные форматы изображений](./java/converting-html-to-various-image-formats/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Tự động điền biểu mẫu HTML với Aspose.HTML cho Java
 linktitle: Trình soạn thảo biểu mẫu HTML - Điền và gửi biểu mẫu
 second_title: Xử lý HTML Java với Aspose.HTML
 description: Tìm hiểu cách tự động điền và gửi biểu mẫu HTML bằng Aspose.HTML cho Java. Đơn giản hóa tương tác web với hướng dẫn này.
-type: docs
 weight: 14
 url: /vi/java/advanced-usage/html-form-editor-filling-submitting-forms/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tự động điền biểu mẫu HTML với Aspose.HTML cho Java
+
 Trong thời đại kỹ thuật số ngày nay, các trang web thường chứa các biểu mẫu cho nhiều mục đích khác nhau, chẳng hạn như đăng ký người dùng, phản hồi hoặc mua sắm trực tuyến. Là một nhà phát triển Java, bạn có thể cần tự động hóa quy trình điền và gửi biểu mẫu HTML trên các trang web. May mắn thay, với Aspose.HTML cho Java, bạn có thể thực hiện điều này một cách liền mạch. Trong hướng dẫn này, chúng ta sẽ khám phá cách sử dụng Aspose.HTML cho Java để điền và gửi biểu mẫu HTML trên một trang web mục tiêu.
 
 ## Điều kiện tiên quyết
@@ -135,3 +141,9 @@ A1: Có, bạn có thể sử dụng Aspose.HTML cho Java để tương tác v�
 ### Câu hỏi 4: Tôi có thể tìm thêm hỗ trợ và trợ giúp cho Aspose.HTML cho Java ở đâu?
 
  A4: Để được hỗ trợ kỹ thuật, bạn có thể truy cập diễn đàn Aspose[đây](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

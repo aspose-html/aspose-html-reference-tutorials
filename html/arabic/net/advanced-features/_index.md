@@ -3,10 +3,16 @@ title: الميزات المتقدمة
 linktitle: الميزات المتقدمة
 second_title: Aspose.HTML .NET HTML manipulation API
 description: اكتشف ميزات .NET المتقدمة باستخدام Aspose.HTML! بدءًا من تكوين البيئة وحتى استخراج البيانات من الويب، استكشف البرامج التعليمية الشاملة لتطوير الويب القوي.
-type: docs
 weight: 24
 url: /ar/net/advanced-features/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# الميزات المتقدمة
+
 
 هل أنت مستعد لإطلاق العنان لإمكانات Aspose.HTML الكاملة لـ .NET؟ في هذه المقالة، سنأخذك في رحلة عبر الميزات والقدرات المتقدمة لـ Aspose.HTML، وسنقدم لك دروسًا تعليمية متعمقة لتعزيز كفاءتك.
 
@@ -41,3 +47,9 @@ Aspose.HTML for .NET هي أداة قوية تتيح للمطورين العمل
 ## خاتمة
 
 يفتح برنامج Aspose.HTML for .NET الباب أمام عالم من الاحتمالات عندما يتعلق الأمر بالعمل مع مستندات HTML في تطبيقات .NET. ستزودك دروس الميزات المتقدمة هذه بالمعرفة والمهارات اللازمة لتسخير الإمكانات الكاملة لبرنامج Aspose.HTML. ارتقِ بمشاريع التطوير الخاصة بك، ووفر الوقت، وأنشئ حلولاً رائعة باستخدام برنامج Aspose.HTML for .NET. ابدأ بدروسنا التعليمية اليوم وارتق بتطوير الويب الخاص بك إلى المستوى التالي.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

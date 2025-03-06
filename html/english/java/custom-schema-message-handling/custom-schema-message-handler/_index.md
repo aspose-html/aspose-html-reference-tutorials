@@ -3,10 +3,16 @@ title: Custom Schema Message Handler with Aspose.HTML for Java
 linktitle: Custom Schema Message Handler with Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 description: Learn to create a custom schema message handler using Aspose.HTML for Java. This tutorial guides you step-by-step through the process.
-type: docs
 weight: 11
 url: /java/custom-schema-message-handling/custom-schema-message-handler/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Custom Schema Message Handler with Aspose.HTML for Java
+
 ## Introduction
 Welcome, fellow developers! If you’re looking to enhance your Java applications with robust HTML manipulation capabilities, you’ve landed in the right spot. Today, we’re diving deep into how to create a custom schema message handler using Aspose.HTML for Java. Imagine that you're a chef crafting a special dish; this handler is like your secret sauce that elevates a standard recipe to a gourmet meal. It allows you to seamlessly manage and filter HTML messages based on your own schema specifications.
 ## Prerequisites
@@ -92,3 +98,10 @@ You can create multiple custom schema message handlers by extending the `CustomS
 Yes, you can purchase a permanent license for Aspose.HTML [here](https://purchase.aspose.com/buy).
 ### Where can I find support for Aspose.HTML?
 You can access support by visiting the Aspose forum for HTML [here](https://forum.aspose.com/c/html/29).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

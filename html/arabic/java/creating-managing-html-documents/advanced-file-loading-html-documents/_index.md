@@ -3,10 +3,16 @@ title: تحميل الملفات المتقدمة لمستندات HTML في Asp
 linktitle: تحميل الملفات المتقدمة لمستندات HTML في Aspose.HTML لـ Java
 second_title: معالجة HTML باستخدام Java مع Aspose.HTML
 description: تعرف على كيفية تحميل مستندات HTML ومعالجتها وحفظها باستخدام Aspose.HTML for Java في هذا الدليل التفصيلي. قم بإلغاء قفل معالجة HTML المتقدمة في مشاريع Java الخاصة بك.
-type: docs
 weight: 13
 url: /ar/java/creating-managing-html-documents/advanced-file-loading-html-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحميل الملفات المتقدمة لمستندات HTML في Aspose.HTML لـ Java
+
 ## مقدمة
 في هذا البرنامج التعليمي، سنطلعك على عملية تحميل مستندات HTML من ملف باستخدام Aspose.HTML for Java. ولكن انتظر، لن نقوم بتحميل أي ملف HTML فحسب، بل سنقوم بتحميله ومعالجته وحفظه باسم جديد! بحلول نهاية هذا الدليل، ستكون لديك فكرة واضحة عن كيفية التعامل مع مستندات HTML بسهولة، وستكون حريصًا على التعمق في ميزات أكثر تقدمًا.
 ## المتطلبات الأساسية
@@ -52,3 +58,9 @@ Aspose.HTML for Java عبارة عن واجهة برمجة تطبيقات قوي
  يمكنك تنزيل أحدث إصدار من Aspose.HTML لـ Java من[صفحة إصدارات Aspose](https://releases.aspose.com/html/java/). اتبع تعليمات التثبيت الواردة في الوثائق.
 ### هل يمكنني استخدام Aspose.HTML لـ Java بدون ترخيص؟
  نعم، ولكن الإصدار المجاني به بعض القيود. لفتح قفل الميزات الكاملة، ستحتاج إلى شراء ترخيص أو الحصول على ترخيص مؤقت من[موقع Aspose](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

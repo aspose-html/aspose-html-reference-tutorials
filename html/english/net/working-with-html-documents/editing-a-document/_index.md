@@ -3,10 +3,16 @@ title: Editing a Document in .NET with Aspose.HTML
 linktitle: Editing a Document in .NET
 second_title: Aspose.HTML .NET HTML manipulation API
 description: Learn how to work with HTML documents in .NET using Aspose.HTML. This comprehensive tutorial covers document creation, manipulation, and styling. Get started now!
-type: docs
 weight: 12
 url: /net/working-with-html-documents/editing-a-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Editing a Document in .NET with Aspose.HTML
+
 
 Welcome to our tutorial on using Aspose.HTML for .NET, a powerful tool for handling HTML documents in your .NET applications. In this tutorial, we will take you through the essential steps to work with HTML documents using Aspose.HTML. Whether you're a seasoned developer or just starting with .NET development, this guide will help you harness the full potential of Aspose.HTML for your projects.
 
@@ -226,3 +232,10 @@ To purchase a license, visit [this link](https://purchase.aspose.com/buy).
 While HTML knowledge is helpful, you can use Aspose.HTML for .NET even if you're not an HTML expert.
 
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

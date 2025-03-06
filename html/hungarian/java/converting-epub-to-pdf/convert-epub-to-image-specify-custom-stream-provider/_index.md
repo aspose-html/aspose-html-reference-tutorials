@@ -3,10 +3,16 @@ title: Egyéni adatfolyam-szolgáltató megadása az EPUB képpé konvertálás�
 linktitle: Egyéni adatfolyam-szolgáltató megadása az EPUB képpé konvertálásához
 second_title: Java HTML feldolgozás Aspose.HTML-lel
 description: Ebből a lépésenkénti útmutatóból megtudhatja, hogyan használhatja az Aspose.HTML for Java-t EPUB-fájlok képekké alakításához.
-type: docs
 weight: 15
 url: /hu/java/converting-epub-to-pdf/convert-epub-to-image-specify-custom-stream-provider/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Egyéni adatfolyam-szolgáltató megadása az EPUB képpé konvertálásához
+
 
 Készen áll arra, hogy kihasználja az Aspose.HTML for Java erejét? Ez az átfogó útmutató lépésről lépésre végigvezeti a folyamaton. Akár tapasztalt fejlesztő vagy, akár csak most kezded, mi mindent megtalálsz. 
 
@@ -107,3 +113,10 @@ Az Aspose.HTML for Java egy olyan könyvtár, amely lehetővé teszi a Java fejl
 ### 5. Hol kaphatok támogatást az Aspose.HTML for Java számára?
 
  Támogatást találhat a[Aspose fórumok](https://forum.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

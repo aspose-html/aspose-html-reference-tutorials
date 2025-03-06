@@ -3,10 +3,16 @@ title: Salvando documentos HTML em Aspose.HTML para Java
 linktitle: Salvando documentos HTML em Aspose.HTML para Java
 second_title: Processamento HTML Java com Aspose.HTML
 description: Descubra tutoriais abrangentes do Aspose.HTML para Java que o orientam sobre como salvar documentos HTML, converter para Markdown e muito mais.
-type: docs
 weight: 30
 url: /pt/java/saving-html-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Salvando documentos HTML em Aspose.HTML para Java
+
 ## Introdução
 
 Quando se trata de lidar com documentos HTML em Java, Aspose.HTML se destaca como uma biblioteca versátil. Se você já se sentiu sobrecarregado pela complexidade do processamento de documentos HTML, não tema! Esta série de tutoriais é personalizada para simplificar sua curva de aprendizado. Abordaremos as principais funcionalidades, garantindo que você possa salvar e manipular documentos HTML como um profissional. 
@@ -48,3 +54,9 @@ Converta facilmente HTML para Markdown usando Aspose.HTML para Java. Siga este g
 Aprenda como salvar documentos HTML como MHTML usando Aspose.HTML para Java com este guia passo a passo, completo com exemplos de código e dicas práticas.
 ### [Salvar documento SVG em Aspose.HTML para Java](./save-svg-document/)
 Aprenda como salvar documentos SVG usando Aspose.HTML para Java com este guia passo a passo fácil e repleto de exemplos.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

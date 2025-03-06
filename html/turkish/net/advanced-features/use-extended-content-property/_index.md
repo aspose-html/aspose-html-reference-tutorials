@@ -3,10 +3,16 @@ title: .NET'te Aspose.HTML ile Genişletilmiş İçerik Özelliğini Kullanma
 linktitle: .NET'te Genişletilmiş İçerik Özelliğini Kullanın
 second_title: Aspose.HTML .NET HTML işleme API'si
 description: Bu adım adım kılavuzla Aspose.HTML for .NET'i nasıl kullanacağınızı öğrenin. HTML becerilerinizi geliştirin ve web geliştirme projelerinizi kolaylaştırın.
-type: docs
 weight: 14
 url: /tr/net/advanced-features/use-extended-content-property/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET'te Aspose.HTML ile Genişletilmiş İçerik Özelliğini Kullanma
+
 
 Web geliştirme dünyasında HTML ile çalışmak temel bir beceridir. Aspose.HTML for .NET, HTML ile ilgili görevlerinizi daha kolay ve daha verimli hale getirebilecek güçlü bir araçtır. Bu eğitim, ön koşullar, ad alanlarını içe aktarma ve her örneği takip etmesi kolay adımlara ayırma dahil olmak üzere Aspose.HTML for .NET ile başlama adımlarında size yol gösterecektir.
 
@@ -123,3 +129,10 @@ Tebrikler! .NET için Aspose.HTML dünyasına ilk adımlarınızı attınız. Do
 ### Aspose.HTML for .NET için ek kaynaklar veya öğreticiler var mı?
     Evet, daha fazla öğretici ve belgeyi şu adreste bulabilirsiniz:[Aspose.HTML web sitesi](https://reference.aspose.com/html/net/).
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

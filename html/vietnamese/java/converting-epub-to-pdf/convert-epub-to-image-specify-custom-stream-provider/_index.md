@@ -3,10 +3,16 @@ title: Chỉ định Nhà cung cấp luồng tùy chỉnh để chuyển đổi 
 linktitle: Chỉ định Nhà cung cấp luồng tùy chỉnh để chuyển đổi EPUB sang hình ảnh
 second_title: Xử lý HTML Java với Aspose.HTML
 description: Tìm hiểu cách sử dụng Aspose.HTML cho Java để chuyển đổi tệp EPUB sang hình ảnh với hướng dẫn từng bước này.
-type: docs
 weight: 15
 url: /vi/java/converting-epub-to-pdf/convert-epub-to-image-specify-custom-stream-provider/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chỉ định Nhà cung cấp luồng tùy chỉnh để chuyển đổi EPUB sang hình ảnh
+
 
 Bạn đã sẵn sàng khai thác sức mạnh của Aspose.HTML cho Java chưa? Hướng dẫn toàn diện này sẽ hướng dẫn bạn từng bước trong quy trình. Cho dù bạn là một nhà phát triển dày dạn kinh nghiệm hay chỉ mới bắt đầu, chúng tôi đều có thể giúp bạn. 
 
@@ -107,3 +113,10 @@ Aspose.HTML for Java là một thư viện cho phép các nhà phát triển Jav
 ### 5. Tôi có thể nhận hỗ trợ cho Aspose.HTML cho Java ở đâu?
 
  Bạn có thể tìm thấy sự hỗ trợ trên[Diễn đàn Aspose](https://forum.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Java용 Aspose.HTML을 사용하여 HTML을 PNG로 변환
 linktitle: HTML을 PNG로 변환
 second_title: Aspose.HTML을 사용한 Java HTML 처리
 description: Aspose.HTML을 사용하여 Java에서 HTML을 PNG 이미지로 변환하는 방법을 알아보세요. 단계별 지침이 포함된 포괄적인 가이드입니다.
-type: docs
 weight: 13
 url: /ko/java/conversion-html-to-various-image-formats/convert-html-to-png/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.HTML을 사용하여 HTML을 PNG로 변환
+
 이 포괄적인 튜토리얼에서는 Aspose.HTML for Java를 사용하여 HTML 문서를 PNG 이미지로 변환하는 과정을 안내합니다. 이 라이브러리는 HTML 문서를 처리하는 강력한 도구이며 HTML-이미지 변환을 포함한 광범위한 기능을 제공합니다. 이 가이드를 마치면 필수 구성 요소, 필요한 패키지를 가져오는 방법 및 변환 프로세스의 단계별 세부 정보를 명확하게 이해하게 될 것입니다.
 
 ## 필수 조건
@@ -110,3 +116,9 @@ A2: 네, HTML 문서를 PNG, JPEG 등 다양한 이미지 포맷으로 변환할
 ### Q5: Java용 Aspose.HTML이 웹 스크래핑에 적합합니까?
 
 A5: 원래는 문서 조작을 위해 설계되었지만 HTML 파싱 기능을 통해 웹 스크래핑에도 사용할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

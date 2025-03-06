@@ -3,10 +3,16 @@ title: Édition de formulaires CSS et HTML avec Aspose.HTML pour Java
 linktitle: Édition de formulaires CSS et HTML avec Aspose.HTML pour Java
 second_title: Traitement HTML Java avec Aspose.HTML
 description: Apprenez rapidement à modifier des formulaires CSS et HTML avec Aspose.HTML pour Java dans ces didacticiels instructifs qui donnent aux développeurs des compétences avancées.
-type: docs
 weight: 21
 url: /fr/java/css-html-form-editing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Édition de formulaires CSS et HTML avec Aspose.HTML pour Java
+
 ## Introduction
 
 Lorsque vous vous lancez dans le développement Web, maîtriser les formulaires CSS et HTML, c'est comme apprendre à faire du vélo : cela ouvre un monde de possibilités ! Et si vous utilisez Aspose.HTML pour Java, vous allez vous régaler car cette bibliothèque simplifie l'édition et l'envoi de formulaires. Que vous soyez un professionnel chevronné ou que vous débutiez, ces tutoriels vous guideront à travers tout ce que vous devez savoir.
@@ -24,3 +30,9 @@ Passons maintenant à la vitesse supérieure et découvrons comment modifier et 
 Découvrez comment utiliser Aspose.HTML pour Java pour appliquer des techniques CSS avancées, notamment des marges de page personnalisées et du contenu dynamique. Un didacticiel pratique et détaillé pour les développeurs.
 ### [Édition et soumission de formulaires HTML avec Aspose.HTML pour Java](./html-form-editing/)
 Découvrez comment modifier et soumettre des formulaires HTML par programmation à l'aide d'Aspose.HTML pour Java dans ce guide complet étape par étape.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

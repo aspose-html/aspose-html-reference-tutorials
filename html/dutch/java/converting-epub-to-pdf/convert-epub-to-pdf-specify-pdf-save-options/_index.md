@@ -3,10 +3,16 @@ title: Specificeren van PDF-opslagopties voor EPUB naar PDF
 linktitle: Specificeren van PDF-opslagopties voor EPUB naar PDF
 second_title: Java HTML-verwerking met Aspose.HTML
 description: Leer hoe u EPUB naar PDF kunt converteren in Java met behulp van Aspose.HTML, een krachtige HTML-manipulatiebibliotheek.
-type: docs
 weight: 12
 url: /nl/java/converting-epub-to-pdf/convert-epub-to-pdf-specify-pdf-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Specificeren van PDF-opslagopties voor EPUB naar PDF
+
 
 ## Invoering
 
@@ -111,3 +117,10 @@ De proefversie kan enkele beperkingen hebben. Daarom raden wij u aan de document
 
 ### Waar kan ik ondersteuning krijgen voor Aspose.HTML voor Java?
  kunt op de website antwoorden op uw vragen vinden en ondersteuning zoeken.[Aspose.HTML-forum](https://forum.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

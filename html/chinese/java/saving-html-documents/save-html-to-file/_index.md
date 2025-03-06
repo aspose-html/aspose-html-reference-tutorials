@@ -3,10 +3,16 @@ title: 使用 Aspose.HTML for Java 将 HTML 文档保存到文件
 linktitle: 使用 Aspose.HTML for Java 将 HTML 文档保存到文件
 second_title: 使用 Aspose.HTML 进行 Java HTML 处理
 description: 了解如何使用 Aspose.HTML for Java 将 HTML 文档保存到文件，非常适合轻松处理多个链接资源。
-type: docs
 weight: 11
 url: /zh/java/saving-html-documents/save-html-to-file/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.HTML for Java 将 HTML 文档保存到文件
+
 ## 介绍
 在本教程中，我们将探讨如何在管理链接资源的同时将 HTML 文档保存到文件中。当您处理涉及多个 HTML 文件的项目时，这尤其有用 - 可以将其视为引用其他网页的网页。在本指南结束时，您将能够使用 Aspose.HTML for Java 灵活高效地管理 HTML 文档。
 ## 先决条件
@@ -88,3 +94,9 @@ Aspose.HTML 是一个功能强大的 API，用于 HTML 操作、转换和渲染�
 您可以访问 Aspose 支持论坛[这里](https://forum.aspose.com/c/html/29)如有任何疑问或需要帮助，请与我们联系。
 ### 我可以将 Aspose.HTML 用于商业项目吗？  
 是的，Aspose.HTML 可用于商业项目，但您需要购买许可证。您可以找到许可选项[这里](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

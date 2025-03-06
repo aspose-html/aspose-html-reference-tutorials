@@ -3,10 +3,16 @@ title: Create Stream Provider in .NET with Aspose.HTML
 linktitle: Create Stream Provider in .NET
 second_title: Aspose.HTML .NET HTML manipulation API
 description: Learn how to use Aspose.HTML for .NET to manipulate HTML documents efficiently. Step-by-step tutorial for developers.
-type: docs
 weight: 11
 url: /net/advanced-features/create-stream-provider/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Create Stream Provider in .NET with Aspose.HTML
+
 In the world of web development and document manipulation, Aspose.HTML for .NET stands as a powerful tool. This tutorial will guide you through the process of using Aspose.HTML for .NET, breaking down each step, and explaining its importance. Whether you're a seasoned developer or just starting, this guide will help you harness the capabilities of Aspose.HTML for .NET effectively.
 
 ## Introduction
@@ -132,3 +138,10 @@ A4: Temporary licenses can be obtained from [here](https://purchase.aspose.com/t
 ### Q5. Where can I seek help or discuss issues related to Aspose.HTML for .NET?
 
 A5: You can visit the Aspose forums for support and discussions at [this link](https://forum.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

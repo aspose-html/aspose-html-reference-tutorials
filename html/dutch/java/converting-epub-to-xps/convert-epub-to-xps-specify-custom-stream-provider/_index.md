@@ -3,10 +3,16 @@ title: Specificeren van aangepaste streamprovider voor EPUB naar XPS
 linktitle: Specificeren van aangepaste streamprovider voor EPUB naar XPS
 second_title: Java HTML-verwerking met Aspose.HTML
 description: Converteer EPUB moeiteloos naar XPS met Aspose.HTML voor Java. Volg deze stapsgewijze handleiding voor een naadloos conversieproces.
-type: docs
 weight: 11
 url: /nl/java/converting-epub-to-xps/convert-epub-to-xps-specify-custom-stream-provider/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Specificeren van aangepaste streamprovider voor EPUB naar XPS
+
 In het digitale tijdperk van vandaag is de noodzaak om EPUB-bestanden te converteren naar andere formaten, zoals XPS, algemener dan ooit. Aspose.HTML voor Java is een krachtige tool die u hierbij moeiteloos kan helpen. In deze stapsgewijze handleiding zullen we onderzoeken hoe u een EPUB-bestand naar XPS kunt converteren met behulp van Aspose.HTML voor Java. Voordat we ingaan op de details, zullen we de vereisten doornemen die u nodig hebt voor dit proces.
 
 ## Vereisten
@@ -143,3 +149,10 @@ Ja, Aspose.HTML voor Java ondersteunt de conversie van verschillende documentfor
  Voor documentatie en ondersteuning, bezoek de[Aspose.HTML voor Java-documentatie](https://reference.aspose.com/html/java/) En[ondersteuningsforum](https://forum.aspose.com/).
 
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

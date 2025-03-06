@@ -3,10 +3,16 @@ title: Установить набор символов в Aspose.HTML для Ja
 linktitle: Установить набор символов в Aspose.HTML для Java
 second_title: Обработка Java HTML с помощью Aspose.HTML
 description: Узнайте, как установить набор символов в Aspose.HTML для Java и преобразовать HTML в PDF в этом пошаговом руководстве. Обеспечьте правильное кодирование и рендеринг текста.
-type: docs
 weight: 10
 url: /ru/java/configuring-environment/set-character-set/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Установить набор символов в Aspose.HTML для Java
+
 ## Введение
 Если вы работаете с HTML-документами в Java, обеспечение правильного набора символов имеет решающее значение для правильного кодирования и отображения текста. В этом руководстве мы рассмотрим, как задать набор символов с помощью Aspose.HTML для Java. Это всеобъемлющее руководство проведет вас через каждый шаг процесса, предоставляя четкое понимание того, как эффективно обрабатывать наборы символов.
 ## Предпосылки
@@ -104,3 +110,9 @@ try {
  Хотя в Java есть сборщик мусора, хорошей практикой является ручное освобождение ресурсов, таких как конфигурации и документы, с помощью`dispose` метод.
 ### Где я могу получить бесплатную пробную версию Aspose.HTML для Java?  
  Вы можете загрузить бесплатную пробную версию с сайта[Страница релизов Aspose](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Esquema personalizado e tratamento de mensagens em Aspose.HTML para Java
 linktitle: Esquema personalizado e tratamento de mensagens em Aspose.HTML para Java
 second_title: Processamento HTML Java com Aspose.HTML
 description: Descubra como dominar o Aspose.HTML para Java com tutoriais sobre filtragem e tratamento de mensagens de esquema personalizado. Comece a construir aplicativos personalizados.
-type: docs
 weight: 24
 url: /pt/java/custom-schema-message-handling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Esquema personalizado e tratamento de mensagens em Aspose.HTML para Java
+
 ## Introdução
 
 Quando se trata de desenvolver aplicativos, a necessidade de controle preciso sobre a comunicação de dados é primordial. Imagine tentar sintonizar sua estação de rádio favorita, mas tudo o que você está recebendo é estática; é assim que mensagens caóticas, não filtradas ou mal gerenciadas podem parecer em seu aplicativo. É aqui que o Aspose.HTML para Java brilha, permitindo que os desenvolvedores implementem esquemas de mensagens personalizados que filtram, manipulam e, portanto, simplificam a troca de dados de forma eficiente.
@@ -28,3 +34,9 @@ Agora, não vamos esquecer do tratamento de mensagens. Imagine-se no comando de 
 Aprenda a implementar um filtro de mensagem de esquema personalizado em Java usando Aspose.HTML. Siga nosso guia passo a passo para uma experiência de aplicativo segura e personalizada.
 ### [Manipulador de mensagens de esquema personalizado com Aspose.HTML para Java](./custom-schema-message-handler/)
 Aprenda a criar um manipulador de mensagem de esquema personalizado usando Aspose.HTML para Java. Este tutorial o guia passo a passo pelo processo.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

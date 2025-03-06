@@ -3,10 +3,16 @@ title: Geavanceerd gebruik van Aspose.HTML Java-zelfstudies
 linktitle: Geavanceerd gebruik van Aspose.HTML Java
 second_title: Java HTML-verwerking met Aspose.HTML
 description: Leer hoe u HTML-paginamarges kunt aanpassen, een DOM Mutation Observer kunt implementeren, HTML5 Canvas kunt manipuleren, het invullen van HTML-formulieren kunt automatiseren en nog veel meer met Aspose.HTML Java.
-type: docs
 weight: 20
 url: /nl/java/advanced-usage/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Geavanceerd gebruik van Aspose.HTML Java-zelfstudies
+
 
 In de wereld van webontwikkeling is het beheersen van de kunst van HTML-manipulatie cruciaal. Aspose.HTML voor Java biedt een overvloed aan functies waarmee u uw HTML-vaardigheden naar een hoger niveau kunt tillen. In dit artikel duiken we in een aantal geavanceerde technieken die u helpen de kracht van Aspose.HTML voor Java te benutten.
 
@@ -51,3 +57,9 @@ Leer hoe u HTML-formulieren kunt automatiseren en indienen met Aspose.HTML voor 
 Leer hoe u de paginagrootte van PDF's aanpast met Aspose.HTML voor Java. Maak moeiteloos hoogwaardige PDF's van HTML. Beheer pagina-afmetingen effectief.
 ### [Pas XPS-paginaformaat aan met Aspose.HTML voor Java](./adjust-xps-page-size/)
 Leer hoe u de XPS-paginagrootte aanpast met Aspose.HTML voor Java. Beheer eenvoudig de uitvoerafmetingen van uw XPS-documenten.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

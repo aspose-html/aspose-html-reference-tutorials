@@ -3,10 +3,16 @@ title: Παρατηρητές και χειριστές μεταλλάξεων �
 linktitle: Παρατηρητές και χειριστές μεταλλάξεων στο Aspose.HTML για Java
 second_title: Επεξεργασία Java HTML με Aspose.HTML
 description: Εξερευνήστε τα μαθήματα Aspose.HTML για Java που καλύπτουν προηγμένους Παρατηρητές Μεταλλάξεων και ασφαλείς Χειριστές Διαπιστευτηρίων για να βελτιώσετε τις εφαρμογές Ιστού σας.
-type: docs
 weight: 23
 url: /el/java/mutation-observers-handlers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Παρατηρητές και χειριστές μεταλλάξεων στο Aspose.HTML για Java
+
 ## Εισαγωγή
 
 Εάν αναζητάτε τη βελτίωση των εφαρμογών ιστού Java σας, πιθανότατα έχετε ακούσει για το Aspose.HTML. Αλλά επιτρέψτε μου να σας πω ότι δεν είναι μια συνηθισμένη βιβλιοθήκη—είναι μια δύναμη για τη δυναμική διαχείριση εγγράφων HTML. Σε αυτόν τον οδηγό, θα εξερευνήσουμε δύο βασικά στοιχεία: Παρατηρητές μετάλλαξης και Χειριστές διαπιστευτηρίων, που σας επιτρέπουν να υπερφορτίζετε τις εφαρμογές σας. 
@@ -28,3 +34,9 @@ url: /el/java/mutation-observers-handlers/
 Μάθετε πώς να εφαρμόζετε έναν προηγμένο Παρατηρητή Μεταλλάξεων με το Aspose.HTML για Java, παρακολουθώντας απρόσκοπτα τις αλλαγές DOM. Βουτήξτε στον βήμα προς βήμα οδηγό μας.
 ### [Χρήση του Credential Handler στο Aspose.HTML για Java](./credential-handler/)
 Ανακαλύψτε πώς μπορείτε να εφαρμόσετε έναν ασφαλή χειριστή διαπιστευτηρίων χρησιμοποιώντας το Aspose.HTML για Java για να διαχειριστείτε αποτελεσματικά τον έλεγχο ταυτότητας χρήστη.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

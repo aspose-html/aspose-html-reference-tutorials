@@ -3,10 +3,16 @@ title: EPUB'dan XPS'e XPS Kaydetme Seçeneklerini Belirleme
 linktitle: EPUB'dan XPS'e XPS Kaydetme Seçeneklerini Belirleme
 second_title: Aspose.HTML ile Java HTML İşleme
 description: Bu adım adım eğitimde EPUB'dan XPS'e XPS kaydetme seçeneklerini belirtmek için Aspose.HTML for Java'yı nasıl kullanacağınızı öğrenin. EPUB dosyalarını sorunsuz bir şekilde dönüştürün.
-type: docs
 weight: 12
 url: /tr/java/converting-epub-to-xps/convert-epub-to-xps-specify-xps-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# EPUB'dan XPS'e XPS Kaydetme Seçeneklerini Belirleme
+
 Web geliştirme dünyasında, EPUB dosyalarını XPS formatına dönüştürme yeteneği değerli bir araçtır. Java için Aspose.HTML, bu dönüşümü kolaylıkla gerçekleştirme yeteneği sunan güçlü bir kütüphanedir. Bu kapsamlı eğitimde, Java için Aspose.HTML kullanarak EPUB'dan XPS'e XPS kaydetme seçeneklerini belirleme sürecinde size rehberlik edeceğiz.
 
 ## Ön koşullar
@@ -95,3 +101,9 @@ Java için Aspose.HTML, HTML ve EPUB dosyalarıyla çalışmak için güçlü bi
 
 ### 5. Java için Aspose.HTML'in sistem gereksinimleri nelerdir?
 Java için Aspose.HTML, bir Java Geliştirme Kiti (JDK) ve uyumlu bir işletim sistemi gerektirir. Bu eğitimde belirtilen ön koşulları karşıladığınızdan emin olun.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

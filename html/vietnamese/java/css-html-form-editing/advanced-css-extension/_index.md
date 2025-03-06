@@ -3,10 +3,16 @@ title: Kỹ thuật mở rộng CSS nâng cao với Aspose.HTML cho Java
 linktitle: Kỹ thuật mở rộng CSS nâng cao với Aspose.HTML cho Java
 second_title: Xử lý HTML Java với Aspose.HTML
 description: Tìm hiểu cách sử dụng Aspose.HTML cho Java để áp dụng các kỹ thuật CSS nâng cao, bao gồm lề trang tùy chỉnh và nội dung động. Hướng dẫn thực hành chi tiết dành cho nhà phát triển.
-type: docs
 weight: 10
 url: /vi/java/css-html-form-editing/advanced-css-extension/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kỹ thuật mở rộng CSS nâng cao với Aspose.HTML cho Java
+
 ## Giới thiệu
 Bạn đã sẵn sàng để nâng cao kỹ năng CSS của mình lên một tầm cao mới chưa? Hãy tưởng tượng việc dễ dàng áp dụng kiểu dáng nâng cao cho tài liệu HTML của bạn, tùy chỉnh lề và chèn nội dung vào các lề đó như một chuyên gia—tất cả trong khi sử dụng Java! Nghe có vẻ thú vị phải không? Đây chính xác là những gì chúng ta sẽ khám phá trong hướng dẫn này. Chúng ta sẽ khám phá thế giới của Aspose.HTML dành cho Java và khám phá cách tận dụng các khả năng mạnh mẽ của nó để nâng cao kiểu dáng CSS của bạn. Cho dù bạn là một nhà phát triển dày dạn kinh nghiệm hay chỉ mới bắt đầu, hướng dẫn này sẽ hướng dẫn bạn từng bước với các giải thích rõ ràng và ví dụ thực hành.
 Trong hướng dẫn này, chúng ta sẽ tập trung vào việc áp dụng lề tùy chỉnh và thêm nội dung vào các lề đó bằng Aspose.HTML cho Java. Cuối cùng, bạn sẽ hiểu rõ cách kiểm soát bố cục trang bằng CSS và cách tạo tài liệu có nội dung động, chẳng hạn như số trang và tiêu đề, theo phong cách mong muốn của bạn.
@@ -94,3 +100,9 @@ Bạn có thể áp dụng CSS tùy chỉnh bằng cách sử dụng dịch vụ
 Hoàn toàn đúng! Aspose.HTML for Java được thiết kế để xử lý các tác vụ xử lý tài liệu quy mô lớn, phù hợp với các ứng dụng cấp doanh nghiệp yêu cầu khả năng xử lý HTML mạnh mẽ.
 ### Tôi có thể dùng thử Aspose.HTML cho Java trước khi mua không?
 Có, bạn có thể tải xuống bản dùng thử miễn phí Aspose.HTML cho Java từ[Trang web Aspose](https://releases.aspose.com/html/java/). Điều này sẽ cho phép bạn khám phá các tính năng của nó và xem nó phù hợp như thế nào với quy trình phát triển của bạn.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

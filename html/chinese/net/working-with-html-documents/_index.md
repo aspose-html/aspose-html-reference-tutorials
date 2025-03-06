@@ -3,10 +3,16 @@ title: 处理 HTML 文档
 linktitle: 处理 HTML 文档
 second_title: Aspose.HTML .NET HTML 操作 API
 description: 使用 Aspose.HTML 探索 .NET 中 HTML 文档创建和操作的世界。从创建简单文档到深入编辑。
-type: docs
 weight: 23
 url: /zh/net/working-with-html-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 处理 HTML 文档
+
 
 您是希望使用 .NET 深入了解 HTML 文档创建和操作领域的 Web 开发人员吗？别再犹豫了！在这个全面的教程系列中，我们将探索 Aspose.HTML 的强大功能以及它如何简化您的任务。无论您是新手还是经验丰富的开发人员，您都会找到有价值的见解和实用技巧来提升您的技能。
 
@@ -29,3 +35,9 @@ HTML 文档是 Web 的支柱，能够有效地创建和操作 HTML 文档是任�
 ### [使用 Aspose.HTML 在 .NET 中编辑文档](./editing-a-document/)
 
 现在，让我们将您的技能提升到一个新的水平。编辑 HTML 文档是 Web 开发人员的常见任务，而 Aspose.HTML 大大简化了此过程。在本节中，我们将介绍文档创建、操作和样式。您将了解如何增强 Web 内容的外观和功能，使其更具吸引力且用户友好。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

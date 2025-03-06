@@ -3,10 +3,16 @@ title: Áp dụng Giấy phép Metered trong .NET với Aspose.HTML
 linktitle: Áp dụng Giấy phép Metered trong .NET
 second_title: Aspose.HTML .NET API thao tác HTML
 description: Tìm hiểu cách áp dụng giấy phép có giới hạn trong Aspose.HTML cho .NET. Quản lý nhu cầu thao tác HTML của bạn một cách hiệu quả. Bắt đầu ngay!
-type: docs
 weight: 10
 url: /vi/net/licensing-and-initialization/apply-metered-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Áp dụng Giấy phép Metered trong .NET với Aspose.HTML
+
 Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình áp dụng giấy phép theo mét trong ứng dụng .NET của bạn bằng Aspose.HTML. Giấy phép theo mét là một cách thuận tiện để quản lý cấp phép cho nhu cầu thao tác HTML của bạn. Bằng cách làm theo các bước dưới đây, bạn sẽ có thể áp dụng giấy phép theo mét cho dự án Aspose.HTML cho .NET của mình.
 
 ## Điều kiện tiên quyết
@@ -88,3 +94,9 @@ Giấy phép tính phí cho phép bạn thanh toán cho Aspose.HTML theo hình t
 
 ### Tôi có thể nhận hỗ trợ hoặc đặt câu hỏi về Aspose.HTML cho .NET ở đâu?
  Bạn có thể tham gia cộng đồng và tìm kiếm sự hỗ trợ trên[Diễn đàn Aspose](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

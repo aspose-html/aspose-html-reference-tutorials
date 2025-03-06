@@ -3,10 +3,16 @@ title: Memuat Dokumen HTML dari Stream dengan Aspose.HTML untuk Java
 linktitle: Memuat Dokumen HTML dari Stream dengan Aspose.HTML untuk Java
 second_title: Pemrosesan HTML Java dengan Aspose.HTML
 description: Pelajari cara memuat dokumen HTML dari aliran menggunakan Aspose.HTML untuk Java. Panduan ini menyediakan tutorial langkah demi langkah untuk manipulasi HTML yang lancar.
-type: docs
 weight: 14
 url: /id/java/creating-managing-html-documents/load-html-documents-from-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Memuat Dokumen HTML dari Stream dengan Aspose.HTML untuk Java
+
 ## Perkenalan
 Saat bekerja dengan dokumen HTML di Java, pengembang sering kali membutuhkan pustaka yang andal dan efisien. Salah satu alat yang hebat tersebut adalah Aspose.HTML untuk Java. Pustaka ini menawarkan serangkaian fitur yang mengesankan untuk memanipulasi dan mengonversi konten HTML dengan lancar. Dalam tutorial ini, kita akan membahas cara memuat dokumen HTML dari aliran dan menyimpannya ke dalam file menggunakan Aspose.HTML, dengan memberikan Anda petunjuk langkah demi langkah yang jelas.
 ## Prasyarat
@@ -58,3 +64,9 @@ Aspose.HTML untuk Java adalah pustaka hebat yang memungkinkan pengembang untuk m
  Periksa[dokumentasi](https://reference.aspose.com/html/java/) untuk contoh lebih lanjut dan panduan terperinci tentang penggunaan Aspose.HTML.
 ### Apa yang harus saya lakukan jika saya menemui masalah?
  Jika Anda mengalami masalah, konsultasikan dengan[forum dukungan](https://forum.aspose.com/c/html/29) untuk bantuan dari komunitas atau tim Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

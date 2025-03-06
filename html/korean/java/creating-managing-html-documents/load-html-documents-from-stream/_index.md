@@ -3,10 +3,16 @@ title: Aspose.HTML for Java를 사용하여 스트림에서 HTML 문서 로드
 linktitle: Aspose.HTML for Java를 사용하여 스트림에서 HTML 문서 로드
 second_title: Aspose.HTML을 사용한 Java HTML 처리
 description: Aspose.HTML for Java를 사용하여 스트림에서 HTML 문서를 로드하는 방법을 알아보세요. 이 가이드는 원활한 HTML 조작을 위한 단계별 튜토리얼을 제공합니다.
-type: docs
 weight: 14
 url: /ko/java/creating-managing-html-documents/load-html-documents-from-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.HTML for Java를 사용하여 스트림에서 HTML 문서 로드
+
 ## 소개
 Java에서 HTML 문서를 다룰 때 개발자는 종종 신뢰할 수 있고 효율적인 라이브러리가 필요하다는 것을 알게 됩니다. 그러한 강력한 도구 중 하나는 Java용 Aspose.HTML입니다. 이 라이브러리는 HTML 콘텐츠를 원활하게 조작하고 변환하는 인상적인 기능을 제공합니다. 이 튜토리얼에서는 Aspose.HTML을 사용하여 스트림에서 HTML 문서를 로드하고 파일에 저장하는 방법을 살펴보고 명확하고 단계별 지침을 제공합니다.
 ## 필수 조건
@@ -58,3 +64,9 @@ Java용 Aspose.HTML은 개발자가 Java 애플리케이션에서 HTML 문서를
  확인하세요[선적 서류 비치](https://reference.aspose.com/html/java/) Aspose.HTML 사용에 대한 더 많은 예제와 자세한 가이드를 확인하세요.
 ### 문제가 발생하면 어떻게 해야 하나요?
  문제가 발생하면 다음을 참조하세요.[지원 포럼](https://forum.aspose.com/c/html/29) 커뮤니티나 Aspose 팀에 도움을 요청하세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

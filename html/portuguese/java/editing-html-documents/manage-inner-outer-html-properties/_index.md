@@ -3,10 +3,16 @@ title: Gerenciar propriedades HTML internas e externas em Aspose.HTML para Java
 linktitle: Gerenciar propriedades HTML internas e externas em Aspose.HTML para Java
 second_title: Processamento HTML Java com Aspose.HTML
 description: Aprenda a gerenciar propriedades HTML internas e externas no Aspose.HTML para Java com este guia passo a passo, perfeito para desenvolvedores web e criadores de conteúdo.
-type: docs
 weight: 15
 url: /pt/java/editing-html-documents/manage-inner-outer-html-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gerenciar propriedades HTML internas e externas em Aspose.HTML para Java
+
 ## Introdução
 No mundo centrado na web de hoje, entender como manipular HTML é essencial para desenvolvedores e criadores de conteúdo. É como pintar em uma tela digital onde seu código pode ditar a aparência e a funcionalidade. Entre no Aspose.HTML para Java, uma excelente biblioteca que oferece recursos exclusivos para gerenciar HTML e CSS programaticamente. Neste guia, mergulharemos no mundo do Aspose.HTML explorando como gerenciar propriedades HTML internas e externas, tornando nosso conteúdo da web não apenas dinâmico, mas também envolvente. Apertem os cintos, pois embarcamos nesta jornada informativa!
 
@@ -112,3 +118,10 @@ Aspose.HTML foi projetado principalmente para aplicativos Java, mas você pode u
 
 ### Onde posso encontrar suporte se tiver problemas?  
  Se precisar de ajuda, visite os fóruns do Aspose[aqui](https://forum.aspose.com/c/html/29) para orientação de uma comunidade de desenvolvedores e especialistas da Aspose.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

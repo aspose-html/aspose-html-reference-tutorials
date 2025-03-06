@@ -3,10 +3,16 @@ title: مهلة عرض العرض في .NET باستخدام Aspose.HTML
 linktitle: مهلة العرض في .NET
 second_title: Aspose.HTML .NET HTML manipulation API
 description: تعرف على كيفية التحكم في مهلة عرض المستندات بشكل فعّال في Aspose.HTML for .NET. استكشف خيارات العرض وتأكد من عرض مستند HTML بسلاسة.
-type: docs
 weight: 12
 url: /ar/net/rendering-html-documents/rendering-timeout/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# مهلة عرض العرض في .NET باستخدام Aspose.HTML
+
 
 في عالم تطوير الويب، يعد عرض محتوى HTML مهمة أساسية. سواء كنت تقوم بإنشاء صفحات ويب أو إنشاء تقارير أو إجراء تحليل للبيانات، فغالبًا ما تحتاج إلى تحويل مستندات HTML إلى تنسيقات أخرى. تعد Aspose.HTML for .NET مكتبة قوية تبسط هذه العملية. في هذا البرنامج التعليمي، سنتعمق في مفهوم مهلة العرض ونستكشف كيف يمكنك الاستفادة من Aspose.HTML للتحكم في مدة العرض بشكل فعال.
 
@@ -158,3 +164,10 @@ using Aspose.Html.Rendering;
 
 
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Tải tài liệu HTML từ Stream với Aspose.HTML cho Java
 linktitle: Tải tài liệu HTML từ Stream với Aspose.HTML cho Java
 second_title: Xử lý HTML Java với Aspose.HTML
 description: Tìm hiểu cách tải tài liệu HTML từ luồng bằng Aspose.HTML cho Java. Hướng dẫn này cung cấp hướng dẫn từng bước để thao tác HTML liền mạch.
-type: docs
 weight: 14
 url: /vi/java/creating-managing-html-documents/load-html-documents-from-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tải tài liệu HTML từ Stream với Aspose.HTML cho Java
+
 ## Giới thiệu
 Khi làm việc với các tài liệu HTML trong Java, các nhà phát triển thường thấy mình cần các thư viện đáng tin cậy và hiệu quả. Một trong những công cụ mạnh mẽ như vậy là Aspose.HTML cho Java. Thư viện này cung cấp một loạt các tính năng ấn tượng để thao tác và chuyển đổi nội dung HTML một cách liền mạch. Trong hướng dẫn này, chúng ta sẽ tìm hiểu cách tải các tài liệu HTML từ một luồng và lưu chúng vào một tệp bằng Aspose.HTML, cung cấp cho bạn các hướng dẫn từng bước rõ ràng.
 ## Điều kiện tiên quyết
@@ -58,3 +64,9 @@ Aspose.HTML for Java là một thư viện mạnh mẽ cho phép các nhà phát
  Kiểm tra[tài liệu](https://reference.aspose.com/html/java/) để biết thêm ví dụ và hướng dẫn chi tiết về cách sử dụng Aspose.HTML.
 ### Tôi phải làm gì nếu gặp vấn đề?
  Nếu bạn gặp bất kỳ vấn đề nào, hãy tham khảo[diễn đàn hỗ trợ](https://forum.aspose.com/c/html/29) để được hỗ trợ từ cộng đồng hoặc nhóm Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

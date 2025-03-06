@@ -3,10 +3,16 @@ title: Cấp phép và Khởi tạo
 linktitle: Cấp phép và Khởi tạo
 second_title: Aspose.HTML .NET API thao tác HTML
 description: Khám phá cách sử dụng hiệu quả Aspose.HTML cho .NET thông qua hướng dẫn cấp phép và khởi tạo toàn diện của chúng tôi. Mở khóa toàn bộ tiềm năng của công cụ này.
-type: docs
 weight: 27
 url: /vi/net/licensing-and-initialization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cấp phép và Khởi tạo
+
 
 Nếu bạn đang dấn thân vào thế giới phát triển web bằng .NET và đang tìm kiếm một giải pháp đáng tin cậy để xử lý các tệp HTML, bạn đã đến đúng nơi rồi. Trong bài viết này, chúng tôi sẽ đi sâu vào các hướng dẫn cấp phép và khởi tạo cho Aspose.HTML cho .NET, giúp bạn khai thác toàn bộ sức mạnh của công cụ đa năng này.
 
@@ -39,3 +45,9 @@ Aspose.HTML for .NET không chỉ là một công cụ; mà còn là một bức
 Tìm hiểu cách áp dụng giấy phép có giới hạn trong Aspose.HTML cho .NET. Quản lý nhu cầu thao tác HTML của bạn một cách hiệu quả. Bắt đầu ngay!
 
 Tóm lại, hướng dẫn cấp phép và khởi tạo Aspose.HTML cho .NET của chúng tôi là cánh cổng dẫn đến trải nghiệm phát triển web mượt mà và hiệu quả hơn. Bằng cách làm theo hướng dẫn từng bước của chúng tôi, bạn sẽ được trang bị các kỹ năng cần thiết để khai thác toàn bộ tiềm năng của thư viện mạnh mẽ này. Vậy, còn chần chừ gì nữa? Hãy bắt đầu hành trình khám phá thế giới Aspose.HTML cho .NET ngay hôm nay và dễ dàng mở khóa tiềm năng thực sự của phát triển web.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

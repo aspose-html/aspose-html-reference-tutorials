@@ -3,10 +3,16 @@ title: Редактирование CSS и HTML-форм с помощью Aspos
 linktitle: Редактирование CSS и HTML-форм с помощью Aspose.HTML для Java
 second_title: Обработка Java HTML с помощью Aspose.HTML
 description: Быстро научитесь редактировать формы CSS и HTML с помощью Aspose.HTML для Java в этих познавательных руководствах, которые расширят возможности разработчиков и предоставят им продвинутые навыки.
-type: docs
 weight: 21
 url: /ru/java/css-html-form-editing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Редактирование CSS и HTML-форм с помощью Aspose.HTML для Java
+
 ## Введение
 
 Когда вы погружаетесь в веб-разработку, освоение CSS и HTML-форм похоже на обучение езде на велосипеде; это открывает целый мир возможностей! А если вы используете Aspose.HTML для Java, вас ждет настоящее удовольствие, потому что эта библиотека делает редактирование и отправку форм легким делом. Независимо от того, являетесь ли вы опытным профессионалом или только начинаете, эти руководства проведут вас через все, что вам нужно знать.
@@ -24,3 +30,9 @@ url: /ru/java/css-html-form-editing/
 Узнайте, как использовать Aspose.HTML для Java, чтобы применять передовые методы CSS, включая пользовательские поля страниц и динамический контент. Подробное практическое руководство для разработчиков.
 ### [Редактирование и отправка HTML-форм с помощью Aspose.HTML для Java](./html-form-editing/)
 Узнайте, как программно редактировать и отправлять HTML-формы с помощью Aspose.HTML для Java, в этом подробном пошаговом руководстве.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

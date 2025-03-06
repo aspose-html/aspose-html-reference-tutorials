@@ -3,10 +3,16 @@ title: Обработка данных и управление потоками 
 linktitle: Обработка данных и управление потоками в Aspose.HTML для Java
 second_title: Обработка Java HTML с помощью Aspose.HTML
 description: Изучите наши руководства по Aspose.HTML для Java, в которых рассказывается, как легко преобразовывать потоки памяти в файлы и HTML в изображения JPEG.
-type: docs
 weight: 22
 url: /ru/java/data-handling-stream-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Обработка данных и управление потоками в Aspose.HTML для Java
+
 ## Введение
 
 Вы готовы раскрыть секреты обработки HTML-данных с помощью Aspose.HTML для Java? Если вы когда-либо оказывались в запутанных сложностях преобразования HTML-контента в различные форматы, вас ждет настоящее удовольствие. В этом руководстве мы разберем процесс преобразования потоков памяти в файлы и HTML-документов в изображения JPEG. Это проще, чем кажется, и к концу вы почувствуете себя профессионалом!
@@ -20,3 +26,9 @@ url: /ru/java/data-handling-stream-management/
 ## Обработка данных и управление потоками в Aspose.HTML для Java Tutorials
 ### [Преобразование потока памяти в файл с помощью Aspose.HTML для Java](./memory-stream-to-file/)
 Конвертируйте HTML в JPEG с помощью Aspose.HTML для Java, используя потоки памяти. Следуйте этому пошаговому руководству для бесшовного преобразования HTML в изображение.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

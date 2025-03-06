@@ -3,10 +3,16 @@ title: Sử dụng nâng cao Aspose.HTML Java Tutorials
 linktitle: Sử dụng nâng cao Aspose.HTML Java
 second_title: Xử lý HTML Java với Aspose.HTML
 description: Tìm hiểu cách tùy chỉnh lề trang HTML, triển khai DOM Mutation Observer, thao tác HTML5 Canvas, tự động điền biểu mẫu HTML và nhiều tính năng khác bằng Aspose.HTML Java.
-type: docs
 weight: 20
 url: /vi/java/advanced-usage/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sử dụng nâng cao Aspose.HTML Java Tutorials
+
 
 Trong thế giới phát triển web, việc thành thạo nghệ thuật thao tác HTML là rất quan trọng. Aspose.HTML cho Java mang đến vô số tính năng cho phép bạn nâng cao kỹ năng HTML của mình lên một tầm cao mới. Trong bài viết này, chúng ta sẽ đi sâu vào một số kỹ thuật nâng cao giúp bạn khai thác sức mạnh của Aspose.HTML cho Java.
 
@@ -51,3 +57,9 @@ Tìm hiểu cách tự động điền và gửi biểu mẫu HTML bằng Aspose
 Tìm hiểu cách điều chỉnh kích thước trang PDF bằng Aspose.HTML cho Java. Tạo PDF chất lượng cao từ HTML một cách dễ dàng. Kiểm soát kích thước trang hiệu quả.
 ### [Điều chỉnh kích thước trang XPS bằng Aspose.HTML cho Java](./adjust-xps-page-size/)
 Tìm hiểu cách điều chỉnh kích thước trang XPS bằng Aspose.HTML cho Java. Kiểm soát kích thước đầu ra của tài liệu XPS của bạn một cách dễ dàng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

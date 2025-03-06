@@ -3,10 +3,16 @@ title: Apply Metered License in .NET with Aspose.HTML
 linktitle: Apply Metered License in .NET
 second_title: Aspose.HTML .NET HTML manipulation API
 description: Learn how to apply a metered license in Aspose.HTML for .NET. Manage your HTML manipulation needs efficiently. Get started now!
-type: docs
 weight: 10
 url: /net/licensing-and-initialization/apply-metered-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Apply Metered License in .NET with Aspose.HTML
+
 In this tutorial, we will guide you through the process of applying a metered license in your .NET application using Aspose.HTML. A metered license is a convenient way to manage licensing for your HTML manipulation needs. By following the steps below, you'll be able to apply a metered license to your Aspose.HTML for .NET project.
 
 ## Prerequisites
@@ -88,3 +94,10 @@ Yes, you can access a free trial from [here](https://releases.aspose.com/).
 
 ### Where can I get support or ask questions about Aspose.HTML for .NET?
 You can join the community and seek support on the [Aspose Forums](https://forum.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

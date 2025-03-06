@@ -3,10 +3,16 @@ title: Zapisz dokument HTML do pliku w Aspose.HTML dla Java
 linktitle: Zapisz dokument HTML do pliku w Aspose.HTML dla Java
 second_title: Przetwarzanie HTML w Javie za pomocą Aspose.HTML
 description: Dowiedz się, jak zapisać dokument HTML do pliku za pomocą Aspose.HTML dla Java, co jest idealnym rozwiązaniem pozwalającym na łatwą obsługę wielu powiązanych zasobów.
-type: docs
 weight: 11
 url: /pl/java/saving-html-documents/save-html-to-file/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zapisz dokument HTML do pliku w Aspose.HTML dla Java
+
 ## Wstęp
 W tym samouczku pokażemy, jak zapisać dokument HTML do pliku, jednocześnie zarządzając połączonymi zasobami. Jest to szczególnie przydatne, gdy pracujesz nad projektami obejmującymi wiele plików HTML — pomyśl o tym jak o stronie internetowej, która odwołuje się do innych stron internetowych. Pod koniec tego przewodnika będziesz przygotowany do korzystania z Aspose.HTML for Java, aby elastycznie i wydajnie zarządzać dokumentami HTML.
 ## Wymagania wstępne
@@ -88,3 +94,9 @@ Tak! Aspose.HTML obsługuje różne typy zasobów, w tym obrazy, style i skrypty
  Możesz odwiedzić forum wsparcia Aspose[Tutaj](https://forum.aspose.com/c/html/29) jeśli masz jakiekolwiek pytania lub potrzebujesz pomocy.
 ### Czy mogę używać Aspose.HTML w projektach komercyjnych?  
 Tak, Aspose.HTML może być używany w projektach komercyjnych, ale musisz kupić licencję. Możesz znaleźć opcje licencjonowania[Tutaj](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

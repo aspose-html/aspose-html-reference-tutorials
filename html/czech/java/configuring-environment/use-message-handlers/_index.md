@@ -3,10 +3,16 @@ title: Použijte Message Handlers v Aspose.HTML pro Java
 linktitle: Použijte Message Handlers v Aspose.HTML pro Java
 second_title: Java HTML zpracování s Aspose.HTML
 description: Naučte se používat obslužné nástroje zpráv v Aspose.HTML pro Java k efektivnímu zpracování chybějících obrázků a dalších síťových operací.
-type: docs
 weight: 12
 url: /cs/java/configuring-environment/use-message-handlers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Použijte Message Handlers v Aspose.HTML pro Java
+
 ## Zavedení
 V tomto tutoriálu vás provedeme praktickým příkladem použití obslužných rutin zpráv v Aspose.HTML pro Java. Připravíme jednoduchý HTML dokument, který bude odkazovat na chybějící obrázek, a předvedeme, jak chybu zachytit a ošetřit pomocí vlastní obslužné rutiny zpráv. Ať už jste v Aspose.HTML noví nebo si chcete rozšířit své dovednosti, tato příručka vám poskytne informace, které potřebujete k efektivní správě síťových operací.
 ## Předpoklady
@@ -109,3 +115,9 @@ Ano, můžete zřetězit více obslužných rutin zpráv dohromady a zvládnout 
 Ano, likvidace těchto objektů zajišťuje správné uvolnění všech prostředků a zabraňuje úniku paměti.
 ### Mohu pomocí obslužných programů zpráv zpracovat jiné typy chyb?
 Absolutně! Obslužné nástroje zpráv lze přizpůsobit tak, aby zpracovávaly různé typy chyb, nejen chybějící zdroje.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

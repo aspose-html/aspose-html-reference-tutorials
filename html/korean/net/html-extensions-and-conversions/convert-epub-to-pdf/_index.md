@@ -3,10 +3,16 @@ title: Aspose.HTML을 사용하여 .NET에서 EPUB를 PDF로 변환
 linktitle: .NET에서 EPUB를 PDF로 변환
 second_title: Aspose.HTML .NET HTML 조작 API
 description: Aspose.HTML for .NET을 사용하여 EPUB를 PDF로 변환하는 방법을 알아보세요. 이 단계별 가이드는 원활한 문서 변환을 위한 사용자 지정 옵션, FAQ 등을 다룹니다.
-type: docs
 weight: 12
 url: /ko/net/html-extensions-and-conversions/convert-epub-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.HTML을 사용하여 .NET에서 EPUB를 PDF로 변환
+
 
 이 튜토리얼에서는 Aspose.HTML for .NET을 사용하여 EPUB 파일을 PDF로 변환하는 방법을 살펴보겠습니다. Aspose.HTML은 HTML 및 EPUB 문서 작업을 위한 다양한 기능을 제공하는 강력한 .NET 라이브러리입니다. 필수 구성 요소를 다루고, 필요한 네임스페이스를 가져오고, 여러 예를 분석하여 각 단계를 자세히 설명합니다.
 
@@ -230,3 +236,10 @@ Aspose.HTML for .NET은 EPUB 파일을 PDF로 변환하는 다재다능한 도�
 ### Aspose.HTML for ..NET은 대규모 문서 변환에 적합합니까?
    .NET용 Aspose.HTML은 대규모 문서 변환을 효율적으로 처리하도록 설계되어 다양한 애플리케이션에 적합합니다.
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

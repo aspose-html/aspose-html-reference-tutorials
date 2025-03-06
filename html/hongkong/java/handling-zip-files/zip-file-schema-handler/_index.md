@@ -3,10 +3,16 @@ title: Aspose.HTML for Java 中的 ZIP 檔案架構處理程序
 linktitle: Aspose.HTML for Java 中的 ZIP 檔案架構處理程序
 second_title: 使用 Aspose.HTML 進行 Java HTML 處理
 description: 使用 Aspose.HTML 掌握 Java 中的 ZIP 檔案處理。了解如何實現 ZIP 檔案架構處理程序，透過詳細的逐步指導直接從 ZIP 檔案提供檔案。
-type: docs
 weight: 11
 url: /zh-hant/java/handling-zip-files/zip-file-schema-handler/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.HTML for Java 中的 ZIP 檔案架構處理程序
+
 ## 介紹
 在處理複雜的 HTML 文件或 Web 應用程式時，可能需要處理以不同格式儲存的各種類型的內容，例如 ZIP 檔案。想像嘗試從 ZIP 檔案中載入資源並將其作為 Web 回應的一部分無縫提供服務 — 聽起來很棘手，對吧？這就是`ZIPFileSchemaMessageHandler`Aspose.HTML for Java 開始發揮作用。本教學將引導您了解如何實現 ZIP 檔案模式處理程序，使您可以直接從 Web 應用程式中的 ZIP 存檔提供檔案。
 ## 先決條件
@@ -96,3 +102,9 @@ Stream GetFile(String path) {
 對於大文件，請考慮實施文件分塊或流技術以減少記憶體使用並提高效能。
 ### 這個處理程序可以在多執行緒環境中使用嗎？
 是的，但是您必須確保線程安全，尤其是在處理 ZIP 檔案等共享資源時。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

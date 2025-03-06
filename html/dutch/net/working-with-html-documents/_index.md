@@ -3,10 +3,16 @@ title: Werken met HTML-documenten
 linktitle: Werken met HTML-documenten
 second_title: Aspose.HTML .NET HTML-manipulatie-API
 description: Ontdek de wereld van HTML-documentcreatie en -manipulatie in .NET met Aspose.HTML. Van het maken van eenvoudige documenten tot diepgaande bewerking.
-type: docs
 weight: 23
 url: /nl/net/working-with-html-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Werken met HTML-documenten
+
 
 Bent u een webontwikkelaar die zich wil verdiepen in het maken en bewerken van HTML-documenten met behulp van .NET? Zoek niet verder! In deze uitgebreide tutorialserie verkennen we de kracht van Aspose.HTML en hoe het uw taken kan vereenvoudigen. Of u nu een beginner of een ervaren ontwikkelaar bent, u vindt waardevolle inzichten en praktische tips om uw vaardigheden te verbeteren.
 
@@ -29,3 +35,9 @@ Zodra u de basis onder de knie hebt, gaan we dieper in op het creatieproces. In 
 ### [Een document bewerken in .NET met Aspose.HTML](./editing-a-document/)
 
 Laten we nu uw vaardigheden naar een hoger niveau tillen. Het bewerken van HTML-documenten is een veelvoorkomende taak voor webontwikkelaars, en Aspose.HTML vereenvoudigt dit proces aanzienlijk. In deze sectie behandelen we het maken, manipuleren en stylen van documenten. U ontdekt hoe u het uiterlijk en de functionaliteit van uw webcontent kunt verbeteren, waardoor deze aantrekkelijk en gebruiksvriendelijk wordt.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

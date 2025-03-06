@@ -3,10 +3,16 @@ title: Java용 Aspose.HTML을 사용한 사용자 정의 스키마 메시지 핸
 linktitle: Java용 Aspose.HTML을 사용한 사용자 정의 스키마 메시지 핸들러
 second_title: Aspose.HTML을 사용한 Java HTML 처리
 description: Aspose.HTML for Java를 사용하여 사용자 지정 스키마 메시지 핸들러를 만드는 방법을 알아보세요. 이 튜토리얼은 단계별로 프로세스를 안내합니다.
-type: docs
 weight: 11
 url: /ko/java/custom-schema-message-handling/custom-schema-message-handler/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.HTML을 사용한 사용자 정의 스키마 메시지 핸들러
+
 ## 소개
 안녕하세요, 동료 개발자 여러분! 강력한 HTML 조작 기능으로 Java 애플리케이션을 개선하고자 한다면, 여러분은 올바른 곳에 왔습니다. 오늘은 Aspose.HTML for Java를 사용하여 사용자 정의 스키마 메시지 핸들러를 만드는 방법에 대해 자세히 알아보겠습니다. 여러분이 특별한 요리를 만드는 요리사라고 상상해보세요. 이 핸들러는 표준 레시피를 고급 요리로 격상시키는 비밀 소스와 같습니다. 이를 통해 고유한 스키마 사양에 따라 HTML 메시지를 원활하게 관리하고 필터링할 수 있습니다.
 ## 필수 조건
@@ -92,3 +98,9 @@ Java용 Aspose.HTML은 Java 애플리케이션에서 HTML 파일을 조작하고
  네, Aspose.HTML에 대한 영구 라이선스를 구매할 수 있습니다.[여기](https://purchase.aspose.com/buy).
 ### Aspose.HTML에 대한 지원은 어디에서 찾을 수 있나요?
  HTML에 대한 Aspose 포럼을 방문하여 지원을 받을 수 있습니다.[여기](https://forum.aspose.com/c/html/29).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

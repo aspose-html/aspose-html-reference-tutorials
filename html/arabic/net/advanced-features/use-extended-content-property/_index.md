@@ -3,10 +3,16 @@ title: استخدام خاصية المحتوى الممتد في .NET مع Aspo
 linktitle: استخدام خاصية المحتوى الممتد في .NET
 second_title: Aspose.HTML .NET HTML manipulation API
 description: تعرف على كيفية استخدام Aspose.HTML لـ .NET من خلال هذا الدليل التفصيلي. قم بتحسين مهاراتك في HTML وتبسيط مشاريع تطوير الويب الخاصة بك.
-type: docs
 weight: 14
 url: /ar/net/advanced-features/use-extended-content-property/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# استخدام خاصية المحتوى الممتد في .NET مع Aspose.HTML
+
 
 في عالم تطوير الويب، يعد العمل باستخدام HTML مهارة أساسية. Aspose.HTML for .NET هي أداة قوية يمكنها أن تجعل مهامك المتعلقة بـ HTML أسهل وأكثر كفاءة. سيأخذك هذا البرنامج التعليمي خلال الخطوات اللازمة للبدء في استخدام Aspose.HTML for .NET، بما في ذلك المتطلبات الأساسية واستيراد مساحات الأسماء وتقسيم كل مثال إلى خطوات سهلة المتابعة.
 
@@ -123,3 +129,10 @@ using (XpsDevice device = new XpsDevice(dataDir + "output_out.xps"))
 ### هل هناك أي موارد أو دروس تعليمية إضافية متاحة لـ Aspose.HTML لـ .NET؟
     نعم، يمكنك العثور على المزيد من الدروس والوثائق على[موقع Aspose.HTML](https://reference.aspose.com/html/net/).
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

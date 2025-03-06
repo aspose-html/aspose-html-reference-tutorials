@@ -3,10 +3,16 @@ title: Αποδώστε το EPUB ως XPS σε .NET με Aspose.HTML
 linktitle: Απόδοση EPUB ως XPS σε .NET
 second_title: Aspose.HTML .NET API χειρισμού HTML
 description: Μάθετε πώς να δημιουργείτε και να αποδίδετε έγγραφα HTML με το Aspose.HTML για .NET σε αυτό το ολοκληρωμένο σεμινάριο. Βουτήξτε στον κόσμο της χειραγώγησης HTML, της απόξεσης ιστού και πολλά άλλα.
-type: docs
 weight: 11
 url: /el/net/rendering-html-documents/render-epub-as-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Αποδώστε το EPUB ως XPS σε .NET με Aspose.HTML
+
 
 ## Εισαγωγή
 
@@ -99,3 +105,10 @@ using (var renderer = new EpubRenderer())
 
  Ναι, μπορείτε να χρησιμοποιήσετε το Aspose.HTML για .NET σε εμπορικά έργα αγοράζοντας άδεια χρήσης από[εδώ](https://purchase.aspose.com/buy).
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 在 Aspose.HTML for Java 中設定使用者樣式表
 linktitle: 在 Aspose.HTML for Java 中設定使用者樣式表
 second_title: 使用 Aspose.HTML 進行 Java HTML 處理
 description: 了解如何在 Aspose.HTML for Java 中設定自訂使用者樣式表，增強文件樣式並輕鬆將 HTML 轉換為 PDF。
-type: docs
 weight: 16
 url: /zh-hant/java/configuring-environment/set-user-style-sheet/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.HTML for Java 中設定使用者樣式表
+
 ## 介紹
 您是否曾經發現自己想要用自己獨特的風格來調整 HTML 文件的外觀？想像一下，您正在製作一個網頁，並且希望確保標題以某種顏色顯示，或者段落在不同裝置上具有一致的外觀。這就是使用者樣式表發揮作用的地方！在本教學中，我們將探討如何使用 Aspose.HTML for Java 設定自訂使用者樣式表。無論您是想為文件創建一個有凝聚力的設計，還是只是嘗試不同的樣式，本指南都將以簡單且引人入勝的方式引導您完成整個過程。
 ## 先決條件
@@ -104,3 +110,9 @@ if (configuration != null) {
 不支援的 CSS 屬性將被簡單地忽略，從而允許應用樣式表的其餘部分而不會出現錯誤。
 ### 我可以將 HTML 轉換為 PDF 以外的格式嗎？  
 是的，Aspose.HTML for Java 支援將 HTML 轉換為各種格式，包括 XPS、TIFF 等。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

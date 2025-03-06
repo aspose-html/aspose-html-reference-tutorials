@@ -3,10 +3,16 @@ title: Сохраните HTML-документ в Aspose.HTML для Java
 linktitle: Сохраните HTML-документ в Aspose.HTML для Java
 second_title: Обработка Java HTML с помощью Aspose.HTML
 description: Узнайте, как сохранять HTML-документы с помощью Aspose.HTML для Java, с помощью этого подробного пошагового руководства, предназначенного для новичков и экспертов.
-type: docs
 weight: 10
 url: /ru/java/saving-html-documents/save-html-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Сохраните HTML-документ в Aspose.HTML для Java
+
 ## Введение
 Когда дело доходит до работы с HTML-документами в Java, надежная библиотека может иметь решающее значение. Aspose.HTML для Java — один из таких инструментов, который позволяет разработчикам создавать, изменять и сохранять HTML-документы без усилий. В этом руководстве мы расскажем вам, как сохранить HTML-документ с помощью Aspose.HTML для Java. 
 ## Предпосылки
@@ -82,3 +88,9 @@ Aspose.HTML для Java — это библиотека, которая позв
  Конечно! Вы можете найти исчерпывающую документацию по[Страница документации Aspose](https://reference.aspose.com/html/java/).
 ### Как я могу приобрести Aspose.HTML для Java?  
  Вы можете купить библиотеку у[Страница покупки Aspose](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

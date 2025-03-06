@@ -3,10 +3,16 @@ title: EPUB से PDF में PDF सहेजने के विकल्�
 linktitle: EPUB से PDF में PDF सहेजने के विकल्प निर्दिष्ट करना
 second_title: Aspose.HTML के साथ जावा HTML प्रसंस्करण
 description: Aspose.HTML, एक शक्तिशाली HTML मैनिपुलेशन लाइब्रेरी का उपयोग करके जावा में EPUB को PDF में परिवर्तित करना सीखें।
-type: docs
 weight: 12
 url: /hi/java/converting-epub-to-pdf/convert-epub-to-pdf-specify-pdf-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# EPUB से PDF में PDF सहेजने के विकल्प निर्दिष्ट करना
+
 
 ## परिचय
 
@@ -111,3 +117,10 @@ Java के लिए Aspose.HTML विभिन्न EPUB प्रारू�
 
 ### मैं Java के लिए Aspose.HTML का समर्थन कहां से प्राप्त कर सकता हूं?
 आप अपने प्रश्नों के उत्तर पा सकते हैं और सहायता प्राप्त कर सकते हैं[Aspose.HTML फ़ोरम](https://forum.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

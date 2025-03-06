@@ -3,10 +3,16 @@ title: Użyj obsługi komunikatów w Aspose.HTML dla Java
 linktitle: Użyj obsługi komunikatów w Aspose.HTML dla Java
 second_title: Przetwarzanie HTML w Javie za pomocą Aspose.HTML
 description: Dowiedz się, jak używać procedur obsługi komunikatów w Aspose.HTML dla Java, aby skutecznie radzić sobie z brakującymi obrazami i innymi operacjami sieciowymi.
-type: docs
 weight: 12
 url: /pl/java/configuring-environment/use-message-handlers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Użyj obsługi komunikatów w Aspose.HTML dla Java
+
 ## Wstęp
 W tym samouczku przeprowadzimy Cię przez praktyczny przykład korzystania z obsługi wiadomości w Aspose.HTML dla Java. Przygotujemy prosty dokument HTML, który odwołuje się do brakującego obrazu i pokażemy, jak przechwycić i obsłużyć błąd za pomocą niestandardowej obsługi wiadomości. Niezależnie od tego, czy jesteś nowy w Aspose.HTML, czy chcesz rozwinąć swoje umiejętności, ten przewodnik zapewni Ci informacje potrzebne do skutecznego zarządzania operacjami sieciowymi.
 ## Wymagania wstępne
@@ -109,3 +115,9 @@ Tak, można łączyć ze sobą wiele programów obsługi wiadomości, aby obsłu
 Tak, usunięcie tych obiektów zapewnia prawidłowe zwolnienie wszystkich zasobów, zapobiegając wyciekom pamięci.
 ### Czy mogę obsługiwać inne typy błędów za pomocą procedur obsługi komunikatów?
 Oczywiście! Obsługę komunikatów można dostosować do obsługi różnych typów błędów, nie tylko brakujących zasobów.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

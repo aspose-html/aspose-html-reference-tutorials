@@ -3,10 +3,16 @@ title: ضبط حجم صفحة PDF باستخدام Aspose.HTML لـ Java
 linktitle: ضبط حجم صفحة PDF
 second_title: معالجة HTML باستخدام Java مع Aspose.HTML
 description: تعرف على كيفية ضبط حجم صفحة PDF باستخدام Aspose.HTML لـ Java. قم بإنشاء ملفات PDF عالية الجودة من HTML بسهولة. تحكم في أبعاد الصفحة بفعالية.
-type: docs
 weight: 15
 url: /ar/java/advanced-usage/adjust-pdf-page-size/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ضبط حجم صفحة PDF باستخدام Aspose.HTML لـ Java
+
 
 في العصر الرقمي الحالي، تزداد الحاجة إلى إنشاء ملفات PDF عالية الجودة من محتوى HTML. Aspose.HTML for Java هي مكتبة Java قوية تتيح لك تحويل مستندات HTML إلى تنسيق PDF دون عناء. في هذا البرنامج التعليمي، سنركز على ضبط حجم الصفحة عند تحويل HTML إلى PDF باستخدام Aspose.HTML for Java.
 
@@ -141,3 +147,9 @@ A1: Aspose.HTML for Java هي مكتبة Java تسمح لك بالعمل مع م
 ### س5: هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.HTML لـ Java؟
 
  ج5: نعم، يمكنك الوصول إلى نسخة تجريبية مجانية من Aspose.HTML لـ Java من[هذا الرابط](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

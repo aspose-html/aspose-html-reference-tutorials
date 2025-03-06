@@ -3,10 +3,16 @@ title: Editace a odeslání formuláře HTML pomocí Aspose.HTML pro Javu
 linktitle: Editace a odeslání formuláře HTML pomocí Aspose.HTML pro Javu
 second_title: Java HTML zpracování s Aspose.HTML
 description: V tomto podrobném průvodci se dozvíte, jak programově upravovat a odesílat formuláře HTML pomocí Aspose.HTML for Java.
-type: docs
 weight: 11
 url: /cs/java/css-html-form-editing/html-form-editing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Editace a odeslání formuláře HTML pomocí Aspose.HTML pro Javu
+
 ## Zavedení
 V dnešním světě řízeném webem je interakce s formuláři HTML běžným úkolem vývojářů, ať už jde o vyplňování formulářů, jejich odesílání nebo automatizaci zadávání dat. Aspose.HTML for Java poskytuje robustní řešení pro programovou správu formulářů HTML. Tento článek vás provede úpravami a odesíláním formulářů HTML pomocí Aspose.HTML for Java s podrobným návodem, který tento proces rozdělí na zvládnutelné části.
 ## Předpoklady
@@ -112,3 +118,9 @@ Aspose.HTML for Java je knihovna, která umožňuje vývojářům pracovat s dok
 V současné době jsou odesílání formulářů synchronní. Můžete však spravovat asynchronní operace ve vaší aplikaci Java spuštěním odesílání v samostatném vláknu.
 ### Co se stane, když se odeslání formuláře nezdaří?
  Pokud se odeslání nezdaří,`SubmissionResult`objekt nebude označen jako úspěšný a chyby můžete ošetřit kontrolou zprávy odpovědi nebo podrobností o výjimce.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

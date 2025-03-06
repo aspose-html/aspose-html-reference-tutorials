@@ -3,10 +3,16 @@ title: تحرير نماذج CSS وHTML باستخدام Aspose.HTML لـ Java
 linktitle: تحرير نماذج CSS وHTML باستخدام Aspose.HTML لـ Java
 second_title: معالجة HTML باستخدام Java مع Aspose.HTML
 description: تعلم بسرعة كيفية تحرير نماذج CSS وHTML باستخدام Aspose.HTML لـ Java في هذه الدروس المفيدة التي تمكّن المطورين بالمهارات المتقدمة.
-type: docs
 weight: 21
 url: /ar/java/css-html-form-editing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحرير نماذج CSS وHTML باستخدام Aspose.HTML لـ Java
+
 ## مقدمة
 
 عندما تتعمق في تطوير الويب، فإن إتقان نماذج CSS وHTML يشبه تعلم ركوب الدراجة؛ فهو يفتح لك عالمًا من الاحتمالات! وإذا كنت تستخدم Aspose.HTML لـ Java، فستحظى بمتعة كبيرة لأن هذه المكتبة تجعل تحرير النماذج وإرسالها أمرًا سهلاً. سواء كنت محترفًا متمرسًا أو بدأت للتو، فسترشدك هذه البرامج التعليمية إلى كل ما تحتاج إلى معرفته.
@@ -24,3 +30,9 @@ url: /ar/java/css-html-form-editing/
 تعرف على كيفية استخدام Aspose.HTML for Java لتطبيق تقنيات CSS المتقدمة، بما في ذلك هوامش الصفحات المخصصة والمحتوى الديناميكي. برنامج تعليمي عملي مفصل للمطورين.
 ### [تحرير نماذج HTML وإرسالها باستخدام Aspose.HTML لـ Java](./html-form-editing/)
 تعرف على كيفية تحرير نماذج HTML وإرسالها برمجيًا باستخدام Aspose.HTML لـ Java في هذا الدليل الشامل خطوة بخطوة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

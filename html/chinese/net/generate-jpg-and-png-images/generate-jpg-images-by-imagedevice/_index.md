@@ -3,10 +3,16 @@ title: 使用 Aspose.HTML 在 .NET 中通过 ImageDevice 生成 JPG 图像
 linktitle: 在.NET中使用ImageDevice生成JPG图像
 second_title: Aspose.HTML .NET HTML 操作 API
 description: 了解如何使用 Aspose.HTML for .NET 创建动态网页。本分步教程涵盖先决条件、命名空间以及将 HTML 渲染为图像。
-type: docs
 weight: 10
 url: /zh/net/generate-jpg-and-png-images/generate-jpg-images-by-imagedevice/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.HTML 在 .NET 中通过 ImageDevice 生成 JPG 图像
+
 
 您是否希望在 .NET 应用程序中创建动态网页并无缝控制 HTML 内容？如果是这样，那么您来对地方了！在本教程中，我们将深入介绍如何使用 Aspose.HTML for .NET，这是一个功能强大的库，可帮助开发人员轻松操作和生成 HTML 内容。我们将介绍先决条件、导入命名空间并逐步引导您完成示例。那么，让我们开始这段激动人心的旅程吧！
 
@@ -125,3 +131,9 @@ A3：Aspose.HTML for .NET 支持各种输出格式，包括图像（JPEG、PNG�
 ### Q5：我可以将 Aspose.HTML for .NET 集成到我的 .NET Core 项目中吗？
 
 A5：是的，Aspose.HTML for .NET 与 .NET Framework 和 .NET Core 兼容。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

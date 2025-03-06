@@ -3,10 +3,16 @@ title: Convert ZIP to JPG using Aspose.HTML for Java
 linktitle: Convert ZIP to JPG using Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 description: Learn how to convert ZIP files to JPG images using Aspose.HTML for Java with this step-by-step guide.
-type: docs
 weight: 15
 url: /java/message-handling-networking/zip-to-jpg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Convert ZIP to JPG using Aspose.HTML for Java
+
 ## Introduction
 If you're looking for an effective way to convert ZIP files to JPG images using Java, you're in the right place! Aspose.HTML is a powerful library that simplifies the process of handling HTML documents and related file formats. In this tutorial, we’ll guide you step by step through the process of converting ZIP files to JPG images with ease. This tutorial is packed with useful information that'll help even the most novice programmer.
 ## Prerequisites
@@ -107,3 +113,10 @@ Yes, Aspose.HTML supports various formats like PDF, DOCX, and more!
 Absolutely! You can iterate through the contents of your ZIP file and convert multiple HTML documents to JPG.
 ### Where can I get support for Aspose.HTML?
 You can visit the [Aspose support forum](https://forum.aspose.com/c/html/29) for assistance.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

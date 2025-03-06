@@ -3,10 +3,16 @@ title: Použití šablon HTML v .NET s Aspose.HTML
 linktitle: Použití HTML šablon v .NET
 second_title: Aspose.HTML .NET API pro manipulaci s HTML
 description: Naučte se používat Aspose.HTML pro .NET k dynamickému generování HTML dokumentů z dat JSON. Využijte sílu manipulace s HTML ve svých aplikacích .NET.
-type: docs
 weight: 17
 url: /cs/net/advanced-features/using-html-templates/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Použití šablon HTML v .NET s Aspose.HTML
+
 
 Pokud chcete ve svých aplikacích .NET pracovat s dokumenty a šablonami HTML, jste na správném místě! Aspose.HTML for .NET je všestranná knihovna, která umožňuje vývojářům snadno manipulovat s HTML dokumenty a šablonami. V tomto tutoriálu se ponoříme do základů používání Aspose.HTML pro .NET, rozebereme každý krok a poskytneme jasné vysvětlení.
 
@@ -138,3 +144,9 @@ A3: Aspose.HTML pro .NET si můžete stáhnout ze stránky stahování[zde](http
 ### Q5. Potřebuji dočasnou licenci pro Aspose.HTML pro .NET?
 
  A5: Pokud požadujete dočasnou licenci pro účely hodnocení, můžete ji získat od[zde](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

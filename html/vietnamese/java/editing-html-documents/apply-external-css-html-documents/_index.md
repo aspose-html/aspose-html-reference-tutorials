@@ -3,10 +3,16 @@ title: Áp dụng CSS bên ngoài vào tài liệu HTML trong Aspose.HTML cho Ja
 linktitle: Áp dụng CSS bên ngoài vào tài liệu HTML trong Aspose.HTML cho Java
 second_title: Xử lý HTML Java với Aspose.HTML
 description: Khám phá cách áp dụng CSS bên ngoài vào tài liệu HTML bằng Aspose.HTML cho Java! Làm theo hướng dẫn từng bước này để biết hướng dẫn đầy đủ.
-type: docs
 weight: 12
 url: /vi/java/editing-html-documents/apply-external-css-html-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Áp dụng CSS bên ngoài vào tài liệu HTML trong Aspose.HTML cho Java
+
 ## Giới thiệu
 Khi làm việc với các tài liệu HTML, việc áp dụng các kiểu có thể tạo ra sự khác biệt lớn trong cách trình bày và trải nghiệm của người dùng. Nếu bạn đang tìm hiểu về Java và muốn tìm hiểu cách áp dụng các kiểu CSS bên ngoài vào các tài liệu HTML của mình bằng thư viện Aspose.HTML, bạn đã đến đúng nơi rồi! Hướng dẫn này nhằm mục đích làm sáng tỏ quy trình từng bước, giúp những người mới làm quen với Java hoặc CSS cũng có thể dễ dàng thực hiện.
 ## Điều kiện tiên quyết
@@ -101,3 +107,9 @@ Không, sau khi bạn đã tải xuống các tệp thư viện cần thiết, b
 Có! CSS nội bộ được định nghĩa trong tài liệu HTML, trong khi CSS bên ngoài được đặt trong một tệp riêng và liên kết đến tài liệu.
 ### Làm thế nào tôi có thể nhận được hỗ trợ cho Aspose.HTML dành cho Java?
  Bạn có thể truy cập hỗ trợ cộng đồng thông qua[Diễn đàn Aspose](https://forum.aspose.com/c/html/29) cho bất kỳ câu hỏi hoặc vấn đề nào bạn có thể gặp phải.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

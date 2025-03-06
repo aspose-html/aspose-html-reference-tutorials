@@ -3,10 +3,16 @@ title: Observateurs et gestionnaires de mutations dans Aspose.HTML pour Java
 linktitle: Observateurs et gestionnaires de mutations dans Aspose.HTML pour Java
 second_title: Traitement HTML Java avec Aspose.HTML
 description: Découvrez les didacticiels Aspose.HTML pour Java couvrant les observateurs de mutation avancés et les gestionnaires d'informations d'identification sécurisés pour améliorer vos applications Web.
-type: docs
 weight: 23
 url: /fr/java/mutation-observers-handlers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Observateurs et gestionnaires de mutations dans Aspose.HTML pour Java
+
 ## Introduction
 
 Si vous cherchez à améliorer vos applications Web Java, vous avez probablement entendu parler d'Aspose.HTML. Mais laissez-moi vous dire qu'il ne s'agit pas d'une bibliothèque ordinaire : c'est une véritable centrale de gestion dynamique des documents HTML. Dans ce guide, nous allons explorer deux composants essentiels : les observateurs de mutation et les gestionnaires d'informations d'identification, qui vous permettent de dynamiser vos applications. 
@@ -28,3 +34,9 @@ En mettant en œuvre un gestionnaire d'informations d'identification sécurisé,
 Découvrez comment implémenter un observateur de mutation avancé avec Aspose.HTML pour Java, en suivant les modifications du DOM de manière transparente. Plongez dans notre guide étape par étape.
 ### [Utilisation du gestionnaire d'informations d'identification dans Aspose.HTML pour Java](./credential-handler/)
 Découvrez comment implémenter un gestionnaire d'informations d'identification sécurisé à l'aide d'Aspose.HTML pour Java pour gérer efficacement l'authentification des utilisateurs.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: PDF-mentési beállítások megadása az EPUB-hoz PDF-be
 linktitle: PDF-mentési beállítások megadása az EPUB-hoz PDF-be
 second_title: Java HTML feldolgozás Aspose.HTML-lel
 description: Ismerje meg, hogyan konvertálhat EPUB-t PDF-be Java nyelven az Aspose.HTML, egy hatékony HTML-manipulációs könyvtár segítségével.
-type: docs
 weight: 12
 url: /hu/java/converting-epub-to-pdf/convert-epub-to-pdf-specify-pdf-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PDF-mentési beállítások megadása az EPUB-hoz PDF-be
+
 
 ## Bevezetés
 
@@ -111,3 +117,10 @@ A próbaverziónak lehetnek bizonyos korlátozásai, ezért ajánlatos a dokumen
 
 ### Hol kaphatok támogatást az Aspose.HTML for Java számára?
 Kérdéseire választ kaphat, és támogatást kérhet a[Aspose.HTML fórum](https://forum.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Applicare la licenza misurata in .NET con Aspose.HTML
 linktitle: Applicare la licenza a consumo in .NET
 second_title: Aspose.HTML API di manipolazione HTML .NET
 description: Scopri come applicare una licenza a consumo in Aspose.HTML per .NET. Gestisci in modo efficiente le tue esigenze di manipolazione HTML. Inizia subito!
-type: docs
 weight: 10
 url: /it/net/licensing-and-initialization/apply-metered-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Applicare la licenza misurata in .NET con Aspose.HTML
+
 In questo tutorial, ti guideremo attraverso il processo di applicazione di una licenza a consumo nella tua applicazione .NET usando Aspose.HTML. Una licenza a consumo è un modo comodo per gestire le licenze per le tue esigenze di manipolazione HTML. Seguendo i passaggi sottostanti, sarai in grado di applicare una licenza a consumo al tuo progetto Aspose.HTML per .NET.
 
 ## Prerequisiti
@@ -88,3 +94,9 @@ Una licenza a consumo ti consente di pagare Aspose.HTML su base pay-as-you-go, a
 
 ### Dove posso ottenere supporto o porre domande su Aspose.HTML per .NET?
  Puoi unirti alla comunità e cercare supporto su[Forum di Aspose](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

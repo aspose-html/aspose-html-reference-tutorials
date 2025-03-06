@@ -3,10 +3,16 @@ title: ตั้งค่าชุดอักขระใน Aspose.HTML สำ
 linktitle: ตั้งค่าชุดอักขระใน Aspose.HTML สำหรับ Java
 second_title: การประมวลผล Java HTML ด้วย Aspose.HTML
 description: เรียนรู้วิธีตั้งค่าชุดอักขระใน Aspose.HTML สำหรับ Java และแปลง HTML เป็น PDF ในคู่มือทีละขั้นตอนนี้ ตรวจสอบให้แน่ใจว่าเข้ารหัสและแสดงผลข้อความอย่างถูกต้อง
-type: docs
 weight: 10
 url: /th/java/configuring-environment/set-character-set/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ตั้งค่าชุดอักขระใน Aspose.HTML สำหรับ Java
+
 ## การแนะนำ
 หากคุณกำลังทำงานกับเอกสาร HTML ใน Java การตรวจสอบชุดอักขระที่ถูกต้องถือเป็นสิ่งสำคัญสำหรับการเข้ารหัสและการแสดงผลข้อความอย่างเหมาะสม ในคู่มือนี้ เราจะสำรวจวิธีการตั้งค่าชุดอักขระโดยใช้ Aspose.HTML สำหรับ Java บทช่วยสอนที่ครอบคลุมนี้จะแนะนำคุณตลอดทุกขั้นตอนของกระบวนการ โดยให้ความเข้าใจที่ชัดเจนเกี่ยวกับวิธีการจัดการชุดอักขระอย่างมีประสิทธิภาพ
 ## ข้อกำหนดเบื้องต้น
@@ -104,3 +110,9 @@ try {
  แม้ว่า Java จะมีตัวรวบรวมขยะ แต่ก็ถือเป็นแนวทางปฏิบัติที่ดีในการปล่อยทรัพยากรด้วยตนเอง เช่น การกำหนดค่าและเอกสารโดยใช้`dispose` วิธี.
 ### ฉันสามารถรับ Aspose.HTML สำหรับ Java แบบทดลองใช้งานฟรีได้ที่ไหน  
  คุณสามารถดาวน์โหลดรุ่นทดลองใช้งานฟรีได้จาก[หน้าวางจำหน่าย Aspose](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

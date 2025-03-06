@@ -3,10 +3,16 @@ title: Kết xuất nhiều tài liệu trong .NET với Aspose.HTML
 linktitle: Hiển thị nhiều tài liệu trong .NET
 second_title: Aspose.HTML .NET API thao tác HTML
 description: Học cách hiển thị nhiều tài liệu HTML bằng Aspose.HTML cho .NET. Tăng cường khả năng xử lý tài liệu của bạn với thư viện mạnh mẽ này.
-type: docs
 weight: 14
 url: /vi/net/rendering-html-documents/render-multiple-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kết xuất nhiều tài liệu trong .NET với Aspose.HTML
+
 Trong thế giới phát triển web và xử lý tài liệu nhanh chóng, việc có các công cụ phù hợp là điều cần thiết. Aspose.HTML cho .NET là một thư viện mạnh mẽ giúp các nhà phát triển có thể thao tác và hiển thị các tài liệu HTML một cách dễ dàng. Trong hướng dẫn này, chúng ta sẽ đi sâu vào việc hiển thị nhiều tài liệu bằng Aspose.HTML cho .NET.
 
 ## Điều kiện tiên quyết
@@ -91,3 +97,10 @@ Aspose.HTML for .NET là thư viện .NET cho phép các nhà phát triển thao
 
 ### 5. Tôi có thể nhận hỗ trợ cho Aspose.HTML cho .NET ở đâu?
  Bạn có thể tìm thấy sự hỗ trợ và thảo luận của cộng đồng trên[Diễn đàn Aspose.HTML](https://forum.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

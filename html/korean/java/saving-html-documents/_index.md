@@ -3,10 +3,16 @@ title: Java용 Aspose.HTML에서 HTML 문서 저장
 linktitle: Java용 Aspose.HTML에서 HTML 문서 저장
 second_title: Aspose.HTML을 사용한 Java HTML 처리
 description: HTML 문서 저장, 마크다운으로 변환 등을 안내하는 포괄적인 Aspose.HTML for Java 튜토리얼을 확인해 보세요.
-type: docs
 weight: 30
 url: /ko/java/saving-html-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.HTML에서 HTML 문서 저장
+
 ## 소개
 
 Java에서 HTML 문서를 처리하는 경우 Aspose.HTML은 다재다능한 라이브러리로 돋보입니다. HTML 문서 처리의 복잡성에 압도당해 본 적이 있다면 걱정하지 마세요! 이 튜토리얼 시리즈는 학습 곡선을 단순화하도록 맞춤 제작되었습니다. 주요 기능을 다루어 전문가처럼 HTML 문서를 저장하고 조작할 수 있도록 합니다. 
@@ -48,3 +54,9 @@ Java용 Aspose.HTML을 사용하여 HTML을 Markdown으로 쉽게 변환하세�
 이 단계별 가이드를 통해 Aspose.HTML for Java를 사용하여 HTML 문서를 MHTML로 저장하는 방법을 알아보세요. 이 가이드에는 코드 예제와 실용적인 팁이 포함되어 있습니다.
 ### [Java용 Aspose.HTML로 SVG 문서 저장](./save-svg-document/)
 이 간단한 단계별 가이드에는 예제가 가득 담겨 있으며, Java용 Aspose.HTML을 사용하여 SVG 문서를 저장하는 방법을 알아보세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Správa vnitřních a vnějších vlastností HTML v Aspose.HTML pro Java
 linktitle: Správa vnitřních a vnějších vlastností HTML v Aspose.HTML pro Java
 second_title: Java HTML zpracování s Aspose.HTML
 description: Naučte se, jak spravovat vnitřní a vnější vlastnosti HTML v Aspose.HTML for Java, pomocí tohoto podrobného průvodce, který je ideální pro webové vývojáře a tvůrce obsahu.
-type: docs
 weight: 15
 url: /cs/java/editing-html-documents/manage-inner-outer-html-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Správa vnitřních a vnějších vlastností HTML v Aspose.HTML pro Java
+
 ## Zavedení
 V dnešním světě zaměřeném na web je pochopení toho, jak manipulovat s HTML, zásadní pro vývojáře i tvůrce obsahu. Je to jako malování na digitální plátno, kde váš kód může diktovat vzhled a funkčnost. Zadejte Aspose.HTML for Java, vynikající knihovnu, která nabízí jedinečné možnosti programové správy HTML a CSS. V této příručce se ponoříme do světa Aspose.HTML tím, že prozkoumáme, jak spravovat vnitřní a vnější vlastnosti HTML, aby byl náš webový obsah nejen dynamický, ale také poutavý. Připoutejte se, když se vydáme na tuto poučnou cestu!
 
@@ -112,3 +118,10 @@ Aspose.HTML je primárně navržen pro Java aplikace, ale můžete jej využít 
 
 ### Kde najdu podporu, pokud narazím na problémy?  
  Pokud potřebujete pomoc, navštivte fóra Aspose[zde](https://forum.aspose.com/c/html/29) za rady od komunity vývojářů a odborníků Aspose.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

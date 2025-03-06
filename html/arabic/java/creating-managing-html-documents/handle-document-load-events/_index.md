@@ -3,10 +3,16 @@ title: التعامل مع أحداث تحميل المستندات في Aspose.
 linktitle: التعامل مع أحداث تحميل المستندات في Aspose.HTML لـ Java
 second_title: معالجة HTML باستخدام Java مع Aspose.HTML
 description: تعلم كيفية التعامل مع أحداث تحميل المستندات في Aspose.HTML for Java باستخدام هذا الدليل خطوة بخطوة. قم بتحسين تطبيقات الويب الخاصة بك.
-type: docs
 weight: 18
 url: /ar/java/creating-managing-html-documents/handle-document-load-events/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# التعامل مع أحداث تحميل المستندات في Aspose.HTML لـ Java
+
 ## مقدمة
 عندما يتعلق الأمر بتطوير الويب، فإن التعامل مع أحداث تحميل المستندات أمر بالغ الأهمية لضمان تشغيل تطبيقك بسلاسة وكفاءة. إذا كنت تعمل مع مستندات HTML في Java، فإن Aspose.HTML يوفر مكتبة قوية تتيح لك التعامل مع مستندات HTML بسهولة. في هذا البرنامج التعليمي، سنستكشف كيفية التعامل مع أحداث تحميل المستندات باستخدام Aspose.HTML لـ Java. سواء كنت مبتدئًا أو مطورًا متمرسًا، فسيرشدك هذا الدليل خلال العملية خطوة بخطوة.
 ## المتطلبات الأساسية
@@ -69,3 +75,9 @@ Aspose.HTML for Java هي مكتبة تسمح للمطورين بإنشاء مس
  نعم، يمكنك العثور على الدعم وطرح الأسئلة على[منتدى اسبوس](https://forum.aspose.com/c/html/29).
 ### كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.HTML؟
  يمكنك طلب ترخيص مؤقت عن طريق زيارة[صفحة الترخيص المؤقت لـ Aspose](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

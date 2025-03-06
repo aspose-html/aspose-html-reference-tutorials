@@ -3,10 +3,16 @@ title: Convertir EPUB en TIFF avec Aspose.HTML pour Java
 linktitle: Conversion d'EPUB en TIFF
 second_title: Traitement HTML Java avec Aspose.HTML
 description: Découvrez comment convertir un fichier EPUB en TIFF à l'aide d'Aspose.HTML pour Java. Suivez notre guide étape par étape pour une conversion de documents de haute qualité.
-type: docs
 weight: 14
 url: /fr/java/converting-epub-to-pdf/convert-epub-to-tiff/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Convertir EPUB en TIFF avec Aspose.HTML pour Java
+
 
 ## Introduction
 
@@ -94,3 +100,10 @@ Pour obtenir de l'aide supplémentaire et pour explorer davantage de fonctionnal
 
 ### Où puis-je trouver du support communautaire pour Aspose.HTML pour Java ?
     Vous pouvez rejoindre la communauté Aspose sur leur[forum](https://forum.aspose.com/) pour poser des questions, partager vos expériences et obtenir de l'aide d'autres utilisateurs et de l'équipe Aspose.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

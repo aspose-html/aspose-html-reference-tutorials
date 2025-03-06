@@ -3,10 +3,16 @@ title: تحويل EPUB إلى XPS باستخدام Aspose.HTML لـ Java
 linktitle: تحويل EPUB إلى XPS
 second_title: معالجة HTML باستخدام Java مع Aspose.HTML
 description: تعرف على كيفية تحويل EPUB إلى XPS باستخدام Aspose.HTML لـ Java. دليل خطوة بخطوة مع أمثلة التعليمات البرمجية. استكشف إمكانيات Aspose.HTML.
-type: docs
 weight: 10
 url: /ar/java/conversion-epub-to-xps/convert-epub-to-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحويل EPUB إلى XPS باستخدام Aspose.HTML لـ Java
+
 في هذا البرنامج التعليمي الشامل، سنطلعك على عملية تحويل مستندات EPUB إلى تنسيق XPS باستخدام Aspose.HTML for Java. وسأضمن لك ليس فقط تعلم كيفية تنفيذ هذه المهمة، بل وفهمها جيدًا أيضًا. 
 
 ## المتطلبات الأساسية
@@ -98,3 +104,9 @@ A1: Aspose.HTML for Java هي مكتبة قوية تسمح للمطورين با
 ### س5: أين يمكنني العثور على وثائق Aspose.HTML لـ Java؟
 
  ج5: يمكنك الرجوع إلى[التوثيق](https://reference.aspose.com/html/java/)للحصول على معلومات مفصلة حول استخدام Aspose.HTML لـ Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

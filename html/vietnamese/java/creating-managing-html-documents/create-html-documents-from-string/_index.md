@@ -3,10 +3,16 @@ title: Tạo tài liệu HTML từ chuỗi trong Aspose.HTML cho Java
 linktitle: Tạo tài liệu HTML từ chuỗi trong Aspose.HTML cho Java
 second_title: Xử lý HTML Java với Aspose.HTML
 description: Tìm hiểu cách tạo tài liệu HTML từ chuỗi trong Aspose.HTML cho Java với hướng dẫn từng bước này.
-type: docs
 weight: 15
 url: /vi/java/creating-managing-html-documents/create-html-documents-from-string/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo tài liệu HTML từ chuỗi trong Aspose.HTML cho Java
+
 ## Giới thiệu
 Tạo tài liệu HTML theo chương trình cung cấp tính linh hoạt và hiệu quả to lớn, đặc biệt là đối với các nhà phát triển muốn tạo nội dung động. Với Aspose.HTML cho Java, việc tạo tài liệu HTML từ chuỗi rất đơn giản và hiệu quả. Hướng dẫn này sẽ hướng dẫn bạn các bước cần thiết để thực hiện điều đó. Vì vậy, cho dù bạn đang pha chế một số nội dung web động hay chỉ cần một cách để tạo tài liệu HTML ngay lập tức, bạn đã đến đúng nơi rồi!
 ## Điều kiện tiên quyết
@@ -53,3 +59,9 @@ Chắc chắn rồi! Aspose.HTML cho phép các cấu trúc HTML phức tạp, b
  Có, Aspose cung cấp bản dùng thử miễn phí mà bạn có thể sử dụng để khám phá các tính năng của thư viện. Hãy xem thử[đây](https://releases.aspose.com/).
 ### Tôi có thể nhận hỗ trợ cho Aspose.HTML ở đâu?
  Bạn có thể tìm thấy sự hỗ trợ thông qua[Diễn đàn Aspose](https://forum.aspose.com/c/html/29).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.HTML for Java 中的自定义架构和消息处理
 linktitle: Aspose.HTML for Java 中的自定义架构和消息处理
 second_title: 使用 Aspose.HTML 进行 Java HTML 处理
 description: 通过自定义架构消息过滤和处理的教程，了解如何掌握 Aspose.HTML for Java。开始构建定制应用程序。
-type: docs
 weight: 24
 url: /zh/java/custom-schema-message-handling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.HTML for Java 中的自定义架构和消息处理
+
 ## 介绍
 
 在开发应用程序时，对数据通信进行精确控制的需求至关重要。想象一下，您尝试收听自己喜欢的电台，但收到的都是静态消息；这就是应用程序中未经过滤或管理不善的消息所带来的混乱感受。这就是 Aspose.HTML for Java 的优势所在，它允许开发人员实施自定义消息传递模式，从而高效地过滤、处理和简化数据交换。
@@ -28,3 +34,9 @@ url: /zh/java/custom-schema-message-handling/
 了解如何使用 Aspose.HTML 在 Java 中实现自定义架构消息过滤器。按照我们的分步指南，获得安全、量身定制的应用程序体验。
 ### [使用 Aspose.HTML for Java 自定义架构消息处理程序](./custom-schema-message-handler/)
 学习如何使用 Aspose.HTML for Java 创建自定义架构消息处理程序。本教程将逐步指导您完成整个过程。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

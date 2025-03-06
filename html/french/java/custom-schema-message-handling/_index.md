@@ -3,10 +3,16 @@ title: Schéma personnalisé et gestion des messages dans Aspose.HTML pour Java
 linktitle: Schéma personnalisé et gestion des messages dans Aspose.HTML pour Java
 second_title: Traitement HTML Java avec Aspose.HTML
 description: Découvrez comment maîtriser Aspose.HTML pour Java avec des tutoriels sur le filtrage et la gestion des messages de schéma personnalisés. Commencez à créer des applications sur mesure.
-type: docs
 weight: 24
 url: /fr/java/custom-schema-message-handling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Schéma personnalisé et gestion des messages dans Aspose.HTML pour Java
+
 ## Introduction
 
 En matière de développement d'applications, le besoin d'un contrôle précis de la communication des données est primordial. Imaginez que vous essayez d'écouter votre station de radio préférée, mais que vous n'obtenez que des sons statiques ; c'est à ce point que des messages non filtrés ou mal gérés peuvent sembler chaotiques dans votre application. C'est là qu'Aspose.HTML pour Java se démarque, en permettant aux développeurs d'implémenter des schémas de messagerie personnalisés qui filtrent, gèrent et rationalisent ainsi efficacement l'échange de données.
@@ -28,3 +34,9 @@ N'oublions pas non plus la gestion des messages. Imaginez-vous à la barre d'un 
 Découvrez comment implémenter un filtre de messages de schéma personnalisé en Java à l'aide d'Aspose.HTML. Suivez notre guide étape par étape pour une expérience d'application sécurisée et personnalisée.
 ### [Gestionnaire de messages de schéma personnalisé avec Aspose.HTML pour Java](./custom-schema-message-handler/)
 Apprenez à créer un gestionnaire de messages de schéma personnalisé à l'aide d'Aspose.HTML pour Java. Ce didacticiel vous guide étape par étape tout au long du processus.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

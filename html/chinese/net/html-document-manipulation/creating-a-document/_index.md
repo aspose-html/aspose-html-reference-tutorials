@@ -3,10 +3,16 @@ title: 使用 Aspose.HTML 在 .NET 中创建文档
 linktitle: 在 .NET 中创建文档
 second_title: Aspose.HTML .NET HTML 操作 API
 description: 释放 Aspose.HTML for .NET 的强大功能。学习轻松创建、操作和优化 HTML 和 SVG 文档。探索分步示例和常见问题解答。
-type: docs
 weight: 14
 url: /zh/net/html-document-manipulation/creating-a-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.HTML 在 .NET 中创建文档
+
 
 在不断发展的 Web 开发世界中，保持领先地位至关重要。Aspose.HTML for .NET 为开发人员提供了强大的工具包来处理 HTML 文档。无论您是从头开始、从文件加载、从 URL 提取还是处理 SVG 文档，此库都能提供您所需的多功能性。
 
@@ -234,3 +240,9 @@ A5：如需获取全面的文档和下载选项，您可以参考以下链接：
 - [买](https://purchase.aspose.com/buy)
 - [免费试用](https://releases.aspose.com/)
 - [临时执照](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.HTML for Java の ZIP ファイル スキーマ ハンドラー
 linktitle: Aspose.HTML for Java の ZIP ファイル スキーマ ハンドラー
 second_title: Aspose.HTML を使用した Java HTML 処理
 description: Aspose.HTML を使用して Java で ZIP ファイルの処理をマスターします。詳細なステップバイステップのガイダンスに従って、ZIP アーカイブから直接ファイルを提供する ZIP ファイル スキーマ ハンドラーを実装する方法を学習します。
-type: docs
 weight: 11
 url: /ja/java/handling-zip-files/zip-file-schema-handler/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.HTML for Java の ZIP ファイル スキーマ ハンドラー
+
 ## 導入
 複雑なHTML文書やWebアプリケーションを扱う場合、ZIPアーカイブなど、さまざまな形式で保存されたさまざまな種類のコンテンツを処理する必要があるかもしれません。ZIPファイル内からリソースをロードし、Webレスポンスの一部としてシームレスに提供しようとすると、難しいように聞こえますよね？ここで、`ZIPFileSchemaMessageHandler` Aspose.HTML for Java が役立ちます。このチュートリアルでは、ZIP ファイル スキーマ ハンドラーを実装して、Web アプリケーション内で ZIP アーカイブから直接ファイルを提供できるようにする方法について説明します。
 ## 前提条件
@@ -96,3 +102,9 @@ ZIP ファイルからリソースをロードする必要がある複雑な Web
 大きなファイルの場合は、メモリ使用量を削減し、パフォーマンスを向上させるために、ファイル チャンク化またはストリーミング技術を実装することを検討してください。
 ### このハンドラはマルチスレッド環境で使用できますか?
 はい、ただし、特に ZIP ファイルなどの共有リソースを扱う場合には、スレッドの安全性を確保する必要があります。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

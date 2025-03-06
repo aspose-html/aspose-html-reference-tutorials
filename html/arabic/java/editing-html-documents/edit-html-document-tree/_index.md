@@ -3,10 +3,16 @@ title: تحرير شجرة مستند HTML في Aspose.HTML لـ Java
 linktitle: تحرير شجرة مستند HTML في Aspose.HTML لـ Java
 second_title: معالجة HTML باستخدام Java مع Aspose.HTML
 description: اكتشف كيفية التعامل مع مستندات HTML باستخدام Aspose.HTML for Java. دليل خطوة بخطوة لإدارة المحتوى بكفاءة.
-type: docs
 weight: 10
 url: /ar/java/editing-html-documents/edit-html-document-tree/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحرير شجرة مستند HTML في Aspose.HTML لـ Java
+
 ## مقدمة
 عندما يتعلق الأمر بمعالجة مستندات HTML برمجيًا، توفر Aspose.HTML for Java للمطورين مجموعة أدوات قوية للعمل بها. سواء كنت تبحث عن إنشاء عناصر جديدة أو تعديل عناصر موجودة أو إدارة بنية المستند، تتيح لك هذه المكتبة التكامل السلس وممارسات الترميز الفعّالة. في هذا البرنامج التعليمي، ستتعلم كيفية تحرير شجرة مستندات HTML باستخدام Aspose.HTML for Java، وتقسيمها خطوة بخطوة.
 ## المتطلبات الأساسية
@@ -86,3 +92,9 @@ Aspose.HTML for Java هي مكتبة تسمح للمطورين بإنشاء وت
  نعم، يلزم الحصول على ترخيص صالح للاستخدام الممتد، ولكن يمكنك البدء بترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
 ### أين يمكنني العثور على الدعم لـ Aspose.HTML؟
  يمكنك الحصول على الدعم من منتدى Aspose[هنا](https://forum.aspose.com/c/html/29).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

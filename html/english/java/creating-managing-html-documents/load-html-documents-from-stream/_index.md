@@ -3,10 +3,16 @@ title: Load HTML Documents from Stream with Aspose.HTML for Java
 linktitle: Load HTML Documents from Stream with Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 description: Learn how to load HTML documents from streams using Aspose.HTML for Java. This guide provides a step-by-step tutorial for seamless HTML manipulation.
-type: docs
 weight: 14
 url: /java/creating-managing-html-documents/load-html-documents-from-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Load HTML Documents from Stream with Aspose.HTML for Java
+
 ## Introduction
 When it comes to working with HTML documents in Java, developers often find themselves in need of reliable and efficient libraries. One such powerful tool is Aspose.HTML for Java. This library offers an impressive array of features to manipulate and convert HTML content seamlessly. In this tutorial, we’ll dive into how to load HTML documents from a stream and save them to a file using Aspose.HTML, providing you with clear, step-by-step instructions.
 ## Prerequisites
@@ -58,3 +64,10 @@ Aspose.HTML for Java offers a free trial. For long-term use, you can purchase a 
 Check the [documentation](https://reference.aspose.com/html/java/) for more examples and detailed guides on using Aspose.HTML.
 ### What should I do if I encounter issues?
 If you run into any problems, consult the [support forum](https://forum.aspose.com/c/html/29) for assistance from the community or Aspose team.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

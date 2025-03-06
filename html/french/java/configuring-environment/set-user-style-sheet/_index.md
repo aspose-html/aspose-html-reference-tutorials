@@ -3,10 +3,16 @@ title: Définir la feuille de style utilisateur dans Aspose.HTML pour Java
 linktitle: Définir la feuille de style utilisateur dans Aspose.HTML pour Java
 second_title: Traitement HTML Java avec Aspose.HTML
 description: Découvrez comment définir une feuille de style utilisateur personnalisée dans Aspose.HTML pour Java, en améliorant le style de votre document et en convertissant facilement du HTML en PDF.
-type: docs
 weight: 16
 url: /fr/java/configuring-environment/set-user-style-sheet/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Définir la feuille de style utilisateur dans Aspose.HTML pour Java
+
 ## Introduction
 Vous avez déjà eu envie de modifier l'apparence de vos documents HTML avec votre propre style unique ? Imaginez que vous créez une page Web et que vous souhaitez vous assurer que les titres ressortent avec une certaine couleur ou que les paragraphes ont une apparence cohérente sur différents appareils. C'est là que les feuilles de style utilisateur entrent en jeu ! Dans ce didacticiel, nous verrons comment définir une feuille de style utilisateur personnalisée à l'aide d'Aspose.HTML pour Java. Que vous cherchiez à créer une conception cohérente pour vos documents ou que vous souhaitiez simplement expérimenter différents styles, ce guide vous guidera tout au long du processus de manière simple et attrayante.
 ## Prérequis
@@ -104,3 +110,9 @@ Oui, vous pouvez lier des fichiers CSS externes comme vous le feriez dans un doc
 Les propriétés CSS non prises en charge sont simplement ignorées, ce qui permet au reste de votre feuille de style d'être appliqué sans erreur.
 ### Puis-je convertir du HTML vers d’autres formats que PDF ?  
 Oui, Aspose.HTML pour Java prend en charge la conversion HTML en divers formats, notamment XPS, TIFF, etc.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

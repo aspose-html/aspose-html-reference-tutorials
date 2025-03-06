@@ -3,10 +3,16 @@ title: Implementujte sandboxing v Aspose.HTML pro Java
 linktitle: Implementujte sandboxing v Aspose.HTML pro Java
 second_title: Java HTML zpracování s Aspose.HTML
 description: Naučte se, jak implementovat sandboxing v Aspose.HTML pro Java, abyste bezpečně řídili provádění skriptů ve vašich dokumentech HTML a převáděli je do PDF.
-type: docs
 weight: 15
 url: /cs/java/configuring-environment/implement-sandboxing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Implementujte sandboxing v Aspose.HTML pro Java
+
 ## Zavedení
 tomto tutoriálu si projdeme, jak implementovat sandboxing pomocí Aspose.HTML pro Java. Provedeme vás od nastavení vašeho prostředí po napsání jednoduchého souboru HTML, konfiguraci karantény a převod vašeho HTML do PDF, to vše při zachování potenciálně škodlivých skriptů pod kontrolou. Ať už jste zkušený vývojář nebo teprve začínáte, tato příručka vám poskytne nástroje, které potřebujete k snadnému vytváření zabezpečeného webového obsahu.
 ## Předpoklady
@@ -89,3 +95,9 @@ Ne vždy, ale je to klíčové při práci s nedůvěryhodným obsahem nebo kdy�
  Skripty, které jsou v karanténě, se nespustí a jejich efekty (např`document.write`) se ve výstupu nezobrazí.
 ### Mohu převést izolovaný HTML do jiných formátů než PDF?
 Absolutně! Aspose.HTML for Java podporuje konverzi do různých formátů, včetně obrázků, XPS a dalších.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

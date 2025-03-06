@@ -3,10 +3,16 @@ title: Create Empty HTML Documents in Aspose.HTML for Java
 linktitle: Create Empty HTML Documents in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 description: Learn how to create empty HTML documents in Java using Aspose.HTML with our detailed step-by-step tutorial, perfect for developers of all levels.
-type: docs
 weight: 11
 url: /java/creating-managing-html-documents/create-empty-html-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Create Empty HTML Documents in Aspose.HTML for Java
+
 ## Introduction
 When it comes to handling HTML documents in Java, Aspose.HTML is a powerful toolkit that makes creating, manipulating, and managing HTML documents a breeze. Whether you're a developer looking to automate your HTML generation or someone who wants to add more functionality to your web applications, creating an empty HTML document is often the first step. In this guide, we'll walk you through the process of creating an empty HTML document using Aspose.HTML for Java. So, grab your favorite beverage, and let's dive in!
 ## Prerequisites
@@ -51,3 +57,10 @@ To get started, download the library from [this link](https://releases.aspose.co
 Failing to dispose of the document object could lead to memory leaks, especially in larger applications.
 ### Can I modify the HTML document after saving?
 Yes, you can reopen the saved document and modify its content as needed before saving it again.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

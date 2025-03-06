@@ -3,10 +3,16 @@ title: Tạo tài liệu XPS bằng XpsDevice trong .NET với Aspose.HTML
 linktitle: Tạo tài liệu XPS bằng XpsDevice trong .NET
 second_title: Aspose.HTML .NET API thao tác HTML
 description: Mở khóa tiềm năng phát triển web với Aspose.HTML cho .NET. Tạo, chuyển đổi và thao tác tài liệu HTML dễ dàng.
-type: docs
 weight: 19
 url: /vi/net/html-document-manipulation/generate-xps-documents-by-xpsdevice/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo tài liệu XPS bằng XpsDevice trong .NET với Aspose.HTML
+
 
 Trong thời đại kỹ thuật số, phát triển web hiệu quả thường dựa vào sự tích hợp của nhiều công cụ và thư viện khác nhau để hợp lý hóa quy trình phát triển. Aspose.HTML cho .NET là một trong những công cụ như vậy có thể cải thiện đáng kể các dự án phát triển web của bạn. Thư viện mạnh mẽ này cho phép bạn thao tác các tài liệu HTML theo chương trình. Trong hướng dẫn từng bước này, chúng tôi sẽ giới thiệu cho bạn về Aspose.HTML cho .NET, hướng dẫn bạn qua các điều kiện tiên quyết và trình bày cách bắt đầu sử dụng thư viện.
 
@@ -111,3 +117,9 @@ A2: Có, Aspose.HTML cho .NET tương thích với Windows, Linux và macOS, khi
 ### Câu hỏi 5: Tôi có thể tìm kiếm sự hỗ trợ hoặc trợ giúp về Aspose.HTML cho .NET ở đâu?
 
  A5: Nếu bạn gặp bất kỳ vấn đề hoặc có thắc mắc nào, bạn có thể truy cập[Diễn đàn Aspose.HTML](https://forum.aspose.com/) để được cộng đồng hỗ trợ hoặc liên hệ với nhóm hỗ trợ Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

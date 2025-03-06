@@ -3,10 +3,16 @@ title: Använd Metered License i .NET med Aspose.HTML
 linktitle: Använd Metered License i .NET
 second_title: Aspose.HTML .NET HTML manipulation API
 description: Lär dig hur du tillämpar en mätlicens i Aspose.HTML för .NET. Hantera dina HTML-manipuleringsbehov effektivt. Kom igång nu!
-type: docs
 weight: 10
 url: /sv/net/licensing-and-initialization/apply-metered-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Använd Metered License i .NET med Aspose.HTML
+
 den här självstudien guidar vi dig genom processen att ansöka om en uppmätt licens i din .NET-applikation med Aspose.HTML. En uppmätt licens är ett bekvämt sätt att hantera licenser för dina HTML-manipuleringsbehov. Genom att följa stegen nedan kommer du att kunna tillämpa en mätlicens på ditt Aspose.HTML for .NET-projekt.
 
 ## Förutsättningar
@@ -88,3 +94,9 @@ En uppmätt licens tillåter dig att betala för Aspose.HTML på en pay-as-you-g
 
 ### Var kan jag få support eller ställa frågor om Aspose.HTML för .NET?
  Du kan gå med i gemenskapen och söka stöd på[Aspose-forum](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

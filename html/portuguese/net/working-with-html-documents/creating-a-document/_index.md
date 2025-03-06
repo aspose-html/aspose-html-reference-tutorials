@@ -3,10 +3,16 @@ title: Criando um documento HTML no .NET com Aspose.HTML
 linktitle: Criando um documento HTML no .NET
 second_title: Aspose.HTML .NET API de manipulação de HTML
 description: Aprenda a criar documentos HTML em .NET usando Aspose.HTML, do zero ou de URLs. Um tutorial abrangente para desenvolvedores web.
-type: docs
 weight: 10
 url: /pt/net/working-with-html-documents/creating-a-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Criando um documento HTML no .NET com Aspose.HTML
+
 
 No reino do desenvolvimento web e manipulação de dados, ter uma ferramenta poderosa para criar, modificar e trabalhar com documentos HTML é indispensável. Aspose.HTML para .NET é uma dessas ferramentas que pode simplificar suas tarefas relacionadas a HTML. Neste tutorial abrangente, exploraremos como criar documentos HTML usando Aspose.HTML para .NET passo a passo. Antes de mergulharmos nos exemplos, vamos cobrir alguns pré-requisitos.
 
@@ -159,3 +165,10 @@ A3: A documentação pode ser encontrada em[https://reference.aspose.com/html/ne
 
 ### P5: Posso usar Aspose.HTML para .NET em meus aplicativos web?
 R5: Sim, o Aspose.HTML para .NET é compatível com aplicativos web, o que o torna uma escolha versátil para projetos de desktop e baseados na web.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

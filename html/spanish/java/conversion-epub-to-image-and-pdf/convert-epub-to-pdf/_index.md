@@ -3,10 +3,16 @@ title: Conversión de EPUB a PDF con Aspose.HTML para Java
 linktitle: Conversión de EPUB a PDF
 second_title: Procesamiento de HTML en Java con Aspose.HTML
 description: Aprenda a convertir EPUB a PDF con Aspose.HTML para Java. Esta guía paso a paso cubre los requisitos previos, las importaciones de paquetes y los ejemplos de código. Comience a convertir EPUB a PDF.
-type: docs
 weight: 11
 url: /es/java/conversion-epub-to-image-and-pdf/convert-epub-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Conversión de EPUB a PDF con Aspose.HTML para Java
+
 En este completo tutorial, le guiaremos a través del proceso de uso de Aspose.HTML para Java para convertir documentos EPUB a PDF sin esfuerzo. Aspose.HTML es una potente biblioteca de Java que le permite realizar varias tareas relacionadas con HTML, incluida la conversión de EPUB a PDF. En esta guía paso a paso, cubriremos los requisitos previos, importaremos los paquetes necesarios y brindaremos ejemplos detallados para ayudarlo a convertir sus archivos EPUB al formato PDF.
 
 ## Prerrequisitos
@@ -98,3 +104,9 @@ A4: Aspose.HTML para Java requiere un entorno de desarrollo de Java. Asegúrese 
 ### Q5: ¿Puedo personalizar las opciones de conversión de PDF usando Aspose.HTML para Java?
 
 A5: Sí, puedes personalizar las opciones de conversión de PDF, como la calidad JPEG, como se muestra en el tutorial.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

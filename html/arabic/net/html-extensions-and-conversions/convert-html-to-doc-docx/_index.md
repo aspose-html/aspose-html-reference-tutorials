@@ -3,10 +3,16 @@ title: تحويل HTML إلى DOC و DOCX في .NET باستخدام Aspose.HTML
 linktitle: تحويل HTML إلى DOC و DOCX في .NET
 second_title: Aspose.HTML .NET HTML manipulation API
 description: تعرف على كيفية الاستفادة من قوة Aspose.HTML لـ .NET في هذا الدليل التفصيلي. قم بتحويل HTML إلى DOCX بسهولة وارتق بمشاريع .NET الخاصة بك. ابدأ اليوم!
-type: docs
 weight: 15
 url: /ar/net/html-extensions-and-conversions/convert-html-to-doc-docx/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحويل HTML إلى DOC و DOCX في .NET باستخدام Aspose.HTML
+
 
 في مجال تطوير .NET، يعد Aspose.HTML أداة قوية تتيح لك التعامل مع مستندات HTML ومعالجتها بسهولة. سواء كنت ترغب في تحويل HTML إلى تنسيقات أخرى، أو استخراج البيانات، أو ببساطة تحسين مشاريعك المتعلقة بالويب، فإن Aspose.HTML هو الحل الأمثل لك. في هذا الدليل الشامل، سنرشدك خلال الخطوات الأساسية للبدء في استخدام Aspose.HTML لـ .NET.
 
@@ -103,3 +109,9 @@ Aspose.HTML for .NET هي مكتبة تتيح لمطوري .NET التعامل �
 
 ### أين يمكنني الحصول على المساعدة أو الدعم لـ Aspose.HTML لـ .NET؟
  يمكنك زيارة منتديات Aspose للحصول على الدعم ومناقشات المجتمع[هنا](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

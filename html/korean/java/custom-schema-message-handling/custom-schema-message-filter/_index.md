@@ -3,10 +3,16 @@ title: Java용 Aspose.HTML에서 사용자 정의 스키마 메시지 필터링
 linktitle: Java용 Aspose.HTML에서 사용자 정의 스키마 메시지 필터링
 second_title: Aspose.HTML을 사용한 Java HTML 처리
 description: Aspose.HTML을 사용하여 Java에서 사용자 정의 스키마 메시지 필터를 구현하는 방법을 알아보세요. 안전하고 맞춤화된 애플리케이션 경험을 위한 단계별 가이드를 따르세요.
-type: docs
 weight: 10
 url: /ko/java/custom-schema-message-handling/custom-schema-message-filter/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.HTML에서 사용자 정의 스키마 메시지 필터링
+
 ## 소개
  특정 요구 사항에 맞는 사용자 정의 솔루션을 만들려면 사용 가능한 도구와 라이브러리를 자세히 살펴봐야 하는 경우가 많습니다. Java에서 HTML 문서로 작업할 때 Aspose.HTML for Java API는 요구 사항에 맞게 조정할 수 있는 다양한 기능을 제공합니다. 이러한 사용자 정의 중 하나는 다음을 사용하여 사용자 정의 스키마를 기반으로 메시지를 필터링하는 것입니다.`MessageFilter`클래스. 이 가이드에서는 Java용 Aspose.HTML을 사용하여 사용자 지정 스키마 메시지 필터를 구현하는 과정을 안내합니다. 노련한 개발자이든 방금 시작했든 이 튜토리얼은 애플리케이션의 특정 요구 사항에 맞게 조정된 강력한 필터링 메커니즘을 만드는 데 도움이 됩니다.
 ## 필수 조건
@@ -92,3 +98,9 @@ Aspose.HTML for Java는 Java 애플리케이션 내에서 HTML 문서를 조작�
 Aspose.HTML for Java는 JDK 8 이상 버전과 호환됩니다. 최적의 성능을 위해 항상 지원되는 버전을 사용하고 있는지 확인하세요.
 ### Java용 Aspose.HTML에 대한 지원은 어떻게 받을 수 있나요?
  다음을 통해 지원에 액세스할 수 있습니다.[Aspose 지원 포럼](https://forum.aspose.com/c/html/29), 커뮤니티와 Aspose 개발자에게 질문을 하고 도움을 받을 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Использование расширенного свойства со
 linktitle: Использование расширенного свойства содержимого в .NET
 second_title: API манипуляции HTML Aspose.HTML .NET
 description: Узнайте, как использовать Aspose.HTML для .NET с помощью этого пошагового руководства. Улучшите свои навыки HTML и оптимизируйте свои проекты веб-разработки.
-type: docs
 weight: 14
 url: /ru/net/advanced-features/use-extended-content-property/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Использование расширенного свойства содержимого в .NET с Aspose.HTML
+
 
 В мире веб-разработки работа с HTML является фундаментальным навыком. Aspose.HTML для .NET — это мощный инструмент, который может сделать ваши задачи, связанные с HTML, более простыми и эффективными. Это руководство проведет вас через шаги, необходимые для начала работы с Aspose.HTML для .NET, включая предварительные условия, импорт пространств имен и разбивку каждого примера на простые для выполнения шаги.
 
@@ -123,3 +129,10 @@ using (XpsDevice device = new XpsDevice(dataDir + "output_out.xps"))
 ### Существуют ли какие-либо дополнительные ресурсы или учебные пособия по Aspose.HTML для .NET?
     Да, вы можете найти больше руководств и документации на[Веб-сайт Aspose.HTML](https://reference.aspose.com/html/net/).
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

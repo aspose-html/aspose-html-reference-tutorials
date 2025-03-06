@@ -3,10 +3,16 @@ title: Modifier l'arborescence du document HTML dans Aspose.HTML pour Java
 linktitle: Modifier l'arborescence du document HTML dans Aspose.HTML pour Java
 second_title: Traitement HTML Java avec Aspose.HTML
 description: Découvrez comment manipuler des documents HTML avec Aspose.HTML pour Java. Un guide étape par étape pour une gestion efficace du contenu.
-type: docs
 weight: 10
 url: /fr/java/editing-html-documents/edit-html-document-tree/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Modifier l'arborescence du document HTML dans Aspose.HTML pour Java
+
 ## Introduction
 Lorsqu'il s'agit de manipuler des documents HTML par programmation, Aspose.HTML pour Java offre aux développeurs une boîte à outils robuste avec laquelle travailler. Que vous cherchiez à créer de nouveaux éléments, à modifier des éléments existants ou à gérer la structure du document, cette bibliothèque permet une intégration transparente et des pratiques de codage efficaces. Dans ce didacticiel, vous apprendrez à modifier l'arborescence du document HTML à l'aide d'Aspose.HTML pour Java, en la décomposant étape par étape.
 ## Prérequis
@@ -86,3 +92,9 @@ Aspose.HTML pour Java est une bibliothèque qui permet aux développeurs de cré
  Oui, une licence valide est requise pour une utilisation prolongée, mais vous pouvez commencer avec une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).
 ### Où puis-je trouver du support pour Aspose.HTML ?
  Vous pouvez obtenir de l'aide sur le forum Aspose[ici](https://forum.aspose.com/c/html/29).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

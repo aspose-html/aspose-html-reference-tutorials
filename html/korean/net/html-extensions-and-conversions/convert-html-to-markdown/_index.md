@@ -3,10 +3,16 @@ title: Aspose.HTML을 사용하여 .NET에서 HTML을 마크다운으로 변환
 linktitle: .NET에서 HTML을 마크다운으로 변환
 second_title: Aspose.HTML .NET HTML 조작 API
 description: Aspose.HTML을 사용하여 .NET에서 HTML을 Markdown으로 변환하는 방법을 알아보고 효율적인 콘텐츠 조작을 하세요. 원활한 변환 프로세스를 위한 단계별 가이드를 받으세요.
-type: docs
 weight: 18
 url: /ko/net/html-extensions-and-conversions/convert-html-to-markdown/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.HTML을 사용하여 .NET에서 HTML을 마크다운으로 변환
+
 
 ## 소개
 
@@ -109,3 +115,10 @@ using (var document = new Aspose.Html.HTMLDocument("<p>my first paragraph</p>", 
 ### 5. 구매하기 전에 Aspose.HTML for .NET을 사용해 볼 수 있나요?
 
  물론입니다! .NET용 Aspose.HTML의 무료 평가판 버전을 다운로드할 수 있습니다.[여기](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

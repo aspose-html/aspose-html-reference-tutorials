@@ -3,10 +3,16 @@ title: Créer un document simple dans .NET avec Aspose.HTML
 linktitle: Créer un document simple dans .NET
 second_title: API de manipulation HTML Aspose.HTML .NET
 description: Apprenez à travailler avec des documents HTML dans .NET à l'aide d'Aspose.HTML. Créez, manipulez et convertissez du HTML sans effort. Commencez dès aujourd'hui !
-type: docs
 weight: 11
 url: /fr/net/working-with-html-documents/creating-a-simple-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Créer un document simple dans .NET avec Aspose.HTML
+
 
 ## Introduction
 
@@ -152,3 +158,10 @@ Aspose.HTML pour .NET est une bibliothèque .NET qui fournit des fonctionnalité
 ### 5. Où puis-je obtenir de l'aide pour Aspose.HTML pour .NET ?
 
  Vous pouvez obtenir de l'aide et poser des questions sur Aspose.HTML pour .NET sur le[Forum Aspose](https://forum.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Creating Message Handler Pipelines in Aspose.HTML for Java
 linktitle: Creating Message Handler Pipelines in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 description: Learn how to create message handler pipelines in Aspose.HTML for Java with this detailed, step-by-step guide. Convert ZIPs to PDF effortlessly.
-type: docs
 weight: 13
 url: /java/message-handling-networking/message-handler-pipeline/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Creating Message Handler Pipelines in Aspose.HTML for Java
+
 ## Introduction
 In this guide, we’ll take a closer look at how to create message handler pipelines with Aspose.HTML. Whether you’re a seasoned developer or a coding newbie looking to enhance your skills, this tutorial will provide you with all the essential step-by-step instructions, tips, and tricks you need to get started with this fantastic library. Let’s get into it!
 ## Prerequisites
@@ -119,3 +125,10 @@ Yes, Aspose provides a free trial. You can sign up for it [here](https://release
 For any inquiries, you can visit the [Aspose Support Forum](https://forum.aspose.com/c/html/29).
 ### What are message handlers in Aspose.HTML?
 Message handlers are components that process various stages in the document manipulation pipeline, like logging durations or converting document formats.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

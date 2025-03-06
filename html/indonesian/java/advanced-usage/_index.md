@@ -3,10 +3,16 @@ title: Penggunaan Lanjutan Aspose.HTML Tutorial Java
 linktitle: Penggunaan Lanjutan Aspose.HTML Java
 second_title: Pemrosesan HTML Java dengan Aspose.HTML
 description: Pelajari cara menyesuaikan margin halaman HTML, menerapkan DOM Mutation Observer, memanipulasi HTML5 Canvas, mengotomatiskan pengisian formulir HTML, dan banyak lagi menggunakan Aspose.HTML Java.
-type: docs
 weight: 20
 url: /id/java/advanced-usage/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Penggunaan Lanjutan Aspose.HTML Tutorial Java
+
 
 Dalam dunia pengembangan web, menguasai seni manipulasi HTML sangatlah penting. Aspose.HTML untuk Java menghadirkan banyak fitur yang memungkinkan Anda membawa keterampilan HTML Anda ke tingkat berikutnya. Dalam artikel ini, kami akan membahas beberapa teknik tingkat lanjut yang akan membantu Anda memanfaatkan kekuatan Aspose.HTML untuk Java.
 
@@ -51,3 +57,9 @@ Pelajari cara mengotomatiskan pengisian dan pengiriman formulir HTML dengan Aspo
 Pelajari cara menyesuaikan ukuran halaman PDF dengan Aspose.HTML untuk Java. Buat PDF berkualitas tinggi dari HTML dengan mudah. Kontrol dimensi halaman secara efektif.
 ### [Sesuaikan Ukuran Halaman XPS dengan Aspose.HTML untuk Java](./adjust-xps-page-size/)
 Pelajari cara menyesuaikan ukuran halaman XPS dengan Aspose.HTML untuk Java. Kontrol dimensi keluaran dokumen XPS Anda dengan mudah.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

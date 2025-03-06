@@ -3,10 +3,16 @@ title: Trình xử lý tin nhắn lược đồ tùy chỉnh với Aspose.HTML c
 linktitle: Trình xử lý tin nhắn lược đồ tùy chỉnh với Aspose.HTML cho Java
 second_title: Xử lý HTML Java với Aspose.HTML
 description: Học cách tạo trình xử lý tin nhắn lược đồ tùy chỉnh bằng Aspose.HTML cho Java. Hướng dẫn này hướng dẫn bạn từng bước trong suốt quá trình.
-type: docs
 weight: 11
 url: /vi/java/custom-schema-message-handling/custom-schema-message-handler/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Trình xử lý tin nhắn lược đồ tùy chỉnh với Aspose.HTML cho Java
+
 ## Giới thiệu
 Xin chào, các nhà phát triển đồng nghiệp! Nếu bạn đang muốn cải thiện các ứng dụng Java của mình bằng khả năng thao tác HTML mạnh mẽ, bạn đã đến đúng nơi rồi. Hôm nay, chúng ta sẽ đi sâu vào cách tạo trình xử lý tin nhắn lược đồ tùy chỉnh bằng Aspose.HTML cho Java. Hãy tưởng tượng rằng bạn là một đầu bếp đang chế biến một món ăn đặc biệt; trình xử lý này giống như nước sốt bí mật của bạn, giúp nâng tầm một công thức nấu ăn thông thường thành một bữa ăn ngon. Nó cho phép bạn quản lý và lọc tin nhắn HTML một cách liền mạch dựa trên các thông số kỹ thuật lược đồ của riêng bạn.
 ## Điều kiện tiên quyết
@@ -92,3 +98,9 @@ Aspose.HTML for Java được sử dụng để thao tác và chuyển đổi c�
  Có, bạn có thể mua giấy phép vĩnh viễn cho Aspose.HTML[đây](https://purchase.aspose.com/buy).
 ### Tôi có thể tìm thấy sự hỗ trợ cho Aspose.HTML ở đâu?
  Bạn có thể truy cập hỗ trợ bằng cách truy cập diễn đàn Aspose dành cho HTML[đây](https://forum.aspose.com/c/html/29).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

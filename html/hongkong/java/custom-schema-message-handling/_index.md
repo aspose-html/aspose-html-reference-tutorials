@@ -3,10 +3,16 @@ title: Aspose.HTML for Java 中的自訂架構和訊息處理
 linktitle: Aspose.HTML for Java 中的自訂架構和訊息處理
 second_title: 使用 Aspose.HTML 進行 Java HTML 處理
 description: 透過有關自訂架構訊息過濾和處理的教學課程，了解如何掌握 Aspose.HTML for Java。開始建立客製化的應用程式。
-type: docs
 weight: 24
 url: /zh-hant/java/custom-schema-message-handling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.HTML for Java 中的自訂架構和訊息處理
+
 ## 介紹
 
 在開發應用程式時，對資料通訊的精確控制的需求至關重要。想像嘗試收聽您最喜歡的廣播電台，但您收到的只是靜態的；這就是應用程式中未經過濾或管理不善的消息混亂的感覺。這就是 Aspose.HTML for Java 的閃光點，它允許開發人員實現自訂訊息傳遞模式，以過濾、處理數據，從而有效地簡化資料交換。
@@ -28,3 +34,9 @@ url: /zh-hant/java/custom-schema-message-handling/
 了解如何使用 Aspose.HTML 在 Java 中實作自訂架構訊息過濾器。請遵循我們的逐步指南，以獲得安全、客製化的應用程式體驗。
 ### [使用 Aspose.HTML for Java 自訂架構訊息處理程序](./custom-schema-message-handler/)
 學習使用 Aspose.HTML for Java 建立自訂架構訊息處理程序。本教學將引導您逐步完成流程。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

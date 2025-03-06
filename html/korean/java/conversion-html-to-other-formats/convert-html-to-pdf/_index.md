@@ -3,10 +3,16 @@ title: Java용 Aspose.HTML을 사용한 HTML에서 PDF로 변환
 linktitle: HTML을 PDF로 변환
 second_title: Aspose.HTML을 사용한 Java HTML 처리
 description: Aspose.HTML을 사용하여 Java에서 HTML을 PDF로 변환하는 방법을 알아보세요. HTML 콘텐츠에서 고품질 PDF를 손쉽게 만들어보세요.
-type: docs
 weight: 10
 url: /ko/java/conversion-html-to-other-formats/convert-html-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.HTML을 사용한 HTML에서 PDF로 변환
+
 디지털 시대에 HTML 콘텐츠를 PDF 파일로 변환해야 하는 것은 다양한 애플리케이션에 공통적인 요구 사항입니다. 웹 페이지를 보관하든, 보고서를 생성하든, 인쇄 가능한 문서를 만들든, 신뢰할 수 있고 효율적인 도구를 갖는 것이 중요합니다. Aspose.HTML for Java는 이 작업에 대한 강력한 솔루션을 제공합니다. 이 단계별 가이드에서는 Aspose.HTML for Java를 사용하여 HTML을 PDF로 변환하는 과정을 안내합니다. 하지만 세부 사항을 살펴보기 전에 시작하는 데 필요한 전제 조건을 살펴보겠습니다.
 
 ## 필수 조건
@@ -99,3 +105,9 @@ A4: Java용 Aspose.HTML은 대용량 HTML 문서를 처리할 수 있지만, 문
 ### Q5: 웹 애플리케이션에서 Java용 Aspose.HTML을 사용할 수 있나요?
 
 답변: 네, Aspose.HTML for Java를 웹 애플리케이션에 통합하여 HTML을 PDF로 변환할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

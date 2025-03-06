@@ -3,10 +3,16 @@ title: Konversi EPUB ke Gambar Menggunakan Aspose.HTML untuk Java
 linktitle: Menentukan Opsi Penyimpanan Gambar untuk Konversi EPUB ke Gambar
 second_title: Pemrosesan HTML Java dengan Aspose.HTML
 description: Pelajari cara mengonversi file EPUB menjadi gambar menggunakan Aspose.HTML untuk Java. Panduan langkah demi langkah ini mencakup prasyarat, impor paket, dan proses konversi.
-type: docs
 weight: 16
 url: /id/java/converting-between-epub-and-image-formats/convert-epub-to-image-specify-image-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konversi EPUB ke Gambar Menggunakan Aspose.HTML untuk Java
+
 Dalam dunia pengembangan web yang terus berkembang, Aspose.HTML untuk Java merupakan alat yang hebat, dan hari ini, kita akan membahas aspek krusialnya: menentukan opsi penyimpanan gambar untuk konversi EPUB ke gambar. Dalam panduan langkah demi langkah ini, Anda akan mempelajari cara memanfaatkan kemampuan Aspose.HTML untuk Java dengan mudah untuk mengonversi file EPUB menjadi gambar. Namun, sebelum kita membahas detailnya, mari kita pastikan prasyaratnya sudah terpenuhi.
 
 ## Prasyarat
@@ -108,3 +114,9 @@ A3: Anda dapat menerapkan penanganan kesalahan menggunakan blok try-catch untuk 
 ### Q5: Apakah Aspose.HTML untuk Java kompatibel dengan semua versi Java?
 
 A5: Aspose.HTML untuk Java kompatibel dengan Java 1.7 atau versi yang lebih baru, membuatnya cocok untuk berbagai lingkungan Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

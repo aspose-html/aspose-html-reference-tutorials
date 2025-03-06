@@ -3,10 +3,16 @@ title: Vlastní schéma a zpracování zpráv v Aspose.HTML pro Javu
 linktitle: Vlastní schéma a zpracování zpráv v Aspose.HTML pro Javu
 second_title: Java HTML zpracování s Aspose.HTML
 description: Zjistěte, jak zvládnout Aspose.HTML pro Java pomocí výukových programů pro filtrování a zpracování zpráv vlastního schématu. Začněte vytvářet aplikace na míru.
-type: docs
 weight: 24
 url: /cs/java/custom-schema-message-handling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vlastní schéma a zpracování zpráv v Aspose.HTML pro Javu
+
 ## Zavedení
 
 Při vývoji aplikací je prvořadá potřeba přesné kontroly nad datovou komunikací. Představte si, že se pokoušíte naladit svou oblíbenou rozhlasovou stanici, ale vše, co dostáváte, je statické; tak mohou ve vaší aplikaci působit chaotické nefiltrované nebo špatně spravované zprávy. To je místo, kde Aspose.HTML for Java září a umožňuje vývojářům implementovat vlastní schémata zpráv, která filtrují, zpracovávají a tím efektivně zefektivňují výměnu dat.
@@ -28,3 +34,9 @@ Nyní nezapomeňme na zpracování zpráv. Představte si sami sebe u kormidla l
 Naučte se implementovat vlastní filtr zpráv schématu v Javě pomocí Aspose.HTML. Postupujte podle našeho podrobného průvodce pro bezpečné, přizpůsobené aplikační prostředí.
 ### [Custom Schema Message Handler s Aspose.HTML pro Javu](./custom-schema-message-handler/)
 Naučte se vytvářet vlastní obslužnou rutinu zpráv schématu pomocí Aspose.HTML for Java. Tento tutoriál vás krok za krokem provede celým procesem.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

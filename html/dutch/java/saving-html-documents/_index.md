@@ -3,10 +3,16 @@ title: HTML-documenten opslaan in Aspose.HTML voor Java
 linktitle: HTML-documenten opslaan in Aspose.HTML voor Java
 second_title: Java HTML-verwerking met Aspose.HTML
 description: Ontdek uitgebreide Aspose.HTML voor Java-zelfstudies die u helpen bij het opslaan van HTML-documenten, het converteren naar Markdown en meer.
-type: docs
 weight: 30
 url: /nl/java/saving-html-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# HTML-documenten opslaan in Aspose.HTML voor Java
+
 ## Invoering
 
 Als het gaat om het verwerken van HTML-documenten in Java, onderscheidt Aspose.HTML zich als een veelzijdige bibliotheek. Als u zich ooit overweldigd hebt gevoeld door de complexiteit van HTML-documentverwerking, vrees dan niet! Deze tutorialserie is speciaal ontworpen om uw leercurve te vereenvoudigen. We behandelen belangrijke functionaliteiten, zodat u HTML-documenten als een professional kunt opslaan en bewerken. 
@@ -48,3 +54,9 @@ Converteer HTML eenvoudig naar Markdown met Aspose.HTML voor Java. Volg deze sta
 Leer hoe u HTML-documenten als MHTML kunt opslaan met Aspose.HTML voor Java met deze stapsgewijze handleiding, compleet met codevoorbeelden en praktische tips.
 ### [SVG-document opslaan in Aspose.HTML voor Java](./save-svg-document/)
 Leer hoe u SVG-documenten kunt opslaan met Aspose.HTML voor Java met deze eenvoudige stapsgewijze handleiding vol voorbeelden.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

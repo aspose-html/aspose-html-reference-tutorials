@@ -3,10 +3,16 @@ title: تحويل HTML إلى Markdown في Aspose.HTML لـ Java
 linktitle: تحويل HTML إلى Markdown في Aspose.HTML لـ Java
 second_title: معالجة HTML باستخدام Java مع Aspose.HTML
 description: يمكنك تحويل HTML إلى Markdown بسهولة باستخدام Aspose.HTML for Java. اتبع هذا الدليل خطوة بخطوة لتحويل المحتوى ومعالجته بسلاسة.
-type: docs
 weight: 12
 url: /ar/java/saving-html-documents/convert-html-to-markdown/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحويل HTML إلى Markdown في Aspose.HTML لـ Java
+
 ## مقدمة
 في العصر الرقمي الحالي، أصبح تحويل تنسيقات المحتوى أكثر من مجرد ضرورة تقنية؛ بل إنه عملية إبداعية يمكنها تحسين طريقة عرض الأفكار عبر منصات مختلفة. ومن بين التحويلات الشائعة تحويل HTML (لغة ترميز النص التشعبي) إلى Markdown—وهو تنسيق أبسط وأسهل قراءة ويستخدم على نطاق واسع في التوثيق وملفات readme والتدوين. ومع Aspose.HTML لـ Java، تصبح هذه المهمة مباشرة وفعالة. فلنشرع في هذه الرحلة لفهم كيفية تحويل HTML بسلاسة إلى Markdown باستخدام هذه المكتبة الرائعة.
 ## المتطلبات الأساسية
@@ -65,3 +71,9 @@ Aspose.HTML for Java عبارة عن مكتبة قوية تتيح للمطوري
  يمكنك طلب المساعدة من[منتدى دعم Aspose](https://forum.aspose.com/c/html/29) حيث يمكنك طرح الأسئلة والحصول على المساعدة من المجتمع.
 ### هل يمكنني استخدام Aspose.HTML لـ Java في تطبيقات الويب؟
 بالتأكيد! يمكن دمج Aspose.HTML بسلاسة في تطبيقات الويب Java، مما يجعله متعدد الاستخدامات لتلبية احتياجات التطوير المختلفة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

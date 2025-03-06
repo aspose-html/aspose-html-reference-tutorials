@@ -3,10 +3,16 @@ title: Генерация изображений PNG с помощью ImageDevi
 linktitle: Генерация изображений PNG с помощью ImageDevice в .NET
 second_title: API манипуляции HTML Aspose.HTML .NET
 description: Изучите Aspose.HTML для .NET для работы с HTML-документами, преобразования HTML в изображения и т. д. Пошаговое руководство с часто задаваемыми вопросами.
-type: docs
 weight: 11
 url: /ru/net/generate-jpg-and-png-images/generate-png-images-by-imagedevice/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Генерация изображений PNG с помощью ImageDevice в .NET с Aspose.HTML
+
 
 Вы готовы использовать мощь Aspose.HTML для .NET для создания потрясающих веб-страниц и управления HTML-документами? Это всеобъемлющее руководство проведет вас через основы, от предварительных условий до сложных примеров. Мы разберем каждый шаг и гарантируем, что вы поймете каждый аспект этой универсальной библиотеки.
 
@@ -109,3 +115,9 @@ A3: Да, вы можете получить бесплатную пробную
 ### В5: Как приобрести лицензию на Aspose.HTML для .NET?
 
  A5: Вы можете приобрести лицензию у[https://purchase.aspose.com/buy](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

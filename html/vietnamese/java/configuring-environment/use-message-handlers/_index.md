@@ -3,10 +3,16 @@ title: Sử dụng Trình xử lý tin nhắn trong Aspose.HTML cho Java
 linktitle: Sử dụng Trình xử lý tin nhắn trong Aspose.HTML cho Java
 second_title: Xử lý HTML Java với Aspose.HTML
 description: Tìm hiểu cách sử dụng trình xử lý tin nhắn trong Aspose.HTML cho Java để xử lý hình ảnh bị thiếu và các hoạt động mạng khác một cách hiệu quả.
-type: docs
 weight: 12
 url: /vi/java/configuring-environment/use-message-handlers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sử dụng Trình xử lý tin nhắn trong Aspose.HTML cho Java
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn qua một ví dụ thực tế về cách sử dụng trình xử lý tin nhắn trong Aspose.HTML cho Java. Chúng tôi sẽ chuẩn bị một tài liệu HTML đơn giản tham chiếu đến một hình ảnh bị thiếu và trình bày cách bắt và xử lý lỗi bằng trình xử lý tin nhắn tùy chỉnh. Cho dù bạn mới làm quen với Aspose.HTML hay đang muốn mở rộng kỹ năng của mình, hướng dẫn này sẽ cung cấp cho bạn những hiểu biết cần thiết để quản lý các hoạt động mạng hiệu quả.
 ## Điều kiện tiên quyết
@@ -109,3 +115,9 @@ Có, bạn có thể kết nối nhiều trình xử lý tin nhắn với nhau �
 Có, việc loại bỏ các đối tượng này sẽ đảm bảo giải phóng mọi tài nguyên một cách hợp lý, ngăn ngừa rò rỉ bộ nhớ.
 ### Tôi có thể xử lý các loại lỗi khác bằng trình xử lý tin nhắn không?
 Chắc chắn rồi! Trình xử lý tin nhắn có thể được tùy chỉnh để xử lý nhiều loại lỗi khác nhau, không chỉ các tài nguyên bị thiếu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

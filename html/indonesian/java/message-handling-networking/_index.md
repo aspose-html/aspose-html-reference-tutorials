@@ -3,10 +3,16 @@ title: Penanganan Pesan dan Jaringan di Aspose.HTML untuk Java
 linktitle: Penanganan Pesan dan Jaringan di Aspose.HTML untuk Java
 second_title: Pemrosesan HTML Java dengan Aspose.HTML
 description: Kuasai Aspose.HTML untuk Java dengan tutorial tentang penanganan pesan, jaringan, dan banyak lagi. Tingkatkan keterampilan pemrosesan dokumen Anda.
-type: docs
 weight: 25
 url: /id/java/message-handling-networking/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Penanganan Pesan dan Jaringan di Aspose.HTML untuk Java
+
 ## Perkenalan
 
 Aspose.HTML untuk Java adalah perangkat yang hebat untuk mengelola dan memanipulasi dokumen HTML, tetapi tidak hanya sekadar menangani file. Salah satu kekuatan utamanya terletak pada pengelolaan pesan dan kemampuan jaringan secara efisien. Artikel ini menyoroti tutorial penting yang dapat membantu Anda menjadi ahli dalam menggunakan pustaka ini untuk proyek Anda.
@@ -44,3 +50,9 @@ Pelajari cara menjalankan permintaan web menggunakan Aspose.HTML untuk Java deng
 Pelajari cara mengonversi file ZIP ke gambar JPG menggunakan Aspose.HTML untuk Java dengan panduan langkah demi langkah ini.
 ### [Konversi ZIP ke PDF dengan Aspose.HTML untuk Java](./zip-to-pdf/)
 Konversikan file ZIP Anda ke PDF dengan mudah menggunakan Aspose.HTML untuk Java dengan panduan langkah demi langkah ini.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

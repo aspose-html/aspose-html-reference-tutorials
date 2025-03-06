@@ -3,10 +3,16 @@ title: Sử dụng mẫu HTML trong .NET với Aspose.HTML
 linktitle: Sử dụng mẫu HTML trong .NET
 second_title: Aspose.HTML .NET API thao tác HTML
 description: Tìm hiểu cách sử dụng Aspose.HTML cho .NET để tạo tài liệu HTML động từ dữ liệu JSON. Khai thác sức mạnh của thao tác HTML trong các ứng dụng .NET của bạn.
-type: docs
 weight: 17
 url: /vi/net/advanced-features/using-html-templates/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sử dụng mẫu HTML trong .NET với Aspose.HTML
+
 
 Nếu bạn đang muốn làm việc với các tài liệu và mẫu HTML trong các ứng dụng .NET của mình, bạn đã đến đúng nơi rồi! Aspose.HTML for .NET là một thư viện đa năng giúp các nhà phát triển dễ dàng thao tác với các tài liệu và mẫu HTML. Trong hướng dẫn này, chúng ta sẽ đi sâu vào những điều cốt yếu khi sử dụng Aspose.HTML for .NET, chia nhỏ từng bước và cung cấp giải thích rõ ràng trong suốt quá trình.
 
@@ -138,3 +144,9 @@ A3: Bạn có thể tải xuống Aspose.HTML cho .NET từ trang tải xuống[
 ### Câu hỏi 5. Tôi có cần giấy phép tạm thời cho Aspose.HTML dành cho .NET không?
 
  A5: Nếu bạn cần giấy phép tạm thời cho mục đích đánh giá, bạn có thể xin giấy phép từ[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

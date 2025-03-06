@@ -3,10 +3,16 @@ title: الاستخدام المتقدم لـ Aspose.HTML دروس Java
 linktitle: الاستخدام المتقدم لـ Aspose.HTML Java
 second_title: معالجة HTML باستخدام Java مع Aspose.HTML
 description: تعرف على كيفية تخصيص هوامش صفحات HTML، وتنفيذ DOM Mutation Observer، والتلاعب بـ HTML5 Canvas، وأتمتة ملء نماذج HTML، والمزيد باستخدام Aspose.HTML Java.
-type: docs
 weight: 20
 url: /ar/java/advanced-usage/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# الاستخدام المتقدم لـ Aspose.HTML دروس Java
+
 
 في عالم تطوير الويب، يعد إتقان فن التعامل مع HTML أمرًا بالغ الأهمية. يوفر Aspose.HTML for Java مجموعة كبيرة من الميزات التي تمكنك من رفع مهاراتك في HTML إلى المستوى التالي. في هذه المقالة، سنتعمق في بعض التقنيات المتقدمة التي ستساعدك على الاستفادة من قوة Aspose.HTML for Java.
 
@@ -51,3 +57,9 @@ DOM (نموذج كائن المستند) هو العمود الفقري لأي �
 تعرف على كيفية ضبط حجم صفحة PDF باستخدام Aspose.HTML لـ Java. قم بإنشاء ملفات PDF عالية الجودة من HTML بسهولة. تحكم في أبعاد الصفحة بفعالية.
 ### [ضبط حجم الصفحة في XPS باستخدام Aspose.HTML لـ Java](./adjust-xps-page-size/)
 تعرف على كيفية ضبط حجم صفحة XPS باستخدام Aspose.HTML لـ Java. يمكنك التحكم في أبعاد إخراج مستندات XPS بسهولة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

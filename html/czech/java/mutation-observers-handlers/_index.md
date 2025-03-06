@@ -3,10 +3,16 @@ title: Mutace pozorovatelé a manipulátoři v Aspose.HTML pro Javu
 linktitle: Mutace pozorovatelé a manipulátoři v Aspose.HTML pro Javu
 second_title: Java HTML zpracování s Aspose.HTML
 description: Prozkoumejte výukové programy Aspose.HTML for Java pokrývající pokročilé pozorovatele mutací a bezpečné obslužné rutiny pověření pro vylepšení vašich webových aplikací.
-type: docs
 weight: 23
 url: /cs/java/mutation-observers-handlers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mutace pozorovatelé a manipulátoři v Aspose.HTML pro Javu
+
 ## Zavedení
 
 Pokud se snažíte vylepšit své webové aplikace Java, pravděpodobně jste slyšeli o Aspose.HTML. Ale řeknu vám, není to jen tak obyčejná knihovna – je to výkonný nástroj pro dynamickou správu HTML dokumentů. V této příručce prozkoumáme dvě základní součásti: mutace pozorovatele a obslužné rutiny pověření, které vám umožní přeplňovat vaše aplikace. 
@@ -28,3 +34,9 @@ Implementací zabezpečeného nástroje Credential Handler můžete efektivně s
 Naučte se, jak implementovat pokročilý Mutation Observer s Aspose.HTML pro Java, bezproblémově sledovat změny DOM. Ponořte se do našeho podrobného průvodce.
 ### [Použití Credential Handler v Aspose.HTML pro Java](./credential-handler/)
 Zjistěte, jak implementovat bezpečný popisovač pověření pomocí Aspose.HTML for Java pro efektivní správu ověřování uživatelů.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

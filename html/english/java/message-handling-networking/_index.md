@@ -3,10 +3,16 @@ title: Message Handling and Networking in Aspose.HTML for Java
 linktitle: Message Handling and Networking in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 description: Master Aspose.HTML for Java with tutorials on message handling, networking, and more. Enhance your document processing skills.
-type: docs
 weight: 25
 url: /java/message-handling-networking/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Message Handling and Networking in Aspose.HTML for Java
+
 ## Introduction
 
 Aspose.HTML for Java is a powerful toolkit for managing and manipulating HTML documents, but it goes beyond just handling files. One of its core strengths lies in efficiently managing messages and networking capabilities. This article highlights essential tutorials that can help you become proficient in using this library for your projects.
@@ -44,3 +50,9 @@ Learn to execute web requests using Aspose.HTML for Java with this comprehensive
 Learn how to convert ZIP files to JPG images using Aspose.HTML for Java with this step-by-step guide.
 ### [Convert ZIP to PDF with Aspose.HTML for Java](./zip-to-pdf/)
 Easily convert your ZIP files to PDF using Aspose.HTML for Java with this step-by-step guide.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

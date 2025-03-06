@@ -3,10 +3,16 @@ title: 在 Aspose.HTML for Java 中处理文档加载事件
 linktitle: 在 Aspose.HTML for Java 中处理文档加载事件
 second_title: 使用 Aspose.HTML 进行 Java HTML 处理
 description: 通过本分步指南学习如何在 Aspose.HTML for Java 中处理文档加载事件。增强您的 Web 应用程序。
-type: docs
 weight: 18
 url: /zh/java/creating-managing-html-documents/handle-document-load-events/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.HTML for Java 中处理文档加载事件
+
 ## 介绍
 在 Web 开发中，处理文档加载事件对于确保应用程序顺利高效运行至关重要。如果您使用 Java 处理 HTML 文档，Aspose.HTML 提供了一个强大的库，可让您轻松操作 HTML 文档。在本教程中，我们将探讨如何使用 Aspose.HTML for Java 处理文档加载事件。无论您是初学者还是经验丰富的开发人员，本指南都将逐步指导您完成该过程。
 ## 先决条件
@@ -69,3 +75,9 @@ Aspose.HTML for Java 是一个库，允许开发人员在 Java 应用程序中�
 是的，您可以在[Aspose 论坛](https://forum.aspose.com/c/html/29).
 ### 如何获得 Aspose.HTML 的临时许可证？
 您可以通过访问申请临时许可证[Aspose 临时许可证页面](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

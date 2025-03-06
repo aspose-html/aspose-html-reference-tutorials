@@ -3,10 +3,16 @@ title: Thiết lập User Style Sheet trong Aspose.HTML cho Java
 linktitle: Thiết lập User Style Sheet trong Aspose.HTML cho Java
 second_title: Xử lý HTML Java với Aspose.HTML
 description: Tìm hiểu cách thiết lập bảng định kiểu người dùng tùy chỉnh trong Aspose.HTML cho Java, cải thiện kiểu dáng tài liệu và chuyển đổi HTML sang PDF một cách dễ dàng.
-type: docs
 weight: 16
 url: /vi/java/configuring-environment/set-user-style-sheet/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thiết lập User Style Sheet trong Aspose.HTML cho Java
+
 ## Giới thiệu
 Bạn đã bao giờ thấy mình muốn chỉnh sửa giao diện của tài liệu HTML theo phong cách riêng của mình chưa? Hãy tưởng tượng bạn đang tạo một trang web và bạn muốn đảm bảo các tiêu đề nổi bật với một màu nhất định hoặc các đoạn văn có giao diện nhất quán trên các thiết bị khác nhau. Đây là lúc các bảng định kiểu người dùng phát huy tác dụng! Trong hướng dẫn này, chúng ta sẽ khám phá cách thiết lập bảng định kiểu người dùng tùy chỉnh bằng Aspose.HTML cho Java. Cho dù bạn đang muốn tạo một thiết kế gắn kết cho tài liệu của mình hay chỉ đơn giản là thử nghiệm các kiểu khác nhau, hướng dẫn này sẽ hướng dẫn bạn thực hiện toàn bộ quy trình theo cách đơn giản và hấp dẫn.
 ## Điều kiện tiên quyết
@@ -104,3 +110,9 @@ Có, bạn có thể liên kết các tệp CSS bên ngoài giống như cách b
 Các thuộc tính CSS không được hỗ trợ sẽ bị bỏ qua, cho phép phần còn lại của bảng định kiểu được áp dụng mà không có lỗi.
 ### Tôi có thể chuyển đổi HTML sang các định dạng khác ngoài PDF không?  
 Có, Aspose.HTML for Java hỗ trợ chuyển đổi HTML sang nhiều định dạng khác nhau, bao gồm XPS, TIFF, v.v.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

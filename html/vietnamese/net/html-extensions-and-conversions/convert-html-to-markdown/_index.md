@@ -3,10 +3,16 @@ title: Chuyển đổi HTML sang Markdown trong .NET với Aspose.HTML
 linktitle: Chuyển đổi HTML sang Markdown trong .NET
 second_title: Aspose.HTML .NET API thao tác HTML
 description: Tìm hiểu cách chuyển đổi HTML sang Markdown trong .NET bằng Aspose.HTML để thao tác nội dung hiệu quả. Nhận hướng dẫn từng bước để có quy trình chuyển đổi liền mạch.
-type: docs
 weight: 18
 url: /vi/net/html-extensions-and-conversions/convert-html-to-markdown/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chuyển đổi HTML sang Markdown trong .NET với Aspose.HTML
+
 
 ## Giới thiệu
 
@@ -109,3 +115,10 @@ Có, Aspose.HTML cho .NET hỗ trợ nhiều định dạng đầu ra, bao gồm
 ### 5. Tôi có thể dùng thử Aspose.HTML cho .NET trước khi mua không?
 
  Chắc chắn rồi! Bạn có thể tải xuống phiên bản dùng thử miễn phí của Aspose.HTML cho .NET từ[đây](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Cấu hình Phông chữ trong Aspose.HTML cho Java
 linktitle: Cấu hình Phông chữ trong Aspose.HTML cho Java
 second_title: Xử lý HTML Java với Aspose.HTML
 description: Tìm hiểu cách cấu hình phông chữ trong Aspose.HTML cho Java với hướng dẫn từng bước chi tiết này. Cải thiện chuyển đổi HTML sang PDF của bạn bằng phông chữ và kiểu tùy chỉnh.
-type: docs
 weight: 11
 url: /vi/java/configuring-environment/configure-fonts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cấu hình Phông chữ trong Aspose.HTML cho Java
+
 ## Giới thiệu
 Khi làm việc với các tài liệu HTML trong Java, việc cấu hình phông chữ đúng cách là điều cần thiết để tạo ra nội dung hấp dẫn và dễ đọc về mặt thị giác. Cho dù bạn đang tạo báo cáo, tạo trang web hay chuyển đổi tài liệu, việc đảm bảo phông chữ của bạn được cấu hình đúng cách có thể tạo ra sự khác biệt đáng kể. Hướng dẫn này sẽ hướng dẫn bạn quy trình cấu hình phông chữ trong Aspose.HTML cho Java, từ thiết lập môi trường của bạn đến chuyển đổi HTML sang PDF bằng phông chữ tùy chỉnh. Vậy, hãy cùng bắt đầu nhé!
 
@@ -123,3 +129,9 @@ Cấu hình phông chữ trong Aspose.HTML cho Java là một quy trình đơn g
 Có, Aspose.HTML hỗ trợ nhiều kiểu CSS. Bạn có thể áp dụng các kiểu phức tạp như trong môi trường web thông thường.
 ### Tôi có thể tìm thêm ví dụ và tài liệu ở đâu?  
  Bạn có thể tìm thấy các ví dụ và tài liệu chi tiết hơn trên[Trang tài liệu Aspose.HTML cho Java](https://reference.aspose.com/html/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

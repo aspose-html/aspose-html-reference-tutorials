@@ -3,10 +3,16 @@ title: Custom Schema Message Filtering in Aspose.HTML for Java
 linktitle: Custom Schema Message Filtering in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 description: Learn how to implement a custom schema message filter in Java using Aspose.HTML. Follow our step-by-step guide for a secure, tailored application experience.
-type: docs
 weight: 10
 url: /java/custom-schema-message-handling/custom-schema-message-filter/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Custom Schema Message Filtering in Aspose.HTML for Java
+
 ## Introduction
 Creating custom solutions that cater to specific needs often requires a deep dive into the available tools and libraries. When working with HTML documents in Java, the Aspose.HTML for Java API offers a wealth of functionality that can be tailored to your needs. One such customization involves filtering messages based on a custom schema using the `MessageFilter` class. In this guide, we'll walk you through the process of implementing a Custom Schema Message Filter using Aspose.HTML for Java. Whether you're a seasoned developer or just getting started, this tutorial will help you create a robust filtering mechanism tailored to your application's specific requirements.
 ## Prerequisites
@@ -92,3 +98,10 @@ Yes, you can extend the `match` method to handle multiple schemas by checking fo
 Aspose.HTML for Java is compatible with JDK 8 and later versions. Always ensure you're using a supported version for optimal performance.
 ### How do I get support for Aspose.HTML for Java?
 You can access support through the [Aspose support forum](https://forum.aspose.com/c/html/29), where you can ask questions and get help from the community and Aspose developers.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

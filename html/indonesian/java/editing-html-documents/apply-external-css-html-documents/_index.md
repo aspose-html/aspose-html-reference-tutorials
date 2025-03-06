@@ -3,10 +3,16 @@ title: Terapkan CSS Eksternal ke Dokumen HTML di Aspose.HTML untuk Java
 linktitle: Terapkan CSS Eksternal ke Dokumen HTML di Aspose.HTML untuk Java
 second_title: Pemrosesan HTML Java dengan Aspose.HTML
 description: Temukan cara menerapkan CSS eksternal ke dokumen HTML menggunakan Aspose.HTML untuk Java! Ikuti panduan langkah demi langkah ini untuk tutorial lengkap.
-type: docs
 weight: 12
 url: /id/java/editing-html-documents/apply-external-css-html-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Terapkan CSS Eksternal ke Dokumen HTML di Aspose.HTML untuk Java
+
 ## Perkenalan
 Saat bekerja dengan dokumen HTML, penerapan gaya dapat membuat perbedaan besar dalam presentasi dan pengalaman pengguna. Jika Anda mendalami Java dan ingin mempelajari cara menerapkan gaya CSS eksternal ke dokumen HTML Anda menggunakan pustaka Aspose.HTML, Anda berada di tempat yang tepat! Panduan ini bertujuan untuk menjelaskan prosesnya langkah demi langkah, membuatnya mudah bahkan bagi mereka yang mungkin baru mengenal Java atau CSS.
 ## Prasyarat
@@ -101,3 +107,9 @@ Tidak, setelah Anda mengunduh file pustaka yang diperlukan, Anda dapat menggunak
 Ya! CSS internal didefinisikan dalam dokumen HTML, sedangkan CSS eksternal ditempatkan dalam berkas terpisah dan ditautkan ke dokumen.
 ### Bagaimana saya bisa mendapatkan dukungan untuk Aspose.HTML untuk Java?
  Anda dapat mengakses dukungan komunitas melalui[Forum Aspose](https://forum.aspose.com/c/html/29) untuk pertanyaan atau masalah apa pun yang mungkin Anda temui.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

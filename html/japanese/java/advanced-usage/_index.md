@@ -3,10 +3,16 @@ title: Aspose.HTML Java チュートリアルの高度な使用法
 linktitle: Aspose.HTML Java の高度な使用法
 second_title: Aspose.HTML を使用した Java HTML 処理
 description: Aspose.HTML Java を使用して、HTML ページの余白をカスタマイズする方法、DOM Mutation Observer を実装する方法、HTML5 Canvas を操作する方法、HTML フォームの入力を自動化する方法などを学習します。
-type: docs
 weight: 20
 url: /ja/java/advanced-usage/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.HTML Java チュートリアルの高度な使用法
+
 
 Web 開発の世界では、HTML 操作の技術を習得することが非常に重要です。Aspose.HTML for Java には、HTML スキルを次のレベルに引き上げる豊富な機能が備わっています。この記事では、Aspose.HTML for Java のパワーを活用するのに役立つ高度なテクニックをいくつか紹介します。
 
@@ -51,3 +57,9 @@ Aspose.HTML for Java を使用して HTML フォームの入力と送信を自�
 Aspose.HTML for Java を使用して PDF ページ サイズを調整する方法を学びます。HTML から高品質の PDF を簡単に作成します。ページ サイズを効果的に制御します。
 ### [Aspose.HTML for Java で XPS ページ サイズを調整する](./adjust-xps-page-size/)
 Aspose.HTML for Java を使用して XPS ページ サイズを調整する方法を学びます。XPS ドキュメントの出力サイズを簡単に制御します。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

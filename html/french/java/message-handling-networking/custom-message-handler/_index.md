@@ -3,10 +3,16 @@ title: Implémenter des gestionnaires de messages personnalisés avec Aspose.HTM
 linktitle: Implémenter des gestionnaires de messages personnalisés avec Aspose.HTML pour Java
 second_title: Traitement HTML Java avec Aspose.HTML
 description: Découvrez comment implémenter des gestionnaires de messages personnalisés dans Aspose.HTML pour Java pour améliorer le traitement des documents et gérer efficacement les journaux.
-type: docs
 weight: 11
 url: /fr/java/message-handling-networking/custom-message-handler/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Implémenter des gestionnaires de messages personnalisés avec Aspose.HTML pour Java
+
 ## Introduction
 En matière de gestion de documents HTML par programmation, la bibliothèque Aspose.HTML pour Java se démarque. Que vous soyez un développeur cherchant à manipuler des données HTML, à convertir des documents ou que vous ayez simplement besoin d'un outil fiable pour gérer le contenu Web, Aspose.HTML mérite d'être pris en considération. Grâce à ses fonctionnalités robustes et à ses performances exceptionnelles, il permet aux développeurs d'approfondir la manipulation HTML sans les complexités des autres bibliothèques. Dans ce guide, nous verrons comment implémenter des gestionnaires de messages personnalisés à l'aide d'Aspose.HTML pour Java.
 ## Prérequis
@@ -65,3 +71,9 @@ Aspose.HTML pour Java est une bibliothèque qui permet aux développeurs de cré
  Absolument ! Vous pouvez essayer Aspose.HTML gratuitement en accédant à leur essai gratuit[ici](https://releases.aspose.com/).
 ### Où puis-je trouver du support pour Aspose.HTML ?
  Vous pouvez demander de l'aide à la communauté Aspose sur leur forum[ici](https://forum.aspose.com/c/html/29).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

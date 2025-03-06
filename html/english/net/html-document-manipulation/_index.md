@@ -3,10 +3,16 @@ title: HTML Document Manipulation
 linktitle: HTML Document Manipulation
 second_title: Aspose.HTML .NET HTML manipulation API
 description: Discover how Aspose.HTML for .NET empowers you to manipulate HTML documents efficiently. Explore tutorials that guide you through the process.
-type: docs
 weight: 21
 url: /net/html-document-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# HTML Document Manipulation
+
 
 Are you ready to harness the full potential of HTML document manipulation in the .NET framework? With Aspose.HTML for .NET, you have the power to transform, enhance, and manipulate HTML documents like never before. This article takes you on a journey through our comprehensive tutorial listing, equipping you with the knowledge and tools needed to master HTML document manipulation effortlessly.
 
@@ -67,3 +73,9 @@ Unlock the potential of web development with Aspose.HTML for .NET. Create, conve
 ## Conclusion
 
 In conclusion, if you want to master HTML document manipulation using Aspose.HTML for .NET, you're in the right place. Our tutorials are your roadmap to success. Get ready to explore the possibilities, unlock your creativity, and streamline your .NET development. Start your journey today, and watch your HTML documents transform before your eyes. Whether you're a developer or an enthusiast, Aspose.HTML for .NET has something incredible in store for you. So, what are you waiting for? Let's embark on this exciting adventure together!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Lọc tin nhắn lược đồ tùy chỉnh trong Aspose.HTML cho Java
 linktitle: Lọc tin nhắn lược đồ tùy chỉnh trong Aspose.HTML cho Java
 second_title: Xử lý HTML Java với Aspose.HTML
 description: Tìm hiểu cách triển khai bộ lọc tin nhắn lược đồ tùy chỉnh trong Java bằng Aspose.HTML. Làm theo hướng dẫn từng bước của chúng tôi để có trải nghiệm ứng dụng an toàn, phù hợp.
-type: docs
 weight: 10
 url: /vi/java/custom-schema-message-handling/custom-schema-message-filter/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lọc tin nhắn lược đồ tùy chỉnh trong Aspose.HTML cho Java
+
 ## Giới thiệu
  Việc tạo ra các giải pháp tùy chỉnh đáp ứng các nhu cầu cụ thể thường đòi hỏi phải tìm hiểu sâu về các công cụ và thư viện có sẵn. Khi làm việc với các tài liệu HTML trong Java, API Aspose.HTML cho Java cung cấp nhiều chức năng có thể được tùy chỉnh theo nhu cầu của bạn. Một trong những tùy chỉnh như vậy bao gồm lọc tin nhắn dựa trên lược đồ tùy chỉnh bằng cách sử dụng`MessageFilter`class. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình triển khai Bộ lọc tin nhắn lược đồ tùy chỉnh bằng Aspose.HTML cho Java. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu, hướng dẫn này sẽ giúp bạn tạo cơ chế lọc mạnh mẽ phù hợp với các yêu cầu cụ thể của ứng dụng.
 ## Điều kiện tiên quyết
@@ -92,3 +98,9 @@ Bộ lọc tin nhắn lược đồ tùy chỉnh cho phép bạn kiểm soát c�
 Aspose.HTML for Java tương thích với JDK 8 và các phiên bản mới hơn. Luôn đảm bảo bạn đang sử dụng phiên bản được hỗ trợ để có hiệu suất tối ưu.
 ### Làm thế nào để tôi nhận được hỗ trợ cho Aspose.HTML dành cho Java?
  Bạn có thể truy cập hỗ trợ thông qua[Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/html/29), nơi bạn có thể đặt câu hỏi và nhận trợ giúp từ cộng đồng và các nhà phát triển Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

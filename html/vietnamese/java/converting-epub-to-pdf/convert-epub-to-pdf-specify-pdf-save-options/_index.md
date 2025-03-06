@@ -3,10 +3,16 @@ title: Chỉ định Tùy chọn Lưu PDF cho EPUB sang PDF
 linktitle: Chỉ định Tùy chọn Lưu PDF cho EPUB sang PDF
 second_title: Xử lý HTML Java với Aspose.HTML
 description: Tìm hiểu cách chuyển đổi EPUB sang PDF trong Java bằng Aspose.HTML, một thư viện thao tác HTML mạnh mẽ.
-type: docs
 weight: 12
 url: /vi/java/converting-epub-to-pdf/convert-epub-to-pdf-specify-pdf-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chỉ định Tùy chọn Lưu PDF cho EPUB sang PDF
+
 
 ## Giới thiệu
 
@@ -111,3 +117,10 @@ Phiên bản dùng thử có thể có một số hạn chế, vì vậy bạn n
 
 ### Tôi có thể nhận hỗ trợ cho Aspose.HTML cho Java ở đâu?
 Bạn có thể tìm thấy câu trả lời cho câu hỏi của mình và tìm kiếm sự hỗ trợ trên[Diễn đàn Aspose.HTML](https://forum.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Convertir SVG en PDF avec Aspose.HTML pour Java
 linktitle: Conversion de SVG en PDF
 second_title: Traitement HTML Java avec Aspose.HTML
 description: Convertissez SVG en PDF en Java avec Aspose.HTML. Une solution transparente pour une conversion de documents de haute qualité.
-type: docs
 weight: 15
 url: /fr/java/conversion-html-to-other-formats/convert-svg-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Convertir SVG en PDF avec Aspose.HTML pour Java
+
 
 Dans le paysage en constante évolution du développement Web et de la conversion de documents, Aspose.HTML pour Java apparaît comme une boîte à outils puissante pour convertir de manière transparente des fichiers Scalable Vector Graphics (SVG) en documents Portable Document Format (PDF). Grâce à son API intuitive, cette bibliothèque simplifie les tâches complexes, garantissant des résultats de haute qualité. Dans ce guide étape par étape, nous découvrirons comment exploiter les capacités d'Aspose.HTML pour Java pour convertir sans effort des fichiers SVG en PDF.
 
@@ -95,3 +101,9 @@ A4 : Aspose.HTML pour Java est capable de gérer divers formats de documents, n
 ### Q5 : Aspose.HTML pour Java est-il compatible avec différentes versions de Java ?
 
 A5 : Oui, Aspose.HTML pour Java est compatible avec différentes versions de Java, mais il est essentiel de vérifier la compatibilité dans la documentation.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

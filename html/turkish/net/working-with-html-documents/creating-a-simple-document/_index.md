@@ -3,10 +3,16 @@ title: Aspose.HTML ile .NET'te Basit Bir Belge Oluşturma
 linktitle: .NET'te Basit Bir Belge Oluşturma
 second_title: Aspose.HTML .NET HTML işleme API'si
 description: Aspose.HTML kullanarak .NET'te HTML belgeleriyle çalışmayı öğrenin. HTML'yi zahmetsizce oluşturun, işleyin ve dönüştürün. Bugün başlayın!
-type: docs
 weight: 11
 url: /tr/net/working-with-html-documents/creating-a-simple-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.HTML ile .NET'te Basit Bir Belge Oluşturma
+
 
 ## giriiş
 
@@ -152,3 +158,10 @@ Aspose.HTML for .NET, HTML belgeleriyle oluşturma, düzenleme ve dönüştürme
 ### 5. Aspose.HTML for .NET için desteği nereden alabilirim?
 
  Aspose.HTML for .NET hakkında destek alabilir ve soru sorabilirsiniz.[Aspose Forum](https://forum.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

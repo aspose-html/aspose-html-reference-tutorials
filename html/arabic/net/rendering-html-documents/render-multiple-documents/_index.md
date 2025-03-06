@@ -3,10 +3,16 @@ title: عرض مستندات متعددة في .NET باستخدام Aspose.HTML
 linktitle: عرض مستندات متعددة في .NET
 second_title: Aspose.HTML .NET HTML manipulation API
 description: تعلم كيفية عرض مستندات HTML متعددة باستخدام Aspose.HTML لـ .NET. عزز قدرات معالجة المستندات لديك باستخدام هذه المكتبة القوية.
-type: docs
 weight: 14
 url: /ar/net/rendering-html-documents/render-multiple-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# عرض مستندات متعددة في .NET باستخدام Aspose.HTML
+
 في عالم تطوير الويب ومعالجة المستندات السريع الخطى، يعد امتلاك الأدوات المناسبة أمرًا ضروريًا. Aspose.HTML for .NET هي مكتبة قوية تمكن المطورين من معالجة مستندات HTML وعرضها بسهولة. في هذا البرنامج التعليمي، سنتعمق في عرض مستندات متعددة باستخدام Aspose.HTML for .NET.
 
 ## المتطلبات الأساسية
@@ -91,3 +97,10 @@ Aspose.HTML for .NET هي مكتبة .NET تتيح للمطورين التعام
 
 ### 5. أين يمكنني الحصول على الدعم لـ Aspose.HTML لـ .NET؟
  يمكنك العثور على الدعم ومناقشات المجتمع على[منتدى Aspose.HTML](https://forum.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: تعيين جدول أنماط المستخدم في Aspose.HTML لـ Jav
 linktitle: تعيين جدول أنماط المستخدم في Aspose.HTML لـ Java
 second_title: معالجة HTML باستخدام Java مع Aspose.HTML
 description: تعرف على كيفية تعيين جدول أنماط مستخدم مخصص في Aspose.HTML لـ Java، وتحسين تصميم المستندات وتحويل HTML إلى PDF بسهولة.
-type: docs
 weight: 16
 url: /ar/java/configuring-environment/set-user-style-sheet/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تعيين جدول أنماط المستخدم في Aspose.HTML لـ Java
+
 ## مقدمة
 هل سبق لك أن وجدت نفسك ترغب في تعديل مظهر مستندات HTML الخاصة بك بأسلوبك الفريد؟ تخيل أنك تقوم بإنشاء صفحة ويب، وتريد التأكد من ظهور العناوين بلون معين أو أن الفقرات لها مظهر متناسق عبر الأجهزة المختلفة. هنا يأتي دور أوراق أنماط المستخدم! في هذا البرنامج التعليمي، سنستكشف كيفية تعيين ورقة أنماط مستخدم مخصصة باستخدام Aspose.HTML لـ Java. سواء كنت تتطلع إلى إنشاء تصميم متماسك لمستنداتك أو مجرد تجربة أنماط مختلفة، فإن هذا الدليل سيرشدك خلال العملية بأكملها بطريقة بسيطة وجذابة.
 ## المتطلبات الأساسية
@@ -104,3 +110,9 @@ if (configuration != null) {
 يتم تجاهل خصائص CSS غير المدعومة ببساطة، مما يسمح بتطبيق بقية جدول الأنماط الخاص بك دون أخطاء.
 ### هل يمكنني تحويل HTML إلى تنسيقات أخرى غير PDF؟  
 نعم، يدعم Aspose.HTML for Java تحويل HTML إلى تنسيقات مختلفة، بما في ذلك XPS، وTIFF، والمزيد.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Az EPUB megjelenítése XPS-ként .NET-ben az Aspose.HTML segítségével
 linktitle: Az EPUB megjelenítése XPS-ként a .NET-ben
 second_title: Aspose.HTML .NET HTML manipulációs API
 description: Ebben az átfogó oktatóanyagban megtudhatja, hogyan hozhat létre és jeleníthet meg HTML-dokumentumokat az Aspose.HTML for .NET segítségével. Merüljön el a HTML-kezelés, a webkaparás és egyebek világában.
-type: docs
 weight: 11
 url: /hu/net/rendering-html-documents/render-epub-as-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Az EPUB megjelenítése XPS-ként .NET-ben az Aspose.HTML segítségével
+
 
 ## Bevezetés
 
@@ -99,3 +105,10 @@ Csatlakozhat az Aspose közösséghez, és segítséget kérhet, vagy megoszthat
 
  Igen, használhatja az Aspose.HTML for .NET fájlt kereskedelmi projektekben, ha licencet vásárol a webhelytől[itt](https://purchase.aspose.com/buy).
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

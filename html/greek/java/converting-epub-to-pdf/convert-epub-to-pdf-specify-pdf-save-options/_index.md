@@ -3,10 +3,16 @@ title: Καθορισμός επιλογών αποθήκευσης PDF για E
 linktitle: Καθορισμός επιλογών αποθήκευσης PDF για EPUB σε PDF
 second_title: Επεξεργασία Java HTML με Aspose.HTML
 description: Μάθετε πώς να μετατρέπετε το EPUB σε PDF σε Java χρησιμοποιώντας το Aspose.HTML, μια ισχυρή βιβλιοθήκη χειρισμού HTML.
-type: docs
 weight: 12
 url: /el/java/converting-epub-to-pdf/convert-epub-to-pdf-specify-pdf-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Καθορισμός επιλογών αποθήκευσης PDF για EPUB σε PDF
+
 
 ## Εισαγωγή
 
@@ -111,3 +117,10 @@ Specifying PDF Save Options for EPUB to PDF
 
 ### Πού μπορώ να λάβω υποστήριξη για το Aspose.HTML για Java;
 Μπορείτε να βρείτε απαντήσεις στις ερωτήσεις σας και να αναζητήσετε υποστήριξη στο[Aspose.HTML φόρουμ](https://forum.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

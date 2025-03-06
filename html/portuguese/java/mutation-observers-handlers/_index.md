@@ -3,10 +3,16 @@ title: Observadores e manipuladores de mutação em Aspose.HTML para Java
 linktitle: Observadores e manipuladores de mutação em Aspose.HTML para Java
 second_title: Processamento HTML Java com Aspose.HTML
 description: Explore os tutoriais do Aspose.HTML para Java que abrangem Observadores de Mutação avançados e Manipuladores de Credenciais seguros para aprimorar seus aplicativos web.
-type: docs
 weight: 23
 url: /pt/java/mutation-observers-handlers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Observadores e manipuladores de mutação em Aspose.HTML para Java
+
 ## Introdução
 
 Se você está em uma busca para melhorar seus aplicativos web Java, provavelmente já ouviu falar sobre Aspose.HTML. Mas deixe-me dizer, não é uma biblioteca qualquer — é uma potência para gerenciar documentos HTML dinamicamente. Neste guia, exploraremos dois componentes essenciais: Mutation Observers e Credential Handlers, permitindo que você potencialize seus aplicativos. 
@@ -28,3 +34,9 @@ Ao implementar um Credential Handler seguro, você pode gerenciar efetivamente a
 Aprenda a implementar um Mutation Observer avançado com Aspose.HTML para Java, rastreando alterações de DOM perfeitamente. Mergulhe em nosso guia passo a passo.
 ### [Usando o Credential Handler em Aspose.HTML para Java](./credential-handler/)
 Descubra como implementar um manipulador de credenciais seguro usando Aspose.HTML para Java para gerenciar a autenticação do usuário de forma eficaz.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

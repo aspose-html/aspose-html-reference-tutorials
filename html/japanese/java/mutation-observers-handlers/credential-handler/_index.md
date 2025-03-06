@@ -3,10 +3,16 @@ title: Aspose.HTML for Java で資格情報ハンドラーを使用する
 linktitle: Aspose.HTML for Java で資格情報ハンドラーを使用する
 second_title: Aspose.HTML を使用した Java HTML 処理
 description: Aspose.HTML for Java を使用して安全な資格情報ハンドラーを実装し、ユーザー認証を効果的に管理する方法を学びます。
-type: docs
 weight: 11
 url: /ja/java/mutation-observers-handlers/credential-handler/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.HTML for Java で資格情報ハンドラーを使用する
+
 ## 導入
 認証にユーザー資格情報を必要とする Web アプリケーションを使用する場合、資格情報を効果的に管理することが重要です。ここで Aspose.HTML for Java が役に立ち、このプロセスを効率化するツールを提供します。このガイドでは、Aspose.HTML for Java を使用して資格情報ハンドラーを実装し、アプリケーションで安全な操作を確保する方法について詳しく説明します。
 ## 前提条件
@@ -92,3 +98,9 @@ Aspose.HTML for Java は、HTML ファイルを操作し、Java アプリケー�
 もちろんです！コミュニティーへのサポートや参加は、[Aspose フォーラム](https://forum.aspose.com/c/html/29).
 ### の目的は何ですか？`setPreAuthenticate(true)` method?  
 この方法により、ユーザーにプロンプトを表示せずに、認証用のリクエスト ヘッダーで資格情報が自動的に使用されるようになります。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

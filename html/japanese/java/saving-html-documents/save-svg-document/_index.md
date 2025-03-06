@@ -3,10 +3,16 @@ title: Aspose.HTML for Java で SVG ドキュメントを保存する
 linktitle: Aspose.HTML for Java で SVG ドキュメントを保存する
 second_title: Aspose.HTML を使用した Java HTML 処理
 description: 例が満載の簡単なステップバイステップ ガイドを使用して、Aspose.HTML for Java を使用して SVG ドキュメントを保存する方法を学びます。
-type: docs
 weight: 14
 url: /ja/java/saving-html-documents/save-svg-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.HTML for Java で SVG ドキュメントを保存する
+
 ## 導入
 Aspose.HTML for Java で SVG ドキュメントの世界に飛び込む準備はできていますか? スキルの向上を目指す開発者でも、ドキュメント処理を自動化したいデザイナーでも、このガイドはあなたにぴったりです。SVG (Scalable Vector Graphics) は、Web 上で高品質のグラフィックスを実現する強力な形式です。このチュートリアルでは、Aspose.HTML を使用して SVG ドキュメントを保存するプロセスを分解し、簡単に理解して実装できるようにします。
 ## 前提条件
@@ -67,3 +73,9 @@ SVG は Scalable Vector Graphics の略で、インタラクティブ性とア�
 ぜひチェックしてみてください[Aspose HTML ドキュメント](https://reference.aspose.com/html/java/)クラスとメソッドの詳細については、こちらをご覧ください。
 ### Aspose 製品のサポートはありますか?
 はい、訪問することができます[Aspose フォーラム](https://forum.aspose.com/c/html/29)サポートとコミュニティのディスカッションのため。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

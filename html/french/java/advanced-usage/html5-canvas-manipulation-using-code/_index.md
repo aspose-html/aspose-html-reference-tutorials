@@ -3,10 +3,16 @@ title: Manipulation du canevas HTML5 avec Aspose.HTML pour Java
 linktitle: Manipulation du canevas HTML5 à l'aide de code
 second_title: Traitement HTML Java avec Aspose.HTML
 description: Apprenez à manipuler HTML5 Canvas avec Aspose.HTML pour Java. Créez des graphiques interactifs avec des instructions étape par étape.
-type: docs
 weight: 12
 url: /fr/java/advanced-usage/html5-canvas-manipulation-using-code/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulation du canevas HTML5 avec Aspose.HTML pour Java
+
 Dans le monde du développement Web, HTML5 a ouvert un monde de possibilités pour créer des applications Web interactives et visuellement époustouflantes. L'une des fonctionnalités les plus intéressantes de HTML5 est l'élément Canvas, qui vous permet de dessiner des graphiques, des animations et plus encore directement dans votre page Web. Aspose.HTML pour Java fournit un moyen puissant de travailler avec l'élément Canvas et de le manipuler à l'aide de code Java. Dans ce didacticiel, nous vous guiderons tout au long du processus de création d'un document HTML vide, d'ajout d'un élément Canvas et d'exécution de diverses manipulations de canvas. À la fin de ce didacticiel, vous aurez une solide compréhension de la façon de travailler avec HTML5 Canvas à l'aide d'Aspose.HTML pour Java.
 
 ## Prérequis
@@ -158,3 +164,9 @@ A4 : Aspose.HTML est principalement conçu pour Java, mais Aspose propose égal
 ### Q5 : Quels sont les autres cas d’utilisation de HTML5 Canvas dans le développement Web ?
 
 A5 : HTML5 Canvas peut être utilisé à diverses fins, notamment pour créer des jeux, des visualisations de données interactives, des applications de retouche d'images, etc. Sa polyvalence est l'un de ses principaux atouts.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 使用 Aspose.HTML 在 .NET 中合并 HTML 和 XML
 linktitle: 在 .NET 中合并 HTML 与 XML
 second_title: Aspose.HTML .NET HTML 操作 API
 description: 学习使用 Aspose.HTML for .NET。通过本综合指南导入命名空间、合并 HTML 与 XML 并增强您的 Web 开发技能。
-type: docs
 weight: 18
 url: /zh/net/html-document-manipulation/merge-html-with-xml/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.HTML 在 .NET 中合并 HTML 和 XML
+
 
 在动态的 Web 开发环境中，拥有合适的工具可以发挥重要作用。Aspose.HTML for .NET 就是这样一种工具，它使开发人员能够在 .NET 框架内无缝创建、操作和转换 HTML 文档。无论您是经验丰富的开发人员还是刚刚开始您的旅程，这本全面的指南都将带您完成从先决条件到高级用法的各个步骤，将每个示例分解为分步说明。在本教程结束时，您将精通使用 Aspose.HTML for .NET 的技巧。
 
@@ -126,3 +132,9 @@ A1：Aspose.HTML for .NET 是一个功能强大的库，允许开发人员在 .N
 
  A5：Aspose.HTML 社区和支持论坛是寻求帮助和与其他用户联系的好地方。访问论坛[这里](https://forum.aspose.com/).
 f
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

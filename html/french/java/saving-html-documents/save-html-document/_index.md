@@ -3,10 +3,16 @@ title: Enregistrer un document HTML dans Aspose.HTML pour Java
 linktitle: Enregistrer un document HTML dans Aspose.HTML pour Java
 second_title: Traitement HTML Java avec Aspose.HTML
 description: Apprenez à enregistrer des documents HTML à l'aide d'Aspose.HTML pour Java avec ce guide complet étape par étape conçu pour les débutants et les experts.
-type: docs
 weight: 10
 url: /fr/java/saving-html-documents/save-html-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Enregistrer un document HTML dans Aspose.HTML pour Java
+
 ## Introduction
 Lorsqu'il s'agit de travailler avec des documents HTML en Java, une bibliothèque fiable peut faire toute la différence. Aspose.HTML pour Java est l'un de ces outils qui permet aux développeurs de créer, de manipuler et d'enregistrer des documents HTML sans effort. Dans ce didacticiel, nous vous expliquerons comment enregistrer un document HTML à l'aide d'Aspose.HTML pour Java. 
 ## Prérequis
@@ -82,3 +88,9 @@ Aspose.HTML pour Java est une bibliothèque qui permet aux développeurs de cré
  Absolument ! Vous trouverez une documentation complète sur le[Page de documentation d'Aspose](https://reference.aspose.com/html/java/).
 ### Comment puis-je acheter Aspose.HTML pour Java ?  
  Vous pouvez acheter la bibliothèque auprès du[Page d'achat d'Aspose](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Establecer la hoja de estilo del usuario en Aspose.HTML para Java
 linktitle: Establecer la hoja de estilo del usuario en Aspose.HTML para Java
 second_title: Procesamiento de HTML en Java con Aspose.HTML
 description: Aprenda a configurar una hoja de estilo de usuario personalizada en Aspose.HTML para Java, mejorando el estilo de su documento y convirtiendo HTML a PDF con facilidad.
-type: docs
 weight: 16
 url: /es/java/configuring-environment/set-user-style-sheet/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Establecer la hoja de estilo del usuario en Aspose.HTML para Java
+
 ## Introducción
 ¿Alguna vez has deseado modificar la apariencia de tus documentos HTML con tu propio estilo? Imagina que estás creando una página web y quieres asegurarte de que los encabezados destaquen con un color determinado o que los párrafos tengan un aspecto uniforme en distintos dispositivos. ¡Aquí es donde entran en juego las hojas de estilo de usuario! En este tutorial, exploraremos cómo configurar una hoja de estilo de usuario personalizada con Aspose.HTML para Java. Ya sea que estés buscando crear un diseño coherente para tus documentos o simplemente experimentar con diferentes estilos, esta guía te guiará a través de todo el proceso de una manera sencilla y atractiva.
 ## Prerrequisitos
@@ -104,3 +110,9 @@ Sí, puedes vincular archivos CSS externos tal como lo harías en un documento H
 Las propiedades CSS no admitidas simplemente se ignoran, lo que permite que el resto de la hoja de estilo se aplique sin errores.
 ### ¿Puedo convertir HTML a otros formatos que no sean PDF?  
 Sí, Aspose.HTML para Java admite la conversión de HTML a varios formatos, incluidos XPS, TIFF y más.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

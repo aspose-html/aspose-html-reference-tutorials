@@ -3,10 +3,16 @@ title: DOM Mutation Observer with Aspose.HTML for Java
 linktitle: DOM Mutation Observer - Observing Node Additions
 second_title: Java HTML Processing with Aspose.HTML
 description: Learn how to use Aspose.HTML for Java to implement a DOM Mutation Observer in this step-by-step guide. Monitor and react to DOM changes effectively.
-type: docs
 weight: 11
 url: /java/advanced-usage/dom-mutation-observer-observing-node-additions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# DOM Mutation Observer with Aspose.HTML for Java
+
 
 Are you a Java developer looking to observe and react to changes in the Document Object Model (DOM) of an HTML document? Aspose.HTML for Java provides a powerful solution for this task. In this step-by-step guide, we will explore how to use Aspose.HTML for Java to create an HTML document and observe node additions with a Mutation Observer. This tutorial will walk you through the process, breaking down each example into multiple steps. By the end, you'll be able to implement DOM Mutation Observers in your Java projects with ease.
 
@@ -146,3 +152,10 @@ A4: Observing character data changes is useful for scenarios where you want to m
 ### Q5: How do I dispose of resources when using Aspose.HTML for Java?
 
 A5: It's important to release resources when you're done. In our example, we used `document.dispose()` to clean up resources associated with the HTML document. Make sure to dispose of any objects and resources you create to avoid memory leaks.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

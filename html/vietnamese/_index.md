@@ -3,11 +3,16 @@ title: Học cách thao tác tài liệu HTML với Aspose.HTML
 linktitle: Hướng dẫn Aspose.HTML
 additionalTitle: Tài liệu tham khảo API Aspose
 description: Nắm vững thao tác HTML với hướng dẫn Aspose.HTML - từ phân tích cú pháp đến chuyển đổi, hướng dẫn từng bước dành cho nhà phát triển.
-type: docs
 weight: 11
 url: /vi/
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Học cách thao tác tài liệu HTML với Aspose.HTML
+
 
 Khám phá các hướng dẫn toàn diện về Aspose.HTML để nắm vững cách thao tác tài liệu HTML bằng thư viện Aspose.HTML mạnh mẽ. Từ phân tích cú pháp và kết xuất đến chuyển đổi tệp HTML, các hướng dẫn này cung cấp hướng dẫn từng bước cho các nhà phát triển
 
@@ -44,3 +49,9 @@ Sau đây là những liên kết tới một số tài nguyên hữu ích:
 - [Chuyển đổi EPUB sang PDF](./java/converting-epub-to-pdf/)
 - [Chuyển đổi EPUB sang XPS](./java/converting-epub-to-xps/)
 - [Chuyển đổi HTML sang nhiều định dạng hình ảnh khác nhau](./java/converting-html-to-various-image-formats/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

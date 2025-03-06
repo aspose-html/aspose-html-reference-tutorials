@@ -3,10 +3,16 @@ title: تحديد موفر البث المخصص لتحويل EPUB إلى صور
 linktitle: تحديد موفر البث المخصص لتحويل EPUB إلى صورة
 second_title: معالجة HTML باستخدام Java مع Aspose.HTML
 description: تعرف على كيفية استخدام Aspose.HTML لـ Java لتحويل ملفات EPUB إلى صور باستخدام هذا الدليل خطوة بخطوة.
-type: docs
 weight: 15
 url: /ar/java/converting-epub-to-pdf/convert-epub-to-image-specify-custom-stream-provider/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحديد موفر البث المخصص لتحويل EPUB إلى صورة
+
 
 هل أنت مستعد للاستفادة من قوة Aspose.HTML للغة Java؟ سيرشدك هذا الدليل الشامل خلال العملية خطوة بخطوة. سواء كنت مطورًا متمرسًا أو بدأت للتو، فلدينا ما يناسبك. 
 
@@ -107,3 +113,10 @@ Aspose.HTML for Java هي مكتبة تسمح لمطوري Java بالعمل م�
 ### 5. أين يمكنني الحصول على الدعم لـ Aspose.HTML لـ Java؟
 
  يمكنك العثور على الدعم على[منتديات اسبوس](https://forum.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

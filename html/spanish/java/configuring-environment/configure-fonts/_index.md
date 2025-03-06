@@ -3,10 +3,16 @@ title: Configurar fuentes en Aspose.HTML para Java
 linktitle: Configurar fuentes en Aspose.HTML para Java
 second_title: Procesamiento de HTML en Java con Aspose.HTML
 description: Aprenda a configurar fuentes en Aspose.HTML para Java con esta guía detallada paso a paso. Mejore sus conversiones de HTML a PDF con fuentes y estilos personalizados.
-type: docs
 weight: 11
 url: /es/java/configuring-environment/configure-fonts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Configurar fuentes en Aspose.HTML para Java
+
 ## Introducción
 Al trabajar con documentos HTML en Java, configurar las fuentes correctamente es esencial para crear contenido legible y visualmente atractivo. Ya sea que esté generando informes, creando páginas web o convirtiendo documentos, asegurarse de que las fuentes estén configuradas correctamente puede marcar una diferencia significativa. Este tutorial lo guiará a través del proceso de configuración de fuentes en Aspose.HTML para Java, desde la configuración de su entorno hasta la conversión de HTML a PDF con fuentes personalizadas. ¡Vamos a profundizar!
 
@@ -123,3 +129,9 @@ Configurar fuentes en Aspose.HTML para Java es un proceso sencillo que puede mej
 Sí, Aspose.HTML admite una amplia gama de estilos CSS. Puedes aplicar estilos complejos tal como lo harías en un entorno web normal.
 ### ¿Dónde puedo encontrar más ejemplos y documentación?  
  Puede encontrar ejemplos y documentación más detallados en[Página de documentación de Aspose.HTML para Java](https://reference.aspose.com/html/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

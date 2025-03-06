@@ -3,10 +3,16 @@ title: Állítsa be a PDF oldalméretét az Aspose.HTML for Java segítségével
 linktitle: A PDF oldalméretének beállítása
 second_title: Java HTML feldolgozás Aspose.HTML-lel
 description: Ismerje meg, hogyan állíthatja be a PDF oldalméretét az Aspose.HTML for Java segítségével. Hozzon létre könnyedén kiváló minőségű PDF-eket HTML-ből. Az oldalméretek hatékony szabályozása.
-type: docs
 weight: 15
 url: /hu/java/advanced-usage/adjust-pdf-page-size/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Állítsa be a PDF oldalméretét az Aspose.HTML for Java segítségével
+
 
 mai digitális korban egyre nagyobb az igény a HTML-tartalomból kiváló minőségű PDF-ek előállítására. Az Aspose.HTML for Java egy hatékony Java-könyvtár, amely lehetővé teszi a HTML-dokumentumok könnyű konvertálását PDF formátumba. Ebben az oktatóanyagban az oldalméret beállítására összpontosítunk, amikor HTML-t PDF-be konvertálunk az Aspose.HTML for Java használatával.
 
@@ -141,3 +147,9 @@ Ebben az oktatóanyagban megvizsgáltuk, hogyan állíthatja be a PDF oldalmére
 ### 5. kérdés: Elérhető az Aspose.HTML for Java ingyenes próbaverziója?
 
  5. válasz: Igen, elérheti az Aspose.HTML for Java ingyenes próbaverzióját a webhelyről[ezt a linket](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

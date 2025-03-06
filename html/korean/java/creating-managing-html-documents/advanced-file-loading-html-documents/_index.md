@@ -3,10 +3,16 @@ title: Java용 Aspose.HTML에서 HTML 문서에 대한 고급 파일 로딩
 linktitle: Java용 Aspose.HTML에서 HTML 문서에 대한 고급 파일 로딩
 second_title: Aspose.HTML을 사용한 Java HTML 처리
 description: 이 단계별 가이드에서 Aspose.HTML for Java를 사용하여 HTML 문서를 로드, 조작 및 저장하는 방법을 알아보세요. Java 프로젝트에서 고급 HTML 처리를 잠금 해제하세요.
-type: docs
 weight: 13
 url: /ko/java/creating-managing-html-documents/advanced-file-loading-html-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.HTML에서 HTML 문서에 대한 고급 파일 로딩
+
 ## 소개
 이 튜토리얼에서는 Aspose.HTML for Java를 사용하여 파일에서 HTML 문서를 로드하는 과정을 안내해 드리겠습니다. 하지만 잠깐만요, 우리는 그저 HTML 파일을 로드하는 것이 아니라, 로드하고, 조작하고, 새 이름으로 저장할 것입니다! 이 가이드를 마칠 때쯤이면 HTML 문서를 쉽게 처리하는 방법을 확실히 이해하게 될 것이고, 더 고급 기능을 사용하고 싶어질 것입니다.
 ## 필수 조건
@@ -52,3 +58,9 @@ Aspose.HTML for Java는 개발자가 Java 애플리케이션 내에서 HTML 문�
  Java용 Aspose.HTML의 최신 버전은 다음에서 다운로드할 수 있습니다.[Aspose 릴리스 페이지](https://releases.aspose.com/html/java/). 설명서에 제공된 설치 지침을 따르세요.
 ### 라이선스 없이 Java용 Aspose.HTML을 사용할 수 있나요?
  네, 하지만 무료 버전에는 몇 가지 제한이 있습니다. 모든 기능을 잠금 해제하려면 라이선스를 구매하거나 다음에서 임시 라이선스를 받아야 합니다.[Aspose의 웹사이트](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

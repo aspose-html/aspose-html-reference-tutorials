@@ -3,10 +3,16 @@ title: Dostosuj marginesy strony HTML za pomocą Aspose.HTML
 linktitle: Rozszerzenia CSS - dodawanie tytułu i numeru strony
 second_title: Przetwarzanie HTML w Javie za pomocą Aspose.HTML
 description: Dowiedz się, jak dostosowywać marginesy stron, dodawać numery stron i tytuły do dokumentów HTML, korzystając z Aspose.HTML dla Java.
-type: docs
 weight: 10
 url: /pl/java/advanced-usage/css-extensions-adding-title-page-number/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dostosuj marginesy strony HTML za pomocą Aspose.HTML
+
 Aspose.HTML for Java to potężna biblioteka do przetwarzania dokumentów HTML w aplikacjach Java. W tym samouczku pokażemy, jak tworzyć niestandardowe marginesy stron i dodawać numery stron oraz tytuły do dokumentów HTML za pomocą Aspose.HTML for Java. Ten przewodnik krok po kroku podzieli proces na łatwe do opanowania kroki, aby pomóc Ci łatwo zintegrować te funkcje z dokumentami HTML.
 
 ## Wymagania wstępne
@@ -119,3 +125,9 @@ A4: Tak, Aspose.HTML for Java można używać do konwersji dokumentów HTML do r
 ### P5: Czy potrzebuję licencji, aby używać Aspose.HTML dla Java?
 
  A5: Tak, możesz uzyskać licencję lub bezpłatną wersję próbną[Tutaj](https://purchase.aspose.com/buy) Lub[Tutaj](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

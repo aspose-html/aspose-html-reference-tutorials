@@ -3,10 +3,16 @@ title: Menentukan Opsi Penyimpanan XPS untuk EPUB ke XPS
 linktitle: Menentukan Opsi Penyimpanan XPS untuk EPUB ke XPS
 second_title: Pemrosesan HTML Java dengan Aspose.HTML
 description: Pelajari cara menggunakan Aspose.HTML untuk Java guna menentukan opsi penyimpanan XPS untuk EPUB ke XPS dalam tutorial langkah demi langkah ini. Konversi file EPUB dengan mudah.
-type: docs
 weight: 12
 url: /id/java/converting-epub-to-xps/convert-epub-to-xps-specify-xps-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menentukan Opsi Penyimpanan XPS untuk EPUB ke XPS
+
 Dalam dunia pengembangan web, kemampuan mengonversi file EPUB ke format XPS merupakan alat yang sangat berguna. Aspose.HTML untuk Java merupakan pustaka canggih yang menawarkan kemampuan untuk melakukan konversi ini dengan mudah. Dalam tutorial lengkap ini, kami akan memandu Anda melalui proses menentukan opsi penyimpanan XPS untuk EPUB ke XPS menggunakan Aspose.HTML untuk Java.
 
 ## Prasyarat
@@ -95,3 +101,9 @@ Aspose.HTML untuk Java adalah pustaka yang hebat untuk bekerja dengan berkas HTM
 
 ### 5. Apa persyaratan sistem untuk Aspose.HTML untuk Java?
 Aspose.HTML untuk Java memerlukan Java Development Kit (JDK) dan sistem operasi yang kompatibel. Pastikan Anda memenuhi prasyarat seperti yang disebutkan dalam tutorial ini.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

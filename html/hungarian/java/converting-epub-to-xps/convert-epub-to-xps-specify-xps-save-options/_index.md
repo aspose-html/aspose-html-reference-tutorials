@@ -3,10 +3,16 @@ title: XPS mentési beállítások megadása az EPUB-hoz XPS-hez
 linktitle: XPS mentési beállítások megadása az EPUB-hoz XPS-hez
 second_title: Java HTML feldolgozás Aspose.HTML-lel
 description: Ebben a lépésenkénti oktatóanyagban megtudhatja, hogyan használhatja az Aspose.HTML for Java-t az XPS mentési beállítások megadásához az EPUB és XPS között. Az EPUB-fájlok zökkenőmentes konvertálása.
-type: docs
 weight: 12
 url: /hu/java/converting-epub-to-xps/convert-epub-to-xps-specify-xps-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# XPS mentési beállítások megadása az EPUB-hoz XPS-hez
+
 webfejlesztés világában az EPUB fájlok XPS formátumba konvertálása értékes eszköz. Az Aspose.HTML for Java egy hatékony könyvtár, amely lehetővé teszi az átalakítás egyszerű végrehajtását. Ebben az átfogó oktatóanyagban végigvezetjük az Aspose.HTML for Java használatával XPS mentési beállítások megadásának folyamatán az EPUB és XPS között.
 
 ## Előfeltételek
@@ -95,3 +101,9 @@ Az Aspose.HTML for Java egy hatékony könyvtár a HTML- és EPUB-fájlokkal val
 
 ### 5. Mik az Aspose.HTML for Java rendszerkövetelményei?
 Az Aspos.HTML for Java programhoz Java Development Kit (JDK) és kompatibilis operációs rendszer szükséges. Győződjön meg arról, hogy megfelel az oktatóanyagban említett előfeltételeknek.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

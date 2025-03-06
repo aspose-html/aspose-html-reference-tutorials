@@ -3,10 +3,16 @@ title: 使用 Aspose.HTML for Java 將 HTML 轉換為 MHTML
 linktitle: 將 HTML 轉換為 MHTML
 second_title: 使用 Aspose.HTML 進行 Java HTML 處理
 description: 使用 Aspose.HTML for Java 輕鬆將 HTML 轉換為 MHTML。請按照我們的逐步指南進行高效率的 HTML 到 MHTML 轉換。
-type: docs
 weight: 11
 url: /zh-hant/java/conversion-html-to-other-formats/convert-html-to-mhtml/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.HTML for Java 將 HTML 轉換為 MHTML
+
 在 Web 開發領域，HTML 文件的高效處理和轉換至關重要。 Aspose.HTML for Java 是一款功能強大的工具，可簡化 HTML 到 MHTML 的轉換，為開發人員提供無縫體驗。在本教學中，我們將引導您完成使用 Aspose.HTML for Java 將 HTML 轉換為 MHTML 的過程。我們將分解步驟、先決條件和導入包，確保您的旅程順利。
 
 ## 先決條件
@@ -104,3 +110,9 @@ A4：Aspose.HTML for Java 提供了進階功能、資源處理和自訂選項，
 ### Q5：如何取得 Aspose.HTML for Java 的臨時授權？
 
 A5：您可以從下列位置取得 Aspose.HTML for Java 的臨時授權：[這裡](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.HTML for Java でメッセージ ハンドラーを使用する
 linktitle: Aspose.HTML for Java でメッセージ ハンドラーを使用する
 second_title: Aspose.HTML を使用した Java HTML 処理
 description: Aspose.HTML for Java のメッセージ ハンドラーを使用して、不足している画像やその他のネットワーク操作を効果的に処理する方法を学習します。
-type: docs
 weight: 12
 url: /ja/java/configuring-environment/use-message-handlers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.HTML for Java でメッセージ ハンドラーを使用する
+
 ## 導入
 このチュートリアルでは、Aspose.HTML for Java でメッセージ ハンドラーを使用する実用的な例を紹介します。見つからない画像を参照する簡単な HTML ドキュメントを準備し、カスタム メッセージ ハンドラーを使用してエラーをキャッチして処理する方法を説明します。Aspose.HTML を初めて使用する場合でも、スキルを拡張したい場合でも、このガイドはネットワーク操作を効果的に管理するために必要な情報を提供します。
 ## 前提条件
@@ -109,3 +115,9 @@ Aspose.HTML for Java は、開発者が Java アプリケーションで HTML �
 はい、これらのオブジェクトを破棄すると、すべてのリソースが適切に解放され、メモリ リークが防止されます。
 ### メッセージ ハンドラーを使用して他の種類のエラーを処理できますか?
 もちろんです! メッセージ ハンドラーは、リソース不足だけでなく、さまざまな種類のエラーを処理するようにカスタマイズできます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

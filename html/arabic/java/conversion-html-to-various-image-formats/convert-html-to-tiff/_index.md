@@ -3,10 +3,16 @@ title: تحويل HTML إلى TIFF باستخدام Aspose.HTML لـ Java
 linktitle: تحويل HTML إلى TIFF
 second_title: معالجة HTML باستخدام Java مع Aspose.HTML
 description: تعرف على كيفية تحويل HTML إلى TIFF بسهولة باستخدام Aspose.HTML for Java. دليل خطوة بخطوة للتعامل مع المستندات بكفاءة.
-type: docs
 weight: 14
 url: /ar/java/conversion-html-to-various-image-formats/convert-html-to-tiff/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحويل HTML إلى TIFF باستخدام Aspose.HTML لـ Java
+
 هل تبحث عن حل قوي وفعال لتحويل ملفات HTML إلى صور TIFF باستخدام Java؟ لا مزيد من البحث! Aspose.HTML for Java هو الحل المناسب لك. في هذا الدليل التفصيلي، سنرشدك خلال عملية تحويل HTML إلى TIFF، مما يجعل الأمر سهلاً حتى للمبتدئين. ولكن أولاً، دعنا نتأكد من أن لديك كل ما تحتاجه للبدء.
 
 ## المتطلبات الأساسية
@@ -121,3 +127,9 @@ Converter.convertHTML(htmlDocument, options, outputFile);
 ### س5: ما هي إصدارات HTML المدعومة للتحويل؟
 
 A5: يدعم Aspose.HTML لـ Java إصدارات HTML5 وHTML الأقدم.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

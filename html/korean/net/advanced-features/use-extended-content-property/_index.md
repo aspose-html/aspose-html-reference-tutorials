@@ -3,10 +3,16 @@ title: Aspose.HTML을 사용하여 .NET에서 확장된 콘텐츠 속성 사용
 linktitle: .NET에서 확장된 콘텐츠 속성 사용
 second_title: Aspose.HTML .NET HTML 조작 API
 description: 이 단계별 가이드로 .NET용 Aspose.HTML을 사용하는 방법을 알아보세요. HTML 기술을 향상시키고 웹 개발 프로젝트를 간소화하세요.
-type: docs
 weight: 14
 url: /ko/net/advanced-features/use-extended-content-property/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.HTML을 사용하여 .NET에서 확장된 콘텐츠 속성 사용
+
 
 웹 개발의 세계에서 HTML 작업은 기본적인 기술입니다. Aspose.HTML for .NET은 HTML 관련 작업을 더 쉽고 효율적으로 만들어 줄 수 있는 강력한 도구입니다. 이 튜토리얼에서는 Aspose.HTML for .NET을 시작하는 단계를 안내합니다. 여기에는 필수 조건, 네임스페이스 가져오기, 각 예제를 따라하기 쉬운 단계로 나누는 것이 포함됩니다.
 
@@ -123,3 +129,10 @@ using (XpsDevice device = new XpsDevice(dataDir + "output_out.xps"))
 ### .NET용 Aspose.HTML에 대한 추가 리소스나 튜토리얼이 있나요?
     네, 더 많은 튜토리얼과 문서를 다음에서 찾을 수 있습니다.[Aspose.HTML 웹사이트](https://reference.aspose.com/html/net/).
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

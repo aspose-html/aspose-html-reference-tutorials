@@ -3,10 +3,16 @@ title: Afficher plusieurs documents dans .NET avec Aspose.HTML
 linktitle: Afficher plusieurs documents dans .NET
 second_title: API de manipulation HTML Aspose.HTML .NET
 description: Apprenez à générer plusieurs documents HTML à l'aide d'Aspose.HTML pour .NET. Boostez vos capacités de traitement de documents avec cette puissante bibliothèque.
-type: docs
 weight: 14
 url: /fr/net/rendering-html-documents/render-multiple-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Afficher plusieurs documents dans .NET avec Aspose.HTML
+
 Dans le monde en constante évolution du développement Web et du traitement de documents, il est essentiel de disposer des bons outils. Aspose.HTML pour .NET est une bibliothèque puissante qui permet aux développeurs de manipuler et de restituer des documents HTML sans effort. Dans ce didacticiel, nous allons nous plonger dans le rendu de plusieurs documents à l'aide d'Aspose.HTML pour .NET.
 
 ## Prérequis
@@ -91,3 +97,10 @@ Aspose.HTML pour .NET est une bibliothèque .NET qui permet aux développeurs de
 
 ### 5. Où puis-je obtenir de l'aide pour Aspose.HTML pour .NET ?
  Vous pouvez trouver du soutien et des discussions communautaires sur le[Forum Aspose.HTML](https://forum.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
