@@ -42,14 +42,27 @@ Convert HTML to PDF dynamically with Aspose.HTML for .NET. Easy integration, cus
 Learn how to convert HTML to PDF, XPS, and images with Aspose.HTML for .NET. Step-by-step tutorial with code examples and FAQs.
 ### [Using HTML Templates in .NET with Aspose.HTML](./using-html-templates/)
 Learn how to use Aspose.HTML for .NET to dynamically generate HTML documents from JSON data. Harness the power of HTML manipulation in your .NET applications.
+### [Aspose.HTML .NET Tutorial&#58; Create & Monitor HTML Changes for Dynamic Web Development](./aspose-html-net-create-observe-changes/)
+Learn how to use Aspose.HTML with .NET for creating and observing changes in HTML documents. Enhance your web development skills by mastering dynamic DOM manipulation.
 
+### [Guide to Setting Up MutationObserver with Aspose.HTML .NET for Real-Time DOM Updates](./aspose-html-net-mutationobserver-setup-guide/)
+Learn how to implement a MutationObserver using Aspose.HTML for .NET. This guide covers configuration, handling asynchronous operations, and real-world applications.
 
-## Conclusion
+### [Implement Custom Stream Provider in Aspose.HTML .NET for Efficient Document Conversion](./custom-stream-provider-aspose-html-net/)
+Learn how to implement a custom stream provider using Aspose.HTML for .NET. This guide covers efficient document conversion, memory management with MemoryStream, and enhancing rendering processes.
 
-Aspose.HTML for .NET opens the door to a world of possibilities when it comes to working with HTML documents in your .NET applications. These advanced feature tutorials will equip you with the knowledge and skills needed to harness the full potential of Aspose.HTML. Elevate your development projects, save time, and create remarkable solutions with Aspose.HTML for .NET. Get started with our tutorials today and take your web development to the next level.
+### [Master Asynchronous & Load Event Handling in .NET with Aspose.HTML](./asynchronous-load-event-handling-dotnet-aspose-html/)
+Learn how to efficiently manage HTML document loading and event handling using Aspose.HTML for .NET. Enhance your application's responsiveness and user experience.
+
+## Additional Resources
+
+- [Aspose.HTML for Net Documentation](https://docs.aspose.com/html/net/)
+- [Aspose.HTML for Net API Reference](https://reference.aspose.com/html/net/)
+- [Download Aspose.HTML for Net](https://releases.aspose.com/html/net/)
+- [Aspose.HTML Forum](https://forum.aspose.com/c/html)
+- [Free Support](https://forum.aspose.com/)
+- [Temporary License](https://purchase.aspose.com/temporary-license/)
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
