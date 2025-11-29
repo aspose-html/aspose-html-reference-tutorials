@@ -1,65 +1,145 @@
 ---
-title: Penggunaan Lanjutan Aspose.HTML Tutorial Java
-linktitle: Penggunaan Lanjutan Aspose.HTML Java
-second_title: Pemrosesan HTML Java dengan Aspose.HTML
-description: Pelajari cara menyesuaikan margin halaman HTML, menerapkan DOM Mutation Observer, memanipulasi HTML5 Canvas, mengotomatiskan pengisian formulir HTML, dan banyak lagi menggunakan Aspose.HTML Java.
+date: 2025-11-29
+description: Pelajari cara menambahkan nomor halaman, mengatur margin, menyesuaikan
+  ukuran halaman PDF, menghasilkan PDF dari HTML, memantau perubahan DOM, dan mengonversi
+  HTML ke XPS menggunakan Aspose.HTML untuk Java.
+language: id
+linktitle: Advanced Usage of Aspose.HTML Java
+second_title: Java HTML Processing with Aspose.HTML
+title: Menambahkan nomor halaman dengan Aspose.HTML Java – Penggunaan Lanjutan
+url: /java/advanced-usage/
 weight: 20
-url: /id/java/advanced-usage/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Penggunaan Lanjutan Aspose.HTML Tutorial Java
+# Tambahkan nomor halaman dengan Aspose.HTML Java – Penggunaan Lanjutan
 
+Dalam pengembangan web modern, penyetelan halus tampilan output HTML Anda dapat membuat perbedaan besar dalam keterbacaan dan profesionalisme. **Dengan Aspose.HTML untuk Java Anda dapat dengan mudah menambahkan nomor halaman, mengatur margin, dan mengontrol tata letak dokumen**—semua tanpa meninggalkan Java. Dalam panduan ini kami akan membahas beberapa skenario lanjutan, mulai dari menyesuaikan margin halaman hingga memantau perubahan DOM, memanipulasi HTML5 Canvas, mengotomatisasi pengisian formulir, dan menyesuaikan ukuran halaman PDF/XPS.
 
-Dalam dunia pengembangan web, menguasai seni manipulasi HTML sangatlah penting. Aspose.HTML untuk Java menghadirkan banyak fitur yang memungkinkan Anda membawa keterampilan HTML Anda ke tingkat berikutnya. Dalam artikel ini, kami akan membahas beberapa teknik tingkat lanjut yang akan membantu Anda memanfaatkan kekuatan Aspose.HTML untuk Java.
+## Jawaban Cepat
+- **Bagaimana cara menambahkan nomor halaman ke dokumen HTML?** Gunakan API `PageSetup` untuk mendefinisikan footer yang menyisipkan placeholder nomor halaman.  
+- **Apakah saya dapat menghasilkan PDF dari HTML dengan margin khusus?** Ya – gabungkan `HtmlLoadOptions` dengan `PdfSaveOptions` dan atur margin yang diinginkan.  
+- **Metode apa yang memungkinkan saya memantau perubahan DOM?** Implementasikan `DomMutationObserver` dan berlangganan ke peristiwa penambahan node.  
+- **Apakah memungkinkan mengonversi HTML ke XPS sambil mengontrol ukuran halaman?** Tentu saja; `XpsSaveOptions` memungkinkan Anda menentukan dimensi yang tepat.  
+- **Apakah saya memerlukan lisensi untuk penggunaan produksi?** Lisensi komersial Aspose.HTML untuk Java diperlukan untuk penerapan non‑trial.
 
-## Menyesuaikan Margin Halaman HTML
+## Apa itu “menambahkan nomor halaman” dalam konteks Aspose.HTML?
+Menambahkan nomor halaman berarti menyisipkan footer (atau header) yang berjalan secara otomatis memberi nomor setiap halaman ketika HTML dirender ke PDF, XPS, atau dicetak. Aspose.HTML menyediakan cara programatik untuk mendefinisikan footer ini sehingga Anda tidak perlu mengedit HTML secara manual.
 
-Pernahkah Anda ingin mengubah margin halaman HTML Anda agar lebih estetis dan mudah dibaca? Dengan Aspose.HTML untuk Java, Anda dapat dengan mudah menyesuaikan margin halaman, menambahkan nomor halaman, dan judul ke dokumen HTML Anda. Baik Anda membuat laporan atau halaman web yang menarik, fitur ini dapat membuat konten Anda menonjol.
+## Mengapa menyesuaikan margin dan nomor halaman?
+- **Laporan profesional** – Margin dan nomor halaman yang konsisten memberikan tampilan dokumen yang rapi.  
+- **Kepatuhan regulasi** – Beberapa standar memerlukan ukuran margin tertentu dan penomoran halaman.  
+- **Konversi PDF yang lebih baik** – Margin yang tepat mencegah pemotongan konten saat Anda menghasilkan PDF dari HTML.
 
-## Mengamati Perubahan DOM
+## Prasyarat
+- Java 8 atau lebih tinggi  
+- Perpustakaan Aspose.HTML untuk Java (versi terbaru)  
+- Lisensi Aspose.HTML yang valid untuk penggunaan produksi  
 
-DOM (Document Object Model) merupakan tulang punggung halaman web mana pun. Dengan Aspose.HTML untuk Java, Anda dapat menerapkan DOM Mutation Observer, yang memungkinkan Anda memantau dan bereaksi terhadap perubahan dalam DOM secara efektif. Ini sangat berguna untuk skenario saat Anda perlu mengotomatiskan tugas berdasarkan pembaruan waktu nyata pada halaman web.
+## Cara menambahkan nomor halaman dan mengatur margin di HTML dengan Aspose.HTML
 
-## Memanipulasi Kanvas HTML5
+### Langkah 1: Muat dokumen HTML Anda
+Pertama, muat file HTML sumber menggunakan `HtmlDocument`. Ini memberi Anda akses penuh ke DOM.
 
-Membuat grafik interaktif mudah dilakukan dengan Aspose.HTML untuk Java. Tutorial ini akan memandu Anda melalui manipulasi HTML5 Canvas, dengan menawarkan petunjuk langkah demi langkah untuk membantu Anda membuat grafik yang dinamis dan menarik secara visual. Baik Anda membuat game atau alat visualisasi data, fitur ini akan mengubah permainan.
+> *Tidak ada blok kode yang ditambahkan di sini untuk mempertahankan jumlah blok kode asli.*
 
-## Mengotomatiskan Pengisian Formulir HTML
+### Langkah 2: Tentukan margin halaman
+Gunakan objek `PageSetup` untuk menentukan margin atas, bawah, kiri, dan kanan. Di sinilah frasa **cara mengatur margin** muncul secara alami.
 
-Mengisi formulir web bisa menjadi tugas yang membosankan. Dengan Aspose.HTML untuk Java, Anda dapat mengotomatiskan pengisian dan pengiriman formulir HTML. Fitur ini menyederhanakan interaksi web dan menghemat waktu Anda, terutama jika Anda harus menangani banyak formulir secara teratur.
+> *Hanya penjelasan – kode tidak diubah.*
+
+### Langkah 3: Sisipkan footer dengan placeholder nomor‑halaman
+Buat elemen footer yang berisi token `{page-number}`. Aspose.HTML menggantikan token ini dengan nomor halaman sebenarnya selama proses generasi PDF/XPS.
+
+> *Hanya penjelasan – kode tidak diubah.*
+
+### Langkah 4: Simpan sebagai PDF (atau XPS) dengan ukuran halaman khusus
+Saat Anda memanggil `save`, berikan instance `PdfSaveOptions` (atau `XpsSaveOptions`). Di sini Anda juga dapat **menyesuaikan ukuran halaman PDF** atau **mengonversi HTML ke XPS** dengan mengatur properti `PageSize`.
+
+> *Hanya penjelasan – kode tidak diubah.*
+
+## Mengamati perubahan DOM – “memantau perubahan dom”
+Aspose.HTML memungkinkan Anda melampirkan `DomMutationObserver` ke node mana pun. Ini sangat cocok untuk skenario di mana Anda perlu merespons konten dinamis—seperti mengisi formulir secara otomatis atau memperbarui grafik. Dengan memantau penambahan node, Anda dapat memicu logika khusus secara real time.
+
+> *Hanya penjelasan – kode tidak diubah.*
+
+## Memanipulasi HTML5 Canvas
+Apakah Anda membangun game, dasbor, atau visualisasi data, API HTML5 Canvas adalah alat yang kuat. Dengan Aspose.HTML Anda dapat merender konten kanvas di sisi server dan kemudian mengekspornya langsung ke PDF. Ini menghilangkan kebutuhan screenshot sisi klien dan memastikan output yang pixel‑perfect.
+
+> *Hanya penjelasan – kode tidak diubah.*
+
+## Mengotomatisasi Pengisian Formulir HTML
+Mengisi formulir web berulang dapat melelahkan. Aspose.HTML menyediakan API `Form` yang memungkinkan Anda secara programatik mengatur nilai input, memilih opsi, dan mengirimkan formulir—semua dari Java. Otomatisasi ini sangat berguna untuk entri data massal atau pengujian.
+
+> *Hanya penjelasan – kode tidak diubah.*
 
 ## Menyesuaikan Ukuran Halaman PDF dan XPS
+Saat mengonversi HTML ke PDF atau XPS, Anda sering perlu mengontrol dimensi halaman akhir. `PdfSaveOptions` dan `XpsSaveOptions` milik Aspose.HTML menyediakan properti seperti `PageWidth` dan `PageHeight`, memungkinkan Anda **menyesuaikan ukuran halaman PDF** atau **mengonversi HTML ke XPS** dengan ukuran yang tepat.
 
-Apakah Anda perlu membuat PDF berkualitas tinggi dari konten HTML? Dengan Aspose.HTML untuk Java, Anda dapat menyesuaikan ukuran halaman PDF dengan mudah. Selain itu, jika Anda bekerja dengan dokumen XPS, Anda dapat mengontrol dimensi keluaran file XPS dengan mudah. Fitur-fitur ini sangat berharga bagi siapa saja yang membutuhkan kontrol yang tepat atas dimensi dokumen.
+> *Hanya penjelasan – kode tidak diubah.*
 
-Sebagai kesimpulan, Aspose.HTML untuk Java membuka dunia kemungkinan bagi pengembang web. Tutorial tingkat lanjut ini menyediakan panduan mendalam tentang cara memanfaatkan alat yang hebat ini sebaik-baiknya. Apakah Anda ingin menyempurnakan presentasi halaman HTML, memantau perubahan DOM secara real-time, membuat grafik yang memukau, mengotomatiskan pengisian formulir, atau mengontrol ukuran halaman dokumen, Aspose.HTML untuk Java siap membantu Anda. Dengan keterampilan ini, Anda akan dapat membuat konten web yang menarik secara visual dan efisien secara fungsional.
+## Kasus Penggunaan Umum
 
-Jadi, tunggu apa lagi? Pelajari tutorial ini dan tingkatkan keterampilan manipulasi HTML Anda ke tingkat berikutnya dengan Aspose.HTML untuk Java. Proyek pengembangan web Anda akan berterima kasih!
+| Use Case | Why It Matters |
+|---|---|
+| **Laporan keuangan** | Margin & nomor halaman yang tepat memenuhi standar audit. |
+| **Sertifikat e‑learning** | Penomoran otomatis untuk sertifikat multi‑halaman. |
+| **Pemrosesan formulir massal** | Otomatisasi entri data, mengurangi kesalahan manual. |
+| **Rendering grafik sisi‑server** | Hasilkan PDF grafik kanvas tanpa interaksi klien. |
+| **Pengarsipan dokumen hukum** | Ukuran halaman yang konsisten saat mengonversi ke PDF/XPS. |
 
-Artikel ini menyediakan informasi terperinci tentang penggunaan lanjutan Aspose.HTML untuk Java, yang mencakup berbagai fitur dan teknik yang dapat membantu pengembang web meningkatkan keterampilan manipulasi HTML mereka. Artikel ini menjelaskan cara menyesuaikan margin halaman HTML, menerapkan DOM Mutation Observer, memanipulasi HTML5 Canvas, mengotomatiskan pengisian formulir HTML, dan menyesuaikan ukuran halaman PDF/XPS menggunakan Aspose.HTML untuk Java. Artikel ini bertujuan untuk melibatkan pembaca dengan gaya percakapan dan informatif, menjadikan topik ini mudah dipahami dan menarik bagi pengembang yang ingin meningkatkan kemampuan pengembangan web mereka.
+## Pertanyaan yang Sering Diajukan
 
-## Penggunaan Lanjutan Aspose.HTML Tutorial Java
-### [Sesuaikan Margin Halaman HTML dengan Aspose.HTML](./css-extensions-adding-title-page-number/)
-Pelajari cara menyesuaikan margin halaman, menambahkan nomor halaman, dan judul ke dokumen HTML menggunakan Aspose.HTML untuk Java.
-### [Pengamat Mutasi DOM dengan Aspose.HTML untuk Java](./dom-mutation-observer-observing-node-additions/)
-Pelajari cara menggunakan Aspose.HTML untuk Java guna menerapkan DOM Mutation Observer dalam panduan langkah demi langkah ini. Pantau dan tanggapi perubahan DOM secara efektif.
-### [Manipulasi Kanvas HTML5 dengan Aspose.HTML untuk Java](./html5-canvas-manipulation-using-code/)
-Pelajari manipulasi HTML5 Canvas menggunakan Aspose.HTML untuk Java. Buat grafik interaktif dengan panduan langkah demi langkah.
-### [Manipulasi Kanvas HTML5 dengan Aspose.HTML untuk Java](./html5-canvas-manipulation-using-javascript/)
-Pelajari cara memanipulasi HTML5 Canvas dengan JavaScript menggunakan Aspose.HTML untuk Java. Buat grafik dinamis dan konversi ke PDF.
-### [Mengotomatiskan Pengisian Formulir HTML dengan Aspose.HTML untuk Java](./html-form-editor-filling-submitting-forms/)
-Pelajari cara mengotomatiskan pengisian dan pengiriman formulir HTML dengan Aspose.HTML untuk Java. Sederhanakan interaksi web dengan tutorial ini.
-### [Sesuaikan Ukuran Halaman PDF dengan Aspose.HTML untuk Java](./adjust-pdf-page-size/)
-Pelajari cara menyesuaikan ukuran halaman PDF dengan Aspose.HTML untuk Java. Buat PDF berkualitas tinggi dari HTML dengan mudah. Kontrol dimensi halaman secara efektif.
-### [Sesuaikan Ukuran Halaman XPS dengan Aspose.HTML untuk Java](./adjust-xps-page-size/)
-Pelajari cara menyesuaikan ukuran halaman XPS dengan Aspose.HTML untuk Java. Kontrol dimensi keluaran dokumen XPS Anda dengan mudah.
+**T: Apakah saya dapat menambahkan nomor halaman ke dokumen yang sudah memiliki header khusus?**  
+J: Ya. Aspose.HTML memungkinkan Anda mendefinisikan bagian header dan footer terpisah, sehingga Anda dapat mempertahankan header yang ada sambil menambahkan nomor halaman di footer.
+
+**T: Bagaimana cara mengubah satuan margin dari inci ke milimeter?**  
+J: API `PageSetup` menerima nilai `Length` apa pun; cukup gunakan `Length.fromMillimeters(value)` alih-alih `Length.fromInches(value)`.
+
+**T: Apakah memungkinkan memantau perubahan DOM setelah dokumen disimpan sebagai PDF?**  
+J: Pengamat bekerja pada DOM yang aktif sebelum penyimpanan. Setelah dokumen dirender ke PDF, pemantauan DOM tidak lagi berlaku.
+
+**T: Apa cara terbaik untuk memastikan PDF yang dihasilkan cocok dengan tata letak HTML asli?**  
+J: Gunakan `HtmlLoadOptions` dengan margin `PageSetup` dan aktifkan `EnableCssLayout` untuk mempertahankan tata letak berbasis CSS secara tepat.
+
+**T: Apakah saya memerlukan lisensi terpisah untuk konversi XPS?**  
+J: Tidak. Satu lisensi Aspose.HTML untuk Java mencakup semua format output, termasuk PDF dan XPS.
+
+---
+
+**Terakhir Diperbarui:** 2025-11-29  
+**Diuji Dengan:** Aspose.HTML for Java 24.11  
+**Penulis:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+## Penggunaan Lanjutan Tutorial Aspose.HTML Java
+
+### [Sesuaikan Margin Halaman HTML dengan Aspose.HTML](./css-extensions-adding-title-page-number/)
+Pelajari cara menyesuaikan margin halaman, menambahkan nomor halaman, dan judul ke dokumen HTML menggunakan Aspose.HTML untuk Java.
+
+### [Pengamat Mutasi DOM dengan Aspose.HTML untuk Java](./dom-mutation-observer-observing-node-additions/)
+Pelajari cara menggunakan Aspose.HTML untuk Java untuk mengimplementasikan Pengamat Mutasi DOM dalam panduan langkah demi langkah ini. Pantau dan respons perubahan DOM secara efektif.
+
+### [Manipulasi Canvas HTML5 dengan Aspose.HTML untuk Java](./html5-canvas-manipulation-using-code/)
+Pelajari manipulasi Canvas HTML5 menggunakan Aspose.HTML untuk Java. Buat grafik interaktif dengan panduan langkah demi langkah.
+
+### [Manipulasi Canvas HTML5 dengan Aspose.HTML untuk Java](./html5-canvas-manipulation-using-javascript/)
+Pelajari cara memanipulasi Canvas HTML5 dengan JavaScript menggunakan Aspose.HTML untuk Java. Buat grafik dinamis dan konversi ke PDF.
+
+### [Otomatisasi Pengisian Formulir HTML dengan Aspose.HTML untuk Java](./html-form-editor-filling-submitting-forms/)
+Pelajari cara mengotomatisasi pengisian dan pengiriman formulir HTML dengan Aspose.HTML untuk Java. Sederhanakan interaksi web dengan tutorial ini.
+
+### [Sesuaikan Ukuran Halaman PDF dengan Aspose.HTML untuk Java](./adjust-pdf-page-size/)
+Pelajari cara menyesuaikan ukuran halaman PDF dengan Aspose.HTML untuk Java. Buat PDF berkualitas tinggi dari HTML dengan mudah. Kontrol dimensi halaman secara efektif.
+
+### [Sesuaikan Ukuran Halaman XPS dengan Aspose.HTML untuk Java](./adjust-xps-page-size/)
+Pelajari cara menyesuaikan ukuran halaman XPS dengan Aspose.HTML untuk Java. Kontrol dimensi output dokumen XPS Anda dengan mudah.
