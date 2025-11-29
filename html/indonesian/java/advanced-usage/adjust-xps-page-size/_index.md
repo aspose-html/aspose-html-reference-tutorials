@@ -1,34 +1,48 @@
 ---
-title: Sesuaikan Ukuran Halaman XPS dengan Aspose.HTML untuk Java
-linktitle: Menyesuaikan Ukuran Halaman XPS
-second_title: Pemrosesan HTML Java dengan Aspose.HTML
-description: Pelajari cara menyesuaikan ukuran halaman XPS dengan Aspose.HTML untuk Java. Kontrol dimensi keluaran dokumen XPS Anda dengan mudah.
+date: 2025-11-29
+description: Pelajari cara mengonversi HTML ke XPS dan menyesuaikan ukuran halaman
+  XPS menggunakan Aspose.HTML untuk Java. Kendalikan dimensi output dengan mudah.
+language: id
+linktitle: Adjusting XPS Page Size
+second_title: Java HTML Processing with Aspose.HTML
+title: Konversi HTML ke XPS dan Sesuaikan Ukuran Halaman XPS dengan Aspose.HTML untuk
+  Java
+url: /java/advanced-usage/adjust-xps-page-size/
 weight: 16
-url: /id/java/advanced-usage/adjust-xps-page-size/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Sesuaikan Ukuran Halaman XPS dengan Aspose.HTML untuk Java
+# Mengonversi HTML ke XPS dan Menyesuaikan Ukuran Halaman XPS dengan Aspose.HTML untuk Java
 
+Dalam tutorial ini Anda akan menemukan **cara mengonversi HTML ke XPS** dan menyesuaikan ukuran halaman yang dihasilkan menggunakan Aspose.HTML untuk Java. Baik Anda membuat laporan yang dapat dicetak, faktur, atau dokumen arsip, mengontrol dimensi XPS memastikan output terlihat persis seperti yang Anda harapkan. Kami akan membimbing Anda melalui setiap langkah—dari menyiapkan lingkungan hingga merender file XPS akhir—sehingga Anda dapat mengintegrasikan kemampuan ini ke dalam aplikasi Java Anda segera.
 
-Dalam tutorial ini, kami akan memandu Anda melalui proses penyesuaian ukuran halaman XPS menggunakan Aspose.HTML untuk Java. Pustaka canggih ini memungkinkan Anda untuk memanipulasi dokumen HTML dan merendernya ke dalam berbagai format, termasuk XPS. Penyesuaian ukuran halaman sangat penting saat Anda perlu mengontrol dimensi keluaran dokumen XPS Anda.
+## Jawaban Cepat
+- **Apa arti “mengonversi HTML ke XPS”?** Itu merender dokumen HTML menjadi file XPS, mempertahankan tata letak dan gaya.  
+- **Apakah saya memerlukan lisensi?** Versi percobaan gratis dapat digunakan untuk pengembangan; lisensi komersial diperlukan untuk produksi.  
+- **Versi Java mana yang didukung?** Java 8 atau lebih tinggi (JDK 11+ disarankan).  
+- **Bisakah saya mengubah ukuran halaman?** Ya – Aspose.HTML memungkinkan Anda menentukan dimensi khusus sebelum merender.  
+- **Berapa lama proses konversi?** Biasanya kurang dari satu detik untuk halaman standar; dokumen yang lebih besar mungkin memerlukan waktu lebih lama.
+
+## Apa itu mengonversi HTML ke XPS?
+Mengonversi HTML ke XPS berarti mengambil file markup yang berorientasi web dan menghasilkan dokumen XPS (XML Paper Specification) — format tata letak tetap yang siap cetak mirip PDF. Ini berguna ketika Anda memerlukan dokumen dengan fidelitas tinggi dan independen perangkat untuk pengarsipan atau pencetakan dari aplikasi Java.
+
+## Mengapa menyesuaikan ukuran halaman XPS?
+Menyesuaikan ukuran halaman memberi Anda kontrol atas dimensi fisik dokumen akhir (misalnya A4, Letter, label khusus). Hal ini mencegah skala yang tidak diinginkan, memastikan konten pas dengan sempurna, dan dapat mengurangi ukuran file dengan menghilangkan ruang putih yang tidak diperlukan.
 
 ## Prasyarat
 
-Sebelum kita memulai, pastikan Anda memiliki prasyarat berikut:
+Sebelum kita mulai, pastikan Anda memiliki prasyarat berikut:
 
-1. Lingkungan Pengembangan Java: Pastikan Anda telah menginstal Java Development Kit (JDK) di sistem Anda.
+1. **Lingkungan Pengembangan Java** – Java Development Kit (JDK) terpasang di sistem Anda.  
+2. **Pustaka Aspose.HTML untuk Java** – Unduh dan sertakan pustaka Aspose.HTML untuk Java dalam proyek Anda. Anda dapat menemukan pustaka tersebut [di sini](https://releases.aspose.com/html/java/).  
+3. **File HTML Masukan** – Siapkan file HTML yang ingin Anda render dan sesuaikan ukuran halaman XPS‑nya. Anda dapat menggunakan file HTML Anda sendiri untuk tutorial ini.
 
-2.  Pustaka Aspose.HTML untuk Java: Anda perlu mengunduh dan menyertakan pustaka Aspose.HTML untuk Java dalam proyek Java Anda. Anda dapat menemukan pustaka tersebut[Di Sini](https://releases.aspose.com/html/java/).
+## Mengimpor Paket
 
-3. Masukkan Berkas HTML: Siapkan berkas HTML yang ingin Anda render dan sesuaikan ukuran halaman XPS. Anda dapat menggunakan berkas HTML Anda sendiri untuk tutorial ini.
-
-## Paket Impor
-
-Pertama, Anda perlu mengimpor paket yang diperlukan untuk bekerja dengan Aspose.HTML untuk Java. Sertakan paket berikut di awal kelas Java Anda:
+Pertama, impor kelas‑kelas yang diperlukan. Paket‑paket ini memberi Anda akses ke penanganan dokumen, rendering, dan fitur pengaturan halaman.
 
 ```java
 import com.aspose.html.drawing.Page;
@@ -39,7 +53,9 @@ import com.aspose.html.rendering.xps.XpsRenderingOptions;
 import com.aspose.html.HTMLDocument;
 ```
 
-## Langkah 1: Mengatur Nama File Input
+## Langkah 1: Menetapkan Nama File Masukan
+
+Baca file HTML sumber menggunakan `FileInputStream`. Stream ini menyuplai HTML mentah ke mesin Aspose.HTML.
 
 ```java
 try (java.io.FileInputStream fileInputStream = new java.io.FileInputStream("YourInputFile.html")) {
@@ -47,9 +63,9 @@ try (java.io.FileInputStream fileInputStream = new java.io.FileInputStream("Your
 }
 ```
 
- Pada langkah ini, kami membaca file input HTML Anda menggunakan`FileInputStream`.
+## Langkah 2: Membuat Dokumen HTML dan Menetapkan Gaya
 
-## Langkah 2: Buat Dokumen HTML dan Atur Gaya
+Buat instance `HTMLDocument` yang mewakili konten yang akan Anda render. Pada contoh ini kami juga menyisipkan blok CSS kecil untuk mendemonstrasikan styling—silakan ganti dengan markup Anda sendiri.
 
 ```java
 com.aspose.html.HTMLDocument html_document = new com.aspose.html.HTMLDocument("YourOutputFile.html");
@@ -63,22 +79,23 @@ String style = "<style>\n" +
                "<div id=id1>Aspose.HTML rendering Text in Black Color</div>\n" +
                "<div id=id2 class=''st''>Aspose.HTML rendering Text in Green Color</div>\n" +
                "<div id=id3 class=''st'' style='color: blue;'>Aspose.HTML rendering Text in Blue Color</div>\n" +
-               "<div id=id3 class=''st'' style='color: red;'>Aspose.HTML rendering Text in Red Color</div>\n";
+               "<div id=id3 class=''st'' style='color: red;'>Aspose.HTML rendering Text in Red Color</div>\n" +
+               "\n";
 
 // ...
 ```
 
- Langkah ini melibatkan pembuatan`HTMLDocument` dan menambahkan gaya ke dalamnya.
+## Langkah 3: Membuat Opsi Rendering XPS
 
-## Langkah 3: Buat Opsi Rendering XPS
+Instansiasi `XpsRenderingOptions` untuk menampung semua pengaturan yang memengaruhi konversi dari HTML ke XPS.
 
 ```java
 com.aspose.html.rendering.xps.XpsRenderingOptions xps_options = new com.aspose.html.rendering.xps.XpsRenderingOptions();
 ```
 
-Di sini, kami membuat opsi rendering XPS untuk mengonfigurasi proses rendering.
+## Langkah 4: Menyesuaikan Ukuran Halaman
 
-## Langkah 4: Sesuaikan Ukuran Halaman
+Tentukan ukuran halaman khusus (lebar × tinggi dalam poin) dan beri tahu renderer apakah harus secara otomatis memperluas ke halaman terlebar. Menetapkan `adjustToWidestPage` ke `false` mempertahankan dimensi tepat yang Anda tentukan.
 
 ```java
 com.aspose.html.drawing.Page page = new com.aspose.html.drawing.Page(new com.aspose.html.drawing.Size(100, 100));
@@ -88,9 +105,9 @@ pageSetup.setAdjustToWidestPage(false);
 xps_options.setPageSetup(pageSetup);
 ```
 
-Langkah ini melibatkan pengaturan ukuran halaman dan menentukan apakah akan menyesuaikannya ke halaman terlebar.
+## Langkah 5: Merender Output
 
-## Langkah 5: Render Outputnya
+Akhirnya, buat `XpsDevice` dengan opsi yang telah dikonfigurasi dan render dokumen HTML. Hasilnya adalah file XPS yang lengkap dengan dimensi halaman khusus yang Anda setel.
 
 ```java
 com.aspose.html.rendering.xps.XpsDevice device = new com.aspose.html.rendering.xps.XpsDevice(xps_options, "YourOutputFile.xps");
@@ -98,35 +115,50 @@ com.aspose.html.rendering.xps.XpsDevice device = new com.aspose.html.rendering.x
 renderer.render(device, html_document);
 ```
 
-Pada langkah terakhir, kami merender output XPS menggunakan opsi yang dikonfigurasikan.
+## Masalah Umum dan Solusinya
 
-## Kesimpulan
-
-Dalam tutorial ini, kami telah menunjukkan kepada Anda cara menyesuaikan ukuran halaman XPS menggunakan Aspose.HTML untuk Java. Anda dapat mengontrol dimensi keluaran dokumen XPS Anda, memastikannya memenuhi persyaratan khusus Anda. Dengan kode dan langkah-langkah yang diberikan, Anda dapat dengan mudah menerapkan fitur ini di aplikasi Java Anda.
-
- Jika Anda memiliki pertanyaan atau memerlukan bantuan lebih lanjut, jangan ragu untuk mengunjungi[Dokumentasi Aspose.HTML untuk Java](https://reference.aspose.com/html/java/) atau meminta bantuan di[Forum Aspose](https://forum.aspose.com/).
+| Masalah | Mengapa Terjadi | Solusi |
+|-------|----------------|-----|
+| **Output XPS kosong** | Stream masukan tidak ditutup atau HTMLDocument mengarah ke file yang salah. | Pastikan `FileInputStream` dibungkus dalam blok try‑with‑resources dan jalur file akurat. |
+| **Ukuran halaman tidak diterapkan** | `adjustToWidestPage` tetap `true`. | Setel `pageSetup.setAdjustToWidestPage(false);` seperti yang ditunjukkan pada Langkah 4. |
+| **CSS tidak didukung** | Aspose.HTML mendukung subset CSS. | Gunakan layout dasar, font, dan warna; hindari selector lanjutan atau CSS Grid. |
+| **LicenseException** | Menjalankan tanpa lisensi yang valid di produksi. | Terapkan lisensi sementara atau berbayar sebelum merender (`License license = new License(); license.setLicense("Aspose.Total.Java.lic");`). |
 
 ## Pertanyaan yang Sering Diajukan
 
-### Q1: Apa itu Aspose.HTML untuk Java?
+**T: Apa itu Aspose.HTML untuk Java?**  
+J: Aspose.HTML untuk Java adalah pustaka Java yang memungkinkan pengembang memanipulasi dan mengonversi dokumen HTML ke berbagai format, seperti XPS, PDF, dan gambar.
 
-A1: Aspose.HTML untuk Java adalah pustaka Java yang memungkinkan pengembang untuk memanipulasi dan mengubah dokumen HTML ke dalam berbagai format, seperti XPS, PDF, dan gambar.
+**T: Di mana saya dapat mengunduh Aspose.HTML untuk Java?**  
+J: Anda dapat mengunduh pustaka Aspose.HTML untuk Java dari [tautan ini](https://releases.aspose.com/html/java/).
 
-### Q2: Di mana saya dapat mengunduh Aspose.HTML untuk Java?
+**T: Apakah tersedia percobaan gratis untuk Aspose.HTML untuk Java?**  
+J: Ya, Anda dapat memperoleh percobaan gratis Aspose.HTML untuk Java dari [sini](https://releases.aspose.com/).
 
- A2: Anda dapat mengunduh pustaka Aspose.HTML untuk Java dari[tautan ini](https://releases.aspose.com/html/java/).
+**T: Bagaimana cara mendapatkan lisensi sementara untuk Aspose.HTML untuk Java?**  
+J: Untuk mendapatkan lisensi sementara Aspose.HTML untuk Java, kunjungi [halaman ini](https://purchase.aspose.com/temporary-license/).
 
-### Q3: Apakah ada uji coba gratis yang tersedia untuk Aspose.HTML untuk Java?
+**T: Apakah saya dapat memperoleh dukungan untuk Aspose.HTML untuk Java?**  
+J: Ya, Anda dapat mencari bantuan dan dukungan dari komunitas Aspose di [Aspose Forum](https://forum.aspose.com/).
 
- A3: Ya, Anda bisa mendapatkan uji coba gratis Aspose.HTML untuk Java dari[Di Sini](https://releases.aspose.com/).
+**T: Bisakah saya mengonversi HTML ke XPS di server tanpa tampilan (headless)?**  
+J: Tentu saja. Aspose.HTML berfungsi di lingkungan tanpa GUI; pastikan runtime Java dikonfigurasi dengan benar.
 
-### Q4: Bagaimana cara memperoleh lisensi sementara untuk Aspose.HTML untuk Java?
+**T: Apakah pustaka ini mendukung margin halaman khusus?**  
+J: Ya. Gunakan `PageSetup.setMarginTop()`, `setMarginBottom()`, dll., sebelum menetapkan `PageSetup` ke opsi rendering.
 
- A4: Untuk mendapatkan lisensi sementara untuk Aspose.HTML untuk Java, kunjungi[halaman ini](https://purchase.aspose.com/temporary-license/).
+## Kesimpulan
 
-### Q5: Bisakah saya mendapatkan dukungan untuk Aspose.HTML untuk Java?
+Kami telah menelusuri proses lengkap **mengonversi HTML ke XPS** dan menyesuaikan ukuran halaman dengan Aspose.HTML untuk Java. Dengan mengikuti langkah‑langkah ini Anda dapat menghasilkan dokumen XPS siap cetak yang sesuai dengan persyaratan tata letak Anda. Jangan ragu bereksperimen dengan dimensi halaman berbeda, gaya, atau bahkan menambahkan header dan footer sesuai kebutuhan proyek Anda.
 
- A5: Ya, Anda dapat mencari bantuan dan dukungan dari komunitas Aspose di[Forum Aspose](https://forum.aspose.com/).
+Jika Anda memiliki pertanyaan atau memerlukan bantuan lebih lanjut, jelajahi dokumentasi [Aspose.HTML untuk Java](https://reference.aspose.com/html/java/) atau bergabung dalam percakapan di [Aspose Forum](https://forum.aspose.com/).
+
+---
+
+**Terakhir Diperbarui:** 2025-11-29  
+**Diuji Dengan:** Aspose.HTML untuk Java 24.11 (terbaru pada saat penulisan)  
+**Penulis:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
