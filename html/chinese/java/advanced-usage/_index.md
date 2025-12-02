@@ -111,17 +111,6 @@ Aspose.HTML 允许您将 `DomMutationObserver` 附加到任意节点。这对于
 **问：XPS 转换是否需要单独的许可证？**  
 答：不需要。单一的 Aspose.HTML for Java 许可证涵盖所有输出格式，包括 PDF 和 XPS。
 
-**最后更新：** 2025-11-29  
-**测试环境：** Aspose.HTML for Java 24.11  
-**作者：** Aspose  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Aspose.HTML Java 教程的高级用法
 ### [使用 Aspose.HTML 自定义 HTML 页面边距](./css-extensions-adding-title-page-number/)
 了解如何使用 Aspose.HTML for Java 自定义页面边距、添加页码和标题到 HTML 文档。
@@ -143,3 +132,15 @@ Aspose.HTML 允许您将 `DomMutationObserver` 附加到任意节点。这对于
 
 ### [使用 Aspose.HTML for Java 调整 XPS 页面尺寸](./adjust-xps-page-size/)
 学习如何使用 Aspose.HTML for Java 调整 XPS 页面尺寸。轻松控制 XPS 文档的输出尺寸。
+
+---
+**最后更新：** 2025-11-29  
+**测试环境：** Aspose.HTML for Java 24.11  
+**作者：** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
