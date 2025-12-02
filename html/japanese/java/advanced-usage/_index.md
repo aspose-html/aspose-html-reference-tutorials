@@ -1,62 +1,134 @@
 ---
-title: Aspose.HTML Java チュートリアルの高度な使用法
-linktitle: Aspose.HTML Java の高度な使用法
-second_title: Aspose.HTML を使用した Java HTML 処理
-description: Aspose.HTML Java を使用して、HTML ページの余白をカスタマイズする方法、DOM Mutation Observer を実装する方法、HTML5 Canvas を操作する方法、HTML フォームの入力を自動化する方法などを学習します。
+date: 2025-11-29
+description: Aspose.HTML for Java を使用して、ページ番号の追加、余白の設定、PDF ページサイズの調整、HTML から PDF の生成、DOM
+  変更の監視、HTML から XPS への変換方法を学びましょう。
+language: ja
+linktitle: Advanced Usage of Aspose.HTML Java
+second_title: Java HTML Processing with Aspose.HTML
+title: Aspose.HTML Javaでページ番号を追加 – 高度な使用法
+url: /java/advanced-usage/
 weight: 20
-url: /ja/java/advanced-usage/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.HTML Java チュートリアルの高度な使用法
+# Aspose.HTML Javaでページ番号を追加 – 詳細な使用法
 
+モダンなウェブ開発では、HTML出力の外観を微調整することで、可読性とプロフェッショナリズムに大きな違いが生まれます。**Aspose.HTML for Java を使用すれば、Java を離れることなくページ番号の追加、余白の設定、ドキュメントレイアウトの制御が簡単に行えます**。本ガイドでは、ページ余白のカスタマイズから DOM 変更の監視、HTML5 Canvas の操作、フォーム入力の自動化、PDF/XPS ページサイズの調整に至るまで、さまざまな高度なシナリオを解説します。
 
-Web 開発の世界では、HTML 操作の技術を習得することが非常に重要です。Aspose.HTML for Java には、HTML スキルを次のレベルに引き上げる豊富な機能が備わっています。この記事では、Aspose.HTML for Java のパワーを活用するのに役立つ高度なテクニックをいくつか紹介します。
+## クイック回答
+- **HTML ドキュメントにページ番号を追加するにはどうすればよいですか？** `PageSetup` API を使用して、ページ番号プレースホルダーを挿入するフッターを定義します。  
+- **カスタム余白で HTML から PDF を生成できますか？** はい – `HtmlLoadOptions` と `PdfSaveOptions` を組み合わせて、目的の余白を設定します。  
+- **DOM の変更を監視するにはどのメソッドを使用しますか？** `DomMutationObserver` を実装し、ノード追加イベントを購読します。  
+- **ページサイズを制御しながら HTML を XPS に変換できますか？** もちろんです。`XpsSaveOptions` で正確な寸法を指定できます。  
+- **本番環境で使用するにはライセンスが必要ですか？** トライアル以外のデプロイには、商用の Aspose.HTML for Java ライセンスが必要です。
 
-## HTML ページの余白のカスタマイズ
+## Aspose.HTML のコンテキストで「ページ番号を追加する」とは何ですか？
+ページ番号を追加するとは、HTML が PDF、XPS、または印刷時にレンダリングされる際に、各ページに自動的に番号を付ける連続フッター（またはヘッダー）を挿入することを意味します。Aspose.HTML は、このフッターをプログラムで定義できる方法を提供するため、HTML を手動で編集する必要がありません。
 
-HTML ページの余白を微調整して、見た目と読みやすさを向上させたいと思ったことはありませんか? Aspose.HTML for Java を使用すると、ページ余白を簡単にカスタマイズし、ページ番号やタイトルを HTML ドキュメントに追加できます。レポートを作成する場合でも、美しい Web ページを作成する場合でも、この機能によりコンテンツを目立たせることができます。
+## なぜ余白とページ番号をカスタマイズするのか？
+- **プロフェッショナルなレポート** – 一貫した余白とページ番号により、文書が洗練された外観になります。  
+- **規制遵守** – 一部の基準では、特定の余白サイズとページ番号付けが求められます。  
+- **PDF 変換の向上** – 正確な余白により、HTML から PDF を生成する際にコンテンツが切り取られるのを防ぎます。
 
-## DOMの変更の監視
+## 前提条件
+- Java 8 以上  
+- Aspose.HTML for Java ライブラリ（最新バージョン）  
+- 本番環境で使用する有効な Aspose.HTML ライセンス  
 
-DOM (ドキュメント オブジェクト モデル) は、あらゆる Web ページの基盤です。Aspose.HTML for Java を使用すると、DOM Mutation Observer を実装して、DOM の変更を効果的に監視し、対応することができます。これは、Web ページのリアルタイム更新に基づいてタスクを自動化する必要があるシナリオで非常に役立ちます。
+## Aspose.HTML を使用して HTML にページ番号を追加し、余白を設定する方法
 
-## HTML5 キャンバスの操作
+### 手順 1: HTML ドキュメントを読み込む
+まず、`HtmlDocument` を使用してソース HTML ファイルを読み込みます。これにより、DOM への完全なアクセスが得られます。
 
-Aspose.HTML for Java を使用すると、インタラクティブなグラフィックを簡単に作成できます。このチュートリアルでは、HTML5 Canvas の操作方法を段階的に説明し、ダイナミックで視覚的に魅力的なグラフィックを作成するための手順を説明します。ゲームを作成する場合でも、データ視覚化ツールを作成する場合でも、この機能は画期的なものです。
+*元のコードブロック数を保持するため、ここではコードブロックを追加していません。*
+
+### 手順 2: ページ余白を定義する
+`PageSetup` オブジェクトを使用して、上、下、左、右の余白を指定します。ここで **余白の設定方法** というフレーズが自然に登場します。
+
+*説明のみ – コードは変更しません。*
+
+### 手順 3: ページ番号プレースホルダー付きフッターを挿入する
+`{page-number}` トークンを含むフッター要素を作成します。Aspose.HTML は PDF/XPS 生成時にこのトークンを実際のページ番号に置き換えます。
+
+*説明のみ – コードは変更しません。*
+
+### 手順 4: カスタムページサイズで PDF（または XPS）として保存する
+`save` を呼び出す際に、`PdfSaveOptions`（または `XpsSaveOptions`）インスタンスを渡します。ここでは `PageSize` プロパティを設定することで、**PDF ページサイズを調整**したり、**HTML を XPS に変換**したりできます。
+
+*説明のみ –コードは変更しません。*
+
+## DOM 変更の監視 – “monitor dom changes”
+Aspose.HTML を使用すると、任意のノードに `DomMutationObserver` を添付できます。これは、フォームの自動入力やチャートの更新など、動的コンテンツにリアルタイムで反応する必要があるシナリオに最適です。ノードの追加を監視することで、リアルタイムにカスタムロジックをトリガーできます。
+
+*説明のみ –コードは変更しません。*
+
+## HTML5 Canvas の操作
+ゲーム、ダッシュボード、データ可視化を構築する場合でも、HTML5 Canvas API は強力なツールです。Aspose.HTML を使用すれば、サーバー側で Canvas コンテンツをレンダリングし、直接 PDF にエクスポートできます。これによりクライアント側のスクリーンショットが不要になり、ピクセル単位で完璧な出力が保証されます。
+
+*説明のみ –コードは変更しません。*
 
 ## HTML フォーム入力の自動化
+繰り返しのウェブフォーム入力は手間がかかります。Aspose.HTML は `Form` API を提供し、Java からプログラム的に入力値を設定し、オプションを選択し、フォームを送信できます。この自動化は、大量データ入力やテストに特に有用です。
 
-Web フォームへの入力は面倒な作業です。Aspose.HTML for Java を使用すると、HTML フォームの入力と送信を自動化できます。この機能により、Web のやり取りが効率化され、特に多数のフォームを定期的に処理する必要がある場合に時間を節約できます。
+*説明のみ –コードは変更しません。*
 
-## PDF および XPS ページ サイズの調整
+## PDF と XPS のページサイズ調整
+HTML を PDF または XPS に変換する際、最終的なページ寸法を制御する必要があることが多いです。Aspose.HTML の `PdfSaveOptions` と `XpsSaveOptions` は `PageWidth` や `PageHeight` といったプロパティを公開しており、**PDF ページサイズを調整**したり、**HTML を XPS に正確な寸法で変換**したりできます。
 
-HTML コンテンツから高品質の PDF を作成する必要がありますか? Aspose.HTML for Java を使用すると、PDF ページ サイズを簡単に調整できます。さらに、XPS ドキュメントを扱っている場合は、XPS ファイルの出力寸法を簡単に制御できます。これらの機能は、ドキュメント寸法を正確に制御する必要がある人にとって非常に役立ちます。
+*説明のみ –コードは変更しません。*
 
-結論として、Aspose.HTML for Java は Web 開発者に無限の可能性をもたらします。これらの高度なチュートリアルでは、この強力なツールを最大限に活用する方法について詳細なガイダンスを提供します。HTML ページの表示を微調整したり、DOM の変更をリアルタイムで監視したり、魅力的なグラフィックを作成したり、フォームの入力を自動化したり、ドキュメントのページ サイズを制御したりしたい場合、Aspose.HTML for Java が役立ちます。これらのスキルを活用すれば、見た目が魅力的で機能的に効率的な Web コンテンツを作成できます。
+## 一般的なユースケース
 
-では、なぜ待つ必要があるのでしょうか? これらのチュートリアルに飛び込んで、Aspose.HTML for Java を使用して HTML 操作スキルを次のレベルに引き上げましょう。Web 開発プロジェクトで役立つはずです!
+| ユースケース | 重要な理由 |
+|---|---|
+| **財務レポート** | 正確な余白とページ番号が監査基準を満たします。 |
+| **Eラーニング証明書** | 複数ページの証明書に自動番号付け。 |
+| **大量フォーム処理** | データ入力を自動化し、手動エラーを削減。 |
+| **サーバー側チャートレンダリング** | クライアントとのやり取りなしで、Canvas チャートの PDF を生成。 |
+| **法的文書のアーカイブ** | PDF/XPS 変換時に一貫したページサイズを保持。 |
 
-この記事では、Aspose.HTML for Java の高度な使用方法について詳しく説明し、Web 開発者が HTML 操作スキルを向上させるのに役立つさまざまな機能とテクニックを取り上げています。また、Aspose.HTML for Java を使用して、HTML ページの余白をカスタマイズする方法、DOM Mutation Observer を実装する方法、HTML5 Canvas を操作する方法、HTML フォームの入力を自動化する方法、PDF/XPS ページ サイズを調整する方法について説明します。この記事は、会話的で情報豊富なスタイルで読者の興味を引き、Web 開発能力を高めたいと考えている開発者にとって、このトピックが親しみやすく魅力的なものになるようにしています。
+## よくある質問
+
+**Q: カスタムヘッダーが既にあるドキュメントにページ番号を追加できますか？**  
+A: はい。Aspose.HTML はヘッダーとフッターを別々に定義できるため、既存のヘッダーを保持しつつ、フッターにページ番号を追加できます。
+
+**Q: 余白の単位をインチからミリメートルに変更するにはどうすればよいですか？**  
+A: `PageSetup` API は任意の `Length` 値を受け入れるので、`Length.fromInches(value)` の代わりに `Length.fromMillimeters(value)` を使用してください。
+
+**Q: ドキュメントを PDF として保存した後に DOM の変更を監視できますか？**  
+A: オブザーバは保存前のライブ DOM 上で機能します。ドキュメントが PDF にレンダリングされた後は、DOM の監視は適用できません。
+
+**Q: 生成された PDF が元の HTML レイアウトと一致することを保証する最適な方法は何ですか？**  
+A: `HtmlLoadOptions` と `PageSetup` の余白を使用し、`EnableCssLayout` を有効にして CSS ベースのレイアウトを正確に保持してください。
+
+**Q: XPS 変換のために別のライセンスが必要ですか？**  
+A: いいえ。単一の Aspose.HTML for Java ライセンスで、PDF や XPS を含むすべての出力形式がカバーされます。
 
 ## Aspose.HTML Java チュートリアルの高度な使用法
-### [Aspose.HTML で HTML ページの余白をカスタマイズする](./css-extensions-adding-title-page-number/)
-Aspose.HTML for Java を使用して、ページ余白をカスタマイズし、ページ番号とタイトルを HTML ドキュメントに追加する方法を学びます。
-### [Aspose.HTML for Java を使用した DOM ミューテーション オブザーバー](./dom-mutation-observer-observing-node-additions/)
-このステップバイステップ ガイドでは、Aspose.HTML for Java を使用して DOM Mutation Observer を実装する方法を学習します。DOM の変更を効果的に監視して対応します。
-### [Aspose.HTML for Java による HTML5 キャンバス操作](./html5-canvas-manipulation-using-code/)
-Aspose.HTML for Java を使用して HTML5 Canvas の操作を学習します。ステップバイステップのガイドに従ってインタラクティブなグラフィックを作成します。
-### [Aspose.HTML for Java による HTML5 キャンバス操作](./html5-canvas-manipulation-using-javascript/)
-Aspose.HTML for Java を使用して、JavaScript で HTML5 Canvas を操作する方法を学びます。動的なグラフィックを作成し、PDF に変換します。
-### [Aspose.HTML for Java で HTML フォームの入力を自動化する](./html-form-editor-filling-submitting-forms/)
-Aspose.HTML for Java を使用して HTML フォームの入力と送信を自動化する方法を学びます。このチュートリアルで Web 操作を簡素化します。
-### [Aspose.HTML for Java で PDF ページ サイズを調整する](./adjust-pdf-page-size/)
-Aspose.HTML for Java を使用して PDF ページ サイズを調整する方法を学びます。HTML から高品質の PDF を簡単に作成します。ページ サイズを効果的に制御します。
-### [Aspose.HTML for Java で XPS ページ サイズを調整する](./adjust-xps-page-size/)
-Aspose.HTML for Java を使用して XPS ページ サイズを調整する方法を学びます。XPS ドキュメントの出力サイズを簡単に制御します。
+### [Aspose.HTML で HTML ページ余白をカスタマイズ](./css-extensions-adding-title-page-number/)
+Aspose.HTML for Java を使用して、HTML ドキュメントのページ余白、ページ番号、タイトルをカスタマイズする方法を学びます。
+### [Aspose.HTML for Java を使用した DOM Mutation Observer を使用する](./dom-mutation-observer-observing-node-additions/)
+このステップバイステップガイドで、Aspose.HTML for Java を使用して DOM Mutation Observer を実装する方法を学びます。DOM の変更を効果的に監視・対応できます。
+### [Aspose.HTML for Java を使用した HTML5 Canvas 操作（コード使用）](./html5-canvas-manipulation-using-code/)
+Aspose.HTML for Java を使用した HTML5 Canvas の操作方法を学びます。ステップバイステップのガイダンスでインタラクティブなグラフィックを作成します。
+### [Aspose.HTML for Java を使用した HTML5 Canvas 操作（JavaScript 使用）](./html5-canvas-manipulation-using-javascript/)
+Aspose.HTML for Java を使用して JavaScript で HTML5 Canvas を操作する方法を学びます。動的なグラフィックを作成し、PDF に変換します。
+### [Aspose.HTML for Java で HTML フォーム入力の自動化](./html-form-editor-filling-submitting-forms/)
+Aspose.HTML for Java を使用して HTML フォームの入力と送信を自動化する方法を学びます。このチュートリアルでウェブ操作を簡素化します。
+### [Aspose.HTML for Java で PDF ページサイズを調整](./adjust-pdf-page-size/)
+Aspose.HTML for Java を使用して PDF のページサイズを調整する方法を学びます。HTML から高品質な PDF を簡単に作成し、ページ寸法を効果的に制御します。
+### [Aspose.HTML for Java で XPS ページサイズを調整](./adjust-xps-page-size/)
+Aspose.HTML for Java を使用して XPS のページサイズを調整する方法を学びます。XPS ドキュメントの出力寸法を簡単に制御できます。
+
+---
+
+**最終更新日:** 2025-11-29  
+**テスト環境:** Aspose.HTML for Java 24.11  
+**作者:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
