@@ -152,15 +152,15 @@ Most már tudod, hogyan **adj elemet a body‑hoz**, állíts be egy **mutation 
 
 Ha problémába ütközöl, a közösség szívesen segít a [Aspose.HTML fórumon](https://forum.aspose.com/). A részletes API‑leíráshoz tekintsd meg a hivatalos [Aspose.HTML for Java dokumentációt](https://reference.aspose.com/html/java/).
 
+---
+
+**Utoljára frissítve:** 2025-11-30  
+**Tesztelt verzió:** Aspose.HTML for Java 24.11  
+**Szerző:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Utoljára frissítve:** 2025-11-30  
-**Tesztelt verzió:** Aspose.HTML for Java 24.11  
-**Szerző:** Aspose

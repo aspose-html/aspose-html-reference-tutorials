@@ -152,15 +152,15 @@ Ahora sabes cómo **añadir elemento al cuerpo**, configurar un **observador de 
 
 Si encuentras algún problema, la comunidad está lista para ayudar en el [foro de Aspose.HTML](https://forum.aspose.com/). Para detalles más profundos de la API, consulta la documentación oficial de [Aspose.HTML para Java](https://reference.aspose.com/html/java/).
 
+---
+
+**Última actualización:** 2025-11-30  
+**Probado con:** Aspose.HTML para Java 24.11  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última actualización:** 2025-11-30  
-**Probado con:** Aspose.HTML para Java 24.11  
-**Autor:** Aspose

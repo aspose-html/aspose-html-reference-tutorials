@@ -152,15 +152,16 @@ Anda kini telah mempelajari cara **append element to body**, menyiapkan **mutati
 
 Jika Anda mengalami masalah, komunitas siap membantu di [forum Aspose.HTML](https://forum.aspose.com/). Untuk detail API lebih mendalam, lihat dokumentasi resmi [Aspose.HTML untuk Java](https://reference.aspose.com/html/java/).
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ---
 
 **Last Updated:** 2025-11-30  
 **Tested With:** Aspose.HTML for Java 24.11  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -111,19 +111,6 @@ A: 當然可以 – `HtmlToSvgConverter` 類別可高保真度完成此轉換。
 **Q: 大型 HTML canvas 轉 PDF 的最佳做法是什麼？**  
 A: 先將 canvas 轉為位圖，再使用 `PdfSaveOptions` 嵌入影像；或直接使用內建的 canvas‑to‑PDF 方法取得向量輸出。
 
----
-
-**最後更新：** 2025-11-30  
-**測試環境：** Aspose.HTML for Java 24.11  
-**作者：** Aspose  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Aspose.HTML for Java 教學
 ### [Advanced Usage of Aspose.HTML Java](./advanced-usage/)
 了解如何自訂 HTML 頁面邊距、實作 DOM Mutation Observer、操作 HTML5 Canvas、自動化 HTML 表單填寫等，盡在 Aspose.HTML Java。
@@ -187,3 +174,16 @@ A: 先將 canvas 轉為位圖，再使用 `PdfSaveOptions` 嵌入影像；或直
 
 ### [Handling ZIP Files in Aspose.HTML for Java](./handling-zip-files/)
 解鎖 Aspose.HTML for Java 的強大功能，學習 ZIP 檔案處理技巧，輕鬆管理 ZIP 壓縮檔。
+
+---
+
+**最後更新：** 2025-11-30  
+**測試環境：** Aspose.HTML for Java 24.11  
+**作者：** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

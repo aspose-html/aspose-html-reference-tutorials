@@ -151,15 +151,15 @@ observer.disconnect();
 
 إذا واجهت أي مشكلة، المجتمع جاهز للمساعدة في [منتدى Aspose.HTML](https://forum.aspose.com/). للحصول على تفاصيل أعمق حول الـ API، راجع الوثائق الرسمية لـ [Aspose.HTML للـ Java](https://reference.aspose.com/html/java/).
 
+---
+
+**آخر تحديث:** 2025-11-30  
+**تم الاختبار مع:** Aspose.HTML للـ Java 24.11  
+**المؤلف:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2025-11-30  
-**تم الاختبار مع:** Aspose.HTML للـ Java 24.11  
-**المؤلف:** Aspose

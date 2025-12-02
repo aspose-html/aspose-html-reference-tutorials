@@ -112,17 +112,6 @@ A: Απόλυτα – η κλάση `HtmlToSvgConverter` διαχειρίζετ�
 **Q: Ποιος είναι ο καλύτερος τρόπος για να μετατρέψω ένα μεγάλο HTML canvas σε PDF;**  
 A: Αποδώστε το canvas πρώτα σε bitmap, στη συνέχεια χρησιμοποιήστε `PdfSaveOptions` για να ενσωματώσετε την εικόνα, ή χρησιμοποιήστε τη ενσωματωμένη μέθοδο canvas‑to‑PDF για διανυσματικό αποτέλεσμα.
 
-**Last Updated:** 2025-11-30  
-**Tested With:** Aspose.HTML for Java 24.11  
-**Author:** Aspose  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Οδηγοί Aspose.HTML for Java
 ### [Προχωρημένη Χρήση του Aspose.HTML Java](./advanced-usage/)
 Μάθετε πώς να προσαρμόσετε τα περιθώρια σελίδας HTML, να υλοποιήσετε Παρατηρητή Μεταβολών DOM, να χειριστείτε HTML5 Canvas, να αυτοματοποιήσετε τη συμπλήρωση HTML φορμών και πολλά άλλα χρησιμοποιώντας το Aspose.HTML Java.
@@ -166,3 +155,16 @@ A: Αποδώστε το canvas πρώτα σε bitmap, στη συνέχεια 
 Ανακαλύψτε ολοκληρωμένους οδηγούς Aspose.HTML for Java που σας καθοδηγούν στη διαδικασία αποθήκευσης εγγράφων HTML, μετατροπής σε Markdown και πολλά άλλα.
 ### [Διαχείριση Αρχείων ZIP στην Aspose.HTML for Java](./handling-zip-files/)
 Αποκτήστε τη δύναμη του Aspose.HTML for Java. Εξερευνήστε οδηγούς για τη διαχείριση αρχείων ZIP και μάθετε βασικές τεχνικές για αποτελεσματική διαχείριση αρχείων ZIP.
+
+---
+
+**Last Updated:** 2025-11-30  
+**Tested With:** Aspose.HTML for Java 24.11  
+**Author:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

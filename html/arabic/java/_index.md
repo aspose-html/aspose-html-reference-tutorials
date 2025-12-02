@@ -111,17 +111,6 @@ HTML5 Canvas هو أداة قوية لإنشاء الرسومات والرسوم
 **س: ما هي الطريقة المثلى لتحويل Canvas HTML كبير إلى PDF؟**  
 ج: قم برسم الـ Canvas إلى صورة bitmap أولاً، ثم استخدم `PdfSaveOptions` لتضمين الصورة، أو استخدم الطريقة المدمجة canvas‑to‑PDF للحصول على مخرجات متجهية.
 
-**آخر تحديث:** 2025-11-30  
-**تم الاختبار مع:** Aspose.HTML for Java 24.11  
-**المؤلف:** Aspose  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## دروس Aspose.HTML for Java
 
 ### [الاستخدام المتقدم لـ Aspose.HTML Java](./advanced-usage/)
@@ -186,3 +175,16 @@ HTML5 Canvas هو أداة قوية لإنشاء الرسومات والرسوم
 
 ### [معالجة ملفات ZIP في Aspose.HTML for Java](./handling-zip-files/)
 استفد من قوة Aspose.HTML for Java. استكشف دروسًا حول معالجة ملفات ZIP وتعلم تقنيات أساسية لإدارة أرشيفات ZIP بفعالية.
+
+---
+
+**آخر تحديث:** 2025-11-30  
+**تم الاختبار مع:** Aspose.HTML for Java 24.11  
+**المؤلف:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

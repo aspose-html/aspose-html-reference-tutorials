@@ -152,15 +152,15 @@ A: Καλέστε `observer.disconnect()` (Βήμα 5) και, αν δημιο
 
 Αν αντιμετωπίσετε προβλήματα, η κοινότητα είναι έτοιμη να βοηθήσει στο [Aspose.HTML forum](https://forum.aspose.com/). Για πιο λεπτομερείς πληροφορίες API, συμβουλευτείτε την επίσημη [Aspose.HTML for Java documentation](https://reference.aspose.com/html/java/).
 
+---
+
+**Τελευταία ενημέρωση:** 2025-11-30  
+**Δοκιμή με:** Aspose.HTML for Java 24.11  
+**Συγγραφέας:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Τελευταία ενημέρωση:** 2025-11-30  
-**Δοκιμή με:** Aspose.HTML for Java 24.11  
-**Συγγραφέας:** Aspose

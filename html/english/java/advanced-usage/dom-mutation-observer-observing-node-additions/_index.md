@@ -148,15 +148,15 @@ You’ve now learned how to **append element to body**, set up a **mutation obse
 
 If you run into any issues, the community is ready to help in the [Aspose.HTML forum](https://forum.aspose.com/). For deeper API details, consult the official [Aspose.HTML for Java documentation](https://reference.aspose.com/html/java/).
 
+---
+
+**Last Updated:** 2025-11-30  
+**Tested With:** Aspose.HTML for Java 24.11  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-11-30  
-**Tested With:** Aspose.HTML for Java 24.11  
-**Author:** Aspose

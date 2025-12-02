@@ -151,15 +151,15 @@ Sie haben nun gelernt, wie man **Element an den Body anhängen**, einen **mutati
 
 Wenn Sie auf Probleme stoßen, steht Ihnen die Community im [Aspose.HTML‑Forum](https://forum.aspose.com/) zur Verfügung. Für detailliertere API‑Informationen konsultieren Sie die offizielle [Aspose.HTML für Java‑Dokumentation](https://reference.aspose.com/html/java/).
 
+---
+
+**Zuletzt aktualisiert:** 2025-11-30  
+**Getestet mit:** Aspose.HTML für Java 24.11  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Zuletzt aktualisiert:** 2025-11-30  
-**Getestet mit:** Aspose.HTML für Java 24.11  
-**Autor:** Aspose

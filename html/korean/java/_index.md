@@ -111,19 +111,6 @@ A: 물론입니다 – `HtmlToSvgConverter` 클래스가 고충실도로 이 변
 **Q: 대용량 HTML 캔버스를 PDF로 변환하는 최적 방법은?**  
 A: 먼저 캔버스를 비트맵으로 렌더링한 뒤 `PdfSaveOptions`로 이미지를 임베드하거나, 벡터 출력을 위한 내장 캔버스‑to‑PDF 메서드를 사용합니다.
 
----
-
-**마지막 업데이트:** 2025-11-30  
-**테스트 환경:** Aspose.HTML for Java 24.11  
-**작성자:** Aspose  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Aspose.HTML for Java 튜토리얼
 ### [Advanced Usage of Aspose.HTML Java](./advanced-usage/)
 Aspose.HTML Java를 사용해 HTML 페이지 여백 맞춤, DOM 변이 관찰자 구현, HTML5 Canvas 조작, HTML 양식 자동 채우기 등을 배우세요.
@@ -167,3 +154,16 @@ Aspose.HTML for Java에서 환경을 구성하는 방법을 알아보세요. 문
 HTML 문서 저장, Markdown 변환 등 Aspose.HTML for Java의 포괄적인 튜토리얼을 확인하세요.
 ### [Handling ZIP Files in Aspose.HTML for Java](./handling-zip-files/)
 Aspose.HTML for Java의 강력한 ZIP 파일 처리 기능을 활용하는 튜토리얼을 통해 ZIP 아카이브 관리 기술을 익히세요.
+
+---
+
+**마지막 업데이트:** 2025-11-30  
+**테스트 환경:** Aspose.HTML for Java 24.11  
+**작성자:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

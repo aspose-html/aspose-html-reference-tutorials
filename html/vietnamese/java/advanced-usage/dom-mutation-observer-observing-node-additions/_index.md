@@ -151,15 +151,15 @@ Bạn đã học cách **append element to body**, thiết lập một **mutatio
 
 Nếu bạn gặp bất kỳ vấn đề nào, cộng đồng sẵn sàng hỗ trợ trong [Aspose.HTML forum](https://forum.aspose.com/). Để biết chi tiết API sâu hơn, hãy tham khảo tài liệu chính thức [Aspose.HTML cho Java documentation](https://reference.aspose.com/html/java/).
 
+---
+
+**Cập nhật lần cuối:** 2025-11-30  
+**Kiểm tra với:** Aspose.HTML for Java 24.11  
+**Tác giả:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Cập nhật lần cuối:** 2025-11-30  
-**Kiểm tra với:** Aspose.HTML for Java 24.11  
-**Tác giả:** Aspose

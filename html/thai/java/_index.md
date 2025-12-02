@@ -112,19 +112,6 @@ Aspose.HTML for Java ทำให้การแปลง HTML ไปยัง�
 **ถาม: วิธีที่ดีที่สุดในการแปลง HTML canvas ขนาดใหญ่เป็น PDF คืออะไร?**  
 ตอบ: เรนเดอร์ canvas เป็น bitmap ก่อน แล้วใช้ `PdfSaveOptions` เพื่อฝังภาพ หรือใช้วิธี canvas‑to‑PDF ที่มีในตัวสำหรับผลลัพธ์แบบเวกเตอร์  
 
----
-
-**อัปเดตล่าสุด:** 2025-11-30  
-**ทดสอบกับ:** Aspose.HTML for Java 24.11  
-**ผู้เขียน:** Aspose  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## บทแนะนำ Aspose.HTML for Java
 ### [การใช้งานขั้นสูงของ Aspose.HTML Java](./advanced-usage/)
 Learn how to customize HTML page margins, implement a DOM Mutation Observer, manipulate HTML5 Canvas, automate HTML form filling, and more using Aspose.HTML Java.
@@ -168,3 +155,16 @@ Explore how to configure the environment in Aspose.HTML for Java. Learn to set c
 Discover comprehensive Aspose.HTML for Java tutorials that guide you through saving HTML documents, converting to Markdown, and more.
 ### [การจัดการไฟล์ ZIP ใน Aspose.HTML for Java](./handling-zip-files/)
 Unlock the power of Aspose.HTML for Java. Explore tutorials on handling ZIP files and learn essential techniques to manage ZIP archives effectively.
+
+---
+
+**อัปเดตล่าสุด:** 2025-11-30  
+**ทดสอบกับ:** Aspose.HTML for Java 24.11  
+**ผู้เขียน:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

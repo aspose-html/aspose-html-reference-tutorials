@@ -152,15 +152,15 @@ Teraz wiesz, jak **dodaj element do body**, skonfigurować **mutation observer j
 
 Jeśli napotkasz problemy, społeczność jest gotowa pomóc na [forum Aspose.HTML](https://forum.aspose.com/). Szczegółowe informacje o API znajdziesz w oficjalnej [dokumentacji Aspose.HTML dla Java](https://reference.aspose.com/html/java/).
 
+---
+
+**Ostatnia aktualizacja:** 2025-11-30  
+**Testowano z:** Aspose.HTML dla Java 24.11  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ostatnia aktualizacja:** 2025-11-30  
-**Testowano z:** Aspose.HTML dla Java 24.11  
-**Autor:** Aspose

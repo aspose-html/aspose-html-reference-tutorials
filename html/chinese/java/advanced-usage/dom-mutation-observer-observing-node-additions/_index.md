@@ -150,15 +150,15 @@ observer.disconnect();
 
 如果遇到问题，可前往 [Aspose.HTML 论坛](https://forum.aspose.com/) 寻求帮助。欲了解更深入的 API 细节，请查阅官方的 [Aspose.HTML for Java 文档](https://reference.aspose.com/html/java/)。
 
+---
+
+**最后更新：** 2025-11-30  
+**测试环境：** Aspose.HTML for Java 24.11  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最后更新：** 2025-11-30  
-**测试环境：** Aspose.HTML for Java 24.11  
-**作者：** Aspose

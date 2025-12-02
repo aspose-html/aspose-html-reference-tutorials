@@ -152,15 +152,15 @@ Artık **append element to body**, bir **mutation observer java** kurma ve Aspos
 
 Herhangi bir sorunla karşılaşırsanız, topluluk [Aspose.HTML forumunda](https://forum.aspose.com/) size yardımcı olmaya hazırdır. Daha derin API detayları için resmi [Aspose.HTML for Java belgelerine](https://reference.aspose.com/html/java/) bakın.
 
+---
+
+**Son Güncelleme:** 2025-11-30  
+**Test Edilen Versiyon:** Aspose.HTML for Java 24.11  
+**Yazar:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Son Güncelleme:** 2025-11-30  
-**Test Edilen Versiyon:** Aspose.HTML for Java 24.11  
-**Yazar:** Aspose

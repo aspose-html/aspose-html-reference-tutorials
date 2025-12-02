@@ -152,15 +152,15 @@ A: `observer.disconnect()` (Step 5) कॉल करें और यदि �
 
 यदि आपको कोई समस्या आती है, तो समुदाय [Aspose.HTML forum](https://forum.aspose.com/) में मदद के लिए उपलब्ध है। विस्तृत API विवरण के लिए आधिकारिक [Aspose.HTML for Java documentation](https://reference.aspose.com/html/java/) देखें।
 
+---
+
+**Last Updated:** 2025-11-30  
+**Tested With:** Aspose.HTML for Java 24.11  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-11-30  
-**Tested With:** Aspose.HTML for Java 24.11  
-**Author:** Aspose

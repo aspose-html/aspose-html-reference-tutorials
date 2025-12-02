@@ -152,15 +152,15 @@ Vous avez maintenant appris comment **ajouter un élément au corps**, configure
 
 Si vous rencontrez des problèmes, la communauté est prête à aider sur le [forum Aspose.HTML](https://forum.aspose.com/). Pour des détails d’API plus approfondis, consultez la documentation officielle [Aspose.HTML pour Java](https://reference.aspose.com/html/java/).
 
+---
+
+**Dernière mise à jour :** 2025-11-30  
+**Testé avec :** Aspose.HTML pour Java 24.11  
+**Auteur :** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Dernière mise à jour :** 2025-11-30  
-**Testé avec :** Aspose.HTML pour Java 24.11  
-**Auteur :** Aspose

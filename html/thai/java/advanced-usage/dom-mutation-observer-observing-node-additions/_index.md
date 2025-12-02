@@ -151,15 +151,16 @@ A: เรียก `observer.disconnect()` (ขั้นตอน 5) และ
 
 หากคุณเจอปัญหาใด ๆ ชุมชนพร้อมช่วยเหลือใน [ฟอรั่ม Aspose.HTML](https://forum.aspose.com/) สำหรับรายละเอียด API เชิงลึกเพิ่มเติม โปรดดูเอกสารอย่างเป็นทางการของ [Aspose.HTML for Java](https://reference.aspose.com/html/java/)  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ---
 
 **อัปเดตล่าสุด:** 2025-11-30  
 **ทดสอบกับ:** Aspose.HTML for Java 24.11  
 **ผู้เขียน:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -150,15 +150,15 @@ A: 呼叫 `observer.disconnect()`（Step 5），若建立了 `HTMLDocument`，
 
 如果遇到任何問題，社群會在 [Aspose.HTML forum](https://forum.aspose.com/) 提供協助。欲取得更深入的 API 細節，請參考官方的 [Aspose.HTML for Java documentation](https://reference.aspose.com/html/java/)。
 
+---
+
+**最後更新：** 2025-11-30  
+**測試環境：** Aspose.HTML for Java 24.11  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最後更新：** 2025-11-30  
-**測試環境：** Aspose.HTML for Java 24.11  
-**作者：** Aspose
