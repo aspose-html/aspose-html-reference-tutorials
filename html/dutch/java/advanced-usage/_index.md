@@ -112,19 +112,6 @@ A: Gebruik `HtmlLoadOptions` met `PageSetup`‑marges en schakel `EnableCssLayou
 **V: Heb ik een aparte licentie nodig voor XPS‑conversie?**  
 A: Nee. Eén Aspose.HTML for Java‑licentie dekt alle uitvoerformaten, inclusief PDF en XPS.
 
----
-
-**Laatst bijgewerkt:** 2025-11-29  
-**Getest met:** Aspose.HTML for Java 24.11  
-**Auteur:** Aspose  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Geavanceerd gebruik van Aspose.HTML Java‑tutorials
 ### [HTML‑paginamarges aanpassen met Aspose.HTML](./css-extensions-adding-title-page-number/)
 Leer hoe je paginamarges, paginanummers en titels kunt aanpassen in HTML‑documenten met Aspose.HTML for Java.
@@ -140,3 +127,16 @@ Leer hoe je HTML‑formulieren automatisch kunt invullen en indienen met Aspose.
 Leer hoe je PDF‑paginagrootte kunt aanpassen met Aspose.HTML for Java. Maak moeiteloos hoogwaardige PDF‑bestanden vanuit HTML. Beheer paginagroottes effectief.
 ### [XPS‑paginagrootte aanpassen met Aspose.HTML for Java](./adjust-xps-page-size/)
 Leer hoe je XPS‑paginagrootte kunt aanpassen met Aspose.HTML for Java. Beheer eenvoudig de uitvoerafmetingen van je XPS‑documenten.
+
+---
+
+**Laatst bijgewerkt:** 2025-11-29  
+**Getest met:** Aspose.HTML for Java 24.11  
+**Auteur:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

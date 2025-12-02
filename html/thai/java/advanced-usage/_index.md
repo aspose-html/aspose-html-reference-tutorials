@@ -112,19 +112,6 @@ Aspose.HTML ให้คุณแนบ `DomMutationObserver` ไปยังโ
 **ถาม: ฉันต้องมีไลเซนส์แยกสำหรับการแปลงเป็น XPS หรือไม่?**  
 ตอบ: ไม่จำเป็น ไลเซนส์เดียวของ Aspose.HTML for Java ครอบคลุมรูปแบบผลลัพธ์ทั้งหมดรวมถึง PDF และ XPS
 
----
-
-**อัปเดตล่าสุด:** 2025-11-29  
-**ทดสอบด้วย:** Aspose.HTML for Java 24.11  
-**ผู้เขียน:** Aspose  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## การใช้งานขั้นสูงของบทแนะนำ Aspose.HTML Java
 ### [ปรับขอบกระดาษ HTML ด้วย Aspose.HTML](./css-extensions-adding-title-page-number/)
 เรียนรู้วิธีปรับขอบกระดาษ เพิ่มหมายเลขหน้า และหัวเรื่องให้กับเอกสาร HTML ด้วย Aspose.HTML for Java  
@@ -140,3 +127,16 @@ Aspose.HTML ให้คุณแนบ `DomMutationObserver` ไปยังโ
 เรียนรู้วิธีปรับขนาดหน้า PDF ด้วย Aspose.HTML for Java สร้าง PDF คุณภาพสูงจาก HTML อย่างง่ายดาย ควบคุมขนาดหน้าได้อย่างมีประสิทธิภาพ  
 ### [ปรับขนาดหน้า XPS ด้วย Aspose.HTML for Java](./adjust-xps-page-size/)
 เรียนรู้วิธีปรับขนาดหน้า XPS ด้วย Aspose.HTML for Java ควบคุมขนาดผลลัพธ์ของเอกสาร XPS ของคุณได้อย่างง่ายดาย
+
+---
+
+**อัปเดตล่าสุด:** 2025-11-29  
+**ทดสอบด้วย:** Aspose.HTML for Java 24.11  
+**ผู้เขียน:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

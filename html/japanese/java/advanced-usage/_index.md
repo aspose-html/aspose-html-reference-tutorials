@@ -107,19 +107,6 @@ A: `HtmlLoadOptions` と `PageSetup` の余白を使用し、`EnableCssLayout` �
 **Q: XPS 変換のために別のライセンスが必要ですか？**  
 A: いいえ。単一の Aspose.HTML for Java ライセンスで、PDF や XPS を含むすべての出力形式がカバーされます。
 
----
-
-**最終更新日:** 2025-11-29  
-**テスト環境:** Aspose.HTML for Java 24.11  
-**作者:** Aspose  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Aspose.HTML Java チュートリアルの高度な使用法
 ### [Aspose.HTML で HTML ページ余白をカスタマイズ](./css-extensions-adding-title-page-number/)
 Aspose.HTML for Java を使用して、HTML ドキュメントのページ余白、ページ番号、タイトルをカスタマイズする方法を学びます。
@@ -135,3 +122,16 @@ Aspose.HTML for Java を使用して HTML フォームの入力と送信を自�
 Aspose.HTML for Java を使用して PDF のページサイズを調整する方法を学びます。HTML から高品質な PDF を簡単に作成し、ページ寸法を効果的に制御します。
 ### [Aspose.HTML for Java で XPS ページサイズを調整](./adjust-xps-page-size/)
 Aspose.HTML for Java を使用して XPS のページサイズを調整する方法を学びます。XPS ドキュメントの出力寸法を簡単に制御できます。
+
+---
+
+**最終更新日:** 2025-11-29  
+**テスト環境:** Aspose.HTML for Java 24.11  
+**作者:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

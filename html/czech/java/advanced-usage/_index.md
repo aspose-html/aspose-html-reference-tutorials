@@ -112,19 +112,6 @@ A: Použijte `HtmlLoadOptions` s okraji `PageSetup` a povolte `EnableCssLayout`
 **Q: Potřebuji samostatnou licenci pro konverzi do XPS?**  
 A: Ne. Jedna licence Aspose.HTML pro Java pokrývá všechny výstupní formáty, včetně PDF i XPS.
 
----
-
-**Poslední aktualizace:** 2025-11-29  
-**Testováno s:** Aspose.HTML pro Java 24.11  
-**Autor:** Aspose  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Pokročilé použití tutoriálů Aspose.HTML Java
 ### [Přizpůsobení okrajů HTML stránky s Aspose.HTML](./css-extensions-adding-title-page-number/)
 Naučte se přizpůsobit okraje stránky, přidat číslování stránek a titulky do HTML dokumentů pomocí Aspose.HTML pro Java.
@@ -140,3 +127,16 @@ Naučte se automatizovat vyplňování a odesílání HTML formulářů s Aspose
 Naučte se upravit velikost PDF stránky s Aspose.HTML pro Java. Vytvářejte vysoce kvalitní PDF z HTML bez námahy. Efektivně kontrolujte rozměry stránky.
 ### [Úprava velikosti XPS stránky s Aspose.HTML pro Java](./adjust-xps-page-size/)
 Naučte se upravit velikost XPS stránky s Aspose.HTML pro Java. Jednoduše kontrolujte výstupní rozměry vašich XPS dokumentů.
+
+---
+
+**Poslední aktualizace:** 2025-11-29  
+**Testováno s:** Aspose.HTML pro Java 24.11  
+**Autor:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

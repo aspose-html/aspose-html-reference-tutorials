@@ -112,19 +112,6 @@ A: Használja a `HtmlLoadOptions`‑t a `PageSetup` margókkal, és engedélyezz
 **Q: Szükségem van külön licencre az XPS konvertáláshoz?**  
 A: Nem. Egyetlen Aspose.HTML for Java licenc lefedi az összes kimeneti formátumot, beleértve a PDF‑t és az XPS‑t.
 
----
-
-**Legutóbb frissítve:** 2025-11-29  
-**Tesztelve a következővel:** Aspose.HTML for Java 24.11  
-**Szerző:** Aspose  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Haladó Aspose.HTML Java oktatóanyagok
 ### [HTML oldal margók testreszabása Aspose.HTML‑vel](./css-extensions-adding-title-page-number/)
 Ismerje meg, hogyan testreszabhatja az oldal margókat, adhat hozzá oldalszámokat és címeket HTML dokumentumokhoz az Aspose.HTML for Java használatával.
@@ -140,3 +127,16 @@ Ismerje meg, hogyan automatizálhatja a HTML űrlapok kitöltését és beküld�
 Tanulja meg, hogyan állíthatja be a PDF oldalméretet az Aspose.HTML for Java használatával. Készítsen magas minőségű PDF‑eket HTML‑ből könnyedén, és hatékonyan szabályozza az oldalméreteket.
 ### [XPS oldalméret beállítása Aspose.HTML for Java‑val](./adjust-xps-page-size/)
 Ismerje meg, hogyan állíthatja be az XPS oldalméretet az Aspose.HTML for Java segítségével. Könnyedén szabályozza XPS dokumentumai kimeneti méreteit.
+
+---
+
+**Legutóbb frissítve:** 2025-11-29  
+**Tesztelve a következővel:** Aspose.HTML for Java 24.11  
+**Szerző:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

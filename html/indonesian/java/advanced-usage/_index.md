@@ -108,19 +108,6 @@ J: Gunakan `HtmlLoadOptions` dengan margin `PageSetup` dan aktifkan `EnableCssLa
 **T: Apakah saya memerlukan lisensi terpisah untuk konversi XPS?**  
 J: Tidak. Satu lisensi Aspose.HTML untuk Java mencakup semua format output, termasuk PDF dan XPS.
 
----
-
-**Terakhir Diperbarui:** 2025-11-29  
-**Diuji Dengan:** Aspose.HTML for Java 24.11  
-**Penulis:** Aspose  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Penggunaan Lanjutan Tutorial Aspose.HTML Java
 
 ### [Sesuaikan Margin Halaman HTML dengan Aspose.HTML](./css-extensions-adding-title-page-number/)
@@ -143,3 +130,16 @@ Pelajari cara menyesuaikan ukuran halaman PDF dengan Aspose.HTML untuk Java. Bua
 
 ### [Sesuaikan Ukuran Halaman XPS dengan Aspose.HTML untuk Java](./adjust-xps-page-size/)
 Pelajari cara menyesuaikan ukuran halaman XPS dengan Aspose.HTML untuk Java. Kontrol dimensi output dokumen XPS Anda dengan mudah.
+
+---
+
+**Terakhir Diperbarui:** 2025-11-29  
+**Diuji Dengan:** Aspose.HTML for Java 24.11  
+**Penulis:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

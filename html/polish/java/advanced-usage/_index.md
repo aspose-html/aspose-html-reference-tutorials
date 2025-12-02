@@ -112,19 +112,6 @@ O: Użyj `HtmlLoadOptions` wraz z marginesami `PageSetup` i włącz `EnableCssLa
 **P: Czy potrzebna jest osobna licencja do konwersji na XPS?**  
 O: Nie. Jedna licencja Aspose.HTML dla Javy obejmuje wszystkie formaty wyjściowe, w tym PDF i XPS.
 
----
-
-**Ostatnia aktualizacja:** 2025-11-29  
-**Testowano z:** Aspose.HTML dla Javy 24.11  
-**Autor:** Aspose  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Zaawansowane tutoriale Aspose.HTML Java
 ### [Dostosuj marginesy stron HTML przy użyciu Aspose.HTML](./css-extensions-adding-title-page-number/)
 Dowiedz się, jak dostosować marginesy stron, dodać numery stron i tytuły do dokumentów HTML przy użyciu Aspose.HTML dla Javy.
@@ -140,3 +127,16 @@ Poznaj metodę automatycznego wypełniania i wysyłania formularzy HTML przy uż
 Naucz się regulować rozmiar stron PDF przy użyciu Aspose.HTML dla Javy. Twórz wysokiej jakości PDF‑y z HTML bez wysiłku. Skutecznie kontroluj wymiary stron.
 ### [Dostosowanie rozmiaru strony XPS z Aspose.HTML dla Javy](./adjust-xps-page-size/)
 Dowiedz się, jak regulować rozmiar stron XPS przy użyciu Aspose.HTML dla Javy. Łatwo kontroluj wymiary wyjściowe dokumentów XPS.
+
+---
+
+**Ostatnia aktualizacja:** 2025-11-29  
+**Testowano z:** Aspose.HTML dla Javy 24.11  
+**Autor:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

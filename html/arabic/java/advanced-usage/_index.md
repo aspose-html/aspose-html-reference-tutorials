@@ -111,19 +111,6 @@ weight: 20
 **س: هل أحتاج إلى ترخيص منفصل لتحويل XPS؟**  
 ج: لا. ترخيص واحد لـ Aspose.HTML for Java يغطي جميع صيغ الإخراج، بما في ذلك PDF و XPS.
 
----
-
-**آخر تحديث:** 2025-11-29  
-**تم الاختبار مع:** Aspose.HTML for Java 24.11  
-**المؤلف:** Aspose  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## الاستخدام المتقدم لتعليمات Aspose.HTML Java
 
 ### [تخصيص هوامش صفحة HTML باستخدام Aspose.HTML](./css-extensions-adding-title-page-number/)
@@ -146,3 +133,16 @@ weight: 20
 
 ### [ضبط حجم صفحة XPS باستخدام Aspose.HTML for Java](./adjust-xps-page-size/)
 تعلم كيفية ضبط حجم صفحة XPS باستخدام Aspose.HTML for Java. سيطر على أبعاد مخرجات مستندات XPS بسهولة.
+
+---
+
+**آخر تحديث:** 2025-11-29  
+**تم الاختبار مع:** Aspose.HTML for Java 24.11  
+**المؤلف:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -112,19 +112,6 @@ Khi chuyển HTML sang PDF hoặc XPS, bạn thường cần kiểm soát kích 
 **H: Tôi có cần giấy phép riêng cho việc chuyển đổi sang XPS không?**  
 Đ: Không. Một giấy phép Aspose.HTML for Java duy nhất bao gồm tất cả các định dạng đầu ra, bao gồm PDF và XPS.
 
----
-
-**Cập nhật lần cuối:** 2025-11-29  
-**Đã kiểm tra với:** Aspose.HTML for Java 24.11  
-**Tác giả:** Aspose  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Hướng dẫn sử dụng nâng cao Aspose.HTML Java
 ### [Tùy chỉnh lề trang HTML với Aspose.HTML](./css-extensions-adding-title-page-number/)
 Tìm hiểu cách tùy chỉnh lề trang, thêm số trang và tiêu đề vào tài liệu HTML bằng Aspose.HTML for Java.
@@ -140,3 +127,16 @@ Tìm hiểu cách tự động điền và gửi biểu mẫu HTML bằng Aspose
 Học cách điều chỉnh kích thước trang PDF với Aspose.HTML for Java. Tạo PDF chất lượng cao từ HTML một cách dễ dàng. Kiểm soát kích thước trang hiệu quả.
 ### [Điều chỉnh kích thước trang XPS với Aspose.HTML for Java](./adjust-xps-page-size/)
 Học cách điều chỉnh kích thước trang XPS với Aspose.HTML for Java. Kiểm soát kích thước đầu ra của tài liệu XPS một cách dễ dàng.
+
+---
+
+**Cập nhật lần cuối:** 2025-11-29  
+**Đã kiểm tra với:** Aspose.HTML for Java 24.11  
+**Tác giả:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

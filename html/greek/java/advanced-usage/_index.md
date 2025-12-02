@@ -112,19 +112,6 @@ weight: 20
 **Ε: Χρειάζομαι ξεχωριστή άδεια για τη μετατροπή σε XPS;**  
 Α: Όχι. Μία άδεια Aspose.HTML for Java καλύπτει όλες τις μορφές εξόδου, συμπεριλαμβανομένων PDF και XPS.
 
----
-
-**Τελευταία ενημέρωση:** 2025-11-29  
-**Δοκιμή με:** Aspose.HTML for Java 24.11  
-**Συγγραφέας:** Aspose  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Προχωρημένες Χρήσεις των Οδηγών Aspose.HTML Java
 ### [Προσαρμογή Περιθωρίων HTML Σελίδας με Aspose.HTML](./css-extensions-adding-title-page-number/)
 Μάθετε πώς να προσαρμόζετε τα περιθώρια σελίδας, να προσθέτετε αριθμούς σελίδων και τίτλους σε έγγραφα HTML χρησιμοποιώντας το Aspose.HTML for Java.
@@ -140,3 +127,16 @@ weight: 20
 Μάθετε πώς να προσαρμόζετε το μέγεθος PDF σελίδας με το Aspose.HTML for Java. Δημιουργήστε υψηλής ποιότητας PDF από HTML χωρίς κόπο. Ελέγξτε τις διαστάσεις της σελίδας αποτελεσματικά.
 ### [Προσαρμογή Μεγέθους XPS Σελίδας με Aspose.HTML for Java](./adjust-xps-page-size/)
 Μάθετε πώς να προσαρμόζετε το μέγεθος XPS σελίδας με το Aspose.HTML for Java. Ελέγξτε εύκολα τις διαστάσεις εξόδου των εγγράφων XPS σας.
+
+---
+
+**Τελευταία ενημέρωση:** 2025-11-29  
+**Δοκιμή με:** Aspose.HTML for Java 24.11  
+**Συγγραφέας:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

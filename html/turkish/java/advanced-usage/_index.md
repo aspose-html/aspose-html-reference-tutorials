@@ -112,19 +112,6 @@ C: `HtmlLoadOptions` ile `PageSetup` kenar boşluklarını ayarlayın ve CSS‑t
 **S: XPS dönüşümü için ayrı bir lisansa ihtiyacım var mı?**  
 C: Hayır. Tek bir Aspose.HTML for Java lisansı, PDF ve XPS dahil tüm çıktı formatlarını kapsar.
 
----
-
-**Son Güncelleme:** 2025-11-29  
-**Test Edilen Versiyon:** Aspose.HTML for Java 24.11  
-**Yazar:** Aspose  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Aspose.HTML Java Eğitimlerinin İleri Düzey Kullanımı
 ### [Aspose.HTML ile HTML Sayfa Kenar Boşluklarını Özelleştirme](./css-extensions-adding-title-page-number/)
 Aspose.HTML for Java kullanarak HTML belgelerine sayfa kenar boşlukları, sayfa numaraları ve başlıklar eklemeyi öğrenin.
@@ -140,3 +127,16 @@ Aspose.HTML for Java ile HTML form doldurmayı ve göndermeyi otomatikleştirmey
 Aspose.HTML for Java kullanarak PDF sayfa boyutunu nasıl ayarlayacağınızı öğrenin. HTML’den yüksek kaliteli PDF’ler oluşturun ve sayfa boyutlarını etkili bir şekilde kontrol edin.
 ### [Aspose.HTML for Java ile XPS Sayfa Boyutunu Ayarlama](./adjust-xps-page-size/)
 Aspose.HTML for Java ile XPS sayfa boyutunu nasıl ayarlayacağınızı öğrenin. XPS belgelerinizin çıktı boyutlarını kolayca kontrol edin.
+
+---
+
+**Son Güncelleme:** 2025-11-29  
+**Test Edilen Versiyon:** Aspose.HTML for Java 24.11  
+**Yazar:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

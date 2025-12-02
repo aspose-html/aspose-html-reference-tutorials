@@ -111,19 +111,6 @@ A: 使用 `HtmlLoadOptions` 搭配 `PageSetup` 邊距，並啟用 `EnableCssLayo
 **Q: 轉換為 XPS 是否需要額外授權？**  
 A: 不需要。單一的 Aspose.HTML for Java 授權即涵蓋所有輸出格式，包括 PDF 與 XPS。
 
----
-
-**最後更新日期：** 2025-11-29  
-**測試環境：** Aspose.HTML for Java 24.11  
-**作者：** Aspose  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Aspose.HTML Java 進階教學
 ### [使用 Aspose.HTML 自訂 HTML 頁面邊距](./css-extensions-adding-title-page-number/)
 了解如何使用 Aspose.HTML for Java 自訂頁面邊距、加入頁碼與標題。
@@ -145,3 +132,16 @@ A: 不需要。單一的 Aspose.HTML for Java 授權即涵蓋所有輸出格式�
 
 ### [使用 Aspose.HTML for Java 調整 XPS 頁面尺寸](./adjust-xps-page-size/)
 了解如何使用 Aspose.HTML for Java 調整 XPS 文件的輸出尺寸。
+
+---
+
+**最後更新日期：** 2025-11-29  
+**測試環境：** Aspose.HTML for Java 24.11  
+**作者：** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -112,19 +112,6 @@ A: Nutzen Sie `HtmlLoadOptions` zusammen mit `PageSetup`‑Rändern und aktivier
 **Q: Benötige ich eine separate Lizenz für die XPS‑Konvertierung?**  
 A: Nein. Eine einzige Aspose.HTML‑Java‑Lizenz deckt alle Ausgabeformate ab, einschließlich PDF und XPS.
 
----
-
-**Zuletzt aktualisiert:** 2025-11-29  
-**Getestet mit:** Aspose.HTML für Java 24.11  
-**Autor:** Aspose  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Erweiterte Nutzung von Aspose.HTML Java‑Tutorials
 ### [HTML‑Seitenränder mit Aspose.HTML anpassen](./css-extensions-adding-title-page-number/)
 Erfahren Sie, wie Sie Seitenränder, Seitenzahlen und Titel in HTML‑Dokumenten mit Aspose.HTML für Java anpassen können.
@@ -140,3 +127,16 @@ Erfahren Sie, wie Sie das automatische Ausfüllen und Absenden von HTML‑Formul
 Erfahren Sie, wie Sie die PDF‑Seitengröße mit Aspose.HTML für Java anpassen. Erstellen Sie mühelos hochwertige PDFs aus HTML und steuern Sie die Seitenabmessungen effektiv.
 ### [XPS‑Seitengröße mit Aspose.HTML für Java anpassen](./adjust-xps-page-size/)
 Erfahren Sie, wie Sie die XPS‑Seitengröße mit Aspose.HTML für Java anpassen. Steuern Sie die Ausgabedimensionen Ihrer XPS‑Dokumente einfach.
+
+---
+
+**Zuletzt aktualisiert:** 2025-11-29  
+**Getestet mit:** Aspose.HTML für Java 24.11  
+**Autor:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

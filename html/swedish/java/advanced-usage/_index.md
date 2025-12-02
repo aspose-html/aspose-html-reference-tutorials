@@ -112,19 +112,6 @@ A: Använd `HtmlLoadOptions` med `PageSetup`‑marginaler och aktivera `EnableCs
 **Q: Behöver jag en separat licens för XPS‑konvertering?**  
 A: Nej. En enda Aspose.HTML för Java‑licens täcker alla utdataformat, inklusive PDF och XPS.
 
----
-
-**Last Updated:** 2025-11-29  
-**Tested With:** Aspose.HTML for Java 24.11  
-**Author:** Aspose  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Avancerad användning av Aspose.HTML Java‑handledningar
 ### [Anpassa HTML‑sidmarginaler med Aspose.HTML](./css-extensions-adding-title-page-number/)
 Lär dig hur du anpassar sidmarginaler, lägger till sidnummer och titlar i HTML‑dokument med Aspose.HTML för Java.
@@ -140,3 +127,16 @@ Lär dig hur du automatiserar HTML‑formulärifyllning och -inlämning med Aspo
 Lär dig hur du justerar PDF‑sidstorlek med Aspose.HTML för Java. Skapa högkvalitativa PDF‑filer från HTML utan ansträngning. Kontrollera sidmåtten effektivt.
 ### [Justera XPS‑sidstorlek med Aspose.HTML för Java](./adjust-xps-page-size/)
 Lär dig hur du justerar XPS‑sidstorlek med Aspose.HTML för Java. Kontrollera utmatningsdimensionerna för dina XPS‑dokument enkelt.
+
+---
+
+**Last Updated:** 2025-11-29  
+**Tested With:** Aspose.HTML for Java 24.11  
+**Author:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
