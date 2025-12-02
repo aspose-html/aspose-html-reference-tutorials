@@ -1,37 +1,53 @@
 ---
-title: जावा के लिए Aspose.HTML के साथ DOM म्यूटेशन ऑब्जर्वर
-linktitle: DOM म्यूटेशन ऑब्जर्वर - नोड एडिशन का अवलोकन
-second_title: Aspose.HTML के साथ जावा HTML प्रसंस्करण
-description: इस चरण-दर-चरण मार्गदर्शिका में DOM म्यूटेशन ऑब्ज़र्वर को लागू करने के लिए Java के लिए Aspose.HTML का उपयोग करना सीखें। DOM परिवर्तनों पर प्रभावी ढंग से नज़र रखें और प्रतिक्रिया दें।
+date: 2025-11-30
+description: Aspose.HTML के Mutation Observer का उपयोग करके Java में बॉडी में तत्व
+  जोड़ना और DOM परिवर्तन की निगरानी करना सीखें। इसमें Java में HTML दस्तावेज़ बनाने
+  और Mutation Observer को डिस्कनेक्ट करने के चरण शामिल हैं।
+language: hi
+linktitle: Append Element to Body - Observing Node Additions
+second_title: Java HTML Processing with Aspose.HTML
+title: Aspose.HTML for Java का उपयोग करके DOM म्यूटेशन ऑब्ज़र्वर के साथ बॉडी में तत्व
+  जोड़ें
+url: /java/advanced-usage/dom-mutation-observer-observing-node-additions/
 weight: 11
-url: /hi/java/advanced-usage/dom-mutation-observer-observing-node-additions/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# जावा के लिए Aspose.HTML के साथ DOM म्यूटेशन ऑब्जर्वर
+# Aspose.HTML for Java के साथ DOM Mutation Observer का उपयोग करके बॉडी में एलिमेंट जोड़ें
 
+यदि आप एक Java डेवलपर हैं जिन्हें **append element to body** करने के साथ‑साथ DOM में होने वाले हर बदलाव पर नज़र रखना है, तो आप सही जगह पर आए हैं। Aspose.HTML for Java आपको **create HTML document Java** ऑब्जेक्ट्स बनाना, एक Mutation Observer संलग्न करना, और नोड्स के जोड़ने, हटाने या बदलने पर तुरंत प्रतिक्रिया देने की सुविधा देता है। इस चरण‑दर‑चरण ट्यूटोरियल में हम पूरी प्रक्रिया को समझेंगे—डॉक्यूमेंट सेटअप से लेकर **disconnect mutation observer** तक—ताकि आप अपने Java एप्लिकेशन में DOM बदलावों की विश्वसनीय निगरानी कर सकें।
 
-क्या आप एक जावा डेवलपर हैं जो HTML दस्तावेज़ के डॉक्यूमेंट ऑब्जेक्ट मॉडल (DOM) में परिवर्तनों का निरीक्षण और प्रतिक्रिया करना चाहते हैं? Aspose.HTML for Java इस कार्य के लिए एक शक्तिशाली समाधान प्रदान करता है। इस चरण-दर-चरण मार्गदर्शिका में, हम यह पता लगाएंगे कि HTML दस्तावेज़ बनाने और म्यूटेशन ऑब्ज़र्वर के साथ नोड परिवर्धन का निरीक्षण करने के लिए Aspose.HTML for Java का उपयोग कैसे करें। यह ट्यूटोरियल आपको प्रक्रिया के माध्यम से ले जाएगा, प्रत्येक उदाहरण को कई चरणों में विभाजित करेगा। अंत में, आप आसानी से अपने जावा प्रोजेक्ट में DOM म्यूटेशन ऑब्ज़र्वर को लागू करने में सक्षम होंगे।
+## Quick Answers
+- **What does a Mutation Observer do?** यह DOM ट्री को देखता है और नोड जोड़ने, हटाने या एट्रिब्यूट बदलने पर आपको सूचित करता है।  
+- **Which library provides this in Java?** Aspose.HTML for Java में पूर्ण‑फ़ीचर वाला Mutation Observer API शामिल है।  
+- **Do I need a license for production?** हाँ, व्यावसायिक उपयोग के लिए एक वैध Aspose.HTML लाइसेंस आवश्यक है।  
+- **Can I observe changes to text nodes?** बिल्कुल—observer कॉन्फ़िगरेशन में `characterData` को `true` सेट करें।  
+- **How do I stop the observer?** मॉनिटरिंग समाप्त होने पर `observer.disconnect()` कॉल करें।
 
-## आवश्यक शर्तें
+## What is “append element to body” in the context of Aspose.HTML?
+`<body>` टैग में एलिमेंट जोड़ना मतलब प्रोग्रामेटिक रूप से एक नया नोड (जैसे `<p>` या `<div>`) को डॉक्यूमेंट के मुख्य कंटेंट एरिया में सम्मिलित करना। जब इसे Mutation Observer के साथ जोड़ा जाता है, तो आप उस जोड़ को तुरंत पहचान सकते हैं और कस्टम लॉजिक ट्रिगर कर सकते हैं—डायनामिक HTML जनरेशन, टेस्टिंग, या सर्वर‑साइड रेंडरिंग परिदृश्यों के लिए आदर्श।
 
-इससे पहले कि हम Java के लिए Aspose.HTML का उपयोग करना शुरू करें, आइए सुनिश्चित करें कि आपके पास आवश्यक पूर्वापेक्षाएँ मौजूद हैं:
+## Why use a Mutation Observer in Java?
+- **Real‑time monitoring:** जैसे ही DOM में बदलाव होते हैं, तुरंत प्रतिक्रिया दें।  
+- **Cleaner code:** मैन्युअल पोलिंग या जटिल इवेंट हैंडलिंग की जरूरत नहीं।  
+- **Cross‑platform consistency:** चाहे ब्राउज़र में हो या सर्वर पर, समान रूप से काम करता है।  
+- **Performance:** Observers कुशल होते हैं और असिंक्रोनस रूप से चलते हैं, जिससे आपका मुख्य थ्रेड मुक्त रहता है।
 
-1. जावा डेवलपमेंट एनवायरनमेंट: सुनिश्चित करें कि आपके सिस्टम पर जावा डेवलपमेंट किट (JDK) स्थापित है।
+## Prerequisites
+1. **Java Development Kit (JDK)** – 8 या उससे ऊपर।  
+2. **Aspose.HTML for Java** – आधिकारिक साइट से नवीनतम संस्करण डाउनलोड करें।  
+3. **IDE** – IntelliJ IDEA, Eclipse, या कोई भी Java‑संगत एडिटर।  
 
-2.  Aspose.HTML for Java: आपको Aspose.HTML for Java डाउनलोड और इंस्टॉल करना होगा। आप डाउनलोड लिंक पा सकते हैं[यहाँ](https://releases.aspose.com/html/java/).
+आप Aspose.HTML for Java को डाउनलोड पेज से प्राप्त कर सकते हैं [here](https://releases.aspose.com/html/java/)।
 
-3. IDE (एकीकृत विकास वातावरण): जावा कोड लिखने और चलाने के लिए अपने पसंदीदा जावा IDE, जैसे IntelliJ IDEA या Eclipse का उपयोग करें।
-
-## पैकेज आयात करें
-
-Aspose.HTML for Java के साथ आरंभ करने के लिए, आपको अपने Java कोड में आवश्यक पैकेज आयात करने होंगे। आप यह कैसे कर सकते हैं:
+## Import Packages
+सबसे पहले, उन क्लासेज़ को इम्पोर्ट करें जिनकी आपको आवश्यकता होगी। यह एक खाली HTML डॉक्यूमेंट भी बनाता है जिसे बाद में हम भरेंगे।
 
 ```java
-// आवश्यक पैकेज आयात करें
+// Import necessary packages
 import com.aspose.html.HTMLDocument;
 import com.aspose.html.dom.mutations.MutationObserver;
 import com.aspose.html.dom.mutations.MutationCallback;
@@ -41,15 +57,12 @@ import com.aspose.html.dom.Element;
 import com.aspose.html.dom.Text;
 import com.aspose.html.generic.IGenericList;
 
-// एक खाली HTML दस्तावेज़ बनाएँ
+// Create an empty HTML document
 HTMLDocument document = new HTMLDocument();
 ```
 
-अब जब आपने आवश्यक पैकेज आयात कर लिए हैं, तो आइए जावा में DOM म्यूटेशन ऑब्जर्वर को कार्यान्वित करने के लिए चरण-दर-चरण मार्गदर्शिका पर चलते हैं।
-
-## चरण 1: म्यूटेशन ऑब्जर्वर इंस्टेंस बनाएं
-
-सबसे पहले, आपको एक म्यूटेशन ऑब्जर्वर इंस्टेंस बनाना होगा। यह ऑब्जर्वर DOM में बदलावों पर नज़र रखेगा और म्यूटेशन होने पर कॉलबैक फ़ंक्शन निष्पादित करेगा।
+## Step 1: Create a Mutation Observer Instance (mutation observer java)
+एक **Mutation Observer** को एक कॉलबैक चाहिए जो हर बार म्यूटेशन होने पर बुलाया जाएगा। हमारे कॉलबैक में हम बस प्रत्येक जोड़े गए नोड के लिए एक संदेश प्रिंट करते हैं।
 
 ```java
 MutationObserver observer = new MutationObserver(new MutationCallback() {
@@ -67,11 +80,8 @@ MutationObserver observer = new MutationObserver(new MutationCallback() {
 });
 ```
 
-इस चरण में, हम कॉलबैक फ़ंक्शन के साथ एक ऑब्ज़र्वर बनाते हैं जो DOM में नोड्स जोड़े जाने पर एक संदेश प्रिंट करता है।
-
-## चरण 2: ऑब्जर्वर को कॉन्फ़िगर करें
-
-अब, आइए ऑब्जर्वर को वांछित विकल्पों के साथ कॉन्फ़िगर करें। हम चाइल्ड लिस्ट में परिवर्तन और सबट्री में परिवर्तन, साथ ही कैरेक्टर डेटा में परिवर्तन देखना चाहते हैं।
+## Step 2: Configure the Observer (monitor dom changes java)
+हम observer को बताते हैं कि **क्या** देखना है—चाइल्ड लिस्ट बदलाव, सबट्री मॉडिफिकेशन, और कैरेक्टर डेटा अपडेट।
 
 ```java
 MutationObserverInit config = new MutationObserverInit();
@@ -79,79 +89,75 @@ config.setChildList(true);
 config.setSubtree(true);
 config.setCharacterData(true);
 
-// निर्दिष्ट कॉन्फ़िगरेशन के साथ अवलोकन करने के लिए लक्ष्य नोड में पास करें
+// Pass in the target node to observe with the specified configuration
 observer.observe(document.getBody(), config);
 ```
 
- यहाँ, हमने सेट किया है`config` चाइल्ड लिस्ट, सबट्री और कैरेक्टर डेटा में होने वाले बदलावों को देखने के लिए ऑब्जेक्ट का इस्तेमाल किया जाता है। फिर हम टारगेट नोड (इस मामले में, डॉक्यूमेंट का`<body>`) और पर्यवेक्षक को विन्यास प्रदान करें।
-
-## चरण 3: DOM को संशोधित करें
-
-अब, हम ऑब्जर्वर को ट्रिगर करने के लिए DOM में कुछ बदलाव करेंगे। हम एक पैराग्राफ़ एलिमेंट बनाएंगे और उसे डॉक्यूमेंट के बॉडी में जोड़ देंगे।
+## Step 3: Append Element to Body and Trigger the Observer
+अब हम वास्तव में **append element to body** करेंगे। एक `<p>` एलिमेंट के साथ टेक्स्ट नोड जोड़ने से वह observer ट्रिगर होगा जिसे हमने पहले सेट किया था।
 
 ```java
-// एक पैराग्राफ़ तत्व बनाएँ और उसे दस्तावेज़ के मुख्य भाग में जोड़ें
+// Create a paragraph element and append it to the document body
 Element p = document.createElement("p");
 document.getBody().appendChild(p);
 
-// एक पाठ बनाएं और उसे पैराग्राफ में जोड़ें
+// Create a text and append it to the paragraph
 Text text = document.createTextNode("Hello World");
 p.appendChild(text);
 ```
 
-इस चरण में, हम एक HTML पैराग्राफ़ तत्व बनाते हैं और इसे दस्तावेज़ के मुख्य भाग में जोड़ते हैं। फिर, हम "Hello World" विषय-वस्तु वाला एक टेक्स्ट नोड बनाते हैं और इसे पैराग्राफ़ में जोड़ते हैं।
-
-## चरण 4: अवलोकनों की प्रतीक्षा करें (एसिंक्रोनस रूप से)
-
-चूंकि उत्परिवर्तनों को अतुल्यकालिक रूप से देखा जाता है, इसलिए हमें पर्यवेक्षक को परिवर्तनों को पकड़ने के लिए एक पल प्रतीक्षा करने की आवश्यकता है। हम उपयोग करेंगे`synchronized` और`wait` इस उद्देश्य के लिए, जैसा कि नीचे दिखाया गया है।
+## Step 4: Wait for Observations (asynchronous handling)
+म्यूटेशन असिंक्रोनस रूप से रिपोर्ट होते हैं, इसलिए हम थोड़ी देर रुकते हैं ताकि observer को बदलाव प्रोसेस करने का समय मिल सके।
 
 ```java
-// चूंकि म्यूटेशन एसिंक्रोनस मोड में काम कर रहे हैं, इसलिए कुछ सेकंड प्रतीक्षा करें
+// Since mutations are working in async mode, wait for a few seconds
 synchronized (this) {
     wait(5000);
 }
 ```
 
-यहां, हम 5 सेकंड तक प्रतीक्षा करते हैं ताकि पर्यवेक्षक को किसी भी उत्परिवर्तन को पकड़ने का मौका मिल सके।
-
-## चरण 5: निरीक्षण करना बंद करें
-
-अंत में, जब आप अवलोकन कर लें, तो संसाधनों को मुक्त करने के लिए पर्यवेक्षक को डिस्कनेक्ट करना आवश्यक है।
+## Step 5: Disconnect the Observer (disconnect mutation observer)
+जब आप मॉनिटरिंग समाप्त कर लें, तो हमेशा **disconnect mutation observer** करके संसाधनों को मुक्त करें।
 
 ```java
-// निरीक्षण करना बंद करो
+// Stop observing
 observer.disconnect();
 ```
 
-इस चरण के साथ, आपने अवलोकन पूरा कर लिया है और संसाधनों को साफ कर सकते हैं।
+## Common Pitfalls & Tips
+- **Never forget to disconnect** – Observers को चलते रहने देना मेमोरी लीक का कारण बन सकता है।  
+- **Thread safety:** कॉलबैक बैकग्राउंड थ्रेड पर चलता है; यदि आप साझा डेटा बदलते हैं तो उचित सिंक्रोनाइज़ेशन उपयोग करें।  
+- **Observe the right node:** `document.getBody()` को देखना अधिकांश UI बदलावों को कैप्चर करता है, लेकिन आप अधिक सूक्ष्म मॉनिटरिंग के लिए किसी भी एलिमेंट को टारगेट कर सकते हैं।  
+- **Pro tip:** यदि आपको एट्रिब्यूट बदलाव भी देखना है तो `config.setAttributes(true)` का उपयोग करें।
 
-## निष्कर्ष
+## Frequently Asked Questions
 
-इस ट्यूटोरियल में, हमने DOM म्यूटेशन ऑब्जर्वर को लागू करने के लिए जावा के लिए Aspose.HTML का उपयोग करने की प्रक्रिया को देखा है। आपने सीखा है कि ऑब्जर्वर कैसे बनाएं, इसे कॉन्फ़िगर करें, DOM में बदलाव करें, अवलोकनों की प्रतीक्षा करें और अवलोकन करना बंद करें। अब, आपके पास HTML दस्तावेज़ों के DOM में परिवर्तनों की निगरानी करने और उन पर प्रभावी ढंग से प्रतिक्रिया करने के लिए अपने जावा प्रोजेक्ट में DOM म्यूटेशन ऑब्जर्वर को लागू करने का कौशल है।
+**Q: What is a DOM Mutation Observer?**  
+A: यह एक API है जो DOM ट्री में नोड जोड़ने, हटाने या एट्रिब्यूट अपडेट जैसे बदलावों को देखता है और उन इवेंट्स को कॉलबैक के माध्यम से प्रदान करता है।
 
-यदि आपके कोई प्रश्न हों या आपको कोई समस्या आए, तो कृपया सहायता लेने में संकोच न करें।[Aspose.HTML फ़ोरम](https://forum.aspose.com/) इसके अतिरिक्त, आप तक पहुँच सकते हैं[प्रलेखन](https://reference.aspose.com/html/java/) Java के लिए Aspose.HTML पर विस्तृत जानकारी के लिए.
+**Q: Can I use Aspose.HTML for Java in commercial projects?**  
+A: हाँ, एक वैध Aspose.HTML लाइसेंस के साथ। खरीद विवरण [here](https://purchase.aspose.com/buy) उपलब्ध हैं।
 
-## अक्सर पूछे जाने वाले प्रश्न
+**Q: Is there a free trial for Aspose.HTML for Java?**  
+A: बिल्कुल—आप ट्रायल को [release page](https://releases.aspose.com/) से डाउनलोड कर सकते हैं।
 
-### प्रश्न 1: DOM म्यूटेशन ऑब्जर्वर क्या है?
+**Q: How do I monitor character data changes?**  
+A: observer कॉन्फ़िगरेशन में `config.setCharacterData(true)` सेट करें, जैसा कि Step 2 में दिखाया गया है।
 
-A1: DOM म्यूटेशन ऑब्जर्वर एक जावास्क्रिप्ट सुविधा है जो आपको HTML दस्तावेज़ के डॉक्यूमेंट ऑब्जेक्ट मॉडल (DOM) में परिवर्तनों को देखने की अनुमति देता है। यह वास्तविक समय में DOM नोड्स के जोड़, विलोपन या संशोधन पर प्रतिक्रिया करने का एक तरीका प्रदान करता है।
+**Q: What should I do after finishing the observation?**  
+A: `observer.disconnect()` (Step 5) कॉल करें और यदि आपने `HTMLDocument` बनाया है तो `document.dispose()` से इसे डिस्पोज़ करके नेटिव रिसोर्सेज़ रिलीज़ करें।
 
-### प्रश्न 2: क्या मैं अपनी व्यावसायिक परियोजनाओं में Java के लिए Aspose.HTML का उपयोग कर सकता हूँ?
+## Conclusion
+आपने अब सीखा कि **append element to body** कैसे किया जाता है, **mutation observer java** कैसे सेट किया जाता है, और Aspose.HTML for Java का उपयोग करके **monitor DOM changes java** कैसे किया जाता है। इन चरणों का पालन करके आप अपने सर्वर‑साइड Java एप्लिकेशन में किसी भी DOM म्यूटेशन को विश्वसनीय रूप से पहचान और प्रतिक्रिया दे सकते हैं। विभिन्न नोड प्रकारों, एट्रिब्यूट ऑब्ज़र्वेशन, या कई observers के साथ प्रयोग करने में संकोच न करें ताकि अधिक जटिल परिदृश्यों को संभाला जा सके।
 
- A2: हाँ, आप व्यावसायिक परियोजनाओं में Java के लिए Aspose.HTML का उपयोग कर सकते हैं। आप लाइसेंसिंग और खरीद संबंधी जानकारी पा सकते हैं[यहाँ](https://purchase.aspose.com/buy).
+यदि आपको कोई समस्या आती है, तो समुदाय [Aspose.HTML forum](https://forum.aspose.com/) में मदद के लिए उपलब्ध है। विस्तृत API विवरण के लिए आधिकारिक [Aspose.HTML for Java documentation](https://reference.aspose.com/html/java/) देखें।
 
-### प्रश्न 3: क्या Java के लिए Aspose.HTML का निःशुल्क परीक्षण उपलब्ध है?
+---
 
- A3: हाँ, आप Java के लिए Aspose.HTML का निःशुल्क परीक्षण प्राप्त कर सकते हैं[यहाँ](https://releases.aspose.com/)इससे आपको खरीदारी करने से पहले इसकी विशेषताओं और क्षमताओं का पता लगाने का मौका मिलता है।
+**Last Updated:** 2025-11-30  
+**Tested With:** Aspose.HTML for Java 24.11  
+**Author:** Aspose
 
-### प्रश्न 4: म्यूटेशन ऑब्जर्वर के साथ चरित्र डेटा परिवर्तनों का अवलोकन करने का क्या लाभ है?
-
-A4: वर्ण डेटा परिवर्तनों का अवलोकन उन परिदृश्यों के लिए उपयोगी है जहाँ आप HTML तत्वों की पाठ सामग्री में परिवर्तनों की निगरानी और प्रतिक्रिया करना चाहते हैं। उदाहरण के लिए, आप इसका उपयोग वेब फ़ॉर्म में उपयोगकर्ता इनपुट को ट्रैक करने और प्रतिक्रिया देने के लिए कर सकते हैं।
-
-### प्रश्न 5: Java के लिए Aspose.HTML का उपयोग करते समय मैं संसाधनों का निपटान कैसे करूँ?
-
- A5: जब आपका काम पूरा हो जाए तो संसाधन जारी करना महत्वपूर्ण है। हमारे उदाहरण में, हमने इसका इस्तेमाल किया`document.dispose()` HTML दस्तावेज़ से जुड़े संसाधनों को साफ़ करने के लिए। मेमोरी लीक से बचने के लिए अपने द्वारा बनाए गए किसी भी ऑब्जेक्ट और संसाधन को हटाना सुनिश्चित करें।
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

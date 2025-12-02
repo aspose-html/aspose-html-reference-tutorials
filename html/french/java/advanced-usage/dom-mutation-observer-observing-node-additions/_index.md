@@ -1,37 +1,53 @@
 ---
-title: DOM Mutation Observer avec Aspose.HTML pour Java
-linktitle: DOM Mutation Observer – Observation des ajouts de nœuds
-second_title: Traitement HTML Java avec Aspose.HTML
-description: Découvrez comment utiliser Aspose.HTML pour Java pour implémenter un observateur de mutation DOM dans ce guide étape par étape. Surveillez et réagissez efficacement aux modifications du DOM.
+date: 2025-11-30
+description: Apprenez comment ajouter un élément au corps et surveiller les changements
+  du DOM en Java en utilisant le Mutation Observer d’Aspose.HTML. Comprend les étapes
+  pour créer un document HTML en Java et déconnecter le Mutation Observer.
+language: fr
+linktitle: Append Element to Body - Observing Node Additions
+second_title: Java HTML Processing with Aspose.HTML
+title: Ajouter un élément au corps avec Aspose.HTML pour Java en utilisant un observateur
+  de mutations du DOM
+url: /java/advanced-usage/dom-mutation-observer-observing-node-additions/
 weight: 11
-url: /fr/java/advanced-usage/dom-mutation-observer-observing-node-additions/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# DOM Mutation Observer avec Aspose.HTML pour Java
+# Ajouter un élément au corps avec Aspose.HTML pour Java à l'aide d'un observateur de mutation du DOM
 
+Si vous êtes un développeur Java qui doit **ajouter un élément au corps** tout en surveillant chaque changement qui se produit dans le DOM, vous êtes au bon endroit. Aspose.HTML pour Java rend simple la **création d'objets HTML document Java**, l'attachement d'un observateur de mutation, et la réaction instantanée lorsque des nœuds sont ajoutés, supprimés ou modifiés. Dans ce tutoriel pas à pas, nous parcourrons l’ensemble du processus — de la configuration du document à la **déconnexion propre de l'observateur de mutation** — afin que vous puissiez surveiller les changements du DOM en toute confiance dans vos applications Java.
 
-Vous êtes un développeur Java qui cherche à observer et à réagir aux changements dans le modèle d'objet de document (DOM) d'un document HTML ? Aspose.HTML pour Java fournit une solution puissante pour cette tâche. Dans ce guide étape par étape, nous allons découvrir comment utiliser Aspose.HTML pour Java pour créer un document HTML et observer les ajouts de nœuds avec un observateur de mutation. Ce didacticiel vous guidera tout au long du processus, en décomposant chaque exemple en plusieurs étapes. À la fin, vous serez en mesure d'implémenter facilement des observateurs de mutation DOM dans vos projets Java.
+## Réponses rapides
+- **Que fait un observateur de mutation ?** Il surveille l'arbre DOM et vous notifie des ajouts, suppressions ou modifications d'attributs de nœuds.  
+- **Quelle bibliothèque fournit cela en Java ?** Aspose.HTML pour Java inclut une API d'observateur de mutation complète.  
+- **Ai‑je besoin d’une licence pour la production ?** Oui, une licence Aspose.HTML valide est requise pour une utilisation commerciale.  
+- **Puis‑je observer les changements des nœuds texte ?** Absolument — définissez `characterData` à `true` dans la configuration de l'observateur.  
+- **Comment arrêter l'observateur ?** Appelez `observer.disconnect()` une fois le suivi terminé.
+
+## Qu’est‑ce que « ajouter un élément au corps » dans le contexte d’Aspose.HTML ?
+Ajouter un élément à la balise `<body>` signifie insérer programmétiquement un nouveau nœud (comme un `<p>` ou `<div>`) dans la zone principale du document. Lorsqu’il est combiné avec un observateur de mutation, vous pouvez détecter instantanément cette insertion et déclencher une logique personnalisée — idéal pour la génération dynamique de HTML, les tests ou les scénarios de rendu côté serveur.
+
+## Pourquoi utiliser un observateur de mutation en Java ?
+- **Surveillance en temps réel :** Réagissez aux modifications du DOM dès qu’elles surviennent.  
+- **Code plus propre :** Aucun besoin de sondage manuel ou de gestion d’événements complexes.  
+- **Cohérence multiplateforme :** Fonctionne de la même façon que vous rendiez le HTML dans un navigateur ou sur le serveur.  
+- **Performance :** Les observateurs sont efficaces et s’exécutent de manière asynchrone, libérant votre thread principal.
 
 ## Prérequis
+1. **Java Development Kit (JDK)** – version 8 ou supérieure.  
+2. **Aspose.HTML pour Java** – téléchargez la dernière version depuis le site officiel.  
+3. **IDE** – IntelliJ IDEA, Eclipse ou tout éditeur compatible Java.  
 
-Avant de nous lancer dans l’utilisation d’Aspose.HTML pour Java, assurons-nous que vous disposez des prérequis nécessaires :
+Vous pouvez obtenir Aspose.HTML pour Java depuis la page de téléchargement [ici](https://releases.aspose.com/html/java/).
 
-1. Environnement de développement Java : assurez-vous que le kit de développement Java (JDK) est installé sur votre système.
-
-2.  Aspose.HTML pour Java : vous devrez télécharger et installer Aspose.HTML pour Java. Vous pouvez trouver le lien de téléchargement[ici](https://releases.aspose.com/html/java/).
-
-3. IDE (environnement de développement intégré) : utilisez votre IDE Java préféré, tel qu'IntelliJ IDEA ou Eclipse, pour écrire et exécuter du code Java.
-
-## Paquets d'importation
-
-Pour commencer à utiliser Aspose.HTML pour Java, vous devez importer les packages requis dans votre code Java. Voici comment procéder :
+## Importer les packages
+Tout d’abord, importez les classes dont vous aurez besoin. Cela crée également un document HTML vide que nous remplirons plus tard.
 
 ```java
-// Importer les packages nécessaires
+// Import necessary packages
 import com.aspose.html.HTMLDocument;
 import com.aspose.html.dom.mutations.MutationObserver;
 import com.aspose.html.dom.mutations.MutationCallback;
@@ -41,15 +57,12 @@ import com.aspose.html.dom.Element;
 import com.aspose.html.dom.Text;
 import com.aspose.html.generic.IGenericList;
 
-// Créer un document HTML vide
+// Create an empty HTML document
 HTMLDocument document = new HTMLDocument();
 ```
 
-Maintenant que vous avez importé les packages requis, passons au guide étape par étape pour implémenter un observateur de mutation DOM en Java.
-
-## Étape 1 : Créer une instance d'observateur de mutation
-
-Tout d'abord, vous devez créer une instance Mutation Observer. Cet observateur surveillera les changements dans le DOM et exécutera une fonction de rappel lorsque des mutations se produisent.
+## Étape 1 : Créer une instance d’observateur de mutation (mutation observer java)
+Un **observateur de mutation** nécessite un rappel qui sera invoqué chaque fois qu’une mutation se produit. Dans notre rappel, nous affichons simplement un message pour chaque nœud ajouté.
 
 ```java
 MutationObserver observer = new MutationObserver(new MutationCallback() {
@@ -67,11 +80,8 @@ MutationObserver observer = new MutationObserver(new MutationCallback() {
 });
 ```
 
-Dans cette étape, nous créons un observateur avec une fonction de rappel qui imprime un message lorsque des nœuds sont ajoutés au DOM.
-
-## Étape 2 : Configurer l’observateur
-
-Maintenant, configurons l'observateur avec les options souhaitées. Nous voulons observer les modifications de la liste des enfants et des sous-arbres, ainsi que les modifications des données des caractères.
+## Étape 2 : Configurer l’observateur (monitor dom changes java)
+Nous indiquons à l’observateur **quoi** surveiller : les changements de liste d’enfants, les modifications de sous‑arbre et les mises à jour de données de caractères.
 
 ```java
 MutationObserverInit config = new MutationObserverInit();
@@ -79,79 +89,75 @@ config.setChildList(true);
 config.setSubtree(true);
 config.setCharacterData(true);
 
-// Transmettez le nœud cible à observer avec la configuration spécifiée
+// Pass in the target node to observe with the specified configuration
 observer.observe(document.getBody(), config);
 ```
 
- Ici, nous définissons le`config` objet pour permettre l'observation des modifications des données de la liste des enfants, des sous-arbres et des caractères. Nous passons ensuite le nœud cible (dans ce cas, le document`<body>`) et la configuration de l'observateur.
-
-## Étape 3 : Modifier le DOM
-
-Nous allons maintenant apporter quelques modifications au DOM pour déclencher l'observateur. Nous allons créer un élément de paragraphe et l'ajouter au corps du document.
+## Étape 3 : Ajouter un élément au corps et déclencher l’observateur
+Nous **ajoutons maintenant un élément au corps**. L’ajout d’un élément `<p>` contenant un nœud texte déclenchera l’observateur que nous avons configuré précédemment.
 
 ```java
-// Créez un élément de paragraphe et ajoutez-le au corps du document
+// Create a paragraph element and append it to the document body
 Element p = document.createElement("p");
 document.getBody().appendChild(p);
 
-// Créez un texte et ajoutez-le au paragraphe
+// Create a text and append it to the paragraph
 Text text = document.createTextNode("Hello World");
 p.appendChild(text);
 ```
 
-Dans cette étape, nous créons un élément de paragraphe HTML et l'ajoutons au corps du document. Ensuite, nous créons un nœud de texte avec le contenu « Hello World » et l'ajoutons au paragraphe.
-
-## Étape 4 : Attendre les observations (de manière asynchrone)
-
-Comme les mutations sont observées de manière asynchrone, nous devons attendre un moment pour permettre à l'observateur de capturer les changements. Nous utiliserons`synchronized` et`wait` à cet effet, comme indiqué ci-dessous.
+## Étape 4 : Attendre les observations (asynchronous handling)
+Les mutations sont signalées de façon asynchrone, nous faisons donc une pause courte pour laisser le temps à l’observateur de traiter le changement.
 
 ```java
-// Étant donné que les mutations fonctionnent en mode asynchrone, attendez quelques secondes
+// Since mutations are working in async mode, wait for a few seconds
 synchronized (this) {
     wait(5000);
 }
 ```
 
-Ici, nous attendons 5 secondes pour garantir que l’observateur a une chance de capturer toutes les mutations.
-
-## Étape 5 : Arrêtez d’observer
-
-Enfin, lorsque vous avez terminé l'observation, il est essentiel de déconnecter l'observateur pour libérer les ressources.
+## Étape 5 : Déconnecter l’observateur (disconnect mutation observer)
+Lorsque vous avez terminé la surveillance, **déconnectez toujours l’observateur de mutation** afin de libérer les ressources.
 
 ```java
-// Arrêtez d'observer
+// Stop observing
 observer.disconnect();
 ```
 
-Avec cette étape, vous avez terminé l’observation et pouvez nettoyer les ressources.
+## Pièges courants et astuces
+- **N’oubliez jamais de déconnecter** – laisser des observateurs actifs peut entraîner des fuites de mémoire.  
+- **Sécurité des threads :** Le rappel s’exécute sur un thread d’arrière‑plan ; utilisez une synchronisation appropriée si vous modifiez des données partagées.  
+- **Observer le bon nœud :** Observer `document.getBody()` capture la plupart des changements d’interface, mais vous pouvez cibler n’importe quel élément pour une surveillance plus fine.  
+- **Astuce pro :** Utilisez `config.setAttributes(true)` si vous devez également surveiller les changements d’attributs.
+
+## Questions fréquentes
+
+**Q : Qu’est‑ce qu’un observateur de mutation du DOM ?**  
+R : C’est une API qui surveille l’arbre DOM pour détecter les ajouts, suppressions ou mises à jour d’attributs de nœuds, et transmet ces événements via un rappel.
+
+**Q : Puis‑je utiliser Aspose.HTML pour Java dans des projets commerciaux ?**  
+R : Oui, avec une licence Aspose.HTML valide. Les détails d’achat sont disponibles [ici](https://purchase.aspose.com/buy).
+
+**Q : Existe‑t‑il une version d’essai gratuite d’Aspose.HTML pour Java ?**  
+R : Absolument — téléchargez un essai depuis la [page de version](https://releases.aspose.com/).
+
+**Q : Comment surveiller les changements de données de caractères ?**  
+R : Définissez `config.setCharacterData(true)` dans la configuration de l’observateur, comme illustré à l’Étape 2.
+
+**Q : Que faire après avoir terminé l’observation ?**  
+R : Appelez `observer.disconnect()` (Étape 5) et, si vous avez créé un `HTMLDocument`, libérez‑le avec `document.dispose()` pour libérer les ressources natives.
 
 ## Conclusion
+Vous avez maintenant appris comment **ajouter un élément au corps**, configurer un **observateur de mutation java**, et **surveiller les changements du DOM java** à l’aide d’Aspose.HTML pour Java. En suivant ces étapes, vous pouvez détecter et réagir de façon fiable à toute mutation du DOM dans vos applications Java côté serveur. N’hésitez pas à expérimenter avec différents types de nœuds, observations d’attributs, ou même plusieurs observateurs pour des scénarios plus complexes.
 
-Dans ce didacticiel, nous avons parcouru le processus d'utilisation d'Aspose.HTML pour Java pour implémenter un observateur de mutation DOM. Vous avez appris à créer un observateur, à le configurer, à apporter des modifications au DOM, à attendre les observations et à arrêter l'observation. Vous avez désormais les compétences nécessaires pour appliquer les observateurs de mutation DOM dans vos projets Java afin de surveiller et de réagir efficacement aux modifications du DOM des documents HTML.
+Si vous rencontrez des problèmes, la communauté est prête à aider sur le [forum Aspose.HTML](https://forum.aspose.com/). Pour des détails d’API plus approfondis, consultez la documentation officielle [Aspose.HTML pour Java](https://reference.aspose.com/html/java/).
 
-Si vous avez des questions ou rencontrez des problèmes, n'hésitez pas à demander de l'aide dans le[Forum Aspose.HTML](https://forum.aspose.com/) . De plus, vous pouvez accéder à la[documentation](https://reference.aspose.com/html/java/) pour des informations détaillées sur Aspose.HTML pour Java.
+---
 
-## FAQ
+**Dernière mise à jour :** 2025-11-30  
+**Testé avec :** Aspose.HTML pour Java 24.11  
+**Auteur :** Aspose
 
-### Q1 : Qu'est-ce qu'un observateur de mutation DOM ?
-
-A1 : Un observateur de mutation DOM est une fonctionnalité JavaScript qui vous permet de surveiller les modifications dans le modèle d'objet de document (DOM) d'un document HTML. Il permet de réagir aux ajouts, suppressions ou modifications de nœuds DOM en temps réel.
-
-### Q2 : Puis-je utiliser Aspose.HTML pour Java dans mes projets commerciaux ?
-
- A2 : Oui, vous pouvez utiliser Aspose.HTML pour Java dans des projets commerciaux. Vous trouverez ici des informations sur les licences et les achats.[ici](https://purchase.aspose.com/buy).
-
-### Q3 : Existe-t-il un essai gratuit disponible pour Aspose.HTML pour Java ?
-
- A3 : Oui, vous pouvez obtenir un essai gratuit d'Aspose.HTML pour Java[ici](https://releases.aspose.com/)Cela vous permet d'explorer ses fonctionnalités et ses capacités avant de procéder à un achat.
-
-### Q4 : Quel est l’avantage d’observer les changements de données de caractères avec Mutation Observer ?
-
-A4 : L'observation des modifications des données de caractères est utile dans les scénarios où vous souhaitez surveiller et réagir aux modifications du contenu textuel des éléments HTML. Par exemple, vous pouvez l'utiliser pour suivre et répondre aux saisies utilisateur dans les formulaires Web.
-
-### Q5 : Comment puis-je éliminer les ressources lorsque j'utilise Aspose.HTML pour Java ?
-
- A5 : Il est important de libérer des ressources lorsque vous avez terminé. Dans notre exemple, nous avons utilisé`document.dispose()` pour nettoyer les ressources associées au document HTML. Assurez-vous de supprimer tous les objets et ressources que vous créez pour éviter les fuites de mémoire.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
