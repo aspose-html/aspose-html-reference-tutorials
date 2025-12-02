@@ -1,10 +1,12 @@
 ---
+date: 2025-12-01
+description: 學習如何調整 PDF 頁面大小、將 HTML 轉換為 PDF，並使用 Aspose.HTML for Java 從 HTML 產生 PDF。輕鬆控制頁面尺寸。
+language: zh-hant
+linktitle: Adjusting PDF Page Size
+second_title: Java HTML Processing with Aspose.HTML
 title: 使用 Aspose.HTML for Java 調整 PDF 頁面大小
-linktitle: 調整 PDF 頁面大小
-second_title: 使用 Aspose.HTML 進行 Java HTML 處理
-description: 了解如何使用 Aspose.HTML for Java 調整 PDF 頁面大小。輕鬆從 HTML 創建高品質的 PDF。有效控制頁面尺寸。
+url: /java/advanced-usage/adjust-pdf-page-size/
 weight: 15
-url: /zh-hant/java/advanced-usage/adjust-pdf-page-size/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,20 +15,33 @@ url: /zh-hant/java/advanced-usage/adjust-pdf-page-size/
 
 # 使用 Aspose.HTML for Java 調整 PDF 頁面大小
 
+從 HTML 產生 PDF 是報表、發票與電子書等常見需求。當您 **調整 PDF 頁面大小** 時，可確保最終文件與您在 HTML 中設計的版面相符。在本教學中，您將學會如何將 HTML 轉換為 PDF、設定自訂尺寸，並控制頁面是否自動擴展至最寬的內容。我們將以 Aspose.HTML for Java 為例，示範完整的實作流程。
 
-在當今的數位時代，從 HTML 內容產生高品質 PDF 的需求不斷增加。 Aspose.HTML for Java 是一個功能強大的 Java 程式庫，可讓您輕鬆地將 HTML 文件轉換為 PDF 格式。在本教程中，我們將重點介紹使用 Aspose.HTML for Java 將 HTML 轉換為 PDF 時調整頁面大小。
+## 快速答覆
+- **「調整 PDF 頁面大小」是什麼意思？** 它讓您定義每個 PDF 頁面的寬度與高度，或讓轉換器自動適配最寬的元素。  
+- **使用哪個函式庫？** Aspose.HTML for Java（最新版本）。  
+- **需要授權嗎？** 開發階段可使用免費試用版；正式上線需購買商業授權。  
+- **可以程式化變更尺寸嗎？** 可以 – 使用 `PageSetup` 以及 `AdjustToWidestPage` 屬性。  
+- **支援 Java 8+ 嗎？** 完全支援 – API 可在任何 JDK 8 以上版本執行。
 
-## 先決條件
+## 什麼是「調整 PDF 頁面大小」？
+調整 PDF 頁面大小即是為 HTML 轉換器產生的每一頁設定尺寸。您可以指定固定大小（例如 A4、Letter），或讓轉換器根據內容自動計算最適寬度。此功能讓您能精確控制版面、分頁與視覺還原度。
 
-在開始之前，請確保您具備以下先決條件：
+## 為什麼在 HTML 轉 PDF 時要調整 PDF 頁面大小？
+- **保留設計意圖：** 防止內容被截斷或拉伸。  
+- **列印最佳化：** 符合下游流程所需的紙張尺寸。  
+- **提升可讀性：** 避免過多留白或文字過於擁擠。  
+- **動態文件：** 自動適配寬表格或圖片，免除手動計算。
 
-- Java 開發環境：確保您的系統上安裝了 Java 開發工具包 (JDK)。
--  Aspose.HTML for Java：您需要從網站下載並安裝Aspose.HTML for Java[這裡](https://releases.aspose.com/html/java/).
-- HTML 文件：您應該有一個可供轉換的 HTML 文件。如果沒有，請建立一個或使用現有的 HTML 檔案。
+## 前置作業
+開始之前，請確保您已具備：
 
-## 導入包
+- **Java Development Kit (JDK) 8 或以上** 已安裝於本機。  
+- **Aspose.HTML for Java** – 從[官方發佈頁面](https://releases.aspose.com/html/java/)下載最新 JAR。  
+- **欲轉換的 HTML 檔案**（本範例使用 `FirstFile.html`）。
 
-首先，您需要匯入必要的套件才能使用 Aspose.HTML for Java。以下程式碼片段示範如何執行此操作：
+## 匯入套件
+首先匯入所需的類別。以下程式碼區塊與原教學相同，保持不變。
 
 ```java
 import com.aspose.html.HTMLDocument;
@@ -37,26 +52,22 @@ import com.aspose.html.drawing.Size;
 import com.aspose.html.rendering.PageSetup;
 ```
 
-現在您已經具備了先決條件並導入了必要的包，讓我們將調整 PDF 頁面大小的過程分解為多個步驟：
-
-## 第 1 步：讀取 HTML 內容
-
-首先，您需要閱讀要轉換為 PDF 的 HTML 內容。在此範例中，我們將從名為「FirstFile.html」的檔案中讀取 HTML。
+## 步驟 1：讀取 HTML 內容
+使用 `FileInputStream` 讀取來源 HTML 檔案，為後續處理做好原始標記的準備。
 
 ```java
 try (java.io.FileInputStream fileInputStream = new java.io.FileInputStream(Resources.input("FirstFile.html"))) {
 ```
 
-## 第 2 步：編寫 HTML 內容
-
-接下來，您將 HTML 內容寫入名為「FirstFileOut.html」的檔案。
+## 步驟 2：寫入（並可選擇性增強）HTML
+此步驟會將原始 HTML 複製到新檔案，並注入少量行內樣式，以示範樣式如何影響 PDF 輸出。您可自行替換範例 CSS。
 
 ```java
 try (java.io.FileOutputStream fileOutputStream = new java.io.FileOutputStream(Resources.output("FirstFileOut.html"))) {
     byte[] bytes = new byte[fileInputStream.available()];
     fileInputStream.read(bytes);
     fileOutputStream.write(bytes);
-    //在此處新增自訂 HTML 樣式或內容
+    // Add custom HTML styles or content here
     String style = "<style>\n" +
                    ".st\n" +
                    "{\n" +
@@ -73,22 +84,20 @@ try (java.io.FileOutputStream fileOutputStream = new java.io.FileOutputStream(Re
 }
 ```
 
-## 第 3 步：將 HTML 渲染為 PDF
+## 步驟 3：將 HTML 轉為 PDF – 兩種情境
+接下來示範 **從 HTML 產生 PDF** 的兩種頁面大小策略。
 
-現在，您將把 HTML 內容呈現為 PDF 檔案。我們將介紹兩種場景：一種是頁面大小未根據內容寬度進行調整，另一種是進行調整。
-
-### 頁面尺寸未調整
-
-在這種情況下，頁面大小設定為固定的寬度和高度，如果超過這些尺寸，可能會裁切內容。
+### 3.1 頁面大小未依內容寬度調整
+此情況下，我們將頁面尺寸固定為 100 × 100 點（points）。若有元素超出此範圍，將被裁切。
 
 ```java
 String pdf_output;
 com.aspose.html.rendering.HtmlRenderer pdf_renderer = new com.aspose.html.rendering.HtmlRenderer();
 
-//從 HTML 檔案建立 HTMLDocument 實例
+// Create an HTMLDocument instance from the HTML file
 com.aspose.html.HTMLDocument html_document = new com.aspose.html.HTMLDocument(Resources.output("FirstFileOut.html"));
 
-//設定 PDF 渲染選項
+// Set PDF rendering options
 com.aspose.html.rendering.pdf.PdfRenderingOptions pdf_options = new com.aspose.html.rendering.pdf.PdfRenderingOptions();
 com.aspose.html.rendering.PageSetup pageSetup = new com.aspose.html.rendering.PageSetup();
 pageSetup.setAnyPage(new com.aspose.html.drawing.Page(new com.aspose.html.drawing.Size(100, 100)));
@@ -98,13 +107,12 @@ pdf_options.setPageSetup(pageSetup);
 pdf_output = Resources.output("not-adjusted-to-widest-page_out.pdf");
 com.aspose.html.rendering.pdf.PdfDevice device = new com.aspose.html.rendering.pdf.PdfDevice(pdf_options, pdf_output);
 
-//渲染輸出
+// Render the output
 pdf_renderer.render(device, html_document);
 ```
 
-### 根據內容寬度調整頁面大小
-
-在這種情況下，頁面大小會根據內容寬度進行調整。
+### 3.2 頁面大小依內容寬度調整
+此時啟用 `AdjustToWidestPage`，轉換器會自動擴展頁面寬度以容納最寬元素，同時保持高度不變。
 
 ```java
 com.aspose.html.rendering.pdf.PdfRenderingOptions pdf_options = new com.aspose.html.rendering.pdf.PdfRenderingOptions();
@@ -116,37 +124,53 @@ pdf_options.setPageSetup(pageSetup);
 pdf_output = Resources.output("adjusted-to-widest-page_out.pdf");
 device = new com.aspose.html.rendering.pdf.PdfDevice(pdf_options, pdf_output);
 
-//渲染輸出
+// Render the output
 pdf_renderer.render(device, html_document);
 ```
 
+## 如何在程式碼中設定 PDF 尺寸（如何變更 PDF 頁面大小）
+`PageSetup` 物件是關鍵：
+
+- `setAnyPage(Page page)`: 定義基礎寬度 × 高度。  
+- `setAdjustToWidestPage(boolean)`: 切換自動寬度調整。  
+
+透過調整上述兩個屬性，即可 **設定 PDF 尺寸**，無論是固定的 A4 頁面，或是依 HTML 版面動態變寬的頁面，都能輕鬆應對。
+
+## 常見問題與技巧
+| 問題 | 為何會發生 | 解決方式 |
+|------|------------|----------|
+| 內容被截斷 | 固定尺寸過小 | 增加 `Size` 數值或啟用 `AdjustToWidestPage`。 |
+| 文字模糊 | 預設渲染 DPI 較低 | 使用 `PdfRenderingOptions.setResolution(int dpi)` 提升解析度。 |
+| 樣式遺失 | 外部 CSS 未載入 | 將 CSS 內嵌或使用 `HTMLDocument.setBaseUrl()` 指向樣式資料夾。 |
+| 大型 HTML 檔案導致 OutOfMemoryError | 轉換器一次載入整份文件 | 分段處理文件或增加 JVM 堆積 (`-Xmx`)。 |
+
+## 常見問答
+
+**Q: 什麼是 Aspose.HTML for Java？**  
+A: 這是一套 Java 函式庫，可讓您建立、編輯與渲染 HTML 文件，並支援轉換為 PDF、PNG 等多種格式。
+
+**Q: 如何在使用 Aspose.HTML for Java 轉 PDF 時調整 PDF 頁面大小？**  
+A: 使用 `PageSetup` 類別，將 `AdjustToWidestPage` 設為 `true`（自動調整）或 `false`（固定尺寸），再透過 `new Page(new Size(width, height))` 指定所需的 `Size`。
+
+**Q: 我可以在轉換前自訂 HTML 內容的樣式嗎？**  
+A: 可以 – 您可以注入 CSS、修改 DOM，或使用外部樣式表。本教學示範了行內 CSS 注入的方式。
+
+**Q: 哪裡可以找到 Aspose.HTML for Java 的文件說明？**  
+A: 完整文件可於[此處](https://reference.aspose.com/html/java/)取得。
+
+**Q: Aspose.HTML for Java 有提供免費試用嗎？**  
+A: 當然有 – 可從[發佈頁面](https://releases.aspose.com/html/java/)下載試用版。
+
 ## 結論
+您現在已掌握如何 **調整 PDF 頁面大小**、**將 HTML 渲染為 PDF**，以及 **在程式碼中設定自訂 PDF 尺寸**，全部透過 Aspose.HTML for Java 完成。請自行嘗試不同的頁面尺寸、DPI 設定與 CSS 調整，以達到最佳輸出效果。如遇到問題，請參考官方文件或 Aspose 支援論壇。
 
-在本教學中，我們探討如何使用 Aspose.HTML for Java 將 HTML 轉換為 PDF 時調整 PDF 頁面大小。您已經了解了先決條件，匯入了所需的套件，並按照逐步指南完成了此任務。使用 Aspose.HTML for Java，您可以輕鬆控制生成的 PDF 的頁面大小，確保您的內容按預期顯示。
+---
 
-請隨意嘗試不同的頁面大小和設置，以滿足您的特定要求。如果您遇到任何問題或有其他疑問，請隨時尋求協助[Aspose.HTML for Java 文檔](https://reference.aspose.com/html/java/)或[Aspose 支援論壇](https://forum.aspose.com/).
+**最後更新：** 2025-12-01  
+**測試環境：** Aspose.HTML for Java 24.12（最新）  
+**作者：** Aspose  
+**相關資源：** [API 參考文件](https://reference.aspose.com/html/java/) | [下載免費試用版](https://releases.aspose.com/html/java/)
 
-## 常見問題解答
-
-### Q1：什麼是 Java 版 Aspose.HTML？
-
-A1：Aspose.HTML for Java 是一個 Java 函式庫，可讓您處理 HTML 文件、操作、轉換並將其呈現為各種格式，包括 PDF。
-
-### Q2: 使用 Aspose.HTML for Java 將 HTML 轉換為 PDF 時如何調整 PDF 頁面大小？
-
- A2：您可以使用`PageSetup`類別並設定`AdjustToWidestPage`財產給`true`或“假”，取決於您的要求。
-
-### 問題 3：在將 HTML 內容轉換為 PDF 之前，我可以自訂其樣式嗎？
-
-A3：是的，您可以透過在將 HTML 內容轉換為 PDF 之前新增 CSS 和 HTML 元素來自訂樣式，如教學課程所示。
-
-### Q4：在哪裡可以找到 Aspose.HTML for Java 的文檔？
-
- A4：可以參考文檔[這裡](https://reference.aspose.com/html/java/)獲取全面的資訊和範例。
-
-### Q5：Aspose.HTML for Java 有免費試用版嗎？
-
- A5：是的，您可以存取 Aspose.HTML for Java 的免費試用版：[這個連結](https://releases.aspose.com/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
