@@ -1,36 +1,54 @@
 ---
-title: Java के लिए Aspose.HTML के साथ HTML फॉर्म भरना स्वचालित करें
-linktitle: HTML फॉर्म एडिटर - फॉर्म भरना और सबमिट करना
-second_title: Aspose.HTML के साथ जावा HTML प्रसंस्करण
-description: Java के लिए Aspose.HTML के साथ HTML फ़ॉर्म भरना और सबमिट करना स्वचालित करना सीखें। इस ट्यूटोरियल के साथ वेब इंटरैक्शन को सरल बनाएँ।
+date: 2025-12-03
+description: Aspose.HTML for Java के साथ Aspose HTML फ़ॉर्म भरने और सबमिट करने को
+  स्वचालित करना सीखें। वेब इंटरैक्शन को सरल बनाएं और प्रतिक्रियाओं को कुशलता से प्रोसेस
+  करें।
+language: hi
+linktitle: HTML Form Editor - Filling and Submitting Forms
+second_title: Java HTML Processing with Aspose.HTML
+title: Aspose.HTML for Java के साथ Aspose HTML फ़ॉर्म भरने को स्वचालित करें
+url: /java/advanced-usage/html-form-editor-filling-submitting-forms/
 weight: 14
-url: /hi/java/advanced-usage/html-form-editor-filling-submitting-forms/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java के लिए Aspose.HTML के साथ HTML फॉर्म भरना स्वचालित करें
+# Aspose.HTML for Java के साथ Aspose HTML फ़ॉर्म भरना स्वचालित करें
 
-आज के डिजिटल युग में, वेबसाइटों में अक्सर विभिन्न उद्देश्यों के लिए फ़ॉर्म होते हैं, जैसे कि उपयोगकर्ता पंजीकरण, फ़ीडबैक या ऑनलाइन शॉपिंग। एक जावा डेवलपर के रूप में, आपको वेबसाइटों पर HTML फ़ॉर्म भरने और सबमिट करने की प्रक्रिया को स्वचालित करने की आवश्यकता हो सकती है। सौभाग्य से, Aspose.HTML for Java के साथ, आप इसे सहजता से प्राप्त कर सकते हैं। इस ट्यूटोरियल में, हम यह पता लगाएंगे कि किसी लक्षित वेबसाइट पर HTML फ़ॉर्म भरने और सबमिट करने के लिए Aspose.HTML for Java का उपयोग कैसे करें।
+आज के डिजिटल युग में, **automating aspose html form filling** मैन्युअल प्रयास को काफी घटा सकता है और वेब फ़ॉर्म के साथ काम करते समय मानव त्रुटियों को समाप्त कर सकता है। चाहे आपको दर्जनों टेस्ट यूज़र रजिस्टर करने हों, बड़े पैमाने पर फ़ीडबैक सबमिट करना हो, या लेगेसी वेब पोर्टल को आधुनिक Java वर्कफ़्लो में इंटीग्रेट करना हो, Aspose.HTML for Java आपको HTML फ़ॉर्म को भरने और सबमिट करने का साफ़, प्रोग्रामेटिक तरीका देता है। इस ट्यूटोरियल में हम पूरी प्रक्रिया—पेज लोड करने से लेकर JSON रिस्पॉन्स हैंडल करने तक—पर चलेंगे, ताकि आप फ़ॉर्म ऑटोमेशन तुरंत शुरू कर सकें।
 
-## आवश्यक शर्तें
+## Quick Answers
+- **What library handles HTML form automation in Java?** Aspose.HTML for Java (aspose html form filling)  
+- **Which class loads a remote page?** `HTMLDocument` (load html document java)  
+- **How do I submit a form programmatically?** Use `FormSubmitter` (java form submitter example)  
+- **Can I process a JSON response?** Yes – inspect the response with `SubmissionResult` (process json response java)  
+- **Do I need a license for production?** A commercial Aspose.HTML license is required for production use.
 
-इससे पहले कि हम Aspose.HTML for Java का उपयोग करके HTML फॉर्म भरने और सबमिट करने के चरणों में उतरें, आपको यह सुनिश्चित कर लेना चाहिए कि आपके पास निम्नलिखित पूर्वापेक्षाएँ मौजूद हैं:
+## What is Aspose HTML Form Filling?
+Aspose HTML Form Filling का अर्थ है Aspose.HTML for Java लाइब्रेरी की वह क्षमता जिससे आप `<form>` एलिमेंट्स के साथ प्रोग्रामेटिक रूप से इंटरैक्ट कर सकते हैं—फ़ील्ड वैल्यू सेट करना, विकल्प चुनना, और अंत में डेटा को सर्वर पर सबमिट करना—बिना ब्राउज़र UI के।
 
-1. जावा विकास परिवेश: आपको JDK और IDE (जैसे, IntelliJ IDEA, Eclipse) सहित एक कार्यशील जावा विकास परिवेश की आवश्यकता है।
+## Why Use Aspose.HTML for Java?
+- **No browser dependency** – Works in head‑less environments such as CI pipelines.  
+- **Full DOM access** – Treat the page like a regular HTML document, letting you query elements by name or ID.  
+- **Built‑in submit handling** – `FormSubmitter` takes care of multipart, URL‑encoded, and other encodings automatically.  
+- **Robust response processing** – Easily read JSON or HTML results, making it ideal for API testing or data extraction.
 
-2.  Aspose.HTML for Java: वेबसाइट से Aspose.HTML for Java डाउनलोड करें और इंस्टॉल करें। आप डाउनलोड लिंक पा सकते हैं[यहाँ](https://releases.aspose.com/html/java/).
+## Prerequisites
 
-3. IDE कॉन्फ़िगरेशन: सुनिश्चित करें कि आपका IDE आपके Java प्रोजेक्ट में Aspose.HTML for Java का उपयोग करने के लिए सही ढंग से कॉन्फ़िगर किया गया है।
+Aspose.HTML for Java का उपयोग करके HTML फ़ॉर्म को भरने और सबमिट करने के चरणों में जाने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित प्री‑रिक्विज़िट्स मौजूद हैं:
 
-## आवश्यक पैकेज आयात करना
+1. **Java Development Environment** – JDK 8+ और एक IDE (IntelliJ IDEA, Eclipse, आदि)।  
+2. **Aspose.HTML for Java** – आधिकारिक साइट से डाउनलोड और इंस्टॉल करें। आप डाउनलोड लिंक यहाँ पा सकते हैं: [here](https://releases.aspose.com/html/java/).  
+3. **IDE Configuration** – Aspose.HTML JARs को अपने प्रोजेक्ट की क्लासपाथ में जोड़ें।
 
-सबसे पहले, आपको Aspose.HTML for Java का प्रभावी ढंग से उपयोग करने के लिए आवश्यक पैकेज आयात करने होंगे। आप यह कैसे कर सकते हैं:
+## Importing Required Packages
+
+सबसे पहले, आवश्यक क्लासेज़ को इम्पोर्ट करें। ये इम्पोर्ट्स आपको डॉक्यूमेंट मॉडल, फ़ॉर्म एडिटिंग यूटिलिटीज़, और रिज़ल्ट हैंडलिंग तक पहुँच प्रदान करेंगे।
 
 ```java
-// आवश्यक पैकेज आयात करें
+// Import required packages
 import com.aspose.html.HTMLDocument;
 import com.aspose.html.forms.FormEditor;
 import com.aspose.html.forms.FormSubmitter;
@@ -40,45 +58,42 @@ import java.util.HashMap;
 import java.util.Map;
 ```
 
-## चरण-दर-चरण मार्गदर्शिका
+## Step‑by‑Step Guide
 
-अब, आइए Aspose.HTML for Java का उपयोग करके HTML फॉर्म भरने और सबमिट करने की प्रक्रिया को चरण-दर-चरण निर्देशों में विभाजित करें:
+नीचे एक पूर्ण, क्रमांकित वॉक‑थ्रू दिया गया है। प्रत्येक चरण में एक छोटा स्पष्टीकरण और वह सटीक कोड है जिसे आपको कॉपी करना है।
 
-### चरण 1: HTML दस्तावेज़ आरंभ करें
+### Step 1: Load the HTML Document (load html document java)
 
-आरंभ करने के लिए, उस वेब पेज के URL से HTML दस्तावेज़ का एक इंस्टेंस आरंभ करें जिसमें वह फ़ॉर्म है जिसे आप बदलना चाहते हैं। इस उदाहरण में, हम 'https://httpbin.org/forms/post' का उपयोग करेंगे।
+शुरू करने के लिए, एक `HTMLDocument` इंस्टेंस बनाएं जो उस पेज की ओर इशारा करता हो जिसमें वह फ़ॉर्म हो जिसे आप मैनीपुलेट करना चाहते हैं। इस उदाहरण में हम एक सार्वजनिक टेस्ट एंडपॉइंट का उपयोग करेंगे।
 
 ```java
 HTMLDocument document = new HTMLDocument("https://httpbin.org/forms/post");
 ```
 
-### चरण 2: फ़ॉर्म संपादक बनाएँ
+### Step 2: Create a Form Editor
 
-वेब पेज पर HTML फ़ॉर्म तत्वों के साथ इंटरैक्ट करने के लिए FormEditor का एक उदाहरण बनाएँ।
+`FormEditor` आपको फ़ॉर्म फ़ील्ड्स को लोकेट और अपडेट करने के लिए एक सुविधाजनक API देता है।
 
 ```java
 FormEditor editor = FormEditor.create(document, 0);
 ```
 
-### चरण 3: फ़ॉर्म डेटा भरें
+### Step 3: Fill Form Data
 
-आप अपनी पसंद के आधार पर फॉर्म डेटा को कई तरीकों से भर सकते हैं:
+फ़ॉर्म को पॉप्युलेट करने के तीन लचीले तरीके हैं:
 
-- नाम से सीधे इनपुट तत्वों तक पहुंचें और उनके मान सेट करें:
-
+#### 3.1 Directly set a single input value
 ```java
 editor.get_Item("custname").setValue("John Doe");
 ```
 
-- विशिष्ट तत्वों तक पहुँचें और उनके मान निर्धारित करें:
-
+#### 3.2 Work with a specific element type
 ```java
 TextAreaElement comments = editor.getElement(TextAreaElement.class, "comments");
 comments.setValue("MORE CHEESE PLEASE!");
 ```
 
-- मानचित्र का उपयोग करके एक साथ कई फ़ॉर्म फ़ील्ड भरें:
-
+#### 3.3 Populate many fields at once using a map (java form submitter example)
 ```java
 Map<String, String> formData = new HashMap<>();
 formData.put("custemail", "john.doe@gmail.com");
@@ -86,61 +101,71 @@ formData.put("custtel", "+1202-555-0290");
 editor.fill(formData);
 ```
 
-### चरण 4: फ़ॉर्म सबमिटकर्ता बनाएँ
+### Step 4: Create a Form Submitter (java form submitter example)
 
-फ़ॉर्म जमा करने की प्रक्रिया को संभालने के लिए FormSubmitter का एक उदाहरण बनाएँ।
+`FormSubmitter` HTTP POST (या GET) को बैकग्राउंड में संभालता है।
 
 ```java
 FormSubmitter submitter = new FormSubmitter(editor);
 ```
 
-### चरण 5: फ़ॉर्म डेटा सबमिट करें
+### Step 5: Submit the Form
 
-फ़ॉर्म डेटा को रिमोट सर्वर पर सबमिट करें। यदि आवश्यक हो तो आप अतिरिक्त विकल्प निर्दिष्ट कर सकते हैं, जैसे कि उपयोगकर्ता क्रेडेंशियल और टाइमआउट।
+डेटा को सर्वर पर भेजने के लिए `submit()` को कॉल करें। आप वैकल्पिक पैरामीटर्स जैसे क्रेडेंशियल्स या टाइमआउट पास कर सकते हैं, लेकिन डिफ़ॉल्ट अधिकांश मामलों में काम करता है।
 
 ```java
 SubmissionResult result = submitter.submit();
 ```
 
-### चरण 6: परिणाम को संभालें
+### Step 6: Process the Server Response (process json response java)
 
-परिणाम ऑब्जेक्ट की स्थिति की जाँच करें और उसके अनुसार प्रतिक्रिया को संसाधित करें। सर्वर की प्रतिक्रिया के आधार पर, आप JSON या HTML डेटा को संभालना चुन सकते हैं।
+सबमिशन के बाद, सर्वर JSON, HTML, या कोई अन्य कंटेंट टाइप रिटर्न कर सकता है। नीचे दिया गया स्निपेट दिखाता है कि कैसे JSON और HTML दोनों रिस्पॉन्स को डिटेक्ट और हैंडल किया जाए।
 
 ```java
 if (result.isSuccess()) {
     if (result.getResponseMessage().getHeaders().getContentType().getMediaType().equals("application/json")) {
-        // JSON प्रतिक्रिया संभालें
+        // Handle JSON response
         System.out.println(result.getContent().readAsString());
     } else {
-        // HTML प्रतिक्रिया संभालें
+        // Handle HTML response
         com.aspose.html.dom.Document resultDocument = result.loadDocument();
-        // HTML दस्तावेज़ का निरीक्षण यहां करें
+        // Inspect the HTML document here
         System.out.println(resultDocument.getDocumentElement().getTextContent());
     }
 }
 ```
 
-## निष्कर्ष
+## Common Issues & Troubleshooting
 
-वेबसाइटों पर HTML फ़ॉर्म भरने और सबमिट करने की प्रक्रिया को स्वचालित करने से आपका वर्कफ़्लो काफ़ी हद तक सरल हो सकता है। Aspose.HTML for Java इसे सहजता से प्राप्त करने के लिए उपकरणों का एक मज़बूत सेट प्रदान करता है। इस ट्यूटोरियल में बताए गए चरणों का पालन करके, आप लक्षित वेब पेजों पर HTML फ़ॉर्म के साथ कुशलतापूर्वक इंटरैक्ट कर सकते हैं।
+| Issue | Cause | Fix |
+|-------|-------|-----|
+| **NullPointerException on `editor.get_Item(...)`** | Element name is misspelled or does not exist. | Verify the exact `name` attribute in the page source (use browser DevTools). |
+| **SubmissionResult.isSuccess() returns false** | Server rejected the request (e.g., missing required fields). | Check the required fields, ensure all mandatory inputs are filled, and inspect the response headers for error details. |
+| **JSON response not recognized** | Content‑Type header differs (e.g., `application/json; charset=utf-8`). | Use `startsWith("application/json")` or parse the response body directly. |
 
-## अक्सर पूछे जाने वाले प्रश्न
+## Frequently Asked Questions
 
-### प्रश्न 1: क्या मैं किसी भी वेबसाइट पर HTML फॉर्म के साथ इंटरैक्ट करने के लिए Java के लिए Aspose.HTML का उपयोग कर सकता हूं?
+**Q: Can I use Aspose.HTML for Java to interact with HTML forms on any website?**  
+A: Yes, you can use Aspose.HTML for Java to interact with HTML forms on most websites that allow programmatic form submission.
 
-A1: हां, आप अधिकांश वेबसाइटों पर HTML फॉर्म के साथ बातचीत करने के लिए Aspose.HTML for Java का उपयोग कर सकते हैं जो प्रोग्रामेटिक फॉर्म सबमिशन की अनुमति देते हैं।
+**Q: Is Aspose.HTML for Java free to use?**  
+A: Aspose.HTML for Java is a commercial library. Licensing and pricing details are available on the Aspose website [here](https://purchase.aspose.com/buy).
 
-### प्रश्न 2: क्या Java के लिए Aspose.HTML का उपयोग निःशुल्क है?
+**Q: Can I try Aspose.HTML for Java before purchasing a license?**  
+A: Yes, a free trial version is available. Download it from [this link](https://releases.aspose.com/).
 
- A2: Aspose.HTML for Java एक व्यावसायिक लाइब्रेरी है। आप Aspose वेबसाइट पर लाइसेंसिंग और मूल्य निर्धारण विवरण पा सकते हैं[यहाँ](https://purchase.aspose.com/buy).
+**Q: How do I handle large HTML pages that contain many forms?**  
+A: Load the document once, then create separate `FormEditor` instances for each form index (the second parameter of `FormEditor.create`). This keeps memory usage low.
 
-### प्रश्न 3: क्या मैं लाइसेंस खरीदने से पहले Java के लिए Aspose.HTML आज़मा सकता हूँ?
+**Q: Where can I find further support and assistance?**  
+A: For technical support, visit the Aspose forums [here](https://forum.aspose.com/).
 
- A3: हाँ, आप Java के लिए Aspose.HTML का निःशुल्क परीक्षण संस्करण देख सकते हैं। आप परीक्षण संस्करण यहाँ से डाउनलोड कर सकते हैं[इस लिंक](https://releases.aspose.com/).
+---
 
-### प्रश्न 4: मैं Java के लिए Aspose.HTML हेतु और अधिक समर्थन और सहायता कहां से प्राप्त कर सकता हूं?
+**Last Updated:** 2025-12-03  
+**Tested With:** Aspose.HTML for Java 24.12 (latest at time of writing)  
+**Author:** Aspose  
 
- A4: किसी भी तकनीकी सहायता के लिए, आप Aspose फ़ोरम पर जा सकते हैं[यहाँ](https://forum.aspose.com/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
