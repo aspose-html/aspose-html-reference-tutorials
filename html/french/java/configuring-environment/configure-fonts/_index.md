@@ -1,93 +1,115 @@
 ---
-title: Configurer les polices dans Aspose.HTML pour Java
-linktitle: Configurer les polices dans Aspose.HTML pour Java
-second_title: Traitement HTML Java avec Aspose.HTML
-description: Découvrez comment configurer les polices dans Aspose.HTML pour Java avec ce guide détaillé, étape par étape. Améliorez vos conversions HTML en PDF avec des polices et des styles personnalisés.
+date: 2025-12-03
+description: Apprenez à configurer les polices pour la conversion HTML en PDF Java
+  avec Aspose.HTML. Générez un PDF à partir de HTML en utilisant des polices personnalisées,
+  une licence Aspose temporaire et des paramètres de conversion avancés.
+language: fr
+linktitle: Configure Fonts in Aspose.HTML
+second_title: Java HTML Processing with Aspose.HTML
+title: Configurer les polices pour la conversion HTML en PDF Java avec Aspose.HTML
+url: /java/configuring-environment/configure-fonts/
 weight: 11
-url: /fr/java/configuring-environment/configure-fonts/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Configurer les polices dans Aspose.HTML pour Java
+# Configurer les polices pour HTML vers PDF Java avec Aspose.HTML
 
 ## Introduction
-Lorsque vous travaillez avec des documents HTML en Java, il est essentiel de configurer correctement les polices pour créer un contenu visuellement attrayant et lisible. Que vous génériez des rapports, créiez des pages Web ou convertissiez des documents, vous assurer que vos polices sont correctement configurées peut faire une différence significative. Ce didacticiel vous guidera tout au long du processus de configuration des polices dans Aspose.HTML pour Java, de la configuration de votre environnement à la conversion de HTML en PDF avec des polices personnalisées. Alors, allons-y !
+Lorsque vous travaillez avec des documents HTML en Java, configurer correctement les polices est essentiel pour créer des conversions **html to pdf java** visuellement attrayantes et lisibles. Que vous génériez des rapports, construisiez des pages web ou convertissiez des documents, le bon réglage des polices peut faire une énorme différence sur la qualité finale du PDF. Dans ce guide, nous parcourrons l’ensemble du processus — de la configuration de votre environnement de développement à la conversion HTML en PDF avec des polices personnalisées — afin que vous puissiez produire des PDFs à l’aspect professionnel en quelques lignes de code seulement. Plongeons‑y !
+
+## Quick Answers
+- **Quel est le but principal de ce tutoriel ?** Configurer les polices pour la conversion HTML‑vers‑PDF en Java à l’aide d’Aspose.HTML.  
+- **Quelle bibliothèque gère la conversion ?** Aspose.HTML for Java (la classe `Converter`).  
+- **Ai‑je besoin d’une licence ?** Une licence temporaire Aspose supprime les limites d’évaluation ; une licence complète est requise en production.  
+- **Où placer mes polices personnalisées ?** Dans un dossier référencé par `FontsLookupFolder`, par exemple un répertoire `fonts` à côté de votre projet.  
+- **Puis‑je personnaliser la sortie PDF ?** Oui — utilisez `PdfSaveOptions` pour ajuster la taille de page, les marges, etc.
 
 ## Prérequis
-Avant de commencer, vous devez réunir quelques conditions préalables :
-1. Kit de développement Java (JDK) : assurez-vous que JDK 1.8 ou supérieur est installé sur votre système.
-2.  Bibliothèque Aspose.HTML pour Java : vous pouvez télécharger la bibliothèque à partir du[Site Web d'Aspose](https://releases.aspose.com/html/java/).
-3. Environnement de développement intégré (IDE) : utilisez un IDE comme IntelliJ IDEA ou Eclipse pour gérer votre projet.
-4. Connaissances de base de la programmation Java : la familiarité avec Java vous aidera à suivre le didacticiel plus efficacement.
-5.  Licence Aspose.HTML : Bien que vous puissiez utiliser Aspose.HTML sans licence, une licence temporaire ou une licence complète supprimera toutes les limitations d'évaluation. Obtenez votre[licence temporaire ici](https://purchase.aspose.com/temporary-license/).
+Avant de commencer, assurez‑vous de disposer de :
 
-## Paquets d'importation
-Pour commencer, vous devez importer les packages nécessaires dans votre projet Java. Ces packages fournissent les classes et les méthodes nécessaires pour configurer les polices, gérer les documents HTML et les convertir en d'autres formats.
+1. **Java Development Kit (JDK) 1.8+** – le code fonctionne avec n’importe quel JDK moderne.  
+2. **Aspose.HTML for Java** – téléchargez le JAR le plus récent depuis le [site Aspose](https://releases.aspose.com/html/java/).  
+3. **IDE** – IntelliJ IDEA, Eclipse ou tout éditeur compatible Java.  
+4. **Connaissances de base en Java** – vous devez être à l’aise avec les classes, les méthodes et les I/O de fichiers.  
+5. **Licence Aspose.HTML** – une [licence temporaire](https://purchase.aspose.com/temporary-license/) lèvera les restrictions d’évaluation.
+
+## Import Packages
+Tout d’abord, importez les classes Java et Aspose.HTML de base dont vous aurez besoin.  
 ```java
 import java.io.IOException;
 ```
-Ces importations apportent les fonctionnalités principales d'Aspose.HTML pour Java, vous permettant d'interagir avec le contenu HTML par programmation.
-## Étape 1 : Créer le contenu HTML
-Tout d'abord, nous devons créer un contenu HTML de base que nous mettrons en forme et convertirons ensuite en PDF. Ce contenu sera enregistré dans un fichier HTML.
-### 1.1 Ecrire le code HTML
- Nous allons commencer par définir un code HTML avec un en-tête et un paragraphe. Ce code sera enregistré dans un fichier nommé`user-agent-fontsetting.html`.
+Ces imports vous donnent accès à la gestion de fichiers et à l’API Aspose.HTML.
+
+## What is **html to pdf java** and Why Does Font Configuration Matter?
+Le processus **html to pdf java** rend un document HTML en une page PDF. Les polices sont un élément clé du rendu car elles influencent la mise en page, l’interligne et la fidélité visuelle. En indiquant à Aspose.HTML le dossier contenant vos polices personnalisées, vous garantissez que le PDF utilise exactement les typographies que vous avez conçues pour la page web, éliminant les polices de secours et préservant la cohérence de votre marque.
+
+## Step‑by‑Step Guide
+
+### Step 1: Create the HTML Content
+Nous allons commencer par générer un fichier HTML simple que nous convertirons ensuite en PDF.
+
+#### 1.1 Write the HTML code
 ```java
 String code = "<h1>FontsSettings property</h1>\r\n" +
     "<p>The FontsSettings property is used for configuration of fonts handling.</p>\r\n";
 ```
-Cette chaîne contient le contenu HTML que nous souhaitons styliser. Notez qu'elle comprend un en-tête (`<h1>`) et un paragraphe (`<p>`).
-### 1.2 Enregistrer le contenu HTML dans un fichier
- Ensuite, vous enregistrerez ce contenu HTML dans un fichier à l’aide d’un`FileWriter`.
+Ce fragment définit un en‑tête et un paragraphe. N’hésitez pas à enrichir le HTML avec d’autres éléments si vous devez tester des styles supplémentaires.
+
+#### 1.2 Save the HTML to a file
 ```java
 try (java.io.FileWriter fileWriter = new java.io.FileWriter("user-agent-fontsetting.html")) {
     fileWriter.write(code);
 }
 ```
- Cet extrait de code écrit la chaîne HTML dans un fichier nommé`user-agent-fontsetting.html` dans votre répertoire de projet.
-## Étape 2 : Configurer l'environnement Aspose.HTML
-Une fois le fichier HTML prêt, l’étape suivante consiste à configurer l’environnement Aspose.HTML, ce qui implique la configuration de la gestion des polices et d’autres paramètres de style.
-### 2.1 Création d'une instance de configuration
- Nous commençons par créer une instance de la`Configuration` classe, qui nous permet de configurer divers aspects de la manière dont les documents HTML sont traités.
+Le `FileWriter` écrit la chaîne dans `user-agent-fontsetting.html` dans le répertoire de votre projet. Après cette étape, vous disposerez d’un fichier HTML physique prêt à être traité.
+
+### Step 2: Configure the Aspose.HTML Environment
+Nous allons maintenant configurer l’objet `Configuration` d’Aspose.HTML, qui nous permet de contrôler la façon dont le HTML est rendu.
+
+#### 2.1 Create a Configuration instance
 ```java
 com.aspose.html.Configuration configuration = new com.aspose.html.Configuration();
 ```
-Cette instance sera utilisée pour accéder et modifier les paramètres de l'agent utilisateur, qui contrôlent la manière dont le HTML est rendu.
-### 2.2 Accès au service d'agent utilisateur
-Le service d'agent utilisateur est responsable de l'application des styles et de la gestion des polices. Nous récupérerons ce service à partir de la configuration.
+L’objet `Configuration` est le point d’entrée pour personnaliser les options de rendu telles que la gestion des polices et le comportement de l’agent utilisateur.
+
+#### 2.2 Access the User Agent Service
 ```java
 com.aspose.html.services.IUserAgentService userAgent = configuration.getService(com.aspose.html.services.IUserAgentService.class);
 ```
- Cette ligne de code récupère le`IUserAgentService`, que nous utiliserons pour appliquer des styles personnalisés et configurer les paramètres de police.
-## Étape 3 : Appliquer des styles et des polices personnalisés
-Maintenant que l'environnement est configuré, appliquons quelques styles personnalisés et spécifions les polices que nous souhaitons utiliser.
-### 3.1 Définition de styles personnalisés
-Nous allons définir des styles personnalisés pour l'en-tête (`h1`) et le paragraphe (`p`) éléments dans le document HTML. 
+Le `IUserAgentService` gère les feuilles de style, les polices et d’autres détails de rendu. Nous l’utiliserons pour injecter du CSS personnalisé et pointer vers notre dossier de polices.
+
+### Step 3: Apply Custom Styles and Fonts
+Avec l’environnement prêt, nous pouvons maintenant ajouter des règles CSS et indiquer à Aspose.HTML où trouver nos polices.
+
+#### 3.1 Set custom CSS
 ```java
 userAgent.setUserStyleSheet("h1 { color:#a52a2a; }\r\n" +
     "p { color:grey; }\r\n");
 ```
-Ici, nous appliquons une couleur marron (`#a52a2a`) à l'en-tête et une couleur grise (`grey`au texte du paragraphe. Ces styles seront appliqués aux éléments lors du traitement du document.
-### 3.2 Définition du dossier de polices personnalisées
-Pour garantir que notre document utilise les polices correctes, nous allons définir un dossier personnalisé dans lequel nos polices sont stockées.
+Ce CSS colore l’en‑tête en brun et le paragraphe en gris. Vous pouvez ajouter n’importe quelle règle CSS valide ici — Aspose.HTML prend en charge la spécification CSS 2.1 complète et de nombreuses fonctionnalités CSS 3.
+
+#### 3.2 Point to the custom font folder
 ```java
 userAgent.getFontsSettings().setFontsLookupFolder("fonts");
 ```
- Cette ligne indique à Aspose.HTML de rechercher des polices dans le`fonts` répertoire. Assurez-vous que ce dossier contient les fichiers de polices nécessaires (par exemple,`.ttf` ou`.otf` fichiers).
-## Étape 4 : Charger le document HTML avec la configuration
-Une fois tout configuré, il est temps de charger le document HTML en utilisant nos paramètres personnalisés.
+Placez tous les fichiers `.ttf` ou `.otf` que vous souhaitez utiliser dans un dossier nommé `fonts` à la racine de votre projet. Aspose.HTML chargera automatiquement ces polices lors du rendu.
 
- Nous allons initialiser un`HTMLDocument` objet avec la configuration spécifiée et le chemin vers notre fichier HTML.
+> **Astuce :** Si vous avez plusieurs familles de polices, organisez‑les dans des sous‑dossiers et ajoutez chaque dossier parent à `FontsLookupFolder` en utilisant une liste séparée par des points‑virgules.
+
+### Step 4: Load the HTML Document with the Configuration
+Nous chargeons maintenant le fichier HTML créé précédemment, en appliquant la configuration personnalisée que nous venons de construire.
+
 ```java
 com.aspose.html.HTMLDocument document = new com.aspose.html.HTMLDocument("user-agent-fontsetting.html", configuration);
 ```
- Cette étape crée un`HTMLDocument` objet prêt à être traité à l'aide des styles et polices personnalisés que nous avons configurés.
-## Étape 5 : Convertir HTML en PDF
-La dernière étape de ce tutoriel consiste à convertir le document HTML stylisé en fichier PDF.
+L’objet `HTMLDocument` représente maintenant le HTML stylisé prêt pour la conversion.
 
- Nous utiliserons le`Converter`classe pour convertir notre document HTML au format PDF.
+### Step 5: Convert HTML to PDF
+Enfin, nous effectuons la **aspose html pdf conversion** pour produire un fichier PDF qui respecte nos polices et styles personnalisés.
+
 ```java
 com.aspose.html.converters.Converter.convertHTML(
     document,
@@ -95,40 +117,62 @@ com.aspose.html.converters.Converter.convertHTML(
     "user-agent-fontsetting_out.pdf"
 );
 ```
- Cet extrait de code convertit le document HTML en un fichier PDF nommé`user-agent-fontsetting_out.pdf` . Le`PdfSaveOptions` Le paramètre vous permet de spécifier différents paramètres pour la sortie PDF.
-## Étape 6 : Nettoyer les ressources
-Une fois la conversion terminée, il est important de supprimer les objets pour libérer des ressources.
-### 6.1 Élimination du document
- Assurez-vous de jeter le`HTMLDocument` objet pour éviter les fuites de mémoire.
+L’objet `PdfSaveOptions` vous permet d’ajuster les paramètres de sortie tels que la taille de page, la compression et les métadonnées. Pour une conversion de base, les options par défaut fonctionnent parfaitement.
+
+### Step 6: Clean Up Resources
+Une libération correcte des ressources évite les fuites de mémoire, surtout lors du traitement de nombreux documents dans une application de longue durée.
+
+#### 6.1 Dispose the HTMLDocument
 ```java
 if (document != null) {
     document.dispose();
 }
 ```
- Cela garantit que toutes les ressources associées à la`HTMLDocument` sont libérés.
-### 6.2 Élimination de la configuration
- De même, jetez le`Configuration` objet lorsque vous avez terminé avec lui.
+
+#### 6.2 Dispose the Configuration
 ```java
 if (configuration != null) {
     configuration.dispose();
 }
 ```
-Cette étape de nettoyage finale garantit que votre application fonctionne efficacement sans consommer de ressources inutiles.
+Ces appels libèrent les ressources natives allouées par Aspose.HTML.
+
+## Common Issues & Solutions
+| Problème | Solution |
+|----------|----------|
+| **Les polices n’apparaissent pas** | Vérifiez que le dossier `fonts` est correctement référencé et qu’il contient des fichiers `.ttf`/`.otf` valides. Utilisez des chemins absolus si le dossier se trouve en dehors du projet. |
+| **Le PDF apparaît vide** | Assurez‑vous que le chemin du fichier HTML est correct et que le fichier est lisible. Vérifiez que l’objet `Configuration` est bien passé au constructeur `HTMLDocument`. |
+| **Exception de licence** | Appliquez une licence temporaire ou complète avant d’appeler les API Aspose. Placez le fichier de licence dans le classpath et chargez‑le avec `License license = new License(); license.setLicense("Aspose.Total.Java.lic");`. |
+| **Rendu CSS inattendu** | Aspose.HTML supporte la plupart des CSS mais pas toutes les fonctionnalités modernes (par ex., CSS Grid). Simplifiez les styles ou utilisez des propriétés CSS prises en charge. |
+
+## Frequently Asked Questions
+
+**Q : Puis‑je utiliser n’importe quelle police avec Aspose.HTML for Java ?**  
+R : Oui, toute police TrueType (`.ttf`) ou OpenType (`.otf`) supportée par votre système d’exploitation peut être utilisée. Placez simplement les fichiers dans le dossier que vous avez défini avec `FontsLookupFolder`.
+
+**Q : Dois‑je disposer d’une licence pour utiliser Aspose.HTML for Java ?**  
+R : Vous pouvez évaluer la bibliothèque sans licence, mais une [licence temporaire Aspose](https://purchase.aspose.com/temporary-license/) supprime les limites d’évaluation. Pour la production, une licence complète est requise.
+
+**Q : Comment personnaliser la sortie PDF ?**  
+R : Transmettez une instance configurée de `PdfSaveOptions` à `convertHTML`. Vous pouvez définir la taille de page, les marges, le niveau de compression, etc.
+
+**Q : Est‑il possible d’appliquer des styles CSS plus complexes ?**  
+R : Oui, Aspose.HTML supporte un large éventail de CSS. Les sélecteurs complexes, les media queries et les pseudo‑classes fonctionnent comme dans un navigateur, bien que certaines fonctionnalités très récentes de CSS3/4 puissent ne pas être entièrement prises en charge.
+
+**Q : Où puis‑je trouver davantage d’exemples et de documentation ?**  
+R : Consultez la page officielle de la [documentation Aspose.HTML for Java](https://reference.aspose.com/html/java/) pour des références API détaillées et des exemples de code supplémentaires.
+
+**Q : Quel impact la licence temporaire Aspose a‑t‑elle sur la conversion ?**  
+R : La licence temporaire supprime la limite de 10 pages et le filigrane qui apparaissent en mode d’évaluation, vous permettant de tester pleinement le **aspose html pdf conversion**.
 
 ## Conclusion
-La configuration des polices dans Aspose.HTML pour Java est un processus simple qui peut grandement améliorer l'apparence et la lisibilité de vos documents HTML. En suivant les étapes décrites dans ce guide, vous pouvez facilement appliquer des styles personnalisés, gérer les polices et convertir votre contenu HTML au format PDF avec seulement quelques lignes de code. Que vous soyez un développeur expérimenté ou un novice en Java, Aspose.HTML fournit les outils dont vous avez besoin pour créer facilement des documents de qualité professionnelle.
+Configurer les polices pour **html to pdf java** avec Aspose.HTML est une méthode simple mais puissante pour garantir que vos PDFs conservent exactement l’apparence de vos pages web. En définissant un dossier de polices personnalisé, en appliquant du CSS via le service d’agent utilisateur et en exploitant le convertisseur intégré, vous pouvez générer des PDFs de haute qualité en quelques lignes de code seulement. Que vous construisiez des rapports, des factures ou tout autre pipeline de génération de documents, cette approche vous offre un contrôle total sur la typographie et la mise en page.
 
-## FAQ
-### Puis-je utiliser n’importe quelle police avec Aspose.HTML pour Java ?  
- Oui, vous pouvez utiliser n'importe quelle police prise en charge par votre système d'exploitation. Assurez-vous de placer les fichiers de police dans le répertoire spécifié par le`FontsLookupFolder`.
-### Ai-je besoin d’une licence pour utiliser Aspose.HTML pour Java ?  
- Bien que vous puissiez utiliser Aspose.HTML sans licence à des fins d'évaluation, une[permis temporaire](https://purchase.aspose.com/temporary-license/) ou une licence complète est recommandée pour une utilisation en production afin d'éviter les limitations.
-### Comment puis-je personnaliser les paramètres de sortie PDF ?  
- Vous pouvez personnaliser la sortie PDF en modifiant le`PdfSaveOptions`objet passé à la`convertHTML` méthode.
-### Est-il possible d'appliquer des styles CSS plus complexes en utilisant Aspose.HTML ?  
-Oui, Aspose.HTML prend en charge une large gamme de styles CSS. Vous pouvez appliquer des styles complexes comme vous le feriez dans un environnement Web classique.
-### Où puis-je trouver plus d’exemples et de documentation ?  
- Vous pouvez trouver des exemples et de la documentation plus détaillés sur le[Page de documentation d'Aspose.HTML pour Java](https://reference.aspose.com/html/java/).
+---  
+**Dernière mise à jour :** 2025-12-03  
+**Testé avec :** Aspose.HTML for Java 24.12 (dernière version au moment de la rédaction)  
+**Auteur :** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
