@@ -113,15 +113,16 @@ Dowiedz się, jak skonfigurować Runtime Service w Aspose.HTML for Java, aby opt
 Dowiedz się, jak wdrożyć sandboxing w Aspose.HTML for Java, aby bezpiecznie kontrolować wykonywanie skryptów w dokumentach HTML i konwertować je do PDF.
 ### [Ustaw własny arkusz stylów w Aspose.HTML for Java](./set-user-style-sheet/)
 Dowiedz się, jak ustawić własny arkusz stylów użytkownika w Aspose.HTML for Java, ulepszając stylizację dokumentów i konwertując HTML do PDF z łatwością.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ---
 
 **Ostatnia aktualizacja:** 2025-12-03  
 **Testowano z:** Aspose.HTML for Java 24.12 (latest)  
 **Autor:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

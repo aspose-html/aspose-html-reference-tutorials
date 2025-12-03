@@ -119,15 +119,16 @@ Scopri come implementare il sandboxing in Aspose.HTML per Java per controllare i
 
 ### [Imposta il foglio di stile utente in Aspose.HTML per Java](./set-user-style-sheet/)
 Scopri come impostare un foglio di stile utente personalizzato in Aspose.HTML per Java, migliorando lo stile dei tuoi documenti e convertendo HTML in PDF con facilità.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ---
 
 **Ultimo aggiornamento:** 2025-12-03  
 **Testato con:** Aspose.HTML for Java 24.12 (latest)  
 **Autore:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

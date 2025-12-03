@@ -119,15 +119,16 @@ Aspose.HTML for Java में सैंडबॉक्सिंग कैसे
 
 ### [Aspose.HTML for Java में यूज़र स्टाइल शीट सेट करें](./set-user-style-sheet/)
 Aspose.HTML for Java में कस्टम यूज़र स्टाइलशीट कैसे सेट करें, अपने दस्तावेज़ स्टाइलिंग को बढ़ाएँ और आसानी से HTML को PDF में बदलें।
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ---
 
 **Last Updated:** 2025-12-03  
 **Tested With:** Aspose.HTML for Java 24.12 (latest)  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

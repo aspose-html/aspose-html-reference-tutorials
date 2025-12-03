@@ -112,15 +112,16 @@ Aspose.HTML for Java에서 런타임 서비스를 구성해 스크립트 실행�
 Aspose.HTML for Java에서 샌드박스를 구현해 HTML 문서의 스크립트 실행을 안전하게 제어하고 PDF로 변환하는 방법을 배웁니다.
 ### [Set User Style Sheet in Aspose.HTML for Java](./set-user-style-sheet/)
 Aspose.HTML for Java에서 사용자 정의 스타일시트를 설정해 문서 스타일을 향상하고 HTML을 PDF로 손쉽게 변환하는 방법을 배웁니다.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ---
 
 **마지막 업데이트:** 2025-12-03  
 **테스트 대상:** Aspose.HTML for Java 24.12 (최신)  
 **작성자:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

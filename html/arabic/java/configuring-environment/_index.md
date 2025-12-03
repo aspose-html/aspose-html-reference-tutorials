@@ -119,15 +119,16 @@ HTML الديناميكي غالبًا ما يحتوي على سكريبتات �
 
 ### [ضبط ورقة الأنماط المخصصة في Aspose.HTML for Java](./set-user-style-sheet/)
 تعلم كيفية ضبط ورقة أنماط مخصصة في Aspose.HTML for Java، تحسين تنسيق المستندات، وتحويل HTML إلى PDF بسهولة.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ---
 
 **آخر تحديث:** 2025-12-03  
 **تم الاختبار مع:** Aspose.HTML for Java 24.12 (latest)  
 **المؤلف:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

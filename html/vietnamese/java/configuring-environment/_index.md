@@ -119,15 +119,16 @@ Tìm hiểu cách triển khai sandboxing trong Aspose.HTML for Java để kiể
 
 ### [Set User Style Sheet in Aspose.HTML for Java](./set-user-style-sheet/)
 Tìm hiểu cách thiết lập stylesheet người dùng tùy chỉnh trong Aspose.HTML for Java, nâng cao phong cách tài liệu và chuyển đổi HTML sang PDF một cách dễ dàng.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ---
 
 **Last Updated:** 2025-12-03  
 **Tested With:** Aspose.HTML for Java 24.12 (latest)  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

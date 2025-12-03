@@ -120,15 +120,15 @@ Naučte se, jak implementovat sandboxing v Aspose.HTML pro Java pro bezpečné �
 ### [Nastavte uživatelský stylový list v Aspose.HTML pro Java](./set-user-style-sheet/)
 Naučte se, jak nastavit vlastní uživatelský stylový list v Aspose.HTML pro Java, vylepšit stylování dokumentu a snadno převést HTML do PDF.
 
+---
+
+**Last Updated:** 2025-12-03  
+**Tested With:** Aspose.HTML for Java 24.12 (latest)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-03  
-**Tested With:** Aspose.HTML for Java 24.12 (latest)  
-**Author:** Aspose

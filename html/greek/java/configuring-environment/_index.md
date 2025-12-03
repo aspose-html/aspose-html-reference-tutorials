@@ -119,15 +119,16 @@ weight: 29
 
 ### [Ορισμός Προσαρμοσμένου User Style Sheet στο Aspose.HTML για Java](./set-user-style-sheet/)
 Μάθετε πώς να ορίσετε ένα προσαρμοσμένο φύλλο στυλ χρήστη στο Aspose.HTML για Java, βελτιώνοντας το στυλ του εγγράφου σας και μετατρέποντας HTML σε PDF με ευκολία.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ---
 
 **Τελευταία Ενημέρωση:** 2025-12-03  
 **Δοκιμάστηκε Με:** Aspose.HTML for Java 24.12 (latest)  
 **Συγγραφέας:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

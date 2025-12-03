@@ -113,15 +113,16 @@ Saiba como configurar o Runtime Service no Aspose.HTML para Java para otimizar a
 Saiba como implementar sandbox no Aspose.HTML para Java para controlar com segurança a execução de scripts em seus documentos HTML e convertê‑los para PDF.
 ### [Definir Folha de Estilo do Usuário no Aspose.HTML para Java](./set-user-style-sheet/)
 Saiba como definir uma folha de estilo personalizada no Aspose.HTML para Java, aprimorando a estilização de documentos e convertendo HTML para PDF com facilidade.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ---
 
 **Última atualização:** 2025-12-03  
 **Testado com:** Aspose.HTML for Java 24.12 (latest)  
 **Autor:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
