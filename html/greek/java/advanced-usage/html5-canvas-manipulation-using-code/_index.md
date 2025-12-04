@@ -170,15 +170,15 @@ A: Το Canvas είναι ιδανικό για παιχνίδια, διαδρα
 
 Σε αυτό το tutorial μάθατε πώς να **αποδίδετε HTML σε PDF** δημιουργώντας και διαχειριζόμενοι ένα HTML5 Canvas με το Aspose.HTML for Java. Τώρα ξέρετε πώς να **ορίσετε το μέγεθος του canvas java**, **προσθέσετε κείμενο canvas java**, **σχεδιάσετε διαβάθμιση canvas java**, και τελικά **εξάγετε canvas ως pdf**. Χρησιμοποιήστε αυτές τις τεχνικές για να δημιουργήσετε δυναμικές αναφορές, να παράγετε PDFs πλούσια σε γραφικά ή να αυτοματοποιήσετε οποιαδήποτε ροή εργασίας που απαιτεί απόδοση HTML canvas στην πλευρά του διακομιστή.
 
+---
+
+**Τελευταία Ενημέρωση:** 2025-12-04  
+**Δοκιμάστηκε Με:** Aspose.HTML for Java 24.11 (latest at time of writing)  
+**Συγγραφέας:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Τελευταία Ενημέρωση:** 2025-12-04  
-**Δοκιμάστηκε Με:** Aspose.HTML for Java 24.11 (latest at time of writing)  
-**Συγγραφέας:** Aspose

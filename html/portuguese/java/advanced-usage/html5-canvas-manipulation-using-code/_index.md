@@ -170,15 +170,15 @@ R: O Canvas é ótimo para jogos, visualizações de dados interativas, editores
 
 Neste tutorial você aprendeu como **renderizar HTML para PDF** criando e manipulando um Canvas HTML5 com Aspose.HTML for Java. Agora você sabe como **set canvas size java**, **add text canvas java**, **draw gradient canvas java**, e finalmente **export canvas as pdf**. Use essas técnicas para criar relatórios dinâmicos, gerar PDFs ricos em gráficos ou automatizar qualquer fluxo de trabalho que exija renderização no lado do servidor de conteúdo de canvas HTML.
 
+---
+
+**Última atualização:** 2025-12-04  
+**Testado com:** Aspose.HTML for Java 24.11 (latest at time of writing)  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última atualização:** 2025-12-04  
-**Testado com:** Aspose.HTML for Java 24.11 (latest at time of writing)  
-**Autor:** Aspose

@@ -169,15 +169,15 @@ document.renderTo(device);
 
 في هذا الدرس تعلمت كيفية **تحويل HTML إلى PDF** عن طريق إنشاء ومعالجة Canvas HTML5 باستخدام Aspose.HTML للـ Java. الآن تعرف كيف **ضبط حجم الـ canvas java**، **إضافة نص إلى الـ canvas java**، **رسم تدرج على الـ canvas java**، وأخيرًا **تصدير الـ canvas كـ pdf**. استخدم هذه التقنيات لبناء تقارير ديناميكية، إنشاء ملفات PDF غنية بالرسوميات، أو أتمتة أي سير عمل يتطلب تحويل Canvas HTML على جانب الخادم.
 
+---
+
+**آخر تحديث:** 2025-12-04  
+**تم الاختبار مع:** Aspose.HTML للـ Java 24.11 (أحدث نسخة عند كتابة هذا المقال)  
+**المؤلف:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2025-12-04  
-**تم الاختبار مع:** Aspose.HTML للـ Java 24.11 (أحدث نسخة عند كتابة هذا المقال)  
-**المؤلف:** Aspose

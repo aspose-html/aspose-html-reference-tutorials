@@ -169,15 +169,15 @@ Khi chương trình kết thúc, bạn sẽ thấy tệp `canvas.output.2.pdf` t
 
 Trong hướng dẫn này, bạn đã học cách **kết xuất HTML sang PDF** bằng cách tạo và thao tác một Canvas HTML5 với Aspose.HTML for Java. Giờ bạn đã biết cách **set canvas size java**, **add text canvas java**, **draw gradient canvas java**, và cuối cùng **export canvas as pdf**. Hãy áp dụng các kỹ thuật này để xây dựng báo cáo động, tạo PDF giàu đồ họa, hoặc tự động hoá bất kỳ quy trình nào cần render Canvas HTML phía máy chủ.
 
+---
+
+**Cập nhật lần cuối:** 2025-12-04  
+**Đã kiểm tra với:** Aspose.HTML for Java 24.11 (phiên bản mới nhất tại thời điểm viết)  
+**Tác giả:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Cập nhật lần cuối:** 2025-12-04  
-**Đã kiểm tra với:** Aspose.HTML for Java 24.11 (phiên bản mới nhất tại thời điểm viết)  
-**Tác giả:** Aspose

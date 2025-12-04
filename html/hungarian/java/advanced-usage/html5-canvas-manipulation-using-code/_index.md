@@ -170,15 +170,15 @@ A: A vászon nagyszerű játékokhoz, interaktív adatvizualizációkhoz, képsz
 
 Ebben az útmutatóban megtanultad, hogyan **renderelj HTML‑t PDF‑be** egy HTML5 vászon létrehozásával és manipulálásával az Aspose.HTML for Java segítségével. Most már tudod, hogyan **set canvas size java**, **add text canvas java**, **draw gradient canvas java**, és végül **export canvas as pdf**. Használd ezeket a technikákat dinamikus jelentések építéséhez, grafika‑gazdag PDF‑ek generálásához, vagy bármely munkafolyamat automatizálásához, amely szerveroldali HTML vászon renderelést igényel.
 
+---
+
+**Utolsó frissítés:** 2025-12-04  
+**Tesztelve ezzel:** Aspose.HTML for Java 24.11 (latest at time of writing)  
+**Szerző:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Utolsó frissítés:** 2025-12-04  
-**Tesztelve ezzel:** Aspose.HTML for Java 24.11 (latest at time of writing)  
-**Szerző:** Aspose
