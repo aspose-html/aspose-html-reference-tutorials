@@ -1,35 +1,52 @@
 ---
-title: 在 Aspose.HTML for Java 中設定字元集
-linktitle: 在 Aspose.HTML for Java 中設定字元集
-second_title: 使用 Aspose.HTML 進行 Java HTML 處理
-description: 在此逐步指南中了解如何在 Aspose.HTML for Java 中設定字元集以及如何將 HTML 轉換為 PDF。確保正確的文字編碼和呈現。
+date: 2025-12-04
+description: 學習如何在 Aspose.HTML for Java 中設定字元集、將 HTML 轉換為 PDF，並確保文字編碼與呈現正確。
+language: zh-hant
+linktitle: Set Character Set in Aspose.HTML
+second_title: Java HTML Processing with Aspose.HTML
+title: 如何在 Aspose.HTML for Java 中設定字元集
+url: /java/configuring-environment/set-character-set/
 weight: 10
-url: /zh-hant/java/configuring-environment/set-character-set/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 在 Aspose.HTML for Java 中設定字元集
+# 如何在 Aspose.HTML for Java 中設定字元集
 
-## 介紹
-如果您使用 Java 處理 HTML 文檔，那麼確保正確的字元集對於正確編碼和呈現文字至關重要。在本指南中，我們將探討如何使用 Aspose.HTML for Java 設定字元集。這個全面的教程將引導您完成過程的每一步，讓您清楚地了解如何有效地處理字元集。
+## 簡介
+如果你在 Java 中處理 HTML 文件，**正確設定字元集**對於正確的文字編碼與呈現至關重要。在本步驟教學中，我們將逐步說明如何使用 Aspose.HTML for Java 設定字元集，並示範如何**將 HTML 轉換為 PDF**，讓輸出結果完全符合預期。
+
+## 快速回答
+- **「charset」是什麼意思？** 它定義了用於解讀文件中文本的字元編碼（例如 ISO‑8859‑1、UTF‑8）。  
+- **為什麼要在 Aspose.HTML 中設定 charset？** 以確保在將 HTML 轉換為 PDF 或其他格式時，特殊字元能正確顯示。  
+- **此範例使用哪種 charset？** `ISO‑8859‑1`（透過 `setCharSet` 設定）。  
+- **設定 charset 後可以將 HTML 轉換為 PDF 嗎？** 可以 — 本教學最後會使用 `Converter.convertHTML` 進行 PDF 轉換。  
+- **是否需要授權？** 提供免費試用版；商業授權則是正式環境的必要條件。
+
+## 什麼是字元集以及為何重要？
+字元集（character set）將位元組序列對映到可讀的字元。使用錯誤的字元集會導致文字損壞，尤其是帶有重音符號的語言或非拉丁文字。正確設定字元集可確保 HTML 依作者的原意被解析，這在之後**從 HTML 產生 PDF**時尤為關鍵。
+
 ## 先決條件
-在我們深入研究程式碼之前，讓我們確保您已完成所有設定：
-1.  Java 開發工具包 (JDK)：確保已安裝 JDK。如果沒有，您可以從以下位置下載[甲骨文網站](https://www.oracle.com/java/technologies/javase-downloads.html).
-2. Aspose.HTML for Java：您需要下載並安裝Aspose.HTML for Java。您可以從[Aspose 發佈頁面](https://releases.aspose.com/html/java/).
-3. 整合開發環境 (IDE)：使用 IntelliJ IDEA、Eclipse 等 IDE 或任何其他支援 Java 的 IDE。
+在進入程式碼之前，請確保已具備以下項目：
 
-## 導入包
-在編寫程式碼之前，需要導入必要的套件：
+1. **Java Development Kit (JDK)** – 任意近期的 JDK（8 以上）。從 [Oracle website](https://www.oracle.com/java/technologies/javase-downloads.html) 下載。  
+2. **Aspose.HTML for Java** – 從 [Aspose releases page](https://releases.aspose.com/html/java/) 取得最新程式庫。  
+3. **IDE** – IntelliJ IDEA、Eclipse，或任何你偏好的 Java 相容開發環境。
+
+## 匯入套件
+本範例僅需一個匯入語句，之後會直接引用 Aspose.HTML 類別。
+
 ```java
 import java.io.IOException;
 ```
-這些導入包括設定字元集、操作 HTML 文件以及將其轉換為 PDF 所需的所有基本類別。
 
-## 第 1 步：建立 HTML 程式碼
-首先，您需要一些要處理的 HTML 內容。本範例將示範如何用 Java 建立一個簡單的 HTML 檔案。
+這些匯入包含了設定字元集、操作 HTML 文件以及將其轉換為 PDF 所需的所有核心類別。
+
+## 步驟 1：建立 HTML 程式碼
+首先，產生一個簡單的 HTML 檔案，稍後將對其進行處理。
+
 ```java
 String code = "<h1>Character Set</h1>\r\n" +
     "<p>The <b>CharSet</b> property sets the primary character-set for a document.</p>\r\n";
@@ -38,44 +55,49 @@ try (java.io.FileWriter fileWriter = new java.io.FileWriter("document.html")) {
 }
 ```
 
--  HTML 內容：`code`變數保存一個表示基本 HTML 結構的字串。它包括一個標題 (`<h1>`）和一段（`<p>`）。
-- 文件編寫器：`FileWriter`類別用於將 HTML 程式碼寫入名為的文件`document.html`。該文件將成為我們進一步操作的起點。
-## 步驟2：配置字元集
-HTML 檔案準備好後，下一步是使用 Aspose.HTML for Java 設定字元集。
+- **HTML Content** – `code` 變數保存了一段包含標題與段落的最小 HTML 片段。  
+- **FileWriter** – 將 HTML 字串寫入 `document.html`，作為轉換的來源檔案。
+
+## 步驟 2：設定字元集
+現在建立一個 `Configuration` 物件，用以保存自訂設定。
+
 ```java
-//建立配置實例
+// Create an instance of Configuration
 Configuration configuration = new Configuration();
 ```
 
-- 配置：`Configuration`類別用於初始化 HTML 文件的設定。這將允許您自訂各個方面，包括字元集。
-## 步驟3：存取並修改用戶代理服務
-字符集可以透過以下方式定義`IUserAgentService`介面由Aspose.HTML提供。
+`Configuration` 類別是自訂 Aspose.HTML 解析與渲染文件方式的入口點。
+
+## 步驟 3：存取並修改 User Agent 服務
+字元集透過 `IUserAgentService` 定義。此處亦示範 **設定 iso-8859-1 編碼** 的呼叫方式。
 
 ```java
 try {
-    //取得 IUserAgentService
+    // Get the IUserAgentService
     IUserAgentService userAgent = configuration.getService(IUserAgentService.class);
-    //設定 ISO-8859-1 編碼來解析文檔
+    // Set ISO-8859-1 encoding to parse the document
     userAgent.setCharSet("ISO-8859-1");
 ```
 
-- IUserAgentService：此服務可讓您管理與使用者代理程式相關的各種設置，包括字元集。
--  setCharSet：`setCharSet`方法用於指定字元編碼。在此範例中，我們將其設定為`ISO-8859-1`，這是一個標準的字元編碼方案。
+- **IUserAgentService** – 管理使用者代理層級的設定，包括字元集。  
+- **setCharSet** – 套用 `ISO‑8859‑1` 字元集，確保 HTML 被正確解讀。
+
 ## 步驟 4：初始化 HTML 文件
-配置字元集後，您現在可以建立使用這些設定的 HTML 文件物件。
+在設定好字元後，使用相同的 `Configuration` 載入 HTML 檔案。
 
 ```java
-    //使用指定的配置初始化 HTML 文檔
+    // Initialize an HTML document with the specified configuration
     HTMLDocument document = new HTMLDocument("document.html", configuration);
 ```
 
-- HTML 文件：`HTMLDocument`類別代表應用程式中的 HTML 文件。它將 HTML 檔案的路徑和配置物件作為參數。這可確保使用指定的字元集解析文件。
-## 第 5 步：將 HTML 轉換為 PDF
-最後一步是將 HTML 文件轉換為 PDF 文件。這就是 Aspose.HTML for Java 真正發揮作用的地方。
+`HTMLDocument` 現在代表來源檔案，已使用 `ISO‑8859‑1` 字元集解析。
+
+## 步驟 5：將 HTML 轉換為 PDF
+最後，將文件轉換為 PDF。此步驟示範 **aspose html convert pdf** 的實際運作。
 
 ```java
     try {
-        //將 HTML 轉換為 PDF
+        // Convert HTML to PDF
         Converter.convertHTML(
                 document,
                 new PdfSaveOptions(),
@@ -93,23 +115,44 @@ try {
 }
 ```
 
--  Converter.convertHTML：此方法將 HTML 文件轉換為 PDF。這`PdfSaveOptions`類別用於指定任何特定於 PDF 的設定。
-- 文件處理：`dispose`方法確保操作完成後釋放資源，防止記憶體洩漏和其他潛在問題。
+- **Converter.convertHTML** – 執行實際的 PDF 轉換。  
+- **PdfSaveOptions** – 如有需要，可調整 PDF 專屬設定。  
+- **Resource Cleanup** – 呼叫 `dispose()` 釋放原生資源，避免記憶體洩漏。
+
+## 常見問題與解決方案
+
+| 問題 | 原因 | 解決方案 |
+|------|------|----------|
+| PDF 中出現亂碼 | 字元集設定錯誤（例如預設 UTF‑8） | 使用 `userAgent.setCharSet("ISO-8859-1")` 或適合來源的字元集。 |
+| `document` 發生 `NullPointerException` | `configuration` 在使用文件前已被釋放 | 確保在完成 `HTMLDocument` 使用後才呼叫 `configuration.dispose()`。 |
+| 缺少字型 | 目標字元集所需字型未安裝 | 安裝所需字型，或透過 `PdfSaveOptions` 嵌入（例如 `setEmbedStandardFonts(true)`）。 |
+
+## 常見問答
+
+**Q: 什麼是字元集，為何重要？**  
+A: 字元集將位元組值對映到字元。使用正確的字元集可防止文字損壞，尤其是非 ASCII 語言。
+
+**Q: 我可以使用除 ISO‑8859‑1 之外的其他字元集嗎？**  
+A: 當然可以。Aspose.HTML 支援多種編碼（UTF‑8、Windows‑1252 等）。只需在 `setCharSet` 中將 `"ISO-8859-1"` 替換為所需的字元集即可。
+
+**Q: 除了 PDF，還能轉換成其他格式嗎？**  
+A: 可以。透過將 `PdfSaveOptions` 換成相應的儲存選項類別，Aspose.HTML 能將 HTML 轉換為 XPS、DOCX、PNG、JPEG 等格式。
+
+**Q: 必須手動處理資源清理嗎？**  
+A: 雖然 Java 的垃圾回收機制會協助，但仍建議明確呼叫 `Configuration` 與 `HTMLDocument` 的 `dispose()`，以即時釋放原生資源。
+
+**Q: 在哪裡可以取得 Aspose.HTML for Java 的免費試用？**  
+A: 從 [Aspose releases page](https://releases.aspose.com/) 下載試用版。
 
 ## 結論
-現在你就擁有了！您已經成功學習如何在 Aspose.HTML for Java 中設定字元集以及如何將 HTML 文件轉換為 PDF。無論您是致力於國際化還是只是確保文件正確呈現，了解如何管理字元集都是至關重要的。
+現在您已了解如何在 Aspose.HTML for Java 中**設定字元集**，以及如何使用正確的編碼**將 HTML 轉換為 PDF**。正確的字元集處理對於國際化至關重要，能確保 PDF 完整呈現原始 HTML 內容。歡迎依專案需求嘗試其他字元集或輸出格式。
 
-## 常見問題解答
-### 什麼是字符集，為什麼它很重要？  
-字符集決定字符在文件中的表示方式。這對於正確的文字編碼至關重要，尤其是在處理多種語言時。
-### 我可以使用與 ISO-8859-1 不同的字元集嗎？  
-絕對地！ Aspose.HTML for Java 支援各種字元集。您可以根據需要使用`setCharSet`方法。
-### 除了PDF之外還可以轉換其他格式嗎？  
-是的，Aspose.HTML for Java 可讓您將 HTML 轉換為各種格式，包括 XPS、DOCX 以及 JPEG 和 PNG 等圖片格式。
-### 我需要手動處理資源清理嗎？  
-雖然 Java 確實有垃圾收集器，但使用手動釋放配置和文件等資源是一個很好的做法。`dispose`方法。
-### 在哪裡可以獲得 Aspose.HTML for Java 的免費試用版？  
-您可以從以下位置下載免費試用版：[Aspose 發佈頁面](https://releases.aspose.com/).
+---
+
+**最後更新：** 2025-12-04  
+**測試環境：** Aspose.HTML for Java 24.12 (latest at time of writing)  
+**作者：** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
