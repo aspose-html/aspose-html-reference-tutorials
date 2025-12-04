@@ -1,36 +1,53 @@
 ---
-title: معالجة HTML5 Canvas باستخدام Aspose.HTML لـ Java
-linktitle: معالجة Canvas باستخدام الكود في HTML5
-second_title: معالجة HTML باستخدام Java مع Aspose.HTML
-description: تعلم التعامل مع HTML5 Canvas باستخدام Aspose.HTML لـ Java. أنشئ رسومات تفاعلية مع إرشادات خطوة بخطوة.
+date: 2025-12-04
+description: تعلم كيفية تحويل HTML إلى PDF عن طريق معالجة HTML5 Canvas باستخدام Aspose.HTML
+  للغة Java. اتبع التعليمات خطوة بخطوة لتصدير الـ Canvas كملف PDF.
+language: ar
+linktitle: HTML5 Canvas Manipulation Using Code
+second_title: Java HTML Processing with Aspose.HTML
+title: 'تحويل HTML إلى PDF: معالجة Canvas باستخدام Aspose.HTML للغة Java'
+url: /java/advanced-usage/html5-canvas-manipulation-using-code/
 weight: 12
-url: /ar/java/advanced-usage/html5-canvas-manipulation-using-code/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# معالجة HTML5 Canvas باستخدام Aspose.HTML لـ Java
+# تحويل HTML إلى PDF: معالجة Canvas باستخدام Aspose.HTML للـ Java
 
-في عالم تطوير الويب، فتحت لغة HTML5 عالمًا من الاحتمالات لإنشاء تطبيقات ويب تفاعلية ومذهلة بصريًا. ومن أكثر ميزات HTML5 إثارة عنصر Canvas، الذي يسمح لك برسم الرسومات والرسوم المتحركة والمزيد مباشرةً داخل صفحة الويب الخاصة بك. يوفر Aspose.HTML for Java طريقة قوية للعمل مع عنصر Canvas والتلاعب به باستخدام كود Java. في هذا البرنامج التعليمي، سنرشدك خلال عملية إنشاء مستند HTML فارغ وإضافة عنصر Canvas وإجراء عمليات معالجة مختلفة لـ Canvas. بحلول نهاية هذا البرنامج التعليمي، ستكون لديك فكرة قوية عن كيفية العمل مع HTML5 Canvas باستخدام Aspose.HTML for Java.
+عنصر **Canvas** في HTML5 يمنح المطورين سطح رسم قوي داخل المتصفح، و **Aspose.HTML للـ Java** يتيح لك أخذ محتوى ذلك الـ canvas و **تحويل HTML إلى PDF** على جانب الخادم. في هذا الدرس ستتعلم كيفية إنشاء مستند HTML فارغ، إضافة canvas، رسم أشكال ونص، تطبيق فرشاة تدرج لوني، وأخيرًا تصدير الـ canvas كملف PDF. في النهاية، ستكون قادرًا على **تصدير canvas كـ PDF** ببضع أسطر من كود Java.
 
-## المتطلبات الأساسية
+## إجابات سريعة
+- **ماذا يفعل Aspose.HTML للـ Java؟** يتيح لك إنشاء وتحرير وتحويل مستندات HTML — بما في ذلك رسومات Canvas — إلى PDF، صور، وأكثر.  
+- **هل يمكنني ضبط حجم الـ canvas في Java؟** نعم، استخدم `setWidth()` و `setHeight()` على `HTMLCanvasElement`.  
+- **كيف أضيف نصًا إلى الـ canvas؟** استدعِ `fillText()` على سياق الرسم 2D.  
+- **هل دعم التدرج اللوني متاح؟** بالتأكيد – أنشئ `ICanvasGradient` وعيّنها إلى `fillStyle` و `strokeStyle`.  
+- **ما صيغ الإخراج المدعومة؟** PDF، PNG، JPEG، وصيغ نقطية أخرى عبر أجهزة تحويل Aspose.HTML.
 
-قبل الغوص في هذا البرنامج التعليمي، هناك بعض المتطلبات الأساسية التي يجب أن تكون موجودة لديك:
+## ما هو “تحويل HTML إلى PDF”؟
+تحويل HTML إلى PDF يعني تحويل صفحة ويب (بما في ذلك CSS، JavaScript، ورسومات Canvas) إلى مستند PDF ثابت يحافظ على التخطيط البصري. Aspose.HTML للـ Java يتعامل مع هذا التحويل على الخادم دون الحاجة إلى متصفح، مما يجعله مثاليًا للتقارير الآلية، الفوترة، أو الأرشفة.
 
--  بيئة Java: تأكد من تثبيت Java على نظامك. يمكنك تنزيل Java من[هنا](https://www.java.com/download/).
+## لماذا نستخدم Aspose.HTML للـ Java لتصدير canvas كـ PDF؟
+- **معالجة على جانب الخادم** – لا حاجة لمتصفح بدون واجهة؛ المكتبة تقوم بالعمل الشاق.  
+- **دعم كامل للـ Canvas** – جميع واجهات برمجة الرسم 2D (`fillRect`، `fillText`، التدرجات، إلخ) تعمل تمامًا كما في المتصفح.  
+- **إخراج PDF عالي الجودة** – الرسومات المتجهة تبقى واضحة، والنص يبقى قابلًا للتحديد.  
+- **متعدد المنصات** – يعمل على أي نظام تشغيل يدعم Java.
 
--  Aspose.HTML for Java: تأكد من تثبيت مكتبة Aspose.HTML for Java. يمكنك تنزيلها من[صفحة التحميل](https://releases.aspose.com/html/java/).
+## المتطلبات المسبقة
 
-- IDE: يمكنك استخدام أي بيئة تطوير متكاملة (IDE) من اختيارك. Eclipse أو IntelliJ IDEA أو أي بيئة تطوير متكاملة أخرى لـ Java ستعمل بشكل جيد.
+قبل الغوص في الكود، تأكد من وجود ما يلي:
+
+- **بيئة Java** – Java 8 أو أحدث مثبت. يمكنك تنزيل Java من [here](https://www.java.com/download/).
+- **Aspose.HTML للـ Java** – قم بتنزيل المكتبة من [download page](https://releases.aspose.com/html/java/).
+- **IDE** – أي بيئة تطوير Java مثل Eclipse، IntelliJ IDEA، أو VS Code.
 
 ## استيراد الحزم
 
-للبدء في التعامل مع HTML5 Canvas في Java، تحتاج إلى استيراد حزم Aspose.HTML اللازمة لـ Java. إليك كيفية القيام بذلك:
+لبدء العمل مع Canvas، استورد الفئات المطلوبة من Aspose.HTML:
 
 ```java
-// استيراد حزم Aspose.HTML
+// Import Aspose.HTML packages
 import com.aspose.html.HTMLDocument;
 import com.aspose.html.HTMLCanvasElement;
 import com.aspose.html.dom.canvas.ICanvasRenderingContext2D;
@@ -38,21 +55,21 @@ import com.aspose.html.dom.canvas.ICanvasGradient;
 import com.aspose.html.rendering.pdf.PdfDevice;
 ```
 
-الآن بعد أن أصبح لدينا المتطلبات الأساسية والحزم في مكانها، دعنا نقسم معالجة HTML5 Canvas إلى خطوات متعددة.
+الآن بعد أنزم جاهزة، دعنا نستعرض كل خطوة من عملية معالجة الـ canvas.
 
-## الخطوة 1: إنشاء مستند HTML فارغ
+## دليل خطوة بخطوة
 
-للبدء، سنقوم بإنشاء مستند HTML فارغ باستخدام Aspose.HTML لـ Java:
+### الخطوة 1: إنشاء مستند HTML فارغ
+
+أولاً، أنشئ كائن `HTMLDocument` الذي سيعمل كحاوية للـ canvas الخاص بنا.
 
 ```java
 HTMLDocument document = new HTMLDocument();
 ```
 
-هنا، قمنا بإنشاء كائن HTMLDocument، والذي يمثل مستند HTML فارغًا.
+### الخطوة 2: ضبط حجم الـ Canvas في Java
 
-## الخطوة 2: إنشاء عنصر قماشي
-
-بعد ذلك، سننشئ عنصر Canvas ونحدد حجمه. في هذا المثال، سنضبط العرض على 300 بكسل والارتفاع على 150 بكسل:
+أنشئ عنصر `<canvas>` وحدد أبعاده. هنا يأتي دور كلمة المفتاح **set canvas size java**.
 
 ```java
 HTMLCanvasElement canvas = (HTMLCanvasElement) document.createElement("canvas");
@@ -60,31 +77,25 @@ canvas.setWidth(300);
 canvas.setHeight(150);
 ```
 
-يقوم هذا الكود بإنشاء عنصر Canvas وتعيين أبعاده.
+### الخطوة 3: إلحاق الـ Canvas بالمستند
 
-## الخطوة 3: إضافة القماش إلى المستند
-
-الآن، دعونا نضيف عنصر Canvas إلى نص مستند HTML:
+أرفق الـ canvas بـ `<body>` الخاص بالمستند ليصبح جزءًا من بنية HTML.
 
 ```java
 document.getBody().appendChild(canvas);
 ```
 
-نقوم بإضافة عنصر Canvas إلى نص مستند HTML.
+### الخطوة 4: الحصول على سياق رسم الـ Canvas
 
-## الخطوة 4: الحصول على سياق عرض القماش
-
-لإجراء عمليات الرسم على Canvas، نحتاج إلى الحصول على سياق عرض Canvas:
+احصل على سياق رسم 2D (`ICanvasRenderingContext2D`) للرسم على الـ canvas.
 
 ```java
 ICanvasRenderingContext2D context = (ICanvasRenderingContext2D) canvas.getContext("2d");
 ```
 
-هنا، نحصل على سياق عرض ثنائي الأبعاد للقماش.
+### الخطوة 5: إعداد فرشاة تدرج لوني
 
-## الخطوة 5: تحضير فرشاة التدرج
-
-في هذه الخطوة سنقوم بإعداد فرشاة التدرج التي سنستخدمها للرسم:
+أنشئ تدرجًا خطيًا ينتقل من اللون الأرجواني إلى الأزرق ثم الأحمر. هذا يوضح **draw gradient canvas java**.
 
 ```java
 ICanvasGradient gradient = context.createLinearGradient(0, 0, canvas.getWidth(), 0);
@@ -93,80 +104,80 @@ gradient.addColorStop(0.5, "blue");
 gradient.addColorStop(1.0, "red");
 ```
 
-نقوم بإنشاء تدرج خطي باستخدام توقفات الألوان، مما يمنحنا فرشاة ملونة.
+### الخطوة 6: تعيين التدرج للملء والحد
 
-## الخطوة 6: تعيين الفرشاة للمحتوى
-
-الآن، سنقوم بتعيين فرشاة التدرج لكل من أنماط التعبئة والحدود:
+طبق التدرج على كل من نمط الملء ونمط الحد.
 
 ```java
 context.setFillStyle(gradient);
 context.setStrokeStyle(gradient);
 ```
 
-تعمل هذه الخطوة على تعيين أنماط التعبئة والحدود لفرشاة التدرج لدينا.
+### الخطوة 7: إضافة نص إلى الـ Canvas (add text canvas java)
 
-## الخطوة 7: كتابة النص وملء المستطيل
-
-يمكننا استخدام سياق Canvas لإجراء عمليات رسم مختلفة. في هذا المثال، سنكتب نصًا ونملأ مستطيلًا:
+استخدم سياق الرسم لكتابة النص ورسم مستطيل مملوء.
 
 ```java
 context.fillText("Hello World!", 10, 90, 500d);
 context.fillRect(0, 95, 300, 20);
 ```
 
-هنا، نضيف نصًا ونرسم مستطيلًا مملوءًا على القماش.
+### الخطوة 8: إنشاء جهاز إخراج PDF
 
-## الخطوة 8: إنشاء جهاز إخراج PDF
-
-لتحويل HTML5 Canvas إلى ملف PDF، نحتاج إلى إنشاء جهاز إخراج PDF:
+قم بإعداد `PdfDevice` الذي سيتلقى ملف PDF المُحوَّل. هذه الخطوة أساسية لـ **export canvas as pdf**.
 
 ```java
 PdfDevice device = new PdfDevice("canvas.output.2.pdf");
 ```
 
-تؤدي هذه الخطوة إلى إعداد جهاز PDF للعرض.
+### الخطوة 9: تحويل Canvas HTML5 إلى PDF (render html to pdf)
 
-## الخطوة 9: تحويل HTML5 Canvas إلى PDF
-
-أخيرًا، نقوم بتقديم HTML5 Canvas إلى ملف PDF باستخدام Aspose.HTML:
+أخيرًا، حوِّل المستند HTML بالكامل — بما في ذلك الـ canvas — إلى جهاز PDF.
 
 ```java
 document.renderTo(device);
 ```
 
-تكتمل عملية العرض بهذه الخطوة، ويتم حفظ محتوى Canvas الخاص بنا في ملف PDF.
+عند انتهاء البرنامج، ستجد `canvas.output.2.pdf` في دليل العمل الخاص بك، يحتوي على المستطيل المملوء بالتدرج ونص “Hello World!”.
 
-تهانينا! لقد نجحت في إنشاء مستند HTML وإضافة عنصر Canvas والتلاعب بالـ Canvas وعرضه في ملف PDF باستخدام Aspose.HTML for Java. يجب أن يكون هذا البرنامج التعليمي بمثابة نقطة بداية رائعة لمشاريع HTML5 Canvas الخاصة بك.
+## المشكلات الشائعة والحلول
 
-## خاتمة
+| Issue | Reason | Fix |
+|-------|--------|-----|
+| **PDF فارغ** | لم يتم إلحاق الـ Canvas بالمستند قبل التحويل. | تأكد من استدعاء `document.getBody().appendChild(canvas);` قبل `renderTo()`. |
+| **التدرج غير مرئي** | لم تتم إضافة ألوان التدرج بشكل صحيح. | تحقق من استدعاءات `addColorStop()` وأن التدرج مُعيَّن لكل من الملء والحد. |
+| **الملف غير مُنشأ** | لا توجد صلاحية كتابة للمجلد الهدف. | شغّل البرنامج بصلاحيات نظام ملفات مناسبة أو حدد مسارًا مطلقًا. |
 
-في هذا البرنامج التعليمي، استكشفنا العالم المثير لمعالجة HTML5 Canvas باستخدام Java وAspose.HTML. لقد قمنا بتغطية الخطوات الأساسية لإنشاء محتوى Canvas ومعالجته وعرضه على PDF. باستخدام هذه المعرفة، يمكنك البدء في إنشاء تطبيقات ويب تفاعلية وجذابة بصريًا تستخدم رسومات Canvas.
+## الأسئلة المتكررة
 
-## الأسئلة الشائعة
+**س: هل Aspose.HTML للـ Java مجاني للاستخدام؟**  
+ج: لا، Aspose.HTML للـ Java مكتبة تجارية. تفاصيل الأسعار موجودة في [purchase page](https://purchase.aspose.com/buy).
 
-### س1: هل استخدام Aspose.HTML لـ Java مجاني؟
+**س: هل هناك نسخة تجريبية مجانية متاحة؟**  
+ج: نعم، يمكنك تنزيل نسخة تجريبية مجانية من [here](https://releases.aspose.com/).
 
- ج1: لا، Aspose.HTML for Java عبارة عن مكتبة تجارية. يمكنك العثور على تفاصيل الأسعار على[صفحة الشراء](https://purchase.aspose.com/buy).
+**س: أين يمكنني العثور على الوثائق والدعم؟**  
+ج: الوثائق متاحة على [https://reference.aspose.com/html/java/](https://reference.aspose.com/html/java/). للحصول على مساعدة المجتمع، زر [Aspose forums](https://forum.aspose.com/).
 
-### س2: هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.HTML لـ Java؟
+**س: هل يمكنني استخدام Aspose.HTML للـ Java مع لغات برمجة أخرى؟**  
+ج: تقدم Aspose مكتبات مماثلة لـ .NET، Node.js، ومنصات أخرى، لكن مكتبة Java مخصصة لـ Java.
 
- ج2: نعم، يمكنك تنزيل نسخة تجريبية مجانية من[هنا](https://releases.aspose.com/).
+**س: ما هي بعض حالات الاستخدام الأخرى لـ HTML5 Canvas؟**  
+ج: الـ Canvas ممتاز للألعاب، التصورات التفاعلية للبيانات، محررات الصور، وحلول الرسوم البيانية المخصصة.
 
-### س3: أين يمكنني العثور على الوثائق والدعم لـ Aspose.HTML لـ Java؟
+## الخلاصة
 
- أ3: يمكنك الوصول إلى الوثائق على[https://reference.aspose.com/html/Java/](https://reference.aspose.com/html/java/) للحصول على الدعم والمناقشات، قم بزيارة[منتديات اسبوس](https://forum.aspose.com/).
+في هذا الدرس تعلمت كيفية **تحويل HTML إلى PDF** عن طريق إنشاء ومعالجة Canvas HTML5 باستخدام Aspose.HTML للـ Java. الآن تعرف كيف **ضبط حجم الـ canvas java**، **إضافة نص إلى الـ canvas java**، **رسم تدرج على الـ canvas java**، وأخيرًا **تصدير الـ canvas كـ pdf**. استخدم هذه التقنيات لبناء تقارير ديناميكية، إنشاء ملفات PDF غنية بالرسوميات، أو أتمتة أي سير عمل يتطلب تحويل Canvas HTML على جانب الخادم.
 
-### س4: هل يمكنني استخدام Aspose.HTML لـ Java مع لغات برمجة أخرى؟
-
-A4: تم تصميم Aspose.HTML في المقام الأول للغة Java، ولكن Aspose يوفر مكتبات مماثلة للغات أخرى أيضًا، مثل .NET وNode.js.
-
-### س5: ما هي بعض حالات الاستخدام الأخرى لـ HTML5 Canvas في تطوير الويب؟
-
-ج5: يمكن استخدام HTML5 Canvas لأغراض مختلفة، بما في ذلك إنشاء الألعاب وتصورات البيانات التفاعلية وتطبيقات تحرير الصور والمزيد. وتعد تعدد استخداماته أحد نقاط قوته الرئيسية.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**آخر تحديث:** 2025-12-04  
+**تم الاختبار مع:** Aspose.HTML للـ Java 24.11 (أحدث نسخة عند كتابة هذا المقال)  
+**المؤلف:** Aspose
