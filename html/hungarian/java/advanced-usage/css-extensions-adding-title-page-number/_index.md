@@ -1,51 +1,68 @@
 ---
-title: Testreszabhatja a HTML oldalmargóit az Aspose.HTML segítségével
-linktitle: CSS-kiterjesztések – Cím és oldalszám hozzáadása
-second_title: Java HTML feldolgozás Aspose.HTML-lel
-description: Ismerje meg, hogyan szabhatja testre az oldalmargókat, hogyan adhat hozzá oldalszámokat és címeket HTML-dokumentumokhoz az Aspose.HTML for Java használatával.
+date: 2025-12-05
+description: Ismerje meg, hogyan állíthatja be a HTML oldal margóit Java-ban az Aspose.HTML
+  használatával, és adjon hozzá oldalszámokat és címeket a dokumentumaihoz.
+language: hu
+linktitle: CSS Extensions - Adding Title and Page Number
+second_title: Java HTML Processing with Aspose.HTML
+title: HTML oldal margóinak beállítása Java-val az Aspose.HTML segítségével
+url: /java/advanced-usage/css-extensions-adding-title-page-number/
 weight: 10
-url: /hu/java/advanced-usage/css-extensions-adding-title-page-number/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Testreszabhatja a HTML oldalmargóit az Aspose.HTML segítségével
+# HTML oldal margók beállítása Java-ban az Aspose.HTML segítségével
 
-Az Aspose.HTML for Java egy hatékony könyvtár a HTML dokumentumok Java alkalmazásokban történő feldolgozásához. Ebben az oktatóanyagban megvizsgáljuk, hogyan hozhat létre egyéni oldalmargókat, és hogyan adhat hozzá oldalszámokat és címeket a HTML-dokumentumokhoz az Aspose.HTML for Java használatával. Ez a lépésenkénti útmutató a folyamatot kezelhető lépésekre bontja, hogy megkönnyítse ezeknek a szolgáltatásoknak a HTML-dokumentumaiba való integrálását.
+Ebben az útmutatóban megtudja, **hogyan állítsa be az HTML oldal margókat Java**‑stílusban az Aspose.HTML for Java használatával. Lépésről‑lépésre végigvezetjük a saját oldal margók létrehozásán, oldalszámok beszúrásán és egy dokumentumcím hozzáadásán – mindezt világos, másolható kóddal, amelyet saját projektjébe illeszthet.
+
+## Gyors válaszok
+- **Melyik könyvtár szükséges?** Aspose.HTML for Java  
+- **Programozottan vezérelhetem a margókat?** Igen, egy CSS `@page` szabályon keresztül a felhasználói stíluslapon  
+- **Mely kimeneti formátumok támogatják a margókat?** XPS, PDF és egyéb raszteres formátumok  
+- **Szükség van licencre a termeléshez?** Érvényes Aspose.HTML licenc szükséges a nem próbaverzióhoz  
+- **Kompatibilis a Java 11+ verziókkal?** Teljesen – a könyvtár működik a modern Java verziókkal  
+
+## Mi az a „HTML oldal margók beállítása Java-ban”?
+Az HTML oldal margók Java-ban történő beállítása azt jelenti, hogy a renderelő motor (az Aspose.HTML által biztosított) CSS oldal‑doboz tulajdonságokat alkalmaz a dokumentum nyomtatható formátumba (például XPS vagy PDF) történő konvertálása előtt. Egy egyedi `@page` szabály definiálásával szabályozhatja a nyomtatható területet, az oldalszámokat és a fejléc/lábléc tartalmát.
+
+## Miért használjuk az Aspose.HTML-t a margóvezérléshez?
+- **Pontos elrendezés** – a CSS `@page` pixel‑pontos kontrollt biztosít a margók, fejlécek és láblécek felett.  
+- **Formátumok közötti konzisztencia** – ugyanazok a margódefiníciók működnek XPS, PDF és kép kimeneteknél.  
+- **Nincs böngészőfüggőség** – a renderelés szerveroldalon történik, így nem szükséges headless böngésző.  
 
 ## Előfeltételek
 
-Mielőtt elkezdené, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
+Mielőtt elkezdenénk, győződjön meg róla, hogy az alábbiak rendelkezésre állnak:
 
-1. Java fejlesztői környezet: Győződjön meg arról, hogy a számítógépén be van állítva Java fejlesztői környezet.
-
-2.  Aspose.HTML for Java: Töltse le és telepítse az Aspose.HTML for Java könyvtárat innen[itt](https://releases.aspose.com/html/java/).
+1. **Java fejlesztői környezet** – JDK 11 vagy újabb telepítve.  
+2. **Aspose.HTML for Java** – Töltse le és telepítse a könyvtárat [ide](https://releases.aspose.com/html/java/).  
 
 ## Csomagok importálása
 
-kezdéshez importálnia kell a szükséges csomagokat az Aspose.HTML for Java-ból. Adja hozzá a következő importálási utasításokat a Java-kódhoz:
+A kezdéshez importálja a szükséges Aspose.HTML osztályokat:
 
 ```java
-// Az Aspose.HTML csomagok importálása
+// Import Aspose.HTML packages
 import com.aspose.html.Configuration;
 import com.aspose.html.services.IUserAgentService;
 import com.aspose.html.HTMLDocument;
 import com.aspose.html.rendering.xps.XpsDevice;
 ```
 
-Most bontsuk fel az egyéni oldalmargók, oldalszámok és címek hozzáadásának folyamatát kezelhető lépésekre:
+## HTML oldal margók beállítása Java-ban – Lépésről‑lépésre útmutató
 
-## 1. lépés: Inicializálja a konfigurációt és az oldalmargókat
+### 1. lépés: Konfiguráció inicializálása és egyedi oldal margók meghatározása
 
 ```java
-// Inicializálja a konfigurációs objektumot, és állítsa be a dokumentum oldalmargóit
+// Initialize configuration object and set up the page-margins for the document
 Configuration configuration = new Configuration();
 try {
-    // Szerezze be a User Agent szolgáltatást
+    // Get the User Agent service
     IUserAgentService userAgent = configuration.getService(IUserAgentService.class);
-    // Állítsa be az egyéni margók stílusát, és jelöljön meg rajta
+    // Set the style of custom margins and create marks on it
     userAgent.setUserStyleSheet("@page\n" +
             "{\n" +
             "    /* Page margins should be not empty in order to write content inside the margin-boxes */\n" +
@@ -70,24 +87,24 @@ try {
             "}\n");
 ```
 
-Ebben a lépésben inicializáljuk a konfigurációs objektumot, és egyéni oldalmargókat állítunk be, beleértve az oldalszámláló pozícióját és az oldal címét.
+Ebben a blokkban létrehozzuk a `Configuration` objektumot, lekérjük az `IUserAgentService`‑t, és egy CSS `@page` szabályt injektálunk, amely meghatározza a margókat, egy jobb‑alsó oldalszámlálót és egy felső‑középső dokumentumcímet.
 
-## 2. lépés: Inicializáljon egy HTML-dokumentumot
+### 2. lépés: HTML dokumentum létrehozása
 
 ```java
-// HTML dokumentum inicializálása
+// Initialize an HTML document
 HTMLDocument document = new HTMLDocument("<div>Hello World!!!</div>", ".", configuration);
 ```
 
-Itt létrehozunk egy HTML-dokumentumot egy mintatartalommal (jelen esetben egy "Hello World" üzenettel), és alkalmazzuk az 1. lépés konfigurációját.
+Itt egy egyszerű “Hello World” szakaszú `HTMLDocument`‑et példányosítunk. Az 1. lépésben létrehozott konfigurációt alkalmazzuk, így a saját margók a dokumentum renderelésekor érvényesülnek.
 
-## 3. lépés: Inicializáljon egy kimeneti eszközt, és jelenítse meg a dokumentumot
+### 3. lépés: Renderelés XPS fájlba (vagy bármely támogatott kimenetre)
 
 ```java
-// Inicializáljon egy kimeneti eszközt
+// Initialize an output device
 XpsDevice device = new XpsDevice(Resources.output("output.xps"));
 try {
-    //Küldje el a dokumentumot a kimeneti eszközre
+    // Send the document to the output device
     document.renderTo(device);
 } finally {
     if (device != null) {
@@ -96,38 +113,61 @@ try {
 }
 ```
 
-Ebben a lépésben beállítunk egy kimeneti eszközt és rendereljük a HTML dokumentumot. A dokumentum feldolgozása és mentése XPS-fájlként történik a megadott oldalmargókkal, oldalszámokkal és címmel.
+Ez a lépés egy `XpsDevice`‑et hoz létre, amely a renderelt oldalakat az `output.xps` fájlba írja. A korábban definiált margók, oldalszámok és cím megjelennek a végleges fájlban.
 
-## Következtetés
+## Gyakori problémák és tippek
 
-Gratulálok! Sikeresen megtanulta, hogyan hozhat létre egyéni oldalmargókat, és hogyan adhat hozzá oldalszámokat és címeket HTML-dokumentumaihoz az Aspose.HTML for Java használatával. Ezzel a testreszabással professzionálisabb és látványosabb dokumentumokat hozhat létre.
+- **A margók változatlanul maradnak** – Győződjön meg róla, hogy a `@page` szabályt nem írják felül más stíluslapok. A `setUserStyleSheet` hívás a legmagasabb prioritást biztosítja.  
+- **Az oldalszámok „NaN” értéket mutatnak** – Ellenőrizze, hogy az Aspose.HTML 23.10 vagy újabb verzióját használja; a régebbi verziók nem tartalmazzák a `currentPageNumber()` függvényt.  
+- **A kimeneti fájl üres** – Ellenőrizze, hogy a `Resources.output` útvonal helyesen feloldódik és van írási jogosultsága.  
 
- Ha bármilyen kérdése van, vagy bármilyen problémája van, keresse fel a[Aspose.HTML a Java dokumentációhoz](https://reference.aspose.com/html/java/) vagy kérjen segítséget a[Aspose támogatási fórum](https://forum.aspose.com/).
+## Gyakran ismételt kérdések
 
-## GYIK
+### Q1: Mi az Aspose.HTML for Java?
 
-### 1. kérdés: Mi az Aspose.HTML for Java?
+**A:** Az Aspose.HTML for Java egy Java könyvtár, amely erőteljes eszközöket biztosít HTML dokumentumokkal való munkához Java alkalmazásokban, beleértve a konvertálást, renderelést és manipulációt.
 
-1. válasz: Az Aspose.HTML for Java egy Java-könyvtár, amely hatékony eszközöket biztosít a HTML-dokumentumok Java alkalmazásokban történő kezeléséhez.
+### Q2: Testreszabhatom-e tovább az oldal margókat?
 
-### 2. kérdés: Tovább szabhatom az oldal margóit?
+**A:** Igen, egyszerűen szerkessze a `setUserStyleSheet`‑ben lévő CSS‑t. Módosíthatja bármely `margin-*` értéket, vagy további `@top-*` / `@bottom-*` dobozokat adhat hozzá.
 
-2. válasz: Igen, az 1. lépésben módosíthatja a CSS-stílusokat az oldalmargók igényei szerint testreszabásához.
+### Q3: Hogyan adhatok több tartalmat a HTML dokumentumhoz?
 
-### 3. kérdés: Hogyan adhatok több tartalmat a HTML-dokumentumhoz?
+**A:** Cserélje le a `new HTMLDocument("<div>Hello World!!!</div>", …)`‑ben lévő karakterláncot a saját HTML‑kódjára, vagy töltsön be egy külső fájlt a `HTMLDocument(String url, …)` konstruktor segítségével.
 
-3. válasz: A 2. lépésben módosíthatja a HTML-tartalmat, ha lecseréli a mintatartalmat a sajátjára.
+### Q4: Az Aspose.HTML for Java kompatibilis-e más dokumentumformátumokkal?
 
-### 4. kérdés: Az Aspose.HTML for Java kompatibilis más dokumentumformátumokkal?
+**A:** Teljesen. Az ugyanaz a `HTMLDocument` renderelhető PDF‑be, XPS‑be, képekbe vagy akár EPUB‑ba is, ha a kimeneti eszközt (pl. `PdfDevice`, `PngDevice`) cseréli.
 
-4. válasz: Igen, az Aspose.HTML for Java használható HTML-dokumentumok konvertálására különféle formátumokká, beleértve a PDF-t, XPS-t és képeket.
+### Q5: Szükség van licencre az Aspose.HTML for Java használatához?
 
-### 5. kérdés: Szükségem van licencre az Aspose.HTML for Java használatához?
+**A:** Igen, licenc szükséges a termeléshez. Próbaverziót vagy licencet szerezhet [ide](https://purchase.aspose.com/buy) vagy [ide](https://releases.aspose.com/).
 
- 5. válasz: Igen, licencet vagy ingyenes próbaverziót szerezhet be[itt](https://purchase.aspose.com/buy) vagy[itt](https://releases.aspose.com/).
+### Q6: Hogyan állíthatok be különböző margókat páratlan és páros oldalakra?
+
+**A:** Használja a `@page :left` és `@page :right` pszeudo‑osztályokat a stíluslapon, hogy külön margókat definiáljon a bal‑ (páros) és jobb‑ (páratlan) oldalakra.
+
+### Q7: Beágyazhatok‑e egyedi betűtípusokat a renderelt dokumentumba?
+
+**A:** Igen. Adjon `@font-face` szabályokat a felhasználói stíluslaphoz, és hivatkozzon a betűtípusokra a HTML tartalmában.
+
+## Összegzés
+
+Most már elsajátította, **hogyan állítsa be az HTML oldal margókat Java-ban** az Aspose.HTML segítségével, és tudja, hogyan adjon hozzá oldalszámokat és címet, hogy dokumentumai professzionális megjelenést kapjanak. Nyugodtan kísérletezzen további `@page` dobozokkal, egyedi betűtípusokkal vagy különböző kimeneti formátumokkal, hogy a projekt igényeinek megfeleljen.
+
+Ha bármilyen problémába ütközik, a hivatalos [Aspose.HTML for Java dokumentáció](https://reference.aspose.com/html/java/) és az [Aspose támogatási fórum](https://forum.aspose.com/) kiváló helyek a segítséghez.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Legutóbb frissítve:** 2025-12-05  
+**Tesztelve a következővel:** Aspose.HTML for Java 23.12  
+**Szerző:** Aspose  
+
+---

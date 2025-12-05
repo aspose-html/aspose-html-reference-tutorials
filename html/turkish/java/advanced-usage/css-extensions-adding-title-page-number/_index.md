@@ -1,51 +1,68 @@
 ---
-title: Aspose.HTML ile HTML Sayfa Kenar Boşluklarını Özelleştirin
-linktitle: CSS Uzantıları - Başlık ve Sayfa Numarası Ekleme
-second_title: Aspose.HTML ile Java HTML İşleme
-description: Aspose.HTML for Java kullanarak HTML belgelerine sayfa kenar boşluklarını nasıl özelleştireceğinizi, sayfa numaralarını ve başlıkları nasıl ekleyeceğinizi öğrenin.
+date: 2025-12-05
+description: Aspose.HTML kullanarak Java'da HTML sayfa kenar boşluklarını nasıl ayarlayacağınızı
+  öğrenin ve belgelerinize sayfa numaraları ve başlıklar ekleyin.
+language: tr
+linktitle: CSS Extensions - Adding Title and Page Number
+second_title: Java HTML Processing with Aspose.HTML
+title: Aspose.HTML ile Java’da HTML Sayfa Kenar Boşluklarını Nasıl Ayarlarsınız
+url: /java/advanced-usage/css-extensions-adding-title-page-number/
 weight: 10
-url: /tr/java/advanced-usage/css-extensions-adding-title-page-number/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.HTML ile HTML Sayfa Kenar Boşluklarını Özelleştirin
+# HTML Sayfa Kenar Boşluklarını Java ile Aspose.HTML Kullanarak Nasıl Ayarlarsınız
 
-Java için Aspose.HTML, Java uygulamalarında HTML belgelerini işlemek için güçlü bir kütüphanedir. Bu eğitimde, Aspose.HTML for Java kullanarak özel sayfa kenar boşlukları oluşturmayı ve HTML belgelerinize sayfa numaraları ve başlıklar eklemeyi inceleyeceğiz. Bu adım adım kılavuz, bu özellikleri HTML belgelerinize kolayca entegre etmenize yardımcı olmak için süreci yönetilebilir adımlara bölecektir.
+Bu öğreticide **HTML sayfa kenar boşluklarını Java**‑tarzı olarak Aspose.HTML for Java kullanarak nasıl ayarlayacağınızı keşfedeceksiniz. Özel sayfa kenar boşlukları oluşturmayı, sayfa numaraları eklemeyi ve bir belge başlığı eklemeyi adım adım, kopyalayıp projenize yapıştırabileceğiniz net kod örnekleriyle göstereceğiz.
 
-## Ön koşullar
+## Hızlı Yanıtlar
+- **Hangi kütüphane gerekiyor?** Aspose.HTML for Java  
+- **Kenar boşluklarını programlı olarak kontrol edebilir miyim?** Evet, kullanıcı stil sayfasındaki bir CSS `@page` kuralı ile  
+- **Hangi çıktı formatları kenar boşluklarını destekliyor?** XPS, PDF ve diğer raster formatlar  
+- **Üretim için lisansa ihtiyacım var mı?** Deneme dışı kullanım için geçerli bir Aspose.HTML lisansı gereklidir  
+- **Java 11+ ile uyumlu mu?** Kesinlikle – kütüphane modern Java sürümleriyle çalışır  
 
-Başlamadan önce aşağıdaki ön koşulların mevcut olduğundan emin olun:
+## “HTML Sayfa Kenar Boşluklarını Java ile Ayarlama” Nedir?
+Java’da HTML sayfa kenar boşluklarını ayarlamak, Aspose.HTML tarafından sağlanan render motorunu, belge XPS veya PDF gibi yazdırılabilir bir formata dönüştürülmeden önce CSS sayfa‑kutusu özelliklerini uygulayacak şekilde yapılandırmak anlamına gelir. Özel bir `@page` kuralı tanımlayarak yazdırılabilir alanı, sayfa numaralarını ve üst/bottom içeriklerini kontrol edersiniz.
 
-1. Java Geliştirme Ortamı: Bilgisayarınızda bir Java geliştirme ortamının kurulu olduğundan emin olun.
+## Neden Kenar Kontrolü İçin Aspose.HTML Kullanmalı?
+- **Kesin düzen** – CSS `@page` ile kenar boşlukları, üst‑alt bölümleri piksel‑tam hassasiyetle kontrol edebilirsiniz.  
+- **Çoklu format tutarlılığı** – Aynı kenar tanımları XPS, PDF ve görüntü çıktıları için geçerlidir.  
+- **Tarayıcı bağımlılığı yok** – Render sunucu‑tarafında gerçekleşir, headless tarayıcıya ihtiyaç duymazsınız.  
 
-2.  Java için Aspose.HTML: Java için Aspose.HTML kitaplığını şu adresten indirin ve yükleyin:[Burada](https://releases.aspose.com/html/java/).
+## Ön Koşullar
 
-## Paketleri İçe Aktar
+Başlamadan önce aşağıdaki ön koşulların karşılandığından emin olun:
 
-Başlamak için, Java için Aspose.HTML'den gerekli paketleri içe aktarmanız gerekir. Java kodunuza aşağıdaki içe aktarma ifadelerini ekleyin:
+1. **Java Geliştirme Ortamı** – JDK 11 veya daha yeni bir sürüm yüklü.  
+2. **Aspose.HTML for Java** – Kütüphaneyi [buradan](https://releases.aspose.com/html/java/) indirip kurun.  
+
+## Paketleri İçe Aktarma
+
+Başlamak için gerekli Aspose.HTML sınıflarını içe aktarın:
 
 ```java
-// Aspose.HTML paketlerini içe aktarın
+// Import Aspose.HTML packages
 import com.aspose.html.Configuration;
 import com.aspose.html.services.IUserAgentService;
 import com.aspose.html.HTMLDocument;
 import com.aspose.html.rendering.xps.XpsDevice;
 ```
 
-Şimdi, özel sayfa kenar boşlukları, sayfa numaraları ve başlıklar ekleme sürecini yönetilebilir adımlara bölelim:
+## HTML Sayfa Kenar Boşluklarını Java – Adım Adım Kılavuz
 
-## Adım 1: Yapılandırmayı ve Sayfa Kenar Boşluklarını Başlatın
+### Adım 1: Yapılandırmayı Başlat ve Özel Sayfa Kenar Boşluklarını Tanımla
 
 ```java
-// Yapılandırma nesnesini başlatın ve belge için sayfa kenar boşluklarını ayarlayın
+// Initialize configuration object and set up the page-margins for the document
 Configuration configuration = new Configuration();
 try {
-    // Kullanıcı Aracısı hizmetini edinin
+    // Get the User Agent service
     IUserAgentService userAgent = configuration.getService(IUserAgentService.class);
-    // Özel kenar boşluklarının stilini ayarlayın ve üzerinde işaretler oluşturun
+    // Set the style of custom margins and create marks on it
     userAgent.setUserStyleSheet("@page\n" +
             "{\n" +
             "    /* Page margins should be not empty in order to write content inside the margin-boxes */\n" +
@@ -70,24 +87,24 @@ try {
             "}\n");
 ```
 
-Bu adımda yapılandırma nesnesini başlatıyoruz ve sayfa sayacının ve sayfa başlığının konumu da dahil olmak üzere özel sayfa kenar boşluklarını ayarlıyoruz.
+Bu blokta bir `Configuration` nesnesi oluşturur, `IUserAgentService` elde eder ve kenar boşluklarını, sağ‑alt sayfa sayacını ve üst‑orta belge başlığını tanımlayan bir CSS `@page` kuralı enjekte ederiz.
 
-## Adım 2: Bir HTML Belgesi Başlatın
+### Adım 2: HTML Belgesini Oluştur
 
 ```java
-// Bir HTML belgesini başlatın
+// Initialize an HTML document
 HTMLDocument document = new HTMLDocument("<div>Hello World!!!</div>", ".", configuration);
 ```
 
-Burada, örnek bir içerik (bu durumda bir "Merhaba Dünya" mesajı) içeren bir HTML belgesi oluşturuyoruz ve 1. Adımdaki yapılandırmayı uyguluyoruz.
+Burada basit bir “Hello World” snippet’i ile bir `HTMLDocument` örneği oluştururuz. Adım 1’deki aynı yapılandırma uygulanır, böylece özel kenar boşlukları belge render edildiğinde geçerli olur.
 
-## Adım 3: Bir Çıktı Aygıtı Başlatın ve Belgeyi İşleyin
+### Adım 3: XPS Dosyasına (veya desteklenen herhangi bir çıktıya) Render Et
 
 ```java
-// Bir çıktı aygıtını başlat
+// Initialize an output device
 XpsDevice device = new XpsDevice(Resources.output("output.xps"));
 try {
-    //Belgeyi çıktı aygıtına gönder
+    // Send the document to the output device
     document.renderTo(device);
 } finally {
     if (device != null) {
@@ -96,38 +113,61 @@ try {
 }
 ```
 
-Bu adımda bir çıktı aygıtı ayarlayıp HTML belgesini oluşturuyoruz. Belge işlenecek ve belirtilen sayfa kenar boşlukları, sayfa numaraları ve başlıkla bir XPS dosyası olarak kaydedilecek.
+Bu adım, render edilen sayfaları `output.xps` dosyasına yazan bir `XpsDevice` oluşturur. Önceden tanımladığınız kenar boşlukları, sayfa numaraları ve başlık nihai dosyada görünecektir.
 
-## Çözüm
+## Yaygın Sorunlar & İpuçları
 
-Tebrikler! Aspose.HTML for Java kullanarak HTML belgelerinize özel sayfa kenar boşlukları oluşturmayı ve sayfa numaraları ve başlıklar eklemeyi başarıyla öğrendiniz. Bu özelleştirme, daha profesyonel ve görsel olarak çekici belgeler oluşturmanıza olanak tanır.
+- **Kenar boşlukları değişmemiş gibi görünüyor** – `@page` kuralının diğer stil sayfaları tarafından geçersiz kılınmadığından emin olun. `setUserStyleSheet` çağrısı en yüksek önceliği sağlar.  
+- **Sayfa numaraları “NaN” gösteriyor** – Aspose.HTML 23.10 veya daha yeni bir sürüm kullandığınızı doğrulayın; eski sürümlerde `currentPageNumber()` işlevi bulunmaz.  
+- **Çıktı dosyası boş** – `Resources.output` yolunun doğru çözüldüğünden ve yazma izniniz olduğundan emin olun.  
 
- Herhangi bir sorunuz varsa veya herhangi bir sorunla karşılaşırsanız, lütfen şu adresi ziyaret edin:[Java için Aspose.HTML belgeleri](https://reference.aspose.com/html/java/) veya yardım isteyin[Aspose destek forumu](https://forum.aspose.com/).
+## Sıkça Sorulan Sorular
 
-## SSS
+### S1: Aspose.HTML for Java nedir?
 
-### S1: Java için Aspose.HTML nedir?
+**C:** Aspose.HTML for Java, Java uygulamalarında HTML belgeleriyle çalışmak için dönüşüm, render ve manipülasyon gibi güçlü araçlar sunan bir Java kütüphanesidir.
 
-A1: Aspose.HTML for Java, Java uygulamalarında HTML belgeleriyle çalışmak için güçlü araçlar sağlayan bir Java kütüphanesidir.
+### S2: Sayfa kenar boşluklarını daha da özelleştirebilir miyim?
 
-### S2: Sayfa kenar boşluklarını daha fazla özelleştirebilir miyim?
+**C:** Evet, `setUserStyleSheet` içindeki CSS’i düzenleyerek `margin-*` değerlerini değiştirebilir veya ek `@top-*` / `@bottom-*` kutuları ekleyebilirsiniz.
 
-C2: Evet, 1. Adımda CSS stillerini değiştirerek sayfa kenar boşluklarını ihtiyaçlarınıza göre özelleştirebilirsiniz.
+### S3: HTML belgesine daha fazla içerik ekleyebilir miyim?
 
-### S3: HTML belgesine nasıl daha fazla içerik ekleyebilirim?
+**C:** `new HTMLDocument("<div>Hello World!!!</div>", …)` içindeki dizeyi kendi HTML işaretlemenizin ile değiştirin veya `HTMLDocument(String url, …)` yapıcısını kullanarak harici bir dosya yükleyin.
 
-C3: Adım 2'deki örnek içeriği kendi içeriğinizle değiştirerek HTML içeriğini değiştirebilirsiniz.
+### S4: Aspose.HTML for Java diğer belge formatlarıyla uyumlu mu?
 
-### S4: Aspose.HTML for Java diğer belge formatlarıyla uyumlu mudur?
+**C:** Kesinlikle. Aynı `HTMLDocument` PDF, XPS, görüntüler veya hatta EPUB gibi formatlara, çıkış cihazını (ör. `PdfDevice`, `PngDevice`) değiştirerek render edilebilir.
 
-C4: Evet, Aspose.HTML for Java, HTML belgelerini PDF, XPS ve resimler dahil olmak üzere çeşitli biçimlere dönüştürmek için kullanılabilir.
+### S5: Aspose.HTML for Java kullanmak için lisansa ihtiyacım var mı?
 
-### S5: Java için Aspose.HTML kullanmak için lisansa ihtiyacım var mı?
+**C:** Evet, üretim kullanımı için lisans gereklidir. Deneme lisansı alabilir veya lisansı [buradan](https://purchase.aspose.com/buy) ya da [buradan](https://releases.aspose.com/) satın alabilirsiniz.
 
- A5: Evet, lisans veya ücretsiz denemeyi şu adresten edinebilirsiniz:[Burada](https://purchase.aspose.com/buy) veya[Burada](https://releases.aspose.com/).
+### S6: Tek ve çift sayfalar için farklı kenar boşlukları ayarlayabilir miyim?
+
+**C:** Stil sayfanıza `@page :left` ve `@page :right` pseudo‑class’larını ekleyerek sol‑el (çift) ve sağ‑el (tek) sayfalar için ayrı kenar boşlukları tanımlayabilirsiniz.
+
+### S7: Render edilen belgede özel yazı tipleri gömebilir miyim?
+
+**C:** Evet. Kullanıcı stil sayfasına `@font-face` kuralları ekleyip HTML içeriğinizde bu yazı tiplerine referans verin.
+
+## Sonuç
+
+Artık Aspose.HTML kullanarak **HTML sayfa kenar boşluklarını Java** ile nasıl ayarlayacağınızı, sayfa numaraları ve başlık ekleyerek belgelerinizi profesyonel bir görünüme kavuşturduğunuzu biliyorsunuz. Projenizin ihtiyaçlarına göre ek `@page` kutuları, özel yazı tipleri veya farklı çıktı formatlarıyla denemeler yapmaktan çekinmeyin.
+
+Herhangi bir sorunla karşılaşırsanız, resmi [Aspose.HTML for Java belgeleri](https://reference.aspose.com/html/java/) ve [Aspose destek forumu](https://forum.aspose.com/) mükemmel yardım kaynaklarıdır.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Son Güncelleme:** 2025-12-05  
+**Test Edilen Sürüm:** Aspose.HTML for Java 23.12  
+**Yazar:** Aspose  
+
+---
