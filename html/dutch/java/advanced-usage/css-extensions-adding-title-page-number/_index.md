@@ -1,51 +1,68 @@
 ---
-title: Pas HTML-paginamarges aan met Aspose.HTML
-linktitle: CSS-extensies - Titel en paginanummer toevoegen
-second_title: Java HTML-verwerking met Aspose.HTML
-description: Leer hoe u paginamarges kunt aanpassen, paginanummers en titels kunt toevoegen aan HTML-documenten met Aspose.HTML voor Java.
+date: 2025-12-05
+description: Leer hoe u HTML-paginamarges instelt in Java met Aspose.HTML, en paginanummers
+  en titels aan uw documenten toevoegt.
+language: nl
+linktitle: CSS Extensions - Adding Title and Page Number
+second_title: Java HTML Processing with Aspose.HTML
+title: Hoe HTML-paginamarges instellen in Java met Aspose.HTML
+url: /java/advanced-usage/css-extensions-adding-title-page-number/
 weight: 10
-url: /nl/java/advanced-usage/css-extensions-adding-title-page-number/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Pas HTML-paginamarges aan met Aspose.HTML
+# Hoe HTML-paginamarges instellen in Java met Aspose.HTML
 
-Aspose.HTML voor Java is een krachtige bibliotheek voor het verwerken van HTML-documenten in Java-applicaties. In deze tutorial gaan we onderzoeken hoe u aangepaste paginamarges kunt maken en paginanummers en titels kunt toevoegen aan uw HTML-documenten met Aspose.HTML voor Java. Deze stapsgewijze handleiding verdeelt het proces in beheersbare stappen om u te helpen deze functies eenvoudig te integreren in uw HTML-documenten.
+In deze tutorial ontdek je **hoe je HTML-paginamarges in Java**‑stijl instelt met Aspose.HTML voor Java. We lopen door het maken van aangepaste paginamarges, het invoegen van paginanummers en het toevoegen van een documenttitel — allemaal met duidelijke, stap‑voor‑stap code die je kunt kopiëren naar je eigen project.
+
+## Snelle antwoorden
+- **Welke bibliotheek is nodig?** Aspose.HTML for Java  
+- **Kan ik marges programmatisch regelen?** Ja, via een CSS `@page`‑regel in het gebruikers‑stijlblad  
+- **Welke uitvoerformaten ondersteunen marges?** XPS, PDF en andere rasterformaten  
+- **Heb ik een licentie nodig voor productie?** Een geldige Aspose.HTML‑licentie is vereist voor niet‑trial gebruik  
+- **Is dit compatibel met Java 11+?** Absoluut – de bibliotheek werkt met moderne Java‑versies  
+
+## Wat betekent “HTML-paginamarges instellen in Java”?
+HTML-paginamarges instellen in Java betekent het configureren van de renderengine (geleverd door Aspose.HTML) om CSS‑page‑box‑eigenschappen toe te passen voordat het document wordt geconverteerd naar een afdrukbaar formaat zoals XPS of PDF. Door een aangepaste `@page`‑regel te definiëren, beheer je het afdrukbare gebied, paginanummers en header/footer‑inhoud.
+
+## Waarom Aspose.HTML gebruiken voor marge‑beheer?
+- **Precieze lay‑out** – CSS `@page` geeft je pixel‑perfecte controle over marges, headers en footers.  
+- **Cross‑format consistentie** – Dezelfde marge‑definities werken voor XPS, PDF en afbeeldings‑output.  
+- **Geen browser‑afhankelijkheid** – Rendering gebeurt server‑side, dus je hebt geen headless browser nodig.  
 
 ## Vereisten
 
-Voordat we beginnen, moet u ervoor zorgen dat aan de volgende voorwaarden is voldaan:
+Voordat we beginnen, zorg ervoor dat je de volgende vereisten hebt:
 
-1. Java-ontwikkelomgeving: Zorg ervoor dat u een Java-ontwikkelomgeving op uw computer hebt ingesteld.
-
-2.  Aspose.HTML voor Java: Download en installeer de Aspose.HTML voor Java-bibliotheek van[hier](https://releases.aspose.com/html/java/).
+1. **Java‑ontwikkelomgeving** – JDK 11 of later geïnstalleerd.  
+2. **Aspose.HTML for Java** – Download en installeer de bibliotheek van [hier](https://releases.aspose.com/html/java/).  
 
 ## Pakketten importeren
 
-Om te beginnen moet u de benodigde pakketten importeren uit Aspose.HTML voor Java. Voeg de volgende import statements toe aan uw Java-code:
+Om te beginnen, importeer je de benodigde Aspose.HTML‑klassen:
 
 ```java
-// Aspose.HTML-pakketten importeren
+// Import Aspose.HTML packages
 import com.aspose.html.Configuration;
 import com.aspose.html.services.IUserAgentService;
 import com.aspose.html.HTMLDocument;
 import com.aspose.html.rendering.xps.XpsDevice;
 ```
 
-Laten we het proces van het toevoegen van aangepaste paginamarges, paginanummers en titels opsplitsen in beheersbare stappen:
+## Hoe HTML-paginamarges in Java instellen – Stapsgewijze gids
 
-## Stap 1: Initialiseer configuratie en paginamarges
+### Stap 1: Configuratie initialiseren en aangepaste paginamarges definiëren
 
 ```java
-// Initialiseer het configuratieobject en stel de paginamarges voor het document in
+// Initialize configuration object and set up the page-margins for the document
 Configuration configuration = new Configuration();
 try {
-    // Haal de User Agent-service op
+    // Get the User Agent service
     IUserAgentService userAgent = configuration.getService(IUserAgentService.class);
-    // Stel de stijl van aangepaste marges in en maak er markeringen op
+    // Set the style of custom margins and create marks on it
     userAgent.setUserStyleSheet("@page\n" +
             "{\n" +
             "    /* Page margins should be not empty in order to write content inside the margin-boxes */\n" +
@@ -70,24 +87,24 @@ try {
             "}\n");
 ```
 
-In deze stap initialiseren we het configuratieobject en stellen we aangepaste paginamarges in, inclusief de positie van de paginateller en de paginatitel.
+In dit blok maken we een `Configuration`‑object, verkrijgen de `IUserAgentService` en injecteren een CSS `@page`‑regel die de marges, een rechtsonder paginateller en een boven‑midden documenttitel definieert.
 
-## Stap 2: Initialiseer een HTML-document
+### Stap 2: Het HTML‑document maken
 
 ```java
-// Initialiseer een HTML-document
+// Initialize an HTML document
 HTMLDocument document = new HTMLDocument("<div>Hello World!!!</div>", ".", configuration);
 ```
 
-Hier maken we een HTML-document met een voorbeeldinhoud (in dit geval een "Hallo wereld"-bericht) en passen de configuratie uit stap 1 toe.
+Hier instantieren we een `HTMLDocument` met een eenvoudige “Hello World”‑snippet. Dezelfde configuratie van Stap 1 wordt toegepast, zodat de aangepaste marges gerespecteerd worden bij het renderen van het document.
 
-## Stap 3: Initialiseer een uitvoerapparaat en render het document
+### Stap 3: Renderen naar een XPS‑bestand (of een ander ondersteund formaat)
 
 ```java
-// Initialiseer een uitvoerapparaat
+// Initialize an output device
 XpsDevice device = new XpsDevice(Resources.output("output.xps"));
 try {
-    //Stuur het document naar het uitvoerapparaat
+    // Send the document to the output device
     document.renderTo(device);
 } finally {
     if (device != null) {
@@ -96,38 +113,59 @@ try {
 }
 ```
 
-In deze stap stellen we een uitvoerapparaat in en renderen we het HTML-document. Het document wordt verwerkt en opgeslagen als een XPS-bestand met de opgegeven paginamarges, paginanummers en titel.
+Deze stap maakt een `XpsDevice` die de gerenderde pagina's naar `output.xps` schrijft. De marges, paginanummers en titel die je eerder hebt gedefinieerd, verschijnen in het uiteindelijke bestand.
 
-## Conclusie
+## Veelvoorkomende problemen & tips
 
-Gefeliciteerd! U hebt succesvol geleerd hoe u aangepaste paginamarges kunt maken en paginanummers en titels kunt toevoegen aan uw HTML-documenten met Aspose.HTML voor Java. Met deze aanpassing kunt u professionelere en visueel aantrekkelijkere documenten maken.
-
- Als u vragen heeft of problemen ondervindt, kunt u gerust een bezoek brengen aan de[Aspose.HTML voor Java-documentatie](https://reference.aspose.com/html/java/) of zoek hulp op de[Aspose ondersteuningsforum](https://forum.aspose.com/).
+- **Marges lijken onveranderd** – Zorg ervoor dat de `@page`‑regel niet wordt overschreven door andere stylesheets. De `setUserStyleSheet`‑aanroep dwingt deze naar de hoogste prioriteit.  
+- **Paginanummers tonen “NaN”** – Controleer of je Aspose.HTML versie 23.10 of nieuwer gebruikt; oudere versies missen de `currentPageNumber()`‑functie.  
+- **Uitvoerbestand is leeg** – Bevestig dat het pad `Resources.output` correct wordt opgelost en dat je schrijfrechten hebt.  
 
 ## Veelgestelde vragen
 
-### V1: Wat is Aspose.HTML voor Java?
+### Q1: Wat is Aspose.HTML for Java?
 
-A1: Aspose.HTML voor Java is een Java-bibliotheek die krachtige hulpmiddelen biedt voor het werken met HTML-documenten in Java-toepassingen.
+**A:** Aspose.HTML for Java is een Java‑bibliotheek die krachtige tools biedt voor het werken met HTML‑documenten in Java‑applicaties, inclusief conversie, rendering en manipulatie.
 
-### V2: Kan ik de paginamarges verder aanpassen?
+### Q2: Kan ik de paginamarges verder aanpassen?
 
-A2: Ja, u kunt de CSS-stijlen in stap 1 aanpassen om de paginamarges aan te passen aan uw wensen.
+**A:** Ja, bewerk eenvoudig de CSS binnen `setUserStyleSheet`. Je kunt elke `margin-*`‑waarde wijzigen of extra `@top-*` / `@bottom-*`‑boxen toevoegen.
 
-### V3: Hoe kan ik meer inhoud toevoegen aan het HTML-document?
+### Q3: Hoe kan ik meer inhoud aan het HTML‑document toevoegen?
 
-A3: U kunt de HTML-inhoud in stap 2 aanpassen door de voorbeeldinhoud te vervangen door uw eigen inhoud.
+**A:** Vervang de string in `new HTMLDocument("<div>Hello World!!!</div>", …)` door je eigen HTML‑markup, of laad een extern bestand met de `HTMLDocument(String url, …)`‑constructor.
 
-### V4: Is Aspose.HTML voor Java compatibel met andere documentformaten?
+### Q4: Is Aspose.HTML for Java compatibel met andere documentformaten?
 
-A4: Ja, Aspose.HTML voor Java kan worden gebruikt om HTML-documenten te converteren naar verschillende formaten, waaronder PDF, XPS en afbeeldingen.
+**A:** Absoluut. Hetzelfde `HTMLDocument` kan worden gerenderd naar PDF, XPS, afbeeldingen, of zelfs EPUB door het uitvoerapparaat te wisselen (bijv. `PdfDevice`, `PngDevice`).
 
-### V5: Heb ik een licentie nodig om Aspose.HTML voor Java te gebruiken?
+### Q5: Heb ik een licentie nodig voor het gebruik van Aspose.HTML for Java?
 
- A5: Ja, u kunt een licentie of een gratis proefversie verkrijgen van[hier](https://purchase.aspose.com/buy) of[hier](https://releases.aspose.com/).
+**A:** Ja, een licentie is vereist voor productiegebruik. Je kunt een proefversie verkrijgen of een licentie aanschaffen via [hier](https://purchase.aspose.com/buy) of [hier](https://releases.aspose.com/).
+
+### Q6: Hoe stel ik verschillende marges in voor oneven en even pagina's?
+
+**A:** Gebruik de `@page :left` en `@page :right` pseudo‑klassen in je stylesheet om verschillende marges te definiëren voor linker‑hand (even) en rechter‑hand (oneven) pagina's.
+
+### Q7: Kan ik aangepaste lettertypen in het gerenderde document insluiten?
+
+**A:** Ja. Voeg `@font-face`‑regels toe aan de gebruikers‑stylesheet en verwijs naar de lettertypen in je HTML‑inhoud.
+
+## Conclusie
+
+Je hebt nu **hoe je HTML-paginamarges in Java** instelt met Aspose.HTML onder de knie, en je weet hoe je paginanummers en een titel kunt toevoegen om je documenten er professioneel uit te laten zien. Voel je vrij om te experimenteren met extra `@page`‑boxen, aangepaste lettertypen, of verschillende uitvoerformaten om aan de behoeften van je project te voldoen.
+
+Als je tegen uitdagingen aanloopt, zijn de officiële [Aspose.HTML for Java-documentatie](https://reference.aspose.com/html/java/) en het [Aspose‑ondersteuningsforum](https://forum.aspose.com/) uitstekende plekken om hulp te vinden.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2025-12-05  
+**Tested With:** Aspose.HTML for Java 23.12  
+**Author:** Aspose

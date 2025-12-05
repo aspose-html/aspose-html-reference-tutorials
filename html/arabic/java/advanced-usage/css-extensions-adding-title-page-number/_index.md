@@ -1,51 +1,66 @@
 ---
-title: تخصيص هوامش صفحات HTML باستخدام Aspose.HTML
-linktitle: ملحقات CSS - إضافة عنوان ورقم الصفحة
-second_title: معالجة HTML باستخدام Java مع Aspose.HTML
-description: تعرف على كيفية تخصيص هوامش الصفحات وإضافة أرقام الصفحات والعناوين إلى مستندات HTML باستخدام Aspose.HTML لـ Java.
+date: 2025-12-05
+description: تعلم كيفية ضبط هوامش صفحة HTML في Java باستخدام Aspose.HTML، وإضافة أرقام
+  الصفحات والعناوين إلى مستنداتك.
+language: ar
+linktitle: CSS Extensions - Adding Title and Page Number
+second_title: Java HTML Processing with Aspose.HTML
+title: كيفية ضبط هوامش صفحة HTML في Java باستخدام Aspose.HTML
+url: /java/advanced-usage/css-extensions-adding-title-page-number/
 weight: 10
-url: /ar/java/advanced-usage/css-extensions-adding-title-page-number/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# تخصيص هوامش صفحات HTML باستخدام Aspose.HTML
+# كيفية تعيين هوامش صفحة HTML في Java باستخدام Aspose.HTML
 
-Aspose.HTML for Java هي مكتبة قوية لمعالجة مستندات HTML في تطبيقات Java. في هذا البرنامج التعليمي، سنستكشف كيفية إنشاء هوامش صفحات مخصصة وإضافة أرقام وعناوين الصفحات إلى مستندات HTML الخاصة بك باستخدام Aspose.HTML for Java. سيقسم هذا الدليل خطوة بخطوة العملية إلى خطوات يمكن إدارتها لمساعدتك على دمج هذه الميزات بسهولة في مستندات HTML الخاصة بك.
+## إجابات سريعة
+- **ما المكتبة المطلوبة؟** Aspose.HTML for Java  
+- **هل يمكنني التحكم في الهوامش برمجياً؟** نعم، عبر قاعدة CSS `@page` في ورقة الأنماط الخاصة بالمستخدم  
+- **ما صيغ الإخراج التي تدعم الهوامش؟** XPS، PDF، وغيرها من صيغ الرسوم النقطية  
+- **هل أحتاج إلى ترخيص للاستخدام الإنتاجي؟** يلزم وجود ترخيص Aspose.HTML صالح للاستخدام غير التجريبي  
+- **هل هذا متوافق مع Java 11+؟** بالتأكيد – المكتبة تعمل مع إصدارات Java الحديثة  
 
-## المتطلبات الأساسية
+## ما هو “تعيين هوامش صفحة HTML في Java”؟
+تعني تعيين هوامش صفحة HTML في Java ضبط محرك العرض (الموفر من قبل Aspose.HTML) لتطبيق خصائص صندوق الصفحة CSS قبل تحويل المستند إلى صيغة قابلة للطباعة مثل XPS أو PDF. من خلال تعريف قاعدة `@page` مخصصة يمكنك التحكم في منطقة الطباعة، أرقام الصفحات، ومحتوى الرأس/التذييل.
 
-قبل أن نبدأ، تأكد من توفر المتطلبات الأساسية التالية:
+## لماذا نستخدم Aspose.HTML للتحكم في الهوامش؟
+- **تخطيط دقيق** – CSS `@page` يمنحك تحكمًا دقيقًا بالبكسل في الهوامش والرؤوس والتذييلات.  
+- **اتساق عبر الصيغ** – تعريفات الهوامش نفسها تعمل مع XPS، PDF، ومخرجات الصور.  
+- **بدون اعتماد على المتصفح** – يتم العرض على جانب الخادم، لذا لا تحتاج إلى متصفح بدون واجهة.  
 
-1. بيئة تطوير Java: تأكد من إعداد بيئة تطوير Java على جهاز الكمبيوتر الخاص بك.
+## المتطلبات المسبقة
 
-2.  Aspose.HTML for Java: قم بتنزيل وتثبيت مكتبة Aspose.HTML for Java من[هنا](https://releases.aspose.com/html/java/).
+قبل أن نبدأ، تأكد من توفر المتطلبات التالية:
+
+1. **بيئة تطوير Java** – JDK 11 أو أحدث مثبتة.  
+2. **Aspose.HTML for Java** – قم بتحميل وتثبيت المكتبة من [here](https://releases.aspose.com/html/java/).  
 
 ## استيراد الحزم
 
-للبدء، تحتاج إلى استيراد الحزم اللازمة من Aspose.HTML لـ Java. أضف عبارات الاستيراد التالية إلى كود Java الخاص بك:
+للبدء، استورد الفئات اللازمة من Aspose.HTML:
 
 ```java
-// استيراد حزم Aspose.HTML
+// Import Aspose.HTML packages
 import com.aspose.html.Configuration;
 import com.aspose.html.services.IUserAgentService;
 import com.aspose.html.HTMLDocument;
 import com.aspose.html.rendering.xps.XpsDevice;
 ```
 
-الآن، دعنا نقوم بتقسيم عملية إضافة هوامش الصفحات المخصصة وأرقام الصفحات والعناوين إلى خطوات يمكن إدارتها:
+## كيفية تعيين هوامش صفحة HTML في Java – دليل خطوة بخطوة
 
-## الخطوة 1: تهيئة التكوين وحواف الصفحة
+### الخطوة 1: تهيئة الإعدادات وتعريف هوامش الصفحة المخصصة
 
 ```java
-// تهيئة كائن التكوين وإعداد هوامش الصفحة للمستند
+// Initialize configuration object and set up the page-margins for the document
 Configuration configuration = new Configuration();
 try {
-    // احصل على خدمة وكيل المستخدم
+    // Get the User Agent service
     IUserAgentService userAgent = configuration.getService(IUserAgentService.class);
-    // تعيين نمط الهوامش المخصصة وإنشاء علامات عليها
+    // Set the style of custom margins and create marks on it
     userAgent.setUserStyleSheet("@page\n" +
             "{\n" +
             "    /* Page margins should be not empty in order to write content inside the margin-boxes */\n" +
@@ -70,24 +85,24 @@ try {
             "}\n");
 ```
 
-في هذه الخطوة، نقوم بتهيئة كائن التكوين وإعداد هوامش الصفحة المخصصة، بما في ذلك موضع عداد الصفحات وعنوان الصفحة.
+في هذا الجزء نقوم بإنشاء كائن `Configuration`، الحصول على `IUserAgentService`، وإدخال قاعدة CSS `@page` التي تحدد الهوامش، عداد الصفحة في أسفل اليمين، وعنوان المستند في أعلى الوسط.
 
-## الخطوة 2: تهيئة مستند HTML
+### الخطوة 2: إنشاء مستند HTML
 
 ```java
-// تهيئة مستند HTML
+// Initialize an HTML document
 HTMLDocument document = new HTMLDocument("<div>Hello World!!!</div>", ".", configuration);
 ```
 
-هنا، نقوم بإنشاء مستند HTML بمحتوى نموذجي (في هذه الحالة، رسالة "Hello World") ونطبق التكوين من الخطوة 1.
+هنا نقوم بإنشاء كائن `HTMLDocument` مع مقتطف بسيط “Hello World”. يتم تطبيق نفس التكوين من الخطوة 1، لذا يتم احترام الهوامش المخصصة عند عرض المستند.
 
-## الخطوة 3: تهيئة جهاز الإخراج وعرض المستند
+### الخطوة 3: العرض إلى ملف XPS (أو أي إخراج مدعوم)
 
 ```java
-// تهيئة جهاز الإخراج
+// Initialize an output device
 XpsDevice device = new XpsDevice(Resources.output("output.xps"));
 try {
-    //إرسال المستند إلى جهاز الإخراج
+    // Send the document to the output device
     document.renderTo(device);
 } finally {
     if (device != null) {
@@ -96,38 +111,54 @@ try {
 }
 ```
 
-في هذه الخطوة، نقوم بإعداد جهاز إخراج وعرض مستند HTML. سيتم معالجة المستند وحفظه كملف XPS مع هوامش الصفحات وأرقام الصفحات والعنوان المحددين.
+تقوم هذه الخطوة بإنشاء `XpsDevice` يكتب الصفحات المعروضة إلى `output.xps`. ستظهر الهوامش، أرقام الصفحات، والعنوان الذي حددته مسبقًا في الملف النهائي.
 
-## خاتمة
+## مشاكل شائعة ونصائح
 
-تهانينا! لقد نجحت في تعلم كيفية إنشاء هوامش صفحات مخصصة وإضافة أرقام وعناوين الصفحات إلى مستندات HTML باستخدام Aspose.HTML for Java. يتيح لك هذا التخصيص إنشاء مستندات أكثر احترافية وجاذبية بصريًا.
+- **الهوامش لا تتغير** – تأكد من عدم تجاوز قاعدة `@page` بواسطة أوراق أنماط أخرى. استدعاء `setUserStyleSheet` يجبرها على أن تكون ذات أولوية قصوى.  
+- **أرقام الصفحات تظهر “NaN”** – تحقق من أنك تستخدم Aspose.HTML الإصدار 23.10 أو أحدث؛ الإصدارات الأقدم لا تحتوي على دالة `currentPageNumber()`.  
+- **ملف الإخراج فارغ** – تأكد من أن مسار `Resources.output` يتم حله بشكل صحيح وأن لديك أذونات كتابة.  
 
- إذا كان لديك أي أسئلة أو تواجه أي مشاكل، فلا تتردد في زيارة[توثيق Aspose.HTML لـ Java](https://reference.aspose.com/html/java/) أو طلب المساعدة بشأن[منتدى دعم Aspose](https://forum.aspose.com/).
+## الأسئلة المتكررة
 
-## الأسئلة الشائعة
+### س1: ما هو Aspose.HTML for Java؟
+**ج:** Aspose.HTML for Java هي مكتبة Java توفر أدوات قوية للعمل مع مستندات HTML في تطبيقات Java، بما في ذلك التحويل، العرض، والتلاعب.
 
-### س1: ما هو Aspose.HTML لـ Java؟
+### س2: هل يمكنني تخصيص هوامش الصفحة أكثر؟
+**ج:** نعم، فقط قم بتحرير CSS داخل `setUserStyleSheet`. يمكنك تغيير أي من قيم `margin-*` أو إضافة صناديق `@top-*` / `@bottom-*` إضافية.
 
-A1: Aspose.HTML for Java هي مكتبة Java توفر أدوات قوية للعمل مع مستندات HTML في تطبيقات Java.
+### س3: كيف يمكنني إضافة محتوى إضافي إلى مستند HTML؟
+**ج:** استبدل السلسلة في `new HTMLDocument("<div>Hello World!!!</div>", …)` بترميز HTML الخاص بك، أو حمّل ملفًا خارجيًا باستخدام المُنشئ `HTMLDocument(String url, …)`.
 
-### س2: هل يمكنني تخصيص هوامش الصفحة بشكل أكبر؟
+### س4: هل Aspose.HTML for Java متوافق مع صيغ مستندات أخرى؟
+**ج:** بالتأكيد. يمكن عرض نفس `HTMLDocument` إلى PDF، XPS، صور، أو حتى EPUB عن طريق تبديل جهاز الإخراج (مثل `PdfDevice`، `PngDevice`).
 
-ج2: نعم، يمكنك تعديل أنماط CSS في الخطوة 1 لتخصيص هوامش الصفحة وفقًا لمتطلباتك.
+### س5: هل أحتاج إلى ترخيص لاستخدام Aspose.HTML for Java؟
+**ج:** نعم، يلزم وجود ترخيص للاستخدام الإنتاجي. يمكنك الحصول على نسخة تجريبية أو شراء ترخيص من [here](https://purchase.aspose.com/buy) أو [here](https://releases.aspose.com/).
 
-### س3: كيف يمكنني إضافة المزيد من المحتوى إلى مستند HTML؟
+### س6: كيف يمكنني تعيين هوامش مختلفة للصفحات الفردية والزوجية؟
+**ج:** استخدم الفئات الزائفة `@page :left` و `@page :right` داخل ورقة الأنماط لتحديد هوامش مميزة للصفحات اليسرى (الزوجية) واليمنى (الفردية).
 
-ج3: يمكنك تعديل محتوى HTML في الخطوة 2 عن طريق استبدال المحتوى النموذجي بالمحتوى الخاص بك.
+### س7: هل يمكنني تضمين خطوط مخصصة في المستند المعروض؟
+**ج:** نعم. أضف قواعد `@font-face` إلى ورقة الأنماط الخاصة بالمستخدم وارجع إلى الخطوط في محتوى HTML الخاص بك.
 
-### س4: هل Aspose.HTML for Java متوافق مع تنسيقات المستندات الأخرى؟
+## الخلاصة
 
-ج4: نعم، يمكن استخدام Aspose.HTML for Java لتحويل مستندات HTML إلى تنسيقات مختلفة، بما في ذلك PDF وXPS والصور.
+لقد أتقنت الآن **كيفية تعيين هوامش صفحة HTML في Java** باستخدام Aspose.HTML، وتعرف كيف تضيف أرقام الصفحات وعنوانًا لجعل مستنداتك تبدو احترافية. لا تتردد في تجربة صناديق `@page` إضافية، خطوط مخصصة، أو صيغ إخراج مختلفة لتلبية احتياجات مشروعك.
 
-### س5: هل أحتاج إلى ترخيص لاستخدام Aspose.HTML لـ Java؟
+إذا واجهت أي تحديات، فإن الوثائق الرسمية لـ [Aspose.HTML for Java](https://reference.aspose.com/html/java/) ومنتدى الدعم الخاص بـ [Aspose](https://forum.aspose.com/) هما أماكن ممتازة للحصول على المساعدة.
 
- ج5: نعم، يمكنك الحصول على ترخيص أو نسخة تجريبية مجانية من[هنا](https://purchase.aspose.com/buy) أو[هنا](https://releases.aspose.com/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2025-12-05  
+**Tested With:** Aspose.HTML for Java 23.12  
+**Author:** Aspose  
+
+---

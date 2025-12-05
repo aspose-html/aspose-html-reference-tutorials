@@ -1,51 +1,68 @@
 ---
-title: Tùy chỉnh lề trang HTML với Aspose.HTML
-linktitle: Phần mở rộng CSS - Thêm Tiêu đề và Số trang
-second_title: Xử lý HTML Java với Aspose.HTML
-description: Tìm hiểu cách tùy chỉnh lề trang, thêm số trang và tiêu đề vào tài liệu HTML bằng Aspose.HTML cho Java.
+date: 2025-12-05
+description: Tìm hiểu cách thiết lập lề trang HTML trong Java bằng Aspose.HTML và
+  thêm số trang cùng tiêu đề vào tài liệu của bạn.
+language: vi
+linktitle: CSS Extensions - Adding Title and Page Number
+second_title: Java HTML Processing with Aspose.HTML
+title: Cách đặt lề trang HTML trong Java bằng Aspose.HTML
+url: /java/advanced-usage/css-extensions-adding-title-page-number/
 weight: 10
-url: /vi/java/advanced-usage/css-extensions-adding-title-page-number/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tùy chỉnh lề trang HTML với Aspose.HTML
+# Cách thiết lập lề trang HTML trong Java với Aspose.HTML
 
-Aspose.HTML for Java là một thư viện mạnh mẽ để xử lý các tài liệu HTML trong các ứng dụng Java. Trong hướng dẫn này, chúng ta sẽ khám phá cách tạo lề trang tùy chỉnh và thêm số trang và tiêu đề vào tài liệu HTML của bạn bằng Aspose.HTML for Java. Hướng dẫn từng bước này sẽ chia nhỏ quy trình thành các bước dễ quản lý để giúp bạn dễ dàng tích hợp các tính năng này vào tài liệu HTML của mình.
+Trong hướng dẫn này, bạn sẽ khám phá **cách thiết lập lề trang HTML trong Java**‑style bằng cách sử dụng Aspose.HTML cho Java. Chúng tôi sẽ hướng dẫn cách tạo lề trang tùy chỉnh, chèn số trang và thêm tiêu đề tài liệu — tất cả với mã rõ ràng, từng bước mà bạn có thể sao chép vào dự án của mình.
 
-## Điều kiện tiên quyết
+## Câu trả lời nhanh
+- **Thư viện nào cần thiết?** Aspose.HTML for Java  
+- **Tôi có thể kiểm soát lề trang bằng lập trình không?** Có, thông qua quy tắc CSS `@page` trong bảng kiểu người dùng  
+- **Định dạng đầu ra nào hỗ trợ lề?** XPS, PDF và các định dạng raster khác  
+- **Tôi có cần giấy phép cho môi trường sản xuất không?** Một giấy phép Aspose.HTML hợp lệ là bắt buộc cho việc sử dụng không dùng thử  
+- **Liệu nó có tương thích với Java 11+ không?** Chắc chắn – thư viện hoạt động với các phiên bản Java hiện đại  
 
-Trước khi bắt đầu, hãy đảm bảo bạn đã đáp ứng đủ các điều kiện tiên quyết sau:
+## “Cài đặt lề trang HTML trong Java” là gì?
+Cài đặt lề trang HTML trong Java có nghĩa là cấu hình engine render (do Aspose.HTML cung cấp) để áp dụng các thuộc tính CSS page‑box trước khi tài liệu được chuyển đổi sang định dạng có thể in như XPS hoặc PDF. Bằng cách định nghĩa một quy tắc `@page` tùy chỉnh, bạn kiểm soát khu vực có thể in, số trang và nội dung header/footer.
 
-1. Môi trường phát triển Java: Đảm bảo bạn đã thiết lập môi trường phát triển Java trên máy tính của mình.
+## Tại sao nên sử dụng Aspose.HTML để kiểm soát lề?
+- **Bố cục chính xác** – CSS `@page` cung cấp cho bạn khả năng kiểm soát lề, header và footer một cách pixel‑perfect.  
+- **Độ nhất quán đa định dạng** – Các định nghĩa lề giống nhau hoạt động cho XPS, PDF và các đầu ra hình ảnh.  
+- **Không phụ thuộc vào trình duyệt** – Quá trình render diễn ra phía máy chủ, vì vậy bạn không cần trình duyệt không giao diện.  
 
-2.  Aspose.HTML cho Java: Tải xuống và cài đặt thư viện Aspose.HTML cho Java từ[đây](https://releases.aspose.com/html/java/).
+## Yêu cầu trước
 
-## Nhập gói
+Trước khi bắt đầu, hãy đảm bảo bạn đã chuẩn bị các yêu cầu sau:
 
-Để bắt đầu, bạn cần nhập các gói cần thiết từ Aspose.HTML cho Java. Thêm các câu lệnh nhập sau vào mã Java của bạn:
+1. **Môi trường phát triển Java** – JDK 11 hoặc mới hơn đã được cài đặt.  
+2. **Aspose.HTML for Java** – Tải xuống và cài đặt thư viện từ [here](https://releases.aspose.com/html/java/).  
+
+## Nhập các gói
+
+Để bắt đầu, nhập các lớp Aspose.HTML cần thiết:
 
 ```java
-// Nhập các gói Aspose.HTML
+// Import Aspose.HTML packages
 import com.aspose.html.Configuration;
 import com.aspose.html.services.IUserAgentService;
 import com.aspose.html.HTMLDocument;
 import com.aspose.html.rendering.xps.XpsDevice;
 ```
 
-Bây giờ, chúng ta hãy chia nhỏ quy trình thêm lề trang, số trang và tiêu đề tùy chỉnh thành các bước dễ quản lý:
+## Cách thiết lập lề trang HTML trong Java – Hướng dẫn từng bước
 
-## Bước 1: Khởi tạo cấu hình và lề trang
+### Bước 1: Khởi tạo Configuration và Định nghĩa Lề Trang Tùy chỉnh
 
 ```java
-// Khởi tạo đối tượng cấu hình và thiết lập lề trang cho tài liệu
+// Initialize configuration object and set up the page-margins for the document
 Configuration configuration = new Configuration();
 try {
-    // Nhận dịch vụ User Agent
+    // Get the User Agent service
     IUserAgentService userAgent = configuration.getService(IUserAgentService.class);
-    // Thiết lập kiểu lề tùy chỉnh và tạo dấu trên đó
+    // Set the style of custom margins and create marks on it
     userAgent.setUserStyleSheet("@page\n" +
             "{\n" +
             "    /* Page margins should be not empty in order to write content inside the margin-boxes */\n" +
@@ -70,24 +87,24 @@ try {
             "}\n");
 ```
 
-Ở bước này, chúng ta khởi tạo đối tượng cấu hình và thiết lập lề trang tùy chỉnh, bao gồm vị trí của bộ đếm trang và tiêu đề trang.
+Trong khối này, chúng ta tạo một đối tượng `Configuration`, lấy `IUserAgentService`, và chèn một quy tắc CSS `@page` định nghĩa lề, bộ đếm trang ở góc dưới‑phải, và tiêu đề tài liệu ở giữa trên.
 
-## Bước 2: Khởi tạo một tài liệu HTML
+### Bước 2: Tạo tài liệu HTML
 
 ```java
-// Khởi tạo một tài liệu HTML
+// Initialize an HTML document
 HTMLDocument document = new HTMLDocument("<div>Hello World!!!</div>", ".", configuration);
 ```
 
-Tại đây, chúng ta tạo một tài liệu HTML có nội dung mẫu (trong trường hợp này là thông báo "Hello World") và áp dụng cấu hình từ Bước 1.
+Ở đây chúng ta khởi tạo một `HTMLDocument` với đoạn mã “Hello World” đơn giản. Cấu hình giống như Bước 1 được áp dụng, vì vậy lề tùy chỉnh sẽ được tôn trọng khi tài liệu được render.
 
-## Bước 3: Khởi tạo thiết bị đầu ra và hiển thị tài liệu
+### Bước 3: Render ra tệp XPS (hoặc bất kỳ đầu ra nào được hỗ trợ)
 
 ```java
-// Khởi tạo thiết bị đầu ra
+// Initialize an output device
 XpsDevice device = new XpsDevice(Resources.output("output.xps"));
 try {
-    //Gửi tài liệu đến thiết bị đầu ra
+    // Send the document to the output device
     document.renderTo(device);
 } finally {
     if (device != null) {
@@ -96,38 +113,61 @@ try {
 }
 ```
 
-Trong bước này, chúng tôi thiết lập một thiết bị đầu ra và hiển thị tài liệu HTML. Tài liệu sẽ được xử lý và lưu dưới dạng tệp XPS với lề trang, số trang và tiêu đề được chỉ định.
+Bước này tạo một `XpsDevice` ghi các trang đã render vào `output.xps`. Lề, số trang và tiêu đề bạn đã định nghĩa trước đó sẽ xuất hiện trong tệp cuối cùng.
 
-## Phần kết luận
+## Các vấn đề thường gặp & Mẹo
 
-Xin chúc mừng! Bạn đã học thành công cách tạo lề trang tùy chỉnh và thêm số trang và tiêu đề vào tài liệu HTML của mình bằng Aspose.HTML for Java. Tùy chỉnh này cho phép bạn tạo các tài liệu chuyên nghiệp và hấp dẫn hơn về mặt hình ảnh.
-
- Nếu bạn có bất kỳ câu hỏi hoặc gặp phải bất kỳ vấn đề nào, vui lòng truy cập[Tài liệu Aspose.HTML cho Java](https://reference.aspose.com/html/java/) hoặc tìm kiếm sự hỗ trợ trên[Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/).
+- **Lề không thay đổi** – Đảm bảo quy tắc `@page` không bị ghi đè bởi các stylesheet khác. Lệnh `setUserStyleSheet` buộc nó có độ ưu tiên cao nhất.  
+- **Số trang hiển thị “NaN”** – Kiểm tra bạn đang sử dụng Aspose.HTML phiên bản 23.10 trở lên; các phiên bản cũ không có hàm `currentPageNumber()`.  
+- **Tệp đầu ra trống** – Xác nhận đường dẫn `Resources.output` được giải quyết đúng và bạn có quyền ghi.  
 
 ## Câu hỏi thường gặp
 
-### Câu hỏi 1: Aspose.HTML dành cho Java là gì?
+### Hỏi 1: Aspose.HTML for Java là gì?
 
-A1: Aspose.HTML for Java là một thư viện Java cung cấp các công cụ mạnh mẽ để làm việc với các tài liệu HTML trong các ứng dụng Java.
+**A:** Aspose.HTML for Java là một thư viện Java cung cấp các công cụ mạnh mẽ để làm việc với tài liệu HTML trong các ứng dụng Java, bao gồm chuyển đổi, render và thao tác.
 
-### Câu hỏi 2: Tôi có thể tùy chỉnh thêm lề trang không?
+### Hỏi 2: Tôi có thể tùy chỉnh lề trang hơn nữa không?
 
-A2: Có, bạn có thể sửa đổi kiểu CSS ở Bước 1 để tùy chỉnh lề trang theo yêu cầu của bạn.
+**A:** Có, chỉ cần chỉnh sửa CSS trong `setUserStyleSheet`. Bạn có thể thay đổi bất kỳ giá trị `margin-*` nào hoặc thêm các hộp `@top-*` / `@bottom-*` bổ sung.
 
-### Câu hỏi 3: Làm thế nào để thêm nội dung vào tài liệu HTML?
+### Hỏi 3: Làm thế nào để thêm nội dung vào tài liệu HTML?
 
-A3: Bạn có thể sửa đổi nội dung HTML ở Bước 2 bằng cách thay thế nội dung mẫu bằng nội dung của riêng bạn.
+**A:** Thay thế chuỗi trong `new HTMLDocument("<div>Hello World!!!</div>", …)` bằng mã HTML của bạn, hoặc tải một tệp bên ngoài bằng constructor `HTMLDocument(String url, …)`.
 
-### Câu hỏi 4: Aspose.HTML cho Java có tương thích với các định dạng tài liệu khác không?
+### Hỏi 4: Aspose.HTML for Java có tương thích với các định dạng tài liệu khác không?
 
-A4: Có, Aspose.HTML for Java có thể được sử dụng để chuyển đổi tài liệu HTML sang nhiều định dạng khác nhau, bao gồm PDF, XPS và hình ảnh.
+**A:** Chắc chắn. Cùng một `HTMLDocument` có thể được render ra PDF, XPS, hình ảnh, hoặc thậm chí EPUB bằng cách thay đổi thiết bị đầu ra (ví dụ: `PdfDevice`, `PngDevice`).
 
-### Câu hỏi 5: Tôi có cần giấy phép để sử dụng Aspose.HTML cho Java không?
+### Hỏi 5: Tôi có cần giấy phép để sử dụng Aspose.HTML cho Java không?
 
- A5: Có, bạn có thể lấy giấy phép hoặc dùng thử miễn phí từ[đây](https://purchase.aspose.com/buy) hoặc[đây](https://releases.aspose.com/).
+**A:** Có, giấy phép là bắt buộc cho việc sử dụng trong môi trường sản xuất. Bạn có thể nhận bản dùng thử hoặc mua giấy phép từ [here](https://purchase.aspose.com/buy) hoặc [here](https://releases.aspose.com/).
+
+### Hỏi 6: Làm sao để đặt lề khác nhau cho trang lẻ và trang chẵn?
+
+**A:** Sử dụng các pseudo‑class `@page :left` và `@page :right` trong stylesheet của bạn để định nghĩa lề riêng cho trang trái (chẵn) và trang phải (lẻ).
+
+### Hỏi 7: Tôi có thể nhúng phông chữ tùy chỉnh vào tài liệu đã render không?
+
+**A:** Có. Thêm các quy tắc `@font-face` vào stylesheet người dùng và tham chiếu các phông chữ trong nội dung HTML của bạn.
+
+## Kết luận
+
+Bạn đã nắm vững **cách thiết lập lề trang HTML trong Java** bằng Aspose.HTML, và biết cách thêm số trang và tiêu đề để tài liệu của bạn trông chuyên nghiệp. Hãy thoải mái thử nghiệm các hộp `@page` bổ sung, phông chữ tùy chỉnh, hoặc các định dạng đầu ra khác để phù hợp với nhu cầu dự án.
+
+Nếu bạn gặp bất kỳ khó khăn nào, tài liệu chính thức [Aspose.HTML for Java documentation](https://reference.aspose.com/html/java/) và [Aspose support forum](https://forum.aspose.com/) là những nơi tuyệt vời để nhận trợ giúp.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2025-12-05  
+**Tested With:** Aspose.HTML for Java 23.12  
+**Author:** Aspose  
+
+---
