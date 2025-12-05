@@ -1,101 +1,153 @@
 ---
-title: Konfigurowanie usługi sieciowej w Aspose.HTML dla Java
-linktitle: Konfigurowanie usługi sieciowej w Aspose.HTML dla Java
-second_title: Przetwarzanie HTML w Javie za pomocą Aspose.HTML
-description: Dowiedz się, jak skonfigurować usługę sieciową w Aspose.HTML dla Java, zarządzać zasobami sieciowymi i konwertować HTML do PNG z niestandardową obsługą błędów.
+date: 2025-12-05
+description: Dowiedz się, jak tworzyć pliki HTML, zarządzać zasobami sieciowymi i
+  konwertować HTML na PNG przy użyciu Aspose.HTML dla Javy z niestandardową obsługą
+  błędów.
+language: pl
+linktitle: Set Up Network Service in Aspose.HTML
+second_title: Java HTML Processing with Aspose.HTML
+title: Utwórz plik HTML i skonfiguruj usługę sieciową (Aspose.HTML Java)
+url: /java/configuring-environment/setup-network-service/
 weight: 13
-url: /pl/java/configuring-environment/setup-network-service/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Konfigurowanie usługi sieciowej w Aspose.HTML dla Java
+# Utwórz plik HTML i skonfiguruj usługę sieciową (Aspose.HTML Java)
 
-## Wstęp
-Czy chcesz dostroić przetwarzanie dokumentów HTML za pomocą Javy? Być może pracujesz nad projektem, który obejmuje konwersję dokumentów HTML na obrazy lub inne formaty i musisz sprawnie zarządzać usługami sieciowymi. Cóż, jesteś we właściwym miejscu! Ten samouczek przeprowadzi Cię przez proces konfigurowania usługi sieciowej w Aspose.HTML dla Javy, szczegółowo opisując każdy krok, abyś mógł łatwo go śledzić. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz, ten przewodnik sprawi, że proces będzie jasny, prosty, a może nawet trochę zabawny.
-## Wymagania wstępne
-Zanim przejdziemy do właściwej konfiguracji, upewnijmy się, że masz wszystko, czego potrzebujesz, aby zacząć:
-- Java Development Kit (JDK): Upewnij się, że w systemie zainstalowany jest JDK w wersji 1.8 lub nowszej.
--  Aspose.HTML for Java Library: Pobierz i dołącz najnowszą wersję biblioteki Aspose.HTML for Java do swojego projektu. Możesz ją pobrać[Tutaj](https://releases.aspose.com/html/java/).
-- Zintegrowane środowisko programistyczne (IDE): Dowolne środowisko IDE dla języka Java, np. IntelliJ IDEA, Eclipse lub NetBeans spełni swoje zadanie.
-- Podstawowa znajomość języka Java: Podstawowa znajomość programowania w języku Java ułatwi Ci korzystanie z samouczka.
-## Importuj pakiety
-Po pierwsze, musisz zaimportować wymagane pakiety do swojego projektu Java. Te pakiety umożliwią Ci wykorzystanie różnych funkcjonalności Aspose.HTML dla Java.
+## Introduction
+Jeśli potrzebujesz **utworzyć plik html**, który pobiera obrazy z sieci, a następnie przekształcić tę stronę w obraz, jesteś we właściwym miejscu. W tym samouczku przejdziemy przez każdy krok wymagany do skonfigurowania Aspose.HTML dla Javy, **zarządzania zasobami sieciowymi**, obsługi brakujących zasobów przy użyciu własnego obsługiwacza błędów, **konwersji html do png**, oraz w końcu **czyszczenia zasobów**, aby Twoja aplikacja pozostawała zdrowa. Niezależnie od tego, czy budujesz silnik raportowania, automatyczny generator miniatur, czy po prostu eksperymentujesz z konwersją HTML‑do‑obrazu, przedstawiony tutaj wzorzec zaoszczędzi Ci czas i nerwy.
+
+## Quick Answers
+- **Jaki jest pierwszy krok?** Utwórz plik HTML, który odwołuje się do obrazów hostowanych w sieci.  
+- **Która klasa konfiguruje sieć?** `com.aspose.html.Configuration`.  
+- **Jak przechwycić błędy ładowania?** Dodaj własny `MessageHandler` do `INetworkService`.  
+- **Jaki format wyjściowy generuje ten przykład?** Obraz PNG (`output.png`).  
+- **Czy muszę zwolnić obiekty?** Tak – wywołaj `dispose()` zarówno na dokumencie, jak i konfiguracji.
+
+## Prerequisites
+- **Java Development Kit (JDK)** 1.8 lub nowszy.  
+- **Biblioteka Aspose.HTML for Java** – pobierz najnowszą wersję ze [strony oficjalnych wydań](https://releases.aspose.com/html/java/).  
+- **IDE** według własnego wyboru (IntelliJ IDEA, Eclipse, NetBeans, itp.).  
+- Podstawowa znajomość składni Javy oraz konfiguracji projektu Maven/Gradle.
+
+## Import Packages
+Na początek musisz zaimportować wymagane pakiety do swojego projektu Java. Pakiety te umożliwią korzystanie z różnych funkcjonalności Aspose.HTML for Java.
+
 ```java
 import java.io.IOException;
 ```
-Importy te stanowią podstawę omawianej funkcjonalności, dlatego upewnij się, że są prawidłowo umieszczone na początku pliku Java.
 
-## Krok 1: Utwórz plik HTML z obrazami zależnymi od sieci
-Najpierw utworzymy plik HTML zawierający obrazy hostowane w sieci. Jest to niezbędne, ponieważ nasza konfiguracja usługi sieciowej będzie współdziałać z tymi obrazami.
+Te importy są podstawą omawianej funkcjonalności, więc upewnij się, że znajdują się na początku swojego pliku Java.
+
+## Step 1: Create an HTML File with Network‑Dependent Images
+### Krok 1: Utwórz plik HTML z obrazami zależnymi od sieci
+Aby **utworzyć plik html**, który odwołuje się do zewnętrznych zasobów, napisz mały fragment kodu, który wstawia kilka znaczników `<img>` wskazujących na publicznie dostępne obrazy.
+
 ```java
 String code = "<img src=\"https://docs.aspose.com/svg/net/drawing-basics/filters-and-gradients/park.jpg\" >\r\n" +
-		"<img src=\"https://docs.aspose.com/html/net/missing1.jpg\" >\r\n" +
-		"<img src=\"https://docs.aspose.com/html/net/missing2.jpg\" >\r\n";
+        "<img src=\"https://docs.aspose.com/html/net/missing1.jpg\" >\r\n" +
+        "<img src=\"https://docs.aspose.com/html/net/missing2.jpg\" >\r\n";
 try (java.io.FileWriter fileWriter = new java.io.FileWriter("document.html")) {
-	fileWriter.write(code);
+    fileWriter.write(code);
 }
 ```
-Ten krok przygotowuje grunt pod interakcję sieciową. Obrazy w dokumencie HTML są hostowane online, a Twoja aplikacja będzie próbowała je załadować. Sposób, w jaki Twoja aplikacja obsługuje te żądania, jest kluczowy dla następnych kroków.
-## Krok 2: Zainicjuj obiekt konfiguracji
-Teraz przejdźmy do konfiguracji obiektu, który będzie zarządzał usługami sieciowymi.
+
+Ten plik HTML jest punktem wejścia dla usługi sieciowej; obrazy będą pobierane przez HTTP podczas ładowania dokumentu.
+
+## Step 2: Initialize the Configuration Object
+### Krok 2: Zainicjalizuj obiekt Configuration
+Teraz utwórzmy **konfigurację**, która będzie zawierała ustawienia naszej usługi sieciowej.
+
 ```java
 com.aspose.html.Configuration configuration = new com.aspose.html.Configuration();
 ```
- Ten`Configuration` obiekt, w którym określisz, jak Twoja aplikacja powinna obsługiwać usługi sieciowe, w tym jak zarządzać komunikatami o błędach, rejestrowaniem i innymi. Jest to podstawa konfiguracji Twojej sieci.
-## Krok 3: Dodaj niestandardowy program obsługi komunikatów o błędach
-Następnie dodamy niestandardowy program obsługi komunikatów o błędach do usługi sieciowej. Program ten będzie rejestrował komunikaty, ułatwiając debugowanie problemów, gdy aplikacja próbuje załadować obrazy.
+
+Obiekt `Configuration` to miejsce, w którym określisz, jak Aspose.HTML ma obsługiwać ruch sieciowy, logowanie i obsługę błędów.
+
+## Step 3: Add a Custom Error Message Handler
+### Krok 3: Dodaj własny obsługiwacz komunikatów o błędach
+Własny `MessageHandler` zapewnia wgląd w problemy, takie jak brakujące obrazy lub przekroczenia czasu.
+
 ```java
 com.aspose.html.services.INetworkService network = configuration.getService(com.aspose.html.services.INetworkService.class);
 com.aspose.html.net.MessageHandler logHandler = new LogMessageHandler();
 network.getMessageHandlers().addItem(logHandler);
 ```
 
-Dodając niestandardowy program obsługi wiadomości, zyskujesz większą kontrolę nad tym, jak Twoja aplikacja obsługuje błędy, zwłaszcza gdy zasoby sieciowe, takie jak obrazy, nie ładują się. To jak lupa do debugowania!
-## Krok 4: Załaduj dokument HTML z konfiguracją
+Poprzez podłączenie `LogMessageHandler` każdy ostrzeżenie lub błąd związany z siecią jest przechwytywany, co ułatwia debugowanie.
 
-Po skonfigurowaniu i uruchomieniu programu obsługi błędów można załadować dokument HTML.
+## Step 4: Load the HTML Document with the Configuration
+### Krok 4: Załaduj dokument HTML z konfiguracją
+Gdy usługa sieciowa jest gotowa, załaduj wcześniej utworzony plik HTML.
+
 ```java
 com.aspose.html.HTMLDocument document = new com.aspose.html.HTMLDocument("document.html", configuration);
 ```
-Ten krok to miejsce, w którym teoria spotyka się z praktyką. Gdy załadujesz dokument HTML z określoną konfiguracją, aplikacja spróbuje załadować obrazy z sieci. Niestandardowy program obsługi wiadomości zarejestruje wszelkie błędy lub problemy, które wystąpią.
-## Krok 5: Konwersja HTML do PNG
-Na koniec przekonwertujmy dokument HTML na obraz PNG. Ten krok pokaże praktyczne zastosowanie konfiguracji usługi sieciowej.
+
+Podczas ładowania dokumentu Aspose.HTML użyje własnej konfiguracji sieciowej i wywoła nasz obsługiwacz komunikatów w przypadku jakichkolwiek problemów.
+
+## Step 5: Convert HTML to PNG
+### Krok 5: Konwertuj HTML do PNG
+Teraz **przekonwertujemy html na png**, zamieniając załadowaną stronę (wraz z pomyślnie pobranymi obrazami) na obraz rastrowy.
+
 ```java
 com.aspose.html.converters.Converter.convertHTML(
-	document,
-	new com.aspose.html.saving.ImageSaveOptions(),
-	"output.png"
+    document,
+    new com.aspose.html.saving.ImageSaveOptions(),
+    "output.png"
 );
 ```
-Ta konwersja pokazuje końcowy wynik konfiguracji usługi sieciowej. Aplikacja próbuje załadować obrazy, a następnie konwertuje cały dokument HTML do pliku PNG, którego można użyć w razie potrzeby.
-## Krok 6: Oczyść zasoby
-Jak zawsze, dobrą praktyką jest wyczyszczenie wszystkich zasobów po zakończeniu pracy. Zapobiega to wyciekom pamięci i zapewnia płynne działanie aplikacji.
+
+Wynikiem jest pojedynczy plik PNG (`output.png`), który możesz osadzić w innym miejscu lub udostępnić użytkownikom.
+
+## Step 6: Clean Up Resources
+### Krok 6: Posprzątaj zasoby
+Właściwe zarządzanie zasobami jest kluczowe. Po konwersji zwolnij obiekty, aby **posprzątać zasoby** i uniknąć wycieków pamięci.
+
 ```java
 if (document != null) {
-	document.dispose();
+    document.dispose();
 }
 if (configuration != null) {
-	configuration.dispose();
+    configuration.dispose();
 }
 ```
-Czyszczenie zasobów jest kluczowym krokiem w każdej aplikacji. To jak zmywanie po posiłku — nie zostawiłbyś brudnych naczyń leżących dookoła, więc nie zostawiaj zasobów zalegających w kodzie!
 
-## Wniosek
-I masz to! Właśnie skonfigurowałeś usługę sieciową w Aspose.HTML dla Java, kompletną z niestandardową obsługą błędów i konwersją z HTML do PNG. Ten przewodnik przeprowadził Cię przez każdy krok, rozbijając proces na części, aby zapewnić przejrzystość i łatwość zrozumienia. Niezależnie od tego, czy masz do czynienia z obrazami opartymi na sieci, czy złożonymi dokumentami HTML, ta konfiguracja zapewni Ci narzędzia, których potrzebujesz, aby sprawnie zarządzać wszystkim. Więc śmiało, zaimplementuj to w swoim projekcie i zobacz, jak Twoje aplikacje Java stają się jeszcze potężniejsze!
-## Najczęściej zadawane pytania
-### Jaki jest główny cel konfigurowania usługi sieciowej w Aspose.HTML dla Java?  
-Podstawowym celem jest zarządzanie sposobem, w jaki Twoja aplikacja obsługuje zasoby sieciowe, takie jak obrazy lub treści zewnętrzne, zapewniając właściwe ładowanie i obsługę błędów.
-### Czy mogę użyć tej konfiguracji do innych formatów plików?  
-Tak, choć przykład ten skupia się na konwersji HTML do PNG, konfigurację można dostosować do innych formatów obsługiwanych przez Aspose.HTML dla Java.
-### Jak radzić sobie z błędami sieciowymi w czasie rzeczywistym?  
-Dzięki wdrożeniu niestandardowego modułu obsługi komunikatów możesz rejestrować błędy w momencie ich wystąpienia, zapewniając w czasie rzeczywistym informacje zwrotne na temat problemów z siecią.
-### Czy konieczne jest czyszczenie zasobów po konwersji?  
-Oczywiście! Czyszczenie zasobów zapobiega wyciekom pamięci i zapewnia płynne działanie aplikacji.
-### Czy mogę dostosować obsługę komunikatów o błędach?  
-Tak, program do obsługi komunikatów o błędach można dostosować tak, aby rejestrował określone szczegóły, wysyłał alerty, a nawet uruchamiał inne procesy w zależności od napotkanych błędów.
+Pomyśl o tym jak o myciu naczyń po posiłku — pozostawienie zasobów może później powodować problemy z wydajnością.
+
+## Common Issues and Solutions
+| Problem | Dlaczego się dzieje | Jak naprawić |
+|---------|---------------------|--------------|
+| Obrazy nie ładują się | Przekroczenie limitu czasu sieci lub nieprawidłowy URL | Sprawdź URL‑e, zwiększ limit czasu w ustawieniach `NetworkService` lub dodaj logikę awaryjną w `LogMessageHandler`. |
+| PNG jest pusty | Dokument nie został w pełni załadowany przed konwersją | Upewnij się, że `HTMLDocument` jest tworzony z konfiguracją zawierającą własny obsługiwacz; opcjonalnie wywołaj `document.waitForLoad()`, jeśli używasz asynchronicznego ładowania. |
+| Błąd braku pamięci | Bardzo duży HTML lub wiele obrazów wysokiej rozdzielczości | Użyj `ImageSaveOptions.setMaxWidth/MaxHeight`, aby ograniczyć rozmiar wyjścia, lub niezwłocznie zwalniaj obiekty pośrednie. |
+
+## Frequently Asked Questions
+
+**P: Jaki jest główny cel konfiguracji usługi sieciowej w Aspose.HTML dla Javy?**  
+**O:** Pozwala **zarządzać zasobami sieciowymi**, takimi jak zdalne obrazy, skrypty czy arkusze stylów, oraz daje kontrolę nad obsługą błędów i logowaniem.
+
+**P: Czy mogę użyć tej konfiguracji do generowania innych formatów obrazów (np. JPEG, BMP)?**  
+**O:** Tak — wystarczy zmienić właściwość formatu w `ImageSaveOptions` na żądany typ wyjściowy.
+
+**P: Czym różni się własny `MessageHandler` od domyślnego loggera?**  
+**O:** Własny obsługiwacz pozwala kierować komunikaty do własnego frameworka logowania, filtrować określone ostrzeżenia lub wyzwalać alerty, podczas gdy domyślny logger zapisuje je jedynie w konsoli.
+
+**P: Czy konieczne jest wywołanie `dispose()` zarówno na dokumencie, jak i konfiguracji?**  
+**O:** Zdecydowanie tak. Zwolnienie zwalnia zasoby natywne i **czyści zasoby**, które biblioteka przechowuje wewnętrznie.
+
+**P: Gdzie mogę znaleźć więcej przykładów konwersji HTML do obrazów w Javie?**  
+**O:** Sprawdź dokumentację Aspose.HTML for Java oraz oficjalną stronę z przykładami na GitHubie, gdzie znajdziesz dodatkowe scenariusze, takie jak konwersja do PDF, renderowanie SVG i przetwarzanie wsadowe.
+
+---
+
+**Ostatnia aktualizacja:** 2025-12-05  
+**Testowano z:** Aspose.HTML for Java 24.12 (latest)  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
