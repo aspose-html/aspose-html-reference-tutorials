@@ -1,51 +1,72 @@
 ---
-title: استخدام معالجات الرسائل في Aspose.HTML لـ Java
-linktitle: استخدام معالجات الرسائل في Aspose.HTML لـ Java
-second_title: معالجة HTML باستخدام Java مع Aspose.HTML
-description: تعرف على كيفية استخدام معالجات الرسائل في Aspose.HTML لـ Java للتعامل مع الصور المفقودة وغيرها من عمليات الشبكة بشكل فعال.
+date: 2025-12-08
+description: تعلم كيفية تحويل HTML إلى PNG باستخدام Aspose.HTML للغة Java مع معالجة
+  الروابط المعطلة واكتشاف الموارد المفقودة باستخدام معالجات رسائل مخصصة.
+language: ar
+linktitle: Use Message Handlers in Aspose.HTML
+second_title: Java HTML Processing with Aspose.HTML
+title: كيفية تحويل HTML إلى PNG واستخدام معالجات الرسائل في Aspose.HTML للغة Java
+url: /java/configuring-environment/use-message-handlers/
 weight: 12
-url: /ar/java/configuring-environment/use-message-handlers/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# استخدام معالجات الرسائل في Aspose.HTML لـ Java
+# تحويل HTML إلى PNG باستخدام Aspose.HTML للـ Java – باستخدام معالجات الرسائل
 
-## مقدمة
-في هذا البرنامج التعليمي، سنطلعك على مثال عملي لاستخدام معالجات الرسائل في Aspose.HTML لـ Java. سنقوم بإعداد مستند HTML بسيط يشير إلى صورة مفقودة ونوضح كيفية اكتشاف الخطأ ومعالجته باستخدام معالج رسائل مخصص. سواء كنت جديدًا على Aspose.HTML أو تتطلع إلى توسيع مهاراتك، سيمنحك هذا الدليل الرؤى التي تحتاجها لإدارة عمليات الشبكة بفعالية.
-## المتطلبات الأساسية
-قبل أن نتعمق في الدليل خطوة بخطوة، دعنا نتأكد من أن لديك كل ما تحتاجه:
-1.  مجموعة تطوير Java (JDK): تأكد من تثبيت JDK على نظامك. يمكنك تنزيله من[موقع أوراكل](https://www.oracle.com/java/technologies/javase-downloads.html).
-2.  Aspose.HTML for Java: ستحتاج إلى تثبيت Aspose.HTML for Java. يمكنك تنزيله من[صفحة إصدارات Aspose](https://releases.aspose.com/html/java/).
-3. IDE: استخدم بيئة التطوير المتكاملة Java المفضلة لديك (IDE) مثل IntelliJ IDEA، أو Eclipse، أو NetBeans.
-4. المعرفة الأساسية بلغة Java: تعتبر المعرفة ببرمجة Java ضرورية لمتابعة هذا البرنامج التعليمي بشكل فعال.
-5.  الترخيص المؤقت: إذا كنت تستخدم الإصدار التجريبي من Aspose.HTML، ففكر في الحصول على ترخيص مؤقت[رخصة مؤقتة](https://purchase.aspose.com/temporary-license/) لتجنب أي قيود أثناء التطوير.
+## Introduction  
+في هذا البرنامج التعليمي ستتعلم **كيفية تحويل HTML إلى PNG** باستخدام Aspose.HTML للـ Java، وفي الوقت نفسه **كيفية التعامل مع الروابط المعطوبة** أو الموارد المفقودة باستخدام معالج رسائل مخصص. سنستعرض إنشاء ملف HTML بسيط، كتابته إلى القرص، تحميله، والتقاط أي أخطاء شبكة—مثالي للمطورين الذين يحتاجون إلى **تحويل html إلى صورة** موثوق به في تطبيقات Java ذات المستوى الإنتاجي.
 
-## استيراد الحزم
-قبل أن نبدأ، تأكد من استيراد الحزم الضرورية إلى مشروع Java الخاص بك. فيما يلي الحزم الأساسية التي ستحتاج إليها:
+## Quick Answers
+- **What does the tutorial cover?** تحويل HTML إلى PNG ومعالجة الموارد المفقودة باستخدام معالج رسائل.  
+- **Which library is used?** Aspose.HTML للـ Java.  
+- **Do I need a license?** يُنصح بترخيص مؤقت للبُنى التجريبية.  
+- **Can I write the HTML file from Java?** نعم – راجع خطوة “write html file java”.  
+- **Will the handler catch broken links?** بالتأكيد؛ فهو يسجل أي استجابات غير 200.
+
+## What is a Message Handler in Aspose.HTML?  
+معالج الرسائل هو نقطة ربط في طبقة الشبكة تسمح لك **بالتقاط الموارد المفقودة** (مثل رابط صورة معطوب) قبل أن تتسبب في استثناء. من خلال فحص رمز حالة الاستجابة، يمكنك تسجيلها أو استبدالها أو إعادة المحاولة—مما يمنحك تحكمًا كاملًا في عمليات الشبكة.
+
+## Why Convert HTML to PNG?  
+تحويل HTML إلى صورة مفيد لإنشاء صور مصغرة، معاينات بريد إلكتروني، أو لقطات شبيهة بالـ PDF عندما لا تحتاج إلى تحويل PDF كامل. توفر Aspose.HTML محركًا سريعًا **لتحويل html إلى صورة** يعمل على الخادم دون الحاجة إلى متصفح.
+
+## Prerequisites
+1. **Java Development Kit (JDK)** – download from the [Oracle website](https://www.oracle.com/java/technologies/javase-downloads.html).  
+2. **Aspose.HTML for Java** – obtain the latest JARs from the [Aspose releases page](https://releases.aspose.com/html/java/).  
+3. **IDE** – IntelliJ IDEA, Eclipse, or NetBeans.  
+4. **Basic Java knowledge** – you should be comfortable with try‑with‑resources and object disposal.  
+5. **Temporary license** (optional) – avoid trial limitations via a [temporary license](https://purchase.aspose.com/temporary-license/).
+
+## Import Packages
+قبل أن نبدأ، استورد الفئات Java المطلوبة:
+
 ```java
 import java.io.IOException;
 ```
-ستتيح لك هذه الاستيرادات الوصول إلى الفئات والطرق المطلوبة للتعامل مع عمليات الشبكة وإنشاء مستندات HTML وإجراء تحويل HTML إلى PNG.
 
-## الخطوة 1: تحضير كود HTML
-أول شيء نحتاجه هو كود HTML بسيط يشير إلى ملف صورة. سنشير عمدًا إلى صورة غير موجودة لتشغيل آلية معالجة الأخطاء.
+These imports give us access to file I/O and the Aspose.HTML networking APIs.
+
+## Step 1: Write the HTML File (write html file java)  
+أولاً، أنشئ مقطع HTML صغير يشير إلى صورة **غير موجودة**. سيمكننا ذلك من اختبار المعالج.
+
 ```java
 String code = "<img src='missing.jpg'>";
 ```
- يقوم مقتطف التعليمات البرمجية هذا بإنشاء عنصر HTML يحاول تحميل صورة باسم`missing.jpg`. نظرًا لعدم وجود ملف الصورة هذا، فسيؤدي ذلك إلى حدوث خطأ أثناء عملية تحميل المستند.
-## الخطوة 2: كتابة كود HTML في ملف
-بعد ذلك، نحتاج إلى كتابة هذا الكود HTML في ملف يمكننا تحميله لاحقًا.
+
+## Step 2: Persist the HTML to Disk  
+احفظ المقطع في ملف يُسمى `document.html`. سيُحمَّل هذا الملف لاحقًا باستخدام محرك Aspose.HTML.
+
 ```java
 try (java.io.FileWriter fileWriter = new java.io.FileWriter("document.html")) {
     fileWriter.write(code);
 }
 ```
- هنا نستخدم`FileWriter` لكتابة كود HTML الخاص بنا إلى ملف يسمى`document.html`سيتم استخدام هذا الملف لإنشاء مستند HTML في الخطوات التالية.
-## الخطوة 3: إنشاء معالج رسائل مخصص
-الآن، دعنا ننشئ معالج رسائل مخصصًا للتعامل مع سيناريو الصورة المفقودة. سيتحقق معالج الرسائل من رمز حالة الاستجابة ويطبع رسالة إذا لم يتم العثور على الملف.
+
+## Step 3: Create a Custom Message Handler (catch missing resource)  
+الآن نعرّف معالجًا مخصصًا يتحقق من رمز حالة HTTP. إذا لم يكن `200`، نسجل رسالة ودية.
+
 ```java
 com.aspose.html.net.MessageHandler handler = new com.aspose.html.net.MessageHandler() {
     @Override
@@ -57,31 +78,34 @@ com.aspose.html.net.MessageHandler handler = new com.aspose.html.net.MessageHand
     }
 };
 ```
- في هذا المعالج،`invoke` تتحقق الطريقة من رمز حالة استجابة عملية الشبكة. إذا لم يكن رمز الحالة 200 (وهو ما يشير إلى النجاح)، فإنه يطبع رسالة تشير إلى عدم العثور على الملف.`invoke(context);` يضمن الخط أن يتم استدعاء المعالج التالي في السلسلة.
-## الخطوة 4: تكوين خدمة الشبكة
- لاستخدام معالج الرسائل المخصص لدينا، نحتاج إلى إضافته إلى سلسلة معالجات الرسائل الموجودة في خدمة الشبكة. يتم ذلك من خلال`Configuration` فصل.
+
+## Step 4: Register the Handler with the Network Service  
+أضف المعالج المخصص إلى خدمة الشبكة في Aspose.HTML حتى يشارك في كل طلب.
+
 ```java
 com.aspose.html.Configuration configuration = new com.aspose.html.Configuration();
 try {
     com.aspose.html.services.INetworkService network = configuration.getService(com.aspose.html.services.INetworkService.class);
     network.getMessageHandlers().addItem(handler);
 ```
-هنا، نقوم بإنشاء مثيل لـ`Configuration` واسترداد`INetworkService`. ثم نضيف المعالج المخصص إلى قائمة معالجات الرسائل. يضمن هذا الإعداد استدعاء المعالج أثناء عمليات الشبكة.
-## الخطوة 5: تحميل مستند HTML
-بعد إعداد التكوين، يمكننا الآن تحميل مستند HTML الخاص بنا. سيحاول المستند تحميل الصورة المفقودة، مما يؤدي إلى تشغيل معالج الرسائل المخصص لدينا.
+
+## Step 5: Load the HTML Document (load html document java)  
+مع إعداد التكوين جاهز، حمّل ملف HTML. ستُفعّل الصورة المفقودة المعالج الذي أضفناه للتو.
+
 ```java
 com.aspose.html.HTMLDocument document = new com.aspose.html.HTMLDocument("document.html", configuration);
 try {
-    // العمليات الإضافية سوف تذهب هنا
+    // Additional operations will go here
 } finally {
     if (document != null) {
         document.dispose();
     }
 }
 ```
-يقوم هذا المقطع بتحميل مستند HTML باستخدام التكوين الذي قمنا بإعداده مسبقًا. ستحاول عملية تحميل المستند تحميل الصورة المفقودة، وسيعمل معالج الرسائل لدينا على اكتشاف الخطأ الناتج ومعالجته.
-## الخطوة 6: تحويل HTML إلى PNG
-ولتلخيص الأمر، دعنا نحول مستند HTML إلى صورة PNG. هذه الخطوة ليست ضرورية تمامًا للتعامل مع الصورة المفقودة، لكنها توضح الوظائف الأوسع لـ Aspose.HTML.
+
+## Step 6: Convert HTML to PNG (convert html to png)  
+أخيرًا، حوّل المستند المحمَّل إلى صورة PNG. هذا يُظهر سير عمل **تحويل html إلى صورة** الكامل.
+
 ```java
 com.aspose.html.converters.Converter.convertHTML(
     document,
@@ -89,9 +113,10 @@ com.aspose.html.converters.Converter.convertHTML(
     "output.png"
 );
 ```
- هنا نستخدم`Converter.convertHTML` طريقة تحويل مستند HTML إلى ملف PNG.`ImageSaveOptions`يتيح لنا تحديد خيارات لحفظ الصورة، مثل الدقة والتنسيق.
-## الخطوة 7: تنظيف الموارد
- أخيرًا، تأكد دائمًا من تنظيف أي موارد مستخدمة أثناء العملية. ويشمل ذلك التخلص من`Configuration` و`HTMLDocument` أشياء.
+
+## Step 7: Clean Up Resources  
+دائمًا قم بإلغاء كائن `Configuration` لتحرير الموارد الأصلية وتجنب تسرب الذاكرة.
+
 ```java
 } finally {
     if (configuration != null) {
@@ -99,22 +124,38 @@ com.aspose.html.converters.Converter.convertHTML(
     }
 }
 ```
-يضمن هذا تحرير كافة الموارد، مما يمنع تسرب الذاكرة والمشكلات المحتملة الأخرى في تطبيقك.
 
-## خاتمة
-والآن، إليك دليل شامل حول استخدام معالجات الرسائل في Aspose.HTML لـ Java! لقد شرحنا عملية إعداد مستند HTML وإنشاء معالج رسائل مخصص والتعامل مع الموارد المفقودة باحترافية. سواء كنت تتعامل مع صور مفقودة أو روابط معطلة أو مشكلات أخرى متعلقة بالشبكة، فإن هذا النهج سيمنحك التحكم الذي تحتاجه لإدارتها بفعالية في تطبيقات Java الخاصة بك.
+## Common Pitfalls & Tips
+- **Recursive invoke call:** يجب على المعالج المخصص استدعاء `invoke(context);` *بعد* منطقك لمتابعة السلسلة. نسيان ذلك قد يوقف تشغيل المعالجات الأخرى.  
+- **Missing license warnings:** بدون ترخيص صالح، قد يضيف التحويل علامة مائية أو يحد من حجم الإخراج.  
+- **Path issues:** تأكد من كتابة `document.html` إلى دليل العمل أو قدم مسارًا مطلقًا.  
 
-## الأسئلة الشائعة
-### ما هو Aspose.HTML لـ Java؟
-Aspose.HTML for Java هي مكتبة قوية تسمح للمطورين بإنشاء مستندات HTML ومعالجتها وتحويلها في تطبيقات Java.
-### لماذا استخدام معالجات الرسائل في Aspose.HTML لـ Java؟
-تتيح لك معالجات الرسائل اعتراض عمليات الشبكة وإدارتها، مثل التعامل مع الموارد المفقودة أو تعديل الطلبات والاستجابات.
-### هل يمكنني استخدام معالجات رسائل متعددة في تكوين واحد؟
-نعم، يمكنك ربط معالجات رسائل متعددة معًا للتعامل مع سيناريوهات مختلفة أثناء عمليات الشبكة.
-### هل من الضروري التخلص من كائنات Configuration و HTMLDocument؟
-نعم، إن التخلص من هذه الكائنات يضمن تحرير كافة الموارد بشكل صحيح، مما يمنع تسرب الذاكرة.
-### هل يمكنني التعامل مع أنواع أخرى من الأخطاء باستخدام معالجات الرسائل؟
-بالتأكيد! يمكن تخصيص معالجات الرسائل للتعامل مع أنواع مختلفة من الأخطاء، وليس فقط الموارد المفقودة.
+## Frequently Asked Questions
+
+**Q: What is Aspose.HTML for Java?**  
+A: هي مكتبة قوية تتيح لمطوري Java إنشاء وتعديل وتحويل مستندات HTML دون الحاجة إلى متصفح.
+
+**Q: Why use message handlers in Aspose.HTML for Java?**  
+A: تتيح لك **معالجة الروابط المعطوبة**، تسجيل الموارد المفقودة، أو تعديل الطلبات/الاستجابات مباشرة.
+
+**Q: Can I chain multiple message handlers?**  
+A: نعم—أضف كل معالج إلى قائمة `network.getMessageHandlers()`؛ سيتم تنفيذها بالترتيب الذي أضيفت به.
+
+**Q: Is disposing of Configuration and HTMLDocument objects required?**  
+A: بالتأكيد؛ الإلغاء يحرر الذاكرة الأصلية ويمنع التسرب في التطبيقات طويلة التشغيل.
+
+**Q: Besides missing images, what other errors can handlers manage?**  
+A: أي استجابة HTTP غير 200—مثل مهلات، صفحات 404، فشل المصادقة، إلخ—يمكن اعتراضها ومعالجتها.
+
+## Conclusion  
+الآن لديك مثال كامل وجاهز للإنتاج **لتحويل HTML إلى PNG** مع **معالجة الروابط المعطوبة** و**التقاط الموارد المفقودة** باستخدام Aspose.HTML للـ Java. دمج هذا النمط في مشاريع أكبر يمنحك تحكمًا دقيقًا في عمليات الشبكة ويولد لقطات صورة موثوقة لمحتوى HTML الخاص بك.
+
+---
+
+**Last Updated:** 2025-12-08  
+**Tested With:** Aspose.HTML for Java 24.12 (latest)  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

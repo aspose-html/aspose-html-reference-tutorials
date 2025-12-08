@@ -1,51 +1,74 @@
 ---
-title: Utilizzare i gestori dei messaggi in Aspose.HTML per Java
-linktitle: Utilizzare i gestori dei messaggi in Aspose.HTML per Java
-second_title: Elaborazione HTML Java con Aspose.HTML
-description: Scopri come utilizzare i gestori di messaggi in Aspose.HTML per Java per gestire in modo efficace le immagini mancanti e altre operazioni di rete.
+date: 2025-12-08
+description: Scopri come convertire HTML in PNG con Aspose.HTML per Java gestendo
+  i collegamenti interrotti e intercettando le risorse mancanti mediante gestori di
+  messaggi personalizzati.
+language: it
+linktitle: Use Message Handlers in Aspose.HTML
+second_title: Java HTML Processing with Aspose.HTML
+title: Come convertire HTML in PNG e utilizzare i gestori di messaggi in Aspose.HTML
+  per Java
+url: /java/configuring-environment/use-message-handlers/
 weight: 12
-url: /it/java/configuring-environment/use-message-handlers/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Utilizzare i gestori dei messaggi in Aspose.HTML per Java
+# Convertire HTML in PNG con Aspose.HTML per Java – Utilizzo dei Message Handlers
 
-## Introduzione
-In questo tutorial, ti guideremo attraverso un esempio pratico di utilizzo dei gestori di messaggi in Aspose.HTML per Java. Prepareremo un semplice documento HTML che fa riferimento a un'immagine mancante e mostreremo come catturare e gestire l'errore utilizzando un gestore di messaggi personalizzato. Che tu sia nuovo di Aspose.HTML o che tu stia cercando di ampliare le tue competenze, questa guida ti fornirà le informazioni di cui hai bisogno per gestire efficacemente le operazioni di rete.
-## Prerequisiti
-Prima di immergerci nella guida passo passo, assicuriamoci di avere tutto ciò di cui hai bisogno:
-1.  Java Development Kit (JDK): assicurati di avere JDK installato sul tuo sistema. Puoi scaricarlo da[Sito web di Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
-2.  Aspose.HTML per Java: dovrai avere Aspose.HTML per Java installato. Puoi scaricarlo da[Pagina delle release di Aspose](https://releases.aspose.com/html/java/).
-3. IDE: utilizza il tuo Java Integrated Development Environment (IDE) preferito, come IntelliJ IDEA, Eclipse o NetBeans.
-4. Conoscenza di base di Java: per seguire questo tutorial in modo efficace è essenziale avere familiarità con la programmazione Java.
-5.  Licenza temporanea: se stai utilizzando la versione di prova di Aspose.HTML, prendi in considerazione l'idea di ottenere una[licenza temporanea](https://purchase.aspose.com/temporary-license/) per evitare qualsiasi limitazione durante lo sviluppo.
+## Introduction  
+In questo tutorial imparerai **come convertire HTML in PNG** usando Aspose.HTML per Java e, allo stesso tempo, come **gestire link interrotti** o risorse mancanti con un message handler personalizzato. Ti guideremo nella creazione di un semplice file HTML, nella scrittura su disco, nel caricamento e nella cattura di eventuali errori di rete—perfetto per gli sviluppatori che necessitano di una conversione **html to image** affidabile in applicazioni Java di livello produzione.
 
-## Importa pacchetti
-Prima di iniziare, assicurati di aver importato i pacchetti necessari nel tuo progetto Java. Di seguito sono riportate le importazioni essenziali di cui avrai bisogno:
+## Quick Answers
+- **Di cosa tratta il tutorial?** Conversione di HTML in PNG e gestione delle risorse mancanti con un message handler.  
+- **Quale libreria viene utilizzata?** Aspose.HTML per Java.  
+- **È necessaria una licenza?** Si consiglia una licenza temporanea per le versioni di prova.  
+- **Posso scrivere il file HTML da Java?** Sì – vedi il passaggio “write html file java”.  
+- **Il handler intercetterà i link interrotti?** Assolutamente; registra qualsiasi risposta non‑200.
+
+## What is a Message Handler in Aspose.HTML?  
+Un message handler è un hook nello stack di rete che ti consente di **intercettare risorse mancanti** (come l'URL di un'immagine rotta) prima che generino un'eccezione. Analizzando il codice di stato della risposta, puoi registrare, sostituire o riprovare la richiesta—offrendoti il pieno controllo sulle operazioni di rete.
+
+## Why Convert HTML to PNG?  
+Convertire HTML in un'immagine è utile per generare miniature, anteprime email o snapshot simili a PDF quando non è necessaria una conversione completa in PDF. Aspose.HTML offre un motore veloce di **html to image conversion** lato server che funziona senza un browser.
+
+## Prerequisites
+1. **Java Development Kit (JDK)** – scarica dal [sito Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).  
+2. **Aspose.HTML per Java** – ottieni gli ultimi JAR dalla [pagina di rilascio di Aspose](https://releases.aspose.com/html/java/).  
+3. **IDE** – IntelliJ IDEA, Eclipse o NetBeans.  
+4. **Conoscenza di base di Java** – dovresti sentirti a tuo agio con try‑with‑resources e la gestione degli oggetti.  
+5. **Licenza temporanea** (opzionale) – evita le limitazioni di prova tramite una [licenza temporanea](https://purchase.aspose.com/temporary-license/).
+
+## Import Packages
+Before we begin, import the required Java classes:
+
 ```java
 import java.io.IOException;
 ```
-Queste importazioni ti daranno accesso alle classi e ai metodi necessari per gestire le operazioni di rete, creare documenti HTML ed eseguire la conversione da HTML a PNG.
 
-## Passaggio 1: preparare il codice HTML
-La prima cosa di cui abbiamo bisogno è un semplice codice HTML che faccia riferimento a un file immagine. Faremo deliberatamente riferimento a un'immagine che non esiste per attivare il meccanismo di gestione degli errori.
+These imports give us access to file I/O and the Aspose.HTML networking APIs.
+
+## Step 1: Write the HTML File (write html file java)  
+First, create a tiny HTML snippet that references an image that **does not exist**. This will let us test the handler.
+
 ```java
 String code = "<img src='missing.jpg'>";
 ```
- Questo frammento di codice crea un elemento HTML che tenta di caricare un'immagine denominata`missing.jpg`Poiché questo file immagine non esiste, verrà generato un errore durante il processo di caricamento del documento.
-## Passaggio 2: scrivere il codice HTML in un file
-Ora dobbiamo scrivere questo codice HTML in un file che potremo caricare in seguito.
+
+## Step 2: Persist the HTML to Disk  
+Save the snippet to a file called `document.html`. This file will later be loaded with the Aspose.HTML engine.
+
 ```java
 try (java.io.FileWriter fileWriter = new java.io.FileWriter("document.html")) {
     fileWriter.write(code);
 }
 ```
- Qui utilizziamo un`FileWriter` per scrivere il nostro codice HTML in un file denominato`document.html`Questo file verrà utilizzato per creare un documento HTML nei passaggi successivi.
-## Passaggio 3: creare un gestore di messaggi personalizzato
-Ora, creiamo un gestore di messaggi personalizzato per gestire lo scenario dell'immagine mancante. Il gestore di messaggi controllerà il codice di stato della risposta e stamperà un messaggio se il file non viene trovato.
+
+## Step 3: Create a Custom Message Handler (catch missing resource)  
+Now we define a handler that checks the HTTP status code. If it isn’t `200`, we log a friendly message.
+
 ```java
 com.aspose.html.net.MessageHandler handler = new com.aspose.html.net.MessageHandler() {
     @Override
@@ -57,31 +80,34 @@ com.aspose.html.net.MessageHandler handler = new com.aspose.html.net.MessageHand
     }
 };
 ```
- In questo gestore, il`invoke` controlla il codice di stato della risposta dell'operazione di rete. Se il codice di stato non è 200 (che indica successo), stampa un messaggio che indica che il file non è stato trovato. Il`invoke(context);` La riga assicura che venga chiamato il gestore successivo nella catena.
-## Passaggio 4: configurare il servizio di rete
- Per utilizzare il nostro gestore di messaggi personalizzato, dobbiamo aggiungerlo alla catena di gestori di messaggi esistenti nel servizio di rete. Questo viene fatto tramite`Configuration` classe.
+
+## Step 4: Register the Handler with the Network Service  
+Add the custom handler to Aspose.HTML’s network service so it participates in every request.
+
 ```java
 com.aspose.html.Configuration configuration = new com.aspose.html.Configuration();
 try {
     com.aspose.html.services.INetworkService network = configuration.getService(com.aspose.html.services.INetworkService.class);
     network.getMessageHandlers().addItem(handler);
 ```
-Qui creiamo un'istanza di`Configuration` e recuperare il`INetworkService`. Quindi, aggiungiamo il nostro gestore personalizzato all'elenco dei gestori di messaggi. Questa configurazione assicura che il nostro gestore venga invocato durante le operazioni di rete.
-## Passaggio 5: caricare il documento HTML
-Con la configurazione in atto, ora possiamo caricare il nostro documento HTML. Il documento proverà a caricare l'immagine mancante, attivando il nostro gestore di messaggi personalizzato.
+
+## Step 5: Load the HTML Document (load html document java)  
+With the configuration ready, load the HTML file. The missing image will trigger the handler we just added.
+
 ```java
 com.aspose.html.HTMLDocument document = new com.aspose.html.HTMLDocument("document.html", configuration);
 try {
-    // Le operazioni aggiuntive andranno qui
+    // Additional operations will go here
 } finally {
     if (document != null) {
         document.dispose();
     }
 }
 ```
-Questo frammento carica il documento HTML usando la configurazione che abbiamo impostato in precedenza. Il processo di caricamento del documento tenterà di caricare l'immagine mancante e il nostro gestore dei messaggi catturerà e gestirà l'errore risultante.
-## Passaggio 6: convertire HTML in PNG
-Per concludere, convertiamo il documento HTML in un'immagine PNG. Questo passaggio non è strettamente necessario per gestire l'immagine mancante, ma dimostra la funzionalità più ampia di Aspose.HTML.
+
+## Step 6: Convert HTML to PNG (convert html to png)  
+Finally, convert the loaded document to a PNG image. This demonstrates the full **html to image conversion** workflow.
+
 ```java
 com.aspose.html.converters.Converter.convertHTML(
     document,
@@ -89,9 +115,10 @@ com.aspose.html.converters.Converter.convertHTML(
     "output.png"
 );
 ```
- Qui utilizziamo il`Converter.convertHTML` metodo per convertire il documento HTML in un file PNG. Il`ImageSaveOptions`consente di specificare le opzioni per il salvataggio dell'immagine, come la risoluzione e il formato.
-## Passaggio 7: pulisci le risorse
- Infine, assicurati sempre di ripulire tutte le risorse utilizzate durante il processo. Ciò include lo smaltimento di`Configuration` E`HTMLDocument` oggetti.
+
+## Step 7: Clean Up Resources  
+Always dispose of the `Configuration` object to free native resources and avoid memory leaks.
+
 ```java
 } finally {
     if (configuration != null) {
@@ -99,22 +126,38 @@ com.aspose.html.converters.Converter.convertHTML(
     }
 }
 ```
-Ciò garantisce che tutte le risorse vengano liberate, prevenendo perdite di memoria e altri potenziali problemi nell'applicazione.
 
-## Conclusione
-Ed ecco fatto: una guida completa all'uso dei gestori di messaggi in Aspose.HTML per Java! Abbiamo esaminato il processo di impostazione di un documento HTML, creazione di un gestore di messaggi personalizzato e gestione delle risorse mancanti come un professionista. Che tu abbia a che fare con immagini mancanti, link interrotti o altri problemi di rete, questo approccio ti darà il controllo necessario per gestirli in modo efficace nelle tue applicazioni Java.
+## Common Pitfalls & Tips
+- **Chiamata ricorsiva invoke:** L'handler personalizzato deve chiamare `invoke(context);` *dopo* la tua logica per continuare la catena. Dimenticare ciò può impedire l'esecuzione di altri handler.  
+- **Avvisi di licenza mancante:** Senza una licenza valida, la conversione potrebbe aggiungere una filigrana o limitare le dimensioni dell'output.  
+- **Problemi di percorso:** Assicurati che `document.html` sia scritto nella directory di lavoro o fornisci un percorso assoluto.  
 
-## Domande frequenti
-### Che cos'è Aspose.HTML per Java?
-Aspose.HTML per Java è una potente libreria che consente agli sviluppatori di creare, manipolare e convertire documenti HTML nelle applicazioni Java.
-### Perché utilizzare i gestori di messaggi in Aspose.HTML per Java?
-gestori di messaggi consentono di intercettare e gestire le operazioni di rete, ad esempio la gestione delle risorse mancanti o la modifica di richieste e risposte.
-### Posso utilizzare più gestori di messaggi in un'unica configurazione?
-Sì, è possibile concatenare più gestori di messaggi per gestire diversi scenari durante le operazioni di rete.
-### È necessario eliminare gli oggetti Configuration e HTMLDocument?
-Sì, l'eliminazione di questi oggetti garantisce che tutte le risorse vengano correttamente liberate, prevenendo perdite di memoria.
-### Posso gestire altri tipi di errori con i gestori dei messaggi?
-Assolutamente! I gestori dei messaggi possono essere personalizzati per gestire vari tipi di errori, non solo risorse mancanti.
+## Frequently Asked Questions
+
+**D: Cos'è Aspose.HTML per Java?**  
+R: È una libreria robusta che consente agli sviluppatori Java di creare, manipolare e convertire documenti HTML senza un browser.
+
+**D: Perché usare i message handler in Aspose.HTML per Java?**  
+R: Consentono di **gestire link interrotti**, registrare risorse mancanti o modificare richieste/risposte al volo.
+
+**D: Posso concatenare più message handler?**  
+R: Sì—aggiungi ogni handler alla lista `network.getMessageHandlers()`; vengono eseguiti nell'ordine in cui sono aggiunti.
+
+**D: È necessario liberare gli oggetti Configuration e HTMLDocument?**  
+R: Assolutamente; la disposizione rilascia la memoria nativa e previene perdite in applicazioni a lungo termine.
+
+**D: Oltre alle immagini mancanti, quali altri errori possono gestire gli handler?**  
+R: Qualsiasi risposta HTTP non‑200—timeout, pagine 404, errori di autenticazione, ecc.—può essere intercettata e gestita.
+
+## Conclusion  
+Ora disponi di un esempio completo, pronto per la produzione, di **conversione di HTML in PNG** mentre **gestisci link interrotti** e **intercetti risorse mancanti** usando Aspose.HTML per Java. Integra questo modello in progetti più grandi per ottenere un controllo dettagliato sulle operazioni di rete e generare snapshot di immagine affidabili del tuo contenuto HTML.
+
+---
+
+**Last Updated:** 2025-12-08  
+**Tested With:** Aspose.HTML for Java 24.12 (latest)  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

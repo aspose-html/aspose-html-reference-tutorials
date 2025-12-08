@@ -1,51 +1,71 @@
 ---
-title: ใช้ตัวจัดการข้อความใน Aspose.HTML สำหรับ Java
-linktitle: ใช้ตัวจัดการข้อความใน Aspose.HTML สำหรับ Java
-second_title: การประมวลผล Java HTML ด้วย Aspose.HTML
-description: เรียนรู้วิธีใช้ตัวจัดการข้อความใน Aspose.HTML สำหรับ Java เพื่อจัดการรูปภาพที่หายไปและการดำเนินการเครือข่ายอื่น ๆ ได้อย่างมีประสิทธิภาพ
+date: 2025-12-08
+description: เรียนรู้วิธีแปลง HTML เป็น PNG ด้วย Aspose.HTML สำหรับ Java พร้อมจัดการลิงก์ที่เสียและดักจับทรัพยากรที่ขาดหายโดยใช้ตัวจัดการข้อความแบบกำหนดเอง
+language: th
+linktitle: Use Message Handlers in Aspose.HTML
+second_title: Java HTML Processing with Aspose.HTML
+title: วิธีแปลง HTML เป็น PNG และใช้ Message Handlers ใน Aspose.HTML สำหรับ Java
+url: /java/configuring-environment/use-message-handlers/
 weight: 12
-url: /th/java/configuring-environment/use-message-handlers/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# ใช้ตัวจัดการข้อความใน Aspose.HTML สำหรับ Java
+# แปลง HTML เป็น PNG ด้วย Aspose.HTML สำหรับ Java – การใช้ Message Handlers
 
-## การแนะนำ
-ในบทช่วยสอนนี้ เราจะแนะนำคุณเกี่ยวกับตัวอย่างการใช้งานโปรแกรมจัดการข้อความใน Aspose.HTML สำหรับ Java เราจะเตรียมเอกสาร HTML ง่ายๆ ที่อ้างอิงรูปภาพที่หายไป และสาธิตวิธีการจับและจัดการข้อผิดพลาดโดยใช้โปรแกรมจัดการข้อความแบบกำหนดเอง ไม่ว่าคุณจะเป็นผู้ใช้ใหม่ของ Aspose.HTML หรือต้องการเพิ่มพูนทักษะ คู่มือนี้จะให้ข้อมูลเชิงลึกที่คุณต้องการเพื่อจัดการการทำงานของเครือข่ายอย่างมีประสิทธิภาพ
-## ข้อกำหนดเบื้องต้น
-ก่อนที่เราจะเจาะลึกคู่มือทีละขั้นตอน เรามาตรวจสอบกันก่อนว่าคุณมีทุกสิ่งที่คุณต้องการ:
-1.  Java Development Kit (JDK): ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง JDK ไว้ในระบบของคุณแล้ว คุณสามารถดาวน์โหลดได้จาก[เว็บไซต์ออราเคิล](https://www.oracle.com/java/technologies/javase-downloads.html).
-2.  Aspose.HTML สำหรับ Java: คุณจะต้องติดตั้ง Aspose.HTML สำหรับ Java คุณสามารถดาวน์โหลดได้จาก[หน้าวางจำหน่าย Aspose](https://releases.aspose.com/html/java/).
-3. IDE: ใช้ Java Integrated Development Environment (IDE) ที่คุณชื่นชอบ เช่น IntelliJ IDEA, Eclipse หรือ NetBeans
-4. ความรู้พื้นฐานเกี่ยวกับ Java: ความคุ้นเคยกับการเขียนโปรแกรม Java เป็นสิ่งสำคัญในการปฏิบัติตามบทช่วยสอนนี้ได้อย่างมีประสิทธิภาพ
-5.  ใบอนุญาตชั่วคราว: หากคุณกำลังใช้ Aspose.HTML เวอร์ชันทดลองใช้ โปรดพิจารณาขอรับ[ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) เพื่อหลีกเลี่ยงข้อจำกัดใดๆ ในระหว่างการพัฒนา
+## Introduction  
+ในบทแนะนำนี้คุณจะได้เรียนรู้ **วิธีแปลง HTML เป็น PNG** ด้วย Aspose.HTML สำหรับ Java และในเวลาเดียวกัน **วิธีจัดการลิงก์ที่เสียหาย** หรือทรัพยากรที่หายไปด้วย message handler ที่กำหนดเอง เราจะเดินผ่านการสร้างไฟล์ HTML ง่าย ๆ เขียนลงดิสก์ โหลดมัน และดักจับข้อผิดพลาดเครือข่าย—เหมาะสำหรับนักพัฒนาที่ต้องการการ **html to image conversion** ที่เชื่อถือได้ในแอปพลิเคชัน Java ระดับ production‑grade
 
-## แพ็คเกจนำเข้า
-ก่อนที่เราจะเริ่มต้น ตรวจสอบให้แน่ใจว่าคุณได้นำแพ็คเกจที่จำเป็นเข้าสู่โปรเจ็กต์ Java ของคุณแล้ว ด้านล่างนี้คือแพ็คเกจนำเข้าที่จำเป็นที่คุณต้องมี:
+## Quick Answers
+- **What does the tutorial cover?** การแปลง HTML เป็น PNG และการจัดการทรัพยากรที่หายไปด้วย message handler.  
+- **Which library is used?** Aspose.HTML for Java.  
+- **Do I need a license?** แนะนำให้ใช้ temporary license สำหรับการสร้างรุ่นทดลอง.  
+- **Can I write the HTML file from Java?** ได้ – ดูขั้นตอน “write html file java”.  
+- **Will the handler catch broken links?** แน่นอน; มันบันทึกการตอบสนองที่ไม่ใช่ 200.
+
+## What is a Message Handler in Aspose.HTML?  
+message handler คือจุดเชื่อมต่อกับ network stack ที่ทำให้คุณ **catch missing resources** (เช่น URL ของรูปภาพที่เสีย) ก่อนที่มันจะทำให้เกิด exception โดยการตรวจสอบรหัสสถานะของการตอบกลับ คุณสามารถบันทึก, แทนที่, หรือลองทำคำขอใหม่ได้—ให้คุณควบคุมการทำงานของเครือข่ายได้อย่างเต็มที่
+
+## Why Convert HTML to PNG?  
+การแปลง HTML เป็นภาพมีประโยชน์สำหรับการสร้าง thumbnail, ตัวอย่างอีเมล, หรือ snapshot แบบ PDF‑like เมื่อคุณไม่ต้องการการแปลงเป็น PDF เต็มรูปแบบ Aspose.HTML ให้เครื่องมือ **html to image conversion** ที่เร็วและทำงานบนเซิร์ฟเวอร์โดยไม่ต้องใช้เบราว์เซอร์
+
+## Prerequisites
+1. **Java Development Kit (JDK)** – ดาวน์โหลดจาก [Oracle website](https://www.oracle.com/java/technologies/javase-downloads.html).  
+2. **Aspose.HTML for Java** – รับ JAR ล่าสุดจาก [Aspose releases page](https://releases.aspose.com/html/java/).  
+3. **IDE** – IntelliJ IDEA, Eclipse หรือ NetBeans.  
+4. **Basic Java knowledge** – คุณควรคุ้นเคยกับ try‑with‑resources และการทำลายออบเจกต์.  
+5. **Temporary license** (optional) – หลีกเลี่ยงข้อจำกัดของรุ่นทดลองผ่าน [temporary license](https://purchase.aspose.com/temporary-license/).
+
+## Import Packages
+Before we begin, import the required Java classes:
+
 ```java
 import java.io.IOException;
 ```
-การนำเข้าเหล่านี้จะทำให้คุณสามารถเข้าถึงคลาสและวิธีการที่จำเป็นสำหรับการจัดการการทำงานของเครือข่าย การสร้างเอกสาร HTML และการดำเนินการแปลง HTML เป็น PNG
 
-## ขั้นตอนที่ 1: เตรียมโค้ด HTML
-สิ่งแรกที่เราต้องการคือโค้ด HTML ง่ายๆ ที่อ้างอิงไฟล์รูปภาพ เราจะอ้างอิงรูปภาพที่ไม่มีอยู่จริงโดยตั้งใจเพื่อเรียกใช้กลไกการจัดการข้อผิดพลาด
+These imports give us access to file I/O and the Aspose.HTML networking APIs.
+
+## Step 1: Write the HTML File (write html file java)  
+First, create a tiny HTML snippet that references an image that not exist**. This will let us test the handler.
+
 ```java
 String code = "<img src='missing.jpg'>";
 ```
- โค้ดสั้นๆ นี้จะสร้างองค์ประกอบ HTML ที่พยายามโหลดรูปภาพที่มีชื่อว่า`missing.jpg`เนื่องจากไฟล์ภาพนี้ไม่มีอยู่ จึงทำให้เกิดข้อผิดพลาดในระหว่างกระบวนการโหลดเอกสาร
-## ขั้นตอนที่ 2: เขียนโค้ด HTML ลงในไฟล์
-ต่อไปเราจะต้องเขียนโค้ด HTML นี้ลงในไฟล์เพื่อโหลดในภายหลัง
+
+## Step 2: Persist the HTML to Disk  
+Save the snippet to a file called `document.html`. This file will later be loaded with the Aspose.HTML engine.
+
 ```java
 try (java.io.FileWriter fileWriter = new java.io.FileWriter("document.html")) {
     fileWriter.write(code);
 }
 ```
- ที่นี่เราใช้`FileWriter` เพื่อเขียนโค้ด HTML ของเราลงในไฟล์ที่ชื่อ`document.html`ไฟล์นี้จะใช้เพื่อสร้างเอกสาร HTML ในขั้นตอนต่อไปนี้
-## ขั้นตอนที่ 3: สร้างตัวจัดการข้อความแบบกำหนดเอง
-ตอนนี้เรามาสร้างโปรแกรมจัดการข้อความแบบกำหนดเองเพื่อจัดการกับสถานการณ์ที่รูปภาพหายไป โปรแกรมจัดการข้อความจะตรวจสอบรหัสสถานะของการตอบสนองและพิมพ์ข้อความหากไม่พบไฟล์
+
+## Step 3: Create a Custom Message Handler (catch missing resource)  
+Now we define a handler that checks the HTTP status code. If it isn’t `200`, we log a friendly message.
+
 ```java
 com.aspose.html.net.MessageHandler handler = new com.aspose.html.net.MessageHandler() {
     @Override
@@ -57,31 +77,34 @@ com.aspose.html.net.MessageHandler handler = new com.aspose.html.net.MessageHand
     }
 };
 ```
- ในตัวจัดการนี้`invoke` วิธีการนี้จะตรวจสอบรหัสสถานะของการตอบสนองของการดำเนินการเครือข่าย หากรหัสสถานะไม่ใช่ 200 (ซึ่งบ่งชี้ความสำเร็จ) ระบบจะพิมพ์ข้อความที่ระบุว่าไม่พบไฟล์`invoke(context);` บรรทัดนี้จะรับรองว่าตัวจัดการถัดไปในเชนจะถูกเรียกใช้
-## ขั้นตอนที่ 4: กำหนดค่าบริการเครือข่าย
- ในการใช้ตัวจัดการข้อความแบบกำหนดเอง เราจำเป็นต้องเพิ่มตัวจัดการข้อความนั้นลงในกลุ่มของตัวจัดการข้อความที่มีอยู่ในบริการเครือข่าย ซึ่งทำได้ผ่าน`Configuration` ระดับ.
+
+## Step 4: Register the Handler with the Network Service  
+Add the custom handler to Aspose.HTML’s network service so it participates in every request.
+
 ```java
 com.aspose.html.Configuration configuration = new com.aspose.html.Configuration();
 try {
     com.aspose.html.services.INetworkService network = configuration.getService(com.aspose.html.services.INetworkService.class);
     network.getMessageHandlers().addItem(handler);
 ```
-ที่นี่เราสร้างอินสแตนซ์ของ`Configuration` และดึงข้อมูล`INetworkService`จากนั้นเราจะเพิ่มตัวจัดการแบบกำหนดเองของเราลงในรายการตัวจัดการข้อความ การตั้งค่านี้จะช่วยให้มั่นใจว่าตัวจัดการของเราจะถูกเรียกใช้ระหว่างการดำเนินการเครือข่าย
-## ขั้นตอนที่ 5: โหลดเอกสาร HTML
-เมื่อกำหนดค่าเรียบร้อยแล้ว เราก็สามารถโหลดเอกสาร HTML ได้แล้ว เอกสารจะพยายามโหลดรูปภาพที่หายไป ซึ่งจะเรียกใช้ตัวจัดการข้อความแบบกำหนดเองของเรา
+
+## Step 5: Load the HTML Document (load html document java)  
+With the configuration ready, load the HTML file. The missing image will trigger the handler we just added.
+
 ```java
 com.aspose.html.HTMLDocument document = new com.aspose.html.HTMLDocument("document.html", configuration);
 try {
-    // การดำเนินการเพิ่มเติมจะไปที่นี่
+    // Additional operations will go here
 } finally {
     if (document != null) {
         document.dispose();
     }
 }
 ```
-สไนปเป็ตนี้จะโหลดเอกสาร HTML โดยใช้การกำหนดค่าที่เราได้ตั้งค่าไว้ก่อนหน้านี้ กระบวนการโหลดเอกสารจะพยายามโหลดรูปภาพที่หายไป และตัวจัดการข้อความของเราจะจับและจัดการข้อผิดพลาดที่เกิดขึ้น
-## ขั้นตอนที่ 6: แปลง HTML เป็น PNG
-เพื่อสรุปสิ่งต่างๆ ให้แปลงเอกสาร HTML เป็นรูปภาพ PNG ขั้นตอนนี้ไม่จำเป็นอย่างยิ่งสำหรับการจัดการรูปภาพที่หายไป แต่เป็นการสาธิตฟังก์ชันการทำงานที่กว้างขึ้นของ Aspose.HTML
+
+## Step 6: Convert HTML to PNG (convert html to png)  
+Finally, convert the loaded document to a PNG image. This demonstrates the full **html to image conversion** workflow.
+
 ```java
 com.aspose.html.converters.Converter.convertHTML(
     document,
@@ -89,9 +112,10 @@ com.aspose.html.converters.Converter.convertHTML(
     "output.png"
 );
 ```
- ที่นี่เราใช้`Converter.convertHTML` วิธีการแปลงเอกสาร HTML เป็นไฟล์ PNG`ImageSaveOptions`ช่วยให้เราสามารถระบุตัวเลือกในการบันทึกภาพได้ เช่น ความละเอียดและรูปแบบ
-## ขั้นตอนที่ 7: ทำความสะอาดทรัพยากร
- สุดท้ายนี้ อย่าลืมทำความสะอาดทรัพยากรที่ใช้ระหว่างกระบวนการเสมอ ซึ่งรวมถึงการกำจัด`Configuration` และ`HTMLDocument` วัตถุ
+
+## Step 7: Clean Up Resources  
+Always dispose of the `Configuration` object to free native resources and avoid memory leaks.
+
 ```java
 } finally {
     if (configuration != null) {
@@ -99,22 +123,38 @@ com.aspose.html.converters.Converter.convertHTML(
     }
 }
 ```
-วิธีนี้จะช่วยให้แน่ใจว่าทรัพยากรทั้งหมดได้รับการปล่อยออก ซึ่งช่วยป้องกันการรั่วไหลของหน่วยความจำและปัญหาที่อาจเกิดขึ้นอื่นๆ ในแอปพลิเคชันของคุณ
 
-## บทสรุป
-และนี่คือคู่มือที่ครอบคลุมเกี่ยวกับการใช้ตัวจัดการข้อความใน Aspose.HTML สำหรับ Java! เราได้แนะนำขั้นตอนการตั้งค่าเอกสาร HTML การสร้างตัวจัดการข้อความแบบกำหนดเอง และการจัดการทรัพยากรที่ขาดหายอย่างมืออาชีพ ไม่ว่าคุณจะกำลังจัดการกับรูปภาพที่ขาดหาย ลิงก์เสีย หรือปัญหาอื่นๆ ที่เกี่ยวข้องกับเครือข่าย แนวทางนี้จะช่วยให้คุณควบคุมได้ตามที่คุณต้องการเพื่อจัดการปัญหาเหล่านี้อย่างมีประสิทธิภาพในแอปพลิเคชัน Java ของคุณ
+## Common Pitfalls & Tips
+- **Recursive invoke call:** ตัวจัดการแบบกำหนดเองต้องเรียก `invoke(context);` *หลัง* จากตรรกะของคุณเพื่อให้สายการทำงานดำเนินต่อไป การลืมทำเช่นนี้อาจทำให้ handler อื่นไม่ทำงาน.  
+- **Missing license warnings:** หากไม่มีไลเซนส์ที่ถูกต้อง การแปลงอาจเพิ่มลายน้ำหรือจำกัดขนาดผลลัพธ์.  
+- **Path issues:** ตรวจสอบให้ `document.html` ถูกเขียนลงในไดเรกทอรีทำงานหรือระบุพาธเต็ม.
 
-## คำถามที่พบบ่อย
-### Aspose.HTML สำหรับ Java คืออะไร?
-Aspose.HTML สำหรับ Java เป็นไลบรารีอันทรงพลังที่ช่วยให้นักพัฒนาสามารถสร้าง จัดการ และแปลงเอกสาร HTML ในแอปพลิเคชัน Java ได้
-### เหตุใดจึงต้องใช้ตัวจัดการข้อความใน Aspose.HTML สำหรับ Java
-โปรแกรมจัดการข้อความช่วยให้คุณสกัดกั้นและจัดการการทำงานของเครือข่าย เช่น การจัดการทรัพยากรที่ขาดหายไปหรือการแก้ไขคำขอและการตอบกลับ
-### ฉันสามารถใช้ตัวจัดการข้อความหลายตัวในการกำหนดค่าเดียวได้หรือไม่
-ใช่ คุณสามารถเชื่อมโยงตัวจัดการข้อความหลายตัวเข้าด้วยกันเพื่อจัดการสถานการณ์ต่างๆ ในระหว่างการดำเนินการเครือข่ายได้
-### จำเป็นต้องกำจัดวัตถุ Configuration และ HTMLDocument หรือไม่
-ใช่ การกำจัดวัตถุเหล่านี้จะช่วยให้แน่ใจว่าทรัพยากรทั้งหมดได้รับการปล่อยอย่างถูกต้อง ซึ่งช่วยป้องกันการรั่วไหลของหน่วยความจำ
-### ฉันสามารถจัดการข้อผิดพลาดประเภทอื่นๆ ด้วยโปรแกรมจัดการข้อความได้หรือไม่
-แน่นอน! ตัวจัดการข้อความสามารถปรับแต่งเพื่อจัดการกับข้อผิดพลาดประเภทต่างๆ ไม่ใช่แค่ทรัพยากรที่ขาดหายไปเท่านั้น
+## Frequently Asked Questions
+
+**Q: What is Aspose.HTML for Java?**  
+A: It’s a robust library that lets Java developers create, manipulate, and convert HTML documents without a browser.
+
+**Q: Why use message handlers in Aspose.HTML for Java?**  
+A: They let you **handle broken links**, log missing resources, or modify requests/responses on the fly.
+
+**Q: Can I chain multiple message handlers?**  
+A: Yes—add each handler to the `network.getMessageHandlers()` list; they execute in the order added.
+
+**Q: Is disposing of Configuration and HTMLDocument objects required?**  
+A: Absolutely; disposing releases native memory and prevents leaks in long‑running applications.
+
+**Q: Besides missing images, what other errors can handlers manage?**  
+A: Any non‑200 HTTP response—timeouts, 404 pages, authentication failures, etc.—can be intercepted and handled.
+
+## Conclusion  
+You now have a complete, production‑ready example of **converting HTML to PNG** while **handling broken links** and **catching missing resources** using Aspose.HTML for Java. Incorporate this pattern into larger projects to gain fine‑grained control over network operations and generate reliable image snapshots of your HTML content.
+
+---
+
+**Last Updated:** 2025-12-08  
+**Tested With:** Aspose.HTML for Java 24.12 (latest)  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

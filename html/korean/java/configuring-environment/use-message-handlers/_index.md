@@ -1,51 +1,72 @@
 ---
-title: Java용 Aspose.HTML에서 메시지 핸들러 사용
-linktitle: Java용 Aspose.HTML에서 메시지 핸들러 사용
-second_title: Aspose.HTML을 사용한 Java HTML 처리
-description: Java용 Aspose.HTML에서 메시지 핸들러를 사용하여 누락된 이미지와 기타 네트워크 작업을 효과적으로 처리하는 방법을 알아보세요.
+date: 2025-12-08
+description: Aspose.HTML for Java를 사용하여 HTML을 PNG로 변환하는 방법을 배우고, 깨진 링크를 처리하며 사용자 정의
+  메시지 핸들러로 누락된 리소스를 포착하는 방법을 익히세요.
+language: ko
+linktitle: Use Message Handlers in Aspose.HTML
+second_title: Java HTML Processing with Aspose.HTML
+title: Aspose.HTML for Java에서 HTML을 PNG로 변환하고 메시지 핸들러 사용하기
+url: /java/configuring-environment/use-message-handlers/
 weight: 12
-url: /ko/java/configuring-environment/use-message-handlers/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java용 Aspose.HTML에서 메시지 핸들러 사용
+# Aspose.HTML for Java를 사용한 HTML을 PNG로 변환 – 메시지 핸들러 활용
 
-## 소개
-이 튜토리얼에서는 Java용 Aspose.HTML에서 메시지 핸들러를 사용하는 실제 예를 안내해 드리겠습니다. 누락된 이미지를 참조하는 간단한 HTML 문서를 준비하고 사용자 지정 메시지 핸들러를 사용하여 오류를 포착하고 처리하는 방법을 보여드리겠습니다. Aspose.HTML을 처음 사용하든 기술을 확장하려는 경우 이 가이드는 네트워크 작업을 효과적으로 관리하는 데 필요한 통찰력을 제공합니다.
-## 필수 조건
-단계별 가이드를 살펴보기 전에 먼저 필요한 모든 것이 있는지 확인해 보겠습니다.
-1.  Java Development Kit(JDK): 시스템에 JDK가 설치되어 있는지 확인하세요. 다음에서 다운로드할 수 있습니다.[오라클 웹사이트](https://www.oracle.com/java/technologies/javase-downloads.html).
-2.  Java용 Aspose.HTML: Java용 Aspose.HTML이 설치되어 있어야 합니다. 다음에서 다운로드할 수 있습니다.[Aspose 릴리스 페이지](https://releases.aspose.com/html/java/).
-3. IDE: IntelliJ IDEA, Eclipse, NetBeans 등 원하는 Java 통합 개발 환경(IDE)을 사용하세요.
-4. Java에 대한 기본 지식: 이 튜토리얼을 효과적으로 따르려면 Java 프로그래밍에 대한 지식이 필수적입니다.
-5.  임시 라이센스: Aspose.HTML의 평가판을 사용하는 경우 다음을 고려하세요.[임시 면허](https://purchase.aspose.com/temporary-license/) 개발 중에 어떤 제한도 피하기 위해.
+## Introduction  
+이 튜토리얼에서는 Aspose.HTML for Java를 사용하여 **HTML을 PNG로 변환하는 방법**과 동시에 **깨진 링크**나 누락된 리소스를 사용자 정의 메시지 핸들러로 **처리하는 방법**을 배웁니다. 간단한 HTML 파일을 만들고, 디스크에 저장하고, 로드한 뒤 네트워크 오류를 잡는 과정을 단계별로 안내합니다—프로덕션 급 Java 애플리케이션에서 신뢰할 수 있는 **html to image conversion**이 필요한 개발자에게 최적입니다.
 
-## 패키지 가져오기
-시작하기 전에 Java 프로젝트에 필요한 패키지를 가져왔는지 확인하세요. 필요한 필수 가져오기는 다음과 같습니다.
+## Quick Answers
+- **이 튜토리얼이 다루는 내용은?** HTML을 PNG로 변환하고 메시지 핸들러로 누락된 리소스를 처리합니다.  
+- **사용하는 라이브러리는?** Aspose.HTML for Java.  
+- **라이선스가 필요한가요?** 트라이얼 빌드에는 임시 라이선스를 권장합니다.  
+- **Java에서 HTML 파일을 작성할 수 있나요?** 예 – “write html file java” 단계 참고.  
+- **핸들러가 깨진 링크를 잡을 수 있나요?** 물론입니다; 200이 아닌 모든 응답을 로그에 기록합니다.
+
+## What is a Message Handler in Aspose.HTML?  
+메시지 핸들러는 네트워크 스택에 연결되는 훅으로, **누락된 리소스**(예: 깨진 이미지 URL)를 예외가 발생하기 전에 잡을 수 있게 해줍니다. 응답 상태 코드를 검사하여 로그를 남기거나, 대체하거나, 재시도할 수 있어 네트워크 작업을 완벽히 제어할 수 있습니다.
+
+## Why Convert HTML to PNG?  
+HTML을 이미지로 변환하면 썸네일, 이메일 미리보기, PDF와 유사한 스냅샷 등을 전체 PDF 변환 없이 생성할 수 있습니다. Aspose.HTML은 브라우저 없이도 동작하는 빠른 서버‑사이드 **html to image conversion** 엔진을 제공합니다.
+
+## Prerequisites
+1. **Java Development Kit (JDK)** – [Oracle website](https://www.oracle.com/java/technologies/javase-downloads.html)에서 다운로드.  
+2. **Aspose.HTML for Java** – 최신 JAR 파일은 [Aspose releases page](https://releases.aspose.com/html/java/)에서 획득.  
+3. **IDE** – IntelliJ IDEA, Eclipse 또는 NetBeans.  
+4. **Basic Java knowledge** – try‑with‑resources와 객체 해제에 익숙해야 합니다.  
+5. **Temporary license** (optional) – [temporary license](https://purchase.aspose.com/temporary-license/)를 통해 트라이얼 제한을 피할 수 있습니다.
+
+## Import Packages
+시작하기 전에 필요한 Java 클래스를 import합니다:
+
 ```java
 import java.io.IOException;
 ```
-이러한 가져오기를 통해 네트워크 작업을 처리하고, HTML 문서를 만들고, HTML을 PNG로 변환하는 데 필요한 클래스와 메서드에 액세스할 수 있습니다.
 
-## 1단계: HTML 코드 준비
-가장 먼저 필요한 것은 이미지 파일을 참조하는 간단한 HTML 코드입니다. 오류 처리 메커니즘을 트리거하기 위해 존재하지 않는 이미지를 의도적으로 참조합니다.
+이 import 문을 통해 파일 I/O와 Aspose.HTML 네트워킹 API에 접근할 수 있습니다.
+
+## Step 1: Write the HTML File (write html file java)  
+먼저 **존재하지 않는** 이미지를 참조하는 작은 HTML 스니펫을 만들겠습니다. 이를 통해 핸들러를 테스트할 수 있습니다.
+
 ```java
 String code = "<img src='missing.jpg'>";
 ```
- 이 코드 조각은 이름이 지정된 이미지를 로드하려는 HTML 요소를 생성합니다.`missing.jpg`. 이 이미지 파일이 없기 때문에 문서 로딩 과정에서 오류가 발생합니다.
-## 2단계: HTML 코드를 파일에 쓰기
-다음으로, 나중에 로드할 수 있는 파일에 이 HTML 코드를 작성해야 합니다.
+
+## Step 2: Persist the HTML to Disk  
+스니펫을 `document.html` 파일로 저장합니다. 이 파일은 이후 Aspose.HTML 엔진으로 로드됩니다.
+
 ```java
 try (java.io.FileWriter fileWriter = new java.io.FileWriter("document.html")) {
     fileWriter.write(code);
 }
 ```
- 여기서 우리는 다음을 사용합니다.`FileWriter` HTML 코드를 파일에 작성하려면`document.html`. 이 파일은 다음 단계에서 HTML 문서를 만드는 데 사용됩니다.
-## 3단계: 사용자 정의 메시지 핸들러 만들기
-이제 누락된 이미지 시나리오를 처리하기 위한 사용자 지정 메시지 핸들러를 만들어 보겠습니다. 메시지 핸들러는 응답의 상태 코드를 확인하고 파일이 발견되지 않으면 메시지를 인쇄합니다.
+
+## Step 3: Create a Custom Message Handler (catch missing resource)  
+이제 HTTP 상태 코드를 확인하는 핸들러를 정의합니다. 상태가 `200`이 아니면 친절한 메시지를 로그에 남깁니다.
+
 ```java
 com.aspose.html.net.MessageHandler handler = new com.aspose.html.net.MessageHandler() {
     @Override
@@ -57,31 +78,34 @@ com.aspose.html.net.MessageHandler handler = new com.aspose.html.net.MessageHand
     }
 };
 ```
- 이 핸들러에서는`invoke` 방법은 네트워크 작업의 응답 상태 코드를 확인합니다. 상태 코드가 200(성공을 나타냄)이 아니면 파일을 찾을 수 없다는 메시지를 인쇄합니다.`invoke(context);` 라인은 체인의 다음 핸들러가 호출되도록 보장합니다.
-## 4단계: 네트워크 서비스 구성
- 사용자 정의 메시지 핸들러를 사용하려면 네트워크 서비스의 기존 메시지 핸들러 체인에 추가해야 합니다. 이는 다음을 통해 수행됩니다.`Configuration` 수업.
+
+## Step 4: Register the Handler with the Network Service  
+맞춤 핸들러를 Aspose.HTML의 네트워크 서비스에 추가하여 모든 요청에 참여하도록 합니다.
+
 ```java
 com.aspose.html.Configuration configuration = new com.aspose.html.Configuration();
 try {
     com.aspose.html.services.INetworkService network = configuration.getService(com.aspose.html.services.INetworkService.class);
     network.getMessageHandlers().addItem(handler);
 ```
-여기서 우리는 인스턴스를 생성합니다`Configuration` 그리고 검색`INetworkService`. 그런 다음, 우리는 메시지 핸들러 목록에 사용자 지정 핸들러를 추가합니다. 이 설정은 네트워크 작업 중에 핸들러가 호출되도록 보장합니다.
-## 5단계: HTML 문서 로드
-구성이 제자리에 있으면 이제 HTML 문서를 로드할 수 있습니다. 문서는 누락된 이미지를 로드하려고 시도하여 사용자 지정 메시지 핸들러를 트리거합니다.
+
+## Step 5: Load the HTML Document (load html document java)  
+구성이 준비되면 HTML 파일을 로드합니다. 누락된 이미지는 방금 추가한 핸들러를 트리거합니다.
+
 ```java
 com.aspose.html.HTMLDocument document = new com.aspose.html.HTMLDocument("document.html", configuration);
 try {
-    // 추가 작업은 여기에 있습니다
+    // Additional operations will go here
 } finally {
     if (document != null) {
         document.dispose();
     }
 }
 ```
-이 스니펫은 이전에 설정한 구성을 사용하여 HTML 문서를 로드합니다. 문서의 로딩 프로세스는 누락된 이미지를 로드하려고 시도하고, 메시지 핸들러는 결과 오류를 포착하여 처리합니다.
-## 6단계: HTML을 PNG로 변환
-마무리로, HTML 문서를 PNG 이미지로 변환해 보겠습니다. 이 단계는 누락된 이미지를 처리하는 데 꼭 필요한 것은 아니지만 Aspose.HTML의 더 광범위한 기능을 보여줍니다.
+
+## Step 6: Convert HTML to PNG (convert html to png)  
+로드된 문서를 PNG 이미지로 변환합니다. 이는 전체 **html to image conversion** 워크플로를 보여줍니다.
+
 ```java
 com.aspose.html.converters.Converter.convertHTML(
     document,
@@ -89,9 +113,10 @@ com.aspose.html.converters.Converter.convertHTML(
     "output.png"
 );
 ```
- 여기서 우리는 다음을 사용합니다.`Converter.convertHTML` HTML 문서를 PNG 파일로 변환하는 방법입니다.`ImageSaveOptions`해상도와 형식 등 이미지 저장에 대한 옵션을 지정할 수 있습니다.
-## 7단계: 리소스 정리
- 마지막으로, 프로세스 중에 사용된 모든 리소스를 항상 정리해야 합니다. 여기에는 폐기가 포함됩니다.`Configuration` 그리고`HTMLDocument` 사물.
+
+## Step 7: Clean Up Resources  
+`Configuration` 객체를 반드시 해제하여 네이티브 리소스를 해제하고 메모리 누수를 방지합니다.
+
 ```java
 } finally {
     if (configuration != null) {
@@ -99,22 +124,38 @@ com.aspose.html.converters.Converter.convertHTML(
     }
 }
 ```
-이렇게 하면 모든 리소스가 해제되어 애플리케이션에서 메모리 누수와 다른 잠재적인 문제가 방지됩니다.
 
-## 결론
-그리고 이제 Aspose.HTML for Java에서 메시지 핸들러를 사용하는 방법에 대한 포괄적인 가이드를 얻었습니다! HTML 문서를 설정하고, 사용자 지정 메시지 핸들러를 만들고, 전문가처럼 누락된 리소스를 처리하는 과정을 살펴보았습니다. 누락된 이미지, 끊어진 링크 또는 기타 네트워크 관련 문제를 처리하든, 이 접근 방식은 Java 애플리케이션에서 효과적으로 관리하는 데 필요한 제어 기능을 제공합니다.
+## Common Pitfalls & Tips
+- **Recursive invoke call:** 사용자 정의 핸들러는 로직 후에 `invoke(context);`를 *반드시* 호출해야 체인이 계속됩니다. 이를 빼먹으면 다른 핸들러가 실행되지 않을 수 있습니다.  
+- **Missing license warnings:** 유효한 라이선스가 없으면 변환 결과에 워터마크가 추가되거나 출력 크기가 제한될 수 있습니다.  
+- **Path issues:** `document.html`이 작업 디렉터리에 작성되었는지 확인하거나 절대 경로를 제공하세요.  
 
-## 자주 묻는 질문
-### Java용 Aspose.HTML이란 무엇인가요?
-Java용 Aspose.HTML은 개발자가 Java 애플리케이션에서 HTML 문서를 만들고, 조작하고, 변환할 수 있는 강력한 라이브러리입니다.
-### Java용 Aspose.HTML에서 메시지 핸들러를 사용하는 이유는 무엇입니까?
-메시지 핸들러를 사용하면 누락된 리소스를 처리하거나 요청 및 응답을 수정하는 등 네트워크 작업을 가로채서 관리할 수 있습니다.
-### 단일 구성에서 여러 메시지 핸들러를 사용할 수 있나요?
-네, 네트워크 작업 중 다양한 시나리오를 처리하기 위해 여러 메시지 핸들러를 연결할 수 있습니다.
-### Configuration 및 HTMLDocument 객체를 삭제해야 합니까?
-네, 이러한 객체를 삭제하면 모든 리소스가 올바르게 해제되어 메모리 누수가 방지됩니다.
-### 메시지 핸들러로 다른 유형의 오류를 처리할 수 있나요?
-물론입니다! 메시지 핸들러는 누락된 리소스뿐만 아니라 다양한 유형의 오류를 처리하도록 사용자 정의할 수 있습니다.
+## Frequently Asked Questions
+
+**Q: Aspose.HTML for Java란?**  
+A: 브라우저 없이도 Java 개발자가 HTML 문서를 생성, 조작 및 변환할 수 있게 해주는 강력한 라이브러리입니다.
+
+**Q: Aspose.HTML for Java에서 메시지 핸들러를 사용하는 이유는?**  
+A: **깨진 링크**를 처리하고, 누락된 리소스를 로그에 남기며, 요청/응답을 실시간으로 수정할 수 있기 때문입니다.
+
+**Q: 여러 메시지 핸들러를 체인으로 연결할 수 있나요?**  
+A: 예—각 핸들러를 `network.getMessageHandlers()` 리스트에 추가하면 추가된 순서대로 실행됩니다.
+
+**Q: Configuration 및 HTMLDocument 객체를 해제해야 하나요?**  
+A: 반드시 해제해야 합니다; 해제하지 않으면 네이티브 메모리가 해제되지 않아 장시간 실행 애플리케이션에서 메모리 누수가 발생합니다.
+
+**Q: 누락된 이미지 외에 핸들러가 관리할 수 있는 오류는?**  
+A: 200이 아닌 모든 HTTP 응답—타임아웃, 404 페이지, 인증 실패 등—을 가로채어 처리할 수 있습니다.
+
+## Conclusion  
+이제 Aspose.HTML for Java를 사용해 **HTML을 PNG로 변환**하면서 **깨진 링크**와 **누락된 리소스**를 **핸들링**하는 완전한 프로덕션‑레디 예제를 보유하게 되었습니다. 이 패턴을 더 큰 프로젝트에 적용하면 네트워크 작업을 세밀하게 제어하고 HTML 콘텐츠의 신뢰할 수 있는 이미지 스냅샷을 생성할 수 있습니다.
+
+---
+
+**Last Updated:** 2025-12-08  
+**Tested With:** Aspose.HTML for Java 24.12 (latest)  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

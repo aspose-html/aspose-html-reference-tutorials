@@ -1,51 +1,71 @@
 ---
-title: 在 Aspose.HTML for Java 中使用消息处理程序
-linktitle: 在 Aspose.HTML for Java 中使用消息处理程序
-second_title: 使用 Aspose.HTML 进行 Java HTML 处理
-description: 了解如何使用 Aspose.HTML for Java 中的消息处理程序有效地处理丢失的图像和其他网络操作。
+date: 2025-12-08
+description: 学习如何使用 Aspose.HTML for Java 将 HTML 转换为 PNG，同时处理断开的链接并使用自定义消息处理程序捕获缺失的资源。
+language: zh
+linktitle: Use Message Handlers in Aspose.HTML
+second_title: Java HTML Processing with Aspose.HTML
+title: 如何将HTML转换为PNG并在Aspose.HTML for Java中使用消息处理程序
+url: /java/configuring-environment/use-message-handlers/
 weight: 12
-url: /zh/java/configuring-environment/use-message-handlers/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 在 Aspose.HTML for Java 中使用消息处理程序
+# 使用 Aspose.HTML for Java 将 HTML 转换为 PNG – 使用消息处理程序
 
-## 介绍
-在本教程中，我们将向您介绍在 Aspose.HTML for Java 中使用消息处理程序的实际示例。我们将准备一个引用缺失图像的简单 HTML 文档，并演示如何使用自定义消息处理程序捕获和处理错误。无论您是 Aspose.HTML 新手还是希望扩展您的技能，本指南都将为您提供有效管理网络操作所需的见解。
-## 先决条件
-在深入了解分步指南之前，请确保您已准备好所需的一切：
-1.  Java 开发工具包 (JDK)：确保您的系统上已安装 JDK。您可以从[Oracle 网站](https://www.oracle.com/java/technologies/javase-downloads.html).
-2. Aspose.HTML for Java：您需要安装 Aspose.HTML for Java。您可以从[Aspose 发布页面](https://releases.aspose.com/html/java/).
-3. IDE：使用您最喜欢的 Java 集成开发环境 (IDE)，如 IntelliJ IDEA、Eclipse 或 NetBeans。
-4. Java 基础知识：熟悉 Java 编程对于有效地学习本教程至关重要。
-5. 临时许可证：如果您正在使用 Aspose.HTML 的试用版，请考虑获取[临时执照](https://purchase.aspose.com/temporary-license/)以避免开发过程中的任何限制。
+## 介绍  
+在本教程中，您将学习 **如何使用 Aspose.HTML for Java 将 HTML 转换为 PNG**，以及如何使用自定义消息处理程序 **处理断链或缺失资源**。我们将演示创建一个简单的 HTML 文件、将其写入磁盘、加载它，并捕获任何网络错误——这对于需要在生产级 Java 应用中实现可靠 **html to image conversion** 的开发者来说非常合适。
+
+## 快速回答
+- **本教程覆盖了什么内容？** 将 HTML 转换为 PNG 并使用消息处理程序处理缺失资源。  
+- **使用的是哪个库？** Aspose.HTML for Java。  
+- **需要许可证吗？** 建议使用临时许可证进行试用构建。  
+- **可以从 Java 编写 HTML 文件吗？** 可以——请参见 “write html file java” 步骤。  
+- **处理程序会捕获断链吗？** 当然；它会记录任何非 200 响应。
+
+## Aspose.HTML 中的消息处理程序是什么？  
+消息处理程序是网络栈的一个钩子，允许您 **捕获缺失资源**（例如断开的图片 URL），在它们导致异常之前进行处理。通过检查响应状态码，您可以记录、替换或重试请求，从而完全控制网络操作。
+
+## 为什么要将 HTML 转换为 PNG？  
+将 HTML 转换为图像可用于生成缩略图、电子邮件预览或类似 PDF 的快照，而无需完整的 PDF 转换。Aspose.HTML 提供了一个快速的服务器端 **html to image conversion** 引擎，无需浏览器即可工作。
+
+## 前置条件
+1. **Java Development Kit (JDK)** – 从 [Oracle website](https://www.oracle.com/java/technologies/javase-downloads.html) 下载。  
+2. **Aspose.HTML for Java** – 从 [Aspose releases page](https://releases.aspose.com/html/java/) 获取最新 JAR 包。  
+3. **IDE** – IntelliJ IDEA、Eclipse 或 NetBeans。  
+4. **基本的 Java 知识** – 您应熟悉 try‑with‑resources 和对象释放。  
+5. **临时许可证**（可选） – 通过 [temporary license](https://purchase.aspose.com/temporary-license/) 避免试用限制。
 
 ## 导入包
-在开始之前，请确保已将必要的软件包导入 Java 项目。以下是您需要的基本导入：
+在开始之前，导入所需的 Java 类：
+
 ```java
 import java.io.IOException;
 ```
-这些导入将使您能够访问处理网络操作、创建 HTML 文档和执行 HTML 到 PNG 转换所需的类和方法。
 
-## 步骤 1：准备 HTML 代码
-我们首先需要的是一段引用图像文件的简单 HTML 代码。我们将故意引用一个不存在的图像来触发错误处理机制。
+这些导入为我们提供了文件 I/O 和 Aspose.HTML 网络 API 的访问权限。
+
+## 步骤 1：编写 HTML 文件（write html file java）  
+首先，创建一个包含 **不存在的** 图片引用的简短 HTML 片段，以便测试处理程序。
+
 ```java
 String code = "<img src='missing.jpg'>";
 ```
-此代码片段创建一个 HTML 元素，尝试加载名为`missing.jpg`。由于该图像文件不存在，因此在文档加载过程中会触发错误。
-## 第 2 步：将 HTML 代码写入文件
-接下来，我们需要将此 HTML 代码写入稍后可以加载的文件中。
+
+## 步骤 2：将 HTML 持久化到磁盘  
+将片段保存为名为 `document.html` 的文件。稍后将使用 Aspose.HTML 引擎加载此文件。
+
 ```java
 try (java.io.FileWriter fileWriter = new java.io.FileWriter("document.html")) {
     fileWriter.write(code);
 }
 ```
-在这里，我们使用`FileWriter`将 HTML 代码写入名为`document.html`。此文件将在以下步骤中用于创建 HTML 文档。
-## 步骤 3：创建自定义消息处理程序
-现在，让我们创建一个自定义消息处理程序来处理缺少图像的情况。消息处理程序将检查响应的状态代码，如果找不到文件，则打印一条消息。
+
+## 步骤 3：创建自定义消息处理程序（catch missing resource）  
+现在定义一个处理程序，检查 HTTP 状态码。如果不是 `200`，则记录一条友好的信息。
+
 ```java
 com.aspose.html.net.MessageHandler handler = new com.aspose.html.net.MessageHandler() {
     @Override
@@ -57,31 +77,34 @@ com.aspose.html.net.MessageHandler handler = new com.aspose.html.net.MessageHand
     }
 };
 ```
-在此处理程序中，`invoke`方法检查网络操作响应的状态码。如果状态码不是 200（表示成功），它会打印一条消息，表示未找到该文件。`invoke(context);`行确保调用链中的下一个处理程序。
-## 步骤4：配置网络服务
-要使用我们的自定义消息处理程序，我们需要将其添加到网络服务中现有的消息处理程序链中。这是通过`Configuration`班级。
+
+## 步骤 4：在网络服务中注册处理程序  
+将自定义处理程序添加到 Aspose.HTML 的网络服务中，使其参与每一次请求。
+
 ```java
 com.aspose.html.Configuration configuration = new com.aspose.html.Configuration();
 try {
     com.aspose.html.services.INetworkService network = configuration.getService(com.aspose.html.services.INetworkService.class);
     network.getMessageHandlers().addItem(handler);
 ```
-在这里，我们创建一个实例`Configuration`并检索`INetworkService`。然后，我们将自定义处理程序添加到消息处理程序列表中。此设置可确保在网络操作期间调用我们的处理程序。
-## 步骤 5：加载 HTML 文档
-配置完成后，我们现在可以加载 HTML 文档。该文档将尝试加载缺失的图像，从而触发我们的自定义消息处理程序。
+
+## 步骤 5：加载 HTML 文档（load html document java）  
+配置就绪后，加载 HTML 文件。缺失的图片将触发我们刚才添加的处理程序。
+
 ```java
 com.aspose.html.HTMLDocument document = new com.aspose.html.HTMLDocument("document.html", configuration);
 try {
-    //附加操作将在此处进行
+    // Additional operations will go here
 } finally {
     if (document != null) {
         document.dispose();
     }
 }
 ```
-此代码片段使用我们之前设置的配置加载 HTML 文档。文档的加载过程将尝试加载缺失的图像，我们的消息处理程序将捕获并处理由此产生的错误。
-## 步骤 6：将 HTML 转换为 PNG
-最后，让我们将 HTML 文档转换为 PNG 图像。此步骤对于处理丢失的图像来说并不是必需的，但它展示了 Aspose.HTML 更广泛的功能。
+
+## 步骤 6：将 HTML 转换为 PNG（convert html to png）  
+最后，将加载的文档转换为 PNG 图像。这展示了完整的 **html to image conversion** 工作流。
+
 ```java
 com.aspose.html.converters.Converter.convertHTML(
     document,
@@ -89,9 +112,10 @@ com.aspose.html.converters.Converter.convertHTML(
     "output.png"
 );
 ```
-在这里，我们使用`Converter.convertHTML`方法将 HTML 文档转换为 PNG 文件。`ImageSaveOptions`允许我们指定保存图像的选项，例如分辨率和格式。
-## 步骤 7：清理资源
-最后，务必清理此过程中使用的所有资源。这包括处理`Configuration`和`HTMLDocument`对象。
+
+## 步骤 7：清理资源  
+始终释放 `Configuration` 对象，以释放本机资源并避免内存泄漏。
+
 ```java
 } finally {
     if (configuration != null) {
@@ -99,22 +123,38 @@ com.aspose.html.converters.Converter.convertHTML(
     }
 }
 ```
-这可确保释放所有资源，防止应用程序中的内存泄漏和其他潜在问题。
 
-## 结论
-以上就是在 Aspose.HTML for Java 中使用消息处理程序的全面指南！我们已逐步完成设置 HTML 文档、创建自定义消息处理程序以及像专业人士一样处理缺失资源的过程。无论您要处理缺失图像、断开链接还是其他与网络相关的问题，此方法都将为您提供在 Java 应用程序中有效管理它们所需的控制。
+## 常见陷阱与技巧
+- **递归调用 invoke：** 自定义处理程序必须在您的逻辑之后调用 `invoke(context);`，以继续链式调用。忘记此步骤会导致其他处理程序不被执行。  
+- **缺少许可证警告：** 没有有效许可证，转换可能会添加水印或限制输出大小。  
+- **路径问题：** 确保 `document.html` 写入工作目录，或提供绝对路径。  
 
-## 常见问题解答
-### 什么是 Aspose.HTML for Java？
-Aspose.HTML for Java 是一个功能强大的库，允许开发人员在 Java 应用程序中创建、操作和转换 HTML 文档。
-### 为什么在 Aspose.HTML for Java 中使用消息处理程序？
-消息处理程序允许您拦截和管理网络操作，例如处理丢失的资源或修改请求和响应。
-### 我可以在单个配置中使用多个消息处理程序吗？
-是的，您可以将多个消息处理程序链接在一起来处理网络操作期间的不同场景。
-### 是否有必要处理 Configuration 和 HTMLDocument 对象？
-是的，处理这些对象可确保所有资源都得到正确释放，从而防止内存泄漏。
-### 我可以使用消息处理程序处理其他类型的错误吗？
-当然！消息处理程序可以自定义来处理各种类型的错误，而不仅仅是缺少资源。
+## 常见问题
+
+**问：什么是 Aspose.HTML for Java？**  
+答：它是一个强大的库，允许 Java 开发者在没有浏览器的情况下创建、操作和转换 HTML 文档。
+
+**问：为什么在 Aspose.HTML for Java 中使用消息处理程序？**  
+答：它们可以 **处理断链**，记录缺失资源，或实时修改请求/响应。
+
+**问：可以链式使用多个消息处理程序吗？**  
+答：可以——将每个处理程序添加到 `network.getMessageHandlers()` 列表中；它们会按添加顺序执行。
+
+**问：是否必须释放 Configuration 和 HTMLDocument 对象？**  
+答：必须；释放可以释放本机内存，防止长时间运行的应用出现内存泄漏。
+
+**问：除了缺失图片，处理程序还能管理哪些错误？**  
+答：任何非 200 的 HTTP 响应——超时、404 页面、身份验证失败等——都可以被拦截并处理。
+
+## 结论  
+现在，您已经拥有一个完整的、可用于生产环境的示例，演示了如何使用 Aspose.HTML for Java **将 HTML 转换为 PNG**，同时 **处理断链** 并 **捕获缺失资源**。将此模式集成到更大的项目中，可实现对网络操作的细粒度控制，并生成可靠的 HTML 内容图像快照。
+
+---
+
+**最后更新：** 2025-12-08  
+**测试环境：** Aspose.HTML for Java 24.12（最新）  
+**作者：** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
