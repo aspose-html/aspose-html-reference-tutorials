@@ -10,7 +10,7 @@ weight: 10
 ---
 
 {{< blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/main-wrap-class >}}
 
 # Jak nastavit okraje HTML stránky v Javě s Aspose.HTML
@@ -158,9 +158,10 @@ Pokud narazíte na problémy, oficiální [dokumentace Aspose.HTML for Java](htt
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/products-backtop-button >}}
 
-{{< blocks/products/pf/tutorial-page-section >}}
 
 ---
 
