@@ -1,11 +1,10 @@
 ---
 date: 2025-12-04
 description: 學習如何在 Aspose.HTML for Java 中設定字元集、將 HTML 轉換為 PDF，並確保文字編碼與呈現正確。
-language: zh-hant
 linktitle: Set Character Set in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 title: 如何在 Aspose.HTML for Java 中設定字元集
-url: /java/configuring-environment/set-character-set/
+url: /zh-hant/java/configuring-environment/set-character-set/
 weight: 10
 ---
 

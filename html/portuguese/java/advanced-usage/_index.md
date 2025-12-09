@@ -3,11 +3,10 @@ date: 2025-11-29
 description: Aprenda a adicionar números de página, definir margens, ajustar o tamanho
   da página PDF, gerar PDF a partir de HTML, monitorar alterações no DOM e converter
   HTML para XPS usando Aspose.HTML para Java.
-language: pt
 linktitle: Advanced Usage of Aspose.HTML Java
 second_title: Java HTML Processing with Aspose.HTML
 title: Adicionar números de página com Aspose.HTML Java – Uso avançado
-url: /java/advanced-usage/
+url: /pt/java/advanced-usage/
 weight: 20
 ---
 

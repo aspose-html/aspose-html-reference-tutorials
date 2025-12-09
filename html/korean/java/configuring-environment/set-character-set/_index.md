@@ -2,11 +2,10 @@
 date: 2025-12-04
 description: Aspose.HTML for Java에서 문자 집합을 설정하는 방법을 배우고, HTML을 PDF로 변환하며, 올바른 텍스트
   인코딩 및 렌더링을 보장하세요.
-language: ko
 linktitle: Set Character Set in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 title: Aspose.HTML for Java에서 문자 집합 설정 방법
-url: /java/configuring-environment/set-character-set/
+url: /ko/java/configuring-environment/set-character-set/
 weight: 10
 ---
 

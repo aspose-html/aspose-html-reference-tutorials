@@ -3,11 +3,10 @@ date: 2025-12-03
 description: Tanulja meg, hogyan automatizálhatja az Aspose.HTML for Java segítségével
   az űrlapok kitöltését és beküldését. Egyszerűsítse a webes interakciót, és hatékonyan
   dolgozza fel a válaszokat.
-language: hu
 linktitle: HTML Form Editor - Filling and Submitting Forms
 second_title: Java HTML Processing with Aspose.HTML
 title: Automatizálja az Aspose HTML űrlap kitöltését az Aspose.HTML for Java-val
-url: /java/advanced-usage/html-form-editor-filling-submitting-forms/
+url: /hu/java/advanced-usage/html-form-editor-filling-submitting-forms/
 weight: 14
 ---
 

@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: Ismerje meg, hogyan állíthatja be a HTML oldal margóit Java-ban az Aspose.HTML
   használatával, és adjon hozzá oldalszámokat és címeket a dokumentumaihoz.
-language: hu
 linktitle: CSS Extensions - Adding Title and Page Number
 second_title: Java HTML Processing with Aspose.HTML
 title: HTML oldal margóinak beállítása Java-val az Aspose.HTML segítségével
-url: /java/advanced-usage/css-extensions-adding-title-page-number/
+url: /hu/java/advanced-usage/css-extensions-adding-title-page-number/
 weight: 10
 ---
 

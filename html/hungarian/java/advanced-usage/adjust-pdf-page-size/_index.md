@@ -3,11 +3,10 @@ date: 2025-12-01
 description: Tanulja meg, hogyan állíthatja be a PDF oldalméretét, hogyan renderelhet
   HTML-t PDF-ként, és hogyan generálhat PDF-et HTML-ből az Aspose.HTML for Java segítségével.
   Könnyedén szabályozhatja az oldal méreteit.
-language: hu
 linktitle: Adjusting PDF Page Size
 second_title: Java HTML Processing with Aspose.HTML
 title: PDF oldalméret beállítása az Aspose.HTML for Java segítségével
-url: /java/advanced-usage/adjust-pdf-page-size/
+url: /hu/java/advanced-usage/adjust-pdf-page-size/
 weight: 15
 ---
 

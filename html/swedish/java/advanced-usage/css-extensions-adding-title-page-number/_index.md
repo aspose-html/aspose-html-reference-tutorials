@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: Lär dig hur du ställer in HTML‑sidmarginaler i Java med Aspose.HTML och
   lägger till sidnummer och titlar i dina dokument.
-language: sv
 linktitle: CSS Extensions - Adding Title and Page Number
 second_title: Java HTML Processing with Aspose.HTML
 title: Hur man ställer in HTML‑sidmarginaler i Java med Aspose.HTML
-url: /java/advanced-usage/css-extensions-adding-title-page-number/
+url: /sv/java/advanced-usage/css-extensions-adding-title-page-number/
 weight: 10
 ---
 

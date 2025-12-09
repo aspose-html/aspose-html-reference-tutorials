@@ -3,10 +3,9 @@ date: 2025-11-30
 description: Tanulja meg, hogyan konvertálhat HTML-t PDF-re Java-val az Aspose.HTML
   segítségével. Fedezze fel a HTML SVG-, TIFF- és Markdown-formátumba való átalakítását,
   az HTML űrlapok automatikus kitöltését, valamint a HTML canvas PDF-re konvertálását.
-language: hu
 linktitle: Aspose.HTML Tutorials
 title: HTML PDF-re Java – Átfogó Aspose.HTML oktatóanyagok
-url: /java/
+url: /hu/java/
 weight: 10
 ---
 

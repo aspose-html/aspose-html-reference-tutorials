@@ -3,11 +3,10 @@ date: 2025-12-04
 description: Μάθετε πώς να αποδίδετε HTML σε PDF χειρίζοντας το HTML5 Canvas με το
   Aspose.HTML για Java. Ακολουθήστε βήμα‑βήμα οδηγίες για την εξαγωγή του καμβά σε
   PDF.
-language: el
 linktitle: HTML5 Canvas Manipulation Using Code
 second_title: Java HTML Processing with Aspose.HTML
 title: 'Μετατροπή HTML σε PDF: Διαχείριση Καμβά με Aspose.HTML για Java'
-url: /java/advanced-usage/html5-canvas-manipulation-using-code/
+url: /el/java/advanced-usage/html5-canvas-manipulation-using-code/
 weight: 12
 ---
 

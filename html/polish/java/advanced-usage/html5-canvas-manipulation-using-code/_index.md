@@ -3,11 +3,10 @@ date: 2025-12-04
 description: Dowiedz się, jak renderować HTML do PDF, manipulując płótnem HTML5 Canvas
   przy użyciu Aspose.HTML dla Javy. Postępuj zgodnie z instrukcjami krok po kroku,
   aby wyeksportować płótno do PDF.
-language: pl
 linktitle: HTML5 Canvas Manipulation Using Code
 second_title: Java HTML Processing with Aspose.HTML
 title: 'Renderowanie HTML do PDF: manipulacja płótnem z Aspose.HTML dla Javy'
-url: /java/advanced-usage/html5-canvas-manipulation-using-code/
+url: /pl/java/advanced-usage/html5-canvas-manipulation-using-code/
 weight: 12
 ---
 

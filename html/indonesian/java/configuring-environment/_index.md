@@ -3,11 +3,10 @@ date: 2025-12-03
 description: Pelajari cara mengonversi HTML ke PDF Java dengan Aspose.HTML. Atur set
   karakter Java, konversi HTML ke PNG Java, konfigurasikan font, dan gunakan penangan
   pesan.
-language: id
 linktitle: Configuring Environment in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 title: Mengonversi HTML ke PDF Java – Mengonfigurasi Lingkungan di Aspose.HTML
-url: /java/configuring-environment/
+url: /id/java/configuring-environment/
 weight: 29
 ---
 

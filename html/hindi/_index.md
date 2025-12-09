@@ -4,10 +4,9 @@ date: 2025-11-30
 description: Aspose.HTML का उपयोग करके HTML को PDF में बदलना, HTML को इमेज के रूप
   में रेंडर करना, और HTML से JPG उत्पन्न करना सीखें – .NET और Java डेवलपर्स के लिए
   चरण‑दर‑चरण ट्यूटोरियल।
-language: hi
 linktitle: Aspose.HTML Tutorials
 title: Aspose.HTML के साथ HTML को PDF में बदलें – पूर्ण मैनिपुलेशन गाइड
-url: /
+url: /hi/
 weight: 11
 ---
 

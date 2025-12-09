@@ -1,11 +1,10 @@
 ---
 date: 2025-12-04
 description: 了解如何在 Aspose.HTML for Java 中设置字符集，将 HTML 转换为 PDF，并确保正确的文本编码和渲染。
-language: zh
 linktitle: Set Character Set in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 title: 如何在 Aspose.HTML for Java 中设置字符集
-url: /java/configuring-environment/set-character-set/
+url: /zh/java/configuring-environment/set-character-set/
 weight: 10
 ---
 

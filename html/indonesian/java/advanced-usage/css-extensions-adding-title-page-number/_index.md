@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: Pelajari cara mengatur margin halaman HTML di Java menggunakan Aspose.HTML,
   serta menambahkan nomor halaman dan judul ke dokumen Anda.
-language: id
 linktitle: CSS Extensions - Adding Title and Page Number
 second_title: Java HTML Processing with Aspose.HTML
 title: Cara Mengatur Margin Halaman HTML dengan Java menggunakan Aspose.HTML
-url: /java/advanced-usage/css-extensions-adding-title-page-number/
+url: /id/java/advanced-usage/css-extensions-adding-title-page-number/
 weight: 10
 ---
 

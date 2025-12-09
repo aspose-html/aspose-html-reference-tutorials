@@ -3,11 +3,10 @@ date: 2025-11-29
 description: Erfahren Sie, wie Sie Seitenzahlen hinzufügen, Ränder festlegen, die
   PDF‑Seitengröße anpassen, PDF aus HTML erzeugen, DOM‑Änderungen überwachen und HTML
   in XPS konvertieren, indem Sie Aspose.HTML für Java verwenden.
-language: de
 linktitle: Advanced Usage of Aspose.HTML Java
 second_title: Java HTML Processing with Aspose.HTML
 title: Seitenzahlen mit Aspose.HTML Java hinzufügen – Erweiterte Nutzung
-url: /java/advanced-usage/
+url: /de/java/advanced-usage/
 weight: 20
 ---
 

@@ -3,11 +3,10 @@ date: 2025-11-29
 description: Pelajari cara menambahkan nomor halaman, mengatur margin, menyesuaikan
   ukuran halaman PDF, menghasilkan PDF dari HTML, memantau perubahan DOM, dan mengonversi
   HTML ke XPS menggunakan Aspose.HTML untuk Java.
-language: id
 linktitle: Advanced Usage of Aspose.HTML Java
 second_title: Java HTML Processing with Aspose.HTML
 title: Menambahkan nomor halaman dengan Aspose.HTML Java – Penggunaan Lanjutan
-url: /java/advanced-usage/
+url: /id/java/advanced-usage/
 weight: 20
 ---
 

@@ -2,11 +2,10 @@
 date: 2025-12-01
 description: Scopri come convertire il canvas in PDF usando JavaScript e Aspose.HTML
   per Java. Crea grafiche dinamiche, disegna testo sul canvas e esporta HTML in PDF.
-language: it
 linktitle: Convert Canvas to PDF Using JavaScript
 second_title: Java HTML Processing with Aspose.HTML
 title: Converti Canvas in PDF con Aspose.HTML per Java
-url: /java/advanced-usage/html5-canvas-manipulation-using-javascript/
+url: /it/java/advanced-usage/html5-canvas-manipulation-using-javascript/
 weight: 13
 ---
 

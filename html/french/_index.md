@@ -4,10 +4,9 @@ date: 2025-11-30
 description: Apprenez à convertir du HTML en PDF, à rendre du HTML sous forme d'image
   et à générer un JPG à partir du HTML avec Aspose.HTML – des tutoriels pas à pas
   pour les développeurs .NET et Java.
-language: fr
 linktitle: Aspose.HTML Tutorials
 title: Convertir HTML en PDF avec Aspose.HTML – Guide complet de manipulation
-url: /
+url: /fr/
 weight: 11
 ---
 

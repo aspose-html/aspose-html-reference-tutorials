@@ -2,11 +2,10 @@
 date: 2025-12-01
 description: JavaScript와 Aspose.HTML for Java를 사용하여 캔버스를 PDF로 변환하는 방법을 배웁니다. 동적 그래픽을
   만들고, 캔버스에 텍스트를 그리며, HTML을 PDF로 내보냅니다.
-language: ko
 linktitle: Convert Canvas to PDF Using JavaScript
 second_title: Java HTML Processing with Aspose.HTML
 title: Aspose.HTML for Java를 사용하여 캔버스를 PDF로 변환
-url: /java/advanced-usage/html5-canvas-manipulation-using-javascript/
+url: /ko/java/advanced-usage/html5-canvas-manipulation-using-javascript/
 weight: 13
 ---
 

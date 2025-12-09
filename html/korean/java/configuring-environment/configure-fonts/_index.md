@@ -2,11 +2,10 @@
 date: 2025-12-03
 description: Aspose.HTML을 사용하여 Java에서 HTML을 PDF로 변환할 때 폰트를 구성하는 방법을 배웁니다. 사용자 정의 폰트,
   임시 Aspose 라이선스 및 고급 변환 설정을 사용하여 HTML에서 PDF를 생성합니다.
-language: ko
 linktitle: Configure Fonts in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 title: Aspose.HTML를 사용한 Java에서 HTML을 PDF로 변환하기 위한 폰트 구성
-url: /java/configuring-environment/configure-fonts/
+url: /ko/java/configuring-environment/configure-fonts/
 weight: 11
 ---
 

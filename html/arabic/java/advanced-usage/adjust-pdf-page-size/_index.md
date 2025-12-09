@@ -2,11 +2,10 @@
 date: 2025-12-01
 description: تعلم كيفية تعديل حجم صفحة PDF، وتحويل HTML إلى PDF، وإنشاء PDF من HTML
   باستخدام Aspose.HTML للغة Java. تحكم في أبعاد الصفحة بسهولة.
-language: ar
 linktitle: Adjusting PDF Page Size
 second_title: Java HTML Processing with Aspose.HTML
 title: ضبط حجم صفحة PDF باستخدام Aspose.HTML للغة Java
-url: /java/advanced-usage/adjust-pdf-page-size/
+url: /ar/java/advanced-usage/adjust-pdf-page-size/
 weight: 15
 ---
 

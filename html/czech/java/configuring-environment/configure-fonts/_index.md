@@ -3,11 +3,10 @@ date: 2025-12-03
 description: Naučte se, jak nakonfigurovat písma pro převod HTML na PDF v Javě pomocí
   Aspose.HTML. Vytvořte PDF z HTML s vlastními písmy, dočasnou licencí Aspose a pokročilými
   nastaveními převodu.
-language: cs
 linktitle: Configure Fonts in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 title: Nastavení fontů pro převod HTML na PDF v Javě s Aspose.HTML
-url: /java/configuring-environment/configure-fonts/
+url: /cs/java/configuring-environment/configure-fonts/
 weight: 11
 ---
 

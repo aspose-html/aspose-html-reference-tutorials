@@ -2,11 +2,10 @@
 date: 2025-12-01
 description: 學習如何使用 JavaScript 與 Aspose.HTML for Java 將 Canvas 轉換為 PDF。建立動態圖形、在 Canvas
   上繪製文字，並將 HTML 匯出為 PDF。
-language: zh-hant
 linktitle: Convert Canvas to PDF Using JavaScript
 second_title: Java HTML Processing with Aspose.HTML
 title: 使用 Aspose.HTML for Java 將 Canvas 轉換為 PDF
-url: /java/advanced-usage/html5-canvas-manipulation-using-javascript/
+url: /zh-hant/java/advanced-usage/html5-canvas-manipulation-using-javascript/
 weight: 13
 ---
 

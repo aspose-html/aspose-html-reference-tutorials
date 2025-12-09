@@ -3,12 +3,11 @@ date: 2025-12-05
 description: Aprenda a crear PDF a partir de HTML configurando una hoja de estilo
   de usuario personalizada en Aspose.HTML para Java y convierta fácilmente HTML a
   PDF con el Servicio de Agente de Usuario.
-language: es
 linktitle: Set User Style Sheet in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 title: Crear PDF a partir de HTML – Establecer hoja de estilo de usuario en Aspose.HTML
   para Java
-url: /java/configuring-environment/set-user-style-sheet/
+url: /es/java/configuring-environment/set-user-style-sheet/
 weight: 16
 ---
 

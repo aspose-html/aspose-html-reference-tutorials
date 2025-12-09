@@ -3,11 +3,10 @@ date: 2025-12-03
 description: Apprenez à configurer les polices pour la conversion HTML en PDF Java
   avec Aspose.HTML. Générez un PDF à partir de HTML en utilisant des polices personnalisées,
   une licence Aspose temporaire et des paramètres de conversion avancés.
-language: fr
 linktitle: Configure Fonts in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 title: Configurer les polices pour la conversion HTML en PDF Java avec Aspose.HTML
-url: /java/configuring-environment/configure-fonts/
+url: /fr/java/configuring-environment/configure-fonts/
 weight: 11
 ---
 

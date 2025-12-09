@@ -1,11 +1,10 @@
 ---
 date: 2025-12-05
 description: 學習如何使用 Aspose.HTML 設定 HTML 頁面邊距，並為文件加入頁碼與標題。
-language: zh-hant
 linktitle: CSS Extensions - Adding Title and Page Number
 second_title: Java HTML Processing with Aspose.HTML
 title: 如何使用 Aspose.HTML 在 Java 中設定 HTML 頁面邊距
-url: /java/advanced-usage/css-extensions-adding-title-page-number/
+url: /zh-hant/java/advanced-usage/css-extensions-adding-title-page-number/
 weight: 10
 ---
 

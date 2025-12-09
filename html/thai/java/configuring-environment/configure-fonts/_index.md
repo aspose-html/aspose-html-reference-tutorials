@@ -3,11 +3,10 @@ date: 2025-12-03
 description: เรียนรู้วิธีกำหนดค่าแบบอักษรสำหรับการแปลง HTML เป็น PDF ด้วย Java โดยใช้
   Aspose.HTML สร้าง PDF จาก HTML ด้วยแบบอักษรที่กำหนดเอง, ใบอนุญาต Aspose ชั่วคราว,
   และการตั้งค่าการแปลงขั้นสูง.
-language: th
 linktitle: Configure Fonts in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 title: กำหนดค่าแบบอักษรสำหรับการแปลง HTML เป็น PDF ใน Java ด้วย Aspose.HTML
-url: /java/configuring-environment/configure-fonts/
+url: /th/java/configuring-environment/configure-fonts/
 weight: 11
 ---
 

@@ -2,11 +2,10 @@
 date: 2025-12-04
 description: Lär dig hur du ställer in teckenkodning i Aspose.HTML för Java, konverterar
   HTML till PDF och säkerställer korrekt textkodning och rendering.
-language: sv
 linktitle: Set Character Set in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 title: Hur man ställer in teckenkodning i Aspose.HTML för Java
-url: /java/configuring-environment/set-character-set/
+url: /sv/java/configuring-environment/set-character-set/
 weight: 10
 ---
 

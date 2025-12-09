@@ -2,11 +2,10 @@
 date: 2025-12-04
 description: 学习如何使用 Aspose.HTML for Java 操作 HTML5 Canvas 将 HTML 渲染为 PDF。按照一步一步的说明将
   Canvas 导出为 PDF。
-language: zh
 linktitle: HTML5 Canvas Manipulation Using Code
 second_title: Java HTML Processing with Aspose.HTML
 title: 将HTML渲染为PDF：使用 Aspose.HTML for Java 进行画布操作
-url: /java/advanced-usage/html5-canvas-manipulation-using-code/
+url: /zh/java/advanced-usage/html5-canvas-manipulation-using-code/
 weight: 12
 ---
 

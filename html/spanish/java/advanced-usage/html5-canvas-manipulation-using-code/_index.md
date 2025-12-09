@@ -2,11 +2,10 @@
 date: 2025-12-04
 description: Aprende a renderizar HTML a PDF manipulando el lienzo HTML5 con Aspose.HTML
   para Java. Sigue instrucciones paso a paso para exportar el lienzo como PDF.
-language: es
 linktitle: HTML5 Canvas Manipulation Using Code
 second_title: Java HTML Processing with Aspose.HTML
 title: 'Renderizar HTML a PDF: Manipulación de Canvas con Aspose.HTML para Java'
-url: /java/advanced-usage/html5-canvas-manipulation-using-code/
+url: /es/java/advanced-usage/html5-canvas-manipulation-using-code/
 weight: 12
 ---
 

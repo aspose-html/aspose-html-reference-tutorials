@@ -2,11 +2,10 @@
 date: 2025-12-04
 description: Aspose.HTML for Java を使用して HTML5 Canvas を操作し、HTML を PDF にレンダリングする方法を学びましょう。ステップバイステップの手順に従って、Canvas
   を PDF としてエクスポートします。
-language: ja
 linktitle: HTML5 Canvas Manipulation Using Code
 second_title: Java HTML Processing with Aspose.HTML
 title: HTMLをPDFにレンダリング：Java用Aspose.HTMLによるキャンバス操作
-url: /java/advanced-usage/html5-canvas-manipulation-using-code/
+url: /ja/java/advanced-usage/html5-canvas-manipulation-using-code/
 weight: 12
 ---
 

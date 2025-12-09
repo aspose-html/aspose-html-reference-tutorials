@@ -1,11 +1,10 @@
 ---
 date: 2025-12-05
 description: Aspose.HTML を使用して Java で HTML ページの余白を設定し、ドキュメントにページ番号とタイトルを追加する方法を学びましょう。
-language: ja
 linktitle: CSS Extensions - Adding Title and Page Number
 second_title: Java HTML Processing with Aspose.HTML
 title: Aspose.HTML を使用した Java で HTML ページの余白を設定する方法
-url: /java/advanced-usage/css-extensions-adding-title-page-number/
+url: /ja/java/advanced-usage/css-extensions-adding-title-page-number/
 weight: 10
 ---
 

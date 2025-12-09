@@ -2,11 +2,10 @@
 date: 2025-12-04
 description: Pelajari cara mengatur charset di Aspose.HTML untuk Java, mengonversi
   HTML ke PDF, dan memastikan pengkodean teks serta rendering yang tepat.
-language: id
 linktitle: Set Character Set in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 title: Cara Mengatur Charset di Aspose.HTML untuk Java
-url: /java/configuring-environment/set-character-set/
+url: /id/java/configuring-environment/set-character-set/
 weight: 10
 ---
 

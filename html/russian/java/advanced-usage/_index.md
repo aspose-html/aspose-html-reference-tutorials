@@ -3,11 +3,10 @@ date: 2025-11-29
 description: Узнайте, как добавить номера страниц, установить поля, настроить размер
   страницы PDF, генерировать PDF из HTML, отслеживать изменения DOM и конвертировать
   HTML в XPS с помощью Aspose.HTML для Java.
-language: ru
 linktitle: Advanced Usage of Aspose.HTML Java
 second_title: Java HTML Processing with Aspose.HTML
 title: Добавить номера страниц с Aspose.HTML Java – расширенное использование
-url: /java/advanced-usage/
+url: /ru/java/advanced-usage/
 weight: 20
 ---
 

@@ -3,11 +3,10 @@ date: 2025-11-29
 description: Aspose.HTML for Java kullanarak sayfa numaraları eklemeyi, kenar boşluklarını
   ayarlamayı, PDF sayfa boyutunu düzenlemeyi, HTML'den PDF oluşturmayı, DOM değişikliklerini
   izlemeyi ve HTML'yi XPS'ye dönüştürmeyi öğrenin.
-language: tr
 linktitle: Advanced Usage of Aspose.HTML Java
 second_title: Java HTML Processing with Aspose.HTML
 title: Aspose.HTML Java ile sayfa numaraları ekleme – Gelişmiş Kullanım
-url: /java/advanced-usage/
+url: /tr/java/advanced-usage/
 weight: 20
 ---
 

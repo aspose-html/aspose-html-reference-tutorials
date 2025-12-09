@@ -2,11 +2,10 @@
 date: 2025-11-30
 description: 学习如何在 Java 中使用 Aspose.HTML 的 Mutation Observer 将元素追加到 body 并监控 DOM 更改。包括创建
   HTML 文档的步骤以及断开 Mutation Observer 的连接。
-language: zh
 linktitle: Append Element to Body - Observing Node Additions
 second_title: Java HTML Processing with Aspose.HTML
 title: 使用 DOM 变更观察器在 Aspose.HTML for Java 中向 Body 追加元素
-url: /java/advanced-usage/dom-mutation-observer-observing-node-additions/
+url: /zh/java/advanced-usage/dom-mutation-observer-observing-node-additions/
 weight: 11
 ---
 

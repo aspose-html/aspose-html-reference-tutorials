@@ -4,10 +4,9 @@ date: 2025-11-30
 description: Aspose.HTML kullanarak HTML'yi PDF'ye dönüştürmeyi, HTML'yi görüntü olarak
   render etmeyi ve HTML'den JPG oluşturmayı öğrenin – .NET ve Java geliştiricileri
   için adım adım öğreticiler.
-language: tr
 linktitle: Aspose.HTML Tutorials
 title: Aspose.HTML ile HTML'yi PDF'ye Dönüştür – Tam Manipülasyon Rehberi
-url: /
+url: /tr/
 weight: 11
 ---
 

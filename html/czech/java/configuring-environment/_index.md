@@ -3,11 +3,10 @@ date: 2025-12-03
 description: Naučte se, jak převést HTML na PDF v Javě pomocí Aspose.HTML. Nastavte
   znakovou sadu v Javě, převádějte HTML na PNG v Javě, konfigurujte písma a používejte
   zpracovatele zpráv.
-language: cs
 linktitle: Configuring Environment in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 title: Převod HTML na PDF v Javě – Konfigurace prostředí v Aspose.HTML
-url: /java/configuring-environment/
+url: /cs/java/configuring-environment/
 weight: 29
 ---
 

@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: Μάθετε πώς να ορίζετε τα περιθώρια σελίδας HTML με Java χρησιμοποιώντας
   το Aspose.HTML και να προσθέτετε αριθμούς σελίδων και τίτλους στα έγγραφά σας.
-language: el
 linktitle: CSS Extensions - Adding Title and Page Number
 second_title: Java HTML Processing with Aspose.HTML
 title: Πώς να ορίσετε τα περιθώρια σελίδας HTML σε Java με το Aspose.HTML
-url: /java/advanced-usage/css-extensions-adding-title-page-number/
+url: /el/java/advanced-usage/css-extensions-adding-title-page-number/
 weight: 10
 ---
 

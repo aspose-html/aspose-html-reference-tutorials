@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Pelajari cara membuat PDF dari HTML dengan mengatur stylesheet pengguna
   khusus di Aspose.HTML untuk Java, dan dengan mudah mengonversi HTML ke PDF menggunakan
   Layanan Agen Pengguna.
-language: id
 linktitle: Set User Style Sheet in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 title: Buat PDF dari HTML – Atur Lembar Gaya Pengguna di Aspose.HTML untuk Java
-url: /java/configuring-environment/set-user-style-sheet/
+url: /id/java/configuring-environment/set-user-style-sheet/
 weight: 16
 ---
 

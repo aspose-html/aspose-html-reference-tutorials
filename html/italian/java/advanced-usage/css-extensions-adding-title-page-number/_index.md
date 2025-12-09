@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: Scopri come impostare i margini delle pagine HTML in Java usando Aspose.HTML
   e aggiungere numeri di pagina e titoli ai tuoi documenti.
-language: it
 linktitle: CSS Extensions - Adding Title and Page Number
 second_title: Java HTML Processing with Aspose.HTML
 title: Come impostare i margini della pagina HTML in Java con Aspose.HTML
-url: /java/advanced-usage/css-extensions-adding-title-page-number/
+url: /it/java/advanced-usage/css-extensions-adding-title-page-number/
 weight: 10
 ---
 

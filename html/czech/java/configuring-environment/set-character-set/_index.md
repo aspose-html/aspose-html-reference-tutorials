@@ -2,11 +2,10 @@
 date: 2025-12-04
 description: Naučte se, jak nastavit znakovou sadu v Aspose.HTML pro Javu, převést
   HTML do PDF a zajistit správné kódování textu a vykreslování.
-language: cs
 linktitle: Set Character Set in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 title: Jak nastavit znakovou sadu v Aspose.HTML pro Java
-url: /java/configuring-environment/set-character-set/
+url: /cs/java/configuring-environment/set-character-set/
 weight: 10
 ---
 

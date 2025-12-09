@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: Aspose.HTML for Java를 사용하여 HTML 파일을 생성하고, 네트워크 리소스를 관리하며, HTML을 PNG로
   변환하는 방법을 사용자 지정 오류 처리와 함께 배우세요.
-language: ko
 linktitle: Set Up Network Service in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 title: HTML 파일 생성 및 네트워크 서비스 설정 (Aspose.HTML Java)
-url: /java/configuring-environment/setup-network-service/
+url: /ko/java/configuring-environment/setup-network-service/
 weight: 13
 ---
 

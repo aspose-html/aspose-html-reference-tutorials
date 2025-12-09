@@ -3,10 +3,9 @@ additionalTitle: Aspose API References
 date: 2025-11-30
 description: Aspose.HTML를 사용하여 HTML을 PDF로 변환하고, HTML을 이미지로 렌더링하며, HTML에서 JPG를 생성하는
   방법을 배우세요 – .NET 및 Java 개발자를 위한 단계별 튜토리얼.
-language: ko
 linktitle: Aspose.HTML Tutorials
 title: Aspose.HTML를 사용하여 HTML을 PDF로 변환 – 전체 조작 가이드
-url: /
+url: /ko/
 weight: 11
 ---
 

@@ -3,11 +3,10 @@ date: 2025-12-03
 description: Leer hoe je lettertypen configureert voor HTML naar PDF Java met Aspose.HTML.
   Genereer PDF vanuit HTML met aangepaste lettertypen, een tijdelijke Aspose-licentie
   en geavanceerde conversie‑instellingen.
-language: nl
 linktitle: Configure Fonts in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 title: Lettertypen configureren voor HTML naar PDF Java met Aspose.HTML
-url: /java/configuring-environment/configure-fonts/
+url: /nl/java/configuring-environment/configure-fonts/
 weight: 11
 ---
 

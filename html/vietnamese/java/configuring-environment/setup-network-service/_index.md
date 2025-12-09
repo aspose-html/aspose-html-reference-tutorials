@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: Tìm hiểu cách tạo tệp HTML, quản lý tài nguyên mạng và chuyển đổi HTML
   sang PNG bằng Aspose.HTML cho Java với xử lý lỗi tùy chỉnh.
-language: vi
 linktitle: Set Up Network Service in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 title: Tạo tệp HTML & Thiết lập dịch vụ mạng (Aspose.HTML Java)
-url: /java/configuring-environment/setup-network-service/
+url: /vi/java/configuring-environment/setup-network-service/
 weight: 13
 ---
 

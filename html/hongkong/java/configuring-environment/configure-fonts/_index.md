@@ -2,11 +2,10 @@
 date: 2025-12-03
 description: 學習如何在 Java 中使用 Aspose.HTML 配置 HTML 轉 PDF 的字型。使用自訂字型、臨時 Aspose 授權以及進階轉換設定，從
   HTML 產生 PDF。
-language: zh-hant
 linktitle: Configure Fonts in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 title: 在 Java 中使用 Aspose.HTML 配置 HTML 轉 PDF 的字型
-url: /java/configuring-environment/configure-fonts/
+url: /zh-hant/java/configuring-environment/configure-fonts/
 weight: 11
 ---
 

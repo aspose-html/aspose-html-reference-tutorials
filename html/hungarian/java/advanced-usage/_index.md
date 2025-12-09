@@ -3,11 +3,10 @@ date: 2025-11-29
 description: Tanulja meg, hogyan adhat hozzá oldalszámokat, állíthat be margókat,
   módosíthatja a PDF oldalméretét, generálhat PDF-et HTML-ből, figyelheti a DOM változásait,
   és konvertálhat HTML-t XPS-be az Aspose.HTML for Java segítségével.
-language: hu
 linktitle: Advanced Usage of Aspose.HTML Java
 second_title: Java HTML Processing with Aspose.HTML
 title: Oldalszámok hozzáadása az Aspose.HTML Java-val – Haladó használat
-url: /java/advanced-usage/
+url: /hu/java/advanced-usage/
 weight: 20
 ---
 

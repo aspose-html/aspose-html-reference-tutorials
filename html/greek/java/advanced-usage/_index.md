@@ -3,11 +3,10 @@ date: 2025-11-29
 description: Μάθετε πώς να προσθέτετε αριθμούς σελίδων, να ορίζετε περιθώρια, να προσαρμόζετε
   το μέγεθος σελίδας PDF, να δημιουργείτε PDF από HTML, να παρακολουθείτε αλλαγές
   στο DOM και να μετατρέπετε HTML σε XPS χρησιμοποιώντας το Aspose.HTML για Java.
-language: el
 linktitle: Advanced Usage of Aspose.HTML Java
 second_title: Java HTML Processing with Aspose.HTML
 title: Προσθήκη αριθμών σελίδων με το Aspose.HTML Java – Προχωρημένη χρήση
-url: /java/advanced-usage/
+url: /el/java/advanced-usage/
 weight: 20
 ---
 

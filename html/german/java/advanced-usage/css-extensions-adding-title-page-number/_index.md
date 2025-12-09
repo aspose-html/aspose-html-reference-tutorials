@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: Erfahren Sie, wie Sie HTML‑Seitenränder in Java mit Aspose.HTML festlegen
   und Seitenzahlen sowie Titel zu Ihren Dokumenten hinzufügen.
-language: de
 linktitle: CSS Extensions - Adding Title and Page Number
 second_title: Java HTML Processing with Aspose.HTML
 title: Wie man HTML‑Seitenränder in Java mit Aspose.HTML festlegt
-url: /java/advanced-usage/css-extensions-adding-title-page-number/
+url: /de/java/advanced-usage/css-extensions-adding-title-page-number/
 weight: 10
 ---
 

@@ -2,12 +2,11 @@
 date: 2025-11-29
 description: Leer hoe u HTML naar XPS kunt converteren en de XPS-paginagrootte kunt
   aanpassen met Aspose.HTML voor Java. Beheer de uitvoerafmetingen eenvoudig.
-language: nl
 linktitle: Adjusting XPS Page Size
 second_title: Java HTML Processing with Aspose.HTML
 title: HTML naar XPS converteren en XPS-paginagrootte aanpassen met Aspose.HTML voor
   Java
-url: /java/advanced-usage/adjust-xps-page-size/
+url: /nl/java/advanced-usage/adjust-xps-page-size/
 weight: 16
 ---
 

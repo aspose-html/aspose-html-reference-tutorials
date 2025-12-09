@@ -2,11 +2,10 @@
 date: 2025-12-01
 description: Aspose.HTML for Java를 사용하여 PDF 페이지 크기를 조정하고, HTML을 PDF로 렌더링하며, HTML에서
   PDF를 생성하는 방법을 배우세요. 페이지 크기를 쉽게 제어할 수 있습니다.
-language: ko
 linktitle: Adjusting PDF Page Size
 second_title: Java HTML Processing with Aspose.HTML
 title: Aspose.HTML for Java를 사용하여 PDF 페이지 크기 조정
-url: /java/advanced-usage/adjust-pdf-page-size/
+url: /ko/java/advanced-usage/adjust-pdf-page-size/
 weight: 15
 ---
 

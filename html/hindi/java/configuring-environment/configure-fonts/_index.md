@@ -3,11 +3,10 @@ date: 2025-12-03
 description: Aspose.HTML का उपयोग करके जावा में HTML से PDF के लिए फ़ॉन्ट कॉन्फ़िगर
   करना सीखें। कस्टम फ़ॉन्ट, अस्थायी Aspose लाइसेंस, और उन्नत रूपांतरण सेटिंग्स के
   साथ HTML से PDF जनरेट करें।
-language: hi
 linktitle: Configure Fonts in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 title: Aspose.HTML के साथ HTML से PDF जावा के लिए फ़ॉन्ट कॉन्फ़िगर करें
-url: /java/configuring-environment/configure-fonts/
+url: /hi/java/configuring-environment/configure-fonts/
 weight: 11
 ---
 

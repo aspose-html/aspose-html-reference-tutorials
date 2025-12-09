@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: 学习如何使用 Aspose.HTML for Java 创建 HTML 文件、管理网络资源，并在自定义错误处理的情况下将 HTML 转换为
   PNG。
-language: zh
 linktitle: Set Up Network Service in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 title: 创建 HTML 文件并设置网络服务（Aspose.HTML Java）
-url: /java/configuring-environment/setup-network-service/
+url: /zh/java/configuring-environment/setup-network-service/
 weight: 13
 ---
 

@@ -3,12 +3,11 @@ date: 2025-12-05
 description: Ismerje meg, hogyan hozhat létre PDF-et HTML-ből egy egyéni felhasználói
   stíluslap beállításával az Aspose.HTML for Java-ban, és egyszerűen konvertálhatja
   a HTML-t PDF-re a User Agent Service segítségével.
-language: hu
 linktitle: Set User Style Sheet in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 title: PDF létrehozása HTML‑ből – Felhasználói stíluslap beállítása az Aspose.HTML
   for Java‑ban
-url: /java/configuring-environment/set-user-style-sheet/
+url: /hu/java/configuring-environment/set-user-style-sheet/
 weight: 16
 ---
 

@@ -1,11 +1,10 @@
 ---
 date: 2025-12-04
 description: Aspose.HTML for Javaで文字セットの設定方法を学び、HTMLをPDFに変換し、適切なテキストエンコーディングとレンダリングを確保します。
-language: ja
 linktitle: Set Character Set in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 title: Aspose.HTML for Javaで文字セットを設定する方法
-url: /java/configuring-environment/set-character-set/
+url: /ja/java/configuring-environment/set-character-set/
 weight: 10
 ---
 

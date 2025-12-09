@@ -1,11 +1,10 @@
 ---
 date: 2025-12-01
 description: 学习如何使用 Aspose.HTML for Java 调整 PDF 页面大小、将 HTML 渲染为 PDF 并从 HTML 生成 PDF。轻松控制页面尺寸。
-language: zh
 linktitle: Adjusting PDF Page Size
 second_title: Java HTML Processing with Aspose.HTML
 title: 使用 Aspose.HTML for Java 调整 PDF 页面大小
-url: /java/advanced-usage/adjust-pdf-page-size/
+url: /zh/java/advanced-usage/adjust-pdf-page-size/
 weight: 15
 ---
 

@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: 了解如何通过在 Aspose.HTML for Java 中设置自定义用户样式表来从 HTML 创建 PDF，并使用用户代理服务轻松将 HTML
   转换为 PDF。
-language: zh
 linktitle: Set User Style Sheet in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 title: 从HTML创建PDF – 在 Aspose.HTML for Java 中设置用户样式表
-url: /java/configuring-environment/set-user-style-sheet/
+url: /zh/java/configuring-environment/set-user-style-sheet/
 weight: 16
 ---
 

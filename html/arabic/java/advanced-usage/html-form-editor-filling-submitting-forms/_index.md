@@ -2,11 +2,10 @@
 date: 2025-12-03
 description: تعرّف على كيفية أتمتة تعبئة نموذج Aspose HTML وإرساله باستخدام Aspose.HTML
   للغة Java. قم بتبسيط التفاعل مع الويب ومعالجة الردود بكفاءة.
-language: ar
 linktitle: HTML Form Editor - Filling and Submitting Forms
 second_title: Java HTML Processing with Aspose.HTML
 title: أتمتة تعبئة نماذج Aspose HTML باستخدام Aspose.HTML للـ Java
-url: /java/advanced-usage/html-form-editor-filling-submitting-forms/
+url: /ar/java/advanced-usage/html-form-editor-filling-submitting-forms/
 weight: 14
 ---
 

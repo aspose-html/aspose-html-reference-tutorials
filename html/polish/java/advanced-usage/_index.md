@@ -3,11 +3,10 @@ date: 2025-11-29
 description: Dowiedz się, jak dodać numery stron, ustawić marginesy, dostosować rozmiar
   strony PDF, generować PDF z HTML, monitorować zmiany DOM oraz konwertować HTML do
   XPS przy użyciu Aspose.HTML dla Javy.
-language: pl
 linktitle: Advanced Usage of Aspose.HTML Java
 second_title: Java HTML Processing with Aspose.HTML
 title: Dodaj numery stron przy użyciu Aspose.HTML Java – Zaawansowane użycie
-url: /java/advanced-usage/
+url: /pl/java/advanced-usage/
 weight: 20
 ---
 

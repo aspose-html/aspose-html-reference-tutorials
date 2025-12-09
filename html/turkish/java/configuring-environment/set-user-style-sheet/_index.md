@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Aspose.HTML for Java'da özel bir kullanıcı stil sayfası ayarlayarak HTML'den
   PDF oluşturmayı öğrenin ve Kullanıcı Aracısı Servisi ile HTML'yi PDF'ye kolayca
   dönüştürün.
-language: tr
 linktitle: Set User Style Sheet in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 title: HTML'den PDF Oluştur – Aspose.HTML for Java'da Kullanıcı Stil Sayfasını Ayarla
-url: /java/configuring-environment/set-user-style-sheet/
+url: /tr/java/configuring-environment/set-user-style-sheet/
 weight: 16
 ---
 

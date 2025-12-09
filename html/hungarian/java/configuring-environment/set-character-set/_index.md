@@ -3,11 +3,10 @@ date: 2025-12-04
 description: Tanulja meg, hogyan állíthatja be a karakterkészletet az Aspose.HTML
   for Java-ban, hogyan konvertálhat HTML-t PDF-be, és hogyan biztosíthatja a megfelelő
   szövegkódolást és megjelenítést.
-language: hu
 linktitle: Set Character Set in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 title: Hogyan állítsuk be a karakterkészletet az Aspose.HTML for Java-ban
-url: /java/configuring-environment/set-character-set/
+url: /hu/java/configuring-environment/set-character-set/
 weight: 10
 ---
 

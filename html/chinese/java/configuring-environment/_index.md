@@ -1,11 +1,10 @@
 ---
 date: 2025-12-03
 description: 学习如何使用 Aspose.HTML 将 HTML 转换为 PDF（Java）。设置字符集（Java），将 HTML 转换为 PNG（Java），配置字体，并使用消息处理程序。
-language: zh
 linktitle: Configuring Environment in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 title: 将 HTML 转换为 PDF（Java）– 在 Aspose.HTML 中配置环境
-url: /java/configuring-environment/
+url: /zh/java/configuring-environment/
 weight: 29
 ---
 

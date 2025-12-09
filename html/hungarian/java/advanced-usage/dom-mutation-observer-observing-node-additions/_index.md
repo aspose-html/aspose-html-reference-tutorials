@@ -3,12 +3,11 @@ date: 2025-11-30
 description: Ismerje meg, hogyan adhat elemet a body-hoz, és figyelheti a DOM változásait
   Java-ban az Aspose.HTML Mutation Observer segítségével. Tartalmazza a HTML dokumentum
   Java-ban történő létrehozásának lépéseit és a mutation observer lekapcsolását.
-language: hu
 linktitle: Append Element to Body - Observing Node Additions
 second_title: Java HTML Processing with Aspose.HTML
 title: Elem hozzáfűzése a body-hoz az Aspose.HTML for Java-val DOM mutációfigyelő
   használatával
-url: /java/advanced-usage/dom-mutation-observer-observing-node-additions/
+url: /hu/java/advanced-usage/dom-mutation-observer-observing-node-additions/
 weight: 11
 ---
 

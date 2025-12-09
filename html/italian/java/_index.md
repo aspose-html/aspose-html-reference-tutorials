@@ -3,10 +3,9 @@ date: 2025-11-30
 description: Scopri come convertire HTML in PDF usando Java con Aspose.HTML. Esplora
   la conversione di HTML in SVG, TIFF, Markdown, l'automazione della compilazione
   di moduli HTML e la conversione di canvas HTML in PDF.
-language: it
 linktitle: Aspose.HTML Tutorials
 title: HTML in PDF Java – Tutorial completi di Aspose.HTML
-url: /java/
+url: /it/java/
 weight: 10
 ---
 

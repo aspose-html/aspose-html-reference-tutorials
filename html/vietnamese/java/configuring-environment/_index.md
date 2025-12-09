@@ -3,11 +3,10 @@ date: 2025-12-03
 description: Tìm hiểu cách chuyển đổi HTML sang PDF Java với Aspose.HTML. Đặt bộ ký
   tự Java, chuyển đổi HTML sang PNG Java, cấu hình phông chữ và sử dụng trình xử lý
   tin nhắn.
-language: vi
 linktitle: Configuring Environment in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 title: Chuyển đổi HTML sang PDF Java – Cấu hình môi trường trong Aspose.HTML
-url: /java/configuring-environment/
+url: /vi/java/configuring-environment/
 weight: 29
 ---
 

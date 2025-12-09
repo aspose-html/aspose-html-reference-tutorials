@@ -3,11 +3,10 @@ date: 2025-12-03
 description: Pelajari cara mengonfigurasi font untuk html ke pdf java menggunakan
   Aspose.HTML. Hasilkan PDF dari HTML dengan font khusus, lisensi Aspose sementara,
   dan pengaturan konversi lanjutan.
-language: id
 linktitle: Configure Fonts in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 title: Konfigurasikan Font untuk HTML ke PDF Java dengan Aspose.HTML
-url: /java/configuring-environment/configure-fonts/
+url: /id/java/configuring-environment/configure-fonts/
 weight: 11
 ---
 

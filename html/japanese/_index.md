@@ -3,10 +3,9 @@ additionalTitle: Aspose API References
 date: 2025-11-30
 description: Aspose.HTML を使用して HTML を PDF に変換し、HTML を画像としてレンダリングし、HTML から JPG を生成する方法を学びましょう
   – .NET および Java 開発者向けのステップバイステップチュートリアルです。
-language: ja
 linktitle: Aspose.HTML Tutorials
 title: Aspose.HTMLでHTMLをPDFに変換 – 完全操作ガイド
-url: /
+url: /ja/
 weight: 11
 ---
 

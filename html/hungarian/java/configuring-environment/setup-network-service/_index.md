@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: Tanulja meg, hogyan hozhat létre HTML-fájlt, kezelheti a hálózati erőforrásokat,
   és konvertálhatja a HTML-t PNG-re az Aspose.HTML for Java segítségével egyedi hiba‑kezeléssel.
-language: hu
 linktitle: Set Up Network Service in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 title: HTML-fájl létrehozása és hálózati szolgáltatás beállítása (Aspose.HTML Java)
-url: /java/configuring-environment/setup-network-service/
+url: /hu/java/configuring-environment/setup-network-service/
 weight: 13
 ---
 

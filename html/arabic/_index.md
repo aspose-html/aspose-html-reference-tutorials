@@ -3,10 +3,9 @@ additionalTitle: Aspose API References
 date: 2025-11-30
 description: تعلم كيفية تحويل HTML إلى PDF، وعرض HTML كصورة، وإنشاء JPG من HTML باستخدام
   Aspose.HTML – دروس خطوة بخطوة لمطوري .NET و Java.
-language: ar
 linktitle: Aspose.HTML Tutorials
 title: تحويل HTML إلى PDF باستخدام Aspose.HTML – دليل شامل للمعالجة
-url: /
+url: /ar/
 weight: 11
 ---
 

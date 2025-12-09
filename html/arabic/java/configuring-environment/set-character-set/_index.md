@@ -2,11 +2,10 @@
 date: 2025-12-04
 description: تعلم كيفية تعيين مجموعة الأحرف في Aspose.HTML للغة Java، وتحويل HTML
   إلى PDF، وضمان الترميز الصحيح للنص وعرضه.
-language: ar
 linktitle: Set Character Set in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 title: كيفية تعيين مجموعة الأحرف في Aspose.HTML للـ Java
-url: /java/configuring-environment/set-character-set/
+url: /ar/java/configuring-environment/set-character-set/
 weight: 10
 ---
 

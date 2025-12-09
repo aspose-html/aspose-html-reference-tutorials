@@ -2,11 +2,10 @@
 date: 2025-12-04
 description: Scopri come impostare il set di caratteri in Aspose.HTML per Java, convertire
   HTML in PDF e garantire una corretta codifica e visualizzazione del testo.
-language: it
 linktitle: Set Character Set in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 title: Come impostare il charset in Aspose.HTML per Java
-url: /java/configuring-environment/set-character-set/
+url: /it/java/configuring-environment/set-character-set/
 weight: 10
 ---
 

@@ -2,11 +2,10 @@
 date: 2025-11-30
 description: Aspose.HTML の Mutation Observer を使用して、Java で要素を body に追加し、DOM の変更を監視する方法を学びます。HTML
   ドキュメントを Java で作成し、Mutation Observer を切断する手順が含まれています。
-language: ja
 linktitle: Append Element to Body - Observing Node Additions
 second_title: Java HTML Processing with Aspose.HTML
 title: DOMミューテーションオブザーバーを使用したAspose.HTML for Javaで要素をBodyに追加する
-url: /java/advanced-usage/dom-mutation-observer-observing-node-additions/
+url: /ja/java/advanced-usage/dom-mutation-observer-observing-node-additions/
 weight: 11
 ---
 

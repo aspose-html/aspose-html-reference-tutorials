@@ -4,10 +4,9 @@ date: 2025-11-30
 description: Pelajari cara mengonversi HTML ke PDF, merender HTML sebagai gambar,
   dan menghasilkan JPG dari HTML menggunakan Aspose.HTML – tutorial langkah demi langkah
   untuk pengembang .NET dan Java.
-language: id
 linktitle: Aspose.HTML Tutorials
 title: Konversi HTML ke PDF dengan Aspose.HTML – Panduan Manipulasi Lengkap
-url: /
+url: /id/
 weight: 11
 ---
 

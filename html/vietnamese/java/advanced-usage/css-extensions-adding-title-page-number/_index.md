@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: Tìm hiểu cách thiết lập lề trang HTML trong Java bằng Aspose.HTML và
   thêm số trang cùng tiêu đề vào tài liệu của bạn.
-language: vi
 linktitle: CSS Extensions - Adding Title and Page Number
 second_title: Java HTML Processing with Aspose.HTML
 title: Cách đặt lề trang HTML trong Java bằng Aspose.HTML
-url: /java/advanced-usage/css-extensions-adding-title-page-number/
+url: /vi/java/advanced-usage/css-extensions-adding-title-page-number/
 weight: 10
 ---
 

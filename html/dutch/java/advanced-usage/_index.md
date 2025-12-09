@@ -3,11 +3,10 @@ date: 2025-11-29
 description: Leer hoe u paginanummers toevoegt, marges instelt, de PDF-paginagrootte
   aanpast, PDF genereert vanuit HTML, DOM-wijzigingen monitort en HTML naar XPS converteert
   met Aspose.HTML voor Java.
-language: nl
 linktitle: Advanced Usage of Aspose.HTML Java
 second_title: Java HTML Processing with Aspose.HTML
 title: Paginanummers toevoegen met Aspose.HTML Java – Geavanceerd gebruik
-url: /java/advanced-usage/
+url: /nl/java/advanced-usage/
 weight: 20
 ---
 

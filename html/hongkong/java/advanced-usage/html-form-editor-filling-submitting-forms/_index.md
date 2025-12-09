@@ -1,11 +1,10 @@
 ---
 date: 2025-12-03
 description: 學習如何使用 Aspose.HTML for Java 自動化 Aspose HTML 表單填寫與提交，簡化網頁互動並有效處理回應。
-language: zh-hant
 linktitle: HTML Form Editor - Filling and Submitting Forms
 second_title: Java HTML Processing with Aspose.HTML
 title: 使用 Aspose.HTML for Java 自動化 Aspose HTML 表單填寫
-url: /java/advanced-usage/html-form-editor-filling-submitting-forms/
+url: /zh-hant/java/advanced-usage/html-form-editor-filling-submitting-forms/
 weight: 14
 ---
 

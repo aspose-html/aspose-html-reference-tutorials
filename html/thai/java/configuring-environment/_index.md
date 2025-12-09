@@ -2,11 +2,10 @@
 date: 2025-12-03
 description: เรียนรู้วิธีแปลง HTML เป็น PDF ด้วย Java และ Aspose.HTML ตั้งค่าชุดอักขระใน
   Java แปลง HTML เป็น PNG ด้วย Java กำหนดค่าแบบอักษร และใช้ตัวจัดการข้อความ
-language: th
 linktitle: Configuring Environment in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 title: แปลง HTML เป็น PDF ด้วย Java – การกำหนดสภาพแวดล้อมใน Aspose.HTML
-url: /java/configuring-environment/
+url: /th/java/configuring-environment/
 weight: 29
 ---
 

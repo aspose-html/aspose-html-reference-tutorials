@@ -4,11 +4,10 @@ date: 2025-11-30
 description: Ismerje meg, hogyan konvertálhatja a HTML-t PDF‑be, renderelheti a HTML-t
   képként, és generálhat JPG‑t a HTML‑ből az Aspose.HTML segítségével – lépésről‑lépésre
   útmutatók .NET és Java fejlesztőknek.
-language: hu
 linktitle: Aspose.HTML Tutorials
 title: HTML konvertálása PDF-re az Aspose.HTML segítségével – Teljes manipulációs
   útmutató
-url: /
+url: /hu/
 weight: 11
 ---
 

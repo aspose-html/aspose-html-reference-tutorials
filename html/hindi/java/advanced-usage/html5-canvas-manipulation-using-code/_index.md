@@ -3,11 +3,10 @@ date: 2025-12-04
 description: HTML को PDF में रेंडर करने के लिए Aspose.HTML for Java के साथ HTML5 Canvas
   को कैसे मैनिपुलेट करें, सीखें। कैनवास को PDF के रूप में एक्सपोर्ट करने के लिए चरण-दर-चरण
   निर्देशों का पालन करें।
-language: hi
 linktitle: HTML5 Canvas Manipulation Using Code
 second_title: Java HTML Processing with Aspose.HTML
 title: 'HTML को PDF में रेंडर करें: Aspose.HTML for Java के साथ कैनवास मैनिपुलेशन'
-url: /java/advanced-usage/html5-canvas-manipulation-using-code/
+url: /hi/java/advanced-usage/html5-canvas-manipulation-using-code/
 weight: 12
 ---
 

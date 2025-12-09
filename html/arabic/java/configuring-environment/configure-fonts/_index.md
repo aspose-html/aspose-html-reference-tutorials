@@ -2,11 +2,10 @@
 date: 2025-12-03
 description: تعلم كيفية تكوين الخطوط لتحويل HTML إلى PDF باستخدام Java و Aspose.HTML.
   إنشاء PDF من HTML باستخدام خطوط مخصصة، ورخصة Aspose مؤقتة، وإعدادات تحويل متقدمة.
-language: ar
 linktitle: Configure Fonts in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 title: تكوين الخطوط لتحويل HTML إلى PDF في Java باستخدام Aspose.HTML
-url: /java/configuring-environment/configure-fonts/
+url: /ar/java/configuring-environment/configure-fonts/
 weight: 11
 ---
 

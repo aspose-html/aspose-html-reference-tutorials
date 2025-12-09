@@ -2,11 +2,10 @@
 date: 2025-12-04
 description: Leer hoe u de tekenset instelt in Aspose.HTML voor Java, HTML naar PDF
   converteert en zorgt voor correcte tekencodering en weergave.
-language: nl
 linktitle: Set Character Set in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 title: Hoe de tekenset instellen in Aspose.HTML voor Java
-url: /java/configuring-environment/set-character-set/
+url: /nl/java/configuring-environment/set-character-set/
 weight: 10
 ---
 

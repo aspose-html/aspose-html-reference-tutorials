@@ -2,11 +2,10 @@
 date: 2025-12-04
 description: Erfahren Sie, wie Sie den Zeichensatz in Aspose.HTML für Java festlegen,
   HTML in PDF konvertieren und eine korrekte Textkodierung sowie Darstellung sicherstellen.
-language: de
 linktitle: Set Character Set in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 title: Wie man den Zeichensatz in Aspose.HTML für Java festlegt
-url: /java/configuring-environment/set-character-set/
+url: /de/java/configuring-environment/set-character-set/
 weight: 10
 ---
 

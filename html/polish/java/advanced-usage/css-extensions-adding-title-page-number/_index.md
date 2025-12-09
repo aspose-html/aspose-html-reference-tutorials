@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: Dowiedz się, jak ustawiać marginesy stron HTML w Javie przy użyciu Aspose.HTML
   oraz dodawać numery stron i tytuły do swoich dokumentów.
-language: pl
 linktitle: CSS Extensions - Adding Title and Page Number
 second_title: Java HTML Processing with Aspose.HTML
 title: Jak ustawić marginesy strony HTML w Javie przy użyciu Aspose.HTML
-url: /java/advanced-usage/css-extensions-adding-title-page-number/
+url: /pl/java/advanced-usage/css-extensions-adding-title-page-number/
 weight: 10
 ---
 

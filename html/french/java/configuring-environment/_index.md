@@ -3,11 +3,10 @@ date: 2025-12-03
 description: Apprenez à convertir HTML en PDF Java avec Aspose.HTML. Définissez le
   jeu de caractères Java, convertissez HTML en PNG Java, configurez les polices et
   utilisez les gestionnaires de messages.
-language: fr
 linktitle: Configuring Environment in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 title: Convertir HTML en PDF Java – Configuration de l’environnement dans Aspose.HTML
-url: /java/configuring-environment/
+url: /fr/java/configuring-environment/
 weight: 29
 ---
 

@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: Aspose.HTML का उपयोग करके जावा में HTML पेज के मार्जिन सेट करना सीखें,
   और अपने दस्तावेज़ों में पृष्ठ संख्या और शीर्षक जोड़ें।
-language: hi
 linktitle: CSS Extensions - Adding Title and Page Number
 second_title: Java HTML Processing with Aspose.HTML
 title: Aspose.HTML के साथ जावा में HTML पेज मार्जिन कैसे सेट करें
-url: /java/advanced-usage/css-extensions-adding-title-page-number/
+url: /hi/java/advanced-usage/css-extensions-adding-title-page-number/
 weight: 10
 ---
 

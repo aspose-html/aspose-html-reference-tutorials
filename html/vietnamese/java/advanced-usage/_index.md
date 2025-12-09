@@ -3,11 +3,10 @@ date: 2025-11-29
 description: Tìm hiểu cách thêm số trang, thiết lập lề, điều chỉnh kích thước trang
   PDF, tạo PDF từ HTML, giám sát các thay đổi DOM và chuyển đổi HTML sang XPS bằng
   Aspose.HTML cho Java.
-language: vi
 linktitle: Advanced Usage of Aspose.HTML Java
 second_title: Java HTML Processing with Aspose.HTML
 title: Thêm số trang với Aspose.HTML Java – Sử dụng nâng cao
-url: /java/advanced-usage/
+url: /vi/java/advanced-usage/
 weight: 20
 ---
 

@@ -1,11 +1,10 @@
 ---
 date: 2025-12-05
 description: เรียนรู้วิธีตั้งค่าขอบหน้าของ HTML ด้วย Java โดยใช้ Aspose.HTML และเพิ่มหมายเลขหน้าและหัวเรื่องลงในเอกสารของคุณ
-language: th
 linktitle: CSS Extensions - Adding Title and Page Number
 second_title: Java HTML Processing with Aspose.HTML
 title: วิธีตั้งค่าขอบหน้ากระดาษ HTML ด้วย Java และ Aspose.HTML
-url: /java/advanced-usage/css-extensions-adding-title-page-number/
+url: /th/java/advanced-usage/css-extensions-adding-title-page-number/
 weight: 10
 ---
 

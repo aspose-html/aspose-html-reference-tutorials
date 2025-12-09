@@ -2,11 +2,10 @@
 date: 2025-12-04
 description: Dowiedz się, jak ustawić zestaw znaków w Aspose.HTML dla Javy, konwertować
   HTML na PDF oraz zapewnić prawidłowe kodowanie i renderowanie tekstu.
-language: pl
 linktitle: Set Character Set in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 title: Jak ustawić zestaw znaków w Aspose.HTML dla Javy
-url: /java/configuring-environment/set-character-set/
+url: /pl/java/configuring-environment/set-character-set/
 weight: 10
 ---
 

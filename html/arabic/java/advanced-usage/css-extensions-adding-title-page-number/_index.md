@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: تعلم كيفية ضبط هوامش صفحة HTML في Java باستخدام Aspose.HTML، وإضافة أرقام
   الصفحات والعناوين إلى مستنداتك.
-language: ar
 linktitle: CSS Extensions - Adding Title and Page Number
 second_title: Java HTML Processing with Aspose.HTML
 title: كيفية ضبط هوامش صفحة HTML في Java باستخدام Aspose.HTML
-url: /java/advanced-usage/css-extensions-adding-title-page-number/
+url: /ar/java/advanced-usage/css-extensions-adding-title-page-number/
 weight: 10
 ---
 

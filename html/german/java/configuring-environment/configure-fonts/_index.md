@@ -3,11 +3,10 @@ date: 2025-12-03
 description: Erfahren Sie, wie Sie Schriftarten für HTML‑zu‑PDF in Java mit Aspose.HTML
   konfigurieren. Erzeugen Sie PDFs aus HTML mit benutzerdefinierten Schriftarten,
   einer temporären Aspose‑Lizenz und erweiterten Konvertierungseinstellungen.
-language: de
 linktitle: Configure Fonts in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 title: Schriftarten für HTML‑zu‑PDF in Java mit Aspose.HTML konfigurieren
-url: /java/configuring-environment/configure-fonts/
+url: /de/java/configuring-environment/configure-fonts/
 weight: 11
 ---
 

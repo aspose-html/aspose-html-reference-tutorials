@@ -2,11 +2,10 @@
 date: 2025-12-03
 description: เรียนรู้วิธีอัตโนมัติการกรอกและส่งฟอร์ม HTML ด้วย Aspose.HTML สำหรับ
   Java ทำให้การโต้ตอบบนเว็บง่ายขึ้นและประมวลผลการตอบสนองอย่างมีประสิทธิภาพ
-language: th
 linktitle: HTML Form Editor - Filling and Submitting Forms
 second_title: Java HTML Processing with Aspose.HTML
 title: อัตโนมัติการกรอกฟอร์ม HTML ด้วย Aspose.HTML สำหรับ Java
-url: /java/advanced-usage/html-form-editor-filling-submitting-forms/
+url: /th/java/advanced-usage/html-form-editor-filling-submitting-forms/
 weight: 14
 ---
 

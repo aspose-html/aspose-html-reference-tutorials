@@ -3,10 +3,9 @@ date: 2025-11-30
 description: HTML को PDF में Java के साथ Aspose.HTML का उपयोग करके कैसे बदलें, सीखें।
   HTML को SVG, TIFF, Markdown में बदलना, HTML फॉर्म भरने को स्वचालित करना, और HTML
   कैनवास को PDF में बदलना खोजें।
-language: hi
 linktitle: Aspose.HTML Tutorials
 title: HTML से PDF जावा – व्यापक Aspose.HTML ट्यूटोरियल्स
-url: /java/
+url: /hi/java/
 weight: 10
 ---
 

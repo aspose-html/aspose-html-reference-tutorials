@@ -2,11 +2,10 @@
 date: 2025-12-04
 description: Aspose.HTML for Java'da karakter kümesini nasıl ayarlayacağınızı, HTML'yi
   PDF'ye dönüştürmeyi ve doğru metin kodlaması ve render edilmesini öğrenin.
-language: tr
 linktitle: Set Character Set in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 title: Aspose.HTML for Java'da Karakter Seti Nasıl Ayarlanır
-url: /java/configuring-environment/set-character-set/
+url: /tr/java/configuring-environment/set-character-set/
 weight: 10
 ---
 

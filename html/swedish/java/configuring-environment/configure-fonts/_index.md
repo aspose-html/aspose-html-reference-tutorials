@@ -3,11 +3,10 @@ date: 2025-12-03
 description: Lär dig hur du konfigurerar teckensnitt för HTML till PDF i Java med
   Aspose.HTML. Generera PDF från HTML med anpassade teckensnitt, temporär Aspose-licens
   och avancerade konverteringsinställningar.
-language: sv
 linktitle: Configure Fonts in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 title: Konfigurera teckensnitt för HTML till PDF Java med Aspose.HTML
-url: /java/configuring-environment/configure-fonts/
+url: /sv/java/configuring-environment/configure-fonts/
 weight: 11
 ---
 

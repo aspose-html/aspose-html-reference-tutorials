@@ -2,10 +2,9 @@
 date: 2025-11-30
 description: 学习如何使用 Java 与 Aspose.HTML 将 HTML 转换为 PDF。探索将 HTML 转换为 SVG、TIFF、Markdown，自动填写
   HTML 表单，以及将 HTML Canvas 转换为 PDF。
-language: zh
 linktitle: Aspose.HTML Tutorials
 title: HTML 转 PDF（Java）— Aspose.HTML 综合教程
-url: /java/
+url: /zh/java/
 weight: 10
 ---
 

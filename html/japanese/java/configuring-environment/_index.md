@@ -2,11 +2,10 @@
 date: 2025-12-03
 description: Aspose.HTML を使用して HTML を PDF に変換する方法を学びます。Java で文字セットを設定し、HTML を PNG
   に変換し、フォントを構成し、メッセージハンドラを使用します。
-language: ja
 linktitle: Configuring Environment in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 title: HTML を PDF に変換 (Java) – Aspose.HTML の環境設定
-url: /java/configuring-environment/
+url: /ja/java/configuring-environment/
 weight: 29
 ---
 

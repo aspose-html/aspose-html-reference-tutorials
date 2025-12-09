@@ -3,12 +3,11 @@ date: 2025-11-30
 description: Aspose.HTML'in Mutation Observer'ını kullanarak Java'da gövdeye öğe eklemeyi
   ve DOM değişikliklerini izlemeyi öğrenin. HTML belgesi oluşturma adımlarını ve mutation
   observer'ı devre dışı bırakmayı içerir.
-language: tr
 linktitle: Append Element to Body - Observing Node Additions
 second_title: Java HTML Processing with Aspose.HTML
 title: Aspose.HTML for Java ile DOM Mutasyon Gözlemcisi Kullanarak Gövdeye Eleman
   Ekle
-url: /java/advanced-usage/dom-mutation-observer-observing-node-additions/
+url: /tr/java/advanced-usage/dom-mutation-observer-observing-node-additions/
 weight: 11
 ---
 

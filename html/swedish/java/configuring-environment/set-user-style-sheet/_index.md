@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: Lär dig hur du skapar PDF från HTML genom att ange en anpassad användar‑stylesheet
   i Aspose.HTML för Java, och enkelt konvertera HTML till PDF med User Agent Service.
-language: sv
 linktitle: Set User Style Sheet in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 title: Skapa PDF från HTML – Ange användarens stilmall i Aspose.HTML för Java
-url: /java/configuring-environment/set-user-style-sheet/
+url: /sv/java/configuring-environment/set-user-style-sheet/
 weight: 16
 ---
 

@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: Aspose.HTML for Javaでカスタムユーザースタイルシートを設定してHTMLからPDFを作成する方法を学び、User Agent
   Serviceを使用してHTMLを簡単にPDFに変換しましょう。
-language: ja
 linktitle: Set User Style Sheet in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 title: HTMLからPDFを作成 – Aspose.HTML for Javaでユーザースタイルシートを設定
-url: /java/configuring-environment/set-user-style-sheet/
+url: /ja/java/configuring-environment/set-user-style-sheet/
 weight: 16
 ---
 

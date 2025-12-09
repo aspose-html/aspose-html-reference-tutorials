@@ -3,11 +3,10 @@ date: 2025-12-03
 description: Pelajari cara mengotomatisasi pengisian dan pengiriman formulir HTML
   Aspose dengan Aspose.HTML untuk Java. Sederhanakan interaksi web dan proses respons
   secara efisien.
-language: id
 linktitle: HTML Form Editor - Filling and Submitting Forms
 second_title: Java HTML Processing with Aspose.HTML
 title: Otomatisasi Pengisian Formulir HTML Aspose dengan Aspose.HTML untuk Java
-url: /java/advanced-usage/html-form-editor-filling-submitting-forms/
+url: /id/java/advanced-usage/html-form-editor-filling-submitting-forms/
 weight: 14
 ---
 

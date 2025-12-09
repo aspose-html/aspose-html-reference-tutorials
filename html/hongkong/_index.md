@@ -3,10 +3,9 @@ additionalTitle: Aspose API References
 date: 2025-11-30
 description: 學習如何使用 Aspose.HTML 將 HTML 轉換為 PDF、將 HTML 渲染為圖像，以及從 HTML 生成 JPG——為 .NET
   與 Java 開發者提供的逐步教學。
-language: zh-hant
 linktitle: Aspose.HTML Tutorials
 title: 使用 Aspose.HTML 轉換 HTML 為 PDF – 完整操作指南
-url: /
+url: /zh-hant/
 weight: 11
 ---
 

@@ -3,11 +3,10 @@ date: 2025-12-03
 description: Tanulja meg, hogyan konvertálhat HTML-t PDF-re Java-ban az Aspose.HTML
   segítségével. Állítsa be a karakterkészletet Java-ban, konvertálja a HTML-t PNG-re
   Java-ban, konfigurálja a betűtípusokat, és használja az üzenetkezelőket.
-language: hu
 linktitle: Configuring Environment in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 title: HTML konvertálása PDF-re Java – Környezet beállítása az Aspose.HTML-ben
-url: /java/configuring-environment/
+url: /hu/java/configuring-environment/
 weight: 29
 ---
 

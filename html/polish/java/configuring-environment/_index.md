@@ -3,11 +3,10 @@ date: 2025-12-03
 description: Dowiedz się, jak konwertować HTML na PDF w Javie przy użyciu Aspose.HTML.
   Ustaw zestaw znaków w Javie, konwertuj HTML na PNG w Javie, konfigurować czcionki
   i używać obsługi komunikatów.
-language: pl
 linktitle: Configuring Environment in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 title: Konwertowanie HTML na PDF w Javie – Konfiguracja środowiska w Aspose.HTML
-url: /java/configuring-environment/
+url: /pl/java/configuring-environment/
 weight: 29
 ---
 

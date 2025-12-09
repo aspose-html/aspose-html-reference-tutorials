@@ -3,11 +3,10 @@ date: 2025-12-03
 description: Ismerje meg, hogyan konfigurálhatja a betűtípusokat a HTML‑ről PDF‑re
   Java‑ban az Aspose.HTML használatával. Generáljon PDF‑et HTML‑ből egyedi betűtípusokkal,
   ideiglenes Aspose licenccel és fejlett konverziós beállításokkal.
-language: hu
 linktitle: Configure Fonts in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 title: Betűtípusok beállítása HTML-ből PDF-be Java-val az Aspose.HTML segítségével
-url: /java/configuring-environment/configure-fonts/
+url: /hu/java/configuring-environment/configure-fonts/
 weight: 11
 ---
 

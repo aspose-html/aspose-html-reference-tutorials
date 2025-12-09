@@ -3,12 +3,11 @@ date: 2025-12-03
 description: Dowiedz się, jak zautomatyzować wypełnianie i przesyłanie formularzy
   HTML przy użyciu Aspose.HTML dla Javy. Uprość interakcję z siecią i efektywnie przetwarzaj
   odpowiedzi.
-language: pl
 linktitle: HTML Form Editor - Filling and Submitting Forms
 second_title: Java HTML Processing with Aspose.HTML
 title: Zautomatyzuj wypełnianie formularzy HTML Aspose przy użyciu Aspose.HTML dla
   Javy
-url: /java/advanced-usage/html-form-editor-filling-submitting-forms/
+url: /pl/java/advanced-usage/html-form-editor-filling-submitting-forms/
 weight: 14
 ---
 

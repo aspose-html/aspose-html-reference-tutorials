@@ -3,10 +3,9 @@ additionalTitle: Aspose API References
 date: 2025-11-30
 description: Naučte se, jak převést HTML na PDF, vykreslit HTML jako obrázek a vytvořit
   JPG z HTML pomocí Aspose.HTML – krok za krokem tutoriály pro vývojáře .NET a Java.
-language: cs
 linktitle: Aspose.HTML Tutorials
 title: Převod HTML na PDF pomocí Aspose.HTML – Kompletní průvodce manipulací
-url: /
+url: /cs/
 weight: 11
 ---
 

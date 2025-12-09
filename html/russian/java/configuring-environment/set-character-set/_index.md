@@ -2,11 +2,10 @@
 date: 2025-12-04
 description: Узнайте, как установить набор символов в Aspose.HTML для Java, преобразовать
   HTML в PDF и обеспечить правильную кодировку текста и его отображение.
-language: ru
 linktitle: Set Character Set in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 title: Как установить кодировку в Aspose.HTML для Java
-url: /java/configuring-environment/set-character-set/
+url: /ru/java/configuring-environment/set-character-set/
 weight: 10
 ---
 

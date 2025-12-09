@@ -3,11 +3,10 @@ date: 2025-12-03
 description: Scopri come automatizzare la compilazione e l'invio di moduli HTML con
   Aspose.HTML per Java. Semplifica l'interazione web e gestisci le risposte in modo
   efficiente.
-language: it
 linktitle: HTML Form Editor - Filling and Submitting Forms
 second_title: Java HTML Processing with Aspose.HTML
 title: Automatizza la compilazione di moduli HTML con Aspose.HTML per Java
-url: /java/advanced-usage/html-form-editor-filling-submitting-forms/
+url: /it/java/advanced-usage/html-form-editor-filling-submitting-forms/
 weight: 14
 ---
 

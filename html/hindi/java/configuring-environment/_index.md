@@ -3,11 +3,10 @@ date: 2025-12-03
 description: Aspose.HTML के साथ HTML को PDF जावा में कैसे परिवर्तित करें, सीखें। जावा
   में कैरेक्टर सेट सेट करें, HTML को PNG जावा में परिवर्तित करें, फ़ॉन्ट कॉन्फ़िगर
   करें, और मैसेज हैंडलर्स का उपयोग करें।
-language: hi
 linktitle: Configuring Environment in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 title: HTML को PDF में बदलें जावा – Aspose.HTML में पर्यावरण कॉन्फ़िगर करना
-url: /java/configuring-environment/
+url: /hi/java/configuring-environment/
 weight: 29
 ---
 

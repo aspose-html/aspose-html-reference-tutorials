@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: Naučte se, jak nastavit okraje HTML stránky v Javě pomocí Aspose.HTML
   a přidat čísla stránek a nadpisy do svých dokumentů.
-language: cs
 linktitle: CSS Extensions - Adding Title and Page Number
 second_title: Java HTML Processing with Aspose.HTML
 title: Jak nastavit okraje HTML stránky v Javě pomocí Aspose.HTML
-url: /java/advanced-usage/css-extensions-adding-title-page-number/
+url: /cs/java/advanced-usage/css-extensions-adding-title-page-number/
 weight: 10
 ---
 

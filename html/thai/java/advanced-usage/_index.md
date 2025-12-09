@@ -3,11 +3,10 @@ date: 2025-11-29
 description: เรียนรู้วิธีเพิ่มหมายเลขหน้า ตั้งค่าขอบ ปรับขนาดหน้า PDF สร้าง PDF จาก
   HTML ตรวจสอบการเปลี่ยนแปลงของ DOM และแปลง HTML เป็น XPS ด้วย Aspose.HTML สำหรับ
   Java.
-language: th
 linktitle: Advanced Usage of Aspose.HTML Java
 second_title: Java HTML Processing with Aspose.HTML
 title: เพิ่มหมายเลขหน้าโดยใช้ Aspose.HTML Java – การใช้งานขั้นสูง
-url: /java/advanced-usage/
+url: /th/java/advanced-usage/
 weight: 20
 ---
 

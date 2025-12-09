@@ -2,12 +2,11 @@
 date: 2025-12-05
 description: تعلم كيفية إنشاء PDF من HTML عن طريق تعيين ورقة أنماط مخصصة للمستخدم
   في Aspose.HTML للـ Java، وتحويل HTML إلى PDF بسهولة باستخدام خدمة وكيل المستخدم.
-language: ar
 linktitle: Set User Style Sheet in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 title: إنشاء PDF من HTML – تعيين ورقة الأنماط الخاصة بالمستخدم في Aspose.HTML للغة
   Java
-url: /java/configuring-environment/set-user-style-sheet/
+url: /ar/java/configuring-environment/set-user-style-sheet/
 weight: 16
 ---
 

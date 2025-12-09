@@ -3,11 +3,10 @@ date: 2025-12-01
 description: Tanulja meg, hogyan konvertálja a vásznat PDF-be JavaScript és az Aspose.HTML
   for Java segítségével. Készítsen dinamikus grafikákat, rajzoljon szöveget a vászonra,
   és exportálja a HTML-t PDF-be.
-language: hu
 linktitle: Convert Canvas to PDF Using JavaScript
 second_title: Java HTML Processing with Aspose.HTML
 title: Canvas konvertálása PDF-re az Aspose.HTML for Java használatával
-url: /java/advanced-usage/html5-canvas-manipulation-using-javascript/
+url: /hu/java/advanced-usage/html5-canvas-manipulation-using-javascript/
 weight: 13
 ---
 

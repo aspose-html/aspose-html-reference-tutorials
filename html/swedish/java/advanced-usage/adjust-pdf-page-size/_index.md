@@ -2,11 +2,10 @@
 date: 2025-12-01
 description: Lär dig hur du justerar PDF‑sidstorlek, renderar HTML som PDF och genererar
   PDF från HTML med Aspose.HTML för Java. Kontrollera sidmått enkelt.
-language: sv
 linktitle: Adjusting PDF Page Size
 second_title: Java HTML Processing with Aspose.HTML
 title: Justera PDF-sidstorlek med Aspose.HTML för Java
-url: /java/advanced-usage/adjust-pdf-page-size/
+url: /sv/java/advanced-usage/adjust-pdf-page-size/
 weight: 15
 ---
 

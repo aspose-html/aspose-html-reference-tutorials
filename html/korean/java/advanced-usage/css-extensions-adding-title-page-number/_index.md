@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: Aspose.HTML를 사용하여 Java에서 HTML 페이지 여백을 설정하고, 문서에 페이지 번호와 제목을 추가하는 방법을
   배워보세요.
-language: ko
 linktitle: CSS Extensions - Adding Title and Page Number
 second_title: Java HTML Processing with Aspose.HTML
 title: Aspose.HTML를 사용하여 Java에서 HTML 페이지 여백 설정 방법
-url: /java/advanced-usage/css-extensions-adding-title-page-number/
+url: /ko/java/advanced-usage/css-extensions-adding-title-page-number/
 weight: 10
 ---
 

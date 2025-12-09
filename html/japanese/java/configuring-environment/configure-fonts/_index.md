@@ -2,11 +2,10 @@
 date: 2025-12-03
 description: Aspose.HTML を使用した Java の HTML から PDF へのフォント設定方法を学びましょう。カスタムフォント、テンポラリ
   Aspose ライセンス、そして高度な変換設定を使用して、HTML から PDF を生成します。
-language: ja
 linktitle: Configure Fonts in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 title: Aspose.HTML を使用した Java の HTML から PDF へのフォント設定
-url: /java/configuring-environment/configure-fonts/
+url: /ja/java/configuring-environment/configure-fonts/
 weight: 11
 ---
 

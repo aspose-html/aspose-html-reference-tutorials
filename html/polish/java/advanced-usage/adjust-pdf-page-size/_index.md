@@ -3,11 +3,10 @@ date: 2025-12-01
 description: Dowiedz się, jak dostosować rozmiar strony PDF, renderować HTML jako
   PDF i generować PDF z HTML przy użyciu Aspose.HTML dla Javy. Łatwo kontroluj wymiary
   stron.
-language: pl
 linktitle: Adjusting PDF Page Size
 second_title: Java HTML Processing with Aspose.HTML
 title: Dostosuj rozmiar strony PDF w Aspose.HTML dla Javy
-url: /java/advanced-usage/adjust-pdf-page-size/
+url: /pl/java/advanced-usage/adjust-pdf-page-size/
 weight: 15
 ---
 

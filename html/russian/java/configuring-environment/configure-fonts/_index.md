@@ -3,11 +3,10 @@ date: 2025-12-03
 description: Изучите, как настроить шрифты для преобразования HTML в PDF на Java с
   помощью Aspose.HTML. Генерируйте PDF из HTML с пользовательскими шрифтами, временной
   лицензией Aspose и расширенными настройками конвертации.
-language: ru
 linktitle: Configure Fonts in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 title: Настройка шрифтов для преобразования HTML в PDF на Java с Aspose.HTML
-url: /java/configuring-environment/configure-fonts/
+url: /ru/java/configuring-environment/configure-fonts/
 weight: 11
 ---
 

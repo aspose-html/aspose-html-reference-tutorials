@@ -2,11 +2,10 @@
 date: 2025-11-29
 description: Aspose.HTML for Java を使用して、ページ番号の追加、余白の設定、PDF ページサイズの調整、HTML から PDF の生成、DOM
   変更の監視、HTML から XPS への変換方法を学びましょう。
-language: ja
 linktitle: Advanced Usage of Aspose.HTML Java
 second_title: Java HTML Processing with Aspose.HTML
 title: Aspose.HTML Javaでページ番号を追加 – 高度な使用法
-url: /java/advanced-usage/
+url: /ja/java/advanced-usage/
 weight: 20
 ---
 

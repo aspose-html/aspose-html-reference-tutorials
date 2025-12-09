@@ -3,11 +3,10 @@ date: 2025-12-03
 description: Scopri come configurare i font per la conversione da HTML a PDF in Java
   usando Aspose.HTML. Genera PDF da HTML con font personalizzati, licenza temporanea
   di Aspose e impostazioni avanzate di conversione.
-language: it
 linktitle: Configure Fonts in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 title: Configura i font per HTML in PDF Java con Aspose.HTML
-url: /java/configuring-environment/configure-fonts/
+url: /it/java/configuring-environment/configure-fonts/
 weight: 11
 ---
 

@@ -4,10 +4,9 @@ date: 2025-11-30
 description: Học cách chuyển đổi HTML sang PDF, hiển thị HTML dưới dạng hình ảnh và
   tạo JPG từ HTML bằng Aspose.HTML – các hướng dẫn từng bước cho nhà phát triển .NET
   và Java.
-language: vi
 linktitle: Aspose.HTML Tutorials
 title: Chuyển đổi HTML sang PDF với Aspose.HTML – Hướng dẫn thao tác đầy đủ
-url: /
+url: /vi/
 weight: 11
 ---
 

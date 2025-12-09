@@ -3,11 +3,10 @@ date: 2025-12-03
 description: Aspose.HTML ile HTML'yi Java'da PDF'ye dönüştürmeyi öğrenin. Karakter
   setini Java'da ayarlayın, HTML'yi Java'da PNG'ye dönüştürün, yazı tiplerini yapılandırın
   ve mesaj işleyicilerini kullanın.
-language: tr
 linktitle: Configuring Environment in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 title: HTML'yi PDF'ye Dönüştürme Java – Aspose.HTML'de Ortamı Yapılandırma
-url: /java/configuring-environment/
+url: /tr/java/configuring-environment/
 weight: 29
 ---
 

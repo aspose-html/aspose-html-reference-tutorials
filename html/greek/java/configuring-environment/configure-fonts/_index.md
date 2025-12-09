@@ -3,11 +3,10 @@ date: 2025-12-03
 description: Μάθετε πώς να διαμορφώσετε τις γραμματοσειρές για τη μετατροπή HTML σε
   PDF σε Java χρησιμοποιώντας το Aspose.HTML. Δημιουργήστε PDF από HTML με προσαρμοσμένες
   γραμματοσειρές, προσωρινή άδεια Aspose και προχωρημένες ρυθμίσεις μετατροπής.
-language: el
 linktitle: Configure Fonts in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 title: Διαμόρφωση γραμματοσειρών για HTML σε PDF Java με το Aspose.HTML
-url: /java/configuring-environment/configure-fonts/
+url: /el/java/configuring-environment/configure-fonts/
 weight: 11
 ---
 

@@ -2,11 +2,10 @@
 date: 2025-12-01
 description: JavaScript と Aspose.HTML for Java を使用してキャンバスを PDF に変換する方法を学びましょう。動的なグラフィックを作成し、キャンバスにテキストを描画し、HTML
   を PDF にエクスポートします。
-language: ja
 linktitle: Convert Canvas to PDF Using JavaScript
 second_title: Java HTML Processing with Aspose.HTML
 title: Aspose.HTML for Java でキャンバスを PDF に変換
-url: /java/advanced-usage/html5-canvas-manipulation-using-javascript/
+url: /ja/java/advanced-usage/html5-canvas-manipulation-using-javascript/
 weight: 13
 ---
 

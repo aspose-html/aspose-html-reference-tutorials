@@ -2,11 +2,10 @@
 date: 2025-11-29
 description: 了解如何使用 Aspose.HTML for Java 添加頁碼、設定邊距、調整 PDF 頁面大小、從 HTML 產生 PDF、監控 DOM
   變更，以及將 HTML 轉換為 XPS。
-language: zh-hant
 linktitle: Advanced Usage of Aspose.HTML Java
 second_title: Java HTML Processing with Aspose.HTML
 title: 使用 Aspose.HTML Java 添加頁碼 – 進階使用
-url: /java/advanced-usage/
+url: /zh-hant/java/advanced-usage/
 weight: 20
 ---
 

@@ -3,11 +3,10 @@ date: 2025-12-03
 description: Tìm hiểu cách cấu hình phông chữ cho chuyển đổi HTML sang PDF bằng Java
   sử dụng Aspose.HTML. Tạo PDF từ HTML với phông chữ tùy chỉnh, giấy phép Aspose tạm
   thời và các cài đặt chuyển đổi nâng cao.
-language: vi
 linktitle: Configure Fonts in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 title: Cấu hình phông chữ cho chuyển đổi HTML sang PDF trong Java với Aspose.HTML
-url: /java/configuring-environment/configure-fonts/
+url: /vi/java/configuring-environment/configure-fonts/
 weight: 11
 ---
 

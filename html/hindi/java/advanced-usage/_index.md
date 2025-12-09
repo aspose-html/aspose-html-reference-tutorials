@@ -3,11 +3,10 @@ date: 2025-11-29
 description: पृष्ठ संख्याएँ जोड़ना, मार्जिन सेट करना, PDF पृष्ठ आकार समायोजित करना,
   HTML से PDF बनाना, DOM परिवर्तनों की निगरानी करना, और Aspose.HTML for Java का उपयोग
   करके HTML को XPS में बदलना सीखें।
-language: hi
 linktitle: Advanced Usage of Aspose.HTML Java
 second_title: Java HTML Processing with Aspose.HTML
 title: Aspose.HTML Java के साथ पृष्ठ संख्याएँ जोड़ें – उन्नत उपयोग
-url: /java/advanced-usage/
+url: /hi/java/advanced-usage/
 weight: 20
 ---
 

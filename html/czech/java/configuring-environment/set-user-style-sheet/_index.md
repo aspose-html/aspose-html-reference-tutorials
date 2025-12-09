@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: Naučte se, jak vytvořit PDF z HTML nastavením vlastního uživatelského
   stylu v Aspose.HTML pro Javu a snadno převádět HTML do PDF pomocí služby User Agent.
-language: cs
 linktitle: Set User Style Sheet in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 title: Vytvořit PDF z HTML – Nastavit uživatelský stylový list v Aspose.HTML pro Javu
-url: /java/configuring-environment/set-user-style-sheet/
+url: /cs/java/configuring-environment/set-user-style-sheet/
 weight: 16
 ---
 

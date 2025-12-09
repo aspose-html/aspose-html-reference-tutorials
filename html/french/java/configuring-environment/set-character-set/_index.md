@@ -2,11 +2,10 @@
 date: 2025-12-04
 description: Apprenez à définir le jeu de caractères dans Aspose.HTML pour Java, à
   convertir le HTML en PDF et à garantir un encodage et un rendu du texte corrects.
-language: fr
 linktitle: Set Character Set in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 title: Comment définir le jeu de caractères dans Aspose.HTML pour Java
-url: /java/configuring-environment/set-character-set/
+url: /fr/java/configuring-environment/set-character-set/
 weight: 10
 ---
 

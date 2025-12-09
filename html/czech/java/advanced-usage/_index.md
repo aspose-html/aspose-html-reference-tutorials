@@ -3,11 +3,10 @@ date: 2025-11-29
 description: Naučte se, jak přidávat čísla stránek, nastavit okraje, upravit velikost
   stránky PDF, generovat PDF z HTML, sledovat změny DOM a převádět HTML na XPS pomocí
   Aspose.HTML pro Javu.
-language: cs
 linktitle: Advanced Usage of Aspose.HTML Java
 second_title: Java HTML Processing with Aspose.HTML
 title: Přidat čísla stránek pomocí Aspose.HTML Java – Pokročilé použití
-url: /java/advanced-usage/
+url: /cs/java/advanced-usage/
 weight: 20
 ---
 

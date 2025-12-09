@@ -3,11 +3,10 @@ date: 2025-12-03
 description: Dowiedz się, jak skonfigurować czcionki dla konwersji HTML do PDF w Javie
   przy użyciu Aspose.HTML. Generuj PDF z HTML z własnymi czcionkami, tymczasową licencją
   Aspose i zaawansowanymi ustawieniami konwersji.
-language: pl
 linktitle: Configure Fonts in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 title: Konfiguracja czcionek dla HTML do PDF w Javie z Aspose.HTML
-url: /java/configuring-environment/configure-fonts/
+url: /pl/java/configuring-environment/configure-fonts/
 weight: 11
 ---
 

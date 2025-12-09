@@ -3,11 +3,10 @@ date: 2025-11-29
 description: Lär dig hur du lägger till sidnummer, ställer in marginaler, justerar
   PDF‑sidstorlek, genererar PDF från HTML, övervakar DOM‑förändringar och konverterar
   HTML till XPS med Aspose.HTML för Java.
-language: sv
 linktitle: Advanced Usage of Aspose.HTML Java
 second_title: Java HTML Processing with Aspose.HTML
 title: Add page numbers with Aspose.HTML Java – Advanced Usage
-url: /java/advanced-usage/
+url: /sv/java/advanced-usage/
 weight: 20
 ---
 

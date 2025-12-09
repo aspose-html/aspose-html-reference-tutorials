@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: เรียนรู้วิธีสร้าง PDF จาก HTML โดยการตั้งค่า stylesheet ของผู้ใช้แบบกำหนดเองใน
   Aspose.HTML สำหรับ Java และแปลง HTML เป็น PDF ได้อย่างง่ายดายด้วยบริการตัวแทนผู้ใช้
-language: th
 linktitle: Set User Style Sheet in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 title: สร้าง PDF จาก HTML – ตั้งค่าแผ่นสไตล์ผู้ใช้ใน Aspose.HTML สำหรับ Java
-url: /java/configuring-environment/set-user-style-sheet/
+url: /th/java/configuring-environment/set-user-style-sheet/
 weight: 16
 ---
 

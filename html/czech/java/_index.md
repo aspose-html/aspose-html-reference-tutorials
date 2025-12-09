@@ -3,10 +3,9 @@ date: 2025-11-30
 description: Naučte se, jak převést HTML na PDF pomocí Javy s Aspose.HTML. Prozkoumejte
   převod HTML na SVG, TIFF, Markdown, automatizaci vyplňování HTML formulářů a převod
   HTML canvasu na PDF.
-language: cs
 linktitle: Aspose.HTML Tutorials
 title: HTML do PDF v Javě – Komplexní tutoriály Aspose.HTML
-url: /java/
+url: /cs/java/
 weight: 10
 ---
 

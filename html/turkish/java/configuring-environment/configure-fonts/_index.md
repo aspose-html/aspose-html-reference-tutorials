@@ -3,11 +3,10 @@ date: 2025-12-03
 description: Aspose.HTML kullanarak HTML'den PDF Java'ya yazı tiplerini nasıl yapılandıracağınızı
   öğrenin. Özel yazı tipleri, geçici Aspose lisansı ve gelişmiş dönüşüm ayarlarıyla
   HTML'den PDF oluşturun.
-language: tr
 linktitle: Configure Fonts in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 title: Aspose.HTML ile Java'da HTML'den PDF'ye Yazı Tiplerini Yapılandırma
-url: /java/configuring-environment/configure-fonts/
+url: /tr/java/configuring-environment/configure-fonts/
 weight: 11
 ---
 

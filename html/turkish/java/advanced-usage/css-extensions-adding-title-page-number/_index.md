@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: Aspose.HTML kullanarak Java'da HTML sayfa kenar boşluklarını nasıl ayarlayacağınızı
   öğrenin ve belgelerinize sayfa numaraları ve başlıklar ekleyin.
-language: tr
 linktitle: CSS Extensions - Adding Title and Page Number
 second_title: Java HTML Processing with Aspose.HTML
 title: Aspose.HTML ile Java’da HTML Sayfa Kenar Boşluklarını Nasıl Ayarlarsınız
-url: /java/advanced-usage/css-extensions-adding-title-page-number/
+url: /tr/java/advanced-usage/css-extensions-adding-title-page-number/
 weight: 10
 ---
 

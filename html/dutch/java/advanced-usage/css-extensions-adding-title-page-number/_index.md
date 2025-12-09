@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: Leer hoe u HTML-paginamarges instelt in Java met Aspose.HTML, en paginanummers
   en titels aan uw documenten toevoegt.
-language: nl
 linktitle: CSS Extensions - Adding Title and Page Number
 second_title: Java HTML Processing with Aspose.HTML
 title: Hoe HTML-paginamarges instellen in Java met Aspose.HTML
-url: /java/advanced-usage/css-extensions-adding-title-page-number/
+url: /nl/java/advanced-usage/css-extensions-adding-title-page-number/
 weight: 10
 ---
 

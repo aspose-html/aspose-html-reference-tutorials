@@ -2,11 +2,10 @@
 date: 2025-12-03
 description: Tìm hiểu cách tự động điền và gửi biểu mẫu HTML bằng Aspose.HTML cho
   Java. Đơn giản hoá tương tác web và xử lý phản hồi một cách hiệu quả.
-language: vi
 linktitle: HTML Form Editor - Filling and Submitting Forms
 second_title: Java HTML Processing with Aspose.HTML
 title: Tự động điền biểu mẫu HTML Aspose bằng Aspose.HTML cho Java
-url: /java/advanced-usage/html-form-editor-filling-submitting-forms/
+url: /vi/java/advanced-usage/html-form-editor-filling-submitting-forms/
 weight: 14
 ---
 

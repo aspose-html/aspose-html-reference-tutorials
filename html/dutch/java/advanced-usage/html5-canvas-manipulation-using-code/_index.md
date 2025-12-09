@@ -3,11 +3,10 @@ date: 2025-12-04
 description: Leer hoe je HTML naar PDF rendert door HTML5 Canvas te manipuleren met
   Aspose.HTML voor Java. Volg stap‑voor‑stap instructies om canvas te exporteren als
   PDF.
-language: nl
 linktitle: HTML5 Canvas Manipulation Using Code
 second_title: Java HTML Processing with Aspose.HTML
 title: 'HTML renderen naar PDF: Canvas‑manipulatie met Aspose.HTML voor Java'
-url: /java/advanced-usage/html5-canvas-manipulation-using-code/
+url: /nl/java/advanced-usage/html5-canvas-manipulation-using-code/
 weight: 12
 ---
 

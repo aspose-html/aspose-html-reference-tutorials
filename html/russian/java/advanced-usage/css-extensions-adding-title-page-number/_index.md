@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: Узнайте, как установить поля HTML‑страницы в Java с помощью Aspose.HTML
   и добавить номера страниц и заголовки в ваши документы.
-language: ru
 linktitle: CSS Extensions - Adding Title and Page Number
 second_title: Java HTML Processing with Aspose.HTML
 title: Как установить поля HTML‑страницы в Java с помощью Aspose.HTML
-url: /java/advanced-usage/css-extensions-adding-title-page-number/
+url: /ru/java/advanced-usage/css-extensions-adding-title-page-number/
 weight: 10
 ---
 

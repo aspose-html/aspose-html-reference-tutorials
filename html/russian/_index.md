@@ -4,10 +4,9 @@ date: 2025-11-30
 description: Узнайте, как конвертировать HTML в PDF, преобразовывать HTML в изображение
   и генерировать JPG из HTML с помощью Aspose.HTML — пошаговые руководства для разработчиков
   .NET и Java.
-language: ru
 linktitle: Aspose.HTML Tutorials
 title: Конвертировать HTML в PDF с Aspose.HTML – Полное руководство по манипуляциям
-url: /
+url: /ru/
 weight: 11
 ---
 

@@ -3,12 +3,11 @@ date: 2025-12-03
 description: Leer hoe je het invullen en indienen van Aspose HTML‑formulieren kunt
   automatiseren met Aspose.HTML voor Java. Vereenvoudig webinteractie en verwerk reacties
   efficiënt.
-language: nl
 linktitle: HTML Form Editor - Filling and Submitting Forms
 second_title: Java HTML Processing with Aspose.HTML
 title: Automatiseer het invullen van Aspose HTML‑formulieren met Aspose.HTML voor
   Java
-url: /java/advanced-usage/html-form-editor-filling-submitting-forms/
+url: /nl/java/advanced-usage/html-form-editor-filling-submitting-forms/
 weight: 14
 ---
 

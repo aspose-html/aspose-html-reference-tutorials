@@ -2,11 +2,10 @@
 date: 2025-11-29
 description: تعلم كيفية إضافة أرقام الصفحات، ضبط الهوامش، تعديل حجم صفحة PDF، إنشاء
   PDF من HTML، مراقبة تغييرات DOM، وتحويل HTML إلى XPS باستخدام Aspose.HTML للغة Java.
-language: ar
 linktitle: Advanced Usage of Aspose.HTML Java
 second_title: Java HTML Processing with Aspose.HTML
 title: إضافة أرقام الصفحات باستخدام Aspose.HTML Java – الاستخدام المتقدم
-url: /java/advanced-usage/
+url: /ar/java/advanced-usage/
 weight: 20
 ---
 
