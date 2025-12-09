@@ -1,111 +1,142 @@
 ---
-title: Java için Aspose.HTML'de Çalışma Zamanı Hizmetini Yapılandırma
-linktitle: Java için Aspose.HTML'de Çalışma Zamanı Hizmetini Yapılandırma
-second_title: Aspose.HTML ile Java HTML İşleme
-description: Komut dosyası yürütmeyi optimize etmek, sonsuz döngüleri önlemek ve uygulama performansını artırmak için Aspose.HTML for Java'da Çalışma Zamanı Hizmetini nasıl yapılandıracağınızı öğrenin.
-weight: 14
+date: 2025-12-09
+description: HTML dosyasını Java ile nasıl oluşturacağınızı, Runtime Service'i nasıl
+  yapılandıracağınızı, HTML'yi PNG'ye nasıl dönüştüreceğinizi öğrenin ve sonsuz döngüleri
+  önlerken uygulama performansını artırın.
+linktitle: Configure Runtime Service in Aspose.HTML
+second_title: Java HTML Processing with Aspose.HTML
+title: Java'da HTML dosyası nasıl oluşturulur ve Aspose.HTML'de Runtime Service nasıl
+  yapılandırılır
 url: /tr/java/configuring-environment/configure-runtime-service/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java için Aspose.HTML'de Çalışma Zamanı Hizmetini Yapılandırma
+# Aspose.HTML for Java'da Runtime Service'i Yapılandırma
 
-## giriiş
-Java uygulamalarınızın daha hızlı ve daha verimli çalışmasını nasıl sağlayacağınızı hiç merak ettiniz mi? İster karmaşık bir web uygulaması oluşturuyor olun, ister sadece birkaç HTML belgesiyle uğraşıyor olun, hız esastır. Bir betiğin ne kadar süre çalışacağını veya sisteminizin uygulamaları ne kadar hızlı başlatacağını sınırlayabildiğinizi hayal edin. Kulağa oldukça kullanışlı geliyor, değil mi? Aspose.HTML for Java'daki Runtime Service tam da burada devreye giriyor. Bu eğitimde, betik yürütme süresini kontrol ederek uygulamanızın performansını artırmak için Aspose.HTML for Java'daki Runtime Service'i nasıl yapılandırabileceğinizi derinlemesine inceleyeceğiz.
-## Ön koşullar
-Ayrıntılara girmeden önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım. 
-1.  Java Geliştirme Kiti (JDK): Sisteminizde JDK'nın yüklü olduğundan emin olun. Bunu şu adresten indirebilirsiniz:[Oracle'ın web sitesi](https://www.oracle.com/java/technologies/javase-downloads.html).
-2.  Java Kütüphanesi için Aspose.HTML: En son sürümü şu adresten indirin:[Aspose sürüm sayfası](https://releases.aspose.com/html/java/). 
-3. Entegre Geliştirme Ortamı (IDE): Java kodunuzu yazmak ve çalıştırmak için IntelliJ IDEA, Eclipse veya NetBeans gibi bir IDE'ye ihtiyacınız olacak.
-4. Temel Java ve HTML Bilgisi: Java programlama ve temel HTML bilgisine sahip olmak, akıcı bir şekilde ilerleyebilmek için olmazsa olmazdır.
+## Giriş
+Daha hızlı ve daha güvenilir çalışan **create html file java** projelerinin nasıl oluşturulacağını hiç merak ettiniz mi? İster karmaşık bir web portalı inşa ediyor olun, ister HTML belgeleriyle deneme yapıyor olun, betik yürütmesini kontrol etmek büyük bir fark yaratabilir. Bu öğreticide, Java’da bir HTML dosyası oluşturmayı, Aspose.HTML’in Runtime Service’ini **betik yürütmesini sınırlamak** için yapılandırmayı ve ardından **html to png** dönüştürmeyi öğreneceksiniz—tüm bunlar **uygulama performansını artırma** ve **sonsuz döngüleri önleme** amacıyla. Hadi başlayalım!
 
-## Paketleri İçe Aktar
-Öncelikle gerekli paketleri içe aktarmaktan bahsedelim. Java için Aspose.HTML ile çalışmak için birkaç sınıfı içe aktarmanız gerekir. Bu içe aktarmalar önemlidir çünkü size Aspose.HTML tarafından sağlanan çeşitli işlevlere ve hizmetlere erişim sağlarlar.
+## Hızlı Yanıtlar
+- **Runtime Service ne işe yarar?** JavaScript yürütme süresini sınırlar, çok uzun süren betikleri durdurur.  
+- **İlk olarak Java’da bir HTML dosyası oluşturmak neden?** Runtime Service ve dönüşüm özelliklerini test etmek için somut bir belge sağlar.  
+- **Bir betik ne kadar süre çalışabilir ve durdurulur?** Bu örnekte 5 saniyelik bir zaman aşımı ayarladık.  
+- **HTML’den PNG oluşturabilir miyim?** Evet—Aspose.HTML sayfayı render edip PNG görüntüsü olarak kaydedebilir.  
+- **Bu uygulama performansımı artırır mı?** Kesinlikle; kontrolsüz betikleri sınırlamak CPU kullanımını ve bellek baskısını azaltır.
+
+## Ön Koşullar
+Detaylara girmeden önce, ihtiyacınız olan her şeye sahip olduğunuzdan emin olun.
+
+1. **Java Development Kit (JDK)** – Sisteminizde JDK’nın kurulu olduğundan emin olun. İndirmek için [Oracle'ın web sitesini](https://www.oracle.com/java/technologies/javase-downloads.html) ziyaret edebilirsiniz.  
+2. **Aspose.HTML for Java Kütüphanesi** – En son sürümü [Aspose sürüm sayfasından](https://releases.aspose.com/html/java/) indirin.  
+3. **Entegre Geliştirme Ortamı (IDE)** – Java kodunuzu yazıp çalıştırmak için IntelliJ IDEA, Eclipse veya NetBeans gibi bir IDE’ye ihtiyacınız olacak.  
+4. **Java ve HTML Temel Bilgisi** – Java programlaması ve temel HTML bilgisi, içeriği sorunsuz takip edebilmeniz için gereklidir.
+
+## Paketleri İçe Aktarma
+İlk olarak, gerekli paketleri içe aktarmaktan bahsedelim. Aspose.HTML for Java ile çalışmak için birkaç sınıfın içe aktarılması gerekir. Bu içe aktarmalar, Aspose.HTML’in sunduğu çeşitli işlev ve hizmetlere erişim sağlar.
+
 ```java
 import java.io.IOException;
 ```
 
-## Adım 1: JavaScript Koduyla Bir HTML Dosyası Oluşturun
-Yapılandırmaya başlamadan önce, çalışmak için bir HTML dosyasına ihtiyacımız var. Bu adımda, bir JavaScript parçacığı içeren temel bir HTML dosyası oluşturacaksınız. Bu betik daha sonra Çalışma Zamanı Hizmetinin yürütme süresini nasıl kontrol edebileceğini göstermek için kullanılacaktır.
+## Adım 1: JavaScript Kodu İçeren Bir HTML Dosyası Oluşturma
+İlk adım, basit bir JavaScript döngüsü içeren **create html file java** oluşturmaktır. Bu döngü (`while(true) {}`) müdahale etmezsek sonsuza kadar çalışır ve Runtime Service’in **sonsuz döngüleri önleme** yeteneğini göstermek için mükemmel bir örnek olur.
+
 ```java
 String code = "<h1>Runtime Service</h1>\r\n" +
-		"<script> while(true) {} </script>\r\n" +
-		"<p>The Runtime Service optimizes your system by helping it start apps and programs faster.</p>\r\n";
+        "<script> while(true) {} </script>\r\n" +
+        "<p>The Runtime Service optimizes your system by helping it start apps and programs faster.</p>\r\n";
 try (java.io.FileWriter fileWriter = new java.io.FileWriter("runtime-service.html")) {
-	fileWriter.write(code);
+    fileWriter.write(code);
 }
 ```
 
-- JavaScript döngüsünü içeren basit bir HTML yapısı tanımlıyoruz (`while(true) {}`kontrol edilmezse sonsuza kadar çalışacaktı. Bu, Çalışma Zamanı Hizmetinin gücünü göstermek için mükemmeldir.
--  Biz kullanıyoruz`FileWriter` bu HTML içeriğini adlı bir dosyaya yazmak için`"runtime-service.html"`.
-## Adım 2: Yapılandırma Nesnesini Ayarlayın
- HTML dosyamız elimizdeyken, bir sonraki adım bir kurulum yapmaktır`Configuration` nesne. Bu yapılandırma, Çalışma Zamanı Hizmetini ve diğer ayarları yönetmek için kullanılacaktır.
+## Adım 2: Yapılandırma Nesnesini Oluşturma
+HTML dosyamız hazır olduğuna göre, bir `Configuration` nesnesi oluşturacağız. Bu nesne, Runtime Service ve diğer ayarların yönetimi için temel oluşturur.
+
 ```java
 com.aspose.html.Configuration configuration = new com.aspose.html.Configuration();
 ```
 
--  Bir örnek oluşturuyoruz`Configuration`Java için Aspose.HTML'de Çalışma Zamanı Hizmeti gibi çeşitli hizmetlerin kurulması ve yönetilmesi için omurga görevi gören.
-## Adım 3: Çalışma Zamanı Hizmetini Yapılandırın
-İşte sihir burada gerçekleşiyor! Şimdi Çalışma Zamanı Hizmetini JavaScript'in ne kadar süre çalışabileceğini sınırlayacak şekilde yapılandıracağız. Bu, HTML dosyamızdaki betiğin süresiz olarak çalışmasını önler.
+## Adım 3: Runtime Service'i Yapılandırma
+İşte sihir burada gerçekleşiyor! Şimdi Runtime Service'i **betik yürütmesini sınırlamak** için yapılandıracağız. Bu, JavaScript döngüsünün uygulamanızı askıya almasını önler.
+
 ```java
 try {
-	com.aspose.html.services.IRuntimeService runtimeService = configuration.getService(com.aspose.html.services.IRuntimeService.class);
-	runtimeService.setJavaScriptTimeout(com.aspose.html.utils.TimeSpan.fromSeconds(5));
+    com.aspose.html.services.IRuntimeService runtimeService = configuration.getService(com.aspose.html.services.IRuntimeService.class);
+    runtimeService.setJavaScriptTimeout(com.aspose.html.utils.TimeSpan.fromSeconds(5));
 ```
 
--  Biz getiriyoruz`IRuntimeService` dan`Configuration` nesne.
--  Kullanarak`setJavaScriptTimeout`JavaScript yürütmesini 5 saniyeyle sınırlandırıyoruz. Komut dosyası bu süreyi aşarsa, otomatik olarak duracaktır. Bu, özellikle uygulamanızı askıya alabilecek sonsuz döngülerden veya uzun komut dosyalarından kaçınmada faydalıdır.
-## Adım 4: Yapılandırma ile HTML Belgesini Yükleyin
-Artık Çalışma Zamanı Hizmeti yapılandırıldığına göre, bu yapılandırmayı kullanarak HTML belgemizi yükleme zamanı geldi. Bu adım her şeyi bir araya getirir ve HTML dosyasındaki betiğin Çalışma Zamanı Hizmeti tarafından kontrol edilmesini sağlar.
+## Adım 4: Yapılandırma ile HTML Belgesini Yükleme
+Runtime Service yapılandırıldıktan sonra, aynı yapılandırmayı kullanarak HTML belgemizi yüklüyoruz. Bu sayede dosya içindeki betik, belirlediğimiz zaman aşımına uyar.
+
 ```java
-	com.aspose.html.HTMLDocument document = new com.aspose.html.HTMLDocument("runtime-service.html", configuration);
+    com.aspose.html.HTMLDocument document = new com.aspose.html.HTMLDocument("runtime-service.html", configuration);
 ```
 
--  Birini başlatıyoruz`HTMLDocument` HTML dosyamızla nesne (`"runtime-service.html"`) ve daha önce ayarlanmış yapılandırma. Bu, Çalışma Zamanı Hizmeti ayarlarının bu belirli HTML belgesine uygulanmasını sağlar.
-## Adım 5: HTML'yi PNG'ye dönüştürün
-Eğer onunla havalı bir şey yapamıyorsanız, bir HTML belgesinin ne faydası var? Bu adımda, Aspose.HTML'nin dönüştürme özelliklerini kullanarak HTML belgemizi bir PNG resmine dönüştürüyoruz.
+## Adım 5: HTML’yi PNG’ye Dönüştürme
+Bir HTML belgesi, görsel bir şeye dönüştürülemezse ne işe yarar? Bu adımda **html to png** gerçekleştirerek, başka bir yerde gömebileceğiniz veya test amaçlı kullanabileceğiniz bir raster görüntü elde ediyoruz.
+
 ```java
-	com.aspose.html.converters.Converter.convertHTML(
-		document,
-		new com.aspose.html.saving.ImageSaveOptions(),
-		"runtime-service_out.png"
-	);
+    com.aspose.html.converters.Converter.convertHTML(
+        document,
+        new com.aspose.html.saving.ImageSaveOptions(),
+        "runtime-service_out.png"
+    );
 ```
 
--  Biz kullanıyoruz`Converter.convertHTML` HTML belgemizi PNG resmine dönüştürme yöntemi.
-- `ImageSaveOptions` çıktı formatını (bu durumda PNG) belirtmek için kullanılır.
-- Çıktı görüntüsü şu şekilde kaydedilir:`"runtime-service_out.png"`.
-## Adım 6: Kaynakları Temizleyin
- Son olarak, bellek sızıntılarını önlemek için kaynakları temizlemek iyi bir uygulamadır. Bunları elden çıkaracağız.`document` Ve`configuration` nesneler.
+## Adım 6: Kaynakları Temizleme
+Son olarak, bellek sızıntılarını önmek için temizlik yapıyoruz. `document` ve `configuration` nesnelerinin dispose edilmesi, Aspose.HTML tarafından tutulan tüm yerel kaynakları serbest bırakır.
+
 ```java
 } finally {
-	if (document != null) {
-		document.dispose();
-	}
-	if (configuration != null) {
-		configuration.dispose();
-	}
+    if (document != null) {
+        document.dispose();
+    }
+    if (configuration != null) {
+        configuration.dispose();
+    }
 }
 ```
 
--  Kontrol ediyoruz eğer`document` Ve`configuration` nesneler boş değildir ve sonra onları imha edin. Bu, tahsis edilen tüm kaynakların serbest bırakılmasını sağlar.
+## Neden Önemli?
+- **Uygulama performansını artırma**: Kontrolsüz betikleri durdurarak CPU döngülerini diğer görevler için serbest bırakırsınız.  
+- **Sonsuz döngüleri önleme**: Runtime Service’in zaman aşımı, uygulamanızı kilitleyecek betikleri durdurur.  
+- **HTML’den PNG Oluşturma**: PNG’ye dönüştürmek, web içeriğinin küçük resimlerini, ön izlemelerini veya arşiv anlık görüntülerini oluşturmanızı sağlar.  
 
-## Çözüm
-Ve işte karşınızda! Java için Aspose.HTML'de Runtime Service'i betik yürütme süresini kontrol etmek için nasıl yapılandıracağınızı öğrendiniz. Bu, özellikle karmaşık veya potansiyel olarak sorunlu JavaScript kodlarıyla uğraşırken uygulamalarınızı optimize etmek için güçlü bir araçtır. Yukarıda belirtilen adımları izleyerek, Java uygulamalarınızın daha verimli çalışmasını sağlayabilir, zamandan tasarruf edebilir ve ileride olası baş ağrılarını önleyebilirsiniz. Unutmayın, herhangi bir araçta ustalaşmanın anahtarı pratiktir, bu yüzden deneme yapmaktan ve ayarları özel ihtiyaçlarınıza uyacak şekilde değiştirmekten çekinmeyin. İyi kodlamalar!
-## SSS
-### Java için Aspose.HTML'deki Runtime Hizmetinin amacı nedir?  
-Çalışma Zamanı Hizmeti, HTML belgelerinizdeki betiklerin yürütme süresini kontrol etmenizi sağlayarak, uygulamanızı askıya alabilecek uzun süreli veya sonsuz döngülerin önlenmesine yardımcı olur.
-### Java için Aspose.HTML'yi nasıl indirebilirim?  
- Java için Aspose.HTML'nin en son sürümünü şu adresten indirebilirsiniz:[sürüm sayfası](https://releases.aspose.com/html/java/).
-###  Atılması gerekli mi?`document` and `configuration` objects?  
-Evet, bu nesnelerden kurtulmak, uygulamanızdaki kaynakları serbest bırakmak ve bellek sızıntılarını önlemek için önemlidir.
-### JavaScript zaman aşımını 5 saniyeden farklı bir değere ayarlayabilir miyim?  
- Kesinlikle! Zaman aşımını ihtiyaçlarınıza uygun herhangi bir değere ayarlayabilirsiniz.`TimeSpan.fromSeconds()` parametre.
-### Java için Aspose.HTML ile ilgili sorunlarla karşılaşırsam nereden destek alabilirim?  
- Destek için şu adresi ziyaret edebilirsiniz:[Aspose.HTML forumu](https://forum.aspose.com/c/html/29).
+## Yaygın Sorunlar ve Çözümler
+| Sorun | Çözüm |
+|-------|----------|
+| Betik beklenenden daha uzun çalışıyor | `IRuntimeService`’in, belgeyi yüklemek için kullanılan aynı `Configuration` nesnesinden alındığını doğrulayın. |
+| PNG çıktısı boş | HTML dosyasının doğru yazıldığından ve `runtime-service.html` yolunun doğru olduğundan emin olun. |
+| Büyük belgelerde bellek yetersizliği | JVM yığın boyutunu artırın veya HTML’yi daha küçük parçalar halinde işleyin. |
+
+## Sık Sorulan Sorular
+
+**S: Aspose.HTML for Java’da Runtime Service’in amacı nedir?**  
+C: Runtime Service, **betik yürütmesini sınırlamanıza** olanak tanır, böylece **sonsuz döngüleri önleyebilir** ve uygulamanızın yanıt verebilirliğini koruyabilirsiniz.
+
+**S: Aspose.HTML for Java’yı nasıl indirebilirim?**  
+C: En son sürümü [sürüm sayfasından](https://releases.aspose.com/html/java/) indirebilirsiniz.
+
+**S: `document` ve `configuration` nesnelerini dispose etmek gerekli mi?**  
+C: Evet, bu nesneleri dispose etmek, kaynakları serbest bırakmak ve uygulamanızda bellek sızıntılarını önlemek için önemlidir.
+
+**S: JavaScript zaman aşımını 5 saniye dışındaki bir değere ayarlayabilir miyim?**  
+C: Kesinlikle! `TimeSpan.fromSeconds()` parametresini değiştirerek ihtiyacınıza uygun bir zaman aşımı belirleyebilirsiniz.
+
+**S: Aspose.HTML for Java ile ilgili sorun yaşarsam nereden destek alabilirim?**  
+C: Destek için [Aspose.HTML forumunu](https://forum.aspose.com/c/html/29) ziyaret edebilirsiniz.
+
+---
+
+**Son Güncelleme:** 2025-12-09  
+**Test Edilen Sürüm:** Aspose.HTML for Java 24.11  
+**Yazar:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
