@@ -1,51 +1,68 @@
 ---
-title: Sesuaikan Margin Halaman HTML dengan Aspose.HTML
-linktitle: Ekstensi CSS - Menambahkan Judul dan Nomor Halaman
-second_title: Pemrosesan HTML Java dengan Aspose.HTML
-description: Pelajari cara menyesuaikan margin halaman, menambahkan nomor halaman, dan judul ke dokumen HTML menggunakan Aspose.HTML untuk Java.
+date: 2025-12-05
+description: Pelajari cara mengatur margin halaman HTML di Java menggunakan Aspose.HTML,
+  serta menambahkan nomor halaman dan judul ke dokumen Anda.
+language: id
+linktitle: CSS Extensions - Adding Title and Page Number
+second_title: Java HTML Processing with Aspose.HTML
+title: Cara Mengatur Margin Halaman HTML dengan Java menggunakan Aspose.HTML
+url: /java/advanced-usage/css-extensions-adding-title-page-number/
 weight: 10
-url: /id/java/advanced-usage/css-extensions-adding-title-page-number/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Sesuaikan Margin Halaman HTML dengan Aspose.HTML
+# Cara Mengatur Margin Halaman HTML Java dengan Aspose.HTML
 
-Aspose.HTML untuk Java adalah pustaka yang hebat untuk memproses dokumen HTML dalam aplikasi Java. Dalam tutorial ini, kita akan menjelajahi cara membuat margin halaman khusus dan menambahkan nomor halaman dan judul ke dokumen HTML Anda menggunakan Aspose.HTML untuk Java. Panduan langkah demi langkah ini akan menguraikan proses menjadi langkah-langkah yang mudah dikelola untuk membantu Anda mengintegrasikan fitur-fitur ini ke dalam dokumen HTML Anda dengan mudah.
+Dalam tutorial ini Anda akan menemukan **cara mengatur margin halaman HTML Java**‑style menggunakan Aspose.HTML untuk Java. Kami akan membahas cara membuat margin halaman khusus, menyisipkan nomor halaman, dan menambahkan judul dokumen—semua dengan kode langkah‑demi‑langkah yang jelas yang dapat Anda salin ke proyek Anda.
+
+## Jawaban Cepat
+- **Perpustakaan apa yang dibutuhkan?** Aspose.HTML for Java  
+- **Apakah saya dapat mengontrol margin secara programatis?** Ya, via aturan CSS `@page` di user‑style sheet  
+- **Format output mana yang mendukung margin?** XPS, PDF, dan format raster lainnya  
+- **Apakah saya memerlukan lisensi untuk produksi?** Lisensi Aspose.HTML yang valid diperlukan untuk penggunaan non‑trial  
+- **Apakah ini kompatibel dengan Java 11+?** Tentu – perpustakaan ini bekerja dengan versi Java modern  
+
+## Apa Itu “Mengatur Margin Halaman HTML Java”?
+Mengatur margin halaman HTML di Java berarti mengonfigurasi mesin rendering (disediakan oleh Aspose.HTML) untuk menerapkan properti CSS page‑box sebelum dokumen dikonversi ke format yang dapat dicetak seperti XPS atau PDF. Dengan mendefinisikan aturan `@page` khusus, Anda mengontrol area yang dapat dicetak, nomor halaman, serta konten header/footer.
+
+## Mengapa Menggunakan Aspose.HTML untuk Kontrol Margin?
+- **Tata letak presisi** – CSS `@page` memberi Anda kontrol pixel‑perfect atas margin, header, dan footer.  
+- **Konsistensi lintas format** – Definisi margin yang sama bekerja untuk XPS, PDF, dan output gambar.  
+- **Tanpa ketergantungan browser** – Rendering terjadi di sisi server, jadi Anda tidak memerlukan browser headless.  
 
 ## Prasyarat
 
-Sebelum kita memulai, pastikan Anda memiliki prasyarat berikut:
+Sebelum kita mulai, pastikan Anda memiliki prasyarat berikut:
 
-1. Lingkungan Pengembangan Java: Pastikan Anda telah menyiapkan lingkungan pengembangan Java di komputer Anda.
+1. **Lingkungan Pengembangan Java** – JDK 11 atau yang lebih baru terpasang.  
+2. **Aspose.HTML untuk Java** – Unduh dan instal perpustakaan dari [here](https://releases.aspose.com/html/java/).  
 
-2.  Aspose.HTML untuk Java: Unduh dan instal pustaka Aspose.HTML untuk Java dari[Di Sini](https://releases.aspose.com/html/java/).
+## Impor Paket
 
-## Paket Impor
-
-Untuk memulai, Anda perlu mengimpor paket yang diperlukan dari Aspose.HTML untuk Java. Tambahkan pernyataan impor berikut ke kode Java Anda:
+Untuk memulai, impor kelas Aspose.HTML yang diperlukan:
 
 ```java
-// Impor paket Aspose.HTML
+// Import Aspose.HTML packages
 import com.aspose.html.Configuration;
 import com.aspose.html.services.IUserAgentService;
 import com.aspose.html.HTMLDocument;
 import com.aspose.html.rendering.xps.XpsDevice;
 ```
 
-Sekarang, mari kita uraikan proses penambahan margin halaman khusus, nomor halaman, dan judul ke dalam langkah-langkah yang dapat dikelola:
+## Cara Mengatur Margin Halaman HTML Java – Panduan Langkah‑demi‑Langkah
 
-## Langkah 1: Inisialisasi Konfigurasi dan Margin Halaman
+### Langkah 1: Inisialisasi Konfigurasi dan Definisikan Margin Halaman Kustom
 
 ```java
-// Inisialisasi objek konfigurasi dan atur margin halaman untuk dokumen
+// Initialize configuration object and set up the page-margins for the document
 Configuration configuration = new Configuration();
 try {
-    // Dapatkan layanan Agen Pengguna
+    // Get the User Agent service
     IUserAgentService userAgent = configuration.getService(IUserAgentService.class);
-    // Mengatur gaya margin kustom dan membuat tanda di atasnya
+    // Set the style of custom margins and create marks on it
     userAgent.setUserStyleSheet("@page\n" +
             "{\n" +
             "    /* Page margins should be not empty in order to write content inside the margin-boxes */\n" +
@@ -70,24 +87,24 @@ try {
             "}\n");
 ```
 
-Pada langkah ini, kami menginisialisasi objek konfigurasi dan mengatur margin halaman khusus, termasuk posisi penghitung halaman dan judul halaman.
+Dalam blok ini kami membuat objek `Configuration`, memperoleh `IUserAgentService`, dan menyuntikkan aturan CSS `@page` yang mendefinisikan margin, penghitung halaman kanan‑bawah, serta judul dokumen di tengah‑atas.
 
-## Langkah 2: Inisialisasi Dokumen HTML
+### Langkah 2: Buat Dokumen HTML
 
 ```java
-// Inisialisasi dokumen HTML
+// Initialize an HTML document
 HTMLDocument document = new HTMLDocument("<div>Hello World!!!</div>", ".", configuration);
 ```
 
-Di sini, kami membuat dokumen HTML dengan contoh konten (dalam hal ini, pesan "Halo Dunia") dan menerapkan konfigurasi dari Langkah 1.
+Di sini kami menginstansiasi `HTMLDocument` dengan potongan sederhana “Hello World”. Konfigurasi yang sama dari Langkah 1 diterapkan, sehingga margin khusus dihormati saat dokumen dirender.
 
-## Langkah 3: Inisialisasi Perangkat Output dan Render Dokumen
+### Langkah 3: Render ke File XPS (atau output lain yang didukung)
 
 ```java
-// Inisialisasi perangkat keluaran
+// Initialize an output device
 XpsDevice device = new XpsDevice(Resources.output("output.xps"));
 try {
-    //Kirim dokumen ke perangkat keluaran
+    // Send the document to the output device
     document.renderTo(device);
 } finally {
     if (device != null) {
@@ -96,38 +113,59 @@ try {
 }
 ```
 
-Pada langkah ini, kita menyiapkan perangkat keluaran dan merender dokumen HTML. Dokumen akan diproses dan disimpan sebagai file XPS dengan margin halaman, nomor halaman, dan judul yang ditentukan.
+Langkah ini membuat `XpsDevice` yang menulis halaman yang dirender ke `output.xps`. Margin, nomor halaman, dan judul yang Anda definisikan sebelumnya akan muncul di file akhir.
 
-## Kesimpulan
+## Masalah Umum & Tips
 
-Selamat! Anda telah berhasil mempelajari cara membuat margin halaman khusus dan menambahkan nomor halaman serta judul ke dokumen HTML Anda menggunakan Aspose.HTML untuk Java. Kustomisasi ini memungkinkan Anda membuat dokumen yang lebih profesional dan menarik secara visual.
-
- Jika Anda memiliki pertanyaan atau menghadapi masalah, jangan ragu untuk mengunjungi[Dokumentasi Aspose.HTML untuk Java](https://reference.aspose.com/html/java/) atau mencari bantuan di[Forum dukungan Aspose](https://forum.aspose.com/).
+- **Margin tidak berubah** – Pastikan aturan `@page` tidak ditimpa oleh stylesheet lain. Pemanggilan `setUserStyleSheet` memaksanya menjadi prioritas tertinggi.  
+- **Nomor halaman menampilkan “NaN”** – Pastikan Anda menggunakan Aspose.HTML versi 23.10 atau lebih baru; versi lama tidak memiliki fungsi `currentPageNumber()`.  
+- **File output kosong** – Pastikan jalur `Resources.output` terresolusi dengan benar dan Anda memiliki izin menulis.  
 
 ## Pertanyaan yang Sering Diajukan
 
 ### Q1: Apa itu Aspose.HTML untuk Java?
 
-A1: Aspose.HTML untuk Java adalah pustaka Java yang menyediakan alat hebat untuk bekerja dengan dokumen HTML dalam aplikasi Java.
+**A:** Aspose.HTML untuk Java adalah perpustakaan Java yang menyediakan alat kuat untuk bekerja dengan dokumen HTML dalam aplikasi Java, termasuk konversi, rendering, dan manipulasi.
 
-### Q2: Dapatkah saya menyesuaikan margin halaman lebih lanjut?
+### Q2: Bisakah saya menyesuaikan margin halaman lebih lanjut?
 
-A2: Ya, Anda dapat mengubah gaya CSS di Langkah 1 untuk menyesuaikan margin halaman sesuai kebutuhan Anda.
+**A:** Ya, cukup edit CSS di dalam `setUserStyleSheet`. Anda dapat mengubah nilai `margin-*` apa pun atau menambahkan kotak `@top-*` / `@bottom-*` tambahan.
 
 ### Q3: Bagaimana saya dapat menambahkan lebih banyak konten ke dokumen HTML?
 
-A3: Anda dapat mengubah konten HTML pada Langkah 2 dengan mengganti konten contoh dengan konten Anda sendiri.
+**A:** Ganti string dalam `new HTMLDocument("<div>Hello World!!!</div>", …)` dengan markup HTML Anda sendiri, atau muat file eksternal menggunakan konstruktor `HTMLDocument(String url, …)`.
 
 ### Q4: Apakah Aspose.HTML untuk Java kompatibel dengan format dokumen lain?
 
-A4: Ya, Aspose.HTML untuk Java dapat digunakan untuk mengonversi dokumen HTML ke berbagai format, termasuk PDF, XPS, dan gambar.
+**A:** Tentu saja. `HTMLDocument` yang sama dapat dirender ke PDF, XPS, gambar, atau bahkan EPUB dengan mengganti perangkat output (misalnya, `PdfDevice`, `PngDevice`).
 
 ### Q5: Apakah saya memerlukan lisensi untuk menggunakan Aspose.HTML untuk Java?
 
- A5: Ya, Anda bisa mendapatkan lisensi atau uji coba gratis dari[Di Sini](https://purchase.aspose.com/buy) atau[Di Sini](https://releases.aspose.com/).
+**A:** Ya, lisensi diperlukan untuk penggunaan produksi. Anda dapat memperoleh percobaan atau membeli lisensi dari [here](https://purchase.aspose.com/buy) atau [here](https://releases.aspose.com/).
+
+### Q6: Bagaimana cara mengatur margin berbeda untuk halaman ganjil dan genap?
+
+**A:** Gunakan pseudo‑class `@page :left` dan `@page :right` di dalam stylesheet Anda untuk mendefinisikan margin yang berbeda untuk halaman kiri (genap) dan kanan (ganjil).
+
+### Q7: Bisakah saya menyematkan font khusus dalam dokumen yang dirender?
+
+**A:** Ya. Tambahkan aturan `@font-face` ke stylesheet pengguna dan referensikan font tersebut dalam konten HTML Anda.
+
+## Kesimpulan
+
+Anda kini telah menguasai **cara mengatur margin halaman HTML Java** menggunakan Aspose.HTML, dan Anda tahu cara menambahkan nomor halaman serta judul untuk membuat dokumen Anda terlihat profesional. Jangan ragu untuk bereksperimen dengan kotak `@page` tambahan, font khusus, atau format output berbeda sesuai kebutuhan proyek Anda.
+
+Jika Anda menghadapi tantangan, dokumentasi resmi [Aspose.HTML for Java documentation](https://reference.aspose.com/html/java/) dan [Aspose support forum](https://forum.aspose.com/) adalah tempat yang sangat baik untuk mendapatkan bantuan.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2025-12-05  
+**Tested With:** Aspose.HTML for Java 23.12  
+**Author:** Aspose

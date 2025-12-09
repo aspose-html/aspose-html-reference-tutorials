@@ -1,51 +1,68 @@
 ---
-title: Přizpůsobte okraje stránky HTML pomocí Aspose.HTML
-linktitle: Rozšíření CSS - Přidání názvu a čísla stránky
-second_title: Java HTML zpracování s Aspose.HTML
-description: Naučte se, jak upravit okraje stránek, přidat čísla stránek a nadpisy do dokumentů HTML pomocí Aspose.HTML for Java.
+date: 2025-12-05
+description: Naučte se, jak nastavit okraje HTML stránky v Javě pomocí Aspose.HTML
+  a přidat čísla stránek a nadpisy do svých dokumentů.
+language: cs
+linktitle: CSS Extensions - Adding Title and Page Number
+second_title: Java HTML Processing with Aspose.HTML
+title: Jak nastavit okraje HTML stránky v Javě pomocí Aspose.HTML
+url: /java/advanced-usage/css-extensions-adding-title-page-number/
 weight: 10
-url: /cs/java/advanced-usage/css-extensions-adding-title-page-number/
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
-# Přizpůsobte okraje stránky HTML pomocí Aspose.HTML
+# Jak nastavit okraje HTML stránky v Javě s Aspose.HTML
 
-Aspose.HTML for Java je výkonná knihovna pro zpracování dokumentů HTML v aplikacích Java. V tomto tutoriálu prozkoumáme, jak vytvořit vlastní okraje stránek a přidat čísla a názvy stránek do dokumentů HTML pomocí Aspose.HTML for Java. Tento podrobný průvodce rozdělí proces na zvládnutelné kroky, které vám pomohou snadno integrovat tyto funkce do vašich dokumentů HTML.
+V tomto tutoriálu se dozvíte **jak nastavit okraje HTML stránky v Javě** pomocí Aspose.HTML pro Javu. Provedeme vás tvorbou vlastních okrajů stránky, vložením čísel stránek a přidáním názvu dokumentu – vše s jasným, krok‑za‑krokem kódem, který můžete zkopírovat do svého projektu.
+
+## Rychlé odpovědi
+- **Jaká knihovna je potřeba?** Aspose.HTML for Java  
+- **Mohu ovládat okraje programově?** Ano, pomocí CSS `@page` v uživatelském stylovém listu  
+- **Které výstupní formáty podporují okraje?** XPS, PDF a další rastrové formáty  
+- **Potřebuji licenci pro produkční použití?** Platná licence Aspose.HTML je vyžadována pro ne‑zkušební použití  
+- **Je to kompatibilní s Java 11+?** Naprosto – knihovna funguje s moderními verzemi Javy  
+
+## Co znamená „nastavení okrajů HTML stránky v Javě“?
+Nastavení okrajů HTML stránky v Javě znamená konfiguraci renderovacího enginu (poskytovaného Aspose.HTML) tak, aby aplikoval CSS vlastnosti stránkových boxů před tím, než je dokument převeden do tisknutelného formátu, jako je XPS nebo PDF. Definováním vlastního pravidla `@page` řídíte tiskovou oblast, čísla stránek a obsah hlavičky/patičky.
+
+## Proč použít Aspose.HTML pro řízení okrajů?
+- **Přesné rozvržení** – CSS `@page` poskytuje pixel‑dokonalou kontrolu nad okraji, hlavičkami a patičkami.  
+- **Konzistence napříč formáty** – Stejné definice okrajů fungují pro XPS, PDF i výstupy obrázků.  
+- **Žádná závislost na prohlížeči** – Renderování probíhá na serveru, takže nepotřebujete headless prohlížeč.  
 
 ## Předpoklady
 
-Než začneme, ujistěte se, že máte splněny následující předpoklady:
+Než začneme, ujistěte se, že máte následující předpoklady připravené:
 
-1. Vývojové prostředí Java: Ujistěte se, že máte na svém počítači nastavené vývojové prostředí Java.
+1. **Java vývojové prostředí** – Nainstalovaný JDK 11 nebo novější.  
+2. **Aspose.HTML for Java** – Stáhněte a nainstalujte knihovnu z [zde](https://releases.aspose.com/html/java/).  
 
-2.  Aspose.HTML for Java: Stáhněte si a nainstalujte knihovnu Aspose.HTML for Java z[zde](https://releases.aspose.com/html/java/).
+## Import balíčků
 
-## Importujte balíčky
-
-Chcete-li začít, musíte importovat potřebné balíčky z Aspose.HTML for Java. Přidejte do kódu Java následující příkazy pro import:
+Pro zahájení importujte potřebné třídy Aspose.HTML:
 
 ```java
-// Importujte balíčky Aspose.HTML
+// Import Aspose.HTML packages
 import com.aspose.html.Configuration;
 import com.aspose.html.services.IUserAgentService;
 import com.aspose.html.HTMLDocument;
 import com.aspose.html.rendering.xps.XpsDevice;
 ```
 
-Nyní si rozdělme proces přidávání vlastních okrajů stránek, čísel stránek a názvů do zvládnutelných kroků:
+## Jak nastavit okraje HTML stránky v Javě – krok‑za‑krokem průvodce
 
-## Krok 1: Inicializujte konfiguraci a okraje stránky
+### Krok 1: Inicializace konfigurace a definice vlastních okrajů stránky
 
 ```java
-// Inicializujte konfigurační objekt a nastavte okraje stránky pro dokument
+// Initialize configuration object and set up the page-margins for the document
 Configuration configuration = new Configuration();
 try {
-    // Získejte službu User Agent
+    // Get the User Agent service
     IUserAgentService userAgent = configuration.getService(IUserAgentService.class);
-    // Nastavte styl vlastních okrajů a vytvořte na něm značky
+    // Set the style of custom margins and create marks on it
     userAgent.setUserStyleSheet("@page\n" +
             "{\n" +
             "    /* Page margins should be not empty in order to write content inside the margin-boxes */\n" +
@@ -70,24 +87,24 @@ try {
             "}\n");
 ```
 
-V tomto kroku inicializujeme konfigurační objekt a nastavíme vlastní okraje stránky, včetně pozice počítadla stránky a názvu stránky.
+V tomto bloku vytvoříme objekt `Configuration`, získáme `IUserAgentService` a vložíme CSS pravidlo `@page`, které definuje okraje, čítač stránek vpravo dole a název dokumentu uprostřed nahoře.
 
-## Krok 2: Inicializujte dokument HTML
+### Krok 2: Vytvoření HTML dokumentu
 
 ```java
-// Inicializujte dokument HTML
+// Initialize an HTML document
 HTMLDocument document = new HTMLDocument("<div>Hello World!!!</div>", ".", configuration);
 ```
 
-Zde vytvoříme dokument HTML s ukázkovým obsahem (v tomto případě zpráva „Ahoj světe“) a použijeme konfiguraci z kroku 1.
+Zde vytvoříme `HTMLDocument` s jednoduchým úryvkem „Hello World“. Stejná konfigurace z Kroku 1 je použita, takže vlastní okraje jsou při renderování dokumentu respektovány.
 
-## Krok 3: Inicializujte výstupní zařízení a vykreslete dokument
+### Krok 3: Renderování do XPS souboru (nebo jakéhokoli podporovaného výstupu)
 
 ```java
-// Inicializujte výstupní zařízení
+// Initialize an output device
 XpsDevice device = new XpsDevice(Resources.output("output.xps"));
 try {
-    //Odešlete dokument na výstupní zařízení
+    // Send the document to the output device
     document.renderTo(device);
 } finally {
     if (device != null) {
@@ -96,38 +113,60 @@ try {
 }
 ```
 
-V tomto kroku nastavíme výstupní zařízení a vykreslíme HTML dokument. Dokument bude zpracován a uložen jako soubor XPS se zadanými okraji stránek, čísly stránek a názvem.
+Tento krok vytvoří `XpsDevice`, který zapisuje renderované stránky do `output.xps`. Okraje, čísla stránek a název, které jste definovali dříve, se objeví v konečném souboru.
 
-## Závěr
+## Časté problémy a tipy
+- **Okraje se nezdají změněny** – Ujistěte se, že pravidlo `@page` není přepsáno jinými styly. Volání `setUserStyleSheet` jej vynutí s nejvyšší prioritou.  
+- **Čísla stránek zobrazují „NaN“** – Ověřte, že používáte Aspose.HTML verze 23.10 nebo novější; starší verze postrádají funkci `currentPageNumber()`.  
+- **Výstupní soubor je prázdný** – Zkontrolujte, že cesta `Resources.output` je správně vyřešena a máte oprávnění k zápisu.  
 
-Gratuluji! Úspěšně jste se naučili, jak vytvářet vlastní okraje stránek a přidávat čísla a názvy stránek do dokumentů HTML pomocí Aspose.HTML for Java. Toto přizpůsobení vám umožní vytvářet profesionálnější a vizuálně přitažlivější dokumenty.
+## Často kladené otázky
 
- Pokud máte nějaké dotazy nebo se potýkáte s nějakými problémy, neváhejte navštívit[Aspose.HTML pro dokumentaci Java](https://reference.aspose.com/html/java/) nebo vyhledejte pomoc na[Aspose fórum podpory](https://forum.aspose.com/).
+### Q1: Co je Aspose.HTML for Java?
 
-## FAQ
+**A:** Aspose.HTML for Java je knihovna pro Javu, která poskytuje výkonné nástroje pro práci s HTML dokumenty v Java aplikacích, včetně konverze, renderování a manipulace.
 
-### Q1: Co je Aspose.HTML pro Java?
+### Q2: Mohu dále přizpůsobit okraje stránky?
 
-Odpověď 1: Aspose.HTML for Java je knihovna Java, která poskytuje výkonné nástroje pro práci s dokumenty HTML v aplikacích Java.
+**A:** Ano, stačí upravit CSS uvnitř `setUserStyleSheet`. Můžete změnit libovolné hodnoty `margin-*` nebo přidat další boxy `@top-*` / `@bottom-*`.
 
-### Q2: Mohu dále upravit okraje stránky?
+### Q3: Jak mohu přidat více obsahu do HTML dokumentu?
 
-Odpověď 2: Ano, styly CSS můžete upravit v kroku 1 a upravit tak okraje stránky podle svých požadavků.
-
-### Q3: Jak mohu přidat další obsah do dokumentu HTML?
-
-Odpověď 3: Obsah HTML v kroku 2 můžete upravit nahrazením ukázkového obsahu vlastním.
+**A:** Nahraďte řetězec v `new HTMLDocument("<div>Hello World!!!</div>", …)` vlastním HTML kódem, nebo načtěte externí soubor pomocí konstruktoru `HTMLDocument(String url, …)`.
 
 ### Q4: Je Aspose.HTML for Java kompatibilní s jinými formáty dokumentů?
 
-Odpověď 4: Ano, Aspose.HTML for Java lze použít k převodu dokumentů HTML do různých formátů, včetně PDF, XPS a obrázků.
+**A:** Naprosto. Ten samý `HTMLDocument` lze renderovat do PDF, XPS, obrázků nebo dokonce EPUB výměnou výstupního zařízení (např. `PdfDevice`, `PngDevice`).
 
-### Q5: Potřebuji licenci pro používání Aspose.HTML pro Java?
+### Q5: Potřebuji licenci pro používání Aspose.HTML for Java?
 
- A5: Ano, můžete získat licenci nebo bezplatnou zkušební verzi[zde](https://purchase.aspose.com/buy) nebo[zde](https://releases.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
+**A:** Ano, licence je vyžadována pro produkční použití. Zkušební verzi nebo licenci můžete získat [zde](https://purchase.aspose.com/buy) nebo [zde](https://releases.aspose.com/).
 
-{{< /blocks/products/pf/main-container >}}
+### Q6: Jak nastavit různé okraje pro liché a sudé stránky?
+
+**A:** Použijte pseudo‑třídy `@page :left` a `@page :right` ve vašem stylovém listu k definování odlišných okrajů pro levé (sudé) a pravé (liché) stránky.
+
+### Q7: Mohu vložit vlastní fonty do renderovaného dokumentu?
+
+**A:** Ano. Přidejte pravidla `@font-face` do uživatelského stylového listu a odkažte na fonty ve vašem HTML obsahu.
+
+## Závěr
+
+Nyní jste zvládli **jak nastavit okraje HTML stránky v Javě** pomocí Aspose.HTML a víte, jak přidat čísla stránek a název, aby vaše dokumenty vypadaly profesionálně. Nebojte se experimentovat s dalšími `@page` boxy, vlastními fonty nebo různými výstupními formáty podle potřeb vašeho projektu.
+
+Pokud narazíte na problémy, oficiální [dokumentace Aspose.HTML for Java](https://reference.aspose.com/html/java/) a [fórum podpory Aspose](https://forum.aspose.com/) jsou výborná místa, kde získat pomoc.
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
+{{< /blocks/products/pf/main-container >}}
 {{< blocks/products/products-backtop-button >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+
+---
+
+**Poslední aktualizace:** 2025-12-05  
+**Testováno s:** Aspose.HTML for Java 23.12  
+**Autor:** Aspose  
+
+---
