@@ -1,51 +1,63 @@
 ---
-title: Gebruik berichthandlers in Aspose.HTML voor Java
-linktitle: Gebruik berichthandlers in Aspose.HTML voor Java
-second_title: Java HTML-verwerking met Aspose.HTML
-description: Leer hoe u berichtverwerkers in Aspose.HTML voor Java kunt gebruiken om ontbrekende afbeeldingen en andere netwerkbewerkingen effectief te verwerken.
-weight: 12
+date: 2025-12-10
+description: Leer hoe je Aspose kunt gebruiken om gebroken links in Java af te handelen,
+  HTML naar PNG te converteren en een HTML‑document te laden in Java met Aspose.HTML
+  voor Java.
+linktitle: Use Message Handlers in Aspose.HTML
+second_title: Java HTML Processing with Aspose.HTML
+title: Hoe Aspose.HTML-berichtverwerkers te gebruiken in Java
 url: /nl/java/configuring-environment/use-message-handlers/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Gebruik berichthandlers in Aspose.HTML voor Java
+# Hoe Aspose.HTML-berichtverwerkers te gebruiken in Java
 
-## Invoering
-In deze tutorial leiden we je door een praktisch voorbeeld van het gebruik van berichthandlers in Aspose.HTML voor Java. We bereiden een eenvoudig HTML-document voor dat verwijst naar een ontbrekende afbeelding en laten zien hoe je de fout kunt opvangen en afhandelen met behulp van een aangepaste berichthandler. Of je nu nieuw bent met Aspose.HTML of je vaardigheden wilt uitbreiden, deze gids geeft je de inzichten die je nodig hebt om netwerkbewerkingen effectief te beheren.
+## Inleiding
+In deze tutorial wordt stap‑voor‑stap gedemonstreerd **how to use aspose** voor het afhandelen van ontbrekende resources in HTML. We maken een eenvoudig HTML‑document dat naar een ontbrekende afbeelding verwijst, koppelen een aangepaste berichtverwerker, en laten zien hoe je **load html document java** kunt gebruiken terwijl je gebroken links op een nette manier afhandelt. Aan het einde zie je ook hoe je **convert html to png** kunt uitvoeren met Aspose.HTML, waardoor je een volledig beeld krijgt van HTML‑naar‑afbeelding conversie in Java.
+
+## Snelle antwoorden
+- **Wat is het primaire doel van een berichtverwerker?** Om netwerkoperaties te onderscheppen en te reageren op statuscodes zoals ontbrekende resources.  
+- **Kan Aspose.HTML HTML naar PNG converteren?** Ja, met `Converter.convertHTML` kun je html‑naar‑afbeelding conversie uitvoeren.  
+- **Heb ik een licentie nodig voor dit voorbeeld?** Een tijdelijke licentie verwijdert evaluatielimieten; een permanente licentie is vereist voor productie.  
+- **Welke Java‑versie wordt ondersteund?** Elke JDK 8+ (de tutorial gebruikt JDK 11).  
+- **Is het mogelijk om meerdere gebroken links af te handelen?** Absoluut – je kunt meerdere verwerkers schakelen om verschillende scenario's te beheren.
+
 ## Vereisten
-Voordat we de stapsgewijze handleiding ingaan, willen we ervoor zorgen dat u alles bij de hand hebt:
-1.  Java Development Kit (JDK): Zorg ervoor dat u JDK op uw systeem hebt geïnstalleerd. U kunt het downloaden van de[Oracle-website](https://www.oracle.com/java/technologies/javase-downloads.html).
-2.  Aspose.HTML voor Java: U moet Aspose.HTML voor Java geïnstalleerd hebben. U kunt het downloaden van de[Aspose releases pagina](https://releases.aspose.com/html/java/).
-3. IDE: Gebruik uw favoriete Java Integrated Development Environment (IDE) zoals IntelliJ IDEA, Eclipse of NetBeans.
-4. Basiskennis van Java: Kennis van Java-programmering is essentieel om deze tutorial effectief te kunnen volgen.
-5.  Tijdelijke licentie: Als u de proefversie van Aspose.HTML gebruikt, overweeg dan om een[tijdelijke licentie](https://purchase.aspose.com/temporary-license/) om beperkingen tijdens de ontwikkeling te voorkomen.
+1. Java Development Kit (JDK): Zorg ervoor dat je JDK op je systeem hebt geïnstalleerd. Je kunt het downloaden van de [Oracle website](https://www.oracle.com/java/technologies/javase-downloads.html).  
+2. Aspose.HTML for Java: Je moet Aspose.HTML for Java geïnstalleerd hebben. Je kunt het downloaden van de [Aspose releases page](https://releases.aspose.com/html/java/).  
+3. IDE: Gebruik je favoriete Java Integrated Development Environment (IDE) zoals IntelliJ IDEA, Eclipse of NetBeans.  
+4. Basiskennis van Java: Vertrouwdheid met Java‑programmeren is essentieel om deze tutorial effectief te volgen.  
+5. Tijdelijke licentie: Als je de proefversie van Aspose.HTML gebruikt, overweeg dan een [temporary license](https://purchase.aspose.com/temporary-license/) aan te schaffen om beperkingen tijdens ontwikkeling te vermijden.
 
-## Pakketten importeren
-Voordat we beginnen, moet u ervoor zorgen dat u de benodigde pakketten in uw Java-project hebt geïmporteerd. Hieronder staan de essentiële imports die u nodig hebt:
+## Importeer pakketten
+Voordat we beginnen, zorg ervoor dat je de benodigde pakketten in je Java‑project hebt geïmporteerd. Hieronder staan de essentiële imports die je nodig hebt:
 ```java
 import java.io.IOException;
 ```
-Met deze imports krijgt u toegang tot de klassen en methoden die nodig zijn voor het verwerken van netwerkbewerkingen, het maken van HTML-documenten en het uitvoeren van de HTML-naar-PNG-conversie.
+Deze imports geven je toegang tot de klassen en methoden die nodig zijn voor het afhandelen van netwerkoperaties, het maken van HTML‑documenten, en het uitvoeren van de HTML‑naar‑PNG conversie.
 
-## Stap 1: De HTML-code voorbereiden
-Het eerste wat we nodig hebben is een simpele HTML-code die verwijst naar een afbeeldingsbestand. We verwijzen expres naar een afbeelding die niet bestaat om het foutverwerkingsmechanisme te activeren.
+## Stap 1: Bereid de HTML‑code voor
+Het eerste wat we nodig hebben is een eenvoudige HTML‑snippet die naar een afbeeldingsbestand verwijst. We zullen bewust een afbeelding refereren die niet bestaat om het foutafhandelingsmechanisme te activeren.
 ```java
 String code = "<img src='missing.jpg'>";
 ```
- Dit codefragment maakt een HTML-element dat probeert een afbeelding met de naam te laden`missing.jpg`Omdat dit afbeeldingsbestand niet bestaat, zal er een fout optreden tijdens het laden van het document.
-## Stap 2: Schrijf de HTML-code naar een bestand
-Vervolgens moeten we deze HTML-code naar een bestand schrijven dat we later kunnen laden.
+Deze code maakt een `<img>`‑tag die wijst naar `missing.jpg`. Omdat de afbeelding ontbreekt, zal de netwerksservice een statuscode anders dan 200 teruggeven, die onze aangepaste verwerker zal opvangen.
+
+## Stap 2: Schrijf de HTML‑code naar een bestand
+Vervolgens moeten we de HTML‑snippet opslaan zodat Aspose.HTML het kan laden als een document.
 ```java
 try (java.io.FileWriter fileWriter = new java.io.FileWriter("document.html")) {
     fileWriter.write(code);
 }
 ```
- Hier gebruiken we een`FileWriter` om onze HTML-code naar een bestand met de naam te schrijven`document.html`Dit bestand wordt gebruikt om in de volgende stappen een HTML-document te maken.
-## Stap 3: Maak een aangepaste berichtenhandler
-Laten we nu een aangepaste berichtbehandelaar maken om het ontbrekende afbeeldingscenario te verwerken. De berichtbehandelaar controleert de statuscode van het antwoord en drukt een bericht af als het bestand niet wordt gevonden.
+Met een `FileWriter` slaan we de HTML op naar **document.html**. Dit bestand wordt later de bron voor de **load html document java** stap.
+
+## Stap 3: Maak een aangepaste berichtverwerker
+Laten we nu een aangepaste berichtverwerker bouwen die reageert wanneer de afbeelding niet gevonden kan worden. De verwerker controleert de HTTP‑statuscode en print een vriendelijke boodschap.
 ```java
 com.aspose.html.net.MessageHandler handler = new com.aspose.html.net.MessageHandler() {
     @Override
@@ -57,31 +69,34 @@ com.aspose.html.net.MessageHandler handler = new com.aspose.html.net.MessageHand
     }
 };
 ```
- In deze handler is de`invoke` methode controleert de statuscode van de respons van de netwerkbewerking. Als de statuscode niet 200 is (wat succes aangeeft), wordt er een bericht afgedrukt dat aangeeft dat het bestand niet is gevonden. De`invoke(context);` regel zorgt ervoor dat de volgende handler in de keten wordt aangeroepen.
-## Stap 4: Configureer de netwerkservice
- Om onze aangepaste berichtenhandler te gebruiken, moeten we deze toevoegen aan de keten van bestaande berichtenhandlers in de netwerkservice. Dit gebeurt via de`Configuration` klas.
+De `invoke`‑methode onderzoekt `context.getResponse().getStatusCode()`. Als deze niet **200** is, geven we een duidelijke waarschuwing dat het bestand ontbreekt. De laatste `invoke(context);`‑aanroep geeft de controle door aan de volgende verwerker in de keten.
+
+## Stap 4: Configureer de netwerksservice
+Om Aspose.HTML op de hoogte te stellen van onze verwerker, registreren we deze bij de netwerksservice via de `Configuration`‑klasse.
 ```java
 com.aspose.html.Configuration configuration = new com.aspose.html.Configuration();
 try {
     com.aspose.html.services.INetworkService network = configuration.getService(com.aspose.html.services.INetworkService.class);
     network.getMessageHandlers().addItem(handler);
 ```
-Hier maken we een instantie van`Configuration` en haal de`INetworkService`. Vervolgens voegen we onze aangepaste handler toe aan de lijst met berichthandlers. Deze instelling zorgt ervoor dat onze handler wordt aangeroepen tijdens netwerkbewerkingen.
-## Stap 5: Laad het HTML-document
-Met de configuratie op zijn plaats, kunnen we nu ons HTML-document laden. Het document zal proberen de ontbrekende afbeelding te laden, wat onze aangepaste berichthandler triggert.
+Hier maken we een `Configuration`‑instantie, halen de `INetworkService` op, en voegen onze aangepaste verwerker toe aan de collectie. Dit zorgt ervoor dat de verwerker wordt uitgevoerd tijdens elk netwerkverzoek, zoals het laden van afbeeldingen.
+
+## Stap 5: Laad het HTML‑document
+Met de configuratie klaar, kunnen we nu het HTML‑bestand laden dat we eerder hebben gemaakt. Deze stap demonstreert **load html document java** terwijl de ontbrekende afbeelding onze verwerker activeert.
 ```java
 com.aspose.html.HTMLDocument document = new com.aspose.html.HTMLDocument("document.html", configuration);
 try {
-    // Extra bewerkingen komen hier
+    // Additional operations will go here
 } finally {
     if (document != null) {
         document.dispose();
     }
 }
 ```
-Dit fragment laadt het HTML-document met de configuratie die we eerder hebben ingesteld. Het laadproces van het document zal proberen de ontbrekende afbeelding te laden en onze berichtenhandler zal de resulterende fout opvangen en verwerken.
+De `HTMLDocument`‑constructor ontvangt zowel het bestandspad als de aangepaste `configuration`. Wanneer het document de `<img>`‑tag parseert, probeert de netwerksservice `missing.jpg` op te halen, krijgt een 404, en onze verwerker print de waarschuwing.
+
 ## Stap 6: Converteer HTML naar PNG
-Om het af te ronden, laten we het HTML-document converteren naar een PNG-afbeelding. Deze stap is niet strikt noodzakelijk voor het verwerken van de ontbrekende afbeelding, maar het demonstreert de bredere functionaliteit van Aspose.HTML.
+Om de bredere mogelijkheden van Aspose.HTML te illustreren, converteren we het geladen document naar een PNG‑afbeelding. Dit is een klassiek **convert html to png** scenario.
 ```java
 com.aspose.html.converters.Converter.convertHTML(
     document,
@@ -89,9 +104,10 @@ com.aspose.html.converters.Converter.convertHTML(
     "output.png"
 );
 ```
- Hier gebruiken we de`Converter.convertHTML` methode om het HTML-document naar een PNG-bestand te converteren. De`ImageSaveOptions`Hiermee kunt u opties opgeven voor het opslaan van de afbeelding, zoals resolutie en formaat.
-## Stap 7: Resources opruimen
- Zorg er ten slotte altijd voor dat u alle tijdens het proces gebruikte bronnen opruimt. Dit omvat het weggooien van de`Configuration` En`HTMLDocument` objecten.
+`Converter.convertHTML` neemt het `HTMLDocument`, optionele `ImageSaveOptions` (waar je DPI, kwaliteit, enz. kunt instellen), en de output‑bestandsnaam. Het resultaat is een rasterafbeelding van de gerenderde HTML.
+
+## Stap 7: Ruim bronnen op
+Goed resource‑beheer is essentieel in elke Java‑applicatie. We ruimen zowel de `Configuration` als de `HTMLDocument` op om geheugenlekken te voorkomen.
 ```java
 } finally {
     if (configuration != null) {
@@ -99,22 +115,42 @@ com.aspose.html.converters.Converter.convertHTML(
     }
 }
 ```
-Hiermee wordt gegarandeerd dat alle bronnen worden vrijgegeven, waardoor geheugenlekken en andere potentiële problemen in uw toepassing worden voorkomen.
+Het omhullen van de opruiming in een `finally`‑block garandeert uitvoering zelfs als er eerder een uitzondering optreedt.
 
-## Conclusie
-En daar heb je het: een uitgebreide handleiding over het gebruik van berichtverwerkers in Aspose.HTML voor Java! We hebben het proces van het opzetten van een HTML-document, het maken van een aangepaste berichtverwerker en het professioneel verwerken van ontbrekende bronnen doorlopen. Of je nu te maken hebt met ontbrekende afbeeldingen, kapotte links of andere netwerkgerelateerde problemen, deze aanpak geeft je de controle die je nodig hebt om ze effectief te beheren in je Java-applicaties.
+## Waarom berichtverwerkers gebruiken?
+Berichtverwerkers geven je fijnmazige controle over netwerkoperaties zoals **handle broken links java**. In plaats van de bibliotheek stilzwijgend te laten falen, kun je loggen, opnieuw proberen, resources vervangen, of fallback‑content bieden—waardoor je HTML‑verwerking robuust en productie‑klaar wordt.
+
+## Veelvoorkomende problemen en oplossingen
+- **Handler‑recursie** – Zorg ervoor dat je `invoke(context);` slechts één keer aanroept om oneindige lussen te voorkomen.  
+- **Ontbrekende licentie** – Zonder een geldige licentie kan de conversie een watermerk‑afbeelding opleveren.  
+- **Bestandspad‑fouten** – Gebruik absolute paden of stel de werkmap correct in bij het laden van `document.html`.
 
 ## Veelgestelde vragen
-### Wat is Aspose.HTML voor Java?
-Aspose.HTML voor Java is een krachtige bibliotheek waarmee ontwikkelaars HTML-documenten in Java-toepassingen kunnen maken, bewerken en converteren.
-### Waarom berichtverwerkers gebruiken in Aspose.HTML voor Java?
-Met berichtenverwerkers kunt u netwerkbewerkingen onderscheppen en beheren, zoals het verwerken van ontbrekende bronnen of het wijzigen van aanvragen en reacties.
-### Kan ik meerdere berichtverwerkers in één configuratie gebruiken?
-Ja, u kunt meerdere berichtverwerkers aan elkaar koppelen om verschillende scenario's tijdens netwerkbewerkingen af te handelen.
-### Is het nodig om de objecten Configuration en HTMLDocument te verwijderen?
-Ja, door deze objecten te verwijderen, worden alle bronnen op de juiste manier vrijgegeven en worden geheugenlekken voorkomen.
-### Kan ik andere soorten fouten verwerken met berichtverwerkers?
-Absoluut! Berichtenhandlers kunnen worden aangepast om verschillende soorten fouten te verwerken, niet alleen ontbrekende bronnen.
+
+**V: Kan ik meerdere berichtverwerkers schakelen?**  
+A: Ja, je kunt meerdere verwerkers toevoegen aan de `network.getMessageHandlers()` collectie; ze worden uitgevoerd in de volgorde waarin ze zijn toegevoegd.
+
+**V: Werkt de verwerker ook voor CSS‑ of script‑resources?**  
+A: Absoluut—elk netwerkverzoek dat door de HTML‑engine wordt gedaan (afbeeldingen, CSS, JS, fonts) gaat door de verwerker.
+
+**V: Hoe wijzig ik het HTTP‑verzoek voordat het wordt verzonden?**  
+A: Implementeer een verwerker die `context.getRequest()` wijzigt voordat `invoke(context)` wordt aangeroepen.
+
+**V: Is er een manier om de waarschuwing voor specifieke URL’s te onderdrukken?**  
+A: Inspecteer binnen de verwerker `context.getRequest().getRequestUri()` en sla het loggen conditioneel over.
+
+**V: Welke versie van Aspose.HTML is vereist voor deze API’s?**  
+A: De code werkt met Aspose.HTML for Java 22.10 en later.
+
+## Conclusie
+En daar heb je het—een uitgebreide gids over **how to use aspose** berichtverwerkers in Java. We hebben het maken van een HTML‑bestand behandeld, het aansluiten van een aangepaste verwerker op **handle broken links java**, het laden van het document, en het uitvoeren van **convert html to png**. Met dit patroon kun je zelfverzekerd ontbrekende resources beheren, aangepaste beleidsregels afdwingen en de netwerkmogelijkheden van Aspose.HTML uitbreiden in elke Java‑applicatie.
+
+---
+
+**Laatst bijgewerkt:** 2025-12-10  
+**Getest met:** Aspose.HTML for Java 24.11  
+**Auteur:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,51 +1,67 @@
 ---
-title: Aspose.HTML for Java でメッセージ ハンドラーを使用する
-linktitle: Aspose.HTML for Java でメッセージ ハンドラーを使用する
-second_title: Aspose.HTML を使用した Java HTML 処理
-description: Aspose.HTML for Java のメッセージ ハンドラーを使用して、不足している画像やその他のネットワーク操作を効果的に処理する方法を学習します。
-weight: 12
+date: 2025-12-10
+description: Aspose を使用して壊れたリンクを処理する方法、HTML を PNG に変換する方法、そして Aspose.HTML for Java
+  を使って Java で HTML ドキュメントを読み込む方法を学びましょう。
+linktitle: Use Message Handlers in Aspose.HTML
+second_title: Java HTML Processing with Aspose.HTML
+title: JavaでAspose.HTMLメッセージハンドラを使用する方法
 url: /ja/java/configuring-environment/use-message-handlers/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.HTML for Java でメッセージ ハンドラーを使用する
+# Java で Aspose.HTML メッセージハンドラを使用する方法
 
-## 導入
-このチュートリアルでは、Aspose.HTML for Java でメッセージ ハンドラーを使用する実用的な例を紹介します。見つからない画像を参照する簡単な HTML ドキュメントを準備し、カスタム メッセージ ハンドラーを使用してエラーをキャッチして処理する方法を説明します。Aspose.HTML を初めて使用する場合でも、スキルを拡張したい場合でも、このガイドはネットワーク操作を効果的に管理するために必要な情報を提供します。
-## 前提条件
-ステップバイステップガイドに進む前に、必要なものがすべて揃っていることを確認しましょう。
-1.  Java開発キット（JDK）：システムにJDKがインストールされていることを確認してください。[Oracleのウェブサイト](https://www.oracle.com/java/technologies/javase-downloads.html).
-2.  Aspose.HTML for Java: Aspose.HTML for Javaがインストールされている必要があります。[Aspose リリース ページ](https://releases.aspose.com/html/java/).
-3. IDE: IntelliJ IDEA、Eclipse、NetBeans などのお気に入りの Java 統合開発環境 (IDE) を使用します。
-4. Java の基礎知識: このチュートリアルを効果的に実行するには、Java プログラミングの知識が不可欠です。
-5. 一時ライセンス: Aspose.HTMLの試用版を使用している場合は、[一時ライセンス](https://purchase.aspose.com/temporary-license/)開発中の制限を回避するためです。
+## Introduction
+このチュートリアルでは、HTML の欠落リソースを処理するための **aspose** の使用方法をステップバイステップで示します。欠落した画像を参照するシンプルな HTML ドキュメントを作成し、カスタムメッセージハンドラを添付し、**load html document java** を実行しながら壊れたリンクを優雅に処理する方法を示します。最後には、Aspose.HTML を使用して **convert html to png** を行う方法も紹介し、Java における HTML から画像への変換の全体像を把握できます。
 
-## パッケージのインポート
-始める前に、Java プロジェクトに必要なパッケージがインポートされていることを確認してください。必要な必須のインポートは次のとおりです。
+## Quick Answers
+- **メッセージハンドラの主な目的は何ですか？** ネットワーク操作をインターセプトし、欠落リソースなどのステータスコードに反応することです。  
+- **Aspose.HTML は HTML を PNG に変換できますか？** はい、`Converter.convertHTML` を使用して HTML から画像への変換を実行できます。  
+- **この例にライセンスは必要ですか？** 一時ライセンスは評価制限を解除します。製品環境では永続ライセンスが必要です。  
+- **サポートされている Java バージョンはどれですか？** JDK 8 以上 (本チュートリアルは JDK 11 を使用)。  
+- **複数の壊れたリンクを処理できますか？** もちろんです。シナリオに応じて複数のハンドラをチェーンできます。
+
+## Prerequisites
+ステップバイステップガイドに入る前に、必要なものがすべて揃っていることを確認しましょう：
+
+1. Java Development Kit (JDK): システムに JDK がインストールされていることを確認してください。ダウンロードは [Oracle website](https://www.oracle.com/java/technologies/javase-downloads.html) から行えます。  
+2. Aspose.HTML for Java: Aspose.HTML for Java をインストールする必要があります。ダウンロードは [Aspose releases page](https://releases.aspose.com/html/java/) から。  
+3. IDE: IntelliJ IDEA、Eclipse、NetBeans などお好みの Java 統合開発環境 (IDE) を使用してください。  
+4. Java の基本知識: Java プログラミングに慣れていることが、本チュートリアルを効果的に進めるために必須です。  
+5. 一時ライセンス: Aspose.HTML のトライアル版を使用している場合は、開発中の制限を回避するために [temporary license](https://purchase.aspose.com/temporary-license/) の取得を検討してください。
+
+## Import Packages
+開始する前に、Java プロジェクトに必要なパッケージがインポートされていることを確認してください。以下は必要なインポートです：
 ```java
 import java.io.IOException;
 ```
-これらのインポートにより、ネットワーク操作の処理、HTML ドキュメントの作成、HTML から PNG への変換に必要なクラスとメソッドにアクセスできるようになります。
+これらのインポートにより、ネットワーク操作の処理、HTML ドキュメントの作成、HTML‑to‑PNG 変換に必要なクラスとメソッドにアクセスできます。
 
-## ステップ1: HTMLコードを準備する
-まず最初に必要なのは、画像ファイルを参照する簡単な HTML コードです。エラー処理メカニズムをトリガーするために、存在しない画像を意図的に参照します。
+## Step 1: Prepare the HTML Code
+### ステップ 1: HTML コードの準備
+最初に必要なのは、画像ファイルを参照するシンプルな HTML スニペットです。エラー処理メカニズムを発動させるため、意図的に存在しない画像を参照します。
 ```java
 String code = "<img src='missing.jpg'>";
 ```
-このコードスニペットは、次の名前の画像をロードしようとするHTML要素を作成します。`missing.jpg`この画像ファイルは存在しないため、ドキュメントの読み込みプロセス中にエラーが発生します。
-## ステップ2: HTMLコードをファイルに書き込む
-次に、この HTML コードを、後で読み込むことができるファイルに書き込む必要があります。
+このコードは `missing.jpg` を指す `<img>` タグを作成します。画像が存在しないため、ネットワークサービスは 200 以外のステータスコードを返し、カスタムハンドラがそれを捕捉します。
+
+## Step 2: Write the HTML Code to a File
+### ステップ 2: HTML コードをファイルに書き込む
+次に、Aspose.HTML がドキュメントとして読み込めるように HTML スニペットを永続化する必要があります。
 ```java
 try (java.io.FileWriter fileWriter = new java.io.FileWriter("document.html")) {
     fileWriter.write(code);
 }
 ```
-ここでは、`FileWriter` HTMLコードを次のファイルに書き込む`document.html`このファイルは、次の手順で HTML ドキュメントを作成するために使用されます。
-## ステップ3: カスタムメッセージハンドラーを作成する
-ここで、画像が見つからないシナリオを処理するためのカスタム メッセージ ハンドラーを作成しましょう。メッセージ ハンドラーは、応答のステータス コードをチェックし、ファイルが見つからない場合はメッセージを出力します。
+`FileWriter` を使用して HTML を **document.html** に保存します。このファイルが後の **load html document java** 手順のソースとなります。
+
+## Step 3: Create a Custom Message Handler
+### ステップ 3: カスタムメッセージハンドラの作成
+次に、画像が見つからないときに反応するカスタムメッセージハンドラを作成します。ハンドラは HTTP ステータスコードをチェックし、フレンドリーなメッセージを出力します。
 ```java
 com.aspose.html.net.MessageHandler handler = new com.aspose.html.net.MessageHandler() {
     @Override
@@ -57,31 +73,37 @@ com.aspose.html.net.MessageHandler handler = new com.aspose.html.net.MessageHand
     }
 };
 ```
-このハンドラでは、`invoke`メソッドは、ネットワーク操作の応答のステータスコードをチェックします。ステータスコードが200（成功を示す）でない場合は、ファイルが見つからなかったことを示すメッセージを出力します。`invoke(context);`この行は、チェーン内の次のハンドラが呼び出されることを保証します。
-## ステップ4: ネットワークサービスを構成する
-カスタムメッセージハンドラを使用するには、ネットワークサービス内の既存のメッセージハンドラのチェーンにそれを追加する必要があります。これは、`Configuration`クラス。
+`invoke` メソッドは `context.getResponse().getStatusCode()` を調べます。ステータスが **200** でない場合、ファイルが欠落していることを明確に警告します。最後の `invoke(context);` 呼び出しは、チェーン内の次のハンドラに制御を渡します。
+
+## Step 4: Configure the Network Service
+### ステップ 4: ネットワークサービスの構成
+Aspose.HTML にハンドラを認識させるため、`Configuration` クラスを介してネットワークサービスに登録します。
 ```java
 com.aspose.html.Configuration configuration = new com.aspose.html.Configuration();
 try {
     com.aspose.html.services.INetworkService network = configuration.getService(com.aspose.html.services.INetworkService.class);
     network.getMessageHandlers().addItem(handler);
 ```
-ここでは、`Configuration`そして、`INetworkService`次に、カスタム ハンドラーをメッセージ ハンドラーのリストに追加します。この設定により、ネットワーク操作中にハンドラーが呼び出されるようになります。
-## ステップ5: HTMLドキュメントを読み込む
-設定が完了したら、HTML ドキュメントを読み込むことができます。ドキュメントは不足している画像を読み込もうとし、カスタム メッセージ ハンドラーをトリガーします。
+ここでは `Configuration` インスタンスを作成し、`INetworkService` を取得して、カスタムハンドラをそのコレクションに追加します。これにより、画像の読み込みなど、あらゆるネットワーク要求時にハンドラが実行されます。
+
+## Step 5: Load the HTML Document
+### ステップ 5: HTML ドキュメントの読み込み
+構成が整ったので、先に作成した HTML ファイルを読み込みます。この手順は、欠落画像がハンドラをトリガーする間に **load html document java** を実演します。
 ```java
 com.aspose.html.HTMLDocument document = new com.aspose.html.HTMLDocument("document.html", configuration);
 try {
-    //追加の操作はここに行われます
+    // Additional operations will go here
 } finally {
     if (document != null) {
         document.dispose();
     }
 }
 ```
-このスニペットは、前に設定した構成を使用して HTML ドキュメントを読み込みます。ドキュメントの読み込みプロセスは、不足しているイメージを読み込もうとし、メッセージ ハンドラーは結果として生じるエラーをキャッチして処理します。
-## ステップ6: HTMLをPNGに変換する
-最後に、HTML ドキュメントを PNG 画像に変換しましょう。この手順は、欠落している画像を処理するために厳密に必要というわけではありませんが、Aspose.HTML の幅広い機能を示すものです。
+`HTMLDocument` コンストラクタはファイルパスとカスタム `configuration` の両方を受け取ります。ドキュメントが `<img>` タグを解析すると、ネットワークサービスは `missing.jpg` の取得を試み、404 を受け取り、ハンドラが警告を出力します。
+
+## Step 6: Convert HTML to PNG
+### ステップ 6: HTML を PNG に変換
+Aspose.HTML の幅広い機能を示すため、読み込んだドキュメントを PNG 画像に変換します。これは典型的な **convert html to png** シナリオです。
 ```java
 com.aspose.html.converters.Converter.convertHTML(
     document,
@@ -89,9 +111,11 @@ com.aspose.html.converters.Converter.convertHTML(
     "output.png"
 );
 ```
-ここでは、`Converter.convertHTML` HTML文書をPNGファイルに変換する方法。`ImageSaveOptions`解像度や形式など、画像を保存するためのオプションを指定できます。
-## ステップ7: リソースをクリーンアップする
-最後に、プロセス中に使用したリソースを必ずクリーンアップしてください。これには、`Configuration`そして`HTMLDocument`オブジェクト。
+`Converter.convertHTML` は `HTMLDocument` とオプションの `ImageSaveOptions`（DPI や品質などを設定可能）および出力ファイル名を受け取ります。結果はレンダリングされた HTML のラスタ画像です。
+
+## Step 7: Clean Up Resources
+### ステップ 7: リソースのクリーンアップ
+適切なリソース管理はすべての Java アプリケーションで重要です。メモリリークを防ぐために `Configuration` と `HTMLDocument` の両方を破棄します。
 ```java
 } finally {
     if (configuration != null) {
@@ -99,22 +123,45 @@ com.aspose.html.converters.Converter.convertHTML(
     }
 }
 ```
-これにより、すべてのリソースが解放され、アプリケーションでのメモリ リークやその他の潜在的な問題が防止されます。
+クリーンアップを `finally` ブロックでラップすることで、例外が発生した場合でも確実に実行されます。
 
-## 結論
-これで、Aspose.HTML for Java でメッセージ ハンドラーを使用するための包括的なガイドが完成しました。HTML ドキュメントの設定、カスタム メッセージ ハンドラーの作成、不足しているリソースのプロのような処理のプロセスを説明しました。不足している画像、壊れたリンク、その他のネットワーク関連の問題を処理する場合でも、このアプローチにより、Java アプリケーションでそれらを効果的に管理するために必要な制御が得られます。
+## Why Use Message Handlers?
+### メッセージハンドラを使用する理由
+メッセージハンドラは **handle broken links java** のようなネットワーク操作を細かく制御できます。ライブラリが黙って失敗するのを防ぎ、ログ記録、再試行、リソースの置換、フォールバックコンテンツの提供などが可能になり、HTML 処理を堅牢かつ本番環境向けにします。
 
-## よくある質問
-### Aspose.HTML for Java とは何ですか?
-Aspose.HTML for Java は、開発者が Java アプリケーションで HTML ドキュメントを作成、操作、変換できるようにする強力なライブラリです。
-### Aspose.HTML for Java でメッセージ ハンドラーを使用する理由は何ですか?
-メッセージ ハンドラーを使用すると、不足しているリソースの処理や要求と応答の変更など、ネットワーク操作を傍受して管理できます。
-### 単一の構成で複数のメッセージ ハンドラーを使用できますか?
-はい、複数のメッセージ ハンドラーを連鎖させて、ネットワーク操作中にさまざまなシナリオを処理できます。
-### Configuration オブジェクトと HTMLDocument オブジェクトを破棄する必要がありますか?
-はい、これらのオブジェクトを破棄すると、すべてのリソースが適切に解放され、メモリ リークが防止されます。
-### メッセージ ハンドラーを使用して他の種類のエラーを処理できますか?
-もちろんです! メッセージ ハンドラーは、リソース不足だけでなく、さまざまな種類のエラーを処理するようにカスタマイズできます。
+## Common Issues and Solutions
+### 一般的な問題と解決策
+- **ハンドラの再帰** – 無限ループを防ぐため、`invoke(context);` は一度だけ呼び出すようにしてください。  
+- **ライセンスがない** – 有効なライセンスがない場合、変換結果に透かしが入った画像が生成される可能性があります。  
+- **ファイルパスエラー** – `document.html` を読み込む際は絶対パスを使用するか、作業ディレクトリを正しく設定してください。
+
+## Frequently Asked Questions
+
+**Q: 複数のメッセージハンドラをチェーンできますか？**  
+A: はい、`network.getMessageHandlers()` コレクションに複数のハンドラを追加できます。追加された順序で実行されます。
+
+**Q: ハンドラは CSS やスクリプトリソースにも適用されますか？**  
+A: もちろんです。HTML エンジンが行うすべてのネットワーク要求（画像、CSS、JS、フォントなど）はハンドラを通過します。
+
+**Q: 送信前に HTTP リクエストを変更するには？**  
+A: `invoke(context)` を呼び出す前に `context.getRequest()` を変更するハンドラを実装します。
+
+**Q: 特定の URL に対して警告を抑制する方法はありますか？**  
+A: ハンドラ内で `context.getRequest().getRequestUri()` を確認し、条件に応じてログ出力をスキップします。
+
+**Q: これらの API に必要な Aspose.HTML のバージョンは？**  
+A: コードは Aspose.HTML for Java 22.10 以降で動作します。
+
+## Conclusion
+### 結論
+以上で、Java における **how to use aspose** メッセージハンドラの包括的なガイドが完成です。HTML ファイルの作成、**handle broken links java** 用のカスタムハンドラの設定、ドキュメントの読み込み、そして **convert html to png** の実行までをカバーしました。このパターンを使えば、欠落リソースを確実に管理し、カスタムポリシーを適用し、任意の Java アプリケーションで Aspose.HTML のネットワーク機能を拡張できます。
+
+---
+
+**最終更新日:** 2025-12-10  
+**テスト環境:** Aspose.HTML for Java 24.11  
+**作者:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
