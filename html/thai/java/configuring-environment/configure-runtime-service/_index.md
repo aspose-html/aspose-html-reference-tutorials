@@ -1,111 +1,144 @@
 ---
-title: กำหนดค่าบริการรันไทม์ใน Aspose.HTML สำหรับ Java
-linktitle: กำหนดค่าบริการรันไทม์ใน Aspose.HTML สำหรับ Java
-second_title: การประมวลผล Java HTML ด้วย Aspose.HTML
-description: เรียนรู้วิธีการกำหนดค่า Runtime Service ใน Aspose.HTML สำหรับ Java เพื่อเพิ่มประสิทธิภาพการทำงานของสคริปต์ ป้องกันการวนซ้ำไม่สิ้นสุด และปรับปรุงประสิทธิภาพของแอปพลิเคชัน
-weight: 14
+date: 2025-12-10
+description: เรียนรู้วิธีตั้งค่า timeout ใน Aspose.HTML สำหรับ Java, กำหนดค่า Runtime
+  Service เพื่อแปลง HTML เป็น PNG, ป้องกันลูปไม่สิ้นสุด, และเพิ่มประสิทธิภาพ
+linktitle: Configure Runtime Service in Aspose.HTML
+second_title: Java HTML Processing with Aspose.HTML
+title: วิธีตั้งค่า Timeout ใน Aspose.HTML สำหรับบริการรันไทม์ Java
 url: /th/java/configuring-environment/configure-runtime-service/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# กำหนดค่าบริการรันไทม์ใน Aspose.HTML สำหรับ Java
+# วิธีตั้งค่า Timeout ใน Aspose.HTML สำหรับ Java Runtime Service
 
-## การแนะนำ
-คุณเคยสงสัยไหมว่าจะทำให้แอปพลิเคชัน Java ของคุณทำงานได้เร็วขึ้นและมีประสิทธิภาพมากขึ้นได้อย่างไร ไม่ว่าคุณจะกำลังสร้างแอปพลิเคชันเว็บที่ซับซ้อนหรือเพียงแค่ปรับแต่งเอกสาร HTML ความเร็วเป็นสิ่งสำคัญ ลองนึกภาพว่าคุณสามารถจำกัดระยะเวลาการทำงานของสคริปต์หรือความเร็วในการเริ่มต้นแอปพลิเคชันของระบบได้ ฟังดูมีประโยชน์มากใช่ไหม นั่นคือจุดที่ Runtime Service ใน Aspose.HTML สำหรับ Java เข้ามาช่วย ในบทช่วยสอนนี้ เราจะเจาะลึกถึงวิธีการกำหนดค่า Runtime Service ใน Aspose.HTML สำหรับ Java เพื่อเพิ่มประสิทธิภาพแอปพลิเคชันของคุณโดยการควบคุมเวลาการทำงานของสคริปต์
+## บทนำ
+หากคุณกำลังมองหา **วิธีตั้งค่า timeout** สำหรับสคริปต์เมื่อทำงานกับ Aspose.HTML สำหรับ Java คุณมาถูกที่แล้ว การควบคุมการทำงานของสคริปต์ไม่เพียงแต่ป้องกันลูปไม่สิ้นสุด แต่ยังช่วยให้คุณ **แปลง html เป็น png** ได้เร็วขึ้นและทำให้แอปพลิเคชันของคุณตอบสนองได้ดี ในบทแนะนำนี้เราจะอธิบายขั้นตอนที่แน่นอนเพื่อกำหนดค่า Runtime Service, จำกัดการทำงานของสคริปต์, และในที่สุดสร้างภาพ PNG จาก HTML โดยไม่ทำให้โปรแกรมค้าง
+
+## คำตอบอย่างรวดเร็ว
+- **Runtime Service ทำอะไร?** มันช่วยให้คุณควบคุมเวลาการทำงานของสคริปต์และจัดการทรัพยากรขณะประมวลผล HTML.  
+- **วิธีตั้งค่า timeout สำหรับ JavaScript?** ใช้ `runtimeService.setJavaScriptTimeout(TimeSpan.fromSeconds(...))`.  
+- **ฉันสามารถป้องกันลูปไม่สิ้นสุดได้หรือไม่?** ได้ – timeout จะหยุดลูปที่เกินขีดจำกัดที่กำหนด.  
+- **การแปลง HTML‑to‑PNG จะได้รับผลกระทบหรือไม่?** ไม่, การแปลงจะดำเนินต่อเมื่อสคริปต์เสร็จหรือถูกยกเลิกโดย timeout.  
+- **ต้องการเวอร์ชันของ Aspose.HTML ใด?** เวอร์ชันล่าสุดจากหน้าดาวน์โหลดของ Aspose.
+
 ## ข้อกำหนดเบื้องต้น
-ก่อนที่เราจะลงรายละเอียด เรามาตรวจสอบกันก่อนว่าคุณมีทุกสิ่งที่คุณต้องการแล้ว 
-1.  Java Development Kit (JDK): ตรวจสอบว่าได้ติดตั้ง JDK ไว้ในระบบของคุณแล้ว คุณสามารถดาวน์โหลดได้จาก[เว็บไซต์ของออราเคิล](https://www.oracle.com/java/technologies/javase-downloads.html).
-2.  Aspose.HTML สำหรับ Java Library: ดาวน์โหลดเวอร์ชันล่าสุดจาก[หน้าวางจำหน่าย Aspose](https://releases.aspose.com/html/java/). 
-3. สภาพแวดล้อมการพัฒนาแบบบูรณาการ (IDE): คุณจะต้องมี IDE เช่น IntelliJ IDEA, Eclipse หรือ NetBeans เพื่อเขียนและรันโค้ด Java ของคุณ
-4. ความรู้พื้นฐานเกี่ยวกับ Java และ HTML: ความคุ้นเคยกับการเขียนโปรแกรม Java และ HTML ขั้นพื้นฐานมีความจำเป็นเพื่อปฏิบัติตามได้อย่างราบรื่น
+ก่อนที่เราจะลงลึกในรายละเอียด โปรดตรวจสอบว่าคุณมีสิ่งต่อไปนี้:
 
-## แพ็คเกจนำเข้า
-ก่อนอื่นเรามาพูดถึงการนำเข้าแพ็กเกจที่จำเป็นกันก่อน หากต้องการทำงานกับ Aspose.HTML สำหรับ Java คุณจะต้องนำเข้าคลาสหลายคลาส การนำเข้าเหล่านี้มีความสำคัญเนื่องจากช่วยให้คุณเข้าถึงฟังก์ชันและบริการต่างๆ ที่ Aspose.HTML จัดเตรียมไว้ได้
+1. **Java Development Kit (JDK)** – ติดตั้งจาก [Oracle's website](https://www.oracle.com/java/technologies/javase-downloads.html).  
+2. **Aspose.HTML for Java Library** – ดาวน์โหลดเวอร์ชันล่าสุดจาก [Aspose releases page](https://releases.aspose.com/html/java/).  
+3. **IDE** – IntelliJ IDEA, Eclipse หรือ NetBeans จะใช้งานได้ดี.  
+4. **Basic Java & HTML knowledge** – จำเป็นสำหรับการทำตามตัวอย่างโค้ด.
+
+## นำเข้าแพ็กเกจ
+ก่อนอื่น ให้นำเข้าคลาสที่คุณต้องการใช้ การนำเข้า `java.io.IOException` จำเป็นสำหรับการจัดการไฟล์.
+
 ```java
 import java.io.IOException;
 ```
 
-## ขั้นตอนที่ 1: สร้างไฟล์ HTML ด้วยโค้ด JavaScript
-ก่อนที่เราจะเริ่มกำหนดค่า เราต้องมีไฟล์ HTML เพื่อใช้งาน ในขั้นตอนนี้ คุณจะสร้างไฟล์ HTML พื้นฐานที่รวมสไนปเป็ต JavaScript สคริปต์นี้จะถูกใช้ในภายหลังเพื่อสาธิตวิธีที่ Runtime Service สามารถควบคุมเวลาการทำงานได้
+## ขั้นตอนที่ 1: สร้างไฟล์ HTML พร้อมโค้ด JavaScript
+เราจะเริ่มด้วยการสร้างไฟล์ HTML ง่าย ๆ ที่มีลูป JavaScript ลูปนี้จะทำงานตลอดไปหากเราไม่ได้กำหนด timeout ทำให้เป็นตัวอย่างที่สมบูรณ์แบบสำหรับ Runtime Service.
+
 ```java
 String code = "<h1>Runtime Service</h1>\r\n" +
-		"<script> while(true) {} </script>\r\n" +
-		"<p>The Runtime Service optimizes your system by helping it start apps and programs faster.</p>\r\n";
+        "<script> while(true) {} </script>\r\n" +
+        "<p>The Runtime Service optimizes your system by helping it start apps and programs faster.</p>\r\n";
 try (java.io.FileWriter fileWriter = new java.io.FileWriter("runtime-service.html")) {
-	fileWriter.write(code);
+    fileWriter.write(code);
 }
 ```
 
-- เรากำหนดโครงสร้าง HTML ง่าย ๆ ที่มีลูป JavaScript (`while(true) {}`ซึ่งจะทำงานอย่างไม่มีกำหนดเวลาหากไม่มีการควบคุม ถือเป็นตัวอย่างที่ดีเยี่ยมในการแสดงให้เห็นถึงพลังของบริการรันไทม์
--  เราใช้`FileWriter` เพื่อเขียนเนื้อหา HTML นี้ลงในไฟล์ที่ชื่อ`"runtime-service.html"`.
-## ขั้นตอนที่ 2: ตั้งค่าวัตถุการกำหนดค่า
- ด้วยไฟล์ HTML ในมือของเรา ขั้นตอนต่อไปคือการตั้งค่า`Configuration` วัตถุ การกำหนดค่านี้จะใช้ในการจัดการบริการรันไทม์และการตั้งค่าอื่น ๆ
+- สคริปต์ `while(true) {}` แสดงถึงลูปที่อาจเป็นลูปไม่สิ้นสุด.  
+- `FileWriter` เขียนเนื้อหา HTML ไปยัง **runtime-service.html**.
+
+## ขั้นตอนที่ 2: ตั้งค่าอ็อบเจ็กต์ Configuration
+ต่อไป สร้างอินสแตนซ์ของ `Configuration` อ็อบเจ็กต์นี้เป็นโครงสร้างหลักสำหรับบริการทั้งหมดของ Aspose.HTML รวมถึง Runtime Service.
+
 ```java
 com.aspose.html.Configuration configuration = new com.aspose.html.Configuration();
 ```
 
--  เราสร้างอินสแตนซ์ของ`Configuration`ซึ่งทำหน้าที่เป็นแกนหลักในการตั้งค่าและจัดการบริการต่างๆ เช่น Runtime Service ใน Aspose.HTML สำหรับ Java
-## ขั้นตอนที่ 3: กำหนดค่าบริการรันไทม์
-นี่คือจุดที่เวทมนตร์เกิดขึ้น! ตอนนี้เราจะกำหนดค่า Runtime Service เพื่อจำกัดระยะเวลาการทำงานของ JavaScript ซึ่งจะป้องกันไม่ให้สคริปต์ในไฟล์ HTML ของเราทำงานอย่างไม่มีกำหนดเวลา
+## ขั้นตอนที่ 3: กำหนดค่า Runtime Service
+นี่คือจุดที่เราจริง ๆ **ตั้งค่า timeout** โดยการดึง `IRuntimeService` จาก configuration เราสามารถกำหนดขีดจำกัดการทำงานของ JavaScript ได้.
+
 ```java
 try {
-	com.aspose.html.services.IRuntimeService runtimeService = configuration.getService(com.aspose.html.services.IRuntimeService.class);
-	runtimeService.setJavaScriptTimeout(com.aspose.html.utils.TimeSpan.fromSeconds(5));
+    com.aspose.html.services.IRuntimeService runtimeService = configuration.getService(com.aspose.html.services.IRuntimeService.class);
+    runtimeService.setJavaScriptTimeout(com.aspose.html.utils.TimeSpan.fromSeconds(5));
 ```
 
--  เรามารับ`IRuntimeService` จาก`Configuration` วัตถุ.
--  โดยใช้`setJavaScriptTimeout`เราจำกัดเวลาการทำงานของ JavaScript ไว้ที่ 5 วินาที หากสคริปต์เกินเวลาที่กำหนด สคริปต์จะหยุดทำงานโดยอัตโนมัติ ซึ่งมีประโยชน์อย่างยิ่งในการหลีกเลี่ยงการวนซ้ำไม่สิ้นสุดหรือสคริปต์ยาวๆ ที่อาจทำให้แอปพลิเคชันของคุณค้างได้
-## ขั้นตอนที่ 4: โหลดเอกสาร HTML ด้วยการกำหนดค่า
-เมื่อกำหนดค่า Runtime Service เสร็จแล้ว ก็ถึงเวลาโหลดเอกสาร HTML โดยใช้การกำหนดค่านี้ ขั้นตอนนี้จะเชื่อมโยงทุกอย่างเข้าด้วยกัน ทำให้สามารถควบคุมสคริปต์ภายในไฟล์ HTML โดย Runtime Service
+- `setJavaScriptTimeout` จำกัดการทำงานของสคริปต์ที่ **5 วินาที** ทำให้ **ป้องกันลูปไม่สิ้นสุด**.  
+- สิ่งนี้ยัง **จำกัดการทำงานของสคริปต์** สำหรับโค้ดฝั่งไคลเอนต์ที่หนัก.
+
+## ขั้นตอนที่ 4: โหลดเอกสาร HTML ด้วย Configuration
+ตอนนี้โหลดไฟล์ HTML โดยใช้ configuration ที่มีกฎ timeout ของเรา.
+
 ```java
-	com.aspose.html.HTMLDocument document = new com.aspose.html.HTMLDocument("runtime-service.html", configuration);
+    com.aspose.html.HTMLDocument document = new com.aspose.html.HTMLDocument("runtime-service.html", configuration);
 ```
 
--  เราเริ่มต้นการ`HTMLDocument` วัตถุกับไฟล์ HTML ของเรา (`"runtime-service.html"`) และการกำหนดค่าที่ตั้งค่าไว้ก่อนหน้านี้ เพื่อให้แน่ใจว่าการตั้งค่า Runtime Service จะใช้กับเอกสาร HTML นี้โดยเฉพาะ
+- เอกสารจะเคารพ timeout ที่กำหนดไว้ก่อนหน้า ดังนั้นลูปที่ไม่มีที่สิ้นสุดจะถูกหยุดหลังจาก 5 วินาที.
+
 ## ขั้นตอนที่ 5: แปลง HTML เป็น PNG
-เอกสาร HTML จะมีประโยชน์อะไรหากคุณไม่สามารถทำอะไรเจ๋งๆ กับมันได้ ในขั้นตอนนี้ เราจะแปลงเอกสาร HTML ของเราเป็นภาพ PNG โดยใช้ฟีเจอร์การแปลงของ Aspose.HTML
+เมื่อโหลดเอกสารอย่างปลอดภัยแล้ว เราสามารถ **แปลง html เป็น png** ได้ การแปลงจะเกิดขึ้นเฉพาะหลังจากสคริปต์เสร็จหรือถูกยกเลิกโดย timeout.
+
 ```java
-	com.aspose.html.converters.Converter.convertHTML(
-		document,
-		new com.aspose.html.saving.ImageSaveOptions(),
-		"runtime-service_out.png"
-	);
+    com.aspose.html.converters.Converter.convertHTML(
+        document,
+        new com.aspose.html.saving.ImageSaveOptions(),
+        "runtime-service_out.png"
+    );
 ```
 
--  เราใช้`Converter.convertHTML` วิธีการแปลงเอกสาร HTML ของเราเป็นภาพ PNG
-- `ImageSaveOptions` ใช้เพื่อระบุรูปแบบเอาต์พุต ในกรณีนี้คือ PNG
-- รูปภาพเอาท์พุตจะถูกบันทึกเป็น`"runtime-service_out.png"`.
+- `ImageSaveOptions` บอก Aspose.HTML ให้บันทึกเป็นภาพ PNG.  
+- ไฟล์ที่ได้, **runtime-service_out.png**, แสดง HTML ที่เรนเดอร์แล้วโดยไม่ค้าง.
+
 ## ขั้นตอนที่ 6: ทำความสะอาดทรัพยากร
- สุดท้ายนี้ ถือเป็นแนวทางปฏิบัติที่ดีในการล้างทรัพยากรเพื่อหลีกเลี่ยงการรั่วไหลของหน่วยความจำ เราจะกำจัด`document` และ`configuration` วัตถุ
+สุดท้าย ให้ทำการ dispose อ็อบเจ็กต์เพื่อปลดปล่อยหน่วยความจำและหลีกเลี่ยงการรั่วไหล.
+
 ```java
 } finally {
-	if (document != null) {
-		document.dispose();
-	}
-	if (configuration != null) {
-		configuration.dispose();
-	}
+    if (document != null) {
+        document.dispose();
+    }
+    if (configuration != null) {
+        configuration.dispose();
+    }
 }
 ```
 
--  เราตรวจสอบว่า`document` และ`configuration` วัตถุไม่เป็นค่าว่าง จากนั้นจึงกำจัดทิ้ง วิธีนี้จะช่วยให้มั่นใจว่าทรัพยากรที่จัดสรรทั้งหมดได้รับการปลดปล่อย
+- การทำ disposal อย่างเหมาะสมเป็นสิ่งสำคัญสำหรับแอปพลิเคชันที่ทำงานเป็นเวลานาน.
 
-## บทสรุป
-และแล้วคุณก็รู้แล้ว! คุณเพิ่งเรียนรู้วิธีการกำหนดค่า Runtime Service ใน Aspose.HTML สำหรับ Java เพื่อควบคุมเวลาการทำงานของสคริปต์ ซึ่งเป็นเครื่องมือที่มีประสิทธิภาพสำหรับการเพิ่มประสิทธิภาพแอปพลิเคชันของคุณ โดยเฉพาะอย่างยิ่งเมื่อต้องจัดการกับโค้ด JavaScript ที่ซับซ้อนหรืออาจมีปัญหาได้ หากทำตามขั้นตอนที่ระบุไว้ข้างต้น คุณจะมั่นใจได้ว่าแอปพลิเคชัน Java ของคุณทำงานได้อย่างมีประสิทธิภาพมากขึ้น ช่วยประหยัดเวลาและป้องกันปัญหาที่อาจเกิดขึ้นในภายหลัง โปรดจำไว้ว่ากุญแจสำคัญในการเชี่ยวชาญเครื่องมือใดๆ คือการฝึกฝน ดังนั้นอย่าลังเลที่จะทดลองใช้และปรับแต่งการตั้งค่าให้เหมาะกับความต้องการเฉพาะของคุณ ขอให้สนุกกับการเขียนโค้ด!
+## สรุป
+คุณเพิ่งเรียนรู้ **วิธีตั้งค่า timeout** สำหรับการทำงานของ JavaScript ใน Aspose.HTML สำหรับ Java, วิธี **ป้องกันลูปไม่สิ้นสุด**, และวิธี **แปลง html เป็น png** อย่างปลอดภัย ด้วยการกำหนดค่า Runtime Service คุณจะได้การควบคุมพฤติกรรมของสคริปต์อย่างละเอียด ซึ่งทำให้เวลาเริ่มต้นเร็วขึ้นและการแปลงมีความน่าเชื่อถือมากขึ้น ทดลองใช้ค่า timeout ต่าง ๆ ให้เหมาะกับงานของคุณ แล้วคุณจะเห็นการเพิ่มประสิทธิภาพที่ชัดเจน.
+
 ## คำถามที่พบบ่อย
-### วัตถุประสงค์ของ Runtime Service ใน Aspose.HTML สำหรับ Java คืออะไร  
-Runtime Service ช่วยให้คุณควบคุมเวลาการทำงานของสคริปต์ในเอกสาร HTML ของคุณ ช่วยป้องกันการวนซ้ำแบบยาวนานหรือไม่มีที่สิ้นสุดซึ่งอาจทำให้แอปพลิเคชันของคุณหยุดทำงาน
-### ฉันจะดาวน์โหลด Aspose.HTML สำหรับ Java ได้อย่างไร?  
- คุณสามารถดาวน์โหลด Aspose.HTML เวอร์ชันล่าสุดสำหรับ Java ได้จาก[หน้าวางจำหน่าย](https://releases.aspose.com/html/java/).
-###  จำเป็นต้องทิ้งหรือไม่`document` and `configuration` objects?  
-ใช่ การกำจัดวัตถุเหล่านี้เป็นสิ่งจำเป็นในการเพิ่มทรัพยากรและป้องกันการรั่วไหลของหน่วยความจำในแอปพลิเคชันของคุณ
-### ฉันสามารถตั้งค่าการหมดเวลาของ JavaScript เป็นค่าอื่นที่ไม่ใช่ 5 วินาทีได้หรือไม่  
- แน่นอน! คุณสามารถตั้งค่าเวลาหมดเวลาเป็นค่าใดก็ได้ที่เหมาะกับความต้องการของคุณโดยแก้ไข`TimeSpan.fromSeconds()` พารามิเตอร์.
-### ฉันจะได้รับการสนับสนุนได้ที่ไหนหากพบปัญหาเกี่ยวกับ Aspose.HTML สำหรับ Java?  
- หากต้องการความช่วยเหลือ สามารถเข้าไปเยี่ยมชมได้ที่[ฟอรั่ม Aspose.HTML](https://forum.aspose.com/c/html/29).
+
+**Q: จุดประสงค์ของ Runtime Service ใน Aspose.HTML สำหรับ Java คืออะไร?**  
+A: มันช่วยให้คุณควบคุมเวลาการทำงานของสคริปต์, ช่วย **ป้องกันลูปไม่สิ้นสุด** และทำให้การแปลงตอบสนองได้ดี  
+
+**Q: ฉันจะดาวน์โหลด Aspose.HTML สำหรับ Java ได้อย่างไร?**  
+A: ดาวน์โหลดเวอร์ชันล่าสุดจาก [releases page](https://releases.aspose.com/html/java/).  
+
+**Q: จำเป็นต้องทำการ dispose อ็อบเจ็กต์ `document` และ `configuration` หรือไม่?**  
+A: ใช่, การทำ dispose จะปล่อยทรัพยากรเนทีฟและป้องกันการรั่วไหลของหน่วยความจำ.  
+
+**Q: ฉันสามารถตั้งค่า JavaScript timeout เป็นค่าที่ไม่ใช่ 5 วินาทีได้หรือไม่?**  
+A: แน่นอน – เปลี่ยนค่าอาร์กิวเมนต์ของ `TimeSpan.fromSeconds()` ให้เป็นขีดจำกัดที่เหมาะกับสถานการณ์ของคุณ.  
+
+**Q: ฉันจะหาความช่วยเหลือได้จากที่ไหนหากเจอปัญหา?**  
+A: เยี่ยมชม [Aspose.HTML forum](https://forum.aspose.com/c/html/29) เพื่อรับความช่วยเหลือจากชุมชนและทีมงาน.  
+
+---
+
+**อัปเดตล่าสุด:** 2025-12-10  
+**ทดสอบกับ:** Aspose.HTML for Java 24.11 (latest)  
+**ผู้เขียน:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

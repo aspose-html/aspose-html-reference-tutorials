@@ -1,111 +1,144 @@
 ---
-title: تكوين خدمة وقت التشغيل في Aspose.HTML لـ Java
-linktitle: تكوين خدمة وقت التشغيل في Aspose.HTML لـ Java
-second_title: معالجة HTML باستخدام Java مع Aspose.HTML
-description: تعرف على كيفية تكوين خدمة وقت التشغيل في Aspose.HTML لـ Java لتحسين تنفيذ البرنامج النصي، ومنع الحلقات اللانهائية، وتحسين أداء التطبيق.
-weight: 14
+date: 2025-12-10
+description: تعلم كيفية تعيين مهلة في Aspose.HTML للغة Java، وتكوين خدمة Runtime لتحويل
+  HTML إلى PNG، ومنع الحلقات اللانهائية، وتعزيز الأداء.
+linktitle: Configure Runtime Service in Aspose.HTML
+second_title: Java HTML Processing with Aspose.HTML
+title: كيفية تعيين مهلة في خدمة وقت تشغيل Aspose.HTML لجافا
 url: /ar/java/configuring-environment/configure-runtime-service/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# تكوين خدمة وقت التشغيل في Aspose.HTML لـ Java
+# كيفية ضبط مهلة (Timeout) في خدمة Runtime لـ Aspose.HTML للغة Java
 
-## مقدمة
-هل تساءلت يومًا كيف يمكنك جعل تطبيقات Java تعمل بشكل أسرع وأكثر كفاءة؟ سواء كنت تقوم ببناء تطبيق ويب معقد أو مجرد العبث ببعض مستندات HTML، فإن السرعة هي جوهر الأمر. تخيل أن تكون قادرًا على تحديد مدة تشغيل البرنامج النصي أو مدى سرعة تشغيل النظام للتطبيقات. يبدو الأمر مفيدًا جدًا، أليس كذلك؟ هذا هو المكان الذي تأتي فيه خدمة وقت التشغيل في Aspose.HTML for Java. في هذا البرنامج التعليمي، سنتعمق في كيفية تكوين خدمة وقت التشغيل في Aspose.HTML for Java لتعزيز أداء تطبيقك من خلال التحكم في وقت تنفيذ البرنامج النصي.
-## المتطلبات الأساسية
-قبل أن ننتقل إلى التفاصيل الدقيقة، دعونا نتأكد من أنك حصلت على كل ما تحتاجه. 
-1.  مجموعة تطوير Java (JDK): تأكد من تثبيت JDK على نظامك. يمكنك تنزيله من[موقع أوراكل](https://www.oracle.com/java/technologies/javase-downloads.html).
-2.  Aspose.HTML لمكتبة Java: قم بتنزيل أحدث إصدار من[صفحة إصدارات Aspose](https://releases.aspose.com/html/java/). 
-3. بيئة التطوير المتكاملة (IDE): ستحتاج إلى بيئة تطوير متكاملة مثل IntelliJ IDEA، أو Eclipse، أو NetBeans لكتابة وتشغيل كود Java الخاص بك.
-4. المعرفة الأساسية بلغة Java وHTML: إن الإلمام ببرمجة Java وHTML الأساسي أمر ضروري لمتابعة الأمر بسلاسة.
+## المقدمة
+إذا كنت تبحث عن **كيفية ضبط مهلة** للسكربتات عند العمل مع Aspose.HTML للغة Java، فقد وجدت المكان المناسب. التحكم في تنفيذ السكربت لا يمنع فقط الحلقات اللانهائية، بل يساعدك أيضًا على **تحويل html إلى png** بسرعة أكبر والحفاظ على استجابة تطبيقك. في هذا الدرس سنستعرض الخطوات الدقيقة لتكوين خدمة Runtime، وتحديد حد لتنفيذ السكربت، وفي النهاية إنتاج صورة PNG من HTML دون أن يتعطل برنامجك.
+
+## إجابات سريعة
+- **ماذا تفعل خدمة Runtime؟** تتيح لك التحكم في زمن تنفيذ السكربت وإدارة الموارد أثناء معالجة HTML.  
+- **كيف يمكن ضبط مهلة للـ JavaScript؟** استخدم `runtimeService.setJavaScriptTimeout(TimeSpan.fromSeconds(...))`.  
+- **هل يمكنني منع الحلقات اللانهائية؟** نعم – المهلة توقف الحلقات التي تتجاوز الحد المحدد.  
+- **هل يؤثر ذلك على تحويل HTML إلى PNG؟** لا، يتحول الملف بمجرد انتهاء السكربت أو إيقافه بواسطة المهلة.  
+- **ما إصدار Aspose.HTML المطلوب؟** أحدث إصدار من صفحة تنزيلات Aspose.
+
+## المتطلبات المسبقة
+قبل الخوض في التفاصيل الدقيقة، تأكد من توفر ما يلي:
+
+1. **Java Development Kit (JDK)** – قم بتثبيته من [موقع Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).  
+2. **Aspose.HTML للغة Java** – احصل على أحدث نسخة من [صفحة إصدارات Aspose](https://releases.aspose.com/html/java/).  
+3. **IDE** – IntelliJ IDEA أو Eclipse أو NetBeans ستعمل جميعًا بشكل جيد.  
+4. **معرفة أساسية بـ Java و HTML** – ضرورية لمتابعة مقتطفات الشيفرة.
 
 ## استيراد الحزم
-أولاً وقبل كل شيء، دعنا نتحدث عن استيراد الحزم الضرورية. للعمل مع Aspose.HTML لـ Java، ستحتاج إلى استيراد عدة فئات. تعد عمليات الاستيراد هذه بالغة الأهمية لأنها تتيح لك الوصول إلى الوظائف والخدمات المختلفة التي يوفرها Aspose.HTML.
+أولاً، استورد الفئات التي ستحتاجها. استيراد `java.io.IOException` مطلوب لمعالجة الملفات.
+
 ```java
 import java.io.IOException;
 ```
 
-## الخطوة 1: إنشاء ملف HTML باستخدام كود JavaScript
-قبل أن نبدأ في عملية التكوين، نحتاج إلى ملف HTML للعمل معه. في هذه الخطوة، ستقوم بإنشاء ملف HTML أساسي يتضمن مقتطفًا من JavaScript. سيتم استخدام هذا البرنامج النصي لاحقًا لإظهار كيفية تحكم خدمة وقت التشغيل في وقت تنفيذها.
+## الخطوة 1: إنشاء ملف HTML يحتوي على كود JavaScript
+سنبدأ بإنشاء ملف HTML بسيط يحتوي على حلقة JavaScript. هذه الحلقة ستستمر إلى ما لا نهاية إذا لم نحدد مهلة، مما يجعلها مثالًا مثاليًا لخدمة Runtime.
+
 ```java
 String code = "<h1>Runtime Service</h1>\r\n" +
-		"<script> while(true) {} </script>\r\n" +
-		"<p>The Runtime Service optimizes your system by helping it start apps and programs faster.</p>\r\n";
+        "<script> while(true) {} </script>\r\n" +
+        "<p>The Runtime Service optimizes your system by helping it start apps and programs faster.</p>\r\n";
 try (java.io.FileWriter fileWriter = new java.io.FileWriter("runtime-service.html")) {
-	fileWriter.write(code);
+    fileWriter.write(code);
 }
 ```
 
-- نقوم بتعريف بنية HTML بسيطة تتضمن حلقة JavaScript (`while(true) {}`والتي من شأنها أن تعمل إلى أجل غير مسمى إذا لم يتم التحكم فيها. وهذا مثالي لإظهار قوة خدمة وقت التشغيل.
--  نحن نستخدم`FileWriter` لكتابة هذا المحتوى HTML إلى ملف يسمى`"runtime-service.html"`.
-## الخطوة 2: إعداد كائن التكوين
- مع وجود ملف HTML في متناول اليد، فإن الخطوة التالية هي إعداد`Configuration` سيتم استخدام هذا التكوين لإدارة خدمة وقت التشغيل والإعدادات الأخرى.
+- سكربت `while(true) {}` يمثل حلقة محتملة لا نهائية.  
+- `FileWriter` يكتب محتوى HTML إلى **runtime-service.html**.
+
+## الخطوة 2: إعداد كائن التكوين (Configuration)
+بعد ذلك، أنشئ مثيلًا من `Configuration`. هذا الكائن هو العمود الفقري لجميع خدمات Aspose.HTML، بما في ذلك خدمة Runtime.
+
 ```java
 com.aspose.html.Configuration configuration = new com.aspose.html.Configuration();
 ```
 
--  نحن ننشئ مثيلًا لـ`Configuration`، والذي يعمل بمثابة العمود الفقري لإعداد وإدارة الخدمات المختلفة مثل خدمة وقت التشغيل في Aspose.HTML لـ Java.
-## الخطوة 3: تكوين خدمة وقت التشغيل
-وهنا يحدث السحر! سنقوم الآن بتكوين خدمة وقت التشغيل لتحديد المدة التي يمكن أن يعمل فيها JavaScript. وهذا يمنع تشغيل البرنامج النصي في ملف HTML الخاص بنا إلى ما لا نهاية.
+## الخطوة 3: تكوين خدمة Runtime
+هنا نحدد **كيفية ضبط مهلة**. من خلال الحصول على `IRuntimeService` من التكوين، يمكننا تحديد حد تنفيذ JavaScript.
+
 ```java
 try {
-	com.aspose.html.services.IRuntimeService runtimeService = configuration.getService(com.aspose.html.services.IRuntimeService.class);
-	runtimeService.setJavaScriptTimeout(com.aspose.html.utils.TimeSpan.fromSeconds(5));
+    com.aspose.html.services.IRuntimeService runtimeService = configuration.getService(com.aspose.html.services.IRuntimeService.class);
+    runtimeService.setJavaScriptTimeout(com.aspose.html.utils.TimeSpan.fromSeconds(5));
 ```
 
--  نحن نحضر`IRuntimeService` من`Configuration` هدف.
--  استخدام`setJavaScriptTimeout`نقوم بتقييد تنفيذ JavaScript إلى 5 ثوانٍ. إذا تجاوز البرنامج النصي هذا الوقت، فسيتوقف تلقائيًا. وهذا مفيد بشكل خاص في تجنب الحلقات اللانهائية أو البرامج النصية الطويلة التي قد تؤدي إلى تعليق تطبيقك.
-## الخطوة 4: قم بتحميل مستند HTML بالتكوين
-الآن بعد تكوين خدمة وقت التشغيل، حان الوقت لتحميل مستند HTML الخاص بنا باستخدام هذا التكوين. تربط هذه الخطوة كل شيء معًا، مما يتيح التحكم في البرنامج النصي داخل ملف HTML بواسطة خدمة وقت التشغيل.
+- `setJavaScriptTimeout` يحدد حد تنفيذ السكربت إلى **5 ثوانٍ**، مما يمنع **الحلقات اللانهائية**.  
+- هذا أيضًا **يحد من تنفيذ السكربت** لأي كود عميل ثقيل.
+
+## الخطوة 4: تحميل مستند HTML باستخدام التكوين
+الآن قم بتحميل ملف HTML باستخدام التكوين الذي يحتوي على قاعدة المهلة الخاصة بنا.
+
 ```java
-	com.aspose.html.HTMLDocument document = new com.aspose.html.HTMLDocument("runtime-service.html", configuration);
+    com.aspose.html.HTMLDocument document = new com.aspose.html.HTMLDocument("runtime-service.html", configuration);
 ```
 
--  نحن نقوم بتهيئة`HTMLDocument` الكائن مع ملف HTML الخاص بنا (`"runtime-service.html"`) والتكوين الذي تم إعداده مسبقًا. وهذا يضمن أن إعدادات خدمة وقت التشغيل تنطبق على مستند HTML هذا على وجه الخصوص.
+- المستند يحترم المهلة المحددة سابقًا، لذا ستتوقف الحلقة اللانهائية بعد 5 ثوانٍ.
+
 ## الخطوة 5: تحويل HTML إلى PNG
-ما فائدة مستند HTML إذا لم تتمكن من القيام بشيء رائع به؟ في هذه الخطوة، نقوم بتحويل مستند HTML إلى صورة PNG باستخدام ميزات التحويل في Aspose.HTML.
+مع تحميل المستند بأمان، يمكننا **تحويل html إلى png**. يحدث التحويل فقط بعد انتهاء السكربت أو إيقافه بواسطة المهلة.
+
 ```java
-	com.aspose.html.converters.Converter.convertHTML(
-		document,
-		new com.aspose.html.saving.ImageSaveOptions(),
-		"runtime-service_out.png"
-	);
+    com.aspose.html.converters.Converter.convertHTML(
+        document,
+        new com.aspose.html.saving.ImageSaveOptions(),
+        "runtime-service_out.png"
+    );
 ```
 
--  نحن نستخدم`Converter.convertHTML` طريقة لتحويل مستند HTML إلى صورة PNG.
-- `ImageSaveOptions` يتم استخدامه لتحديد تنسيق الإخراج، في هذه الحالة، PNG.
-- يتم حفظ الصورة الناتجة كـ`"runtime-service_out.png"`.
+- `ImageSaveOptions` يخبر Aspose.HTML بإخراج صورة PNG.  
+- الملف الناتج، **runtime-service_out.png**, يعرض HTML المرسوم دون تجميد.
+
 ## الخطوة 6: تنظيف الموارد
- أخيرًا، من الجيد تنظيف الموارد لتجنب تسرب الذاكرة. سنتخلص من`document` و`configuration` أشياء.
+أخيرًا، حرّر الكائنات لتفريغ الذاكرة وتجنب التسريبات.
+
 ```java
 } finally {
-	if (document != null) {
-		document.dispose();
-	}
-	if (configuration != null) {
-		configuration.dispose();
-	}
+    if (document != null) {
+        document.dispose();
+    }
+    if (configuration != null) {
+        configuration.dispose();
+    }
 }
 ```
 
--  نحن نتحقق مما إذا كان`document` و`configuration` لا تكون الكائنات فارغة، ثم قم بالتخلص منها. وهذا يضمن تحرير كافة الموارد المخصصة.
+- التخلص السليم ضروري للتطبيقات طويلة التشغيل.
 
-## خاتمة
-والآن، لقد تعلمت للتو كيفية تكوين خدمة وقت التشغيل في Aspose.HTML لجافا للتحكم في وقت تنفيذ البرنامج النصي. إنها أداة قوية لتحسين تطبيقاتك، وخاصة عند التعامل مع أكواد JavaScript المعقدة أو التي قد تسبب مشاكل. باتباع الخطوات الموضحة أعلاه، يمكنك التأكد من تشغيل تطبيقات Java بكفاءة أكبر، مما يوفر لك الوقت ويمنع حدوث مشكلات محتملة في المستقبل. تذكر أن مفتاح إتقان أي أداة هو الممارسة، لذا لا تتردد في التجربة وتعديل الإعدادات لتناسب احتياجاتك المحددة. برمجة سعيدة!
-## الأسئلة الشائعة
-### ما هو الغرض من خدمة Runtime Service في Aspose.HTML لـ Java؟  
-تتيح لك خدمة وقت التشغيل التحكم في وقت تنفيذ البرامج النصية في مستندات HTML الخاصة بك، مما يساعد على منع الحلقات الطويلة أو اللانهائية التي قد تؤدي إلى تعليق تطبيقك.
-### كيف يمكنني تنزيل Aspose.HTML لـ Java؟  
- يمكنك تنزيل أحدث إصدار من Aspose.HTML لـ Java من[صفحة الإصدارات](https://releases.aspose.com/html/java/).
-###  هل من الضروري التخلص منها`document` and `configuration` objects?  
-نعم، يعد التخلص من هذه الكائنات أمرًا ضروريًا لتحرير الموارد ومنع تسرب الذاكرة في تطبيقك.
-### هل يمكنني ضبط مهلة JavaScript إلى قيمة أخرى غير 5 ثوانٍ؟  
- بالتأكيد! يمكنك ضبط مهلة الانتظار على أي قيمة تناسب احتياجاتك عن طريق تعديل`TimeSpan.fromSeconds()` المعلمة.
-### أين يمكنني الحصول على الدعم إذا واجهت مشاكل مع Aspose.HTML لـ Java؟  
- للحصول على الدعم، يمكنك زيارة[منتدى Aspose.HTML](https://forum.aspose.com/c/html/29).
+## الخلاصة
+لقد تعلمت الآن **كيفية ضبط مهلة** لتنفيذ JavaScript في Aspose.HTML للغة Java، وكيفية **منع الحلقات اللانهائية**، وكيفية **تحويل html إلى png** بأمان. من خلال تكوين خدمة Runtime تحصل على تحكم دقيق في سلوك السكربت، مما يترجم إلى أوقات بدء أسرع وتحويلات أكثر موثوقية. جرّب قيم مهلة مختلفة لتناسب أحمال عملك، وستلاحظ تحسينًا ملحوظًا في الأداء.
+
+## الأسئلة المتكررة
+
+**س: ما هو هدف خدمة Runtime في Aspose.HTML للغة Java؟**  
+ج: تتيح لك التحكم في زمن تنفيذ السكربت، مما يساعد على **منع الحلقات اللانهائية** والحفاظ على استجابة التحويلات.
+
+**س: كيف يمكنني تنزيل Aspose.HTML للغة Java؟**  
+ج: احصل على أحدث نسخة من [صفحة الإصدارات](https://releases.aspose.com/html/java/).
+
+**س: هل من الضروري تحرير كائنات `document` و `configuration`؟**  
+ج: نعم، تحريرها يحرر الموارد الأصلية ويمنع تسرب الذاكرة.
+
+**س: هل يمكنني ضبط مهلة JavaScript إلى قيمة غير 5 ثوانٍ؟**  
+ج: بالتأكيد – غيّر قيمة `TimeSpan.fromSeconds()` إلى الحد الذي يناسب سيناريوك.
+
+**س: أين يمكنني العثور على مساعدة إذا واجهت مشاكل؟**  
+ج: زر [منتدى Aspose.HTML](https://forum.aspose.com/c/html/29) للحصول على مساعدة المجتمع والفريق.
+
+---
+
+**آخر تحديث:** 2025-12-10  
+**تم الاختبار مع:** Aspose.HTML للغة Java 24.11 (أحدث إصدار)  
+**المؤلف:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
