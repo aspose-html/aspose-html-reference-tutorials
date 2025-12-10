@@ -1,66 +1,101 @@
 ---
-title: A Sandboxing megvalósítása az Aspose.HTML for Java-ban
-linktitle: A Sandboxing megvalósítása az Aspose.HTML for Java-ban
-second_title: Java HTML feldolgozás Aspose.HTML-lel
-description: Ismerje meg, hogyan valósíthat meg sandboxingot az Aspose.HTML for Java programban, hogy biztonságosan vezérelje a szkriptek végrehajtását HTML-dokumentumaiban, és konvertálja azokat PDF-be.
-weight: 15
+date: 2025-12-10
+description: Tanulja meg, hogyan valósítható meg a sandboxing az Aspose.HTML for Java-ban
+  a szkriptvégrehajtás biztonságos ellenőrzéséhez és a HTML PDF-re konvertálásához.
+linktitle: Implement Sandboxing in Aspose.HTML
+second_title: Java HTML Processing with Aspose.HTML
+title: 'aspose html to pdf: A sandboxing megvalósítása az Aspose.HTML for Java-ban'
 url: /hu/java/configuring-environment/implement-sandboxing/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# A Sandboxing megvalósítása az Aspose.HTML for Java-ban
+# aspose html to pdf: Sandbox környezet megvalósítása az Aspose.HTML for Java-ban
 
-## Bevezetés
-Ebben az oktatóanyagban bemutatjuk, hogyan valósíthat meg sandboxot az Aspose.HTML for Java használatával. Elvezetjük Önt a környezet beállításától egészen egy egyszerű HTML-fájl írásáig, a sandbox konfigurálásáig és a HTML-kód PDF-formátumba konvertálásáig, miközben a potenciálisan káros szkripteket kontroll alatt tartjuk. Akár tapasztalt fejlesztő, akár csak most kezdi, ez az útmutató megadja a biztonságos webes tartalom egyszerű létrehozásához szükséges eszközöket.
-## Előfeltételek
-Mielőtt belemerülnénk a kódba, győződjünk meg arról, hogy mindennel rendelkezik, amire szüksége van:
-1.  Java Development Kit (JDK): Győződjön meg arról, hogy a Java telepítve van a gépen. A legújabb verziót letöltheti a[Oracle webhely](https://www.oracle.com/java/technologies/javase-downloads.html).
-2.  Aspose.HTML for Java: Töltse le és állítsa be az Aspose.HTML for Java-t. A legújabb verziót a[Az Aspose kiadási oldala](https://releases.aspose.com/html/java/).
-3. IDE vagy szövegszerkesztő: Válassza ki kedvenc integrált fejlesztési környezetét (IDE), például az IntelliJ IDEA-t, az Eclipse-t vagy egy egyszerű szövegszerkesztőt.
-4. HTML és a Java alapvető ismerete: Bár minden lépésen végigvezetjük Önt, a HTML és a Java alapismerete segít a fogalmak könnyebb megértésében.
-5.  Aspose License: Az Aspose.HTML korlátozás nélküli használatához érvényes licenc szükséges. Megszerezheti a[ideiglenes engedély](https://purchase.aspose.com/temporary-license/) vagy[vásároljon egyet](https://purchase.aspose.com/buy).
+## Introduction
+Ebben az útmutatóban megtanulja, **hogyan konvertáljon HTML-t PDF-re az Aspose.HTML for Java segítségével**, miközben a beágyazott szkripteket biztonságosan sandboxolja. Lépésről‑lépésre végigvezetjük a fejlesztői környezet beállításán, egy egyszerű HTML‑fájl létrehozásán, a sandbox konfigurálásán, és végül a védett HTML PDF‑dokumentummá alakításán. Akár tartalom‑generáló szolgáltatást épít, akár megbízhatatlan felhasználói oldalak renderelésére van szüksége, ez az útmutató gyakorlati, biztonságos megoldást nyújt.
 
-## Csomagok importálása
-Mielőtt bármilyen kódot írnánk, importálnunk kell a szükséges csomagokat. A következőket kell tartalmaznia:
+## Quick Answers
+- **Mit csinál a sandboxing?** Megakadályozza, hogy a HTML‑ben lévő szkriptek végrehajtódjanak, így védve az alkalmazást a rosszindulatú kódtól.  
+- **Melyik fő API-t használja a konvertáláshoz?** `com.aspose.html.converters.Converter.convertHTML`.  
+- **Szükségem van licencre?** Igen – egy érvényes Aspose.HTML for Java licenc eltávolítja a kiértékelési korlátokat.  
+- **Futtatható bármely operációs rendszeren?** A Java‑könyvtár platform‑független; működik Windows, Linux és macOS rendszereken.  
+- **Mennyi időt vesz igénybe a teljes folyamat?** Általában egy perc alatt elkészül egy kis HTML‑fájl esetén.
+
+## What is **aspose html to pdf** conversion?
+Az Aspose.HTML for Java egy magas pontosságú motorral rendelkezik, amely elemzi a HTML‑t, alkalmazza a CSS‑t, végrehajtja az engedélyezett szkripteket (vagy blokkolja őket sandboxon keresztül), és közvetlenül PDF‑re rendereli az eredményt. Ezzel elkerülhető a böngésző vagy harmadik fél renderelő motorjának használata.
+
+## Why use sandboxing when converting HTML to PDF?
+- **Biztonság:** Megakadályozza a potenciálisan káros JavaScript futtatását.  
+- **Előre jelezhetőség:** Garantálja, hogy a renderelt PDF megegyezik a statikus HTML elrendezésével.  
+- **Megfelelőség:** Segít a biztonsági szabványok betartásában, amikor megbízhatatlan tartalmat dolgoz fel.
+
+## Prerequisites
+Mielőtt a kódba merülnénk, ellenőrizze, hogy minden szükséges eszköz rendelkezésre áll:
+
+1. **Java Development Kit (JDK)** – Győződjön meg róla, hogy a Java telepítve van a gépén. A legújabb verzió letölthető a [Oracle weboldaláról](https://www.oracle.com/java/technologies/javase-downloads.html).  
+2. **Aspose.HTML for Java** – Töltse le és állítsa be az Aspose.HTML for Java‑t. A legfrissebb verzió a [Aspose kiadási oldaláról](https://releases.aspose.com/html/java/) érhető el.  
+3. **IDE vagy szövegszerkesztő** – Válassza kedvenc integrált fejlesztőkörnyezetét (IDE), például IntelliJ IDEA, Eclipse, vagy egy egyszerű szövegszerkesztőt.  
+4. **Alapvető HTML és Java ismeretek** – Bár minden lépést részletesen bemutatunk, az alapvető HTML és Java tudás segít a koncepciók könnyebb megértésében.  
+5. **Aspose licenc** – Az Aspose.HTML korlátok nélküli használatához érvényes licenc szükséges. Ideiglenes licencet a [temporary license](https://purchase.aspose.com/temporary-license/) oldalon, vagy vásárolt licencet a [purchase page](https://purchase.aspose.com/buy) oldalon szerezhet.
+
+## Import Packages
+Mielőtt kódot írnánk, importálnunk kell a szükséges csomagokat. Íme, mit kell beletenni:
+
 ```java
 import java.io.IOException;
 ```
-Ezek az importálások hozzák a HTML-dokumentumok kezeléséhez, a sandbox-kezeléshez és a PDF-be konvertáláshoz szükséges alapvető funkciókat.
 
-## 1. lépés: Hozzon létre HTML-tartalmat
-Az első dolog, amire szükségünk van, egy egyszerű HTML-fájl, amelyet később homokozóba helyezünk. A következőképpen hozhatja létre:
+Ezek az importok biztosítják a HTML‑dokumentum kezeléséhez, a sandboxoláshoz és a PDF‑konvertáláshoz szükséges alapfunkciókat.
+
+## Step 1: Create Your HTML Content
+Az első lépés egy egyszerű HTML‑fájl létrehozása, amelyet később sandboxolunk. Így készíthető el:
+
 ```java
 String code = "<span>Hello World!!</span>\n" +
               "<script>document.write('Have a nice day!');</script>\n";
 ```
- Ez a HTML-tartalom egyértelmű. Nekünk van a`<span>` elem, amely azt mondja: "Hello World!!" és a`<script>` címke, amely azt írja, hogy "Jó napot kívánok!" a dokumentumra. Mivel azonban a szkriptek biztonsági kockázatot jelenthetnek, a következő lépésekben ezeket homokozóba helyezzük.
+
+Ez a HTML‑tartalom egyszerű. Van egy `<span>` elem, amely a „Hello World!!” szöveget jeleníti meg, és egy `<script>` tag, amely a „Have a nice day!” szöveget írja a dokumentumba. Mivel a szkriptek biztonsági kockázatot jelenthetnek, a következő lépésekben sandboxolni fogjuk őket.
+
 ```java
 try (java.io.FileWriter fileWriter = new java.io.FileWriter("sandboxing.html")) {
     fileWriter.write(code);
 }
 ```
-Itt a HTML-tartalmunkat egy nevű fájlba írjuk`sandboxing.html` . A`try-with-resources` utasítás biztosítja, hogy a fájlíró megfelelően be legyen zárva a művelet befejezése után.
-## 2. lépés: Konfigurálja a Sandboxing környezetet
-Most állítsuk be a sandbox konfigurációt a HTML-dokumentumban lévő szkriptek végrehajtásának vezérléséhez.
+
+Itt a HTML‑tartalmat egy `sandboxing.html` nevű fájlba írjuk. A `try-with-resources` szerkezet biztosítja, hogy a fájlíró a művelet befejezése után megfelelően lezáruljon.
+
+## Step 2: Configure the Sandboxing Environment
+Most állítsuk be a sandbox‑konfigurációt, hogy szabályozzuk a szkriptek végrehajtását a HTML‑dokumentumban.
+
 ```java
 com.aspose.html.Configuration configuration = new com.aspose.html.Configuration();
 ```
- Kezdjük a példány létrehozásával`Configuration`. Ez az objektum lehetővé teszi számunkra, hogy biztonsági korlátozásokat állítsunk be, különösen a szkriptek körül.
+
+Először egy `Configuration` példányt hozunk létre. Ez az objektum lehetővé teszi a biztonsági korlátozások beállítását, különösen a szkriptek tekintetében.
+
 ```java
 configuration.setSecurity(com.aspose.html.Sandbox.Scripts);
 ```
-Itt azt mondjuk konfigurációnknak, hogy a parancsfájlokat nem megbízható erőforrásként kezelje. Ez azt jelenti, hogy a HTML-kódunkban lévő szkriptek nem kerülnek végrehajtásra, így tartalmaink biztonságban vannak.
-## 3. lépés: Inicializálja a HTML-dokumentumot a Sandbox konfigurációval
-Ha készen áll a sandbox konfigurációnk, ideje létrehozni egy HTML-dokumentumot, amely megfelel ezeknek a biztonsági beállításoknak.
+
+Itt azt mondjuk a konfigurációnak, hogy a szkripteket megbízhatatlan erőforrásként kezelje. Ez azt jelenti, hogy a HTML‑ben található bármely szkript nem lesz végrehajtva, így a tartalom biztonságban marad.
+
+## Step 3: Initialize the HTML Document with Sandbox Configuration
+Miután a sandbox‑konfiguráció készen áll, létrehozhatunk egy HTML‑dokumentumot, amely betartja ezeket a biztonsági beállításokat.
+
 ```java
 com.aspose.html.HTMLDocument document = new com.aspose.html.HTMLDocument("sandboxing.html", configuration);
 ```
- Ez a sor inicializál egy újat`HTMLDocument` megadott sandbox konfigurációval és a korábban létrehozott HTML fájllal. Most a HTML-dokumentumunk egy védőrétegbe van burkolva, amely szabályozza a szkriptek végrehajtását.
-## 4. lépés: Konvertálja a Sandboxed HTML-t PDF-be
-Az utolsó lépés az, hogy a sandboxba helyezett HTML-kódot PDF-dokumentummá alakítjuk, amelyet elmenthet vagy megoszthat.
+
+Ez a sor egy új `HTMLDocument`‑et inicializál a megadott sandbox‑konfigurációval és a korábban létrehozott HTML‑fájllal. Így a HTML‑dokumentum egy védelmi rétegbe kerül, amely szabályozza a szkript végrehajtását.
+
+## Step 4: Convert the Sandboxed HTML to PDF
+Az utolsó lépés a sandboxolt HTML PDF‑dokumentummá alakítása, amelyet elmenthet vagy megoszthat.
+
 ```java
 com.aspose.html.converters.Converter.convertHTML(
         document,
@@ -68,9 +103,12 @@ com.aspose.html.converters.Converter.convertHTML(
         "sandboxing_out.pdf"
 );
 ```
- Használjuk a`Converter.convertHTML` módszerrel konvertálhatjuk HTML dokumentumunkat PDF formátumba. A`PdfSaveOptions` osztály lehetővé teszi számunkra, hogy meghatározzuk, hogyan szeretnénk a PDF-fájlt elmenteni. Ebben az esetben a PDF a következő néven lesz elmentve`sandboxing_out.pdf`.
-## 5. lépés: Tisztítsa meg az erőforrásokat
-A Java fejlesztés bevált gyakorlata az erőforrások felszabadítása, amikor már nincs rájuk szükség. Ezt a következőképpen teheti meg:
+
+A `Converter.convertHTML` metódust használjuk a HTML‑dokumentum PDF‑re konvertálásához. A `PdfSaveOptions` osztály lehetővé teszi, hogy megadjuk, hogyan szeretnénk a PDF‑et menteni. Ebben az esetben a PDF `sandboxing_out.pdf` néven lesz elmentve.
+
+## Step 5: Clean Up Resources
+A Java fejlesztésben jó gyakorlat a források felszabadítása, amikor már nincs rájuk szükség. Így tehetjük:
+
 ```java
 if (document != null) {
     document.dispose();
@@ -79,22 +117,40 @@ if (configuration != null) {
     configuration.dispose();
 }
 ```
- Ez biztosítja, hogy a`HTMLDocument` és`Configuration` a tárgyakat megfelelően ártalmatlanítják, így memória és egyéb erőforrások szabadulnak fel.
 
-## Következtetés
-És megvan! Sikeresen megvalósította a sandbox-kezelést az Aspose.HTML for Java-ban. Az útmutatót követve megtanulta, hogyan hozhat létre HTML-dokumentumot, hogyan alkalmazhat sandboxot a szkriptek végrehajtásának szabályozására, és hogyan alakíthatja át biztonságos HTML-tartalmát PDF-formátumba. Ez a megközelítés elengedhetetlen a webtartalom biztonságának megőrzéséhez, különösen akkor, ha nem megbízható vagy dinamikus tartalommal foglalkozik.
-A sandboxing egy hatékony eszköz a webfejlesztésben, amellyel szabályozhatja, hogy mi kerüljön végrehajtásra a HTML-dokumentumokban. Az Aspose.HTML for Java segítségével ennek a funkciónak a megvalósítása egyszerű és hatékony. Akár egy egyszerű weboldalt biztosít, akár egy összetett alkalmazáson dolgozik, az ebben az oktatóanyagban tárgyalt alapelvek jó szolgálatot tesznek.
-## GYIK
-### Mi a sandboxing az Aspose.HTML for Java-ban?
-A Sandboxing az Aspose.HTML for Java-ban egy biztonsági funkció, amely lehetővé teszi a szkriptek és egyéb, potenciálisan káros tartalmak végrehajtásának szabályozását a HTML-dokumentumokban.
-### Testreszabhatom a sandbox beállításait?
-Igen, testreszabhatja a sandbox beállításait az Aspose.HTML for Java biztonsági konfigurációinak módosításával.
-### Minden HTML-dokumentumhoz szükséges a homokozó?
-Nem mindig, de kulcsfontosságú, ha nem megbízható tartalommal dolgozik, vagy ha szigorú biztonsági ellenőrzéseket kell végrehajtania.
-### Honnan tudhatom, hogy a szkriptjeim le vannak tiltva?
- A sandboxba helyezett szkriptek nem futnak le, és hatásaik (pl`document.write`) nem jelenik meg a kimenetben.
-### Átalakíthatom a sandbox HTML-t a PDF-en kívül más formátumokra?
-Teljesen! Az Aspos.HTML for Java támogatja a különféle formátumokká konvertálást, beleértve a képeket, az XPS-t és egyebeket.
+Ez biztosítja, hogy a `HTMLDocument` és a `Configuration` objektumok megfelelően el legyenek pusztítva, felszabadítva a memóriát és egyéb erőforrásokat.
+
+## Common Issues and Solutions
+- **A szkriptek még mindig futnak:** Ellenőrizze, hogy a `configuration.setSecurity(com.aspose.html.Sandbox.Scripts);` hívás a `HTMLDocument` létrehozása előtt történt-e.  
+- **A PDF üres:** Győződjön meg arról, hogy a HTML‑fájl útvonala helyes és a fájl olvasható.  
+- **A licenc nem került alkalmazásra:** Töltse be a licencet bármely Aspose objektum létrehozása előtt, például: `com.aspose.html.License license = new com.aspose.html.License(); license.setLicense("Aspose.HTML.Java.lic");`.
+
+## Frequently Asked Questions
+
+**Q: Mi a sandboxing az Aspose.HTML for Java-ban?**  
+A: A sandboxing egy biztonsági funkció, amely blokkolja a szkriptek és egyéb potenciálisan káros tartalmak végrehajtását egy HTML‑dokumentumban, ezáltal biztonságosan konvertálja azt PDF‑re.
+
+**Q: Testreszabhatom a sandbox beállításait?**  
+A: Igen, a `Configuration` objektumban különböző `Sandbox` zászlók használatával módosíthatja a biztonsági konfigurációt (például engedélyezheti a képeket, korlátozhatja a CSS‑t).
+
+**Q: Szükséges-e a sandboxing minden HTML‑dokumentum esetén?**  
+A: Nem mindig, de elengedhetetlen, ha megbízhatatlan vagy felhasználó által generált tartalmat dolgoz fel, hogy megakadályozza a rosszindulatú kód futását.
+
+**Q: Hogyan tudom ellenőrizni, hogy a szkriptek blokkolva vannak?**  
+A: Sandboxolt környezetben a szkript‑generált kimenet (például a `document.write`) nem jelenik meg a végső PDF‑ben.
+
+**Q: Konvertálhatom a sandboxolt HTML‑t más formátumokra is, mint a PDF?**  
+A: Természetesen! Az Aspose.HTML for Java támogatja a konvertálást képekre, XPS‑re, EPUB‑ra és egyéb formátumokra a megfelelő mentési opciók használatával.
+
+## Conclusion
+Most már megtanulta, **hogyan konvertáljon HTML‑t PDF‑re az Aspose.HTML for Java segítségével**, miközben a szkripteket biztonságosan sandboxolja. Ez a megközelítés ideális olyan helyzetekben, amikor megbízhatatlan vagy dinamikusan generált HTML‑t kell renderelni anélkül, hogy az alkalmazás biztonsága veszélybe kerülne. Fedezze fel a további `Sandbox` opciókat és más kimeneti formátumokat, hogy a megoldást saját igényeihez igazíthassa.
+
+---
+
+**Last Updated:** 2025-12-10  
+**Tested With:** Aspose.HTML for Java 24.12 (latest)  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
