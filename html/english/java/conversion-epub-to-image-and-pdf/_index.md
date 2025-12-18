@@ -58,6 +58,12 @@ Converting an EPUB file to PDF means taking the reflowable, web‑based e‑book
 - **Large EPUB files** – enable streaming (`HtmlLoadOptions.setEnableMemoryOptimization(true)`) to keep memory usage low.  
 - **Incorrect image resolution** – set `ImageSaveOptions.setResolution(300)` for print‑quality images.  
 
+## Conversion - EPUB to Image and PDF Tutorials
+### [Convert EPUB to Images with Aspose.HTML for Java](./convert-epub-to-image/)
+Learn how to convert EPUB to image using Aspose.HTML for Java. A simple, step‑by‑step guide for efficient conversions.
+### [EPUB to PDF Conversion with Aspose.HTML for Java](./convert-epub-to-pdf/)
+Learn how to convert EPUB to PDF with Aspose.HTML for Java. This step‑by‑step guide covers prerequisites, package imports, and code examples. Get started with EPUB to PDF conversion.
+
 ## Frequently Asked Questions
 
 **Q: How do I convert EPUB to PDF in a Java web application?**  
@@ -75,11 +81,11 @@ A: PDF retains the document’s flow and selectable text, while image conversion
 **Q: Is there a way to batch‑process multiple EPUB files?**  
 A: Wrap the conversion logic in a loop and reuse a single `HtmlDocument` instance to improve performance.
 
-## Conversion - EPUB to Image and PDF Tutorials
-### [Convert EPUB to Images with Aspose.HTML for Java](./convert-epub-to-image/)
-Learn how to convert EPUB to image using Aspose.HTML for Java. A simple, step‑by‑step guide for efficient conversions.
-### [EPUB to PDF Conversion with Aspose.HTML for Java](./convert-epub-to-pdf/)
-Learn how to convert EPUB to PDF with Aspose.HTML for Java. This step‑by‑step guide covers prerequisites, package imports, and code examples. Get started with EPUB to PDF conversion.
+---
+
+**Last Updated:** 2025-12-12  
+**Tested With:** Aspose.HTML for Java 24.10  
+**Author:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -87,9 +93,3 @@ Learn how to convert EPUB to PDF with Aspose.HTML for Java. This step‑by‑ste
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-12  
-**Tested With:** Aspose.HTML for Java 24.10  
-**Author:** Aspose

@@ -60,6 +60,12 @@ Převod souboru EPUB do PDF znamená převést reflowovatelný, web‑založený
 - **Velké soubory EPUB** – povolte streamování (`HtmlLoadOptions.setEnableMemoryOptimization(true)`), aby se udržovala nízká spotřeba paměti.  
 - **Nesprávné rozlišení obrázku** – nastavte `ImageSaveOptions.setResolution(300)` pro obrázky tiskové kvality.  
 
+## Tutoriály – převod EPUB na obrázek a PDF
+### [Convert EPUB to Images with Aspose.HTML for Java](./convert-epub-to-image/)
+Naučte se převádět EPUB na obrázek pomocí Aspose.HTML pro Java. Jednoduchý, krok‑za‑krokem průvodce pro efektivní převody.
+### [EPUB to PDF Conversion with Aspose.HTML for Java](./convert-epub-to-pdf/)
+Naučte se převádět EPUB do PDF pomocí Aspose.HTML pro Java. Tento krok‑za‑krokem průvodce pokrývá předpoklady, importy balíčků a ukázky kódu. Začněte s převodem EPUB do PDF.
+
 ## Často kladené otázky
 
 **Q: Jak převést EPUB do PDF v Java webové aplikaci?**  
@@ -77,11 +83,11 @@ A: PDF zachovává tok dokumentu a výběrný text, zatímco převod na obrázek
 **Q: Existuje způsob, jak hromadně zpracovat více souborů EPUB?**  
 A: Zabalte logiku převodu do smyčky a znovu použijte jedinou instanci `HtmlDocument` pro zlepšení výkonu.
 
-## Tutoriály – převod EPUB na obrázek a PDF
-### [Convert EPUB to Images with Aspose.HTML for Java](./convert-epub-to-image/)
-Naučte se převádět EPUB na obrázek pomocí Aspose.HTML pro Java. Jednoduchý, krok‑za‑krokem průvodce pro efektivní převody.
-### [EPUB to PDF Conversion with Aspose.HTML for Java](./convert-epub-to-pdf/)
-Naučte se převádět EPUB do PDF pomocí Aspose.HTML pro Java. Tento krok‑za‑krokem průvodce pokrývá předpoklady, importy balíčků a ukázky kódu. Začněte s převodem EPUB do PDF.
+---
+
+**Last Updated:** 2025-12-12  
+**Tested With:** Aspose.HTML for Java 24.10  
+**Author:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -89,9 +95,3 @@ Naučte se převádět EPUB do PDF pomocí Aspose.HTML pro Java. Tento krok‑za
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-12  
-**Tested With:** Aspose.HTML for Java 24.10  
-**Author:** Aspose

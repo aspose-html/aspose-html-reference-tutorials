@@ -61,6 +61,13 @@ weight: 22
 - **Large EPUB files** – enable streaming (`HtmlLoadOptions.setEnableMemoryOptimization(true)`) to keep memory usage low.  
 - **Incorrect image resolution** – set `ImageSaveOptions.setResolution(300)` for print‑quality images.  
 
+## Μετατροπή - Οδηγοί EPUB σε Εικόνα και PDF
+### [Μετατροπή EPUB σε Εικόνες με Aspose.HTML for Java](./convert-epub-to-image/)
+Μάθετε πώς να μετατρέψετε EPUB σε εικόνα χρησιμοποιώντας το Aspose.HTML for Java. Ένας απλός, βήμα‑βήμα οδηγός για αποδοτικές μετατροπές.
+
+### [Μετατροπή EPUB σε PDF με Aspose.HTML for Java](./convert-epub-to-pdf/)
+Μάθετε πώς να μετατρέψετε EPUB σε PDF με το Aspose.HTML for Java. Αυτός ο βήμα‑βήμα οδηγός καλύπτει τα προαπαιτούμενα, τις εισαγωγές πακέτων και παραδείγματα κώδικα. Ξεκινήστε με τη μετατροπή EPUB σε PDF.
+
 ## Συχνές Ερωτήσεις
 
 **Q: Πώς μπορώ να μετατρέψω EPUB σε PDF σε μια Java web εφαρμογή;**  
@@ -78,12 +85,11 @@ A: PDF retains the document’s flow and selectable text, while image conversion
 **Q: Υπάρχει τρόπος να επεξεργαστώ μαζικά πολλαπλά αρχεία EPUB;**  
 A: Wrap the conversion logic in a loop and reuse a single `HtmlDocument` instance to improve performance.
 
-## Μετατροπή - Οδηγοί EPUB σε Εικόνα και PDF
-### [Μετατροπή EPUB σε Εικόνες με Aspose.HTML for Java](./convert-epub-to-image/)
-Μάθετε πώς να μετατρέψετε EPUB σε εικόνα χρησιμοποιώντας το Aspose.HTML for Java. Ένας απλός, βήμα‑βήμα οδηγός για αποδοτικές μετατροπές.
+---
 
-### [Μετατροπή EPUB σε PDF με Aspose.HTML for Java](./convert-epub-to-pdf/)
-Μάθετε πώς να μετατρέψετε EPUB σε PDF με το Aspose.HTML for Java. Αυτός ο βήμα‑βήμα οδηγός καλύπτει τα προαπαιτούμενα, τις εισαγωγές πακέτων και παραδείγματα κώδικα. Ξεκινήστε με τη μετατροπή EPUB σε PDF.
+**Τελευταία Ενημέρωση:** 2025-12-12  
+**Δοκιμή με:** Aspose.HTML for Java 24.10  
+**Συγγραφέας:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -91,9 +97,3 @@ A: Wrap the conversion logic in a loop and reuse a single `HtmlDocument` instanc
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Τελευταία Ενημέρωση:** 2025-12-12  
-**Δοκιμή με:** Aspose.HTML for Java 24.10  
-**Συγγραφέας:** Aspose

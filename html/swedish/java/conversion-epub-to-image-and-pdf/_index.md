@@ -60,6 +60,12 @@ Att konvertera en EPUB‑fil till PDF innebär att ta det flödesanpassade, webb
 - **Stora EPUB‑filer** – aktivera strömning (`HtmlLoadOptions.setEnableMemoryOptimization(true)`) för att hålla minnesanvändningen låg.  
 - **Fel bildupplösning** – sätt `ImageSaveOptions.setResolution(300)` för utskriftskvalitet på bilder.  
 
+## Konvertering - EPUB till bild och PDF‑handledningar
+### [Convert EPUB to Images with Aspose.HTML for Java](./convert-epub-to-image/)
+Lär dig hur du konverterar EPUB till bild med Aspose.HTML for Java. En enkel, steg‑för‑steg‑guide för effektiva konverteringar.
+### [EPUB to PDF Conversion with Aspose.HTML for Java](./convert-epub-to-pdf/)
+Lär dig hur du konverterar EPUB till PDF med Aspose.HTML for Java. Denna steg‑för‑steg‑guide täcker förutsättningar, paketimport och kodexempel. Kom igång med EPUB‑till‑PDF‑konvertering.
+
 ## Vanliga frågor
 
 **Q: Hur konverterar jag EPUB till PDF i en Java‑webbapplikation?**  
@@ -77,11 +83,11 @@ A: PDF bevarar dokumentets flöde och valbara text, medan bildkonvertering raste
 **Q: Finns det ett sätt att batch‑processa flera EPUB‑filer?**  
 A: Omge konverteringslogiken med en loop och återanvänd en enda `HtmlDocument`‑instans för att förbättra prestanda.
 
-## Konvertering - EPUB till bild och PDF‑handledningar
-### [Convert EPUB to Images with Aspose.HTML for Java](./convert-epub-to-image/)
-Lär dig hur du konverterar EPUB till bild med Aspose.HTML for Java. En enkel, steg‑för‑steg‑guide för effektiva konverteringar.
-### [EPUB to PDF Conversion with Aspose.HTML for Java](./convert-epub-to-pdf/)
-Lär dig hur du konverterar EPUB till PDF med Aspose.HTML for Java. Denna steg‑för‑steg‑guide täcker förutsättningar, paketimport och kodexempel. Kom igång med EPUB‑till‑PDF‑konvertering.
+---
+
+**Senast uppdaterad:** 2025-12-12  
+**Testat med:** Aspose.HTML for Java 24.10  
+**Författare:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -89,9 +95,3 @@ Lär dig hur du konverterar EPUB till PDF med Aspose.HTML for Java. Denna steg�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Senast uppdaterad:** 2025-12-12  
-**Testat med:** Aspose.HTML for Java 24.10  
-**Författare:** Aspose

@@ -61,6 +61,13 @@ Az EPUB fájl PDF‑be konvertálása azt jelenti, hogy a újra‑folyatható, w
 - **Large EPUB files** – engedélyezze a streaminget (`HtmlLoadOptions.setEnableMemoryOptimization(true)`) a memóriahasználat alacsonyan tartásához.  
 - **Incorrect image resolution** – állítsa be a `ImageSaveOptions.setResolution(300)` értéket a nyomtatási minőségű képekhez.  
 
+## Konvertálás – EPUB képekké és PDF‑be útmutatók
+### [EPUB képekké konvertálása az Aspose.HTML for Java segítségével](./convert-epub-to-image/)
+Ismerje meg, hogyan konvertálhat EPUB‑t képpé az Aspose.HTML for Java használatával. Egy egyszerű, lépés‑ről‑lépésre útmutató a hatékony konverziókhoz.
+
+### [EPUB PDF‑be konvertálása az Aspose.HTML for Java segítségével](./convert-epub-to-pdf/)
+Ismerje meg, hogyan konvertálhat EPUB‑t PDF‑be az Aspose.HTML for Java segítségével. Ez a lépés‑ről‑lépésre útmutató bemutatja az előkövetelményeket, a csomagimportokat és a kódrészleteket. Kezdje el az EPUB PDF‑be konvertálását.
+
 ## Gyakran ismételt kérdések
 
 **Q: Hogyan konvertálhatok EPUB‑t PDF‑be Java webalkalmazásban?**  
@@ -78,12 +85,11 @@ A: A PDF megőrzi a dokumentum folyamatosságát és a kijelölhető szöveget, 
 **Q: Van lehetőség több EPUB fájl kötegelt feldolgozására?**  
 A: A konvertálási logikát egy ciklusba ágyazza, és egyetlen `HtmlDocument` példányt használjon újra a teljesítmény javítása érdekében.
 
-## Konvertálás – EPUB képekké és PDF‑be útmutatók
-### [EPUB képekké konvertálása az Aspose.HTML for Java segítségével](./convert-epub-to-image/)
-Ismerje meg, hogyan konvertálhat EPUB‑t képpé az Aspose.HTML for Java használatával. Egy egyszerű, lépés‑ről‑lépésre útmutató a hatékony konverziókhoz.
+---
 
-### [EPUB PDF‑be konvertálása az Aspose.HTML for Java segítségével](./convert-epub-to-pdf/)
-Ismerje meg, hogyan konvertálhat EPUB‑t PDF‑be az Aspose.HTML for Java segítségével. Ez a lépés‑ről‑lépésre útmutató bemutatja az előkövetelményeket, a csomagimportokat és a kódrészleteket. Kezdje el az EPUB PDF‑be konvertálását.
+**Utolsó frissítés:** 2025-12-12  
+**Tesztelt verzió:** Aspose.HTML for Java 24.10  
+**Szerző:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -91,9 +97,3 @@ Ismerje meg, hogyan konvertálhat EPUB‑t PDF‑be az Aspose.HTML for Java seg�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Utolsó frissítés:** 2025-12-12  
-**Tesztelt verzió:** Aspose.HTML for Java 24.10  
-**Szerző:** Aspose

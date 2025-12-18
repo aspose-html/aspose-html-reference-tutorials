@@ -60,6 +60,12 @@ Converter um arquivo EPUB para PDF significa pegar o formato de e‑book refluí
 - **Arquivos EPUB grandes** – habilite streaming (`HtmlLoadOptions.setEnableMemoryOptimization(true)`) para manter o uso de memória baixo.  
 - **Resolução de imagem incorreta** – defina `ImageSaveOptions.setResolution(300)` para imagens de qualidade de impressão.  
 
+## Conversão - Tutoriais de EPUB para Imagem e PDF
+### [Convert EPUB to Images with Aspose.HTML for Java](./convert-epub-to-image/)
+Aprenda como converter EPUB para imagem usando Aspose.HTML for Java. Um guia simples, passo a passo, para conversões eficientes.
+### [EPUB to PDF Conversion with Aspose.HTML for Java](./convert-epub-to-pdf/)
+Aprenda como converter EPUB para PDF com Aspose.HTML for Java. Este guia passo a passo cobre pré‑requisitos, importações de pacotes e exemplos de código. Comece a conversão de EPUB para PDF.
+
 ## Perguntas Frequentes
 
 **P: Como converto EPUB para PDF em uma aplicação web Java?**  
@@ -77,11 +83,11 @@ R: PDF mantém o fluxo do documento e o texto selecionável, enquanto a convers�
 **P: Existe uma maneira de processar em lote vários arquivos EPUB?**  
 R: Envolva a lógica de conversão em um loop e reutilize uma única instância `HtmlDocument` para melhorar o desempenho.
 
-## Conversão - Tutoriais de EPUB para Imagem e PDF
-### [Convert EPUB to Images with Aspose.HTML for Java](./convert-epub-to-image/)
-Aprenda como converter EPUB para imagem usando Aspose.HTML for Java. Um guia simples, passo a passo, para conversões eficientes.
-### [EPUB to PDF Conversion with Aspose.HTML for Java](./convert-epub-to-pdf/)
-Aprenda como converter EPUB para PDF com Aspose.HTML for Java. Este guia passo a passo cobre pré‑requisitos, importações de pacotes e exemplos de código. Comece a conversão de EPUB para PDF.
+---
+
+**Última atualização:** 2025-12-12  
+**Testado com:** Aspose.HTML for Java 24.10  
+**Autor:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -89,9 +95,3 @@ Aprenda como converter EPUB para PDF com Aspose.HTML for Java. Este guia passo a
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última atualização:** 2025-12-12  
-**Testado com:** Aspose.HTML for Java 24.10  
-**Autor:** Aspose

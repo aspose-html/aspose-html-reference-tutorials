@@ -60,6 +60,12 @@ Mengonversi file EPUB ke PDF berarti mengambil format e‑book yang dapat mengal
 - **Large EPUB files** – aktifkan streaming (`HtmlLoadOptions.setEnableMemoryOptimization(true)`) untuk menjaga penggunaan memori tetap rendah.  
 - **Incorrect image resolution** – setel `ImageSaveOptions.setResolution(300)` untuk gambar kualitas cetak.  
 
+## Konversi - Tutorial EPUB ke Gambar dan PDF
+### [Konversi EPUB ke Gambar dengan Aspose.HTML untuk Java](./convert-epub-to-image/)
+Pelajari cara mengonversi EPUB ke gambar menggunakan Aspose.HTML untuk Java. Panduan sederhana, langkah‑demi‑langkah untuk konversi yang efisien.
+### [Konversi EPUB ke PDF dengan Aspose.HTML untuk Java](./convert-epub-to-pdf/)
+Pelajari cara mengonversi EPUB ke PDF dengan Aspose.HTML untuk Java. Panduan langkah‑demi‑langkah ini mencakup prasyarat, impor paket, dan contoh kode. Mulailah konversi EPUB ke PDF.
+
 ## Pertanyaan yang Sering Diajukan
 
 **Q: How do I convert EPUB to PDF in a Java web application?**  
@@ -77,11 +83,11 @@ A: PDF mempertahankan alur dokumen dan teks yang dapat dipilih, sementara konver
 **Q: Is there a way to batch‑process multiple EPUB files?**  
 A: Bungkus logika konversi dalam loop dan gunakan kembali satu instance `HtmlDocument` untuk meningkatkan kinerja.
 
-## Konversi - Tutorial EPUB ke Gambar dan PDF
-### [Konversi EPUB ke Gambar dengan Aspose.HTML untuk Java](./convert-epub-to-image/)
-Pelajari cara mengonversi EPUB ke gambar menggunakan Aspose.HTML untuk Java. Panduan sederhana, langkah‑demi‑langkah untuk konversi yang efisien.
-### [Konversi EPUB ke PDF dengan Aspose.HTML untuk Java](./convert-epub-to-pdf/)
-Pelajari cara mengonversi EPUB ke PDF dengan Aspose.HTML untuk Java. Panduan langkah‑demi‑langkah ini mencakup prasyarat, impor paket, dan contoh kode. Mulailah konversi EPUB ke PDF.
+---
+
+**Terakhir Diperbarui:** 2025-12-12  
+**Diuji Dengan:** Aspose.HTML for Java 24.10  
+**Penulis:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -89,9 +95,3 @@ Pelajari cara mengonversi EPUB ke PDF dengan Aspose.HTML untuk Java. Panduan lan
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Terakhir Diperbarui:** 2025-12-12  
-**Diuji Dengan:** Aspose.HTML for Java 24.10  
-**Penulis:** Aspose

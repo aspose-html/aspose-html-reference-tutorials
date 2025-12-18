@@ -59,6 +59,12 @@ weight: 22
 - **Large EPUB files** – 启用流式处理 (`HtmlLoadOptions.setEnableMemoryOptimization(true)`) 以降低内存占用。  
 - **Incorrect image resolution** – 设置 `ImageSaveOptions.setResolution(300)` 以获得打印质量的图像。  
 
+## 转换 - EPUB 到图像和 PDF 教程
+### [使用 Aspose.HTML for Java 将 EPUB 转换为图像](./convert-epub-to-image/)
+了解如何使用 Aspose.HTML for Java 将 EPUB 转换为图像。一步步的高效转换指南。  
+### [使用 Aspose.HTML for Java 将 EPUB 转换为 PDF](./convert-epub-to-pdf/)
+了解如何使用 Aspose.HTML for Java 将 EPUB 转换为 PDF。本分步指南涵盖先决条件、包导入和代码示例，帮助您快速上手 EPUB 到 PDF 的转换。
+
 ## 常见问题
 
 **Q: 如何在 Java Web 应用程序中将 EPUB 转换为 PDF？**  
@@ -76,11 +82,11 @@ A: PDF 保留文档的流式结构和可选文本，而图像转换会对每页�
 **Q: 是否有办法批量处理多个 EPUB 文件？**  
 A: 将转换逻辑放入循环中，并复用单个 `HtmlDocument` 实例以提升性能。
 
-## 转换 - EPUB 到图像和 PDF 教程
-### [使用 Aspose.HTML for Java 将 EPUB 转换为图像](./convert-epub-to-image/)
-了解如何使用 Aspose.HTML for Java 将 EPUB 转换为图像。一步步的高效转换指南。  
-### [使用 Aspose.HTML for Java 将 EPUB 转换为 PDF](./convert-epub-to-pdf/)
-了解如何使用 Aspose.HTML for Java 将 EPUB 转换为 PDF。本分步指南涵盖先决条件、包导入和代码示例，帮助您快速上手 EPUB 到 PDF 的转换。
+---
+
+**Last Updated:** 2025-12-12  
+**Tested With:** Aspose.HTML for Java 24.10  
+**Author:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -88,9 +94,3 @@ A: 将转换逻辑放入循环中，并复用单个 `HtmlDocument` 实例以提�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-12  
-**Tested With:** Aspose.HTML for Java 24.10  
-**Author:** Aspose

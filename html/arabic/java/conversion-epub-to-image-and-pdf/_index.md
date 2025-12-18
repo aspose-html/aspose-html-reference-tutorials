@@ -60,6 +60,12 @@ weight: 22
 - **Large EPUB files** – تفعيل البث (`HtmlLoadOptions.setEnableMemoryOptimization(true)`) للحفاظ على انخفاض استهلاك الذاكرة.  
 - **Incorrect image resolution** – ضبط `ImageSaveOptions.setResolution(300)` للحصول على صور بجودة طباعة.  
 
+## تحويل - دروس EPUB إلى صورة وPDF
+### [Convert EPUB to Images with Aspose.HTML for Java](./convert-epub-to-image/)
+تعلم كيفية تحويل EPUB إلى صورة باستخدام Aspose.HTML for Java. دليل بسيط خطوة بخطوة للتحويلات الفعّالة.
+### [EPUB to PDF Conversion with Aspose.HTML for Java](./convert-epub-to-pdf/)
+تعلم كيفية تحويل EPUB إلى PDF باستخدام Aspose.HTML for Java. يغطي هذا الدليل خطوة بخطوة المتطلبات المسبقة، استيراد الحزم، وأمثلة الشيفرة. ابدأ بتحويل EPUB إلى PDF.
+
 ## الأسئلة المتكررة
 
 **س: كيف يمكنني تحويل EPUB إلى PDF في تطبيق ويب Java؟**  
@@ -77,11 +83,11 @@ weight: 22
 **س: هل هناك طريقة لمعالجة عدة ملفات EPUB دفعة واحدة؟**  
 ج: ضع منطق التحويل داخل حلقة وأعد استخدام نسخة واحدة من `HtmlDocument` لتحسين الأداء.
 
-## تحويل - دروس EPUB إلى صورة وPDF
-### [Convert EPUB to Images with Aspose.HTML for Java](./convert-epub-to-image/)
-تعلم كيفية تحويل EPUB إلى صورة باستخدام Aspose.HTML for Java. دليل بسيط خطوة بخطوة للتحويلات الفعّالة.
-### [EPUB to PDF Conversion with Aspose.HTML for Java](./convert-epub-to-pdf/)
-تعلم كيفية تحويل EPUB إلى PDF باستخدام Aspose.HTML for Java. يغطي هذا الدليل خطوة بخطوة المتطلبات المسبقة، استيراد الحزم، وأمثلة الشيفرة. ابدأ بتحويل EPUB إلى PDF.
+---
+
+**آخر تحديث:** 2025-12-12  
+**تم الاختبار باستخدام:** Aspose.HTML for Java 24.10  
+**المؤلف:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -89,9 +95,3 @@ weight: 22
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2025-12-12  
-**تم الاختبار باستخدام:** Aspose.HTML for Java 24.10  
-**المؤلف:** Aspose

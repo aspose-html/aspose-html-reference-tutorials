@@ -59,6 +59,13 @@ EPUB 파일을 PDF로 변환한다는 것은 재흐름 가능한 웹 기반 전�
 - **Large EPUB files** – 스트리밍을 활성화(`HtmlLoadOptions.setEnableMemoryOptimization(true)`)해 메모리 사용량을 낮추세요.  
 - **Incorrect image resolution** – 인쇄 품질 이미지를 위해 `ImageSaveOptions.setResolution(300)`을 설정하세요.  
 
+## 변환 - EPUB을 이미지 및 PDF로 변환하는 튜토리얼
+### [Aspose.HTML for Java를 사용한 EPUB을 이미지로 변환하기](./convert-epub-to-image/)
+Aspose.HTML for Java를 사용해 EPUB을 이미지로 변환하는 방법을 배웁니다. 효율적인 변환을 위한 간단하고 단계별 가이드입니다.
+
+### [Aspose.HTML for Java를 사용한 EPUB을 PDF로 변환하기](./convert-epub-to-pdf/)
+Aspose.HTML for Java를 사용해 EPUB을 PDF로 변환하는 방법을 배웁니다. 사전 요구 사항, 패키지 임포트, 코드 예제를 포함한 단계별 가이드이며, EPUB을 PDF로 변환하는 작업을 바로 시작할 수 있습니다.
+
 ## 자주 묻는 질문
 
 **Q: Java 웹 애플리케이션에서 EPUB을 PDF로 변환하려면 어떻게 해야 하나요?**  
@@ -76,12 +83,11 @@ A: PDF는 문서 흐름과 선택 가능한 텍스트를 유지하지만, 이미
 **Q: 여러 EPUB 파일을 일괄 처리할 방법이 있나요?**  
 A: 변환 로직을 루프 안에 넣고 `HtmlDocument` 인스턴스를 재사용하면 성능을 향상시킬 수 있습니다.
 
-## 변환 - EPUB을 이미지 및 PDF로 변환하는 튜토리얼
-### [Aspose.HTML for Java를 사용한 EPUB을 이미지로 변환하기](./convert-epub-to-image/)
-Aspose.HTML for Java를 사용해 EPUB을 이미지로 변환하는 방법을 배웁니다. 효율적인 변환을 위한 간단하고 단계별 가이드입니다.
+---
 
-### [Aspose.HTML for Java를 사용한 EPUB을 PDF로 변환하기](./convert-epub-to-pdf/)
-Aspose.HTML for Java를 사용해 EPUB을 PDF로 변환하는 방법을 배웁니다. 사전 요구 사항, 패키지 임포트, 코드 예제를 포함한 단계별 가이드이며, EPUB을 PDF로 변환하는 작업을 바로 시작할 수 있습니다.
+**마지막 업데이트:** 2025-12-12  
+**테스트 환경:** Aspose.HTML for Java 24.10  
+**작성자:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -89,9 +95,3 @@ Aspose.HTML for Java를 사용해 EPUB을 PDF로 변환하는 방법을 배웁�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**마지막 업데이트:** 2025-12-12  
-**테스트 환경:** Aspose.HTML for Java 24.10  
-**작성자:** Aspose

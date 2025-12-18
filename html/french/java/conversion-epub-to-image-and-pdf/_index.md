@@ -60,6 +60,12 @@ Convertir un fichier EPUB en PDF consiste à prendre le format e‑book réflowa
 - **Fichiers EPUB volumineux** – activez le streaming (`HtmlLoadOptions.setEnableMemoryOptimization(true)`) pour limiter l’utilisation de la mémoire.  
 - **Résolution d’image incorrecte** – définissez `ImageSaveOptions.setResolution(300)` pour des images de qualité impression.  
 
+## Tutoriels de conversion – EPUB en image et PDF
+### [Convert EPUB to Images with Aspose.HTML for Java](./convert-epub-to-image/)
+Apprenez à convertir EPUB en image avec Aspose.HTML pour Java. Un guide simple, étape par étape, pour des conversions efficaces.  
+### [EPUB to PDF Conversion with Aspose.HTML for Java](./convert-epub-to-pdf/)
+Apprenez à convertir EPUB en PDF avec Aspose.HTML pour Java. Ce guide pas à pas couvre les prérequis, les importations de packages et des exemples de code. Commencez la conversion EPUB en PDF.
+
 ## Questions fréquentes
 
 **Q : Comment convertir EPUB en PDF dans une application web Java ?**  
@@ -77,11 +83,11 @@ R : Le PDF conserve le flux du document et le texte sélectionnable, tandis qu
 **Q : Existe‑t‑il un moyen de traiter plusieurs fichiers EPUB en lot ?**  
 R : Enveloppez la logique de conversion dans une boucle et réutilisez une seule instance `HtmlDocument` pour améliorer les performances.
 
-## Tutoriels de conversion – EPUB en image et PDF
-### [Convert EPUB to Images with Aspose.HTML for Java](./convert-epub-to-image/)
-Apprenez à convertir EPUB en image avec Aspose.HTML pour Java. Un guide simple, étape par étape, pour des conversions efficaces.  
-### [EPUB to PDF Conversion with Aspose.HTML for Java](./convert-epub-to-pdf/)
-Apprenez à convertir EPUB en PDF avec Aspose.HTML pour Java. Ce guide pas à pas couvre les prérequis, les importations de packages et des exemples de code. Commencez la conversion EPUB en PDF.
+---
+
+**Dernière mise à jour :** 2025-12-12  
+**Testé avec :** Aspose.HTML pour Java 24.10  
+**Auteur :** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -89,9 +95,3 @@ Apprenez à convertir EPUB en PDF avec Aspose.HTML pour Java. Ce guide pas à pa
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Dernière mise à jour :** 2025-12-12  
-**Testé avec :** Aspose.HTML pour Java 24.10  
-**Auteur :** Aspose

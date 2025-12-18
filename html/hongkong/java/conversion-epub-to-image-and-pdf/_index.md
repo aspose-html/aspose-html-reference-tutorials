@@ -59,6 +59,13 @@ weight: 22
 - **Large EPUB files** – 啟用串流 (`HtmlLoadOptions.setEnableMemoryOptimization(true)`) 以降低記憶體使用量。  
 - **Incorrect image resolution** – 設定 `ImageSaveOptions.setResolution(300)` 以取得列印品質的圖像。  
 
+## 轉換 - EPUB 圖像與 PDF 教學
+### [使用 Aspose.HTML for Java 轉換 EPUB 為圖像](./convert-epub-to-image/)
+了解如何使用 Aspose.HTML for Java 將 EPUB 轉換為圖像。這是一個簡單、逐步的高效轉換指南。
+
+### [使用 Aspose.HTML for Java 進行 EPUB 到 PDF 轉換](./convert-epub-to-pdf/)
+了解如何使用 Aspose.HTML for Java 將 EPUB 轉換為 PDF。本逐步指南涵蓋前置條件、套件匯入與程式碼範例。立即開始 EPUB 到 PDF 的轉換。
+
 ## 常見問題
 **Q: 如何在 Java 網頁應用程式中將 EPUB 轉換為 PDF？**  
 A: 從 `InputStream` 載入 EPUB，使用相同的 API 進行轉換，然後直接將 PDF 寫入 HTTP 回應的輸出串流。  
@@ -75,22 +82,24 @@ A: PDF 保留文件的流式結構與可選取文字，而圖像轉換會將每�
 **Q: 有沒有方法批次處理多個 EPUB 檔案？**  
 A: 可將轉換邏輯包在迴圈中，並重複使用單一的 `HtmlDocument` 實例以提升效能。  
 
-## 轉換 - EPUB 圖像與 PDF 教學
-### [使用 Aspose.HTML for Java 轉換 EPUB 為圖像](./convert-epub-to-image/)
-了解如何使用 Aspose.HTML for Java 將 EPUB 轉換為圖像。這是一個簡單、逐步的高效轉換指南。
-
-### [使用 Aspose.HTML for Java 進行 EPUB 到 PDF 轉換](./convert-epub-to-pdf/)
-了解如何使用 Aspose.HTML for Java 將 EPUB 轉換為 PDF。本逐步指南涵蓋前置條件、套件匯入與程式碼範例。立即開始 EPUB 到 PDF 的轉換。
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **最後更新：** 2025-12-12  
 **測試環境：** Aspose.HTML for Java 24.10  
 **作者：** Aspose
+
+## 常見問題
+**Q: 如何在 Java 網頁應用程式中將 EPUB 轉換為 PDF？**  
+A: 從 `InputStream` 載入 EPUB，使用相同的 API 進行轉換，然後直接將 PDF 寫入 HTTP 回應的輸出串流。  
+
+**Q: 能夠轉換受保護的 EPUB 檔案嗎？**  
+A: 可以，請透過 `HtmlLoadOptions.setPassword("yourPassword")` 提供解密密碼。  
+
+**Q: Aspose.HTML 是否支援 EPUB 3 功能？**  
+A: 完全支援 EPUB 3，包括音訊、影片與互動元素。  
+
+**Q: `convert epub to pdf` 與 `convert epub to image` 有何差異？**  
+A: PDF 保留文件的流式結構與可選取文字，而圖像轉換會將每頁光柵化，適合用於縮圖或預覽圖像。  
+
+**Q: 有沒有方法批次處理多個 EPUB 檔案？**  
+A: 可將轉換邏輯包在迴圈中，並重複使用單一的 `HtmlDocument` 實例以提升效能。  

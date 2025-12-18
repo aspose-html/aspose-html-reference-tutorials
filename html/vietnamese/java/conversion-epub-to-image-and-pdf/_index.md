@@ -60,6 +60,13 @@ Chuyển đổi một tệp EPUB sang PDF có nghĩa là lấy định dạng e�
 - **Large EPUB files** – bật streaming (`HtmlLoadOptions.setEnableMemoryOptimization(true)`) để giữ mức sử dụng bộ nhớ thấp.  
 - **Incorrect image resolution** – đặt `ImageSaveOptions.setResolution(300)` cho hình ảnh chất lượng in.  
 
+## Hướng dẫn chuyển đổi - EPUB sang Hình ảnh và PDF
+### [Convert EPUB to Images with Aspose.HTML for Java](./convert-epub-to-image/)
+Tìm hiểu cách chuyển EPUB sang hình ảnh bằng Aspose.HTML cho Java. Một hướng dẫn đơn giản, từng bước để chuyển đổi hiệu quả.
+
+### [EPUB to PDF Conversion with Aspose.HTML for Java](./convert-epub-to-pdf/)
+Tìm hiểu cách chuyển EPUB sang PDF với Aspose.HTML cho Java. Hướng dẫn từng bước này bao gồm các yêu cầu trước, nhập gói, và ví dụ mã. Bắt đầu chuyển đổi EPUB sang PDF.
+
 ## Câu hỏi thường gặp
 
 **Q: How do I convert EPUB to PDF in a Java web application?**  
@@ -77,12 +84,11 @@ A: PDF giữ nguyên luồng tài liệu và văn bản có thể chọn, trong 
 **Q: Is there a way to batch‑process multiple EPUB files?**  
 A: Bao bọc logic chuyển đổi trong một vòng lặp và tái sử dụng một đối tượng `HtmlDocument` duy nhất để cải thiện hiệu suất.  
 
-## Hướng dẫn chuyển đổi - EPUB sang Hình ảnh và PDF
-### [Convert EPUB to Images with Aspose.HTML for Java](./convert-epub-to-image/)
-Tìm hiểu cách chuyển EPUB sang hình ảnh bằng Aspose.HTML cho Java. Một hướng dẫn đơn giản, từng bước để chuyển đổi hiệu quả.
+---
 
-### [EPUB to PDF Conversion with Aspose.HTML for Java](./convert-epub-to-pdf/)
-Tìm hiểu cách chuyển EPUB sang PDF với Aspose.HTML cho Java. Hướng dẫn từng bước này bao gồm các yêu cầu trước, nhập gói, và ví dụ mã. Bắt đầu chuyển đổi EPUB sang PDF.
+**Cập nhật lần cuối:** 2025-12-12  
+**Kiểm tra với:** Aspose.HTML for Java 24.10  
+**Tác giả:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -90,9 +96,3 @@ Tìm hiểu cách chuyển EPUB sang PDF với Aspose.HTML cho Java. Hướng d�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Cập nhật lần cuối:** 2025-12-12  
-**Kiểm tra với:** Aspose.HTML for Java 24.10  
-**Tác giả:** Aspose
