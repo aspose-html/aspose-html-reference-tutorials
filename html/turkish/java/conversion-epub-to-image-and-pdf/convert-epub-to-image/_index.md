@@ -101,28 +101,6 @@ Bu beş basit adımla, Aspose.HTML for Java kullanarak **bir EPUB'u görsele dö
 | **Düşük görüntü kalitesi** | Varsayılan DPI düşük | Dönüştürmeden önce `options.setResolution(300);` ayarlayın (ek `ImageSaveOptions` yapılandırması gerekir) |
 | **Desteklenmeyen fontlar** | Sistem üzerinde gerekli fontlar eksik | Fontları EPUB içine gömün veya gerekli fontları host makineye kurun |
 
-## SSS
-
-### S1: Aspose.HTML for Java ücretsiz mi?
-
-C1: Aspose.HTML for Java ücretsiz deneme sürümü sunar, ancak devamlı kullanım için lisans gereklidir. Geçici bir lisans alabilirsiniz: [buradan](https://purchase.aspose.com/temporary-license/).
-
-### S2: Hangi görüntü formatları dönüşüm için destekleniyor?
-
-C2: Aspose.HTML for Java JPEG, PNG, TIFF ve BMP dahil olmak üzere çeşitli görüntü formatlarını destekler.
-
-### S3: Görüntü dönüşüm ayarlarını özelleştirebilir miyim?
-
-C3: Evet, `ImageSaveOptions` kullanarak çözünürlük, kalite ve diğer ayarları özelleştirebilirsiniz.
-
-### S4: Aspose.HTML for Java toplu dönüşümler için uygun mu?
-
-C5: Evet, Aspose.HTML for Java ile EPUB belgelerini toplu olarak verimli bir şekilde görsellere dönüştürebilirsiniz.
-
-### S5: Destek ve yardım nereden alınır?
-
-C5: Sorularınız veya yardıma ihtiyacınız olduğunda [Aspose.HTML Forum](https://forum.aspose.com/) adresini ziyaret ederek topluluk ve destek ekibiyle iletişime geçebilirsiniz.
-
 ## Sık Sorulan Sorular
 
 **S: Sadece EPUB'un belirli bir sayfasını dönüştürebilir miyim?**  
@@ -143,17 +121,15 @@ Artık Aspose.HTML for Java kullanarak **EPUB dosyalarını görsellere dönüş
 
 Daha derin özelleştirmeler ve ileri senaryolar için resmi dokümantasyona göz atın: [Aspose.HTML for Java Documentation](https://reference.aspose.com/html/java/).
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Son Güncelleme:** 2025-12-13  
 **Test Edilen Versiyon:** Aspose.HTML for Java 23.12 (yazım anındaki en yeni)  
 **Yazar:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

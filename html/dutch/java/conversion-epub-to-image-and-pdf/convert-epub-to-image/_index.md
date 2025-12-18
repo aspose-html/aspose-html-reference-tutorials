@@ -103,28 +103,6 @@ Met deze vijf eenvoudige stappen heb je succesvol **een EPUB naar een afbeelding
 
 ## Veelgestelde Vragen
 
-### Q1: Is Aspose.HTML voor Java gratis te gebruiken?
-
-A1: Aspose.HTML voor Java biedt een gratis proefversie, maar voor voortgezet gebruik is een licentie vereist. Je kunt een tijdelijke licentie verkrijgen via [hier](https://purchase.aspose.com/temporary-license/).
-
-### Q2: Welke afbeeldingsformaten worden ondersteund voor conversie?
-
-A2: Aspose.HTML voor Java ondersteunt verschillende afbeeldingsformaten, waaronder JPEG, PNG, TIFF en BMP.
-
-### Q3: Kan ik de instellingen voor afbeeldingsconversie aanpassen?
-
-A3: Ja, je kunt de conversie‑instellingen aanpassen, zoals resolutie, kwaliteit en meer, met behulp van `ImageSaveOptions`.
-
-### Q4: Is Aspose.HTML voor Java geschikt voor batchconversies?
-
-A5: Ja, je kunt EPUB‑documenten efficiënt batchgewijs naar afbeeldingen converteren met Aspose.HTML voor Java.
-
-### Q5: Waar kan ik ondersteuning en hulp krijgen?
-
-A5: Als je vragen hebt of hulp nodig hebt, kun je terecht op het [Aspose.HTML Forum](https://forum.aspose.com/) voor ondersteuning en community‑hulp.
-
-## Veelgestelde Vragen
-
 **V: Kan ik alleen een specifieke pagina van het EPUB converteren?**  
 A: Ja. Gebruik `Converter.convertEPUB`‑overloads die paginabereik‑parameters accepteren.
 
@@ -143,15 +121,15 @@ Je hebt nu een duidelijke, productieklare methode voor **hoe je EPUB**‑bestand
 
 Voor diepere aanpassingen en geavanceerde scenario's kun je de officiële documentatie bekijken op [Aspose.HTML for Java Documentation](https://reference.aspose.com/html/java/).
 
+---
+
+**Laatst Bijgewerkt:** 2025-12-13  
+**Getest Met:** Aspose.HTML for Java 23.12 (latest op het moment van schrijven)  
+**Auteur:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Laatst Bijgewerkt:** 2025-12-13  
-**Getest Met:** Aspose.HTML for Java 23.12 (latest op het moment van schrijven)  
-**Auteur:** Aspose

@@ -100,29 +100,7 @@ Converter.convertEPUB(fileInputStream, options, outputFile);
 | **画像品質が低い** | デフォルト DPI が低い | 変換前に `options.setResolution(300);` を設定（`ImageSaveOptions` の追加設定が必要） |
 | **フォントが正しく表示されない** | システムにフォントがインストールされていない | EPUB にフォントを埋め込むか、必要なフォントをホストマシンにインストールしてください |
 
-## FAQ's
-
-### Q1: Aspose.HTML for Java は無料で使用できますか？
-
-A1: Aspose.HTML for Java は無料トライアルを提供していますが、継続的に使用する場合はライセンスが必要です。臨時ライセンスは [here](https://purchase.aspose.com/temporary-license/) から取得できます。
-
-### Q2: 変換に対応している画像形式は何ですか？
-
-A2: JPEG、PNG、TIFF、BMP など、さまざまな画像形式がサポートされています。
-
-### Q3: 画像変換設定をカスタマイズできますか？
-
-A3: はい、`ImageSaveOptions` を使用して解像度、品質、その他多数の設定をカスタマイズできます。
-
-### Q4: Aspose.HTML for Java はバッチ変換に適していますか？
-
-A5: はい、Aspose.HTML for Java を使えば EPUB ドキュメントを効率的にバッチ変換できます。
-
-### Q5: サポートや支援はどこで受けられますか？
-
-A5: 質問やサポートが必要な場合は、[Aspose.HTML Forum](https://forum.aspose.com/) でコミュニティや公式サポートに問い合わせてください。
-
-## Frequently Asked Questions
+## よくある質問
 
 **Q: EPUB の特定ページだけを変換できますか？**  
 A: はい。ページ範囲パラメータを受け取る `Converter.convertEPUB` のオーバーロードを使用します。
@@ -136,18 +114,11 @@ A: いいえ。変換を行うには DRM が解除された EPUB が必要です
 **Q: 画像ではなく PDF に変換することは可能ですか？**  
 A: もちろんです。Aspose.HTML には PDF 出力用の `Converter.convertEPUB` オーバーロードも用意されています。
 
-## Conclusion
+## まとめ
 
 以上で、**Aspose.HTML for Java を使用した EPUB の画像変換方法**が明確に理解できたはずです。プレビューサービスの構築、サムネイル生成、ウェブポータル向け資産作成など、さまざまなシナリオでこの手順を活用し、変換プロセスを完全にコントロールしてください。
 
 さらに高度なカスタマイズや高度なシナリオについては、公式ドキュメント [Aspose.HTML for Java Documentation](https://reference.aspose.com/html/java/) をご参照ください。
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ---
 
@@ -155,4 +126,9 @@ A: もちろんです。Aspose.HTML には PDF 出力用の `Converter.convertEP
 **テスト環境:** Aspose.HTML for Java 23.12（執筆時点の最新バージョン）  
 **作者:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

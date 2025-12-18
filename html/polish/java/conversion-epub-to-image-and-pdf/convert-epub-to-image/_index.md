@@ -101,28 +101,6 @@ Dzięki tym pięciu prostym krokom pomyślnie **skonwertowałeś EPUB na obraz**
 | **Niska jakość obrazu** | Domyślne DPI jest niskie | Ustaw `options.setResolution(300);` przed konwersją (wymaga dodatkowej konfiguracji `ImageSaveOptions`) |
 | **Nieobsługiwane czcionki** | Brak czcionek w systemie | Osadź czcionki w pliku EPUB lub zainstaluj wymagane czcionki na maszynie hosta |
 
-## FAQ's
-
-### P1: Czy Aspose.HTML dla Javy jest darmowy?
-
-Odp1: Aspose.HTML dla Javy oferuje wersję próbną, ale do dalszego użytkowania wymagana jest licencja. Tymczasową licencję możesz uzyskać [tutaj](https://purchase.aspose.com/temporary-license/).
-
-### P2: Jakie formaty obrazów są obsługiwane przy konwersji?
-
-Odp2: Aspose.HTML dla Javy obsługuje różne formaty obrazów, w tym JPEG, PNG, TIFF i BMP.
-
-### P3: Czy mogę dostosować ustawienia konwersji obrazu?
-
-Odp3: Tak, możesz dostosować ustawienia konwersji, takie jak rozdzielczość obrazu, jakość i inne, używając `ImageSaveOptions`.
-
-### P4: Czy Aspose.HTML dla Javy nadaje się do konwersji wsadowej?
-
-Odp4: Tak, możesz efektywnie konwertować wsadowo dokumenty EPUB na obrazy przy użyciu Aspose.HTML dla Javy.
-
-### P5: Gdzie mogę uzyskać wsparcie i pomoc?
-
-Odp5: Jeśli masz pytania lub potrzebujesz pomocy, odwiedź [Aspose.HTML Forum](https://forum.aspose.com/) w celu uzyskania wsparcia i pomocy społeczności.
-
 ## Frequently Asked Questions
 
 **P: Czy mogę konwertować tylko określoną stronę EPUB?**  
@@ -143,15 +121,15 @@ Masz teraz jasną, gotową do produkcji metodę **konwersji plików EPUB** na ob
 
 Po więcej szczegółów i zaawansowanych scenariuszy zapoznaj się z oficjalną dokumentacją pod adresem [Aspose.HTML for Java Documentation](https://reference.aspose.com/html/java/).
 
+---
+
+**Ostatnia aktualizacja:** 2025-12-13  
+**Testowano z:** Aspose.HTML for Java 23.12 (najnowsza w momencie pisania)  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ostatnia aktualizacja:** 2025-12-13  
-**Testowano z:** Aspose.HTML for Java 23.12 (najnowsza w momencie pisania)  
-**Autor:** Aspose

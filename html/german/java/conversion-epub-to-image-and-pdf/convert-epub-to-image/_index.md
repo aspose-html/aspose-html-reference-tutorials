@@ -101,28 +101,6 @@ Mit diesen fünf einfachen Schritten haben Sie **ein EPUB erfolgreich in ein Bil
 | **Niedrige Bildqualität** | Standard‑DPI ist zu niedrig | `options.setResolution(300);` vor der Konvertierung setzen (erfordert zusätzliche `ImageSaveOptions`‑Konfiguration) |
 | **Nicht unterstützte Schriftarten** | Schriftarten fehlen im System | Schriftarten in das EPUB einbetten oder die benötigten Schriftarten auf dem Host‑Rechner installieren |
 
-## FAQ's
-
-### Q1: Ist Aspose.HTML für Java kostenlos nutzbar?
-
-A1: Aspose.HTML für Java bietet eine kostenlose Testversion, für den fortlaufenden Einsatz ist jedoch eine Lizenz erforderlich. Eine temporäre Lizenz erhalten Sie [hier](https://purchase.aspose.com/temporary-license/).
-
-### Q2: Welche Bildformate werden für die Konvertierung unterstützt?
-
-A2: Aspose.HTML für Java unterstützt verschiedene Bildformate, darunter JPEG, PNG, TIFF und BMP.
-
-### Q3: Kann ich die Bildeinstellungen anpassen?
-
-A3: Ja, Sie können die Konvertierungseinstellungen wie Bildauflösung, Qualität usw. über `ImageSaveOptions` anpassen.
-
-### Q4: Eignet sich Aspose.HTML für Java für Batch‑Konvertierungen?
-
-A5: Ja, Sie können EPUB‑Dokumente effizient stapelweise in Bilder konvertieren, indem Sie Aspose.HTML für Java verwenden.
-
-### Q5: Wo finde ich Support und Hilfe?
-
-A5: Bei Fragen oder Unterstützungsbedarf besuchen Sie das [Aspose.HTML Forum](https://forum.aspose.com/) für Support und Community‑Hilfe.
-
 ## Häufig gestellte Fragen
 
 **Q: Kann ich nur eine bestimmte Seite des EPUB konvertieren?**  
@@ -143,17 +121,15 @@ Sie verfügen nun über eine klare, produktionsreife Methode, **wie man EPUB‑D
 
 Für weitergehende Anpassungen und fortgeschrittene Szenarien lesen Sie die offizielle Dokumentation unter [Aspose.HTML for Java Documentation](https://reference.aspose.com/html/java/).
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-13  
 **Tested With:** Aspose.HTML for Java 23.12 (latest at time of writing)  
 **Author:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

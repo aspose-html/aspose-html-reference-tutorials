@@ -101,28 +101,6 @@ Dengan lima langkah sederhana ini, Anda telah berhasil **mengonversi EPUB ke gam
 | **Low image quality** | DPI default rendah | Set `options.setResolution(300);` sebelum konversi (memerlukan konfigurasi tambahan `ImageSaveOptions`) |
 | **Unsupported fonts** | Font tidak ada di sistem | Sematkan font dalam EPUB atau instal font yang diperlukan di mesin host |
 
-## FAQ
-
-### Q1: Apakah Aspose.HTML untuk Java gratis digunakan?
-
-A1: Aspose.HTML untuk Java menawarkan versi percobaan gratis, tetapi untuk penggunaan berkelanjutan, diperlukan lisensi. Anda dapat memperoleh lisensi sementara dari [here](https://purchase.aspose.com/temporary-license/).
-
-### Q2: Format gambar apa yang didukung untuk konversi?
-
-A2: Aspose.HTML untuk Java mendukung berbagai format gambar, termasuk JPEG, PNG, TIFF, dan BMP.
-
-### Q3: Bisakah saya menyesuaikan pengaturan konversi gambar?
-
-A3: Ya, Anda dapat menyesuaikan pengaturan konversi, seperti resolusi gambar, kualitas, dan lainnya menggunakan `ImageSaveOptions`.
-
-### Q4: Apakah Aspose.HTML untuk Java cocok untuk konversi batch?
-
-A5: Ya, Anda dapat melakukan konversi batch dokumen EPUB ke gambar secara efisien menggunakan Aspose.HTML untuk Java.
-
-### Q5: Di mana saya dapat mendapatkan dukungan dan bantuan?
-
-A5: Jika Anda memiliki pertanyaan atau membutuhkan bantuan, Anda dapat mengunjungi [Aspose.HTML Forum](https://forum.aspose.com/) untuk dukungan dan bantuan komunitas.
-
 ## Pertanyaan yang Sering Diajukan
 
 **Q: Bisakah saya mengonversi hanya halaman tertentu dari EPUB?**  
@@ -143,17 +121,15 @@ Anda kini memiliki metode yang jelas dan siap produksi untuk **mengonversi EPUB*
 
 Untuk kustomisasi lebih mendalam dan skenario lanjutan, jelajahi dokumentasi resmi di [Aspose.HTML for Java Documentation](https://reference.aspose.com/html/java/).
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Terakhir Diperbarui:** 2025-12-13  
 **Diuji Dengan:** Aspose.HTML untuk Java 23.12 (terbaru pada saat penulisan)  
 **Penulis:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

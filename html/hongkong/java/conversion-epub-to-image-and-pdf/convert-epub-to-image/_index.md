@@ -99,28 +99,6 @@ Converter.convertEPUB(fileInputStream, options, outputFile);
 | **Low image quality**<br>（圖像品質低） | Default DPI is low<br>（預設 DPI 較低） | Set `options.setResolution(300);` before conversion (requires additional `ImageSaveOptions` configuration)<br>（在轉換前設定 `options.setResolution(300);`，需額外配置 `ImageSaveOptions`） |
 | **Unsupported fonts**<br>（字型不支援） | Fonts missing on the system<br>（系統缺少相應字型） | Embed fonts in the EPUB or install required fonts on the host machine<br>（將字型嵌入 EPUB，或在主機上安裝所需字型） |
 
-## 常見問答
-
-### Q1：Aspose.HTML for Java 可以免費使用嗎？
-
-A1：Aspose.HTML for Java 提供免費試用版，但若要持續使用則必須購買授權。您可從 [此處](https://purchase.aspose.com/temporary-license/) 取得臨時授權。
-
-### Q2：支援哪些圖像格式進行轉換？
-
-A2：Aspose.HTML for Java 支援多種圖像格式，包括 JPEG、PNG、TIFF 與 BMP 等。
-
-### Q3：我可以自訂圖像轉換設定嗎？
-
-A3：可以，您可透過 `ImageSaveOptions` 調整圖像解析度、品質等設定。
-
-### Q4：Aspose.HTML for Java 適合批次轉換嗎？
-
-A5：可以，使用 Aspose.HTML for Java 可有效批次將 EPUB 文件轉換為圖像。
-
-### Q5：我可以在哪裡取得支援與協助？
-
-A5：若有任何問題或需要協助，請前往 [Aspose.HTML Forum](https://forum.aspose.com/) 取得支援與社群協助。
-
 ## 常見問題
 
 **問：我能只轉換 EPUB 的特定頁面嗎？**  
@@ -141,15 +119,15 @@ A5：若有任何問題或需要協助，請前往 [Aspose.HTML Forum](https://f
 
 如需更深入的客製化與進階情境，請參考官方文件：[Aspose.HTML for Java Documentation](https://reference.aspose.com/html/java/)。
 
+---
+
+**最後更新：** 2025-12-13  
+**測試環境：** Aspose.HTML for Java 23.12（撰寫時的最新版本）  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最後更新：** 2025-12-13  
-**測試環境：** Aspose.HTML for Java 23.12（撰寫時的最新版本）  
-**作者：** Aspose

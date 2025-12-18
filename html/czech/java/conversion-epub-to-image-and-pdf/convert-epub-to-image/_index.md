@@ -102,28 +102,6 @@ S těmito pěti jednoduchými kroky jste úspěšně **převzeli EPUB na obráze
 
 ## Často kladené otázky
 
-### Q1: Je Aspose.HTML pro Java zdarma k použití?
-
-A1: Aspose.HTML for Java nabízí bezplatnou zkušební verzi, ale pro další používání je vyžadována licence. Dočasnou licenci můžete získat [zde](https://purchase.aspose.com/temporary-license/).
-
-### Q2: Jaké formáty obrázků jsou podporovány pro konverzi?
-
-A2: Aspose.HTML for Java podporuje různé formáty obrázků, včetně JPEG, PNG, TIFF a BMP.
-
-### Q3: Mohu přizpůsobit nastavení konverze obrázku?
-
-A3: Ano, můžete přizpůsobit nastavení konverze, například rozlišení obrázku, kvalitu a další pomocí `ImageSaveOptions`.
-
-### Q4: Je Aspose.HTML pro Java vhodný pro hromadné konverze?
-
-A5: Ano, můžete efektivně hromadně převádět dokumenty EPUB na obrázky pomocí Aspose.HTML for Java.
-
-### Q5: Kde mohu získat podporu a pomoc?
-
-A5: Pokud máte jakékoli otázky nebo potřebujete pomoc, můžete navštívit [Aspose.HTML Forum](https://forum.aspose.com/) pro podporu a komunitní pomoc.
-
-## Často kladené otázky
-
 **Q: Mohu převést pouze konkrétní stránku EPUBu?**  
 A: Ano. Použijte přetížení `Converter.convertEPUB`, která přijímají parametry rozsahu stránek.
 
@@ -142,15 +120,15 @@ Nyní máte jasnou, produkčně připravenou metodu **jak převést EPUB** soubo
 
 Pro hlubší přizpůsobení a pokročilé scénáře prozkoumejte oficiální dokumentaci na [Aspose.HTML for Java Documentation](https://reference.aspose.com/html/java/).
 
+---
+
+**Poslední aktualizace:** 2025-12-13  
+**Testováno s:** Aspose.HTML for Java 23.12 (nejnovější v době psaní)  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Poslední aktualizace:** 2025-12-13  
-**Testováno s:** Aspose.HTML for Java 23.12 (nejnovější v době psaní)  
-**Autor:** Aspose

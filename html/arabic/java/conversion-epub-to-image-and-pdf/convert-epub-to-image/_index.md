@@ -100,28 +100,6 @@ Converter.convertEPUB(fileInputStream, options, outputFile);
 | **جودة صورة منخفضة** | DPI الافتراضي منخفض | عيّن `options.setResolution(300);` قبل التحويل (يتطلب تكوين إضافي لـ `ImageSaveOptions`) |
 | **خطوط غير مدعومة** | الخطوط مفقودة على النظام | دمج الخطوط في EPUB أو تثبيت الخطوط المطلوبة على الجهاز المضيف |
 
-## الأسئلة المتكررة
-
-### س1: هل Aspose.HTML for Java مجاني للاستخدام؟
-
-ج1: يقدم Aspose.HTML for Java نسخة تجريبية مجانية، لكن للاستخدام المستمر يلزم الحصول على ترخيص. يمكنك الحصول على ترخيص مؤقت من [here](https://purchase.aspose.com/temporary-license/).
-
-### س2: ما صيغ الصور المدعومة للتحويل؟
-
-ج2: يدعم Aspose.HTML for Java صيغ صور متعددة، بما في ذلك JPEG، PNG، TIFF، و BMP.
-
-### س3: هل يمكنني تخصيص إعدادات تحويل الصورة؟
-
-ج3: نعم، يمكنك تخصيص إعدادات التحويل، مثل دقة الصورة، الجودة، والمزيد باستخدام `ImageSaveOptions`.
-
-### س4: هل Aspose.HTML for Java مناسب للتحويلات الدفعية؟
-
-ج4: نعم، يمكنك تحويل مستندات EPUB إلى صور دفعيًا بكفاءة باستخدام Aspose.HTML for Java.
-
-### س5: أين يمكنني الحصول على الدعم والمساعدة؟
-
-ج5: إذا كان لديك أي أسئلة أو تحتاج إلى مساعدة، يمكنك زيارة [Aspose.HTML Forum](https://forum.aspose.com/) للحصول على الدعم ومساعدة المجتمع.
-
 ## أسئلة شائعة
 
 **س: هل يمكنني تحويل صفحة محددة فقط من EPUB؟**  
@@ -142,15 +120,15 @@ Converter.convertEPUB(fileInputStream, options, outputFile);
 
 للتخصيص المتعمق والسيناريوهات المتقدمة، استكشف الوثائق الرسمية على [Aspose.HTML for Java Documentation](https://reference.aspose.com/html/java/).
 
+---
+
+**آخر تحديث:** 2025-12-13  
+**تم الاختبار مع:** Aspose.HTML for Java 23.12 (latest at time of writing)  
+**المؤلف:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2025-12-13  
-**تم الاختبار مع:** Aspose.HTML for Java 23.12 (latest at time of writing)  
-**المؤلف:** Aspose

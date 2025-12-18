@@ -103,28 +103,6 @@ Converter.convertEPUB(fileInputStream, options, outputFile);
 
 ## Συχνές Ερωτήσεις
 
-### Q1: Είναι το Aspose.HTML for Java δωρεάν για χρήση;
-
-A1: Το Aspose.HTML for Java προσφέρει δωρεάν δοκιμή, αλλά για συνεχή χρήση απαιτείται άδεια. Μπορείτε να αποκτήσετε προσωρινή άδεια από [εδώ](https://purchase.aspose.com/temporary-license/).
-
-### Q2: Ποιες μορφές εικόνας υποστηρίζονται για μετατροπή;
-
-A2: Το Aspose.HTML for Java υποστηρίζει διάφορες μορφές εικόνας, συμπεριλαμβανομένων JPEG, PNG, TIFF και BMP.
-
-### Q3: Μπορώ να προσαρμόσω τις ρυθμίσεις μετατροπής εικόνας;
-
-A3: Ναι, μπορείτε να προσαρμόσετε τις ρυθμίσεις μετατροπής, όπως ανάλυση εικόνας, ποιότητα και άλλα, χρησιμοποιώντας `ImageSaveOptions`.
-
-### Q4: Είναι το Aspose.HTML for Java κατάλληλο για μετατροπές σε παρτίδες;
-
-A5: Ναι, μπορείτε να μετατρέψετε παρτίδα έγγραφα EPUB σε εικόνες αποδοτικά χρησιμοποιώντας το Aspose.HTML for Java.
-
-### Q5: Πού μπορώ να λάβω υποστήριξη και βοήθεια;
-
-A5: Αν έχετε ερωτήσεις ή χρειάζεστε βοήθεια, μπορείτε να επισκεφθείτε το [Aspose.HTML Forum](https://forum.aspose.com/) για υποστήριξη και κοινότητα.
-
-## Συχνές Ερωτήσεις
-
 **Ε: Μπορώ να μετατρέψω μόνο μια συγκεκριμένη σελίδα του EPUB;**  
 Α: Ναι. Χρησιμοποιήστε τις υπερφορτώσεις του `Converter.convertEPUB` που δέχονται παραμέτρους εύρους σελίδων.
 
@@ -143,15 +121,15 @@ A5: Αν έχετε ερωτήσεις ή χρειάζεστε βοήθεια, �
 
 Για πιο προχωρημένες προσαρμογές και σενάρια, εξερευνήστε την επίσημη τεκμηρίωση στο [Aspose.HTML for Java Documentation](https://reference.aspose.com/html/java/).
 
+---
+
+**Τελευταία Ενημέρωση:** 2025-12-13  
+**Δοκιμή με:** Aspose.HTML for Java 23.12 (latest at time of writing)  
+**Συγγραφέας:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Τελευταία Ενημέρωση:** 2025-12-13  
-**Δοκιμή με:** Aspose.HTML for Java 23.12 (latest at time of writing)  
-**Συγγραφέας:** Aspose

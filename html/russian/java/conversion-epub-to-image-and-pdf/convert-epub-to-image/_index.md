@@ -101,28 +101,6 @@ Converter.convertEPUB(fileInputStream, options, outputFile);
 | **Низкое качество изображения** | DPI по умолчанию низкое | Установите `options.setResolution(300);` перед конвертацией (требует дополнительной настройки `ImageSaveOptions`) |
 | **Не поддерживаются шрифты** | Шрифты отсутствуют в системе | Встроите шрифты в EPUB или установите необходимые шрифты на хост‑машине |
 
-## Часто задаваемые вопросы
-
-### Вопрос 1: Можно ли использовать Aspose.HTML для Java бесплатно?
-
-Ответ 1: Aspose.HTML для Java предлагает бесплатную пробную версию, но для дальнейшего использования требуется лицензия. Временную лицензию можно получить [здесь](https://purchase.aspose.com/temporary-license/).
-
-### Вопрос 2: Какие форматы изображений поддерживаются для конвертации?
-
-Ответ 2: Aspose.HTML для Java поддерживает различные форматы изображений, включая JPEG, PNG, TIFF и BMP.
-
-### Вопрос 3: Можно ли настроить параметры конвертации изображения?
-
-Ответ 3: Да, вы можете настроить параметры конвертации, такие как разрешение изображения, качество и др., используя `ImageSaveOptions`.
-
-### Вопрос 4: Подходит ли Aspose.HTML для Java для пакетных конвертаций?
-
-Ответ 5: Да, вы можете эффективно пакетно конвертировать EPUB‑документы в изображения с помощью Aspose.HTML для Java.
-
-### Вопрос 5: Где можно получить поддержку и помощь?
-
-Ответ 5: Если у вас есть вопросы или нужна помощь, посетите [форум Aspose.HTML](https://forum.aspose.com/) для поддержки и общения с сообществом.
-
 ## Часто задаваемые вопросы (FAQ)
 
 **В: Можно ли конвертировать только определённую страницу EPUB?**  
@@ -143,17 +121,15 @@ Converter.convertEPUB(fileInputStream, options, outputFile);
 
 Для более глубокой кастомизации и продвинутых сценариев изучайте официальную документацию по адресу [Aspose.HTML for Java Documentation](https://reference.aspose.com/html/java/).
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Последнее обновление:** 2025-12-13  
 **Тестировано с:** Aspose.HTML для Java 23.12 (последняя на момент написания)  
 **Автор:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

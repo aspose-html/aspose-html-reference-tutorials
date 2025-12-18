@@ -101,28 +101,6 @@ Ezzel az öt egyszerű lépéssel **sikeresen konvertáltad az EPUB‑ot képpé
 | **Alacsony képminőség** | Alapértelmezett DPI alacsony | Állítsd be `options.setResolution(300);` a konverzió előtt (további `ImageSaveOptions` konfiguráció szükséges) |
 | **Nem támogatott betűtípusok** | A rendszerben hiányoznak a betűtípusok | Ágyazd be a betűtípusokat az EPUB‑ba, vagy telepítsd a szükséges betűtípusokat a gépre |
 
-## GYIK
-
-### Q1: Ingyenesen használható az Aspose.HTML for Java?
-
-A1: Az Aspose.HTML for Java ingyenes próba verziót kínál, de a folyamatos használathoz licenc szükséges. Ideiglenes licencet itt szerezhetsz: [here](https://purchase.aspose.com/temporary-license/).
-
-### Q2: Milyen képformátumok támogatottak a konverzióhoz?
-
-A2: Az Aspose.HTML for Java számos képformátumot támogat, többek között JPEG, PNG, TIFF és BMP.
-
-### Q3: Testreszabhatom a képkonverzió beállításait?
-
-A3: Igen, a konverziós beállításokat testreszabhatod, például a kép felbontását, minőségét és egyebeket a `ImageSaveOptions` használatával.
-
-### Q4: Az Aspose.HTML for Java alkalmas kötegelt konverzióra?
-
-A5: Igen, az Aspose.HTML for Java segítségével hatékonyan batch‑konvertálhatsz EPUB dokumentumokat képekké.
-
-### Q5: Hol kaphatok támogatást és segítséget?
-
-A5: Ha kérdésed van vagy segítségre van szükséged, látogasd meg a [Aspose.HTML Fórumot](https://forum.aspose.com/) a támogatás és a közösségi segítség érdekében.
-
 ## Gyakran feltett kérdések
 
 **K: Csak egy adott oldalt konvertálhatok az EPUB‑ból?**  
@@ -143,15 +121,15 @@ Most már egy világos, termelés‑kész módszerrel rendelkezel **az EPUB fáj
 
 A mélyebb testreszabás és fejlett forgatókönyvek érdekében tekintsd meg a hivatalos dokumentációt: [Aspose.HTML for Java Documentation](https://reference.aspose.com/html/java/).
 
+---
+
+**Utolsó frissítés:** 2025-12-13  
+**Tesztelve a következővel:** Aspose.HTML for Java 23.12 (legújabb a megírás időpontjában)  
+**Szerző:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Utolsó frissítés:** 2025-12-13  
-**Tesztelve a következővel:** Aspose.HTML for Java 23.12 (legújabb a megírás időpontjában)  
-**Szerző:** Aspose

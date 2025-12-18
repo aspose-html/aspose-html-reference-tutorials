@@ -99,28 +99,6 @@ Converter.convertEPUB(fileInputStream, options, outputFile);
 | **图像质量低** | 默认 DPI 较低 | 在转换前调用 `options.setResolution(300);`（需要额外的 `ImageSaveOptions` 配置） |
 | **不支持的字体** | 系统缺少相应字体 | 在 EPUB 中嵌入字体或在主机机器上安装所需字体 |
 
-## FAQ
-
-### Q1: Aspose.HTML for Java 可以免费使用吗？
-
-A1: Aspose.HTML for Java 提供免费试用，但持续使用需购买许可证。您可以从 [这里](https://purchase.aspose.com/temporary-license/) 获取临时许可证。
-
-### Q2: 支持哪些图像格式进行转换？
-
-A2: Aspose.HTML for Java 支持多种图像格式，包括 JPEG、PNG、TIFF 和 BMP。
-
-### Q3: 我可以自定义图像转换设置吗？
-
-A3: 可以，您可以使用 `ImageSaveOptions` 自定义分辨率、质量等转换设置。
-
-### Q4: Aspose.HTML for Java 适合批量转换吗？
-
-A5: 是的，您可以使用 Aspose.HTML for Java 高效地批量将 EPUB 文档转换为图像。
-
-### Q5: 哪里可以获取支持和帮助？
-
-A5: 如有任何问题或需要帮助，可访问 [Aspose.HTML 论坛](https://forum.aspose.com/) 获取支持和社区帮助。
-
 ## 常见问答
 
 **Q: 我可以只转换 EPUB 的特定页面吗？**  
@@ -141,17 +119,15 @@ A: 完全可以。Aspose.HTML 也提供将 EPUB 转换为 PDF 的 `Converter.con
 
 如需更深入的自定义和高级场景，请参考官方文档： [Aspose.HTML for Java Documentation](https://reference.aspose.com/html/java/)。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **最后更新：** 2025-12-13  
 **测试环境：** Aspose.HTML for Java 23.12（撰写时最新）  
 **作者：** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

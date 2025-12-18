@@ -102,28 +102,6 @@ Com essas cinco etapas simples, você **converteu um EPUB em uma imagem** usando
 
 ## Perguntas Frequentes
 
-### Q1: O Aspose.HTML para Java é gratuito para uso?
-
-A1: Aspose.HTML for Java oferece um teste gratuito, mas para uso contínuo, é necessária uma licença. Você pode obter uma licença temporária [aqui](https://purchase.aspose.com/temporary-license/).
-
-### Q2: Quais formatos de imagem são suportados para conversão?
-
-A2: Aspose.HTML for Java suporta vários formatos de imagem, incluindo JPEG, PNG, TIFF e BMP.
-
-### Q3: Posso personalizar as configurações de conversão de imagem?
-
-A3: Sim, você pode personalizar as configurações de conversão, como resolução da imagem, qualidade e mais usando `ImageSaveOptions`.
-
-### Q4: O Aspose.HTML para Java é adequado para conversões em lote?
-
-A4: Sim, você pode converter EPUBs em lote para imagens de forma eficiente usando Aspose.HTML para Java.
-
-### Q5: Onde posso obter suporte e assistência?
-
-A5: Se você tem alguma dúvida ou precisa de assistência, pode visitar o [Fórum Aspose.HTML](https://forum.aspose.com/) para suporte e ajuda da comunidade.
-
-## Perguntas Frequentes
-
 **Q: Posso converter apenas uma página específica do EPUB?**  
 A: Sim. Use as sobrecargas de `Converter.convertEPUB` que aceitam parâmetros de intervalo de páginas.
 
@@ -142,15 +120,15 @@ Agora você tem um método claro e pronto para produção **de como converter ar
 
 Para personalizações mais avançadas e cenários complexos, explore a documentação oficial em [Aspose.HTML for Java Documentation](https://reference.aspose.com/html/java/).
 
+---
+
+**Last Updated:** 2025-12-13  
+**Tested With:** Aspose.HTML for Java 23.12 (latest at time of writing)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-13  
-**Tested With:** Aspose.HTML for Java 23.12 (latest at time of writing)  
-**Author:** Aspose

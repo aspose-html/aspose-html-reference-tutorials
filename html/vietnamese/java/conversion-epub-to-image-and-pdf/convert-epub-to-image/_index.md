@@ -103,28 +103,6 @@ Với năm bước đơn giản này, bạn đã thành công **chuyển đổi 
 
 ## Câu hỏi thường gặp
 
-### Q1: Aspose.HTML cho Java có miễn phí không?
-
-A1: Aspose.HTML cho Java cung cấp bản dùng thử miễn phí, nhưng để sử dụng lâu dài, cần có giấy phép. Bạn có thể nhận giấy phép tạm thời từ [đây](https://purchase.aspose.com/temporary-license/).
-
-### Q2: Các định dạng hình ảnh nào được hỗ trợ cho việc chuyển đổi?
-
-A2: Aspose.HTML cho Java hỗ trợ nhiều định dạng hình ảnh, bao gồm JPEG, PNG, TIFF và BMP.
-
-### Q3: Tôi có thể tùy chỉnh các cài đặt chuyển đổi hình ảnh không?
-
-A3: Có, bạn có thể tùy chỉnh các cài đặt chuyển đổi, như độ phân giải hình ảnh, chất lượng và hơn thế nữa bằng `ImageSaveOptions`.
-
-### Q4: Aspose.HTML cho Java có phù hợp cho việc chuyển đổi hàng loạt không?
-
-A5: Có, bạn có thể chuyển đổi hàng loạt tài liệu EPUB thành hình ảnh một cách hiệu quả bằng Aspose.HTML cho Java.
-
-### Q5: Tôi có thể nhận hỗ trợ và trợ giúp ở đâu?
-
-A5: Nếu bạn có bất kỳ câu hỏi nào hoặc cần trợ giúp, bạn có thể truy cập [Diễn đàn Aspose.HTML](https://forum.aspose.com/) để được hỗ trợ và giúp đỡ từ cộng đồng.
-
-## Câu hỏi thường gặp
-
 **Q: Tôi có thể chuyển đổi chỉ một trang cụ thể của EPUB không?**  
 A: Có. Sử dụng các overload của `Converter.convertEPUB` cho phép truyền tham số phạm vi trang.
 
@@ -143,15 +121,15 @@ Bây giờ bạn đã có một phương pháp rõ ràng, sẵn sàng cho môi t
 
 Để tùy chỉnh sâu hơn và các kịch bản nâng cao, hãy khám phá tài liệu chính thức tại [Tài liệu Aspose.HTML cho Java](https://reference.aspose.com/html/java/).
 
+---
+
+**Cập nhật lần cuối:** 2025-12-13  
+**Được kiểm tra với:** Aspose.HTML for Java 23.12 (latest at time of writing)  
+**Tác giả:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Cập nhật lần cuối:** 2025-12-13  
-**Được kiểm tra với:** Aspose.HTML for Java 23.12 (latest at time of writing)  
-**Tác giả:** Aspose

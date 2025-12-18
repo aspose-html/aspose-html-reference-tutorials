@@ -99,28 +99,6 @@ With these five simple steps, you’ve successfully **converted an EPUB to an im
 | **Low image quality** | Default DPI is low | Set `options.setResolution(300);` before conversion (requires additional `ImageSaveOptions` configuration) |
 | **Unsupported fonts** | Fonts missing on the system | Embed fonts in the EPUB or install required fonts on the host machine |
 
-## FAQ's
-
-### Q1: Is Aspose.HTML for Java free to use?
-
-A1: Aspose.HTML for Java offers a free trial, but for continued usage, a license is required. You can obtain a temporary license from [here](https://purchase.aspose.com/temporary-license/).
-
-### Q2: What image formats are supported for conversion?
-
-A2: Aspose.HTML for Java supports various image formats, including JPEG, PNG, TIFF, and BMP.
-
-### Q3: Can I customize the image conversion settings?
-
-A3: Yes, you can customize the conversion settings, such as image resolution, quality, and more using `ImageSaveOptions`.
-
-### Q4: Is Aspose.HTML for Java suitable for batch conversions?
-
-A5: Yes, you can batch convert EPUB documents to images efficiently using Aspose.HTML for Java.
-
-### Q5: Where can I get support and assistance?
-
-A5: If you have any questions or need assistance, you can visit the [Aspose.HTML Forum](https://forum.aspose.com/) for support and community help.
-
 ## Frequently Asked Questions
 
 **Q: Can I convert only a specific page of the EPUB?**  
@@ -141,17 +119,15 @@ You now have a clear, production‑ready method for **how to convert EPUB** file
 
 For deeper customization and advanced scenarios, explore the official documentation at [Aspose.HTML for Java Documentation](https://reference.aspose.com/html/java/).
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-13  
 **Tested With:** Aspose.HTML for Java 23.12 (latest at time of writing)  
 **Author:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

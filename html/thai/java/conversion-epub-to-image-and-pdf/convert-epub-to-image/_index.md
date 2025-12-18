@@ -100,28 +100,6 @@ Converter.convertEPUB(fileInputStream, options, outputFile);
 | **คุณภาพภาพต่ำ** | ค่า DPI เริ่มต้นต่ำ | ตั้งค่า `options.setResolution(300);` ก่อนการแปลง (ต้องการการกำหนดค่า `ImageSaveOptions` เพิ่มเติม) |
 | **ฟอนต์ที่ไม่รองรับ** | ไม่มีฟอนต์บนระบบ | ฝังฟอนต์ใน EPUB หรือทำการติดตั้งฟอนต์ที่จำเป็นบนเครื่องโฮสต์ |
 
-## คำถามที่พบบ่อย
-
-### Q1: Aspose.HTML for Java ใช้ได้ฟรีหรือไม่?
-
-A1: Aspose.HTML for Java มีรุ่นทดลองฟรี, แต่หากต้องการใช้งานต่อเนื่องต้องมีไลเซนส์. คุณสามารถรับไลเซนส์ชั่วคราวได้จาก [ที่นี่](https://purchase.aspose.com/temporary-license/).
-
-### Q2: รูปแบบภาพใดบ้างที่รองรับการแปลง?
-
-A2: Aspose.HTML for Java รองรับรูปแบบภาพหลายประเภท รวมถึง JPEG, PNG, TIFF, และ BMP.
-
-### Q3: สามารถปรับแต่งการตั้งค่าการแปลงภาพได้หรือไม่?
-
-A3: ได้, คุณสามารถปรับแต่งการตั้งค่าการแปลง เช่น ความละเอียดภาพ, คุณภาพ, และอื่น ๆ ผ่าน `ImageSaveOptions`.
-
-### Q4: Aspose.HTML for Java เหมาะสำหรับการแปลงแบบแบชหรือไม่?
-
-A5: ใช่, คุณสามารถแปลงเอกสาร EPUB เป็นภาพเป็นชุดได้อย่างมีประสิทธิภาพด้วย Aspose.HTML for Java.
-
-### Q5: จะหาการสนับสนุนและความช่วยเหลือได้จากที่ไหน?
-
-A5: หากมีคำถามหรือจำเป็นต้องการความช่วยเหลือ สามารถเยี่ยมชม [Aspose.HTML Forum](https://forum.aspose.com/) เพื่อรับการสนับสนุนและความช่วยเหลือจากชุมชน
-
 ## คำถามที่พบบ่อยเพิ่มเติม
 
 **Q: สามารถแปลงเฉพาะหน้าที่กำหนดของ EPUB ได้หรือไม่?**  
@@ -142,15 +120,15 @@ A: แน่นอน. Aspose.HTML ยังมี overload ของ `Converter
 
 สำหรับการปรับแต่งเชิงลึกและสถานการณ์ขั้นสูงเพิ่มเติม สามารถสำรวจเอกสารอย่างเป็นทางการได้ที่ [Aspose.HTML for Java Documentation](https://reference.aspose.com/html/java/).
 
+---
+
+**อัปเดตล่าสุด:** 2025-12-13  
+**ทดสอบด้วย:** Aspose.HTML for Java 23.12 (latest at time of writing)  
+**ผู้เขียน:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**อัปเดตล่าสุด:** 2025-12-13  
-**ทดสอบด้วย:** Aspose.HTML for Java 23.12 (latest at time of writing)  
-**ผู้เขียน:** Aspose

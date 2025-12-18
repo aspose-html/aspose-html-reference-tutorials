@@ -100,28 +100,6 @@ Med dessa fem enkla steg har du framgångsrikt **konverterat en EPUB till en bil
 | **Low image quality** | Standard‑DPI är låg | Sätt `options.setResolution(300);` före konvertering (kräver ytterligare `ImageSaveOptions`‑konfiguration) |
 | **Unsupported fonts** | Typsnitt saknas på systemet | Bädda in typsnitt i EPUB‑filen eller installera nödvändiga typsnitt på värdmaskinen |
 
-## Vanliga frågor
-
-### Q1: Är Aspose.HTML för Java gratis att använda?
-
-A1: Aspose.HTML för Java erbjuder en gratis provversion, men för fortsatt användning krävs en licens. Du kan få en tillfällig licens från [here](https://purchase.aspose.com/temporary-license/).
-
-### Q2: Vilka bildformat stöds för konvertering?
-
-A2: Aspose.HTML för Java stödjer olika bildformat, inklusive JPEG, PNG, TIFF och BMP.
-
-### Q3: Kan jag anpassa inställningarna för bildkonvertering?
-
-A3: Ja, du kan anpassa konverteringsinställningarna, såsom bildupplösning, kvalitet och mer med `ImageSaveOptions`.
-
-### Q4: Är Aspose.HTML för Java lämplig för batch‑konverteringar?
-
-A5: Ja, du kan batch‑konvertera EPUB‑dokument till bilder effektivt med Aspose.HTML för Java.
-
-### Q5: Var kan jag få support och hjälp?
-
-A5: Om du har frågor eller behöver hjälp kan du besöka [Aspose.HTML Forum](https://forum.aspose.com/) för support och gemenskapsstöd.
-
 ## Vanligt förekommande frågor
 
 **Q: Kan jag konvertera endast en specifik sida i EPUB‑filen?**  
@@ -142,15 +120,15 @@ Du har nu en tydlig, produktionsklar metod för **hur man konverterar EPUB**‑f
 
 För djupare anpassning och avancerade scenarier, utforska den officiella dokumentationen på [Aspose.HTML for Java Documentation](https://reference.aspose.com/html/java/).
 
+---
+
+**Senast uppdaterad:** 2025-12-13  
+**Testad med:** Aspose.HTML för Java 23.12 (senaste vid skrivande stund)  
+**Författare:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Senast uppdaterad:** 2025-12-13  
-**Testad med:** Aspose.HTML för Java 23.12 (senaste vid skrivande stund)  
-**Författare:** Aspose
