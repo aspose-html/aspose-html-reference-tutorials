@@ -85,15 +85,15 @@ A: È richiesta una licenza commerciale di Aspose.HTML per le distribuzioni in p
 
 Con Aspose.HTML per Java, convertire **epub to xps** diventa un compito semplice. Questo tutorial ti ha fornito una guida completa e una panoramica delle capacità di Aspose.HTML. Ora tocca a te immergerti, esplorare e sfruttare la potenza di Aspose.HTML per conversioni **convert epub to xps** senza intoppi. Che tu stia creando applicazioni o abbia solo bisogno di convertire documenti, Aspose.HTML semplifica il processo, rendendolo uno strumento indispensabile per gli sviluppatori. Inizia oggi il tuo percorso da EPUB a XPS con Aspose.HTML per Java!
 
+---
+
+**Ultimo Aggiornamento:** 2025-12-16  
+**Testato Con:** Aspose.HTML per Java 24.12  
+**Autore:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ultimo Aggiornamento:** 2025-12-16  
-**Testato Con:** Aspose.HTML per Java 24.12  
-**Autore:** Aspose
