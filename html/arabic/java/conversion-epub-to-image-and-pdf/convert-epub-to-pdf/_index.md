@@ -4,7 +4,7 @@ description: تعلم كيفية تحويل ملفات epub إلى pdf �
   هذا الدليل خطوة بخطوة المتطلبات المسبقة، واستيرادات الحزم، وأمثلة الشيفرة.
 linktitle: Converting EPUB to PDF
 second_title: Java HTML Processing with Aspose.HTML
-title: 'epub إلى pdf java: تحويل EPUB إلى PDF باستخدام Aspose.HTML'
+title: 'epub إلى pdf java - تحويل EPUB إلى PDF باستخدام Aspose.HTML'
 url: /ar/java/conversion-epub-to-image-and-pdf/convert-epub-to-pdf/
 weight: 11
 ---

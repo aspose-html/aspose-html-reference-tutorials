@@ -5,7 +5,7 @@ description: Scopri come convertire epub in pdf java usando Aspose.HTML per Java
   esempi di codice.
 linktitle: Converting EPUB to PDF
 second_title: Java HTML Processing with Aspose.HTML
-title: 'epub to pdf java: Converti EPUB in PDF con Aspose.HTML'
+title: 'epub to pdf java - Converti EPUB in PDF con Aspose.HTML'
 url: /it/java/conversion-epub-to-image-and-pdf/convert-epub-to-pdf/
 weight: 11
 ---
@@ -45,7 +45,7 @@ Prima di immergerci nel processo di conversione, assicurati di avere i seguenti 
 3. **EPUB Document**  
    Preparati con il documento EPUB che desideri convertire in PDF. Fornisci il percorso corretto al file EPUB nel tuo codice Java.
 
-## Import Packages
+## Importa pacchetti
 
 Nel tuo progetto Java, importa i pacchetti necessari di Aspose.HTML for Java. Di seguito trovi il codice esatto di cui avrai bisogno:
 
@@ -58,7 +58,7 @@ import com.aspose.html.converters.Converter;
 
 Di seguito trovi una guida passo‑passo. Ogni passaggio include una breve spiegazione seguita dal blocco di codice originale (invariato).
 
-### Step 1: Open the Source EPUB Document
+### Passaggio 1: aprire il documento EPUB di origine
 
 Iniziamo aprendo il file EPUB sorgente usando un `FileInputStream`. Questo stream fornisce al convertitore i dati grezzi dell'EPUB.
 
@@ -66,7 +66,7 @@ Iniziamo aprendo il file EPUB sorgente usando un `FileInputStream`. Questo strea
 try (java.io.FileInputStream fileInputStream = new java.io.FileInputStream("input.epub")) {
 ```
 
-### Step 2: Initialize `PdfSaveOptions`
+### Passaggio 2: inizializzare `PdfSaveOptions`
 
 Crea un'istanza di `PdfSaveOptions` per configurare la conversione PDF. Ad esempio, puoi impostare la qualità JPEG per garantire che le immagini mantengano alta fedeltà.
 
@@ -75,7 +75,7 @@ PdfSaveOptions options = new PdfSaveOptions();
 options.setJpegQuality(100);
 ```
 
-### Step 3: Define the Output File Path
+### Passaggio 3: definire il percorso del file di output
 
 Specifica dove salvare il PDF risultante. Puoi modificare il nome del file o la directory secondo necessità.
 
@@ -83,7 +83,7 @@ Specifica dove salvare il PDF risultante. Puoi modificare il nome del file o la 
 String outputFile = "EPUBtoPDF_Output.pdf";
 ```
 
-### Step 4: Convert EPUB to PDF
+### Passaggio 4: Converti EPUB in PDF
 
 Infine, invoca il metodo `convertEPUB`, passando lo stream di input, le opzioni di salvataggio e il percorso di output.
 
@@ -101,43 +101,43 @@ Ecco fatto! Il file EPUB è ora convertito in PDF, pronto per la distribuzione o
 
 ## Conclusione
 
-In questo tutorial ti abbiamo mostrato come effettuare la conversione **epub to pdf java** con Aspose.HTML for Java. Con i prerequisiti installati e il codice di esempio pronto, puoi integrare la conversione EPUB‑to‑PDF in qualsiasi applicazione Java.
+In questo tutorial ti abbiamo mostrato come effettuare la conversione **epub to pdf java** con Aspose.HTML for Java. Con i prerequisiti installati e il codice di esempio pronto, puoi integrare la conversione da EPUB a PDF in qualsiasi applicazione Java.
 
 Se incontri problemi o hai domande, sentiti libero di chiedere aiuto sul [forum di Aspose.HTML](https://forum.aspose.com/).
 
-## Domande frequenti
+##Domande frequenti
 
-### Q1: What is Aspose.HTML for Java?
+### Q1: Cos'è Aspose.HTML per Java?
 
 A1: Aspose.HTML for Java è una libreria Java che offre un'ampia gamma di capacità di elaborazione e manipolazione HTML, inclusa la conversione da EPUB a PDF.
 
-### Q2: Can I use Aspose.HTML for Java in my commercial projects?
+### Q2: Posso utilizzare Aspose.HTML per Java nei miei progetti commerciali?
 
-A2: Sì, Aspose.HTML for Java è disponibile per l'uso commerciale. Puoi trovare i dettagli di licenza e le opzioni di acquisto [qui](https://purchase.aspose.com/buy).
+A2: Sì, Aspose.HTML per Java è disponibile per l'uso commerciale. Puoi trovare i dettagli di licenza e le opzioni di acquisto [qui](https://purchase.aspose.com/buy).
 
-### Q3: Is there a free trial available for Aspose.HTML for Java?
+### Q3: È disponibile una prova gratuita per Aspose.HTML per Java?
 
-A3: Sì, puoi provare Aspose.HTML for Java con una versione di prova gratuita. Ottieni la versione di prova [qui](https://releases.aspose.com/html/java).
+A3: Sì, puoi provare Aspose.HTML per Java con una versione di prova gratuita. Ottieni la versione della prova [qui](https://releases.aspose.com/html/java).
 
-### Q4: What are the system requirements for Aspose.HTML for Java?
+### Q4: Quali sono i requisiti di sistema per Aspose.HTML per Java?
 
-A4: Aspose.HTML for Java richiede un ambiente di sviluppo Java. Assicurati che il tuo sistema soddisfi i requisiti di versione Java necessari.
+A4: Aspose.HTML for Java richiede un ambiente di sviluppo Java. Assicurati che il tuo sistema soddisfi i requisiti della versione Java necessari.
 
-### Q5: Can I customize the PDF conversion options using Aspose.HTML for Java?
+### Q5: Posso personalizzare le opzioni di conversione PDF utilizzando Aspose.HTML per Java?
 
 A5: Sì, puoi personalizzare le opzioni di conversione PDF, come la qualità JPEG, come mostrato nel tutorial.
 
-**Q: How do I convert multiple EPUB files in a batch?**  
-A: Scorri l'elenco dei file, riutilizzando la stessa istanza di `PdfSaveOptions` per ogni conversione. Assicurati di chiudere ogni `FileInputStream` per liberare le risorse.
+**D: Come faccio a convertire più file EPUB in batch?**
+R: Scorri l'elenco dei file, riutilizzando la stessa istanza di `PdfSaveOptions` per ogni conversione. Assicurati di chiudere ogni `FileInputStream` per liberare le risorse.
 
-**Q: Is it possible to add a watermark during conversion?**  
-A: Sebbene il metodo base `convertEPUB` non supporti direttamente le filigrane, puoi post‑processare il PDF generato usando Aspose.PDF per aggiungere le filigrane.
+**D: È possibile aggiungere una filigrana durante la conversione?**
+A: Sebbene il metodo base `convertEPUB` non supporti direttamente le filigrane, puoi post‑processare il PDF generato utilizzando Aspose.PDF per aggiungere le filigrane.
 
 ---
 
-**Last Updated:** 2025-12-14  
-**Tested With:** Aspose.HTML for Java 23.12 (latest at time of writing)  
-**Author:** Aspose  
+**Ultimo aggiornamento:** 2025-12-14
+**Testato con:** Aspose.HTML per Java 23.12 (più recente al momento della scrittura)
+**Autore:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

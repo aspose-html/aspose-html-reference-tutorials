@@ -1,5 +1,5 @@
 ---
-title: "epub to pdf java: Convert EPUB to PDF with Aspose.HTML"
+title: "epub to pdf java - Convert EPUB to PDF with Aspose.HTML"
 linktitle: Converting EPUB to PDF
 second_title: Java HTML Processing with Aspose.HTML
 description: Learn how to convert epub to pdf java using Aspose.HTML for Java. This step‑by‑step guide covers prerequisites, package imports, and code examples.

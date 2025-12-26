@@ -5,7 +5,7 @@ description: Tìm hiểu cách chuyển đổi epub sang pdf bằng Java sử d�
   ví dụ mã.
 linktitle: Converting EPUB to PDF
 second_title: Java HTML Processing with Aspose.HTML
-title: 'epub sang pdf java: Chuyển EPUB sang PDF bằng Aspose.HTML'
+title: 'epub sang pdf java - Chuyển EPUB sang PDF bằng Aspose.HTML'
 url: /vi/java/conversion-epub-to-image-and-pdf/convert-epub-to-pdf/
 weight: 11
 ---

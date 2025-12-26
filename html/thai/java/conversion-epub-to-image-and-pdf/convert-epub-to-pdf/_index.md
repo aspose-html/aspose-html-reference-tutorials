@@ -4,7 +4,7 @@ description: เรียนรู้วิธีแปลงไฟล์ epub
   คู่มือขั้นตอนนี้ครอบคลุมข้อกำหนดเบื้องต้น การนำเข้าแพ็กเกจ และตัวอย่างโค้ด
 linktitle: Converting EPUB to PDF
 second_title: Java HTML Processing with Aspose.HTML
-title: 'epub to pdf java: แปลง EPUB เป็น PDF ด้วย Aspose.HTML'
+title: 'epub to pdf java - แปลง EPUB เป็น PDF ด้วย Aspose.HTML'
 url: /th/java/conversion-epub-to-image-and-pdf/convert-epub-to-pdf/
 weight: 11
 ---

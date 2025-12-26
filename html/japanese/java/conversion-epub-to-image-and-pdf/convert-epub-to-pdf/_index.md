@@ -3,7 +3,7 @@ date: 2025-12-14
 description: Aspose.HTML for Java を使用して EPUB を PDF に変換する方法を学びましょう。このステップバイステップガイドでは、前提条件、パッケージのインポート、コード例を取り上げています。
 linktitle: Converting EPUB to PDF
 second_title: Java HTML Processing with Aspose.HTML
-title: 'epub to pdf java: Aspose.HTML を使って EPUB を PDF に変換'
+title: 'epub to pdf java - Aspose.HTML を使って EPUB を PDF に変換'
 url: /ja/java/conversion-epub-to-image-and-pdf/convert-epub-to-pdf/
 weight: 11
 ---
