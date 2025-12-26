@@ -1,66 +1,101 @@
 ---
-title: Java için Aspose.HTML'de Sandboxing'i Uygulama
-linktitle: Java için Aspose.HTML'de Sandboxing'i Uygulama
-second_title: Aspose.HTML ile Java HTML İşleme
-description: HTML belgelerinizdeki komut dosyası yürütmeyi güvenli bir şekilde kontrol etmek ve bunları PDF'ye dönüştürmek için Aspose.HTML for Java'da sanal alanı nasıl uygulayacağınızı öğrenin.
-weight: 15
+date: 2025-12-10
+description: Aspose.HTML for Java'da sandboxing'i nasıl uygulayacağınızı öğrenin,
+  script yürütmesini güvenli bir şekilde kontrol edin ve HTML'yi PDF'ye dönüştürün.
+linktitle: Implement Sandboxing in Aspose.HTML
+second_title: Java HTML Processing with Aspose.HTML
+title: 'Aspose HTML to PDF - Aspose.HTML for Java''da Sandbox Uygulamasını Gerçekleştir'
 url: /tr/java/configuring-environment/implement-sandboxing/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java için Aspose.HTML'de Sandboxing'i Uygulama
+# aspose html to pdf: Aspose.HTML for Java'da Sandbox Kullanımını Uygulama
 
-## giriiş
-Bu eğitimde, Java için Aspose.HTML kullanarak sandbox'ın nasıl uygulanacağını ele alacağız. Ortamınızı kurmaktan basit bir HTML dosyası yazmaya, sandbox'ı yapılandırmaya ve HTML'nizi bir PDF'ye dönüştürmeye kadar her şeyi yapacağız ve tüm bunları potansiyel olarak zararlı komut dosyalarını kontrol altında tutarak yapacağız. İster deneyimli bir geliştirici olun ister yeni başlıyor olun, bu kılavuz size güvenli web içeriğini kolaylıkla oluşturmanız için gereken araçları sağlayacaktır.
-## Ön koşullar
-Koda dalmadan önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
-1.  Java Geliştirme Kiti (JDK): Makinenizde Java'nın yüklü olduğundan emin olun. En son sürümü şu adresten indirebilirsiniz:[Oracle web sitesi](https://www.oracle.com/java/technologies/javase-downloads.html).
-2.  Java için Aspose.HTML: Java için Aspose.HTML'i indirin ve kurun. En son sürümü şu adresten edinebilirsiniz:[Aspose sürüm sayfası](https://releases.aspose.com/html/java/).
-3. IDE veya Metin Düzenleyici: IntelliJ IDEA, Eclipse veya basit bir metin düzenleyici gibi en sevdiğiniz Entegre Geliştirme Ortamını (IDE) seçin.
-4. HTML ve Java'nın Temel Anlayışı: Her adımda size rehberlik edeceğiz ancak HTML ve Java hakkında temel bilgilere sahip olmak, kavramları daha kolay kavramanıza yardımcı olacaktır.
-5.  Aspose Lisansı: Aspose.HTML'yi herhangi bir sınırlama olmadan kullanmak için geçerli bir lisansa ihtiyacınız olacak. Bir lisans edinebilirsiniz.[geçici lisans](https://purchase.aspose.com/temporary-license/) veya[bir tane satın al](https://purchase.aspose.com/buy).
+## Giriş
+Bu öğreticide, **how to convert HTML to PDF with Aspose.HTML for Java** öğrenirken gömülü betikleri güvenli bir şekilde sandbox içinde tutmayı öğreneceksiniz. Geliştirme ortamını kurma, basit bir HTML dosyası oluşturma, sandbox yapılandırma ve sonunda güvenli HTML'yi PDF belgesine dönüştürme adımlarını göstereceğiz. İçerik üretim hizmeti oluşturuyor ya da güvenilmeyen kullanıcı tarafından oluşturulan sayfaları render etmeniz gerekiyorsa, bu kılavuz size pratik ve güvenli bir çözüm sunar.
 
-## Paketleri İçe Aktar
-Herhangi bir kod yazmadan önce gerekli paketleri içe aktarmamız gerekiyor. İşte eklemeniz gerekenler:
+## Hızlı Yanıtlar
+- **Sandboxing ne yapar?** HTML'deki betiklerin çalışmasını engeller, uygulamanızı kötü amaçlı koddandır korur.  
+- **Dönüşüm için hangi birincil API kullanılır?** `com.aspose.html.converters.Converter.convertHTML`.  
+- **Lisans gerekiyor mu?** Evet – geçerli bir Aspose.HTML for Java lisansı değerlendirme sınırlamalarını kaldırır.  
+- **Bunu herhangi bir işletim sisteminde çalıştırabilir miyim?** Java kütüphanesi çapraz platformdur; Windows, Linux ve macOS'ta çalışır.  
+- **Tüm süreç ne kadar sürer?** Küçük bir HTML dosyası için genellikle bir dakikadan az.
+
+## **aspose html to pdf** dönüşümü nedir?
+Aspose.HTML for Java, HTML'i ayrıştıran, CSS uygulayan, izin verilen betikleri (veya sandbox aracılığıyla engelleyen) çalıştıran ve sonucu doğrudan PDF'e render eden yüksek doğruluklu bir motor sağlar. Bu, bir tarayıcıya veya üçüncü‑taraf render motoruna ihtiyaç duymamayı sağlar.
+
+## HTML'i PDF'e dönüştürürken neden sandboxing kullanmalı?
+- **Güvenlik:** Potansiyel olarak zararlı JavaScript'in çalışmasını durdurur.  
+- **Öngörülebilirlik:** Render edilen PDF'in statik HTML düzeniyle eşleşmesini garanti eder.  
+- **Uyumluluk:** Güvenilmeyen içerik işlenirken güvenlik standartlarını karşılamaya yardımcı olur.
+
+## Ön Koşullar
+Koda geçmeden önce, ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
+
+1. **Java Development Kit (JDK)** – Makinenizde Java yüklü olduğundan emin olun. En son sürümü [Oracle website](https://www.oracle.com/java/technologies/javase-downloads.html) adresinden indirebilirsiniz.  
+2. **Aspose.HTML for Java** – Aspose.HTML for Java'ı indirin ve kurun. En son sürümü [Aspose releases page](https://releases.aspose.com/html/java/) adresinden alabilirsiniz.  
+3. **IDE veya Metin Düzenleyici** – IntelliJ IDEA, Eclipse gibi favori Entegre Geliştirme Ortamınızı (IDE) ya da basit bir metin düzenleyiciyi seçin.  
+4. **HTML ve Java hakkında temel anlayış** – Her adımda size rehberlik edeceğiz, ancak HTML ve Java hakkında temel bilgi kavramları daha kolay anlamanızı sağlar.  
+5. **Aspose Lisansı** – Aspose.HTML'ı sınırlama olmadan kullanmak için geçerli bir lisansa ihtiyacınız var. [Geçici lisans](https://purchase.aspose.com/temporary-license/) alabilir veya [satın alabilirsiniz](https://purchase.aspose.com/buy).
+
+## Paketleri İçe Aktarma
+Herhangi bir kod yazmadan önce gerekli paketleri içe aktarmamız gerekir. İşte dahil etmeniz gerekenler:
+
 ```java
 import java.io.IOException;
 ```
-Bu içe aktarımlar, HTML belge düzenleme, deneme ortamı oluşturma ve PDF'ye dönüştürme için gereken temel işlevleri sağlar.
+
+Bu içe aktarmalar, HTML belge manipülasyonu, sandboxing ve PDF'e dönüşüm için gerekli temel işlevleri getirir.
 
 ## Adım 1: HTML İçeriğinizi Oluşturun
-İlk olarak ihtiyacımız olan şey daha sonra sandbox yapacağımız basit bir HTML dosyası. İşte nasıl oluşturulacağı:
+İlk olarak, daha sonra sandbox içinde kullanacağımız basit bir HTML dosyasına ihtiyacımız var. İşte nasıl oluşturulacağı:
+
 ```java
 String code = "<span>Hello World!!</span>\n" +
               "<script>document.write('Have a nice day!');</script>\n";
 ```
- Bu HTML içeriği basittir. Bizde bir`<span>` "Merhaba Dünya!!" diyen bir öğe ve`<script>` "İyi günler!" yazan bir etiket belgeye eklenir. Ancak, betikler bir güvenlik riski oluşturabileceğinden, bir sonraki adımlarda bunu korumalı alana alacağız.
+
+Bu HTML içeriği basittir. "Hello World!!" diyen bir `<span>` öğemiz ve belgeye "Have a nice day!" yazan bir `<script>` etiketimiz var. Ancak, betikler güvenlik riski oluşturabileceği için bir sonraki adımlarda sandbox içinde izole edeceğiz.
+
 ```java
 try (java.io.FileWriter fileWriter = new java.io.FileWriter("sandboxing.html")) {
     fileWriter.write(code);
 }
 ```
-Burada, HTML içeriğimizi şu adlı bir dosyaya yazıyoruz:`sandboxing.html` .`try-with-resources` ifadesi, işlem tamamlandıktan sonra dosya yazıcısının düzgün bir şekilde kapatılmasını sağlar.
-## Adım 2: Sandboxing Ortamını Yapılandırın
-Şimdi HTML dokümanımızdaki scriptlerin yürütülmesini kontrol etmek için sandbox yapılandırmasını ayarlayalım.
+
+Burada, HTML içeriğimizi `sandboxing.html` adlı bir dosyaya yazıyoruz. `try-with-resources` ifadesi, işlem tamamlandıktan sonra dosya yazarının düzgün bir şekilde kapatılmasını sağlar.
+
+## Adım 2: Sandbox Ortamını Yapılandırma
+Şimdi, HTML belgemizdeki betiklerin yürütülmesini kontrol etmek için sandbox yapılandırmasını ayarlayalım.
+
 ```java
 com.aspose.html.Configuration configuration = new com.aspose.html.Configuration();
 ```
- Bir örnek oluşturarak başlıyoruz`Configuration`Bu nesne bize özellikle scriptler etrafında güvenlik kısıtlamaları koymamıza olanak tanıyacaktır.
+
+`Configuration` örneği oluşturarak başlıyoruz. Bu nesne, özellikle betiklerle ilgili güvenlik kısıtlamalarını ayarlamamıza olanak tanır.
+
 ```java
 configuration.setSecurity(com.aspose.html.Sandbox.Scripts);
 ```
-Burada, yapılandırmamıza betikleri güvenilmeyen bir kaynak olarak ele almasını söylüyoruz. Bu, HTML'mizdeki herhangi bir betiğin yürütülmeyeceği ve içeriğimizin güvenli kalacağı anlamına gelir.
-## Adım 3: HTML Belgesini Sandbox Yapılandırmasıyla Başlatın
-Sandbox yapılandırmamız hazır olduğuna göre, bu güvenlik ayarlarına uyan bir HTML belgesi oluşturmanın zamanı geldi.
+
+Burada, yapılandırmamıza betikleri güvensiz bir kaynak olarak ele almasını söylüyoruz. Bu, HTML'imizdeki herhangi bir betiğin çalıştırılmayacağı ve içeriğimizin güvenli kalacağı anlamına gelir.
+
+## Adım 3: Sandbox Yapılandırmasıyla HTML Belgesini Başlatma
+Sandbox yapılandırmamız hazır olduğunda, bu güvenlik ayarlarına uyan bir HTML belgesi oluşturma zamanı.
+
 ```java
 com.aspose.html.HTMLDocument document = new com.aspose.html.HTMLDocument("sandboxing.html", configuration);
 ```
- Bu satır yeni bir satır başlatır`HTMLDocument`belirtilen sandbox yapılandırması ve daha önce oluşturduğumuz HTML dosyasıyla. Şimdi, HTML belgemiz betik yürütmeyi kontrol eden koruyucu bir katmana sarılmış durumda.
-## Adım 4: Sandboxed HTML'yi PDF'ye dönüştürün
-Son adım, korumalı HTML'imizi kaydedebileceğiniz veya paylaşabileceğiniz bir PDF belgesine dönüştürmektir.
+
+Bu satır, belirtilen sandbox yapılandırması ve daha önce oluşturduğumuz HTML dosyasıyla yeni bir `HTMLDocument` başlatır. Artık HTML belgemiz, betik yürütmesini kontrol eden koruyucu bir katmanla sarılmıştır.
+
+## Adım 4: Sandbox'lı HTML'yi PDF'e Dönüştürme
+Son adım, sandbox'lı HTML'mizi bir PDF belgesine dönüştürmek; bu belgeyi kaydedebilir veya paylaşabilirsiniz.
+
 ```java
 com.aspose.html.converters.Converter.convertHTML(
         document,
@@ -68,9 +103,12 @@ com.aspose.html.converters.Converter.convertHTML(
         "sandboxing_out.pdf"
 );
 ```
- Biz kullanıyoruz`Converter.convertHTML` HTML belgemizi PDF'ye dönüştürme yöntemi.`PdfSaveOptions` sınıfı, PDF'nin nasıl kaydedilmesini istediğimizi belirtmemize olanak tanır. Bu durumda, PDF şu şekilde kaydedilecektir:`sandboxing_out.pdf`.
-## Adım 5: Kaynakları Temizleyin
-Java geliştirmede iyi uygulama, artık ihtiyaç duyulmadığında kaynakları serbest bırakmaktır. Bunu yapmanın yolu şöyledir:
+
+`Converter.convertHTML` metodunu kullanarak HTML belgemizi PDF'e dönüştürüyoruz. `PdfSaveOptions` sınıfı, PDF'in nasıl kaydedileceğini belirlememize olanak tanır. Bu durumda PDF, `sandboxing_out.pdf` olarak kaydedilecektir.
+
+## Adım 5: Kaynakları Temizleme
+Java geliştirmede iyi bir uygulama, kaynaklar artık ihtiyaç duyulmadığında serbest bırakmaktır. İşte bunu yapmanın yolu:
+
 ```java
 if (document != null) {
     document.dispose();
@@ -79,22 +117,40 @@ if (configuration != null) {
     configuration.dispose();
 }
 ```
- Bu, şunu garanti eder:`HTMLDocument` Ve`Configuration` nesneler uygun şekilde elden çıkarılır, böylece bellek ve diğer kaynaklar serbest bırakılır.
 
-## Çözüm
-Ve işte karşınızda! Java için Aspose.HTML'de sandboxing'i başarıyla uyguladınız. Bu kılavuzu izleyerek, bir HTML belgesi oluşturmayı, script yürütmeyi kontrol etmek için sandboxing'i uygulamayı ve güvenli HTML içeriğinizi PDF'ye dönüştürmeyi öğrendiniz. Bu yaklaşım, özellikle güvenilmeyen veya dinamik içerikle uğraşırken web içeriğinizin güvenli kalmasını sağlamak için önemlidir.
-Sandboxing, web geliştirmede güçlü bir araçtır ve HTML belgelerinizde neyin yürütüleceği konusunda size kontrol sağlar. Java için Aspose.HTML ile bu özelliği uygulamak basit ve etkilidir. İster basit bir web sayfasını güvence altına alın, ister karmaşık bir uygulama üzerinde çalışın, bu eğitimde ele alınan ilkeler size iyi hizmet edecektir.
-## SSS
-### Java için Aspose.HTML'de sandbox nedir?
-Java için Aspose.HTML'deki Sandbox, HTML belgelerinizdeki komut dosyalarının ve diğer potansiyel olarak zararlı içeriklerin yürütülmesini kontrol etmenizi sağlayan bir güvenlik özelliğidir.
-### Sandbox ayarlarını özelleştirebilir miyim?
-Evet, Java için Aspose.HTML'deki güvenlik yapılandırmalarını düzenleyerek sandbox ayarlarını özelleştirebilirsiniz.
-### Tüm HTML belgeleri için sandbox gerekli midir?
-Her zaman değil, ancak güvenilmeyen içeriklerle çalışırken veya sıkı güvenlik kontrolleri uygulamanız gerektiğinde bu çok önemlidir.
-### Komut dosyalarımın engellendiğini nasıl anlarım?
- Sandbox'ta bulunan betikler yürütülmeyecek ve etkileri (örneğin`document.write`) çıktıda görünmeyecektir.
-### Sandbox'lı HTML'yi PDF'nin yanı sıra diğer formatlara dönüştürebilir miyim?
-Kesinlikle! Aspose.HTML for Java, resimler, XPS ve daha fazlası dahil olmak üzere çeşitli formatlara dönüştürmeyi destekler.
+Bu, `HTMLDocument` ve `Configuration` nesnelerinin düzgün bir şekilde imha edilmesini sağlar, bellek ve diğer kaynakları serbest bırakır.
+
+## Yaygın Sorunlar ve Çözümler
+- **Betikler hâlâ çalışıyor:** `HTMLDocument` oluşturulmadan önce `configuration.setSecurity(com.aspose.html.Sandbox.Scripts);` çağrıldığından emin olun.  
+- **PDF boş:** HTML dosya yolunun doğru ve dosyanın okunabilir olduğundan emin olun.  
+- **Lisans uygulanmadı:** Aspose nesneleri oluşturmadan önce lisansınızı yükleyin, ör. `com.aspose.html.License license = new com.aspose.html.License(); license.setLicense("Aspose.HTML.Java.lic");`.
+
+## Sıkça Sorulan Sorular
+
+**Q: Aspose.HTML for Java'da sandboxing nedir?**  
+A: Sandbox, bir HTML belgesi içinde betiklerin ve diğer potansiyel zararlı içeriklerin çalıştırılmasını engelleyen bir güvenlik özelliğidir; böylece PDF'e güvenli dönüşüm sağlanır.
+
+**Q: Sandbox ayarlarını özelleştirebilir miyim?**  
+A: Evet, `Configuration` nesnesindeki farklı `Sandbox` bayraklarını kullanarak güvenlik yapılandırmalarını (ör. görüntülere izin verme, CSS kısıtlama) ayarlayabilirsiniz.
+
+**Q: Tüm HTML belgeleri için sandboxing gerekli mi?**  
+A: Her zaman gerekli değildir, ancak güvenilmeyen veya kullanıcı‑tarafından oluşturulan içerik işlenirken kötü amaçlı kod yürütülmesini önlemek için şarttır.
+
+**Q: Betiklerimin engellendiğini nasıl anlarım?**  
+A: Sandbox uygulandığında, betik‑tarafından üretilen çıktı (ör. `document.write`) sonuç PDF'te görünmez.
+
+**Q: Sandbox'lı HTML'yi PDF dışındaki formatlara dönüştürebilir miyim?**  
+A: Kesinlikle! Aspose.HTML for Java, uygun kaydetme seçenekleriyle görüntüler, XPS, EPUB ve diğer formatlara dönüşümü destekler.
+
+## Sonuç
+Artık **convert HTML to PDF with Aspose.HTML for Java** işlemini betikleri güvenli bir şekilde sandbox içinde tutarak nasıl yapacağınızı gördünüz. Bu yaklaşım, güvenilmeyen veya dinamik olarak oluşturulan HTML'yi uygulamanızı güvenlik risklerine maruz bırakmadan render etmeniz gereken senaryolar için idealdir. Çözümünüzü belirli kullanım durumunuza uyarlamak için ek `Sandbox` seçeneklerini ve diğer çıktı formatlarını keşfetmekten çekinmeyin.
+
+---
+
+**Last Updated:** 2025-12-10  
+**Tested With:** Aspose.HTML for Java 24.12 (latest)  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
