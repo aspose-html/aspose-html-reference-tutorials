@@ -43,6 +43,8 @@ Konwertuj SVG na obrazy w .NET za pomocą Aspose.HTML. Kompleksowy samouczek dla
 Dowiedz się, jak przekonwertować SVG na PDF za pomocą Aspose.HTML dla .NET. Wysokiej jakości samouczek krok po kroku do wydajnego przetwarzania dokumentów.
 ### [Konwertuj SVG do XPS w .NET za pomocą Aspose.HTML](./convert-svg-to-xps/)
 Dowiedz się, jak przekonwertować SVG do XPS za pomocą Aspose.HTML dla .NET. Przyspiesz rozwój swoich stron internetowych dzięki tej potężnej bibliotece.
+### [Jak włączyć antyaliasing w C# – Gładkie krawędzie](./how-to-enable-antialiasing-in-c-smooth-edges/)
+Dowiedz się, jak w C# włączyć antyaliasing, aby uzyskać płynne krawędzie w renderowanych grafikach.
 
 ## Wniosek
 

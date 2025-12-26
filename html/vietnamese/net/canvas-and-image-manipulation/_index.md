@@ -43,6 +43,8 @@ Chuyển đổi SVG sang Hình ảnh trong .NET với Aspose.HTML. Hướng dẫ
 Tìm hiểu cách chuyển đổi SVG sang PDF bằng Aspose.HTML cho .NET. Hướng dẫn từng bước chất lượng cao để xử lý tài liệu hiệu quả.
 ### [Chuyển đổi SVG sang XPS trong .NET với Aspose.HTML](./convert-svg-to-xps/)
 Tìm hiểu cách chuyển đổi SVG sang XPS bằng Aspose.HTML cho .NET. Tăng cường phát triển web của bạn với thư viện mạnh mẽ này.
+### [Cách bật khử răng cưa trong C# – Đường viền mượt](./how-to-enable-antialiasing-in-c-smooth-edges/)
+Hướng dẫn bật khử răng cưa trong C# để tạo các cạnh mượt, cải thiện chất lượng hình ảnh và đồ họa.
 
 ## Phần kết luận
 

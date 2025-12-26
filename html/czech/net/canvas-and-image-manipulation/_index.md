@@ -43,6 +43,8 @@ Převeďte SVG na obrázky v .NET pomocí Aspose.HTML. Komplexní návod pro vý
 Naučte se, jak převést SVG do PDF pomocí Aspose.HTML pro .NET. Vysoce kvalitní výukový program krok za krokem pro efektivní zpracování dokumentů.
 ### [Převeďte SVG na XPS v .NET pomocí Aspose.HTML](./convert-svg-to-xps/)
 Přečtěte si, jak převést SVG na XPS pomocí Aspose.HTML pro .NET. Podpořte svůj vývoj webu pomocí této výkonné knihovny.
+### [Jak povolit antialiasing v C# – Hladké hrany](./how-to-enable-antialiasing-in-c-smooth-edges/)
+Naučte se, jak v C# povolit antialiasing pro vyhlazení hran a zlepšení kvality vykreslovaných grafických prvků.
 
 ## Závěr
 

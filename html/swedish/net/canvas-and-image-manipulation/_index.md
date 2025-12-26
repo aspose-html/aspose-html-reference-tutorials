@@ -43,6 +43,8 @@ Konvertera SVG till bilder i .NET med Aspose.HTML. En omfattande handledning fö
 Lär dig hur du konverterar SVG till PDF med Aspose.HTML för .NET. Högkvalitativ, steg-för-steg handledning för effektiv dokumentbehandling.
 ### [Konvertera SVG till XPS i .NET med Aspose.HTML](./convert-svg-to-xps/)
 Lär dig hur du konverterar SVG till XPS med Aspose.HTML för .NET. Öka din webbutveckling med detta kraftfulla bibliotek.
+### [Hur du aktiverar kantutjämning i C# – Mjuka kanter](./how-to-enable-antialiasing-in-c-smooth-edges/)
+Lär dig hur du aktiverar kantutjämning i C# för att få mjuka kanter i dina grafiska renderingar.
 
 ## Slutsats
 
