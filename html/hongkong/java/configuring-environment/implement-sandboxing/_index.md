@@ -3,7 +3,7 @@ date: 2025-12-10
 description: 學習如何在 Aspose.HTML for Java 中實作沙箱機制，以安全地控制腳本執行並將 HTML 轉換為 PDF。
 linktitle: Implement Sandboxing in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
-title: Aspose HTML 轉 PDF：在 Aspose.HTML for Java 中實作沙盒
+title: Aspose HTML 轉 PDF - 在 Aspose.HTML for Java 中實作沙盒
 url: /zh-hant/java/configuring-environment/implement-sandboxing/
 weight: 15
 ---

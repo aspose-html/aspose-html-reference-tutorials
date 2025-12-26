@@ -4,7 +4,7 @@ description: تعلم كيفية تنفيذ العزل في Aspose.HTML للغة
   النصوص البرمجية وتحويل HTML إلى PDF.
 linktitle: Implement Sandboxing in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
-title: 'aspose html to pdf: تنفيذ العزل في Aspose.HTML للـ Java'
+title: ' Aspose HTML to PDF - تنفيذ العزل في Aspose.HTML للـ Java'
 url: /ar/java/configuring-environment/implement-sandboxing/
 weight: 15
 ---

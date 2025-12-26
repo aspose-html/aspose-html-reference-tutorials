@@ -4,7 +4,7 @@ description: Μάθετε πώς να εφαρμόζετε την απομόνω
   να ελέγχετε με ασφάλεια την εκτέλεση σεναρίων και να μετατρέπετε HTML σε PDF.
 linktitle: Implement Sandboxing in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
-title: 'aspose html σε pdf: Υλοποίηση απομόνωσης στο Aspose.HTML για Java'
+title: 'Aspose HTML σε PDF - Υλοποίηση απομόνωσης στο Aspose.HTML για Java'
 url: /el/java/configuring-environment/implement-sandboxing/
 weight: 15
 ---

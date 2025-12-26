@@ -4,7 +4,7 @@ description: เรียนรู้วิธีการทำ sandboxing ใ�
   HTML เป็น PDF.
 linktitle: Implement Sandboxing in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
-title: 'aspose html to pdf: ดำเนินการแซนด์บ็อกซ์ใน Aspose.HTML สำหรับ Java'
+title: 'Aspose HTML to PDF - ดำเนินการแซนด์บ็อกซ์ใน Aspose.HTML สำหรับ Java'
 url: /th/java/configuring-environment/implement-sandboxing/
 weight: 15
 ---

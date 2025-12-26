@@ -38,7 +38,7 @@ Mielőtt belemerülnénk a gyakorlati részbe, nézzük meg, miért lehet haszno
 - **Könnyű megosztás:** Egyetlen PDF fájl e‑mailben küldhető, feltölthető vagy dokumentumkezelő rendszerekben tárolható.  
 - **Professzionális megjelenés:** A PDF-ek kifinomult, kereshető formátumot biztosítanak jelentésekhez, számlákhoz vagy portfóliókhoz.
 
-## Getting Started
+## Első lépések
 
 ### 1. Aspose.HTML for Java telepítése  
 
@@ -52,42 +52,35 @@ Győződj meg arról, hogy a fejlesztői környezet megfelel a következő előf
 - IDE (IntelliJ IDEA, Eclipse vagy VS Code) beállítva az Aspose.HTML JAR-okkal.  
 - Egy egyszerű HTML oldal, amely tartalmazza a exportálni kívánt `<canvas>` elemet.
 
-## Converting Canvas to PDF
+## Vászon konvertálása PDF-be
 
-A környezet készen áll, a konverziós folyamat egyszerű. Az Aspose.HTML a teljes HTML oldalt – beleértve a canvas‑t – PDF dokumentummá rendereli. Az alábbiakban a magas szintű munkafolyamat látható (itt nincs kód, hogy a koncepciókra koncentráljunk):
+A környezet készen áll, a konverziós folyamat egyszerű. Az Aspose.HTML a teljes HTML oldalt – tartalmazza a canvas‑t – PDF dokumentummá rendereli. Az alábbiakban a magas szintű munkafolyamat látható (itt nincs kód, hogy a koncepciókra koncentráljunk):
 
-1. **HTML forrás betöltése** – Add meg a canvas‑t tartalmazó HTML fájl útvonalát vagy URL‑jét.  
-2. **PDF beállítások konfigurálása** – Állítsd be az oldal méretét, margókat és egyéb renderelési beállításokat.  
-3. **Renderelés PDF‑be** – Hívd meg az Aspose.HTML API‑t a PDF fájl generálásához.  
+1. **HTML forrás betöltése** – Add meg a canvas‑t tartalmazó HTML fájl útvonalát vagy URL‑jét.
+2. **PDF beállítások konfigurálása** – Állítsd be az oldal méretét, margókat és egyéb renderelési beállításokat.
+3. **Renderelés PDF‑be** – Hívd meg az Aspose.HTML API-t a PDF fájl generálásához.
 4. **Kimenet mentése** – Írd a létrejött PDF‑et lemezre vagy streameld vissza a kliensnek.
 
-### Common Use Cases
+### Általános használati esetek
 
-- **Diagramok generálása üzleti jelentésekhez** – Rendereld a Chart.js vagy D3 vizualizációkat canvas‑ra, és exportáld őket PDF oldalként.  
-- **Nyomtatható számlák készítése** – Készíts egyedi számlaképet canvas‑on, és állíts elő PDF számlát a vásárlók számára.  
+- **Diagramok generálása üzleti jelentésekhez** – Rendereld a Chart.js vagy D3 vizualizációkat canvas‑ra, és exportáld őket PDF oldalként.
+- **Nyomtatható számlák készítése** – Készíts egyedi számlapképet canvas‑on, és állíts elő PDF számlát a vásárlók számára.
 - **Interaktív grafikák archiválása** – Őrizd meg a felhasználó által rajzolt vázlatokat vagy aláírásokat változtathatatlan PDF rekordként.
 
-## Tips & Best Practices
+## Tippek és bevált gyakorlatok
 
-- **Nagy DPI renderelés:** Állítsd a `resolution` opciót 300 DPI‑re a nyomtatási minőségű PDF‑ekhez.  
-- **Vektor vs. raszter:** Ha a canvas vektoros rajzparancsokat használ, a PDF megőrzi a vektor minőséget; a raszter képek úgy lesznek beágyazva, ahogy megjelennek.  
-- **Memóriakezelés:** Nagy oldalak esetén használj streaming API‑kat, hogy elkerüld a teljes dokumentum memóriába töltését.
+- **Nagy DPI renderelés:** Állítsd a `resolution` opciót 300DPI-re a nyomtatási minőségű PDF-ekhez.
+- **Vektor vs. raszter:** Ha a canvas vektoros rajzparancsokat használ, a PDF megőrzi a vektor minőséget; a raszter képek úgy lesznek beágyazva, ahogy megjelennek.
+-**Memóriakezelés:** Nagy oldalak esetén használj streaming API‑kat, hogy elkerüld a teljes dokumentum memóriába töltését.
 
-## Conclusion
+## Következtetés
 
-A útmutató követése után már tudod, hogyan **create PDF from canvas** az Aspose.HTML for Java segítségével. Néhány kódsorral bármely webes grafikát professzionális, megosztható PDF‑vé alakíthatsz. Kezdd el kísérletezni saját canvas projektjeiddel, és nyiss új lehetőségeket a jelentéskészítés, nyomtatás és digitális terjesztés terén.
+Az útmutató követése után már tudod, hogyan **create PDF from canvas** az Aspose.HTML for Java segítségével. Néhány kódsorral bármilyen webes grafikát professzionális, megosztható PDF‑vé alakíthatsz. Kezdd el kísérletezni saját vászon projektjeiddel, és új lehetőségeket a jelentéskészítés, nyomtatás és digitális terjesztés terén.
 
-## Additional Resource
+## További források
 
 ### [HTML Canvas konvertálása PDF-re az Aspose.HTML for Java-val](./canvas-to-pdf/)
 Ismerd meg, hogyan konvertálhatod a HTML Canvas‑t PDF‑be az Aspose.HTML for Java-val ebben a lépésről‑lépésre útmutatóban.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## Gyakran Ismételt Kérdések
 
@@ -106,6 +99,15 @@ A: Győződj meg róla, hogy a kép URL-ek elérhetők (abszolút URL-ek vagy be
 **Q: Támogatja a könyvtár a PDF/A megfelelőséget archiváláshoz?**  
 A: Az Aspose.HTML lehetőséget biztosít PDF/A‑1b vagy PDF/A‑2b kompatibilis dokumentumok létrehozására, ha szükséges.
 
+---
+
 **Last Updated:** 2025-12-10  
 **Tested With:** Aspose.HTML for Java 23.12 (latest at time of writing)  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

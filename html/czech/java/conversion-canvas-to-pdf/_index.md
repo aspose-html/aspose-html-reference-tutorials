@@ -77,13 +77,6 @@ Po přečtení tohoto průvodce nyní víte, jak **create PDF from canvas** pomo
 ### [Převod HTML Canvas do PDF pomocí Aspose.HTML pro Java](./canvas-to-pdf/)
 Naučte se, jak převést HTML Canvas do PDF pomocí Aspose.HTML pro Java v tomto krok‑za‑krokem průvodci.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Často kladené otázky
 
 **Q: Mohu tuto metodu použít v aplikaci Spring Boot?**  
@@ -106,3 +99,10 @@ A: Aspose.HTML poskytuje možnosti vytvořit dokumenty kompatibilní s PDF/A‑1
 **Poslední aktualizace:** 2025-12-10  
 **Testováno s:** Aspose.HTML for Java 23.12 (nejnovější v době psaní)  
 **Autor:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

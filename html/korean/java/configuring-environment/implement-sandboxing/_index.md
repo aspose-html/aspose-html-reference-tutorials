@@ -4,7 +4,7 @@ description: Aspose.HTML for Java에서 샌드박싱을 구현하여 스크립�
   방법을 배워보세요.
 linktitle: Implement Sandboxing in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
-title: 'Aspose HTML to PDF: Java용 Aspose.HTML에서 샌드박스 구현'
+title: 'Aspose HTML to PDF - Java용 Aspose.HTML에서 샌드박스 구현'
 url: /ko/java/configuring-environment/implement-sandboxing/
 weight: 15
 ---

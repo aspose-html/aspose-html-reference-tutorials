@@ -3,7 +3,7 @@ date: 2025-12-10
 description: Aspose.HTML for Javaでサンドボックスを実装し、スクリプトの実行を安全に制御し、HTMLをPDFに変換する方法を学びましょう。
 linktitle: Implement Sandboxing in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
-title: 'aspose html to pdf: Aspose.HTML for Javaでサンドボックスを実装する'
+title: 'Aspose HTML to PDF - Aspose.HTML for Javaでサンドボックスを実装する'
 url: /ja/java/configuring-environment/implement-sandboxing/
 weight: 15
 ---

@@ -4,7 +4,7 @@ description: Узнайте, как реализовать изоляцию (san
   чтобы безопасно контролировать выполнение скриптов и конвертировать HTML в PDF.
 linktitle: Implement Sandboxing in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
-title: 'aspose html в pdf: реализовать изоляцию в Aspose.HTML для Java'
+title: 'Aspose HTML в PDF - реализовать изоляцию в Aspose.HTML для Java'
 url: /ru/java/configuring-environment/implement-sandboxing/
 weight: 15
 ---
@@ -15,34 +15,34 @@ weight: 15
 
 # aspose html to pdf: Implement Sandboxing in Aspose.HTML for Java
 
-## Introduction
-В этом руководстве вы узнаете **как преобразовать HTML в PDF с помощью Aspose.HTML for Java**, при этом любые встроенные скрипты будут надёжно изолированы в песочнице. Мы пройдём настройку среды разработки, создание простого HTML‑файла, конфигурацию песочницы и, наконец, конвертацию защищённого HTML в документ PDF. Независимо от того, создаёте ли вы сервис генерации контента или нужно отобразить пользовательские страницы, это руководство предлагает практичное и безопасное решение.
+## Введение
+В этом руководстве вы узнаете **как преобразовать HTML в PDF с помощью Aspose.HTML для Java**, при этом любые встроенные скрипты будут надежно изолированы в песочнице. Мы пройдём этап разработки, создание простого HTML‑файла, настройку песочницы и, наконец, конвертацию защищённого HTML в документ PDF. Независимо от того, создаете ли вы сервис генерации контента или хотите отобразить пользовательские страницы, это руководство предлагает практичное и безопасное решение.
 
-## Quick Answers
-- **Что делает песочница?** Она предотвращает выполнение скриптов в HTML, защищая приложение от вредоносного кода.  
-- **Какой основной API используется для конвертации?** `com.aspose.html.converters.Converter.convertHTML`.  
-- **Нужна ли лицензия?** Да – действующая лицензия Aspose.HTML for Java снимает ограничения оценки.  
-- **Можно ли запускать на любой ОС?** Библиотека Java кроссплатформенна; работает на Windows, Linux и macOS.  
-- **Сколько времени занимает весь процесс?** Обычно менее минуты для небольшого HTML‑файла.
+## Быстрые ответы
+- **Что делает песочницу?** Она обеспечивает выполнение скриптов в HTML, защиту приложения от конкурентного кода.
+- **Какой основной API используется для конвертации?** `com.aspose.html.converters.Converter.convertHTML`.
+- **Нужна ли лицензия?** Да – действующая лицензия Aspose.HTML для Java снимает ограничения.
+- **Можно ли запустить на любой ОС?** Библиотека Java кроссплатформенная; работает на Windows, Linux и macOS.
+- **Сколько времени занимает весь процесс?** Обычно меньше минут для небольшого HTML‑файла.
 
-## What is **aspose html to pdf** conversion?
-Aspose.HTML for Java предоставляет высокоточный движок, который парсит HTML, применяет CSS, выполняет разрешённые скрипты (или блокирует их через песочницу) и напрямую рендерит результат в PDF. Это устраняет необходимость в браузере или стороннем движке рендеринга.
+## Что такое преобразование **aspose html в pdf**?
+Aspose.HTML для Java обеспечивает высокоточный движок, который парсит HTML, применяет CSS, выполняет разрешенные скрипты (или блокирует их через песочницу) и напрямую рендерит результат в PDF. Это требует необходимости в браузере или стороннем движении рендеринга.
 
-## Why use sandboxing when converting HTML to PDF?
-- **Безопасность:** Останавливает потенциально опасный JavaScript от выполнения.  
-- **Предсказуемость:** Гарантирует, что полученный PDF точно соответствует статическому HTML‑макету.  
+## Зачем использовать песочницу при преобразовании HTML в PDF?
+- **Безопасность:** Останавливает контроль опасного выполнения JavaScript.
+- **Предсказуемость:** Гарантирует, что полученный PDF-файл точно соответствует статистическому HTML‑макету.
 - **Соответствие требованиям:** Помогает соблюдать стандарты безопасности при обработке недоверенного контента.
 
-## Prerequisites
-Прежде чем перейти к коду, убедимся, что у вас есть всё необходимое:
+## Предварительные условия
+Прежде чем перейти к коду, убедимся, что у вас есть все необходимое:
 
-1. **Java Development Kit (JDK)** – Убедитесь, что Java установлена на вашем компьютере. Скачать последнюю версию можно с [Oracle website](https://www.oracle.com/java/technologies/javase-downloads.html).  
-2. **Aspose.HTML for Java** – Скачайте и настройте Aspose.HTML for Java. Последнюю версию можно получить со [Aspose releases page](https://releases.aspose.com/html/java/).  
-3. **IDE or Text Editor** – Выберите любимую интегрированную среду разработки (IDE), например IntelliJ IDEA, Eclipse, или простой текстовый редактор.  
-4. **Basic Understanding of HTML and Java** – Хотя мы проведём вас через каждый шаг, базовые знания HTML и Java упростят восприятие концепций.  
-5. **Aspose License** – Чтобы использовать Aspose.HTML без ограничений, понадобится действующая лицензия. Вы можете получить [temporary license](https://purchase.aspose.com/temporary-license/) или [purchase one](https://purchase.aspose.com/buy).
+1. **Java Development Kit (JDK)** – Убедитесь, что Java установлена ​​на вашем компьютере. Скачать полную версию можно с [сайта Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
+2. **Aspose.HTML for Java** – скачайте и настройте Aspose.HTML for Java. Последнюю версию можно получить на [странице релизов Aspose](https://releases.aspose.com/html/java/).
+3. **IDE или текстовый редактор** — выберите любимую интегрированную среду разработки (IDE), например IntelliJ IDEA, Eclipse или простой текстовый редактор.
+4. **Базовое понимание HTML и Java** – Хотя мы проведём вас на каждом этапе, базовые знания HTML и Java упростят понимание концепций.
+5. **Aspose License** — чтобы использовать Aspose.HTML без ограничений, используйте действующую лицензию. Вы можете получить [временную лицензию](https://purchase.aspose.com/temporary-license/) или [купить одну](https://purchase.aspose.com/buy).
 
-## Import Packages
+## Импорт пакетов
 Перед написанием кода необходимо импортировать требуемые пакеты. Вот что вам понадобится:
 
 ```java
@@ -51,7 +51,7 @@ import java.io.IOException;
 
 Эти импорты предоставляют основные функции для работы с HTML‑документами, песочницей и конвертацией в PDF.
 
-## Step 1: Create Your HTML Content
+## Шаг 1: Создайте свой HTML-контент
 Первым делом нам нужен простой HTML‑файл, который мы позже изолируем в песочнице. Как его создать:
 
 ```java
@@ -69,7 +69,7 @@ try (java.io.FileWriter fileWriter = new java.io.FileWriter("sandboxing.html")) 
 
 Здесь мы записываем наш HTML‑контент в файл `sandboxing.html`. Конструкция `try-with-resources` гарантирует, что файловый писатель будет закрыт после завершения операции.
 
-## Step 2: Configure the Sandboxing Environment
+## Шаг 2: Настройка среды песочницы
 Теперь настроим конфигурацию песочницы, чтобы контролировать выполнение скриптов в нашем HTML‑документе.
 
 ```java
@@ -84,7 +84,7 @@ configuration.setSecurity(com.aspose.html.Sandbox.Scripts);
 
 Здесь мы указываем конфигурации рассматривать скрипты как недоверенный ресурс. Это значит, что любой скрипт в нашем HTML не будет выполнен, обеспечивая безопасность контента.
 
-## Step 3: Initialize the HTML Document with Sandbox Configuration
+## Шаг 3: Инициализация HTML-документа с настройкой песочницы
 Когда конфигурация песочницы готова, создаём HTML‑документ, который будет использовать эти настройки безопасности.
 
 ```java
@@ -93,7 +93,7 @@ com.aspose.html.HTMLDocument document = new com.aspose.html.HTMLDocument("sandbo
 
 Эта строка инициализирует новый `HTMLDocument` с указанной конфигурацией песочницы и ранее созданным HTML‑файлом. Теперь наш HTML‑документ обёрнут в защитный слой, контролирующий выполнение скриптов.
 
-## Step 4: Convert the Sandboxed HTML to PDF
+## Шаг 4: Преобразуйте HTML-код, полученный в изолированной среде, в PDF-файл
 Последний шаг – конвертировать наш изолированный HTML в PDF‑документ, который можно сохранить или поделиться.
 
 ```java
@@ -106,7 +106,7 @@ com.aspose.html.converters.Converter.convertHTML(
 
 Мы используем метод `Converter.convertHTML` для преобразования HTML‑документа в PDF. Класс `PdfSaveOptions` позволяет задать параметры сохранения PDF. В данном случае PDF будет сохранён как `sandboxing_out.pdf`.
 
-## Step 5: Clean Up Resources
+## Шаг 5: Очистка ресурсов
 Хорошая практика в Java‑разработке – освобождать ресурсы, когда они больше не нужны. Как это сделать:
 
 ```java
@@ -120,36 +120,36 @@ if (configuration != null) {
 
 Это гарантирует корректное освобождение объектов `HTMLDocument` и `Configuration`, освобождая память и другие ресурсы.
 
-## Common Issues and Solutions
-- **Scripts still run:** Verify that `configuration.setSecurity(com.aspose.html.Sandbox.Scripts);` is called before creating the `HTMLDocument`.  
-- **PDF is blank:** Ensure the HTML file path is correct and the file is readable.  
-- **License not applied:** Load your license before creating any Aspose objects, e.g., `com.aspose.html.License license = new com.aspose.html.License(); license.setLicense("Aspose.HTML.Java.lic");`.
+## Распространенные проблемы и решения
+- **Скрипты все еще выполняются:** Убедитесь, что `configuration.setSecurity(com.aspose.html.Sandbox.Scripts);` вызывается перед созданием `HTMLDocument`.
+- **PDF-файл пустой:** Убедитесь, что путь к HTML-файлу указан правильно и файл доступен для чтения.
+- **Лицензия не применена:** Загрузите лицензию перед созданием любых объектов Aspose, например, `com.aspose.html.License license = new com.aspose.html.License(); license.setLicense("Aspose.HTML.Java.lic");`.
 
-## Frequently Asked Questions
+## Часто задаваемые вопросы
 
-**Q: What is sandboxing in Aspose.HTML for Java?**  
-A: Sandboxing is a security feature that blocks the execution of scripts and other potentially harmful content within an HTML document, ensuring safe conversion to PDF.
+**В: Что такое песочница в Aspose.HTML для Java?**
+О: Песочница — это функция безопасности, которая блокирует выполнение скриптов и другого потенциально опасного содержимого в HTML-документе, обеспечивая безопасное преобразование в PDF.
 
-**Q: Can I customize the sandboxing settings?**  
-A: Yes, you can adjust the security configurations (e.g., allow images, restrict CSS) by using different `Sandbox` flags in the `Configuration` object.
+**В: Можно ли настроить параметры песочницы?**
+О: Да, вы можете настроить параметры безопасности (например, разрешить изображения, ограничить CSS), используя различные флаги `Sandbox` в объекте `Configuration`.
 
-**Q: Is sandboxing necessary for all HTML documents?**  
-A: Not always, but it’s essential when processing untrusted or user‑generated content to prevent malicious code execution.
+**В: Необходима ли песочница для всех HTML-документов?**
+О: Не всегда, но она необходима при обработке ненадежного или созданного пользователем контента для предотвращения выполнения вредоносного кода.
 
-**Q: How do I know if my scripts are blocked?**  
-A: When sandboxed, script‑generated output (like `document.write`) will not appear in the resulting PDF.
+**В: Как узнать, заблокированы ли мои скрипты?**
+О: При работе в песочнице сгенерированный скриптами вывод (например, `document.write`) не будет отображаться в результирующем PDF-файле.
 
-**Q: Can I convert sandboxed HTML to other formats besides PDF?**  
-A: Absolutely! Aspose.HTML for Java supports conversion to images, XPS, and EPUB, among others, using the appropriate save options.
+**В: Можно ли конвертировать HTML-файлы из песочницы в другие форматы, помимо PDF?**
+О: Конечно! Aspose.HTML для Java поддерживает конвертацию в изображения, XPS и EPUB, а также в другие форматы, используя соответствующие параметры сохранения.
 
-## Conclusion
-You’ve now seen how to **convert HTML to PDF with Aspose.HTML for Java** while keeping scripts safely sandboxed. This approach is ideal for scenarios where you need to render untrusted or dynamically generated HTML without exposing your application to security risks. Feel free to explore additional `Sandbox` options and other output formats to extend this solution to your specific use case.
+## Заключение
+Теперь вы узнали, как **преобразовать HTML в PDF с помощью Aspose.HTML для Java**, сохраняя при этом скрипты в безопасной песочнице. Этот подход идеально подходит для сценариев, где вам необходимо отображать ненадежный или динамически генерируемый HTML, не подвергая ваше приложение рискам безопасности. Вы можете изучить дополнительные параметры «песочницы» и другие форматы вывода, чтобы расширить это решение для вашего конкретного случая.
 
----
+--
 
-**Last Updated:** 2025-12-10  
-**Tested With:** Aspose.HTML for Java 24.12 (latest)  
-**Author:** Aspose  
+**Последнее обновление:** 10.12.2025
+**Протестировано с:** Aspose.HTML для Java 24.12 (последняя версия)
+**Автор:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

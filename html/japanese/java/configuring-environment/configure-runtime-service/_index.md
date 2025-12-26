@@ -14,17 +14,17 @@ weight: 14
 
 # Aspose.HTML for Java Runtime Serviceでタイムアウトを設定する方法
 
-## Introduction
+## はじめに
 Aspose.HTML for Java を使用してスクリプトの **タイムアウトの設定方法** を探しているなら、ここが最適な場所です。スクリプト実行を制御することで、無限ループを防止できるだけでなく、 **html を png に変換** する速度が向上し、アプリケーションの応答性も保てます。このチュートリアルでは、Runtime Service の設定手順、スクリプト実行の制限方法、そして HTML から PNG 画像を生成する際にプログラムがハングしないようにする具体的な手順を解説します。
 
-## Quick Answers
+## クイックアンサー
 - **Runtime Service の役割は？** HTML を処理する際にスクリプト実行時間とリソースを管理できます。  
 - **JavaScript のタイムアウトはどう設定する？** `runtimeService.setJavaScriptTimeout(TimeSpan.fromSeconds(...))` を使用します。  
 - **無限ループを防げる？** はい。タイムアウトにより、設定した上限を超えるループは停止します。  
 - **HTML‑to‑PNG 変換に影響はあるか？** いいえ。スクリプトが完了するかタイムアウトで終了した後に変換が続行されます。  
 - **必要な Aspose.HTML のバージョンは？** Aspose ダウンロードページから入手できる最新リリースです。
 
-## Prerequisites
+## 前提条件
 以下の環境が整っていることを確認してください。
 
 1. **Java Development Kit (JDK)** – [Oracle のウェブサイト](https://www.oracle.com/java/technologies/javase-downloads.html) からインストール。  
@@ -32,14 +32,14 @@ Aspose.HTML for Java を使用してスクリプトの **タイムアウトの�
 3. **IDE** – IntelliJ IDEA、Eclipse、または NetBeans が利用可能。  
 4. **基本的な Java と HTML の知識** – コードスニペットを理解するために必須です。
 
-## Import Packages
+## パッケージのインポート
 まず、必要なクラスをインポートします。ファイル操作のために `java.io.IOException` のインポートが必要です。
 
 ```java
 import java.io.IOException;
 ```
 
-## Step 1: Create an HTML File with JavaScript Code
+## ステップ1: JavaScriptコードを含むHTMLファイルを作成する
 次に、JavaScript ループを含むシンプルな HTML ファイルを生成します。このループはタイムアウトを設定しなければ無限に実行されるため、Runtime Service のデモに最適です。
 
 ```java
@@ -54,14 +54,14 @@ try (java.io.FileWriter fileWriter = new java.io.FileWriter("runtime-service.htm
 - `while(true) {}` スクリプトは潜在的な無限ループを表します。  
 - `FileWriter` は HTML コンテンツを **runtime-service.html** に書き込みます。
 
-## Step 2: Set Up the Configuration Object
+## ステップ2: 構成オブジェクトを設定する
 次に、`Configuration` インスタンスを作成します。このオブジェクトは Runtime Service を含むすべての Aspose.HTML サービスの基盤となります。
 
 ```java
 com.aspose.html.Configuration configuration = new com.aspose.html.Configuration();
 ```
 
-## Step 3: Configure the Runtime Service
+## ステップ3: ランタイムサービスを構成する
 ここで実際に **タイムアウトの設定方法** を行います。`Configuration` から `IRuntimeService` を取得し、JavaScript の実行上限を定義します。
 
 ```java
@@ -73,7 +73,7 @@ try {
 - `setJavaScriptTimeout` によりスクリプト実行が **5 秒** に制限され、**無限ループの防止** が実現します。  
 - 重いクライアントサイドコードの実行時間も同様に制限できます。
 
-## Step 4: Load the HTML Document with the Configuration
+## ステップ4: 構成を含むHTMLドキュメントを読み込む
 先ほど設定したタイムアウトルールを含む `Configuration` を使用して HTML ファイルを読み込みます。
 
 ```java
@@ -82,7 +82,7 @@ try {
 
 - ドキュメントは前述のタイムアウトを尊重するため、無限ループは 5 秒後に停止します。
 
-## Step 5: Convert the HTML to PNG
+## ステップ5: HTMLをPNGに変換する
 ドキュメントが安全にロードされたら、**html を png に変換** できます。変換はスクリプトが完了するか、タイムアウトで終了した後に実行されます。
 
 ```java
@@ -96,7 +96,7 @@ try {
 - `ImageSaveOptions` により Aspose.HTML が PNG 画像として出力するよう指示します。  
 - 生成されたファイル **runtime-service_out.png** は、ハングせずにレンダリングされた HTML を示します。
 
-## Step 6: Clean Up Resources
+## ステップ6: リソースのクリーンアップ
 最後に、オブジェクトを破棄してメモリを解放し、リークを防止します。
 
 ```java
@@ -112,10 +112,10 @@ try {
 
 - 適切な破棄は長時間稼働するアプリケーションにとって重要です。
 
-## Conclusion
+## 結論
 これで **JavaScript 実行のタイムアウト設定方法**、**無限ループの防止方法**、そして **html を png に安全に変換** する手順を習得しました。Runtime Service を構成することでスクリプト動作を細かく制御でき、起動時間の短縮と変換の信頼性向上につながります。用途に合わせてタイムアウト値を調整し、パフォーマンス向上を実感してください。
 
-## Frequently Asked Questions
+## よくある質問
 
 **Q: Aspose.HTML for Java の Runtime Service の目的は何ですか？**  
 A: スクリプト実行時間を制御し、**無限ループの防止** と変換処理の応答性向上を実現します。
@@ -134,9 +134,9 @@ A: [Aspose.HTMLォーラム](https://forum.aspose.com/c/html/29) でコミュニ
 
 ---
 
-**Last Updated:** 2025-12-10  
-**Tested With:** Aspose.HTML for Java 24.11 (latest)  
-**Author:** Aspose  
+**最終更新日:** 2025年12月10日
+**テスト環境:** Aspose.HTML for Java 24.11 (最新)
+**作成者:** Aspose 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

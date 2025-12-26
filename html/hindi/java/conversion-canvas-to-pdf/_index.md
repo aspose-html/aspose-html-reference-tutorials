@@ -74,13 +74,6 @@ Canvas से PDF बनाना मतलब HTML `<canvas>` तत्व �
 ### [Aspose.HTML for Java के साथ HTML Canvas को PDF में बदलें](./canvas-to-pdf/)
 इस चरण‑दर‑चरण गाइड में Aspose.HTML for Java के साथ HTML Canvas को PDF में कैसे बदलें, सीखें।
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## अक्सर पूछे जाने वाले प्रश्न
 
 **Q: क्या मैं इस विधि को Spring Boot एप्लिकेशन में उपयोग कर सकता हूँ?**  
@@ -103,3 +96,10 @@ A: Aspose.HTML आवश्यकतानुसार PDF/A‑1b या PDF/A�
 **अंतिम अपडेट:** 2025-12-10  
 **परीक्षण किया गया:** Aspose.HTML for Java 23.12 (latest at time of writing)  
 **लेखक:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

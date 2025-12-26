@@ -4,7 +4,7 @@ description: Scopri come implementare il sandboxing in Aspose.HTML per Java per 
   in modo sicuro l'esecuzione degli script e convertire HTML in PDF.
 linktitle: Implement Sandboxing in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
-title: 'aspose html to pdf: implementare il sandboxing in Aspose.HTML per Java'
+title: 'Aspose HTML to PDF - implementare il sandboxing in Aspose.HTML per Java'
 url: /it/java/configuring-environment/implement-sandboxing/
 weight: 15
 ---

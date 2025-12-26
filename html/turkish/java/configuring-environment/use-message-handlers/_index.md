@@ -16,39 +16,39 @@ weight: 12
 
 # Aspose.HTML Mesaj İşleyicilerini Java'da Nasıl Kullanılır
 
-## Introduction
-Bu öğreticide, **how to use aspose** HTML'de eksik kaynakları ele almak için adım adım gösterilmektedir. Eksik bir görüntüye referans veren basit bir HTML belgesi oluşturacağız, özel bir mesaj işleyicisi ekleyeceğiz ve kırık bağlantıları zarif bir şekilde ele alırken **load html document java** nasıl yapılır gösterilecektir. Sonunda, Aspose.HTML kullanarak **convert html to png** nasıl yapılır da göreceksiniz; bu da Java'da HTML‑to‑image dönüşümünün tam bir resmini sunar.
+## Giriiş
+Bu öğreticide, **aspose nasıl kullanılır** HTML'de eksik kaynaklar ele almak için adım adım gösterilmektedir. Eksik bir görüntüye referans veren basit bir HTML belgesi oluşturacağız, özel bir mesaj işleyicisi ek bölümü ve kırık bağlantılar zarif bir şekilde ele alınarak **load html document java** nasıl yapılabilir gösterilecektir. Sonunda Aspose.HTML kullanarak **html'yi png'ye dönüştürün** nasıl yapılır da göreceksiniz; bu da Java'da HTML'den görüntüye dönüşümün tam bir özelliği sunar.
 
-## Quick Answers
-- **Message handler'ın temel amacı nedir?** Ağ işlemlerini yakalamak ve eksik kaynaklar gibi durum kodlarına yanıt vermektir.  
-- **Aspose.HTML HTML'yi PNG'ye dönüştürebilir mi?** Evet, `Converter.convertHTML` kullanarak html'den görüntüye dönüşüm yapabilirsiniz.  
-- **Bu örnek için lisansa ihtiyacım var mı?** Geçici bir lisans değerlendirme sınırlamalarını kaldırır; üretim için kalıcı bir lisans gereklidir.  
-- **Hangi Java sürümü destekleniyor?** JDK 8+ (ders JDK 11 kullanıyor).  
-- **Birden fazla kırık bağlantıyı işlemek mümkün mü?** Kesinlikle – farklı senaryoları yönetmek için birden fazla handler zincirleyebilirsiniz.
+## Hızlı Yanıtlar
+- **Mesaj işleyicisinin temel amacı nedir?** Ağ verilerini yakalamak ve eksik kaynakları gibi durum kodlarına yanıt vermektir.
+- **Aspose.HTML HTML'yi PNG'ye dönüştürebilir mi?** Evet, `Converter.convertHTML` kullanarak html'den görüntüye dönüşüm yapabilirsiniz.
+- **Bu çeviri için lisansa gerek var mı?** Geçici bir lisans değerlendirme sınırlamalarını kaldırır; üretim için kalıcı bir lisans gereklidir.
+- **Hangi Java sürümü destekleniyor mu?** JDK8+ (ders JDK11 kullanılıyor).
+- **Birden fazla kırık işlemek mümkün mü?** Genel olarak – farklı senaryoları yönetmek için birden fazla işleyici zinciri izleyebilirsiniz.
 
-## Prerequisites
-Adım adım kılavuza başlamadan önce, ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
-1. Java Development Kit (JDK): Sisteminizde JDK kurulu olduğundan emin olun. [Oracle web sitesinden](https://www.oracle.com/java/technologies/javase-downloads.html) indirebilirsiniz.  
-2. Aspose.HTML for Java: Aspose.HTML for Java kurulu olmalıdır. [Aspose sürüm sayfasından](https://releases.aspose.com/html/java/) indirebilirsiniz.  
-3. IDE: IntelliJ IDEA, Eclipse veya NetBeans gibi sevdiğiniz Java Entegre Geliştirme Ortamını (IDE) kullanın.  
-4. Java Temel Bilgisi: Java programlamaya aşina olmak, bu kılavuzu etkili bir şekilde takip etmek için gereklidir.  
-5. Geçici Lisans: Aspose.HTML'in deneme sürümünü kullanıyorsanız, geliştirme sırasında sınırlamalardan kaçınmak için bir [geçici lisans](https://purchase.aspose.com/temporary-license/) almayı düşünün.
+## Önkoşullar
+Adım adım takip edilmeden önce, ihtiyacınız olan her şeye sahip olduğunuzdan emin olun:
+1. Java Development Kit (JDK): Sisteminizde JDK kurulu olduğunuzdan emin olun. [Oracle web ülkesinde](https://www.oracle.com/java/technologies/javase-downloads.html) indirebilirsiniz.
+2. Aspose.HTML for Java: Aspose.HTML for Java kurulmalıdır. [Aspose sürüm sürümünün](https://releases.aspose.com/html/java/) indirebilirsiniz.
+3. IDE: IntelliJ IDEA, Eclipse veya NetBeans gibi sevdiğiniz Java Entegre Geliştirme Ortamını (IDE) kullanın.
+4. Java Temel Bilgisi: Java programlamanın öğrenilmesi, bu kılavuzun etkili bir şekilde takip edilmesi için gereklidir.
+5. Geçici Lisans: Aspose.HTML'in deneme sürümünü kullanmanızı, geliştirme sırasında sınırlamalardan çözümleri için bir [geçici lisans](https://purchase.aspose.com/temporary-license/) almayı düşünün.
 
-## Import Packages
+## Paketleri İçe Aktar
 Başlamadan önce, Java projenize gerekli paketlerin import edildiğinden emin olun. Aşağıda ihtiyacınız olan temel import'lar yer almaktadır:
 ```java
 import java.io.IOException;
 ```
 Bu import'lar, ağ işlemlerini yönetmek, HTML belgeleri oluşturmak ve HTML‑to‑PNG dönüşümünü gerçekleştirmek için gerekli sınıf ve metodlara erişmenizi sağlar.
 
-## Step 1: Prepare the HTML Code
+## Adım 1: HTML Kodunu Hazırlayın
 İlk olarak, bir görüntü dosyasına referans veren basit bir HTML snippet'ine ihtiyacımız var. Hata işleme mekanizmasını tetiklemek için var olmayan bir görüntüye kasıtlı olarak referans vereceğiz.
 ```java
 String code = "<img src='missing.jpg'>";
 ```
 Bu kod, `missing.jpg`'ye işaret eden bir `<img>` etiketi oluşturur. Görüntü eksik olduğu için ağ servisi 200 olmayan bir durum kodu dönecek ve bu bizim özel handler'ımız yakalayacak.
 
-## Step 2: Write the HTML Code to a File
+## Adım 2: HTML Kodunu Bir Dosyaya Yazın
 Sonra, Aspose.HTML'in belge olarak yükleyebilmesi için HTML snippet'ini kalıcı hale getirmemiz gerekiyor.
 ```java
 try (java.io.FileWriter fileWriter = new java.io.FileWriter("document.html")) {
@@ -57,7 +57,7 @@ try (java.io.FileWriter fileWriter = new java.io.FileWriter("document.html")) {
 ```
 `FileWriter` kullanarak HTML'i **document.html** dosyasına kaydediyoruz. Bu dosya, daha sonra **load html document java** adımının kaynağı olur.
 
-## Step 3: Create a Custom Message Handler
+## Adım 3: Özel Mesaj İşleyicisi Oluşturun
 Şimdi, görüntü bulunamadığında tepki veren özel bir mesaj işleyicisi oluşturalım. Handler HTTP durum kodunu kontrol eder ve dostça bir mesaj yazdırır.
 ```java
 com.aspose.html.net.MessageHandler handler = new com.aspose.html.net.MessageHandler() {
@@ -72,7 +72,7 @@ com.aspose.html.net.MessageHandler handler = new com.aspose.html.net.MessageHand
 ```
 `invoke` metodu `context.getResponse().getStatusCode()` inceler. Eğer **200** değilse, dosyanın eksik olduğuna dair net bir uyarı veririz. Son `invoke(context);` çağrısı, kontrolü zincirdeki bir sonraki handler'a aktarır.
 
-## Step 4: Configure the Network Service
+## Adım 4: Ağ Hizmetini Yapılandırın
 Aspose.HTML'in handler'ımızı tanıması için, onu `Configuration` sınıfı aracılığıyla ağ servisine kaydediyoruz.
 ```java
 com.aspose.html.Configuration configuration = new com.aspose.html.Configuration();
@@ -82,7 +82,7 @@ try {
 ```
 Burada bir `Configuration` örneği oluşturuyor, `INetworkService`'i alıyor ve özel handler'ımızı koleksiyonuna ekliyoruz. Bu, handler'ın görüntü yükleme gibi herhangi bir ağ isteği sırasında çalışmasını sağlar.
 
-## Step 5: Load the HTML Document
+## Adım 5: HTML Belgesini Yükleyin
 Yapılandırma hazır olduğunda, daha önce oluşturduğumuz HTML dosyasını yükleyebiliriz. Bu adım, eksik görüntünün handler'ımızı tetiklediği **load html document java**'yu gösterir.
 ```java
 com.aspose.html.HTMLDocument document = new com.aspose.html.HTMLDocument("document.html", configuration);
@@ -96,7 +96,7 @@ try {
 ```
 `HTMLDocument` yapıcı, dosya yolunu ve özel `configuration`'ı alır. Belge `<img>` etiketini ayrıştırdığında, ağ servisi `missing.jpg`'yi almaya çalışır, 404 alır ve handler'ımız uyarıyı yazdırır.
 
-## Step 6: Convert HTML to PNG
+## Adım 6: HTML'yi PNG'ye Dönüştürme
 Aspose.HTML'in daha geniş yeteneklerini göstermek için, yüklenen belgeyi PNG görüntüsüne dönüştüreceğiz. Bu klasik bir **convert html to png** senaryosudur.
 ```java
 com.aspose.html.converters.Converter.convertHTML(
@@ -107,7 +107,7 @@ com.aspose.html.converters.Converter.convertHTML(
 ```
 `Converter.convertHTML`, `HTMLDocument`, isteğe bağlı `ImageSaveOptions` (DPI, kalite vb. ayarlayabileceğiniz) ve çıktı dosya adını alır. Sonuç, render edilen HTML'in raster görüntüsüdür.
 
-## Step 7: Clean Up Resources
+## Adım 7: Kaynakları Temizleme
 Doğru kaynak yönetimi, herhangi bir Java uygulamasında esastır. Bellek sızıntılarını önlemek için hem `Configuration` hem de `HTMLDocument` nesnelerini serbest bırakıyoruz.
 ```java
 } finally {
@@ -118,15 +118,15 @@ Doğru kaynak yönetimi, herhangi bir Java uygulamasında esastır. Bellek sız�
 ```
 Temizleme işlemini bir `finally` bloğuna sarmak, daha önce bir istisna oluşsa bile çalışmasını garanti eder.
 
-## Why Use Message Handlers?
-Mesaj işleyicileri, **handle broken links java** gibi ağ işlemleri üzerinde ayrıntılı kontrol sağlar. Kütüphanenin sessizce başarısız olmasına izin vermek yerine, günlük kaydı tutabilir, yeniden deneyebilir, kaynakları değiştirebilir veya yedek içerik sağlayabilirsiniz—bu da HTML işleme sürecinizi sağlam ve üretime hazır hâle getirir.
+## Neden Mesaj İşleyicileri Kullanmalı?
+Mesaj işleyicileri, **kırık bağlantıları ele alma java** gibi ağ işlemleri üzerinde ayrıntılı kontrol sağlar. Kütüphanenin başarısız olmasına izin verilmesi yerine, günlük kaydedilebilir, yeniden deneyebilir, kaynaklar değişebilir veya yedek içerik sağlayabilirsiniz—bu da HTML işleme sürecinizi sağlam ve üretime hazır hale getirir.
 
-## Common Issues and Solutions
-- **Handler özyinelemesi** – Sonsuz döngüleri önlemek için `invoke(context);` çağrısını yalnızca bir kez yaptığınızdan emin olun.  
-- **Lisans eksikliği** – Geçerli bir lisans olmadan dönüşüm su işareti (watermark) içeren bir görüntü üretebilir.  
+## Yaygın Sorunlar ve Çözümler
+- **İşleyicinin özyinelemesi** – Sonsuz döngüleri durdurmak için `invoke(context);` çağrısını yalnızca bir kez yaptığınızdan emin olun.
+- **Lisans eksikliği** – bir lisans olmadan dönüşüm su işareti (filigran) içeren bir görüntü üretilebilir.
 - **Dosya yolu hataları** – `document.html` yüklerken mutlak yollar kullanın veya çalışma dizinini doğru ayarlayın.
 
-## Frequently Asked Questions
+## Sıkça Sorulan Sorular
 
 **S: Birden fazla mesaj işleyicisi zincirleyebilir miyim?**  
 C: Evet, `network.getMessageHandlers()` koleksiyonuna birden fazla handler ekleyebilirsiniz; ekleme sırasına göre çalıştırılırlar.
@@ -143,14 +143,14 @@ C: Handler içinde `context.getRequest().getRequestUri()`'yi inceleyerek koşull
 **S: Bu API'ler için hangi Aspose.HTML sürümü gerekiyor?**  
 C: Kod, Aspose.HTML for Java 22.10 ve üzeri sürümlerle çalışır.
 
-## Conclusion
-İşte bu kadar—Java'da **how to use aspose** mesaj işleyicileri üzerine kapsamlı bir rehber. HTML dosyası oluşturmayı, **handle broken links java** için özel bir handler bağlamayı, belgeyi yüklemeyi ve **convert html to png** işlemini gerçekleştirmeyi ele aldık. Bu desenle eksik kaynakları güvenle yönetebilir, özel politikalar uygulayabilir ve Aspose.HTML'in ağ yeteneklerini herhangi bir Java uygulamasında genişletebilirsiniz.
+## Çözüm
+İşte bu kadar—Java'da **aspose nasıl kullanılır** mesaj işleyicileri üzerine özet bir rehber. HTML dosyası oluşturmayı, **handle kırık bağlantılar java** için özel bir işleyici bağlamayı, belgeyi yüklemeyi ve **convert html to png** işlem gerçekleştirmeyi ele aldı. Bu desenle eksik kaynakları yönetebilir, özel politikalar uygulayabilir ve Aspose.HTML'in ağlarına herhangi bir Java'yı genişletebilirsiniz.
 
 ---
 
-**Last Updated:** 2025-12-10  
-**Tested With:** Aspose.HTML for Java 24.11  
-**Author:** Aspose  
+**Son Güncelleme:** 2025-12-10
+**Şunlarla Test Edildi:** Java 24.11 için Aspose.HTML
+**Yazar:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
