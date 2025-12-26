@@ -43,6 +43,8 @@ url: /el/net/canvas-and-image-manipulation/
 Μάθετε πώς να μετατρέπετε SVG σε PDF με το Aspose.HTML για .NET. Υψηλής ποιότητας, βήμα προς βήμα μάθημα για αποτελεσματική επεξεργασία εγγράφων.
 ### [Μετατροπή SVG σε XPS σε .NET με Aspose.HTML](./convert-svg-to-xps/)
 Μάθετε πώς να μετατρέπετε SVG σε XPS χρησιμοποιώντας το Aspose.HTML για .NET. Ενισχύστε την ανάπτυξη Ιστού σας με αυτήν την ισχυρή βιβλιοθήκη.
+### [Πώς να ενεργοποιήσετε το Antialiasing σε C# – Ομαλές άκρες](./how-to-enable-antialiasing-in-c-smooth-edges/)
+Μάθετε πώς να ενεργοποιήσετε το antialiasing σε C# για ομαλές γραμμές και κείμενα στα γραφικά σας.
 
 ## Σύναψη
 

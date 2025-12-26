@@ -42,7 +42,8 @@ Převeďte HTML do PDF dynamicky pomocí Aspose.HTML pro .NET. Snadná integrace
 Naučte se převádět HTML do PDF, XPS a obrázků pomocí Aspose.HTML pro .NET. Výukový program krok za krokem s příklady kódu a často kladenými dotazy.
 ### [Použití šablon HTML v .NET s Aspose.HTML](./using-html-templates/)
 Naučte se používat Aspose.HTML pro .NET k dynamickému generování HTML dokumentů z dat JSON. Využijte sílu manipulace s HTML ve svých aplikacích .NET.
-
+### [Jak kombinovat písma programově v C# – krok za krokem](./how-to-combine-fonts-programmatically-in-c-step-by-step-guid/)
+Naučte se, jak v C# programově spojovat více písem do jednoho souboru pomocí Aspose.HTML, s podrobnými ukázkami a tipy.
 
 ## Závěr
 
