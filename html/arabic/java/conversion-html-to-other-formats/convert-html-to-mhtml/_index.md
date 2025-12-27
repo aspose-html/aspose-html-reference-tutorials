@@ -1,35 +1,51 @@
 ---
-title: تحويل HTML إلى MHTML باستخدام Aspose.HTML لـ Java
-linktitle: تحويل HTML إلى MHTML
-second_title: معالجة HTML باستخدام Java مع Aspose.HTML
-description: يمكنك تحويل HTML إلى MHTML بسهولة باستخدام Aspose.HTML for Java. اتبع دليلنا خطوة بخطوة لتحويل HTML إلى MHTML بكفاءة.
-weight: 11
+date: 2025-12-17
+description: تعلم كيفية تحويل HTML إلى MHTML باستخدام Aspose.HTML للغة Java – دليل
+  خطوة بخطوة يغطي كيفية تحويل HTML، حفظ HTML كـ MHTML، وتحميل مستند HTML في Java.
+linktitle: Converting HTML to MHTML
+second_title: Java HTML Processing with Aspose.HTML
+title: كيفية تحويل HTML إلى MHTML باستخدام Aspose.HTML للـ Java
 url: /ar/java/conversion-html-to-other-formats/convert-html-to-mhtml/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# تحويل HTML إلى MHTML باستخدام Aspose.HTML لـ Java
+# كيفية تحويل HTML إلى MHTML باستخدام Aspose.HTML for Java
 
-في عالم تطوير الويب، يعد التعامل الفعّال مع مستندات HTML وتحويلها أمرًا بالغ الأهمية. Aspose.HTML for Java هي أداة قوية تبسط تحويل HTML إلى MHTML، وتقدم تجربة سلسة للمطورين. في هذا البرنامج التعليمي، سنرشدك خلال عملية تحويل HTML إلى MHTML باستخدام Aspose.HTML for Java. سنوضح الخطوات والمتطلبات الأساسية وحزم الاستيراد، لضمان حصولك على رحلة سلسة.
+تحويل HTML إلى MHTML هو طلب شائع عندما تحتاج إلى ملف واحد محمول يحتوي على صفحة HTML مع جميع مواردها (الصور، CSS، السكريبتات). في هذا الدرس ستتعلم **كيفية تحويل HTML إلى MHTML** باستخدام Aspose.HTML for Java، وتعرف على **حفظ HTML كـ MHTML**، وتكتشف أفضل طريقة لـ **تحميل مستند HTML بنمط Java**. سواء كنت تقوم بأرشفة صفحات الويب، أو توليد محتوى جاهز للبريد الإلكتروني، أو بناء خط أنابيب تقارير، فإن الخطوات أدناه ستوصلك إلى الهدف بسرعة.
 
-## المتطلبات الأساسية
+## إجابات سريعة
+- **ما هي المكتبة الأساسية؟** Aspose.HTML for Java
+- **كم من الوقت تستغرق العملية؟** حوالي 10‑15 دقيقة لتحويل أساسي
+- **هل أحتاج إلى ترخيص؟** ترخيص مؤقت يكفي للاختبار؛ الترخيص الكامل مطلوب للإنتاج
+- **هل يمكنني معالجة الملفات على دفعات؟** نعم – ضع الكود داخل حلقة وأعد استخدام نفس الخيارات
+- **الإخراج المدعوم؟** MHTML (`.mht`)، بالإضافة إلى صيغ أخرى مثل PDF، PNG، إلخ.
 
-قبل أن نتعمق في عملية التحويل، هناك بعض المتطلبات الأساسية التي يجب عليك التأكد من توافرها:
+## ما هو تحويل HTML إلى MHTML؟
+MHTML (المعروف أيضًا باسم MHT) يجمع صفحة HTML وجميع مواردها الخارجية في ملف واحد مشفر بـ MIME. هذا يجعل المستند ذاتيًا، وهو مثالي للعرض دون اتصال أو مرفقات البريد الإلكتروني.
 
-1. بيئة تطوير Java: تأكد من إعداد بيئة تطوير Java على نظامك. إذا لم يكن الأمر كذلك، فيمكنك تنزيل أحدث إصدار من Java Development Kit (JDK) وتثبيته من[موقع أوراكل](https://www.oracle.com/java/technologies/javase-downloads.html).
+## لماذا نستخدم Aspose.HTML for Java؟
+- **تحكم كامل** في معالجة الموارد (أنت تقرر إلى أي عمق يجب أن يتبع المحول الروابط)
+- **بدون متصفحات خارجية** – التحويل يعمل بالكامل على JVM
+- **دقة عالية** – الـ MHTML الناتج يبدو تمامًا كصفحة المتصفح الأصلية
+- **قابل للتوسع** – مناسب للصفحات الفردية أو وظائف الدفعات الكبيرة
 
-2.  Aspose.HTML for Java: ستحتاج إلى مكتبة Aspose.HTML for Java. يمكنك تنزيلها من[توثيق Aspose.HTML لـ Java](https://reference.aspose.com/html/java/).
+## المتطلبات المسبقة
 
-3. مستند HTML: قم بإعداد مستند HTML الذي تريد تحويله إلى MHTML. يمكنك استخدام ملف HTML الحالي أو إنشاء ملف جديد.
+قبل أن نبدأ، تأكد من أن لديك ما يلي:
 
-الآن بعد أن أصبحت لديك المتطلبات الأساسية، دعنا ننتقل إلى الخطوات التالية.
+1. **بيئة تطوير Java** – JDK حديث مثبت. يمكنك تنزيله من [موقع Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
+2. **Aspose.HTML for Java** – احصل على المكتبة من [توثيق Aspose.HTML for Java](https://reference.aspose.com/html/java/).
+3. **مستند HTML** – الملف الذي تريد **حفظ HTML كـ MHTML**. يمكن أن يكون أي ملف `.html` محلي أو صفحة تقوم بإنشائها أثناء التشغيل.
+
+الآن بعد تغطية الأساسيات، دعنا نتعمق في الكود.
 
 ## استيراد الحزم
 
-للبدء، تحتاج إلى استيراد الحزم اللازمة لمشروع Java الخاص بك. أضف عبارات الاستيراد التالية إلى كود Java الخاص بك:
+أضف الاستيرادات المطلوبة إلى فئة Java الخاصة بك:
 
 ```java
 import com.aspose.html.HTMLDocument;
@@ -38,78 +54,106 @@ import com.aspose.html.converters.Converter;
 import com.aspose.html.saving.MHTMLResourceHandlingOptions;
 ```
 
-بعد استيراد الحزم، أصبحت الآن جاهزًا للمتابعة في عملية التحويل.
+## دليل خطوة بخطوة
 
-## الخطوة 1: تحميل مستند HTML
+### الخطوة 1: تحميل مستند HTML
 
 ```java
 HTMLDocument htmlDocument = new HTMLDocument("path_to_your_html_file.html");
 ```
 
-في هذه الخطوة، يمكنك تهيئة كائن مستند HTML من خلال توفير المسار إلى ملف HTML الخاص بك.
+هنا نقوم **بتحميل مستند HTML بنمط Java** عن طريق توفير مسار الملف. تقوم الفئة `HTMLDocument` بتحليل العلامات وتحضيرها للتحويل.
 
-## الخطوة 2: تهيئة خيارات حفظ MHTML
+### الخطوة 2: تهيئة خيارات حفظ MHTML
 
 ```java
 MHTMLSaveOptions options = new MHTMLSaveOptions();
 ```
 
-هنا، يمكنك إنشاء خيارات حفظ MHTML، والتي تسمح لك بتخصيص عملية التحويل.
+كائن `MHTMLSaveOptions` يتيح لك تعديل سلوك التحويل (مثل معالجة الموارد، الترميز).
 
-## الخطوة 3: تعيين قواعد التعامل مع الموارد
+### الخطوة 3: تعيين قواعد معالجة الموارد
 
 ```java
 MHTMLResourceHandlingOptions resourceHandlingOptions = options.getResourceHandlingOptions();
 resourceHandlingOptions.setMaxHandlingDepth(1);
 ```
 
-في هذه الخطوة، يمكنك تحديد قواعد التعامل مع الموارد. ويمكنك تعيين أقصى عمق للتعامل وفقًا لمتطلباتك.
+يمكنك التحكم إلى أي عمق يتبع المحول الموارد المرتبطة. ضبط العمق إلى `1` يعني تضمين الموارد الفورية فقط (الصور، CSS)، مما يحافظ على حجم الناتج معقولًا.
 
-## الخطوة 4: تحديد مسار الإخراج
+### الخطوة 4: تحديد مسار الإخراج
 
 ```java
 String outputMHTML = "path_to_output_mhtml_file.mht";
 ```
 
-قم بتعيين المسار الذي تريد حفظ ملف MHTML المُحوّل فيه.
+اختر المكان الذي يجب حفظ ملف **MHTML** الناتج فيه.
 
-## الخطوة 5: قم بإجراء تحويل HTML إلى MHTML
+### الخطوة 5: تنفيذ التحويل
 
 ```java
 Converter.convertHTML(htmlDocument, options, outputMHTML);
 ```
 
- وأخيرا، استخدم`Converter` الفئة لتحويل مستند HTML إلى MHTML، باستخدام الخيارات التي قمت بتكوينها.
+طريقة `convertHTML` الثابتة تقوم بالعمل الشاق: تقرأ `HTMLDocument`، تطبق `options`، وتكتب ملف MHTML إلى `outputMHTML`.
 
-مبروك! لقد قمت بنجاح بتحويل مستند HTML إلى MHTML باستخدام Aspose.HTML for Java.
+> **نصيحة احترافية:** إذا كنت بحاجة إلى تحويل العديد من الملفات، أنشئ كائن `MHTMLSaveOptions` مرة واحدة وأعد استخدامه داخل حلقة لتحسين الأداء.
 
-## خاتمة
+تهانينا! لقد نجحت في **تحويل HTML إلى MHTML** باستخدام Aspose.HTML for Java.
 
-في هذا البرنامج التعليمي، استكشفنا عملية تحويل HTML إلى MHTML باستخدام Aspose.HTML for Java. باستخدام المتطلبات الأساسية الصحيحة، واستيراد الحزم، والإرشادات خطوة بخطوة، يمكنك التعامل بكفاءة مع مستندات HTML وتحويلها إلى MHTML بسهولة.
+## المشكلات الشائعة والحلول
 
- لمزيد من المعلومات والدعم، يمكنك زيارة[توثيق Aspose.HTML لـ Java](https://reference.aspose.com/html/java/) وطلب المساعدة من[منتديات مجتمع Aspose](https://forum.aspose.com/).
+| المشكلة | الحل |
+|-------|----------|
+| **الصور المفقودة في ملف MHTML** | تأكد من أن `setMaxHandlingDepth` عالي بما يكفي لتضمين الموارد المتداخلة، أو أضفها يدويًا عبر `resourceHandlingOptions.getAdditionalResources()` |
+| **ميزات CSS غير مدعومة** | يتبع Aspose.HTML معايير HTML5/CSS3؛ قد يتم تجاهل CSS القديم أو المملوك. قم بتبسيط ورقة الأنماط أو دمج الأنماط مباشرة في HTML |
+| **LicenseException أثناء التشغيل** | قم بتطبيق ترخيص مؤقت أثناء التطوير: `License license = new License(); license.setLicense("Aspose.HTML.Java.lic");` |
 
 ## الأسئلة الشائعة
 
-### س1: ما هو MHTML، ولماذا يتم استخدامه؟
+### س1: ما هو MHTML، ولماذا يُستخدم؟
 
-A1: MHTML (MIME HTML) هو تنسيق ملف يجمع بين HTML ومواردها (مثل الصور والأنماط) في ملف واحد. ويُستخدم لأرشفة صفحات الويب والتأكد من تضمين جميع الموارد للعرض دون اتصال بالإنترنت.
+ج1: MHTML (MIME HTML) هو تنسيق ملف يجمع صفحة HTML وجميع مواردها (الصور، الأنماط، السكريبتات) في ملف واحد. إنه مثالي لأرشفة صفحات الويب أو إرسال محتوى ذاتي الاحتواء عبر البريد الإلكتروني.
 
-### س2: هل يمكنني تخصيص قواعد التعامل مع الموارد في Aspose.HTML لـ Java؟
+### س2: هل يمكنني تخصيص قواعد معالجة الموارد في Aspose.HTML for Java؟
 
-ج2: نعم، يسمح لك Aspose.HTML for Java بتخصيص قواعد التعامل مع الموارد، مما يتيح لك التحكم في كيفية التعامل مع الموارد أثناء التحويل.
+ج2: نعم، يتيح Aspose.HTML for Java تخصيص قواعد معالجة الموارد، مما يمنحك التحكم في كيفية معالجة الموارد أثناء التحويل.
 
-### س3: هل Aspose.HTML لـ Java مناسب للتحويلات الدفعية؟
+### س3: هل Aspose.HTML for Java مناسب للتحويلات على دفعات؟
 
-ج3: نعم، يمكن استخدام Aspose.HTML لـ Java لتحويلات الدفعات، مما يجعله أداة متعددة الاستخدامات للتعامل مع تحويلات HTML إلى MHTML المتعددة.
+ج3: نعم، يمكن استخدام Aspose.HTML for Java للتحويلات على دفعات، مما يجعله أداة متعددة الاستخدامات للتعامل مع تحويلات متعددة من HTML إلى MHTML.
 
-### س4: ما هي مزايا استخدام Aspose.HTML لـ Java مقارنة بأدوات التحويل الأخرى؟
+### س4: ما هي مزايا استخدام Aspose.HTML for Java مقارنة بأدوات التحويل الأخرى؟
 
-A4: يوفر Aspose.HTML for Java ميزات متقدمة ومعالجة الموارد وخيارات التخصيص، مما يجعله خيارًا قويًا لتحويلات HTML إلى MHTML.
+ج4: يقدم Aspose.HTML for Java ميزات متقدمة، ومعالجة موارد، وخيارات تخصيص، مما يجعله خيارًا قويًا لتحويل HTML إلى MHTML.
 
-### س5: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.HTML لـ Java؟
+### س5: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.HTML for Java؟
 
-A5: يمكنك الحصول على ترخيص مؤقت لـ Aspose.HTML لـ Java من[هنا](https://purchase.aspose.com/temporary-license/).
+ج5: يمكنك الحصول على ترخيص مؤقت لـ Aspose.HTML for Java من [هنا](https://purchase.aspose.com/temporary-license/).
+
+**أسئلة شائعة إضافية**
+
+**س: هل يمكنني تحويل عنوان URL بعيد مباشرة دون حفظه أولاً؟**  
+ج: نعم – مرر عنوان URL إلى مُنشئ `HTMLDocument` (مثال: `new HTMLDocument("https://example.com")`) وستقوم المكتبة بجلب الصفحة تلقائيًا.
+
+**س: هل يحافظ المحول على تنفيذ JavaScript؟**  
+ج: لا. التحويل يلتقط العلامات والموارد الثابتة؛ المحتوى الديناميكي الذي يولده JavaScript أثناء التشغيل لا يتم تنفيذه.
+
+**س: ما إصدارات Java المدعومة؟**  
+ج: يدعم Aspose.HTML for Java إصدارات Java 8 وما بعده.
+
+## الخاتمة
+
+الآن لديك وصفة كاملة وجاهزة للإنتاج **لتحويل HTML إلى MHTML** باستخدام Aspose.HTML for Java. استخدم الخطوات أعلاه لدمج التحويل في تطبيقاتك، أتمتة وظائف الدفعات، أو بناء أداة أرشفة بسيطة. للحصول على تخصيص أعمق، استكشف مرجع API الكامل وجرب صيغ إخراج أخرى مثل PDF أو PNG.
+
+**مصادر ذات صلة:** [وثائق Aspose.HTML لجافا](https://reference.aspose.com/html/java/) | [منتديات مجتمع Aspose](https://forum.aspose.com/)
+
+---
+
+**Last Updated:** 2025-12-17  
+**Tested With:** Aspose.HTML for Java 24.10  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

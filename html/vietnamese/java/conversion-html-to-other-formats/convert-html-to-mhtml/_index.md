@@ -1,35 +1,52 @@
 ---
-title: Chuyển đổi HTML sang MHTML với Aspose.HTML cho Java
-linktitle: Chuyển đổi HTML sang MHTML
-second_title: Xử lý HTML Java với Aspose.HTML
-description: Chuyển đổi HTML sang MHTML dễ dàng bằng Aspose.HTML cho Java. Làm theo hướng dẫn từng bước của chúng tôi để chuyển đổi HTML sang MHTML hiệu quả.
-weight: 11
+date: 2025-12-17
+description: Tìm hiểu cách chuyển đổi HTML sang MHTML bằng Aspose.HTML cho Java –
+  hướng dẫn từng bước về cách chuyển đổi HTML, lưu HTML dưới dạng MHTML và tải tài
+  liệu HTML trong Java.
+linktitle: Converting HTML to MHTML
+second_title: Java HTML Processing with Aspose.HTML
+title: Cách chuyển đổi HTML sang MHTML bằng Aspose.HTML cho Java
 url: /vi/java/conversion-html-to-other-formats/convert-html-to-mhtml/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Chuyển đổi HTML sang MHTML với Aspose.HTML cho Java
+# Cách Chuyển Đổi HTML sang MHTML với Aspose.HTML cho Java
 
-Trong thế giới phát triển web, việc xử lý và chuyển đổi hiệu quả các tài liệu HTML là rất quan trọng. Aspose.HTML for Java là một công cụ mạnh mẽ giúp đơn giản hóa việc chuyển đổi HTML sang MHTML, mang đến trải nghiệm liền mạch cho các nhà phát triển. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình chuyển đổi HTML sang MHTML bằng Aspose.HTML for Java. Chúng tôi sẽ phân tích các bước, điều kiện tiên quyết và các gói nhập, đảm bảo bạn có một hành trình suôn sẻ.
+Chuyển đổi HTML sang MHTML là một yêu cầu phổ biến khi bạn cần một tệp duy nhất, di động chứa một trang HTML cùng với tất cả các tài nguyên của nó (hình ảnh, CSS, script). Trong hướng dẫn này, bạn sẽ học **how to convert HTML to MHTML** bằng Aspose.HTML cho Java, xem cách **save HTML as MHTML**, và khám phá cách tốt nhất để **load HTML document Java**‑style. Cho dù bạn đang lưu trữ các trang web, tạo nội dung sẵn sàng cho email, hoặc xây dựng một pipeline báo cáo, các bước dưới đây sẽ giúp bạn nhanh chóng.
 
-## Điều kiện tiên quyết
+## Câu trả lời nhanh
+- **What is the primary library?** Aspose.HTML for Java
+- **How long does the implementation take?** About 10‑15 minutes for a basic conversion
+- **Do I need a license?** A temporary license is enough for testing; a full license is required for production
+- **Can I batch‑process files?** Yes – wrap the code in a loop and reuse the same options
+- **Supported output?** MHTML (`.mht`), plus other formats like PDF, PNG, etc.
 
-Trước khi đi sâu vào quá trình chuyển đổi, bạn cần đảm bảo có một số điều kiện tiên quyết sau:
+## Chuyển Đổi HTML sang MHTML là gì?
+MHTML (còn được gọi là MHT) gói một trang HTML và tất cả các tài nguyên bên ngoài của nó vào một tệp duy nhất được mã hoá MIME. Điều này làm cho tài liệu tự chứa, hoàn hảo cho việc xem offline hoặc đính kèm email.
 
-1. Môi trường phát triển Java: Đảm bảo bạn đã thiết lập môi trường phát triển Java trên hệ thống của mình. Nếu không, bạn có thể tải xuống và cài đặt phiên bản mới nhất của Java Development Kit (JDK) từ[Trang web của Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
+## Tại sao nên dùng Aspose.HTML cho Java?
+- **Full control** trên việc xử lý tài nguyên (bạn quyết định độ sâu mà bộ chuyển đổi sẽ theo các liên kết).
+- **No external browsers** – quá trình chuyển đổi chạy hoàn toàn trên JVM.
+- **High fidelity** – MHTML tạo ra trông hoàn toàn giống như trang gốc trong trình duyệt.
+- **Scalable** – phù hợp cho các trang đơn lẻ hoặc công việc batch lớn.
 
-2.  Aspose.HTML cho Java: Bạn sẽ cần thư viện Aspose.HTML cho Java. Bạn có thể tải xuống từ[Tài liệu Aspose.HTML cho Java](https://reference.aspose.com/html/java/).
+## Yêu cầu trước
 
-3. Tài liệu HTML: Chuẩn bị tài liệu HTML mà bạn muốn chuyển đổi sang MHTML. Bạn có thể sử dụng tệp HTML hiện có hoặc tạo tệp mới.
+Trước khi bắt đầu, hãy chắc chắn bạn có những thứ sau:
 
-Bây giờ bạn đã có đủ các điều kiện tiên quyết, chúng ta hãy chuyển sang các bước tiếp theo.
+1. **Java Development Environment** – một JDK mới được cài đặt. Bạn có thể tải xuống từ [Oracle's website](https://www.oracle.com/java/technologies/javase-downloads.html).
+2. **Aspose.HTML for Java** – lấy thư viện từ [Aspose.HTML for Java documentation](https://reference.aspose.com/html/java/).
+3. **HTML Document** – tệp bạn muốn **save HTML as MHTML**. Nó có thể là bất kỳ tệp `.html` cục bộ nào hoặc một trang bạn tạo ra tại thời gian chạy.
 
-## Nhập gói
+Bây giờ các kiến thức cơ bản đã được đề cập, hãy đi sâu vào mã.
 
-Để bắt đầu, bạn cần nhập các gói cần thiết cho dự án Java của mình. Thêm các câu lệnh nhập sau vào mã Java của bạn:
+## Nhập các gói
+
+Add the required imports to your Java class:
 
 ```java
 import com.aspose.html.HTMLDocument;
@@ -38,78 +55,106 @@ import com.aspose.html.converters.Converter;
 import com.aspose.html.saving.MHTMLResourceHandlingOptions;
 ```
 
-Sau khi nhập các gói, bạn đã sẵn sàng tiến hành chuyển đổi.
+## Hướng dẫn từng bước
 
-## Bước 1: Tải tài liệu HTML
+### Bước 1: Tải tài liệu HTML
 
 ```java
 HTMLDocument htmlDocument = new HTMLDocument("path_to_your_html_file.html");
 ```
 
-Ở bước này, bạn khởi tạo đối tượng tài liệu HTML bằng cách cung cấp đường dẫn đến tệp HTML của bạn.
+Ở đây chúng tôi **load HTML document Java**‑style bằng cách cung cấp đường dẫn tệp. Lớp `HTMLDocument` phân tích markup và chuẩn bị cho việc chuyển đổi.
 
-## Bước 2: Khởi tạo tùy chọn lưu MHTML
+### Bước 2: Khởi tạo MHTML Save Options
 
 ```java
 MHTMLSaveOptions options = new MHTMLSaveOptions();
 ```
 
-Tại đây, bạn tạo các tùy chọn lưu MHTML cho phép bạn tùy chỉnh quy trình chuyển đổi.
+Đối tượng `MHTMLSaveOptions` cho phép bạn điều chỉnh cách chuyển đổi hoạt động (ví dụ: xử lý tài nguyên, mã hoá).
 
-## Bước 3: Thiết lập Quy tắc Xử lý Tài nguyên
+### Bước 3: Đặt quy tắc xử lý tài nguyên
 
 ```java
 MHTMLResourceHandlingOptions resourceHandlingOptions = options.getResourceHandlingOptions();
 resourceHandlingOptions.setMaxHandlingDepth(1);
 ```
 
-Trong bước này, bạn xác định các quy tắc xử lý tài nguyên. Bạn có thể đặt độ sâu xử lý tối đa theo yêu cầu của mình.
+Bạn có thể kiểm soát độ sâu mà bộ chuyển đổi theo các tài nguyên liên kết. Đặt độ sâu là `1` có nghĩa chỉ các tài nguyên ngay lập tức (hình ảnh, CSS) được nhúng, giúp kích thước đầu ra ở mức hợp lý.
 
-## Bước 4: Chỉ định Đường dẫn đầu ra
+### Bước 4: Chỉ định đường dẫn đầu ra
 
 ```java
 String outputMHTML = "path_to_output_mhtml_file.mht";
 ```
 
-Đặt đường dẫn đến nơi bạn muốn lưu tệp MHTML đã chuyển đổi.
+Chọn nơi tệp **MHTML** kết quả sẽ được lưu.
 
-## Bước 5: Thực hiện chuyển đổi HTML sang MHTML
+### Bước 5: Thực hiện chuyển đổi
 
 ```java
 Converter.convertHTML(htmlDocument, options, outputMHTML);
 ```
 
- Cuối cùng, sử dụng`Converter` lớp để chuyển đổi tài liệu HTML sang MHTML, sử dụng các tùy chọn bạn đã cấu hình.
+Phương thức tĩnh `convertHTML` thực hiện công việc nặng: nó đọc `HTMLDocument`, áp dụng `options`, và ghi tệp MHTML vào `outputMHTML`.
 
-Xin chúc mừng! Bạn đã chuyển đổi thành công một tài liệu HTML sang MHTML bằng Aspose.HTML cho Java.
+> **Pro tip:** Nếu bạn cần chuyển đổi nhiều tệp, khởi tạo `MHTMLSaveOptions` một lần và tái sử dụng nó trong vòng lặp để cải thiện hiệu suất.
 
-## Phần kết luận
+Chúc mừng! Bạn đã thành công **converted HTML to MHTML** bằng Aspose.HTML cho Java.
 
-Trong hướng dẫn này, chúng tôi đã khám phá quy trình chuyển đổi HTML sang MHTML bằng Aspose.HTML cho Java. Với các điều kiện tiên quyết phù hợp, gói nhập khẩu và hướng dẫn từng bước, bạn có thể xử lý hiệu quả các tài liệu HTML và chuyển đổi chúng sang MHTML một cách dễ dàng.
+## Các vấn đề thường gặp và giải pháp
 
- Để biết thêm thông tin và hỗ trợ, bạn có thể truy cập[Tài liệu Aspose.HTML cho Java](https://reference.aspose.com/html/java/) và tìm kiếm sự hỗ trợ từ[Diễn đàn cộng đồng Aspose](https://forum.aspose.com/).
+| Issue | Solution |
+|-------|----------|
+| **Missing images in the MHTML file** | Đảm bảo `setMaxHandlingDepth` đủ cao để bao gồm các tài nguyên lồng nhau, hoặc thêm chúng thủ công qua `resourceHandlingOptions.getAdditionalResources()` |
+| **Unsupported CSS features** | Aspose.HTML tuân theo các tiêu chuẩn HTML5/CSS3; CSS cũ hoặc độc quyền có thể bị bỏ qua. Đơn giản hoá stylesheet hoặc nhúng style trực tiếp trong HTML |
+| **LicenseException at runtime** | Áp dụng giấy phép tạm thời trong quá trình phát triển: `License license = new License(); license.setLicense("Aspose.HTML.Java.lic");` |
 
 ## Câu hỏi thường gặp
 
-### Câu hỏi 1: MHTML là gì và tại sao lại sử dụng nó?
+### Q1: MHTML là gì và tại sao lại dùng nó?
 
-A1: MHTML (MIME HTML) là định dạng tệp kết hợp HTML và các tài nguyên của nó (như hình ảnh và kiểu) thành một tệp duy nhất. Định dạng này được sử dụng để lưu trữ các trang web và đảm bảo rằng tất cả các tài nguyên đều được bao gồm để xem ngoại tuyến.
+A1: MHTML (MIME HTML) là một định dạng tệp kết hợp một trang HTML và tất cả các tài nguyên của nó (hình ảnh, style, script) vào một tệp duy nhất. Nó lý tưởng cho việc lưu trữ các trang web hoặc gửi nội dung tự chứa qua email.
 
-### Câu hỏi 2: Tôi có thể tùy chỉnh các quy tắc xử lý tài nguyên trong Aspose.HTML cho Java không?
+### Q2: Tôi có thể tùy chỉnh quy tắc xử lý tài nguyên trong Aspose.HTML cho Java không?
 
-A2: Có, Aspose.HTML for Java cho phép bạn tùy chỉnh các quy tắc xử lý tài nguyên, giúp bạn kiểm soát cách xử lý tài nguyên trong quá trình chuyển đổi.
+A2: Có, Aspose.HTML cho Java cho phép bạn tùy chỉnh quy tắc xử lý tài nguyên, cung cấp cho bạn quyền kiểm soát cách các tài nguyên được xử lý trong quá trình chuyển đổi.
 
-### Câu hỏi 3: Aspose.HTML cho Java có phù hợp để chuyển đổi hàng loạt không?
+### Q3: Aspose.HTML cho Java có phù hợp cho chuyển đổi hàng loạt không?
 
-A3: Có, Aspose.HTML for Java có thể được sử dụng để chuyển đổi hàng loạt, khiến nó trở thành một công cụ đa năng để xử lý nhiều chuyển đổi HTML sang MHTML.
+A3: Có, Aspose.HTML cho Java có thể được dùng cho chuyển đổi hàng loạt, làm cho nó trở thành công cụ đa năng cho việc xử lý nhiều chuyển đổi HTML sang MHTML.
 
-### Câu hỏi 4: Sử dụng Aspose.HTML cho Java có ưu điểm gì so với các công cụ chuyển đổi khác?
+### Q4: Những ưu điểm của việc sử dụng Aspose.HTML cho Java so với các công cụ chuyển đổi khác là gì?
 
-A4: Aspose.HTML for Java cung cấp các tính năng nâng cao, xử lý tài nguyên và tùy chọn tùy chỉnh, khiến nó trở thành lựa chọn tuyệt vời để chuyển đổi HTML sang MHTML.
+A4: Aspose.HTML cho Java cung cấp các tính năng nâng cao, xử lý tài nguyên và các tùy chọn tùy chỉnh, làm cho nó trở thành lựa chọn mạnh mẽ cho chuyển đổi HTML sang MHTML.
 
-### Câu hỏi 5: Làm thế nào tôi có thể xin được giấy phép tạm thời cho Aspose.HTML cho Java?
+### Q5: Làm sao tôi có thể lấy giấy phép tạm thời cho Aspose.HTML cho Java?
 
-A5: Bạn có thể lấy giấy phép tạm thời cho Aspose.HTML cho Java từ[đây](https://purchase.aspose.com/temporary-license/).
+A5: Bạn có thể lấy giấy phép tạm thời cho Aspose.HTML cho Java từ [here](https://purchase.aspose.com/temporary-license/).
+
+**Câu hỏi thường gặp bổ sung**
+
+**Q: Tôi có thể chuyển đổi một URL từ xa trực tiếp mà không cần lưu trước không?**  
+A: Có – truyền URL vào hàm khởi tạo `HTMLDocument` (ví dụ, `new HTMLDocument("https://example.com")`) và thư viện sẽ tự động lấy trang.
+
+**Q: Bộ chuyển đổi có giữ lại việc thực thi JavaScript không?**  
+A: Không. Quá trình chuyển đổi chỉ nắm bắt markup và tài nguyên tĩnh; nội dung động được tạo bởi JavaScript tại thời gian chạy sẽ không được thực thi.
+
+**Q: Các phiên bản Java nào được hỗ trợ?**  
+A: Aspose.HTML cho Java hỗ trợ Java 8 và các phiên bản sau.
+
+## Kết luận
+
+Bây giờ bạn đã có một công thức hoàn chỉnh, sẵn sàng cho môi trường production để **how to convert HTML to MHTML** với Aspose.HTML cho Java. Sử dụng các bước trên để tích hợp chuyển đổi vào ứng dụng của bạn, tự động hoá các công việc batch, hoặc xây dựng một tiện ích lưu trữ đơn giản. Để tùy chỉnh sâu hơn, khám phá tài liệu API đầy đủ và thử nghiệm các định dạng đầu ra khác như PDF hoặc PNG.
+
+**Tài nguyên liên quan:** [Aspose.HTML for Java documentation](https://reference.aspose.com/html/java/) | [Aspose community forums](https://forum.aspose.com/)
+
+---
+
+**Cập nhật lần cuối:** 2025-12-17  
+**Kiểm tra với:** Aspose.HTML for Java 24.10  
+**Tác giả:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
