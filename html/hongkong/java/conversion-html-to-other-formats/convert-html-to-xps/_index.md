@@ -106,28 +106,6 @@ Converter.convertHTML(htmlDocument, options, outputFile);
 
 ## 常見問題
 
-### Q1: 什麼是 XPS，為什麼我要將 HTML 轉換為 XPS？
-
-A1: XPS 代表 XML Paper Specification，是一種用於電子文件共享與列印的檔案格式。將 HTML 轉換為 XPS 有助於在不同平台與裝置上保持文件的顯示與列印一致性。
-
-### Q2: 轉換過程中可以自訂 XPS 文件的外觀嗎？
-
-A2: 可以，您可透過調整 `XpsSaveOptions` 來自訂背景顏色、頁面大小等多項屬性。
-
-### Q3: Aspose.HTML for Java 是免費工具嗎？
-
-A3: Aspose.HTML for Java 為商業程式庫，但提供免費試用版供您評估其功能。更多資訊請參閱 [here](https://releases.aspose.com/html/java)。
-
-### Q4: Aspose.HTML for Java 還能轉換成哪些其他文件格式？
-
-A4: Aspose.HTML for Java 支援將 HTML 轉換為多種格式，包括 PDF、XPS 等。
-
-### Q5: 我可以在我的 Java 專案中使用 Aspose.HTML for Java 嗎？
-
-A5: 當然可以！Aspose.HTML for Java 專為 Java 開發者設計，能無縫整合至您的 Java 應用程式中。
-
-## Frequently Asked Questions
-
 **Q: 轉換時如何處理 CSS 與 JavaScript？**  
 A: 引擎會完整渲染 CSS 樣式。JavaScript 會在渲染過程中執行，但較複雜的客戶端腳本可能需要額外處理。
 
@@ -142,6 +120,8 @@ A: 程式庫相容於 Java 8 及更新的執行環境。
 
 **Q: 程式庫是否支援 Unicode 字元？**  
 A: 支援，內建完整的 Unicode 支援，能正確保留任何語言的字元。
+
+---
 
 **最後更新：** 2025-12-17  
 **測試環境：** Aspose.HTML for Java 24.12（最新發行版）  

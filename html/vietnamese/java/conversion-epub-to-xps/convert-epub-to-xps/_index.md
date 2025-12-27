@@ -100,28 +100,6 @@ Khi dòng này được thực thi, Aspose.HTML sẽ đọc EPUB, áp dụng cá
 | **Thiếu phông chữ trong XPS** | Phông chữ không được nhúng trong EPUB | Đảm bảo EPUB bao gồm các phông chữ cần thiết hoặc cài đặt chúng trên máy chủ. |
 | **Lỗi hết bộ nhớ** | Tệp EPUB quá lớn | Tăng kích thước heap JVM (`-Xmx2g`) hoặc xử lý EPUB thành các phần nhỏ hơn nếu có thể. |
 
-## Câu hỏi thường gặp
-
-### Q1: Aspose.HTML cho Java là gì?
-
-A1: Aspose.HTML cho Java là một thư viện mạnh mẽ cho phép các nhà phát triển thao tác và chuyển đổi tài liệu HTML và EPUB bằng Java.
-
-### Q2: Aspose.HTML cho Java có miễn phí không?
-
-A1: Aspose.HTML cho Java là một thư viện thương mại, nhưng bạn có thể khám phá tính năng của nó bằng cách sử dụng [bản dùng thử miễn phí](https://releases.aspose.com/).
-
-### Q3: Tôi có thể tùy chỉnh màu sắc đầu ra XPS không?
-
-A3: Có, bạn có thể tùy chỉnh đầu ra XPS bằng cách sửa đổi `XpsSaveOptions`, bao gồm màu nền, như đã trình bày trong hướng dẫn.
-
-### Q4: Aspose.HTML cho Java có tương thích với các môi trường Java khác nhau không?
-
-A3: Có, Aspose.HTML cho Java tương thích với nhiều môi trường phát triển Java, làm cho nó trở thành công cụ đa năng cho các nhà phát triển.
-
-### Q5: Tôi có thể tìm tài liệu cho Aspose.HTML cho Java ở đâu?
-
-A3: Bạn có thể tham khảo [tài liệu](https://reference.aspose.com/html/java/) để biết thông tin chi tiết về cách sử dụng Aspose.HTML cho Java.
-
 ## Các câu hỏi thường gặp khác
 
 **Hỏi: Tôi có thể chuyển đổi các tệp EPUB được bảo vệ bằng mật khẩu không?**  
@@ -142,15 +120,15 @@ Bạn đã có một hướng dẫn hoàn chỉnh, sẵn sàng cho môi trườn
 
 Nếu gặp bất kỳ vấn đề nào hoặc cần hỗ trợ thêm, đừng ngần ngại tìm kiếm sự giúp đỡ tại [diễn đàn hỗ trợ Aspose.HTML](https://forum.aspose.com/).
 
+---
+
+**Cập nhật lần cuối:** 2025-12-17  
+**Đã kiểm tra với:** Aspose.HTML cho Java 24.12 (phiên bản mới nhất tại thời điểm viết)  
+**Tác giả:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Cập nhật lần cuối:** 2025-12-17  
-**Đã kiểm tra với:** Aspose.HTML cho Java 24.12 (phiên bản mới nhất tại thời điểm viết)  
-**Tác giả:** Aspose

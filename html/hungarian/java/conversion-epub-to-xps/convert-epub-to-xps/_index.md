@@ -103,28 +103,6 @@ Amikor ez a sor végrehajtódik, az Aspose.HTML beolvassa az EPUB-ot, alkalmazza
 
 ## Gyakran Ismételt Kérdések
 
-### Q1: Mi az Aspose.HTML for Java?
-
-A1: Az Aspose.HTML for Java egy erőteljes könyvtár, amely lehetővé teszi a fejlesztők számára, hogy Java-val manipulálják és konvertálják a HTML és EPUB dokumentumokat.
-
-### Q2: Ingyenesen használható az Aspose.HTML for Java?
-
-A2: Az Aspose.HTML for Java egy kereskedelmi könyvtár, de a [ingyenes próba](https://releases.aspose.com/) segítségével felfedezheti a funkcionalitását.
-
-### Q3: Testreszabhatom az XPS kimenetet különböző színekkel?
-
-A3: Igen, az XpsSaveOptions módosításával testreszabhatja az XPS kimenetet, beleértve a háttérszínt is, ahogyan a bemutatóban látható.
-
-### Q4: Az Aspose.HTML for Java kompatibilis különböző Java környezetekkel?
-
-A4: Igen, az Aspose.HTML for Java kompatibilis különböző Java fejlesztői környezetekkel, így sokoldalú eszköz a fejlesztők számára.
-
-### Q5: Hol találom az Aspose.HTML for Java dokumentációját?
-
-A5: A részletes információkért az Aspose.HTML for Java használatáról tekintse meg a [dokumentációt](https://reference.aspose.com/html/java/).
-
-## Gyakran Ismételt Kérdések
-
 **Q: Konvertálhatok jelszóval védett EPUB fájlokat?**  
 A: Igen. Nyissa meg az EPUB-ot egy `FileInputStream`-mel, miután megadta a jelszót az alatta lévő streameknek, majd adja át a `Converter.convertEPUB`-nek.
 
@@ -143,15 +121,15 @@ Most már rendelkezik egy teljes, termelésre kész útmutatóval az **EPUB XPS-
 
 Ha bármilyen problémába ütközik, vagy további segítségre van szüksége, ne habozzon felkeresni az [Aspose.HTML támogatási fórumot](https://forum.aspose.com/).
 
+---
+
+**Utolsó frissítés:** 2025-12-17  
+**Tesztelve a következővel:** Aspose.HTML for Java 24.12 (a legújabb a írás időpontjában)  
+**Szerző:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Utolsó frissítés:** 2025-12-17  
-**Tesztelve a következővel:** Aspose.HTML for Java 24.12 (a legújabb a írás időpontjában)  
-**Szerző:** Aspose

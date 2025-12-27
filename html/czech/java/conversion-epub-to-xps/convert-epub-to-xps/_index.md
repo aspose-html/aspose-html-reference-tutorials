@@ -102,28 +102,6 @@ Když se tento řádek provede, Aspose.HTML načte EPUB, použije možnosti XPS 
 
 ## Často kladené otázky
 
-### Q1: Co je Aspose.HTML pro Java?
-
-A1: Aspose.HTML pro Java je výkonná knihovna, která umožňuje vývojářům manipulovat a převádět HTML a EPUB dokumenty pomocí Javy.
-
-### Q2: Je Aspose.HTML pro Java zdarma k použití?
-
-A1: Aspose.HTML pro Java je komerční knihovna, ale můžete prozkoumat její funkce pomocí [free trial](https://releases.aspose.com/).
-
-### Q3: Mohu přizpůsobit výstup XPS různými barvami?
-
-A3: Ano, můžete přizpůsobit výstup XPS úpravou `XpsSaveOptions`, včetně barvy pozadí, jak je ukázáno v tutoriálu.
-
-### Q4: Je Aspose.HTML pro Java kompatibilní s různými Java prostředími?
-
-A3: Ano, Aspose.HTML pro Java je kompatibilní s různými vývojovými prostředími Java, což z něj činí univerzální nástroj pro vývojáře.
-
-### Q5: Kde najdu dokumentaci k Aspose.HTML pro Java?
-
-A3: Můžete se podívat na [documentation](https://reference.aspose.com/html/java/) pro podrobné informace o používání Aspose.HTML pro Java.
-
-## Často kladené otázky
-
 **Q: Mohu převést chráněné EPUB soubory heslem?**  
 A: Ano. Otevřete EPUB pomocí `FileInputStream` po zadání hesla podkladovému streamu a poté jej předáte `Converter.convertEPUB`.
 
@@ -142,15 +120,15 @@ Nyní máte kompletní, připravený průvodce pro **převod EPUB na XPS** pomoc
 
 Pokud narazíte na jakékoli potíže nebo potřebujete další pomoc, neváhejte požádat o podporu na [Aspose.HTML support forum](https://forum.aspose.com/).
 
+---
+
+**Last Updated:** 2025-12-17  
+**Tested With:** Aspose.HTML for Java 24.12 (latest at time of writing)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-17  
-**Tested With:** Aspose.HTML for Java 24.12 (latest at time of writing)  
-**Author:** Aspose

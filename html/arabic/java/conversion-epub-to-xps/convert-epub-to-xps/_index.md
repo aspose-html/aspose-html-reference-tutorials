@@ -90,22 +90,6 @@ Converter.convertEPUB(fileInputStream, options, outputFile);
 | **Missing fonts in XPS** | الخطوط غير مضمنة في EPUB | تأكد من أن EPUB يحتوي على الخطوط المطلوبة أو قم بتثبيتها على الجهاز المضيف. |
 | **Out‑of‑memory error** | ملفات EPUB كبيرة جدًا | زد حجم الذاكرة المخصصة للـ JVM (`-Xmx2g`) أو عالج EPUB على أجزاء أصغر إذا أمكن. |
 
-## الأسئلة المتكررة
-### س1: ما هو Aspose.HTML للغة Java؟
-ج1: Aspose.HTML للغة Java هي مكتبة قوية تتيح للمطورين تعديل وتحويل مستندات HTML و EPUB باستخدام Java.
-
-### س2: هل Aspose.HTML للغة Java مجاني للاستخدام؟
-ج1: Aspose.HTML للغة Java مكتبة تجارية، لكن يمكنك استكشاف وظائفها باستخدام [تجربة مجانية](https://releases.aspose.com/).
-
-### س3: هل يمكنني تخصيص مخرجات XPS بألوان مختلفة؟
-ج3: نعم، يمكنك تخصيص مخرجات XPS بتعديل XpsSaveOptions، بما في ذلك لون الخلفية، كما هو موضح في الدرس.
-
-### س4: هل Aspose.HTML للغة Java متوافق مع بيئات Java المختلفة؟
-ج3: نعم، Aspose.HTML للغة Java متوافق مع بيئات تطوير Java المختلفة، مما يجعله أداة متعددة الاستخدامات للمطورين.
-
-### س5: أين يمكنني العثور على وثائق Aspose.HTML للغة Java؟
-ج3: يمكنك الرجوع إلى [الوثائق](https://reference.aspose.com/html/java/) للحصول على معلومات مفصلة حول استخدام Aspose.HTML للغة Java.
-
 ## أسئلة شائعة
 **س: هل يمكنني تحويل ملفات EPUB المحمية بكلمة مرور؟**  
 ج: نعم. افتح EPUB باستخدام `FileInputStream` بعد تزويد كلمة المرور إلى الدفق الأساسي، ثم مرره إلى `Converter.convertEPUB`.
@@ -124,15 +108,15 @@ Converter.convertEPUB(fileInputStream, options, outputFile);
 
 إذا واجهت أي مشكلات أو احتجت إلى مساعدة إضافية، لا تتردد في طلب المساعدة من [منتدى دعم Aspose.HTML](https://forum.aspose.com/).
 
+---
+
+**آخر تحديث:** 2025-12-17  
+**تم الاختبار مع:** Aspose.HTML for Java 24.12 (latest at time of writing)  
+**المؤلف:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2025-12-17  
-**تم الاختبار مع:** Aspose.HTML for Java 24.12 (latest at time of writing)  
-**المؤلف:** Aspose

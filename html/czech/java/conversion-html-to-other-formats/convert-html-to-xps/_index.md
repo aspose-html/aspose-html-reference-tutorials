@@ -105,28 +105,6 @@ Pokud narazíte na problémy nebo potřebujete další pomoc, neváhejte požád
 
 ## Často kladené otázky
 
-### Q1: Co je XPS a proč bych měl převádět HTML na XPS?
-
-A1: XPS znamená XML Paper Specification, formát souboru používaný pro sdílení a tisk elektronických dokumentů. Převod HTML na XPS je užitečný, když chcete vytvářet dokumenty, které mají být konzistentně zobrazovány a tištěny na různých platformách a zařízeních.
-
-### Q2: Mohu během převodu přizpůsobit vzhled XPS dokumentu?
-
-A2: Ano, můžete přizpůsobit různé aspekty XPS dokumentu, jako je barva pozadí, velikost stránky a další, úpravou XpsSaveOptions.
-
-### Q3: Je Aspose.HTML pro Java zdarma?
-
-A3: Aspose.HTML pro Java je komerční knihovna, ale můžete získat bezplatnou zkušební verzi k vyzkoušení jejích možností. Více informací najdete [zde](https://releases.aspose.com/html/java).
-
-### Q4: Jaké další formáty dokumentů mohu převádět pomocí Aspose.HTML pro Java?
-
-A4: Aspose.HTML pro Java podporuje převod HTML dokumentů do různých formátů, včetně PDF, XPS a dalších.
-
-### Q5: Mohu použít Aspose.HTML pro Java ve svém Java projektu?
-
-A5: Rozhodně! Aspose.HTML pro Java je navrženo pro Java vývojáře a lze jej bez problémů integrovat do vašich Java aplikací.
-
-## Často kladené otázky
-
 **Q: Jak převod zachází s CSS a JavaScriptem?**  
 A: Engine plně vykresluje CSS styly. JavaScript se během vykreslování spouští, ale složité skripty na straně klienta mohou vyžadovat dodatečnou úpravu.
 

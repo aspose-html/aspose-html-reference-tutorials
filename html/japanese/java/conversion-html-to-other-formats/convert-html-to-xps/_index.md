@@ -14,20 +14,21 @@ weight: 12
 
 # Aspose.HTML for Java を使用した HTML から XPS への変換
 
-## Quick Answers
+## クイックアンサー
 - **変換の結果は何ですか？** レイアウトとグラフィックを保持する XPS (XML Paper Specification) ファイルです。  
 - **必要なライブラリはどれですか？** Aspose.HTML for Java（公式サイトからダウンロード）。  
 - **ライセンスは必要ですか？** 無料トライアルが利用可能です。商用利用には商用ライセンスが必要です。  
 - **出力をカスタマイズできますか？** はい – `XpsSaveOptions` を使用して背景色、ページサイズなどを設定できます。  
 - **コードは Java のみですか？** この例は純粋な Java を使用しており、標準的な JDK で動作します。
 
-## What is “convert HTML to XPS”?
+## 「HTML を XPS に変換する」とは何ですか?
 HTML を XPS に変換するとは、ウェブページ（HTML、CSS、画像）を取得し、固定レイアウトの XPS ドキュメントとしてレンダリングすることを意味します。XPS は、デバイス間で同一の表示が保証されるため、信頼性の高い印刷やアーカイブに最適です。
 
-## Why use Aspose.HTML Save Options?
+## Aspose.HTML の保存オプションを使用する理由
+
 `XpsSaveOptions` は、生成される XPS ファイルを背景色、ページサイズ、圧縮など細かく制御できます。この柔軟性が、プロフェッショナルなドキュメントパイプラインで Aspose.HTML が選ばれる理由です。
 
-## Prerequisites
+## 前提条件
 
 Aspose.HTML for Java を使用して HTML を XPS に変換する前に、以下の前提条件を確認してください。
 
@@ -38,9 +39,9 @@ Aspose.HTML for Java を使用して HTML を XPS に変換する前に、以下
 
 必要な前提条件が整ったので、Aspose.HTML for Java を使用した HTML から XPS への変換手順に進みましょう。
 
-## How to Convert HTML to XPS?
+## HTML を XPS に変換する方法
 
-### Import Packages
+### パッケージのインポート
 
 まず、Aspose.HTML ライブラリから必要なパッケージをインポートする必要があります。この手順は、変換に必要な機能にアクセスするために重要です。
 
@@ -59,7 +60,7 @@ HTML ファイルの読み込みは最初の実行ステップです。`HTMLDocu
 HTMLDocument htmlDocument = new HTMLDocument("path/to/your/input.html");
 ```
 
-### Initialize XpsSaveOptions
+### XpsSaveOptions を初期化する
 
 XPS 変換オプションを設定します。背景色、ページサイズなどさまざまな設定をカスタマイズできます。これらは最終的な XPS の外観を制御する **Aspose HTML の保存オプション** です。
 
@@ -68,7 +69,7 @@ XpsSaveOptions options = new XpsSaveOptions();
 options.setBackgroundColor(Color.getCyan());
 ```
 
-### Define the Output File Path
+### 出力ファイルパスを定義する
 
 変換された XPS ファイルを保存するパスを指定します。
 
@@ -76,7 +77,7 @@ options.setBackgroundColor(Color.getCyan());
 String outputFile = "path/to/your/output.xps";
 ```
 
-### Perform the Conversion
+### 変換を実行する
 
 それでは、Aspose.HTML の `Converter` クラスを使用して HTML から XPS への変換を実行します。
 
@@ -86,7 +87,7 @@ Converter.convertHTML(htmlDocument, options, outputFile);
 
 おめでとうございます！Aspose.HTML for Java を使用して HTML ドキュメントを XPS に正常に変換できました。
 
-## Common Use Cases & Tips
+## 一般的なユースケースとヒント
 
 - **印刷可能なレポートの生成:** Web ベースのレポートを XPS に変換して、信頼性の高い印刷を実現します。  
 - **Web コンテンツのアーカイブ:** Web ページの正確なビジュアルレイアウトを XPS アーカイブとして保存します。  
@@ -94,35 +95,13 @@ Converter.convertHTML(htmlDocument, options, outputFile);
 
 **プロのコツ:** PDF 出力が必要な場合は、`XpsSaveOptions` を `PdfSaveOptions` に置き換えるだけです。同じ変換フローが **HTML を PDF に変換** するシナリオでも機能します。
 
-## Conclusion
+## 結論
 
 HTML を XPS に変換することは、ドキュメントや Web コンテンツを扱うすべての人にとって有用なスキルです。Aspose.HTML for Java はこのプロセスを簡素化し、HTML ソースから手軽に XPS ドキュメントを生成できるようにします。本チュートリアルで示した手順を踏めば、Aspose.HTML の力を活用して、さまざまなドキュメント変換の可能性を広げることができます。
 
 問題が発生したり、さらにサポートが必要な場合は、遠慮なく [Aspose.HTML フォーラム](https://forum.aspose.com/)で助けを求めてください。
 
-## FAQ's
-
-### Q1: XPS とは何ですか、またなぜ HTML を XPS に変換する必要があるのでしょうか？
-
-A1: XPS は XML Paper Specification の略で、電子文書の共有や印刷に使用されるファイル形式です。HTML を XPS に変換すると、異なるプラットフォームやデバイス間で一貫した表示と印刷が必要な文書を作成する際に有益です。
-
-### Q2: 変換時に XPS ドキュメントの外観をカスタマイズできますか？
-
-A2: はい、`XpsSaveOptions` を調整することで、背景色やページサイズなど、XPS ドキュメントのさまざまな側面をカスタマイズできます。
-
-### Q3: Aspose.HTML for Java は無料ツールですか？
-
-A3: Aspose.HTML for Java は商用ライブラリですが、機能を評価するための無料トライアル版を入手できます。詳細は [こちら](https://releases.aspose.com/html/java)をご覧ください。
-
-### Q4: Aspose.HTML for Java で変換できる他のドキュメント形式は何ですか？
-
-A4: Aspose.HTML for Java は、HTML ドキュメントを PDF、XPS などのさまざまな形式に変換することをサポートしています。
-
-### Q5: 私の Java プロジェクトで Aspose.HTML for Java を使用できますか？
-
-A5: もちろんです！Aspose.HTML for Java は Java 開発者向けに設計されており、Java アプリケーションにシームレスに統合できます。
-
-## Frequently Asked Questions
+## よくある質問
 
 **Q: 変換は CSS と JavaScript をどのように処理しますか？**  
 A: エンジンは CSS スタイルを完全にレンダリングします。JavaScript はレンダリング中に実行されますが、複雑なクライアント側スクリプトは追加の処理が必要になる場合があります。
@@ -141,9 +120,9 @@ A: はい、完全な Unicode サポートが組み込まれており、あら�
 
 ---
 
-**Last Updated:** 2025-12-17  
-**Tested With:** Aspose.HTML for Java 24.12 (latest release)  
-**Author:** Aspose  
+**最終更新日:** 2025年12月17日
+**テスト環境:** Aspose.HTML for Java 24.12 (最新リリース)
+**作成者:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

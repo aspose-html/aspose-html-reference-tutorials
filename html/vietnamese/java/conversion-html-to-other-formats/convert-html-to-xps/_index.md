@@ -103,28 +103,6 @@ Chuyển đổi HTML sang XPS là một kỹ năng quý giá cho bất kỳ ai l
 
 Nếu gặp bất kỳ vấn đề nào hoặc cần hỗ trợ thêm, đừng ngần ngại tìm kiếm trợ giúp tại [diễn đàn Aspose.HTML](https://forum.aspose.com/).
 
-## Câu hỏi thường gặp
-
-### Q1: XPS là gì, và tại sao tôi cần chuyển đổi HTML sang XPS?
-
-A1: XPS là viết tắt của XML Paper Specification, một định dạng tệp dùng để chia sẻ và in ấn tài liệu điện tử. Chuyển đổi HTML sang XPS hữu ích khi bạn muốn tạo tài liệu cần hiển thị và in ấn đồng nhất trên các nền tảng và thiết bị khác nhau.
-
-### Q2: Tôi có thể tùy chỉnh giao diện của tài liệu XPS trong quá trình chuyển đổi không?
-
-A2: Có, bạn có thể tùy chỉnh nhiều khía cạnh của tài liệu XPS, chẳng hạn màu nền, kích thước trang và hơn thế nữa, bằng cách điều chỉnh `XpsSaveOptions`.
-
-### Q3: Aspose.HTML cho Java có phải là công cụ miễn phí không?
-
-A3: Aspose.HTML cho Java là một thư viện thương mại, nhưng bạn có thể nhận phiên bản dùng thử miễn phí để đánh giá khả năng của nó. Để biết thêm chi tiết, hãy truy cập [đây](https://releases.aspose.com/html/java).
-
-### Q4: Những định dạng tài liệu nào khác tôi có thể chuyển đổi bằng Aspose.HTML cho Java?
-
-A4: Aspose.HTML cho Java hỗ trợ chuyển đổi tài liệu HTML sang nhiều định dạng, bao gồm PDF, XPS và các định dạng khác.
-
-### Q5: Tôi có thể sử dụng Aspose.HTML cho Java trong dự án Java của mình không?
-
-A5: Chắc chắn! Aspose.HTML cho Java được thiết kế cho các nhà phát triển Java và có thể tích hợp một cách liền mạch vào các ứng dụng Java của bạn.
-
 ## Các câu hỏi thường gặp khác
 
 **Q: Quá trình chuyển đổi xử lý CSS và JavaScript như thế nào?**  

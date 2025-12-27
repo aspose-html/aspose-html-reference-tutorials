@@ -110,7 +110,7 @@ Gratulacje! Pomyślnie **przekonwertowano HTML do MHTML** przy użyciu Aspose.HT
 | **Nieobsługiwane funkcje CSS** | Aspose.HTML stosuje się do standardów HTML5/CSS3; starszy lub własnościowy CSS może być pomijany. Uprość arkusz stylów lub osadź style bezpośrednio w HTML |
 | **LicenseException w czasie wykonywania** | Zastosuj tymczasową licencję podczas rozwoju: `License license = new License(); license.setLicense("Aspose.HTML.Java.lic");` |
 
-## FAQ
+## Najczęściej zadawane pytania
 
 ### Q1: Czym jest MHTML i dlaczego jest używany?
 A1: MHTML (MIME HTML) to format pliku, który łączy stronę HTML i wszystkie jej zasoby (obrazy, style, skrypty) w jeden plik. Jest idealny do archiwizacji stron internetowych lub wysyłania samodzielnej treści za pośrednictwem e‑maila.
@@ -142,12 +142,13 @@ A: Aspose.HTML dla Javy obsługuje Javę 8 i późniejsze wersje.
 
 Masz teraz kompletny, gotowy do produkcji przepis na **konwersję HTML do MHTML** przy użyciu Aspose.HTML dla Javy. Skorzystaj z powyższych kroków, aby zintegrować konwersję w swoich aplikacjach, zautomatyzować zadania wsadowe lub stworzyć prostą usługę archiwizacji. Aby uzyskać głębsze dostosowanie, zapoznaj się z pełną dokumentacją API i eksperymentuj z innymi formatami wyjściowymi, takimi jak PDF czy PNG.
 
+**Powiązane zasoby:** [Aspose.HTML for Java documentation](https://reference.aspose.com/html/java/) | [Aspose community forums](https://forum.aspose.com/)
+
 ---
 
 **Ostatnia aktualizacja:** 2025-12-17  
 **Testowano z:** Aspose.HTML for Java 24.10  
 **Autor:** Aspose  
-**Powiązane zasoby:** [Aspose.HTML for Java documentation](https://reference.aspose.com/html/java/) | [Aspose community forums](https://forum.aspose.com/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

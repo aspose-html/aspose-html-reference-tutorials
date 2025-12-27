@@ -100,28 +100,6 @@ Converter.convertEPUB(fileInputStream, options, outputFile);
 | **XPS 中缺少字型** | 字型未嵌入於 EPUB 中 | 確保 EPUB 包含所需字型，或在主機上安裝相應字型。 |
 | **記憶體不足錯誤** | EPUB 檔案過大 | 增加 JVM 堆積大小（`-Xmx2g`），或盡可能將 EPUB 分成較小的區塊處理。 |
 
-## 常見問答
-
-### Q1：什麼是 Aspose.HTML for Java？
-
-A1：Aspose.HTML for Java 是一個強大的函式庫，允許開發人員使用 Java 操作與轉換 HTML 與 EPUB 文件。
-
-### Q2：Aspose.HTML for Java 可以免費使用嗎？
-
-A1：Aspose.HTML for Java 為商業授權函式庫，但您可透過 [免費試用](https://releases.aspose.com/) 來探索其功能。
-
-### Q3：我可以使用不同顏色自訂 XPS 輸出嗎？
-
-A3：可以，您可透過修改 XpsSaveOptions（包括背景顏色）來自訂 XPS 輸出，如教學所示。
-
-### Q4：Aspose.HTML for Java 是否相容於各種 Java 環境？
-
-A3：是的，Aspose.HTML for Java 相容於不同的 Java 開發環境，為開發者提供多元化的工具。
-
-### Q5：在哪裡可以找到 Aspose.HTML for Java 的文件？
-
-A3：您可參考 [文件說明](https://reference.aspose.com/html/java/) 取得使用 Aspose.HTML for Java 的詳細資訊。
-
 ## 常見問題
 
 **Q：我可以轉換受密碼保護的 EPUB 檔案嗎？**  
@@ -142,15 +120,15 @@ A：支援。SVG 內容在轉換為 XPS 時會正確呈現。
 
 若您遇到任何問題或需要進一步協助，請隨時前往 [Aspose.HTML 支援論壇](https://forum.aspose.com/) 尋求協助。
 
+---
+
+**最後更新：** 2025-12-17  
+**測試環境：** Aspose.HTML for Java 24.12（撰寫時的最新版本）  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最後更新：** 2025-12-17  
-**測試環境：** Aspose.HTML for Java 24.12（撰寫時的最新版本）  
-**作者：** Aspose

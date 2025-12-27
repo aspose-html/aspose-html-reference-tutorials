@@ -105,28 +105,6 @@ Converting HTML to XPS is a valuable skill for anyone working with documents and
 
 If you encounter any issues or need further assistance, don't hesitate to seek help from the [Aspose.HTML forum](https://forum.aspose.com/).
 
-## FAQ's
-
-### Q1: What is XPS, and why would I need to convert HTML to XPS?
-
-A1: XPS stands for XML Paper Specification, a file format used for electronic document sharing and printing. Converting HTML to XPS is beneficial when you want to create documents that need to be consistently displayed and printed across different platforms and devices.
-
-### Q2: Can I customize the appearance of the XPS document during conversion?
-
-A2: Yes, you can customize various aspects of the XPS document, such as background color, page size, and more, by adjusting the XpsSaveOptions.
-
-### Q3: Is Aspose.HTML for Java a free tool?
-
-A3: Aspose.HTML for Java is a commercial library, but you can get a free trial version to evaluate its capabilities. For more details, visit [here](https://releases.aspose.com/html/java).
-
-### Q4: What other document formats can I convert with Aspose.HTML for Java?
-
-A4: Aspose.HTML for Java supports the conversion of HTML documents into various formats, including PDF, XPS, and more.
-
-### Q5: Can I use Aspose.HTML for Java in my Java project?
-
-A5: Absolutely! Aspose.HTML for Java is designed for Java developers and can be seamlessly integrated into your Java applications.
-
 ## Frequently Asked Questions
 
 **Q: How does the conversion handle CSS and JavaScript?**  

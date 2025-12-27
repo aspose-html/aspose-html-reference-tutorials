@@ -147,12 +147,13 @@ C: Aspose.HTML for Java, Java 8 ve sonraki sürümleri destekler.
 
 Artık Aspose.HTML for Java ile **HTML'yi MHTML'ye nasıl dönüştüreceğinize** dair eksiksiz, üretim‑hazır bir tarifiniz var. Yukarıdaki adımları uygulayarak dönüşümü uygulamalarınıza entegre edebilir, toplu işleri otomatikleştirebilir veya basit bir arşiv aracı oluşturabilirsiniz. Daha derin özelleştirmeler için tam API referansına göz atın ve PDF ya da PNG gibi diğer çıktı formatlarını da deneyin.
 
+**İlgili Kaynaklar:** [Aspose.HTML for Java belgeleri](https://reference.aspose.com/html/java/) | [Aspose topluluk forumları](https://forum.aspose.com/)
+
 ---
 
 **Son Güncelleme:** 2025-12-17  
 **Test Edilen Sürüm:** Aspose.HTML for Java 24.10  
 **Yazar:** Aspose  
-**İlgili Kaynaklar:** [Aspose.HTML for Java belgeleri](https://reference.aspose.com/html/java/) | [Aspose topluluk forumları](https://forum.aspose.com/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

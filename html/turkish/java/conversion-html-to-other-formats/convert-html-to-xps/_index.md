@@ -106,28 +106,6 @@ HTML'yi XPS'ye dönüştürmek, belge ve web içeriğiyle çalışan herkes içi
 
 Herhangi bir sorunla karşılaşırsanız veya daha fazla yardıma ihtiyaç duyarsanız, [Aspose.HTML forumundan](https://forum.aspose.com/) destek almaktan çekinmeyin.
 
-## SSS
-
-### S1: XPS nedir ve neden HTML'yi XPS'ye dönüştürmeliyim?
-
-XPS, XML Paper Specification anlamına gelir ve elektronik belge paylaşımı ve yazdırma için kullanılan bir dosya formatıdır. HTML'yi XPS'ye dönüştürmek, belgelerin farklı platform ve cihazlarda tutarlı bir şekilde görüntülenip yazdırılmasını sağlamak istediğinizde faydalıdır.
-
-### S2: Dönüşüm sırasında XPS belgesinin görünümünü özelleştirebilir miyim?
-
-Evet, `XpsSaveOptions` ayarlarını değiştirerek arka plan rengi, sayfa boyutu ve daha fazlası gibi çeşitli özellikleri özelleştirebilirsiniz.
-
-### S3: Aspose.HTML for Java ücretsiz bir araç mı?
-
-Aspose.HTML for Java ticari bir kütüphanedir, ancak yeteneklerini değerlendirmek için ücretsiz bir deneme sürümü alabilirsiniz. Daha fazla bilgi için [buraya](https://releases.aspose.com/html/java/) bakın.
-
-### S4: Aspose.HTML for Java ile hangi diğer belge formatlarına dönüştürebilirim?
-
-Aspose.HTML for Java, HTML belgelerini PDF, XPS ve daha fazlası dahil olmak üzere çeşitli formatlara dönüştürmeyi destekler.
-
-### S5: Aspose.HTML for Java'yi Java projemde kullanabilir miyim?
-
-Kesinlikle! Aspose.HTML for Java, Java geliştiricileri için tasarlanmıştır ve Java uygulamalarınıza sorunsuz bir şekilde entegre edilebilir.
-
 ## Sıkça Sorulan Sorular
 
 **S: Dönüşüm CSS ve JavaScript'i nasıl ele alıyor?**  

@@ -146,12 +146,13 @@ Converter.convertHTML(htmlDocument, options, outputMHTML);
 
 الآن لديك وصفة كاملة وجاهزة للإنتاج **لتحويل HTML إلى MHTML** باستخدام Aspose.HTML for Java. استخدم الخطوات أعلاه لدمج التحويل في تطبيقاتك، أتمتة وظائف الدفعات، أو بناء أداة أرشفة بسيطة. للحصول على تخصيص أعمق، استكشف مرجع API الكامل وجرب صيغ إخراج أخرى مثل PDF أو PNG.
 
+**مصادر ذات صلة:** [وثائق Aspose.HTML لجافا](https://reference.aspose.com/html/java/) | [منتديات مجتمع Aspose](https://forum.aspose.com/)
+
 ---
 
 **Last Updated:** 2025-12-17  
 **Tested With:** Aspose.HTML for Java 24.10  
 **Author:** Aspose  
-**Related Resources:** [Aspose.HTML for Java documentation](https://reference.aspose.com/html/java/) | [Aspose community forums](https://forum.aspose.com/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

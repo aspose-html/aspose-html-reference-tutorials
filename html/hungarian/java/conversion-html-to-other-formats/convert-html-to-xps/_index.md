@@ -112,28 +112,6 @@ A HTML XPS-re konvertálása értékes készség mindenki számára, aki dokumen
 
 Ha bármilyen problémába ütközöl, vagy további segítségre van szükséged, ne habozz segítséget kérni az [Aspose.HTML fórumon](https://forum.aspose.com/).
 
-## FAQ's
-
-### Q1: Mi az XPS, és miért kellene HTML-t XPS-re konvertálni?
-
-A1: Az XPS az XML Paper Specification rövidítése, egy olyan fájlformátum, amelyet elektronikus dokumentumok megosztására és nyomtatására használnak. A HTML XPS-re konvertálása előnyös, ha olyan dokumentumokat szeretnél létrehozni, amelyeknek különböző platformokon és eszközökön egységesen kell megjelenniük és nyomtatódniuk.
-
-### Q2: Testreszabhatom a XPS dokumentum megjelenését a konverzió során?
-
-A2: Igen, a XpsSaveOptions beállításával testreszabhatod a XPS dokumentum különböző aspektusait, például a háttérszínt, az oldalméretet és egyebeket.
-
-### Q3: Az Aspose.HTML for Java ingyenes eszköz?
-
-A3: Az Aspose.HTML for Java egy kereskedelmi könyvtár, de ingyenes próba verziót is beszerezhetsz a képességeinek értékeléséhez. További részletekért látogasd meg [ezt a linket](https://releases.aspose.com/html/java).
-
-### Q4: Milyen egyéb dokumentumformátumokra konvertálhatok az Aspose.HTML for Java-val?
-
-A4: Az Aspose.HTML for Java támogatja a HTML dokumentumok különböző formátumokra, például PDF, XPS és egyebek, történő konvertálását.
-
-### Q5: Használhatom az Aspose.HTML for Java-t a Java projektemben?
-
-A5: Természetesen! Az Aspose.HTML for Java Java fejlesztők számára készült, és zökkenőmentesen integrálható a Java alkalmazásaidba.
-
 ## Frequently Asked Questions
 
 **Q: Hogyan kezeli a konverzió a CSS-t és a JavaScriptet?**  
@@ -150,6 +128,8 @@ A: A könyvtár a Java 8 és újabb futtatókörnyezeteket támogatja.
 
 **Q: Támogatja a könyvtár a Unicode karaktereket?**  
 A: Igen, a teljes Unicode támogatás be van építve, megőrizve bármely nyelv karaktereit.
+
+---
 
 **Last Updated:** 2025-12-17  
 **Tested With:** Aspose.HTML for Java 24.12 (latest release)  

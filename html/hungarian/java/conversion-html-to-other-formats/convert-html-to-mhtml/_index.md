@@ -139,12 +139,13 @@ Gratulálunk! Sikeresen **konvertált HTML‑t MHTML‑re** az Aspose.HTML for J
 
 Most már rendelkezik egy teljes, termelés‑kész recepttel arra, **hogyan konvertáljon HTML‑t MHTML‑re** az Aspose.HTML for Java segítségével. Használja a fenti lépéseket a konverzió beépítéséhez alkalmazásaiba, kötegelt feladatok automatizálásához vagy egyszerű archiváló eszköz létrehozásához. Mélyebb testreszabáshoz tekintse meg a teljes API‑referenciát, és kísérletezzen más kimeneti formátumokkal, például PDF‑vel vagy PNG‑vel.
 
+**Kapcsolódó források:** [Aspose.HTML for Java dokumentáció](https://reference.aspose.com/html/java/) | [Aspose közösségi fórumok](https://forum.aspose.com/)
+
 ---
 
 **Utoljára frissítve:** 2025-12-17  
 **Tesztelt verzió:** Aspose.HTML for Java 24.10  
 **Szerző:** Aspose  
-**Kapcsolódó források:** [Aspose.HTML for Java dokumentáció](https://reference.aspose.com/html/java/) | [Aspose közösségi fórumok](https://forum.aspose.com/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

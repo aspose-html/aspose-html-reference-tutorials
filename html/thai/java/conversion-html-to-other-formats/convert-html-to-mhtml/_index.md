@@ -146,12 +146,13 @@ A: Aspose.HTML สำหรับ Java รองรับ Java 8 และรุ
 
 คุณมีสูตรครบถ้วนพร้อมใช้งานสำหรับ **วิธีแปลง HTML เป็น MHTML** ด้วย Aspose.HTML สำหรับ Java ใช้ขั้นตอนเหล่านี้เพื่อรวมการแปลงเข้าในแอปพลิเคชันของคุณ, ทำงานอัตโนมัติเป็นชุด, หรือสร้างยูทิลิตี้เก็บสำเนา สำหรับการปรับแต่งขั้นสูงเพิ่มเติม, สำรวจเอกสาร API ทั้งหมดและลองใช้รูปแบบผลลัพธ์อื่น ๆ เช่น PDF หรือ PNG
 
+**แหล่งข้อมูลที่เกี่ยวข้อง:** [เอกสาร Aspose.HTML สำหรับ Java](https://reference.aspose.com/html/java/) | [ฟอรั่มชุมชน Aspose](https://forum.aspose.com/)
+
 ---
 
 **อัปเดตล่าสุด:** 2025-12-17  
 **ทดสอบด้วย:** Aspose.HTML สำหรับ Java 24.10  
 **ผู้เขียน:** Aspose  
-**แหล่งข้อมูลที่เกี่ยวข้อง:** [เอกสาร Aspose.HTML สำหรับ Java](https://reference.aspose.com/html/java/) | [ฟอรั่มชุมชน Aspose](https://forum.aspose.com/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

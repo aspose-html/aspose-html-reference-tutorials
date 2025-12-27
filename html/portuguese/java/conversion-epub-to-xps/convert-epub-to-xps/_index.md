@@ -102,28 +102,6 @@ Quando esta linha for executada, o Aspose.HTML lê o EPUB, aplica as opções XP
 
 ## Perguntas Frequentes
 
-### Q1: O que é Aspose.HTML para Java?
-
-A1: Aspose.HTML para Java é uma biblioteca poderosa que permite aos desenvolvedores manipular e converter documentos HTML e EPUB usando Java.
-
-### Q2: O Aspose.HTML para Java é gratuito para uso?
-
-A1: Aspose.HTML para Java é uma biblioteca comercial, mas você pode explorar sua funcionalidade usando um [teste gratuito](https://releases.aspose.com/).
-
-### Q3: Posso personalizar a saída XPS com cores diferentes?
-
-A3: Sim, você pode personalizar a saída XPS modificando o XpsSaveOptions, incluindo a cor de fundo, como mostrado no tutorial.
-
-### Q4: O Aspose.HTML para Java é compatível com vários ambientes Java?
-
-A3: Sim, Aspose.HTML para Java é compatível com diferentes ambientes de desenvolvimento Java, tornando‑o uma ferramenta versátil para desenvolvedores.
-
-### Q5: Onde posso encontrar a documentação do Aspose.HTML para Java?
-
-A3: Você pode consultar a [documentação](https://reference.aspose.com/html/java/) para informações detalhadas sobre o uso do Aspose.HTML para Java.
-
-## Perguntas Frequentes
-
 **Q: Posso converter arquivos EPUB protegidos por senha?**  
 A: Sim. Abra o EPUB com um `FileInputStream` após fornecer a senha ao fluxo subjacente, então passe‑lo para `Converter.convertEPUB`.
 
@@ -142,15 +120,15 @@ Agora você tem um guia completo e pronto para produção para **converter EPUB 
 
 Se você encontrar algum problema ou precisar de mais assistência, não hesite em buscar ajuda no [fórum de suporte do Aspose.HTML](https://forum.aspose.com/).
 
+---
+
+**Última atualização:** 2025-12-17  
+**Testado com:** Aspose.HTML for Java 24.12 (latest at time of writing)  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última atualização:** 2025-12-17  
-**Testado com:** Aspose.HTML for Java 24.12 (latest at time of writing)  
-**Autor:** Aspose

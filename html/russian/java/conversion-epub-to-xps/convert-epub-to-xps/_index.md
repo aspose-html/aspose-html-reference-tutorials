@@ -102,28 +102,6 @@ Converter.convertEPUB(fileInputStream, options, outputFile);
 
 ## Часто задаваемые вопросы
 
-### В1: Что такое Aspose.HTML для Java?
-
-О1: Aspose.HTML для Java — мощная библиотека, позволяющая разработчикам манипулировать и конвертировать HTML и EPUB документы с помощью Java.
-
-### В2: Можно ли бесплатно использовать Aspose.HTML для Java?
-
-О1: Aspose.HTML для Java — коммерческая библиотека, но вы можете изучить её возможности, используя [бесплатную пробную версию](https://releases.aspose.com/).
-
-### В3: Можно ли настроить вывод XPS с разными цветами?
-
-О3: Да, вы можете настроить вывод XPS, изменив XpsSaveOptions, включая цвет фона, как показано в руководстве.
-
-### В4: Совместима ли Aspose.HTML для Java с различными Java‑средами?
-
-О1: Да, Aspose.HTML для Java совместима с различными средами разработки Java, что делает её универсальным инструментом для разработчиков.
-
-### В5: Где можно найти документацию по Aspose.HTML для Java?
-
-О1: Вы можете обратиться к [документации](https://reference.aspose.com/html/java/) для получения подробной информации об использовании Aspose.HTML для Java.
-
-## Часто задаваемые вопросы
-
 **В:** Могу ли я конвертировать EPUB‑файлы, защищённые паролем?  
 **О:** Да. Откройте EPUB с помощью `FileInputStream`, предварительно передав пароль базовому потоку, затем передайте его в `Converter.convertEPUB`.
 
@@ -142,15 +120,15 @@ Converter.convertEPUB(fileInputStream, options, outputFile);
 
 Если вы столкнётесь с проблемами или понадобится дополнительная помощь, не стесняйтесь обратиться к [форуму поддержки Aspose.HTML](https://forum.aspose.com/).
 
+---
+
+**Последнее обновление:** 2025-12-17  
+**Тестировано с:** Aspose.HTML for Java 24.12 (latest at time of writing)  
+**Автор:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Последнее обновление:** 2025-12-17  
-**Тестировано с:** Aspose.HTML for Java 24.12 (latest at time of writing)  
-**Автор:** Aspose

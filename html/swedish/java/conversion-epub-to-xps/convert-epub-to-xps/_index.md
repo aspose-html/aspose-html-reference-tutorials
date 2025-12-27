@@ -100,28 +100,6 @@ När den här raden körs läser Aspose.HTML EPUB‑filen, tillämpar XPS‑alte
 | **Saknade typsnitt i XPS** | Typsnitt ej inbäddade i EPUB | Säkerställ att EPUB‑filen innehåller de nödvändiga typsnitten eller installera dem på värdmaskinen. |
 | **Out‑of‑memory‑fel** | Mycket stora EPUB‑filer | Öka JVM‑heap‑storleken (`-Xmx2g`) eller bearbeta EPUB‑filen i mindre delar om möjligt. |
 
-## FAQ's
-
-### Q1: Vad är Aspose.HTML för Java?
-
-A1: Aspose.HTML för Java är ett kraftfullt bibliotek som låter utvecklare manipulera och konvertera HTML‑ och EPUB‑dokument med Java.
-
-### Q2: Är Aspose.HTML för Java gratis att använda?
-
-A1: Aspose.HTML för Java är ett kommersiellt bibliotek, men du kan utforska funktionaliteten genom att använda en [free trial](https://releases.aspose.com/).
-
-### Q3: Kan jag anpassa XPS‑utdata med olika färger?
-
-A3: Ja, du kan anpassa XPS‑utdata genom att ändra `XpsSaveOptions`, inklusive bakgrundsfärgen, som visas i handledningen.
-
-### Q4: Är Aspose.HTML för Java kompatibelt med olika Java‑miljöer?
-
-A3: Ja, Aspose.HTML för Java är kompatibelt med olika Java‑utvecklingsmiljöer, vilket gör det till ett mångsidigt verktyg för utvecklare.
-
-### Q5: Var kan jag hitta dokumentationen för Aspose.HTML för Java?
-
-A3: Du kan hänvisa till [documentation](https://reference.aspose.com/html/java/) för detaljerad information om hur du använder Aspose.HTML för Java.
-
 ## Vanliga frågor
 
 **Q: Kan jag konvertera lösenordsskyddade EPUB‑filer?**  
@@ -142,15 +120,15 @@ Du har nu en komplett, produktionsklar guide för att **konvertera EPUB till XPS
 
 Om du stöter på problem eller behöver ytterligare hjälp, tveka inte att söka stöd i [Aspose.HTML supportforum](https://forum.aspose.com/).
 
+---
+
+**Last Updated:** 2025-12-17  
+**Tested With:** Aspose.HTML for Java 24.12 (latest at time of writing)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-17  
-**Tested With:** Aspose.HTML for Java 24.12 (latest at time of writing)  
-**Author:** Aspose
