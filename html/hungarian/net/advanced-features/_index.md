@@ -31,7 +31,7 @@ Tanulja meg, hogyan dolgozhat HTML-dokumentumokkal .NET-ben az Aspose.HTML haszn
 ### [Hozzon létre Stream Provider-t .NET-ben az Aspose.HTML segítségével](./create-stream-provider/)
 Ismerje meg az Aspose.HTML for .NET használatát a HTML-dokumentumok hatékony kezeléséhez. Lépésről lépésre bemutató fejlesztőknek.
 ### [Memóriafolyam-szolgáltató .NET-ben Aspose.HTML-lel](./memory-stream-provider/)
-Ismerje meg, hogyan hozhat létre lenyűgöző HTML-dokumentumokat .NET-ben az Aspose.HTML segítségével. Kövesse lépésről lépésre bemutató oktatóanyagunkat, és szabadítsa fel a HTML-manipuláció erejét.
+Ismerje meg, hogyan hozhat lenyűgöző HTML-dokumentumokat .NET-ben az Aspose.HTML segítségével. Kövesse lépésről lépésre bemutató oktatóanyagunkat, és szabadítsa fel a HTML-manipuláció erejét.
 ### [Webkaparás .NET-ben Aspose.HTML-lel](./web-scraping/)
 Tanulja meg a HTML dokumentumok kezelését .NET-ben az Aspose.HTML segítségével. Hatékonyan navigálhat, szűrhet, lekérdezhet és kiválaszthat elemeket a továbbfejlesztett webfejlesztés érdekében.
 ### [Használja a kiterjesztett tartalomtulajdonságot a .NET-ben az Aspose.HTML-lel](./use-extended-content-property/)
@@ -42,7 +42,8 @@ Konvertálja dinamikusan HTML-t PDF-be az Aspose.HTML for .NET segítségével. 
 Ismerje meg, hogyan konvertálhat HTML-t PDF-be, XPS-be és képekké az Aspose.HTML for .NET segítségével. Lépésről lépésre bemutató oktatóprogram kódpéldákkal és GYIK-vel.
 ### [HTML-sablonok használata .NET-ben az Aspose.HTML-lel](./using-html-templates/)
 Ismerje meg, hogyan használhatja az Aspose.HTML for .NET-et HTML-dokumentumok dinamikus generálására JSON-adatokból. Használja ki a HTML-kezelés erejét .NET-alkalmazásaiban.
-
+### [Memóriafolyam létrehozása C# – Egyéni stream létrehozási útmutató](./create-memory-stream-c-custom-stream-creation-guide/)
+Tanulja meg, hogyan hozhat létre egyedi memóriafolyamot C#-ban az Aspose.HTML használatával.
 
 ## Következtetés
 

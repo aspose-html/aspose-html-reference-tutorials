@@ -32,6 +32,8 @@ Aspose.HTML for .NET 是一個功能強大的工具，可讓開發人員以程�
 了解如何使用 Aspose.HTML for .NET 有效率地操作 HTML 文件。面向開發人員的分步教程。
 ### [.NET 中的記憶體流提供者與 Aspose.HTML](./memory-stream-provider/)
 了解如何使用 Aspose.HTML 在 .NET 中建立令人驚嘆的 HTML 文件。遵循我們的分步教程並釋放 HTML 操作的力量。
+### [在 C# 中建立記憶體串流 – 自訂串流建立指南](./create-memory-stream-c-custom-stream-creation-guide/)
+了解如何在 C# 中使用 Aspose.HTML 建立自訂記憶體串流，以提升 HTML 處理效能。
 ### [使用 Aspose.HTML 在 .NET 中進行網頁抓取](./web-scraping/)
 學習使用 Aspose.HTML 操作 .NET 中的 HTML 文件。有效地導航、過濾、查詢和選擇元素以增強 Web 開發。
 ### [將 .NET 中的擴充內容屬性與 Aspose.HTML 結合使用](./use-extended-content-property/)

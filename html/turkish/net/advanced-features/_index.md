@@ -32,6 +32,7 @@ Komut dosyası yönetimi, özel stiller, JavaScript yürütme denetimi ve daha f
 HTML belgelerini etkili bir şekilde düzenlemek için Aspose.HTML for .NET'i nasıl kullanacağınızı öğrenin. Geliştiriciler için adım adım eğitim.
 ### [Aspose.HTML ile .NET'te Bellek Akışı Sağlayıcısı](./memory-stream-provider/)
 Aspose.HTML ile .NET'te çarpıcı HTML belgeleri oluşturmayı öğrenin. Adım adım öğreticimizi izleyin ve HTML manipülasyonunun gücünü açığa çıkarın.
+### [Bellek akışı oluşturma c# – Özel akış oluşturma rehberi](./create-memory-stream-c-custom-stream-creation-guide/)
 ### [Aspose.HTML ile .NET'te Web Kazıma](./web-scraping/)
 Aspose.HTML ile .NET'te HTML belgelerini düzenlemeyi öğrenin. Gelişmiş web geliştirme için öğeleri etkili bir şekilde gezinin, filtreleyin, sorgulayın ve seçin.
 ### [.NET'te Aspose.HTML ile Genişletilmiş İçerik Özelliğini Kullanma](./use-extended-content-property/)
@@ -46,7 +47,7 @@ JSON verilerinden HTML belgelerini dinamik olarak oluşturmak için Aspose.HTML 
 
 ## Çözüm
 
-.NET için Aspose.HTML, .NET uygulamalarınızda HTML belgeleriyle çalışırken olasılıklar dünyasının kapılarını açar. Bu gelişmiş özellik eğitimleri, Aspose.HTML'nin tüm potansiyelinden yararlanmak için gereken bilgi ve becerileri size sağlayacaktır. Geliştirme projelerinizi yükseltin, zamandan tasarruf edin ve .NET için Aspose.HTML ile olağanüstü çözümler yaratın. Eğitimlerimize bugün başlayın ve web geliştirmenizi bir üst seviyeye taşıyın.
+.NET için Aspose.HTML, .NET uygulamalarınızda HTML belgeleriyle çalışırken olasılıkların dünyasının kapılarını açar. Bu gelişmiş özellik eğitimleri, Aspose.HTML'nin tüm potansiyelinden yararlanmak için gereken bilgi ve becerileri size sağlayacaktır. Geliştirme projelerinizi yükseltin, zamandan tasarruf edin ve .NET için Aspose.HTML ile olağanüstü çözümler yaratın. Eğitimlerimize bugün başlayın ve web geliştirmenizi bir üst seviyeye taşıyın.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
