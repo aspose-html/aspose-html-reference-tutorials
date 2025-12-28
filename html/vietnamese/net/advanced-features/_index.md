@@ -42,7 +42,8 @@ Chuyển đổi HTML sang PDF động với Aspose.HTML cho .NET. Tích hợp d�
 Tìm hiểu cách chuyển đổi HTML sang PDF, XPS và hình ảnh bằng Aspose.HTML cho .NET. Hướng dẫn từng bước với các ví dụ về mã và câu hỏi thường gặp.
 ### [Sử dụng mẫu HTML trong .NET với Aspose.HTML](./using-html-templates/)
 Tìm hiểu cách sử dụng Aspose.HTML cho .NET để tạo tài liệu HTML động từ dữ liệu JSON. Khai thác sức mạnh của thao tác HTML trong các ứng dụng .NET của bạn.
-
+### [Tạo memory stream C# – Hướng dẫn tạo luồng tùy chỉnh](./create-memory-stream-c-custom-stream-creation-guide/)
+Hướng dẫn chi tiết cách tạo memory stream trong C# bằng Aspose.HTML, bao gồm các bước thực hiện và ví dụ thực tế.
 
 ## Phần kết luận
 
