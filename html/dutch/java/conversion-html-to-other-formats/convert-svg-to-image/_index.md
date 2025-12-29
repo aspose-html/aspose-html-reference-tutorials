@@ -118,15 +118,15 @@ A2: Absoluut! Pas `ImageSaveOptions` aan om kwaliteit, DPI, achtergrondkleur en 
 
 ### Q3: Is Aspose.HTML voor Java gratis te gebruiken?
 
-A3: Een gratis proefversie is beschikbaar voor evaluatie. Voor commerciële projecten kun je een licentie aanschaffen **[here](https://purchase.aspose.com/buy)**.
+A3: Een gratis proefversie is beschikbaar voor evaluatie. Voor commerciële projecten kun je een licentie aanschaffen [here](https://purchase.aspose.com/buy).
 
 ### Q4: Waar kan ik hulp of community‑ondersteuning vinden?
 
-A4: Het Aspose‑communityforum is een uitstekende bron voor probleemoplossing en tips **[here](https://forum.aspose.com/)**.
+A4: Het Aspose‑communityforum is een uitstekende bron voor probleemoplossing en tips [here](https://forum.aspose.com/).
 
 ### Q5: Hoe krijg ik een tijdelijke licentie voor testen?
 
-A5: Je kunt een tijdelijke evaluatielicentie aanvragen via **[this link](https://purchase.aspose.com/temporary-license/)**.
+A5: Je kunt een tijdelijke evaluatielicentie aanvragen via [this link](https://purchase.aspose.com/temporary-license/).
 
 **Laatst bijgewerkt:** 2025-12-18  
 **Getest met:** Aspose.HTML for Java 24.12 (latest)  

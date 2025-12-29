@@ -4,7 +4,7 @@ description: Leer hoe je markdown naar HTML kunt converteren met Aspose.HTML voo
   Java. Genereer HTML vanuit Markdown snel en efficiënt.
 linktitle: Converting Markdown to HTML
 second_title: Java HTML Processing with Aspose.HTML
-title: 'Markdown naar HTML Java: Converteren met Aspose.HTML'
+title: 'Markdown naar HTML Java - Converteren met Aspose.HTML'
 url: /nl/java/conversion-html-to-other-formats/convert-markdown-to-html/
 weight: 13
 ---

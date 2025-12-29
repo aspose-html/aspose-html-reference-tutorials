@@ -96,12 +96,6 @@ Leer hoe u SVG naar afbeeldingen kunt converteren in Java met Aspose.HTML. Uitge
 Converteer SVG naar PDF in Java met Aspose.HTML. Een naadloze oplossing voor documentconversie van hoge kwaliteit.
 ### [SVG naar XPS converteren](./convert-svg-to-xps/)
 Leer hoe u SVG naar XPS kunt converteren met Aspose.HTML for Java. Eenvoudige, stap‑voor‑stap gids voor naadloze conversies.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## Veelgestelde Vragen
 
@@ -126,4 +120,9 @@ A: Ja. U kunt titel, auteur, onderwerp en trefwoorden instellen via het `PdfSave
 **Getest met:** Aspose.HTML for Java 24.12  
 **Auteur:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -97,13 +97,6 @@ XPS هو صيغة الطباعة الخاصة بمايكروسوفت. باستخ
 ### [تحويل SVG إلى XPS](./convert-svg-to-xps/)
 تعلم كيفية تحويل SVG إلى XPS باستخدام Aspose.HTML for Java. دليل بسيط خطوة بخطوة لتحويلات سلسة.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## الأسئلة المتكررة
 
 **س: هل يمكنني استخدام Aspose.HTML for Java في تطبيق تجاري؟**  
@@ -126,3 +119,10 @@ XPS هو صيغة الطباعة الخاصة بمايكروسوفت. باستخ
 **آخر تحديث:** 2025-12-18  
 **تم الاختبار مع:** Aspose.HTML for Java 24.12  
 **المؤلف:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

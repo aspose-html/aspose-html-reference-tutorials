@@ -117,15 +117,15 @@ A2: 물론입니다! `ImageSaveOptions`를 조정해 품질, DPI, 배경색 등 
 
 ### Q3: Aspose.HTML for Java를 무료로 사용할 수 있나요?
 
-A3: 평가용 무료 체험판을 제공합니다. 상업용 프로젝트에서는 **[여기](https://purchase.aspose.com/buy)**에서 라이선스를 구매해야 합니다.
+A3: 평가용 무료 체험판을 제공합니다. 상업용 프로젝트에서는 [여기](https://purchase.aspose.com/buy) 에서 라이선스를 구매해야 합니다.
 
 ### Q4: 도움이나 커뮤니티 지원을 어디서 받을 수 있나요?
 
-A4: Aspose 커뮤니티 포럼이 문제 해결과 팁 공유에 유용합니다 **[여기](https://forum.aspose.com/)**.
+A4: Aspose 커뮤니티 포럼이 문제 해결과 팁 공유에 유용합니다 [여기](https://forum.aspose.com/).
 
 ### Q5: 테스트용 임시 라이선스를 어떻게 발급받나요?
 
-A5: **[이 링크](https://purchase.aspose.com/temporary-license/)**에서 임시 평가 라이선스를 요청할 수 있습니다.
+A5: [이 링크](https://purchase.aspose.com/temporary-license/) 에서 임시 평가 라이선스를 요청할 수 있습니다.
 
 ---
 

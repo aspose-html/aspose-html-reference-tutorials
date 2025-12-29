@@ -115,15 +115,17 @@ A2: もちろんです！`ImageSaveOptions` を調整して品質、 DPI、背�
 
 ### Q3: Aspose.HTML for Java は無料で使用できますか？
 
-A3: 評価用の無料トライアルが利用可能です。商用プロジェクトでは、ライセンスを **[こちら](https://purchase.aspose.com/buy)** から購入してください。
+A3: 評価用の無料トライアルが利用可能です。商用プロジェクトでは、ライセンスを [こちら](https://purchase.aspose.com/buy) から購入してください。
 
 ### Q4: ヘルプやコミュニティサポートはどこで得られますか？
 
-A4: Aspose のコミュニティフォーラムは、トラブルシューティングやヒントを得るのに最適なリソースです **[こちら](https://forum.aspose.com/)**。
+A4: Aspose のコミュニティフォーラムは、トラブルシューティングやヒントを得るのに最適なリソースです [こちら](https://forum.aspose.com/)。
 
 ### Q5: テスト用の一時ライセンスはどう取得しますか？
 
-A5: **[このリンク](https://purchase.aspose.com/temporary-license/)** から一時評価ライセンスをリクエストできます。
+A5: [このリンク](https://purchase.aspose.com/temporary-license/) から一時評価ライセンスをリクエストできます。
+
+---
 
 **最終更新日:** 2025-12-18  
 **テスト環境:** Aspose.HTML for Java 24.12（最新）  

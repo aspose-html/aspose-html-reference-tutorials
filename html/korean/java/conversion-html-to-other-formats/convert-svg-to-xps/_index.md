@@ -103,28 +103,6 @@ Converter.convertSVG(svgDocument, options, outputFile);
 | **지원되지 않는 SVG 기능** | 일부 고급 SVG 필터가 지원되지 않음 | SVG를 단순화하거나 복잡한 요소를 변환 전에 래스터화하십시오. |
 | **라이선스 오류** | 프로덕션 환경에서 유효한 라이선스 없이 라이브러리를 사용함 | 다음 코드를 사용하여 Aspose.HTML 라이선스 파일을 적용하십시오: `License license = new License(); license.setLicense("Aspose.HTML.Java.lic");` |
 
-## FAQ
-
-### Q1: SVG란 무엇이며, 왜 XPS로 변환해야 하나요?
-
-A1: Scalable Vector Graphics(SVG)는 웹 그래픽에 사용되는 XML 기반 벡터 이미지 형식입니다. XPS(XML Paper Specification)는 인쇄 및 보관을 위해 벡터 품질을 유지하는 고정 문서 형식입니다. SVG를 XPS로 변환하면 장치와 프린터 간에 일관된 렌더링을 보장합니다.
-
-### Q2: 배경 색상을 다르게 하여 SVG를 XPS로 변환할 수 있나요?
-
-A2: 예, 변환 중에 배경 색상을 맞춤화할 수 있습니다. 예제와 같이 `options.setBackgroundColor` 메서드를 사용하여 원하는 `Color`를 설정하십시오.
-
-### Q3: Aspose.HTML for Java를 사용할 때 제한 사항이 있나요?
-
-A3: Aspose.HTML는 강력한 라이브러리이지만, 매우 복잡한 SVG 기능(예: 일부 필터 효과)은 완전히 지원되지 않을 수 있습니다. 전체 기능 매트릭스는 공식 문서를 참고하십시오.
-
-### Q4: Aspose.HTML for Java 지원을 어떻게 받을 수 있나요?
-
-A4: 문제가 발생하거나 도움이 필요하면 [Aspose.HTML 포럼](https://forum.aspose.com/)에서 커뮤니티 지원을 받거나 Aspose 지원팀에 직접 문의하십시오.
-
-### Q5: 무료 체험판이 있나요?
-
-A5: 예, Aspose 웹사이트에서 Aspose.HTML for Java의 무료 체험판을 이용할 수 있습니다. 시작하려면 [Aspose.HTML 무료 체험판](https://releases.aspose.com/)을 방문하십시오.
-
 ## 자주 묻는 질문
 
 **Q: 이 변환을 웹 애플리케이션에서 사용할 수 있나요?**  
@@ -141,6 +119,8 @@ A: 라이브러리는 큰 파일도 처리하지만, 수백 MB 규모의 매우 
 
 **Q: 여러 SVG 파일을 일괄 변환할 수 있나요?**  
 A: 예, 파일 목록을 반복하면서 각 문서에 대해 `Converter.convertSVG`를 호출하면 됩니다.
+
+---
 
 **마지막 업데이트:** 2025-12-18  
 **테스트 환경:** Aspose.HTML for Java 24.12 (작성 시 최신 버전)  

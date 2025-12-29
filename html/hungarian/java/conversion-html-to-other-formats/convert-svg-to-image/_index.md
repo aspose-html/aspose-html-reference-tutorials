@@ -118,15 +118,15 @@ A2: Természetesen! Az `ImageSaveOptions` segítségével szabályozhatod a min�
 
 ### Q3: Ingyenes-e az Aspose.HTML for Java használata?
 
-A3: Ingyenes próba verzió elérhető értékeléshez. Kereskedelmi projektekhez licenc vásárlása szükséges **[itt](https://purchase.aspose.com/buy)**.
+A3: Ingyenes próba verzió elérhető értékeléshez. Kereskedelmi projektekhez licenc vásárlása szükséges [itt](https://purchase.aspose.com/buy).
 
 ### Q4: Hol találok segítséget vagy közösségi támogatást?
 
-A4: Az Aspose közösségi fórum kiváló forrás a hibaelhárításhoz és tippekhez **[itt](https://forum.aspose.com/)**.
+A4: Az Aspose közösségi fórum kiváló forrás a hibaelhárításhoz és tippekhez [itt](https://forum.aspose.com/).
 
 ### Q5: Hogyan szerezhetek ideiglenes licencet teszteléshez?
 
-A5: Ideiglenes értékelő licencet kérhetsz a **[következő linken](https://purchase.aspose.com/temporary-license/)**.
+A5: Ideiglenes értékelő licencet kérhetsz a [következő linken](https://purchase.aspose.com/temporary-license/).
 
 ---
 

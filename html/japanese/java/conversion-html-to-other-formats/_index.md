@@ -95,29 +95,23 @@ Aspose.HTML を使用して Java で SVG を画像に変換する方法を学び
 Aspose.HTML で Java の SVG を PDF に変換します。高品質文書変換のシームレスなソリューションです。
 ### [Converting SVG to XPS](./convert-svg-to-xps/)
 Aspose.HTML for Java を使用して SVG を XPS に変換する方法を学びます。シンプルでステップバイステップのガイドでシームレスに変換できます。
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+## よくある質問
 
-{{< blocks/products/products-backtop-button >}}
+**Q: Aspose.HTML for Java を商用アプリケーションで使用できますか？**
+A: はい。本番環境での使用には有効な商用ライセンスが必要です。評価用に無料トライアルをご利用いただけます。
 
-## Frequently Asked Questions
+**Q: どのバージョンの Java がサポートされていますか？**
+A: Aspose.HTML for Java は Java8、11 以降のバージョンをサポートしています。
 
-**Q: Can I use Aspose.HTML for Java in a commercial application?**  
-A: Yes. A valid commercial license is required for production use; a free trial is available for evaluation.
+**Q: ライブラリは外部 CSS と JavaScript を処理できますか？**
+A: はい。レンダラーはリンクされた CSS ファイルを処理し、JavaScript を実行して、PDF が元のページレイアウトと一致するようにします。
 
-**Q: Which Java versions are supported?**  
-A: Aspose.HTML for Java supports Java 8, 11, and later versions.
+**Q: 変換可能な HTML ファイルのサイズはどのくらいですか？**
+A: ライブラリは大きなドキュメント向けに最適化されていますが、ページサイズが大きくなるとメモリ消費量も増加するため、大きな入力はストリーミングすることを検討してください。
 
-**Q: Does the library handle external CSS and JavaScript?**  
-A: Absolutely. The renderer processes linked CSS files and executes JavaScript to ensure the PDF matches the original page layout.
-
-**Q: How large can the HTML files be for conversion?**  
-A: The library is optimized for large documents; however, memory consumption grows with page size, so consider streaming large inputs.
-
-**Q: Is it possible to customize PDF metadata during conversion?**  
-A: Yes. You can set title, author, subject, and keywords via the `PdfSaveOptions` object before saving.
+**Q: 変換中に PDF メタデータをカスタマイズできますか？**
+A: はい。保存前に `PdfSaveOptions` オブジェクトを使用して、タイトル、作成者、件名、キーワードを設定できます。
 
 ---
 
@@ -125,4 +119,9 @@ A: Yes. You can set title, author, subject, and keywords via the `PdfSaveOptions
 **Tested With:** Aspose.HTML for Java 24.12  
 **Author:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

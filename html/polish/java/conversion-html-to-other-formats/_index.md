@@ -96,29 +96,23 @@ Learn how to convert SVG to images in Java with Aspose.HTML. Comprehensive guide
 Convert SVG to PDF in Java with Aspose.HTML. A seamless solution for high-quality document conversion.
 ### [Converting SVG to XPS](./convert-svg-to-xps/)
 Learn how to convert SVG to XPS with Aspose.HTML for Java. Simple, step-by-step guide for seamless conversions.
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+## Często zadawane pytania
 
-{{< blocks/products/products-backtop-button >}}
+**P: Czy mogę używać Aspose.HTML for Java w aplikacji komercyjnej?**
+O: Tak. Do użytku produkcyjnego wymagana jest ważna licencja komercyjna; dostępna jest bezpłatna wersja próbna w celu przetestowania.
 
-## Frequently Asked Questions
+**P: Które wersje Javy są obsługiwane?**
+O: Aspose.HTML for Java obsługuje Javę 8, 11 i nowsze.
 
-**Q: Can I use Aspose.HTML for Java in a commercial application?**  
-A: Yes. A valid commercial license is required for production use; a free trial is available for evaluation.
+**P: Czy biblioteka obsługuje zewnętrzne pliki CSS i JavaScript?**
+O: Oczywiście. Renderer przetwarza powiązane pliki CSS i wykonuje JavaScript, aby zapewnić zgodność pliku PDF z oryginalnym układem strony.
 
-**Q: Which Java versions are supported?**  
-A: Aspose.HTML for Java supports Java 8, 11, and later versions.
+**P: Jak duży może być rozmiar plików HTML do konwersji?**
+O: Biblioteka jest zoptymalizowana pod kątem dużych dokumentów; jednak zużycie pamięci rośnie wraz z rozmiarem strony, dlatego należy rozważyć strumieniowe przesyłanie dużych danych wejściowych.
 
-**Q: Does the library handle external CSS and JavaScript?**  
-A: Absolutely. The renderer processes linked CSS files and executes JavaScript to ensure the PDF matches the original page layout.
-
-**Q: How large can the HTML files be for conversion?**  
-A: The library is optimized for large documents; however, memory consumption grows with page size, so consider streaming large inputs.
-
-**Q: Is it possible to customize PDF metadata during conversion?**  
-A: Yes. You can set title, author, subject, and keywords via the `PdfSaveOptions` object before saving.
+**P: Czy można dostosować metadane PDF podczas konwersji?**
+O: Tak. Możesz ustawić tytuł, autora, temat i słowa kluczowe za pomocą obiektu `PdfSaveOptions` przed zapisaniem.
 
 ---
 
@@ -126,4 +120,9 @@ A: Yes. You can set title, author, subject, and keywords via the `PdfSaveOptions
 **Tested With:** Aspose.HTML for Java 24.12  
 **Author:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

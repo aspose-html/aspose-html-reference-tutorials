@@ -103,28 +103,6 @@ Nachdem die Methode abgeschlossen ist, finden Sie das vollständig gerenderte XP
 | **Nicht unterstützte SVG‑Funktionen** | Einige fortgeschrittene SVG‑Filter werden nicht unterstützt | Vereinfachen Sie das SVG oder rasterisieren Sie komplexe Elemente vor der Konvertierung. |
 | **Lizenzfehler** | Verwendung der Bibliothek ohne gültige Lizenz in der Produktion | Wenden Sie Ihre Aspose.HTML‑Lizenzdatei an via `License license = new License(); license.setLicense("Aspose.HTML.Java.lic");` |
 
-## Häufig gestellte Fragen
-
-### Q1: Was ist SVG und warum sollte ich es in XPS konvertieren?
-
-**A1:** Scalable Vector Graphics (SVG) ist ein XML‑basiertes Vektor‑Bildformat, das für Webgrafiken verwendet wird. XPS (XML Paper Specification) ist ein festes Dokumentformat, das die Vektorqualität für Druck- und Archivierungszwecke bewahrt. Die Konvertierung von SVG zu XPS sorgt für ein konsistentes Rendering über Geräte und Drucker hinweg.
-
-### Q2: Kann ich SVG zu XPS mit einer anderen Hintergrundfarbe konvertieren?
-
-**A2:** Ja, Sie können die Hintergrundfarbe während der Konvertierung anpassen. Verwenden Sie die Methode `options.setBackgroundColor`, wie im Beispiel gezeigt, um jede gewünschte `Color` festzulegen.
-
-### Q3: Gibt es Einschränkungen bei der Verwendung von Aspose.HTML für Java?
-
-**A3:** Aspose.HTML ist eine robuste Bibliothek, aber bestimmte sehr komplexe SVG‑Funktionen (wie einige Filtereffekte) werden möglicherweise nicht vollständig unterstützt. Überprüfen Sie die offizielle Dokumentation für eine vollständige Funktionsmatrix.
-
-### Q4: Wie erhalte ich Support für Aspose.HTML für Java?
-
-**A4:** Wenn Sie auf Probleme stoßen oder Unterstützung benötigen, können Sie das [Aspose.HTML Forum](https://forum.aspose.com/) für Community‑Support besuchen oder direkt das Support‑Team von Aspose kontaktieren.
-
-### Q5: Gibt es eine kostenlose Testversion?
-
-**A5:** Ja, Sie können eine kostenlose Testversion von Aspose.HTML für Java auf der Aspose‑Website erhalten. Besuchen Sie [Aspose.HTML Free Trial](https://releases.aspose.com/) um zu beginnen.
-
 ## Weitere häufig gestellte Fragen
 
 **Q: Kann ich diese Konvertierung in einer Webanwendung verwenden?**  
@@ -154,5 +132,3 @@ A: Ja, durchlaufen Sie einfach Ihre Dateiliste und rufen Sie `Converter.convertS
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----

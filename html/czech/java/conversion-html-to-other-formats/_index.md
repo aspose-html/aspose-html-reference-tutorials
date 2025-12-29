@@ -96,12 +96,6 @@ Naučte se převádět SVG na obrázky v Javě s Aspose.HTML. Kompletní průvod
 Převádějte SVG do PDF v Javě s Aspose.HTML. Bezproblémové řešení pro vysoce kvalitní konverzi dokumentů.
 ### [Převod SVG do XPS](./convert-svg-to-xps/)
 Naučte se převádět SVG do XPS s Aspose.HTML for Java. Jednoduchý, krok‑za‑krokem průvodce pro plynulé konverze.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## Často kladené otázky
 
@@ -125,3 +119,10 @@ A: Ano. Můžete nastavit název, autora, předmět a klíčová slova pomocí o
 **Poslední aktualizace:** 2025-12-18  
 **Testováno s:** Aspose.HTML for Java 24.12  
 **Autor:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -4,7 +4,7 @@ description: Ismerje meg, hogyan konvertálhatja a markdownot HTML-re Java-ban a
   for Java segítségével. Generáljon HTML-t a Markdownból gyorsan és hatékonyan.
 linktitle: Converting Markdown to HTML
 second_title: Java HTML Processing with Aspose.HTML
-title: 'Markdown HTML-re Java: Konvertálás az Aspose.HTML segítségével'
+title: 'Markdown HTML-re Java - Konvertálás az Aspose.HTML segítségével'
 url: /hu/java/conversion-html-to-other-formats/convert-markdown-to-html/
 weight: 13
 ---

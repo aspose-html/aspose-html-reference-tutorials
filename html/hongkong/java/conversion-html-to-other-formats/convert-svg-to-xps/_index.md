@@ -103,28 +103,6 @@ Converter.convertSVG(svgDocument, options, outputFile);
 | **不支援的 SVG 功能** | 某些進階的 SVG 濾鏡未被支援 | 在轉換前簡化 SVG 或將複雜元素光柵化。 |
 | **授權錯誤** | 在正式環境使用未授權的函式庫 | 透過 `License license = new License(); license.setLicense("Aspose.HTML.Java.lic");` 套用你的 Aspose.HTML 授權檔。 |
 
-## 常見問答
-
-### Q1：什麼是 SVG，為什麼需要將它轉換為 XPS？
-
-A1：可縮放向量圖形（Scalable Vector Graphics，SVG）是一種基於 XML 的向量圖像格式，常用於網頁圖形。XPS（XML Paper Specification）是一種固定文件格式，可保留向量品質，適用於列印與存檔。將 SVG 轉換為 XPS 可確保在各種裝置與印表機上呈現一致。
-
-### Q2：我可以使用不同的背景顏色將 SVG 轉換為 XPS 嗎？
-
-A2：可以，你可以在轉換過程中自訂背景顏色。使用 `options.setBackgroundColor` 方法，將任意 `Color` 設為你想要的顏色，如範例所示。
-
-### Q3：使用 Aspose.HTML for Java 有什麼限制嗎？
-
-A3：Aspose.HTML 是功能強大的函式庫，但某些極度複雜的 SVG 功能（例如部分濾鏡效果）可能未完全支援。請參閱官方文件取得完整功能矩陣。
-
-### Q4：如何取得 Aspose.HTML for Java 的支援？
-
-A4：若遇到問題或需要協助，你可以前往 [Aspose.HTML 論壇](https://forum.aspose.com/) 取得社群支援，或直接聯絡 Aspose 的客服團隊。
-
-### Q5：是否提供免費試用？
-
-A5：是的，你可以在 Aspose 官方網站取得 Aspose.HTML for Java 的免費試用版。前往 [Aspose.HTML 免費試用](https://releases.aspose.com/) 開始使用。
-
 ## 常見問題
 
 **Q：我可以在 Web 應用程式中使用此轉換嗎？**  
@@ -141,6 +119,8 @@ A：雖然函式庫能處理大型檔案，但極度複雜的 SVG（數百 MB）
 
 **Q：能否批次轉換多個 SVG 檔案？**  
 A：可以，只需遍歷檔案清單，對每個文件呼叫 `Converter.convertSVG` 即可。
+
+---
 
 **最後更新：** 2025-12-18  
 **測試環境：** Aspose.HTML for Java 24.12（撰寫時的最新版本）  

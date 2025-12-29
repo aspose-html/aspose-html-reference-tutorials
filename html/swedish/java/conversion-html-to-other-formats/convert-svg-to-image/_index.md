@@ -118,15 +118,15 @@ A2: Absolut! Justera `ImageSaveOptions` för att kontrollera kvalitet, DPI, bakg
 
 ### Q3: Är Aspose.HTML för Java gratis att använda?
 
-A3: En gratis provversion finns tillgänglig för utvärdering. För kommersiella projekt köper du en licens **[here](https://purchase.aspose.com/buy)**.
+A3: En gratis provversion finns tillgänglig för utvärdering. För kommersiella projekt köper du en licens [here](https://purchase.aspose.com/buy).
 
 ### Q4: Var kan jag hitta hjälp eller community‑support?
 
-A4: Aspose‑community‑forumet är en utmärkt resurs för felsökning och tips **[here](https://forum.aspose.com/)**.
+A4: Aspose‑community‑forumet är en utmärkt resurs för felsökning och tips [here](https://forum.aspose.com/).
 
 ### Q5: Hur får jag en temporär licens för testning?
 
-A5: Du kan begära en temporär utvärderingslicens via **[this link](https://purchase.aspose.com/temporary-license/)**.
+A5: Du kan begära en temporär utvärderingslicens via [this link](https://purchase.aspose.com/temporary-license/).
 
 ---
 

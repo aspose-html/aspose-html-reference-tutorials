@@ -118,15 +118,15 @@ A2: Rozhodně! Upravte `ImageSaveOptions` pro kontrolu kvality, DPI, barvy pozad
 
 ### Q3: Je Aspose.HTML pro Java zdarma k použití?
 
-A3: K dispozici je bezplatná zkušební verze pro hodnocení. Pro komerční projekty zakupte licenci **[zde](https://purchase.aspose.com/buy)**.
+A3: K dispozici je bezplatná zkušební verze pro hodnocení. Pro komerční projekty zakupte licenci [zde](https://purchase.aspose.com/buy).
 
 ### Q4: Kde mohu najít pomoc nebo komunitní podporu?
 
-A4: Fórum komunity Aspose je vynikajícím zdrojem pro řešení problémů a tipy **[zde](https://forum.aspose.com/)**.
+A4: Fórum komunity Aspose je vynikajícím zdrojem pro řešení problémů a tipy [zde](https://forum.aspose.com/).
 
 ### Q5: Jak získat dočasnou licenci pro testování?
 
-A5: Můžete požádat o dočasnou evaluační licenci na **[tomto odkazu](https://purchase.aspose.com/temporary-license/)**.
+A5: Můžete požádat o dočasnou evaluační licenci na [tomto odkazu](https://purchase.aspose.com/temporary-license/).
 
 ---
 

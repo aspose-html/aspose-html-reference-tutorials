@@ -4,7 +4,7 @@ description: Aspose.HTML for Java kullanarak markdown'i HTML'ye nasıl dönüşt
   öğrenin. Markdown'dan HTML'yi hızlı ve verimli bir şekilde oluşturun.
 linktitle: Converting Markdown to HTML
 second_title: Java HTML Processing with Aspose.HTML
-title: 'Markdown''tan HTML''ye Java: Aspose.HTML ile Dönüştür'
+title: 'Markdown''tan HTML''ye Java - Aspose.HTML ile Dönüştür'
 url: /tr/java/conversion-html-to-other-formats/convert-markdown-to-html/
 weight: 13
 ---

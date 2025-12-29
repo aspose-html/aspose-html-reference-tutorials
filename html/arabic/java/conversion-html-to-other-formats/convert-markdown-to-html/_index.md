@@ -4,7 +4,7 @@ description: تعلم كيفية تحويل ماركداون إلى HTML باس�
   بإنشاء HTML من ماركداون بسرعة وكفاءة.
 linktitle: Converting Markdown to HTML
 second_title: Java HTML Processing with Aspose.HTML
-title: 'تحويل Markdown إلى HTML في Java: التحويل باستخدام Aspose.HTML'
+title: 'تحويل Markdown إلى HTML في Java - التحويل باستخدام Aspose.HTML'
 url: /ar/java/conversion-html-to-other-formats/convert-markdown-to-html/
 weight: 13
 ---

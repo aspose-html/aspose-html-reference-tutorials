@@ -103,28 +103,6 @@ Dopo il completamento del metodo, troverai un documento XPS completamente render
 | **Funzionalità SVG non supportate** | Alcuni filtri SVG avanzati non sono supportati | Semplifica l'SVG o rasterizza gli elementi complessi prima della conversione. |
 | **Errore di licenza** | Uso della libreria senza una licenza valida in produzione | Applica il file di licenza Aspose.HTML tramite `License license = new License(); license.setLicense("Aspose.HTML.Java.lic");` |
 
-## FAQ
-
-### Q1: Cos'è SVG e perché dovrei convertirlo in XPS?
-
-A1: Scalable Vector Graphics (SVG) è un formato di immagine vettoriale basato su XML utilizzato per la grafica web. XPS (XML Paper Specification) è un formato di documento fisso che preserva la qualità vettoriale per la stampa e l'archiviazione. Convertire SVG in XPS garantisce una resa coerente su dispositivi e stampanti.
-
-### Q2: Posso convertire SVG in XPS con un colore di sfondo diverso?
-
-A2: Sì, puoi personalizzare il colore di sfondo durante la conversione. Usa il metodo `options.setBackgroundColor` come mostrato nell'esempio per impostare qualsiasi `Color` desideri.
-
-### Q3: Ci sono limitazioni nell'utilizzo di Aspose.HTML per Java?
-
-A3: Aspose.HTML è una libreria robusta, ma alcune funzionalità SVG molto complesse (come alcuni effetti di filtro) potrebbero non essere pienamente supportate. Consulta la documentazione ufficiale per una matrice completa delle funzionalità.
-
-### Q4: Come posso ottenere supporto per Aspose.HTML per Java?
-
-A4: Se incontri problemi o hai bisogno di assistenza, puoi visitare il [Forum Aspose.HTML](https://forum.aspose.com/) per il supporto della community o contattare direttamente il team di supporto di Aspose.
-
-### Q5: È disponibile una prova gratuita?
-
-A5: Sì, puoi accedere a una prova gratuita di Aspose.HTML per Java sul sito Aspose. Visita [Aspose.HTML Prova gratuita](https://releases.aspose.com/) per iniziare.
-
 ## Domande frequenti
 
 **Q: Posso usare questa conversione in un'applicazione web?**  

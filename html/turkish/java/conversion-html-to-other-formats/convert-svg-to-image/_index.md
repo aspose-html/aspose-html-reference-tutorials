@@ -118,15 +118,15 @@ A2: Kesinlikle! Kalite, DPI, arka plan rengi ve diğer parametreleri kontrol etm
 
 ### Q3: Aspose.HTML for Java ücretsiz mi?
 
-A3: Değerlendirme için ücretsiz bir deneme mevcuttur. Ticari projeler için bir lisans satın alın **[here](https://purchase.aspose.com/buy)**.
+A3: Değerlendirme için ücretsiz bir deneme mevcuttur. Ticari projeler için bir lisans satın alın [here](https://purchase.aspose.com/buy).
 
 ### Q4: Yardım veya topluluk desteği nereden bulunur?
 
-A4: Aspose topluluk forumu, sorun giderme ve ipuçları için mükemmel bir kaynaktır **[here](https://forum.aspose.com/)**.
+A4: Aspose topluluk forumu, sorun giderme ve ipuçları için mükemmel bir kaynaktır [here](https://forum.aspose.com/).
 
 ### Q5: Test için geçici bir lisans nasıl alınır?
 
-A5: **[this link](https://purchase.aspose.com/temporary-license/)** adresinden geçici bir değerlendirme lisansı talep edebilirsiniz.
+A5: [this link](https://purchase.aspose.com/temporary-license/) adresinden geçici bir değerlendirme lisansı talep edebilirsiniz.
 
 **Son Güncelleme:** 2025-12-18  
 **Test Edilen:** Aspose.HTML for Java 24.12 (latest)  

@@ -117,14 +117,8 @@ Convertissez SVG en PDF en Java avec Aspose.HTML. Une solution fluide pour une c
 
 ### [Converting SVG to XPS](./convert-svg-to-xps/)
 Apprenez à convertir SVG en XPS avec Aspose.HTML for Java. Guide simple et étape par étape pour des conversions fluides.
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
-## Frequently Asked Questions
+## Foire aux questions
 
 **Q : Puis-je utiliser Aspose.HTML for Java dans une application commerciale ?**  
 R : Oui. Une licence commerciale valide est requise pour une utilisation en production ; un essai gratuit est disponible pour l'évaluation.
@@ -146,3 +140,10 @@ R : Oui. Vous pouvez définir le titre, l’auteur, le sujet et les mots‑clés
 **Dernière mise à jour :** 2025-12-18  
 **Testé avec :** Aspose.HTML for Java 24.12  
 **Auteur :** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -103,28 +103,6 @@ Setelah metode selesai, Anda akan menemukan dokumen XPS yang sepenuhnya dirender
 | **Fitur SVG tidak didukung** | Beberapa filter SVG lanjutan tidak didukung | Sederhanakan SVG atau rasterisasi elemen kompleks sebelum konversi. |
 | **Kesalahan lisensi** | Menggunakan perpustakaan tanpa lisensi yang valid di produksi | Terapkan file lisensi Aspose.HTML Anda melalui `License license = new License(); license.setLicense("Aspose.HTML.Java.lic");` |
 
-## FAQ
-
-### Q1: Apa itu SVG, dan mengapa saya perlu mengonversinya ke XPS?
-
-**A1:** Scalable Vector Graphics (SVG) adalah format gambar vektor berbasis XML yang digunakan untuk grafik web. XPS (XML Paper Specification) adalah format dokumen tetap yang mempertahankan kualitas vektor untuk pencetakan dan keperluan arsip. Mengonversi SVG ke XPS memastikan rendering yang konsisten di seluruh perangkat dan printer.
-
-### Q2: Bisakah saya mengonversi SVG ke XPS dengan warna latar belakang yang berbeda?
-
-**A2:** Ya, Anda dapat menyesuaikan warna latar belakang selama konversi. Gunakan metode `options.setBackgroundColor` seperti yang ditunjukkan dalam contoh untuk menetapkan `Color` apa pun yang Anda inginkan.
-
-### Q3: Apakah ada batasan saat menggunakan Aspose.HTML untuk Java?
-
-**A3:** Aspose.HTML adalah perpustakaan yang kuat, tetapi beberapa fitur SVG yang sangat kompleks (seperti beberapa efek filter) mungkin tidak sepenuhnya didukung. Tinjau dokumentasi resmi untuk matriks fitur lengkap.
-
-### Q4: Bagaimana cara mendapatkan dukungan untuk Aspose.HTML untuk Java?
-
-**A4:** Jika Anda mengalami masalah atau memerlukan bantuan, Anda dapat mengunjungi [Aspose.HTML Forum](https://forum.aspose.com/) untuk dukungan komunitas atau menghubungi tim dukungan Aspose secara langsung.
-
-### Q5: Apakah tersedia trial gratis?
-
-**A5:** Ya, Anda dapat mengakses trial gratis Aspose.HTML untuk Java di situs Aspose. Kunjungi [Aspose.HTML Free Trial](https://releases.aspose.com/) untuk memulai.
-
 ## Pertanyaan yang Sering Diajukan
 
 **Q: Bisakah saya menggunakan konversi ini dalam aplikasi web?**  
@@ -141,6 +119,8 @@ A: Meskipun perpustakaan menangani file besar, SVG yang sangat kompleks (ratusan
 
 **Q: Apakah memungkinkan untuk mengonversi beberapa file SVG secara batch?**  
 A: Ya, cukup lakukan loop pada daftar file Anda dan panggil `Converter.convertSVG` untuk setiap dokumen.
+
+---
 
 **Terakhir Diperbarui:** 2025-12-18  
 **Diuji Dengan:** Aspose.HTML for Java 24.12 (terbaru pada saat penulisan)  

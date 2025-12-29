@@ -118,15 +118,17 @@ A2: Assolutamente! Regola `ImageSaveOptions` per controllare qualità, DPI, colo
 
 ### Q3: Aspose.HTML per Java è gratuito?
 
-A3: È disponibile una prova gratuita per la valutazione. Per progetti commerciali, acquista una licenza **[qui](https://purchase.aspose.com/buy)**.
+A3: È disponibile una prova gratuita per la valutazione. Per progetti commerciali, acquista una licenza [qui](https://purchase.aspose.com/buy).
 
 ### Q4: Dove posso trovare aiuto o supporto della community?
 
-A4: Il forum della community Aspose è una risorsa eccellente per risolvere problemi e ottenere consigli **[qui](https://forum.aspose.com/)**.
+A4: Il forum della community Aspose è una risorsa eccellente per risolvere problemi e ottenere consigli [qui](https://forum.aspose.com/).
 
 ### Q5: Come posso ottenere una licenza temporanea per i test?
 
-A5: Puoi richiedere una licenza di valutazione temporanea da **[questo link](https://purchase.aspose.com/temporary-license/)**.
+A5: Puoi richiedere una licenza di valutazione temporanea da [questo link](https://purchase.aspose.com/temporary-license/).
+
+---
 
 **Ultimo aggiornamento:** 2025-12-18  
 **Testato con:** Aspose.HTML for Java 24.12 (latest)  

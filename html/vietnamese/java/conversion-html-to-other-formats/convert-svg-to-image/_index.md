@@ -118,15 +118,15 @@ A2: Chắc chắn! Điều chỉnh `ImageSaveOptions` để kiểm soát chất 
 
 ### Q3: Aspose.HTML cho Java có miễn phí để sử dụng không?
 
-A3: Có bản dùng thử miễn phí để đánh giá. Đối với dự án thương mại, mua giấy phép **[tại đây](https://purchase.aspose.com/buy)**.
+A3: Có bản dùng thử miễn phí để đánh giá. Đối với dự án thương mại, mua giấy phép [tại đây](https://purchase.aspose.com/buy).
 
 ### Q4: Tôi có thể tìm trợ giúp hoặc hỗ trợ cộng đồng ở đâu?
 
-A4: Diễn đàn cộng đồng Aspose là nguồn tài nguyên tuyệt vời để giải quyết vấn đề và nhận mẹo **[tại đây](https://forum.aspose.com/)**.
+A4: Diễn đàn cộng đồng Aspose là nguồn tài nguyên tuyệt vời để giải quyết vấn đề và nhận mẹo [tại đây](https://forum.aspose.com/).
 
 ### Q5: Làm thế nào để tôi có được giấy phép tạm thời để thử nghiệm?
 
-A5: Bạn có thể yêu cầu giấy phép đánh giá tạm thời từ **[liên kết này](https://purchase.aspose.com/temporary-license/)**.
+A5: Bạn có thể yêu cầu giấy phép đánh giá tạm thời từ [liên kết này](https://purchase.aspose.com/temporary-license/).
 
 ---
 

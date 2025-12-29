@@ -104,12 +104,6 @@ Aspose.HTML for Java упрощает процесс конвертации HTML
 
 ### [Конвертация SVG в XPS](./convert-svg-to-xps/)
 Узнайте, как конвертировать SVG в XPS с помощью Aspose.HTML for Java. Простое пошаговое руководство для бесшовных конвертаций.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## Часто задаваемые вопросы
 
@@ -134,4 +128,9 @@ A: Да. Вы можете задать заголовок, автора, тем
 **Тестировано с:** Aspose.HTML for Java 24.12  
 **Автор:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

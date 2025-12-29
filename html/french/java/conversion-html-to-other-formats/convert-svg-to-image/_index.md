@@ -118,15 +118,15 @@ R2 : Absolument ! Ajustez `ImageSaveOptions` pour contrôler la qualité, le
 
 ### Q3 : Aspose.HTML pour Java est‑il gratuit à utiliser ?
 
-R3 : Un essai gratuit est disponible pour l’évaluation. Pour les projets commerciaux, achetez une licence **[ici](https://purchase.aspose.com/buy)**.
+R3 : Un essai gratuit est disponible pour l’évaluation. Pour les projets commerciaux, achetez une licence [ici](https://purchase.aspose.com/buy).
 
 ### Q4 : Où puis‑je trouver de l’aide ou du support communautaire ?
 
-R4 : Le forum communautaire d’Aspose est une excellente ressource pour le dépannage et les astuces **[ici](https://forum.aspose.com/)**.
+R4 : Le forum communautaire d’Aspose est une excellente ressource pour le dépannage et les astuces [ici](https://forum.aspose.com/).
 
 ### Q5 : Comment obtenir une licence temporaire pour les tests ?
 
-R5 : Vous pouvez demander une licence d’évaluation temporaire via **[ce lien](https://purchase.aspose.com/temporary-license/)**.
+R5 : Vous pouvez demander une licence d’évaluation temporaire via [ce lien](https://purchase.aspose.com/temporary-license/).
 
 ---
 

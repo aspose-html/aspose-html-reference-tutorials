@@ -105,42 +105,43 @@ Aspose.HTML for Java ทำให้กระบวนการแปลง HTML
 แปลง SVG เป็น PDF ใน Java ด้วย Aspose.HTML โซลูชันที่ไร้รอยต่อสำหรับการแปลงเอกสารคุณภาพสูง
 ### [Converting SVG to XPS](./convert-svg-to-xps/)
 เรียนรู้วิธีแปลง SVG เป็น XPS ด้วย Aspose.HTML for Java คู่มือขั้นตอน‑ต่อ‑ขั้นตอนที่ง่ายสำหรับการแปลงที่ไร้รอยต่อ
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+## คำถามที่พบบ่อย
 
-{{< blocks/products/products-backtop-button >}}
+**ถาม: ฉันสามารถใช้ Aspose.HTML สำหรับ Java ในแอปพลิเคชันเชิงพาณิชย์ได้หรือไม่**
+ก. ใช่. ต้องมีใบอนุญาตเชิงพาณิชย์ที่ถูกต้องสำหรับการใช้งานการผลิต มีการทดลองใช้ฟรีสำหรับการประเมินผล
+**คำถาม: ฉันสามารถใช้ Aspose.HTML สำหรับ Java ในแอปพลิเคชันได้หรือเปล่า?**
+**คำตอบ:** เป็นไปได้ การดำเนินการด้านลิขสิทธิ์โดยตรงสำหรับการผลิต; มีรุ่นทดลองฟรีสำหรับหุ่นยนต์
 
-## Frequently Asked Questions
+**ถาม: รองรับ Java เวอร์ชันใดบ้าง**
+ตอบ: Aspose.HTML สำหรับ Java รองรับ Java8, 11 และเวอร์ชันที่ใหม่กว่า
+**คำถาม: การทดสอบของ Java ในส่วนนี้?**
+**คำตอบ:** Aspose.HTML for Java รองรับ Java8, 11, และต่อไป
 
-**Q: Can I use Aspose.HTML for Java in a commercial application?**  
-A: Yes. A valid commercial license is required for production use; a free trial is available for evaluation.  
-**คำถาม: ฉันสามารถใช้ Aspose.HTML for Java ในแอปพลิเคชันเชิงพาณิชย์ได้หรือไม่?**  
-**คำตอบ:** ใช่. จำเป็นต้องมีลิขสิทธิ์เชิงพาณิชย์ที่ถูกต้องสำหรับการใช้งานในสภาพแวดล้อมการผลิต; มีรุ่นทดลองฟรีสำหรับการประเมิน
+**ถาม: ไลบรารีรองรับ CSS และ JavaScript ภายนอกหรือไม่**
+ตอบ: อย่างแน่นอน ตัวเรนเดอร์จะประมวลผลไฟล์ CSS ที่เชื่อมโยงและรัน JavaScript เพื่อให้แน่ใจว่า PDF ตรงกับเค้าโครงหน้าต้นฉบับ
+** คำถาม: ไลบรารีนี้จัดการ CSS และ JavaScript ที่มีประสิทธิภาพ?**
+**คำตอบ:** แน่นอน. คนเรนเดอร์จะแนบไฟล์ CSS ที่การเชื่อมโยงและรัน JavaScript เพื่อให้ PDF เป็นไลไลเอาต์ของหน้าเดิม
 
-**Q: Which Java versions are supported?**  
-A: Aspose.HTML for Java supports Java 8, 11, and later versions.  
-**คำถาม: รองรับเวอร์ชัน Java ใดบ้าง?**  
-**คำตอบ:** Aspose.HTML for Java รองรับ Java 8, 11, และเวอร์ชันต่อไป
+**ถาม: ไฟล์ HTML สามารถแปลงได้ใหญ่แค่ไหน**
+ตอบ: ไลบรารีได้รับการปรับให้เหมาะสมสำหรับเอกสารขนาดใหญ่ อย่างไรก็ตาม การใช้หน่วยความจำจะเพิ่มขึ้นตามขนาดหน้า ดังนั้นให้พิจารณาการสตรีมอินพุตขนาดใหญ่
+**คำถามที่สามารถรองรับ HTML ได้มากขึ้นและสามารถได้แค่ไหน?**
+**คำตอบ:** ไลบรารีคำบรรยายปรับให้เข้ากับเอกสารขนาดใหญ่; อย่างไรก็ตาม มุมมองดังกล่าวเป็นไปตามขนาดหน้า ดังนั้นควรพิจารณาการสตรีมข้อมูลขนาดใหญ่
 
-**Q: Does the library handle external CSS and JavaScript?**  
-A: Absolutely. The renderer processes linked CSS files and executes JavaScript to ensure the PDF matches the original page layout.  
-**คำถาม: ไลบรารีนี้จัดการ CSS และ JavaScript ภายนอกได้หรือไม่?**  
-**คำตอบ:** แน่นอน. ตัวเรนเดอร์จะประมวลผลไฟล์ CSS ที่เชื่อมโยงและรัน JavaScript เพื่อให้ PDF ตรงกับเลย์เอาต์ของหน้าเดิม
-
-**Q: How large can the HTML files be for conversion?**  
-A: The library is optimized for large documents; however, memory consumption grows with page size, so consider streaming large inputs.  
-**คำถาม: ไฟล์ HTML ที่จะทำการแปลงสามารถมีขนาดใหญ่ได้แค่ไหน?**  
-**คำตอบ:** ไลบรารีได้รับการปรับให้ทำงานได้ดีกับเอกสารขนาดใหญ่; อย่างไรก็ตาม การใช้หน่วยความจำจะเพิ่มตามขนาดหน้า, ดังนั้นควรพิจารณาการสตรีมข้อมูลขนาดใหญ่
-
-**Q: Is it possible to customize PDF metadata during conversion?**  
-A: Yes. You can set title, author, subject, and keywords via the `PdfSaveOptions` object before saving.  
-**คำถาม: สามารถปรับแต่งเมตาดาต้า PDF ระหว่างการแปลงได้หรือไม่?**  
-**คำตอบ:** ได้. คุณสามารถตั้งค่าชื่อเรื่อง, ผู้เขียน, หัวข้อ, และคีย์เวิร์ดผ่านอ็อบเจกต์ `PdfSaveOptions` ก่อนบันทึก
+**ถาม: เป็นไปได้ไหมที่จะปรับแต่งข้อมูลเมตา PDF ระหว่างการแปลง?**
+ก. ใช่. คุณสามารถตั้งชื่อเรื่อง ผู้แต่ง หัวเรื่อง และคำหลักผ่านออบเจ็กต์ `PdfSaveOptions` ก่อนบันทึก
+**คำถาม: ตรวจสอบเมตาดาต้า PDF สามารถตรวจสอบได้หรือไม่**
+**คำตอบ:** ได้. ตั้งหัวข้อ, ต่อไป, หัวข้อ, และที่สำคัญผ่านอ็อบเจกต์ `PdfSaveOptions` ก่อนบันทึก
 
 ---
 
 **Last Updated:** 2025-12-18  
 **Tested With:** Aspose.HTML for Java 24.12  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

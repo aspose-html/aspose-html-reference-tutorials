@@ -102,28 +102,6 @@ After the method completes, you’ll find a fully‑rendered XPS document at the
 | **Unsupported SVG features** | Some advanced SVG filters aren’t supported | Simplify the SVG or rasterize complex elements before conversion. |
 | **License error** | Using the library without a valid license in production | Apply your Aspose.HTML license file via `License license = new License(); license.setLicense("Aspose.HTML.Java.lic");` |
 
-## FAQ's
-
-### Q1: What is SVG, and why would I need to convert it to XPS?
-
-A1: Scalable Vector Graphics (SVG) is an XML‑based vector image format used for web graphics. XPS (XML Paper Specification) is a fixed‑document format that preserves vector quality for printing and archival purposes. Converting SVG to XPS ensures consistent rendering across devices and printers.
-
-### Q2: Can I convert SVG to XPS with a different background color?
-
-A2: Yes, you can customize the background color during conversion. Use the `options.setBackgroundColor` method as shown in the example to set any `Color` you prefer.
-
-### Q3: Are there any limitations when using Aspose.HTML for Java?
-
-A3: Aspose.HTML is a robust library, but certain very complex SVG features (like some filter effects) may not be fully supported. Review the official documentation for a complete feature matrix.
-
-### Q4: How do I get support for Aspose.HTML for Java?
-
-A4: If you encounter any issues or need assistance, you can visit the [Aspose.HTML Forum](https://forum.aspose.com/) for community support or contact Aspose's support team directly.
-
-### Q5: Is there a free trial available?
-
-A5: Yes, you can access a free trial of Aspose.HTML for Java on the Aspose website. Visit [Aspose.HTML Free Trial](https://releases.aspose.com/) to get started.
-
 ## Frequently Asked Questions
 
 **Q: Can I use this conversion in a web application?**  
@@ -153,5 +131,3 @@ A: Yes, simply loop over your file list and invoke `Converter.convertSVG` for ea
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----

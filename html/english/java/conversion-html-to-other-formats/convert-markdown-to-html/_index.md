@@ -1,5 +1,5 @@
 ---
-title: "Markdown to HTML Java: Convert with Aspose.HTML"
+title: "Markdown to HTML Java - Convert with Aspose.HTML"
 linktitle: "Converting Markdown to HTML"
 second_title: "Java HTML Processing with Aspose.HTML"
 description: "Learn how to convert markdown to html java using Aspose.HTML for Java. Generate HTML from Markdown quickly and efficiently."

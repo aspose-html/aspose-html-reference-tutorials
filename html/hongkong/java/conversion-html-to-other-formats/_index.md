@@ -95,12 +95,6 @@ Aspose.HTML for Java 簡化了 HTML‑to‑PDF 工作流程。請參考專屬教
 使用 Aspose.HTML 在 Java 中將 SVG 轉為 PDF，提供高品質文件轉換的無縫解決方案。
 ### [Converting SVG to XPS](./convert-svg-to-xps/)
 學習如何使用 Aspose.HTML for Java 將 SVG 轉為 XPS，提供簡單、步驟式的無縫轉換指南。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## 常見問題
 
@@ -125,4 +119,9 @@ A: Yes. You can set title, author, subject, and keywords via the `PdfSaveOptions
 **測試環境：** Aspose.HTML for Java 24.12  
 **作者：** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

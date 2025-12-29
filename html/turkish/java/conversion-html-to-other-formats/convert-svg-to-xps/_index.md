@@ -103,28 +103,6 @@ Metod tamamlandığında, belirttiğiniz konumda tam olarak oluşturulmuş bir X
 | **Desteklenmeyen SVG özellikleri** | Bazı gelişmiş SVG filtreleri desteklenmiyor | SVG'yi basitleştirin veya karmaşık öğeleri rasterleştirerek dönüştürün. |
 | **Lisans hatası** | Üretimde geçerli bir lisans olmadan kütüphane kullanılıyor | `License license = new License(); license.setLicense("Aspose.HTML.Java.lic");` kodu ile lisans dosyanızı uygulayın. |
 
-## SSS
-
-### S1: SVG nedir ve neden XPS'ye dönüştürmeliyim?
-
-A1: Scalable Vector Graphics (SVG), web grafikleri için kullanılan XML tabanlı bir vektör görüntü formatıdır. XPS (XML Paper Specification) ise baskı ve arşivleme amaçlı vektör kalitesini koruyan sabit bir belge formatıdır. SVG'yi XPS'ye dönüştürmek, cihazlar ve yazıcılar arasında tutarlı görüntülenmeyi sağlar.
-
-### S2: SVG'yi farklı bir arka plan rengiyle XPS'ye dönüştürebilir miyim?
-
-A2: Evet, dönüşüm sırasında arka plan rengini özelleştirebilirsiniz. Örnekte gösterildiği gibi `options.setBackgroundColor` metodunu kullanarak istediğiniz `Color` değerini ayarlayın.
-
-### S3: Aspose.HTML for Java kullanırken herhangi bir sınırlama var mı?
-
-A3: Aspose.HTML güçlü bir kütüphanedir, ancak bazı çok karmaşık SVG özellikleri (örneğin bazı filtre efektleri) tam olarak desteklenmeyebilir. Detaylı özellik matrisi için resmi dokümantasyona bakın.
-
-### S4: Aspose.HTML for Java için destek nasıl alınır?
-
-A4: Herhangi bir sorunla karşılaşırsanız, topluluk desteği için [Aspose.HTML Forum](https://forum.aspose.com/) adresini ziyaret edebilir veya doğrudan Aspose destek ekibiyle iletişime geçebilirsiniz.
-
-### S5: Ücretsiz bir deneme sürümü var mı?
-
-A5: Evet, Aspose web sitesinden Aspose.HTML for Java ücretsiz deneme sürümüne erişebilirsiniz. Başlamak için [Aspose.HTML Free Trial](https://releases.aspose.com/) sayfasını ziyaret edin.
-
 ## Sıkça Sorulan Sorular
 
 **S: Bu dönüşümü bir web uygulamasında kullanabilir miyim?**  
