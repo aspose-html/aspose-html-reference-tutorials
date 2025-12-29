@@ -42,7 +42,8 @@ Converti dinamicamente HTML in PDF con Aspose.HTML per .NET. Facile integrazione
 Scopri come convertire HTML in PDF, XPS e immagini con Aspose.HTML per .NET. Esercitazione dettagliata con esempi di codice e FAQ.
 ### [Utilizzo di modelli HTML in .NET con Aspose.HTML](./using-html-templates/)
 Scopri come usare Aspose.HTML per .NET per generare dinamicamente documenti HTML da dati JSON. Sfrutta la potenza della manipolazione HTML nelle tue applicazioni .NET.
-
+### [Come combinare i font programmaticamente in C# – Guida passo‑passo](./how-to-combine-fonts-programmatically-in-c-step-by-step-guid/)
+Scopri come unire più font in C# usando Aspose.HTML, con esempi pratici e istruzioni dettagliate passo‑passo.
 
 ## Conclusione
 

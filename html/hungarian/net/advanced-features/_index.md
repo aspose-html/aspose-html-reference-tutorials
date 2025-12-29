@@ -42,7 +42,8 @@ Konvertálja dinamikusan HTML-t PDF-be az Aspose.HTML for .NET segítségével. 
 Ismerje meg, hogyan konvertálhat HTML-t PDF-be, XPS-be és képekké az Aspose.HTML for .NET segítségével. Lépésről lépésre bemutató oktatóprogram kódpéldákkal és GYIK-vel.
 ### [HTML-sablonok használata .NET-ben az Aspose.HTML-lel](./using-html-templates/)
 Ismerje meg, hogyan használhatja az Aspose.HTML for .NET-et HTML-dokumentumok dinamikus generálására JSON-adatokból. Használja ki a HTML-kezelés erejét .NET-alkalmazásaiban.
-
+### [Betűtípusok programozott egyesítése C#‑ban – Lépésről‑lépésre útmutató](./how-to-combine-fonts-programmatically-in-c-step-by-step-guid/)
+Ismerje meg, hogyan kombinálhat több betűtípust C#‑ban az Aspose.HTML segítségével, részletes lépésekkel.
 
 ## Következtetés
 
