@@ -118,27 +118,6 @@ En dat is alles! Je hebt met succes **EPUB naar afbeeldingen geconverteerd** met
 
 Aspose.HTML voor Java vereenvoudigt het proces van het converteren van EPUB‑bestanden naar afbeeldingen. Met de stappen die in deze gids worden beschreven, kun je deze taak snel en effectief uitvoeren. Zorg ervoor dat je aan de vereisten voldoet en de benodigde pakketten importeert om een naadloos conversieproces te garanderen.
 
-## Veelgestelde vragen
-
-### V1: Kan ik Aspose.HTML voor Java gratis gebruiken?
-
-A1: Aspose.HTML voor Java is een commerciële bibliotheek, maar je kunt de functies verkennen met een [gratis proefversie](https://releases.aspose.com/html/java).
-
-### V2: Is er documentatie beschikbaar voor Aspose.HTML voor Java?
-
-A2: Ja, je kunt uitgebreide documentatie vinden [hier](https://reference.aspose.com/html/java/).
-
-### V3: Hoe kan ik een tijdelijke licentie voor Aspose.HTML voor Java verkrijgen?
-
-A3: Je kunt een tijdelijke licentie verkrijgen [hier](https://purchase.aspose.com/temporary-license/).
-
-### V4: Waar kan ik ondersteuning krijgen voor Aspose.HTML voor Java?
-
-A4: Voor ondersteuning en community‑discussies kun je de [Aspose‑forums](https://forum.aspose.com/) bezoeken.
-
-### V5: Kan ik EPUB‑bestanden naar andere afbeeldingsformaten converteren?
-
-A5: Ja, je kunt het uitvoerformaat aanpassen door de `ImageSaveOptions` te wijzigen. Verander de `ImageFormat` naar het gewenste formaat, zoals PNG of GIF.
 
 ## Veelgestelde vragen
 
@@ -156,6 +135,8 @@ A: Absoluut. In plaats van te schrijven naar `FileOutputStream`, kun je de byte�
 
 **V: Handelt de bibliotheek ingesloten lettertypen af?**  
 A: Ja, Aspose.HTML embedt en rendert automatisch aangepaste lettertypen die in de EPUB gevonden worden.
+
+---
 
 **Laatst bijgewerkt:** 2025-12-22  
 **Getest met:** Aspose.HTML for Java 24.11  

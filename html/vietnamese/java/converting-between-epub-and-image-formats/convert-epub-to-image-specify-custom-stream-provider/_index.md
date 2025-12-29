@@ -118,28 +118,6 @@ Và thế là xong! Bạn đã **chuyển đổi EPUB sang hình ảnh** thành 
 
 Aspose.HTML cho Java đơn giản hoá quá trình chuyển đổi các tệp EPUB thành hình ảnh. Với các bước được mô tả trong hướng dẫn này, bạn có thể thực hiện nhiệm vụ một cách nhanh chóng và hiệu quả. Hãy nhớ đáp ứng các yêu cầu trước và nhập các gói cần thiết để đảm bảo quy trình chuyển đổi suôn sẻ.
 
-## Câu hỏi thường gặp
-
-### Q1: Tôi có thể sử dụng Aspose.HTML cho Java miễn phí không?
-
-A1: Aspose.HTML cho Java là một thư viện thương mại, nhưng bạn có thể khám phá các tính năng của nó với một [free trial](https://releases.aspose.com/html/java).
-
-### Q2: Có tài liệu nào cho Aspose.HTML cho Java không?
-
-A2: Có, bạn có thể tìm tài liệu đầy đủ [here](https://reference.aspose.com/html/java/).
-
-### Q3: Làm thế nào tôi có thể lấy giấy phép tạm thời cho Aspose.HTML cho Java?
-
-A3: Bạn có thể lấy giấy phép tạm thời [here](https://purchase.aspose.com/temporary-license/).
-
-### Q4: Tôi có thể nhận hỗ trợ cho Aspose.HTML cho Java ở đâu?
-
-A4: Đối với hỗ trợ và thảo luận cộng đồng, truy cập [Aspose forums](https://forum.aspose.com/).
-
-### Q5: Tôi có thể chuyển đổi tệp EPUB sang các định dạng hình ảnh khác không?
-
-A5: Có, bạn có thể tùy chỉnh định dạng đầu ra bằng cách điều chỉnh `ImageSaveOptions`. Thay đổi `ImageFormat` thành định dạng mong muốn, chẳng hạn PNG hoặc GIF.
-
 ## Các câu hỏi thường gặp
 
 **Q: Làm thế nào để thay đổi đầu ra thành PNG thay vì JPEG?**  
@@ -156,6 +134,8 @@ A: Chắc chắn. Thay vì ghi vào `FileOutputStream`, ghi mảng byte vào lu�
 
 **Q: Thư viện có xử lý phông chữ nhúng không?**  
 A: Có, Aspose.HTML tự động nhúng và render các phông chữ tùy chỉnh được tìm thấy trong EPUB.
+
+---
 
 **Last Updated:** 2025-12-22  
 **Tested With:** Aspose.HTML for Java 24.11  

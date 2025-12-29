@@ -116,23 +116,6 @@ I to wszystko! Pomyślnie **skonwertowałeś EPUB na obrazy** przy użyciu Aspos
 
 Aspose.HTML for Java upraszcza proces konwertowania plików EPUB na obrazy. Dzięki krokom opisanym w tym przewodniku możesz szybko i skutecznie wykonać to zadanie. Pamiętaj, aby spełnić wymagania wstępne i zaimportować niezbędne pakiety, aby zapewnić płynny proces konwersji.
 
-## FAQ
-
-### P1: Czy mogę używać Aspose.HTML for Java za darmo?
-O1: Aspose.HTML for Java jest komercyjną biblioteką, ale możesz przetestować jej funkcje korzystając z [darmowej wersji próbnej](https://releases.aspose.com/html/java).
-
-### P2: Czy dostępna jest dokumentacja dla Aspose.HTML for Java?
-O2: Tak, możesz znaleźć pełną dokumentację [tutaj](https://reference.aspose.com/html/java/).
-
-### P3: Jak mogę uzyskać tymczasową licencję dla Aspose.HTML for Java?
-O3: Tymczasową licencję możesz uzyskać [tutaj](https://purchase.aspose.com/temporary-license/).
-
-### P4: Gdzie mogę uzyskać wsparcie dla Aspose.HTML for Java?
-O4: W celu uzyskania wsparcia i dyskusji społecznościowych, odwiedź [fora Aspose](https://forum.aspose.com/).
-
-### P5: Czy mogę konwertować pliki EPUB na inne formaty obrazów?
-O5: Tak, możesz dostosować format wyjściowy, modyfikując `ImageSaveOptions`. Zmień `ImageFormat` na żądany format, np. PNG lub GIF.
-
 ## Najczęściej zadawane pytania
 
 **P: Jak zmienić wyjście na PNG zamiast JPEG?**  

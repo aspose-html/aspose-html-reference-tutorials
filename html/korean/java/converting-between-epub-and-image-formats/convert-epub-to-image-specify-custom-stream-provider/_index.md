@@ -33,17 +33,17 @@ EPUB을 이미지로 변환한다는 것은 전자책의 각 페이지를 래스
 - **유연한 출력** – JPEG, PNG, GIF 등 다양한 형식을 지원합니다.  
 - **크로스 플랫폼** – 지원되는 JDK가 설치된 모든 운영 체제에서 실행됩니다.
 
-## Prerequisites
+## 전제 조건
 
-변환을 시작하기 전에 다음 전제 조건을 확인하십시오:
+변환을 시작하기 전에 다음과 같이 변환을 확인하십시오:
 
 - Java Development Kit (JDK): 시스템에 Java SE Development Kit (JDK)가 설치되어 있어야 합니다. [여기](https://www.oracle.com/java/technologies/javase-downloads.html)에서 다운로드할 수 있습니다.
 
-- Aspose.HTML for Java: Aspose.HTML for Java 라이브러리가 필요합니다. 아직 받지 않으셨다면 [여기](https://releases.aspose.com/html/java/)에서 얻을 수 있습니다.
+- Java용 Aspose.HTML: Java용 Aspose.HTML이 필요합니다. 아직 부모님이 계시다면 [여기](https://releases.aspose.com/html/java/)에서 얻을 수 있습니다.
 
-- EPUB File: 이미지로 변환하려는 EPUB 파일을 준비하십시오.
+- EPUB 파일: 이미지로 변환하기 EPUB 파일을 준비하시기 바랍니다.
 
-## Import Packages
+## 패키지 가져오기
 
 Java 프로젝트에서 Aspose.HTML for Java에 필요한 패키지를 임포트해야 합니다. 코드에 아래와 같이 포함하십시오.
 
@@ -56,11 +56,11 @@ import java.io.FileOutputStream;
 import java.io.InputStream;
 ```
 
-## Step-by-Step Guide
+## 단계별 가이드
 
 Aspose.HTML for Java를 사용하여 **EPUB을 이미지로 변환**하는 과정을 여러 단계로 나누어 설명합니다:
 
-### Step 1: Open the EPUB File
+### 1단계: EPUB 파일 열기
 
 `FileInputStream`을 사용하여 기존 EPUB 파일을 읽기 모드로 엽니다.
 
@@ -68,7 +68,7 @@ Aspose.HTML for Java를 사용하여 **EPUB을 이미지로 변환**하는 과�
 try (FileInputStream fileInputStream = new FileInputStream("input.epub")) {
 ```
 
-### Step 2: Create a Memory Stream Provider
+### 2단계: 메모리 스트림 공급자 생성
 
 변환을 지원하기 위해 `MemoryStreamProvider` 인스턴스를 생성합니다.
 
@@ -76,7 +76,7 @@ try (FileInputStream fileInputStream = new FileInputStream("input.epub")) {
 try (MemoryStreamProvider streamProvider = new MemoryStreamProvider()) {
 ```
 
-### Step 3: Convert EPUB to Image
+### 3단계: EPUB을 이미지로 변환
 
 이제 실제 변환을 수행합니다. `Converter.convertEPUB` 메서드를 사용하고 출력 형식을 JPEG로 지정합니다.
 
@@ -88,7 +88,7 @@ Converter.convertEPUB(
 );
 ```
 
-### Step 4: Access the Resulted Data
+### 4단계: 결과 데이터 접근
 
 변환이 완료되면 이미지 데이터가 들어 있는 메모리 스트림에 접근할 수 있습니다. 스트림을 순회하면서 이미지를 처리하십시오.
 
@@ -108,39 +108,17 @@ for (int i = 0; i < size; i++) {
 
 이렇게 하면 Aspose.HTML for Java를 사용하여 **EPUB을 이미지로 성공적으로 변환**한 것입니다.
 
-## Common Pitfalls & Tips
+## 일반적인 함정 및 팁
 
-- **메모리 사용량** – 대용량 EPUB을 변환할 경우 메모리 스트림이 많은 RAM을 차지할 수 있습니다. `OutOfMemoryError`가 발생하면 페이지를 배치로 처리하는 방안을 고려하십시오.  
-- **이미지 품질** – JPEG 압축 수준을 제어하려면 `ImageSaveOptions`의 `Quality` 속성을 조정하십시오.  
-- **파일 명명** – 예제에서는 간단히 `page_1.jpg`와 같은 이름을 사용합니다. 챕터 제목이나 타임스탬프를 포함하도록 커스터마이즈할 수 있습니다.
+- **메모리 변환** – 스피커 EPUB를 변환할 경우 메모리 스트림이 많은 RAM을 제거할 수 있습니다. `OutOfMemoryError`가 발생하면 페이지를 처리하는 것을 고려하시기 바랍니다.
+- **이미지 품질** – JPEG 압축 수준을 제어하려면 `ImageSaveOptions`의 `Quality` 속성을 조정하세요.
+- **파일 이름** – 예에서는 간단히 `page_1.jpg`와 같은 이름을 사용합니다. 에피소드터 제목이나 타임스탬프를 포함하도록 커스터마이즈할 수 있습니다.
 
-## Conclusion
+## 결론
 
-Aspose.HTML for Java는 EPUB 파일을 이미지로 변환하는 과정을 크게 단순화합니다. 이 가이드에 제시된 단계들을 따르면 빠르고 효율적으로 작업을 수행할 수 있습니다. 전제 조건을 충족하고 필요한 패키지를 임포트하는 것을 잊지 마세요.
+Java용 Aspose.HTML은 EPUB 파일을 이미지로 변환하는 과정을 크게 확장합니다. 이 가이드에 제시된 단계를 선택하시면 활동을 수행할 수 있습니다. 조건을 충족하고 필요한 패키지를 임포트하는 것을 잊지 마세요.
 
-## FAQ's
-
-### Q1: Aspose.HTML for Java를 무료로 사용할 수 있나요?
-
-A1: Aspose.HTML for Java는 상용 라이브러리이지만, [무료 체험판](https://releases.aspose.com/html/java)으로 기능을 살펴볼 수 있습니다.
-
-### Q2: Aspose.HTML for Java에 대한 문서가 있나요?
-
-A2: 네, 자세한 문서는 [여기](https://reference.aspose.com/html/java/)에서 확인할 수 있습니다.
-
-### Q3: Aspose.HTML for Java의 임시 라이선스는 어떻게 얻나요?
-
-A3: 임시 라이선스는 [여기](https://purchase.aspose.com/temporary-license/)에서 받을 수 있습니다.
-
-### Q4: Aspose.HTML for Java에 대한 지원은 어디서 받을 수 있나요?
-
-A4: 지원 및 커뮤니티 토론은 [Aspose 포럼](https://forum.aspose.com/)을 방문하십시오.
-
-### Q5: EPUB 파일을 다른 이미지 형식으로 변환할 수 있나요?
-
-A5: 네, `ImageSaveOptions`를 조정하여 출력 형식을 PNG, GIF 등 원하는 포맷으로 변경할 수 있습니다.
-
-## Frequently Asked Questions
+## 자주 묻는 질문
 
 **Q:** 출력 형식을 JPEG 대신 PNG로 바꾸려면 어떻게 하나요?  
 **A:** `ImageSaveOptions` 생성자에서 `ImageFormat.Jpeg`을 `ImageFormat.Png`로 교체하면 됩니다.

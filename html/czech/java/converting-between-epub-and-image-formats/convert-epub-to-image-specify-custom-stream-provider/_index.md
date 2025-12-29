@@ -120,28 +120,6 @@ Aspose.HTML pro Java zjednodušuje proces převodu souborů EPUB na obrázky. S 
 
 ## Často kladené otázky
 
-### Q1: Mohu používat Aspose.HTML pro Java zdarma?
-
-A1: Aspose.HTML pro Java je komerční knihovna, ale můžete si její funkce vyzkoušet pomocí [bezplatné zkušební verze](https://releases.aspose.com/html/java).
-
-### Q2: Je k dispozici dokumentace pro Aspose.HTML pro Java?
-
-A2: Ano, komplexní dokumentaci najdete [zde](https://reference.aspose.com/html/java/).
-
-### Q3: Jak získat dočasnou licenci pro Aspose.HTML pro Java?
-
-A3: Dočasnou licenci můžete získat [zde](https://purchase.aspose.com/temporary-license/).
-
-### Q4: Kde mohu získat podporu pro Aspose.HTML pro Java?
-
-A4: Pro podporu a diskuse komunity navštivte [fóra Aspose](https://forum.aspose.com/).
-
-### Q5: Mohu převádět EPUB soubory do jiných formátů obrázků?
-
-A5: Ano, můžete přizpůsobit výstupní formát úpravou `ImageSaveOptions`. Změňte `ImageFormat` na požadovaný formát, například PNG nebo GIF.
-
-## Často kladené otázky
-
 **Q: Jak změním výstup na PNG místo JPEG?**  
 A: Nahraďte `ImageFormat.Jpeg` za `ImageFormat.Png` v konstruktoru `ImageSaveOptions`.
 
@@ -156,6 +134,8 @@ A: Rozhodně. Místo zápisu do `FileOutputStream` můžete zapisovat pole bajt�
 
 **Q: Zvládá knihovna vložená písma?**  
 A: Ano, Aspose.HTML automaticky vkládá a vykresluje vlastní písma nalezená v EPUB.
+
+---
 
 **Last Updated:** 2025-12-22  
 **Tested With:** Aspose.HTML pro Java 24.11  

@@ -1,5 +1,5 @@
 ---
-title: How to Use Aspose: EPUB to Image Conversion in Java
+title: How to Use Aspose - EPUB to Image Conversion in Java
 linktitle: Converting EPUB to Image with a Single Line of Code
 second_title: Java HTML Processing with Aspose.HTML
 description: Learn how to use Aspose to convert EPUB to images with Aspose.HTML for Java. Step-by-step guide for effortless conversions.

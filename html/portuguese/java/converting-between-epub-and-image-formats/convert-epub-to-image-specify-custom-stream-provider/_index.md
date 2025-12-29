@@ -119,28 +119,6 @@ Aspose.HTML para Java simplifica o processo de conversão de arquivos EPUB em im
 
 ## Perguntas Frequentes
 
-### Q1: Posso usar Aspose.HTML para Java gratuitamente?
-
-A1: Aspose.HTML para Java é uma biblioteca comercial, mas você pode explorar seus recursos com um [teste gratuito](https://releases.aspose.com/html/java).
-
-### Q2: Existe documentação disponível para Aspose.HTML para Java?
-
-A2: Sim, você pode encontrar documentação abrangente [aqui](https://reference.aspose.com/html/java/).
-
-### Q3: Como posso obter uma licença temporária para Aspose.HTML para Java?
-
-A3: Você pode obter uma licença temporária [aqui](https://purchase.aspose.com/temporary-license/).
-
-### Q4: Onde posso obter suporte para Aspose.HTML para Java?
-
-A4: Para suporte e discussões da comunidade, visite os [fóruns da Aspose](https://forum.aspose.com/).
-
-### Q5: Posso converter arquivos EPUB para outros formatos de imagem?
-
-A5: Sim, você pode personalizar o formato de saída ajustando o `ImageSaveOptions`. Altere o `ImageFormat` para o formato desejado, como PNG ou GIF.
-
-## Perguntas Frequentes
-
 **Q: Como altero a saída para PNG em vez de JPEG?**  
 A: Substitua `ImageFormat.Jpeg` por `ImageFormat.Png` no construtor `ImageSaveOptions`.
 

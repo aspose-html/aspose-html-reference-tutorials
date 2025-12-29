@@ -117,23 +117,6 @@ for (int i = 0; i < size; i++) {
 
 ## Συχνές Ερωτήσεις
 
-### Ε1: Μπορώ να χρησιμοποιήσω το Aspose.HTML for Java δωρεάν;
-Α1: Το Aspose.HTML for Java είναι εμπορική βιβλιοθήκη, αλλά μπορείτε να εξερευνήσετε τις δυνατότητές του με μια [free trial](https://releases.aspose.com/html/java).
-
-### Ε2: Υπάρχει διαθέσιμη τεκμηρίωση για το Aspose.HTML for Java;
-Α2: Ναι, μπορείτε να βρείτε ολοκληρωμένη τεκμηρίωση [here](https://reference.aspose.com/html/java/).
-
-### Ε3: Πώς μπορώ να αποκτήσω προσωρινή άδεια για το Aspose.HTML for Java;
-Α3: Μπορείτε να αποκτήσετε προσωρινή άδεια [here](https://purchase.aspose.com/temporary-license/).
-
-### Ε4: Πού μπορώ να λάβω υποστήριξη για το Aspose.HTML for Java;
-Α4: Για υποστήριξη και συζητήσεις της κοινότητας, επισκεφθείτε τα [Aspose forums](https://forum.aspose.com/).
-
-### Ε5: Μπορώ να μετατρέψω αρχεία EPUB σε άλλες μορφές εικόνας;
-Α5: Ναι, μπορείτε να προσαρμόσετε τη μορφή εξόδου ρυθμίζοντας το `ImageSaveOptions`. Αλλάξτε το `ImageFormat` στη μορφή που επιθυμείτε, όπως PNG ή GIF.
-
-## Συχνές Ερωτήσεις
-
 **Q: Πώς αλλάζω την έξοδο σε PNG αντί για JPEG;**  
 A: Αντικαταστήστε το `ImageFormat.Jpeg` με `ImageFormat.Png` στον κατασκευαστή `ImageSaveOptions`.
 

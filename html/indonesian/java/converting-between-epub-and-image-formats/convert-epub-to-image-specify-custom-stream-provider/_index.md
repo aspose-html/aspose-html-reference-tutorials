@@ -118,28 +118,6 @@ Dan itu saja! Anda telah berhasil **mengonversi EPUB ke gambar** menggunakan Asp
 
 Aspose.HTML untuk Java menyederhanakan proses mengonversi file EPUB menjadi gambar. Dengan langkah‑langkah yang dijabarkan dalam panduan ini, Anda dapat dengan cepat dan efektif melakukan tugas tersebut. Ingatlah untuk memenuhi prasyarat dan mengimpor paket yang diperlukan agar proses konversi berjalan lancar.
 
-## FAQ
-
-### Q1: Bisakah saya menggunakan Aspose.HTML untuk Java secara gratis?
-
-A1: Aspose.HTML untuk Java adalah perpustakaan komersial, tetapi Anda dapat menjelajahi fiturnya dengan [free trial](https://releases.aspose.com/html/java).
-
-### Q2: Apakah ada dokumentasi tersedia untuk Aspose.HTML untuk Java?
-
-A2: Ya, Anda dapat menemukan dokumentasi lengkap [here](https://reference.aspose.com/html/java/).
-
-### Q3: Bagaimana saya dapat memperoleh lisensi sementara untuk Aspose.HTML untuk Java?
-
-A3: Anda dapat memperoleh lisensi sementara [here](https://purchase.aspose.com/temporary-license/).
-
-### Q4: Di mana saya dapat mendapatkan dukungan untuk Aspose.HTML untuk Java?
-
-A4: Untuk dukungan dan diskusi komunitas, kunjungi [Aspose forums](https://forum.aspose.com/).
-
-### Q5: Bisakah saya mengonversi file EPUB ke format gambar lain?
-
-A5: Ya, Anda dapat menyesuaikan format output dengan mengatur `ImageSaveOptions`. Ubah `ImageFormat` ke format yang diinginkan, seperti PNG atau GIF.
-
 ## Pertanyaan yang Sering Diajukan
 
 **Q: Bagaimana cara mengubah output menjadi PNG alih-alih JPEG?**  
@@ -156,6 +134,8 @@ A: Tentu saja. Alih-alih menulis ke `FileOutputStream`, tulis array byte ke outp
 
 **Q: Apakah perpustakaan menangani font yang disematkan?**  
 A: Ya, Aspose.HTML secara otomatis menyematkan dan merender font khusus yang ditemukan dalam EPUB.
+
+---
 
 **Last Updated:** 2025-12-22  
 **Tested With:** Aspose.HTML for Java 24.11  

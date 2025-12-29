@@ -118,28 +118,6 @@ Ve işte bu kadar! Aspose.HTML for Java ile **EPUB'yi görsellere başarıyla d�
 
 Aspose.HTML for Java, EPUB dosyalarını görsellere dönüştürme sürecini basitleştirir. Bu kılavuzda belirtilen adımlarla bu görevi hızlı ve etkili bir şekilde yerine getirebilirsiniz. Ön koşulları karşılamayı ve gerekli paketleri içe aktarmayı unutmayın; böylece sorunsuz bir dönüşüm süreci elde edersiniz.
 
-## SSS
-
-### S1: Aspose.HTML for Java'yi ücretsiz kullanabilir miyim?
-
-C1: Aspose.HTML for Java ticari bir kütüphanedir, ancak özelliklerini bir [ücretsiz deneme](https://releases.aspose.com/html/java) ile keşfedebilirsiniz.
-
-### S2: Aspose.HTML for Java için dokümantasyon mevcut mu?
-
-C2: Evet, kapsamlı dokümantasyonu [burada](https://reference.aspose.com/html/java/) bulabilirsiniz.
-
-### S3: Aspose.HTML for Java için geçici bir lisans nasıl alınır?
-
-C3: Geçici lisansı [buradan](https://purchase.aspose.com/temporary-license/) temin edebilirsiniz.
-
-### S4: Aspose.HTML for Java için destek nereden alınır?
-
-C4: Destek ve topluluk tartışmaları için [Aspose forumlarını](https://forum.aspose.com/) ziyaret edin.
-
-### S5: EPUB dosyalarını başka görüntü formatlarına dönüştürebilir miyim?
-
-C5: Evet, `ImageSaveOptions` ayarını değiştirerek çıktı formatını özelleştirebilirsiniz. `ImageFormat` değerini PNG veya GIF gibi istediğiniz formata ayarlayın.
-
 ## Sıkça Sorulan Sorular
 
 **S: Çıktıyı JPEG yerine PNG olarak nasıl değiştiririm?**  
