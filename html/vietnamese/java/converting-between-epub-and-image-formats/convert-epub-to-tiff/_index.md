@@ -113,17 +113,15 @@ A6: Aspose.HTML render mỗi trang của EPUB một cách tuần tự; bạn có
 **Q7: Does the conversion preserve vector graphics?**  
 A7: Quá trình chuyển đổi raster hoá nội dung thành TIFF, vì vậy đồ họa vector sẽ được render dưới dạng dữ liệu bitmap độ phân giải cao.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Cập nhật lần cuối:** 2025-12-28  
 **Đã kiểm thử với:** Aspose.HTML cho Java 23.10 (phiên bản mới nhất tại thời điểm viết)  
 **Tác giả:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

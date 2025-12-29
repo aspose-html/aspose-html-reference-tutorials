@@ -118,15 +118,15 @@ Nếu bạn gặp bất kỳ vấn đề nào hoặc cần trợ giúp, bạn c�
 ### Aspose.HTML cho Java hỗ trợ những định dạng nào khác để chuyển đổi?
 Aspose.HTML cho Java hỗ trợ nhiều định dạng, bao gồm PDF, XPS và nhiều định dạng ảnh. Bạn có thể khám phá tài liệu chi tiết [tại đây](https://reference.aspose.com/html/java/).
 
+---
+
+**Last Updated:** 2025-12-28  
+**Tested With:** Aspose.HTML for Java 24.12  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-28  
-**Tested With:** Aspose.HTML for Java 24.12  
-**Author:** Aspose

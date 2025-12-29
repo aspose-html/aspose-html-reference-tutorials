@@ -113,17 +113,15 @@ A6: Το Aspose.HTML αποδίδει κάθε σελίδα του EPUB διαδ
 **Q7: Διατηρεί η μετατροπή τα διανυσματικά γραφικά;**  
 A7: Η μετατροπή ραστεροποιεί το περιεχόμενο σε TIFF, επομένως τα διανυσματικά γραφικά αποδίδονται ως bitmap υψηλής ανάλυσης.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Τελευταία ενημέρωση:** 2025-12-28  
 **Δοκιμή με:** Aspose.HTML για Java 23.10 (τελευταία έκδοση τη στιγμή της συγγραφής)  
 **Συγγραφέας:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

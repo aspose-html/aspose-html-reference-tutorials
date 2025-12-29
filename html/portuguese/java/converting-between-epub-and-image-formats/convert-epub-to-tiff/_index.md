@@ -111,17 +111,15 @@ A6: Aspose.HTML renderiza cada página do EPUB sequencialmente; você pode perco
 **Q7: A conversão preserva gráficos vetoriais?**  
 A7: A conversão rasteriza o conteúdo em TIFF, portanto os gráficos vetoriais são renderizados como dados bitmap de alta resolução.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-28  
 **Tested With:** Aspose.HTML for Java 23.10 (latest at time of writing)  
 **Author:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

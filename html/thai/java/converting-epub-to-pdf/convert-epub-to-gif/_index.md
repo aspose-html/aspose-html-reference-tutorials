@@ -123,15 +123,15 @@ Yes, you can get a free trial from [here](https://releases.aspose.com/).
 
 คุณตอนนี้มีวิธีที่สมบูรณ์และพร้อมใช้งานในระดับผลิตภัณฑ์เพื่อ **แปลง EPUB เป็น GIF** ด้วย Aspose.HTML for Java วิธีนี้เร็ว, เชื่อถือได้, และผสานรวมได้อย่างราบรื่นกับแอปพลิเคชัน Java ใด ๆ อย่าลังเลที่จะทดลองตั้งค่า `ImageSaveOptions` ต่าง ๆ — เช่น การหน่วงเวลาเฟรมสำหรับ GIF เคลื่อนไหว — หรือประมวลผลหลายไฟล์ EPUB เป็นชุดเพื่ออัตโนมัติกระบวนการทำงานของคุณ
 
+---
+
+**อัปเดตล่าสุด:** 2025-12-28  
+**ทดสอบด้วย:** Aspose.HTML for Java (รุ่นล่าสุด)  
+**ผู้เขียน:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**อัปเดตล่าสุด:** 2025-12-28  
-**ทดสอบด้วย:** Aspose.HTML for Java (รุ่นล่าสุด)  
-**ผู้เขียน:** Aspose

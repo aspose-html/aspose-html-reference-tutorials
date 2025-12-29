@@ -120,15 +120,15 @@ Başlamak için bir Java geliştirme ortamı ve Aspose.HTML for Java kütüphane
 
 Artık Aspose.HTML for Java kullanarak **EPUB'ı GIF'e dönüştürmek** için eksiksiz, üretim‑hazır bir yönteme sahipsiniz. Bu yaklaşım hızlı, güvenilir ve herhangi bir Java uygulamasına sorunsuz bir şekilde entegre olur. `ImageSaveOptions` ayarlarıyla (ör. animasyonlu GIF'ler için çerçeve gecikmesi) deney yapmaktan veya birden fazla EPUB dosyasını toplu işleyerek iş akışınızı otomatikleştirmekten çekinmeyin.
 
+---
+
+**Son Güncelleme:** 2025-12-28  
+**Test Edilen Versiyon:** Aspose.HTML for Java (en son sürüm)  
+**Yazar:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Son Güncelleme:** 2025-12-28  
-**Test Edilen Versiyon:** Aspose.HTML for Java (en son sürüm)  
-**Yazar:** Aspose

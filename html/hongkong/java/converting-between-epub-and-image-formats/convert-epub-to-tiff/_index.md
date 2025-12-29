@@ -92,33 +92,26 @@ Converter.convertEPUB(fileInputStream, options, "output.tiff");
 
 ## 常見問答
 
-**Q1: What is Aspose.HTML for Java?**  
+**問題1：什麼是 Aspose.HTML for Java？ ** 
 A1: Aspose.HTML for Java 是一套函式庫，讓開發人員能在 Java 應用程式中操作、轉換與處理 HTML 以及其他多種檔案格式。
 
-**Q2: Where can I download Aspose.HTML for Java?**  
+**問題2：在哪裡可以下載 Aspose.HTML for Java？ ** 
 A2: 您可從下載頁面 [here](https://releases.aspose.com/html/java/) 取得 Aspose.HTML for Java。
 
-**Q3: Is there a free trial available for Aspose.HTML?**  
+**問題3：Aspose.HTML 是否提供免費試用版？ ** 
 A3: 有，您可於 [here](https://releases.aspose.com/) 取得 Aspose.HTML for Java 的免費試用版。
 
-**Q4: Can I obtain a temporary license for Aspose.HTML for Java?**  
+**問題4：我可以取得 Aspose.HTML for Java 的臨時授權嗎？ ** 
 A4: 可以，請前往 [this link](https://purchase.aspose.com/temporary-license/) 取得臨時授權。
 
-**Q5: Where can I find the documentation for Aspose.HTML for Java?**  
+**問題5：在哪裡可以找到 Aspose.HTML for Java 的文件？ ** 
 A5: 您可在此取得 Aspose.HTML for Java 的文件說明 [here](https://reference.aspose.com/html/java/)。
 
-**Q6: How do I handle multi‑page EPUBs?**  
+**問題6：如何處理多頁 EPUB 檔案？ ** 
 A6: Aspose.HTML 會依序渲染 EPUB 的每一頁；若需要，可透過調整 `ImageSaveOptions` 產生每頁的獨立 TIFF 檔案。
 
-**Q7: Does the conversion preserve vector graphics?**  
+**問題7：轉換過程是否保留向量圖？ ** 
 A7: 轉換會將內容光柵化為 TIFF，因此向量圖形會以高解析度的點陣圖形式呈現。
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ---
 
@@ -126,4 +119,9 @@ A7: 轉換會將內容光柵化為 TIFF，因此向量圖形會以高解析度�
 **測試環境：** Aspose.HTML for Java 23.10（撰寫時最新版本）  
 **作者：** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

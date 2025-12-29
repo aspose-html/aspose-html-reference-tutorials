@@ -111,15 +111,15 @@ A6: Aspose.HTML は EPUB の各ページを順次レンダリングします。�
 **Q7: 変換はベクターグラフィックを保持しますか？**  
 A7: 変換はコンテンツを TIFF にラスタライズするため、ベクターグラフィックは高解像度のビットマップデータとして描画されます。
 
+---
+
+**最終更新日:** 2025-12-28  
+**テスト環境:** Aspose.HTML for Java 23.10 (latest at time of writing)  
+**作者:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最終更新日:** 2025-12-28  
-**テスト環境:** Aspose.HTML for Java 23.10 (latest at time of writing)  
-**作者:** Aspose

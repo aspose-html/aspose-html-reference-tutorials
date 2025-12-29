@@ -113,17 +113,15 @@ A6: Aspose.HTML rendert jede Seite des EPUB nacheinander; Sie können über die 
 **Q7: Bewahrt die Konvertierung Vektorgrafiken?**  
 A7: Die Konvertierung rastert den Inhalt in TIFF, sodass Vektorgrafiken als hochauflösende Bitmap‑Daten gerendert werden.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Zuletzt aktualisiert:** 2025-12-28  
 **Getestet mit:** Aspose.HTML for Java 23.10 (aktuell zum Zeitpunkt der Erstellung)  
 **Autor:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

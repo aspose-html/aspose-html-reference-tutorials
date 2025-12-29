@@ -118,15 +118,15 @@ Converter.convertEPUB(
 ### Ποιες άλλες μορφές υποστηρίζει το Aspose.HTML for Java για μετατροπή; 
 Το Aspose.HTML for Java υποστηρίζει διάφορες μορφές, συμπεριλαμβανομένων PDF, XPS και πολλών μορφών εικόνας. Μπορείτε να εξερευνήσετε την τεκμηρίωση [here](https://reference.aspose.com/html/java/) για περισσότερες λεπτομέρειες.
 
+---
+
+**Τελευταία Ενημέρωση:** 2025-12-28  
+**Δοκιμή Με:** Aspose.HTML for Java 24.12  
+**Συγγραφέας:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Τελευταία Ενημέρωση:** 2025-12-28  
-**Δοκιμή Με:** Aspose.HTML for Java 24.12  
-**Συγγραφέας:** Aspose

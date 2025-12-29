@@ -118,17 +118,15 @@ Herhangi bir sorunla karşılaşırsanız veya yardıma ihtiyaç duyarsanız, [A
 ### Aspose.HTML for Java başka hangi formatları dönüşüm için destekliyor?
 Aspose.HTML for Java PDF, XPS ve birçok görüntü formatı dahil çeşitli formatları destekler. Daha fazla ayrıntı için belgeleri [burada](https://reference.aspose.com/html/java/) inceleyebilirsiniz.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Son Güncelleme:** 2025-12-28  
 **Test Edilen:** Aspose.HTML for Java 24.12  
 **Yazar:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -118,15 +118,15 @@ Ha problémába ütközöl vagy segítségre van szükséged, látogasd meg az [
 ### Milyen egyéb formátumokat támogat az Aspose.HTML for Java konvertálásra?
 Az Aspose.HTML for Java számos formátumot támogat, többek között PDF, XPS és sok képformátum. A dokumentációt [itt](https://reference.aspose.com/html/java/) tekintheted meg a részletekért.
 
+---
+
+**Utoljára frissítve:** 2025-12-28  
+**Tesztelt verzióval:** Aspose.HTML for Java 24.12  
+**Szerző:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Utoljára frissítve:** 2025-12-28  
-**Tesztelt verzióval:** Aspose.HTML for Java 24.12  
-**Szerző:** Aspose

@@ -72,18 +72,6 @@ Leer hoe je Aspose.HTML for Java kunt gebruiken om EPUB‑bestanden naar afbeeld
 Leer hoe je Aspose.HTML for Java gebruikt: EPUB naar afbeelding & meer. Ontdek onze stapsgewijze gids.
 ### [EPUB naar afbeelding converteren](./convert-epub-to-image/)
 Leer hoe je EPUB naar afbeeldingen kunt converteren met Aspose.HTML for Java. Transformeer je digitale content moeiteloos. Stapsgewijze gids inbegrepen.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Laatst bijgewerkt:** 2025-12-28  
-**Getest met:** Aspose.HTML for Java 24.12  
-**Auteur:** Aspose  
 
 ## Veelgestelde vragen
 
@@ -101,3 +89,15 @@ Leer hoe je EPUB naar afbeeldingen kunt converteren met Aspose.HTML for Java. Tr
 
 **Q:** *Welke Java‑versies worden ondersteund?*  
 **A:** De bibliotheek ondersteunt Java 8 en hoger, inclusief Java 11, Java 17 en latere LTS‑releases.
+
+---
+
+**Laatst bijgewerkt:** 2025-12-28  
+**Getest met:** Aspose.HTML for Java 24.12  
+**Auteur:** Aspose  
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

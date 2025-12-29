@@ -69,19 +69,6 @@ weight: 27
 ### [Конвертация EPUB в изображение](./convert-epub-to-image/)
 Узнайте, как конвертировать EPUB в изображения с помощью Aspose.HTML for Java. Преобразуйте ваш цифровой контент без усилий. Включено пошаговое руководство.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Последнее обновление:** 2025-12-28  
-**Тестировано с:** Aspose.HTML for Java 24.12  
-**Автор:** Aspose  
-
 ## Часто задаваемые вопросы
 
 **В:** *Могу ли я конвертировать защищённые файлы EPUB в PDF?*  
@@ -98,3 +85,16 @@ weight: 27
 
 **В:** *Какие версии Java поддерживаются?*  
 **О:** Библиотека поддерживает Java 8 и новее, включая Java 11, Java 17 и последующие LTS‑версии.
+
+---
+
+**Последнее обновление:** 2025-12-28  
+**Тестировано с:** Aspose.HTML for Java 24.12  
+**Автор:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

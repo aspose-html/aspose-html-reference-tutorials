@@ -119,15 +119,15 @@ Converter.convertEPUB(fileInputStream, options, "output.gif");
 
 您現在已掌握使用 Aspose.HTML for Java **convert EPUB to GIF** 的完整、生產環境可用方法。此方式快速、可靠，且能無縫整合至任何 Java 應用程式。歡迎嘗試不同的 `ImageSaveOptions` 設定（例如動畫 GIF 的幀延遲），或批次處理多個 EPUB 檔案，以自動化您的工作流程。
 
+---
+
+**Last Updated:** 2025-12-28  
+**Tested With:** Aspose.HTML for Java (latest version)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-28  
-**Tested With:** Aspose.HTML for Java (latest version)  
-**Author:** Aspose

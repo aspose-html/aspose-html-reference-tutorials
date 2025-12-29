@@ -68,18 +68,6 @@ Naučte se, jak pomocí Aspose.HTML for Java převést soubory EPUB na obrázky 
 Naučte se používat Aspose.HTML for Java: převod EPUB na obrázek a další. Prozkoumejte náš krok‑za‑krokem průvodce.
 ### [Převod EPUB na obrázek](./convert-epub-to-image/)
 Naučte se, jak převést EPUB na obrázky pomocí Aspose.HTML for Java. Přetvořte svůj digitální obsah bez námahy. Krok‑za‑krokem průvodce zahrnut.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Poslední aktualizace:** 2025-12-28  
-**Testováno s:** Aspose.HTML for Java 24.12  
-**Autor:** Aspose  
 
 ## Často kladené otázky
 
@@ -97,3 +85,16 @@ Naučte se, jak převést EPUB na obrázky pomocí Aspose.HTML for Java. Přetvo
 
 **Q:** *Jaké verze Javy jsou podporovány?*  
 **A:** Knihovna podporuje Java 8 a novější, včetně Java 11, Java 17 a dalších LTS verzí.
+
+---
+
+**Poslední aktualizace:** 2025-12-28  
+**Testováno s:** Aspose.HTML for Java 24.12  
+**Autor:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

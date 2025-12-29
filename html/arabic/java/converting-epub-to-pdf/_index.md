@@ -78,18 +78,6 @@ weight: 27
 
 ### [تحويل EPUB إلى صورة](./convert-epub-to-image/)
 تعلم كيفية تحويل EPUB إلى صور باستخدام Aspose.HTML for Java. حول محتواك الرقمي بسهولة. دليل خطوة بخطوة مرفق.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-28  
-**Tested With:** Aspose.HTML for Java 24.12  
-**Author:** Aspose  
 
 ## الأسئلة المتكررة
 
@@ -107,3 +95,16 @@ weight: 27
 
 **Q:** *ما إصدارات Java المدعومة؟*  
 **A:** المكتبة تدعم Java 8 وما فوق، بما في ذلك Java 11، Java 17، والإصدارات اللاحقة من LTS.
+
+---
+
+**Last Updated:** 2025-12-28  
+**Tested With:** Aspose.HTML for Java 24.12  
+**Author:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

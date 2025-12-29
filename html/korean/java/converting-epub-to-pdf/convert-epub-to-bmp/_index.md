@@ -118,15 +118,15 @@ Aspose.HTML for Java는 안정적인 BMP 변환 프로세스를 제공하지만,
 ### Aspose.HTML for Java가 지원하는 다른 변환 형식은 무엇인가요?
 Aspose.HTML for Java는 PDF, XPS 및 다양한 이미지 형식을 포함한 여러 형식을 지원합니다. 자세한 내용은 문서 [here](https://reference.aspose.com/html/java/)를 참고하십시오.
 
+---
+
+**마지막 업데이트:** 2025-12-28  
+**테스트 환경:** Aspose.HTML for Java 24.12  
+**작성자:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**마지막 업데이트:** 2025-12-28  
-**테스트 환경:** Aspose.HTML for Java 24.12  
-**작성자:** Aspose

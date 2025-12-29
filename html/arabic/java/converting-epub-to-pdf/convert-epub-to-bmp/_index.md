@@ -123,15 +123,15 @@ Converter.convertEPUB(
 
 يدعم Aspose.HTML for Java صيغًا متعددة، بما في ذلك PDF و XPS والعديد من صيغ الصور. يمكنك استكشاف الوثائق [here](https://reference.aspose.com/html/java/) لمزيد من التفاصيل.
 
+---
+
+**Last Updated:** 2025-12-28  
+**Tested With:** Aspose.HTML for Java 24.12  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-28  
-**Tested With:** Aspose.HTML for Java 24.12  
-**Author:** Aspose

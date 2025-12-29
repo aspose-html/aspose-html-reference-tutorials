@@ -114,17 +114,15 @@ A6: Az Aspose.HTML sorban rendereli az EPUB minden oldalát; a `ImageSaveOptions
 **Q7: A konverzió megőrzi a vektoros grafikákat?**  
 A7: A konverzió raszterizálja a tartalmat TIFF‑be, így a vektoros grafikák magas felbontású bitmap adatként jelennek meg.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Utoljára frissítve:** 2025-12-28  
 **Tesztelve a következővel:** Aspose.HTML for Java 23.10 (a cikk írásakor legújabb)  
 **Szerző:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

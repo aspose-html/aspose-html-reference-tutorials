@@ -113,15 +113,15 @@ A6: Aspose.HTML은 EPUB의 각 페이지를 순차적으로 렌더링합니다. 
 **Q7: 변환 과정에서 벡터 그래픽이 보존되나요?**  
 A7: 변환은 콘텐츠를 TIFF로 래스터화하므로 벡터 그래픽은 고해상도 비트맵 데이터로 렌더링됩니다.
 
+---
+
+**마지막 업데이트:** 2025-12-28  
+**테스트 환경:** Aspose.HTML for Java 23.10 (latest at time of writing)  
+**작성자:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**마지막 업데이트:** 2025-12-28  
-**테스트 환경:** Aspose.HTML for Java 23.10 (latest at time of writing)  
-**작성자:** Aspose

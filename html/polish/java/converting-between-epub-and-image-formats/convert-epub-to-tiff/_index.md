@@ -113,17 +113,15 @@ A6: Aspose.HTML renderuje każdą stronę EPUB kolejno; możesz iterować po str
 **Q7: Czy konwersja zachowuje grafikę wektorową?**  
 A7: Konwersja rasteryzuje zawartość do formatu TIFF, więc grafika wektorowa jest renderowana jako bitmapa o wysokiej rozdzielczości.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Ostatnia aktualizacja:** 2025-12-28  
 **Testowano z:** Aspose.HTML dla Javy 23.10 (najnowsza w momencie pisania)  
 **Autor:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

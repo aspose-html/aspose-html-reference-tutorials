@@ -123,15 +123,15 @@ Si encuentras algún problema o necesitas asistencia, puedes visitar el [foro de
 
 Aspose.HTML para Java admite varios formatos, incluidos PDF, XPS y muchos formatos de imagen. Puedes explorar la documentación [aquí](https://reference.aspose.com/html/java/) para más detalles.
 
+---
+
+**Última actualización:** 2025-12-28  
+**Probado con:** Aspose.HTML for Java 24.12  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última actualización:** 2025-12-28  
-**Probado con:** Aspose.HTML for Java 24.12  
-**Autor:** Aspose

@@ -113,15 +113,15 @@ Converter.convertEPUB(fileInputStream, options, "output.tiff");
 **प्रश्न 7: क्या रूपांतरण वेक्टर ग्राफ़िक्स को संरक्षित करता है?**  
 **उत्तर:** रूपांतरण सामग्री को TIFF में रास्टराइज़ करता है, इसलिए वेक्टर ग्राफ़िक्स उच्च‑रिज़ॉल्यूशन बिटमैप डेटा के रूप में रेंडर होते हैं।
 
+---
+
+**अंतिम अपडेट:** 2025-12-28  
+**परीक्षण किया गया:** Aspose.HTML for Java 23.10 (लेखन के समय नवीनतम)  
+**लेखक:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**अंतिम अपडेट:** 2025-12-28  
-**परीक्षण किया गया:** Aspose.HTML for Java 23.10 (लेखन के समय नवीनतम)  
-**लेखक:** Aspose

@@ -113,17 +113,15 @@ Converter.convertEPUB(fileInputStream, options, "output.tiff");
 **س7: هل يحافظ التحويل على الرسومات المتجهة؟**  
 ج7: التحويل يرصّص المحتوى إلى TIFF، لذا تُحوَّل الرسومات المتجهة إلى بيانات bitmap عالية الدقة.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **آخر تحديث:** 2025-12-28  
 **تم الاختبار مع:** Aspose.HTML for Java 23.10 (أحدث نسخة وقت الكتابة)  
 **المؤلف:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

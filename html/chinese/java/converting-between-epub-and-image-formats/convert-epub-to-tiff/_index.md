@@ -113,15 +113,15 @@ A6: Aspose.HTML 会顺序渲染 EPUB 的每一页；您可以通过调整 `Image
 **Q7: 转换是否保留矢量图形？**  
 A7: 转换会将内容栅格化为 TIFF，因此矢量图形会以高分辨率位图形式呈现。
 
+---
+
+**最后更新：** 2025-12-28  
+**测试环境：** Aspose.HTML for Java 23.10（撰写时的最新版本）  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最后更新：** 2025-12-28  
-**测试环境：** Aspose.HTML for Java 23.10（撰写时的最新版本）  
-**作者：** Aspose

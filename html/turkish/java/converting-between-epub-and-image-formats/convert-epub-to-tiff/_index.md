@@ -113,15 +113,15 @@ C6: Aspose.HTML, EPUB'un her sayfasını sırasıyla render eder; gerekirse `Ima
 **S7: Dönüşüm vektör grafiklerini korur mu?**  
 C7: Dönüşüm, içeriği TIFF'e rasterleştirir, bu yüzden vektör grafikler yüksek çözünürlüklü bitmap verisi olarak render edilir.
 
+---
+
+**Son Güncelleme:** 2025-12-28  
+**Test Edilen Sürüm:** Aspose.HTML for Java 23.10 (yazım anındaki en son)  
+**Yazar:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Son Güncelleme:** 2025-12-28  
-**Test Edilen Sürüm:** Aspose.HTML for Java 23.10 (yazım anındaki en son)  
-**Yazar:** Aspose

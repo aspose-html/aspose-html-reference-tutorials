@@ -72,18 +72,6 @@ Erfahren Sie, wie Sie Aspose.HTML for Java verwenden, um EPUB‑Dateien mit dies
 Erfahren Sie, wie Sie Aspose.HTML for Java nutzen: EPUB in Bild & mehr konvertieren. Erkunden Sie unseren Schritt‑für‑Schritt‑Leitfaden.
 ### [EPUB in Bild konvertieren](./convert-epub-to-image/)
 Erfahren Sie, wie Sie EPUB mit Aspose.HTML for Java in Bilder konvertieren. Transformieren Sie Ihre digitalen Inhalte mühelos. Schritt‑für‑Schritt‑Leitfaden inklusive.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-28  
-**Tested With:** Aspose.HTML for Java 24.12  
-**Author:** Aspose  
 
 ## Häufig gestellte Fragen
 
@@ -101,3 +89,16 @@ Erfahren Sie, wie Sie EPUB mit Aspose.HTML for Java in Bilder konvertieren. Tran
 
 **Q:** *Welche Java‑Versionen werden unterstützt?*  
 **A:** Die Bibliothek unterstützt Java 8 und neuer, einschließlich Java 11, Java 17 und späterer LTS‑Versionen.
+
+---
+
+**Last Updated:** 2025-12-28  
+**Tested With:** Aspose.HTML for Java 24.12  
+**Author:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

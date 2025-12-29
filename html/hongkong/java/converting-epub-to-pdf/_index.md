@@ -78,19 +78,6 @@ EPUB 檔案廣泛用於電子書，但有時您需要將其轉為 PDF 格式以�
 ### [將 EPUB 轉換為圖像](./convert-epub-to-image/)
 了解如何使用 Aspose.HTML for Java 將 EPUB 轉換為圖像。輕鬆轉換您的數位內容，並提供逐步指南。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**最後更新:** 2025-12-28  
-**測試環境:** Aspose.HTML for Java 24.12  
-**作者:** Aspose  
-
 ## 常見問題
 
 **Q:** *我可以將受保護的 EPUB 檔案轉換為 PDF 嗎？*  
@@ -107,3 +94,16 @@ EPUB 檔案廣泛用於電子書，但有時您需要將其轉為 PDF 格式以�
 
 **Q:** *支援哪些 Java 版本？*  
 **A:** 此函式庫支援 Java 8 及以上版本，包括 Java 11、Java 17 以及後續的 LTS 版本。
+
+---
+
+**最後更新:** 2025-12-28  
+**測試環境:** Aspose.HTML for Java 24.12  
+**作者:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -118,15 +118,15 @@ Aspose.HTML for Java обеспечивает надёжный процесс к
 ### Какие другие форматы поддерживает Aspose.HTML for Java для конвертации?
 Aspose.HTML for Java поддерживает различные форматы, включая PDF, XPS и многие форматы изображений. Подробнее см. документацию [здесь](https://reference.aspose.com/html/java/).
 
+---
+
+**Last Updated:** 2025-12-28  
+**Tested With:** Aspose.HTML for Java 24.12  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-28  
-**Tested With:** Aspose.HTML for Java 24.12  
-**Author:** Aspose

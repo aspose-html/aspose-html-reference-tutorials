@@ -79,19 +79,6 @@ Tanuld meg, hogyan használhatod az Aspose.HTML for Java-t: EPUB konvertálása 
 ### [EPUB konvertálása képpé](./convert-epub-to-image/)
 Tanuld meg, hogyan konvertálj EPUB‑t képekké az Aspose.HTML for Java segítségével. Átalakítsd digitális tartalmad könnyedén. Lépésről‑lépésre útmutató is tartalmaz.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-28  
-**Tested With:** Aspose.HTML for Java 24.12  
-**Author:** Aspose  
-
 ## Gyakran Ismételt Kérdések
 
 **Q:** *Konvertálhatok védett EPUB fájlokat PDF‑be?*  
@@ -108,3 +95,16 @@ Tanuld meg, hogyan konvertálj EPUB‑t képekké az Aspose.HTML for Java segít
 
 **Q:** *Mely Java verziók támogatottak?*  
 **A:** A könyvtár támogatja a Java 8‑at és újabbakat, beleértve a Java 11‑et, Java 17‑et és a későbbi LTS kiadásokat.
+
+---
+
+**Last Updated:** 2025-12-28  
+**Tested With:** Aspose.HTML for Java 24.12  
+**Author:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
