@@ -35,6 +35,9 @@ Setelah Anda memahami dasar-dasarnya, kita akan mempelajari lebih dalam proses p
 ### [Mengedit Dokumen dalam .NET dengan Aspose.HTML](./editing-a-document/)
 
 Sekarang, mari tingkatkan keterampilan Anda ke tingkat berikutnya. Mengedit dokumen HTML merupakan tugas umum bagi pengembang web, dan Aspose.HTML menyederhanakan proses ini secara signifikan. Di bagian ini, kami akan membahas pembuatan, manipulasi, dan penataan dokumen. Anda akan menemukan cara meningkatkan tampilan dan fungsionalitas konten web Anda, membuatnya menarik dan mudah digunakan.
+
+### [Cara Menyimpan HTML di C# – Panduan Lengkap Menggunakan Penangan Sumber Daya Kustom](./how-to-save-html-in-c-complete-guide-using-a-custom-resource/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
