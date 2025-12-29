@@ -130,17 +130,15 @@ R7: Sí—establece propiedades adicionales en `ImageSaveOptions`, como `setReso
 
 Convertir **epub a bmp** en Java nunca ha sido tan fácil, gracias a Aspose.HTML para Java. Esta guía de **conversión paso a paso** te muestra cómo configurar el entorno, escribir el código y manejar los problemas comunes. Explora la documentación extensa de Aspose.HTML [aquí](https://reference.aspose.com/html/java/) para profundizar en escenarios avanzados y formatos de salida adicionales.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Última actualización:** 2025-12-25  
 **Probado con:** Aspose.HTML para Java 23.12 (última versión al momento de escribir)  
 **Autor:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

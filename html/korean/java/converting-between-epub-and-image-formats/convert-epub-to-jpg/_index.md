@@ -43,7 +43,7 @@ Aspose.HTML은 EPUB 패키징, CSS 스타일링 및 페이지 레이아웃을 �
 ## Convert EPUB to JPG – 개요
 다음 섹션에서는 필요한 클래스를 가져오고, EPUB 파일을 열어 JPEG 이미지를 생성하는 과정을 설명합니다. 주요 키워드 **convert epub to jpg**가 제목에 포함되어 튜토리얼의 초점을 강조합니다.
 
-## Step 1: Import Packages
+## 1단계: 패키지 가져오기
 
 Aspose.HTML for Java와 작업하기 위해 필요한 패키지를 가져오는 첫 번째 단계입니다. 다음 코드를 Java 파일에 추가하십시오:
 
@@ -56,7 +56,7 @@ import com.aspose.html.converters.Converter;
 
 *Pro tip:* import 구문을 정리해 두면 코드를 읽기 쉬워지고, Aspose 기능을 추가할 때 도움이 됩니다.
 
-## Step 2: Converting EPUB to JPG
+## 2단계: EPUB을 JPG로 변환
 
 이 단계에서는 기존 EPUB 파일을 열어 JPG 형식으로 변환합니다.
 
@@ -83,7 +83,7 @@ try (FileInputStream fileInputStream = new FileInputStream("input.epub")) {
 - **전자책 콘텐츠를 활용한 슬라이드 쇼 프레젠테이션 생성**.  
 - **이미지 형식이 필요한 웹 페이지에 전자책 페이지 삽입**.
 
-## Common Issues and Solutions
+## 일반적인 문제 및 해결책
 | Issue | Reason | Fix |
 |-------|--------|-----|
 | 출력 이미지가 흐림 | 기본 JPEG 품질이 낮을 수 있음 | 변환 전에 `options.setQuality(90);`를 설정하십시오. |
@@ -96,29 +96,7 @@ Aspose.HTML for Java를 사용하면 EPUB을 JPG 형식으로 변환하는 작�
 
 자세한 내용과 문서는 [Aspose.HTML for Java documentation](https://reference.aspose.com/html/java/)을 참고하십시오.
 
-## FAQ's
-
-### Q1: Aspose.HTML for Java란 무엇인가요?
-
-A1: Aspose.HTML for Java는 HTML 및 다양한 문서 형식을 다루는 Java 라이브러리로, 풍부한 기능과 기능성을 제공합니다.
-
-### Q2: Aspose.HTML for Java를 어디서 다운로드할 수 있나요?
-
-A2: 웹사이트 [here](https://releases.aspose.com/html/java/)에서 다운로드할 수 있습니다.
-
-### Q3: 무료 체험판을 이용할 수 있나요?
-
-A3: 네, Aspose.HTML for Java의 무료 체험판을 [here](https://releases.aspose.com/)에서 이용할 수 있습니다.
-
-### Q4: Aspose.HTML for Java에 대한 지원은 어떻게 받나요?
-
-A4: Aspose 커뮤니티의 [forum](https://forum.aspose.com/)을 방문하면 지원 및 도움을 받을 수 있습니다.
-
-### Q5: Aspose.HTML for Java의 임시 라이선스를 받을 수 있나요?
-
-A5: 네, [here](https://purchase.aspose.com/temporary-license/)에서 임시 라이선스를 받을 수 있습니다.
-
-## Frequently Asked Questions
+## 자주 묻는 질문
 
 **Q: 한 번에 여러 EPUB 파일을 변환하려면 어떻게 해야 하나요?**  
 A: 파일 경로 목록을 순회하는 루프 안에 변환 코드를 넣고, 각 반복마다 출력 파일 이름을 변경하면 됩니다.

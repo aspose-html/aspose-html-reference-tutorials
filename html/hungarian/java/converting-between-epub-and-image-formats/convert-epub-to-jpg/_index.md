@@ -100,28 +100,6 @@ További részletekért és dokumentációért kérjük, tekintse meg az [Aspose
 
 ## Gyakran Ismételt Kérdések
 
-### Q1: Mi az Aspose.HTML for Java?
-
-A1: Az Aspose.HTML for Java egy Java könyvtár HTML‑el és különféle dokumentumformátumokkal való munkához, amely széles körű funkciókat és képességeket biztosít.
-
-### Q2: Hol tölthetem le az Aspose.HTML for Java‑t?
-
-A2: Az Aspose.HTML for Java‑t letöltheti a weboldalról [itt](https://releases.aspose.com/html/java/).
-
-### Q3: Van ingyenes próba verzió?
-
-A3: Igen, az Aspose.HTML for Java ingyenes próba verzióját elérheti [itt](https://releases.aspose.com/).
-
-### Q4: Hogyan kaphatok támogatást az Aspose.HTML for Java‑hoz?
-
-A4: Támogatást és segítséget kaphat az Aspose közösségtől, ha felkeresi a [fórumot](https://forum.aspose.com/).
-
-### Q5: Kaphatok ideiglenes licencet az Aspose.HTML for Java‑hoz?
-
-A5: Igen, ideiglenes licencet szerezhet [itt](https://purchase.aspose.com/temporary-license/).
-
-## Gyakran Ismételt Kérdések
-
 **Q: Hogyan konvertálhatok több EPUB fájlt egy futtatásban?**  
 A: Csomagolja a konverziós kódot egy ciklusba, amely egy fájlútvonalak listáján iterál, és minden iterációban módosítja a kimeneti fájl nevét.
 

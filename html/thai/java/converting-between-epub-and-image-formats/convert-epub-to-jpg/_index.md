@@ -96,23 +96,6 @@ try (FileInputStream fileInputStream = new FileInputStream("input.epub")) {
 
 สำหรับรายละเอียดและเอกสารเพิ่มเติม โปรดดูที่ [Aspose.HTML for Java documentation](https://reference.aspose.com/html/java/).
 
-## คำถามที่พบบ่อย
-
-### Q1: Aspose.HTML for Java คืออะไร?
-A1: Aspose.HTML for Java เป็นไลบรารี Java สำหรับทำงานกับ HTML และรูปแบบเอกสารต่าง ๆ ให้คุณสมบัติและฟังก์ชันการทำงานที่หลากหลาย.
-
-### Q2: ฉันสามารถดาวน์โหลด Aspose.HTML for Java ได้จากที่ไหน?
-A2: คุณสามารถดาวน์โหลด Aspose.HTML for Java จากเว็บไซต์ [here](https://releases.aspose.com/html/java/).
-
-### Q3: มีการทดลองใช้ฟรีหรือไม่?
-A3: มี, คุณสามารถเข้าถึงการทดลองใช้ฟรีของ Aspose.HTML for Java [here](https://releases.aspose.com/).
-
-### Q4: ฉันจะขอรับการสนับสนุนสำหรับ Aspose.HTML for Java ได้อย่างไร?
-A4: คุณสามารถรับการสนับสนุนและความช่วยเหลือจากชุมชน Aspose โดยไปที่ [forum](https://forum.aspose.com/).
-
-### Q5: ฉันสามารถขอรับไลเซนส์ชั่วคราวสำหรับ Aspose.HTML for Java ได้หรือไม่?
-A5: ได้, คุณสามารถรับไลเซนส์ชั่วคราวจาก [here](https://purchase.aspose.com/temporary-license/).
-
 ## คำถามที่พบบ่อยเพิ่มเติม
 
 **Q: ฉันจะแปลงไฟล์ EPUB หลายไฟล์ในหนึ่งรอบได้อย่างไร?**  

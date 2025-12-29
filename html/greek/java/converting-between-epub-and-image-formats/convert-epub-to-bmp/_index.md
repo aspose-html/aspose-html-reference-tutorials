@@ -130,17 +130,15 @@ Converter.convertEPUB(fileInputStream, options, "path/to/your/output.bmp");
 
 Η μετατροπή **epub σε bmp** εικόνων σε Java δεν ήταν ποτέ πιο εύκολη, χάρη στο Aspose.HTML για Java. Αυτός ο οδηγός **μετατροπής βήμα προς βήμα** σας δείχνει πώς να ρυθμίσετε το περιβάλλον, να γράψετε τον κώδικα και να αντιμετωπίσετε κοινά προβλήματα. Εξερευνήστε την εκτενή τεκμηρίωση του Aspose.HTML [εδώ](https://reference.aspose.com/html/java/) για να εμβαθύνετε σε προχωρημένα σενάρια και επιπλέον μορφές εξόδου.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Τελευταία ενημέρωση:** 2025-12-25  
 **Δοκιμή με:** Aspose.HTML για Java 23.12 (τελευταία έκδοση τη στιγμή της συγγραφής)  
 **Συγγραφέας:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

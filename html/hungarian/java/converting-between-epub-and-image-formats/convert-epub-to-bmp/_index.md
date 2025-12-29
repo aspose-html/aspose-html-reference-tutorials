@@ -130,17 +130,15 @@ A7: Igen – állíts be további tulajdonságokat az `ImageSaveOptions`‑on, p
 
 Az **epub to bmp** képek konvertálása Java‑ban még soha nem volt ilyen egyszerű, köszönhetően az Aspose.HTML for Java‑nak. Ez a **lépésről‑lépésre konvertálási** útmutató megmutatja, hogyan állítsd be a környezetet, írd meg a kódot, és kezeld a gyakori buktatókat. Fedezd fel az Aspose.HTML kiterjedt dokumentációját [itt](https://reference.aspose.com/html/java/) a haladóbb forgatókönyvek és további kimeneti formátumok mélyebb megismeréséhez.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Utoljára frissítve:** 2025-12-25  
 **Tesztelve:** Aspose.HTML for Java 23.12 (a cikk írásakor legújabb)  
 **Szerző:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

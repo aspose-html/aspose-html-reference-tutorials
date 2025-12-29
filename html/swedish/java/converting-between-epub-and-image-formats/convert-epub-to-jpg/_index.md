@@ -97,28 +97,6 @@ Att konvertera EPUB till JPG‑format görs enkelt med Aspose.HTML för Java. Ge
 
 För ytterligare detaljer och dokumentation, se [Aspose.HTML for Java documentation](https://reference.aspose.com/html/java/).
 
-## Vanliga frågor
-
-### Q1: Vad är Aspose.HTML för Java?
-
-A1: Aspose.HTML för Java är ett Java‑bibliotek för att arbeta med HTML och olika dokumentformat, och erbjuder ett brett utbud av funktioner och möjligheter.
-
-### Q2: Var kan jag ladda ner Aspose.HTML för Java?
-
-A2: Du kan ladda ner Aspose.HTML för Java från webbplatsen [here](https://releases.aspose.com/html/java/).
-
-### Q3: Finns det en gratis provversion tillgänglig?
-
-A3: Ja, du kan få åtkomst till en gratis provversion av Aspose.HTML för Java [here](https://releases.aspose.com/).
-
-### Q4: Hur får jag support för Aspose.HTML för Java?
-
-A4: Du kan få support och hjälp från Aspose‑communityn genom att besöka deras [forum](https://forum.aspose.com/).
-
-### Q5: Kan jag få en tillfällig licens för Aspose.HTML för Java?
-
-A5: Ja, du kan få en tillfällig licens från [here](https://purchase.aspose.com/temporary-license/).
-
 ## Vanligt förekommande frågor
 
 **Q: Hur konverterar jag flera EPUB‑filer i ett körning?**  

@@ -130,17 +130,15 @@ Odp7: Tak — ustaw dodatkowe właściwości w `ImageSaveOptions`, takie jak `se
 
 Konwersja **epub do bmp** w Javie nigdy nie była prostsza, dzięki Aspose.HTML dla Javy. Ten **przewodnik krok po kroku** pokazuje, jak skonfigurować środowisko, napisać kod i radzić sobie z typowymi problemami. Zapoznaj się z obszerną dokumentacją Aspose.HTML [tutaj](https://reference.aspose.com/html/java/), aby zgłębić zaawansowane scenariusze i dodatkowe formaty wyjściowe.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Ostatnia aktualizacja:** 2025-12-25  
 **Testowano z:** Aspose.HTML dla Javy 23.12 (najnowsza w momencie pisania)  
 **Autor:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

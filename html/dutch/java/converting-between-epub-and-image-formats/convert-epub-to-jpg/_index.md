@@ -97,23 +97,6 @@ Voor meer details en documentatie, raadpleeg de [Aspose.HTML for Java documentat
 
 ## Veelgestelde vragen
 
-### V1: Wat is Aspose.HTML voor Java?
-A1: Aspose.HTML for Java is een Java‑bibliotheek voor het werken met HTML en verschillende documentformaten, die een breed scala aan functies en mogelijkheden biedt.
-
-### V2: Waar kan ik Aspose.HTML voor Java downloaden?
-A2: Je kunt Aspose.HTML for Java downloaden van de website [hier](https://releases.aspose.com/html/java/).
-
-### V3: Is er een gratis proefversie beschikbaar?
-A3: Ja, je kunt een gratis proefversie van Aspose.HTML for Java krijgen [hier](https://releases.aspose.com/).
-
-### V4: Hoe krijg ik ondersteuning voor Aspose.HTML voor Java?
-A4: Je kunt ondersteuning en hulp krijgen van de Aspose‑community door hun [forum](https://forum.aspose.com/) te bezoeken.
-
-### V5: Kan ik een tijdelijke licentie voor Aspose.HTML voor Java verkrijgen?
-A5: Ja, je kunt een tijdelijke licentie krijgen via [hier](https://purchase.aspose.com/temporary-license/).
-
-## Veelgestelde vragen
-
 **V: Hoe converteer ik meerdere EPUB‑bestanden in één run?**  
 A: Plaats de conversiecode in een lus die over een lijst met bestandspaden iterereert, en wijzig de uitvoerbestandsnaam voor elke iteratie.
 

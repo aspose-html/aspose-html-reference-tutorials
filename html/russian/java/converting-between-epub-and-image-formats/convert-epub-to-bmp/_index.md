@@ -130,15 +130,15 @@ A7: Да — задайте дополнительные свойства в `Im
 
 Конвертация **epub в bmp** изображений в Java никогда не была проще благодаря Aspose.HTML для Java. Это руководство **step by step conversion** показывает, как настроить окружение, написать код и справиться с распространёнными проблемами. Изучайте обширную документацию Aspose.HTML [здесь](https://reference.aspose.com/html/java/) для более глубокого погружения в продвинутые сценарии и дополнительные форматы вывода.
 
+---
+
+**Last Updated:** 2025-12-25  
+**Tested With:** Aspose.HTML for Java 23.12 (latest at time of writing)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-25  
-**Tested With:** Aspose.HTML for Java 23.12 (latest at time of writing)  
-**Author:** Aspose

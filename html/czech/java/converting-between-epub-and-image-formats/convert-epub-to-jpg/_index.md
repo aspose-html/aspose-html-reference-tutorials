@@ -97,28 +97,6 @@ Pro další podrobnosti a dokumentaci se prosím podívejte na [dokumentaci Aspo
 
 ## Často kladené otázky
 
-### Q1: Co je Aspose.HTML pro Java?
-
-A1: Aspose.HTML pro Java je knihovna Java pro práci s HTML a různými formáty dokumentů, poskytující širokou škálu funkcí a vlastností.
-
-### Q2: Kde si mohu stáhnout Aspose.HTML pro Java?
-
-A2: Aspose.HTML pro Java můžete stáhnout z webu [zde](https://releases.aspose.com/html/java/).
-
-### Q3: Je k dispozici bezplatná zkušební verze?
-
-A3: Ano, bezplatnou zkušební verzi Aspose.HTML pro Java můžete získat [zde](https://releases.aspose.com/).
-
-### Q4: Jak získám podporu pro Aspose.HTML pro Java?
-
-A4: Podporu a pomoc můžete získat od komunity Aspose návštěvou jejich [fóra](https://forum.aspose.com/).
-
-### Q5: Mohu získat dočasnou licenci pro Aspose.HTML pro Java?
-
-A5: Ano, dočasnou licenci můžete získat [zde](https://purchase.aspose.com/temporary-license/).
-
-## Často kladené otázky
-
 **Q: Jak mohu převést více souborů EPUB v jednom běhu?**  
 A: Zabalte kód převodu do smyčky, která iteruje přes seznam cest k souborům a mění název výstupního souboru pro každou iteraci.
 
@@ -133,6 +111,8 @@ A: Rozhodně – knihovna plně podporuje EPUB 3, včetně vložených písem,
 
 **Q: Jaké verze Javy jsou kompatibilní s nejnovějším vydáním Aspose.HTML?**  
 A: Jsou podporovány Java 8 a novější; můžete jej také spustit na Java 11 LTS nebo novější.
+
+---
 
 **Poslední aktualizace:** 2025-12-25  
 **Testováno s:** Aspose.HTML for Java 23.11  

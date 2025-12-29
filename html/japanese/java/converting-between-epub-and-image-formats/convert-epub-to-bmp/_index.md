@@ -129,17 +129,15 @@ A7: はい、`ImageSaveOptions` に `setResolution` や `setQuality` などの�
 
 Aspose.HTML for Java により、Java での **epub を bmp** 画像変換がこれまで以上に簡単になりました。この **ステップバイステップ変換** ガイドは、環境設定、コード作成、一般的な落とし穴の対処方法を示しています。さらに高度なシナリオや追加の出力形式については、Aspose.HTML の豊富なドキュメント [here](https://reference.aspose.com/html/java/) をご参照ください。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **最終更新日:** 2025-12-25  
 **テスト環境:** Aspose.HTML for Java 23.12（執筆時点での最新バージョン）  
 **作者:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

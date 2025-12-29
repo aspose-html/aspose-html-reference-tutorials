@@ -130,15 +130,15 @@ A7: हाँ—`convertEPUB` कॉल करने से पहले `ImageS
 
 Java में **epub को bmp** इमेजेज़ को बदलना Aspose.HTML for Java की वजह से पहले कभी इतना आसान नहीं रहा। यह **स्टेप बाय स्टेप रूपांतरण** गाइड आपको पर्यावरण सेटअप, कोड लिखना, और सामान्य समस्याओं को संभालना दिखाता है। उन्नत परिदृश्यों और अतिरिक्त आउटपुट फ़ॉर्मेट्स में गहराई से जाने के लिए Aspose.HTML की विस्तृत दस्तावेज़ीकरण [here](https://reference.aspose.com/html/java/) देखें।
 
+---
+
+**अंतिम अपडेट:** 2025-12-25  
+**परीक्षित संस्करण:** Aspose.HTML for Java 23.12 (लेखन समय पर नवीनतम)  
+**लेखक:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**अंतिम अपडेट:** 2025-12-25  
-**परीक्षित संस्करण:** Aspose.HTML for Java 23.12 (लेखन समय पर नवीनतम)  
-**लेखक:** Aspose

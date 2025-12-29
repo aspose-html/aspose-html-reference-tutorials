@@ -129,15 +129,15 @@ A7：可以——在呼叫 `convertEPUB` 前，於 `ImageSaveOptions` 設定 `se
 
 有了 Aspose.HTML for Java，**在 Java 中將 epub 轉換為 bmp** 變得前所未有的簡單。本 **逐步轉換** 指南說明了環境設定、程式撰寫以及常見問題的處理方式。欲深入了解進階情境與其他輸出格式，請參考 Aspose.HTML 的完整文件 [此處](https://reference.aspose.com/html/java/)。
 
+---
+
+**Last Updated:** 2025-12-25  
+**Tested With:** Aspose.HTML for Java 23.12 (latest at time of writing)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-25  
-**Tested With:** Aspose.HTML for Java 23.12 (latest at time of writing)  
-**Author:** Aspose
