@@ -127,15 +127,15 @@ Bạn đã có một phương pháp hoàn chỉnh, sẵn sàng cho môi trườn
 
 Nếu gặp khó khăn, cộng đồng Aspose sẵn sàng hỗ trợ qua [Diễn đàn Hỗ trợ](https://forum.aspose.com/).
 
+---
+
+**Last Updated:** 2025-12-19  
+**Tested With:** Aspose.HTML cho Java 24.12 (phiên bản mới nhất tại thời điểm viết)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-19  
-**Tested With:** Aspose.HTML cho Java 24.12 (phiên bản mới nhất tại thời điểm viết)  
-**Author:** Aspose

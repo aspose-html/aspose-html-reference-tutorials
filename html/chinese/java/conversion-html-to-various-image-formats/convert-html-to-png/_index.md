@@ -126,15 +126,15 @@ Converter.convertHTML(htmlDocument, options, outputFile);
 
 如果遇到任何问题，Aspose 社区随时通过其 [Support Forum](https://forum.aspose.com/) 为您提供帮助。
 
+---
+
+**最后更新：** 2025-12-19  
+**测试环境：** Aspose.HTML for Java 24.12（撰写时的最新版本）  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最后更新：** 2025-12-19  
-**测试环境：** Aspose.HTML for Java 24.12（撰写时的最新版本）  
-**作者：** Aspose

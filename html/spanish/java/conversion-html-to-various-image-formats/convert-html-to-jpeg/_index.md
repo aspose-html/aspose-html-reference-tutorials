@@ -115,15 +115,15 @@ Converter.convertHTML(htmlDocument, options, outputFile);
 
 ### Q1: ¿Aspose.HTML para Java es una herramienta gratuita?
 
-A1: No, Aspose.HTML para Java es un producto comercial. Puedes encontrar información de licencias y precios **[aquí](https://purchase.aspose.com/buy)**.
+A1: No, Aspose.HTML para Java es un producto comercial. Puedes encontrar información de licencias y precios [aquí](https://purchase.aspose.com/buy).
 
 ### Q2: ¿Puedo probar Aspose.HTML para Java antes de comprar?
 
-A2: Sí, puedes descargar una versión de prueba gratuita desde **[aquí](https://releases.aspose.com/html/java)**.
+A2: Sí, puedes descargar una versión de prueba gratuita desde [aquí](https://releases.aspose.com/html/java).
 
 ### Q3: ¿Cómo puedo obtener soporte para Aspose.HTML para Java?
 
-A3: Puedes encontrar soporte e interactuar con la comunidad en los foros de Aspose **[aquí](https://forum.aspose.com/)**.
+A3: Puedes encontrar soporte e interactuar con la comunidad en los foros de Aspose [aquí](https://forum.aspose.com/).
 
 ### Q4: ¿Qué otros formatos de documento puede convertir Aspose.HTML para Java?
 
@@ -137,17 +137,15 @@ A5: Sí, Aspose.HTML para Java ofrece extensas opciones para personalizar la con
 
 En esta guía cubrimos **cómo convertir HTML a JPEG** usando Aspose.HTML para Java, desde la configuración del entorno hasta el ajuste fino de la salida. El mismo enfoque funciona para otros formatos de imagen, cumpliendo el escenario más amplio de **aspose html convert image**. Integra estos fragmentos en tus propios proyectos para automatizar el renderizado de páginas web, generar miniaturas o crear informes visuales directamente desde HTML.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Última actualización:** 2025-12-19  
 **Probado con:** Aspose.HTML para Java 24.12 (última)  
 **Autor:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

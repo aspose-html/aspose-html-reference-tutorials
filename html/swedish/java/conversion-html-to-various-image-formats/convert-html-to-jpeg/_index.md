@@ -114,15 +114,15 @@ Det är allt! När programmet är klart hittar du en JPEG‑rendering av din HTM
 
 ### Q1: Är Aspose.HTML för Java ett gratisverktyg?
 
-A1: Nej, Aspose.HTML för Java är en kommersiell produkt. Du kan hitta licens‑ och prisinformation **[här](https://purchase.aspose.com/buy)**.
+A1: Nej, Aspose.HTML för Java är en kommersiell produkt. Du kan hitta licens‑ och prisinformation [här](https://purchase.aspose.com/buy).
 
 ### Q2: Kan jag prova Aspose.HTML för Java innan jag köper?
 
-A2: Ja, du kan ladda ner en gratis provversion från **[här](https://releases.aspose.com/html/java)**.
+A2: Ja, du kan ladda ner en gratis provversion från [här](https://releases.aspose.com/html/java).
 
 ### Q3: Hur kan jag få support för Aspose.HTML för Java?
 
-A3: Du kan hitta support och interagera med communityn på Aspose‑forumet **[här](https://forum.aspose.com/)**.
+A3: Du kan hitta support och interagera med communityn på Aspose‑forumet [här](https://forum.aspose.com/).
 
 ### Q4: Vilka andra dokumentformat kan Aspose.HTML för Java konvertera till?
 
@@ -136,17 +136,15 @@ A5: Ja, Aspose.HTML för Java erbjuder omfattande alternativ för att anpassa ko
 
 I den här guiden gick vi igenom **hur man konverterar HTML till JPEG** med Aspose.HTML för Java, från att sätta upp miljön till finjustering av utdata. Samma metod fungerar för andra bildformat och uppfyller det bredare **aspose html convert image**‑scenariot. Integrera dessa kodsnuttar i dina egna projekt för att automatisera rendering av webbsidor, generera miniatyrbilder eller skapa visuella rapporter direkt från HTML.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-19  
 **Tested With:** Aspose.HTML for Java 24.12 (latest)  
 **Author:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -80,6 +80,22 @@ weight: 24
 - **檔案過大（TIFF/BMP）** – 調整 DPI 或使用儲存設定中的壓縮選項。  
 - **缺少字型** – 在伺服器上安裝所需字型，或在 HTML 中使用 `@font-face` 內嵌字型。
 
+## 轉換 - HTML 至多種圖像格式教學
+### [將 HTML 轉換為 BMP](./convert-html-to-bmp/)
+將 HTML 轉換為 BMP，使用 Aspose.HTML for Java。完整教學說明如何無縫將 HTML 文件轉換為 BMP 圖像。
+
+### [將 HTML 轉換為 GIF](./convert-html-to-gif/)
+了解如何在 Java 中使用 Aspose.HTML 將 HTML 轉換為 GIF。提供高效的 HTML 轉 GIF 轉換步驟說明。
+
+### [將 HTML 轉換為 JPEG](./convert-html-to-jpeg/)
+學習使用 Aspose.HTML for Java 將 HTML 轉換為 JPEG。提供逐步指引，協助順利完成文件處理。
+
+### [將 HTML 轉換為 PNG](./convert-html-to-png/)
+學習如何在 Java 中使用 Aspose.HTML 將 HTML 轉換為 PNG 圖像。完整教學提供詳細步驟說明。
+
+### [將 HTML 轉換為 TIFF](./convert-html-to-tiff/)
+了解如何使用 Aspose.HTML for Java 輕鬆將 HTML 轉換為 TIFF。提供高效的文件處理步驟說明。
+
 ## 常見問題集
 
 **Q: 我可以在 Java 中將 HTML 轉換為 PNG 而不使用額外的圖像函式庫嗎？**  
@@ -102,22 +118,6 @@ A: Aspose 同時提供永久授權與訂閱授權；請聯絡業務以取得符�
 **最後更新：** 2025-12-19  
 **測試環境：** Aspose.HTML for Java 24.12  
 **作者：** Aspose  
-
-## 轉換 - HTML 至多種圖像格式教學
-### [將 HTML 轉換為 BMP](./convert-html-to-bmp/)
-將 HTML 轉換為 BMP，使用 Aspose.HTML for Java。完整教學說明如何無縫將 HTML 文件轉換為 BMP 圖像。
-
-### [將 HTML 轉換為 GIF](./convert-html-to-gif/)
-了解如何在 Java 中使用 Aspose.HTML 將 HTML 轉換為 GIF。提供高效的 HTML 轉 GIF 轉換步驟說明。
-
-### [將 HTML 轉換為 JPEG](./convert-html-to-jpeg/)
-學習使用 Aspose.HTML for Java 將 HTML 轉換為 JPEG。提供逐步指引，協助順利完成文件處理。
-
-### [將 HTML 轉換為 PNG](./convert-html-to-png/)
-學習如何在 Java 中使用 Aspose.HTML 將 HTML 轉換為 PNG 圖像。完整教學提供詳細步驟說明。
-
-### [將 HTML 轉換為 TIFF](./convert-html-to-tiff/)
-了解如何使用 Aspose.HTML for Java 輕鬆將 HTML 轉換為 TIFF。提供高效的文件處理步驟說明。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

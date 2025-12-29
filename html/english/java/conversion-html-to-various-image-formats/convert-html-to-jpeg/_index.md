@@ -113,15 +113,15 @@ That’s it! When the program finishes, you’ll find a JPEG rendering of your H
 
 ### Q1: Is Aspose.HTML for Java a free tool?
 
-A1: No, Aspose.HTML for Java is a commercial product. You can find licensing and pricing information **[here](https://purchase.aspose.com/buy)**.
+A1: No, Aspose.HTML for Java is a commercial product. You can find licensing and pricing information [here](https://purchase.aspose.com/buy).
 
 ### Q2: Can I try Aspose.HTML for Java before purchasing?
 
-A2: Yes, you can download a free trial version from **[here](https://releases.aspose.com/html/java)**.
+A2: Yes, you can download a free trial version from [here](https://releases.aspose.com/html/java).
 
 ### Q3: How can I get support for Aspose.HTML for Java?
 
-A3: You can find support and interact with the community on the Aspose forums **[here](https://forum.aspose.com/)**.
+A3: You can find support and interact with the community on the Aspose forums [here](https://forum.aspose.com/).
 
 ### Q4: What other document formats can Aspose.HTML for Java convert to?
 
@@ -135,17 +135,15 @@ A5: Yes, Aspose.HTML for Java provides extensive options for customizing the con
 
 In this guide we covered **how to convert HTML to JPEG** using Aspose.HTML for Java, from setting up the environment to fine‑tuning the output. The same approach works for other image formats, fulfilling the broader **aspose html convert image** scenario. Integrate these snippets into your own projects to automate web‑page rendering, generate thumbnails, or create visual reports directly from HTML.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-19  
 **Tested With:** Aspose.HTML for Java 24.12 (latest)  
 **Author:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

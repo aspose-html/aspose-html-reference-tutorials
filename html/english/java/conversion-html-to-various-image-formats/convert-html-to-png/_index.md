@@ -125,15 +125,15 @@ You now have a complete, production‑ready method to **convert html to png** us
 
 If you run into any challenges, the Aspose community is ready to help via their [Support Forum](https://forum.aspose.com/).
 
+---
+
+**Last Updated:** 2025-12-19  
+**Tested With:** Aspose.HTML for Java 24.12 (latest at time of writing)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-19  
-**Tested With:** Aspose.HTML for Java 24.12 (latest at time of writing)  
-**Author:** Aspose

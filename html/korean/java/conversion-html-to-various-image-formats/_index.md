@@ -85,6 +85,18 @@ Aspose.HTML for Java를 사용하면 HTML 문서를 다양한 이미지 형식�
 - **큰 파일 크기 (TIFF/BMP)** – DPI를 조정하거나 저장 설정에서 제공되는 압축 옵션을 사용합니다.  
 - **폰트 누락** – 서버에 필요한 폰트를 설치하거나 `@font-face`를 사용해 HTML에 임베드합니다.
 
+## 변환 - HTML을 다양한 이미지 형식으로 변환하는 튜토리얼
+### [HTML을 BMP로 변환](./convert-html-to-bmp/)
+Aspose.HTML for Java를 사용해 HTML을 BMP로 변환합니다. HTML 문서를 BMP 이미지로 원활하게 변환하는 포괄적인 튜토리얼입니다.
+### [HTML을 GIF로 변환](./convert-html-to-gif/)
+Aspose.HTML를 사용해 Java에서 HTML을 GIF로 변환하는 방법을 배웁니다. 효율적인 HTML‑to‑GIF 변환을 위한 포괄적인 단계별 가이드입니다.
+### [HTML을 JPEG로 변환](./convert-html-to-jpeg/)
+Aspose.HTML for Java를 사용해 HTML을 JPEG로 변환하는 방법을 배웁니다. 원활한 문서 처리를 위한 단계별 가이드입니다.
+### [HTML을 PNG로 변환](./convert-html-to-png/)
+Aspose.HTML를 사용해 Java에서 HTML을 PNG 이미지로 변환하는 방법을 배웁니다. 단계별 지침이 포함된 포괄적인 가이드입니다.
+### [HTML을 TIFF로 변환](./convert-html-to-tiff/)
+Aspose.HTML for Java를 사용해 HTML을 TIFF로 쉽게 변환하는 방법을 배웁니다. 효율적인 문서 처리를 위한 단계별 가이드입니다.
+
 ## 자주 묻는 질문
 
 **Q: Java에서 추가 이미지 라이브러리 없이 HTML을 PNG로 변환할 수 있나요?**  
@@ -102,21 +114,12 @@ A: 문서를 섹션별로 렌더링하거나 Aspose.HTML가 제공하는 스트�
 **Q: 상업 프로젝트를 위한 라이선스 옵션은 무엇이 있나요?**  
 A: Aspose는 영구 라이선스와 구독 라이선스를 모두 제공하며, 배포 모델에 맞는 플랜은 영업팀에 문의하십시오.
 
+---
+
 **마지막 업데이트:** 2025-12-19  
 **테스트 환경:** Aspose.HTML for Java 24.12  
 **작성자:** Aspose  
 
-## 변환 - HTML을 다양한 이미지 형식으로 변환하는 튜토리얼
-### [HTML을 BMP로 변환](./convert-html-to-bmp/)
-Aspose.HTML for Java를 사용해 HTML을 BMP로 변환합니다. HTML 문서를 BMP 이미지로 원활하게 변환하는 포괄적인 튜토리얼입니다.
-### [HTML을 GIF로 변환](./convert-html-to-gif/)
-Aspose.HTML를 사용해 Java에서 HTML을 GIF로 변환하는 방법을 배웁니다. 효율적인 HTML‑to‑GIF 변환을 위한 포괄적인 단계별 가이드입니다.
-### [HTML을 JPEG로 변환](./convert-html-to-jpeg/)
-Aspose.HTML for Java를 사용해 HTML을 JPEG로 변환하는 방법을 배웁니다. 원활한 문서 처리를 위한 단계별 가이드입니다.
-### [HTML을 PNG로 변환](./convert-html-to-png/)
-Aspose.HTML를 사용해 Java에서 HTML을 PNG 이미지로 변환하는 방법을 배웁니다. 단계별 지침이 포함된 포괄적인 가이드입니다.
-### [HTML을 TIFF로 변환](./convert-html-to-tiff/)
-Aspose.HTML for Java를 사용해 HTML을 TIFF로 쉽게 변환하는 방법을 배웁니다. 효율적인 문서 처리를 위한 단계별 가이드입니다.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

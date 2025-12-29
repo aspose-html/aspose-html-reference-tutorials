@@ -115,15 +115,15 @@ Gotowe! Po zakończeniu programu znajdziesz renderowany obraz JPEG Twojej strony
 
 ### Q1: Czy Aspose.HTML for Java jest darmowym narzędziem?
 
-A1: Nie, Aspose.HTML for Java jest produktem komercyjnym. Informacje o licencjonowaniu i cenach znajdziesz **[tutaj](https://purchase.aspose.com/buy)**.
+A1: Nie, Aspose.HTML for Java jest produktem komercyjnym. Informacje o licencjonowaniu i cenach znajdziesz [tutaj](https://purchase.aspose.com/buy).
 
 ### Q2: Czy mogę wypróbować Aspose.HTML for Java przed zakupem?
 
-A2: Tak, możesz pobrać darmową wersję próbną **[tutaj](https://releases.aspose.com/html/java)**.
+A2: Tak, możesz pobrać darmową wersję próbną [tutaj](https://releases.aspose.com/html/java).
 
 ### Q3: Jak mogę uzyskać wsparcie dla Aspose.HTML for Java?
 
-A3: Wsparcie i społeczność znajdziesz na forach Aspose **[tutaj](https://forum.aspose.com/)**.
+A3: Wsparcie i społeczność znajdziesz na forach Aspose [tutaj](https://forum.aspose.com/).
 
 ### Q4: Jakie inne formaty dokumentów może konwertować Aspose.HTML for Java?
 
@@ -137,17 +137,15 @@ A5: Tak, Aspose.HTML for Java oferuje rozbudowane możliwości konfiguracji konw
 
 W tym przewodniku omówiliśmy **jak przekonwertować HTML na JPEG** przy użyciu Aspose.HTML dla Javy, od konfiguracji środowiska po precyzyjne dopasowanie wyniku. To samo podejście działa dla innych formatów obrazów, spełniając szerszy scenariusz **aspose html convert image**. Włącz te fragmenty kodu do własnych projektów, aby automatyzować renderowanie stron, generować miniatury lub tworzyć raporty wizualne bezpośrednio z HTML.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Ostatnia aktualizacja:** 2025-12-19  
 **Testowano z:** Aspose.HTML for Java 24.12 (najnowsza)  
 **Autor:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

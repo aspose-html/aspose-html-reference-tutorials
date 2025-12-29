@@ -127,15 +127,15 @@ Ora disponi di un metodo completo e pronto per la produzione per **convertire ht
 
 Se incontri difficoltà, la community di Aspose è pronta ad aiutarti tramite il loro [Support Forum](https://forum.aspose.com/).
 
+---
+
+**Ultimo aggiornamento:** 2025-12-19  
+**Testato con:** Aspose.HTML for Java 24.12 (latest at time of writing)  
+**Autore:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ultimo aggiornamento:** 2025-12-19  
-**Testato con:** Aspose.HTML for Java 24.12 (latest at time of writing)  
-**Autore:** Aspose

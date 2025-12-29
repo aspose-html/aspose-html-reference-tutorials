@@ -87,6 +87,18 @@ weight: 24
 - **Μεγάλο μέγεθος αρχείου (TIFF/BMP)** – Ρυθμίστε το DPI ή χρησιμοποιήστε επιλογές συμπίεσης που διατίθενται στις ρυθμίσεις αποθήκευσης.  
 - **Απουσία γραμματοσειρών** – Εγκαταστήστε τις απαιτούμενες γραμματοσειρές στον διακομιστή ή ενσωματώστε τις στο HTML με `@font-face`.  
 
+## Μετατροπή - Εκμάθηση HTML σε διάφορες μορφές εικόνας
+### [Μετατροπή HTML σε BMP](./convert-html-to-bmp/)
+Μετατρέψτε HTML σε BMP με το Aspose.HTML για Java. Ένας ολοκληρωμένος οδηγός για την αδιάλειπτη μετατροπή εγγράφων HTML σε εικόνες BMP χρησιμοποιώντας το Aspose.HTML for Java.
+### [Μετατροπή HTML σε GIF](./convert-html-to-gif/)
+Μάθετε πώς να μετατρέψετε HTML σε GIF σε Java χρησιμοποιώντας το Aspose.HTML. Ένας πλήρης οδηγός βήμα‑βήμα για αποδοτική μετατροπή HTML‑σε‑GIF.
+### [Μετατροπή HTML σε JPEG](./convert-html-to-jpeg/)
+Μάθετε να μετατρέπετε HTML σε JPEG με το Aspose.HTML για Java. Οδηγός βήμα‑βήμα για αδιάλειπτη επεξεργασία εγγράφων.
+### [Μετατροπή HTML σε PNG](./convert-html-to-png/)
+Μάθετε πώς να μετατρέπετε HTML σε εικόνες PNG σε Java με το Aspose.HTML. Ένας ολοκληρωμένος οδηγός με οδηγίες βήμα‑βήμα.
+### [Μετατροπή HTML σε TIFF](./convert-html-to-tiff/)
+Μάθετε πώς να μετατρέπετε εύκολα HTML σε TIFF χρησιμοποιώντας το Aspose.HTML για Java. Οδηγός βήμα‑βήμα για αποτελεσματική διαχείριση εγγράφων.
+
 ## Συχνές Ερωτήσεις
 
 **Ε: Μπορώ να μετατρέψω HTML σε PNG χρησιμοποιώντας Java χωρίς πρόσθετες βιβλιοθήκες εικόνας;**  
@@ -110,17 +122,6 @@ weight: 24
 **Δοκιμή με:** Aspose.HTML for Java 24.12  
 **Συγγραφέας:** Aspose  
 
-## Conversion - HTML to Various Image Formats Tutorials
-### [Converting HTML to BMP](./convert-html-to-bmp/)
-Μετατρέψτε HTML σε BMP με το Aspose.HTML for Java. Ένας ολοκληρωμένος οδηγός για την αδιάλειπτη μετατροπή εγγράφων HTML σε εικόνες BMP χρησιμοποιώντας το Aspose.HTML for Java.
-### [Converting HTML to GIF](./convert-html-to-gif/)
-Μάθετε πώς να μετατρέψετε HTML σε GIF σε Java χρησιμοποιώντας το Aspose.HTML. Ένας πλήρης οδηγός βήμα‑βήμα για αποδοτική μετατροπή HTML‑σε‑GIF.
-### [Converting HTML to JPEG](./convert-html-to-jpeg/)
-Μάθετε να μετατρέπετε HTML σε JPEG με το Aspose.HTML for Java. Οδηγός βήμα‑βήμα για αδιάλειπτη επεξεργασία εγγράφων.
-### [Converting HTML to PNG](./convert-html-to-png/)
-Μάθετε πώς να μετατρέπετε HTML σε εικόνες PNG σε Java με το Aspose.HTML. Ένας ολοκληρωμένος οδηγός με βήμα‑βήμα οδηγίες.
-### [Converting HTML to TIFF](./convert-html-to-tiff/)
-Μάθετε πώς να μετατρέπετε εύκολα HTML σε TIFF χρησιμοποιώντας το Aspose.HTML for Java. Οδηγός βήμα‑βήμα για αποδοτική διαχείριση εγγράφων.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

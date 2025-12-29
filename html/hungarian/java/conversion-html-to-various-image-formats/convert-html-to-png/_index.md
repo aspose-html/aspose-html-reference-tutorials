@@ -127,15 +127,15 @@ Most már rendelkezik egy teljes, termelés‑kész módszerrel a **convert html
 
 Ha bármilyen nehézségbe ütközik, az Aspose közösség a [Support Forum](https://forum.aspose.com/) segítségével áll rendelkezésére.
 
+---
+
+**Last Updated:** 2025-12-19  
+**Tested With:** Aspose.HTML for Java 24.12 (latest at time of writing)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-19  
-**Tested With:** Aspose.HTML for Java 24.12 (latest at time of writing)  
-**Author:** Aspose

@@ -127,15 +127,15 @@ Agora você tem um método completo e para produção de **converter html para p
 
 Se encontrar algum desafio, a comunidade Aspose está pronta para ajudar através do [Support Forum](https://forum.aspose.com/).
 
+---
+
+**Última atualização:** 2025-12-19  
+**Testado com:** Aspose.HTML para Java 24.12 (mais recente no momento da escrita)  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última atualização:** 2025-12-19  
-**Testado com:** Aspose.HTML para Java 24.12 (mais recente no momento da escrita)  
-**Autor:** Aspose

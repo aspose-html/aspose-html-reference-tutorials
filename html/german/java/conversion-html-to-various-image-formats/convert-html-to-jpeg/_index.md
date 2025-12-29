@@ -114,15 +114,15 @@ Das war’s! Wenn das Programm beendet ist, finden Sie eine JPEG‑Darstellung I
 
 ### F1: Ist Aspose.HTML für Java ein kostenloses Tool?
 
-A1: Nein, Aspose.HTML für Java ist ein kommerzielles Produkt. Lizenz‑ und Preis‑Informationen finden Sie **[hier](https://purchase.aspose.com/buy)**.
+A1: Nein, Aspose.HTML für Java ist ein kommerzielles Produkt. Lizenz‑ und Preis‑Informationen finden Sie [hier](https://purchase.aspose.com/buy).
 
 ### F2: Kann ich Aspose.HTML für Java vor dem Kauf testen?
 
-A2: Ja, Sie können eine kostenlose Testversion von **[hier](https://releases.aspose.com/html/java)** herunterladen.
+A2: Ja, Sie können eine kostenlose Testversion von [hier](https://releases.aspose.com/html/java) herunterladen.
 
 ### F3: Wie erhalte ich Support für Aspose.HTML für Java?
 
-A3: Support und Community‑Interaktion finden Sie im Aspose‑Forum **[hier](https://forum.aspose.com/)**.
+A3: Support und Community‑Interaktion finden Sie im Aspose‑Forum [hier](https://forum.aspose.com/).
 
 ### F4: Welche anderen Dokumentformate kann Aspose.HTML für Java konvertieren?
 
@@ -136,17 +136,15 @@ A5: Ja, Aspose.HTML für Java bietet umfangreiche Optionen zur Anpassung der Kon
 
 In diesem Leitfaden haben wir **wie man HTML in JPEG** mit Aspose.HTML für Java konvertiert, von der Einrichtung der Umgebung bis zur Feinabstimmung der Ausgabe. Der gleiche Ansatz funktioniert für andere Bildformate und deckt das breitere Szenario **aspose html convert image** ab. Integrieren Sie diese Code‑Snippets in Ihre eigenen Projekte, um das Rendern von Webseiten zu automatisieren, Thumbnails zu erzeugen oder visuelle Berichte direkt aus HTML zu erstellen.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Zuletzt aktualisiert:** 2025-12-19  
 **Getestet mit:** Aspose.HTML für Java 24.12 (neueste)  
 **Autor:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

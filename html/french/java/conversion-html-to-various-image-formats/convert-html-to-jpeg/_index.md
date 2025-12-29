@@ -115,15 +115,15 @@ C’est tout ! Lorsque le programme se termine, vous trouverez le rendu JPEG d
 
 ### Q1 : Aspose.HTML pour Java est‑il gratuit ?
 
-R1 : Non, Aspose.HTML pour Java est un produit commercial. Vous pouvez consulter les informations de licence et les tarifs **[ici](https://purchase.aspose.com/buy)**.
+R1 : Non, Aspose.HTML pour Java est un produit commercial. Vous pouvez consulter les informations de licence et les tarifs [ici](https://purchase.aspose.com/buy).
 
 ### Q2 : Puis‑je essayer Aspose.HTML pour Java avant d’acheter ?
 
-R2 : Oui, vous pouvez télécharger une version d’essai gratuite **[ici](https://releases.aspose.com/html/java)**.
+R2 : Oui, vous pouvez télécharger une version d’essai gratuite [ici](https://releases.aspose.com/html/java).
 
 ### Q3 : Comment obtenir du support pour Aspose.HTML pour Java ?
 
-R3 : Vous pouvez trouver du support et interagir avec la communauté sur les forums Aspose **[ici](https://forum.aspose.com/)**.
+R3 : Vous pouvez trouver du support et interagir avec la communauté sur les forums Aspose [ici](https://forum.aspose.com/).
 
 ### Q4 : Quels autres formats de documents Aspose.HTML pour Java peut‑il convertir ?
 
@@ -137,17 +137,15 @@ R5 : Oui, Aspose.HTML pour Java offre de nombreuses options pour personnaliser
 
 Dans ce guide, nous avons couvert **comment convertir du HTML en JPEG** avec Aspose.HTML pour Java, depuis la configuration de l’environnement jusqu’à l’ajustement fin du résultat. La même approche fonctionne pour d’autres formats d’image, répondant ainsi au scénario plus large **aspose html convert image**. Intégrez ces extraits dans vos propres projets pour automatiser le rendu de pages Web, générer des miniatures ou créer des rapports visuels directement à partir de HTML.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Dernière mise à jour :** 2025-12-19  
 **Testé avec :** Aspose.HTML pour Java 24.12 (dernière version)  
 **Auteur :** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -126,15 +126,15 @@ Sie haben nun eine vollständige, produktionsreife Methode, um **convert html to
 
 Wenn Sie auf Herausforderungen stoßen, steht Ihnen die Aspose‑Community über das [Support Forum](https://forum.aspose.com/) zur Verfügung.
 
+---
+
+**Zuletzt aktualisiert:** 2025-12-19  
+**Getestet mit:** Aspose.HTML for Java 24.12 (latest at time of writing)  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Zuletzt aktualisiert:** 2025-12-19  
-**Getestet mit:** Aspose.HTML for Java 24.12 (latest at time of writing)  
-**Autor:** Aspose

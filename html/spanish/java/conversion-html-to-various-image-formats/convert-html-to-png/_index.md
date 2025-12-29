@@ -127,15 +127,15 @@ Ahora dispones de un método y listo para producción para **convertir html a pn
 
 Si encuentras algún desafío, la comunidad de Aspose está lista para ayudar a través de su [Support Forum](https://forum.aspose.com/).
 
+---
+
+**Última actualización:** 2025-12-19  
+**Probado con:** Aspose.HTML para Java 24.12 (última versión al momento de escribir)  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última actualización:** 2025-12-19  
-**Probado con:** Aspose.HTML para Java 24.12 (última versión al momento de escribir)  
-**Autor:** Aspose

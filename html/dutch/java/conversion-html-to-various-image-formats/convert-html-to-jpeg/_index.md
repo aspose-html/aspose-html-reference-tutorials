@@ -114,15 +114,15 @@ Dat is alles! Wanneer het programma klaar is, vind je een JPEG‑rendering van j
 
 ### Q1: Is Aspose.HTML voor Java een gratis tool?
 
-A1: Nee, Aspose.HTML voor Java is een commercieel product. Je kunt licentie‑ en prijsinformatie vinden **[hier](https://purchase.aspose.com/buy)**.
+A1: Nee, Aspose.HTML voor Java is een commercieel product. Je kunt licentie‑ en prijsinformatie vinden [hier](https://purchase.aspose.com/buy).
 
 ### Q2: Kan ik Aspose.HTML voor Java uitproberen voordat ik koop?
 
-A2: Ja, je kunt een gratis proefversie downloaden van **[hier](https://releases.aspose.com/html/java)**.
+A2: Ja, je kunt een gratis proefversie downloaden van [hier](https://releases.aspose.com/html/java).
 
 ### Q3: Hoe kan ik ondersteuning krijgen voor Aspose.HTML voor Java?
 
-A3: Je kunt ondersteuning vinden en met de community communiceren op de Aspose‑forums **[hier](https://forum.aspose.com/)**.
+A3: Je kunt ondersteuning vinden en met de community communiceren op de Aspose‑forums [hier](https://forum.aspose.com/).
 
 ### Q4: Welke andere documentformaten kan Aspose.HTML voor Java naar converteren?
 
@@ -136,15 +136,15 @@ A5: Ja, Aspose.HTML voor Java biedt uitgebreide opties voor het aanpassen van de
 
 In deze gids hebben we **gezien hoe je HTML naar JPEG converteert** met Aspose.HTML voor Java, van het opzetten van de omgeving tot het fijn afstellen van de uitvoer. dezelfde aanpak werkt voor andere afbeeldingsformaten, waardoor het bredere **aspose html convert image**‑scenario wordt gedekt. Integreer deze snippets in je eigen projecten om web‑pagina‑rendering te automatiseren, thumbnails te genereren of visuele rapporten direct vanuit HTML te maken.
 
+---
+
+**Laatst bijgewerkt:** 2025-12-19  
+**Getest met:** Aspose.HTML voor Java 24.12 (latest)  
+**Auteur:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Laatst bijgewerkt:** 2025-12-19  
-**Getest met:** Aspose.HTML voor Java 24.12 (latest)  
-**Auteur:** Aspose

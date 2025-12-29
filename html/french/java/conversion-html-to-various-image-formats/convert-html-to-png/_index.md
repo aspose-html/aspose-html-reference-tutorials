@@ -127,15 +127,15 @@ Vous disposez maintenant d’une méthode complète et prête pour la production
 
 Si vous rencontrez des difficultés, la communauté Aspose est prête à aider via leur [Support Forum](https://forum.aspose.com/).
 
+---
+
+**Dernière mise à jour :** 2025-12-19  
+**Testé avec :** Aspose.HTML pour Java 24.12 (dernière version au moment de la rédaction)  
+**Auteur :** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Dernière mise à jour :** 2025-12-19  
-**Testé avec :** Aspose.HTML pour Java 24.12 (dernière version au moment de la rédaction)  
-**Auteur :** Aspose

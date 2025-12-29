@@ -127,15 +127,15 @@ Nyní máte kompletní, připravenou metodu pro **convert html to png** pomocí 
 
 Pokud narazíte na jakékoli potíže, komunita Aspose je připravena pomoci prostřednictvím jejich [Support Forum](https://forum.aspose.com/).
 
+---
+
+**Poslední aktualizace:** 2025-12-19  
+**Testováno s:** Aspose.HTML pro Java 24.12 (nejnovější v době psaní)  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Poslední aktualizace:** 2025-12-19  
-**Testováno s:** Aspose.HTML pro Java 24.12 (nejnovější v době psaní)  
-**Autor:** Aspose

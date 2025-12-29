@@ -115,15 +115,15 @@ Converter.convertHTML(htmlDocument, options, outputFile);
 
 ### Q1: Aspose.HTML para Java é uma ferramenta gratuita?
 
-A1: Não, Aspose.HTML para Java é um produto comercial. Você pode encontrar informações de licenciamento e preços **[aqui](https://purchase.aspose.com/buy)**.
+A1: Não, Aspose.HTML para Java é um produto comercial. Você pode encontrar informações de licenciamento e preços [aqui](https://purchase.aspose.com/buy).
 
 ### Q2: Posso testar Aspose.HTML para Java antes de comprar?
 
-A2: Sim, você pode baixar uma versão de avaliação gratuita **[aqui](https://releases.aspose.com/html/java)**.
+A2: Sim, você pode baixar uma versão de avaliação gratuita [aqui](https://releases.aspose.com/html/java).
 
 ### Q3: Como obter suporte para Aspose.HTML para Java?
 
-A3: Você pode encontrar suporte e interagir com a comunidade nos fóruns da Aspose **[aqui](https://forum.aspose.com/)**.
+A3: Você pode encontrar suporte e interagir com a comunidade nos fóruns da Aspose [aqui](https://forum.aspose.com/).
 
 ### Q4: Quais outros formatos de documento o Aspose.HTML para Java pode converter?
 
@@ -137,17 +137,15 @@ A5: Sim, Aspose.HTML para Java oferece opções extensas para personalizar a con
 
 Neste guia cobrimos **como converter HTML para JPEG** usando Aspose.HTML para Java, desde a configuração do ambiente até o ajuste fino da saída. A mesma abordagem funciona para outros formatos de imagem, atendendo ao cenário mais amplo **aspose html convert image**. Integre esses trechos de código em seus próprios projetos para automatizar a renderização de páginas web, gerar miniaturas ou criar relatórios visuais diretamente a partir de HTML.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Última atualização:** 2025-12-19  
 **Testado com:** Aspose.HTML para Java 24.12 (mais recente)  
 **Autor:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

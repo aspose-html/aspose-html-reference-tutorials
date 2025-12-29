@@ -115,15 +115,15 @@ Itu saja! Saat program selesai, Anda akan menemukan rendering JPEG dari halaman 
 
 ### Q1: Apakah Aspose.HTML untuk Java merupakan alat gratis?
 
-A1: Tidak, Aspose.HTML untuk Java adalah produk komersial. Anda dapat menemukan informasi lisensi dan harga **[di sini](https://purchase.aspose.com/buy)**.
+A1: Tidak, Aspose.HTML untuk Java adalah produk komersial. Anda dapat menemukan informasi lisensi dan harga [di sini](https://purchase.aspose.com/buy).
 
 ### Q2: Bisakah saya mencoba Aspose.HTML untuk Java sebelum membeli?
 
-A2: Ya, Anda dapat mengunduh versi percobaan gratis dari **[di sini](https://releases.aspose.com/html/java)**.
+A2: Ya, Anda dapat mengunduh versi percobaan gratis dari [di sini](https://releases.aspose.com/html/java).
 
 ### Q3: Bagaimana cara mendapatkan dukungan untuk Aspose.HTML untuk Java?
 
-A3: Anda dapat menemukan dukungan dan berinteraksi dengan komunitas di forum Aspose **[di sini](https://forum.aspose.com/)**.
+A3: Anda dapat menemukan dukungan dan berinteraksi dengan komunitas di forum Aspose [di sini](https://forum.aspose.com/).
 
 ### Q4: Format dokumen lain apa yang dapat dikonversi oleh Aspose.HTML untuk Java?
 
@@ -137,17 +137,15 @@ A5: Ya, Aspose.HTML untuk Java menyediakan opsi luas untuk menyesuaikan konversi
 
 Dalam panduan ini kami membahas **cara mengonversi HTML ke JPEG** menggunakan Aspose.HTML untuk Java, mulai dari menyiapkan lingkungan hingga menyempurnakan output. Pendekatan yang sama berlaku untuk format gambar lainnya, memenuhi skenario **aspose html convert image** yang lebih luas. Integrasikan potongan kode ini ke dalam proyek Anda untuk mengotomatiskan rendering halaman web, menghasilkan thumbnail, atau membuat laporan visual langsung dari HTML.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Terakhir Diperbarui:** 2025-12-19  
 **Diuji Dengan:** Aspose.HTML untuk Java 24.12 (terbaru)  
 **Penulis:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

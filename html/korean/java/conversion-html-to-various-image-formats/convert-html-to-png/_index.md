@@ -126,15 +126,15 @@ A: 주로 렌더링 엔진이지만, 파싱 기능을 활용해 HTML 페이지�
 
 문제가 발생하면 Aspose 커뮤니티가 [Support Forum](https://forum.aspose.com/)을 통해 도움을 제공합니다.
 
+---
+
+**마지막 업데이트:** 2025-12-19  
+**테스트 환경:** Aspose.HTML for Java 24.12 (작성 시 최신 버전)  
+**작성자:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**마지막 업데이트:** 2025-12-19  
-**테스트 환경:** Aspose.HTML for Java 24.12 (작성 시 최신 버전)  
-**작성자:** Aspose

@@ -115,15 +115,15 @@ Converter.convertHTML(htmlDocument, options, outputFile);
 
 ### Q1: Είναι το Aspose.HTML για Java δωρεάν εργαλείο;
 
-A1: Όχι, το Aspose.HTML για Java είναι εμπορικό προϊόν. Μπορείτε να βρείτε πληροφορίες αδειοδότησης και τιμολόγησης **[εδώ](https://purchase.aspose.com/buy)**.
+A1: Όχι, το Aspose.HTML για Java είναι εμπορικό προϊόν. Μπορείτε να βρείτε πληροφορίες αδειοδότησης και τιμολόγησης [εδώ](https://purchase.aspose.com/buy).
 
 ### Q2: Μπορώ να δοκιμάσω το Aspose.HTML για Java πριν την αγορά;
 
-A2: Ναι, μπορείτε να κατεβάσετε μια δωρεάν δοκιμαστική έκδοση **[εδώ](https://releases.aspose.com/html/java)**.
+A2: Ναι, μπορείτε να κατεβάσετε μια δωρεάν δοκιμαστική έκδοση [εδώ](https://releases.aspose.com/html/java).
 
 ### Q3: Πώς μπορώ να λάβω υποστήριξη για το Aspose.HTML για Java;
 
-A3: Μπορείτε να βρείτε υποστήριξη και να αλληλεπιδράσετε με την κοινότητα στα φόρουμ του Aspose **[εδώ](https://forum.aspose.com/)**.
+A3: Μπορείτε να βρείτε υποστήριξη και να αλληλεπιδράσετε με την κοινότητα στα φόρουμ του Aspose [εδώ](https://forum.aspose.com/).
 
 ### Q4: Σε ποιες άλλες μορφές εγγράφων μπορεί να μετατρέψει το Aspose.HTML για Java;
 
@@ -137,17 +137,15 @@ A5: Ναι, το Aspose.HTML για Java παρέχει εκτενείς επι�
 
 Σε αυτόν τον οδηγό καλύψαμε **πώς να μετατρέψετε HTML σε JPEG** χρησιμοποιώντας το Aspose.HTML για Java, από τη ρύθμιση του περιβάλλοντος μέχρι τη λεπτομερή ρύθμιση της εξόδου. Η ίδια προσέγγιση λειτουργεί και για άλλες μορφές εικόνας, καλύπτοντας το ευύτερο σενάριο **aspose html convert image**. Ενσωματώστε αυτά τα αποσπάσματα στα δικά σας έργα για να αυτοματοποιήσετε την απόδοση ιστοσελίδων, τη δημιουργία μικρογραφιών ή την παραγωγή οπτικών αναφορών απευθείας από HTML.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Τελευταία ενημέρωση:** 2025-12-19  
 **Δοκιμάστηκε με:** Aspose.HTML for Java 24.12 (latest)  
 **Συγγραφέας:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

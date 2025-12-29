@@ -113,15 +113,15 @@ Converter.convertHTML(htmlDocument, options, outputFile);
 
 ### Q1：Aspose.HTML for Java 是免費工具嗎？
 
-A1：不是，Aspose.HTML for Java 為商業產品。您可在 **[此處](https://purchase.aspose.com/buy)** 查看授權與定價資訊。
+A1：不是，Aspose.HTML for Java 為商業產品。您可在 [此處](https://purchase.aspose.com/buy) 查看授權與定價資訊。
 
 ### Q2：購買前可以試用 Aspose.HTML for Java 嗎？
 
-A2：可以，您可從 **[此處](https://releases.aspose.com/html/java)** 下載免費試用版。
+A2：可以，您可從 [此處](https://releases.aspose.com/html/java) 下載免費試用版。
 
 ### Q3：如何取得 Aspose.HTML for Java 的支援？
 
-A3：您可在 Aspose 論壇 **[此處](https://forum.aspose.com/)** 獲得支援並與社群互動。
+A3：您可在 Aspose 論壇 [此處](https://forum.aspose.com/) 獲得支援並與社群互動。
 
 ### Q4：Aspose.HTML for Java 還能轉換哪些文件格式？
 
@@ -135,15 +135,15 @@ A5：有，Aspose.HTML for Java 提供廣泛的自訂選項，例如設定影像
 
 本指南說明了如何使用 Aspose.HTML for Java **將 HTML 轉換為 JPEG**，從環境設定到細部調整輸出。相同方法亦適用於其他影像格式，滿足更廣泛的 **aspose html convert image** 情境。將這些程式碼片段整合至您的專案，即可自動化網頁渲染、產生縮圖，或直接從 HTML 建立視覺化報告。
 
+---
+
+**最後更新：** 2025-12-19  
+**測試環境：** Aspose.HTML for Java 24.12 (latest)  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最後更新：** 2025-12-19  
-**測試環境：** Aspose.HTML for Java 24.12 (latest)  
-**作者：** Aspose

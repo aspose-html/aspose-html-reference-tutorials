@@ -126,15 +126,15 @@ Artık Aspose.HTML for Java kullanarak **html'yi png'ye dönüştürmek** için 
 
 Herhangi bir zorlukla karşılaşırsanız, Aspose topluluğu [Support Forum](https://forum.aspose.com/) üzerinden yardımcı olmaya hazırdır.
 
+---
+
+**Son Güncelleme:** 2025-12-19  
+**Test Edilen Versiyon:** Aspose.HTML for Java 24.12 (yazım anındaki en son sürüm)  
+**Yazar:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Son Güncelleme:** 2025-12-19  
-**Test Edilen Versiyon:** Aspose.HTML for Java 24.12 (yazım anındaki en son sürüm)  
-**Yazar:** Aspose

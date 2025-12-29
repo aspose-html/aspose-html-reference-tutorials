@@ -115,15 +115,15 @@ A to je vše! Po dokončení programu najdete JPEG render vaší HTML stránky n
 
 ### Q1: Je Aspose.HTML pro Java zdarma?
 
-A1: Ne, Aspose.HTML pro Java je komerční produkt. Informace o licencování a cenách najdete **[zde](https://purchase.aspose.com/buy)**.
+A1: Ne, Aspose.HTML pro Java je komerční produkt. Informace o licencování a cenách najdete [zde](https://purchase.aspose.com/buy).
 
 ### Q2: Můžu si Aspose.HTML pro Java vyzkoušet před zakoupením?
 
-A2: Ano, můžete si stáhnout verzi zdarma ke zkoušce z **[zde](https://releases.aspose.com/html/java)**.
+A2: Ano, můžete si stáhnout verzi zdarma ke zkoušce z [zde](https://releases.aspose.com/html/java).
 
 ### Q3: Jak mohu získat podporu pro Aspose.HTML pro Java?
 
-A3: Podporu a komunikaci s komunitou najdete na fóru Aspose **[zde](https://forum.aspose.com/)**.
+A3: Podporu a komunikaci s komunitou najdete na fóru Aspose [zde](https://forum.aspose.com/).
 
 ### Q4: Do jakých dalších formátů dokumentů může Aspose.HTML pro Java konvertovat?
 
@@ -137,17 +137,15 @@ A5: Ano, Aspose.HTML pro Java poskytuje rozsáhlé možnosti přizpůsobení kon
 
 V tomto průvodci jsme pokryli **jak převést HTML na JPEG** pomocí Aspose.HTML pro Java, od nastavení prostředí až po jemné ladění výstupu. Stejný přístup funguje i pro jiné formáty obrázků, což splňuje širší scénář **aspose html convert image**. Integrujte tyto úryvky do svých projektů pro automatizaci vykreslování webových stránek, generování miniatur nebo tvorbu vizuálních reportů přímo z HTML.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Poslední aktualizace:** 2025-12-19  
 **Testováno s:** Aspose.HTML for Java 24.12 (latest)  
 **Autor:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -126,15 +126,15 @@ A: 雖然主要是渲染引擎，但其解析功能亦可協助從 HTML 頁面�
 
 若遇到任何挑戰，Aspose 社群可透過其 [Support Forum](https://forum.aspose.com/) 提供協助。
 
+---
+
+**最後更新：** 2025-12-19  
+**測試環境：** Aspose.HTML for Java 24.12 (latest at time of writing)  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最後更新：** 2025-12-19  
-**測試環境：** Aspose.HTML for Java 24.12 (latest at time of writing)  
-**作者：** Aspose

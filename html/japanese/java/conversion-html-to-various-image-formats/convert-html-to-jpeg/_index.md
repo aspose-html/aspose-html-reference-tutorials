@@ -113,15 +113,15 @@ Converter.convertHTML(htmlDocument, options, outputFile);
 
 ### Q1: Aspose.HTML for Java は無料ツールですか？
 
-A1: いいえ、Aspose.HTML for Java は商用製品です。ライセンスと価格情報は **[here](https://purchase.aspose.com/buy)** にあります。
+A1: いいえ、Aspose.HTML for Java は商用製品です。ライセンスと価格情報は [here](https://purchase.aspose.com/buy) にあります。
 
 ### Q2: 購入前に Aspose.HTML for Java を試すことはできますか？
 
-A2: はい、**[here](https://releases.aspose.com/html/java)** から無料トライアル版をダウンロードできます。
+A2: はい、[here](https://releases.aspose.com/html/java) から無料トライアル版をダウンロードできます。
 
 ### Q3: Aspose.HTML for Java のサポートはどのように受けられますか？
 
-A3: サポートやコミュニティとのやり取りは Aspose フォーラム **[here](https://forum.aspose.com/)** で行えます。
+A3: サポートやコミュニティとのやり取りは Aspose フォーラム [here](https://forum.aspose.com/) で行えます。
 
 ### Q4: Aspose.HTML for Java が変換できる他のドキュメント形式は何ですか？
 
@@ -135,17 +135,15 @@ A5: はい、Aspose.HTML for Java は画像品質や解像度の設定など、�
 
 本ガイドでは、Aspose.HTML for Java を使用して **HTML を JPEG に変換する方法** を、環境設定から出力の微調整まで網羅しました。同様の手法で他の画像形式にも対応でき、より広範な **aspose html convert image** シナリオを実現します。これらのコードスニペットをプロジェクトに組み込めば、Web ページの自動レンダリングやサムネイル生成、HTML から直接視覚的レポートを作成することが可能です。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-19  
 **Tested With:** Aspose.HTML for Java 24.12 (latest)  
 **Author:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

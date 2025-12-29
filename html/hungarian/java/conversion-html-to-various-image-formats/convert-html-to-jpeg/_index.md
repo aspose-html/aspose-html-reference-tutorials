@@ -115,15 +115,15 @@ Ennyi! Amikor a program befejeződik, a megadott helyen megtalálod a HTML oldal
 
 ### Q1: Az Aspose.HTML for Java ingyenes eszköz?
 
-A1: Nem, az Aspose.HTML for Java egy kereskedelmi termék. A licencelési és árinformációk **[itt](https://purchase.aspose.com/buy)** érhetők el.
+A1: Nem, az Aspose.HTML for Java egy kereskedelmi termék. A licencelési és árinformációk [itt](https://purchase.aspose.com/buy) érhetők el.
 
 ### Q2: Próbálhatom-e ki az Aspose.HTML for Java‑t vásárlás előtt?
 
-A2: Igen, letölthetsz egy ingyenes próbaverziót **[itt](https://releases.aspose.com/html/java)**.
+A2: Igen, letölthetsz egy ingyenes próbaverziót [itt](https://releases.aspose.com/html/java).
 
 ### Q3: Hol kaphatok támogatást az Aspose.HTML for Java‑hez?
 
-A3: Támogatást és közösségi interakciót találsz az Aspose fórumokon **[itt](https://forum.aspose.com/)**.
+A3: Támogatást és közösségi interakciót találsz az Aspose fórumokon [itt](https://forum.aspose.com/).
 
 ### Q4: Milyen egyéb dokumentumformátumokra képes az Aspose.HTML for Java konvertálni?
 
@@ -137,17 +137,15 @@ A5: Igen, az Aspose.HTML for Java kiterjedt beállításokat kínál, például 
 
 Ebben az útmutatóban bemutattuk, **hogyan konvertáljunk HTML‑t JPEG‑re** az Aspose.HTML for Java segítségével, a környezet beállításától a kimenet finomhangolásáig. Ugyanez a megközelítés más képformátumokra is alkalmazható, lefedve a szélesebb **aspose html convert image** forgatókönyvet. Integráld ezeket a kódrészleteket saját projektjeidbe a weboldalak automatikus rendereléséhez, bélyegképek generálásához vagy vizuális jelentések készítéséhez közvetlenül HTML‑ből.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Utoljára frissítve:** 2025-12-19  
 **Tesztelt verzió:** Aspose.HTML for Java 24.12 (legújabb)  
 **Szerző:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

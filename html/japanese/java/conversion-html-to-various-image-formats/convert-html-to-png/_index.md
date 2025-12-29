@@ -126,15 +126,15 @@ A: 主にレンダリングエンジンですが、HTML の解析機能を利用
 
 課題が発生した場合は、Aspose コミュニティが [Support Forum](https://forum.aspose.com/) でサポートしています。
 
+---
+
+**最終更新日:** 2025-12-19  
+**テスト環境:** Aspose.HTML for Java 24.12（執筆時点での最新）  
+**作者:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最終更新日:** 2025-12-19  
-**テスト環境:** Aspose.HTML for Java 24.12（執筆時点での最新）  
-**作者:** Aspose
