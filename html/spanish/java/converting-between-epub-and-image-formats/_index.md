@@ -70,6 +70,31 @@ Para quienes prefieren la simplicidad, puede realizar toda la conversión en una
 
 Al seguir estos tutoriales, dominará el arte de convertir archivos EPUB a varios formatos de imagen usando Aspose.HTML para Java. Ya sea que sea principiante o desarrollador experimentado, nuestro enfoque paso a paso hará que el proceso sea fluido y eficiente. Diga adiós a conversiones complejas y hola a una solución confiable y de alta calidad.
 
+## Tutoriales de conversión entre EPUB y formatos de imagen
+### [Converting EPUB to BMP](./convert-epub-to-bmp/)
+Aprenda cómo convertir archivos EPUB a imágenes BMP usando Aspose.HTML para Java con esta guía paso a paso fácil.
+
+### [Converting EPUB to GIF](./convert-epub-to-gif/)
+Aprenda cómo convertir EPUB a GIF usando Aspose.HTML para Java. Simple, eficiente y confiable.
+
+### [Converting EPUB to JPG](./convert-epub-to-jpg/)
+Aprenda cómo convertir EPUB a JPG usando Aspose.HTML para Java. Siga nuestra guía paso a paso y aproveche el poder de Aspose.HTML.
+
+### [Converting EPUB to PNG](./convert-epub-to-png/)
+Aprenda cómo convertir EPUB a PNG en Java usando Aspose.HTML para Java. Guía paso a paso para una conversión sin problemas.
+
+### [Converting EPUB to TIFF](./convert-epub-to-tiff/)
+Aprenda cómo convertir archivos EPUB a imágenes TIFF en Java con Aspose.HTML, una poderosa biblioteca de manipulación HTML.
+
+### [Specifying Custom Stream Provider for EPUB to Image Conversion](./convert-epub-to-image-specify-custom-stream-provider/)
+Aprenda cómo convertir EPUB a imágenes con Aspose.HTML para Java. Guía paso a paso para una conversión sin problemas.
+
+### [Specifying Image Save Options for EPUB to Image Conversion](./convert-epub-to-image-specify-image-save-options/)
+Aprenda cómo convertir archivos EPUB a imágenes usando Aspose.HTML para Java. Esta guía paso a paso cubre requisitos previos, importaciones de paquetes y el proceso de conversión.
+
+### [Converting EPUB to Image with a Single Line of Code](./convert-epub-to-image-single-line/)
+Aprenda cómo convertir EPUB a imágenes con Aspose.HTML para Java. Guía paso a paso para conversiones sin esfuerzo.
+
 ## Preguntas frecuentes
 
 **P: ¿Cómo convierto EPUB a JPG usando Aspose.HTML?**  
@@ -97,28 +122,3 @@ R: Absolutamente – `new HtmlDocument("input.epub").save("output.bmp", new Imag
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## Tutoriales de conversión entre EPUB y formatos de imagen
-### [Converting EPUB to BMP](./convert-epub-to-bmp/)
-Aprenda cómo convertir archivos EPUB a imágenes BMP usando Aspose.HTML para Java con esta guía paso a paso fácil.
-
-### [Converting EPUB to GIF](./convert-epub-to-gif/)
-Aprenda cómo convertir EPUB a GIF usando Aspose.HTML para Java. Simple, eficiente y confiable.
-
-### [Converting EPUB to JPG](./convert-epub-to-jpg/)
-Aprenda cómo convertir EPUB a JPG usando Aspose.HTML para Java. Siga nuestra guía paso a paso y aproveche el poder de Aspose.HTML.
-
-### [Converting EPUB to PNG](./convert-epub-to-png/)
-Aprenda cómo convertir EPUB a PNG en Java usando Aspose.HTML para Java. Guía paso a paso para una conversión sin problemas.
-
-### [Converting EPUB to TIFF](./convert-epub-to-tiff/)
-Aprenda cómo convertir archivos EPUB a imágenes TIFF en Java con Aspose.HTML, una poderosa biblioteca de manipulación HTML.
-
-### [Specifying Custom Stream Provider for EPUB to Image Conversion](./convert-epub-to-image-specify-custom-stream-provider/)
-Aprenda cómo convertir EPUB a imágenes con Aspose.HTML para Java. Guía paso a paso para una conversión sin problemas.
-
-### [Specifying Image Save Options for EPUB to Image Conversion](./convert-epub-to-image-specify-image-save-options/)
-Aprenda cómo convertir archivos EPUB a imágenes usando Aspose.HTML para Java. Esta guía paso a paso cubre requisitos previos, importaciones de paquetes y el proceso de conversión.
-
-### [Converting EPUB to Image with a Single Line of Code](./convert-epub-to-image-single-line/)
-Aprenda cómo convertir EPUB a imágenes con Aspose.HTML para Java. Guía paso a paso para conversiones sin esfuerzo.

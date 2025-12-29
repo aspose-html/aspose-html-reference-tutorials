@@ -118,17 +118,15 @@ A5: Ναι, μπορείτε να προσαρμόσετε την έξοδο GIF
 
 Αν αντιμετωπίσετε προβλήματα ή έχετε περαιτέρω ερωτήσεις, μη διστάσετε να επισκεφθείτε την [Aspose.HTML for Java documentation](https://reference.aspose.com/html/java/) ή να ζητήσετε βοήθεια από το [Aspose support forum](https://forum.aspose.com/).
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Τελευταία ενημέρωση:** 2025-12-21  
 **Δοκιμή με:** Aspose.HTML for Java 24.12 (latest at time of writing)  
 **Συγγραφέας:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

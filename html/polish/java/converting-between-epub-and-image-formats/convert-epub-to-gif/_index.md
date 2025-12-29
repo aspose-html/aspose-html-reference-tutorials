@@ -118,15 +118,15 @@ W tym samouczku omówiliśmy wszystko, co potrzebne, aby **aspose html convert e
 
 Jeśli napotkasz jakiekolwiek problemy lub masz dodatkowe pytania, odwiedź [dokumentację Aspose.HTML for Java](https://reference.aspose.com/html/java/) lub skorzystaj z pomocy na [forum wsparcia Aspose](https://forum.aspose.com/).
 
+---
+
+**Ostatnia aktualizacja:** 2025-12-21  
+**Testowano z:** Aspose.HTML for Java 24.12 (latest at time of writing)  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ostatnia aktualizacja:** 2025-12-21  
-**Testowano z:** Aspose.HTML for Java 24.12 (latest at time of writing)  
-**Autor:** Aspose

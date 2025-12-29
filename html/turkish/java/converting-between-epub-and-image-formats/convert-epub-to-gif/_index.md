@@ -118,17 +118,15 @@ Bu öğreticide Aspose.HTML for Java kullanarak **aspose html convert epub**'i G
 
 Herhangi bir sorunla karşılaşırsanız veya daha fazla sorunuz olursa, [Aspose.HTML for Java dokümantasyonuna](https://reference.aspose.com/html/java/) göz atabilir veya [Aspose destek forumundan](https://forum.aspose.com/) yardım alabilirsiniz.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Son Güncelleme:** 2025-12-21  
 **Test Edilen Versiyon:** Aspose.HTML for Java 24.12 (yazım anındaki en son sürüm)  
 **Yazar:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

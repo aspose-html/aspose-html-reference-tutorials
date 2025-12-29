@@ -121,15 +121,15 @@ A5: हाँ, आप `ImageSaveOptions` क्लास का उपयोग 
 
 यदि आपको कोई समस्या आती है या अतिरिक्त प्रश्न हैं, तो आप [Aspose.HTML for Java documentation](https://reference.aspose.com/html/java/) पर जा सकते हैं या [Aspose support forum](https://forum.aspose.com/) से सहायता प्राप्त कर सकते हैं।
 
+---
+
+**अंतिम अपडेट:** 2025-12-21  
+**परीक्षण किया गया:** Aspose.HTML for Java 24.12 (latest at time of writing)  
+**लेखक:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**अंतिम अपडेट:** 2025-12-21  
-**परीक्षण किया गया:** Aspose.HTML for Java 24.12 (latest at time of writing)  
-**लेखक:** Aspose

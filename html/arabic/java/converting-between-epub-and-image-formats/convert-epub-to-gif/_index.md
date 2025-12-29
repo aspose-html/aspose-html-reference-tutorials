@@ -110,15 +110,15 @@ try (FileInputStream fileInputStream = new FileInputStream("input.epub")) {
 
 إذا صادفت أي مشاكل أو كان لديك أسئلة إضافية، لا تتردد في زيارة [وثائق Aspose.HTML for Java](https://reference.aspose.com/html/java/) أو طلب المساعدة من [منتدى دعم Aspose](https://forum.aspose.com/).
 
+---
+
+**آخر تحديث:** 2025-12-21  
+**تم الاختبار مع:** Aspose.HTML for Java 24.12 (latest at time of writing)  
+**المؤلف:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2025-12-21  
-**تم الاختبار مع:** Aspose.HTML for Java 24.12 (latest at time of writing)  
-**المؤلف:** Aspose

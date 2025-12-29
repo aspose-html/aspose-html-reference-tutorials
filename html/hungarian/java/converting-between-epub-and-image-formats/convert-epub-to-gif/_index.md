@@ -118,17 +118,15 @@ Ebben a bemutatóban mindent áttekintettünk, ami a **aspose html convert epub*
 
 Ha problémába ütközik vagy további kérdései vannak, látogasson el az [Aspose.HTML for Java dokumentációjába](https://reference.aspose.com/html/java/) vagy kérjen segítséget az [Aspose támogatói fórumon](https://forum.aspose.com/).
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Utolsó frissítés:** 2025-12-21  
 **Tesztelve a következővel:** Aspose.HTML for Java 24.12 (a cikk írásakor legújabb)  
 **Szerző:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

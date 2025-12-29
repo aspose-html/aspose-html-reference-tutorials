@@ -118,15 +118,15 @@ Dans ce tutoriel, nous avons couvert tout ce dont vous avez besoin pour **aspose
 
 Si vous avez des problèmes ou des questions supplémentaires, n’hésitez pas à consulter la [documentation Aspose.HTML for Java](https://reference.aspose.com/html/java/) ou à demander de l’aide sur le [forum de support Aspose](https://forum.aspose.com/).
 
+---
+
+**Dernière mise à jour :** 2025-12-21  
+**Testé avec :** Aspose.HTML for Java 24.12 (dernière version au moment de la rédaction)  
+**Auteur :** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Dernière mise à jour :** 2025-12-21  
-**Testé avec :** Aspose.HTML for Java 24.12 (dernière version au moment de la rédaction)  
-**Auteur :** Aspose

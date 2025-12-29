@@ -117,15 +117,15 @@ A5：是的，您可使用 `ImageSaveOptions` 類別自訂 GIF 輸出。請參�
 
 若您遇到問題或有進一步的疑問，歡迎造訪 [Aspose.HTML for Java documentation](https://reference.aspose.com/html/java/) 或在 [Aspose support forum](https://forum.aspose.com/) 尋求協助。
 
+---
+
+**最後更新：** 2025-12-21  
+**測試版本：** Aspose.HTML for Java 24.12 (latest at time of writing)  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最後更新：** 2025-12-21  
-**測試版本：** Aspose.HTML for Java 24.12 (latest at time of writing)  
-**作者：** Aspose

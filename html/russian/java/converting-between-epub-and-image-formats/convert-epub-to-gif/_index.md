@@ -118,17 +118,15 @@ A5: Да, настройку GIF‑вывода можно выполнить с
 
 Если у вас появятся вопросы или проблемы, посетите [документацию Aspose.HTML для Java](https://reference.aspose.com/html/java/) или обратитесь за помощью на [форум поддержки Aspose](https://forum.aspose.com/).
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Последнее обновление:** 2025-12-21  
 **Тестировано с:** Aspose.HTML для Java 24.12 (последняя на момент написания)  
 **Автор:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

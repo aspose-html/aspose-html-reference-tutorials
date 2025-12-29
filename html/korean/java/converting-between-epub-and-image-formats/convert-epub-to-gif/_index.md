@@ -112,15 +112,15 @@ A5: 예, `ImageSaveOptions` 클래스를 사용해 GIF 출력을 맞춤화할 �
 
 문제가 발생하거나 추가 질문이 있으면 [Aspose.HTML for Java documentation](https://reference.aspose.com/html/java/)을 방문하거나 [Aspose support forum](https://forum.aspose.com/)에서 도움을 받으십시오.
 
+---
+
+**마지막 업데이트:** 2025-12-21  
+**테스트 환경:** Aspose.HTML for Java 24.12 (작성 시 최신 버전)  
+**작성자:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**마지막 업데이트:** 2025-12-21  
-**테스트 환경:** Aspose.HTML for Java 24.12 (작성 시 최신 버전)  
-**작성자:** Aspose

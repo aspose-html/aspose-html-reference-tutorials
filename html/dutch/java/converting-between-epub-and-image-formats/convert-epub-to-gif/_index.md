@@ -118,17 +118,15 @@ In deze tutorial hebben we alles behandeld wat je nodig hebt om **aspose html co
 
 Als je problemen ondervindt of verdere vragen hebt, bezoek dan de [Aspose.HTML voor Java‑documentatie](https://reference.aspose.com/html/java/) of zoek hulp op het [Aspose‑ondersteuningsforum](https://forum.aspose.com/).
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Laatst bijgewerkt:** 2025-12-21  
 **Getest met:** Aspose.HTML voor Java 24.12 (latest op het moment van schrijven)  
 **Auteur:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

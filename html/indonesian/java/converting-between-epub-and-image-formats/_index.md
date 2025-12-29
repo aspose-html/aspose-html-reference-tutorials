@@ -71,34 +71,6 @@ Bagi mereka yang mengutamakan kesederhanaan, Anda dapat melakukan seluruh konver
 
 Dengan mengikuti tutorial ini, Anda akan menguasai seni mengonversi file EPUB ke berbagai format gambar menggunakan Aspose.HTML untuk Java. Baik Anda pemula maupun pengembang berpengalaman, pendekatan langkah‑demi‑langkah kami akan membuat proses menjadi lancar dan efisien. Ucapkan selamat tinggal pada konversi yang rumit dan sambut solusi yang andal serta berkualitas tinggi.
 
-## Pertanyaan yang Sering Diajukan
-
-**Q: Bagaimana cara saya mengonversi EPUB ke JPG menggunakan Aspose.HTML?**  
-A: Muat EPUB dengan `HtmlDocument`, atur format `ImageSaveOptions` ke `Jpeg`, dan panggil `save`.
-
-**Q: Bisakah saya mengonversi EPUB ke PNG tanpa kehilangan kualitas?**  
-A: Ya, PNG tidak kehilangan kualitas; cukup pilih `Png` sebagai format output dalam `ImageSaveOptions`.
-
-**Q: Apa cara terbaik untuk mengonversi EPUB ke GIF untuk animasi?**  
-A: Render setiap halaman sebagai frame GIF terpisah atau gabungkan mereka menggunakan encoder GIF eksternal setelah konversi.
-
-**Q: Bagaimana saya dapat menyesuaikan aliran output untuk file EPUB besar?**  
-A: Implementasikan `IStreamProvider` kustom dan berikan ke metode `save` untuk mengarahkan output ke memori, cloud, atau penyimpanan lain.
-
-**Q: Apakah konversi satu‑baris benar‑benar memungkinkan?**  
-A: Tentu – `new HtmlDocument("input.epub").save("output.bmp", new ImageSaveOptions(SaveFormat.Bmp));`
-
-**Terakhir Diperbarui:** 2025-12-21  
-**Diuji Dengan:** Aspose.HTML for Java 24.12  
-**Penulis:** Aspose  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Tutorial Mengonversi Antara EPUB dan Format Gambar
 ### [Mengonversi EPUB ke BMP](./convert-epub-to-bmp/)
 Pelajari cara mengonversi file EPUB ke gambar BMP menggunakan Aspose.HTML untuk Java dengan panduan langkah‑demi‑langkah yang mudah ini.
@@ -116,3 +88,33 @@ Pelajari cara mengonversi EPUB ke gambar dengan Aspose.HTML untuk Java. Panduan 
 Pelajari cara mengonversi file EPUB ke gambar menggunakan Aspose.HTML untuk Java. Panduan langkah‑demi‑langkah ini mencakup prasyarat, impor paket, dan proses konversi.
 ### [Mengonversi EPUB ke Gambar dengan Satu Baris Kode](./convert-epub-to-image-single-line/)
 Pelajari cara mengonversi EPUB ke gambar dengan Aspose.HTML untuk Java. Panduan langkah‑demi‑langkah untuk konversi tanpa usaha.
+
+## Pertanyaan yang Sering Diajukan
+
+**Q: Bagaimana cara saya mengonversi EPUB ke JPG menggunakan Aspose.HTML?**  
+A: Muat EPUB dengan `HtmlDocument`, atur format `ImageSaveOptions` ke `Jpeg`, dan panggil `save`.
+
+**Q: Bisakah saya mengonversi EPUB ke PNG tanpa kehilangan kualitas?**  
+A: Ya, PNG tidak kehilangan kualitas; cukup pilih `Png` sebagai format output dalam `ImageSaveOptions`.
+
+**Q: Apa cara terbaik untuk mengonversi EPUB ke GIF untuk animasi?**  
+A: Render setiap halaman sebagai frame GIF terpisah atau gabungkan mereka menggunakan encoder GIF eksternal setelah konversi.
+
+**Q: Bagaimana saya dapat menyesuaikan aliran output untuk file EPUB besar?**  
+A: Implementasikan `IStreamProvider` kustom dan berikan ke metode `save` untuk mengarahkan output ke memori, cloud, atau penyimpanan lain.
+
+**Q: Apakah konversi satu‑baris benar‑benar memungkinkan?**  
+A: Tentu – `new HtmlDocument("input.epub").save("output.bmp", new ImageSaveOptions(SaveFormat.Bmp));`
+
+---
+
+**Terakhir Diperbarui:** 2025-12-21  
+**Diuji Dengan:** Aspose.HTML for Java 24.12  
+**Penulis:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

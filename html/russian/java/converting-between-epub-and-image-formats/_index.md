@@ -70,6 +70,24 @@ JPG — широко используемый сжатый формат изоб
 
 Следуя этим руководствам, вы освоите искусство конвертации файлов EPUB в различные форматы изображений с помощью Aspose.HTML for Java. Независимо от того, новичок вы или опытный разработчик, наш пошаговый подход сделает процесс плавным и эффективным. Попрощайтесь со сложными конвертациями и приветствуйте надёжное, высококачественное решение.
 
+## Руководства по конвертации между EPUB и форматами изображений
+### [Конвертация EPUB в BMP](./convert-epub-to-bmp/)
+Узнайте, как конвертировать файлы EPUB в изображения BMP с помощью Aspose.HTML для Java, с помощью этого простого пошагового руководства.
+### [Конвертация EPUB в GIF](./convert-epub-to-gif/)
+Узнайте, как конвертировать EPUB в GIF с помощью Aspose.HTML для Java. Просто, эффективно и надежно.
+### [Конвертация EPUB в JPG](./convert-epub-to-jpg/)
+Узнайте, как конвертировать EPUB в JPG с помощью Aspose.HTML для Java. Следуйте нашему пошаговому руководству и используйте возможности Aspose.HTML.
+### [Конвертация EPUB в PNG](./convert-epub-to-png/)
+Узнайте, как конвертировать EPUB в PNG на Java с помощью Aspose.HTML для Java. Пошаговое руководство по плавному преобразованию.
+### [Конвертация EPUB в TIFF](./convert-epub-to-tiff/)
+Узнайте, как конвертировать файлы EPUB в изображения TIFF на Java с помощью Aspose.HTML, мощной библиотеки манипуляций с HTML.
+### [Указание пользовательского провайдера потоков для конвертации EPUB в изображение](./convert-epub-to-image-specify-custom-stream-provider/)
+Узнайте, как конвертировать EPUB в изображения с помощью Aspose.HTML для Java. Пошаговое руководство по плавному преобразованию.
+### [Указание параметров сохранения изображения для конвертации EPUB в изображение](./convert-epub-to-image-specify-image-save-options/)
+Узнайте, как конвертировать файлы EPUB в изображения с помощью Aspose.HTML для Java. В этом пошаговом руководстве описаны предварительные требования, импорт пакетов и процесс преобразования.
+### [Конвертация EPUB в изображение одной строки кода](./convert-epub-to-image-single-line/)
+Узнайте, как конвертировать EPUB в изображения с помощью Aspose.HTML для Java. Пошаговое руководство для простых преобразований.
+
 ## Часто задаваемые вопросы
 
 **В: Как конвертировать EPUB в JPG с помощью Aspose.HTML?**  
@@ -97,21 +115,3 @@ A: Absolutely – `new HtmlDocument("input.epub").save("output.bmp", new ImageSa
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## Руководства по конвертации между EPUB и форматами изображений
-### [Конвертация EPUB в BMP](./convert-epub-to-bmp/)
-Learn how to convert EPUB files to BMP images using Aspose.HTML for Java with this easy step-by-step guide.
-### [Конвертация EPUB в GIF](./convert-epub-to-gif/)
-Learn how to convert EPUB to GIF using Aspose.HTML for Java. Simple, efficient, and reliable.
-### [Конвертация EPUB в JPG](./convert-epub-to-jpg/)
-Learn how to convert EPUB to JPG using Aspose.HTML for Java. Follow our step-by-step guide and harness the power of Aspose.HTML.
-### [Конвертация EPUB в PNG](./convert-epub-to-png/)
-Learn how to convert EPUB to PNG in Java using Aspose.HTML for Java. Step-by-step guide for seamless conversion.
-### [Конвертация EPUB в TIFF](./convert-epub-to-tiff/)
-Learn how to convert EPUB files to TIFF images in Java with Aspose.HTML, a powerful HTML manipulation library.
-### [Указание пользовательского провайдера потоков для конвертации EPUB в изображение](./convert-epub-to-image-specify-custom-stream-provider/)
-Learn how to convert EPUB to images with Aspose.HTML for Java. Step-by-step guide for seamless conversion.
-### [Указание параметров сохранения изображения для конвертации EPUB в изображение](./convert-epub-to-image-specify-image-save-options/)
-Learn how to convert EPUB files to images using Aspose.HTML for Java. This step-by-step guide covers prerequisites, package imports, and the conversion process.
-### [Конвертация EPUB в изображение одной строкой кода](./convert-epub-to-image-single-line/)
-Learn how to convert EPUB to images with Aspose.HTML for Java. Step-by-step guide for effortless conversions.

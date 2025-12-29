@@ -118,15 +118,15 @@ I den här handledningen har vi gått igenom allt du behöver för att **aspose 
 
 Om du stöter på problem eller har ytterligare frågor, besök gärna [Aspose.HTML för Java‑dokumentationen](https://reference.aspose.com/html/java/) eller sök hjälp i [Aspose support‑forumet](https://forum.aspose.com/).
 
+---
+
+**Last Updated:** 2025-12-21  
+**Testat med:** Aspose.HTML for Java 24.12 (latest at time of writing)  
+**Författare:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-21  
-**Testat med:** Aspose.HTML for Java 24.12 (latest at time of writing)  
-**Författare:** Aspose

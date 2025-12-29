@@ -118,17 +118,15 @@ Neste tutorial cobrimos tudo o que você precisa para **aspose html convert epub
 
 Se você encontrar algum problema ou tiver mais perguntas, sinta‑se à vontade para visitar a [documentação do Aspose.HTML for Java](https://reference.aspose.com/html/java/) ou buscar assistência no [fórum de suporte da Aspose](https://forum.aspose.com/).
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Última atualização:** 2025-12-21  
 **Testado com:** Aspose.HTML for Java 24.12 (mais recente no momento da escrita)  
 **Autor:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -118,17 +118,15 @@ Trong hướng dẫn này, chúng ta đã đề cập đến mọi thứ bạn c
 
 Nếu bạn gặp bất kỳ vấn đề nào hoặc có câu hỏi thêm, hãy truy cập [tài liệu Aspose.HTML for Java](https://reference.aspose.com/html/java/) hoặc tìm sự hỗ trợ tại [diễn đàn Aspose](https://forum.aspose.com/).
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Cập nhật lần cuối:** 2025-12-21  
 **Kiểm thử với:** Aspose.HTML for Java 24.12 (phiên bản mới nhất tại thời điểm viết)  
 **Tác giả:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
