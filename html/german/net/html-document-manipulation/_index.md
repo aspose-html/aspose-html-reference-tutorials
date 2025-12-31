@@ -69,6 +69,8 @@ Erfahren Sie, wie Sie mit Aspose.HTML für .NET dynamische Webinhalte erstellen.
 Erfahren Sie, wie Sie Aspose.HTML für .NET verwenden. Importieren Sie Namespaces, führen Sie HTML mit XML zusammen und verbessern Sie Ihre Webentwicklungsfähigkeiten mit diesem umfassenden Handbuch.
 ### [Generieren Sie XPS-Dokumente mit XpsDevice in .NET mit Aspose.HTML](./generate-xps-documents-by-xpsdevice/)
 Schöpfen Sie das Potenzial der Webentwicklung mit Aspose.HTML für .NET. Erstellen, konvertieren und bearbeiten Sie HTML-Dokumente ganz einfach.
+### [HTML aus String in C# erstellen – Leitfaden für benutzerdefinierten Ressourcen-Handler](./create-html-from-string-in-c-custom-resource-handler-guide/)
+Erfahren Sie, wie Sie mit einem benutzerdefinierten Ressourcen-Handler HTML aus einem String in C# generieren und rendern.
 
 ## Abschluss
 

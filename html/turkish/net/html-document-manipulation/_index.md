@@ -69,10 +69,9 @@ Aspose.HTML for .NET kullanarak dinamik ve web içerikleri oluşturmayı öğren
 .NET için Aspose.HTML kullanmayı öğrenin. Bu kapsamlı kılavuzla ad alanını içe aktarın, HTML'yi XML ile birleştirin ve web geliştirme becerilerinizi geliştirin.
 ### [.NET'te Aspose.HTML ile XpsDevice ile XPS Belgeleri Oluşturun](./generate-xps-documents-by-xpsdevice/)
 Aspose.HTML for .NET ile web geliştirmenin potansiyelini açığa çıkarın. HTML belgelerini kolayca oluşturun, dönüştürün ve düzenleyin.
+### [C#'ta Dizeden HTML Oluşturma – Özel Kaynak İşleyici Rehberi](./create-html-from-string-in-c-custom-resource-handler-guide/)
+C# içinde dizeden HTML oluşturmayı ve özel kaynak işleyicisiyle nasıl kullanacağınızı öğrenin.
 
-## Çözüm
-
-Sonuç olarak, Aspose.HTML for .NET kullanarak HTML belge düzenleme konusunda ustalaşmak istiyorsanız doğru yerdesiniz. Eğitimlerimiz başarıya giden yol haritanızdır. Olasılıkları keşfetmeye, yaratıcılığınızı ortaya çıkarmaya ve .NET geliştirmenizi kolaylaştırmaya hazır olun. Yolculuğunuza bugün başlayın ve HTML belgelerinizin gözlerinizin önünde nasıl dönüştüğünü izleyin. İster geliştirici ister meraklı olun, Aspose.HTML for .NET sizin için inanılmaz bir şey saklıyor. Öyleyse, ne bekliyorsunuz? Bu heyecan verici maceraya birlikte atılalım!
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

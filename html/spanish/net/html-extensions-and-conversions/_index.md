@@ -59,6 +59,8 @@ Aprenda a convertir HTML a Markdown en .NET con Aspose.HTML para manipular conte
 Convierta HTML a MHTML en .NET con Aspose.HTML: una guía paso a paso para archivar contenido web de manera eficiente. Aprenda a usar Aspose.HTML para .NET para crear archivos MHTML.
 ### [Convierte HTML a PNG en .NET con Aspose.HTML](./convert-html-to-png/)
 Descubra cómo utilizar Aspose.HTML para .NET para manipular y convertir documentos HTML. Guía paso a paso para un desarrollo .NET eficaz.
+### [Guardar HTML como ZIP – Tutorial completo en C#](./save-html-as-zip-complete-c-tutorial/)
+Aprenda a guardar documentos HTML como archivos ZIP usando Aspose.HTML para .NET con este tutorial paso a paso en C#.
 ### [Convierte HTML a TIFF en .NET con Aspose.HTML](./convert-html-to-tiff/)
 Aprenda a convertir HTML a TIFF con Aspose.HTML para .NET. Siga nuestra guía paso a paso para optimizar eficazmente el contenido web.
 ### [Convierta HTML a XPS en .NET con Aspose.HTML](./convert-html-to-xps/)

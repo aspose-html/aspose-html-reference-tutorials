@@ -59,6 +59,8 @@ Unlock the potential of Aspose.HTML for .NET with our comprehensive guide. Learn
 Learn how to harness the power of Aspose.HTML for .NET. Boost your web development with HTML manipulation and rendering.
 ### [Creating a Document in .NET with Aspose.HTML](./creating-a-document/)
 Unleash the Power of Aspose.HTML for .NET. Learn to Create, Manipulate, and Optimize HTML and SVG Documents with Ease. Explore Step-By-Step Examples and FAQs.
+### [Create HTML from String in C# – Custom Resource Handler Guide](./create-html-from-string-in-c-custom-resource-handler-guide/)
+Learn how to generate HTML from a string using a custom resource handler in C# with Aspose.HTML for .NET.
 ### [Editing a Document in .NET with Aspose.HTML](./editing-a-document/)
 Create captivating web content with Aspose.HTML for .NET. Learn how to manipulate HTML, CSS, and more.
 ### [Saving a Document in .NET with Aspose.HTML](./saving-a-document/)

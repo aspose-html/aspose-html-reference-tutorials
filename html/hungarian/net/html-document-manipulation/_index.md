@@ -69,6 +69,8 @@ Tanuljon meg dinamikus és webes tartalmat létrehozni az Aspose.HTML for .NET h
 Tanulja meg az Aspose.HTML használatát .NET-hez. Importáljon névteret, egyesítse a HTML-t XML-lel, és fejlessze webfejlesztési készségeit ezzel az átfogó útmutatóval.
 ### [XPS-dokumentumok létrehozása az XpsDevice segítségével .NET-ben az Aspose.HTML-lel](./generate-xps-documents-by-xpsdevice/)
 Használja ki a webfejlesztésben rejlő lehetőségeket az Aspose.HTML for .NET segítségével. Könnyen hozhat létre, konvertálhat és kezelhet HTML dokumentumokat.
+### [HTML létrehozása karakterláncból C#-ban – Egyéni erőforráskezelő útmutató](./create-html-from-string-in-c-custom-resource-handler-guide/)
+Ismerje meg, hogyan hozhat létre HTML-t karakterláncból C#-ban egy egyéni erőforráskezelő segítségével.
 
 ## Következtetés
 
