@@ -69,6 +69,8 @@ Pelajari cara membuat konten web dan dinamis menggunakan Aspose.HTML untuk .NET.
 Pelajari cara menggunakan Aspose.HTML untuk .NET. Impor namespace, gabungkan HTML dengan XML, dan tingkatkan keterampilan pengembangan web Anda dengan panduan lengkap ini.
 ### [Hasilkan Dokumen XPS dengan XpsDevice dalam .NET dengan Aspose.HTML](./generate-xps-documents-by-xpsdevice/)
 Manfaatkan potensi pengembangan web dengan Aspose.HTML untuk .NET. Buat, ubah, dan manipulasi dokumen HTML dengan mudah.
+### [Buat HTML dari String di C# – Panduan Penangan Sumber Daya Kustom](./create-html-from-string-in-c-custom-resource-handler-guide/)
+Pelajari cara membuat dokumen HTML dari string menggunakan handler sumber daya kustom di C# dengan Aspose.HTML.
 
 ## Kesimpulan
 

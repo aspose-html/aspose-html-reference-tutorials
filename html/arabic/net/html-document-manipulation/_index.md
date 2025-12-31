@@ -69,6 +69,8 @@ url: /ar/net/html-document-manipulation/
 تعلم كيفية استخدام Aspose.HTML لـ .NET. قم باستيراد مساحة الأسماء ودمج HTML مع XML وتعزيز مهارات تطوير الويب لديك باستخدام هذا الدليل الشامل.
 ### [إنشاء مستندات XPS بواسطة XpsDevice في .NET باستخدام Aspose.HTML](./generate-xps-documents-by-xpsdevice/)
 أطلق العنان لإمكانات تطوير الويب باستخدام Aspose.HTML for .NET. أنشئ مستندات HTML وحولها وتعامل معها بسهولة.
+### [إنشاء HTML من سلسلة في C# – دليل معالج الموارد المخصص](./create-html-from-string-in-c-custom-resource-handler-guide/)
+تعرف على كيفية إنشاء مستند HTML من سلسلة نصية في C# باستخدام معالج موارد مخصص.
 
 ## خاتمة
 
