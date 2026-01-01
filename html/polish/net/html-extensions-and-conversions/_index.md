@@ -63,6 +63,8 @@ Dowiedz się, jak używać Aspose.HTML dla .NET do manipulowania dokumentami HTM
 Dowiedz się, jak konwertować HTML do TIFF za pomocą Aspose.HTML dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać skuteczną optymalizację treści internetowych.
 ### [Konwersja HTML do XPS w .NET za pomocą Aspose.HTML](./convert-html-to-xps/)
 Odkryj moc Aspose.HTML dla .NET: Konwertuj HTML na XPS bez wysiłku. Zawiera wymagania wstępne, przewodnik krok po kroku i FAQ.
+### [Zapisz HTML do ZIP w C# – Kompletny przykład w pamięci](./save-html-to-zip-in-c-complete-in-memory-example/)
+Zapisz dokument HTML do archiwum ZIP w pamięci przy użyciu Aspose.HTML w C#.
 
 ## Wniosek
 
