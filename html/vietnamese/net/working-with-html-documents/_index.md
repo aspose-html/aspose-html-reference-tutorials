@@ -34,7 +34,9 @@ Sau khi nắm được những điều cơ bản, chúng ta sẽ đi sâu hơn v
 
 ### [Chỉnh sửa tài liệu trong .NET với Aspose.HTML](./editing-a-document/)
 
-Bây giờ, hãy đưa kỹ năng của bạn lên một tầm cao mới. Chỉnh sửa tài liệu HTML là một nhiệm vụ phổ biến đối với các nhà phát triển web và Aspose.HTML đơn giản hóa đáng kể quy trình này. Trong phần này, chúng tôi sẽ đề cập đến việc tạo, thao tác và định dạng tài liệu. Bạn sẽ khám phá cách nâng cao giao diện và chức năng của nội dung web, khiến nội dung đó hấp dẫn và thân thiện với người dùng.
+### [Cách làm tiêu đề đậm bằng CSS & C# – Hướng dẫn chi tiết từng bước](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
+
+Hướng dẫn chi tiết cách sử dụng CSS và C# để làm tiêu đề in đậm, kèm ví dụ mã và các bước thực hiện cụ thể.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

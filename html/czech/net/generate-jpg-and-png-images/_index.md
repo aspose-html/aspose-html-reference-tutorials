@@ -41,6 +41,8 @@ Integrace Aspose.HTML for .NET do vašich projektů .NET je bezproblémová. Kni
 Naučte se vytvářet dynamické webové stránky pomocí Aspose.HTML for .NET. Tento výukový program krok za krokem pokrývá předpoklady, jmenné prostory a vykreslování HTML do obrázků.
 ### [Generujte obrázky PNG pomocí ImageDevice v .NET pomocí Aspose.HTML](./generate-png-images-by-imagedevice/)
 Naučte se používat Aspose.HTML pro .NET k manipulaci s dokumenty HTML, převodu HTML na obrázky a další. Výukový program krok za krokem s nejčastějšími dotazy.
+### [Převod docx na png – vytvoření zip archivu C# tutoriál](./convert-docx-to-png-create-zip-archive-c-tutorial/)
+Naučte se převést soubory DOCX na PNG a zabalit je do ZIP archivu pomocí C# a Aspose.HTML.
 
 ## Závěr
 

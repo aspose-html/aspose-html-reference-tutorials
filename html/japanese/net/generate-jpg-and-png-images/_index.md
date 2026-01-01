@@ -41,6 +41,8 @@ Aspose.HTML for .NET を .NET プロジェクトに統合するのは簡単で�
 Aspose.HTML for .NET を使用して動的な Web ページを作成する方法を学習します。このステップ バイ ステップのチュートリアルでは、前提条件、名前空間、および HTML から画像へのレンダリングについて説明します。
 ### [Aspose.HTML を使用して .NET で ImageDevice によって PNG 画像を生成する](./generate-png-images-by-imagedevice/)
 Aspose.HTML for .NET を使用して HTML ドキュメントを操作したり、HTML を画像に変換したりする方法を学びます。FAQ 付きのステップバイステップのチュートリアルです。
+### [DOCX を PNG に変換 – ZIP アーカイブを作成する C# チュートリアル](./convert-docx-to-png-create-zip-archive-c-tutorial/)
+C# で DOCX を PNG に変換し、ZIP アーカイブを作成する方法を学びます。
 
 ## 結論
 

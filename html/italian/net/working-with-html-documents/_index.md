@@ -35,6 +35,9 @@ Una volta apprese le basi, approfondiremo il processo di creazione. In questa se
 ### [Modifica di un documento in .NET con Aspose.HTML](./editing-a-document/)
 
 Ora, portiamo le tue competenze al livello successivo. La modifica di documenti HTML è un compito comune per gli sviluppatori web e Aspose.HTML semplifica notevolmente questo processo. In questa sezione, parleremo della creazione, manipolazione e stile dei documenti. Scoprirai come migliorare l'aspetto e la funzionalità dei tuoi contenuti web, rendendoli accattivanti e facili da usare.
+
+### [Come rendere grassetto un'intestazione con CSS e C# – Guida completa passo‑passo](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

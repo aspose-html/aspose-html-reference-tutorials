@@ -52,7 +52,7 @@ Bu adım adım kılavuzda .NET için Aspose.HTML'nin gücünden nasıl yararlana
 ### [Aspose.HTML ile .NET'te HTML'yi GIF'e dönüştürün](./convert-html-to-gif/)
 .NET için Aspose.HTML'nin gücünü keşfedin: HTML'yi GIF'e dönüştürmek için adım adım kılavuz. Ön koşullar, kod örnekleri, SSS ve daha fazlası! HTML manipülasyonunuzu Aspose.HTML ile optimize edin.
 ### [Aspose.HTML ile .NET'te HTML'yi JPEG'e dönüştürün](./convert-html-to-jpeg/)
-.NET'te HTML'yi JPEG'e dönüştürmeyi Aspose.HTML for .NET ile öğrenin. Aspose.HTML for .NET'in gücünden yararlanmak için adım adım bir kılavuz. Web geliştirme görevlerinizi zahmetsizce optimize edin.
+.NET'te HTMLyi JPEG'e dönüştürmeyi Aspose.HTML for .NET ile öğrenin. Aspose.HTML for .NET'in gücünden yararlanmak için adım adım bir kılavuz. Web geliştirme görevlerinizi zahmetsizce optimize edin.
 ### [Aspose.HTML ile .NET'te HTML'yi Markdown'a Dönüştürme](./convert-html-to-markdown/)
 Etkili içerik düzenlemesi için Aspose.HTML kullanarak .NET'te HTML'yi Markdown'a nasıl dönüştüreceğinizi öğrenin. Sorunsuz bir dönüştürme süreci için adım adım rehberlik alın.
 ### [Aspose.HTML ile .NET'te HTML'yi MHTML'ye dönüştürün](./convert-html-to-mhtml/)
@@ -63,12 +63,9 @@ HTML belgelerini düzenlemek ve dönüştürmek için Aspose.HTML for .NET'in na
 Aspose.HTML for .NET ile HTML'yi TIFF'e nasıl dönüştüreceğinizi öğrenin. Etkili web içeriği optimizasyonu için adım adım kılavuzumuzu izleyin.
 ### [Aspose.HTML ile .NET'te HTML'yi XPS'e dönüştürün](./convert-html-to-xps/)
 .NET için Aspose.HTML'nin gücünü keşfedin: HTML'yi XPS'e zahmetsizce dönüştürün. Ön koşullar, adım adım kılavuz ve SSS dahildir.
+### [C# ile HTML'yi ZIP'e Kaydet – Tam Bellek İçi Örnek](./save-html-to-zip-in-c-complete-in-memory-example/)
+Aspose.HTML for .NET kullanarak HTML dosyasını bellek içinde ZIP arşivine dönüştürmeyi adım adım öğrenin.
 
-## Çözüm
-
-Sonuç olarak, HTML uzantıları ve dönüşümleri modern web geliştirmenin temel unsurlarıdır. .NET için Aspose.HTML süreci basitleştirir ve her seviyedeki geliştiricinin erişimine sunar. Eğitimlerimizi takip ederek, geniş bir beceri setine sahip yetenekli bir web geliştiricisi olma yolunda iyi bir mesafe kat edeceksiniz.
-
-Peki, daha ne bekliyorsunuz? Aspose.HTML for .NET kullanarak HTML uzantılarını ve dönüşümlerini keşfetmek için bu heyecan verici yolculuğa çıkalım. Web geliştirme projeleriniz asla eskisi gibi olmayacak!
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

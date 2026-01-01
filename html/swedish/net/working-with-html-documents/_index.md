@@ -35,6 +35,11 @@ När du har förstått grunderna kommer vi att gräva djupare i skapelseprocesse
 ### [Redigera ett dokument i .NET med Aspose.HTML](./editing-a-document/)
 
 Låt oss nu ta dina färdigheter till nästa nivå. Att redigera HTML-dokument är en vanlig uppgift för webbutvecklare, och Aspose.HTML förenklar denna process avsevärt. I det här avsnittet kommer vi att ta upp dokumentskapande, manipulering och stil. Du kommer att upptäcka hur du förbättrar utseendet och funktionaliteten hos ditt webbinnehåll, vilket gör det engagerande och användarvänligt.
+
+### [Hur du gör rubriker fetstil med CSS & C# – Komplett steg‑för‑steg‑guide](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
+
+Lär dig hur du använder CSS och C# för att göra rubriker fetstilta i dina HTML‑dokument med en steg‑för‑steg‑guide.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
