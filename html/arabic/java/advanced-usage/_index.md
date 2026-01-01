@@ -133,6 +133,9 @@ weight: 20
 ### [ضبط حجم صفحة XPS باستخدام Aspose.HTML for Java](./adjust-xps-page-size/)
 تعلم كيفية ضبط حجم صفحة XPS باستخدام Aspose.HTML for Java. سيطر على أبعاد مخرجات مستندات XPS بسهولة.
 
+### [كيفية تشغيل JavaScript في Java – دليل كامل](./how-to-run-javascript-in-java-complete-guide/)
+تعلم كيفية تشغيل كود JavaScript داخل تطبيقات Java باستخدام Aspose.HTML for Java.
+
 ---
 
 **آخر تحديث:** 2025-11-29  

@@ -60,9 +60,9 @@ Ao chamar `save`, passe uma instância de `PdfSaveOptions` (ou `XpsSaveOptions`)
 
 *Apenas explicação – código inalterado.*
 
-## Observando mudanças no DOM – “monitorar mudanças no dom”
+## Observando mudanças en DOM – “monitorar mudanças no dom”
 
-O Aspose.HTML permite anexar um `DomMutationObserver` a qualquer nó. Isso é perfeito para cenários onde você precisa reagir a conteúdo dinâmico — como preenchimento automático de formulários ou atualização de gráficos. Monitorando adições de nós, você pode disparar lógica personalizada em tempo real.
+O Aspose.HTML permite anexar um `DomMutationObserver` a qualquer nó. Isso é perfeito para escenarios donde você precisa reagir a conteúdo dinâmico — como preenchimento automático de formulários ou atualização de gráficos. Monitorando adições de nós, você pode disparar lógica personalizada em tempo real.
 
 *Apenas explicação – código inalterado.*
 
@@ -133,6 +133,9 @@ Aprenda a ajustar o tamanho de página PDF com Aspose.HTML for Java. Crie PDFs d
 
 ### [Ajustar tamanho de página XPS com Aspose.HTML for Java](./adjust-xps-page-size/)
 Aprenda a ajustar o tamanho de página XPS com Aspose.HTML for Java. Controle facilmente as dimensões de saída dos seus documentos XPS.
+
+### [Como Executar JavaScript em Java – Guia Completo](./how-to-run-javascript-in-java-complete-guide/)
+Aprenda a executar código JavaScript dentro de aplicações Java usando Aspose.HTML for Java.
 
 ---
 

@@ -62,6 +62,11 @@ Dowiedz się, jak tworzyć nowe dokumenty HTML za pomocą Aspose.HTML dla Java d
 Naucz się obsługiwać zdarzenia ładowania dokumentów w Aspose.HTML dla Java dzięki temu przewodnikowi krok po kroku. Ulepsz swoje aplikacje internetowe.
 ### [Tworzenie i zarządzanie dokumentami SVG w Aspose.HTML dla Java](./create-manage-svg-documents/)
 Naucz się tworzyć i zarządzać dokumentami SVG za pomocą Aspose.HTML dla Java! Ten kompleksowy przewodnik obejmuje wszystko, od podstawowego tworzenia po zaawansowaną manipulację.
+### [Utwórz piaskownicę dla HTML w Javie – przewodnik krok po kroku](./create-sandbox-for-html-in-java-step-by-step-guide/)
+Dowiedz się, jak skonfigurować bezpieczną piaskownicę HTML w Javie, aby testować i uruchamiać kod w izolowanym środowisku.
+### [Jak zapytać HTML w Javie – Kompletny samouczek](./how-to-query-html-in-java-complete-tutorial/)
+Dowiedz się, jak efektywnie zapytać i przetwarzać dokumenty HTML w Javie przy użyciu Aspose.HTML.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
