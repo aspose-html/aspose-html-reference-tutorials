@@ -52,6 +52,8 @@ weight: 27
 Μάθετε πώς να μετατρέψετε EPUB σε PDF στη Java χωρίς κόπο με το Aspose.HTML, ενισχύοντας τις δυνατότητες επεξεργασίας εγγράφων.
 ### [Καθορισμός Επιλογών Αποθήκευσης PDF για EPUB σε PDF](./convert-epub-to-pdf-specify-pdf-save-options/)
 Μάθετε πώς να μετατρέψετε EPUB σε PDF στη Java χρησιμοποιώντας το Aspose.HTML, μια ισχυρή βιβλιοθήκη χειρισμού HTML.
+### [Πώς να Ενσωματώσετε Γραμματοσειρές Κατά τη Μετατροπή EPUB σε PDF με Java](./how-to-embed-fonts-when-converting-epub-to-pdf-in-java/)
+Μάθετε πώς να ενσωματώσετε γραμματοσειρές στο PDF κατά τη μετατροπή EPUB χρησιμοποιώντας Aspose.HTML for Java.
 ### [Μετατροπή EPUB σε BMP](./convert-epub-to-bmp/)
 Μάθετε πώς να μετατρέψετε EPUB σε BMP χρησιμοποιώντας το Aspose.HTML for Java. Οδηγός βήμα‑βήμα για αποτελεσματικό μετασχηματισμό περιεχομένου.
 ### [Μετατροπή EPUB σε GIF](./convert-epub-to-gif/)

@@ -58,6 +58,9 @@ Learn how to add inline CSS to HTML documents using Aspose.HTML for Java. This s
 Learn how to manage inner and outer HTML properties in Aspose.HTML for Java with this step-by-step guide, perfect for web developers and content creators.
 ### [Implement Internal CSS in HTML Documents with Aspose.HTML for Java](./implement-internal-css-html-documents/)
 Learn to implement internal CSS in HTML documents using Aspose.HTML for Java with our easy step-by-step tutorial.
+### [Fixed thread pool java – Parallel HTML Cleaning with ExecutorService](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
+Learn how to use a fixed thread pool and ExecutorService in Java to clean HTML content in parallel efficiently.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

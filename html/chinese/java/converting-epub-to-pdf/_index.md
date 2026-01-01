@@ -58,6 +58,9 @@ EPUB 文件被广泛用于电子书，但有时您需要将其转换为 PDF 格�
 ### [Specifying PDF Save Options for EPUB to PDF](./convert-epub-to-pdf-specify-pdf-save-options/)
 学习如何使用 Aspose.HTML 将 EPUB 转换为 PDF，这是一款强大的 HTML 操作库。
 
+### [在 Java 中将 EPUB 转换为 PDF 时如何嵌入字体](./how-to-embed-fonts-when-converting-epub-to-pdf-in-java/)
+学习在使用 Aspose.HTML for Java 将 EPUB 转 PDF 时嵌入自定义字体，确保文档显示一致。
+
 ### [Converting EPUB to BMP](./convert-epub-to-bmp/)
 了解如何使用 Aspose.HTML for Java 将 EPUB 转换为 BMP。提供高效内容转换的分步指南。
 

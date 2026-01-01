@@ -52,19 +52,19 @@ HTML を **GIF に変換** したり、BMP、JPEG、PNG、TIFF などの他の�
 
 *同じ 3 つの手順は BMP、TIFF、その他のサポートされているフォーマットにも適用できます。*
 
-## HTML を BMP に変換する
+## HTML を BMP に変換
 HTML を BMP に変換することは、ウェブページのアーカイブやロスレス品質が必要なサムネイル生成などで一般的な要件です。ドキュメント管理システムやレポートツールを構築している場合でも、このガイドは変換を簡単に実行する方法を示します。
 
-## HTML を GIF に変換する
+## HTML を GIF に変換
 アニメーションプレビューや軽量グラフィック用に **HTML を GIF に変換** したいですか？ Aspose.HTML for Java なら簡単です。このチュートリアルでは、最小限のコードで高品質な出力を得る手順を解説します。
 
-## HTML を JPEG に変換する
+## HTML を JPEG に変換
 写真のような表現やレガシーシステムとの互換性のために **HTML を JPEG に変換** が必要な場合、このステップバイステップガイドはワークフローを簡素化し、視覚的忠実度を保ちます。
 
-## HTML を PNG に変換する
+## HTML を PNG に変換
 HTML を PNG 画像に変換することは、ロスレスグラフィック、スクリーンショット、または透過が必要な場合に最適です。包括的なガイドでスムーズな変換手順を明確に示します。
 
-## HTML を TIFF に変換する
+## HTML を TIFF に変換
 HTML を TIFF に変換することは、高解像度印刷やアーカイブ保存に最適です。このチュートリアルでは、Aspose.HTML for Java を使用して TIFF ファイルを効率的に生成する正確な手順を示します。
 
 Aspose.HTML for Java を使用すれば、HTML ドキュメントをさまざまな画像フォーマットに変換する作業が簡素化されます。これらのチュートリアルで、効率的かつ効果的に変換するための知識とスキルを身につけられます。Aspose.HTML for Java で簡単に HTML を画像フォーマットに変換できる世界へようこそ。
@@ -95,6 +95,9 @@ Aspose.HTML を使用して Java で HTML を PNG 画像に変換する方法を
 
 ### [HTML を TIFF に変換](./convert-html-to-tiff/)
 Aspose.HTML for Java を使用して HTML を TIFF に簡単に変換する方法を学びます。効率的なドキュメント処理のためのステップバイステップガイドです。
+
+### [HTML を WebP に変換 – Aspose.HTML を使用した完全な Java ガイド](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
+Aspose.HTML for Java を使用して HTML を WebP に変換します。完全な Java ガイドでステップバイステップの手順を紹介します。
 
 ## よくある質問
 

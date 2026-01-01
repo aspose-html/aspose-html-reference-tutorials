@@ -35,7 +35,7 @@ Představte si, že potřebujete generovat obsah HTML za chodu na základě vstu
 
 ## Vytvářejte nové dokumenty HTML a zvládejte pokročilé načítání souborů
 
-Pokud jde o generování nových dokumentů HTML, Aspose.HTML for Java nabízí robustní řešení, které vám umožní vytvářet bohatý webový obsah od začátku. Ať už pracujete na redakčním systému nebo potřebujete generovat sestavy ve formátu HTML, pochopení toho, jak vytvářet a spravovat nové HTML dokumenty, je zásadní. Pokročilé techniky načítání souborů vám navíc umožňují pracovat se složitými dokumenty HTML a zajišťují, že snadno zvládnete rozsáhlé projekty. Tyto výukové programy vás provedou každým krokem a zajistí, že budete připraveni vypořádat se s jakoukoli výzvou související s HTML.[Přečtěte si více](./generate-new-html-documents/)
+ Pokud jde o generování nových dokumentů HTML, Aspose.HTML for Java nabízí robustní řešení, které vám umožní vytvářet bohatý webový obsah od začátku. Ať už pracujete na redakčním systému nebo potřebujete generovat sestavy ve formátu HTML, pochopení toho, jak vytvářet a spravovat nové HTML dokumenty, je zásadní. Pokročilé techniky načítání souborů vám navíc umožňují pracovat se složitými dokumenty HTML a zajišťují, že snadno zvládnete rozsáhlé projekty. Tyto výukové programy vás provedou každým krokem a zajistí, že budete připraveni vypořádat se s jakoukoli výzvou související s HTML.[Přečtěte si více](./generate-new-html-documents/)
 
 ## Správa dokumentů SVG a zpracování událostí
 
@@ -60,8 +60,13 @@ Objevte, jak snadno načíst HTML dokumenty z URL v Javě pomocí Aspose.HTML. V
 Naučte se vytvářet nové HTML dokumenty pomocí Aspose.HTML for Java pomocí tohoto jednoduchého průvodce krok za krokem. Začněte generovat dynamický obsah HTML.
 ### [Zvládejte události načítání dokumentu v Aspose.HTML pro Java](./handle-document-load-events/)
 Naučte se zvládat události načítání dokumentů v Aspose.HTML pro Java pomocí tohoto podrobného průvodce. Vylepšete své webové aplikace.
+### [Vytvořte sandbox pro HTML v Javě – krok‑za‑krokem průvodce](./create-sandbox-for-html-in-java-step-by-step-guide/)
+Naučte se, jak vytvořit sandboxové prostředí pro bezpečnou manipulaci s HTML v Javě pomocí Aspose.HTML.
 ### [Vytvářejte a spravujte dokumenty SVG v Aspose.HTML pro Javu](./create-manage-svg-documents/)
 Naučte se vytvářet a spravovat dokumenty SVG pomocí Aspose.HTML pro Javu! Tento komplexní průvodce pokrývá vše od základní tvorby až po pokročilou manipulaci.
+### [Jak dotazovat HTML v Javě – Kompletní tutoriál](./how-to-query-html-in-java-complete-tutorial/)
+Kompletní průvodce, jak v Javě dotazovat a získávat data z HTML pomocí Aspose.HTML, včetně příkladů a tipů.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

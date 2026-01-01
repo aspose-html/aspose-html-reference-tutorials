@@ -58,6 +58,9 @@ url: /ru/java/editing-html-documents/
 Узнайте, как управлять внутренними и внешними свойствами HTML в Aspose.HTML для Java, с помощью этого пошагового руководства, идеально подходящего для веб-разработчиков и создателей контента.
 ### [Внедрение внутреннего CSS в HTML-документы с помощью Aspose.HTML для Java](./implement-internal-css-html-documents/)
 Научитесь внедрять внутренний CSS в HTML-документы с помощью Aspose.HTML для Java с помощью нашего простого пошагового руководства.
+### [Фиксированный пул потоков Java – Параллельная очистка HTML с помощью ExecutorService](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
+Узнайте, как использовать фиксированный пул потоков и ExecutorService для параллельной очистки HTML в Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

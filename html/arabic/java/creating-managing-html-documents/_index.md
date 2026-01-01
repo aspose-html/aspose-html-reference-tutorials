@@ -62,6 +62,11 @@ url: /ar/java/creating-managing-html-documents/
 تعلم كيفية التعامل مع أحداث تحميل المستندات في Aspose.HTML for Java باستخدام هذا الدليل خطوة بخطوة. قم بتحسين تطبيقات الويب الخاصة بك.
 ### [إنشاء وإدارة مستندات SVG في Aspose.HTML لـ Java](./create-manage-svg-documents/)
 تعلم كيفية إنشاء مستندات SVG وإدارتها باستخدام Aspose.HTML لـ Java! يغطي هذا الدليل الشامل كل شيء بدءًا من الإنشاء الأساسي وحتى المعالجة المتقدمة.
+### [إنشاء بيئة تجريبية لـ HTML في Java – دليل خطوة بخطوة](./create-sandbox-for-html-in-java-step-by-step-guide/)
+تعلم كيفية إنشاء بيئة تجريبية لمعالجة HTML في Java باستخدام Aspose.HTML من خلال دليل خطوة بخطوة.
+### [كيفية الاستعلام عن HTML في Java – دليل كامل](./how-to-query-html-in-java-complete-tutorial/)
+تعلم كيفية استعلام ومعالجة مستندات HTML في Java باستخدام Aspose.HTML من خلال دليل شامل خطوة بخطوة.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

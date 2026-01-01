@@ -62,6 +62,11 @@ Bu kolay adım adım kılavuzla Aspose.HTML for Java kullanarak yeni HTML belgel
 Bu adım adım kılavuzla Aspose.HTML for Java'da belge yükleme olaylarını nasıl yöneteceğinizi öğrenin. Web uygulamalarınızı geliştirin.
 ### [Java için Aspose.HTML'de SVG Belgeleri Oluşturun ve Yönetin](./create-manage-svg-documents/)
 Java için Aspose.HTML kullanarak SVG belgeleri oluşturmayı ve yönetmeyi öğrenin! Bu kapsamlı kılavuz, temel oluşturmadan gelişmiş düzenlemeye kadar her şeyi kapsar.
+### [Java için Aspose.HTML'de HTML sandbox oluşturma – Adım adım kılavuz](./create-sandbox-for-html-in-java-step-by-step-guide/)
+Java için Aspose.HTML kullanarak HTML sandbox oluşturmayı adım adım öğrenin.
+### [Java için Aspose.HTML'de HTML Sorgulama – Tam Kılavuz](./how-to-query-html-in-java-complete-tutorial/)
+Java için Aspose.HTML kullanarak HTML içeriğini nasıl sorgulayacağınızı adım adım öğrenin.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
