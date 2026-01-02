@@ -1,6 +1,6 @@
 ---
 date: 2025-12-19
-description: 了解如何使用 Aspose.HTML for Java 将 HTML 转换为 PNG。本分步指南涵盖 HTML 转图片转换、将 HTML
+description: 了解如何使用 Aspose.HTML for Java 将 HTML 转换为 PNG 本分步指南涵盖 HTML 转图片转换、将 HTML
   保存为 PNG，以及导出 HTML 为 PNG。
 linktitle: Converting HTML to PNG
 second_title: Java HTML Processing with Aspose.HTML
@@ -133,7 +133,6 @@ Converter.convertHTML(htmlDocument, options, outputFile);
 **作者：** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
