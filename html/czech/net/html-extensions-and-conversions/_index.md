@@ -39,6 +39,10 @@ Aspose.HTML for .NET není jen knihovna; je to změna hry ve světě vývoje web
 ## Výukové programy pro rozšíření a konverze HTML
 ### [Převeďte HTML do PDF v .NET pomocí Aspose.HTML](./convert-html-to-pdf/)
 Převeďte HTML do PDF bez námahy pomocí Aspose.HTML pro .NET. Postupujte podle našeho podrobného průvodce a uvolněte sílu převodu HTML do PDF.
+
+### [Vytvořte PDF z URL – Kompletní průvodce v C#](./create-pdf-from-url-complete-c-guide/)
+Kompletní průvodce v C# pro vytvoření PDF z webové adresy pomocí Aspose.HTML pro .NET.
+
 ### [Převeďte EPUB na obrázek v .NET pomocí Aspose.HTML](./convert-epub-to-image/)
 Přečtěte si, jak převést EPUB na obrázky pomocí Aspose.HTML pro .NET. Výukový program krok za krokem s příklady kódu a přizpůsobitelnými možnostmi.
 ### [Převeďte EPUB do PDF v .NET pomocí Aspose.HTML](./convert-epub-to-pdf/)

@@ -54,7 +54,7 @@ Aspose.HTML for .NET을 사용하여 .NET에서 HTML을 BMP로 변환하는 방�
 ### [Aspose.HTML을 사용하여 .NET에서 HTML을 JPEG로 변환](./convert-html-to-jpeg/)
 Aspose.HTML for .NET을 사용하여 .NET에서 HTML을 JPEG로 변환하는 방법을 알아보세요. Aspose.HTML for .NET의 힘을 활용하는 단계별 가이드입니다. 웹 개발 작업을 손쉽게 최적화하세요.
 ### [Aspose.HTML을 사용하여 .NET에서 HTML을 마크다운으로 변환](./convert-html-to-markdown/)
-Aspose.HTML을 사용하여 .NET에서 HTML을 Markdown으로 변환하는 방법을 알아보고 효율적인 콘텐츠 조작을 하세요. 원활한 변환 프로세스를 위한 단계별 가이드를 받으세요.
+Aspose.HTML 사용하여 .NET에서 HTML을 Markdown으로 변환하는 방법을 알아보고 효율적인 콘텐츠 조작을 하세요. 원활한 변환 프로세스를 위한 단계별 가이드를 받으세요.
 ### [Aspose.HTML을 사용하여 .NET에서 HTML을 MHTML로 변환](./convert-html-to-mhtml/)
 Aspose.HTML을 사용하여 .NET에서 HTML을 MHTML로 변환 - 효율적인 웹 콘텐츠 보관을 위한 단계별 가이드. .NET용 Aspose.HTML을 사용하여 MHTML 보관소를 만드는 방법을 알아보세요.
 ### [Aspose.HTML을 사용하여 .NET에서 HTML을 PNG로 변환](./convert-html-to-png/)
@@ -63,6 +63,8 @@ Aspose.HTML for .NET을 사용하여 HTML 문서를 조작하고 변환하는 �
 Aspose.HTML for .NET을 사용하여 HTML을 TIFF로 변환하는 방법을 알아보세요. 효율적인 웹 콘텐츠 최적화를 위한 단계별 가이드를 따르세요.
 ### [Aspose.HTML을 사용하여 .NET에서 HTML을 XPS로 변환](./convert-html-to-xps/)
 .NET용 Aspose.HTML의 힘을 알아보세요: HTML을 XPS로 손쉽게 변환하세요. 필수 조건, 단계별 가이드, FAQ가 포함되어 있습니다.
+### [URL에서 PDF 만들기 – 완전한 C# 가이드](./create-pdf-from-url-complete-c-guide/)
+Aspose.HTML for .NET을 사용해 URL을 PDF로 변환하는 전체 C# 단계별 가이드.
 
 ## 결론
 

@@ -42,6 +42,8 @@ Setelah Anda menyiapkan Aspose.HTML untuk .NET, saatnya menjelajahi tutorial yan
 
 ### [Render HTML sebagai PNG di .NET dengan Aspose.HTML](./render-html-as-png/)
 Pelajari cara bekerja dengan Aspose.HTML untuk .NET: Memanipulasi HTML, mengonversi ke berbagai format, dan banyak lagi. Pelajari tutorial lengkap ini!
+### [Cara Merender HTML ke PNG – Panduan Lengkap Langkah demi Langkah](./how-to-render-html-to-png-complete-step-by-step-guide/)
+Pelajari cara merender HTML menjadi PNG dengan panduan lengkap langkah demi langkah menggunakan Aspose.HTML untuk .NET.
 ### [Render EPUB sebagai XPS di .NET dengan Aspose.HTML](./render-epub-as-xps/)
 Pelajari cara membuat dan merender dokumen HTML dengan Aspose.HTML untuk .NET dalam tutorial lengkap ini. Pelajari dunia manipulasi HTML, web scraping, dan banyak lagi.
 ### [Batas Waktu Rendering di .NET dengan Aspose.HTML](./rendering-timeout/)
@@ -52,6 +54,9 @@ Pelajari cara mengendalikan batas waktu rendering secara efektif di Aspose.HTML 
 Pelajari cara merender beberapa dokumen HTML menggunakan Aspose.HTML untuk .NET. Tingkatkan kemampuan pemrosesan dokumen Anda dengan pustaka canggih ini.
 ### [Render Dokumen SVG sebagai PNG di .NET dengan Aspose.HTML](./render-svg-doc-as-png/)
 Manfaatkan kekuatan Aspose.HTML untuk .NET! Pelajari cara Merender Dokumen SVG sebagai PNG dengan mudah. Pelajari contoh langkah demi langkah dan Tanya Jawab Umum. Mulailah sekarang!
+### [Cara Merender HTML – Panduan Lengkap dengan Penangan Sumber Daya Kustom](./how-to-render-html-complete-guide-with-custom-resource-handl/)
+Pelajari cara merender HTML dengan penangan sumber daya kustom menggunakan Aspose.HTML untuk .NET. Ikuti panduan lengkap ini!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

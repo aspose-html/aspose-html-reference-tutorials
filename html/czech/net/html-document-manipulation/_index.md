@@ -69,6 +69,8 @@ Naučte se vytvářet dynamický a webový obsah pomocí Aspose.HTML pro .NET. P
 Naučte se používat Aspose.HTML pro .NET. Importujte jmenný prostor, slučujte HTML s XML a vylepšete své dovednosti v oblasti vývoje webu pomocí tohoto komplexního průvodce.
 ### [Generujte dokumenty XPS pomocí XpsDevice v .NET pomocí Aspose.HTML](./generate-xps-documents-by-xpsdevice/)
 Odemkněte potenciál vývoje webu s Aspose.HTML pro .NET. Snadno vytvářejte, převádějte a manipulujte s dokumenty HTML.
+### [Vytvořte HTML dokument pomocí Aspose.HTML – průvodce krok za krokem](./create-html-document-with-aspose-html-step-by-step-guide/)
+Naučte se krok za krokem vytvářet HTML dokumenty pomocí knihovny Aspose.HTML v .NET.
 
 ## Závěr
 

@@ -42,16 +42,28 @@ Ora che hai configurato Aspose.HTML per .NET, è il momento di esplorare i tutor
 
 ### [Renderizza HTML come PNG in .NET con Aspose.HTML](./render-html-as-png/)
 Impara a lavorare con Aspose.HTML per .NET: manipola HTML, converti in vari formati e altro ancora. Immergiti in questo tutorial completo!
+
+### [Come rendere HTML in PNG – Guida completa passo‑passo](./how-to-render-html-to-png-complete-step-by-step-guide/)
+Scopri come convertire HTML in PNG con Aspose.HTML passo dopo passo, con esempi pratici e consigli utili.
+
 ### [Renderizza EPUB come XPS in .NET con Aspose.HTML](./render-epub-as-xps/)
 Scopri come creare e rendere documenti HTML con Aspose.HTML per .NET in questo tutorial completo. Immergiti nel mondo della manipolazione HTML, del web scraping e altro ancora.
+
 ### [Timeout di rendering in .NET con Aspose.HTML](./rendering-timeout/)
 Scopri come controllare efficacemente i timeout di rendering in Aspose.HTML per .NET. Esplora le opzioni di rendering e assicurati un rendering fluido dei documenti HTML.
+
 ### [Renderizza MHTML come XPS in .NET con Aspose.HTML](./render-mhtml-as-xps/)
  Impara a rendere MHTML come XPS in .NET con Aspose.HTML. Migliora le tue capacità di manipolazione HTML e potenzia i tuoi progetti di sviluppo web!
+
 ### [Rendering di più documenti in .NET con Aspose.HTML](./render-multiple-documents/)
 Impara a eseguire il rendering di più documenti HTML utilizzando Aspose.HTML per .NET. Aumenta le tue capacità di elaborazione dei documenti con questa potente libreria.
+
 ### [Rendi il documento SVG come PNG in .NET con Aspose.HTML](./render-svg-doc-as-png/)
 Sblocca la potenza di Aspose.HTML per .NET! Scopri come rendere SVG Doc come PNG senza sforzo. Immergiti in esempi passo dopo passo e FAQ. Inizia subito!
+
+### [Come rendere HTML – Guida completa con gestore di risorse personalizzato](./how-to-render-html-complete-guide-with-custom-resource-handl/)
+Scopri come rendere HTML usando Aspose.HTML con un gestore di risorse personalizzato per un controllo totale del rendering.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

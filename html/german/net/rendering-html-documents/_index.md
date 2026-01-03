@@ -42,16 +42,28 @@ Nachdem Sie Aspose.HTML für .NET eingerichtet haben, ist es an der Zeit, die Tu
 
 ### [Rendern Sie HTML als PNG in .NET mit Aspose.HTML](./render-html-as-png/)
 Erfahren Sie, wie Sie mit Aspose.HTML für .NET arbeiten: HTML bearbeiten, in verschiedene Formate konvertieren und mehr. Tauchen Sie ein in dieses umfassende Tutorial!
+
+### [HTML zu PNG rendern – Vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-render-html-to-png-complete-step-by-step-guide/)
+Erfahren Sie, wie Sie HTML mit Aspose.HTML in .NET Schritt für Schritt in PNG konvertieren und dabei alle wichtigen Einstellungen nutzen.
+
 ### [Rendern Sie EPUB als XPS in .NET mit Aspose.HTML](./render-epub-as-xps/)
 Erfahren Sie in diesem umfassenden Tutorial, wie Sie mit Aspose.HTML für .NET HTML-Dokumente erstellen und rendern. Tauchen Sie ein in die Welt der HTML-Manipulation, des Web Scraping und mehr.
+
 ### [Rendering-Timeout in .NET mit Aspose.HTML](./rendering-timeout/)
 Erfahren Sie, wie Sie Rendering-Timeouts in Aspose.HTML für .NET effektiv steuern. Erkunden Sie Rendering-Optionen und sorgen Sie für ein reibungsloses Rendering von HTML-Dokumenten.
+
 ### [Rendern Sie MHTML als XPS in .NET mit Aspose.HTML](./render-mhtml-as-xps/)
  Lernen Sie, MHTML mit Aspose.HTML in .NET als XPS zu rendern. Verbessern Sie Ihre HTML-Manipulationsfähigkeiten und steigern Sie Ihre Webentwicklungsprojekte!
+
 ### [Rendern Sie mehrere Dokumente in .NET mit Aspose.HTML](./render-multiple-documents/)
 Erfahren Sie, wie Sie mit Aspose.HTML für .NET mehrere HTML-Dokumente rendern. Steigern Sie Ihre Dokumentverarbeitungsfunktionen mit dieser leistungsstarken Bibliothek.
+
 ### [Rendern Sie SVG-Dokumente als PNG in .NET mit Aspose.HTML](./render-svg-doc-as-png/)
 Entfesseln Sie die Leistungsfähigkeit von Aspose.HTML für .NET! Erfahren Sie, wie Sie SVG-Dokumente mühelos als PNG rendern. Tauchen Sie ein in Schritt-für-Schritt-Beispiele und FAQs. Jetzt loslegen!
+
+### [HTML rendern – Vollständige Anleitung mit benutzerdefiniertem Ressourcen-Handler](./how-to-render-html-complete-guide-with-custom-resource-handl/)
+Erfahren Sie, wie Sie HTML mit einem benutzerdefinierten Ressourcen-Handler rendern und dabei volle Kontrolle über das Laden von Ressourcen erhalten.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
