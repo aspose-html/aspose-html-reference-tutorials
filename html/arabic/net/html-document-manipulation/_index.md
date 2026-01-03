@@ -52,7 +52,7 @@ url: /ar/net/html-document-manipulation/
 ### [تحميل مستندات HTML بشكل غير متزامن في .NET باستخدام Aspose.HTML](./load-html-doc-asynchronously/)
 تعرف على كيفية استخدام Aspose.HTML for .NET للعمل مع مستندات HTML. دليل خطوة بخطوة مع أمثلة وأسئلة شائعة للمطورين.
 ### [تحميل مستندات HTML باستخدام بيانات الاعتماد في .NET باستخدام Aspose.HTML](./load-html-doc-with-credentials/)
-تعرف على كيفية تعزيز تحسين محرك البحث الخاص بك باستخدام Aspose.HTML لـ .NET. قم بتعزيز التصنيفات وتحليل محتوى الويب وتحسينه لمحركات البحث.
+تعرف على كيفية تعزيز تحسين محرك البحث الخاص بك باستخدام Aspose.HTML لـ .NET. قم بتحسين التصنيفات وتحليل محتوى الويب وتحسينه لمحركات البحث.
 ### [تحميل HTML باستخدام خادم بعيد في .NET مع Aspose.HTML](./load-html-using-remote-server/)
 اكتشف إمكانات Aspose.HTML لـ .NET من خلال دليلنا الشامل. تعرّف على كيفية استيراد مساحات الأسماء والوصول إلى مستندات HTML عن بُعد والمزيد.
 ### [تحميل HTML باستخدام URL في .NET مع Aspose.HTML](./load-html-using-url/)
@@ -69,6 +69,8 @@ url: /ar/net/html-document-manipulation/
 تعلم كيفية استخدام Aspose.HTML لـ .NET. قم باستيراد مساحة الأسماء ودمج HTML مع XML وتعزيز مهارات تطوير الويب لديك باستخدام هذا الدليل الشامل.
 ### [إنشاء مستندات XPS بواسطة XpsDevice في .NET باستخدام Aspose.HTML](./generate-xps-documents-by-xpsdevice/)
 أطلق العنان لإمكانات تطوير الويب باستخدام Aspose.HTML for .NET. أنشئ مستندات HTML وحولها وتعامل معها بسهولة.
+### [إنشاء مستند HTML باستخدام Aspose.HTML – دليل خطوة بخطوة](./create-html-document-with-aspose-html-step-by-step-guide/)
+تعلم كيفية إنشاء مستند HTML من الصفر باستخدام Aspose.HTML خطوة بخطوة مع أمثلة عملية.
 
 ## خاتمة
 

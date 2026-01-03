@@ -59,6 +59,8 @@ Manfaatkan potensi Aspose.HTML untuk .NET dengan panduan lengkap kami. Pelajari 
 Pelajari cara memanfaatkan kekuatan Aspose.HTML untuk .NET. Tingkatkan pengembangan web Anda dengan manipulasi dan rendering HTML.
 ### [Membuat Dokumen di .NET dengan Aspose.HTML](./creating-a-document/)
 Manfaatkan Kekuatan Aspose.HTML untuk .NET. Pelajari Cara Membuat, Memanipulasi, dan Mengoptimalkan Dokumen HTML dan SVG dengan Mudah. Jelajahi Contoh Langkah demi Langkah dan Tanya Jawab Umum.
+### [Buat Dokumen HTML dengan Aspose.HTML – Panduan Langkah-demi-Langkah](./create-html-document-with-aspose-html-step-by-step-guide/)
+Pelajari cara membuat dokumen HTML menggunakan Aspose.HTML dengan panduan langkah demi langkah yang mudah diikuti.
 ### [Mengedit Dokumen dalam .NET dengan Aspose.HTML](./editing-a-document/)
 Ciptakan konten web yang menarik dengan Aspose.HTML untuk .NET. Pelajari cara memanipulasi HTML, CSS, dan lainnya.
 ### [Menyimpan Dokumen dalam .NET dengan Aspose.HTML](./saving-a-document/)

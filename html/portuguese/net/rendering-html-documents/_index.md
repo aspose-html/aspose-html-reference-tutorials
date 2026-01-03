@@ -24,7 +24,7 @@ Para começar, você precisará instalar a biblioteca Aspose.HTML para .NET e co
 
 ## Por que escolher Aspose.HTML para .NET?
 
-Aspose.HTML para .NET se destaca como uma escolha principal para renderização de HTML devido aos seus recursos ricos, excelente documentação e suporte ativo da comunidade. Aqui está o motivo pelo qual você deve considerar usá-lo:
+Aspose.HTML para .NET se destaca como uma escolha principal para renderização de HTML devido aos seus recursos ricos, excelente documentação e suporte ativo da comunidade. Aqui está o motivo pelo qual você deve considerá-lo:
 
 - Renderização poderosa: o Aspose.HTML para .NET fornece recursos de renderização HTML de alta qualidade, garantindo que seus documentos tenham ótima aparência sempre.
 
@@ -42,6 +42,8 @@ Agora que você configurou o Aspose.HTML para .NET, é hora de explorar os tutor
 
 ### [Renderizar HTML como PNG em .NET com Aspose.HTML](./render-html-as-png/)
 Aprenda a trabalhar com Aspose.HTML para .NET: Manipule HTML, converta para vários formatos e muito mais. Mergulhe neste tutorial abrangente!
+### [Como Renderizar HTML para PNG – Guia Completo Passo a Passo](./how-to-render-html-to-png-complete-step-by-step-guide/)
+Aprenda a converter HTML em PNG usando Aspose.HTML para .NET com instruções detalhadas passo a passo.
 ### [Renderizar EPUB como XPS em .NET com Aspose.HTML](./render-epub-as-xps/)
 Aprenda como criar e renderizar documentos HTML com Aspose.HTML para .NET neste tutorial abrangente. Mergulhe no mundo da manipulação de HTML, web scraping e muito mais.
 ### [Tempo limite de renderização em .NET com Aspose.HTML](./rendering-timeout/)
@@ -52,6 +54,9 @@ Aprenda a controlar efetivamente os tempos limite de renderização no Aspose.HT
 Aprenda a renderizar vários documentos HTML usando Aspose.HTML para .NET. Aumente suas capacidades de processamento de documentos com esta poderosa biblioteca.
 ### [Renderizar documento SVG como PNG em .NET com Aspose.HTML](./render-svg-doc-as-png/)
 Desbloqueie o poder do Aspose.HTML para .NET! Aprenda como renderizar SVG Doc como PNG sem esforço. Mergulhe em exemplos passo a passo e FAQs. Comece agora!
+### [Como Renderizar HTML – Guia Completo com Manipulador de Recursos Personalizado](./how-to-render-html-complete-guide-with-custom-resource-handl/)
+Aprenda a renderizar HTML usando um manipulador de recursos personalizado para controlar imagens, scripts e estilos durante a renderização.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

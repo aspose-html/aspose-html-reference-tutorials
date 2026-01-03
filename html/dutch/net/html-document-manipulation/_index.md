@@ -69,6 +69,8 @@ Leer dynamische en webinhoud te maken met Aspose.HTML voor .NET. Versterk uw onl
 Leer Aspose.HTML voor .NET gebruiken. Importeer namespace, voeg HTML samen met XML en verbeter uw webontwikkelingsvaardigheden met deze uitgebreide gids.
 ### [Genereer XPS-documenten door XpsDevice in .NET met Aspose.HTML](./generate-xps-documents-by-xpsdevice/)
 Ontgrendel het potentieel van webontwikkeling met Aspose.HTML voor .NET. Maak, converteer en manipuleer eenvoudig HTML-documenten.
+### [HTML-document maken met Aspose.HTML – Stapsgewijze gids](./create-html-document-with-aspose-html-step-by-step-guide/)
+Leer hoe u een HTML-document maakt met Aspose.HTML in .NET. Volg deze stapsgewijze gids met voorbeelden en tips.
 
 ## Conclusie
 

@@ -37,6 +37,7 @@ Készen állsz az indulásra? Az Aspose.HTML for .NET oktatóanyaga kezdőknek �
 Az Aspose.HTML for .NET nem csak egy könyvtár; ez egy változás a webfejlesztés világában. A funkciók és eszközök széles skáláját kínálja, amelyek leegyszerűsítik a HTML-lel kapcsolatos feladatokat. Ezeknek az oktatóanyagoknak a végére fel lesz szerelve azokkal a tudással és készségekkel, amelyekkel maximalizálhatja az Aspose.HTML .NET-hez való lehetőségét.
 
 ## HTML-kiterjesztések és -konverziók oktatóanyagok
+### [PDF létrehozása URL-ből – Teljes C# útmutató](./create-pdf-from-url-complete-c-guide/)
 ### [Konvertálja a HTML-t PDF-be .NET-ben az Aspose.HTML-lel](./convert-html-to-pdf/)
 A HTML-t könnyedén konvertálja PDF-be az Aspose.HTML for .NET segítségével. Kövesse lépésenkénti útmutatónkat, és engedje szabadjára a HTML-ből PDF-be konvertálás erejét.
 ### [Az Aspose.HTML segítségével EPUB-t konvertáljon képpé .NET-ben](./convert-epub-to-image/)

@@ -52,6 +52,11 @@ Dowiedz się, jak skutecznie kontrolować limity czasu renderowania w Aspose.HTM
 Naucz się renderować wiele dokumentów HTML za pomocą Aspose.HTML dla .NET. Zwiększ możliwości przetwarzania dokumentów dzięki tej potężnej bibliotece.
 ### [Renderuj SVG Doc jako PNG w .NET za pomocą Aspose.HTML](./render-svg-doc-as-png/)
 Odblokuj moc Aspose.HTML dla .NET! Dowiedz się, jak bez wysiłku renderować SVG Doc jako PNG. Zanurz się w przykładach krok po kroku i FAQ. Zacznij teraz!
+### [Jak renderować HTML – Kompletny przewodnik z własnym obsługiwaczem zasobów](./how-to-render-html-complete-guide-with-custom-resource-handl/)
+Poznaj pełny przewodnik renderowania HTML w .NET z własnym obsługiwaczem zasobów, aby kontrolować ładowanie plików i stylów.
+### [Jak renderować HTML do PNG – Kompletny przewodnik krok po kroku](./how-to-render-html-to-png-complete-step-by-step-guide/)
+Dowiedz się, jak w prosty sposób renderować HTML do formatu PNG, korzystając z Aspose.HTML dla .NET, krok po kroku.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
