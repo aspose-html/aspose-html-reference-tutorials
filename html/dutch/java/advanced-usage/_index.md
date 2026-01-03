@@ -126,6 +126,8 @@ Leer hoe je HTML‑formulieren automatisch kunt invullen en indienen met Aspose.
 Leer hoe je PDF‑paginagrootte kunt aanpassen met Aspose.HTML for Java. Maak moeiteloos hoogwaardige PDF‑bestanden vanuit HTML. Beheer paginagroottes effectief.
 ### [XPS‑paginagrootte aanpassen met Aspose.HTML for Java](./adjust-xps-page-size/)
 Leer hoe je XPS‑paginagrootte kunt aanpassen met Aspose.HTML for Java. Beheer eenvoudig de uitvoerafmetingen van je XPS‑documenten.
+### [HTML extraheren uit MHTML – Complete Java-gids](./extract-html-from-mhtml-complete-java-guide/)
+Leer hoe je met Aspose.HTML for Java HTML uit een MHTML‑bestand kunt extraheren en verwerken.
 
 ---
 

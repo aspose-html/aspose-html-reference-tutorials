@@ -93,8 +93,14 @@ weight: 24
 ### [將 HTML 轉換為 PNG](./convert-html-to-png/)
 學習如何在 Java 中使用 Aspose.HTML 將 HTML 轉換為 PNG 圖像。完整教學提供詳細步驟說明。
 
+### [將 HTML 轉換為 PNG 時設定 DPI – 完整指南](./how-to-set-dpi-when-converting-html-to-png-complete-guide/)
+說明如何在使用 Aspose.HTML for Java 轉換 HTML 為 PNG 時設定 DPI，以取得高解析度圖像。
+
 ### [將 HTML 轉換為 TIFF](./convert-html-to-tiff/)
 了解如何使用 Aspose.HTML for Java 輕鬆將 HTML 轉換為 TIFF。提供高效的文件處理步驟說明。
+
+### [高 DPI 渲染於 Java – 使用自訂使用者代理擷取網頁螢幕截圖](./high-dpi-rendering-in-java-capture-webpage-screenshots-with/)
+說明如何在 Java 中使用 Aspose.HTML 以高 DPI 渲染網頁，並透過自訂使用者代理擷取螢幕截圖。
 
 ## 常見問題集
 

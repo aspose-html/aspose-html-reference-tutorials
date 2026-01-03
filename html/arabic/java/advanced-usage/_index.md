@@ -133,6 +133,9 @@ weight: 20
 ### [ضبط حجم صفحة XPS باستخدام Aspose.HTML for Java](./adjust-xps-page-size/)
 تعلم كيفية ضبط حجم صفحة XPS باستخدام Aspose.HTML for Java. سيطر على أبعاد مخرجات مستندات XPS بسهولة.
 
+### [استخراج HTML من MHTML – دليل Java الكامل](./extract-html-from-mhtml-complete-java-guide/)
+تعلم كيفية استخراج محتوى HTML من ملفات MHTML باستخدام Aspose.HTML for Java خطوة بخطوة.
+
 ---
 
 **آخر تحديث:** 2025-11-29  

@@ -92,6 +92,9 @@ Konvertieren Sie HTML mühelos zu MHTML mit Aspose.HTML für Java. Folgen Sie un
 ### [Konvertierung von HTML zu XPS](./convert-html-to-xps/)
 Erfahren Sie, wie Sie HTML mühelos zu XPS mit Aspose.HTML für Java konvertieren. Erstellen Sie plattformübergreifende Dokumente mit Leichtigkeit.
 
+### [HTML zu Markdown konvertieren – Vollständiger C# Leitfaden](./convert-html-to-markdown-complete-c-guide/)
+Erfahren Sie, wie Sie HTML in C# mit Aspose.HTML in Markdown konvertieren – Schritt‑für‑Schritt‑Anleitung für hochwertige Ergebnisse.
+
 ### [Konvertierung von Markdown zu HTML](./convert-markdown-to-html/)
 Konvertieren Sie Markdown in Java nahtlos zu HTML mit Aspose.HTML für Java. Folgen Sie unserer Schritt‑für‑Schritt‑Anleitung, um Ihre Dokumentenkonvertierungs‑Bedürfnisse zu optimieren.
 
@@ -103,6 +106,9 @@ Konvertieren Sie SVG in Java mit Aspose.HTML zu PDF. Eine nahtlose Lösung für 
 
 ### [Konvertierung von SVG zu XPS](./convert-svg-to-xps/)
 Erfahren Sie, wie Sie SVG mit Aspose.HTML für Java zu XPS konvertieren. Einfache, Schritt‑für‑Schritt‑Anleitung für reibungslose Konvertierungen.
+
+### [Erstellen eines Fixed Thread Pools für parallele HTML‑zu‑PDF‑Konvertierung](./create-fixed-thread-pool-for-parallel-html-to-pdf-conversion/)
+Erfahren Sie, wie Sie mit einem Fixed Thread Pool mehrere HTML‑zu‑PDF‑Konvertierungen parallel ausführen.
 
 ## Häufig gestellte Fragen
 

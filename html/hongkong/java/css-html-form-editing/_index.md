@@ -30,6 +30,9 @@ url: /zh-hant/java/css-html-form-editing/
 了解如何使用 Aspose.HTML for Java 來應用進階 CSS 技術，包括自訂頁邊距和動態內容。為開發人員提供的詳細實務教學。
 ### [使用 Aspose.HTML for Java 編輯並提交 HTML 表單](./html-form-editing/)
 在此綜合逐步指南中，了解如何使用 Aspose.HTML for Java 以程式設計方式編輯和提交 HTML 表單。
+### [取得計算樣式（Java） – 從 HTML 提取背景顏色](./get-computed-style-java-extract-background-color-from-html/)
+了解如何使用 Aspose.HTML for Java 取得計算樣式，並從 HTML 中提取背景顏色。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
