@@ -77,3 +77,5 @@ Aspose.HTML for Java का उपयोग करके HTML को लोड, 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Java में JavaScript से HTML उत्पन्न करें – पूर्ण चरण‑दर‑चरण गाइड](./generate-html-from-javascript-in-java-complete-step-by-step/)
+Java में JavaScript को निष्पादित करके HTML उत्पन्न करने की पूरी चरण‑दर‑चरण गाइड। कोड उदाहरण और सर्वोत्तम प्रथाएँ शामिल हैं।

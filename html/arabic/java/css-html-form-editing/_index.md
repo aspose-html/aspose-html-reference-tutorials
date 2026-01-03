@@ -40,3 +40,12 @@ url: /ar/java/css-html-form-editing/
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [الحصول على النمط المحسوب في Java – استخراج لون الخلفية من HTML](./get-computed-style-java-extract-background-color-from-html/)
+تعلم كيفية استخراج لون الخلفية من عناصر HTML باستخدام أسلوب GetComputedStyle في Aspose.HTML for Java.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

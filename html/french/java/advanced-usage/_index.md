@@ -143,3 +143,18 @@ Apprenez à définir le ratio de pixels de l'appareil dans le bac à sable mobil
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Extraire le HTML à partir de MHTML – Guide complet Java](./extract-html-from-mhtml-complete-java-guide/)
+Apprenez à extraire le contenu HTML d’un fichier MHTML en Java avec Aspose.HTML, étape par étape.  
+
+---
+
+**Dernière mise à jour :** 2025-11-29  
+**Testé avec :** Aspose.HTML for Java 24.11  
+**Auteur :** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

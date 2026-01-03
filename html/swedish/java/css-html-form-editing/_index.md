@@ -41,3 +41,12 @@ Lär dig hur du läser och analyserar CSS i Java med Aspose.HTML i denna komplet
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Hämta beräknad stil Java – Extrahera bakgrundsfärg från HTML](./get-computed-style-java-extract-background-color-from-html/)
+Lär dig hur du använder Aspose.HTML för Java för att hämta beräknad stil och extrahera bakgrundsfärgen från ett HTML-dokument.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

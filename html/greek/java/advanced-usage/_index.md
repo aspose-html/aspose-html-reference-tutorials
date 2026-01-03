@@ -143,3 +143,18 @@ weight: 20
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Εξαγωγή HTML από MHTML – Πλήρης Οδηγός Java](./extract-html-from-mhtml-complete-java-guide/)
+Μάθετε πώς να εξάγετε HTML από αρχεία MHTML με το Aspose.HTML for Java σε πλήρη οδηγό.
+
+---
+
+**Τελευταία ενημέρωση:** 2025-11-29  
+**Δοκιμή με:** Aspose.HTML for Java 24.11  
+**Συγγραφέας:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

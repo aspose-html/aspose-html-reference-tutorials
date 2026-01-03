@@ -142,3 +142,17 @@ Java 환경에서 디바이스 픽셀 비율을 설정하고 모바일 샌드박
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [MHTML에서 HTML 추출 – 완전한 Java 가이드](./extract-html-from-mhtml-complete-java-guide/)
+
+---
+
+**마지막 업데이트:** 2025-11-29  
+**테스트 환경:** Aspose.HTML for Java 24.11  
+**작성자:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

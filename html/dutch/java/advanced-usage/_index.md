@@ -142,3 +142,18 @@ Leer hoe je JavaScript kunt embedden en uitvoeren binnen Java‑applicaties met 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [HTML extraheren uit MHTML – Complete Java-gids](./extract-html-from-mhtml-complete-java-guide/)
+Leer hoe je met Aspose.HTML for Java HTML uit een MHTML‑bestand kunt extraheren en verwerken.
+
+---
+
+**Laatst bijgewerkt:** 2025-11-29  
+**Getest met:** Aspose.HTML for Java 24.11  
+**Auteur:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

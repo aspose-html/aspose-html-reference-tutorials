@@ -143,3 +143,18 @@ Lär dig hur du ställer in enhetens pixelratio i Java‑sandboxen för mobila e
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Extrahera HTML från MHTML – Komplett Java‑guide](./extract-html-from-mhtml-complete-java-guide/)
+Lär dig hur du extraherar HTML‑innehåll från MHTML‑filer med Aspose.HTML för Java i en komplett steg‑för‑steg‑guide.
+
+---
+
+**Last Updated:** 2025-11-29  
+**Tested With:** Aspose.HTML for Java 24.11  
+**Author:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -77,3 +77,12 @@ url: /ar/java/creating-managing-html-documents/
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [إنشاء HTML من JavaScript في Java – دليل شامل خطوة بخطوة](./generate-html-from-javascript-in-java-complete-step-by-step/)
+تعلم كيفية توليد مستندات HTML من كود JavaScript داخل تطبيق Java باستخدام دليل خطوة بخطوة شامل.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

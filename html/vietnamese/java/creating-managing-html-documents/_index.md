@@ -77,3 +77,12 @@ Học cách thực thi JavaScript bất đồng bộ trong Java bằng Aspose.HT
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Tạo HTML từ JavaScript trong Java – Hướng dẫn chi tiết từng bước](./generate-html-from-javascript-in-java-complete-step-by-step/)
+Tìm hiểu cách tạo HTML từ JavaScript trong Java bằng Aspose.HTML với hướng dẫn chi tiết từng bước.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

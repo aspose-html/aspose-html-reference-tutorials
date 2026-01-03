@@ -142,3 +142,18 @@ Ismerje meg, hogyan integrálhatja és futtathatja a JavaScript kódot Java alka
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [HTML kinyerése MHTML‑ből – Teljes Java útmutató](./extract-html-from-mhtml-complete-java-guide/)
+Ismerje meg, hogyan nyerhet ki HTML‑t MHTML fájlokból Java‑val az Aspose.HTML segítségével.
+
+---
+
+**Legutóbb frissítve:** 2025-11-29  
+**Tesztelve a következővel:** Aspose.HTML for Java 24.11  
+**Szerző:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

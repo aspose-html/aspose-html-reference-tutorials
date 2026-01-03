@@ -41,3 +41,12 @@ Aspose.HTML का उपयोग करके Java में CSS फ़ाइ�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Java के लिए Aspose.HTML के साथ Computed Style प्राप्त करें – HTML से बैकग्राउंड रंग निकालें](./get-computed-style-java-extract-background-color-from-html/)
+Java में Aspose.HTML का उपयोग करके HTML तत्व की गणना की गई शैली से बैकग्राउंड रंग कैसे निकालें, सीखें।
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

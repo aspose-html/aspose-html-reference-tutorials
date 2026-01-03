@@ -143,3 +143,18 @@ Hướng dẫn cách thiết lập DevicePixelRatio trong môi trường Sandbox
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Trích xuất HTML từ MHTML – Hướng dẫn Java toàn diện](./extract-html-from-mhtml-complete-java-guide/)
+Học cách trích xuất nội dung HTML từ tệp MHTML bằng Aspose.HTML for Java trong hướng dẫn chi tiết này.
+
+---
+
+**Cập nhật lần cuối:** 2025-11-29  
+**Đã kiểm tra với:** Aspose.HTML for Java 24.11  
+**Tác giả:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

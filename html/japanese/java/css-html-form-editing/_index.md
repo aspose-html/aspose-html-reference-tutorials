@@ -41,3 +41,11 @@ Aspose.HTML for Java を活用し、Java で CSS をプログラム的に読み�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Java で計算済みスタイルを取得 – HTML から背景色を抽出](./get-computed-style-java-extract-background-color-from-html/)
+Java で Aspose.HTML を使用し、HTML 要素の計算済みスタイルから背景色を取得する方法を学びます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

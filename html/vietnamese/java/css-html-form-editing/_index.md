@@ -41,3 +41,12 @@ Hướng dẫn chi tiết cách đọc CSS trong Java bằng Aspose.HTML.
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Lấy Kiểu Tính Toán Java – Trích xuất màu nền từ HTML](./get-computed-style-java-extract-background-color-from-html/)
+Hướng dẫn cách sử dụng Aspose.HTML cho Java để lấy kiểu tính toán và trích xuất màu nền từ tài liệu HTML.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

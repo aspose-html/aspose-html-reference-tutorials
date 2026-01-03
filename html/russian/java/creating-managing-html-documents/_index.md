@@ -75,3 +75,12 @@ Aspose.HTML для Java предлагает мощный набор инстр�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Генерация HTML из JavaScript в Java — Полное пошаговое руководство](./generate-html-from-javascript-in-java-complete-step-by-step/)
+Узнайте, как генерировать HTML из JavaScript в Java с помощью Aspose.HTML, следуя полному пошаговому руководству.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

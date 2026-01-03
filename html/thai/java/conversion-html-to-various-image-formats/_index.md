@@ -100,7 +100,9 @@ weight: 24
 ### [แปลง HTML เป็น WebP – คู่มือ Java ฉบับสมบูรณ์ด้วย Aspose.HTML](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
 เรียนรู้วิธีการแปลง HTML เป็น WebP ใน Java ด้วย Aspose.HTML คู่มือทีละขั้นตอนสำหรับการแปลงที่มีประสิทธิภาพ
 ### [สร้าง PNG จาก SVG ใน Java – คู่มือขั้นตอนเต็ม](./create-png-from-svg-in-java-complete-step-by-step-guide/)
-
+### [การเรนเดอร์ DPI สูงใน Java – ถ่ายภาพหน้าจอเว็บด้วย User Agent ที่กำหนดเอง](./high-dpi-rendering-in-java-capture-webpage-screenshots-with/)
+เรียนรู้วิธีการเรนเดอร์หน้าเว็บด้วยความละเอียด DPI สูงใน Java พร้อมกำหนด User Agent เองเพื่อจับภาพหน้าจอเว็บ
+### [วิธีตั้งค่า DPI เมื่อแปลง HTML เป็น PNG – คู่มือฉบับสมบูรณ์](./how-to-set-dpi-when-converting-html-to-png-complete-guide/)
 ## คำถามที่พบบ่อย
 
 **Q: ฉันสามารถแปลง HTML เป็น PNG ด้วย Java โดยไม่ต้องใช้ไลบรารีภาพเพิ่มเติมได้หรือไม่?**  

@@ -79,6 +79,8 @@ Naučte se, jak převést SVG na PNG v Javě pomocí Aspose.HTML. Kompletní kro
 Naučte se snadno převést HTML do TIFF pomocí Aspose.HTML for Java. Krok‑za‑krokem průvodce pro efektivní zpracování dokumentů.
 ### [Převod HTML do WebP](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
 Naučte se převést HTML do formátu WebP v Javě pomocí Aspose.HTML. Kompletní krok‑za‑krokem průvodce.
+### [Vysoké DPI vykreslování v Javě – Zachycení snímků webových stránek s vlastním uživatelským agentem](./high-dpi-rendering-in-java-capture-webpage-screenshots-with/)
+### [Jak nastavit DPI při převodu HTML na PNG – Kompletní průvodce](./how-to-set-dpi-when-converting-html-to-png-complete-guide/)
 
 ## Často kladené otázky
 

@@ -41,3 +41,12 @@ Pelajari cara membaca file CSS di Java menggunakan Aspose.HTML dalam panduan len
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Dapatkan Gaya Terhitung Java – Ekstrak Warna Latar Belakang dari HTML](./get-computed-style-java-extract-background-color-from-html/)
+Pelajari cara menggunakan Aspose.HTML untuk Java guna mengambil gaya terhitung dan mengekstrak warna latar belakang dari elemen HTML.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

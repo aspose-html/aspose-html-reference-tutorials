@@ -143,3 +143,18 @@ Dowiedz się, jak ustawić współczynnik pikseli urządzenia w środowisku Mobi
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Wyodrębnij HTML z MHTML – Kompletny przewodnik Java](./extract-html-from-mhtml-complete-java-guide/)
+Dowiedz się, jak wyodrębnić kod HTML z plików MHTML przy użyciu Aspose.HTML dla Javy, krok po kroku.
+
+---
+
+**Ostatnia aktualizacja:** 2025-11-29  
+**Testowano z:** Aspose.HTML dla Javy 24.11  
+**Autor:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

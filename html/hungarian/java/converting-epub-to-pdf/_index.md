@@ -58,6 +58,9 @@ Tanuld meg, hogyan konvertálj EPUB‑t PDF‑be Java‑ban könnyedén az Aspos
 ### [PDF mentési beállítások megadása EPUB‑PDF konvertáláshoz](./convert-epub-to-pdf-specify-pdf-save-options/)
 Tanuld meg, hogyan konvertálj EPUB‑t PDF‑be Java‑ban az Aspose.HTML használatával, egy hatékony HTML manipulációs könyvtárat.
 
+### [Hogyan ágyazzunk be betűtípusokat az EPUB‑PDF konvertálásakor – Java útmutató](./how-to-embed-fonts-when-converting-epub-to-pdf-java-guide/)
+Ismerje meg, hogyan ágyazhat be egyedi betűtípusokat az EPUB‑PDF konvertálás során az Aspose.HTML for Java használatával.
+
 ### [EPUB konvertálása BMP‑be](./convert-epub-to-bmp/)
 Tanuld meg, hogyan konvertálj EPUB‑t BMP‑be az Aspose.HTML for Java használatával. Lépésről‑lépésre útmutató a hatékony tartalomátalakításhoz.
 

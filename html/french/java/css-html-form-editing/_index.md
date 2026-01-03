@@ -40,3 +40,12 @@ Apprenez à lire et analyser les fichiers CSS en Java à l'aide d'Aspose.HTML gr
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Obtenir le style calculé Java – Extraire la couleur d'arrière-plan du HTML](./get-computed-style-java-extract-background-color-from-html/)
+Apprenez à extraire la couleur d'arrière-plan d'un élément HTML en utilisant la méthode GetComputedStyle en Java avec Aspose.HTML.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

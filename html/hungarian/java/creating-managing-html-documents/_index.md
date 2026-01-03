@@ -77,3 +77,12 @@ Ismerje meg, hogyan hozhat létre biztonságos sandbox környezetet HTML feldolg
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [HTML generálása JavaScriptből Java-ban – Teljes lépésről‑lépésre útmutató](./generate-html-from-javascript-in-java-complete-step-by-step/)
+Ismerje meg, hogyan generálhat HTML-t JavaScript kódból Java alkalmazásban, részletes, lépésről‑lépésre útmutatóval.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

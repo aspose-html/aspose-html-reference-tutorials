@@ -41,3 +41,12 @@ url: /zh/java/css-html-form-editing/
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [获取计算样式 Java – 从 HTML 中提取背景颜色](./get-computed-style-java-extract-background-color-from-html/)
+学习如何使用 Aspose.HTML for Java 获取计算样式并提取 HTML 中的背景颜色。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

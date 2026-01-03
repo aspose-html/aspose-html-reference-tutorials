@@ -41,3 +41,12 @@ Dowiedz się, jak odczytywać i analizować pliki CSS w Javie przy użyciu Aspos
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Pobierz obliczony styl w Javie – wyodrębnij kolor tła z HTML](./get-computed-style-java-extract-background-color-from-html/)
+Dowiedz się, jak w Javie uzyskać obliczone style elementu i wyodrębnić kolor tła z kodu HTML przy użyciu Aspose.HTML.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
