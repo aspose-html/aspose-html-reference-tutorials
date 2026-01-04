@@ -39,6 +39,10 @@ Aspose.HTML for .NET không chỉ là một thư viện; mà còn là một côn
 ## Hướng dẫn về phần mở rộng và chuyển đổi HTML
 ### [Chuyển đổi HTML sang PDF trong .NET với Aspose.HTML](./convert-html-to-pdf/)
 Chuyển đổi HTML sang PDF dễ dàng với Aspose.HTML cho .NET. Làm theo hướng dẫn từng bước của chúng tôi và giải phóng sức mạnh của việc chuyển đổi HTML sang PDF.
+
+### [Chuyển đổi HTML sang PDF với Aspose.HTML – Hướng dẫn chi tiết từng bước](./convert-html-to-pdf-with-aspose-html-full-step-by-step-guide/)
+Chuyển đổi HTML sang PDF nhanh chóng với Aspose.HTML cho .NET. Hướng dẫn chi tiết từng bước giúp bạn thực hiện dễ dàng.
+
 ### [Chuyển đổi EPUB sang hình ảnh trong .NET với Aspose.HTML](./convert-epub-to-image/)
 Tìm hiểu cách chuyển đổi EPUB sang hình ảnh bằng Aspose.HTML cho .NET. Hướng dẫn từng bước với các ví dụ về mã và tùy chọn có thể tùy chỉnh.
 ### [Chuyển đổi EPUB sang PDF trong .NET với Aspose.HTML](./convert-epub-to-pdf/)
@@ -63,6 +67,8 @@ Khám phá cách sử dụng Aspose.HTML cho .NET để thao tác và chuyển �
 Tìm hiểu cách chuyển đổi HTML sang TIFF bằng Aspose.HTML cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để tối ưu hóa nội dung web hiệu quả.
 ### [Chuyển đổi HTML sang XPS trong .NET với Aspose.HTML](./convert-html-to-xps/)
 Khám phá sức mạnh của Aspose.HTML cho .NET: Chuyển đổi HTML sang XPS dễ dàng. Bao gồm các điều kiện tiên quyết, hướng dẫn từng bước và Câu hỏi thường gặp.
+### [Tạo tệp zip C# – Hướng dẫn từng bước để nén HTML trong bộ nhớ](./create-zip-file-c-step-by-step-guide-to-zip-html-in-memory/)
+Hướng dẫn chi tiết cách tạo file zip trong C# để nén HTML trực tiếp trong bộ nhớ.
 
 ## Phần kết luận
 
