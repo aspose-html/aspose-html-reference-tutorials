@@ -37,6 +37,7 @@ Sind Sie bereit, loszulegen? Die Tutorials von Aspose.HTML für .NET richten sic
 Aspose.HTML für .NET ist nicht nur eine Bibliothek; es verändert die Welt der Webentwicklung grundlegend. Es bietet eine umfassende Palette an Funktionen und Tools, die Ihre HTML-bezogenen Aufgaben rationalisieren. Am Ende dieser Tutorials verfügen Sie über das Wissen und die Fähigkeiten, um das Potenzial von Aspose.HTML für .NET optimal zu nutzen.
 
 ## Tutorials zu HTML-Erweiterungen und -Konvertierungen
+
 ### [Konvertieren Sie HTML in .NET in PDF mit Aspose.HTML](./convert-html-to-pdf/)
 Konvertieren Sie HTML mühelos in PDF mit Aspose.HTML für .NET. Folgen Sie unserer Schritt‑für‑Schritt‑Anleitung und entfesseln Sie die Leistungsfähigkeit der HTML‑zu‑PDF‑Konvertierung.
 ### [Konvertieren Sie EPUB in .NET mit Aspose.HTML in ein Bild](./convert-epub-to-image/)
@@ -78,7 +79,10 @@ Erfahren Sie, wie Sie HTML‑Inhalte mit Aspose.HTML für .NET in ein ZIP‑Arch
 Speichern Sie HTML‑Inhalte in ein ZIP‑Archiv komplett im Speicher mit Aspose.HTML für .NET. Schritt‑für‑Schritt‑Anleitung.
 ### [Benutzerdefinierter Ressourcen‑Handler in C# – HTML in ZIP konvertieren](./custom-resource-handler-in-c-convert-html-to-zip-tutorial/)
 Erfahren Sie, wie Sie mit einem benutzerdefinierten Ressourcen‑Handler HTML‑Inhalte in ein ZIP‑Archiv komprimieren und speichern.
-
+### [HTML in PDF konvertieren mit Aspose.HTML – Vollständige Schritt‑für‑Schritt‑Anleitung](./convert-html-to-pdf-with-aspose-html-full-step-by-step-guide/)
+Konvertieren Sie HTML mühelos in PDF mit Aspose.HTML. Folgen Sie unserer vollständigen Schritt‑für‑Schritt‑Anleitung.
+### [Erstellen Sie eine ZIP-Datei in C# – Schritt‑für‑Schritt‑Anleitung zum Zippen von HTML im Speicher](./create-zip-file-c-step-by-step-guide-to-zip-html-in-memory/)
+Erfahren Sie, wie Sie HTML-Inhalte im Speicher mit C# in eine ZIP-Datei komprimieren – komplette Schritt‑für‑Schritt‑Anleitung.
 ## Abschluss
 
 Zusammenfassend lässt sich sagen, dass HTML-Erweiterungen und -Konvertierungen wesentliche Elemente der modernen Webentwicklung sind. Aspose.HTML für .NET vereinfacht den Prozess und macht ihn für Entwickler aller Niveaus zugänglich. Wenn Sie unseren Tutorials folgen, sind Sie auf dem besten Weg, ein kompetenter Webentwickler mit breitem Kompetenzspektrum zu werden.

@@ -37,6 +37,7 @@ Siete pronti a iniziare? I tutorial di Aspose.HTML per .NET sono adatti sia ai p
 Aspose.HTML per .NET non è solo una libreria; è un punto di svolta nel mondo dello sviluppo web. Offre un'ampia gamma di funzionalità e strumenti che semplificano le attività correlate a HTML. Alla fine di questi tutorial, sarai dotato delle conoscenze e delle competenze per massimizzare il potenziale di Aspose.HTML per .NET.
 
 ## Tutorial sulle estensioni e conversioni HTML
+
 ### [Convertire HTML in PDF in .NET con Aspose.HTML](./convert-html-to-pdf/)
 Converti HTML in PDF senza sforzo con Aspose.HTML per .NET. Segui la nostra guida passo dopo passo e libera la potenza della conversione da HTML a PDF.
 ### [Crea PDF da URL – Guida completa C#](./create-pdf-from-url-complete-c-guide/)
@@ -77,7 +78,10 @@ Salva HTML come archivio ZIP con Aspose.HTML per .NET. Guida passo passo per cre
 Scopri come salvare un documento HTML in un archivio ZIP interamente in memoria usando Aspose.HTML per .NET.
 ### [Gestore di risorse personalizzato in C# – Tutorial per convertire HTML in ZIP](./custom-resource-handler-in-c-convert-html-to-zip-tutorial/)
 Impara a creare un gestore di risorse personalizzato in C# per convertire HTML in un file ZIP usando Aspose.HTML per .NET.
-
+### [Convertire HTML in PDF in .NET con Aspose.HTML – Guida completa passo‑passo](./convert-html-to-pdf-with-aspose-html-full-step-by-step-guide/)
+Scopri come convertire HTML in PDF con Aspose.HTML in .NET, seguendo una guida completa passo‑passo per risultati professionali.
+### [Creare file zip C# – Guida passo‑passo per comprimere HTML in memoria](./create-zip-file-c-step-by-step-guide-to-zip-html-in-memory/)
+Scopri come creare un file zip in C# per comprimere contenuti HTML direttamente in memoria con una guida dettagliata.
 ## Conclusione
 
 In conclusione, le estensioni e le conversioni HTML sono elementi essenziali dello sviluppo web moderno. Aspose.HTML per .NET semplifica il processo e lo rende accessibile a sviluppatori di tutti i livelli. Seguendo i nostri tutorial, sarai sulla buona strada per diventare un sviluppatore web competente con un ampio set di competenze.

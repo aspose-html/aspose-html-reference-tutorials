@@ -37,6 +37,7 @@ Bạn đã sẵn sàng để bắt đầu chưa? Hướng dẫn Aspose.HTML cho 
 Aspose.HTML for .NET không chỉ là một thư viện; mà còn là một công cụ thay đổi cuộc chơi trong thế giới phát triển web. Nó cung cấp một loạt các tính năng và công cụ giúp đơn giản hóa các tác vụ liên quan đến HTML của bạn. Đến cuối các hướng dẫn này, bạn sẽ được trang bị kiến thức và kỹ năng để tối đa hóa tiềm năng của Aspose.HTML for .NET.
 
 ## Hướng dẫn về phần mở rộng và chuyển đổi HTML
+
 ### [Chuyển đổi HTML sang PDF trong .NET với Aspose.HTML](./convert-html-to-pdf/)
 Chuyển đổi HTML sang PDF dễ dàng với Aspose.HTML cho .NET. Làm theo hướng dẫn từng bước của chúng tôi và giải phóng sức mạnh của việc chuyển đổi HTML sang PDF.
 ### [Tạo PDF từ URL – Hướng dẫn C# đầy đủ](./create-pdf-from-url-complete-c-guide/)
@@ -77,7 +78,10 @@ Hướng dẫn chi tiết cách lưu tài liệu HTML thành tệp ZIP bằng As
 Hướng dẫn lưu tài liệu HTML vào tệp ZIP trong C# bằng Aspose.HTML, sử dụng bộ nhớ tạm và không tạo file tạm trên đĩa.
 ### [Xử lý tài nguyên tùy chỉnh trong C# – Hướng dẫn chuyển đổi HTML sang ZIP](./custom-resource-handler-in-c-convert-html-to-zip-tutorial/)
 Hướng dẫn chi tiết cách sử dụng Custom Resource Handler trong C# để chuyển đổi HTML thành tệp ZIP bằng Aspose.HTML.
-
+### [Chuyển đổi HTML sang PDF với Aspose.HTML – Hướng dẫn chi tiết từng bước](./convert-html-to-pdf-with-aspose-html-full-step-by-step-guide/)
+Chuyển đổi HTML sang PDF nhanh chóng với Aspose.HTML cho .NET. Hướng dẫn chi tiết từng bước giúp bạn thực hiện dễ dàng.
+### [Tạo tệp zip C# – Hướng dẫn từng bước để nén HTML trong bộ nhớ](./create-zip-file-c-step-by-step-guide-to-zip-html-in-memory/)
+Hướng dẫn chi tiết cách tạo file zip trong C# để nén HTML trực tiếp trong bộ nhớ.
 ## Phần kết luận
 
 Tóm lại, phần mở rộng và chuyển đổi HTML là những yếu tố thiết yếu của phát triển web hiện đại. Aspose.HTML cho .NET đơn giản hóa quy trình và giúp các nhà phát triển ở mọi cấp độ có thể tiếp cận. Bằng cách làm theo hướng dẫn của chúng tôi, bạn sẽ tiến gần đến mục tiêu trở thành một nhà phát triển web thành thạo với bộ kỹ năng rộng.

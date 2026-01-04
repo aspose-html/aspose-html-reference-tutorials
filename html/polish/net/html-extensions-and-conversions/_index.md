@@ -37,6 +37,7 @@ Jesteś gotowy, aby zacząć? Samouczki Aspose.HTML dla .NET są przeznaczone za
 Aspose.HTML dla .NET to nie tylko biblioteka; to przełom w świecie tworzenia stron internetowych. Oferuje szeroki zakres funkcji i narzędzi, które usprawniają zadania związane z HTML. Pod koniec tych samouczków będziesz wyposażony w wiedzę i umiejętności, aby zmaksymalizować potencjał Aspose.HTML dla .NET.
 
 ## Samouczki dotyczące rozszerzeń i konwersji HTML
+
 ### [Konwertuj HTML do PDF w .NET za pomocą Aspose.HTML](./convert-html-to-pdf/)
 Konwertuj HTML do PDF bez wysiłku dzięki Aspose.HTML dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku i uwolnij moc konwersji HTML do PDF.
 ### [Utwórz PDF z URL – Kompletny przewodnik C#](./create-pdf-from-url-complete-c-guide/)
@@ -77,7 +78,10 @@ Zapisz dokument HTML jako archiwum ZIP w C# przy użyciu Aspose.HTML – komplet
 Zapisz dokument HTML do archiwum ZIP w pamięci przy użyciu Aspose.HTML w C#.
 ### [Niestandardowy obsługiwacz zasobów w C# – Samouczek konwersji HTML do ZIP](./custom-resource-handler-in-c-convert-html-to-zip-tutorial/)
 Poznaj, jak w C# stworzyć własny handler zasobów, aby konwertować pliki HTML do archiwum ZIP przy użyciu Aspose.HTML.
-
+### [Konwertuj HTML do PDF za pomocą Aspose.HTML – Pełny przewodnik krok po kroku](./convert-html-to-pdf-with-aspose-html-full-step-by-step-guide/)
+Kompletny przewodnik krok po kroku, jak konwertować HTML do PDF przy użyciu Aspose.HTML w .NET.
+### [Utwórz plik zip w C# – Przewodnik krok po kroku, jak spakować HTML w pamięci](./create-zip-file-c-step-by-step-guide-to-zip-html-in-memory/)
+Dowiedz się, jak w C# utworzyć plik zip w pamięci, pakując HTML przy użyciu Aspose.HTML.
 ## Wniosek
 
 Podsumowując, rozszerzenia i konwersje HTML są niezbędnymi elementami nowoczesnego rozwoju sieci. Aspose.HTML dla .NET upraszcza proces i czyni go dostępnym dla programistów na każdym poziomie. Postępując zgodnie z naszymi samouczkami, będziesz na dobrej drodze do stania się biegłym programistą sieciowym o szerokim zestawie umiejętności.

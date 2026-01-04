@@ -37,6 +37,7 @@ Jste připraveni začít? Výukové programy Aspose.HTML for .NET jsou určeny z
 Aspose.HTML for .NET není jen knihovna; je to změna hry ve světě vývoje webu. Nabízí širokou škálu funkcí a nástrojů, které zjednodušují vaše úkoly související s HTML. Na konci těchto výukových programů budete vybaveni znalostmi a dovednostmi, abyste maximalizovali potenciál Aspose.HTML pro .NET.
 
 ## Výukové programy pro rozšíření a konverze HTML
+
 ### [Převeďte HTML do PDF v .NET pomocí Aspose.HTML](./convert-html-to-pdf/)
 Převeďte HTML do PDF bez námahy pomocí Aspose.HTML pro .NET. Postupujte podle našeho podrobného průvodce a uvolněte sílu převodu HTML do PDF.
 ### [Vytvořte PDF z URL – Kompletní průvodce v C#](./create-pdf-from-url-complete-c-guide/)
@@ -75,7 +76,10 @@ Naučte se, jak uložit HTML soubor jako ZIP archiv pomocí Aspose.HTML pro .NET
 Naučte se, jak uložit HTML soubor do ZIP archivu v paměti pomocí Aspose.HTML pro .NET v C#.
 ### [Vlastní obslužná rutina zdrojů v C# – Převod HTML do ZIP tutoriál](./custom-resource-handler-in-c-convert-html-to-zip-tutorial/)
 Naučte se pomocí Aspose.HTML v C# vytvořit vlastní handler pro zdroje a převést HTML soubory do ZIP archivu.
-
+### [Převod HTML do PDF pomocí Aspose.HTML – Kompletní průvodce krok za krokem](./convert-html-to-pdf-with-aspose-html-full-step-by-step-guide/)
+Kompletní průvodce převodem HTML do PDF pomocí Aspose.HTML pro .NET, krok za krokem s ukázkami kódu.
+### [Vytvoření zip souboru v C# – krok za krokem průvodce zipováním HTML v paměti](./create-zip-file-c-step-by-step-guide-to-zip-html-in-memory/)
+Naučte se, jak v C# vytvořit zip archiv HTML přímo v paměti pomocí Aspose.HTML.
 ## Závěr
 
 Závěrem lze říci, že rozšíření a konverze HTML jsou základními prvky moderního vývoje webu. Aspose.HTML for .NET zjednodušuje proces a zpřístupňuje jej vývojářům všech úrovní. Budete-li se řídit našimi návody, budete na dobré cestě stát se zdatným webovým vývojářem se širokou sadou dovedností.

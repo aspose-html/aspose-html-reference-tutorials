@@ -37,6 +37,7 @@ Başlamaya hazır mısınız? Aspose.HTML for .NET eğitimleri hem yeni başlaya
 Aspose.HTML for .NET yalnızca bir kütüphane değil; web geliştirme dünyasında oyunun kurallarını değiştiren bir araçtır. HTML ile ilgili görevlerinizi kolaylaştıran kapsamlı bir özellik ve araç yelpazesi sunar. Bu eğitimlerin sonunda, Aspose.HTML for .NET'in potansiyelini en üst düzeye çıkarmak için gereken bilgi ve becerilerle donatılmış olacaksınız.
 
 ## HTML Uzantıları ve Dönüşümleri Eğitimleri
+
 ### [Aspose.HTML ile .NET'te HTML'yi PDF'ye dönüştürün](./convert-html-to-pdf/)
 ### [URL'den PDF Oluştur – Tam C# Kılavuzu](./create-pdf-from-url-complete-c-guide/)
 ### [Aspose.HTML ile .NET'te EPUB'ı Görüntüye Dönüştürme](./convert-epub-to-image/)
@@ -70,3 +71,7 @@ Aspose.HTML for .NET kullanarak C#'ta özel bir kaynak işleyicisi ile HTML dosy
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Aspose.HTML ile .NET'te HTML'yi PDF'ye Dönüştürün – Tam Adım‑Adım Kılavuz](./convert-html-to-pdf-with-aspose-html-full-step-by-step-guide/)
+Aspose.HTML for .NET ile HTML'yi PDF'ye tam adım‑adım dönüştürün. Ayrıntılı örnekler ve ipuçlarıyla süreci kolaylaştırın.
+### [C# ile Zip Dosyası Oluşturma – Bellekte HTML'yi Zip'lemek için Adım Adım Kılavuz](./create-zip-file-c-step-by-step-guide-to-zip-html-in-memory/)
+C# kullanarak bellek içindeki HTML içeriğini zip dosyasına dönüştürmeyi adım adım öğrenin.
