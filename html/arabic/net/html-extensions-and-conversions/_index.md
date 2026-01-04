@@ -39,6 +39,8 @@ url: /ar/net/html-extensions-and-conversions/
 ## دروس حول امتدادات HTML وتحويلاتها
 ### [تحويل HTML إلى PDF في .NET باستخدام Aspose.HTML](./convert-html-to-pdf/)
 قم بتحويل HTML إلى PDF بسهولة باستخدام Aspose.HTML for .NET. اتبع دليلنا خطوة بخطوة واكتشف قوة تحويل HTML إلى PDF.
+### [تحويل HTML إلى PDF باستخدام Aspose.HTML – دليل شامل خطوة بخطوة](./convert-html-to-pdf-with-aspose-html-full-step-by-step-guide/)
+دليل شامل خطوة بخطوة لتحويل HTML إلى PDF باستخدام Aspose.HTML، مع أمثلة عملية وإعدادات مخصصة.
 ### [تحويل EPUB إلى صورة في .NET باستخدام Aspose.HTML](./convert-epub-to-image/)
 تعرف على كيفية تحويل EPUB إلى صور باستخدام Aspose.HTML لـ .NET. برنامج تعليمي خطوة بخطوة مع أمثلة التعليمات البرمجية والخيارات القابلة للتخصيص.
 ### [تحويل EPUB إلى PDF في .NET باستخدام Aspose.HTML](./convert-epub-to-pdf/)
@@ -63,6 +65,8 @@ url: /ar/net/html-extensions-and-conversions/
 تعرف على كيفية تحويل HTML إلى TIFF باستخدام Aspose.HTML لـ .NET. اتبع دليلنا خطوة بخطوة لتحسين محتوى الويب بكفاءة.
 ### [تحويل HTML إلى XPS في .NET باستخدام Aspose.HTML](./convert-html-to-xps/)
 اكتشف قوة Aspose.HTML لـ .NET: تحويل HTML إلى XPS بسهولة. المتطلبات الأساسية، ودليل خطوة بخطوة، والأسئلة الشائعة متضمنة.
+### [إنشاء ملف zip باستخدام C# – دليل خطوة بخطوة لضغط HTML في الذاكرة](./create-zip-file-c-step-by-step-guide-to-zip-html-in-memory/)
+تعلم كيفية إنشاء ملف zip للـ HTML في الذاكرة باستخدام C# خطوة بخطوة مع Aspose.HTML.
 
 ## خاتمة
 

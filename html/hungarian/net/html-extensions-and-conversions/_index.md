@@ -39,6 +39,8 @@ Az Aspose.HTML for .NET nem csak egy könyvtár; ez egy változás a webfejleszt
 ## HTML-kiterjesztések és -konverziók oktatóanyagok
 ### [Konvertálja a HTML-t PDF-be .NET-ben az Aspose.HTML-lel](./convert-html-to-pdf/)
 A HTML-t könnyedén konvertálja PDF-be az Aspose.HTML for .NET segítségével. Kövesse lépésenkénti útmutatónkat, és engedje szabadjára a HTML-ből PDF-be konvertálás erejét.
+### [HTML konvertálása PDF-be az Aspose.HTML segítségével – Teljes lépésről‑lépésre útmutató](./convert-html-to-pdf-with-aspose-html-full-step-by-step-guide/)
+Részletes útmutató a HTML PDF-be konvertálásához az Aspose.HTML for .NET használatával, lépésről‑lépésre példákkal.
 ### [Az Aspose.HTML segítségével EPUB-t konvertáljon képpé .NET-ben](./convert-epub-to-image/)
 Ismerje meg, hogyan konvertálhat EPUB-fájlt képekké az Aspose.HTML for .NET használatával. Lépésről lépésre bemutató oktatóprogram kódpéldákkal és testreszabható lehetőségekkel.
 ### [Konvertálja az EPUB-t PDF-be .NET-ben az Aspose.HTML segítségével](./convert-epub-to-pdf/)
@@ -63,6 +65,7 @@ Fedezze fel, hogyan használhatja az Aspose.HTML for .NET fájlt HTML-dokumentum
 Ismerje meg, hogyan konvertálhat HTML-t TIFF-formátumba az Aspose.HTML for .NET segítségével. Kövesse lépésenkénti útmutatónkat a hatékony webtartalom-optimalizáláshoz.
 ### [Konvertálja a HTML-t XPS-re .NET-ben az Aspose.HTML-lel](./convert-html-to-xps/)
 Fedezze fel az Aspose.HTML erejét .NET-hez: A HTML-t könnyedén konvertálja XPS-re. Előfeltételek, lépésenkénti útmutató és GYIK mellékelve.
+### [Zip fájl létrehozása C# – Lépésről‑lépésre útmutató a HTML memóriában történő tömörítéséhez](./create-zip-file-c-step-by-step-guide-to-zip-html-in-memory/)
 
 ## Következtetés
 

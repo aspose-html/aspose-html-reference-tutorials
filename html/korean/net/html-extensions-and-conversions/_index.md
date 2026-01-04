@@ -39,6 +39,8 @@ Aspose.HTML for .NET은 단순한 라이브러리가 아니라 웹 개발의 세
 ## HTML 확장 및 변환 튜토리얼
 ### [Aspose.HTML을 사용하여 .NET에서 HTML을 PDF로 변환](./convert-html-to-pdf/)
 Aspose.HTML for .NET으로 HTML을 PDF로 손쉽게 변환하세요. 단계별 가이드를 따라 HTML-PDF 변환의 힘을 활용하세요.
+### [Aspose.HTML을 사용하여 .NET에서 HTML을 PDF로 변환 – 전체 단계별 가이드](./convert-html-to-pdf-with-aspose-html-full-step-by-step-guide/)
+Aspose.HTML for .NET을 활용해 HTML을 PDF로 변환하는 전체 단계별 가이드를 확인하세요.
 ### [Aspose.HTML을 사용하여 .NET에서 EPUB를 이미지로 변환](./convert-epub-to-image/)
 Aspose.HTML for .NET을 사용하여 EPUB를 이미지로 변환하는 방법을 알아보세요. 코드 예제와 사용자 정의 가능한 옵션이 있는 단계별 튜토리얼.
 ### [Aspose.HTML을 사용하여 .NET에서 EPUB를 PDF로 변환](./convert-epub-to-pdf/)
@@ -63,6 +65,8 @@ Aspose.HTML for .NET을 사용하여 HTML 문서를 조작하고 변환하는 �
 Aspose.HTML for .NET을 사용하여 HTML을 TIFF로 변환하는 방법을 알아보세요. 효율적인 웹 콘텐츠 최적화를 위한 단계별 가이드를 따르세요.
 ### [Aspose.HTML을 사용하여 .NET에서 HTML을 XPS로 변환](./convert-html-to-xps/)
 .NET용 Aspose.HTML의 힘을 알아보세요: HTML을 XPS로 손쉽게 변환하세요. 필수 조건, 단계별 가이드, FAQ가 포함되어 있습니다.
+### [C#으로 zip 파일 만들기 – 메모리에서 HTML을 압축하는 단계별 가이드](./create-zip-file-c-step-by-step-guide-to-zip-html-in-memory/)
+C#을 사용해 메모리 내 HTML을 zip 파일로 압축하는 방법을 단계별로 안내합니다.
 
 ## 결론
 

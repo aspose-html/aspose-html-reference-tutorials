@@ -39,6 +39,8 @@ Aspose.HTML voor .NET is niet zomaar een bibliotheek; het is een game-changer in
 ## HTML-extensies en conversiehandleidingen
 ### [Converteer HTML naar PDF in .NET met Aspose.HTML](./convert-html-to-pdf/)
 Converteer moeiteloos HTML naar PDF met Aspose.HTML voor .NET. Volg onze stapsgewijze handleiding en ontketen de kracht van HTML-naar-PDF-conversie.
+### [Converteer HTML naar PDF met Aspose.HTML – Volledige stapsgewijze handleiding](./convert-html-to-pdf-with-aspose-html-full-step-by-step-guide/)
+Converteer moeiteloos HTML naar PDF met Aspose.HTML voor .NET. Volg onze volledige stapsgewijze handleiding en ontketen de kracht van HTML‑naar‑PDF‑conversie.
 ### [Converteer EPUB naar afbeelding in .NET met Aspose.HTML](./convert-epub-to-image/)
 Leer hoe u EPUB naar afbeeldingen converteert met Aspose.HTML voor .NET. Stapsgewijze tutorial met codevoorbeelden en aanpasbare opties.
 ### [Converteer EPUB naar PDF in .NET met Aspose.HTML](./convert-epub-to-pdf/)
@@ -63,6 +65,8 @@ Ontdek hoe u Aspose.HTML voor .NET kunt gebruiken om HTML-documenten te manipule
 Leer hoe u HTML naar TIFF converteert met Aspose.HTML voor .NET. Volg onze stapsgewijze handleiding voor efficiënte optimalisatie van webinhoud.
 ### [Converteer HTML naar XPS in .NET met Aspose.HTML](./convert-html-to-xps/)
 Ontdek de kracht van Aspose.HTML voor .NET: Converteer HTML moeiteloos naar XPS. Vereisten, stapsgewijze handleiding en veelgestelde vragen inbegrepen.
+### [Maak zip‑bestand C# – Stapsgewijze handleiding om HTML in geheugen te zippen](./create-zip-file-c-step-by-step-guide-to-zip-html-in-memory/)
+Leer hoe u met C# een zip‑bestand maakt en HTML‑inhoud in het geheugen comprimeert met een stapsgewijze handleiding.
 
 ## Conclusie
 
