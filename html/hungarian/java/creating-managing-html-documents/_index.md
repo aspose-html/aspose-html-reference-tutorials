@@ -42,6 +42,7 @@ Ha új HTML-dokumentumokról van szó, az Aspose.HTML for Java robusztus megold�
  Végül pedig azok számára, akik még tovább szeretnék fejleszteni készségeiket, rengeteg haladó téma áll rendelkezésére. Tanulja meg, hogyan kezelheti az SVG-dokumentumokat vagy hogyan kezelheti a dokumentumbetöltési eseményeket az érzékeny és dinamikus webalkalmazások létrehozásához. Ezek az oktatóanyagok túlmutatnak a HTML-en, és belemerülhetnek a Scalable Vector Graphics (SVG) és az eseményvezérelt programozás bonyolultságába.[Olvass tovább](./create-manage-svg-documents/)
 
 ## HTML-dokumentumok létrehozása és kezelése az Aspose.HTML for Java oktatóanyagban
+
 ### [Hozzon létre HTML-dokumentumokat aszinkron módon az Aspose.HTML for Java-ban](./create-html-documents-async/)
 Elsz... (description)
 ### [Aszinkron JavaScript végrehajtása Java-ban – Teljes lépésről‑lépésre útmutató](./execute-async-javascript-in-java-complete-step-by-step-guide/)
@@ -86,3 +87,5 @@ Ismerje meg, hogyan generálhat HTML-t JavaScript kódból Java alkalmazásban, 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [NodeList bejárása Java – HTML olvasása és képek src lekérése](./iterate-nodelist-java-read-html-get-image-src/)
+Tanulja meg, hogyan járhatja be a NodeList-et Java-ban, olvashat HTML-t és szerezheti meg a képek src attribútumát lépésről lépésre.

@@ -112,6 +112,7 @@ A: `HtmlLoadOptions` को `PageSetup` मार्जिन के साथ �
 A: नहीं। एक ही Aspose.HTML for Java लाइसेंस सभी आउटपुट फ़ॉर्मैट्स को कवर करता है, जिसमें PDF और XPS शामिल हैं।
 
 ## Aspose.HTML Java ट्यूटोरियल्स का उन्नत उपयोग
+
 ### [Aspose.HTML के साथ HTML पेज मार्जिन को अनुकूलित करें](./css-extensions-adding-title-page-number/)
 HTML दस्तावेज़ों में पेज मार्जिन, पेज नंबर और शीर्षक को Aspose.HTML for Java का उपयोग करके कैसे अनुकूलित करें, जानें।  
 ### [Aspose.HTML for Java के साथ DOM म्यूटेशन ऑब्ज़र्वर](./dom-mutation-observer-observing-node-additions/)
@@ -145,6 +146,21 @@ Java में मोबाइल सैंडबॉक्स का उपय�
 {{< blocks/products/products-backtop-button >}}
 ### [MHTML से HTML निकालें – पूर्ण Java गाइड](./extract-html-from-mhtml-complete-java-guide/)
 MHTML फ़ाइल से HTML सामग्री निकालने और प्रोसेस करने के लिए Aspose.HTML for Java का उपयोग कैसे करें, सीखें।  
+
+---
+
+**Last Updated:** 2025-11-29  
+**Tested With:** Aspose.HTML for Java 24.11  
+**Author:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Java में JavaScript निष्पादित करें – Java से JS चलाने की पूर्ण गाइड](./execute-javascript-in-java-complete-guide-to-running-js-from/)
+Java से JavaScript को कैसे चलाएँ, Aspose.HTML for Java का उपयोग करके पूर्ण मार्गदर्शिका।  
 
 ---
 

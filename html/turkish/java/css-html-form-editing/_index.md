@@ -26,6 +26,7 @@ Web geliştirmeye daldığınızda, CSS ve HTML formlarında ustalaşmak bisikle
 Şimdi vites değiştirelim ve Aspose.HTML for Java kullanarak HTML formlarını etkili bir şekilde nasıl düzenleyeceğinizi ve göndereceğinizi inceleyelim. Formlar, web sitelerindeki kullanıcı etkileşiminin kalbidir, değil mi? Bu eğitimle, formların tasarımını ve işlevselliğini kolayca nasıl değiştireceğinizi öğreneceksiniz. Alanları önceden doldurmayı, girdileri özel mantıkla doğrulamayı ve arka ucunuza sorunsuz veri gönderimlerini nasıl kolaylaştıracağınızı keşfedeceksiniz. Şunu hayal edin: kullanıcılarınız sitenizde bir formu doldurabilir ve bilgilerinin güvende ve sağlam olduğunu bilebilir; çünkü yaratmak istediğiniz deneyim türü budur! Bu adım adım kılavuz, her kavramı yol boyunca kavramanızı sağlayan eyleme geçirilebilir içgörülerle doludur.[Devamını oku](./html-form-editing/). 
 
 ## Java için Aspose.HTML ile CSS ve HTML Form Düzenleme Eğitimleri
+
 ### [Java için Aspose.HTML ile Gelişmiş CSS Uzantı Teknikleri](./advanced-css-extension/)
 Özel sayfa kenar boşlukları ve dinamik içerik dahil olmak üzere gelişmiş CSS tekniklerini uygulamak için Aspose.HTML for Java'yı nasıl kullanacağınızı öğrenin. Geliştiriciler için ayrıntılı, uygulamalı bir eğitim.
 ### [Aspose.HTML for Java ile HTML Form Düzenleme ve Gönderimi](./html-form-editing/)
@@ -42,6 +43,14 @@ Aspose.HTML for Java kullanarak CSS dosyalarını nasıl okuyacağınızı ve an
 {{< blocks/products/products-backtop-button >}}
 ### [Get Computed Style Java – HTML'den Arka Plan Rengini Çıkar](./get-computed-style-java-extract-background-color-from-html/)
 Aspose.HTML for Java kullanarak bir HTML öğesinin hesaplanmış stilinden arka plan rengini nasıl alacağınızı öğrenin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Java'da Elementin Hesaplanmış Stilini Al – Tam Adım‑Adım Kılavuz](./get-element-computed-style-in-java-full-step-by-step-guide/)
+Aspose.HTML for Java kullanarak bir elementin hesaplanmış stilini nasıl alacağınızı adım adım öğrenin.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

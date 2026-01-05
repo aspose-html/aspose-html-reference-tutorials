@@ -111,10 +111,12 @@ Naučte se, jak používat message handlery v Aspose.HTML pro Java k efektivním
 Naučte se, jak nastavit síťovou službu v Aspose.HTML pro Java, spravovat síťové zdroje a převést HTML do PNG s vlastním zpracováním chyb.
 
 ### [Konfigurujte Runtime Service v Aspose.HTML pro Java](./configure-runtime-service/)
-Naučte se, jak konfigurovat Runtime Service v Aspose.HTML pro Java pro optimalizaci vykonávání skriptů, prevencičných smyček a zlepšení výkonu aplikace.
+Naučte se, jak konfigurovat Runtime Service v Aspose.HTML pro Java pro optimalizaci vykonávání skriptů, prevencičních smyček a zlepšení výkonu aplikace.
 
 ### [Implementujte sandboxing v Aspose.HTML pro Java](./implement-sandboxing/)
 Naučte se, jak implementovat sandboxing v Aspose.HTML pro Java pro bezpečné řízení vykonávání skriptů ve vašich HTML dokumentech a jejich konverzi do PDF.
+
+### [Vytvořte Aspose HTML Sandbox – Kompletní průvodce pro Javu](./create-aspose-html-sandbox-complete-java-guide/)
 
 ### [Nastavte uživatelský stylový list v Aspose.HTML pro Java](./set-user-style-sheet/)
 Naučte se, jak nastavit vlastní uživatelský stylový list v Aspose.HTML pro Java, vylepšit stylování dokumentu a snadno převést HTML do PDF.

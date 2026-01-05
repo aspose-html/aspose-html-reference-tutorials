@@ -112,6 +112,7 @@ C: `HtmlLoadOptions` ile `PageSetup` kenar boşluklarını ayarlayın ve CSS‑t
 C: Hayır. Tek bir Aspose.HTML for Java lisansı, PDF ve XPS dahil tüm çıktı formatlarını kapsar.
 
 ## Aspose.HTML Java Eğitimlerinin İleri Düzey Kullanımı
+
 ### [Aspose.HTML ile HTML Sayfa Kenar Boşluklarını Özelleştirme](./css-extensions-adding-title-page-number/)
 Aspose.HTML for Java kullanarak HTML belgelerine sayfa kenar boşlukları, sayfa numaraları ve başlıklar eklemeyi öğrenin.
 ### [Aspose.HTML for Java ile DOM Mutation Observer](./dom-mutation-observer-observing-node-additions/)
@@ -145,6 +146,21 @@ Java’da Mobil Sandbox ortamında cihaz piksel oranını nasıl ayarlayacağın
 {{< blocks/products/products-backtop-button >}}
 ### [MHTML'den HTML Çıkarma – Tam Java Kılavuzu](./extract-html-from-mhtml-complete-java-guide/)
 Aspose.HTML for Java kullanarak MHTML dosyalarından HTML içeriğini nasıl çıkaracağınızı öğrenin.
+
+---
+
+**Son Güncelleme:** 2025-11-29  
+**Test Edilen Versiyon:** Aspose.HTML for Java 24.11  
+**Yazar:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Java'da JavaScript Çalıştırma – Java'dan JS Çalıştırma Tam Rehberi](./execute-javascript-in-java-complete-guide-to-running-js-from/)
+Aspose.HTML for Java ile Java uygulamalarında JavaScript çalıştırmayı ve entegrasyonu adım adım öğrenin.
 
 ---
 

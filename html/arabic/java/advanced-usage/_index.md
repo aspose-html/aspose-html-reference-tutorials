@@ -130,6 +130,8 @@ weight: 20
 ### [ضبط نسبة بكسل الجهاز في Java – دليل صندوق الرمل للهواتف المحمولة](./set-device-pixel-ratio-in-java-mobile-sandbox-tutorial/)
 تعلم كيفية ضبط نسبة بكسل الجهاز في بيئة Java باستخدام صندوق الرمل للهواتف المحمولة للحصول على رسومات دقيقة.
 
+### [تنفيذ JavaScript في Java – دليل كامل لتشغيل JS من Java](./execute-javascript-in-java-complete-guide-to-running-js-from/)
+
 ---
 
 **آخر تحديث:** 2025-11-29  

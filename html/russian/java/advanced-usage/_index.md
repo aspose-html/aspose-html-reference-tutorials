@@ -112,6 +112,7 @@ Aspose.HTML позволяет прикрепить `DomMutationObserver` к л�
 О: Нет. Одна лицензия Aspose.HTML for Java покрывает все форматы вывода, включая PDF и XPS.
 
 ## Расширенные руководства по Aspose.HTML Java
+
 ### [Настройка полей HTML‑страницы с Aspose.HTML](./css-extensions-adding-title-page-number/)
 Узнайте, как настраивать поля страницы, добавлять номера страниц и заголовки в HTML‑документы с помощью Aspose.HTML for Java.
 ### [Наблюдатель изменений DOM с Aspose.HTML for Java](./dom-mutation-observer-observing-node-additions/)
@@ -145,6 +146,21 @@ Aspose.HTML позволяет прикрепить `DomMutationObserver` к л�
 {{< blocks/products/products-backtop-button >}}
 ### [Извлечение HTML из MHTML – Полное руководство по Java](./extract-html-from-mhtml-complete-java-guide/)
 Узнайте, как извлечь HTML‑контент из MHTML‑файлов с помощью Aspose.HTML for Java.
+
+---
+
+**Последнее обновление:** 2025-11-29  
+**Тестировано с:** Aspose.HTML for Java 24.11  
+**Автор:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Выполнение JavaScript в Java – Полное руководство по запуску JS из Java](./execute-javascript-in-java-complete-guide-to-running-js-from/)
+Узнайте, как выполнять JavaScript из Java с помощью Aspose.HTML for Java, включая настройку среды и примеры кода.
 
 ---
 

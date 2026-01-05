@@ -26,6 +26,7 @@ Nejprve si promluvme o pokročilých technikách rozšíření CSS s Aspose.HTML
 Nyní pojďme zařadit rychlost a prozkoumat, jak efektivně upravovat a odesílat formuláře HTML pomocí Aspose.HTML pro Java. Formuláře jsou srdcem uživatelské interakce na webových stránkách, že? V tomto tutoriálu se naučíte, jak snadno změnit design a funkčnost formulářů. Zjistíte, jak předvyplňovat pole, ověřovat vstupy pomocí vlastní logiky a usnadňovat bezproblémové odesílání dat do vašeho backendu. Představte si toto: vaši uživatelé mohou na vašem webu vyplnit formulář a vědět, že jejich informace jsou bezpečné a spolehlivé – protože právě takový zážitek chcete vytvořit! Tento podrobný průvodce je nabitý užitečnými informacemi, které vám zajistí, že během cesty pochopíte každý koncept.[Přečtěte si více](./html-form-editing/). 
 
 ## CSS a HTML úpravy formulářů s Aspose.HTML pro Java tutoriály
+
 ### [Pokročilé techniky rozšíření CSS s Aspose.HTML pro Javu](./advanced-css-extension/)
 Naučte se používat Aspose.HTML pro Java k aplikaci pokročilých technik CSS, včetně vlastních okrajů stránek a dynamického obsahu. Podrobný praktický návod pro vývojáře.
 ### [Editace a odeslání formuláře HTML pomocí Aspose.HTML pro Javu](./html-form-editing/)
@@ -43,6 +44,15 @@ Naučte se, jak pomocí Aspose.HTML v Javě načíst a analyzovat CSS soubory.
 {{< blocks/products/products-backtop-button >}}
 ### [Získání vypočítaného stylu Java – Extrakce barvy pozadí z HTML](./get-computed-style-java-extract-background-color-from-html/)
 Naučte se pomocí Aspose.HTML pro Java získat vypočítané styly a extrahovat barvu pozadí z HTML dokumentu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Získání vypočteného stylu prvku v Javě – Kompletní krok‑za‑krokem průvodce](./get-element-computed-style-in-java-full-step-by-step-guide/)
+Naučte se, jak pomocí Aspose.HTML pro Javu získat vypočtené CSS styly konkrétního HTML elementu krok po kroku.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

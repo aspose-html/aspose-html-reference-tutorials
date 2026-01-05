@@ -26,6 +26,7 @@ Per prima cosa, parliamo delle tecniche avanzate di estensione CSS con Aspose.HT
 Ora, cambiamo marcia ed esploriamo come modificare e inviare in modo efficace i moduli HTML utilizzando Aspose.HTML per Java. I moduli sono il cuore dell'interazione dell'utente sui siti Web, giusto? Con questo tutorial, imparerai come modificare il design e la funzionalità dei moduli con facilità. Scoprirai come precompilare i campi, convalidare gli input con logica personalizzata e facilitare l'invio di dati senza interruzioni al tuo backend. Immagina questo: i tuoi utenti possono compilare un modulo sul tuo sito e sapere che le loro informazioni sono al sicuro e protette, perché questo è il tipo di esperienza che vuoi creare! Questa guida passo passo è ricca di spunti pratici, assicurandoti di comprendere ogni concetto lungo il percorso.[Per saperne di più](./html-form-editing/). 
 
 ## Modifica di moduli CSS e HTML con Aspose.HTML per tutorial Java
+
 ### [Tecniche avanzate di estensione CSS con Aspose.HTML per Java](./advanced-css-extension/)
 Scopri come usare Aspose.HTML per Java per applicare tecniche CSS avanzate, tra cui margini di pagina personalizzati e contenuto dinamico. Un tutorial pratico e dettagliato per sviluppatori.
 ### [Modifica e invio di moduli HTML con Aspose.HTML per Java](./html-form-editing/)
@@ -44,6 +45,14 @@ Scopri come leggere i file CSS in Java utilizzando Aspose.HTML in questa guida c
 ### [Recupera lo stile calcolato Java – Estrai il colore di sfondo da HTML](./get-computed-style-java-extract-background-color-from-html/)
 Scopri come ottenere lo stile calcolato di un elemento e estrarre il colore di sfondo da un documento HTML usando Aspose.HTML per Java.
 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Recupera lo stile calcolato dell'elemento in Java – Guida completa passo‑passo](./get-element-computed-style-in-java-full-step-by-step-guide/)
+Scopri come ottenere lo stile computato di un elemento HTML usando Aspose.HTML per Java, con esempi pratici e istruzioni dettagliate.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

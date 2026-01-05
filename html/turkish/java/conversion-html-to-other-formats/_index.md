@@ -83,6 +83,7 @@ SVG grafiklerini cihazlar arasında tutarlı baskı için XPS formatına dönü�
 Sonuç olarak, **html to pdf java** ve daha geniş dönüşüm setine hâkim olmak, herhangi bir Java geliştiricisi için güçlü belge iş akışlarını açar. Aspose.HTML for Java, ihtiyacınız olan formatlara HTML, Markdown ve SVG'yi yüksek kalite ve tam kontrolle dönüştürmenizi sağlayan kapsamlı, kolay takip edilebilir öğreticiler sunar.
 
 ## Dönüştürme - HTML'den Diğer Formatlara Eğitimleri
+
 ### [HTML'yi PDF'ye Dönüştürme](./convert-html-to-pdf/)
 HTML içeriğinizden sorunsuz bir şekilde yüksek kaliteli PDF'ler oluşturun.
 ### [HTML'yi PDF'ye Dönüştürme Java’da – Sayfa Boyutu Ayarlarıyla Adım‑Adım Kılavuz](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
@@ -109,6 +110,10 @@ Java uygulamanızda HTML'den yüksek kaliteli PDF oluşturmak için eksiksiz ad�
 Java'da çoklu HTML dosyasını aynı anda PDF'ye dönüştürmek için sabit iş parçacığı havuzu oluşturmayı öğrenin.
 ### [HTML'yi Markdown'a Dönüştürme – Tam C# Kılavuzu](./convert-html-to-markdown-complete-c-guide/)
 Aspose.HTML ile C# kullanarak HTML'yi Markdown'a dönüştürmenin tam adım adım rehberi.
+### [HTML'yi PDF'ye Tek Satırda Dönüştürme Öğreticisi](./html-to-pdf-tutorial-convert-html-to-pdf-in-java-in-one-line/)
+Java'da tek bir kod satırıyla HTML dosyasını hızlıca PDF'ye dönüştürün.
+### [Java'da HTML'den Özel Boyutlu PDF Oluşturma – Tam Kılavuz](./create-pdf-custom-size-from-html-in-java-full-guide/)
+HTML'den istediğiniz sayfa boyutlarıyla PDF oluşturmayı adım adım öğrenin.
 ## Sıkça Sorulan Sorular
 
 **S: Aspose.HTML for Java'ı ticari bir uygulamada kullanabilir miyim?**  

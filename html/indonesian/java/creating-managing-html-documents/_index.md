@@ -42,6 +42,7 @@ Jika berbicara tentang pembuatan dokumen HTML baru, Aspose.HTML untuk Java menaw
  Terakhir, bagi mereka yang ingin mengasah keterampilan mereka lebih jauh, ada banyak topik lanjutan untuk dijelajahi. Pelajari cara mengelola dokumen SVG atau menangani peristiwa pemuatan dokumen untuk membuat aplikasi web yang responsif dan dinamis. Tutorial ini akan membawa Anda melampaui HTML, menyelami seluk-beluk Scalable Vector Graphics (SVG) dan pemrograman berbasis peristiwa.[Baca selengkapnya](./create-manage-svg-documents/)
 
 ## Membuat dan Mengelola Dokumen HTML di Aspose.HTML untuk Tutorial Java
+
 ### [Membuat Dokumen HTML Secara Asinkron di Aspose.HTML untuk Java](./create-html-documents-async/)
 Kuasai pembuatan dokumen HTML secara asinkron dengan Aspose.HTML untuk Java. Panduan langkah demi langkah, kiat, dan Tanya Jawab disertakan untuk pembelajaran cepat.
 ### [Buat Dokumen HTML Kosong di Aspose.HTML untuk Java](./create-empty-html-documents/)
@@ -76,6 +77,14 @@ Pelajari cara membuat sandbox HTML di Java dengan panduan langkah demi langkah u
 {{< blocks/products/products-backtop-button >}}
 ### [Hasilkan HTML dari JavaScript di Java – Panduan Lengkap Langkah demi Langkah](./generate-html-from-javascript-in-java-complete-step-by-step/)
 Pelajari cara menghasilkan HTML dari JavaScript dalam aplikasi Java menggunakan Aspose.HTML dengan panduan langkah demi langkah lengkap.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Iterasi NodeList Java – Baca HTML & Dapatkan src Gambar](./iterate-nodelist-java-read-html-get-image-src/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

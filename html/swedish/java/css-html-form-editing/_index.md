@@ -26,6 +26,7 @@ Först och främst, låt oss prata om avancerade CSS-förlängningstekniker med 
 Låt oss nu växla och utforska hur man effektivt redigerar och skickar HTML-formulär med Aspose.HTML för Java. Formulär är hjärtat i användarinteraktion på webbplatser, eller hur? Med den här handledningen lär du dig hur du enkelt ändrar designen och funktionaliteten hos formulär. Du kommer att upptäcka hur du förfyller fält, validerar indata med anpassad logik och underlättar sömlösa datainlämningar till din backend. Tänk dig det här: dina användare kan fylla i ett formulär på din webbplats och veta att deras information är säker och sund – för det är den typen av upplevelse du vill skapa! Den här steg-för-steg-guiden är fullspäckad med praktiska insikter, vilket säkerställer att du förstår varje koncept på vägen.[Läs mer](./html-form-editing/). 
 
 ## CSS- och HTML-formulärredigering med Aspose.HTML för Java Tutorials
+
 ### [Avancerade CSS-förlängningstekniker med Aspose.HTML för Java](./advanced-css-extension/)
 Lär dig hur du använder Aspose.HTML för Java för att tillämpa avancerade CSS-tekniker, inklusive anpassade sidmarginaler och dynamiskt innehåll. En detaljerad, praktisk handledning för utvecklare.
 ### [HTML-formulärredigering och inlämning med Aspose.HTML för Java](./html-form-editing/)
@@ -43,6 +44,15 @@ Lär dig hur du läser och analyserar CSS i Java med Aspose.HTML i denna komplet
 {{< blocks/products/products-backtop-button >}}
 ### [Hämta beräknad stil Java – Extrahera bakgrundsfärg från HTML](./get-computed-style-java-extract-background-color-from-html/)
 Lär dig hur du använder Aspose.HTML för Java för att hämta beräknad stil och extrahera bakgrundsfärgen från ett HTML-dokument.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Hämta elementets beräknade stil i Java – Fullständig steg‑för‑steg‑guide](./get-element-computed-style-in-java-full-step-by-step-guide/)
+Lär dig hur du programatiskt får tag på ett elements beräknade CSS‑stil med Aspose.HTML för Java i en detaljerad guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -112,6 +112,7 @@ A: Nutzen Sie `HtmlLoadOptions` zusammen mit `PageSetup`‑Rändern und aktivier
 A: Nein. Eine einzige Aspose.HTML‑Java‑Lizenz deckt alle Ausgabeformate ab, einschließlich PDF und XPS.
 
 ## Erweiterte Nutzung von Aspose.HTML Java‑Tutorials
+
 ### [HTML‑Seitenränder mit Aspose.HTML anpassen](./css-extensions-adding-title-page-number/)
 Erfahren Sie, wie Sie Seitenränder, Seitenzahlen und Titel in HTML‑Dokumenten mit Aspose.HTML für Java anpassen können.
 ### [DOM‑Mutation‑Observer mit Aspose.HTML für Java](./dom-mutation-observer-observing-node-additions/)
@@ -145,6 +146,21 @@ Erfahren Sie, wie Sie JavaScript-Code innerhalb von Java-Anwendungen ausführen 
 {{< blocks/products/products-backtop-button >}}
 ### [HTML aus MHTML extrahieren – Vollständiger Java-Leitfaden](./extract-html-from-mhtml-complete-java-guide/)
 Erfahren Sie, wie Sie HTML‑Inhalte aus MHTML‑Dateien extrahieren und weiterverarbeiten mit Aspose.HTML für Java.
+
+---
+
+**Zuletzt aktualisiert:** 2025-11-29  
+**Getestet mit:** Aspose.HTML für Java 24.11  
+**Autor:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [JavaScript in Java ausführen – Komplett‑Guide zum Ausführen von JS aus Java](./execute-javascript-in-java-complete-guide-to-running-js-from/)
+Erfahren Sie, wie Sie JavaScript‑Code aus Java heraus ausführen, Skripte einbinden und Ergebnisse verarbeiten – Schritt für Schritt.
 
 ---
 

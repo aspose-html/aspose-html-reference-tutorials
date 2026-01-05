@@ -26,6 +26,7 @@ Először is beszéljünk a fejlett CSS-kiterjesztési technikákról az Aspose.
 Most váltsunk sebességet, és fedezzük fel, hogyan lehet hatékonyan szerkeszteni és beküldeni HTML-űrlapokat az Aspose.HTML for Java használatával. Az űrlapok jelentik a felhasználói interakció szívét a webhelyeken, igaz? Ezzel az oktatóanyaggal megtudhatja, hogyan módosíthatja könnyedén az űrlapok kialakítását és funkcionalitását. Megtudhatja, hogyan lehet előre kitölteni a mezőket, ellenőrizni a bemeneteket egyéni logikával, és megkönnyíteni a zökkenőmentes adatküldést a háttérrendszerbe. Képzelje el ezt: a felhasználók kitölthetnek egy űrlapot az Ön webhelyén, és tudniuk kell, hogy adataik biztonságban vannak – mert Ön ezt a fajta élményt szeretné megteremteni! Ez a lépésről lépésre bemutatott útmutató tele van gyakorlati betekintésekkel, biztosítva, hogy minden koncepciót megértsen az út során.[Olvass tovább](./html-form-editing/). 
 
 ## CSS és HTML űrlapszerkesztés az Aspose.HTML for Java Tutorials segítségével
+
 ### [Speciális CSS-kiterjesztési technikák az Aspose.HTML for Java segítségével](./advanced-css-extension/)
 Tanulja meg, hogyan használhatja az Aspose.HTML for Java-t fejlett CSS-technikák alkalmazására, beleértve az egyéni oldalmargókat és a dinamikus tartalmat. Részletes, gyakorlati útmutató fejlesztőknek.
 ### [HTML űrlap szerkesztése és benyújtása Aspose.HTML for Java segítségével](./html-form-editing/)
@@ -43,6 +44,15 @@ Ismerje meg, hogyan olvashat és elemezhet CSS-fájlokat Java-ban az Aspose.HTML
 {{< blocks/products/products-backtop-button >}}
 ### [Számított stílus Java – Háttérszín kinyerése HTML-ből](./get-computed-style-java-extract-background-color-from-html/)
 Ismerje meg, hogyan nyerheti ki a háttérszínt egy HTML-elemből a Java GetComputedStyle metódusával.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Elem számított stílusának lekérése Java‑ban – Teljes lépésről‑lépésre útmutató](./get-element-computed-style-in-java-full-step-by-step-guide/)
+Ismerje meg, hogyan kérheti le egy HTML elem számított CSS‑stílusát Java‑ban az Aspose.HTML segítségével, részletes példákkal.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

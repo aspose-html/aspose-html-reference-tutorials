@@ -57,7 +57,9 @@ Scopri come creare documenti HTML da stringhe in Aspose.HTML per Java con questa
 ### [Crea sandbox per HTML in Java – Guida passo‑a‑passo](./create-sandbox-for-html-in-java-step-by-step-guide/)
 Impara a creare un ambiente sandbox per HTML in Java, garantendo sicurezza e isolamento durante lo sviluppo.
 ### [Carica documenti HTML dall'URL in Aspose.HTML per Java](./load-html-documents-from-url/)
-Scopri come caricare facilmente documenti HTML da un URL in Java con Aspose.HTML. Tutorial passo dopo passo incluso.
+Scopri come caricare facilmente documenti HTML da un URL in Java con Aspose.HTML. Tutorial passo passo incluso.
+### [Iterare NodeList in Java – Leggi HTML e ottieni src immagine](./iterate-nodelist-java-read-html-get-image-src/)
+Scopri come iterare un NodeList in Java per leggere un documento HTML e estrarre gli attributi src delle immagini.
 ### [Generare nuovi documenti HTML utilizzando Aspose.HTML per Java](./generate-new-html-documents/)
 Scopri come creare nuovi documenti HTML usando Aspose.HTML per Java con questa semplice guida passo-passo. Inizia a generare contenuti HTML dinamici.
 ### [Gestire gli eventi di caricamento dei documenti in Aspose.HTML per Java](./handle-document-load-events/)

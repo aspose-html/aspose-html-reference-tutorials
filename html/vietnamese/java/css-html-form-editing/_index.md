@@ -26,6 +26,7 @@ Trước tiên, chúng ta hãy nói về các kỹ thuật mở rộng CSS nâng
 Bây giờ, hãy chuyển hướng và khám phá cách chỉnh sửa và gửi biểu mẫu HTML hiệu quả bằng Aspose.HTML cho Java. Biểu mẫu là cốt lõi của tương tác người dùng trên các trang web, đúng không? Với hướng dẫn này, bạn sẽ học cách thay đổi thiết kế và chức năng của biểu mẫu một cách dễ dàng. Bạn sẽ khám phá cách điền trước các trường, xác thực đầu vào bằng logic tùy chỉnh và tạo điều kiện gửi dữ liệu liền mạch đến phần phụ trợ của bạn. Hãy hình dung thế này: người dùng của bạn có thể điền vào biểu mẫu trên trang web của bạn và biết thông tin của họ an toàn và lành mạnh—vì đó là loại trải nghiệm mà bạn muốn tạo ra! Hướng dẫn từng bước này chứa đầy những hiểu biết có thể thực hiện được, đảm bảo bạn nắm bắt mọi khái niệm trong suốt quá trình.[Đọc thêm](./html-form-editing/). 
 
 ## Chỉnh sửa biểu mẫu CSS và HTML bằng Aspose.HTML cho Java
+
 ### [Kỹ thuật mở rộng CSS nâng cao với Aspose.HTML cho Java](./advanced-css-extension/)
 Tìm hiểu cách sử dụng Aspose.HTML cho Java để áp dụng các kỹ thuật CSS nâng cao, bao gồm lề trang tùy chỉnh và nội dung động. Hướng dẫn thực hành chi tiết dành cho nhà phát triển.
 ### [Chỉnh sửa và gửi biểu mẫu HTML bằng Aspose.HTML cho Java](./html-form-editing/)
@@ -43,6 +44,15 @@ Hướng dẫn chi tiết cách đọc CSS trong Java bằng Aspose.HTML.
 {{< blocks/products/products-backtop-button >}}
 ### [Lấy Kiểu Tính Toán Java – Trích xuất màu nền từ HTML](./get-computed-style-java-extract-background-color-from-html/)
 Hướng dẫn cách sử dụng Aspose.HTML cho Java để lấy kiểu tính toán và trích xuất màu nền từ tài liệu HTML.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Lấy Kiểu Tính Toán của Phần Tử trong Java – Hướng Dẫn Chi Tiết Từng Bước](./get-element-computed-style-in-java-full-step-by-step-guide/)
+Hướng dẫn chi tiết cách lấy kiểu tính toán của phần tử trong Java bằng Aspose.HTML, bao gồm các ví dụ thực tế và mã nguồn mẫu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

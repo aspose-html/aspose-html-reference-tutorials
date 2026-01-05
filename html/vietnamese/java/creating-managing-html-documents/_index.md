@@ -56,6 +56,8 @@ Tìm hiểu cách tải tài liệu HTML từ luồng bằng Aspose.HTML cho Jav
 Tìm hiểu cách tạo tài liệu HTML từ chuỗi trong Aspose.HTML cho Java với hướng dẫn từng bước này.
 ### [Tải tài liệu HTML từ URL trong Aspose.HTML cho Java](./load-html-documents-from-url/)
 Khám phá cách dễ dàng tải tài liệu HTML từ URL trong Java bằng Aspose.HTML. Có kèm hướng dẫn từng bước.
+### [Lặp qua NodeList trong Java – Đọc HTML và Lấy src ảnh](./iterate-nodelist-java-read-html-get-image-src/)
+Học cách duyệt NodeList trong Java để đọc HTML và trích xuất thuộc tính src của ảnh trong hướng dẫn chi tiết.
 ### [Tạo tài liệu HTML mới bằng Aspose.HTML cho Java](./generate-new-html-documents/)
 Tìm hiểu cách tạo tài liệu HTML mới bằng Aspose.HTML cho Java với hướng dẫn từng bước dễ dàng này. Bắt đầu tạo nội dung HTML động.
 ### [Xử lý sự kiện tải tài liệu trong Aspose.HTML cho Java](./handle-document-load-events/)
