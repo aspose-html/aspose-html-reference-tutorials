@@ -115,7 +115,7 @@ Converter.convertHTML(htmlDocument, options, outputFile);
 答：有试用版和永久授权两种。详细信息请参阅 [here](https://purchase.aspose.com/buy) 和 [here](https://purchase.aspose.com/temporary-license/)。
 
 **问：在哪里可以找到更多文档？**  
-答：完整的 API 文档托管在 Aspose 网站的 [here](://reference.aspose.com/html/java/)。
+答：完整的 API 文档托管在 Aspose 网站的 [here](https://reference.aspose.com/html/java/)。
 
 **问：Aspose.HTML 适合用于网页抓取任务吗？**  
 答：虽然主要是渲染引擎，但其解析功能可帮助从 HTML 页面提取数据。
