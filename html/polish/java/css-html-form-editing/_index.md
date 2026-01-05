@@ -30,6 +30,9 @@ Teraz zmieńmy biegi i zbadajmy, jak skutecznie edytować i przesyłać formular
 Dowiedz się, jak używać Aspose.HTML dla Java, aby stosować zaawansowane techniki CSS, w tym niestandardowe marginesy stron i dynamiczną zawartość. Szczegółowy, praktyczny samouczek dla programistów.
 ### [Edycja i przesyłanie formularzy HTML za pomocą Aspose.HTML dla Java](./html-form-editing/)
 Dowiedz się, jak edytować i przesyłać formularze HTML programowo, korzystając z Aspose.HTML for Java, dzięki temu kompleksowemu przewodnikowi krok po kroku.
+### [Pobieranie obliczonego stylu elementu w Javie – Kompletny przewodnik krok po kroku](./get-element-computed-style-in-java-full-step-by-step-guide/)
+Dowiedz się, jak w Javie uzyskać obliczony styl elementu przy użyciu Aspose.HTML, krok po kroku.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

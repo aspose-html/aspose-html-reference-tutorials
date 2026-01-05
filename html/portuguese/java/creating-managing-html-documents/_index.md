@@ -62,6 +62,9 @@ Aprenda como criar novos documentos HTML usando Aspose.HTML para Java com este g
 Aprenda a manipular eventos de carregamento de documentos no Aspose.HTML para Java com este guia passo a passo. Aprimore seus aplicativos da web.
 ### [Crie e gerencie documentos SVG em Aspose.HTML para Java](./create-manage-svg-documents/)
 Aprenda a criar e gerenciar documentos SVG usando Aspose.HTML para Java! Este guia abrangente cobre tudo, desde a criação básica até a manipulação avançada.
+### [Iterar NodeList em Java – Ler HTML e Obter src da Imagem](./iterate-nodelist-java-read-html-get-image-src/)
+Aprenda a percorrer um NodeList em Java para ler HTML e extrair o atributo src das imagens.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

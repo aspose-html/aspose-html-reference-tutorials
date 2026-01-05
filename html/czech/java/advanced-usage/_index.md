@@ -126,6 +126,8 @@ Naučte se automatizovat vyplňování a odesílání HTML formulářů s Aspose
 Naučte se upravit velikost PDF stránky s Aspose.HTML pro Java. Vytvářejte vysoce kvalitní PDF z HTML bez námahy. Efektivně kontrolujte rozměry stránky.
 ### [Úprava velikosti XPS stránky s Aspose.HTML pro Java](./adjust-xps-page-size/)
 Naučte se upravit velikost XPS stránky s Aspose.HTML pro Java. Jednoduše kontrolujte výstupní rozměry vašich XPS dokumentů.
+### [Spuštění JavaScriptu v Javě – Kompletní průvodce spouštěním JS z Javy](./execute-javascript-in-java-complete-guide-to-running-js-from/)
+Naučte se, jak spouštět JavaScript kód přímo z Javy pomocí Aspose.HTML, včetně integrace, ladění a správy skriptů.
 
 ---
 

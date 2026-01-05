@@ -124,6 +124,8 @@ Learn how to automate HTML form filling and submission with Aspose.HTML for Java
 Learn how to adjust PDF page size with Aspose.HTML for Java. Create high-quality PDFs from HTML effortlessly. Control page dimensions effectively.
 ### [Adjust XPS Page Size with Aspose.HTML for Java](./adjust-xps-page-size/)
 Learn how to adjust XPS page size with Aspose.HTML for Java. Control the output dimensions of your XPS documents easily.
+### [Execute JavaScript in Java – Complete Guide to Running JS from Java](./execute-javascript-in-java-complete-guide-to-running-js-from/)
+Learn how to run JavaScript from Java using Aspose.HTML, covering script evaluation, engine setup, and practical integration examples.
 
 ---
 

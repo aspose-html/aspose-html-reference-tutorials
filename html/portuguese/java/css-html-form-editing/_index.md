@@ -30,6 +30,8 @@ Agora, vamos mudar de assunto e explorar como editar e enviar formulários HTML 
 Aprenda a usar Aspose.HTML para Java para aplicar técnicas avançadas de CSS, incluindo margens de página personalizadas e conteúdo dinâmico. Um tutorial detalhado e prático para desenvolvedores.
 ### [Edição e envio de formulários HTML com Aspose.HTML para Java](./html-form-editing/)
 Aprenda a editar e enviar formulários HTML programaticamente usando o Aspose.HTML para Java neste guia passo a passo abrangente.
+### [Obter o estilo computado do elemento em Java – Guia completo passo a passo](./get-element-computed-style-in-java-full-step-by-step-guide/)
+Aprenda a recuperar o estilo computado de um elemento usando Aspose.HTML para Java neste tutorial detalhado passo a passo.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

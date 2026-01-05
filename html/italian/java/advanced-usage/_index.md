@@ -120,6 +120,7 @@ R: No. Una singola licenza di Aspose.HTML for Java copre tutti i formati di outp
 ### [Automatizza il riempimento di moduli HTML con Aspose.HTML per Java](./html-form-editor-filling-submitting-forms/)
 ### [Regola le dimensioni della pagina PDF con Aspose.HTML per Java](./adjust-pdf-page-size/)
 ### [Regola le dimensioni della pagina XPS con Aspose.HTML per Java](./adjust-xps-page-size/)
+### [Esegui JavaScript in Java – Guida completa all'esecuzione di JS da Java](./execute-javascript-in-java-complete-guide-to-running-js-from/)
 
 ---
 

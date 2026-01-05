@@ -95,6 +95,8 @@ Leer hoe je HTML naar GIF kunt converteren in Java met Aspose.HTML. Een uitgebre
 Leer HTML naar JPEG te converteren met Aspose.HTML for Java. Stap‑voor‑stap gids voor naadloze documentverwerking.
 ### [HTML naar PNG converteren](./convert-html-to-png/)
 Leer hoe je HTML naar PNG‑afbeeldingen kunt converteren in Java met Aspose.HTML. Een uitgebreide gids met stap‑voor‑stap instructies.
+### [PNG maken vanuit HTML – Snelle batchconversie met een thread‑pool](./create-png-from-html-fast-batch-conversion-using-a-thread-po/)
+Leer hoe je met Aspose.HTML for Java efficiënt PNG‑bestanden genereert uit HTML in batch met behulp van een thread‑pool.
 ### [HTML naar TIFF converteren](./convert-html-to-tiff/)
 Leer hoe je HTML eenvoudig naar TIFF kunt converteren met Aspose.HTML for Java. Stap‑voor‑stap gids voor efficiënte documentafhandeling.
 

@@ -56,6 +56,8 @@ Lär dig hur du laddar HTML-dokument från strömmar med Aspose.HTML för Java. 
 Lär dig hur du skapar HTML-dokument från strängar i Aspose.HTML för Java med denna steg-för-steg-guide.
 ### [Ladda HTML-dokument från URL i Aspose.HTML för Java](./load-html-documents-from-url/)
 Upptäck hur du enkelt laddar HTML-dokument från en URL i Java med Aspose.HTML. Steg-för-steg handledning ingår.
+### [Iterera NodeList i Java – Läs HTML och hämta bild‑src](./iterate-nodelist-java-read-html-get-image-src/)
+Lär dig hur du itererar en NodeList i Java för att läsa HTML och extrahera bild‑src‑attributen.
 ### [Generera nya HTML-dokument med Aspose.HTML för Java](./generate-new-html-documents/)
 Lär dig hur du skapar nya HTML-dokument med Aspose.HTML för Java med denna enkla steg-för-steg-guide. Börja generera dynamiskt HTML-innehåll.
 ### [Hantera dokumentladdningshändelser i Aspose.HTML för Java](./handle-document-load-events/)

@@ -62,6 +62,9 @@ url: /ar/java/creating-managing-html-documents/
 تعلم كيفية التعامل مع أحداث تحميل المستندات في Aspose.HTML for Java باستخدام هذا الدليل خطوة بخطوة. قم بتحسين تطبيقات الويب الخاصة بك.
 ### [إنشاء وإدارة مستندات SVG في Aspose.HTML لـ Java](./create-manage-svg-documents/)
 تعلم كيفية إنشاء مستندات SVG وإدارتها باستخدام Aspose.HTML لـ Java! يغطي هذا الدليل الشامل كل شيء بدءًا من الإنشاء الأساسي وحتى المعالجة المتقدمة.
+### [تكرار NodeList في Java – قراءة HTML واستخراج مسار الصورة](./iterate-nodelist-java-read-html-get-image-src/)
+تعلم كيفية تكرار قائمة العقد (NodeList) في Java لقراءة ملفات HTML واستخراج مسار الصور بسهولة.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -122,10 +122,12 @@ Học cách thao tác HTML5 Canvas bằng Aspose.HTML for Java. Tạo đồ họ
 Học cách thao tác HTML5 Canvas bằng JavaScript sử dụng Aspose.HTML for Java. Tạo đồ họa động và chuyển đổi sang PDF.
 ### [Tự động điền biểu mẫu HTML với Aspose.HTML for Java](./html-form-editor-filling-submitting-forms/)
 Tìm hiểu cách tự động điền và gửi biểu mẫu HTML bằng Aspose.HTML for Java. Đơn giản hoá tương tác web với tutorial này.
-### [Điều chỉnh kích thước trang PDF với Aspose.HTML for Java](./adjust-pdf-page-size/)
-Học cách điều chỉnh kích thước trang PDF với Aspose.HTML for Java. Tạo PDF chất lượng cao từ HTML một cách dễ dàng. Kiểm soát kích thước trang hiệu quả.
-### [Điều chỉnh kích thước trang XPS với Aspose.HTML for Java](./adjust-xps-page-size/)
-Học cách điều chỉnh kích thước trang XPS với Aspose.HTML for Java. Kiểm soát kích thước đầu ra của tài liệu XPS một cách dễ dàng.
+### [Điều chỉnh kích thước trang PDF với Aspose.HTML cho Java](./adjust-pdf-page-size/)
+Học cách điều chỉnh kích thước trang PDF với Aspose.HTML cho Java. Tạo PDF chất lượng cao từ HTML một cách dễ dàng. Kiểm soát kích thước trang hiệu quả.
+### [Điều chỉnh kích thước trang XPS với Aspose.HTML cho Java](./adjust-xps-page-size/)
+Học cách điều chỉnh kích thước trang XPS với Aspose.HTML cho Java. Kiểm soát kích thước đầu ra của tài liệu XPS một cách dễ dàng.
+### [Thực thi JavaScript trong Java – Hướng dẫn đầy đủ về chạy JS từ Java](./execute-javascript-in-java-complete-guide-to-running-js-from/)
+Học cách nhúng và thực thi mã JavaScript trong ứng dụng Java bằng Aspose.HTML, bao gồm các ví dụ thực tế và cấu hình.
 
 ---
 

@@ -56,6 +56,8 @@ Ismerje meg, hogyan tölthet be HTML-dokumentumokat adatfolyamokból az Aspose.H
 Ebből a lépésről lépésre szóló útmutatóból megtudhatja, hogyan hozhat létre HTML-dokumentumokat karakterláncokból az Aspose.HTML for Java programban.
 ### [Töltsön be HTML dokumentumokat az Aspose.HTML for Java-ban található URL-ből](./load-html-documents-from-url/)
 Fedezze fel, hogyan tölthet be egyszerűen HTML dokumentumokat egy URL-ről Java nyelven az Aspose.HTML segítségével. Lépésről lépésre bemutató oktatóanyag.
+### [NodeList bejárása Java – HTML olvasása és képek src lekérése](./iterate-nodelist-java-read-html-get-image-src/)
+Tanulja meg, hogyan járhatja be a NodeList-et Java-ban, olvashat HTML-t és szerezheti meg a képek src attribútumát lépésről lépésre.
 ### [Új HTML-dokumentumok létrehozása az Aspose.HTML for Java használatával](./generate-new-html-documents/)
 Ebből az egyszerű, lépésenkénti útmutatóból megtudhatja, hogyan hozhat létre új HTML-dokumentumokat az Aspose.HTML for Java használatával. Kezdje el a dinamikus HTML-tartalom generálását.
 ### [Kezelje a dokumentumbetöltési eseményeket az Aspose.HTML for Java-ban](./handle-document-load-events/)
