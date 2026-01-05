@@ -120,6 +120,9 @@ Apprenez comment mettre en œuvre le sandboxing dans Aspose.HTML for Java pour c
 ### [Définir une feuille de style utilisateur dans Aspose.HTML for Java](./set-user-style-sheet/)
 Apprenez comment définir une feuille de style utilisateur personnalisée dans Aspose.HTML for Java, améliorant le style de vos documents et convertissant HTML en PDF avec facilité.
 
+### [Créer un bac à sable Aspose HTML – Guide complet Java](./create-aspose-html-sandbox-complete-java-guide/)
+Apprenez comment créer un bac à sable Aspose HTML en Java, sécuriser l'exécution des scripts et convertir HTML en PDF en toute sécurité.
+
 ---
 
 **Last Updated:** 2025-12-03  

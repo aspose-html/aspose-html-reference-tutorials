@@ -30,6 +30,9 @@ Bây giờ, hãy chuyển hướng và khám phá cách chỉnh sửa và gửi 
 Tìm hiểu cách sử dụng Aspose.HTML cho Java để áp dụng các kỹ thuật CSS nâng cao, bao gồm lề trang tùy chỉnh và nội dung động. Hướng dẫn thực hành chi tiết dành cho nhà phát triển.
 ### [Chỉnh sửa và gửi biểu mẫu HTML bằng Aspose.HTML cho Java](./html-form-editing/)
 Tìm hiểu cách chỉnh sửa và gửi biểu mẫu HTML theo chương trình bằng Aspose.HTML cho Java trong hướng dẫn từng bước toàn diện này.
+### [Lấy Kiểu Tính Toán của Phần Tử trong Java – Hướng Dẫn Chi Tiết Từng Bước](./get-element-computed-style-in-java-full-step-by-step-guide/)
+Hướng dẫn chi tiết cách lấy kiểu tính toán của phần tử trong Java bằng Aspose.HTML, bao gồm các ví dụ thực tế và mã nguồn mẫu.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

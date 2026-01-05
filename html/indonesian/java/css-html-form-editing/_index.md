@@ -30,6 +30,9 @@ Sekarang, mari kita beralih ke cara lain dan menjelajahi cara mengedit dan mengi
 Pelajari cara menggunakan Aspose.HTML untuk Java guna menerapkan teknik CSS tingkat lanjut, termasuk margin halaman khusus dan konten dinamis. Tutorial terperinci dan praktis untuk pengembang.
 ### [Pengeditan dan Pengiriman Formulir HTML dengan Aspose.HTML untuk Java](./html-form-editing/)
 Pelajari cara mengedit dan mengirimkan formulir HTML secara terprogram menggunakan Aspose.HTML untuk Java dalam panduan langkah demi langkah yang komprehensif ini.
+### [Dapatkan Gaya Terhitung Elemen di Java – Panduan Langkah‑per‑Langkah Lengkap](./get-element-computed-style-in-java-full-step-by-step-guide/)
+Pelajari cara memperoleh gaya terhitung elemen HTML menggunakan Aspose.HTML untuk Java dalam panduan lengkap langkah demi langkah.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

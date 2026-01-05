@@ -62,6 +62,9 @@ Leer hoe u nieuwe HTML-documenten maakt met Aspose.HTML voor Java met deze eenvo
 Leer hoe u documentlaadgebeurtenissen in Aspose.HTML voor Java kunt verwerken met deze stapsgewijze handleiding. Verbeter uw webapplicaties.
 ### [SVG-documenten maken en beheren in Aspose.HTML voor Java](./create-manage-svg-documents/)
 Leer SVG-documenten maken en beheren met Aspose.HTML voor Java! Deze uitgebreide gids behandelt alles van basiscreatie tot geavanceerde manipulatie.
+### [NodeList itereren in Java – HTML lezen en afbeeldings‑src ophalen](./iterate-nodelist-java-read-html-get-image-src/)
+Leer hoe u met Aspose.HTML voor Java een NodeList doorloopt, HTML-inhoud leest en de src‑attributen van afbeeldingen extraheert.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

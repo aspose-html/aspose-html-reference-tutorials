@@ -62,6 +62,8 @@ Aspose.HTML を使用して、Java で URL から HTML ドキュメントを簡�
 このステップバイステップ ガイドで、Aspose.HTML for Java でドキュメント読み込みイベントを処理する方法を学習します。Web アプリケーションを強化します。
 ### [Aspose.HTML for Java で SVG ドキュメントを作成および管理する](./create-manage-svg-documents/)
 Aspose.HTML for Java を使用して SVG ドキュメントを作成および管理する方法を学びます。この包括的なガイドでは、基本的な作成から高度な操作まですべてをカバーしています。
+### [NodeList を反復処理 (Java) – HTML を読み取り画像 src を取得](./iterate-nodelist-java-read-html-get-image-src/)
+Java で NodeList を走査し、HTML から画像の src 属性を取得する方法を学びます。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -125,7 +125,9 @@ Aspose.HTML ให้คุณแนบ `DomMutationObserver` ไปยังโ
 ### [ปรับขนาดหน้า PDF ด้วย Aspose.HTML for Java](./adjust-pdf-page-size/)
 เรียนรู้วิธีปรับขนาดหน้า PDF ด้วย Aspose.HTML for Java สร้าง PDF คุณภาพสูงจาก HTML อย่างง่ายดาย ควบคุมขนาดหน้าได้อย่างมีประสิทธิภาพ  
 ### [ปรับขนาดหน้า XPS ด้วย Aspose.HTML for Java](./adjust-xps-page-size/)
-เรียนรู้วิธีปรับขนาดหน้า XPS ด้วย Aspose.HTML for Java ควบคุมขนาดผลลัพธ์ของเอกสาร XPS ของคุณได้อย่างง่ายดาย
+เรียนรู้วิธีปรับขนาดหน้า XPS ด้วย Aspose.HTML for Java ควบคุมขนาดผลลัพธ์ของเอกสาร XPS ของคุณได้อย่างง่ายดาย  
+### [เรียกใช้ JavaScript ใน Java – คู่มือฉบับสมบูรณ์สำหรับการรัน JS จาก Java](./execute-javascript-in-java-complete-guide-to-running-js-from/)
+เรียนรู้วิธีรันโค้ด JavaScript ภายในแอปพลิเคชัน Java อย่างเต็มที่ด้วย Aspose.HTML for Java  
 
 ---
 

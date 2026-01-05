@@ -91,7 +91,7 @@ Lors de la conversion du HTML en PDF ou XPS, il est souvent nécessaire de contr
 | **Rapports financiers** | Des marges et des numéros de page précis répondent aux exigences d’audit. |
 | **Certificats e‑learning** | Numérotation automatique pour les certificats multi‑pages. |
 | **Traitement en masse de formulaires** | Automatiser la saisie de données, réduire les erreurs manuelles. |
-| **Rendu de graphiques côté serveur** | Générer des PDF de graphiques Canvas sans interaction client. |
+| **Rendu de graphiques côté serveur** | Générer des PDF de graphiques sans interaction client. |
 | **Archivage de documents juridiques** | Taille de page cohérente lors de la conversion en PDF/XPS. |
 
 ## Questions fréquentes
@@ -125,7 +125,9 @@ Apprenez à automatiser le remplissage et la soumission de formulaires HTML avec
 ### [Ajuster la taille de page PDF avec Aspose.HTML for Java](./adjust-pdf-page-size/)
 Apprenez à ajuster la taille de page PDF avec Aspose.HTML for Java. Créez des PDF de haute qualité à partir de HTML sans effort. Contrôlez efficacement les dimensions des pages.  
 ### [Ajuster la taille de page XPS avec Aspose.HTML for Java](./adjust-xps-page-size/)
-Apprenez à ajuster la taille de page XPS avec Aspose.HTML for Java. Contrôlez facilement les dimensions de sortie de vos documents XPS.
+Apprenez à ajuster la taille de page XPS avec Aspose.HTML for Java. Contrôlez facilement les dimensions de sortie de vos documents XPS.  
+### [Exécuter du JavaScript en Java – Guide complet pour exécuter du JS depuis Java](./execute-javascript-in-java-complete-guide-to-running-js-from/)
+Apprenez à exécuter du JavaScript depuis Java en utilisant Aspose.HTML for Java, avec des exemples complets et des meilleures pratiques.  
 
 ---
 

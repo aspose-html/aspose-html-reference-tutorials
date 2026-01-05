@@ -93,6 +93,8 @@ Aspose.HTML for Java を使用して HTML を JPEG に変換する方法を学�
 ### [HTML を PNG に変換](./convert-html-to-png/)
 Aspose.HTML を使用して Java で HTML を PNG 画像に変換する方法を学びます。ステップバイステップの包括的なガイドです。
 
+### [HTML から PNG を作成 – スレッドプールを使用した高速バッチ変換](./create-png-from-html-fast-batch-conversion-using-a-thread-po/)
+
 ### [HTML を TIFF に変換](./convert-html-to-tiff/)
 Aspose.HTML for Java を使用して HTML を TIFF に簡単に変換する方法を学びます。効率的なドキュメント処理のためのステップバイステップガイドです。
 

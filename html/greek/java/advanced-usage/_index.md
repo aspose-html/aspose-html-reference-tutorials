@@ -126,6 +126,7 @@ weight: 20
 Μάθετε πώς να προσαρμόζετε το μέγεθος PDF σελίδας με το Aspose.HTML for Java. Δημιουργήστε υψηλής ποιότητας PDF από HTML χωρίς κόπο. Ελέγξτε τις διαστάσεις της σελίδας αποτελεσματικά.
 ### [Προσαρμογή Μεγέθους XPS Σελίδας με Aspose.HTML for Java](./adjust-xps-page-size/)
 Μάθετε πώς να προσαρμόζετε το μέγεθος XPS σελίδας με το Aspose.HTML for Java. Ελέγξτε εύκολα τις διαστάσεις εξόδου των εγγράφων XPS σας.
+### [Εκτέλεση JavaScript σε Java – Πλήρης Οδηγός για Εκτέλεση JS από Java](./execute-javascript-in-java-complete-guide-to-running-js-from/)
 
 ---
 
