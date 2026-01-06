@@ -44,6 +44,8 @@ Naučte se převádět HTML do PDF, XPS a obrázků pomocí Aspose.HTML pro .NET
 Naučte se používat Aspose.HTML pro .NET k dynamickému generování HTML dokumentů z dat JSON. Využijte sílu manipulace s HTML ve svých aplikacích .NET.
 ### [Jak kombinovat písma programově v C# – krok za krokem](./how-to-combine-fonts-programmatically-in-c-step-by-step-guid/)
 Naučte se, jak v C# programově spojovat více písem do jednoho souboru pomocí Aspose.HTML, s podrobnými ukázkami a tipy.
+### [Získání verze sestavení v C# – Rychlý průvodce získáním verze knihovny](./get-assembly-version-in-c-quick-guide-to-retrieve-library-ve/)
+Naučte se, jak v C# získat verzi sestavení knihovny pomocí reflexe.
 
 ## Závěr
 

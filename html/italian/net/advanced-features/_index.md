@@ -29,7 +29,7 @@ Nel regno dello sviluppo .NET, padroneggiare le funzionalità avanzate può apri
 ### [Configurazione dell'ambiente in .NET con Aspose.HTML](./environment-configuration/)
 Scopri come lavorare con documenti HTML in .NET usando Aspose.HTML per attività come gestione script, stili personalizzati, controllo esecuzione JavaScript e altro. Questo tutorial completo fornisce esempi passo dopo passo e FAQ per iniziare.
 ### [Crea un provider di streaming in .NET con Aspose.HTML](./create-stream-provider/)
-Scopri come usare Aspose.HTML per .NET per manipolare documenti HTML in modo efficiente. Tutorial passo dopo passo per sviluppatori.
+Scopri come usare Aspose.HTML per .NET per manipolare documenti HTML in modo efficiente. Tutorial passo passo per sviluppatori.
 ### [Fornitore di flusso di memoria in .NET con Aspose.HTML](./memory-stream-provider/)
 Scopri come creare documenti HTML sbalorditivi in .NET con Aspose.HTML. Segui il nostro tutorial passo dopo passo e sblocca la potenza della manipolazione HTML.
 ### [Web Scraping in .NET con Aspose.HTML](./web-scraping/)
@@ -44,6 +44,8 @@ Scopri come convertire HTML in PDF, XPS e immagini con Aspose.HTML per .NET. Ese
 Scopri come usare Aspose.HTML per .NET per generare dinamicamente documenti HTML da dati JSON. Sfrutta la potenza della manipolazione HTML nelle tue applicazioni .NET.
 ### [Come combinare i font programmaticamente in C# – Guida passo‑passo](./how-to-combine-fonts-programmatically-in-c-step-by-step-guid/)
 Scopri come unire più font in C# usando Aspose.HTML, con esempi pratici e istruzioni dettagliate passo‑passo.
+### [Recupera la versione dell'assembly in C# – Guida rapida per ottenere la versione della libreria](./get-assembly-version-in-c-quick-guide-to-retrieve-library-ve/)
+Scopri come ottenere la versione di un assembly C# in modo rapido, usando Aspose.HTML per identificare la versione della libreria.
 
 ## Conclusione
 

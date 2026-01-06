@@ -44,6 +44,8 @@ Leer hoe u HTML naar PDF, XPS en afbeeldingen converteert met Aspose.HTML voor .
 Leer hoe u Aspose.HTML voor .NET kunt gebruiken om dynamisch HTML-documenten te genereren uit JSON-gegevens. Benut de kracht van HTML-manipulatie in uw .NET-toepassingen.
 ### [Lettertypen combineren via code in C# – Stapsgewijze handleiding](./how-to-combine-fonts-programmatically-in-c-step-by-step-guid/)
 Leer hoe u lettertypen programmatically combineert in C# met Aspose.HTML, inclusief voorbeeldcode en stapsgewijze instructies.
+### [Assemblyversie ophalen in C# – Snelle gids om bibliotheekversie te achterhalen](./get-assembly-version-in-c-quick-guide-to-retrieve-library-ve/)
+Leer hoe u de versie van een assembly in C# kunt ophalen met een eenvoudig codevoorbeeld.
 
 ## Conclusie
 

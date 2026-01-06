@@ -44,6 +44,8 @@ Learn how to convert HTML to PDF, XPS, and images with Aspose.HTML for .NET. Ste
 Learn how to use Aspose.HTML for .NET to dynamically generate HTML documents from JSON data. Harness the power of HTML manipulation in your .NET applications.
 ### [How to Combine Fonts Programmatically in C# – Step‑by‑Step Guide](./how-to-combine-fonts-programmatically-in-c-step-by-step-guid/)
 Learn how to combine multiple fonts programmatically in C# using Aspose.HTML, with step‑by‑step examples and best practices.
+### [Get Assembly Version in C# – Quick Guide to Retrieve Library Version](./get-assembly-version-in-c-quick-guide-to-retrieve-library-ve/)
+Learn how to retrieve the version of a .NET assembly programmatically using C#. Step-by-step guide with code examples.
 
 ## Conclusion
 

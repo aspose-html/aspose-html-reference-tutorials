@@ -44,7 +44,8 @@ Tìm hiểu cách chuyển đổi HTML sang PDF, XPS và hình ảnh bằng Aspo
 Tìm hiểu cách sử dụng Aspose.HTML cho .NET để tạo tài liệu HTML động từ dữ liệu JSON. Khai thác sức mạnh của thao tác HTML trong các ứng dụng .NET của bạn.
 ### [Cách Kết Hợp Phông Chữ Theo Chương Trình trong C# – Hướng Dẫn Từng Bước](./how-to-combine-fonts-programmatically-in-c-step-by-step-guid/)
 Hướng dẫn chi tiết cách kết hợp nhiều phông chữ trong C# bằng Aspose.HTML, bao gồm mã mẫu và các lưu ý quan trọng.
-
+### [Lấy Phiên Bản Assembly trong C# – Hướng Dẫn Nhanh Để Lấy Phiên Bản Thư Viện](./get-assembly-version-in-c-quick-guide-to-retrieve-library-ve/)
+Hướng dẫn nhanh cách lấy phiên bản của một assembly trong C# để xác định phiên bản thư viện đang sử dụng.
 ## Phần kết luận
 
 Aspose.HTML cho .NET mở ra cánh cửa đến một thế giới khả năng khi làm việc với các tài liệu HTML trong các ứng dụng .NET của bạn. Các hướng dẫn tính năng nâng cao này sẽ trang bị cho bạn kiến thức và kỹ năng cần thiết để khai thác toàn bộ tiềm năng của Aspose.HTML. Nâng cao các dự án phát triển của bạn, tiết kiệm thời gian và tạo ra các giải pháp đáng chú ý với Aspose.HTML cho .NET. Bắt đầu với các hướng dẫn của chúng tôi ngay hôm nay và đưa phát triển web của bạn lên một tầm cao mới.

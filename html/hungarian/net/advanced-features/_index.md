@@ -44,6 +44,8 @@ Ismerje meg, hogyan konvertálhat HTML-t PDF-be, XPS-be és képekké az Aspose.
 Ismerje meg, hogyan használhatja az Aspose.HTML for .NET-et HTML-dokumentumok dinamikus generálására JSON-adatokból. Használja ki a HTML-kezelés erejét .NET-alkalmazásaiban.
 ### [Betűtípusok programozott egyesítése C#‑ban – Lépésről‑lépésre útmutató](./how-to-combine-fonts-programmatically-in-c-step-by-step-guid/)
 Ismerje meg, hogyan kombinálhat több betűtípust C#‑ban az Aspose.HTML segítségével, részletes lépésekkel.
+### [Assembly verzió lekérése C#‑ban – Gyors útmutató a könyvtár verziójának meghatározásához](./get-assembly-version-in-c-quick-guide-to-retrieve-library-ve/)
+Ismerje meg, hogyan kérheti le egy .NET könyvtár verziószámát C#‑ban egyszerű kóddal.
 
 ## Következtetés
 

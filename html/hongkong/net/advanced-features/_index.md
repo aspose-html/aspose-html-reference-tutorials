@@ -44,6 +44,8 @@ Aspose.HTML for .NET 是一個功能強大的工具，可讓開發人員以程�
 了解如何使用 Aspose.HTML for .NET 從 JSON 資料動態產生 HTML 文件。在 .NET 應用程式中利用 HTML 操作的強大功能。
 ### [如何在 C# 中以程式方式合併字型 – 步驟指南](./how-to-combine-fonts-programmatically-in-c-step-by-step-guid/)
 本指南逐步說明如何在 C# 中使用程式碼合併多個字型檔案，打造自訂字型資源。
+### [在 C# 中取得組件版本 – 快速指南取得程式庫版本](./get-assembly-version-in-c-quick-guide-to-retrieve-library-ve/)
+了解如何在 C# 中使用程式碼取得組件的版本資訊，快速掌握庫版本檢查方法。
 
 ## 結論
 
