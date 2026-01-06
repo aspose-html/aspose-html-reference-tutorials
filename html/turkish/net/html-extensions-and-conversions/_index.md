@@ -63,6 +63,8 @@ HTML belgelerini düzenlemek ve dönüştürmek için Aspose.HTML for .NET'in na
 Aspose.HTML for .NET ile HTML'yi TIFF'e nasıl dönüştüreceğinizi öğrenin. Etkili web içeriği optimizasyonu için adım adım kılavuzumuzu izleyin.
 ### [Aspose.HTML ile .NET'te HTML'yi XPS'e dönüştürün](./convert-html-to-xps/)
 .NET için Aspose.HTML'nin gücünü keşfedin: HTML'yi XPS'e zahmetsizce dönüştürün. Ön koşullar, adım adım kılavuz ve SSS dahildir.
+### [Aspose.HTML ile .NET'te HTML'yi ZIP'e dönüştürün](./convert-html-to-zip-in-c-complete-guide/)
+Aspose.HTML for .NET kullanarak HTML'yi ZIP arşivine dönüştürün. Adım adım kılavuz ve özelleştirilebilir seçenekler.
 
 ## Çözüm
 

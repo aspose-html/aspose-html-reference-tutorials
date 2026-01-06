@@ -41,6 +41,8 @@ Mengintegrasikan Aspose.HTML untuk .NET ke dalam proyek .NET Anda tidak akan mer
 Pelajari cara membuat halaman web dinamis menggunakan Aspose.HTML untuk .NET. Tutorial langkah demi langkah ini mencakup prasyarat, namespace, dan rendering HTML ke gambar.
 ### [Hasilkan Gambar PNG dengan ImageDevice di .NET dengan Aspose.HTML](./generate-png-images-by-imagedevice/)
 Pelajari cara menggunakan Aspose.HTML untuk .NET guna memanipulasi dokumen HTML, mengonversi HTML menjadi gambar, dan banyak lagi. Tutorial langkah demi langkah dengan Tanya Jawab Umum.
+### [Render HTML ke PNG dalam C# – Panduan Langkah-demi-Langkah](./render-html-to-png-in-c-step-by-step-guide/)
+Pelajari cara merender HTML menjadi gambar PNG menggunakan C# dengan Aspose.HTML dalam panduan langkah demi langkah.
 
 ## Kesimpulan
 

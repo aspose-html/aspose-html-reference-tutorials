@@ -30,7 +30,7 @@ Aspose.HTML voor .NET biedt een eenvoudige methode voor het converteren van HTML
 
 ## Afbeeldingen optimaliseren
 
-Het maken van afbeeldingen is slechts de eerste stap. Met Aspose.HTML voor .NET kunt u uw afbeeldingen verder optimaliseren. U kunt compressie-instellingen aanpassen, de resolutie instellen en de uitvoer verfijnen om aan uw specifieke vereisten te voldoen. Deze flexibiliteit zorgt ervoor dat de resulterende afbeeldingen zowel visueel aantrekkelijk als lichtgewicht zijn voor efficiënte weblevering.
+Het maken van afbeeldingen is slechts de eerste stap. Met Aspose.HTML voor .NET kunt u uw afbeeldingen verder optimaliseren. U kunt compressie‑instellingen aanpassen, de resolutie instellen en de uitvoer verfijnen om aan uw specifieke vereisten te voldoen. Deze flexibiliteit zorgt ervoor dat de resulterende afbeeldingen zowel visueel aantrekkelijk als lichtgewicht zijn voor efficiënte weblevering.
 
 ## Integratie met .NET-projecten
 
@@ -41,6 +41,8 @@ Het integreren van Aspose.HTML voor .NET in uw .NET-projecten is probleemloos. D
 Leer hoe u dynamische webpagina's maakt met Aspose.HTML voor .NET. Deze stapsgewijze tutorial behandelt vereisten, naamruimten en het renderen van HTML naar afbeeldingen.
 ### [Genereer PNG-afbeeldingen via ImageDevice in .NET met Aspose.HTML](./generate-png-images-by-imagedevice/)
 Leer hoe u Aspose.HTML voor .NET kunt gebruiken om HTML-documenten te bewerken, HTML naar afbeeldingen te converteren en meer. Stapsgewijze tutorial met veelgestelde vragen.
+### [HTML naar PNG renderen in C# – Stapsgewijze gids](./render-html-to-png-in-c-step-by-step-guide/)
+Leer hoe u HTML naar PNG kunt renderen in C# met Aspose.HTML, inclusief codevoorbeelden en configuratie‑opties.
 
 ## Conclusie
 

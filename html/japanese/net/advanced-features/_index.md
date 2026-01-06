@@ -43,7 +43,8 @@ Aspose.HTML for .NET を使用して HTML を PDF、XPS、画像に変換する�
 ### [Aspose.HTML を使用して .NET で HTML テンプレートを使用する](./using-html-templates/)
 Aspose.HTML for .NET を使用して JSON データから HTML ドキュメントを動的に生成する方法を学びます。.NET アプリケーションで HTML 操作のパワーを活用します。
 ### [C# でフォントをプログラム的に結合する方法 – ステップバイステップガイド](./how-to-combine-fonts-programmatically-in-c-step-by-step-guid/)
-C# を使用して複数のフォントを結合し、カスタムフォントファイルを作成する手順をステップバイステップで解説します。
+### [C# でアセンブリ バージョンを取得 – ライブラリ バージョン取得のクイック ガイド](./get-assembly-version-in-c-quick-guide-to-retrieve-library-ve/)
+C# でアセンブリのバージョン情報を取得し、ライブラリのバージョンを確認する手順をステップバイステップで解説します。
 
 ## 結論
 
