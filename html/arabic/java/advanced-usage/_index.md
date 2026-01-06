@@ -133,6 +133,9 @@ weight: 20
 ### [ضبط حجم صفحة XPS باستخدام Aspose.HTML for Java](./adjust-xps-page-size/)
 تعلم كيفية ضبط حجم صفحة XPS باستخدام Aspose.HTML for Java. سيطر على أبعاد مخرجات مستندات XPS بسهولة.
 
+### [كيفية تمكين JavaScript في Aspose HTML – تحميل HTML واستخراج النص](./how-to-enable-javascript-in-aspose-html-load-html-get-text/)
+تعلم كيفية تمكين JavaScript عند تحميل HTML واستخدام Aspose.HTML لاستخراج النص من المستند.
+
 ---
 
 **آخر تحديث:** 2025-11-29  

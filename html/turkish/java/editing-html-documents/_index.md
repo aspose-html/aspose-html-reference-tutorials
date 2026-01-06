@@ -58,6 +58,9 @@ Java için Aspose.HTML kullanarak HTML belgelerine satır içi CSS eklemeyi öğ
 Web geliştiricileri ve içerik oluşturucuları için mükemmel olan bu adım adım kılavuzla Aspose.HTML for Java'da iç ve dış HTML özelliklerinin nasıl yönetileceğini öğrenin.
 ### [Java için Aspose.HTML ile HTML Belgelerinde Dahili CSS'yi Uygulayın](./implement-internal-css-html-documents/)
 Kolay adım adım eğitimimiz ile Java için Aspose.HTML'i kullanarak HTML belgelerinde dahili CSS'yi uygulamayı öğrenin.
+### [Java'da gövdeye çocuk ekleme – Tam Aspose.HTML Öğreticisi](./append-child-to-body-in-java-full-aspose-html-tutorial/)
+Java için Aspose.HTML kullanarak gövdeye yeni bir öğe eklemeyi adım adım öğrenin.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

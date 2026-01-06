@@ -30,6 +30,9 @@ Lassen Sie uns nun einen Gang höher schalten und untersuchen, wie Sie HTML-Form
 Erfahren Sie, wie Sie mit Aspose.HTML für Java erweiterte CSS-Techniken anwenden, darunter benutzerdefinierte Seitenränder und dynamische Inhalte. Ein ausführliches, praktisches Tutorial für Entwickler.
 ### [Bearbeiten und Senden von HTML-Formularen mit Aspose.HTML für Java](./html-form-editing/)
 Erfahren Sie in dieser umfassenden Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.HTML für Java programmgesteuert HTML-Formulare bearbeiten und übermitteln.
+### [Wie man getComputedStyle in Java verwendet – Hintergrundfarbe und weitere CSS-Eigenschaften extrahieren](./how-to-use-getcomputedstyle-in-java-extract-background-color/)
+Lernen Sie, wie Sie mit Aspose.HTML für Java getComputedStyle nutzen, um Hintergrundfarbe und weitere CSS‑Eigenschaften programmgesteuert zu ermitteln.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

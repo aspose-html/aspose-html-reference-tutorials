@@ -58,6 +58,9 @@ Aspose.HTML for Java を使用して HTML ドキュメントにインライン C
 このステップバイステップ ガイドでは、Web 開発者やコンテンツ作成者に最適な、Aspose.HTML for Java で内部および外部の HTML プロパティを管理する方法を学習します。
 ### [Aspose.HTML for Java を使用して HTML ドキュメントに内部 CSS を実装する](./implement-internal-css-html-documents/)
 簡単なステップバイステップのチュートリアルで、Aspose.HTML for Java を使用して HTML ドキュメントに内部 CSS を実装する方法を学びます。
+### [Java で body に子要素を追加 – 完全 Aspose.HTML チュートリアル](./append-child-to-body-in-java-full-aspose-html-tutorial/)
+Aspose.HTML for Java を使用して、HTML ドキュメントの body に子要素を追加する方法をステップバイステップで学びます。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

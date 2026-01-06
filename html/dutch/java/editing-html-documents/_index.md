@@ -58,6 +58,9 @@ Leer hoe u inline CSS toevoegt aan HTML-documenten met Aspose.HTML voor Java. De
 Leer hoe u interne en externe HTML-eigenschappen in Aspose.HTML voor Java beheert met deze stapsgewijze handleiding, perfect voor webontwikkelaars en makers van inhoud.
 ### [Implementeer interne CSS in HTML-documenten met Aspose.HTML voor Java](./implement-internal-css-html-documents/)
 Leer hoe u interne CSS in HTML-documenten implementeert met Aspose.HTML voor Java met onze eenvoudige stapsgewijze tutorial.
+### [Kind toevoegen aan body in Java – volledige Aspose.HTML-tutorial](./append-child-to-body-in-java-full-aspose-html-tutorial/)
+Leer hoe u een kind-element aan de body van een HTML-document toevoegt met Aspose.HTML voor Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

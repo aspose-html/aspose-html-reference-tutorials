@@ -30,6 +30,9 @@ Nyní pojďme zařadit rychlost a prozkoumat, jak efektivně upravovat a odesíl
 Naučte se používat Aspose.HTML pro Java k aplikaci pokročilých technik CSS, včetně vlastních okrajů stránek a dynamického obsahu. Podrobný praktický návod pro vývojáře.
 ### [Editace a odeslání formuláře HTML pomocí Aspose.HTML pro Javu](./html-form-editing/)
 V tomto podrobném průvodci se dozvíte, jak programově upravovat a odesílat formuláře HTML pomocí Aspose.HTML for Java.
+### [Jak použít getComputedStyle v Javě – Extrahovat barvu pozadí a další CSS vlastnosti](./how-to-use-getcomputedstyle-in-java-extract-background-color/)
+Naučte se získat výpočetní styly v Javě a extrahovat barvu pozadí a další CSS vlastnosti pomocí Aspose.HTML.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
