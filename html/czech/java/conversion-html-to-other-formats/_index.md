@@ -86,6 +86,8 @@ Na závěr, zvládnutí **html to pdf java** a širší sady konverzí odemyká 
 
 ### [Převod HTML do PDF](./convert-html-to-pdf/)
 Naučte se převést HTML do PDF v Javě pomocí Aspose.HTML. Vytvářejte vysoce kvalitní PDF z vašeho HTML obsahu bez námahy.
+### [Převod HTML do PDF v Javě – Nastavte velikost stránky PDF, rozlišení a uložte HTML jako PDF](./convert-html-to-pdf-in-java-set-pdf-page-size-resolution-and/)
+Naučte se nastavit velikost stránky, rozlišení a uložit HTML jako PDF pomocí Aspose.HTML for Java.
 ### [Převod HTML do MHTML](./convert-html-to-mhtml/)
 Jednoduše převádějte HTML do MHTML pomocí Aspose.HTML for Java. Postupujte podle našeho krok‑za‑krokem průvodce pro efektivní konverzi HTML‑to‑MHTML.
 ### [Převod HTML do XPS](./convert-html-to-xps/)
@@ -94,6 +96,8 @@ Naučte se snadno převádět HTML do XPS pomocí Aspose.HTML for Java. Vytvář
 Převádějte Markdown do HTML v Javě plynule s Aspose.HTML for Java. Postupujte podle našeho krok‑za‑krokem průvodce a zjednodušte své potřeby konverze dokumentů.
 ### [Jak nastavit offset při převodu HTML na Markdown v Javě](./how-to-set-offset-when-converting-html-to-markdown-in-java/)
 Naučte se nastavit offset při konverzi HTML do Markdown v Javě pomocí Aspose.HTML.
+### [Převod Markdown na HTML – Java průvodce s výstupem PDF](./convert-markdown-to-html-java-guide-with-pdf-output/)
+Naučte se převést Markdown na HTML a vytvořit PDF v Javě pomocí Aspose.HTML.
 ### [Převod SVG do obrázku](./convert-svg-to-image/)
 Naučte se převádět SVG na obrázky v Javě s Aspose.HTML. Kompletní průvodce pro výstup vysoké kvality.
 ### [Převod SVG do PDF](./convert-svg-to-pdf/)
@@ -119,6 +123,10 @@ Naučte se provádět konverzi HTML do PDF v Javě pomocí paralelního pevného
 Naučte se převést soubory Markdown do PDF v Javě pomocí Aspose.HTML s podrobným krok‑za‑krokem návodem.
 ### [Vytvoření PDF z HTML v Javě – krok‑za‑krokem průvodce](./create-pdf-from-html-in-java-step-by-step-guide/)
 Naučte se vytvořit PDF z HTML v Javě pomocí Aspose.HTML s podrobným návodem krok za krokem.
+### [Jak převést SVG – Kompletní průvodce pomocí Aspose HTML Converter](./how-to-convert-svg-complete-guide-using-aspose-html-converte/)
+Kompletní průvodce převodem SVG do různých formátů pomocí Aspose HTML Converter v Javě.
+### [Převod HTML do PDF s pevnou vlákny v Javě – krok za krokem průvodce](./convert-html-to-pdf-with-fixed-thread-pool-java-step-by-step/)
+Naučte se, jak pomocí pevného thread poolu v Javě efektivně konvertovat HTML do PDF s Aspose.HTML, krok za krokem.
 ## Často kladené otázky
 
 **Q: Mohu použít Aspose.HTML for Java v komerční aplikaci?**  

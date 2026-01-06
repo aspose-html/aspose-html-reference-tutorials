@@ -53,6 +53,8 @@ url: /zh-hant/java/css-html-form-editing/
 {{< blocks/products/products-backtop-button >}}
 ### [在 Java 中取得元素計算樣式 – 完整步驟指南](./get-element-computed-style-in-java-full-step-by-step-guide/)
 本指南逐步說明如何在 Java 中使用 Aspose.HTML 取得元素的計算樣式，涵蓋完整示例與最佳實踐。
+### [如何在 Java 中使用 getComputedStyle – 提取背景顏色及其他 CSS 屬性](./how-to-use-getcomputedstyle-in-java-extract-background-color/)
+本教學示範如何在 Java 使用 Aspose.HTML 的 getComputedStyle 方法取得元素的背景顏色與其他 CSS 屬性。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

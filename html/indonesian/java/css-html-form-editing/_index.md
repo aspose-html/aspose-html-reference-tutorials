@@ -53,6 +53,8 @@ Pelajari cara menggunakan Aspose.HTML untuk Java guna mengambil gaya terhitung d
 {{< blocks/products/products-backtop-button >}}
 ### [Dapatkan Gaya Terhitung Elemen di Java – Panduan Langkah‑per‑Langkah Lengkap](./get-element-computed-style-in-java-full-step-by-step-guide/)
 Pelajari cara memperoleh gaya terhitung elemen HTML menggunakan Aspose.HTML untuk Java dalam panduan lengkap langkah demi langkah.
+### [Cara menggunakan getComputedStyle di Java – Ekstrak warna latar belakang dan properti CSS lainnya](./how-to-use-getcomputedstyle-in-java-extract-background-color/)
+Pelajari cara menggunakan metode getComputedStyle di Java untuk mengekstrak warna latar belakang serta properti CSS lainnya secara terprogram.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

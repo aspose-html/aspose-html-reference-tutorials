@@ -132,6 +132,8 @@ Lär dig hur du justerar XPS‑sidstorlek med Aspose.HTML för Java. Kontrollera
 Lär dig hur du exekverar JavaScript‑kod i Java‑applikationer med Aspose.HTML, inklusive konfiguration och exempel.
 ### [Ställ in enhetens pixelratio i Java – Mobil Sandbox‑handledning](./set-device-pixel-ratio-in-java-mobile-sandbox-tutorial/)
 Lär dig hur du ställer in enhetens pixelratio i Java‑sandboxen för mobila enheter med Aspose.HTML.
+### [Hur man aktiverar JavaScript i Aspose HTML – Ladda HTML & Hämta text](./how-to-enable-javascript-in-aspose-html-load-html-get-text/)
+Lär dig hur du aktiverar JavaScript i Aspose.HTML, laddar HTML och extraherar text från dokumentet.
 
 ---
 

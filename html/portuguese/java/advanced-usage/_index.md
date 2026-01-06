@@ -140,6 +140,9 @@ Aprenda a habilitar a execução de scripts JavaScript ao converter HTML para PD
 ### [Como Usar o Sandbox para HTML para PDF Java – Guia Passo a Passo](./how-to-use-sandbox-for-html-to-pdf-java-step-by-step-guide/)
 Aprenda a usar o Sandbox do Aspose.HTML para converter HTML em PDF com Java, passo a passo, incluindo configuração e melhores práticas.
 
+### [Como habilitar JavaScript no Aspose HTML – Carregar HTML e obter texto](./how-to-enable-javascript-in-aspose-html-load-html-get-text/)
+Aprenda a habilitar JavaScript ao carregar HTML e extrair texto usando Aspose.HTML for Java.
+
 ---
 
 **Última atualização:** 2025-11-29  

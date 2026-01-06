@@ -52,6 +52,8 @@ Naučte se pomocí Aspose.HTML pro Java získat vypočítané styly a extrahovat
 {{< blocks/products/products-backtop-button >}}
 ### [Získání vypočteného stylu prvku v Javě – Kompletní krok‑za‑krokem průvodce](./get-element-computed-style-in-java-full-step-by-step-guide/)
 Naučte se, jak pomocí Aspose.HTML pro Javu získat vypočtené CSS styly konkrétního HTML elementu krok po kroku.
+### [Jak použít getComputedStyle v Javě – Extrahovat barvu pozadí a další CSS vlastnosti](./how-to-use-getcomputedstyle-in-java-extract-background-color/)
+Naučte se získat výpočetní styly v Javě a extrahovat barvu pozadí a další CSS vlastnosti pomocí Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

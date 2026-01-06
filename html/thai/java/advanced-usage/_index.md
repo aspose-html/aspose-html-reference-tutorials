@@ -132,6 +132,8 @@ Aspose.HTML ให้คุณแนบ `DomMutationObserver` ไปยังโ
 เรียนรู้วิธีฝังและรันโค้ด JavaScript ภายในแอปพลิเคชัน Java ด้วย Aspose.HTML อย่างละเอียด  
 ### [ตั้งค่าอัตรา pixel ของอุปกรณ์ใน Java – Mobile Sandbox Tutorial](./set-device-pixel-ratio-in-java-mobile-sandbox-tutorial/)
 เรียนรู้วิธีกำหนดอัตรา pixel ของอุปกรณ์ใน Java เพื่อจำลองหน้าจอมือถือใน Sandbox อย่างละเอียด  
+### [วิธีเปิดใช้งาน JavaScript ใน Aspose HTML – โหลด HTML และดึงข้อความ](./how-to-enable-javascript-in-aspose-html-load-html-get-text/)
+เรียนรู้วิธีเปิดใช้งาน JavaScript ใน Aspose.HTML เพื่อโหลด HTML และดึงข้อความจากเอกสาร  
 
 ---
 

@@ -53,6 +53,8 @@ Dowiedz się, jak w Javie uzyskać obliczone style elementu i wyodrębnić kolor
 {{< blocks/products/products-backtop-button >}}
 ### [Pobieranie obliczonego stylu elementu w Javie – Kompletny przewodnik krok po kroku](./get-element-computed-style-in-java-full-step-by-step-guide/)
 Dowiedz się, jak w Javie uzyskać obliczony styl elementu przy użyciu Aspose.HTML, krok po kroku.
+### [Jak używać getComputedStyle w Javie – Pobieranie koloru tła i innych właściwości CSS](./how-to-use-getcomputedstyle-in-java-extract-background-color/)
+Dowiedz się, jak za pomocą Aspose.HTML w Javie odczytać właściwości CSS, w tym kolor tła, przy użyciu metody getComputedStyle.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

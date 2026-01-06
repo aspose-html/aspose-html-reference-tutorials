@@ -53,6 +53,8 @@ Erfahren Sie, wie Sie mit Aspose.HTML für Java den berechneten Stil eines Eleme
 {{< blocks/products/products-backtop-button >}}
 ### [Ermitteln des berechneten Stils eines Elements in Java – Vollständige Schritt‑für‑Schritt‑Anleitung](./get-element-computed-style-in-java-full-step-by-step-guide/)
 Lernen Sie, wie Sie mit Aspose.HTML für Java den berechneten CSS‑Stil eines Elements ermitteln und nutzen – ein vollständiger Leitfaden.
+### [Wie man getComputedStyle in Java verwendet – Hintergrundfarbe und weitere CSS-Eigenschaften extrahieren](./how-to-use-getcomputedstyle-in-java-extract-background-color/)
+Lernen Sie, wie Sie mit Aspose.HTML für Java getComputedStyle nutzen, um Hintergrundfarbe und weitere CSS‑Eigenschaften programmgesteuert zu ermitteln.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

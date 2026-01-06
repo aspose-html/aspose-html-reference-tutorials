@@ -51,6 +51,8 @@ Aspose.HTML for Java kullanarak bir HTML öğesinin hesaplanmış stilinden arka
 {{< blocks/products/products-backtop-button >}}
 ### [Java'da Elementin Hesaplanmış Stilini Al – Tam Adım‑Adım Kılavuz](./get-element-computed-style-in-java-full-step-by-step-guide/)
 Aspose.HTML for Java kullanarak bir elementin hesaplanmış stilini nasıl alacağınızı adım adım öğrenin.
+### [Java'da getComputedStyle Kullanımı – Arka Plan Rengini ve Diğer CSS Özelliklerini Çıkarma](./how-to-use-getcomputedstyle-in-java-extract-background-color/)
+Java'da getComputedStyle kullanarak arka plan rengini ve diğer CSS özelliklerini nasıl çıkaracağınızı öğrenin.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

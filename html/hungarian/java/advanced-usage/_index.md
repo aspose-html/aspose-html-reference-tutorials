@@ -131,6 +131,8 @@ Ismerje meg, hogyan állíthatja be az XPS oldalméretet az Aspose.HTML for Java
 ### [JavaScript futtatása Java-ban – Teljes útmutató](./how-to-run-javascript-in-java-complete-guide/)
 Ismerje meg, hogyan integrálhatja és futtathatja a JavaScript kódot Java alkalmazásokban Aspose.HTML segítségével.
 ### [Eszköz pixelarány beállítása Java‑ban – Mobil Sandbox oktatóanyag](./set-device-pixel-ratio-in-java-mobile-sandbox-tutorial/)
+### [Hogyan engedélyezzük a JavaScript-et az Aspose HTML-ben – HTML betöltése és szöveg lekérése](./how-to-enable-javascript-in-aspose-html-load-html-get-text/)
+Ismerje meg, hogyan kapcsolhatja be a JavaScript-et az Aspose HTML-ben, tölthet be HTML-t és nyerhet ki szöveget a dokumentumból.
 
 ---
 

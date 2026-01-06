@@ -132,6 +132,8 @@ weight: 20
 Μάθετε πώς να εκτελείτε κώδικα JavaScript μέσα σε εφαρμογές Java χρησιμοποιώντας το Aspose.HTML for Java.
 ### [Ορισμός αναλογίας pixel συσκευής σε Java – Οδηγός Mobile Sandbox](./set-device-pixel-ratio-in-java-mobile-sandbox-tutorial/)
 Μάθετε πώς να ορίσετε την αναλογία pixel της συσκευής σε Java χρησιμοποιώντας το Mobile Sandbox του Aspose.HTML.
+### [Πώς να ενεργοποιήσετε τη JavaScript στο Aspose HTML – Φόρτωση HTML & Λήψη κειμένου](./how-to-enable-javascript-in-aspose-html-load-html-get-text/)
+Μάθετε πώς να ενεργοποιήσετε τη JavaScript στο Aspose.HTML, να φορτώσετε HTML και να εξάγετε το κείμενο.
 
 ---
 

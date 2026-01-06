@@ -132,6 +132,8 @@ Naučte se upravit velikost XPS stránky s Aspose.HTML pro Java. Jednoduše kont
 Naučte se, jak spouštět JavaScript kód v Javě pomocí Aspose.HTML, včetně integrace, nastavení a praktických příkladů.
 ### [Nastavení poměru pixelů zařízení v Javě – Mobilní sandbox tutoriál](./set-device-pixel-ratio-in-java-mobile-sandbox-tutorial/)
 Naučte se, jak nastavit poměr pixelů zařízení v Javě pomocí mobilního sandboxu pro přesné vykreslování.
+### [Jak povolit JavaScript v Aspose HTML – Načíst HTML a získat text](./how-to-enable-javascript-in-aspose-html-load-html-get-text/)
+Naučte se povolit JavaScript při načítání HTML v Aspose.HTML a získat textový obsah dokumentu.
 
 ---
 

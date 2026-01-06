@@ -132,6 +132,8 @@ Apprenez à ajuster la taille de page XPS avec Aspose.HTML for Java. Contrôlez 
 Apprenez à exécuter du code JavaScript depuis Java en utilisant Aspose.HTML, avec des exemples complets et des meilleures pratiques.  
 ### [Définir le ratio de pixels de l'appareil en Java – Tutoriel Mobile Sandbox](./set-device-pixel-ratio-in-java-mobile-sandbox-tutorial/)
 Apprenez à définir le ratio de pixels de l'appareil dans le bac à sable mobile avec Aspose.HTML for Java pour un rendu précis sur les écrans haute résolution.  
+### [Comment activer JavaScript dans Aspose HTML – Charger le HTML et obtenir le texte](./how-to-enable-javascript-in-aspose-html-load-html-get-text/)
+Apprenez à activer JavaScript lors du chargement d’un document HTML avec Aspose.HTML et à extraire le texte généré.  
 
 ---
 

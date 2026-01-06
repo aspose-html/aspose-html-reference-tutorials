@@ -59,6 +59,8 @@ Aspose.HTML for Java を使用して HTML ドキュメントにインライン C
 ### [Aspose.HTML for Java を使用して HTML ドキュメントに内部 CSS を実装する](./implement-internal-css-html-documents/)
 簡単なステップバイステップのチュートリアルで、Aspose.HTML for Java を使用して HTML ドキュメントに内部 CSS を実装する方法を学びます。
 ### [Fixed Thread Pool Java – ExecutorService を使用した並列 HTML クリーンアップ](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
+### [Java で body に子要素を追加 – 完全 Aspose.HTML チュートリアル](./append-child-to-body-in-java-full-aspose-html-tutorial/)
+Aspose.HTML for Java を使用して、HTML ドキュメントの body に子要素を追加する方法をステップバイステップで学びます。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

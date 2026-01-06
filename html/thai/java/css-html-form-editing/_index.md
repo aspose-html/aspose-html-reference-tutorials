@@ -53,6 +53,8 @@ url: /th/java/css-html-form-editing/
 {{< blocks/products/products-backtop-button >}}
 ### [รับสไตล์ที่คำนวณขององค์ประกอบใน Java – คู่มือเต็มขั้นตอน](./get-element-computed-style-in-java-full-step-by-step-guide/)
 เรียนรู้วิธีดึงสไตล์ที่คำนวณขององค์ประกอบ HTML ด้วย Aspose.HTML สำหรับ Java ผ่านคู่มือขั้นตอนเต็มรูปแบบ
+### [วิธีใช้ getcomputedstyle ใน Java – ดึงสีพื้นหลังและคุณสมบัติ CSS อื่น ๆ](./how-to-use-getcomputedstyle-in-java-extract-background-color/)
+เรียนรู้การใช้ getComputedStyle ใน Java เพื่อดึงสีพื้นหลังและคุณสมบัติ CSS อื่น ๆ อย่างง่าย
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
