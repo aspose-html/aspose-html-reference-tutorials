@@ -30,6 +30,8 @@ url: /el/java/css-html-form-editing/
 Μάθετε πώς να χρησιμοποιείτε το Aspose.HTML για Java για την εφαρμογή προηγμένων τεχνικών CSS, συμπεριλαμβανομένων προσαρμοσμένων περιθωρίων σελίδας και δυναμικού περιεχομένου. Ένα λεπτομερές, πρακτικό σεμινάριο για προγραμματιστές.
 ### [Επεξεργασία και υποβολή φόρμας HTML με Aspose.HTML για Java](./html-form-editing/)
 Μάθετε πώς να επεξεργάζεστε και να υποβάλλετε φόρμες HTML μέσω προγραμματισμού χρησιμοποιώντας το Aspose.HTML για Java σε αυτόν τον αναλυτικό οδηγό βήμα προς βήμα.
+### [Πώς να χρησιμοποιήσετε το getComputedStyle στη Java – Εξαγωγή χρώματος φόντου και άλλων ιδιοτήτων CSS](./how-to-use-getcomputedstyle-in-java-extract-background-color/)
+Μάθετε πώς να χρησιμοποιήσετε τη μέθοδο getComputedStyle στη Java για να εξάγετε το χρώμα φόντου και άλλες ιδιότητες CSS.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -125,8 +125,9 @@ Aspose.HTML for Java का उपयोग करके HTML फ़ॉर्म
 ### [Aspose.HTML for Java के साथ PDF पेज आकार समायोजित करें](./adjust-pdf-page-size/)
 Aspose.HTML for Java का उपयोग करके PDF पेज आकार को कैसे समायोजित करें, सीखें। HTML से उच्च‑गुणवत्ता वाले PDF आसानी से बनाएं और पेज आयाम प्रभावी रूप से नियंत्रित करें।  
 ### [Aspose.HTML for Java के साथ XPS पेज आकार समायोजित करें](./adjust-xps-page-size/)
-Aspose.HTML for Java का उपयोग करके XPS पेज आकार को कैसे समायोजित करें, जानें। अपने XPS दस्तावेज़ों के आउटपुट आयाम को आसानी से नियंत्रित करें।
-
+Aspose.HTML for Java का उपयोग करके XPS पेज आकार को कैसे समायोजित करें, जानें। अपने XPS दस्तावेज़ों के आउटपुट आयाम को आसानी से नियंत्रित करें।  
+### [Aspose HTML में JavaScript सक्षम करना – HTML लोड करें और टेक्स्ट प्राप्त करें](./how-to-enable-javascript-in-aspose-html-load-html-get-text/)
+Aspose.HTML में JavaScript सक्रिय करके HTML लोड करें और टेक्स्ट निकालें, इस चरण‑दर‑चरण गाइड में देखें।
 
 ---
 

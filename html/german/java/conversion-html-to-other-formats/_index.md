@@ -84,25 +84,28 @@ Zusammenfassend eröffnet das Beherrschen von **html to pdf java** und der breit
 
 ## Konvertierung – HTML zu anderen Formaten Tutorials
 ### [Konvertierung von HTML zu PDF](./convert-html-to-pdf/)
-Erfahren Sie, wie Sie HTML in Java mit Aspose.HTML zu PDF konvertieren. Erstellen Sie mühelos hochwertige PDFs aus Ihrem HTML‑Inhalt.
+
+### [HTML zu PDF in Java konvertieren – PDF‑Seitengröße, Auflösung festlegen und HTML als PDF speichern](./convert-html-to-pdf-in-java-set-pdf-page-size-resolution-and/)
 
 ### [Konvertierung von HTML zu MHTML](./convert-html-to-mhtml/)
-Konvertieren Sie HTML mühelos zu MHTML mit Aspose.HTML für Java. Folgen Sie unserer Schritt‑für‑Schritt‑Anleitung für eine effiziente HTML‑zu‑MHTML‑Konvertierung.
 
 ### [Konvertierung von HTML zu XPS](./convert-html-to-xps/)
-Erfahren Sie, wie Sie HTML mühelos zu XPS mit Aspose.HTML für Java konvertieren. Erstellen Sie plattformübergreifende Dokumente mit Leichtigkeit.
 
 ### [Konvertierung von Markdown zu HTML](./convert-markdown-to-html/)
-Konvertieren Sie Markdown in Java nahtlos zu HTML mit Aspose.HTML für Java. Folgen Sie unserer Schritt‑für‑Schritt‑Anleitung, um Ihre Dokumentenkonvertierungs‑Bedürfnisse zu optimieren.
+
+### [Markdown zu HTML konvertieren – Java‑Leitfaden mit PDF‑Ausgabe](./convert-markdown-to-html-java-guide-with-pdf-output/)
 
 ### [Konvertierung von SVG zu Bild](./convert-svg-to-image/)
-Erfahren Sie, wie Sie SVG in Java mit Aspose.HTML zu Bildern konvertieren. Umfassende Anleitung für hochwertige Ausgaben.
 
 ### [Konvertierung von SVG zu PDF](./convert-svg-to-pdf/)
-Konvertieren Sie SVG in Java mit Aspose.HTML zu PDF. Eine nahtlose Lösung für hochwertige Dokumentenkonvertierung.
 
 ### [Konvertierung von SVG zu XPS](./convert-svg-to-xps/)
-Erfahren Sie, wie Sie SVG mit Aspose.HTML für Java zu XPS konvertieren. Einfache, Schritt‑für‑Schritt‑Anleitung für reibungslose Konvertierungen.
+
+### [PDF aus HTML in Java erstellen – Schritt‑für‑Schritt‑Anleitung](./create-pdf-from-html-in-java-step-by-step-guide/)
+
+### [Wie man SVG konvertiert – Vollständige Anleitung mit Aspose HTML Converter](./how-to-convert-svg-complete-guide-using-aspose-html-converte/)
+
+### [HTML zu PDF mit Fixed Thread Pool Java konvertieren – Schritt‑für‑Schritt‑Anleitung](./convert-html-to-pdf-with-fixed-thread-pool-java-step-by-step/)
 
 ## Häufig gestellte Fragen
 

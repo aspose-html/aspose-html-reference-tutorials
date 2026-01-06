@@ -126,6 +126,8 @@ Aspose.HTML for Java ile HTML form doldurmayı ve göndermeyi otomatikleştirmey
 Aspose.HTML for Java kullanarak PDF sayfa boyutunu nasıl ayarlayacağınızı öğrenin. HTML’den yüksek kaliteli PDF’ler oluşturun ve sayfa boyutlarını etkili bir şekilde kontrol edin.
 ### [Aspose.HTML for Java ile XPS Sayfa Boyutunu Ayarlama](./adjust-xps-page-size/)
 Aspose.HTML for Java ile XPS sayfa boyutunu nasıl ayarlayacağınızı öğrenin. XPS belgelerinizin çıktı boyutlarını kolayca kontrol edin.
+### [Aspose.HTML'de JavaScript'i Etkinleştirme – HTML Yükleme ve Metin Alma](./how-to-enable-javascript-in-aspose-html-load-html-get-text/)
+Aspose.HTML ile JavaScript'i etkinleştirerek HTML yükleyin ve metni çıkarın.
 
 ---
 

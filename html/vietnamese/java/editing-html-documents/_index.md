@@ -58,6 +58,9 @@ Tìm hiểu cách thêm CSS nội tuyến vào tài liệu HTML bằng Aspose.HT
 Tìm hiểu cách quản lý các thuộc tính HTML bên trong và bên ngoài trong Aspose.HTML cho Java với hướng dẫn từng bước này, hoàn hảo cho các nhà phát triển web và người sáng tạo nội dung.
 ### [Triển khai CSS nội bộ trong tài liệu HTML với Aspose.HTML cho Java](./implement-internal-css-html-documents/)
 Học cách triển khai CSS nội bộ trong tài liệu HTML bằng Aspose.HTML cho Java với hướng dẫn từng bước dễ dàng của chúng tôi.
+### [Thêm phần tử con vào body trong Java – Hướng dẫn đầy đủ Aspose.HTML](./append-child-to-body-in-java-full-aspose-html-tutorial/)
+Khám phá cách thêm phần tử con vào thẻ body trong tài liệu HTML bằng Aspose.HTML cho Java qua hướng dẫn chi tiết.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

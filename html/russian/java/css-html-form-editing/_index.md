@@ -30,6 +30,9 @@ url: /ru/java/css-html-form-editing/
 Узнайте, как использовать Aspose.HTML для Java, чтобы применять передовые методы CSS, включая пользовательские поля страниц и динамический контент. Подробное практическое руководство для разработчиков.
 ### [Редактирование и отправка HTML-форм с помощью Aspose.HTML для Java](./html-form-editing/)
 Узнайте, как программно редактировать и отправлять HTML-формы с помощью Aspose.HTML для Java, в этом подробном пошаговом руководстве.
+### [Как использовать getComputedStyle в Java – извлечение цвета фона и других свойств CSS](./how-to-use-getcomputedstyle-in-java-extract-background-color/)
+Узнайте, как получить вычисленные стили элементов, включая цвет фона и другие свойства CSS, используя Aspose.HTML для Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

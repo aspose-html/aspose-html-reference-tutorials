@@ -126,6 +126,8 @@ Lär dig hur du automatiserar HTML‑formulärifyllning och -inlämning med Aspo
 Lär dig hur du justerar PDF‑sidstorlek med Aspose.HTML för Java. Skapa högkvalitativa PDF‑filer från HTML utan ansträngning. Kontrollera sidmåtten effektivt.
 ### [Justera XPS‑sidstorlek med Aspose.HTML för Java](./adjust-xps-page-size/)
 Lär dig hur du justerar XPS‑sidstorlek med Aspose.HTML för Java. Kontrollera utmatningsdimensionerna för dina XPS‑dokument enkelt.
+### [Hur man aktiverar JavaScript i Aspose HTML – Ladda HTML & Hämta text](./how-to-enable-javascript-in-aspose-html-load-html-get-text/)
+Lär dig hur du aktiverar JavaScript i Aspose.HTML, laddar HTML och extraherar text från dokumentet.
 
 ---
 

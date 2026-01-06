@@ -58,6 +58,8 @@ url: /ar/java/editing-html-documents/
 تعرف على كيفية إدارة خصائص HTML الداخلية والخارجية في Aspose.HTML لـ Java باستخدام هذا الدليل خطوة بخطوة، وهو مثالي لمطوري الويب ومنشئي المحتوى.
 ### [تنفيذ CSS داخلي في مستندات HTML باستخدام Aspose.HTML لـ Java](./implement-internal-css-html-documents/)
 تعلم كيفية تنفيذ CSS الداخلي في مستندات HTML باستخدام Aspose.HTML لـ Java من خلال البرنامج التعليمي السهل خطوة بخطوة.
+### [إضافة عنصر فرعي إلى الجسم في Java – دليل Aspose.HTML الكامل](./append-child-to-body-in-java-full-aspose-html-tutorial/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
