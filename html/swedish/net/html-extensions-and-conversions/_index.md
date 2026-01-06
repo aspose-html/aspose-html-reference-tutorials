@@ -38,6 +38,7 @@ Aspose.HTML för .NET är inte bara ett bibliotek; det är en spelomvandlare i w
 
 ## Tutorials för HTML-tillägg och omvandlingar
 
+
 ### [Konvertera HTML till PDF i .NET med Aspose.HTML](./convert-html-to-pdf/)
 Konvertera HTML till PDF utan ansträngning med Aspose.HTML för .NET. Följ vår steg-för-steg-guide och släpp lös kraften i HTML-till-PDF-konvertering.
 ### [Skapa PDF från URL – Komplett C#-guide](./create-pdf-from-url-complete-c-guide/)
@@ -82,6 +83,8 @@ Lär dig hur du skapar en anpassad resurs‑hanterare i C# för att packa HTML�
 Lär dig hur du skapar en zip‑fil i minnet med C# för att komprimera HTML‑innehåll steg för steg.
 ### [Konvertera HTML till PDF med Aspose.HTML – Fullständig steg‑för‑steg‑guide](./convert-html-to-pdf-with-aspose-html-full-step-by-step-guide/)
 Lär dig att konvertera HTML till PDF med Aspose.HTML i en komplett steg‑för‑steg‑guide.
+### [Konvertera HTML till ZIP i C# – Komplett guide](./convert-html-to-zip-in-c-complete-guide/)
+Konvertera HTML till ZIP i C# med Aspose.HTML för .NET. En steg-för-steg-guide för att paketera HTML som ZIP‑arkiv.
 ## Slutsats
 
 Sammanfattningsvis är HTML-tillägg och konverteringar viktiga delar av modern webbutveckling. Aspose.HTML för .NET förenklar processen och gör den tillgänglig för utvecklare på alla nivåer. Genom att följa våra tutorials kommer du att vara på god väg att bli en skicklig webbutvecklare med en bred kompetens.

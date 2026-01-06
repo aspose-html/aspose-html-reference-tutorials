@@ -37,6 +37,7 @@ Vytváření obrázků je jen prvním krokem. Aspose.HTML pro .NET vám umožňu
 Integrace Aspose.HTML for .NET do vašich projektů .NET je bezproblémová. Knihovna je navržena tak, aby plynule splynula s vaším stávajícím kódem, což z ní činí vynikající volbu pro vývojáře. Můžete jej použít k vylepšení vašich aplikací o možnosti generování obrázků bez námahy.
 
 ## Výukové programy pro generování obrázků JPG a PNG
+
 ### [Generujte obrázky JPG pomocí ImageDevice v .NET pomocí Aspose.HTML](./generate-jpg-images-by-imagedevice/)
 Naučte se vytvářet dynamické webové stránky pomocí Aspose.HTML for .NET. Tento výukový program krok za krokem pokrývá předpoklady, jmenné prostory a vykreslování HTML do obrázků.
 ### [Generujte obrázky PNG pomocí ImageDevice v .NET pomocí Aspose.HTML](./generate-png-images-by-imagedevice/)
@@ -53,7 +54,8 @@ Podrobný návod, jak převést HTML na PNG pomocí Aspose.HTML s praktickými t
 Naučte se, jak pomocí Aspose.HTML v C# převést HTML na obrázek pomocí podrobného krok‑za‑krokového návodu.
 ### [Převod docx na png v C# – Kompletní průvodce](./convert-docx-to-png-in-c-full-step-by-step-guide/)
 Naučte se převést soubory DOCX na PNG v C# pomocí podrobného krok‑za‑krokového návodu.
-
+### [Vykreslení HTML do PNG v C# – krok za krokem](./render-html-to-png-in-c-step-by-step-guide/)
+Naučte se, jak pomocí Aspose.HTML for .NET převést HTML na PNG v jazyce C# pomocí podrobných kroků.
 ## Závěr
 
 Na závěr, Aspose.HTML for .NET poskytuje uživatelsky přívětivé a výkonné řešení pro generování obrázků JPG a PNG z obsahu HTML. Ať už jste zkušený vývojář nebo teprve začínáte, tyto výukové programy vás provedou celým procesem. Vytvářejte vizuálně přitažlivé obrázky, které vynikají a pozvednou vaše projekty pomocí Aspose.HTML for .NET.

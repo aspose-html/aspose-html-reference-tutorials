@@ -38,6 +38,7 @@ Aspose.HTML dla .NET to nie tylko biblioteka; to przełom w świecie tworzenia s
 
 ## Samouczki dotyczące rozszerzeń i konwersji HTML
 
+
 ### [Konwertuj HTML do PDF w .NET za pomocą Aspose.HTML](./convert-html-to-pdf/)
 Konwertuj HTML do PDF bez wysiłku dzięki Aspose.HTML dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku i uwolnij moc konwersji HTML do PDF.
 ### [Utwórz PDF z URL – Kompletny przewodnik C#](./create-pdf-from-url-complete-c-guide/)
@@ -82,6 +83,8 @@ Poznaj, jak w C# stworzyć własny handler zasobów, aby konwertować pliki HTML
 Kompletny przewodnik krok po kroku, jak konwertować HTML do PDF przy użyciu Aspose.HTML w .NET.
 ### [Utwórz plik zip w C# – Przewodnik krok po kroku, jak spakować HTML w pamięci](./create-zip-file-c-step-by-step-guide-to-zip-html-in-memory/)
 Dowiedz się, jak w C# utworzyć plik zip w pamięci, pakując HTML przy użyciu Aspose.HTML.
+### [Konwertuj HTML do ZIP w C# – Kompletny przewodnik](./convert-html-to-zip-in-c-complete-guide/)
+Dowiedz się, jak zamienić pliki HTML w archiwum ZIP przy użyciu Aspose.HTML w C#. Kompletny przewodnik krok po kroku.
 ## Wniosek
 
 Podsumowując, rozszerzenia i konwersje HTML są niezbędnymi elementami nowoczesnego rozwoju sieci. Aspose.HTML dla .NET upraszcza proces i czyni go dostępnym dla programistów na każdym poziomie. Postępując zgodnie z naszymi samouczkami, będziesz na dobrej drodze do stania się biegłym programistą sieciowym o szerokim zestawie umiejętności.

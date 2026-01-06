@@ -38,6 +38,7 @@ Az Aspose.HTML for .NET nem csak egy könyvtár; ez egy változás a webfejleszt
 
 ## HTML-kiterjesztések és -konverziók oktatóanyagok
 
+
 ### [PDF létrehozása URL-ből – Teljes C# útmutató](./create-pdf-from-url-complete-c-guide/)
 ### [Konvertálja a HTML-t PDF-be .NET-ben az Aspose.HTML-lel](./convert-html-to-pdf/)
 ### [Az Aspose.HTML segítségével EPUB-t konvertáljon képpé .NET-ben](./convert-epub-to-image/)
@@ -67,6 +68,8 @@ Ismerje meg, hogyan használhat egyéni erőforráskezelőt a HTML ZIP-archívum
 ### [HTML konvertálása PDF-be az Aspose.HTML segítségével – Teljes lépésről‑lépésre útmutató](./convert-html-to-pdf-with-aspose-html-full-step-by-step-guide/)
 Részletes útmutató a HTML PDF-be konvertálásához az Aspose.HTML for .NET használatával, lépésről‑lépésre példákkal.
 ### [Zip fájl létrehozása C# – Lépésről‑lépésre útmutató a HTML memóriában történő tömörítéséhez](./create-zip-file-c-step-by-step-guide-to-zip-html-in-memory/)
+### [HTML konvertálása ZIP-be C#-ban – Teljes útmutató](./convert-html-to-zip-in-c-complete-guide/)
+Ismerje meg, hogyan konvertálhat HTML-t ZIP-archívummá C#-ban az Aspose.HTML for .NET segítségével. Lépésről lépésre útmutató.
 ## Következtetés
 
 Összefoglalva, a HTML-kiterjesztések és -konverziók a modern webfejlesztés elengedhetetlen elemei. Az Aspose.HTML for .NET leegyszerűsíti a folyamatot, és minden szinten elérhetővé teszi a fejlesztők számára. Ha követi oktatóanyagainkat, jó úton halad afelé, hogy széles készségekkel rendelkező, gyakorlott webfejlesztővé váljon.

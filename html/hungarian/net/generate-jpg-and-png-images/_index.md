@@ -37,6 +37,7 @@ A képek létrehozása csak az első lépés. Az Aspose.HTML for .NET lehetővé
 Az Aspose.HTML for .NET integrálása a .NET-projektekbe problémamentes. A könyvtárat úgy tervezték, hogy zökkenőmentesen illeszkedjen a meglévő kódhoz, így kiváló választás a fejlesztők számára. Segítségével könnyedén bővítheti alkalmazásait képgenerálási képességekkel.
 
 ## JPG és PNG képek oktatóanyagok létrehozása
+
 ### [JPG képek létrehozása ImageDevice segítségével .NET-ben az Aspose.HTML segítségével](./generate-jpg-images-by-imagedevice/)
 Ismerje meg, hogyan hozhat létre dinamikus weboldalakat az Aspose.HTML for .NET használatával. Ez a lépésenkénti oktatóanyag az előfeltételeket, a névtereket és a HTML képekben való megjelenítését ismerteti.
 ### [PNG-képek létrehozása ImageDevice segítségével .NET-ben az Aspose.HTML-lel](./generate-png-images-by-imagedevice/)
@@ -53,7 +54,8 @@ Ismerje meg, hogyan konvertálhat HTML-t PNG képpé az Aspose.HTML könyvtár s
 Ismerje meg, hogyan konvertálhat HTML-t PNG képpé az Aspose.HTML segítségével részletes, lépésről‑lépésre útmutatóval.
 ### [Kép létrehozása HTML-ből C#‑ban – Lépésről‑lépésre útmutató](./create-image-from-html-in-c-step-by-step-guide/)
 Ismerje meg, hogyan konvertálhat HTML-t képpé C#‑ban az Aspose.HTML segítségével részletes, lépésről‑lépésre útmutatóval.
-
+### [HTML renderelése PNG-be C#‑ban – Lépésről‑lépésre útmutató](./render-html-to-png-in-c-step-by-step-guide/)
+Ismerje meg, hogyan renderelhet HTML-t PNG formátumba C#‑ban az Aspose.HTML segítségével, részletes lépésekkel.
 ## Következtetés
 
 Összefoglalva, az Aspose.HTML for .NET felhasználóbarát és hatékony megoldást kínál JPG és PNG képek előállítására HTML tartalomból. Akár tapasztalt fejlesztő, akár csak most kezdő, ezek az oktatóanyagok végigvezetik a folyamaton. Az Aspose.HTML for .NET segítségével vizuálisan tetszetős képeket készíthet, amelyek kiemelkednek, és kiemelik projektjeit.

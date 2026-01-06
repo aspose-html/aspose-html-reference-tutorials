@@ -38,6 +38,7 @@ Aspose.HTML for .NET は単なるライブラリではありません。Web 開�
 
 ## HTML 拡張と変換のチュートリアル
 
+
 ### [Aspose.HTML を使用して .NET で HTML を PDF に変換する](./convert-html-to-pdf/)
 Aspose.HTML for .NET を使用すると、HTML を PDF に簡単に変換できます。ステップ バイ ステップ ガイドに従って、HTML から PDF への変換のパワーを解放しましょう。
 ### [HTML から PDF を作成する – C# ステップバイステップ ガイド](./create-pdf-from-html-c-step-by-step-guide/)
@@ -70,6 +71,8 @@ Aspose.HTML for .NET を使用して、C# でカスタム リソース ハンド
 Aspose.HTML を使用して、HTML を PDF に変換する完全なステップバイステップガイドです。コード例と詳細な手順で変換をマスターしましょう。
 ### [C#でZIPファイルを作成 – メモリ内HTMLを圧縮するステップバイステップガイド](./create-zip-file-c-step-by-step-guide-to-zip-html-in-memory/)
 C# と Aspose.HTML を使用して、メモリ上のHTMLコンテンツをZIPファイルに圧縮する方法をステップごとに解説します。
+### [C# で HTML を ZIP に変換する – 完全ガイド](./convert-html-to-zip-in-c-complete-guide/)
+Aspose.HTML for .NET を使用して、HTML を ZIP に変換する方法を学びます。ステップバイステップのガイドで簡単に圧縮できます。
 ## 結論
 
 結論として、HTML の拡張と変換は、現代の Web 開発に不可欠な要素です。Aspose.HTML for .NET はプロセスを簡素化し、あらゆるレベルの開発者が利用できるようにします。当社のチュートリアルに従うことで、幅広いスキルを備えた熟練した Web 開発者になるための道を順調に進むことができます。
