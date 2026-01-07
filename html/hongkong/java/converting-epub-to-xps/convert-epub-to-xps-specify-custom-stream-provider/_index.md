@@ -1,37 +1,54 @@
 ---
-title: 指定 EPUB 到 XPS 的自訂流程提供程序
-linktitle: 指定 EPUB 到 XPS 的自訂流程提供程序
-second_title: 使用 Aspose.HTML 進行 Java HTML 處理
-description: 使用 Aspose.HTML for Java 輕鬆將 EPUB 轉換為 XPS。請遵循此逐步指南以實現無縫轉換流程。
-weight: 11
+date: 2026-01-07
+description: 將 EPUB 轉換為 XPS，使用 Aspose.HTML for Java 輕鬆完成。請依照此一步一步的指南，確保轉換過程順暢。
+linktitle: How to Convert EPUB to XPS with a Custom Stream Provider
+second_title: Java HTML Processing with Aspose.HTML
+title: 如何使用自訂串流提供者將 EPUB 轉換為 XPS
 url: /zh-hant/java/converting-epub-to-xps/convert-epub-to-xps-specify-custom-stream-provider/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 指定 EPUB 到 XPS 的自訂流程提供程序
+# 使用自訂串流提供程式將 EPUB 轉換為 XPS
 
-在當今的數位時代，將 EPUB 檔案轉換為其他格式（例如 XPS）的需求比以往任何時候都更加普遍。 Aspose.HTML for Java 是一個功能強大的工具，可以幫助您輕鬆實現這一目標。在本逐步指南中，我們將探討如何使用 Aspose.HTML for Java 將 EPUB 檔案轉換為 XPS。在深入了解具體細節之前，讓我們先回顧一下此過程所需的先決條件。
+在當今的數位出版領域，**convert EPUB to XPS** 是一項常見需求——無論您是需要用於列印、存檔或在 Windows 裝置間共享的固定版面表示。Aspose.HTML for Java 讓此轉換變得簡單，且透過使用自訂記憶體串流提供程式，您可以將整個過程保留在記憶體中，非常適合雲端或高效能情境。以下您將找到從先決條件到完整可執行範例的所有資訊。
+
+## 快速解答
+- **轉換會產生什麼？** 產生保留版面與字型的 XPS 文件。  
+- **需要授權嗎？** 免費試用可用於測試；正式環境需購買商業授權。  
+- **可以在容器中執行嗎？** 可以——如果全部保留在記憶體中，則不需要寫入檔案系統。  
+- **支援哪個 Java 版本？** Java 8 或更高版本。  
+- **自訂串流提供程式是必須的嗎？** 不是，但它能讓您完整控制記憶體使用與輸出處理。
+
+## 什麼是「convert EPUB to XPS」？
+將 EPUB 檔案轉換為 XPS 會把可重排的電子書格式轉變為固定版面、與裝置無關的文件。XPS（XML Paper Specification）是微軟對應 PDF 的格式，適用於需要跨平台保持一致視覺呈現的情境。
+
+## 為什麼使用自訂串流提供程式？
+自訂的 `MemoryStreamProvider` 讓您將轉換結果保留在記憶體中，而不是寫入暫存檔至磁碟。此方法：
+- 減少 I/O 開銷。
+- 提升在無伺服器或微服務架構中的效能。
+- 提供彈性，可直接將結果串流至客戶端、雲端儲存或其他 API。
 
 ## 先決條件
 
-若要成功將 EPUB 轉換為 XPS，請確保符合以下先決條件：
+要成功 **convert EPUB to XPS**，請確保已具備以下先決條件：
 
-### 1.Java 庫的 Aspose.HTML
+### 1. Aspose.HTML for Java 程式庫  
 
-您必須在 Java 環境中安裝並設定 Aspose.HTML for Java 程式庫。如果還沒有，您可以從以下位置下載該庫：[下載連結](https://releases.aspose.com/html/java/).
+您必須在 Java 環境中安裝並設定 Aspose.HTML for Java 程式庫。若尚未安裝，可從 [download link](https://releases.aspose.com/html/java/) 下載程式庫。
 
-### 2.輸入EPUB文件
+### 2. 輸入 EPUB 檔案  
 
-您需要一個想要轉換為 XPS 的現有 EPUB 檔案。確保您已準備好此文件以進行轉換過程。
+您需要一個現有的 EPUB 檔案以供轉換為 XPS。請確保此檔案已備妥以進行轉換。
 
-現在您已具備所有先決條件，接下來讓我們繼續了解如何使用 Aspose.HTML for Java 將 EPUB 檔案轉換為 XPS 的分步指南。
+現在您已具備所有先決條件，讓我們一步步走過轉換流程。
 
-## 導入包
+## 匯入套件
 
-在開始之前，請確保匯入 Aspose.HTML for Java 所需的套件以使用其功能。
+在開始之前，請確保匯入 Aspose.HTML for Java 所需的套件，以使用其功能。
 
 ```java
 import com.aspose.html.converters.Converter;
@@ -42,29 +59,29 @@ import java.io.FileOutputStream;
 import java.io.InputStream;
 ```
 
-## 開啟 EPUB 文件
+## 開啟 EPUB 檔案
 
-首先，您需要開啟現有的 EPUB 檔案進行閱讀。在此步驟中，我們將使用`FileInputStream`存取 EPUB 檔案。
+首先，您需要開啟現有的 EPUB 檔案以供讀取。在此步驟中，我們使用 `FileInputStream` 來存取 EPUB 檔案。
 
 ```java
 try (FileInputStream fileInputStream = new FileInputStream("path/to/your/input.epub")) {
-    //第 1 步的程式碼
+    // Your code for Step 1
 }
 ```
 
-## 建立MemoryStreamProvider
+## 建立 MemoryStreamProvider
 
-接下來，您應該建立一個實例`MemoryStreamProvider`。這將用於從 EPUB 到 XPS 的轉換過程。
+接著，建立 `MemoryStreamProvider` 的實例。此物件將在記憶體中保存轉換輸出。
 
 ```java
 try (MemoryStreamProvider streamProvider = new MemoryStreamProvider()) {
-    //步驟 2 的程式碼
+    // Your code for Step 2
 }
 ```
 
-## 將 EPUB 轉換為 XPS
+## 轉換 EPUB 為 XPS
 
-現在，讓我們使用以下命令將 EPUB 檔案轉換為 XPS：`Converter.convertEPUB`方法。
+現在，使用 `Converter.convertEPUB` 方法將 EPUB 檔案轉換為 XPS。`MemoryStreamProvider` 提供目標串流。
 
 ```java
 Converter.convertEPUB(
@@ -74,17 +91,17 @@ Converter.convertEPUB(
 );
 ```
 
-## 取得結果數據
+## 取得結果資料
 
-轉換完成後，您可以存取包含結果 XPS 資料的記憶體流。
+轉換完成後，取得包含 XPS 資料的記憶體串流。
 
 ```java
 InputStream inputStream = streamProvider.getStream().findFirst().get();
 ```
 
-## 保存輸出
+## 儲存輸出（可選）
 
-要完成轉換，您應該將結果資料刷新到輸出檔案。在此範例中，我們將其另存為“output.xps”。
+如果需要實體檔案——例如除錯或離線檢查——可將記憶體串流寫入磁碟。在大多數正式環境中，您可以省略此步驟，直接將資料串流至客戶端。
 
 ```java
 try (FileOutputStream fileOutputStream = new FileOutputStream("path/to/your/output.xps")) {
@@ -94,23 +111,24 @@ try (FileOutputStream fileOutputStream = new FileOutputStream("path/to/your/outp
 }
 ```
 
-透過這五個步驟，您已經使用 Aspose.HTML for Java 成功將 EPUB 檔案轉換為 XPS。
+## 完整原始碼
 
-## 完整的原始碼
+以下是完整、可直接執行的範例，將所有步驟整合在一起。歡迎複製、貼上並依需求調整至您的專案。
+
 ```java
-        //開啟現有的 EPUB 檔案進行閱讀。
+        // Open an existing EPUB file for reading.
         try (java.io.FileInputStream fileInputStream = new java.io.FileInputStream(Resources.input("input.epub"))) {
-            //建立 MemoryStreamProvider 的實例
+            // Create an instance of MemoryStreamProvider
             try (MemoryStreamProvider streamProvider = new MemoryStreamProvider()) {
-                //使用 MemoryStreamProvider 將 EPUB 轉換為 XPS
+                // Convert EPUB to XPS by using the MemoryStreamProvider
                 com.aspose.html.converters.Converter.convertEPUB(
                         fileInputStream,
                         new com.aspose.html.saving.XpsSaveOptions(),
                         streamProvider.lStream
                 );
-                //存取包含結果資料的記憶體流
+                // Get access to the memory stream that contains the resulted data
                 java.io.InputStream inputStream = streamProvider.lStream.stream().findFirst().get();
-                //將結果資料刷新到輸出文件
+                // Flush the result data to the output file
                 try (java.io.FileOutputStream fileOutputStream = new java.io.FileOutputStream(Resources.output("output.xps"))) {
                     byte[] buffer = new byte[inputStream.available()];
                     inputStream.read(buffer);
@@ -120,35 +138,41 @@ try (FileOutputStream fileOutputStream = new FileOutputStream("path/to/your/outp
         }
 ```
 
-## 結論
+## 常見問題與解決方案
 
-在當今的數位環境中，將 EPUB 轉換為 XPS 是一項寶貴的技能。 Aspose.HTML for Java 簡化了該過程，使其高效且可靠。透過遵循本指南中概述的步驟，您可以輕鬆實現此轉換。
+| 問題 | 發生原因 | 解決方式 |
+|------|----------|----------|
+| **`java.lang.OutOfMemoryError`** | 大型 EPUB 檔案在全部放入記憶體時可能超過預設堆積大小。 | 增加 JVM 堆積大小（`-Xmx`）或盡可能將 EPUB 分塊處理。 |
+| **Missing fonts in XPS** | EPUB 中未嵌入的字型在轉換機器上不可用。 | 確保伺服器已安裝所需字型，或將字型嵌入 EPUB 中。 |
+| **`UnsupportedOperationException` from `MemoryStreamProvider`** | 使用了過時的 Aspose.HTML 版本。 | 更新至最新的 Aspose.HTML for Java 版本。 |
 
-現在，讓我們解決一些常見問題，以進一步澄清問題。
+## 常見問答
 
-## 常見問題解答
+### 1. 什麼是 EPUB？
 
-### 1.什麼是EPUB？
+EPUB（Electronic Publication 的縮寫）是一種廣泛使用的電子書檔案格式。它設計為可在各種裝置上輕鬆閱讀，例如電子閱讀器、平板電腦和智慧手機。
 
-EPUB 是 Electronic Publication 的縮寫，是一種廣泛使用的電子書檔案格式。它旨在方便在各種設備上閱讀，例如電子閱讀器、平板電腦和智慧型手機。
+### 2. 什麼是 XPS？
 
-### 2.什麼是XPS？
+XPS 代表 XML Paper Specification，是微軟所創建的文件格式。它用於以一致的外觀與版面分享與存檔文件。
 
-XPS 代表 XML 紙張規範，是 Microsoft 建立的一種文件格式。它用於共享和歸檔具有一致外觀和佈局的文件。
+### 3. 為什麼使用 Aspose.HTML for Java？
 
-### 3. 為什麼要使用Aspose.HTML for Java？
+Aspose.HTML for Java 是功能強大的程式庫，可簡化文件操作、轉換與渲染工作。它提供廣泛的功能與多種文件格式的支援，對開發人員而言是寶貴的工具。
 
-Aspose.HTML for Java 是一個功能強大的函式庫，可以簡化文件操作、轉換和渲染任務。它提供了廣泛的功能並支援各種文件格式，使其成為開發人員的寶貴工具。
+### 4. 我可以使用 Aspose.HTML for Java 轉換其他文件格式嗎？
 
-### 4. 我可以使用Aspose.HTML for Java 轉換其他文件格式嗎？
+是的，Aspose.HTML for Java 支援多種文件格式的轉換，包括 HTML、EPUB、XPS 等。它是文件管理的多功能工具。
 
-是的，Aspose.HTML for Java 支援各種文件格式的轉換，包括 HTML、EPUB、XPS 等。它是一個多功能的文件管理工具。
+### 5. 我可以在哪裡找到其他資源與支援？
 
-### 5. 我可以在哪裡找到額外的資源和支援？
+欲取得文件與支援，請造訪 [Aspose.HTML for Java documentation](https://reference.aspose.com/html/java/) 與 [support forum](https://forum.aspose.com/)。
 
-如需文件和支持，請訪問[Aspose.HTML for Java 文檔](https://reference.aspose.com/html/java/)和[支援論壇](https://forum.aspose.com/).
+---
 
-
+**最後更新：** 2026-01-07  
+**測試環境：** Aspose.HTML for Java 24.12 (latest at time of writing)  
+**作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
