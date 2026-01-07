@@ -132,6 +132,8 @@ Aspose.HTML 允许您将 `DomMutationObserver` 附加到任意节点。这对于
 ### [使用 Aspose.HTML for Java 调整 XPS 页面尺寸](./adjust-xps-page-size/)
 学习如何使用 Aspose.HTML for Java 调整 XPS 页面尺寸。轻松控制 XPS 文档的输出尺寸。
 
+### [从 MHTML 提取 HTML – 完整 Java 指南](./extract-html-from-mhtml-complete-java-guide/)
+
 ---
 **最后更新：** 2025-11-29  
 **测试环境：** Aspose.HTML for Java 24.11  

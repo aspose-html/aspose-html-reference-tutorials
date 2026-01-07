@@ -29,7 +29,7 @@ V moderním vývoji webu může jemné doladění vzhledu výstupu HTML výrazn�
 Přidání číslování stránek znamená vložení běžícího zápatí (nebo záhlaví), které automaticky čísluje každou stránku při převodu HTML do PDF, XPS nebo při tisku. Aspose.HTML poskytuje programatický způsob, jak toto zápatí definovat, aniž byste museli HTML upravovat ručně.
 
 ## Proč přizpůsobovat okraje a číslování stránek?
-- **Profesionální zprávy** – Konzistentní okraje a číslování stránek dodají vašim dokumentům uhlazený vzhled.  
+- **Profesionální zprávy** – Konsistentní okraje a číslování stránek dodají vašim dokumentům uhlazený vzhled.  
 - **Soulad s předpisy** – Některé normy vyžadují specifické velikosti okrajů a číslování stránek.  
 - **Lepší konverze do PDF** – Přesné okraje zabraňují oříznutí obsahu při generování PDF z HTML.
 
@@ -92,7 +92,7 @@ Při převodu HTML do PDF nebo XPS často potřebujete řídit konečné rozměr
 | **E‑learning certifikáty** | Automatické číslování pro vícestránkové certifikáty. |
 | **Hromadné zpracování formulářů** | Automatizace zadávání dat, snížení manuálních chyb. |
 | **Server‑side vykreslování grafů** | Generování PDF z canvas grafů bez zásahu klienta. |
-| **Archivace právních dokumentů** | Konzistentní velikost stránky při konverzi do PDF/XPS. |
+| **Archivace právních dokumentů** | Konsistentní velikost stránky při konverzi do PDF/XPS. |
 
 ## Často kladené otázky
 
@@ -114,18 +114,27 @@ A: Ne. Jedna licence Aspose.HTML pro Java pokrývá všechny výstupní formáty
 ## Pokročilé použití tutoriálů Aspose.HTML Java
 ### [Přizpůsobení okrajů HTML stránky s Aspose.HTML](./css-extensions-adding-title-page-number/)
 Naučte se přizpůsobit okraje stránky, přidat číslování stránek a titulky do HTML dokumentů pomocí Aspose.HTML pro Java.
+
 ### [DOM Mutation Observer s Aspose.HTML pro Java](./dom-mutation-observer-observing-node-additions/)
 Naučte se používat Aspose.HTML pro Java k implementaci DOM Mutation Observeru v tomto krok‑za‑krokem průvodci. Efektivně monitorujte a reagujte na změny DOM.
+
 ### [Manipulace s HTML5 Canvas pomocí Aspose.HTML pro Java](./html5-canvas-manipulation-using-code/)
 Naučte se manipulovat s HTML5 Canvas pomocí Aspose.HTML pro Java. Vytvářejte interaktivní grafiku s podrobným návodem.
+
 ### [Manipulace s HTML5 Canvas pomocí Aspose.HTML pro Java](./html5-canvas-manipulation-using-javascript/)
 Naučte se manipulovat s HTML5 Canvas pomocí JavaScriptu a Aspose.HTML pro Java. Vytvářejte dynamické grafiky a převádějte je do PDF.
+
 ### [Automatizace vyplňování HTML formulářů s Aspose.HTML pro Java](./html-form-editor-filling-submitting-forms/)
 Naučte se automatizovat vyplňování a odesílání HTML formulářů s Aspose.HTML pro Java. Zjednodušte webovou interakci pomocí tohoto tutoriálu.
+
 ### [Úprava velikosti PDF stránky s Aspose.HTML pro Java](./adjust-pdf-page-size/)
 Naučte se upravit velikost PDF stránky s Aspose.HTML pro Java. Vytvářejte vysoce kvalitní PDF z HTML bez námahy. Efektivně kontrolujte rozměry stránky.
+
 ### [Úprava velikosti XPS stránky s Aspose.HTML pro Java](./adjust-xps-page-size/)
 Naučte se upravit velikost XPS stránky s Aspose.HTML pro Java. Jednoduše kontrolujte výstupní rozměry vašich XPS dokumentů.
+
+### [Extrahování HTML z MHTML – Kompletní průvodce pro Javu](./extract-html-from-mhtml-complete-java-guide/)
+Naučte se, jak pomocí Aspose.HTML pro Java extrahovat HTML obsah z MHTML souborů a pracovat s ním.
 
 ---
 

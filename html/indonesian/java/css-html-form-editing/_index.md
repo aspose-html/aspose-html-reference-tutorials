@@ -30,6 +30,9 @@ Sekarang, mari kita beralih ke cara lain dan menjelajahi cara mengedit dan mengi
 Pelajari cara menggunakan Aspose.HTML untuk Java guna menerapkan teknik CSS tingkat lanjut, termasuk margin halaman khusus dan konten dinamis. Tutorial terperinci dan praktis untuk pengembang.
 ### [Pengeditan dan Pengiriman Formulir HTML dengan Aspose.HTML untuk Java](./html-form-editing/)
 Pelajari cara mengedit dan mengirimkan formulir HTML secara terprogram menggunakan Aspose.HTML untuk Java dalam panduan langkah demi langkah yang komprehensif ini.
+### [Dapatkan Gaya Terhitung Java – Ekstrak Warna Latar Belakang dari HTML](./get-computed-style-java-extract-background-color-from-html/)
+Pelajari cara menggunakan Aspose.HTML untuk Java guna mengambil gaya terhitung dan mengekstrak warna latar belakang dari elemen HTML.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

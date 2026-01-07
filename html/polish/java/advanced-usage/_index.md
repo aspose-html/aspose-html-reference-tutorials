@@ -126,6 +126,8 @@ Poznaj metodę automatycznego wypełniania i wysyłania formularzy HTML przy uż
 Naucz się regulować rozmiar stron PDF przy użyciu Aspose.HTML dla Javy. Twórz wysokiej jakości PDF‑y z HTML bez wysiłku. Skutecznie kontroluj wymiary stron.
 ### [Dostosowanie rozmiaru strony XPS z Aspose.HTML dla Javy](./adjust-xps-page-size/)
 Dowiedz się, jak regulować rozmiar stron XPS przy użyciu Aspose.HTML dla Javy. Łatwo kontroluj wymiary wyjściowe dokumentów XPS.
+### [Wyodrębnij HTML z MHTML – Kompletny przewodnik Java](./extract-html-from-mhtml-complete-java-guide/)
+Dowiedz się, jak wyodrębnić kod HTML z plików MHTML przy użyciu Aspose.HTML dla Javy, krok po kroku.
 
 ---
 

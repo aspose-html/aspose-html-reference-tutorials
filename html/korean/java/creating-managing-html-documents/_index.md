@@ -62,6 +62,9 @@ Aspose.HTML을 사용하여 Java에서 URL에서 HTML 문서를 쉽게 로드하
 이 단계별 가이드를 통해 Aspose.HTML for Java에서 문서 로드 이벤트를 처리하는 방법을 알아보세요. 웹 애플리케이션을 강화하세요.
 ### [Java용 Aspose.HTML에서 SVG 문서 만들기 및 관리](./create-manage-svg-documents/)
 Java용 Aspose.HTML을 사용하여 SVG 문서를 만들고 관리하는 방법을 알아보세요! 이 포괄적인 가이드는 기본 생성부터 고급 조작까지 모든 것을 다룹니다.
+### [Java에서 JavaScript로 HTML 생성 – 완전 단계별 가이드](./generate-html-from-javascript-in-java-complete-step-by-step/)
+Aspose.HTML for Java를 사용하여 Java에서 JavaScript를 실행하고 HTML을 생성하는 방법을 단계별로 안내합니다.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

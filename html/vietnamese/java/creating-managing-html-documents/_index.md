@@ -62,6 +62,9 @@ Tìm hiểu cách tạo tài liệu HTML mới bằng Aspose.HTML cho Java với
 Học cách xử lý các sự kiện tải tài liệu trong Aspose.HTML cho Java với hướng dẫn từng bước này. Nâng cao ứng dụng web của bạn.
 ### [Tạo và quản lý tài liệu SVG trong Aspose.HTML cho Java](./create-manage-svg-documents/)
 Học cách tạo và quản lý tài liệu SVG bằng Aspose.HTML cho Java! Hướng dẫn toàn diện này bao gồm mọi thứ từ việc tạo cơ bản đến thao tác nâng cao.
+### [Tạo HTML từ JavaScript trong Java – Hướng dẫn chi tiết từng bước](./generate-html-from-javascript-in-java-complete-step-by-step/)
+Tìm hiểu cách tạo HTML từ JavaScript trong Java bằng Aspose.HTML với hướng dẫn chi tiết từng bước.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

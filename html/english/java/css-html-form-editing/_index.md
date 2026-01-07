@@ -30,6 +30,9 @@ Now, let’s shift gears and explore how to effectively edit and submit HTML for
 Learn how to use Aspose.HTML for Java to apply advanced CSS techniques, including custom page margins and dynamic content. A detailed, hands-on tutorial for developers.
 ### [HTML Form Editing and Submission with Aspose.HTML for Java](./html-form-editing/)
 Learn how to edit and submit HTML forms programmatically using Aspose.HTML for Java in this comprehensive step-by-step guide.
+### [Get Computed Style Java – Extract Background Color from HTML](./get-computed-style-java-extract-background-color-from-html/)
+Learn how to extract the background color of HTML elements using Aspose.HTML for Java's computed style API.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -62,6 +62,9 @@ Lär dig hur du skapar nya HTML-dokument med Aspose.HTML för Java med denna enk
 Lär dig att hantera dokumentladdningshändelser i Aspose.HTML för Java med denna steg-för-steg-guide. Förbättra dina webbapplikationer.
 ### [Skapa och hantera SVG-dokument i Aspose.HTML för Java](./create-manage-svg-documents/)
 Lär dig att skapa och hantera SVG-dokument med Aspose.HTML för Java! Den här omfattande guiden täcker allt från grundläggande skapande till avancerad manipulation.
+### [Generera HTML från JavaScript i Java – Komplett steg‑för‑steg‑guide](./generate-html-from-javascript-in-java-complete-step-by-step/)
+Lär dig hur du kör JavaScript för att generera HTML i Java med vår detaljerade steg‑för‑steg‑guide.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

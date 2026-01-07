@@ -58,6 +58,8 @@ Aspose.HTML for Java を使用してストリームから HTML ドキュメン�
 Aspose.HTML を使用して、Java で URL から HTML ドキュメントを簡単に読み込む方法を説明します。ステップバイステップのチュートリアルが含まれています。
 ### [Aspose.HTML for Java を使用して新しい HTML ドキュメントを生成する](./generate-new-html-documents/)
 この簡単なステップバイステップ ガイドで、Aspose.HTML for Java を使用して新しい HTML ドキュメントを作成する方法を学びます。動的な HTML コンテンツの生成を開始します。
+### [Java で JavaScript から HTML を生成する – 完全ステップバイステップガイド](./generate-html-from-javascript-in-java-complete-step-by-step/)
+このステップバイステップ ガイドで、Java で JavaScript を使用して HTML を生成する方法を学びます。
 ### [Aspose.HTML for Java でドキュメント読み込みイベントを処理する](./handle-document-load-events/)
 このステップバイステップ ガイドで、Aspose.HTML for Java でドキュメント読み込みイベントを処理する方法を学習します。Web アプリケーションを強化します。
 ### [Aspose.HTML for Java で SVG ドキュメントを作成および管理する](./create-manage-svg-documents/)

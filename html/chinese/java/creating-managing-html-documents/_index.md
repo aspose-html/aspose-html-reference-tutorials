@@ -62,6 +62,9 @@ Aspose.HTML for Java 为开发人员提供了功能强大的工具包，旨在�
 通过本分步指南学习如何在 Aspose.HTML for Java 中处理文档加载事件。增强您的 Web 应用程序。
 ### [在 Aspose.HTML for Java 中创建和管理 SVG 文档](./create-manage-svg-documents/)
 学习使用 Aspose.HTML for Java 创建和管理 SVG 文档！本综合指南涵盖了从基本创建到高级操作的所有内容。
+### [在 Java 中从 JavaScript 生成 HTML – 完整分步指南](./generate-html-from-javascript-in-java-complete-step-by-step/)
+本指南详细演示如何在 Java 环境中执行 JavaScript 生成 HTML 内容的完整步骤，帮助您轻松实现动态页面渲染。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -56,7 +56,7 @@ Vložte škálovatelnou SVG grafiku přímo do PDF souborů bez ztráty kvality.
 ### Převod SVG do XPS (Java)
 Vytvořte XPS dokumenty ze zdrojů SVG pro spolehlivý tisk a sdílení.
 
-## Podrobné průvodce konverzí
+## Podrobné průvodce konverzemi
 
 ### Převod HTML do PDF
 Aspose.HTML for Java zjednodušuje workflow převodu HTML → PDF. Postupujte podle dedikovaného tutoriálu pro krok‑za‑krokem instrukce, tipy na konfiguraci a osvědčené postupy.
@@ -84,6 +84,8 @@ Na závěr, zvládnutí **html to pdf java** a širší sady konverzí odemyká 
 ## Konverze - Tutoriály pro HTML do jiných formátů
 ### [Převod HTML do PDF](./convert-html-to-pdf/)
 Naučte se převést HTML do PDF v Javě pomocí Aspose.HTML. Vytvářejte vysoce kvalitní PDF z vašeho HTML obsahu bez námahy.
+### [Vytvoření pevného thread poolu pro paralelní převod HTML do PDF](./create-fixed-thread-pool-for-parallel-html-to-pdf-conversion/)
+Naučte se, jak pomocí pevného thread poolu zrychlit paralelní konverzi více HTML souborů do PDF v Javě.
 ### [Převod HTML do MHTML](./convert-html-to-mhtml/)
 Jednoduše převádějte HTML do MHTML pomocí Aspose.HTML for Java. Postupujte podle našeho krok‑za‑krokem průvodce pro efektivní konverzi HTML‑to‑MHTML.
 ### [Převod HTML do XPS](./convert-html-to-xps/)
@@ -96,6 +98,8 @@ Naučte se převádět SVG na obrázky v Javě s Aspose.HTML. Kompletní průvod
 Převádějte SVG do PDF v Javě s Aspose.HTML. Bezproblémové řešení pro vysoce kvalitní konverzi dokumentů.
 ### [Převod SVG do XPS](./convert-svg-to-xps/)
 Naučte se převádět SVG do XPS s Aspose.HTML for Java. Jednoduchý, krok‑za‑krokem průvodce pro plynulé konverze.
+### [Převod HTML do Markdown – Kompletní průvodce pro C#](./convert-html-to-markdown-complete-c-guide/)
+Naučte se převádět HTML do Markdown v C# pomocí Aspose.HTML. Kompletní průvodce pro snadnou konverzi.
 
 ## Často kladené otázky
 
