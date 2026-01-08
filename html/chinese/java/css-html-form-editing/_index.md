@@ -30,6 +30,11 @@ url: /zh/java/css-html-form-editing/
 了解如何使用 Aspose.HTML for Java 应用高级 CSS 技术，包括自定义页边距和动态内容。面向开发人员的详细实践教程。
 ### [使用 Aspose.HTML for Java 编辑和提交 HTML 表单](./html-form-editing/)
 通过本全面的分步指南了解如何使用 Aspose.HTML for Java 以编程方式编辑和提交 HTML 表单。
+### [使用 Aspose.HTML for Java 解析 HTML：提取 CSS 属性并获取字体大小](./parse-html-with-java-extract-css-property-and-get-font-size/)
+学习如何使用 Aspose.HTML for Java 解析 HTML，提取 CSS 属性并获取字体大小，实现精准的样式分析。
+### [如何在 Java 中查询 HTML – 加载 HTML、CSS 选择器并提取标题](./how-to-query-html-in-java-load-html-css-selector-and-extract/)
+学习如何在 Java 中加载 HTML，使用 CSS 选择器，并提取标题文本的实用指南。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -30,6 +30,11 @@ url: /ko/java/css-html-form-editing/
 Aspose.HTML for Java를 사용하여 사용자 정의 페이지 여백 및 동적 콘텐츠를 포함한 고급 CSS 기술을 적용하는 방법을 알아보세요. 개발자를 위한 자세하고 실용적인 튜토리얼입니다.
 ### [Aspose.HTML for Java를 사용한 HTML 양식 편집 및 제출](./html-form-editing/)
 이 포괄적인 단계별 가이드를 통해 Java용 Aspose.HTML을 사용하여 HTML 양식을 프로그래밍 방식으로 편집하고 제출하는 방법을 알아보세요.
+### [Java로 HTML 파싱: CSS 속성 추출 및 글꼴 크기 가져오기](./parse-html-with-java-extract-css-property-and-get-font-size/)
+Java를 사용해 HTML을 파싱하고 CSS 속성을 추출하여 글꼴 크기를 확인하는 방법을 배웁니다.
+### [Java에서 HTML 쿼리하는 방법 – HTML 로드, CSS 선택자, 헤딩 추출](./how-to-query-html-in-java-load-html-css-selector-and-extract/)
+Java를 사용해 HTML을 로드하고 CSS 선택자를 이용해 헤딩을 추출하는 방법을 배웁니다.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

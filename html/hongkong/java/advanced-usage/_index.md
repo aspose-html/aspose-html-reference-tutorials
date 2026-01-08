@@ -132,6 +132,8 @@ A: 不需要。單一的 Aspose.HTML for Java 授權即涵蓋所有輸出格式�
 ### [使用 Aspose.HTML for Java 調整 XPS 頁面尺寸](./adjust-xps-page-size/)
 了解如何使用 Aspose.HTML for Java 調整 XPS 文件的輸出尺寸。
 
+### [如何在 Java 中執行腳本 – 完整指南：執行 JavaScript 與提取資料](./how-to-run-scripts-in-java-complete-guide-to-execute-javascr/)
+
 ---
 
 **最後更新日期：** 2025-11-29  

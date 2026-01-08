@@ -126,6 +126,8 @@ Ismerje meg, hogyan automatizálhatja a HTML űrlapok kitöltését és beküld�
 Tanulja meg, hogyan állíthatja be a PDF oldalméretet az Aspose.HTML for Java használatával. Készítsen magas minőségű PDF‑eket HTML‑ből könnyedén, és hatékonyan szabályozza az oldalméreteket.
 ### [XPS oldalméret beállítása Aspose.HTML for Java‑val](./adjust-xps-page-size/)
 Ismerje meg, hogyan állíthatja be az XPS oldalméretet az Aspose.HTML for Java segítségével. Könnyedén szabályozza XPS dokumentumai kimeneti méreteit.
+### [Hogyan futtassunk szkripteket Java-ban – Teljes útmutató a JavaScript végrehajtásához és adatok kinyeréséhez](./how-to-run-scripts-in-java-complete-guide-to-execute-javascr/)
+Ismerje meg, hogyan hajthatja végre a JavaScriptet Java környezetben, és hogyan nyerhet ki adatokat a szkriptekből.
 
 ---
 

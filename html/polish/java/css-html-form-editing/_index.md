@@ -30,6 +30,11 @@ Teraz zmieńmy biegi i zbadajmy, jak skutecznie edytować i przesyłać formular
 Dowiedz się, jak używać Aspose.HTML dla Java, aby stosować zaawansowane techniki CSS, w tym niestandardowe marginesy stron i dynamiczną zawartość. Szczegółowy, praktyczny samouczek dla programistów.
 ### [Edycja i przesyłanie formularzy HTML za pomocą Aspose.HTML dla Java](./html-form-editing/)
 Dowiedz się, jak edytować i przesyłać formularze HTML programowo, korzystając z Aspose.HTML for Java, dzięki temu kompleksowemu przewodnikowi krok po kroku.
+### [Parsowanie HTML w Javie: wyodrębnij właściwość CSS i uzyskaj rozmiar czcionki](./parse-html-with-java-extract-css-property-and-get-font-size/)
+Naucz się, jak w Javie analizować HTML, wyciągać właściwości CSS i określać rozmiar czcionki w prosty sposób.
+### [Jak zapytać HTML w Javie – wczytaj HTML, selektor CSS i wyodrębnij nagłówki](./how-to-query-html-in-java-load-html-css-selector-and-extract/)
+Dowiedz się, jak w Javie wczytywać dokumenty HTML, używać selektorów CSS i wyciągać nagłówki w prosty sposób.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

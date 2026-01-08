@@ -30,6 +30,10 @@ Most váltsunk sebességet, és fedezzük fel, hogyan lehet hatékonyan szerkesz
 Tanulja meg, hogyan használhatja az Aspose.HTML for Java-t fejlett CSS-technikák alkalmazására, beleértve az egyéni oldalmargókat és a dinamikus tartalmat. Részletes, gyakorlati útmutató fejlesztőknek.
 ### [HTML űrlap szerkesztése és benyújtása Aspose.HTML for Java segítségével](./html-form-editing/)
 Ebből az átfogó, lépésenkénti útmutatóból megtudhatja, hogyan szerkeszthet és küldhet be programozott HTML-űrlapokat az Aspose.HTML for Java használatával.
+### [HTML elemzése Java-val: CSS tulajdonság kinyerése és betűméret lekérése](./parse-html-with-java-extract-css-property-and-get-font-size/)
+Ismerje meg, hogyan lehet Java-val HTML-t elemezni, CSS‑tulajdonságokat kinyerni és a betűméretet meghatározni.
+### [HTML lekérdezése Java-val – HTML betöltése, CSS szelektor, és címsorok kinyerése](./how-to-query-html-in-java-load-html-css-selector-and-extract/)
+Ismerje meg, hogyan tölthet be HTML-t Java-ban, használhat CSS szelektorokat, és nyerheti ki a címsorokat.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

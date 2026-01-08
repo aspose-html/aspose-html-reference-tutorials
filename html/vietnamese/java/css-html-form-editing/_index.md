@@ -30,6 +30,11 @@ Bây giờ, hãy chuyển hướng và khám phá cách chỉnh sửa và gửi 
 Tìm hiểu cách sử dụng Aspose.HTML cho Java để áp dụng các kỹ thuật CSS nâng cao, bao gồm lề trang tùy chỉnh và nội dung động. Hướng dẫn thực hành chi tiết dành cho nhà phát triển.
 ### [Chỉnh sửa và gửi biểu mẫu HTML bằng Aspose.HTML cho Java](./html-form-editing/)
 Tìm hiểu cách chỉnh sửa và gửi biểu mẫu HTML theo chương trình bằng Aspose.HTML cho Java trong hướng dẫn từng bước toàn diện này.
+### [Phân tích HTML với Java: Trích xuất thuộc tính CSS và lấy kích thước phông chữ](./parse-html-with-java-extract-css-property-and-get-font-size/)
+Hướng dẫn cách phân tích HTML bằng Java để trích xuất thuộc tính CSS và xác định kích thước phông chữ.
+### [cách truy vấn HTML trong Java – tải HTML, CSS selector và trích xuất các tiêu đề](./how-to-query-html-in-java-load-html-css-selector-and-extract/)
+Hướng dẫn cách tải HTML, sử dụng CSS selector và trích xuất các tiêu đề trong Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

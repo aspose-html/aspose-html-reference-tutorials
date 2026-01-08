@@ -2,7 +2,7 @@
 date: 2025-12-10
 description: Erfahren Sie, wie Sie **PDF aus Canvas erstellen** mit Aspose.HTML für
   Java. Dieser Schritt‑für‑Schritt‑Leitfaden behandelt das Konvertieren von Canvas
-  zu PDF, die Grundlagen von Java HTML zu PDF und praktische Tipps.
+ zu PDF, die Grundlagen von Java HTML zu PDF und praktische Tipps.
 linktitle: Conversion - Canvas to PDF
 second_title: Java HTML Processing with Aspose.HTML
 title: PDF aus Canvas erstellen – Konvertierungstutorial
@@ -81,6 +81,8 @@ Nachdem Sie diesem Leitfaden gefolgt sind, wissen Sie jetzt, wie Sie mit Aspose.
 
 ### [HTML Canvas zu PDF konvertieren mit Aspose.HTML für Java](./canvas-to-pdf/)
 Erfahren Sie in dieser Schritt‑für‑Schritt‑Anleitung, wie Sie HTML Canvas mit Aspose.HTML für Java in PDF konvertieren.
+
+### [Wie man SVG zu PDF/A‑2b mit Java konvertiert – Vollständige Anleitung](./how-to-convert-svg-to-pdf-a-2b-with-java-complete-guide/)
 
 ## Häufig gestellte Fragen
 
