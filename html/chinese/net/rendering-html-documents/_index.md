@@ -42,16 +42,28 @@ Aspose.HTML for .NET 凭借其丰富的功能、出色的文档和活跃的社�
 
 ### [使用 Aspose.HTML 在 .NET 中将 HTML 渲染为 PNG](./render-html-as-png/)
 学习使用 Aspose.HTML for .NET：操作 HTML、转换为各种格式等等。深入了解这个全面的教程！
+
+### [如何将 HTML 渲染为 PNG – 步骤指南](./how-to-render-html-to-png-step-by-step-guide/)
+本分步指南教您使用 Aspose.HTML for .NET 将 HTML 文档渲染为高质量 PNG 图像。
+
+### [如何在 C# 中将 HTML 渲染为 PNG – 步骤指南](./how-to-render-html-to-png-in-c-step-by-step-guide/)
+本分步指南教您使用 Aspose.HTML for .NET 在 C# 中将 HTML 文档渲染为高质量 PNG 图像。
+
 ### [使用 Aspose.HTML 在 .NET 中将 EPUB 渲染为 XPS](./render-epub-as-xps/)
 在本综合教程中学习如何使用 Aspose.HTML for .NET 创建和呈现 HTML 文档。深入了解 HTML 操作、网页抓取等世界。
+
 ### [使用 Aspose.HTML 在 .NET 中渲染超时](./rendering-timeout/)
 了解如何在 Aspose.HTML for .NET 中有效控制渲染超时。探索渲染选项并确保流畅的 HTML 文档渲染。
+
 ### [使用 Aspose.HTML 在 .NET 中将 MHTML 渲染为 XPS](./render-mhtml-as-xps/)
  学习使用 Aspose.HTML 在 .NET 中将 MHTML 渲染为 XPS。增强您的 HTML 操作技能并促进您的 Web 开发项目！
+
 ### [使用 Aspose.HTML 在 .NET 中渲染多个文档](./render-multiple-documents/)
 学习使用 Aspose.HTML for .NET 渲染多个 HTML 文档。利用这个强大的库提升您的文档处理能力。
+
 ### [使用 Aspose.HTML 在 .NET 中将 SVG 文档渲染为 PNG](./render-svg-doc-as-png/)
 解锁 Aspose.HTML for .NET 的强大功能！了解如何轻松将 SVG Doc 渲染为 PNG。深入了解分步示例和常见问题解答。立即开始！
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

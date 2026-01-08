@@ -35,6 +35,9 @@ url: /th/net/working-with-html-documents/
 ### [การแก้ไขเอกสารใน .NET ด้วย Aspose.HTML](./editing-a-document/)
 
 ตอนนี้ มาพัฒนาทักษะของคุณไปอีกขั้น การแก้ไขเอกสาร HTML เป็นงานทั่วไปสำหรับนักพัฒนาเว็บ และ Aspose.HTML ช่วยลดความยุ่งยากของกระบวนการนี้ได้อย่างมาก ในส่วนนี้ เราจะพูดถึงการสร้าง การจัดการ และการจัดรูปแบบเอกสาร คุณจะค้นพบวิธีปรับปรุงรูปลักษณ์และฟังก์ชันการทำงานของเนื้อหาเว็บของคุณ ให้ดึงดูดและใช้งานง่าย
+
+### [วิธีบันทึก HTML ใน C# – ตัวจัดการทรัพยากรแบบกำหนดเอง & ZIP](./how-to-save-html-in-c-custom-resource-handlers-zip/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

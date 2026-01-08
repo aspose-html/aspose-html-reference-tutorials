@@ -52,6 +52,11 @@ Aspose.HTML for .NET'te işleme zaman aşımlarını etkili bir şekilde nasıl 
 Aspose.HTML for .NET kullanarak birden fazla HTML belgesini işlemeyi öğrenin. Bu güçlü kütüphaneyle belge işleme yeteneklerinizi artırın.
 ### [Aspose.HTML ile .NET'te SVG Belgesini PNG Olarak Oluşturun](./render-svg-doc-as-png/)
 .NET için Aspose.HTML'nin gücünü açığa çıkarın! SVG Doc'u zahmetsizce PNG olarak nasıl işleyeceğiniz öğrenin. Adım adım örneklere ve SSS'lere dalın. Hemen başlayın!
+### [Aspose.HTML ile .NET'te HTML'yi PNG Olarak Render Etme – Adım Adım Kılavuz](./how-to-render-html-to-png-step-by-step-guide/)
+HTML'yi PNG'ye dönüştürmeyi adım adım öğrenin, Aspose.HTML for .NET ile örnek kodlar ve ipuçları.
+### [C# ile HTML'yi PNG Olarak Render Etme – Adım Adım Kılavuz](./how-to-render-html-to-png-in-c-step-by-step-guide/)
+C# kullanarak HTML'yi PNG'ye dönüştürmeyi adım adım öğrenin, örnek kodlar ve ipuçlarıyla.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

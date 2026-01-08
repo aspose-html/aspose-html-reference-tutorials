@@ -26,15 +26,12 @@ HTML 文档是 Web 的支柱，能够有效地创建和操作 HTML 文档是任�
 
 ### [使用 Aspose.HTML 在 .NET 中创建文档](./creating-a-document/)
 
-我们旅程的第一步是学习如何使用 Aspose.HTML 从头开始或从 URL 创建 HTML 文档。我们将指导您完成整个过程，确保即使是初学者也能跟上。在本节结束时，您将掌握轻松生成 HTML 文档的技能。
-
 ### [使用 Aspose.HTML 在 .NET 中创建简单文档](./creating-a-simple-document/)
-
-掌握基础知识后，我们将深入研究创建过程。在本节中，您将学习如何使用 Aspose.HTML 创建简单的 HTML 文档，我们将探索各种易于操作的功能。无论您是构建网页、生成内容还是将数据转换为 HTML，本教程都将为您提供必要的知识。
 
 ### [使用 Aspose.HTML 在 .NET 中编辑文档](./editing-a-document/)
 
-现在，让我们将您的技能提升到一个新的水平。编辑 HTML 文档是 Web 开发人员的常见任务，而 Aspose.HTML 大大简化了此过程。在本节中，我们将介绍文档创建、操作和样式。您将了解如何增强 Web 内容的外观和功能，使其更具吸引力且用户友好。
+### [如何在 C# 中保存 HTML – 自定义资源处理程序和 ZIP](./how-to-save-html-in-c-custom-resource-handlers-zip/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

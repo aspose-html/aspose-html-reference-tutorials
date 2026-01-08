@@ -26,15 +26,12 @@ HTML 文件是網路的支柱，能夠有效地創建和操作它們對於任何
 
 ### [使用 Aspose.HTML 在 .NET 中建立文檔](./creating-a-document/)
 
-我們旅程的第一步是學習如何使用 Aspose.HTML 從頭開始或從 URL 建立 HTML 文件。我們將指導您完成整個過程，確保即使是初學者也能跟上。學完本節後，您將掌握輕鬆產生 HTML 文件的技能。
-
 ### [使用 Aspose.HTML 在 .NET 中建立簡單文檔](./creating-a-simple-document/)
-
-一旦您掌握了基礎知識，我們將更深入地研究創建過程。在本節中，您將學習如何使用 Aspose.HTML 建立簡單的 HTML 文檔，並且我們將探索允許輕鬆操作的各種功能。無論您是建立網頁、生成內容還是將資料轉換為 HTML，本教學都將為您提供必要的知識。
 
 ### [使用 Aspose.HTML 在 .NET 中編輯文檔](./editing-a-document/)
 
-現在，讓我們將您的技能提升到一個新的水平。編輯 HTML 文件是 Web 開發人員的常見任務，而 Aspose.HTML 則顯著簡化了此過程。在本節中，我們將介紹文件建立、操作和樣式設定。您將了解如何增強網路內容的外觀和功能，使其更具吸引力且用戶友好。
+### [如何在 C# 中儲存 HTML – 自訂資源處理程式與 ZIP](./how-to-save-html-in-c-custom-resource-handlers-zip/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
