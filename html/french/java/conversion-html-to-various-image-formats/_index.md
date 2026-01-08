@@ -21,11 +21,11 @@ Vous cherchez à **convertir HTML en GIF** et d'autres formats d'image comme BMP
 ## Réponses rapides
 - **Quelle bibliothèque gère la conversion HTML‑vers‑image en Java ?** Aspose.HTML for Java.  
 - **Puis-je convertir HTML en GIF, JPEG, PNG, BMP et TIFF ?** Oui – tous sont pris en charge nativement.  
-- **Ai-je besoin d'une licence pour une utilisation en production ?** Une licence commerciale est requise ; un essai gratuit est disponible pour l'évaluation.  
+- **Ai‑je besoin d'une licence pour une utilisation en production ?** Une licence commerciale est requise ; un essai gratuit est disponible pour l'évaluation.  
 - **Quelle version de Java est requise ?** Java 8 ou supérieure.  
 - **La conversion est‑elle thread‑safe ?** Oui, chaque instance `HtmlRenderer` peut être utilisée en toute sécurité dans des scénarios multithread.
 
-## Qu'est-ce que **convert html gif** ?
+## Qu'est‑ce que **convert html gif** ?
 L'expression *convert html gif* désigne le processus de rendu d'une page HTML et d'exportation du résultat visuel sous forme d'image GIF. Cela est utile pour créer des aperçus légers, des captures d'écran animées ou intégrer du contenu web dans des documents qui n'acceptent que des fichiers image.
 
 ## Pourquoi utiliser Aspose.HTML for Java pour générer des images ?
@@ -92,6 +92,10 @@ Apprenez à convertir HTML en JPEG avec Aspose.HTML for Java. Guide étape par �
 Apprenez à convertir HTML en images PNG en Java avec Aspose.HTML. Un guide complet avec des instructions étape par étape.
 ### [Conversion d'HTML en TIFF](./convert-html-to-tiff/)
 Apprenez à convertir facilement HTML en TIFF avec Aspose.HTML for Java. Guide étape par étape pour une gestion efficace des documents.
+### [Comment capturer une capture d'écran d'une page Web avec Aspose HTML – guide Java](./how-to-capture-screenshot-of-a-webpage-with-aspose-html-java/)
+Apprenez à capturer une capture d'écran d'une page Web avec Aspose.HTML for Java. Guide étape par étape pour obtenir des images précises.
+### [Convertir HTML en WebP – Guide Java pour enregistrer HTML au format WebP](./convert-html-to-webp-java-guide-to-save-html-as-webp/)
+Apprenez à convertir HTML en WebP avec Aspose.HTML for Java. Guide complet étape par étape pour enregistrer HTML au format WebP.
 
 ## Questions fréquemment posées
 

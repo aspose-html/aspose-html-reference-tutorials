@@ -30,6 +30,11 @@ Låt oss nu växla och utforska hur man effektivt redigerar och skickar HTML-for
 Lär dig hur du använder Aspose.HTML för Java för att tillämpa avancerade CSS-tekniker, inklusive anpassade sidmarginaler och dynamiskt innehåll. En detaljerad, praktisk handledning för utvecklare.
 ### [HTML-formulärredigering och inlämning med Aspose.HTML för Java](./html-form-editing/)
 Lär dig hur du redigerar och skickar HTML-formulär programmatiskt med Aspose.HTML för Java i den här omfattande steg-för-steg-guiden.
+### [Analysera HTML med Java: Extrahera CSS‑egenskap och hämta teckenstorlek](./parse-html-with-java-extract-css-property-and-get-font-size/)
+Lär dig hur du med Aspose.HTML för Java kan analysera HTML, extrahera CSS‑egenskaper och bestämma teckenstorlek programatiskt.
+### [Hur man frågar HTML i Java – ladda HTML, CSS‑väljare och extrahera rubriker](./how-to-query-html-in-java-load-html-css-selector-and-extract/)
+Lär dig hur du laddar HTML, använder CSS‑väljare och extraherar rubriker med Aspose.HTML för Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

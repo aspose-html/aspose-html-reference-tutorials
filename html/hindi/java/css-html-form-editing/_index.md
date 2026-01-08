@@ -30,6 +30,11 @@ url: /hi/java/css-html-form-editing/
 कस्टम पेज मार्जिन और डायनामिक कंटेंट सहित उन्नत CSS तकनीकों को लागू करने के लिए Java के लिए Aspose.HTML का उपयोग करना सीखें। डेवलपर्स के लिए एक विस्तृत, व्यावहारिक ट्यूटोरियल।
 ### [Java के लिए Aspose.HTML के साथ HTML फॉर्म संपादन और सबमिशन](./html-form-editing/)
 इस व्यापक चरण-दर-चरण मार्गदर्शिका में Java के लिए Aspose.HTML का उपयोग करके HTML फ़ॉर्म को प्रोग्रामेटिक रूप से संपादित और सबमिट करना सीखें।
+### [Java के साथ HTML पार्स करें: CSS प्रॉपर्टी निकालें और फ़ॉन्ट आकार प्राप्त करें](./parse-html-with-java-extract-css-property-and-get-font-size/)
+इस ट्यूटोरियल में Java का उपयोग करके HTML से CSS प्रॉपर्टी निकालना और फ़ॉन्ट साइज प्राप्त करना सीखें।
+### [Java में HTML क्वेरी कैसे करें – HTML लोड करें, CSS सेलेक्टर, और हेडिंग्स निकालें](./how-to-query-html-in-java-load-html-css-selector-and-extract/)
+Java का उपयोग करके HTML लोड करना, CSS सेलेक्टर से तत्व चुनना और हेडिंग्स निकालना सीखें।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

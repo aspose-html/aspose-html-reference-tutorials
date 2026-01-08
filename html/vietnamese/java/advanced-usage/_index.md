@@ -126,6 +126,7 @@ Tìm hiểu cách tự động điền và gửi biểu mẫu HTML bằng Aspose
 Học cách điều chỉnh kích thước trang PDF với Aspose.HTML for Java. Tạo PDF chất lượng cao từ HTML một cách dễ dàng. Kiểm soát kích thước trang hiệu quả.
 ### [Điều chỉnh kích thước trang XPS với Aspose.HTML for Java](./adjust-xps-page-size/)
 Học cách điều chỉnh kích thước trang XPS với Aspose.HTML for Java. Kiểm soát kích thước đầu ra của tài liệu XPS một cách dễ dàng.
+### [Cách chạy script trong Java – Hướng dẫn đầy đủ để thực thi JavaScript & trích xuất dữ liệu](./how-to-run-scripts-in-java-complete-guide-to-execute-javascr/)
 
 ---
 

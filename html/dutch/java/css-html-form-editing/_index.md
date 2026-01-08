@@ -30,6 +30,11 @@ Laten we nu eens van versnelling veranderen en onderzoeken hoe u HTML-formuliere
 Leer hoe u Aspose.HTML voor Java kunt gebruiken om geavanceerde CSS-technieken toe te passen, waaronder aangepaste paginamarges en dynamische content. Een gedetailleerde, praktische tutorial voor ontwikkelaars.
 ### [HTML-formulier bewerken en indienen met Aspose.HTML voor Java](./html-form-editing/)
 Leer hoe u HTML-formulieren programmatisch kunt bewerken en verzenden met Aspose.HTML voor Java in deze uitgebreide stapsgewijze handleiding.
+### [HTML parseren met Java: CSS-eigenschap extraheren en lettergrootte ophalen](./parse-html-with-java-extract-css-property-and-get-font-size/)
+Leer hoe u HTML kunt parseren met Java, CSS‑eigenschappen kunt extraheren en de lettergrootte van elementen kunt bepalen.
+### [HTML opvragen in Java – HTML laden, CSS-selectors gebruiken en koppen extraheren](./how-to-query-html-in-java-load-html-css-selector-and-extract/)
+Leer hoe u HTML kunt laden, CSS-selectors kunt toepassen en kopteksten kunt extraheren met Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

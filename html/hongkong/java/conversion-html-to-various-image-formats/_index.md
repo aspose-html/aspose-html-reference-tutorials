@@ -96,6 +96,11 @@ weight: 24
 ### [將 HTML 轉換為 TIFF](./convert-html-to-tiff/)
 了解如何使用 Aspose.HTML for Java 輕鬆將 HTML 轉換為 TIFF。提供高效的文件處理步驟說明。
 
+### [將 HTML 轉換為 WebP](./convert-html-to-webp-java-guide-to-save-html-as-webp/)
+學習使用 Aspose.HTML for Java 將 HTML 轉換為 WebP 圖像，提供完整步驟與範例程式碼。
+
+### [如何使用 Aspose HTML 捕獲網頁截圖 – Java 指南](./how-to-capture-screenshot-of-a-webpage-with-aspose-html-java/)
+
 ## 常見問題集
 
 **Q: 我可以在 Java 中將 HTML 轉換為 PNG 而不使用額外的圖像函式庫嗎？**  

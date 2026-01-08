@@ -64,6 +64,9 @@ HTML を BMP に変換することは、ウェブページのアーカイブや�
 ## HTML を PNG に変換する
 HTML を PNG 画像に変換することは、ロスレスグラフィック、スクリーンショット、または透過が必要な場合に最適です。包括的なガイドでスムーズな変換手順を明確に示します。
 
+## HTML を WebP に変換する – Java ガイド
+Aspose.HTML for Java を使用して HTML を WebP 画像に変換する方法を学びます。高品質かつ軽量な WebP 形式で保存する手順を解説します。
+
 ## HTML を TIFF に変換する
 HTML を TIFF に変換することは、高解像度印刷やアーカイブ保存に最適です。このチュートリアルでは、Aspose.HTML for Java を使用して TIFF ファイルを効率的に生成する正確な手順を示します。
 
@@ -93,8 +96,14 @@ Aspose.HTML for Java を使用して HTML を JPEG に変換する方法を学�
 ### [HTML を PNG に変換](./convert-html-to-png/)
 Aspose.HTML を使用して Java で HTML を PNG 画像に変換する方法を学びます。ステップバイステップの包括的なガイドです。
 
+### [HTML を WebP に変換 – Java ガイド](./convert-html-to-webp-java-guide-to-save-html-as-webp/)
+Aspose.HTML for Java を使用して HTML を WebP 画像に変換する方法を学びます。高品質かつ軽量な WebP 形式で保存する手順を解説します。
+
 ### [HTML を TIFF に変換](./convert-html-to-tiff/)
 Aspose.HTML for Java を使用して HTML を TIFF に簡単に変換する方法を学びます。効率的なドキュメント処理のためのステップバイステップガイドです。
+
+### [Aspose HTML でウェブページのスクリーンショットを取得する – Java ガイド](./how-to-capture-screenshot-of-a-webpage-with-aspose-html-java/)
+Aspose.HTML for Java を使ってウェブページのスクリーンショットを簡単に取得する手順を解説します。
 
 ## よくある質問
 

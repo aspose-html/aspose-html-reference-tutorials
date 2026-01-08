@@ -79,6 +79,9 @@ Canvas から PDF を作成するとは、HTML の `<canvas>` 要素で生成さ
 ### [Aspose.HTML for Java を使用した HTML Canvas の PDF 変換](./canvas-to-pdf/)
 このステップバイステップガイドで、Aspose.HTML for Java を使用して HTML Canvas を PDF に変換する方法を学びます。
 
+### [Java で SVG を PDF/A‑2b に変換する方法 – 完全ガイド](./how-to-convert-svg-to-pdf-a-2b-with-java-complete-guide/)
+Java と Aspose.HTML を使って SVG を PDF/A‑2b 形式に変換する手順を詳しく解説します。
+
 ## よくある質問
 
 **Q: この方法を Spring Boot アプリケーションで使用できますか？**  

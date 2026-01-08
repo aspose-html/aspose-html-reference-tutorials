@@ -30,6 +30,11 @@ Lassen Sie uns nun einen Gang höher schalten und untersuchen, wie Sie HTML-Form
 Erfahren Sie, wie Sie mit Aspose.HTML für Java erweiterte CSS-Techniken anwenden, darunter benutzerdefinierte Seitenränder und dynamische Inhalte. Ein ausführliches, praktisches Tutorial für Entwickler.
 ### [Bearbeiten und Senden von HTML-Formularen mit Aspose.HTML für Java](./html-form-editing/)
 Erfahren Sie in dieser umfassenden Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.HTML für Java programmgesteuert HTML-Formulare bearbeiten und übermitteln.
+### [HTML mit Java parsen: CSS-Eigenschaft extrahieren und Schriftgröße ermitteln](./parse-html-with-java-extract-css-property-and-get-font-size/)
+Lernen Sie, wie Sie mit Aspose.HTML für Java HTML analysieren, CSS-Eigenschaften auslesen und die Schriftgröße von Elementen bestimmen.
+### [Wie man HTML in Java abfragt – HTML laden, CSS-Selektor verwenden und Überschriften extrahieren](./how-to-query-html-in-java-load-html-css-selector-and-extract/)
+Erfahren Sie, wie Sie mit Aspose.HTML für Java HTML laden, CSS-Selektoren nutzen und Überschriften programmgesteuert extrahieren.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
