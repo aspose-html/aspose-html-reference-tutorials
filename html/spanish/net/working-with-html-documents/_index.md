@@ -35,6 +35,11 @@ Una vez que haya comprendido los conceptos básicos, profundizaremos en el proce
 ### [Edición de un documento en .NET con Aspose.HTML](./editing-a-document/)
 
 Ahora, llevemos tus habilidades al siguiente nivel. Editar documentos HTML es una tarea común para los desarrolladores web, y Aspose.HTML simplifica este proceso significativamente. En esta sección, cubriremos la creación, manipulación y estilo de documentos. Descubrirás cómo mejorar la apariencia y la funcionalidad de tu contenido web, haciéndolo atractivo y fácil de usar.
+
+### [Cómo guardar HTML en C# – Controladores de recursos personalizados y ZIP](./how-to-save-html-in-c-custom-resource-handlers-zip/)
+
+Aprenda a guardar documentos HTML en C# usando controladores de recursos personalizados y empaquetarlos en archivos ZIP.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

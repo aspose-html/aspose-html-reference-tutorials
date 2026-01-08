@@ -41,6 +41,8 @@ Het integreren van Aspose.HTML voor .NET in uw .NET-projecten is probleemloos. D
 Leer hoe u dynamische webpagina's maakt met Aspose.HTML voor .NET. Deze stapsgewijze tutorial behandelt vereisten, naamruimten en het renderen van HTML naar afbeeldingen.
 ### [Genereer PNG-afbeeldingen via ImageDevice in .NET met Aspose.HTML](./generate-png-images-by-imagedevice/)
 Leer hoe u Aspose.HTML voor .NET kunt gebruiken om HTML-documenten te bewerken, HTML naar afbeeldingen te converteren en meer. Stapsgewijze tutorial met veelgestelde vragen.
+### [HTML-naar-afbeelding tutorial – Render HTML naar PNG in C#](./html-to-image-tutorial-render-html-to-png-in-c/)
+Leer hoe u met Aspose.HTML voor .NET HTML rendert naar PNG-afbeeldingen in C# met deze stapsgewijze tutorial.
 
 ## Conclusie
 

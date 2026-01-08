@@ -30,11 +30,16 @@ Yolculuğumuzun ilk adımı, Aspose.HTML kullanarak sıfırdan veya URL'lerden H
 
 ### [Aspose.HTML ile .NET'te Basit Bir Belge Oluşturma](./creating-a-simple-document/)
 
-Temelleri kavradığınızda, oluşturma sürecine daha derinlemesine dalacağız. Bu bölümde, Aspose.HTML kullanarak basit HTML belgelerinin nasıl oluşturulacağını öğreneceksiniz ve kolay manipülasyona olanak tanıyan çeşitli özellikleri keşfedeceğiz. İster bir web sayfası oluşturuyor, ister içerik üretiyor veya verileri HTML'ye dönüştürüyor olun, bu eğitim size gerekli bilgiyi sağlayacaktır.
+Temelleri kavradığınızda, oluşturma sürecine daha derinlemesine dalacağız. Bu bölümde, Aspose.HTML kullanarak basit HTML belgelerinin nasıl oluşturulacağını öğreneceksiniz ve kolay manipülasyona olanak tanıyan çeşitli özellikleri keşfedeceksiniz. İster bir web sayfası oluşturuyor, ister içerik üretiyor veya verileri HTML'ye dönüştürüyor olun, bu eğitim size gerekli bilgiyi sağlayacaktır.
 
 ### [Aspose.HTML ile .NET'te Bir Belgeyi Düzenleme](./editing-a-document/)
 
 Şimdi becerilerinizi bir üst seviyeye taşıyalım. HTML belgelerini düzenlemek web geliştiricileri için yaygın bir görevdir ve Aspose.HTML bu süreci önemli ölçüde basitleştirir. Bu bölümde, belge oluşturma, düzenleme ve biçimlendirmeyi ele alacağız. Web içeriğinizin görünümünü ve işlevselliğini nasıl geliştireceğinizi, onu ilgi çekici ve kullanıcı dostu hale getireceğinizi keşfedeceksiniz.
+
+### [C# ile HTML Kaydetme – Özel Kaynak İşleyicileri ve ZIP](./how-to-save-html-in-c-custom-resource-handlers-zip/)
+
+C# kullanarak HTML dosyalarını özel kaynak işleyicileri ve ZIP arşivleriyle kaydetmeyi öğrenin.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -35,6 +35,9 @@ HTML ドキュメントは Web のバックボーンであり、それを効果�
 ### [Aspose.HTML を使用して .NET でドキュメントを編集する](./editing-a-document/)
 
 では、スキルを次のレベルに引き上げましょう。HTML ドキュメントの編集は Web 開発者にとって一般的なタスクであり、Aspose.HTML はこのプロセスを大幅に簡素化します。このセクションでは、ドキュメントの作成、操作、およびスタイル設定について説明します。Web コンテンツの外観と機能を強化して、魅力的でユーザーフレンドリーにする方法を学びます。
+
+### [C# で HTML を保存する方法 – カスタム リソース ハンドラと ZIP](./how-to-save-html-in-c-custom-resource-handlers-zip/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -41,6 +41,8 @@ Tích hợp Aspose.HTML cho .NET vào các dự án .NET của bạn thật dễ
 Tìm hiểu cách tạo trang web động bằng Aspose.HTML cho .NET. Hướng dẫn từng bước này bao gồm các điều kiện tiên quyết, không gian tên và kết xuất HTML thành hình ảnh.
 ### [Tạo hình ảnh PNG bằng ImageDevice trong .NET với Aspose.HTML](./generate-png-images-by-imagedevice/)
 Học cách sử dụng Aspose.HTML cho .NET để thao tác với các tài liệu HTML, chuyển đổi HTML thành hình ảnh và nhiều hơn nữa. Hướng dẫn từng bước có Câu hỏi thường gặp.
+### [Hướng dẫn chuyển HTML sang hình ảnh – Kết xuất HTML thành PNG trong C#](./html-to-image-tutorial-render-html-to-png-in-c/)
+Học cách chuyển đổi HTML thành PNG trong C# bằng Aspose.HTML.
 
 ## Phần kết luận
 
