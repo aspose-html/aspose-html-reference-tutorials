@@ -39,6 +39,8 @@ Aspose.HTML untuk .NET bukan sekadar pustaka; pustaka ini merupakan pengubah per
 ## Tutorial Ekstensi dan Konversi HTML
 ### [Konversi HTML ke PDF dalam .NET dengan Aspose.HTML](./convert-html-to-pdf/)
 Ubah HTML ke PDF dengan mudah menggunakan Aspose.HTML untuk .NET. Ikuti panduan langkah demi langkah kami dan manfaatkan kekuatan konversi HTML ke PDF.
+### [Buat PDF dari HTML di C# – Panduan Lengkap Langkah demi Langkah](./create-pdf-from-html-in-c-complete-step-by-step-guide/)
+Pelajari cara membuat PDF dari HTML menggunakan C# dengan Aspose.HTML melalui panduan lengkap langkah demi langkah.
 ### [Konversi EPUB ke Gambar dalam .NET dengan Aspose.HTML](./convert-epub-to-image/)
 Pelajari cara mengonversi EPUB ke gambar menggunakan Aspose.HTML untuk .NET. Tutorial langkah demi langkah dengan contoh kode dan opsi yang dapat disesuaikan.
 ### [Konversi EPUB ke PDF dalam .NET dengan Aspose.HTML](./convert-epub-to-pdf/)
@@ -63,6 +65,8 @@ Temukan cara menggunakan Aspose.HTML untuk .NET guna memanipulasi dan mengonvers
 Pelajari cara mengonversi HTML ke TIFF dengan Aspose.HTML untuk .NET. Ikuti panduan langkah demi langkah kami untuk pengoptimalan konten web yang efisien.
 ### [Konversi HTML ke XPS dalam .NET dengan Aspose.HTML](./convert-html-to-xps/)
 Temukan kekuatan Aspose.HTML untuk .NET: Ubah HTML menjadi XPS dengan mudah. Prasyarat, panduan langkah demi langkah, dan Tanya Jawab Umum disertakan.
+### [Cara Zip HTML di C# – Panduan Lengkap Langkah demi Langkah](./how-to-zip-html-in-c-complete-step-by-step-guide/)
+Pelajari cara mengompres file HTML menjadi arsip ZIP menggunakan C# dengan Aspose.HTML dalam panduan langkah demi langkah yang lengkap.
 
 ## Kesimpulan
 
