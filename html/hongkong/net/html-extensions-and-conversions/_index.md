@@ -63,6 +63,10 @@ Aspose.HTML for .NET 不只是一個函式庫；它還是一個函式庫。它�
 了解如何使用 Aspose.HTML for .NET 將 HTML 轉換為 TIFF。請依照我們的逐步指南進行高效率的網路內容優化。
 ### [使用 Aspose.HTML 將 .NET 中的 HTML 轉換為 XPS](./convert-html-to-xps/)
 探索 Aspose.HTML for .NET 的強大功能：輕鬆將 HTML 轉換為 XPS。包括先決條件、逐步指南和常見問題。
+### [如何在 C# 中壓縮 HTML – 完整步驟指南](./how-to-zip-html-in-c-complete-step-by-step-guide/)
+學習使用 Aspose.HTML for .NET 在 C# 中將 HTML 文件壓縮為 ZIP 檔案的完整步驟與範例。
+### [在 C# 中從 HTML 建立 PDF – 完整步驟指南](./create-pdf-from-html-in-c-complete-step-by-step-guide/)
+學習如何使用 Aspose.HTML for .NET 在 C# 中將 HTML 轉換為 PDF，提供完整的步驟與程式碼範例。
 
 ## 結論
 

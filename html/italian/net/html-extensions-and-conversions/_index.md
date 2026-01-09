@@ -39,6 +39,8 @@ Aspose.HTML per .NET non è solo una libreria; è un punto di svolta nel mondo d
 ## Tutorial sulle estensioni e conversioni HTML
 ### [Convertire HTML in PDF in .NET con Aspose.HTML](./convert-html-to-pdf/)
 Converti HTML in PDF senza sforzo con Aspose.HTML per .NET. Segui la nostra guida passo dopo passo e libera la potenza della conversione da HTML a PDF.
+### [Crea PDF da HTML in C# – Guida completa passo‑passo](./create-pdf-from-html-in-c-complete-step-by-step-guide/)
+Scopri come generare PDF da HTML usando C# e Aspose.HTML con una guida dettagliata passo dopo passo.
 ### [Convertire EPUB in immagine in .NET con Aspose.HTML](./convert-epub-to-image/)
 Scopri come convertire EPUB in immagini utilizzando Aspose.HTML per .NET. Tutorial dettagliato con esempi di codice e opzioni personalizzabili.
 ### [Converti EPUB in PDF in .NET con Aspose.HTML](./convert-epub-to-pdf/)
@@ -63,6 +65,8 @@ Scopri come usare Aspose.HTML per .NET per manipolare e convertire documenti HTM
 Scopri come convertire HTML in TIFF con Aspose.HTML per .NET. Segui la nostra guida passo passo per un'ottimizzazione efficiente dei contenuti web.
 ### [Convertire HTML in XPS in .NET con Aspose.HTML](./convert-html-to-xps/)
 Scopri la potenza di Aspose.HTML per .NET: converti HTML in XPS senza sforzo. Prerequisiti, guida passo passo e FAQ incluse.
+### [Come comprimere HTML in C# – Guida completa passo‑passo](./how-to-zip-html-in-c-complete-step-by-step-guide/)
+Scopri come comprimere file HTML in un archivio ZIP usando C# e Aspose.HTML per .NET. Guida passo passo con esempi di codice.
 
 ## Conclusione
 

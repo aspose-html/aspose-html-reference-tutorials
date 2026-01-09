@@ -62,7 +62,11 @@ Fedezze fel, hogyan használhatja az Aspose.HTML for .NET fájlt HTML-dokumentum
 ### [Konvertálja a HTML-t TIFF-re .NET-ben az Aspose.HTML-lel](./convert-html-to-tiff/)
 Ismerje meg, hogyan konvertálhat HTML-t TIFF-formátumba az Aspose.HTML for .NET segítségével. Kövesse lépésenkénti útmutatónkat a hatékony webtartalom-optimalizáláshoz.
 ### [Konvertálja a HTML-t XPS-re .NET-ben az Aspose.HTML-lel](./convert-html-to-xps/)
-Fedezze fel az Aspose.HTML erejét .NET-hez: A HTML-t könnyedén konvertálja XPS-re. Előfeltételek, lépésenkénti útmutató és GYIK mellékelve.
+Fedezze fel az Aspose.HTML erejét .NET-hez: A HTML-t könnyedén konvertálja XPS-re. Előfeltételek, lépésről lépésre útmutató és GYIK mellékelve.
+### [HTML ZIP-elése C#-ban – Teljes lépésről‑lépésre útmutató](./how-to-zip-html-in-c-complete-step-by-step-guide/)
+Ismerje meg, hogyan lehet HTML-fájlokat ZIP-archívumba csomagolni C#-ban az Aspose.HTML for .NET segítségével.
+### [PDF létrehozása HTML-ből C#-ban – Teljes lépésről‑lépésre útmutató](./create-pdf-from-html-in-c-complete-step-by-step-guide/)
+Ismerje meg, hogyan hozhat létre PDF-et HTML-ből C#-ban az Aspose.HTML for .NET használatával. Részletes, lépésről‑lépésre útmutató.
 
 ## Következtetés
 

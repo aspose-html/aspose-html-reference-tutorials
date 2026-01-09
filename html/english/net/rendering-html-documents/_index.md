@@ -24,13 +24,13 @@ To get started, you'll need to install the Aspose.HTML for .NET library and set 
 
 ## Why Choose Aspose.HTML for .NET?
 
-Aspose.HTML for .NET stands out as a top choice for HTML rendering due to its rich features, excellent documentation, and active community support. Here's why you should consider using it:
+Aspose.HTML for .NET stands out as a top choice for HTML rendering due to its rich features, excellent documentation, and active community support. Here’s why you should consider using it:
 
 - Powerful Rendering: Aspose.HTML for .NET provides high-quality HTML rendering capabilities, ensuring your documents look great every time.
 
-- Ease of Use: The library is designed to be developer-friendly, with a straightforward API and plenty of examples to guide you.
+- Ease of Use: The library is designed to be developer‑friendly, with a straightforward API and plenty of examples to guide you.
 
-- Cross-Platform Compatibility: You can use Aspose.HTML for .NET on various platforms, including Windows, Linux, and macOS.
+- Cross‑Platform Compatibility: You can use Aspose.HTML for .NET on various platforms, including Windows, Linux, and macOS.
 
 - Regular Updates: Aspose is dedicated to improving its products, so you can expect regular updates and bug fixes.
 
@@ -42,6 +42,8 @@ Now that you have Aspose.HTML for .NET set up, it's time to explore the tutorial
 
 ### [Render HTML as PNG in .NET with Aspose.HTML](./render-html-as-png/)
 Learn to work with Aspose.HTML for .NET: Manipulate HTML, convert to various formats, and more. Dive into this comprehensive tutorial!
+### [how to render html to png – Complete C# Guide](./how-to-render-html-to-png-complete-c-guide/)
+Learn how to render HTML to PNG using Aspose.HTML for .NET in a complete C# guide. Follow step‑by‑step examples and best practices.
 ### [Render EPUB as XPS in .NET with Aspose.HTML](./render-epub-as-xps/)
 Learn how to create and render HTML documents with Aspose.HTML for .NET in this comprehensive tutorial. Dive into the world of HTML manipulation, web scraping, and more.
 ### [Rendering Timeout in .NET with Aspose.HTML](./rendering-timeout/)

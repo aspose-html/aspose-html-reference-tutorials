@@ -38,31 +38,49 @@ Aspose.HTML for .NET は単なるライブラリではありません。Web 開�
 
 ## HTML 拡張と変換のチュートリアル
 ### [Aspose.HTML を使用して .NET で HTML を PDF に変換する](./convert-html-to-pdf/)
-Aspose.HTML for .NET を使用すると、HTML を PDF に簡単に変換できます。ステップ バイ ステップ ガイドに従って、HTML から PDF への変換のパワーを解き放ちましょう。
+Aspose.HTML for .NET を使用すると、HTML を PDF に簡単に変換できます。ステップ バイ ステップ ガイドに従って、HTML から PDF への変換のパワーを解放しましょう。
+
+### [C# で HTML から PDF を作成する – 完全ステップバイステップガイド](./create-pdf-from-html-in-c-complete-step-by-step-guide/)
+C# と Aspose.HTML を使用して、HTML を PDF に変換する方法をステップバイステップで解説します。
+
 ### [Aspose.HTML を使用して .NET で EPUB を画像に変換する](./convert-epub-to-image/)
 Aspose.HTML for .NET を使用して EPUB を画像に変換する方法を学びます。コード例とカスタマイズ可能なオプションを含むステップバイステップのチュートリアルです。
+
 ### [Aspose.HTML を使用して .NET で EPUB を PDF に変換する](./convert-epub-to-pdf/)
 Aspose.HTML for .NET を使用して EPUB を PDF に変換する方法を学びます。このステップ バイ ステップ ガイドでは、シームレスなドキュメント変換のためのカスタマイズ オプション、FAQ などについて説明します。
+
 ### [Aspose.HTML を使用して .NET で EPUB を XPS に変換する](./convert-epub-to-xps/)
 Aspose.HTML for .NET を使用して、.NET で EPUB を XPS に変換する方法を学びます。ステップ バイ ステップ ガイドに従って、簡単に変換できます。
+
 ### [Aspose.HTML を使用して .NET で HTML を BMP に変換する](./convert-html-to-bmp/)
 Aspose.HTML for .NET を使用して .NET で HTML を BMP に変換する方法を学びます。Aspose.HTML for .NET を活用するための Web 開発者向けの包括的なガイドです。
+
 ### [Aspose.HTML を使用して .NET で HTML を DOC および DOCX に変換する](./convert-html-to-doc-docx/)
 このステップバイステップ ガイドで、Aspose.HTML for .NET のパワーを活用する方法を学びましょう。HTML を DOCX に簡単に変換し、.NET プロジェクトをレベルアップしましょう。今すぐ始めましょう!
+
 ### [Aspose.HTML を使用して .NET で HTML を GIF に変換する](./convert-html-to-gif/)
 Aspose.HTML for .NET の威力をご覧ください: HTML を GIF に変換するためのステップバイステップ ガイド。前提条件、コード例、FAQ など! Aspose.HTML を使用して HTML 操作を最適化します。
+
 ### [Aspose.HTML を使用して .NET で HTML を JPEG に変換する](./convert-html-to-jpeg/)
 Aspose.HTML for .NET を使用して、.NET で HTML を JPEG に変換する方法を学びます。Aspose.HTML for .NET のパワーを活用するためのステップバイステップ ガイドです。Web 開発タスクを簡単に最適化できます。
+
 ### [Aspose.HTML を使用して .NET で HTML を Markdown に変換する](./convert-html-to-markdown/)
 効率的なコンテンツ操作のために、Aspose.HTML を使用して .NET で HTML を Markdown に変換する方法を学びます。シームレスな変換プロセスのためのステップバイステップのガイダンスを入手します。
+
 ### [Aspose.HTML を使用して .NET で HTML を MHTML に変換する](./convert-html-to-mhtml/)
 Aspose.HTML を使用して .NET で HTML を MHTML に変換する - 効率的な Web コンテンツのアーカイブ化のためのステップバイステップ ガイド。Aspose.HTML for .NET を使用して MHTML アーカイブを作成する方法を学習します。
+
 ### [Aspose.HTML を使用して .NET で HTML を PNG に変換する](./convert-html-to-png/)
 Aspose.HTML for .NET を使用して HTML ドキュメントを操作および変換する方法を学びます。効果的な .NET 開発のためのステップバイステップ ガイドです。
+
 ### [Aspose.HTML を使用して .NET で HTML を TIFF に変換する](./convert-html-to-tiff/)
 Aspose.HTML for .NET を使用して HTML を TIFF に変換する方法を学びます。効率的な Web コンテンツの最適化については、当社のステップバイステップ ガイドに従ってください。
+
 ### [Aspose.HTML を使用して .NET で HTML を XPS に変換する](./convert-html-to-xps/)
 Aspose.HTML for .NET のパワーを発見してください: HTML を XPS に簡単に変換します。前提条件、ステップバイステップ ガイド、FAQ が含まれています。
+
+### [C# で HTML を Zip する方法 – 完全ステップバイステップガイド](./how-to-zip-html-in-c-complete-step-by-step-guide/)
+C# と Aspose.HTML を使用して、HTML ファイルを Zip アーカイブに圧縮する手順をステップバイステップで解説します。
 
 ## 結論
 
