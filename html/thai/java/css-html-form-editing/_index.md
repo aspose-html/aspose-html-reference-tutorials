@@ -30,6 +30,9 @@ url: /th/java/css-html-form-editing/
 เรียนรู้วิธีใช้ Aspose.HTML สำหรับ Java เพื่อใช้เทคนิค CSS ขั้นสูง รวมถึงการกำหนดระยะขอบหน้าแบบกำหนดเองและเนื้อหาแบบไดนามิก บทช่วยสอนแบบปฏิบัติจริงโดยละเอียดสำหรับนักพัฒนา
 ### [การแก้ไขและส่งแบบฟอร์ม HTML ด้วย Aspose.HTML สำหรับ Java](./html-form-editing/)
 เรียนรู้วิธีแก้ไขและส่งแบบฟอร์ม HTML ด้วยโปรแกรมโดยใช้ Aspose.HTML สำหรับ Java ในคู่มือทีละขั้นตอนที่ครอบคลุมนี้
+### [รับค่า CSS ที่คำนวณใน Java – คู่มือ Aspose HTML ฉบับสมบูรณ์](./get-computed-css-in-java-complete-aspose-html-guide/)
+เรียนรู้วิธีดึงค่า CSS ที่คำนวณจากหน้าเว็บโดยใช้ Aspose.HTML สำหรับ Java อย่างละเอียด
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

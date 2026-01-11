@@ -72,6 +72,8 @@ Aspose.HTML for Java를 사용해 EPUB 파일을 이미지로 변환하는 방�
 Aspose.HTML for Java 사용법: EPUB을 이미지 및 그 이상으로 변환하세요. 단계별 가이드를 탐색해보세요.
 ### [EPUB을 이미지로 변환하기](./convert-epub-to-image/)
 Aspose.HTML for Java를 사용해 EPUB을 이미지로 변환하는 방법을 알아보세요. 디지털 콘텐츠를 손쉽게 변환합니다. 단계별 가이드 포함.
+### [Java로 EPUB을 PDF로 변환하기 – 단계별 가이드](./convert-epub-to-pdf-with-java-step-by-step-guide/)
+Aspose.HTML for Java를 사용해 Java에서 EPUB을 PDF로 변환하는 단계별 방법을 안내합니다.
 
 ## 자주 묻는 질문
 

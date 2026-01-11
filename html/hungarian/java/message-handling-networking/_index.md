@@ -50,6 +50,8 @@ Ezzel az átfogó, lépésenkénti útmutatóval megtudhatja, hogyan hajthat vé
 Ebből a lépésről lépésre szóló útmutatóból megtudhatja, hogyan konvertálhat ZIP-fájlokat JPG-képekké az Aspose.HTML for Java használatával.
 ### [Konvertálja a ZIP-t PDF-be az Aspose.HTML for Java segítségével](./zip-to-pdf/)
 Könnyen konvertálhatja ZIP-fájljait PDF-be az Aspose.HTML for Java segítségével ezzel a lépésről lépésre szóló útmutatóval.
+### [java 11 httpclient authenticator – Teljes útmutató a biztonságos kérésekhez](./java-11-httpclient-authenticator-complete-guide-to-secure-re/)
+Fedezze fel, hogyan használhatja a Java 11 HttpClient authenticator-t a biztonságos HTTP kérésekhez, lépésről lépésre útmutatóval.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

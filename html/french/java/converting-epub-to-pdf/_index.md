@@ -52,6 +52,8 @@ Débloquez le potentiel de votre contenu numérique avec Aspose.HTML for Java. C
 ## Tutoriels de conversion d'EPUB en PDF
 ### [Conversion d'EPUB en PDF](./convert-epub-to-pdf/)
 Déverrouillez la conversion d'EPUB en PDF avec Aspose.HTML for Java, la puissante bibliothèque Java. Créez du contenu accessible sans effort.
+### [Conversion d'EPUB en PDF avec Java – Guide étape par étape](./convert-epub-to-pdf-with-java-step-by-step-guide/)
+Suivez ce guide complet pour convertir des fichiers EPUB en PDF avec Java en quelques étapes simples.
 ### [Spécifier un fournisseur de flux personnalisé pour EPUB en PDF](./convert-epub-to-pdf-specify-custom-stream-provider/)
 Apprenez à convertir EPUB en PDF en Java sans effort avec Aspose.HTML, améliorant vos capacités de traitement de documents.
 ### [Spécifier les options d'enregistrement PDF pour EPUB en PDF](./convert-epub-to-pdf-specify-pdf-save-options/)
@@ -61,7 +63,7 @@ Apprenez à convertir EPUB en BMP avec Aspose.HTML for Java. Guide étape par é
 ### [Conversion d'EPUB en GIF](./convert-epub-to-gif/)
 Apprenez à convertir EPUB en GIF avec Aspose.HTML for Java. Processus de conversion simple et efficace pour tous vos besoins multimédias.
 ### [Conversion d'EPUB en JPG](./convert-epub-to-jpg/)
-Apprenez à convertir EPUB en images JPG avec Aspose.HTML for Java. Suivez notre guide étape par étape pour une conversion fluide.
+Apprenez à convertir EPUB en JPG avec Aspose.HTML for Java. Suivez notre guide étape par étape pour une conversion fluide.
 ### [Conversion d'EPUB en PNG](./convert-epub-to-png/)
 Apprenez à convertir EPUB en PNG avec Aspose.HTML for Java. Suivez notre guide étape par étape et rendez le contenu de votre eBook visuellement attrayant.
 ### [Conversion d'EPUB en TIFF](./convert-epub-to-tiff/)

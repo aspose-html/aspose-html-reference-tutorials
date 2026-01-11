@@ -30,6 +30,9 @@ Web 開発に取り組む場合、CSS および HTML フォームを習得する
 Aspose.HTML for Java を使用して、カスタム ページ マージンや動的コンテンツなどの高度な CSS テクニックを適用する方法を学びます。開発者向けの詳細な実践的なチュートリアルです。
 ### [Aspose.HTML for Java を使用した HTML フォームの編集と送信](./html-form-editing/)
 この包括的なステップバイステップ ガイドでは、Aspose.HTML for Java を使用して HTML フォームをプログラムで編集および送信する方法を学習します。
+### [Java で計算された CSS を取得 – 完全な Aspose HTML ガイド](./get-computed-css-in-java-complete-aspose-html-guide/)
+Aspose.HTML for Java を使用して、要素の計算済み CSS スタイルを取得する方法をステップバイステップで解説します。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
