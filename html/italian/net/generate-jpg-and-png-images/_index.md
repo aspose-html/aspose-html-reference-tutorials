@@ -41,6 +41,8 @@ Integrare Aspose.HTML per .NET nei tuoi progetti .NET è semplice. La libreria �
 Scopri come creare pagine web dinamiche usando Aspose.HTML per .NET. Questo tutorial passo dopo passo riguarda i prerequisiti, gli spazi dei nomi e il rendering di HTML in immagini.
 ### [Genera immagini PNG tramite ImageDevice in .NET con Aspose.HTML](./generate-png-images-by-imagedevice/)
 Impara a usare Aspose.HTML per .NET per manipolare documenti HTML, convertire HTML in immagini e altro ancora. Tutorial passo dopo passo con FAQ.
+### [Crea PNG da HTML – Guida completa C# con Aspose.HTML](./create-png-from-html-full-c-guide-with-aspose-html/)
+Scopri come generare file PNG da HTML usando Aspose.HTML in C#, con esempi dettagliati e consigli pratici.
 
 ## Conclusione
 

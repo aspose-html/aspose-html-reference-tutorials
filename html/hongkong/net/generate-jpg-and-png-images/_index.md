@@ -41,6 +41,8 @@ Aspose.HTML for .NET 提供了一種將 HTML 轉換為映像的簡單方法。�
 了解如何使用 Aspose.HTML for .NET 建立動態網頁。本逐步教學涵蓋先決條件、命名空間以及將 HTML 渲染為圖片。
 ### [使用 Aspose.HTML 在 .NET 中透過 ImageDevice 產生 PNG 映像](./generate-png-images-by-imagedevice/)
 學習使用 Aspose.HTML for .NET 來操作 HTML 文件、將 HTML 轉換為圖片等。包含常見問題的逐步教學。
+### [使用 Aspose.HTML 完整 C# 指南：從 HTML 產生 PNG](./create-png-from-html-full-c-guide-with-aspose-html/)
+深入了解如何使用 Aspose.HTML for .NET 以 C# 完整步驟將 HTML 轉換為高品質 PNG 圖像。
 
 ## 結論
 
