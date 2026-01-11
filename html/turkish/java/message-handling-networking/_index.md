@@ -27,7 +27,7 @@ Java için Aspose.HTML, HTML belgelerini yönetmek ve düzenlemek için güçlü
  Her programcı, özellikle bir sunucuya bağlanmaya çalışırken, zaman aşımının ne kadar sinir bozucu olabileceğini bilir.[Java için Aspose.HTML'de Ağ Zaman Aşımını Yönetme](./network-timeout/) rehber, bu durumlarla etkili bir şekilde başa çıkmak için stratejilere derinlemesine iner. Bu, en sevdiğiniz yemeği hazırlarken zamanınızın kısıtlı olduğunu keşfetmeniz gibidir; her şeyin zaman sınırı içinde mükemmel bir şekilde pişmesini sağlamanın yollarını bulmak, tarifinizi başarılı veya başarısız kılabilir! Ağ zaman aşımını yönetmeyi öğrenmek, uygulamalarınızın sorunsuz çalışmasını ve optimum kullanıcı deneyimi sunmasını sağlar.
 
 ## Mesaj İşleyici Boru Hatları Oluşturma
-Kendi mesaj işleyici kanallarınızı oluşturmak, her parçanın mükemmel bir şekilde uyması gereken karmaşık bir bulmaca inşa etmek gibi hissettirebilir.[Java için Aspose.HTML'de Mesaj İşleyici Boru Hatları Oluşturma](./message-handler-pipeline/) kılavuz, bu bileşenleri adım adım birleştirme sürecinde size yol gösterir. Bunu bir domino zinciri kurmaya benzetin: bir parça doğru şekilde düşerse, geri kalanı da onu takip ederek belge işleme iş akışınızı kolaylaştırır. Bu eğitim, ZIP'leri PDF dosyalarına kolayca dönüştürme metodolojisini ortaya koyar ve çeşitli dosya formatlarını verimli bir şekilde ele alabilmenizi sağlar.
+Kendi mesaj işleyici kanallarınızı oluşturmak, her parçanın mükemmel bir şekilde uyması gereken karmaşık bir bulmaca inşa etmek gibi hissettirebilir.[Java için Aspose.HTML'de Mesaj İşleyici Boru Hatları Oluşturma](./message-handler-pipeline/) kılavuz, bu bileşenleri adım adım birleştirme sürecinde size yol gösterir. Bunu bir domino zinciri kurmaya benzetin: bir parça doğru şekilde düşerse, geri kalanı da onu takip ederek belge işleme iş akışınızı kolaylaştırır. Bu eğitim, ZIP'leri PDF'lere kolayca dönüştürme metodolojisini ortaya koyar ve çeşitli dosya formatlarını verimli bir şekilde ele alabilmenizi sağlar.
 
 ## Java için Aspose.HTML'de Web İsteği Yürütme
  Web isteklerini yürütmek, Java için Aspose.HTML ile çalışmanın bir diğer önemli yönüdür. Üçüncü taraf içerikleri almaktan uzak kaynakları yönetmeye kadar, bu eylemlerin nasıl gerçekleştirileceğini bilmek oyunun kurallarını değiştirebilir.[Java için Aspose.HTML'de Web İsteği Yürütme](./web-request-execution/)öğretici, verileri etkili bir şekilde nasıl gönderip alacağınıza dair kapsamlı bir döküm sunar. Bunu bir telefon görüşmesi yapmak gibi düşünün: Mesajınızın herhangi bir statik olmadan sorunsuz bir şekilde iletildiğinden emin olmak istersiniz. Bu beceride ustalaşmak, uygulamalarınıza ek veriler getirmenizi ve belge işleme yeteneklerini geliştirmenizi sağlar.
@@ -50,6 +50,8 @@ Bu kapsamlı, adım adım kılavuzla Java için Aspose.HTML kullanarak web istek
 Bu adım adım kılavuzla Aspose.HTML for Java'yı kullanarak ZIP dosyalarını JPG resimlerine nasıl dönüştüreceğinizi öğrenin.
 ### [Java için Aspose.HTML ile ZIP'i PDF'ye dönüştürün](./zip-to-pdf/)
 Bu adım adım kılavuzla Aspose.HTML for Java'yı kullanarak ZIP dosyalarınızı kolayca PDF'ye dönüştürün.
+### [Java 11 HttpClient Kimlik Doğrulayıcısı – Güvenli İstekler İçin Tam Rehber](./java-11-httpclient-authenticator-complete-guide-to-secure-re/)
+Java 11 HttpClient ile kimlik doğrulama yaparak güvenli HTTP istekleri göndermeyi adım adım öğrenin.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -50,6 +50,9 @@ Học cách thực hiện các yêu cầu web bằng Aspose.HTML cho Java với 
 Tìm hiểu cách chuyển đổi tệp ZIP sang ảnh JPG bằng Aspose.HTML cho Java với hướng dẫn từng bước này.
 ### [Chuyển đổi ZIP sang PDF bằng Aspose.HTML cho Java](./zip-to-pdf/)
 Dễ dàng chuyển đổi tệp ZIP sang PDF bằng Aspose.HTML cho Java với hướng dẫn từng bước này.
+### [java 11 httpclient authenticator – Hướng dẫn toàn diện cho các yêu cầu bảo mật](./java-11-httpclient-authenticator-complete-guide-to-secure-re/)
+Khám phá cách sử dụng HttpClient Authenticator trong Java 11 để thực hiện các yêu cầu HTTP an toàn và bảo mật.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

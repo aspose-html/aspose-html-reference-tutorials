@@ -95,9 +95,15 @@ weight: 24
 ### [Μετατροπή HTML σε JPEG](./convert-html-to-jpeg/)
 Μάθετε να μετατρέπετε HTML σε JPEG με το Aspose.HTML για Java. Οδηγός βήμα‑βήμα για αδιάλειπτη επεξεργασία εγγράφων.
 ### [Μετατροπή HTML σε PNG](./convert-html-to-png/)
-Μάθετε πώς να μετατρέπετε HTML σε εικόνες PNG σε Java με το Aspose.HTML. Ένας ολοκληρωμένος οδηγός με οδηγίες βήμα‑βήμα.
+Μάθετε πώς να μετατρέπετε HTML σε εικόνες PNG σε Java με Aspose.HTML. Ένας ολοκληρωμένος οδηγός με οδηγίες βήμα‑βήμα.
+### [Πώς να αποδώσετε HTML σε PNG – Πλήρης Οδηγός για Προγραμματιστές Java](./how-to-render-html-to-png-complete-guide-for-java-developers/)
+Μάθετε πώς να αποδώσετε HTML σε PNG με Aspose.HTML for Java, βήμα‑βήμα οδηγός για προγραμματιστές Java.
+### [Δημιουργία PNG από HTML σε Java – Πλήρης Οδηγός Βήμα‑βήμα](./create-png-from-html-in-java-full-step-by-step-guide/)
+Μάθετε πώς να δημιουργήσετε PNG από HTML σε Java με πλήρη οδηγό βήμα‑βήμα.
+### [Δημιουργία PNG από HTML – Εξαγωγή SVG υψηλής DPI σε Java](./create-png-from-html-high-dpi-svg-export-in-java/)
+Μάθετε πώς να δημιουργήσετε PNG υψηλής ανάλυσης από HTML εξάγοντας SVG με υψηλό DPI χρησιμοποιώντας Aspose.HTML for Java.
 ### [Μετατροπή HTML σε TIFF](./convert-html-to-tiff/)
-Μάθετε πώς να μετατρέπετε εύκολα HTML σε TIFF χρησιμοποιώντας το Aspose.HTML για Java. Οδηγός βήμα‑βήμα για αποτελεσματική διαχείριση εγγράφων.
+Μάθετε πώς να μετατρέψετε εύκολα HTML σε TIFF χρησιμοποιώντας το Aspose.HTML για Java. Οδηγός βήμα‑βήμα για αποτελεσματική διαχείριση εγγράφων.
 
 ## Συχνές Ερωτήσεις
 
