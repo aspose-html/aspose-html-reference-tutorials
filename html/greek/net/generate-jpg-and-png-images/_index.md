@@ -41,6 +41,8 @@ url: /el/net/generate-jpg-and-png-images/
 Μάθετε πώς να δημιουργείτε δυναμικές ιστοσελίδες χρησιμοποιώντας το Aspose.HTML για .NET. Αυτό το σεμινάριο βήμα προς βήμα καλύπτει τις προϋποθέσεις, τους χώρους ονομάτων και την απόδοση HTML σε εικόνες.
 ### [Δημιουργήστε εικόνες PNG από ImageDevice σε .NET με Aspose.HTML](./generate-png-images-by-imagedevice/)
 Μάθετε να χρησιμοποιείτε το Aspose.HTML για .NET για χειρισμό εγγράφων HTML, μετατροπή HTML σε εικόνες και πολλά άλλα. Βήμα προς βήμα μάθημα με συχνές ερωτήσεις.
+### [Δημιουργία PNG από HTML – Πλήρης Οδηγός C# με Aspose.HTML](./create-png-from-html-full-c-guide-with-aspose-html/)
+Μάθετε πώς να μετατρέπετε HTML σε PNG με πλήρη οδηγό C# χρησιμοποιώντας το Aspose.HTML.
 
 ## Σύναψη
 
