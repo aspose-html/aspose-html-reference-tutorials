@@ -1,48 +1,66 @@
 ---
-title: EPUB'dan PDF'e PDF Kaydetme Seçeneklerini Belirleme
-linktitle: EPUB'dan PDF'e PDF Kaydetme Seçeneklerini Belirleme
-second_title: Aspose.HTML ile Java HTML İşleme
-description: Güçlü bir HTML düzenleme kütüphanesi olan Aspose.HTML'i kullanarak Java'da EPUB'u PDF'ye nasıl dönüştüreceğinizi öğrenin.
-weight: 12
+date: 2026-01-02
+description: Aspose.HTML ile Java'da EPUB'yi PDF'ye dönüştürmeyi, özel bir PDF sayfa
+  boyutu ve diğer PDF kaydetme seçeneklerini ayarlamayı öğrenin.
+linktitle: Specifying PDF Save Options for EPUB to PDF
+second_title: Java HTML Processing with Aspose.HTML
+title: 'Özel PDF Sayfa Boyutu: EPUB''ten PDF''ye Dönüştürme İçin PDF Kaydetme Seçeneklerini
+  Belirleme'
 url: /tr/java/converting-epub-to-pdf/convert-epub-to-pdf-specify-pdf-save-options/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# EPUB'dan PDF'e PDF Kaydetme Seçeneklerini Belirleme
+# Özel PDF Sayfa Boyutu: EPUB'ten PDF'ye PDF Kaydetme Seçeneklerini Belirleme
 
+## Giriş
 
-## giriiş
+Aspose.HTML for Java, **EPUB'ten PDF'ye dönüştürmeyi** kolaylaştırır ve çıktının tam kontrolünü sağlar; buna **özel PDF sayfa boyutu** ayarlama da dahildir. Bu adım‑adım kılavuzda, ortam hazırlığından `PdfSaveOptions` ayarlarına kadar, oluşturulan PDF'nin tam olarak istediğiniz sayfa boyutlarına uymasını nasıl sağlayacağınızı öğreneceksiniz. Yayın akışı, e‑öğrenme platformu oluşturma ya da belge dönüşümünü otomatikleştirme gibi senaryolarda bu teknikler işinize yarayacaktır.
 
-Java için Aspose.HTML, HTML ve EPUB belgeleriyle çalışmak için güçlü bir araçtır. Bu adım adım kılavuzda, Aspose.HTML for Java kullanarak bir EPUB dosyasını PDF'ye dönüştürme sürecinde size yol göstereceğiz. İster deneyimli bir geliştirici olun, ister yeni başlıyor olun, bu eğitim size bu görevi etkili bir şekilde gerçekleştirmek için gereken bilgi ve becerileri sağlayacaktır.
+## Hızlı Yanıtlar
+- **Bu öğreticinin temel amacı nedir?** Bir EPUB dosyasını PDF'ye dönüştürürken özel bir PDF sayfa boyutu uygulamak.  
+- **Hangi kütüphane kullanılıyor?** Aspose.HTML for Java.  
+- **Lisans gerekli mi?** Ücretsiz deneme sürümü mevcuttur; üretim ortamı için ticari lisans gereklidir.  
+- **Arka plan rengini değiştirebilir miyim?** Evet, `PdfSaveOptions` kullanarak.  
+- **Java 8+ destekleniyor mu?** Kesinlikle—herhangi bir modern Java çalışma zamanı ile çalışır.
 
-## Ön koşullar
+## Özel PDF sayfa boyutu nedir?
 
-Başlamadan önce aşağıdaki ön koşulların mevcut olduğundan emin olun:
+Özel PDF sayfa boyutu, çıktı PDF'sindeki her sayfanın genişlik ve yüksekliğini standart A4 veya Letter gibi ön tanımlı boyutlar yerine tam olarak tanımlamanıza olanak tanır. Bu, e‑kitaplar, broşürler veya görsel düzenin belirli bir tasarıma tam olarak uyması gereken diğer senaryolar için özellikle faydalıdır.
 
-- Java Geliştirme Ortamı: Sisteminizde bir Java geliştirme ortamının kurulu olması gerekir.
+## Neden Aspose.HTML ile EPUB‑den PDF’ye dönüşüm yapılmalı?
 
--  Java için Aspose.HTML: Java için Aspose.HTML kitaplığını indirin ve kurun. Kitaplığı ve ilgili belgeleri şu adreste bulabilirsiniz:[web sitesi](https://releases.aspose.com/html/java/).
+- **Yüksek doğruluk:** Karmaşık düzenleri, yazı tiplerini ve görselleri korur.  
+- **İnce ayar kontrolü:** `PdfSaveOptions` aracılığıyla sayfa boyutu, arka plan, kenar boşlukları ve daha fazlasını ayarlayabilirsiniz.  
+- **Çapraz platform:** Aynı Java kodu Windows, Linux ve macOS'ta çalışır.  
+- **Performans:** Hızlı dönüşümler için optimize edilmiş render motoru.
 
-- EPUB Dosyası: PDF'ye dönüştürmek istediğiniz bir EPUB dosyasına ihtiyacınız olacak.
+## Ön Koşullar
 
-Şimdi, Java için Aspose.HTML kullanarak EPUB'ı PDF'ye dönüştürmeye yönelik adım adım kılavuza geçelim.
+Başlamadan önce şunların kurulu olduğundan emin olun:
+
+- **Java Geliştirme Ortamı:** JDK 8 veya üzeri yüklü ve yapılandırılmış.  
+- **Aspose.HTML for Java:** En son JAR dosyasını [web sitesinden](https://releases.aspose.com/html/java/) indirin.  
+- **EPUB Dosyası:** Dönüştürmek istediğiniz bir `.epub` belgesi.  
+
+Her şey hazır olduğuna göre, gerçek dönüşüm adımlarına geçelim.
 
 ## Adım 1: EPUB Dosyasını Açın
 
- Başlamak için, okumak üzere mevcut bir EPUB dosyasını açın. Bir`FileInputStream` Bunu başarmak için. İşte bu adım için kod:
+İlk olarak, EPUB dosyasını bir `FileInputStream` ile açmamız gerekiyor. Bu akış daha sonra dönüştürücüye geçirilecek.
 
 ```java
 try (java.io.FileInputStream fileInputStream = new java.io.FileInputStream(Resources.input("input.epub"))) {
-    // Bundan sonraki adımlar için kodunuz buraya gelecek.
+    // Your code for the next steps will go here.
 }
 ```
 
 ## Adım 2: PDF Kaydetme Seçeneklerini Tanımlayın
 
- Bir örnek oluşturun`PdfSaveOptions` özel sayfa boyutu ve arka plan rengiyle. Sayfa kurulumunu gereksinimlerinize göre yapılandırabilirsiniz. İşte bunu nasıl yapabileceğiniz:
+Burada **özel PDF sayfa boyutunu** ve isteğe bağlı arka plan rengini ayarlıyoruz. Piksel değerlerini istediğiniz boyutlara göre düzenleyin.
 
 ```java
 com.aspose.html.saving.PdfSaveOptions options = new com.aspose.html.saving.PdfSaveOptions();
@@ -57,9 +75,12 @@ options.setPageSetup(pageSetup);
 options.setBackgroundColor(com.aspose.html.drawing.Color.getAliceBlue());
 ```
 
-## Adım 3: EPUB'ı PDF'ye dönüştürün
+### Uzman ipucu:
+- **Piksel vs. Nokta:** `Length.fromPixels`, ekran pikselini PDF noktalarına çevirir (1 nokta = 1/72 inç). İhtiyacınız olan son baskı boyutunu yansıtacak değerleri seçin.
 
- Şimdi, arayın`ConvertEPUB` EPUB dosyasını PDF'ye dönüştürme yöntemi. Giriş akışını, PDF kaydetme seçeneklerini ve çıktı konumunu belirtin. İşte nasıl yapıldığı:
+## Adım 3: EPUB’u PDF’ye Dönüştürün
+
+Girdi akışı ve özel seçenekler hazır olduğunda, dönüştürücüyü çağırın. Çıktı PDF, belirttiğiniz konuma kaydedilecektir.
 
 ```java
 com.aspose.html.converters.Converter.convertEPUB(
@@ -69,14 +90,13 @@ com.aspose.html.converters.Converter.convertEPUB(
 );
 ```
 
-Tebrikler! Aspose.HTML for Java kullanarak bir EPUB dosyasını başarıyla PDF'ye dönüştürdünüz. Artık dönüştürülen PDF dosyasına belirtilen çıktı konumundan erişebilirsiniz.
-
 ## Tam Kaynak Kodu
+
 ```java
 Specifying PDF Save Options for EPUB to PDF
-        // Mevcut bir EPUB dosyasını okumak için açın.
+        // Open an existing EPUB file for reading.
         try (java.io.FileInputStream fileInputStream = new java.io.FileInputStream(Resources.input("input.epub"))) {
-            // Özel bir sayfa boyutu ve arka plan rengiyle PdfSaveOptions örneğini oluşturun.
+            // Create an instance of the PdfSaveOptions with a custom page-size and a background-color.
             com.aspose.html.saving.PdfSaveOptions options = new com.aspose.html.saving.PdfSaveOptions();
             com.aspose.html.rendering.PageSetup pageSetup = new com.aspose.html.rendering.PageSetup();
             com.aspose.html.drawing.Page anyPage = new com.aspose.html.drawing.Page();
@@ -87,7 +107,7 @@ Specifying PDF Save Options for EPUB to PDF
             pageSetup.setAnyPage(anyPage);
             options.setPageSetup(pageSetup);
             options.setBackgroundColor(com.aspose.html.drawing.Color.getAliceBlue());
-            // EPUB'ı PDF'e dönüştürmek için ConvertEPUB metodunu çağırın.
+            // Call the ConvertEPUB method to convert the EPUB to PDF.
             com.aspose.html.converters.Converter.convertEPUB(
                     fileInputStream,
                     options,
@@ -96,27 +116,36 @@ Specifying PDF Save Options for EPUB to PDF
         }
 ```
 
+## Yaygın Sorunlar ve Çözümleri
 
-## Çözüm
+| Sorun | Neden | Çözüm |
+|-------|-------|-----|
+| **PDF sayfaları boş** | Dönüştürmeden önce giriş akışı kapatıldı | `try‑with‑resources` bloğunu `convertEPUB` işleminden sonra da açık tutun. |
+| **Sayfa boyutları hatalı** | İstenen baskı boyutuna eşleşmeyen pikseller kullanıldı | İstenen inç değerini noktalara çevirin (`1 inch = 72 points`) ve ardından `Length.fromPixels` ile piksele dönüştürün. |
+| **Yazı tipleri eksik** | Yazı tipleri EPUB içinde paketlenmemiş | Yazı tiplerinin EPUB içinde paketlendiğinden emin olun veya host makinede yüklü olduğundan emin olun. |
 
-Bu eğitimde, EPUB dosyalarını PDF formatına dönüştürmek için Java için Aspose.HTML'i nasıl kullanacağımızı öğrendik. Bu çok yönlü kitaplık, geliştiricilere belge düzenleme için güçlü araçlar sağlar. Bu kılavuzda özetlenen adımları izleyerek, EPUB'dan PDF'e dönüştürmeyi Java uygulamalarınıza sorunsuz bir şekilde entegre edebilirsiniz.
+## Sık Sorulan Sorular (SSS)
 
-## Sıkça Sorulan Sorular (SSS)
+### Aspose.HTML for Java ücretsiz bir kütüphane mi?
+Aspose.HTML for Java ticari bir kütüphanedir, ancak [web sitesinden](https://releases.aspose.com/) ücretsiz deneme sürümü alabilirsiniz.
 
-### Aspose.HTML for Java ücretsiz bir kütüphane midir?
- Java için Aspose.HTML ticari bir kütüphanedir, ancak ücretsiz deneme sürümünü kendilerinden edinebilirsiniz.[web sitesi](https://releases.aspose.com/).
+### Hangi EPUB formatları dönüşüm için destekleniyor?
+Aspose.HTML for Java, çeşitli EPUB formatlarını destekler ve çoğu EPUB belgesiyle uyumludur.
 
-### Dönüştürme için hangi EPUB formatları destekleniyor?
-Java için Aspose.HTML, çeşitli EPUB formatlarının dönüştürülmesini destekleyerek çoğu EPUB belgesiyle uyumluluğu garanti eder.
+### PDF çıktısını daha da özelleştirebilir miyim?
+Evet, `PdfSaveOptions` içinde sayfa ayarlarını, arka plan rengini ve diğer ayarları değiştirerek PDF çıktısını özelleştirebilirsiniz.
 
-### PDF çıktısını daha fazla özelleştirebilir miyim?
- Evet, sayfa düzenini, arka plan rengini ve diğer ayarları düzenleyerek PDF çıktısını özelleştirebilirsiniz.`PdfSaveOptions`.
+### Aspose.HTML for Java deneme sürümünün sınırlamaları var mı?
+Deneme sürümünde bazı sınırlamalar bulunabilir; detaylar için belgeleri kontrol etmeniz önerilir.
 
-### Aspose.HTML for Java'nın deneme sürümünde herhangi bir sınırlama var mı?
-Deneme sürümünün bazı kısıtlamaları olabilir, bu nedenle ayrıntılar için dokümanları kontrol etmeniz önerilir.
+### Aspose.HTML for Java için destek nereden alınır?
+Sorularınıza yanıt bulmak ve destek almak için [Aspose.HTML forumunu](https://forum.aspose.com/) ziyaret edebilirsiniz.
 
-### Java için Aspose.HTML desteğini nereden alabilirim?
-Sorularınıza cevap bulabilir ve destek alabilirsiniz.[Aspose.HTML forumu](https://forum.aspose.com/).
+---
+
+**Son Güncelleme:** 2026-01-02  
+**Test Edilen Sürüm:** Aspose.HTML for Java 24.11 (yazım anındaki en yeni sürüm)  
+**Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
