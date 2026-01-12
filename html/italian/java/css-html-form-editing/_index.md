@@ -30,6 +30,9 @@ Ora, cambiamo marcia ed esploriamo come modificare e inviare in modo efficace i 
 Scopri come usare Aspose.HTML per Java per applicare tecniche CSS avanzate, tra cui margini di pagina personalizzati e contenuto dinamico. Un tutorial pratico e dettagliato per sviluppatori.
 ### [Modifica e invio di moduli HTML con Aspose.HTML per Java](./html-form-editing/)
 Scopri come modificare e inviare moduli HTML a livello di programmazione utilizzando Aspose.HTML per Java in questa guida completa passo dopo passo.
+### [Ottieni CSS calcolato in Java – Guida completa Aspose HTML](./get-computed-css-in-java-complete-aspose-html-guide/)
+Scopri come ottenere gli stili CSS calcolati di un elemento usando Aspose.HTML per Java in questa guida completa.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

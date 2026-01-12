@@ -69,6 +69,9 @@ Als je **HTML naar JPEG wilt converteren** voor foto‑achtige weergaven of comp
 
 HTML omzetten naar PNG‑afbeeldingen is ideaal voor verliesvrije graphics, screenshots, of wanneer je transparantie nodig hebt. Onze uitgebreide gids biedt duidelijke instructies voor een soepele conversie‑ervaring.
 
+### [PNG maken vanuit HTML – High‑DPI SVG-export in Java](./create-png-from-html-high-dpi-svg-export-in-java/)
+Leer hoe je met Aspose.HTML for Java PNG's met hoge DPI genereert via SVG-export, stap‑voor‑stap.
+
 ## HTML naar TIFF converteren
 
 HTML naar TIFF converteren is perfect voor hoge‑resolutie afdrukken of archivering. Deze tutorial beschrijft de exacte stappen om efficiënt TIFF‑bestanden te genereren met Aspose.HTML for Java.
@@ -94,7 +97,11 @@ Leer hoe je HTML naar GIF kunt converteren in Java met Aspose.HTML. Een uitgebre
 ### [HTML naar JPEG converteren](./convert-html-to-jpeg/)
 Leer HTML naar JPEG te converteren met Aspose.HTML for Java. Stap‑voor‑stap gids voor naadloze documentverwerking.
 ### [HTML naar PNG converteren](./convert-html-to-png/)
-Leer hoe je HTML naar PNG‑afbeeldingen kunt converteren in Java met Aspose.HTML. Een uitgebreide gids met stap‑voor‑stap instructies.
+Leer hoe je PNG‑afbeeldingen genereert vanuit HTML met Aspose.HTML for Java. Onze uitgebreide gids biedt duidelijke instructies voor een soepele conversie‑ervaring.
+### [Hoe HTML naar PNG renderen – Complete gids voor Java‑ontwikkelaars](./how-to-render-html-to-png-complete-guide-for-java-developers/)
+Leer stap‑voor‑stap hoe je met Aspose.HTML for Java HTML rendert naar PNG‑afbeeldingen van hoge kwaliteit.
+### [PNG maken vanuit HTML in Java – Volledige stap‑voor‑stap gids](./create-png-from-html-in-java-full-step-by-step-guide/)
+Leer hoe je PNG‑afbeeldingen genereert vanuit HTML in Java met een volledige stap‑voor‑stap handleiding.
 ### [HTML naar TIFF converteren](./convert-html-to-tiff/)
 Leer hoe je HTML eenvoudig naar TIFF kunt converteren met Aspose.HTML for Java. Stap‑voor‑stap gids voor efficiënte documentafhandeling.
 
