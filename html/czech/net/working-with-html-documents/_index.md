@@ -35,6 +35,9 @@ Jakmile pochopíte základy, ponoříme se hlouběji do procesu tvorby. V této 
 ### [Úprava dokumentu v .NET pomocí Aspose.HTML](./editing-a-document/)
 
 Nyní posuňte vaše dovednosti na další úroveň. Úpravy HTML dokumentů jsou běžným úkolem webových vývojářů a Aspose.HTML tento proces výrazně zjednodušuje. V této části se budeme zabývat tvorbou dokumentu, manipulací s ním a stylováním. Zjistíte, jak vylepšit vzhled a funkčnost vašeho webového obsahu, aby byl poutavý a uživatelsky přívětivý.
+
+### [Jak zvýraznit nadpis tučným písmem pomocí CSS a C# – Kompletní průvodce krok za krokem](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

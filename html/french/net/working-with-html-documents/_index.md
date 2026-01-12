@@ -35,6 +35,9 @@ Une fois que vous aurez compris les bases, nous approfondirons le processus de c
 ### [Modification d'un document dans .NET avec Aspose.HTML](./editing-a-document/)
 
 Maintenant, passons à un niveau supérieur de compétences. L'édition de documents HTML est une tâche courante pour les développeurs Web, et Aspose.HTML simplifie considérablement ce processus. Dans cette section, nous aborderons la création, la manipulation et le style des documents. Vous découvrirez comment améliorer l'apparence et la fonctionnalité de votre contenu Web, en le rendant attrayant et convivial.
+
+### [Comment mettre en gras un titre avec CSS & C# – Guide complet étape par étape](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

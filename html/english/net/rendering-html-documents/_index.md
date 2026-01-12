@@ -42,6 +42,8 @@ Now that you have Aspose.HTML for .NET set up, it's time to explore the tutorial
 
 ### [Render HTML as PNG in .NET with Aspose.HTML](./render-html-as-png/)
 Learn to work with Aspose.HTML for .NET: Manipulate HTML, convert to various formats, and more. Dive into this comprehensive tutorial!
+### [Create PNG from HTML – Full C# Rendering Guide](./create-png-from-html-full-c-rendering-guide/)
+Learn how to generate high-quality PNG images from HTML using Aspose.HTML for .NET with a complete C# rendering guide.
 ### [Render EPUB as XPS in .NET with Aspose.HTML](./render-epub-as-xps/)
 Learn how to create and render HTML documents with Aspose.HTML for .NET in this comprehensive tutorial. Dive into the world of HTML manipulation, web scraping, and more.
 ### [Rendering Timeout in .NET with Aspose.HTML](./rendering-timeout/)

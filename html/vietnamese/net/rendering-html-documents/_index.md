@@ -52,6 +52,9 @@ Tìm hiểu cách kiểm soát thời gian chờ kết xuất hiệu quả trong
 Học cách hiển thị nhiều tài liệu HTML bằng Aspose.HTML cho .NET. Tăng cường khả năng xử lý tài liệu của bạn với thư viện mạnh mẽ này.
 ### [Kết xuất SVG Doc thành PNG trong .NET với Aspose.HTML](./render-svg-doc-as-png/)
 Mở khóa sức mạnh của Aspose.HTML cho .NET! Tìm hiểu cách Render SVG Doc thành PNG một cách dễ dàng. Tìm hiểu các ví dụ từng bước và câu hỏi thường gặp. Bắt đầu ngay!
+### [Tạo PNG từ HTML – Hướng dẫn đầy đủ C# Rendering](./create-png-from-html-full-c-rendering-guide/)
+Học cách chuyển đổi HTML thành PNG bằng Aspose.HTML cho .NET với hướng dẫn chi tiết bằng C#.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

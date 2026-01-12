@@ -35,6 +35,11 @@ Gdy już opanujesz podstawy, zagłębimy się w proces tworzenia. W tej sekcji n
 ### [Edycja dokumentu w .NET za pomocą Aspose.HTML](./editing-a-document/)
 
 Teraz przenieśmy Twoje umiejętności na wyższy poziom. Edycja dokumentów HTML to typowe zadanie dla programistów stron internetowych, a Aspose.HTML znacznie upraszcza ten proces. W tej sekcji omówimy tworzenie, manipulację i stylizowanie dokumentów. Odkryjesz, jak ulepszyć wygląd i funkcjonalność treści internetowych, czyniąc je angażującymi i przyjaznymi dla użytkownika.
+
+### [Jak pogrubić nagłówek za pomocą CSS i C# – Kompletny przewodnik krok po kroku](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
+
+Dowiedz się, jak użyć CSS i C# do pogrubienia nagłówka w HTML, krok po kroku, z praktycznymi przykładami.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

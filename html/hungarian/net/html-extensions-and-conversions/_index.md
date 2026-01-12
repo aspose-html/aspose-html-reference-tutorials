@@ -63,6 +63,8 @@ Fedezze fel, hogyan használhatja az Aspose.HTML for .NET fájlt HTML-dokumentum
 Ismerje meg, hogyan konvertálhat HTML-t TIFF-formátumba az Aspose.HTML for .NET segítségével. Kövesse lépésenkénti útmutatónkat a hatékony webtartalom-optimalizáláshoz.
 ### [Konvertálja a HTML-t XPS-re .NET-ben az Aspose.HTML-lel](./convert-html-to-xps/)
 Fedezze fel az Aspose.HTML erejét .NET-hez: A HTML-t könnyedén konvertálja XPS-re. Előfeltételek, lépésenkénti útmutató és GYIK mellékelve.
+### [HTML mentése ZIP-be C#‑ban – Teljes memória‑beli példa](./save-html-to-zip-in-c-complete-in-memory-example/)
+Mentse a HTML-t közvetlenül memóriában ZIP-archívumba az Aspose.HTML for .NET C#‑ban.
 
 ## Következtetés
 
