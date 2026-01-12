@@ -42,6 +42,8 @@ Aspose.HTML for .NET のセットアップが完了したら、HTML レンダリ
 
 ### [Aspose.HTML を使用して .NET で HTML を PNG としてレンダリングする](./render-html-as-png/)
 Aspose.HTML for .NET の使い方を学びます。HTML の操作、さまざまな形式への変換などを行います。この包括的なチュートリアルをぜひご覧ください。
+### [HTML を PNG にレンダリングする方法 – 完全 C# ガイド](./how-to-render-html-as-png-complete-c-guide/)
+C# を使用して HTML を PNG 画像に変換する手順をステップバイステップで解説します。完全ガイドで初心者も安心です。
 ### [Aspose.HTML を使用して .NET で EPUB を XPS としてレンダリングする](./render-epub-as-xps/)
 この包括的なチュートリアルでは、Aspose.HTML for .NET を使用して HTML ドキュメントを作成し、レンダリングする方法を学びます。HTML 操作、Web スクレイピングなどの世界に飛び込んでみましょう。
 ### [Aspose.HTML を使用した .NET でのレンダリング タイムアウト](./rendering-timeout/)
