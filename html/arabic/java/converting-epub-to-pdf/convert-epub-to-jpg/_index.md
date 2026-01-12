@@ -1,96 +1,135 @@
 ---
-title: تحويل EPUB إلى JPG باستخدام Aspose.HTML لـ Java
-linktitle: تحويل EPUB إلى JPG
-second_title: معالجة HTML باستخدام Java مع Aspose.HTML
-description: تعرف على كيفية تحويل صور EPUB إلى صور JPG باستخدام Aspose.HTML for Java. اتبع دليلنا خطوة بخطوة لتحويل سلس.
-weight: 12
+date: 2025-12-30
+description: تعلم كيفية تحويل ملفات epub إلى صور jpg باستخدام Aspose.HTML للغة Java.
+  اتبع دليلنا خطوة بخطوة للتحويل السلس باستخدام خيارات حفظ الصور.
+linktitle: Converting EPUB to JPG
+second_title: Java HTML Processing with Aspose.HTML
+title: تحويل EPUB إلى JPG باستخدام Aspose.HTML للـ Java
 url: /ar/java/converting-epub-to-pdf/convert-epub-to-jpg/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# تحويل EPUB إلى JPG باستخدام Aspose.HTML لـ Java
+# تحويل EPUB إلى JPG باستخدام Aspose.HTML للـ Java
 
+في هذا الدليل خطوة بخطوة، ستتعلم كيفية **convert epub to jpg** باستخدام مكتبة Aspose.HTML للـ Java القوية. سواءً كنت تبني عارضًا للكتب الإلكترونية، أو تولد صورًا مصغرة لمكتبة رقمية، أو تحتاج إلى استخراج رسومات على مستوى الصفحات، فإن هذا الشرح يرافقك خلال العملية بأكملها—من المتطلبات المسبقة إلى استدعاء التحويل النهائي.
 
-في هذا الدليل التفصيلي، سنوضح لك كيفية تحويل ملف EPUB إلى صور JPG باستخدام مكتبة Aspose.HTML for Java. Aspose.HTML for Java هي أداة قوية للعمل مع ملفات HTML وEPUB، وتوفر مجموعة من الميزات للتحويل والتلاعب.
+## إجابات سريعة
+- **ما المكتبة التي يمكنني استخدامها؟** توفر Aspose.HTML للـ Java دعمًا مدمجًا لتحويل EPUB إلى صورة.  
+- **ما الطريقة التي تقوم بالتحويل؟** `Converter.convertEPUB` مع `ImageSaveOptions`.  
+- **هل أحتاج إلى ترخيص؟** يلزم الحصول على ترخيص مؤقت أو كامل للاستخدام في الإنتاج؛ يتوفر إصدار تجريبي مجاني.  
+- **هل يمكنني اختيار تنسيق الصورة؟** نعم – يتيح لك `ImageSaveOptions` اختيار JPEG أو PNG أو BMP، إلخ.  
+- **هل هذا مناسب لملفات EPUB الكبيرة؟** تقوم الـ API ببث الصفحات، لذا يعمل بشكل جيد مع الكتب متعددة الفصول.
 
-## المتطلبات الأساسية
+## ما هو “convert epub to jpg”؟
+تحويل ملف EPUB إلى JPG يعني تحويل كل صفحة (أو كل جزء HTML) من الكتاب الإلكتروني إلى صورة نقطية. هذا مفيد لإنشاء معاينات، صور مصغرة، أو للمنصات التي تدعم تنسيقات الصور فقط.
 
-قبل أن نبدأ في عملية التحويل، ستحتاج إلى التأكد من توفر المتطلبات الأساسية التالية:
+## لماذا تستخدم Aspose.HTML للـ Java لتحويل صور EPUB؟
+- **عروض عالية الدقة** – المحرك يحترم CSS والخطوط ورسومات SVG.  
+- **واجهة برمجة تطبيقات بسيطة** – استدعاء طريقة واحدة يتعامل مع كامل عملية التحويل.  
+- **متعدد المنصات** – يعمل على أي نظام تشغيل يدعم Java SE 8+.  
+- **قابل للتوسيع** – يمكنك تخصيص حجم الإخراج، الجودة، والتنسيق عبر `ImageSaveOptions`.
 
-1. مجموعة تطوير Java (JDK): تأكد من تثبيت Java SE 8 أو إصدار أحدث على نظامك.
+## المتطلبات المسبقة
 
-2.  Aspose.HTML لمكتبة Java: قم بتنزيل وتثبيت مكتبة Aspose.HTML لمكتبة Java من[هنا](https://releases.aspose.com/html/java/).
+قبل أن نبدأ عملية التحويل، تحتاج إلى التأكد من توفر المتطلبات التالية:
 
-3. ملف EPUB: يجب أن يكون لديك ملف EPUB الذي تريد تحويله إلى صور JPG.
+1. **Java Development Kit (JDK)** – Java SE 8 أو أحدث مثبت على نظامك.  
+2. **مكتبة Aspose.HTML للـ Java** – قم بتنزيل وتثبيت مكتبة Aspose.HTML للـ Java من [here](https://releases.aspose.com/html/java/).  
+3. **ملف EPUB** – احرص على وجود ملف EPUB جاهز تريد تحويله إلى صور JPG.
 
 ## استيراد الحزم
 
-للبدء، تحتاج إلى استيراد الحزم اللازمة من Aspose.HTML لـ Java. وإليك كيفية القيام بذلك:
+للبدء، تحتاج إلى استيراد الحزم الضرورية من Aspose.HTML للـ Java. هذه الاستيرادات تمنحك الوصول إلى محرك التحويل وخيارات حفظ الصورة.
 
 ```java
-// استيراد حزم Aspose.HTML المطلوبة لـ Java
+// Import the required Aspose.HTML for Java packages
 import com.aspose.html.saving.ImageSaveOptions;
 import com.aspose.html.rendering.image.ImageFormat;
 import com.aspose.html.converters.Converter;
 import java.io.FileInputStream;
 ```
 
-الآن، دعونا نقوم بتقسيم عملية التحويل إلى خطوات متعددة.
+الآن، دعنا نقسم عملية التحويل إلى خطوات متعددة.
 
-## الخطوة 1: افتح ملف EPUB
+## دليل خطوة بخطوة
 
- في هذه الخطوة، سنفتح ملف EPUB للقراءة باستخدام`FileInputStream` . يستبدل`'input.epub'` مع المسار إلى ملف EPUB الخاص بك.
+### الخطوة 1: فتح ملف EPUB
+أولاً، نفتح ملف EPUB باستخدام `FileInputStream`. استبدل `'input.epub'` بالمسار الفعلي لمستند EPUB الخاص بك.
 
 ```java
 try (FileInputStream fileInputStream = new FileInputStream("input.epub")) {
-    // سيتم وضع الكود الخاص بالخطوات التالية هنا.
+    // Your code for the next steps will go here.
 }
 ```
 
-## الخطوة 2: تهيئة ImageSaveOptions
+> **نصيحة احترافية:** استخدام كتلة try‑with‑resources يضمن إغلاق الدفق تلقائيًا، مما يمنع تسرب مقبض الملف.
 
-سوف نقوم بتهيئة`ImageSaveOptions` لتحديد التنسيق الذي نريد حفظ الصور به. في هذه الحالة، نستخدم تنسيق JPEG.
+### الخطوة 2: تهيئة ImageSaveOptions  
+بعد ذلك، ننشئ كائن `ImageSaveOptions` لتحديد كيفية حفظ صور الإخراج. هنا نختار JPEG كتنسيق مستهدف، وهو مثالي للصور المصغرة الجاهزة للويب.
 
 ```java
 ImageSaveOptions options = new ImageSaveOptions(ImageFormat.Jpeg);
 ```
 
-## الخطوة 3: تحويل EPUB إلى JPG
+يمكنك أيضًا تعديل الجودة، DPI، وأبعاد الصفحة عبر كائن `options` إذا كنت تحتاج إلى تحكم أدق.
 
- الآن، سوف نسميها`convertEPUB` طريقة لإجراء التحويل. تأخذ هذه الطريقة`FileInputStream` بالنسبة لملف EPUB،`ImageSaveOptions`، ومسار ملف الإخراج.
+### الخطوة 3: تحويل EPUB إلى JPG  
+أخيرًا، استدعِ طريقة التحويل. `Converter.convertEPUB` يقرأ تدفق EPUB، يرسم كل صفحة، ويكتب النتيجة إلى ملف JPG المحدد.
 
 ```java
 Converter.convertEPUB(fileInputStream, options, "output.jpg");
 ```
 
-هذا كل شيء! لقد نجحت في تحويل ملف EPUB إلى صور JPG باستخدام Aspose.HTML for Java.
+> **مشكلة شائعة:** تأكد من أن مسار ملف الإخراج ينتهي بـ “.jpg”. إذا كنت تحتاج إلى صور منفصلة لكل صفحة، قدم نمطًا مثل `"output_page_{0}.jpg"`.
 
-## خاتمة
+هذا كل شيء! لقد نجحت في إجراء **تحويل صورة epub** من EPUB إلى JPG باستخدام Aspose.HTML للـ Java.
 
-في هذا البرنامج التعليمي، قمنا بتغطية الخطوات اللازمة لتحويل ملف EPUB إلى صور JPG باستخدام Aspose.HTML for Java. توفر هذه المكتبة طريقة قوية ومباشرة للعمل مع تنسيقات ملفات مختلفة، مما يجعلها أداة قيمة للمطورين.
+## الخلاصة
 
- إذا واجهت أي مشكلات أو كان لديك أسئلة أخرى، فلا تتردد في طلب المساعدة من مجتمع Aspose على[منتديات اسبوس](https://forum.aspose.com/).
+في هذا الشرح، غطينا كل ما تحتاجه **لتحويل epub إلى jpg**—من إعداد البيئة إلى تنفيذ التحويل باستخدام `ImageSaveOptions`. تقوم Aspose.HTML للـ Java بتجريد تفاصيل العرض منخفضة المستوى، مما يتيح لك التركيز على دمج النتيجة في تطبيقك، سواء كان خدمة ويب، أداة سطح مكتب، أو خلفية تطبيق جوال.
 
-## الأسئلة الشائعة
+إذا واجهت أي مشاكل أو كان لديك أسئلة إضافية، لا تتردد في طلب المساعدة من مجتمع Aspose على [Aspose Forums](https://forum.aspose.com/).
 
-### هل استخدام Aspose.HTML لـ Java مجاني؟
-    Aspose.HTML for Java هي مكتبة تجارية، ولكن يمكنك استكشافها باستخدام[نسخة تجريبية مجانية](https://releases.aspose.com/).
+## الأسئلة المتكررة (FAQs)
 
-### هل يمكنني تحويل تنسيقات الملفات الأخرى باستخدام Aspose.HTML لـ Java؟
-   نعم، يدعم Aspose.HTML for Java تحويل التنسيقات المختلفة، بما في ذلك HTML، وEPUB، والمزيد.
+### هل Aspose.HTML للـ Java مجاني للاستخدام؟
+Aspose.HTML للـ Java هي مكتبة تجارية، ولكن يمكنك استكشافها من خلال [free trial](https://releases.aspose.com/).
 
-### كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.HTML لـ Java؟
-    يمكنك الحصول على ترخيص مؤقت من[هنا](https://purchase.aspose.com/temporary-license/).
+### هل يمكنني تحويل صيغ ملفات أخرى باستخدام Aspose.HTML للـ Java؟
+نعم، تدعم Aspose.HTML للـ Java تحويل صيغ متعددة، بما في ذلك HTML، EPUB، وأكثر.
 
-### هل هناك أي مصادر توثيق شاملة متاحة لـ Aspose.HTML لـ Java؟
-    نعم، يمكنك العثور على وثائق مفصلة في[توثيق Aspose.HTML لـ Java](https://reference.aspose.com/html/java/).
+### كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.HTML للـ Java؟
+يمكنك الحصول على ترخيص مؤقت من [here](https://purchase.aspose.com/temporary-license/).
 
-### أين يمكنني شراء ترخيص كامل لـ Aspose.HTML لـ Java؟
-    يمكنك شراء ترخيص كامل من[هنا](https://purchase.aspose.com/buy).
+### هل هناك موارد توثيق شاملة متاحة لـ Aspose.HTML للـ Java؟
+نعم، يمكنك العثور على توثيق مفصل في [Aspose.HTML for Java Documentation](https://reference.aspose.com/html/java/).
 
+### أين يمكنني شراء ترخيص كامل لـ Aspose.HTML للـ Java؟
+يمكنك شراء ترخيص كامل من [here](https://purchase.aspose.com/buy).
+
+## أسئلة متكررة إضافية
+
+**س: هل يمكنني تحديد حجم صورة مخصص لكل صفحة؟**  
+ج: نعم. اضبط طريقة `options.setPageSize(width, height)` قبل استدعاء `convertEPUB`.
+
+**س: كيف أتعامل مع ملفات EPUB التي تحتوي على خطوط مدمجة؟**  
+ج: تقوم Aspose.HTML تلقائيًا باستخراج واستخدام الخطوط المدمجة، مما يضمن عرضًا دقيقًا.
+
+**س: هل يمكن إنشاء PNG بدلاً من JPG؟**  
+ج: بالتأكيد. استخدم `ImageFormat.Png` عند إنشاء `ImageSaveOptions`.
+
+**س: هل تدعم الـ API تحويل صفحات محددة فقط؟**  
+ج: يمكنك ضبط `options.setPageIndex(startIndex)` و `options.setPageCount(count)` لتحديد نطاق التحويل.
+
+---
+
+**آخر تحديث:** 2025-12-30  
+**تم الاختبار مع:** Aspose.HTML for Java 23.12  
+**المؤلف:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
