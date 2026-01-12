@@ -90,8 +90,11 @@ Apprenez à convertir HTML en GIF en Java avec Aspose.HTML. Un guide complet ét
 Apprenez à convertir HTML en JPEG avec Aspose.HTML for Java. Guide étape par étape pour un traitement de documents fluide.
 ### [Conversion d'HTML en PNG](./convert-html-to-png/)
 Apprenez à convertir HTML en images PNG en Java avec Aspose.HTML. Un guide complet avec des instructions étape par étape.
+### [Comment définir le DPI lors de la conversion HTML en PNG – Guide complet](./how-to-set-dpi-when-converting-html-to-png-complete-guide/)
+Apprenez à définir le DPI lors de la conversion HTML en PNG avec Aspose.HTML for Java. Guide complet pas à pas.
 ### [Conversion d'HTML en TIFF](./convert-html-to-tiff/)
 Apprenez à convertir facilement HTML en TIFF avec Aspose.HTML for Java. Guide étape par étape pour une gestion efficace des documents.
+### [Rendu haute DPI en Java – Capturer des captures d'écran de pages Web avec un agent utilisateur personnalisé](./high-dpi-rendering-in-java-capture-webpage-screenshots-with/)
 
 ## Questions fréquemment posées
 

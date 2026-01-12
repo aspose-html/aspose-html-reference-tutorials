@@ -30,6 +30,8 @@ Most váltsunk sebességet, és fedezzük fel, hogyan lehet hatékonyan szerkesz
 Tanulja meg, hogyan használhatja az Aspose.HTML for Java-t fejlett CSS-technikák alkalmazására, beleértve az egyéni oldalmargókat és a dinamikus tartalmat. Részletes, gyakorlati útmutató fejlesztőknek.
 ### [HTML űrlap szerkesztése és benyújtása Aspose.HTML for Java segítségével](./html-form-editing/)
 Ebből az átfogó, lépésenkénti útmutatóból megtudhatja, hogyan szerkeszthet és küldhet be programozott HTML-űrlapokat az Aspose.HTML for Java használatával.
+### [Számított stílus Java – Háttérszín kinyerése HTML-ből](./get-computed-style-java-extract-background-color-from-html/)
+Ismerje meg, hogyan nyerheti ki a háttérszínt egy HTML-elemből a Java GetComputedStyle metódusával.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

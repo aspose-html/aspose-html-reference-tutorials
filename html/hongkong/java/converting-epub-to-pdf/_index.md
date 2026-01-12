@@ -78,6 +78,9 @@ EPUB 檔案廣泛用於電子書，但有時您需要將其轉為 PDF 格式以�
 ### [將 EPUB 轉換為圖像](./convert-epub-to-image/)
 了解如何使用 Aspose.HTML for Java 將 EPUB 轉換為圖像。輕鬆轉換您的數位內容，並提供逐步指南。
 
+### [在將 EPUB 轉換為 PDF 時嵌入字型 – Java 指南](./how-to-embed-fonts-when-converting-epub-to-pdf-java-guide/)
+了解如何在使用 Aspose.HTML for Java 轉換 EPUB 為 PDF 時嵌入自訂字型，以確保文件顯示正確。
+
 ## 常見問題
 
 **Q:** *我可以將受保護的 EPUB 檔案轉換為 PDF 嗎？*  

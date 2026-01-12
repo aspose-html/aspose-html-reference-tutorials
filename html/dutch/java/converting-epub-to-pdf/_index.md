@@ -72,6 +72,8 @@ Leer hoe je Aspose.HTML for Java kunt gebruiken om EPUB‑bestanden naar afbeeld
 Leer hoe je Aspose.HTML for Java gebruikt: EPUB naar afbeelding & meer. Ontdek onze stapsgewijze gids.
 ### [EPUB naar afbeelding converteren](./convert-epub-to-image/)
 Leer hoe je EPUB naar afbeeldingen kunt converteren met Aspose.HTML for Java. Transformeer je digitale content moeiteloos. Stapsgewijze gids inbegrepen.
+### [Hoe lettertypen inbedden bij het converteren van EPUB naar PDF – Java‑gids](./how-to-embed-fonts-when-converting-epub-to-pdf-java-guide/)
+Leer hoe je lettertypen kunt insluiten tijdens EPUB‑naar‑PDF‑conversie met Aspose.HTML for Java voor optimale weergave.
 
 ## Veelgestelde vragen
 

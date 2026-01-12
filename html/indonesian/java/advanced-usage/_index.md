@@ -130,6 +130,9 @@ Pelajari cara menyesuaikan ukuran halaman PDF dengan Aspose.HTML untuk Java. Bua
 ### [Sesuaikan Ukuran Halaman XPS dengan Aspose.HTML untuk Java](./adjust-xps-page-size/)
 Pelajari cara menyesuaikan ukuran halaman XPS dengan Aspose.HTML untuk Java. Kontrol dimensi output dokumen XPS Anda dengan mudah.
 
+### [Ekstrak HTML dari MHTML – Panduan Lengkap Java](./extract-html-from-mhtml-complete-java-guide/)
+Pelajari cara mengekstrak konten HTML dari file MHTML menggunakan Aspose.HTML untuk Java dalam panduan lengkap ini.
+
 ---
 
 **Terakhir Diperbarui:** 2025-11-29  

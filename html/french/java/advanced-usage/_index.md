@@ -125,7 +125,9 @@ Apprenez à automatiser le remplissage et la soumission de formulaires HTML avec
 ### [Ajuster la taille de page PDF avec Aspose.HTML for Java](./adjust-pdf-page-size/)
 Apprenez à ajuster la taille de page PDF avec Aspose.HTML for Java. Créez des PDF de haute qualité à partir de HTML sans effort. Contrôlez efficacement les dimensions des pages.  
 ### [Ajuster la taille de page XPS avec Aspose.HTML for Java](./adjust-xps-page-size/)
-Apprenez à ajuster la taille de page XPS avec Aspose.HTML for Java. Contrôlez facilement les dimensions de sortie de vos documents XPS.
+Apprenez à ajuster la taille de page XPS avec Aspose.HTML for Java. Contrôlez facilement les dimensions de sortie de vos documents XPS.  
+### [Extraire le HTML à partir de MHTML – Guide complet Java](./extract-html-from-mhtml-complete-java-guide/)
+Apprenez à extraire le contenu HTML d’un fichier MHTML en Java avec Aspose.HTML, étape par étape.  
 
 ---
 

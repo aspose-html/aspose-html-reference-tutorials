@@ -95,6 +95,10 @@ Aspose.HTML for Java 簡化了 HTML‑to‑PDF 工作流程。請參考專屬教
 使用 Aspose.HTML 在 Java 中將 SVG 轉為 PDF，提供高品質文件轉換的無縫解決方案。
 ### [Converting SVG to XPS](./convert-svg-to-xps/)
 學習如何使用 Aspose.HTML for Java 將 SVG 轉為 XPS，提供簡單、步驟式的無縫轉換指南。
+### [將 HTML 轉換為 Markdown – 完整 C# 指南](./convert-html-to-markdown-complete-c-guide/)
+了解如何使用 Aspose.HTML 在 C# 中將 HTML 轉換為 Markdown，提供完整步驟與最佳實踐。
+### [建立固定執行緒池以平行 HTML 轉 PDF 轉換](./create-fixed-thread-pool-for-parallel-html-to-pdf-conversion/)
+了解如何使用 Aspose.HTML 在 Java 中建立固定執行緒池，以平行執行 HTML 轉 PDF 的轉換。
 
 ## 常見問題
 

@@ -79,6 +79,8 @@ weight: 27
 ### [تحويل EPUB إلى صورة](./convert-epub-to-image/)
 تعلم كيفية تحويل EPUB إلى صور باستخدام Aspose.HTML for Java. حول محتواك الرقمي بسهولة. دليل خطوة بخطوة مرفق.
 
+### [كيفية تضمين الخطوط عند تحويل EPUB إلى PDF – دليل Java](./how-to-embed-fonts-when-converting-epub-to-pdf-java-guide/)
+
 ## الأسئلة المتكررة
 
 **Q:** *هل يمكنني تحويل ملفات EPUB المحمية إلى PDF؟*  

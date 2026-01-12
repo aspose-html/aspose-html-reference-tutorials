@@ -89,13 +89,17 @@ Using Aspose.HTML for Java simplifies the conversion of HTML documents into vari
 ### [Converting HTML to BMP](./convert-html-to-bmp/)
 Convert HTML to BMP with Aspose.HTML for Java. A comprehensive tutorial to seamlessly convert HTML documents into BMP images using Aspose.HTML for Java.
 ### [Converting HTML to GIF](./convert-html-to-gif/)
-Learn how to convert HTML to GIF in Java using Aspose.HTML. A comprehensive step-by-step guide for efficient HTML-to-GIF conversion.
+Learn how to convert HTML to GIF in Java using Aspose.HTML. A comprehensive step‑by‑step guide for efficient HTML-to-GIF conversion.
 ### [Converting HTML to JPEG](./convert-html-to-jpeg/)
 Learn to convert HTML to JPEG with Aspose.HTML for Java. Step-by-step guide for seamless document processing.
 ### [Converting HTML to PNG](./convert-html-to-png/)
 Learn how to convert HTML to PNG images in Java with Aspose.HTML. A comprehensive guide with step-by-step instructions.
+### [How to Set DPI When Converting HTML to PNG – Complete Guide](./how-to-set-dpi-when-converting-html-to-png-complete-guide/)
+Learn how to set DPI when converting HTML to PNG with Aspose.HTML for Java. A step‑by‑step guide for high‑resolution output.
 ### [Converting HTML to TIFF](./convert-html-to-tiff/)
 Learn how to easily convert HTML to TIFF using Aspose.HTML for Java. Step-by-step guide for efficient document handling.
+### [High DPI Rendering in Java – Capture Webpage Screenshots with Custom User Agent](./high-dpi-rendering-in-java-capture-webpage-screenshots-with/)
+Learn how to capture high‑DPI webpage screenshots in Java using Aspose.HTML with a custom user‑agent string.
 
 ## Frequently Asked Questions
 

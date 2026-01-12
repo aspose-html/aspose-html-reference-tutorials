@@ -43,7 +43,7 @@ Ha új HTML-dokumentumokról van szó, az Aspose.HTML for Java robusztus megold�
 
 ## HTML-dokumentumok létrehozása és kezelése az Aspose.HTML for Java oktatóanyagban
 ### [Hozzon létre HTML-dokumentumokat aszinkron módon az Aspose.HTML for Java-ban](./create-html-documents-async/)
-Elsajátíthatja aszinkron HTML-dokumentumkészítést az Aspose.HTML for Java segítségével. Lépésről lépésre útmutató, tippek és GYIK a gyors tanulás érdekében.
+Elsz... (description)
 ### [Hozzon létre üres HTML-dokumentumokat az Aspose.HTML for Java-ban](./create-empty-html-documents/)
 Tanulja meg, hogyan hozhat létre üres HTML-dokumentumokat Java nyelven az Aspose.HTML használatával a részletes, lépésről lépésre bemutatott oktatóanyagunkkal, amely minden szintű fejlesztő számára tökéletes.
 ### [Töltsön be HTML dokumentumokat az Aspose.HTML for Java fájlból](./load-html-documents-from-file/)
@@ -62,6 +62,9 @@ Ebből az egyszerű, lépésenkénti útmutatóból megtudhatja, hogyan hozhat l
 Ezzel a lépésenkénti útmutatóval ismerkedjen meg a dokumentumbetöltési események kezelésével az Aspose.HTML for Java programban. Bővítse webalkalmazásait.
 ### [Hozzon létre és kezeljen SVG-dokumentumokat az Aspose.HTML for Java-ban](./create-manage-svg-documents/)
 Ismerje meg az SVG dokumentumok létrehozását és kezelését az Aspose.HTML for Java segítségével! Ez az átfogó útmutató az alapvető alkotástól a haladó manipulációig mindent lefed.
+### [HTML generálása JavaScriptből Java-ban – Teljes lépésről‑lépésre útmutató](./generate-html-from-javascript-in-java-complete-step-by-step/)
+Ismerje meg, hogyan generálhat HTML-t JavaScript kódból Java alkalmazásban, részletes, lépésről‑lépésre útmutatóval.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

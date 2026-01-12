@@ -30,6 +30,9 @@ url: /ar/java/css-html-form-editing/
 تعرف على كيفية استخدام Aspose.HTML for Java لتطبيق تقنيات CSS المتقدمة، بما في ذلك هوامش الصفحات المخصصة والمحتوى الديناميكي. برنامج تعليمي عملي مفصل للمطورين.
 ### [تحرير نماذج HTML وإرسالها باستخدام Aspose.HTML لـ Java](./html-form-editing/)
 تعرف على كيفية تحرير نماذج HTML وإرسالها برمجيًا باستخدام Aspose.HTML لـ Java في هذا الدليل الشامل خطوة بخطوة.
+### [الحصول على النمط المحسوب في Java – استخراج لون الخلفية من HTML](./get-computed-style-java-extract-background-color-from-html/)
+تعلم كيفية استخراج لون الخلفية من عناصر HTML باستخدام أسلوب GetComputedStyle في Aspose.HTML for Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

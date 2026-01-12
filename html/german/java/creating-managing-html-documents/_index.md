@@ -53,13 +53,15 @@ Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie HTML-Dokumente mi
 ### [Laden Sie HTML-Dokumente aus dem Stream mit Aspose.HTML für Java](./load-html-documents-from-stream/)
 Erfahren Sie, wie Sie mit Aspose.HTML für Java HTML-Dokumente aus Streams laden. Diese Anleitung bietet eine Schritt-für-Schritt-Anleitung zur nahtlosen HTML-Bearbeitung.
 ### [Erstellen Sie HTML-Dokumente aus Zeichenfolgen in Aspose.HTML für Java](./create-html-documents-from-string/)
-Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie in Aspose.HTML für Java HTML-Dokumente aus Zeichenfolgen erstellen.
+Erfahren Sie in dieser Schritt‑für‑Schritt‑Anleitung, wie Sie in Aspose.HTML für Java HTML‑Dokumente aus Zeichenfolgen erstellen.
 ### [Laden Sie HTML-Dokumente von einer URL in Aspose.HTML für Java](./load-html-documents-from-url/)
-Entdecken Sie, wie Sie mit Aspose.HTML ganz einfach HTML-Dokumente von einer URL in Java laden. Schritt-für-Schritt-Anleitung inklusive.
+Entdecken Sie, wie Sie mit Aspose.HTML ganz einfach HTML‑Dokumente von einer URL in Java laden. Schritt‑für‑Schritt‑Anleitung inklusive.
+### [HTML aus JavaScript in Java generieren – Vollständige Schritt‑für‑Schritt‑Anleitung](./generate-html-from-javascript-in-java-complete-step-by-step/)
+Erfahren Sie, wie Sie mit Aspose.HTML für Java HTML aus JavaScript erzeugen. Detaillierte Schritt‑für‑Schritt‑Anleitung inklusive Beispielen.
 ### [Generieren Sie neue HTML-Dokumente mit Aspose.HTML für Java](./generate-new-html-documents/)
-Erfahren Sie in dieser einfachen Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.HTML für Java neue HTML-Dokumente erstellen. Beginnen Sie mit der Generierung dynamischer HTML-Inhalte.
+Erfahren Sie in dieser einfachen Schritt‑für‑Schritt‑Anleitung, wie Sie mit Aspose.HTML für Java neue HTML‑Dokumente erstellen. Beginnen Sie mit der Generierung dynamischer HTML‑Inhalte.
 ### [Behandeln von Dokumentladeereignissen in Aspose.HTML für Java](./handle-document-load-events/)
-Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie Dokumentladeereignisse in Aspose.HTML für Java handhaben. Verbessern Sie Ihre Webanwendungen.
+Erfahren Sie in dieser Schritt‑für‑Schritt‑Anleitung, wie Sie Dokumentladeereignisse in Aspose.HTML für Java handhaben. Verbessern Sie Ihre Webanwendungen.
 ### [Erstellen und Verwalten von SVG-Dokumenten in Aspose.HTML für Java](./create-manage-svg-documents/)
 Erfahren Sie, wie Sie SVG-Dokumente mit Aspose.HTML für Java erstellen und verwalten! Dieser umfassende Leitfaden deckt alles von der grundlegenden Erstellung bis zur erweiterten Bearbeitung ab.
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -58,6 +58,8 @@ Aspose.HTML for Java 為旨在在 Java 應用程式中無縫處理 HTML 文件�
 了解如何使用 Aspose.HTML 從 Java 中的 URL 輕鬆載入 HTML 文件。包括逐步教程。
 ### [使用 Aspose.HTML for Java 產生新的 HTML 文檔](./generate-new-html-documents/)
 透過這個簡單的逐步指南，了解如何使用 Aspose.HTML for Java 建立新的 HTML 文件。開始產生動態 HTML 內容。
+### [在 Java 中從 JavaScript 產生 HTML – 完整逐步指南](./generate-html-from-javascript-in-java-complete-step-by-step/)
+使用 Aspose.HTML for Java，從 JavaScript 生成 HTML，提供完整的逐步說明與範例，幫助您快速上手。
 ### [在 Aspose.HTML for Java 中處理文件載入事件](./handle-document-load-events/)
 透過此逐步指南，了解如何處理 Aspose.HTML for Java 中的文件載入事件。增強您的網頁應用程式。
 ### [在 Aspose.HTML for Java 中建立和管理 SVG 文檔](./create-manage-svg-documents/)
