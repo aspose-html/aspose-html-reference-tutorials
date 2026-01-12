@@ -36,8 +36,11 @@ Bővítsd dokumentumfeldolgozási képességeidet azzal, hogy megtanulod, hogyan
 ## PDF mentési beállítások megadása EPUB‑PDF konvertáláshoz
 Testreszabhatod tovább az EPUB‑PDF konvertálást a PDF mentési beállítások megadásával. Az Aspose.HTML for Java a kezedbe adja az irányítást, lehetővé téve, hogy pontosan úgy hozd létre a PDF dokumentumokat, ahogy szeretnéd – legyen szó beágyazott betűtípusokról, meghatározott oldalméretekről vagy a PDF/A szabványoknak való megfelelésről.
 
+### [Hogyan ágyazzunk be betűtípusokat EPUB PDF konvertáláskor Java-ban](./how-to-embed-fonts-when-converting-epub-to-pdf-in-java/)
+Tanulja meg, hogyan ágyazhat be egyedi betűtípusokat az EPUB‑PDF konvertálás során az Aspose.HTML for Java használatával.
+
 ## Digitális tartalom átalakítása
-Az EPUB‑PDF konvertálás csak a kezdet. Az Aspose.HTML for Java egy világot nyit meg a digitális tartalmad számára. Készíts könnyen hozzáférhető, vizuálisan vonzó és nagyon funkcionális dokumentumokat. Ugyanazt a motorot kiterjesztheted **epub to jpg conversion** vagy **epub to png conversion** kezelésére is, ha képek kinyerésére van szükség e-könyvekből.
+Az EPUB‑PDF konvertálás csak a kezdet. Az Aspose.HTML for Java egy világot nyit meg a digitális tartalmad számára. Készíts könnyen hozzáférhető, vizuálisan vonzó és nagyon funkcionális dokumentumokat. Ugyanazt a motort kiterjesztheted **epub to jpg conversion** vagy **epub to png conversion** kezelésére is, ha képek kinyerésére van szükség e-könyvekből.
 
 Ebben az átfogó útmutatóban minden lépésen végigvezetünk, biztosítva, hogy meglegyen a tudásod és az eszközeid az EPUB‑PDF konvertálás elsajátításához. Mondj búcsút a formátumproblémáknak, és üdvözöld az Aspose.HTML for Java egyszerűségét.
 

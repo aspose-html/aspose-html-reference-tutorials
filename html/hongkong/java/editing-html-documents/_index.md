@@ -41,7 +41,7 @@ url: /zh-hant/java/editing-html-documents/
 
 ## 添加內聯和內部 CSS
 
-有時，您需要直接在 HTML 文件本身中套用樣式。這就是內聯 CSS 和內部 CSS 發揮作用的地方。關於添加內聯和內部 CSS 的教學非常適合想要快速、簡單的樣式解決方案的人。想像一下：您正在處理一個需要特定樣式的文檔，並且您希望應用它而不影響其他文檔。內聯和內部 CSS 可以讓您做到這一點。無論您正在開發小型專案還是大型應用程序，這些指南都將幫助您有效地完成工作。[閱讀更多](./add-inline-css-html-documents/)和[閱讀更多](./implement-internal-css-html-documents/)
+有時，您需要直接在 HTML 文件本身中套用樣式。這就是內聯 CSS 和內部 CSS 發揮作用的地方。關於添加內聯和內部 CSS 的教學非常適合想要快速、簡單的樣式解決方案的人。想像一下：您正在處理一個需要特定樣式的文檔，並且您希望應用它而不影響其他文檔。內聯和內部 CSS 可以讓您做到這一點。無論您正在開發小型專案還是大型應用程序，這些指南將幫助您有效地完成工作。[閱讀更多](./add-inline-css-html-documents/)和[閱讀更多](./implement-internal-css-html-documents/)
 
 ## 在 Aspose.HTML for Java 教程中編輯 HTML 文檔
 ### [在 Aspose.HTML for Java 中編輯 HTML 文件樹](./edit-html-document-tree/)
@@ -58,6 +58,8 @@ url: /zh-hant/java/editing-html-documents/
 透過此逐步指南，了解如何在 Aspose.HTML for Java 中管理內部和外部 HTML 屬性，非常適合 Web 開發人員和內容創作者。
 ### [使用 Aspose.HTML for Java 在 HTML 文件中實作內部 CSS](./implement-internal-css-html-documents/)
 透過我們簡單的逐步教程，學習使用 Aspose.HTML for Java 在 HTML 文件中實現內部 CSS。
+### [固定執行緒池 Java – 使用 ExecutorService 進行平行 HTML 清理](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

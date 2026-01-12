@@ -62,6 +62,11 @@ Tìm hiểu cách tạo tài liệu HTML mới bằng Aspose.HTML cho Java với
 Học cách xử lý các sự kiện tải tài liệu trong Aspose.HTML cho Java với hướng dẫn từng bước này. Nâng cao ứng dụng web của bạn.
 ### [Tạo và quản lý tài liệu SVG trong Aspose.HTML cho Java](./create-manage-svg-documents/)
 Học cách tạo và quản lý tài liệu SVG bằng Aspose.HTML cho Java! Hướng dẫn toàn diện này bao gồm mọi thứ từ việc tạo cơ bản đến thao tác nâng cao.
+### [Tạo sandbox cho HTML trong Java – Hướng dẫn từng bước](./create-sandbox-for-html-in-java-step-by-step-guide/)
+Hướng dẫn chi tiết cách tạo môi trường sandbox cho HTML trong Java, giúp bạn thử nghiệm và phát triển an toàn.
+### [Cách truy vấn HTML trong Java – Hướng dẫn đầy đủ](./how-to-query-html-in-java-complete-tutorial/)
+Khám phá cách truy vấn tài liệu HTML trong Java một cách chi tiết, bao gồm các ví dụ thực tế và mẹo tối ưu.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

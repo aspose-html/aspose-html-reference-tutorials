@@ -125,6 +125,8 @@ Aspose.HTML for Java를 활용해 HTML 양식 자동 채우기 및 제출을 자
 Aspose.HTML for Java를 사용해 PDF 페이지 크기를 조정하는 방법을 배웁니다. HTML에서 고품질 PDF를 손쉽게 생성하고 페이지 치기를 효과적으로 제어합니다.
 ### [Aspose.HTML for Java로 XPS 페이지 크기 조정하기](./adjust-xps-page-size/)
 Aspose.HTML for Java를 사용해 XPS 페이지 크기를 조정하는 방법을 배웁니다. XPS 문서의 출력 치기를 손쉽게 제어합니다.
+### [Java에서 JavaScript 실행하기 – 완전 가이드](./how-to-run-javascript-in-java-complete-guide/)
+Java 애플리케이션 내에서 JavaScript 코드를 실행하고, 엔진 설정 및 스크립트 통합 방법을 단계별로 배웁니다.
 
 ---
 

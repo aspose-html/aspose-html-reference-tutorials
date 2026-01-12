@@ -56,6 +56,8 @@ Aspose.HTML for Java ile EPUB'den PDF'ye dönüşümün kilidini açın, güçl�
 Aspose.HTML ile Java'da EPUB'yi PDF'ye zahmetsizce dönüştürmeyi öğrenin, belge işleme yeteneklerinizi artırın.
 ### [Specifying PDF Save Options for EPUB to PDF](./convert-epub-to-pdf-specify-pdf-save-options/)
 Aspose.HTML kullanarak Java'da EPUB'yi PDF'ye dönüştürmeyi öğrenin, güçlü bir HTML manipülasyon kütüphanesi.
+### [Java'da EPUB'ten PDF'ye Dönüştürürken Yazı Tipi Gömme](./how-to-embed-fonts-when-converting-epub-to-pdf-in-java/)
+Aspose.HTML for Java kullanarak EPUB'ten PDF'ye dönüşüm sırasında özel yazı tiplerini nasıl gömeceğinizi öğrenin.
 ### [Converting EPUB to BMP](./convert-epub-to-bmp/)
 Aspose.HTML for Java kullanarak EPUB'yi BMP'ye dönüştürmeyi öğrenin. Etkili içerik dönüşümü için adım adım rehber.
 ### [Converting EPUB to GIF](./convert-epub-to-gif/)
@@ -65,7 +67,7 @@ Aspose.HTML for Java ile EPUB'yi JPG görüntülerine dönüştürmeyi öğrenin
 ### [Converting EPUB to PNG](./convert-epub-to-png/)
 Aspose.HTML for Java ile EPUB'yi PNG'ye dönüştürmeyi öğrenin. Adım adım rehberimizi izleyin ve eKitap içeriğinizi görsel olarak çekici hale getirin.
 ### [Converting EPUB to TIFF](./convert-epub-to-tiff/)
-Aspose.HTML for Java ile EPUB'yi TIFF'e dönüştürmeyi öğrenin. Yüksek kaliteli belge dönüşümü için adım adım rehberimizi izleyin.
+Aspose.HTML for Java ile EPUB'yi TIFF'e dönüştürmeyi öğrenin. Yüksek kaliteli belge dönüşümü için adım adım rehber.
 ### [Specifying Custom Stream Provider for EPUB to Image Conversion](./convert-epub-to-image-specify-custom-stream-provider/)
 Aspose.HTML for Java'ı kullanarak EPUB dosyalarını görüntülere dönüştürmek için bu adım adım rehberi izleyin.
 ### [Specifying Image Save Options for EPUB to Image Conversion](./convert-epub-to-image-specify-image-save-options/)
