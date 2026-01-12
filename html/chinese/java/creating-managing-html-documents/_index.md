@@ -62,6 +62,9 @@ Aspose.HTML for Java 为开发人员提供了功能强大的工具包，旨在�
 通过本分步指南学习如何在 Aspose.HTML for Java 中处理文档加载事件。增强您的 Web 应用程序。
 ### [在 Aspose.HTML for Java 中创建和管理 SVG 文档](./create-manage-svg-documents/)
 学习使用 Aspose.HTML for Java 创建和管理 SVG 文档！本综合指南涵盖了从基本创建到高级操作的所有内容。
+### [遍历 NodeList（Java）– 读取 HTML 并获取图像 src](./iterate-nodelist-java-read-html-get-image-src/)
+学习如何在 Java 中遍历 NodeList，读取 HTML 内容并提取图像的 src 属性，适用于网页抓取和解析。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

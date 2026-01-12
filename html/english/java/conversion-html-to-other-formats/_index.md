@@ -83,6 +83,8 @@ In conclusion, mastering **html to pdf java** and the broader set of conversions
 ## Conversion - HTML to Other Formats Tutorials
 ### [Converting HTML to PDF](./convert-html-to-pdf/)
 Learn how to convert HTML to PDF in Java using Aspose.HTML. Create high-quality PDFs from your HTML content effortlessly.
+### [html to pdf tutorial: Convert HTML to PDF in Java in One Line](./html-to-pdf-tutorial-convert-html-to-pdf-in-java-in-one-line/)
+Convert HTML to PDF in Java with a single line of code using Aspose.HTML.
 ### [Converting HTML to MHTML](./convert-html-to-mhtml/)
 Effortlessly convert HTML to MHTML using Aspose.HTML for Java. Follow our step-by-step guide for efficient HTML-to-MHTML conversion.
 ### [Converting HTML to XPS](./convert-html-to-xps/)
@@ -95,6 +97,8 @@ Learn how to convert SVG to images in Java with Aspose.HTML. Comprehensive guide
 Convert SVG to PDF in Java with Aspose.HTML. A seamless solution for high-quality document conversion.
 ### [Converting SVG to XPS](./convert-svg-to-xps/)
 Learn how to convert SVG to XPS with Aspose.HTML for Java. Simple, step-by-step guide for seamless conversions.
+### [Create PDF Custom Size from HTML in Java – Full Guide](./create-pdf-custom-size-from-html-in-java-full-guide/)
+Learn how to generate PDFs with custom page dimensions from HTML using Aspose.HTML for Java in this comprehensive guide.
 
 ## Frequently Asked Questions
 

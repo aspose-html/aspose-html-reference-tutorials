@@ -39,7 +39,7 @@ weight: 24
 - 生产环境的有效 Aspose.HTML 许可证（试用可选）。  
 
 ## 如何使用 Aspose.HTML **convert html gif**、**convert html jpeg** 和 **convert html png**
-以下是每种目标格式的简明分步说明。代码片段除输出文件扩展名外完全相同；只需更改 `ImageSaveOptions` 的格式即可。
+以下是每种目标格式的简明分步说明。代码片段除输出文件扩展名外完全相同，只需更改 `ImageSaveOptions` 的格式即可。
 
 ### 步骤 1：设置 HTML 渲染器
 创建 `HtmlRenderer` 实例并加载 HTML 源（文件、URL 或字符串）。
@@ -100,6 +100,9 @@ weight: 24
 
 ### [Converting HTML to TIFF](./convert-html-to-tiff/)
 学习如何使用 Aspose.HTML for Java 轻松将 HTML 转换为 TIFF。一步步指南，帮助您高效处理文档。
+
+### [使用线程池快速批量将 HTML 转换为 PNG](./create-png-from-html-fast-batch-conversion-using-a-thread-po/)
+演示如何利用线程池在 Java 中批量将 HTML 渲染为 PNG，提高转换效率并降低资源消耗。
 
 ## 常见问题解答
 

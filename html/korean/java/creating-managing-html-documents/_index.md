@@ -54,6 +54,8 @@ Aspose.HTML for Java로 HTML 조작의 힘을 잠금 해제하세요. 단계별 
 Aspose.HTML for Java를 사용하여 스트림에서 HTML 문서를 로드하는 방법을 알아보세요. 이 가이드는 원활한 HTML 조작을 위한 단계별 튜토리얼을 제공합니다.
 ### [Java용 Aspose.HTML에서 문자열로부터 HTML 문서 만들기](./create-html-documents-from-string/)
 이 단계별 가이드를 통해 Java용 Aspose.HTML에서 문자열로 HTML 문서를 만드는 방법을 알아보세요.
+### [Java용 Aspose.HTML에서 NodeList 반복 – HTML 읽고 이미지 src 가져오기](./iterate-nodelist-java-read-html-get-image-src/)
+Aspose.HTML for Java를 사용해 NodeList를 순회하며 HTML을 읽고 이미지 src 속성을 추출하는 방법을 단계별로 안내합니다.
 ### [Java용 Aspose.HTML에서 URL에서 HTML 문서 로드](./load-html-documents-from-url/)
 Aspose.HTML을 사용하여 Java에서 URL에서 HTML 문서를 쉽게 로드하는 방법을 알아보세요. 단계별 튜토리얼이 포함되어 있습니다.
 ### [Java용 Aspose.HTML을 사용하여 새 HTML 문서 생성](./generate-new-html-documents/)

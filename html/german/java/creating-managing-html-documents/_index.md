@@ -62,6 +62,8 @@ Erfahren Sie in dieser einfachen Schritt-für-Schritt-Anleitung, wie Sie mit Asp
 Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie Dokumentladeereignisse in Aspose.HTML für Java handhaben. Verbessern Sie Ihre Webanwendungen.
 ### [Erstellen und Verwalten von SVG-Dokumenten in Aspose.HTML für Java](./create-manage-svg-documents/)
 Erfahren Sie, wie Sie SVG-Dokumente mit Aspose.HTML für Java erstellen und verwalten! Dieser umfassende Leitfaden deckt alles von der grundlegenden Erstellung bis zur erweiterten Bearbeitung ab.
+### [NodeList in Java iterieren – HTML lesen & Bild‑src abrufen](./iterate-nodelist-java-read-html-get-image-src/)
+Lernen Sie, wie Sie mit Aspose.HTML für Java eine NodeList durchlaufen, HTML-Inhalte lesen und die src‑Attribute von Bildern extrahieren.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
