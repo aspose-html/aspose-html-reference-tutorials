@@ -30,6 +30,10 @@ Web geliştirmeye daldığınızda, CSS ve HTML formlarında ustalaşmak bisikle
 Özel sayfa kenar boşlukları ve dinamik içerik dahil olmak üzere gelişmiş CSS tekniklerini uygulamak için Aspose.HTML for Java'yı nasıl kullanacağınızı öğrenin. Geliştiriciler için ayrıntılı, uygulamalı bir eğitim.
 ### [Aspose.HTML for Java ile HTML Form Düzenleme ve Gönderimi](./html-form-editing/)
 Bu kapsamlı adım adım kılavuzda, Aspose.HTML for Java'yı kullanarak HTML formlarını programlı olarak nasıl düzenleyeceğinizi ve göndereceğinizi öğrenin.
+### [Java'da HTML Sorgulama – HTML Yükleme, CSS Seçici ve Başlıkları Çıkarma](./how-to-query-html-in-java-load-html-css-selector-and-extract/)
+Bu eğitimde, Java kullanarak HTML dosyasını yükleyip CSS seçicileriyle başlıkları nasıl çıkaracağınızı öğrenin.
+### [Java ile HTML Ayrıştırma: CSS Özelliğini Çıkar ve Yazı Boyutunu Al](./parse-html-with-java-extract-css-property-and-get-font-size/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

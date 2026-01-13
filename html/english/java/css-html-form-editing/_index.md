@@ -30,6 +30,11 @@ Now, let’s shift gears and explore how to effectively edit and submit HTML for
 Learn how to use Aspose.HTML for Java to apply advanced CSS techniques, including custom page margins and dynamic content. A detailed, hands-on tutorial for developers.
 ### [HTML Form Editing and Submission with Aspose.HTML for Java](./html-form-editing/)
 Learn how to edit and submit HTML forms programmatically using Aspose.HTML for Java in this comprehensive step-by-step guide.
+### [Parse HTML with Java: Extract CSS Property and Get Font Size](./parse-html-with-java-extract-css-property-and-get-font-size/)
+Learn how to parse HTML using Aspose.HTML for Java to extract CSS properties and retrieve font size values programmatically.
+### [How to Query HTML in Java – Load HTML, CSS Selector, and Extract Headings](./how-to-query-html-in-java-load-html-css-selector-and-extract/)
+Learn how to load HTML, use CSS selectors, and extract heading elements programmatically with Aspose.HTML for Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

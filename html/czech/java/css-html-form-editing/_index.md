@@ -30,6 +30,11 @@ Nyní pojďme zařadit rychlost a prozkoumat, jak efektivně upravovat a odesíl
 Naučte se používat Aspose.HTML pro Java k aplikaci pokročilých technik CSS, včetně vlastních okrajů stránek a dynamického obsahu. Podrobný praktický návod pro vývojáře.
 ### [Editace a odeslání formuláře HTML pomocí Aspose.HTML pro Javu](./html-form-editing/)
 V tomto podrobném průvodci se dozvíte, jak programově upravovat a odesílat formuláře HTML pomocí Aspose.HTML for Java.
+### [Analyzovat HTML v Javě: Extrahovat CSS vlastnost a získat velikost písma](./parse-html-with-java-extract-css-property-and-get-font-size/)
+Naučte se pomocí Aspose.HTML v Javě extrahovat CSS vlastnosti a zjistit velikost písma z HTML dokumentu.
+### [Jak dotazovat HTML v Javě – načíst HTML, CSS selektor a extrahovat nadpisy](./how-to-query-html-in-java-load-html-css-selector-and-extract/)
+Naučte se načíst HTML, použít CSS selektory a získat nadpisy pomocí Aspose.HTML pro Javu.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

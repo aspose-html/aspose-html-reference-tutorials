@@ -98,6 +98,9 @@ Aspose.HTML for Java ile HTML'yi JPEG'ye dönüştürmeyi öğrenin. Sorunsuz be
 Aspose.HTML ile Java'da HTML'yi PNG görüntülerine dönüştürmeyi öğrenin. Kapsamlı bir rehber ve adım‑adım talimatlar.
 ### [HTML'yi TIFF'ye Dönüştürme](./convert-html-to-tiff/)
 Aspose.HTML for Java kullanarak HTML'yi TIFF'ye kolayca dönüştürmeyi öğrenin. Verimli belge işleme için adım‑adım bir rehber.
+### [HTML'yi WebP'ye Dönüştür – Java ile HTML'yi WebP olarak Kaydetme Rehberi](./convert-html-to-webp-java-guide-to-save-html-as-webp/)
+Aspose.HTML for Java kullanarak HTML'yi WebP formatına dönüştürün. Yüksek kalite ve sıkıştırma ile görüntü oluşturun.
+### [Aspose HTML ile bir web sayfasının ekran görüntüsünü yakalama – Java rehberi](./how-to-capture-screenshot-of-a-webpage-with-aspose-html-java/)
 
 ## Sıkça Sorulan Sorular
 

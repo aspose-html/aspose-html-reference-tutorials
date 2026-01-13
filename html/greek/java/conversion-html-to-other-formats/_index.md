@@ -85,6 +85,8 @@ weight: 25
 ## Μετατροπή - HTML σε Άλλες Μορφές Μαθήματα
 ### [Μετατροπή HTML σε PDF](./convert-html-to-pdf/)
 Μάθετε πώς να μετατρέψετε HTML σε PDF σε Java χρησιμοποιώντας το Aspose.HTML. Δημιουργήστε PDF υψηλής ποιότητας από το περιεχόμενο HTML σας χωρίς κόπο.
+### [HTML σε PDF: Μετατροπή ιστοσελίδων σε PDF με Java](./html-to-pdf-tutorial-convert-web-pages-to-pdf-with-java/)
+Μάθετε πώς να μετατρέψετε ιστοσελίδες HTML σε αρχεία PDF υψηλής ποιότητας χρησιμοποιώντας το Aspose.HTML for Java.
 ### [Μετατροπή HTML σε MHTML](./convert-html-to-mhtml/)
 Μετατρέψτε εύκολα HTML σε MHTML χρησιμοποιώντας το Aspose.HTML for Java. Ακολουθήστε τον βήμα‑βήμα οδηγό μας για αποδοτική μετατροπή HTML‑σε‑MHTML.
 ### [Μετατροπή HTML σε XPS](./convert-html-to-xps/)
@@ -97,6 +99,8 @@ weight: 25
 Μετατρέψτε SVG σε PDF σε Java με το Aspose.HTML. Μία απρόσκοπτη λύση για μετατροπή εγγράφων υψηλής ποιότητας.
 ### [Μετατροπή SVG σε XPS](./convert-svg-to-xps/)
 Μάθετε πώς να μετατρέψετε SVG σε XPS με το Aspose.HTML for Java. Απλός, βήμα‑βήμα οδηγός για απρόσκοπτες μετατροπές.
+### [Ορισμός μεγέθους σελίδας PDF σε Java – Πλήρης οδηγός HTML σε PDF](./set-pdf-page-size-in-java-complete-html-to-pdf-guide/)
+Μάθετε πώς να ορίσετε το μέγεθος σελίδας PDF κατά τη μετατροπή HTML σε PDF με Java χρησιμοποιώντας το Aspose.HTML.
 
 ## Συχνές Ερωτήσεις
 
