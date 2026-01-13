@@ -35,6 +35,9 @@ Gdy już opanujesz podstawy, zagłębimy się w proces tworzenia. W tej sekcji n
 ### [Edycja dokumentu w .NET za pomocą Aspose.HTML](./editing-a-document/)
 
 Teraz przenieśmy Twoje umiejętności na wyższy poziom. Edycja dokumentów HTML to typowe zadanie dla programistów stron internetowych, a Aspose.HTML znacznie upraszcza ten proces. W tej sekcji omówimy tworzenie, manipulację i stylizowanie dokumentów. Odkryjesz, jak ulepszyć wygląd i funkcjonalność treści internetowych, czyniąc je angażującymi i przyjaznymi dla użytkownika.
+
+### [Jak zapisać HTML w C# – własne obsługi zasobów i ZIP](./how-to-save-html-in-c-custom-resource-handlers-zip/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

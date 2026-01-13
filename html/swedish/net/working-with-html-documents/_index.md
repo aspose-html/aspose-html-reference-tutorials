@@ -35,6 +35,9 @@ När du har förstått grunderna kommer vi att gräva djupare i skapelseprocesse
 ### [Redigera ett dokument i .NET med Aspose.HTML](./editing-a-document/)
 
 Låt oss nu ta dina färdigheter till nästa nivå. Att redigera HTML-dokument är en vanlig uppgift för webbutvecklare, och Aspose.HTML förenklar denna process avsevärt. I det här avsnittet kommer vi att ta upp dokumentskapande, manipulering och stil. Du kommer att upptäcka hur du förbättrar utseendet och funktionaliteten hos ditt webbinnehåll, vilket gör det engagerande och användarvänligt.
+
+### [Hur man sparar HTML i C# – Anpassade resurs‑hanterare & ZIP](./how-to-save-html-in-c-custom-resource-handlers-zip/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

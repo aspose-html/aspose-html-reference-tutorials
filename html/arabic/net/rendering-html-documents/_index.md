@@ -42,6 +42,8 @@ url: /ar/net/rendering-html-documents/
 
 ### [عرض HTML بصيغة PNG في .NET باستخدام Aspose.HTML](./render-html-as-png/)
 تعلم كيفية العمل باستخدام Aspose.HTML لـ .NET: التعامل مع HTML وتحويله إلى تنسيقات مختلفة والمزيد. انغمس في هذا البرنامج التعليمي الشامل!
+### [كيفية تحويل HTML إلى PNG في C# – دليل خطوة بخطوة](./how-to-render-html-to-png-in-c-step-by-step-guide/)
+تعلم كيفية تحويل مستندات HTML إلى صور PNG باستخدام C# و Aspose.HTML خطوة بخطوة.
 ### [عرض EPUB بتنسيق XPS في .NET باستخدام Aspose.HTML](./render-epub-as-xps/)
 تعرف على كيفية إنشاء مستندات HTML وعرضها باستخدام Aspose.HTML لـ .NET في هذا البرنامج التعليمي الشامل. انغمس في عالم معالجة HTML وكشط الويب والمزيد.
 ### [مهلة عرض العرض في .NET باستخدام Aspose.HTML](./rendering-timeout/)
