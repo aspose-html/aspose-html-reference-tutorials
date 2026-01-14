@@ -105,6 +105,9 @@ Aspose.HTML for Java упрощает процесс конвертации HTML
 ### [Конвертация SVG в XPS](./convert-svg-to-xps/)
 Узнайте, как конвертировать SVG в XPS с помощью Aspose.HTML for Java. Простое пошаговое руководство для бесшовных конвертаций.
 
+### [Создание PDF из Markdown в Java – простой однострочный гид](./create-pdf-from-markdown-in-java-simple-one-liner-guide/)
+Узнайте, как в одну строку преобразовать Markdown в PDF в Java с помощью Aspose.HTML.
+
 ## Часто задаваемые вопросы
 
 **Q: Можно ли использовать Aspose.HTML for Java в коммерческом приложении?**  

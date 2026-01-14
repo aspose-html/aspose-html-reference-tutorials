@@ -30,6 +30,9 @@ url: /ar/java/css-html-form-editing/
 تعرف على كيفية استخدام Aspose.HTML for Java لتطبيق تقنيات CSS المتقدمة، بما في ذلك هوامش الصفحات المخصصة والمحتوى الديناميكي. برنامج تعليمي عملي مفصل للمطورين.
 ### [تحرير نماذج HTML وإرسالها باستخدام Aspose.HTML لـ Java](./html-form-editing/)
 تعرف على كيفية تحرير نماذج HTML وإرسالها برمجيًا باستخدام Aspose.HTML لـ Java في هذا الدليل الشامل خطوة بخطوة.
+### [كيفية الحصول على النمط في Java – تحميل HTML واستخدام محدد الاستعلام](./how-to-get-style-in-java-load-html-query-selector/)
+تعلم كيفية تحميل مستند HTML واستخراج الأنماط باستخدام محددات الاستعلام في Aspose.HTML for Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
