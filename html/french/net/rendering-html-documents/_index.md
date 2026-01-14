@@ -52,6 +52,11 @@ Découvrez comment contrôler efficacement les délais d'expiration du rendu dan
 Apprenez à générer plusieurs documents HTML à l'aide d'Aspose.HTML pour .NET. Boostez vos capacités de traitement de documents avec cette puissante bibliothèque.
 ### [Rendre un document SVG au format PNG dans .NET avec Aspose.HTML](./render-svg-doc-as-png/)
 Libérez la puissance d'Aspose.HTML pour .NET ! Apprenez à restituer un document SVG au format PNG sans effort. Plongez dans des exemples étape par étape et des FAQ. Commencez maintenant !
+### [Comment rendre du HTML en C# – Guide complet pour le style des paragraphes](./how-to-render-html-in-c-complete-guide-to-styling-paragraphs/)
+Apprenez à rendre du HTML en C# et à styliser les paragraphes avec Aspose.HTML. Suivez ce guide complet étape par étape.
+### [Rendre HTML en PNG en C# – Guide complet étape par étape](./render-html-to-png-in-c-complete-step-by-step-guide/)
+Apprenez à convertir du HTML en images PNG avec C# en suivant un guide complet étape par étape.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

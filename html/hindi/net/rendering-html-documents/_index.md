@@ -42,16 +42,28 @@ Aspose.HTML for .NET अपनी समृद्ध विशेषताओं
 
 ### [Aspose.HTML के साथ .NET में HTML को PNG के रूप में प्रस्तुत करें](./render-html-as-png/)
 .NET के लिए Aspose.HTML के साथ काम करना सीखें: HTML में हेरफेर करें, विभिन्न प्रारूपों में कनवर्ट करें, और बहुत कुछ। इस व्यापक ट्यूटोरियल में गोता लगाएँ!
+
+### [C# में HTML को PNG में प्रस्तुत करना – पूर्ण चरण‑दर‑चरण गाइड](./render-html-to-png-in-c-complete-step-by-step-guide/)
+C# के साथ Aspose.HTML का उपयोग करके HTML को PNG में रेंडर करने के सभी चरणों को सीखें।
+
 ### [Aspose.HTML के साथ .NET में EPUB को XPS के रूप में प्रस्तुत करें](./render-epub-as-xps/)
 इस विस्तृत ट्यूटोरियल में जानें कि .NET के लिए Aspose.HTML के साथ HTML दस्तावेज़ कैसे बनाएँ और रेंडर करें। HTML मैनिपुलेशन, वेब स्क्रैपिंग और बहुत कुछ की दुनिया में गोता लगाएँ।
+
 ### [Aspose.HTML के साथ .NET में टाइमआउट रेंडर करना](./rendering-timeout/)
 Aspose.HTML for .NET में रेंडरिंग टाइमआउट को प्रभावी ढंग से नियंत्रित करने का तरीका जानें। रेंडरिंग विकल्पों का अन्वेषण करें और HTML दस्तावेज़ रेंडरिंग को सुचारू रूप से सुनिश्चित करें।
+
 ### [Aspose.HTML के साथ .NET में MHTML को XPS के रूप में प्रस्तुत करें](./render-mhtml-as-xps/)
  Aspose.HTML के साथ .NET में MHTML को XPS के रूप में प्रस्तुत करना सीखें। अपने HTML हेरफेर कौशल को बढ़ाएँ और अपनी वेब डेवलपमेंट परियोजनाओं को बढ़ावा दें!
+
 ### [Aspose.HTML के साथ .NET में एकाधिक दस्तावेज़ प्रस्तुत करें](./render-multiple-documents/)
 .NET के लिए Aspose.HTML का उपयोग करके कई HTML दस्तावेज़ों को रेंडर करना सीखें। इस शक्तिशाली लाइब्रेरी के साथ अपनी दस्तावेज़ प्रसंस्करण क्षमताओं को बढ़ाएँ।
+
 ### [Aspose.HTML के साथ .NET में SVG दस्तावेज़ को PNG के रूप में प्रस्तुत करें](./render-svg-doc-as-png/)
 .NET के लिए Aspose.HTML की शक्ति अनलॉक करें! SVG Doc को आसानी से PNG के रूप में रेंडर करना सीखें। चरण-दर-चरण उदाहरणों और FAQ में गोता लगाएँ। अभी शुरू करें!
+
+### [C# में HTML को रेंडर करना – पैराग्राफ स्टाइलिंग की पूरी गाइड](./how-to-render-html-in-c-complete-guide-to-styling-paragraphs/)
+C# में Aspose.HTML का उपयोग करके HTML पैराग्राफ को स्टाइल करने और रेंडर करने के चरण-दर-स्टेप निर्देश।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

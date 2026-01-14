@@ -41,6 +41,10 @@ Aspose.HTML for .NET을 .NET 프로젝트에 통합하는 것은 번거롭지 �
 .NET용 Aspose.HTML을 사용하여 동적 웹 페이지를 만드는 방법을 알아보세요. 이 단계별 튜토리얼은 필수 구성 요소, 네임스페이스, HTML을 이미지로 렌더링하는 방법을 다룹니다.
 ### [Aspose.HTML을 사용하여 .NET에서 ImageDevice로 PNG 이미지 생성](./generate-png-images-by-imagedevice/)
 .NET용 Aspose.HTML을 사용하여 HTML 문서를 조작하고, HTML을 이미지로 변환하는 등의 방법을 알아보세요. FAQ가 포함된 단계별 튜토리얼.
+### [Word를 PNG로 변환 – 개발자를 위한 완전 가이드](./convert-word-to-png-complete-guide-for-developers/)
+Aspose.HTML을 사용하여 Word 문서를 PNG 이미지로 변환하는 방법을 단계별로 안내합니다.
+### [Word를 이미지로 변환 – C# 개발자를 위한 완전 가이드](./convert-word-to-image-in-c-complete-guide/)
+Aspose.HTML을 사용하여 C#에서 Word 문서를 이미지로 변환하는 전체 과정을 단계별로 안내합니다.
 
 ## 결론
 

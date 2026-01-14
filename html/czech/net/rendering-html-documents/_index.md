@@ -42,6 +42,8 @@ Nyní, když máte Aspose.HTML pro .NET nastaveno, je čas prozkoumat výukové 
 
 ### [Renderujte HTML jako PNG v .NET pomocí Aspose.HTML](./render-html-as-png/)
 Naučte se pracovat s Aspose.HTML pro .NET: Manipulujte s HTML, převádějte do různých formátů a další. Ponořte se do tohoto komplexního tutoriálu!
+### [Renderujte HTML do PNG v C# – Kompletní krok‑za‑krokem průvodce](./render-html-to-png-in-c-complete-step-by-step-guide/)
+Naučte se, jak pomocí Aspose.HTML v C# převést HTML do PNG. Kompletní průvodce krok za krokem.
 ### [Renderujte EPUB jako XPS v .NET pomocí Aspose.HTML](./render-epub-as-xps/)
 V tomto komplexním kurzu se dozvíte, jak vytvářet a vykreslovat dokumenty HTML pomocí Aspose.HTML for .NET. Ponořte se do světa HTML manipulace, web scraping a další.
 ### [Časový limit vykreslování v .NET pomocí Aspose.HTML](./rendering-timeout/)
@@ -52,6 +54,9 @@ Naučte se, jak efektivně řídit časové limity vykreslování v Aspose.HTML 
 Naučte se vykreslovat více dokumentů HTML pomocí Aspose.HTML pro .NET. Zvyšte své možnosti zpracování dokumentů pomocí této výkonné knihovny.
 ### [Renderujte SVG Doc jako PNG v .NET pomocí Aspose.HTML](./render-svg-doc-as-png/)
 Odemkněte sílu Aspose.HTML pro .NET! Naučte se, jak snadno vykreslit dokument SVG jako PNG. Ponořte se do podrobných příkladů a nejčastějších dotazů. Začněte hned!
+### [Jak renderovat HTML v C# – Kompletní průvodce stylováním odstavců](./how-to-render-html-in-c-complete-guide-to-styling-paragraphs/)
+Naučte se, jak pomocí Aspose.HTML v C# stylovat odstavce a dosáhnout profesionálního vzhledu HTML dokumentů.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
