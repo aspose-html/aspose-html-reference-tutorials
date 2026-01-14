@@ -42,6 +42,8 @@ Ahora que ha configurado Aspose.HTML para .NET, es hora de explorar los tutorial
 
 ### [Representar HTML como PNG en .NET con Aspose.HTML](./render-html-as-png/)
 Aprenda a trabajar con Aspose.HTML para .NET: manipule HTML, convierta a varios formatos y más. ¡Sumérjase en este tutorial completo!
+### [Renderizar HTML a PNG en C# – Guía completa paso a paso](./render-html-to-png-in-c-complete-step-by-step-guide/)
+Aprenda a convertir HTML a PNG en C# con Aspose.HTML, siguiendo una guía paso a paso con ejemplos claros.
 ### [Procesar EPUB como XPS en .NET con Aspose.HTML](./render-epub-as-xps/)
 Aprenda a crear y renderizar documentos HTML con Aspose.HTML para .NET en este completo tutorial. Sumérjase en el mundo de la manipulación de HTML, el web scraping y más.
 ### [Tiempo de espera de renderizado en .NET con Aspose.HTML](./rendering-timeout/)
@@ -52,6 +54,9 @@ Aprenda a controlar los tiempos de espera de renderización de manera eficaz en 
 Aprenda a representar múltiples documentos HTML con Aspose.HTML para .NET. Aumente sus capacidades de procesamiento de documentos con esta potente biblioteca.
 ### [Convertir un documento SVG en formato PNG en .NET con Aspose.HTML](./render-svg-doc-as-png/)
 ¡Descubra el poder de Aspose.HTML para .NET! Aprenda a convertir documentos SVG en PNG sin esfuerzo. Conozca ejemplos paso a paso y preguntas frecuentes. ¡Comience ahora!
+### [Cómo renderizar HTML en C# – Guía completa para dar estilo a los párrafos](./how-to-render-html-in-c-complete-guide-to-styling-paragraphs/)
+Aprenda a renderizar HTML en C# y aplicar estilos a los párrafos con Aspose.HTML, paso a paso y con ejemplos claros.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
