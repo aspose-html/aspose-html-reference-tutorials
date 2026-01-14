@@ -97,6 +97,8 @@ Leer HTML naar JPEG te converteren met Aspose.HTML for Java. Stap‑voor‑stap 
 Leer hoe je HTML naar PNG‑afbeeldingen kunt converteren in Java met Aspose.HTML. Een uitgebreide gids met stap‑voor‑stap instructies.
 ### [HTML naar TIFF converteren](./convert-html-to-tiff/)
 Leer hoe je HTML eenvoudig naar TIFF kunt converteren met Aspose.HTML for Java. Stap‑voor‑stap gids voor efficiënte documentafhandeling.
+### [Hoe DPI instellen – HTML renderen naar PNG met AsposeHTML](./how-to-set-dpi-render-html-to-png-with-asposehtml/)
+Leer hoe je de DPI-waarde kunt aanpassen bij het renderen van HTML naar PNG met Aspose.HTML for Java.
 
 ## Veelgestelde vragen
 

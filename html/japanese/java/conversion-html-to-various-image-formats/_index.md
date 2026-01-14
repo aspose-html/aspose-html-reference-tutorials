@@ -96,6 +96,8 @@ Aspose.HTML を使用して Java で HTML を PNG 画像に変換する方法を
 ### [HTML を TIFF に変換](./convert-html-to-tiff/)
 Aspose.HTML for Java を使用して HTML を TIFF に簡単に変換する方法を学びます。効率的なドキュメント処理のためのステップバイステップガイドです。
 
+### [DPI を設定する方法 – AsposeHTML で HTML を PNG にレンダリング](./how-to-set-dpi-render-html-to-png-with-asposehtml/)
+
 ## よくある質問
 
 **Q: 追加の画像ライブラリなしで Java で HTML を PNG に変換できますか？**  
