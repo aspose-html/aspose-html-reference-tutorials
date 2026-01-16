@@ -42,16 +42,31 @@ Nachdem Sie Aspose.HTML für .NET eingerichtet haben, ist es an der Zeit, die Tu
 
 ### [Rendern Sie HTML als PNG in .NET mit Aspose.HTML](./render-html-as-png/)
 Erfahren Sie, wie Sie mit Aspose.HTML für .NET arbeiten: HTML bearbeiten, in verschiedene Formate konvertieren und mehr. Tauchen Sie ein in dieses umfassende Tutorial!
+
+### [HTML-Dokument in C# erstellen – Rendern zu PNG mit fetter kursiver Schrift](./create-html-document-c-render-to-png-with-bold-italic-font/)
+Erfahren Sie, wie Sie mit Aspose.HTML für .NET ein HTML-Dokument in C# erstellen und es mit fetter kursiver Schrift als PNG rendern.
+
 ### [Rendern Sie EPUB als XPS in .NET mit Aspose.HTML](./render-epub-as-xps/)
 Erfahren Sie in diesem umfassenden Tutorial, wie Sie mit Aspose.HTML für .NET HTML-Dokumente erstellen und rendern. Tauchen Sie ein in die Welt der HTML-Manipulation, des Web Scraping und mehr.
+
 ### [Rendering-Timeout in .NET mit Aspose.HTML](./rendering-timeout/)
 Erfahren Sie, wie Sie Rendering-Timeouts in Aspose.HTML für .NET effektiv steuern. Erkunden Sie Rendering-Optionen und sorgen Sie für ein reibungsloses Rendering von HTML-Dokumenten.
+
 ### [Rendern Sie MHTML als XPS in .NET mit Aspose.HTML](./render-mhtml-as-xps/)
  Lernen Sie, MHTML mit Aspose.HTML in .NET als XPS zu rendern. Verbessern Sie Ihre HTML-Manipulationsfähigkeiten und steigern Sie Ihre Webentwicklungsprojekte!
+
 ### [Rendern Sie mehrere Dokumente in .NET mit Aspose.HTML](./render-multiple-documents/)
 Erfahren Sie, wie Sie mit Aspose.HTML für .NET mehrere HTML-Dokumente rendern. Steigern Sie Ihre Dokumentverarbeitungsfunktionen mit dieser leistungsstarken Bibliothek.
+
 ### [Rendern Sie SVG-Dokumente als PNG in .NET mit Aspose.HTML](./render-svg-doc-as-png/)
 Entfesseln Sie die Leistungsfähigkeit von Aspose.HTML für .NET! Erfahren Sie, wie Sie SVG-Dokumente mühelos als PNG rendern. Tauchen Sie ein in Schritt-für-Schritt-Beispiele und FAQs. Jetzt loslegen!
+
+### [Rendern Sie HTML nach PNG in C# mit Aspose](./how-to-use-aspose-to-render-html-to-png-in-c/)
+Erfahren Sie, wie Sie mit Aspose.HTML für .NET HTML in C# zu PNG rendern und dabei Optionen optimal nutzen.
+
+### [HTML mit C# in ein Bild rendern – Komplettanleitung](./how-to-render-html-to-an-image-with-c-complete-guide/)
+Erfahren Sie, wie Sie mit Aspose.HTML für .NET HTML in C# in ein Bild konvertieren und dabei erweiterte Rendering-Optionen nutzen.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

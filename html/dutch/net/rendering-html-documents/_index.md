@@ -42,16 +42,31 @@ Nu u Aspose.HTML voor .NET hebt ingesteld, is het tijd om de tutorials te verken
 
 ### [HTML als PNG renderen in .NET met Aspose.HTML](./render-html-as-png/)
 Leer werken met Aspose.HTML voor .NET: HTML manipuleren, converteren naar verschillende formaten en meer. Duik in deze uitgebreide tutorial!
+
+### [Hoe HTML te renderen naar een afbeelding met C# – Complete gids](./how-to-render-html-to-an-image-with-c-complete-guide/)
+Leer stap voor stap hoe u HTML met C# naar verschillende afbeeldingsformaten rendert met Aspose.HTML.
+
 ### [EPUB renderen als XPS in .NET met Aspose.HTML](./render-epub-as-xps/)
-Leer hoe u HTML-documenten kunt maken en renderen met Aspose.HTML voor .NET in deze uitgebreide tutorial. Duik in de wereld van HTML-manipulatie, webscraping en meer.
+Leer hoe u HTML-documenten kunt maken en renderen met Aspose.HTML voor .NET in deze uitgebreide tutorial. Duik de wereld van HTML-manipulatie, webscraping en meer.
+
 ### [Rendering Timeout in .NET met Aspose.HTML](./rendering-timeout/)
 Leer hoe u renderingtime-outs effectief kunt beheren in Aspose.HTML voor .NET. Verken renderingopties en zorg voor soepele rendering van HTML-documenten.
+
 ### [MHTML renderen als XPS in .NET met Aspose.HTML](./render-mhtml-as-xps/)
  Leer MHTML als XPS renderen in .NET met Aspose.HTML. Verbeter uw HTML-manipulatievaardigheden en geef uw webontwikkelingsprojecten een boost!
+
 ### [Render meerdere documenten in .NET met Aspose.HTML](./render-multiple-documents/)
 Leer hoe u meerdere HTML-documenten kunt renderen met Aspose.HTML voor .NET. Verbeter uw documentverwerkingsmogelijkheden met deze krachtige bibliotheek.
+
 ### [SVG-document renderen als PNG in .NET met Aspose.HTML](./render-svg-doc-as-png/)
 Ontgrendel de kracht van Aspose.HTML voor .NET! Leer hoe u moeiteloos SVG Doc als PNG kunt renderen. Duik in stapsgewijze voorbeelden en FAQ's. Ga nu aan de slag!
+
+### [HTML-document maken in C# – Renderen naar PNG met vet en cursief lettertype](./create-html-document-c-render-to-png-with-bold-italic-font/)
+Leer hoe u een HTML-document in C# maakt en rendert naar PNG met vet en cursief lettertype.
+
+### [Hoe Aspose te gebruiken om HTML naar PNG te renderen in C#](./how-to-use-aspose-to-render-html-to-png-in-c/)
+Leer hoe u Aspose gebruikt om HTML naar PNG te renderen in C# met een stapsgewijze tutorial.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

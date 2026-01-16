@@ -42,16 +42,31 @@ url: /ar/net/rendering-html-documents/
 
 ### [عرض HTML بصيغة PNG في .NET باستخدام Aspose.HTML](./render-html-as-png/)
 تعلم كيفية العمل باستخدام Aspose.HTML لـ .NET: التعامل مع HTML وتحويله إلى تنسيقات مختلفة والمزيد. انغمس في هذا البرنامج التعليمي الشامل!
+
+### [كيفية استخدام Aspose لعرض HTML كـ PNG في C#](./how-to-use-aspose-to-render-html-to-png-in-c/)
+تعلم خطوة بخطوة كيفية تحويل HTML إلى PNG باستخدام Aspose في C#.
+
+### [إنشاء مستند HTML C# – تحويل إلى PNG بخط عريض مائل](./create-html-document-c-render-to-png-with-bold-italic-font/)
+تعلم كيفية إنشاء مستند HTML في C# وعرضه كصورة PNG باستخدام خطوط عريضة ومائلة.
+
 ### [عرض EPUB بتنسيق XPS في .NET باستخدام Aspose.HTML](./render-epub-as-xps/)
 تعرف على كيفية إنشاء مستندات HTML وعرضها باستخدام Aspose.HTML لـ .NET في هذا البرنامج التعليمي الشامل. انغمس في عالم معالجة HTML وكشط الويب والمزيد.
+
 ### [مهلة عرض العرض في .NET باستخدام Aspose.HTML](./rendering-timeout/)
 تعرف على كيفية التحكم في مهلة عرض المستندات بشكل فعّال في Aspose.HTML for .NET. استكشف خيارات العرض وتأكد من عرض مستند HTML بسلاسة.
+
 ### [عرض MHTML كـ XPS في .NET باستخدام Aspose.HTML](./render-mhtml-as-xps/)
  تعلم كيفية عرض MHTML بصيغة XPS في .NET باستخدام Aspose.HTML. قم بتعزيز مهاراتك في التعامل مع HTML وتعزيز مشاريع تطوير الويب الخاصة بك!
+
 ### [عرض مستندات متعددة في .NET باستخدام Aspose.HTML](./render-multiple-documents/)
 تعلم كيفية عرض مستندات HTML متعددة باستخدام Aspose.HTML لـ .NET. عزز قدرات معالجة المستندات لديك باستخدام هذه المكتبة القوية.
+
 ### [عرض مستند SVG بصيغة PNG في .NET باستخدام Aspose.HTML](./render-svg-doc-as-png/)
 اكتشف قوة Aspose.HTML لـ .NET! تعرّف على كيفية عرض مستند SVG بتنسيق PNG بسهولة. انغمس في الأمثلة والأسئلة الشائعة خطوة بخطوة. ابدأ الآن!
+
+### [كيفية تحويل HTML إلى صورة باستخدام C# – دليل كامل](./how-to-render-html-to-an-image-with-c-complete-guide/)
+تعلم خطوة بخطوة كيفية تحويل ملفات HTML إلى صور باستخدام C# مع Aspose.HTML في هذا الدليل الكامل.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
