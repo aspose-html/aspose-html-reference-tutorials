@@ -84,19 +84,17 @@ Sonuç olarak, **html to pdf java** ve daha geniş dönüşüm setine hâkim olm
 
 ## Dönüştürme - HTML'den Diğer Formatlara Eğitimleri
 ### [HTML'yi PDF'ye Dönüştürme](./convert-html-to-pdf/)
-HTML içeriğinizden sorunsuz bir şekilde yüksek kaliteli PDF'ler oluşturun.
+### [HTML'yi PDF'ye Dönüştürme – Sayfa Boyutu ve Çözünürlük Ayarları](./convert-html-to-pdf-in-java-set-pdf-page-size-resolution-and/)
 ### [HTML'yi MHTML'ye Dönüştürme](./convert-html-to-mhtml/)
-Aspose.HTML for Java ile HTML'yi MHTML'ye kolayca dönüştürün. Verimli HTML‑to‑MHTML dönüşümü için adım adım rehberimizi izleyin.
 ### [HTML'yi XPS'ye Dönüştürme](./convert-html-to-xps/)
-Aspose.HTML for Java ile HTML'yi XPS'ye sorunsuz bir şekilde dönüştürmeyi öğrenin. Kolaylıkla çok platformlu belgeler oluşturun.
 ### [Markdown'ı HTML'ye Dönüştürme](./convert-markdown-to-html/)
-Aspose.HTML for Java ile Java'da Markdown'ı HTML'ye sorunsuz bir şekilde dönüştürün. Belge dönüşüm ihtiyaçlarınızı kolaylaştırmak için adım adım rehberimizi izleyin.
+### [Markdown'ı HTML'ye Dönüştürme – PDF çıktılı Java rehberi](./convert-markdown-to-html-java-guide-with-pdf-output/)
 ### [SVG'yi Görüntüye Dönüştürme](./convert-svg-to-image/)
-Aspose.HTML ile Java'da SVG'yi görüntülere dönüştürmeyi öğrenin. Yüksek kaliteli çıktı için kapsamlı rehber.
 ### [SVG'yi PDF'ye Dönüştürme](./convert-svg-to-pdf/)
-Aspose.HTML ile Java'da SVG'yi PDF'ye dönüştürün. Yüksek kaliteli belge dönüşümü için sorunsuz bir çözüm.
 ### [SVG'yi XPS'ye Dönüştürme](./convert-svg-to-xps/)
-Aspose.HTML for Java ile SVG'yi XPS'ye dönüştürmeyi öğrenin. Sorunsuz dönüşümler için basit, adım adım rehber.
+### [SVG'yi Dönüştürme – Aspose HTML Dönüştürücü Kullanarak Tam Kılavuz](./how-to-convert-svg-complete-guide-using-aspose-html-converte/)
+### [Java'da HTML'den PDF Oluşturma – Adım Adım Kılavuz](./create-pdf-from-html-in-java-step-by-step-guide/)
+### [HTML'yi Sabit İş Parçacığı Havuzu ile PDF'ye Dönüştürme – Adım Adım Kılavuz](./convert-html-to-pdf-with-fixed-thread-pool-java-step-by-step/)
 
 ## Sıkça Sorulan Sorular
 

@@ -83,18 +83,28 @@ SVG グラフィックを XPS フォーマットに変換し、デバイス間�
 ## Conversion - HTML to Other Formats Tutorials
 ### [Converting HTML to PDF](./convert-html-to-pdf/)
 Aspose.HTML を使用して Java で HTML を PDF に変換する方法を学びます。HTML コンテンツから高品質な PDF を手軽に作成できます。
+### [Java で HTML を PDF に変換 – PDF ページサイズ、解像度を設定し、HTML を PDF として保存](./convert-html-to-pdf-in-java-set-pdf-page-size-resolution-and/)
+PDF のページサイズや解像度を指定しながら、HTML を PDF に変換する手順を解説します。
+### [固定スレッドプールを使用した HTML から PDF への変換 – Java ステップバイステップ ガイド](./convert-html-to-pdf-with-fixed-thread-pool-java-step-by-step/)
+固定スレッドプールを活用し、Java で HTML を PDF に同時変換する手順を解説します。
 ### [Converting HTML to MHTML](./convert-html-to-mhtml/)
 Aspose.HTML for Java で HTML を MHTML に簡単に変換します。効率的な HTML‑to‑MHTML 変換の手順をご覧ください。
 ### [Converting HTML to XPS](./convert-html-to-xps/)
 Aspose.HTML for Java を使用して HTML を XPS にシームレスに変換する方法を学びます。クロスプラットフォーム文書を簡単に作成できます。
 ### [Converting Markdown to HTML](./convert-markdown-to-html/)
 Aspose.HTML for Java で Java の Markdown を HTML にシームレスに変換します。文書変換のニーズを効率化する手順をご確認ください。
+### [Markdown を HTML に変換 – PDF 出力付き Java ガイド](./convert-markdown-to-html-java-guide-with-pdf-output/)
+Aspose.HTML を使用して Java で Markdown を HTML に変換し、さらに PDF として出力する方法を解説します。
 ### [Converting SVG to Image](./convert-svg-to-image/)
 Aspose.HTML を使用して Java で SVG を画像に変換する方法を学びます。高品質出力のための包括的ガイドです。
 ### [Converting SVG to PDF](./convert-svg-to-pdf/)
 Aspose.HTML で Java の SVG を PDF に変換します。高品質文書変換のシームレスなソリューションです。
 ### [Converting SVG to XPS](./convert-svg-to-xps/)
 Aspose.HTML for Java を使用して SVG を XPS に変換する方法を学びます。シンプルでステップバイステップのガイドでシームレスに変換できます。
+### [Java で HTML から PDF を作成する – ステップバイステップ ガイド](./create-pdf-from-html-in-java-step-by-step-guide/)
+Aspose.HTML を使用して Java で HTML から PDF を作成する手順を詳しく解説します。初心者でも簡単に実装可能です。
+### [SVG を変換する方法 – Aspose HTML コンバータを使用した完全ガイド](./how-to-convert-svg-complete-guide-using-aspose-html-converte/)
+Aspose.HTML を利用して SVG をさまざまなフォーマットに変換する手順とベストプラクティスを詳しく解説します。
 
 ## よくある質問
 

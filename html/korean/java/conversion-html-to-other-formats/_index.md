@@ -84,18 +84,28 @@ SVG 그래픽을 XPS 형식으로 변환하여 기기 간 일관된 인쇄를 �
 ## 변환 - HTML 기타 형식 튜토리얼
 ### [HTML을 PDF로 변환](./convert-html-to-pdf/)
 Aspose.HTML를 사용하여 Java에서 HTML을 PDF로 변환하는 방법을 배우세요. HTML 콘텐츠에서 고품질 PDF를 손쉽게 생성합니다.
+### [고정 스레드 풀을 사용한 HTML을 PDF로 변환 Java – 단계별 가이드](./convert-html-to-pdf-with-fixed-thread-pool-java-step-by-step/)
+고정 스레드 풀을 활용해 다중 HTML 파일을 효율적으로 PDF로 변환하는 방법을 단계별로 안내합니다.
+### [Java에서 HTML을 PDF로 변환 – PDF 페이지 크기 및 해상도 설정, HTML을 PDF로 저장](./convert-html-to-pdf-in-java-set-pdf-page-size-resolution-and/)
+Java에서 HTML을 PDF로 변환하면서 페이지 크기와 해상도를 지정하고, HTML 파일을 직접 PDF로 저장하는 방법을 안내합니다.
 ### [HTML을 MHTML로 변환](./convert-html-to-mhtml/)
 Aspose.HTML for Java를 사용하여 HTML을 MHTML로 손쉽게 변환합니다. 효율적인 HTML‑to‑MHTML 변환을 위한 단계별 가이드를 따라 주세요.
 ### [HTML을 XPS로 변환](./convert-html-to-xps/)
 Aspose.HTML for Java를 사용하여 HTML을 XPS로 손쉽게 변환하는 방법을 배우세요. 크로스‑플랫폼 문서를 쉽게 생성합니다.
 ### [Markdown을 HTML로 변환](./convert-markdown-to-html/)
-Aspose.HTML for Java를 사용하여 Java에서 Markdown을 HTML로 원활하게 변환합니다. 문서 변환 요구를 간소화하기 위한 단계별 가이드를 따라 주세요.
+Aspose.HTML를 사용하여 Java에서 Markdown을 HTML로 원활하게 변환합니다. 문서 변환 요구를 간소화하기 위한 단계별 가이드를 따라 주세요.
+### [Markdown을 HTML로 변환 – PDF 출력 포함 Java 가이드](./convert-markdown-to-html-java-guide-with-pdf-output/)
+Aspose.HTML를 사용해 Java에서 Markdown을 HTML로 변환하고 PDF로 출력하는 방법을 단계별로 안내합니다.
 ### [SVG를 이미지로 변환](./convert-svg-to-image/)
 Aspose.HTML를 사용하여 Java에서 SVG를 이미지로 변환하는 방법을 배우세요. 고품질 출력에 대한 포괄적인 가이드입니다.
 ### [SVG를 PDF로 변환](./convert-svg-to-pdf/)
 Aspose.HTML를 사용하여 Java에서 SVG를 PDF로 변환합니다. 고품질 문서 변환을 위한 원활한 솔루션입니다.
 ### [SVG를 XPS로 변환](./convert-svg-to-xps/)
 Aspose.HTML for Java를 사용하여 SVG를 XPS로 변환하는 방법을 배우세요. 원활한 변환을 위한 간단하고 단계별 가이드입니다.
+### [Java에서 HTML로 PDF 만들기 – 단계별 가이드](./create-pdf-from-html-in-java-step-by-step-guide/)
+Aspose.HTML를 사용하여 Java에서 HTML을 PDF로 변환하는 단계별 과정을 안내합니다.
+### [SVG 변환 방법 – Aspose HTML 변환기 완전 가이드](./how-to-convert-svg-complete-guide-using-aspose-html-converte/)
+Aspose.HTML를 활용해 SVG를 다양한 포맷으로 변환하는 전체 과정을 단계별로 안내합니다.
 
 ## 자주 묻는 질문
 

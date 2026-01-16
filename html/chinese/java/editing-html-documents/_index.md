@@ -58,6 +58,9 @@ url: /zh/java/editing-html-documents/
 通过本分步指南学习如何管理 Aspose.HTML for Java 中的内部和外部 HTML 属性，非常适合 Web 开发人员和内容创建者。
 ### [使用 Aspose.HTML for Java 在 HTML 文档中实现内部 CSS](./implement-internal-css-html-documents/)
 通过我们简单的分步教程学习使用 Aspose.HTML for Java 在 HTML 文档中实现内部 CSS。
+### [在 Java 中向 body 追加子元素 – 完整 Aspose.HTML 教程](./append-child-to-body-in-java-full-aspose-html-tutorial/)
+了解如何在 Java 中使用 Aspose.HTML 将子元素追加到 body，实现完整的文档操作。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

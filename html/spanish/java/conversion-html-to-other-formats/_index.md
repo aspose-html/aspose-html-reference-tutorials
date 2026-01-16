@@ -90,12 +90,21 @@ Convierte HTML a MHTML de forma sencilla con Aspose.HTML para Java. Sigue nuestr
 Aprende a convertir HTML a XPS de manera sencilla con Aspose.HTML para Java. Crea documentos multiplataforma con facilidad.
 ### [Conversión de Markdown a HTML](./convert-markdown-to-html/)
 Convierte Markdown a HTML en Java sin problemas con Aspose.HTML para Java. Sigue nuestra guía paso a paso para optimizar tus necesidades de conversión de documentos.
+### [Convertir markdown a HTML – Guía Java con salida PDF](./convert-markdown-to-html-java-guide-with-pdf-output/)
+Convierte archivos Markdown a HTML y genera PDF en Java usando Aspose.HTML. Sigue nuestra guía paso a paso.
 ### [Conversión de SVG a Imagen](./convert-svg-to-image/)
 Aprende a convertir SVG a imágenes en Java con Aspose.HTML. Guía completa para obtener resultados de alta calidad.
 ### [Conversión de SVG a PDF](./convert-svg-to-pdf/)
 Convierte SVG a PDF en Java con Aspose.HTML. Una solución fluida para conversiones de documentos de alta calidad.
 ### [Conversión de SVG a XPS](./convert-svg-to-xps/)
 Aprende a convertir SVG a XPS con Aspose.HTML para Java. Guía simple, paso a paso, para conversiones sin inconvenientes.
+### [Cómo convertir SVG – Guía completa usando el conversor Aspose HTML](./how-to-convert-svg-complete-guide-using-aspose-html-converte/)
+Aprende paso a paso a convertir archivos SVG a varios formatos con Aspose HTML Converter en Java.
+### [Convertir HTML a PDF en Java – Establecer tamaño de página PDF, resolución y guardar HTML como PDF](./convert-html-to-pdf-in-java-set-pdf-page-size-resolution-and/)
+Aprende a definir el tamaño de página, la resolución y guardar HTML como PDF usando Aspose.HTML en Java.
+### [Crear PDF a partir de HTML en Java – Guía paso a paso](./create-pdf-from-html-in-java-step-by-step-guide/)
+### [Convertir HTML a PDF con Fixed Thread Pool en Java – Guía paso a paso](./convert-html-to-pdf-with-fixed-thread-pool-java-step-by-step/)
+Aprende a convertir HTML a PDF usando un Fixed Thread Pool en Java para procesamiento concurrente eficiente.
 
 ## Preguntas Frecuentes
 

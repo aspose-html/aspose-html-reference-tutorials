@@ -51,13 +51,16 @@ url: /hi/java/editing-html-documents/
 ### [Java के लिए Aspose.HTML में HTML दस्तावेज़ों पर बाह्य CSS लागू करें](./apply-external-css-html-documents/)
 जानें कि Java के लिए Aspose.HTML का उपयोग करके HTML दस्तावेज़ों पर बाहरी CSS कैसे लागू करें! संपूर्ण ट्यूटोरियल के लिए इस चरण-दर-चरण मार्गदर्शिका का पालन करें।
 ### [Java के लिए Aspose.HTML के साथ उन्नत बाह्य CSS संपादन](./advanced-external-css-editing/)
-Aspose.HTML for Java के साथ बाहरी CSS को संपादित करने की कला में महारत हासिल करें। यह विस्तृत, चरण-दर-चरण मार्गदर्शिका आपको गतिशील, स्टाइल वाले HTML दस्तावेज़ बनाने में मार्गदर्शन करती है।
+Aspose.HTML for Java के साथ बाहरी CSS को संपादित करने की कला में महारत हासिल करें। यह विस्तृत, चरण-दर-चरण मार्गदर्शन...
 ### [Java के लिए Aspose.HTML में HTML दस्तावेज़ों में इनलाइन CSS जोड़ें](./add-inline-css-html-documents/)
-Java के लिए Aspose.HTML का उपयोग करके HTML दस्तावेज़ों में इनलाइन CSS जोड़ना सीखें। यह चरण-दर-चरण मार्गदर्शिका आपको HTML को स्टाइल करने और इसे आसानी से PDF में बदलने में मदद करती है।
+Java के लिए Aspose.HTML का उपयोग करके HTML दस्तावेज़ों में इनलाइन CSS जोड़ना सीखें। यह चरण-दर-चरण मार्गदर्शिका...
 ### [Java के लिए Aspose.HTML में आंतरिक और बाहरी HTML गुण प्रबंधित करें](./manage-inner-outer-html-properties/)
-इस चरण-दर-चरण मार्गदर्शिका के साथ Java के लिए Aspose.HTML में आंतरिक और बाहरी HTML गुणों को प्रबंधित करना सीखें, जो वेब डेवलपर्स और सामग्री निर्माताओं के लिए एकदम सही है।
+इस चरण-दर-चरण मार्गदर्शिका के साथ Java के लिए Aspose.HTML में आंतरिक और बाहरी HTML गुणों को प्रबंधित करना सीखें...
 ### [Java के लिए Aspose.HTML के साथ HTML दस्तावेज़ों में आंतरिक CSS लागू करें](./implement-internal-css-html-documents/)
 हमारे आसान चरण-दर-चरण ट्यूटोरियल के साथ Java के लिए Aspose.HTML का उपयोग करके HTML दस्तावेज़ों में आंतरिक CSS को लागू करना सीखें।
+### [Java में बॉडी में चाइल्ड जोड़ें – पूर्ण Aspose.HTML ट्यूटोरियल](./append-child-to-body-in-java-full-aspose-html-tutorial/)
+Java के लिए Aspose.HTML का उपयोग करके बॉडी में नया तत्व जोड़ने की पूरी चरण-दर-चरण गाइड।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

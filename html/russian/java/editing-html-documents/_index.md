@@ -54,6 +54,8 @@ url: /ru/java/editing-html-documents/
 Освойте искусство редактирования внешнего CSS с помощью Aspose.HTML для Java. Это подробное пошаговое руководство проведет вас через создание динамических стилизованных HTML-документов.
 ### [Добавьте встроенный CSS в HTML-документы в Aspose.HTML для Java](./add-inline-css-html-documents/)
 Узнайте, как добавлять встроенный CSS в HTML-документы с помощью Aspose.HTML для Java. Это пошаговое руководство поможет вам стилизовать HTML и с легкостью преобразовать его в PDF.
+### [Добавление дочернего элемента в body в Java – Полное руководство Aspose.HTML](./append-child-to-body-in-java-full-aspose-html-tutorial/)
+Узнайте, как добавить элемент в тело HTML‑документа с помощью Aspose.HTML для Java в полном пошаговом руководстве.
 ### [Управление внутренними и внешними свойствами HTML в Aspose.HTML для Java](./manage-inner-outer-html-properties/)
 Узнайте, как управлять внутренними и внешними свойствами HTML в Aspose.HTML для Java, с помощью этого пошагового руководства, идеально подходящего для веб-разработчиков и создателей контента.
 ### [Внедрение внутреннего CSS в HTML-документы с помощью Aspose.HTML для Java](./implement-internal-css-html-documents/)
