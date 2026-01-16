@@ -42,16 +42,31 @@ Aspose.HTML for .NET のセットアップが完了したら、HTML レンダリ
 
 ### [Aspose.HTML を使用して .NET で HTML を PNG としてレンダリングする](./render-html-as-png/)
 Aspose.HTML for .NET の使い方を学びます。HTML の操作、さまざまな形式への変換などを行います。この包括的なチュートリアルをぜひご覧ください。
+
+### [C# で Aspose を使用して HTML を PNG にレンダリングする方法](./how-to-use-aspose-to-render-html-to-png-in-c/)
+C# で Aspose.HTML を使用し、HTML を PNG 画像に変換する手順を学びます。
+
 ### [Aspose.HTML を使用して .NET で EPUB を XPS としてレンダリングする](./render-epub-as-xps/)
 この包括的なチュートリアルでは、Aspose.HTML for .NET を使用して HTML ドキュメントを作成し、レンダリングする方法を学びます。HTML 操作、Web スクレイピングなどの世界に飛び込んでみましょう。
+
 ### [Aspose.HTML を使用した .NET でのレンダリング タイムアウト](./rendering-timeout/)
 Aspose.HTML for .NET でレンダリング タイムアウトを効果的に制御する方法を学びます。レンダリング オプションを確認し、HTML ドキュメントのスムーズなレンダリングを実現します。
+
 ### [Aspose.HTML を使用して .NET で MHTML を XPS としてレンダリングする](./render-mhtml-as-xps/)
  Aspose.HTML を使用して、.NET で MHTML を XPS としてレンダリングする方法を学びます。HTML 操作スキルを強化し、Web 開発プロジェクトを強化しましょう。
+
 ### [Aspose.HTML を使用して .NET で複数のドキュメントをレンダリングする](./render-multiple-documents/)
 Aspose.HTML for .NET を使用して複数の HTML ドキュメントをレンダリングする方法を学びます。この強力なライブラリを使用してドキュメント処理機能を強化します。
+
 ### [Aspose.HTML を使用して .NET で SVG ドキュメントを PNG としてレンダリングする](./render-svg-doc-as-png/)
 Aspose.HTML for .NET のパワーを解き放ちましょう。SVG ドキュメントを PNG として簡単にレンダリングする方法を学びましょう。ステップバイステップの例と FAQ をご覧ください。今すぐ始めましょう。
+
+### [C# で HTML ドキュメントを作成 – 太字イタリックフォントで PNG にレンダリング](./create-html-document-c-render-to-png-with-bold-italic-font/)
+このチュートリアルでは、C# を使用して HTML ドキュメントを作成し、太字イタリックフォントで PNG にレンダリングする方法を学びます。
+
+### [C# で HTML を画像にレンダリングする方法 – 完全ガイド](./how-to-render-html-to-an-image-with-c-complete-guide/)
+C# と Aspose.HTML を使用して、HTML を画像に変換する手順を包括的に解説します。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

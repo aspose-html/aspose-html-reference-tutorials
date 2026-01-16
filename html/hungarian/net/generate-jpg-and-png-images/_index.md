@@ -41,6 +41,8 @@ Az Aspose.HTML for .NET integrálása a .NET-projektekbe problémamentes. A kön
 Ismerje meg, hogyan hozhat létre dinamikus weboldalakat az Aspose.HTML for .NET használatával. Ez a lépésenkénti oktatóanyag az előfeltételeket, a névtereket és a HTML képekben való megjelenítését ismerteti.
 ### [PNG-képek létrehozása ImageDevice segítségével .NET-ben az Aspose.HTML-lel](./generate-png-images-by-imagedevice/)
 Tanulja meg az Aspose.HTML for .NET használatát HTML-dokumentumok kezeléséhez, HTML-kódok képpé konvertálásához stb. Lépésről lépésre bemutató GYIK.
+### [PNG létrehozása HTML-ből C#-ban – HTML renderelése PNG formátumba](./create-png-from-html-in-c-render-html-to-png/)
+Ismerje meg, hogyan konvertálhat HTML-t PNG képpé C# nyelven az Aspose.HTML for .NET segítségével.
 
 ## Következtetés
 

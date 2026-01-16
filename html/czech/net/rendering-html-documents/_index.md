@@ -42,16 +42,23 @@ Nyní, když máte Aspose.HTML pro .NET nastaveno, je čas prozkoumat výukové 
 
 ### [Renderujte HTML jako PNG v .NET pomocí Aspose.HTML](./render-html-as-png/)
 Naučte se pracovat s Aspose.HTML pro .NET: Manipulujte s HTML, převádějte do různých formátů a další. Ponořte se do tohoto komplexního tutoriálu!
+### [Jak renderovat HTML do obrázku v C# – Kompletní průvodce](./how-to-render-html-to-an-image-with-c-complete-guide/)
+Naučte se, jak pomocí Aspose.HTML v C# převést HTML do obrázku. Kompletní průvodce krok za krokem.
+### [Jak použít Aspose k vykreslení HTML do PNG v C#](./how-to-use-aspose-to-render-html-to-png-in-c/)
+Naučte se, jak pomocí Aspose.HTML v C# převést HTML soubory do PNG formátu. Praktické ukázky a tipy pro rychlé vykreslení.
 ### [Renderujte EPUB jako XPS v .NET pomocí Aspose.HTML](./render-epub-as-xps/)
 V tomto komplexním kurzu se dozvíte, jak vytvářet a vykreslovat dokumenty HTML pomocí Aspose.HTML for .NET. Ponořte se do světa HTML manipulace, web scraping a další.
 ### [Časový limit vykreslování v .NET pomocí Aspose.HTML](./rendering-timeout/)
-Naučte se, jak efektivně řídit časové limity vykreslování v Aspose.HTML pro .NET. Prozkoumejte možnosti vykreslování a zajistěte hladké vykreslování HTML dokumentu.
+Naučte se, jak efektivně řídit časové limity vykreslování v Aspose.HTML pro .NET. Prozkoumejte možnosti vykreslování a zajistěte hladké vykreslení HTML dokumentu.
 ### [Render MHTML jako XPS v .NET s Aspose.HTML](./render-mhtml-as-xps/)
  Naučte se vykreslovat MHTML jako XPS v .NET pomocí Aspose.HTML. Vylepšete své dovednosti v manipulaci s HTML a podpořte své projekty vývoje webu!
 ### [Renderujte více dokumentů v .NET pomocí Aspose.HTML](./render-multiple-documents/)
 Naučte se vykreslovat více dokumentů HTML pomocí Aspose.HTML pro .NET. Zvyšte své možnosti zpracování dokumentů pomocí této výkonné knihovny.
 ### [Renderujte SVG Doc jako PNG v .NET pomocí Aspose.HTML](./render-svg-doc-as-png/)
 Odemkněte sílu Aspose.HTML pro .NET! Naučte se, jak snadno vykreslit dokument SVG jako PNG. Ponořte se do podrobných příkladů a nejčastějších dotazů. Začněte hned!
+### [Vytvořte HTML dokument v C# – Vykreslete do PNG s tučným kurzívním písmem](./create-html-document-c-render-to-png-with-bold-italic-font/)
+Naučte se vytvořit HTML dokument v C# a vykreslit jej do PNG s tučným a kurzívním písmem pomocí Aspose.HTML.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
