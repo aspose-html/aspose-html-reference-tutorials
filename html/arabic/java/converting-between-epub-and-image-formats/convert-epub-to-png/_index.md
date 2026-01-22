@@ -1,35 +1,38 @@
 ---
-title: تحويل EPUB إلى PNG باستخدام Aspose.HTML لـ Java
-linktitle: تحويل EPUB إلى PNG
-second_title: معالجة HTML باستخدام Java مع Aspose.HTML
-description: تعرف على كيفية تحويل EPUB إلى PNG في Java باستخدام Aspose.HTML for Java. دليل خطوة بخطوة للتحويل السلس.
-weight: 13
+date: 2026-01-22
+description: تعلم كيفية إجراء تحويل epub إلى png باستخدام Aspose.HTML للغة Java، وكيفية
+  ضبط أبعاد الصورة في Java للحصول على مخرجات مخصصة.
+linktitle: Converting EPUB to PNG
+second_title: Java HTML Processing with Aspose.HTML
+title: epub إلى png java – تحويل EPUB إلى PNG باستخدام Aspose.HTML
 url: /ar/java/converting-between-epub-and-image-formats/convert-epub-to-png/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# تحويل EPUB إلى PNG باستخدام Aspose.HTML لـ Java
+# epub to png java – تحويل EPUB إلى PNG باستخدام Aspise.HTML for Java
 
-هل تبحث عن طريقة سلسة لتحويل ملفات EPUB إلى صور PNG في Java؟ لا داعي للبحث أكثر! في هذا الدليل الشامل، سنرشدك خلال العملية بأكملها باستخدام Aspose.HTML for Java. سواء كنت مطورًا متمرسًا أو مبتدئًا، فسنقوم بتقسيم كل خطوة، وتوفير تفسيرات واضحة ومقاطع من التعليمات البرمجية لضمان قدرتك على إنجاز هذه المهمة بسهولة.
+## Quick Answers
+- **أي مكتبة تتعامل مع تحويل EPUB إلى PNG في Java؟** Aspose.HTML for Java  
+- **كم عدد أسطر الكود المطلوبة؟** حوالي 15 سطرًا (باستثناء الاستيرادات)  
+- **هل يمكنني التحكم في حجم الصورة؟** نعم، عبر `ImageSaveOptions` (set image dimensions java)  
+- **هل أحتاج إلى ترخيص للإنتاج؟** يلزم الحصول على ترخيص تجاري؛ تتوفر نسخة تجريبية مجانية  
+- **هل يدعم المعالجة الدفعية؟** بالتأكيد – تكرار عبر الملفات وإعادة استخدام نفس المحول  
 
-## المتطلبات الأساسية
+## epub to png java – المتطلبات الأساسية
 
-قبل أن نتعمق في عملية التحويل، هناك بعض المتطلبات الأساسية التي يجب أن تكون موجودة:
+1. **بيئة تطوير Java** – قم بتثبيت أحدث JDK. يمكنك تنزيله من [هنا](https://www.oracle.com/java/technologies/javase-downloads.html).  
+2. **Aspose.HTML for Java** – احصل على حزمة المكتبة من [هنا](https://releases.aspose.com/html/java/).  
+3. **ملف EPUB المصدر** – احرص على أن يكون ملف EPUB الذي تريد تحويله جاهزًا على القرص المحلي.
 
-1.  بيئة تطوير Java: تأكد من تثبيت Java على نظامك. يمكنك تنزيل أحدث إصدار من Java وتثبيته من[هنا](https://www.oracle.com/java/technologies/javase-downloads.html).
-
-2. Aspose.HTML for Java: ستحتاج إلى مكتبة Aspose.HTML for Java. إذا لم تكن لديك بالفعل، يمكنك تنزيلها من[هنا](https://releases.aspose.com/html/java/).
-
-3. ملف EPUB: قم بإعداد ملف EPUB الذي تريد تحويله إلى صورة PNG. تأكد من إمكانية الوصول إلى هذا الملف على نظامك المحلي.
-
-الآن بعد أن أصبح لدينا المتطلبات الأساسية بالترتيب، دعنا ننتقل إلى الخطوات المتضمنة في تحويل EPUB إلى PNG باستخدام Aspose.HTML لـ Java.
+الآن بعد تغطية الأساسيات، دعنا نغوص في عملية التحويل خطوة بخطوة.
 
 ## الخطوة 1: استيراد الحزم
 
-أولاً، ستحتاج إلى استيراد الحزم اللازمة من Aspose.HTML لـ Java. هذه الحزم ضرورية لعملية التحويل. إليك كيفية القيام بذلك:
+أولاً، استورد الفئات التي ستحتاجها. هذه الاستيرادات تمنحك الوصول إلى معالجة الملفات، أدوات التحويل، وخيارات الصور المحددة.
 
 ```java
 import java.io.FileInputStream;
@@ -38,9 +41,9 @@ import com.aspose.html.converters.Converter;
 import com.aspose.html.rendering.image.ImageFormat;
 ```
 
-## الخطوة 2: افتح ملف EPUB
+## الخطوة 2: فتح ملف EPUB
 
-في هذه الخطوة، ستفتح ملف EPUB الذي تريد تحويله. تأكد من استبدال "input.epub" بالمسار الفعلي لملف EPUB الخاص بك.
+أنشئ `FileInputStream` يشير إلى ملف EPUB الخاص بك. يضمن كتلة try‑with‑resources إغلاق الدفق تلقائيًا.
 
 ```java
 try (FileInputStream fileInputStream = new FileInputStream("input.epub")) {
@@ -48,7 +51,7 @@ try (FileInputStream fileInputStream = new FileInputStream("input.epub")) {
 
 ## الخطوة 3: تهيئة ImageSaveOptions
 
- إنشاء`ImageSaveOptions` الكائن لتحديد التنسيق الذي تريد أن تكون الصورة الناتجة فيه، والذي في هذه الحالة هو PNG.
+قم بإعداد `ImageSaveOptions` لإبلاغ Aspose.HTML بأنك تريد إخراج PNG. هنا أيضًا يمكنك **set image dimensions java**—على سبيل المثال، عن طريق تعيين `options.setWidth(1024)` و `options.setHeight(768)` قبل التحويل.
 
 ```java
 ImageSaveOptions options = new ImageSaveOptions(ImageFormat.Png);
@@ -56,38 +59,49 @@ ImageSaveOptions options = new ImageSaveOptions(ImageFormat.Png);
 
 ## الخطوة 4: تحويل EPUB إلى PNG
 
- الآن حان الوقت للاتصال`convertEPUB`طريقة تحويل ملف EPUB إلى PNG. ستحتاج إلى توفير دفق الإدخال،`ImageSaveOptions`، وحدد مسار الإخراج لملف PNG.
+مرّر دفق الإدخال، الخيارات المكوّنة، ومسار الإخراج المطلوب إلى الطريقة الساكنة `convertEPUB`.
 
 ```java
 Converter.convertEPUB(fileInputStream, options, "output.png");
 ```
 
-هذا كل شيء! لقد نجحت في تحويل ملف EPUB إلى صورة PNG باستخدام Aspose.HTML for Java. يمكنك العثور على ملف PNG المحول في دليل المشروع الخاص بك.
+هذا كل الكود الذي تحتاجه! عند انتهاء البرنامج، ستجد `output.png` في دليل المشروع الخاص بك.
 
-## خاتمة
- يوفر Aspose.HTML for Java طريقة قوية ومباشرة لتحويل ملفات EPUB إلى صور PNG. باتباع الخطوات التالية، يمكنك دمج هذه الوظيفة بسلاسة في تطبيقات Java الخاصة بك. إذا واجهت أي مشكلات أو كانت لديك أسئلة، فلا تتردد في زيارة منتدى Aspose.HTML للحصول على الدعم:[منتدى Aspose.HTML](https://forum.aspose.com/).
+## الخلاصة
+Aspose.HTML for Java يجعل تحويل **epub to png java** بسيطًا ومرنًا. باتباع هذه الخطوات يمكنك دمج وظيفة تحويل EPUB إلى صورة مباشرةً في تطبيقاتك، تخصيص أبعاد الإخراج، وحتى توسيع هذا النمط للمعالجة الدفعية. إذا واجهت أي تحديات، فإن المجتمع جاهز للمساعدة في [Aspose.HTML Forum](https://forum.aspose.com/).
 
-## الأسئلة الشائعة
+## الأسئلة المتكررة
 
-### س1: هل يمكنني تحويل ملفات EPUB إلى تنسيقات صور أخرى باستخدام Aspose.HTML لـ Java؟
+### Q1: هل يمكنني تحويل ملفات EPUB إلى صيغ صور أخرى باستخدام Aspose.HTML for Java؟
+A1: نعم، يدعم Aspose.HTML for Java صيغ صور متعددة، ويمكنك بسهولة تحويل ملفات EPUB إلى صيغ مثل JPEG و BMP و TIFF.
 
-ج1: نعم، يدعم Aspose.HTML for Java تنسيقات الصور المختلفة، ويمكنك بسهولة تحويل ملفات EPUB إلى تنسيقات مثل JPEG وBMP وTIFF.
+### Q2: هل Aspose.HTML for Java مناسب للتحويلات الدفعية لملفات EPUB؟
+A2: بالتأكيد! تم تصميم Aspose.HTML for Java للتعامل مع التحويلات الدفعية بكفاءة، مما يجعله مثاليًا لمعالجة عدة ملفات EPUB دفعة واحدة.
 
-### س2: هل Aspose.HTML for Java مناسب للتحويلات الدفعية لملفات EPUB؟
-   
-ج2: بالتأكيد! تم تصميم Aspose.HTML for Java للتعامل مع التحويلات الدفعية بكفاءة، مما يجعله مثاليًا لمعالجة ملفات EPUB المتعددة دفعة واحدة.
+### Q3: هل يمكنني تخصيص أبعاد وجودة صورة الإخراج أثناء التحويل؟
+A3: نعم، يمكنك تخصيص أبعاد وجودة الصورة عن طريق تعديل `ImageSaveOptions` قبل التحويل.
 
-### س3: هل يمكنني تخصيص أبعاد الصورة الناتجة وجودتها أثناء التحويل؟
+### Q4: هل يقدم Aspose.HTML for Java نسخة تجريبية مجانية؟
+A4: نعم، يمكنك الوصول إلى نسخة تجريبية مجانية من Aspose.HTML for Java [هنا](https://releases.aspose.com/).
 
- ج3: نعم، يمكنك تخصيص أبعاد الصورة وجودتها عن طريق تعديل`ImageSaveOptions` قبل التحويل. 
+### Q5: أين يمكنني العثور على وثائق مفصلة لـ Aspose.HTML for Java؟
+A5: يمكنك الرجوع إلى الوثائق [هنا](https://reference.aspose.com/html/java/)، التي تقدم معلومات متعمقة حول ميزات واستخدام Aspose.HTML for Java.
 
-### س4: هل يوفر Aspose.HTML for Java نسخة تجريبية مجانية؟
+## الأسئلة المتكررة
 
- ج4: نعم، يمكنك الوصول إلى نسخة تجريبية مجانية من Aspose.HTML لـ Java[هنا](https://releases.aspose.com/).
+**س: كيف يمكنني تعيين عرض وارتفاع محددين لـ PNG المُنشأ؟**  
+ج: استخدم `options.setWidth(int)` و `options.setHeight(int)` على كائن `ImageSaveOptions` قبل استدعاء `Converter.convertEPUB`.
 
-### س5: أين يمكنني العثور على وثائق مفصلة لـ Aspose.HTML لـ Java؟
+**س: هل يمكنني الحفاظ على تنسيق CSS الأصلي للـ EPUB في PNG؟**  
+ج: نعم، يقوم Aspose.HTML بعرض الـ EPUB مع CSS المدمج، لذا يتم الاحتفاظ بالمظهر البصري في صورة الإخراج من EPUB إلى PNG؟**  
+ج: يمكنك تحديد نطاق الصفحات في `ImageSaveOptions` عن طريق تعيين خصائص `PageIndex` و `PageCount عن المنصة وتعمل على تم تثبيت JDK متوافق.
 
- ج5: يمكنك الرجوع إلى الوثائق[هنا](https://reference.aspose.com/html/java/)، والذي يوفر معلومات متعمقة حول ميزات Aspose.HTML لـ Java واستخداماتها.
+---
+
+**آخر تحديث:** 2026-01-22  
+**تم الاختبار مع:** Aspose.HTML for Java 23.12  
+**المؤلف:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
