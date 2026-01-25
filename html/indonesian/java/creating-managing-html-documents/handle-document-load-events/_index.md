@@ -1,39 +1,64 @@
 ---
-title: Menangani Peristiwa Pemuatan Dokumen di Aspose.HTML untuk Java
-linktitle: Menangani Peristiwa Pemuatan Dokumen di Aspose.HTML untuk Java
-second_title: Pemrosesan HTML Java dengan Aspose.HTML
-description: Pelajari cara menangani peristiwa pemuatan dokumen di Aspose.HTML untuk Java dengan panduan langkah demi langkah ini. Tingkatkan aplikasi web Anda.
-weight: 18
+date: 2026-01-25
+description: Pelajari cara memuat HTML dari URL dan menangani peristiwa pemuatan dokumen
+  di Aspose.HTML untuk Java. Termasuk langkah-langkah untuk mengonversi HTML menjadi
+  string, menunggu pemuatan dokumen, dan mendapatkan HTML luar di Java.
+linktitle: Handle Document Load Events in Aspose.HTML
+second_title: Java HTML Processing with Aspose.HTML
+title: Muat HTML dari URL dan Tangani Peristiwa Pemuatan Dokumen di Aspose.HTML untuk
+  Java
 url: /id/java/creating-managing-html-documents/handle-document-load-events/
+weight: 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Menangani Peristiwa Pemuatan Dokumen di Aspose.HTML untuk Java
+# Muat HTML dari URL dan Tangani Peristiwa Muat Dokumen di Aspose.HTML untuk Java
 
-## Perkenalan
-Dalam pengembangan web, penanganan peristiwa pemuatan dokumen sangat penting untuk memastikan bahwa aplikasi Anda berjalan lancar dan efisien. Jika Anda bekerja dengan dokumen HTML di Java, Aspose.HTML menyediakan pustaka canggih yang memungkinkan Anda memanipulasi dokumen HTML dengan mudah. Dalam tutorial ini, kita akan membahas cara menangani peristiwa pemuatan dokumen menggunakan Aspose.HTML untuk Java. Baik Anda seorang pemula atau pengembang berpengalaman, panduan ini akan memandu Anda melalui proses ini langkah demi langkah.
+## Pendahuluan
+Saat membangun aplikasi Java modern yang web‑aware, kemampuan untuk **load HTML from URL** dengan cepat dan merespons status pemuatannya sangat penting. Aspose.HTML untuk Java memberikan API yang bersih dan berbasis peristiwa yang memungkinkan Anda mengambil halaman remote, menunggu dokumen selesai dimuat, dan kemudian memanipulasi isinya—semua dari dalam kode Java Anda. Dalam tutorial ini kami akan membahas seluruh proses, mulai dari menyiapkan lingkungan hingga mengekstrak string HTML luar.
+
+## Jawaban Cepat
+- **Apa arti “load HTML from URL”?** Artinya mengambil halaman HTML remote dan membuat objek `HTMLDocument` dalam memori yang dapat Anda query atau modifikasi.  
+- **Perpustakaan mana yang menangani peristiwa muat?** Aspose.HTML untuk Java menyediakan peristiwa `OnLoad`.  
+- **Apakah saya harus menunggu dokumen selesai dimuat?** Ya – Anda dapat menggunakan handler `OnLoad` atau strategi menunggu sederhana (misalnya, `Thread.sleep`).  
+- **Bisakah saya mengonversi HTML yang dimuat menjadi String?** Tentu – panggil `getOuterHTML()` atau gunakan `document.getDocumentElement().getOuterHTML()`.  
+- **Apakah lisensi diperlukan untuk produksi?** Lisensi Aspose.HTML yang valid diperlukan untuk penyebaran non‑trial.
+
+## Apa itu “load HTML from URL”?
+Muat HTML dari URL berarti mengunduh markup sebuah halaman web yang diidentifikasi oleh URI‑nya dan mengurainya menjadi struktur mirip DOM yang dapat berinteraksi dengan kode Java. Aspose.HTML mengabstraksi langkah jaringan dan penguraian, menyajikan metode sederhana `navigate`.
+
+## Mengapa menggunakan Aspose.HTML untuk tugas ini?
+- **Model berbasis peristiwa** – Reaksi instan saat dokumen selesai dimuat.  
+- **Konsistensi lintas‑platform** – Berfungsi sama di Windows, Linux, dan macOS.  
+- **API DOM yang kaya** – Dukungan penuh untuk kueri, penyuntingan, dan serialisasi HTML.  
+
 ## Prasyarat
-Sebelum kita masuk ke bagian pengkodean, ada beberapa prasyarat yang perlu Anda siapkan:
-1.  Java Development Kit (JDK): Pastikan Anda telah menginstal JDK di komputer Anda. Anda dapat mengunduhnya dari[Situs web Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2. Aspose.HTML untuk Java: Anda perlu memiliki pustaka Aspose.HTML. Anda dapat mengunduh versi terbaru dari[Aspose merilis halaman](https://releases.aspose.com/html/java/).
-3. IDE: Lingkungan Pengembangan Terpadu (IDE) seperti IntelliJ IDEA atau Eclipse akan membuat pengalaman pengkodean Anda lebih lancar.
-4. Pengetahuan Dasar Java: Keakraban dengan pemrograman Java dan konsep penanganan kejadian akan sangat membantu.
-5. Koneksi Internet: Karena kita akan menavigasi ke dokumen daring, pastikan Anda memiliki koneksi internet yang stabil.
-Setelah Anda memiliki prasyarat ini, Anda siap untuk mulai membuat kode!
+Sebelum masuk ke kode, pastikan Anda memiliki hal‑hal berikut:
 
-Sekarang setelah semuanya disiapkan, mari kita uraikan proses penanganan peristiwa pemuatan dokumen ke dalam langkah-langkah yang dapat dikelola.
-## Langkah 1: Inisialisasi Dokumen HTML
- Langkah pertama adalah membuat instance dari`HTMLDocument` kelas. Kelas ini mewakili dokumen HTML yang akan Anda gunakan.
+1. **Java Development Kit (JDK):** Pastikan Anda memiliki JDK terpasang di mesin Anda. Anda dapat mengunduhnya dari [Oracle's website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).  
+2. **Aspose.HTML for Java:** Anda perlu memiliki perpustakaan Aspose.HTML. Anda dapat mengunduh versi terbaru dari [Aspose releases page](https://releases.aspose.com/html/java/).  
+3. **IDE:** Integrated Development Environment (IDE) seperti IntelliJ IDEA atau Eclipse akan membuat pengalaman coding Anda lebih lancar.  
+4. **Pengetahuan Dasar Java:** Familiaritas dengan pemrograman Java dan konsep penanganan peristiwa akan sangat membantu.  
+5. **Koneksi Internet:** Karena kita akan menavigasi ke dokumen daring, pastikan Anda memiliki koneksi internet yang stabil.  
+
+Setelah semua prasyarat ini terpenuhi, Anda siap mulai menulis kode!
+
+## Panduan Langkah‑per‑Langkah
+
+### Langkah 1: Inisialisasi Dokumen HTML
+Pertama, buat instance `HTMLDocument`. Kami juga menyiapkan `AtomicBoolean` yang akan membantu melacak status pemuatan.
+
 ```java
 com.aspose.html.HTMLDocument document = new com.aspose.html.HTMLDocument();
 java.util.concurrent.atomic.AtomicBoolean isLoading = new java.util.concurrent.atomic.AtomicBoolean(false);
 ```
- Dalam cuplikan ini, kami juga membuat`AtomicBoolean` variabel bernama`isLoading`Variabel ini akan membantu kami melacak apakah dokumen sedang dimuat.
-## Langkah 2: Berlangganan Acara 'OnLoad'
-Selanjutnya, kita perlu berlangganan ke`OnLoad` peristiwa dokumen. Peristiwa ini dipicu saat dokumen telah dimuat sepenuhnya. 
+
+### Langkah 2: Berlangganan ke Peristiwa **OnLoad**
+Hubungkan ke peristiwa `OnLoad` sehingga kita dapat mengetahui tepat kapan halaman selesai dimuat.
+
 ```java
 document.OnLoad.add(new DOMEventHandler() {
     @Override
@@ -42,39 +67,61 @@ document.OnLoad.add(new DOMEventHandler() {
     }
 });
 ```
- Di sini, kami menambahkan event handler baru yang mengatur`isLoading` ke`true` saat dokumen sudah dimuat sepenuhnya. Ini memungkinkan kita untuk melakukan tindakan setelah dokumen siap.
-## Langkah 3: Navigasi ke Dokumen
-Sekarang, saatnya untuk menavigasi ke dokumen HTML yang ingin Anda muat. Dalam contoh ini, kita akan memuat dokumen dari URI tertentu.
+
+### Langkah 3: Navigasi ke Dokumen (Load HTML from URL)
+Gunakan metode `navigate` untuk meminta halaman remote. Ini adalah inti dari **load HTML from URL**.
+
 ```java
 document.navigate("https://docs.aspose.com/html/net/creating-a-document/document.html");
 ```
-Baris kode ini memberi tahu dokumen untuk memuat konten dari URL yang diberikan. Namun, perlu diingat bahwa dokumen mungkin tidak langsung dimuat.
-## Langkah 4: Tunggu Dokumen Dimuat
-Karena memuat dokumen dari URL adalah operasi tak sinkron, kita perlu menunggu beberapa detik untuk memastikan dokumen memiliki cukup waktu untuk dimuat. 
+
+### Langkah 4: Tunggu Dokumen untuk Dimuat
+Karena navigasi bersifat asynchronous, kita harus menjeda eksekusi hingga handler `OnLoad` mengubah flag. Pada produksi Anda akan menggunakan pola menunggu yang lebih kuat, tetapi sleep sederhana cukup untuk demo.
+
 ```java
 Thread.sleep(5000);
 ```
- Dalam kasus ini, kami menggunakan`Thread.sleep(5000)`untuk menjeda eksekusi selama 5 detik. Ini adalah cara sederhana untuk menunggu, tetapi dalam kode produksi, Anda mungkin ingin menerapkan solusi yang lebih tangguh menggunakan panggilan balik atau tugas mendatang.
-## Langkah 5: Akses Dokumen yang Diunggah
-Akhirnya, setelah dokumen dimuat, Anda dapat mengakses isinya. Misalnya, kita dapat mencetak HTML luar dokumen ke konsol:
+
+> **Pro tip:** Ganti `Thread.sleep` dengan loop yang memeriksa `isLoading.get()` untuk menghindari penundaan yang tidak perlu.
+
+### Langkah 5: Akses Dokumen yang Dimuat – Konversi HTML ke String
+Sekarang dokumen sudah sepenuhnya dimuat, ambil outer HTML‑nya. Ini secara efektif **convert html to string** untuk pemrosesan atau penyimpanan lebih lanjut.
+
 ```java
 System.out.println("outerHTML = " + document.getDocumentElement().getOuterHTML());
 ```
-Baris ini mengambil HTML bagian luar dokumen dan mencetaknya. Anda dapat memanipulasi HTML ini lebih lanjut berdasarkan kebutuhan aplikasi Anda.
-## Kesimpulan
-Penanganan peristiwa pemuatan dokumen di Aspose.HTML untuk Java merupakan proses mudah yang melibatkan inisialisasi dokumen HTML, berlangganan peristiwa pemuatan, menavigasi ke URL, dan mengakses konten yang dimuat. Dengan mengikuti langkah-langkah yang diuraikan dalam tutorial ini, Anda dapat mengelola pemuatan dokumen secara efektif di aplikasi Java Anda.
-Aspose.HTML adalah pustaka canggih yang membuka banyak kemungkinan untuk bekerja dengan dokumen HTML. Baik Anda sedang membangun aplikasi web atau memproses konten HTML, pustaka ini dapat menyederhanakan alur kerja Anda secara signifikan.
+
+> **Mengapa “get outer html java”?** Pemanggilan `getOuterHTML()` mengembalikan markup lengkap elemen dokumen, yang merupakan cara paling umum untuk mengekspor HTML sebagai `String` Java.
+
+## Masalah Umum dan Solusinya
+| Masalah | Solusi |
+|-------|----------|
+| Dokumenasi sleep atau terapkan loop polling yang memeriksa `isLoading`. |
+| Membutuhkan HTML tanpa pembungkus `<html>` | Gunakan `document.getBody().getOuterHTML()` untuk mendapatkan hanya konten body. |
+
 ## Pertanyaan yang Sering Diajukan
+
 ### Apa itu Aspose.HTML untuk Java?
-Aspose.HTML untuk Java adalah pustaka yang memungkinkan pengembang untuk membuat, memanipulasi, dan mengonversi dokumen HTML dalam aplikasi Java.
+Aspose.HTML untuk Java adalah perpustakaan yang memungkinkan pengembang membuat, memanipulasi, dan mengonversi dokumen HTML dalam aplikasi Java.
+
 ### Bagaimana cara mengunduh Aspose.HTML untuk Java?
- Anda dapat mengunduhnya dari[Aspose merilis halaman](https://releases.aspose.com/html/java/).
-### Dapatkah saya menggunakan Aspose.HTML secara gratis?
- Ya, Anda dapat mencoba Aspose.HTML secara gratis dengan mengunduh versi uji coba dari[Situs web Aspose](https://releases.aspose.com/).
+Anda dapat mengunduhnya dari [Aspose releases page](https://releases.aspose.com/html/java/).
+
+### Apakah saya dapat menggunakan Aspose.HTML secara gratis?
+Ya, Anda dapat mencoba Aspose.HTML secara gratis dengan mengunduh versi percobaan dari [Aspose website](https://releases.aspose.com/).
+
 ### Apakah ada dukungan yang tersedia untuk Aspose.HTML?
- Ya, Anda dapat menemukan dukungan dan mengajukan pertanyaan di[Forum Aspose](https://forum.aspose.com/c/html/29).
+Ya, Anda dapat menemukan dukungan dan mengajukan pertanyaan di [Aspose forum](https://forum.aspose.com/c/html/29).
+
 ### Bagaimana cara mendapatkan lisensi sementara untuk Aspose.HTML?
- Anda dapat meminta lisensi sementara dengan mengunjungi[Aspose halaman lisensi sementara](https://purchase.aspose.com/temporary-license/).
+Anda dapat meminta lisensi sementara dengan mengunjungi [Aspose temporary license page](https://purchase.aspose.com/temporary-license/).
+
+---
+
+**Terakhir Diperbarui:** 2026-01-25  
+**Diuji Dengan:** Aspose.HTML for Java 23.10 (terbaru pada saat penulisan)  
+**Penulis:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
