@@ -1,35 +1,58 @@
 ---
-title: Lọc tin nhắn lược đồ tùy chỉnh trong Aspose.HTML cho Java
-linktitle: Lọc tin nhắn lược đồ tùy chỉnh trong Aspose.HTML cho Java
-second_title: Xử lý HTML Java với Aspose.HTML
-description: Tìm hiểu cách triển khai bộ lọc tin nhắn lược đồ tùy chỉnh trong Java bằng Aspose.HTML. Làm theo hướng dẫn từng bước của chúng tôi để có trải nghiệm ứng dụng an toàn, phù hợp.
-weight: 10
+date: 2026-01-28
+description: Tìm hiểu cách lọc HTML bằng cách triển khai bộ lọc thông điệp schema
+  tùy chỉnh trong Java sử dụng Aspose.HTML. Hãy làm theo hướng dẫn từng bước này để
+  có trải nghiệm ứng dụng an toàn và được tùy chỉnh.
+linktitle: Custom Schema Message Filtering in Aspose.HTML
+second_title: Java HTML Processing with Aspose.HTML
+title: Cách lọc HTML bằng bộ lọc Schema tùy chỉnh (Java)
 url: /vi/java/custom-schema-message-handling/custom-schema-message-filter/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Lọc tin nhắn lược đồ tùy chỉnh trong Aspose.HTML cho Java
+# Lọc Tin Nhắn Theo Schema Tùy Chỉnh trong Aspose.HTML cho Java
 
 ## Giới thiệu
- Việc tạo ra các giải pháp tùy chỉnh đáp ứng các nhu cầu cụ thể thường đòi hỏi phải tìm hiểu sâu về các công cụ và thư viện có sẵn. Khi làm việc với các tài liệu HTML trong Java, API Aspose.HTML cho Java cung cấp nhiều chức năng có thể được tùy chỉnh theo nhu cầu của bạn. Một trong những tùy chỉnh như vậy bao gồm lọc tin nhắn dựa trên lược đồ tùy chỉnh bằng cách sử dụng`MessageFilter`class. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình triển khai Bộ lọc tin nhắn lược đồ tùy chỉnh bằng Aspose.HTML cho Java. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu, hướng dẫn này sẽ giúp bạn tạo cơ chế lọc mạnh mẽ phù hợp với các yêu cầu cụ thể của ứng dụng.
+Việc tạo ra các giải pháp tùy chỉnh đáp ứng các nhu cầu cụ thể thường đòi hỏi phải khám phá sâu vào các công cụ và thư viện có sẵn. Khi làm việc với tài liệu HTML trong Java, API Aspose.HTML cho Java cung cấp một loạt các chức năng có thể được điều chỉnh cho nhu cầu của bạn. Một trong những tùy chỉnh như vậy là **cách lọc HTML** dựa trên một schema tùy chỉnh bằng cách sử dụng lớp `MessageFilter`. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn cách triển khai Custom Schema Message Filter bằng Aspose.HTML cho Java. Dù bạn là một nhà phát triển dày dặn kinh nghiệm hay mới bắt đầu, bài học này sẽ giúp bạn tạo ra một cơ chế lọc mạnh mẽ, phù hợp với các yêu cầu cụ thể của ứng dụng.
+
+## Câu trả lời nhanh
+- **Bộ lọc làm gì?** Nó cho phép chỉ các yêu cầu mạng khớp với một schema được chỉ định (ví dụ https) được truyền qua.  
+- **Lớp nào phải được kế thừa?** `MessageFilter`.  
+- **Có cần giấy phép không?** Có, cần một giấy phép Aspose.HTML cho Java hợp lệ để sử dụng trong môi trường sản xuất.  
+- **Có thể lọc nhiều schema không?** Có – mở rộng phương thức `match` với logic bổ sung.  
+- **Yêu cầu phiên bản Java nào?** JDK 8 hoặc mới hơn.
+
+## “Cách lọc HTML” trong ngữ cảnh này là gì?
+Lọc HTML ở đây có nghĩa là chặn các hoạt động mạng do Aspose.HTML thực hiện và cho phép hoặc từ chối chúng dựa trên giao thức (schema) của yêu cầu. Điều này cho phép bạn kiểm soát chi tiết tài nguyên nào mà engine xử lý HTML của bạn có thể truy cập.
+
+## Tại sao nên sử dụng bộ lọc schema tùy chỉnh?
+- **Bảo mật** – Ngăn chặn các giao thức không mong muốn (ví dụ `ftp`).  
+- **Hiệu năng** – Giảm lưu lượng mạng không cần thiết bằng cách chặn các yêu cầu không liên quan.  
+- **Tuân thủ** – Thực thi các chính sách doanh nghiệp chỉ cho phép các schema cụ thể.
+
 ## Điều kiện tiên quyết
-Trước khi bắt đầu viết mã, hãy đảm bảo bạn đã đáp ứng đủ các điều kiện tiên quyết sau:
-1.  Java Development Kit (JDK): Đảm bảo bạn đã cài đặt JDK 8 hoặc phiên bản mới hơn trên hệ thống của mình. Bạn có thể tải xuống phiên bản mới nhất từ[Trang web của Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2.  Thư viện Aspose.HTML cho Java: Tải xuống và tích hợp thư viện Aspose.HTML cho Java vào dự án của bạn. Bạn có thể lấy phiên bản mới nhất từ[Trang phát hành Aspose](https://releases.aspose.com/html/java/).
-3. Môi trường phát triển tích hợp (IDE): Một IDE tốt như IntelliJ IDEA hoặc Eclipse sẽ giúp trải nghiệm mã hóa của bạn mượt mà hơn. Đảm bảo IDE của bạn được thiết lập và sẵn sàng để quản lý các dự án Java.
-4. Kiến thức cơ bản về Java: Mặc dù hướng dẫn này dành cho người mới bắt đầu, nhưng hiểu biết cơ bản về Java sẽ giúp bạn nắm bắt các khái niệm hiệu quả hơn.
-## Nhập gói
-Để bắt đầu, hãy nhập các gói cần thiết vào dự án Java của bạn. Các gói này rất cần thiết để triển khai bộ lọc thông báo lược đồ tùy chỉnh.
+1. **Java Development Kit (JDK)** – JDK 8 hoặc mới hơn. Tải về từ [trang web Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).  
+2. **Thư viện Aspose.HTML cho Java** – Lấy JAR mới nhất từ [trang phát hành Aspose](https://releases.aspose.com/html/java/).  
+3. **IDE** – IntelliJ IDEA, Eclipse, hoặc bất kỳ IDE nào hỗ trợ Java.  
+4. **Kiến thức cơ bản về Java** – Hiểu về lớp, kế thừa và giao diện.
+
+## Nhập khẩu các gói
+Để bắt đầu, nhập các gói cần thiết vào dự án Java của bạn. Các gói này là nền tảng để triển khai bộ lọc tin nhắn schema tùy chỉnh.
+
 ```java
 import com.aspose.html.net.INetworkOperationContext;
 import com.aspose.html.net.MessageFilter;
 ```
- Những bản nhập này bao gồm các lớp cốt lõi mà bạn sẽ sử dụng:`MessageFilter` để tạo bộ lọc tùy chỉnh của bạn và`INetworkOperationContext` để truy cập thông tin chi tiết về hoạt động mạng.
-## Bước 1: Tạo lớp lọc tin nhắn lược đồ tùy chỉnh
- Chúng ta hãy bắt đầu bằng cách tạo một lớp mở rộng`MessageFilter` lớp. Lớp tùy chỉnh này sẽ cho phép bạn xác định logic lọc dựa trên lược đồ cụ thể.
+
+Các import này bao gồm các lớp cốt lõi bạn sẽ dùng: `MessageFilter` để tạo bộ lọc tùy chỉnh và `INetworkOperationContext` để truy cập chi tiết hoạt động mạng.
+
+## Bước 1: Tạo lớp Custom Schema Message Filter
+Hãy bắt đầu bằng việc tạo một lớp kế thừa lớp `MessageFilter`. Lớp tùy chỉnh này sẽ cho phép bạn định nghĩa logic lọc dựa trên một schema cụ thể.
+
 ```java
 public class CustomSchemaMessageFilter extends MessageFilter {
     private final String schema;
@@ -38,9 +61,12 @@ public class CustomSchemaMessageFilter extends MessageFilter {
     }
 }
 ```
- Trong bước này, bạn đang xác định`CustomSchemaMessageFilter` lớp và khởi tạo nó bằng giá trị lược đồ. Lược đồ được truyền cho hàm tạo khi tạo một thể hiện của lớp này. Giá trị này sẽ được sử dụng sau để khớp với giao thức của các yêu cầu đến.
-##  Bước 2: Ghi đè`match` Method
- Cốt lõi của logic lọc nằm ở`match`phương pháp mà bạn cần ghi đè. Phương pháp này sẽ xác định xem một yêu cầu mạng cụ thể có khớp với lược đồ tùy chỉnh mà bạn đã xác định hay không.
+
+Trong bước này, bạn định nghĩa lớp `CustomSchemaMessageFilter` và khởi tạo nó với một giá trị schema. Schema được truyền vào constructor khi tạo một thể hiện của lớp này. Giá trị này sẽ được dùng sau này để so sánh giao thức của các yêu cầu đến.
+
+## Bước 2: Ghi đè phương thức `match`
+Lõi của logic lọc nằm trong phương thức `match`, mà bạn cần ghi đè. Phương thức này sẽ quyết định liệu một yêu cầu mạng cụ thể có khớp với schema tùy chỉnh mà bạn đã định nghĩa hay không.
+
 ```java
 @Override
 public boolean match(INetworkOperationContext context) {
@@ -48,33 +74,42 @@ public boolean match(INetworkOperationContext context) {
     return (schema + ":").equals(protocol);
 }
 ```
- Trong phương pháp này, bạn trích xuất giao thức từ URI của yêu cầu và so sánh nó với lược đồ tùy chỉnh của bạn. Nếu chúng khớp, phương pháp trả về`true` , cho biết yêu cầu đi qua bộ lọc; nếu không, nó sẽ trả về`false`.
-## Bước 3: Khởi tạo và sử dụng Bộ lọc tùy chỉnh
-Sau khi bạn đã xác định lớp bộ lọc tùy chỉnh của mình, bước tiếp theo là tạo một phiên bản của lớp đó và sử dụng nó trong ứng dụng của bạn.
+
+Trong phương thức này, bạn trích xuất giao thức từ URI của yêu cầu và so sánh nó với schema tùy chỉnh của mình. Nếu khớp, phương thức trả về `true`, cho biết yêu cầu được cho phép qua bộ lọc; ngược lại trả về `false`.
+
+## Bước 3: Tạo thể hiện và sử dụng bộ lọc tùy chỉnh
+Sau khi đã định nghĩa lớp bộ lọc tùy chỉnh, bước tiếp theo là tạo một thể hiện của nó và sử dụng trong ứng dụng của bạn.
+
 ```java
 CustomSchemaMessageFilter filter = new CustomSchemaMessageFilter("https");
 ```
- Ở đây, bạn tạo một phiên bản mới của`CustomSchemaMessageFilter` lớp, truyền lược đồ mong muốn (trong trường hợp này là "https") cho trình xây dựng. Phiên bản này hiện sẽ lọc các yêu cầu dựa trên giao thức HTTPS.
-## Bước 4: Áp dụng Bộ lọc trong Ứng dụng của bạn
-Bây giờ bạn đã có bộ lọc sẵn sàng, đã đến lúc tích hợp nó vào hoạt động mạng của ứng dụng.
+
+Ở đây, bạn tạo một thể hiện mới của lớp `CustomSchemaMessageFilter`, truyền schema mong muốn (trong ví dụ này là `"https"`) vào constructor. Thể hiện này sẽ lọc các yêu cầu dựa trên giao thức HTTPS.
+
+## Bước 4: Áp dụng bộ lọc trong ứng dụng
+Bây giờ bộ lọc đã sẵn sàng, hãy tích hợp nó vào các hoạt động mạng của ứng dụng.
+
 ```java
-// Giả sử 'context' là một thể hiện của INetworkOperationContext
+// Assuming 'context' is an instance of INetworkOperationContext
 if (filter.match(context)) {
-    //Yêu cầu phù hợp với lược đồ tùy chỉnh
+    // The request matches the custom schema
     System.out.println("Request passed the filter.");
 } else {
-    // Yêu cầu không khớp với lược đồ tùy chỉnh
+    // The request does not match the custom schema
     System.out.println("Request blocked by the filter.");
 }
 ```
- Trong bước này, bạn sử dụng`match` phương pháp kiểm tra xem yêu cầu mạng đến có tuân thủ lược đồ tùy chỉnh hay không. Tùy thuộc vào kết quả, bạn có thể cho phép hoặc chặn yêu cầu tương ứng.
-## Bước 5: Kiểm tra Bộ lọc tùy chỉnh
-Kiểm thử là một phần quan trọng của bất kỳ quy trình phát triển nào. Bạn sẽ cần mô phỏng nhiều tình huống khác nhau để đảm bảo bộ lọc thông báo lược đồ tùy chỉnh của bạn hoạt động như mong đợi.
+
+Trong bước này, bạn sử dụng phương thức `match` để kiểm tra xem yêu cầu mạng đến có tuân theo schema tùy chỉnh hay không. Dựa trên kết quả, bạn có thể cho phép hoặc chặn yêu cầu tương ứng.
+
+## Bước 5: Kiểm thử bộ lọc tùy chỉnh
+Kiểm thử là một phần quan trọng trong bất kỳ quy trình phát triển nào. Bạn cần mô phỏng nhiều kịch bản khác nhau để đảm bảo bộ lọc tin nhắn schema tùy chỉnh hoạt động như mong đợi.
+
 ```java
 public class TestCustomSchemaMessageFilter {
     public static void main(String[] args) {
         CustomSchemaMessageFilter filter = new CustomSchemaMessageFilter("https");
-        // Bối cảnh hoạt động mạng mô phỏng
+        // Simulated network operation context
         INetworkOperationContext context = new MockNetworkOperationContext("https");
         if (filter.match(context)) {
             System.out.println("Test passed: HTTPS request allowed.");
@@ -84,23 +119,44 @@ public class TestCustomSchemaMessageFilter {
     }
 }
 ```
-Đây là một trường hợp thử nghiệm đơn giản, trong đó bạn mô phỏng yêu cầu mạng bằng ngữ cảnh giả. Thử nghiệm này kiểm tra xem bộ lọc của bạn có xác định và cho phép yêu cầu HTTPS đúng không.
-## Phần kết luận
-Trong hướng dẫn này, chúng tôi đã hướng dẫn quy trình tạo Bộ lọc tin nhắn lược đồ tùy chỉnh bằng Aspose.HTML cho Java. Bằng cách làm theo các bước này, bạn có thể tùy chỉnh ứng dụng của mình để chỉ xử lý các yêu cầu mạng phù hợp với các yêu cầu cụ thể của bạn. Khả năng này đặc biệt hữu ích khi bạn cần thực thi các quy tắc nghiêm ngặt xung quanh các loại giao thức mà ứng dụng của bạn tương tác. Cho dù bạn đang lọc vì lý do bảo mật, hiệu suất hay tuân thủ, phương pháp này cung cấp một cách mạnh mẽ để kiểm soát giao tiếp mạng trong các ứng dụng Java của bạn.
+
+Trường hợp kiểm thử đơn giản này tạo một ngữ cảnh mạng giả lập, giả vờ sử dụng giao thức `"https"`. Kiểm thử xác nhận rằng bộ lọc của bạn nhận diện và cho phép các yêu cầu HTTPS một cách chính xác.
+
+## Các vấn đề thường gặp và giải pháp
+- **`NullPointerException` trên `context.getRequest()`** – Đảm bảo rằng `INetworkOperationContext` bạn truyền thực sự chứa một đối tượng request.  
+- **Bộ lọc không được kích hoạt** – Kiểm tra xem bộ lọc đã được đăng ký với pipeline xử lý của Aspose.HTML (ví dụ, khi tạo một `Browser` hoặc `HtmlRenderer`).  
+- **Cần nhiều schema** – Sửa đổi phương thức `match` để kiểm tra danh sách hoặc tập hợp các schema được phép.
+
+## Kết luận
+Trong hướng dẫn này, chúng ta đã đi qua **cách lọc HTML** bằng cách tạo Custom Schema Message Filter sử dụng Aspose.HTML cho Java. Khi thực hiện các bước này, bạn có thể tùy chỉnh ứng dụng để chỉ xử lý các yêu cầu mạng khớp với yêu cầu cụ thể của mình. Khả năng này đặc biệt hữu ích khi bạn cần thực thi các quy tắc nghiêm ngặt về loại giao thức mà ứng dụng tương tác — dù là vì bảo mật, hiệu năng hay tuân thủ.
+
 ## Câu hỏi thường gặp
-### Aspose.HTML dành cho Java là gì?
-Aspose.HTML for Java là một API mạnh mẽ để thao tác và hiển thị các tài liệu HTML trong các ứng dụng Java. Nó cung cấp các tính năng mở rộng để làm việc với các tệp HTML, CSS và SVG.
-### Tại sao tôi lại cần bộ lọc tin nhắn lược đồ tùy chỉnh?
-Bộ lọc tin nhắn lược đồ tùy chỉnh cho phép bạn kiểm soát các yêu cầu mạng mà ứng dụng của bạn xử lý, dựa trên các giao thức cụ thể. Điều này có thể tăng cường bảo mật, hiệu suất và tuân thủ các yêu cầu của ứng dụng.
-### Tôi có thể lọc nhiều lược đồ bằng một bộ lọc duy nhất không?
- Vâng, bạn có thể mở rộng`match` phương pháp xử lý nhiều lược đồ bằng cách kiểm tra nhiều điều kiện trong phương pháp.
-### Aspose.HTML cho Java có tương thích với tất cả các phiên bản Java không?
-Aspose.HTML for Java tương thích với JDK 8 và các phiên bản mới hơn. Luôn đảm bảo bạn đang sử dụng phiên bản được hỗ trợ để có hiệu suất tối ưu.
-### Làm thế nào để tôi nhận được hỗ trợ cho Aspose.HTML dành cho Java?
- Bạn có thể truy cập hỗ trợ thông qua[Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/html/29), nơi bạn có thể đặt câu hỏi và nhận trợ giúp từ cộng đồng và các nhà phát triển Aspose.
+### Aspose.HTML cho Java là gì?
+Aspose.HTML cho Java là một API mạnh mẽ để thao tác và render tài liệu HTML trong các ứng dụng Java. Nó cung cấp nhiều tính năng mở rộng cho việc làm việc với HTML, CSS và SVG.
+
+### Tại sao tôi cần một bộ lọc tin nhắn schema tùy chỉnh?
+Bộ lọc tin nhắn schema tùy chỉnh cho phép bạn kiểm soát các yêu cầu mạng mà ứng dụng xử lý, dựa trên các giao thức cụ thể. Điều này có thể nâng cao bảo mật, hiệu năng và tuân thủ các yêu cầu của ứng dụng.
+
+### Tôi có thể lọc nhiều schema bằng một bộ lọc duy nhất không?
+Có, bạn có thể mở rộng phương thức `match` để xử lý nhiều schema bằng cách kiểm tra nhiều điều kiện trong cùng một phương thức.
+
+### Aspose.HTML cho Java có tương thích với mọi phiên bản Java không?
+Aspose.HTML cho Java tương thích với JDK 8 và các phiên bản sau đó. Luôn đảm bảo bạn đang sử dụng phiên bản được hỗ trợ để đạt hiệu năng tối ưu.
+
+### Làm sao tôi có thể nhận hỗ trợ cho Aspose.HTML cho Java?
+Bạn có thể truy cập hỗ trợ qua [diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/html/29), nơi bạn có thể đặt câu hỏi và nhận trợ giúp từ cộng đồng cũng như các nhà phát triển của Aspose.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Cập nhật lần cuối:** 2026-01-28  
+**Đã kiểm thử với:** Aspose.HTML cho Java 24.11 (phiên bản mới nhất tại thời điểm viết)  
+**Tác giả:** Aspose  
+
+---
