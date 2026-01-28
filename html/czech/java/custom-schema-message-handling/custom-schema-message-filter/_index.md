@@ -1,35 +1,58 @@
 ---
-title: Vlastní filtrování zpráv schématu v Aspose.HTML pro Javu
-linktitle: Vlastní filtrování zpráv schématu v Aspose.HTML pro Javu
-second_title: Java HTML zpracování s Aspose.HTML
-description: Naučte se implementovat vlastní filtr zpráv schématu v Javě pomocí Aspose.HTML. Postupujte podle našeho podrobného průvodce pro bezpečné, přizpůsobené aplikační prostředí.
-weight: 10
+date: 2026-01-28
+description: Naučte se filtrovat HTML implementací vlastního filtru zpráv schématu
+  v Javě pomocí Aspose.HTML. Postupujte podle tohoto krok‑za‑krokem průvodce pro bezpečný
+  a přizpůsobený zážitek z aplikace.
+linktitle: Custom Schema Message Filtering in Aspose.HTML
+second_title: Java HTML Processing with Aspose.HTML
+title: Jak filtrovat HTML pomocí vlastního filtru schématu (Java)
 url: /cs/java/custom-schema-message-handling/custom-schema-message-filter/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Vlastní filtrování zpráv schématu v Aspose.HTML pro Javu
+# Vlastní filtrování zpráv podle schématu v Aspose.HTML pro Java
 
-## Zavedení
- Vytváření vlastních řešení, která uspokojí konkrétní potřeby, často vyžaduje hluboký ponor do dostupných nástrojů a knihoven. Při práci s dokumenty HTML v Javě nabízí Aspose.HTML for Java API množství funkcí, které lze přizpůsobit vašim potřebám. Jedno takové přizpůsobení zahrnuje filtrování zpráv na základě vlastního schématu pomocí`MessageFilter`třída. V této příručce vás provedeme procesem implementace vlastního filtru zpráv schématu pomocí Aspose.HTML pro Java. Ať už jste zkušený vývojář nebo teprve začínáte, tento tutoriál vám pomůže vytvořit robustní mechanismus filtrování přizpůsobený konkrétním požadavkům vaší aplikace.
-## Předpoklady
-Než se ponoříte do kódu, ujistěte se, že máte splněny následující předpoklady:
-1.  Java Development Kit (JDK): Ujistěte se, že máte v systému nainstalovaný JDK 8 nebo novější. Nejnovější verzi si můžete stáhnout z[Web společnosti Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2.  Knihovna Aspose.HTML for Java: Stáhněte si a integrujte knihovnu Aspose.HTML for Java do svého projektu. Nejnovější verzi můžete získat z[Aspose stránku vydání](https://releases.aspose.com/html/java/).
-3. Integrované vývojové prostředí (IDE): Dobré IDE jako IntelliJ IDEA nebo Eclipse vám usnadní práci s kódováním. Ujistěte se, že je vaše IDE nastaveno a připraveno ke správě projektů Java.
-4. Základní znalost Javy: I když je tento tutoriál vhodný pro začátečníky, základní znalost Javy vám pomůže lépe porozumět pojmům.
-## Importujte balíčky
-Chcete-li začít, importujte potřebné balíčky do svého projektu Java. Tyto balíčky jsou nezbytné pro implementaci vlastního filtru zpráv schématu.
+## Úvod
+Vytváření vlastních řešení, která vyhovují konkrétním potřebám, často vyžaduje podrobný průzkum dostupných nástrojů a knihoven. Při práci s HTML dokument Javě nabízí API Aspose.HTML pro Java bohatou funkcionalitu, kterou lze přizpůsobit vašim požadavkům. Jednou z takových úprav je **jak filtrovat HTML** podle vlastního schématu pomocí třídy `MessageFilter`. V tomto průvodci vás provedeme implementací Vlastního filtru zpráv podle schématu pomocí Aspose.HTML pro Java. Ať už jste zkušený vývojář nebo teprve začínáte, tento tutoriál vám pomůže vytvořit robustní mechanismus filtrování přizpůsobený specifickým požadavkům vaší aplikace.
+
+## Rychlé odpovědi
+- **Co filtr dělá?** Umožňuje projít pouze síťovým požadavkům, které odpovídají zadanému schématu (např. https).  
+- **Která třída musí být rozšířena?** `MessageFilter`.  
+- **Potřebuji licenci?** Ano, pro produkční použití je vyžadována platná licence Aspose.HTML pro Java.  
+- **Mohu filtrovat více schémat?** Ano – rozšiřte metodu `match` o další logiku.  
+- **Jaká verze Javy je požadována?** JDK 8 nebo novější.
+
+## Co znamená „jak filtrovat HTML“ v tomto kontextu?
+Filtrování HTML zde znamená zachytávání síťových operací prováděných Aspose.HTML a povolování nebo blokování na základě protokolu (schématu) požadavku. To vám poskytuje jemnozrnnou kontrolu nad tím, ke kterým zdrojům může váš HTML engine přistupovat.
+
+## Proč použít vlastní filtr schématu?
+- **Bezpečnost** – Zabrání přístupu k nechtěným protokolům (např. `ftp`).  
+- **Výkon** – Sníží zbytečný síťový provoz blokováním irelevantních požadavků.  
+- **Soulad** – Vynutí firení politiky, které povolují pouze specifické schémata.
+
+## Požadavky
+1. **Java Development Kit (JDK)** – JDK 8 nebo novější. Stáhněte jej z [webu Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).  
+2. **Aspose.HTML for Java Library** – Získejte nejnovější JAR ze [stránky vydání Aspose](https://releases.aspose.com/html/java/).  
+3. **IDE** – IntelliJ IDEA, Eclipse nebo jakékoli Java‑kompatibilní IDE.  
+4. **Základní znalost Javy** – Znalost tříd, dědičnosti a rozhraní.
+
+## Import balíčků
+Pro zahájení importujte potřebné balíčky do svého Java projektu. Tyto balíčky jsou nezbytné pro implementaci vlastního filtru zpráv podle schématu.
+
 ```java
 import com.aspose.html.net.INetworkOperationContext;
 import com.aspose.html.net.MessageFilter;
 ```
- Tyto importy zahrnují základní třídy, které budete používat:`MessageFilter` pro vytvoření vlastního filtru a`INetworkOperationContext` pro přístup k podrobnostem síťového provozu.
-## Krok 1: Vytvořte třídu filtru zpráv vlastního schématu
- Začněme vytvořením třídy, která rozšiřuje`MessageFilter` třída. Tato vlastní třída vám umožní definovat logiku filtrování na základě konkrétního schématu.
+
+Tyto importy zahrnují základní třídy, které budete používat: `MessageFilter` pro vytvoření vlastního filtru a `INetworkOperationContext` pro přístup k detailům síťové operace.
+
+## Krok 1: Vytvoření třídy vlastního filtru zpráv podle schématu
+Začněme vytvořením třídy, která rozšiřuje třídu `MessageFilter`. Tato vlastní třída vám umožní definovat logiku filtrování na základě konkrétního schématu.
+
 ```java
 public class CustomSchemaMessageFilter extends MessageFilter {
     private final String schema;
@@ -38,9 +61,12 @@ public class CustomSchemaMessageFilter extends MessageFilter {
     }
 }
 ```
- V tomto kroku definujete`CustomSchemaMessageFilter` třídu a inicializuje ji s hodnotou schématu. Schéma je předáno konstruktoru při vytváření instance této třídy. Tato hodnota bude později použita pro porovnání protokolu příchozích požadavků.
-##  Krok 2: Přepište`match` Method
- Jádro filtrační logiky spočívá v`match`metodu, kterou musíte přepsat. Tato metoda určí, zda konkrétní síťový požadavek odpovídá vlastnímu schématu, které jste definovali.
+
+V tomto kroku definujete třídu `CustomSchemaMessageFilter` a inicializujete ji hodnotou schématu. Schéma je předáno konstruktoru při vytváření instance této třídy. Tato hodnota bude později použita k porovnání protokolu příchozích požadavků.
+
+## Krok 2: Přepsání metody `match`
+Jádro logiky filtrování spočívá v metodě `match`, kterou je třeba přepsat. Tato metoda určí, zda konkrétní síťový požadavek odpovídá vámi definovanému schématu.
+
 ```java
 @Override
 public boolean match(INetworkOperationContext context) {
@@ -48,33 +74,42 @@ public boolean match(INetworkOperationContext context) {
     return (schema + ":").equals(protocol);
 }
 ```
- V této metodě extrahujete protokol z URI požadavku a porovnáte jej s vlastním schématem. Pokud se shodují, metoda se vrátí`true` , indikující, že požadavek prochází filtrem; jinak se vrátí`false`.
-## Krok 3: Vytvořte okamžitý a použijte vlastní filtr
-Jakmile definujete svou vlastní třídu filtru, dalším krokem je vytvořit její instanci a použít ji ve své aplikaci.
+
+V této metodě získáte protokol z URI požadavku a porovnáte jej s vaším vlastním schématem. Pokud se shodují, metoda vrátí `true`, což znamená, že požadavek projde filtrem; v opačném případě vrátí `false`.
+
+## Krok 3: Vytvoření instance a použití vlastního filtru
+Po definování vlastní třídy filtru vytvořte její instanci a použijte ji ve své aplikaci.
+
 ```java
 CustomSchemaMessageFilter filter = new CustomSchemaMessageFilter("https");
 ```
- Zde vytvoříte novou instanci souboru`CustomSchemaMessageFilter` třídy, předá požadované schéma (v tomto případě "https") konstruktoru. Tato instance nyní bude filtrovat požadavky na základě protokolu HTTPS.
-## Krok 4: Použijte filtr ve své aplikaci
+
+Zde vytvoříte novou instanci třídy `CustomSchemaMessageFilter` a do konstruktoru předáte požadované schéma (v tomto případě `"https"`). Tato instance nyní bude filtrovat požadavky na základě protokolu HTTPS.
+
+## Krok 4: Použití filtru ve vaší aplikaci
 Nyní, když máte filtr připravený, je čas jej integrovat do síťových operací vaší aplikace.
+
 ```java
-// Za předpokladu, že 'context' je instancí INetworkOperationContext
+// Assuming 'context' is an instance of INetworkOperationContext
 if (filter.match(context)) {
-    //Požadavek odpovídá vlastnímu schématu
+    // The request matches the custom schema
     System.out.println("Request passed the filter.");
 } else {
-    // Požadavek neodpovídá vlastnímu schématu
+    // The request does not match the custom schema
     System.out.println("Request blocked by the filter.");
 }
 ```
- V tomto kroku použijete`match` způsob, jak zkontrolovat, zda příchozí síťový požadavek odpovídá vlastnímu schématu. V závislosti na výsledku můžete žádost povolit nebo zablokovat.
+
+V tomto kroku použijete metodu `match` k ověření, zda příchozí síťový požadavek splňuje vlastní schéma. Podle výsledku můžete požadavek povolit nebo zablokovat.
+
 ## Krok 5: Testování vlastního filtru
-Testování je klíčovou součástí každého vývojového procesu. Budete muset simulovat různé scénáře, abyste zajistili, že váš vlastní filtr zpráv schématu bude fungovat podle očekávání.
+Testování je klíčovou součástí vývoje. Budete muset simulovat různé scénáře, abyste ověřili, že váš vlastní filtr zpráv podle schématu funguje podle očekávání.
+
 ```java
 public class TestCustomSchemaMessageFilter {
     public static void main(String[] args) {
         CustomSchemaMessageFilter filter = new CustomSchemaMessageFilter("https");
-        // Simulovaný kontext síťového provozu
+        // Simulated network operation context
         INetworkOperationContext context = new MockNetworkOperationContext("https");
         if (filter.match(context)) {
             System.out.println("Test passed: HTTPS request allowed.");
@@ -84,23 +119,42 @@ public class TestCustomSchemaMessageFilter {
     }
 }
 ```
-Toto je jednoduchý testovací případ, kdy simulujete síťový požadavek pomocí falešného kontextu. Test zkontroluje, zda váš filtr správně identifikuje a povoluje požadavky HTTPS.
+
+Tento jednoduchý test vytvoří simulovaný síťový kontext, který předstírá použití protokolu `"https"`. Test ověří, že váš filtr správně identifikuje a povolí HTTPS požadavky.
+
+## Časté problémy a řešení
+- **`NullPointerException` při `context.getRequest()`** – Ujistěte se, že předávaný `INetworkOperationContext` skutečně obsahuje objekt požadavku.  
+- **Filtr se nespouští** – Ověřte, že je filtr zaregistrován v zpracovatelském řetězci Aspose.HTML (např. při vytváření instance `Browser` nebo `HtmlRenderer`).  
+- **Potřeba více schémat** – Upravte metodu `match`, aby kontrolovala seznam nebo množinu povolených schémat.
+
 ## Závěr
-tomto tutoriálu jsme prošli procesem vytváření vlastního filtru zpráv schématu pomocí Aspose.HTML pro Java. Pomocí těchto kroků můžete přizpůsobit aplikaci tak, aby zpracovávala pouze síťové požadavky, které odpovídají vašim konkrétním požadavkům. Tato schopnost je zvláště užitečná, když potřebujete vynutit přísná pravidla pro typy protokolů, se kterými vaše aplikace komunikuje. Ať už filtrujete z důvodů zabezpečení, výkonu nebo souladu s předpisy, tento přístup nabízí účinný způsob řízení síťové komunikace ve vašich aplikacích Java.
-## FAQ
+V tomto tutoriálu jsme prošli **jak filtrovat HTML** vytvořením Vlastního filtru zpráv podle schématu pomocí Aspose.HTML pro Java. Dodržením těchto kroků můžete přizpůsobit svou aplikaci tak, aby zpracovávala pouze síťové požadavky, které odpovídají vašim specifickým požadavkům. Tato schopnost je zvláště užitečná, když potřebujete vynutit přísná pravidla ohledně typů protokolů, se kterými vaše aplikace komunikuje – ať už z důvodů bezpečnosti, výkonu nebo souladu.
+
+## Často kladené otázky
 ### Co je Aspose.HTML pro Java?
-Aspose.HTML for Java je robustní API pro manipulaci a vykreslování HTML dokumentů v aplikacích Java. Nabízí rozsáhlé funkce pro práci se soubory HTML, CSS a SVG.
-### Proč bych potřeboval vlastní filtr zpráv schématu?
-Vlastní filtr zpráv schématu vám umožňuje řídit, které síťové požadavky zpracovává vaše aplikace, na základě konkrétních protokolů. To může zvýšit zabezpečení, výkon a shodu s požadavky vaší aplikace.
-### Mohu filtrovat více schémat pomocí jednoho filtru?
- Ano, můžete prodloužit`match` metoda pro zpracování více schémat kontrolou více podmínek v rámci metody.
-### Je Aspose.HTML for Java kompatibilní se všemi verzemi Java?
-Aspose.HTML for Java je kompatibilní s JDK 8 a novějšími verzemi. Vždy se ujistěte, že používáte podporovanou verzi pro optimální výkon.
+Aspose.HTML pro Java je robustní API pro manipulaci a renderování HTML dokumentů v Java aplikacích. Nabízí rozsáhlé funkce pro práci s HTML, CSS a SVG soubory.
+
+### Proč potřebuji vlastní filtr zpráv podle schématu?
+Vlastní filtr zpráv podle schématu vám umožní řídit, které síťové požadavky vaše aplikace zpracovává, na základě konkrétních protokolů. To může zvýšit bezpečnost, výkon a soulad s požadavky vaší aplikace.
+
+### Mohu filtrovat více schémat jedním filtrem?
+Ano, můžete rozšířit metodu `match`, aby zvládala více schémat kontrolou několika podmínek uvnitř metody.
+
+### Je Aspose.HTML pro Java kompatibilní se všemi verzemi Javy?
+Aspose.HTML pro Java je kompatibilní s JDK 8 a novějšími verzemi. Vždy se ujistěte, že používáte podporovanou verzi pro optimální výkon.
+
 ### Jak získám podporu pro Aspose.HTML pro Java?
- K podpoře se můžete dostat přes[Aspose fórum podpory](https://forum.aspose.com/c/html/29), kde můžete klást otázky a získat pomoc od komunity a vývojářů Aspose.
+Podporu můžete získat prostřednictvím [Aspose support forum](https://forum.aspose.com/c/html/29), kde můžete klást otázky a získat pomoc od komunity i vývojářů Aspose.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2026-01-28  
+**Tested With:** Aspose.HTML for Java 24.11 (latest at time of writing)  
+**Author:** Aspose

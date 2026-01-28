@@ -1,35 +1,56 @@
 ---
-title: Aspose.HTML for Java でのカスタム スキーマ メッセージ フィルタリング
-linktitle: Aspose.HTML for Java でのカスタム スキーマ メッセージ フィルタリング
-second_title: Aspose.HTML を使用した Java HTML 処理
-description: Aspose.HTML を使用して Java でカスタム スキーマ メッセージ フィルターを実装する方法を学びます。安全でカスタマイズされたアプリケーション エクスペリエンスを実現するには、ステップ バイ ステップ ガイドに従ってください。
-weight: 10
+date: 2026-01-28
+description: Aspose.HTML を使用して Java でカスタム スキーマ メッセージ フィルタを実装し、HTML をフィルタリングする方法を学びましょう。安全でカスタマイズされたアプリケーション体験のために、このステップバイステップガイドに従ってください。
+linktitle: Custom Schema Message Filtering in Aspose.HTML
+second_title: Java HTML Processing with Aspose.HTML
+title: カスタムスキーマフィルタ（Java）を使用したHTMLのフィルタリング方法
 url: /ja/java/custom-schema-message-handling/custom-schema-message-filter/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.HTML for Java でのカスタム スキーマ メッセージ フィルタリング
+# Aspose.HTML for Java におけるカスタムスキーマ メッセージ フィルタリング
 
-## 導入
-特定のニーズに応えるカスタムソリューションを作成するには、利用可能なツールやライブラリを深く調べる必要があります。JavaでHTMLドキュメントを操作する場合、Aspose.HTML for Java APIは、ニーズに合わせてカスタマイズできる豊富な機能を提供します。そのようなカスタマイズの1つは、`MessageFilter`クラス。このガイドでは、Aspose.HTML for Java を使用してカスタム スキーマ メッセージ フィルターを実装するプロセスについて説明します。熟練した開発者でも、初心者でも、このチュートリアルは、アプリケーションの特定の要件に合わせて調整された堅牢なフィルター メカニズムを作成するのに役立ちます。
+## はじめに
+特定のニーズに合わせたカスタム ソリューションを作成するには、利用可能なツールやライブラリを深く理解する必要があります。Java で HTML ドキュメントを扱う際、Aspose.HTML for Java API は豊富な機能を提供しており、用途に合わせてカスタマイズできます。その一例が **カスタムスキーマを使用した HTML のフィルタリング** です。本ガイドでは、Aspose.HTML for Java を使用したカスタムスキーマ メッセージ フィルタの実装手順を解説します。経験豊富な開発者でも、これから始める方でも、アプリケーションの要件に合わせた堅牢なフィルタリング機構を構築できるようになります。
+
+## クイック回答
+- **フィルタは何を行いますか？** 指定したスキーマ（例: https）に一致するネットワーク要求のみを通過させます。  
+- **どのクラスを継承する必要がありますか？** `MessageFilter`。  
+- **ライセンスは必要ですか？** はい、商用利用には有効な Aspose.HTML for Java ライセンスが必要です。  
+- **複数のスキーマをフィルタできますか？** はい – `match` メソッドに追加ロジックを実装してください。  
+- **必要な Java バージョンは？** JDK 8 以降。
+
+## この文脈での “HTML のフィルタリング” とは？
+ここでのフィルタリングは、Aspose.HTML が実行するネットワーク操作をインターセプトし、要求のプロトコル（スキーマ）に基づいて許可またはブロックすることを指します。これにより、HTML 処理エンジンがアクセスできるリソースを細かく制御できます。
+
+## カスタムスキーマ フィルタを使用する理由
+- **セキュリティ** – 不要なプロトコル（例: `ftp`）へのアクセスを防止。  
+- **パフォーマンス** – 関係ないリクエストをブロックして不要なネットワークトラフィックを削減。  
+- **コンプライアンス** – 特定のスキーマのみを許可する企業ポリシーを実装。
+
 ## 前提条件
-コードに進む前に、次の前提条件が満たされていることを確認してください。
-1.  Java開発キット（JDK）：システムにJDK 8以降がインストールされていることを確認してください。最新バージョンは以下からダウンロードできます。[Oracleのウェブサイト](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2.  Aspose.HTML for Java ライブラリ: Aspose.HTML for Java ライブラリをダウンロードしてプロジェクトに統合します。最新バージョンは、[Aspose リリース ページ](https://releases.aspose.com/html/java/).
-3. 統合開発環境 (IDE): IntelliJ IDEA や Eclipse などの優れた IDE を使用すると、コーディング作業がスムーズになります。IDE が設定され、Java プロジェクトを管理できる状態であることを確認してください。
-4. Java の基礎知識: このチュートリアルは初心者向けですが、Java の基礎を理解しておくと、概念をより効果的に理解できるようになります。
+1. **Java Development Kit (JDK)** – JDK 8 以降。[Oracle のウェブサイト](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)からダウンロードしてください。  
+2. **Aspose.HTML for Java ライブラリ** – 最新の JAR を [Aspose リリースページ](https://releases.aspose.com/html/java/) から取得。  
+3. **IDE** – IntelliJ IDEA、Eclipse、または任意の Java 対応 IDE。  
+4. **基本的な Java 知識** – クラス、継承、インターフェイスに慣れていること。
+
 ## パッケージのインポート
-まず、必要なパッケージを Java プロジェクトにインポートします。これらのパッケージは、カスタム スキーマ メッセージ フィルターを実装するために不可欠です。
+まず、Java プロジェクトに必要なパッケージをインポートします。これらはカスタムスキーマ メッセージ フィルタを実装するために必須です。
+
 ```java
 import com.aspose.html.net.INetworkOperationContext;
 import com.aspose.html.net.MessageFilter;
 ```
-これらのインポートには、使用するコア クラスが含まれます。`MessageFilter`カスタムフィルターを作成するための`INetworkOperationContext`ネットワーク操作の詳細にアクセスします。
-## ステップ 1: カスタム スキーマ メッセージ フィルター クラスを作成する
-まずは、`MessageFilter`クラス。このカスタム クラスを使用すると、特定のスキーマに基づいてフィルタリング ロジックを定義できます。
+
+これらのインポートには、カスタムフィルタ作成に使用する `MessageFilter` と、ネットワーク操作の詳細にアクセスするための `INetworkOperationContext` が含まれます。
+
+## 手順 1: カスタムスキーマ メッセージ フィルタ クラスの作成
+`MessageFilter` クラスを継承したクラスを作成します。このカスタムクラスで、特定スキーマに基づくフィルタリングロジックを定義します。
+
 ```java
 public class CustomSchemaMessageFilter extends MessageFilter {
     private final String schema;
@@ -38,9 +59,12 @@ public class CustomSchemaMessageFilter extends MessageFilter {
     }
 }
 ```
-このステップでは、`CustomSchemaMessageFilter`クラスを作成し、スキーマ値で初期化します。スキーマは、このクラスのインスタンスを作成するときにコンストラクターに渡されます。この値は、後で受信リクエストのプロトコルを一致させるために使用されます。
-## ステップ2: 上書きする`match` Method
-フィルタリングロジックの核心は、`match`メソッドをオーバーライドする必要があります。このメソッドは、特定のネットワーク要求が定義したカスタム スキーマと一致するかどうかを判断します。
+
+このステップでは、`CustomSchemaMessageFilter` クラスを定義し、コンストラクタでスキーマ値を受け取ります。この値は、後で受信リクエストのプロトコルと照合するために使用されます。
+
+## 手順 2: `match` メソッドのオーバーライド
+フィルタリングロジックの核心は `match` メソッドです。ここでネットワーク要求がカスタムスキーマに合致するかどうかを判定します。
+
 ```java
 @Override
 public boolean match(INetworkOperationContext context) {
@@ -48,33 +72,42 @@ public boolean match(INetworkOperationContext context) {
     return (schema + ":").equals(protocol);
 }
 ```
-このメソッドでは、リクエストのURIからプロトコルを抽出し、カスタムスキーマと比較します。一致した場合、メソッドは以下を返します。`true`は、リクエストがフィルタを通過したことを示します。そうでない場合は、`false`.
-## ステップ3: カスタムフィルターをインスタンス化して使用する
-カスタム フィルター クラスを定義したら、次のステップではそのインスタンスを作成し、アプリケーション内で使用します。
+
+このメソッドでは、要求の URI からプロトコルを取得し、カスタムスキーマと比較します。一致すれば `true` を返し、フィルタを通過させます。そうでなければ `false` を返します。
+
+## 手順 3: カスタムフィルタのインスタンス化と使用
+カスタムフィルタクラスを定義したら、インスタンスを作成し、アプリケーション内で使用します。
+
 ```java
 CustomSchemaMessageFilter filter = new CustomSchemaMessageFilter("https");
 ```
-ここで、新しいインスタンスを作成します。`CustomSchemaMessageFilter`クラスを作成し、必要なスキーマ (この場合は「https」) をコンストラクターに渡します。このインスタンスは、HTTPS プロトコルに基づいてリクエストをフィルター処理するようになります。
-## ステップ4: アプリケーションにフィルターを適用する
-フィルターの準備ができたので、次はそれをアプリケーションのネットワーク操作に統合します。
+
+ここでは、`CustomSchemaMessageFilter` の新しいインスタンスを作成し、コンストラクタに `"https"`（この例では HTTPS）を渡しています。このインスタンスは HTTPS プロトコルに基づいてリクエストをフィルタします。
+
+## 手順 4: アプリケーションへのフィルタ適用
+フィルタが準備できたら、アプリケーションのネットワーク操作に組み込みます。
+
 ```java
-// 「context」がINetworkOperationContextのインスタンスであると仮定します
+// Assuming 'context' is an instance of INetworkOperationContext
 if (filter.match(context)) {
-    //リクエストはカスタムスキーマと一致します
+    // The request matches the custom schema
     System.out.println("Request passed the filter.");
 } else {
-    //リクエストがカスタムスキーマと一致しません
+    // The request does not match the custom schema
     System.out.println("Request blocked by the filter.");
 }
 ```
-このステップでは、`match`受信したネットワーク要求がカスタム スキーマに準拠しているかどうかを確認する方法。結果に応じて、要求を許可またはブロックできます。
-## ステップ5: カスタムフィルターのテスト
-テストは、あらゆる開発プロセスの重要な部分です。カスタム スキーマ メッセージ フィルターが期待どおりに動作することを確認するには、さまざまなシナリオをシミュレートする必要があります。
+
+このステップでは、`match` メソッドを呼び出して、受信したネットワーク要求がカスタムスキーマに合致しているか確認します。結果に応じて、要求を許可またはブロックします。
+
+## 手順 5: カスタムフィルタのテスト
+テストは開発プロセスの重要な部分です。さまざまなシナリオをシミュレートし、カスタムスキーマ メッセージ フィルタが期待通りに動作することを確認します。
+
 ```java
 public class TestCustomSchemaMessageFilter {
     public static void main(String[] args) {
         CustomSchemaMessageFilter filter = new CustomSchemaMessageFilter("https");
-        //シミュレートされたネットワーク操作コンテキスト
+        // Simulated network operation context
         INetworkOperationContext context = new MockNetworkOperationContext("https");
         if (filter.match(context)) {
             System.out.println("Test passed: HTTPS request allowed.");
@@ -84,23 +117,44 @@ public class TestCustomSchemaMessageFilter {
     }
 }
 ```
-これは、モック コンテキストを使用してネットワーク リクエストをシミュレートする簡単なテスト ケースです。このテストでは、フィルターが HTTPS リクエストを正しく識別して許可するかどうかを確認します。
+
+このシンプルなテストケースは、`"https"` プロトコルを使用しているかのように振る舞うモックネットワークコンテキストを作成します。テストは、フィルタが HTTPS リクエストを正しく識別し、許可できることを検証します。
+
+## よくある問題と解決策
+- **`NullPointerException` が `context.getRequest()` で発生** – `INetworkOperationContext` に実際にリクエストオブジェクトが含まれていることを確認してください。  
+- **フィルタがトリガーされない** – フィルタが Aspose.HTML の処理パイプラインに登録されているか確認します（例: `Browser` や `HtmlRenderer` インスタンス作成時）。  
+- **複数スキーマが必要** – `match` メソッドを修正し、許可するスキーマのリストまたはセットと照合するようにしてください。
+
 ## 結論
-このチュートリアルでは、Aspose.HTML for Java を使用してカスタム スキーマ メッセージ フィルターを作成する手順について説明しました。これらの手順に従うことで、特定の要件に一致するネットワーク要求のみを処理するようにアプリケーションをカスタマイズできます。この機能は、アプリケーションが対話するプロトコルの種類に関して厳格なルールを適用する必要がある場合に特に役立ちます。セキュリティ、パフォーマンス、コンプライアンスのいずれの理由でフィルター処理する場合でも、このアプローチは Java アプリケーションでネットワーク通信を制御する強力な方法を提供します。
-## よくある質問
-### Aspose.HTML for Java とは何ですか?
-Aspose.HTML for Java は、Java アプリケーション内で HTML ドキュメントを操作およびレンダリングするための強力な API です。HTML、CSS、SVG ファイルの操作に広範な機能を提供します。
-### カスタム スキーマ メッセージ フィルターが必要なのはなぜですか?
-カスタム スキーマ メッセージ フィルターを使用すると、特定のプロトコルに基づいて、アプリケーションが処理するネットワーク要求を制御できます。これにより、セキュリティ、パフォーマンス、およびアプリケーションの要件への準拠を強化できます。
-### 1 つのフィルターで複数のスキーマをフィルターできますか?
-はい、延長できます`match`メソッド内で複数の条件をチェックすることで複数のスキーマを処理するメソッド。
-### Aspose.HTML for Java はすべての Java バージョンと互換性がありますか?
-Aspose.HTML for Java は JDK 8 以降のバージョンと互換性があります。最適なパフォーマンスを得るには、常にサポートされているバージョンを使用していることを確認してください。
-### Aspose.HTML for Java のサポートを受けるにはどうすればよいですか?
-サポートは以下からアクセスできます。[Aspose サポート フォーラム](https://forum.aspose.com/c/html/29)では、コミュニティや Aspose 開発者から質問したりサポートを受けたりすることができます。
+本チュートリアルでは、Aspose.HTML for Java を使用してカスタムスキーマ メッセージ フィルタを作成し、**HTML のフィルタリング** を実現する方法を解説しました。これらの手順に従うことで、アプリケーションが特定の要件に合致したネットワーク要求のみを処理するようカスタマイズできます。セキュリティ、パフォーマンス、コンプライアンスの観点から、プロトコル種別を厳密に制御したい場面で特に有用です。
+
+## FAQ's
+### Aspose.HTML for Java とは？
+Aspose.HTML for Java は、Java アプリケーション内で HTML ドキュメントの操作やレンダリングを行うための強力な API です。HTML、CSS、SVG ファイルの取り扱いに幅広い機能を提供します。
+
+### カスタムスキーマ メッセージ フィルタはなぜ必要ですか？
+カスタムスキーマ メッセージ フィルタを使用すると、アプリケーションが処理するネットワーク要求を特定のプロトコルに基づいて制御でき、セキュリティ、パフォーマンス、コンプライアンスの向上につながります。
+
+### 1 つのフィルタで複数スキーマをフィルタできますか？
+はい、`match` メソッドを拡張して複数条件をチェックすれば、複数のスキーマを同時に扱うことが可能です。
+
+### Aspose.HTML for Java はすべての Java バージョンに対応していますか？
+Aspose.HTML for Java は JDK 8 以降に対応しています。最適なパフォーマンスを得るために、サポート対象のバージョンを使用してください。
+
+### Aspose.HTML for Java のサポートはどこで受けられますか？
+[Aspose サポートフォーラム](https://forum.aspose.com/c/html/29) で質問を投稿すれば、コミュニティや Aspose の開発者から支援を受けられます。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**最終更新日:** 2026-01-28  
+**テスト環境:** Aspose.HTML for Java 24.11（執筆時点での最新）  
+**作者:** Aspose  
+
+---

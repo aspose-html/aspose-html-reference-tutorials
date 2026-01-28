@@ -1,35 +1,58 @@
 ---
-title: Niestandardowe filtrowanie komunikatów schematu w Aspose.HTML dla Java
-linktitle: Niestandardowe filtrowanie komunikatów schematu w Aspose.HTML dla Java
-second_title: Przetwarzanie HTML w Javie za pomocą Aspose.HTML
-description: Dowiedz się, jak zaimplementować niestandardowy filtr komunikatów schematu w Javie przy użyciu Aspose.HTML. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać bezpieczne, dostosowane środowisko aplikacji.
-weight: 10
+date: 2026-01-28
+description: Dowiedz się, jak filtrować HTML, implementując własny filtr wiadomości
+  schematu w Javie przy użyciu Aspose.HTML. Postępuj zgodnie z tym przewodnikiem krok
+  po kroku, aby uzyskać bezpieczne, dostosowane do potrzeb doświadczenie aplikacji.
+linktitle: Custom Schema Message Filtering in Aspose.HTML
+second_title: Java HTML Processing with Aspose.HTML
+title: Jak filtrować HTML przy użyciu własnego filtru schematu (Java)
 url: /pl/java/custom-schema-message-handling/custom-schema-message-filter/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Niestandardowe filtrowanie komunikatów schematu w Aspose.HTML dla Java
+# Filtrowanie wiadomości schematu niestandardowego w Aspose.HTML for Java
 
-## Wstęp
- Tworzenie niestandardowych rozwiązań, które odpowiadają konkretnym potrzebom, często wymaga dogłębnego zapoznania się z dostępnymi narzędziami i bibliotekami. Podczas pracy z dokumentami HTML w Javie, Aspose.HTML for Java API oferuje bogactwo funkcjonalności, które można dostosować do swoich potrzeb. Jedno z takich dostosowań obejmuje filtrowanie wiadomości na podstawie niestandardowego schematu przy użyciu`MessageFilter`class. W tym przewodniku przeprowadzimy Cię przez proces implementacji niestandardowego filtra komunikatów schematu przy użyciu Aspose.HTML dla Java. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz, ten samouczek pomoże Ci stworzyć solidny mechanizm filtrowania dostosowany do konkretnych wymagań Twojej aplikacji.
+## Wprowadzenie
+Tworzenie rozwiązań dostosowanych do konkretnych potrzeb często wymaga głębokiego zanurzenia się w dostępne narzędzia i biblioteki. Pracując z dokumentami HTML w Javie, API Aspose.HTML for Java oferuje bogactwo funkcjonalności, które można dostosować do własnych wymagań. Jedną z takich modyfikacji jest **sposób filtrowania HTML** na podstawie własnego schematu przy użyciu klasy `MessageFilter`. W tym przewodniku przeprowadzimy Cię krok po kroku przez proces implementacji własnego filtru wiadomości schematu przy użyciu Aspose.HTML for Java. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz, ten tutorial pomoże Ci stworzyć solidny mechanizm filtrowania dopasowany do specyficznych wymagań Twojej aplikacji.
+
+## Szybkie odpowiedzi
+- **Co robi filtr?** Zezwala tylko na żądania sieciowe, które pasują do określonego schematu (np. https), aby przejść dalej.  
+- **Którą klasę należy rozszerzyć?** `MessageFilter`.  
+- **Czy potrzebna jest licencja?** Tak, do użytku produkcyjnego wymagana jest ważna licencja Aspose.HTML for Java.  
+- **Czy mogę filtrować wiele schematów?** Tak – rozszerz metodę `match` o dodatkową logikę.  
+- **Jaka wersja Javy jest wymagana?** JDK 8 lub nowsza.
+
+## Co oznacza „sposób filtrowania HTML” w tym kontekście?
+Filtrowanie HTML w tym miejscu oznacza przechwytywanie operacji sieciowych wykonywanych przez Aspose.HTML i zezwalanie lub blokowanie ich w zależności od protokołu (schematu) żądania. Daje to precyzyjną kontrolę nad tym, do jakich zasobów Twój silnik przetwarzania HTML może uzyskać dostęp.
+
+## Dlaczego warto używać własnego filtru schematu?
+- **Bezpieczeństwo** – Zapobiega dostępowi do niepożądanych protokołów (np. `ftp`).  
+- **Wydajność** – Redukuje niepotrzebny ruch sieciowy poprzez blokowanie nieistotnych żądań.  
+- **Zgodność** – Wymusza polityki korporacyjne, które zezwalają tylko na określone schematy.
+
 ## Wymagania wstępne
-Zanim zaczniesz pisać kod, upewnij się, że spełnione są następujące wymagania wstępne:
-1.  Java Development Kit (JDK): Upewnij się, że masz zainstalowany JDK 8 lub nowszy w swoim systemie. Najnowszą wersję możesz pobrać ze strony[Strona internetowa Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2.  Aspose.HTML for Java Library: Pobierz i zintegruj bibliotekę Aspose.HTML for Java ze swoim projektem. Najnowszą wersję możesz uzyskać ze strony[Strona wydań Aspose](https://releases.aspose.com/html/java/).
-3. Zintegrowane środowisko programistyczne (IDE): Dobre IDE, takie jak IntelliJ IDEA lub Eclipse, sprawi, że Twoje doświadczenie kodowania będzie płynniejsze. Upewnij się, że Twoje IDE jest skonfigurowane i gotowe do zarządzania projektami Java.
-4. Podstawowa wiedza na temat języka Java: Choć ten samouczek jest przyjazny dla początkujących, podstawowa znajomość języka Java pomoże Ci skuteczniej zrozumieć omawiane koncepcje.
-## Importuj pakiety
-Na początek zaimportuj niezbędne pakiety do swojego projektu Java. Te pakiety są niezbędne do zaimplementowania niestandardowego schematu filtru wiadomości.
+1. **Java Development Kit (JDK)** – JDK 8 lub nowszy. Pobierz go ze [strony Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).  
+2. **Aspose.HTML for Java Library** – Pobierz najnowszy plik JAR ze [strony wydań Aspose](https://releases.aspose.com/html/java/).  
+3. **IDE** – IntelliJ IDEA, Eclipse lub dowolne IDE kompatybilne z Javą.  
+4. **Podstawowa znajomość Javy** – Znajomość klas, dziedziczenia i interfejsów.
+
+## Importowanie pakietów
+Aby rozpocząć, zaimportuj niezbędne pakiety do swojego projektu Java. Pakiety te są kluczowe dla implementacji własnego filtru wiadomości schematu.
+
 ```java
 import com.aspose.html.net.INetworkOperationContext;
 import com.aspose.html.net.MessageFilter;
 ```
- Te importy obejmują podstawowe klasy, których będziesz używać:`MessageFilter` do tworzenia własnego filtra i`INetworkOperationContext` w celu uzyskania dostępu do szczegółów działania sieci.
-## Krok 1: Utwórz niestandardową klasę filtru komunikatów schematu
- Zacznijmy od utworzenia klasy rozszerzającej`MessageFilter` Klasa. Ta niestandardowa klasa pozwoli Ci zdefiniować logikę filtrowania na podstawie określonego schematu.
+
+Importy te obejmują podstawowe klasy, z których będziesz korzystać: `MessageFilter` do tworzenia własnego filtru oraz `INetworkOperationContext` do uzyskiwania szczegółów operacji sieciowych.
+
+## Krok 1: Utworzenie klasy własnego filtru wiadomości schematu
+Zacznijmy od stworzenia klasy, która rozszerza klasę `MessageFilter`. Ta niestandardowa klasa pozwoli Ci zdefiniować logikę filtrowania opartą na określonym schemacie.
+
 ```java
 public class CustomSchemaMessageFilter extends MessageFilter {
     private final String schema;
@@ -38,9 +61,12 @@ public class CustomSchemaMessageFilter extends MessageFilter {
     }
 }
 ```
- W tym kroku definiujesz`CustomSchemaMessageFilter` class i zainicjowanie jej wartością schema. Schemat jest przekazywany do konstruktora podczas tworzenia instancji tej klasy. Ta wartość zostanie użyta później do dopasowania protokołu przychodzących żądań.
-##  Krok 2: Zastąp`match` Method
- Podstawą logiki filtrowania jest`match`metodę, którą musisz zastąpić. Ta metoda określi, czy konkretne żądanie sieciowe pasuje do zdefiniowanego przez Ciebie schematu niestandardowego.
+
+W tym kroku definiujesz klasę `CustomSchemaMessageFilter` i inicjalizujesz ją wartością schematu. Schemat jest przekazywany do konstruktora podczas tworzenia instancji tej klasy. Wartość ta będzie później używana do dopasowywania protokołu przychodzących żądań.
+
+## Krok 2: Nadpisanie metody `match`
+Rdzeń logiki filtrowania znajduje się w metodzie `match`, którą musisz nadpisać. Metoda ta określi, czy konkretne żądanie sieciowe pasuje do zdefiniowanego przez Ciebie schematu.
+
 ```java
 @Override
 public boolean match(INetworkOperationContext context) {
@@ -48,33 +74,42 @@ public boolean match(INetworkOperationContext context) {
     return (schema + ":").equals(protocol);
 }
 ```
- W tej metodzie wyodrębniasz protokół z URI żądania i porównujesz go ze swoim niestandardowym schematem. Jeśli są zgodne, metoda zwraca`true` , wskazując, że żądanie przechodzi przez filtr; w przeciwnym razie zwraca`false`.
-## Krok 3: Utwórz instancję i użyj niestandardowego filtra
-Po zdefiniowaniu niestandardowej klasy filtra następnym krokiem jest utworzenie jej instancji i użycie jej w aplikacji.
+
+W tej metodzie wyodrębniasz protokół z URI żądania i porównujesz go z własnym schematem. Jeśli się zgadzają, metoda zwraca `true`, co oznacza, że żądanie przechodzi filtr; w przeciwnym razie zwraca `false`.
+
+## Krok 3: Instancjonowanie i użycie własnego filtru
+Po zdefiniowaniu klasy własnego filtru, następnym krokiem jest utworzenie jej instancji i użycie w aplikacji.
+
 ```java
 CustomSchemaMessageFilter filter = new CustomSchemaMessageFilter("https");
 ```
- Tutaj tworzysz nową instancję`CustomSchemaMessageFilter` klasa, przekazując pożądany schemat (w tym przypadku „https”) do konstruktora. Ta instancja będzie teraz filtrować żądania na podstawie protokołu HTTPS.
-## Krok 4: Zastosuj filtr w swojej aplikacji
-Teraz, gdy filtr jest już gotowy, czas zintegrować go z operacjami sieciowymi aplikacji.
+
+Tutaj tworzysz nową instancję klasy `CustomSchemaMessageFilter`, przekazując żądany schemat (w tym przypadku `"https"`) do konstruktora. Ta instancja będzie teraz filtrować żądania na podstawie protokołu HTTPS.
+
+## Krok 4: Zastosowanie filtru w aplikacji
+Gdy filtr jest już gotowy, czas włączyć go do operacji sieciowych Twojej aplikacji.
+
 ```java
-// Zakładając, że „kontekst” jest instancją INetworkOperationContext
+// Assuming 'context' is an instance of INetworkOperationContext
 if (filter.match(context)) {
-    //Żądanie jest zgodne ze schematem niestandardowym
+    // The request matches the custom schema
     System.out.println("Request passed the filter.");
 } else {
-    // Żądanie nie pasuje do schematu niestandardowego
+    // The request does not match the custom schema
     System.out.println("Request blocked by the filter.");
 }
 ```
- W tym kroku używasz`match` metoda sprawdzania, czy przychodzące żądanie sieciowe jest zgodne ze schematem niestandardowym. W zależności od wyniku możesz zezwolić na żądanie lub je zablokować.
-## Krok 5: Testowanie filtra niestandardowego
-Testowanie jest kluczową częścią każdego procesu rozwoju. Będziesz musiał symulować różne scenariusze, aby upewnić się, że Twój niestandardowy filtr wiadomości schematu działa zgodnie z oczekiwaniami.
+
+W tym kroku używasz metody `match`, aby sprawdzić, czy przychodzące żądanie sieciowe spełnia warunek własnego schematu. W zależności od wyniku możesz zezwolić na żądanie lub je zablokować.
+
+## Krok 5: Testowanie własnego filtru
+Testowanie jest kluczową częścią każdego procesu programistycznego. Musisz zasymulować różne scenariusze, aby upewnić się, że Twój własny filtr wiadomości schematu działa zgodnie z oczekiwaniami.
+
 ```java
 public class TestCustomSchemaMessageFilter {
     public static void main(String[] args) {
         CustomSchemaMessageFilter filter = new CustomSchemaMessageFilter("https");
-        // Symulowany kontekst działania sieci
+        // Simulated network operation context
         INetworkOperationContext context = new MockNetworkOperationContext("https");
         if (filter.match(context)) {
             System.out.println("Test passed: HTTPS request allowed.");
@@ -84,23 +119,44 @@ public class TestCustomSchemaMessageFilter {
     }
 }
 ```
-To prosty przypadek testowy, w którym symulujesz żądanie sieciowe za pomocą pozorowanego kontekstu. Test sprawdza, czy filtr poprawnie identyfikuje i zezwala na żądania HTTPS.
-## Wniosek
-tym samouczku przeprowadziliśmy proces tworzenia niestandardowego filtra komunikatów schematu przy użyciu Aspose.HTML dla języka Java. Wykonując te kroki, możesz dostosować swoją aplikację do przetwarzania tylko żądań sieciowych, które spełniają Twoje specyficzne wymagania. Ta możliwość jest szczególnie przydatna, gdy musisz wymusić ścisłe reguły dotyczące typów protokołów, z którymi współpracuje Twoja aplikacja. Niezależnie od tego, czy filtrujesz ze względów bezpieczeństwa, wydajności czy zgodności, to podejście oferuje potężny sposób kontrolowania komunikacji sieciowej w aplikacjach Java.
-## Najczęściej zadawane pytania
-### Czym jest Aspose.HTML dla Java?
-Aspose.HTML for Java to solidny interfejs API do manipulowania i renderowania dokumentów HTML w aplikacjach Java. Oferuje rozbudowane funkcje do pracy z plikami HTML, CSS i SVG.
-### Dlaczego potrzebuję niestandardowego schematu filtrowania wiadomości?
-Filtr wiadomości niestandardowego schematu pozwala kontrolować, które żądania sieciowe przetwarza Twoja aplikacja, na podstawie określonych protokołów. Może to zwiększyć bezpieczeństwo, wydajność i zgodność z wymaganiami Twojej aplikacji.
-### Czy mogę filtrować wiele schematów za pomocą jednego filtra?
- Tak, możesz przedłużyć`match` metoda obsługi wielu schematów poprzez sprawdzanie wielu warunków w ramach metody.
-### Czy Aspose.HTML for Java jest kompatybilny ze wszystkimi wersjami Java?
-Aspose.HTML dla Java jest zgodny z JDK 8 i nowszymi wersjami. Zawsze upewnij się, że używasz obsługiwanej wersji, aby uzyskać optymalną wydajność.
-### Jak uzyskać pomoc techniczną dotyczącą Aspose.HTML dla Java?
- Dostęp do pomocy technicznej można uzyskać za pośrednictwem[Forum wsparcia Aspose](https://forum.aspose.com/c/html/29), gdzie możesz zadać pytania i uzyskać pomoc od społeczności oraz programistów Aspose.
+
+Ten prosty przypadek testowy tworzy mockowy kontekst sieciowy, który udaje użycie protokołu `"https"`. Test weryfikuje, że filtr poprawnie rozpoznaje i dopuszcza żądania HTTPS.
+
+## Typowe problemy i rozwiązania
+- **`NullPointerException` przy `context.getRequest()`** – Upewnij się, że przekazywany `INetworkOperationContext` rzeczywiście zawiera obiekt żądania.  
+- **Filtr nie jest wywoływany** – Sprawdź, czy filtr został zarejestrowany w potoku przetwarzania Aspose.HTML (np. przy tworzeniu instancji `Browser` lub `HtmlRenderer`).  
+- **Potrzebne jest obsłużenie wielu schematów** – Zmodyfikuj metodę `match`, aby sprawdzała listę lub zestaw dozwolonych schematów.
+
+## Zakończenie
+W tym tutorialu przeszliśmy przez **sposób filtrowania HTML** poprzez stworzenie własnego filtru wiadomości schematu przy użyciu Aspose.HTML for Java. Postępując zgodnie z tymi krokami, możesz dostosować swoją aplikację tak, aby przetwarzała jedynie żądania sieciowe spełniające określone wymagania. Ta możliwość jest szczególnie przydatna, gdy musisz wymusić ścisłe zasady dotyczące typów protokołów, z którymi Twoja aplikacja współpracuje — zarówno ze względów bezpieczeństwa, wydajności, jak i zgodności.
+
+## FAQ's
+### Co to jest Aspose.HTML for Java?
+Aspose.HTML for Java to solidne API do manipulacji i renderowania dokumentów HTML w aplikacjach Java. Oferuje rozbudowane funkcje pracy z plikami HTML, CSS i SVG.
+
+### Dlaczego miałbym potrzebować własnego filtru wiadomości schematu?
+Własny filtr wiadomości schematu pozwala kontrolować, które żądania sieciowe są przetwarzane przez Twoją aplikację, w oparciu o określone protokoły. Może to zwiększyć bezpieczeństwo, wydajność oraz zapewnić zgodność z wymaganiami aplikacji.
+
+### Czy mogę filtrować wiele schematów jednym filtrem?
+Tak, możesz rozszerzyć metodę `match`, aby obsługiwała wiele schematów, sprawdzając kilka warunków w jej wnętrzu.
+
+### Czy Aspose.HTML for Java jest kompatybilny ze wszystkimi wersjami Javy?
+Aspose.HTML for Java jest kompatybilny z JDK 8 i nowszymi wersjami. Zawsze upewnij się, że używasz wspieranej wersji, aby uzyskać optymalną wydajność.
+
+### Jak uzyskać wsparcie dla Aspose.HTML for Java?
+Wsparcie możesz uzyskać poprzez [forum wsparcia Aspose](https://forum.aspose.com/c/html/29), gdzie możesz zadawać pytania i otrzymywać pomoc od społeczności oraz deweloperów Aspose.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Ostatnia aktualizacja:** 2026-01-28  
+**Testowano z:** Aspose.HTML for Java 24.11 (najnowsza w momencie pisania)  
+**Autor:** Aspose  
+
+---
