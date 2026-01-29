@@ -44,7 +44,7 @@ url: /el/net/advanced-features/
 Μάθετε πώς να μετατρέπετε HTML σε PDF, XPS και εικόνες με το Aspose.HTML για .NET. Βήμα προς βήμα μάθημα με παραδείγματα κώδικα και συχνές ερωτήσεις.
 ### [Χρήση προτύπων HTML σε .NET με Aspose.HTML](./using-html-templates/)
 Μάθετε πώς να χρησιμοποιείτε το Aspose.HTML για .NET για τη δυναμική δημιουργία εγγράφων HTML από δεδομένα JSON. Αξιοποιήστε τη δύναμη του χειρισμού HTML στις εφαρμογές σας .NET.
-
+### [Πώς να συνδυάσετε γραμματοσειρές προγραμματιστικά σε C# – Οδηγός βήμα‑βήμα](./how-to-combine-fonts-programmatically-in-c-step-by-step-guid/)
 
 ## Σύναψη
 

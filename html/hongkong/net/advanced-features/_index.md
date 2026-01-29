@@ -44,7 +44,8 @@ Aspose.HTML for .NET 是一個功能強大的工具，可讓開發人員以程�
 了解如何使用 Aspose.HTML for .NET 將 HTML 轉換為 PDF、XPS 和映像。包含程式碼範例和常見問題的逐步教學。
 ### [在 .NET 中透過 Aspose.HTML 使用 HTML 模板](./using-html-templates/)
 了解如何使用 Aspose.HTML for .NET 從 JSON 資料動態產生 HTML 文件。在 .NET 應用程式中利用 HTML 操作的強大功能。
-
+### [如何在 C# 中以程式方式合併字型 – 步驟指南](./how-to-combine-fonts-programmatically-in-c-step-by-step-guid/)
+本指南逐步說明如何在 C# 中使用程式碼合併多個字型檔案，打造自訂字型資源。
 
 ## 結論
 

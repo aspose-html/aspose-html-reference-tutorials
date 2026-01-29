@@ -88,18 +88,9 @@ A: 可將轉換邏輯包在迴圈中，並重複使用單一的 `HtmlDocument` �
 **測試環境：** Aspose.HTML for Java 24.10  
 **作者：** Aspose
 
-## 常見問題
-**Q: 如何在 Java 網頁應用程式中將 EPUB 轉換為 PDF？**  
-A: 從 `InputStream` 載入 EPUB，使用相同的 API 進行轉換，然後直接將 PDF 寫入 HTTP 回應的輸出串流。  
+{{< /blocks/products/pf/tutorial-page-section >}}
 
-**Q: 能夠轉換受保護的 EPUB 檔案嗎？**  
-A: 可以，請透過 `HtmlLoadOptions.setPassword("yourPassword")` 提供解密密碼。  
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
 
-**Q: Aspose.HTML 是否支援 EPUB 3 功能？**  
-A: 完全支援 EPUB 3，包括音訊、影片與互動元素。  
-
-**Q: `convert epub to pdf` 與 `convert epub to image` 有何差異？**  
-A: PDF 保留文件的流式結構與可選取文字，而圖像轉換會將每頁光柵化，適合用於縮圖或預覽圖像。  
-
-**Q: 有沒有方法批次處理多個 EPUB 檔案？**  
-A: 可將轉換邏輯包在迴圈中，並重複使用單一的 `HtmlDocument` 實例以提升效能。  
+{{< blocks/products/products-backtop-button >}}

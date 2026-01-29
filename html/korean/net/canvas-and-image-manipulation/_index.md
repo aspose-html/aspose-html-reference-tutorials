@@ -43,6 +43,8 @@ Aspose.HTML을 사용하여 .NET에서 SVG를 이미지로 변환합니다. 개�
 Aspose.HTML for .NET을 사용하여 SVG를 PDF로 변환하는 방법을 알아보세요. 효율적인 문서 처리를 위한 고품질의 단계별 튜토리얼입니다.
 ### [Aspose.HTML을 사용하여 .NET에서 SVG를 XPS로 변환](./convert-svg-to-xps/)
 .NET용 Aspose.HTML을 사용하여 SVG를 XPS로 변환하는 방법을 알아보세요. 이 강력한 라이브러리로 웹 개발을 강화하세요.
+### [C#에서 안티앨리어싱 활성화하기 – 부드러운 가장자리](./how-to-enable-antialiasing-in-c-smooth-edges/)
+C#에서 안티앨리어싱을 적용하여 그래픽 가장자리를 부드럽게 만드는 방법을 단계별로 안내합니다.
 
 ## 결론
 

@@ -44,7 +44,8 @@ Konversi HTML ke PDF secara dinamis dengan Aspose.HTML untuk .NET. Integrasi yan
 Pelajari cara mengonversi HTML ke PDF, XPS, dan gambar dengan Aspose.HTML untuk .NET. Tutorial langkah demi langkah dengan contoh kode dan Tanya Jawab Umum.
 ### [Menggunakan Template HTML di .NET dengan Aspose.HTML](./using-html-templates/)
 Pelajari cara menggunakan Aspose.HTML untuk .NET guna membuat dokumen HTML secara dinamis dari data JSON. Manfaatkan kekuatan manipulasi HTML dalam aplikasi .NET Anda.
-
+### [Cara Menggabungkan Font Secara Programatis di C# – Panduan Langkah‑demi‑Langkah](./how-to-combine-fonts-programmatically-in-c-step-by-step-guid/)
+Pelajari cara menggabungkan beberapa font menjadi satu file menggunakan C# dengan Aspose.HTML, lengkap dengan contoh kode langkah demi langkah.
 
 ## Kesimpulan
 

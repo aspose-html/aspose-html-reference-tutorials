@@ -40,9 +40,11 @@ Ismerje meg, hogyan kezelheti a HTML-dokumentumokat az Aspose.HTML for .NET seg�
 ### [Konvertálja az SVG-t képpé a .NET-ben az Aspose.HTML segítségével](./convert-svg-to-image/)
 Konvertálja az SVG-t képekké .NET-ben az Aspose.HTML segítségével. Átfogó oktatóanyag fejlesztőknek. Könnyen átalakíthatja az SVG dokumentumokat JPEG, PNG, BMP és GIF formátumokká.
 ### [Konvertálja az SVG-t PDF-be .NET-ben az Aspose.HTML segítségével](./convert-svg-to-pdf/)
-Ismerje meg, hogyan konvertálhat SVG-t PDF-be az Aspose.HTML for .NET segítségével. Kiváló minőségű, lépésenkénti oktatóanyag a hatékony dokumentumfeldolgozáshoz.
+Ismerje meg, hogyan konvertálhat SVG-t PDF-be az Aspose.HTML for .NET segítségével. Kiváló minőségű, lépésről lépésre oktatóanyag a hatékony dokumentumfeldolgozáshoz.
 ### [Konvertálja az SVG-t XPS-re .NET-ben az Aspose.HTML segítségével](./convert-svg-to-xps/)
 Ismerje meg, hogyan konvertálhat SVG-t XPS-re az Aspose.HTML for .NET használatával. Fokozza fel webfejlesztését ezzel a hatékony könyvtárral.
+### [Hogyan engedélyezzük az antialiasingot C#-ban – Simább élek](./how-to-enable-antialiasing-in-c-smooth-edges/)
+Ismerje meg, hogyan aktiválhatja az antialiasingot C#-ban a simább grafikai elemek érdekében.
 
 ## Következtetés
 

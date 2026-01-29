@@ -1,42 +1,55 @@
 ---
-title: Java용 Aspose.HTML을 사용하여 SVG를 XPS로 변환
-linktitle: SVG를 XPS로 변환
-second_title: Aspose.HTML을 사용한 Java HTML 처리
-description: Java용 Aspose.HTML을 사용하여 SVG를 XPS로 변환하는 방법을 알아보세요. 매끄러운 변환을 위한 간단하고 단계별 가이드.
-weight: 16
+date: 2025-12-18
+description: Aspose.HTML for Java를 사용하여 SVG를 XPS로 변환하는 방법을 배워보세요. 이 가이드는 SVG를 XPS로
+  빠르고 쉽게 변환하는 방법을 보여줍니다.
+linktitle: Converting SVG to XPS
+second_title: Java HTML Processing with Aspose.HTML
+title: Aspose.HTML for Java를 사용하여 SVG를 XPS로 변환하는 방법
 url: /ko/java/conversion-html-to-other-formats/convert-svg-to-xps/
+weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java용 Aspose.HTML을 사용하여 SVG를 XPS로 변환
+# Aspose.HTML for Java를 사용하여 SVG를 XPS로 변환하기
 
+Java를 사용하여 **SVG를 XPS 형식으로 변환하는 방법**을 궁금해 하신다면, 바로 이곳이 맞습니다. 이 튜토리얼에서는 환경 설정부터 고품질 XPS 문서 생성까지 전체 과정을 단계별로 안내하므로, Aspose.HTML for Java로 **SVG를 변환하는 방법**을 빠르게 마스터할 수 있습니다.
 
-Scalable Vector Graphics(SVG) 파일을 XPS 형식으로 원활하게 변환하려는 경우 Aspose.HTML for Java가 강력한 솔루션을 제공합니다. 이 단계별 가이드는 Aspose.HTML의 Java 라이브러리를 사용하여 SVG를 XPS로 변환하는 과정을 안내합니다. 기술적 세부 사항을 살펴보기 전에 필요한 모든 것이 있는지 확인하고 전제 조건을 이해했는지 확인해 보겠습니다.
+## 빠른 답변
+- **필요한 라이브러리는?** Aspose.HTML for Java  
+- **맞춤 배경을 설정할 수 있나요?** 예, `XpsSaveOptions.setBackgroundColor` 사용  
+- **테스트에 라이선스가 필요합니까?** 평가용으로는 무료 체험판으로 충분하며, 실제 운영에는 라이선스가 필요합니다  
+- **지원되는 Java 버전은?** Java 8 이상  
+- **보통 변환 시간은?** 대부분의 SVG 파일은 몇 초 정도 소요됩니다  
 
-## 필수 조건
+## SVG를 XPS로 변환하는 방법 – 개요
+SVG를 XPS로 변환하면 인쇄, 보관 또는 XPS를 지원하는 다양한 플랫폼 간에 공유할 고정 레이아웃 문서가 필요할 때 유용합니다. Aspose.HTML API가 복잡한 작업을 처리하여 벡터 품질을 유지하고 배경 색상, 페이지 크기 등 출력 설정을 자유롭게 맞춤화할 수 있습니다.
 
-시작하기 전에 다음 사항이 준비되었는지 확인하세요.
+## 사전 요구 사항
 
-1. 자바 개발 환경
+시작하기 전에 다음 항목이 준비되어 있는지 확인하십시오:
 
- 컴퓨터에 Java 개발 환경이 설정되어 있어야 합니다. Java가 설치되어 있지 않으면 다음에서 최신 버전을 다운로드하여 설치하세요.[자바 웹사이트](https://www.oracle.com/java/technologies/javase-downloads.html).
+1. **Java 개발 환경**  
+   아직 설치하지 않았다면 최신 JDK를 [Java의 웹사이트](https://www.oracle.com/java/technologies/javase-downloads.html)에서 설치하십시오.
 
-2. Java용 Aspose.HTML
+2. **Aspose.HTML for Java**  
+   공식 사이트에서 라이브러리를 다운로드하십시오: [Aspose.HTML for Java](https://releases.aspose.com/html/java/).
 
-Java용 Aspose.HTML이 필요합니다. 아직 받지 못했다면 Aspose 웹사이트에서 다운로드할 수 있습니다. 방문[Java용 Aspose.HTML](https://releases.aspose.com/html/java/) 필요한 라이브러리를 얻으려면.
+3. **SVG 문서**  
+   디스크에 SVG 파일을 준비하고 전체 경로를 확인하십시오.
 
-3. SVG 문서
+이제 모든 준비가 끝났으니 실제 변환 단계로 들어가 보겠습니다.
 
-XPS로 변환하려는 SVG 문서가 있어야 합니다. 이 SVG 파일에 대한 경로가 있는지 확인하세요.
-
-이제 필수 구성 요소가 정리되었으므로 Java용 Aspose.HTML을 사용하여 SVG를 XPS로 변환하는 단계로 넘어가겠습니다.
+## 왜 SVG를 XPS로 변환해야 할까요?
+- **인쇄 준비 품질:** XPS는 벡터 데이터를 보존하여 어떤 해상도에서도 선명한 출력이 가능합니다.  
+- **크로스 플랫폼 일관성:** 호환 가능한 뷰어를 사용하면 Windows, macOS, Linux에서 XPS 파일이 동일하게 렌더링됩니다.  
+- **쉬운 통합:** 생성된 XPS는 보고서, 청구서 또는 고정 레이아웃이 필요한 모든 문서 워크플로에 삽입할 수 있습니다.
 
 ## 패키지 가져오기
 
-시작하려면 필요한 패키지를 Java 프로젝트로 가져옵니다. 이 단계는 Aspose.HTML 클래스와 메서드에 액세스하는 데 필수적입니다.
+시작하려면 Java 프로젝트에 필요한 클래스를 가져오십시오. 이렇게 하면 Aspose.HTML 변환 API에 접근할 수 있습니다.
 
 ```java
 import com.aspose.html.dom.svg.SVGDocument;
@@ -45,64 +58,74 @@ import com.aspose.html.drawing.Color;
 import com.aspose.html.converters.Converter;
 ```
 
-## 1단계: SVG 문서 로드
+## 단계 1: SVG 문서 로드
 
-먼저 SVG 파일을 로드하여 SVGDocument 인스턴스를 만듭니다.
+`SVGDocument` 인스턴스를 생성하고 소스 SVG 파일을 지정하십시오.
 
 ```java
 SVGDocument svgDocument = new SVGDocument("path-to-your-input.svg");
 ```
 
-## 2단계: XPS 변환 구성
+## 단계 2: XPS 변환 구성
 
-XpsSaveOptions를 초기화하고 필요에 따라 변환 설정을 사용자 정의합니다. 배경색과 같은 속성을 설정할 수 있습니다.
+`XpsSaveOptions`를 초기화하고 필요한 설정을 맞춤화하십시오. 예를 들어 배경 색상을 시안으로 변경할 수 있습니다.
 
 ```java
 XpsSaveOptions options = new XpsSaveOptions();
 options.setBackgroundColor(Color.getCyan());
 ```
 
-## 3단계: 출력 경로 정의
+> **전문가 팁:** 배경 색상을 설정하지 않으면 Aspose.HTML가 기본적으로 투명 배경을 사용합니다.
 
-변환된 XPS 파일을 저장할 경로를 지정하세요.
+## 단계 3: 출력 경로 정의
+
+변환된 XPS 파일을 저장할 위치를 지정하십시오.
 
 ```java
 String outputFile = "path-to-your-output.xps";
 ```
 
-## 4단계: SVG를 XPS로 변환
+## 단계 4: SVG를 XPS로 변환
 
-이제 Converter의 convertSVG 메서드를 호출하여 변환을 실행합니다. SVGDocument, 옵션 및 출력 파일 경로를 매개변수로 제공합니다.
+`Converter.convertSVG`를 한 번 호출하여 변환을 실행하십시오.
 
 ```java
 Converter.convertSVG(svgDocument, options, outputFile);
 ```
 
-## 결론
+메서드가 완료되면 지정한 위치에 완전하게 렌더링된 XPS 문서가 생성됩니다.
 
-이러한 간단한 단계를 통해 Aspose.HTML for Java를 사용하여 SVG 문서를 XPS 형식으로 손쉽게 변환할 수 있습니다. 이 강력한 라이브러리는 프로세스를 간소화하며 개발자에게 귀중한 도구입니다.
+## 일반적인 문제와 해결책
+
+| Issue | Explanation | Fix |
+|-------|-------------|-----|
+| **파일을 찾을 수 없음** | SVG 경로가 올바르지 않음 | 경로 문자열을 확인하고 파일이 존재하는지 확인하십시오. |
+| **지원되지 않는 SVG 기능** | 일부 고급 SVG 필터가 지원되지 않음 | SVG를 단순화하거나 복잡한 요소를 변환 전에 래스터화하십시오. |
+| **라이선스 오류** | 프로덕션 환경에서 유효한 라이선스 없이 라이브러리를 사용함 | 다음 코드를 사용하여 Aspose.HTML 라이선스 파일을 적용하십시오: `License license = new License(); license.setLicense("Aspose.HTML.Java.lic");` |
 
 ## 자주 묻는 질문
 
-### 질문 1: SVG는 무엇이고, 왜 XPS로 변환해야 하나요?
+**Q: 이 변환을 웹 애플리케이션에서 사용할 수 있나요?**  
+A: 물론입니다. 동일한 API가 서블릿 컨테이너와 Spring Boot 애플리케이션을 포함한 모든 Java 환경에서 작동합니다.
 
-A1: 확장 가능 벡터 그래픽(SVG)은 웹 그래픽에 사용되는 XML 기반 벡터 이미지 형식입니다. XPS(XML Paper Specification)는 문서를 공유하고 인쇄하는 안정적인 방법을 제공하는 고정 문서 형식입니다. SVG를 XPS로 변환하는 것은 인쇄 또는 기타 응용 프로그램을 위해 벡터 그래픽의 품질을 유지하려는 경우 필요할 수 있습니다.
+**Q: 변환 시 텍스트가 선택 가능한 상태로 보존되나요?**  
+A: 예, 원본 SVG의 벡터 텍스트가 결과 XPS 파일에서도 선택 가능하게 유지됩니다.
 
-### 질문 2: 배경색을 바꿔서 SVG를 XPS로 변환할 수 있나요?
+**Q: 지원되는 Java 버전은 무엇인가요?**  
+A: Aspose.HTML for Java는 Java 8 및 그 이후 버전을 지원합니다.
 
- A2: 네, 변환 과정에서 배경색을 사용자 지정할 수 있습니다. 가이드에 표시된 대로 다음을 사용할 수 있습니다.`options.setBackgroundColor` 원하는 배경색을 설정하는 방법입니다.
+**Q: 성능 저하 없이 처리할 수 있는 SVG 파일 크기는 어느 정도인가요?**  
+A: 라이브러리는 큰 파일도 처리하지만, 수백 MB 규모의 매우 복잡한 SVG는 더 많은 메모리가 필요할 수 있습니다. 변환 전에 SVG를 최적화하는 것을 권장합니다.
 
-### Q3: Java에서 Aspose.HTML을 사용하는 데 제한 사항이 있나요?
+**Q: 여러 SVG 파일을 일괄 변환할 수 있나요?**  
+A: 예, 파일 목록을 반복하면서 각 문서에 대해 `Converter.convertSVG`를 호출하면 됩니다.
 
-A3: Java용 Aspose.HTML은 강력한 라이브러리이지만, 프로젝트와의 호환성을 보장하기 위해 설명서와 시스템 요구 사항을 검토하는 것이 필수적입니다.
+---
 
-### 질문 4: Java용 Aspose.HTML에 대한 지원을 받으려면 어떻게 해야 하나요?
+**마지막 업데이트:** 2025-12-18  
+**테스트 환경:** Aspose.HTML for Java 24.12 (작성 시 최신 버전)  
+**작성자:** Aspose  
 
- A4: 문제가 발생하거나 도움이 필요한 경우 다음을 방문할 수 있습니다.[Aspose.HTML 포럼](https://forum.aspose.com/) 커뮤니티 지원을 원하시거나 Aspose 지원팀에 문의하세요.
-
-### Q5: 무료 체험판이 있나요?
-
- A5: 네, Aspose 웹사이트에서 Aspose.HTML for Java의 무료 평가판에 액세스할 수 있습니다. 방문[Aspose.HTML 무료 체험판](https://releases.aspose.com/) 시작하려면 클릭하세요.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
