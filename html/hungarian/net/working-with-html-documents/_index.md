@@ -35,6 +35,9 @@ Miután megértette az alapokat, mélyebbre ásunk az alkotás folyamatában. Eb
 ### [Dokumentum szerkesztése .NET-ben az Aspose.HTML segítségével](./editing-a-document/)
 
 Most emeljük tudását a következő szintre. A HTML-dokumentumok szerkesztése gyakori feladat a webfejlesztők számára, és az Aspose.HTML jelentősen leegyszerűsíti ezt a folyamatot. Ebben a részben a dokumentumok létrehozásával, manipulálásával és stílusával foglalkozunk. Felfedezi, hogyan javíthatja webtartalma megjelenését és funkcionalitását, hogy vonzóvá és felhasználóbaráttá tegye azt.
+
+### [HTML mentése C#-ban – Teljes útmutató egy egyéni erőforráskezelő használatával](./how-to-save-html-in-c-complete-guide-using-a-custom-resource/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
