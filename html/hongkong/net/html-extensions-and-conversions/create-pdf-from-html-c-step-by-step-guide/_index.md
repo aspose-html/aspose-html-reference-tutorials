@@ -32,8 +32,6 @@ url: /zh-hant/net/html-extensions-and-conversions/create-pdf-from-html-c-step-by
 
 在本教學中，我們將一步步示範完整、可直接執行的解決方案，說明如何 **將 HTML 轉換為 PDF**、**將 HTML 渲染為 PDF**，以及 **將 HTML 儲存為 PDF**，全部使用 Aspose.HTML for .NET 函式庫。我們也會示範如何 **設定 PDF 頁面尺寸** 為 A4，這是列印報告最常見的需求。沒有多餘的說明，只有實用的步驟，讓你今天就能直接複製貼上到專案中。
 
----
-
 ## 從 HTML 建立 PDF – 你將完成的內容
 
 閱讀完本篇文章後，你將擁有一個小型的 Console 應用程式，具備以下功能：
@@ -45,8 +43,6 @@ url: /zh-hant/net/html-extensions-and-conversions/create-pdf-from-html-c-step-by
 
 此程式碼相容 .NET 6+ 與最新的 Aspose.HTML 23.x 版本，未來也能保持相容性。若你使用較舊的執行環境，只需在專案檔中調整目標框架即可。
 
----
-
 ## 將 HTML 轉換為 PDF – 安裝 Aspose.HTML
 
 在撰寫程式碼之前，請先確定已在專案中加入 Aspose.HTML NuGet 套件：
@@ -56,8 +52,6 @@ dotnet add package Aspose.HTML
 ```
 
 > **專業小技巧：** 若需要特定版本，可使用 `--version` 參數，例如 `dotnet add package Aspose.HTML --version 23.11`。此套件已將所有必要的檔案打包，不需要額外的二進位或原生相依性。
-
----
 
 ## 將 HTML 渲染為 PDF – 載入文件
 
@@ -79,8 +73,6 @@ if (htmlDoc == null)
 ```
 
 > **為什麼這很重要：** 先載入文件可讓你檢查 DOM、注入自訂 CSS，或在渲染前替換缺少的資源。這同時也能把檔案 I/O 錯誤與 PDF 轉換步驟分離。
-
----
 
 ## 將 HTML 儲存為 PDF – 設定渲染選項
 
@@ -104,8 +96,6 @@ PDFRenderingOptions pdfRenderOptions = new PDFRenderingOptions
 
 > **邊緣情況：** 若在無頭 Linux CI 伺服器上省略 `UseHinting`，產生的 PDF 可能出現模糊字形。啟用 hinting 可在不影響效能的前提下解決此問題。
 
----
-
 ## 設定 PDF 頁面尺寸 – 渲染並儲存
 
 文件已載入且選項設定完成後，最後只需一行程式碼即可將 PDF 寫入磁碟：
@@ -128,8 +118,6 @@ Console.WriteLine("✅ PDF successfully created at YOUR_DIRECTORY/typography.pdf
 * A4 大小的頁面，除非你在 CSS 中加入 `@page` 規則，否則不會有額外邊距。
 
 若 PDF 顯示異常，請再次確認 HTML 中引用的字型是否已透過 `@font-face` 內嵌，或已安裝於執行轉換的機器上。
-
----
 
 ## 將 HTML 渲染為 PDF – 完整範例程式
 
@@ -172,8 +160,6 @@ namespace HtmlToPdfDemo
 
 > **備註：** 程式檔案開頭的 `using` 陳述式已引入 Aspose.HTML 所需的命名空間，涵蓋 HTML 處理與 PDF 渲染。無需額外的 `using System.IO;`，因為 `HTMLDocument.Save` 已抽象化檔案串流的操作。
 
----
-
 ## 將 HTML 轉換為 PDF – 常見變化與技巧
 
 | 情境 | 需要變更的地方 | 原因 |
@@ -183,16 +169,12 @@ namespace HtmlToPdfDemo
 | **高解析度圖片** | 確保來源 HTML 引用的圖片具備足夠 DPI；Aspose.HTML 會保留原始像素尺寸。 | 防止最終 PDF 中出現模糊的圖片。 |
 | **在 Windows Subsystem for Linux (WSL) 上執行** | 保持 `UseHinting = true`；在 WSL 中同樣適用，因為渲染引擎與平台無關。 | 確保不同環境下文字品質一致。 |
 
----
-
 ## 將 HTML 儲存為 PDF – 除錯清單
 
 1. **檔案路徑正確** – 相對路徑會以執行目錄 (`dotnet run` 於專案資料夾) 為基準解析。  
 2. **字型可取得** – 若使用自訂字型，請透過 `@font-face` 內嵌，或將 `.ttf` 檔案放在 HTML 同目錄下。  
 3. **權限** – 執行程序必須對輸出資料夾具備寫入權限。  
 4. **函式庫版本** – 使用過舊的 Aspose.HTML 可能缺少 `UseHinting` 參數，請升級至最新的 23.x 版。  
-
----
 
 ## 結論
 

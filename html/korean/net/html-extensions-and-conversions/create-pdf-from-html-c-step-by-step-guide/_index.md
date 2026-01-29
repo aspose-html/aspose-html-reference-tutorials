@@ -32,8 +32,6 @@ HTML에서 **PDF를 만들** 필요가 있었지만, 어느 라이브러리가 �
 
 이 튜토리얼에서는 **HTML을 PDF로 변환**, **HTML을 PDF로 렌더링**, 그리고 **HTML을 PDF로 저장**하는 완전한 실행 가능한 솔루션을 Aspose.HTML for .NET 라이브러리를 사용해 단계별로 살펴보겠습니다. 또한 가장 일반적인 인쇄용 보고서 요구사항인 A4 페이지 크기를 **PDF 페이지 크기**로 설정하는 방법도 보여드립니다. 불필요한 내용 없이 바로 프로젝트에 복사‑붙여넣기 할 수 있는 실용적인 가이드입니다.
 
----
-
 ## HTML에서 PDF 만들기 – 구축할 내용
 
 이 글을 끝까지 읽으면 다음과 같은 작은 콘솔 앱을 만들 수 있습니다:
@@ -45,8 +43,6 @@ HTML에서 **PDF를 만들** 필요가 있었지만, 어느 라이브러리가 �
 
 코드는 .NET 6+ 및 최신 Aspose.HTML 23.x 릴리스를 대상으로 하므로 미래에도 문제없이 사용할 수 있습니다. 오래된 런타임을 사용 중이라면 프로젝트 파일에서 대상 프레임워크만 조정하면 됩니다.
 
----
-
 ## HTML을 PDF로 변환 – Aspose.HTML 설치
 
 코드 작성을 시작하기 전에 Aspose.HTML NuGet 패키지가 프로젝트에 포함되어 있는지 확인하세요:
@@ -56,8 +52,6 @@ dotnet add package Aspose.HTML
 ```
 
 > **Pro tip:** 특정 릴리스를 원한다면 `--version` 플래그를 사용하세요. 예: `dotnet add package Aspose.HTML --version 23.11`. 패키지는 필요한 모든 것을 포함하고 있어 외부 바이너리나 네이티브 종속성이 없습니다.
-
----
 
 ## HTML을 PDF로 렌더링 – 문서 로드
 
@@ -79,8 +73,6 @@ if (htmlDoc == null)
 ```
 
 > **Why this matters:** 먼저 문서를 로드하면 DOM을 검사하고, 맞춤 CSS를 주입하거나, 렌더링 단계 전에 누락된 리소스를 교체할 수 있습니다. 또한 파일‑I/O 오류를 PDF 변환 단계와 분리할 수 있습니다.
-
----
 
 ## HTML을 PDF로 저장 – 렌더링 옵션 구성
 
@@ -104,8 +96,6 @@ PDFRenderingOptions pdfRenderOptions = new PDFRenderingOptions
 
 > **Edge case:** 헤드리스 Linux CI 서버에서 `UseHinting`을 생략하면 생성된 PDF에 흐릿한 글리프가 나타날 수 있습니다. 힌팅을 켜면 성능 저하 없이 이 문제를 해결할 수 있습니다.
 
----
-
 ## PDF 페이지 크기 설정 – 렌더링 및 저장
 
 문서를 로드하고 옵션을 구성했으니, 이제 한 줄 코드로 PDF를 디스크에 기록합니다:
@@ -128,8 +118,6 @@ Console.WriteLine("✅ PDF successfully created at YOUR_DIRECTORY/typography.pdf
 * 별도의 여백이 없는 A4 크기 페이지(CSS `@page` 규칙을 추가하지 않은 경우).
 
 PDF가 기대와 다르면, HTML에서 참조한 폰트가 `@font-face`를 통해 HTML에 포함되어 있거나 변환을 수행하는 머신에 설치되어 있는지 다시 확인하세요.
-
----
 
 ## HTML을 PDF로 렌더링 – 전체 작업 예제
 
@@ -172,8 +160,6 @@ namespace HtmlToPdfDemo
 
 > **Note:** 상단의 `using` 지시문은 HTML 처리와 PDF 렌더링에 필요한 Aspose.HTML 네임스페이스를 가져옵니다. `HTMLDocument.Save`가 파일 스트림을 추상화하므로 별도의 `using System.IO;`는 필요하지 않습니다.
 
----
-
 ## HTML을 PDF로 변환 – 일반적인 변형 및 팁
 
 | Scenario | What to change | Why |
@@ -183,16 +169,12 @@ namespace HtmlToPdfDemo
 | **High‑resolution images** | 원본 HTML이 충분한 DPI의 이미지를 참조하도록 합니다; Aspose.HTML은 원본 픽셀 크기를 그대로 유지합니다. | 최종 PDF에서 흐릿한 사진이 나오지 않게 합니다. |
 | **Running on Windows Subsystem for Linux (WSL)** | `UseHinting = true`를 유지합니다; 렌더링 엔진이 플랫폼에 구애받지 않기 때문에 WSL에서도 동일하게 동작합니다. | 환경에 관계없이 일관된 텍스트 품질을 보장합니다. |
 
----
-
 ## HTML을 PDF로 저장 – 디버깅 체크리스트
 
 1. **파일 경로가 정확한가** – 상대 경로는 작업 디렉터리(`dotnet run`이 프로젝트 폴더에서 시작) 기준으로 해석됩니다.  
 2. **폰트에 접근 가능한가** – 맞춤 폰트를 사용하는 경우 `@font-face`로 임베드하거나 `.ttf` 파일을 HTML 옆에 복사합니다.  
 3. **권한** – 프로세스가 출력 디렉터리에 쓰기 권한을 가지고 있어야 합니다.  
 4. **라이브러리 버전** – 오래된 Aspose.HTML을 사용하면 `UseHinting` 플래그가 없을 수 있으니 최신 23.x 릴리스를 사용하세요.  
-
----
 
 ## 결론
 

@@ -35,8 +35,6 @@ Valaha szükséged volt **PDF‑t létrehozni HTML‑ből**, de nem tudtad, mely
 
 Ebben az útmutatóban egy teljes, azonnal futtatható megoldáson keresztül vezetünk végig, amely **HTML‑t konvertál PDF‑be**, **HTML‑t renderel PDF‑ként**, és **HTML‑t ment PDF‑ként** az Aspose.HTML for .NET könyvtár segítségével. Megmutatjuk, hogyan **állítható be a PDF oldalmérete** A4‑re, ami a nyomtatható jelentések leggyakoribb követelménye. Nincs felesleges szó, csak egy gyakorlati útmutató, amit ma be tudsz másolni a projektedbe.
 
----
-
 ## PDF létrehozása HTML‑ből – Mit fogsz építeni
 
 A cikk végére egy kis konzolalkalmazásod lesz, amely:
@@ -48,8 +46,6 @@ A cikk végére egy kis konzolalkalmazásod lesz, amely:
 
 A kód .NET 6+ és a legújabb Aspose.HTML 23.x kiadásával működik, így jövőbiztos. Régebbi futtatókörnyezet esetén csak a projektfájlban kell módosítani a célkeretrendszert.
 
----
-
 ## HTML konvertálása PDF‑be – Aspose.HTML telepítése
 
 Mielőtt a kódba merülnénk, győződj meg róla, hogy az Aspose.HTML NuGet csomag elérhető a projektedben:
@@ -59,8 +55,6 @@ dotnet add package Aspose.HTML
 ```
 
 > **Pro tipp:** Használd a `--version` kapcsolót, ha egy konkrét kiadást szeretnél, pl. `dotnet add package Aspose.HTML --version 23.11`. A csomag mindent tartalmaz, amire szükséged van – nincs külső bináris, nincs natív függőség.
-
----
 
 ## HTML renderelése PDF‑ként – Dokumentum betöltése
 
@@ -82,8 +76,6 @@ if (htmlDoc == null)
 ```
 
 > **Miért fontos:** A dokumentum betöltése lehetővé teszi a DOM ellenőrzését, egyedi CSS‑ek befecskendezését vagy hiányzó erőforrások cseréjét a renderelés előtt. Emellett elkülöníti a fájl‑I/O hibákat a PDF konverziós lépéstől.
-
----
 
 ## HTML mentése PDF‑ként – Renderelési beállítások konfigurálása
 
@@ -107,8 +99,6 @@ PDFRenderingOptions pdfRenderOptions = new PDFRenderingOptions
 
 > **Szélsőséges eset:** Ha kihagyod a `UseHinting`‑et egy fej nélküli Linux CI szerveren, elmosódott glifek jelenhetnek meg a generált PDF‑ben. A hinting engedélyezése ezt a problémát megoldja teljesítményveszteség nélkül.
 
----
-
 ## PDF oldalméretének beállítása – Renderelés és mentés
 
 Miután a dokumentum betöltődött és a beállítások konfigurálva vannak, az utolsó lépés egy egy‑soros parancs, amely a PDF‑et a lemezre írja:
@@ -131,8 +121,6 @@ Nyisd meg a keletkezett `typography.pdf`‑et bármely PDF‑olvasóval (Adobe R
 * A4‑méretű oldal extra margók nélkül, hacsak nem adtál hozzá CSS `@page` szabályt.
 
 Ha a PDF nem úgy néz ki, ellenőrizd, hogy a HTML‑ben hivatkozott betűtípusok vagy be vannak ágyazva `@font-face`‑el, vagy telepítve vannak a konvertálást végző gépen.
-
----
 
 ## HTML renderelése PDF‑ként – Teljes működő példa
 
@@ -175,8 +163,6 @@ namespace HtmlToPdfDemo
 
 > **Megjegyzés:** A tetején lévő `using` direktívák importálják az Aspose.HTML névtereket, amelyek a HTML kezeléshez és a PDF rendereléshez szükségesek. Nem kell további `using System.IO;` mert a `HTMLDocument.Save` elrejti a fájl‑streamet.
 
----
-
 ## HTML konvertálása PDF‑be – Gyakori variációk és tippek
 
 | Szenárió | Mit kell módosítani | Miért |
@@ -186,16 +172,12 @@ namespace HtmlToPdfDemo
 | **Nagy felbontású képek** | Győződj meg róla, hogy a forrás‑HTML elegendő DPI‑val rendelkező képeket hivatkozik; az Aspose.HTML tiszteletben tartja az eredeti pixelméreteket. | Megakadályozza a homályos képeket a végső PDF‑ben. |
 | **Windows Subsystem for Linux (WSL) alatt futtatás** | Hagyd `UseHinting = true`‑t; ugyanúgy működik WSL‑en, mert a renderelő motor platform‑független. | Biztosítja a konzisztens szövegminőséget a különböző környezetekben. |
 
----
-
 ## HTML mentése PDF‑ként – Hibakeresési ellenőrzőlista
 
 1. **A fájlutak helyesek** – A relatív utak a munkakönyvtárhoz (`dotnet run` a projekt mappában) vannak feloldva.  
 2. **A betűtípusok elérhetők** – Egyedi betűtípusok esetén ágyazd be őket `@font-face`‑el, vagy másold a `.ttf` fájlokat a HTML mellé.  
 3. **Jogosultságok** – A folyamatnak írási joggal kell rendelkeznie a kimeneti könyvtárban.  
 4. **Könyvtár verziója** – Egy elavult Aspose.HTML hiányozhatja a `UseHinting` kapcsolót; frissíts a legújabb 23.x kiadásra.  
-
----
 
 ## Összegzés
 

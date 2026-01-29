@@ -34,8 +34,6 @@ Vous avez déjà eu besoin de **créer un PDF à partir de HTML** mais vous n'é
 
 Dans ce tutoriel, nous parcourrons une solution complète, prête à l’emploi, qui **convertit HTML en PDF**, **rend HTML en PDF**, et **enregistre HTML en PDF** en utilisant la bibliothèque Aspose.HTML pour .NET. Nous vous montrerons également comment **définir la taille de page PDF** à A4, la demande la plus courante pour les rapports imprimables. Pas de fioritures, juste un guide pratique que vous pouvez copier‑coller dans votre projet dès aujourd’hui.
 
----
-
 ## Créer un PDF à partir de HTML – Ce que vous allez construire
 
 À la fin de cet article, vous disposerez d’une petite application console qui :
@@ -47,8 +45,6 @@ Dans ce tutoriel, nous parcourrons une solution complète, prête à l’emploi,
 
 Le code fonctionne avec .NET 6+ et la dernière version Aspose.HTML 23.x, vous garantissant une compatibilité future. Si vous utilisez un runtime plus ancien, il vous suffira d’ajuster le framework cible dans le fichier projet.
 
----
-
 ## Convertir HTML en PDF – Installer Aspose.HTML
 
 Avant de plonger dans le code, assurez‑vous que le package NuGet Aspose.HTML est disponible dans votre projet :
@@ -58,8 +54,6 @@ dotnet add package Aspose.HTML
 ```
 
 > **Pro tip :** Utilisez le drapeau `--version` si vous avez besoin d’une version spécifique, par ex. `dotnet add package Aspose.HTML --version 23.11`. Le package regroupe tout ce dont vous avez besoin — aucune dépendance binaire externe, aucune dépendance native.
-
----
 
 ## Rendre HTML en PDF – Charger le document
 
@@ -81,8 +75,6 @@ if (htmlDoc == null)
 ```
 
 > **Why this matters :** Charger le document en premier vous donne la possibilité d’inspecter le DOM, d’injecter du CSS personnalisé ou de remplacer des ressources manquantes avant l’étape de rendu. Cela isole également les erreurs d’E/S de fichiers de l’étape de conversion PDF.
-
----
 
 ## Enregistrer HTML en PDF – Configurer les options de rendu
 
@@ -106,8 +98,6 @@ PDFRenderingOptions pdfRenderOptions = new PDFRenderingOptions
 
 > **Edge case :** Si vous omettez `UseHinting` sur un serveur CI Linux sans affichage, vous pourriez remarquer des glyphes flous dans le PDF généré. Activer le hinting élimine ce problème sans aucun impact sur les performances.
 
----
-
 ## Définir la taille de page PDF – Rendre et enregistrer
 
 Avec le document chargé et les options configurées, l’étape finale est une simple ligne de code qui écrit le PDF sur le disque :
@@ -130,8 +120,6 @@ Ouvrez le fichier `typography.pdf` généré avec n’importe quel lecteur PDF (
 * Une page au format A4 sans marges supplémentaires, sauf si vous avez ajouté des règles CSS `@page`.
 
 Si le PDF semble incorrect, vérifiez que les polices référencées dans le HTML sont soit incorporées via `@font-face`, soit installées sur la machine qui effectue la conversion.
-
----
 
 ## Rendre HTML en PDF – Exemple complet fonctionnel
 
@@ -174,8 +162,6 @@ namespace HtmlToPdfDemo
 
 > **Note :** Les directives `using` en haut importent les espaces de noms Aspose.HTML nécessaires à la fois pour la manipulation HTML et le rendu PDF. Aucun `using System.IO;` supplémentaire n’est requis car `HTMLDocument.Save` abstrait le flux de fichier.
 
----
-
 ## Convertir HTML en PDF – Variations courantes & astuces
 
 | Scénario | Ce qu’il faut changer | Pourquoi |
@@ -185,16 +171,12 @@ namespace HtmlToPdfDemo
 | **Images haute résolution** | S’assurer que le HTML source référence des images avec une DPI suffisante ; Aspose.HTML respecte les dimensions de pixel d’origine. | Évite les images floues dans le PDF final. |
 | **Exécution sous Windows Subsystem for Linux (WSL)** | Conserver `UseHinting = true` ; cela fonctionne de la même façon sous WSL car le moteur de rendu est indépendant de la plateforme. | Garantit une qualité de texte constante quel que soit l’environnement. |
 
----
-
 ## Enregistrer HTML en PDF – Checklist de débogage
 
 1. **Les chemins de fichiers sont corrects** – Les chemins relatifs sont résolus par rapport au répertoire de travail (`dotnet run` démarre dans le dossier du projet).  
 2. **Les polices sont accessibles** – Si vous utilisez des polices personnalisées, intégrez‑les avec `@font-face` ou copiez les fichiers `.ttf` à côté du HTML.  
 3. **Permissions** – Le processus doit disposer des droits d’écriture sur le répertoire de sortie.  
 4. **Version de la bibliothèque** – Utiliser une version obsolète d’Aspose.HTML peut ne pas inclure le drapeau `UseHinting` ; mettez à jour vers la dernière version 23.x.  
-
----
 
 ## Conclusion
 

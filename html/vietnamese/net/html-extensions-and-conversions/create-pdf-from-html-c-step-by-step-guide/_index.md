@@ -34,8 +34,6 @@ Bạn đã bao giờ cần **tạo PDF từ HTML** nhưng không chắc th
 
 Trong tutorial này, chúng ta sẽ đi qua một giải pháp hoàn chỉnh, sẵn sàng chạy để **chuyển đổi HTML sang PDF**, **render HTML dưới dạng PDF**, và **lưu HTML dưới dạng PDF** bằng thư viện Aspose.HTML cho .NET. Chúng tôi cũng sẽ chỉ bạn cách **đặt kích thước trang PDF** thành A4, yêu cầu phổ biến nhất cho các báo cáo có thể in. Không có phần thừa, chỉ có hướng dẫn thực tế mà bạn có thể sao chép‑dán vào dự án ngay hôm nay.
 
----
-
 ## Tạo PDF từ HTML – Những gì bạn sẽ xây dựng
 
 Khi kết thúc bài viết này, bạn sẽ có một ứng dụng console nhỏ thực hiện:
@@ -47,8 +45,6 @@ Khi kết thúc bài viết này, bạn sẽ có một ứng dụng console nh�
 
 Mã nguồn hoạt động với .NET 6+ và bản phát hành mới nhất Aspose.HTML 23.x, vì vậy bạn sẽ luôn tương thích trong tương lai. Nếu bạn đang dùng runtime cũ hơn, chỉ cần điều chỉnh target framework trong file dự án.
 
----
-
 ## Chuyển đổi HTML sang PDF – Cài đặt Aspose.HTML
 
 Trước khi viết code, hãy chắc chắn rằng gói NuGet Aspose.HTML đã có trong dự án của bạn:
@@ -58,8 +54,6 @@ dotnet add package Aspose.HTML
 ```
 
 > **Mẹo chuyên nghiệp:** Dùng tham số `--version` nếu bạn cần một phiên bản cụ thể, ví dụ `dotnet add package Aspose.HTML --version 23.11`. Gói này bao gồm mọi thứ bạn cần—không có binary bên ngoài, không có phụ thuộc native.
-
----
 
 ## Render HTML dưới dạng PDF – Tải tài liệu
 
@@ -81,8 +75,6 @@ if (htmlDoc == null)
 ```
 
 > **Tại sao lại quan trọng:** Việc tải tài liệu trước cho phép bạn kiểm tra DOM, chèn CSS tùy chỉnh, hoặc thay thế các tài nguyên thiếu trước khi render. Nó cũng giúp tách riêng lỗi I/O file khỏi bước chuyển đổi PDF.
-
----
 
 ## Lưu HTML dưới dạng PDF – Cấu hình tùy chọn render
 
@@ -106,8 +98,6 @@ PDFRenderingOptions pdfRenderOptions = new PDFRenderingOptions
 
 > **Trường hợp đặc biệt:** Nếu bạn bỏ qua `UseHinting` trên một server CI Linux không giao diện, bạn có thể thấy các glyph mờ trong PDF được tạo. Bật hinting loại bỏ vấn đề này mà không gây giảm hiệu năng.
 
----
-
 ## Đặt kích thước trang PDF – Render và Lưu
 
 Với tài liệu đã được tải và các tùy chọn đã cấu hình, bước cuối cùng chỉ cần một dòng lệnh để ghi PDF ra đĩa:
@@ -130,8 +120,6 @@ Mở file `typography.pdf` vừa tạo bằng bất kỳ trình xem PDF nào (Ad
 * Trang kích thước A4, không có lề thừa trừ khi bạn đã thêm quy tắc CSS `@page`.
 
 Nếu PDF trông không đúng, hãy kiểm tra lại rằng các font được tham chiếu trong HTML đã được nhúng qua `@font-face` hoặc đã được cài trên máy thực hiện chuyển đổi.
-
----
 
 ## Render HTML dưới dạng PDF – Ví dụ hoàn chỉnh
 
@@ -174,8 +162,6 @@ namespace HtmlToPdfDemo
 
 > **Lưu ý:** Các chỉ thị `using` ở đầu file kéo vào các namespace của Aspose.HTML cần thiết cho cả việc xử lý HTML và render PDF. Không cần thêm `using System.IO;` vì `HTMLDocument.Save` đã trừu tượng hoá luồng file.
 
----
-
 ## Chuyển đổi HTML sang PDF – Các biến thể thường gặp & Mẹo
 
 | Kịch bản | Cần thay đổi | Lý do |
@@ -185,16 +171,12 @@ namespace HtmlToPdfDemo
 | **Hình ảnh độ phân giải cao** | Đảm bảo HTML tham chiếu tới hình ảnh có DPI đủ; Aspose.HTML giữ nguyên kích thước pixel gốc. | Ngăn ảnh bị mờ trong PDF cuối cùng. |
 | **Chạy trên Windows Subsystem for Linux (WSL)** | Giữ `UseHinting = true`; nó hoạt động tương tự trên WSL vì engine render không phụ thuộc nền tảng. | Đảm bảo chất lượng chữ đồng nhất trên mọi môi trường. |
 
----
-
 ## Lưu HTML dưới dạng PDF – Danh sách kiểm tra gỡ lỗi
 
 1. **Đường dẫn tệp đúng** – Các đường dẫn tương đối được giải quyết dựa trên thư mục làm việc (`dotnet run` bắt đầu ở thư mục dự án).  
 2. **Font có thể truy cập** – Nếu dùng font tùy chỉnh, nhúng chúng bằng `@font-face` hoặc sao chép file `.ttf` cạnh HTML.  
 3. **Quyền** – Quy trình phải có quyền ghi vào thư mục đầu ra.  
 4. **Phiên bản thư viện** – Sử dụng phiên bản cũ của Aspose.HTML có thể thiếu flag `UseHinting`; nâng cấp lên bản 23.x mới nhất.  
-
----
 
 ## Kết luận
 

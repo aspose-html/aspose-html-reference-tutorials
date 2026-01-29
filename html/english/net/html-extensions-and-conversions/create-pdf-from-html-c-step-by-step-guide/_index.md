@@ -33,8 +33,6 @@ Ever needed to **create PDF from HTML** but weren’t sure which library w
 
 In this tutorial we’ll walk through a complete, ready‑to‑run solution that **converts HTML to PDF**, **renders HTML as PDF**, and **saves HTML as PDF** using the Aspose.HTML for .NET library. We’ll also show you how to **set PDF page size** to A4, which is the most common requirement for printable reports. No fluff, just a practical guide you can copy‑paste into your project today.
 
----
-
 ## Create PDF from HTML – What You’ll Build
 
 By the end of this article you’ll have a small console app that:
@@ -46,8 +44,6 @@ By the end of this article you’ll have a small console app that:
 
 The code works with .NET 6+ and the latest Aspose.HTML 23.x release, so you’re future‑proof. If you’re on an older runtime you’ll just need to adjust the target framework in the project file.
 
----
-
 ## Convert HTML to PDF – Install Aspose.HTML
 
 Before we dive into code, make sure the Aspose.HTML NuGet package is available in your project:
@@ -57,8 +53,6 @@ dotnet add package Aspose.HTML
 ```
 
 > **Pro tip:** Use the `--version` flag if you need a specific release, e.g., `dotnet add package Aspose.HTML --version 23.11`. The package bundles everything you need—no external binaries, no native dependencies.
-
----
 
 ## Render HTML as PDF – Load the Document
 
@@ -80,8 +74,6 @@ if (htmlDoc == null)
 ```
 
 > **Why this matters:** Loading the document first gives you a chance to inspect the DOM, inject custom CSS, or replace missing resources before the rendering stage. It also isolates file‑I/O errors from the PDF conversion step.
-
----
 
 ## Save HTML as PDF – Configure Rendering Options
 
@@ -105,8 +97,6 @@ PDFRenderingOptions pdfRenderOptions = new PDFRenderingOptions
 
 > **Edge case:** If you omit `UseHinting` on a headless Linux CI server, you might notice fuzzy glyphs in the generated PDF. Enabling hinting eliminates that problem without any performance penalty.
 
----
-
 ## Set PDF Page Size – Render and Save
 
 With the document loaded and options configured, the final step is a one‑liner that writes the PDF to disk:
@@ -129,8 +119,6 @@ Open the resulting `typography.pdf` in any PDF viewer (Adobe Reader, SumatraPDF,
 * An A4‑sized page with no extra margins unless you added CSS `@page` rules.
 
 If the PDF looks off, double‑check that the fonts referenced in the HTML are either embedded in the HTML via `@font-face` or installed on the machine running the conversion.
-
----
 
 ## Render HTML as PDF – Full Working Example
 
@@ -173,8 +161,6 @@ namespace HtmlToPdfDemo
 
 > **Note:** The `using` directives at the top pull in the Aspose.HTML namespaces required for both HTML handling and PDF rendering. No additional `using System.IO;` is needed because `HTMLDocument.Save` abstracts the file stream.
 
----
-
 ## Convert HTML to PDF – Common Variations & Tips
 
 | Scenario | What to change | Why |
@@ -184,16 +170,12 @@ namespace HtmlToPdfDemo
 | **High‑resolution images** | Ensure the source HTML references images with sufficient DPI; Aspose.HTML respects the original pixel dimensions. | Prevents blurry pictures in the final PDF. |
 | **Running on Windows Subsystem for Linux (WSL)** | Keep `UseHinting = true`; it works the same under WSL because the rendering engine is platform‑agnostic. | Guarantees consistent text quality across environments. |
 
----
-
 ## Save HTML as PDF – Debugging Checklist
 
 1. **File paths are correct** – Relative paths are resolved against the working directory (`dotnet run` starts in the project folder).  
 2. **Fonts are accessible** – If you use custom fonts, embed them with `@font-face` or copy the `.ttf` files next to the HTML.  
 3. **Permissions** – The process must have write permission for the output directory.  
 4. **Library version** – Using an outdated Aspose.HTML may miss the `UseHinting` flag; upgrade to the latest 23.x release.  
-
----
 
 ## Conclusion
 

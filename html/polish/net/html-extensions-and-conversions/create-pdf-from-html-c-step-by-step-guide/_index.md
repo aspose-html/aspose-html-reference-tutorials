@@ -34,8 +34,6 @@ Kiedykolwiek potrzebowałeś **utworzyć PDF z HTML**, ale nie byłeś pew
 
 W tym tutorialu przejdziemy przez kompletną, gotową do uruchomienia rozwiązanie, które **konwertuje HTML do PDF**, **renderuje HTML jako PDF** i **zapisuje HTML jako PDF** przy użyciu biblioteki Aspose.HTML for .NET. Pokażemy także, jak **ustawić rozmiar strony PDF** na A4, co jest najczęstszym wymaganiem dla raportów do druku. Bez zbędnych wstępów, tylko praktyczny przewodnik, który możesz skopiować‑wkleić do swojego projektu już dziś.
 
----
-
 ## Tworzenie PDF z HTML – Co zbudujesz
 
 Pod koniec tego artykułu będziesz miał małą aplikację konsolową, która:
@@ -47,8 +45,6 @@ Pod koniec tego artykułu będziesz miał małą aplikację konsolową, która:
 
 Kod działa z .NET 6+ oraz najnowszym wydaniem Aspose.HTML 23.x, więc jest przyszłościowy. Jeśli używasz starszego środowiska uruchomieniowego, wystarczy dostosować docelowy framework w pliku projektu.
 
----
-
 ## Konwersja HTML do PDF – Instalacja Aspose.HTML
 
 Zanim zanurkujemy w kod, upewnij się, że pakiet NuGet Aspose.HTML jest dostępny w Twoim projekcie:
@@ -58,8 +54,6 @@ dotnet add package Aspose.HTML
 ```
 
 > **Pro tip:** Użyj flagi `--version`, jeśli potrzebujesz konkretnego wydania, np. `dotnet add package Aspose.HTML --version 23.11`. Pakiet zawiera wszystko, co jest potrzebne — bez zewnętrznych binarek, bez natywnych zależności.
-
----
 
 ## Renderowanie HTML jako PDF – Ładowanie dokumentu
 
@@ -81,8 +75,6 @@ if (htmlDoc == null)
 ```
 
 > **Why this matters:** Ładowanie dokumentu najpierw daje możliwość przeglądu DOM, wstrzyknięcia własnego CSS lub zastąpienia brakujących zasobów przed etapem renderowania. Izoluje także błędy I/O od kroku konwersji do PDF.
-
----
 
 ## Zapis HTML jako PDF – Konfiguracja opcji renderowania
 
@@ -106,8 +98,6 @@ PDFRenderingOptions pdfRenderOptions = new PDFRenderingOptions
 
 > **Edge case:** Jeśli pominiesz `UseHinting` na bezgłowym serwerze CI Linux, możesz zauważyć rozmyte glify w wygenerowanym PDF. Włączenie hintingu eliminuje ten problem bez żadnego spadku wydajności.
 
----
-
 ## Ustawienie rozmiaru strony PDF – Renderowanie i zapis
 
 Po załadowaniu dokumentu i skonfigurowaniu opcji, ostatnim krokiem jest jednowierszowy kod zapisujący PDF na dysku:
@@ -130,8 +120,6 @@ Otwórz powstały plik `typography.pdf` w dowolnym przeglądarce PDF (Adobe Read
 * Stronę w formacie A4 bez dodatkowych marginesów, chyba że dodałeś reguły CSS `@page`.
 
 Jeśli PDF wygląda niepoprawnie, sprawdź, czy czcionki użyte w HTML są albo osadzone w HTML za pomocą `@font-face`, albo zainstalowane na maszynie wykonującej konwersję.
-
----
 
 ## Renderowanie HTML jako PDF – Pełny działający przykład
 
@@ -174,8 +162,6 @@ namespace HtmlToPdfDemo
 
 > **Note:** Dyrektywy `using` na początku wprowadzają przestrzenie nazw Aspose.HTML niezbędne zarówno do obsługi HTML, jak i renderowania PDF. Nie jest potrzebny dodatkowy `using System.IO;`, ponieważ `HTMLDocument.Save` abstrahuje strumień pliku.
 
----
-
 ## Konwersja HTML do PDF – Typowe warianty i wskazówki
 
 | Scenario | What to change | Why |
@@ -185,16 +171,12 @@ namespace HtmlToPdfDemo
 | **High‑resolution images** | Upewnij się, że HTML odwołuje się do obrazów o wystarczającej rozdzielczości DPI; Aspose.HTML zachowuje oryginalne wymiary pikseli. | Zapobiega rozmytym obrazom w finalnym PDF. |
 | **Running on Windows Subsystem for Linux (WSL)** | Pozostaw `UseHinting = true`; działa tak samo pod WSL, ponieważ silnik renderujący jest niezależny od platformy. | Gwarantuje spójną jakość tekstu we wszystkich środowiskach. |
 
----
-
 ## Zapis HTML jako PDF – Lista kontrolna debugowania
 
 1. **Ścieżki plików są poprawne** – Ścieżki względne są rozwiązywane względem katalogu roboczego (`dotnet run` uruchamia się w folderze projektu).  
 2. **Czcionki są dostępne** – Jeśli używasz własnych czcionek, osadź je przy pomocy `@font-face` lub skopiuj pliki `.ttf` obok HTML.  
 3. **Uprawnienia** – Proces musi mieć prawo zapisu do katalogu wyjściowego.  
 4. **Wersja biblioteki** – Użycie przestarzałego Aspose.HTML może nie zawierać flagi `UseHinting`; zaktualizuj do najnowszego wydania 23.x.  
-
----
 
 ## Zakończenie
 

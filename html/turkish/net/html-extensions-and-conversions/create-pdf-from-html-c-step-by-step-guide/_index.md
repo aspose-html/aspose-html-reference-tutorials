@@ -34,8 +34,6 @@ HTML'den **PDF oluşturmanız** gerektiğinde, keskin tipografi ve sayfa boyutla
 
 Bu öğreticide, Aspose.HTML for .NET kütüphanesini kullanarak **HTML'yi PDF'ye dönüştüren**, **HTML'yi PDF olarak işleyen** ve **HTML'yi PDF olarak kaydeden** eksiksiz, çalıştırmaya hazır bir çözümü adım adım inceleyeceğiz. Ayrıca, en yaygın baskı raporu gereksinimi olan A4 sayfa boyutunu **PDF sayfa boyutu olarak ayarlamayı** göstereceğiz. Gereksiz ayrıntı yok, bugün projenize kopyalayıp yapıştırabileceğiniz pratik bir rehber.
 
----
-
 ## HTML'den PDF Oluştur – Ne Yapacaksınız
 
 Bu makalenin sonunda aşağıdaki özelliklere sahip küçük bir konsol uygulamanız olacak:
@@ -47,8 +45,6 @@ Bu makalenin sonunda aşağıdaki özelliklere sahip küçük bir konsol uygulam
 
 Kod, .NET 6+ ve en yeni Aspose.HTML 23.x sürümüyle çalışır, böylece geleceğe hazır olursunuz. Daha eski bir çalışma zamanı kullanıyorsanız, proje dosyasındaki hedef çerçeveyi ayarlamanız yeterli olacaktır.
 
----
-
 ## HTML'yi PDF'ye Dönüştür – Aspose.HTML'i Kurun
 
 Kodlamaya başlamadan önce Aspose.HTML NuGet paketinin projenizde mevcut olduğundan emin olun:
@@ -58,8 +54,6 @@ dotnet add package Aspose.HTML
 ```
 
 > **Pro tip:** Belirli bir sürüme ihtiyacınız varsa `--version` bayrağını kullanın, ör. `dotnet add package Aspose.HTML --version 23.11`. Paket, ihtiyacınız olan her şeyi içerir—harici ikili dosyalar, yerel bağımlılıklar yok.
-
----
 
 ## HTML'yi PDF Olarak İşle – Belgeyi Yükle
 
@@ -81,8 +75,6 @@ if (htmlDoc == null)
 ```
 
 > **Neden önemli:** Belgeyi önce yüklemek, DOM'u inceleme, özel CSS enjekte etme veya eksik kaynakları değiştirme fırsatı verir; ayrıca PDF dönüşüm aşamasından dosya‑I/O hatalarını izole eder.
-
----
 
 ## HTML'yi PDF Olarak Kaydet – İşleme Seçeneklerini Yapılandır
 
@@ -106,8 +98,6 @@ PDFRenderingOptions pdfRenderOptions = new PDFRenderingOptions
 
 > **Köşe durumu:** Headless Linux CI sunucusunda `UseHinting`'i atlayarsanız, oluşturulan PDF'de bulanık glifler görebilirsiniz. Hinting'i etkinleştirmek, performans kaybı olmadan bu sorunu ortadan kaldırır.
 
----
-
 ## PDF Sayfa Boyutunu Ayarla – İşle ve Kaydet
 
 Belge yüklendi ve seçenekler yapılandırıldı, son adım tek satırda PDF'yi diske yazmaktır:
@@ -130,8 +120,6 @@ Console.WriteLine("✅ PDF successfully created at YOUR_DIRECTORY/typography.pdf
 * Ek kenar boşlukları olmayan A4 boyutunda bir sayfa (CSS `@page` kuralları eklemediyseniz).
 
 PDF beklediğiniz gibi çıkmazsa, HTML'de referans verilen yazı tiplerinin `@font-face` ile gömülü olduğundan veya dönüşümü yapan makinede yüklü olduğundan emin olun.
-
----
 
 ## HTML'yi PDF Olarak İşle – Tam Çalışan Örnek
 
@@ -174,8 +162,6 @@ namespace HtmlToPdfDemo
 
 > **Not:** En üstteki `using` yönergeleri, hem HTML işleme hem de PDF renderleme için gerekli Aspose.HTML ad alanlarını getirir. `HTMLDocument.Save` dosya akışını soyutladığı için ek bir `using System.IO;` satırına gerek yoktur.
 
----
-
 ## HTML'yi PDF'ye Dönüştür – Yaygın Varyasyonlar ve İpuçları
 
 | Senaryo | Ne Değiştirilmeli | Neden |
@@ -185,16 +171,12 @@ namespace HtmlToPdfDemo
 | **Yüksek çözünürlüklü görüntüler** | Kaynak HTML'nin yeterli DPI'ye sahip görüntülere referans verdiğinden emin olun; Aspose.HTML orijinal piksel boyutlarını korur. | Son PDF'de bulanık resimlerin oluşmasını önler. |
 | **Windows Subsystem for Linux (WSL) üzerinde çalıştırma** | `UseHinting = true` bırakın; rendering motoru platformdan bağımsız olduğu için WSL'de aynı şekilde çalışır. | Ortamlar arasında tutarlı metin kalitesi sağlar. |
 
----
-
 ## HTML'yi PDF Olarak Kaydet – Hata Ayıklama Kontrol Listesi
 
 1. **Dosya yolları doğru mu** – Göreli yollar, çalışma dizinine (`dotnet run` proje klasöründe başlar) göre çözülür.  
 2. **Yazı tiplerine erişim** – Özel yazı tipleri kullanıyorsanız, `@font-face` ile gömün veya `.ttf` dosyalarını HTML'nin yanına kopyalayın.  
 3. **İzinler** – İşlem, çıktı klasörüne yazma iznine sahip olmalı.  
 4. **Kütüphane sürümü** – Eski bir Aspose.HTML sürümü `UseHinting` bayrağını içermeyebilir; en yeni 23.x sürümüne yükseltin.  
-
----
 
 ## Sonuç
 

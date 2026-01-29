@@ -30,40 +30,34 @@ url: /pt/net/html-extensions-and-conversions/create-pdf-from-html-c-step-by-step
 
 # Criar PDF a partir de HTML – Guia passo a passo em C#
 
-Já precisou **criar PDF a partir de HTML** mas não tinha certeza de qual biblioteca ofereceria tipografia nítida e controle total sobre as dimensões da página? Você não está sozinho. Em muitas pipelines web‑para‑documento, o maior problema é fazer o PDF renderizado ficar exatamente como a visualização no navegador — especialmente no Linux, onde o hinting pode fazer ou quebrar a clareza do texto.  
+Já precisou **criarPDFa partirdeHTML** mas não tinha certeza de qual biblioteca ofereceria tipografia nítida e controle total sobre as dimensões da página? Você não está sozinho. Em muitos pipelines web-para-documento, o maior problema é fazer o PDF renderizado ficar exatamente como a visualização no navegador — especialmente no Linux, onde o hinting pode fazer ou quebrar a clareza do texto.
 
-Neste tutorial vamos percorrer uma solução completa, pronta‑para‑executar que **converte HTML para PDF**, **renderiza HTML como PDF**, e **salva HTML como PDF** usando a biblioteca Aspose.HTML para .NET. Também mostraremos como **definir o tamanho da página PDF** para A4, que é o requisito mais comum para relatórios imprimíveis. Sem enrolação, apenas um guia prático que você pode copiar‑colar no seu projeto hoje.
-
----
+Neste tutorial vamos percorrer uma solução completa, pronto para executar que **converter HTML para PDF**, **renderizar HTML como PDF**, e **salvar HTML como PDF** usando a biblioteca Aspose.HTML para .NET. Também mostraremos como **definir o tamanho da página PDF** para A4, que é o requisito mais comum para relatórios imprimíveis. Sem enrolação, apenas um guia prático que você pode copiar‑colar no seu projeto hoje.
 
 ## Criar PDF a partir de HTML – O que você vai construir
 
-Ao final deste artigo você terá um pequeno aplicativo de console que:
+No final deste artigo você terá um pequeno aplicativo de console que:
 
-1. Carrega um arquivo HTML contendo tipografia complexa (pense em fontes personalizadas, ligaduras e ícones SVG).  
-2. Configura opções de renderização PDF com hinting habilitado para texto mais nítido no Linux.  
-3. Define o tamanho da página de saída para A4 (595 × 842 pontos).  
-4. Salva o resultado como um arquivo PDF no disco.
+1. Carregue um arquivo HTML contendo tipografia complexa (pense em fontes personalizadas, ligaduras e ícones SVG).
+2. Configure opções de renderização de PDF com dicas habilitadas para texto mais nítido no Linux.
+3. Defina o tamanho da página de saída para A4 (595×842 pontos).
+4. Salve o resultado como um arquivo PDF no disco.
 
-O código funciona com .NET 6+ e a versão mais recente da Aspose.HTML 23.x, garantindo que você esteja preparado para o futuro. Se estiver usando um runtime mais antigo, basta ajustar o framework alvo no arquivo de projeto.
+O código funciona com .NET6+ e a versão mais recente do Aspose.HTML23.x, garantindo que você esteja preparado para o futuro. Se você estiver usando um runtime mais antigo, basta ajustar o framework alvo no arquivo de projeto.
 
----
+## Converta HTML em PDF – Instale Aspose.HTML
 
-## Convert HTML to PDF – Install Aspose.HTML
-
-Antes de mergulharmos no código, certifique‑se de que o pacote NuGet Aspose.HTML está disponível no seu projeto:
+Antes de mergulharmos no código, certifique-se de que o pacote NuGet Aspose.HTML está disponível em seu projeto:
 
 ```bash
 dotnet add package Aspose.HTML
 ```
 
-> **Pro tip:** Use a flag `--version` se precisar de uma versão específica, por exemplo, `dotnet add package Aspose.HTML --version 23.11`. O pacote inclui tudo que você precisa — sem binários externos, sem dependências nativas.
+> **Dica profissional:** Use um sinalizador `--version` se precisar de uma versão específica, por exemplo, `dotnet add package Aspose.HTML --version 23.11`. O pacote inclui tudo o que você precisa — sem binários externos, sem dependências nativas.
 
----
+## Renderizar HTML como PDF – Carregar o documento
 
-## Render HTML as PDF – Load the Document
-
-Agora que a biblioteca está instalada, vamos carregar o HTML fonte. A classe `HTMLDocument` pode ler um arquivo, uma URL ou até mesmo uma string. Para este exemplo vamos manter simples e ler do sistema de arquivos local:
+Agora que a biblioteca está instalada, vamos carregar a fonte HTML. A classe `HTMLDocument` pode ler um arquivo, uma URL ou até mesmo uma string. Para este exemplo vamos manter simples e ler o sistema de arquivos locais:
 
 ```csharp
 using Aspose.Html;
@@ -80,11 +74,9 @@ if (htmlDoc == null)
 }
 ```
 
-> **Why this matters:** Carregar o documento primeiro dá a oportunidade de inspecionar o DOM, injetar CSS personalizado ou substituir recursos ausentes antes da fase de renderização. Também isola erros de I/O de arquivos da etapa de conversão para PDF.
+> **Por que isso é importante:** Carregar o documento primeiro dá a oportunidade de funcionar o DOM, inserir CSS personalizado ou substituir recursos ausentes antes da fase de renderização. Também isola erros de I/O de arquivos da etapa de conversão para PDF.
 
----
-
-## Save HTML as PDF – Configure Rendering Options
+## Salvar HTML como PDF – Configurar opções de renderização
 
 A verdadeira mágica acontece quando instruímos o Aspose.HTML a rasterizar a página em um PDF. Duas configurações são cruciais para uma saída de alta qualidade:
 
@@ -106,9 +98,7 @@ PDFRenderingOptions pdfRenderOptions = new PDFRenderingOptions
 
 > **Edge case:** Se você omitir `UseHinting` em um servidor CI Linux sem interface gráfica, pode notar glifos borrados no PDF gerado. Habilitar o hinting elimina esse problema sem nenhum impacto de desempenho.
 
----
-
-## Set PDF Page Size – Render and Save
+## Definir o tamanho da página do PDF – Renderizar e salvar
 
 Com o documento carregado e as opções configuradas, o passo final é uma única linha que grava o PDF no disco:
 
@@ -121,7 +111,7 @@ htmlDoc.Save("YOUR_DIRECTORY/typography.pdf", pdfRenderOptions);
 Console.WriteLine("✅ PDF successfully created at YOUR_DIRECTORY/typography.pdf");
 ```
 
-### Expected Result
+### Resultado esperado
 
 Abra o `typography.pdf` resultante em qualquer visualizador de PDF (Adobe Reader, SumatraPDF ou até mesmo um navegador). Você deverá ver:
 
@@ -131,9 +121,7 @@ Abra o `typography.pdf` resultante em qualquer visualizador de PDF (Adobe Reader
 
 Se o PDF parecer errado, verifique novamente se as fontes referenciadas no HTML estão incorporadas no HTML via `@font-face` ou instaladas na máquina que executa a conversão.
 
----
-
-## Render HTML as PDF – Full Working Example
+## Renderizar HTML como PDF – Exemplo completo em funcionamento
 
 Abaixo está o programa completo que você pode copiar para um novo projeto de console (`dotnet new console`). Substitua `YOUR_DIRECTORY` por um caminho de pasta real, execute `dotnet run` e você terá um PDF pronto em segundos.
 
@@ -172,31 +160,28 @@ namespace HtmlToPdfDemo
 }
 ```
 
-> **Note:** As diretivas `using` no topo trazem os namespaces Aspose.HTML necessários tanto para manipulação de HTML quanto para renderização PDF. Não é necessário `using System.IO;` adicional porque `HTMLDocument.Save` abstrai o fluxo de arquivo.
+> **Nota:** As cláusulas `using` no topo trazem os namespaces Aspose.HTML necessários tanto para manipulação de HTML quanto para renderização de PDF. Não é necessário `using System.IO;` adicional porque `HTMLDocument.Save` abstrai o fluxo do arquivo.
 
----
+## Converter HTML em PDF – variações e dicas comuns
 
-## Convert HTML to PDF – Common Variations & Tips
-
-| Scenario | What to change | Why |
+| Cenário | O que mudar | Por que |
 |----------|----------------|-----|
-| **Landscape orientation** | Set `PageWidth = 842; PageHeight = 595;` | Swaps width/height for landscape A4. |
-| **Custom margins** | Add CSS `@page { margin: 1in; }` inside the HTML or use `pdfOptions.Margin*` properties if available. | Gives you control over printable area without editing the source HTML. |
-| **High‑resolution images** | Ensure the source HTML references images with sufficient DPI; Aspose.HTML respects the original pixel dimensions. | Prevents blurry pictures in the final PDF. |
-| **Running on Windows Subsystem for Linux (WSL)** | Keep `UseHinting = true`; it works the same under WSL because the rendering engine is platform‑agnostic. | Guarantees consistent text quality across environments. |
+| **Orientação paisagem** | Defina `PageWidth = 842; AlturaPágina = 595;` | Troca largura/altura para paisagem A4. |
+| **Margens personalizadas** | Adicione CSS `@page { margin: 1in; }` dentro do HTML ou use as propriedades `pdfOptions.Margin*` se disponíveis. | Dá a você controle sobre a área de impressão sem editar o HTML de origem. |
+| **Imagens de alta resolução** | Certifique-se de que o HTML de origem faça referência a imagens com DPI suficiente; Aspose.HTML respeita as dimensões originais dos pixels. | Impede imagens desfocadas no PDF final. |
+| **Executando no Subsistema Windows para Linux (WSL)** | Mantenha `UseHinting = true`; funciona da mesma forma no WSL porque o mecanismo de renderização é independente da plataforma. | Garante qualidade de texto consistente em todos os ambientes. |
 
----
+## Salvar HTML como PDF – Lista de verificação de depuração
 
-## Save HTML as PDF – Debugging Checklist
+1. **Os caminhos dos arquivos estão corretos** – Os caminhos relativos são resolvidos em relação ao diretório de trabalho (`dotnet run` inicia na pasta do projeto).
 
-1. **File paths are correct** – Relative paths are resolved against the working directory (`dotnet run` starts in the project folder).  
-2. **Fonts are accessible** – If you use custom fonts, embed them with `@font-face` or copy the `.ttf` files next to the HTML.  
-3. **Permissions** – The process must have write permission for the output directory.  
-4. **Library version** – Using an outdated Aspose.HTML may miss the `UseHinting` flag; upgrade to the latest 23.x release.  
+2. **As fontes estão acessíveis** – Se você usar fontes personalizadas, incorpore-as com `@font-face` ou copie os arquivos `.ttf` para o mesmo diretório do HTML.
 
----
+3. **Permissões** – O processo deve ter permissão de gravação para o diretório de saída.
 
-## Conclusion
+4. **Versão da biblioteca** – Usar uma versão desatualizada do Aspose.HTML pode não exibir a flag `UseHinting`; atualize para a versão 23.x mais recente.
+
+## Conclusão
 
 Acabamos de **criar PDF a partir de HTML** usando Aspose.HTML para .NET, cobrindo cada passo desde **convert HTML to PDF** até **render HTML as PDF**, **save HTML as PDF**, e **set PDF page size** para A4. O código é autocontido, funciona em Windows, macOS e Linux, e pode ser inserido em qualquer projeto C# com uma única referência NuGet.  
 

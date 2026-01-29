@@ -32,8 +32,6 @@ url: /zh/net/html-extensions-and-conversions/create-pdf-from-html-c-step-by-step
 
 在本教程中，我们将一步步演示一个完整、可直接运行的解决方案，使用 Aspose.HTML for .NET 库实现 **将 HTML 转换为 PDF**、**将 HTML 渲染为 PDF**，以及 **将 HTML 保存为 PDF**。我们还会展示如何 **将 PDF 页面尺寸设置为 A4**，这是可打印报告最常见的需求。没有废话，只有可以直接复制到项目中的实用指南。
 
----
-
 ## 从 HTML 创建 PDF – 你将构建的内容
 
 阅读完本文后，你将拥有一个小型控制台应用程序，它能够：
@@ -45,8 +43,6 @@ url: /zh/net/html-extensions-and-conversions/create-pdf-from-html-c-step-by-step
 
 该代码适用于 .NET 6+ 以及最新的 Aspose.HTML 23.x 版本，具备前瞻性。如果你使用的是更旧的运行时，只需在项目文件中调整目标框架即可。
 
----
-
 ## 将 HTML 转换为 PDF – 安装 Aspose.HTML
 
 在编写代码之前，请确保你的项目中已经引用了 Aspose.HTML NuGet 包：
@@ -56,8 +52,6 @@ dotnet add package Aspose.HTML
 ```
 
 > **专业提示：** 如需指定特定版本，可使用 `--version` 参数，例如 `dotnet add package Aspose.HTML --version 23.11`。该包已将所有必需的内容打包——无需外部二进制文件，也没有本地依赖。
-
----
 
 ## 将 HTML 渲染为 PDF – 加载文档
 
@@ -79,8 +73,6 @@ if (htmlDoc == null)
 ```
 
 > **为什么重要：** 先加载文档可以让你检查 DOM、注入自定义 CSS，或在渲染阶段之前替换缺失的资源。这也能将文件 I/O 错误与 PDF 转换步骤分离。
-
----
 
 ## 将 HTML 保存为 PDF – 配置渲染选项
 
@@ -104,8 +96,6 @@ PDFRenderingOptions pdfRenderOptions = new PDFRenderingOptions
 
 > **边缘情况：** 若在无头 Linux CI 服务器上省略 `UseHinting`，生成的 PDF 可能出现模糊的字形。启用 hinting 可在不牺牲性能的前提下消除该问题。
 
----
-
 ## 设置 PDF 页面尺寸 – 渲染并保存
 
 文档已加载且选项已配置完毕，最后一步只需一行代码即可将 PDF 写入磁盘：
@@ -128,8 +118,6 @@ Console.WriteLine("✅ PDF successfully created at YOUR_DIRECTORY/typography.pdf
 * A4 大小的页面，除非你在 CSS 中添加了 `@page` 规则，否则不会出现额外的边距。
 
 如果 PDF 显示异常，请再次确认 HTML 中引用的字体要么通过 `@font-face` 嵌入，要么已安装在执行转换的机器上。
-
----
 
 ## 将 HTML 渲染为 PDF – 完整示例
 
@@ -172,8 +160,6 @@ namespace HtmlToPdfDemo
 
 > **注意：** 顶部的 `using` 指令已经引入了处理 HTML 与 PDF 渲染所需的 Aspose.HTML 命名空间。无需额外的 `using System.IO;`，因为 `HTMLDocument.Save` 已经封装了文件流操作。
 
----
-
 ## 将 HTML 转换为 PDF – 常见变体与技巧
 
 | 场景 | 更改内容 | 原因 |
@@ -183,16 +169,12 @@ namespace HtmlToPdfDemo
 | **高分辨率图像** | 确保源 HTML 引用的图像具有足够的 DPI；Aspose.HTML 会保留原始像素尺寸。 | 防止最终 PDF 中出现模糊的图片。 |
 | **在 Windows Subsystem for Linux (WSL) 上运行** | 保持 `UseHinting = true`；在 WSL 下同样有效，因为渲染引擎与平台无关。 | 确保不同环境下文字质量保持一致。 |
 
----
-
 ## 将 HTML 保存为 PDF – 调试清单
 
 1. **文件路径正确** – 相对路径相对于工作目录解析（`dotnet run` 默认在项目文件夹启动）。  
 2. **字体可访问** – 使用自定义字体时，请通过 `@font-face` 嵌入，或将 `.ttf` 文件放在 HTML 同目录。  
 3. **权限** – 进程必须对输出目录拥有写入权限。  
 4. **库版本** – 旧版 Aspose.HTML 可能缺少 `UseHinting` 标志；请升级到最新的 23.x 版本。  
-
----
 
 ## 结论
 

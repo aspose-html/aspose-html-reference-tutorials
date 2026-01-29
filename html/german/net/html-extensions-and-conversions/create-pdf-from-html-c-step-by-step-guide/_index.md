@@ -33,9 +33,7 @@ url: /de/net/html-extensions-and-conversions/create-pdf-from-html-c-step-by-step
 Haben Sie jemals **PDF aus HTML** erstellen müssen, waren sich aber nicht sicher, welche Bibliothek Ihnen eine klare Typografie und volle Kontrolle über die Seitengrößen bietet? Sie sind nicht allein. In vielen Web‑zu‑Dokument‑Pipelines ist das größte Problem, das gerenderte PDF exakt wie die Browser‑Ansicht aussehen zu lassen – besonders unter Linux, wo Hinting die Textklarheit entscheidend beeinflussen kann.
 
 In diesem Tutorial führen wir Sie durch eine vollständige, sofort einsatzbereite Lösung, die **HTML in PDF konvertiert**, **HTML als PDF rendert** und **HTML als PDF speichert** mithilfe der Aspose.HTML für .NET Bibliothek. Außerdem zeigen wir Ihnen, wie Sie die **PDF‑Seitengröße** auf A4 einstellen, was die häufigste Anforderung für druckbare Berichte ist. Keine Umschweife, nur eine praktische Anleitung, die Sie noch heute in Ihr Projekt kopieren können.
-
----
-
+`
 ## PDF aus HTML erstellen – Was Sie bauen werden
 
 Am Ende dieses Artikels haben Sie eine kleine Konsolen‑App, die:

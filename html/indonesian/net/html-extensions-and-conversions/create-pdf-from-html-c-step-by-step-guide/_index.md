@@ -34,8 +34,6 @@ Pernah perlu **membuat PDF dari HTML** tetapi tidak yakin perpustakaan man
 
 Di tutorial ini kami akan membimbing Anda melalui solusi lengkap yang siap dijalankan yang **mengonversi HTML ke PDF**, **merender HTML sebagai PDF**, dan **menyimpan HTML sebagai PDF** menggunakan perpustakaan Aspose.HTML untuk .NET. Kami juga akan menunjukkan cara **mengatur ukuran halaman PDF** ke A4, yang merupakan kebutuhan paling umum untuk laporan yang dapat dicetak. Tanpa basa‑basi, hanya panduan praktis yang dapat Anda salin‑tempel ke proyek Anda hari ini.
 
----
-
 ## Membuat PDF dari HTML – Apa yang Akan Anda Bangun
 
 Pada akhir artikel ini Anda akan memiliki aplikasi konsol kecil yang:
@@ -47,8 +45,6 @@ Pada akhir artikel ini Anda akan memiliki aplikasi konsol kecil yang:
 
 Kode ini bekerja dengan .NET 6+ dan rilis terbaru Aspose.HTML 23.x, sehingga Anda siap untuk masa depan. Jika Anda menggunakan runtime yang lebih lama, Anda hanya perlu menyesuaikan target framework di file proyek.
 
----
-
 ## Mengonversi HTML ke PDF – Instal Aspose.HTML
 
 Sebelum kita masuk ke kode, pastikan paket NuGet Aspose.HTML tersedia di proyek Anda:
@@ -58,8 +54,6 @@ dotnet add package Aspose.HTML
 ```
 
 > **Tip pro:** Gunakan flag `--version` jika Anda membutuhkan rilis tertentu, misalnya `dotnet add package Aspose.HTML --version 23.11`. Paket ini menyertakan semua yang Anda perlukan—tanpa binary eksternal, tanpa dependensi native.
-
----
 
 ## Merender HTML sebagai PDF – Muat Dokumen
 
@@ -81,8 +75,6 @@ if (htmlDoc == null)
 ```
 
 > **Mengapa ini penting:** Memuat dokumen terlebih dahulu memberi Anda kesempatan untuk memeriksa DOM, menyuntikkan CSS khusus, atau mengganti sumber daya yang hilang sebelum tahap rendering. Ini juga memisahkan kesalahan I/O file dari langkah konversi PDF.
-
----
 
 ## Menyimpan HTML sebagai PDF – Konfigurasikan Opsi Rendering
 
@@ -106,8 +98,6 @@ PDFRenderingOptions pdfRenderOptions = new PDFRenderingOptions
 
 > **Kasus tepi:** Jika Anda menghilangkan `UseHinting` pada server CI Linux tanpa tampilan (headless), Anda mungkin melihat glyph yang buram dalam PDF yang dihasilkan. Mengaktifkan hinting menghilangkan masalah itu tanpa penalti kinerja.
 
----
-
 ## Atur Ukuran Halaman PDF – Render dan Simpan
 
 Dengan dokumen dimuat dan opsi dikonfigurasikan, langkah terakhir adalah satu baris kode yang menulis PDF ke disk:
@@ -130,8 +120,6 @@ Buka `typography.pdf` yang dihasilkan di penampil PDF apa pun (Adobe Reader, Sum
 * Halaman berukuran A4 tanpa margin tambahan kecuali Anda menambahkan aturan CSS `@page`.
 
 Jika PDF terlihat tidak tepat, periksa kembali bahwa font yang direferensikan dalam HTML sudah tersemat di HTML melalui `@font-face` atau terpasang di mesin yang menjalankan konversi.
-
----
 
 ## Merender HTML sebagai PDF – Contoh Kerja Lengkap
 
@@ -174,8 +162,6 @@ namespace HtmlToPdfDemo
 
 > **Catatan:** Direktif `using` di bagian atas mengimpor namespace Aspose.HTML yang diperlukan untuk penanganan HTML dan rendering PDF. Tidak diperlukan `using System.IO;` tambahan karena `HTMLDocument.Save` mengabstraksi aliran file.
 
----
-
 ## Mengonversi HTML ke PDF – Variasi Umum & Tips
 
 | Skenario | Apa yang diubah | Mengapa |
@@ -185,16 +171,12 @@ namespace HtmlToPdfDemo
 | **Gambar resolusi tinggi** | Pastikan HTML sumber merujuk gambar dengan DPI yang cukup; Aspose.HTML menghormati dimensi piksel asli. | Mencegah gambar blur dalam PDF akhir. |
 | **Menjalankan di Windows Subsystem for Linux (WSL)** | Tetap `UseHinting = true`; ini bekerja sama di WSL karena mesin rendering bersifat platform‑agnostic. | Menjamin kualitas teks yang konsisten di semua lingkungan. |
 
----
-
 ## Menyimpan HTML sebagai PDF – Daftar Periksa Debugging
 
 1. **Path file sudah benar** – Path relatif diresolusikan terhadap direktori kerja (`dotnet run` dimulai di folder proyek).  
 2. **Font dapat diakses** – Jika Anda menggunakan font khusus, sematkan mereka dengan `@font-face` atau salin file `.ttf` ke samping HTML.  
 3. **Izin** – Proses harus memiliki izin menulis untuk direktori output.  
 4. **Versi perpustakaan** – Menggunakan Aspose.HTML yang usang mungkin tidak memiliki flag `UseHinting`; tingkatkan ke rilis 23.x terbaru.  
-
----
 
 ## Kesimpulan
 

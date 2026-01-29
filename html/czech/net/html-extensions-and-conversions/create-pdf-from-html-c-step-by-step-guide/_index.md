@@ -34,8 +34,6 @@ Už jste někdy potřebovali **vytvořit PDF z HTML**, ale nebyli jste si 
 
 V tomto tutoriálu projdeme kompletní, připravené řešení, které **převádí HTML do PDF**, **renderuje HTML jako PDF** a **ukládá HTML jako PDF** pomocí knihovny Aspose.HTML pro .NET. Také vám ukážeme, jak **nastavit velikost stránky PDF** na A4, což je nejčastější požadavek pro tisknutelné zprávy. Žádné zbytečnosti, jen praktický návod, který můžete dnes zkopírovat a vložit do svého projektu.
 
----
-
 ## Vytvoření PDF z HTML – Co vytvoříte
 
 Do konce tohoto článku budete mít malou konzolovou aplikaci, která:
@@ -47,8 +45,6 @@ Do konce tohoto článku budete mít malou konzolovou aplikaci, která:
 
 Kód funguje s .NET 6+ a nejnovějším vydáním Aspose.HTML 23.x, takže jste připraveni na budoucnost. Pokud používáte starší runtime, stačí upravit cílový framework v souboru projektu.
 
----
-
 ## Převod HTML do PDF – Instalace Aspose.HTML
 
 Než se ponoříme do kódu, ujistěte se, že je v projektu dostupný NuGet balíček Aspose.HTML:
@@ -58,8 +54,6 @@ dotnet add package Aspose.HTML
 ```
 
 > **Tip:** Použijte přepínač `--version`, pokud potřebujete konkrétní verzi, např. `dotnet add package Aspose.HTML --version 23.11`. Balíček obsahuje vše, co potřebujete — žádné externí binárky, žádné nativní závislosti.
-
----
 
 ## Renderování HTML jako PDF – Načtení dokumentu
 
@@ -81,8 +75,6 @@ if (htmlDoc == null)
 ```
 
 > **Proč je to důležité:** Načtení dokumentu jako první vám dává možnost prozkoumat DOM, vložit vlastní CSS nebo nahradit chybějící zdroje před fází renderování. Také to odděluje chyby souborového I/O od kroku konverze do PDF.
-
----
 
 ## Uložení HTML jako PDF – Konfigurace možností renderování
 
@@ -106,8 +98,6 @@ PDFRenderingOptions pdfRenderOptions = new PDFRenderingOptions
 
 > **Hraniční případ:** Pokud na headless Linux CI serveru vynecháte `UseHinting`, můžete si všimnout rozmazaných glifů v generovaném PDF. Povolení hintingu eliminuje tento problém bez jakéhokoli dopadu na výkon.
 
----
-
 ## Nastavení velikosti stránky PDF – Renderování a uložení
 
 S načteným dokumentem a nastavenými možnostmi je posledním krokem jednorázový příkaz, který zapíše PDF na disk:
@@ -130,8 +120,6 @@ Otevřete vzniklý `typography.pdf` v libovolném PDF prohlížeči (Adobe Reade
 * Stránka velikosti A4 bez extra okrajů, pokud jste nepřidali CSS pravidla `@page`.
 
 Pokud PDF vypadá špatně, dvojitě zkontrolujte, že fonty odkazované v HTML jsou buď vloženy v HTML pomocí `@font-face`, nebo nainstalovány na stroji, který provádí konverzi.
-
----
 
 ## Renderování HTML jako PDF – Kompletní funkční příklad
 
@@ -174,8 +162,6 @@ namespace HtmlToPdfDemo
 
 > **Poznámka:** Direktivy `using` na začátku načítají jmenné prostory Aspose.HTML potřebné jak pro práci s HTML, tak pro renderování PDF. Další `using System.IO;` není potřeba, protože `HTMLDocument.Save` abstrahuje souborový stream.
 
----
-
 ## Převod HTML do PDF – Běžné varianty a tipy
 
 | Scénář | Co změnit | Proč |
@@ -185,16 +171,12 @@ namespace HtmlToPdfDemo
 | **Obrázky ve vysokém rozlišení** | Ensure the source HTML references images with sufficient DPI; Aspose.HTML respects the original pixel dimensions. | Zabraňuje rozmazaným obrázkům ve finálním PDF. |
 | **Spuštění na Windows Subsystem for Linux (WSL)** | Keep `UseHinting = true`; it works the same under WSL because the rendering engine is platform‑agnostic. | Zajišťuje konzistentní kvalitu textu napříč prostředími. |
 
----
-
 ## Uložení HTML jako PDF – Kontrolní seznam pro ladění
 
 1. **Cesty k souborům jsou správné** – Relativní cesty jsou řešeny vůči pracovnímu adresáři (`dotnet run` spouští v kořenovém adresáři projektu).  
 2. **Fonty jsou přístupné** – Pokud používáte vlastní fonty, vložte je pomocí `@font-face` nebo zkopírujte soubory `.ttf` vedle HTML.  
 3. **Oprávnění** – Proces musí mít právo zápisu do výstupního adresáře.  
 4. **Verze knihovny** – Použití zastaralé verze Aspose.HTML může postrádat příznak `UseHinting`; aktualizujte na nejnovější verzi 23.x.  
-
----
 
 ## Závěr
 
