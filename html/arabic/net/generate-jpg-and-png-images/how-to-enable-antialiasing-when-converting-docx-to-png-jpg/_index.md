@@ -33,8 +33,6 @@ url: /ar/net/generate-jpg-and-png-images/how-to-enable-antialiasing-when-convert
 
 في هذا الدرس سنستعرض العملية الكاملة لـ **convert docx to png** و **convert docx to jpg** باستخدام مكتبة عرض حديثة. ستتعلم ليس فقط *how to convert docx* بل أيضًا *how to render docx* مع تمكين التنعيم (antialiasing) والتلميح (hinting)، بحيث يبدو كل منحنى وحرف ناعمًا. لا تحتاج إلى خبرة سابقة في برمجة الرسومات؛ فقط إعداد أساسي لـ C# وملف DOCX ترغب في تحويله إلى صورة.
 
----
-
 ## ما ستحتاجه
 
 - **.NET 6+** (أو .NET Framework 4.6+ إذا كنت تفضل بيئة التشغيل الكلاسيكية)  

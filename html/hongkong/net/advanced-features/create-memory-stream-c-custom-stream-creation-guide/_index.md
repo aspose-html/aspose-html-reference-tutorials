@@ -38,8 +38,6 @@ url: /zh-hant/net/advanced-features/create-memory-stream-c-custom-stream-creatio
 
 > **專業提示：** 若你的目標是 .NET 8，較新的 `ResourceHandler` 內建 async 支援，能在高吞吐量情境下節省毫秒級的時間。
 
----
-
 ## 建立 memory stream c# – 傳統做法（pre‑24.2）
 
 當你被迫使用舊版函式庫時，需要符合的合約是 `IOutputStorage`。此介面僅要求提供一個方法，回傳給定資源名稱的 `Stream`。
@@ -81,8 +79,6 @@ public class MyStorage : IOutputStorage
 | 回傳已關閉的串流 | 使用者在寫入時會拋出 `ObjectDisposedException`。 | 確保在交付時串流是 **開啟** 的。 |
 | 寫入後忘記將 `Position = 0` | 之後讀取時資料顯示為空。 | 若事先填入資料，返回前請呼叫 `stream.Seek(0, SeekOrigin.Begin)`。 |
 | 對大型檔案使用巨大的 `MemoryStream` | 導致記憶體不足而當機。 | 改用暫存的 `FileStream` 或自訂緩衝串流。 |
-
----
 
 ## 建立 memory stream c# – 現代做法（24.2+）
 
@@ -139,8 +135,6 @@ public class MyHandler : ResourceHandler
 
 3. **測試** – 若基底類別從 DI 取得服務，可透過注入 mock `IServiceProvider` 來單元測試你的 handler。確認 `HandleResource` 回傳的串流可寫入且可讀取。
 
----
-
 ## 如何建立串流 – 快速速查表
 
 | 情境 | 推薦 API | 範例程式碼 |
@@ -152,15 +146,11 @@ public class MyHandler : ResourceHandler
 
 > **注意：** 若事先填入資料，返回前務必設定 `stream.Position = 0`；否則下游讀取者會認為串流是空的。
 
----
-
 ## 圖片說明
 
 ![顯示建立 memory stream c# 流程的圖示](https://example.com/images/create-memory-stream-diagram.png)
 
 *替代文字：* 顯示建立 memory stream c# 流程的圖示
-
----
 
 ## 完整可執行範例
 
@@ -246,8 +236,6 @@ Hello from async API!
 
 程式展示了三種 **how to create stream** 的方式：舊的 `IOutputStorage`、新的同步 `HandleResource`，以及非同步的 `HandleResourceAsync`。三者皆回傳 `MemoryStream`，證明自訂串流建立在任何目標版本下皆可運作。
 
----
-
 ## 常見問題 (FAQ)
 
 **Q: 我需要對取得的串流呼叫 `Dispose` 嗎？**  
@@ -261,8 +249,6 @@ A: 改用以暫存檔為基礎的 `FileStream`，或實作會分段寫入磁碟�
 
 **Q: 兩種做法在效能上有差異嗎？**  
 A: 現代的 `ResourceHandler` 會因額外的基底類別邏輯產生少量開銷，但非同步版本在高併發情況下可顯著提升吞吐量。
-
----
 
 ## 結語
 

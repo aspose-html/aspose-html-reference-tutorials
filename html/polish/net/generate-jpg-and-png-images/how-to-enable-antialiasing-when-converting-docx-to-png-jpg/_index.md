@@ -34,8 +34,6 @@ Zastanawiałeś się kiedyś **jak włączyć antyaliasing**, aby obrazy po konw
 
 W tym tutorialu przejdziemy przez cały proces **convert docx to png** i **convert docx to jpg** przy użyciu nowoczesnej biblioteki renderującej. Nauczysz się nie tylko *jak konwertować docx*, ale także *jak renderować docx* z włączonym antyaliasingiem i hintingiem, tak aby każda krzywa i znak wyglądały płynnie. Nie wymaga to wcześniejszego doświadczenia w programowaniu grafiki; wystarczy podstawowe środowisko C# i plik DOCX, który chcesz przekształcić w obraz.
 
----
-
 ## Co będzie potrzebne
 
 - **.NET 6+** (lub .NET Framework 4.6+, jeśli wolisz klasyczny runtime)  
@@ -47,8 +45,6 @@ dotnet add package Aspose.Words
 ```
 
 To wszystko — nie są potrzebne dodatkowe narzędzia do przetwarzania obrazów.
-
----
 
 ## Krok 1: Załaduj dokument DOCX (jak konwertować docx)
 
@@ -65,8 +61,6 @@ Document sourceDoc = new Document("input/input.docx");
 
 > **Dlaczego to ważne:** Załadowanie dokumentu jest podstawą *jak renderować docx*. Jeśli plik nie zostanie odczytany, żaden z kolejnych kroków nie zadziała, więc zaczynamy właśnie tutaj.
 
----
-
 ## Krok 2: Skonfiguruj opcje renderowania obrazu (włącz antyaliasing)
 
 Teraz następuje magiczna część — włączenie antyaliasingu i hintingu. Antyaliasing wygładza ząbkowane krawędzie, które normalnie widzisz na liniach ukośnych, a hinting poprawia czytelność małego tekstu.
@@ -81,8 +75,6 @@ ImageRenderingOptions renderingOptions = new ImageRenderingOptions
 ```
 
 > **Pro tip:** Jeśli kiedykolwiek potrzebujesz przyspieszyć przetwarzanie bardzo dużych dokumentów, możesz wyłączyć `UseAntialiasing`, ale jakość wizualna zauważalnie spadnie.
-
----
 
 ## Krok 3: Wybierz format wyjściowy – PNG lub JPG (convert docx to png / convert docx to jpg)
 
@@ -111,8 +103,6 @@ ImageDevice jpgDevice = new ImageDevice(renderingOptions)
 
 > **Dlaczego oba?** PNG zachowuje każdy piksel, co jest idealne, gdy potrzebna jest dokładna wierność (np. do druku). JPG natomiast kompresuje obraz, co przyspiesza jego ładowanie na stronie internetowej.
 
----
-
 ## Krok 4: Renderuj strony dokumentu do obrazów (jak renderować docx)
 
 Mając gotowe urządzenia, instruujemy `Document`, aby wyrenderował każdą stronę. Biblioteka automatycznie przeiteruje wszystkie strony i zapisze je według zdefiniowanego wzorca nazewnictwa.
@@ -127,8 +117,6 @@ sourceDoc.RenderTo(jpgDevice);
 
 Po uruchomieniu kodu znajdziesz serię plików takich jak `page_0.png`, `page_1.png`, … oraz `page_0.jpg`, `page_1.jpg` w folderze `output`. Każdy obraz będzie miał zastosowany antyaliasing, więc linie będą gładkie, a tekst krystalicznie czysty.
 
----
-
 ## Krok 5: Zweryfikuj wynik (oczekiwany output)
 
 Otwórz dowolny z wygenerowanych obrazów. Powinieneś zobaczyć:
@@ -138,8 +126,6 @@ Otwórz dowolny z wygenerowanych obrazów. Powinieneś zobaczyć:
 - **Spójne kolory** między PNG a JPG (choć JPG może wykazywać lekkie artefakty kompresji przy niższej jakości).
 
 Jeśli zauważysz rozmycie, sprawdź, czy `UseAntialiasing` jest ustawione na `true` oraz czy źródłowy DOCX nie zawiera niskiej rozdzielczości obrazów rastrowych.
-
----
 
 ## Często zadawane pytania i przypadki brzegowe
 
@@ -181,8 +167,6 @@ for (int i = 0; i < sourceDoc.PageCount; i++)
 ### Czy można konwertować do innych formatów, takich jak BMP lub TIFF?
 
 Tak — wystarczy zamienić `SaveFormat.Png` lub `SaveFormat.Jpeg` na `SaveFormat.Bmp` lub `SaveFormat.Tiff`. Te same ustawienia antyaliasingu zostaną zachowane.
-
----
 
 ## Pełny działający przykład (gotowy do kopiowania)
 
@@ -265,8 +249,6 @@ class Program
 ```
 
 > **Rezultat:** Po skompilowaniu (`dotnet run`) zobaczysz serię plików PNG i JPG w katalogu `output`, każdy z zastosowanym antyaliasingiem.
-
----
 
 ## Podsumowanie
 

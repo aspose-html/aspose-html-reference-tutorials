@@ -42,8 +42,6 @@ V tomto tutoriálu se naučíte **jak vytvořit stream** objekty, **jak bezpečn
 
 > **Pro tip:** Pokud cílíte na .NET 8, novější `ResourceHandler` poskytuje vestavěnou asynchronní podporu, která může ušetřit milisekundy ve scénářích s vysokou propustností.
 
----
-
 ## Vytvoření memory stream v C# – Starý přístup (pre‑24.2)
 
 Když jste uvězněni na starší verzi knihovny, musíte splnit kontrakt `IOutputStorage`. Rozhraní požaduje pouze metodu, která vrátí `Stream` pro daný název zdroje.
@@ -85,8 +83,6 @@ public class MyStorage : IOutputStorage
 | Vrácení uzavřeného streamu | Spotřebitelé dostanou `ObjectDisposedException` při zápisu. | Ujistěte se, že stream je **otevřený**, když jej předáváte dál. |
 | Zapomenutí nastavit `Position = 0` po zápisu | Data se při následném čtení jeví jako prázdná. | Před návratem zavolejte `stream.Seek(0, SeekOrigin.Begin)`, pokud jste stream předem naplnili. |
 | Použití obrovského `MemoryStream` pro velké soubory | Selhání z nedostatku paměti. | Přepněte na dočasný `FileStream` nebo vlastní bufferovaný stream. |
-
----
 
 ## Vytvoření memory stream v C# – Moderní přístup (24.2+)
 
@@ -143,8 +139,6 @@ public class MyHandler : ResourceHandler
 
 3. **Testování** – Jednotkové testy vašeho handleru můžete provést injekcí mock `IServiceProvider`, pokud základní třída získává služby z DI. Ověřte, že `HandleResource` vrací stream, do kterého lze zapisovat i číst.
 
----
-
 ## Jak vytvořit stream – Rychlý cheat sheet
 
 | Scénář | Doporučené API | Ukázkový kód |
@@ -156,15 +150,11 @@ public class MyHandler : ResourceHandler
 
 > **Poznámka:** Vždy nastavte `stream.Position = 0` před návratem, pokud jste stream předem naplnili; jinak čtecí komponenty budou mít dojem, že je stream prázdný.
 
----
-
 ## Ilustrační obrázek
 
 ![Diagram ukazující proces vytvoření memory stream v C#](https://example.com/images/create-memory-stream-diagram.png)
 
 *Alt text:* diagram ukazující proces vytvoření memory stream v C#
-
----
 
 ## Kompletní spustitelný příklad
 
@@ -250,8 +240,6 @@ Hello from async API!
 
 Program ukazuje tři způsoby, **jak vytvořit stream**: starý `IOutputStorage`, nový synchronní `HandleResource` a asynchronní `HandleResourceAsync`. Všechny tři vrací `MemoryStream`, což dokazuje, že tvorba vlastního streamu funguje bez ohledu na cílovou verzi.
 
----
-
 ## Často kladené otázky (FAQ)
 
 **Q: Musím volat `Dispose` na stream, který dostanu zpět?**  
@@ -265,8 +253,6 @@ A: Přepněte na `FileStream` založený na dočasném souboru, nebo implementuj
 
 **Q: Existuje rozdíl ve výkonu mezi těmito dvěma přístupy?**  
 A: Moderní `ResourceHandler` přidává malou režii kvůli logice základní třídy, ale asynchronní verze může dramaticky zlepšit propustnost při vysoké souběžnosti.
-
----
 
 ## Závěr
 

@@ -43,8 +43,6 @@ In this tutorial you’ll learn **how to create stream** objects, **how to handl
 
 > **Pro tip:** .NET 8 を対象にしている場合、 newer `ResourceHandler` は組み込みの非同期サポートを提供し、高スループットシナリオで数ミリ秒の削減が可能です。
 
----
-
 ## Create memory stream c# – Legacy approach (pre‑24.2)
 
 ライブラリの古いバージョンに縛られている場合、満たすべき契約は `IOutputStorage` です。このインターフェースは、指定されたリソース名に対して `Stream` を返すメソッドだけを要求します。
@@ -86,8 +84,6 @@ public class MyStorage : IOutputStorage
 | 閉じたストリームを返す | 書き込み時に `ObjectDisposedException` が発生します。 | ストリームを渡すときは **開いた状態** にしてください。 |
 | 書き込み後に `Position = 0` を設定し忘れる | 後で読み取るとデータが空になっているように見えます。 | 事前にデータを入れる場合は、返す前に `stream.Seek(0, SeekOrigin.Begin)` を呼び出してください。 |
 | 大きなファイルに巨大な `MemoryStream` を使用する | メモリ不足でクラッシュします。 | 一時的な `FileStream` またはカスタムバッファードストリームに切り替えてください。 |
-
----
 
 ## Create memory stream c# – Modern approach (24.2+)
 
@@ -144,8 +140,6 @@ public class MyHandler : ResourceHandler
 
 3. **Testing** – ベースクラスが DI からサービスを取得する場合、モック `IServiceProvider` を注入してハンドラをユニットテストします。`HandleResource` が書き込み・読み取り可能なストリームを返すことを検証してください。  
 
----
-
 ## How to create stream – クイックチートシート
 
 | シナリオ | 推奨 API | サンプルコード |
@@ -157,15 +151,11 @@ public class MyHandler : ResourceHandler
 
 > **Note:** ストリームを事前に埋める場合は、返す前に必ず `stream.Position = 0` を設定してください。そうしないと、下流のリーダーはストリームが空だと判断します。
 
----
-
 ## 画像イラスト
 
 ![create memory stream c# プロセスを示す図](https://example.com/images/create-memory-stream-diagram.png)
 
 *Alt text:* create memory stream c# プロセスを示す図
-
----
 
 ## 完全な実行可能サンプル
 
@@ -251,8 +241,6 @@ Hello from async API!
 
 このプログラムは、**how to create stream** の 3 つの方法、古い `IOutputStorage`、新しい同期 `HandleResource`、非同期 `HandleResourceAsync` を示します。3 つすべてが `MemoryStream` を返すため、対象バージョンに関係なくカスタムストリーム作成が機能することが証明されます。
 
----
-
 ## よくある質問 (FAQ)
 
 **Q: 取得したストリームに対して `Dispose` を呼び出す必要がありますか？**  
@@ -266,8 +254,6 @@ A: 一時ファイルをバックエンドとする `FileStream` に切り替え
 
 **Q: 2 つのアプローチ間でパフォーマンスの違いはありますか？**  
 A: モダンな `ResourceHandler` は追加のベースクラスロジックによりわずかなオーバーヘッドが発生しますが、非同期バージョンは高い同時実行時にスループットを大幅に向上させる可能性があります。
-
----
 
 ## まとめ
 

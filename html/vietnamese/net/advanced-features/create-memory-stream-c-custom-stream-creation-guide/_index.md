@@ -41,8 +41,6 @@ Trong hướng dẫn này, bạn sẽ học **how to create stream** objects, **
 
 > **Pro tip:** Nếu bạn đang nhắm tới .NET 8, `ResourceHandler` mới hơn cung cấp hỗ trợ async tích hợp, có thể giảm vài mili giây trong các kịch bản thông lượng cao.
 
----
-
 ## Tạo memory stream c# – Cách tiếp cận Legacy (pre‑24.2)
 
 Khi bạn bị kẹt ở phiên bản cũ của thư viện, hợp đồng bạn phải đáp ứng là `IOutputStorage`. Giao diện chỉ yêu cầu một phương thức trả về `Stream` cho một tên tài nguyên nhất định.
@@ -84,8 +82,6 @@ public class MyStorage : IOutputStorage
 | Trả về stream đã đóng | Người tiêu dùng sẽ nhận `ObjectDisposedException` khi ghi. | Đảm bảo stream **mở** khi bạn chuyển giao. |
 | Quên đặt `Position = 0` sau khi ghi | Dữ liệu xuất hiện trống khi đọc sau. | Gọi `stream.Seek(0, SeekOrigin.Begin)` trước khi trả về nếu bạn đã điền trước. |
 | Sử dụng `MemoryStream` lớn cho các tệp lớn | Sập do hết bộ nhớ. | Chuyển sang `FileStream` tạm thời hoặc một stream bộ đệm tùy chỉnh. |
-
----
 
 ## Tạo memory stream c# – Cách tiếp cận Modern (24.2+)
 
@@ -142,8 +138,6 @@ public class MyHandler : ResourceHandler
 
 3. **Testing** – Kiểm thử đơn vị handler của bạn bằng cách tiêm một mock `IServiceProvider` nếu lớp cơ sở lấy dịch vụ từ DI. Xác minh rằng `HandleResource` trả về một stream có thể ghi và đọc.
 
----
-
 ## Cách tạo stream – Bảng cheat sheet nhanh
 
 | Scenario | Recommended API | Sample Code |
@@ -155,15 +149,11 @@ public class MyHandler : ResourceHandler
 
 > **Note:** Luôn đặt `stream.Position = 0` trước khi trả về nếu bạn đã điền trước stream; nếu không, các trình đọc phía dưới sẽ nghĩ stream là trống.
 
----
-
 ## Minh họa hình ảnh
 
 ![Diagram showing create memory stream c# process](https://example.com/images/create-memory-stream-diagram.png)
 
 *Alt text:* sơ đồ mô tả quy trình tạo memory stream c#
-
----
 
 ## Ví dụ chạy đầy đủ
 
@@ -249,8 +239,6 @@ Hello from async API!
 
 Chương trình hiển thị ba cách để **how to create stream**: `IOutputStorage` cũ, `HandleResource` đồng bộ mới, và `HandleResourceAsync` bất đồng bộ. Cả ba đều trả về một `MemoryStream`, chứng minh rằng việc tạo stream tùy chỉnh hoạt động bất kể bạn nhắm tới phiên bản nào.
 
----
-
 ## Câu hỏi thường gặp (FAQ)
 
 **Q: Tôi có cần gọi `Dispose` trên stream mà tôi nhận được không?**  
@@ -264,8 +252,6 @@ A: Chuyển sang `FileStream` dựa trên tệp tạm thời, hoặc triển kha
 
 **Q: Có sự khác biệt về hiệu năng giữa hai cách tiếp cận không?**  
 A: `ResourceHandler` hiện đại thêm một chút overhead cho logic lớp cơ sở, nhưng phiên bản async có thể cải thiện đáng kể thông lượng trong môi trường đồng thời cao.
-
----
 
 ## Kết luận
 

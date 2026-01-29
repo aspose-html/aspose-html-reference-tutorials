@@ -42,8 +42,6 @@ In deze tutorial leer je **how to create stream** objecten, **how to handle reso
 
 > **Pro tip:** Als je richt op .NET 8, biedt de nieuwere `ResourceHandler` ingebouwde async‑ondersteuning, wat milliseconden kan besparen bij scenario's met hoge doorvoer.
 
----
-
 ## Maak geheugenstroom c# – Legacy‑aanpak (pre‑24.2)
 
 Wanneer je vastzit op een oudere versie van de bibliotheek, is het contract dat je moet voldoen `IOutputStorage`. De interface vraagt alleen om een methode die een `Stream` retourneert voor een opgegeven resource‑naam.
@@ -85,8 +83,6 @@ public class MyStorage : IOutputStorage
 | Een gesloten stream retourneren | Consumenten krijgen `ObjectDisposedException` bij schrijven. | Zorg ervoor dat de stream **open** is wanneer je deze overdraagt. |
 | Vergeten `Position = 0` in te stellen na het schrijven | Data lijkt leeg bij later lezen. | Roep `stream.Seek(0, SeekOrigin.Begin)` aan vóór het retourneren als je de stream vooraf vult. |
 | Een enorme `MemoryStream` gebruiken voor grote bestanden | Out‑of‑memory crashes. | Schakel over naar een tijdelijke `FileStream` of een aangepaste gebufferde stream. |
-
----
 
 ## Maak geheugenstroom c# – Moderne aanpak (24.2+)
 
@@ -143,8 +139,6 @@ public class MyHandler : ResourceHandler
 
 3. **Testing** – Unit‑test je handler door een mock `IServiceProvider` te injecteren als de basisklasse services uit DI haalt. Verifieer dat `HandleResource` een stream retourneert die zowel geschreven als gelezen kan worden.
 
----
-
 ## Hoe stream te maken – Een snelle spiekbrief
 
 | Scenario | Aanbevolen API | Voorbeeldcode |
@@ -156,15 +150,11 @@ public class MyHandler : ResourceHandler
 
 > **Opmerking:** Stel altijd `stream.Position = 0` in vóór het retourneren als je de stream vooraf vult; anders denken downstream‑lezers dat de stream leeg is.
 
----
-
 ## Afbeeldingsillustratie
 
 ![diagram dat het proces van create memory stream c# toont](https://example.com/images/create-memory-stream-diagram.png)
 
 *Alt text:* diagram dat het proces van create memory stream c# toont
-
----
 
 ## Volledig uitvoerbaar voorbeeld
 
@@ -250,8 +240,6 @@ Hello from async API!
 
 Het programma toont drie manieren om **how to create stream**: de oude `IOutputStorage`, de nieuwe synchronische `HandleResource` en de asynchrone `HandleResourceAsync`. Alle drie retourneren een `MemoryStream`, wat bewijst dat aangepaste streamcreatie werkt ongeacht welke versie je target.
 
----
-
 ## Veelgestelde vragen (FAQ)
 
 **Q: Moet ik `Dispose` aanroepen op de stream die ik terugkrijg?**  
@@ -265,8 +253,6 @@ A: Schakel over naar een `FileStream` die wordt ondersteund door een tijdelijk b
 
 **Q: Is er een prestatieverschil tussen de twee aanpakken?**  
 A: De moderne `ResourceHandler` voegt een kleine overhead toe door de extra basisklasse‑logica, maar de async‑versie kan de doorvoer aanzienlijk verbeteren bij hoge gelijktijdigheid.
-
----
 
 ## Samenvatting
 

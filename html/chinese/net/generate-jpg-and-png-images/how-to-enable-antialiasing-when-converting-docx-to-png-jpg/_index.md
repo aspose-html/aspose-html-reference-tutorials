@@ -30,8 +30,6 @@ url: /zh/net/generate-jpg-and-png-images/how-to-enable-antialiasing-when-convert
 
 在本教程中，我们将使用现代渲染库完整演示 **convert docx to png** 和 **convert docx to jpg** 的整个过程。你不仅会学习 *how to convert docx*，还会学习在启用抗锯齿和 hinting 的情况下 *how to render docx*，使每条曲线和每个字符都平滑。无需图形编程经验；只需一个基本的 C# 环境和一个想要转换为图像的 DOCX 文件。
 
----
-
 ## 所需条件
 
 - **.NET 6+**（如果你更喜欢经典运行时，也可以使用 .NET Framework 4.6+）  
@@ -43,8 +41,6 @@ dotnet add package Aspose.Words
 ```
 
 就这样——无需额外的图像处理工具。
-
----
 
 ## 步骤 1：加载 DOCX 文档（how to convert docx）
 
@@ -61,8 +57,6 @@ Document sourceDoc = new Document("input/input.docx");
 
 > **为什么重要：** 加载文档是 *how to render docx* 的基础。如果文件无法读取，后续步骤都无法进行，所以我们从这里开始。
 
----
-
 ## 步骤 2：配置图像渲染选项（enable antialiasing）
 
 现在进入神奇的部分——开启抗锯齿和 hinting。抗锯齿可以平滑对角线等通常出现的锯齿边缘，而 hinting 则提升小文字的清晰度。
@@ -77,8 +71,6 @@ ImageRenderingOptions renderingOptions = new ImageRenderingOptions
 ```
 
 > **专业提示：** 如果在处理超大文档时需要提升性能，可以关闭 `UseAntialiasing`，但视觉质量会明显下降。
-
----
 
 ## 步骤 3：选择输出格式 – PNG 或 JPG（convert docx to png / convert docx to jpg）
 
@@ -107,8 +99,6 @@ ImageDevice jpgDevice = new ImageDevice(renderingOptions)
 
 > **为什么两者都要？** PNG 保留每个像素，适合需要精确保真度的场景（例如打印）。而 JPG 则对图像进行压缩，使其在网站上加载更快。
 
----
-
 ## 步骤 4：将文档页面渲染为图像（how to render docx）
 
 设备准备好后，我们让 `Document` 渲染每一页。库会自动遍历所有页面，并使用我们定义的命名模式保存。
@@ -123,8 +113,6 @@ sourceDoc.RenderTo(jpgDevice);
 
 运行代码后，你会在 `output` 文件夹中看到一系列文件，如 `page_0.png`、`page_1.png` …以及 `page_0.jpg`、`page_1.jpg`。每张图像都已应用抗锯齿，线条平滑，文字清晰如晶体。
 
----
-
 ## 步骤 5：验证结果（expected output）
 
 打开任意生成的图像。你应该看到：
@@ -134,8 +122,6 @@ sourceDoc.RenderTo(jpgDevice);
 - **颜色一致** 在 PNG 和 JPG 之间（不过如果降低质量，JPG 可能会出现轻微的压缩伪影）。
 
 如果发现任何模糊，请再次确认 `UseAntialiasing` 已设置为 `true`，并且你的源 DOCX 不包含低分辨率的光栅图像。
-
----
 
 ## 常见问题与边缘情况
 
@@ -177,8 +163,6 @@ for (int i = 0; i < sourceDoc.PageCount; i++)
 ### 是否可以转换为其他格式，如 BMP 或 TIFF？
 
 可以——只需将 `SaveFormat.Png` 或 `SaveFormat.Jpeg` 替换为 `SaveFormat.Bmp` 或 `SaveFormat.Tiff`。相同的抗锯齿设置会被保留。
-
----
 
 ## 完整工作示例（可直接复制粘贴）
 
@@ -261,8 +245,6 @@ class Program
 ```
 
 > **结果：** 编译后（`dotnet run`），你会在 `output` 目录中看到一系列 PNG 和 JPG 文件，每个文件都已应用抗锯齿。
-
----
 
 ## 结论
 

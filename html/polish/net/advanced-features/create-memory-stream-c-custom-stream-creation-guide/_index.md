@@ -42,8 +42,6 @@ W tym samouczku nauczysz się **how to create stream** obiektów, **how to handl
 
 > **Pro tip:** Jeśli celujesz w .NET 8, nowszy `ResourceHandler` zapewnia wbudowane wsparcie async, co może zaoszczędzić milisekundy w scenariuszach o wysokiej przepustowości.
 
----
-
 ## Utworzenie strumienia pamięci c# – Podejście legacy (przed‑24.2)
 
 Gdy utkniesz na starszej wersji biblioteki, kontrakt, który musisz spełnić, to `IOutputStorage`. Interfejs wymaga jedynie metody zwracającej `Stream` dla podanej nazwy zasobu.
@@ -85,8 +83,6 @@ public class MyStorage : IOutputStorage
 | Zwracanie zamkniętego strumienia | Konsumenci otrzymają `ObjectDisposedException` przy zapisie. | Upewnij się, że strumień jest **otwarty** przy przekazywaniu. |
 | Zapomnienie o ustawieniu `Position = 0` po zapisie | Dane wydają się puste przy późniejszym odczycie. | Wywołaj `stream.Seek(0, SeekOrigin.Begin)` przed zwróceniem, jeśli wstępnie wypełniasz strumień. |
 | Używanie dużego `MemoryStream` dla dużych plików | Awaria z powodu braku pamięci. | Przejdź na tymczasowy `FileStream` lub własny buforowany strumień. |
-
----
 
 ## Utworzenie strumienia pamięci c# – Nowoczesne podejście (24.2+)
 
@@ -143,8 +139,6 @@ public class MyHandler : ResourceHandler
 
 3. **Testing** – Przetestuj jednostkowo swój handler, wstrzykując mock `IServiceProvider`, jeśli klasa bazowa pobiera usługi z DI. Zweryfikuj, że `HandleResource` zwraca strumień, do którego można zapisywać i odczytywać.
 
----
-
 ## Jak utworzyć strumień – Szybka karta pomocy
 
 | Scenariusz | Zalecane API | Przykładowy kod |
@@ -156,15 +150,11 @@ public class MyHandler : ResourceHandler
 
 > **Uwaga:** Zawsze ustaw `stream.Position = 0` przed zwróceniem, jeśli wstępnie wypełniasz strumień; w przeciwnym razie czytniki dalszego przetwarzania uznają strumień za pusty.
 
----
-
 ## Ilustracja
 
 ![Diagram pokazujący proces tworzenia strumienia pamięci c#](https://example.com/images/create-memory-stream-diagram.png)
 
 *Alt text:* diagram pokazujący proces tworzenia strumienia pamięci c#
-
----
 
 ## Pełny działający przykład
 
@@ -250,8 +240,6 @@ Hello from async API!
 
 Program pokazuje trzy sposoby **how to create stream**: stary `IOutputStorage`, nowy synchroniczny `HandleResource` oraz asynchroniczny `HandleResourceAsync`. Wszystkie trzy zwracają `MemoryStream`, co dowodzi, że własne tworzenie strumieni działa niezależnie od wersji, którą celujesz.
 
----
-
 ## Najczęściej zadawane pytania (FAQ)
 
 **Q: Czy muszę wywołać `Dispose` na strumieniu, który otrzymuję?**  
@@ -265,8 +253,6 @@ A: Przejdź na `FileStream` oparty na pliku tymczasowym lub zaimplementuj własn
 
 **Q: Czy istnieje różnica wydajnościowa między tymi dwoma podejściami?**  
 A: Nowoczesny `ResourceHandler` wprowadza niewielki narzut związany z dodatkową logiką klasy bazowej, ale wersja async może znacząco zwiększyć przepustowość przy wysokiej współbieżności.
-
----
 
 ## Podsumowanie
 

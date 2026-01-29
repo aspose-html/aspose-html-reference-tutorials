@@ -42,8 +42,6 @@ url: /ru/net/advanced-features/create-memory-stream-c-custom-stream-creation-gui
 
 > **Pro tip:** Если вы нацелены на .NET 8, новый `ResourceHandler` предоставляет встроенную поддержку async, что может сэкономить миллисекунды в сценариях с высоким пропускным способностью.
 
----
-
 ## Создание memory stream c# – Устаревший подход (pre‑24.2)
 
 Когда вы застряли на более старой версии библиотеки, контракт, который нужно выполнить, — `IOutputStorage`. Интерфейс требует лишь метод, возвращающий `Stream` для заданного имени ресурса.
@@ -85,8 +83,6 @@ public class MyStorage : IOutputStorage
 | Returning a closed stream | Consumers will get `ObjectDisposedException` on write. | Ensure the stream is **open** when you hand it off. |
 | Forgetting to set `Position = 0` after writing | Data appears empty when read later. | Call `stream.Seek(0, SeekOrigin.Begin)` before returning if you pre‑populate it. |
 | Using a huge `MemoryStream` for large files | Out‑of‑memory crashes. | Switch to a temporary `FileStream` or a custom buffered stream. |
-
----
 
 ## Создание memory stream c# – Современный подход (24.2+)
 

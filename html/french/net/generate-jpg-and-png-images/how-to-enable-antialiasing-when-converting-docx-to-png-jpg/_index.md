@@ -34,8 +34,6 @@ Vous vous êtes déjà demandé **comment activer l'anticrénelage** pour que vo
 
 Dans ce tutoriel, nous parcourrons l’ensemble du processus de **convert docx to png** et **convert docx to jpg** en utilisant une bibliothèque de rendu moderne. Vous apprendrez non seulement *comment convertir docx* mais aussi *comment rendre docx* avec l'anticrénelage et le hinting activés, afin que chaque courbe et chaque caractère soient lisses. Aucune expérience préalable en programmation graphique n’est requise ; il vous suffit d’une configuration C# basique et d’un fichier DOCX que vous souhaitez transformer en image.
 
----
-
 ## Ce dont vous aurez besoin
 
 - **.NET 6+** (ou .NET Framework 4.6+ si vous préférez le runtime classique)  
@@ -47,8 +45,6 @@ dotnet add package Aspose.Words
 ```
 
 C’est tout—aucun outil de traitement d’image supplémentaire n’est requis.
-
----
 
 ## Étape 1 : Charger le document DOCX (how to convert docx)
 
@@ -65,8 +61,6 @@ Document sourceDoc = new Document("input/input.docx");
 
 > **Pourquoi c’est important :** Charger le document est la base pour *how to render docx*. Si le fichier ne peut pas être lu, aucune des étapes suivantes ne fonctionnera, nous commençons donc ici.
 
----
-
 ## Étape 2 : Configurer les options de rendu d’image (enable antialiasing)
 
 Voici la partie magique — activer l'anticrénelage et le hinting. L'anticrénelage adoucit les bords dentelés que l’on voit habituellement sur les lignes diagonales, tandis que le hinting améliore la clarté du petit texte.
@@ -81,8 +75,6 @@ ImageRenderingOptions renderingOptions = new ImageRenderingOptions
 ```
 
 > **Astuce :** Si vous avez besoin d’un gain de performance sur des documents volumineux, vous pouvez désactiver `UseAntialiasing`, mais la qualité visuelle diminuera de façon notable.
-
----
 
 ## Étape 3 : Choisir le format de sortie – PNG ou JPG (convert docx to png / convert docx to jpg)
 
@@ -111,8 +103,6 @@ ImageDevice jpgDevice = new ImageDevice(renderingOptions)
 
 > **Pourquoi les deux ?** PNG préserve chaque pixel, ce qui est parfait lorsque vous avez besoin d’une fidélité exacte (par ex., impression). JPG, en revanche, compresse l’image, ce qui la rend plus rapide à charger sur un site web.
 
----
-
 ## Étape 4 : Rendre les pages du document en images (how to render docx)
 
 Avec les appareils prêts, nous demandons au `Document` de rendre chaque page. La bibliothèque parcourra automatiquement toutes les pages et les enregistrera en utilisant le modèle de nommage que nous avons défini.
@@ -127,8 +117,6 @@ sourceDoc.RenderTo(jpgDevice);
 
 Après l’exécution du code, vous trouverez une série de fichiers comme `page_0.png`, `page_1.png`, … et `page_0.jpg`, `page_1.jpg` dans le dossier `output`. Chaque image aura l’anticrénelage appliqué, de sorte que les lignes sont lisses et le texte est cristallin.
 
----
-
 ## Étape 5 : Vérifier le résultat (expected output)
 
 Ouvrez l’une des images générées. Vous devriez voir :
@@ -138,8 +126,6 @@ Ouvrez l’une des images générées. Vous devriez voir :
 - **Des couleurs cohérentes** entre PNG et JPG (bien que le JPG puisse montrer de légers artefacts de compression si vous réduisez la qualité).
 
 Si vous remarquez un flou, vérifiez que `UseAntialiasing` est bien réglé sur `true` et que votre DOCX source ne contient pas d’images raster basse résolution.
-
----
 
 ## Questions fréquentes & cas particuliers
 
@@ -181,8 +167,6 @@ for (int i = 0; i < sourceDoc.PageCount; i++)
 ### Est‑il possible de convertir vers d’autres formats comme BMP ou TIFF ?
 
 Oui—il suffit d’échanger `SaveFormat.Png` ou `SaveFormat.Jpeg` avec `SaveFormat.Bmp` ou `SaveFormat.Tiff`. Les mêmes paramètres d’anticrénelage sont conservés.
-
----
 
 ## Exemple complet fonctionnel (prêt à copier‑coller)
 
@@ -265,8 +249,6 @@ class Program
 ```
 
 > **Résultat :** Après compilation (`dotnet run`), vous verrez une série de fichiers PNG et JPG dans le répertoire `output`, chacun avec l’anticrénelage appliqué.
-
----
 
 ## Conclusion
 

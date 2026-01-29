@@ -33,8 +33,6 @@ Pernah bertanya-tanya **bagaimana cara mengaktifkan antialiasing** sehingga gamb
 
 Dalam tutorial ini kami akan membahas seluruh proses **convert docx to png** dan **convert docx to jpg** menggunakan perpustakaan rendering modern. Anda akan belajar tidak hanya *how to convert docx* tetapi juga *how to render docx* dengan antialiasing dan hinting diaktifkan, sehingga setiap kurva dan karakter tampak halus. Tidak diperlukan pengalaman sebelumnya dalam pemrograman grafis; cukup dengan setup C# dasar dan file DOCX yang ingin Anda ubah menjadi gambar.
 
----
-
 ## Apa yang Anda Butuhkan
 
 - **.NET 6+** (atau .NET Framework 4.6+ jika Anda lebih suka runtime klasik)  
@@ -46,8 +44,6 @@ dotnet add package Aspose.Words
 ```
 
 Itu saja—tidak diperlukan alat pemrosesan gambar tambahan.
-
----
 
 ## Langkah 1: Muat Dokumen DOCX (how to convert docx)
 
@@ -64,8 +60,6 @@ Document sourceDoc = new Document("input/input.docx");
 
 > **Mengapa ini penting:** Memuat dokumen adalah fondasi untuk *how to render docx*. Jika file tidak dapat dibaca, langkah-langkah selanjutnya tidak akan berfungsi, jadi kita mulai dari sini.
 
----
-
 ## Langkah 2: Konfigurasikan Image Rendering Options (enable antialiasing)
 
 Sekarang bagian magis—mengaktifkan antialiasing dan hinting. Antialiasing melicinkan tepi bergerigi yang biasanya terlihat pada garis diagonal, sementara hinting meningkatkan kejelasan teks kecil.
@@ -80,8 +74,6 @@ ImageRenderingOptions renderingOptions = new ImageRenderingOptions
 ```
 
 > **Tips pro:** Jika Anda membutuhkan peningkatan performa pada dokumen yang sangat besar, Anda dapat mematikan `UseAntialiasing`, namun kualitas visual akan berkurang secara signifikan.
-
----
 
 ## Langkah 3: Pilih Format Output – PNG atau JPG (convert docx to png / convert docx to jpg)
 
@@ -110,8 +102,6 @@ ImageDevice jpgDevice = new ImageDevice(renderingOptions)
 
 > **Mengapa keduanya?** PNG mempertahankan setiap pixel, yang sempurna ketika Anda memerlukan fidelitas tepat (misalnya untuk pencetakan). JPG, di sisi lain, mengompresi gambar, membuatnya lebih cepat dimuat di situs web.
 
----
-
 ## Langkah 4: Render Halaman Dokumen ke Gambar (how to render docx)
 
 Dengan perangkat siap, kami memberi tahu `Document` untuk merender setiap halaman. Perpustakaan secara otomatis akan melintasi semua halaman dan menyimpannya menggunakan pola penamaan yang telah kami tentukan.
@@ -126,8 +116,6 @@ sourceDoc.RenderTo(jpgDevice);
 
 Setelah menjalankan kode, Anda akan menemukan serangkaian file seperti `page_0.png`, `page_1.png`, … dan `page_0.jpg`, `page_1.jpg` di dalam folder `output`. Setiap gambar akan memiliki antialiasing yang diterapkan, sehingga garis menjadi halus dan teks sangat jelas.
 
----
-
 ## Langkah 5: Verifikasi Hasil (expected output)
 
 Buka salah satu gambar yang dihasilkan. Anda seharusnya melihat:
@@ -137,8 +125,6 @@ Buka salah satu gambar yang dihasilkan. Anda seharusnya melihat:
 - **Warna konsisten** antara PNG dan JPG (meskipun JPG mungkin menunjukkan artefak kompresi ringan jika Anda menurunkan kualitas).
 
 Jika Anda melihat keburaman, periksa kembali bahwa `UseAntialiasing` diset ke `true` dan bahwa file DOCX sumber Anda tidak berisi gambar raster beresolusi rendah.
-
----
 
 ## Pertanyaan Umum & Kasus Khusus
 
@@ -180,8 +166,6 @@ for (int i = 0; i < sourceDoc.PageCount; i++)
 ### Apakah memungkinkan mengonversi ke format lain seperti BMP atau TIFF?
 
 Ya—cukup ganti `SaveFormat.Png` atau `SaveFormat.Jpeg` dengan `SaveFormat.Bmp` atau `SaveFormat.Tiff`. Pengaturan antialiasing yang sama tetap berlaku.
-
----
 
 ## Contoh Lengkap yang Siap Pakai (Copy‑Paste Ready)
 
@@ -264,8 +248,6 @@ class Program
 ```
 
 > **Hasil:** Setelah dikompilasi (`dotnet run`) Anda akan melihat serangkaian file PNG dan JPG di direktori `output`, masing‑masing dengan antialiasing yang diterapkan.
-
----
 
 ## Kesimpulan
 

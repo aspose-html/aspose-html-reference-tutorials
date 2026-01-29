@@ -32,8 +32,6 @@ url: /ko/net/generate-jpg-and-png-images/how-to-enable-antialiasing-when-convert
 
 이 튜토리얼에서는 최신 렌더링 라이브러리를 사용해 **convert docx to png**와 **convert docx to jpg** 전체 과정을 단계별로 살펴봅니다. *DOCX를 변환하는 방법*뿐만 아니라 안티앨리어싱과 힌팅이 활성화된 *DOCX를 렌더링하는 방법*도 배울 수 있습니다. 그래픽 프로그래밍 경험이 없어도 괜찮습니다; 기본적인 C# 환경과 이미지로 만들고 싶은 DOCX 파일만 있으면 됩니다.
 
----
-
 ## 준비물
 
 - **.NET 6+** (또는 클래식 런타임을 선호한다면 .NET Framework 4.6+)  
@@ -45,8 +43,6 @@ dotnet add package Aspose.Words
 ```
 
 그게 전부—추가 이미지 처리 도구는 필요 없습니다.
-
----
 
 ## Step 1: DOCX 문서 로드 (how to convert docx)
 
@@ -63,8 +59,6 @@ Document sourceDoc = new Document("input/input.docx");
 
 > **왜 중요한가:** 문서를 로드하는 것이 *how to render docx*의 기반이 됩니다. 파일을 읽을 수 없으면 이후 단계가 모두 무용지물이므로 여기서 시작합니다.
 
----
-
 ## Step 2: 이미지 렌더링 옵션 설정 (enable antialiasing)
 
 이제 마법의 단계—안티앨리어싱과 힌팅을 켭니다. 안티앨리어싱은 대각선 선에서 보이는 거친 가장자리를 부드럽게 만들고, 힌팅은 작은 텍스트의 선명도를 높입니다.
@@ -79,8 +73,6 @@ ImageRenderingOptions renderingOptions = new ImageRenderingOptions
 ```
 
 > **프로 팁:** 대용량 문서에서 성능을 높이고 싶다면 `UseAntialiasing`을 끌 수 있지만, 시각적 품질이 눈에 띄게 떨어집니다.
-
----
 
 ## Step 3: 출력 형식 선택 – PNG 또는 JPG (convert docx to png / convert docx to jpg)
 
@@ -109,8 +101,6 @@ ImageDevice jpgDevice = new ImageDevice(renderingOptions)
 
 > **왜 두 가지를?** PNG는 모든 픽셀을 보존하므로 정확한 충실도가 필요할 때(예: 인쇄) 이상적입니다. 반면 JPG는 이미지를 압축해 웹에서 로드 속도가 빨라집니다.
 
----
-
 ## Step 4: 문서 페이지를 이미지로 렌더링 (how to render docx)
 
 디바이스가 준비되었으니 `Document`에 각 페이지를 렌더링하도록 지시합니다. 라이브러리는 자동으로 모든 페이지를 순회하며 정의한 이름 규칙대로 저장합니다.
@@ -125,8 +115,6 @@ sourceDoc.RenderTo(jpgDevice);
 
 코드를 실행하면 `output` 폴더 안에 `page_0.png`, `page_1.png`, … 및 `page_0.jpg`, `page_1.jpg`와 같은 파일들이 생성됩니다. 각 이미지에는 안티앨리어싱이 적용돼 선이 부드럽고 텍스트가 선명합니다.
 
----
-
 ## Step 5: 결과 확인 (expected output)
 
 생성된 이미지 중 하나를 열어보세요. 다음과 같이 표시됩니다:
@@ -136,8 +124,6 @@ sourceDoc.RenderTo(jpgDevice);
 - **PNG와 JPG 간 색상 일관성**(단, JPG는 품질을 낮추면 약간의 압축 아티팩트가 나타날 수 있음).
 
 이미지가 흐릿하게 보이면 `UseAntialiasing`이 `true`로 설정됐는지, 그리고 원본 DOCX에 저해상도 래스터 이미지가 포함돼 있지는 않은지 다시 확인하세요.
-
----
 
 ## Common Questions & Edge Cases
 
@@ -179,8 +165,6 @@ for (int i = 0; i < sourceDoc.PageCount; i++)
 ### BMP나 TIFF 같은 다른 포맷으로 변환할 수 있나요?
 
 가능합니다—`SaveFormat.Png` 또는 `SaveFormat.Jpeg` 대신 `SaveFormat.Bmp` 혹은 `SaveFormat.Tiff`를 사용하면 됩니다. 동일한 안티앨리어싱 설정이 적용됩니다.
-
----
 
 ## Full Working Example (Copy‑Paste Ready)
 
@@ -263,8 +247,6 @@ class Program
 ```
 
 > **결과:** `dotnet run`으로 컴파일한 뒤 `output` 디렉터리 안에 안티앨리어싱이 적용된 PNG와 JPG 파일들이 생성됩니다.
-
----
 
 ## Conclusion
 

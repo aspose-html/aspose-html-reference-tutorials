@@ -31,8 +31,6 @@ url: /zh-hant/net/generate-jpg-and-png-images/how-to-enable-antialiasing-when-co
 
 在本教學中，我們將完整示範使用現代渲染函式庫將 **convert docx to png** 與 **convert docx to jpg**。你不僅會學會 *how to convert docx*，還會學會在啟用抗鋸齒與 hinting 的情況下 *how to render docx*，讓每條曲線與每個字元都呈現平滑。即使沒有圖形程式設計經驗，只要有基本的 C# 環境與想要轉成圖像的 DOCX 檔案，即可上手。
 
----
-
 ## 需要的環境
 
 - **.NET 6+**（或若偏好傳統執行環境則使用 .NET Framework 4.6+）  
@@ -44,8 +42,6 @@ dotnet add package Aspose.Words
 ```
 
 就這樣——不需要額外的圖像處理工具。
-
----
 
 ## 步驟 1：載入 DOCX 文件（how to convert docx）
 
@@ -62,8 +58,6 @@ Document sourceDoc = new Document("input/input.docx");
 
 > **為什麼這很重要：** 載入文件是 *how to render docx* 的基礎。如果檔案無法讀取，後續步驟都無法執行，所以必須從這裡開始。
 
----
-
 ## 步驟 2：設定影像渲染選項（enable antialiasing）
 
 接下來就是魔法時間——開啟抗鋸齒與 hinting。抗鋸齒會平滑對角線上常見的鋸齒邊緣，而 hinting 則提升小字體的清晰度。
@@ -78,8 +72,6 @@ ImageRenderingOptions renderingOptions = new ImageRenderingOptions
 ```
 
 > **小技巧：** 若在處理超大型文件時需要提升效能，可以將 `UseAntialiasing` 關閉，但畫面品質會明顯下降。
-
----
 
 ## 步驟 3：選擇輸出格式 – PNG 或 JPG（convert docx to png / convert docx to jpg）
 
@@ -108,8 +100,6 @@ ImageDevice jpgDevice = new ImageDevice(renderingOptions)
 
 > **為什麼要兩種？** PNG 能完整保留每個像素，適合需要精確還原的情境（例如列印）。JPG 則會壓縮圖像，讓網站載入更快。
 
----
-
 ## 步驟 4：將文件頁面渲染為影像（how to render docx）
 
 裝置準備好後，我們指示 `Document` 渲染每一頁。函式庫會自動遍歷所有頁面，並依照先前設定的命名規則儲存。
@@ -124,8 +114,6 @@ sourceDoc.RenderTo(jpgDevice);
 
 執行程式後，你會在 `output` 資料夾中看到一系列檔案，如 `page_0.png`、`page_1.png` … 以及 `page_0.jpg`、`page_1.jpg`。每張影像皆已套用抗鋸齒，線條平滑、文字清晰。
 
----
-
 ## 步驟 5：驗證結果（expected output）
 
 打開任一產生的影像，你應該會看到：
@@ -135,8 +123,6 @@ sourceDoc.RenderTo(jpgDevice);
 - **PNG 與 JPG 之間的顏色一致**（不過若降低 JPG 品質，可能會出現輕微壓縮雜訊）。
 
 如果發現任何模糊，請再次確認 `UseAntialiasing` 已設為 `true`，且來源 DOCX 中未包含低解析度的點陣圖。
-
----
 
 ## 常見問題與特殊情況
 
@@ -178,8 +164,6 @@ for (int i = 0; i < sourceDoc.PageCount; i++)
 ### 能否轉換成其他格式，例如 BMP 或 TIFF？
 
 可以，只要將 `SaveFormat.Png` 或 `SaveFormat.Jpeg` 換成 `SaveFormat.Bmp` 或 `SaveFormat.Tiff`。抗鋸齒設定會自動套用。
-
----
 
 ## 完整範例（可直接複製貼上）
 
@@ -262,8 +246,6 @@ class Program
 ```
 
 > **結果：** 編譯完成（`dotnet run`）後，你會在 `output` 目錄看到一系列 PNG 與 JPG 檔案，皆已套用抗鋸齒。
-
----
 
 ## 結論
 

@@ -33,8 +33,6 @@ url: /el/net/generate-jpg-and-png-images/how-to-enable-antialiasing-when-convert
 
 Σε αυτό το tutorial θα περάσουμε από όλη τη διαδικασία **convert docx to png** και **convert docx to jpg** χρησιμοποιώντας μια σύγχρονη βιβλιοθήκη rendering. Θα μάθετε όχι μόνο *πώς να μετατρέψετε docx* αλλά και *πώς να render docx* με ενεργοποιημένο antialiasing και hinting, ώστε κάθε καμπύλη και χαρακτήρας να φαίνεται ομαλός. Δεν απαιτείται προηγούμενη εμπειρία προγραμματισμού γραφικών· αρκεί μια βασική ρύθμιση C# και ένα αρχείο DOCX που θέλετε να μετατρέψετε σε εικόνα.
 
----
-
 ## Τι Θα Χρειαστεί
 
 - **.NET 6+** (ή .NET Framework 4.6+ εάν προτιμάτε το κλασικό runtime)  

@@ -42,7 +42,6 @@ Dans ce tutoriel, vous apprendrez **comment créer des objets stream**, **commen
 
 > **Astuce pro :** Si vous ciblez .NET 8, le nouveau `ResourceHandler` vous offre un support asynchrone intégré, ce qui peut économiser des millisecondes dans les scénarios à haut débit.
 
----
 
 ## Créer un flux mémoire c# – Approche héritée (pré‑24.2)
 
@@ -86,7 +85,6 @@ public class MyStorage : IOutputStorage
 | Oublier de définir `Position = 0` après l'écriture | Les données semblent vides lors de la lecture ultérieure. | Appelez `stream.Seek(0, SeekOrigin.Begin)` avant de retourner le flux si vous le pré‑remplissez. |
 | Utiliser un `MemoryStream` gigantesque pour de gros fichiers | Crashs pour manque de mémoire. | Passez à un `FileStream` temporaire ou à un flux tampon personnalisé. |
 
----
 
 ## Créer un flux mémoire c# – Approche moderne (24.2+)
 
@@ -143,7 +141,6 @@ public class MyHandler : ResourceHandler
 
 3. **Tests** – Testez votre handler en injectant un `IServiceProvider` factice si la classe de base récupère des services via DI. Vérifiez que `HandleResource` renvoie un flux pouvant être écrit et lu.
 
----
 
 ## Comment créer un flux – Fiche mémo rapide
 
@@ -156,7 +153,6 @@ public class MyHandler : ResourceHandler
 
 > **Remarque :** Toujours définir `stream.Position = 0` avant de retourner le flux si vous le pré‑remplissez ; sinon les lecteurs en aval penseront que le flux est vide.
 
----
 
 ## Illustration d'image
 
@@ -164,7 +160,6 @@ public class MyHandler : ResourceHandler
 
 *Texte alternatif :* diagramme montrant le processus de création d'un flux mémoire c# process
 
----
 
 ## Exemple complet exécutable
 
@@ -250,7 +245,6 @@ Hello from async API!
 
 Le programme montre trois façons de **créer un flux** : l'ancienne `IOutputStorage`, le nouveau `HandleResource` synchrone, et le `HandleResourceAsync` asynchrone. Les trois retournent un `MemoryStream`, prouvant que la création de flux personnalisés fonctionne quel que soit la version ciblée.
 
----
 
 ## Questions fréquemment posées (FAQ)
 
@@ -266,7 +260,6 @@ R : Passez à un `FileStream` basé sur un fichier temporaire, ou implémentez u
 **Q : Y a‑t‑il une différence de performance entre les deux approches ?**  
 R : `ResourceHandler` moderne ajoute un léger surcoût lié à la logique de la classe de base, mais la version async peut améliorer considérablement le débit sous forte concurrence.
 
----
 
 ## Conclusion
 

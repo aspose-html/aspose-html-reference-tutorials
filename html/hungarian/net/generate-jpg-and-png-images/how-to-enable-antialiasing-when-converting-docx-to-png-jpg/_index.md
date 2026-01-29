@@ -34,8 +34,6 @@ Gondolkodtál már azon, **hogyan engedélyezzük az antialiasingot**, hogy a ko
 
 Ebben az útmutatóban végigvezetünk a teljes **convert docx to png** és **convert docx to jpg** folyamaton egy modern renderelő könyvtár használatával. Megtanulod nem csak *how to convert docx*-t, hanem *how to render docx*-t is antialiasing és hinting engedélyezésével, így minden görbület és karakter sima lesz. Nem szükséges előzetes grafikus programozási tapasztalat; csak egy alap C# beállítás és egy DOCX fájl, amelyet képpé szeretnél alakítani.
 
----
-
 ## Amire szükséged lesz
 
 - **.NET 6+** (vagy .NET Framework 4.6+, ha a klasszikus futtatókörnyezetet részesíted előnyben)  

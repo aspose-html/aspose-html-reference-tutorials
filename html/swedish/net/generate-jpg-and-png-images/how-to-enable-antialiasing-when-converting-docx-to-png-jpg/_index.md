@@ -33,8 +33,6 @@ Har du någonsin undrat **hur du aktiverar kantutjämning** så att dina konvert
 
 I den här handledningen går vi igenom hela processen för **convert docx to png** och **convert docx to jpg** med ett modernt renderingsbibliotek. Du lär dig inte bara *how to convert docx* utan också *how to render docx* med kantutjämning och hinting aktiverat, så att varje kurva och tecken ser släta ut. Ingen förkunskap om grafikprogrammering krävs; bara en grundläggande C#‑miljö och en DOCX‑fil du vill göra om till en bild.
 
----
-
 ## Vad du behöver
 
 - **.NET 6+** (eller .NET Framework 4.6+ om du föredrar den klassiska runtime‑miljön)  
@@ -46,8 +44,6 @@ dotnet add package Aspose.Words
 ```
 
 Det är allt—inga extra bild‑behandlingsverktyg behövs.
-
----
 
 ## Steg 1: Läs in DOCX‑dokumentet (how to convert docx)
 
@@ -64,8 +60,6 @@ Document sourceDoc = new Document("input/input.docx");
 
 > **Varför detta är viktigt:** Att läsa in dokumentet är grunden för *how to render docx*. Om filen inte kan läsas kommer inga av de efterföljande stegen att fungera, så vi börjar här.
 
----
-
 ## Steg 2: Konfigurera bildrenderingsalternativ (enable antialiasing)
 
 Nu kommer den magiska delen—att slå på kantutjämning och hinting. Kantutjämning mjukar upp de hackiga kanterna du normalt ser på diagonala linjer, medan hinting förbättrar tydligheten i liten text.
@@ -80,8 +74,6 @@ ImageRenderingOptions renderingOptions = new ImageRenderingOptions
 ```
 
 > **Proffstips:** Om du någonsin behöver en prestandaökning på enorma dokument kan du stänga av `UseAntialiasing`, men den visuella kvaliteten kommer märkbart att försämras.
-
----
 
 ## Steg 3: Välj utdataformat – PNG eller JPG (convert docx to png / convert docx to jpg)
 
@@ -110,8 +102,6 @@ ImageDevice jpgDevice = new ImageDevice(renderingOptions)
 
 > **Varför båda?** PNG bevarar varje pixel, vilket är perfekt när du behöver exakt återgivning (t.ex. för utskrift). JPG, å andra sidan, komprimerar bilden och gör den snabbare att ladda på en webbplats.
 
----
-
 ## Steg 4: Rendera dokumentets sidor till bilder (how to render docx)
 
 När enheterna är klara säger vi åt `Document` att rendera varje sida. Biblioteket loopar automatiskt igenom alla sidor och sparar dem enligt det namnformat vi definierat.
@@ -126,8 +116,6 @@ sourceDoc.RenderTo(jpgDevice);
 
 Efter att koden har körts hittar du en rad filer som `page_0.png`, `page_1.png`, … och `page_0.jpg`, `page_1.jpg` i mappen `output`. Varje bild har kantutjämning applicerad, så linjerna är släta och texten kristallklar.
 
----
-
 ## Steg 5: Verifiera resultatet (expected output)
 
 Öppna någon av de genererade bilderna. Du bör se:
@@ -137,8 +125,6 @@ Efter att koden har körts hittar du en rad filer som `page_0.png`, `page_1.png`
 - **Konsekventa färger** mellan PNG och JPG (även om JPG kan visa små komprimeringsartefakter om du sänker kvaliteten).
 
 Om du märker någon oskärpa, dubbelkolla att `UseAntialiasing` är satt till `true` och att ditt källdokument DOCX inte innehåller lågupplösta rasterbilder.
-
----
 
 ## Vanliga frågor & specialfall
 
@@ -180,8 +166,6 @@ for (int i = 0; i < sourceDoc.PageCount; i++)
 ### Är det möjligt att konvertera till andra format som BMP eller TIFF?
 
 Ja—byt bara `SaveFormat.Png` eller `SaveFormat.Jpeg` mot `SaveFormat.Bmp` eller `SaveFormat.Tiff`. Samma kantutjämningsinställningar gäller.
-
----
 
 ## Fullt fungerande exempel (Kopiera‑klistra‑klart)
 
@@ -264,8 +248,6 @@ class Program
 ```
 
 > **Resultat:** Efter att du har kompilerat (`dotnet run`) ser du en rad PNG‑ och JPG‑filer i katalogen `output`, var och en med kantutjämning applicerad.
-
----
 
 ## Slutsats
 

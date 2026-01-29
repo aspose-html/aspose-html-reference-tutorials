@@ -33,8 +33,6 @@ Bạn đã bao giờ tự hỏi **cách bật antialiasing** để hình ảnh D
 
 Trong hướng dẫn này, chúng ta sẽ đi qua toàn bộ quy trình **convert docx to png** và **convert docx to jpg** bằng một thư viện render hiện đại. Bạn sẽ học không chỉ *cách chuyển docx* mà còn *cách render docx* với antialiasing và hinting được bật, để mọi đường cong và ký tự đều mượt mà. Không cần kinh nghiệm lập trình đồ họa trước; chỉ cần một môi trường C# cơ bản và một file DOCX bạn muốn chuyển thành ảnh.
 
----
-
 ## Những Gì Bạn Cần Chuẩn Bị
 
 - **.NET 6+** (hoặc .NET Framework 4.6+ nếu bạn thích runtime cổ điển)  
@@ -46,8 +44,6 @@ dotnet add package Aspose.Words
 ```
 
 Thế là xong—không cần công cụ xử lý ảnh bổ sung.
-
----
 
 ## Bước 1: Tải Tài Liệu DOCX (how to convert docx)
 
@@ -64,8 +60,6 @@ Document sourceDoc = new Document("input/input.docx");
 
 > **Tại sao lại quan trọng:** Việc tải tài liệu là nền tảng cho *how to render docx*. Nếu file không thể đọc được, các bước sau sẽ không hoạt động, vì vậy chúng ta bắt đầu từ đây.
 
----
-
 ## Bước 2: Cấu Hình Image Rendering Options (enable antialiasing)
 
 Bây giờ là phần “ma thuật” — bật antialiasing và hinting. Antialiasing làm mượt các cạnh răng cưa trên các đường chéo, trong khi hinting cải thiện độ rõ nét của văn bản nhỏ.
@@ -80,8 +74,6 @@ ImageRenderingOptions renderingOptions = new ImageRenderingOptions
 ```
 
 > **Mẹo chuyên nghiệp:** Nếu bạn cần tăng hiệu năng trên các tài liệu lớn, có thể tắt `UseAntialiasing`, nhưng chất lượng hình ảnh sẽ giảm đáng kể.
-
----
 
 ## Bước 3: Chọn Định Dạng Đầu Ra – PNG hoặc JPG (convert docx to png / convert docx to jpg)
 
@@ -110,8 +102,6 @@ ImageDevice jpgDevice = new ImageDevice(renderingOptions)
 
 > **Tại sao cần cả hai?** PNG giữ nguyên mọi pixel, rất phù hợp khi bạn cần độ trung thực cao (ví dụ: in ấn). JPG ngược lại, nén ảnh, giúp tải nhanh hơn trên website.
 
----
-
 ## Bước 4: Render Các Trang Tài Liệu Thành Ảnh (how to render docx)
 
 Với các thiết bị đã sẵn sàng, chúng ta yêu cầu `Document` render từng trang. Thư viện sẽ tự động lặp qua tất cả các trang và lưu chúng theo mẫu đặt tên mà chúng ta đã định nghĩa.
@@ -126,8 +116,6 @@ sourceDoc.RenderTo(jpgDevice);
 
 Sau khi chạy code, bạn sẽ thấy một loạt file như `page_0.png`, `page_1.png`, … và `page_0.jpg`, `page_1.jpg` trong thư mục `output`. Mỗi ảnh sẽ có antialiasing được áp dụng, nên các đường nét mượt mà và văn bản rõ ràng như pha lê.
 
----
-
 ## Bước 5: Kiểm Tra Kết Quả (expected output)
 
 Mở bất kỳ ảnh nào đã tạo. Bạn sẽ thấy:
@@ -137,8 +125,6 @@ Mở bất kỳ ảnh nào đã tạo. Bạn sẽ thấy:
 - **Màu sắc đồng nhất** giữa PNG và JPG (mặc dù JPG có thể có một chút hiện tượng nén nếu bạn giảm chất lượng).
 
 Nếu bạn thấy bất kỳ hiện tượng mờ nào, hãy kiểm tra lại rằng `UseAntialiasing` được đặt thành `true` và file DOCX nguồn không chứa ảnh raster độ phân giải thấp.
-
----
 
 ## Các Câu Hỏi Thường Gặp & Trường Hợp Đặc Biệt
 
@@ -180,8 +166,6 @@ for (int i = 0; i < sourceDoc.PageCount; i++)
 ### Có thể chuyển đổi sang các định dạng khác như BMP hoặc TIFF không?
 
 Có—chỉ cần hoán đổi `SaveFormat.Png` hoặc `SaveFormat.Jpeg` thành `SaveFormat.Bmp` hoặc `SaveFormat.Tiff`. Các cài đặt antialiasing vẫn được áp dụng.
-
----
 
 ## Ví Dụ Hoàn Chỉnh (Sẵn Sàng Sao Chép‑Dán)
 
@@ -264,8 +248,6 @@ class Program
 ```
 
 > **Kết quả:** Sau khi biên dịch (`dotnet run`) bạn sẽ thấy một loạt file PNG và JPG trong thư mục `output`, mỗi file đều có antialiasing được áp dụng.
-
----
 
 ## Kết Luận
 

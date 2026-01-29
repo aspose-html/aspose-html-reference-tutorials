@@ -40,8 +40,6 @@ In this tutorial you’ll learn **how to create stream** objects, **how to handl
 
 > **Pro tip:** If you’re targeting .NET 8, the newer `ResourceHandler` gives you built‑in async support, which can shave milliseconds off high‑throughput scenarios.
 
----
-
 ## Create memory stream c# – Legacy approach (pre‑24.2)
 
 When you’re stuck on an older version of the library, the contract you have to satisfy is `IOutputStorage`. The interface only asks for a method that returns a `Stream` for a given resource name.
@@ -83,8 +81,6 @@ public class MyStorage : IOutputStorage
 | Returning a closed stream | Consumers will get `ObjectDisposedException` on write. | Ensure the stream is **open** when you hand it off. |
 | Forgetting to set `Position = 0` after writing | Data appears empty when read later. | Call `stream.Seek(0, SeekOrigin.Begin)` before returning if you pre‑populate it. |
 | Using a huge `MemoryStream` for large files | Out‑of‑memory crashes. | Switch to a temporary `FileStream` or a custom buffered stream. |
-
----
 
 ## Create memory stream c# – Modern approach (24.2+)
 
@@ -141,8 +137,6 @@ public class MyHandler : ResourceHandler
 
 3. **Testing** – Unit‑test your handler by injecting a mock `IServiceProvider` if the base class pulls services from DI. Verify that `HandleResource` returns a stream that can be written to and read from.
 
----
-
 ## How to create stream – A quick cheat sheet
 
 | Scenario | Recommended API | Sample Code |
@@ -154,15 +148,11 @@ public class MyHandler : ResourceHandler
 
 > **Note:** Always set `stream.Position = 0` before returning if you pre‑populate the stream; otherwise downstream readers will think the stream is empty.
 
----
-
 ## Image illustration
 
 ![Diagram showing create memory stream c# process](https://example.com/images/create-memory-stream-diagram.png)
 
 *Alt text:* diagram showing create memory stream c# process
-
----
 
 ## Full runnable example
 
@@ -248,8 +238,6 @@ Hello from async API!
 
 The program shows three ways to **how to create stream**: the old `IOutputStorage`, the new synchronous `HandleResource`, and the asynchronous `HandleResourceAsync`. All three return a `MemoryStream`, proving that custom stream creation works no matter which version you target.
 
----
-
 ## Frequently asked questions (FAQ)
 
 **Q: Do I need to call `Dispose` on the stream I get back?**  
@@ -263,8 +251,6 @@ A: Switch to a `FileStream` backed by a temporary file, or implement a custom bu
 
 **Q: Is there any performance difference between the two approaches?**  
 A: The modern `ResourceHandler` adds a tiny overhead for the extra base‑class logic, but the async version can dramatically improve throughput under high concurrency.
-
----
 
 ## Wrap‑up
 

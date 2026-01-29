@@ -33,8 +33,6 @@ Heb je je ooit afgevraagd **hoe antialiasing in te schakelen** zodat je geconver
 
 In deze tutorial lopen we het volledige proces door van **convert docx to png** en **convert docx to jpg** met behulp van een moderne renderbibliotheek. Je leert niet alleen *hoe je docx converteert* maar ook *hoe je docx rendert* met antialiasing en hinting ingeschakeld, zodat elke curve en elk teken er glad uitziet. Er is geen eerdere ervaring met grafische programmeren nodig; alleen een basis C#‑omgeving en een DOCX‑bestand dat je wilt omzetten naar een afbeelding.
 
----
-
 ## Wat je nodig hebt
 
 - **.NET 6+** (of .NET Framework 4.6+ als je de klassieke runtime verkiest)  

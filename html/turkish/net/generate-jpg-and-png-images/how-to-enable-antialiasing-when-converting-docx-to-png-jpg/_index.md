@@ -33,8 +33,6 @@ Hiç **antialiasing'i nasıl etkinleştirirsiniz** diye merak ettiniz mi, böyle
 
 Bu öğreticide **convert docx to png** ve **convert docx to jpg** işlemlerini modern bir render kütüphanesi kullanarak adım adım inceleyeceğiz. Sadece *docx nasıl dönüştürülür* öğrenmekle kalmayacak, aynı zamanda antialiasing ve hinting etkinleştirilmiş *docx nasıl render edilir* konusunu da öğreneceksiniz, böylece her eğri ve karakter yumuşak görünür. Grafik programlamada önceden deneyim gerekmez; sadece temel bir C# ortamı ve bir DOCX dosyası yeterli.
 
----
-
 ## Gerekenler
 
 - **.NET 6+** (veya klasik çalışma zamanı tercih ediyorsanız **.NET Framework 4.6+**)  
@@ -46,8 +44,6 @@ dotnet add package Aspose.Words
 ```
 
 Hepsi bu—ekstra görüntü‑işleme araçlarına gerek yok.
-
----
 
 ## Adım 1: DOCX Belgesini Yükleyin (how to convert docx)
 
@@ -64,8 +60,6 @@ Document sourceDoc = new Document("input/input.docx");
 
 > **Neden önemli:** Belgeyi yüklemek, *how to render docx* için temeldir. Dosya okunamazsa sonraki adımlar çalışmaz, bu yüzden burada başlıyoruz.
 
----
-
 ## Adım 2: Görüntü Render Ayarlarını Yapılandırın (enable antialiasing)
 
 Şimdi sihirli kısım—antialiasing ve hinting’i açma zamanı. Antialiasing, çapraz çizgilerde gördüğünüz pürüzlü kenarları yumuşatırken, hinting küçük metinlerin netliğini artırır.
@@ -80,8 +74,6 @@ ImageRenderingOptions renderingOptions = new ImageRenderingOptions
 ```
 
 > **Pro ipucu:** Çok büyük belgelerde performans artışı istiyorsanız `UseAntialiasing` özelliğini kapatabilirsiniz, ancak görsel kalite belirgin şekilde düşer.
-
----
 
 ## Adım 3: Çıktı Formatını Seçin – PNG ya da JPG (convert docx to png / convert docx to jpg)
 
@@ -110,8 +102,6 @@ ImageDevice jpgDevice = new ImageDevice(renderingOptions)
 
 > **Neden ikisi?** PNG, her pikseli korur ve tam sadakat gerektiğinde (ör. baskı) mükemmeldir. JPG ise görüntüyü sıkıştırır, web sitesinde daha hızlı yüklenmesini sağlar.
 
----
-
 ## Adım 4: Belge Sayfalarını Görsellere Render Edin (how to render docx)
 
 Cihazlar hazır olduğunda, `Document`’i her sayfayı render etmeye yönlendiriyoruz. Kütüphane otomatik olarak tüm sayfalarda döngü yapar ve tanımladığımız adlandırma desenine göre kaydeder.
@@ -126,8 +116,6 @@ sourceDoc.RenderTo(jpgDevice);
 
 Kod çalıştırıldıktan sonra `output` klasöründe `page_0.png`, `page_1.png`, … ve `page_0.jpg`, `page_1.jpg` gibi dosyalar bulacaksınız. Her görüntüde antialiasing uygulanmış olacak, böylece çizgiler yumuşak ve metin kristal‑net olacaktır.
 
----
-
 ## Adım 5: Sonucu Doğrulayın (expected output)
 
 Oluşturulan görüntülerden birini açın. Şunları görmelisiniz:
@@ -137,8 +125,6 @@ Oluşturulan görüntülerden birini açın. Şunları görmelisiniz:
 - **PNG ve JPG arasında tutarlı renkler** (JPG kaliteyi düşürürseniz hafif sıkıştırma artefaktları olabilir).
 
 Eğer bulanıklık fark ederseniz, `UseAntialiasing` değerinin `true` olduğundan ve kaynak DOCX’in düşük çözünürlüklü raster görseller içermediğinden emin olun.
-
----
 
 ## Yaygın Sorular & Kenar Durumları
 
@@ -180,8 +166,6 @@ for (int i = 0; i < sourceDoc.PageCount; i++)
 ### BMP ya da TIFF gibi başka formatlara dönüştürmek mümkün mü?
 
 Evet—`SaveFormat.Png` veya `SaveFormat.Jpeg` yerine `SaveFormat.Bmp` ya da `SaveFormat.Tiff` kullanın. Aynı antialiasing ayarları geçerli olur.
-
----
 
 ## Tam Çalışan Örnek (Kopyala‑Yapıştır Hazır)
 
@@ -264,8 +248,6 @@ class Program
 ```
 
 > **Sonuç:** Derledikten sonra (`dotnet run`) `output` dizininde bir dizi PNG ve JPG dosyası göreceksiniz; her biri antialiasing uygulanmış olacak.
-
----
 
 ## Sonuç
 

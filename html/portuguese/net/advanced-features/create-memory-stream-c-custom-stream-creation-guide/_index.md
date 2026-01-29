@@ -42,8 +42,6 @@ Neste tutorial você aprenderá **como criar stream** objetos, **como manipular 
 
 > **Dica profissional:** Se você está mirando .NET 8, o `ResourceHandler` mais recente oferece suporte assíncrono embutido, o que pode reduzir milissegundos em cenários de alta taxa de transferência.
 
----
-
 ## Criar memory stream c# – Abordagem legada (pré‑24.2)
 
 Quando você está preso a uma versão mais antiga da biblioteca, o contrato que deve atender é `IOutputStorage`. A interface solicita apenas um método que retorne um `Stream` para um nome de recurso fornecido.
@@ -85,8 +83,6 @@ public class MyStorage : IOutputStorage
 | Retornar um stream fechado | Os consumidores receberão `ObjectDisposedException` ao escrever. | Garanta que o stream esteja **aberto** quando for entregue. |
 | Esquecer de definir `Position = 0` após escrever | Os dados parecem vazios quando lidos posteriormente. | Chame `stream.Seek(0, SeekOrigin.Begin)` antes de retornar se você pré‑popular o stream. |
 | Usar um `MemoryStream` enorme para arquivos grandes | Falhas por falta de memória. | Troque por um `FileStream` temporário ou um stream bufferizado customizado. |
-
----
 
 ## Criar memory stream c# – Abordagem moderna (24.2+)
 
@@ -143,8 +139,6 @@ public class MyHandler : ResourceHandler
 
 3. **Testes** – Teste unitário do seu handler injetando um mock `IServiceProvider` caso a classe base obtenha serviços via DI. Verifique se `HandleResource` devolve um stream que pode ser escrito e lido.
 
----
-
 ## Como criar stream – Um cheat sheet rápido
 
 | Cenário | API recomendada | Código de exemplo |
@@ -156,15 +150,11 @@ public class MyHandler : ResourceHandler
 
 > **Observação:** Sempre defina `stream.Position = 0` antes de retornar se você pré‑popular o stream; caso contrário, leitores posteriores pensarão que o stream está vazio.
 
----
-
 ## Ilustração de imagem
 
 ![Diagram showing create memory stream c# process](https://example.com/images/create-memory-stream-diagram.png)
 
 *Texto alternativo:* diagrama mostrando o processo de criar memory stream c#
-
----
 
 ## Exemplo completo executável
 
@@ -250,8 +240,6 @@ Hello from async API!
 
 O programa mostra três maneiras de **como criar stream**: o antigo `IOutputStorage`, o novo `HandleResource` síncrono e o `HandleResourceAsync` assíncrono. Todos retornam um `MemoryStream`, provando que a criação de stream personalizada funciona independentemente da versão alvo.
 
----
-
 ## Perguntas frequentes (FAQ)
 
 **Q: Preciso chamar `Dispose` no stream que recebo?**  
@@ -265,8 +253,6 @@ A: Troque para um `FileStream` respaldado por um arquivo temporário, ou impleme
 
 **Q: Existe diferença de desempenho entre as duas abordagens?**  
 A: O `ResourceHandler` moderno adiciona um pequeno overhead devido à lógica da classe base, mas a versão assíncrona pode melhorar drasticamente a taxa de transferência em alta concorrência.
-
----
 
 ## Conclusão
 

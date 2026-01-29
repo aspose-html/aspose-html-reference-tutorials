@@ -42,8 +42,6 @@ Ebben az útmutatóban megtanulod, hogyan **hozz létre stream** objektumokat, h
 
 > **Pro tipp:** Ha a .NET 8-ra célozol, az újabb `ResourceHandler` beépített aszinkron támogatást nyújt, amely ezredmásodperceket takaríthat meg a nagy áteresztőképességű szcenáriókban.
 
----
-
 ## Memory stream létrehozása c# – Örökölt megközelítés (pre‑24.2)
 
 Amikor egy régebbi könyvtárverzióval vagy elakadva, a teljesítendő szerződés a `IOutputStorage`. Az interfész csak egy metódust kér, amely egy adott erőforrásnévhez `Stream`-et ad vissza.
@@ -85,8 +83,6 @@ public class MyStorage : IOutputStorage
 | Lezárt stream visszaadása | A fogyasztók `ObjectDisposedException`-t kapnak íráskor. | Győződj meg róla, hogy a stream **nyitott** amikor átadod. |
 | `Position = 0` beállításának elfelejtése írás után | Az adatok üresnek tűnnek későbbi olvasáskor. | Hívja a `stream.Seek(0, SeekOrigin.Begin)`-et a visszaadás előtt, ha előre feltöltöd. |
 | Nagy `MemoryStream` használata nagy fájlokhoz | Memóriahiányos összeomlások. | Válts át egy ideiglenes `FileStream`-re vagy egy egyéni pufferelt stream-re. |
-
----
 
 ## Memory stream létrehozása c# – Modern megközelítés (24.2+)
 

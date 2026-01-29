@@ -42,8 +42,6 @@ I den här handledningen kommer du att lära dig **how to create stream**‑obje
 
 > **Pro tip:** Om du riktar dig mot .NET 8 ger den nyare `ResourceHandler` inbyggt async‑stöd, vilket kan spara millisekunder i höggenomströmnings‑scenarier.
 
----
-
 ## Skapa minnesström c# – Äldre tillvägagångssätt (pre‑24.2)
 
 När du sitter fast på en äldre version av biblioteket är kontraktet du måste uppfylla `IOutputStorage`. Gränssnittet begär bara en metod som returnerar en `Stream` för ett givet resursnamn.
@@ -85,8 +83,6 @@ public class MyStorage : IOutputStorage
 | Returnera en stängd ström | Konsumenterna får `ObjectDisposedException` vid skrivning. | Se till att strömmen är **öppen** när du överlämnar den. |
 | Glömmer att sätta `Position = 0` efter skrivning | Data visas som tom när den läses senare. | Anropa `stream.Seek(0, SeekOrigin.Begin)` innan du returnerar om du förhandsfyller den. |
 | Använda en enorm `MemoryStream` för stora filer | Kraschar på grund av minnesbrist. | Byt till en temporär `FileStream` eller en anpassad buffrad ström. |
-
----
 
 ## Skapa minnesström c# – Modernt tillvägagångssätt (24.2+)
 
@@ -143,8 +139,6 @@ public class MyHandler : ResourceHandler
 
 3. **Testing** – Enhetstesta din handler genom att injicera en mock `IServiceProvider` om basklassen hämtar tjänster från DI. Verifiera att `HandleResource` returnerar en ström som kan skrivas till och läsas från.
 
----
-
 ## Så här skapar du en ström – En snabb fusklapp
 
 | Scenario | Rekommenderat API | Exempelkod |
@@ -156,15 +150,11 @@ public class MyHandler : ResourceHandler
 
 > **Note:** Sätt alltid `stream.Position = 0` innan du returnerar om du förhandsfyller strömmen; annars tror nedströms läsare att strömmen är tom.
 
----
-
 ## Bildillustration
 
 ![Diagram som visar create memory stream c#‑processen](https://example.com/images/create-memory-stream-diagram.png)
 
 *Alt text:* diagram som visar create memory stream c#‑processen
-
----
 
 ## Fullt körbart exempel
 
@@ -250,8 +240,6 @@ Hello from async API!
 
 Programmet visar tre sätt att **how to create stream**: den gamla `IOutputStorage`, den nya synkrona `HandleResource` och den asynkrona `HandleResourceAsync`. Alla tre returnerar en `MemoryStream`, vilket bevisar att anpassad strömskapning fungerar oavsett vilken version du riktar dig mot.
 
----
-
 ## Vanliga frågor (FAQ)
 
 **Q: Måste jag anropa `Dispose` på den ström jag får tillbaka?**  
@@ -265,8 +253,6 @@ A: Byt till en `FileStream` som stöds av en temporär fil, eller implementera e
 
 **Q: Finns det någon prestandaskillnad mellan de två tillvägagångssätten?**  
 A: Den moderna `ResourceHandler` lägger till en liten overhead för den extra basklasslogiken, men den asynkrona versionen kan dramatiskt förbättra genomströmning under hög samtidighet.
-
----
 
 ## Sammanfattning
 

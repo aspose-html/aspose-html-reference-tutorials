@@ -44,8 +44,6 @@ In this tutorial you’ll learn **how to create stream** objects, **how to handl
 
 > **Pro tip:** .NET 8을 목표로 한다면, 최신 `ResourceHandler`는 내장된 async 지원을 제공하여 고처리량 시나리오에서 밀리초 단위의 성능 향상을 얻을 수 있습니다.
 
----
-
 ## Create memory stream c# – 레거시 접근 방식 (pre‑24.2)
 
 When you’re stuck on an older version of the library, the contract you have to satisfy is `IOutputStorage`. The interface only asks for a method that returns a `Stream` for a given resource name.
@@ -89,8 +87,6 @@ public class MyStorage : IOutputStorage
 | 닫힌 스트림 반환 | 소비자는 쓰기 시 `ObjectDisposedException`을 받게 됩니다. | 스트림을 전달할 때 **열려 있는**지 확인합니다. |
 | `Position = 0` 설정을 잊음 | 나중에 읽을 때 데이터가 비어 있는 것처럼 보입니다. | 미리 데이터를 채운 경우 반환하기 전에 `stream.Seek(0, SeekOrigin.Begin)`을 호출합니다. |
 | 대용량 파일에 큰 `MemoryStream` 사용 | 메모리 부족으로 충돌합니다. | 임시 `FileStream`이나 커스텀 버퍼링 스트림으로 전환합니다. |
-
----
 
 ## Create memory stream c# – 최신 접근 방식 (24.2+)
 
@@ -149,8 +145,6 @@ public class MyHandler : ResourceHandler
 
 3. **Testing** – 기본 클래스가 DI에서 서비스를 가져온다면, 모의 `IServiceProvider`를 주입하여 핸들러를 단위 테스트합니다. `HandleResource`가 쓰기 및 읽기가 가능한 스트림을 반환하는지 확인합니다.
 
----
-
 ## 스트림 생성 방법 – 빠른 요약표
 
 | 시나리오 | 추천 API | 샘플 코드 |
@@ -162,15 +156,11 @@ public class MyHandler : ResourceHandler
 
 > **Note:** 스트림을 미리 채운 경우 반환하기 전에 항상 `stream.Position = 0`을 설정하세요; 그렇지 않으면 하위 리더가 스트림이 비어 있다고 판단합니다.
 
----
-
 ## 이미지 일러스트레이션
 
 ![Create memory stream c# 프로세스를 보여주는 다이어그램](https://example.com/images/create-memory-stream-diagram.png)
 
 *대체 텍스트:* Create memory stream c# 프로세스를 보여주는 다이어그램
-
----
 
 ## 전체 실행 가능한 예제
 
@@ -260,8 +250,6 @@ The program shows three ways to **how to create stream**: the old `IOutputStorag
 
 이 프로그램은 **how to create stream**을 구현하는 세 가지 방법을 보여줍니다: 기존 `IOutputStorage`, 새로운 동기 `HandleResource`, 그리고 비동기 `HandleResourceAsync`. 세 경우 모두 `MemoryStream`을 반환하므로, 대상 버전에 관계없이 커스텀 스트림 생성이 작동함을 증명합니다.
 
----
-
 ## 자주 묻는 질문 (FAQ)
 
 **Q: 반환받은 스트림에 `Dispose`를 호출해야 하나요?**  
@@ -275,8 +263,6 @@ A: 임시 파일을 백업으로 하는 `FileStream`으로 전환하거나, 디�
 
 **Q: 두 접근 방식 간에 성능 차이가 있나요?**  
 A: 최신 `ResourceHandler`는 추가 베이스 클래스 로직으로 인해 약간의 오버헤드가 있지만, async 버전은 높은 동시성 상황에서 처리량을 크게 향상시킬 수 있습니다.
-
----
 
 ## 마무리
 

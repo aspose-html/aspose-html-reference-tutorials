@@ -32,8 +32,6 @@ Už jste se někdy zamýšleli **jak povolit antialiasing**, aby vaše převeden
 
 V tomto tutoriálu projdeme celý proces **convert docx to png** a **convert docx to jpg** pomocí moderní renderovací knihovny. Naučíte se nejen *jak převést docx*, ale také *jak renderovat docx* s povoleným antialiasingem a hintingem, takže každá křivka a znak budou vypadat hladce. Předchozí zkušenosti s grafickým programováním nejsou potřeba; stačí základní nastavení C# a soubor DOCX, který chcete převést na obrázek.
 
----
-
 ## Co budete potřebovat
 
 - **.NET 6+** (nebo .NET Framework 4.6+, pokud dáváte přednost klasickému runtime)  
@@ -45,8 +43,6 @@ dotnet add package Aspose.Words
 ```
 
 A to je vše—žádné další nástroje pro zpracování obrázků nejsou potřeba.
-
----
 
 ## Krok 1: Načtení DOCX dokumentu (how to convert docx)
 
@@ -63,8 +59,6 @@ Document sourceDoc = new Document("input/input.docx");
 
 > **Proč je to důležité:** Načtení dokumentu je základem pro *how to render docx*. Pokud soubor nelze přečíst, žádný z následujících kroků nebude fungovat, takže začínáme zde.
 
----
-
 ## Krok 2: Nastavení možností renderování obrázku (enable antialiasing)
 
 Nyní přichází magická část—zapnutí antialiasingu a hintingu. Antialiasing vyhlazuje zubaté okraje, které obvykle vidíte na šikmých čarách, zatímco hinting zlepšuje čitelnost malého textu.
@@ -79,8 +73,6 @@ ImageRenderingOptions renderingOptions = new ImageRenderingOptions
 ```
 
 > **Tip:** Pokud někdy potřebujete zvýšit výkon u obrovských dokumentů, můžete vypnout `UseAntialiasing`, ale vizuální kvalita výrazně klesne.
-
----
 
 ## Krok 3: Výběr výstupního formátu – PNG nebo JPG (convert docx to png / convert docx to jpg)
 
@@ -109,8 +101,6 @@ ImageDevice jpgDevice = new ImageDevice(renderingOptions)
 
 > **Proč oba?** PNG zachovává každý pixel, což je ideální, když potřebujete naprostou věrnost (např. tisk). JPG naopak komprimuje obrázek, což zrychluje načítání na webových stránkách.
 
----
-
 ## Krok 4: Renderování stránek dokumentu do obrázků (how to render docx)
 
 S připravenými zařízeními řekneme objektu `Document`, aby renderoval každou stránku. Knihovna automaticky projde všechny stránky a uloží je podle definovaného pojmenovacího vzoru.
@@ -125,8 +115,6 @@ sourceDoc.RenderTo(jpgDevice);
 
 Po spuštění kódu najdete sérii souborů jako `page_0.png`, `page_1.png`, … a `page_0.jpg`, `page_1.jpg` ve složce `output`. Každý obrázek bude mít aplikovaný antialiasing, takže čáry jsou hladké a text je křišťálově čistý.
 
----
-
 ## Krok 5: Ověření výsledku (expected output)
 
 Otevřete kterýkoli z vygenerovaných obrázků. Měli byste vidět:
@@ -136,8 +124,6 @@ Otevřete kterýkoli z vygenerovaných obrázků. Měli byste vidět:
 - **Konzistentní barvy** mezi PNG a JPG (i když JPG může ukazovat mírné kompresní artefakty při snížení kvality).
 
 Pokud zaznamenáte jakékoli rozmazání, zkontrolujte, že `UseAntialiasing` je nastaven na `true` a že váš zdrojový DOCX neobsahuje nízké rozlišení rastrových obrázků.
-
----
 
 ## Časté otázky a okrajové případy
 
@@ -179,8 +165,6 @@ for (int i = 0; i < sourceDoc.PageCount; i++)
 ### Je možné převést do jiných formátů, jako BMP nebo TIFF?
 
 Ano—stačí vyměnit `SaveFormat.Png` nebo `SaveFormat.Jpeg` za `SaveFormat.Bmp` nebo `SaveFormat.Tiff`. Stejné nastavení antialiasingu se přenese.
-
----
 
 ## Kompletní funkční příklad (připravený ke kopírování)
 
@@ -263,8 +247,6 @@ class Program
 ```
 
 > **Výsledek:** Po zkompilování (`dotnet run`) uvidíte sérii PNG a JPG souborů ve složce `output`, každý s aplikovaným antialiasingem.
-
----
 
 ## Závěr
 

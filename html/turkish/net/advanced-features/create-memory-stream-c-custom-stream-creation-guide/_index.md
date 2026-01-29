@@ -42,8 +42,6 @@ Bu öğreticide **how to create stream** nesnelerini, **how to handle resources*
 
 > **Pro tip:** .NET 8 hedefliyorsanız, yeni `ResourceHandler` yerleşik async desteği sağlar, bu da yüksek verimli senaryolarda milisaniyeler kazandırabilir.
 
----
-
 ## Memory stream c# Oluşturma – Eski yaklaşım (pre‑24.2)
 
 Kütüphanenin eski bir sürümünde takılı kaldığınızda, yerine getirmeniz gereken sözleşme `IOutputStorage`'dır. Arayüz yalnızca verilen bir kaynak adı için bir `Stream` döndüren bir metod ister.
@@ -85,8 +83,6 @@ public class MyStorage : IOutputStorage
 | Kapalı bir akış döndürmek | Tüketiciler yazma sırasında `ObjectDisposedException` alır. | Akışı devrederken **açık** olduğundan emin olun. |
 | Yazdıktan sonra `Position = 0` ayarlamayı unutmak | Veri daha sonra okunduğunda boş görünür. | Önceden doldurduysanız döndürmeden önce `stream.Seek(0, SeekOrigin.Begin)` çağırın. |
 | Büyük dosyalar için dev bir `MemoryStream` kullanmak | Bellek yetersizliği çöküşlerine yol açar. | Geçici bir `FileStream` veya özel bir tamponlu akışa geçin. |
-
----
 
 ## Memory stream c# Oluşturma – Modern yaklaşım (24.2+)
 
@@ -143,8 +139,6 @@ public class MyHandler : ResourceHandler
 
 3. **Testing** – Temel sınıf DI'den hizmet alıyorsa, bir mock `IServiceProvider` enjekte ederek handler'ınızı birim‑test edin. `HandleResource`'un yazılabilir ve okunabilir bir akış döndürdüğünü doğrulayın.
 
----
-
 ## Akış oluşturma – Hızlı bir kılavuz
 
 | Senaryo | Önerilen API | Örnek Kod |
@@ -156,15 +150,11 @@ public class MyHandler : ResourceHandler
 
 > **Not:** Akışı döndürmeden önce her zaman `stream.Position = 0` ayarlayın; aksi takdirde sonraki okuyucular akışın boş olduğunu düşünecek.
 
----
-
 ## Görsel açıklama
 
 ![create memory stream c# sürecini gösteren diyagram](https://example.com/images/create-memory-stream-diagram.png)
 
 *Alt metin:* create memory stream c# sürecini gösteren diyagram
-
----
 
 ## Tam Çalıştırılabilir Örnek
 
@@ -250,8 +240,6 @@ Hello from async API!
 
 Program, **how to create stream**'in üç yolunu gösterir: eski `IOutputStorage`, yeni senkron `HandleResource` ve asenkron `HandleResourceAsync`. Üçü de bir `MemoryStream` döndürür, böylece hedeflediğiniz sürüm ne olursa olsun özel akış oluşturmanın çalıştığını kanıtlar.
 
----
-
 ## Sıkça Sorulan Sorular (SSS)
 
 **S: Geri aldığım akışta `Dispose` çağırmam gerekiyor mu?**  
@@ -265,8 +253,6 @@ C: Geçici bir dosyaya dayalı bir `FileStream`'e geçin veya diske parçalar ha
 
 **S: İki yaklaşım arasında performans farkı var mı?**  
 C: Modern `ResourceHandler` ekstra temel‑sınıf mantığı nedeniyle çok küçük bir ek yük getirir, ancak async versiyon yüksek eşzamanlılıkta throughput'u önemli ölçüde artırabilir.
-
----
 
 ## Özet
 
