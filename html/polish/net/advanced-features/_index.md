@@ -32,6 +32,8 @@ Dowiedz się, jak pracować z dokumentami HTML w .NET, używając Aspose.HTML do
 Dowiedz się, jak używać Aspose.HTML dla .NET do wydajnego manipulowania dokumentami HTML. Samouczek krok po kroku dla programistów.
 ### [Dostawca strumienia pamięci w .NET z Aspose.HTML](./memory-stream-provider/)
 Dowiedz się, jak tworzyć oszałamiające dokumenty HTML w .NET za pomocą Aspose.HTML. Postępuj zgodnie z naszym samouczkiem krok po kroku i odkryj moc manipulacji HTML.
+### [Utwórz strumień pamięci w C# – Przewodnik tworzenia niestandardowego strumienia](./create-memory-stream-c-custom-stream-creation-guide/)
+Dowiedz się, jak tworzyć strumień pamięci w C# przy użyciu Aspose.HTML, aby efektywnie manipulować dokumentami HTML.
 ### [Web Scraping w .NET z Aspose.HTML](./web-scraping/)
 Naucz się manipulować dokumentami HTML w .NET za pomocą Aspose.HTML. Nawiguj, filtruj, wysyłaj zapytania i wybieraj elementy efektywnie, aby usprawnić tworzenie stron internetowych.
 ### [Użyj rozszerzonej właściwości zawartości w .NET z Aspose.HTML](./use-extended-content-property/)
