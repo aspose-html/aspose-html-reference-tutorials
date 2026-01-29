@@ -44,8 +44,6 @@ Dalam panduan ini kami akan membahas solusi lengkap dari awal hingga akhir yang 
 
 Tanpa layanan eksternal, tanpa I/O file, hanya kode C# murni yang dapat Anda sisipkan ke proyek console atau ASP.NET apa pun.
 
----
-
 ![Create HTML from string example](https://example.com/create-html-from-string.png "Create HTML from string example")
 
 *Teks alt gambar: Contoh membuat HTML dari string yang menampilkan potongan kode dan output console.*
@@ -57,8 +55,6 @@ Tanpa layanan eksternal, tanpa I/O file, hanya kode C# murni yang dapat Anda sis
 - Familiaritas dasar dengan stream C# dan pola `using`.  
 
 Itu saja—tidak ada dependensi tambahan, tidak ada pustaka berat.
-
----
 
 ## Langkah 1: Membuat HTML dari String
 
@@ -78,8 +74,6 @@ HTMLDocument document = new HTMLDocument(htmlSource);
 ```
 
 **Mengapa ini penting:** Dengan memulai dari string Anda menghindari beban memuat file dari disk, yang sangat cocok untuk fungsi cloud atau unit test. Baris ini adalah inti dari operasi **create html from string**.
-
----
 
 ## Langkah 2: Mengimplementasikan Custom Resource Handler untuk Menulis HTML Stream
 
@@ -104,8 +98,6 @@ class MemoryResourceHandler : ResourceHandler
 
 **Mengapa menggunakan handler khusus?** Ia memberi Anda tempat yang deterministik untuk **write html stream** tanpa menebak‑tebak jalur file. Handler ini juga memungkinkan Anda memeriksa atau memodifikasi konten sebelum disimpan.
 
----
-
 ## Langkah 3: Menyimpan Dokumen dan Menangkap HTML
 
 Setelah kita memiliki `HTMLDocument` dan `MemoryResourceHandler`, kita meminta Aspose merender dokumen. Outputnya masuk ke `HtmlStream` yang telah kita buat sebelumnya.
@@ -122,8 +114,6 @@ document.Save(resourceHandler, saveOptions);
 ```
 
 Pada titik ini `resourceHandler.HtmlStream` berisi HTML persis yang dihasilkan Aspose dari string asli. Tanpa file sementara, tanpa I/O tambahan.
-
----
 
 ## Langkah 4: Membaca Stream dan Mengonversi HTML ke String
 
@@ -145,8 +135,6 @@ using (StreamReader reader = new StreamReader(resourceHandler.HtmlStream))
 
 **Poin penting:** Inilah saat tepat kita **convert html to string**. Karena stream sudah berada di memori, konversinya pada dasarnya hanya penyalinan memori—sangat cepat.
 
----
-
 ## Langkah 5: Menampilkan HTML ke Console
 
 Untuk debugging cepat atau demonstrasi, mencetak HTML ke console seringkali sudah cukup. Ini juga memenuhi kebutuhan **output html console**.
@@ -163,8 +151,6 @@ Saat Anda menjalankan program, Anda akan melihat sesuatu seperti:
 ```
 
 Itulah markup yang sama dengan yang kita mulai, tetapi kini telah diproses oleh Aspose.HTML, ditangkap melalui **custom resource handler**, dan dicetak tanpa pernah menyentuh sistem file.
-
----
 
 ## Contoh Lengkap yang Siap Jalan
 
@@ -226,16 +212,12 @@ class Program
 
 Jalankan ini dalam aplikasi console, dan Anda akan melihat HTML tercetak seketika. Tanpa file, tanpa dependensi ekstra—hanya pemrosesan dalam memori murni.
 
----
-
 ## Tips Pro & Kesalahan Umum
 
 - **Encoding penting** – Aspose menulis UTF‑8 secara default. Jika Anda membutuhkan charset lain, bungkus `MemoryStream` dengan `StreamWriter` yang menggunakan encoding yang diinginkan sebelum membaca.  
 - **Beberapa sumber daya** – Jika HTML Anda merujuk ke CSS atau gambar, handler yang sama akan menerima mereka satu per satu. Anda dapat memeriksa `resourceInfo` untuk mengarahkan logika (misalnya, menyimpan gambar di stream terpisah).  
 - **Keamanan thread** – `MemoryResourceHandler` tidak thread‑safe secara bawaan. Untuk pemrosesan paralel, buat handler baru per thread.  
 - **Pembuangan** – Pernyataan `using` di sekitar `StreamReader` dan `MemoryStream` memastikan sumber daya tak terkelola dilepaskan tepat waktu.  
-
----
 
 ## Apa Selanjutnya?
 
@@ -246,8 +228,6 @@ Setelah Anda dapat **create html from string**, **write html stream**, dan **out
 - **Mengirim email** – Konversi string menjadi isi email tanpa pernah menulis file.  
 
 Semua skenario ini mendapat manfaat dari pola dalam memori yang baru saja kita bangun.
-
----
 
 ## Kesimpulan
 

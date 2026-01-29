@@ -41,8 +41,6 @@ url: /ja/net/html-document-manipulation/create-html-from-string-in-c-custom-reso
 
 外部サービスもファイル I/O も不要、任意のコンソール アプリや ASP.NET プロジェクトにそのまま貼り付けられる純粋な C# コードです。
 
----
-
 ![Create HTML from string example](https://example.com/create-html-from-string.png "文字列から HTML を作成する例")
 
 *画像の代替テキスト: コードスニペットとコンソール出力を示す文字列から HTML を作成する例*  
@@ -54,8 +52,6 @@ url: /ja/net/html-document-manipulation/create-html-from-string-in-c-custom-reso
 - C# ストリームと `using` パターンに関する基本的な知識。  
 
 以上です—追加の依存関係や重量級ライブラリは不要です。
-
----
 
 ## ステップ 1: 文字列から HTML を作成
 

@@ -44,8 +44,6 @@ In deze gids lopen we stap voor stap door een complete, end‑to‑end‑oplossi
 
 Geen externe services, geen bestands‑I/O, alleen pure C#‑code die je in elke console‑ of ASP.NET‑project kunt gebruiken.
 
----
-
 ![Voorbeeld van HTML maken vanuit string, toont codefragment en console‑uitvoer](https://example.com/create-html-from-string.png "Voorbeeld van HTML maken vanuit string")
 
 *Image alt text: Voorbeeld van HTML maken vanuit string, toont codefragment en console‑uitvoer.*
@@ -57,8 +55,6 @@ Geen externe services, geen bestands‑I/O, alleen pure C#‑code die je in elke
 - Basiskennis van C#‑streams en het `using`‑patroon.  
 
 Dat is alles — geen extra afhankelijkheden, geen zware bibliotheken.
-
----
 
 ## Stap 1: HTML maken vanuit string
 
@@ -78,8 +74,6 @@ HTMLDocument document = new HTMLDocument(htmlSource);
 ```
 
 **Waarom dit belangrijk is:** Door te beginnen met een string vermijd je de overhead van het laden van bestanden vanaf de schijf, wat perfect is voor cloud‑functies of unit‑tests. Deze regel is de kern van de **create html from string**‑operatie.
-
----
 
 ## Stap 2: Een aangepaste resourcehandler implementeren om HTML‑stream te schrijven
 
@@ -104,8 +98,6 @@ class MemoryResourceHandler : ResourceHandler
 
 **Waarom een aangepaste handler gebruiken?** Het geeft je een deterministische plek om **write html stream** te plaatsen zonder te gokken naar bestands‑paden. De handler laat je later de inhoud inspecteren of aanpassen voordat deze wordt weggeschreven.
 
----
-
 ## Stap 3: Document opslaan en HTML vastleggen
 
 Nu we zowel het `HTMLDocument` als de `MemoryResourceHandler` hebben, vragen we Aspose het document te renderen. De output belandt in de `HtmlStream` die we eerder hebben aangemaakt.
@@ -122,8 +114,6 @@ document.Save(resourceHandler, saveOptions);
 ```
 
 Op dit moment bevat `resourceHandler.HtmlStream` de exacte HTML die Aspose heeft gegenereerd vanuit de oorspronkelijke string. Geen tijdelijke bestanden, geen extra I/O.
-
----
 
 ## Stap 4: De stream lezen en HTML omzetten naar string
 
@@ -145,8 +135,6 @@ using (StreamReader reader = new StreamReader(resourceHandler.HtmlStream))
 
 **Belangrijk punt:** Dit is het exacte moment waarop we **convert html to string** uitvoeren. Omdat de stream al in het geheugen zit, is de conversie in wezen een geheugen‑copy — supersnel.
 
----
-
 ## Stap 5: HTML naar console outputten
 
 Voor snelle debugging of demonstratiedoeleinden is het vaak voldoende om de HTML naar de console te printen. Het voldoet ook aan de **output html console**‑vereiste.
@@ -163,8 +151,6 @@ Wanneer je het programma uitvoert, zie je zoiets:
 ```
 
 Dat is dezelfde markup waarmee we begonnen zijn, maar nu verwerkt door Aspose.HTML, vastgelegd via een **custom resource handler**, en afgedrukt zonder ooit de bestandssysteem aan te raken.
-
----
 
 ## Volledig werkend voorbeeld
 
@@ -226,16 +212,12 @@ class Program
 
 Voer dit uit in een console‑applicatie, en je ziet de HTML direct afgedrukt. Geen bestanden, geen extra afhankelijkheden — alleen pure in‑memory verwerking.
 
----
-
 ## Pro‑tips & veelvoorkomende valkuilen
 
 - **Encoding matters** – Aspose schrijft standaard UTF‑8. Als je een andere tekenset nodig hebt, wikkel dan de `MemoryStream` in een `StreamWriter` met de gewenste encoding vóór het lezen.  
 - **Multiple resources** – Als je HTML CSS of afbeeldingen referereert, ontvangt dezelfde handler ze één voor één. Je kunt `resourceInfo` inspecteren om logica te vertakken (bijv. afbeeldingen in een aparte stream opslaan).  
 - **Thread safety** – `MemoryResourceHandler` is niet thread‑safe out of the box. Voor parallelle verwerking maak je per thread een nieuwe handler aan.  
 - **Disposal** – De `using`‑statements rond `StreamReader` en `MemoryStream` zorgen ervoor dat onbeheerste resources tijdig worden vrijgegeven.  
-
----
 
 ## Wat is het vervolg?
 
@@ -246,8 +228,6 @@ Nu je **create html from string**, **write html stream**, en **output html conso
 - **Sending emails** – Converteer de string naar een e‑mail‑body zonder ooit een bestand aan te raken.  
 
 Al deze scenario's profiteren van hetzelfde in‑memory‑patroon dat we net hebben gebouwd.
-
----
 
 ## Conclusie
 

@@ -43,8 +43,6 @@ V tomto průvodci projdeme kompletním, end‑to‑end řešením, které použ�
 
 Žádné externí služby, žádný souborový I/O, jen čistý C# kód, který můžete vložit do libovolné konzolové nebo ASP.NET aplikace.
 
----
-
 ![Create HTML from string example](https://example.com/create-html-from-string.png "Create HTML from string example")
 
 *Image alt text: Příklad vytvoření HTML ze řetězce zobrazující úryvek kódu a výstup do konzole.*
@@ -56,8 +54,6 @@ V tomto průvodci projdeme kompletním, end‑to‑end řešením, které použ�
 - Základní znalost C# streamů a vzoru `using`.  
 
 To je vše—žádné další závislosti, žádné těžké knihovny.
-
----
 
 ## Krok 1: Vytvoření HTML ze řetězce
 
@@ -77,8 +73,6 @@ HTMLDocument document = new HTMLDocument(htmlSource);
 ```
 
 **Proč je to důležité:** Začínáním s řetězcem se vyhnete režii načítání souborů z disku, což je ideální pro cloudové funkce nebo jednotkové testy. Tento řádek je jádrem operace **create html from string**.
-
----
 
 ## Krok 2: Implementace vlastního manipulátoru zdrojů pro zápis HTML streamu
 
@@ -103,8 +97,6 @@ class MemoryResourceHandler : ResourceHandler
 
 **Proč použít vlastní handler?** Dává vám deterministické místo pro **write html stream** bez hádání cest k souborům. Handler vám také umožní později obsah zkontrolovat nebo upravit před jeho uložením.
 
----
-
 ## Krok 3: Uložení dokumentu a zachycení HTML
 
 Nyní, když máme jak `HTMLDocument`, tak `MemoryResourceHandler`, požádáme Aspose, aby dokument vykreslil. Výstup skončí v `HtmlStream`, který jsme vytvořili dříve.
@@ -121,8 +113,6 @@ document.Save(resourceHandler, saveOptions);
 ```
 
 V tomto okamžiku `resourceHandler.HtmlStream` obsahuje přesně ten HTML, který Aspose vygeneroval z původního řetězce. Žádné dočasné soubory, žádný další I/O.
-
----
 
 ## Krok 4: Přečtení streamu a převod HTML na řetězec
 
@@ -143,8 +133,6 @@ using (StreamReader reader = new StreamReader(resourceHandler.HtmlStream))
 ```
 
 **Klíčový bod:** Toto je přesně okamžik, kdy **convert html to string**. Protože je stream již v paměti, převod je v podstatě kopie v paměti — extrémně rychlá.
-
----
 
 ## Krok 5: Výstup HTML do konzole
 
@@ -222,8 +210,6 @@ class Program
 ```
 
 Spusťte to v konzolové aplikaci a okamžitě uvidíte vytištěné HTML. Žádné soubory, žádné další závislosti — jen čisté zpracování v paměti.
-
----
 
 ## Pro tipy a časté úskalí
 

@@ -44,8 +44,6 @@ Ebben az útmutatóban egy komplett, vég‑től‑végig megoldást mutatunk be
 
 Nincs külső szolgáltatás, nincs fájl‑I/O, csak tiszta C# kód, amelyet bármely konzol‑ vagy ASP.NET projektbe beilleszthetsz.
 
----
-
 ![Create HTML from string example](https://example.com/create-html-from-string.png "Create HTML from string example")
 
 *Image alt text: Create HTML from string example showing code snippet and console output.*
@@ -57,8 +55,6 @@ Nincs külső szolgáltatás, nincs fájl‑I/O, csak tiszta C# kód, amelyet b�
 - Alapvető ismeretek a C# streamekről és a `using` mintáról.  
 
 Ennyi – nincs extra függőség, nincs nehéz könyvtár.
-
----
 
 ## 1. lépés: HTML létrehozása karakterláncból
 
@@ -78,8 +74,6 @@ HTMLDocument document = new HTMLDocument(htmlSource);
 ```
 
 **Miért fontos:** Ha egy karakterlánccal kezdünk, elkerülöd a lemezről való fájlbetöltés terheit, ami tökéletes felhő‑függvényekhez vagy egységtesztekhez. Ez a sor a **create html from string** művelet magja.
-
----
 
 ## 2. lépés: Egyéni erőforráskezelő megvalósítása a HTML‑folyam írásához
 
@@ -104,8 +98,6 @@ class MemoryResourceHandler : ResourceHandler
 
 **Miért használjunk egyéni kezelőt?** Determinisztikus helyet biztosít a **write html stream** művelethez anélkül, hogy fájlutakat kellene kitalálni. A kezelő később lehetővé teszi a tartalom ellenőrzését vagy módosítását, mielőtt az véglegesülne.
 
----
-
 ## 3. lépés: Dokumentum mentése és a HTML elfogása
 
 Most, hogy megvan a `HTMLDocument` és a `MemoryResourceHandler`, megkérjük az Aspose‑t, hogy renderelje a dokumentumot. A kimenet a korábban létrehozott `HtmlStream`‑be kerül.
@@ -122,8 +114,6 @@ document.Save(resourceHandler, saveOptions);
 ```
 
 Ekkor a `resourceHandler.HtmlStream` tartalmazza azt a pontos HTML‑t, amelyet az Aspose a kiinduló karakterláncból generált. Nincs ideiglenes fájl, nincs extra I/O.
-
----
 
 ## 4. lépés: A folyam olvasása és a HTML konvertálása karakterláncra
 
@@ -145,8 +135,6 @@ using (StreamReader reader = new StreamReader(resourceHandler.HtmlStream))
 
 **Kulcspont:** Itt történik a **convert html to string**. Mivel a folyam már memóriában van, a konverzió gyakorlatilag egy memória‑másolás – villámgyors.
 
----
-
 ## 5. lépés: HTML kiírása a konzolra
 
 Gyors hibakeresés vagy bemutató céljából a HTML konzolra nyomtatása gyakran elegendő. Emellett teljesíti a **output html console** követelményt is.
@@ -163,8 +151,6 @@ A program futtatásakor valami ilyesmit látsz majd:
 ```
 
 Ez ugyanaz a markup, amivel indultunk, csak most már az Aspose.HTML‑lel feldolgozva, egy **custom resource handler**‑rel elfogva, és fájl rendszer érintése nélkül nyomtatva.
-
----
 
 ## Teljes működő példa
 
@@ -226,16 +212,12 @@ class Program
 
 Futtasd egy konzol‑alkalmazásban, és azonnal láthatod a HTML‑t a képernyőn. Nincsenek fájlok, nincsenek extra függőségek – csak tiszta memóriában történő feldolgozás.
 
----
-
 ## Pro tippek és gyakori buktatók
 
 - **Kódolás számít** – az Aspose alapértelmezés szerint UTF‑8‑at ír. Ha más karakterkészletre van szükséged, a `MemoryStream`‑et csomagold egy `StreamWriter`‑be a kívánt kódolással, mielőtt olvasnád.  
 - **Több erőforrás** – ha a HTML CSS‑t vagy képeket hivatkozik, ugyanaz a kezelő kapja meg őket egymás után. A `resourceInfo`‑t felhasználva elágaztathatsz (pl. képek külön stream‑be mentése).  
 - **Szálbiztonság** – a `MemoryResourceHandler` önmagában nem szálbiztos. Párhuzamos feldolgozás esetén minden szálnak hozz létre egy új kezelőt.  
 - **Erőforrás‑felszabadítás** – a `using` blokkok a `StreamReader` és a `MemoryStream` körül biztosítják, hogy a nem kezelt erőforrások időben felszabaduljanak.  
-
----
 
 ## Mi következik?
 
@@ -246,8 +228,6 @@ Miután már tudsz **create html from string**, **write html stream**, és **out
 - **E‑mail küldés** – a karakterláncot e‑mail törzsként használhatod anélkül, hogy fájlt érintenél.  
 
 Mindezek a forgatókönyvek profitálnak az általunk felépített memóriában történő mintából.
-
----
 
 ## Összegzés
 

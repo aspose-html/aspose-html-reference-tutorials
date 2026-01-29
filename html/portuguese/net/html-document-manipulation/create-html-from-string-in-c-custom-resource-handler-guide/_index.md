@@ -43,8 +43,6 @@ Neste guia vamos percorrer uma solução completa, de ponta a ponta, que usa Asp
 
 Sem serviços externos, sem I/O de arquivos, apenas código C# puro que você pode inserir em qualquer projeto console ou ASP.NET.
 
----
-
 ![Create HTML from string example](https://example.com/create-html-from-string.png "Create HTML from string example")
 
 *Texto alternativo da imagem: Exemplo de criar HTML a partir de string mostrando trecho de código e saída no console.*
@@ -56,8 +54,6 @@ Sem serviços externos, sem I/O de arquivos, apenas código C# puro que você po
 - Familiaridade básica com streams do C# e o padrão `using`.  
 
 É só isso — sem dependências extras, sem bibliotecas pesadas.
-
----
 
 ## Etapa 1: Criar HTML a partir de String
 
@@ -77,8 +73,6 @@ HTMLDocument document = new HTMLDocument(htmlSource);
 ```
 
 **Por que isso importa:** Ao começar com uma string você evita a sobrecarga de carregar arquivos do disco, o que é perfeito para funções em nuvem ou testes unitários. Esta linha é o núcleo da operação de **criar html a partir de string**.
-
----
 
 ## Etapa 2: Implementar um Manipulador de Recurso Personalizado para Gravar o Fluxo HTML
 
@@ -103,8 +97,6 @@ class MemoryResourceHandler : ResourceHandler
 
 **Por que usar um manipulador personalizado?** Ele fornece um local determinístico para **gravar fluxo html** sem adivinhar caminhos de arquivos. O manipulador também permite que você inspecione ou modifique o conteúdo antes de persistí‑lo.
 
----
-
 ## Etapa 3: Salvar o Documento e Capturar o HTML
 
 Agora que temos tanto o `HTMLDocument` quanto o `MemoryResourceHandler`, pedimos ao Aspose para renderizar o documento. A saída vai para o `HtmlStream` que criamos anteriormente.
@@ -121,8 +113,6 @@ document.Save(resourceHandler, saveOptions);
 ```
 
 Neste ponto, `resourceHandler.HtmlStream` contém o HTML exato que o Aspose gerou a partir da string original. Sem arquivos temporários, sem I/O extra.
-
----
 
 ## Etapa 4: Ler o Stream e Converter HTML para String
 
@@ -144,8 +134,6 @@ using (StreamReader reader = new StreamReader(resourceHandler.HtmlStream))
 
 **Ponto chave:** Este é o momento exato em que **convertemos html para string**. Como o stream já está na memória, a conversão é essencialmente uma cópia de memória — extremamente rápida.
 
----
-
 ## Etapa 5: Exibir HTML no Console
 
 Para depuração rápida ou demonstração, imprimir o HTML no console costuma ser suficiente. Também atende ao requisito de **exibir html no console**.
@@ -162,8 +150,6 @@ Ao executar o programa, você verá algo como:
 ```
 
 É o mesmo markup com o qual começamos, mas agora foi processado pelo Aspose.HTML, capturado via um **manipulador de recurso personalizado** e impresso sem jamais tocar no sistema de arquivos.
-
----
 
 ## Exemplo Completo Funcional
 
@@ -225,16 +211,12 @@ class Program
 
 Execute isso em um aplicativo console e o HTML será impresso instantaneamente. Sem arquivos, sem dependências extras — apenas processamento puro em memória.
 
----
-
 ## Dicas Profissionais & Armadilhas Comuns
 
 - **Codificação importa** – O Aspose grava em UTF‑8 por padrão. Se precisar de outro charset, envolva o `MemoryStream` em um `StreamWriter` com a codificação desejada antes de ler.  
 - **Múltiplos recursos** – Se seu HTML referenciar CSS ou imagens, o mesmo manipulador os receberá um após o outro. Você pode inspecionar `resourceInfo` para ramificar a lógica (ex.: armazenar imagens em um stream separado).  
 - **Segurança de thread** – `MemoryResourceHandler` não é thread‑safe por padrão. Para processamento paralelo, crie um manipulador novo por thread.  
 - **Liberação de recursos** – As instruções `using` ao redor de `StreamReader` e `MemoryStream` garantem que recursos não gerenciados sejam liberados prontamente.  
-
----
 
 ## O que vem a seguir?
 
@@ -245,8 +227,6 @@ Agora que você pode **criar html a partir de string**, **gravar fluxo html** e 
 - **Enviar e‑mails** – Converta a string em corpo de e‑mail sem nunca tocar em um arquivo.  
 
 Todos esses cenários se beneficiam do mesmo padrão em memória que acabamos de construir.
-
----
 
 ## Conclusão
 

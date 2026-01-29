@@ -44,8 +44,6 @@ I den här guiden går vi igenom en komplett, end‑to‑end‑lösning som anv�
 
 Inga externa tjänster, ingen fil‑I/O, bara ren C#‑kod som du kan slänga in i vilket konsol‑ eller ASP.NET‑projekt som helst.
 
----
-
 ![Exempel på att skapa HTML från sträng](https://example.com/create-html-from-string.png "Exempel på att skapa HTML från sträng")
 
 *Bildtext: Exempel på att skapa HTML från sträng som visar kodsnutt och konsolutdata.*
@@ -57,8 +55,6 @@ Inga externa tjänster, ingen fil‑I/O, bara ren C#‑kod som du kan slänga in
 - Grundläggande kunskap om C#‑strömmar och `using`‑mönstret.  
 
 Det är allt – inga extra beroenden, inga tunga bibliotek.
-
----
 
 ## Steg 1: Skapa HTML från sträng
 
@@ -78,8 +74,6 @@ HTMLDocument document = new HTMLDocument(htmlSource);
 ```
 
 **Varför detta är viktigt:** Genom att börja med en sträng undviker du overheaden av att läsa in filer från disk, vilket är perfekt för molnfunktioner eller enhetstester. Denna rad är kärnan i **create html from string**‑operationen.
-
----
 
 ## Steg 2: Implementera en anpassad resurs‑hanterare för att skriva HTML‑ström
 
@@ -104,8 +98,6 @@ class MemoryResourceHandler : ResourceHandler
 
 **Varför använda en anpassad hanterare?** Den ger dig en deterministisk plats att **write html stream** utan att gissa filvägar. Hanteraren låter dig också senare inspektera eller modifiera innehållet innan det sparas.
 
----
-
 ## Steg 3: Spara dokumentet och fånga HTML
 
 Nu när vi har både `HTMLDocument` och `MemoryResourceHandler` ber vi Aspose rendera dokumentet. Utdata hamnar i `HtmlStream` som vi skapade tidigare.
@@ -122,8 +114,6 @@ document.Save(resourceHandler, saveOptions);
 ```
 
 Vid den här tidpunkten innehåller `resourceHandler.HtmlStream` exakt den HTML som Aspose genererade från den ursprungliga strängen. Inga temporära filer, ingen extra I/O.
-
----
 
 ## Steg 4: Läs strömmen och konvertera HTML till sträng
 
@@ -145,8 +135,6 @@ using (StreamReader reader = new StreamReader(resourceHandler.HtmlStream))
 
 **Viktigt:** Detta är exakt det ögonblick då vi **convert html to string**. Eftersom strömmen redan är i minnet är konverteringen i princip en minneskopiering – blixtsnabb.
 
----
-
 ## Steg 5: Skriv ut HTML till konsolen
 
 För snabb felsökning eller demonstrationsändamål är det ofta tillräckligt att skriva ut HTML till konsolen. Det uppfyller också kravet **output html console**.
@@ -163,8 +151,6 @@ När du kör programmet kommer du att se något liknande:
 ```
 
 Det är samma markup som vi började med, men nu har den bearbetats av Aspose.HTML, fångats via en **custom resource handler**, och skrivits ut utan att någonsin röra filsystemet.
-
----
 
 ## Fullt fungerande exempel
 
@@ -226,16 +212,12 @@ class Program
 
 Kör detta i en konsolapp, så kommer du att se HTML skrivet ut omedelbart. Inga filer, inga extra beroenden – bara ren minnesbearbetning.
 
----
-
 ## Pro‑tips & vanliga fallgropar
 
 - **Encoding matters** – Aspose skriver UTF‑8 som standard. Om du behöver ett annat teckensnitt, wrappa `MemoryStream` i en `StreamWriter` med önskad kodning innan läsning.  
 - **Multiple resources** – Om din HTML refererar till CSS eller bilder, kommer samma hanterare att ta emot dem en efter en. Du kan inspektera `resourceInfo` för att dela upp logiken (t.ex. lagra bilder i en separat ström).  
 - **Thread safety** – `MemoryResourceHandler` är inte trådsäker ur lådan. För parallell bearbetning, skapa en ny hanterare per tråd.  
 - **Disposal** – `using`‑satserna runt `StreamReader` och `MemoryStream` säkerställer att ohanterade resurser frigörs snabbt.  
-
----
 
 ## Vad blir nästa steg?
 
@@ -246,8 +228,6 @@ Nu när du kan **create html from string**, **write html stream**, och **output 
 - **Sending emails** – Konvertera strängen till ett e‑postmeddelande utan att någonsin röra en fil.  
 
 Alla dessa scenarier drar nytta av samma minnes‑mönster som vi just byggt.
-
----
 
 ## Slutsats
 

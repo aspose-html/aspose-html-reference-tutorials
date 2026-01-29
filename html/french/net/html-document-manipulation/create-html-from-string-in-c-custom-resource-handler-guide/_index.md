@@ -46,8 +46,6 @@ Dans ce guide, nous parcourrons une solution complète, de bout en bout, qui uti
 
 Pas de services externes, pas d'I/O fichier, juste du code C# pur que vous pouvez intégrer à n'importe quel projet console ou ASP.NET.
 
----
-
 ![Exemple de création de HTML à partir d'une chaîne](https://example.com/create-html-from-string.png "Exemple de création de HTML à partir d'une chaîne")
 
 *Texte alternatif de l'image : Exemple de création de HTML à partir d'une chaîne montrant un extrait de code et la sortie console.*
@@ -59,8 +57,6 @@ Pas de services externes, pas d'I/O fichier, juste du code C# pur que vous pouve
 - Familiarité de base avec les flux C# et le pattern `using`.  
 
 C’est tout — aucune dépendance supplémentaire, aucune bibliothèque lourde.
-
----
 
 ## Étape 1 : Créer du HTML à partir d’une chaîne
 
@@ -80,8 +76,6 @@ HTMLDocument document = new HTMLDocument(htmlSource);
 ```
 
 **Pourquoi c’est important :** En partant d’une chaîne, vous évitez le surcoût de chargement de fichiers depuis le disque, ce qui est idéal pour les fonctions cloud ou les tests unitaires. Cette ligne constitue le cœur de l’opération **create html from string**.
-
----
 
 ## Étape 2 : Implémenter un gestionnaire de ressources personnalisé pour écrire le flux HTML
 
@@ -106,8 +100,6 @@ class MemoryResourceHandler : ResourceHandler
 
 **Pourquoi utiliser un gestionnaire personnalisé ?** Il vous offre un emplacement déterministe pour **write html stream** sans deviner les chemins de fichiers. Le gestionnaire vous permet également d’inspecter ou de modifier le contenu avant qu’il ne soit persistant.
 
----
-
 ## Étape 3 : Enregistrer le document et capturer le HTML
 
 Maintenant que nous disposons à la fois du `HTMLDocument` et du `MemoryResourceHandler`, nous demandons à Aspose de rendre le document. La sortie atterrit dans le `HtmlStream` que nous avons créé précédemment.
@@ -124,8 +116,6 @@ document.Save(resourceHandler, saveOptions);
 ```
 
 À ce stade, `resourceHandler.HtmlStream` contient le HTML exact qu’Aspose a généré à partir de la chaîne d’origine. Aucun fichier temporaire, aucune I/O supplémentaire.
-
----
 
 ## Étape 4 : Lire le flux et convertir le HTML en chaîne
 
@@ -147,8 +137,6 @@ using (StreamReader reader = new StreamReader(resourceHandler.HtmlStream))
 
 **Point clé :** C’est le moment exact où nous **convert html to string**. Comme le flux est déjà en mémoire, la conversion n’est essentiellement qu’une copie en mémoire — ultra rapide.
 
----
-
 ## Étape 5 : Afficher le HTML dans la console
 
 Pour un débogage rapide ou une démonstration, imprimer le HTML dans la console suffit souvent. Cela satisfait également l’exigence **output html console**.
@@ -165,8 +153,6 @@ Lorsque vous exécutez le programme, vous verrez quelque chose comme :
 ```
 
 C’est le même balisage avec lequel nous avons commencé, mais il a maintenant été traité par Aspose.HTML, capturé via un **custom resource handler**, et affiché sans jamais toucher le système de fichiers.
-
----
 
 ## Exemple complet fonctionnel
 
@@ -228,16 +214,12 @@ class Program
 
 Exécutez-le dans une application console, et le HTML sera imprimé instantanément. Aucun fichier, aucune dépendance supplémentaire — uniquement du traitement en mémoire.
 
----
-
 ## Astuces pro & pièges courants
 
 - **L’encodage compte** – Aspose écrit en UTF‑8 par défaut. Si vous avez besoin d’un autre jeu de caractères, enveloppez le `MemoryStream` dans un `StreamWriter` avec l’encodage souhaité avant la lecture.  
 - **Ressources multiples** – Si votre HTML référence du CSS ou des images, le même gestionnaire les recevra les unes après les autres. Vous pouvez inspecter `resourceInfo` pour bifurquer la logique (par ex., stocker les images dans un flux séparé).  
 - **Sécurité des threads** – `MemoryResourceHandler` n’est pas thread‑safe par défaut. Pour un traitement parallèle, créez un nouveau gestionnaire par thread.  
 - **Libération des ressources** – Les instructions `using` autour de `StreamReader` et `MemoryStream` garantissent que les ressources non gérées sont libérées rapidement.  
-
----
 
 ## Et après ?
 
@@ -248,8 +230,6 @@ Maintenant que vous pouvez **create html from string**, **write html stream**, e
 - **Envoi d’e‑mails** – Convertissez la chaîne en corps d’e‑mail sans jamais toucher un fichier.  
 
 Tous ces scénarios tirent parti du même modèle en mémoire que nous venons de construire.
-
----
 
 ## Conclusion
 

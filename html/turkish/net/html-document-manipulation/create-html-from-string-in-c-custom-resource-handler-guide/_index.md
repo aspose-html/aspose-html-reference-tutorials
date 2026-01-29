@@ -44,8 +44,6 @@ Bu kılavuzda, Aspose.HTML, hafif bir **özel kaynak işleyici** ve birkaç .NET
 
 Harici servisler, dosya I/O yok; sadece herhangi bir console ya da ASP.NET projesine ekleyebileceğiniz saf C# kodu.
 
----
-
 ![Create HTML from string example](https://example.com/create-html-from-string.png "Create HTML from string example")
 
 *Görsel alt metni: Kod parçacığını ve konsol çıktısını gösteren dizeden HTML oluşturma örneği.*
@@ -57,8 +55,6 @@ Harici servisler, dosya I/O yok; sadece herhangi bir console ya da ASP.NET proje
 - C# akışları ve `using` deseni hakkında temel bilgi.  
 
 Hepsi bu—ekstra bağımlılık, ağır kütüphane yok.
-
----
 
 ## Adım 1: Dizeden HTML Oluşturma
 
@@ -78,8 +74,6 @@ HTMLDocument document = new HTMLDocument(htmlSource);
 ```
 
 **Neden önemli:** Bir dizeyle başlayarak diskten dosya yükleme maliyetinden kaçınırsınız; bu, bulut fonksiyonları ya da birim testleri için idealdir. Bu satır, **create html from string** işleminin çekirdeğidir.
-
----
 
 ## Adım 2: HTML Akışını Yazmak İçin Özel Kaynak İşleyicisi Uygulama
 
@@ -104,8 +98,6 @@ class MemoryResourceHandler : ResourceHandler
 
 **Neden özel bir işleyici?** **write html stream** işlemini dosya yollarını tahmin etmeden belirli bir yere yönlendirmenizi sağlar. İşleyici ayrıca içeriği kalıcı hale getirmeden önce inceleme ya da değiştirme imkanı tanır.
 
----
-
 ## Adım 3: Belgeyi Kaydet ve HTML’i Yakala
 
 `HTMLDocument` ve `MemoryResourceHandler` hazır olduğuna göre, Aspose’dan belgeyi render etmesini isteyelim. Çıktı, önceden oluşturduğumuz `HtmlStream`e düşer.
@@ -122,8 +114,6 @@ document.Save(resourceHandler, saveOptions);
 ```
 
 Bu noktada `resourceHandler.HtmlStream`, Aspose’un orijinal dizeden ürettiği tam HTML’i içerir. Geçici dosya, ekstra I/O yok.
-
----
 
 ## Adım 4: Akışı Oku ve HTML’i Dizeye Dönüştür
 
@@ -145,8 +135,6 @@ using (StreamReader reader = new StreamReader(resourceHandler.HtmlStream))
 
 **Ana nokta:** İşte **convert html to string** işlemini gerçekleştirdiğimiz an. Akış zaten bellekte olduğundan dönüşüm temelde bir bellek kopyasıdır—çok hızlı.
 
----
-
 ## Adım 5: HTML’i Konsola Çıktıla
 
 Hızlı hata ayıklama ya da gösterim amaçlı, HTML’i konsola yazdırmak çoğu zaman yeterlidir. Aynı zamanda **output html console** gereksinimini karşılar.
@@ -163,8 +151,6 @@ Programı çalıştırdığınızda şu benzeri bir çıktı göreceksiniz:
 ```
 
 Bu, başlangıçta kullandığımız aynı işaretlemdir; ancak Aspose.HTML tarafından işlenmiş, **özel kaynak işleyicisi**yle yakalanmış ve dosya sistemine dokunulmadan yazdırılmıştır.
-
----
 
 ## Tam Çalışan Örnek
 
@@ -226,16 +212,12 @@ class Program
 
 Bunu bir console uygulamasında çalıştırın; HTML anında konsola basılacaktır. Dosya, ekstra bağımlılık yok—sadece bellek içinde işleme.
 
----
-
 ## Profesyonel İpuçları ve Yaygın Tuzaklar
 
 - **Kodlama (Encoding) önemli** – Aspose varsayılan olarak UTF‑8 yazar. Farklı bir karakter setine ihtiyacınız varsa, `MemoryStream`i istediğiniz kodlamayla bir `StreamWriter` içinde sarın ve ardından okuyun.  
 - **Birden çok kaynak** – HTML’niz CSS ya da görseller referans veriyorsa, aynı işleyici bunları ardışık olarak alır. `resourceInfo`yu inceleyerek (ör. görselleri ayrı bir akışa kaydetmek) mantık dallandırabilirsiniz.  
 - **İş parçacığı güvenliği** – `MemoryResourceHandler` doğası gereği thread‑safe değildir. Paralel işleme için her iş parçacığına yeni bir işleyici örneği oluşturun.  
 - **Kaynakların serbest bırakılması** – `StreamReader` ve `MemoryStream` etrafındaki `using` ifadeleri, yönetilmeyen kaynakların zamanında temizlenmesini sağlar.  
-
----
 
 ## Sırada Ne Var?
 
@@ -246,8 +228,6 @@ Artık **create html from string**, **write html stream** ve **output html conso
 - **E‑posta gönderimi** – Dizeyi dosyaya dokunmadan e‑posta gövdesi olarak kullanın.  
 
 Bu senaryoların tümü, az önce inşa ettiğimiz bellek‑içinde desenle aynı faydayı sağlar.
-
----
 
 ## Sonuç
 

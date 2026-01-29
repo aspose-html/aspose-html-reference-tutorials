@@ -43,8 +43,6 @@ Trong hướng dẫn này, chúng ta sẽ đi qua một giải pháp hoàn chỉ
 
 Không cần dịch vụ bên ngoài, không cần I/O file, chỉ là mã C# thuần mà bạn có thể đưa vào bất kỳ dự án console hoặc ASP.NET nào.
 
----
-
 ![Create HTML from string example](https://example.com/create-html-from-string.png "Create HTML from string example")
 
 *Văn bản thay thế hình ảnh: Ví dụ tạo HTML từ chuỗi hiển thị đoạn mã và đầu ra console.*
@@ -56,8 +54,6 @@ Không cần dịch vụ bên ngoài, không cần I/O file, chỉ là mã C# th
 - Kiến thức cơ bản về luồng C# và mẫu `using`.  
 
 Đó là tất cả—không có phụ thuộc bổ sung, không có thư viện nặng.
-
----
 
 ## Bước 1: Tạo HTML từ Chuỗi
 
@@ -77,8 +73,6 @@ HTMLDocument document = new HTMLDocument(htmlSource);
 ```
 
 **Tại sao điều này quan trọng:** Bằng cách bắt đầu với một chuỗi, bạn tránh được chi phí tải file từ đĩa, rất phù hợp cho các hàm cloud hoặc unit test. Dòng này là lõi của thao tác **create html from string**.
-
----
 
 ## Bước 2: Triển Khai Bộ Xử Lý Tài Nguyên Tùy Chỉnh Để Ghi Luồng HTML
 
@@ -103,8 +97,6 @@ class MemoryResourceHandler : ResourceHandler
 
 **Tại sao dùng bộ xử lý tùy chỉnh?** Nó cung cấp cho bạn một vị trí quyết định để **write html stream** mà không phải đoán đường dẫn file. Bộ xử lý cũng cho phép bạn kiểm tra hoặc chỉnh sửa nội dung trước khi lưu.
 
----
-
 ## Bước 3: Lưu Tài Liệu và Bắt Đầu HTML
 
 Bây giờ chúng ta đã có cả `HTMLDocument` và `MemoryResourceHandler`, chúng ta yêu cầu Aspose render tài liệu. Kết quả sẽ được ghi vào `HtmlStream` mà chúng ta tạo ở bước trước.
@@ -121,8 +113,6 @@ document.Save(resourceHandler, saveOptions);
 ```
 
 Tại thời điểm này, `resourceHandler.HtmlStream` chứa chính xác HTML mà Aspose tạo ra từ chuỗi gốc. Không có file tạm, không có I/O phụ.
-
----
 
 ## Bước 4: Đọc Luồng và Chuyển Đổi HTML Sang Chuỗi
 
@@ -144,8 +134,6 @@ using (StreamReader reader = new StreamReader(resourceHandler.HtmlStream))
 
 **Điểm then chốt:** Đây là khoảnh khắc chúng ta **convert html to string**. Vì luồng đã ở trong bộ nhớ, việc chuyển đổi thực chất chỉ là sao chép bộ nhớ—rất nhanh.
 
----
-
 ## Bước 5: In HTML Ra Console
 
 Đối với việc gỡ lỗi nhanh hoặc trình diễn, việc in HTML ra console thường là đủ. Nó cũng đáp ứng yêu cầu **output html console**.
@@ -162,8 +150,6 @@ Khi bạn chạy chương trình, bạn sẽ thấy một đầu ra giống như
 ```
 
 Đó là cùng một markup mà chúng ta bắt đầu với, nhưng giờ đã được Aspose.HTML xử lý, bắt bằng **custom resource handler**, và in ra mà không bao giờ chạm tới hệ thống file.
-
----
 
 ## Ví Dụ Hoàn Chỉnh
 
@@ -225,16 +211,12 @@ class Program
 
 Chạy nó trong một ứng dụng console, và bạn sẽ thấy HTML được in ngay lập tức. Không có file, không có phụ thuộc thêm—chỉ xử lý trong bộ nhớ.
 
----
-
 ## Mẹo Chuyên Gia & Những Cạm Bẫy Thường Gặp
 
 - **Mã hoá quan trọng** – Aspose ghi dưới dạng UTF‑8 mặc định. Nếu bạn cần charset khác, hãy bọc `MemoryStream` trong một `StreamWriter` với mã hoá mong muốn trước khi đọc.  
 - **Nhiều tài nguyên** – Nếu HTML của bạn tham chiếu tới CSS hoặc hình ảnh, cùng một handler sẽ nhận chúng lần lượt. Bạn có thể kiểm tra `resourceInfo` để phân nhánh logic (ví dụ, lưu hình ảnh vào một luồng riêng).  
 - **An toàn đa luồng** – `MemoryResourceHandler` không an toàn với đa luồng theo mặc định. Đối với xử lý song song, hãy tạo một handler mới cho mỗi luồng.  
 - **Giải phóng tài nguyên** – Các câu lệnh `using` quanh `StreamReader` và `MemoryStream` đảm bảo các tài nguyên không quản lý được giải phóng kịp thời.  
-
----
 
 ## Tiếp Theo Bạn Sẽ Làm Gì?
 
@@ -245,8 +227,6 @@ Bây giờ bạn đã có thể **create html from string**, **write html stream
 - **Gửi email** – Chuyển đổi chuỗi thành nội dung email mà không cần tạo file.  
 
 Tất cả các kịch bản này đều hưởng lợi từ mẫu xử lý trong bộ nhớ mà chúng ta vừa xây dựng.
-
----
 
 ## Kết Luận
 

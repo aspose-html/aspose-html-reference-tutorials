@@ -46,8 +46,6 @@ W tym przewodniku przejdziemy krok po kroku przez kompletną, end‑to‑end roz
 
 Bez zewnętrznych usług, bez operacji na plikach, tylko czysty kod C#, który możesz wkleić do dowolnego projektu konsolowego lub ASP.NET.
 
----
-
 ![Create HTML from string example](https://example.com/create-html-from-string.png "Create HTML from string example")
 
 *Image alt text: Create HTML from string example showing code snippet and console output.*
@@ -59,8 +57,6 @@ Bez zewnętrznych usług, bez operacji na plikach, tylko czysty kod C#, który m
 - Podstawowa znajomość strumieni C# oraz wzorca `using`.  
 
 To wszystko — bez dodatkowych zależności, bez ciężkich bibliotek.
-
----
 
 ## Krok 1: Utwórz HTML z ciągu znaków
 
@@ -80,8 +76,6 @@ HTMLDocument document = new HTMLDocument(htmlSource);
 ```
 
 **Dlaczego to ważne:** Rozpoczynając od ciągu, unikamy narzutu ładowania plików z dysku, co jest idealne dla funkcji chmurowych lub testów jednostkowych. Ta linia jest sercem operacji **create html from string**.
-
----
 
 ## Krok 2: Implementacja niestandardowego obsługiwacza zasobów do zapisu strumienia HTML
 
@@ -106,8 +100,6 @@ class MemoryResourceHandler : ResourceHandler
 
 **Dlaczego używać własnego handlera?** Daje on deterministyczne miejsce do **write html stream** bez zgadywania ścieżek plików. Handler pozwala także później przejrzeć lub zmodyfikować zawartość przed jej zapisaniem.
 
----
-
 ## Krok 3: Zapisz dokument i przechwyć HTML
 
 Mając już `HTMLDocument` i `MemoryResourceHandler`, prosimy Aspose o wyrenderowanie dokumentu. Wynik trafia do `HtmlStream`, który utworzyliśmy wcześniej.
@@ -124,8 +116,6 @@ document.Save(resourceHandler, saveOptions);
 ```
 
 W tym momencie `resourceHandler.HtmlStream` zawiera dokładny HTML, który Aspose wygenerował z pierwotnego ciągu. Bez plików tymczasowych, bez dodatkowego I/O.
-
----
 
 ## Krok 4: Odczytaj strumień i skonwertuj HTML do ciągu znaków
 
@@ -147,8 +137,6 @@ using (StreamReader reader = new StreamReader(resourceHandler.HtmlStream))
 
 **Kluczowy punkt:** To właśnie moment, w którym **convert html to string**. Ponieważ strumień już znajduje się w pamięci, konwersja jest praktycznie kopiowaniem pamięci — błyskawicznie szybka.
 
----
-
 ## Krok 5: Wypisz HTML na konsolę
 
 Do szybkiego debugowania lub demonstracji często wystarczy wydrukowanie HTML na konsolę. Spełnia to również wymaganie **output html console**.
@@ -165,8 +153,6 @@ Po uruchomieniu programu zobaczysz coś w stylu:
 ```
 
 To ten sam markup, od którego zaczęliśmy, ale został już przetworzony przez Aspose.HTML, przechwycony za pomocą **custom resource handler** i wypisany bez dotykania systemu plików.
-
----
 
 ## Pełny działający przykład
 
@@ -228,16 +214,12 @@ class Program
 
 Uruchom go w aplikacji konsolowej, a zobaczysz HTML wypisany natychmiast. Bez plików, bez dodatkowych zależności — tylko czyste przetwarzanie w pamięci.
 
----
-
 ## Pro tipy i typowe pułapki
 
 - **Kodowanie ma znaczenie** – Aspose zapisuje domyślnie UTF‑8. Jeśli potrzebujesz innego zestawu znaków, owiń `MemoryStream` w `StreamWriter` z żądanym kodowaniem przed odczytem.  
 - **Wiele zasobów** – Jeśli Twój HTML odwołuje się do CSS lub obrazów, ten sam handler otrzyma je kolejno. Możesz sprawdzić `resourceInfo`, aby rozgałęzić logikę (np. przechowywać obrazy w osobnym strumieniu).  
 - **Bezpieczeństwo wątkowe** – `MemoryResourceHandler` nie jest domyślnie bezpieczny dla wątków. Przy równoległym przetwarzaniu twórz nowy handler dla każdego wątku.  
 - **Zwalnianie zasobów** – Instrukcje `using` wokół `StreamReader` i `MemoryStream` zapewniają szybkie zwolnienie niezarządzanych zasobów.  
-
----
 
 ## Co dalej?
 
@@ -248,8 +230,6 @@ Teraz, gdy potrafisz **create html from string**, **write html stream** i **outp
 - **Wysyłanie e‑maili** – Konwertuj ciąg na treść wiadomości e‑mail bez potrzeby zapisywania pliku.  
 
 Wszystkie te scenariusze korzystają z tego samego wzorca przetwarzania w pamięci, który właśnie zbudowaliśmy.
-
----
 
 ## Zakończenie
 

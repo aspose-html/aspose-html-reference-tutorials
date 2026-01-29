@@ -44,8 +44,6 @@ In diesem Leitfaden gehen wir Schritt für Schritt durch eine komplette End‑zu
 
 Keine externen Dienste, kein Datei‑I/O, nur reiner C#‑Code, den Sie in jedes Konsolen‑ oder ASP.NET‑Projekt einbinden können.
 
----
-
 ![Create HTML from string example](https://example.com/create-html-from-string.png "Create HTML from string example")
 
 *Bildbeschreibung: Beispiel für HTML aus String erstellen, das Code‑Snippet und Konsolenausgabe zeigt.*
@@ -57,8 +55,6 @@ Keine externen Dienste, kein Datei‑I/O, nur reiner C#‑Code, den Sie in jedes
 - Grundlegende Kenntnisse zu C#‑Streams und dem `using`‑Muster.  
 
 Das war’s – keine zusätzlichen Abhängigkeiten, keine schweren Bibliotheken.
-
----
 
 ## Schritt 1: HTML aus String erstellen
 
@@ -78,8 +74,6 @@ HTMLDocument document = new HTMLDocument(htmlSource);
 ```
 
 **Warum das wichtig ist:** Durch den Start mit einem String vermeiden Sie den Overhead, Dateien von der Festplatte zu laden – ideal für Cloud‑Funktionen oder Unit‑Tests. Diese Zeile ist das Kernstück der **HTML aus String erstellen**‑Operation.
-
----
 
 ## Schritt 2: Einen benutzerdefinierten Ressourcen‑Handler implementieren, um den HTML‑Stream zu schreiben
 
@@ -104,8 +98,6 @@ class MemoryResourceHandler : ResourceHandler
 
 **Warum ein benutzerdefinierter Handler?** Er gibt Ihnen einen deterministischen Ort, um **HTML‑Stream schreiben** zu können, ohne Dateipfade zu raten. Der Handler ermöglicht zudem, den Inhalt später zu inspizieren oder zu verändern, bevor er gespeichert wird.
 
----
-
 ## Schritt 3: Dokument speichern und HTML erfassen
 
 Jetzt, wo wir sowohl das `HTMLDocument` als auch den `MemoryResourceHandler` haben, lassen wir Aspose das Dokument rendern. Die Ausgabe landet in dem `HtmlStream`, den wir zuvor erstellt haben.
@@ -122,8 +114,6 @@ document.Save(resourceHandler, saveOptions);
 ```
 
 An diesem Punkt enthält `resourceHandler.HtmlStream` das exakte HTML, das Aspose aus dem ursprünglichen String generiert hat. Keine temporären Dateien, kein zusätzliches I/O.
-
----
 
 ## Schritt 4: Stream lesen und HTML in String konvertieren
 
@@ -145,8 +135,6 @@ using (StreamReader reader = new StreamReader(resourceHandler.HtmlStream))
 
 **Wichtiger Punkt:** Genau hier **konvertieren wir HTML in String**. Da der Stream bereits im Speicher liegt, ist die Umwandlung im Wesentlichen ein Speicher‑Copy – blitzschnell.
 
----
-
 ## Schritt 5: HTML in der Konsole ausgeben
 
 Für schnelles Debugging oder Demonstrationszwecke reicht es oft, das HTML in die Konsole zu drucken. Das erfüllt ebenfalls die Anforderung **HTML in der Konsole ausgeben**.
@@ -163,8 +151,6 @@ Wenn Sie das Programm ausführen, sehen Sie etwa Folgendes:
 ```
 
 Das ist das gleiche Markup, mit dem wir begonnen haben, nur dass es jetzt von Aspose.HTML verarbeitet, über einen **benutzerdefinierten Ressourcen‑Handler** erfasst und ohne Dateisystemzugriff ausgegeben wurde.
-
----
 
 ## Vollständiges funktionierendes Beispiel
 
@@ -226,16 +212,12 @@ class Program
 
 Führen Sie es in einer Konsolen‑App aus, und Sie sehen das HTML sofort gedruckt. Keine Dateien, keine zusätzlichen Abhängigkeiten – nur reine In‑Memory‑Verarbeitung.
 
----
-
 ## Pro‑Tipps & häufige Stolperfallen
 
 - **Kodierung ist wichtig** – Aspose schreibt standardmäßig UTF‑8. Wenn Sie ein anderes Charset benötigen, wickeln Sie den `MemoryStream` in einen `StreamWriter` mit der gewünschten Kodierung, bevor Sie lesen.  
 - **Mehrere Ressourcen** – Wenn Ihr HTML CSS oder Bilder referenziert, erhält derselbe Handler sie nacheinander. Sie können `resourceInfo` prüfen, um die Logik zu verzweigen (z. B. Bilder in einen separaten Stream speichern).  
 - **Thread‑Sicherheit** – `MemoryResourceHandler` ist nicht von Haus aus thread‑sicher. Für parallele Verarbeitung erzeugen Sie pro Thread einen frischen Handler.  
 - **Freigabe** – Die `using`‑Blöcke um `StreamReader` und `MemoryStream` sorgen dafür, dass unmanaged Ressourcen sofort freigegeben werden.  
-
----
 
 ## Was kommt als Nächstes?
 
@@ -246,8 +228,6 @@ Jetzt, wo Sie **HTML aus String erstellen**, **HTML‑Stream schreiben** und **H
 - **E‑Mails senden** – Konvertieren Sie den String in einen E‑Mail‑Body, ohne jemals eine Datei zu berühren.  
 
 All diese Szenarien profitieren vom gleichen In‑Memory‑Muster, das wir gerade gebaut haben.
-
----
 
 ## Fazit
 

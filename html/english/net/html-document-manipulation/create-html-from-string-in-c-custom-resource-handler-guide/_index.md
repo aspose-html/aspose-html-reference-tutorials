@@ -42,8 +42,6 @@ In this guide we’ll walk through a complete, end‑to‑end solution that uses
 
 No external services, no file I/O, just pure C# code that you can drop into any console or ASP.NET project.
 
----
-
 ![Create HTML from string example](https://example.com/create-html-from-string.png "Create HTML from string example")
 
 *Image alt text: Create HTML from string example showing code snippet and console output.*
@@ -55,8 +53,6 @@ No external services, no file I/O, just pure C# code that you can drop into any 
 - Basic familiarity with C# streams and the `using` pattern.  
 
 That’s it—no extra dependencies, no heavyweight libraries.
-
----
 
 ## Step 1: Create HTML from String
 
@@ -76,8 +72,6 @@ HTMLDocument document = new HTMLDocument(htmlSource);
 ```
 
 **Why this matters:** By starting with a string you avoid the overhead of loading files from disk, which is perfect for cloud functions or unit tests. This line is the core of the **create html from string** operation.
-
----
 
 ## Step 2: Implement a Custom Resource Handler to Write HTML Stream
 
@@ -102,8 +96,6 @@ class MemoryResourceHandler : ResourceHandler
 
 **Why use a custom handler?** It gives you a deterministic place to **write html stream** without guessing file paths. The handler also lets you later inspect or modify the content before it’s persisted.
 
----
-
 ## Step 3: Save the Document and Capture HTML
 
 Now that we have both the `HTMLDocument` and the `MemoryResourceHandler`, we ask Aspose to render the document. The output lands in the `HtmlStream` we created earlier.
@@ -120,8 +112,6 @@ document.Save(resourceHandler, saveOptions);
 ```
 
 At this point the `resourceHandler.HtmlStream` contains the exact HTML that Aspose generated from the original string. No temporary files, no extra I/O.
-
----
 
 ## Step 4: Read the Stream and Convert HTML to String
 
@@ -143,8 +133,6 @@ using (StreamReader reader = new StreamReader(resourceHandler.HtmlStream))
 
 **Key point:** This is the exact moment we **convert html to string**. Because the stream is already in memory, the conversion is essentially a memory copy—blazing fast.
 
----
-
 ## Step 5: Output HTML to Console
 
 For quick debugging or demonstration purposes, printing the HTML to the console is often enough. It also satisfies the **output html console** requirement.
@@ -161,8 +149,6 @@ When you run the program, you’ll see something like:
 ```
 
 That’s the same markup we started with, but now it’s been processed by Aspose.HTML, captured via a **custom resource handler**, and printed without ever touching the file system.
-
----
 
 ## Full Working Example
 
@@ -224,16 +210,12 @@ class Program
 
 Run this in a console app, and you’ll see the HTML printed instantly. No files, no extra dependencies—just pure in‑memory processing.
 
----
-
 ## Pro Tips & Common Pitfalls
 
 - **Encoding matters** – Aspose writes UTF‑8 by default. If you need a different charset, wrap the `MemoryStream` in a `StreamWriter` with the desired encoding before reading.  
 - **Multiple resources** – If your HTML references CSS or images, the same handler will receive them one after another. You can inspect `resourceInfo` to branch logic (e.g., store images in a separate stream).  
 - **Thread safety** – `MemoryResourceHandler` isn’t thread‑safe out of the box. For parallel processing, instantiate a fresh handler per thread.  
 - **Disposal** – The `using` statements around `StreamReader` and `MemoryStream` ensure unmanaged resources are released promptly.  
-
----
 
 ## What’s Next?
 
@@ -244,8 +226,6 @@ Now that you can **create html from string**, **write html stream**, and **outpu
 - **Sending emails** – Convert the string to an email body without ever touching a file.  
 
 All of these scenarios benefit from the same in‑memory pattern we just built.
-
----
 
 ## Conclusion
 

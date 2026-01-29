@@ -44,8 +44,6 @@ url: /hi/net/html-document-manipulation/create-html-from-string-in-c-custom-reso
 
 कोई बाहरी सर्विस नहीं, कोई फ़ाइल I/O नहीं, सिर्फ शुद्ध C# कोड जिसे आप किसी भी कंसोल या ASP.NET प्रोजेक्ट में डाल सकते हैं।
 
----
-
 ![Create HTML from string example](https://example.com/create-html-from-string.png "Create HTML from string example")
 
 *Image alt text: Create HTML from string example showing code snippet and console output.*
@@ -57,8 +55,6 @@ url: /hi/net/html-document-manipulation/create-html-from-string-in-c-custom-reso
 - C# स्ट्रीम्स और `using` पैटर्न की बुनियादी समझ।  
 
 बस इतना ही—कोई अतिरिक्त डिपेंडेंसी नहीं, कोई भारी लाइब्रेरी नहीं।
-
----
 
 ## Step 1: Create HTML from String
 
@@ -78,8 +74,6 @@ HTMLDocument document = new HTMLDocument(htmlSource);
 ```
 
 **Why this matters:** स्ट्रिंग से शुरू करके आप डिस्क से फ़ाइल लोड करने के ओवरहेड से बचते हैं, जो क्लाउड फ़ंक्शन्स या यूनिट टेस्ट्स के लिए एकदम उपयुक्त है। यह लाइन **create html from string** ऑपरेशन का कोर है।
-
----
 
 ## Step 2: Implement a Custom Resource Handler to Write HTML Stream
 
@@ -104,8 +98,6 @@ class MemoryResourceHandler : ResourceHandler
 
 **Why use a custom handler?** यह आपको **write html stream** करने के लिए एक निर्धारित स्थान देता है, बिना फ़ाइल पाथ का अनुमान लगाए। हैंडलर बाद में कंटेंट को निरीक्षण या मॉडिफ़ाई करने की भी सुविधा देता है।
 
----
-
 ## Step 3: Save the Document and Capture HTML
 
 अब जब हमारे पास `HTMLDocument` और `MemoryResourceHandler` दोनों हैं, हम Aspose को डॉक्यूमेंट रेंडर करने को कहते हैं। आउटपुट पहले बनाए गए `HtmlStream` में जमा हो जाता है।
@@ -122,8 +114,6 @@ document.Save(resourceHandler, saveOptions);
 ```
 
 इस चरण पर `resourceHandler.HtmlStream` में वही सटीक HTML है जो Aspose ने मूल स्ट्रिंग से जेनरेट किया है। कोई अस्थायी फ़ाइल नहीं, कोई अतिरिक्त I/O नहीं।
-
----
 
 ## Step 4: Read the Stream and Convert HTML to String
 
@@ -145,8 +135,6 @@ using (StreamReader reader = new StreamReader(resourceHandler.HtmlStream))
 
 **Key point:** यही वह क्षण है जब हम **convert html to string** करते हैं। क्योंकि स्ट्रीम पहले से ही मेमोरी में है, परिवर्तन मूलतः एक मेमोरी कॉपी है—बहुत तेज़।
 
----
-
 ## Step 5: Output HTML to Console
 
 त्वरित डिबगिंग या डेमो के लिए, HTML को कंसोल पर प्रिंट करना अक्सर पर्याप्त होता है। यह **output html console** की आवश्यकता को भी पूरा करता है।
@@ -163,8 +151,6 @@ Console.WriteLine(resultHtml);
 ```
 
 यह वही मार्कअप है जिससे हमने शुरू किया था, लेकिन अब इसे Aspose.HTML ने प्रोसेस किया है, **custom resource handler** के माध्यम से कैप्चर किया है, और फ़ाइल सिस्टम को कभी छुए बिना प्रिंट किया है।
-
----
 
 ## Full Working Example
 
@@ -226,16 +212,12 @@ class Program
 
 इसे एक कंसोल ऐप में चलाएँ, और आप तुरंत HTML प्रिंट होते देखेंगे। कोई फ़ाइल नहीं, कोई अतिरिक्त डिपेंडेंसी नहीं—सिर्फ शुद्ध इन‑मेमोरी प्रोसेसिंग।
 
----
-
 ## Pro Tips & Common Pitfalls
 
 - **Encoding matters** – Aspose डिफ़ॉल्ट रूप से UTF‑8 लिखता है। यदि आपको अलग charset चाहिए, तो `MemoryStream` को `StreamWriter` में इच्छित एन्कोडिंग के साथ रैप करें और फिर पढ़ें।  
 - **Multiple resources** – यदि आपका HTML CSS या इमेजेज रेफ़र करता है, तो वही हैंडलर उन्हें क्रमशः प्राप्त करेगा। आप `resourceInfo` को देख कर लॉजिक शाखा बना सकते हैं (जैसे इमेजेज को अलग स्ट्रीम में स्टोर करना)।  
 - **Thread safety** – `MemoryResourceHandler` बॉक्स से बाहर थ्रेड‑सेफ़ नहीं है। समानांतर प्रोसेसिंग के लिए प्रत्येक थ्रेड पर एक नया हैंडलर इंस्टैंशिएट करें।  
 - **Disposal** – `StreamReader` और `MemoryStream` के आसपास `using` स्टेटमेंट्स अनमैनेज्ड रिसोर्सेज़ को तुरंत रिलीज़ करने को सुनिश्चित करते हैं।  
-
----
 
 ## What’s Next?
 
@@ -246,8 +228,6 @@ class Program
 - **Sending emails** – स्ट्रिंग को ईमेल बॉडी में बदलें बिना फ़ाइल को छुए।  
 
 इन सभी परिदृश्यों को वही इन‑मेमोरी पैटर्न लाभ देता है जो हमने अभी बनाया है।
-
----
 
 ## Conclusion
 

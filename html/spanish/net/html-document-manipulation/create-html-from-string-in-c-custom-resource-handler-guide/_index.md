@@ -45,8 +45,6 @@ En esta guía recorreremos una solución completa, de extremo a extremo, que uti
 
 Sin servicios externos, sin I/O de archivos, solo código puro de C# que puedes insertar en cualquier proyecto de consola o ASP.NET.
 
----
-
 ![Ejemplo de crear HTML a partir de una cadena](https://example.com/create-html-from-string.png "Ejemplo de crear HTML a partir de una cadena")
 
 *Texto alternativo de la imagen: Ejemplo de crear HTML a partir de una cadena que muestra fragmento de código y salida de consola.*
@@ -58,8 +56,6 @@ Sin servicios externos, sin I/O de archivos, solo código puro de C# que puedes 
 - Familiaridad básica con flujos de C# y el patrón `using`.  
 
 Eso es todo—sin dependencias adicionales, sin bibliotecas pesadas.
-
----
 
 ## Paso 1: Crear HTML a partir de una cadena
 
@@ -79,8 +75,6 @@ HTMLDocument document = new HTMLDocument(htmlSource);
 ```
 
 **Por qué esto es importante:** Al comenzar con una cadena evitas la sobrecarga de cargar archivos desde el disco, lo cual es perfecto para funciones en la nube o pruebas unitarias. Esta línea es el núcleo de la operación **create html from string**.
-
----
 
 ## Paso 2: Implementar un Custom Resource Handler para escribir el flujo HTML
 
@@ -105,8 +99,6 @@ class MemoryResourceHandler : ResourceHandler
 
 **¿Por qué usar un manejador personalizado?** Te brinda un lugar determinista para **write html stream** sin adivinar rutas de archivo. El manejador también te permite inspeccionar o modificar el contenido antes de que se persista.
 
----
-
 ## Paso 3: Guardar el documento y capturar el HTML
 
 Ahora que tenemos tanto el `HTMLDocument` como el `MemoryResourceHandler`, le pedimos a Aspose que renderice el documento. La salida se coloca en el `HtmlStream` que creamos anteriormente.
@@ -123,8 +115,6 @@ document.Save(resourceHandler, saveOptions);
 ```
 
 En este punto, `resourceHandler.HtmlStream` contiene el HTML exacto que Aspose generó a partir de la cadena original. Sin archivos temporales, sin I/O adicional.
-
----
 
 ## Paso 4: Leer el flujo y convertir HTML a cadena
 
@@ -146,8 +136,6 @@ using (StreamReader reader = new StreamReader(resourceHandler.HtmlStream))
 
 **Punto clave:** Este es el momento exacto en que **convert html to string**. Como el flujo ya está en memoria, la conversión es esencialmente una copia de memoria—muy rápida.
 
----
-
 ## Paso 5: Imprimir HTML en la consola
 
 Para depuración rápida o propósitos de demostración, imprimir el HTML en la consola suele ser suficiente. También cumple con el requisito **output html console**.
@@ -164,8 +152,6 @@ Cuando ejecutes el programa, verás algo como:
 ```
 
 Ese es el mismo marcado con el que comenzamos, pero ahora ha sido procesado por Aspose.HTML, capturado mediante un **custom resource handler**, y imprimido sin tocar nunca el sistema de archivos.
-
----
 
 ## Ejemplo completo funcional
 
@@ -227,16 +213,12 @@ class Program
 
 Ejecuta esto en una aplicación de consola y verás el HTML impreso al instante. Sin archivos, sin dependencias adicionales—solo procesamiento puro en memoria.
 
----
-
 ## Consejos profesionales y errores comunes
 
 - **Encoding matters** – Aspose escribe UTF‑8 por defecto. Si necesitas un juego de caracteres diferente, envuelve el `MemoryStream` en un `StreamWriter` con la codificación deseada antes de leer.  
 - **Multiple resources** – Si tu HTML hace referencia a CSS o imágenes, el mismo manejador los recibirá uno tras otro. Puedes inspeccionar `resourceInfo` para ramificar la lógica (p. ej., almacenar imágenes en un flujo separado).  
 - **Thread safety** – `MemoryResourceHandler` no es seguro para hilos por defecto. Para procesamiento paralelo, instancia un manejador nuevo por hilo.  
 - **Disposal** – Las sentencias `using` alrededor de `StreamReader` y `MemoryStream` garantizan que los recursos no administrados se liberen rápidamente.  
-
----
 
 ## ¿Qué sigue?
 
@@ -247,8 +229,6 @@ Ahora que puedes **create html from string**, **write html stream**, y **output 
 - **Sending emails** – Convierte la cadena en el cuerpo de un correo electrónico sin tocar nunca un archivo.  
 
 Todos estos escenarios se benefician del mismo patrón en memoria que acabamos de crear.
-
----
 
 ## Conclusión
 

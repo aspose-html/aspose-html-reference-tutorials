@@ -42,8 +42,6 @@ url: /zh-hant/net/html-document-manipulation/create-html-from-string-in-c-custom
 
 不需要外部服務、檔案 I/O，只有純 C# 程式碼，隨時可放入任何 Console 或 ASP.NET 專案。
 
----
-
 ![Create HTML from string example](https://example.com/create-html-from-string.png "Create HTML from string example")
 
 *圖片說明：展示程式碼片段與主控台輸出的「從字串建立 HTML」範例。*
@@ -55,8 +53,6 @@ url: /zh-hant/net/html-document-manipulation/create-html-from-string-in-c-custom
 - 具備 C# 串流與 `using` 模式的基本概念。  
 
 就這些——不需要額外相依套件，也不需要大型函式庫。
-
----
 
 ## 步驟 1：從字串建立 HTML
 
@@ -76,8 +72,6 @@ HTMLDocument document = new HTMLDocument(htmlSource);
 ```
 
 **為什麼重要：** 以字串作為起點可避免從磁碟載入檔案的開銷，這對雲端函式或單元測試而言相當理想。此行程式碼即是 **create html from string** 操作的核心。
-
----
 
 ## 步驟 2：實作自訂資源處理器以寫入 HTML 串流
 
@@ -102,8 +96,6 @@ class MemoryResourceHandler : ResourceHandler
 
 **為什麼使用自訂處理器？** 它讓你能確定地 **write html stream** 到指定位置，而不必猜測檔案路徑。之後也可以在內容寫入前檢查或修改。
 
----
-
 ## 步驟 3：儲存文件並擷取 HTML
 
 現在我們同時擁有 `HTMLDocument` 與 `MemoryResourceHandler`，接著請 Aspose 渲染文件。輸出會落在先前建立的 `HtmlStream` 中。
@@ -120,8 +112,6 @@ document.Save(resourceHandler, saveOptions);
 ```
 
 此時 `resourceHandler.HtmlStream` 已包含 Aspose 從原始字串產生的完整 HTML。沒有暫存檔、沒有額外 I/O。
-
----
 
 ## 步驟 4：讀取串流並將 HTML 轉換為字串
 
@@ -143,8 +133,6 @@ using (StreamReader reader = new StreamReader(resourceHandler.HtmlStream))
 
 **重點：** 這正是我們 **convert html to string** 的時刻。因為資料已在記憶體中，轉換僅是記憶體拷貝，速度極快。
 
----
-
 ## 步驟 5：將 HTML 輸出至主控台
 
 為了快速除錯或示範，將 HTML 印到主控台往往已足夠。這同時滿足 **output html console** 的需求。
@@ -161,8 +149,6 @@ Console.WriteLine(resultHtml);
 ```
 
 這就是我們最初的標記，經過 Aspose.HTML 以 **custom resource handler** 處理後，直接在記憶體中捕獲並印出，完全不觸碰檔案系統。
-
----
 
 ## 完整範例程式
 
@@ -224,16 +210,12 @@ class Program
 
 在 Console 應用程式中執行，即可即時看到 HTML 被印出。沒有檔案、沒有額外相依，只是純粹的記憶體處理。
 
----
-
 ## 專業小技巧與常見陷阱
 
 - **編碼很重要** – Aspose 預設寫入 UTF‑8。若需其他字元集，可在讀取前以指定編碼的 `StreamWriter` 包裹 `MemoryStream`。  
 - **多重資源** – 若 HTML 內引用 CSS 或圖片，同一個處理器會依序收到它們。可檢查 `resourceInfo` 以分支邏輯（例如將圖片存入不同的串流）。  
 - **執行緒安全** – `MemoryResourceHandler` 本身不是執行緒安全的。若要平行處理，請為每個執行緒建立全新實例。  
 - **資源釋放** – `using` 區塊包住 `StreamReader` 與 `MemoryStream`，可確保非受控資源即時釋放。  
-
----
 
 ## 接下來可以做什麼？
 
@@ -244,8 +226,6 @@ class Program
 - **發送電子郵件** – 將字串直接作為郵件內容，無需產生檔案。  
 
 上述情境皆可受惠於我們剛建立的記憶體模式。
-
----
 
 ## 結論
 

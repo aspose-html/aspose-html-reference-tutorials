@@ -42,8 +42,6 @@ url: /zh/net/html-document-manipulation/create-html-from-string-in-c-custom-reso
 
 无需外部服务，无需文件 I/O，仅仅是纯 C# 代码，随时可以放入任何控制台或 ASP.NET 项目中使用。
 
----
-
 ![从字符串创建 HTML 示例](https://example.com/create-html-from-string.png "从字符串创建 HTML 示例")
 
 *图片说明：展示代码片段和控制台输出的从字符串创建 HTML 示例。*
@@ -55,8 +53,6 @@ url: /zh/net/html-document-manipulation/create-html-from-string-in-c-custom-reso
 - 对 C# 流和 `using` 模式有基本了解。  
 
 仅此即可——无需额外依赖，也不需要重量级库。
-
----
 
 ## 步骤 1：从字符串创建 HTML
 
@@ -76,8 +72,6 @@ HTMLDocument document = new HTMLDocument(htmlSource);
 ```
 
 **为什么重要：** 通过从字符串开始，你可以避免从磁盘加载文件的开销，这对于云函数或单元测试来说非常理想。这行代码是 **create html from string** 操作的核心。
-
----
 
 ## 步骤 2：实现自定义资源处理程序以写入 HTML 流
 
@@ -102,8 +96,6 @@ class MemoryResourceHandler : ResourceHandler
 
 **为什么使用自定义处理程序？** 它为 **write html stream** 提供了确定的位置，而不必猜测文件路径。该处理程序还允许你在内容持久化之前检查或修改它。
 
----
-
 ## 步骤 3：保存文档并捕获 HTML
 
 现在我们已经拥有 `HTMLDocument` 和 `MemoryResourceHandler`，接下来让 Aspose 渲染文档。输出会落在我们之前创建的 `HtmlStream` 中。
@@ -120,8 +112,6 @@ document.Save(resourceHandler, saveOptions);
 ```
 
 此时 `resourceHandler.HtmlStream` 包含了 Aspose 从原始字符串生成的完整 HTML。没有临时文件，也没有额外的 I/O。
-
----
 
 ## 步骤 4：读取流并将 HTML 转换为字符串
 
@@ -143,8 +133,6 @@ using (StreamReader reader = new StreamReader(resourceHandler.HtmlStream))
 
 **关键点：** 这正是我们 **convert html to string** 的时刻。因为流已经在内存中，转换本质上是一次内存拷贝——速度极快。
 
----
-
 ## 步骤 5：在控制台输出 HTML
 
 为了快速调试或演示，打印 HTML 到控制台往往已经足够。它同样满足 **output html console** 的需求。
@@ -161,8 +149,6 @@ Console.WriteLine(resultHtml);
 ```
 
 这正是我们最初的标记，只是经过 Aspose.HTML 处理后，通过 **custom resource handler** 捕获，并在不触及文件系统的情况下打印出来。
-
----
 
 ## 完整可运行示例
 
@@ -224,16 +210,12 @@ class Program
 
 在控制台应用中运行它，你会立即看到 HTML 被打印出来。没有文件，没有额外依赖——纯粹的内存处理。
 
----
-
 ## 专业技巧 & 常见陷阱
 
 - **编码很重要** – Aspose 默认使用 UTF‑8。如果需要其他字符集，请在读取之前使用带有所需编码的 `StreamWriter` 包装 `MemoryStream`。  
 - **多资源处理** – 如果你的 HTML 引用了 CSS 或图片，同一个处理程序会依次收到它们。你可以检查 `resourceInfo` 来分支逻辑（例如，将图片存入单独的流）。  
 - **线程安全** – `MemoryResourceHandler` 本身不是线程安全的。并行处理时，请为每个线程实例化一个新的处理程序。  
 - **资源释放** – `using` 语句包裹的 `StreamReader` 和 `MemoryStream` 能确保及时释放非托管资源。  
-
----
 
 ## 接下来该做什么？
 
@@ -244,8 +226,6 @@ class Program
 - **发送邮件** – 将字符串直接作为邮件正文，无需生成任何文件。  
 
 所有这些场景都能受益于我们刚才构建的内存处理模式。
-
----
 
 ## 结论
 

@@ -42,8 +42,6 @@ url: /ko/net/html-document-manipulation/create-html-from-string-in-c-custom-reso
 
 외부 서비스 없이, 파일 I/O 없이, 순수 C# 코드만으로 콘솔 애플리케이션이든 ASP.NET 프로젝트이든 바로 사용할 수 있습니다.
 
----
-
 ![Create HTML from string example](https://example.com/create-html-from-string.png "Create HTML from string example")
 
 *Image alt text: Create HTML from string example showing code snippet and console output.*
@@ -55,8 +53,6 @@ url: /ko/net/html-document-manipulation/create-html-from-string-in-c-custom-reso
 - C# 스트림 및 `using` 패턴에 대한 기본 지식.  
 
 이것만 있으면 됩니다—추가 의존성이나 무거운 라이브러리는 필요 없습니다.
-
----
 
 ## 1단계: 문자열에서 HTML 생성
 
@@ -76,8 +72,6 @@ HTMLDocument document = new HTMLDocument(htmlSource);
 ```
 
 **왜 중요한가:** 문자열부터 시작하면 디스크에서 파일을 로드하는 오버헤드를 피할 수 있어, 클라우드 함수나 단위 테스트에 최적입니다. 이 한 줄이 **문자열에서 html을 생성** 작업의 핵심입니다.
-
----
 
 ## 2단계: HTML 스트림을 쓰기 위한 커스텀 리소스 핸들러 구현
 
@@ -102,8 +96,6 @@ class MemoryResourceHandler : ResourceHandler
 
 **왜 커스텀 핸들러를 쓰나요?** 파일 경로를 추측할 필요 없이 **html 스트림을 쓰는** 결정적인 위치를 제공하기 때문입니다. 또한 핸들러를 통해 콘텐츠를 영구 저장하기 전에 검사하거나 수정할 수 있습니다.
 
----
-
 ## 3단계: 문서 저장 및 HTML 캡처
 
 이제 `HTMLDocument`와 `MemoryResourceHandler`가 준비됐으니 Aspose에 문서를 렌더링하도록 요청합니다. 출력은 앞서 만든 `HtmlStream`에 들어갑니다.
@@ -120,8 +112,6 @@ document.Save(resourceHandler, saveOptions);
 ```
 
 이 시점에서 `resourceHandler.HtmlStream`은 원본 문자열에서 Aspose가 생성한 정확한 HTML을 담고 있습니다. 임시 파일이나 추가 I/O가 전혀 없습니다.
-
----
 
 ## 4단계: 스트림 읽고 HTML을 문자열로 변환
 
@@ -143,8 +133,6 @@ using (StreamReader reader = new StreamReader(resourceHandler.HtmlStream))
 
 **핵심 포인트:** 바로 여기서 **html을 문자열로 변환**합니다. 스트림이 이미 메모리에 있기 때문에 변환은 사실상 메모리 복사이며 매우 빠릅니다.
 
----
-
 ## 5단계: HTML을 콘솔에 출력
 
 빠른 디버깅이나 시연을 위해 HTML을 콘솔에 출력하는 것만으로도 충분합니다. 이는 **html을 콘솔에 출력** 요구사항을 만족시킵니다.
@@ -161,8 +149,6 @@ Console.WriteLine(resultHtml);
 ```
 
 시작한 마크업과 동일하지만, 이제 Aspose.HTML로 처리되고 **커스텀 리소스 핸들러**를 통해 캡처된 뒤 파일 시스템에 전혀 접근하지 않고 출력되었습니다.
-
----
 
 ## 전체 동작 예제
 
@@ -224,16 +210,12 @@ class Program
 
 콘솔 앱에서 실행하면 HTML이 즉시 출력됩니다. 파일도, 추가 의존성도 없이 순수 인‑메모리 처리만으로 가능합니다.
 
----
-
 ## 전문가 팁 & 흔히 겪는 함정
 
 - **인코딩 주의** – Aspose는 기본적으로 UTF‑8을 씁니다. 다른 문자 집합이 필요하면 `MemoryStream`을 `StreamWriter`로 감싸고 원하는 인코딩을 지정해 읽어야 합니다.  
 - **다중 리소스** – HTML이 CSS나 이미지를 참조하면 동일한 핸들러가 차례대로 이를 받습니다. `resourceInfo`를 검사해 로직을 분기(예: 이미지를 별도 스트림에 저장)할 수 있습니다.  
 - **스레드 안전성** – `MemoryResourceHandler`는 기본적으로 스레드‑안전하지 않습니다. 병렬 처리가 필요하면 스레드당 새로운 핸들러 인스턴스를 생성하세요.  
 - **Dispose 처리** – `StreamReader`와 `MemoryStream`을 `using` 구문으로 감싸면 관리되지 않는 리소스가 즉시 해제됩니다.  
-
----
 
 ## 다음 단계는?
 
@@ -244,8 +226,6 @@ class Program
 - **이메일 전송** – 파일을 만들지 않고 문자열을 이메일 본문으로 변환.  
 
 위 시나리오 모두 방금 만든 인‑메모리 패턴을 활용하면 효율적입니다.
-
----
 
 ## 결론
 
