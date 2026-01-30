@@ -69,6 +69,8 @@ Lär dig att skapa dynamiskt och webbinnehåll med Aspose.HTML för .NET. Styr d
 Lär dig att använda Aspose.HTML för .NET. Importera namnutrymme, slå samman HTML med XML och förbättra dina färdigheter i webbutveckling med den här omfattande guiden.
 ### [Generera XPS-dokument av XpsDevice i .NET med Aspose.HTML](./generate-xps-documents-by-xpsdevice/)
 Lås upp potentialen för webbutveckling med Aspose.HTML för .NET. Skapa, konvertera och manipulera HTML-dokument enkelt.
+### [Skapa HTML från sträng i C# – Anpassad resurs‑hanterare guide](./create-html-from-string-in-c-custom-resource-handler-guide/)
+Lär dig hur du skapar HTML från en sträng i C# med en anpassad resurs‑hanterare i Aspose.HTML för .NET.
 
 ## Slutsats
 

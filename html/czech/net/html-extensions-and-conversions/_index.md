@@ -69,6 +69,8 @@ Objevte sílu Aspose.HTML pro .NET: Převeďte HTML na XPS bez námahy. Součás
 Naučte se, jak pomocí Aspose.HTML pro .NET zabalit HTML soubor do ZIP archivu v C#.
 ### [Vytvořte HTML dokument se stylovaným textem a exportujte do PDF – Kompletní průvodce](./create-html-document-with-styled-text-and-export-to-pdf-full/)
 Naučte se vytvořit HTML dokument se stylovaným textem a převést jej do PDF pomocí Aspose.HTML pro .NET.
+### [Uložte HTML jako ZIP – Kompletní C# tutoriál](./save-html-as-zip-complete-c-tutorial/)
+Naučte se, jak uložit HTML soubor jako ZIP archiv pomocí Aspose.HTML pro .NET v kompletním C# tutoriálu.
 
 ## Závěr
 

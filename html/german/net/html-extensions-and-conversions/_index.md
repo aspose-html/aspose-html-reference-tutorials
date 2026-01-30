@@ -69,10 +69,12 @@ Erfahren Sie, wie Sie HTML-Inhalte mit Aspose.HTML für .NET in eine ZIP-Datei k
 Erfahren Sie, wie Sie ein HTML-Dokument mit formatiertem Text erstellen und es mit Aspose.HTML für .NET in ein PDF exportieren.
 ### [PDF aus HTML erstellen – C# Schritt‑für‑Schritt‑Anleitung](./create-pdf-from-html-c-step-by-step-guide/)
 Erstellen Sie PDF aus HTML mit C# – eine detaillierte Schritt‑für‑Schritt‑Anleitung mit Aspose.HTML für .NET.
+### [HTML als ZIP speichern – Komplettes C#‑Tutorial](./save-html-as-zip-complete-c-tutorial/)
+Erfahren Sie, wie Sie HTML‑Inhalte mit Aspose.HTML für .NET in ein ZIP‑Archiv speichern – vollständige Schritt‑für‑Schritt‑Anleitung in C#.
 
 ## Abschluss
 
-Zusammenfassend lässt sich sagen, dass HTML-Erweiterungen und -Konvertierungen wesentliche Elemente der modernen Webentwicklung sind. Aspose.HTML für .NET vereinfacht den Prozess und macht ihn für Entwickler aller Niveaus zugänglich. Wenn Sie unseren Tutorials folgen, sind Sie auf dem besten Weg, ein kompetenter Webentwickler mit einem breiten Kompetenzspektrum zu werden.
+Zusammenfassend lässt sich sagen, dass HTML-Erweiterungen und -Konvertierungen wesentliche Elemente der modernen Webentwicklung sind. Aspose.HTML für .NET vereinfacht den Prozess und macht ihn für Entwickler aller Niveaus zugänglich. Wenn Sie unseren Tutorials folgen, sind Sie auf dem besten Weg, ein kompetenter Webentwickler mit breitem Kompetenzspektrum zu werden.
 
 Also, worauf warten Sie noch? Begeben wir uns auf diese spannende Reise, um HTML-Erweiterungen und -Konvertierungen mit Aspose.HTML für .NET zu erkunden. Ihre Webentwicklungsprojekte werden nie wieder dieselben sein!
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -47,13 +47,18 @@ Leer stap voor stap hoe u HTML naar PNG converteert met C# en Aspose.HTML in dez
 ### [EPUB renderen als XPS in .NET met Aspose.HTML](./render-epub-as-xps/)
 Leer hoe u HTML-documenten kunt maken en renderen met Aspose.HTML voor .NET in deze uitgebreide tutorial. Duik in de wereld van HTML-manipulatie, webscraping en meer.
 ### [Rendering Timeout in .NET met Aspose.HTML](./rendering-timeout/)
-Leer hoe u renderingtime-outs effectief kunt beheren in Aspose.HTML voor .NET. Verken renderingopties en zorg voor soepele rendering van HTML-documenten.
+Leer hoe u renderingtime‑outs effectief kunt beheren in Aspose.HTML voor .NET. Verken renderingopties en zorg voor soepele rendering van HTML-documenten.
 ### [MHTML renderen als XPS in .NET met Aspose.HTML](./render-mhtml-as-xps/)
  Leer MHTML als XPS renderen in .NET met Aspose.HTML. Verbeter uw HTML-manipulatievaardigheden en geef uw webontwikkelingsprojecten een boost!
 ### [Render meerdere documenten in .NET met Aspose.HTML](./render-multiple-documents/)
 Leer hoe u meerdere HTML-documenten kunt renderen met Aspose.HTML voor .NET. Verbeter uw documentverwerkingsmogelijkheden met deze krachtige bibliotheek.
 ### [SVG-document renderen als PNG in .NET met Aspose.HTML](./render-svg-doc-as-png/)
 Ontgrendel de kracht van Aspose.HTML voor .NET! Leer hoe u moeiteloos SVG Doc als PNG kunt renderen. Duik in stapsgewijze voorbeelden en FAQ's. Ga nu aan de slag!
+### [Hoe Aspose te gebruiken voor het renderen van HTML naar PNG – Stapsgewijze gids](./how-to-use-aspose-to-render-html-to-png-step-by-step-guide/)
+Leer hoe u met Aspose.HTML HTML naar PNG kunt renderen met een duidelijke stap‑voor‑stap handleiding.
+### [Hoe HTML te renderen naar PNG met Aspose – Complete gids](./how-to-render-html-to-png-with-aspose-complete-guide/)
+Leer stap voor stap hoe u HTML naar PNG converteert met Aspose.HTML in deze volledige gids.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

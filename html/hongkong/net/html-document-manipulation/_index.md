@@ -69,6 +69,8 @@ Aspose.HTML for .NET 因其簡單性和強大功能而脫穎而出。它使您�
 學習使用 Aspose.HTML for .NET。透過此綜合指南匯入命名空間、將 HTML 與 XML 合併並增強您的 Web 開發技能。
 ### [使用 Aspose.HTML 在 .NET 中透過 XpsDevice 產生 XPS 文檔](./generate-xps-documents-by-xpsdevice/)
 使用 Aspose.HTML for .NET 釋放 Web 開發的潛力。輕鬆建立、轉換和操作 HTML 文件。
+### [在 C# 中從字串建立 HTML – 自訂資源處理程式指南](./create-html-from-string-in-c-custom-resource-handler-guide/)
+了解如何使用 Aspose.HTML for .NET 從字串建立 HTML，並透過自訂資源處理程式進行管理。
 
 ## 結論
 

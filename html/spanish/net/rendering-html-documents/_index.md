@@ -42,8 +42,10 @@ Ahora que ha configurado Aspose.HTML para .NET, es hora de explorar los tutorial
 
 ### [Representar HTML como PNG en .NET con Aspose.HTML](./render-html-as-png/)
 Aprenda a trabajar con Aspose.HTML para .NET: manipule HTML, convierta a varios formatos y más. ¡Sumérjase en este tutorial completo!
+### [Cómo usar Aspose para renderizar HTML a PNG – Guía paso a paso](./how-to-use-aspose-to-render-html-to-png-step-by-step-guide/)
+Aprenda paso a paso a convertir HTML a PNG usando Aspose.HTML para .NET. Siga el tutorial completo y obtenga resultados de alta calidad.
 ### [Procesar EPUB como XPS en .NET con Aspose.HTML](./render-epub-as-xps/)
-Aprenda a crear y renderizar documentos HTML con Aspose.HTML para .NET en este completo tutorial. Sumérjase en el mundo de la manipulación de HTML, el web scraping y más.
+Aprenda a crear y renderizar documentos HTML con Aspose.HTML para .NET en este completo tutorial. Sumérjase en el mundo de la manipulación HTML, el web scraping y más.
 ### [Tiempo de espera de renderizado en .NET con Aspose.HTML](./rendering-timeout/)
 Aprenda a controlar los tiempos de espera de renderización de manera eficaz en Aspose.HTML para .NET. Explore las opciones de renderización y garantice una renderización fluida de documentos HTML.
 ### [Representar MHTML como XPS en .NET con Aspose.HTML](./render-mhtml-as-xps/)
@@ -54,6 +56,8 @@ Aprenda a representar múltiples documentos HTML con Aspose.HTML para .NET. Aume
 ¡Descubra el poder de Aspose.HTML para .NET! Aprenda a convertir documentos SVG en PNG sin esfuerzo. Conozca ejemplos paso a paso y preguntas frecuentes. ¡Comience ahora!
 ### [Cómo renderizar HTML como PNG con Aspose.HTML – Guía completa en C#](./how-to-render-html-as-png-complete-c-guide/)
 Aprenda paso a paso a convertir HTML a PNG usando C# y Aspose.HTML. Guía completa con ejemplos claros.
+### [Cómo renderizar HTML a PNG con Aspose – Guía completa](./how-to-render-html-to-png-with-aspose-complete-guide/)
+Aprenda a convertir HTML a PNG usando Aspose.HTML para .NET con esta guía completa paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

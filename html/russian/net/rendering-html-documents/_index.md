@@ -56,6 +56,11 @@ Aspose.HTML для .NET выделяется как лучший выбор дл
 Научитесь визуализировать несколько HTML-документов с помощью Aspose.HTML для .NET. Расширьте свои возможности обработки документов с помощью этой мощной библиотеки.
 ### [Рендеринг SVG Doc как PNG в .NET с помощью Aspose.HTML](./render-svg-doc-as-png/)
 Откройте для себя мощь Aspose.HTML для .NET! Узнайте, как легко визуализировать SVG Doc как PNG. Погрузитесь в пошаговые примеры и часто задаваемые вопросы. Начните прямо сейчас!
+### [Как использовать Aspose для рендеринга HTML в PNG – пошаговое руководство](./how-to-use-aspose-to-render-html-to-png-step-by-step-guide/)
+Подробный пошаговый учебник по использованию Aspose.HTML для конвертации HTML в PNG в .NET.
+### [Как отрендерить HTML в PNG с помощью Aspose – Полное руководство](./how-to-render-html-to-png-with-aspose-complete-guide/)
+Подробный пошаговый учебник по рендерингу HTML в PNG с использованием Aspose.HTML для .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -69,6 +69,8 @@ Aspose.HTML for .NET を使用して動的な Web コンテンツを作成する
 Aspose.HTML for .NET の使い方を学びます。この包括的なガイドを使用して、名前空間をインポートし、HTML と XML を結合し、Web 開発スキルを強化します。
 ### [Aspose.HTML を使用して .NET で XpsDevice によって XPS ドキュメントを生成する](./generate-xps-documents-by-xpsdevice/)
 Aspose.HTML for .NET で Web 開発の可能性を最大限に引き出します。HTML ドキュメントを簡単に作成、変換、操作できます。
+### [C# の文字列から HTML を作成 – カスタム リソース ハンドラ ガイド](./create-html-from-string-in-c-custom-resource-handler-guide/)
+C# の文字列から HTML を生成し、カスタム リソース ハンドラで処理する方法をステップバイステップで解説します。
 
 ## 結論
 

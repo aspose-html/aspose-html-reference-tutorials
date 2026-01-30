@@ -69,6 +69,8 @@ url: /el/net/html-extensions-and-conversions/
 Μάθετε πώς να συμπιέσετε αρχεία HTML σε αρχείο ZIP χρησιμοποιώντας το Aspose.HTML για .NET σε C#.
 ### [Δημιουργία εγγράφου HTML με μορφοποιημένο κείμενο και εξαγωγή σε PDF – Πλήρης οδηγός](./create-html-document-with-styled-text-and-export-to-pdf-full/)
 Μάθετε πώς να δημιουργήσετε ένα έγγραφο HTML με μορφοποιημένο κείμενο και να το εξάγετε σε PDF χρησιμοποιώντας το Aspose.HTML για .NET.
+### [Αποθήκευση HTML ως ZIP – Πλήρης Εκπαιδευτικό C#](./save-html-as-zip-complete-c-tutorial/)
+Μάθετε πώς να αποθηκεύετε HTML σε αρχείο ZIP με C# και Aspose.HTML.
 
 ## Σύναψη
 

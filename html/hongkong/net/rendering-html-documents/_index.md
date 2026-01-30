@@ -61,6 +61,12 @@ Aspose.HTML for .NET 因其豐富的功能、優秀的文件和活躍的社群�
 ### [使用 Aspose.HTML 將 SVG 文件渲染為 .NET 中的 PNG](./render-svg-doc-as-png/)
 釋放 Aspose.HTML for .NET 的強大功能！了解如何輕鬆將 SVG 文件渲染為 PNG。深入研究逐步範例和常見問題。現在就開始吧！
 
+### [如何使用 Aspose 將 HTML 渲染為 PNG – 步驟指南](./how-to-use-aspose-to-render-html-to-png-step-by-step-guide/)
+一步步教您使用 Aspose.HTML for .NET 將 HTML 轉換為 PNG 圖像，掌握渲染技巧與設定。
+
+### [如何使用 Aspose 將 HTML 渲染為 PNG – 完整指南](./how-to-render-html-to-png-with-aspose-complete-guide/)
+完整步驟教您使用 Aspose.HTML for .NET 將 HTML 轉換為 PNG 圖像，掌握所有設定與最佳實踐。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

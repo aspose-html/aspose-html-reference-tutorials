@@ -59,6 +59,8 @@ Aspose.HTML for .NET으로 SEO를 강화하는 방법을 알아보세요. 순위
 .NET용 Aspose.HTML의 힘을 활용하는 방법을 알아보세요. HTML 조작 및 렌더링으로 웹 개발을 강화하세요.
 ### [Aspose.HTML을 사용하여 .NET에서 문서 만들기](./creating-a-document/)
 .NET용 Aspose.HTML의 힘을 최대한 활용하세요. HTML 및 SVG 문서를 쉽게 만들고, 조작하고, 최적화하는 방법을 배우세요. 단계별 예제와 FAQ를 살펴보세요.
+### [C#에서 문자열로 HTML 만들기 – 사용자 정의 리소스 핸들러 가이드](./create-html-from-string-in-c-custom-resource-handler-guide/)
+Aspose.HTML for .NET을 사용해 문자열에서 HTML을 생성하고 사용자 정의 리소스 핸들러로 처리하는 방법을 단계별로 안내합니다.
 ### [Aspose.HTML을 사용하여 .NET에서 문서 편집](./editing-a-document/)
 Aspose.HTML for .NET으로 매력적인 웹 콘텐츠를 만드세요. HTML, CSS 등을 조작하는 방법을 알아보세요.
 ### [Aspose.HTML을 사용하여 .NET에서 문서 저장](./saving-a-document/)
