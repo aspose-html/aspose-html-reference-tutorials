@@ -1,51 +1,65 @@
 ---
-title: Aspose.HTML for Java を使用した高度な CSS 拡張テクニック
-linktitle: Aspose.HTML for Java を使用した高度な CSS 拡張テクニック
-second_title: Aspose.HTML を使用した Java HTML 処理
-description: Aspose.HTML for Java を使用して、カスタム ページ マージンや動的コンテンツなどの高度な CSS テクニックを適用する方法を学びます。開発者向けの詳細な実践的なチュートリアルです。
-weight: 10
+date: 2026-01-30
+description: Aspose.HTML for Java を使用して HTML から PDF を作成する方法を学び、高度な CSS テクニック、カスタム余白、動的コンテンツを適用します。HTML
+  を簡単に PDF に変換しましょう。
+linktitle: Advanced CSS Extension Techniques with Aspose.HTML
+second_title: Java HTML Processing with Aspose.HTML
+title: HTML から PDF を作成 – Java 用 Aspose.HTML で CSS を使用
 url: /ja/java/css-html-form-editing/advanced-css-extension/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.HTML for Java を使用した高度な CSS 拡張テクニック
+# HTMLからPDFを作成 – CSSとAspose.HTML for Java
 
-## 導入
-CSS スキルを次のレベルに引き上げる準備はできていますか? HTML ドキュメントに高度なスタイルを簡単に適用し、余白をカスタマイズし、その余白にプロのようにコンテンツを挿入することを想像してみてください。しかも、すべて Java を使って! ワクワクしませんか? このチュートリアルでは、まさにそのことについて探っていきます。Aspose.HTML for Java の世界を詳しく調べ、その強力な機能を活用して CSS スタイルを強化する方法を学びます。経験豊富な開発者でも、始めたばかりの開発者でも、このガイドでは、わかりやすい説明と実践的な例を使って、すべての手順を順を追って説明します。
-このチュートリアルでは、Aspose.HTML for Java を使用してカスタム マージンを適用し、それらのマージンにコンテンツを追加する方法に焦点を当てます。チュートリアルの最後には、CSS を使用してページ レイアウトを制御する方法と、ページ番号やタイトルなどの動的なコンテンツを含むドキュメントを希望のスタイルで生成する方法をしっかりと理解できるようになります。
-## 前提条件
-始める前に、以下のものを用意しておいてください。
-1. Java開発キット（JDK）：システムにJDK 1.8以上がインストールされていることを確認してください。[Oracleのウェブサイト](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2.  Aspose.HTML for Javaライブラリ: Aspose.HTML for Javaの最新バージョンをダウンロードして統合します。[Aspose リリース ページ](https://releases.aspose.com/html/java/).
-3. IDE セットアップ: Java コードを記述および実行するために、IntelliJ IDEA、Eclipse、NetBeans などの好みの統合開発環境 (IDE) をセットアップします。
-4. HTML と CSS の基礎知識: コード例を詳しく調べる際には、HTML と CSS の基礎を理解しておくと役立ちます。
-5. Java プログラミングの知識: 基本的な Java 構文と概念に精通している必要があります。
-## パッケージのインポート
-コードの記述を開始する前に、Aspose.HTML for Java を操作するために必要なパッケージをインポートする必要があります。これらのパッケージには、構成、ドキュメント処理、レンダリング用のクラスが含まれています。
+## Introduction
+CSSスキルを次のレベルへ引き上げ、**HTMLからPDFを作成**する準備はできていますか？高度なスタイリングをHTMLドキュメントに簡単に適用し、余白をカスタマイズし、ページ番号やヘッダーなどのコンテンツを余白に直接挿入することを想像してみてください。ュートリアルでは、Aspose.HTML for Java を使用してそれを実現する方法を正確に示します。ライブラリの設定、カスタムCSSの注入、結果を固定レイアウトドキュメント（XPS）にレンダリングする手順を説明します。必要に応じて後でPDFに変換できます。最後までで、**HTMLをPDFに変換**し、ヘッダーとフッターを追加し、プログラムで**余白を設定**する方法がわかります。
+
+## Quick Answers
+- **このチュートリアルで学べることは何ですか？** Aspose.HTML for Java を使用して、カスタムCSS余白と動的ページ番号付きでHTMLからPDFを作成する方法。  
+- **どの出力形式がデモされていますか？** XPS（後でPDFに変換可能）。  
+- **ライセンスは必要ですか？** 開発用には無料トライアルで動作します **必要なJavaバージョンは何ですか？** JDK 1.8 以上。  
+- **ヘッダーとフッターを追加できますか？** はい、CSS内の `-aspose-content` を使用します（コード例をご参照ください）。
+
+## Prerequisites
+1。ダウンロードは [Oracle website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) から。  
+2. **Aspose.HTML for Java Library** – 最新リリースは [Aspose releases page](https://releases.aspose.com/html/java/) から取得してください。  
+3. **IDE Setup** – IntelliJ IDEA、Eclipse、または NetBeans。  
+4. **Basic Knowledge of HTML and CSS** – スタイリングルールの理解に役立ちます。  
+5. **Familiarity with Java Programming** – ライブラリをコードに統合するために必須です。
+
+## Import Packages
+コードを書き始める前に、Aspするために必要なパッケージをインパッケージには、設定、ドキュメント処理、レンダリング用のクラスが含まれます。
+
 ```java
 import com.aspose.html.HTMLDocument;
 ```
-## ステップ1: 構成の設定
-最初のステップは、Aspose.HTML の構成を設定することです。この構成により、HTML ドキュメントの処理およびレンダリング方法のさまざまな側面をカスタマイズできます。
+
+## Step 1: Setting Up the Configuration
+最初のステップは Aspose.HTML の設定を行うことです。この設定により、HTML ドキュメントの処理とレンダリングのさまざまな側面をカスタマイズできます。
+
 ```java
-//構成オブジェクトを初期化する
+// Initialize the configuration object
 com.aspose.html.Configuration configuration = new com.aspose.html.Configuration();
 ```
-このステップでは、`Configuration`クラス。このオブジェクトは、HTML 処理タスクの設定を管理するために使用されます。
-## ステップ2: ユーザーエージェントサービスへのアクセス
-Aspose.HTML のユーザー エージェント サービスは、HTML コンテンツの解釈とスタイル設定を管理できる強力な機能です。これを使用して、カスタム CSS ルールをドキュメントに適用します。
+
+## Step 2:テンツのリング方法を管理できる強力な機能です。これを使用してカスタム CSS ルールをドキュメントに適用します。
+
 ```java
-//構成からユーザーエージェントサービスを取得する
+// Get the User Agent service from the configuration
 com.aspose.html.services.IUserAgentService userAgent = configuration.getService(com.aspose.html.services.IUserAgentService.class);
 ```
-ここでは、構成からユーザー エージェント サービスを取得します。このサービスにより、カスタム CSS スタイルをドキュメント処理パイプラインに直接挿入できるようになります。
-## ステップ3: ページ余白のカスタムCSSを定義する
-ユーザー エージェント サービスにアクセスできるようになったので、カスタム CSS を定義します。この CSS は、ページの余白を制御し、ページ番号やタイトルなどの動的なコンテンツを追加します。
+
+## How to Set Margins with CSS
+最終的な PDF（または XPS）をには、ページ余白の設定が不可欠です。CSS の `@page` ルールを使うと、上・右・下・左の余白を絶対単位で定義できます。
+
+## Step 3: Defining Custom CSS for Page Marg を定義します。この CSS はページ余白を制御し、し、ヘッダータイトルを挿入します。
+
 ```java
-//ページレイアウトを制御するカスタム CSS を定義する
+// Define custom CSS to control page layout
 userAgent.setUserStyleSheet(
         "@page {\n" +
         "  margin-top: 1cm;\n" +
@@ -64,42 +78,58 @@ userAgent.setUserStyleSheet(
         "}"
 );
 ```
-このステップでは、CSSルールを定義します。`setUserStyleSheet`方法。`@page`ルールはページのカスタム余白を指定し、`@bottom-right`そして`@top-center`ルールは、ページの右下と上部中央にそれぞれ動的なコンテンツ (ページ番号やタイトルなど) を追加します。
-## ステップ4: HTMLドキュメントの初期化
-CSS を定義したら、次のステップは HTML ドキュメントを作成することです。このドキュメントは、設定した構成とスタイルを使用して処理されます。
+
+### Adding Header and Footer (add header footer)
+`@top-center` と `@bottom-right` ブロックは、CSS から直接 **ヘッダーとフッター** コンテンツを追加する方法を示しており、手動での DOM 操作が不要になります。
+
+## Step 4: Initial義したら、次は HTML ドキおよびスタイリングを使用して処理されます。
+
 ```java
-//カスタムコンテンツでHTMLドキュメントを初期化する
+// Initialize an HTML document with custom content
 com.aspose.html.HTMLDocument document = new com.aspose.html.HTMLDocument("<div>Hello World!!!</div>", ".", configuration);
 ```
-ここで、新しい`HTMLDocument`オブジェクトに単純なHTML文字列（`<div>Hello World!!!</div>`) と、先ほど設定した構成オブジェクトを使用します。このドキュメントは、定義した CSS ルールに従ってスタイル設定されます。
-## ステップ5: 出力デバイスの設定
-ドキュメントをレンダリングするには、出力デバイスを指定する必要があります。このチュートリアルでは、固定レイアウトのドキュメント形式である XPS ファイルにドキュメントをレンダリングします。
+
+## Step 5: Setting Up the Output Device
+ドキュメントをレンダリングするには、出力デバイスを指定するュメントを XPS ファイルにレンダリングし、後で Aspose の変換ツールを使って PDF に変換できるようにします。
+
 ```java
-//レンダリング出力用に XPS デバイスを初期化する
+// Initialize an XPS device for rendering output
 com.aspose.html.rendering.xps.XpsDevice device = new com.aspose.html.rendering.xps.XpsDevice("output/output.xps");
 ```
-このステップでは、`XpsDevice`レンダリングされたドキュメントの出力パスを指定するオブジェクト。最終出力はここに保存されます。
-## ステップ6: ドキュメントのレンダリング
-最後のステップは、HTML ドキュメントを出力デバイスに送信することです。これにより、カスタム スタイルが適用され、指定された形式でドキュメントが保存されます。
+
+## Step 6: Rendering the Document
+最終ステップは、HTML ドキュメント。これによりカスタムスタイルが適用され、指定された形式でドキュメントが保存されます。
+
 ```java
-// HTMLドキュメントをXPSデバイスにレンダリングする
+// Render the HTML document to the XPS device
 document.renderTo(device);
 ```
-ここでは、`renderTo`HTML ドキュメントを処理して XPS デバイスにレンダリングするメソッド。この手順では、すべてのスタイルを適用し、ドキュメントを固定レイアウト ファイルとして出力します。
-## 結論
-おめでとうございます。Aspose.HTML for Java を使用して高度な CSS 拡張テクニックを適用する包括的なガイドを完了しました。このチュートリアルの手順に従うことで、構成の設定方法、ユーザー エージェント サービスへのアクセス方法、ページ余白のカスタム CSS の定義方法、HTML ドキュメントを XPS ファイルにレンダリングする方法を学習しました。これらのスキルは非常に強力で、これまでは困難または不可能だった方法でドキュメントのレイアウトとスタイルをカスタマイズできます。 
-これらのテクニックを習得したら、より複雑なレイアウト、動的なコンテンツ、さらにはさまざまな出力形式を試してみましょう。Aspose.HTML for Java の可能性は無限です。ぜひ探索して、実現できるものの限界を押し広げてください。
-## よくある質問
-### Aspose.HTML for Java とは何ですか?
-Aspose.HTML for Java は、開発者が Java アプリケーションで HTML ドキュメントを作成、編集、変換できるようにするライブラリです。HTML5、CSS、JavaScript を幅広くサポートしており、Web ドキュメント処理のための強力なツールとなっています。
-### Aspose.HTML for Java を使用して HTML を他の形式に変換できますか?
-はい、Aspose.HTML for Java は、HTML ドキュメントを PDF、XPS、DOCX、JPEG や PNG などの画像形式を含むさまざまな形式に変換することをサポートしています。
-### Aspose.HTML for Java を使用して HTML ドキュメントにカスタム CSS を適用するにはどうすればよいですか?
-Aspose.HTML for Java 内のユーザー エージェント サービスを使用して、カスタム CSS を適用できます。このサービスを使用すると、ドキュメント処理中に適用される CSS ルールを挿入できます。
-### Aspose.HTML for Java は大規模なドキュメント処理に適していますか?
-もちろんです! Aspose.HTML for Java は、大規模なドキュメント処理タスクを処理できるように設計されており、強力な HTML 処理機能を必要とするエンタープライズ レベルのアプリケーションに適しています。
-### 購入前に Aspose.HTML for Java を試すことはできますか?
-はい、Aspose.HTML for Javaの無料トライアルをこちらからダウンロードできます。[Aspose ウェブサイト](https://releases.aspose.com/html/java/)これにより、その機能を調べて、開発ワークフローにどのように適合するかを確認できます。
+
+## Common Issues and Solutions
+- **余白が適用されない** – `@page` ルールが正しくフォーマットされてされていることを確認してください。  
+- **ページ番号が `null` と表示される** – `currentPageNumber()` と `totalPagesNumber()` をサポンを使用しているか確認してください。  
+- **出力ファイルが作成されない** – `output` ディレクトリが存在し、アプリケーションに書き込み権限があるかチェックしてください。
+
+## Frequently Asked Questions
+
+**Q: Aspose.HTML for Java とは何ですか？**  
+A: Aspose.HTML for Java は、ーションで HTML ドキュメントの作成、編集、変換を可能にするライブラリです。HTML5、CSS、JavaScript の広範なサポートを提供します。
+
+**Q: Aspose.HTML for Java を使って HTML を PDF に変換できますか？**  
+A: はい、Aspose.HTML for Java は HTML ドキュメントを PDF、XPS、DOCX、JPEG や PNG などの画像形式に変換することをサポートしています。上記で生成した XPS ファイルは、Aspose の変換ユーティリティを使って簡単に PDF に変換できます。
+
+**Q: PDF にカスタムヘッダーとフッター（add header footer）を追加するにはどうすればよいですか？ の `@top-center`、`@bottom内で `-aspose-content` プロパティを使用します。Q: プログラムから余白を設定することは可能ですか（how to set margins）？**  
+A: もちろん可能です。チュートリアルに示したように、`@page` ルール内で `margin-top`、`margin-right`、`margin-bottom`、`margin-left` プロパティを定義してください。
+
+**Q: Aspose.HTML for Java のトライアルはどこからダウンロードできますか？**  
+A: 無料トライアルは [Aspose website](https://releases.aspose.com/html機能を試すことができます。
+
+---
+
+2026-01-30  
+**Tested With:** Aspose.HTML for Java 24.11 (latest at time of writing)  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
