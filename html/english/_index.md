@@ -5,7 +5,7 @@ additionalTitle: Aspose API References
 description: "Learn how to convert HTML to PDF, render HTML as image, and generate JPG from HTML using Aspose.HTML – step‑by‑step tutorials for .NET and Java developers."
 weight: 11
 url: /
-date: 2025-11-30
+date: 2026-01-30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -21,7 +21,7 @@ If you need to **convert HTML to PDF** quickly and reliably, you’ve come to th
 - **Is image rendering supported?** Absolutely. Use `HtmlRenderer` to **render HTML as image** or **generate JPG from HTML**.  
 - **Do I need a license for production?** A commercial license is required for unlimited use; a free trial works for evaluation.  
 - **Which platforms are covered?** Both .NET (Framework, .NET Core, .NET 5/6) and Java are fully supported.  
-- **Can I also convert EPUB to PDF or image?** Yes – Aspose.HTML includes dedicated helpers for **convert EPUB to PDF** and **convert EPUB to image**.
+- **Can I also convert EPUB to PDF or image?** Yes – Aspose.HTML includes dedicated helpers for **convert EPUB to PDF** and **convert EPUB to image**.  
 
 ## What is “convert HTML to PDF”?
 Converting HTML to PDF means taking a web page—or any HTML markup—and producing a paginated, print‑ready PDF document. The output preserves styles, fonts, and layout, making it ideal for invoices, reports, or downloadable content.
@@ -30,7 +30,7 @@ Converting HTML to PDF means taking a web page—or any HTML markup—and produc
 - **Pixel‑perfect fidelity** – CSS, SVG, and modern HTML5 features are rendered exactly as browsers would display them.  
 - **No external dependencies** – No need for Internet Explorer, Chrome, or headless browsers on the server.  
 - **Cross‑language support** – Same API surface for .NET and Java, simplifying multi‑platform projects.  
-- **Additional formats** – Beyond PDF, you can **render HTML as image**, **convert EPUB to image**, or **generate JPG from HTML** with a single call.
+- **Additional formats** – Beyond PDF, you can **render HTML as image**, **convert EPUB to image**, or **generate JPG from HTML** with a single call.  
 
 ## Prerequisites
 - A valid Aspose.HTML license (or a trial key).  
@@ -110,7 +110,7 @@ A: A commercial license removes all evaluation limits and grants you full rights
 
 ---
 
-**Last Updated:** 2025-11-30  
+**Last Updated:** 2026-01-30  
 **Tested With:** Aspose.HTML 24.11 for .NET & Java  
 **Author:** Aspose  
 
