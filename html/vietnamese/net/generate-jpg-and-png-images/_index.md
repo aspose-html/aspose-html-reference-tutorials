@@ -43,6 +43,8 @@ Tìm hiểu cách tạo trang web động bằng Aspose.HTML cho .NET. Hướng 
 Học cách sử dụng Aspose.HTML cho .NET để thao tác với các tài liệu HTML, chuyển đổi HTML thành hình ảnh và nhiều hơn nữa. Hướng dẫn từng bước có Câu hỏi thường gặp.
 ### [Cách bật khử răng cưa khi chuyển đổi DOCX sang PNG/JPG](./how-to-enable-antialiasing-when-converting-docx-to-png-jpg/)
 Hướng dẫn chi tiết cách bật khử răng cưa để cải thiện chất lượng hình ảnh khi chuyển đổi tài liệu DOCX sang PNG hoặc JPG bằng Aspose.HTML.
+### [Chuyển đổi DOCX sang PNG – tạo tệp ZIP bằng C# – Hướng dẫn](./convert-docx-to-png-create-zip-archive-c-tutorial/)
+Hướng dẫn cách chuyển đổi tài liệu DOCX thành hình ảnh PNG và đóng gói chúng vào tệp ZIP bằng C#.
 
 ## Phần kết luận
 

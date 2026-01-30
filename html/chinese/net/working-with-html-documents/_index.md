@@ -37,6 +37,7 @@ HTML 文档是 Web 的支柱，能够有效地创建和操作 HTML 文档是任�
 现在，让我们将您的技能提升到一个新的水平。编辑 HTML 文档是 Web 开发人员的常见任务，而 Aspose.HTML 大大简化了此过程。在本节中，我们将介绍文档创建、操作和样式。您将了解如何增强 Web 内容的外观和功能，使其更具吸引力且用户友好。
 
 ### [如何在 C# 中保存 HTML – 使用自定义资源处理程序的完整指南](./how-to-save-html-in-c-complete-guide-using-a-custom-resource/)
+### [使用 CSS 和 C# 加粗标题 – 完整分步指南](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

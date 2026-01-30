@@ -43,6 +43,8 @@ Aspose.HTML for .NET kullanarak dinamik web sayfaları oluşturmayı öğrenin. 
 HTML belgelerini düzenlemek, HTML'yi resimlere dönüştürmek ve daha fazlası için Aspose.HTML for .NET'i kullanmayı öğrenin. SSS'li adım adım eğitim.
 ### [DOCX'yi PNG/JPG'ye Dönüştürürken Antialiasing'i Etkinleştirme](./how-to-enable-antialiasing-when-converting-docx-to-png-jpg/)
 DOCX belgelerini PNG veya JPG formatına dönüştürürken antialiasing'i etkinleştirerek daha net ve pürüzsüz görüntüler elde edin.
+### [docx'i png'ye dönüştür – zip arşivi oluşturma C# eğitimi](./convert-docx-to-png-create-zip-archive-c-tutorial/)
+C# kullanarak docx dosyalarını png formatına dönüştürüp, sonuçları zip arşivi içinde paketlemeyi öğrenin.
 
 ## Çözüm
 

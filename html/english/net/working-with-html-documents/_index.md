@@ -37,6 +37,7 @@ Once you've grasped the basics, we'll delve deeper into the creation process. In
 Now, let's take your skills to the next level. Editing HTML documents is a common task for web developers, and Aspose.HTML simplifies this process significantly. In this section, we'll cover document creation, manipulation, and styling. You'll discover how to enhance the appearance and functionality of your web content, making it engaging and user-friendly.
 
 ### [How to Save HTML in C# – Complete Guide Using a Custom Resource Handler](./how-to-save-html-in-c-complete-guide-using-a-custom-resource/)
+### [How to Bold Heading with CSS & C# – Complete Step‑by‑Step Guide](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

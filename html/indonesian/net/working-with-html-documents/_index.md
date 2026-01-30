@@ -37,6 +37,7 @@ Setelah Anda memahami dasar-dasarnya, kita akan mempelajari lebih dalam proses p
 Sekarang, mari tingkatkan keterampilan Anda ke tingkat berikutnya. Mengedit dokumen HTML merupakan tugas umum bagi pengembang web, dan Aspose.HTML menyederhanakan proses ini secara signifikan. Di bagian ini, kami akan membahas pembuatan, manipulasi, dan penataan dokumen. Anda akan menemukan cara meningkatkan tampilan dan fungsionalitas konten web Anda, membuatnya menarik dan mudah digunakan.
 
 ### [Cara Menyimpan HTML di C# – Panduan Lengkap Menggunakan Penangan Sumber Daya Kustom](./how-to-save-html-in-c-complete-guide-using-a-custom-resource/)
+### [Cara Membuat Heading Tebal dengan CSS & C# – Panduan Lengkap Langkah demi Langkah](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

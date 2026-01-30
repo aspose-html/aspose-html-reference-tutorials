@@ -43,6 +43,8 @@ Ismerje meg, hogyan hozhat létre dinamikus weboldalakat az Aspose.HTML for .NET
 Tanulja meg az Aspose.HTML for .NET használatát HTML-dokumentumok kezeléséhez, HTML-kódok képpé konvertálásához stb. Lépésről lépésre bemutató GYIK.
 ### [Hogyan engedélyezzük az antialiasingot a DOCX PNG/JPG konvertálásakor](./how-to-enable-antialiasing-when-converting-docx-to-png-jpg/)
 Ismerje meg, hogyan állíthatja be az antialiasingot a DOCX dokumentumok PNG vagy JPG képekké konvertálásakor az Aspose.HTML for .NET használatával.
+### [docx konvertálása png-re – zip archívum létrehozása C# oktatóanyag](./convert-docx-to-png-create-zip-archive-c-tutorial/)
+Ismerje meg, hogyan konvertálhat docx fájlokat png képekké, majd csomagolhatja őket zip archívumba C#-ban az Aspose.HTML segítségével.
 
 ## Következtetés
 

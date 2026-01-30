@@ -37,6 +37,7 @@ url: /ar/net/working-with-html-documents/
 الآن، دعنا ننتقل بمهاراتك إلى المستوى التالي. إن تحرير مستندات HTML مهمة شائعة بين مطوري الويب، ويعمل Aspose.HTML على تبسيط هذه العملية بشكل كبير. في هذا القسم، سنغطي إنشاء المستندات ومعالجتها وتصميمها. ستكتشف كيفية تحسين مظهر ووظائف محتوى الويب الخاص بك، مما يجعله جذابًا وسهل الاستخدام.
 
 ### [كيفية حفظ HTML في C# – دليل كامل باستخدام معالج موارد مخصص](./how-to-save-html-in-c-complete-guide-using-a-custom-resource/)
+### [كيفية جعل العنوان غامقًا باستخدام CSS و C# – دليل خطوة بخطوة كامل](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

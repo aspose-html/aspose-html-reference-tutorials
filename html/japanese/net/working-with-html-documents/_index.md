@@ -37,6 +37,7 @@ HTML ドキュメントは Web のバックボーンであり、それを効果�
 では、スキルを次のレベルに引き上げましょう。HTML ドキュメントの編集は Web 開発者にとって一般的なタスクであり、Aspose.HTML はこのプロセスを大幅に簡素化します。このセクションでは、ドキュメントの作成、操作、およびスタイル設定について説明します。Web コンテンツの外観と機能を強化して、魅力的でユーザーフレンドリーにする方法を学びます。
 
 ### [カスタムリソースハンドラを使用した C# での HTML 保存完全ガイド](./how-to-save-html-in-c-complete-guide-using-a-custom-resource/)
+### [CSS と C# で見出しを太字にする方法 – 完全ステップバイステップガイド](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

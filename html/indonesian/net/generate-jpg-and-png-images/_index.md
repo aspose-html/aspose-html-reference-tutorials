@@ -43,6 +43,8 @@ Pelajari cara membuat halaman web dinamis menggunakan Aspose.HTML untuk .NET. Tu
 Pelajari cara menggunakan Aspose.HTML untuk .NET guna memanipulasi dokumen HTML, mengonversi HTML menjadi gambar, dan banyak lagi. Tutorial langkah demi langkah dengan Tanya Jawab Umum.
 ### [Cara Mengaktifkan Antialiasing Saat Mengonversi DOCX ke PNG/JPG](./how-to-enable-antialiasing-when-converting-docx-to-png-jpg/)
 Pelajari cara mengaktifkan antialiasing untuk meningkatkan kualitas gambar PNG atau JPG saat mengonversi dokumen DOCX menggunakan Aspose.HTML.
+### [Konversi DOCX ke PNG – Membuat Arsip ZIP dengan C# Tutorial](./convert-docx-to-png-create-zip-archive-c-tutorial/)
+Pelajari cara mengonversi file DOCX menjadi PNG dan mengemasnya ke dalam arsip ZIP menggunakan C# dengan Aspose.HTML.
 
 ## Kesimpulan
 

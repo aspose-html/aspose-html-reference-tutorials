@@ -43,6 +43,8 @@ Leer hoe u dynamische webpagina's maakt met Aspose.HTML voor .NET. Deze stapsgew
 Leer hoe u Aspose.HTML voor .NET kunt gebruiken om HTML-documenten te bewerken, HTML naar afbeeldingen te converteren en meer. Stapsgewijze tutorial met veelgestelde vragen.
 ### [Hoe antialiasing in te schakelen bij het converteren van DOCX naar PNG/JPG](./how-to-enable-antialiasing-when-converting-docx-to-png-jpg/)
 Leer hoe u antialiasing inschakelt bij het omzetten van DOCX-bestanden naar PNG- of JPG-afbeeldingen met Aspose.HTML.
+### [docx naar png converteren – zip-archief maken C#-tutorial](./convert-docx-to-png-create-zip-archive-c-tutorial/)
+Leer hoe u een DOCX-bestand naar PNG converteert en de resultaten in een zip-archief opslaat met C# en Aspose.HTML.
 
 ## Conclusie
 

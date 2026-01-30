@@ -43,6 +43,8 @@ Aspose.HTML for .NET を使用して動的な Web ページを作成する方法
 Aspose.HTML for .NET を使用して HTML ドキュメントを操作したり、HTML を画像に変換したりする方法を学びます。FAQ 付きのステップバイステップのチュートリアルです。
 ### [DOCX を PNG/JPG に変換する際のアンチエイリアシングの有効化方法](./how-to-enable-antialiasing-when-converting-docx-to-png-jpg/)
 DOCX 文書を PNG または JPG 画像に変換する際に、アンチエイリアシングを有効にして高品質な出力を得る手順を解説します。
+### [DOCX を PNG に変換 – ZIP アーカイブを作成する C# チュートリアル](./convert-docx-to-png-create-zip-archive-c-tutorial/)
+C# で DOCX を PNG に変換し、ZIP アーカイブを作成する方法を学びます。
 
 ## 結論
 

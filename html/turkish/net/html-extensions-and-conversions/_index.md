@@ -69,12 +69,9 @@ Aspose.HTML for .NET kullanarak HTML'den PDF'ye nasıl dönüştüreceğinizi ad
 ### [Stil Verilmiş Metinle HTML Belgesi Oluşturma ve PDF'ye Dışa Aktarma – Tam Kılavuz](./create-html-document-with-styled-text-and-export-to-pdf-full/)
 ### [HTML'yi ZIP Olarak Kaydet – Tam C# Öğreticisi](./save-html-as-zip-complete-c-tutorial/)
 Aspose.HTML for .NET kullanarak HTML dosyalarını ZIP arşivine kaydetmeyi adım adım öğrenin.
+### [C# ile HTML'yi ZIP'e Kaydet – Tam Bellek İçi Örnek](./save-html-to-zip-in-c-complete-in-memory-example/)
+Aspose.HTML for .NET kullanarak HTML dosyasını bellek içinde ZIP arşivine dönüştürmeyi adım adım öğrenin.
 
-## Çözüm
-
-Sonuç olarak, HTML uzantıları ve dönüşümleri modern web geliştirmenin temel unsurlarıdır. .NET için Aspose.HTML süreci basitleştirir ve her seviyedeki geliştiricinin erişimine sunar. Eğitimlerimizi takip ederek, geniş bir beceri setine sahip yetenekli bir web geliştiricisi olma yolunda iyi bir mesafe kat edeceksiniz.
-
-Peki, daha ne bekliyorsunuz? Aspose.HTML for .NET kullanarak HTML uzantılarını ve dönüşümlerini keşfetmek için bu heyecan verici yolculuğa çıkalım. Web geliştirme projeleriniz asla eskisi gibi olmayacak!
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

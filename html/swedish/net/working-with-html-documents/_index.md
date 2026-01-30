@@ -39,6 +39,10 @@ Låt oss nu ta dina färdigheter till nästa nivå. Att redigera HTML-dokument �
 ### [Hur man sparar HTML i C# – Komplett guide med en anpassad resurs‑hanterare](./how-to-save-html-in-c-complete-guide-using-a-custom-resource/)
 
 Lär dig spara HTML i C# med en anpassad resurs‑hanterare och generera kompletta HTML‑filer programatiskt.
+### [Hur du gör rubriker fetstil med CSS & C# – Komplett steg‑för‑steg‑guide](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
+
+Lär dig hur du använder CSS och C# för att göra rubriker fetstilta i dina HTML‑dokument med en steg‑för‑steg‑guide.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

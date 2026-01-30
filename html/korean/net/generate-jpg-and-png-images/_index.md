@@ -43,6 +43,8 @@ Aspose.HTML for .NET을 .NET 프로젝트에 통합하는 것은 번거롭지 �
 .NET용 Aspose.HTML을 사용하여 HTML 문서를 조작하고, HTML을 이미지로 변환하는 등의 방법을 알아보세요. FAQ가 포함된 단계별 튜토리얼.
 ### [DOCX를 PNG/JPG로 변환할 때 안티앨리어싱 활성화 방법](./how-to-enable-antialiasing-when-converting-docx-to-png-jpg/)
 DOCX 문서를 PNG 또는 JPG 이미지로 변환할 때 안티앨리어싱을 적용하는 방법을 단계별로 안내합니다.
+### [DOCX를 PNG로 변환하고 ZIP 아카이브 만들기 C# 튜토리얼](./convert-docx-to-png-create-zip-archive-c-tutorial/)
+C#을 사용해 DOCX 파일을 PNG 이미지로 변환하고, 결과를 ZIP 파일로 압축하는 방법을 단계별로 안내합니다.
 
 ## 결론
 

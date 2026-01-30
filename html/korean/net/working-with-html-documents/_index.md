@@ -39,6 +39,7 @@ HTML 문서는 웹의 중추이며, 효과적으로 만들고 조작할 수 있�
 ### [C#에서 HTML 저장하기 – 사용자 정의 리소스 핸들러를 활용한 완전 가이드](./how-to-save-html-in-c-complete-guide-using-a-custom-resource/)
 
 사용자 정의 리소스 핸들러를 사용해 C#에서 HTML을 저장하는 방법을 단계별로 안내합니다.
+### [CSS와 C#로 제목을 굵게 만드는 방법 – 완전 단계별 가이드](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
