@@ -58,6 +58,9 @@ Naučte se, jak přidat inline CSS do HTML dokumentů pomocí Aspose.HTML for Ja
 Naučte se, jak spravovat vnitřní a vnější vlastnosti HTML v Aspose.HTML for Java, pomocí tohoto podrobného průvodce, který je ideální pro webové vývojáře a tvůrce obsahu.
 ### [Implementujte interní CSS v HTML dokumentech pomocí Aspose.HTML pro Javu](./implement-internal-css-html-documents/)
 Naučte se implementovat interní CSS do HTML dokumentů pomocí Aspose.HTML for Java s naším jednoduchým návodem krok za krokem.
+### [Fixní vlákno pool v Javě – paralelní čištění HTML pomocí ExecutorService](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
+Naučte se, jak využít fixní pool vláken v Javě k paralelnímu čištění HTML pomocí ExecutorService.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

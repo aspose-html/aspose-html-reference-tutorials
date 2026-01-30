@@ -56,12 +56,17 @@ Aprenda como carregar documentos HTML de streams usando Aspose.HTML para Java. E
 Aprenda a criar documentos HTML a partir de strings no Aspose.HTML para Java com este guia passo a passo.
 ### [Carregar documentos HTML de URL em Aspose.HTML para Java](./load-html-documents-from-url/)
 Descubra como carregar facilmente documentos HTML de uma URL em Java com Aspose.HTML. Tutorial passo a passo incluso.
+### [Como consultar HTML em Java – Tutorial completo](./how-to-query-html-in-java-complete-tutorial/)
+Aprenda a consultar e extrair dados de documentos HTML em Java usando Aspose.HTML com este tutorial passo a passo.
 ### [Gerar novos documentos HTML usando Aspose.HTML para Java](./generate-new-html-documents/)
 Aprenda como criar novos documentos HTML usando Aspose.HTML para Java com este guia passo a passo fácil. Comece a gerar conteúdo HTML dinâmico.
 ### [Manipular eventos de carregamento de documentos em Aspose.HTML para Java](./handle-document-load-events/)
 Aprenda a manipular eventos de carregamento de documentos no Aspose.HTML para Java com este guia passo a passo. Aprimore seus aplicativos da web.
 ### [Crie e gerencie documentos SVG em Aspose.HTML para Java](./create-manage-svg-documents/)
 Aprenda a criar e gerenciar documentos SVG usando Aspose.HTML para Java! Este guia abrangente cobre tudo, desde a criação básica até a manipulação avançada.
+### [Criar sandbox para HTML em Java – Guia passo a passo](./create-sandbox-for-html-in-java-step-by-step-guide/)
+Aprenda a criar um sandbox para HTML em Java usando Aspose.HTML com este guia passo a passo.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

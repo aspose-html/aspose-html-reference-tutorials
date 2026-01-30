@@ -63,17 +63,11 @@ Saat Anda memanggil `save`, berikan instance `PdfSaveOptions` (atau `XpsSaveOpti
 ## Mengamati perubahan DOM – “memantau perubahan dom”
 Aspose.HTML memungkinkan Anda melampirkan `DomMutationObserver` ke node mana pun. Ini sangat cocok untuk skenario di mana Anda perlu merespons konten dinamis—seperti mengisi formulir secara otomatis atau memperbarui grafik. Dengan memantau penambahan node, Anda dapat memicu logika khusus secara real time.
 
-> *Hanya penjelasan – kode tidak diubah.*
-
 ## Memanipulasi HTML5 Canvas
 Apakah Anda membangun game, dasbor, atau visualisasi data, API HTML5 Canvas adalah alat yang kuat. Dengan Aspose.HTML Anda dapat merender konten kanvas di sisi server dan kemudian mengekspornya langsung ke PDF. Ini menghilangkan kebutuhan screenshot sisi klien dan memastikan output yang pixel‑perfect.
 
-> *Hanya penjelasan – kode tidak diubah.*
-
 ## Mengotomatisasi Pengisian Formulir HTML
 Mengisi formulir web berulang dapat melelahkan. Aspose.HTML menyediakan API `Form` yang memungkinkan Anda secara programatik mengatur nilai input, memilih opsi, dan mengirimkan formulir—semua dari Java. Otomatisasi ini sangat berguna untuk entri data massal atau pengujian.
-
-> *Hanya penjelasan – kode tidak diubah.*
 
 ## Menyesuaikan Ukuran Halaman PDF dan XPS
 Saat mengonversi HTML ke PDF atau XPS, Anda sering perlu mengontrol dimensi halaman akhir. `PdfSaveOptions` dan `XpsSaveOptions` milik Aspose.HTML menyediakan properti seperti `PageWidth` dan `PageHeight`, memungkinkan Anda **menyesuaikan ukuran halaman PDF** atau **mengonversi HTML ke XPS** dengan ukuran yang tepat.
@@ -129,6 +123,9 @@ Pelajari cara menyesuaikan ukuran halaman PDF dengan Aspose.HTML untuk Java. Bua
 
 ### [Sesuaikan Ukuran Halaman XPS dengan Aspose.HTML untuk Java](./adjust-xps-page-size/)
 Pelajari cara menyesuaikan ukuran halaman XPS dengan Aspose.HTML untuk Java. Kontrol dimensi output dokumen XPS Anda dengan mudah.
+
+### [Cara Menjalankan JavaScript di Java – Panduan Lengkap](./how-to-run-javascript-in-java-complete-guide/)
+Pelajari cara menjalankan kode JavaScript dalam aplikasi Java dengan Aspose.HTML untuk Java secara lengkap.
 
 ---
 

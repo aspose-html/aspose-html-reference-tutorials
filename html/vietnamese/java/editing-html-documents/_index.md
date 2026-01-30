@@ -58,6 +58,9 @@ Tìm hiểu cách thêm CSS nội tuyến vào tài liệu HTML bằng Aspose.HT
 Tìm hiểu cách quản lý các thuộc tính HTML bên trong và bên ngoài trong Aspose.HTML cho Java với hướng dẫn từng bước này, hoàn hảo cho các nhà phát triển web và người sáng tạo nội dung.
 ### [Triển khai CSS nội bộ trong tài liệu HTML với Aspose.HTML cho Java](./implement-internal-css-html-documents/)
 Học cách triển khai CSS nội bộ trong tài liệu HTML bằng Aspose.HTML cho Java với hướng dẫn từng bước dễ dàng của chúng tôi.
+### [Fixed thread pool Java – Làm sạch HTML song song với ExecutorService](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
+Sử dụng Fixed thread pool trong Java để thực hiện làm sạch HTML song song bằng ExecutorService.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

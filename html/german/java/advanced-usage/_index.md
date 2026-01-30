@@ -126,6 +126,8 @@ Erfahren Sie, wie Sie das automatische Ausfüllen und Absenden von HTML‑Formul
 Erfahren Sie, wie Sie die PDF‑Seitengröße mit Aspose.HTML für Java anpassen. Erstellen Sie mühelos hochwertige PDFs aus HTML und steuern Sie die Seitenabmessungen effektiv.
 ### [XPS‑Seitengröße mit Aspose.HTML für Java anpassen](./adjust-xps-page-size/)
 Erfahren Sie, wie Sie die XPS‑Seitengröße mit Aspose.HTML für Java anpassen. Steuern Sie die Ausgabedimensionen Ihrer XPS‑Dokumente einfach.
+### [Wie man JavaScript in Java ausführt – Komplettanleitung](./how-to-run-javascript-in-java-complete-guide/)
+Erfahren Sie, wie Sie JavaScript-Code innerhalb von Java-Anwendungen ausführen und integrieren können.
 
 ---
 

@@ -30,6 +30,9 @@ Lassen Sie uns nun einen Gang höher schalten und untersuchen, wie Sie HTML-Form
 Erfahren Sie, wie Sie mit Aspose.HTML für Java erweiterte CSS-Techniken anwenden, darunter benutzerdefinierte Seitenränder und dynamische Inhalte. Ein ausführliches, praktisches Tutorial für Entwickler.
 ### [Bearbeiten und Senden von HTML-Formularen mit Aspose.HTML für Java](./html-form-editing/)
 Erfahren Sie in dieser umfassenden Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.HTML für Java programmgesteuert HTML-Formulare bearbeiten und übermitteln.
+### [Element per Klasse in Java auswählen – Komplett‑Anleitung](./select-element-by-class-in-java-complete-how-to-guide/)
+Erfahren Sie, wie Sie mit Aspose.HTML für Java Elemente anhand ihrer CSS‑Klasse auswählen und verarbeiten – Schritt‑für‑Schritt‑Anleitung.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

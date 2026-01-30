@@ -62,7 +62,7 @@ Sayfa numarası eklemek, HTML PDF, XPS ya da yazdırma sırasında otomatik olar
 
 ## DOM değişikliklerini izleme – “monitor dom changes”
 
-Aspose.HTML, herhangi bir düğüme bir `DomMutationObserver` eklemenize olanak tanır. Bu, dinamik içeriğe (örneğin otomatik form doldurma veya grafik güncellemeleri) yanıt vermeniz gerektiğinde mükemmeldir. Düğüm eklemelerini izleyerek gerçek zamanlı özel mantık tetikleyebilirsiniz.
+Aspose.HTML, herhangi bir düğüme bir `DomMutationObserver` eklemenize olanak tanır. Bu, dinamik içeriğe (örneğin otomatik form doldurma veya grafik güncellemeleri) yanıt vermeniz gerektiğinde mükemmeldir. Düğün eklemelerini izleyerek gerçek zamanlı özel mantık tetikleyebilirsiniz.
 
 > *Explanation only – code unchanged.*
 
@@ -80,7 +80,7 @@ Tekrarlayan web formlarını doldurmak zaman alıcı olabilir. Aspose.HTML, `For
 
 ## PDF ve XPS Sayfa Boyutlarını Ayarlama
 
-HTML’yi PDF veya XPS’ye dönüştürürken son sayfa boyutlarını kontrol etmeniz sıkça gerekir. Aspose.HTML’in `PdfSaveOptions` ve `XpsSaveOptions` sınıfları, `PageWidth` ve `PageHeight` gibi özellikler sunar; böylece **PDF sayfa boyutunu ayarlayabilir** veya **HTML’yi XPS’ye tam ölçülerle dönüştürebilirsiniz**.
+HTML’yi PDF veya XPS’ye dönüştürürken son sayfa boyutlarını kontrol etmeniz sıkça gerekir. Aspose.HTML’in `PdfSaveOptions` ve `XpsSaveOptions` sınıfları, `PageWidth` ve `PageHeight` gibi özellikler sunar; böylece **PDF sayfa boyutunu ayarlabilir** veya **HTML’yi XPS’ye tam ölçülerle dönüştürebilirsiniz**.
 
 > *Explanation only – code unchanged.*
 
@@ -126,6 +126,8 @@ Aspose.HTML for Java ile HTML form doldurmayı ve göndermeyi otomatikleştirmey
 Aspose.HTML for Java kullanarak PDF sayfa boyutunu nasıl ayarlayacağınızı öğrenin. HTML’den yüksek kaliteli PDF’ler oluşturun ve sayfa boyutlarını etkili bir şekilde kontrol edin.
 ### [Aspose.HTML for Java ile XPS Sayfa Boyutunu Ayarlama](./adjust-xps-page-size/)
 Aspose.HTML for Java ile XPS sayfa boyutunu nasıl ayarlayacağınızı öğrenin. XPS belgelerinizin çıktı boyutlarını kolayca kontrol edin.
+### [Java’da JavaScript Çalıştırma – Tam Kılavuz](./how-to-run-javascript-in-java-complete-guide/)
+Aspose.HTML for Java kullanarak Java içinde JavaScript kodu çalıştırmayı ve entegrasyonu öğrenin.
 
 ---
 

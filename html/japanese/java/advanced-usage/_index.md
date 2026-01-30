@@ -92,7 +92,7 @@ HTML を PDF または XPS に変換する際、最終的なページ寸法を�
 ## よくある質問
 
 **Q: カスタムヘッダーが既にあるドキュメントにページ番号を追加できますか？**  
-A: はい。Aspose.HTML はヘッダーとフッターを別々に定義できるため、既存のヘッダーを保持しつつ、フッターにページ番号を追加できます。
+A: はい。Aspose.HTML はヘッダーとフッターを別々に定義できるので、既存のヘッダーを保持しつつ、フッターにページ番号を追加できます。
 
 **Q: 余白の単位をインチからミリメートルに変更するにはどうすればよいですか？**  
 A: `PageSetup` API は任意の `Length` 値を受け入れるので、`Length.fromInches(value)` の代わりに `Length.fromMillimeters(value)` を使用してください。
@@ -121,6 +121,8 @@ Aspose.HTML for Java を使用して HTML フォームの入力と送信を自�
 Aspose.HTML for Java を使用して PDF のページサイズを調整する方法を学びます。HTML から高品質な PDF を簡単に作成し、ページ寸法を効果的に制御します。
 ### [Aspose.HTML for Java で XPS ページサイズを調整](./adjust-xps-page-size/)
 Aspose.HTML for Java を使用して XPS のページサイズを調整する方法を学びます。XPS ドキュメントの出力寸法を簡単に制御できます。
+### [Java で JavaScript を実行する方法 – 完全ガイド](./how-to-run-javascript-in-java-complete-guide/)
+Aspose.HTML for Java を使用して、Java アプリケーション内で JavaScript を実行し、動的コンテンツやロジックを統合する方法を学びます。
 
 ---
 

@@ -55,6 +55,9 @@ weight: 27
 ### [تحديد خيارات حفظ PDF لتحويل EPUB إلى PDF](./convert-epub-to-pdf-specify-pdf-save-options/)
 تعلم كيفية تحويل EPUB إلى PDF في Java باستخدام Aspose.HTML، مكتبة قوية لمعالجة HTML.
 
+### [كيفية تضمين الخطوط عند تحويل EPUB إلى PDF في Java](./how-to-embed-fonts-when-converting-epub-to-pdf-in-java/)
+تعلم كيفية تضمين الخطوط أثناء تحويل EPUB إلى PDF باستخدام Aspose.HTML for Java.
+
 ### [تحويل EPUB إلى BMP](./convert-epub-to-bmp/)
 تعلم كيفية تحويل EPUB إلى BMP باستخدام Aspose.HTML for Java. دليل خطوة بخطوة لتحويل المحتوى بكفاءة.
 
