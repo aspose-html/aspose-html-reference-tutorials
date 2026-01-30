@@ -1,11 +1,11 @@
 ---
-date: 2025-11-29
+date: 2026-01-30
 description: Dowiedz się, jak konwertować HTML do XPS i dostosowywać rozmiar strony
-  XPS przy użyciu Aspose.HTML dla Javy. Łatwo kontroluj wymiary wyjściowe.
+  XPS przy użyciu Aspose HTML Java. Ten przewodnik pokaże Ci, jak renderować HTML
+  do XPS, ustawiać marginesy strony i precyzyjnie dopasowywać wymiary dokumentu.
 linktitle: Adjusting XPS Page Size
 second_title: Java HTML Processing with Aspose.HTML
-title: Konwertuj HTML do XPS i dostosuj rozmiar strony XPS przy użyciu Aspose.HTML
-  dla Javy
+title: 'Aspose HTML Java: konwersja HTML do XPS i dostosowanie rozmiaru strony XPS'
 url: /pl/java/advanced-usage/adjust-xps-page-size/
 weight: 16
 ---
@@ -14,34 +14,32 @@ weight: 16
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Konwertowanie HTML do XPS i dostosowywanie rozmiaru strony XPS przy użyciu Aspose.HTML dla Java
+# Aspose HTML Java – Konwersja HTML do XPS i dostosowanie rozmiaruar otrzymanej strony przy użyciu **Aspose HTML Java**. Niezależnie od tego, czy generujesz raporty do druku, faktury czy dokumenty archiwalne, kontrola wymiarów XPS zapewnia, że wynik wygląda dokładnie tak, jak tego oczekiku XPS — abyś mógł od razu włączyć tę funkcjonalność do swoich aplikacji Java.
 
-W tym samouczku dowiesz się **jak konwertować HTML do XPS** i precyzyjnie dostosować rozmiar otrzymanej strony przy użyciu Aspose.HTML dla Java. Niezależnie od tego, czy generujesz raporty do druku, faktury czy dokumenty archiwalne, kontrola wymiarów XPS zapewnia, że wynik wygląda dokładnie tak, jak tego oczekujesz. Przeprowadzimy Cię przez każdy krok — od konfiguracji środowiska po renderowanie końcowego pliku XPS — abyś mógł od razu zintegrować tę funkcję w swoich aplikacjach Java.
-
-## Szybkie odpowiedzi
-- **Co oznacza „konwertowanie HTML do XPS”?** Renderuje dokument HTML do pliku XPS, zachowując układ i stylizację.  
-- **Czy potrzebna jest licencja?** Darmowa wersja próbna działa w środowisku deweloperskim; licencja komercyjna jest wymagana w produkcji.  
-- **Jaką wersję Javy obsługuje?** Java 8 lub wyższą (zalecany JDK 11+).  
-- **Czy mogę zmienić rozmiar strony?** Tak — Aspose.HTML pozwala określić własne wymiary przed renderowaniem.  
-- **Jak długo trwa konwersja?** Zazwyczaj poniżej sekundy dla standardowych stron; większe dokumenty mogą zająć więcej czasu.
-
-## Co to jest konwertowanie HTML do XPS?
-Konwertowanie HTML do XPS oznacza przekształcenie pliku znaczników przeznaczonego dla sieci w dokument XPS (XML Paper Specification) — format o stałym układzie, gotowy do druku, podobny do PDF. Jest to przydatne, gdy potrzebujesz dokumentów wysokiej jakości, niezależnych od urządzenia, do archiwizacji lub drukowania z aplikacji Java.
+## Quick Answers
+- **What does “convert HTML to XPS” mean?** It renders an HTML document into an XPS file, preserving layout and styling.  
+- **Do I need a license?** A free trial works for development; a commercial license is required for production.  
+- **Which Java version is supported?** Java 8 or higher (JDK 11+ recommended).  
+- **Can I change page size?** Yes – Aspose HTML Java lets you specify custom dimensions before rendering.  
+- **How long does the conversion take?** Typically under a to jest konwersja HTML do XPSPS oznacza przetworzenie pliku znaczników przeznaczonego dla sieci na dokument XPS (XML Paper Specification) — format o stałym układzie, gotowy do druku, podobny do PDF. Jest to przydatne, gdy potrzebujesz wysokiej w aplikacji Java.
 
 ## Dlaczego warto dostosować rozmiar strony XPS?
-Dostosowanie rozmiaru strony daje kontrolę nad fizycznymi wymiarami końcowego dokumentu (np. A4, Letter, własne etykiety). Zapobiega niepożądanemu skalowaniu, zapewnia idealne dopasowanie treści i może zmniejszyć rozmiar pliku poprzez usunięcie niepotrzebnej białej przestrzeni.
+Dostosowanie rozmiaru strony daje kontrolę nad fizycznymi wymiarami finalnego dokumentu (np. A4, Letter, własne etykiety). Zapobiega niepożądanemu skalowaniu, zapewnia idealne dopasowanie treści i może zmniejszyć rozmiar pliku, eliminując niepotrzebną białą przestrzeń.
 
-## Wymagania wstępne
+## Kiedy **renderować HTML do drukuumenty prawne lub archiwalne**, gdzie wymagana jest stała struktura.  
+- **Masowa generacja etykiet lub biletów** z własnymi rozmiarami stron.  
+- **Tworzenie dokumentów po stronie serwera** na maszynach bez interfejsu graficznego, gdzie PDF nie jest wymagany.
 
-Zanim zaczniemy, upewnij się, że spełnione są następujące wymagania:
+## Prerequisites
 
-1. **Środowisko programistyczne Java** – zainstalowany Java Development Kit (JDK) na Twoim systemie.  
-2. **Biblioteka Aspose.HTML for Java** – pobierz i dołącz bibliotekę Aspose.HTML for Java do swojego projektu. Bibliotekę znajdziesz [tutaj](https://releases.aspose.com/html/java/).  
-3. **Plik HTML wejściowy** – przygotuj plik HTML, który chcesz wyrenderować i dostosować rozmiar strony XPS. Możesz użyć własnego pliku HTML w tym samouczku.
+Before we begin, make sure you have the following prerequisites in place:
 
-## Importowanie pakietów
+1. **Java Development Environment** – for Java Library** – Download and include the Aspose your project. You can find the library [here](https://releases.aspose.com/html/java/).  
+3. **Input HTML File** – Prepare an HTML file that you want to render and adjust the XPS page size for. You can use your own HTML file for this tutorial.
 
-Najpierw zaimportuj klasy, których będziesz potrzebować. Pakiety te zapewniają dostęp do obsługi dokumentów, renderowania i funkcji konfigurowania stron.
+## Import Packages
+
+First, import the classes you’ll need. These packages give you access to document handling, rendering, and page‑setup features.
 
 ```java
 import com.aspose.html.drawing.Page;
@@ -52,9 +50,11 @@ import com.aspose.html.rendering.xps.XpsRenderingOptions;
 import com.aspose.html.HTMLDocument;
 ```
 
-## Krok 1: Ustaw nazwę pliku wejściowego
+## Step‑by‑Step Guide
 
-Odczytaj źródłowy plik HTML przy użyciu `FileInputStream`. Ten strumień dostarcza surowy HTML do silnika Aspose.HTML.
+### Step 1: Set the Input File Name
+
+Read the HTML into the Aspose HTML engine.
 
 ```java
 try (java.io.FileInputStream fileInputStream = new java.io.FileInputStream("YourInputFile.html")) {
@@ -62,9 +62,9 @@ try (java.io.FileInputStream fileInputStream = new java.io.FileInputStream("Your
 }
 ```
 
-## Krok 2: Utwórz dokument HTML i ustaw style
+### Step 2: Create an HTML Document and Set Styles
 
-Utwórz instancję `HTMLDocument`, która reprezentuje treść do renderowania. W tym przykładzie wstrzykujemy mały blok CSS, aby pokazać stylizację — możesz go zamienić na własny znacznik.
+Create an `HTMLDocument` instance that represents the content you’ll render. In this example we also inject a small CSS block to demonstrate styling—feel free to replace it with your own markup.
 
 ```java
 com.aspose.html.HTMLDocument html_document = new com.aspose.html.HTMLDocument("YourOutputFile.html");
@@ -84,17 +84,17 @@ String style = "<style>\n" +
 // ...
 ```
 
-## Krok 3: Utwórz opcje renderowania XPS
+### Step 3: Create XPS Rendering Options
 
-Zainicjuj `XpsRenderingOptions`, aby przechowywać wszystkie ustawienia wpływające na konwersję z HTML do XPS.
+Instantiate `XpsRenderingOptions` to hold all settings that affect the conversion from HTML to XPS.
 
 ```java
 com.aspose.html.rendering.xps.XpsRenderingOptions xps_options = new com.aspose.html.rendering.xps.XpsRenderingOptions();
 ```
 
-## Krok 4: Dostosuj rozmiar strony
+### Step 4: Adjust the Page Size (and Set Page Margins)
 
-Zdefiniuj własny rozmiar strony (szerokość × wysokość w punktach) i określ renderującemu, czy ma automatycznie rozszerzać się do najszerszej strony. Ustawienie `adjustToWidestPage` na `false` zachowuje dokładne wymiary, które podasz.
+Define a custom page size (width × height in points) and` to `false` preserves the exact dimensions you specify. You can also control margins here if you need to **set page margins java**‑style.
 
 ```java
 com.aspose.html.drawing.Page page = new com.aspose.html.drawing.Page(new com.aspose.html.drawing.Size(100, 100));
@@ -104,59 +104,53 @@ pageSetup.setAdjustToWidestPage(false);
 xps_options.setPageSetup(pageSetup);
 ```
 
-## Krok 5: Renderuj wynik
+### Step 5: Render the Output
 
-Na koniec utwórz `XpsDevice` z skonfigurowanymi opcjami i wyrenderuj dokument HTML. Wynikiem jest w pełni sformatowany plik XPS z niestandardowymi wymiarami strony, które ustawiłeś.
-
-```java
+Finally, create an `XpsDevice` with the configured options and render the HTML document. The result is```java
 com.aspose.html.rendering.xps.XpsDevice device = new com.aspose.html.rendering.xps.XpsDevice(xps_options, "YourOutputFile.xps");
 
 renderer.render(device, html_document);
 ```
 
-## Typowe problemy i rozwiązania
+ Issue | Why it Happens | Fix |
+|-------|----------------|-----|
+| **Blank XPS output** | Input stream not closed or HTMLDocument points to wrong file. | Ensure the `FileInputStream` is correctly wrapped in a try‑with‑resources block and the file path is accurate. |
+| **Page size not applied** | `adjustToWidestPage`(false);` as shown in Step 4. |
+| **Unsupported CSS** | Aspose.HTML supports a subset of CSS. | Stick to basic layout, fonts, and colors; avoid advanced selectors or CSS Grid. |
+| **LicenseException** | Running without a valid license in production. | Apply your temporary or purchased license before rendering (`License license = new License(); license.setLicense("Aspose.Total.Java.lic");`). |
 
-| Problem | Dlaczego się pojawia | Rozwiązanie |
-|---------|----------------------|-------------|
-| **Pusty wynik XPS** | Strumień wejściowy nie został zamknięty lub HTMLDocument wskazuje niewłaściwy plik. | Upewnij się, że `FileInputStream` jest prawidłowo zamknięty w bloku try‑with‑resources i ścieżka do pliku jest poprawna. |
-| **Rozmiar strony nie zastosowany** | `adjustToWidestPage` pozostawiono jako `true`. | Ustaw `pageSetup.setAdjustToWidestPage(false);` jak pokazano w Kroku 4. |
-| **Nieobsługiwany CSS** | Aspose.HTML obsługuje podzbiór CSS. | Używaj podstawowego układu, czcionek i kolorów; unikaj zaawansowanych selektorów lub CSS Grid. |
-| **LicenseException** | Uruchamianie bez ważnej licencji w środowisku produkcyjnym. | Zastosuj tymczasową lub zakupioną licencję przed renderowaniem (`License license = new License(); license.setLicense("Aspose.Total.Java.lic");`). |
+## Frequently Asked Questions
 
-## Najczęściej zadawane pytania
+**Q: What is Asp that allows developers to manipulate and convert HTML documents into various formats, such as XPS, PDF, and images.
 
-**Q: Czym jest Aspose.HTML for Java?**  
-A: Aspose.HTML for Java to biblioteka Java, która umożliwia programistom manipulowanie i konwertowanie dokumentów HTML do różnych formatów, takich jak XPS, PDF i obrazy.
+**Q: Where can I download Aspose.HTML for Java?**  
+A: You can download the Aspose.HTML for Java library from [this link](https://releases.aspose.com/html/java/).
 
-**Q: Gdzie mogę pobrać Aspose.HTML for Java?**  
-A: Bibliotekę Aspose.HTML for Java możesz pobrać z [tego linku](https://releases.aspose.com/html/java/).
+**Q: Is there a free trial available?**  
+A: Yes, you can get a free trial of Aspose.HTML for Java from [here](https://releases.aspose.com/).
 
-**Q: Czy dostępna jest darmowa wersja próbna Aspose.HTML for Java?**  
-A: Tak, darmową wersję próbną Aspose.HTML for Java możesz uzyskać [tutaj](https://releases.aspose.com/).
+**Q: How can I obtain a temporary license?**  
+A: To get a temporary license for Aspose.HTML for Java, visit [this page](https://purchase.aspose.com/temporary-license/).
 
-**Q: Jak mogę uzyskać tymczasową licencję dla Aspose.HTML for Java?**  
-A: Aby uzyskać tymczasową licencję dla Aspose.HTML for Java, odwiedź [tą stronę](https://purchase.aspose.com/temporary-license/).
+**Q: Where can I get support?**  
+A: You can seek help and support from the Aspose community on the [Aspose Forum](https://forum.aspose.com/).
 
-**Q: Czy mogę uzyskać wsparcie dla Aspose.HTML for Java?**  
-A: Tak, pomoc i wsparcie możesz uzyskać od społeczności Aspose na [forum Aspose](https://forum.aspose.com/).
+**Q: Can I convert HTML to XPS on a head: Absolutely the Java runtime is properly configured.
 
-**Q: Czy mogę konwertować HTML do XPS na serwerze bez interfejsu graficznego?**  
-A: Oczywiście. Aspose.HTML działa w środowiskach bez GUI; wystarczy, że środowisko uruchomieniowe Java jest prawidłowo skonfigurowane.
+**Q: Does the library support custom page margins?**  
+A: Yes. Use `PageSetup.setMarginTop()`, `setMarginBottom()`, etc., before assigning the `PageSetup` to the rendering options.
 
-**Q: Czy biblioteka obsługuje własne marginesy strony?**  
-A: Tak. Użyj `PageSetup.setMarginTop()`, `setMarginBottom()` itd., przed przypisaniem `PageSetup` do opcji renderowania.
+## Conclusion
 
-## Podsumowanie
+We’ve walked through the complete process of **converting HTML to XPS** and adjusting the page size with **Aspose HTML Java**. By following these steps you can generate print‑ready XPS documents that match your exact layout requirements. Feel free to experiment with different page dimensions, styles, or even add headers and footers to suit your project’s needs.
 
-Przeszliśmy cały proces **konwertowania HTML do XPS** i dostosowywania rozmiaru strony przy użyciu Aspose.HTML for Java. Postępując zgodnie z tymi krokami, możesz generować gotowe do druku dokumenty XPS, które spełniają dokładne wymagania układu. Śmiało eksperymentuj z różnymi wymiarami stron, stylami lub nawet dodawaj nagłówki i stopki, aby dopasować je do potrzeb projektu.
-
-Jeśli masz pyt lub potrzebujesz dalszej pomocy, zapoznaj się z [dokumentacją Aspose.HTML for Java](https://reference.aspose.com/html/java/) lub dołącz do dyskusji na [forum Aspose](https://forum.aspose.com/).
+If you have any questions or need further assistance, explore the [Aspose.HTML for Java documentation](https://reference.aspose.com/html/java/) or join the conversation on the [Aspose Forum](https://forum.aspose.com/).
 
 ---
 
-**Ostatnia aktualizacja:** 2025-11-29  
-**Testowano z:** Aspose.HTML for Java 11 (najnowsza w momencie pisania)  
-**Autor:** Aspose  
+**Last Updated:** 2026-01-30  
+**Tested With:** Aspose.HTML for Java (latest version)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
