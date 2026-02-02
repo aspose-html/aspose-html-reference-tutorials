@@ -1,9 +1,9 @@
 ---
-title: Append Element to Body with Aspose.HTML for Java using a DOM Mutation Observer
+title: Create HTML document Java and append element to body
 linktitle: Append Element to Body - Observing Node Additions
 second_title: Java HTML Processing with Aspose.HTML
 description: Learn how to append element to body and monitor DOM changes in Java using Aspose.HTML's Mutation Observer. Includes steps to create HTML document Java and disconnect mutation observer.
-date: 2025-11-30
+date: 2026-02-02
 weight: 11
 url: /java/advanced-usage/dom-mutation-observer-observing-node-additions/
 ---
@@ -14,7 +14,7 @@ url: /java/advanced-usage/dom-mutation-observer-observing-node-additions/
 
 # Append Element to Body with Aspose.HTML for Java using a DOM Mutation Observer
 
-If you’re a Java developer who needs to **append element to body** while keeping an eye on every change that happens in the DOM, you’ve come to the right place. Aspose.HTML for Java makes it straightforward to **create HTML document Java** objects, attach a Mutation Observer, and react instantly when nodes are added, removed, or altered. In this step‑by‑step tutorial we’ll walk through the entire process—from setting up the document to cleanly **disconnect mutation observer**—so you can confidently monitor DOM changes in your Java applications.
+If you’re a Java developer who needs to **append element to body** while keeping an eye on every change that happens in the DOM, you’ve come to the right place. In this guide we’ll show you how to **create HTML document Java** objects, attach a Mutation Observer, and react instantly when nodes are added, removed, or altered. Aspose.HTML for Java makes it straightforward to **create HTML document Java** objects, attach a Mutation Observer, and react instantly when nodes are added, removed, or altered. In this step‑by‑step tutorial we’ll walk through the entire process—from setting up the document to cleanly **disconnect mutation observer**—so you can confidently monitor DOM changes in your Java applications.
 
 ## Quick Answers
 - **What does a Mutation Observer do?** It watches the DOM tree and notifies you of node additions, removals, or attribute changes.  
@@ -39,6 +39,9 @@ Appending an element to the `<body>` tag means programmatically adding a new nod
 
 You can obtain Aspose.HTML for Java from the download page [here](https://releases.aspose.com/html/java/).
 
+## How to create HTML document Java with Aspose.HTML
+Before we can observe anything, we need a document instance. The `HTMLDocument` class represents the in‑memory DOM that we will manipulate and monitor.
+
 ## Import Packages
 First, import the classes you’ll need. This also creates an empty HTML document that we’ll later populate.
 
@@ -57,7 +60,7 @@ import com.aspose.html.generic.IGenericList;
 HTMLDocument document = new HTMLDocument();
 ```
 
-## Step 1: Create a Mutation Observer Instance (mutation observer java)
+## How to monitor DOM changes java
 A **Mutation Observer** needs a callback that will be invoked whenever a mutation occurs. In our callback we simply print a message for each added node.
 
 ```java
@@ -76,7 +79,7 @@ MutationObserver observer = new MutationObserver(new MutationCallback() {
 });
 ```
 
-## Step 2: Configure the Observer (monitor dom changes java)
+## How to configure the observer (monitor dom changes java)
 We tell the observer **what** to watch for—child list changes, subtree modifications, and character data updates.
 
 ```java
@@ -89,7 +92,7 @@ config.setCharacterData(true);
 observer.observe(document.getBody(), config);
 ```
 
-## Step 3: Append Element to Body and Trigger the Observer
+## How to append element body java
 Now we actually **append element to body**. Adding a `<p>` element with a text node will fire the observer we set up earlier.
 
 ```java
@@ -102,7 +105,7 @@ Text text = document.createTextNode("Hello World");
 p.appendChild(text);
 ```
 
-## Step 4: Wait for Observations (asynchronous handling)
+## How to wait for observations (asynchronous handling)
 Mutations are reported asynchronously, so we pause briefly to give the observer time to process the change.
 
 ```java
@@ -112,7 +115,7 @@ synchronized (this) {
 }
 ```
 
-## Step 5: Disconnect the Observer (disconnect mutation observer)
+## How to disconnect the observer (disconnect mutation observer)
 When you’re finished monitoring, always **disconnect mutation observer** to free resources.
 
 ```java
@@ -144,13 +147,13 @@ A: Set `config.setCharacterData(true)` in the observer configuration, as demonst
 A: Call `observer.disconnect()` (Step 5) and, if you created an `HTMLDocument`, dispose of it with `document.dispose()` to release native resources.
 
 ## Conclusion
-You’ve now learned how to **append element to body**, set up a **mutation observer java**, and **monitor DOM changes java** using Aspose.HTML for Java. By following these steps you can reliably detect and react to any DOM mutation in your server‑side Java applications. Feel free to experiment with different node types, attribute observations, or even multiple observers to suit more complex scenarios.
+You’ve now learned how to **create HTML document Java**, **append element to body**, set up a **mutation observer java**, and **monitor DOM changes java** using Aspose.HTML for Java. By following these steps you can reliably detect and react to any DOM mutation in your server‑side Java applications. Feel free to experiment with different node types, attribute observations, or even multiple observers to suit more complex scenarios.
 
 If you run into any issues, the community is ready to help in the [Aspose.HTML forum](https://forum.aspose.com/). For deeper API details, consult the official [Aspose.HTML for Java documentation](https://reference.aspose.com/html/java/).
 
 ---
 
-**Last Updated:** 2025-11-30  
+**Last Updated:** 2026-02-02  
 **Tested With:** Aspose.HTML for Java 24.11  
 **Author:** Aspose
 
