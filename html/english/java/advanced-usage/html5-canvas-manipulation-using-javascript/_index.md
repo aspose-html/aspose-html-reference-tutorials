@@ -1,9 +1,9 @@
 ---
-title: Convert Canvas to PDF with Aspose.HTML for Java
+title: Create PDF from Canvas with Aspose.HTML for Java
 linktitle: Convert Canvas to PDF Using JavaScript
 second_title: Java HTML Processing with Aspose.HTML
-description: Learn how to convert canvas to PDF using JavaScript and Aspose.HTML for Java. Create dynamic graphics, draw text on canvas, and export HTML to PDF.
-date: 2025-12-01
+description: Learn how to create PDF from canvas using JavaScript and Aspose.HTML for Java. Convert canvas to PDF, generate PDF from HTML, and save canvas as PDF with high fidelity.
+date: 2026-02-02
 weight: 13
 url: /java/advanced-usage/html5-canvas-manipulation-using-javascript/
 ---
@@ -12,9 +12,9 @@ url: /java/advanced-usage/html5-canvas-manipulation-using-javascript/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Convert Canvas to PDF with Aspose.HTML for Java
+# Create PDF from Canvas with Aspose.HTML for Java
 
-Interactive web experiences often rely on the HTML5 **Canvas** element. By drawing graphics with JavaScript you can create charts, signatures, or custom illustrations directly in the browser. But what if you need a printable, share‑able version of that canvas? In this tutorial you’ll learn **how to convert canvas to PDF** using JavaScript together with **Aspose.HTML for Java**. We’ll walk through creating a canvas, drawing text, saving the HTML, and finally exporting the result to a PDF file.
+Interactive web experiences often rely on the HTML5 **Canvas** element. When you need to **create PDF from canvas**, you can generate a printable, share‑able document that preserves the exact look of your graphics. In this tutorial you’ll learn how to convert canvas to PDF using JavaScript together with **Aspose.HTML for Java**. We’ll walk through creating a canvas, drawing text, saving the HTML, and finally exporting the result to a PDF file.
 
 ## Quick Answers
 - **What does “convert canvas to pdf” mean?** It means taking the visual content rendered on an HTML5 Canvas and generating a PDF document that preserves that appearance.  
@@ -49,9 +49,11 @@ import com.aspose.html.saving.PdfSaveOptions;
 import java.io.FileWriter;
 ```
 
-## Step 1: Create a Canvas Element and Draw Text
+## How to create PDF from canvas – Step‑by‑Step Guide
 
-### 1.1 Prepare the HTML and JavaScript (draw text on canvas)
+### Step 1: Create a Canvas Element and Draw Text
+
+#### 1.1 Prepare the HTML and JavaScript (draw text on canvas)
 Below is a Java string that contains a simple HTML page with a `<canvas>` element. The embedded JavaScript obtains the canvas context, sets a font, and draws the phrase **“Hello World”**.
 
 ```java
@@ -65,7 +67,7 @@ String code = "<canvas id='myCanvas' width='200' height='100' style='border:1px 
               "</script>\n";
 ```
 
-### 1.2 Save the HTML code to a file (html to pdf java)
+#### 1.2 Save the HTML code to a file (html to pdf java)
 We write the HTML string to `document.html`. This file will later be loaded by Aspose.HTML.
 
 ```java
@@ -74,14 +76,14 @@ try (FileWriter fileWriter = new FileWriter("document.html")) {
 }
 ```
 
-## Step 2: Initialize an HTML Document
+### Step 2: Initialize an HTML Document
 Load the HTML file into an `HTMLDocument` object so Aspose.HTML can process it.
 
 ```java
 HTMLDocument document = new HTMLDocument("document.html");
 ```
 
-## Step 3: Convert HTML (with Canvas) to PDF
+### Step 3: Convert HTML (with Canvas) to PDF
 Finally, use the `Converter` class to transform the HTML document into a PDF file. This step **saves canvas as PDF** and completes the “convert canvas to pdf” workflow.
 
 ```java
@@ -98,7 +100,7 @@ try {
 }
 ```
 
-### Expected Result
+#### Expected Result
 Running the program creates `output.pdf`. Opening the PDF shows the red “Hello World” text exactly as it appeared on the canvas in the original HTML page.
 
 ## Common Issues & Troubleshooting
@@ -124,13 +126,13 @@ A: Temporary licenses are provided for evaluation purposes via the link [here](h
 A: The full API reference is available [here](https://reference.aspose.com/html/java/).
 
 ## Conclusion
-You now have a complete, end‑to‑end solution for **converting canvas to PDF** using JavaScript and Aspose.HTML for Java. By drawing on the canvas, saving the HTML, and invoking the conversion API, you can generate high‑quality PDFs that capture any dynamic graphics you create on the web. Experiment with different shapes, colors, and even animations (captured as a series of frames) to broaden the possibilities for your Java‑backed web applications.
+You now have a complete, end‑to‑end solution for **creating PDF from canvas** using JavaScript and Aspose.HTML for Java. By drawing on the canvas, saving the HTML, and invoking the conversion API, you can generate high‑quality PDFs that capture any dynamic graphics you create on the web. Experiment with different shapes, colors, and even animations (captured as a series of frames) to broaden the possibilities for your Java‑backed web applications.
 
 If you run into any challenges or want to explore advanced features, feel free to visit the [Aspose.HTML forum](https://forum.aspose.com/) for community support.
 
 ---
 
-**Last Updated:** 2025-12-01  
+**Last Updated:** 2026-02-02  
 **Tested With:** Aspose.HTML for Java 24.11  
 **Author:** Aspose  
 
