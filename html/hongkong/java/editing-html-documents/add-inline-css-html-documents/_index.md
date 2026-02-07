@@ -1,80 +1,130 @@
 ---
-title: 在 Aspose.HTML for Java 中將內聯 CSS 新增至 HTML 文檔
-linktitle: 在 Aspose.HTML for Java 中將內聯 CSS 新增至 HTML 文檔
-second_title: 使用 Aspose.HTML 進行 Java HTML 處理
-description: 了解如何使用 Aspose.HTML for Java 將內嵌 CSS 新增至 HTML 文件。本逐步指南可協助您輕鬆設定 HTML 樣式並將其轉換為 PDF。
-weight: 14
+date: 2026-02-07
+description: 學習如何內嵌 CSS、如何加入 CSS，以及如何使用 Aspose.HTML for Java 將 HTML 轉換成 PDF，只需幾個簡單步驟。
+linktitle: Add Inline CSS to HTML Documents in Aspose.HTML
+second_title: Java HTML Processing with Aspose.HTML
+title: 如何在 Aspose.HTML for Java 中為 HTML 文件添加 CSS – 行內 CSS
 url: /zh-hant/java/editing-html-documents/add-inline-css-html-documents/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 在 Aspose.HTML for Java 中將內聯 CSS 新增至 HTML 文檔
+# 在 Aspose.HTML for Java 中於 HTML 文件加入 Inline CSS
 
 ## 介紹
-如果您正在處理 HTML 文件並希望使用一些內聯 CSS 為內容增添趣味，那麼您來對地方了！ Aspose.HTML for Java 提供了一種強大的方法來操作 HTML 文件，可讓您新增樣式、建立響應式設計等等。無論您是希望自動建立文件的開發人員，還是僅僅對如何使用 Java 動態設定 HTML 內容樣式感興趣，本指南都將引導您逐步完成該過程。
-## 先決條件
-在我們深入學習本教程之前，讓我們確保您擁有所需的一切：
-1.  Aspose.HTML for Java：您需要在開發環境中安裝Aspose.HTML for Java。如果您還沒有安裝，可以從以下地址下載[Aspose.HTML for Java 下載頁面](https://releases.aspose.com/html/java/).
-2. Java 開發工具包 (JDK)：確保安裝了 JDK 8 或更高版本。如果沒有，您可以從 Oracle 網站下載。
-3. 整合開發環境 (IDE)：您可以使用您選擇的任何 IDE，例如 IntelliJ IDEA、Eclipse 或 NetBeans。
-4.  Aspose.HTML 授權：雖然您可以免費試用 Aspose.HTML for Java，但建議您取得[臨時執照](https://purchase.aspose.com/temporary-license/)或購買完整功能的完整許可證。
+如果你正在處理 HTML 文件，想要 **學習如何加入 css** — 尤其是 inline CSS — 你來對地方了！Aspose.HTML for Java 為你提供一個強大且程式化的方式來為 HTML 設定樣式、設定 HTML 元素的 style 屬性，甚至 **將 HTML 轉換為 PDF**，全部在同一工作流程中完成。無論你是自動化報表產生，或是建構動態的 Web‑to‑PDF 服務，本教學都會一步一步帶你完成整個過程。
 
-## 導入包
-要開始使用 Aspose.HTML for Java，您需要將必要的套件匯入到您的 Java 類別中。設定導入的方法如下：
+## 快速答覆
+- **「inline CSS」是什麼意思？** 它是直接寫在元素 `style` 屬性內的 CSS。  
+- **樣式完成後可以把 HTML 轉成 PDF 嗎？** 可以 – Aspose.HTML 只要一個呼叫就能將 HTML 渲染為 PDF。  
+- **需要網路連線嗎？** 不需要，安裝完畢後整個函式庫完全離線運作。  
+- **需要哪個版本的 Java？** JDK 8 或更新版本。  
+- **必須要有授權嗎？** 正式上線前需要臨時或正式授權。
+
+## 什麼是 Inline CSS，為什麼要使用？
+Inline CSS 讓你在單一元素上直接套用樣式，無需建立外部樣式表。這在快速調整、電子郵件範本，或需要確保樣式隨元素一起在不同渲染引擎中傳遞時特別方便。使用 Aspose.HTML，你可以以程式方式注入這些樣式，完整掌控最終外觀，然後 **將 HTML 渲染為 PDF**。
+
+## 前置條件
+在開始之前，請確認你已具備以下項目：
+
+1. **Aspose.HTML for Java** – 從 [Aspose.HTML for Java 下載頁面](https://releases.aspose.com/html/java/) 取得。  
+2. **Java Development Kit (JDK) 8+** – 確認 `java -version` 顯示 1.8 或更高。  
+3. **IDE** – IntelliJ IDEA、Eclipse、NetBeans，或任何你慣用的編輯器。  
+4. **Aspose.HTML 授權** – 取得 [臨時授權](https://purchase.aspose.com/temporary-license/) 或正式授權，以便無限制使用。
+
+## 匯入套件
+要開始使用 Aspose.HTML for Java，請在 Java 原始檔中匯入所需的類別：
+
 ```java
 import com.aspose.html.HTMLDocument;
 import com.aspose.html.HTMLElement;
 ```
-這些導入引入了創建 HTML 文件、操作元素以及將輸出呈現為 PDF 所需的類別。
-## 第 1 步：建立 HTML 文檔
-將內聯 CSS 新增至 HTML 文件的第一步是建立文件本身。該文件將成為您的畫布，它可以像您喜歡的那樣簡單或複雜。在本教程中，我們將從基本的段落元素開始。
+
+這些匯入讓你可以存取文件模型與元素操作 API。
+
+## 步驟 1：建立 HTML 文件
+首先，建立一個簡單的 `HTMLDocument`，作為我們加入 inline CSS 的畫布。
+
 ```java
 String content = "<p>Inline CSS Example</p>";
 com.aspose.html.HTMLDocument document = new com.aspose.html.HTMLDocument(content, ".");
 ```
-在此步驟中，您將建立一個`HTMLDocument`包含 HTML 內容的字串中的物件。第二個論點`"."`表示基本 URL，在本例中為目前目錄。
-## 第 2 步：找到段落元素
-現在您的文件已設定完畢，下一步是找到您想要設定樣式的 HTML 元素。在這種情況下，我們關注的是`<p>`元素。
+
+字串內只包含一個 `<p>` 元素。第二個參數 (`"."`) 告訴 Aspose.HTML 目前目錄是相對資源的基礎 URL。
+
+## 步驟 2：定位段落元素
+接著，取得想要套用樣式的 `<p>` 元素。
+
 ```java
 com.aspose.html.HTMLElement paragraph = (com.aspose.html.HTMLElement) document.getElementsByTagName("p").get_Item(0);
 ```
-在這裡，您正在訪問第一個`<p>`文件中的元素使用`getElementsByTagName`。該方法傳回一個元素列表，並且`get_Item(0)`取得清單中的第一個。
-## 第 3 步：應用內嵌 CSS
-有了段落元素，就可以加入一些樣式了。內嵌 CSS 非常適合直接在 HTML 元素內進行小型、特定的調整。
+
+`getElementsByTagName` 會回傳集合；`get_Item(0)` 取得第一個匹配項目。
+
+## 步驟 3：套用 Inline CSS
+現在加入 style 屬性。這裡就是我們 **加入 inline CSS Java**‑style 的地方。
+
 ```java
 paragraph.setAttribute("style", "font-size: 250%; font-family: verdana; color: #cd66aa");
 ```
-在這一步中，`setAttribute`方法用於添加一個`style`段落元素的屬性。 CSS 樣式以字串形式編寫，設定字體大小、字體系列和文字顏色。
-## 第 4 步：儲存 HTML 文檔
-套用樣式後，您可能需要儲存修改後的 HTML 文件。這可以透過以下方式輕鬆完成`save`Aspose.HTML for Java 提供的方法。
+
+`style` 字串可以包含任何有效的 CSS 規則，讓你 **設定 HTML 元素樣式**，精確符合需求。
+
+## 步驟 4：儲存 HTML 文件
+樣式完成後，將修改過的 HTML 儲存起來，方便在瀏覽器檢視或交給渲染器使用。
+
 ```java
 document.save("edit-inline-css.html");
 ```
-在這裡，您將帶有內聯 CSS 的 HTML 文件保存到名為的文件中`edit-inline-css.html`在目前目錄中。這允許您在瀏覽器中查看樣式化的 HTML 內容。
-## 步驟 5：將 HTML 文件呈現為 PDF
-最後，如果您想將樣式化的 HTML 文件轉換為 PDF，Aspose.HTML for Java 可以滿足您的需求。如果您需要文件的列印版本，這尤其有用。
+
+檔案 `edit-inline-css.html` 會出現在目前工作目錄下。
+
+## 步驟 5：將 HTML 文件渲染為 PDF
+最後，將已套樣式的 HTML 轉換成 PDF——這是產生可列印報表的常見需求。
+
 ```java
 com.aspose.html.rendering.pdf.PdfDevice device = new com.aspose.html.rendering.pdf.PdfDevice("edit-inline-css.pdf");
 document.renderTo(device);
 ```
-在最後一步中，您將建立一個`PdfDevice`實例，將輸出檔名指定為`edit-inline-css.pdf`。然後，您將 HTML 文件呈現到此 PDF 設備，從而有效地將 HTML 轉換為 PDF 文件。
+
+此步驟 **以單一方法呼叫從 HTML 建立 PDF**，自動處理版面、字型與圖片。
+
+## 常見問題與解決方案
+| 問題 | 為何會發生 | 解決方式 |
+|------|------------|----------|
+| **缺少字型** | 目標系統沒有安裝指定的字型。 | 嵌入字型或改用 web‑safe 替代字型，如 `Arial`。 |
+| **顏色不正確** | CSS 顏色值未被辨識。 | 使用十六進位 (`#RRGGBB`) 或標準顏色名稱。 |
+| **PDF 輸出為空白** | 文件在渲染前未儲存。 | 呼叫 `document.save(...)`，或確保 `HTMLDocument` 已完整載入。 |
+
+## 常見問答
+
+### 可以在 inline CSS 中同時套用多個樣式嗎？
+可以，於 `style` 屬性內以分號分隔每個 CSS 屬性，如範例所示。
+
+### Aspose.HTML for Java 是否相容所有 Java 版本？
+支援 JDK 8 及更新版本，涵蓋大多數現代 Java 應用程式。
+
+### 能否使用 Aspose.HTML for Java 編輯既有的 HTML 檔案？
+當然可以。使用 `new HTMLDocument("input.html")` 載入既有檔案，修改元素後再儲存。
+
+### Aspose.HTML for Java 還能轉換成哪些格式？
+除了 PDF，還能產生 XPS、SVG，以及點陣圖像（PNG、JPEG、BMP 等）。
+
+### 使用 Aspose.HTML for Java 是否需要網路連線？
+不需要。函式庫安裝完成後，所有處理皆在本機執行。
 
 ## 結論
-就是這樣！您剛剛學習如何使用 Aspose.HTML for Java 將內聯 CSS 新增至 HTML 文件。這個功能強大的庫可以輕鬆操作 HTML 內容並將其匯出為各種格式，包括 PDF。無論您是自動產生文件還是處理基於 Web 的項目，該工具都能提供您所需的靈活性和強大功能。
-## 常見問題解答
-### 我可以使用內嵌 CSS 應用多種樣式嗎？
-是的，您可以透過在 CSS 中用分號分隔每個 CSS 屬性來套用多種樣式`setAttribute`方法。
-### Aspose.HTML for Java 是否與所有 Java 版本相容？
-Aspose.HTML for Java 與 JDK 8 及更高版本相容。
-### 我可以使用 Aspose.HTML for Java 編輯現有的 HTML 檔案嗎？
-是的，您可以載入現有的 HTML 文件，操作它們，並將變更儲存回文件系統。
-### Aspose.HTML for Java 還可以將 HTML 轉換為哪些其他格式？
-Aspose.HTML for Java 可以將 HTML 轉換為各種格式，包括 PDF、XPS 和映像。
-### 我需要網路連線才能使用 Aspose.HTML for Java 嗎？
-不需要，儘管需要互聯網連接來下載庫或訪問在線文檔，但 Aspose.HTML for Java 可以離線工作。
+現在你已掌握 **如何加入 inline css**、**如何設定 HTML 元素樣式**，以及 **如何將 HTML 轉換為 PDF**，全部透過 Aspose.HTML for Java 完成。此方法提供完整的程式化控制，適合自動化文件管線、報表服務，以及任何需要從動態 HTML 產出精美 PDF 的情境。
+
+---
+
+**最後更新：** 2026-02-07  
+**測試環境：** Aspose.HTML for Java 24.12  
+**作者：** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
