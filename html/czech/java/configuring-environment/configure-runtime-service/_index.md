@@ -1,5 +1,5 @@
 ---
-date: 2025-12-10
+date: 2026-02-10
 description: Naučte se, jak nastavit časový limit v Aspose.HTML pro Javu, nakonfigurujte
   Runtime Service pro převod HTML na PNG, zabránit nekonečným smyčkám a zvýšit výkon.
 linktitle: Configure Runtime Service in Aspose.HTML
@@ -16,22 +16,23 @@ weight: 14
 # Jak nastavit časový limit v Aspose.HTML pro Java Runtime Service
 
 ## Úvod
-Pokud hledáte **jak nastavit časový limit** pro skripty při práci s Aspose.HTML pro Java, jste na správném místě. Řízení provádění skriptů nejen zabraňuje nekonečným smyčkám, ale také vám pomáhá **převést html na png** rychleji a udržet vaši aplikaci responzivní. V tomto tutoriálu vás provedeme přesné kroky pro konfiguraci Runtime Service, omezení provádění skriptů a nakonec vytvoření PNG obrázku z HTML bez zablokování programu.
+Pokud hledáte **how to set timeout** pro skripty při práci s Aspose.HTML pro Java, jste na správném místě. Řízení provádění skriptů nejen zabraňuje nekonečným smyčkám, ale také vám pomáhá **convert html to png** rychleji a udržet vaši aplikaci responzivní. V tomto tutoriálu vás provedeme přesné kroky k nastavení Runtime Service, omezení provádění skriptů a nakonec vytvoření PNG obrázku z HTML bez zablokování programu.
+
+## Jak nastavit časový limit v Aspose.HTML Runtime Service
+Pochopení účelu Runtime Service usnadňuje pochopit, proč je časový limit nezbytný. Služba funguje jako sandbox pro kód na straně klienta a dává vám možnost zastavit neřízený JavaScript dříve, než spotřebuje všechny CPU cykly. Nastavením časového limitu chráníte svůj server před scénáři odmítnutí služby (DoS) a zajišťujete, že **html to png conversion** dokončí během předvídatelného času.
 
 ## Rychlé odpovědi
-- **Co Runtime Service dělá?** Umožňuje vám kontrolovat dobu provádění skriptů a spravovat zdroje při zpracování HTML.  
+- **Co dělá Runtime Service?** Umožňuje vám řídit dobu provádění skriptu a spravovat zdroje během zpracování HTML.  
 - **Jak nastavit časový limit pro JavaScript?** Použijte `runtimeService.setJavaScriptTimeout(TimeSpan.fromSeconds(...))`.  
 - **Mohu zabránit nekonečným smyčkám?** Ano – časový limit zastaví smyčky, které překročí definovaný limit.  
-- **Ovlivňuje to konverzi HTML‑na‑PNG?** Ne, konverze proběhne, jakmile skript skončí nebo bude ukončen časovým limitem.  
-- **Která verze Aspose.HTML je vyžadována?** Nejnovější vydání ze stránky ke stažení Aspose.
+- **Ovlivňuje to konverzi HTML‑to‑PNG?** Ne, konverze pokračuje, jakmile skript skončí nebo je ukončen časovým limitem.  
+- **Která verze Aspose.HTML je vyžadována?** Nejnovější vydání ze stránky ke stažení Aspose.  
 
 ## Požadavky
-Než se pustíme do detailů, ujistěte se, že máte následující:
-
-1. **Java Development Kit (JDK)** – nainstalujte jej z [webu Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).  
-2. **Aspose.HTML for Java Library** – stáhněte nejnovější build ze [stránky vydání Aspose](https://releases.aspose.com/html/java/).  
-3. **IDE** – IntelliJ IDEA, Eclipse nebo NetBeans budou fungovat bez problémů.  
-4. **Základní znalosti Java & HTML** – nezbytné pro pochopení ukázek kódu.
+1. **Java Development Kit (JDK)** – nainstalujte jej z [Oracle's website](https://www.oracle.com/java/technologies/javase-downloads.html).  
+2. **Aspose.HTML for Java Library** – stáhněte nejnovější build ze [Aspose releases page](https://releases.aspose.com/html/java/).  
+3. **IDE** – IntelliJ IDEA, Eclipse nebo NetBeans budou fungovat.  
+4. **Základní znalost Java a HTML** – nezbytná pro sledování ukázek kódu.
 
 ## Import balíčků
 Nejprve importujte třídy, které budete potřebovat. Import `java.io.IOException` je vyžadován pro práci se soubory.
@@ -41,7 +42,7 @@ import java.io.IOException;
 ```
 
 ## Krok 1: Vytvořte HTML soubor s JavaScript kódem
-Začneme vytvořením jednoduchého HTML souboru, který obsahuje JavaScriptovou smyčku. Tato smyčka by běžela věčně, pokud bychom neaplikovali časový limit, což z ní dělá ideální ukázku pro Runtime Service.
+Začneme generováním jednoduchého HTML souboru, který obsahuje JavaScriptovou smyčku. Tato smyčka by běžela věčně, pokud bychom neprosadili časový limit, což z ní dělá ideální ukázku pro Runtime Service.
 
 ```java
 String code = "<h1>Runtime Service</h1>\r\n" +
@@ -52,18 +53,18 @@ try (java.io.FileWriter fileWriter = new java.io.FileWriter("runtime-service.htm
 }
 ```
 
-- Skript `while(true) {}` představuje potenciální nekonečnou smyčku.  
-- `FileWriter` zapíše HTML obsah do **runtime-service.html**.
+- `while(true) {}` skript představuje potenciální nekonečnou smyčku.  
+- `FileWriter` zapisuje HTML obsah do **runtime-service.html**.
 
-## Krok 2: Nastavte konfigurační objekt
-Dále vytvořte instanci `Configuration`. Tento objekt je páteří všech služeb Aspose.HTML, včetně Runtime Service.
+## Krok 2: Nastavte objekt Configuration
+Dále vytvořte instanci `Configuration`. Tento objekt je páteří pro všechny služby Aspose.HTML, včetně Runtime Service.
 
 ```java
 com.aspose.html.Configuration configuration = new com.aspose.html.Configuration();
 ```
 
 ## Krok 3: Nakonfigurujte Runtime Service
-Zde skutečně **jak nastavit časový limit**. Získáním `IRuntimeService` z konfigurace můžeme definovat limit provádění JavaScriptu.
+Zde skutečně **how to set timeout**. Získáním `IRuntimeService` z konfigurace můžeme definovat limit provádění JavaScriptu.
 
 ```java
 try {
@@ -72,7 +73,7 @@ try {
 ```
 
 - `setJavaScriptTimeout` omezuje provádění skriptu na **5 sekund**, čímž efektivně **zabraňuje nekonečným smyčkám**.  
-- Toto také **omezuje provádění skriptu** pro jakýkoli těžký kód na straně klienta.
+- Tím také **omezuje provádění skriptu** pro jakýkoli náročný kód na straně klienta.
 
 ## Krok 4: Načtěte HTML dokument s konfigurací
 Nyní načtěte HTML soubor pomocí konfigurace, která obsahuje naše pravidlo časového limitu.
@@ -81,10 +82,10 @@ Nyní načtěte HTML soubor pomocí konfigurace, která obsahuje naše pravidlo 
     com.aspose.html.HTMLDocument document = new com.aspose.html.HTMLDocument("runtime-service.html", configuration);
 ```
 
-- Dokument respektuje dříve definovaný časový limit, takže nekonečná smyčka bude zastavena po **5 sekundách**.
+- Dokument respektuje dříve definovaný časový limit, takže nekonečná smyčka bude zastavena po 5 sekundách.
 
 ## Krok 5: Převést HTML na PNG
-S dokumentem bezpečně načteným můžeme **převést html na png**. Konverze proběhne pouze po dokončení skriptu nebo po jeho ukončení časovým limitem.
+S dokumentem bezpečně načteným můžeme **convert html to png**. Konverze proběhne až po dokončení skriptu nebo jeho ukončení časovým limitem.
 
 ```java
     com.aspose.html.converters.Converter.convertHTML(
@@ -97,8 +98,8 @@ S dokumentem bezpečně načteným můžeme **převést html na png**. Konverze 
 - `ImageSaveOptions` říká Aspose.HTML, aby výstupem byl PNG obrázek.  
 - Výsledný soubor, **runtime-service_out.png**, zobrazuje vykreslené HTML bez zablokování.
 
-## Krok 6: Vyčistěte prostředky
-Nakonec uvolněte objekty, aby se **uvolnila paměť** a předešlo se únikům.
+## Krok 6: Vyčistěte zdroje
+Nakonec uvolněte objekty, aby se uvolnila paměť a předešlo se únikům.
 
 ```java
 } finally {
@@ -113,31 +114,36 @@ Nakonec uvolněte objekty, aby se **uvolnila paměť** a předešlo se únikům.
 
 - Správné uvolnění je nezbytné pro dlouhodobě běžící aplikace.
 
-## Závěr
-Právě jste se naučili **jak nastavit časový limit** pro provádění JavaScriptu v Aspose.HTML pro Java, jak **zabránit nekonečným smyčkám** a jak **bezpečně převést html na png**. Konfigurací Runtime Service získáte jemnou kontrolu nad chováním skriptů, což se projeví rychlejším startem a spolehlivějšími konverzemi. Experimentujte s různými hodnotami časového limitu podle vašich konkrétních úloh a všimnete si výrazného nárůstu výkonu.
+## Proč je to důležité
+Nastavení časového limitu není jen bezpečnostní síť; přímo zvyšuje spolehlivost **html to png conversion** pipeline. Když integrujete Aspose.HTML do webové služby, která zpracovává uživatelsky generované HTML, škodlivý skript by jinak mohl zamknout vlákno na neurčito. Umírněný časový limit (např. 5 sekund) poskytne legitimním skriptům dostatek času k běhu a zároveň odřízne zneužívající chování.
+
+## Časté úskalí a řešení problémů
+- **Časový limit je příliš krátký** – Složité stránky s mnoha zdroji mohou vyžadovat delší limit. Zvyšte hodnotu `TimeSpan`, pokud vidíte předčasné ukončení.  
+- **Chybějící uvolnění** – Zapomenutí zavolat `dispose()` může vést k únikům nativní paměti, zejména při zpracování mnoha dokumentů ve smyčce.  
+- **Nesprávný objekt konfigurace** – Vždy získávejte `IRuntimeService` ze stejné instance `Configuration`, kterou používáte k načtení dokumentu; jinak se časový limit nepoužije.
 
 ## Často kladené otázky
 
-**Q: Jaký je účel Runtime Service v Aspose.HTML pro Java?**  
-A: Umožňuje vám kontrolovat dobu provádění skriptů, pomáhá **zabránit nekonečným smyčkám** a udržovat konverze responzivní.
+**Q: What is the purpose of the Runtime Service in Aspose.HTML for Java?**  
+A: Umožňuje vám řídit dobu provádění skriptu, pomáhá **prevent infinite loops** a udržuje konverze responzivní.
 
-**Q: Jak mohu stáhnout Aspose.HTML pro Java?**  
-A: Získejte nejnovější verzi ze [stránky vydání](https://releases.aspose.com/html/java/).
+**Q: How can I download Aspose.HTML for Java?**  
+A: Získejte nejnovější verzi z [releases page](https://releases.aspose.com/html/java/).
 
-**Q: Je nutné uvolnit objekty `document` a `configuration`?**  
+**Q: Is it necessary to dispose of the `document` and `configuration` objects?**  
 A: Ano, uvolnění uvolní nativní zdroje a předchází únikům paměti.
 
-**Q: Mohu nastavit časový limit JavaScriptu na jinou hodnotu než 5 sekund?**  
+**Q: Can I set the JavaScript timeout to a value other than 5 seconds?**  
 A: Rozhodně – změňte argument `TimeSpan.fromSeconds()` na libovolný limit, který vyhovuje vašemu scénáři.
 
-**Q: Kde mohu najít pomoc, pokud narazím na problémy?**  
-A: Navštivte [forum Aspose.HTML](https://forum.aspose.com/c/html/29) pro komunitní a technickou podporu.
+**Q: Where can I find help if I run into issues?**  
+A: Navštivte [Aspose.HTML forum](https://forum.aspose.com/c/html/29) pro komunitní a personální podporu.
 
 ---
 
-**Poslední aktualizace:** 2025-12-10  
-**Testováno s:** Aspose.HTML for Java 24.11 (latest)  
-**Autor:** Aspose  
+**Last Updated:** 2026-02-10  
+**Tested With:** Aspose.HTML for Java 24.11 (latest)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
