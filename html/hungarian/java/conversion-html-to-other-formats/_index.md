@@ -83,20 +83,34 @@ Alakítsa át az SVG grafikákat XPS formátumba a készülékek közötti konzi
 ## Átalakítás - HTML más formátumokra oktatóanyagok
 ### [HTML átalakítása PDF-re](./convert-html-to-pdf/)
 Ismerje meg, hogyan konvertálhatja a HTML‑t PDF‑re Java‑ban az Aspose.HTML használatával. Készítsen magas minőségű PDF‑eket HTML tartalmából könnyedén.
+
 ### [HTML átalakítása PDF-re – Lépésről‑lépésre útmutató oldalméret beállításokkal](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Ismerje meg, hogyan konvertálhatja a HTML‑t PDF‑re Java‑ban részletesen, oldalméret beállításokkal.
+
+### [HTML‑ből PDF létrehozása Java‑ban – Teljes lépésről‑lépésre útmutató](./create-pdf-from-html-in-java-complete-step-by-step-guide/)
+Ismerje meg, hogyan hozhat létre PDF fájlokat HTML‑ből Java‑ban részletes, minden lépést bemutató útmutatóval.
+
 ### [HTML átalakítása MHTML-re](./convert-html-to-mhtml/)
 Könnyedén konvertálja a HTML‑t MHTML‑re az Aspose.HTML for Java segítségével. Kövesse lépésről‑lépésre útmutatónkat a hatékony HTML‑MHTML átalakításhoz.
+
 ### [HTML átalakítása XPS-re](./convert-html-to-xps/)
 Ismerje meg, hogyan konvertálhatja könnyedén a HTML‑t XPS‑re az Aspose.HTML for Java használatával. Készítsen többplatformos dokumentumokat egyszerűen.
+
 ### [Markdown átalakítása HTML-re](./convert-markdown-to-html/)
 Konvertálja a Markdown‑t HTML‑re Java‑ban zökkenőmentesen az Aspose.HTML for Java segítségével. Kövesse lépésről‑lépésre útmutatónkat, hogy egyszerűsítse dokumentumkonverziós igényeit.
+
 ### [SVG átalakítása képre](./convert-svg-to-image/)
 Ismerje meg, hogyan konvertálhatja az SVG‑t képekké Java‑ban az Aspose.HTML‑el. Átfogó útmutató a magas minőségű kimenethez.
+
 ### [SVG átalakítása PDF-re](./convert-svg-to-pdf/)
 Konvertálja az SVG‑t PDF‑re Java‑ban az Aspose.HTML‑el. Zökkenőmentes megoldás a magas minőségű dokumentumkonverzióhoz.
+
 ### [SVG átalakítása XPS-re](./convert-svg-to-xps/)
 Ismerje meg, hogyan konvertálhatja az SVG‑t XPS‑re az Aspose.HTML for Java segítségével. Egyszerű, lépésről‑lépésre útmutató a zökkenőmentes átalakításokhoz.
+
+### [PDF oldalméret beállítása Aspose HTML‑lel – Teljes Java útmutató](./set-pdf-page-size-with-aspose-html-full-java-guide/)
+
+### [HTML offset beállítása Markdown konvertálásakor Java‑ban](./how-to-set-offset-when-converting-html-to-markdown-in-java/)
 
 ## Gyakran Ismételt Kérdések
 

@@ -26,6 +26,10 @@ Először is beszéljünk arról, mik azok a memóriafolyamok. Képzeljen el egy
 ## Adatkezelés és adatfolyam-kezelés az Aspose.HTML for Java oktatóanyagban
 ### [Konvertálja a memóriafolyamot fájllá az Aspose.HTML for Java segítségével](./memory-stream-to-file/)
 Konvertálja a HTML-t JPEG-be az Aspose.HTML for Java segítségével memóriafolyamok segítségével. Kövesse ezt a lépésről lépésre szóló útmutatót a zökkenőmentes HTML-kép konvertáláshoz.
+
+### [Java fix szálkészlet: Képek számlálása párhuzamos fájlokban](./java-fixed-thread-pool-count-images-in-parallel-files/)
+Használja a Java fix szálkészletet képek párhuzamos feldolgozásához és számlálásához több fájlban.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

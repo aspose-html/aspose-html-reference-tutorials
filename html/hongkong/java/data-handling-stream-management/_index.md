@@ -26,6 +26,10 @@ url: /zh-hant/java/data-handling-stream-management/
 ## Aspose.HTML for Java 教程中的資料處理與流管理
 ### [使用 Aspose.HTML for Java 將記憶體流轉換為文件](./memory-stream-to-file/)
 使用記憶體流透過 Aspose.HTML for Java 將 HTML 轉換為 JPEG。請按照此逐步指南進行 HTML 到圖像的無縫轉換。
+
+### [使用 Java 固定執行緒池在平行檔案中計算圖像數量](./java-fixed-thread-pool-count-images-in-parallel-files/)
+示範如何使用 Java 固定執行緒池，同時處理多個檔案以統計其中的圖像數量。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
