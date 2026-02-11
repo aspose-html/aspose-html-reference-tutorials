@@ -39,7 +39,16 @@ Lassen Sie uns nun Ihre Fähigkeiten auf die nächste Ebene bringen. Das Bearbei
 ### [HTML in C# speichern – Vollständige Anleitung mit benutzerdefiniertem Ressourcen-Handler](./how-to-save-html-in-c-complete-guide-using-a-custom-resource/)
 
 Erfahren Sie, wie Sie HTML in C# mit einem benutzerdefinierten Ressourcen-Handler speichern können.
+
 ### [Überschrift mit CSS & C# fett formatieren – Komplett‑Schritt‑für‑Schritt‑Anleitung](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
+
+### [HTML mit Aspose.HTML speichern – Vollständige C#‑Anleitung](./how-to-save-html-with-aspose-html-complete-c-guide/)
+
+Erfahren Sie, wie Sie HTML mit Aspose.HTML in C# vollständig speichern können.
+
+### [HTML in C# zippen – Vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-zip-html-in-c-complete-step-by-step-guide/)
+
+Erfahren Sie, wie Sie HTML-Dateien in C# zu einer ZIP-Datei komprimieren können.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

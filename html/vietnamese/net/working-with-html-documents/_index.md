@@ -26,21 +26,24 @@ Trước khi đi sâu vào chi tiết về việc tạo và chỉnh sửa tài l
 
 ### [Tạo một tài liệu trong .NET với Aspose.HTML](./creating-a-document/)
 
-Bước đầu tiên trong hành trình của chúng tôi là học cách tạo tài liệu HTML từ đầu hoặc từ URL bằng Aspose.HTML. Chúng tôi sẽ hướng dẫn bạn trong suốt quá trình, đảm bảo rằng ngay cả người mới bắt đầu cũng có thể làm theo. Đến cuối phần này, bạn sẽ có kỹ năng tạo tài liệu HTML một cách dễ dàng.
-
 ### [Tạo một tài liệu đơn giản trong .NET với Aspose.HTML](./creating-a-simple-document/)
-
-Sau khi nắm được những điều cơ bản, chúng ta sẽ đi sâu hơn vào quá trình tạo. Trong phần này, bạn sẽ học cách tạo tài liệu HTML đơn giản bằng Aspose.HTML và chúng ta sẽ khám phá nhiều tính năng khác nhau cho phép thao tác dễ dàng. Cho dù bạn đang xây dựng trang web, tạo nội dung hay chuyển đổi dữ liệu sang HTML, hướng dẫn này sẽ trang bị cho bạn kiến thức cần thiết.
 
 ### [Chỉnh sửa tài liệu trong .NET với Aspose.HTML](./editing-a-document/)
 
-Bây giờ, hãy đưa kỹ năng của bạn lên một tầm cao mới. Chỉnh sửa tài liệu HTML là một nhiệm vụ phổ biến đối với các nhà phát triển web và Aspose.HTML đơn giản hóa đáng kể quy trình này. Trong phần này, chúng tôi sẽ đề cập đến việc tạo, thao tác và định dạng tài liệu. Bạn sẽ khám phá cách nâng cao giao diện và chức năng của nội dung web, khiến nội dung đó hấp dẫn và thân thiện với người dùng.
-
 ### [Cách lưu HTML trong C# – Hướng dẫn đầy đủ sử dụng Trình xử lý tài nguyên tùy chỉnh](./how-to-save-html-in-c-complete-guide-using-a-custom-resource/)
+
+### [Cách lưu HTML với Aspose.Html – Hướng dẫn C# đầy đủ](./how-to-save-html-with-aspose-html-complete-c-guide/)
+
+Hướng dẫn chi tiết cách lưu tài liệu HTML bằng Aspose.Html trong C#, bao gồm các bước và ví dụ thực tế.
 
 ### [Cách làm tiêu đề đậm bằng CSS & C# – Hướng dẫn chi tiết từng bước](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
 
 Hướng dẫn chi tiết cách sử dụng CSS và C# để làm tiêu đề in đậm, kèm ví dụ mã và các bước thực hiện cụ thể.
+
+### [Cách zip HTML trong C# – Hướng dẫn chi tiết từng bước](./how-to-zip-html-in-c-complete-step-by-step-guide/)
+
+Hướng dẫn chi tiết cách nén tài liệu HTML trong C# bằng Aspose.HTML, bao gồm các bước và ví dụ thực tế.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
