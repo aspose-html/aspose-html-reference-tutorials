@@ -98,6 +98,8 @@ Konvertera SVG till PDF i Java med Aspose.HTML. En sömlös lösning för högkv
 Lär dig hur du konverterar SVG till XPS med Aspose.HTML for Java. Enkel, steg‑för‑steg‑guide för smidiga konverteringar.
 ### [Konvertera HTML till PDF i Java – Steg‑för‑steg‑guide med sidstorleksinställningar](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Lär dig konvertera HTML till PDF i Java med detaljerade steg och anpassa sidstorlek för optimal utskrift.
+### [Konvertera HTML till PDF i Java – Komplett guide med inbäddning av teckensnitt](./convert-html-to-pdf-in-java-complete-guide-with-font-embeddi/)
+Lär dig hur du konverterar HTML till PDF i Java med fullständig guide och inbäddning av teckensnitt för korrekt rendering.
 
 ## Vanliga frågor
 

@@ -54,6 +54,8 @@ Learn how to load, manipulate, and save HTML documents using Aspose.HTML for Jav
 Learn how to load HTML documents from streams using Aspose.HTML for Java. This guide provides a step-by-step tutorial for seamless HTML manipulation.
 ### [Create HTML Documents from String in Aspose.HTML for Java](./create-html-documents-from-string/)
 Learn how to create HTML documents from strings in Aspose.HTML for Java with this step-by-step guide.
+### [Create HTML Document with Java – Fetch JSON and Generate Content](./create-html-document-with-java-fetch-json-and-generate-conte/)
+Learn how to fetch JSON in Java and generate HTML content using Aspose.HTML with this step-by-step guide.
 ### [How to Query HTML in Java – Complete Tutorial](./how-to-query-html-in-java-complete-tutorial/)
 Learn how to query HTML in Java using Aspose.HTML with this comprehensive step-by-step guide.
 ### [Create sandbox for HTML in Java – Step‑by‑Step Guide](./create-sandbox-for-html-in-java-step-by-step-guide/)
