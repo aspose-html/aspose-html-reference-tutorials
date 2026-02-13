@@ -113,6 +113,7 @@ O: Nie. Jedna licencja Aspose.HTML dla Javy obejmuje wszystkie formaty wyjściow
 
 ## Zaawansowane tutoriale Aspose.HTML Java
 
+
 ### [Dostosuj marginesy stron HTML przy użyciu Aspose.HTML](./css-extensions-adding-title-page-number/)
 Dowiedz się, jak dostosować marginesy stron, dodać numery stron i tytuły do dokumentów HTML przy użyciu Aspose.HTML dla Javy.
 ### [Obserwator mutacji DOM z Aspose.HTML dla Javy](./dom-mutation-observer-observing-node-additions/)
@@ -161,6 +162,23 @@ Dowiedz się, jak wyodrębnić kod HTML z plików MHTML przy użyciu Aspose.HTML
 {{< blocks/products/products-backtop-button >}}
 ### [Wykonaj JavaScript w Javie – Kompletny przewodnik po uruchamianiu JS z Java](./execute-javascript-in-java-complete-guide-to-running-js-from/)
 Dowiedz się, jak uruchamiać kod JavaScript z poziomu aplikacji Java przy użyciu Aspose.HTML, w pełnym przewodniku krok po kroku.
+
+---
+
+**Ostatnia aktualizacja:** 2025-11-29  
+**Testowano z:** Aspose.HTML dla Javy 24.11  
+**Autor:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Jak korzystać z Sandbox w konwersji HTML do PDF w Javie – Przewodnik krok po kroku](./how-to-use-sandbox-for-html-to-pdf-java-step-by-step-guide/)
+Poznaj, jak używać środowiska Sandbox Aspose.HTML w Javie do bezpiecznej konwersji HTML na PDF, krok po kroku.
+### [Włącz wykonywanie skryptów w Javie – Kompletny przewodnik Aspose.HTML](./enable-script-execution-in-java-complete-aspose-html-guide/)
+Dowiedz się, jak włączyć i konfigurować wykonywanie JavaScript w aplikacjach Java przy użyciu Aspose.HTML, krok po kroku.
 
 ---
 

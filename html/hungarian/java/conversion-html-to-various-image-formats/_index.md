@@ -88,6 +88,7 @@ Az Aspose.HTML for Java leegyszerűsíti a HTML dokumentumok különböző képf
 - **Hiányzó betűtípusok** – Telepítse a szükséges betűtípusokat a szerveren, vagy ágyazza be őket a HTML‑be `@font-face` segítségével.  
 
 ## Átalakítás – HTML különböző képfájl formátumokba – Oktatóanyagok
+
 ### [HTML átalakítása BMP‑be](./convert-html-to-bmp/)
 HTML átalakítása BMP‑be az Aspose.HTML for Java segítségével. Átfogó oktatóanyag a HTML dokumentumok zökkenőmentes BMP képekké konvertálásához.
 ### [HTML átalakítása GIF‑be](./convert-html-to-gif/)
@@ -108,6 +109,7 @@ Ismerje meg, hogyan hozhat létre PNG képet SVG fájlból Java‑ban az Aspose.
 Ismerje meg, hogyan állíthatja be a DPI értéket HTML‑t PNG‑be konvertáláskor az Aspose.HTML for Java segítségével.
 ### [Magas DPI renderelés Java‑ban – Weboldal képernyőképek készítése egyedi felhasználói ügynökkel](./high-dpi-rendering-in-java-capture-webpage-screenshots-with/)
 Ismerje meg, hogyan állíthat be magas DPI értéket és egyedi User Agent-et a weboldalak képernyőképeinek rögzítéséhez Java‑ban az Aspose.HTML segítségével.
+### [HTML konvertálása PNG‑be a maximális memóriahasználat beállításával Java‑ban](./convert-html-to-png-with-set-max-memory-usage-in-java/)
 ## Gyakran ismételt kérdések
 
 **Q: Konvertálhatok HTML‑t PNG‑be Java‑val anélkül, hogy további képkönyvtárakat használnék?**  

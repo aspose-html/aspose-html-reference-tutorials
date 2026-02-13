@@ -88,6 +88,7 @@ weight: 24
 
 ## การแปลง - บทช่วยสอนการแปลง HTML เป็นรูปแบบภาพต่างๆ
 
+
 ### [การแปลง HTML เป็น BMP](./convert-html-to-bmp/)
 แปลง HTML เป็น BMP ด้วย Aspose.HTML สำหรับ Java บทช่วยสอนที่ครอบคลุมสำหรับการแปลงเอกสาร HTML เป็นภาพ BMP อย่างราบรื่นโดยใช้ Aspose.HTML สำหรับ Java
 ### [การแปลง HTML เป็น GIF](./convert-html-to-gif/)
@@ -105,6 +106,7 @@ weight: 24
 เรียนรู้วิธีการเรนเดอร์หน้าเว็บด้วยความละเอียด DPI สูงใน Java พร้อมกำหนด User Agent เองเพื่อจับภาพหน้าจอเว็บ
 ### [วิธีตั้งค่า DPI เมื่อแปลง HTML เป็น PNG – คู่มือฉบับสมบูรณ์](./how-to-set-dpi-when-converting-html-to-png-complete-guide/)
 ### [สร้าง PNG จาก HTML – การแปลงแบบแบตช์เร็วโดยใช้ Thread Pool](./create-png-from-html-fast-batch-conversion-using-a-thread-po/)
+### [การแปลง HTML เป็น PNG พร้อมตั้งค่าการใช้หน่วยความจำสูงสุดใน Java](./convert-html-to-png-with-set-max-memory-usage-in-java/)
 ## คำถามที่พบบ่อย
 
 **Q: ฉันสามารถแปลง HTML เป็น PNG ด้วย Java โดยไม่ต้องใช้ไลบรารีภาพเพิ่มเติมได้หรือไม่?**  

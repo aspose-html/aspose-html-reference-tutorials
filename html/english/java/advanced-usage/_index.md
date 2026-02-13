@@ -111,6 +111,7 @@ A: No. A single Aspose.HTML for Java license covers all output formats, includin
 
 ## Advanced Usage of Aspose.HTML Java Tutorials
 
+
 ### [Customize HTML Page Margins with Aspose.HTML](./css-extensions-adding-title-page-number/)
 Learn how to customize page margins, add page numbers, and titles to HTML documents using Aspose.HTML for Java.
 ### [DOM Mutation Observer with Aspose.HTML for Java](./dom-mutation-observer-observing-node-additions/)
@@ -146,6 +147,23 @@ Learn how to set the device pixel ratio in Java using Aspose.HTML's mobile sandb
 {{< blocks/products/products-backtop-button >}}
 ### [Execute JavaScript in Java – Complete Guide to Running JS from Java](./execute-javascript-in-java-complete-guide-to-running-js-from/)
 Learn how to run JavaScript from Java using Aspose.HTML, covering script evaluation, engine setup, and practical integration examples.
+
+---
+
+**Last Updated:** 2025-11-29  
+**Tested With:** Aspose.HTML for Java 24.11  
+**Author:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [How to Use Sandbox for HTML to PDF Java – Step‑by‑Step Guide](./how-to-use-sandbox-for-html-to-pdf-java-step-by-step-guide/)
+Step‑by‑step guide on using the Aspose.HTML sandbox to convert HTML to PDF in Java, covering setup, execution, and best practices.
+### [Enable Script Execution in Java – Complete Aspose.HTML Guide](./enable-script-execution-in-java-complete-aspose-html-guide/)
+Learn how to enable JavaScript execution in Java using Aspose.HTML, covering setup, security, and practical examples.
 
 ---
 

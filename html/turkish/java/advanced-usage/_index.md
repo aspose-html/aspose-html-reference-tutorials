@@ -113,6 +113,7 @@ C: Hayır. Tek bir Aspose.HTML for Java lisansı, PDF ve XPS dahil tüm çıktı
 
 ## Aspose.HTML Java Eğitimlerinin İleri Düzey Kullanımı
 
+
 ### [Aspose.HTML ile HTML Sayfa Kenar Boşluklarını Özelleştirme](./css-extensions-adding-title-page-number/)
 Aspose.HTML for Java kullanarak HTML belgelerine sayfa kenar boşlukları, sayfa numaraları ve başlıklar eklemeyi öğrenin.
 ### [Aspose.HTML for Java ile DOM Mutation Observer](./dom-mutation-observer-observing-node-additions/)
@@ -161,6 +162,23 @@ Aspose.HTML for Java kullanarak MHTML dosyalarından HTML içeriğini nasıl ç�
 {{< blocks/products/products-backtop-button >}}
 ### [Java'da JavaScript Çalıştırma – Java'dan JS Çalıştırma Tam Rehberi](./execute-javascript-in-java-complete-guide-to-running-js-from/)
 Aspose.HTML for Java ile Java uygulamalarında JavaScript çalıştırmayı ve entegrasyonu adım adım öğrenin.
+
+---
+
+**Son Güncelleme:** 2025-11-29  
+**Test Edilen Versiyon:** Aspose.HTML for Java 24.11  
+**Yazar:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [HTML'den PDF'ye Java Sandbox Kullanımı – Adım Adım Kılavuz](./how-to-use-sandbox-for-html-to-pdf-java-step-by-step-guide/)
+Aspose.HTML for Java Sandbox ortamını kullanarak HTML dosyalarını güvenli bir şekilde PDF'ye dönüştürmeyi öğrenin.
+### [Java’da Betik Çalıştırmayı Etkinleştirme – Tam Aspose.HTML Rehberi](./enable-script-execution-in-java-complete-aspose-html-guide/)
+Aspose.HTML for Java kullanarak Java ortamında betik yürütmeyi nasıl etkinleştireceğinizi ve güvenli bir şekilde çalıştıracağınızı öğrenin.
 
 ---
 

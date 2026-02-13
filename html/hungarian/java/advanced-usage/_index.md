@@ -113,6 +113,7 @@ A: Nem. Egyetlen Aspose.HTML for Java licenc lefedi az összes kimeneti formátu
 
 ## Haladó Aspose.HTML Java oktatóanyagok
 
+
 ### [HTML oldal margók testreszabása Aspose.HTML‑vel](./css-extensions-adding-title-page-number/)
 Ismerje meg, hogyan testreszabhatja az oldal margókat, adhat hozzá oldalszámokat és címeket HTML dokumentumokhoz az Aspose.HTML for Java használatával.
 ### [DOM Mutation Observer Aspose.HTML for Java‑val](./dom-mutation-observer-observing-node-additions/)
@@ -160,6 +161,23 @@ Ismerje meg, hogyan nyerhet ki HTML‑t MHTML fájlokból Java‑val az Aspose.H
 {{< blocks/products/products-backtop-button >}}
 ### [Java-ban JavaScript végrehajtása – Teljes útmutató a Java-ból történő JS futtatáshoz](./execute-javascript-in-java-complete-guide-to-running-js-from/)
 Tanulja meg, hogyan hívhat meg és futtathat JavaScript kódot közvetlenül Java alkalmazásból az Aspose.HTML for Java segítségével.
+
+---
+
+**Legutóbb frissítve:** 2025-11-29  
+**Tesztelve a következővel:** Aspose.HTML for Java 24.11  
+**Szerző:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Java-ban a szkript végrehajtás engedélyezése – Teljes Aspose.HTML útmutató](./enable-script-execution-in-java-complete-aspose-html-guide/)
+Ismerje meg, hogyan engedélyezheti a Java-ban a JavaScript futtatását az Aspose.HTML segítségével, és használja ki a teljes funkcionalitást.
+### [Hogyan használja a Sandbox-ot HTML‑ről PDF‑re Java‑ban – Lépésről‑lépésre útmutató](./how-to-use-sandbox-for-html-to-pdf-java-step-by-step-guide/)
+Ismerje meg, hogyan használhatja a Sandbox‑ot HTML‑ből PDF‑re konvertáláshoz Java‑ban, részletes lépésről‑lépésre útmutatóval.
 
 ---
 

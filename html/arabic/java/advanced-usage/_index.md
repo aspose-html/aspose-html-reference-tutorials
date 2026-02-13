@@ -132,6 +132,11 @@ weight: 20
 
 ### [تنفيذ JavaScript في Java – دليل كامل لتشغيل JS من Java](./execute-javascript-in-java-complete-guide-to-running-js-from/)
 
+### [كيفية استخدام Sandbox لتحويل HTML إلى PDF في Java – دليل خطوة بخطوة](./how-to-use-sandbox-for-html-to-pdf-java-step-by-step-guide/)
+
+### [تمكين تنفيذ السكريبت في Java – دليل شامل Aspose.HTML](./enable-script-execution-in-java-complete-aspose-html-guide/)
+تعلم كيفية تمكين تشغيل JavaScript في تطبيقات Java باستخدام Aspose.HTML – دليل خطوة بخطوة.
+
 ---
 
 **آخر تحديث:** 2025-11-29  

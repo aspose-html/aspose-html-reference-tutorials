@@ -43,6 +43,7 @@ Pour générer de nouveaux documents HTML, Aspose.HTML pour Java offre une solut
 
 ## Création et gestion de documents HTML dans Aspose. Tutoriels HTML pour Java
 
+
 ### [Créer des documents HTML de manière asynchrone dans Aspose.HTML pour Java](./create-html-documents-async/)
 Maîtrisez la création de documents HTML de manière asynchrone avec Aspose.HTML pour Java. Guide étape par étape, conseils et FAQ inclus pour un apprentissage rapide.
 ### [Créer des documents HTML vides dans Aspose.HTML pour Java](./create-empty-html-documents/)
@@ -82,6 +83,17 @@ Apprenez à exécuter du JavaScript de façon asynchrone dans vos applications J
 {{< blocks/products/products-backtop-button >}}
 ### [Itérer NodeList Java – Lire le HTML et obtenir le src de l'image](./iterate-nodelist-java-read-html-get-image-src/)
 Apprenez à parcourir un NodeList en Java pour lire le HTML et extraire les attributs src des images.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Itérer sur NodeList en Java – Guide complet](./iterate-over-nodelist-java-complete-guide/)
+Apprenez à parcourir un NodeList en Java avec Aspose.HTML grâce à ce guide complet étape par étape.
+### [Extraire du texte à partir de HTML avec Java – Guide complet étape par étape](./extract-text-from-html-with-java-complete-step-by-step-guide/)
+Apprenez à extraire du texte d'un document HTML en Java avec Aspose.HTML grâce à ce guide complet étape par étape.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -132,6 +132,11 @@ A: 不需要。單一的 Aspose.HTML for Java 授權即涵蓋所有輸出格式�
 
 ### [在 Java 中執行 JavaScript – 完整指南](./execute-javascript-in-java-complete-guide-to-running-js-from/)
 
+### [使用 Aspose.HTML 沙盒將 HTML 轉為 PDF（Java） – 步驟指南](./how-to-use-sandbox-for-html-to-pdf-java-step-by-step-guide/)
+本教學說明在 Java 環境下使用 Aspose.HTML 沙盒功能，將 HTML 轉換為 PDF 的完整步驟與注意事項。
+
+### [在 Java 中啟用腳本執行 – 完整 Aspose.HTML 指南](./enable-script-execution-in-java-complete-aspose-html-guide/)
+
 ---
 
 **最後更新日期：** 2025-11-29  

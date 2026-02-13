@@ -113,6 +113,7 @@ Aspose.HTML позволяет прикрепить `DomMutationObserver` к л�
 
 ## Расширенные руководства по Aspose.HTML Java
 
+
 ### [Настройка полей HTML‑страницы с Aspose.HTML](./css-extensions-adding-title-page-number/)
 Узнайте, как настраивать поля страницы, добавлять номера страниц и заголовки в HTML‑документы с помощью Aspose.HTML for Java.
 ### [Наблюдатель изменений DOM с Aspose.HTML for Java](./dom-mutation-observer-observing-node-additions/)
@@ -161,6 +162,22 @@ Aspose.HTML позволяет прикрепить `DomMutationObserver` к л�
 {{< blocks/products/products-backtop-button >}}
 ### [Выполнение JavaScript в Java – Полное руководство по запуску JS из Java](./execute-javascript-in-java-complete-guide-to-running-js-from/)
 Узнайте, как выполнять JavaScript из Java с помощью Aspose.HTML for Java, включая настройку среды и примеры кода.
+
+---
+
+**Последнее обновление:** 2025-11-29  
+**Тестировано с:** Aspose.HTML for Java 24.11  
+**Автор:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Как использовать Sandbox для конвертации HTML в PDF Java – пошаговое руководство](./how-to-use-sandbox-for-html-to-pdf-java-step-by-step-guide/)
+Подробное руководство по использованию Sandbox в Aspose.HTML for Java для безопасного преобразования HTML в PDF.
+### [Включение выполнения скриптов в Java – Полное руководство Aspose.HTML](./enable-script-execution-in-java-complete-aspose-html-guide/)
 
 ---
 

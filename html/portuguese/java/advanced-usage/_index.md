@@ -134,6 +134,12 @@ Aprenda a definir a proporção de pixels do dispositivo em Java usando o Sandbo
 ### [Executar JavaScript em Java – Guia Completo para Executar JS a partir de Java](./execute-javascript-in-java-complete-guide-to-running-js-from/)
 Aprenda a executar scripts JavaScript a partir de código Java usando Aspose.HTML for Java, incluindo exemplos e melhores práticas.
 
+### [Habilitar Execução de Script em Java – Guia Completo do Aspose.HTML](./enable-script-execution-in-java-complete-aspose-html-guide/)
+Aprenda a habilitar a execução de scripts JavaScript ao converter HTML para PDF usando Aspose.HTML for Java.
+
+### [Como Usar o Sandbox para HTML para PDF Java – Guia Passo a Passo](./how-to-use-sandbox-for-html-to-pdf-java-step-by-step-guide/)
+Aprenda a usar o Sandbox do Aspose.HTML para converter HTML em PDF com Java, passo a passo, incluindo configuração e melhores práticas.
+
 ---
 
 **Última atualização:** 2025-11-29  

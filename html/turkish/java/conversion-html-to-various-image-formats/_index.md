@@ -88,6 +88,7 @@ Aspose.HTML for Java, HTML belgelerini çeşitli görüntü formatlarına dönü
 - **Eksik fontlar** – Sunucuda gerekli fontları kurun veya `@font-face` ile HTML içine gömün.  
 
 ## Dönüşüm - HTML'den Çeşitli Görüntü Formatlarına Eğitimleri
+
 ### [HTML'yi BMP'ye Dönüştürme](./convert-html-to-bmp/)
 Aspose.HTML for Java ile HTML'yi BMP'ye dönüştürün. Aspose.HTML for Java kullanarak HTML belgelerini BMP görüntülerine sorunsuz bir şekilde dönüştürmek için kapsamlı bir eğitim.
 ### [HTML'yi GIF'ye Dönüştürme](./convert-html-to-gif/)
@@ -106,6 +107,8 @@ Aspose.HTML for Java kullanarak Java'da SVG'den PNG oluşturmayı öğrenin. Kap
 ### [HTML'yi PNG'ye Dönüştürürken DPI Ayarlama – Tam Kılavuz](./how-to-set-dpi-when-converting-html-to-png-complete-guide/)
 ### [Java'da Yüksek DPI Renderlama – Özel Kullanıcı Aracısı ile Web Sayfası Ekran Görüntüsü Alın](./high-dpi-rendering-in-java-capture-webpage-screenshots-with/)
 Aspose.HTML for Java kullanarak yüksek DPI ayarları ve özel kullanıcı aracısı ile web sayfalarının ekran görüntülerini nasıl alacağınızı öğrenin.
+### [Java'da Maksimum Bellek Kullanımı Ayarlanarak HTML'yi PNG'ye Dönüştürme](./convert-html-to-png-with-set-max-memory-usage-in-java/)
+Aspose.HTML for Java ile bellek kullanımını sınırlayarak HTML'yi PNG görüntüsüne dönüştürmeyi adım adım öğrenin.
 ## Sıkça Sorulan Sorular
 
 **S: Java kullanarak ek bir görüntü kütüphanesi olmadan HTML'yi PNG'ye dönüştürebilir miyim?**  

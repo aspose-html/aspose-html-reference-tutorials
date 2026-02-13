@@ -113,6 +113,7 @@ A: नहीं। एक ही Aspose.HTML for Java लाइसेंस स�
 
 ## Aspose.HTML Java ट्यूटोरियल्स का उन्नत उपयोग
 
+
 ### [Aspose.HTML के साथ HTML पेज मार्जिन को अनुकूलित करें](./css-extensions-adding-title-page-number/)
 HTML दस्तावेज़ों में पेज मार्जिन, पेज नंबर और शीर्षक को Aspose.HTML for Java का उपयोग करके कैसे अनुकूलित करें, जानें।  
 ### [Aspose.HTML for Java के साथ DOM म्यूटेशन ऑब्ज़र्वर](./dom-mutation-observer-observing-node-additions/)
@@ -161,6 +162,23 @@ MHTML फ़ाइल से HTML सामग्री निकालने �
 {{< blocks/products/products-backtop-button >}}
 ### [Java में JavaScript निष्पादित करें – Java से JS चलाने की पूर्ण गाइड](./execute-javascript-in-java-complete-guide-to-running-js-from/)
 Java से JavaScript को कैसे चलाएँ, Aspose.HTML for Java का उपयोग करके पूर्ण मार्गदर्शिका।  
+
+---
+
+**Last Updated:** 2025-11-29  
+**Tested With:** Aspose.HTML for Java 24.11  
+**Author:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [HTML से PDF Java के लिए सैंडबॉक्स का उपयोग कैसे करें – चरण‑दर‑चरण गाइड](./how-to-use-sandbox-for-html-to-pdf-java-step-by-step-guide/)
+HTML को PDF में बदलने के लिए सैंडबॉक्स सेटअप, कॉन्फ़िगरेशन और उपयोग के चरणों को सीखें।  
+### [Java में स्क्रिप्ट निष्पादन सक्षम करें – पूर्ण Aspose.HTML गाइड](./enable-script-execution-in-java-complete-aspose-html-guide/)
+Java एप्लिकेशन में Aspose.HTML का उपयोग करके JavaScript चलाने की पूरी प्रक्रिया सीखें।  
 
 ---
 

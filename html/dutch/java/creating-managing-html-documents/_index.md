@@ -43,6 +43,7 @@ Als het gaat om het genereren van nieuwe HTML-documenten, biedt Aspose.HTML voor
 
 ## HTML-documenten maken en beheren in Aspose.HTML voor Java-zelfstudies
 
+
 ### [Asynchroon HTML-documenten maken in Aspose.HTML voor Java](./create-html-documents-async/)
 Beheers HTML-documentcreatie asynchroon met Aspose.HTML voor Java. Stapsgewijze handleiding, tips en FAQ's inbegrepen voor snel leren.
 ### [Maak lege HTML-documenten in Aspose.HTML voor Java](./create-empty-html-documents/)
@@ -82,6 +83,17 @@ Leer hoe u asynchrone JavaScript-code in Java kunt uitvoeren met Aspose.HTML, in
 {{< blocks/products/products-backtop-button >}}
 ### [NodeList itereren in Java – HTML lezen en afbeeldings‑src ophalen](./iterate-nodelist-java-read-html-get-image-src/)
 Leer hoe u met Aspose.HTML voor Java een NodeList doorloopt, HTML-inhoud leest en de src‑attributen van afbeeldingen extraheert.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Tekst extraheren uit HTML met Java – Complete stap‑voor‑stap gids](./extract-text-from-html-with-java-complete-step-by-step-guide/)
+Leer hoe u tekst uit HTML haalt met Java in Aspose.HTML. Volledige stap‑voor‑stap handleiding.
+### [NodeList itereren in Java – Complete gids](./iterate-over-nodelist-java-complete-guide/)
+Leer hoe u door een NodeList in Java kunt itereren met een stapsgewijze handleiding en praktische voorbeelden.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

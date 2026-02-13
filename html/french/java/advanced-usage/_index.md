@@ -113,6 +113,7 @@ R : Non. Une licence unique Aspose.HTML for Java couvre tous les formats de so
 
 ## Utilisation avancée des tutoriels Aspose.HTML Java
 
+
 ### [Personnaliser les marges de page HTML avec Aspose.HTML](./css-extensions-adding-title-page-number/)
 Apprenez à personnaliser les marges de page, ajouter des numéros de page et des titres aux documents HTML à l’aide d’Aspose.HTML for Java.  
 ### [Observateur de mutation du DOM avec Aspose.HTML for Java](./dom-mutation-observer-observing-node-additions/)
@@ -161,6 +162,23 @@ Apprenez à extraire le contenu HTML d’un fichier MHTML en Java avec Aspose.HT
 {{< blocks/products/products-backtop-button >}}
 ### [Exécuter du JavaScript en Java – Guide complet pour exécuter du JS depuis Java](./execute-javascript-in-java-complete-guide-to-running-js-from/)
 Apprenez à exécuter du JavaScript depuis Java en utilisant Aspose.HTML for Java, avec des exemples complets et des meilleures pratiques.  
+
+---
+
+**Dernière mise à jour :** 2025-11-29  
+**Testé avec :** Aspose.HTML for Java 24.11  
+**Auteur :** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Comment utiliser le bac à sable pour HTML vers PDF Java – Guide étape par étape](./how-to-use-sandbox-for-html-to-pdf-java-step-by-step-guide/)
+Apprenez à exploiter le bac à sable d’Aspose.HTML pour convertir du HTML en PDF avec Java, étape par étape.  
+### [Activer l'exécution de scripts en Java – Guide complet Aspose.HTML](./enable-script-execution-in-java-complete-aspose-html-guide/)
+Apprenez à activer l'exécution de scripts JavaScript dans Java avec Aspose.HTML, incluant des exemples détaillés et les meilleures pratiques.  
 
 ---
 
