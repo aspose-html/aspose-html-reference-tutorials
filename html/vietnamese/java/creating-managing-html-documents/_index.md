@@ -62,10 +62,14 @@ Tìm hiểu cách tạo tài liệu HTML mới bằng Aspose.HTML cho Java với
 Học cách xử lý các sự kiện tải tài liệu trong Aspose.HTML cho Java với hướng dẫn từng bước này. Nâng cao ứng dụng web của bạn.
 ### [Tạo và quản lý tài liệu SVG trong Aspose.HTML cho Java](./create-manage-svg-documents/)
 Học cách tạo và quản lý tài liệu SVG bằng Aspose.HTML cho Java! Hướng dẫn toàn diện này bao gồm mọi thứ từ việc tạo cơ bản đến thao tác nâng cao.
+### [Lặp qua NodeList trong Java – Hướng dẫn đầy đủ](./iterate-over-nodelist-java-complete-guide/)
+Tìm hiểu cách lặp qua NodeList trong Java bằng Aspose.HTML với hướng dẫn chi tiết và ví dụ thực tế.
 ### [Tạo sandbox cho HTML trong Java – Hướng dẫn từng bước](./create-sandbox-for-html-in-java-step-by-step-guide/)
 Hướng dẫn chi tiết cách tạo môi trường sandbox cho HTML trong Java, giúp bạn thử nghiệm và phát triển an toàn.
 ### [Cách truy vấn HTML trong Java – Hướng dẫn đầy đủ](./how-to-query-html-in-java-complete-tutorial/)
 Khám phá cách truy vấn tài liệu HTML trong Java một cách chi tiết, bao gồm các ví dụ thực tế và mẹo tối ưu.
+### [Trích xuất văn bản từ HTML bằng Java – Hướng dẫn đầy đủ từng bước](./extract-text-from-html-with-java-complete-step-by-step-guide/)
+Học cách trích xuất nội dung văn bản từ tài liệu HTML trong Java bằng Aspose.HTML qua hướng dẫn chi tiết từng bước.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

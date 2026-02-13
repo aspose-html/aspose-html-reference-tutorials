@@ -128,6 +128,10 @@ Aspose.HTML for Java का उपयोग करके PDF पेज आका
 Aspose.HTML for Java का उपयोग करके XPS पेज आकार को कैसे समायोजित करें, जानें। अपने XPS दस्तावेज़ों के आउटपुट आयाम को आसानी से नियंत्रित करें।  
 ### [Java में JavaScript चलाना – पूर्ण गाइड](./how-to-run-javascript-in-java-complete-guide/)
 Java एप्लिकेशन में JavaScript को एम्बेड और निष्पादित करने के चरण‑दर‑चरण निर्देश।  
+### [HTML से PDF Java के लिए सैंडबॉक्स का उपयोग कैसे करें – चरण‑दर‑चरण गाइड](./how-to-use-sandbox-for-html-to-pdf-java-step-by-step-guide/)
+HTML को PDF में बदलने के लिए सैंडबॉक्स सेटअप, कॉन्फ़िगरेशन और उपयोग के चरणों को सीखें।  
+### [Java में स्क्रिप्ट निष्पादन सक्षम करें – पूर्ण Aspose.HTML गाइड](./enable-script-execution-in-java-complete-aspose-html-guide/)
+Java एप्लिकेशन में Aspose.HTML का उपयोग करके JavaScript चलाने की पूरी प्रक्रिया सीखें।  
 
 ---
 

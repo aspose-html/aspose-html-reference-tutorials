@@ -127,6 +127,12 @@ Pelajari cara menyesuaikan ukuran halaman XPS dengan Aspose.HTML untuk Java. Kon
 ### [Cara Menjalankan JavaScript di Java – Panduan Lengkap](./how-to-run-javascript-in-java-complete-guide/)
 Pelajari cara menjalankan kode JavaScript dalam aplikasi Java dengan Aspose.HTML untuk Java secara lengkap.
 
+### [Cara Menggunakan Sandbox untuk HTML ke PDF Java – Panduan Langkah‑per‑Langkah](./how-to-use-sandbox-for-html-to-pdf-java-step-by-step-guide/)
+Pelajari cara menggunakan sandbox untuk mengonversi HTML ke PDF dengan Java secara langkah demi langkah.
+
+### [Mengaktifkan Eksekusi Skrip di Java – Panduan Lengkap Aspose.HTML](./enable-script-execution-in-java-complete-aspose-html-guide/)
+Pelajari cara mengaktifkan eksekusi JavaScript dalam aplikasi Java menggunakan Aspose.HTML, termasuk konfigurasi sandbox dan keamanan.
+
 ---
 
 **Terakhir Diperbarui:** 2025-11-29  
