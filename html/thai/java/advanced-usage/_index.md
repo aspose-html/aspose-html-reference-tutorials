@@ -128,6 +128,8 @@ Aspose.HTML ให้คุณแนบ `DomMutationObserver` ไปยังโ
 เรียนรู้วิธีปรับขนาดหน้า XPS ด้วย Aspose.HTML for Java ควบคุมขนาดผลลัพธ์ของเอกสาร XPS ของคุณได้อย่างง่ายดาย  
 ### [วิธีรัน JavaScript ใน Java – คู่มือฉบับสมบูรณ์](./how-to-run-javascript-in-java-complete-guide/)
 เรียนรู้วิธีฝังและรันโค้ด JavaScript ภายในแอปพลิเคชัน Java ด้วย Aspose.HTML อย่างละเอียด  
+### [วิธีใช้ Aspose แปลง EPUB เป็น DOCX – คู่มือขั้นตอนโดยละเอียด](./how-to-use-aspose-to-convert-epub-to-docx-step-by-step-guide/)
+เรียนรู้วิธีแปลงไฟล์ EPUB เป็น DOCX ด้วย Aspose อย่างละเอียดและง่ายดาย  
 
 ---
 

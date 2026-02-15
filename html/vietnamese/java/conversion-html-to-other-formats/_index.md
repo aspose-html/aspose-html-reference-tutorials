@@ -89,7 +89,16 @@ Kết luận, việc nắm vững **html to pdf java** và bộ chuyển đổi 
 Tìm hiểu cách chuyển đổi HTML sang PDF trong Java bằng Aspose.HTML. Tạo PDF chất lượng cao từ nội dung HTML của bạn một cách dễ dàng.
 
 ### [Chuyển đổi HTML sang PDF trong Java – Hướng dẫn chi tiết với cài đặt kích thước trang](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
-Hướng dẫn từng bước chuyển HTML sang PDF trong Java, bao gồm cách thiết lập kích thước trang cho PDF.
+Hướng dẫn từng bước chuyển đổi HTML sang PDF trong Java, bao gồm cách thiết lập kích thước trang cho PDF.
+
+### [Chuyển đổi HTML sang PDF trong Java – Hướng dẫn chi tiết từng bước](./convert-html-to-pdf-in-java-complete-step-by-step-guide/)
+Hướng dẫn toàn diện từng bước để chuyển đổi HTML sang PDF trong Java bằng Aspose.HTML, bao gồm cấu hình và tối ưu chất lượng.
+
+### [Chuyển đổi HTML động sang PDF với Aspose HTML cho Java](./convert-dynamic-html-pdf-with-aspose-html-for-java/)
+Hướng dẫn chuyển đổi các trang HTML động thành PDF trong Java bằng Aspose HTML, bao gồm xử lý JavaScript và nội dung động.
+
+### [Cách sử dụng Aspose – Chuyển đổi HTML sang PDF hàng loạt trong Java](./how-to-use-aspose-batch-convert-html-to-pdf-in-java/)
+Hướng dẫn chi tiết cách chuyển đổi hàng loạt các tệp HTML thành PDF trong Java bằng Aspose.HTML, tối ưu hiệu suất và cấu hình.
 
 ### [Chuyển đổi HTML sang MHTML](./convert-html-to-mhtml/)
 Chuyển đổi HTML sang MHTML một cách dễ dàng bằng Aspose.HTML for Java. Thực hiện theo hướng dẫn từng bước để chuyển đổi HTML‑to‑MHTML hiệu quả.
@@ -108,6 +117,9 @@ Chuyển đổi SVG sang PDF trong Java với Aspose.HTML. Giải pháp liền m
 
 ### [Chuyển đổi SVG sang XPS](./convert-svg-to-xps/)
 Tìm hiểu cách chuyển đổi SVG sang XPS với Aspose.HTML for Java. Hướng dẫn đơn giản, từng bước để chuyển đổi liền mạch.
+
+### [Cách nén PDF với Aspose HTML to PDF – Hướng dẫn Java](./how-to-compress-pdf-with-aspose-html-to-pdf-java-guide/)
+Hướng dẫn chi tiết cách nén tệp PDF bằng Aspose.HTML for Java để giảm kích thước mà vẫn giữ chất lượng.
 
 ## Câu hỏi thường gặp
 
