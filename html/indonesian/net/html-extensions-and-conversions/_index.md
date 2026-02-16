@@ -39,6 +39,8 @@ Aspose.HTML untuk .NET bukan sekadar pustaka; pustaka ini merupakan pengubah per
 ## Tutorial Ekstensi dan Konversi HTML
 ### [Konversi HTML ke PDF dalam .NET dengan Aspose.HTML](./convert-html-to-pdf/)
 Ubah HTML ke PDF dengan mudah menggunakan Aspose.HTML untuk .NET. Ikuti panduan langkah demi langkah kami dan manfaatkan kekuatan konversi HTML ke PDF.
+### [Aspose HTML ke PDF dalam C# – Panduan Lengkap dengan Arsip ZIP](./aspose-html-to-pdf-in-c-complete-guide-with-zip-archive/)
+Pelajari cara mengonversi HTML ke PDF menggunakan C# dengan Aspose.HTML serta menyimpan hasilnya dalam arsip ZIP.
 ### [Buat PDF dari HTML – Panduan Langkah‑demi‑Langkah C#](./create-pdf-from-html-c-step-by-step-guide/)
 Pelajari cara membuat PDF dari HTML menggunakan C# dengan panduan langkah demi langkah menggunakan Aspose.HTML.
 ### [Konversi EPUB ke Gambar dalam .NET dengan Aspose.HTML](./convert-epub-to-image/)
