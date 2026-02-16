@@ -136,6 +136,12 @@ weight: 20
 ### [كيفية تشغيل JavaScript في Java – دليل كامل](./how-to-run-javascript-in-java-complete-guide/)
 تعلم كيفية تشغيل كود JavaScript داخل تطبيقات Java باستخدام Aspose.HTML for Java.
 
+### [كيفية تشغيل JavaScript بشكل غير متزامن باستخدام CompletableFuture](./how-to-run-javascript-asynchronously-using-completablefuture/)
+تعلم كيفية تشغيل JavaScript بشكل غير متزامن باستخدام CompletableFuture في تطبيقات Java.
+
+### [كيفية تحميل HTML، ضبط DPI للجهاز وقراءة لون الخلفية](./how-to-load-html-set-device-dpi-read-background-color/)
+تعلم كيفية تحميل HTML، ضبط DPI للجهاز، وقراءة لون الخلفية باستخدام Aspose.HTML for Java.
+
 ---
 
 **آخر تحديث:** 2025-11-29  

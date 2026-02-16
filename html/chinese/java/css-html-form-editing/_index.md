@@ -32,6 +32,8 @@ url: /zh/java/css-html-form-editing/
 通过本全面的分步指南了解如何使用 Aspose.HTML for Java 以编程方式编辑和提交 HTML 表单。
 ### [在 Java 中按类选择元素 – 完整操作指南](./select-element-by-class-in-java-complete-how-to-guide/)
 本指南详细演示如何在 Java 中使用 Aspose.HTML 按 CSS 类选择元素，实现精准元素定位和操作。
+### [如何在 Java 中查询 HTML – 选择元素、按属性过滤并获取文本内容](./how-to-query-html-in-java-select-elements-filter-by-attribut/)
+本教程演示如何使用 Aspose.HTML for Java 查询 HTML，选择特定元素、按属性过滤并提取文本内容。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

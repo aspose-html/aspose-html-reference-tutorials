@@ -127,6 +127,11 @@ Pelajari cara menyesuaikan ukuran halaman XPS dengan Aspose.HTML untuk Java. Kon
 ### [Cara Menjalankan JavaScript di Java – Panduan Lengkap](./how-to-run-javascript-in-java-complete-guide/)
 Pelajari cara menjalankan kode JavaScript dalam aplikasi Java dengan Aspose.HTML untuk Java secara lengkap.
 
+### [Cara Memuat HTML, Mengatur DPI Perangkat, dan Membaca Warna Latar Belakang](./how-to-load-html-set-device-dpi-read-background-color/)
+Pelajari cara memuat file HTML, mengatur DPI perangkat, dan mendapatkan warna latar belakang menggunakan Aspose.HTML untuk Java.
+
+### [Cara Menjalankan JavaScript Secara Asinkron Menggunakan CompletableFuture](./how-to-run-javascript-asynchronously-using-completablefuture/)
+
 ---
 
 **Terakhir Diperbarui:** 2025-11-29  
