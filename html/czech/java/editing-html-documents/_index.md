@@ -60,6 +60,8 @@ Naučte se, jak spravovat vnitřní a vnější vlastnosti HTML v Aspose.HTML fo
 Naučte se implementovat interní CSS do HTML dokumentů pomocí Aspose.HTML for Java s naším jednoduchým návodem krok za krokem.
 ### [Fixní vlákno pool v Javě – paralelní čištění HTML pomocí ExecutorService](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 Naučte se, jak využít fixní pool vláken v Javě k paralelnímu čištění HTML pomocí ExecutorService.
+### [Změna textu h1 v MHTML pomocí Javy – Kompletní krok‑za‑krokem průvodce](./change-h1-text-in-mhtml-with-java-full-step-by-step-guide/)
+Naučte se, jak změnit text h1 v souboru MHTML pomocí Aspose.HTML pro Javu v podrobném průvodci.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
