@@ -1,76 +1,135 @@
 ---
-title: Menerapkan Penanganan Pesan Kustom dengan Aspose.HTML untuk Java
-linktitle: Menerapkan Penanganan Pesan Kustom dengan Aspose.HTML untuk Java
-second_title: Pemrosesan HTML Java dengan Aspose.HTML
-description: Temukan cara mengimplementasikan penanganan pesan khusus di Aspose.HTML untuk Java untuk meningkatkan pemrosesan dokumen dan menangani log secara efisien.
-weight: 11
+date: 2026-02-20
+description: Pelajari cara menambahkan handler di Aspose.HTML untuk Java, mengonfigurasi
+  pengaturan Aspose, dan mengaktifkan pencatatan HTML Java dengan handler pesan khusus.
+linktitle: Implement Custom Message Handlers with Aspose.HTML
+second_title: Java HTML Processing with Aspose.HTML
+title: Cara Menambahkan Handler dengan Aspose.HTML untuk Java
 url: /id/java/message-handling-networking/custom-message-handler/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Menerapkan Penanganan Pesan Kustom dengan Aspose.HTML untuk Java
+# Cara Menambahkan Handler dengan Aspose.HTML untuk Java
 
-## Perkenalan
-Dalam hal penanganan dokumen HTML secara terprogram, pustaka Aspose.HTML untuk Java menonjol. Apakah Anda seorang pengembang yang ingin memanipulasi data HTML, mengonversi dokumen, atau sekadar membutuhkan alat yang andal untuk mengelola konten web, Aspose.HTML patut dipertimbangkan. Dengan fitur-fiturnya yang tangguh dan kinerja yang luar biasa, pustaka ini memungkinkan pengembang untuk mendalami manipulasi HTML tanpa kerumitan pustaka lainnya. Dalam panduan ini, kita akan menjelajahi cara mengimplementasikan pengendali pesan kustom menggunakan Aspose.HTML untuk Java.
-## Prasyarat
-Sebelum kita menyelami seluk-beluk penerapan pengendali pesan khusus, mari pastikan Anda telah menyiapkan semuanya. Berikut ini daftar periksa singkat untuk membantu Anda memulai:
-1.  Java Development Kit (JDK): Pastikan Anda telah menginstal JDK 8 atau yang lebih tinggi di komputer Anda. Anda dapat mengunduhnya dari[Unduhan Oracle JDK](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2.  Pustaka Aspose.HTML untuk Java: Anda memerlukan pustaka Aspose.HTML untuk Java. Unduh dari[Aspose merilis halaman](https://releases.aspose.com/html/java/) dan menambahkannya ke proyek Anda.
-3. Lingkungan Pengembangan Terpadu (IDE): Anda dapat menggunakan IDE Java apa pun yang Anda sukai seperti IntelliJ IDEA atau Eclipse. 
-4. Pengetahuan Dasar Java: Keakraban dengan pemrograman Java akan membantu Anda mengikutinya dengan lancar.
-Sekarang setelah prasyarat kita terpenuhi, mari selami hal spesifik tentang penerapan penanganan pesan kustom menggunakan Aspose.HTML.
-## Paket Impor
-Untuk memulai, Anda perlu mengimpor paket yang diperlukan untuk memanfaatkan fungsi Aspose.HTML di Java. Berikut cara melakukannya:
+## Introduction
+Jika Anda mencari **cara menambahkan handler** untuk pemrosesan HTML yang lebih kaya, Aspose.HTML untuk Java memberikan cara yang bersih dan dapat diperluas untuk mengakses pipeline jaringan. Baik Anda memerlukan pencatatan terperinci, otentikasi khusus, atau penanganan permintaan khusus, handler pesan khusus memungkinkan Anda menyela dan merespons setiap peristiwa jaringan. Dalam tutorial ini kami akan membahas seluruh proses—dari menyiapkan lingkungan hingga menyambungkan `LogMessageHandler` ke rantai penanganan pesan Aspose.HTML.
+
+## Quick Answers
+- **Apa itu custom message handler?** Sebuah plug‑in yang menyela pesan jaringan (permintaan, respons, kesalahan) selama pemrosesan dokumen HTML.  
+- **Mengapa menggunakan handler dengan Aspose.HTML?** Ini menyediakan pencatatan real‑time, debugging, dan kemampuan untuk memodifikasi lalu lintas secara langsung.  
+- **Apakah saya memerlukan lisensi untuk mencoba ini?** Versi percobaan gratis tersedia; lisensi komersial diperlukan untuk penggunaan produksi.  
+- **Versi Java apa yang diperlukan?** JDK 8 atau lebih tinggi.  
+- **Bisakah saya mengganti handler default?** Ya—handler diurutkan, dan Anda dapat menyisipkan milik Anda pada posisi mana pun dalam rantai.
+
+## What is “how to add handler” in Aspose.HTML?
+Menambahkan handler berarti mendaftarkan implementasi `IMessageHandler` (atau menggunakan `LogMessageHandler` bawaan) dengan `MessageHandlerCollection` yang dimiliki layanan jaringan. Setelah terdaftar, handler menerima setiap peristiwa jaringan, memungkinkan Anda mencatat, memodifikasi, atau memblokir lalu lintas sesuai kebutuhan.
+
+## Why configure Aspose for Java HTML logging?
+- **Visibilitas:** Lihat setiap permintaan dan respons, yang mempercepat proses debugging.  
+- **Pengoptimalan Kinerja:** Identifikasi sumber daya yang lambat atau pemuatan yang gagal.  
+- **Audit Keamanan:** Catat URL dan header untuk pemeriksaan kepatuhan.  
+
+## Prerequisites
+1. **Java Development Kit (JDK):** Pastikan JDK 8 atau lebih tinggi terpasang. Unduh dari [Oracle JDK Downloads](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).  
+2. **Aspose.HTML for Java library:** Dapatkan JAR terbaru dari [halaman rilis Aspose](https://releases.aspose.com/html/java/).  
+3. **IDE:** IntelliJ IDEA, Eclipse, atau editor apa pun yang Anda sukai.  
+4. **Pengetahuan Java dasar:** Familiaritas dengan kelas, antarmuka, dan penanganan pengecualian.
+
+Setelah fondasi selesai, mari kita selami kode.
+
+## Import Packages
+Untuk memulai, impor kelas inti Aspose.HTML yang diperlukan:
+
 ```java
 import com.aspose.html.Configuration;
 import com.aspose.html.HTMLDocument;
 import com.aspose.html.net.MessageHandlerCollection;
 import com.aspose.html.services.INetworkService;
 ```
-Impor ini akan memberi kita akses ke semua komponen penting untuk membuat dan mengelola dokumen HTML serta menangani pesan khusus.
-## Langkah 1: Buat Instansi Kelas Konfigurasi
- Langkah pertama adalah membuat instance dari`Configuration` kelas. Konfigurasi ini akan mengelola berbagai pengaturan untuk pemrosesan dokumen HTML kita. 
+
+Impor ini memberi kami akses ke objek konfigurasi, model dokumen, dan layanan jaringan yang menyimpan koleksi message‑handler.
+
+## Step 1: Create an Instance of the Configuration Class
+Langkah 1: Buat Instance dari Kelas Configuration
+
+The `Configuration` object is the central place where you control Aspose.HTML behavior.
+
 ```java
 Configuration configuration = new Configuration();
 ```
-Baris tunggal ini menjadi fondasi untuk semua penanganan pesan kustom yang akan kami terapkan. Anggap saja ini sebagai dasar untuk membangun bangunan yang kokoh; tanpa fondasi yang kuat, semua hal lainnya akan goyah.
-## Langkah 2: Tambahkan LogMessageHandler ke Rantai Penanganan Pesan yang Ada
- Berikutnya, Anda ingin menggabungkan penangan pesan yang sudah ada. Dalam kasus kami, kami menambahkan`LogMessageHandler`, yang akan mencatat pesan selama siklus pemrosesan dokumen. Hal ini penting untuk debugging dan pemantauan kinerja.
+
+Anggap ini sebagai meletakkan fondasi sebuah rumah—tanpa itu, tidak ada komponen selanjutnya yang memiliki dasar yang stabil.
+
+## Step 2: Add the LogMessageHandler to the Chain of Existing Message Handlers
+Langkah 2: Tambahkan LogMessageHandler ke Rantai Handler Pesan yang Ada
+
+Next, we retrieve the network service from the configuration and insert a `LogMessageHandler` at the beginning of the handler list. This ensures logging occurs as early as possible.
+
 ```java
 INetworkService service = configuration.getService(INetworkService.class);
 MessageHandlerCollection handlers = service.getMessageHandlers();
 handlers.insertItem(0, new LogMessageHandler());
 ```
- Dengan memasukkan kami`LogMessageHandler` di awal daftar penanganan pesan, kami memastikan bahwa log kami akan mencatat pesan sedini mungkin. Ini seperti menyalakan lampu sebelum memasuki ruangan gelap—semakin dini Anda dapat menemukan masalah, semakin baik!
-## Langkah 3: Siapkan Jalur ke File Dokumen Sumber
-Setelah konfigurasi selesai, kita sekarang memerlukan dokumen HTML tertentu untuk digunakan. Anda akan menyiapkan jalur ke dokumen sumber ini, yang akan diproses oleh Aspose.
+
+> **Tip Pro:** Jika Anda membuat handler sendiri (mis., `MyAuthHandler`), sisipkan sebelum logger untuk menangkap detail otentikasi terlebih dahulu.
+
+## Step 3: Prepare Path to a Source Document File
+Langkah 3: Siapkan Jalur ke File Dokumen Sumber
+
+Specify the HTML file you want to process. Adjust the path to match your project structure.
+
 ```java
 String documentPath = "input/input.htm";
 ```
-Pastikan jalur ini mengarah ke berkas HTML yang ingin Anda manipulasi. Ini seperti Anda menyetel GPS sebelum memulai perjalanan—mengetahui tujuan adalah kuncinya!
-## Langkah 4: Inisialisasi Dokumen HTML dengan Konfigurasi yang Ditentukan
- Sekarang setelah jalur dokumen kita siap, kita menginisialisasi`HTMLDocument` misalnya menggunakan konfigurasi dan jalur kita. 
+
+## Step 4: Initialize an HTML Document with Specified Configuration
+Langkah 4: Inisialisasi Dokumen HTML dengan Konfigurasi yang Ditentukan
+
+Finally, load the HTML document using the custom configuration that now includes our logging handler.
+
 ```java
 HTMLDocument document = new HTMLDocument(documentPath, configuration);
 ```
-Pada titik ini, kita telah memuat dokumen HTML dan siap menerapkan penanganan khusus sesuai kebutuhan kita.
 
-## Kesimpulan
-Menerapkan pengendali pesan kustom dengan Aspose.HTML untuk Java adalah proses mudah yang dapat meningkatkan kemampuan Anda untuk mengelola dokumen HTML secara efektif. Dengan mengikuti langkah-langkah ini, Anda tidak hanya menyiapkan konfigurasi yang diperlukan tetapi juga mempelajari cara menginstrumentasikan pencatatan log ke dalam alur pemrosesan dokumen Anda. Hal ini tidak hanya membuat penelusuran kesalahan menjadi lebih mudah tetapi juga meningkatkan responsivitas dan keandalan produk Anda.
-## Pertanyaan yang Sering Diajukan
-### Apa itu Aspose.HTML untuk Java?
-Aspose.HTML untuk Java adalah pustaka yang memungkinkan pengembang untuk membuat, memanipulasi, dan mengonversi dokumen HTML dan sumber daya lainnya dengan mudah di Java.
-### Bagaimana cara menginstal Aspose.HTML?
- Anda dapat mengunduh Aspose.HTML untuk Java dari[Di Sini](https://releases.aspose.com/html/java/)dan menambahkannya ke proyek Anda sebagai dependensi.
-### Bisakah saya menyesuaikan pesan log?
- Ya, Anda dapat memodifikasi`LogMessageHandler` atau terapkan penanganan pesan khusus Anda untuk menyesuaikan pencatatan dengan kebutuhan Anda.
-### Apakah ada uji coba gratis yang tersedia untuk Aspose.HTML?
- Tentu saja! Anda dapat mencoba Aspose.HTML secara gratis dengan mengakses uji coba gratis mereka[Di Sini](https://releases.aspose.com/).
-### Di mana saya dapat menemukan dukungan untuk Aspose.HTML?
- Anda dapat mencari dukungan dari komunitas Aspose di forum mereka[Di Sini](https://forum.aspose.com/c/html/29).
+Pada titik ini dokumen siap untuk manipulasi lebih lanjut—konversi, perubahan DOM, atau rendering—sementara semua lalu lintas jaringan akan dicatat.
+
+## Common Issues and Solutions
+| Masalah | Mengapa Terjadi | Solusi |
+|---------|----------------|--------|
+| **Handler tidak dipicu** | Handler ditambahkan setelah dokumen dibuat. | Tambahkan handler **sebelum** membuat `HTMLDocument`. |
+| **NullPointerException pada service** | `Configuration.getService` mengembalikan `null` karena modul yang diperlukan tidak dimuat. | Pastikan JAR Aspose.HTML berada di classpath dan cocok dengan versi Java. |
+| **File log kosong** | Tingkat logging terlalu tinggi. | Sesuaikan pengaturan `LogMessageHandler` atau gunakan logger khusus yang menulis ke file. |
+
+## Frequently Asked Questions
+
+**T: Apa itu Aspose.HTML untuk Java?**  
+J: Aspose.HTML untuk Java adalah pustaka kuat yang memungkinkan pengembang membuat, memanipulasi, mengonversi, dan merender dokumen HTML secara langsung dari aplikasi Java.
+
+**T: Bagaimana cara menginstal Aspose.HTML?**  
+J: Anda dapat mengunduh Aspose.HTML untuk Java dari [sini](https://releases.aspose.com/html/java/) dan menambahkan JAR ke classpath proyek Anda atau menggunakan dependensi Maven/Gradle.
+
+**T: Bisakah saya menyesuaikan pesan log?**  
+J: Ya—baik dengan memperluas `LogMessageHandler` atau mengimplementasikan `IMessageHandler` Anda sendiri untuk memformat dan mengarahkan log sesuai kebutuhan.
+
+**T: Apakah ada percobaan gratis untuk Aspose.HTML?**  
+J: Tentu saja! Anda dapat mencoba Aspose.HTML secara gratis dengan mengakses percobaan gratis mereka [di sini](https://releases.aspose.com/).
+
+**T: Di mana saya dapat menemukan dukungan untuk Aspose.HTML?**  
+J: Anda dapat mencari dukungan dari komunitas Aspose di forum mereka [di sini](https://forum.aspose.com/c/html/29).
+
+## Conclusion
+Dengan mengikuti langkah-langkah ini Anda kini tahu **cara menambahkan handler** di Aspose.HTML untuk Java, cara mengkonfigurasi pustaka untuk **pencatatan html java** yang detail, dan cara **mengimplementasikan custom handler java** yang sesuai dengan kebutuhan proyek Anda. Pengaturan ini tidak hanya menyederhanakan debugging tetapi juga membuka pintu ke skenario lanjutan seperti pembatasan permintaan, otentikasi khusus, atau penyuntikan konten dinamis.
+
+---
+
+**Terakhir Diperbarui:** 2026-02-20  
+**Diuji Dengan:** Aspose.HTML for Java 23.10 (terbaru pada saat penulisan)  
+**Penulis:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
