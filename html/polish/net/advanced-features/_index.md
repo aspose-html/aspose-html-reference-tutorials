@@ -46,6 +46,8 @@ Dowiedz się, jak konwertować HTML na PDF, XPS i obrazy za pomocą Aspose.HTML 
 Dowiedz się, jak używać Aspose.HTML dla .NET do dynamicznego generowania dokumentów HTML z danych JSON. Wykorzystaj moc manipulacji HTML w swoich aplikacjach .NET.
 ### [Jak łączyć czcionki programowo w C# – przewodnik krok po kroku](./how-to-combine-fonts-programmatically-in-c-step-by-step-guid/)
 Dowiedz się, jak programowo łączyć czcionki w C# przy użyciu Aspose.HTML, krok po kroku, z przykładami kodu.
+### [Niestandardowy obsługiwacz zasobów w Aspose HTML – przewodnik zapisu do strumienia](./custom-resource-handler-in-aspose-html-save-to-stream-guide/)
+Dowiedz się, jak utworzyć własny obsługiwacz zasobów w Aspose HTML i zapisywać zawartość bezpośrednio do strumienia.
 
 ## Wniosek
 
