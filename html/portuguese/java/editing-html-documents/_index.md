@@ -46,6 +46,8 @@ Depois de dominar os conceitos básicos de edição de documentos HTML, é hora 
 ## Editando documentos HTML em Aspose.HTML para tutoriais Java
 ### [Editar árvore de documentos HTML em Aspose.HTML para Java](./edit-html-document-tree/)
 Descubra como manipular documentos HTML usando Aspose.HTML para Java. Um guia passo a passo para gerenciamento eficiente de conteúdo.
+### [Como anexar filho em DOM Java – Guia completo do Aspose.HTML](./how-to-append-child-in-java-dom-complete-aspose-html-guide/)
+Descubra como anexar um nó filho ao DOM em Java usando Aspose.HTML. Um guia passo a passo para manipulação de documentos HTML.
 ### [Edição avançada de árvore de documentos HTML em Aspose.HTML para Java](./advanced-html-document-tree-editing/)
 Descubra como editar documentos HTML usando o Aspose.HTML para Java com este guia passo a passo, incluindo criação de estilos, parágrafos e conversão para PDF.
 ### [Aplicar CSS externo a documentos HTML em Aspose.HTML para Java](./apply-external-css-html-documents/)

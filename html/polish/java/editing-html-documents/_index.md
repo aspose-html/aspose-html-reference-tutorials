@@ -60,6 +60,8 @@ Dowiedz się, jak zarządzać wewnętrznymi i zewnętrznymi właściwościami HT
 Naucz się implementować wewnętrzny kod CSS w dokumentach HTML, korzystając z Aspose.HTML dla Java, korzystając z naszego prostego samouczka krok po kroku.
 ### [Fixed thread pool Java – równoległe czyszczenie HTML przy użyciu ExecutorService](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 Dowiedz się, jak używać Fixed Thread Pool w Javie do równoległego czyszczenia HTML przy pomocy ExecutorService.
+### [Jak dodać element potomny w Java DOM – kompletny przewodnik Aspose.HTML](./how-to-append-child-in-java-dom-complete-aspose-html-guide/)
+Poznaj, jak dodać element potomny do drzewa DOM w Javie przy użyciu Aspose.HTML, krok po kroku, z przykładami kodu.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

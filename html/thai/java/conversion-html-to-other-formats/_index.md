@@ -51,7 +51,7 @@ Aspose.HTML ทำให้การแปลง HTML เป็น PDF ง่า
 MHTML จะบรรจุหน้าเว็บและทรัพยากรทั้งหมดไว้ในไฟล์เดียว เหมาะสำหรับการเก็บข้อมูลแบบออฟไลน์ Aspose.HTML มีการแปลงแบบขั้นตอนเดียวที่สะอาดตา
 
 ### Converting HTML to XPS (Java)
-XPS คือรูปแบบการพิมพ์ของ Microsoft ด้วย Aspose.HTML คุณสามารถสร้างไฟล์ XPS ที่รักษาเลย์เอาต์ได้อย่างแม่นยำข้ามแพลตฟอร์ม
+XPS คือรูปแบบการพิมพ์ของ Microsoft ด้วย Aspose.HTML คุณสามารถสร้างไฟล์ XPS ที่รักษาเลย์เอ็ทได้อย่างแม่นยำข้ามแพลตฟอร์ม
 
 ### Converting Markdown to HTML (Java)
 ความเรียบง่ายของ Markdown มาบรรจบกับความหลากหลายของ HTML แปลงเอกสาร Markdown ให้เป็นหน้า HTML ที่สไตล์เต็มสำหรับการเผยแพร่บนเว็บ
@@ -95,6 +95,8 @@ Aspose.HTML for Java ทำให้กระบวนการแปลง HTML
 เรียนรู้วิธีแปลง HTML เป็น PDF ใน Java ด้วย Aspose.HTML สร้าง PDF คุณภาพสูงจากเนื้อหา HTML ของคุณได้อย่างง่ายดาย
 ### [Convert HTML to PDF in Java – Step‑by‑Step Guide with Page Size Settings](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 เรียนรู้ขั้นตอนการแปลง HTML เป็น PDF ใน Java พร้อมการตั้งค่าขนาดหน้าอย่างละเอียด
+### [Convert HTML to PDF in Java – Complete Step‑by‑Step Guide](./convert-html-to-pdf-in-java-complete-step-by-step-guide/)
+คู่มือเต็มขั้นตอนการแปลง HTML เป็น PDF ใน Java ด้วย Aspose.HTML ครอบคลุมทุกการตั้งค่าและตัวเลือก
 ### [Converting HTML to MHTML](./convert-html-to-mhtml/)
 แปลง HTML เป็น MHTML อย่างไม่มีความยุ่งยากด้วย Aspose.HTML for Java ทำตามคู่มือขั้นตอน‑ต่อ‑ขั้นตอนสำหรับการแปลง HTML‑to‑MHTML ที่มีประสิทธิภาพ
 ### [Converting HTML to XPS](./convert-html-to-xps/)
@@ -107,6 +109,12 @@ Aspose.HTML for Java ทำให้กระบวนการแปลง HTML
 แปลง SVG เป็น PDF ใน Java ด้วย Aspose.HTML โซลูชันที่ไร้รอยต่อสำหรับการแปลงเอกสารคุณภาพสูง
 ### [Converting SVG to XPS](./convert-svg-to-xps/)
 เรียนรู้วิธีแปลง SVG เป็น XPS ด้วย Aspose.HTML for Java คู่มือขั้นตอน‑ต่อ‑ขั้นตอนที่ง่ายสำหรับการแปลงที่ไร้รอยต่อ
+### [ฝังฟอนต์ PDF – คู่มือ Aspose HTML to PDF อย่างสมบูรณ์ (Java)](./embed-fonts-pdf-complete-aspose-html-to-pdf-guide-java/)
+เรียนรู้วิธีฝังฟอนต์ในไฟล์ PDF ด้วย Aspose.HTML for Java เพื่อให้เอกสารแสดงผลอย่างถูกต้องบนทุกอุปกรณ์
+### [สร้าง docx จาก html – คำแนะนำ Java เพื่อแปลง HTML เป็น DOCX](./create-docx-from-html-java-guide-to-convert-html-to-docx/)
+แปลงไฟล์ HTML เป็นเอกสาร DOCX ใน Java ด้วย Aspose.HTML อย่างง่ายและคุณภาพสูง
+### [สร้าง Fixed Thread Pool สำหรับการแปลง HTML เป็น PDF แบบชุด](./create-fixed-thread-pool-for-batch-html-to-pdf-conversion/)
+เรียนรู้วิธีใช้ Fixed Thread Pool เพื่อแปลงหลายไฟล์ HTML เป็น PDF พร้อมประสิทธิภาพสูงใน Java
 
 ## คำถามที่พบบ่อย
 

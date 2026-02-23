@@ -98,6 +98,12 @@ Převádějte SVG do PDF v Javě s Aspose.HTML. Bezproblémové řešení pro vy
 Naučte se převádět SVG do XPS s Aspose.HTML for Java. Jednoduchý, krok‑za‑krokem průvodce pro plynulé konverze.
 ### [Převod HTML do PDF v Javě – krok‑za‑krokem s nastavením velikosti stránky](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Naučte se převést HTML do PDF v Javě s podrobným nastavením velikosti stránky a dalšími možnostmi.
+### [Převod HTML do PDF v Javě – Kompletní krok‑za‑krokem průvodce](./convert-html-to-pdf-in-java-complete-step-by-step-guide/)
+Naučte se kompletně převést HTML do PDF v Javě s podrobným krok‑za‑krokem návodem.
+### [Vložení fontů do PDF – Kompletní průvodce Aspose HTML do PDF (Java)](./embed-fonts-pdf-complete-aspose-html-to-pdf-guide-java/)
+Naučte se, jak vložit vlastní fonty do PDF při konverzi HTML pomocí Aspose.HTML for Java.
+### [Vytvoření DOCX z HTML – Java průvodce konverzí HTML do DOCX](./create-docx-from-html-java-guide-to-convert-html-to-docx/)
+Naučte se převést HTML do formátu DOCX v Javě pomocí Aspose.HTML a generovat editovatelné dokumenty.
 
 ## Často kladené otázky
 

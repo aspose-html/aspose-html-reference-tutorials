@@ -99,6 +99,12 @@ Dowiedz się, jak łatwo konwertować HTML do TIFF przy użyciu Aspose.HTML for 
 
 ### [Konwertowanie HTML do WebP – Kompletny przewodnik Java z Aspose.HTML](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
 
+### [Konwertowanie SVG do WebP – Kompletny przewodnik Java z Aspose.HTML](./convert-svg-to-webp-in-java-complete-aspose-html-guide/)
+Dowiedz się, jak konwertować pliki SVG do formatu WebP w Javie przy użyciu Aspose.HTML. Pełny przewodnik krok po kroku.
+
+### [Ustaw współczynnik pikseli urządzenia w Javie – kompletny przewodnik](./set-device-pixel-ratio-in-java-complete-guide/)
+Pełny przewodnik, jak ustawić współczynnik pikseli urządzenia w Javie przy użyciu Aspose.HTML, aby uzyskać wyraźne renderowanie.
+
 ## Najczęściej zadawane pytania
 
 **Q: Czy mogę konwertować HTML do PNG w Javie bez dodatkowych bibliotek graficznych?**  

@@ -60,6 +60,9 @@ Ezzel a lépésről lépésre szóló útmutatóval megtudhatja, hogyan kezelhet
 Ismerje meg a belső CSS-t HTML-dokumentumokban az Aspose.HTML for Java használatával az egyszerű, lépésről lépésre oktatóanyagunk segítségével.
 ### [Fixed thread pool Java – Párhuzamos HTML tisztítás ExecutorService használatával](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 Ismerje meg, hogyan használhatja a FixedThreadPool-t a HTML dokumentumok párhuzamos tisztításához az ExecutorService segítségével.
+### [Gyermek elem hozzáadása a Java DOM-ban – Teljes Aspose.HTML útmutató](./how-to-append-child-in-java-dom-complete-aspose-html-guide/)
+Fedezze fel, hogyan adhat hozzá gyermek elemet a Java DOM-hoz az Aspose.HTML használatával, részletes, lépésről lépésre útmutató.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
