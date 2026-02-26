@@ -53,9 +53,11 @@ url: /el/net/rendering-html-documents/
 ### [Απόδοση SVG Doc ως PNG σε .NET με Aspose.HTML](./render-svg-doc-as-png/)
 Ξεκλειδώστε τη δύναμη του Aspose.HTML για .NET! Μάθετε πώς να αποδίδετε το Έγγραφο SVG ως PNG χωρίς κόπο. Ανατρέξτε σε παραδείγματα βήμα προς βήμα και συχνές ερωτήσεις. Ξεκινήστε τώρα!
 ### [Πώς να αποδώσετε HTML ως PNG – Πλήρης οδηγός C#](./how-to-render-html-as-png-complete-c-guide/)
-Μάθετε πώς να μετατρέψετε HTML σε PNG χρησιμοποιώντας C# και το Aspose.HTML για .NET σε αυτό το ολοκληρωμένο σεμινάριο!
+Μάθετε πώς να μετατρέψετε HTML σε PNG χρησιμοποιώντας C# και το Aspose.HTML για .NET σε αυτόν τον ολοκληρωμένο σεμινάριο!
 ### [Πώς να χρησιμοποιήσετε το Aspose για απόδοση HTML σε PNG – Οδηγός βήμα‑βήμα](./how-to-use-aspose-to-render-html-to-png-step-by-step-guide/)
 Μάθετε πώς να μετατρέψετε HTML σε PNG χρησιμοποιώντας το Aspose.HTML για .NET με αυτόν τον αναλυτικό οδηγό βήμα‑βήμα.
+### [Πώς να αποδώσετε HTML ως PNG σε C# – Οδηγός βήμα‑βήμα](./how-to-render-html-as-png-in-c-step-by-step-guide/)
+Μάθετε πώς να μετατρέψετε HTML σε PNG με C# και Aspose.HTML για .NET σε αυτόν τον πλήρη οδηγό βήμα‑βήμα.
 ### [Πώς να αποδώσετε HTML σε PNG με το Aspose – Πλήρης οδηγός](./how-to-render-html-to-png-with-aspose-complete-guide/)
 Μάθετε πώς να μετατρέψετε HTML σε PNG χρησιμοποιώντας το Aspose.HTML για .NET σε αυτόν τον πλήρη οδηγό.
 ### [Δημιουργία PNG από HTML – Πλήρης Οδηγός Απόδοσης C#](./create-png-from-html-full-c-rendering-guide/)
