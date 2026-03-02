@@ -1,7 +1,8 @@
 ---
-date: 2025-12-17
-description: Aspose.HTML for Java kullanarak HTML'yi XPS'ye zahmetsizce dönüştürmeyi
-  öğrenin. Platformlar arası belgeleri kolayca oluşturun.
+date: 2026-03-02
+description: Aspose.HTML for Java kullanarak HTML'yi XPS'ye nasıl dönüştüreceğinizi
+  öğrenin. Kaydetme seçeneklerini keşfedin, Java'da HTML yüklemeyi ve ayrıca HTML'yi
+  PDF'ye nasıl dönüştüreceğinizi öğrenin.
 linktitle: Converting HTML to XPS
 second_title: Java HTML Processing with Aspose.HTML
 title: Aspose.HTML for Java ile HTML'yi XPS'ye Dönüştür
@@ -13,42 +14,38 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.HTML for Java ile HTML'yi XPS'ye Dönüştürme
+# HTML'i XPS'e Dönüştürme Aspose.HTML for Java ile
 
-Web geliştirme ve belge işleme dünyasında, **HTML'yi XPS'ye dönüştürme** ihtiyacı yaygın ve kritik bir görevdir. Aspose.HTML for Java, HTML'yi XPS (XML Paper Specification) formatına sorunsuz bir şekilde dönüştürmek için güçlü bir çözüm sunar; bu, paylaşılması veya yazdırılması gereken belgeler oluşturmak için özellikle faydalıdır. Bu adım‑adım kılavuz, dönüşümü sorunsuz bir şekilde gerçekleştirmenizi sağlayacak.
+Eğer **HTML'i XPS'e dönüştürmek** istiyor ve bunu hızlı ve güvenilir bir şekilde yapmak istiyorsanız doğru yerdesiniz. Bu öğreticide, Java'da bir HTML dosyasını yüklemekten, Aspose.HTML kaydetme seçeneklerini yapılandırmaya ve sonunda her cihazda aynı şekilde basılan piksel‑tam bir XPS belgesi üretmeye kadar tüm süreci adım adım inceleyeceğiz.
 
 ## Hızlı Yanıtlar
-- **Dönüşüm ne üretir?** Düzeni ve grafikleri koruyan bir XPS (XML Paper Specification) dosyası.  
-- **Hangi kütüphane gerekir?** Aspose.HTML for Java (resmi siteden indirin).  
-- **Lisans gerekli mi?** Ücretsiz deneme sürümü mevcuttur; üretim kullanımı için ticari lisans gerekir.  
-- **Çıktıyı özelleştirebilir miyim?** Evet – arka plan rengi, sayfa boyutu vb. ayarlamak için `XpsSaveOptions` kullanın.  
-- **Kod sadece Java mı?** Örnek saf Java kullanır ve herhangi bir standart JDK ile çalışır.
+- **Hangi dosya formatı oluşturulur?** XPS (XML Paper Specification) belge, düzeni, yazı tiplerini ve grafikleri korur.  
+- **Hangi kütüphane gerekiyor?** Aspose.HTML for Java (resmi siteden indirin).  
+- **Lisans gerekli mi?** Ücretsiz deneme değerlendirme için çalışır; üretim için ticari lisans gerekir.  
+- **Görünümü kontrol edebilir miyim?** Evet—`XpsSaveOptions` kullanarak arka plan rengini, sayfa boyutunu, kenar boşluklarını ve sıkıştırmayı ayarlayabilirsiniz.  
+- **Sunucuda çalıştırabilir miyim?** Kesinlikle—UI gerekmez, bu yüzden başsız (headless) ortamlarda çalışır.
 
-## “HTML'yi XPS'ye dönüştürmek” ne demektir?
-HTML'yi XPS'ye dönüştürmek, bir web sayfasını (HTML, CSS, görseller) sabit‑düzenli bir XPS belgesine render etmektir. XPS, her cihazda aynı göründüğü için güvenilir yazdırma ve arşivleme amacıyla idealdir.
+## “HTML'i XPS'e dönüştürmek” nedir?
+HTML'i XPS'e dönüştürmek, bir web sayfasını (HTML, CSS, görseller ve isteğe bağlı JavaScript) alıp sabit‑düzenli bir XPS belgesine render etmek anlamına gelir. XPS, görsel görünümün platformlar arasında tutarlı kalması nedeniyle güvenilir baskı, arşivleme ve paylaşım için idealdir.
 
 ## Neden Aspose.HTML Save Options kullanmalı?
-`XpsSaveOptions`, oluşturulan XPS dosyası üzerinde – arka plan rengi, sayfa boyutları, sıkıştırma ve daha fazlası – ince ayar yapmanızı sağlar. Bu esneklik, Aspose.HTML'nin profesyonel belge akışları için tercih edilmesinin başlıca nedenidir.
+`XpsSaveOptions`, oluşturulan XPS dosyası üzerinde arka plan rengi, sayfa boyutları, sıkıştırma ve daha fazlası gibi ince ayarlar yapmanızı sağlar. Bu esneklik, birçok geliştiricinin profesyonel belge iş akışları için Aspose.HTML'i tercih etmesinin başlıca nedenidir.
 
-## Ön Koşullar
+## Önkoşullar
 
-Aspose.HTML for Java kullanarak HTML'yi XPS'ye dönüştürme yolculuğuna başlamadan önce aşağıdaki ön koşulları sağlamalısınız:
+Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
-- Aspose.HTML for Java Kütüphanesi: Aspose.HTML for Java kütüphanesinin yüklü olduğundan emin olun. İndirmek için [buraya](https://releases.aspose.com/html/java/) tıklayın.
+- **Aspose.HTML for Java kütüphanesi** – indirin [here](https://releases.aspose.com/html/java/).  
+- **Dönüştürmek istediğiniz bir HTML dosyası** (geçerli herhangi bir HTML/CSS çalışır).  
+- **Java Development Kit** – Java 8 veya daha yeni.  
+- **IDE** – Eclipse, IntelliJ IDEA veya tercih ettiğiniz herhangi bir editör.  
 
-- Dönüştürülecek HTML Belgesi: Dönüştürmek istediğiniz HTML belgesine sahip olmalısınız. Yoksa örnek bir HTML dosyası oluşturabilir veya mevcut bir dosyayı kullanabilirsiniz.
+Bu gereksinimler hazır olduğunda, dönüşüm adımlarına kesintisiz bir şekilde odaklanabilirsiniz.
 
-- Java Geliştirme Ortamı: Bu kılavuzdaki kod örneklerini uygulamak için temel Java programlama bilgisi gereklidir.
+## HTML'i XPS'e Nasıl Dönüştürülür?
 
-- Entegre Geliştirme Ortamı (IDE): Sorunsuz bir geliştirme deneyimi için Eclipse veya IntelliJ IDEA gibi bir Java IDE'si önerilir.
-
-Gerekli ön koşulları sağladığınıza göre, Aspose.HTML for Java ile HTML'yi XPS'ye dönüştürme adımlarına geçelim.
-
-## HTML'yi XPS'ye Nasıl Dönüştürülür?
-
-### Paketleri İçe Aktarın
-
-Başlamak için Aspose.HTML kütüphanesinden gerekli paketleri içe aktarmanız gerekir. Bu adım, dönüşüm için gereken işlevlere erişim sağlamak açısından kritiktir.
+### Adım 1: Paketleri İçe Aktarın
+İlk olarak, Aspose.HTML kütüphanesinden ihtiyacınız olan sınıfları içe aktarın.
 
 ```java
 import com.aspose.html.HTMLDocument;
@@ -57,77 +54,86 @@ import com.aspose.html.drawing.Color;
 import com.aspose.html.converters.Converter;
 ```
 
-### HTML Belgesini Yükleyin
-
-HTML dosyasını yüklemek ilk eylemdir. `HTMLDocument` sınıfı işaretlemi okur ve dönüşüm için hazırlar. Bu, **load HTML document Java** tarzının tipik yoludur.
+### Adım 2: HTML Belgesini Yükleyin
+Kaynak dosyanıza işaret eden bir `HTMLDocument` örneği oluşturun. Bu, **load HTML document Java** adımıdır.
 
 ```java
 HTMLDocument htmlDocument = new HTMLDocument("path/to/your/input.html");
 ```
 
-### XpsSaveOptions'ı Başlatın
-
-XPS dönüşüm seçeneklerini ayarlayın. Arka plan rengi, sayfa boyutu ve daha fazlası gibi çeşitli ayarları özelleştirebilirsiniz. Bunlar, nihai XPS görünümünü kontrol etmenizi sağlayan **Aspose HTML save options**dır.
+### Adım 3: XpsSaveOptions'ı Başlatın
+Kaydetme seçeneklerini istediğiniz çıktıya göre yapılandırın. Burada örnek olarak camgöbeği bir arka plan ayarlıyoruz.
 
 ```java
 XpsSaveOptions options = new XpsSaveOptions();
 options.setBackgroundColor(Color.getCyan());
 ```
 
-### Çıktı Dosya Yolunu Tanımlayın
+> **Pro ipucu:** `options` üzerindeki ilgili setter'ları çağırarak sayfa boyutunu, kenar boşluklarını veya sıkıştırmayı da ayarlayabilirsiniz.
 
-Dönüştürülen XPS dosyasının kaydedileceği yolu belirtin.
+### Adım 4: Çıktı Dosya Yolunu Tanımlayın
+Dönüştürücünün XPS dosyasını nereye yazacağını belirtin.
 
 ```java
 String outputFile = "path/to/your/output.xps";
 ```
 
-### Dönüşümü Gerçekleştirin
-
-Şimdi, Aspose.HTML'nin `Converter` sınıfını kullanarak HTML'den XPS'ye dönüşümü gerçekleştirin.
+### Adım 5: Dönüşümü Gerçekleştirin
+Son olarak, `Converter`'ı çağırarak HTML'i XPS'e dönüştürün.
 
 ```java
 Converter.convertHTML(htmlDocument, options, outputFile);
 ```
 
-Tebrikler! Aspose.HTML for Java kullanarak bir HTML belgesini başarıyla XPS'ye dönüştürdünüz.
+Kod tamamlandığında, belirttiğiniz konumda hazır‑baskı XPS dosyasını bulacaksınız.
+
+## Aspose HTML Save Options'ı Diğer Formatlar İçin Nasıl Kullanılır?
+Daha sonra **HTML'i PDF'e dönüştürmek** isterseniz, sadece `XpsSaveOptions` yerine `PdfSaveOptions` kullanın—iş akışının geri kalanı aynı kalır. Bu, Aspose'in birleşik API'sinin gücünü gösterir.
 
 ## Yaygın Kullanım Senaryoları ve İpuçları
 
-- **Yazdırılabilir Raporlar Oluşturma:** Web‑tabanlı raporları XPS'ye dönüştürerek güvenilir yazdırma elde edin.  
-- **Web İçeriğini Arşivleme:** Bir web sayfasının tam görsel düzenini XPS arşivi olarak koruyun.  
-- **Toplu Dönüştürme:** Birden fazla HTML dosyası üzerinde döngü kurun ve tutarlılık için aynı `XpsSaveOptions` nesnesini yeniden kullanın.  
+- **Yazdırılabilir Raporlar Oluşturma:** Web tabanlı panoları kusursuz yazdırılan XPS raporlarına dönüştürün.  
+- **Web İçeriğini Arşivleme:** Bir web sayfasının tam görsel düzenini yasal veya uyumluluk amaçları için koruyun.  
+- **Toplu Dönüştürme:** HTML dosyaları içeren bir klasörü döngüye alarak aynı `XpsSaveOptions` nesnesini yeniden kullanın ve tutarlı çıktı elde edin.  
 
-**Pro ipucu:** PDF çıktısına da ihtiyacınız varsa, sadece `XpsSaveOptions` yerine `PdfSaveOptions` kullanın—aynı dönüşüm akışı **convert html to pdf** senaryoları için de çalışır.
+**Pro ipucu:** Birçok dosya işliyorsanız, bellek kullanımını azaltmak için tek bir `XpsSaveOptions` örneğini yeniden kullanın.
 
-## Sonuç
+## Sorun Giderme ve Yaygın Tuzaklar
 
-HTML'yi XPS'ye dönüştürmek, belge ve web içeriğiyle çalışan herkes için değerli bir beceridir. Aspose.HTML for Java bu süreci basitleştirir, HTML kaynaklarından sorunsuz bir şekilde XPS belgeleri üretmenizi sağlar. Bu kılavuzda belirtilen adımlarla Aspose.HTML'nin gücünden yararlanabilir ve belge dönüşümünün sunduğu olanakların kapılarını aralayabilirsiniz.
-
-Herhangi bir sorunla karşılaşırsanız veya daha fazla yardıma ihtiyaç duyarsanız, [Aspose.HTML forumundan](https://forum.aspose.com/) destek almaktan çekinmeyin.
+| Sorun | Sebep | Çözüm |
+|-------|--------|-----|
+| Çıktıda eksik görüntüler | Göreceli yollar çözülemedi | Mutlak yollar kullanın veya `options.setBaseUri()` ayarlayın |
+| CSS uygulanmadı | Harici stil sayfası engellendi | HTML belgesinin stil sayfasına erişebildiğinden emin olun (yerel dosyalar veya doğru URL'ler kullanın) |
+| JavaScript çalıştırılmadı | Karmaşık betikler tam bir tarayıcı motoru gerektirir | Dönüştürmeden önce dinamik içeriği statik HTML olarak önceden render edin |
 
 ## Sıkça Sorulan Sorular
 
-**S: Dönüşüm CSS ve JavaScript'i nasıl ele alıyor?**  
-C: Motor CSS stillerini tam olarak render eder. JavaScript, render sırasında çalıştırılır, ancak karmaşık istemci‑tarafı betikleri ek işlem gerektirebilir.
+**S: Dönüşüm CSS ve JavaScript'i nasıl işler?**  
+C: Motor, CSS stillerini tam olarak render eder. JavaScript render sırasında çalıştırılır, ancak çok karmaşık istemci‑tarafı betikler ek işleme veya ön‑işleme gerektirebilir.
 
-**S: XPS çıktısı için sayfa kenar boşluklarını ayarlama yolu var mı?**  
-C: Evet—`XpsSaveOptions` nesnesi üzerindeki `options.setPageMargins()` metodunu kullanarak özel kenar boşlukları tanımlayabilirsiniz.
+**S: XPS çıktısı için sayfa kenar boşluklarını ayarlamanın bir yolu var mı?**  
+C: Evet—`XpsSaveOptions` nesnesi üzerinde `options.setPageMargins()` kullanarak özel kenar boşlukları tanımlayabilirsiniz.
 
-**S: HTML'yi bir headless sunucuda XPS'ye dönüştürebilir miyim?**  
-C: Kesinlikle. Aspose.HTML headless ortamlarla çalışır; yalnızca gerekli yerel kütüphanelerin mevcut olduğundan emin olun.
+**S: Headless bir sunucuda HTML'i XPS'e dönüştürebilir miyim?**  
+C: Kesinlikle. Aspose.HTML başsız ortamlarda çalışır; yalnızca gerekli yerel kütüphanelerin mevcut olduğundan emin olun.
 
 **S: Hangi Java sürümleri destekleniyor?**  
-C: Kütüphane Java 8 ve üzeri sürümleri destekler.
+C: Kütüphane Java 8 ve daha yeni çalışma zamanlarını destekler.
 
-**S: Kütüphane Unicode karakterlerini destekliyor mu?**  
+**S: Kütüphane Unicode karakterleri destekliyor mu?**  
 C: Evet, tam Unicode desteği yerleşiktir ve herhangi bir dilden karakterleri korur.
+
+## Sonuç
+
+HTML'i XPS'e dönüştürmek, belge üretimi, raporlama veya arşivleme ile uğraşan herkes için değerli bir beceridir. Aspose.HTML for Java ile, HTML belgesini yüklemekten kaydetme seçeneklerini ince ayarlamaya ve yüksek kalite bir XPS dosyası üretmeye kadar tüm süreç sadece birkaç kod satırı ile gerçekleşir. Diğer kaydetme seçeneklerini, toplu işleme senaryolarını veya sınıfı değiştirerek PDF'e geçişi denemekten çekinmeyin.
+
+Herhangi bir sorunla karşılaşırsanız, topluluk yardımcı olmaya hazır—sorunuzu [Aspose.HTML forum](https://forum.aspose.com/) üzerinden paylaşın.
 
 ---
 
-**Son Güncelleme:** 2025-12-17  
-**Test Edilen Versiyon:** Aspose.HTML for Java 24.12 (en son sürüm)  
-**Yazar:** Aspose  
+**Last Updated:** 2026-03-02  
+**Tested With:** Aspose.HTML for Java 24.12 (latest release)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
