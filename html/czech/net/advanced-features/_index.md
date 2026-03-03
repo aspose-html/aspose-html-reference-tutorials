@@ -44,7 +44,8 @@ Naučte se převádět HTML do PDF, XPS a obrázků pomocí Aspose.HTML pro .NET
 Naučte se používat Aspose.HTML pro .NET k dynamickému generování HTML dokumentů z dat JSON. Využijte sílu manipulace s HTML ve svých aplikacích .NET.
 ### [Vytvořte paměťový stream v C# – Průvodce tvorbou vlastního streamu](./create-memory-stream-c-custom-stream-creation-guide/)
 Naučte se, jak vytvořit vlastní paměťový stream v C# pomocí Aspose.HTML a efektivně manipulovat s HTML dokumenty.
-
+### [Jak zipovat HTML pomocí Aspose HTML – Kompletní průvodce](./how-to-zip-html-with-aspose-html-complete-guide/)
+Naučte se, jak pomocí Aspose.HTML zkomprimovat HTML soubory do ZIP archivu v kompletním průvodci.
 
 ## Závěr
 

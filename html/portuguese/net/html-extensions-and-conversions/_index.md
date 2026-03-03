@@ -40,8 +40,14 @@ Aspose.HTML para .NET não é apenas uma biblioteca; é um divisor de águas no 
 ### [Converter HTML para PDF no .NET com Aspose.HTML](./convert-html-to-pdf/)
 Converta HTML para PDF sem esforço com Aspose.HTML para .NET. Siga nosso guia passo a passo e libere o poder da conversão de HTML para PDF.
 
+### [Definir tamanho da página PDF em C# – Converter HTML para PDF](./set-pdf-page-size-in-c-convert-html-to-pdf/)
+Aprenda a definir o tamanho da página ao converter HTML em PDF usando Aspose.HTML para .NET em C#.
+
 ### [Criar PDF a partir de HTML – Guia passo a passo em C#](./create-pdf-from-html-c-step-by-step-guide/)
 Aprenda a criar um PDF a partir de HTML usando C# com Aspose.HTML, seguindo um guia passo a passo.
+
+### [Criar documento HTML C# – Guia passo a passo](./create-html-document-c-step-by-step-guide/)
+Aprenda a criar um documento HTML usando C# com Aspose.HTML, seguindo um guia passo a passo.
 
 ### [Criar documento HTML com texto estilizado e exportar para PDF – Guia completo](./create-html-document-with-styled-text-and-export-to-pdf-full/)
 Aprenda a criar um documento HTML com texto formatado e exportá-lo para PDF usando Aspose.HTML para .NET. Guia passo a passo.

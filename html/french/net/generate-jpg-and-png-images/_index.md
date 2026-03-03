@@ -34,7 +34,7 @@ La création d'images n'est que la première étape. Aspose.HTML pour .NET vous 
 
 ## Intégration avec les projets .NET
 
-L'intégration d'Aspose.HTML pour .NET dans vos projets .NET est simple. La bibliothèque est conçue pour s'intégrer parfaitement à votre code existant, ce qui en fait un excellent choix pour les développeurs. Vous pouvez l'utiliser pour améliorer vos applications avec des fonctionnalités de génération d'images sans effort.
+L'intégration d'Aspose.HTML pour .NET dans vos projets .NET est simple. La bibliothèque est conçée pour s'intégrer parfaitement à votre code existant, ce qui en fait un excellent choix pour les développeurs. Vous pouvez l'utiliser pour améliorer vos applications avec des fonctionnalités de génération d'images sans effort.
 
 ## Tutoriels sur la génération d'images JPG et PNG
 ### [Générer des images JPG par ImageDevice dans .NET avec Aspose.HTML](./generate-jpg-images-by-imagedevice/)
@@ -45,6 +45,8 @@ Apprenez à utiliser Aspose.HTML pour .NET pour manipuler des documents HTML, co
 Apprenez à activer l'anticrénelage pour améliorer la qualité des images PNG/JPG générées à partir de documents DOCX avec Aspose.HTML.
 ### [Convertir docx en png – créer une archive zip tutoriel C#](./convert-docx-to-png-create-zip-archive-c-tutorial/)
 Apprenez à convertir des fichiers DOCX en images PNG et à les compresser dans une archive ZIP avec C#.
+### [Créer un PNG à partir de SVG en C# – Guide complet étape par étape](./create-png-from-svg-in-c-full-step-by-step-guide/)
+Apprenez à convertir des fichiers SVG en images PNG en C# avec un guide détaillé étape par étape.
 
 ## Conclusion
 
