@@ -58,7 +58,11 @@ url: /ar/java/editing-html-documents/
 تعرف على كيفية إدارة خصائص HTML الداخلية والخارجية في Aspose.HTML لـ Java باستخدام هذا الدليل خطوة بخطوة، وهو مثالي لمطوري الويب ومنشئي المحتوى.
 ### [تنفيذ CSS داخلي في مستندات HTML باستخدام Aspose.HTML لـ Java](./implement-internal-css-html-documents/)
 تعلم كيفية تنفيذ CSS الداخلي في مستندات HTML باستخدام Aspose.HTML لـ Java من خلال البرنامج التعليمي السهل خطوة بخطوة.
+### [كيفية تمييز HTML – البحث عن نص واستبداله بـ <mark>](./how-to-highlight-html-search-text-replace-with-mark/)
+تعلم كيفية البحث عن نص داخل مستند HTML واستبداله بعلامة <mark> لتسليط الضوء عليه باستخدام Aspose.HTML for Java.
 ### [مجموعة مؤشرات ثابتة Java – تنظيف HTML متوازي باستخدام ExecutorService](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
+### [كيفية إزالة السكريبتات من HTML في Java – دليل شامل](./how-to-remove-scripts-from-html-in-java-complete-guide/)
+تعلم كيفية حذف جميع عناصر <script> من مستندات HTML باستخدام Aspose.HTML for Java خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

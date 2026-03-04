@@ -60,6 +60,10 @@ url: /zh/java/editing-html-documents/
 通过我们简单的分步教程学习使用 Aspose.HTML for Java 在 HTML 文档中实现内部 CSS。
 ### [固定线程池 Java – 使用 ExecutorService 并行 HTML 清理](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 了解如何使用 Java 固定线程池和 ExecutorService 实现并行 HTML 清理，提高处理效率。
+### [如何在 Java 中从 HTML 中移除脚本 – 完整指南](./how-to-remove-scripts-from-html-in-java-complete-guide/)
+本完整指南教您使用 Aspose.HTML for Java 安全地删除 HTML 中的脚本标签，防止 XSS 并提升页面性能。
+### [如何突出显示 HTML – 搜索文本并用 <mark> 替换](./how-to-highlight-html-search-text-replace-with-mark/)
+本教程演示如何在 HTML 中搜索特定文本并使用 <mark> 标签高亮显示，实现快速标记功能。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

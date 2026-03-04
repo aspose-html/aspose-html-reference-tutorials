@@ -60,6 +60,10 @@ Web geliştiricileri ve içerik oluşturucuları için mükemmel olan bu adım a
 Kolay adım adım eğitimimiz ile Java için Aspose.HTML'i kullanarak HTML belgelerinde dahili CSS'yi uygulamayı öğrenin.
 ### [Sabit iş parçacığı havuzu java – ExecutorService ile Paralel HTML Temizleme](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 ExecutorService kullanarak sabit iş parçacığı havuzu ile HTML belgelerini paralel olarak temizlemeyi öğrenin.
+### [Java'da HTML'den Script'leri Kaldırma – Tam Kılavuz](./how-to-remove-scripts-from-html-in-java-complete-guide/)
+Java için Aspose.HTML kullanarak HTML belgelerinden scriptleri güvenli bir şekilde kaldırmayı öğrenin.
+### [HTML'yi Vurgulama – Metni Ara ve <mark> ile Değiştir](./how-to-highlight-html-search-text-replace-with-mark/)
+HTML belgelerinde belirli metinleri <mark> etiketiyle vurgulamayı öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

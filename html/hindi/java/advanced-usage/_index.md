@@ -128,6 +128,8 @@ Aspose.HTML for Java का उपयोग करके PDF पेज आका
 Aspose.HTML for Java का उपयोग करके XPS पेज आकार को कैसे समायोजित करें, जानें। अपने XPS दस्तावेज़ों के आउटपुट आयाम को आसानी से नियंत्रित करें।  
 ### [Java में JavaScript चलाना – पूर्ण गाइड](./how-to-run-javascript-in-java-complete-guide/)
 Java एप्लिकेशन में JavaScript को एम्बेड और निष्पादित करने के चरण‑दर‑चरण निर्देश।  
+### [JavaScript से Java को कॉल करें – असिंक्रोनस फ़ेच और JS इंजन निष्पादन की पूर्ण गाइड](./call-java-from-javascript-complete-guide-to-async-fetch-js-e/)
+JavaScript से Java मेथड कॉल करना, असिंक्रोनस फ़ेच उपयोग करना और JS इंजन में निष्पादन के चरण‑दर‑चरण निर्देश।  
 
 ---
 

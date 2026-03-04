@@ -58,8 +58,10 @@ Ismerje meg, hogyan adhat hozzá soron belüli CSS-t HTML-dokumentumokhoz az Asp
 Ezzel a lépésről lépésre szóló útmutatóval megtudhatja, hogyan kezelheti a belső és külső HTML-tulajdonságokat az Aspose.HTML for Java programban, amely tökéletes webfejlesztők és tartalomkészítők számára.
 ### [Valósítsa meg a belső CSS-t HTML-dokumentumokban az Aspose.HTML for Java segítségével](./implement-internal-css-html-documents/)
 Ismerje meg a belső CSS-t HTML-dokumentumokban az Aspose.HTML for Java használatával az egyszerű, lépésről lépésre oktatóanyagunk segítségével.
+### [Hogyan emeljük ki a HTML-t – Szöveg keresése és <mark> cseréje](./how-to-highlight-html-search-text-replace-with-mark/)
 ### [Fixed thread pool Java – Párhuzamos HTML tisztítás ExecutorService használatával](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
-Ismerje meg, hogyan használhatja a FixedThreadPool-t a HTML dokumentumok párhuzamos tisztításához az ExecutorService segítségével.
+### [Hogyan távolítsa el a szkripteket a HTML-ből Java-ban – Teljes útmutató](./how-to-remove-scripts-from-html-in-java-complete-guide/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

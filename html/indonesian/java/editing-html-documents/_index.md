@@ -58,6 +58,10 @@ Pelajari cara menambahkan CSS sebaris ke dokumen HTML menggunakan Aspose.HTML un
 Pelajari cara mengelola properti HTML dalam dan luar di Aspose.HTML untuk Java dengan panduan langkah demi langkah ini, cocok untuk pengembang web dan pembuat konten.
 ### [Menerapkan CSS Internal dalam Dokumen HTML dengan Aspose.HTML untuk Java](./implement-internal-css-html-documents/)
 Pelajari cara menerapkan CSS internal dalam dokumen HTML menggunakan Aspose.HTML untuk Java dengan tutorial langkah demi langkah yang mudah.
+### [Cara Menghapus Skrip dari HTML di Java – Panduan Lengkap](./how-to-remove-scripts-from-html-in-java-complete-guide/)
+Pelajari cara menghapus skrip berbahaya dari dokumen HTML menggunakan Aspose.HTML untuk Java dengan panduan langkah demi langkah.
+### [Cara Menyorot HTML – Cari Teks & Ganti dengan <mark>](./how-to-highlight-html-search-text-replace-with-mark/)
+Pelajari cara menyorot teks dalam dokumen HTML dengan mencari dan mengganti menggunakan tag <mark> menggunakan Aspose.HTML untuk Java.
 ### [Fixed thread pool Java – Pembersihan HTML Paralel dengan ExecutorService](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

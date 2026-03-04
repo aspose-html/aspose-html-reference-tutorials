@@ -56,10 +56,15 @@ Domine el arte de editar CSS externo con Aspose.HTML para Java. Esta guía detal
 Aprenda a agregar CSS en línea a documentos HTML con Aspose.HTML para Java. Esta guía paso a paso le ayuda a aplicar estilo a HTML y convertirlo a PDF con facilidad.
 ### [Administrar propiedades HTML internas y externas en Aspose.HTML para Java](./manage-inner-outer-html-properties/)
 Aprenda a administrar propiedades HTML internas y externas en Aspose.HTML para Java con esta guía paso a paso, perfecta para desarrolladores web y creadores de contenido.
+### [Cómo resaltar HTML – Buscar texto y reemplazar con <mark>](./how-to-highlight-html-search-text-replace-with-mark/)
+Aprenda a buscar texto en documentos HTML y resaltarlo usando la etiqueta <mark> con Aspose.HTML para Java.
 ### [Implemente CSS interno en documentos HTML con Aspose.HTML para Java](./implement-internal-css-html-documents/)
 Aprenda a implementar CSS interno en documentos HTML usando Aspose.HTML para Java con nuestro sencillo tutorial paso a paso.
 ### [Pool de hilos fijo en Java – Limpieza paralela de HTML con ExecutorService](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 Aprenda a usar un pool de hilos fijo y ExecutorService para limpiar HTML en paralelo con Aspose.HTML para Java.
+
+### [Cómo eliminar scripts de HTML en Java – Guía completa](./how-to-remove-scripts-from-html-in-java-complete-guide/)
+Aprenda a eliminar scripts de documentos HTML usando Aspose.HTML para Java. Guía paso a paso para limpiar su contenido de forma segura.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

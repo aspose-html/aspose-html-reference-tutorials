@@ -108,6 +108,11 @@ Aspose.HTML for Java упрощает процесс конвертации HTML
 ### [Конвертация HTML в PDF в Java – Пошаговое руководство с настройками размера страницы](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Подробное пошаговое руководство по конвертации HTML в PDF в Java с настройкой размеров страниц.
 
+### [Создание PDF из HTML в Java – Однострочное руководство Aspose](./create-pdf-from-html-in-java-one-line-aspose-guide/)
+
+### [Установка коэффициента пикселей устройства в Java – Конвертация HTML для мобильных](./set-device-pixel-ratio-in-java-convert-html-to-mobile/)
+Узнайте, как задать коэффициент пикселей устройства при конвертации HTML в мобильный формат с помощью Aspose.HTML for Java.
+
 ## Часто задаваемые вопросы
 
 **Q: Можно ли использовать Aspose.HTML for Java в коммерческом приложении?**  
