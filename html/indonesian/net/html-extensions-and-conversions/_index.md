@@ -41,6 +41,8 @@ Aspose.HTML untuk .NET bukan sekadar pustaka; pustaka ini merupakan pengubah per
 Ubah HTML ke PDF dengan mudah menggunakan Aspose.HTML untuk .NET. Ikuti panduan langkah demi langkah kami dan manfaatkan kekuatan konversi HTML ke PDF.
 ### [Buat PDF dari HTML – Panduan Langkah‑demi‑Langkah C#](./create-pdf-from-html-c-step-by-step-guide/)
 Pelajari cara membuat PDF dari HTML menggunakan C# dengan panduan langkah demi langkah menggunakan Aspose.HTML.
+### [Buat PDF dari HTML dengan Aspose – Panduan Langkah‑demi‑Langkah](./create-pdf-from-html-with-aspose-step-by-step-guide/)
+Pelajari cara membuat PDF dari HTML menggunakan Aspose dengan panduan langkah demi langkah.
 ### [Konversi EPUB ke Gambar dalam .NET dengan Aspose.HTML](./convert-epub-to-image/)
 Pelajari cara mengonversi EPUB ke gambar menggunakan Aspose.HTML untuk .NET. Tutorial langkah demi langkah dengan contoh kode dan opsi yang dapat disesuaikan.
 ### [Konversi EPUB ke PDF dalam .NET dengan Aspose.HTML](./convert-epub-to-pdf/)
@@ -73,6 +75,10 @@ Pelajari cara membuat dokumen HTML dengan teks berformat dan mengekspornya ke PD
 Pelajari cara menyimpan file HTML sebagai arsip ZIP menggunakan Aspose.HTML untuk .NET dengan contoh kode C# lengkap.
 ### [Simpan HTML ke ZIP di C# – Contoh In‑Memory Lengkap](./save-html-to-zip-in-c-complete-in-memory-example/)
 Pelajari cara menyimpan file HTML ke dalam arsip ZIP secara langsung di memori menggunakan C# dan Aspose.HTML.
+### [Buat dokumen HTML dan simpan sebagai zip – Panduan Lengkap C#](./create-html-document-and-save-as-zip-complete-c-guide/)
+Pelajari cara membuat dokumen HTML dan menyimpannya sebagai arsip ZIP dengan contoh kode lengkap C# menggunakan Aspose.HTML.
+### [Buat PDF dari HTML – Panduan Lengkap dengan Aspose.Html](./create-pdf-from-html-complete-guide-with-aspose-html/)
+Pelajari cara membuat PDF dari HTML secara lengkap menggunakan Aspose.HTML dengan contoh kode dan langkah‑langkah terperinci.
 
 ## Kesimpulan
 
