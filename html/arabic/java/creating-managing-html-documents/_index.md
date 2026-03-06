@@ -66,6 +66,10 @@ url: /ar/java/creating-managing-html-documents/
 تعلم كيفية إنشاء بيئة تجريبية لمعالجة HTML في Java باستخدام Aspose.HTML من خلال دليل خطوة بخطوة.
 ### [كيفية الاستعلام عن HTML في Java – دليل كامل](./how-to-query-html-in-java-complete-tutorial/)
 تعلم كيفية استعلام ومعالجة مستندات HTML في Java باستخدام Aspose.HTML من خلال دليل شامل خطوة بخطوة.
+### [كيفية الاستعلام عن HTML في Java – استخراج عناوين URL للصور](./how-to-query-html-in-java-extract-image-urls/)
+تعلم كيفية استخراج عناوين صور HTML باستخدام Aspose.HTML for Java عبر دليل خطوة بخطوة.
+### [كيفية تحليل HTML في Java – استخراج النص من مقالات HTML](./how-to-parse-html-in-java-extract-text-from-html-articles/)
+تعلم كيفية استخراج النص من مقالات HTML باستخدام Aspose.HTML for Java عبر دليل خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

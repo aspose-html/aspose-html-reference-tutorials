@@ -32,6 +32,8 @@ url: /el/java/css-html-form-editing/
 Μάθετε πώς να επεξεργάζεστε και να υποβάλλετε φόρμες HTML μέσω προγραμματισμού χρησιμοποιώντας το Aspose.HTML για Java σε αυτόν τον αναλυτικό οδηγό βήμα προς βήμα.
 ### [Επιλογή στοιχείου με κλάση σε Java – Πλήρης Οδηγός](./select-element-by-class-in-java-complete-how-to-guide/)
 Μάθετε πώς να επιλέγετε στοιχεία HTML με συγκεκριμένη κλάση χρησιμοποιώντας Aspose.HTML για Java σε αυτόν τον ολοκληρωμένο οδηγό.
+### [Πώς να Λάβετε CSS σε Java – Χρησιμοποιώντας querySelector και Computed Style](./how-to-get-css-in-java-using-queryselector-and-computed-styl/)
+Μάθετε πώς να εξάγετε στυλ CSS από στοιχεία HTML σε Java χρησιμοποιώντας querySelector και υπολογιζόμενο στυλ.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
