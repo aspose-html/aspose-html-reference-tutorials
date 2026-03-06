@@ -71,6 +71,8 @@ url: /ar/net/html-document-manipulation/
 أطلق العنان لإمكانات تطوير الويب باستخدام Aspose.HTML for .NET. أنشئ مستندات HTML وحولها وتعامل معها بسهولة.
 ### [إنشاء HTML من سلسلة في C# – دليل معالج الموارد المخصص](./create-html-from-string-in-c-custom-resource-handler-guide/)
 تعرف على كيفية إنشاء مستند HTML من سلسلة نصية في C# باستخدام معالج موارد مخصص.
+### [كيفية إنشاء HTML وإضافة عنصر نمط CSS – دليل خطوة بخطوة](./how-to-create-html-and-add-css-style-element-step-by-step-gu/)
+تعلم كيفية إنشاء مستند HTML وإضافة عنصر CSS لتنسيق المحتوى خطوة بخطوة باستخدام Aspose.HTML.
 
 ## خاتمة
 
