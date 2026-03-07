@@ -37,7 +37,9 @@ Temelleri kavradığınızda, oluşturma sürecine daha derinlemesine dalacağı
 Şimdi becerilerinizi bir üst seviyeye taşıyalım. HTML belgelerini düzenlemek web geliştiricileri için yaygın bir görevdir ve Aspose.HTML bu süreci önemli ölçüde basitleştirir. Bu bölümde, belge oluşturma, düzenleme ve biçimlendirmeyi ele alacağız. Web içeriğinizin görünümünü ve işlevselliğini nasıl geliştireceğinizi, onu ilgi çekici ve kullanıcı dostu hale getireceğinizi keşfedeceksiniz.
 
 ### [C#'ta HTML Kaydetme – Özel Kaynak İşleyicisi Kullanarak Tam Kılavuz](./how-to-save-html-in-c-complete-guide-using-a-custom-resource/)
+### [Aspose ile HTML Kaydetme – Tam C# Kılavuzu](./how-to-save-html-with-aspose-complete-c-guide/)
 ### [CSS ve C# ile Başlığı Kalınlaştırma – Tam Adım Adım Kılavuz](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
+### [C#'ta HTML Zipleme – ZIP Arşivi Oluşturma Tam Kılavuzu](./how-to-zip-html-in-c-complete-guide-to-create-zip-archive/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
