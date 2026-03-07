@@ -91,6 +91,8 @@ Tìm hiểu cách chuyển đổi HTML sang PDF trong Java bằng Aspose.HTML. T
 ### [Chuyển đổi HTML sang PDF trong Java – Hướng dẫn chi tiết với cài đặt kích thước trang](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Hướng dẫn từng bước chuyển HTML sang PDF trong Java, bao gồm cách thiết lập kích thước trang cho PDF.
 
+### [Java HTML sang PDF – Hướng dẫn chuyển đổi PDF/A‑2b](./java-html-to-pdf-pdf-a-2b-conversion-guide/)
+
 ### [Chuyển đổi HTML sang MHTML](./convert-html-to-mhtml/)
 Chuyển đổi HTML sang MHTML một cách dễ dàng bằng Aspose.HTML for Java. Thực hiện theo hướng dẫn từng bước để chuyển đổi HTML‑to‑MHTML hiệu quả.
 
@@ -108,6 +110,9 @@ Chuyển đổi SVG sang PDF trong Java với Aspose.HTML. Giải pháp liền m
 
 ### [Chuyển đổi SVG sang XPS](./convert-svg-to-xps/)
 Tìm hiểu cách chuyển đổi SVG sang XPS với Aspose.HTML for Java. Hướng dẫn đơn giản, từng bước để chuyển đổi liền mạch.
+
+### [Chuyển đổi HTML sang PDF – Hướng dẫn toàn diện để chuyển đổi hàng loạt tệp với Aspose.HTML](./html-to-pdf-conversion-complete-guide-to-batch-convert-files/)
+Hướng dẫn chi tiết cách sử dụng Aspose.HTML để chuyển đổi đồng thời nhiều tệp HTML thành PDF một cách nhanh chóng và hiệu quả.
 
 ## Câu hỏi thường gặp
 

@@ -66,6 +66,10 @@ Naucz się tworzyć i zarządzać dokumentami SVG za pomocą Aspose.HTML dla Jav
 Dowiedz się, jak skonfigurować bezpieczną piaskownicę HTML w Javie, aby testować i uruchamiać kod w izolowanym środowisku.
 ### [Jak zapytać HTML w Javie – Kompletny samouczek](./how-to-query-html-in-java-complete-tutorial/)
 Dowiedz się, jak efektywnie zapytać i przetwarzać dokumenty HTML w Javie przy użyciu Aspose.HTML.
+### [javascript settimeout async: Uruchom JavaScript w Javie i zaktualizuj HTML](./javascript-settimeout-async-run-javascript-in-java-and-updat/)
+Dowiedz się, jak uruchomić kod JavaScript w Javie przy użyciu setTimeout i dynamicznie aktualizować dokument HTML.
+### [Utwórz HTML z Markdown w Javie – Pełny przewodnik krok po kroku](./create-html-from-markdown-in-java-full-step-by-step-guide/)
+Dowiedz się, jak konwertować pliki Markdown na HTML w Javie przy użyciu Aspose.HTML, krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

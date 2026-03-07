@@ -66,6 +66,10 @@ Leer SVG-documenten maken en beheren met Aspose.HTML voor Java! Deze uitgebreide
 Leer hoe u een veilige sandboxomgeving voor HTML in Java opzet met een stapsgewijze handleiding.
 ### [HTML opvragen in Java – Complete tutorial](./how-to-query-html-in-java-complete-tutorial/)
 Leer hoe u HTML kunt query'en in Java met deze volledige stap‑voor‑stap handleiding.
+### [Javascript settimeout async: JavaScript uitvoeren in Java en HTML bijwerken](./javascript-settimeout-async-run-javascript-in-java-and-updat/)
+Leer hoe u JavaScript met setTimeout asynchroon vanuit Java kunt uitvoeren en de HTML-inhoud dynamisch bijwerkt.
+### [HTML maken vanuit Markdown in Java – Volledige stapsgewijze handleiding](./create-html-from-markdown-in-java-full-step-by-step-guide/)
+Leer hoe u Markdown naar HTML converteert in Java met een gedetailleerde stap‑voor‑stap handleiding.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
