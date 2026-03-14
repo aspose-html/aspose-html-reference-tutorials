@@ -135,6 +135,9 @@ Aspose.HTML 允许您将 `DomMutationObserver` 附加到任意节点。这对于
 ### [如何在 Java 中运行 JavaScript – 完整指南](./how-to-run-javascript-in-java-complete-guide/)
 学习如何在 Java 环境中执行 JavaScript 代码，涵盖 Rhino、Nashorn 和 GraalVM 等实现。
 
+### [在 JavaScript 中调用 Java – 添加宿主对象并在 Java 中运行 JavaScript](./call-java-from-javascript-add-host-object-and-run-javascript/)
+学习如何在 Java 中添加宿主对象，使 JavaScript 能调用 Java 方法并执行脚本。
+
 ---
 **最后更新：** 2025-11-29  
 **测试环境：** Aspose.HTML for Java 24.11  

@@ -121,6 +121,7 @@ R: No. Una singola licenza di Aspose.HTML for Java copre tutti i formati di outp
 ### [Regola le dimensioni della pagina PDF con Aspose.HTML per Java](./adjust-pdf-page-size/)
 ### [Regola le dimensioni della pagina XPS con Aspose.HTML per Java](./adjust-xps-page-size/)
 ### [Come eseguire JavaScript in Java – Guida completa](./how-to-run-javascript-in-java-complete-guide/)
+### [Chiama Java da JavaScript – Aggiungi oggetto host ed esegui JavaScript in Java](./call-java-from-javascript-add-host-object-and-run-javascript/)
 
 ---
 

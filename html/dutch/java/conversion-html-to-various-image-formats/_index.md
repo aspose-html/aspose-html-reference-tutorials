@@ -99,6 +99,10 @@ Leer hoe je HTML naar PNG‑afbeeldingen kunt converteren in Java met Aspose.HTM
 Leer hoe je HTML eenvoudig naar TIFF kunt converteren met Aspose.HTML for Java. Stap‑voor‑stap gids voor efficiënte documentafhandeling.
 ### [HTML naar WebP – Complete Java-gids met Aspose.HTML](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
 Leer hoe je HTML naar WebP kunt converteren met Aspose.HTML for Java. Een stapsgewijze gids voor efficiënte WebP‑rendering.
+### [Hoe DPI in te stellen bij het converteren van HTML naar PNG – Complete Java-gids](./how-to-set-dpi-when-converting-html-to-png-complete-java-gui/)
+Leer hoe je de DPI‑instellingen aanpast bij HTML‑naar‑PNG conversie met Aspose.HTML for Java voor optimale beeldkwaliteit.
+### [Device pixel ratio instellen in Java – HTML naar PNG renderen](./set-device-pixel-ratio-in-java-render-html-to-png/)
+Leer hoe je de device pixel ratio kunt instellen bij het renderen van HTML naar PNG met Aspose.HTML for Java.
 
 ## Veelgestelde vragen
 

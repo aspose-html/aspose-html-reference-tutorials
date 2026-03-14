@@ -136,6 +136,9 @@ weight: 20
 ### [كيفية تشغيل JavaScript في Java – دليل كامل](./how-to-run-javascript-in-java-complete-guide/)
 تعلم كيفية تشغيل كود JavaScript داخل تطبيقات Java باستخدام Aspose.HTML for Java.
 
+### [استدعاء Java من JavaScript – إضافة كائن مضيف وتشغيل JavaScript في Java](./call-java-from-javascript-add-host-object-and-run-javascript/)
+تعلم كيفية استدعاء كود Java من JavaScript بإضافة كائن مضيف وتشغيل سكريبتات JavaScript داخل تطبيق Java.
+
 ---
 
 **آخر تحديث:** 2025-11-29  
