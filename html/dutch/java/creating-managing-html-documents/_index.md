@@ -56,6 +56,10 @@ Leer hoe u HTML-documenten laadt uit streams met Aspose.HTML voor Java. Deze gid
 Leer hoe u HTML-documenten van strings maakt in Aspose.HTML voor Java met deze stapsgewijze handleiding.
 ### [HTML-documenten laden vanaf URL in Aspose.HTML voor Java](./load-html-documents-from-url/)
 Ontdek hoe u eenvoudig HTML-documenten kunt laden vanaf een URL in Java met Aspose.HTML. Inclusief stapsgewijze tutorial.
+### [HTML laden in Java – Stapsgewijze handleiding](./how-to-load-html-in-java-step-by-step-guide/)
+Leer hoe u HTML-bestanden in Java laadt met Aspose.HTML, stap voor stap uitgelegd.
+### [HTML-document laden met Aspose – Snelle Java-gids om paginatitel op te halen](./load-html-document-aspose-quick-java-guide-to-retrieve-page/)
+Leer hoe u met Aspose.HTML in Java een HTML-document laadt en de paginatitel efficiënt ophaalt.
 ### [Genereer nieuwe HTML-documenten met Aspose.HTML voor Java](./generate-new-html-documents/)
 Leer hoe u nieuwe HTML-documenten maakt met Aspose.HTML voor Java met deze eenvoudige stapsgewijze handleiding. Begin met het genereren van dynamische HTML-inhoud.
 ### [Documentlaadgebeurtenissen afhandelen in Aspose.HTML voor Java](./handle-document-load-events/)

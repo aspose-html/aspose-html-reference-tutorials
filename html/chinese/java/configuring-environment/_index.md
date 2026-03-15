@@ -117,6 +117,9 @@ A: 沙箱会限制某些 API（例如 `window.open`），但普通的 DOM 操作
 ### [在 Aspose.HTML for Java 中设置用户样式表](./set-user-style-sheet/)
 了解如何在 Aspose.HTML for Java 中设置自定义用户样式表，提升文档样式并轻松将 HTML 转换为 PDF。
 
+### [在 Java 中创建沙箱 – 完整指南](./how-to-create-sandbox-in-java-full-guide/)
+本完整指南详细说明了在 Java 环境中使用 Aspose.HTML 创建沙箱的步骤，确保安全可靠的 HTML 转 PDF 转换。
+
 ---
 
 **最后更新：** 2025-12-03  
