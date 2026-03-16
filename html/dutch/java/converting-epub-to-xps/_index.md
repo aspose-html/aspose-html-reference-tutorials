@@ -108,13 +108,6 @@ Het converteren van EPUB naar XPS is een waardevolle vaardigheid, en met Aspose.
 
 Mis de kans niet om je content universeel toegankelijk en professioneel opgemaakt te maken. Begin vandaag nog met Aspose.HTML voor Java en geniet van naadloze EPUB‑naar‑XPS‑conversies!
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-01-09  
@@ -122,3 +115,10 @@ Mis de kans niet om je content universeel toegankelijk en professioneel opgemaak
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

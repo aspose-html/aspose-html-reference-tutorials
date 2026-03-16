@@ -116,25 +116,25 @@ Door gebruik te maken van **Aspose HTML Save Options** krijgt u precieze control
 
 ## Veelgestelde vragen
 
-**Q: What is Aspose.HTML for Java?**  
-A: Het is een Java‑bibliotheek die ontwikkelaars in staat stelt HTML, EPUB en andere web‑gebaseerde documenten te maken, bewerken, renderen en converteren zonder een browser nodig te hebben.
+**V: Wat is Aspose.HTML voor Java?**
+A: Het is een Java-bibliotheek die ontwikkelaars in staat stelt HTML, EPUB en andere web-gebaseerde documenten te maken, bewerken, renderen en converteren zonder een browser nodig te hebben.
 
-**Q: Can I use this in a commercial project?**  
-A: Ja. Voor productiegebruik heeft u een geldige licentie nodig. U kunt er een aanschaffen op de [purchase page](https://purchase.aspose.com/buy).
+**V: Kan ik dit gebruiken in een commercieel project?**
+EEN:Ja. Voor productiegebruik heeft u een geldige licentie nodig. U kunt er een kopen op de [aankooppagina](https://purchase.aspose.com/buy).
 
-**Q: Is there a free trial available?**  
-A: Absoluut. Download een proefversie van [here](https://releases.aspose.com/).
+**V: Is er een gratis proefperiode beschikbaar?**
+A: Absoluut. Download [hier](https://releases.aspose.com/) een proefversie van.
 
-**Q: Where can I get support?**  
+**V: Waar kan ik ondersteuning krijgen?**
 A: Community‑ondersteuning en officiële assistentie zijn beschikbaar via de Aspose‑forums op [https://forum.aspose.com/](https://forum.aspose.com/).
 
-**Q: What are the system requirements?**  
-A: Een Java Development Kit (JDK) 8+ en een besturingssysteem dat wordt ondersteund door de Aspose‑runtime. Zorg ervoor dat uw omgeving voldoet aan de eerder genoemde voorvereisten.
+**V: Wat zijn de systeemvereisten?**
+A: Een Java Development Kit (JDK) 8+ en een besturingssysteem dat wordt ondersteund door de Aspose‑runtime. Zorg ervoor dat uw omgeving voldoet aan de eerder genoemde vereisten.
 
 ---
 
-**Laatst bijgewerkt:** 2026-01-09  
-**Getest met:** Aspose.HTML for Java 24.12  
+**Laatst bijgewerkt:** 09-01-2026
+**Getest voldaan:** Aspose.HTML voor Java 24.12
 **Auteur:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

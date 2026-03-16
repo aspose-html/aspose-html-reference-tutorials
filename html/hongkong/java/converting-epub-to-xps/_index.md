@@ -110,15 +110,15 @@ A: 使用檢視器（例如 Windows XPS Viewer）開啟產生的 XPS，並將版
 
 別錯過讓您的內容普遍可存取且具專業排版的機會。立即開始使用 Aspose.HTML for Java，享受無縫的 EPUB 到 XPS 轉換體驗！
 
+---
+
+**Last Updated:** 2026-01-09  
+**Tested With:** Aspose.HTML for Java 24.12  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-09  
-**Tested With:** Aspose.HTML for Java 24.12  
-**Author:** Aspose

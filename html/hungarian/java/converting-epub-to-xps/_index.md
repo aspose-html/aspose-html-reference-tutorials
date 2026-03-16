@@ -113,15 +113,15 @@ Az EPUB‑t XPS‑re konvertálni értékes képesség, és az Aspose.HTML for J
 
 Ne hagyja ki a lehetőséget, hogy tartalma univerzálisan hozzáférhető és professzionálisan formázott legyen. Kezdje el még ma az Aspose.HTML for Java használatát, és élvezze a zökkenőmentes EPUB‑XPS konverciókat!
 
+---
+
+**Last Updated:** 2026-01-09  
+**Tested With:** Aspose.HTML for Java 24.12  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-09  
-**Tested With:** Aspose.HTML for Java 24.12  
-**Author:** Aspose

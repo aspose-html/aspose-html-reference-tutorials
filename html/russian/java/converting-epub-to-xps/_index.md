@@ -112,15 +112,15 @@ A: Откройте полученный XPS в просмотрщике (нап
 
 Не упустите возможность сделать ваш контент универсально доступным и профессионально оформленным. Начните работать с Aspose.HTML for Java уже сегодня и наслаждайтесь бесшовной конвертацией EPUB в XPS!
 
+---
+
+**Last Updated:** 2026-01-09  
+**Tested With:** Aspose.HTML for Java 24.12  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-09  
-**Tested With:** Aspose.HTML for Java 24.12  
-**Author:** Aspose

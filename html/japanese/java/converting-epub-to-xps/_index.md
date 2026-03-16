@@ -111,15 +111,15 @@ EPUB を XPS に変換することは有用なスキルであり、Aspose.HTML f
 
 コンテンツを普遍的にアクセス可能でプロフェッショナルにフォーマットする機会をお見逃しなく。今すぐ Aspose.HTML for Java を始めて、シームレスな EPUB から XPS への変換を体験してください！
 
+---
+
+**最終更新日:** 2026-01-09  
+**テスト環境:** Aspose.HTML for Java 24.12  
+**作者:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最終更新日:** 2026-01-09  
-**テスト環境:** Aspose.HTML for Java 24.12  
-**作者:** Aspose

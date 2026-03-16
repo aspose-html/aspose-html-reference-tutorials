@@ -113,15 +113,15 @@ EPUB को XPS में बदलना एक मूल्यवान कौ
 
 अपने कंटेंट को सार्वभौमिक रूप से सुलभ और पेशेवर रूप से फ़ॉर्मेटेड बनाने का अवसर न चूकें। आज ही Java के लिए Aspose.HTML के साथ शुरुआत करें और सहज EPUB से XPS परिवर्तन का आनंद लें!
 
+---
+
+**अंतिम अपडेट:** 2026-01-09  
+**परीक्षित संस्करण:** Aspose.HTML for Java 24.12  
+**लेखक:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**अंतिम अपडेट:** 2026-01-09  
-**परीक्षित संस्करण:** Aspose.HTML for Java 24.12  
-**लेखक:** Aspose
