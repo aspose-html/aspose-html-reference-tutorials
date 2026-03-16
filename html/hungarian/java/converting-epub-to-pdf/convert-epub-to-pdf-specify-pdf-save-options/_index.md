@@ -5,7 +5,7 @@ description: Ismerje meg, hogyan konvertálhat EPUB-ot PDF-re Java-ban az Aspose
   állít be.
 linktitle: Specifying PDF Save Options for EPUB to PDF
 second_title: Java HTML Processing with Aspose.HTML
-title: 'Egyéni PDF oldalméret: PDF mentési beállítások megadása EPUB‑ból PDF‑be'
+title: 'Egyéni PDF oldalméret - PDF mentési beállítások megadása EPUB‑ból PDF‑be'
 url: /hu/java/converting-epub-to-pdf/convert-epub-to-pdf-specify-pdf-save-options/
 weight: 12
 ---

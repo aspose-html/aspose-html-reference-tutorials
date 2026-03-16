@@ -4,7 +4,7 @@ description: Naučte se, jak v Javě převést EPUB na PDF pomocí Aspose.HTML a
   vlastní velikost stránky PDF a další možnosti ukládání PDF.
 linktitle: Specifying PDF Save Options for EPUB to PDF
 second_title: Java HTML Processing with Aspose.HTML
-title: 'Vlastní velikost stránky PDF: Specifikace možností uložení PDF pro EPUB do
+title: 'Vlastní velikost stránky PDF - Specifikace možností uložení PDF pro EPUB do
   PDF'
 url: /cs/java/converting-epub-to-pdf/convert-epub-to-pdf-specify-pdf-save-options/
 weight: 12

@@ -4,7 +4,7 @@ description: Aspose.HTML를 사용하여 Java에서 EPUB를 PDF로 변환하고,
   저장 옵션을 설정하는 방법을 배웁니다.
 linktitle: Specifying PDF Save Options for EPUB to PDF
 second_title: Java HTML Processing with Aspose.HTML
-title: '맞춤 PDF 페이지 크기: EPUB을 PDF로 변환할 때 PDF 저장 옵션 지정'
+title: '맞춤 PDF 페이지 크기 - EPUB을 PDF로 변환할 때 PDF 저장 옵션 지정'
 url: /ko/java/converting-epub-to-pdf/convert-epub-to-pdf-specify-pdf-save-options/
 weight: 12
 ---

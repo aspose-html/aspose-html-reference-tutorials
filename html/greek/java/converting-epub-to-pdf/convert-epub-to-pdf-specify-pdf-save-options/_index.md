@@ -4,7 +4,7 @@ description: Μάθετε πώς να μετατρέπετε EPUB σε PDF σε 
   προσαρμοσμένο μέγεθος σελίδας PDF και άλλες επιλογές αποθήκευσης PDF.
 linktitle: Specifying PDF Save Options for EPUB to PDF
 second_title: Java HTML Processing with Aspose.HTML
-title: 'Προσαρμοσμένο μέγεθος σελίδας PDF: Καθορισμός επιλογών αποθήκευσης PDF για
+title: 'Προσαρμοσμένο μέγεθος σελίδας PDF - Καθορισμός επιλογών αποθήκευσης PDF για
   EPUB σε PDF'
 url: /el/java/converting-epub-to-pdf/convert-epub-to-pdf-specify-pdf-save-options/
 weight: 12

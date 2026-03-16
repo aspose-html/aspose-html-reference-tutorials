@@ -4,7 +4,7 @@ description: Dowiedz się, jak konwertować EPUB na PDF w Javie przy użyciu Asp
   ustawiając niestandardowy rozmiar strony PDF oraz inne opcje zapisu PDF.
 linktitle: Specifying PDF Save Options for EPUB to PDF
 second_title: Java HTML Processing with Aspose.HTML
-title: 'Niestandardowy rozmiar strony PDF: Określanie opcji zapisu PDF dla konwersji
+title: 'Niestandardowy rozmiar strony PDF - Określanie opcji zapisu PDF dla konwersji
   EPUB do PDF'
 url: /pl/java/converting-epub-to-pdf/convert-epub-to-pdf-specify-pdf-save-options/
 weight: 12

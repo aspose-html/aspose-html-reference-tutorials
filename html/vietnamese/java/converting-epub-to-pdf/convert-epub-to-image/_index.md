@@ -111,15 +111,15 @@ Sau khi quá trình chuyển đổi hoàn tất, truy cập thư mục đầu ra
 
 Bạn đã học cách **chuyển đổi EPUB sang hình ảnh** nhanh chóng và đáng tin cậy bằng **Aspose HTML cho Java**. Chỉ với vài dòng mã, bạn có thể tạo ra JPEG, PNG hoặc các định dạng hình ảnh khác, giúp nội dung EPUB của bạn sẵn sàng cho thumbnail web, slide deck hoặc bộ sưu tập offline. Hãy khám phá xử lý batch, thử nghiệm các tùy chọn hình ảnh khác nhau và tích hợp khả năng này vào các ứng dụng Java của bạn.
 
+---
+
+**Cập nhật lần cuối:** 2026-01-02  
+**Đã kiểm thử với:** Aspose.HTML for Java 24.12  
+**Tác giả:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Cập nhật lần cuối:** 2026-01-02  
-**Đã kiểm thử với:** Aspose.HTML for Java 24.12  
-**Tác giả:** Aspose

@@ -110,15 +110,15 @@ Converter.convertEPUB(
 
 คุณได้เรียนรู้วิธี **แปลง EPUB เป็นรูปภาพ** อย่างรวดเร็วและเชื่อถือได้ด้วย **Aspose HTML for Java** เพียงไม่กี่บรรทัดของโค้ด คุณสามารถสร้าง JPEG, PNG หรือรูปแบบภาพอื่น ๆ ทำให้เนื้อหา EPUB ของคุณพร้อมใช้เป็นรูปภาพขนาดย่อสำหรับเว็บ, สไลด์, หรือแกลเลอรีออฟไลน์ ลองสำรวจการประมวลผลแบบแบช, ทดลองตัวเลือกภาพต่าง ๆ, และผสานความสามารถนี้เข้าในแอปพลิเคชัน Java ของคุณเอง
 
+---
+
+**อัปเดตล่าสุด:** 2026-01-02  
+**ทดสอบกับ:** Aspose.HTML for Java 24.12  
+**ผู้เขียน:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**อัปเดตล่าสุด:** 2026-01-02  
-**ทดสอบกับ:** Aspose.HTML for Java 24.12  
-**ผู้เขียน:** Aspose

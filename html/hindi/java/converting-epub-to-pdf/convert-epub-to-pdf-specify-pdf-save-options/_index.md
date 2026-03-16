@@ -4,7 +4,7 @@ description: Aspose.HTML का उपयोग करके जावा मे
   कस्टम PDF पेज आकार और अन्य PDF सहेजने के विकल्प सेट करें।
 linktitle: Specifying PDF Save Options for EPUB to PDF
 second_title: Java HTML Processing with Aspose.HTML
-title: 'कस्टम PDF पेज आकार: EPUB से PDF के लिए PDF सहेजने के विकल्प निर्दिष्ट करना'
+title: 'कस्टम PDF पेज आकार - EPUB से PDF के लिए PDF सहेजने के विकल्प निर्दिष्ट करना'
 url: /hi/java/converting-epub-to-pdf/convert-epub-to-pdf-specify-pdf-save-options/
 weight: 12
 ---

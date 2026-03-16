@@ -3,7 +3,7 @@ date: 2026-01-02
 description: 了解如何在 Java 中使用 Aspose.HTML 将 EPUB 转换为 PDF，同时设置自定义 PDF 页面大小和其他 PDF 保存选项。
 linktitle: Specifying PDF Save Options for EPUB to PDF
 second_title: Java HTML Processing with Aspose.HTML
-title: 自定义 PDF 页面尺寸：为 EPUB 转 PDF 指定 PDF 保存选项
+title: 自定义 PDF 页面尺寸 - 为 EPUB 转 PDF 指定 PDF 保存选项
 url: /zh/java/converting-epub-to-pdf/convert-epub-to-pdf-specify-pdf-save-options/
 weight: 12
 ---

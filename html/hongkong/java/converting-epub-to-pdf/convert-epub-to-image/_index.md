@@ -114,15 +114,15 @@ A: 前往 Aspose 社群論壇 https://forum.aspose.com/（[https://forum.aspose.
 
 您現在已學會如何使用 **Aspose HTML for Java** 快速且可靠地 **convert EPUB to image** 檔案。只需幾行程式碼，即可產生 JPEG、PNG 或其他圖像格式，讓您的 EPUB 內容可用於網站縮圖、投影片或離線圖庫。探索批次處理、嘗試不同的圖像選項，並將此功能整合至您自己的 Java 應用程式中。
 
+---
+
+**最後更新：** 2026-01-02  
+**測試環境：** Aspose.HTML for Java 24.12  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最後更新：** 2026-01-02  
-**測試環境：** Aspose.HTML for Java 24.12  
-**作者：** Aspose

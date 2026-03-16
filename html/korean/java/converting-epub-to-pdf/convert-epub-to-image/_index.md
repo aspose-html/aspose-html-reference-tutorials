@@ -110,15 +110,15 @@ A: [https://forum.aspose.com/](https://forum.aspose.com/)에서 Aspose 커뮤니
 
 이제 **Aspose HTML for Java**를 사용해 **EPUB을 이미지 파일**로 빠르고 안정적으로 변환하는 방법을 배웠습니다. 몇 줄의 코드만으로 JPEG, PNG 등 다양한 이미지 형식을 생성해 EPUB 콘텐츠를 웹 썸네일, 슬라이드 자료, 오프라인 갤러리 등으로 활용할 수 있습니다. 배치 처리에 도전하고, 다양한 이미지 옵션을 실험해 보며, 이 기능을 여러분의 Java 애플리케이션에 통합해 보세요.
 
+---
+
+**마지막 업데이트:** 2026-01-02  
+**테스트 환경:** Aspose.HTML for Java 24.12  
+**작성자:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**마지막 업데이트:** 2026-01-02  
-**테스트 환경:** Aspose.HTML for Java 24.12  
-**작성자:** Aspose

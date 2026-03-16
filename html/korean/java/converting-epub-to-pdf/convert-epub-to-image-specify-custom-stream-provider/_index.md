@@ -110,43 +110,21 @@ try (java.io.FileOutputStream fileOutputStream = new java.io.FileOutputStream(Re
 
 축하합니다! 이제 Aspose.HTML for Java와 사용자 정의 스트림 제공자를 사용해 **EPUB에서 이미지 추출**하는 방법을 성공적으로 배웠습니다. 이 강력한 접근 방식은 이미지 데이터를 디스크에 저장하든, 네트워크를 통해 전송하든, 데이터베이스에 보관하든 필요한 위치에서 정확히 처리할 수 있는 유연성을 제공합니다.
 
-## 자주 묻는 질문
-
-### 1. Aspose.HTML for Java란?
-
-Aspose.HTML for Java는 Java 개발자가 HTML, EPUB 및 기타 웹 관련 형식을 작업할 수 있게 해 주는 라이브러리입니다.
-
-### 2. Aspose.HTML for Java에 대한 문서는 어디서 찾을 수 있나요?
-
-문서는 [여기](https://reference.aspose.com/html/java/)에서 확인할 수 있습니다.
-
-### 3. 무료 체험판을 제공하나요?
-
-예, Aspose.HTML for Java의 무료 체험판을 [여기](https://releases.aspose.com/)에서 받을 수 있습니다.
-
-### 4. Aspose.HTML for Java용 임시 라이선스는 어떻게 얻나요?
-
-임시 라이선스는 [여기](https://purchase.aspose.com/temporary-license/)에서 얻을 수 있습니다.
-
-### 5. Aspose.HTML for Java에 대한 지원은 어디서 받을 수 있나요?
-
-지원은 [Aspose 포럼](https://forum.aspose.com/)에서 받을 수 있습니다.
-
 ## 추가 자주 묻는 질문
 
-**Q: How do I convert EPUB to PNG instead of JPEG?**  
-A: `ImageSaveOptions`의 `ImageFormat`을 `ImageFormat.Png`로 변경하고 파일 확장자를 그에 맞게 조정하면 됩니다.
+**Q: JPEG 대신 EPUB를 PNG로 어떻게 변환합니까?**
+A: `ImageSaveOptions`의 `ImageFormat`을 `ImageFormat.Png`로 변경하고 파일을 확장하도록 하면 조정됩니다.
 
-**Q: Can I extract only specific pages from an EPUB?**  
-A: 예, `lStream` 컬렉션을 반복하면서 원하는 인덱스를 선택한 후 파일에 기록하면 됩니다.
+**Q: EPUB에서 특정 페이지만 추출할 수 있나요?**
+A: 예, `lStream` 컬렉션을 반복하여 원하는 대상을 선택 후 파일에 기록하면 됩니다.
 
-**Q: Is it possible to run this conversion in a cloud function without writing to disk?**  
-A: 물론입니다. 변환 결과가 메모리 스트림에 저장되므로 클라우드 함수에서 바로 바이트 배열을 반환할 수 있습니다.
+**Q: 디스크에 쓰지 않고 클라우드 기능에서 이 변환을 실행할 수 있습니까?**
+A: 물론입니다. 변환 결과가 메모리 스트림에 저장되어 클라우드에서 바로 바이트 배열을 반환할 수 있습니다.
 
-**Q: Does Aspose.HTML support DRM‑protected EPUB files?**  
-A: 라이브러리는 암호화되지 않은 EPUB을 열 수 있습니다. DRM‑보호된 파일은 변환 전에 보호를 해제해야 합니다.
+**Q: Aspose.HTML은 DRM 보호 EPUB 파일을 지원합니까?**
+A: 도서관에는 EPUB가 없습니다. 열 수 있습니다. DRM 보호된 파일은 변환하기 전에 보호를 받아야 합니다.
 
-**Q: What version of Aspose.HTML is required for this feature?**  
+**Q: 이 기능을 사용하려면 어떤 버전의 Aspose.HTML이 필요합니까?** 
 A: `MemoryStreamProvider` 클래스는 Aspose.HTML 22.9 이상에서 사용할 수 있습니다.
 
 ---

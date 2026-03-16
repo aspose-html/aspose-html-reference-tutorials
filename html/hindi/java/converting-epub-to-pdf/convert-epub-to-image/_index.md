@@ -111,15 +111,15 @@ Converter.convertEPUB(
 
 आपने अब **Aspose HTML for Java** का उपयोग करके **EPUB को इमेज** फ़ाइलों में तेज़ और भरोसेमंद रूप से बदलना सीख लिया है। कुछ ही लाइनों के कोड से आप JPEG, PNG या अन्य इमेज फ़ॉर्मैट जेनरेट कर सकते हैं, जिससे आपका EPUB कंटेंट वेब थंबनेल, स्लाइड डेक या ऑफ़लाइन गैलरी के लिए तैयार हो जाता है। बैच प्रोसेसिंग का अन्वेषण करें, विभिन्न इमेज विकल्पों के साथ प्रयोग करें, और इस क्षमता को अपने Java एप्लिकेशन में इंटीग्रेट करें।
 
+---
+
+**अंतिम अपडेट:** 2026-01-02  
+**टेस्टेड विथ:** Aspose.HTML for Java 24.12  
+**लेखक:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**अंतिम अपडेट:** 2026-01-02  
-**टेस्टेड विथ:** Aspose.HTML for Java 24.12  
-**लेखक:** Aspose

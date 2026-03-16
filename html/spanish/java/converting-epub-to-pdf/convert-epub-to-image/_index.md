@@ -111,15 +111,15 @@ R: Visite los foros de la comunidad de Aspose en [https://forum.aspose.com/](htt
 
 Ahora ha aprendido cómo **convertir EPUB a imagen** de forma rápida y fiable usando **Aspose HTML para Java**. Con solo unas pocas líneas de código puede generar JPEG, PNG u otros formatos de imagen, preparando su contenido EPUB para miniaturas web, presentaciones o galerías sin conexión. Explore el procesamiento por lotes, experimente con diferentes opciones de imagen e integre esta capacidad en sus propias aplicaciones Java.
 
+---
+
+**Last Updated:** 2026-01-02  
+**Tested With:** Aspose.HTML for Java 24.12  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-02  
-**Tested With:** Aspose.HTML for Java 24.12  
-**Author:** Aspose

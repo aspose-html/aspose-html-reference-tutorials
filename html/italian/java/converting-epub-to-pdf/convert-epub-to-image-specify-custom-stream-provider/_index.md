@@ -112,28 +112,6 @@ try (java.io.FileOutputStream fileOutputStream = new java.io.FileOutputStream(Re
 
 Congratulazioni! Hai imparato con successo come **estrarre immagini da EPUB** usando Aspose.HTML per Java e un provider di stream personalizzato. Questo approccio potente ti offre la flessibilità di gestire i dati delle immagini esattamente dove ti servono—che sia salvare su disco, inviare su una rete o memorizzare in un database.
 
-## FAQ
-
-### 1. Cos'è Aspose.HTML per Java?
-
-Aspose.HTML per Java è una libreria che consente agli sviluppatori Java di lavorare con HTML, EPUB e altri formati correlati al web.
-
-### 2. Dove posso trovare la documentazione per Aspose.HTML per Java?
-
-Puoi trovare la documentazione [qui](https://reference.aspose.com/html/java/).
-
-### 3. È disponibile una versione di prova gratuita?
-
-Sì, puoi ottenere una versione di prova gratuita di Aspose.HTML per Java [qui](https://releases.aspose.com/).
-
-### 4. Come posso ottenere una licenza temporanea per Aspose.HTML per Java?
-
-Puoi ottenere una licenza temporanea [qui](https://purchase.aspose.com/temporary-license/).
-
-### 5. Dove posso ottenere supporto per Aspose.HTML per Java?
-
-Puoi trovare supporto sul [forum Aspose](https://forum.aspose.com/).
-
 ## Ulteriori Domande Frequenti
 
 **Q: Come converto EPUB in PNG invece di JPEG?**  

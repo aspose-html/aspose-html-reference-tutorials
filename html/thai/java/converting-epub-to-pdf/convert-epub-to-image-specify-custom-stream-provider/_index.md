@@ -15,27 +15,27 @@ weight: 15
 
 # ดึงรูปภาพจาก EPUB – กำหนด Custom Stream Provider สำหรับการแปลง EPUB เป็นรูปภาพ
 
-## Quick Answers
-- **บทเรียนนี้สอนอะไร?** วิธีดึงรูปภาพจาก EPUB และบันทึกเป็นไฟล์ JPEG โดยใช้ custom stream provider.  
-- **ต้องใช้ไลบรารีอะไร?** Aspose.HTML for Java.  
-- **ต้องการไลเซนส์หรือไม่?** จำเป็นต้องมีไลเซนส์ชั่วคราวหรือเต็มสำหรับการใช้งานในสภาพแวดล้อมการผลิต.  
-- **รูปแบบเอาต์พุตที่แสดงคืออะไร?** JPEG (คุณสามารถเปลี่ยนเป็น PNG, BMP ฯลฯ โดยการเปลี่ยน `ImageFormat`).  
-- **จำนวนบรรทัดของโค้ด?** มีเพียงห้าบล็อกโค้ดสั้น ๆ – ส่วนอื่นทั้งหมดเป็นคำแนะนำเป็นภาษาอังกฤษธรรมดา.
+## คำตอบด่วน
+- **บทเรียนนี้สอนอะไร?** วิธีดึงรูปภาพจาก EPUB และบันทึกเป็นไฟล์ JPEG สำหรับผู้ให้บริการสตรีมแบบกำหนดเอง
+- **ต้องใช้ไลบรารีอะไร?** Aspose.HTML for Java
+- **ต้องการไลเซนส์หรือไม่?** ต้องการไลเซนส์ชั่วคราวหรือเต็มรูปแบบสำหรับการผลิต
+- ** รูปแบบนี้เพิ่มมากขึ้นคืออะไร?** JPEG ( คุณสามารถใช้ PNG, BMP และอื่นๆ โดยอาศัย `ImageFormat`)
+- **จำนวนบรรทัดของโค้ด?**มีเพียงห้าบล็อกโค้ดสั้น – ส่วนอื่นๆ ทั้งหมดเป็นคำแนะนำเป็นภาษาอังกฤษธรรมดาๆ.
 
-## How to extract images from EPUB using a custom stream provider?
-ก่อนจะลงลึกในโค้ด เรามาเข้าใจว่าทำไม **custom stream provider** จึงมีประโยชน์ การส่งออกการแปลงไปยัง memory stream แทนการใช้ระบบไฟล์จะทำให้คุณควบคุมได้เต็มที่ว่าข้อมูลภาพจะถูกจัดเก็บที่ไหนและอย่างไร – เหมาะอย่างยิ่งสำหรับเว็บเซอร์วิส, ฟังก์ชันคลาวด์, หรือสถานการณ์ใด ๆ ที่ต้องการหลีกเลี่ยงไฟล์ชั่วคราว.
+## จะดึงภาพจาก EPUB โดยใช้ผู้ให้บริการสตรีมแบบกำหนดเองได้อย่างไร
+เหตุการณ์ลงลึกในโค้ดมักจะเข้าใจว่าทำไม **ผู้ให้บริการสตรีมแบบกำหนดเอง** เอกสารที่มีความสำคัญต่อเซิร์ฟเวอร์, ฟังก์ชั่นเซิร์ฟเวอร์, หรือสถานการณ์ใดๆ ที่ต้องการจะควบคุมไฟล์ชั่วคราว
 
-## Prerequisites
+## ข้อกำหนดเบื้องต้น
 
-1. **Java Development Environment** – ตรวจสอบให้แน่ใจว่า Java ได้รับการติดตั้งอย่างถูกต้องบนระบบของคุณ คุณสามารถดาวน์โหลด Java จากเว็บไซต์ได้.  
-2. **Aspose.HTML for Java Library** – คุณต้องรับ Aspose.HTML for Java library คุณสามารถหาได้จาก [here](https://releases.aspose.com/html/java/).  
-3. **Aspose.HTML Documentation** – เอกสารสำหรับ Aspose.HTML for Java สามารถหาได้จาก [here](https://reference.aspose.com/html/java/).  
-4. **IDE (Integrated Development Environment)** – คุณสามารถเลือก IDE ที่รองรับ Java ใดก็ได้ เช่น Eclipse หรือ IntelliJ IDEA.
+1. **Java Development Environment** – การควบคุม Java สามารถดูได้จากการดาวน์โหลดบนระบบของคุณ ดาวน์โหลด Java จากเว็บไซต์ได้
+2. **Aspose.HTML for Java Library** – เอกสารรับ Aspose.HTML for Java Library คุณไม่จำเป็นต้องทำอะไรเลย [ที่นี่](https://releases.aspose.com/html/java/)
+3. **Aspose.HTML Documentation** – เอกสารสำหรับ Aspose.HTML for Java สามารถหาได้จาก [ที่นี่](https://reference.aspose.com/html/java/)
+4. **IDE (Integrated Development Environment)** – ไฟล์ IDE รองรับ Java เวลส์ เช่น Eclipse หรือ IntelliJ IDEA
 
-## Import Packages
-ในส่วนนี้ เราจะชี้แนะขั้นตอนการนำเข้าแพ็กเกจที่จำเป็นเพื่อเริ่มต้นใช้งาน Aspose.HTML for Java.
+## แพคเกจนำเข้า
+นี่คือคำแนะนำเบื้องต้นในการนำเข้าระบบปฏิบัติการเพื่อเริ่มต้นการใช้งาน Aspose.HTML สำหรับ Java
 
-## Open an Existing EPUB File
+## เปิดไฟล์ EPUB ที่มีอยู่
 ก่อนอื่น คุณต้องเปิดไฟล์ EPUB ที่มีอยู่เพื่ออ่าน นี่คือตัวอย่างวิธีทำ:
 
 ```java
@@ -44,7 +44,7 @@ try (java.io.FileInputStream fileInputStream = new java.io.FileInputStream(Resou
 }
 ```
 
-## Create a MemoryStreamProvider
+## สร้าง MemoryStreamProvider
 เพื่อแปลง EPUB เป็นภาพ คุณต้องสร้างอินสแตนซ์ของ `MemoryStreamProvider`:
 
 ```java
@@ -53,7 +53,7 @@ try (MemoryStreamProvider streamProvider = new MemoryStreamProvider()) {
 }
 ```
 
-## Convert EPUB to Image
+## แปลง EPUB เป็นรูปภาพ
 ต่อไป เราจะทำการแปลงไฟล์ EPUB เป็นภาพโดยใช้ `MemoryStreamProvider` ขั้นตอนนี้ **แปลง EPUB เป็น JPEG** (คุณสามารถเปลี่ยนรูปแบบเป็น PNG หรือ BMP ได้หากต้องการ).
 
 ```java
@@ -64,7 +64,7 @@ com.aspose.html.converters.Converter.convertEPUB(
 );
 ```
 
-## Access Memory Streams
+## เข้าถึง Memory Streams
 คุณสามารถเข้าถึง memory stream ที่บรรจุข้อมูลภาพที่ได้ดังนี้:
 
 ```java
@@ -75,7 +75,7 @@ for (int i = 0; i < size; i++) {
 }
 ```
 
-## Flush the Page to Output File
+## บันทึกหน้าลงในไฟล์เอาต์พุต
 สุดท้าย คุณต้องเขียนแต่ละ image stream ไปยังไฟล์จริง ตัวอย่างนี้บันทึกแต่ละหน้าเป็นไฟล์ JPEG แยกกัน:
 
 ```java
@@ -86,39 +86,22 @@ try (java.io.FileOutputStream fileOutputStream = new java.io.FileOutputStream(Re
 }
 ```
 
-## Why convert EPUB to JPEG?
+## ทำไมต้องแปลง EPUB เป็น JPEG
 
-- **ความเข้ากันได้ทั่วโลก** – ภาพ JPEG สามารถแสดงบนอุปกรณ์หรือแพลตฟอร์มเกือบทุกประเภท.  
-- **การบูรณาการที่ง่าย** – ใช้ภาพที่ดึงออกมาในเว็บเพจ, แอปมือถือ, หรือเอกสารโดยไม่ต้องใช้ EPUB reader.  
-- **ประสิทธิภาพ** – การแสดงผลภาพคงที่เร็วกว่าโหลด EPUB ทั้งไฟล์ ซึ่งเหมาะสำหรับภาพย่อหรือพรีวิว.
+- ** บันทึกทั่วโลก** – ภาพ JPEG แสดงหรือแพลตฟอร์มที่รองรับประเภทต่างๆ
+- **การวิธีการที่ง่าย** – ใช้สำหรับการดึงออกมาในเว็บเพจ, คุณสามารถใช้มือถือ, หรือเอกสารโดยไม่ต้องใช้โปรแกรมอ่าน EPUB
+- **นักแสดง** – ตรวจสอบภาพในช่วงเวลาที่โหลด EPUB ทั้งไฟล์ที่เหมาะสำหรับภาพขนาดย่อหรือพรีวิว
 
-## Common Pitfalls & Tips
+## ข้อผิดพลาดและเคล็ดลับทั่วไป
 
-- **การจัดการหน่วยความจำ** – ปิด stream เสมอ (`try‑with‑resources` ถูกใช้ข้างต้น) เพื่อหลีกเลี่ยงการรั่วไหลของหน่วยความจำ.  
-- **EPUB ขนาดใหญ่** – สำหรับหนังสือที่มีหลายหน้า พิจารณาประมวลผล stream เป็นชุดเพื่อรักษาการใช้หน่วยความจำให้ต่ำ.  
-- **คุณภาพภาพ** – ปรับ `ImageSaveOptions` (เช่น property `Quality`) หากต้องการเอาต์พุตความละเอียดสูงขึ้น.
+- **การจัดการคำอธิบาย** – ปิดสตรีมเสมอ (`try‑with‑resources` บันทึกการควบคุม) ในการควบคุมของคืนนี้
+- **EPUB ขนาดใหญ่** – สำหรับหนังสือที่มีหลายหน้าพิจารณาว่าสตรีมเป็นชุดที่ต้องใช้เหตุผลให้ต่ำ
+- **คุณภาพภาพ** – โบสถ์ `ImageSaveOptions` (เช่นคุณสมบัติ `คุณภาพ`) อีกครั้งหนึ่งที่ความละเอียดสูงขึ้น
 
-## Conclusion
-ขอแสดงความยินดี! คุณได้เรียนรู้วิธี **ดึงรูปภาพจาก EPUB** ด้วย Aspose.HTML for Java และ custom stream provider อย่างสำเร็จ วิธีการที่ทรงพลังนี้ให้ความยืดหยุ่นในการจัดการข้อมูลภาพตรงตามที่คุณต้องการ ไม่ว่าจะเป็นการบันทึกลงดิสก์, ส่งผ่านเครือข่าย, หรือเก็บในฐานข้อมูล.
+## บทสรุป
+บทความ! พบกับ **ดึงรูปภาพจาก EPUB** ด้วย Aspose.HTML สำหรับ Java และผู้ให้บริการสตรีมแบบกำหนดเองเช่นความสำเร็จวิธีที่นี้ให้คุณสมบัติของภาพข้อมูลโดยตรงที่ต้องใช้ลงไปในนั้น, ส่งผ่านเครือข่าย, หรือเก็บในทางเทคนิค
 
-## FAQs
-
-### 1. What is Aspose.HTML for Java?
-Aspose.HTML for Java คือไลบรารีที่ช่วยให้นักพัฒนา Java ทำงานกับ HTML, EPUB และรูปแบบเว็บอื่น ๆ
-
-### 2. Where can I find the documentation for Aspose.HTML for Java?
-คุณสามารถหาเอกสารได้จาก [here](https://reference.aspose.com/html/java/).
-
-### 3. Is there a free trial available?
-ใช่ คุณสามารถรับการทดลองใช้ฟรีของ Aspose.HTML for Java [here](https://releases.aspose.com/).
-
-### 4. How can I get a temporary license for Aspose.HTML for Java?
-คุณสามารถรับไลเซนส์ชั่วคราวได้จาก [here](https://purchase.aspose.com/temporary-license/).
-
-### 5. Where can I get support for Aspose.HTML for Java?
-คุณสามารถหาการสนับสนุนได้ที่ [Aspose forums](https://forum.aspose.com/).
-
-## Additional Frequently Asked Questions
+## คำถามที่พบบ่อยเพิ่มเติม
 
 **Q: ฉันจะแปลง EPUB เป็น PNG แทน JPEG อย่างไร?**  
 A: เปลี่ยน `ImageFormat` ใน `ImageSaveOptions` เป็น `ImageFormat.Png` และปรับนามสกุลไฟล์ให้สอดคล้อง.

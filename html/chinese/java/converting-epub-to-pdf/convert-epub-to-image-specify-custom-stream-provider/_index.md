@@ -111,28 +111,6 @@ try (java.io.FileOutputStream fileOutputStream = new java.io.FileOutputStream(Re
 
 恭喜！您已成功学习如何使用 Aspose.HTML for Java 和自定义流提供程序 **从 EPUB 中提取图像**。这种强大的方法为您提供了灵活性，可在需要的地方处理图像数据——无论是保存到磁盘、通过网络发送，还是存储到数据库。
 
-## 常见问答
-
-### 1. 什么是 Aspose.HTML for Java？
-
-Aspose.HTML for Java 是一个库，允许 Java 开发者处理 HTML、EPUB 以及其他与网页相关的格式。
-
-### 2. 在哪里可以找到 Aspose.HTML for Java 的文档？
-
-您可以在 [此处](https://reference.aspose.com/html/java/) 找到文档。
-
-### 3. 是否提供免费试用？
-
-是的，您可以在 [此处](https://releases.aspose.com/) 获取 Aspose.HTML for Java 的免费试用。
-
-### 4. 如何获取 Aspose.HTML for Java 的临时许可证？
-
-您可以在 [此处](https://purchase.aspose.com/temporary-license/) 获取临时许可证。
-
-### 5. 在哪里可以获得 Aspose.HTML for Java 的支持？
-
-您可以在 [Aspose 论坛](https://forum.aspose.com/) 获得支持。
-
 ## 其他常见问题
 
 **问：如何将 EPUB 转换为 PNG 而不是 JPEG？**  

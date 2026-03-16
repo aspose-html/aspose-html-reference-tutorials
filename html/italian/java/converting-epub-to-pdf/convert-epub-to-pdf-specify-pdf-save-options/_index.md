@@ -4,7 +4,7 @@ description: Scopri come convertire EPUB in PDF in Java con Aspose.HTML impostan
   una dimensione di pagina PDF personalizzata e altre opzioni di salvataggio PDF.
 linktitle: Specifying PDF Save Options for EPUB to PDF
 second_title: Java HTML Processing with Aspose.HTML
-title: 'Dimensione pagina PDF personalizzata: specificare le opzioni di salvataggio
+title: 'Dimensione pagina PDF personalizzata - specificare le opzioni di salvataggio
   PDF per EPUB in PDF'
 url: /it/java/converting-epub-to-pdf/convert-epub-to-pdf-specify-pdf-save-options/
 weight: 12

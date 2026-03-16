@@ -1,5 +1,5 @@
 ---
-title: "Custom PDF Page Size: Specifying PDF Save Options for EPUB to PDF"
+title: "Custom PDF Page Size - Specifying PDF Save Options for EPUB to PDF"
 linktitle: Specifying PDF Save Options for EPUB to PDF
 second_title: Java HTML Processing with Aspose.HTML
 description: "Learn how to convert EPUB to PDF in Java with Aspose.HTML while setting a custom PDF page size and other PDF save options."

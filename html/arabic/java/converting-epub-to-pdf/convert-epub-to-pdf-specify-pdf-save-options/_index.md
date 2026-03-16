@@ -4,7 +4,7 @@ description: تعلم كيفية تحويل EPUB إلى PDF في Java باستخ
   صفحة PDF مخصص وخيارات حفظ PDF أخرى.
 linktitle: Specifying PDF Save Options for EPUB to PDF
 second_title: Java HTML Processing with Aspose.HTML
-title: 'حجم صفحة PDF مخصص: تحديد خيارات حفظ PDF من EPUB إلى PDF'
+title: 'حجم صفحة PDF مخصص - تحديد خيارات حفظ PDF من EPUB إلى PDF'
 url: /ar/java/converting-epub-to-pdf/convert-epub-to-pdf-specify-pdf-save-options/
 weight: 12
 ---

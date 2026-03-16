@@ -4,7 +4,7 @@ description: Tìm hiểu cách chuyển đổi EPUB sang PDF trong Java với As
   thời thiết lập kích thước trang PDF tùy chỉnh và các tùy chọn lưu PDF khác.
 linktitle: Specifying PDF Save Options for EPUB to PDF
 second_title: Java HTML Processing with Aspose.HTML
-title: 'Kích thước trang PDF tùy chỉnh: Chỉ định các tùy chọn lưu PDF cho EPUB sang
+title: 'Kích thước trang PDF tùy chỉnh - Chỉ định các tùy chọn lưu PDF cho EPUB sang
   PDF'
 url: /vi/java/converting-epub-to-pdf/convert-epub-to-pdf-specify-pdf-save-options/
 weight: 12

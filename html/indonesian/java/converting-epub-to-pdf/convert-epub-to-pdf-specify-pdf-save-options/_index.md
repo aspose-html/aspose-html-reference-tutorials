@@ -4,7 +4,7 @@ description: Pelajari cara mengonversi EPUB ke PDF dalam Java dengan Aspose.HTML
   mengatur ukuran halaman PDF khusus dan opsi penyimpanan PDF lainnya.
 linktitle: Specifying PDF Save Options for EPUB to PDF
 second_title: Java HTML Processing with Aspose.HTML
-title: 'Ukuran Halaman PDF Kustom: Menentukan Opsi Penyimpanan PDF untuk EPUB ke PDF'
+title: 'Ukuran Halaman PDF Kustom - Menentukan Opsi Penyimpanan PDF untuk EPUB ke PDF'
 url: /id/java/converting-epub-to-pdf/convert-epub-to-pdf-specify-pdf-save-options/
 weight: 12
 ---

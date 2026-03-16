@@ -111,15 +111,15 @@ A: Navštivte komunitní fórum Aspose na adrese [https://forum.aspose.com/](htt
 
 Nyní jste se naučili, jak **převést EPUB na obrázky** rychle a spolehlivě pomocí **Aspose HTML for Java**. Pouhých několik řádků kódu vám umožní generovat JPEG, PNG nebo jiné formáty, čímž připravíte obsah EPUB pro webové miniatury, prezentace nebo offline galerie. Vyzkoušejte hromadné zpracování, experimentujte s různými možnostmi obrázků a integrujte tuto funkci do vlastních Java aplikací.
 
+---
+
+**Poslední aktualizace:** 2026-01-02  
+**Testováno s:** Aspose.HTML for Java 24.12  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Poslední aktualizace:** 2026-01-02  
-**Testováno s:** Aspose.HTML for Java 24.12  
-**Autor:** Aspose

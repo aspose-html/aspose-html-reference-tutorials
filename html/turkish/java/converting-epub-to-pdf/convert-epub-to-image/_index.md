@@ -109,15 +109,15 @@ C: Hem ekip hem de diğer geliştiricilerden destek almak için Aspose topluluk 
 
 Artık **Aspose HTML for Java** kullanarak **EPUB'yi görsele dönüştürme** işlemini hızlı ve güvenilir bir şekilde nasıl yapacağınızı öğrendiniz. Sadece birkaç satır kodla JPEG, PNG veya diğer görüntü formatlarını üretebilir, EPUB içeriğinizi web küçük resimleri, slayt gösterileri veya çevrim dışı galeriler için hazır hâle getirebilirsiniz. Toplu işleme keşfedin, farklı görüntü seçenekleriyle deney yapın ve bu yeteneği kendi Java uygulamalarınıza entegre edin.
 
+---
+
+**Last Updated:** 2026-01-02  
+**Tested With:** Aspose.HTML for Java 24.12  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-02  
-**Tested With:** Aspose.HTML for Java 24.12  
-**Author:** Aspose
