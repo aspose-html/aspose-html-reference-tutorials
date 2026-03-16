@@ -130,13 +130,6 @@ Aspose.HTML for Java 是一套功能強大的函式庫，讓開發者能處理 H
 
 如需更詳細資訊與其他功能，請參考 [documentation](https://reference.aspose.com/html/java/)。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **最後更新：** 2026-01-17  
@@ -144,3 +137,10 @@ Aspose.HTML for Java 是一套功能強大的函式庫，讓開發者能處理 H
 **作者：** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

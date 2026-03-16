@@ -133,15 +133,15 @@ Anda kini tahu cara **create gif from html** menggunakan Aspose.HTML untuk Java.
 
 Untuk informasi lebih detail dan fitur tambahan, lihat [documentation](https://reference.aspose.com/html/java/).
 
+---
+
+**Terakhir Diperbarui:** 2026-01-17  
+**Diuji Dengan:** Aspose.HTML for Java 24.11  
+**Penulis:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Terakhir Diperbarui:** 2026-01-17  
-**Diuji Dengan:** Aspose.HTML for Java 24.11  
-**Penulis:** Aspose

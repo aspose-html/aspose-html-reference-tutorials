@@ -5,7 +5,7 @@ description: Konvertálja a HTML-t PNG-re az Aspose.HTML for Java segítségéve
   el még ma!
 linktitle: Converting HTML to PNG
 second_title: Java HTML Processing with Aspose.HTML
-title: 'HTML PNG-re Java: HTML konvertálása PNG-re az Aspose.HTML használatával'
+title: 'HTML PNG-re Java - HTML konvertálása PNG-re az Aspose.HTML használatával'
 url: /hu/java/converting-html-to-various-image-formats/convert-html-to-png/
 weight: 13
 ---
@@ -128,32 +128,15 @@ V: Iteráljon a fájllistán, és használja újra ugyanazt az `ImageSaveOptions
 
 Ebben az útmutatóban bemutattuk, hogyan végezhet **html to png java** konverziót az Aspose.HTML for Java segítségével. A megadott lépések és kódrészletek segítségével könnyedén beépítheti ezt a funkciót Java alkalmazásaiba, akár **save html as png**, **generate png from html**, vagy dinamikus weboldalak képképként történő rögzítése a cél.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Utolsó frissítés:** 2026-01-17  
 **Tesztelt verzió:** Aspose.HTML for Java 24.12  
 **Szerző:** Aspose  
 
-## GyIK
+{{< /blocks/products/pf/tutorial-page-section >}}
 
-### Hol találom az Aspose.HTML for Java dokumentációját?
-   A dokumentációt megtalálja a [Aspose.HTML for Java Documentation](https://reference.aspose.com/html/java/) oldalon.
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
 
-### Hogyan tölthetem le az Aspose.HTML for Java‑t?
-   Letöltheti a weboldalról: [Download Aspose.HTML for Java](https://releases.aspose.com/html/java/).
-
-### Van ingyenes próbaverzió az Aspose.HTML for Java‑hoz?
-   Igen, ingyenes próba verziót kaphat a [Aspose.HTML Free Trial](https://releases.aspose.com/) oldalról.
-
-### Hogyan szerezhetek ideiglenes licencet az Aspose.HTML for Java‑hoz?
-   Ideiglenes licencet kérhet a [Aspose.HTML Temporary License](https://purchase.aspose.com/temporary-license/) oldalon.
-
-### Hol kaphatok közösségi támogatást és tehetek fel kérdéseket az Aspose.HTML for Java‑ról?
-   Csatlakozhat a közösségi beszélgetéshez a [Aspose.HTML Support Forum](https://forum.aspose.com/) oldalon.
+{{< blocks/products/products-backtop-button >}}

@@ -5,7 +5,7 @@ description: Převádějte HTML na PNG pomocí Aspose.HTML pro Javu. Postupujte 
   ještě dnes!
 linktitle: Converting HTML to PNG
 second_title: Java HTML Processing with Aspose.HTML
-title: 'HTML na PNG v Javě: Převod HTML na PNG pomocí Aspose.HTML'
+title: 'HTML na PNG v Javě - Převod HTML na PNG pomocí Aspose.HTML'
 url: /cs/java/converting-html-to-various-image-formats/convert-html-to-png/
 weight: 13
 ---
@@ -128,32 +128,15 @@ A: Ano, projděte si seznam souborů a pro každou konverzi použijte stejnou in
 
 V tomto tutoriálu jsme ukázali, jak provést **html to png java** konverzi pomocí Aspose.HTML pro Javu. S poskytnutými kroky a ukázkami kódu byste měli být schopni snadno začlenit tuto funkčnost do svých Java aplikací, ať už potřebujete **save html as png**, **generate png from html**, nebo vytvořit snímky dynamických webových stránek.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Poslední aktualizace:** 2026-01-17  
 **Testováno s:** Aspose.HTML pro Javu 24.12  
 **Autor:** Aspose  
 
-## Často kladené otázky
+{{< /blocks/products/pf/tutorial-page-section >}}
 
-### Kde najdu dokumentaci k Aspose.HTML pro Javu?
-   Dokumentaci najdete na [Aspose.HTML for Java Documentation](https://reference.aspose.com/html/java/).
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
 
-### Jak si mohu stáhnout Aspose.HTML pro Javu?
-   Stáhnout jej můžete z webu: [Download Aspose.HTML for Java](https://releases.aspose.com/html/java/).
-
-### Je k dispozici bezplatná zkušební verze Aspose.HTML pro Javu?
-   Ano, bezplatnou zkušební verzi získáte na [Aspose.HTML Free Trial](https://releases.aspose.com/).
-
-### Jak získám dočasnou licenci pro Aspose.HTML pro Javu?
-   Dočasnou licenci můžete požádat na [Aspose.HTML Temporary License](https://purchase.aspose.com/temporary-license/).
-
-### Kde mohu získat komunitní podporu a klást otázky o Aspose.HTML pro Javu?
-   Připojte se k diskusi v komunitě na [Aspose.HTML Support Forum](https://forum.aspose.com/).
+{{< blocks/products/products-backtop-button >}}

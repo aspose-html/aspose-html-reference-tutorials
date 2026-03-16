@@ -133,13 +133,6 @@ Je weet nu hoe je **gif van html** kunt maken met Aspose.HTML voor Java. Deze ee
 
 Voor meer gedetailleerde informatie en extra functies, raadpleeg de [documentation](https://reference.aspose.com/html/java/).
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Laatst bijgewerkt:** 2026-01-17  
@@ -147,3 +140,10 @@ Voor meer gedetailleerde informatie en extra functies, raadpleeg de [documentati
 **Auteur:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

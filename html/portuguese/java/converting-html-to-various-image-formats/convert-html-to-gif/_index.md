@@ -133,13 +133,6 @@ Agora você sabe como **criar gif a partir de html** usando Aspose.HTML para Jav
 
 Para informações mais detalhadas e recursos adicionais, consulte a [documentação](https://reference.aspose.com/html/java/).
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Última atualização:** 2026-01-17  
@@ -147,3 +140,10 @@ Para informações mais detalhadas e recursos adicionais, consulte a [documenta�
 **Autor:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -13,37 +13,39 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# How to create gif from html using Aspose.HTML for Java
+# Java के लिए Aspose.HTML का इस्तेमाल करके html से gif कैसे बनाएं
 
-HTML पेज को GIF इमेज में बदलना एक सामान्य कार्य है जब आपको वेब कंटेंट, ईमेल थंबनेल या रिपोर्ट ग्राफ़िक्स के हल्के, एनिमेटेड प्रीव्यू की आवश्यकता होती है। इस ट्यूटोरियल में आप **create gif from html** को कुछ ही लाइनों के Java कोड के साथ, शक्तिशाली Aspose.HTML for Java लाइब्रेरी का उपयोग करके बनाएँगे। हम पर्यावरण सेटअप से लेकर अंतिम GIF फ़ाइल जनरेट करने तक हर कदम को विस्तार से बताएँगे।
+HTML पेज को GIF इमेज में बदलना एक आम काम है जब आपको वेब सामग्री, ईमेल थंबनेल या रिपोर्ट ग्राफ़िक्स के आसान, एनिमेटेड प्रीव्यू की ज़रूरत होती है। इस ट्यूटोरियल में आप **html से gif बनाएं** को कुछ ही आईओएस के Java कोड के साथ, शक्तिशाली Aspose.HTML for Java लाइब्रेरी का इस्तेमाल करके बनाएंगे। हम पर्यावरण सेटअप से लेकर आखिरी GIF फ़ाइल बनाने तक हर कदम को विस्तार से बताएंगे।
 
-## Quick Answers
-- **What library is needed?** Aspose.HTML for Java (free trial or licensed version).  
-- **Can I convert any HTML page?** Yes – simple snippets or full web pages, including CSS and images.  
-- **Do I need a license for production?** A valid license is required; a temporary license works for testing.  
-- **Which format does the example produce?** GIF, but Aspose.HTML also supports PNG, JPEG, BMP, and more.  
-- **How long does the conversion take?** Typically under a second for small pages; larger pages depend on content size.
+## जल्दी जवाब
+- **कौन सी लाइब्रेरी चाहिए?** Java के लिए Aspose.HTML (फ़्री ट्रायल या लाइसेंस वाला वर्शन)।
+- **क्या मैं कोई भी HTML पेज कन्वर्ट कर सकता हूँ?** हाँ – सिंपल स्निपेट या पूरे वेब पेज, जिसमें CSS और इमेज शामिल हैं।
+- **क्या मुझे प्रोडक्शन के लिए लाइसेंस चाहिए?** एक वैलिड लाइसेंस ज़रूरी है; टेस्टिंग के लिए एक टेम्पररी लाइसेंस काम करता है।
+- **उदाहरण कौन सा फ़ॉर्मैट बनाता है?** GIF, लेकिन Aspose.HTML PNG, JPEG, BMP, और भी बहुत कुछ सपोर्ट करता है।
+- **कन्वर्ज़न में कितना समय लगता है?** छोटे पेज के लिए आमतौर पर एक सेकंड से कम; बड़े पेज कंटेंट साइज़ पर निर्भर करते हैं।
 
-## What is “create gif from html”?
-Generating a GIF from HTML means rendering the HTML markup (including styles and scripts) into a raster image format. GIF is especially useful for animated sequences or when you need a small‑size image that works across all browsers and email clients.
+## “क्रिएट gif फ्रॉम html” क्या है?
 
-## Why use Aspose.HTML for Java?
-- **No external dependencies** – the library handles rendering, layout, and image encoding internally.  
-- **Cross‑platform** – works on any JVM‑compatible OS.  
-- **Rich output options** – besides GIF you can export to PDF, XPS, PNG, JPEG, etc.  
-- **High fidelity** – preserves CSS, fonts, and vector graphics accurately.
+HTML से GIF बनाने का मतलब है HTML मार्कअप (स्टाइल और स्क्रिप्ट सहित) को रैस्टर इमेज फ़ॉर्मैट में रेंडर करना। GIF खास तौर पर एनिमेटेड सीक्वेंस के लिए या जब आपको एक छोटे साइज़ की इमेज चाहिए जो सभी ब्राउज़र और ईमेल क्लाइंट पर काम करे, तब काम आता है।
 
-## Prerequisites
+## Java के लिए Aspose.HTML का इस्तेमाल क्यों करें?
 
-Before you start, ensure you have:
+- **कोई बाहरी डिपेंडेंसी नहीं** – लाइब्रेरी रेंडरिंग, लेआउट और इमेज एन्कोडिंग को अंदर से हैंडल करती है।
+- **क्रॉस-प्लेटफ़ॉर्म** – किसी भी JVM-कम्पैटिबल OS पर काम करता है।
+- **रिच आउटपुट ऑप्शन** – GIF के अलावा आप PDF, XPS, PNG, JPEG, वगैरह में भी एक्सपोर्ट कर सकते हैं।
+- **हाई फिडेलिटी** – CSS, फ़ॉन्ट और वेक्टर ग्राफ़िक्स को सही तरीके से सेव करता है।
 
-1. **Aspose.HTML for Java Library** – download it from the [download link](https://releases.aspose.com/html/java/). Use a [temporary license](https://purchase.aspose.com/temporary-license/) if you’re just experimenting.  
-2. **Java Development Environment** – JDK 8 or later, with your favorite IDE or build tool (Maven/Gradle).  
-3. **Basic HTML knowledge** – you’ll be working with a simple HTML snippet, but the same steps apply to full HTML files.
+## ज़रूरी शर्तें
 
-## Import Packages
+शुरू करने से पहले, पक्का करें कि आपके पास ये चीज़ें हैं:
 
-First, import the classes you’ll need. The block below is unchanged from the original tutorial:
+1. **Aspose.HTML for Java Library** – इसे [डाउनलोड लिंक](https://releases.aspose.com/html/java/) से डाउनलोड करें। अगर आप सिर्फ़ एक्सपेरिमेंट कर रहे हैं तो [टेम्पररी लाइसेंस](https://purchase.aspose.com/temporary-license/) का इस्तेमाल करें।
+2. **Java Development Environment** – JDK 8 या बाद का वर्शन, अपने पसंदीदा IDE या बिल्ड टूल (Maven/Gradle) के साथ।
+3. **बेसिक HTML नॉलेज** – आप एक सिंपल HTML स्निपेट के साथ काम करेंगे, लेकिन वही स्टेप्स पूरी HTML फ़ाइलों पर भी लागू होंगे।
+
+## पैकेज इंपोर्ट करें
+
+सबसे पहले, आपको जिन क्लास की ज़रूरत होगी, उन्हें इंपोर्ट करें। नीचे दिया गया ब्लॉक ओरिजिनल ट्यूटोरियल से बदला हुआ नहीं है:
 
 ```java
 import com.aspose.html.HTMLDocument;
@@ -52,13 +54,13 @@ import com.aspose.html.rendering.image.ImageFormat;
 import com.aspose.html.converters.Converter;
 ```
 
-## Step‑by‑Step Guide to Convert HTML to GIF
+## HTML को GIF में बदलने के लिए स्टेप-बाय-स्टेप गाइड
 
-Below is a detailed walkthrough of each step. Feel free to copy the code blocks as‑is; they are ready to run.
+नीचे हर स्टेप का डिटेल में वॉकथ्रू दिया गया है। कोड ब्लॉक को वैसे ही कॉपी करें; वे रन करने के लिए तैयार हैं।
 
-### Step 1: Prepare an HTML Code
+### स्टेप 1: एक HTML कोड तैयार करें
 
-We’ll create a tiny HTML snippet that says “Hello World!!”. The code writes this snippet to a file named **document.html**.
+हम एक छोटा HTML स्निपेट बनाएंगे जिस पर लिखा होगा “Hello World!!”. कोड इस स्निपेट को **document.html** नाम की फ़ाइल में लिखता है।
 
 ```java
 String code = "<span>Hello</span> <span>World!!</span>";
@@ -67,71 +69,80 @@ try (java.io.FileWriter fileWriter = new java.io.FileWriter("document.html")) {
 }
 ```
 
-> **Pro tip:** Replace the `code` string with any valid HTML markup, CSS, or even a full web page to generate a more complex GIF.
+> **प्रो टिप:** ज़्यादा कॉम्प्लेक्स GIF बनाने के लिए `code` स्ट्रिंग को किसी भी वैलिड HTML मार्कअप, CSS, या पूरे वेब पेज से बदलें।
 
-### Step 2: Initialize an HTML Document
+### स्टेप 2: एक HTML डॉक्यूमेंट इनिशियलाइज़ करें
 
-Load the HTML file you just created into an `HTMLDocument` object. This object represents the DOM tree that Aspose.HTML will render.
-
+आपके द्वारा अभी बनाई गई HTML फ़ाइल को एक `HTMLDocument` ऑब्जेक्ट में लोड करें। यह ऑब्जेक्ट उस DOM ट्री को दिखाता है जिसे Aspose.HTML रेंडर करेगा।
 ```java
 HTMLDocument document = new HTMLDocument("document.html");
 ```
 
-### Step 3: Initialize ImageSaveOptions
+### स्टेप 3: ImageSaveOptions इनिशियलाइज़ करें
 
-Configure the output format. Here we specify **GIF**, but you can change `ImageFormat.Gif` to `Png`, `Jpeg`, etc., if you need a different image type.
+आउटपुट फ़ॉर्मेट कॉन्फ़िगर करें। यहां हम **GIF** बताते हैं, लेकिन अगर आपको अलग इमेज टाइप चाहिए, तो आप `ImageFormat.Gif` को `Png`, `Jpeg`, वगैरह में बदल सकते हैं।
 
 ```java
 ImageSaveOptions options = new ImageSaveOptions(ImageFormat.Gif);
 ```
 
-### Step 4: Convert HTML to GIF
+### स्टेप 4: HTML को GIF में बदलें
 
-Finally, perform the conversion. The resulting file **output.gif** will be saved in the same directory as your Java program.
+आखिर में, कन्वर्ज़न करें। जो फ़ाइल बनेगी **output.gif** वह आपके Java प्रोग्राम वाली डायरेक्टरी में सेव हो जाएगी।
 
 ```java
 Converter.convertHTML(document, options, "output.gif");
 ```
 
-> **What happens under the hood?** Aspose.HTML renders the DOM to an off‑screen bitmap, then encodes that bitmap into the GIF format using the settings you supplied.
+> **आखिर में क्या होता है?** Aspose.HTML, DOM को एक ऑफ-स्क्रीन बिटमैप में रेंडर करता है, फिर आपके द्वारा दी गई सेटिंग्स का इस्तेमाल करके उस बिटमैप को GIF फ़ॉर्मेट में एनकोड करता है।
 
-## Common Issues & How to Fix Them
+## आम दिक्कतें और उन्हें ठीक करने का तरीका
 
-| Issue | Cause | Solution |
+| दिक्कत | वजह | सॉल्यूशन |
 |-------|-------|----------|
-| **Blank output image** | HTML file not found or empty | Verify the path `document.html` is correct and contains valid markup. |
-| **Missing CSS styles** | External CSS not loaded | Use absolute URLs or embed CSS directly in the HTML string. |
-| **Large GIF size** | High‑resolution rendering | Adjust `options.setResolution()` or resize the source HTML before conversion. |
-| **License exception** | No valid license loaded | Apply a temporary or paid license before calling conversion methods. |
+| **खाली आउटपुट इमेज** | HTML फ़ाइल नहीं मिली या खाली है | वेरिफ़ाई करें कि पाथ `document.html` सही है और उसमें वैलिड मार्कअप है। |
+| **CSS स्टाइल मिसिंग** | एक्सटर्नल CSS लोड नहीं हुआ | एब्सोल्यूट URLs का इस्तेमाल करें या CSS को सीधे HTML स्ट्रिंग में एम्बेड करें। |
+| **बड़ा GIF साइज़** | हाई-रिज़ॉल्यूशन रेंडरिंग | कन्वर्ज़न से पहले `options.setResolution()` को एडजस्ट करें या सोर्स HTML का साइज़ बदलें। |
+| **लाइसेंस एक्सेप्शन** | कोई वैलिड लाइसेंस लोड नहीं हुआ | कन्वर्ज़न मेथड को कॉल करने से पहले टेम्पररी या पेड लाइसेंस अप्लाई करें। |
 
-## Frequently Asked Questions (FAQs)
+## अक्सर पूछे जाने वाले सवाल (FAQs)
 
-### What is Aspose.HTML for Java?
-Aspose.HTML for Java is a powerful library that enables developers to work with HTML documents, including conversion to various formats like GIF, PDF, and more.
+### Java के लिए Aspose.HTML क्या है?
+Java के लिए Aspose.HTML एक पावरफ़ुल लाइब्रेरी है जो डेवलपर्स को HTML डॉक्यूमेंट्स के साथ काम करने में मदद करती है, जिसमें GIF, PDF, और भी बहुत कुछ जैसे अलग-अलग फ़ॉर्मैट में कन्वर्ज़न शामिल है।
 
-### Do I need a license for Aspose.HTML for Java?
-Yes, you need a valid license to use Aspose.HTML for Java in your projects. You can obtain a temporary license from [here](https://purchase.aspose.com/temporary-license/) for testing purposes.
+### क्या मुझे Java के लिए Aspose.HTML के लिए लाइसेंस चाहिए?
+हाँ, आपको अपने प्रोजेक्ट में Java के लिए Aspose.HTML इस्तेमाल करने के लिए एक वैलिड लाइसेंस चाहिए। आप टेस्टिंग के लिए [यहाँ](https://purchase.aspose.com/temporary-license/) से एक टेम्पररी लाइसेंस ले सकते हैं।
 
-### Can I convert complex HTML documents to GIF using Aspose.HTML for Java?
-Yes, Aspose.HTML for Java supports the conversion of both simple and complex HTML documents to GIF format.
+### क्या मैं Java के लिए Aspose.HTML का इस्तेमाल करके मुश्किल HTML डॉक्यूमेंट को GIF में बदल सकता हूँ?
+हाँ, Java के लिए Aspose.HTML आसान और मुश्किल दोनों तरह के HTML डॉक्यूमेंट को GIF फ़ॉर्मेट में बदलने में मदद करता है।
 
-### Are there any other output formats supported by Aspose.HTML for Java?
-Yes, Aspose.HTML for Java supports various output formats, including PDF, XPS, and more.
+### क्या Java के लिए Aspose.HTML कोई और आउटपुट फ़ॉर्मेट सपोर्ट करता है?
+हाँ, Java के लिए Aspose.HTML PDF, XPS, और भी बहुत कुछ सहित कई आउटपुट फ़ॉर्मेट को सपोर्ट करता है।
 
-### Where can I get support or seek help with Aspose.HTML for Java?
-You can visit the [Aspose forums](https://forum.aspose.com/) to get assistance, ask questions, and find solutions to any issues you may encounter.
+### मुझे Java के लिए Aspose.HTML के लिए सपोर्ट कहाँ से मिल सकता है या मदद कहाँ से मिल सकती है?
+आप मदद पाने, सवाल पूछने और अपनी किसी भी समस्या का हल खोजने के लिए [Aspose फ़ोरम](https://forum.aspose.com/) पर जा सकते हैं।
 
-## Next Steps
+## अगले स्टेप्स
 
-- **Experiment with animation:** Create multiple HTML frames and combine them into an animated GIF by adjusting `ImageSaveOptions` properties.  
-- **Explore other formats:** Swap `ImageFormat.Gif` for `ImageFormat.Png` to generate high‑quality PNGs.  
-- **Integrate into web services:** Wrap the conversion logic in a REST endpoint to provide on‑the‑fly GIF generation for client applications.
+- **एनिमेशन के साथ एक्सपेरिमेंट करें:** कई HTML फ्रेम बनाएं और `ImageSaveOptions` प्रॉपर्टीज़ को एडजस्ट करके उन्हें एक एनिमेटेड GIF में मिलाएं।
 
-## Conclusion
+- **दूसरे फॉर्मेट एक्सप्लोर करें:** हाई-क्वालिटी PNGs जेनरेट करने के लिए `ImageFormat.Gif` को `ImageFormat.Png` से बदलें।
 
-You now know how to **create gif from html** using Aspose.HTML for Java. This straightforward approach lets you turn any HTML content into a lightweight GIF image, opening up possibilities for previews, reports, and automated graphics generation.
+- **वेब सर्विसेज़ में इंटीग्रेट करें:** क्लाइंट एप्लिकेशन्स के लिए ऑन-द-फ्लाई GIF जेनरेशन देने के लिए कन्वर्ज़न लॉजिक को REST एंडपॉइंट में रैप करें।
 
-For more detailed information and additional features, consult the [documentation](https://reference.aspose.com/html/java/).
+## निष्कर्ष
+
+अब आप जानते हैं कि Java के लिए Aspose.HTML का इस्तेमाल करके **html से gif कैसे बनाएं**। यह सीधा तरीका आपको किसी भी HTML कंटेंट को एक लाइटवेट GIF इमेज में बदलने देता है, जिससे प्रीव्यू, रिपोर्ट और ऑटोमेटेड ग्राफिक्स जेनरेशन के मौके खुलते हैं।
+
+ज़्यादा डिटेल्ड जानकारी और एडिशनल फीचर्स के लिए, [डॉक्यूमेंटेशन](https://reference.aspose.com/html/java/) देखें।
+
+---
+
+**पिछला अपडेट:** 2026-01-17
+**इसके साथ टेस्ट किया गया:** Aspose.HTML for Java 24.11
+**लेखक:** Aspose  
+
+---
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -139,11 +150,3 @@ For more detailed information and additional features, consult the [documentatio
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-17  
-**Tested With:** Aspose.HTML for Java 24.11  
-**Author:** Aspose  
-
----

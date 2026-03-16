@@ -4,7 +4,7 @@ description: Convierte HTML a PNG con Aspose.HTML para Java. Sigue nuestra guía
   a paso para una fácil conversión de html a png en Java. ¡Comienza hoy!
 linktitle: Converting HTML to PNG
 second_title: Java HTML Processing with Aspose.HTML
-title: 'HTML a PNG Java: Convierte HTML a PNG con Aspose.HTML'
+title: 'HTML a PNG Java - Convierte HTML a PNG con Aspose.HTML'
 url: /es/java/converting-html-to-various-image-formats/convert-html-to-png/
 weight: 13
 ---
@@ -127,32 +127,15 @@ R: Recorre tu lista de archivos y reutiliza la misma instancia de `ImageSaveOpti
 
 En este tutorial demostramos cómo realizar la conversión **html to png java** usando Aspose.HTML for Java. Con los pasos y fragmentos de código proporcionados, deberías poder incorporar esta funcionalidad en tus aplicaciones Java fácilmente, ya sea que necesites **guardar html como png**, **generar png a partir de html**, o crear capturas de imagen de páginas web dinámicas.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Última actualización:** 2026-01-17  
 **Probado con:** Aspose.HTML for Java 24.12  
 **Autor:** Aspose  
 
-## FAQs
+{{< /blocks/products/pf/tutorial-page-section >}}
 
-### ¿Dónde puedo encontrar la documentación de Aspose.HTML for Java?
-   Puedes encontrar la documentación en [Aspose.HTML for Java Documentation](https://reference.aspose.com/html/java/).
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
 
-### ¿Cómo puedo descargar Aspose.HTML for Java?
-   Puedes descargarlo desde el sitio web: [Download Aspose.HTML for Java](https://releases.aspose.com/html/java/).
-
-### ¿Hay una prueba gratuita disponible para Aspose.HTML for Java?
-   Sí, puedes obtener una prueba gratuita en [Aspose.HTML Free Trial](https://releases.aspose.com/).
-
-### ¿Cómo obtengo una licencia temporal para Aspose.HTML for Java?
-   Puedes solicitar una licencia temporal en [Aspose.HTML Temporary License](https://purchase.aspose.com/temporary-license/).
-
-### ¿Dónde puedo obtener soporte de la comunidad y hacer preguntas sobre Aspose.HTML for Java?
-   Puedes unirte a la discusión de la comunidad en [Aspose.HTML Support Forum](https://forum.aspose.com/).
+{{< blocks/products/products-backtop-button >}}

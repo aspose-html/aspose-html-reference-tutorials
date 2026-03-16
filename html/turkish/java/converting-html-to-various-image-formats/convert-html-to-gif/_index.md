@@ -133,13 +133,6 @@ Artık Aspose.HTML for Java kullanarak **html'den gif oluşturma** işlemini bil
 
 Daha ayrıntılı bilgi ve ek özellikler için [belgelere](https://reference.aspose.com/html/java/) göz atın.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Son Güncelleme:** 2026-01-17  
@@ -147,3 +140,10 @@ Daha ayrıntılı bilgi ve ek özellikler için [belgelere](https://reference.as
 **Yazar:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

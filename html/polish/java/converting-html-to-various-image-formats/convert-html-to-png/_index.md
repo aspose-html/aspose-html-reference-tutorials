@@ -5,7 +5,7 @@ description: Konwertuj HTML na PNG za pomocą Aspose.HTML dla Javy. Skorzystaj z
   już dziś!
 linktitle: Converting HTML to PNG
 second_title: Java HTML Processing with Aspose.HTML
-title: 'HTML do PNG Java: Konwertuj HTML na PNG za pomocą Aspose.HTML'
+title: 'HTML do PNG Java - Konwertuj HTML na PNG za pomocą Aspose.HTML'
 url: /pl/java/converting-html-to-various-image-formats/convert-html-to-png/
 weight: 13
 ---
@@ -34,7 +34,7 @@ Wyrażenie „html to png java” odnosi się do procesu renderowania dokumentu 
 - **Skalowalny** – Konwertuj pojedyncze strony lub przetwarzaj partiami tysiące plików.  
 - **Wieloplatformowy** – Działa na Windows, Linux i macOS.
 
-## Prerequisites
+## Wymagania wstępne
 
 Zanim rozpoczniemy rzeczywisty proces konwersji, upewnij się, że masz spełnione następujące wymagania:
 
@@ -87,7 +87,7 @@ ImageSaveOptions options = new ImageSaveOptions(ImageFormat.Png);
 Converter.convertHTML(document, options, "output.png");
 ```
 
-## Cleanup
+## Posprzątać
 
 Nie zapomnij zwolnić wszelkich zasobów i posprzątać po zakończeniu konwersji.
 
@@ -128,32 +128,15 @@ O: Przejdź pętlą po liście plików i ponownie użyj tej samej instancji `Ima
 
 W tym samouczku pokazaliśmy, jak wykonać konwersję **html to png java** przy użyciu Aspose.HTML for Java. Dzięki podanym krokom i fragmentom kodu powinieneś łatwo włączyć tę funkcjonalność do swoich aplikacji Java, niezależnie od tego, czy potrzebujesz **save html as png**, **generate png from html**, czy tworzyć migawki obrazów dynamicznych stron internetowych.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-01-17  
 **Tested With:** Aspose.HTML for Java 24.12  
 **Author:** Aspose  
 
-## FAQ
+{{< /blocks/products/pf/tutorial-page-section >}}
 
-### Gdzie mogę znaleźć dokumentację Aspose.HTML for Java?
-   Dokumentację znajdziesz pod adresem [Aspose.HTML for Java Documentation](https://reference.aspose.com/html/java/).
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
 
-### Jak mogę pobrać Aspose.HTML for Java?
-   Możesz go pobrać ze strony: [Download Aspose.HTML for Java](https://releases.aspose.com/html/java/).
-
-### Czy dostępna jest bezpłatna wersja próbna Aspose.HTML for Java?
-   Tak, możesz uzyskać bezpłatną wersję próbną z [Aspose.HTML Free Trial](https://releases.aspose.com/).
-
-### Jak uzyskać tymczasową licencję dla Aspose.HTML for Java?
-   Możesz poprosić o tymczasową licencję pod adresem [Aspose.HTML Temporary License](https://purchase.aspose.com/temporary-license/).
-
-### Gdzie mogę uzyskać wsparcie społeczności i zadawać pytania o Aspose.HTML for Java?
-   Możesz dołączyć do dyskusji społecznościowej pod adresem [Aspose.HTML Support Forum](https://forum.aspose.com/).
+{{< blocks/products/products-backtop-button >}}

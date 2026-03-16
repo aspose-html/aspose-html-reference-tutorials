@@ -133,13 +133,6 @@ Teraz wiesz, jak **utworzyć GIF z HTML** przy użyciu Aspose.HTML dla Javy. To 
 
 Po więcej szczegółów i dodatkowych funkcji zajrzyj do [dokumentacji](https://reference.aspose.com/html/java/).
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Ostatnia aktualizacja:** 2026-01-17  
@@ -147,3 +140,10 @@ Po więcej szczegółów i dodatkowych funkcji zajrzyj do [dokumentacji](https:/
 **Autor:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -4,7 +4,7 @@ description: حوّل HTML إلى PNG باستخدام Aspose.HTML للـ Java. 
   لتحويل HTML إلى PNG بسهولة باستخدام Java. ابدأ اليوم!
 linktitle: Converting HTML to PNG
 second_title: Java HTML Processing with Aspose.HTML
-title: 'HTML إلى PNG Java: تحويل HTML إلى PNG باستخدام Aspose.HTML'
+title: 'HTML إلى PNG Java - تحويل HTML إلى PNG باستخدام Aspose.HTML'
 url: /ar/java/converting-html-to-various-image-formats/convert-html-to-png/
 weight: 13
 ---
@@ -127,32 +127,15 @@ if (document != null) {
 
 في هذا الدرس أظهرنا كيفية إجراء تحويل **html to png java** باستخدام Aspose.HTML for Java. مع الخطوات والقطعات البرمجية المقدمة، يجب أن تكون قادرًا على دمج هذه الوظيفة في تطبيقات Java بسهولة، سواء كنت تريد **save html as png**، أو **generate png from html**، أو إنشاء لقطات صور لصفحات ويب ديناميكية.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **آخر تحديث:** 2026-01-17  
 **تم الاختبار مع:** Aspose.HTML for Java 24.12  
 **المؤلف:** Aspose  
 
-## الأسئلة المتكررة
+{{< /blocks/products/pf/tutorial-page-section >}}
 
-### أين يمكنني العثور على وثائق Aspose.HTML for Java؟
-   يمكنك العثور على الوثائق في [Aspose.HTML for Java Documentation](https://reference.aspose.com/html/java/).
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
 
-### كيف يمكنني تحميل Aspose.HTML for Java؟
-   يمكنك تحميله من الموقع: [Download Aspose.HTML for Java](https://releases.aspose.com/html/java/).
-
-### هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.HTML for Java؟
-   نعم، يمكنك الحصول على نسخة تجريبية مجانية من [Aspose.HTML Free Trial](https://releases.aspose.com/).
-
-### كيف أحصل على ترخيص مؤقت لـ Aspose.HTML for Java؟
-   يمكنك طلب ترخيص مؤقت من [Aspose.HTML Temporary License](https://purchase.aspose.com/temporary-license/).
-
-### أين يمكنني الحصول على دعم المجتمع وطرح الأسئلة حول Aspose.HTML for Java؟
-   يمكنك الانضمام إلى مناقشة المجتمع في [Aspose.HTML Support Forum](https://forum.aspose.com/).
+{{< blocks/products/products-backtop-button >}}
