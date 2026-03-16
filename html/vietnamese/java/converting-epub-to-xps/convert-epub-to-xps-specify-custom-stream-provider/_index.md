@@ -17,37 +17,37 @@ weight: 11
 
 Trong thế giới xuất bản kỹ thuật số ngày nay, **convert EPUB to XPS** là một yêu cầu phổ biến—cho dù bạn cần một bản thể hiện bố cục cố định để in ấn, lưu trữ, hay chia sẻ trên các thiết bị Windows. Aspose.HTML for Java giúp quá trình chuyển đổi này trở nên đơn giản, và bằng cách sử dụng một custom memory stream provider, bạn có thể giữ toàn bộ quá trình trong bộ nhớ, điều này rất phù hợp cho các kịch bản dựa trên đám mây hoặc hiệu năng cao. Dưới đây là mọi thứ bạn cần để bắt đầu, từ các yêu cầu trước đến một ví dụ hoàn chỉnh, có thể chạy được.
 
-## Quick Answers
-- **What does the conversion produce?** Một tài liệu XPS giữ nguyên bố cục và phông chữ.  
-- **Do I need a license?** Bản dùng thử miễn phí đủ cho việc thử nghiệm; cần giấy phép thương mại cho môi trường sản xuất.  
-- **Can I run this in a container?** Có—không cần ghi vào hệ thống tệp nếu bạn giữ mọi thứ trong bộ nhớ.  
-- **Which Java version is supported?** Java 8 hoặc cao hơn.  
-- **Is a custom stream provider mandatory?** Không, nhưng nó cho phép bạn kiểm soát hoàn toàn việc sử dụng bộ nhớ và xử lý đầu ra.
+## Trả lời nhanh
+- **Chuyển đổi tạo ra cái gì?** Một tài liệu XPS chứa bố cục và phông chữ.
+- **Tôi có cần giấy phép không?** Bản dùng thử miễn phí đủ cho thử nghiệm; cần giấy phép thương mại cho môi trường sản xuất.
+- **Tôi có thể chạy cái này trong vùng chứa không?** Có—không cần ghi vào tệp hệ thống nếu bạn giữ mọi thứ trong bộ nhớ.
+- **Phiên bản Java nào được hỗ trợ?** Java8hoặc cao hơn.
+- **Nhà cung cấp luồng tùy chỉnh có bắt buộc không?** Không, nhưng nó cho phép bạn kiểm soát hoàn toàn việc sử dụng bộ nhớ và xử lý đầu ra.
 
-## What is “convert EPUB to XPS”?
-Chuyển đổi một tệp EPUB sang XPS biến định dạng sách điện tử có thể tái bố cục thành một tài liệu cố định, độc lập với thiết bị. XPS (XML Paper Specification) là phiên bản của Microsoft tương đương PDF, lý tưởng cho các trường hợp bạn cần một bản thể hiện hình ảnh trung thực và không thay đổi trên các nền tảng.
+## “chuyển đổi EPUB sang XPS” là gì?
+Chuyển đổi một tệp EPUB sang định dạng điện tử biến XPS có thể tái sinh thành một định dạng tài liệu độc lập cho thiết bị. XPS (Đặc tả giấy XML) là phiên bản của PDF tương thích của Microsoft, lý tưởng cho các trường hợp bạn cần có thể hiển thị hình ảnh trung thực và không thay đổi trên nền tảng.
 
-## Why use a custom stream provider?
-Một custom `MemoryStreamProvider` cho phép bạn giữ kết quả chuyển đổi trong RAM thay vì ghi tệp tạm thời ra đĩa. Cách tiếp cận này:
+## Tại sao nên sử dụng nhà cung cấp luồng tùy chỉnh?
+Một `MemoryStreamProvider` tùy chỉnh cho phép bạn giữ kết quả chuyển đổi trong RAM thay vì ghi tệp tạm thời vào đĩa. Cách tiếp cận này:
 - Giảm tải I/O.
-- Cải thiện hiệu năng trong kiến trúc server‑less hoặc micro‑service.
-- Mang lại sự linh hoạt để stream kết quả trực tiếp tới client, lưu trữ đám mây, hoặc API khác.
+- Cải thiện tính năng cải tiến trong cấu trúc kiến ​​trúc server-less hoặc micro-service.
+- Mang lại sự hoạt động để truyền trực tiếp kết quả tới khách hàng, lưu trữ đám mây hoặc API khác.
 
-## Prerequisites
+## Điều kiện tiên quyết
 
-Để **convert EPUB to XPS** thành công, hãy đảm bảo bạn đã chuẩn bị đầy đủ các yêu cầu sau:
+Để **chuyển đổi EPUB sang XPS** thành công, hãy đảm bảo bạn đã chuẩn bị đầy đủ các yêu cầu sau:
 
-### 1. Thư viện Aspose.HTML for Java  
+### 1. Thư viện Aspose.HTML cho Java
 
-Bạn phải cài đặt và cấu hình thư viện Aspose.HTML for Java trong môi trường Java của mình. Nếu chưa, bạn có thể tải thư viện từ [download link](https://releases.aspose.com/html/java/).
+Bạn phải cài đặt và cấu hình thư viện Aspose.HTML cho Java trong môi trường Java của mình. Nếu chưa, bạn có thể tải thư viện từ [download link](https://releases.aspose.com/html/java/).
 
-### 2. Tệp EPUB đầu vào  
+### 2. Đầu vào tệp EPUB
 
-Bạn cần một tệp EPUB hiện có mà muốn chuyển đổi sang XPS. Đảm bảo tệp này đã sẵn sàng cho quá trình chuyển đổi.
+Bạn cần có một tệp EPUB hiện có mà muốn chuyển đổi sang XPS. Đảm bảo tệp bảo mật này đã sẵn sàng cho quá trình chuyển đổi.
 
-Bây giờ bạn đã có tất cả các yêu cầu, hãy cùng đi qua các bước chuyển đổi chi tiết.
+Bây giờ bạn đã có tất cả các yêu cầu, hãy cùng thực hiện qua các bước chuyển đổi chi tiết.
 
-## Import Packages
+## Nhập gói
 
 Trước khi bắt đầu, hãy chắc chắn nhập các package cần thiết để Aspose.HTML for Java có thể sử dụng các chức năng của nó.
 
@@ -60,7 +60,7 @@ import java.io.FileOutputStream;
 import java.io.InputStream;
 ```
 
-## Open the EPUB File
+## Mở tập tin EPUB
 
 Đầu tiên, bạn cần mở tệp EPUB hiện có để đọc. Trong bước này, chúng ta sử dụng `FileInputStream` để truy cập tệp EPUB.
 
@@ -70,7 +70,7 @@ try (FileInputStream fileInputStream = new FileInputStream("path/to/your/input.e
 }
 ```
 
-## Create MemoryStreamProvider
+## Tạo MemoryStreamProvider
 
 Tiếp theo, tạo một thể hiện của `MemoryStreamProvider`. Đối tượng này sẽ giữ đầu ra của quá trình chuyển đổi trong bộ nhớ.
 
@@ -80,7 +80,7 @@ try (MemoryStreamProvider streamProvider = new MemoryStreamProvider()) {
 }
 ```
 
-## Convert EPUB to XPS
+## Chuyển đổi EPUB sang XPS
 
 Bây giờ, chuyển đổi tệp EPUB sang XPS bằng phương thức `Converter.convertEPUB`. `MemoryStreamProvider` cung cấp stream đích.
 
@@ -92,7 +92,7 @@ Converter.convertEPUB(
 );
 ```
 
-## Get Resulted Data
+## Lấy dữ liệu kết quả
 
 Sau khi quá trình chuyển đổi hoàn tất, lấy memory stream chứa dữ liệu XPS.
 
@@ -100,7 +100,7 @@ Sau khi quá trình chuyển đổi hoàn tất, lấy memory stream chứa dữ
 InputStream inputStream = streamProvider.getStream().findFirst().get();
 ```
 
-## Save the Output (Optional)
+## Lưu kết quả (Tùy chọn)
 
 Nếu bạn cần một tệp vật lý—có thể để gỡ lỗi hoặc kiểm tra ngoại tuyến—hãy ghi memory stream ra đĩa. Trong hầu hết các kịch bản sản xuất, bạn có thể bỏ qua bước này và stream dữ liệu trực tiếp tới client.
 
@@ -112,7 +112,7 @@ try (FileOutputStream fileOutputStream = new FileOutputStream("path/to/your/outp
 }
 ```
 
-## Complete Source Code
+## Hoàn thành mã nguồn
 
 Dưới đây là ví dụ đầy đủ, sẵn sàng chạy, kết hợp tất cả các phần lại với nhau. Bạn có thể sao chép, dán và điều chỉnh nó cho dự án của mình.
 
@@ -139,41 +139,41 @@ Dưới đây là ví dụ đầy đủ, sẵn sàng chạy, kết hợp tất c
         }
 ```
 
-## Common Issues and Solutions
+## Các vấn đề thường gặp và giải pháp
 
-| Issue | Why it Happens | Fix |
-|-------|----------------|-----|
-| **`java.lang.OutOfMemoryError`** | Các tệp EPUB lớn có thể vượt quá kích thước heap mặc định khi được giữ toàn bộ trong bộ nhớ. | Tăng kích thước heap JVM (`-Xmx`) hoặc xử lý EPUB theo từng phần nếu có thể. |
-| **Missing fonts in XPS** | Các phông chữ không được nhúng trong EPUB không có trên máy chuyển đổi. | Đảm bảo các phông chữ cần thiết đã được cài đặt trên server hoặc nhúng chúng vào EPUB. |
-| **`UnsupportedOperationException` from `MemoryStreamProvider`** | Sử dụng phiên bản Aspose.HTML cũ. | Cập nhật lên phiên bản mới nhất của Aspose.HTML for Java. |
+| Vấn đề | Tại sao nó xảy ra | Sửa chữa |
+|-------|-------|------|
+| **`java.lang.OutOfMemoryError`** | Tệp EPUB lớn có thể vượt quá mặc định heap kích thước khi được giữ nguyên trong bộ nhớ. | Tăng JVM heap kích thước (`-Xmx`) hoặc xử lý EPUB theo từng phần nếu có thể. |
+| **Thiếu phông chữ trong XPS** | Font chữ không được nhúng vào EPUB trên máy chuyển đổi. | Đảm bảo các phông chữ cần thiết đã được cài đặt trên máy chủ hoặc nhúng vào EPUB. |
+| **`UnsupportedOperationException` từ `MemoryStreamProvider`** | Sử dụng cũ Aspose.HTML phiên bản. | Cập nhật lên phiên bản mới nhất của Aspose.HTML for Java. |
 
-## Frequently Asked Questions
+## Câu hỏi thường gặp
 
-### 1. What is EPUB?
+### 1. EPUB là gì?
 
-EPUB, viết tắt của Electronic Publication, là một định dạng tệp phổ biến cho sách điện tử. Nó được thiết kế để dễ đọc trên nhiều thiết bị khác nhau, như máy đọc sách, máy tính bảng và điện thoại thông minh.
+EPUB, viết tắt của Electronic Publication, là một dạng phổ biến định dạng cho điện tử. Nó được thiết kế để dễ dàng đọc trên nhiều thiết bị khác nhau, chẳng hạn như máy đọc sách, máy tính bảng và điện thoại thông minh.
 
-### 2. What is XPS?
+### 2. XPS là gì?
 
-XPS là viết tắt của XML Paper Specification, một định dạng tài liệu do Microsoft tạo ra. Nó được sử dụng để chia sẻ và lưu trữ tài liệu với giao diện và bố cục nhất quán.
+XPS là bản tắt của Đặc tả giấy XML, một tài liệu định dạng do Microsoft tạo ra. Nó được sử dụng để chia sẻ và lưu trữ tài liệu với giao diện và bố cục quán nhất.
 
-### 3. Why use Aspose.HTML for Java?
+### 3. Tại sao nên sử dụng Aspose.HTML cho Java?
 
-Aspose.HTML for Java là một thư viện mạnh mẽ giúp đơn giản hoá các tác vụ thao tác tài liệu, chuyển đổi và render. Nó cung cấp nhiều tính năng phong phú và hỗ trợ đa dạng các định dạng tài liệu, là công cụ quý giá cho các nhà phát triển.
+Aspose.HTML for Java là một thư mạnh mẽ giúp đơn giản hóa các tác vụ tài liệu, chuyển đổi và kết xuất. Nó cung cấp nhiều tính năng phong phú và hỗ trợ nhiều loại tài liệu định dạng, là công cụ quý giá cho các nhà phát triển.
 
-### 4. Can I convert other document formats using Aspose.HTML for Java?
+### 4. Tôi có thể chuyển đổi các định dạng tài liệu khác bằng Aspose.HTML cho Java không?
 
-Có, Aspose.HTML for Java hỗ trợ chuyển đổi nhiều định dạng tài liệu, bao gồm HTML, EPUB, XPS và nhiều hơn nữa. Đây là một công cụ đa năng cho quản lý tài liệu.
+Có, Aspose.HTML for Java hỗ trợ chuyển đổi nhiều tài liệu định dạng, bao gồm HTML, EPUB, XPS và nhiều hơn nữa. Đây là một công cụ đa năng cho việc quản lý tài liệu.
 
-### 5. Where can I find additional resources and support?
+### 5. Tôi có thể tìm thêm nguồn lực và hỗ trợ ở đâu?
 
-Để xem tài liệu và nhận hỗ trợ, hãy truy cập [Aspose.HTML for Java documentation](https://reference.aspose.com/html/java/) và [support forum](https://forum.aspose.com/).
+Để xem tài liệu và nhận hỗ trợ, hãy truy cập [Tài liệu Aspose.HTML dành cho Java](https://reference.aspose.com/html/java/) và [support forum](https://forum.aspose.com/).
 
 ---
 
-**Last Updated:** 2026-01-07  
-**Tested With:** Aspose.HTML for Java 24.12 (latest at time of writing)  
-**Author:** Aspose  
+**Cập nhật lần cuối:** 2026-01-07
+**Đã thử nghiệm với:** Aspose.HTML cho Java 24.12 (mới nhất tại thời điểm viết bài)
+**Tác giả:** Giả định  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
