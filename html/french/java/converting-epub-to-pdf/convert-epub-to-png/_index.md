@@ -117,13 +117,6 @@ Le forum communautaire d'Aspose.HTML for Java est un excellent endroit pour dema
 ### Quels autres formats de fichiers Aspose.HTML for Java peut‑il gérer ?
 Aspose.HTML for Java prend en charge un large éventail de formats de fichiers pour la conversion et la manipulation, y compris HTML, PDF, et bien d'autres. Consultez la documentation pour une liste complète des formats pris en charge.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-01-04  
@@ -131,3 +124,10 @@ Aspose.HTML for Java prend en charge un large éventail de formats de fichiers p
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

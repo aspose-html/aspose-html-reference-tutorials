@@ -117,13 +117,6 @@ Converter.convertEPUB(
 ### Какие другие форматы файлов поддерживает Aspose.HTML for Java?
    Aspose.HTML for Java поддерживает широкий спектр форматов для конвертации и обработки, включая HTML, PDF и др. Полный список поддерживаемых форматов см. в документации.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Последнее обновление:** 2026-01-04  
@@ -131,3 +124,10 @@ Converter.convertEPUB(
 **Автор:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

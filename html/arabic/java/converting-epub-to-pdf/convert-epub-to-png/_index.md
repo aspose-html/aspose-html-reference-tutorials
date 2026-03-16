@@ -117,15 +117,15 @@ Aspose.HTML for Java ليس مجانيًا، ولكن يمكنك تجربة نس
 ### ما هي صيغ الملفات الأخرى التي يمكن لـ Aspose.HTML for Java التعامل معها؟
 يدعم Aspose.HTML for Java مجموعة واسعة من صيغ الملفات للتحويل والمعالجة، بما في ذلك HTML، PDF، وأكثر. راجع الوثائق للحصول على قائمة شاملة بالصيغ المدعومة.
 
+---
+
+**Last Updated:** 2026-01-04  
+**Tested With:** Aspose.HTML for Java 24.12  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-04  
-**Tested With:** Aspose.HTML for Java 24.12  
-**Author:** Aspose

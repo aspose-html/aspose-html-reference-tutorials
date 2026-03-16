@@ -116,13 +116,6 @@ Aspose.HTML for Java‑community‑forumet är en bra plats för att söka suppo
 ### Vilka andra filformat kan Aspose.HTML for Java hantera?
 Aspose.HTML for Java stödjer ett brett spektrum av filformat för konvertering och manipulation, inklusive HTML, PDF och mer. Kontrollera dokumentationen för en omfattande lista över stödda format.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-01-04  
@@ -130,3 +123,10 @@ Aspose.HTML for Java stödjer ett brett spektrum av filformat för konvertering 
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

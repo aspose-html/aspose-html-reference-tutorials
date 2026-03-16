@@ -117,15 +117,15 @@ Ebben az útmutatóban megtanultuk, hogyan **convert epub to png** az Aspose.HTM
 ### Milyen egyéb fájlformátumokat kezel az Aspose.HTML for Java?
    Az Aspose.HTML for Java számos fájlformátum konvertálására és manipulálására képes, többek között HTML, PDF és még sok más. Tekintse meg a dokumentációt a támogatott formátumok teljes listájáért.
 
+---
+
+**Last Updated:** 2026-01-04  
+**Tested With:** Aspose.HTML for Java 24.12  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-04  
-**Tested With:** Aspose.HTML for Java 24.12  
-**Author:** Aspose
