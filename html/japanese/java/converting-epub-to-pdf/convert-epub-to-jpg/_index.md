@@ -16,7 +16,7 @@ weight: 12
 
 このステップバイステップ ガイドでは、強力な Aspose.HTML for Java ライブラリを使用して **epub を jpg 画像に変換**する方法を学びます。電子書籍ビューアの構築、デジタルライブラリ用サムネイルの生成、ページ単位のグラフィック抽出が必要な場合など、本チュートリアルは前提条件から最終的な変換呼び出しまでの全プロセスを案内します。
 
-## Quick Answers
+## 簡単な回答
 - **どのライブラリを使用できますか？** Aspose.HTML for Java は EPUB から画像への変換を組み込みでサポートしています。  
 - **どのメソッドが変換を実行しますか？** `Converter.convertEPUB` と `ImageSaveOptions` を組み合わせます。  
 - **ライセンスは必要ですか？** 本番利用には一時ライセンスまたはフルライセンスが必要です。無料トライアルも利用可能です。  
@@ -56,7 +56,7 @@ import java.io.FileInputStream;
 
 ## ステップバイステップ ガイド
 
-### Step 1: Open the EPUB File
+### ステップ1：EPUBファイルを開く
 まず、`FileInputStream` を使用して EPUB ファイルを開きます。`'input.epub'` を実際の EPUB ドキュメントへのパスに置き換えてください。
 
 ```java
@@ -67,7 +67,7 @@ try (FileInputStream fileInputStream = new FileInputStream("input.epub")) {
 
 > **プロのコツ:** try‑with‑resources ブロックを使用すると、ストリームが自動的に閉じられ、ファイルハンドルのリークを防止できます。
 
-### Step 2: Initialize ImageSaveOptions  
+### ステップ2：ImageSaveOptionsを初期化する 
 次に、`ImageSaveOptions` インスタンスを作成し、出力画像の保存方法を定義します。ここでは JPEG をターゲット形式として選択しています。Web 用サムネイルに最適です。
 
 ```java
@@ -76,7 +76,7 @@ ImageSaveOptions options = new ImageSaveOptions(ImageFormat.Jpeg);
 
 より細かい制御が必要な場合は、`options` オブジェクトを使って品質、DPI、ページサイズなどを調整できます。
 
-### Step 3: Convert EPUB to JPG  
+### ステップ3：EPUBをJPGに変換する
 最後に変換メソッドを呼び出します。`Converter.convertEPUB` が EPUB ストリームを読み込み、各ページをレンダリングし、指定した JPG ファイルに書き出します。
 
 ```java
@@ -93,7 +93,7 @@ Converter.convertEPUB(fileInputStream, options, "output.jpg");
 
 問題が発生したり追加の質問がある場合は、[Aspose Forums](https://forum.aspose.com/) でコミュニティに相談してください。
 
-## Frequently Asked Questions (FAQs)
+## よくある質問（FAQ）
 
 ### Aspose.HTML for Java は無料で使用できますか？
 Aspose.HTML for Java は商用ライブラリですが、[free trial](https://releases.aspose.com/) で試すことができます。
@@ -110,7 +110,7 @@ Aspose.HTML for Java は商用ライブラリですが、[free trial](https://re
 ### Aspose.HTML for Java のフルライセンスはどこで購入できますか？
 [here](https://purchase.aspose.com/buy) から購入できます。
 
-## Additional Frequently Asked Questions
+## その他のよくある質問
 
 **Q: 各ページのカスタム画像サイズを指定できますか？**  
 A: はい。`convertEPUB` を呼び出す前に `options.setPageSize(width, height)` メソッドで調整します。
