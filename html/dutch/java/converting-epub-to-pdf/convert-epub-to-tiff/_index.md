@@ -127,15 +127,15 @@ In deze uitgebreide gids hebben we je stap voor stap begeleid bij het convertere
 
 Voor verdere ondersteuning en om meer functies van Aspose.HTML voor Java te ontdekken, kun je de [documentatie](https://reference.aspose.com/html/java/) raadplegen of de bibliotheek downloaden via [hier](https://releases.aspose.com/html/java/).
 
+---
+
+**Laatst bijgewerkt:** 2026-01-15  
+**Getest met:** Aspose.HTML for Java 23.12  
+**Auteur:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Laatst bijgewerkt:** 2026-01-15  
-**Getest met:** Aspose.HTML for Java 23.12  
-**Auteur:** Aspose

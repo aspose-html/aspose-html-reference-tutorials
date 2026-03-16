@@ -128,23 +128,6 @@ Mit diesen Schritten haben Sie erfolgreich **convert html to bmp** mit Aspose.HT
 | **OutOfMemoryError** on large pages | Rendern großer DOM‑Bäume | Erhöhen Sie den JVM‑Heap (`-Xmx`) oder verwenden Sie die Seitennummerierung über `ImageSaveOptions.setPageSize`. |
 | **Fehlendes CSS-Styling** | Externes CSS nicht geladen | Verwenden Sie absolute URLs oder betten Sie CSS direkt in den HTML‑String ein. |
 
-## Häufig gestellte Fragen (Vorhanden)
-
-### Ist Aspose.HTML für Java kostenlos zu verwenden?
-Aspose.HTML für Java ist eine kommerzielle Bibliothek. Die Preis‑ und Lizenzdetails können Sie auf der [purchase page](https://purchase.aspose.com/buy) einsehen.
-
-### Benötige ich eine temporäre Lizenz für Aspose.HTML für Java?
-Eine temporäre Lizenz ist für Evaluierungszwecke nicht erforderlich. Sie können die Bibliothek von [here](https://releases.aspose.com/) herunterladen und ohne Lizenz testen.
-
-### Wo finde ich die Dokumentation für Aspose.HTML für Java?
-Die umfassende Dokumentation finden Sie unter [Aspose.HTML for Java Documentation](https://reference.aspose.com/html/java/).
-
-### Kann ich HTML mit Aspose.HTML für Java in andere Bildformate konvertieren?
-Ja, das ist möglich. Aspose.HTML für Java unterstützt mehrere Bildformate, darunter BMP, PNG, JPEG und weitere.
-
-### Was ist die Dateigrößenbeschränkung für die HTML‑zu‑BMP‑Konvertierung?
-Die Beschränkung der Dateigröße kann je nach Lizenz variieren. Für detaillierte Informationen siehe die Dokumentation.
-
 ## Weitere häufig gestellte Fragen
 
 **Q: Wie unterscheidet sich dieser Ansatz von der Verwendung eines headless Browsers?**  

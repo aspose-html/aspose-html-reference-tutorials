@@ -128,15 +128,15 @@ Ebben az átfogó útmutatóban végigvezettünk a **high quality tiff** konvert
 
 További segítségért és az Aspose.HTML for Java további funkcióinak felfedezéséhez tekintsd meg a [documentation](https://reference.aspose.com/html/java/) oldalt, vagy töltsd le a könyvtárat [itt](https://releases.aspose.com/html/java/).
 
+---
+
+**Legutóbb frissítve:** 2026-01-15  
+**Tesztelt verzió:** Aspose.HTML for Java 23.12  
+**Szerző:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Legutóbb frissítve:** 2026-01-15  
-**Tesztelt verzió:** Aspose.HTML for Java 23.12  
-**Szerző:** Aspose

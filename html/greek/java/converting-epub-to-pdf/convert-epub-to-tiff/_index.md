@@ -129,15 +129,15 @@ Converter.convertEPUB(
 
 Για περαιτέρω βοήθεια και για να εξερευνήσετε περισσότερες δυνατότητες του Aspose.HTML για Java, μπορείτε να ανατρέξετε στην [documentation](https://reference.aspose.com/html/java/) ή να κατεβάσετε τη βιβλιοθήκη από [here](https://releases.aspose.com/html/java/).
 
+---
+
+**Τελευταία ενημέρωση:** 2026-01-15  
+**Δοκιμή με:** Aspose.HTML for Java 23.12  
+**Συγγραφέας:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Τελευταία ενημέρωση:** 2026-01-15  
-**Δοκιμή με:** Aspose.HTML for Java 23.12  
-**Συγγραφέας:** Aspose

@@ -128,15 +128,15 @@ V tomto komplexním průvodci jsme vás provedli procesem převodu EPUB na **hig
 
 Pro další pomoc a prozkoumání dalších funkcí Aspose.HTML pro Java můžete nahlédnout do [dokumentace](https://reference.aspose.com/html/java/) nebo si stáhnout knihovnu [zde](https://releases.aspose.com/html/java/).
 
+---
+
+**Last Updated:** 2026-01-15  
+**Tested With:** Aspose.HTML for Java 23.12  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-15  
-**Tested With:** Aspose.HTML for Java 23.12  
-**Author:** Aspose

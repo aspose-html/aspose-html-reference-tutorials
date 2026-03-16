@@ -133,15 +133,15 @@ Aspose.HTML for Java विभिन्न कस्टमाइज़ेशन 
 
 अधिक सहायता के लिए और Aspose.HTML for Java की अधिक सुविधाओं का अन्वेषण करने के लिए, आप [documentation](https://reference.aspose.com/html/java/) देख सकते हैं या लाइब्रेरी को [here](https://releases.aspose.com/html/java/) से डाउनलोड कर सकते हैं।
 
+---
+
+**Last Updated:** 2026-01-15  
+**Tested With:** Aspose.HTML for Java 23.12  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-15  
-**Tested With:** Aspose.HTML for Java 23.12  
-**Author:** Aspose

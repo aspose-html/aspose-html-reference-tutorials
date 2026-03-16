@@ -127,23 +127,6 @@ Bu adımları tamamlayarak, Aspose.HTML for Java kullanarak **convert html to bm
 | **Büyük sayfalarda OutOfMemoryError** | Büyük DOM ağaçlarının render edilmesi | JVM yığın boyutunu (`-Xmx`) artırın veya `ImageSaveOptions.setPageSize` ile sayfalama kullanın. |
 | **CSS stilinin eksik olması** | Harici CSS yüklenmedi | Mutlak URL'ler kullanın veya CSS'i doğrudan HTML dizesine gömün. |
 
-## Sık Sorulan Sorular (Mevcut)
-
-### Aspose.HTML for Java ücretsiz mi kullanılabilir?
-Aspose.HTML for Java ticari bir kütüphanedir. Fiyatlandırma ve lisans detaylarını [satın alma sayfasında](https://purchase.aspose.com/buy) inceleyebilirsiniz.
-
-### Aspose.HTML for Java için geçici bir lisansa ihtiyacım var mı?
-Değerlendirme amaçları için geçici bir lisans gerekli değildir. Kütüphaneyi [buradan](https://releases.aspose.com/) indirip lisans olmadan test edebilirsiniz.
-
-### Aspose.HTML for Java belgelerini nerede bulabilirim?
-Kapsamlı belgeleri [Aspose.HTML for Java Documentation](https://reference.aspose.com/html/java/) adresinde inceleyebilirsiniz.
-
-### Aspose.HTML for Java kullanarak HTML'yi diğer görüntü formatlarına dönüştürebilir miyim?
-Evet, yapabilirsiniz. Aspose.HTML for Java, BMP, PNG, JPEG ve daha fazlası dahil olmak üzere birden çok görüntü formatını destekler.
-
-### HTML'den BMP dönüşümü için dosya boyutu sınırlaması nedir?
-Dosya boyutu sınırlaması lisansınıza göre değişebilir. Ayrıntılı bilgi için belgelere bakın.
-
 ## Ek Sık Sorulan Sorular
 
 **S: Bu yaklaşım headless tarayıcı kullanmaktan nasıl farklıdır?**  

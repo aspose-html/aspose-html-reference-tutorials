@@ -134,15 +134,15 @@ W tym obszernym przewodniku przeprowadziliśmy Cię przez proces konwersji EPUB 
 
 Aby uzyskać dalszą pomoc i poznać więcej funkcji Aspose.HTML for Java, możesz odwołać się do [dokumentacji](https://reference.aspose.com/html/java/) lub pobrać bibliotekę [tutaj](https://releases.aspose.com/html/java/).
 
+---
+
+**Last Updated:** 2026-01-15  
+**Tested With:** Aspose.HTML for Java 23.12  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-15  
-**Tested With:** Aspose.HTML for Java 23.12  
-**Author:** Aspose

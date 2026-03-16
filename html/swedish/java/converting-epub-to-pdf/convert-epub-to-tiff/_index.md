@@ -127,15 +127,15 @@ I den här omfattande guiden har vi gått igenom processen för att konvertera E
 
 För ytterligare hjälp och för att utforska fler funktioner i Aspose.HTML för Java, kan du hänvisa till [dokumentationen](https://reference.aspose.com/html/java/) eller ladda ner biblioteket från [här](https://releases.aspose.com/html/java/).
 
+---
+
+**Senast uppdaterad:** 2026-01-15  
+**Testad med:** Aspose.HTML for Java 23.12  
+**Författare:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Senast uppdaterad:** 2026-01-15  
-**Testad med:** Aspose.HTML for Java 23.12  
-**Författare:** Aspose

@@ -133,15 +133,15 @@ Aspose 커뮤니티의 [forum](https://forum.aspose.com/)에 가입하여 질문
 
 추가 지원이 필요하거나 Aspose.HTML for Java의 더 많은 기능을 살펴보려면 [documentation](https://reference.aspose.com/html/java/)을 참고하거나 [here](https://releases.aspose.com/html/java/)에서 라이브러리를 다운로드하십시오.
 
+---
+
+**Last Updated:** 2026-01-15  
+**Tested With:** Aspose.HTML for Java 23.12  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-15  
-**Tested With:** Aspose.HTML for Java 23.12  
-**Author:** Aspose

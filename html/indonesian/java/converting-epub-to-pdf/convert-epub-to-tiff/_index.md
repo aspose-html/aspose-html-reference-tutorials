@@ -134,15 +134,15 @@ Dalam panduan komprehensif ini, kami telah memandu Anda melalui proses mengonver
 
 Untuk bantuan lebih lanjut dan menjelajahi lebih banyak fitur Aspose.HTML untuk Java, Anda dapat merujuk ke [dokumentasi](https://reference.aspose.com/html/java/) atau mengunduh perpustakaan dari [sini](https://releases.aspose.com/html/java/).
 
+---
+
+**Last Updated:** 2026-01-15  
+**Tested With:** Aspose.HTML for Java 23.12  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-15  
-**Tested With:** Aspose.HTML for Java 23.12  
-**Author:** Aspose

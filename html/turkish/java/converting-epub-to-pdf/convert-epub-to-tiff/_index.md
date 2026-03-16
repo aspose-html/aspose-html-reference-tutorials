@@ -127,15 +127,15 @@ Bu kapsamlı rehberde, Aspose.HTML for Java kullanarak **yüksek kaliteli TIFF**
 
 Daha fazla yardım ve Aspose.HTML for Java'ın diğer özelliklerini keşfetmek için [belgelere](https://reference.aspose.com/html/java/) göz atabilir veya kütüphaneyi [buradan](https://releases.aspose.com/html/java/) indirebilirsiniz.
 
+---
+
+**Son Güncelleme:** 2026-01-15  
+**Test Edilen:** Aspose.HTML for Java 23.12  
+**Yazar:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Son Güncelleme:** 2026-01-15  
-**Test Edilen:** Aspose.HTML for Java 23.12  
-**Yazar:** Aspose

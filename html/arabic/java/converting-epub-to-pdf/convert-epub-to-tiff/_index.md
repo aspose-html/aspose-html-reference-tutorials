@@ -127,15 +127,15 @@ Aspose.HTML للـ Java هو مكتبة تجارية. يمكنك الحصول ع
 
 للمزيد من المساعدة واستكشاف ميزات إضافية في Aspose.HTML للـ Java، يمكنك الرجوع إلى [التوثيق](https://reference.aspose.com/html/java/) أو تحميل المكتبة من [هنا](https://releases.aspose.com/html/java/).
 
+---
+
+**آخر تحديث:** 2026-01-15  
+**تم الاختبار مع:** Aspose.HTML للـ Java 23.12  
+**المؤلف:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2026-01-15  
-**تم الاختبار مع:** Aspose.HTML للـ Java 23.12  
-**المؤلف:** Aspose

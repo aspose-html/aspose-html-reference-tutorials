@@ -53,15 +53,15 @@ HTML को BMP में परिवर्तित करना मतलब 
 
 अब, आइए आवश्यक पैकेज आयात करें ताकि आप अपने प्रोजेक्ट में Aspose.HTML for Java का उपयोग शुरू कर सकें। इन चरणों का पालन करें:
 
-### Step 1: Create a New Java Project
+### स्टेप 1: एक नया Java प्रोजेक्ट बनाएं
 
 अपने IDE को खोलें और एक नया Java प्रोजेक्ट बनाएं। इसे अपनी पसंद के अनुसार नाम दें।
 
-### Step 2: Add the Aspose.HTML for Java Library
+### स्टेप 2: Aspose.HTML for Java लाइब्रेरी जोड़ें
 
-Aspose.HTML for Java लाइब्रेरी को अपने प्रोजेक्ट में जोड़ें। अपने IDE में, प्रोजेक्ट सेटिंग्स पर जाएँ और पहले डाउनलोड की गई JAR फ़ाइल जोड़ें।
+Aspose.HTML for Java लाइब्रेरी को अपने प्रोजेक्ट में जोड़ें। अपने IDE में, प्रोजेक्ट सेटिंग पर जाएं और पहले डाउनलोड की गई JAR फ़ाइल जोड़ें।
 
-### Step 3: Import the Required Packages
+### स्टेप 3: ज़रूरी पैकेज इंपोर्ट करें
 
 अपने Java क्लास में, निम्नलिखित पैकेज आयात करें:
 
@@ -71,11 +71,11 @@ import com.aspose.html.saving.ImageSaveOptions;
 import com.aspose.html.converters.Converter;
 ```
 
-## Aspose.HTML for Java का उपयोग करके html को bmp में कैसे परिवर्तित करें
+## Aspose.HTML for Java का इस्तेमाल करके html को bmp में कैसे बदलें
 
-यह हमारे ट्यूटोरियल का मुख्य भाग है, जहाँ आप एक HTML दस्तावेज़ को BMP इमेज में बदलेंगे। इस कार्य को पूरा करने के लिए नीचे दिए गए चरणों का पालन करें:
+यह हमारे ट्यूटोरियल का मुख्य हिस्सा है, जहाँ आप एक HTML डॉक्यूमेंट को BMP इमेज में बदलेंगे। इस काम को पूरा करने के लिए नीचे दिए गए स्टेप्स का पालन करें:
 
-### Step 4: Prepare HTML Code
+### स्टेप 4: HTML कोड तैयार करें
 
 सबसे पहले, वह HTML कोड तैयार करें जिसे आप परिवर्तित करना चाहते हैं। यहाँ एक उदाहरण है:
 
@@ -83,7 +83,7 @@ import com.aspose.html.converters.Converter;
 String code = "<span>Hello</span> <span>World!!</span>";
 ```
 
-### Step 5: Save HTML to a File
+### स्टेप 5: HTML को एक फाइल में सेव करें
 
 `FileWriter` का उपयोग करके HTML कोड को फ़ाइल में सहेजें। यह कोड स्निपेट दिखाता है कि कैसे:
 
@@ -93,7 +93,7 @@ try (java.io.FileWriter fileWriter = new java.io.FileWriter("document.html")) {
 }
 ```
 
-### Step 6: Initialize an HTML Document
+### स्टेप 6: HTML डॉक्यूमेंट को इनिशियलाइज़ करें
 
 आपके द्वारा अभी बनाई गई HTML फ़ाइल से एक HTML दस्तावेज़ को इनिशियलाइज़ करें:
 
@@ -101,7 +101,7 @@ try (java.io.FileWriter fileWriter = new java.io.FileWriter("document.html")) {
 HTMLDocument document = new HTMLDocument("document.html");
 ```
 
-### Step 7: Convert HTML to BMP
+### स्टेप 7: HTML को BMP में कन्वर्ट करें
 
 `ImageSaveOptions` को इनिशियलाइज़ करें और `Converter` का उपयोग करके HTML को BMP में परिवर्तित करें। BMP इमेज के आउटपुट फ़ाइल को निर्दिष्ट करें:
 
@@ -110,7 +110,7 @@ ImageSaveOptions options = new ImageSaveOptions(com.aspose.html.rendering.image.
 Converter.convertHTML(document, options, "output.bmp");
 ```
 
-### Step 8: Dispose of Resources
+### स्टेप 8: रिसोर्स हटाएँ
 
 अंत में, सुनिश्चित करें कि रूपांतरण के दौरान उपयोग किए गए सभी संसाधनों को मुक्त कर दिया गया है:
 
@@ -129,23 +129,6 @@ if (document != null) {
 | **Blank BMP output** | HTML फ़ाइल नहीं मिली या खाली | फ़ाइल पथ सत्यापित करें और सुनिश्चित करें कि `document.html` में वैध मार्कअप है। |
 | **OutOfMemoryError** on large pages | बड़े DOM ट्री का रेंडरिंग | JVM हीप (`-Xmx`) बढ़ाएँ या `ImageSaveOptions.setPageSize` के माध्यम से पेजिनेशन उपयोग करें। |
 | **Missing CSS styling** | बाहरी CSS लोड नहीं हुआ | परिपूर्ण URLs उपयोग करें या CSS को सीधे HTML स्ट्रिंग में एम्बेड करें। |
-
-## अक्सर पूछे जाने वाले प्रश्न (Existing)
-
-### Is Aspose.HTML for Java free to use?
-Aspose.HTML for Java एक व्यावसायिक लाइब्रेरी है। आप मूल्य निर्धारण और लाइसेंसिंग विवरण [purchase page](https://purchase.aspose.com/buy) पर देख सकते हैं।
-
-### Do I need a temporary license for Aspose.HTML for Java?
-मूल्यांकन उद्देश्यों के लिए अस्थायी लाइसेंस आवश्यक नहीं है। आप लाइब्रेरी को [here](https://releases.aspose.com/) से डाउनलोड कर सकते हैं और बिना लाइसेंस के परीक्षण कर सकते हैं।
-
-### Where can I find documentation for Aspose.HTML for Java?
-आप व्यापक दस्तावेज़ीकरण को [Aspose.HTML for Java Documentation](https://reference.aspose.com/html/java/) पर देख सकते हैं।
-
-### Can I convert HTML to other image formats using Aspose.HTML for Java?
-हाँ, आप कर सकते हैं। Aspose.HTML for Java कई इमेज फॉर्मैट्स को सपोर्ट करता है, जिसमें BMP, PNG, JPEG, और अधिक शामिल हैं।
-
-### What is the file size limitation for HTML to BMP conversion?
-फ़ाइल आकार सीमा आपके लाइसेंस पर निर्भर कर सकती है। विस्तृत जानकारी के लिए दस्तावेज़ीकरण देखें।
 
 ## अतिरिक्त अक्सर पूछे जाने वाले प्रश्न
 

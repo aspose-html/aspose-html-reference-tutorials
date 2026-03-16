@@ -125,28 +125,6 @@ Ezekkel a lépésekkel sikeresen **convert html to bmp** végrehajtottad az Aspo
 | **OutOfMemoryError** nagy oldalakon | Nagy DOM fák renderelése | Növeld a JVM heap méretét (`-Xmx`), vagy használj oldaltördelést az `ImageSaveOptions.setPageSize` segítségével. |
 | **Hiányzó CSS stílus** | Külső CSS nem töltődött be | Használj abszolút URL‑eket, vagy ágyazd be a CSS‑t közvetlenül a HTML sztringbe. |
 
-## Gyakran ismételt kérdések (létező)
-
-### Az Aspose.HTML for Java ingyenes használatra?
-
-Az Aspose.HTML for Java egy kereskedelmi könyvtár. Az árakat és licencinformációkat a [vásárlási oldalon](https://purchase.aspose.com/buy) tekintheted meg.
-
-### Szükségem van ideiglenes licencre az Aspose.HTML for Java-hoz?
-
-Az értékelési célokra nem szükséges ideiglenes licenc. A könyvtárat letöltheted [innen](https://releases.aspose.com/), és licenc nélkül tesztelheted.
-
-### Hol találom az Aspose.HTML for Java dokumentációját?
-
-A részletes dokumentációt a [Aspose.HTML for Java Documentation](https://reference.aspose.com/html/java/) oldalon tekintheted meg.
-
-### Konvertálhatok HTML‑t más képformátumokra az Aspose.HTML for Java segítségével?
-
-Igen, lehet. Az Aspose.HTML for Java több képformátumot támogat, beleértve a BMP, PNG, JPEG és továbbiakat.
-
-### Mi a fájlméret korlátozás a HTML‑BMP konverzióhoz?
-
-A fájlméret korlátozás a licencedtől függően változhat. Részletes információkért lásd a dokumentációt.
-
 ## További gyakran ismételt kérdések
 
 **Q: Hogyan különbözik ez a megközelítés a headless böngésző használatától?**  

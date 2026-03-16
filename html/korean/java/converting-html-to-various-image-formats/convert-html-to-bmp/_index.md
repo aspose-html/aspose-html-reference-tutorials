@@ -127,28 +127,6 @@ if (document != null) {
 | **OutOfMemoryError** on large pages | 큰 DOM 트리를 렌더링 | JVM 힙(`-Xmx`)을 늘리거나 `ImageSaveOptions.setPageSize`를 사용해 페이지네이션을 적용하십시오. |
 | **Missing CSS styling** | 외부 CSS가 로드되지 않음 | 절대 URL을 사용하거나 CSS를 HTML 문자열에 직접 포함하십시오. |
 
-## 자주 묻는 질문 (기존)
-
-### Aspose.HTML for Java는 무료로 사용할 수 있나요?
-
-Aspose.HTML for Java는 상용 라이브러리입니다. 가격 및 라이선스 세부 정보는 [purchase page](https://purchase.aspose.com/buy)에서 확인할 수 있습니다.
-
-### Aspose.HTML for Java에 임시 라이선스가 필요합니까?
-
-평가 목적이라면 임시 라이선스가 필요하지 않습니다. 라이브러리는 [here](https://releases.aspose.com/)에서 다운로드하여 라이선스 없이 테스트할 수 있습니다.
-
-### Aspose.HTML for Java 문서는 어디에서 찾을 수 있나요?
-
-포괄적인 문서는 [Aspose.HTML for Java Documentation](https://reference.aspose.com/html/java/)에서 확인할 수 있습니다.
-
-### Aspose.HTML for Java를 사용하여 HTML을 다른 이미지 포맷으로 변환할 수 있나요?
-
-예, 가능합니다. Aspose.HTML for Java는 BMP, PNG, JPEG 등을 포함한 다양한 이미지 포맷을 지원합니다.
-
-### HTML을 BMP로 변환할 때 파일 크기 제한은 어떻게 되나요?
-
-파일 크기 제한은 라이선스에 따라 달라질 수 있습니다. 자세한 내용은 문서를 참고하십시오.
-
 ## 추가 자주 묻는 질문
 
 **Q: 이 접근 방식은 헤드리스 브라우저 사용과 어떻게 다른가요?**  

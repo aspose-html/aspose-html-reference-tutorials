@@ -128,15 +128,15 @@ Dans ce guide complet, nous vous avons montré comment convertir un EPUB en **ti
 
 Pour plus d’assistance et pour explorer davantage les fonctionnalités d’Aspose.HTML pour Java, consultez la [documentation](https://reference.aspose.com/html/java/) ou téléchargez la bibliothèque [ici](https://releases.aspose.com/html/java/).
 
+---
+
+**Last Updated:** 2026-01-15  
+**Tested With:** Aspose.HTML for Java 23.12  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-15  
-**Tested With:** Aspose.HTML for Java 23.12  
-**Author:** Aspose

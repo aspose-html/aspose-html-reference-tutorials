@@ -126,23 +126,6 @@ if (document != null) {
 | **大页面出现 OutOfMemoryError** | 渲染的 DOM 树过大 | 增加 JVM 堆内存 (`-Xmx`) 或通过 `ImageSaveOptions.setPageSize` 进行分页。 |
 | **CSS 样式缺失** | 外部 CSS 未加载 | 使用绝对 URL，或将 CSS 直接嵌入 HTML 字符串中。 |
 
-## 常见问答（已有）
-
-### Aspose.HTML for Java 可以免费使用吗？
-Aspose.HTML for Java 是商业库。您可以在[购买页面](https://purchase.aspose.com/buy)查看定价和授权细节。
-
-### 使用 Aspose.HTML for Java 需要临时许可证吗？
-评估阶段不需要临时许可证。您可以从[此处](https://releases.aspose.com/)下载库并在无许可证的情况下进行测试。
-
-### 哪里可以找到 Aspose.HTML for Java 的文档？
-完整文档请访问[Aspose.HTML for Java Documentation](https://reference.aspose.com/html/java/)。
-
-### 能否使用 Aspose.HTML for Java 将 HTML 转换为其他图片格式？
-可以。Aspose.HTML for Java 支持 BMP、PNG、JPEG 等多种图片格式。
-
-### HTML 转 BMP 的文件大小有限制吗？
-文件大小限制取决于您的许可证。详情请参阅文档。
-
 ## 其他常见问答
 
 **问：这种方式与使用无头浏览器有何不同？**  

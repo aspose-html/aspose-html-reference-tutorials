@@ -133,15 +133,15 @@ In questa guida completa, ti abbiamo mostrato come convertire EPUB in **tiff di 
 
 Per ulteriore assistenza e per esplorare altre funzionalità di Aspose.HTML per Java, consulta la [documentazione](https://reference.aspose.com/html/java/) o scarica la libreria da [qui](https://releases.aspose.com/html/java/).
 
+---
+
+**Ultimo aggiornamento:** 2026-01-15  
+**Testato con:** Aspose.HTML for Java 23.12  
+**Autore:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ultimo aggiornamento:** 2026-01-15  
-**Testato con:** Aspose.HTML for Java 23.12  
-**Autore:** Aspose

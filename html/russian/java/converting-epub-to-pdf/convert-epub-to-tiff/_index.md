@@ -126,15 +126,15 @@ Yes, Aspose.HTML for Java совместим со многими Java‑экос
 
 Для получения дополнительной помощи и изучения дополнительных возможностей Aspose.HTML for Java обратитесь к [documentation](https://reference.aspose.com/html/java/) или загрузите библиотеку [here](https://releases.aspose.com/html/java/).
 
+---
+
+**Последнее обновление:** 2026-01-15  
+**Тестировано с:** Aspose.HTML for Java 23.12  
+**Автор:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Последнее обновление:** 2026-01-15  
-**Тестировано с:** Aspose.HTML for Java 23.12  
-**Автор:** Aspose
