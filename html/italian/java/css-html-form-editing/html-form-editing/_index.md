@@ -5,7 +5,7 @@ description: Scopri come verificare l'invio del modulo, modificarlo e inviare mo
   gestione della risposta JSON java e salvataggio del documento HTML java.
 linktitle: 'Check Form Submission: HTML Form Editing and Submission with Aspose.HTML'
 second_title: Java HTML Processing with Aspose.HTML
-title: 'Verifica dell''invio del modulo: modifica e invio di moduli HTML con Aspose.HTML
+title: 'Verifica dell''invio del modulo - modifica e invio di moduli HTML con Aspose.HTML
   per Java'
 url: /it/java/css-html-form-editing/html-form-editing/
 weight: 11

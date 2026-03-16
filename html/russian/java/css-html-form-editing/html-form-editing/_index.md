@@ -5,7 +5,7 @@ description: Узнайте, как проверять отправку форм
   JSON‑ответа на Java и сохранения HTML‑документа на Java.
 linktitle: 'Check Form Submission: HTML Form Editing and Submission with Aspose.HTML'
 second_title: Java HTML Processing with Aspose.HTML
-title: 'Проверка отправки формы: редактирование HTML‑формы и отправка с помощью Aspose.HTML
+title: 'Проверка отправки формы - редактирование HTML‑формы и отправка с помощью Aspose.HTML
   для Java'
 url: /ru/java/css-html-form-editing/html-form-editing/
 weight: 11

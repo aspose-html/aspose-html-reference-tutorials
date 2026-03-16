@@ -5,7 +5,7 @@ description: Lär dig hur du kontrollerar formulärinlämning, redigerar och ski
   i Java, hantera JSON‑svar i Java och spara HTML‑dokument i Java.
 linktitle: 'Check Form Submission: HTML Form Editing and Submission with Aspose.HTML'
 second_title: Java HTML Processing with Aspose.HTML
-title: 'Kontrollera formulärinlämning: Redigering och inlämning av HTML‑formulär med
+title: 'Kontrollera formulärinlämning - Redigering och inlämning av HTML‑formulär med
   Aspose.HTML för Java'
 url: /sv/java/css-html-form-editing/html-form-editing/
 weight: 11

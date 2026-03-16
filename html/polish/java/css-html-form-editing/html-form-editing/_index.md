@@ -6,7 +6,7 @@ description: 'Naucz się sprawdzać przesyłanie formularzy, edytować i wysyła
   Javie.'
 linktitle: 'Check Form Submission: HTML Form Editing and Submission with Aspose.HTML'
 second_title: Java HTML Processing with Aspose.HTML
-title: 'Sprawdź przesyłanie formularza: edycja i przesyłanie formularza HTML przy
+title: 'Sprawdź przesyłanie formularza - edycja i przesyłanie formularza HTML przy
   użyciu Aspose.HTML dla Javy'
 url: /pl/java/css-html-form-editing/html-form-editing/
 weight: 11

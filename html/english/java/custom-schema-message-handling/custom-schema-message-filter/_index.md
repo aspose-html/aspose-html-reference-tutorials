@@ -129,6 +129,7 @@ This simple test case creates a mock network context that pretends to use the `"
 In this tutorial, we've walked through **how to filter HTML** by creating a Custom Schema Message Filter using Aspose.HTML for Java. By following these steps, you can tailor your application to process only the network requests that match your specific requirements. This capability is particularly useful when you need to enforce strict rules around the types of protocols your application interacts with—whether for security, performance, or compliance reasons.
 
 ## FAQ's
+
 ### What is Aspose.HTML for Java?
 Aspose.HTML for Java is a robust API for manipulating and rendering HTML documents within Java applications. It offers extensive features for working with HTML, CSS, and SVG files.
 
@@ -144,13 +145,6 @@ Aspose.HTML for Java is compatible with JDK 8 and later versions. Always ensur
 ### How do I get support for Aspose.HTML for Java?
 You can access support through the [Aspose support forum](https://forum.aspose.com/c/html/29), where you can ask questions and get help from the community and Aspose developers.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-01-28  
@@ -158,3 +152,10 @@ You can access support through the [Aspose support forum](https://forum.aspose.c
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

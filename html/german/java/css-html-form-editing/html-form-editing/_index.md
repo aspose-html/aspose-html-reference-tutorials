@@ -6,7 +6,7 @@ description: Erfahren Sie, wie Sie die Formularübermittlung prüfen, bearbeiten
   Speichern von HTML-Dokumenten in Java.
 linktitle: 'Check Form Submission: HTML Form Editing and Submission with Aspose.HTML'
 second_title: Java HTML Processing with Aspose.HTML
-title: 'Formularübermittlung prüfen: HTML-Formularbearbeitung und -einreichung mit
+title: 'Formularübermittlung prüfen - HTML-Formularbearbeitung und -einreichung mit
   Aspose.HTML für Java'
 url: /de/java/css-html-form-editing/html-form-editing/
 weight: 11

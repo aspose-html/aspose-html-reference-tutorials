@@ -6,7 +6,7 @@ description: Apprenez à vérifier la soumission de formulaire, à le modifier e
   de document HTML en Java.
 linktitle: 'Check Form Submission: HTML Form Editing and Submission with Aspose.HTML'
 second_title: Java HTML Processing with Aspose.HTML
-title: 'Vérifier la soumission du formulaire : édition et soumission de formulaire
+title: 'Vérifier la soumission du formulaire - édition et soumission de formulaire
   HTML avec Aspose.HTML pour Java'
 url: /fr/java/css-html-form-editing/html-form-editing/
 weight: 11

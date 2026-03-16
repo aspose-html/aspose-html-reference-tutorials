@@ -1,5 +1,5 @@
 ---
-title: "Check Form Submission: HTML Form Editing and Submission with Aspose.HTML for Java"
+title: "Check Form Submission - HTML Form Editing and Submission with Aspose.HTML for Java"
 linktitle: "Check Form Submission: HTML Form Editing and Submission with Aspose.HTML"
 second_title: "Java HTML Processing with Aspose.HTML"
 description: "Learn how to check form submission, edit, and submit HTML forms using Aspose.HTML for Java. Includes submit html form java, handle json response java, and save html document java examples."

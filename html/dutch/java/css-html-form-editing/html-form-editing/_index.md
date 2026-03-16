@@ -6,7 +6,7 @@ description: Leer hoe je formulierverzending kunt controleren, bewerken en HTMLâ
   van een HTMLâ€‘document in Java.
 linktitle: 'Check Form Submission: HTML Form Editing and Submission with Aspose.HTML'
 second_title: Java HTML Processing with Aspose.HTML
-title: 'Controleer formulierverzending: HTML-formulier bewerken en verzenden met Aspose.HTML
+title: 'Controleer formulierverzending - HTML-formulier bewerken en verzenden met Aspose.HTML
   voor Java'
 url: /nl/java/css-html-form-editing/html-form-editing/
 weight: 11

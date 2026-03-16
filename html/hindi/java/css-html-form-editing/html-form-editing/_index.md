@@ -5,7 +5,7 @@ description: Aspose.HTML for Java का उपयोग करके फ़ॉ�
   और save html document java के उदाहरण शामिल हैं।
 linktitle: 'Check Form Submission: HTML Form Editing and Submission with Aspose.HTML'
 second_title: Java HTML Processing with Aspose.HTML
-title: 'फ़ॉर्म सबमिशन जांचें: Aspose.HTML for Java के साथ HTML फ़ॉर्म संपादन और सबमिशन'
+title: 'फ़ॉर्म सबमिशन जांचें - Aspose.HTML for Java के साथ HTML फ़ॉर्म संपादन और सबमिशन'
 url: /hi/java/css-html-form-editing/html-form-editing/
 weight: 11
 ---

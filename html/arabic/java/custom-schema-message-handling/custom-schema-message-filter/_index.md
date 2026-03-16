@@ -130,6 +130,7 @@ public class TestCustomSchemaMessageFilter {
 في هذا البرنامج التعليمي، استعرضنا **كيفية تصفية HTML** بإنشاء مرشح رسائل مخطط مخصص باستخدام Aspose.HTML for Java. باتباع هذه الخطوات، يمكنك تخصيص تطبيقك لمعالجة طلبات الشبكة التي تتطابق مع متطلباتك المحددة فقط. تُعد هذه القدرة مفيدة جدًا عندما تحتاج إلى فرض قواعد صارمة حول أنواع البروتوكولات التي يتفاعل معها تطبيقك—سواء لأسباب الأمان أو الأداء أو الامتثال.
 
 ## الأسئلة المتكررة
+
 ### ما هو Aspose.HTML for Java؟
 Aspose.HTML for Java هو واجهة برمجة تطبيقات قوية لمعالجة وعرض مستندات HTML داخل تطبيقات Java. يقدم ميزات واسعة للعمل مع ملفات HTML وCSS وSVG.
 
@@ -145,13 +146,6 @@ Aspose.HTML for Java متوافق مع JDK 8 والإصدارات الأحدث
 ### كيف أحصل على الدعم لـ Aspose.HTML for Java؟
 يمكنك الوصول إلى الدعم عبر [منتدى دعم Aspose](https://forum.aspose.com/c/html/29)، حيث يمكنك طرح الأسئلة والحصول على مساعدة من المجتمع ومطوري Aspose.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **آخر تحديث:** 2026-01-28  
@@ -159,3 +153,10 @@ Aspose.HTML for Java متوافق مع JDK 8 والإصدارات الأحدث
 **المؤلف:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

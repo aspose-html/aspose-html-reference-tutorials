@@ -130,6 +130,7 @@ public class TestCustomSchemaMessageFilter {
 이 튜토리얼에서는 Aspose.HTML for Java를 사용하여 사용자 정의 스키마 메시지 필터를 만들면서 **how to filter HTML**을 수행하는 방법을 살펴보았습니다. 이 단계들을 따라 하면 애플리케이션이 특정 요구 사항에 맞는 네트워크 요청만 처리하도록 맞춤화할 수 있습니다. 이 기능은 애플리케이션이 상호 작용하는 프로토콜 유형에 대해 보안, 성능 또는 규정 준수와 같은 엄격한 규칙을 적용해야 할 때 특히 유용합니다.
 
 ## FAQ
+
 ### Aspose.HTML for Java란 무엇인가요?
 Aspose.HTML for Java는 Java 애플리케이션 내에서 HTML서를 조작하고 렌더링하기 위한 강력한 API입니다. HTML, CSS, SVG 파일 작업을 위한 광범위한 기능을 제공합니다.
 
@@ -145,13 +146,6 @@ Aspose.HTML for Java는 JDK 8 및 이후 버전과 호환됩니다. 최적의 
 ### Aspose.HTML for Java에 대한 지원은 어떻게 받나요?
 [Aose 지원 포럼](https://forum.aspose.com/c/html/29)에서 질문을 올리면 커뮤니티와 Aspose 개발자로부터 도움을 받을 수 있습니다.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-01-28  
@@ -159,3 +153,10 @@ Aspose.HTML for Java는 JDK 8 및 이후 버전과 호환됩니다. 최적의 
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

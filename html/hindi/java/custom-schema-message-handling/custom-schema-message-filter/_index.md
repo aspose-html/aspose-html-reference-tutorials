@@ -131,6 +131,7 @@ public class TestCustomSchemaMessageFilter {
 इस ट्यूटोरियल में, हमने **HTML को कैसे फ़िल्टर करें** को Aspose.HTML for Java का उपयोग करके कस्टम स्कीमा संदेश फ़िल्टर बनाकर समझाया। इन चरणों का पालन करके आप अपने एप्लिकेशन को केवल उन नेटवर्क अनुरोधों को प्रोसेस करने के लिए अनुकूलित कर सकते हैं जो आपकी विशिष्ट आवश्यकताओं से मेल खाते हैं। यह क्षमता विशेष रूप से तब उपयोगी होती है जब आपको सुरक्षा, प्रदर्शन या अनुपालन कारणों से अपने एप्लिकेशन द्वारा उपयोग किए जाने वाले प्रोटोकॉल प्रकारों पर सख्त नियम लागू करने की आवश्यकता होती है।
 
 ## अक्सर पूछे जाने वाले प्रश्न
+
 ### Aspose.HTML for Java क्या है?
 Aspose.HTML for Java एक मजबूत API है जो Java एप्लिकेशनों के भीतर HTML दस्तावेज़ों को मैनिपुलेट और रेंडर करने के लिए उपयोग की जाती है। यह HTML, CSS, और SVG फ़ाइलों के साथ काम करने के लिए विस्तृत सुविधाएँ प्रदान करती है।
 
@@ -146,13 +147,6 @@ Aspose.HTML for Java JDK 8 और बाद के संस्करणों
 ### मुझे Aspose.HTML for Java के लिए समर्थन कैसे मिलेगा?
 आप [Aspose समर्थन फ़ोरम](https://forum.aspose.com/c/html/29) के माध्यम से समर्थन प्राप्त कर सकते हैं, जहाँ आप प्रश्न पूछ सकते हैं और समुदाय तथा Aspose डेवलपर्स से मदद ले सकते हैं।
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **अंतिम अपडेट:** 2026-01-28  
@@ -160,3 +154,10 @@ Aspose.HTML for Java JDK 8 और बाद के संस्करणों
 **लेखक:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

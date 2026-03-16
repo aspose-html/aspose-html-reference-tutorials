@@ -5,7 +5,7 @@ description: Tanulja meg, hogyan ellenőrizze az űrlap beküldését, szerkessz
   html form java, handle json response java és save html document java példákat.
 linktitle: 'Check Form Submission: HTML Form Editing and Submission with Aspose.HTML'
 second_title: Java HTML Processing with Aspose.HTML
-title: 'Űrlapbeküldés ellenőrzése: HTML űrlap szerkesztése és beküldése az Aspose.HTML
+title: 'Űrlapbeküldés ellenőrzése - HTML űrlap szerkesztése és beküldése az Aspose.HTML
   for Java segítségével'
 url: /hu/java/css-html-form-editing/html-form-editing/
 weight: 11

@@ -131,6 +131,7 @@ public class TestCustomSchemaMessageFilter {
 Σε αυτό το tutorial, περάσαμε από το **πώς να φιλτράρετε HTML** δημιουργώντας ένα Custom Schema Message Filter με το Aspose.HTML for Java. Ακολουθώντας αυτά τα βήματα, μπορείτε να προσαρμόσετε την εφαρμογή σας ώστε να επεξεργάζεται μόνο τα αιτήματα δικτύου που ταιριάζουν με τις συγκεκριμένες απαιτήσεις σας. Αυτή η δυνατότητα είναι ιδιαίτερα χρήσιμη όταν χρειάζεται να επιβάλετε αυστηρούς κανόνες γύρω από τους τύπους πρωτοκόλλων με τους οποίους αλληλεπιδρά η εφαρμογή σας—είτε για λόγους ασφαλείας, απόδοσης ή συμμόρφωσης.
 
 ## Συχνές Ερωτήσεις
+
 ### Τι είναι το Aspose.HTML for Java;
 Το Aspose.HTML for Java είναι ένα ισχυρό API για τη διαχείριση και απόδοση εγγράφων HTML μέσα σε εφαρμογές Java. Προσφέρει εκτεταμένες δυνατότητες για εργασία με αρχεία HTML, CSS και SVG.
 
@@ -146,13 +147,6 @@ public class TestCustomSchemaMessageFilter {
 ### Πώς μπορώ να λάβω υποστήριξη για το Aspose.HTML for Java;
 Μπορείτε να έχετε πρόσβαση στην υποστήριξη μέσω του [Aspose support forum](https://forum.aspose.com/c/html/29), όπου μπορείτε να θέσετε ερωτήσεις και να λάβετε βοήθεια από την κοινότητα και τους προγραμματιστές της Aspose.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Τελευταία Ενημέρωση:** 2026-01-28  
@@ -160,3 +154,10 @@ public class TestCustomSchemaMessageFilter {
 **Συγγραφέας:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

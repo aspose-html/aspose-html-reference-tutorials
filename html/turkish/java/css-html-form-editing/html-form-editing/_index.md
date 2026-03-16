@@ -5,7 +5,7 @@ description: Java için Aspose.HTML kullanarak form gönderimini kontrol etmeyi,
   java ve save html document java örneklerini içerir.
 linktitle: 'Check Form Submission: HTML Form Editing and Submission with Aspose.HTML'
 second_title: Java HTML Processing with Aspose.HTML
-title: 'Form Gönderimini Kontrol Et: Aspose.HTML for Java ile HTML Form Düzenleme
+title: 'Form Gönderimini Kontrol Et - Aspose.HTML for Java ile HTML Form Düzenleme
   ve Gönderme'
 url: /tr/java/css-html-form-editing/html-form-editing/
 weight: 11

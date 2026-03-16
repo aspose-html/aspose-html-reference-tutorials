@@ -5,7 +5,7 @@ description: Aprenda como verificar o envio de formulários, editar e submeter f
   Java, manipular resposta JSON em Java e salvar documento HTML em Java.
 linktitle: 'Check Form Submission: HTML Form Editing and Submission with Aspose.HTML'
 second_title: Java HTML Processing with Aspose.HTML
-title: 'Verificar envio de formulário: edição e envio de formulário HTML com Aspose.HTML
+title: 'Verificar envio de formulário - edição e envio de formulário HTML com Aspose.HTML
   para Java'
 url: /pt/java/css-html-form-editing/html-form-editing/
 weight: 11

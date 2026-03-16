@@ -131,6 +131,7 @@ Tento jednoduchý test vytvoří simulovaný síťový kontext, který předstí
 V tomto tutoriálu jsme prošli **jak filtrovat HTML** vytvořením Vlastního filtru zpráv podle schématu pomocí Aspose.HTML pro Java. Dodržením těchto kroků můžete přizpůsobit svou aplikaci tak, aby zpracovávala pouze síťové požadavky, které odpovídají vašim specifickým požadavkům. Tato schopnost je zvláště užitečná, když potřebujete vynutit přísná pravidla ohledně typů protokolů, se kterými vaše aplikace komunikuje – ať už z důvodů bezpečnosti, výkonu nebo souladu.
 
 ## Často kladené otázky
+
 ### Co je Aspose.HTML pro Java?
 Aspose.HTML pro Java je robustní API pro manipulaci a renderování HTML dokumentů v Java aplikacích. Nabízí rozsáhlé funkce pro práci s HTML, CSS a SVG soubory.
 
@@ -146,15 +147,15 @@ Aspose.HTML pro Java je kompatibilní s JDK 8 a novějšími verzemi. Vždy se
 ### Jak získám podporu pro Aspose.HTML pro Java?
 Podporu můžete získat prostřednictvím [Aspose support forum](https://forum.aspose.com/c/html/29), kde můžete klást otázky a získat pomoc od komunity i vývojářů Aspose.
 
+---
+
+**Last Updated:** 2026-01-28  
+**Tested With:** Aspose.HTML for Java 24.11 (latest at time of writing)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-28  
-**Tested With:** Aspose.HTML for Java 24.11 (latest at time of writing)  
-**Author:** Aspose

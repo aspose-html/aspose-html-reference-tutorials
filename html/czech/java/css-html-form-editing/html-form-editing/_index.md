@@ -5,7 +5,7 @@ description: Naučte se, jak zkontrolovat odeslání formuláře, upravit a odes
   v Javě, zpracování JSON odpovědi v Javě a uložení HTML dokumentu v Javě.
 linktitle: 'Check Form Submission: HTML Form Editing and Submission with Aspose.HTML'
 second_title: Java HTML Processing with Aspose.HTML
-title: 'Kontrola odeslání formuláře: úprava a odeslání HTML formuláře pomocí Aspose.HTML
+title: 'Kontrola odeslání formuláře - úprava a odeslání HTML formuláře pomocí Aspose.HTML
   pro Javu'
 url: /cs/java/css-html-form-editing/html-form-editing/
 weight: 11

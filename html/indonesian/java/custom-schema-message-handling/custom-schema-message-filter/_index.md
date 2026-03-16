@@ -131,6 +131,7 @@ Kasus uji sederhana ini membuat konteks jaringan tiruan yang berpura‑pura meng
 Dalam tutorial ini, kami telah membahas **cara menyaring HTML** dengan membuat Penyaring Pesan Skema Kustom menggunakan Aspose.HTML untuk Java. Dengan mengikuti langkah‑langkah ini, Anda dapat menyesuaikan aplikasi Anda agar memproses hanya permintaan jaringan yang sesuai dengan kebutuhan spesifik Anda. Kemampuan ini sangat berguna ketika Anda perlu menegakkan aturan ketat mengenai jenis protokol yang berinteraksi dengan aplikasi Anda—baik untuk keamanan, kinerja, maupun kepatuhan.
 
 ## FAQ
+
 ### Apa itu Aspose.HTML untuk Java?
 Aspose.HTML untuk Java adalah API yang kuat untuk memanipulasi dan merender dokumen HTML dalam aplikasi Java. Ia menawarkan fitur lengkap untuk bekerja dengan file HTML, CSS, dan SVG.
 
@@ -146,13 +147,6 @@ Aspose.HTML untuk Java kompatibel dengan JDK 8 dan versi yang lebih baru. Sela
 ### Bagaimana cara mendapatkan dukungan untuk Aspose.HTML untuk Java?
 Anda dapat mengakses dukungan melalui [forum dukungan Aspose](https://forum.aspose.com/c/html/29), di mana Anda dapat mengajukan pertanyaan dan mendapatkan bantuan dari komunitas serta pengembang Aspose.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Terakhir Diperbarui:** 2026-01-28  
@@ -160,3 +154,10 @@ Anda dapat mengakses dukungan melalui [forum dukungan Aspose](https://forum.aspo
 **Penulis:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

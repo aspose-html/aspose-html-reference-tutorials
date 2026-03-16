@@ -131,6 +131,7 @@ Ce test simple crée un contexte réseau factice qui prétend utiliser le protoc
 Dans ce tutoriel, nous avons parcouru **la façon de filtrer le HTML** en créant un filtre de messages de schéma personnalisé avec Aspose.HTML pour Java. En suivant ces étapes, vous pouvez adapter votre application pour ne traiter que les requêtes réseau correspondant à vos exigences spécifiques. Cette capacité est particulièrement utile lorsque vous devez imposer des règles strictes sur les types de protocoles avec lesquels votre application interagit—que ce soit pour des raisons de sécurité, de performance ou de conformité.
 
 ## FAQ
+
 ### Qu’est‑ce qu’Aspose.HTML pour Java ?
 Aspose.HTML pour Java est une API robuste permettant de manipuler et de rendre des documents HTML au sein d’applications Java. Elle offre de nombreuses fonctionnalités pour travailler avec les fichiers HTML, CSS et SVG.
 
@@ -146,13 +147,6 @@ Aspose.HTML pour Java est compatible avec JDK 8 et les versions ultérieures. 
 ### Comment obtenir du support pour Aspose.HTML pour Java ?
 Vous pouvez accéder au support via le [forum de support Aspose](https://forum.aspose.com/c/html/29), où vous pouvez poser des questions et obtenir de l’aide de la communauté et des développeurs Aspose.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Dernière mise à jour :** 2026-01-28  
@@ -160,3 +154,10 @@ Vous pouvez accéder au support via le [forum de support Aspose](https://forum.a
 **Auteur :** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

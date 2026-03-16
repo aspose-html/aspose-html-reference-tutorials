@@ -131,6 +131,7 @@ public class TestCustomSchemaMessageFilter {
 В этом руководстве мы рассмотрели **как фильтровать HTML**, создав пользовательский фильтр сообщений по схеме с помощью Aspose.HTML for Java. Следуя этим шагам, вы сможете настроить приложение так, чтобы оно обрабатывало только те сетевые запросы, которые соответствуют вашим конкретным требованиям. Такая возможность особенно полезна, когда нужно строго контролировать типы протоколов, с которыми взаимодействует приложение — будь то вопросы безопасности, производительности или соответствия нормативам.
 
 ## Часто задаваемые вопросы
+
 ### Что такое Aspose.HTML for Java?
 Aspose.HTML for Java — это мощный API для манипулирования и рендеринга HTML‑документов в Java‑приложениях. Он предоставляет обширный набор функций для работы с HTML, CSS и SVG‑файлами.
 
@@ -146,13 +147,6 @@ Aspose.HTML for Java совместим с JDK 8 и более новыми в
 ### Как получить поддержку по Aspose.HTML for Java?
 Обратитесь в [форум поддержки Aspose](https://forum.aspose.com/c/html/29), где можно задать вопросы и получить помощь от сообщества и разработчиков Aspose.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Последнее обновление:** 2026-01-28  
@@ -160,3 +154,10 @@ Aspose.HTML for Java совместим с JDK 8 и более новыми в
 **Автор:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

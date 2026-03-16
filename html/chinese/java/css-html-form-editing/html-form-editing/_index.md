@@ -4,7 +4,7 @@ description: 学习如何使用 Aspose.HTML for Java 检查表单提交、编辑
   JSON 响应 Java 和保存 HTML 文档 Java 示例。
 linktitle: 'Check Form Submission: HTML Form Editing and Submission with Aspose.HTML'
 second_title: Java HTML Processing with Aspose.HTML
-title: 检查表单提交：使用 Aspose.HTML for Java 进行 HTML 表单编辑和提交
+title: 检查表单提交 - 使用 Aspose.HTML for Java 进行 HTML 表单编辑和提交
 url: /zh/java/css-html-form-editing/html-form-editing/
 weight: 11
 ---

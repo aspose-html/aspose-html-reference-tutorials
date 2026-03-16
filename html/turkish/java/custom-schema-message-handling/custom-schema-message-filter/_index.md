@@ -131,6 +131,7 @@ Bu basit test durumu, `"https"` protokolünü kullandığını varsayan sahte bi
 Bu öğreticide, Aspose.HTML for Java kullanarak bir Özel Şema Mesaj Filtresi oluşturup **HTML nasıl filtrelenir** sorusunu yanıtladık. Bu adımları izleyerek, uygulamanızı yalnızca belirli gereksinimlerinize uyan ağ isteklerini işleyebilecek şekilde özelleştirebilirsiniz. Bu yetenek, uygulamanızın etkileşimde bulunduğu protokol türleri üzerinde sıkı kurallar uygulamanız gerektiğinde—güvenlik, performans veya uyumluluk nedenleriyle—özellikle faydalıdır.
 
 ## SSS
+
 ### Aspose.HTML for Java nedir?
 Aspose.HTML for Java, Java uygulamaları içinde HTML belgelerini işlemek ve renderlamak için güçlü bir API'dir. HTML, CSS ve SVG dosyalarıyla çalışmak için kapsamlı özellikler sunar.
 
@@ -146,15 +147,15 @@ Aspose.HTML for Java, JDK 8 ve üzeri sürümlerle uyumludur. En iyi performan
 ### Aspose.HTML for Java için destek nasıl alınır?
 [Aspose destek forumu](https://forum.aspose.com/c/html/29) üzerinden sorular sorabilir ve topluluk ile Aspose geliştiricilerinden yardım alabilirsiniz.
 
+---
+
+**Son Güncelleme:** 2026-01-28  
+**Test Edilen Versiyon:** Aspose.HTML for Java 24.11 (yazım anındaki en son sürüm)  
+**Yazar:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Son Güncelleme:** 2026-01-28  
-**Test Edilen Versiyon:** Aspose.HTML for Java 24.11 (yazım anındaki en son sürüm)  
-**Yazar:** Aspose
