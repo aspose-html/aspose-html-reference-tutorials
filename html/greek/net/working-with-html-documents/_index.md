@@ -41,6 +41,10 @@ url: /el/net/working-with-html-documents/
 Μάθετε πώς να αποθηκεύετε HTML σε C# χρησιμοποιώντας έναν προσαρμοσμένο διαχειριστή πόρων, βήμα-βήμα οδηγός.
 ### [Πώς να κάνετε έντονο τίτλο με CSS & C# – Πλήρης οδηγός βήμα‑βήμα](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
 
+### [Δημιουργία HTML από συμβολοσειρά σε C# – Οδηγός βήμα‑βήμα](./create-html-from-string-in-c-step-by-step-guide/)
+
+Μάθετε πώς να δημιουργήσετε HTML από συμβολοσειρά σε C# με οδηγίες βήμα‑βήμα.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

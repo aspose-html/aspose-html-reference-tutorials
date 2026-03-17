@@ -26,18 +26,15 @@ HTML belgeleri web'in omurgasıdır ve bunları etkili bir şekilde oluşturup i
 
 ### [Aspose.HTML ile .NET'te Belge Oluşturma](./creating-a-document/)
 
-Yolculuğumuzun ilk adımı, Aspose.HTML kullanarak sıfırdan veya URL'lerden HTML belgeleri oluşturmayı öğrenmektir. Sizi süreç boyunca yönlendireceğiz ve yeni başlayanların bile takip edebilmesini sağlayacağız. Bu bölümün sonunda, HTML belgelerini zahmetsizce oluşturma becerisine sahip olacaksınız.
-
 ### [Aspose.HTML ile .NET'te Basit Bir Belge Oluşturma](./creating-a-simple-document/)
-
-Temelleri kavradığınızda, oluşturma sürecine daha derinlemesine dalacağız. Bu bölümde, Aspose.HTML kullanarak basit HTML belgelerinin nasıl oluşturulacağını öğreneceksiniz ve kolay manipülasyona olanak tanıyan çeşitli özellikleri keşfedeceksiniz. İster bir web sayfası oluşturuyor, ister içerik üretiyor veya verileri HTML'ye dönüştürüyor olun, bu eğitim size gerekli bilgiyi sağlayacaktır.
 
 ### [Aspose.HTML ile .NET'te Bir Belgeyi Düzenleme](./editing-a-document/)
 
-Şimdi becerilerinizi bir üst seviyeye taşıyalım. HTML belgelerini düzenlemek web geliştiricileri için yaygın bir görevdir ve Aspose.HTML bu süreci önemli ölçüde basitleştirir. Bu bölümde, belge oluşturma, düzenleme ve biçimlendirmeyi ele alacağız. Web içeriğinizin görünümünü ve işlevselliğini nasıl geliştireceğinizi, onu ilgi çekici ve kullanıcı dostu hale getireceğinizi keşfedeceksiniz.
-
 ### [C#'ta HTML Kaydetme – Özel Kaynak İşleyicisi Kullanarak Tam Kılavuz](./how-to-save-html-in-c-complete-guide-using-a-custom-resource/)
+
 ### [CSS ve C# ile Başlığı Kalınlaştırma – Tam Adım Adım Kılavuz](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
+
+### [C#'ta Dizeden HTML Oluşturma – Adım Adım Kılavuz](./create-html-from-string-in-c-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
