@@ -14,46 +14,47 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Render HTML to PDF: Canvas Manipulation with Aspose.HTML for Java
+# Vykreslení HTML do PDF: Manipulace s plátnem pomocí Aspose.HTML pro Javu
 
-HTML5’s **Canvas** element gives developers a powerful drawing surface right inside the browser, and **Aspose.HTML for Java** lets you take that canvas content and **render HTML to PDF** on the server side. In this tutorial you’ll learn how to create an empty HTML document, add a canvas, draw shapes and text, apply a gradient brush, and finally export the canvas as a PDF file. By the end, you’ll be able to **export canvas as PDF** in just a few lines of Java code.
+Prvek **Canvas** v HTML5 poskytuje vývojářům výkonný kreslicí povrch přímo v prohlížeči a **Aspose.HTML pro Javu** vám umožňuje vzít obsah plátna a **vykreslit HTML do PDF** na straně serveru. V tomto tutoriálu se naučíte, jak vytvořit prázdný dokument HTML, přidat plátno, nakreslit tvary a text, použít přechodový štětec a nakonec exportovat plátno jako soubor PDF. Na konci budete schopni **exportovat plátno jako PDF** jen v několika řádcích kódu Java.
 
-## Quick Answers
-- **What does Aspose.HTML for Java do?** It lets you create, edit, and render HTML documents—including Canvas graphics—to PDF, images, and more.  
-- **Can I set the canvas size in Java?** Yes, use `setWidth()` and `setHeight()` on the `HTMLCanvasElement`.  
-- **How do I add text to the canvas?** Call `fillText()` on the 2D rendering context.  
-- **Is gradient support available?** Absolutely – create a `ICanvasGradient` and assign it to `fillStyle` and `strokeStyle`.  
-- **What output formats are supported?** PDF, PNG, JPEG, and other raster formats via Aspose.HTML rendering devices.
+## Rychlé odpovědi
+- **Co dělá Aspose.HTML pro Javu?** Umožňuje vám vytvářet, upravovat a vykreslovat dokumenty HTML – včetně grafiky plátna – do PDF, obrázků a dalších formátů.
 
-## What is “render html to pdf”?
-Rendering HTML to PDF means converting a web page (including CSS, JavaScript, and Canvas drawings) into a static PDF document that preserves the visual layout. Aspose.HTML for Java handles this conversion on the server without a browser, making it ideal for automated reporting, invoicing, or archiving.
+- **Mohu nastavit velikost plátna v Javě?** Ano, použijte `setWidth()` a `setHeight()` na `HTMLCanvasElement`.
+- **Jak přidám text na plátno?** V kontextu 2D renderování zavolejte `fillText()`.
+- **Je k dispozici podpora přechodů?** Rozhodně – vytvořte `ICanvasGradient` a přiřaďte jej k `fillStyle` a `strokeStyle`.
+- **Jaké výstupní formáty jsou podporovány?** PDF, PNG, JPEG a další rastrové formáty prostřednictvím renderovacích zařízení Aspose.HTML.
 
-## Why use Aspose.HTML for Java to export canvas as PDF?
-- **Server‑side processing** – No need for a headless browser; the library does the heavy lifting.  
-- **Full Canvas support** – All 2D drawing APIs (`fillRect`, `fillText`, gradients, etc.) work exactly as they do in the browser.  
-- **High‑quality PDF output** – Vector graphics remain crisp, and text stays selectable.  
-- **Cross‑platform** – Works on any OS that runs Java.
+## Co je „render html do pdf“?
+Renderování HTML do PDF znamená převod webové stránky (včetně CSS, JavaScriptu a kreseb v plátně) do statického PDF dokumentu, který zachovává vizuální rozvržení. Aspose.HTML pro Javu zpracovává tuto konverzi na serveru bez prohlížeče, což je ideální pro automatizované reportování, fakturaci nebo archivaci.
 
-## Why this matters for server‑side PDF generation
-Generating a PDF from Canvas on the server eliminates the need for client‑side screenshots or third‑party services. It gives you deterministic, repeatable results and lets you embed dynamic graphics—charts, signatures, or custom illustrations—directly into PDFs that can be emailed, stored, or printed automatically.
+## Proč používat Aspose.HTML pro Javu k exportu plátna do PDF?
+- **Zpracování na straně serveru** – Není potřeba prohlížeč bez headlessu; knihovna udělá těžkou práci.
+- **Plná podpora Canvasu** – Všechna 2D kreslicí API (`fillRect`, `fillText`, přechody atd.) fungují přesně stejně jako v prohlížeči.
+- **Vysoce kvalitní PDF výstup** – Vektorová grafika zůstává ostrá a text zůstává volitelný.
+- **Multiplatformní** – Funguje na jakémkoli operačním systému s Javou.
 
-## Common use cases
-- **Dynamic invoices** that include company logos drawn on a Canvas.  
-- **Data visualizations** such as bar charts or heat maps rendered on the fly.  
-- **Certificate generation** where a decorative Canvas background is combined with personalized text.  
-- **Interactive report export** where users design graphics in a web app and receive a PDF version instantly.
+## Proč je to důležité pro generování PDF na straně serveru
+Generování PDF z Canvasu na serveru eliminuje potřebu snímků obrazovky na straně klienta nebo služeb třetích stran. Získáte deterministické, opakovatelné výsledky a můžete vkládat dynamickou grafiku – grafy, podpisy nebo vlastní ilustrace – přímo do PDF, které lze automaticky odeslat e-mailem, uložit nebo vytisknout.
 
-## Prerequisites
+## Běžné případy použití
+- **Dynamické faktury**, které obsahují loga společností nakreslená na Canvasu.
+- **Vizualizace dat**, jako jsou sloupcové grafy nebo tepelné mapy vykreslované za chodu.
+- **Generování certifikátů**, kde je dekorativní pozadí Canvasu kombinováno s personalizovaným textem.
+- **Interaktivní export sestav**, kde uživatelé navrhují grafiku ve webové aplikaci a okamžitě obdrží verzi PDF.
 
-Before diving into the code, make sure you have the following:
+## Předpoklady
 
-- **Java Environment** – Java 8 or later installed. You can download Java from [here](https://www.java.com/download/).
-- **Aspose.HTML for Java** – Download the library from the [download page](https://releases.aspose.com/html/java/).
-- **IDE** – Any Java IDE such as Eclipse, IntelliJ IDEA, or VS Code.
+Než se ponoříte do kódu, ujistěte se, že máte následující:
 
-## Import Packages
+- **Prostředí Java** – Nainstalovaná Java 8 nebo novější. Javu si můžete stáhnout [zde](https://www.java.com/download/).
+- **Aspose.HTML pro Javu** – Stáhněte si knihovnu ze [stránky pro stahování](https://releases.aspose.com/html/java/).
+- **IDE** – Jakékoli vývojové prostředí Java, například Eclipse, IntelliJ IDEA nebo VS Code.
 
-To start working with the Canvas, import the required Aspose.HTML classes:
+## Import balíčků
+
+Chcete-li začít pracovat s Canvasem, importujte požadované třídy Aspose.HTML:
 
 ```java
 // Import Aspose.HTML packages
@@ -64,21 +65,21 @@ import com.aspose.html.dom.canvas.ICanvasGradient;
 import com.aspose.html.rendering.pdf.PdfDevice;
 ```
 
-Now that the packages are ready, let’s walk through each step of the canvas manipulation process.
+Nyní, když jsou balíčky připraveny, pojďme si projít jednotlivé kroky procesu manipulace s plátnem.
 
-## Step‑by‑Step Guide
+## Podrobný průvodce
 
-### Step 1: Create an Empty HTML Document
+### Krok 1: Vytvoření prázdného HTML dokumentu
 
-First, instantiate an `HTMLDocument` which will serve as the container for our canvas.
+Nejprve vytvořte instanci `HTMLDocument`, který bude sloužit jako kontejner pro naše plátno.
 
 ```java
 HTMLDocument document = new HTMLDocument();
 ```
 
-### Step 2: Set Canvas Size in Java
+### Krok 2: Nastavení velikosti plátna v Javě
 
-Create a `<canvas>` element and define its dimensions. This is where the **set canvas size java** keyword comes into play.
+Vytvořte element `<canvas>` a definujte jeho rozměry. Zde přichází na řadu klíčové slovo **set canvas size java**.
 
 ```java
 HTMLCanvasElement canvas = (HTMLCanvasElement) document.createElement("canvas");
@@ -86,25 +87,25 @@ canvas.setWidth(300);
 canvas.setHeight(150);
 ```
 
-### Step 3: Append the Canvas to the Document
+### Krok 3: Připojení plátna k dokumentu
 
-Attach the canvas to the document’s `<body>` so that it becomes part of the HTML structure.
+Připojte plátno k `<body>` dokumentu, aby se stalo součástí struktury HTML.
 
 ```java
 document.getBody().appendChild(canvas);
 ```
 
-### Step 4: Get the Canvas Rendering Context
+### Krok 4: Získání kontextu vykreslování plátna
 
-Obtain a 2D rendering context (`ICanvasRenderingContext2D`) to draw on the canvas.
+Získejte 2D kontext vykreslování (`ICanvasRenderingContext2D`) pro kreslení na plátno.
 
 ```java
 ICanvasRenderingContext2D context = (ICanvasRenderingContext2D) canvas.getContext("2d");
 ```
 
-### Step 5: Prepare a Gradient Brush
+### Krok 5: Příprava štětce pro přechod
 
-Create a linear gradient that transitions from magenta to blue to red. This demonstrates **draw gradient canvas java**.
+Vytvořte lineární přechod, který přechází z purpurové do modré a červené. Toto demonstruje **draw gradient canvas java**.
 
 ```java
 ICanvasGradient gradient = context.createLinearGradient(0, 0, canvas.getWidth(), 0);
@@ -113,82 +114,82 @@ gradient.addColorStop(0.5, "blue");
 gradient.addColorStop(1.0, "red");
 ```
 
-### Step 6: Assign the Gradient to Fill and Stroke
+### Krok 6: Přiřaďte přechod k výplni a tahu
 
-Apply the gradient to both fill and stroke styles.
+Použijte přechod na styly výplně i tahu.
 
 ```java
 context.setFillStyle(gradient);
 context.setStrokeStyle(gradient);
 ```
 
-### Step 7: Add Text to Canvas (add text canvas java)
+### Krok 7: Přidání textu na plátno (přidání textu na plátno v Javě)
 
-Use the rendering context to write text and draw a filled rectangle.
+Použijte kontext vykreslování k napsání textu a nakreslení vyplněného obdélníku.
 
 ```java
 context.fillText("Hello World!", 10, 90, 500d);
 context.fillRect(0, 95, 300, 20);
 ```
 
-### Step 8: Create the PDF Output Device
+### Krok 8: Vytvoření výstupního zařízení PDF
 
-Set up a `PdfDevice` that will receive the rendered PDF. This step is essential for **export canvas as pdf**.
+Nastavte zařízení `PdfDevice`, které bude přijímat vykreslený PDF. Tento krok je nezbytný pro **export plátna jako PDF**.
 
 ```java
 PdfDevice device = new PdfDevice("canvas.output.2.pdf");
 ```
 
-### Step 9: Render HTML5 Canvas to PDF (render html to pdf)
+### Krok 9: Vykreslení HTML5 plátna do PDF (vykreslení html do pdf)
 
-Finally, render the entire HTML document—including the canvas—to the PDF device.
+Nakonec vykreslete celý HTML dokument – ​​včetně plátna – do zařízení PDF.
 
 ```java
 document.renderTo(device);
 ```
 
-When the program finishes, you’ll find `canvas.output.2.pdf` in your working directory, containing the gradient‑filled rectangle and the “Hello World!” text. This demonstrates how to **generate PDF from canvas** with just a few lines of code.
+Po dokončení programu najdete ve svém pracovním adresáři soubor `canvas.output.2.pdf`, který obsahuje obdélník vyplněný přechodem a text „Hello World!“. Toto ukazuje, jak **vygenerovat PDF z plátna** pomocí několika řádků kódu.
 
-## Common Issues and Solutions
+## Běžné problémy a řešení
 
-| Issue | Reason | Fix |
+| Problém | Důvod | Oprava |
 |-------|--------|-----|
-| **Blank PDF** | Canvas not attached to the document before rendering. | Ensure `document.getBody().appendChild(canvas);` is called before `renderTo()`. |
-| **Gradient not visible** | Gradient colors not added correctly. | Verify `addColorStop()` calls and that the gradient is set to both fill and stroke. |
-| **File not created** | No write permission for the output folder. | Run the program with appropriate file system permissions or specify an absolute path. |
+| **Prázdný PDF** | Plátno není před vykreslením připojeno k dokumentu. | Ujistěte se, že je před `renderTo()` volána metoda `document.getBody().appendChild(canvas);`. |
+| **Přechod není viditelný** | Barvy přechodu nebyly správně přidány. | Ověřte volání `addColorStop()` a že je přechod nastaven na výplň i tah. |
+| **Soubor nebyl vytvořen** | Žádné oprávnění k zápisu pro výstupní složku. | Spusťte program s příslušnými oprávněními souborového systému nebo zadejte absolutní cestu. |
 
-## Frequently Asked Questions
+## Často kladené otázky
 
-**Q: Is Aspose.HTML for Java free to use?**  
-A: No, Aspose.HTML for Java is a commercial library. Pricing details are on the [purchase page](https://purchase.aspose.com/buy).
+**Otázka: Je Aspose.HTML pro Javu zdarma?**
+Odpověď: Ne, Aspose.HTML pro Javu je komerční knihovna. Podrobnosti o cenách naleznete na [stránce nákupu](https://purchase.aspose.com/buy).
 
-**Q: Is there a free trial available?**  
-A: Yes, you can download a free trial from [here](https://releases.aspose.com/).
+**Otázka: Je k dispozici bezplatná zkušební verze?**
+Odpověď: Ano, bezplatnou zkušební verzi si můžete stáhnout [zde](https://releases.aspose.com/).
 
-**Q: Where can I find documentation and support?**  
-A: Documentation is available at [https://reference.aspose.com/html/java/](https://reference.aspose.com/html/java/). For community help, visit the [Aspose forums](https://forum.aspose.com/).
+**Otázka: Kde najdu dokumentaci a podporu?**
+Odpověď: Dokumentace je k dispozici na [https://reference.aspose.com/html/java/](https://reference.aspose.com/html/java/). Pomoc komunity naleznete na [fórech Aspose](https://forum.aspose.com/).
 
-**Q: Can I use Aspose.HTML for Java with other programming languages?**  
-A: Aspose offers similar libraries for .NET, Node.js, and other platforms, but the Java library is specific to Java.
+**Otázka: Mohu používat Aspose.HTML pro Javu s jinými programovacími jazyky?**
+Odpověď: Aspose nabízí podobné knihovny pro .NET, Node.js a další platformy, ale knihovna Java je specifická pro Javu.
 
-**Q: What are some other use cases for HTML5 Canvas?**  
-A: Canvas is great for games, interactive data visualizations, image editors, and custom charting solutions.
+**Otázka: Jaké jsou další případy použití HTML5 Canvas?**
+Odpověď: Canvas je skvělý pro hry, interaktivní vizualizace dat, editory obrázků a vlastní řešení pro tvorbu grafů.
 
-**Q: How does draw gradient on canvas differ from a solid fill?**  
-A: A gradient creates a smooth color transition across the shape, giving a more polished visual effect compared to a single color fill.
+**Otázka: Jak se liší kreslení gradientu na plátně od plné výplně?**
+Odpověď: Gradient vytváří plynulý barevný přechod napříč tvarem, což ve srovnání s jednobarevnou výplní poskytuje propracovanější vizuální efekt.
 
-**Q: Can I generate PDF from canvas without writing to disk first?**  
-A: Yes, you can render to a memory stream and then send the PDF bytes directly to a client or another service.
+**Otázka: Mohu generovat PDF z plátna bez předchozího zápisu na disk?**
+Odpověď: Ano, můžete vykreslit do paměťového proudu a poté odeslat bajty PDF přímo klientovi nebo jiné službě.
 
-## Conclusion
+## Závěr
 
-In this tutorial you learned how to **render HTML to PDF** by creating and manipulating an HTML5 Canvas with Aspose.HTML for Java. You now know how to **set canvas size java**, **add text canvas java**, **draw gradient canvas java**, and finally **export canvas as pdf**. Use these techniques to build dynamic reports, generate graphics‑rich PDFs, or automate any workflow that requires server‑side rendering of Canvas content.
+V tomto tutoriálu jste se naučili, jak **vykreslit HTML do PDF** vytvořením a manipulací s HTML5 Canvas pomocí Aspose.HTML pro Javu. Nyní víte, jak **nastavit velikost plátna v Javě**, **přidat text v plátně v Javě**, **kreslit gradient v plátně v Javě** a nakonec **exportovat plátno jako PDF**. Použijte tyto techniky k vytváření dynamických sestav, generování PDF s bohatou grafikou nebo automatizaci jakéhokoli pracovního postupu, který vyžaduje vykreslování obsahu Canvas na straně serveru.
 
 ---
 
-**Last Updated:** 2026-02-04  
-**Tested With:** Aspose.HTML for Java 24.11 (latest at time of writing)  
-**Author:** Aspose
+**Poslední aktualizace:** 2026-02-04
+**Testováno s:** Aspose.HTML pro Javu 24.11 (nejnovější v době psaní tohoto článku)
+**Autor:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

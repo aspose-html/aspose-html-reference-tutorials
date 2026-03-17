@@ -15,29 +15,29 @@ weight: 11
 
 # กำหนดค่าแบบอักษรสำหรับ HTML‑to‑PDF Java ด้วย Aspose.HTML
 
-## Introduction
-ในบทแนะนำนี้คุณจะได้ค้นพบ **วิธีใช้ Aspose.HTML** เพื่อกำหนดค่าแบบอักษรสำหรับการแปลง HTML‑to‑PDF ใน Java เมื่อทำงานกับเอกสาร HTML การตั้งค่าแบบอักษรที่ถูกต้องจะทำให้ PDF ที่สร้างขึ้นดูเหมือนหน้าเว็บต้นฉบับอย่างแม่นยำ—รักษาสีแบรนด์, การพิมพ์, และการจัดวาง ไม่ว่าคุณจะสร้างรายงาน, ใบแจ้งหนี้, หรือกระบวนการสร้างเอกสารใด ๆ การกำหนดค่าแบบอักษรที่เหมาะสมเป็นกุญแจสำคัญสำหรับ PDF ที่ดูเป็นมืออาชีพ เราจะเดินผ่านกระบวนการทั้งหมด ตั้งแต่การเตรียมสภาพแวดล้อมจนถึงการแปลง HTML เป็น PDF ด้วยแบบอักษรและ CSS ที่กำหนดเอง
+## การแนะนำ
+บทแนะนำนี้คุณจะได้สัมผัส ** ใช้ Aspose.HTML** เพื่อเป็นแนวทางสำหรับ HTML-to-PDF ใน Java สำหรับเอกสาร HTML อย่างเป็นทางการสำหรับ PDF ของข้อมูลอย่างเป็นทางการอย่างใดอย่างหนึ่ง— รักษาสีแบรนด์, การพิมพ์, และการดำเนินการวางรายงาน, เครื่องแบบ, หรือระบบสร้างเอกสารใด ๆ นวัตกรรมใหม่ ๆ ที่เป็นหลักการสำคัญสำหรับ PDF การพิจารณาคดีทั้งหมดการพิจารณาคดีจนถึง HTML ในองค์กรและ CSS องค์กร
 
-## Quick Answers
-- **วัตถุประสงค์หลักของบทแนะนำนี้คืออะไร?** กำหนดค่าแบบอักษรสำหรับการแปลง HTML‑to‑PDF ใน Java ด้วย Aspose.HTML.  
-- **ไลบรารีใดที่จัดการการแปลง?** Aspose.HTML for Java (คลาส `Converter`).  
-- **ฉันต้องการไลเซนส์หรือไม่?** ไลเซนส์ชั่วคราวของ Aspose จะลบข้อจำกัดการประเมิน; จำเป็นต้องมีไลเซนส์เต็มสำหรับการใช้งานจริง.  
-- **ควรวางแบบอักษรที่กำหนดเองไว้ที่ไหน?** ในโฟลเดอร์ที่อ้างอิงโดย `FontsLookupFolder` เช่น โฟลเดอร์ `fonts` ที่อยู่ข้างๆ โปรเจคของคุณ.  
-- **ฉันสามารถปรับแต่งผลลัพธ์ PDF ได้หรือไม่?** ได้—ใช้ `PdfSaveOptions` เพื่อปรับขนาดหน้า, ระยะขอบ, และอื่น ๆ.
+## คำตอบด่วน
+- ** คำอธิบายบทแนะนำนี้คืออะไร?** คำอธิบายสำหรับการอ้างอิง HTML‑to‑PDF ใน Java ด้วย Aspose.HTML
+- **ไลบรารีใด ๆ ที่เราทานอาหาร?**Aspose.HTML for Java (คลาส `Converter`).
+- ** ยืนยันไลเซนส์หรือไม่?** ไลเซนส์ชั่วคราวของ Aspose จะลบข้อจำกัดความเชื่อ; กินไลเซนส์เต็มเลยจริง.
+- **ควรวางและตามที่บันทึกไว้ที่ไหน?** ในที่เก็บข้อมูลโดย `FontsLookupFolder` แปลว่า `fonts` อาจจะติดกับโปรเจคของคุณ
+- **ฉันสามารถตรวจสอบผลลัพธ์ PDF ได้หรือไม่**ได้—ใช้ `PdfSaveOptions` ในการควบคุมหน้า, ระยะขอบ, คุณสามารถได้
 
-## How to Use Aspose.HTML for Font Configuration
-ต่อไปนี้เราจะอธิบายว่าการจัดการแบบอักษรสำคัญอย่างไร, วิธีการใช้ CSS ที่กำหนดเอง, และวิธี **ใช้ไลเซนส์ชั่วคราว** เพื่อเปิดใช้งานฟังก์ชันเต็มขณะทดสอบโซลูชัน.
+## วิธีใช้ Aspose.HTML สำหรับการกำหนดค่าแบบอักษร
+เราจะอธิบายการจัดการและมีความสำคัญอย่างไร, วิธีการใช้ CSS และวิธีการ **ใช้ไลเซนส์ชั่วคราว** สามารถเปิดใช้งานฟังก์ชั่นเต็มในขณะที่ทดสอบประสิทธิภาพ.
 
-## Prerequisites
-ก่อนที่เราจะเริ่ม, โปรดตรวจสอบว่าคุณมีสิ่งต่อไปนี้:
+## ข้อกำหนดเบื้องต้น
+ก่อนที่เราจะเริ่ม, กรุณาตรวจสอบคุณอีกครั้ง:
 
-1. **Java Development Kit (JDK) 1.8+** – โค้ดทำงานบน JDK สมัยใหม่ใดก็ได้.  
-2. **Aspose.HTML for Java** – ดาวน์โหลด JAR ล่าสุดจาก [Aspose website](https://releases.aspose.com/html/java/).  
-3. **IDE** – IntelliJ IDEA, Eclipse หรือเครื่องมือแก้ไขที่รองรับ Java ใดก็ได้.  
-4. **ความรู้พื้นฐาน Java** – คุณควรคุ้นเคยกับคลาส, เมธอด, และการทำงานกับไฟล์ I/O.  
-5. **ไลเซนส์ Aspose.HTML** – [ไลเซนส์ชั่วคราว](https://purchase.aspose.com/temporary-license/) จะยกเลิกข้อจำกัดการประเมิน.
+1. **Java Development Kit (JDK) 1.8+** – โค้ดทำงานบน JDK สแกนบาร์โค้ด
+2. **Aspose.HTML สำหรับ Java** – ดาวน์โหลด JAR ล่าสุดจาก [เว็บไซต์ Aspose](https://releases.aspose.com/html/java/)
+3. **IDE** – IntelliJ IDEA, Eclipse หรือเครื่องมือแก้ไขที่เข้ากันได้กับ Java ซอฟต์แวร์
+4. **ความรู้พื้นฐาน Java** – สำหรับคลาสนี้, เมธอด, ส่วนใหญ่เป็นไฟล์ I/O.
+5. **ไลเซนส์ Aspose.HTML** – [ไลเซนส์ชั่วคราว](https://purchase.aspose.com/temporary-license/) จะยกเลิกตามปกติตามปกติ
 
-## Import Packages
+## แพคเกจนำเข้า
 ก่อนอื่นให้ทำการนำเข้าคลาสหลักของ Java และ Aspose.HTML ที่คุณต้องการใช้.  
 
 ```java
@@ -46,21 +46,21 @@ import java.io.IOException;
 
 การนำเข้าดังกล่าวทำให้คุณเข้าถึงการจัดการไฟล์และ API ของ Aspose.HTML.
 
-## What is **html to pdf java** and Why Does Font Configuration Matter?
-กระบวนการ **html to pdf java** ทำการเรนเดอร์เอกสาร HTML เป็นหน้า PDF การเรนเดอร์แบบอักษรเป็นส่วนสำคัญของการเรนเดอร์เพราะมีผลต่อการจัดวาง, ระยะห่างบรรทัด, และความแม่นยำของภาพ โดยการชี้ Aspose.HTML ไปยังโฟลเดอร์แบบอักษรที่กำหนดเอง, คุณจะทำให้ PDF ใช้แบบอักษรเดียวกันที่ออกแบบสำหรับหน้าเว็บ, กำจัดแบบอักษรสำรองและรักษาความสอดคล้องของแบรนด์.
+## **html ถึง pdf java** คืออะไร และเหตุใดการกำหนดค่าแบบอักษรจึงมีความสำคัญ
+ระบบปฏิบัติการ **html to pdf java** ทำเรนเดอร์เอกสาร HTML เป็นหน้า PDF การเรนเดอร์ตามลำดับการปฏิบัติตามการเรนเดอร์เพราะส่งผลต่อการปฏิบัติตามการวาง, ระยะทางบรรทัด, และประสิทธิภาพของภาพ แสดงให้เห็นประสิทธิภาพที่ Aspose.HTML ประสิทธิภาพการทำงานของประสิทธิภาพ, คุณจะใช้ PDF ใช้งานได้เหมือนกันที่ออกแบบสำหรับการควบคุม, กำจัดการเรียกคืนและการรักษาความปลอดภัยของแบรนด์
 
-## Step‑by‑Step Guide
+## คำแนะนำทีละขั้นตอน
 
-### Step 1: Create the HTML Content
-เราจะเริ่มโดยสร้างไฟล์ HTML ง่าย ๆ ที่เราจะใช้แปลงเป็น PDF ต่อไป.
+### ขั้นตอนที่ 1: สร้างเนื้อหา HTML
+เริ่มต้นโดยสร้างไฟล์ HTML ง่าย ๆ ที่เราจะแปลงเป็น PDF ต่อไป
 
-#### 1.1 Write the HTML code
+#### 1.1 เขียนโค้ด HTML
 ```java
 String code = "<h1>FontsSettings property</h1>\r\n" +
     "<p>The FontsSettings property is used for configuration of fonts handling.</p>\r\n";
 ```
 
-#### 1.2 Save the HTML to a file
+#### 1.2 บันทึก HTML ลงในไฟล์
 ```java
 try (java.io.FileWriter fileWriter = new java.io.FileWriter("user-agent-fontsetting.html")) {
     fileWriter.write(code);
@@ -69,27 +69,27 @@ try (java.io.FileWriter fileWriter = new java.io.FileWriter("user-agent-fontsett
 
 `FileWriter` จะเขียนสตริงไปยังไฟล์ `user-agent-fontsetting.html` ในโฟลเดอร์โปรเจคของคุณ หลังจากขั้นตอนนี้คุณจะมีไฟล์ HTML ที่พร้อมสำหรับการประมวลผล.
 
-### Step 2: Configure the Aspose.HTML Environment
-Now we’ll set up the Aspose.HTML `Configuration` object, which lets us control how the HTML is rendered.
+### ขั้นตอนที่ 2: กำหนดค่าสภาพแวดล้อม Aspose.HTML
+ตอนนี้เราจะตั้งค่าอ็อบเจ็กต์ `Configuration` ของ Aspose.HTML ซึ่งช่วยให้เราควบคุมวิธีการแสดงผล HTML ได้
 
-#### 2.1 Create a Configuration instance
+### 2.1 สร้างอินสแตนซ์ Configuration
 ```java
 com.aspose.html.Configuration configuration = new com.aspose.html.Configuration();
 ```
 
 อ็อบเจกต์ `Configuration` เป็นจุดเริ่มต้นสำหรับการปรับแต่งตัวเลือกการเรนเดอร์ เช่น การจัดการแบบอักษรและพฤติกรรมของ user‑agent.
 
-#### 2.2 Access the User Agent Service
+#### 2.2 เข้าถึงบริการ User Agent
 ```java
 com.aspose.html.services.IUserAgentService userAgent = configuration.getService(com.aspose.html.services.IUserAgentService.class);
 ```
 
 `IUserAgentService` จัดการสไตล์ชีต, แบบอักษร, และรายละเอียดการเรนเดอร์อื่น ๆ เราจะใช้มันเพื่อใส่ CSS ที่กำหนดเองและชี้ไปยังโฟลเดอร์แบบอักษรของเรา.
 
-### Step 3: Apply Custom Styles and Fonts
-With the environment ready, we can now add CSS rules and tell Aspose.HTML where to find our fonts.
+### ขั้นตอนที่ 3: กำหนดค่าสไตล์และฟอนต์เอง
+เมื่อเตรียมสภาพแวดล้อมพร้อมแล้ว เราสามารถเพิ่มกฎ CSS และบอก Aspose.HTML ว่าจะหาฟอนต์ได้จากที่ไหน
 
-#### 3.1 Set custom CSS
+#### 3.1 ตั้งค่า CSS เอง
 ```java
 userAgent.setUserStyleSheet("h1 { color:#a52a2a; }\r\n" +
     "p { color:grey; }\r\n");
@@ -97,7 +97,7 @@ userAgent.setUserStyleSheet("h1 { color:#a52a2a; }\r\n" +
 
 CSS นี้ทำให้ส่วนหัวเป็นสีบราวน์และย่อหน้าสีเทา คุณสามารถเพิ่มกฎ CSS ที่ถูกต้องใด ๆ ที่นี่—Aspose.HTML รองรับสเปค CSS2.1 เต็มรูปแบบและฟีเจอร์หลายอย่างของ CSS3 *(นี่คือตัวอย่างของ **apply custom css**.)*
 
-#### 3.2 Point to the custom font folder
+#### 3.2 ชี้ไปยังโฟลเดอร์ฟอนต์ที่กำหนดเอง
 ```java
 userAgent.getFontsSettings().setFontsLookupFolder("fonts");
 ```
@@ -106,7 +106,7 @@ userAgent.getFontsSettings().setFontsLookupFolder("fonts");
 
 > **เคล็ดลับ:** หากคุณมีหลายฟอนต์แฟมิลี, ให้จัดระเบียบในโฟลเดอร์ย่อยและเพิ่มโฟลเดอร์แม่แต่ละโฟลเดอร์ลงใน `FontsLookupFolder` โดยใช้รายการคั่นด้วยเซมิโคลอน.
 
-### Step 4: Load the HTML Document with the Configuration
+### ขั้นตอนที่ 4: โหลดเอกสาร HTML ที่มีการกำหนดค่าแล้ว
 Now we load the HTML file we created earlier, applying the custom configuration we just built.
 
 ```java
@@ -115,8 +115,8 @@ com.aspose.html.HTMLDocument document = new com.aspose.html.HTMLDocument("user-a
 
 อ็อบเจกต์ `HTMLDocument` ตอนนี้เป็นตัวแทนของ HTML ที่มีสไตล์พร้อมสำหรับการแปลง.
 
-### Step 5: Convert HTML to PDF
-Finally, we perform the **aspose html pdf conversion** to produce a PDF file that respects our custom fonts and styles.
+### ขั้นตอนที่ 5: แปลง HTML เป็น PDF
+สุดท้ายนี้ เราจะทำการแปลง **aspose html pdf** เพื่อสร้างไฟล์ PDF ที่คงไว้ซึ่งแบบอักษรและสไตล์ที่เรากำหนดเอง
 
 ```java
 com.aspose.html.converters.Converter.convertHTML(
@@ -128,17 +128,17 @@ com.aspose.html.converters.Converter.convertHTML(
 
 อ็อบเจกต์ `PdfSaveOptions` ให้คุณปรับแต่งการตั้งค่าผลลัพธ์ เช่น ขนาดหน้า, การบีบอัด, และเมตาดาต้า สำหรับการแปลงพื้นฐาน ตัวเลือกเริ่มต้นทำงานได้อย่างสมบูรณ์.
 
-### Step 6: Clean Up Resources
-Proper disposal prevents memory leaks, especially when processing many documents in a long‑running application.
+### ขั้นตอนที่ 6: ล้างทรัพยากร
+การกำจัดทรัพยากรอย่างเหมาะสมจะช่วยป้องกันการรั่วไหลของหน่วยความจำ โดยเฉพาะอย่างยิ่งเมื่อประมวลผลเอกสารจำนวนมากในแอปพลิเคชันที่ทำงานต่อเนื่องเป็นเวลานาน
 
-#### 6.1 Dispose the HTMLDocument
+#### 6.1 กำจัด HTMLDocument
 ```java
 if (document != null) {
     document.dispose();
 }
 ```
 
-#### 6.2 Dispose the Configuration
+#### 6.2 กำจัด Configuration
 ```java
 if (configuration != null) {
     configuration.dispose();
@@ -147,15 +147,15 @@ if (configuration != null) {
 
 การเรียกเหล่านี้จะปล่อยทรัพยากรเนทีฟที่ Aspose.HTML จัดสรร.
 
-## Common Issues & Solutions
+## ปัญหาและแนวทางแก้ไขทั่วไป
 | ปัญหา | วิธีแก้ |
 |-------|----------|
-| **แบบอักษรไม่แสดง** | ตรวจสอบว่าโฟลเดอร์ `fonts` ถูกอ้างอิงอย่างถูกต้องและมีไฟล์ `.ttf`/`.otf` ที่ถูกต้อง ใช้เส้นทางแบบเต็มหากโฟลเดอร์อยู่นอกไดเรกทอรีของโปรเจค. |
-| **PDF ดูเป็นสีขาว** | ตรวจสอบว่าเส้นทางไฟล์ HTML ถูกต้องและไฟล์สามารถอ่านได้ ตรวจสอบว่าอ็อบเจกต์ `Configuration` ถูกส่งให้กับคอนสตรัคเตอร์ของ `HTMLDocument`. |
-| **ข้อยกเว้นไลเซนส์** | ใช้ไลเซนส์ชั่วคราวหรือเต็มของ Aspose ก่อนเรียกใช้ API ของ Aspose ใส่ไฟล์ไลเซนส์ใน classpath และโหลดด้วย `License license = new License(); license.setLicense("Aspose.Total.Java.lic");`. |
-| **การเรนเดอร์ CSS ที่ไม่คาดคิด** | Aspose.HTML รองรับ CSS ส่วนใหญ่แต่ไม่รองรับคุณลักษณะสมัยใหม่ทั้งหมด (เช่น CSS Grid) ให้ทำให้สไตล์ง่ายลงหรือใช้คุณสมบัติ CSS ที่รองรับ. |
+| **ไม่แสดง** | มาดู `fonts` ในการอ้างอิงถึงแหล่งที่มาของไฟล์ `.ttf`/`.otf` ที่ถูกต้องเพื่อใช้เส้นทางแบบเต็มหากติดตามอยู่นอกไดรฟ์ของโปรเจค |
+| **PDF ดูเป็นสีขาว** | เส้นทางไฟล์ HTML ถูกต้องและไฟล์สามารถอ่านได้ ในส่วนของอ็อบเจกต์ `Configuration` ให้กับคอนสตรัคเตอร์ของ `HTMLDocument` |
+| **สำหรับไลเซนส์** | ใช้ไลเซนส์ชั่วคราวหรือเต็มของ Aspose ก่อนที่จะเรียกใช้ API ของ Aspose ใส่ไฟล์ไลเซนส์ใน classpath และโหลดด้วย `License License = new License(); License.setLicense("Aspose.Total.Java.lic");`. |
+| **การเรนเดอร์ CSS ได้ที่** | Aspose.HTML รองรับ CSS ได้ทันทีแต่ไม่รองรับสมัยใหม่ทั้งหมด (เช่น CSS Grid) ทำให้สไตล์ง่ายลงเพื่อรองรับคุณสมบัติ CSS รองรับ |
 
-## Frequently Asked Questions
+## คำถามที่พบบ่อย
 
 **Q: ฉันสามารถใช้แบบอักษรใดก็ได้กับ Aspose.HTML สำหรับ Java?**  
 A: ใช่, แบบอักษร TrueType (`.ttf`) หรือ OpenType (`.otf`) ใด ๆ ที่ระบบปฏิบัติการของคุณรองรับสามารถใช้ได้ เพียงวางไฟล์เหล่านั้นในโฟลเดอร์ที่คุณตั้งค่าไว้ด้วย `FontsLookupFolder`.

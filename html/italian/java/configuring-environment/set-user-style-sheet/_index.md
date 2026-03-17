@@ -14,35 +14,35 @@ weight: 16
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Crea PDF da HTML – Imposta User Style Sheet in Aspose.HTML per Java
+# Crea PDF da HTML – Imposta il foglio di stile utente in Aspose.HTML per Java
 
-## Introduction
-In questo tutorial imparerai a **creare PDF da HTML** usando Aspose.HTML per Java applicando un foglio di stile utente personalizzato.  
-Ti è mai capitato di voler modificare l'aspetto dei tuoi documenti HTML con uno stile unico? Immagina di creare una pagina web e di aver bisogno che i titoli risaltino con un colore specifico o che i paragrafi abbiano un aspetto coerente su tutti i dispositivi. È qui che entra in gioco un *user stylesheet* e il **User Agent Service**. Ti guideremo passo passo—dalla scrittura di un semplice file HTML, alla configurazione del user agent, fino alla **conversione da HTML a PDF**—così potrai vedere subito il risultato.
+## Introduzione
+In questo tutorial imparerai a **creare PDF da HTML** utilizzando Aspose.HTML per Java applicando un foglio di stile utente personalizzato.
+Ti è mai capitato di voler modificare l'aspetto dei tuoi documenti HTML con uno stile unico? Immagina di creare una pagina web e di aver bisogno che i titoli risaltino con un colore specifico o che i parametri abbiano un aspetto coerente su tutti i dispositivi. È qui che entra in gioco un *user stylesheet* e il **User Agent Service**. Ti guideremo passo passo—dalla scrittura di un semplice file HTML, alla configurazione dello user agent, fino alla **conversione da HTML a PDF**—così potrai vedere subito il risultato.
 
-## Quick Answers
-- **Cosa significa “creare PDF da HTML”?** Significa renderizzare un documento HTML (con CSS, immagini, font, ecc.) e salvare l'output visivo come file PDF.  
-- **Quale componente Aspose è necessario?** La libreria Aspose.HTML per Java fornisce il motore di conversione e il User Agent Service.  
-- **È necessaria una licenza per i test?** Una versione di prova gratuita è sufficiente per lo sviluppo; è necessaria una licenza commerciale per la produzione.  
-- **Posso usare un file CSS esterno?** Sì – è possibile collegare fogli di stile esterni proprio come in un browser normale.  
+## Risposte rapide
+- **Cosa significa “creare PDF da HTML”?** Significa rendere un documento HTML (con CSS, immagini, font, ecc.) e salvare l'output visivo come file PDF.
+- **Quale componente Aspose è necessario?** La libreria Aspose.HTML per Java fornisce il motore di conversione e il User Agent Service.
+- **È necessaria una licenza per i test?** Una versione di prova gratuita è sufficiente per lo sviluppo; è necessaria una licenza commerciale per la produzione.
+- **Posso usare un file CSS esterno?** Sì – è possibile collegare fogli di stile esterni proprio come in un browser normale.
 - **Quanto tempo richiede la conversione?** Per un documento semplice come quello di questa guida, la conversione avviene in meno di un secondo.
 
-## Prerequisites
+## Prerequisiti
 Prima di immergerti nel codice, assicurati di avere quanto segue:
 
-1. **Aspose.HTML for Java** – scarica l'ultimo JAR dalla [Aspose releases page](https://releases.aspose.com/html/java/).  
-2. **Java Development Kit (JDK) 8+** – assicurati che `java -version` restituisca 8 o superiore.  
-3. **IDE** – IntelliJ IDEA, Eclipse o NetBeans funzioneranno bene.  
-4. **Basic HTML/CSS knowledge** – utile ma non obbligatoria.
+1. **Aspose.HTML for Java** – scarica l'ultimo JAR dalla [pagina delle versioni di Aspose](https://releases.aspose.com/html/java/).
+2. **Java Development Kit (JDK) 8+** – assicurazione che `java -version` restituisce 8 o superiore.
+3. **IDE** – IntelliJ IDEA, Eclipse o NetBeans funzioneranno bene.
+4. **Conoscenza base di HTML/CSS** – utile ma non obbligatoria.
 
-## Import Packages
+## Importa pacchetti
 Per iniziare, importa le classi Java essenziali. L'unica importazione esplicita necessaria per questo esempio è `java.io.IOException`; le classi Aspose sono referenziate con nomi completamente qualificati più avanti.
 
 ```java
 import java.io.IOException;
 ```
 
-## Step 1: Create a Simple HTML Document
+## Passaggio 1: Creare un semplice documento HTML
 Per prima cosa, scriveremo un file HTML minimale (`document.html`) che servirà come sorgente per la conversione in PDF.
 
 ```java
@@ -57,24 +57,24 @@ try (java.io.FileWriter fileWriter = new java.io.FileWriter("document.html")) {
 
 > **Pro tip:** Mantieni il file HTML nella stessa directory del tuo codice Java per evitare problemi legati ai percorsi.
 
-## Step 2: Set Up Aspose.HTML Configuration
+## Passaggio 2: Configurare Aspose.HTML
 Crea un oggetto `Configuration`. Questo oggetto funge da contenitore per tutti i servizi (incluso il User Agent Service) che utilizzerai più avanti.
 
 ```java
 com.aspose.html.Configuration configuration = new com.aspose.html.Configuration();
 ```
 
-## Why Use the User Agent Service?
+## Perché utilizzare il servizio User Agent?
 Il **User Agent Service** ti offre un controllo a basso livello sulle opzioni di rendering, come il set di caratteri predefinito, la lingua, i font e—soprattutto per questo tutorial—un foglio di stile utente personalizzato. Applicando gli stili a questo livello, garantisci un output visivo coerente anche quando l'HTML originale non dispone di CSS proprio.
 
-## Step 3: Access the User Agent Service  
+## Passaggio 3: Accedere al servizio User Agent 
 Il **User Agent Service** ti consente di iniettare un foglio di stile personalizzato, impostare il set di caratteri predefinito e controllare altre opzioni di rendering.
 
 ```java
 com.aspose.html.services.IUserAgentService userAgent = configuration.getService(com.aspose.html.services.IUserAgentService.class);
 ```
 
-## Step 4: Define and Apply the User Stylesheet  
+## Passaggio 4: Definire e applicare il foglio di stile utente 
 Ora forniamo le regole CSS che stilizzeranno l'HTML al momento del rendering. È qui che **usiamo il user agent service** per impostare il foglio di stile.
 
 ```java
@@ -84,14 +84,14 @@ userAgent.setUserStyleSheet("h1 { color:#a52a2a; font-size:2em; }\r\n" +
 
 > **Perché è importante:** Applicando un foglio di stile a livello di user‑agent, ti assicuri che gli stili vengano rispettati anche se l'HTML originale non fa riferimento a un file CSS.
 
-## Step 5: Load the HTML Document with the Custom Configuration  
+## Passaggio 5: Caricare il documento HTML con la configurazione personalizzata 
 Passa sia il percorso del file sia l'istanza `Configuration` al costruttore `HTMLDocument`. Questo associa il foglio di stile utente al documento.
 
 ```java
 com.aspose.html.HTMLDocument document = new com.aspose.html.HTMLDocument("document.html", configuration);
 ```
 
-## Step 6: Convert HTML to PDF  
+## Passaggio 6: Convertire HTML in PDF
 Con il documento completamente stilizzato, invoca il metodo statico `convertHTML` per **convertire HTML in PDF**. L'oggetto `PdfSaveOptions` ti permette di perfezionare l'output (ad esempio, dimensione della pagina, compressione).
 
 ```java
@@ -104,7 +104,7 @@ com.aspose.html.converters.Converter.convertHTML(
 
 > **Risultato:** `user-agent-stylesheet_out.pdf` conterrà il titolo in marrone e il paragrafo con sfondo GhostWhite, esattamente come definito nel foglio di stile.
 
-## Step 7: Clean Up Resources  
+## Passaggio 7: Liberare le risorse 
 Disporre sempre degli oggetti Aspose per liberare la memoria nativa.
 
 ```java
@@ -116,38 +116,38 @@ if (configuration != null) {
 }
 ```
 
-## Common Issues & Solutions
+## Problemi e soluzioni comuni
 | Problema | Causa | Soluzione |
 |----------|-------|-----------|
-| **Blank PDF output** | Nessun foglio di stile applicato o documento non caricato con la configurazione. | Verifica che `configuration` sia passato a `HTMLDocument` e che `setUserStyleSheet` sia chiamato prima del caricamento. |
-| **Unsupported CSS property warning** | Aspose.HTML non supporta alcune funzionalità CSS avanzate. | Usa solo le proprietà CSS elencate nella documentazione di Aspose.HTML o ricorri a stili più semplici. |
+| **Output PDF vuoto** | Nessun foglio di stile applicato o documento non caricato con la configurazione. | Verifica che `configuration` sia passato a `HTMLDocument` e che `setUserStyleSheet` sia chiamato prima del caricamento. |
+| **Avviso proprietà CSS non supportata** | Aspose.HTML non supporta alcune funzionalità CSS avanzate. | Usa solo le proprietà CSS elencate nella documentazione di Aspose.HTML o ricorri a stili più semplici. |
 | **FileNotFoundException** | Percorso errato per `document.html`. | Usa un percorso assoluto o posiziona il file HTML nella radice del progetto. |
 
-## Frequently Asked Questions
+## Domande frequenti
 
-**D: Posso applicare stili diversi per diversi elementi HTML?**  
+**D: Posso applicare stili diversi per diversi elementi HTML?**
 R: Assolutamente! Puoi definire quante regole CSS desideri all'interno del foglio di stile utente.
 
-**D: E se devo cambiare il foglio di stile dinamicamente?**  
-R: Chiama nuovamente `setUserStyleSheet` prima di creare una nuova istanza di `HTMLDocument`; i nuovi stili verranno applicati alla conversione successiva.
+**D: E se devo cambiare il foglio di stile dinamicamente?**
+R: Chiamare nuovamente `setUserStyleSheet` prima di creare una nuova istanza di `HTMLDocument`; i nuovi stili applicativi verranno applicati alla conversione successiva.
 
-**D: È possibile utilizzare file CSS esterni con Aspose.HTML per Java?**  
+**D: È possibile utilizzare file CSS esterni con Aspose.HTML per Java?**
 R: Sì – puoi collegare un foglio di stile esterno nell'HTML o caricare il suo contenuto e passarlo a `setUserStyleSheet`.
 
-**D: Come gestisce Aspose.HTML le proprietà CSS non supportate?**  
-R: Le proprietà non supportate vengono ignorate, consentendo al resto del foglio di stile di essere renderizzato senza errori.
+**D: Come gestisce Aspose.HTML le proprietà CSS non supportate?**
+R: Le proprietà non supportate vengono ignorate, consentendo al resto del foglio di stile di essere reso senza errori.
 
-**D: Posso convertire HTML in formati diversi da PDF?**  
-R: Sì, Aspose.HTML supporta la conversione in XPS, TIFF, PNG, JPEG e altri formati usando la classe `SaveOptions` appropriata.
+**D: Posso convertire HTML in formati diversi da PDF?**
+R: Sì, Aspose.HTML supporta la conversione in XPS, TIFF, PNG, JPEG e altri formati utilizzando la classe `SaveOptions` appropriata.
 
-## Conclusion
+## Conclusione
 Ora hai visto come **creare PDF da HTML** impostando un foglio di stile utente personalizzato con Aspose.HTML per Java. Questo flusso di lavoro ti offre il pieno controllo sull'aspetto visivo del PDF generato, rendendolo ideale per la generazione automatica di report, la creazione di fatture o qualsiasi scenario in cui una stilizzazione coerente è fondamentale. Sentiti libero di sperimentare con CSS più complessi, font esterni o formati di conversione aggiuntivi per ampliare questa base.
 
 ---
 
-**Ultimo aggiornamento:** 2026-02-04  
-**Testato con:** Aspose.HTML for Java 24.11 (latest at time of writing)  
-**Autore:** Aspose  
+**Ultimo aggiornamento:** 2026-02-04
+**Testato con:** Aspose.HTML per Java 24.11 (il più recente al momento della scrittura)
+**Autore:** Chiedi  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

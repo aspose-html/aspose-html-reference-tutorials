@@ -16,33 +16,33 @@ weight: 16
 
 # HTML'den PDF Oluştur – Aspose.HTML for Java'da Kullanıcı Stil Sayfası Ayarlama
 
-## Introduction
-Bu öğreticide, Aspose.HTML for Java kullanarak **HTML'den PDF oluşturmayı** ve özel bir kullanıcı stil sayfası uygulamayı öğreneceksiniz.  
-Kendi benzersiz stilinizle HTML belgelerinizin görünümünü ayarlamak istediğiniz bir an oldu mu? Bir web sayfası hazırladığınızı ve başlıkların belirli bir renkle öne çıkmasını ya da paragrafların tüm cihazlarda tutarlı görünmesini istediğinizi hayal edin. İşte *user stylesheet* ve **User Agent Service** burada devreye giriyor. Basit bir HTML dosyası yazmaktan, kullanıcı aracısını yapılandırmaya, son olarak **convert HTML to PDF** yapmaya kadar her adımı adım adım göstereceğiz—böylece sonucu anında görebileceksiniz.
+## Giriiş
+Bu öğreticide, Aspose.HTML for Java kullanarak **HTML'den PDF oluşturmayı** ve özel bir kullanıcı stil sayfası uygulama listesi.
+Kendi benzersiz stilinizde HTML belgelerinizin görünümünü ayarlamak istediğiniz bir an oldu mu? Bir web sayfasını hazırlamanızı ve başlıkların belirli bir renkle öne çıkmasını ya da paragrafların tüm özelliklerinin görünmesini istediğinizi hayal edin. İşte *user stylesheet* ve **User Agent Service** burada devreye giriyor. Basit bir HTML dosyası yazmaktan, kullanıcı aracını kontrolya, son olarak **HTML'yi PDF'ye dönüştürmeye** kadar her adımı adım adım göstereceğiz—böylece sonucunu anında görebileceksiniz.
 
-## Quick Answers
-- **HTML'den PDF oluşturmak** ne anlama geliyor? Bir HTML belgesini (CSS, resimler, yazı tipleri vb. ile) işleyip görsel çıktıyı PDF dosyası olarak kaydetmek anlamına gelir.  
-- **Hangi Aspose bileşeni gereklidir?** Dönüştürme motoru ve User Agent Service'i sağlayan Aspose.HTML for Java kütüphanesi.  
-- **Test için lisansa ihtiyacım var mı?** Geliştirme için ücretsiz deneme sürümü yeterlidir; üretim için ticari lisans gerekir.  
-- **Harici bir CSS dosyası kullanabilir miyim?** Evet – normal bir tarayıcıda olduğu gibi harici stil sayfalarına bağlanabilirsiniz.  
+## Hızlı Yanıtlar
+- **HTML'den PDF oluşturmak** ne anlama geliyor? Bir HTML belgesini (CSS, resimler, yazı türleri vb. ile) işleyip görsel olarak çıkartıp PDF dosyasının kaydedilmesini sağlar gelir.
+- **Hangi Aspose uzmanı gereklidir?** Dönüştürme motoru ve User Agent Service'i sağlayan Aspose.HTML for Java kütüphanesi.
+- **Test için lisansa ihtiyaç var mı?** Geliştirme için ücretsiz deneme sürümü yeterlidir; üretim için ticari lisans gerekir.
+- **Harici bir CSS dosyası kullanabilir miyim?** Evet – normal bir tarayıcıda olduğu gibi harici stil sayfalarına bağlanabilirsiniz.
 - **Dönüştürme ne kadar sürer?** Bu kılavuzdaki basit belge için dönüşüm bir saniyenin altında tamamlanır.
 
-## Prerequisites
+## Önkoşullar
 Kodlara başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
-1. **Aspose.HTML for Java** – en yeni JAR dosyasını [Aspose releases page](https://releases.aspose.com/html/java/) adresinden indirin.  
-2. **Java Development Kit (JDK) 8+** – `java -version` komutu 8 veya daha yüksek bir sürüm gösterdiğinden emin olun.  
-3. **IDE** – IntelliJ IDEA, Eclipse veya NetBeans kullanılabilir.  
-4. **Basic HTML/CSS knowledge** – faydalı ancak zorunlu değil.
+1. **Aspose.HTML for Java** – en yeni JAR kopyası [Aspose sürümler sayfası](https://releases.aspose.com/html/java/) adresinden indirin.
+2. **Java Development Kit (JDK) 8+** – `java -version` komutu 8 veya daha yüksek bir sürüm gösterildiğinden emin olun.
+3. **IDE** – IntelliJ IDEA, Eclipse veya NetBeans mevcuttur.
+4. **Temel HTML/CSS bilgisi** – faydalı ancak zorunlu değil.
 
-## Import Packages
-Başlamak için gerekli Java sınıflarını içe aktarın. Bu örnek için tek açık içe aktarma `java.io.IOException` sınıfıdır; Aspose sınıfları daha sonra tam nitelikli adlarıyla kullanılacaktır.
+## Paketleri İçe Aktar
+Başlamak için gerekli Java sınıflarını içeri aktarın. Bu örnek için tek açık içe aktarma `java.io.IOException` sınıfıdır; Aspose sınıfları daha sonra tam kapsamlı adlarıyla kullanılacaktır.
 
 ```java
 import java.io.IOException;
 ```
 
-## Step 1: Create a Simple HTML Document
+## Adım 1: Basit Bir HTML Belgesi Oluşturun
 İlk olarak, PDF dönüşümümüzün kaynağı olacak minimal bir HTML dosyası (`document.html`) oluşturacağız.
 
 ```java
@@ -57,24 +57,24 @@ try (java.io.FileWriter fileWriter = new java.io.FileWriter("document.html")) {
 
 > **Pro tip:** HTML dosyasını Java kaynağınızla aynı dizinde tutarak yol‑ile ilgili sorunların önüne geçin.
 
-## Step 2: Set Up Aspose.HTML Configuration
+## Adım 2: Aspose.HTML Yapılandırmasını Ayarlayın
 Bir `Configuration` nesnesi oluşturun. Bu nesne, daha sonra kullanacağınız tüm servisleri (User Agent Service dahil) içeren bir kapsayıcı görevi görür.
 
 ```java
 com.aspose.html.Configuration configuration = new com.aspose.html.Configuration();
 ```
 
-## Why Use the User Agent Service?
+## Kullanıcı Aracısı Servisini Neden Kullanmalısınız?
 **User Agent Service**, varsayılan karakter seti, dil, yazı tipleri ve bu öğreticinin odak noktası olan özel bir kullanıcı stil sayfası gibi düşük seviyeli render seçenekleri üzerinde kontrol sağlar. Stilleri bu seviyede uygulayarak, orijinal HTML'nin kendi CSS'i olmasa bile tutarlı bir görsel çıktı elde edersiniz.
 
-## Step 3: Access the User Agent Service  
+## Adım 3: Kullanıcı Aracısı Servisine Erişin
 **User Agent Service**, özel bir stil sayfası eklemenize, varsayılan karakter setini ayarlamanıza ve diğer render seçeneklerini kontrol etmenize olanak tanır.
 
 ```java
 com.aspose.html.services.IUserAgentService userAgent = configuration.getService(com.aspose.html.services.IUserAgentService.class);
 ```
 
-## Step 4: Define and Apply the User Stylesheet  
+## Adım 4: Kullanıcı Stil Sayfasını Tanımlayın ve Uygulayın  
 Şimdi, HTML render edildiğinde uygulanacak CSS kurallarını tanımlıyoruz. İşte **user agent service** kullanarak stil sayfasını ayarladığımız yer.
 
 ```java
@@ -84,14 +84,14 @@ userAgent.setUserStyleSheet("h1 { color:#a52a2a; font-size:2em; }\r\n" +
 
 > **Why this matters:** Stil sayfasını kullanıcı‑ajan seviyesinde uygulayarak, orijinal HTML bir CSS dosyasına referans vermese bile stillerin uygulanmasını garantilersiniz.
 
-## Step 5: Load the HTML Document with the Custom Configuration  
+## Adım 5: Özel Yapılandırmayla HTML Belgesini Yükleyin 
 Dosya yolunu ve `Configuration` örneğini `HTMLDocument` yapıcısına aktarın. Bu, kullanıcı stil sayfasını belgeye bağlar.
 
 ```java
 com.aspose.html.HTMLDocument document = new com.aspose.html.HTMLDocument("document.html", configuration);
 ```
 
-## Step 6: Convert HTML to PDF  
+## Adım 6: HTML'yi PDF'ye Dönüştürme  
 Belge tamamen stil almışken, statik `convertHTML` metodunu çağırarak **HTML'den PDF'ye dönüşümü** gerçekleştirin. `PdfSaveOptions` nesnesi, çıktı (sayfa boyutu, sıkıştırma vb.) üzerinde ince ayar yapmanıza izin verir.
 
 ```java
@@ -104,7 +104,7 @@ com.aspose.html.converters.Converter.convertHTML(
 
 > **Result:** `user-agent-stylesheet_out.pdf` dosyası, başlığı kahverengi ve paragrafı GhostWhite arka plan rengiyle, stil sayfasında tanımlandığı gibi içerecektir.
 
-## Step 7: Clean Up Resources  
+## Adım 7: Kaynakları Temizleme  
 Yerel belleği serbest bırakmak için Aspose nesnelerini her zaman dispose edin.
 
 ```java
@@ -116,38 +116,38 @@ if (configuration != null) {
 }
 ```
 
-## Common Issues & Solutions
+## Yaygın Sorunlar ve Çözümler
 | Sorun | Neden | Çözüm |
-|-------|-------|-----|
-| **Blank PDF output** | Stil sayfası uygulanmadı veya belge yapılandırma ile yüklenmedi. | `configuration` nesnesinin `HTMLDocument`'a geçirildiğini ve `setUserStyleSheet`'in yüklemeden önce çağrıldığını doğrulayın. |
-| **Unsupported CSS property warning** | Aspose.HTML bazı gelişmiş CSS özelliklerini desteklemiyor. | Aspose.HTML belgelerinde listelenen CSS özelliklerini kullanın veya daha basit stillere geçin. |
-| **FileNotFoundException** | `document.html` dosyasının yolu yanlış. | Mutlak bir yol kullanın veya HTML dosyasını proje köküne yerleştirin. |
+|----------|----------|-----|
+| **Boş PDF çıktısı** | Stil sayfası uygulanmadı veya belge ayarları ile yüklenmedi. | `configuration` nesnesinin `HTMLDocument`a geçirilmesi ve `setUserStyleSheet`in yüklenmesinden önce çağrıldığını doğrulayın. |
+| **Desteklenmeyen CSS özelliği uyarısı** | Aspose.HTML bazı gelişmiş CSS özelliklerini desteklemiyor. | Aspose.HTML belgelerinde CSS özelliklerini kullanın veya daha basit stillere geçin. |
+| **FileNotFoundException** | `document.html`in kopyalarının yolu yanlış. | Mutlak bir yol kullanın veya HTML miktarını proje köküne ekleyin. |
 
-## Frequently Asked Questions
+## Sıkça Sorulan Sorular
 
-**S: Farklı HTML öğeleri için farklı stiller uygulayabilir miyim?**  
-C: Kesinlikle! Kullanıcı stil sayfası içinde ihtiyacınız kadar CSS kuralı tanımlayabilirsiniz.
+**S: Farklı HTML bileşenleri için farklı stiller uygulayabilir miyim?**
+C: elbette! Kullanıcı stil sayfası içinde ihtiyacınız kadar CSS kural tanımlayabilirsiniz.
 
-**S: Stil sayfasını dinamik olarak değiştirmem gerekirse ne yapmalıyım?**  
-C: Yeni bir `HTMLDocument` örneği oluşturmadan önce `setUserStyleSheet` metodunu tekrar çağırın; yeni stiller bir sonraki dönüşümde uygulanacaktır.
+**S: Stili dinamik olarak değiştirmem gerekirse ne yapmalıyım?**
+C: Yeni bir `HTMLDocument` örnek oluşturmadan önce `setUserStyleSheet` yöntemini tekrar çağırın; yeni stiler bir sonraki dönüşümde uygulanacaktır.
 
-**S: Aspose.HTML for Java ile harici CSS dosyaları kullanmak mümkün mü?**  
-C: Evet – HTML içinde harici bir stil sayfasına bağlayabilir veya içeriğini okuyup `setUserStyleSheet` metoduna geçirebilirsiniz.
+**S: Aspose.HTML for Java ile harici CSS dosyalarını kullanmak mümkün mü?**
+C: Evet – HTML içinde harici bir stil sayfasını bağlayabilir veya gerçekleştirmediğiniz `setUserStyleSheet` yöntemini çalıştırabilirsiniz.
 
-**S: Aspose.HTML desteklenmeyen CSS özelliklerini nasıl ele alıyor?**  
-C: Desteklenmeyen özellikler yok sayılır, böylece stil sayfasının geri kalan kısmı hatasız olarak render edilir.
+**S: Aspose.HTML desteklenmeyen CSS özellikleri nasıl ele alıyor?**
+C: Desteklenmeyen özellikler yok sayılır, bu şekilde hala devam eden geri kalan kısmı incelemez olarak işlenir.
 
-**S: PDF dışındaki formatlara da HTML dönüştürebilir miyim?**  
-C: Evet, Aspose.HTML uygun `SaveOptions` sınıflarıyla XPS, TIFF, PNG, JPEG ve daha fazlasına dönüşümü destekler.
+**S: PDF dışındaki formatlara da HTML'ye dönüştürülebilir mi?**
+C: Evet, Aspose.HTML'ye uygun `SaveOptions` sınıflarıyla XPS, TIFF, PNG, JPEG ve daha fazlasına saklanması.
 
-## Conclusion
-Artık Aspose.HTML for Java ile özel bir kullanıcı stil sayfası ayarlayarak **HTML'den PDF oluşturmayı** gördünüz. Bu iş akışı, oluşturulan PDF'nin görsel görünümünü tam kontrol etmenizi sağlar; otomatik rapor oluşturma, fatura üretimi veya tutarlı stilin kritik olduğu herhangi bir senaryo için idealdir. Daha karmaşık CSS, harici yazı tipleri veya ek dönüşüm formatlarıyla deneyler yaparak bu temeli genişletmekten çekinmeyin.
+## Çözüm
+Artık Aspose.HTML for Java ile özel bir kullanıcı stil sayfasını ayarlayarak **HTML'den PDF oluşturmayı** gördünüz. Bu iş sistemleri, yazılım PDF'nin görsel görünümünü tam kontrol etmenizi sağlar; otomatik rapor oluşturma, fatura üretimi veya stilin kritik olduğu herhangi bir senaryo için idealdir. Daha karmaşık CSS, harici yazı türleri veya ek dönüşüm formatlarıyla deneyler yaparak bu temeli genişletmeden ortaya çıkar.
 
 ---
 
-**Last Updated:** 2026-02-04  
-**Tested With:** Aspose.HTML for Java 24.11 (latest at time of writing)  
-**Author:** Aspose  
+**Son Güncelleme:** 2026-02-04
+**Test Edilenler:** Aspose.HTML for Java 24.11 (yazım sırasındaki en son sürüm)
+**Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
