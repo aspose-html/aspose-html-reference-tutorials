@@ -96,8 +96,20 @@ XPS هو صيغة الطباعة الخاصة بمايكروسوفت. باستخ
 حوّل SVG إلى PDF في Java باستخدام Aspose.HTML. حل سلس لتحويل المستندات بجودة عالية.
 ### [تحويل SVG إلى XPS](./convert-svg-to-xps/)
 تعلم كيفية تحويل SVG إلى XPS باستخدام Aspose.HTML for Java. دليل بسيط خطوة بخطوة لتحويلات سلسة.
-### [تحويل HTML إلى PDF في Java – دليل خطوة بخطوة مع إعدادات حجم الصفحة](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
+### [تحويل HTML إلى PDF في Java – دليل خطوة بخوة مع إعدادات حجم الصفحة](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 تعلم تحويل HTML إلى PDF في Java مع إعدادات حجم الصفحة خطوة بخطوة باستخدام Aspose.HTML.
+### [تحويل HTML إلى PDF/A باستخدام Aspose في Java](./java-html-to-pdf-convert-html-to-pdf-a-using-aspose/)
+### [كيفية تمكين JavaScript عند تحويل HTML إلى PDF في Java](./how-to-enable-javascript-when-converting-html-to-pdf-in-java/)
+### [كيفية تضمين الصور في HTML إلى PDF باستخدام Aspose – دليل Java](./how-to-embed-images-in-html-to-pdf-with-aspose-java-guide/)
+تعلم كيفية تضمين صور داخل مستندات PDF عند تحويل HTML باستخدام Aspose.HTML for Java خطوة بخطوة.
+### [كيفية تشفير PDF في Java – حماية PDF بكلمة مرور من HTML](./how-to-encrypt-pdf-in-java-password-protect-pdf-from-html/)
+تعلم كيفية تشفير ملفات PDF وحمايتها بكلمة مرور عند التحويل من HTML باستخدام Aspose.HTML for Java.
+### [إنشاء مجموعة خيوط ثابتة لتحويل HTML إلى PDF بالتوازي في Java](./create-fixed-thread-pool-for-parallel-html-to-pdf-conversion/)
+تعلم كيفية إنشاء مجموعة خيوط ثابتة لمعالجة تحويلات HTML إلى PDF بشكل متوازي باستخدام Aspose.HTML for Java.
+### [إنشاء PDF من HTML مع عرض الجوال – دليل Java كامل](./create-pdf-from-html-with-mobile-viewport-complete-java-guid/)
+تعلم كيفية إنشاء PDF من HTML مع ضبط عرض الشاشة للهواتف المحمولة باستخدام Aspose.HTML في Java.
+### [تحويل HTML إلى Markdown في Java – دليل خطوة بخطوة كامل](./convert-html-to-markdown-in-java-full-step-by-step-guide/)
+### [تحويل HTML إلى PDF – دليل كامل لحفظ PDF إلى Azure Blob](./convert-html-to-pdf-complete-guide-to-saving-pdf-to-azure-bl/)
 
 ## الأسئلة المتكررة
 
