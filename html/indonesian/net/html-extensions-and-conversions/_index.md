@@ -69,10 +69,14 @@ Temukan kekuatan Aspose.HTML untuk .NET: Ubah HTML menjadi XPS dengan mudah. Pra
 Pelajari cara mengompres file HTML menjadi arsip ZIP menggunakan C# dan Aspose.HTML.
 ### [Buat Dokumen HTML dengan Teks Bergaya dan Ekspor ke PDF – Panduan Lengkap](./create-html-document-with-styled-text-and-export-to-pdf-full/)
 Pelajari cara membuat dokumen HTML dengan teks berformat dan mengekspornya ke PDF menggunakan Aspose.HTML untuk .NET.
+### [Buat arsip HTML dari DOCX – Panduan Langkah‑demi‑Langkah](./create-html-archive-from-docx-step-by-step-guide/)
+Pelajari cara membuat arsip HTML dari file DOCX menggunakan Aspose.HTML untuk .NET dengan contoh kode lengkap.
 ### [Simpan HTML sebagai ZIP – Tutorial Lengkap C#](./save-html-as-zip-complete-c-tutorial/)
 Pelajari cara menyimpan file HTML sebagai arsip ZIP menggunakan Aspose.HTML untuk .NET dengan contoh kode C# lengkap.
 ### [Simpan HTML ke ZIP di C# – Contoh In‑Memory Lengkap](./save-html-to-zip-in-c-complete-in-memory-example/)
 Pelajari cara menyimpan file HTML ke dalam arsip ZIP secara langsung di memori menggunakan C# dan Aspose.HTML.
+### [Cara Mengompres HTML menjadi Zip di C# – Ekspor Halaman Web ke ZIP dengan Aspose.HTML](./how-to-zip-html-in-c-export-webpage-to-zip-with-aspose-html/)
+Pelajari cara mengekspor halaman web menjadi arsip ZIP menggunakan C# dan Aspose.HTML.
 
 ## Kesimpulan
 

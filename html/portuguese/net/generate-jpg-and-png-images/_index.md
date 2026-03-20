@@ -45,6 +45,8 @@ Aprenda a usar Aspose.HTML para .NET para manipular documentos HTML, converter H
 Aprenda a ativar antialiasing ao converter documentos DOCX em imagens PNG ou JPG usando Aspose.HTML para .NET.
 ### [Converter docx para png – criar arquivo zip em C# tutorial](./convert-docx-to-png-create-zip-archive-c-tutorial/)
 Aprenda a converter documentos DOCX em imagens PNG e compactá-los em um arquivo ZIP usando C# e Aspose.HTML.
+### [Criar documento HTML C# – Renderizar para PNG com saída de alta qualidade](./create-html-document-c-render-to-png-with-high-quality-outpu/)
+Aprenda a criar um documento HTML em C# e renderizá‑lo como PNG de alta qualidade usando Aspose.HTML para .NET.
 
 ## Conclusão
 

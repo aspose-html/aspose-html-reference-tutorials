@@ -45,6 +45,8 @@ Naučte se používat Aspose.HTML pro .NET k manipulaci s dokumenty HTML, převo
 Naučte se, jak při převodu dokumentů DOCX na PNG nebo JPG povolit antialiasing pro hladší výstup.
 ### [Převod docx na png – vytvoření zip archivu C# tutoriál](./convert-docx-to-png-create-zip-archive-c-tutorial/)
 Naučte se převést soubory DOCX na PNG a zabalit je do ZIP archivu pomocí C# a Aspose.HTML.
+### [Vytvořte HTML dokument v C# – renderování do PNG s vysokou kvalitou výstupu](./create-html-document-c-render-to-png-with-high-quality-outpu/)
+Naučte se vytvořit HTML dokument v C# a převést jej do PNG s vysokou kvalitou výstupu pomocí Aspose.HTML.
 
 ## Závěr
 
