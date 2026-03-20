@@ -56,6 +56,8 @@ url: /el/java/creating-managing-html-documents/
 Μάθετε πώς να δημιουργείτε έγγραφα HTML από συμβολοσειρές στο Aspose.HTML για Java με αυτόν τον οδηγό βήμα προς βήμα.
 ### [Φόρτωση εγγράφων HTML από τη διεύθυνση URL στο Aspose.HTML για Java](./load-html-documents-from-url/)
 Ανακαλύψτε πώς να φορτώνετε εύκολα έγγραφα HTML από μια διεύθυνση URL σε Java με το Aspose.HTML. Περιλαμβάνεται σεμινάριο βήμα προς βήμα.
+### [Πώς να φορτώσετε HTML σε Java – Σύγκριση XPath και CSS Selector](./how-to-load-html-in-java-compare-xpath-and-css-selector/)
+Μάθετε πώς να φορτώνετε HTML σε Java και να συγκρίνετε τις προσεγγίσεις XPath και CSS Selector με το Aspose.HTML.
 ### [Δημιουργήστε νέα έγγραφα HTML χρησιμοποιώντας το Aspose.HTML για Java](./generate-new-html-documents/)
 Μάθετε πώς να δημιουργείτε νέα έγγραφα HTML χρησιμοποιώντας το Aspose.HTML για Java με αυτόν τον εύκολο, βήμα προς βήμα οδηγό. Ξεκινήστε τη δημιουργία δυναμικού περιεχομένου HTML.
 ### [Δημιουργία sandbox για HTML σε Java – Οδηγός βήμα‑βήμα](./create-sandbox-for-html-in-java-step-by-step-guide/)
@@ -66,6 +68,10 @@ url: /el/java/creating-managing-html-documents/
 Μάθετε να δημιουργείτε και να διαχειρίζεστε έγγραφα SVG χρησιμοποιώντας το Aspose.HTML για Java! Αυτός ο περιεκτικός οδηγός καλύπτει τα πάντα, από τη βασική δημιουργία έως την προηγμένη χειραγώγηση.
 ### [Πώς να ερωτήσετε HTML σε Java – Πλήρης οδηγός](./how-to-query-html-in-java-complete-tutorial/)
 Μάθετε πώς να εκτελείτε ερωτήματα σε έγγραφα HTML με Java χρησιμοποιώντας το Aspose.HTML, βήμα‑βήμα οδηγίες και παραδείγματα.
+### [Εκτέλεση JavaScript σε Java – Εκτέλεση JS σε HTML & Προσθήκη Στοιχείων](./execute-javascript-java-run-js-on-html-append-elements/)
+Μάθετε πώς να εκτελείτε JavaScript σε έγγραφα HTML με Aspose.HTML για Java και να προσθέτετε δυναμικά στοιχεία στη σελίδα.
+### [Δημιουργία στοιχείου HTML με Java ExecutorService – Demo ασφαλούς νήματος](./create-html-element-with-java-executorservice-thread-safe-de/)
+Μάθετε πώς να δημιουργήσετε στοιχείο HTML χρησιμοποιώντας ExecutorService σε Java, εξασφαλίζοντας ασφαλή εκτέλεση σε πολλαπλά νήματα.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

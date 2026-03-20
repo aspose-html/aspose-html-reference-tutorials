@@ -62,10 +62,16 @@ Dowiedz się, jak tworzyć nowe dokumenty HTML za pomocą Aspose.HTML dla Java d
 Naucz się obsługiwać zdarzenia ładowania dokumentów w Aspose.HTML dla Java dzięki temu przewodnikowi krok po kroku. Ulepsz swoje aplikacje internetowe.
 ### [Tworzenie i zarządzanie dokumentami SVG w Aspose.HTML dla Java](./create-manage-svg-documents/)
 Naucz się tworzyć i zarządzać dokumentami SVG za pomocą Aspose.HTML dla Java! Ten kompleksowy przewodnik obejmuje wszystko, od podstawowego tworzenia po zaawansowaną manipulację.
+### [Wykonaj JavaScript w Javie – Uruchom JS na HTML i dodaj elementy](./execute-javascript-java-run-js-on-html-append-elements/)
+Dowiedz się, jak uruchomić kod JavaScript w dokumentach HTML przy użyciu Aspose.HTML dla Java i dynamicznie dodawać elementy do DOM.
 ### [Utwórz piaskownicę dla HTML w Javie – przewodnik krok po kroku](./create-sandbox-for-html-in-java-step-by-step-guide/)
 Dowiedz się, jak skonfigurować bezpieczną piaskownicę HTML w Javie, aby testować i uruchamiać kod w izolowanym środowisku.
+### [Jak ładować HTML w Javie – Porównanie XPath i selektora CSS](./how-to-load-html-in-java-compare-xpath-and-css-selector/)
+Dowiedz się, jak ładować dokumenty HTML w Javie i porównać XPath z selektorami CSS.
 ### [Jak zapytać HTML w Javie – Kompletny samouczek](./how-to-query-html-in-java-complete-tutorial/)
 Dowiedz się, jak efektywnie zapytać i przetwarzać dokumenty HTML w Javie przy użyciu Aspose.HTML.
+### [Utwórz element HTML przy użyciu Java ExecutorService – demo wątkowo‑bezpieczne](./create-html-element-with-java-executorservice-thread-safe-de/)
+Pokażemy, jak bezpiecznie tworzyć elementy HTML w wielu wątkach przy użyciu ExecutorService w Javie.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

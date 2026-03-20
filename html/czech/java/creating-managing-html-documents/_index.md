@@ -60,12 +60,18 @@ Objevte, jak snadno načíst HTML dokumenty z URL v Javě pomocí Aspose.HTML. V
 Naučte se vytvářet nové HTML dokumenty pomocí Aspose.HTML for Java pomocí tohoto jednoduchého průvodce krok za krokem. Začněte generovat dynamický obsah HTML.
 ### [Zvládejte události načítání dokumentu v Aspose.HTML pro Java](./handle-document-load-events/)
 Naučte se zvládat události načítání dokumentů v Aspose.HTML pro Java pomocí tohoto podrobného průvodce. Vylepšete své webové aplikace.
+### [Spuštění JavaScriptu v Javě – Spusťte JS na HTML a přidejte elementy](./execute-javascript-java-run-js-on-html-append-elements/)
+Naučte se spouštět JavaScript v Aspose.HTML pro Java, manipulovat s HTML a přidávat nové elementy.
 ### [Vytvořte sandbox pro HTML v Javě – krok‑za‑krokem průvodce](./create-sandbox-for-html-in-java-step-by-step-guide/)
 Naučte se, jak vytvořit sandboxové prostředí pro bezpečnou manipulaci s HTML v Javě pomocí Aspose.HTML.
 ### [Vytvářejte a spravujte dokumenty SVG v Aspose.HTML pro Javu](./create-manage-svg-documents/)
 Naučte se vytvářet a spravovat dokumenty SVG pomocí Aspose.HTML pro Javu! Tento komplexní průvodce pokrývá vše od základní tvorby až po pokročilou manipulaci.
 ### [Jak dotazovat HTML v Javě – Kompletní tutoriál](./how-to-query-html-in-java-complete-tutorial/)
 Kompletní průvodce, jak v Javě dotazovat a získávat data z HTML pomocí Aspose.HTML, včetně příkladů a tipů.
+### [Jak načíst HTML v Javě – Porovnání XPath a CSS selektoru](./how-to-load-html-in-java-compare-xpath-and-css-selector/)
+Porovnejte používání XPath a CSS selektorů při načítání HTML v Javě s Aspose.HTML a zjistěte, který přístup je vhodnější pro vaše projekty.
+### [Vytvořte HTML element s Java ExecutorService – Thread‑Safe demo](./create-html-element-with-java-executorservice-thread-safe-de/)
+Ukázka, jak bezpečně vytvářet HTML elementy v multi‑vláknovém prostředí pomocí ExecutorService v Javě.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

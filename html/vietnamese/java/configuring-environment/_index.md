@@ -119,6 +119,9 @@ Tìm hiểu cách triển khai sandboxing trong Aspose.HTML for Java để kiể
 ### [Set User Style Sheet in Aspose.HTML for Java](./set-user-style-sheet/)
 Tìm hiểu cách thiết lập stylesheet người dùng tùy chỉnh trong Aspose.HTML for Java, nâng cao phong cách tài liệu và chuyển đổi HTML sang PDF một cách dễ dàng.
 
+### [Set User Agent for Headless HTML Rendering – Complete Guide](./set-user-agent-for-headless-html-rendering-complete-guide/)
+Tìm hiểu cách cấu hình User Agent khi render HTML không giao diện trong Aspose.HTML for Java để kiểm soát yêu cầu mạng và tránh lỗi.
+
 ---
 
 **Last Updated:** 2025-12-03  

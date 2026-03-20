@@ -56,6 +56,10 @@ Java में Aspose.HTML का उपयोग करके HTML दस्त
 स्ट्रिंग्स से HTML दस्तावेज़ बनाना सीखें। चरण‑दर‑चरण मार्गदर्शिका।
 ### [Java के लिए Aspose.HTML में URL से HTML दस्तावेज़ लोड करें](./load-html-documents-from-url/)
 URL से HTML दस्तावेज़ लोड करना आसान बनाएं। चरण‑दर‑चरण ट्यूटोरियल।
+### [Java में JavaScript निष्पादित करें – HTML पर JS चलाएँ और तत्व जोड़ें](./execute-javascript-java-run-js-on-html-append-elements/)
+Aspose.HTML for Java का उपयोग करके HTML में JavaScript चलाएँ और नए तत्व जोड़ें। चरण‑दर‑चरण मार्गदर्शिका।
+### [Java ExecutorService के साथ HTML तत्व बनाएं – थ्रेड‑सेफ़ डेमो](./create-html-element-with-java-executorservice-thread-safe-de/)
+Java ExecutorService का उपयोग करके थ्रेड‑सेफ़ तरीके से HTML तत्व बनाना सीखें। चरण‑दर‑चरण डेमो।
 ### [Java के लिए Aspose.HTML का उपयोग करके नए HTML दस्तावेज़ बनाएं](./generate-new-html-documents/)
 नए HTML दस्तावेज़ बनाना सीखें। गतिशील सामग्री बनाना शुरू करें।
 ### [Java के लिए Aspose.HTML में दस्तावेज़ लोड इवेंट को संभालें](./handle-document-load-events/)

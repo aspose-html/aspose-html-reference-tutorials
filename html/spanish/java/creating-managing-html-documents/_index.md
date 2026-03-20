@@ -56,6 +56,8 @@ Aprenda a cargar, manipular y guardar documentos HTML con Aspose.HTML para Java 
 Aprenda a cargar documentos HTML desde secuencias de comandos con Aspose.HTML para Java. Esta guía ofrece un tutorial paso a paso para manipular HTML sin problemas.
 ### [Crear documentos HTML a partir de cadenas en Aspose.HTML para Java](./create-html-documents-from-string/)
 Aprenda a crear documentos HTML a partir de cadenas en Aspose.HTML para Java con esta guía paso a paso.
+### [Crear elemento HTML con Java ExecutorService – Demo seguro de subhilos](./create-html-element-with-java-executorservice-thread-safe-de/)
+Aprenda a crear elementos HTML de forma segura usando ExecutorService en Java, evitando condiciones de carrera.
 ### [Cargar documentos HTML desde una URL en Aspose.HTML para Java](./load-html-documents-from-url/)
 Descubra cómo cargar fácilmente documentos HTML desde una URL en Java con Aspose.HTML. Incluye tutorial paso a paso.
 ### [Cómo consultar HTML en Java – Tutorial completo](./how-to-query-html-in-java-complete-tutorial/)
@@ -66,6 +68,9 @@ Aprenda a crear nuevos documentos HTML con Aspose.HTML para Java con esta sencil
 Aprenda a gestionar eventos de carga de documentos en Aspose.HTML para Java con esta guía paso a paso. Mejore sus aplicaciones web.
 ### [Crear y administrar documentos SVG en Aspose.HTML para Java](./create-manage-svg-documents/)
 Aprenda a crear y gestionar documentos SVG con Aspose.HTML para Java. Esta guía completa cubre todo, desde la creación básica hasta la manipulación avanzada.
+### [Ejecutar JavaScript en Java – Ejecutar JS en HTML y agregar elementos](./execute-javascript-java-run-js-on-html-append-elements/)
+Aprenda a ejecutar código JavaScript en documentos HTML con Aspose.HTML para Java y a añadir elementos dinámicamente.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

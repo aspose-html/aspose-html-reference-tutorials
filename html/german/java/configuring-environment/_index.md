@@ -112,6 +112,8 @@ Erfahren Sie, wie Sie den Runtime‑Service in Aspose.HTML für Java konfigurier
 Erfahren Sie, wie Sie Sandbox‑Einrichtung in Aspose.HTML für Java implementieren, um die Skriptausführung in Ihren HTML‑Dokumenten sicher zu steuern und sie in PDF zu konvertieren.
 ### [Benutzer‑Stylesheet in Aspose.HTML für Java festlegen](./set-user-style-sheet/)
 Erfahren Sie, wie Sie ein benutzerdefiniertes Benutzer‑Stylesheet in Aspose.HTML für Java festlegen, um das Dokumentstyling zu verbessern und HTML mühelos zu PDF zu konvertieren.
+### [User‑Agent für Headless‑HTML‑Rendering festlegen – Komplett‑Leitfaden](./set-user-agent-for-headless-html-rendering-complete-guide/)
+Erfahren Sie, wie Sie den User‑Agent für das headless‑HTML‑Rendering festlegen, um korrekte Ressourcen‑Abrufe und Rendering‑Ergebnisse zu gewährleisten.
 
 ---
 

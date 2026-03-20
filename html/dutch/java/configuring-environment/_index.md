@@ -112,6 +112,8 @@ Learn how to configure the Runtime Service in Aspose.HTML for Java to optimize s
 Learn how to implement sandboxing in Aspose.HTML for Java to securely control script execution in your HTML documents and convert them to PDF.
 ### [Gebruikers‑stijlblad instellen in Aspose.HTML voor Java](./set-user-style-sheet/)
 Learn how to set a custom user stylesheet in Aspose.HTML for Java, enhancing your document styling and converting HTML to PDF with ease.
+### [Gebruikers‑agent instellen voor headless HTML-rendering – Complete gids](./set-user-agent-for-headless-html-rendering-complete-guide/)
+Leer hoe je een aangepaste gebruikers‑agent instelt in Aspose.HTML voor Java om headless rendering te beheersen en blokkades te voorkomen.
 
 ---
 

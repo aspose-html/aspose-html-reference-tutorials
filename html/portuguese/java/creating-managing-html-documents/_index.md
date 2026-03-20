@@ -58,14 +58,20 @@ Aprenda a criar documentos HTML a partir de strings no Aspose.HTML para Java com
 Descubra como carregar facilmente documentos HTML de uma URL em Java com Aspose.HTML. Tutorial passo a passo incluso.
 ### [Como consultar HTML em Java – Tutorial completo](./how-to-query-html-in-java-complete-tutorial/)
 Aprenda a consultar e extrair dados de documentos HTML em Java usando Aspose.HTML com este tutorial passo a passo.
+### [Como carregar HTML em Java – Compare XPath e seletor CSS](./how-to-load-html-in-java-compare-xpath-and-css-selector/)
+Aprenda a comparar XPath e seletores CSS ao carregar documentos HTML em Java com Aspose.HTML.
 ### [Gerar novos documentos HTML usando Aspose.HTML para Java](./generate-new-html-documents/)
 Aprenda como criar novos documentos HTML usando Aspose.HTML para Java com este guia passo a passo fácil. Comece a gerar conteúdo HTML dinâmico.
 ### [Manipular eventos de carregamento de documentos em Aspose.HTML para Java](./handle-document-load-events/)
 Aprenda a manipular eventos de carregamento de documentos no Aspose.HTML para Java com este guia passo a passo. Aprimore seus aplicativos da web.
 ### [Crie e gerencie documentos SVG em Aspose.HTML para Java](./create-manage-svg-documents/)
 Aprenda a criar e gerenciar documentos SVG usando Aspose.HTML para Java! Este guia abrangente cobre tudo, desde a criação básica até a manipulação avançada.
+### [Execute JavaScript em Java – Execute JS em HTML e Anexe Elementos](./execute-javascript-java-run-js-on-html-append-elements/)
+Aprenda a executar scripts JavaScript em documentos HTML usando Aspose.HTML para Java e adicionar novos elementos dinamicamente.
 ### [Criar sandbox para HTML em Java – Guia passo a passo](./create-sandbox-for-html-in-java-step-by-step-guide/)
 Aprenda a criar um sandbox para HTML em Java usando Aspose.HTML com este guia passo a passo.
+### [Criar elemento HTML com Java ExecutorService – Demonstração Thread‑Safe](./create-html-element-with-java-executorservice-thread-safe-de/)
+Aprenda a criar elementos HTML de forma segura usando ExecutorService em Java com este exemplo thread‑safe.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
