@@ -50,6 +50,9 @@ Ezzel az átfogó, lépésenkénti útmutatóval megtudhatja, hogyan hajthat vé
 Ebből a lépésről lépésre szóló útmutatóból megtudhatja, hogyan konvertálhat ZIP-fájlokat JPG-képekké az Aspose.HTML for Java használatával.
 ### [Konvertálja a ZIP-t PDF-be az Aspose.HTML for Java segítségével](./zip-to-pdf/)
 Könnyen konvertálhatja ZIP-fájljait PDF-be az Aspose.HTML for Java segítségével ezzel a lépésről lépésre szóló útmutatóval.
+### [API lekérése Java-ban – Teljes útmutató az Aspose HTML V8 motor használatával](./how-to-fetch-api-in-java-complete-guide-using-aspose-html-v8/)
+Fedezze fel, hogyan hívhat meg API-kat Java-ban az Aspose HTML V8 motor segítségével, lépésről lépésre útmutató.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

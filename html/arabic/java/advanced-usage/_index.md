@@ -136,6 +136,9 @@ weight: 20
 ### [كيفية تشغيل JavaScript في Java – دليل كامل](./how-to-run-javascript-in-java-complete-guide/)
 تعلم كيفية تشغيل كود JavaScript داخل تطبيقات Java باستخدام Aspose.HTML for Java.
 
+### [الحصول على عنوان HTML في Java – عرض الصفحة في بيئة Sandbox مع عرض الشاشة](./get-html-title-java-render-page-in-sandbox-with-screen-width/)
+تعلم كيفية استخراج عنوان صفحة HTML وعرضها في بيئة Sandbox مع ضبط عرض الشاشة باستخدام Aspose.HTML for Java.
+
 ---
 
 **آخر تحديث:** 2025-11-29  

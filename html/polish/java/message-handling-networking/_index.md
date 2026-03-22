@@ -18,7 +18,7 @@ url: /pl/java/message-handling-networking/
 Aspose.HTML for Java to potężny zestaw narzędzi do zarządzania dokumentami HTML i manipulowania nimi, ale wykracza poza samo zarządzanie plikami. Jedną z jego głównych zalet jest wydajne zarządzanie wiadomościami i możliwościami sieciowymi. W tym artykule przedstawiono podstawowe samouczki, które mogą pomóc Ci stać się biegłym w korzystaniu z tej biblioteki w Twoich projektach.
 
 ## Obsługa potoku poświadczeń w Aspose.HTML dla Java
- Bezpieczeństwo jest najważniejsze, zwłaszcza w przypadku danych wrażliwych.[Obsługa potoku poświadczeń w Aspose.HTML dla Java](./credentials-pipeline/) samouczek oferuje proste podejście do bezpiecznego zarządzania poświadczeniami. Wyobraź sobie, że traktujesz swoje poświadczenia jak tajny przepis: chciałbyś je chronić, zapewniając jednocześnie łatwy dostęp, gdy ich potrzebujesz. Ten przewodnik daje ci narzędzia, aby to zrobić, przeprowadzając cię przez najlepsze praktyki, aby chronić twoje dokumenty i dane przed nieautoryzowanym dostępem.
+ Bezpieczeństwo jest najważniejsze, szczególnie w przypadku danych wrażliwych.[Obsługa potoku poświadczeń w Aspose.HTML dla Java](./credentials-pipeline/) samouczek oferuje proste podejście do bezpiecznego zarządzania poświadczeniami. Wyobraź sobie, że traktujesz swoje poświadczenia jak tajny przepis: chciałbyś je chronić, zapewniając jednocześnie łatwy dostęp, gdy ich potrzebujesz. Ten przewodnik daje ci narzędzia, aby to zrobić, przeprowadzając cię przez najlepsze praktyki, aby chronić twoje dokumenty i dane przed nieautoryzowanym dostępem.
 
 ## Wdrażanie niestandardowych programów obsługi wiadomości
  Czy kiedykolwiek spotkałeś się z wyzwaniami, próbując poradzić sobie z określonymi typami wiadomości? Nie szukaj dalej niż[Implementacja niestandardowych obsługi wiadomości za pomocą Aspose.HTML dla Java](./custom-message-handler/) samouczek. Ten samouczek uczy, jak skutecznie usprawnić przetwarzanie dokumentów, podobnie jak w przypadku dostosowywania ulubionej pizzy — każdy ma swoje unikalne preferencje. Niestandardowe programy obsługi wiadomości umożliwiają przetwarzanie dzienników i formatowanie dokumentów w sposób odpowiadający konkretnym wymaganiom Twojej aplikacji. 
@@ -50,6 +50,9 @@ Naucz się wykonywać żądania sieciowe za pomocą Aspose.HTML dla Java dzięki
 Dowiedz się, jak konwertować pliki ZIP na obrazy JPG za pomocą Aspose.HTML dla Java, korzystając z tego przewodnika krok po kroku.
 ### [Konwertuj ZIP do PDF za pomocą Aspose.HTML dla Java](./zip-to-pdf/)
 Łatwo przekonwertuj pliki ZIP do PDF za pomocą Aspose.HTML dla Java, korzystając z tego przewodnika krok po kroku.
+### [Jak używać Fetch API w Javie – Kompletny przewodnik z silnikiem Aspose HTML V8](./how-to-fetch-api-in-java-complete-guide-using-aspose-html-v8/)
+Poznaj, jak wykonywać żądania HTTP w Javie przy pomocy Fetch API i silnika Aspose HTML V8, krok po kroku, aby efektywnie pobierać dane.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
