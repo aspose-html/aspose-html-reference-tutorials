@@ -32,6 +32,8 @@ Scopri come usare Aspose.HTML per Java per applicare tecniche CSS avanzate, tra 
 Scopri come modificare e inviare moduli HTML a livello di programmazione utilizzando Aspose.HTML per Java in questa guida completa passo dopo passo.
 ### [Selezionare elemento per classe in Java – Guida completa passo passo](./select-element-by-class-in-java-complete-how-to-guide/)
 Scopri come individuare e manipolare elementi HTML per classe usando Aspose.HTML per Java in questa guida dettagliata.
+### [Ottieni elemento per ID in Java – Guida completa per recuperare gli stili calcolati](./get-element-by-id-in-java-full-guide-to-retrieve-computed-st/)
+Scopri come individuare un elemento HTML per ID e ottenere i suoi stili calcolati usando Aspose.HTML per Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

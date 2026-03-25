@@ -37,7 +37,9 @@ Saját üzenetkezelő csővezetékek felépítése olyan érzés lehet, mint egy
 
 ## Üzenetkezelés és hálózatépítés az Aspose.HTML for Java oktatóanyagban
 ### [A hitelesítő adatok folyamatának kezelése az Aspose.HTML for Java-ban](./credentials-pipeline/)
-Ebből a lépésről lépésre szóló útmutatóból megtudhatja, hogyan kezelheti biztonságosan a hitelesítő adatokat az Aspose.HTML for Java használatával. Fedezze fel az alapvető tippeket és a bevált gyakorlatokat.
+Ebből a lépésről szóló útmutatóból megtudhatja, hogyan kezelheti biztonságosan a hitelesítő adatokat az Aspose.HTML for Java használatával. Fedezze fel az alapvető tippeket és a bevált gyakorlatokat.
+### [Hitelesítési fejléc beállítása Java-ban – Teljes útmutató HTML URL-ről történő betöltéséhez](./set-authorization-header-in-java-complete-guide-to-load-html/)
+Ismerje meg, hogyan állíthat be hitelesítési fejlécet Java-ban, hogy HTML-t töltsön be URL-ről az Aspose.HTML segítségével.
 ### [Egyéni üzenetkezelők megvalósítása az Aspose.HTML for Java segítségével](./custom-message-handler/)
 Fedezze fel, hogyan valósíthat meg egyéni üzenetkezelőket az Aspose.HTML for Java-ban a dokumentumfeldolgozás javítása és a naplók hatékony kezelése érdekében.
 ### [A hálózati időtúllépés kezelése az Aspose.HTML for Java fájlban](./network-timeout/)
@@ -50,6 +52,9 @@ Ezzel az átfogó, lépésenkénti útmutatóval megtudhatja, hogyan hajthat vé
 Ebből a lépésről lépésre szóló útmutatóból megtudhatja, hogyan konvertálhat ZIP-fájlokat JPG-képekké az Aspose.HTML for Java használatával.
 ### [Konvertálja a ZIP-t PDF-be az Aspose.HTML for Java segítségével](./zip-to-pdf/)
 Könnyen konvertálhatja ZIP-fájljait PDF-be az Aspose.HTML for Java segítségével ezzel a lépésről lépésre szóló útmutatóval.
+### [JSON lekérése JavaScriptből Java-ban az Aspose HTML segítségével – Teljes útmutató](./fetch-json-javascript-in-java-with-aspose-html-complete-guid/)
+Ismerje meg, hogyan lehet Java-ban JSON adatot lekérni JavaScriptből az Aspose HTML könyvtár használatával.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

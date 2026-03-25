@@ -116,6 +116,12 @@ Aspose.HTML for Java का उपयोग करके HTML को TIFF मे
 ### [HTML को WebP में बदलना](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
 Aspose.HTML for Java का उपयोग करके HTML को WebP इमेज में बदलने के चरण‑दर‑चरण निर्देश।
 
+### [Sandbox का उपयोग करके वेबपेज स्क्रीनशॉट कैसे कैप्चर करें](./how-to-use-sandbox-to-capture-webpage-screenshot/)
+Sandbox का उपयोग करके वेबपेज का स्क्रीनशॉट कैप्चर करने की चरण‑दर‑चरण प्रक्रिया।
+
+### [SVG को GIF में बदलना – Java के साथ पूर्ण चरण‑दर‑चरण गाइड](./create-gif-from-svg-with-java-full-step-by-step-guide/)
+Aspose.HTML for Java के साथ SVG को GIF में बदलने के लिए पूर्ण चरण‑दर‑चरण गाइड।
+
 ## अक्सर पूछे जाने वाले प्रश्न
 
 **प्रश्न: क्या मैं Java का उपयोग करके अतिरिक्त इमेज लाइब्रेरी के बिना HTML को PNG में बदल सकता हूँ?**  

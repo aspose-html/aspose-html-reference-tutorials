@@ -99,6 +99,9 @@ weight: 24
 เรียนรู้วิธีการแปลง HTML เป็น TIFF ได้อย่างง่ายดายโดยใช้ Aspose.HTML สำหรับ Java คู่มือทีละขั้นตอนเพื่อการจัดการเอกสารอย่างมีประสิทธิภาพ
 ### [แปลง HTML เป็น WebP – คู่มือ Java ฉบับสมบูรณ์ด้วย Aspose.HTML](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
 เรียนรู้วิธีการแปลง HTML เป็น WebP ใน Java ด้วย Aspose.HTML คู่มือทีละขั้นตอนสำหรับการแปลงที่มีประสิทธิภาพ
+### [วิธีใช้ Sandbox เพื่อจับภาพหน้าจอเว็บเพจ](./how-to-use-sandbox-to-capture-webpage-screenshot/)
+เรียนรู้วิธีใช้ Sandbox ของ Aspose.HTML เพื่อจับภาพหน้าจอของหน้าเว็บโดยอัตโนมัติ
+### [สร้าง GIF จาก SVG ด้วย Java – คู่มือเต็มขั้นตอน](./create-gif-from-svg-with-java-full-step-by-step-guide/)
 
 ## คำถามที่พบบ่อย
 

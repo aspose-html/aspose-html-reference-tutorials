@@ -50,6 +50,11 @@ Aspose.HTML for Java 是一款功能强大的工具包，用于管理和操作 H
 通过本分步指南了解如何使用 Aspose.HTML for Java 将 ZIP 文件转换为 JPG 图像。
 ### [使用 Aspose.HTML for Java 将 ZIP 转换为 PDF](./zip-to-pdf/)
 按照本分步指南，使用 Aspose.HTML for Java 轻松地将您的 ZIP 文件转换为 PDF。
+### [使用 Aspose HTML 在 Java 中获取 JSON（JavaScript）—完整指南](./fetch-json-javascript-in-java-with-aspose-html-complete-guid/)
+本完整指南展示如何在 Java 环境下使用 Aspose HTML 执行 JavaScript 来获取并处理 JSON 数据。
+### [在 Java 中设置授权标头 – 加载 URL HTML 的完整指南](./set-authorization-header-in-java-complete-guide-to-load-html/)
+本完整指南展示如何在 Java 中设置授权标头，以从 URL 加载 HTML 内容。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

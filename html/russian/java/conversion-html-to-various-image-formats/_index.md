@@ -106,6 +106,11 @@ weight: 24
 ### [Преобразование HTML в WebP – Полное руководство Java с Aspose.HTML](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
 Узнайте, как преобразовать HTML в WebP в Java с помощью Aspose.HTML. Полное пошаговое руководство.
 
+### [Создание GIF из SVG с Java – Полное пошаговое руководство](./create-gif-from-svg-with-java-full-step-by-step-guide/)
+Узнайте, как преобразовать SVG‑изображения в анимированные GIF с помощью Aspose.HTML for Java, следуя подробным шагам.
+
+### [Как использовать Sandbox для захвата скриншота веб-страницы](./how-to-use-sandbox-to-capture-webpage-screenshot/)
+
 ## Часто задаваемые вопросы
 
 **В: Можно ли конвертировать HTML в PNG с помощью Java без дополнительных библиотек для работы с изображениями?**  

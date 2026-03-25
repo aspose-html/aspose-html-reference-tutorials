@@ -88,8 +88,12 @@ Aprenda como converter HTML para PDF em Java usando Aspose.HTML. Crie PDFs de al
 Aprenda a converter HTML para PDF em Java, definindo tamanhos de página personalizados passo a passo.
 ### [Convertendo HTML para MHTML](./convert-html-to-mhtml/)
 Converta HTML para MHTML facilmente usando Aspose.HTML for Java. Siga nosso guia passo a passo para uma conversão eficiente de HTML‑para‑MHTML.
+### [Converter HTML para MHTML com Aspose.HTML – Guia Completo em Java](./convert-html-to-mhtml-with-aspose-html-complete-java-guide/)
+Aprenda passo a passo como converter HTML para MHTML usando Aspose.HTML em Java, com exemplos práticos e configurações avançadas.
 ### [Convertendo HTML para XPS](./convert-html-to-xps/)
 Aprenda como converter HTML para XPS usando Aspose.HTML for Java. Crie documentos multiplataforma com facilidade.
+### [Como usar Aspose para converter HTML em Markdown em Java](./how-to-use-aspose-to-convert-html-to-markdown-in-java/)
+Aprenda a converter HTML em Markdown usando Aspose.HTML for Java, com passo a passo e exemplos práticos.
 ### [Convertendo Markdown para HTML](./convert-markdown-to-html/)
 Converta Markdown para HTML em Java de forma fluida com Aspose.HTML for Java. Siga nosso guia passo a passo para simplificar suas necessidades de conversão de documentos.
 ### [Convertendo SVG para Imagem](./convert-svg-to-image/)
@@ -98,6 +102,8 @@ Aprenda como converter SVG para imagens em Java com Aspose.HTML. Guia abrangente
 Converta SVG para PDF em Java com Aspose.HTML. Uma solução fluida para conversão de documentos de alta qualidade.
 ### [Convertendo SVG para XPS](./convert-svg-to-xps/)
 Aprenda como converter SVG para XPS com Aspose.HTML for Java. Guia simples, passo a passo, para conversões sem complicações.
+### [Criar PDF a partir de HTML em Java – Guia Completo da Aspose](./create-pdf-from-html-in-java-complete-aspose-guide/)
+Aprenda passo a passo como gerar PDFs a partir de HTML em Java usando Aspose.HTML, com exemplos completos e melhores práticas.
 
 ## Perguntas Frequentes
 

@@ -50,6 +50,11 @@ url: /ar/java/message-handling-networking/
 تعرف على كيفية تحويل ملفات ZIP إلى صور JPG باستخدام Aspose.HTML لـ Java من خلال هذا الدليل خطوة بخطوة.
 ### [تحويل ZIP إلى PDF باستخدام Aspose.HTML لـ Java](./zip-to-pdf/)
 يمكنك بسهولة تحويل ملفات ZIP إلى PDF باستخدام Aspose.HTML لـ Java باستخدام هذا الدليل خطوة بخطوة.
+### [جلب JSON جافاسكريبت في Java باستخدام Aspose HTML – دليل شامل](./fetch-json-javascript-in-java-with-aspose-html-complete-guid/)
+تعلم كيفية جلب بيانات JSON باستخدام Java و Aspose.HTML عبر جافاسكريبت في دليل شامل.
+### [تعيين رأس الترخيص في Java – دليل شامل لتحميل HTML من URL](./set-authorization-header-in-java-complete-guide-to-load-html/)
+تعلم كيفية إعداد رأس Authorization في طلبات Java لتحميل صفحات HTML من عنوان URL بسهولة.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
