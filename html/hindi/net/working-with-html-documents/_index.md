@@ -38,6 +38,8 @@ HTML दस्तावेज़ वेब की रीढ़ हैं, और
 
 ### [C# में HTML को सहेजना – कस्टम रिसोर्स हैंडलर का उपयोग करके पूर्ण गाइड](./how-to-save-html-in-c-complete-guide-using-a-custom-resource/)
 ### [CSS और C# के साथ हेडिंग को बोल्ड कैसे बनाएं – पूर्ण चरण-दर-चरण गाइड](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
+### [C# में Aspose.HTML के साथ HTML दस्तावेज़ लोड करना – पूर्ण गाइड](./load-html-document-with-aspose-html-complete-c-guide/)
+### [C# में HTML को ज़िप करना – पूर्ण चरण‑दर‑चरण गाइड](./how-to-zip-html-in-c-complete-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
