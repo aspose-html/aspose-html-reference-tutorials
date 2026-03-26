@@ -30,6 +30,9 @@ Nejprve si promluvme o prvku HTML5 Canvas. Představte si to jako prázdné plá
 Vytvářejte a vykreslujte HTML5 Canvas pomocí Aspose.HTML pro Java. Naučte se krok za krokem kreslit, stylovat a exportovat do PDF pomocí této výkonné Java knihovny.
 ### [Zvládnutí HTML5 Canvas s Aspose.HTML pro Java](./html5-canvas/)
 Naučte se vytvářet a převádět HTML5 Canvas do PDF pomocí Aspose.HTML for Java. Tato příručka je ideální pro vývojáře, kteří chtějí vylepšit své webové projekty.
+### [Jak emulovat iPhone – Kompletní průvodce s Aspose.HTML](./how-to-emulate-iphone-complete-guide-with-aspose-html/)
+Naučte se, jak pomocí Aspose.HTML emulovat iPhone a testovat webové stránky v mobilním prostředí.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -100,6 +100,9 @@ Tìm hiểu cách chuyển đổi HTML sang XPS một cách dễ dàng bằng As
 ### [Chuyển đổi Markdown sang HTML](./convert-markdown-to-html/)
 Chuyển đổi Markdown sang HTML trong Java một cách liền mạch với Aspose.HTML for Java. Thực hiện theo hướng dẫn từng bước để tối ưu nhu cầu chuyển đổi tài liệu của bạn.
 
+### [Chuyển đổi HTML sang Markdown trong Java – Giữ nguyên định dạng gốc](./convert-html-to-markdown-in-java-preserve-original-formattin/)
+Chuyển đổi HTML sang Markdown trong Java, bảo toàn định dạng gốc và cấu trúc tài liệu một cách chính xác.
+
 ### [Chuyển đổi SVG sang Hình ảnh](./convert-svg-to-image/)
 Tìm hiểu cách chuyển đổi SVG sang hình ảnh trong Java với Aspose.HTML. Hướng dẫn toàn diện để có đầu ra chất lượng cao.
 
@@ -108,6 +111,11 @@ Chuyển đổi SVG sang PDF trong Java với Aspose.HTML. Giải pháp liền m
 
 ### [Chuyển đổi SVG sang XPS](./convert-svg-to-xps/)
 Tìm hiểu cách chuyển đổi SVG sang XPS với Aspose.HTML for Java. Hướng dẫn đơn giản, từng bước để chuyển đổi liền mạch.
+
+### [Tạo PDF Kích Thước Tùy Chỉnh – Chuyển đổi HTML sang PDF với Aspose](./create-pdf-custom-size-convert-html-to-pdf-with-aspose/)
+
+### [Tạo PDF từ HTML trong Java – Hướng dẫn chuyển đổi hàng loạt song song](./create-pdf-from-html-in-java-parallel-batch-conversion-guide/)
+Hướng dẫn cách chuyển đổi đồng thời nhiều tệp HTML thành PDF trong Java bằng Aspose.HTML, tối ưu hiệu suất.
 
 ## Câu hỏi thường gặp
 

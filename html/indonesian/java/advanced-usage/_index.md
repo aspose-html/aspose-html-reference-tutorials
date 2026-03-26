@@ -127,6 +127,9 @@ Pelajari cara menyesuaikan ukuran halaman XPS dengan Aspose.HTML untuk Java. Kon
 ### [Cara Menjalankan JavaScript di Java – Panduan Lengkap](./how-to-run-javascript-in-java-complete-guide/)
 Pelajari cara menjalankan kode JavaScript dalam aplikasi Java dengan Aspose.HTML untuk Java secara lengkap.
 
+### [Contoh top‑level await – Menggunakan delay await dalam JavaScript](./top-level-await-example-using-await-delay-in-javascript/)
+Pelajari contoh penggunaan top‑level await dengan fungsi delay await dalam JavaScript menggunakan Aspose.HTML.
+
 ---
 
 **Terakhir Diperbarui:** 2025-11-29  
