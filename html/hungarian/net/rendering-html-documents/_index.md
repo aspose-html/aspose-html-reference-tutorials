@@ -34,7 +34,7 @@ Az Aspose.HTML for .NET kiemelkedik a legjobb választás a HTML-megjelenítésh
 
 - Rendszeres frissítések: Az Aspose elkötelezett termékei fejlesztése mellett, így rendszeres frissítésekre és hibajavításokra számíthat.
 
-Tehát akár tapasztalt fejlesztő, akár csak most kezdi a HTML-megjelenítés felé vezető utat, az Aspose.HTML for .NET rendelkezik a sikerhez szükséges erőforrásokkal és eszközökkel.
+Tehát akár tapasztalt fejlesztő, akár csak most kezdi a HTML-megjelenítést felé vezető utat, az Aspose.HTML for .NET rendelkezik a sikerhez szükséges erőforrásokkal és eszközökkel.
 
 ## A HTML-dokumentumok renderelése oktatóanyagok listájának felfedezése
 
@@ -44,6 +44,8 @@ Most, hogy be van állítva az Aspose.HTML for .NET, itt az ideje, hogy felfedez
 Tanulja meg az Aspose.HTML for .NET használatát: Manipuláljon HTML-t, konvertáljon különféle formátumokba stb. Merüljön el ebben az átfogó oktatóanyagban!
 ### [HTML renderelése PNG-ként – Teljes C# útmutató](./how-to-render-html-as-png-complete-c-guide/)
 Ismerje meg, hogyan renderelhet HTML-t PNG formátumba C#-ban az Aspose.HTML segítségével, lépésről lépésre útmutató.
+### [HTML renderelése PNG-ként – Teljes lépésről‑lépésre útmutató](./how-to-render-html-to-png-complete-step-by-step-guide/)
+Ismerje meg, hogyan renderelhet HTML-t PNG formátumba lépésről‑lépésre az Aspose.HTML segítségével .NET környezetben.
 ### [Az EPUB megjelenítése XPS-ként .NET-ben az Aspose.HTML segítségével](./render-epub-as-xps/)
 Ebben az átfogó oktatóanyagban megtudhatja, hogyan hozhat létre és jeleníthet meg HTML-dokumentumokat az Aspose.HTML for .NET segítségével. Merüljön el a HTML-kezelés, a webkaparás és egyebek világában.
 ### [Renderelési időtúllépés .NET-ben az Aspose.HTML-lel](./rendering-timeout/)
