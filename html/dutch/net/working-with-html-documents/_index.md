@@ -38,8 +38,8 @@ Laten we nu uw vaardigheden naar een hoger niveau tillen. Het bewerken van HTML-
 
 ### [HTML opslaan in C# – Complete gids met een aangepaste resourcehandler](./how-to-save-html-in-c-complete-guide-using-a-custom-resource/)
 ### [Koptekst vet maken met CSS & C# – Complete stapsgewijze handleiding](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
-
-Leer hoe u met CSS en C# kopteksten vet maakt in een .NET‑applicatie, stap voor stap met voorbeeldcode.
+### [HTML opslaan met Aspose.Html – Complete C#‑gids](./how-to-save-html-with-aspose-html-complete-c-guide/)
+### [HTML zippen in C# – Complete stapsgewijze handleiding](./how-to-zip-html-in-c-complete-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
