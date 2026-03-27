@@ -39,6 +39,9 @@ Maintenant, passons à un niveau supérieur de compétences. L'édition de docum
 ### [Comment enregistrer du HTML en C# – Guide complet avec un gestionnaire de ressources personnalisé](./how-to-save-html-in-c-complete-guide-using-a-custom-resource/)
 
 Apprenez à enregistrer du HTML en C# en utilisant un gestionnaire de ressources personnalisé pour contrôler le flux de sortie et les ressources liées.
+### [Comment enregistrer du HTML en C# avec un gestionnaire de ressources personnalisé](./how-to-save-html-in-c-with-custom-resource-handler/)
+
+Apprenez à enregistrer du HTML en C# en utilisant un gestionnaire de ressources personnalisé pour contrôler le flux de sortie.
 ### [Comment mettre en gras un titre avec CSS & C# – Guide complet étape par étape](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
