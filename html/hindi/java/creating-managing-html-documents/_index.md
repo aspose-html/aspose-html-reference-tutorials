@@ -44,6 +44,8 @@ Aspose.HTML for Java उन डेवलपर्स के लिए एक श
 ## Aspose.HTML for Java ट्यूटोरियल में HTML दस्तावेज़ बनाना और प्रबंधित करना
 ### [Java के लिए Aspose.HTML में एसिंक्रोनस रूप से HTML दस्तावेज़ बनाएँ](./create-html-documents-async/)
 Aspose.HTML for Java के साथ एसिंक्रोनस रूप से HTML दस्तावेज़ निर्माण में महारत हासिल करें। त्वरित सीखने के लिए चरण-दर-चरण मार्गदर्शिका, युक्तियाँ और FAQ शामिल हैं।
+### [Java में असिंक्रोनस जावास्क्रिप्ट निष्पादित करें – पूर्ण चरण‑दर‑चरण गाइड](./execute-async-javascript-in-java-complete-step-by-step-guide/)
+Java में असिंक्रोनस जावास्क्रिप्ट चलाने के लिए चरण‑दर‑चरण मार्गदर्शिका, टिप्स और सर्वोत्तम प्रथाएँ।
 ### [Java के लिए Aspose.HTML में खाली HTML दस्तावेज़ बनाएँ](./create-empty-html-documents/)
 Aspose.HTML for Java का उपयोग करके जावा में खाली HTML दस्तावेज़ बनाना सीखें, सभी स्तरों के डेवलपर्स के लिए उपयुक्त।
 ### [Java के लिए Aspose.HTML में फ़ाइल से HTML दस्तावेज़ लोड करें](./load-html-documents-from-file/)
@@ -66,6 +68,8 @@ SVG दस्तावेज़ बनाना और प्रबंधित 
 Java में HTML सैंडबॉक्स बनाने की प्रक्रिया सीखें, सुरक्षित परीक्षण और विकास के लिए चरण‑दर‑चरण मार्गदर्शिका।
 ### [Java में HTML क्वेरी कैसे करें – पूर्ण ट्यूटोरियल](./how-to-query-html-in-java-complete-tutorial/)
 Java में Aspose.HTML का उपयोग करके HTML क्वेरी करने के चरण‑दर‑चरण मार्गदर्शिका, टिप्स और सर्वोत्तम प्रथाएँ।
+### [Java में HTML को पार्स करना – लोड, क्वेरी और तत्वों की गिनती](./how-to-parse-html-java-load-query-count-elements/)
+Aspose.HTML for Java का उपयोग करके HTML को लोड, क्वेरी और तत्वों की गिनती करने की चरण‑दर‑चरण मार्गदर्शिका।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

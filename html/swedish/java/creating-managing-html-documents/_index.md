@@ -58,12 +58,16 @@ Lär dig hur du skapar HTML-dokument från strängar i Aspose.HTML för Java med
 Upptäck hur du enkelt laddar HTML-dokument från en URL i Java med Aspose.HTML. Steg-för-steg handledning ingår.
 ### [Hur du frågar HTML i Java – Komplett handledning](./how-to-query-html-in-java-complete-tutorial/)
 Lär dig hur du söker och extraherar data från HTML-dokument i Java med en komplett steg-för-steg-guide.
+### [Hur man parsar HTML i Java – Ladda, fråga & räkna element](./how-to-parse-html-java-load-query-count-elements/)
+Lär dig hur du laddar, frågar och räknar HTML-element i Java med Aspose.HTML i denna steg-för-steg-guide.
 ### [Generera nya HTML-dokument med Aspose.HTML för Java](./generate-new-html-documents/)
 Lär dig hur du skapar nya HTML-dokument med Aspose.HTML för Java med denna enkla steg-för-steg-guide. Börja generera dynamiskt HTML-innehåll.
 ### [Hantera dokumentladdningshändelser i Aspose.HTML för Java](./handle-document-load-events/)
 Lär dig att hantera dokumentladdningshändelser i Aspose.HTML för Java med denna steg-för-steg-guide. Förbättra dina webbapplikationer.
 ### [Skapa och hantera SVG-dokument i Aspose.HTML för Java](./create-manage-svg-documents/)
 Lär dig att skapa och hantera SVG-dokument med Aspose.HTML för Java! Den här omfattande guiden täcker allt från grundläggande skapande till avancerad manipulation.
+### [Kör asynkron JavaScript i Java – Komplett steg‑för‑steg‑guide](./execute-async-javascript-in-java-complete-step-by-step-guide/)
+Lär dig hur du kör asynkron JavaScript i Java med Aspose.HTML, komplett steg‑för‑steg‑guide för smidig integration.
 ### [Skapa sandlåda för HTML i Java – Steg‑för‑steg‑guide](./create-sandbox-for-html-in-java-step-by-step-guide/)
 Lär dig hur du skapar en säker sandlåda för HTML i Java med vår detaljerade steg-för-steg‑guide.
 

@@ -136,6 +136,9 @@ weight: 20
 ### [كيفية تشغيل JavaScript في Java – دليل كامل](./how-to-run-javascript-in-java-complete-guide/)
 تعلم كيفية تشغيل كود JavaScript داخل تطبيقات Java باستخدام Aspose.HTML for Java.
 
+### [ضبط نسبة بكسل الجهاز في Java – دليل صندوق الرمل للهواتف المحمولة](./set-device-pixel-ratio-in-java-mobile-sandbox-tutorial/)
+تعلم كيفية ضبط نسبة بكسل الجهاز في بيئة Java باستخدام صندوق الرمل للهواتف المحمولة للحصول على رسومات دقيقة.
+
 ---
 
 **آخر تحديث:** 2025-11-29  
