@@ -54,6 +54,8 @@ Java için Aspose.HTML kullanarak harici CSS'yi HTML belgelerine nasıl uygulaya
 Java için Aspose.HTML ile harici CSS düzenleme sanatında ustalaşın. Bu ayrıntılı, adım adım kılavuz, dinamik, biçimlendirilmiş HTML belgeleri oluşturmanızda size yol gösterir.
 ### [Java için Aspose.HTML'de HTML Belgelerine Satır İçi CSS Ekleme](./add-inline-css-html-documents/)
 Java için Aspose.HTML kullanarak HTML belgelerine satır içi CSS eklemeyi öğrenin. Bu adım adım kılavuz, HTML'yi biçimlendirmenize ve onu kolaylıkla PDF'ye dönüştürmenize yardımcı olur.
+### [Java için Aspose.HTML'de yeni HTML öğesi oluşturma – Tam Aspose.HTML Kılavuzu](./create-new-html-element-with-java-full-aspose-html-guide/)
+Java için Aspose.HTML kullanarak yeni bir HTML öğesi eklemeyi ve yapılandırmayı adım adım öğrenin.
 ### [Java için Aspose.HTML'de İç ve Dış HTML Özelliklerini Yönetin](./manage-inner-outer-html-properties/)
 Web geliştiricileri ve içerik oluşturucuları için mükemmel olan bu adım adım kılavuzla Aspose.HTML for Java'da iç ve dış HTML özelliklerinin nasıl yönetileceğini öğrenin.
 ### [Java için Aspose.HTML ile HTML Belgelerinde Dahili CSS'yi Uygulayın](./implement-internal-css-html-documents/)

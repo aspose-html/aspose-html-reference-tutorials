@@ -60,6 +60,8 @@ Scopri come gestire le proprietà HTML interne ed esterne in Aspose.HTML per Jav
 Impara a implementare CSS interni nei documenti HTML utilizzando Aspose.HTML per Java con il nostro semplice tutorial passo dopo passo.
 ### [Pool di thread fisso Java – Pulizia HTML parallela con ExecutorService](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 Scopri come utilizzare un pool di thread fisso per pulire documenti HTML in parallelo con ExecutorService in Aspose.HTML per Java.
+### [Creare un nuovo elemento HTML con Java – Guida completa Aspose.HTML](./create-new-html-element-with-java-full-aspose-html-guide/)
+Scopri come creare un nuovo elemento HTML usando Aspose.HTML per Java con questa guida completa passo passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

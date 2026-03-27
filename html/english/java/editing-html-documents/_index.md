@@ -60,6 +60,8 @@ Learn how to manage inner and outer HTML properties in Aspose.HTML for Java with
 Learn to implement internal CSS in HTML documents using Aspose.HTML for Java with our easy step-by-step tutorial.
 ### [Fixed thread pool java – Parallel HTML Cleaning with ExecutorService](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 Learn how to use a fixed thread pool and ExecutorService in Java to clean HTML content in parallel efficiently.
+### [Create new html element with Java – Full Aspose.HTML Guide](./create-new-html-element-with-java-full-aspose-html-guide/)
+Learn how to create new HTML elements using Aspose.HTML for Java in this comprehensive step-by-step guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
