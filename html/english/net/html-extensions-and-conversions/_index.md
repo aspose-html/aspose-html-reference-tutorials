@@ -79,6 +79,10 @@ Learn how to convert EPUB to PDF using Aspose.HTML for .NET. This step-by-step g
 Learn how to convert EPUB to XPS in .NET using Aspose.HTML for .NET. Follow our step-by-step guide for effortless conversions.
 ### [Save HTML to ZIP in C# – Complete In‑Memory Example](./save-html-to-zip-in-c-complete-in-memory-example/)
 Learn how to save HTML content into a ZIP archive in memory using C# and Aspose.HTML for .NET in this step-by-step tutorial.
+### [Custom Resource Handler in C# – Convert HTML to ZIP Archive from Memory](./custom-resource-handler-in-c-convert-html-to-zip-archive-fro/)
+Learn how to implement a custom resource handler in C# to convert HTML to a ZIP archive directly from memory using Aspose.HTML.
+### [How to Zip HTML in C# – Load HTML & Use Custom Handler](./how-to-zip-html-in-c-load-html-use-custom-handler/)
+Learn how to load HTML content and apply a custom resource handler to zip it using Aspose.HTML in C#.
 
 ## Conclusion
 
