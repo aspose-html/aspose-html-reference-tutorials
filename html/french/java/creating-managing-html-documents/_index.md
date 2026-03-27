@@ -66,6 +66,8 @@ Apprenez à créer et à gérer des documents SVG à l'aide d'Aspose.HTML pour J
 Apprenez à créer un environnement sécurisé pour manipuler du HTML en Java avec Aspose.HTML, guide complet pas à pas.
 ### [Comment interroger le HTML en Java – Tutoriel complet](./how-to-query-html-in-java-complete-tutorial/)
 Apprenez à interroger et extraire des données HTML en Java avec Aspose.HTML grâce à ce guide complet étape par étape.
+### [Comment utiliser XPath en Java – Lire le HTML et extraire le texte](./how-to-use-xpath-in-java-read-html-and-extract-text/)
+Apprenez à utiliser XPath en Java pour lire le HTML et extraire du texte avec Aspose.HTML, guide étape par étape.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -58,6 +58,8 @@ Aspose.HTML for Java를 사용하여 스트림에서 HTML 문서를 로드하는
 Aspose.HTML을 사용하여 Java에서 URL에서 HTML 문서를 쉽게 로드하는 방법을 알아보세요. 단계별 튜토리얼이 포함되어 있습니다.
 ### [Java에서 HTML을 쿼리하는 방법 – 완전 튜토리얼](./how-to-query-html-in-java-complete-tutorial/)
 Java용 Aspose.HTML을 사용하여 HTML을 효율적으로 쿼리하는 방법을 단계별로 안내합니다.
+### [Java에서 XPath 사용 방법 – HTML 읽고 텍스트 추출하기](./how-to-use-xpath-in-java-read-html-and-extract-text/)
+Java용 Aspose.HTML을 활용해 XPath로 HTML을 읽고 원하는 텍스트를 추출하는 방법을 단계별로 안내합니다.
 ### [Java용 Aspose.HTML을 사용하여 새 HTML 문서 생성](./generate-new-html-documents/)
 이 간단한 단계별 가이드를 통해 Aspose.HTML for Java를 사용하여 새 HTML 문서를 만드는 방법을 알아보세요. 동적 HTML 콘텐츠 생성을 시작하세요.
 ### [Java용 Aspose.HTML에서 문서 로드 이벤트 처리](./handle-document-load-events/)

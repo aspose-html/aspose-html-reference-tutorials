@@ -58,6 +58,10 @@ Aspose.HTML for Java を使用して HTML ドキュメントにインライン C
 このステップバイステップ ガイドでは、Web 開発者やコンテンツ作成者に最適な、Aspose.HTML for Java で内部および外部の HTML プロパティを管理する方法を学習します。
 ### [Aspose.HTML for Java を使用して HTML ドキュメントに内部 CSS を実装する](./implement-internal-css-html-documents/)
 簡単なステップバイステップのチュートリアルで、Aspose.HTML for Java を使用して HTML ドキュメントに内部 CSS を実装する方法を学びます。
+### [HTML をハイライトする方法 – テキスト検索と <mark> で置換](./how-to-highlight-html-search-text-replace-with-mark/)
+Aspose.HTML for Java を使用して、テキストを検索し <mark> タグでハイライトする手順を解説します。
+### [Java で HTML からスクリプトを削除する方法 – 完全ガイド](./how-to-remove-scripts-from-html-in-java-complete-guide/)
+Aspose.HTML for Java を使用して HTML ドキュメントから不要なスクリプトを安全に除去する手順を解説します。
 ### [Fixed Thread Pool Java – ExecutorService を使用した並列 HTML クリーンアップ](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
