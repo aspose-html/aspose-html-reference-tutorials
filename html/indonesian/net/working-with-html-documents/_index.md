@@ -38,6 +38,7 @@ Sekarang, mari tingkatkan keterampilan Anda ke tingkat berikutnya. Mengedit doku
 
 ### [Cara Menyimpan HTML di C# – Panduan Lengkap Menggunakan Penangan Sumber Daya Kustom](./how-to-save-html-in-c-complete-guide-using-a-custom-resource/)
 ### [Cara Membuat Heading Tebal dengan CSS & C# – Panduan Lengkap Langkah demi Langkah](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
+### [Membuat HTML dari string di C# – Panduan Lengkap dengan Memory Stream](./create-html-from-string-in-c-full-guide-with-memory-stream/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

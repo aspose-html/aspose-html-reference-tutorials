@@ -38,6 +38,7 @@ HTML दस्तावेज़ वेब की रीढ़ हैं, और
 
 ### [C# में HTML को सहेजना – कस्टम रिसोर्स हैंडलर का उपयोग करके पूर्ण गाइड](./how-to-save-html-in-c-complete-guide-using-a-custom-resource/)
 ### [CSS और C# के साथ हेडिंग को बोल्ड कैसे बनाएं – पूर्ण चरण-दर-चरण गाइड](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
+### [C# में स्ट्रिंग से HTML बनाना – मेमोरी स्ट्रीम के साथ पूर्ण गाइड](./create-html-from-string-in-c-full-guide-with-memory-stream/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
