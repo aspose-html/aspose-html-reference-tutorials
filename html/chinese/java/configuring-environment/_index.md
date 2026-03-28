@@ -117,6 +117,9 @@ A: 沙箱会限制某些 API（例如 `window.open`），但普通的 DOM 操作
 ### [在 Aspose.HTML for Java 中设置用户样式表](./set-user-style-sheet/)
 了解如何在 Aspose.HTML for Java 中设置自定义用户样式表，提升文档样式并轻松将 HTML 转换为 PDF。
 
+### [在 Java 中从 HTML 提取标题 – 完整沙箱指南](./extract-title-from-html-in-java-complete-sandbox-guide/)
+了解如何在 Aspose.HTML for Java 的沙箱环境中安全提取 HTML 标题，避免脚本风险并确保正确解析。
+
 ---
 
 **最后更新：** 2025-12-03  
