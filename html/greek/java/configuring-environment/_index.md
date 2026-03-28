@@ -119,6 +119,9 @@ weight: 29
 ### [Ορισμός Προσαρμοσμένου User Style Sheet στο Aspose.HTML για Java](./set-user-style-sheet/)
 Μάθετε πώς να ορίσετε ένα προσαρμοσμένο φύλλο στυλ χρήστη στο Aspose.HTML για Java, βελτιώνοντας το στυλ του εγγράφου σας και μετατρέποντας HTML σε PDF με ευκολία.
 
+### [Εξαγωγή τίτλου από HTML σε Java – Πλήρης Οδηγός Sandbox](./extract-title-from-html-in-java-complete-sandbox-guide/)
+Μάθετε πώς να εξάγετε τον τίτλο από HTML σε Java, χρησιμοποιώντας sandbox για ασφαλή επεξεργασία.
+
 ---
 
 **Τελευταία Ενημέρωση:** 2025-12-03  
