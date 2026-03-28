@@ -46,6 +46,8 @@ Découvrez comment convertir du HTML en PDF, XPS et images avec Aspose.HTML pour
 Découvrez comment utiliser Aspose.HTML pour .NET pour générer dynamiquement des documents HTML à partir de données JSON. Exploitez la puissance de la manipulation HTML dans vos applications .NET.
 ### [Comment combiner des polices programmatiquement en C# – Guide étape par étape](./how-to-combine-fonts-programmatically-in-c-step-by-step-guid/)
 Apprenez à combiner plusieurs polices en C# avec Aspose.HTML, étape par étape, incluant des exemples de code et des FAQ.
+### [Gestionnaire de ressources personnalisé dans Aspose HTML – Guide d’enregistrement dans un flux](./custom-resource-handler-in-aspose-html-save-to-stream-guide/)
+Apprenez à implémenter un gestionnaire de ressources personnalisé avec Aspose HTML pour enregistrer le contenu directement dans un flux.
 
 ## Conclusion
 
