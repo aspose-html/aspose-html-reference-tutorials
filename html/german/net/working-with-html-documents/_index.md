@@ -41,6 +41,10 @@ Lassen Sie uns nun Ihre Fähigkeiten auf die nächste Ebene bringen. Das Bearbei
 Erfahren Sie, wie Sie HTML in C# mit einem benutzerdefinierten Ressourcen-Handler speichern können.
 ### [Überschrift mit CSS & C# fett formatieren – Komplett‑Schritt‑für‑Schritt‑Anleitung](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
 
+### [HTML aus Zeichenkette in C# erstellen – Vollständige Anleitung mit Memory Stream](./create-html-from-string-in-c-full-guide-with-memory-stream/)
+
+Erfahren Sie, wie Sie HTML aus einer Zeichenkette in C# generieren und mit einem Memory Stream verarbeiten.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

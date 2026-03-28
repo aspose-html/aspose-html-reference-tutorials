@@ -60,6 +60,10 @@ Leer hoe u met Aspose.HTML HTML naar PNG kunt renderen met een duidelijke stap�
 Leer stap voor stap hoe u HTML naar PNG converteert met Aspose.HTML in deze volledige gids.
 ### [PNG maken vanuit HTML – Volledige C# Renderinggids](./create-png-from-html-full-c-rendering-guide/)
 Leer hoe u met Aspose.HTML voor .NET HTML naar PNG converteert met een volledige C#-renderinggids.
+### [PDF-document maken in C# – HTML renderen naar PDF met Aspose](./create-pdf-document-c-render-html-to-pdf-with-aspose/)
+Leer hoe u met Aspose.HTML voor .NET HTML naar PDF converteert en een PDF-document genereert met C#.
+### [HTML renderen naar PDF en zippen – Complete C#-gids](./render-html-to-pdf-and-zip-it-complete-c-guide/)
+Leer stap voor stap hoe u HTML naar PDF rendert en vervolgens zipt met C# en Aspose.HTML in deze volledige gids.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -71,6 +71,8 @@ Learn to create dynamic and web content using Aspose.HTML for .NET. Empower your
 Learn to use Aspose.HTML for .NET. Import namespace, merge HTML with XML, and enhance your web development skills with this comprehensive guide.
 ### [Generate XPS Documents by XpsDevice in .NET with Aspose.HTML](./generate-xps-documents-by-xpsdevice/)
 Unlock the potential of web development with Aspose.HTML for .NET. Create, convert, and manipulate HTML documents easily.
+### [How to Create HTML – Append Elements and Style Text](./how-to-create-html-append-elements-and-style-text/)
+Learn how to append elements and style text in HTML using Aspose.HTML for .NET. Step-by-step guide with examples and FAQs.
 
 ## Conclusion
 
