@@ -1,10 +1,10 @@
 ---
-date: 2026-01-09
+date: 2026-03-29
 description: Leer hoe u Aspose.HTML voor Java kunt gebruiken om XPS-opslagopties op
-  te geven en EPUB efficiënt naar XPS te converteren.
+  te geven, EPUB naar XPS te converteren en licenties te beheren.
 linktitle: Specifying XPS Save Options for EPUB to XPS
 second_title: Java HTML Processing with Aspose.HTML
-title: Specificeren van Aspose HTML-opslagopties voor EPUB-naar-XPS-conversie
+title: Hoe Aspose HTML Save Options te gebruiken voor EPUB naar XPS
 url: /nl/java/converting-epub-to-xps/convert-epub-to-xps-specify-xps-save-options/
 weight: 12
 ---
@@ -13,39 +13,39 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Specificeren van Aspose HTML Save Options voor EPUB naar XPS
+# Hoe Aspose HTML Save Options te gebruiken voor EPUB naar XPS
 
-Het converteren van een EPUB‑document naar XPS kan een handig onderdeel zijn van een publicatieworkflow, en **Aspose HTML Save Options** geven u fijnmazige controle over de output. In deze tutorial lopen we de exacte stappen door die nodig zijn om die save‑options te configureren met Aspose.HTML voor Java en een hoogwaardige XPS‑bestand te produceren.
+In deze gids laten we **hoe je Aspose** HTML Save Options gebruiken om een EPUB-document naar XPS te converteren met volledige controle over paginagrootte, achtergrondkleur en licentieoverwegingen. Of je nu een batch‑verwerkingspipeline bouwt of een eenmalige conversietool, deze stappen helpen je snel betrouwbare resultaten te krijgen.
 
-## Snelle antwoorden
-- **Wat doet Aspose HTML Save Options?** Het laat u paginagrootte, achtergrondkleur en andere renderinstellingen aanpassen bij het opslaan naar formaten zoals XPS.  
+## Snelle Antwoorden
+- **Wat doet Aspose HTML Save Options?** Het stelt je in staat om paginagrootte, achtergrondkleur en andere renderinstellingen aan te passen bij het opslaan naar formaten zoals XPS.  
 - **Welke bibliotheek is vereist?** Aspose.HTML for Java (nieuwste versie).  
 - **Heb ik een licentie nodig?** Een gratis proefversie werkt voor evaluatie; een commerciële licentie is vereist voor productie.  
-- **Kan ik de paginadimensies wijzigen?** Ja – u kunt elke breedte en hoogte instellen via `PageSetup`.  
-- **Is de conversie snel?** Voor typische EPUB‑bestanden voltooit de conversie zich in seconden op een moderne JVM.
+- **Kan ik paginagrootte wijzigen?** Ja – je kunt elke breedte en hoogte instellen via `PageSetup`.  
+- **Is de conversie snel?** Voor typische EPUB‑bestanden voltooit de conversie in seconden op een moderne JVM.
 
-## Wat zijn Aspose HTML Save Options?
-Aspose HTML Save Options zijn een reeks eigenschappen die bepalen hoe HTML, EPUB of andere web‑gebaseerde documenten worden gerenderd en opgeslagen naar een doelformaat zoals XPS, PDF of afbeeldingsbestanden. Ze laten u paginalay-out, achtergrondkleuren, marges en meer definiëren, zodat het resulterende bestand aan uw ontwerpvereisten voldoet.
+## Wat betekent “how to use aspose” in deze context?
+De uitdrukking **hoe je Aspose gebruikt** verwijst naar de praktische stappen om de Aspose.HTML‑bibliotheek te benutten voor het manipuleren en converteren van web‑gebaseerde documenten. In deze tutorial richten we ons op de **aspose html save options** die je in staat stellen de output fijn af te stemmen wanneer je **EPUB naar XPS converteert**.
 
 ## Waarom Aspose.HTML voor Java gebruiken om EPUB naar XPS te converteren?
-- **High fidelity** – behoudt complexe lay-outs, lettertypen en vectorafbeeldingen.  
-- **Programmatic control** – automatiseer batch‑conversies binnen Java‑applicaties.  
-- **No external dependencies** – pure Java‑bibliotheek, geen native componenten.  
-- **Customizable output** – dankzij save‑options kunt u de XPS precies afstemmen op uw behoeften.
+- **Hoge getrouwheid** – behoudt complexe lay-outs, lettertypen en vectorafbeeldingen.  
+- **Programmatic control** – automatiseer batchconversies binnen Java‑applicaties.  
+- **Geen externe afhankelijkheden** – pure Java‑bibliotheek, geen native componenten.  
+- **Aanpasbare output** – dankzij save options kun je de XPS afstemmen op je exacte behoeften, zoals **paginagrootte opgeven** of een aangepaste achtergrond instellen.  
 
 ## Voorvereisten
 
-Voordat we in de code duiken, zorg ervoor dat u het volgende heeft:
+Voordat we in de code duiken, zorg ervoor dat je het volgende hebt:
 
 1. **Java Development Environment** – JDK 8 of hoger geïnstalleerd.  
 2. **Aspose.HTML for Java Library** – download het van de [download link](https://releases.aspose.com/html/java/).  
-3. **EPUB File** – het bron‑EPUB dat u wilt converteren.  
+3. **EPUB File** – de bron‑EPUB die je wilt **converteren naar XPS**.  
 
-Het hebben van deze zaken klaar zal u in staat stellen de stappen zonder onderbrekingen te volgen.
+Als je deze klaar hebt, kun je de stappen volgen zonder onderbrekingen.
 
 ## Pakketten importeren
 
-Eerst importeer je de benodigde klassen. Plaats de imports bovenaan uw Java‑bronbestand:
+First, import the required classes. Place the imports at the top of your Java source file:
 
 ```java
 import java.io.FileInputStream;
@@ -59,11 +59,11 @@ import com.aspose.html.converters.Converter;
 import com.aspose.html.system.io.resources.Resources;
 ```
 
-Deze imports geven u toegang tot de conversie‑engine en de **Aspose HTML Save Options** die nodig zijn voor fijn afstellen.
+Deze imports geven je toegang tot de conversie‑engine en de **Aspose HTML Save Options** die nodig zijn voor fijn afstellen.
 
 ## Open het EPUB‑bestand
 
-Vervolgens opent u het EPUB dat u wilt converteren. De `Resources.input`‑helper laadt een bestand uit de demo‑resources‑map:
+Next, open the EPUB you want to convert. The `Resources.input` helper loads a file from the demo resources folder:
 
 ```java
 try (FileInputStream fileInputStream = new FileInputStream(Resources.input("input.epub"))) {
@@ -73,9 +73,9 @@ try (FileInputStream fileInputStream = new FileInputStream(Resources.input("inpu
 
 Het gebruik van een try‑with‑resources‑blok zorgt ervoor dat de stream automatisch wordt gesloten.
 
-## XPS Save Options maken (paginasize & achtergrond configureren)
+## XPS Save Options maken (paginagrootte & achtergrond configureren)
 
-Nu maken we een `XpsSaveOptions`‑instance en passen deze aan. Hier komen de **save options** echt tot hun recht:
+Now we create an `XpsSaveOptions` instance and customize it. This is where the **save options** really shine:
 
 ```java
 XpsSaveOptions options = new XpsSaveOptions();
@@ -87,12 +87,14 @@ options.setPageSetup(pageSetup);
 options.setBackgroundColor(Color.getAliceBlue());
 ```
 
-- **Page size** – ingesteld op 3000 × 1000 pixels in dit voorbeeld; pas aan om overeen te komen met uw doel‑papierformaat.  
-- **Background color** – `AliceBlue` laat zien hoe u de canvas‑achtergrond kunt wijzigen; u kunt elke `Color` kiezen.  
+- **Paginagrootte** – ingesteld op 3000 × 1000 pixels in dit voorbeeld; pas aan om overeen te komen met je doelpapierformaat of gebruik `Length.fromInches` om **paginagrootte op te geven** in inches.  
+- **Achtergrondkleur** – `AliceBlue` toont hoe je de canvas‑achtergrond kunt wijzigen; je kunt elke `Color` kiezen.  
+
+Deze instellingen maken deel uit van de **aspose html save options** die van invloed zijn op het uiteindelijke XPS‑document.
 
 ## Converteer EPUB naar XPS
 
-Tot slot roept u de converter aan met de stream, de geconfigureerde opties en een uitvoerpad:
+Finally, invoke the converter with the stream, the configured options, and an output path:
 
 ```java
 Converter.convertEPUB(
@@ -102,39 +104,40 @@ Converter.convertEPUB(
 );
 ```
 
-Wanneer deze regel wordt uitgevoerd, leest Aspose.HTML het EPUB, past de paginainstelling en achtergrondkleur toe die u hebt gedefinieerd, en schrijft een volledig conforme XPS‑bestand.
+Wanneer deze regel wordt uitgevoerd, leest Aspose.HTML de EPUB, past de paginainstelling en achtergrondkleur die je hebt gedefinieerd toe, en schrijft een volledig conform XPS‑bestand.
 
 ## Veelvoorkomende problemen & tips
 
-- **Incorrect page dimensions** – zorg ervoor dat de afmetingen in pixels worden opgegeven (of gebruik `Length.fromInches`).  
-- **Missing fonts** – embed vereiste lettertypen in het EPUB of installeer ze op de JVM‑host om fallback te voorkomen.  
-- **Large files** – bij zeer grote EPUB‑bestanden, vergroot de JVM‑heap (`-Xmx`) om `OutOfMemoryError` te voorkomen.  
+- **Onjuiste paginagrootte** – zorg ervoor dat de afmetingen in pixels worden opgegeven (of gebruik `Length.fromInches`).  
+- **Ontbrekende lettertypen** – embed vereiste lettertypen in de EPUB of installeer ze op de JVM‑host om fallback te voorkomen.  
+- **Grote bestanden** – voor zeer grote EPUB‑bestanden, vergroot de JVM‑heap (`-Xmx`) om `OutOfMemoryError` te voorkomen.  
+- **Aspose HTML licentiëring** – zorg ervoor dat je een geldige licentie hebt geladen vóór de conversie; anders verschijnt het proef‑watermerk.
 
 ## Conclusie
 
-Door gebruik te maken van **Aspose HTML Save Options** krijgt u precieze controle over hoe een EPUB wordt gerenderd naar XPS. De bovenstaande stappen laten zien hoe u paginagrootte, achtergrondkleur instelt en de conversie uitvoert met slechts een paar regels Java‑code. Integreer dit patroon in uw batch‑verwerkingspijplijnen om publicatietaken efficiënt te automatiseren.
+Door gebruik te maken van **Aspose HTML Save Options**, krijg je precieze controle over hoe een EPUB wordt gerenderd naar XPS. De bovenstaande stappen laten zien hoe je **EPUB kunt converteren**, **paginagrootte** instelt, de achtergrond wijzigt, en de conversie uitvoert met slechts een paar regels Java‑code. Integreer dit patroon in je batch‑verwerkingspipelines om publicatietaken efficiënt te automatiseren.
 
 ## Veelgestelde vragen
 
-**V: Wat is Aspose.HTML voor Java?**
-A: Het is een Java-bibliotheek die ontwikkelaars in staat stelt HTML, EPUB en andere web-gebaseerde documenten te maken, bewerken, renderen en converteren zonder een browser nodig te hebben.
+**Q: Wat is Aspose.HTML voor Java?**  
+A: Het is een Java‑bibliotheek die ontwikkelaars in staat stelt HTML, EPUB en andere web‑gebaseerde documenten te maken, bewerken, renderen en converteren zonder een browser nodig te hebben.
 
-**V: Kan ik dit gebruiken in een commercieel project?**
-EEN:Ja. Voor productiegebruik heeft u een geldige licentie nodig. U kunt er een kopen op de [aankooppagina](https://purchase.aspose.com/buy).
+**Q: Kan ik dit gebruiken in een commercieel project?**  
+A: Ja. Voor productiegebruik heb je een geldige licentie nodig. Je kunt er een kopen op de [purchase page](https://purchase.aspose.com/buy).
 
-**V: Is er een gratis proefperiode beschikbaar?**
-A: Absoluut. Download [hier](https://releases.aspose.com/) een proefversie van.
+**Q: Is er een gratis proefversie beschikbaar?**  
+A: Absoluut. Download een proefversie van [hier](https://releases.aspose.com/).
 
-**V: Waar kan ik ondersteuning krijgen?**
+**Q: Waar kan ik ondersteuning krijgen?**  
 A: Community‑ondersteuning en officiële assistentie zijn beschikbaar via de Aspose‑forums op [https://forum.aspose.com/](https://forum.aspose.com/).
 
-**V: Wat zijn de systeemvereisten?**
-A: Een Java Development Kit (JDK) 8+ en een besturingssysteem dat wordt ondersteund door de Aspose‑runtime. Zorg ervoor dat uw omgeving voldoet aan de eerder genoemde vereisten.
+**Q: Wat zijn de systeemvereisten?**  
+A: Een Java Development Kit (JDK) 8+ en een besturingssysteem dat door de Aspose‑runtime wordt ondersteund. Zorg ervoor dat je omgeving voldoet aan de eerder genoemde voorvereisten.
 
 ---
 
-**Laatst bijgewerkt:** 09-01-2026
-**Getest voldaan:** Aspose.HTML voor Java 24.12
+**Laatst bijgewerkt:** 2026-03-29  
+**Getest met:** Aspose.HTML for Java 24.12  
 **Auteur:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
