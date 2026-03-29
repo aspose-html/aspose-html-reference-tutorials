@@ -1,7 +1,7 @@
 ---
-date: 2026-01-07
-description: Aspose.HTML for Java kullanarak EPUB'u XPS'ye zahmetsizce dönüştürün.
-  Sorunsuz bir dönüşüm süreci için bu adım adım kılavuzu izleyin.
+date: 2026-03-29
+description: Aspose.HTML for Java kullanarak EPUB'u XPS'ye zahmetsizce nasıl dönüştüreceğinizi
+  öğrenin. Sorunsuz bir dönüşüm süreci için bu adım adım kılavuzu izleyin.
 linktitle: How to Convert EPUB to XPS with a Custom Stream Provider
 second_title: Java HTML Processing with Aspose.HTML
 title: Özel Bir Akış Sağlayıcı ile EPUB'u XPS'e Nasıl Dönüştürülür
@@ -15,41 +15,44 @@ weight: 11
 
 # Özel Bir Akış Sağlayıcı ile EPUB'u XPS'ye Dönüştürme
 
-Günümüz dijital yayıncılık dünyasında **convert EPUB to XPS** yaygın bir gereksinimdir—ister baskı, arşivleme ya da Windows cihazları arasında paylaşım için sabit‑düzen bir temsil ihtiyacınız olsun. Aspose.HTML for Java bu dönüşümü sorunsuz bir şekilde gerçekleştirir ve özel bir bellek akışı sağlayıcı kullanarak tüm süreci bellekte tutabilirsiniz; bu, bulut‑tabanlı veya yüksek‑performanslı senaryolar için mükemmeldir. Aşağıda, ön koşullardan tam çalışan bir örneğe kadar ihtiyacınız olan her şeyi bulacaksınız.
+Günümüz dijital yayıncılık dünyasında, **EPUB'u XPS'ye nasıl dönüştürülür** sorusu sıkça karşımıza çıkar—baskı, arşivleme veya Windows cihazları arasında paylaşım için sabit‑düzen bir temsil gerekebilir. Aspose.HTML for Java bu dönüşümü basitleştirir ve özel bir bellek akışı sağlayıcı kullanarak tüm süreci bellekte tutabilirsiniz; bu, bulut‑tabanlı veya yüksek‑performanslı senaryolar için mükemmeldir. Aşağıda, önkoşullardan tam çalışan bir örneğe kadar ihtiyacınız olan her şeyi bulacaksınız.
 
 ## Hızlı Yanıtlar
-- **Dönüşüm ne üretir?** Düzeni ve yazı tiplerini koruyan bir XPS belgesi.  
-- **Lisans gerekli mi?** Test için ücretsiz deneme yeterlidir; üretim için ticari lisans gerekir.  
-- **Bunu bir konteyner içinde çalıştırabilir miyim?** Evet—her şeyi bellekte tutarsanız dosya sistemi yazımı gerekmez.  
+- **Dönüşüm ne üretiyor?** Düzeni ve yazı tiplerini koruyan bir XPS belgesi.  
+- **Lisans gerekli mi?** Ücretsiz deneme sürümü test için çalışır; üretim için ticari lisans gereklidir.  
+- **Bunu bir konteyner içinde çalıştırabilir miyim?** Evet—her şey bellekte tutulursa dosya sistemi yazımı gerekmez.  
 - **Hangi Java sürümü destekleniyor?** Java 8 ve üzeri.  
-- **Özel bir akış sağlayıcı zorunlu mu?** Hayır, ancak bellek kullanımı ve çıktı yönetimi üzerinde tam kontrol sağlar.
+- **Özel bir akış sağlayıcı zorunlu mu?** Hayır, ancak bellek kullanımı ve çıktı işleme üzerinde tam kontrol sağlar.
 
-## “convert EPUB to XPS” nedir?
-Bir EPUB dosyasını XPS'ye dönüştürmek, yeniden akışlanabilir e‑kitap formatını sabit‑düzen, cihaz‑bağımsız bir belgeye çevirir. XPS (XML Paper Specification), Microsoft'un PDF'e karşılığıdır ve platformlar arasında değişmeyen görsel bir temsil gerektiğinde idealdir.
+## EPUB'u XPS'ye Nasıl Dönüştürülür
+Kodun içine dalmadan önce, dönüşümün gerçekte ne yaptığını ve neden her şeyi bellekte tutmak isteyebileceğinizi açıklayalım.
 
-## Neden özel bir akış sağlayıcı kullanmalı?
+### “EPUB'u XPS'ye dönüştürmek” nedir?
+Bir EPUB dosyasını XPS'ye dönüştürmek, yeniden akışlanabilir bir e‑kitap formatını sabit‑düzen, cihaz‑bağımsız bir belgeye çevirir. XPS (XML Paper Specification), Microsoft'un PDF'e karşılık gelen formatıdır; platformlar arasında değişmeyen görsel bir temsil gerektiğinde idealdir.
+
+### Neden özel bir akış sağlayıcı kullanmalı?
 Özel bir `MemoryStreamProvider`, dönüşüm sonucunu geçici bir dosyaya yazmak yerine RAM'de tutmanıza olanak tanır. Bu yaklaşım:
-- G/Ç yükünü azaltır.
-- Sunucusuz veya mikro‑servis mimarilerinde performansı artırır.
+- I/O yükünü azaltır.  
+- Sunucusuz veya mikro hizmet mimarilerinde performansı artırır.  
 - Sonucu doğrudan bir istemciye, bulut depolamaya veya başka bir API'ye akıtma esnekliği sağlar.
 
-## Ön Koşullar
+## Önkoşullar
 
-**convert EPUB to XPS** işlemini sorunsuz bir şekilde gerçekleştirmek için aşağıdaki ön koşulları sağlayın:
+EPUB'u XPS'ye **başarıyla dönüştürmek** için aşağıdaki önkoşulları yerine getirdiğinizden emin olun:
 
 ### 1. Aspose.HTML for Java Kütüphanesi  
 
-Aspose.HTML for Java kütüphanesinin Java ortamınıza kurulu ve yapılandırılmış olması gerekir. Henüz indirmediyseniz, kütüphaneyi [download link](https://releases.aspose.com/html/java/) adresinden edinebilirsiniz.
+Java ortamınıza Aspose.HTML for Java kütüphanesini kurmuş ve yapılandırmış olmalısınız. Henüz yapmadıysanız, kütüphaneyi [indirme bağlantısı](https://releases.aspose.com/html/java/) üzerinden indirebilirsiniz.
 
 ### 2. Giriş EPUB Dosyası  
 
-Dönüştürmek istediğiniz mevcut bir EPUB dosyasına ihtiyacınız var. Dönüşüm sürecine başlamadan bu dosyanın hazır olduğundan emin olun.
+Dönüştürmek istediğiniz mevcut bir EPUB dosyanız olmalı. Bu dosyayı dönüşüm sürecine hazır bulundurun.
 
-Tüm ön koşulları tamamladığınıza göre, dönüşüm adımlarını adım adım inceleyelim.
+Şimdi tüm önkoşullara sahip olduğunuza göre, dönüşüm adımlarını adım adım inceleyelim.
 
-## Paketleri İçe Aktarma
+## Paketleri İçe Aktar
 
-Başlamadan önce, Aspose.HTML for Java işlevlerini kullanabilmek için gerekli paketleri içe aktarın.
+Başlamadan önce, Aspose.HTML for Java'nın işlevlerini kullanabilmek için gerekli paketleri içe aktardığınızdan emin olun.
 
 ```java
 import com.aspose.html.converters.Converter;
@@ -60,9 +63,9 @@ import java.io.FileOutputStream;
 import java.io.InputStream;
 ```
 
-## EPUB Dosyasını Açma
+## EPUB Dosyasını Aç
 
-Mevcut EPUB dosyasını okuma amaçlı açmanız gerekir. Bu adımda `FileInputStream` kullanarak EPUB dosyasına erişiyoruz.
+Mevcut EPUB dosyasını okumak için önce açmanız gerekir. Bu adımda, EPUB dosyasına erişmek için bir `FileInputStream` kullanıyoruz.
 
 ```java
 try (FileInputStream fileInputStream = new FileInputStream("path/to/your/input.epub")) {
@@ -70,9 +73,9 @@ try (FileInputStream fileInputStream = new FileInputStream("path/to/your/input.e
 }
 ```
 
-## MemoryStreamProvider Oluşturma
+## MemoryStreamProvider Oluştur
 
-Sonra bir `MemoryStreamProvider` örneği oluşturun. Bu nesne dönüşüm çıktısını bellek içinde tutacaktır.
+Sonra, `MemoryStreamProvider` örneğini oluşturun. Bu nesne, dönüşüm çıktısını bellek içinde tutacaktır.
 
 ```java
 try (MemoryStreamProvider streamProvider = new MemoryStreamProvider()) {
@@ -80,9 +83,9 @@ try (MemoryStreamProvider streamProvider = new MemoryStreamProvider()) {
 }
 ```
 
-## EPUB'u XPS'ye Dönüştürme
+## EPUB'u XPS'ye Dönüştür
 
-Şimdi `Converter.convertEPUB` metodunu kullanarak EPUB dosyasını XPS'ye dönüştürün. `MemoryStreamProvider` hedef akışı sağlar.
+Şimdi, `Converter.convertEPUB` metodunu kullanarak EPUB dosyasını XPS'ye dönüştürün. `MemoryStreamProvider` hedef akışı sağlar.
 
 ```java
 Converter.convertEPUB(
@@ -92,17 +95,17 @@ Converter.convertEPUB(
 );
 ```
 
-## Sonuç Verisini Alma
+## Elde Edilen Veriyi Al
 
-Dönüşüm tamamlandıktan sonra XPS verisini içeren bellek akışını alın.
+Dönüşüm tamamlandıktan sonra, XPS verisini içeren bellek akışını alın.
 
 ```java
 InputStream inputStream = streamProvider.getStream().findFirst().get();
 ```
 
-## Çıktıyı Kaydetme (İsteğe Bağlı)
+## Çıktıyı Kaydet (İsteğe Bağlı)
 
-Fiziksel bir dosyaya ihtiyaç duyarsanız—örneğin hata ayıklama veya çevrimdışı inceleme için—bellek akışını diske yazabilirsiniz. Çoğu üretim senaryosunda bu adımı atlayıp veriyi doğrudan istemciye akıtabilirsiniz.
+Fiziksel bir dosyaya ihtiyacınız varsa—belki hata ayıklama veya çevrimdışı inceleme için—bellek akışını diske yazın. Çoğu üretim senaryosunda bu adımı atlayıp veriyi doğrudan istemciye akıtabilirsiniz.
 
 ```java
 try (FileOutputStream fileOutputStream = new FileOutputStream("path/to/your/output.xps")) {
@@ -114,7 +117,7 @@ try (FileOutputStream fileOutputStream = new FileOutputStream("path/to/your/outp
 
 ## Tam Kaynak Kodu
 
-Aşağıda tüm parçaları bir araya getiren, çalıştırılabilir tam örnek yer almaktadır. Kopyalayıp projenize uyarlamaktan çekinmeyin.
+Aşağıda, tüm parçaları bir araya getiren tam, çalıştırılabilir örnek bulunmaktadır. Projenize kopyalayıp yapıştırabilir ve ihtiyacınıza göre uyarlayabilirsiniz.
 
 ```java
         // Open an existing EPUB file for reading.
@@ -142,37 +145,32 @@ Aşağıda tüm parçaları bir araya getiren, çalıştırılabilir tam örnek 
 ## Yaygın Sorunlar ve Çözümler
 
 | Sorun | Neden Oluşur | Çözüm |
-|-------|--------------|------|
+|-------|----------------|-----|
 | **`java.lang.OutOfMemoryError`** | Büyük EPUB dosyaları, tamamen bellek içinde tutulduğunda varsayılan yığın boyutunu aşabilir. | JVM yığın boyutunu (`-Xmx`) artırın veya mümkünse EPUB'u parçalara bölerek işleyin. |
-| **XPS'te eksik yazı tipleri** | EPUB içinde gömülü olmayan yazı tipleri dönüşüm makinesinde mevcut değildir. | Gerekli yazı tiplerinin sunucuda kurulu olduğundan emin olun veya EPUB'a gömün. |
-| **`MemoryStreamProvider`'dan `UnsupportedOperationException`** | Eski bir Aspose.HTML sürümü kullanılıyor. | Aspose.HTML for Java'nın en son sürümüne güncelleyin. |
+| **Missing fonts in XPS** | EPUB içinde gömülü olmayan yazı tipleri, dönüşüm makinesinde mevcut değildir. | Gerekli yazı tiplerinin sunucuya yüklendiğinden emin olun veya EPUB içinde gömülü olduğundan emin olun. |
+| **`UnsupportedOperationException` from `MemoryStreamProvider`** | Eski bir Aspose.HTML sürümü kullanılıyor. | En son Aspose.HTML for Java sürümüne güncelleyin. |
 
-## Sık Sorulan Sorular
+## Sıkça Sorulan Sorular
 
-### 1. EPUB nedir?
+### 1. EPUB Nedir?
+EPUB, Electronic Publication (Elektronik Yayın) kısaltmasıdır ve e‑kitaplar için yaygın kullanılan bir dosya formatıdır. e‑okuyucular, tabletler ve akıllı telefonlar gibi çeşitli cihazlarda kolayca okunabilir şekilde tasarlanmıştır.
 
-EPUB, Electronic Publication (Elektronik Yayın) kısaltmasıdır ve e‑kitaplar için yaygın olarak kullanılan bir dosya formatıdır. Çeşitli cihazlarda—e‑okuyucular, tabletler, akıllı telefonlar—kolayca okunacak şekilde tasarlanmıştır.
+### 2. XPS Nedir?
+XPS, XML Paper Specification (XML Kağıt Spesifikasyonu) anlamına gelir ve Microsoft tarafından oluşturulan bir belge formatıdır. Tutarlı görünüm ve düzenle belgeleri paylaşmak ve arşivlemek için kullanılır.
 
-### 2. XPS nedir?
+### 3. Neden Aspose.HTML for Java Kullanmalı?
+Aspose.HTML for Java, belge manipülasyonu, dönüşüm ve render işlemlerini basitleştiren güçlü bir kütüphanedir. Çeşitli belge formatları için kapsamlı özellikler ve destek sunar, bu da geliştiriciler için değerli bir araçtır.
 
-XPS, XML Paper Specification (XML Kağıt Spesifikasyonu) anlamına gelir ve Microsoft tarafından oluşturulmuş bir belge formatıdır. Tutarlı görünüm ve düzenle belge paylaşımı ve arşivleme için kullanılır.
+### 4. Aspose.HTML for Java ile diğer belge formatlarını dönüştürebilir miyim?
+Evet, Aspose.HTML for Java HTML, EPUB, XPS ve daha fazlası dahil olmak üzere çeşitli belge formatlarının dönüşümünü destekler. Belge yönetimi için çok yönlü bir araçtır.
 
-### 3. Neden Aspose.HTML for Java kullanılmalı?
-
-Aspose.HTML for Java, belge manipülasyonu, dönüşüm ve render işlemlerini basitleştiren güçlü bir kütüphanedir. Çok çeşitli belge formatları için kapsamlı özellikler ve destek sunar; bu da geliştiriciler için değerli bir araçtır.
-
-### 4. Aspose.HTML for Java ile başka belge formatları da dönüştürülebilir mi?
-
-Evet, Aspose.HTML for Java HTML, EPUB, XPS ve daha fazlası dahil olmak üzere çeşitli belge formatlarının dönüşümünü destekler. Belgelerin yönetimi için çok yönlü bir araçtır.
-
-### 5. Ek kaynaklar ve destek nereden bulunabilir?
-
-Dokümantasyon ve destek için [Aspose.HTML for Java documentation](https://reference.aspose.com/html/java/) ve [support forum](https://forum.aspose.com/) adreslerini ziyaret edin.
+### 5. Ek kaynakları ve desteği nereden bulabilirim?
+Dokümantasyon ve destek için [Aspose.HTML for Java dokümantasyonu](https://reference.aspose.com/html/java/) ve [destek forumu](https://forum.aspose.com/) adreslerini ziyaret edin.
 
 ---
 
-**Son Güncelleme:** 2026-01-07  
-**Test Edilen Sürüm:** Aspose.HTML for Java 24.12 (yazım anındaki en yeni sürüm)  
+**Son Güncelleme:** 2026-03-29  
+**Test Edilen:** Aspose.HTML for Java 24.12 (yazım anındaki en yeni sürüm)  
 **Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
