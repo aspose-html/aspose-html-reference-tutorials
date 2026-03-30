@@ -71,6 +71,7 @@ Aspose.HTML for .NET kullanarak HTML'den PDF'ye nasıl dönüştüreceğinizi ad
 Aspose.HTML for .NET kullanarak HTML dosyalarını ZIP arşivine kaydetmeyi adım adım öğrenin.
 ### [C# ile HTML'yi ZIP'e Kaydet – Tam Bellek İçi Örnek](./save-html-to-zip-in-c-complete-in-memory-example/)
 Aspose.HTML for .NET kullanarak HTML dosyasını bellek içinde ZIP arşivine dönüştürmeyi adım adım öğrenin.
+### [ZipArchive Nasıl Kullanılır – HTML ve Kaynakları ZIP Dosyasına Kaydetme](./how-to-use-ziparchive-save-html-and-resources-to-a-zip-file/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
