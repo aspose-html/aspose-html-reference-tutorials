@@ -89,16 +89,27 @@ Het gebruik van Aspose.HTML for Java vereenvoudigt de conversie van HTML‑docum
 ## Conversie - HTML naar verschillende afbeeldingsformaten Tutorials
 ### [HTML naar BMP converteren](./convert-html-to-bmp/)
 Converteer HTML naar BMP met Aspose.HTML for Java. Een uitgebreide tutorial om HTML‑documenten moeiteloos om te zetten naar BMP‑afbeeldingen met Aspose.HTML for Java.
+
 ### [HTML naar GIF converteren](./convert-html-to-gif/)
 Leer hoe je HTML naar GIF kunt converteren in Java met Aspose.HTML. Een uitgebreide stap‑voor‑stap gids voor efficiënte HTML‑naar‑GIF conversie.
+
 ### [HTML naar JPEG converteren](./convert-html-to-jpeg/)
 Leer HTML naar JPEG te converteren met Aspose.HTML for Java. Stap‑voor‑stap gids voor naadloze documentverwerking.
+
 ### [HTML naar PNG converteren](./convert-html-to-png/)
 Leer hoe je HTML naar PNG‑afbeeldingen kunt converteren in Java met Aspose.HTML. Een uitgebreide gids met stap‑voor‑stap instructies.
+
+### [Hoe HTML naar PNG renderen – Complete Java-gids](./how-to-render-html-to-png-complete-java-guide/)
+Leer hoe je HTML naar PNG rendert met Aspose.HTML for Java. Een volledige stap‑voor‑stap gids voor Java‑ontwikkelaars.
+
 ### [HTML naar TIFF converteren](./convert-html-to-tiff/)
 Leer hoe je HTML eenvoudig naar TIFF kunt converteren met Aspose.HTML for Java. Stap‑voor‑stap gids voor efficiënte documentafhandeling.
+
 ### [HTML naar WebP – Complete Java-gids met Aspose.HTML](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
 Leer hoe je HTML naar WebP kunt converteren met Aspose.HTML for Java. Een stapsgewijze gids voor efficiënte WebP‑rendering.
+
+### [HTML renderen met Java: Lange pagina naar PNG converteren](./render-html-java-convert-long-page-to-png/)
+Leer hoe je met Aspose.HTML for Java een lange HTML-pagina in één PNG-afbeelding rendert, inclusief paginering en schaalopties.
 
 ## Veelgestelde vragen
 

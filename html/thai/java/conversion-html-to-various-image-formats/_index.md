@@ -99,6 +99,10 @@ weight: 24
 เรียนรู้วิธีการแปลง HTML เป็น TIFF ได้อย่างง่ายดายโดยใช้ Aspose.HTML สำหรับ Java คู่มือทีละขั้นตอนเพื่อการจัดการเอกสารอย่างมีประสิทธิภาพ
 ### [แปลง HTML เป็น WebP – คู่มือ Java ฉบับสมบูรณ์ด้วย Aspose.HTML](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
 เรียนรู้วิธีการแปลง HTML เป็น WebP ใน Java ด้วย Aspose.HTML คู่มือทีละขั้นตอนสำหรับการแปลงที่มีประสิทธิภาพ
+### [วิธีเรนเดอร์ HTML เป็น PNG – คู่มือ Java ฉบับสมบูรณ์](./how-to-render-html-to-png-complete-java-guide/)
+เรียนรู้วิธีการเรนเดอร์ HTML เป็น PNG ใน Java ด้วย Aspose.HTML คู่มือขั้นตอนเต็มที่ช่วยให้คุณสร้างภาพ PNG คุณภาพสูงได้ง่าย
+### [เรนเดอร์ HTML ด้วย Java: แปลงหน้ายาวเป็น PNG](./render-html-java-convert-long-page-to-png/)
+เรียนรู้วิธีแปลงหน้า HTML ยาวเป็นไฟล์ PNG ด้วย Aspose.HTML for Java อย่างมีประสิทธิภาพและง่ายดาย
 
 ## คำถามที่พบบ่อย
 
