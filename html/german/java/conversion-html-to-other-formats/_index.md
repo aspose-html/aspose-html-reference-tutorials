@@ -92,6 +92,9 @@ Erfahren Sie, wie Sie HTML in Java zu PDF konvertieren und dabei die Seitengrö�
 ### [Konvertierung von HTML zu MHTML](./convert-html-to-mhtml/)
 Konvertieren Sie HTML mühelos zu MHTML mit Aspose.HTML für Java. Folgen Sie unserer Schritt‑für‑Schritt‑Anleitung für eine effiziente HTML‑zu‑MHTML‑Konvertierung.
 
+### [Wie man Bilder beim Konvertieren von MHTML zu PDF einbettet – Aspose‑Leitfaden](./how-to-embed-images-when-converting-mhtml-to-pdf-aspose-guid/)
+Erfahren Sie, wie Sie Bilder beim MHTML‑zu‑PDF‑Konvertierungsprozess korrekt einbetten, um vollständige PDFs zu erhalten.
+
 ### [Konvertierung von HTML zu XPS](./convert-html-to-xps/)
 Erfahren Sie, wie Sie HTML mühelos zu XPS mit Aspose.HTML für Java konvertieren. Erstellen Sie plattformübergreifende Dokumente mit Leichtigkeit.
 
@@ -106,6 +109,15 @@ Konvertieren Sie SVG in Java mit Aspose.HTML zu PDF. Eine nahtlose Lösung für 
 
 ### [Konvertierung von SVG zu XPS](./convert-svg-to-xps/)
 Erfahren Sie, wie Sie SVG mit Aspose.HTML für Java zu XPS konvertieren. Einfache, Schritt‑für‑Schritt‑Anleitung für reibungslose Konvertierungen.
+
+### [HTML zu PDF mit Java konvertieren – Vollständiger Leitfaden zu PDF, PNG, DOCX & Markdown](./convert-html-to-pdf-with-java-full-guide-to-pdf-png-docx-mar/)
+Erfahren Sie, wie Sie HTML in Java in PDF, PNG, DOCX und Markdown konvertieren – umfassende Schritt‑für‑Schritt‑Anleitung.
+
+### [Wie man die Sandbox für die HTML‑zu‑PDF‑Konvertierung in Java verwendet](./how-to-use-sandbox-for-html-to-pdf-conversion-in-java/)
+Erfahren Sie, wie Sie die Sandbox von Aspose.HTML für die HTML‑zu‑PDF‑Konvertierung in Java nutzen.
+
+### [Java-Thread-Pool-Tutorial – Mehrere HTML-Dateien zu PDF konvertieren](./java-thread-pool-tutorial-convert-multiple-html-files-to-pdf/)
+Erfahren Sie, wie Sie mit einem Thread‑Pool mehrere HTML‑Dateien parallel in PDF umwandeln und die Leistung Ihrer Java‑Anwendung steigern.
 
 ## Häufig gestellte Fragen
 

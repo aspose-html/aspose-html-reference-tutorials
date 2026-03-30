@@ -126,6 +126,8 @@ Learn how to adjust PDF page size with Aspose.HTML for Java. Create high-quality
 Learn how to adjust XPS page size with Aspose.HTML for Java. Control the output dimensions of your XPS documents easily.
 ### [How to Run JavaScript in Java – Complete Guide](./how-to-run-javascript-in-java-complete-guide/)
 Learn how to execute JavaScript code within Java applications using Aspose.HTML, covering setup, examples, and best practices.
+### [Execute JavaScript in Java – Run JS from HTML](./execute-javascript-in-java-run-js-from-html/)
+Learn how to execute JavaScript embedded in HTML from Java using Aspose.HTML, covering setup, code examples, and best practices.
 
 ---
 
