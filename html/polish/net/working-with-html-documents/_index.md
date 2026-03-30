@@ -39,6 +39,11 @@ Teraz przenieśmy Twoje umiejętności na wyższy poziom. Edycja dokumentów HTM
 ### [Jak zapisać HTML w C# – Kompletny przewodnik z użyciem własnego obsługiwacza zasobów](./how-to-save-html-in-c-complete-guide-using-a-custom-resource/)
 
 Poznaj metodę zapisu HTML w C# z własnym obsługiwaczem zasobów, umożliwiającą pełną kontrolę nad zapisem i dostępem do zasobów.
+
+### [Jak zapisać HTML w C# – Kompletny przewodnik krok po kroku](./how-to-save-html-in-c-complete-step-by-step-guide/)
+
+Dowiedz się, jak zapisać plik HTML w C# krok po kroku, korzystając z podstawowych metod bez dodatkowych rozszerzeń.
+
 ### [Jak pogrubić nagłówek za pomocą CSS i C# – Kompletny przewodnik krok po kroku](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
 
 Dowiedz się, jak użyć CSS i C# do pogrubienia nagłówka w HTML, krok po kroku, z praktycznymi przykładami.
