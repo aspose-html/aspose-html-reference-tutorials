@@ -68,6 +68,12 @@ Pelajari cara menggunakan Aspose untuk mengonversi HTML menjadi PNG dengan pandu
 ### [Cara Merender HTML ke PNG dengan Aspose – Panduan Lengkap](./how-to-render-html-to-png-with-aspose-complete-guide/)
 Pelajari cara merender HTML menjadi PNG menggunakan Aspose dengan panduan lengkap langkah demi langkah.
 
+### [Render HTML sebagai Gambar – Panduan Lengkap Mengonversi HTML ke JPEG](./render-html-as-image-complete-guide-to-convert-html-to-jpeg/)
+Pelajari cara merender HTML menjadi gambar JPEG dengan Aspose.HTML untuk .NET melalui panduan langkah demi langkah lengkap.
+
+### [Buat Memory Stream di C# – Panduan Lengkap dengan Rendering HTML & Ekspor ZIP](./create-memory-stream-in-c-full-guide-with-html-rendering-zip/)
+Pelajari cara membuat Memory Stream di C#, merender HTML, dan mengekspor hasilnya ke file ZIP menggunakan Aspose.HTML.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
