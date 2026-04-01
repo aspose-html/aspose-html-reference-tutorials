@@ -66,6 +66,10 @@ Leer SVG-documenten maken en beheren met Aspose.HTML voor Java! Deze uitgebreide
 Leer hoe u een veilige sandboxomgeving voor HTML in Java opzet met een stapsgewijze handleiding.
 ### [HTML opvragen in Java – Complete tutorial](./how-to-query-html-in-java-complete-tutorial/)
 Leer hoe u HTML kunt query'en in Java met deze volledige stap‑voor‑stap handleiding.
+### [HTML-document laden in Java – Complete gids met XPath & CSS](./load-html-document-java-complete-guide-with-xpath-css/)
+Leer stap‑voor‑stap hoe u HTML‑documenten laadt in Java met XPath‑ en CSS‑selectoren.
+### [HTML-tekens tellen in Java – Volledige gids met Aspose HTML](./count-html-characters-in-java-full-guide-with-aspose-html/)
+Leer hoe u het aantal HTML‑tekens in een document kunt tellen met Aspose.HTML voor Java in deze stapsgewijze volledige gids.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

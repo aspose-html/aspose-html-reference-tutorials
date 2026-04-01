@@ -99,6 +99,8 @@ weight: 24
 ### [Μετατροπή HTML σε TIFF](./convert-html-to-tiff/)
 Μάθετε πώς να μετατρέπετε εύκολα HTML σε TIFF χρησιμοποιώντας το Aspose.HTML για Java. Οδηγός βήμα‑βήμα για αποτελεσματική διαχείριση εγγράφων.
 ### [Μετατροπή HTML σε WebP – Πλήρης Οδηγός Java με Aspose.HTML](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
+### [Πώς να ορίσετε DPI κατά τη μετατροπή SVG σε PNG με Java](./how-to-set-dpi-when-converting-svg-to-png-with-java/)
+Μάθετε πώς να ρυθμίσετε την ανάλυση DPI κατά τη μετατροπή αρχείων SVG σε PNG χρησιμοποιώντας το Aspose.HTML for Java.
 
 ## Συχνές Ερωτήσεις
 

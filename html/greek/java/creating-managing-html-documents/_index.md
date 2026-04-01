@@ -44,28 +44,45 @@ url: /el/java/creating-managing-html-documents/
 ## Δημιουργία και διαχείριση εγγράφων HTML στο Aspose.HTML for Java Tutorials
 ### [Δημιουργία εγγράφων HTML ασύγχρονα στο Aspose.HTML για Java](./create-html-documents-async/)
 Κύρια δημιουργία εγγράφων HTML ασύγχρονα με το Aspose.HTML για Java. Οδηγός βήμα προς βήμα, συμβουλές και συχνές ερωτήσεις περιλαμβάνονται για γρήγορη εκμάθηση.
+
 ### [Δημιουργήστε κενά έγγραφα HTML στο Aspose.HTML για Java](./create-empty-html-documents/)
 Μάθετε πώς να δημιουργείτε κενά έγγραφα HTML σε Java χρησιμοποιώντας το Aspose.HTML με τον αναλυτικό μας οδηγό βήμα προς βήμα, ιδανικό για προγραμματιστές όλων των επιπέδων.
+
 ### [Φόρτωση εγγράφων HTML από το αρχείο στο Aspose.HTML για Java](./load-html-documents-from-file/)
 Ξεκλειδώστε τη δύναμη του χειρισμού HTML με το Aspose.HTML για Java. Μάθετε να φορτώνετε έγγραφα HTML από αρχεία με οδηγίες βήμα προς βήμα.
+
 ### [Σύνθετη φόρτωση αρχείων για έγγραφα HTML στο Aspose.HTML για Java](./advanced-file-loading-html-documents/)
 Μάθετε πώς να φορτώνετε, να χειρίζεστε και να αποθηκεύετε έγγραφα HTML χρησιμοποιώντας το Aspose.HTML για Java σε αυτόν τον οδηγό βήμα προς βήμα. Ξεκλειδώστε την προηγμένη επεξεργασία HTML στα έργα σας Java.
+
 ### [Φόρτωση εγγράφων HTML από τη ροή με το Aspose.HTML για Java](./load-html-documents-from-stream/)
 Μάθετε πώς να φορτώνετε έγγραφα HTML από ροές χρησιμοποιώντας το Aspose.HTML για Java. Αυτός ο οδηγός παρέχει έναν οδηγό βήμα προς βήμα για απρόσκοπτη επεξεργασία HTML.
+
 ### [Δημιουργήστε έγγραφα HTML από το String στο Aspose.HTML για Java](./create-html-documents-from-string/)
 Μάθετε πώς να δημιουργείτε έγγραφα HTML από συμβολοσειρές στο Aspose.HTML για Java με αυτόν τον οδηγό βήμα προς βήμα.
+
 ### [Φόρτωση εγγράφων HTML από τη διεύθυνση URL στο Aspose.HTML για Java](./load-html-documents-from-url/)
 Ανακαλύψτε πώς να φορτώνετε εύκολα έγγραφα HTML από μια διεύθυνση URL σε Java με το Aspose.HTML. Περιλαμβάνεται σεμινάριο βήμα προς βήμα.
+
+### [Φόρτωση εγγράφου HTML σε Java – Πλήρης οδηγός με XPath & CSS](./load-html-document-java-complete-guide-with-xpath-css/)
+Μάθετε πώς να φορτώνετε έγγραφα HTML σε Java χρησιμοποιώντας Aspose.HTML, με πλήρη κάλυψη XPath και CSS για ακριβή ερωτήματα.
+
 ### [Δημιουργήστε νέα έγγραφα HTML χρησιμοποιώντας το Aspose.HTML για Java](./generate-new-html-documents/)
 Μάθετε πώς να δημιουργείτε νέα έγγραφα HTML χρησιμοποιώντας το Aspose.HTML για Java με αυτόν τον εύκολο, βήμα προς βήμα οδηγό. Ξεκινήστε τη δημιουργία δυναμικού περιεχομένου HTML.
+
 ### [Δημιουργία sandbox για HTML σε Java – Οδηγός βήμα‑βήμα](./create-sandbox-for-html-in-java-step-by-step-guide/)
 Μάθετε πώς να δημιουργήσετε ένα sandbox HTML σε Java με οδηγίες βήμα‑βήμα, για ασφαλή και απομονωμένη επεξεργασία HTML.
+
 ### [Χειριστείτε συμβάντα φόρτωσης εγγράφου στο Aspose.HTML για Java](./handle-document-load-events/)
 Μάθετε να χειρίζεστε συμβάντα φόρτωσης εγγράφων στο Aspose.HTML για Java με αυτόν τον οδηγό βήμα προς βήμα. Βελτιώστε τις διαδικτυακές εφαρμογές σας.
+
 ### [Δημιουργία και διαχείριση εγγράφων SVG στο Aspose.HTML για Java](./create-manage-svg-documents/)
 Μάθετε να δημιουργείτε και να διαχειρίζεστε έγγραφα SVG χρησιμοποιώντας το Aspose.HTML για Java! Αυτός ο περιεκτικός οδηγός καλύπτει τα πάντα, από τη βασική δημιουργία έως την προηγμένη χειραγώγηση.
+
 ### [Πώς να ερωτήσετε HTML σε Java – Πλήρης οδηγός](./how-to-query-html-in-java-complete-tutorial/)
 Μάθετε πώς να εκτελείτε ερωτήματα σε έγγραφα HTML με Java χρησιμοποιώντας το Aspose.HTML, βήμα‑βήμα οδηγίες και παραδείγματα.
+
+### [Καταμέτρηση χαρακτήρων HTML σε Java – Πλήρης οδηγός με Aspose HTML](./count-html-characters-in-java-full-guide-with-aspose-html/)
+Μάθετε πώς να μετράτε τους χαρακτήρες HTML σε εφαρμογές Java χρησιμοποιώντας το Aspose.HTML, βήμα‑βήμα οδηγός.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

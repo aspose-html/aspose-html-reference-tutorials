@@ -127,6 +127,8 @@ Aspose.HTML for Java를 사용해 PDF 페이지 크기를 조정하는 방법을
 Aspose.HTML for Java를 사용해 XPS 페이지 크기를 조정하는 방법을 배웁니다. XPS 문서의 출력 치기를 손쉽게 제어합니다.
 ### [Java에서 JavaScript 실행하기 – 완전 가이드](./how-to-run-javascript-in-java-complete-guide/)
 Java 애플리케이션 내에서 JavaScript 코드를 실행하고, 엔진 설정 및 스크립트 통합 방법을 단계별로 배웁니다.
+### [Aspose를 사용하여 EPUB을 DOCX로 변환하는 방법 – 단계별 가이드](./how-to-use-aspose-to-convert-epub-to-docx-step-by-step-guide/)
+Aspose 라이브러리를 활용해 EPUB 파일을 DOCX 형식으로 변환하는 과정을 단계별로 안내합니다.
 
 ---
 
