@@ -51,7 +51,7 @@ Aspose.HTML for .NET vyniká svou jednoduchostí a výkonem. Umožňuje vám př
 ## Výukové programy pro manipulaci s dokumenty HTML
 ### [Načtěte dokumenty HTML asynchronně v .NET pomocí Aspose.HTML](./load-html-doc-asynchronously/)
 Naučte se používat Aspose.HTML pro .NET pro práci s HTML dokumenty. Podrobný průvodce s příklady a často kladenými dotazy pro vývojáře.
-### [Načtěte dokumenty HTML s pověřeními v .NET pomocí Aspose.HTML](./load-html-doc-with-credentials/)
+### [Načtěte dokumenty HTML s pověřeními v .NET pomocí Aspose.HTML](./load-html-with-credentials/)
 Naučte se, jak vylepšit vaše SEO pomocí Aspose.HTML pro .NET. Zvyšte hodnocení, analyzujte obsah webu a optimalizujte pro vyhledávače.
 ### [Načtěte HTML pomocí vzdáleného serveru v .NET s Aspose.HTML](./load-html-using-remote-server/)
 Odemkněte potenciál Aspose.HTML pro .NET pomocí našeho komplexního průvodce. Naučte se importovat jmenné prostory, přistupovat ke vzdáleným dokumentům HTML a další.
@@ -71,6 +71,8 @@ Naučte se používat Aspose.HTML pro .NET. Importujte jmenný prostor, slučujt
 Odemkněte potenciál vývoje webu s Aspose.HTML pro .NET. Snadno vytvářejte, převádějte a manipulujte s dokumenty HTML.
 ### [Vytvoření HTML ze řetězce v C# – Průvodce vlastním Resource Handlerem](./create-html-from-string-in-c-custom-resource-handler-guide/)
 Naučte se, jak vytvořit HTML dokument z řetězce v C# pomocí vlastního Resource Handleru.
+### [Kombinace tučného a kurzívního textu v HTML s C# – Kompletní průvodce](./combine-bold-and-italic-in-html-with-c-complete-guide/)
+Naučte se, jak v HTML kombinovat tučný a kurzívní text pomocí C# s podrobným návodem.
 
 ## Závěr
 

@@ -73,6 +73,9 @@ Libérez le potentiel du développement Web avec Aspose.HTML pour .NET. Créez, 
 ### [Créer du HTML à partir d'une chaîne en C# – Guide du gestionnaire de ressources personnalisé](./create-html-from-string-in-c-custom-resource-handler-guide/)
 Apprenez à générer du HTML à partir d'une chaîne C# en utilisant un gestionnaire de ressources personnalisé avec Aspose.HTML.
 
+### [Combiner le gras et l'italique en HTML avec C# – Guide complet](./combine-bold-and-italic-in-html-with-c-complete-guide/)
+Apprenez à appliquer simultanément le gras et l'italique dans du HTML en C# avec Aspose.HTML. Guide complet pas à pas.
+
 ## Conclusion
 
 En conclusion, si vous souhaitez maîtriser la manipulation de documents HTML à l'aide d'Aspose.HTML pour .NET, vous êtes au bon endroit. Nos tutoriels sont votre feuille de route vers le succès. Préparez-vous à explorer les possibilités, à libérer votre créativité et à rationaliser votre développement .NET. Commencez votre voyage dès aujourd'hui et regardez vos documents HTML se transformer sous vos yeux. Que vous soyez développeur ou passionné, Aspose.HTML pour .NET vous réserve quelque chose d'incroyable. Alors, qu'attendez-vous ? Embarquons ensemble dans cette aventure passionnante !
