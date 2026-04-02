@@ -60,6 +60,9 @@ Dowiedz się, jak zarządzać wewnętrznymi i zewnętrznymi właściwościami HT
 Naucz się implementować wewnętrzny kod CSS w dokumentach HTML, korzystając z Aspose.HTML dla Java, korzystając z naszego prostego samouczka krok po kroku.
 ### [Fixed thread pool Java – równoległe czyszczenie HTML przy użyciu ExecutorService](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 Dowiedz się, jak używać Fixed Thread Pool w Javie do równoległego czyszczenia HTML przy pomocy ExecutorService.
+### [Automatyczne zwalnianie blokady w Javie – Samouczek edycji HTML w trybie wątkowo‑bezpiecznym](./automatic-lock-release-in-java-thread-safe-html-editing-tuto/)
+Poznaj technikę automatycznego zwalniania blokady w Javie, zapewniającą bezpieczną edycję HTML w środowisku wielowątkowym.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

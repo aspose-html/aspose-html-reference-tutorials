@@ -66,6 +66,8 @@ Aspose.HTML for Java を使用して SVG ドキュメントを作成および管
 Java アプリで HTML のサンドボックス環境を構築し、安全にテストする方法をステップバイステップで学びます。
 ### [Java で HTML をクエリする方法 – 完全チュートリアル](./how-to-query-html-in-java-complete-tutorial/)
 Java で HTML を検索・抽出する方法をステップバイステップで解説します。XPath や CSS セレクタの活用例を含む完全ガイドです。
+### [Aspose を使用した Java での XPath クエリ – ステップバイステップ ガイド](./how-to-query-xpath-in-java-with-aspose-step-by-step-guide/)
+Java で Aspose を使用し、XPath 式で HTML を検索・抽出する方法をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

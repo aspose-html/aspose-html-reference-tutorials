@@ -59,6 +59,8 @@ Lär dig hur du hanterar inre och yttre HTML-egenskaper i Aspose.HTML för Java 
 ### [Implementera intern CSS i HTML-dokument med Aspose.HTML för Java](./implement-internal-css-html-documents/)
 Lär dig att implementera intern CSS i HTML-dokument med Aspose.HTML för Java med vår enkla steg-för-steg handledning.
 ### [Fast trådpool i Java – parallell HTML‑rengöring med ExecutorService](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
+### [Automatiskt låslåsning i Java – Trådsäker HTML-redigeringshandledning](./automatic-lock-release-in-java-thread-safe-html-editing-tuto/)
+Lär dig hur du automatiskt släpper lås i Java för trådsäker redigering av HTML-dokument med Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

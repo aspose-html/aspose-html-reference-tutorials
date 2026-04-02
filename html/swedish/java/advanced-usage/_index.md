@@ -70,19 +70,19 @@ Aspose.HTML låter dig fästa en `DomMutationObserver` på vilken nod som helst.
 
 Oavsett om du bygger spel, instrumentpanel eller datavisualiseringar är HTML5 Canvas‑API:t ett kraftfullt verktyg. Med Aspose.HTML kan du rendera canvas‑innehåll på servern och sedan exportera det direkt till PDF. Detta eliminerar behovet av klient‑side skärmdumpar och säkerställer pixel‑perfekt resultat.
 
-*Endast förklaring – kod oförändrad.*
+*Endonly förklaring – kod oförändrad.*
 
 ## Automatisering av HTML‑formulärifyllning
 
 Att fylla i repetitiva webbformulär kan vara tråkigt. Aspose.HTML tillhandahåller ett `Form`‑API som låter dig programatiskt sätta inmatningsvärden, välja alternativ och skicka formuläret—allt från Java. Denna automatisering är särskilt användbar för massinmatning av data eller testning.
 
-*Endast förklaring – kod oförändrad.*
+*Endonly förklaring – kod oförändrad.*
 
 ## Justering av PDF‑ och XPS‑sidstorlekar
 
 När du konverterar HTML till PDF eller XPS behöver du ofta styra de slutgiltiga sidmåtten. Aspose.HTML:s `PdfSaveOptions` och `XpsSaveOptions` exponerar egenskaper som `PageWidth` och `PageHeight`, vilket gör att du kan **justera PDF‑sidstorlek** eller **konvertera HTML till XPS** med exakta mått.
 
-*Endast förklaring – kod oförändrad.*
+*Endonly förklaring – kod oförändrad.*
 
 ## Vanliga användningsfall
 
@@ -128,6 +128,8 @@ Lär dig hur du justerar PDF‑sidstorlek med Aspose.HTML för Java. Skapa högk
 Lär dig hur du justerar XPS‑sidstorlek med Aspose.HTML för Java. Kontrollera utmatningsdimensionerna för dina XPS‑dokument enkelt.
 ### [Hur man kör JavaScript i Java – Komplett guide](./how-to-run-javascript-in-java-complete-guide/)
 Lär dig hur du exekverar JavaScript-kod i Java-applikationer med Aspose.HTML, inklusive konfiguration och exempel.
+### [Hur du laddar HTML i Java – Komplett Aspose.HTML Async‑exempel](./how-to-load-html-in-java-complete-aspose-html-async-example/)
+Lär dig hur du asynkront laddar HTML i Java med Aspose.HTML, inklusive konfiguration och kodexempel.
 
 ---
 

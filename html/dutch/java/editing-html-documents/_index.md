@@ -59,6 +59,8 @@ Leer hoe u interne en externe HTML-eigenschappen in Aspose.HTML voor Java beheer
 ### [Implementeer interne CSS in HTML-documenten met Aspose.HTML voor Java](./implement-internal-css-html-documents/)
 Leer hoe u interne CSS in HTML-documenten implementeert met Aspose.HTML voor Java met onze eenvoudige stapsgewijze tutorial.
 ### [Fixed thread pool Java – Parallelle HTML-reiniging met ExecutorService](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
+### [Automatische lockrelease in Java – Thread‑veilige HTML-bewerkingshandleiding](./automatic-lock-release-in-java-thread-safe-html-editing-tuto/)
+Leer hoe u automatisch lockrelease implementeert in Java voor thread‑veilige HTML-bewerking met Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

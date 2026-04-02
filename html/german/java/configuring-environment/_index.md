@@ -100,18 +100,27 @@ Die Konfiguration Ihrer Umgebung ist die Grundlage für erfolgreiche **HTML zu P
 ## Umgebung in Aspose.HTML für Java konfigurieren – Tutorials
 ### [Zeichensatz in Aspose.HTML für Java festlegen](./set-character-set/)
 Erfahren Sie, wie Sie den Zeichensatz in Aspose.HTML für Java festlegen und HTML zu PDF in dieser Schritt‑für‑Schritt‑Anleitung konvertieren. Stellen Sie eine korrekte Textkodierung und Darstellung sicher.
+
 ### [Schriftarten in Aspose.HTML für Java konfigurieren](./configure-fonts/)
 Erfahren Sie, wie Sie Schriftarten in Aspose.HTML für Java mit diesem detaillierten Schritt‑für‑Schritt‑Leitfaden konfigurieren. Verbessern Sie Ihre HTML‑zu‑PDF‑Konvertierungen mit benutzerdefinierten Schriftarten und Stilen.
+
 ### [Message‑Handler in Aspose.HTML für Java verwenden](./use-message-handlers/)
 Erfahren Sie, wie Sie Message‑Handler in Aspose.HTML für Java verwenden, um fehlende Bilder und andere Netzwerkoperationen effektiv zu behandeln.
+
 ### [Netzwerk‑Dienst in Aspose.HTML für Java einrichten](./setup-network-service/)
 Erfahren Sie, wie Sie einen Netzwerk‑Dienst in Aspose.HTML für Java einrichten, Netzwerkressourcen verwalten und HTML zu PNG mit benutzerdefiniertem Fehlerhandling konvertieren.
+
 ### [Runtime‑Service in Aspose.HTML für Java konfigurieren](./configure-runtime-service/)
 Erfahren Sie, wie Sie den Runtime‑Service in Aspose.HTML für Java konfigurieren, um die Skriptausführung zu optimieren, Endlosschleifen zu verhindern und die Anwendungsleistung zu verbessern.
+
 ### [Sandbox‑Einrichtung in Aspose.HTML für Java implementieren](./implement-sandboxing/)
 Erfahren Sie, wie Sie Sandbox‑Einrichtung in Aspose.HTML für Java implementieren, um die Skriptausführung in Ihren HTML‑Dokumenten sicher zu steuern und sie in PDF zu konvertieren.
+
 ### [Benutzer‑Stylesheet in Aspose.HTML für Java festlegen](./set-user-style-sheet/)
 Erfahren Sie, wie Sie ein benutzerdefiniertes Benutzer‑Stylesheet in Aspose.HTML für Java festlegen, um das Dokumentstyling zu verbessern und HTML mühelos zu PDF zu konvertieren.
+
+### [Wie man DPI in Aspose.HTML Sandbox festlegt – Vollständige Java‑Anleitung](./how-to-set-dpi-in-aspose-html-sandbox-complete-java-guide/)
+Erfahren Sie, wie Sie die DPI‑Einstellungen in der Aspose.HTML Sandbox für Java konfigurieren, um hochauflösende PDFs zu erzeugen.
 
 ---
 

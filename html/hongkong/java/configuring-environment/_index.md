@@ -117,6 +117,9 @@ A: 沙盒會限制某些 API（例如 `window.open`），但一般的 DOM 操作
 ### [Set User Style Sheet in Aspose.HTML for Java](./set-user-style-sheet/)
 學習如何在 Aspose.HTML for Java 中設定自訂使用者樣式表，提升文件樣式，輕鬆將 HTML 轉換為 PDF。
 
+### [在 Aspose.HTML 沙盒中設定 DPI – 完整 Java 指南](./how-to-set-dpi-in-aspose-html-sandbox-complete-java-guide/)
+學習如何在 Aspose.HTML for Java 的沙盒環境中設定 DPI，以確保 PDF/PNG 輸出解析度符合需求。
+
 ---
 
 **最後更新：** 2025-12-03  

@@ -19,21 +19,21 @@ url: /fr/java/editing-html-documents/
 
 ## Modification de documents HTML dans Aspose.HTML pour Java
 
-Vous êtes-vous déjà demandé comment gérer et modifier efficacement du contenu HTML ? Les tutoriels fournis ici décomposent les complexités de l'édition de documents HTML, en vous guidant étape par étape. De la manipulation de base de l'arborescence du document HTML aux techniques avancées, ces tutoriels vous couvrent. Imaginez pouvoir modifier votre contenu directement dans la structure du document. Cela semble être une révolution, n'est-ce pas ? Eh bien, c'est le cas ! Vous pouvez vous plonger dans ces tutoriels et commencer à maîtriser l'arborescence du document en un rien de temps.[En savoir plus](./edit-html-document-tree/)
+Vous êtes-vous déjà demandé comment gérer et modifier efficacement du contenu HTML ? Les tutoriels fournis ici décomposent les complexités de l'édition de documents HTML, en vous guidant étape par étape. De la manipulation de base de l'arborescence du document HTML aux techniques avancées, ces tutoriels vous couvrent. Imaginez pouvoir modifier votre contenu directement dans la structure du document. Cela semble être une révolution, n'est‑ce pas ? Eh bien, c'est le cas ! Vous pouvez vous plonger dans ces tutoriels et commencer à maîtriser l'arborescence du document en un rien de temps.[En savoir plus](./edit-html-document-tree/)
 
 ## Maîtriser CSS avec Aspose.HTML pour Java
 
- Parlons de style. L'application de CSS à vos documents HTML peut transformer un contenu simple en un chef-d'œuvre visuellement attrayant. Qu'il s'agisse de CSS en ligne, interne ou externe, les tutoriels répertoriés ici vous apprennent à styliser votre HTML avec précision. CSS externe ? Vérifiez. CSS interne ? Vérifiez à nouveau. Vous apprendrez tout ! Et le meilleur dans tout ça ? Ces guides sont si conviviaux que vous styliserez votre contenu comme un pro en un rien de temps.[En savoir plus](./apply-external-css-html-documents/)
+ Parlons de style. L'application de CSS à vos documents HTML peut transformer un contenu simple en un chef‑d'œuvre visuellement attrayant. Qu'il s'agisse de CSS en ligne, interne ou externe, les tutoriels répertoriés ici vous apprennent à styliser votre HTML avec précision. CSS externe ? Vérifiez. CSS interne ? Vérifiez à nouveau. Vous apprendrez tout ! Et le meilleur dans tout ça ? Ces guides sont si conviviaux que vous styliserez votre contenu comme un pro en un rien de temps.[En savoir plus](./apply-external-css-html-documents/)
 
 ## Gestion des propriétés HTML
 
-Pour ceux qui cherchent à peaufiner leurs éléments HTML, le tutoriel sur la gestion des propriétés HTML internes et externes est un incontournable. C'est comme avoir une boîte à outils qui vous permet de modifier votre contenu avec seulement quelques lignes de code. Imaginez avoir un contrôle total sur vos éléments HTML. Cela semble puissant, n'est-ce pas ? Ce guide vous montrera exactement comment faire cela.[En savoir plus](./manage-inner-outer-html-properties/)
+Pour ceux qui cherchent à peaufiner leurs éléments HTML, le tutoriel sur la gestion des propriétés HTML internes et externes est un incontournable. C'est comme avoir une boîte à outils qui vous permet de modifier votre contenu avec seulement quelques lignes de code. Imaginez avoir un contrôle total sur vos éléments HTML. Cela semble puissant, n'est‑ce pas ? Ce guide vous montrera exactement comment faire cela.[En savoir plus](./manage-inner-outer-html-properties/)
 
 Bien sûr ! Continuons à explorer les fonctionnalités et capacités intéressantes d'Aspose.HTML pour Java.
 
 ## Édition avancée de l'arborescence des documents HTML
 
-Une fois que vous maîtrisez les bases de l'édition de documents HTML, il est temps de passer au niveau supérieur ! Le didacticiel avancé d'édition d'arborescence de documents HTML est conçu pour ceux qui souhaitent repousser les limites du possible. Imaginez pouvoir restructurer l'intégralité de votre document avec seulement quelques commandes. Cela semble incroyable, n'est-ce pas ? Que vous ajoutiez de nouveaux éléments, que vous modifiiez des éléments existants ou que vous convertissiez même votre HTML en PDF, ce guide vous guidera à chaque étape. C'est comme si vous aviez une baguette magique pour votre contenu HTML. Prêt à vous lancer ?[En savoir plus](./advanced-html-document-tree-editing/)
+Une fois que vous maîtrisez les bases de l'édition de documents HTML, il est temps de passer au niveau supérieur ! Le didacticiel avancé d'édition d'arborescence de documents HTML est conçu pour ceux qui souhaitent repousser les limites du possible. Imaginez pouvoir restructurer l'intégralité de votre document avec seulement quelques commandes. Cela semble incroyable, n'est‑ce pas ? Que vous ajoutiez de nouveaux éléments, que vous modifiiez des éléments existants ou que vous convertissiez même votre HTML en PDF, ce guide vous guidera à chaque étape. C'est comme si vous aviez une baguette magique pour votre contenu HTML. Prêt à vous lancer ?[En savoir plus](./advanced-html-document-tree-editing/)
 
 ## Appliquer du CSS externe comme un pro
 
@@ -41,7 +41,7 @@ C'est avec le CSS externe que la véritable puissance de la conception Web entre
 
 ## Ajout de CSS en ligne et interne
 
-Parfois, vous devez appliquer des styles directement dans le document HTML lui-même. C'est là que les CSS en ligne et internes entrent en jeu. Les tutoriels sur l'ajout de CSS en ligne et internes sont parfaits pour ceux qui recherchent des solutions de style rapides et faciles. Imaginez : vous travaillez sur un document qui nécessite un style spécifique et vous souhaitez l'appliquer sans affecter les autres documents. Les CSS en ligne et internes vous permettent de faire exactement cela. Que vous travailliez sur un petit projet ou sur une application à grande échelle, ces guides vous aideront à faire le travail efficacement.[En savoir plus](./add-inline-css-html-documents/) et[En savoir plus](./implement-internal-css-html-documents/)
+Parfois, vous devez appliquer des styles directement dans le document HTML lui‑même. C'est là que les CSS en ligne et internes entrent en jeu. Les tutoriels sur l'ajout de CSS en ligne et internes sont parfaits pour ceux qui recherchent des solutions de style rapides et faciles. Imaginez : vous travaillez sur un document qui nécessite un style spécifique et vous souhaitez l'appliquer sans affecter les autres documents. Les CSS en ligne et internes vous permettent de faire exactement cela. Que vous travailliez sur un petit projet ou sur une application à grande échelle, ces guides vous aideront à faire le travail efficacement.[En savoir plus](./add-inline-css-html-documents/) et[En savoir plus](./implement-internal-css-html-documents/)
 
 ## Modification de documents HTML dans Aspose. Tutoriels HTML pour Java
 ### [Modifier l'arborescence du document HTML dans Aspose.HTML pour Java](./edit-html-document-tree/)
@@ -58,6 +58,8 @@ Découvrez comment ajouter du code CSS en ligne à des documents HTML à l'aide 
 Apprenez à gérer les propriétés HTML internes et externes dans Aspose.HTML pour Java avec ce guide étape par étape, parfait pour les développeurs Web et les créateurs de contenu.
 ### [Implémenter du CSS interne dans des documents HTML avec Aspose.HTML pour Java](./implement-internal-css-html-documents/)
 Apprenez à implémenter du CSS interne dans des documents HTML à l'aide d'Aspose.HTML pour Java avec notre didacticiel simple étape par étape.
+### [Libération automatique du verrou en Java – Tutoriel d'édition HTML thread‑safe](./automatic-lock-release-in-java-thread-safe-html-editing-tuto/)
+Apprenez à libérer automatiquement les verrous lors de l'édition HTML thread‑safe avec Aspose.HTML pour Java.
 ### [Pool de threads fixe Java – Nettoyage HTML parallèle avec ExecutorService](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

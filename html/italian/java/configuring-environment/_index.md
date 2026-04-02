@@ -119,6 +119,9 @@ Scopri come implementare il sandboxing in Aspose.HTML per Java per controllare i
 ### [Imposta il foglio di stile utente in Aspose.HTML per Java](./set-user-style-sheet/)
 Scopri come impostare un foglio di stile utente personalizzato in Aspose.HTML per Java, migliorando lo stile dei tuoi documenti e convertendo HTML in PDF con facilità.
 
+### [Come impostare DPI in Aspose.HTML Sandbox – Guida completa Java](./how-to-set-dpi-in-aspose-html-sandbox-complete-java-guide/)
+Scopri come impostare la risoluzione DPI nel sandbox di Aspose.HTML per Java, garantendo rendering di alta qualità per PDF e PNG.
+
 ---
 
 **Ultimo aggiornamento:** 2025-12-03  
