@@ -100,18 +100,27 @@ La configuración de tu entorno es la base para proyectos exitosos de **converti
 ## Tutoriales de Configuración del Entorno en Aspose.HTML para Java
 ### [Establecer el Juego de Caracteres en Aspose.HTML para Java](./set-character-set/)
 Aprende cómo establecer el juego de caracteres en Aspose.HTML para Java y convertir HTML a PDF en esta guía paso a paso. Asegura una codificación y renderizado de texto adecuados.
+
 ### [Configurar Fuentes en Aspose.HTML para Java](./configure-fonts/)
 Aprende cómo configurar fuentes en Aspose.HTML para Java con esta guía detallada paso a paso. Mejora tus conversiones de HTML a PDF con fuentes y estilos personalizados.
+
 ### [Usar Manejadores de Mensajes en Aspose.HTML para Java](./use-message-handlers/)
 Aprende cómo usar manejadores de mensajes en Aspose.HTML para Java para manejar imágenes faltantes y otras operaciones de red de manera eficaz.
+
 ### [Configurar Servicio de Red en Aspose.HTML para Java](./setup-network-service/)
 Aprende cómo configurar un servicio de red en Aspose.HTML para Java, gestionar recursos de red y convertir HTML a PNG con manejo de errores personalizado.
+
 ### [Configurar Servicio de Tiempo de Ejecución en Aspose.HTML para Java](./configure-runtime-service/)
 Aprende cómo configurar el Servicio de Tiempo de Ejecución en Aspose.HTML para Java para optimizar la ejecución de scripts, prevenir bucles infinitos y mejorar el rendimiento de la aplicación.
+
 ### [Implementar Sandboxing en Aspose.HTML para Java](./implement-sandboxing/)
 Aprende cómo implementar sandboxing en Aspose.HTML para Java para controlar de forma segura la ejecución de scripts en tus documentos HTML y convertirlos a PDF.
+
 ### [Establecer Hoja de Estilo de Usuario en Aspose.HTML para Java](./set-user-style-sheet/)
 Aprende cómo establecer una hoja de estilo de usuario personalizada en Aspose.HTML para Java, mejorando el estilo de tus documentos y convirtiendo HTML a PDF con facilidad.
+
+### [Cómo establecer DPI en el sandbox de Aspose.HTML – Guía completa para Java](./how-to-set-dpi-in-aspose-html-sandbox-complete-java-guide/)
+Aprende a configurar la resolución DPI en el sandbox de Aspose.HTML usando Java para obtener PDFs y PNGs de alta calidad.
 
 ---
 

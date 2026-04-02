@@ -66,6 +66,8 @@ SVG दस्तावेज़ बनाना और प्रबंधित 
 Java में HTML सैंडबॉक्स बनाने की प्रक्रिया सीखें, सुरक्षित परीक्षण और विकास के लिए चरण‑दर‑चरण मार्गदर्शिका।
 ### [Java में HTML क्वेरी कैसे करें – पूर्ण ट्यूटोरियल](./how-to-query-html-in-java-complete-tutorial/)
 Java में Aspose.HTML का उपयोग करके HTML क्वेरी करने के चरण‑दर‑चरण मार्गदर्शिका, टिप्स और सर्वोत्तम प्रथाएँ।
+### [Java के लिए Aspose.HTML में XPath क्वेरी कैसे करें – चरण‑दर‑चरण गाइड](./how-to-query-xpath-in-java-with-aspose-step-by-step-guide/)
+Aspose.HTML for Java के साथ XPath क्वेरी करने की प्रक्रिया सीखें। चरण‑दर‑चरण मार्गदर्शिका, टिप्स और सर्वोत्तम प्रथाएँ।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -119,6 +119,9 @@ weight: 29
 ### [Ορισμός Προσαρμοσμένου User Style Sheet στο Aspose.HTML για Java](./set-user-style-sheet/)
 Μάθετε πώς να ορίσετε ένα προσαρμοσμένο φύλλο στυλ χρήστη στο Aspose.HTML για Java, βελτιώνοντας το στυλ του εγγράφου σας και μετατρέποντας HTML σε PDF με ευκολία.
 
+### [Ορισμός DPI στο Aspose.HTML Sandbox – Πλήρης Οδηγός Java](./how-to-set-dpi-in-aspose-html-sandbox-complete-java-guide/)
+Μάθετε πώς να ρυθμίσετε την ανάλυση DPI στο sandbox του Aspose.HTML για Java, βελτιώνοντας την ποιότητα εξόδου εικόνας.
+
 ---
 
 **Τελευταία Ενημέρωση:** 2025-12-03  

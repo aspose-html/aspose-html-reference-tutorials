@@ -66,6 +66,8 @@ Erfahren Sie, wie Sie SVG-Dokumente mit Aspose.HTML für Java erstellen und verw
 Erfahren Sie, wie Sie in Aspose.HTML für Java eine sichere Sandbox für HTML erstellen und verwalten – Schritt‑für‑Schritt‑Anleitung.
 ### [Wie man HTML in Java abfragt – Komplettes Tutorial](./how-to-query-html-in-java-complete-tutorial/)
 Erfahren Sie, wie Sie HTML-Inhalte in Java abfragen und verarbeiten – Schritt‑für‑Schritt‑Anleitung für vollständiges Verständnis.
+### [Wie man XPath in Java mit Aspose abfragt – Schritt‑für‑Schritt‑Anleitung](./how-to-query-xpath-in-java-with-aspose-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.HTML in Java XPath‑Abfragen durchführen und HTML‑Inhalte gezielt extrahieren – detaillierte Schritt‑für‑Schritt‑Anleitung.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

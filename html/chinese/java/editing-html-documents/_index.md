@@ -60,6 +60,8 @@ url: /zh/java/editing-html-documents/
 通过我们简单的分步教程学习使用 Aspose.HTML for Java 在 HTML 文档中实现内部 CSS。
 ### [固定线程池 Java – 使用 ExecutorService 并行 HTML 清理](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 了解如何使用 Java 固定线程池和 ExecutorService 实现并行 HTML 清理，提高处理效率。
+### [Java 中的自动锁释放 – 线程安全 HTML 编辑教程](./automatic-lock-release-in-java-thread-safe-html-editing-tuto/)
+了解如何在 Java 中使用自动锁释放实现线程安全的 HTML 编辑，提高并发处理效率。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

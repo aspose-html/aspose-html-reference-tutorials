@@ -118,6 +118,9 @@ A: การแซนด์บ็อกซ์จำกัด API บางอย
 ### [Set User Style Sheet in Aspose.HTML for Java](./set-user-style-sheet/)
 เรียนรู้วิธีตั้งค่า stylesheet ผู้ใช้ใน Aspose.HTML for Java, ปรับปรุงการจัดรูปแบบเอกสารของคุณและแปลง HTML เป็น PDF อย่างง่ายดาย
 
+### [วิธีตั้งค่า DPI ใน Aspose.HTML Sandbox – คู่มือ Java ฉบับสมบูรณ์](./how-to-set-dpi-in-aspose-html-sandbox-complete-java-guide/)
+เรียนรู้วิธีตั้งค่า DPI ใน sandbox ของ Aspose.HTML ด้วย Java เพื่อควบคุมความละเอียดของ PDF/PNG ที่แปลง
+
 ---
 
 **Last Updated:** 2025-12-03  

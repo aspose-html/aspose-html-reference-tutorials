@@ -59,6 +59,8 @@ url: /zh-hant/java/editing-html-documents/
 ### [使用 Aspose.HTML for Java 在 HTML 文件中實作內部 CSS](./implement-internal-css-html-documents/)
 透過我們簡單的逐步教程，學習使用 Aspose.HTML for Java 在 HTML 文件中實現內部 CSS。
 ### [固定執行緒池 Java – 使用 ExecutorService 進行平行 HTML 清理](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
+### [Java 中的自動鎖釋放 – 執行緒安全 HTML 編輯教學](./automatic-lock-release-in-java-thread-safe-html-editing-tuto/)
+了解如何在 Java 中自動釋放鎖，以確保 HTML 編輯過程的執行緒安全，提升效能與穩定性。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
