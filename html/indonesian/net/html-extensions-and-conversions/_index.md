@@ -56,7 +56,7 @@ Temukan kekuatan Aspose.HTML untuk .NET: Panduan langkah demi langkah untuk meng
 ### [Konversi HTML ke JPEG dalam .NET dengan Aspose.HTML](./convert-html-to-jpeg/)
 Pelajari cara mengonversi HTML ke JPEG dalam .NET dengan Aspose.HTML untuk .NET. Panduan langkah demi langkah untuk memanfaatkan kekuatan Aspose.HTML untuk .NET. Optimalkan tugas pengembangan web Anda dengan mudah.
 ### [Konversi HTML ke Markdown di .NET dengan Aspose.HTML](./convert-html-to-markdown/)
-Pelajari cara mengonversi HTML ke Markdown dalam .NET menggunakan Aspose.HTML untuk manipulasi konten yang efisien. Dapatkan panduan langkah demi langkah untuk proses konversi yang lancar.
+Pelajari cara mengonversi HTML ke Markdown dalam .NET menggunakan Aspose.HTML untuk .NET. Dapatkan panduan langkah demi langkah untuk proses konversi yang lancar.
 ### [Konversi HTML ke MHTML di .NET dengan Aspose.HTML](./convert-html-to-mhtml/)
 Konversi HTML ke MHTML dalam .NET dengan Aspose.HTML - Panduan langkah demi langkah untuk pengarsipan konten web yang efisien. Pelajari cara menggunakan Aspose.HTML untuk .NET guna membuat arsip MHTML.
 ### [Konversi HTML ke PNG dalam .NET dengan Aspose.HTML](./convert-html-to-png/)
@@ -73,6 +73,10 @@ Pelajari cara membuat dokumen HTML dengan teks berformat dan mengekspornya ke PD
 Pelajari cara menyimpan file HTML sebagai arsip ZIP menggunakan Aspose.HTML untuk .NET dengan contoh kode C# lengkap.
 ### [Simpan HTML ke ZIP di C# – Contoh In‑Memory Lengkap](./save-html-to-zip-in-c-complete-in-memory-example/)
 Pelajari cara menyimpan file HTML ke dalam arsip ZIP secara langsung di memori menggunakan C# dan Aspose.HTML.
+### [Simpan HTML ke ZIP dengan C# – Panduan Lengkap](./save-html-to-zip-with-c-complete-guide/)
+Pelajari cara menyimpan HTML ke arsip ZIP menggunakan C# dengan Aspose.HTML dalam panduan lengkap.
+### [Penangan Sumber Daya Khusus – Mengonversi Halaman Web ke ZIP dalam C#](./custom-resource-handler-convert-webpage-to-zip-in-c/)
+Pelajari cara mengonversi halaman web menjadi arsip ZIP menggunakan C# dan Aspose.HTML dengan penangan sumber daya khusus.
 
 ## Kesimpulan
 
