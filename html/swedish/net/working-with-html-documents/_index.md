@@ -26,19 +26,18 @@ Innan vi dyker in i detaljerna för att skapa och redigera HTML-dokument i .NET,
 
 ### [Skapa ett dokument i .NET med Aspose.HTML](./creating-a-document/)
 
-Det första steget i vår resa är att lära sig hur man skapar HTML-dokument från grunden eller från webbadresser med Aspose.HTML. Vi guidar dig genom processen och ser till att även nybörjare kan följa med. I slutet av det här avsnittet har du färdigheterna att skapa HTML-dokument utan ansträngning.
-
 ### [Skapa ett enkelt dokument i .NET med Aspose.HTML](./creating-a-simple-document/)
 
-När du har förstått grunderna kommer vi att gräva djupare i skapelseprocessen. I det här avsnittet kommer du att lära dig hur du skapar enkla HTML-dokument med Aspose.HTML, och vi kommer att utforska olika funktioner som möjliggör enkel manipulation. Oavsett om du bygger en webbsida, genererar innehåll eller konverterar data till HTML, kommer denna handledning att förse dig med nödvändig kunskap.
-
 ### [Redigera ett dokument i .NET med Aspose.HTML](./editing-a-document/)
-
-Låt oss nu ta dina färdigheter till nästa nivå. Att redigera HTML-dokument är en vanlig uppgift för webbutvecklare, och Aspose.HTML förenklar denna process avsevärt. I det här avsnittet kommer vi att ta upp dokumentskapande, manipulering och stil. Du kommer att upptäcka hur du förbättrar utseendet och funktionaliteten hos ditt webbinnehåll, vilket gör det engagerande och användarvänligt.
 
 ### [Hur man sparar HTML i C# – Komplett guide med en anpassad resurs‑hanterare](./how-to-save-html-in-c-complete-guide-using-a-custom-resource/)
 
 Lär dig spara HTML i C# med en anpassad resurs‑hanterare och generera kompletta HTML‑filer programatiskt.
+
+### [Hur man sparar HTML – Komplett guide för Aspose HTMLDocument](./how-to-save-html-aspose-htmldocument-complete-guide/)
+
+Lär dig spara HTML med Aspose HTMLDocument och skapa kompletta HTML‑filer programatiskt.
+
 ### [Hur du gör rubriker fetstil med CSS & C# – Komplett steg‑för‑steg‑guide](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
 
 Lär dig hur du använder CSS och C# för att göra rubriker fetstilta i dina HTML‑dokument med en steg‑för‑steg‑guide.
