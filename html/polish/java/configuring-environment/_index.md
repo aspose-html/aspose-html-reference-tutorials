@@ -99,19 +99,15 @@ Konfiguracja środowiska jest fundamentem udanych projektów **convert HTML to P
 
 ## Konfiguracja środowiska w Aspose.HTML for Java – Tutoriale
 ### [Ustaw zestaw znaków w Aspose.HTML for Java](./set-character-set/)
-Dowiedz się, jak ustawić zestaw znaków w Aspose.HTML for Java i konwertować HTML do PDF w tym szczegółowym przewodniku krok po kroku. Zapewnij prawidłowe kodowanie i renderowanie tekstu.
 ### [Konfiguruj czcionki w Aspose.HTML for Java](./configure-fonts/)
-Dowiedz się, jak skonfigurować czcionki w Aspose.HTML for Java dzięki temu szczegółowemu, krok po kroku przewodnikowi. Ulepsz konwersje HTML do PDF przy użyciu własnych czcionek i stylów.
 ### [Używaj obsługi komunikatów w Aspose.HTML for Java](./use-message-handlers/)
-Dowiedz się, jak używać obsługi komunikatów w Aspose.HTML for Java, aby skutecznie radzić sobie z brakującymi obrazami i innymi operacjami sieciowymi.
 ### [Skonfiguruj usługę sieciową w Aspose.HTML for Java](./setup-network-service/)
-Dowiedz się, jak skonfigurować usługę sieciową w Aspose.HTML for Java, zarządzać zasobami sieciowymi i konwertować HTML do PNG z własną obsługą błędów.
 ### [Konfiguruj Runtime Service w Aspose.HTML for Java](./configure-runtime-service/)
-Dowiedz się, jak skonfigurować Runtime Service w Aspose.HTML for Java, aby optymalizować wykonywanie skryptów, zapobiegać nieskończonym pętlom i poprawić wydajność aplikacji.
 ### [Wdroż sandboxing w Aspose.HTML for Java](./implement-sandboxing/)
-Dowiedz się, jak wdrożyć sandboxing w Aspose.HTML for Java, aby bezpiecznie kontrolować wykonywanie skryptów w dokumentach HTML i konwertować je do PDF.
 ### [Ustaw własny arkusz stylów w Aspose.HTML for Java](./set-user-style-sheet/)
 Dowiedz się, jak ustawić własny arkusz stylów użytkownika w Aspose.HTML for Java, ulepszając stylizację dokumentów i konwertując HTML do PDF z łatwością.
+### [Jak używać sandbox – Ustawienie agenta użytkownika i pobranie rozmiaru viewportu](./how-to-use-sandbox-set-user-agent-get-viewport-size/)
+Dowiedz się, jak ustawić nagłówek User‑Agent w sandboxie i odczytać rozmiar viewportu podczas konwersji HTML.
 
 ---
 

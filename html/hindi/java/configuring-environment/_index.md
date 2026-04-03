@@ -119,6 +119,9 @@ Aspose.HTML for Java में सैंडबॉक्सिंग कैसे
 ### [Aspose.HTML for Java में यूज़र स्टाइल शीट सेट करें](./set-user-style-sheet/)
 Aspose.HTML for Java में कस्टम यूज़र स्टाइलशीट कैसे सेट करें, अपने दस्तावेज़ स्टाइलिंग को बढ़ाएँ और आसानी से HTML को PDF में बदलें।
 
+### [Aspose.HTML for Java में सैंडबॉक्स का उपयोग – यूज़र एजेंट सेट करें और व्यूपोर्ट आकार प्राप्त करें](./how-to-use-sandbox-set-user-agent-get-viewport-size/)
+Aspose.HTML for Java में सैंडबॉक्स का उपयोग करके यूज़र एजेंट सेट करना और व्यूपोर्ट आकार प्राप्त करना सीखें।
+
 ---
 
 **Last Updated:** 2025-12-03  

@@ -67,66 +67,10 @@ Nem megbízható forrásokból származó HTML feldolgozásakor a sandboxing els
 
 [Ismerd meg, hogyan valósítható meg a sandboxing az Aspose.HTML for Java-ban.](./implement-sandboxing/)
 
-## Gyakori buktatók és tippek
+### [How to Use Sandbox – Set User Agent & Get Viewport Size](./how-to-use-sandbox-set-user-agent-get-viewport-size/)
 
-- **Elfelejtetted beállítani a karakterkészletet?** � szimbólumokat fogsz látni a kimeneti PDF-ben. Mindig UTF‑8-at adj meg, hacsak nincs speciális igényed.  
-- **Hiányzó egyedi betűkészletek?** Ellenőrizd a betűkészlet útvonalát, és győződj meg róla, hogy a betűkészlet fájl elérhető a Java folyamat számára.  
-- **Hálózati időkorlátok?** Állítsd be a `NetworkService` időkorlát beállításait, hogy elkerüld a hiányos renderelést.  
-- **Szkript‑intenzív oldalak?** Használd a `RuntimeService`-t a végrehajtási idő korlátozásához és a lefagyások megelőzéséhez.
-
-## Gyakran feltett kérdések
-
-**K: Konvertálhatok HTML-t PDF-re Java nélkül licenc?**  
-V: Ingyenes próba verzióval értékelheted, de a termeléshez érvényes Aspose.HTML licenc szükséges.
-
-**K: Hogyan biztosíthatom, hogy a HTTPS-en tárolt képek betöltődnek?**  
-V: Állítsd be a `NetworkService`-t megfelelő SSL tanúsítványokkal vagy megbízhatósági menedzserekkel, hogy elfogadja a távoli szerver tanúsítványát.
-
-**K: Lehetőség van egyedi betűkészletek beágyazására a PDF-be?**  
-V: Igen – használd a `FontSettings` API-t a betűkészletek beágyazásához, biztosítva, hogy a PDF minden eszközön helyesen jelenjen meg.
-
-**K: Mely Java verziók támogatottak?**  
-V: Az Aspose.HTML for Java támogatja a Java 8 és újabb futtatókörnyezeteket.
-
-**K: Befolyásolja a sandboxing a szkript kimenetét?**  
-V: A sandboxing korlátozza bizonyos API-kat (pl. `window.open`), de a normál DOM manipuláció és a CSS renderelés továbbra is működik.
-
-## Összegzés
-
-A környezet konfigurálása a sikeres **HTML PDF-re konvertálás Java** projektek alapja. A karakterkészlet beállításával, a betűkészletek konfigurálásával, az üzenetek kezelésével, valamint a hálózati, futásidejű és sandbox beállítások finomhangolásával egy robusztus folyamatot hozol létre, amely minden alkalommal pontos, magas minőségű PDF-eket (és PNG-ket) állít elő. Készen állsz mindent összeállítani? Merülj el a kapcsolódó útmutatókban a lépésről‑lépésre kópmintákért, és kezdj el ma HTML tartalmat konvertálni!
-
-[Fedezd fel a további útmutatókat az Aspose.HTML for Java-hoz.](https://reference.aspose.com/words/net/)
-
-## Környezet konfigurálása az Aspose.HTML for Java útmutatók
-### [Set Character Set in Aspose.HTML for Java](./set-character-set/)
-
-**Karakterkészlet beállítása az Aspose.HTML for Java-ban**  
-Ismerd meg, hogyan állítható be a karakterkészlet az Aspose.HTML for Java-ban, és hogyan konvertálható a HTML PDF-re ebben a lépésről‑lépésre útmutatóban. Biztosítsd a megfelelő szövegkódolást és megjelenítést.
-
-### [Configure Fonts in Aspose.HTML for Java](./configure-fonts/)
-
-**Betűkészletek konfigurálása az Aspose.HTML for Java-ban**  
-Ismerd meg, hogyan konfigurálhatók a betűkészletek az Aspose.HTML for Java-ban ebben a részletes, lépésről‑lépésre útmutatóban. Javítsd a HTML PDF-re konvertálásodat egyedi betűkészletekkel és stílusokkal.
-
-### [Use Message Handlers in Aspose.HTML for Java](./use-message-handlers/)
-
-**Üzenetkezelők használata az Aspose.HTML for Java-ban**  
-Ismerd meg, hogyan használhatók az üzenetkezelők az Aspose.HTML for Java-ban a hiányzó képek és egyéb hálózati műveletek hatékony kezeléséhez.
-
-### [Set Up Network Service in Aspose.HTML for Java](./setup-network-service/)
-
-**Hálózati szolgáltatás beállítása az Aspose.HTML for Java-ban**  
-Ismerd meg, hogyan állítható be egy hálózati szolgáltatás az Aspose.HTML for Java-ban, hogyan kezelhetők a hálózati erőforrások, és hogyan konvertálható a HTML PNG-re egyedi hibakezeléssel.
-
-### [Configure Runtime Service in Aspose.HTML for Java](./configure-runtime-service/)
-
-**Futásidejű szolgáltatás konfigurálása az Aspose.HTML for Java-ban**  
-Ismerd meg, hogyan konfigurálható a Runtime Service az Aspose.HTML for Java-ban a szkript végrehajtás optimalizálásához, a végtelen ciklusok megelőzéséhez és az alkalmazás teljesítményének javításához.
-
-### [Implement Sandboxing in Aspose.HTML for Java](./implement-sandboxing/)
-
-**Sandboxing megvalósítása az Aspose.HTML for Java-ban**  
-Ismerd meg, hogyan valósítható meg a sandboxing az Aspose.HTML for Java-ban a szkript végrehajtás biztonságos ellenőrzéséhez HTML dokumentumaidban, és hogyan konvertálhatók PDF-re.
+**Sandbox használata – Felhasználói ügynök beállítása és a viewport méretének lekérése**  
+Ismerd meg, hogyan állítható be a felhasználói ügynök és hogyan kérhető le a viewport mérete a sandbox környezetben az Aspose.HTML for Java-ban.
 
 ### [Set User Style Sheet in Aspose.HTML for Java](./set-user-style-sheet/)
 

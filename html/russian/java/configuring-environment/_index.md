@@ -112,6 +112,8 @@ Learn how to configure the Runtime Service in Aspose.HTML for Java to optimize s
 Learn how to implement sandboxing in Aspose.HTML for Java to securely control script execution in your HTML documents and convert them to PDF.
 ### [Set User Style Sheet in Aspose.HTML for Java](./set-user-style-sheet/)
 Learn how to set a custom user stylesheet in Aspose.HTML for Java, enhancing your document styling and converting HTML to PDF with ease.
+### [Как использовать Sandbox – установить пользовательский агент и получить размер области просмотра](./how-to-use-sandbox-set-user-agent-get-viewport-size/)
+Узнайте, как задать пользовательский агент и получить размер области просмотра в Sandbox Aspose.HTML for Java.
 
 ---
 
