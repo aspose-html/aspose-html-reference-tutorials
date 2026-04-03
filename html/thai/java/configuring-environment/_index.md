@@ -118,6 +118,8 @@ A: การแซนด์บ็อกซ์จำกัด API บางอย
 ### [Set User Style Sheet in Aspose.HTML for Java](./set-user-style-sheet/)
 เรียนรู้วิธีตั้งค่า stylesheet ผู้ใช้ใน Aspose.HTML for Java, ปรับปรุงการจัดรูปแบบเอกสารของคุณและแปลง HTML เป็น PDF อย่างง่ายดาย
 
+### [วิธีใช้ Sandbox – ตั้งค่า User Agent และรับขนาด Viewport](./how-to-use-sandbox-set-user-agent-get-viewport-size/)
+
 ---
 
 **Last Updated:** 2025-12-03  

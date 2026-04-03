@@ -108,6 +108,8 @@ Learn how to set up a network service in Aspose.HTML for Java, manage network re
 Learn how to configure the Runtime Service in Aspose.HTML for Java to optimize script execution, preventing infinite loops, and improving application performance.
 ### [Implement Sandboxing in Aspose.HTML for Java](./implement-sandboxing/)
 Learn how to implement sandboxing in Aspose.HTML for Java to securely control script execution in your HTML documents and convert them to PDF.
+### [How to Use Sandbox – Set User Agent & Get Viewport Size](./how-to-use-sandbox-set-user-agent-get-viewport-size/)
+Learn how to set a custom user agent and retrieve viewport size within Aspose.HTML sandbox for Java conversions.
 ### [Set User Style Sheet in Aspose.HTML for Java](./set-user-style-sheet/)
 Learn how to set a custom user stylesheet in Aspose.HTML for Java, enhancing your document styling and converting HTML to PDF with ease.
 
