@@ -41,6 +41,10 @@ url: /el/net/working-with-html-documents/
 Μάθετε πώς να αποθηκεύετε HTML σε C# χρησιμοποιώντας έναν προσαρμοσμένο διαχειριστή πόρων, βήμα-βήμα οδηγός.
 ### [Πώς να κάνετε έντονο τίτλο με CSS & C# – Πλήρης οδηγός βήμα‑βήμα](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
 
+### [Πώς να αποθηκεύσετε HTML – Πλήρης οδηγός Aspose HTMLDocument](./how-to-save-html-aspose-htmldocument-complete-guide/)
+
+Μάθετε πώς να αποθηκεύσετε HTML με το Aspose.HTMLDocument, ακολουθώντας έναν πλήρη βήμα‑βήμα οδηγό.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
