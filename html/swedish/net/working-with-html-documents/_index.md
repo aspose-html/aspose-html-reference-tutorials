@@ -43,6 +43,8 @@ Lär dig spara HTML i C# med en anpassad resurs‑hanterare och generera komplet
 
 Lär dig hur du använder CSS och C# för att göra rubriker fetstilta i dina HTML‑dokument med en steg‑för‑steg‑guide.
 
+### [Skapa HTML från sträng i C# – Steg‑för‑steg‑guide](./create-html-from-string-in-c-step-by-step-guide/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

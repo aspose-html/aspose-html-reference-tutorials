@@ -41,6 +41,8 @@ Laten we nu uw vaardigheden naar een hoger niveau tillen. Het bewerken van HTML-
 
 Leer hoe u met CSS en C# kopteksten vet maakt in een .NET‑applicatie, stap voor stap met voorbeeldcode.
 
+### [HTML maken vanuit string in C# – Stapsgewijze handleiding](./create-html-from-string-in-c-step-by-step-guide/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
