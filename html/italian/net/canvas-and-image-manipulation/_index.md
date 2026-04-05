@@ -45,6 +45,8 @@ Scopri come convertire SVG in PDF con Aspose.HTML per .NET. Tutorial di alta qua
 Scopri come convertire SVG in XPS utilizzando Aspose.HTML per .NET. Potenzia il tuo sviluppo web con questa potente libreria.
 ### [Come abilitare l'Antialiasing in C# – Bordi lisci](./how-to-enable-antialiasing-in-c-smooth-edges/)
 Scopri come attivare l'antialiasing in C# per ottenere bordi più lisci nelle immagini e nei canvas con Aspose.HTML.
+### [Come abilitare l'Antialiasing in C# – Guida completa allo stile dei caratteri](./how-to-enable-antialiasing-in-c-complete-font-style-guide/)
+Scopri come abilitare l'antialiasing in C# e gestire gli stili dei font per ottenere testi nitidi e di alta qualità.
 
 ## Conclusione
 

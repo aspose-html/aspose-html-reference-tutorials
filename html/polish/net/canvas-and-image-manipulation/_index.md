@@ -45,6 +45,8 @@ Dowiedz się, jak przekonwertować SVG na PDF za pomocą Aspose.HTML dla .NET. W
 Dowiedz się, jak przekonwertować SVG do XPS za pomocą Aspose.HTML dla .NET. Przyspiesz rozwój swoich stron internetowych dzięki tej potężnej bibliotece.
 ### [Jak włączyć antyaliasing w C# – Gładkie krawędzie](./how-to-enable-antialiasing-in-c-smooth-edges/)
 Dowiedz się, jak w C# włączyć antyaliasing, aby uzyskać płynne krawędzie w renderowanych grafikach.
+### [Jak włączyć antyaliasing w C# – Kompletny przewodnik po stylach czcionek](./how-to-enable-antialiasing-in-c-complete-font-style-guide/)
+Dowiedz się, jak w C# włączyć antyaliasing i kontrolować style czcionek, aby uzyskać wyraźny i płynny tekst w renderowanych grafikach.
 
 ## Wniosek
 
