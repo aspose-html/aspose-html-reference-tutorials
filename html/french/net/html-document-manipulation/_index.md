@@ -72,6 +72,8 @@ Libérez le potentiel du développement Web avec Aspose.HTML pour .NET. Créez, 
 
 ### [Créer du HTML à partir d'une chaîne en C# – Guide du gestionnaire de ressources personnalisé](./create-html-from-string-in-c-custom-resource-handler-guide/)
 Apprenez à générer du HTML à partir d'une chaîne C# en utilisant un gestionnaire de ressources personnalisé avec Aspose.HTML.
+### [Enregistrer du HTML avec Aspose.HTML – Guide étape par étape](./how-to-save-html-with-aspose-html-step-by-step-guide/)
+Apprenez à enregistrer des fichiers HTML en utilisant Aspose.HTML grâce à un guide détaillé étape par étape.
 
 ## Conclusion
 
