@@ -61,7 +61,7 @@ Jeśli wolisz obrazy bezstratne, **convert EPUB to PNG**. PNG obsługuje przezro
 Gdy potrzebujesz wysokiej rozdzielczości, wielostronicowych plików TIFF, Aspose.HTML może renderować każdą stronę EPUB jako osobny obraz TIFF lub połączyć je w dokument wielostronicowy TIFF.
 
 ## Określanie własnego dostawcy strumienia dla konwersji EPUB na obraz
-Personalizacja jest kluczowa. Dowiedz się, jak określić własny dostawcę strumienia przy konwersji EPUB na obrazy przy użyciu Aspose.HTML for Java. Daje to pełną kontrolę nad miejscem i sposobem zapisu danych obrazu (np. do usługi przechowywania w chmurze).
+Personalizacja jest kluczowa. Dowiedz się, jak określić własny dostawca strumienia przy konwersji EPUB na obrazy przy użyciu Aspose.HTML for Java. Daje to pełną kontrolę nad miejscem i sposobem zapisu danych obrazu (np. do usługi przechowywania w chmurze).
 
 ## Określanie opcji zapisu obrazu dla konwersji EPUB na obraz
 Zrozumienie opcji zapisu obrazu jest niezbędne do udanej konwersji. Nasz przewodnik obejmuje wymagania wstępne, importy pakietów oraz cały proces konwersji, co czyni go prostym w użyciu.
@@ -80,6 +80,8 @@ Dowiedz się, jak konwertować EPUB do GIF przy użyciu Aspose.HTML for Java. Pr
 Dowiedz się, jak konwertować EPUB do JPG przy użyciu Aspose.HTML for Java. Postępuj zgodnie z naszym przewodnikiem krok po kroku i wykorzystaj moc Aspose.HTML.
 ### [Konwersja EPUB do PNG](./convert-epub-to-png/)
 Dowiedz się, jak konwertować EPUB do PNG w Javie przy użyciu Aspose.HTML for Java. Przewodnik krok po kroku dla płynnej konwersji.
+### [Konwersja EPUB do PNG w Javie – Kompletny przewodnik krok po kroku](./convert-epub-to-png-with-java-complete-step-by-step-guide/)
+Dowiedz się, jak konwertować EPUB do PNG w Javie przy użyciu Aspose.HTML for Java – kompletny przewodnik krok po kroku.
 ### [Konwersja EPUB do TIFF](./convert-epub-to-tiff/)
 Dowiedz się, jak konwertować pliki EPUB na obrazy TIFF w Javie z Aspose.HTML, potężną biblioteką do manipulacji HTML.
 ### [Określanie własnego dostawcy strumienia dla konwersji EPUB na obraz](./convert-epub-to-image-specify-custom-stream-provider/)

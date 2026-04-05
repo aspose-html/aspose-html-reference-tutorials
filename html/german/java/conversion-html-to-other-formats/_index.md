@@ -86,11 +86,17 @@ Zusammenfassend eröffnet das Beherrschen von **html to pdf java** und der breit
 ### [Konvertierung von HTML zu PDF](./convert-html-to-pdf/)
 Erfahren Sie, wie Sie HTML in Java mit Aspose.HTML zu PDF konvertieren. Erstellen Sie mühelos hochwertige PDFs aus Ihrem HTML‑Inhalt.
 
+### [PDF aus HTML in Java – Vollständige Schritt‑für‑Schritt‑Anleitung](./create-pdf-from-html-in-java-complete-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.HTML in Java PDFs aus HTML erstellen – detaillierte Schritt‑für‑Schritt‑Anleitung.
+
 ### [HTML zu PDF in Java – Schritt‑für‑Schritt‑Anleitung mit Seitengrößeneinstellungen](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Erfahren Sie, wie Sie HTML in Java zu PDF konvertieren und dabei die Seitengröße präzise festlegen.
 
 ### [Konvertierung von HTML zu MHTML](./convert-html-to-mhtml/)
 Konvertieren Sie HTML mühelos zu MHTML mit Aspose.HTML für Java. Folgen Sie unserer Schritt‑für‑Schritt‑Anleitung für eine effiziente HTML‑zu‑MHTML‑Konvertierung.
+
+### [Konvertierung von HTML zu Markdown in Java – Schritt‑für‑Schritt‑Anleitung](./convert-html-to-markdown-in-java-step-by-step-guide/)
+Erfahren Sie, wie Sie HTML in Java mit Aspose.HTML zu Markdown konvertieren – detaillierte Schritt‑für‑Schritt‑Anleitung.
 
 ### [Konvertierung von HTML zu XPS](./convert-html-to-xps/)
 Erfahren Sie, wie Sie HTML mühelos zu XPS mit Aspose.HTML für Java konvertieren. Erstellen Sie plattformübergreifende Dokumente mit Leichtigkeit.
@@ -106,6 +112,9 @@ Konvertieren Sie SVG in Java mit Aspose.HTML zu PDF. Eine nahtlose Lösung für 
 
 ### [Konvertierung von SVG zu XPS](./convert-svg-to-xps/)
 Erfahren Sie, wie Sie SVG mit Aspose.HTML für Java zu XPS konvertieren. Einfache, Schritt‑für‑Schritt‑Anleitung für reibungslose Konvertierungen.
+
+### [PDF‑Seitengröße mit Aspose HTML zu PDF in Java festlegen](./set-pdf-page-size-with-aspose-html-to-pdf-in-java/)
+Erfahren Sie, wie Sie die Seitengröße von PDFs beim Konvertieren von HTML mit Aspose HTML zu PDF in Java festlegen.
 
 ## Häufig gestellte Fragen
 

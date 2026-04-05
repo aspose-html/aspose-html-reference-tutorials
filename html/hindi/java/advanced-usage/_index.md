@@ -127,7 +127,12 @@ Aspose.HTML for Java का उपयोग करके PDF पेज आका
 ### [Aspose.HTML for Java के साथ XPS पेज आकार समायोजित करें](./adjust-xps-page-size/)
 Aspose.HTML for Java का उपयोग करके XPS पेज आकार को कैसे समायोजित करें, जानें। अपने XPS दस्तावेज़ों के आउटपुट आयाम को आसानी से नियंत्रित करें।  
 ### [Java में JavaScript चलाना – पूर्ण गाइड](./how-to-run-javascript-in-java-complete-guide/)
-Java एप्लिकेशन में JavaScript को एम्बेड और निष्पादित करने के चरण‑दर‑चरण निर्देश।  
+### [Java में डिवाइस पिक्सेल अनुपात सेट करें – मोबाइल सिमुलेशन गाइड](./set-device-pixel-ratio-in-java-mobile-simulation-guide/)
+Java में डिवाइस पिक्सेल अनुपात को सेट करके मोबाइल डिवाइस की स्क्रीन रेज़ोल्यूशन का सिमुलेशन कैसे करें, सीखें।  
+### [Java HTMLDocument में JavaScript को सक्षम करने का तरीका – चरण‑दर‑चरण गाइड](./how-to-enable-javascript-in-java-htmldocument-step-by-step-g/)
+Aspose.HTML for Java का उपयोग करके Java HTMLDocument में JavaScript निष्पादन को कैसे सक्षम करें, चरण‑दर‑चरण सीखें।  
+### [जावा मल्टीथ्रेडिंग ट्यूटोरियल: फिक्स्ड थ्रेड पूल के साथ टास्क समानांतर चलाएँ](./java-multithreading-tutorial-run-tasks-parallel-with-fixed-t/)
+फिक्स्ड थ्रेड पूल का उपयोग करके जावा में टास्क को समानांतर रूप से चलाने की प्रक्रिया सीखें।
 
 ---
 

@@ -69,7 +69,7 @@ Memahami opsi penyimpanan gambar sangat penting untuk konversi yang berhasil. Pa
 ## Mengonversi EPUB ke Gambar dengan Satu Baris Kode
 Bagi mereka yang mengutamakan kesederhanaan, Anda dapat melakukan seluruh konversi dalam satu baris kode Java menggunakan metode `save` dengan opsi yang sesuai.
 
-Dengan mengikuti tutorial ini, Anda akan menguasai seni mengonversi file EPUB ke berbagai format gambar menggunakan Aspose.HTML untuk Java. Baik Anda pemula maupun pengembang berpengalaman, pendekatan langkah‑demi‑langkah kami akan membuat proses menjadi lancar dan efisien. Ucapkan selamat tinggal pada konversi yang rumit dan sambut solusi yang andal serta berkualitas tinggi.
+Dengan mengikuti tutorial ini, Anda akan menguasai seni mengonversi file EPUB ke berbagai format gambar menggunakan Aspose.HTML untuk Java. Baik Anda pemula maupun pengembang berpengalaman, pendekatan langkah‑demi‑step kami akan membuat proses menjadi lancar dan efisien. Ucapkan selamat tinggal pada konversi yang rumit dan sambut solusi yang andal serta berkualitas tinggi.
 
 ## Tutorial Mengonversi Antara EPUB dan Format Gambar
 ### [Mengonversi EPUB ke BMP](./convert-epub-to-bmp/)
@@ -80,6 +80,8 @@ Pelajari cara mengonversi EPUB ke GIF menggunakan Aspose.HTML untuk Java. Sederh
 Pelajari cara mengonversi EPUB ke JPG menggunakan Aspose.HTML untuk Java. Ikuti panduan langkah‑demi‑langkah kami dan manfaatkan kekuatan Aspose.HTML.
 ### [Mengonversi EPUB ke PNG](./convert-epub-to-png/)
 Pelajari cara mengonversi EPUB ke PNG di Java menggunakan Aspose.HTML untuk Java. Panduan langkah‑demi‑langkah untuk konversi yang mulus.
+### [Mengonversi EPUB ke PNG dengan Java – Panduan Lengkap Langkah‑demi‑Langkah](./convert-epub-to-png-with-java-complete-step-by-step-guide/)
+Pelajari cara mengonversi EPUB ke PNG menggunakan Aspose.HTML untuk Java dengan panduan lengkap langkah‑demi‑langkah.
 ### [Mengonversi EPUB ke TIFF](./convert-epub-to-tiff/)
 Pelajari cara mengonversi file EPUB ke gambar TIFF di Java dengan Aspose.HTML, sebuah perpustakaan manipulasi HTML yang kuat.
 ### [Menentukan Penyedia Aliran Kustom untuk Konversi EPUB ke Gambar](./convert-epub-to-image-specify-custom-stream-provider/)

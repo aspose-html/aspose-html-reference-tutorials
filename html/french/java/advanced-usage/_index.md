@@ -21,7 +21,7 @@ Dans le développement web moderne, affiner l’apparence de votre sortie HTML p
 ## Réponses rapides
 - **Comment ajouter des numéros de page à un document HTML ?** Utilisez l’API `PageSetup` pour définir un pied de page qui insère le texte de remplacement du numéro de page.  
 - **Puis‑je générer un PDF à partir de HTML avec des marges personnalisées ?** Oui – combinez `HtmlLoadOptions` avec `PdfSaveOptions` et définissez les marges souhaitées.  
-- **Quelle méthode permet de surveiller les changements du DOM ?** Implémentez un `DomMutationObserver` et abonnez‑vous aux événements d’ajout de nœuds.  
+- **Quelle méthode permet de surveiller les changements du DOM ?** Implémentez un `DomMutationObserver` et abonne‑vous aux événements d’ajout de nœuds.  
 - **Est‑il possible de convertir du HTML en XPS tout en contrôlant la taille de la page ?** Absolument ; le `XpsSaveOptions` vous permet de spécifier des dimensions exactes.  
 - **Ai‑je besoin d’une licence pour une utilisation en production ?** Une licence commerciale Aspose.HTML for Java est requise pour les déploiements non‑essai.
 
@@ -128,6 +128,12 @@ Apprenez à ajuster la taille de page PDF avec Aspose.HTML for Java. Créez des 
 Apprenez à ajuster la taille de page XPS avec Aspose.HTML for Java. Contrôlez facilement les dimensions de sortie de vos documents XPS.  
 ### [Comment exécuter du JavaScript en Java – Guide complet](./how-to-run-javascript-in-java-complete-guide/)
 Apprenez à exécuter du code JavaScript depuis Java en utilisant Aspose.HTML, avec des exemples complets et des meilleures pratiques.  
+### [Définir le ratio de pixels de l’appareil en Java – Guide de simulation mobile](./set-device-pixel-ratio-in-java-mobile-simulation-guide/)
+Apprenez à simuler différents ratios de pixels d’écran mobile en Java avec Aspose.HTML pour des rendus précis.  
+### [Comment activer JavaScript dans Java HTMLDocument – Guide étape par étape](./how-to-enable-javascript-in-java-htmldocument-step-by-step-g/)
+Apprenez à activer JavaScript dans Java HTMLDocument avec Aspose.HTML, étape par étape, pour exécuter du code client côté serveur.  
+### [Tutoriel multithreading Java : exécuter des tâches en parallèle avec un pool de threads fixe](./java-multithreading-tutorial-run-tasks-parallel-with-fixed-t/)
+Apprenez à exécuter des tâches en parallèle avec un FixedThreadPool en Java, en utilisant Aspose.HTML.  
 
 ---
 
