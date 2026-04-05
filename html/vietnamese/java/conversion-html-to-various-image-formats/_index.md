@@ -83,16 +83,18 @@ Sử dụng Aspose.HTML for Java đơn giản hoá việc chuyển đổi tài l
 
 ## Chuyển đổi - Hướng dẫn HTML sang Các Định dạng Hình ảnh Khác nhau
 ### [Converting HTML to BMP](./convert-html-to-bmp/)
-Chuyển đổi HTML sang BMP với Aspose.HTML for Java. Một hướng dẫn toàn diện để chuyển đổi tài liệu HTML thành hình ảnh BMP một cách liền mạch bằng Aspose.HTML for Java.
 ### [Converting HTML to GIF](./convert-html-to-gif/)
-Tìm hiểu cách convert HTML to GIF trong Java bằng Aspose.HTML. Một hướng dẫn chi tiết từng bước cho việc chuyển đổi HTML‑to‑GIF hiệu quả.
 ### [Converting HTML to JPEG](./convert-html-to-jpeg/)
-Học cách convert HTML to JPEG với Aspose.HTML for Java. Hướng dẫn từng bước để xử lý tài liệu một cách liền mạch.
 ### [Converting HTML to PNG](./convert-html-to-png/)
-Tìm hiểu cách convert HTML to PNG trong Java với Aspose.HTML. Một hướng dẫn toàn diện với các bước chi tiết.
 ### [Converting HTML to TIFF](./convert-html-to-tiff/)
 Tìm hiểu cách dễ dàng convert HTML to TIFF bằng Aspose.HTML for Java. Hướng dẫn từng bước cho việc xử lý tài liệu hiệu quả.
 ### [Chuyển đổi HTML sang WebP – Hướng dẫn Java đầy đủ với Aspose.HTML](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
+
+### [Tạo GIF từ SVG với Java – Hướng dẫn chi tiết từng bước](./create-gif-from-svg-with-java-full-step-by-step-guide/)
+Hướng dẫn đầy đủ cách chuyển đổi SVG thành GIF trong Java bằng Aspose.HTML, bao gồm mã mẫu và các mẹo tối ưu.
+
+### [Cách Sử Dụng Sandbox Để Chụp Ảnh Màn Hình Trang Web](./how-to-use-sandbox-to-capture-webpage-screenshot/)
+Hướng dẫn chi tiết cách sử dụng Sandbox của Aspose.HTML để chụp ảnh màn hình trang web trong Java.
 
 ## Câu hỏi thường gặp
 

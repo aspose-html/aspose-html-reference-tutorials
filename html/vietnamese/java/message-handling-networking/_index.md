@@ -50,6 +50,11 @@ Học cách thực hiện các yêu cầu web bằng Aspose.HTML cho Java với 
 Tìm hiểu cách chuyển đổi tệp ZIP sang ảnh JPG bằng Aspose.HTML cho Java với hướng dẫn từng bước này.
 ### [Chuyển đổi ZIP sang PDF bằng Aspose.HTML cho Java](./zip-to-pdf/)
 Dễ dàng chuyển đổi tệp ZIP sang PDF bằng Aspose.HTML cho Java với hướng dẫn từng bước này.
+### [Lấy JSON JavaScript trong Java với Aspose HTML – Hướng Dẫn Toàn Diện](./fetch-json-javascript-in-java-with-aspose-html-complete-guid/)
+Hướng dẫn chi tiết cách sử dụng Aspose HTML trong Java để fetch dữ liệu JSON từ JavaScript, bao gồm các bước cài đặt và ví dụ thực tế.
+### [Thiết lập Header Ủy quyền trong Java – Hướng Dẫn Toàn Diện để Tải HTML từ URL](./set-authorization-header-in-java-complete-guide-to-load-html/)
+Tìm hiểu cách thiết lập header ủy quyền trong Java để tải HTML từ URL bằng Aspose.HTML, qua hướng dẫn chi tiết từng bước.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

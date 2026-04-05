@@ -92,6 +92,8 @@ weight: 24
 ### [Converting HTML to GIF](./convert-html-to-gif/)
 了解如何使用 Aspose.HTML 在 Java 中将 HTML 转换为 GIF。一个完整的分步指南，帮助您高效完成 HTML 到 GIF 的转换。
 
+### [使用 Java 从 SVG 创建 GIF – 完整分步指南](./create-gif-from-svg-with-java-full-step-by-step-guide/)
+
 ### [Converting HTML to JPEG](./convert-html-to-jpeg/)
 学习使用 Aspose.HTML for Java 将 HTML 转换为 JPEG。一步步指南，助您实现无缝的文档处理。
 
@@ -103,6 +105,8 @@ weight: 24
 
 ### [将 HTML 转换为 WebP](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
 使用 Aspose.HTML for Java 将 HTML 转换为 WebP。完整的 Java 指南，帮助您轻松生成高质量的 WebP 图像。
+
+### [如何使用沙盒捕获网页截图](./how-to-use-sandbox-to-capture-webpage-screenshot/)
 
 ## 常见问题解答
 

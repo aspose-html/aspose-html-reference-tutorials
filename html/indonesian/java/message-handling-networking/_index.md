@@ -32,6 +32,9 @@ Membangun alur kerja penanganan pesan Anda sendiri dapat terasa seperti membangu
 ## Eksekusi Permintaan Web di Aspose.HTML untuk Java
  Menjalankan permintaan web adalah aspek penting lainnya dalam bekerja dengan Aspose.HTML untuk Java. Dari mengambil konten pihak ketiga hingga mengelola sumber daya jarak jauh, mengetahui cara melakukan tindakan ini dapat menjadi pengubah permainan.[Eksekusi Permintaan Web di Aspose.HTML untuk Java](./web-request-execution/)tutorial ini menawarkan uraian lengkap tentang cara mengirim dan menerima data secara efektif. Bayangkan seperti melakukan panggilan telepon: Anda ingin memastikan pesan Anda tersampaikan dengan lancar tanpa gangguan. Menguasai keterampilan ini memberdayakan Anda untuk memasukkan data tambahan ke dalam aplikasi Anda, yang meningkatkan kemampuan pemrosesan dokumen.
 
+### [Mengatur Header Otorisasi di Java – Panduan Lengkap Memuat HTML dari URL](./set-authorization-header-in-java-complete-guide-to-load-html/)
+Pelajari cara menambahkan header otorisasi pada permintaan Java untuk memuat konten HTML dari URL dengan Aspose.HTML.
+
 ## Mengonversi ZIP ke JPG dan PDF
  Pernahkah Anda perlu mengekstrak gambar dari file terkompresi dengan cepat?[Konversi ZIP ke JPG menggunakan Aspose.HTML untuk Java](./zip-to-jpg/) Dan[Konversi ZIP ke PDF dengan Aspose.HTML untuk Java](./zip-to-pdf/) tutorial menyediakan alat untuk tugas-tugas khusus ini. Mengonversi file tidak harus menjadi proses yang rumit—bisa semudah mengubah sketsa menjadi sebuah mahakarya. Panduan ini menguraikan langkah-langkah untuk membantu Anda mengonversi file ZIP secara efisien, memamerkan fleksibilitas Aspose.HTML untuk Java.
 
@@ -50,6 +53,8 @@ Pelajari cara menjalankan permintaan web menggunakan Aspose.HTML untuk Java deng
 Pelajari cara mengonversi file ZIP ke gambar JPG menggunakan Aspose.HTML untuk Java dengan panduan langkah demi langkah ini.
 ### [Konversi ZIP ke PDF dengan Aspose.HTML untuk Java](./zip-to-pdf/)
 Konversikan file ZIP Anda ke PDF dengan mudah menggunakan Aspose.HTML untuk Java dengan panduan langkah demi langkah ini.
+### [Mengambil JSON JavaScript di Java dengan Aspose HTML – Panduan Lengkap](./fetch-json-javascript-in-java-with-aspose-html-complete-guid/)
+Pelajari cara mengambil data JSON menggunakan JavaScript di Java dengan Aspose HTML dalam panduan lengkap ini.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
