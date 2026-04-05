@@ -63,6 +63,8 @@ Uvolněte sílu Aspose.HTML pro .NET. Naučte se snadno vytvářet, manipulovat 
 Vytvářejte podmanivý webový obsah s Aspose.HTML pro .NET. Naučte se manipulovat s HTML, CSS a dalšími.
 ### [Uložení dokumentu v .NET pomocí Aspose.HTML](./saving-a-document/)
 Odemkněte sílu Aspose.HTML pro .NET pomocí našeho podrobného průvodce. Naučte se vytvářet, manipulovat a převádět dokumenty HTML a SVG
+### [Jak uložit HTML pomocí Aspose.HTML – krok za krokem](./how-to-save-html-with-aspose-html-step-by-step-guide/)
+Naučte se, jak pomocí Aspose.HTML uložit HTML soubory pomocí podrobného průvodce krok za krokem.
 ### [Sloučit HTML s Json v .NET s Aspose.HTML](./merge-html-with-json/)
 Naučte se vytvářet dynamický a webový obsah pomocí Aspose.HTML pro .NET. Posilte svou online přítomnost a zapojte své publikum.
 ### [Sloučit HTML s XML v .NET s Aspose.HTML](./merge-html-with-xml/)

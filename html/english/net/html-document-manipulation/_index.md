@@ -65,6 +65,8 @@ Learn how to generate HTML from a string using a custom resource handler in C# w
 Create captivating web content with Aspose.HTML for .NET. Learn how to manipulate HTML, CSS, and more.
 ### [Saving a Document in .NET with Aspose.HTML](./saving-a-document/)
 Unlock the power of Aspose.HTML for .NET with our step-by-step guide. Learn to create, manipulate, and convert HTML and SVG documents
+### [How to Save HTML with Aspose.Html – Step‑by‑Step Guide](./how-to-save-html-with-aspose-html-step-by-step-guide/)
+Step-by-step guide on saving HTML content using Aspose.HTML for .NET, covering code examples and best practices.
 ### [Merge HTML with Json in .NET with Aspose.HTML](./merge-html-with-json/)
 Learn to create dynamic and web content using Aspose.HTML for .NET. Empower your online presence and engage your audience.
 ### [Merge HTML with XML in .NET with Aspose.HTML](./merge-html-with-xml/)
