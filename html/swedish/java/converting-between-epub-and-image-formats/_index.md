@@ -73,18 +73,28 @@ Genom att följa dessa handledningar kommer du att behärska konsten att konvert
 ## Konvertera mellan EPUB‑ och bildformat‑handledningar
 ### [Konvertera EPUB till BMP](./convert-epub-to-bmp/)
 Lär dig hur du konverterar EPUB‑filer till BMP‑bilder med Aspose.HTML för Java med denna enkla steg‑för‑steg‑guide.  
+
 ### [Konvertera EPUB till GIF](./convert-epub-to-gif/)
 Lär dig hur du konverterar EPUB till GIF med Aspose.HTML för Java. Enkelt, effektivt och pålitligt.  
+
 ### [Konvertera EPUB till JPG](./convert-epub-to-jpg/)
 Lär dig hur du konverterar EPUB till JPG med Aspose.HTML för Java. Följ vår steg‑för‑steg‑guide och utnyttja kraften i Aspose.HTML.  
+
 ### [Konvertera EPUB till PNG](./convert-epub-to-png/)
 Lär dig hur du konverterar EPUB till PNG i Java med Aspose.HTML för Java. Steg‑för‑steg‑guide för sömlös konvertering.  
+
+### [Konvertera EPUB till PNG med Java – Komplett steg‑för‑steg‑guide](./convert-epub-to-png-with-java-complete-step-by-step-guide/)
+Lär dig hur du konverterar EPUB till PNG med Java och Aspose.HTML i en komplett steg‑för‑steg‑guide.  
+
 ### [Konvertera EPUB till TIFF](./convert-epub-to-tiff/)
 Lär dig hur du konverterar EPUB‑filer till TIFF‑bilder i Java med Aspose.HTML, ett kraftfullt HTML‑manipuleringsbibliotek.  
+
 ### [Ange anpassad stream‑provider för EPUB‑till‑bild‑konvertering](./convert-epub-to-image-specify-custom-stream-provider/)
 Lär dig hur du konverterar EPUB till bilder med Aspose.HTML för Java. Steg‑för‑steg‑guide för sömlös konvertering.  
+
 ### [Ange Image Save Options för EPUB‑till‑bild‑konvertering](./convert-epub-to-image-specify-image-save-options/)
 Lär dig hur du konverterar EPUB‑filer till bilder med Aspose.HTML för Java. Denna steg‑för‑steg‑guide täcker förutsättningar, paket‑importer och konverteringsprocessen.  
+
 ### [Konvertera EPUB till bild med en enda kodrad](./convert-epub-to-image-single-line/)
 Lär dig hur du konverterar EPUB till bilder med Aspose.HTML för Java. Steg‑för‑steg‑guide för enkla konverteringar.
 
