@@ -58,6 +58,9 @@ Naučte se vykreslovat více dokumentů HTML pomocí Aspose.HTML pro .NET. Zvyš
 ### [Renderujte SVG Doc jako PNG v .NET pomocí Aspose.HTML](./render-svg-doc-as-png/)
 Odemkněte sílu Aspose.HTML pro .NET! Naučte se, jak snadno vykreslit dokument SVG jako PNG. Ponořte se do podrobných příkladů a nejčastějších dotazů. Začněte hned!
 
+### [Renderujte HTML do PNG a ZIP v paměti – Kompletní průvodce C#](./render-html-to-png-and-zip-in-memory-complete-c-guide/)
+Kompletní návod, jak pomocí Aspose.HTML v .NET vykreslit HTML do PNG a vytvořit ZIP archiv v paměti s podrobnými ukázkami.
+
 ### [Jak vykreslit HTML jako PNG – Kompletní průvodce C#](./how-to-render-html-as-png-complete-c-guide/)
 Kompletní průvodce v C#, jak pomocí Aspose.HTML převést HTML do PNG formátu s podrobnými ukázkami.
 
@@ -66,6 +69,7 @@ Naučte se, jak pomocí Aspose.HTML v .NET převést HTML do PNG pomocí podrobn
 
 ### [Jak vykreslit HTML do PNG pomocí Aspose – Kompletní průvodce](./how-to-render-html-to-png-with-aspose-complete-guide/)
 Kompletní návod, jak pomocí Aspose.HTML v .NET převést HTML soubory do PNG s podrobnými kroky a tipy.
+
 ### [Vytvořte PNG z HTML – Kompletní průvodce renderováním v C#](./create-png-from-html-full-c-rendering-guide/)
 Naučte se, jak pomocí Aspose.HTML pro .NET převést HTML do PNG pomocí kompletního C# průvodce.
 

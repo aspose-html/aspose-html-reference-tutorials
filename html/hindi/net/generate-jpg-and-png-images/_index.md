@@ -43,8 +43,14 @@ Aspose.HTML for .NET को अपने .NET प्रोजेक्ट मे
 HTML दस्तावेज़ों में हेरफेर करने, HTML को छवियों में बदलने, और बहुत कुछ करने के लिए .NET के लिए Aspose.HTML का उपयोग करना सीखें। FAQ के साथ चरण-दर-चरण ट्यूटोरियल।
 ### [DOCX को PNG/JPG में बदलते समय एंटीएलियासिंग कैसे सक्षम करें](./how-to-enable-antialiasing-when-converting-docx-to-png-jpg/)
 DOCX फ़ाइलों को PNG या JPG में परिवर्तित करते समय एंटीएलियासिंग को सक्षम करने के चरणों को जानें।
+### [एंटीएलियासिंग कैसे सक्षम करें – C# के साथ दस्तावेज़ को इमेज में निर्यात करें](./how-to-enable-antialiasing-export-document-to-image-with-c/)
+C# में दस्तावेज़ को इमेज में निर्यात करते समय एंटीएलियासिंग को सक्षम करने के चरणों को सीखें।
 ### [DOCX को PNG में परिवर्तित करें – ZIP आर्काइव बनाएं C# ट्यूटोरियल](./convert-docx-to-png-create-zip-archive-c-tutorial/)
 C# में DOCX फ़ाइलों को PNG छवियों में बदलें और उन्हें ZIP आर्काइव में संकलित करना सीखें। चरण-दर-चरण मार्गदर्शिका।
+### [Aspose.HTML के साथ HTML से इमेज बनाएं – पूर्ण चरण‑दर‑चरण गाइड](./create-image-from-html-with-aspose-html-complete-step-by-ste/)
+Aspose.HTML का उपयोग करके HTML को इमेज में बदलने की पूरी प्रक्रिया को चरण‑दर‑चरण सीखें।
+### [Word से PNG बनाएं – चरण‑दर‑चरण C# गाइड](./create-png-from-word-step-by-step-c-guide/)
+C# में Word दस्तावेज़ को PNG छवि में बदलने की प्रक्रिया को चरण‑दर‑चरण सीखें।
 
 ## निष्कर्ष
 
