@@ -60,6 +60,8 @@ url: /el/java/creating-managing-html-documents/
 Μάθετε πώς να δημιουργείτε νέα έγγραφα HTML χρησιμοποιώντας το Aspose.HTML για Java με αυτόν τον εύκολο, βήμα προς βήμα οδηγό. Ξεκινήστε τη δημιουργία δυναμικού περιεχομένου HTML.
 ### [Δημιουργία sandbox για HTML σε Java – Οδηγός βήμα‑βήμα](./create-sandbox-for-html-in-java-step-by-step-guide/)
 Μάθετε πώς να δημιουργήσετε ένα sandbox HTML σε Java με οδηγίες βήμα‑βήμα, για ασφαλή και απομονωμένη επεξεργασία HTML.
+### [Εκτέλεση πολλαπλών νημάτων στην Java – χρήση try‑with‑resources](./run-multiple-threads-java-use-try-with-resources-java/)
+Μάθετε πώς να εκτελείτε πολλαπλά νήματα στην Java χρησιμοποιώντας τη δήλωση try‑with‑resources για ασφαλή διαχείριση πόρων.
 ### [Χειριστείτε συμβάντα φόρτωσης εγγράφου στο Aspose.HTML για Java](./handle-document-load-events/)
 Μάθετε να χειρίζεστε συμβάντα φόρτωσης εγγράφων στο Aspose.HTML για Java με αυτόν τον οδηγό βήμα προς βήμα. Βελτιώστε τις διαδικτυακές εφαρμογές σας.
 ### [Δημιουργία και διαχείριση εγγράφων SVG στο Aspose.HTML για Java](./create-manage-svg-documents/)

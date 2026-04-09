@@ -47,7 +47,7 @@ Néha a stílusokat közvetlenül a HTML-dokumentumban kell alkalmazni. Itt jön
 ### [Szerkessze a HTML-dokumentumfát az Aspose.HTML for Java-ban](./edit-html-document-tree/)
 Fedezze fel, hogyan kezelhet HTML-dokumentumokat az Aspose.HTML for Java használatával. Lépésről lépésre szóló útmutató a hatékony tartalomkezeléshez.
 ### [Fejlett HTML-dokumentumfa-szerkesztés az Aspose.HTML for Java-ban](./advanced-html-document-tree-editing/)
-Fedezze fel, hogyan szerkeszthet HTML-dokumentumokat az Aspose.HTML for Java használatával ezzel a lépésenkénti útmutatóval, beleértve a stílusok, bekezdések létrehozását és a PDF-be konvertálást.
+Fedezze fel, hogyan szerkeszthet HTML-dokumentumokat az Aspose.HTML for Java használatával ezzel a lépésről lépésre útmutatóval, beleértve a stílusok, bekezdések létrehozását és a PDF-be konvertálást.
 ### [Alkalmazzon külső CSS-t a HTML-dokumentumokra az Aspose.HTML for Java-ban](./apply-external-css-html-documents/)
 Fedezze fel, hogyan alkalmazhat külső CSS-t HTML-dokumentumokra az Aspose.HTML for Java használatával! Kövesse ezt a lépésről lépésre szóló útmutatót a teljes oktatóanyaghoz.
 ### [Fejlett külső CSS-szerkesztés az Aspose.HTML for Java segítségével](./advanced-external-css-editing/)
@@ -60,6 +60,8 @@ Ezzel a lépésről lépésre szóló útmutatóval megtudhatja, hogyan kezelhet
 Ismerje meg a belső CSS-t HTML-dokumentumokban az Aspose.HTML for Java használatával az egyszerű, lépésről lépésre oktatóanyagunk segítségével.
 ### [Fixed thread pool Java – Párhuzamos HTML tisztítás ExecutorService használatával](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 Ismerje meg, hogyan használhatja a FixedThreadPool-t a HTML dokumentumok párhuzamos tisztításához az ExecutorService segítségével.
+### [HTML kinyerése Java-ban – Szöveg kinyerése és szavak kiemelése](./how-to-extract-html-in-java-extract-text-highlight-words/)
+Ismerje meg, hogyan nyerhet ki HTML-t Java-ban, szöveget és kiemelheti a szavakat egy egyszerű, lépésről lépésre útmutatóval.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

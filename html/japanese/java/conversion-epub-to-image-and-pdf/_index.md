@@ -64,6 +64,8 @@ Converting an EPUB file to PDF means taking the reflowable, web‑based e‑book
 Learn how to convert EPUB to image using Aspose.HTML for Java. A simple, step‑by‑step guide for efficient conversions.
 ### [EPUB to PDF Conversion with Aspose.HTML for Java](./convert-epub-to-pdf/)
 Learn how to convert EPUB to PDF with Aspose.HTML for Java. This step‑by‑step guide covers prerequisites, package imports, and code examples. Get started with EPUB to PDF conversion.
+### [JavaでEPUBをPNGに変換 – 画像サイズを設定する](./convert-epub-to-png-in-java-set-image-dimensions/)
+JavaでEPUBをPNG画像に変換し、出力サイズを指定する方法を解説します。
 
 ## Frequently Asked Questions
 

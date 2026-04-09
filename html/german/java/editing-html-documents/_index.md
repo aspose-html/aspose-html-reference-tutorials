@@ -60,6 +60,8 @@ Erfahren Sie mit dieser Schritt-für-Schritt-Anleitung, wie Sie innere und äuß
 Lernen Sie mit unserem einfachen Schritt-für-Schritt-Tutorial, mit Aspose.HTML für Java internes CSS in HTML-Dokumenten zu implementieren.
 ### [Fixed Thread Pool Java – Parallel HTML-Bereinigung mit ExecutorService](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 Erfahren Sie, wie Sie mit einem Fixed Thread Pool und ExecutorService HTML-Dokumente parallel bereinigen und die Leistung steigern.
+### [HTML in Java extrahieren – Text extrahieren und Wörter hervorheben](./how-to-extract-html-in-java-extract-text-highlight-words/)
+Entdecken Sie, wie Sie mit Aspose.HTML für Java HTML extrahieren, Text auslesen und bestimmte Wörter hervorheben – Schritt für Schritt.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

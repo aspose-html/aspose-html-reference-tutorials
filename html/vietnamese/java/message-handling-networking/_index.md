@@ -50,6 +50,9 @@ Học cách thực hiện các yêu cầu web bằng Aspose.HTML cho Java với 
 Tìm hiểu cách chuyển đổi tệp ZIP sang ảnh JPG bằng Aspose.HTML cho Java với hướng dẫn từng bước này.
 ### [Chuyển đổi ZIP sang PDF bằng Aspose.HTML cho Java](./zip-to-pdf/)
 Dễ dàng chuyển đổi tệp ZIP sang PDF bằng Aspose.HTML cho Java với hướng dẫn từng bước này.
+### [Đặt user agent tùy chỉnh trong Java – Hướng dẫn tải trang web trong sandbox](./set-custom-user-agent-in-java-load-webpage-in-sandbox-tutori/)
+Hướng dẫn cách đặt user agent tùy chỉnh trong Java và tải trang web trong môi trường sandbox bằng Aspose.HTML.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -60,6 +60,8 @@ url: /ru/java/editing-html-documents/
 Научитесь внедрять внутренний CSS в HTML-документы с помощью Aspose.HTML для Java с помощью нашего простого пошагового руководства.
 ### [Фиксированный пул потоков Java – Параллельная очистка HTML с помощью ExecutorService](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 Узнайте, как использовать фиксированный пул потоков и ExecutorService для параллельной очистки HTML в Java.
+### [Как извлечь HTML в Java – извлечение текста и подсветка слов](./how-to-extract-html-in-java-extract-text-highlight-words/)
+Узнайте, как извлекать HTML в Java, получать текст из документа и подсвечивать выбранные слова с помощью Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -85,6 +85,8 @@ Sonuç olarak, **html to pdf java** ve daha geniş dönüşüm setine hâkim olm
 ## Dönüştürme - HTML'den Diğer Formatlara Eğitimleri
 ### [HTML'yi PDF'ye Dönüştürme](./convert-html-to-pdf/)
 HTML içeriğinizden sorunsuz bir şekilde yüksek kaliteli PDF'ler oluşturun.
+### [Java’da HTML'den PDF Oluşturma – Adım‑Adım Kılavuz](./create-pdf-from-html-in-java-step-by-step-guide/)
+Java’da HTML'den PDF oluşturmayı adım adım öğrenin, yüksek kalite ve tam kontrol elde edin.
 ### [HTML'yi PDF'ye Dönüştürme Java’da – Sayfa Boyutu Ayarlarıyla Adım‑Adım Kılavuz](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Java’da HTML'yi PDF'ye dönüştürürken sayfa boyutu ayarlarını nasıl yapılandıracağınızı adım adım gösterir.
 ### [HTML'yi MHTML'ye Dönüştürme](./convert-html-to-mhtml/)
@@ -99,6 +101,8 @@ Aspose.HTML ile Java'da SVG'yi görüntülere dönüştürmeyi öğrenin. Yükse
 Aspose.HTML ile Java'da SVG'yi PDF'ye dönüştürün. Yüksek kaliteli belge dönüşümü için sorunsuz bir çözüm.
 ### [SVG'yi XPS'ye Dönüştürme](./convert-svg-to-xps/)
 Aspose.HTML for Java ile SVG'yi XPS'ye dönüştürmeyi öğrenin. Sorunsuz dönüşümler için basit, adım adım rehber.
+### [Aspose HTML to PDF Java – Sayfa Kenar Boşlukları ve PDF/A‑2b](./aspose-html-to-pdf-in-java-add-page-margins-pdf-a-2b/)
+Java’da Aspose.HTML ile PDF’ye sayfa kenar boşlukları ekleyin ve PDF/A‑2b uyumluluğunu sağlayın.
 
 ## Sıkça Sorulan Sorular
 

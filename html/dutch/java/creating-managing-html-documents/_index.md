@@ -66,6 +66,8 @@ Leer SVG-documenten maken en beheren met Aspose.HTML voor Java! Deze uitgebreide
 Leer hoe u een veilige sandboxomgeving voor HTML in Java opzet met een stapsgewijze handleiding.
 ### [HTML opvragen in Java – Complete tutorial](./how-to-query-html-in-java-complete-tutorial/)
 Leer hoe u HTML kunt query'en in Java met deze volledige stap‑voor‑stap handleiding.
+### [Meerdere threads uitvoeren in Java – try-with-resources gebruiken](./run-multiple-threads-java-use-try-with-resources-java/)
+Leer hoe u meerdere threads in Java kunt uitvoeren en resources veilig beheert met try-with-resources.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

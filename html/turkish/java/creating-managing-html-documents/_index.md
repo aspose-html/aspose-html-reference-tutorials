@@ -66,6 +66,8 @@ Java için Aspose.HTML kullanarak SVG belgeleri oluşturmayı ve yönetmeyi öğ
 Java için Aspose.HTML kullanarak HTML sandbox oluşturmayı adım adım öğrenin.
 ### [Java için Aspose.HTML'de HTML Sorgulama – Tam Kılavuz](./how-to-query-html-in-java-complete-tutorial/)
 Java için Aspose.HTML kullanarak HTML içeriğini nasıl sorgulayacağınızı adım adım öğrenin.
+### [Java'da birden fazla iş parçacığı çalıştırma – try-with-resources kullanma](./run-multiple-threads-java-use-try-with-resources-java/)
+Java'da birden fazla iş parçacığını yönetirken try-with-resources yapısını nasıl kullanacağınızı adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
