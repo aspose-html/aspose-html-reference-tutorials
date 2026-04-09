@@ -83,8 +83,12 @@ Alakítsa át az SVG grafikákat XPS formátumba a készülékek közötti konzi
 ## Átalakítás - HTML más formátumokra oktatóanyagok
 ### [HTML átalakítása PDF-re](./convert-html-to-pdf/)
 Ismerje meg, hogyan konvertálhatja a HTML‑t PDF‑re Java‑ban az Aspose.HTML használatával. Készítsen magas minőségű PDF‑eket HTML tartalmából könnyedén.
+### [HTML átalakítása PDF-re – Lépésről‑lépésre útmutató](./create-pdf-from-html-in-java-step-by-step-guide/)
+Ismerje meg, hogyan hozhat létre PDF‑et HTML‑ből Java‑ban az Aspose.HTML‑el, részletes lépésekkel és beállítási tippekkel.
 ### [HTML átalakítása PDF-re – Lépésről‑lépésre útmutató oldalméret beállításokkal](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Ismerje meg, hogyan konvertálhatja a HTML‑t PDF‑re Java‑ban részletesen, oldalméret beállításokkal.
+### [Aspose HTML PDF-re Java-ban – Oldalmargók hozzáadása és PDF/A‑2b](./aspose-html-to-pdf-in-java-add-page-margins-pdf-a-2b/)
+Ismerje meg, hogyan adhat hozzá oldalmargókat és állíthatja be a PDF/A‑2b szabványt a konverzió során Java‑ban.
 ### [HTML átalakítása MHTML-re](./convert-html-to-mhtml/)
 Könnyedén konvertálja a HTML‑t MHTML‑re az Aspose.HTML for Java segítségével. Kövesse lépésről‑lépésre útmutatónkat a hatékony HTML‑MHTML átalakításhoz.
 ### [HTML átalakítása XPS-re](./convert-html-to-xps/)

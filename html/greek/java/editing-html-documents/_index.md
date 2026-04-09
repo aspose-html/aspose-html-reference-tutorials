@@ -60,6 +60,9 @@ url: /el/java/editing-html-documents/
 Μάθετε να εφαρμόζετε εσωτερικό CSS σε έγγραφα HTML χρησιμοποιώντας το Aspose.HTML για Java με τον εύκολο βήμα προς βήμα εκμάθησή μας.
 ### [Σταθερό thread pool Java – Παράλληλος καθαρισμός HTML με ExecutorService](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 Μάθετε πώς να χρησιμοποιήσετε ένα σταθερό thread pool σε Java για να εκτελείτε παράλληλο καθαρισμό HTML με την κλάση ExecutorService.
+### [Πώς να εξάγετε HTML σε Java – Εξαγωγή κειμένου & επισήμανση λέξεων](./how-to-extract-html-in-java-extract-text-highlight-words/)
+Μάθετε πώς να εξάγετε κείμενο από HTML σε Java και να επισημάνετε συγκεκριμένες λέξεις χρησιμοποιώντας το Aspose.HTML.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

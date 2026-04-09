@@ -37,7 +37,7 @@ Once you’ve got the basics of HTML document editing down, it’s time to level
 
 ## Applying External CSS Like a Pro
 
-External CSS is where the real power of web design comes into play. With the right CSS, you can transform a simple HTML page into a beautifully styled document. The tutorial on advanced external CSS editing is perfect for those who want to master the art of dynamic, responsive design. Imagine being able to apply complex styles across multiple HTML documents effortlessly—that’s what this tutorial offers. It’s your gateway to creating sleek, modern web pages that stand out. Don’t miss out on this valuable resource! [Read more](./advanced-external-css-editing/)
+External CSS is where the real power of web design does play. With the right CSS, you can transform a simple HTML page into a beautifully styled document. The tutorial on advanced external CSS editing is perfect for those who want to master the art of dynamic, responsive design. Imagine being able to apply complex styles across multiple HTML documents effortlessly—that’s what this tutorial offers. It’s your gateway to creating sleek, modern web pages that stand out. Don’t miss out on this valuable resource! [Read more](./advanced-external-css-editing/)
 
 ## Adding Inline and Internal CSS
 
@@ -56,6 +56,8 @@ Master the art of editing external CSS with Aspose.HTML for Java. This detailed,
 Learn how to add inline CSS to HTML documents using Aspose.HTML for Java. This step-by-step guide helps you style HTML and convert it to PDF with ease.
 ### [Manage Inner and Outer HTML Properties in Aspose.HTML for Java](./manage-inner-outer-html-properties/)
 Learn how to manage inner and outer HTML properties in Aspose.HTML for Java with this step-by-step guide, perfect for web developers and content creators.
+### [How to Extract HTML in Java – Extract Text & Highlight Words](./how-to-extract-html-in-java-extract-text-highlight-words/)
+Learn how to extract HTML content, retrieve text, and highlight specific words using Aspose.HTML for Java in this step-by-step guide.
 ### [Implement Internal CSS in HTML Documents with Aspose.HTML for Java](./implement-internal-css-html-documents/)
 Learn to implement internal CSS in HTML documents using Aspose.HTML for Java with our easy step-by-step tutorial.
 ### [Fixed thread pool java – Parallel HTML Cleaning with ExecutorService](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)

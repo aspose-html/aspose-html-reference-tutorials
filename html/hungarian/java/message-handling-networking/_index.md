@@ -49,7 +49,9 @@ Ezzel az átfogó, lépésenkénti útmutatóval megtudhatja, hogyan hajthat vé
 ### [Konvertálja a ZIP-t JPG-be az Aspose.HTML for Java segítségével](./zip-to-jpg/)
 Ebből a lépésről lépésre szóló útmutatóból megtudhatja, hogyan konvertálhat ZIP-fájlokat JPG-képekké az Aspose.HTML for Java használatával.
 ### [Konvertálja a ZIP-t PDF-be az Aspose.HTML for Java segítségével](./zip-to-pdf/)
-Könnyen konvertálhatja ZIP-fájljait PDF-be az Aspose.HTML for Java segítségével ezzel a lépésről lépésre szóló útmutatóval.
+Könnyen konvertálhatja ZIP-fájljait PDF-be az Aspose.HTML for Java segítségével ezzel a lépésről szóló útmutatóval.
+### [Egyéni felhasználói ügynök beállítása Java-ban – Weboldal betöltése sandboxban](./set-custom-user-agent-in-java-load-webpage-in-sandbox-tutori/)
+Ismerje meg, hogyan állíthat be egyedi felhasználói ügynököt Java-ban, és hogyan tölthet be weboldalakat biztonságos sandbox környezetben.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

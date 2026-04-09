@@ -66,6 +66,8 @@ url: /ar/java/creating-managing-html-documents/
 تعلم كيفية إنشاء بيئة تجريبية لمعالجة HTML في Java باستخدام Aspose.HTML من خلال دليل خطوة بخطوة.
 ### [كيفية الاستعلام عن HTML في Java – دليل كامل](./how-to-query-html-in-java-complete-tutorial/)
 تعلم كيفية استعلام ومعالجة مستندات HTML في Java باستخدام Aspose.HTML من خلال دليل شامل خطوة بخطوة.
+### [تشغيل عدة خيوط في Java – استخدام try-with-resources في Java](./run-multiple-threads-java-use-try-with-resources-java/)
+اكتشف كيفية تشغيل عدة خيوط في Java وإدارة الموارد باستخدام عبارة try‑with‑resources لضمان إغلاق الموارد بشكل آمن.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
