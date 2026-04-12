@@ -60,12 +60,18 @@ Descubra como carregar facilmente documentos HTML de uma URL em Java com Aspose.
 Aprenda a consultar e extrair dados de documentos HTML em Java usando Aspose.HTML com este tutorial passo a passo.
 ### [Gerar novos documentos HTML usando Aspose.HTML para Java](./generate-new-html-documents/)
 Aprenda como criar novos documentos HTML usando Aspose.HTML para Java com este guia passo a passo fácil. Comece a gerar conteúdo HTML dinâmico.
+### [Converter Markdown para HTML em Java – Guia passo a passo](./convert-markdown-to-html-in-java-step-by-step-guide/)
+Aprenda a converter documentos Markdown em HTML usando Aspose.HTML para Java com este guia passo a passo.
 ### [Manipular eventos de carregamento de documentos em Aspose.HTML para Java](./handle-document-load-events/)
 Aprenda a manipular eventos de carregamento de documentos no Aspose.HTML para Java com este guia passo a passo. Aprimore seus aplicativos da web.
 ### [Crie e gerencie documentos SVG em Aspose.HTML para Java](./create-manage-svg-documents/)
 Aprenda a criar e gerenciar documentos SVG usando Aspose.HTML para Java! Este guia abrangente cobre tudo, desde a criação básica até a manipulação avançada.
 ### [Criar sandbox para HTML em Java – Guia passo a passo](./create-sandbox-for-html-in-java-step-by-step-guide/)
 Aprenda a criar um sandbox para HTML em Java usando Aspose.HTML com este guia passo a passo.
+### [Renderizar HTML em Java – Guia completo para aguardar o carregamento da página e usar query selector](./render-html-in-java-complete-guide-to-waiting-for-page-load/)
+Aprenda a renderizar HTML em Java, esperar o carregamento da página e usar query selector com Aspose.HTML. Guia passo a passo.
+### [Selecionar div por classe em Java – Guia completo de XPath](./select-div-by-class-in-java-complete-xpath-guide/)
+Aprenda a selecionar elementos div por classe usando XPath em Java com Aspose.HTML. Guia passo a passo completo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

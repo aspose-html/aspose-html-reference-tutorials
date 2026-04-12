@@ -64,7 +64,15 @@ Pelajari cara menangani peristiwa pemuatan dokumen di Aspose.HTML untuk Java den
 Pelajari cara membuat dan mengelola dokumen SVG menggunakan Aspose.HTML untuk Java! Panduan komprehensif ini mencakup semuanya, mulai dari pembuatan dasar hingga manipulasi tingkat lanjut.
 ### [Buat Sandbox untuk HTML di Java – Panduan Langkah‑per‑Langkah](./create-sandbox-for-html-in-java-step-by-step-guide/)
 Pelajari cara membuat sandbox HTML di Java dengan panduan langkah demi langkah untuk pengujian dan pengembangan yang aman.
+### [Render HTML di Java – Panduan Lengkap Menunggu Pemuatan Halaman & Query Selector](./render-html-in-java-complete-guide-to-waiting-for-page-load/)
+Pelajari cara merender HTML di Java, menunggu halaman selesai dimuat, dan menggunakan query selector untuk mengekstrak elemen.
 ### [Cara Menanyakan HTML di Java – Tutorial Lengkap](./how-to-query-html-in-java-complete-tutorial/)
+
+### [Pilih div berdasarkan kelas di Java – Panduan XPath Lengkap](./select-div-by-class-in-java-complete-xpath-guide/)
+Pelajari cara memilih elemen div berdasarkan kelas menggunakan XPath di Java dengan panduan langkah demi langkah yang lengkap.
+
+### [Mengonversi Markdown ke HTML di Java – Panduan Langkah‑per‑Langkah](./convert-markdown-to-html-in-java-step-by-step-guide/)
+Pelajari cara mengonversi file Markdown menjadi HTML di Java dengan panduan langkah demi langkah kami.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

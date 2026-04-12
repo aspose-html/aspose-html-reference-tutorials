@@ -32,6 +32,8 @@ url: /hi/java/css-html-form-editing/
 इस व्यापक चरण-दर-चरण मार्गदर्शिका में Java के लिए Aspose.HTML का उपयोग करके HTML फ़ॉर्म को प्रोग्रामेटिक रूप से संपादित और सबमिट करना सीखें।
 ### [Java में क्लास द्वारा एलिमेंट चयन – पूर्ण गाइड](./select-element-by-class-in-java-complete-how-to-guide/)
 Java में Aspose.HTML का उपयोग करके क्लास द्वारा HTML एलिमेंट को चुनने और प्रोसेस करने की पूरी प्रक्रिया सीखें।
+### [Java में Aspose.HTML के साथ स्टाइल प्राप्त करने की चरण‑दर‑चरण गाइड](./how-to-get-style-in-java-with-aspose-html-step-by-step-guide/)
+Java में Aspose.HTML का उपयोग करके स्टाइल कैसे प्राप्त करें, इस चरण‑दर‑चरण गाइड में सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
