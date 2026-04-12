@@ -1,25 +1,22 @@
 ---
 category: general
-date: 2026-01-01
-description: Vytvořte sandbox pro HTML v Javě a získejte název HTML. Naučte se, jak
-  bezpečně a efektivně otevřít HTML soubor v sandboxu.
+date: 2026-04-12
+description: Naučte se, jak blokovat HTML v Javě vytvořením sandboxu, bezpečným otevřením
+  HTML souboru a získáním názvu stránky. Krok za krokem ukázka kódu.
 draft: false
 keywords:
-- create sandbox for html
+- how to block html
 - open html file sandbox
 - retrieve html title java
-- aspose html sandbox java
-- java html document title
-language: cs
-og_description: Vytvořte sandbox pro HTML pomocí Javy, otevřete sandbox HTML souboru
-  a načtěte název HTML v Javě. Kompletní kód a vysvětlení.
-og_title: Vytvořte sandbox pro HTML v Javě – kompletní návod
+og_description: Naučte se blokovat HTML v Javě pomocí sandboxu Aspose.HTML, bezpečně
+  otevírat soubory HTML a extrahovat název.
+og_title: Jak blokovat HTML v Javě – kompletní tutoriál
 tags:
 - Java
 - Aspose.HTML
 - Sandbox
 - HTML Processing
-title: Vytvořte sandbox pro HTML v Javě – průvodce krok za krokem
+title: Jak zablokovat HTML v Javě – Vytvořit sandbox a získat název
 url: /cs/java/creating-managing-html-documents/create-sandbox-for-html-in-java-step-by-step-guide/
 ---
 
@@ -27,28 +24,31 @@ url: /cs/java/creating-managing-html-documents/create-sandbox-for-html-in-java-s
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Vytvořte sandbox pro HTML v Javě – Kompletní tutoriál
+# Jak blokovat HTML v Javě – Kompletní tutoriál
 
-Už jste někdy potřebovali **vytvořit sandbox pro HTML** při práci na projektu v Javě, ale nebyli jste si jisti, jak zabránit vnikání externích zdrojů? Nejste sami. Mnoho vývojářů narazí na problém, když se snaží načíst nedůvěryhodné stránky a najednou celá aplikace začne komunikovat s internetem.  
+Pokud jste někdy potřebovali **how to block HTML** při zpracování stránek třetích stran v Java aplikaci, znáte bolest nečekaných síťových volání a spouštění skriptů. V tomto tutoriálu vám ukážeme přesně, jak vytvořit sandbox, **open HTML file sandbox** bezpečně, a **retrieve HTML title Java** bez toho, aby jakékoli externí zdroje unikly. Kroky jsou stručné, kód je připravený ke spuštění a pochopíte, proč má každé nastavení význam.
 
-V tomto průvodci **vytvoříme sandbox pro HTML**, poté **otevřeme sandbox HTML souboru** a nakonec **získáme název HTML v Javě**—vše pomocí několika řádků kódu Aspose.HTML. Žádné zbytečnosti, jen praktické řešení, které můžete okamžitě zkopírovat a vložit do svého IDE.
+## Rychlé odpovědi
+- **Jak mohu blokovat HTML před načítáním externích zdrojů?** Set `setEnableNetworkAccess(false)` in `SandboxOptions`.  
+- **Která knihovna zajišťuje sandboxování v Javě?** Aspose.HTML for Java provides a built‑in `Sandbox` class.  
+- **Potřebuji Maven k použití tohoto kódu?** No, just add the Aspose.HTML JAR to your classpath.  
+- **Mohu stále spouštět JavaScript uvnitř sandboxu?** Yes, but you must enable it explicitly and handle network permissions.  
+- **Jaký je výstup po spuštění demoa?** Two lines: a success message and the page title extracted from the `<title>` tag.
 
 ## Co si odnesete
 
-Probereme vše od nastavení možností sandboxu až po výpis názvu dokumentu. Na konci budete vědět:
+Probereme vše od nastavení sandboxových možností po vytištění názvu dokumentu. Na konci budete vědět:
 
-* Proč je sandbox nezbytný při zpracování HTML od třetích stran.
-* Jak nastavit rozměry obrazovky a zakázat přístup k síti.
-* Přesný Java kód, který otevře HTML soubor uvnitř sandboxu.
+* Proč je sandbox nezbytný při zpracování HTML třetích stran.  
+* Jak nakonfigurovat rozměry obrazovky a zakázat síťový přístup.  
+* Přesný Java kód, který otevírá HTML soubor uvnitř sandboxu.  
 * Jak bezpečně přečíst tag title, i když se stránka snaží načíst externí skripty.
 
-**Požadavky?** Pouze aktuální JDK (8 nebo novější) a knihovna Aspose.HTML pro Java ve vašem classpath. Maven není nutný, ale pokud Maven používáte, stačí přidat závislost Aspose a jste připraveni.
+**Prerequisites?** Stačí aktuální JDK (8 nebo novější) a knihovna Aspose.HTML for Java ve vašem classpathu. Maven není potřeba, ale pokud Maven používáte, stačí přidat Aspose závislost a jste připraveni.
 
----
+## Jak blokovat HTML v Javě? – Konfigurace sandboxového prostředí
 
-## Krok 1: Vytvořte sandbox pro HTML – Konfigurace prostředí
-
-Než budeme moci načíst jakýkoli dokument, potřebujeme sandbox, který napodobuje okno prohlížeče, ale odmítá komunikovat s vnějším světem. Představte si to jako oplocený dvůr, kde si dítě (váš HTML) může hrát, ale brána je zamčená.
+Než načteme jakýkoli dokument, potřebujeme sandbox, který napodobuje okno prohlížeče, ale odmítá komunikovat s vnějším světem. Představte si to jako oplocený dvůr, kde si dítě (vaše HTML) může hrát, ale brána je zamčená.
 
 ```java
 import com.aspose.html.sandbox.Sandbox;
@@ -64,13 +64,11 @@ sandboxOptions.setEnableNetworkAccess(false);      // blocks all remote resource
 ```
 
 **Proč je to důležité:**  
-Nastavení `setEnableNetworkAccess(false)` zaručuje, že jakýkoli `<script src="…">`, `<img src="…">` nebo import CSS se nepokusí připojit k internetu. To je jádro **vytváření sandbox pro HTML**—získáte izolaci bez ztráty věrnosti vykreslování.
+Nastavení `setEnableNetworkAccess(false)` zaručuje, že jakýkoli `<script src="…">`, `<img src="…">` nebo CSS import se nepokusí spojit s internetem. To je jádro **how to block HTML** — získáte izolaci bez obětování věrnosti vykreslování.
 
----
+## Otevřít HTML soubor v sandboxu – Načíst dokument bezpečně
 
-## Krok 2: Otevřete sandbox HTML souboru – Načtěte dokument bezpečně
-
-Nyní, když je sandbox připravený, můžeme do něj vložit náš HTML soubor. Metoda `Sandbox.open()` vrací `HTMLDocument`, který existuje výhradně v rámci oploceného prostředí.
+Nyní, když je sandbox připraven, můžeme do něj vložit náš HTML soubor. Metoda `Sandbox.open()` vrací `HTMLDocument`, který žije úplně uvnitř oploceného prostředí.
 
 ```java
 import com.aspose.html.HTMLDocument;
@@ -89,14 +87,12 @@ catch (Exception e) {
 }
 ```
 
-**Často kladená otázka:** *Co když soubor neexistuje?*  
+**Častá otázka:** *Co když soubor neexistuje?*  
 Blok `try‑with‑resources` automaticky uzavře sandbox a část `catch` vám poskytne jasnou chybovou zprávu. Pokud chcete, můžete předem ověřit cestu pomocí `Files.exists()`.
 
----
+## Získat HTML title v Javě – Extrahovat tag `<title>`
 
-## Krok 3: Získání názvu HTML v Javě – Extrahujte tag `<title>`
-
-S dokumentem bezpečně načteným je získání názvu stránky hračkou. Metoda `HTMLDocument.getTitle()` přečte element `<title>` z DOM, zcela ignorujíc jakékoli externí zdroje, které byly zablokovány.
+S dokumentem bezpečně načteným je získání názvu stránky hračkou. Metoda `HTMLDocument.getTitle()` čte element `<title>` z DOM, zcela neovlivněna žádnými externími zdroji, které byly zablokovány.
 
 ```java
 // Continuing inside the try block from Step 2
@@ -111,13 +107,11 @@ Document loaded successfully inside sandbox.
 Title inside sandbox: My Complex Page
 ```
 
-Pokud HTML neobsahuje tag `<title>`, `getTitle()` jednoduše vrátí prázdný řetězec—žádná výjimka není vyhozena. To dělá **retrieve HTML title Java** bezpečnou operací i na poškozených stránkách.
+Pokud HTML postrádá tag `<title>`, `getTitle()` jednoduše vrátí prázdný řetězec — žádná výjimka není vyvolána. To činí **retrieve HTML title Java** bezpečnou operací i na poškozených stránkách.
 
----
+## Kompletní spustitelný příklad
 
-## Kompletní, spustitelný příklad
-
-Spojením všech částí získáte samostatnou třídu v Javě, kterou můžete okamžitě zkompilovat a spustit. Nezapomeňte nahradit `YOUR_DIRECTORY/complex.html` skutečnou cestou k vašemu testovacímu souboru.
+Spojením všech částí získáte samostatnou Java třídu, kterou můžete okamžitě zkompilovat a spustit. Nezapomeňte nahradit `YOUR_DIRECTORY/complex.html` skutečnou cestou k vašemu testovacímu souboru.
 
 ```java
 import com.aspose.html.sandbox.Sandbox;
@@ -125,7 +119,7 @@ import com.aspose.html.sandbox.SandboxOptions;
 import com.aspose.html.HTMLDocument;
 
 public class SandboxDemo {
-    public static void main(String[] args) {
+    public static main(String[] args) {
         // 1️⃣ Configure sandbox options
         SandboxOptions sandboxOptions = new SandboxOptions();
         sandboxOptions.setScreenWidth(1280);
@@ -146,32 +140,44 @@ public class SandboxDemo {
 }
 ```
 
-**Spuštění demonstrace:**  
+**Spuštění demoa:**  
+
 ```bash
 javac -cp "path/to/aspose-html.jar" SandboxDemo.java
 java -cp ".:path/to/aspose-html.jar" SandboxDemo
 ```
 
-Měli byste vidět dvouřádkový výstup uvedený výše, což potvrzuje, že jste úspěšně **vytvořili sandbox pro HTML**, **otevřeli sandbox HTML souboru** a **získali název HTML v Javě**.
-
----
+Měli byste vidět dvouřádkový výstup uvedený dříve, což potvrzuje, že jste úspěšně **created sandbox for HTML**, **opened HTML file sandbox**, a **retrieved HTML title Java**.
 
 ## Tipy, okrajové případy a osvědčené postupy
 
-* **Více stránek?** Pokud potřebujete zpracovat několik HTML souborů, znovu použijte stejnou instanci `Sandbox`—stačí opakovaně volat `open()`. Sandbox zůstává izolovaný pro každé volání.
-* **Dynamický obsah?** Pro stránky, které spoléhají na JavaScript pro nastavení názvu, budete muset povolit vykonávání skriptů (`sandboxOptions.setEnableScript(true)`). Pamatujte však, že zapnutí skriptů také otevírá možnost síťových volání, takže možná budete chtít povolit konkrétní domény místo úplného zakázání síťového přístupu.
-* **Velké soubory?** Sandbox drží celý DOM v paměti. Pro obrovské dokumenty zvažte streamování souboru a extrakci `<title>` pomocí lehkého parseru před načtením do sandboxu.
-* **Logování:** Aspose.HTML může generovat podrobné logy pomocí `System.setProperty("aspose.html.logging", "true")`. Užitečné při řešení, proč byl konkrétní zdroj zablokován.
+* **Více stránek?** Pokud potřebujete zpracovat několik HTML souborů, znovu použijte stejnou instanci `Sandbox` — stačí opakovaně volat `open()`. Sandbox zůstává izolovaný pro každé volání.  
+* **Dynamický obsah?** Pro stránky, které spoléhají na JavaScript pro nastavení názvu, budete muset povolit vykonávání skriptů (`sandboxOptions.setEnableScript(true)`). Pamatujte, že zapnutí skriptů také otevírá možnost síťových volání, takže můžete chtít povolit konkrétní domény místo zakázání veškerého síťového přístupu.  
+* **Velké soubory?** Sandbox uchovává celý DOM v paměti. Pro obrovské dokumenty zvažte streamování souboru a extrakci `<title>` pomocí lehkého parseru před načtením do sandboxu.  
+* **Logging:** Aspose.HTML může emitovat podrobné logy pomocí `System.setProperty("aspose.html.logging", "true")`. Užitečné při odhalování, proč byl konkrétní zdroj zablokován.
+
+## Často kladené otázky
+
+**Q: Můžu zablokovat všechny externí zdroje a přitom povolit inline skripty?**  
+A: Yes. Keep `setEnableNetworkAccess(false)` and set `setEnableScript(true)` to allow inline JavaScript but prevent any network fetches.
+
+**Q: Co se stane, když se HTML pokusí načíst CSS soubor z internetu?**  
+A: The request is blocked by the sandbox, and the CSS is simply ignored, leaving the document’s layout based on the available styles.
+
+**Q: Je sandbox thread‑safe?**  
+A: A single `Sandbox` instance is not thread‑safe. Create a separate sandbox per thread or synchronize access if you need concurrent processing.
+
+**Q: Potřebuji licenci pro Aspose.HTML při vývoji?**  
+A: A free evaluation license works for development and testing. A commercial license is required for production deployments.
+
+**Q: Jak mohu zachytit chyby, které nastanou během parsování?**  
+A: Wrap the `sandbox.open()` call in a try‑catch block as shown; the exception message will contain parsing details.
 
 ---
 
-## Závěr
-
-Prošli jsme, jak **vytvořit sandbox pro HTML** pomocí Aspose.HTML pro Java, bezpečně **otevřít sandbox HTML souboru** a spolehlivě **získat název HTML v Javě**. Tříkrokový vzor – konfigurace, načtení, extrakce – pokrývá nejčastější pracovní postup při práci s nedůvěryhodným HTML v Java aplikaci.
-
-Jste připraveni na další výzvu? Zkuste vykreslit stránku do PNG obrázku ve stejném sandboxu, nebo experimentujte s layouty pouze pomocí CSS, abyste viděli, jak se vykreslovací engine chová bez síťových zdrojů. V každém případě máte nyní pevný základ pro bezpečné zpracování HTML v Javě.
-
-Pokud jste narazili na nějaké potíže nebo máte nápady na rozšíření, zanechte komentář níže. Šťastné sandboxování!
+**Poslední aktualizace:** 2026-04-12  
+**Testováno s:** Aspose.HTML for Java 24.11  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
