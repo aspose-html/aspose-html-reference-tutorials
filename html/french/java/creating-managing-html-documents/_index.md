@@ -66,6 +66,12 @@ Apprenez à créer et à gérer des documents SVG à l'aide d'Aspose.HTML pour J
 Apprenez à créer un environnement sécurisé pour manipuler du HTML en Java avec Aspose.HTML, guide complet pas à pas.
 ### [Comment interroger le HTML en Java – Tutoriel complet](./how-to-query-html-in-java-complete-tutorial/)
 Apprenez à interroger et extraire des données HTML en Java avec Aspose.HTML grâce à ce guide complet étape par étape.
+### [Sélectionner un div par classe en Java – Guide complet XPath](./select-div-by-class-in-java-complete-xpath-guide/)
+Apprenez à sélectionner des éléments div par classe en Java en utilisant XPath avec ce guide complet étape par étape.
+### [Rendu HTML en Java – Guide complet pour attendre le chargement de la page et le sélecteur de requête](./render-html-in-java-complete-guide-to-waiting-for-page-load/)
+Apprenez à rendre du HTML en Java, à attendre le chargement complet de la page et à utiliser querySelector pour extraire du contenu.
+### [Convertir le Markdown en HTML en Java – Guide étape par étape](./convert-markdown-to-html-in-java-step-by-step-guide/)
+Apprenez à convertir du Markdown en HTML en Java avec Aspose.HTML. Guide complet étape par étape pour transformer facilement votre contenu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

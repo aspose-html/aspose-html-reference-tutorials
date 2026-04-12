@@ -106,6 +106,9 @@ weight: 24
 ### [Преобразование HTML в WebP – Полное руководство Java с Aspose.HTML](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
 Узнайте, как преобразовать HTML в WebP в Java с помощью Aspose.HTML. Полное пошаговое руководство.
 
+### [Преобразование HTML в WebP в Java – Полное руководство](./convert-html-to-webp-in-java-complete-guide/)
+Узнайте, как преобразовать HTML в WebP в Java с помощью Aspose.HTML. Полное пошаговое руководство.
+
 ## Часто задаваемые вопросы
 
 **В: Можно ли конвертировать HTML в PNG с помощью Java без дополнительных библиотек для работы с изображениями?**  

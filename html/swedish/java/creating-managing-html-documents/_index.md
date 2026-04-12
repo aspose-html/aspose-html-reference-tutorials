@@ -58,6 +58,8 @@ Lär dig hur du skapar HTML-dokument från strängar i Aspose.HTML för Java med
 Upptäck hur du enkelt laddar HTML-dokument från en URL i Java med Aspose.HTML. Steg-för-steg handledning ingår.
 ### [Hur du frågar HTML i Java – Komplett handledning](./how-to-query-html-in-java-complete-tutorial/)
 Lär dig hur du söker och extraherar data från HTML-dokument i Java med en komplett steg-för-steg-guide.
+### [Välj div efter klass i Java – Komplett XPath‑guide](./select-div-by-class-in-java-complete-xpath-guide/)
+Lär dig hur du väljer div‑element efter klass i Java med en komplett XPath‑guide. Steg‑för‑steg‑instruktioner för effektiv selektion.
 ### [Generera nya HTML-dokument med Aspose.HTML för Java](./generate-new-html-documents/)
 Lär dig hur du skapar nya HTML-dokument med Aspose.HTML för Java med denna enkla steg-för-steg-guide. Börja generera dynamiskt HTML-innehåll.
 ### [Hantera dokumentladdningshändelser i Aspose.HTML för Java](./handle-document-load-events/)
@@ -66,6 +68,10 @@ Lär dig att hantera dokumentladdningshändelser i Aspose.HTML för Java med den
 Lär dig att skapa och hantera SVG-dokument med Aspose.HTML för Java! Den här omfattande guiden täcker allt från grundläggande skapande till avancerad manipulation.
 ### [Skapa sandlåda för HTML i Java – Steg‑för‑steg‑guide](./create-sandbox-for-html-in-java-step-by-step-guide/)
 Lär dig hur du skapar en säker sandlåda för HTML i Java med vår detaljerade steg-för-steg‑guide.
+### [Rendera HTML i Java – Komplett guide för att vänta på sidladdning och query selector](./render-html-in-java-complete-guide-to-waiting-for-page-load/)
+Lär dig hur du renderar HTML i Java, väntar på att sidan laddas och använder query selector för att extrahera element.
+### [Konvertera Markdown till HTML i Java – Steg‑för‑steg‑guide](./convert-markdown-to-html-in-java-step-by-step-guide/)
+Lär dig hur du konverterar Markdown till HTML i Java med vår detaljerade steg‑för‑steg‑guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

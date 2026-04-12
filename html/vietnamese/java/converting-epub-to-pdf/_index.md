@@ -58,6 +58,8 @@ Tìm hiểu cách chuyển đổi EPUB sang PDF trong Java một cách dễ dàn
 Tìm hiểu cách chuyển đổi EPUB sang PDF trong Java bằng Aspose.HTML, một thư viện thao tác HTML mạnh mẽ.
 ### [Cách Nhúng Phông chữ Khi Chuyển đổi EPUB sang PDF trong Java](./how-to-embed-fonts-when-converting-epub-to-pdf-in-java/)
 Tìm hiểu cách nhúng phông chữ khi chuyển đổi EPUB sang PDF bằng Aspose.HTML for Java.
+### [Chuyển đổi EPUB sang PDF với Phông chữ Nhúng trong Java](./convert-epub-to-pdf-with-embedded-fonts-in-java/)
+Hướng dẫn chi tiết cách nhúng phông chữ khi chuyển đổi EPUB sang PDF bằng Aspose.HTML for Java.
 ### [Chuyển đổi EPUB sang BMP](./convert-epub-to-bmp/)
 Tìm hiểu cách chuyển đổi EPUB sang BMP bằng Aspose.HTML for Java. Hướng dẫn từng bước để chuyển đổi nội dung hiệu quả.
 ### [Chuyển đổi EPUB sang GIF](./convert-epub-to-gif/)
