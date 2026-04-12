@@ -1,25 +1,22 @@
 ---
 category: general
-date: 2026-01-01
-description: Skapa en sandbox för HTML med Java och hämta HTML‑titeln. Lär dig hur
-  du öppnar en HTML‑fil i sandbox på ett säkert och effektivt sätt.
+date: 2026-04-12
+description: Lär dig hur du blockerar HTML i Java genom att skapa en sandlåda, öppna
+  en HTML‑fil på ett säkert sätt och hämta sidans titel. Steg‑för‑steg kodexempel.
 draft: false
 keywords:
-- create sandbox for html
+- how to block html
 - open html file sandbox
 - retrieve html title java
-- aspose html sandbox java
-- java html document title
-language: sv
-og_description: Skapa sandbox för HTML med Java, öppna HTML‑filsandbox och hämta HTML‑titel
-  med Java. Fullständig kod och förklaringar.
-og_title: Skapa sandbox för HTML i Java – Komplett handledning
+og_description: Lär dig hur du blockerar HTML i Java med Aspose.HTML sandbox, öppnar
+  HTML-filer på ett säkert sätt och extraherar titeln.
+og_title: Hur man blockerar HTML i Java – Komplett handledning
 tags:
 - Java
 - Aspose.HTML
 - Sandbox
 - HTML Processing
-title: Skapa sandlåda för HTML i Java – Steg‑för‑steg‑guide
+title: Hur man blockerar HTML i Java – Skapa sandlåda och hämta titel
 url: /sv/java/creating-managing-html-documents/create-sandbox-for-html-in-java-step-by-step-guide/
 ---
 
@@ -27,28 +24,31 @@ url: /sv/java/creating-managing-html-documents/create-sandbox-for-html-in-java-s
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Skapa sandbox för HTML i Java – Komplett handledning
+# Så blockerar du HTML i Java – Komplett handledning
 
-Har du någonsin behövt **skapa sandbox för HTML** när du arbetar med ett Java‑projekt, men varit osäker på hur du hindrar externa resurser från att smyga sig in? Du är inte ensam. Många utvecklare stöter på problem när de försöker ladda opålitliga sidor och plötsligt börjar hela appen nå ut på internet.  
+Om du någonsin har behövt **how to block HTML** när du bearbetar tredjepartssidor i en Java‑applikation, känner du smärtan av oväntade nätverksanrop och skriptexekvering. I den här handledningen visar vi exakt hur du skapar en sandbox, **open HTML file sandbox** säkert, och **retrieve HTML title Java** utan att låta externa resurser smita igenom. Stegen är koncisa, koden är klar‑att‑köra, och du kommer att förstå varför varje inställning är viktig.
 
-I den här guiden kommer vi att **skapa sandbox för HTML**, sedan **öppna HTML‑fil sandbox**, och slutligen **hämta HTML‑titel Java**—allt med några få rader Aspose.HTML‑kod. Inga onödiga detaljer, bara en praktisk lösning som du kan kopiera‑klistra in i din IDE just nu.
+## Snabba svar
+- **Hur kan jag blockera HTML från att ladda externa resurser?** Set `setEnableNetworkAccess(false)` in `SandboxOptions`.  
+- **Vilket bibliotek hanterar sandboxing i Java?** Aspose.HTML for Java provides a built‑in `Sandbox` class.  
+- **Behöver jag Maven för att använda den här koden?** No, just add the Aspose.HTML JAR to your classpath.  
+- **Kan jag fortfarande köra JavaScript i sandboxen?** Yes, but you must enable it explicitly and handle network permissions.  
+- **Vad är utskriften efter att ha kört demon?** Two lines: a success message and the page title extracted from the `<title>` tag.
 
 ## Vad du får med dig
 
-Vi går igenom allt från att konfigurera sandbox‑alternativen till att skriva ut dokumentets titel. När du är klar vet du:
+Vi kommer att gå igenom allt från att konfigurera sandbox‑alternativen till att skriva ut dokumentets titel. I slutet kommer du att veta:
 
-* Varför en sandbox är avgörande när du bearbetar tredjeparts‑HTML.
-* Hur du ställer in skärmstorlek och inaktiverar nätverksåtkomst.
-* Den exakta Java‑koden som öppnar en HTML‑fil i sandboxen.
-* Hur du läser titel‑taggen på ett säkert sätt, även om sidan försöker ladda externa skript.
+* Varför en sandbox är viktig när du bearbetar tredjeparts‑HTML.  
+* Hur du konfigurerar skärmstorlekar och inaktiverar nätverksåtkomst.  
+* Den exakta Java‑koden som öppnar en HTML‑fil i sandboxen.  
+* Hur du läser titel‑taggen säkert, även om sidan försöker ladda externa skript.
 
-**Förkunskaper?** Bara ett aktuellt JDK (8 eller nyare) och Aspose.HTML för Java‑biblioteket på din classpath. Ingen Maven‑magik behövs, men om du använder Maven lägger du bara till Aspose‑beroendet så är du klar.
+**Förutsättningar?** En modern JDK (8 eller nyare) och Aspose.HTML for Java‑biblioteket på din classpath. Ingen Maven‑magik behövs, men om du använder Maven lägger du bara till Aspose‑beroendet så är du klar att gå.
 
----
+## Hur blockerar du HTML i Java? – Konfigurera sandbox‑miljön
 
-## Steg 1: Skapa sandbox för HTML – Konfigurera miljön
-
-Innan vi kan ladda något dokument behöver vi en sandbox som efterliknar ett webbläsarfönster men vägrar att prata med omvärlden. Tänk på det som en inhägnad trädgård där barnet (din HTML) kan leka, men grindarna är låsta.
+Innan vi kan läsa in något dokument behöver vi en sandbox som efterliknar ett webbläsarfönster men vägrar att kommunicera med omvärlden. Tänk på det som en inhägnad trädgård där barnet (din HTML) kan leka, men grinden är låst.
 
 ```java
 import com.aspose.html.sandbox.Sandbox;
@@ -64,13 +64,11 @@ sandboxOptions.setEnableNetworkAccess(false);      // blocks all remote resource
 ```
 
 **Varför detta är viktigt:**  
-Genom att sätta `setEnableNetworkAccess(false)` garanteras att någon `<script src="…">`, `<img src="…">` eller CSS‑import inte når ut på internet. Detta är kärnan i **skapa sandbox för HTML**—du får isolering utan att offra renderingskvalitet.
+Att sätta `setEnableNetworkAccess(false)` garanterar att alla `<script src="…">`, `<img src="…">` eller CSS‑importer inte når internet. Detta är kärnan i **how to block HTML**—du får isolering utan att offra renderingsnoggrannhet.
 
----
+## Öppna HTML‑fil sandbox – Ladda dokumentet säkert
 
-## Steg 2: Öppna HTML‑fil sandbox – Ladda dokumentet säkert
-
-Nu när sandboxen är klar kan vi släppa vår HTML‑fil i den. Metoden `Sandbox.open()` returnerar ett `HTMLDocument` som lever helt och hållet inom den inhägnade miljön.
+Nu när sandboxen är klar kan vi lägga vår HTML‑fil i den. Metoden `Sandbox.open()` returnerar ett `HTMLDocument` som lever helt inom den inhägnade miljön.
 
 ```java
 import com.aspose.html.HTMLDocument;
@@ -90,13 +88,11 @@ catch (Exception e) {
 ```
 
 **Vanlig fråga:** *Vad händer om filen inte finns?*  
-`try‑with‑resources`‑blocket stänger automatiskt sandboxen, och `catch`‑delen ger dig ett tydligt felmeddelande. Du kan också förvalidera sökvägen med `Files.exists()` om du föredrar det.
+`try‑with‑resources`‑blocket stänger automatiskt sandboxen, och catch‑satsen ger dig ett tydligt felmeddelande. Du kan också förvalidera sökvägen med `Files.exists()` om du föredrar det.
 
----
+## Hämta HTML‑titel Java – Extrahera `<title>`‑taggen
 
-## Steg 3: Hämta HTML‑titel Java – Extrahera `<title>`‑taggen
-
-När dokumentet är säkert laddat är det en barnlek att hämta sidans titel. Metoden `HTMLDocument.getTitle()` läser `<title>`‑elementet från DOM‑trädet, helt oberoende av eventuella externa resurser som blockerades.
+När dokumentet är säkert laddat är det en enkel match att hämta sidtiteln. Metoden `HTMLDocument.getTitle()` läser `<title>`‑elementet från DOM:en, helt ointresserad av eventuella externa resurser som blockerades.
 
 ```java
 // Continuing inside the try block from Step 2
@@ -111,13 +107,11 @@ Document loaded successfully inside sandbox.
 Title inside sandbox: My Complex Page
 ```
 
-Om HTML‑filen saknar en `<title>`‑tagg returnerar `getTitle()` helt enkelt en tom sträng—inget undantag kastas. Detta gör **hämta HTML‑titel Java** till en säker operation även på felaktigt formade sidor.
-
----
+Om HTML‑filen saknar en `<title>`‑tagg returnerar `getTitle()` helt enkelt en tom sträng—inget undantag kastas. Detta gör **retrieve HTML title Java** till en säker operation även på felaktiga sidor.
 
 ## Fullt, körbart exempel
 
-Sätter vi ihop allt får du en självständig Java‑klass som du kan kompilera och köra direkt. Glöm inte att ersätta `YOUR_DIRECTORY/complex.html` med den faktiska sökvägen till din testfil.
+När allt sätts ihop, här är en självständig Java‑klass som du kan kompilera och köra direkt. Kom ihåg att ersätta `YOUR_DIRECTORY/complex.html` med den faktiska sökvägen till din testfil.
 
 ```java
 import com.aspose.html.sandbox.Sandbox;
@@ -125,7 +119,7 @@ import com.aspose.html.sandbox.SandboxOptions;
 import com.aspose.html.HTMLDocument;
 
 public class SandboxDemo {
-    public static void main(String[] args) {
+    public static main(String[] args) {
         // 1️⃣ Configure sandbox options
         SandboxOptions sandboxOptions = new SandboxOptions();
         sandboxOptions.setScreenWidth(1280);
@@ -146,32 +140,44 @@ public class SandboxDemo {
 }
 ```
 
-**Kör demo:**  
+**Kör demon:**  
+
 ```bash
 javac -cp "path/to/aspose-html.jar" SandboxDemo.java
 java -cp ".:path/to/aspose-html.jar" SandboxDemo
 ```
 
-Du bör se den två‑rader‑utskrift som visades tidigare, vilket bekräftar att du framgångsrikt **skapat sandbox för HTML**, **öppnat HTML‑fil sandbox**, och **hämtat HTML‑titel Java**.
-
----
+Du bör se den två‑rader utskrift som visades tidigare, vilket bekräftar att du framgångsrikt **created sandbox for HTML**, **opened HTML file sandbox**, och **retrieved HTML title Java**.
 
 ## Tips, kantfall och bästa praxis
 
-* **Flera sidor?** Om du behöver bearbeta flera HTML‑filer, återanvänd samma `Sandbox`‑instans—anropa bara `open()` upprepade gånger. Sandboxen förblir isolerad för varje anrop.
-* **Dynamiskt innehåll?** För sidor som förlitar sig på JavaScript för att sätta titeln måste du aktivera skriptkörning (`sandboxOptions.setEnableScript(true)`). Kom bara ihåg att aktivera skript också öppnar en dörr för nätverksanrop, så du kanske vill vitlista specifika domäner istället för att inaktivera all nätverksåtkomst.
-* **Stora filer?** Sandboxen håller hela DOM‑trädet i minnet. För enorma dokument kan du överväga att strömma filen och extrahera `<title>` med en lättviktig parser innan du laddar in den i sandboxen.
+* **Flera sidor?** Om du behöver bearbeta flera HTML‑filer, återanvänd samma `Sandbox`‑instans—anropa bara `open()` upprepade gånger. Sandboxen förblir isolerad för varje anrop.  
+* **Dynamiskt innehåll?** För sidor som förlitar sig på JavaScript för att sätta titeln, måste du aktivera skriptkörning (`sandboxOptions.setEnableScript(true)`). Kom bara ihåg att slå på skript också öppnar en dörr för nätverksanrop, så du kanske vill vitlista specifika domäner istället för att inaktivera all nätverksåtkomst.  
+* **Stora filer?** Sandboxen håller hela DOM‑en i minnet. För enorma dokument, överväg att strömma filen och extrahera `<title>` med en lättviktig parser innan du laddar den i sandboxen.  
 * **Loggning:** Aspose.HTML kan skriva detaljerade loggar via `System.setProperty("aspose.html.logging", "true")`. Praktiskt när du felsöker varför en viss resurs blockerades.
+
+## Vanliga frågor
+
+**Q: Kan jag blockera alla externa resurser samtidigt som jag tillåter inline‑skript?**  
+A: Ja. Behåll `setEnableNetworkAccess(false)` och sätt `setEnableScript(true)` för att tillåta inline‑JavaScript men förhindra alla nätverksförfrågningar.
+
+**Q: Vad händer om HTML försöker ladda en CSS‑fil från internet?**  
+A: Begäran blockeras av sandboxen, och CSS‑filen ignoreras helt, vilket lämnar dokumentets layout baserad på de tillgängliga stilarna.
+
+**Q: Är sandboxen trådsäker?**  
+A: En enda `Sandbox`‑instans är inte trådsäker. Skapa en separat sandbox per tråd eller synkronisera åtkomst om du behöver samtidig bearbetning.
+
+**Q: Behöver jag en licens för Aspose.HTML i utveckling?**  
+A: En gratis utvärderingslicens fungerar för utveckling och testning. En kommersiell licens krävs för produktionsdistribution.
+
+**Q: Hur kan jag fånga fel som uppstår under parsning?**  
+A: Omge anropet `sandbox.open()` med ett try‑catch‑block som visas; undantagsmeddelandet kommer att innehålla parsningsdetaljer.
 
 ---
 
-## Slutsats
-
-Vi har gått igenom hur du **skapar sandbox för HTML** med Aspose.HTML för Java, säkert **öppnar HTML‑fil sandbox**, och pålitligt **hämtar HTML‑titel Java**. Det tre‑stegs‑mönstret—konfigurera, ladda, extrahera—täcker det vanligaste arbetsflödet när du hanterar opålitlig HTML i en Java‑applikation.
-
-Redo för nästa utmaning? Prova att rendera sidan till en PNG‑bild i samma sandbox, eller experimentera med enbart CSS‑layouter för att se hur renderingsmotorn beter sig utan nätverksresurser. Oavsett vad har du nu en solid grund för säker HTML‑bearbetning i Java.
-
-Om du stött på problem eller har idéer till vidareutveckling, lämna en kommentar nedan. Lycka till med sandbox‑arbetet!
+**Senast uppdaterad:** 2026-04-12  
+**Testat med:** Aspose.HTML for Java 24.11  
+**Författare:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

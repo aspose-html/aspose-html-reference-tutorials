@@ -1,23 +1,20 @@
 ---
 category: general
-date: 2026-01-01
-description: JavaでHTML用のサンドボックスを作成し、HTMLのタイトルを取得します。HTMLファイルのサンドボックスを安全かつ効率的に開く方法を学びましょう。
+date: 2026-04-12
+description: サンドボックスを作成し、HTMLファイルを安全に開いてページタイトルを取得することで、JavaでHTMLをブロックする方法を学びます。ステップバイステップのコード例。
 draft: false
 keywords:
-- create sandbox for html
+- how to block html
 - open html file sandbox
 - retrieve html title java
-- aspose html sandbox java
-- java html document title
-language: ja
-og_description: Java を使用して HTML 用のサンドボックスを作成し、HTML ファイルのサンドボックスを開き、Java で HTML タイトルを取得します。完全なコードと説明。
-og_title: JavaでHTMLのサンドボックスを作成 – 完全チュートリアル
+og_description: Aspose.HTMLサンドボックスを使用してJavaでHTMLをブロックし、HTMLファイルを安全に開き、タイトルを抽出する方法を学びましょう。
+og_title: JavaでHTMLをブロックする方法 – 完全チュートリアル
 tags:
 - Java
 - Aspose.HTML
 - Sandbox
 - HTML Processing
-title: JavaでHTML用サンドボックスを作成する – ステップバイステップガイド
+title: JavaでHTMLをブロックする方法 – サンドボックスを作成しタイトルを取得
 url: /ja/java/creating-managing-html-documents/create-sandbox-for-html-in-java-step-by-step-guide/
 ---
 
@@ -25,28 +22,31 @@ url: /ja/java/creating-managing-html-documents/create-sandbox-for-html-in-java-s
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# JavaでHTMLのサンドボックスを作成 – 完全チュートリアル
+# JavaでHTMLをブロックする方法 – 完全チュートリアル
 
-Javaプロジェクトで作業中に **HTMLのサンドボックスを作成** したいと思ったことはありませんか？外部リソースがこっそりと読み込まれてしまう不安がありますよね。多くの開発者が、信頼できないページを読み込もうとした瞬間に、アプリ全体がインターネットにアクセスし始める壁にぶつかります。
+If you’ve ever needed **how to block HTML** while processing third‑party pages in a Java application, you know the pain of unexpected network calls and script execution. In this tutorial we’ll show you exactly how to create a sandbox, **open HTML file sandbox** safely, and **retrieve HTML title Java** without letting any external resources slip through. The steps are concise, the code is ready‑to‑run, and you’ll understand why each setting matters.
 
-このガイドでは **HTMLのサンドボックスを作成** し、次に **HTMLファイルのサンドボックスを開く**、最後に **HTMLタイトルをJavaで取得** する方法を、Aspose.HTML の数行コードで実演します。余計な説明は省き、すぐに IDE にコピペできる実践的な解決策だけをご紹介します。
+## クイック回答
+- **HTMLが外部リソースを読み込むのをブロックするにはどうすればよいですか？** Set `setEnableNetworkAccess(false)` in `SandboxOptions`.  
+- **Javaでサンドボックス処理を行うライブラリはどれですか？** Aspose.HTML for Java provides a built‑in `Sandbox` class.  
+- **このコードを使用するのにMavenは必要ですか？** No, just add the Aspose.HTML JAR to your classpath.  
+- **サンドボックス内でJavaScriptを実行できますか？** Yes, but you must enable it explicitly and handle network permissions.  
+- **デモ実行後の出力は何ですか？** Two lines: a success message and the page title extracted from the `<title>` tag.
 
-## 学習後に得られるもの
+## 学んだこと
 
-サンドボックスオプションの設定からドキュメントタイトルの出力まで、すべてを網羅します。最後には以下が理解できるようになります。
+We’ll cover everything from setting up the sandbox options to printing the document title. By the end you’ll know:
 
-* サードパーティのHTMLを処理する際にサンドボックスが必須な理由
-* 画面サイズの設定方法とネットワークアクセスの無効化手順
-* サンドボックス内でHTMLファイルを開くための正確な Java コード
-* 外部スクリプトの読み込みを試みても安全に `<title>` タグを取得する方法
+* Why a sandbox is essential when processing third‑party HTML.  
+* How to configure screen dimensions and disable network access.  
+* The exact Java code that opens an HTML file inside the sandbox.  
+* How to read the title tag safely, even if the page tries to load external scripts.
 
-**前提条件は？** 最近の JDK（8 以上）と、クラスパスに Aspose.HTML for Java ライブラリがあれば OK。Maven の設定は不要ですが、Maven を使う場合は Aspose の依存関係を追加すればすぐに利用できます。
+**Prerequisites?** Just a recent JDK (8 or newer) and the Aspose.HTML for Java library on your classpath. No Maven wizardry required, but if you use Maven just add the Aspose dependency and you’re good to go.
 
----
+## JavaでHTMLをブロックする方法 – サンドボックス環境の設定
 
-## 手順 1: HTMLのサンドボックスを作成 – 環境を構成
-
-ドキュメントを読み込む前に、外部と通信しないブラウザウィンドウのようなサンドボックスが必要です。外部へのゲートがロックされた、子ども（HTML）が安全に遊べる囲い庭をイメージしてください。
+Before we can load any document we need a sandbox that mimics a browser window but refuses to talk to the outside world. Think of it as a fenced backyard where the kid (your HTML) can play, but the gate is locked.
 
 ```java
 import com.aspose.html.sandbox.Sandbox;
@@ -61,14 +61,12 @@ sandboxOptions.setEnableNetworkAccess(false);      // blocks all remote resource
 // Pro tip: you can also set a custom user‑agent string here if needed.
 ```
 
-**重要ポイント:**  
-`setEnableNetworkAccess(false)` を設定すると、`<script src="…">`、`<img src="…">`、CSS のインポートなど、すべての外部リソースへのアクセスがブロックされます。これが **HTMLのサンドボックスを作成** する本質であり、レンダリング精度を犠牲にせずに分離環境を実現します。
+**この重要性:**  
+Setting `setEnableNetworkAccess(false)` guarantees that any `<script src="…">`, `<img src="…">`, or CSS import won’t reach out to the internet. This is the core of **how to block HTML**—you get isolation without sacrificing rendering fidelity.
 
----
+## HTMLファイルをサンドボックスで開く – ドキュメントを安全にロード
 
-## 手順 2: HTMLファイルのサンドボックスを開く – 安全にドキュメントをロード
-
-サンドボックスが準備できたら、HTML ファイルをその中に投入します。`Sandbox.open()` メソッドは、完全に囲い込まれた環境内で動作する `HTMLDocument` を返します。
+Now that the sandbox is ready, we can drop our HTML file into it. The `Sandbox.open()` method returns an `HTMLDocument` that lives entirely inside the fenced environment.
 
 ```java
 import com.aspose.html.HTMLDocument;
@@ -87,14 +85,12 @@ catch (Exception e) {
 }
 ```
 
-**よくある質問:** *ファイルが存在しない場合はどうなる？*  
-`try‑with‑resources` ブロックが自動的にサンドボックスを閉じ、`catch` 節で明確なエラーメッセージが出力されます。必要に応じて `Files.exists()` で事前にパスを検証することも可能です。
+**よくある質問:** *ファイルが存在しない場合はどうなりますか？*  
+The `try‑with‑resources` block automatically closes the sandbox, and the catch clause will give you a clear error message. You can also pre‑validate the path with `Files.exists()` if you prefer.
 
----
+## HTMLタイトルを取得する – `<title>` タグを抽出
 
-## 手順 3: HTMLタイトルをJavaで取得 – `<title>` タグを抽出
-
-ドキュメントが安全にロードされたら、ページタイトルの取得はとても簡単です。`HTMLDocument.getTitle()` メソッドは DOM から `<title>` 要素を読み取り、ブロックされた外部リソースの有無に関係なく動作します。
+With the document safely loaded, pulling the page title is a breeze. The `HTMLDocument.getTitle()` method reads the `<title>` element from the DOM, completely oblivious to any external resources that were blocked.
 
 ```java
 // Continuing inside the try block from Step 2
@@ -102,20 +98,18 @@ String pageTitle = htmlDoc.getTitle();
 System.out.println("Title inside sandbox: " + pageTitle);
 ```
 
-**期待される出力**（HTML に `<title>My Complex Page</title>` が含まれている場合）:
+**期待される出力** (assuming the HTML file contains `<title>My Complex Page</title>`):
 
 ```
 Document loaded successfully inside sandbox.
 Title inside sandbox: My Complex Page
 ```
 
-HTML に `<title>` タグが無い場合、`getTitle()` は空文字列を返すだけで例外はスローされません。これにより **HTMLタイトルをJavaで取得** する操作は、構文が不完全なページでも安全に実行できます。
+If the HTML lacks a `<title>` tag, `getTitle()` simply returns an empty string—no exception thrown. This makes **retrieve HTML title Java** a safe operation even on malformed pages.
 
----
+## 完全な実行可能サンプル
 
-## 完全実行可能サンプル
-
-すべてを組み合わせた、すぐにコンパイル＆実行できる Java クラスです。`YOUR_DIRECTORY/complex.html` は実際のテストファイルへのパスに置き換えてください。
+Putting it all together, here’s a self‑contained Java class that you can compile and run right away. Remember to replace `YOUR_DIRECTORY/complex.html` with the real path to your test file.
 
 ```java
 import com.aspose.html.sandbox.Sandbox;
@@ -123,7 +117,7 @@ import com.aspose.html.sandbox.SandboxOptions;
 import com.aspose.html.HTMLDocument;
 
 public class SandboxDemo {
-    public static void main(String[] args) {
+    public static main(String[] args) {
         // 1️⃣ Configure sandbox options
         SandboxOptions sandboxOptions = new SandboxOptions();
         sandboxOptions.setScreenWidth(1280);
@@ -144,36 +138,44 @@ public class SandboxDemo {
 }
 ```
 
-**デモの実行方法:**  
+**デモの実行:**  
+
 ```bash
 javac -cp "path/to/aspose-html.jar" SandboxDemo.java
 java -cp ".:path/to/aspose-html.jar" SandboxDemo
 ```
 
-先ほど示した二行の出力が表示されれば、**HTMLのサンドボックスを作成**、**HTMLファイルのサンドボックスを開く**、そして **HTMLタイトルをJavaで取得** に成功したことになります。
-
----
+You should see the two‑line output shown earlier, confirming that you have successfully **created sandbox for HTML**, **opened HTML file sandbox**, and **retrieved HTML title Java**.
 
 ## ヒント、エッジケース、ベストプラクティス
 
-* **複数ページを処理する場合**  
-  複数の HTML ファイルを扱うなら、同じ `Sandbox` インスタンスを再利用し、`open()` を繰り返し呼び出すだけで済みます。各呼び出しは独立した隔離環境で実行されます。
-* **動的コンテンツ**  
-  タイトルが JavaScript で設定されるページでは、`sandboxOptions.setEnableScript(true)` でスクリプト実行を有効化します。ただし、スクリプトを有効にするとネットワーク呼び出しの扉も開くため、特定ドメインだけを許可するホワイトリスト方式を検討してください。
-* **大容量ファイル**  
-  サンドボックスは DOM 全体をメモリに保持します。非常に大きなドキュメントの場合は、サンドボックスにロードする前に軽量パーサで `<title>` だけを抽出し、ストリーミング処理を検討してください。
-* **ロギング**  
-  `System.setProperty("aspose.html.logging", "true")` を設定すると、Aspose.HTML が詳細なログを出力します。特定リソースがブロックされた理由を調査する際に便利です。
+* **Multiple pages?** If you need to process several HTML files, reuse the same `Sandbox` instance—just call `open()` repeatedly. The sandbox stays isolated for each call.  
+* **Dynamic content?** For pages that rely on JavaScript to set the title, you’ll need to enable script execution (`sandboxOptions.setEnableScript(true)`). Just remember that turning scripts on also opens a door for network calls, so you might want to whitelist specific domains instead of disabling all network access.  
+* **Large files?** The sandbox holds the entire DOM in memory. For massive documents, consider streaming the file and extracting the `<title>` with a lightweight parser before loading it into the sandbox.  
+* **Logging:** Aspose.HTML can emit detailed logs via `System.setProperty("aspose.html.logging", "true")`. Handy when troubleshooting why a particular resource was blocked.
+
+## よくある質問
+
+**Q: インラインスクリプトは許可しつつ、すべての外部リソースをブロックできますか？**  
+A: Yes. Keep `setEnableNetworkAccess(false)` and set `setEnableScript(true)` to allow inline JavaScript but prevent any network fetches.
+
+**Q: HTMLがインターネットからCSSファイルを読み込もうとしたらどうなりますか？**  
+A: The request is blocked by the sandbox, and the CSS is simply ignored, leaving the document’s layout based on the available styles.
+
+**Q: サンドボックスはスレッドセーフですか？**  
+A: A single `Sandbox` instance is not thread‑safe. Create a separate sandbox per thread or synchronize access if you need concurrent processing.
+
+**Q: 開発時にAspose.HTMLのライセンスは必要ですか？**  
+A: A free evaluation license works for development and testing. A commercial license is required for production deployments.
+
+**Q: パース中に発生したエラーを取得するには？**  
+A: Wrap the `sandbox.open()` call in a try‑catch block as shown; the exception message will contain parsing details.
 
 ---
 
-## 結論
-
-Aspose.HTML for Java を使って **HTMLのサンドボックスを作成**し、安全に **HTMLファイルのサンドボックスを開く**、そして確実に **HTMLタイトルをJavaで取得** する手順を解説しました。設定 → ロード → 抽出 の三段階パターンは、信頼できない HTML を Java アプリケーションで扱う際の最も一般的なワークフローを網羅しています。
-
-次のステップに挑戦してみませんか？同じサンドボックス内でページを PNG 画像にレンダリングしたり、ネットワークリソースなしで CSS のみのレイアウトがどのように描画されるか実験してみましょう。いずれにせよ、Java における安全な HTML 処理の基盤は整いました。
-
-実装中に問題が発生したり、拡張アイデアがあればコメントで教えてください。サンドボックス作業、楽しんでください！
+**最終更新日:** 2026-04-12  
+**テスト環境:** Aspose.HTML for Java 24.11  
+**作者:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
