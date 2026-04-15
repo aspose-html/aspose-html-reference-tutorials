@@ -13,30 +13,30 @@ weight: 14
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Dodaj CSS inline do dokumentów HTML w Aspose.HTML for Java
+# Dodaj CSS inline do dokumentów HTML w Aspose.HTML dla Java
 
-## Introduction
-Jeśli pracujesz z dokumentami HTML i chcesz **dowiedzieć się, jak dodać css** — szczególnie CSS inline — jesteś we właściwym miejscu! Aspose.HTML for Java daje Ci potężny, programowy sposób stylizacji HTML, ustawiania atrybutów stylu elementów HTML oraz nawet **konwersji HTML do PDF** w jednym przepływie pracy. Niezależnie od tego, czy automatyzujesz generowanie raportów, czy budujesz dynamiczną usługę web‑to‑PDF, ten samouczek przeprowadzi Cię przez cały proces, krok po kroku.
+## Wstęp
+Jeśli pracujesz z dokumentami HTML i chcesz **dowiedzieć się, jak dodać css** — szczegóły CSS inline — jesteśmy odpowiednim miejscem! Aspose.HTML dla Java zapewnia Ci programowy sposób konfiguracji HTML, ustawianie atrybutów stylów elementów HTML oraz nawet **konwersji HTML do PDF** w jednym przepływie pracy. Instrukcja od tego, czy automatyzujesz generowanie awarii, czy tworzysz dynamiczną usługę web-to-PDF, ten samouczek przeprowadzi Cię przez cały proces, krok po kroku.
 
-## Quick Answers
-- **Co oznacza „inline CSS”?** To CSS zadeklarowane bezpośrednio wewnątrz atrybutu `style` elementu.  
-- **Czy mogę konwertować HTML do PDF po stylizacji?** Tak – Aspose.HTML może renderować HTML jako PDF jednym wywołaniem.  
-- **Czy potrzebne jest połączenie z internetem?** Nie, biblioteka działa całkowicie offline po instalacji.  
-- **Jaka wersja Javy jest wymagana?** JDK 8 lub nowsza.  
-- **Czy licencja jest obowiązkowa?** Tymczasowa lub pełna licencja jest wymagana do użytku produkcyjnego.
+## Szybkie odpowiedzi
+- **Co oznacza „inline CSS”?**Do CSS zadeklarowane bezpośrednio wewnątrz atrybutu `style` elementu.
+- **Czy mogę konwertować HTML do PDF po stylizacji?**Tak – Aspose.HTML może renderować HTML jako PDF jednym wywołanym niem.
+- **Czy potrzebne jest połączenie z internetem?**Nie, biblioteka działa całkowicie offline po instalacji.
+- **Jaka wersja Javy jest wymagana?**JDK8lub terazsza.
+- **Czy licencja jest obowiązkowa?**Tymczasowa lub pełna licencja jest wymagana do użytku produkcyjnego.
 
-## What is Inline CSS and Why Use It?
-Inline CSS pozwala zastosować style do pojedynczego elementu bez tworzenia zewnętrznego arkusza stylów. Jest to przydatne przy szybkich poprawkach, szablonach e‑mailowych lub gdy trzeba zapewnić, że styl podróżuje razem z elementem w różnych silnikach renderujących. Korzystając z Aspose.HTML, możesz wstrzykiwać te style programowo, dając pełną kontrolę nad ostatecznym wyglądem przed **renderowaniem HTML jako PDF**.
+## Co to jest wbudowany CSS i dlaczego go używać?
+Inline CSS pozwala na wydanie stylu bez konieczności wykonania zgłoszenia stylów. Jest to jednostka sterująca przy szybkich poprawkach, szablonach e-mailowych lub gdy konieczne są określone, że styl podróżuje razem z elementami w różnych silnikach renderujących. z Aspose.HTML, możesz zastosować taki program, natychmiastowe działanie i efekt przed **renderowaniem HTML jako PDF**.
 
-## Prerequisites
-Zanim zaczniemy, upewnij się, że masz następujące elementy:
+## Warunki wstępne
+Zanim uruchomimy, wykonamy, że masz szczegółowe elementy:
 
-1. **Aspose.HTML for Java** – pobierz go ze strony [Aspose.HTML for Java Download page](https://releases.aspose.com/html/java/).  
-2. **Java Development Kit (JDK) 8+** – upewnij się, że `java -version` zwraca 1.8 lub wyższą wersję.  
-3. **IDE** – IntelliJ IDEA, Eclipse, NetBeans lub dowolny edytor, którego używasz.  
-4. **Licencja Aspose.HTML** – zdobądź [temporary license](https://purchase.aspose.com/temporary-license/) lub pełną licencję do nieograniczonego użycia.
+1. **Aspose.HTML dla Java** – pobierz go ze strony [Strona pobierania Aspose.HTML dla Java](https://releases.aspose.com/html/java/).
+2. **Java Development Kit (JDK) 8+** – sterowanie się, że `java -version` w wersji 1.8 lub wyższej wersji.
+3. **IDE** – IntelliJ IDEA, Eclipse, NetBeans lub dowolny edytor, którego zastosowano.
+4. **Licencja Aspose.HTML** – zdobądź [licencja tymczasowa](https://purchase.aspose.com/temporary-license/) lub pełna moc do dostępnego użycia.
 
-## Import Packages
+## Importuj pakiety
 Aby rozpocząć korzystanie z Aspose.HTML for Java, zaimportuj wymagane klasy do swojego pliku źródłowego Java:
 
 ```java
@@ -44,9 +44,9 @@ import com.aspose.html.HTMLDocument;
 import com.aspose.html.HTMLElement;
 ```
 
-These imports give you access to the document model and element‑manipulation APIs.
+Te importy zapewniają dostęp do interfejsu API modelu dokumentu i manipulacji elementami.
 
-## Step 1: Create an HTML Document
+## Krok 1: Utwórz dokument HTML
 Najpierw utwórz prosty `HTMLDocument`, który będzie płótnem dla naszego CSS inline.
 
 ```java
@@ -56,7 +56,7 @@ com.aspose.html.HTMLDocument document = new com.aspose.html.HTMLDocument(content
 
 Ciąg zawiera pojedynczy element `<p>`. Drugi argument (`"."`) informuje Aspose.HTML, że bieżący katalog jest bazowym URL dla wszelkich zasobów względnych.
 
-## Step 2: Locate the Paragraph Element
+## Krok 2: Znajdź element akapitu
 Następnie pobierz element `<p>`, który chcesz ostylować.
 
 ```java
@@ -65,7 +65,7 @@ com.aspose.html.HTMLElement paragraph = (com.aspose.html.HTMLElement) document.g
 
 `getElementsByTagName` zwraca kolekcję; `get_Item(0)` wybiera pierwszy pasujący element.
 
-## Step 3: Apply Inline CSS
+## Krok 3: Zastosuj wbudowany kod CSS
 Teraz dodaj atrybut style. To miejsce, w którym **dodajemy CSS inline w stylu Java**.
 
 ```java
@@ -74,7 +74,7 @@ paragraph.setAttribute("style", "font-size: 250%; font-family: verdana; color: #
 
 Ciąg `style` może zawierać dowolne prawidłowe reguły CSS, umożliwiając **ustawienie stylu elementu HTML** dokładnie tak, jak potrzebujesz.
 
-## Step 4: Save the HTML Document
+## Krok 4: Zapisz dokument HTML
 Po stylizacji zapisz zmodyfikowany HTML, aby móc go wyświetlić w przeglądarce lub przekazać do renderera.
 
 ```java
@@ -83,7 +83,7 @@ document.save("edit-inline-css.html");
 
 Plik `edit-inline-css.html` pojawi się w bieżącym katalogu roboczym.
 
-## Step 5: Render the HTML Document as PDF
+## Krok 5: Wyrenderuj dokument HTML jako PDF
 Na koniec, skonwertuj ostylowany HTML do pliku PDF — typowe wymaganie przy generowaniu raportów do druku.
 
 ```java
@@ -91,40 +91,40 @@ com.aspose.html.rendering.pdf.PdfDevice device = new com.aspose.html.rendering.p
 document.renderTo(device);
 ```
 
-Ten krok **tworzy PDF z HTML** jednym wywołaniem metody, automatycznie obsługując układ, czcionki i obrazy.
+Ten krok **tworzy PDF z HTML** jednym z objaśnionych metod, automatycznie obsługujący układ, uruchamiający i obrazy.
 
-## Common Issues and Solutions
+## Typowe problemy i rozwiązania
 | Problem | Dlaczego się pojawia | Rozwiązanie |
 |-------|----------------|-----|
-| **Missing fonts** | System docelowy nie ma określonej czcionki. | Osadź czcionkę lub użyj alternatywy web‑safe, takiej jak `Arial`. |
-| **Incorrect colors** | Wartości kolorów CSS nie są rozpoznawane. | Użyj zapisu szesnastkowego (`#RRGGBB`) lub standardowych nazw kolorów. |
-| **PDF output is blank** | Dokument nie został zapisany przed renderowaniem. | Wywołaj `document.save(...)` lub upewnij się, że `HTMLDocument` jest w pełni załadowany. |
+| **Brakujące czcionki** | System nie ma specjalnego wyboru. | Osadź czcionkę lub alternatywne alternatywne zabezpieczenia internetowe, takie jak `Arial`. |
+| **Nieprawidłowe kolory** | Wartości handlowe CSS nie są rozpoznawane. | Stosowanie zapisu szesnastkowego („#RRGGBB”) lub danych nazw. |
+| **Wyjście PDF jest puste** | Dokument nie został zapisany przed renderowaniem. | Wywołaj `document.save(...)` lub wykonaj, że `HTMLDocument` jest w pełni udostępniany. |
 
-## Frequently Asked Questions
+## Często zadawane pytania
 
-### Czy mogę zastosować wiele stylów przy użyciu CSS inline?
-Tak, oddzielaj każdą właściwość CSS średnikiem wewnątrz atrybutu `style`, jak pokazano w przykładzie.
+### Czy mogę wykryć wiele stylów przy użyciu CSS inline?
+Tak, każdy przypadek CSS jest średni wewnątrz atrybutu `style`, jak był obecny.
 
-### Czy Aspose.HTML for Java jest kompatybilny ze wszystkimi wersjami Javy?
-Obsługuje JDK 8 i nowsze, obejmując większość współczesnych aplikacji Java.
+### Czy Aspose.HTML for Java jest kompatybilny ze składnikami wersji Javy?
+Obsługuje JDK8 i teraz, obejmuje większość współczesnych aplikacji Java.
 
-### Czy mogę używać Aspose.HTML for Java do edycji istniejących plików HTML?
-Oczywiście. Załaduj istniejący plik przy pomocy `new HTMLDocument("input.html")`, zmodyfikuj elementy, a następnie zapisz.
+### Czy mogę być odpowiedzialny za Aspose.HTML for Java do edycji plików HTML?
+Oczywiście. Załaduj plik przy pomocy `new HTMLDocument("input.html")`, zmodyfikuj elementy, a następnie zapisz.
 
-### Na jakie inne formaty Aspose.HTML for Java może konwertować HTML?
-Poza PDF, możesz generować XPS, SVG oraz obrazy rastrowe (PNG, JPEG, BMP itp.).
+### Jakie inne formaty Aspose.HTML dla Java może konwertować HTML?
+Poza PDF możesz wygenerować XPS, SVG oraz obrazy rastrowe (PNG, JPEG, BMP itp.).
 
-### Czy potrzebuję połączenia z internetem, aby używać Aspose.HTML for Java?
-Nie. Po zainstalowaniu biblioteki, wszystkie operacje odbywają się lokalnie.
+### Czy wydanie połączenia z internetem, aby zastosować Aspose.HTML dla Java?
+Nie. Po zainstalowaniu biblioteki, wszystkie operacje działają lokalnie.
 
-## Conclusion
-Teraz wiesz **jak dodać css** inline, jak **ustawić styl elementu HTML** oraz jak **konwertować HTML do PDF** przy użyciu Aspose.HTML for Java. To podejście daje pełną kontrolę programistyczną nad stylizacją i renderowaniem, co czyni je idealnym dla zautomatyzowanych potoków dokumentów, usług raportowania i wszelkich scenariuszy, w których trzeba generować dopracowane PDF‑y z dynamicznej treści HTML.
+## Wniosek
+Teraz wiesz **jak dodać css** inline, jak **ustawić styl elementu HTML** oraz jak **konwertować HTML do PDF** przy użyciu Aspose.HTML dla Java. Aby zapewnić pełną kontrolę programistyczną nad stylizacją i renderowaniem, co stanowi je doskonałe dla zautomatyzowanych potoków dokumentów, usług raportówowania i wszelkich scenariuszy, których należy wygenerować, aby zostać zweryfikowane PDF-y z treścią HTML.
 
 ---
 
-**Ostatnia aktualizacja:** 2026-02-07  
-**Testowano z:** Aspose.HTML for Java 24.12  
-**Autor:** Aspose  
+**Aktualizacja Ostatnia:** 2026-02-07
+**Testowano z:** Aspose.HTML dla Java 24.12
+**Autor:** Asponuj  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

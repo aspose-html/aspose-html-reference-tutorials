@@ -1,5 +1,5 @@
 ---
-title: How to Edit CSS: Advanced External CSS Editing with Aspose.HTML for Java
+title: How to Edit CSS - Advanced External CSS Editing with Aspose.HTML for Java
 linktitle: Advanced External CSS Editing with Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 description: Learn how to edit CSS programmatically using Aspose.HTML for Java. This guide shows how to create HTML document Java, link CSS, and save HTML document Java with external CSS.

@@ -15,116 +15,116 @@ weight: 14
 
 # เพิ่ม Inline CSS ให้กับเอกสาร HTML ใน Aspose.HTML for Java
 
-## Introduction
-If you're dealing with HTML documents and want to **learn how to add css** — especially inline CSS — you’re in the right place! Aspose.HTML for Java gives you a powerful, programmatic way to style HTML, set HTML element style attributes, and even **convert HTML to PDF** in a single workflow. Whether you’re automating report generation or building a dynamic web‑to‑PDF service, this tutorial will walk you through the whole process, step by step.
+## การแนะนำ
+หากคุณกำลังจัดการกับเอกสาร HTML และต้องการ **เรียนรู้วิธีเพิ่ม CSS**—โดยเฉพาะ CSS แบบอินไลน์—คุณมาถูกที่แล้ว! Aspose.HTML สำหรับ Java มอบวิธีที่มีประสิทธิภาพและเป็นโปรแกรมให้กับคุณในการจัดรูปแบบ HTML ตั้งค่าแอตทริบิวต์รูปแบบองค์ประกอบ HTML และแม้แต่ **แปลง HTML เป็น PDF** ในเวิร์กโฟลว์เดียว ไม่ว่าคุณจะสร้างรายงานโดยอัตโนมัติหรือสร้างบริการบนเว็บเป็น PDF แบบไดนามิก บทช่วยสอนนี้จะแนะนำคุณตลอดกระบวนการทั้งหมดทีละขั้นตอน
 
-## Quick Answers
-- **“inline CSS” หมายถึงอะไร?** คือ CSS ที่ประกาศโดยตรงภายในแอตทริบิวต์ `style` ขององค์ประกอบ  
-- **สามารถแปลง HTML เป็น PDF หลังจากจัดสไตล์ได้หรือไม่?** ใช่ – Aspose.HTML สามารถแสดงผล HTML เป็น PDF ด้วยการเรียกเดียว  
-- **ต้องการการเชื่อมต่ออินเทอร์เน็ตหรือไม่?** ไม่, ไลบรารีทำงานแบบออฟไลน์อย่างสมบูรณ์หลังการติดตั้ง  
-- **ต้องการเวอร์ชัน Java ใด?** JDK 8 or newer.  
-- **จำเป็นต้องมีไลเซนส์หรือไม่?** A temporary or full license is needed for production use.  
+## คำตอบด่วน
+- **“inline CSS” ในสิ่งใด?**คือ CSS ที่ประกาศโดยตรงภายในระยะเวลา `style` ของประวัติ
+- **สามารถแปลง HTML เป็น PDF หลังจากที่จัดสไตล์ได้?** ใช่ – Aspose.HTML สามารถเป็น HTML ในรูปแบบ PDF ที่สามารถเรียกได้เพียงอย่างเดียว
+- **ต้องการข้อมูลเพิ่มเติมเกี่ยวกับอินเทอร์เน็ตหรือไม่**ไม่ ไลบรารีทำงานแบบเต็มรูปแบบในด้านหลัง
+- **ต้องการเซิร์ฟเวอร์ Java ใด ๆ?**JDK8or ใหม่กว่า
+- ** เพลิดเพลินไปกับไลเซนส์หรือไม่?**จำเป็นต้องมีใบอนุญาตชั่วคราวหรือเต็มรูปแบบสำหรับการใช้งานจริง
 
-## What is Inline CSS and Why Use It?
-Inline CSS lets you apply styles to a single element without creating an external stylesheet. This is handy for quick tweaks, email templates, or when you need to guarantee that a style travels with the element across different rendering engines. Using Aspose.HTML, you can inject these styles programmatically, giving you full control over the final appearance before you **render HTML as PDF**.
+## CSS แบบอินไลน์คืออะไร และเหตุใดจึงต้องใช้
+CSS แบบอินไลน์ช่วยให้คุณใช้สไตล์กับองค์ประกอบเดียวโดยไม่ต้องสร้างสไตล์ชีตภายนอก สิ่งนี้มีประโยชน์สำหรับการปรับแต่งอย่างรวดเร็ว เทมเพลตอีเมล หรือเมื่อคุณต้องการรับประกันว่าสไตล์จะเดินทางไปพร้อมกับองค์ประกอบในกลไกการเรนเดอร์ที่แตกต่างกัน เมื่อใช้ Aspose.HTML คุณสามารถแทรกสไตล์เหล่านี้โดยทางโปรแกรม ทำให้คุณควบคุมลักษณะที่ปรากฏขั้นสุดท้ายได้อย่างเต็มที่ก่อนที่คุณจะ **เรนเดอร์ HTML เป็น PDF**
 
-## Prerequisites
-Before we dive in, verify that you have the following:
+## ข้อกำหนดเบื้องต้น
+ก่อนที่เราจะดำน้ำ ตรวจสอบให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
 
-1. **Aspose.HTML for Java** – ดาวน์โหลดจาก [Aspose.HTML for Java Download page](https://releases.aspose.com/html/java/).  
-2. **Java Development Kit (JDK) 8+** – ตรวจสอบให้แน่ใจว่า `java -version` แสดงผลเป็น 1.8 หรือสูงกว่า.  
-3. **IDE** – IntelliJ IDEA, Eclipse, NetBeans หรือเครื่องมือแก้ไขใด ๆ ที่คุณต้องการ.  
-4. **Aspose.HTML License** – รับ [temporary license](https://purchase.aspose.com/temporary-license/) หรือไลเซนส์เต็มสำหรับการใช้งานไม่จำกัด.  
+1. **Aspose.HTML สำหรับ Java** – ดาวน์โหลดจาก [หน้าดาวน์โหลด Aspose.HTML สำหรับ Java](https://releases.aspose.com/html/java/)
+2. **Java Development Kit (JDK) 8+** – บันทึกการควบคุม `java -version` ของวันที่เป็น 1.8 หรือที่บันทึก.
+3. **IDE** – IntelliJ IDEA, Eclipse, NetBeans หรือเครื่องมือแก้ไขใดๆ ที่คุณต้องการ
+4. **Aspose.HTML License** – รับ [ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) หรือไลเซนส์เต็มไม่จำกัด
 
-## Import Packages
-To start using Aspose.HTML for Java, import the required classes into your Java source file:
+## แพคเกจนำเข้า
+หากต้องการเริ่มใช้ Aspose.HTML สำหรับ Java ให้นำเข้าคลาสที่จำเป็นลงในไฟล์ต้นฉบับ Java ของคุณ:
 
 ```java
 import com.aspose.html.HTMLDocument;
 import com.aspose.html.HTMLElement;
 ```
 
-These imports give you access to the document model and element‑manipulation APIs.
+การนำเข้าเหล่านี้ช่วยให้คุณเข้าถึงโมเดลเอกสารและ API สำหรับการจัดการองค์ประกอบได้
 
-## Step 1: Create an HTML Document
-First, create a simple `HTMLDocument` that will serve as the canvas for our inline CSS.
+## ขั้นตอนที่ 1: สร้างเอกสาร HTML
+ก่อนอื่น สร้าง `HTMLDocument` อย่างง่ายๆ ที่จะใช้เป็นผืนผ้าใบสำหรับ CSS แบบอินไลน์ของเรา
 
 ```java
 String content = "<p>Inline CSS Example</p>";
 com.aspose.html.HTMLDocument document = new com.aspose.html.HTMLDocument(content, ".");
 ```
 
-The string contains a single `<p>` element. The second argument (`"."`) tells Aspose.HTML that the current directory is the base URL for any relative resources.
+สตริงประกอบด้วยองค์ประกอบ `<p>` เพียงหนึ่งเดียว อาร์กิวเมนต์ที่สอง (`"."`) บอก Aspose.HTML ว่าไดเร็กทอรีปัจจุบันเป็น URL พื้นฐานสำหรับทรัพยากรสัมพัทธ์ใดๆ
 
-## Step 2: Locate the Paragraph Element
-Next, retrieve the `<p>` element you want to style.
+## ขั้นตอนที่ 2: ค้นหาองค์ประกอบย่อหน้า
+ถัดไป ดึงองค์ประกอบ `<p>` ที่คุณต้องการจัดสไตล์
 
 ```java
 com.aspose.html.HTMLElement paragraph = (com.aspose.html.HTMLElement) document.getElementsByTagName("p").get_Item(0);
 ```
 
-`getElementsByTagName` returns a collection; `get_Item(0)` picks the first match.
+`getElementsByTagName` ส่งคืนคอลเลกชัน `get_Item(0)` เลือกรายการที่ตรงกันรายการแรก
 
-## Step 3: Apply Inline CSS
-Now add the style attribute. This is where we **add inline CSS Java**‑style.
+## ขั้นตอนที่ 3: ใช้ CSS แบบอินไลน์
+ตอนนี้เพิ่มแอตทริบิวต์ style นี่คือจุดที่เรา **เพิ่มสไตล์ CSS แบบอินไลน์ Java**
 
 ```java
 paragraph.setAttribute("style", "font-size: 250%; font-family: verdana; color: #cd66aa");
 ```
 
-The `style` string can contain any valid CSS rules, allowing you to **set HTML element style** precisely as needed.
+สตริง `style` สามารถมีกฎ CSS ที่ถูกต้องใดๆ ก็ได้ ทำให้คุณสามารถ **กำหนดสไตล์องค์ประกอบ HTML** ได้อย่างแม่นยำตามต้องการ
 
-## Step 4: Save the HTML Document
-After styling, persist the modified HTML so you can view it in a browser or feed it to a renderer.
+## ขั้นตอนที่ 4: บันทึกเอกสาร HTML
+หลังจากจัดรูปแบบแล้ว ให้บันทึก HTML ที่แก้ไขแล้ว เพื่อให้คุณสามารถดูในเบราว์เซอร์หรือป้อนให้กับโปรแกรมแสดงผลได้
 
 ```java
 document.save("edit-inline-css.html");
 ```
 
-The file `edit-inline-css.html` will appear in the current working directory.
+ไฟล์ `edit-inline-css.html` จะปรากฏในไดเร็กทอรีการทำงานปัจจุบัน
 
-## Step 5: Render the HTML Document as PDF
-Finally, convert the styled HTML into a PDF file—a common requirement for generating printable reports.
+## ขั้นตอนที่ 5: แปลงเอกสาร HTML เป็น PDF
+สุดท้าย แปลง HTML ที่จัดรูปแบบแล้วเป็นไฟล์ PDF ซึ่งเป็นข้อกำหนดทั่วไปสำหรับการสร้างรายงานที่สามารถพิมพ์ได้
 
 ```java
 com.aspose.html.rendering.pdf.PdfDevice device = new com.aspose.html.rendering.pdf.PdfDevice("edit-inline-css.pdf");
 document.renderTo(device);
 ```
 
-This step **creates PDF from HTML** with a single method call, handling layout, fonts, and images automatically.
+ขั้นตอนนี้ **สร้าง PDF จาก HTML** ด้วยการเรียกใช้เมธอดเดียว จัดการเลย์เอาต์ แบบอักษร และรูปภาพโดยอัตโนมัติ
 
-## Common Issues and Solutions
-| Issue | Why it Happens | Fix |
-|-------|----------------|-----|
-| **Missing fonts** | ระบบเป้าหมายไม่มีฟอนต์ที่ระบุ. | ฝังฟอนต์หรือใช้ฟอนต์ที่ปลอดภัยบนเว็บเช่น `Arial`. |
-| **Incorrect colors** | ค่าสี CSS ไม่ได้รับการรับรู้. | ใช้รูปแบบฐานสิบหก (`#RRGGBB`) หรือชื่อสีมาตรฐาน. |
-| **PDF output is blank** | เอกสารไม่ได้บันทึกก่อนการเรนเดอร์. | เรียก `document.save(...)` หรือให้แน่ใจว่า `HTMLDocument` โหลดเต็ม. |
+## ปัญหาทั่วไปและแนวทางแก้ไข
+| ปัญหา | ทำไมมันถึงเกิดขึ้น | แก้ไข |
+|----------------------|----------------|-----|
+| **แบบอักษรหายไป** | ระบบเป้าหมายไม่มีฟอนต์ดังกล่าว | ฝังฟอนต์สามารถใช้เป็นฟอนต์ได้เช่น `Arial`. |
+| **สีผิด** | ค่าสี CSS อย่างเป็นทางการ | ใช้รูปแบบฐานสิบหก (`#RRGGBB`) หรือชื่อสีมาตรฐาน. |
+| **เอาต์พุต PDF ว่างเปล่า** | เอกสารไม่ได้บันทึกก่อนการเรนเดอร์. | เรียก `document.save(...)` หรือดาวน์โหลด `HTMLDocument` ดาวน์โหลดเต็ม. |
 
-## Frequently Asked Questions
+## คำถามที่พบบ่อย
 
-### สามารถใช้หลายสไตล์พร้อมกันด้วย inline CSS ได้หรือไม่?
-ใช่, ให้คั่นแต่ละคุณสมบัติ CSS ด้วยเซมิโคลอนภายในแอตทริบิวต์ `style` ตามตัวอย่าง.
+### อาจจะมีหลายสไตล์พร้อมกันด้วย inline CSS ได้หรือไม่?
+ทำได้, ให้คั่นแต่ละคุณสมบัติ CSS ด้วยเซมิโคลอนภายใน `style` ตามตัวอย่าง.
 
-### Aspose.HTML for Java รองรับเวอร์ชัน Java ทั้งหมดหรือไม่?
-รองรับ JDK 8 ขึ้นไป, ครอบคลุมแอปพลิเคชัน Java สมัยใหม่ส่วนใหญ่.
+### Aspose.HTML for Java รองรับ Java โดยไม่ต้องใช้หรือไม่?
+รองรับ JDK8 ขึ้นไป, เอกสารแอปพลิเคชัน Java โดยทั่วไปทั่วไป
 
-### สามารถใช้ Aspose.HTML for Java เพื่อแก้ไขไฟล์ HTML ที่มีอยู่ได้หรือไม่?
-แน่นอน. โหลดไฟล์ที่มีอยู่ด้วย `new HTMLDocument("input.html")`, แก้ไของค์ประกอบ, แล้วบันทึก.
+### สำหรับ Aspose.HTML สำหรับ Java เพื่อให้สามารถแก้ไขไฟล์ HTML ได้หรือไม่?
+เลย ดาวน์โหลดไฟล์ที่อุดมไปด้วยด้วย `new HTMLDocument("input.html")`, บันทึกเรื่องราว, จากนั้นบันทึก
 
-### Aspose.HTML for Java สามารถแปลง HTML ไปเป็นรูปแบบอื่นได้อะไรบ้าง?
-นอกจาก PDF, คุณสามารถสร้าง XPS, SVG, และภาพราสเตอร์ (PNG, JPEG, BMP, ฯลฯ).
+### Aspose.HTML สำหรับ Java สามารถแปลง HTML ไปในทางอื่นได้อะไรบ้าง?
+โปรแกรม PDF, การจัดเตรียม XPS, SVG, และภาพราสเตอร์ (PNG, JPEG, BMP, ฯลฯ)
 
-### จำเป็นต้องเชื่อมต่ออินเทอร์เน็ตเพื่อใช้ Aspose.HTML for Java หรือไม่?
-ไม่. เมื่อติดตั้งไลบรารีแล้ว การประมวลผลทั้งหมดจะทำงานในเครื่อง.
+### ไม่จำเป็นต้องเชื่อมต่ออินเทอร์เน็ตความเร็วสูง Aspose.HTML สำหรับ Java อีกครั้ง?
+ไม่ ตรวจสอบการติดตั้งฮาร์ดแวร์แล้วฮาร์ดแวร์ทั้งหมดในเครื่อง.
 
-## Conclusion
-You now know **how to add css** inline, how to **set HTML element style**, and how to **convert HTML to PDF** using Aspose.HTML for Java. This approach gives you full programmatic control over styling and rendering, making it ideal for automated document pipelines, reporting services, and any scenario where you need to generate polished PDFs from dynamic HTML content.
+## บทสรุป
+ตอนนี้คุณรู้ **วิธีเพิ่ม css** แบบอินไลน์ วิธี **ตั้งค่าสไตล์องค์ประกอบ HTML** และวิธี **แปลง HTML เป็น PDF** โดยใช้ Aspose.HTML สำหรับ Java แล้ว แนวทางนี้ช่วยให้คุณควบคุมการจัดรูปแบบและการเรนเดอร์โดยทางโปรแกรมได้เต็มรูปแบบ ทำให้เหมาะสำหรับไปป์ไลน์เอกสารอัตโนมัติ บริการรายงาน และสถานการณ์ใดๆ ที่คุณต้องการสร้าง PDF ที่สวยงามจากเนื้อหา HTML แบบไดนามิก
 
 ---
 
-**อัปเดตล่าสุด:** 2026-02-07  
-**ทดสอบกับ:** Aspose.HTML for Java 24.12  
-**ผู้เขียน:** Aspose  
+** อัปเดตล่าสุด:** 2026-02-07
+**ทดสอบกับ:** Aspose.HTML for Java 24.12
+**หมายเหตุ:** สมมุติ  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
