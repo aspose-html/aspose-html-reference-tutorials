@@ -71,6 +71,8 @@ Naučte se používat Aspose.HTML pro .NET. Importujte jmenný prostor, slučujt
 Odemkněte potenciál vývoje webu s Aspose.HTML pro .NET. Snadno vytvářejte, převádějte a manipulujte s dokumenty HTML.
 ### [Vytvoření HTML ze řetězce v C# – Průvodce vlastním Resource Handlerem](./create-html-from-string-in-c-custom-resource-handler-guide/)
 Naučte se, jak vytvořit HTML dokument z řetězce v C# pomocí vlastního Resource Handleru.
+### [Vytvoření HTML dokumentu v C# – Průvodce krok za krokem](./create-html-document-c-step-by-step-guide/)
+Naučte se, jak vytvořit HTML dokument v C# pomocí Aspose.HTML krok po kroku.
 
 ## Závěr
 

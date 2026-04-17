@@ -41,6 +41,8 @@ url: /ar/net/html-extensions-and-conversions/
 قم بتحويل HTML إلى PDF بسهولة باستخدام Aspose.HTML for .NET. اتبع دليلنا خطوة بخطوة واكتشف قوة تحويل HTML إلى PDF.
 ### [إنشاء PDF من HTML – دليل خطوة بخطوة بلغة C#](./create-pdf-from-html-c-step-by-step-guide/)
 دليل خطوة بخطوة لإنشاء ملف PDF من HTML باستخدام C# ومكتبة Aspose.HTML.
+### [إنشاء PDF من HTML باستخدام Aspose – دليل خطوة بخطوة بلغة C#](./create-pdf-from-html-with-aspose-step-by-step-c-guide/)
+دليل شامل لإنشاء ملفات PDF من مستندات HTML باستخدام Aspose وC# خطوة بخطوة.
 ### [إنشاء مستند HTML بنص منسق وتصديره إلى PDF – دليل كامل](./create-html-document-with-styled-text-and-export-to-pdf-full/)
 دليل شامل لإنشاء مستند HTML بنص منسق وتصديره إلى PDF باستخدام Aspose.HTML.
 ### [تحويل EPUB إلى صورة في .NET باستخدام Aspose.HTML](./convert-epub-to-image/)
@@ -63,6 +65,8 @@ url: /ar/net/html-extensions-and-conversions/
 تحويل HTML إلى MHTML في .NET باستخدام Aspose.HTML - دليل خطوة بخطوة لأرشفة محتوى الويب بكفاءة. تعرف على كيفية استخدام Aspose.HTML لـ .NET لإنشاء أرشيفات MHTML.
 ### [تحويل HTML إلى PNG في .NET باستخدام Aspose.HTML](./convert-html-to-png/)
 اكتشف كيفية استخدام Aspose.HTML for .NET لمعالجة مستندات HTML وتحويلها. دليل خطوة بخطوة لتطوير .NET بشكل فعال.
+### [تحويل HTML إلى صورة في C# – دليل كامل](./convert-html-to-image-in-c-complete-guide/)
+دليل شامل خطوة بخطوة لتحويل HTML إلى صورة باستخدام Aspose.HTML في C#. تعلم الخيارات المتاحة وأمثلة التعليمات البرمجية.
 ### [تحويل HTML إلى TIFF في .NET باستخدام Aspose.HTML](./convert-html-to-tiff/)
 تعرف على كيفية تحويل HTML إلى TIFF باستخدام Aspose.HTML لـ .NET. اتبع دليلنا خطوة بخطوة لتحسين محتوى الويب بكفاءة.
 ### [تحويل HTML إلى XPS في .NET باستخدام Aspose.HTML](./convert-html-to-xps/)
@@ -73,6 +77,9 @@ url: /ar/net/html-extensions-and-conversions/
 تعلم كيفية حفظ مستند HTML كملف ZIP باستخدام Aspose.HTML في C# خطوة بخطوة.
 ### [حفظ HTML إلى ZIP في C# – مثال كامل في الذاكرة](./save-html-to-zip-in-c-complete-in-memory-example/)
 تعلم كيفية حفظ مستند HTML كملف ZIP في الذاكرة باستخدام C# ومكتبة Aspose.HTML.
+### [حفظ HTML كملف ZIP في C# – دليل كامل مع تخزين مخصص](./save-html-as-zip-in-c-complete-guide-with-custom-storage/)
+اكتشف كيفية حفظ ملفات HTML كملفات ZIP باستخدام C# مع تخزين مخصص خطوة بخطوة باستخدام Aspose.HTML.
+### [ضغط HTML باستخدام Aspose.HTML – دليل كامل](./how-to-zip-html-with-aspose-html-complete-guide/)
 
 ## خاتمة
 

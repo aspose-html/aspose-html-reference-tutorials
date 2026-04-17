@@ -45,6 +45,8 @@ Aspose.HTML for .NET هي مكتبة قوية تتيح للمطورين إنشا
 تعلم كيفية تمكين مضاد التعرج عند تحويل ملفات DOCX إلى صور PNG أو JPG باستخدام Aspose.HTML.
 ### [تحويل docx إلى png – إنشاء أرشيف zip في C# – دليل تعليمي](./convert-docx-to-png-create-zip-archive-c-tutorial/)
 تعلم كيفية تحويل ملفات docx إلى صور PNG وإنشاء أرشيف ZIP باستخدام C# و Aspose.HTML.
+### [تحويل HTML إلى PNG – دليل كامل بلغة C# مع تصدير ZIP](./convert-html-to-png-full-c-guide-with-zip-export/)
+دليل شامل يوضح تحويل ملفات HTML إلى صور PNG باستخدام C# وتصدير النتائج في أرشيف ZIP.
 
 ## خاتمة
 
