@@ -84,8 +84,11 @@ En conclusión, dominar **html to pdf java** y el conjunto más amplio de conver
 ## Conversión - HTML a Otros Formatos Tutoriales
 ### [Conversión de HTML a PDF](./convert-html-to-pdf/)
 ### [Convertir HTML a PDF en Java – Guía paso a paso con configuración de tamaño de página](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
+### [Cómo usar Sandbox para la conversión de HTML a PDF en Java](./how-to-use-sandbox-for-html-to-pdf-conversion-in-java/)
 ### [Conversión de HTML a MHTML](./convert-html-to-mhtml/)
 Convierte HTML a MHTML de forma sencilla con Aspose.HTML para Java. Sigue nuestra guía paso a paso para una conversión eficiente de HTML a MHTML.
+### [Cómo incrustar imágenes al convertir MHTML a PDF – Guía de Aspose](./how-to-embed-images-when-converting-mhtml-to-pdf-aspose-guid/)
+Aprende a incluir imágenes correctamente al convertir archivos MHTML a PDF usando Aspose.HTML para Java.
 ### [Conversión de HTML a XPS](./convert-html-to-xps/)
 Aprende a convertir HTML a XPS de manera sencilla con Aspose.HTML para Java. Crea documentos multiplataforma con facilidad.
 ### [Conversión de Markdown a HTML](./convert-markdown-to-html/)
@@ -96,6 +99,10 @@ Aprende a convertir SVG a imágenes en Java con Aspose.HTML. Guía completa para
 Convierte SVG a PDF en Java con Aspose.HTML. Una solución fluida para conversiones de documentos de alta calidad.
 ### [Conversión de SVG a XPS](./convert-svg-to-xps/)
 Aprende a convertir SVG a XPS con Aspose.HTML para Java. Guía simple, paso a paso, para conversiones sin inconvenientes.
+### [Convertir HTML a PDF con Java – Guía completa a PDF, PNG, DOCX y Markdown](./convert-html-to-pdf-with-java-full-guide-to-pdf-png-docx-mar/)
+Aprende a convertir HTML a PDF, PNG, DOCX y Markdown usando Aspose.HTML para Java en una guía paso a paso.
+### [Tutorial de pool de hilos en Java – Convertir varios archivos HTML a PDF](./java-thread-pool-tutorial-convert-multiple-html-files-to-pdf/)
+Aprende a usar ThreadPool en Java para convertir múltiples archivos HTML a PDF de forma eficiente con Aspose.HTML.
 
 ## Preguntas Frecuentes
 

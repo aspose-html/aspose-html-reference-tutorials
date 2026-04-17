@@ -85,6 +85,8 @@ weight: 25
 ## Μετατροπή - HTML σε Άλλες Μορφές Μαθήματα
 ### [Μετατροπή HTML σε PDF](./convert-html-to-pdf/)
 Μάθετε πώς να μετατρέψετε HTML σε PDF σε Java χρησιμοποιώντας το Aspose.HTML. Δημιουργήστε PDF υψηλής ποιότητας από το περιεχόμενο HTML σας χωρίς κόπο.
+### [Πώς να χρησιμοποιήσετε το Sandbox για μετατροπή HTML‑σε‑PDF σε Java](./how-to-use-sandbox-for-html-to-pdf-conversion-in-java/)
+Μάθετε πώς να αξιοποιήσετε το Sandbox του Aspose.HTML για ασφαλή μετατροπή HTML σε PDF σε περιβάλλον Java.
 ### [Μετατροπή HTML σε PDF σε Java – Οδηγός βήμα‑βήμα με ρυθμίσεις μεγέθους σελίδας](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Ακολουθήστε τον πλήρη οδηγό για μετατροπή HTML σε PDF σε Java, με παραμετροποίηση μεγέθους σελίδας για ακριβή έγγραφα.
 ### [Μετατροπή HTML σε MHTML](./convert-html-to-mhtml/)
@@ -99,6 +101,11 @@ weight: 25
 Μετατρέψτε SVG σε PDF σε Java με το Aspose.HTML. Μία απρόσκοπτη λύση για μετατροπή εγγράφων υψηλής ποιότητας.
 ### [Μετατροπή SVG σε XPS](./convert-svg-to-xps/)
 Μάθετε πώς να μετατρέψετε SVG σε XPS με το Aspose.HTML for Java. Απλός, βήμα‑βήμα οδηγός για απρόσκοπτες μετατροπές.
+### [Μετατροπή HTML σε PDF με Java – Πλήρης Οδηγός για PDF, PNG, DOCX & Markdown](./convert-html-to-pdf-with-java-full-guide-to-pdf-png-docx-mar/)
+Ανακαλύψτε πώς να μετατρέψετε HTML σε PDF, PNG, DOCX και Markdown με Java χρησιμοποιώντας το Aspose.HTML, βήμα‑βήμα οδηγίες.
+### [java thread pool tutorial – Μετατροπή πολλαπλών αρχείων HTML σε PDF](./java-thread-pool-tutorial-convert-multiple-html-files-to-pdf/)
+Μάθετε πώς να χρησιμοποιήσετε thread pool σε Java για ταυτόχρονη μετατροπή πολλαπλών αρχείων HTML σε PDF με Aspose.HTML.
+### [Πώς να ενσωματώσετε εικόνες κατά τη μετατροπή MHTML σε PDF – Οδηγός Aspose](./how-to-embed-images-when-converting-mhtml-to-pdf-aspose-guid/)
 
 ## Συχνές Ερωτήσεις
 
@@ -109,7 +116,7 @@ A: Ναι. Απαιτείται έγκυρη εμπορική άδεια για 
 A: Το Aspose.HTML for Java υποστηρίζει Java 8, 11 και μεταγενέστερες εκδόσεις.
 
 **Q: Η βιβλιοθήκη διαχειρίζεται εξωτερικά CSS και JavaScript;**  
-A: Απόλυτα. Ο renderer επεξεργάζεται τα συνδεδεμένα αρχεία CSS και εκτελεί JavaScript για να διασφαλίσει ότι το PDF ταιριάζει με την αρχική διάταξη της σελίδας.
+A: Απόλυτα. Ο renderer επεξεργάζεται τα συνδεδεμένα αρχεία CSS και εκτελεί JavaScript για να διασφαλίσει ότι το PDF ταιάζει με την αρχική διάταξη της σελίδας.
 
 **Q: Πόσο μεγάλα μπορούν να είναι τα αρχεία HTML για μετατροπή;**  
 A: Η βιβλιοθήκη είναι βελτιστοποιημένη για μεγάλα έγγραφα· ωστόσο, η κατανάλωση μνήμης αυξάνεται με το μέγεθος της σελίδας, οπότε σκεφτείτε τη ροή (streaming) μεγάλων εισό**Q: Είναι δυνατόν να προσαρμόσετε τα μεταδεδομένα PDF κατά τη μετατροπή;**  

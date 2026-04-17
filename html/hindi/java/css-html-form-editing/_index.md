@@ -29,9 +29,11 @@ url: /hi/java/css-html-form-editing/
 ### [Java के लिए Aspose.HTML के साथ उन्नत CSS एक्सटेंशन तकनीकें](./advanced-css-extension/)
 कस्टम पेज मार्जिन और डायनामिक कंटेंट सहित उन्नत CSS तकनीकों को लागू करने के लिए Java के लिए Aspose.HTML का उपयोग करना सीखें। डेवलपर्स के लिए एक विस्तृत, व्यावहारिक ट्यूटोरियल।
 ### [Java के लिए Aspose.HTML के साथ HTML फॉर्म संपादन और सबमिशन](./html-form-editing/)
-इस व्यापक चरण-दर-चरण मार्गदर्शिका में Java के लिए Aspose.HTML का उपयोग करके HTML फ़ॉर्म को प्रोग्रामेटिक रूप से संपादित और सबमिट करना सीखें।
+इस व्यापक चरण-दर-स्टेप मार्गदर्शिका में Java के लिए Aspose.HTML का उपयोग करके HTML फ़ॉर्म को प्रोग्रामेटिक रूप से संपादित और सबमिट करना सीखें।
 ### [Java में क्लास द्वारा एलिमेंट चयन – पूर्ण गाइड](./select-element-by-class-in-java-complete-how-to-guide/)
 Java में Aspose.HTML का उपयोग करके क्लास द्वारा HTML एलिमेंट को चुनने और प्रोसेस करने की पूरी प्रक्रिया सीखें।
+### [Java में CSS पढ़ना – Aspose.HTML के साथ पूर्ण गाइड](./how-to-read-css-in-java-complete-guide-using-aspose-html/)
+Aspose.HTML का उपयोग करके Java में CSS को पढ़ने और विश्लेषण करने की पूरी प्रक्रिया सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
