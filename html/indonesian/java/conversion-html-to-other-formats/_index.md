@@ -87,17 +87,29 @@ Sebagai kesimpulan, menguasai **html to pdf java** dan rangkaian konversi yang l
 ### [Mengonversi HTML ke PDF](./convert-html-to-pdf/)
 Pelajari cara mengonversi HTML ke PDF di Java menggunakan Aspose.HTML. Buat PDF berkualitas tinggi dari konten HTML Anda dengan mudah.
 
+### [Mengonversi HTML ke PDF – Panduan Lengkap Menyimpan PDF ke Azure Blob](./convert-html-to-pdf-complete-guide-to-saving-pdf-to-azure-bl/)
+Pelajari cara mengonversi HTML ke PDF di Java dan menyimpan hasilnya ke Azure Blob Storage dengan Aspose.HTML.
+
+### [Buat PDF dari HTML dengan Mobile Viewport – Panduan Lengkap Java](./create-pdf-from-html-with-mobile-viewport-complete-java-guid/)
+Pelajari cara menghasilkan PDF dari HTML dengan mengatur viewport mobile menggunakan Aspose.HTML untuk Java.
+
+### [Cara mengaktifkan JavaScript saat mengonversi HTML ke PDF di Java](./how-to-enable-javascript-when-converting-html-to-pdf-in-java/)
+Pelajari cara mengaktifkan eksekusi JavaScript selama konversi HTML ke PDF dengan Aspose.HTML untuk Java.
+
 ### [Mengonversi HTML ke PDF di Java – Panduan Langkah‑demi‑Langkah dengan Pengaturan Ukuran Halaman](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Panduan lengkap mengonversi HTML ke PDF di Java dengan pengaturan ukuran halaman yang dapat disesuaikan.
 
 ### [Mengonversi HTML ke MHTML](./convert-html-to-mhtml/)
-Konversi HTML ke MHTML dengan mudah menggunakan Aspose.HTML untuk Java. Ikuti panduan langkah‑demi‑langkah kami untuk konversi HTML‑ke‑MHTML yang efisien.
+Konversi HTML ke MHTML dengan mudah menggunakan Aspose.HTML untuk Java. Ikuti panduan langkah‑demi‑step‑demi‑step kami untuk konversi HTML‑ke‑MHTML yang efisien.
 
 ### [Mengonversi HTML ke XPS](./convert-html-to-xps/)
 Pelajari cara mengonversi HTML ke XPS dengan mudah menggunakan Aspose.HTML untuk Java. Buat dokumen lintas platform dengan mudah.
 
 ### [Mengonversi Markdown ke HTML](./convert-markdown-to-html/)
-Ubah Markdown ke HTML di Java secara mulus dengan Aspose.HTML untuk Java. Ikuti panduan langkah‑demi‑langkah kami untuk mempermudah kebutuhan konversi dokumen Anda.
+Ubah Markdown ke HTML di Java secara mulus dengan Aspose.HTML untuk Java. Ikuti panduan langkah‑demi‑step‑demi‑step kami untuk mempermudah kebutuhan konversi dokumen Anda.
+
+### [Mengonversi HTML ke Markdown di Java – Panduan Lengkap Langkah‑demi‑Langkah](./convert-html-to-markdown-in-java-full-step-by-step-guide/)
+Pelajari cara mengonversi HTML menjadi Markdown di Java dengan panduan langkah demi langkah menggunakan Aspose.HTML.
 
 ### [Mengonversi SVG ke Gambar](./convert-svg-to-image/)
 Pelajari cara mengonversi SVG ke gambar di Java dengan Aspose.HTML. Panduan komprehensif untuk output berkualitas tinggi.
@@ -106,7 +118,17 @@ Pelajari cara mengonversi SVG ke gambar di Java dengan Aspose.HTML. Panduan komp
 Ubah SVG ke PDF di Java dengan Aspose.HTML. Solusi mulus untuk konversi dokumen berkualitas tinggi.
 
 ### [Mengonversi SVG ke XPS](./convert-svg-to-xps/)
-Pelajari cara mengonversi SVG ke XPS dengan Aspose.HTML untuk Java. Panduan sederhana, langkah‑demi‑langkah untuk konversi mulus.
+Pelajari cara mengonversi SVG ke XPS dengan Aspose.HTML untuk Java. Panduan sederhana, langkah‑demi‑step‑demi‑step untuk konversi mulus.
+
+### [Cara Mengenkripsi PDF di Java – Lindungi PDF dengan Kata Sandi dari HTML](./how-to-encrypt-pdf-in-java-password-protect-pdf-from-html/)
+Pelajari cara mengenkripsi PDF di Java menggunakan Aspose.HTML, melindungi file PDF dengan kata sandi saat mengonversi dari HTML.
+
+### [Java HTML ke PDF: Mengonversi HTML ke PDF/A Menggunakan Aspose](./java-html-to-pdf-convert-html-to-pdf-a-using-aspose/)
+
+### [Cara Menyisipkan Gambar dalam HTML ke PDF dengan Aspose – Panduan Java](./how-to-embed-images-in-html-to-pdf-with-aspose-java-guide/)
+
+### [Buat Fixed Thread Pool untuk Konversi Paralel HTML‑ke‑PDF di Java](./create-fixed-thread-pool-for-parallel-html-to-pdf-conversion/)
+Pelajari cara membuat Fixed Thread Pool guna mempercepat konversi HTML ke PDF secara paralel menggunakan Aspose.HTML di Java.
 
 ## Pertanyaan yang Sering Diajukan
 

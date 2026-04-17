@@ -1,0 +1,155 @@
+---
+category: general
+date: 2026-03-18
+description: Jak włączyć JavaScript przy konwertowaniu HTML do PDF w Javie — dowiedz
+  się, jak ustawić limit czasu skryptu, konwertować HTML na PDF i opanować przepływy
+  pracy Java HTML do PDF.
+draft: false
+keywords:
+- how to enable javascript
+- convert html to pdf
+- set script timeout
+- java html to pdf
+- how to set timeout
+language: pl
+og_description: Jak włączyć JavaScript przy konwertowaniu HTML na PDF w Javie — przewodnik
+  krok po kroku obejmujący limit czasu skryptu, opcje konwersji i praktyczne wskazówki.
+og_title: Jak włączyć JavaScript przy konwertowaniu HTML na PDF w Javie
+tags:
+- Aspose.HTML
+- Java
+- PDF conversion
+title: Jak włączyć JavaScript przy konwertowaniu HTML na PDF w Javie
+url: /pl/java/conversion-html-to-other-formats/how-to-enable-javascript-when-converting-html-to-pdf-in-java/
+---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Jak włączyć javascript podczas konwersji HTML do PDF w Javie
+
+Zastanawiałeś się kiedyś **jak włączyć javascript** podczas konwersji HTML‑do‑PDF? Być może próbowałeś wyrenderować pulpit, ale wykresy pozostały puste, ponieważ skrypty na stronie nigdy się nie wykonały. To powszechny problem — JavaScript jest domyślnie wyłączony ze względów bezpieczeństwa, więc dynamiczna zawartość zostaje utracona.  
+
+W tym tutorialu przeprowadzimy Cię przez **jak włączyć javascript** przy użyciu Aspose.HTML for Java, pokażemy **jak ustawić timeout**, a na koniec **convert html to pdf** z w pełni wyrenderowaną stroną. Po zakończeniu będziesz mieć gotowy przykład, który zamienia dynamiczny plik `.html` w elegancki PDF, oraz kilka wskazówek, jak uniknąć typowych pułapek.
+
+## Prerequisites
+
+- Java 17 (lub dowolny nowszy JDK) zainstalowany i skonfigurowany.  
+- Maven lub Gradle do pobrania biblioteki Aspose.HTML for Java.  
+- Prosty plik HTML (`dynamic.html`) zawierający JavaScript (np. bibliotekę wykresów lub skrypt manipulujący DOM).  
+- Podstawowa znajomość składni Javy — nic specjalnego nie jest wymagane.
+
+> **Pro tip:** Jeśli używasz IDE takiego jak IntelliJ IDEA, włącz „auto‑import”, aby edytor sam dodawał instrukcje `import`.
+
+## Step 1 – How to enable javascript in HtmlLoadOptions
+
+The first thing you need to know **how to enable javascript** is to tell the loader that scripts are allowed. Aspose.HTML ships with `HtmlLoadOptions`, which disables JavaScript out of the box for safety. Flip the switch like this:
+
+```java
+import com.aspose.html.*;
+import com.aspose.html.rendering.*;
+import com.aspose.html.converters.*;
+
+public class JsEnabledConversion {
+    public static void main(String[] args) throws Exception {
+
+        // Create load options and enable JavaScript execution
+        HtmlLoadOptions loadOptions = new HtmlLoadOptions();
+        loadOptions.setEnableJavaScript(true);   // <-- this line enables JavaScript
+```
+
+Why is this line crucial? Without it the engine treats every `<script>` tag as inert, meaning any DOM changes, AJAX calls, or canvas drawing never happen. Enabling JavaScript gives the converter a mini‑browser environment where the script can run just like in Chrome.
+
+## Step 2 – How to set script timeout for reliable conversions
+
+Now that **how to enable javascript** is settled, you’ll probably ask, “What if a script runs forever?” That’s where **how to set timeout** comes in. Aspose.HTML lets you cap script execution time in milliseconds:
+
+```java
+        // Define how long scripts may run (milliseconds)
+        loadOptions.setScriptTimeout(5000); // 5 seconds is usually enough
+```
+
+Setting a timeout prevents the converter from hanging on poorly written or malicious scripts. If the timeout expires, Aspose aborts the script and continues rendering the page as‑is. You can adjust the value based on the complexity of your page—larger charts might need 10 000 ms, while simple forms are fine with 2 000 ms.
+
+## Step 3 – Converting HTML to PDF with the configured options
+
+With **how to enable javascript** and **how to set timeout** out of the way, it’s time to actually **convert html to pdf**. The `Converter.convertDocument` method does the heavy lifting:
+
+```java
+        // Convert the HTML page (with JavaScript) to PDF using the configured options
+        Converter.convertDocument(
+                "YOUR_DIRECTORY/dynamic.html",   // source HTML containing JavaScript
+                "YOUR_DIRECTORY/dynamic.pdf",    // destination PDF file
+                new PdfSaveOptions(),
+                loadOptions);                    // <-- passes the JS‑enabled options
+
+        System.out.println("JS‑enabled PDF created.");
+    }
+}
+```
+
+When you run the program, Aspose loads `dynamic.html`, executes the JavaScript (thanks to the earlier `setEnableJavaScript(true)`), respects the 5‑second script timeout, and finally writes `dynamic.pdf`. Open the PDF—you should see the chart, table, or any other dynamic element that was originally generated by JavaScript.
+
+### Expected output
+
+```text
+JS‑enabled PDF created.
+```
+
+And the resulting `dynamic.pdf` will contain a fully rendered page, with all script‑driven content visible.
+
+## Common Variations & Edge Cases
+
+### 1. Converting multiple pages in one go
+If you need to **convert html to pdf** for a batch of files, simply loop over the source paths and reuse the same `HtmlLoadOptions` instance. This avoids the overhead of recreating the options each time.
+
+### 2. Handling AJAX‑heavy pages
+For pages that fetch data via AJAX, you might need to increase the **script timeout** or provide a custom `NetworkRequestHandler` to mock API responses. Otherwise the converter may finish before the data arrives, leaving placeholders in the PDF.
+
+### 3. Security considerations
+Enabling JavaScript opens a small attack surface. Always validate or sandbox the HTML you feed into the converter, especially if the source comes from untrusted users. Setting a reasonable **script timeout** is the first line of defense.
+
+### 4. Switching output formats
+Aspose.HTML isn’t limited to PDF. You can replace `new PdfSaveOptions()` with `new PngDevice()` or `new JpegDevice()` to get raster images, or even `new XpsSaveOptions()` for XPS files. The same **how to enable javascript** and **how to set timeout** steps apply.
+
+## Step‑by‑Step Recap (Quick Reference)
+
+| Step | What you do | Key code line |
+|------|-------------|---------------|
+| 1 | Create `HtmlLoadOptions` and turn JavaScript on | `loadOptions.setEnableJavaScript(true);` |
+| 2 | Define a script execution ceiling | `loadOptions.setScriptTimeout(5000);` |
+| 3 | Call `Converter.convertDocument` with `PdfSaveOptions` | `Converter.convertDocument(..., new PdfSaveOptions(), loadOptions);` |
+
+## Pro Tips for a Smooth Experience
+
+- **Cache the options** if you’re converting many files; it reduces GC pressure.  
+- **Log the conversion time** to spot pages that constantly hit the timeout—those might need optimization.  
+- **Test with headless browsers** (e.g., Chrome Headless) first to gauge how long the scripts actually run; then mirror that duration in `setScriptTimeout`.  
+- **Use absolute paths** or class‑path resources for `dynamic.html` to avoid “file not found” surprises when you run the JAR from another directory.
+
+## Frequently Asked Questions
+
+**Q: Does this work with Java 11?**  
+A: Yes. Aspose.HTML supports Java 8 and newer, so Java 11 is fine. Just ensure the library version matches your JDK.
+
+**Q: What if I need to disable JavaScript for a specific page?**  
+A: Create a separate `HtmlLoadOptions` instance without calling `setEnableJavaScript(true)`. Pass that instance to `Converter.convertDocument` for the safe pages.
+
+**Q: Can I change the timeout per page?**  
+A: Absolutely. Just modify `loadOptions.setScriptTimeout(...)` before each conversion call.
+
+## Conclusion
+
+We’ve covered **how to enable javascript** in Aspose.HTML for Java, demonstrated **how to set timeout**, and walked through a complete **convert html to pdf** workflow. By toggling `setEnableJavaScript(true)` i fine‑tuning `setScriptTimeout`, you get reliable PDF output even from the most dynamic web pages.
+
+Ready for the next step? Try converting to other formats, experiment with different timeout values, or integrate this snippet into a larger microservice that generates reports on demand. The sky’s the limit when you control both JavaScript execution and rendering.
+
+---
+
+![jak włączyć javascript w konwersji Aspose HTML do PDF](image.png)
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

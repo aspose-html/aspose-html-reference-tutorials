@@ -99,6 +99,22 @@ Aspose.HTML ile Java'da SVG'yi görüntülere dönüştürmeyi öğrenin. Yükse
 Aspose.HTML ile Java'da SVG'yi PDF'ye dönüştürün. Yüksek kaliteli belge dönüşümü için sorunsuz bir çözüm.
 ### [SVG'yi XPS'ye Dönüştürme](./convert-svg-to-xps/)
 Aspose.HTML for Java ile SVG'yi XPS'ye dönüştürmeyi öğrenin. Sorunsuz dönüşümler için basit, adım adım rehber.
+### [Java HTML'yi PDF/A'ya Aspose ile Dönüştürme](./java-html-to-pdf-convert-html-to-pdf-a-using-aspose/)
+Aspose.HTML for Java kullanarak HTML dosyalarını PDF/A formatına dönüştürün. Arşivleme ve uyumluluk için ideal.
+### [Java'da HTML'yi PDF'ye Dönüştürürken JavaScript'i Etkinleştirme](./how-to-enable-javascript-when-converting-html-to-pdf-in-java/)
+HTML'den PDF'ye dönüşüm sırasında JavaScript'in çalışmasını sağlayarak dinamik içerikleri doğru render edin.
+### [Aspose ile HTML'den PDF'ye Görüntü Gömme – Java Kılavuzu](./how-to-embed-images-in-html-to-pdf-with-aspose-java-guide/)
+Aspose.HTML for Java kullanarak HTML'deki resimleri PDF'ye nasıl gömeceğinizi adım adım öğrenin.
+### [Java'da PDF Şifreleme – HTML'den PDF'yi Parola ile Koruma](./how-to-encrypt-pdf-in-java-password-protect-pdf-from-html/)
+HTML'den oluşturulan PDF'yi şifreleyerek parola koruması ekleyin ve güvenli belge dağıtımı sağlayın.
+### [Java'da Paralel HTML‑to‑PDF Dönüşümü için Sabit İş Parçacığı Havuzu Oluşturma](./create-fixed-thread-pool-for-parallel-html-to-pdf-conversion/)
+Java'da çoklu HTML dosyasını aynı anda PDF'ye dönüştürmek için sabit iş parçacığı havuzu oluşturmayı öğrenin.
+### [Mobil Görünüm Alanı ile HTML'den PDF Oluşturma – Tam Java Kılavuzu](./create-pdf-from-html-with-mobile-viewport-complete-java-guid/)
+Mobil cihaz görünümünü taklit ederek HTML'den PDF oluşturmayı adım adım öğrenin.
+### [HTML'yi Java'da Markdown'a Dönüştürme – Tam Adım‑Adım Kılavuz](./convert-html-to-markdown-in-java-full-step-by-step-guide/)
+Aspose.HTML for Java ile HTML'yi Markdown formatına sorunsuz bir şekilde dönüştürün. Detaylı adım adım rehber.
+### [HTML'yi PDF'ye Dönüştürme – PDF'yi Azure Blob'a Kaydetme Tam Kılavuzu](./convert-html-to-pdf-complete-guide-to-saving-pdf-to-azure-bl/)
+Aspose.HTML for Java kullanarak HTML'den PDF oluşturup, sonucu Azure Blob depolama alanına kaydetmeyi adım adım öğrenin.
 
 ## Sıkça Sorulan Sorular
 
