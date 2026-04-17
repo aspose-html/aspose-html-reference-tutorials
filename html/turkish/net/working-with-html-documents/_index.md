@@ -38,6 +38,8 @@ Temelleri kavradığınızda, oluşturma sürecine daha derinlemesine dalacağı
 
 ### [C#'ta HTML Kaydetme – Özel Kaynak İşleyicisi Kullanarak Tam Kılavuz](./how-to-save-html-in-c-complete-guide-using-a-custom-resource/)
 ### [CSS ve C# ile Başlığı Kalınlaştırma – Tam Adım Adım Kılavuz](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
+### [Aspose.HTML ile C#'ta HTML Belgesi Yükleme – Tam Kılavuz](./load-html-document-with-aspose-html-complete-c-guide/)
+### [C#'ta HTML Zipleme – Tam Adım Adım Kılavuz](./how-to-zip-html-in-c-complete-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

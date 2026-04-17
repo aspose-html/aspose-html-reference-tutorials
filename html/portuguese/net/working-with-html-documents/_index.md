@@ -26,18 +26,17 @@ Antes de mergulharmos nas especificidades da criação e edição de documentos 
 
 ### [Criando um documento em .NET com Aspose.HTML](./creating-a-document/)
 
-O primeiro passo em nossa jornada é aprender como criar documentos HTML do zero ou de URLs usando Aspose.HTML. Nós o guiaremos pelo processo, garantindo que até mesmo iniciantes consigam acompanhar. Ao final desta seção, você terá as habilidades para gerar documentos HTML sem esforço.
-
 ### [Criando um documento simples em .NET com Aspose.HTML](./creating-a-simple-document/)
-
-Depois que você tiver compreendido o básico, vamos nos aprofundar no processo de criação. Nesta seção, você aprenderá como criar documentos HTML simples usando Aspose.HTML, e exploraremos vários recursos que permitem fácil manipulação. Não importa se você está construindo uma página da web, gerando conteúdo ou convertendo dados para HTML, este tutorial irá equipá-lo com o conhecimento necessário.
 
 ### [Editando um documento no .NET com Aspose.HTML](./editing-a-document/)
 
-Agora, vamos levar suas habilidades para o próximo nível. Editar documentos HTML é uma tarefa comum para desenvolvedores web, e o Aspose.HTML simplifica esse processo significativamente. Nesta seção, abordaremos a criação, manipulação e estilo de documentos. Você descobrirá como aprimorar a aparência e a funcionalidade do seu conteúdo web, tornando-o envolvente e amigável ao usuário.
-
 ### [Como salvar HTML em C# – Guia completo usando um manipulador de recursos personalizado](./how-to-save-html-in-c-complete-guide-using-a-custom-resource/)
+
 ### [Como deixar o título em negrito com CSS e C# – Guia completo passo a passo](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
+
+### [Carregar documento HTML com Aspose.HTML – Guia completo em C#](./load-html-document-with-aspose-html-complete-c-guide/)
+
+### [Como compactar HTML em C# – Guia completo passo a passo](./how-to-zip-html-in-c-complete-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
