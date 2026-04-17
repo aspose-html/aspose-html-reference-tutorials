@@ -50,6 +50,8 @@ Scopri come convertire facilmente file HTML in PNG usando Aspose.HTML con questa
 Scopri come convertire facilmente file HTML in PNG usando Aspose.HTML per .NET con questa guida dettagliata.
 ### [Crea PNG da HTML – Guida completa al rendering C#](./create-png-from-html-full-c-rendering-guide/)
 Scopri come generare PNG da HTML usando Aspose.HTML per .NET con una guida completa passo passo in C#.
+### [Crea documento HTML C# – Renderizza HTML in PNG](./create-html-document-c-render-html-to-png/)
+Scopri come creare un documento HTML in C# e renderizzarlo in PNG usando Aspose.HTML per .NET.
 ### [Renderizza EPUB come XPS in .NET con Aspose.HTML](./render-epub-as-xps/)
 Scopri come creare e rendere documenti HTML con Aspose.HTML per .NET in questo tutorial completo. Immergiti nel mondo della manipolazione HTML, del web scraping e altro ancora.
 ### [Timeout di rendering in .NET con Aspose.HTML](./rendering-timeout/)
@@ -60,6 +62,9 @@ Scopri come controllare efficacemente i timeout di rendering in Aspose.HTML per 
 Impara a eseguire il rendering di più documenti HTML utilizzando Aspose.HTML per .NET. Aumenta le tue capacità di elaborazione dei documenti con questa potente libreria.
 ### [Rendi il documento SVG come PNG in .NET con Aspose.HTML](./render-svg-doc-as-png/)
 Sblocca la potenza di Aspose.HTML per .NET! Scopri come rendere SVG Doc come PNG senza sforzo. Immergiti in esempi passo dopo passo e FAQ. Inizia subito!
+### [Come abilitare l'antialiasing durante il rendering di HTML in PNG in C#](./how-to-enable-antialiasing-when-rendering-html-to-png-in-c/)
+Scopri come attivare l'antialiasing per migliorare la qualità delle immagini PNG generate dal rendering HTML con Aspose.HTML in C#.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
