@@ -84,8 +84,14 @@ Podsumowując, opanowanie **html to pdf java** oraz szerszego zestawu konwersji 
 ## Konwersja - Samouczki HTML do Innych Formatów
 ### [Converting HTML to PDF](./convert-html-to-pdf/)
 Learn how to convert HTML to PDF in Java using Aspose.HTML. Create high-quality PDFs from your HTML content effortlessly.
+### [Konwertowanie HTML do PDF w Javie – jak utworzyć pulę wątków](./convert-html-to-pdf-with-java-how-to-create-thread-pool/)
+Dowiedz się, jak wykorzystać pulę wątków w Javie przy konwersji HTML do PDF przy użyciu Aspose.HTML.
+### [Jak przekonwertować stronę internetową na PDF w Javie – Przewodnik krok po kroku](./how-to-convert-webpage-to-pdf-in-java-step-by-step-guide/)
+Dowiedz się, jak w prostych krokach przekształcić stronę internetową w plik PDF przy użyciu Aspose.HTML for Java.
 ### [Konwertowanie HTML do PDF w Javie – Przewodnik krok po kroku z ustawieniami rozmiaru strony](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Dowiedz się, jak konwertować HTML do PDF w Javie, ustawiając rozmiar strony krok po kroku.
+### [Utwórz PDF z HTML z niestandardowym rozmiarem strony i osadzonymi czcionkami](./create-pdf-from-html-with-custom-page-size-and-embedded-font/)
+Dowiedz się, jak generować PDF z HTML, ustawiając własny rozmiar strony i osadzając czcionki, aby zapewnić spójny wygląd dokumentu.
 ### [Converting HTML to MHTML](./convert-html-to-mhtml/)
 Effortlessly convert HTML to MHTML using Aspose.HTML for Java. Follow our step-by-step guide for efficient HTML-to-MHTML conversion.
 ### [Converting HTML to XPS](./convert-html-to-xps/)
@@ -98,6 +104,8 @@ Learn how to convert SVG to images in Java with Aspose.HTML. Comprehensive guide
 Convert SVG to PDF in Java with Aspose.HTML. A seamless solution for high-quality document conversion.
 ### [Converting SVG to XPS](./convert-svg-to-xps/)
 Learn how to convert SVG to XPS with Aspose.HTML for Java. Simple, step-by-step guide for seamless conversions.
+### [Konwertowanie HTML do PDF w Javie – Przykład jednolinijkowego kodu](./convert-html-to-pdf-in-java-one-line-code-example/)
+Zobacz, jak w jednej linii kodu przekształcić HTML w PDF przy użyciu Aspose.HTML for Java.
 
 ## Często zadawane pytania
 
