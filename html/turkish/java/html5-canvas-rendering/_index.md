@@ -30,6 +30,9 @@ Web geliştirme söz konusu olduğunda, grafikleri işlemek çoğu zaman göz ko
 Java için Aspose.HTML ile HTML5 Canvas oluşturun ve işleyin. Bu güçlü Java kütüphanesini kullanarak adım adım çizim, stil ve PDF'ye aktarmayı öğrenin.
 ### [Java için Aspose.HTML ile HTML5 Canvas'ta Ustalaşma](./html5-canvas/)
 Aspose.HTML for Java kullanarak HTML5 Canvas'ı PDF'ye nasıl oluşturacağınızı ve dönüştüreceğinizi öğrenin. Bu kılavuz, web projelerini geliştirmek isteyen geliştiriciler için mükemmeldir.
+### [iPhone Emülasyonu Nasıl Yapılır – Aspose.HTML ile Tam Kılavuz](./how-to-emulate-iphone-complete-guide-with-aspose-html/)
+Aspose.HTML ile iPhone cihazını taklit ederek web sayfalarını mobil ortamda test edin ve render edin.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

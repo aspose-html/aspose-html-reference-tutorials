@@ -113,28 +113,14 @@ weight: 20
 ## الاستخدام المتقدم لتعليمات Aspose.HTML Java
 
 ### [تخصيص هوامش صفحة HTML باستخدام Aspose.HTML](./css-extensions-adding-title-page-number/)
-تعلم كيفية تخصيص هوامش الصفحة، إضافة أرقام الصفحات، والعناوين إلى مستندات HTML باستخدام Aspose.HTML for Java.
-
 ### [مراقب تغيرات DOM باستخدام Aspose.HTML for Java](./dom-mutation-observer-observing-node-additions/)
-تعلم كيفية استخدام Aspose.HTML for Java لتنفيذ مراقب تغيرات DOM في هذا الدليل خطوة بخطوة. راقب وتفاعل مع تغييرات DOM بفعالية.
-
 ### [معالجة HTML5 Canvas باستخدام Aspose.HTML for Java](./html5-canvas-manipulation-using-code/)
-تعلم معالجة HTML5 Canvas باستخدام Aspose.HTML for Java. أنشئ رسومات تفاعلية مع إرشادات خطوة بخطوة.
-
 ### [معالجة HTML5 Canvas باستخدام Aspose.HTML for Java (JavaScript)](./html5-canvas-manipulation-using-javascript/)
-تعلم كيفية معالجة HTML5 Canvas باستخدام JavaScript و Aspose.HTML for Java. أنشئ رسومات ديناميكية وحولها إلى PDF.
-
 ### [أتمتة تعبئة نماذج HTML باستخدام Aspose.HTML for Java](./html-form-editor-filling-submitting-forms/)
-تعلم كيفية أتمتة تعبئة نماذج HTML وإرسالها باستخدام Aspose.HTML for Java. بسط التفاعل مع الويب من خلال هذا الدليل.
-
 ### [ضبط حجم صفحة PDF باستخدام Aspose.HTML for Java](./adjust-pdf-page-size/)
-تعلم كيفية ضبط حجم صفحة PDF باستخدام Aspose.HTML for Java. أنشئ ملفات PDF عالية الجودة من HTML بسهولة. سيطر على أبعاد الصفحة بفعالية.
-
 ### [ضبط حجم صفحة XPS باستخدام Aspose.HTML for Java](./adjust-xps-page-size/)
-تعلم كيفية ضبط حجم صفحة XPS باستخدام Aspose.HTML for Java. سيطر على أبعاد مخرجات مستندات XPS بسهولة.
-
 ### [كيفية تشغيل JavaScript في Java – دليل كامل](./how-to-run-javascript-in-java-complete-guide/)
-تعلم كيفية تشغيل كود JavaScript داخل تطبيقات Java باستخدام Aspose.HTML for Java.
+### [مثال top level await – استخدام await delay في JavaScript](./top-level-await-example-using-await-delay-in-javascript/)
 
 ---
 

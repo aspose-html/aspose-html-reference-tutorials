@@ -54,7 +54,7 @@ Wywołaj `renderer.renderToFile(outputPath, saveOptions)`, aby wygenerować obra
 *Te same trzy kroki mają zastosowanie do BMP, TIFF i każdego innego obsługiwanego formatu.*
 
 ## Konwertowanie HTML do BMP
-Konwertowanie HTML do BMP jest częstym wymogiem przy archiwizacji stron internetowych lub generowaniu miniatur, które wymagają jakości bezstratnej. Niezależnie od tego, czy tworzysz system zarządzania dokumentami, czy narzędzie raportujące, ten przewodnik pokaże, jak wykonać konwersję bez wysiłku.
+Konwertowanie HTML do BMP jest częstym wymogiem przy archiwizacji stron internetowych lub generowaniu miniatur, które wymagają jakości bezstratnej. Niezależnie od tego, czy tworzysz system zarządzania dokumentami, czy narzędzie raportujące, ten przewodnik pokaże Ci, jak wykonać konwersję bez wysiłku.
 
 ## Konwertowanie HTML do GIF
 Chcesz **convert HTML to GIF** dla animowanych podglądów lub lekkich grafik? Aspose.HTML for Java upraszcza to zadanie. Ten samouczek przeprowadzi Cię przez proces, zapewniając wysokiej jakości wynik przy minimalnym kodzie.
@@ -97,7 +97,11 @@ Dowiedz się, jak konwertować HTML do obrazów PNG w Javie przy użyciu Aspose.
 ### [Converting HTML to TIFF](./convert-html-to-tiff/)
 Dowiedz się, jak łatwo konwertować HTML do TIFF przy użyciu Aspose.HTML for Java. Przewodnik krok po kroku dla efektywnego zarządzania dokumentami.
 
-### [Konwertowanie HTML do WebP – Kompletny przewodnik Java z Aspose.HTML](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
+### [Utworzenie wielostronicowego TIFF z SVG w Javie – Przewodnik krok po kroku](./create-multipage-tiff-from-svg-in-java-step-by-step-guide/)
+Dowiedz się, jak utworzyć wielostronicowy plik TIFF z SVG w Javie przy użyciu Aspose.HTML. Kompletny przewodnik krok po kroku.
+
+### [Konwertowanie HTML do WebP – Kompletny przewodnik Java z Aspose.HTML](./convert-html-to-webp-complete-java-guide/)
+Dowiedz się, jak konwertować HTML do formatu WebP w Javie przy użyciu Aspose.HTML. Szczegółowy przewodnik krok po kroku.
 
 ## Najczęściej zadawane pytania
 

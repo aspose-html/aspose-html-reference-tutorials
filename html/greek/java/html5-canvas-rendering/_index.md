@@ -30,6 +30,8 @@ url: /el/java/html5-canvas-rendering/
 Δημιουργία και απόδοση καμβά HTML5 με το Aspose.HTML για Java. Μάθετε βήμα προς βήμα πώς να σχεδιάζετε, να στυλ και να εξάγετε σε PDF χρησιμοποιώντας αυτήν την ισχυρή βιβλιοθήκη Java.
 ### [Κατακτήστε τον καμβά HTML5 με το Aspose.HTML για Java](./html5-canvas/)
 Μάθετε πώς να δημιουργείτε και να μετατρέπετε καμβά HTML5 σε PDF χρησιμοποιώντας το Aspose.HTML για Java. Αυτός ο οδηγός είναι ιδανικός για προγραμματιστές που θέλουν να βελτιώσουν τα έργα τους στον ιστό.
+### [Πώς να Εξομοιώσετε το iPhone – Πλήρης Οδηγός με το Aspose.HTML](./how-to-emulate-iphone-complete-guide-with-aspose-html/)
+Μάθετε πώς να προσομοιώσετε το iPhone σε περιβάλλον Aspose.HTML, βήμα-βήμα οδηγίες για ακριβή απόδοση και λειτουργικότητα.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
