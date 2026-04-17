@@ -119,6 +119,9 @@ Scopri come implementare il sandboxing in Aspose.HTML per Java per controllare i
 ### [Imposta il foglio di stile utente in Aspose.HTML per Java](./set-user-style-sheet/)
 Scopri come impostare un foglio di stile utente personalizzato in Aspose.HTML per Java, migliorando lo stile dei tuoi documenti e convertendo HTML in PDF con facilità.
 
+### [Ottieni la versione della libreria in Java – Guida rapida per mostrare la versione della libreria](./get-library-version-in-java-quick-guide-to-show-library-vers/)
+Scopri come recuperare e visualizzare la versione corrente di Aspose.HTML per Java con una semplice chiamata API.
+
 ---
 
 **Ultimo aggiornamento:** 2025-12-03  

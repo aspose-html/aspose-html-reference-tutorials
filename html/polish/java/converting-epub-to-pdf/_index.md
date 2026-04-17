@@ -70,6 +70,8 @@ Naucz się używać Aspose.HTML for Java: konwertuj EPUB na obraz i nie tylko. P
 Dowiedz się, jak konwertować EPUB na obrazy przy użyciu Aspose.HTML for Java. Transformuj swoje treści cyfrowe bez wysiłku. Zawiera przewodnik krok po kroku.
 ### [Jak osadzić czcionki przy konwertowaniu EPUB do PDF w Javie](./how-to-embed-fonts-when-converting-epub-to-pdf-in-java/)
 Dowiedz się, jak osadzić czcionki podczas konwersji EPUB do PDF w Javie przy użyciu Aspose.HTML, aby zachować wygląd dokumentu.
+### [Tworzenie PDF z EPUB – Przewodnik krok po kroku w Javie](./create-pdf-from-epub-step-by-step-java-guide/)
+Dowiedz się, jak w Javie stworzyć PDF z pliku EPUB, korzystając z Aspose.HTML – kompletny przewodnik krok po kroku.
 
 ## Najczęściej zadawane pytania
 

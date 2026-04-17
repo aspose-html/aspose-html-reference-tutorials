@@ -82,22 +82,8 @@ Tanuld meg, hogyan használhatod az Aspose.HTML for Java-t: EPUB konvertálása 
 ### [EPUB konvertálása képpé](./convert-epub-to-image/)
 Tanuld meg, hogyan konvertálj EPUB‑t képekké az Aspose.HTML for Java segítségével. Átalakítsd digitális tartalmad könnyedén. Lépésről‑lépésre útmutató is tartalmaz.
 
-## Gyakran Ismételt Kérdések
-
-**Q:** *Konvertálhatok védett EPUB fájlokat PDF‑be?*  
-**A:** Igen. Az Aspose.HTML for Java képes megnyitni titkosított EPUB‑okat, ha megadod a megfelelő dekódoló jelszót.
-
-**Q:** *Mi van, ha a PDF‑nek PDF/A‑nak kell megfelelnie?*  
-**A:** Használd a `PdfSaveOptions` osztályt, hogy a `Compliance`‑t `PdfCompliance.PdfA1b`‑re (vagy más PDF/A szintre) állítsd a mentés előtt.
-
-**Q:** *Lehet képeket, például JPG‑t vagy PNG‑t kinyerni a konvertálás során?*  
-**A:** Természetesen. Kép mentési opció megadásával vagy az egyedi stream provider használatával minden oldalt vagy képet JPG vagy PNG formátumba irányíthatsz.
-
-**Q:** *Szükségem van külön könyvtárra a képek kinyeréséhez?*  
-**A:** Nem. Ugyanaz az Aspose.HTML for Java API kezeli a PDF generálást és a képek kinyerését is, egyszerűsítve a munkafolyamatot.
-
-**Q:** *Mely Java verziók támogatottak?*  
-**A:** A könyvtár támogatja a Java 8‑at és újabbakat, beleértve a Java 11‑et, Java 17‑et és a későbbi LTS kiadásokat.
+### [PDF létrehozása EPUB‑ból – Lépésről‑lépésre Java útmutató](./create-pdf-from-epub-step-by-step-java-guide/)
+Tanuld meg, hogyan hozhatsz létre PDF-et EPUB-ból Java-ban az Aspose.HTML segítségével, részletes útmutatóval.
 
 ---
 
