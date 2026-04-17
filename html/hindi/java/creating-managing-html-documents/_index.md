@@ -56,6 +56,8 @@ Java में Aspose.HTML का उपयोग करके HTML दस्त
 स्ट्रिंग्स से HTML दस्तावेज़ बनाना सीखें। चरण‑दर‑चरण मार्गदर्शिका।
 ### [Java के लिए Aspose.HTML में URL से HTML दस्तावेज़ लोड करें](./load-html-documents-from-url/)
 URL से HTML दस्तावेज़ लोड करना आसान बनाएं। चरण‑दर‑चरण ट्यूटोरियल।
+### [Aspose के साथ HTML दस्तावेज़ लोड करें – पृष्ठ शीर्षक प्राप्त करने के लिए त्वरित जावा गाइड](./load-html-document-aspose-quick-java-guide-to-retrieve-page/)
+Aspose.HTML for Java का उपयोग करके HTML दस्तावेज़ लोड करें और पृष्ठ शीर्षक को आसानी से प्राप्त करें। चरण‑दर‑चरण मार्गदर्शिका।
 ### [Java के लिए Aspose.HTML का उपयोग करके नए HTML दस्तावेज़ बनाएं](./generate-new-html-documents/)
 नए HTML दस्तावेज़ बनाना सीखें। गतिशील सामग्री बनाना शुरू करें।
 ### [Java के लिए Aspose.HTML में दस्तावेज़ लोड इवेंट को संभालें](./handle-document-load-events/)
@@ -66,6 +68,8 @@ SVG दस्तावेज़ बनाना और प्रबंधित 
 Java में HTML सैंडबॉक्स बनाने की प्रक्रिया सीखें, सुरक्षित परीक्षण और विकास के लिए चरण‑दर‑चरण मार्गदर्शिका।
 ### [Java में HTML क्वेरी कैसे करें – पूर्ण ट्यूटोरियल](./how-to-query-html-in-java-complete-tutorial/)
 Java में Aspose.HTML का उपयोग करके HTML क्वेरी करने के चरण‑दर‑चरण मार्गदर्शिका, टिप्स और सर्वोत्तम प्रथाएँ।
+### [Java में HTML लोड करने का तरीका – चरण‑दर‑चरण गाइड](./how-to-load-html-in-java-step-by-step-guide/)
+Java में HTML लोड करने के लिए चरण‑दर‑चरण मार्गदर्शिका, उपयोगी टिप्स और सर्वोत्तम प्रथाएँ।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

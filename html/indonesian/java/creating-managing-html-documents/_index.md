@@ -64,7 +64,10 @@ Pelajari cara menangani peristiwa pemuatan dokumen di Aspose.HTML untuk Java den
 Pelajari cara membuat dan mengelola dokumen SVG menggunakan Aspose.HTML untuk Java! Panduan komprehensif ini mencakup semuanya, mulai dari pembuatan dasar hingga manipulasi tingkat lanjut.
 ### [Buat Sandbox untuk HTML di Java – Panduan Langkah‑per‑Langkah](./create-sandbox-for-html-in-java-step-by-step-guide/)
 Pelajari cara membuat sandbox HTML di Java dengan panduan langkah demi langkah untuk pengujian dan pengembangan yang aman.
+### [Cara Memuat HTML di Java – Panduan Langkah‑per‑Langkah](./how-to-load-html-in-java-step-by-step-guide/)
+Pelajari cara memuat HTML di Java dengan panduan langkah demi langkah ini.
 ### [Cara Menanyakan HTML di Java – Tutorial Lengkap](./how-to-query-html-in-java-complete-tutorial/)
+### [Muat Dokumen HTML Aspose – Panduan Cepat Java untuk Mengambil Judul Halaman](./load-html-document-aspose-quick-java-guide-to-retrieve-page/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

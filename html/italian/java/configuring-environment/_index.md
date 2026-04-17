@@ -119,6 +119,9 @@ Scopri come implementare il sandboxing in Aspose.HTML per Java per controllare i
 ### [Imposta il foglio di stile utente in Aspose.HTML per Java](./set-user-style-sheet/)
 Scopri come impostare un foglio di stile utente personalizzato in Aspose.HTML per Java, migliorando lo stile dei tuoi documenti e convertendo HTML in PDF con facilità.
 
+### [Come creare un sandbox in Java – Guida completa](./how-to-create-sandbox-in-java-full-guide/)
+Scopri come creare un sandbox in Java con questa guida completa passo‑passo, garantendo esecuzioni sicure dei tuoi script HTML.
+
 ---
 
 **Ultimo aggiornamento:** 2025-12-03  

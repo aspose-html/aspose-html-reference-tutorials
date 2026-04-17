@@ -74,6 +74,8 @@ Pelajari cara menggunakan Aspose.HTML for Java untuk mengonversi file EPUB ke ga
 Pelajari cara menggunakan Aspose.HTML for Java: Mengonversi EPUB ke gambar & lainnya. Jelajahi panduan langkah demi langkah kami.
 ### [Mengonversi EPUB ke Gambar](./convert-epub-to-image/)
 Pelajari cara mengonversi EPUB ke gambar dengan Aspose.HTML for Java. Ubah konten digital Anda dengan mudah. Panduan langkah demi langkah disertakan.
+### [Tutorial epub ke pdf – Konversi eBook Anda dengan Java dalam Hitungan Menit](./epub-to-pdf-tutorial-convert-your-ebooks-with-java-in-minute/)
+Pelajari cara cepat mengonversi eBook EPUB ke PDF menggunakan Aspose.HTML for Java dalam beberapa menit.
 
 ## Pertanyaan yang Sering Diajukan
 
