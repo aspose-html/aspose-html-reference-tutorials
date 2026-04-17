@@ -39,7 +39,12 @@ url: /el/net/working-with-html-documents/
 ### [Πώς να αποθηκεύσετε HTML σε C# – Πλήρης οδηγός με χρήση προσαρμοσμένου διαχειριστή πόρων](./how-to-save-html-in-c-complete-guide-using-a-custom-resource/)
 
 Μάθετε πώς να αποθηκεύετε HTML σε C# χρησιμοποιώντας έναν προσαρμοσμένο διαχειριστή πόρων, βήμα-βήμα οδηγός.
+
 ### [Πώς να κάνετε έντονο τίτλο με CSS & C# – Πλήρης οδηγός βήμα‑βήμα](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
+
+### [Πώς να αποθηκεύσετε HTML με Aspose – Πλήρης οδηγός C#](./how-to-save-html-with-aspose-complete-c-guide/)
+
+### [Πώς να συμπιέσετε HTML σε C# – Πλήρης οδηγός δημιουργίας αρχείου ZIP](./how-to-zip-html-in-c-complete-guide-to-create-zip-archive/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
