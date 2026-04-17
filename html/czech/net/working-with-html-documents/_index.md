@@ -38,6 +38,7 @@ Nyní posuňte vaše dovednosti na další úroveň. Úpravy HTML dokumentů jso
 
 ### [Jak uložit HTML v C# – Kompletní průvodce pomocí vlastního resource handleru](./how-to-save-html-in-c-complete-guide-using-a-custom-resource/)
 ### [Jak zvýraznit nadpis tučným písmem pomocí CSS a C# – Kompletní průvodce krok za krokem](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
+### [Vytvořit HTML dokument v C# – Kompletní průvodce s vlastním resource handlerem](./create-html-document-c-complete-guide-with-custom-resource-h/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
