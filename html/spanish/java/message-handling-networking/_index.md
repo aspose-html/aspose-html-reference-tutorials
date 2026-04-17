@@ -50,6 +50,8 @@ Aprenda a ejecutar solicitudes web con Aspose.HTML para Java con esta guía comp
 Aprenda a convertir archivos ZIP a imágenes JPG usando Aspose.HTML para Java con esta guía paso a paso.
 ### [Convierte ZIP a PDF con Aspose.HTML para Java](./zip-to-pdf/)
 Convierta fácilmente sus archivos ZIP a PDF usando Aspose.HTML para Java con esta guía paso a paso.
+### [Cómo obtener API en Java – Guía completa usando Aspose HTML V8 Engine](./how-to-fetch-api-in-java-complete-guide-using-aspose-html-v8/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

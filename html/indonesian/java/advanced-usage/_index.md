@@ -125,7 +125,10 @@ Pelajari cara menyesuaikan ukuran halaman PDF dengan Aspose.HTML untuk Java. Bua
 Pelajari cara menyesuaikan ukuran halaman XPS dengan Aspose.HTML untuk Java. Kontrol dimensi output dokumen XPS Anda dengan mudah.
 
 ### [Cara Menjalankan JavaScript di Java – Panduan Lengkap](./how-to-run-javascript-in-java-complete-guide/)
-Pelajari cara menjalankan kode JavaScript dalam aplikasi Java dengan Aspose.HTML untuk Java secara lengkap.
+Pelajari cara menjalkan kode JavaScript dalam aplikasi Java dengan Aspose.HTML untuk Java secara lengkap.
+
+### [Dapatkan Judul HTML Java – Render Halaman di Sandbox dengan Lebar Layar](./get-html-title-java-render-page-in-sandbox-with-screen-width/)
+Pelajari cara mendapatkan judul HTML menggunakan Aspose.HTML untuk Java, merender halaman dalam sandbox dengan lebar layar tertentu.
 
 ---
 

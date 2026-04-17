@@ -50,6 +50,9 @@ Học cách thực hiện các yêu cầu web bằng Aspose.HTML cho Java với 
 Tìm hiểu cách chuyển đổi tệp ZIP sang ảnh JPG bằng Aspose.HTML cho Java với hướng dẫn từng bước này.
 ### [Chuyển đổi ZIP sang PDF bằng Aspose.HTML cho Java](./zip-to-pdf/)
 Dễ dàng chuyển đổi tệp ZIP sang PDF bằng Aspose.HTML cho Java với hướng dẫn từng bước này.
+### [Cách Fetch API trong Java – Hướng dẫn đầy đủ sử dụng Aspose HTML V8 Engine](./how-to-fetch-api-in-java-complete-guide-using-aspose-html-v8/)
+Hướng dẫn chi tiết cách gọi API trong Java bằng Aspose HTML V8, bao gồm cấu hình, thực thi và xử lý phản hồi một cách hiệu quả.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

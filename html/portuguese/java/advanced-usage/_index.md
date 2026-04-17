@@ -137,6 +137,9 @@ Aprenda a ajustar o tamanho de página XPS com Aspose.HTML for Java. Controle fa
 ### [Como Executar JavaScript em Java – Guia Completo](./how-to-run-javascript-in-java-complete-guide/)
 Aprenda a executar código JavaScript dentro de aplicações Java usando Aspose.HTML for Java.
 
+### [Obter título HTML Java – Renderizar página em sandbox com largura de tela](./get-html-title-java-render-page-in-sandbox-with-screen-width/)
+Aprenda a obter o título de uma página HTML e renderizá‑la em um sandbox definindo a largura da tela usando Aspose.HTML for Java.
+
 ---
 
 **Última atualização:** 2025-11-29  
