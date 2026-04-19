@@ -61,6 +61,8 @@ Dowiedz się, jak konwertować HTML na Markdown w .NET przy użyciu Aspose.HTML 
 Konwertuj HTML na MHTML w .NET za pomocą Aspose.HTML — przewodnik krok po kroku dotyczący wydajnej archiwizacji treści internetowych. Dowiedz się, jak używać Aspose.HTML dla .NET do tworzenia archiwów MHTML.
 ### [Konwersja HTML do PNG w .NET za pomocą Aspose.HTML](./convert-html-to-png/)
 Dowiedz się, jak używać Aspose.HTML dla .NET do manipulowania dokumentami HTML i konwertowania ich. Przewodnik krok po kroku do efektywnego rozwoju .NET.
+### [Konwertuj HTML do PNG w C# – Renderuj HTML jako obraz](./convert-html-to-png-in-c-render-html-as-image/)
+Dowiedz się, jak w C# renderować HTML jako obraz PNG przy użyciu Aspose.HTML – kompletny przewodnik krok po kroku.
 ### [Konwertuj HTML do TIFF w .NET za pomocą Aspose.HTML](./convert-html-to-tiff/)
 Dowiedz się, jak konwertować HTML do TIFF za pomocą Aspose.HTML dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać skuteczną optymalizację treści internetowych.
 ### [Konwersja HTML do XPS w .NET za pomocą Aspose.HTML](./convert-html-to-xps/)
@@ -73,6 +75,10 @@ Dowiedz się, jak stworzyć dokument HTML z formatowanym tekstem i wyeksportowa�
 Zapisz dokument HTML jako archiwum ZIP w C# przy użyciu Aspose.HTML – kompletny przewodnik krok po kroku.
 ### [Zapisz HTML do ZIP w C# – Kompletny przykład w pamięci](./save-html-to-zip-in-c-complete-in-memory-example/)
 Zapisz dokument HTML do archiwum ZIP w pamięci przy użyciu Aspose.HTML w C#.
+### [Zapisz HTML jako ZIP z niestandardowym obsługiwaczem zasobów – przewodnik krok po kroku](./save-html-as-zip-with-a-custom-resource-handler-step-by-step/)
+Dowiedz się, jak zapisać dokument HTML jako archiwum ZIP, używając własnego obsługiwacza zasobów w C# – kompletny przewodnik krok po kroku.
+### [Zapisz stronę internetową jako ZIP przy użyciu Aspose.HTML – Kompletny samouczek C#](./save-webpage-as-zip-with-aspose-html-complete-c-tutorial/)
+Dowiedz się, jak zapisać stronę internetową jako archiwum ZIP w C# przy użyciu Aspose.HTML – pełny przewodnik krok po kroku.
 
 ## Wniosek
 
