@@ -56,6 +56,8 @@ Dowiedz się, jak ładować dokumenty HTML ze strumieni za pomocą Aspose.HTML d
 Dowiedz się, jak tworzyć dokumenty HTML z ciągów znaków w Aspose.HTML dla Java, korzystając z tego przewodnika krok po kroku.
 ### [Ładowanie dokumentów HTML z adresu URL w Aspose.HTML dla Java](./load-html-documents-from-url/)
 Odkryj, jak łatwo ładować dokumenty HTML z adresu URL w Javie za pomocą Aspose.HTML. Zawiera samouczek krok po kroku.
+### [Wyodrębnianie HTML z MHTML – Kompletny przewodnik Java](./extract-html-from-mhtml-complete-java-guide/)
+Kompletny przewodnik krok po kroku, jak wyodrębnić HTML z plików MHTML w Javie przy użyciu Aspose.HTML.
 ### [Generuj nowe dokumenty HTML za pomocą Aspose.HTML dla Java](./generate-new-html-documents/)
 Dowiedz się, jak tworzyć nowe dokumenty HTML za pomocą Aspose.HTML dla Java dzięki temu prostemu przewodnikowi krok po kroku. Zacznij generować dynamiczną zawartość HTML.
 ### [Obsługa zdarzeń ładowania dokumentów w Aspose.HTML dla Java](./handle-document-load-events/)

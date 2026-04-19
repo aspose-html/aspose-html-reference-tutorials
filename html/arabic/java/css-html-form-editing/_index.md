@@ -27,11 +27,11 @@ url: /ar/java/css-html-form-editing/
 
 ## تحرير نماذج CSS وHTML باستخدام Aspose.HTML لـ Java
 ### [تقنيات توسعة CSS المتقدمة مع Aspose.HTML لـ Java](./advanced-css-extension/)
-تعرف على كيفية استخدام Aspose.HTML for Java لتطبيق تقنيات CSS المتقدمة، بما في ذلك هوامش الصفحات المخصصة والمحتوى الديناميكي. برنامج تعليمي عملي مفصل للمطورين.
 ### [تحرير نماذج HTML وإرسالها باستخدام Aspose.HTML لـ Java](./html-form-editing/)
-تعرف على كيفية تحرير نماذج HTML وإرسالها برمجيًا باستخدام Aspose.HTML لـ Java في هذا الدليل الشامل خطوة بخطوة.
 ### [تحديد العنصر حسب الفئة في Java – دليل شامل خطوة بخطوة](./select-element-by-class-in-java-complete-how-to-guide/)
 تعلم كيفية اختيار عناصر HTML باستخدام الفئة في Java باستخدام Aspose.HTML خطوة بخطوة.
+### [الحصول على النمط المحسوب في Java – دليل شامل](./get-computed-style-in-java-complete-guide/)
+تعلم كيفية الحصول على الأنماط المحسوبة لعناصر HTML باستخدام Aspose.HTML لـ Java خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

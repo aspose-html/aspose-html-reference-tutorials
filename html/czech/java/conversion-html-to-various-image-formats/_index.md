@@ -90,6 +90,10 @@ Naučte se, jak převést HTML do GIF v Javě pomocí Aspose.HTML. Komplexní kr
 Naučte se převést HTML do JPEG pomocí Aspose.HTML for Java. Krok‑za‑krokem průvodce pro plynulé zpracování dokumentů.
 ### [Převod HTML do PNG](./convert-html-to-png/)
 Naučte se převést HTML na PNG obrázky v Javě pomocí Aspose.HTML. Komplexní průvodce s krok‑za‑krokem instrukcemi.
+### [Převod SVG do PNG v Javě – Průvodce pro vysoké rozlišení](./convert-svg-to-png-in-java-high-resolution-guide/)
+Naučte se převést SVG do PNG v Javě s vysokým rozlišením pomocí Aspose.HTML. Kompletní krok‑za‑krokem průvodce.
+### [Render HTML do PNG pomocí Aspose.HTML – Kompletní průvodce pro Javu](./render-html-to-png-with-aspose-html-complete-java-guide/)
+Naučte se renderovat HTML do PNG pomocí Aspose.HTML v Javě. Kompletní krok‑za‑krokem průvodce.
 ### [Převod HTML do TIFF](./convert-html-to-tiff/)
 Naučte se snadno převést HTML do TIFF pomocí Aspose.HTML for Java. Krok‑za‑krokem průvodce pro efektivní zpracování dokumentů.
 ### [Převod HTML do WebP](./convert-html-to-webp-complete-java-guide-with-aspose-html/)

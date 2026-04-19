@@ -56,6 +56,8 @@ Aspose.HTML for Java를 사용하여 스트림에서 HTML 문서를 로드하는
 이 단계별 가이드를 통해 Java용 Aspose.HTML에서 문자열로 HTML 문서를 만드는 방법을 알아보세요.
 ### [Java용 Aspose.HTML에서 URL에서 HTML 문서 로드](./load-html-documents-from-url/)
 Aspose.HTML을 사용하여 Java에서 URL에서 HTML 문서를 쉽게 로드하는 방법을 알아보세요. 단계별 튜토리얼이 포함되어 있습니다.
+### [MHTML에서 HTML 추출 – 완전 Java 가이드](./extract-html-from-mhtml-complete-java-guide/)
+Aspose.HTML for Java를 활용해 MHTML 파일에서 HTML을 추출하는 전체 가이드를 제공합니다.
 ### [Java에서 HTML을 쿼리하는 방법 – 완전 튜토리얼](./how-to-query-html-in-java-complete-tutorial/)
 Java용 Aspose.HTML을 사용하여 HTML을 효율적으로 쿼리하는 방법을 단계별로 안내합니다.
 ### [Java용 Aspose.HTML을 사용하여 새 HTML 문서 생성](./generate-new-html-documents/)

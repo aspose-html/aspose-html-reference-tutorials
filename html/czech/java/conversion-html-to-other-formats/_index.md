@@ -86,6 +86,8 @@ Na závěr, zvládnutí **html to pdf java** a širší sady konverzí odemyká 
 Naučte se převést HTML do PDF v Javě pomocí Aspose.HTML. Vytvářejte vysoce kvalitní PDF z vašeho HTML obsahu bez námahy.
 ### [Převod HTML do MHTML](./convert-html-to-mhtml/)
 Jednoduše převádějte HTML do MHTML pomocí Aspose.HTML for Java. Postupujte podle našeho krok‑za‑krokem průvodce pro efektivní konverzi HTML‑to‑MHTML.
+### [Vytvoření MHTML souboru z HTML – Kompletní Java průvodce](./create-mhtml-file-from-html-complete-java-guide/)
+Naučte se vytvořit MHTML soubor z HTML v Javě pomocí Aspose.HTML s podrobným krok‑za‑krokem návodem.
 ### [Převod HTML do XPS](./convert-html-to-xps/)
 Naučte se snadno převádět HTML do XPS pomocí Aspose.HTML for Java. Vytvářejte multiplatformní dokumenty s lehkostí.
 ### [Převod Markdown do HTML](./convert-markdown-to-html/)
@@ -98,6 +100,14 @@ Převádějte SVG do PDF v Javě s Aspose.HTML. Bezproblémové řešení pro vy
 Naučte se převádět SVG do XPS s Aspose.HTML for Java. Jednoduchý, krok‑za‑krokem průvodce pro plynulé konverze.
 ### [Převod HTML do PDF v Javě – krok‑za‑krokem s nastavením velikosti stránky](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Naučte se převést HTML do PDF v Javě s podrobným nastavením velikosti stránky a dalšími možnostmi.
+### [Aspose HTML do PDF v Javě – Rychlý krok‑za‑krokem průvodce](./aspose-html-to-pdf-in-java-quick-step-by-step-guide/)
+Rychlý průvodce, jak převést HTML do PDF v Javě pomocí Aspose.HTML s minimální konfigurací.
+### [Vytvoření EPUB z HTML – Kompletní průvodce v Javě pro tvorbu a uložení eKnih](./create-epub-from-html-full-java-guide-to-build-and-save-eboo/)
+Kompletní návod, jak v Javě vytvořit EPUB z HTML a uložit jej jako e‑knihu.
+### [Vytvoření Markdownu z HTML s Aspose.HTML – Kompletní průvodce v Javě](./create-markdown-from-html-with-aspose-html-complete-java-gui/)
+### [Převod HTML do PDF pomocí Java ExecutorService – Kompletní průvodce](./convert-html-to-pdf-with-java-executorservice-complete-guide/)
+### [Java HTML do PDF – Převod HTML do PDF/A‑2b pomocí Aspose](./java-html-to-pdf-convert-html-to-pdf-a-2b-with-aspose/)
+Naučte se vytvořit PDF/A‑2b soubory z HTML v Javě pomocí Aspose.HTML s plnou podporou archivace.
 
 ## Často kladené otázky
 
