@@ -38,6 +38,7 @@ Temelleri kavradığınızda, oluşturma sürecine daha derinlemesine dalacağı
 
 ### [C#'ta HTML Kaydetme – Özel Kaynak İşleyicisi Kullanarak Tam Kılavuz](./how-to-save-html-in-c-complete-guide-using-a-custom-resource/)
 ### [CSS ve C# ile Başlığı Kalınlaştırma – Tam Adım Adım Kılavuz](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
+### [C#'ta HTML'yi ZIP Olarak Kaydetme – Özel Kaynak İşleyicisi Kullanarak Tam Kılavuz](./save-html-as-zip-in-c-complete-guide-with-custom-resource-ha/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
