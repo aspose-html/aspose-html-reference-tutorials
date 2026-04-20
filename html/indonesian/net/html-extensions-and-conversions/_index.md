@@ -67,12 +67,18 @@ Pelajari cara mengonversi HTML ke TIFF dengan Aspose.HTML untuk .NET. Ikuti pand
 Temukan kekuatan Aspose.HTML untuk .NET: Ubah HTML menjadi XPS dengan mudah. Prasyarat, panduan langkah demi langkah, dan Tanya Jawab Umum disertakan.
 ### [Cara Mengompres HTML menjadi Zip di C# – Simpan HTML ke Zip](./how-to-zip-html-in-c-save-html-to-zip/)
 Pelajari cara mengompres file HTML menjadi arsip ZIP menggunakan C# dan Aspose.HTML.
+### [Cara Mengompres HTML menjadi Zip di C# – Panduan Lengkap](./how-to-zip-html-in-c-complete-guide/)
+Panduan lengkap untuk mengompres HTML menjadi arsip ZIP menggunakan C# dan Aspose.HTML.
 ### [Buat Dokumen HTML dengan Teks Bergaya dan Ekspor ke PDF – Panduan Lengkap](./create-html-document-with-styled-text-and-export-to-pdf-full/)
 Pelajari cara membuat dokumen HTML dengan teks berformat dan mengekspornya ke PDF menggunakan Aspose.HTML untuk .NET.
 ### [Simpan HTML sebagai ZIP – Tutorial Lengkap C#](./save-html-as-zip-complete-c-tutorial/)
 Pelajari cara menyimpan file HTML sebagai arsip ZIP menggunakan Aspose.HTML untuk .NET dengan contoh kode C# lengkap.
 ### [Simpan HTML ke ZIP di C# – Contoh In‑Memory Lengkap](./save-html-to-zip-in-c-complete-in-memory-example/)
 Pelajari cara menyimpan file HTML ke dalam arsip ZIP secara langsung di memori menggunakan C# dan Aspose.HTML.
+### [Mengonversi HTML ke String di C# dengan Aspose.HTML – Panduan Lengkap](./convert-html-to-string-in-c-with-aspose-html-complete-guide/)
+Pelajari cara mengonversi HTML menjadi string di C# menggunakan Aspose.HTML dengan contoh kode lengkap.
+### [Buat PDF dari HTML – Panduan Lengkap C# dengan Antialiasing](./create-pdf-from-html-full-c-guide-with-antialiasing/)
+Pelajari cara membuat PDF dari HTML menggunakan C# dengan antialiasing dalam panduan lengkap ini.
 
 ## Kesimpulan
 

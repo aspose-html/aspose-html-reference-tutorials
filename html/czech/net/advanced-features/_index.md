@@ -38,6 +38,8 @@ Naučte se manipulovat s HTML dokumenty v .NET pomocí Aspose.HTML. Procházejte
 Naučte se vytvářet dynamický webový obsah pomocí Aspose.HTML for .NET. Náš výukový program obsahuje předpoklady, podrobné pokyny a často kladené otázky pro začátečníky.
 ### [Generujte šifrované PDF pomocí PdfDevice v .NET s Aspose.HTML](./generate-encrypted-pdf-by-pdfdevice/)
 Převeďte HTML do PDF dynamicky pomocí Aspose.HTML pro .NET. Snadná integrace, přizpůsobitelné možnosti a robustní výkon.
+### [Uložte dokument jako PDF v C# – Kompletní průvodce s podporou ZIP](./save-document-as-pdf-in-c-complete-guide-with-zip-support/)
+Naučte se, jak pomocí Aspose.HTML v C# uložit HTML dokument jako PDF a přidat soubory ZIP do výstupu.
 ### [Jemné ladění konvertorů v .NET pomocí Aspose.HTML](./fine-tuning-converters/)
 Naučte se převádět HTML do PDF, XPS a obrázků pomocí Aspose.HTML pro .NET. Výukový program krok za krokem s příklady kódu a často kladenými dotazy.
 ### [Použití šablon HTML v .NET s Aspose.HTML](./using-html-templates/)

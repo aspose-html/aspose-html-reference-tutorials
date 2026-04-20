@@ -45,7 +45,8 @@ Aspose.HTML for .NET ile HTML'yi PDF, XPS ve resimlere nasıl dönüştüreceği
 JSON verilerinden HTML belgelerini dinamik olarak oluşturmak için Aspose.HTML for .NET'i nasıl kullanacağınızı öğrenin. .NET uygulamalarınızda HTML manipülasyonunun gücünden yararlanın.
 ### [C# ile Programlı Olarak Yazı Tiplerini Birleştirme – Adım Adım Kılavuz](./how-to-combine-fonts-programmatically-in-c-step-by-step-guid/)
 C# kullanarak yazı tiplerini programlı şekilde birleştirmenin adımlarını öğrenin ve dinamik PDF/HTML çıktıları oluşturun.
-
+### [C# ile belgeyi PDF olarak kaydet – ZIP desteğiyle Tam Kılavuz](./save-document-as-pdf-in-c-complete-guide-with-zip-support/)
+C# kullanarak HTML belgelerini PDF'ye dönüştürün, ZIP arşivleme özelliğiyle çıktı dosyalarını sıkıştırın ve yönetin.
 ## Çözüm
 
 .NET için Aspose.HTML, .NET uygulamalarınızda HTML belgeleriyle çalışırken olasılıkların dünyasının kapılarını açar. Bu gelişmiş özellik eğitimleri, Aspose.HTML'nin tüm potansiyelinden yararlanmak için gereken bilgi ve becerileri size sağlayacaktır. Geliştirme projelerinizi yükseltin, zamandan tasarruf edin ve .NET için Aspose.HTML ile olağanüstü çözümler yaratın. Eğitimlerimize bugün başlayın ve web geliştirmenizi bir üst seviyeye taşıyın.
