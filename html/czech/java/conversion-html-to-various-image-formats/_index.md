@@ -65,6 +65,9 @@ Pokud potřebujete **convert HTML to JPEG** pro fotografické reprezentace nebo 
 ## Převod HTML do PNG
 Převod HTML na PNG obrázky je ideální pro bezztrátovou grafiku, snímky obrazovky nebo když potřebujete průhlednost. Náš komplexní průvodce poskytuje jasné instrukce pro plynulý převod.
 
+### [Uložení HTML stránky jako PNG v Javě – kompletní tutoriál](./save-html-page-as-png-in-java-complete-tutorial/)
+Naučte se, jak pomocí Aspose.HTML for Java uložit HTML stránku jako PNG obrázek s podrobným krok‑za‑krokem návodem.
+
 ## Převod HTML do TIFF
 Převod HTML do TIFF je ideální pro tisk ve vysokém rozlišení nebo archivní ukládání. Tento tutoriál popisuje přesné kroky k efektivnímu vytvoření TIFF souborů pomocí Aspose.HTML for Java.
 
