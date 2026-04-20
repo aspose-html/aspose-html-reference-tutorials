@@ -99,6 +99,9 @@ Dowiedz się, jak łatwo konwertować HTML do TIFF przy użyciu Aspose.HTML for 
 
 ### [Konwertowanie HTML do WebP – Kompletny przewodnik Java z Aspose.HTML](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
 
+### [Konwersja SVG do GIF w Javie – Kompletny przewodnik krok po kroku](./svg-to-gif-conversion-in-java-complete-step-by-step-guide/)
+Dowiedz się, jak przekształcić pliki SVG w animowane GIFy w Javie przy użyciu Aspose.HTML, krok po kroku.
+
 ## Najczęściej zadawane pytania
 
 **Q: Czy mogę konwertować HTML do PNG w Javie bez dodatkowych bibliotek graficznych?**  

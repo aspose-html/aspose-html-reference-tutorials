@@ -55,7 +55,7 @@ weight: 20
 > *Explanation only – code unchanged.*
 
 ### الخطوة 4: حفظ كملف PDF (أو XPS) بحجم صفحة مخصص
-عند استدعاء `save`، مرّر كائن `PdfSaveOptions` (أو `XpsSaveOptions`). يمكنك هنا أيضًا **adjust PDF page size** أو **convert HTML to XPS** عن طريق ضبط خاصية `PageSize`.
+عند استدعاء `save`, مرّر كائن `PdfSaveOptions` (أو `XpsSaveOptions`). يمكنك هنا أيضًا **adjust PDF page size** أو **convert HTML to XPS** عن طريق ضبط خاصية `PageSize`.
 
 > *Explanation only – code unchanged.*
 
@@ -135,6 +135,8 @@ weight: 20
 
 ### [كيفية تشغيل JavaScript في Java – دليل كامل](./how-to-run-javascript-in-java-complete-guide/)
 تعلم كيفية تشغيل كود JavaScript داخل تطبيقات Java باستخدام Aspose.HTML for Java.
+
+### [كيفية عزل JavaScript – دليل كامل Aspose.HTML](./how-to-sandbox-javascript-complete-aspose-html-guide/)
 
 ---
 

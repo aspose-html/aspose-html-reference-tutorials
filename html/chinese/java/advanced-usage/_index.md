@@ -118,7 +118,7 @@ Aspose.HTML 允许您将 `DomMutationObserver` 附加到任意节点。这对于
 学习如何使用 Aspose.HTML for Java 实现 DOM Mutation Observer 的分步指南。有效监控并响应 DOM 变化。
 
 ### [使用 Aspose.HTML for Java 的 HTML5 Canvas 操作（代码示例）](./html5-canvas-manipulation-using-code/)
-学习使用 Aspose.HTML for Java 操作 HTML5 Canvas。通过分步指导创建交互式图形。
+学习使用 Aspose.HTML for Java 操作 HTML5 Canvas。通过分步指导创建交互式图形并转换为 PDF。
 
 ### [使用 Aspose.HTML for Java 的 HTML5 Canvas 操作（JavaScript）](./html5-canvas-manipulation-using-javascript/)
 学习如何使用 Aspose.HTML for Java 通过 JavaScript 操作 HTML5 Canvas。创建动态图形并转换为 PDF。
@@ -131,6 +131,9 @@ Aspose.HTML 允许您将 `DomMutationObserver` 附加到任意节点。这对于
 
 ### [使用 Aspose.HTML for Java 调整 XPS 页面尺寸](./adjust-xps-page-size/)
 学习如何使用 Aspose.HTML for Java 调整 XPS 页面尺寸。轻松控制 XPS 文档的输出尺寸。
+
+### [如何在 Aspose.HTML 中沙箱运行 JavaScript – 完整指南](./how-to-sandbox-javascript-complete-aspose-html-guide/)
+学习在 Aspose.HTML 中使用沙箱安全执行 JavaScript，防止潜在风险并保持页面渲染完整。
 
 ### [如何在 Java 中运行 JavaScript – 完整指南](./how-to-run-javascript-in-java-complete-guide/)
 学习如何在 Java 环境中执行 JavaScript 代码，涵盖 Rhino、Nashorn 和 GraalVM 等实现。

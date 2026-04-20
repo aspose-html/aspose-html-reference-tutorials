@@ -60,6 +60,8 @@ Erfahren Sie mit dieser Schritt-für-Schritt-Anleitung, wie Sie innere und äuß
 Lernen Sie mit unserem einfachen Schritt-für-Schritt-Tutorial, mit Aspose.HTML für Java internes CSS in HTML-Dokumenten zu implementieren.
 ### [Fixed Thread Pool Java – Parallel HTML-Bereinigung mit ExecutorService](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 Erfahren Sie, wie Sie mit einem Fixed Thread Pool und ExecutorService HTML-Dokumente parallel bereinigen und die Leistung steigern.
+### [Ändern Sie den h1-Text in MHTML mit Java – Vollständige Schritt‑für‑Schritt‑Anleitung](./change-h1-text-in-mhtml-with-java-full-step-by-step-guide/)
+Erfahren Sie, wie Sie den h1-Text in MHTML-Dateien mit Aspose.HTML für Java ändern – detaillierte Schritt‑für‑Schritt‑Anleitung.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

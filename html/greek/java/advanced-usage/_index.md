@@ -128,6 +128,8 @@ weight: 20
 Μάθετε πώς να προσαρμόζετε το μέγεθος XPS σελίδας με το Aspose.HTML for Java. Ελέγξτε εύκολα τις διαστάσεις εξόδου των εγγράφων XPS σας.
 ### [Πώς να Εκτελέσετε JavaScript σε Java – Πλήρης Οδηγός](./how-to-run-javascript-in-java-complete-guide/)
 Μάθετε πώς να εκτελείτε κώδικα JavaScript μέσα σε εφαρμογές Java χρησιμοποιώντας το Aspose.HTML for Java.
+### [Πώς να Απομονώσετε JavaScript – Πλήρης Οδηγός Aspose.HTML](./how-to-sandbox-javascript-complete-aspose-html-guide/)
+Μάθετε πώς να εκτελείτε JavaScript σε ασφαλές sandbox περιβάλλον με το Aspose.HTML for Java, εξασφαλίζοντας απομόνωση και έλεγχο.
 
 ---
 
