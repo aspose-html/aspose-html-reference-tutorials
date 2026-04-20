@@ -27,7 +27,7 @@ HTML ドキュメントを非同期的に作成するのは複雑に聞こえる
 
 ## ファイルとストリームから HTML を読み込む
 
-ドキュメント作成のコツをつかんだら、ファイルやストリームから HTML ドキュメントを読み込む方法を学習して、スキルを向上しましょう。これらのチュートリアルでは、さまざまなソースから HTML コンテンツを取得するための知識を身に付けることができ、プロジェクトの柔軟性が向上します。ローカル ファイルやストリーミング データのどちらを扱う場合でも、Aspose.HTML for Java が役立ちます。[続きを読む](./load-html-documents-from-file/) [続きを読む](./load-html-documents-from-stream/)
+ドキュメント作成のコツをつかんだら、ファイルやストリームから HTML ドキュメントを読み込む方法を学習して、スキルを向上させましょう。これらのチュートリアルでは、さまざまなソースから HTML コンテンツを取得するための知識を身に付けることができ、プロジェクトの柔軟性が向上します。ローカル ファイルやストリーミング データのどちらを扱う場合でも、Aspose.HTML for Java が役立ちます。[続きを読む](./load-html-documents-from-file/) [続きを読む](./load-html-documents-from-stream/)
 
 ## 文字列と URL から HTML ドキュメントを作成する
 
@@ -66,6 +66,12 @@ Aspose.HTML for Java を使用して SVG ドキュメントを作成および管
 Java アプリで HTML のサンドボックス環境を構築し、安全にテストする方法をステップバイステップで学びます。
 ### [Java で HTML をクエリする方法 – 完全チュートリアル](./how-to-query-html-in-java-complete-tutorial/)
 Java で HTML を検索・抽出する方法をステップバイステップで解説します。XPath や CSS セレクタの活用例を含む完全ガイドです。
+### [Java で HTML を読み込む方法 – XPath と CSS セレクタの比較](./how-to-load-html-in-java-compare-xpath-and-css-selector/)
+Java で HTML を読み込む際に、XPath と CSS セレクタの使い分けを比較し、最適な検索方法を学びます。
+### [Java で JavaScript を実行 – HTML 上で JS を実行し要素を追加](./execute-javascript-java-run-js-on-html-append-elements/)
+Java アプリケーションで HTML に JavaScript を実行し、動的に要素を追加する方法をステップバイステップで解説します。
+### [Java ExecutorService を使用した HTML 要素の作成 – スレッドセーフ デモ](./create-html-element-with-java-executorservice-thread-safe-de/)
+Java の ExecutorService を利用してスレッドセーフに HTML 要素を生成する方法をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

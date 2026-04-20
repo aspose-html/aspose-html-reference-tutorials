@@ -66,6 +66,12 @@ Apprenez à créer et à gérer des documents SVG à l'aide d'Aspose.HTML pour J
 Apprenez à créer un environnement sécurisé pour manipuler du HTML en Java avec Aspose.HTML, guide complet pas à pas.
 ### [Comment interroger le HTML en Java – Tutoriel complet](./how-to-query-html-in-java-complete-tutorial/)
 Apprenez à interroger et extraire des données HTML en Java avec Aspose.HTML grâce à ce guide complet étape par étape.
+### [Comment charger du HTML en Java – Comparer XPath et sélecteur CSS](./how-to-load-html-in-java-compare-xpath-and-css-selector/)
+Apprenez à charger du HTML en Java et comparez XPath et sélecteurs CSS pour extraire les données efficacement.
+### [Exécuter JavaScript en Java – Exécuter du JS sur HTML et ajouter des éléments](./execute-javascript-java-run-js-on-html-append-elements/)
+Apprenez à exécuter du code JavaScript dans un document HTML avec Aspose.HTML pour Java et à ajouter dynamiquement des éléments.
+### [Créer un élément HTML avec Java ExecutorService – Démonstration thread‑safe](./create-html-element-with-java-executorservice-thread-safe-de/)
+Apprenez à créer un élément HTML en toute sécurité avec ExecutorService en Java, démonstration de gestion multithread avec Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

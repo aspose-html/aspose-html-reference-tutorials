@@ -56,6 +56,10 @@ Leer hoe u HTML-documenten laadt uit streams met Aspose.HTML voor Java. Deze gid
 Leer hoe u HTML-documenten van strings maakt in Aspose.HTML voor Java met deze stapsgewijze handleiding.
 ### [HTML-documenten laden vanaf URL in Aspose.HTML voor Java](./load-html-documents-from-url/)
 Ontdek hoe u eenvoudig HTML-documenten kunt laden vanaf een URL in Java met Aspose.HTML. Inclusief stapsgewijze tutorial.
+### [JavaScript uitvoeren in Java – JS uitvoeren op HTML en elementen toevoegen](./execute-javascript-java-run-js-on-html-append-elements/)
+Leer hoe u JavaScript uitvoert binnen een HTML-document in Java en dynamisch elementen toevoegt.
+### [HTML-element maken met Java ExecutorService – Thread‑Safe demo](./create-html-element-with-java-executorservice-thread-safe-de/)
+Leer hoe u met ExecutorService thread‑veilige HTML-elementen maakt in Java met Aspose.HTML.
 ### [Genereer nieuwe HTML-documenten met Aspose.HTML voor Java](./generate-new-html-documents/)
 Leer hoe u nieuwe HTML-documenten maakt met Aspose.HTML voor Java met deze eenvoudige stapsgewijze handleiding. Begin met het genereren van dynamische HTML-inhoud.
 ### [Documentlaadgebeurtenissen afhandelen in Aspose.HTML voor Java](./handle-document-load-events/)
@@ -66,6 +70,8 @@ Leer SVG-documenten maken en beheren met Aspose.HTML voor Java! Deze uitgebreide
 Leer hoe u een veilige sandboxomgeving voor HTML in Java opzet met een stapsgewijze handleiding.
 ### [HTML opvragen in Java – Complete tutorial](./how-to-query-html-in-java-complete-tutorial/)
 Leer hoe u HTML kunt query'en in Java met deze volledige stap‑voor‑stap handleiding.
+### [HTML laden in Java – Vergelijk XPath en CSS-selector](./how-to-load-html-in-java-compare-xpath-and-css-selector/)
+Leer hoe u HTML in Java kunt laden en vergelijken tussen XPath- en CSS-selectoren voor efficiënte gegevensextractie.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

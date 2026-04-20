@@ -56,6 +56,8 @@ Pelajari cara memuat dokumen HTML dari aliran menggunakan Aspose.HTML untuk Java
 Pelajari cara membuat dokumen HTML dari string di Aspose.HTML untuk Java dengan panduan langkah demi langkah ini.
 ### [Memuat Dokumen HTML dari URL di Aspose.HTML untuk Java](./load-html-documents-from-url/)
 Temukan cara mudah memuat dokumen HTML dari URL di Java dengan Aspose.HTML. Tutorial langkah demi langkah disertakan.
+### [Cara Memuat HTML di Java – Bandingkan XPath dan CSS Selector](./how-to-load-html-in-java-compare-xpath-and-css-selector/)
+Pelajari cara memuat HTML di Java dan bandingkan penggunaan XPath dengan CSS Selector dalam tutorial langkah demi langkah.
 ### [Hasilkan Dokumen HTML Baru menggunakan Aspose.HTML untuk Java](./generate-new-html-documents/)
 Pelajari cara membuat dokumen HTML baru menggunakan Aspose.HTML untuk Java dengan panduan langkah demi langkah yang mudah ini. Mulai buat konten HTML yang dinamis.
 ### [Menangani Peristiwa Pemuatan Dokumen di Aspose.HTML untuk Java](./handle-document-load-events/)
@@ -64,6 +66,10 @@ Pelajari cara menangani peristiwa pemuatan dokumen di Aspose.HTML untuk Java den
 Pelajari cara membuat dan mengelola dokumen SVG menggunakan Aspose.HTML untuk Java! Panduan komprehensif ini mencakup semuanya, mulai dari pembuatan dasar hingga manipulasi tingkat lanjut.
 ### [Buat Sandbox untuk HTML di Java – Panduan Langkah‑per‑Langkah](./create-sandbox-for-html-in-java-step-by-step-guide/)
 Pelajari cara membuat sandbox HTML di Java dengan panduan langkah demi langkah untuk pengujian dan pengembangan yang aman.
+### [Eksekusi JavaScript di Java – Jalankan JS pada HTML & Tambahkan Elemen](./execute-javascript-java-run-js-on-html-append-elements/)
+Pelajari cara mengeksekusi JavaScript dalam aplikasi Java, menjalankan skrip pada dokumen HTML, dan menambahkan elemen secara dinamis.
+### [Buat Elemen HTML dengan Java ExecutorService – Demo Thread‑Safe](./create-html-element-with-java-executorservice-thread-safe-de/)
+Pelajari cara membuat elemen HTML secara aman dalam lingkungan multithread menggunakan ExecutorService di Java dengan contoh langkah demi langkah.
 ### [Cara Menanyakan HTML di Java – Tutorial Lengkap](./how-to-query-html-in-java-complete-tutorial/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

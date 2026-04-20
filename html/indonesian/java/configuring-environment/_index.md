@@ -63,7 +63,7 @@ HTML dinamis sering berisi skrip yang harus dijalankan sebelum rendering. Runtim
 
 ## Cara Menerapkan Sandboxing untuk Konversi Aman
 
-Saat memproses HTML dari sumber yang tidak dipercaya, sandboxing mengisolasi eksekusi skrip, melindungi aplikasi Anda dari kode berbahaya. Ini terutama penting saat mengonversi ke PDF, di mana skrip jahat dapat mengkompromikan lingkungan host.
+Saat memproses HTML dari sumber yang tidak dipercaya, sandboxing mengisolasi eksekusi skrip, melindungi aplikasi Anda dari kode berbahaya. Ini terutama penting saat mengonversi ke PDF, dimana skrip jahat dapat mengkompromikan lingkungan host.
 
 [Learn how to implement sandboxing in Aspose.HTML for Java.](./implement-sandboxing/)
 
@@ -111,13 +111,16 @@ Pelajari cara menggunakan message handlers di Aspose.HTML untuk Java untuk menan
 Pelajari cara menyiapkan network service di Aspose.HTML untuk Java, mengelola sumber daya jaringan, dan mengonversi HTML ke PNG dengan penanganan error khusus.
 
 ### [Configure Runtime Service in Aspose.HTML for Java](./configure-runtime-service/)
-Pelajari cara mengonfigurasi Runtime Service di Aspose.HTML untuk Java untuk mengoptimalkan eksekusi skrip, mencegah loop tak berujung, dan meningkatkan performa aplikasi.
+Pelajari cara mengkonfigurasi Runtime Service di Aspose.HTML untuk Java untuk mengoptimalkan eksekusi skrip, mencegah loop tak berujung, dan meningkatkan performa aplikasi.
 
 ### [Implement Sandboxing in Aspose.HTML for Java](./implement-sandboxing/)
 Pelajari cara menerapkan sandboxing di Aspose.HTML untuk Java untuk mengontrol eksekusi skrip secara aman dalam dokumen HTML Anda dan mengonversinya ke PDF.
 
 ### [Set User Style Sheet in Aspose.HTML for Java](./set-user-style-sheet/)
 Pelajari cara mengatur stylesheet pengguna khusus di Aspose.HTML untuk Java, meningkatkan gaya dokumen Anda dan mengonversi HTML ke PDF dengan mudah.
+
+### [Set User Agent untuk Rendering HTML Headless – Panduan Lengkap](./set-user-agent-for-headless-html-rendering-complete-guide/)
+Pelajari cara mengatur User Agent pada Aspose.HTML untuk Java saat merender HTML secara headless, memastikan konten dimuat dengan benar.
 
 ---
 
