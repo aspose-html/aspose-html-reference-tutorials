@@ -66,6 +66,10 @@ Leer SVG-documenten maken en beheren met Aspose.HTML voor Java! Deze uitgebreide
 Leer hoe u een veilige sandboxomgeving voor HTML in Java opzet met een stapsgewijze handleiding.
 ### [HTML opvragen in Java – Complete tutorial](./how-to-query-html-in-java-complete-tutorial/)
 Leer hoe u HTML kunt query'en in Java met deze volledige stap‑voor‑stap handleiding.
+### [Tekst extraheren uit HTML met Java – Complete stap‑voor‑stap gids](./extract-text-from-html-with-java-complete-step-by-step-guide/)
+Leer hoe u tekst uit HTML haalt met Java in Aspose.HTML. Volledige stap‑voor‑stap handleiding.
+### [NodeList itereren in Java – Complete gids](./iterate-over-nodelist-java-complete-guide/)
+Leer hoe u door een NodeList in Java kunt itereren met een stapsgewijze handleiding en praktische voorbeelden.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
