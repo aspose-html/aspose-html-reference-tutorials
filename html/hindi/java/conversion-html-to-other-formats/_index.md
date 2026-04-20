@@ -85,6 +85,9 @@ SVG ग्राफ़िक्स को XPS फ़ॉर्मेट में
 ### [HTML को PDF में बदलना](./convert-html-to-pdf/)
 Java में Aspose.HTML का उपयोग करके HTML को PDF में कैसे बदलें सीखें। अपने HTML कंटेंट से आसानी से उच्च‑गुणवत्ता वाले PDF बनाएं।
 
+### [Java में HTML को PDF में बदलें – फ़ॉन्ट एम्बेडिंग के साथ पूर्ण गाइड](./convert-html-to-pdf-in-java-complete-guide-with-font-embeddi/)
+Aspose.HTML for Java के साथ फ़ॉन्ट एम्बेडिंग सहित HTML को PDF में बदलने की पूरी प्रक्रिया सीखें।
+
 ### [HTML को MHTML में बदलना](./convert-html-to-mhtml/)
 Aspose.HTML for Java का उपयोग करके HTML को MHTML में आसानी से बदलें। कुशल HTML‑to‑MHTML रूपांतरण के लिए हमारे चरण‑दर‑चरण गाइड का पालन करें।
 

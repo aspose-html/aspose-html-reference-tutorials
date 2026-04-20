@@ -87,22 +87,22 @@ weight: 24
 
 ## 转换 - HTML 到各种图像格式教程
 ### [Converting HTML to BMP](./convert-html-to-bmp/)
-使用 Aspose.HTML for Java 将 HTML 转换为 BMP。一个全面的教程，帮助您无缝地将 HTML 文档转换为 BMP 图像。
 
 ### [Converting HTML to GIF](./convert-html-to-gif/)
-了解如何使用 Aspose.HTML 在 Java 中将 HTML 转换为 GIF。一个完整的分步指南，帮助您高效完成 HTML 到 GIF 的转换。
 
 ### [Converting HTML to JPEG](./convert-html-to-jpeg/)
-学习使用 Aspose.HTML for Java 将 HTML 转换为 JPEG。一步步指南，助您实现无缝的文档处理。
 
 ### [Converting HTML to PNG](./convert-html-to-png/)
-了解如何使用 Aspose.HTML 在 Java 中将 HTML 转换为 PNG 图像。一个全面的指南，提供详细的步骤说明。
+
+### [如何使用自定义视口渲染 HTML 为 PNG](./how-to-render-html-to-png-with-custom-viewport/)
 
 ### [Converting HTML to TIFF](./convert-html-to-tiff/)
-学习如何使用 Aspose.HTML for Java 轻松将 HTML 转换为 TIFF。一步步指南，帮助您高效处理文档。
 
 ### [将 HTML 转换为 WebP](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
-使用 Aspose.HTML for Java 将 HTML 转换为 WebP。完整的 Java 指南，帮助您轻松生成高质量的 WebP 图像。
+
+### [如何从 SVG 创建 GIF – Java 步骤指南](./how-to-create-gif-from-svg-step-by-step-java-guide/)
+
+### [如何从 HTML 生成缩略图 – Java 指南](./how-to-generate-thumbnail-from-html-java-guide/)
 
 ## 常见问题解答
 

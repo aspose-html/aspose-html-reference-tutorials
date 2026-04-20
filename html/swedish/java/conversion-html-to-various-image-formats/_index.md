@@ -5,7 +5,7 @@ description: Lär dig hur du konverterar HTML, GIF och andra format som BMP, JPE
 linktitle: Conversion - HTML to Various Image Formats
 second_title: Java HTML Processing with Aspose.HTML
 title: konvertera html gif – Konvertera HTML till olika bildformat
-url: /sv/java/conversion-html-to-various-image-formats/
+url: /sv/java/conversion-html-to-various-image-forms/
 weight: 24
 ---
 
@@ -91,8 +91,13 @@ Att använda Aspose.HTML for Java förenklar konverteringen av HTML‑dokument t
 ### [Konvertera HTML till GIF](./convert-html-to-gif/)
 ### [Konvertera HTML till JPEG](./convert-html-to-jpeg/)
 ### [Konvertera HTML till PNG](./convert-html-to-png/)
+### [Konvertera HTML till PNG – Batchkonverteringsguide](./convert-html-to-png-batch-conversion-guide/)
 ### [Konvertera HTML till TIFF](./convert-html-to-tiff/)
 ### [Konvertera HTML till WebP – Komplett Java‑guide med Aspose.HTML](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
+### [Rendera HTML till PNG i Java – Komplett guide](./how-to-render-html-to-png-in-java-complete-guide/)
+### [Rendera HTML till PNG med anpassad viewport](./how-to-render-html-to-png-with-custom-viewport/)
+### [Hur man skapar GIF från SVG – Steg‑för‑steg Java‑guide](./how-to-create-gif-from-svg-step-by-step-java-guide/)
+### [Hur man genererar miniatyrbild från HTML – Java‑guide](./how-to-generate-thumbnail-from-html-java-guide/)
 
 ## Vanliga frågor
 

@@ -54,6 +54,8 @@ Tìm hiểu cách tải, thao tác và lưu tài liệu HTML bằng Aspose.HTML 
 Tìm hiểu cách tải tài liệu HTML từ luồng bằng Aspose.HTML cho Java. Hướng dẫn này cung cấp hướng dẫn từng bước để thao tác HTML liền mạch.
 ### [Tạo tài liệu HTML từ chuỗi trong Aspose.HTML cho Java](./create-html-documents-from-string/)
 Tìm hiểu cách tạo tài liệu HTML từ chuỗi trong Aspose.HTML cho Java với hướng dẫn từng bước này.
+### [Tạo tài liệu HTML với Java – Lấy JSON và tạo nội dung](./create-html-document-with-java-fetch-json-and-generate-conte/)
+Hướng dẫn cách lấy dữ liệu JSON và tạo nội dung HTML động trong Java bằng Aspose.HTML.
 ### [Tải tài liệu HTML từ URL trong Aspose.HTML cho Java](./load-html-documents-from-url/)
 Khám phá cách dễ dàng tải tài liệu HTML từ URL trong Java bằng Aspose.HTML. Có kèm hướng dẫn từng bước.
 ### [Tạo tài liệu HTML mới bằng Aspose.HTML cho Java](./generate-new-html-documents/)
