@@ -137,6 +137,9 @@ Aprenda a ajustar o tamanho de página XPS com Aspose.HTML for Java. Controle fa
 ### [Como Executar JavaScript em Java – Guia Completo](./how-to-run-javascript-in-java-complete-guide/)
 Aprenda a executar código JavaScript dentro de aplicações Java usando Aspose.HTML for Java.
 
+### [Como habilitar JavaScript em Java – Guia completo Aspose.HTML](./how-to-enable-javascript-in-java-complete-aspose-html-guide/)
+Aprenda a habilitar a execução de JavaScript em aplicações Java usando Aspose.HTML for Java.
+
 ---
 
 **Última atualização:** 2025-11-29  

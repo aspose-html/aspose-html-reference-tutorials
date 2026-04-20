@@ -60,6 +60,7 @@ url: /ru/java/editing-html-documents/
 Научитесь внедрять внутренний CSS в HTML-документы с помощью Aspose.HTML для Java с помощью нашего простого пошагового руководства.
 ### [Фиксированный пул потоков Java – Параллельная очистка HTML с помощью ExecutorService](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 Узнайте, как использовать фиксированный пул потоков и ExecutorService для параллельной очистки HTML в Java.
+### [Как добавить дочерний элемент в Java DOM – Полное руководство Aspose.HTML](./how-to-append-child-in-java-dom-complete-aspose-html-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

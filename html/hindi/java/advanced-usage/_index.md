@@ -129,6 +129,9 @@ Aspose.HTML for Java का उपयोग करके XPS पेज आका
 ### [Java में JavaScript चलाना – पूर्ण गाइड](./how-to-run-javascript-in-java-complete-guide/)
 Java एप्लिकेशन में JavaScript को एम्बेड और निष्पादित करने के चरण‑दर‑चरण निर्देश।  
 
+### [Java में JavaScript को सक्षम करने का तरीका – पूर्ण Aspose.HTML गाइड](./how-to-enable-javascript-in-java-complete-aspose-html-guide/)
+Java एप्लिकेशन में JavaScript को एम्बेड और चलाने के चरण‑दर‑चरण निर्देश, Aspose.HTML के साथ पूर्ण गाइड।
+
 ---
 
 **Last Updated:** 2025-11-29  
