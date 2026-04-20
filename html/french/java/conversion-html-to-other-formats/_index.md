@@ -100,6 +100,9 @@ En conclusion, maîtriser **html to pdf java** et l'ensemble plus large de conve
 ### [Converting HTML to PDF](./convert-html-to-pdf/)
 Apprenez à convertir HTML en PDF en Java avec Aspose.HTML. Créez des PDF de haute qualité à partir de votre contenu HTML sans effort.
 
+### [Comment convertir HTML en PDF avec Aspose HTML – Guide Java asynchrone](./how-to-convert-html-to-pdf-with-aspose-html-async-java-guide/)
+Apprenez à convertir HTML en PDF de façon asynchrone en Java avec Aspose.HTML, pour des performances optimisées.
+
 ### [Convertir HTML en PDF en Java – Guide étape par étape avec réglages de taille de page](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Apprenez à convertir HTML en PDF en Java en suivant chaque étape, incluant la configuration de la taille de page pour des documents précis.
 
@@ -120,6 +123,11 @@ Convertissez SVG en PDF en Java avec Aspose.HTML. Une solution fluide pour une c
 
 ### [Converting SVG to XPS](./convert-svg-to-xps/)
 Apprenez à convertir SVG en XPS avec Aspose.HTML for Java. Guide simple et étape par étape pour des conversions fluides.
+
+### [Tutoriel Aspose HTML PDF/A : Convertir HTML en PDF/A‑2b avec Java](./aspose-html-pdf-a-tutorial-convert-html-to-pdf-a-2b-with-jav/)
+Apprenez à générer des fichiers PDF/A‑2b conformes aux normes d'archivage à partir de HTML en Java avec Aspose.HTML.
+
+### [Extraire l'audio du HTML – Comment extraire les médias et la vidéo](./extract-audio-from-html-how-to-extract-media-and-video/)
 
 ## Foire aux questions
 

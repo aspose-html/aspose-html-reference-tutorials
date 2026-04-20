@@ -32,6 +32,9 @@ Découvrez comment utiliser Aspose.HTML pour Java pour appliquer des techniques 
 Découvrez comment modifier et soumettre des formulaires HTML par programmation à l'aide d'Aspose.HTML pour Java dans ce guide complet étape par étape.
 ### [Sélection d'élément par classe en Java – Guide complet](./select-element-by-class-in-java-complete-how-to-guide/)
 Apprenez à sélectionner des éléments HTML par leur classe en Java avec Aspose.HTML, grâce à ce guide complet pas à pas.
+### [Comment interroger le HTML en Java – Sélectionner des éléments, filtrer par attribut et obtenir le contenu texte](./how-to-query-html-in-java-select-elements-filter-by-attribut/)
+Apprenez à interroger le HTML en Java, à sélectionner des éléments, filtrer par attribut et extraire le contenu texte.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

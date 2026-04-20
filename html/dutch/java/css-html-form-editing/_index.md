@@ -32,6 +32,9 @@ Leer hoe u Aspose.HTML voor Java kunt gebruiken om geavanceerde CSS-technieken t
 Leer hoe u HTML-formulieren programmatisch kunt bewerken en verzenden met Aspose.HTML voor Java in deze uitgebreide stapsgewijze handleiding.
 ### [Selecteer element op klasse in Java – Complete handleiding](./select-element-by-class-in-java-complete-how-to-guide/)
 Leer hoe u in Java een element kunt selecteren op basis van een CSS‑klasse, met voorbeeldcode en handige tips.
+### [HTML in Java query'en – Elementen selecteren, filteren op attribuut en tekstinhoud ophalen](./how-to-query-html-in-java-select-elements-filter-by-attribut/)
+Leer hoe u HTML kunt doorzoeken in Java, elementen selecteert, filtert op attributen en tekstinhoud verkrijgt met Aspose.HTML.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -128,6 +128,9 @@ Aspose.HTML ให้คุณแนบ `DomMutationObserver` ไปยังโ
 เรียนรู้วิธีปรับขนาดหน้า XPS ด้วย Aspose.HTML for Java ควบคุมขนาดผลลัพธ์ของเอกสาร XPS ของคุณได้อย่างง่ายดาย  
 ### [วิธีรัน JavaScript ใน Java – คู่มือฉบับสมบูรณ์](./how-to-run-javascript-in-java-complete-guide/)
 เรียนรู้วิธีฝังและรันโค้ด JavaScript ภายในแอปพลิเคชัน Java ด้วย Aspose.HTML อย่างละเอียด  
+### [วิธีรัน JavaScript แบบอะซิงโครนัสโดยใช้ CompletableFuture](./how-to-run-javascript-asynchronously-using-completablefuture/)
+เรียนรู้การรันโค้ด JavaScript อย่างไม่บล็อกโดยใช้ CompletableFuture ใน Java ด้วย Aspose.HTML  
+### [วิธีโหลด HTML ตั้งค่า DPI ของอุปกรณ์และอ่านสีพื้นหลัง](./how-to-load-html-set-device-dpi-read-background-color/)
 
 ---
 

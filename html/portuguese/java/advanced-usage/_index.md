@@ -137,6 +137,11 @@ Aprenda a ajustar o tamanho de página XPS com Aspose.HTML for Java. Controle fa
 ### [Como Executar JavaScript em Java – Guia Completo](./how-to-run-javascript-in-java-complete-guide/)
 Aprenda a executar código JavaScript dentro de aplicações Java usando Aspose.HTML for Java.
 
+### [Como Executar JavaScript Assincronamente Usando CompletableFuture](./how-to-run-javascript-asynchronously-using-completablefuture/)
+
+### [Como Carregar HTML, Definir DPI do Dispositivo e Ler a Cor de Fundo](./how-to-load-html-set-device-dpi-read-background-color/)
+Aprenda a carregar HTML, definir o DPI do dispositivo e ler a cor de fundo com Aspose.HTML for Java.
+
 ---
 
 **Última atualização:** 2025-11-29  
