@@ -1,11 +1,11 @@
 ---
-date: 2025-12-01
-description: Leer hoe u de PDF-paginaformaat kunt aanpassen, HTML als PDF kunt renderen
-  en PDF kunt genereren vanuit HTML met Aspose.HTML voor Java. Beheer paginagrootte
+date: 2026-03-18
+description: Leer hoe u het PDF-paginaformaat kunt aanpassen, HTML naar PDF kunt renderen
+  en PDF kunt genereren vanuit HTML met Aspose.HTML voor Java. Beheer de paginagrootte
   eenvoudig.
 linktitle: Adjusting PDF Page Size
 second_title: Java HTML Processing with Aspose.HTML
-title: PDF-paginagrootte aanpassen met Aspose.HTML voor Java
+title: PDF-paginaformaat aanpassen met Aspose.HTML voor Java
 url: /nl/java/advanced-usage/adjust-pdf-page-size/
 weight: 15
 ---
@@ -16,33 +16,36 @@ weight: 15
 
 # PDF-paginaformaat aanpassen met Aspose.HTML voor Java
 
-Het genereren van PDF's vanuit HTML is een veelvoorkomende eis voor rapporten, facturen en e‑books. Wanneer je **PDF-paginaformaat aanpast**, zorg je ervoor dat het uiteindelijke document overeenkomt met de lay-out die je in HTML hebt ontworpen. In deze tutorial leer je hoe je HTML rendert als PDF, aangepaste afmetingen instelt en bepaalt of de pagina automatisch wordt uitgebreid tot de breedste inhoud. We lopen stap voor stap door een compleet, praktisch voorbeeld met Aspose.HTML voor Java.
+Het genereren van PDF's vanuit HTML is een veelvoorkomende eis voor rapporten, facturen en e‑books. Wanneer je **PDF-paginaformaat aanpast** zorg je ervoor dat het uiteindelijke document overeenkomt met de lay-out die je in HTML hebt ontworpen. In deze tutorial leer je hoe je HTML naar PDF rendert, aangepaste afmetingen instelt en regelt of de pagina automatisch wordt uitgebreid tot de breedste inhoud. We lopen een volledig, praktisch voorbeeld door met Aspose.HTML for Java, zodat je zelfverzekerd **PDF-pagina‑afmetingen kunt wijzigen** in je eigen projecten.
 
 ## Snelle antwoorden
 - **Wat betekent “PDF-paginaformaat aanpassen”?** Het stelt je in staat de breedte en hoogte van elke PDF-pagina te definiëren of de renderer automatisch de breedste element te laten passen.  
-- **Welke bibliotheek wordt gebruikt?** Aspose.HTML voor Java (nieuwste versie).  
+- **Welke bibliotheek wordt gebruikt?** Aspose.HTML for Java (nieuwste versie).  
 - **Heb ik een licentie nodig?** Een gratis proefversie werkt voor ontwikkeling; een commerciële licentie is vereist voor productie.  
-- **Kan ik afmetingen programmatisch wijzigen?** Ja – gebruik `PageSetup` en de eigenschap `AdjustToWidestPage`.  
-- **Is dit compatibel met Java 8+?** Absoluut – de API werkt met elke JDK 8 of hoger.
+- **Kan ik afmetingen programmatisch wijzigen?** Ja – gebruik `PageSetup` en de `AdjustToWidestPage` eigenschap.  
+- **Is dit compatibel met Java 8+?** Absoluut – de API werkt met elke JDK 8 of nieuwer.
 
-## Wat betekent “PDF-paginaformaat aanpassen”?
-PDF-paginaformaat aanpassen houdt in dat je de afmetingen van elke pagina die de HTML-renderer maakt, configureert. Je kunt een vaste grootte instellen (bijv. A4, Letter) of de renderer de optimale breedte laten berekenen op basis van de inhoud. Dit geeft je precieze controle over lay-out, paginering en visuele getrouwheid.
+## Wat is “PDF-paginaformaat aanpassen”?
+Het aanpassen van PDF-paginaformaat betekent het configureren van de afmetingen van elke pagina die de HTML-renderer maakt. Je kunt een vaste grootte instellen (bijv. A4, Letter) of de renderer de optimale breedte laten berekenen op basis van de inhoud. Dit geeft je nauwkeurige controle over lay-out, paginering en visuele getrouwheid.
 
 ## Waarom PDF-paginaformaat aanpassen bij het converteren van HTML naar PDF?
-- **Ontwerpintentie behouden:** Voorkom dat inhoud wordt afgekapt of uitgerekt.  
-- **Optimaliseren voor afdrukken:** Stem af op het papierformaat dat door downstream processen wordt vereist.  
+- **Ontwerpintentie behouden:** Voorkom dat inhoud wordt afgesneden of uitgerekt.  
+- **Optimaliseren voor afdrukken:** Stem de papiergrootte af op de vereisten van downstream processen.  
 - **Leesbaarheid verbeteren:** Vermijd overmatig witruimte of samengeperste tekst.  
-- **Dynamische documenten:** Pas automatisch brede tabellen of afbeeldingen aan zonder handmatige berekeningen.
+- **Dynamische documenten:** Pas automatisch brede tabellen of afbeeldingen aan zonder handmatige berekeningen.  
 
-## Vereisten
-Voordat je begint, zorg dat je het volgende hebt:
+## Wanneer “render HTML to PDF” versus “generate PDF from HTML” gebruiken
+Beide uitdrukkingen beschrijven hetzelfde conversieproces, maar de bewoording is belangrijk voor zoekvindbaarheid. Gebruik **render HTML to PDF** wanneer je de nadruk legt op de renderengine, en **generate PDF from HTML** wanneer je het eindresultaat benadrukt. In deze gids behandelen we beide scenario's.
+
+## Voorvereisten
+Zorg ervoor dat je het volgende hebt voordat je begint:
 
 - **Java Development Kit (JDK) 8 of hoger** geïnstalleerd op je machine.  
-- **Aspose.HTML voor Java** – download de nieuwste JAR van de [officiële releasepagina](https://releases.aspose.com/html/java/).  
+- **Aspose.HTML for Java** – download de nieuwste JAR van de [officiële releasepagina](https://releases.aspose.com/html/java/).  
 - **Een HTML‑bestand** dat je wilt converteren (we gebruiken `FirstFile.html` in het voorbeeld).  
 
 ## Pakketten importeren
-Eerst importeren we de klassen die we nodig hebben. Het onderstaande code‑blok is ongewijzigd ten opzichte van de originele tutorial.
+Importeer eerst de klassen die we nodig hebben. Het codeblok hieronder is ongewijzigd ten opzichte van de originele tutorial.
 
 ```java
 import com.aspose.html.HTMLDocument;
@@ -53,15 +56,15 @@ import com.aspose.html.drawing.Size;
 import com.aspose.html.rendering.PageSetup;
 ```
 
-## Stap 1: HTML-inhoud lezen
-We lezen het bron‑HTML‑bestand met een `FileInputStream`. Deze stap bereidt de ruwe markup voor latere manipulatie voor.
+## Stap 1: Lees de HTML‑inhoud
+We lezen het bron‑HTML‑bestand met een `FileInputStream`. Deze stap bereidt de ruwe markup voor voor latere manipulatie.
 
 ```java
 try (java.io.FileInputStream fileInputStream = new java.io.FileInputStream(Resources.input("FirstFile.html"))) {
 ```
 
-## Stap 2: HTML schrijven (en eventueel verrijken)
-Hier kopiëren we de originele HTML naar een nieuw bestand en voegen een paar inline‑stijlen toe om te laten zien hoe styling de PDF‑output beïnvloedt. Vervang gerust de voorbeeld‑CSS door je eigen stijlregels.
+## Stap 2: Schrijf (en verrijk eventueel) de HTML
+Hier kopiëren we de originele HTML naar een nieuw bestand en voegen we een paar inline‑stijlen toe om te demonstreren hoe styling de PDF‑output beïnvloedt. Voel je vrij om de voorbeeld‑CSS te vervangen door je eigen stijl.
 
 ```java
 try (java.io.FileOutputStream fileOutputStream = new java.io.FileOutputStream(Resources.output("FirstFileOut.html"))) {
@@ -85,10 +88,10 @@ try (java.io.FileOutputStream fileOutputStream = new java.io.FileOutputStream(Re
 }
 ```
 
-## Stap 3: HTML renderen naar PDF – Twee scenario's
-Nu bekijken we hoe je **PDF genereert vanuit HTML** met twee verschillende strategieën voor pagina‑formaat.
+## Stap 3: Render HTML naar PDF – Twee scenario's
+Nu bekijken we hoe je **PDF van HTML genereert** met twee verschillende paginagrootte‑strategieën.
 
-### 3.1 Paginaformaat NIET aangepast aan de breedte van de inhoud
+### 3.1 Paginagrootte NIET aangepast aan de breedte van de inhoud
 In dit geval fixeren we de paginagrootte (100 × 100 punten). Als een element deze limieten overschrijdt, wordt het bijgesneden.
 
 ```java
@@ -112,8 +115,8 @@ com.aspose.html.rendering.pdf.PdfDevice device = new com.aspose.html.rendering.p
 pdf_renderer.render(device, html_document);
 ```
 
-### 3.2 Paginaformaat AANGEPAST aan de breedte van de inhoud
-Hier schakelen we `AdjustToWidestPage` in, zodat de renderer de paginabreedte automatisch uitbreidt om het breedste element te huisvesten terwijl de hoogte vast blijft.
+### 3.2 Paginagrootte AANGEPAST aan de breedte van de inhoud
+Hier schakelen we `AdjustToWidestPage` in, zodat de renderer automatisch de paginabreedte uitbreidt om het breedste element te huisvesten, terwijl de hoogte vast blijft.
 
 ```java
 com.aspose.html.rendering.pdf.PdfRenderingOptions pdf_options = new com.aspose.html.rendering.pdf.PdfRenderingOptions();
@@ -129,48 +132,54 @@ device = new com.aspose.html.rendering.pdf.PdfDevice(pdf_options, pdf_output);
 pdf_renderer.render(device, html_document);
 ```
 
-## Hoe PDF-dimensies instellen (hoe PDF-paginaformaat wijzigen) in code
+## Hoe PDF‑afmetingen instellen (hoe PDF-paginaformaat wijzigen) in code
 Het `PageSetup`‑object is de sleutel:
 
-- `setAnyPage(Page page)`: definieert de basisbreedte × hoogte.  
-- `setAdjustToWidestPage(boolean)`: schakelt automatisch verbreden in of uit.  
+- `setAnyPage(Page page)`: definieert de basis breedte × hoogte.  
+- `setAdjustToWidestPage(boolean)`: schakelt automatische verbreding in/uit.  
 
-Door deze twee eigenschappen aan te passen kun je **PDF-dimensies instellen** voor elk scenario, of je nu een statische A4‑pagina nodig hebt of een dynamische breedte die je HTML‑lay-out volgt.
+Door deze twee eigenschappen aan te passen kun je **PDF-pagina‑afmetingen wijzigen** voor elk scenario, of je nu een statische A4‑pagina nodig hebt of een dynamische breedte die je HTML‑lay-out volgt.
 
 ## Veelvoorkomende problemen & tips
 | Probleem | Waarom het gebeurt | Oplossing |
 |----------|--------------------|-----------|
-| Inhoud wordt afgekapt | Vaste grootte is te klein | Verhoog de `Size`‑waarden of schakel `AdjustToWidestPage` in. |
-| Tekst ziet er wazig uit | Standaard DPI voor rendering is laag | Gebruik `PdfRenderingOptions.setResolution(int dpi)` om de kwaliteit te verhogen. |
-| Stijlen ontbreken | Externe CSS niet geladen | Voeg CSS inline toe of gebruik `HTMLDocument.setBaseUrl()` om naar je stylesheet‑map te wijzen. |
-| Grote HTML‑bestanden veroorzaken OutOfMemoryError | Renderer laadt het hele document in het geheugen | Verwerk het document in delen of vergroot de JVM‑heap (`-Xmx`). |
+| Inhoud wordt afgesneden | Vaste grootte is te klein | Verhoog de `Size`‑waarden of schakel `AdjustToWidestPage` in. |
+| Tekst ziet er wazig uit | Standaard DPI van rendering is laag | Gebruik `PdfRenderingOptions.setResolution(int dpi)` om de kwaliteit te verhogen. |
+| Stijlen ontbreken | Externe CSS niet geladen | Integreer CSS inline of gebruik `HTMLDocument.setBaseUrl()` om naar je stylesheet‑map te verwijzen. |
+| Grote HTML‑bestanden veroorzaken OutOfMemoryError | Renderer laadt het volledige document in het geheugen | Verwerk het document in delen of vergroot de JVM‑heap (`-Xmx`). |
+
+## Extra tips voor het aanpassen van PDF-paginaformaat
+- **Gebruik standaard paginagroottes** (A4, Letter) door vooraf gedefinieerde `Size`‑objecten van `com.aspose.html.drawing.PaperSize` te gebruiken.  
+- **Combineer breedte‑aanpassing met hoogte‑schaling** om beeldverhoudingen te behouden.  
+- **Stel DPI in** wanneer een hoge resolutie‑output vereist is, vooral voor print‑klare PDF's.  
+- **Test met verschillende inhoud** (tabellen, afbeeldingen, lange alinea's) om te verifiëren dat `AdjustToWidestPage` zich gedraagt zoals verwacht.  
 
 ## Veelgestelde vragen
 
-**Q: Wat is Aspose.HTML voor Java?**  
-A: Het is een Java‑bibliotheek waarmee je HTML‑documenten kunt maken, bewerken en renderen, inclusief conversie naar PDF, PNG en andere formaten.
+**Q: Wat is Aspose.HTML for Java?**  
+A: Het is een Java‑bibliotheek die je in staat stelt HTML‑documenten te maken, bewerken en renderen, inclusief conversie naar PDF, PNG en andere formaten.
 
-**Q: Hoe kan ik het PDF-paginaformaat aanpassen bij het converteren van HTML naar PDF met Aspose.HTML voor Java?**  
+**Q: Hoe kan ik het PDF-paginaformaat aanpassen bij het converteren van HTML naar PDF met Aspose.HTML for Java?**  
 A: Gebruik de `PageSetup`‑klasse en stel `AdjustToWidestPage` in op `true` (auto‑size) of `false` (vaste grootte). Wijs vervolgens de gewenste `Size` toe via `new Page(new Size(width, height))`.
 
 **Q: Kan ik de styling van HTML‑inhoud aanpassen voordat ik deze converteer naar PDF?**  
-A: Ja – je kunt CSS injecteren, de DOM wijzigen of externe stylesheets gebruiken. De tutorial toont hoe je inline CSS kunt toevoegen.
+A: Ja – je kunt CSS injecteren, de DOM wijzigen of externe stylesheets gebruiken. De tutorial toont inline CSS‑injectie.
 
-**Q: Waar vind ik de documentatie voor Aspose.HTML voor Java?**  
+**Q: Waar kan ik de documentatie voor Aspose.HTML for Java vinden?**  
 A: Uitgebreide documentatie is beschikbaar [hier](https://reference.aspose.com/html/java/).
 
-**Q: Is er een gratis proefversie beschikbaar voor Aspose.HTML voor Java?**  
-A: Absoluut – download een proefversie van de [releasepagina](https://releases.aspose.com/html/java/).
+**Q: Is er een gratis proefversie beschikbaar voor Aspose.HTML for Java?**  
+A: Zeker – download een proefversie van de [release‑pagina](https://releases.aspose.com/html/java/).
 
 ## Conclusie
-Je weet nu hoe je **PDF-paginaformaat aanpast**, **HTML rendert als PDF**, en **aangepaste PDF‑dimensies instelt** met Aspose.HTML voor Java. Experimenteer met verschillende paginagroottes, DPI‑instellingen en CSS‑aanpassingen om de output perfect af te stemmen op jouw specifieke gebruikssituatie. Als je tegen problemen aanloopt, raadpleeg dan de officiële documentatie of de Aspose‑ondersteuningsforums.
+Je weet nu hoe je **PDF-paginaformaat kunt aanpassen**, **HTML naar PDF kunt renderen**, en **aangepaste PDF‑afmetingen kunt instellen** met Aspose.HTML for Java. Experimenteer met verschillende paginagroottes, DPI‑instellingen en CSS‑aanpassingen om de output te perfectioneren voor jouw specifieke geval. Als je tegen problemen aanloopt, raadpleeg dan de officiële documentatie of de Aspose‑ondersteuningsforums.
 
 ---
 
-**Last Updated:** 2025-12-01  
-**Tested With:** Aspose.HTML for Java 24.12 (latest)  
+**Last Updated:** 2026-03-18  
+**Tested With:** Aspose.HTML for Java (latest)  
 **Author:** Aspose  
-**Related Resources:** [API Reference](https://reference.aspose.com/html/java/) | [Download Free Trial](https://releases.aspose.com/html/java/)
+**Gerelateerde bronnen:** [API Reference](https://reference.aspose.com/html/java/) | [Download Free Trial](https://releases.aspose.com/html/java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
