@@ -1,9 +1,10 @@
 ---
 category: general
-date: 2026-01-01
-description: Aspose.HTML kullanarak Java’da JavaScript nasıl çalıştırılır. JavaScript
-  ile HTML’i nasıl değiştireceğinizi, Java’da HTML belgesi oluşturmayı, Java’da JavaScript
-  çalıştırmayı ve dış HTML’i Java’da almayı öğrenin.
+date: 2026-03-07
+description: Aspose.HTML ile Java'da **javascript'in nasıl çalıştırılacağını** öğrenin.
+  Bu kılavuz, JavaScript ile HTML'i nasıl değiştireceğinizi, Java tarzı bir HTML belgesi
+  oluşturmayı, Java'dan JavaScript çalıştırmayı, Java içinde JavaScript çalıştırmayı
+  ve daha fazla işleme için dış HTML'i Java olarak almayı gösterir.
 draft: false
 keywords:
 - how to run javascript
@@ -11,11 +12,10 @@ keywords:
 - create html document java
 - run javascript in java
 - get outer html java
-language: tr
-og_description: Aspose.HTML kullanarak Java’da JavaScript nasıl çalıştırılır. HTML’i
-  nasıl değiştireceğinizi, Java’da HTML belgesi oluşturmayı ve dış HTML’i Java’da
-  almayı öğrenin.
-og_title: Java'da JavaScript Nasıl Çalıştırılır – Tam Kılavuz
+og_description: Aspose.HTML kullanarak Java’da JavaScript çalıştırmayı keşfedin. JavaScript
+  ile HTML’i nasıl değiştireceğinizi, Java tarzı bir HTML belgesi oluşturmayı ve Java’dan
+  dış HTML’yi almayı öğrenin.
+og_title: Java'da JavaScript Nasıl Çalıştırılır – Tam Rehber
 tags:
 - Java
 - JavaScript
@@ -30,26 +30,27 @@ url: /tr/java/advanced-usage/how-to-run-javascript-in-java-complete-guide/
 
 # Java'da JavaScript Çalıştırma – Tam Kılavuz
 
-Ağır bir tarayıcı kullanmadan **Java içinde JavaScript nasıl çalıştırılır** diye hiç merak ettiniz mi? Tek başınıza değilsiniz. Birçok geliştirici, sunucu tarafında **HTML'i JavaScript ile değiştirmek**, dinamik içerik üretmek ya da IDE'den çıkmadan kod parçacıklarını test etmek istiyor. Bu öğreticide, Java içinde JavaScript çalıştırmanın, Java‑tarzı bir HTML belgesi oluşturmanın ve sonunda **outer HTML Java** almanın tam olarak nasıl yapılacağını gösteren pratik bir örnek üzerinden ilerleyeceğiz.
+Hiç **Java'da JavaScript'i nasıl çalıştırılır** diye düşündünüz mü, ağır bir tarayıcıya ihtiyaç duymadan? Tek başınıza değilsiniz. Birçok geliştirici **HTML'i JavaScript ile değiştirmek** ister, dinamik içerik üretir ya da sadece IDE'lerinden çıkmadan kod parçacıklarını test eder. Bu öğreticide, Java'da JavaScript'i nasıl çalıştıracağınızı, Java‑stilinde bir HTML belgesi oluşturacağınızı ve sonunda **Java dış HTML al**arak daha fazla işleme sokacağınızı adım adım göstereceğiz.
 
-Aspose.HTML kütüphanesini kullanacağız; bu kütüphane, kontrol ettiğiniz bir DOM üzerinde JavaScript çalıştırabilen hafif bir **ScriptEngine** sunar. Bu rehberin sonunda, DOM'u güncelleyen, bir mesaj loglayan ve ortaya çıkan HTML'i yazdıran tam, çalıştırılabilir bir programınız olacak – tümü saf Java kodu ile.
+## Hızlı Yanıtlar
+- **Java'da JavaScript çalıştırmamı sağlayan kütüphane nedir?** Aspose.HTML’nin yerleşik `ScriptEngine`i.
+- **Tarayıcı kurulu olması gerekir mi?** Hayır, motor tamamen başsızdır.
+- **Mevcut bir HTML dosyasını yükleyebilir miyim?** Evet – dosya ya da URI kabul eden `HTMLDocument` yapıcısını kullanın.
+- **Motor iş parçacığı güvenli mi?** Her iş parçacığı için ayrı bir `ScriptEngine` oluşturun veya bir havuz kullanın.
+- **Hangi Java sürümü gerekiyor?** Java 8 veya daha yenisi (örnek Java 11 kullanıyor).
 
-## Öğrenecekleriniz
+## Java’da “JavaScript nasıl çalıştırılır” nedir?
+Java süreci içinde JavaScript çalıştırmak, kontrol ettiğiniz bir DOM ile etkileşime girebilen bir JavaScript çalışma zamanını kullanmak demektir. Aspose.HTML, bir tarayıcının JavaScript motoruna benzer ancak UI veya ağ yükü olmayan hafif bir `ScriptEngine` sunar.
 
-- Aspose.HTML ile **HTML document Java** nasıl oluşturulur.
-- Belgenizi anlayan bir **JavaScript engine** nasıl elde edilir.
-- Java nesnelerini (ör. logger) script'e nasıl açığa çıkarırsınız.
-- DOM'u manipüle etmek için **run JavaScript in Java** nasıl yazılır ve çalıştırılır.
-- Script çalıştırıldıktan sonra **outer HTML Java** nasıl alınır.
-- Gerçek dünyada karşılaşılabilecek yaygın sorunlar ve ipuçları.
+## Neden Java’dan JavaScript çalıştırılır?
+- **Sunucu‑tarafı şablonlama:** HTML'i istemcilere göndermeden önce dinamik olarak ayarlayın.
+- **Otomasyon:** İstemci‑tarafı mantık gerektiren e‑postalar, raporlar veya PDF'ler oluşturun.
+- **Test:** Tam bir tarayıcı olmadan CI boru hatlarında JavaScript parçacıklarını doğrulayın.
 
-Harici bir web sunucusu ya da tarayıcı gerekmez – sadece sınıf yolunda Aspose.HTML JAR'ı bulunan bir Java projesi yeterlidir.
-
-## Ön Koşullar
-
-- Java 8 veya daha yeni bir sürüm kurulu (örnek Java 11 kullanıyor, ancak herhangi bir güncel JDK çalışır).
-- Bağımlılıkları yönetmek için Maven ya da Gradle; ya da Aspose.HTML JAR'ını manuel ekleyebilirsiniz.
-- HTML ve JavaScript kavramlarına temel bir anlayış.
+## Önkoşullar
+- Java 8 veya daha yeni bir sürüm kurulu (örnek Java 11 kullanıyor).
+- Bağımlılık yönetimi için Maven veya Gradle, ya da sınıf yolunda Aspose.HTML JAR.
+- HTML ve JavaScript hakkında temel bilgi.
 
 > **Pro ipucu:** Maven kullanıyorsanız, `pom.xml` dosyanıza aşağıdakileri ekleyin:
 
@@ -61,11 +62,19 @@ Harici bir web sunucusu ya da tarayıcı gerekmez – sadece sınıf yolunda Asp
 </dependency>
 ```
 
-Temel hazırlıklar tamam, şimdi koda dalalım.
+Şimdi temel hazırlıklar tamam, koda dalalım.
 
-## Adım 1: Java‑Tarzı Bir HTML Belgesi Oluşturun
+## Öğrenecekleriniz
+- Aspose.HTML kullanarak **Java’da HTML belgesi oluşturmayı**.
+- Belgenizi anlayan bir **JavaScript motoru** edinmeyi.
+- Java nesnelerini (örneğin bir logger) betiğe açmayı.
+- DOM'u manipüle etmek için **Java’da JavaScript çalıştırmayı**.
+- Betik çalıştırıldıktan sonra **Java’da dış HTML almayı**.
+- Yaygın tuzaklar ve üretim‑hazır ipuçları.
 
-İlk olarak, script'in manipüle edeceği bellek içi bir HTML belgesine ihtiyacımız var. Aspose.HTML, bir dizeden belge oluşturmayı mümkün kılar; bu da hızlı demolar için idealdir.
+## Adım 1: Java‑Stilinde HTML Belgesi Oluşturma
+
+İlk olarak, betiğin manipüle edeceği bellek içi bir HTML belgesine ihtiyacımız var. Aspose.HTML, bir dizeden belge oluşturmayı mümkün kılar; bu hızlı demolar için mükemmeldir.
 
 ```java
 import com.aspose.html.HTMLDocument;
@@ -75,11 +84,11 @@ HTMLDocument htmlDoc = new HTMLDocument(
         "<html><body><div id='msg'></div></body></html>");
 ```
 
-Neden `<div id='msg'>` ile başlıyoruz? Çünkü script'in güncelleyeceği net bir hedef sağlıyor ve **how to run JavaScript** konseptini DOM değişikliği üzerinden gösteriyor.
+Neden `<div id='msg'>` ile başlıyoruz? Çünkü betiğe güncelleyecek net bir hedef verir ve **JavaScript nasıl çalıştırılır** örneğini DOM'u değiştirecek şekilde gösterir.
 
-## Adım 2: Belgenizi Tanıyan Bir JavaScript Engine Edinin
+## Adım 2: Belgenizi Tanıyan Bir JavaScript Motoru Edinme
 
-Şimdi, az önce oluşturduğumuz `HTMLDocument` ile zaten bağlanmış bir `ScriptEngine` talep ediyoruz. Bu engine, mini bir tarayıcının JavaScript çalışma zamanına benzer.
+Şimdi Aspose.HTML'den, az önce oluşturduğumuz `HTMLDocument`e zaten bağlanmış bir `ScriptEngine` isteriz. Bu motor, mini bir tarayıcının JavaScript çalışma zamanı gibi davranır.
 
 ```java
 import com.aspose.html.scripting.ScriptEngine;
@@ -89,11 +98,11 @@ import com.aspose.html.scripting.ScriptEngineFactory;
 ScriptEngine jsEngine = ScriptEngineFactory.createEngine(htmlDoc);
 ```
 
-Engine hafiftir—UI, ağ çağrısı yok—dolayısıyla bir arka uç servisi ya da birim testi içinde güvenle çalıştırılabilir.
+Motor hafiftir—UI yok, ağ çağrısı yok—bu yüzden bir arka uç hizmetinde ya da bir birim testinde güvenle çalıştırılabilir.
 
-## Adım 3: Script'e Bir Java Logger Açığa Çıkarın
+## Adım 3: Java Logger'ı Betiğe Açma
 
-Genellikle script'in Java'ya geri bildirimde bulunmasını istersiniz. En basit yol, `System.out`'a yazdıran bir `Consumer<String>` sunmaktır. Bu, **how to run JavaScript** yaparken Java'nın logging olanaklarını da kullanmanızı gösterir.
+Genellikle betiğin Java'ya geri bildirimde bulunmasını istersiniz. En basit yol, `System.out`a yazdıran bir `Consumer<String>` sunmaktır. Bu, **Java'da JavaScript çalıştırırken** Java’nın kayıt (logging) altyapısını kullanmanın bir örneğidir.
 
 ```java
 // Step 3: Make a logger available inside the JavaScript environment
@@ -101,11 +110,11 @@ jsEngine.put("logger",
         (java.util.function.Consumer<String>) System.out::println);
 ```
 
-Artık script, `logger('some message')` çağrısı yapabilir ve çıktıyı konsolda görebilirsiniz.
+Artık betik `logger('some message')` çağrısı yapabilir ve çıktıyı konsolda görebilirsiniz.
 
-## Adım 4: DOM'u Değiştiren JavaScript'i Yazın
+## Adım 4: DOM'u Değiştiren JavaScript Yazma
 
-İşte örneğin kalbi: yer tutucu `<div>`'in içeriğini değiştiren ve bir log girişi yazan kısa bir script.
+İşte örneğin kalbi: yer tutucu `<div>` içeriğini değiştiren ve bir log girişi yazan kısa bir betik.
 
 ```java
 // Step 4: JavaScript code that updates the DOM and uses the logger
@@ -114,20 +123,20 @@ String scriptCode = ""
         + "logger('DOM updated');";
 ```
 
-Standart DOM API'sini (`document.getElementById`) kullandığımıza dikkat edin—tarayıcıda kullandığınız aynı API. Bu, **modify html with javascript** işleminin sunucu tarafında nasıl göründüğünün tam örneğidir.
+Standart DOM API'sini (`document.getElementById`) kullandığımıza dikkat edin—tarayıcıda kullandığınız aynı API. Bu, **modify html with javascript** ifadesinin sunucuda nasıl göründüğünün tam örneğidir.
 
-## Adım 5: Script'i Belge Bağlamında Çalıştırın
+## Adım 5: Betiği Belge Bağlamında Çalıştırma
 
-Şimdi script'i gerçekten çalıştırıyoruz. Bir şeyler ters giderse, bir istisna fırlatılacak ve bunu hatalı durumları yakalamak için kullanabilirsiniz.
+Şimdi betiği gerçekten çalıştıralım. Bir şeyler ters giderse, bir istisna fırlatılacak ve bunu sağlam bir hata yönetimi için yakalayabilirsiniz.
 
 ```java
 // Step 5: Run the script; any errors will bubble up as Exceptions
 jsEngine.eval(scriptCode);
 ```
 
-Bu aşamada `htmlDoc` içindeki `<div id='msg'>` artık “Hello from JS!” metnini içeriyor ve konsolda “DOM updated” yazıyor.
+Bu noktada `htmlDoc` içindeki `<div id='msg'>` artık “Hello from JS!” metnini içeriyor ve konsol “DOM updated” mesajını yazdırıyor.
 
-## Adım 6: Ortaya Çıkan HTML'i Alın – Get Outer HTML Java
+## Adım 6: Oluşan HTML'i Al – Java’da Dış HTML Al
 
 Son olarak, belgeden tam HTML işaretlemesini çıkarıyoruz. Bu, birçok geliştiricinin sonucu **store, send, or further process** etmek istediği **get outer html java** adımıdır.
 
@@ -136,18 +145,18 @@ Son olarak, belgeden tam HTML işaretlemesini çıkarıyoruz. Bu, birçok geliş
 System.out.println("Resulting HTML: " + htmlDoc.getOuterHtml());
 ```
 
-Programın tamamı çalıştırıldığında şu çıktı elde edilir:
+Programın tamamını çalıştırdığınızda şu çıktı elde edilir:
 
 ```
 DOM updated
 Resulting HTML: <html><head></head><body><div id="msg">Hello from JS!</div></body></html>
 ```
 
-Bu, **how to run JavaScript in Java** ve **modifying HTML with JavaScript** yapıp ardından son işaretlemeyi çıkarmanın uçtan uca bir gösterimidir.
+Bu, **Java'da JavaScript çalıştırma** ve **JavaScript ile HTML'i değiştirme** ardından son işaretlemenin çıkarılması konularını uçtan uca gösteren tam bir örnektir.
 
 ## Tam Çalışan Örnek
 
-Aşağıda, `JsEngineDemo.java` dosyasına kopyalayıp yapıştırabileceğiniz tüm program yer alıyor. Aspose.HTML JAR'ının sınıf yolunda olduğundan emin olun.
+Aşağıda `JsEngineDemo.java` dosyasına kopyalayıp yapıştırabileceğiniz tüm program yer alıyor. Aspose.HTML JAR'ının sınıf yolunda olduğundan emin olun.
 
 ```java
 import com.aspose.html.HTMLDocument;
@@ -189,13 +198,12 @@ DOM updated
 Resulting HTML: <html><head></head><body><div id="msg">Hello from JS!</div></body></html>
 ```
 
-Yukarıdaki iki satırı görüyorsanız, **run JavaScript in Java**, **modify HTML with JavaScript** ve **got the outer HTML** işlemlerini başarıyla tamamlamışsınız demektir.
+Yukarıdaki iki satırı görüyorsanız, **Java'da JavaScript çalıştırmayı**, **JavaScript ile HTML'i değiştirmeyi** ve **dış HTML'i Java'ya geri almayı** başarıyla gerçekleştirmişsiniz demektir.
 
-## Sık Sorulan Sorular & Kenar Durumlar
+## Yaygın Sorular ve Kenar Durumları
 
-### Script bir hata fırlatırsa ne olur?
-
-`jsEngine.eval` herhangi bir JavaScript istisnasını Java `Exception` olarak yayar. Çağrıyı bir try‑catch bloğuna sararak hatayı loglayabilir veya nazikçe kurtulabilirsiniz.
+### Betik bir hata fırlatırsa ne olur?
+`jsEngine.eval` herhangi bir JavaScript istisnasını Java `Exception` olarak yayar. Çağrıyı bir try‑catch bloğuna sararak hatayı kaydedebilir veya nazikçe toparlayabilirsiniz.
 
 ```java
 try {
@@ -205,17 +213,15 @@ try {
 }
 ```
 
-### Dize yerine harici bir HTML dosyası yükleyebilir miyim?
-
-Elbette. `HTMLDocument` yapıcısının `java.net.URI` ya da `java.io.File` kabul eden sürümünü kullanın. Bu, şablonlardan **create HTML document Java** oluşturmanız gerektiğinde çok işe yarar.
+### Bir dize yerine harici bir HTML dosyası yükleyebilir miyim?
+Kesinlikle. `HTMLDocument` yapıcısı `java.net.URI` ya da `java.io.File` kabul eder. Bu, şablonlardan **Java’da HTML belgesi oluşturma** için çok kullanışlıdır.
 
 ```java
 HTMLDocument htmlDoc = new HTMLDocument(new java.io.File("template.html"));
 ```
 
-### Script'e daha karmaşık Java nesneleri nasıl geçiririm?
-
-Engine'e `put` ettiğiniz her nesne bir JavaScript değişkeni olur. Koleksiyonlar için Java 8 stream'lerini kullanabilir veya önce JSON string'ine dönüştürebilirsiniz.
+### Daha karmaşık Java nesnelerini betiğe nasıl geçiririm?
+Motor içine `put` ettiğiniz her nesne bir JavaScript değişkeni olur. Koleksiyonlar için Java 8 akışlarını (streams) kullanabilir ya da önce JSON dizesine dönüştürebilirsiniz.
 
 ```java
 Map<String, String> data = new HashMap<>();
@@ -223,29 +229,51 @@ data.put("name", "Alice");
 jsEngine.put("data", data);
 ```
 
-Script içinde `data.get("name")` şeklinde erişebilirsiniz.
+Betikte daha sonra `data.get("name")` şeklinde erişebilirsiniz.
 
-### Engine thread‑safe mi?
+### Motor iş parçacığı güvenli mi?
+Her `ScriptEngine` örneği tek bir `HTMLDocument`e bağlanır. Eşzamanlı çalıştırma için iş parçacığı başına ayrı bir motor oluşturun ya da erişimi senkronize edin.
 
-Her `ScriptEngine` örneği tek bir `HTMLDocument` ile bağlanır. Eşzamanlı çalıştırma için her iş parçacığına ayrı bir engine oluşturun ya da erişimi senkronize edin.
+## Üretim Kullanımı için İpuçları
 
-## Üretim Kullanımı İçin İpuçları
+- **Motorları nadiren yeniden kullanın:** Her istek için yeni bir motor oluşturmak maliyetli olabilir. Yüksek throughput varsa bir havuz önbellekleyin.
+- **Girdiyi temizleyin:** Kullanıcıların betik sağlamasına izin veriyorsanız, güvenlik risklerini önlemek için sandbox yapın veya API yüzeyini sınırlayın.
+- **Belleği yönetin:** Büyük DOM ağaçları önemli heap tüketebilir. İşiniz bittiğinde `HTMLDocument` nesnelerini serbest bırakın (`htmlDoc.dispose()` API sağlıyorsa).
 
-- **Engine'leri nadiren yeniden kullanın:** Her istek için yeni bir engine oluşturmak maliyetli olabilir. Yüksek trafikte bir havuz önbelleği oluşturun.
-- **Girdi temizliği yapın:** Kullanıcıların script sağlamasına izin veriyorsanız, sandbox uygulayın veya API yüzeyini sınırlayın; güvenlik risklerini önleyin.
-- **Belleği yönetin:** Büyük DOM ağaçları heap'i hızla tüketebilir. İşiniz bittiğinde `HTMLDocument` nesnelerini serbest bırakın (`htmlDoc.dispose()` API bunu destekliyorsa).
+## Sıkça Sorulan Sorular
+
+**S: Bu, başsız bir Linux sunucusunda çalıştırılabilir mi?**  
+C: Evet. Aspose.HTML `ScriptEngine` tamamen başsızdır ve GUI bağımlılığı yoktur.
+
+**S: Java 17 gibi yeni Java sürümleriyle çalışır mı?**  
+C: Kesinlikle. Kütüphane Java 8+ hedef alır, bu yüzden Java 11, 17 veya daha yenileri desteklenir.
+
+**S: Büyük HTML dosyalarını bellek tükenmeden nasıl yönetirim?**  
+C: Mümkünse dosyayı parçalara bölerek yükleyin, JVM heap'ini (`-Xmx`) artırın ve kullanım sonrası belgeyi serbest bırakın.
+
+**S: Üretim için ticari bir lisans gerekli mi?**  
+C: Evet, üretim dağıtımları için geçerli bir Aspose.HTML lisansı gerekir. Değerlendirme amaçlı ücretsiz deneme mevcuttur.
+
+**S: Değiştirilmiş HTML'den PDF üretmek mümkün mü?**  
+C: Evet. Son HTML'i elde ettikten sonra Aspose.HTML'in PDF dönüşüm API'sine besleyebilirsiniz.
 
 ## Sonuç
 
-Başlangıçtan sona **how to run JavaScript in Java** konusunu ele aldık: Java‑tarzı bir HTML belgesi oluşturma, bir script engine bağlama, logger açığa çıkarma, **modify html with javascript** yapan bir snippet çalıştırma ve sonunda **get outer html java** elde etme. Yaklaşım hafif, tarayıcı gerektirmiyor ve herhangi bir Java backend'ine sorunsuz entegre olabiliyor.
+**Java'da JavaScript çalıştırma** sürecini baştan sona ele aldık: Java‑stilinde bir HTML belgesi oluşturma, bir script motoru bağlama, bir logger açma, **modify html with javascript** yapan bir betiği çalıştırma ve sonunda **get outer html java** elde etme. Yaklaşım hafif, tarayıcı gerektirmiyor ve herhangi bir Java backend'ine sorunsuz entegre oluyor.
 
-Daha ileri gitmeye hazır mısınız? Tam bir HTML şablonu yükleyin, dinamik verileri JavaScript ile enjekte edin ya da birden fazla script'i zincirleyin. Aspose.HTML ayrıca CSS, SVG ve hatta PDF dönüşümünü de destekliyor – sunucu‑tarafı render pipeline'ları için mükemmel.
+Daha ileri gitmeye hazır mısınız? Tam bir HTML şablonu yükleyin, JavaScript ile dinamik veri enjekte edin ya da birden fazla betiği zincirleyin. Aspose.HTML'in CSS, SVG ve PDF dönüşüm desteğini de keşfedebilirsiniz—sunucu‑tarafı render pipeline'ları için mükemmel.
 
-Herhangi bir sorunla karşılaşırsanız ya da ek fikirleriniz varsa aşağıya yorum bırakın. İyi kodlamalar ve Java içinde JavaScript çalıştırmanın tadını çıkarın! 
+Herhangi bir sorunla karşılaşırsanız ya da geliştirme fikirleriniz varsa yorum bırakın. İyi kodlamalar ve Java içinde JavaScript çalıştırmanın tadını çıkarın! 
 
-![How to run javascript illustration](image.png)
+![JavaScript'i çalıştırma illustrasyonu](image.png)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Son Güncelleme:** 2026-03-07  
+**Test Edilen:** Aspose.HTML 23.9 (yazım anındaki en yeni sürüm)  
+**Yazar:** Aspose

@@ -1,9 +1,10 @@
 ---
 category: general
-date: 2026-01-01
-description: Jak spustit JavaScript v Javě pomocí Aspose.HTML. Naučte se upravovat
-  HTML pomocí JavaScriptu, vytvořit HTML dokument v Javě, spustit JavaScript v Javě
-  a získat vnější HTML v Javě.
+date: 2026-03-07
+description: Naučte se **jak spouštět JavaScript** v Javě pomocí Aspose.HTML. Tento
+  průvodce vám ukáže, jak upravovat HTML pomocí JavaScriptu, vytvořit HTML dokument
+  ve stylu Javy, spouštět JavaScript z Javy, provozovat JavaScript v Javě a získat
+  vnější HTML v Javě pro další zpracování.
 draft: false
 keywords:
 - how to run javascript
@@ -11,9 +12,9 @@ keywords:
 - create html document java
 - run javascript in java
 - get outer html java
-language: cs
-og_description: Jak spustit JavaScript v Javě pomocí Aspose.HTML. Naučte se upravovat
-  HTML, vytvářet HTML dokument v Javě a získávat vnější HTML v Javě.
+og_description: Objevte, jak spustit JavaScript v Javě pomocí Aspose.HTML. Naučte
+  se upravovat HTML pomocí JavaScriptu, vytvářet HTML dokument ve stylu Javy a získávat
+  vnější HTML z Javy.
 og_title: Jak spustit JavaScript v Javě – kompletní průvodce
 tags:
 - Java
@@ -29,28 +30,29 @@ url: /cs/java/advanced-usage/how-to-run-javascript-in-java-complete-guide/
 
 # Jak spustit JavaScript v Javě – Kompletní průvodce
 
-Už jste se někdy zamýšleli **jak spustit JavaScript v Javě** bez těžkopádného prohlížeče? Nejste sami. Mnoho vývojářů potřebuje **modifikovat HTML pomocí JavaScriptu** na straně serveru, generovat dynamický obsah nebo jen testovat úryvky kódu, aniž by opustili své IDE. V tomto tutoriálu si projdeme praktický příklad, který vám ukáže přesně, jak spustit JavaScript v Javě, vytvořit HTML dokument v Javě a nakonec **získat vnější HTML v Javě** pro další zpracování.
+Už jste se někdy zamýšleli **jak spustit JavaScript v Javě** bez nutnosti tahat těžký prohlížeč? Nejste sami. Mnoho vývojářů potřebuje **modifikovat HTML pomocí JavaScriptu** na straně serveru, generovat dynamický obsah nebo jen testovat úryvky kódu, aniž by opustili své IDE. V tomto tutoriálu projdeme praktickým příkladem, který vám přesně ukáže, jak spustit JavaScript v Javě, vytvořit HTML dokument ve stylu Javy a nakonec **získat vnější HTML v Javě** pro další zpracování.
 
-Budeme používat knihovnu Aspose.HTML, která poskytuje lehký **ScriptEngine**, jenž dokáže spouštět JavaScript proti DOMu, který ovládáte. Na konci tohoto návodu budete mít kompletní, spustitelný program, který aktualizuje DOM, zapíše zprávu do logu a vytiskne výsledné HTML – vše z čistého Java kódu.
+## Rychlé odpovědi
+- **Jaká knihovna mi umožní spustit JavaScript v Javě?** Aspose.HTML’s built‑in `ScriptEngine`.
+- **Potřebuji mít nainstalovaný prohlížeč?** No, the engine is completely headless.
+- **Mohu načíst existující soubor HTML?** Yes – use the `HTMLDocument` constructor that accepts a file or URI.
+- **Je engine thread‑safe?** Create a separate `ScriptEngine` per thread or use a pool.
+- **Jaká verze Javy je požadována?** Java 8 or newer (the example uses Java 11).
 
-## Co se naučíte
+## Co je „jak spustit JavaScript“ v Javě?
+Running JavaScript inside a Java process means using a JavaScript runtime that can interact with a DOM you control. Aspose.HTML provides a lightweight `ScriptEngine` that behaves like a browser’s JavaScript engine but without any UI or network overhead.
 
-- Jak **vytvořit HTML dokument v Javě** pomocí Aspose.HTML.
-- Jak získat **JavaScript engine**, který rozumí vašemu dokumentu.
-- Jak vystavit Java objekty (např. logger) skriptu.
-- Jak napsat a **spustit JavaScript v Javě** pro manipulaci s DOMem.
-- Jak získat **vnější HTML v Javě** po vykonání skriptu.
-- Běžné úskalí a tipy pro reálné nasazení.
+## Proč spouštět JavaScript z Javy?
+- **Server‑side templating:** Dynamicky upravovat HTML před odesláním klientům.
+- **Automation:** Generovat e‑maily, reporty nebo PDF, které vyžadují logiku na straně klienta.
+- **Testing:** Validovat JavaScript úryvky v CI pipelinech bez plnohodnotného prohlížeče.
 
-Žádný externí webový server ani prohlížeč není potřeba – stačí Java projekt s Aspose.HTML JAR na classpath.
+## Požadavky
+- Java 8 or newer installed (the example uses Java 11).
+- Maven or Gradle for dependency management, or the Aspose.HTML JAR on the classpath.
+- Basic familiarity with HTML and JavaScript.
 
-## Předpoklady
-
-- Nainstalovaný Java 8 nebo novější (příklad používá Java 11, ale funguje s libovolným aktuálním JDK).
-- Maven nebo Gradle pro správu závislostí, případně můžete ručně přidat Aspose.HTML JAR.
-- Základní povědomí o HTML a JavaScriptu.
-
-> **Tip:** Pokud používáte Maven, přidejte následující do svého `pom.xml`:
+> **Pro tip:** Pokud používáte Maven, přidejte následující do svého `pom.xml`:
 
 ```xml
 <dependency>
@@ -60,11 +62,19 @@ Budeme používat knihovnu Aspose.HTML, která poskytuje lehký **ScriptEngine**
 </dependency>
 ```
 
-Nyní, když je vše připravené, ponořme se do kódu.
+Nyní, když je základ připraven, ponořme se do kódu.
 
-## Krok 1: Vytvořte HTML dokument v Javě
+## Co se naučíte
+- Jak **vytvořit HTML dokument Java** pomocí Aspose.HTML.
+- Jak získat **JavaScript engine**, který rozumí vašemu dokumentu.
+- Jak vystavit Java objekty (např. logger) skriptu.
+- Jak **spustit JavaScript v Javě** pro manipulaci s DOM.
+- Jak **získat vnější HTML Java** po vykonání skriptu.
+- Běžné úskalí a tipy připravené pro produkci.
 
-První věc, kterou potřebujeme, je HTML dokument v paměti, který skript bude upravovat. Aspose.HTML nám umožňuje vytvořit ho ze řetězce, což je ideální pro rychlé ukázky.
+## Krok 1: Vytvořte HTML dokument ve stylu Java
+
+The first thing we need is an in‑memory HTML document that the script will manipulate. Aspose.HTML lets us spin one up from a string, which is perfect for quick demos.
 
 ```java
 import com.aspose.html.HTMLDocument;
@@ -74,11 +84,11 @@ HTMLDocument htmlDoc = new HTMLDocument(
         "<html><body><div id='msg'></div></body></html>");
 ```
 
-Proč začít s `<div id='msg'>`? Protože dává skriptu jasný cíl k aktualizaci a ukazuje **jak spustit JavaScript**, který mění DOM.
+Why start with a `<div id='msg'>`? Because it gives the script a clear target to update, illustrating **how to run JavaScript** that changes the DOM.
 
 ## Krok 2: Získejte JavaScript engine, který zná váš dokument
 
-Dále požádáme Aspose.HTML o `ScriptEngine`, který je již svázán s `HTMLDocument`, který jsme právě vytvořili. Tento engine se chová jako mini‑runtime JavaScriptu v prohlížeči.
+Next we ask Aspose.HTML for a `ScriptEngine` that’s already bound to the `HTMLDocument` we just created. This engine behaves like a mini‑browser’s JavaScript runtime.
 
 ```java
 import com.aspose.html.scripting.ScriptEngine;
@@ -88,11 +98,11 @@ import com.aspose.html.scripting.ScriptEngineFactory;
 ScriptEngine jsEngine = ScriptEngineFactory.createEngine(htmlDoc);
 ```
 
-Engine je lehký – žádné UI, žádné síťové volání – takže jej můžete bezpečně spouštět v backendové službě nebo v unit testu.
+The engine is lightweight—no UI, no network calls—so it’s safe to run in a backend service or a unit test.
 
-## Krok 3: Vystavte Java logger skriptu
+## Krok 3: Zveřejněte Java logger ve skriptu
 
-Často budete chtít, aby skript komunikoval zpět do Javy. Nejjednodušší způsob je vystavit `Consumer<String>`, který vypisuje do `System.out`. Tím demonstrujeme **jak spustit JavaScript**, přičemž stále využíváme Java logovací možnosti.
+Often you’ll want your script to communicate back to Java. The simplest way is to expose a `Consumer<String>` that prints to `System.out`. This demonstrates **how to run JavaScript** while still leveraging Java’s logging facilities.
 
 ```java
 // Step 3: Make a logger available inside the JavaScript environment
@@ -100,11 +110,11 @@ jsEngine.put("logger",
         (java.util.function.Consumer<String>) System.out::println);
 ```
 
-Nyní může skript volat `logger('nějaká zpráva')` a výstup se zobrazí v konzoli.
+Now the script can call `logger('some message')` and you’ll see the output in the console.
 
-## Krok 4: Napište JavaScript, který mění DOM
+## Krok 4: Napište JavaScript, který modifikuje DOM
 
-Tady je jádro příkladu: krátký skript, který mění obsah placeholderu `<div>` a zapisuje log.
+Here’s the heart of the example: a short script that changes the content of the placeholder `<div>` and writes a log entry.
 
 ```java
 // Step 4: JavaScript code that updates the DOM and uses the logger
@@ -113,40 +123,40 @@ String scriptCode = ""
         + "logger('DOM updated');";
 ```
 
-Všimněte si, že používáme standardní DOM API (`document.getElementById`) – stejné, jaké byste použili v prohlížeči. To je přesně to, co **modify html with javascript** vypadá, když to spouštíte na serveru.
+Notice how we use the standard DOM API (`document.getElementById`)—the same you’d use in a browser. This is exactly what **modify html with javascript** looks like when you’re running it on the server.
 
-## Krok 5: Proveďte skript v kontextu dokumentu
+## Krok 5: Spusťte skript v kontextu dokumentu
 
-Nyní skutečně spustíme skript. Pokud se něco pokazí, bude vyhozena výjimka, kterou můžete zachytit pro robustní zpracování chyb.
+Now we actually run the script. If anything goes wrong, an exception will be thrown, which you can catch for robust error handling.
 
 ```java
 // Step 5: Run the script; any errors will bubble up as Exceptions
 jsEngine.eval(scriptCode);
 ```
 
-V tomto okamžiku `<div id='msg'>` uvnitř `htmlDoc` obsahuje text „Hello from JS!“ a konzole vypíše „DOM updated“.
+At this point the `<div id='msg'>` inside `htmlDoc` now contains the text “Hello from JS!”, and the console prints “DOM updated”.
 
-## Krok 6: Získejte výsledné HTML – Get Outer HTML Java
+## Krok 6: Získejte výsledné HTML – Získání vnějšího HTML v Javě
 
-Nakonec vytáhneme celý HTML markup z dokumentu. To je krok **get outer html java**, který mnoho vývojářů potřebuje, když chtějí výsledek uložit, odeslat nebo dále zpracovat.
+Finally, we pull the full HTML markup out of the document. This is the **get outer html java** step that many developers need when they want to store, send, or further process the result.
 
 ```java
 // Step 6: Print the final HTML to the console
 System.out.println("Resulting HTML: " + htmlDoc.getOuterHtml());
 ```
 
-Spuštění celého programu vypíše:
+Running the whole program yields:
 
 ```
 DOM updated
 Resulting HTML: <html><head></head><body><div id="msg">Hello from JS!</div></body></html>
 ```
 
-Jedná se o kompletní ukázku **jak spustit JavaScript v Javě** při **modifikaci HTML pomocí JavaScriptu** a následném získání finálního markupu.
+That’s a complete, end‑to‑end demonstration of **how to run JavaScript in Java** while **modifying HTML with JavaScript** and then extracting the final markup.
 
 ## Kompletní funkční příklad
 
-Níže je celý program, který můžete zkopírovat do souboru `JsEngineDemo.java`. Ujistěte se, že Aspose.HTML JAR je na classpath.
+Below is the entire program you can copy‑paste into a `JsEngineDemo.java` file. Make sure the Aspose.HTML JAR is on your classpath.
 
 ```java
 import com.aspose.html.HTMLDocument;
@@ -188,13 +198,12 @@ DOM updated
 Resulting HTML: <html><head></head><body><div id="msg">Hello from JS!</div></body></html>
 ```
 
-Pokud vidíte výše dva řádky, úspěšně jste **spustili JavaScript v Javě**, **modifikovali HTML pomocí JavaScriptu** a **získali vnější HTML** zpět v Javě.
+If you see the two lines above, you’ve successfully **run JavaScript in Java**, **modified HTML with JavaScript**, and **got the outer HTML** back into Java.
 
 ## Časté otázky a okrajové případy
 
 ### Co když skript vyhodí chybu?
-
-`jsEngine.eval` propaguje jakoukoli JavaScriptovou výjimku jako Java `Exception`. Zabalte volání do try‑catch bloku, abyste mohli logovat nebo se elegantně zotavit.
+`jsEngine.eval` propagates any JavaScript exception as a Java `Exception`. Wrap the call in a try‑catch block to log or recover gracefully.
 
 ```java
 try {
@@ -205,16 +214,14 @@ try {
 ```
 
 ### Můžu načíst externí HTML soubor místo řetězce?
-
-Samozřejmě. Použijte konstruktor `HTMLDocument`, který přijímá `java.net.URI` nebo `java.io.File`. To je užitečné, když potřebujete **vytvořit HTML dokument v Javě** z šablon.
+Absolutely. Use the `HTMLDocument` constructor that accepts a `java.net.URI` or a `java.io.File`. This is handy when you need to **create HTML document Java** from templates.
 
 ```java
 HTMLDocument htmlDoc = new HTMLDocument(new java.io.File("template.html"));
 ```
 
-### Jak předat skriptu složitější Java objekty?
-
-Jakýkoli objekt, který `put`nete do engine, se stane JavaScriptovou proměnnou. Pro kolekce použijte Java 8 streamy nebo je nejprve převedete na JSON řetězce.
+### Jak předat složitější Java objekty do skriptu?
+Any object you `put` into the engine becomes a JavaScript variable. For collections, use Java 8 streams or convert to JSON strings first.
 
 ```java
 Map<String, String> data = new HashMap<>();
@@ -222,29 +229,50 @@ data.put("name", "Alice");
 jsEngine.put("data", data);
 ```
 
-Ve skriptu pak můžete přistupovat k `data.get("name")`.
+In the script you can then access `data.get("name")`.
 
 ### Je engine thread‑safe?
-
-Každá instance `ScriptEngine` je svázána s jedním `HTMLDocument`. Pro souběžné spuštění vytvořte samostatný engine pro každý vlákno nebo synchronizujte přístup.
+Each `ScriptEngine` instance is bound to a single `HTMLDocument`. For concurrent execution, create a separate engine per thread or synchronize access.
 
 ## Tipy pro produkční použití
+- **Reuse engines sparingly:** Creating a new engine for every request can be expensive. Cache a pool if you have high throughput.
+- **Sanitize input:** If you let users supply scripts, sandbox them or limit the API surface to avoid security risks.
+- **Manage memory:** Large DOM trees can consume significant heap. Dispose of `HTMLDocument` objects when done (`htmlDoc.dispose()` if the API provides it).
 
-- **Znovupoužívejte engine střídmě:** Vytváření nového engine pro každý požadavek může být nákladné. Pokud máte vysoký provoz, vytvořte pool.
-- **Sanitizujte vstup:** Pokud uživatelé mohou dodávat skripty, omezte je sandboxem nebo zúžte API, aby nedošlo k bezpečnostním rizikům.
-- **Spravujte paměť:** Velké DOM stromy mohou spotřebovat značnou část haldy. Uvolněte objekty `HTMLDocument`, když skončíte (`htmlDoc.dispose()` pokud API poskytuje).
+## Často kladené otázky
+
+**Q: Can I run this on a headless Linux server?**  
+A: Yes. The Aspose.HTML `ScriptEngine` is completely headless and has no GUI dependencies.
+
+**Q: Does this work with newer Java versions like Java 17?**  
+A: Absolutely. The library targets Java 8+, so Java 11, 17, or later are all supported.
+
+**Q: How do I handle large HTML files without running out of memory?**  
+A: Load the file in chunks if possible, or increase the JVM heap (`-Xmx`) and consider disposing of the document after use.
+
+**Q: Is a commercial license required for production?**  
+A: Yes, a valid Aspose.HTML license is needed for production deployments. A free trial is available for evaluation.
+
+**Q: Can I use this approach to generate PDFs from the modified HTML?**  
+A: Yes. After you obtain the final HTML, you can feed it to Aspose.HTML’s PDF conversion API.
 
 ## Závěr
 
-Prošli jsme **jak spustit JavaScript v Javě** od začátku do konce: vytvoření HTML dokumentu v Javě, připojení script engine, vystavení loggeru, vykonání úryvku, který **modify html with javascript**, a nakonec **get outer html java** pro další použití. Přístup je lehký, nevyžaduje prohlížeč a snadno se integruje do jakéhokoli Java backendu.
+We’ve covered **how to run JavaScript in Java** from start to finish: creating an HTML document Java‑style, attaching a script engine, exposing a logger, executing a snippet that **modify html with javascript**, and finally **get outer html java** for further use. The approach is lightweight, requires no browser, and integrates cleanly into any Java backend.
 
-Chcete jít dál? Zkuste načíst kompletní HTML šablonu, injektovat dynamická data pomocí JavaScriptu nebo řetězit více skriptů. Můžete také prozkoumat podporu Aspose.HTML pro CSS, SVG a dokonce konverzi do PDF – ideální pro server‑side renderovací pipeline.
+Ready to take it further? Try loading a full HTML template, inject dynamic data via JavaScript, or chain multiple scripts together. You can also explore Aspose.HTML’s support for CSS, SVG, and PDF conversion—perfect for server‑side rendering pipelines.
 
-Pokud narazíte na problémy nebo máte nápady na rozšíření, zanechte komentář níže. Šťastné kódování a užívejte si spouštění JavaScriptu uvnitř Javy! 
+If you hit any snags or have ideas for extensions, feel free to leave a comment. Happy coding, and enjoy running JavaScript inside Java! 
 
-![How to run javascript illustration](image.png)
+![Ilustrace jak spustit javascript](image.png)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Poslední aktualizace:** 2026-03-07  
+**Testováno s:** Aspose.HTML 23.9 (nejnovější v době psaní)  
+**Autor:** Aspose

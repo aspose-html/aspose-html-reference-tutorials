@@ -1,9 +1,10 @@
 ---
 category: general
-date: 2026-01-01
-description: Cara menjalankan JavaScript di Java menggunakan Aspose.HTML. Pelajari
-  cara memodifikasi HTML dengan JavaScript, membuat dokumen HTML di Java, menjalankan
-  JavaScript di Java, dan mendapatkan outer HTML di Java.
+date: 2026-03-07
+description: Pelajari **cara menjalankan javascript** di Java dengan Aspose.HTML.
+  Panduan ini menunjukkan cara memodifikasi HTML dengan JavaScript, membuat dokumen
+  HTML gaya Java, mengeksekusi JavaScript dari Java, menjalankan JavaScript di Java,
+  dan mendapatkan outer HTML Java untuk pemrosesan lebih lanjut.
 draft: false
 keywords:
 - how to run javascript
@@ -11,10 +12,9 @@ keywords:
 - create html document java
 - run javascript in java
 - get outer html java
-language: id
-og_description: Cara menjalankan JavaScript di Java menggunakan Aspose.HTML. Pelajari
-  cara memodifikasi HTML, membuat dokumen HTML di Java, dan mengambil outer HTML di
-  Java.
+og_description: Temukan cara menjalankan JavaScript di Java menggunakan Aspose.HTML.
+  Pelajari cara memodifikasi HTML dengan JavaScript, membuat dokumen HTML gaya Java,
+  dan mengambil HTML luar dari Java.
 og_title: Cara Menjalankan JavaScript di Java – Panduan Lengkap
 tags:
 - Java
@@ -30,28 +30,29 @@ url: /id/java/advanced-usage/how-to-run-javascript-in-java-complete-guide/
 
 # Cara Menjalankan JavaScript di Java – Panduan Lengkap
 
-Pernah bertanya-tanya **bagaimana cara menjalankan JavaScript di Java** tanpa harus menggunakan browser berat? Anda tidak sendirian. Banyak pengembang perlu **memodifikasi HTML dengan JavaScript** di sisi server, menghasilkan konten dinamis, atau sekadar menguji potongan kode tanpa meninggalkan IDE mereka. Dalam tutorial ini kami akan membahas contoh praktis yang menunjukkan secara tepat cara menjalankan JavaScript di Java, membuat dokumen HTML gaya Java, dan akhirnya **mengambil outer HTML Java** untuk pemrosesan lebih lanjut.
+Pernah bertanya-tanya **bagaimana cara menjalankan JavaScript di Java** tanpa harus mengunduh browser yang berat? Anda tidak sendirian. Banyak pengembang perlu **memodifikasi HTML dengan JavaScript** di sisi server, menghasilkan konten dinamis, atau sekadar menguji potongan kode tanpa meninggalkan IDE mereka. Dalam tutorial ini kami akan membahas contoh praktis yang menunjukkan secara tepat bagaimana menjalankan JavaScript di Java, membuat dokumen HTML gaya Java, dan akhirnya **mengambil outer HTML Java** untuk pemrosesan lebih lanjut.
 
-Kami akan menggunakan pustaka Aspose.HTML, yang menyertakan **ScriptEngine** ringan yang dapat mengeksekusi JavaScript terhadap DOM yang Anda kontrol. Pada akhir panduan ini Anda akan memiliki program lengkap yang dapat dijalankan, yang memperbarui DOM, mencatat pesan, dan mencetak HTML yang dihasilkan—semua dari kode Java biasa.
+## Jawaban Cepat
+- **Library apa yang memungkinkan saya menjalankan JavaScript di Java?** ScriptEngine bawaan Aspose.HTML.  
+- **Apakah saya perlu menginstal browser?** Tidak, engine ini sepenuhnya headless.  
+- **Bisakah saya memuat file HTML yang sudah ada?** Ya – gunakan konstruktor `HTMLDocument` yang menerima file atau URI.  
+- **Apakah engine ini thread‑safe?** Buat `ScriptEngine` terpisah per thread atau gunakan pool.  
+- **Versi Java apa yang diperlukan?** Java 8 atau lebih baru (contohnya menggunakan Java 11).
 
-## Apa yang Akan Anda Pelajari
+## Apa itu “bagaimana cara menjalankan javascript” di Java?
+Menjalankan JavaScript di dalam proses Java berarti menggunakan runtime JavaScript yang dapat berinteraksi dengan DOM yang Anda kontrol. Aspose.HTML menyediakan `ScriptEngine` ringan yang berperilaku seperti engine JavaScript pada browser tetapi tanpa UI atau beban jaringan.
 
-- Cara **membuat dokumen HTML Java** menggunakan Aspose.HTML.
-- Cara mendapatkan **mesin JavaScript** yang memahami dokumen Anda.
-- Cara mengekspos objek Java (seperti logger) ke skrip.
-- Cara menulis dan **menjalankan JavaScript di Java** untuk memanipulasi DOM.
-- Cara mengambil **outer HTML Java** setelah eksekusi skrip.
-- Jebakan umum dan tips untuk penggunaan di dunia nyata.
-
-Tidak diperlukan server web eksternal atau browser—hanya proyek Java dengan JAR Aspose.HTML di classpath.
+## Mengapa menjalankan JavaScript dari Java?
+- **Templating sisi‑server:** Menyesuaikan HTML secara dinamis sebelum mengirimnya ke klien.  
+- **Otomasi:** Menghasilkan email, laporan, atau PDF yang memerlukan logika sisi klien.  
+- **Pengujian:** Memvalidasi potongan JavaScript dalam pipeline CI tanpa browser penuh.
 
 ## Prasyarat
+- Java 8 atau lebih baru terpasang (contoh menggunakan Java 11).  
+- Maven atau Gradle untuk manajemen dependensi, atau JAR Aspose.HTML di classpath.  
+- Familiaritas dasar dengan HTML dan JavaScript.
 
-- Java 8 atau lebih baru terpasang (contoh menggunakan Java 11, tetapi JDK terbaru mana pun dapat digunakan).
-- Maven atau Gradle untuk mengelola dependensi, atau Anda dapat menambahkan JAR Aspose.HTML secara manual.
-- Pemahaman dasar tentang konsep HTML dan JavaScript.
-
-> **Pro tip:** Jika Anda menggunakan Maven, tambahkan berikut ke `pom.xml` Anda:
+> **Tip pro:** Jika Anda menggunakan Maven, tambahkan berikut ke `pom.xml` Anda:
 
 ```xml
 <dependency>
@@ -61,11 +62,19 @@ Tidak diperlukan server web eksternal atau browser—hanya proyek Java dengan JA
 </dependency>
 ```
 
-Sekarang fondasinya sudah siap, mari kita selami kode.
+Setelah fondasi sudah siap, mari kita selami kode.
 
-## Langkah 1: Membuat Dokumen HTML Gaya Java
+## Apa yang Akan Anda Pelajari
+- Cara **membuat dokumen HTML Java** menggunakan Aspose.HTML.  
+- Cara memperoleh **engine JavaScript** yang memahami dokumen Anda.  
+- Cara mengekspos objek Java (seperti logger) ke skrip.  
+- Cara **menjalankan JavaScript di Java** untuk memanipulasi DOM.  
+- Cara **mengambil outer HTML Java** setelah eksekusi skrip.  
+- Jebakan umum dan tip siap produksi.
 
-Hal pertama yang kita butuhkan adalah dokumen HTML dalam memori yang akan dimanipulasi oleh skrip. Aspose.HTML memungkinkan kita membuatnya dari string, yang sangat cocok untuk demo cepat.
+## Langkah 1: Buat Dokumen HTML Gaya Java
+
+Hal pertama yang kita butuhkan adalah dokumen HTML dalam memori yang akan dimanipulasi oleh skrip. Aspose.HTML memungkinkan kita membuatnya dari string, yang sempurna untuk demo cepat.
 
 ```java
 import com.aspose.html.HTMLDocument;
@@ -75,11 +84,11 @@ HTMLDocument htmlDoc = new HTMLDocument(
         "<html><body><div id='msg'></div></body></html>");
 ```
 
-Mengapa memulai dengan `<div id='msg'>`? Karena itu memberi skrip target yang jelas untuk diperbarui, memperlihatkan **bagaimana cara menjalankan JavaScript** yang mengubah DOM.
+Mengapa memulai dengan `<div id='msg'>`? Karena itu memberi skrip target yang jelas untuk diperbarui, menggambarkan **bagaimana cara menjalankan JavaScript** yang mengubah DOM.
 
-## Langkah 2: Mendapatkan Mesin JavaScript yang Mengetahui Dokumen Anda
+## Langkah 2: Dapatkan Engine JavaScript yang Mengetahui Dokumen Anda
 
-Selanjutnya kami meminta Aspose.HTML untuk memberikan `ScriptEngine` yang sudah terikat pada `HTMLDocument` yang baru saja kami buat. Mesin ini berperilaku seperti runtime JavaScript mini‑browser.
+Selanjutnya kami meminta Aspose.HTML untuk `ScriptEngine` yang sudah terikat pada `HTMLDocument` yang baru saja kami buat. Engine ini berperilaku seperti runtime JavaScript mini‑browser.
 
 ```java
 import com.aspose.html.scripting.ScriptEngine;
@@ -89,11 +98,11 @@ import com.aspose.html.scripting.ScriptEngineFactory;
 ScriptEngine jsEngine = ScriptEngineFactory.createEngine(htmlDoc);
 ```
 
-Mesin ini ringan—tanpa UI, tanpa panggilan jaringan—sehingga aman dijalankan dalam layanan backend atau unit test.
+Engine ini ringan—tanpa UI, tanpa panggilan jaringan—sehingga aman dijalankan di layanan backend atau unit test.
 
-## Langkah 3: Mengekspos Logger Java ke Skrip
+## Langkah 3: Ekspos Logger Java ke Skrip
 
-Seringkali Anda ingin skrip berkomunikasi kembali ke Java. Cara termudah adalah mengekspos `Consumer<String>` yang mencetak ke `System.out`. Ini memperlihatkan **bagaimana cara menjalankan JavaScript** sambil tetap memanfaatkan fasilitas logging Java.
+Seringkali Anda ingin skrip Anda berkomunikasi kembali ke Java. Cara termudah adalah mengekspos `Consumer<String>` yang mencetak ke `System.out`. Ini menunjukkan **bagaimana cara menjalankan JavaScript** sambil tetap memanfaatkan fasilitas logging Java.
 
 ```java
 // Step 3: Make a logger available inside the JavaScript environment
@@ -103,9 +112,9 @@ jsEngine.put("logger",
 
 Sekarang skrip dapat memanggil `logger('some message')` dan Anda akan melihat outputnya di konsol.
 
-## Langkah 4: Menulis JavaScript yang Memodifikasi DOM
+## Langkah 4: Tulis JavaScript yang Memodifikasi DOM
 
-Berikut inti contoh: skrip singkat yang mengubah konten `<div>` placeholder dan menulis entri log.
+Berikut inti contoh: skrip singkat yang mengubah konten placeholder `<div>` dan menulis entri log.
 
 ```java
 // Step 4: JavaScript code that updates the DOM and uses the logger
@@ -116,7 +125,7 @@ String scriptCode = ""
 
 Perhatikan bagaimana kami menggunakan API DOM standar (`document.getElementById`)—sama seperti yang Anda gunakan di browser. Inilah tepatnya apa yang **modify html with javascript** terlihat ketika dijalankan di server.
 
-## Langkah 5: Menjalankan Skrip dalam Konteks Dokumen
+## Langkah 5: Jalankan Skrip dalam Konteks Dokumen
 
 Sekarang kami benar‑benar menjalankan skrip. Jika ada yang salah, sebuah pengecualian akan dilempar, yang dapat Anda tangkap untuk penanganan error yang kuat.
 
@@ -127,9 +136,9 @@ jsEngine.eval(scriptCode);
 
 Pada titik ini `<div id='msg'>` di dalam `htmlDoc` kini berisi teks “Hello from JS!”, dan konsol mencetak “DOM updated”.
 
-## Langkah 6: Mengambil HTML yang Dihasilkan – Get Outer HTML Java
+## Langkah 6: Ambil HTML Hasil – Dapatkan Outer HTML Java
 
-Akhirnya, kami mengambil seluruh markup HTML dari dokumen. Ini adalah langkah **get outer html java** yang banyak pengembang perlukan ketika ingin menyimpan, mengirim, atau memproses hasil lebih lanjut.
+Akhirnya, kami mengambil seluruh markup HTML dari dokumen. Ini adalah langkah **get outer html java** yang dibutuhkan banyak pengembang ketika ingin menyimpan, mengirim, atau memproses hasil lebih lanjut.
 
 ```java
 // Step 6: Print the final HTML to the console
@@ -143,9 +152,9 @@ DOM updated
 Resulting HTML: <html><head></head><body><div id="msg">Hello from JS!</div></body></html>
 ```
 
-Itulah demonstrasi lengkap, end‑to‑end tentang **bagaimana cara menjalankan JavaScript di Java** sambil **memodifikasi HTML dengan JavaScript** dan kemudian mengekstrak markup akhir.
+Itulah demonstrasi lengkap, end‑to‑end dari **bagaimana cara menjalankan JavaScript di Java** sambil **memodifikasi HTML dengan JavaScript** dan kemudian mengekstrak markup akhir.
 
-## Contoh Kerja Lengkap
+## Contoh Lengkap yang Berfungsi
 
 Berikut seluruh program yang dapat Anda salin‑tempel ke file `JsEngineDemo.java`. Pastikan JAR Aspose.HTML berada di classpath Anda.
 
@@ -191,11 +200,10 @@ Resulting HTML: <html><head></head><body><div id="msg">Hello from JS!</div></bod
 
 Jika Anda melihat dua baris di atas, Anda telah berhasil **menjalankan JavaScript di Java**, **memodifikasi HTML dengan JavaScript**, dan **mendapatkan outer HTML** kembali ke Java.
 
-## Pertanyaan Umum & Kasus Edge
+## Pertanyaan Umum & Kasus Tepi
 
-### Apa yang terjadi jika skrip melempar error?
-
-`jsEngine.eval` meneruskan setiap pengecualian JavaScript sebagai `Exception` Java. Bungkus panggilan dalam blok try‑catch untuk mencatat atau pulih dengan elegan.
+### Bagaimana jika skrip melempar error?
+`jsEngine.eval` meneruskan setiap pengecualian JavaScript sebagai `Exception` Java. Bungkus pemanggilan dalam blok try‑catch untuk mencatat atau pulih dengan elegan.
 
 ```java
 try {
@@ -205,17 +213,15 @@ try {
 }
 ```
 
-### Bisakah saya memuat file HTML eksternal alih‑alih string?
-
-Tentu saja. Gunakan konstruktor `HTMLDocument` yang menerima `java.net.URI` atau `java.io.File`. Ini berguna ketika Anda perlu **membuat dokumen HTML Java** dari templat.
+### Bisakah saya memuat file HTML eksternal alih-alih string?
+Tentu saja. Gunakan konstruktor `HTMLDocument` yang menerima `java.net.URI` atau `java.io.File`. Ini berguna ketika Anda perlu **create HTML document Java** dari templat.
 
 ```java
 HTMLDocument htmlDoc = new HTMLDocument(new java.io.File("template.html"));
 ```
 
 ### Bagaimana cara saya mengirim objek Java yang lebih kompleks ke skrip?
-
-Setiap objek yang Anda `put` ke dalam engine menjadi variabel JavaScript. Untuk koleksi, gunakan stream Java 8 atau ubah menjadi string JSON terlebih dahulu.
+Setiap objek yang Anda `put` ke dalam engine menjadi variabel JavaScript. Untuk koleksi, gunakan stream Java 8 atau konversi ke string JSON terlebih dahulu.
 
 ```java
 Map<String, String> data = new HashMap<>();
@@ -226,26 +232,47 @@ jsEngine.put("data", data);
 Di dalam skrip Anda kemudian dapat mengakses `data.get("name")`.
 
 ### Apakah engine ini thread‑safe?
-
-Setiap instance `ScriptEngine` terikat pada satu `HTMLDocument`. Untuk eksekusi bersamaan, buat engine terpisah per thread atau sinkronkan aksesnya.
+Setiap instance `ScriptEngine` terikat pada satu `HTMLDocument`. Untuk eksekusi bersamaan, buat engine terpisah per thread atau sinkronkan akses.
 
 ## Tips untuk Penggunaan Produksi
-
-- **Gunakan kembali engine secara hemat:** Membuat engine baru untuk setiap permintaan dapat mahal. Cache pool jika Anda memiliki throughput tinggi.
-- **Sanitasi input:** Jika Anda mengizinkan pengguna menyediakan skrip, sandbox mereka atau batasi permukaan API untuk menghindari risiko keamanan.
+- **Gunakan kembali engine secara hemat:** Membuat engine baru untuk setiap permintaan dapat mahal. Cache dalam pool jika Anda memiliki throughput tinggi.  
+- **Sanitasi input:** Jika Anda membiarkan pengguna menyediakan skrip, sandbox mereka atau batasi permukaan API untuk menghindari risiko keamanan.  
 - **Kelola memori:** Pohon DOM besar dapat mengonsumsi heap yang signifikan. Buang objek `HTMLDocument` setelah selesai (`htmlDoc.dispose()` jika API menyediakan).
+
+## Pertanyaan yang Sering Diajukan
+
+**Q: Bisakah saya menjalankan ini di server Linux headless?**  
+A: Ya. `ScriptEngine` Aspose.HTML sepenuhnya headless dan tidak memiliki dependensi GUI.
+
+**Q: Apakah ini bekerja dengan versi Java terbaru seperti Java 17?**  
+A: Tentu saja. Perpustakaan menargetkan Java 8+, jadi Java 11, 17, atau yang lebih baru semuanya didukung.
+
+**Q: Bagaimana saya menangani file HTML besar tanpa kehabisan memori?**  
+A: Muat file dalam potongan jika memungkinkan, atau tingkatkan heap JVM (`-Xmx`) dan pertimbangkan membuang dokumen setelah digunakan.
+
+**Q: Apakah lisensi komersial diperlukan untuk produksi?**  
+A: Ya, lisensi Aspose.HTML yang valid diperlukan untuk penyebaran produksi. Versi percobaan gratis tersedia untuk evaluasi.
+
+**Q: Bisakah saya menggunakan pendekatan ini untuk menghasilkan PDF dari HTML yang dimodifikasi?**  
+A: Ya. Setelah Anda memperoleh HTML akhir, Anda dapat mengirimkannya ke API konversi PDF Aspose.HTML.
 
 ## Kesimpulan
 
-Kami telah membahas **bagaimana cara menjalankan JavaScript di Java** dari awal hingga akhir: membuat dokumen HTML gaya Java, melampirkan mesin skrip, mengekspos logger, mengeksekusi potongan kode yang **modify html with javascript**, dan akhirnya **get outer html java** untuk penggunaan lebih lanjut. Pendekatan ini ringan, tidak memerlukan browser, dan terintegrasi bersih ke backend Java mana pun.
+Kami telah membahas **bagaimana cara menjalankan JavaScript di Java** dari awal hingga akhir: membuat dokumen HTML gaya Java, melampirkan engine skrip, mengekspos logger, mengeksekusi potongan kode yang **modify html with javascript**, dan akhirnya **get outer html java** untuk penggunaan lebih lanjut. Pendekatan ini ringan, tidak memerlukan browser, dan terintegrasi bersih ke dalam backend Java apa pun.
 
-Siap melangkah lebih jauh? Cobalah memuat templat HTML lengkap, sisipkan data dinamis lewat JavaScript, atau rangkaikan beberapa skrip bersama. Anda juga dapat menjelajahi dukungan Aspose.HTML untuk CSS, SVG, bahkan konversi PDF—sempurna untuk pipeline rendering sisi server.
+Siap melangkah lebih jauh? Coba muat templat HTML lengkap, sisipkan data dinamis melalui JavaScript, atau rangkaikan beberapa skrip bersama. Anda juga dapat menjelajahi dukungan Aspose.HTML untuk CSS, SVG, dan konversi PDF—sempurna untuk pipeline rendering sisi server.
 
-Jika Anda menemukan kendala atau memiliki ide untuk ekstensi, tinggalkan komentar di bawah. Selamat coding, dan nikmati menjalankan JavaScript di dalam Java! 
+Jika Anda menemukan kendala atau memiliki ide untuk ekstensi, silakan tinggalkan komentar. Selamat coding, dan nikmati menjalankan JavaScript di dalam Java!
 
-![Ilustrasi cara menjalankan javascript](image.png)
+![How to run javascript illustration](image.png)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Terakhir Diperbarui:** 2026-03-07  
+**Diuji Dengan:** Aspose.HTML 23.9 (terbaru pada saat penulisan)  
+**Penulis:** Aspose
