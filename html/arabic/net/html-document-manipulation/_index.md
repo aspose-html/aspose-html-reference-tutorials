@@ -51,7 +51,7 @@ url: /ar/net/html-document-manipulation/
 ## دروس تعليمية حول التعامل مع مستندات HTML
 ### [تحميل مستندات HTML بشكل غير متزامن في .NET باستخدام Aspose.HTML](./load-html-doc-asynchronously/)
 تعرف على كيفية استخدام Aspose.HTML for .NET للعمل مع مستندات HTML. دليل خطوة بخطوة مع أمثلة وأسئلة شائعة للمطورين.
-### [تحميل مستندات HTML باستخدام بيانات الاعتماد في .NET باستخدام Aspose.HTML](./load-html-doc-with-credentials/)
+### [تحميل مستندات HTML باستخدام بيانات الاعتماد في .NET باستخدام Aspose.HTML](./load-html-with-credentials/)
 تعرف على كيفية تعزيز تحسين محرك البحث الخاص بك باستخدام Aspose.HTML لـ .NET. قم بتعزيز التصنيفات وتحليل محتوى الويب وتحسينه لمحركات البحث.
 ### [تحميل HTML باستخدام خادم بعيد في .NET مع Aspose.HTML](./load-html-using-remote-server/)
 اكتشف إمكانات Aspose.HTML لـ .NET من خلال دليلنا الشامل. تعرّف على كيفية استيراد مساحات الأسماء والوصول إلى مستندات HTML عن بُعد والمزيد.
@@ -71,6 +71,8 @@ url: /ar/net/html-document-manipulation/
 أطلق العنان لإمكانات تطوير الويب باستخدام Aspose.HTML for .NET. أنشئ مستندات HTML وحولها وتعامل معها بسهولة.
 ### [إنشاء HTML من سلسلة في C# – دليل معالج الموارد المخصص](./create-html-from-string-in-c-custom-resource-handler-guide/)
 تعرف على كيفية إنشاء مستند HTML من سلسلة نصية في C# باستخدام معالج موارد مخصص.
+### [تطبيق نمط الخط برمجيًا – دليل سريع C#](./apply-font-style-programmatically-quick-c-guide/)
+دليل سريع لتطبيق أنماط الخط برمجيًا على مستندات HTML باستخدام Aspose.HTML في C#.
 
 ## خاتمة
 

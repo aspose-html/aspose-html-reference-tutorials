@@ -73,6 +73,8 @@ Descubra el poder de Aspose.HTML para .NET: convierta HTML a XPS sin esfuerzo. R
 Aprenda a empaquetar archivos HTML en un archivo ZIP usando C# y Aspose.HTML. Guía paso a paso con ejemplos de código.
 ### [Guardar HTML en ZIP en C# – Ejemplo completo en memoria](./save-html-to-zip-in-c-complete-in-memory-example/)
 Aprenda a guardar HTML en un archivo ZIP usando C# con un ejemplo completo en memoria.
+### [Cómo comprimir HTML en C# – guía de controlador de recursos personalizado](./how-to-zip-html-in-c-custom-resource-handler-guide/)
+Aprenda a comprimir archivos HTML usando un controlador de recursos personalizado en C# con Aspose.HTML. Guía paso a paso.
 
 ## Conclusión
 

@@ -51,7 +51,7 @@ Aspose.HTML voor .NET valt op door zijn eenvoud en kracht. Het geeft u de volled
 ## Handleidingen voor het manipuleren van HTML-documenten
 ### [Laad HTML-documenten asynchroon in .NET met Aspose.HTML](./load-html-doc-asynchronously/)
 Leer hoe u Aspose.HTML voor .NET gebruikt om met HTML-documenten te werken. Stapsgewijze handleiding met voorbeelden en FAQ's voor ontwikkelaars.
-### [Laad HTML-documenten met referenties in .NET met Aspose.HTML](./load-html-doc-with-credentials/)
+### [Laad HTML-documenten met referenties in .NET met Aspose.HTML](./load-html-with-credentials/)
 Ontdek hoe u uw SEO een boost kunt geven met Aspose.HTML voor .NET. Verbeter rankings, analyseer webcontent en optimaliseer voor zoekmachines.
 ### [HTML laden met behulp van een externe server in .NET met Aspose.HTML](./load-html-using-remote-server/)
 Ontgrendel het potentieel van Aspose.HTML voor .NET met onze uitgebreide gids. Leer hoe u naamruimten importeert, externe HTML-documenten opent en meer.
@@ -71,6 +71,8 @@ Leer dynamische en webinhoud te maken met Aspose.HTML voor .NET. Versterk uw onl
 Leer Aspose.HTML voor .NET gebruiken. Importeer namespace, voeg HTML samen met XML en verbeter uw webontwikkelingsvaardigheden met deze uitgebreide gids.
 ### [Genereer XPS-documenten door XpsDevice in .NET met Aspose.HTML](./generate-xps-documents-by-xpsdevice/)
 Ontgrendel het potentieel van webontwikkeling met Aspose.HTML voor .NET. Maak, converteer en manipuleer eenvoudig HTML-documenten.
+### [Lettertype stijl toepassen via code – Snelle C#-gids](./apply-font-style-programmatically-quick-c-guide/)
+Leer hoe u lettertype stijlen programmatically toepast in C# met Aspose.HTML, inclusief voorbeeldcode en stapsgewijze uitleg.
 
 ## Conclusie
 
