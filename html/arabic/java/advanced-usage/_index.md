@@ -136,6 +136,9 @@ weight: 20
 ### [كيفية تشغيل JavaScript في Java – دليل كامل](./how-to-run-javascript-in-java-complete-guide/)
 تعلم كيفية تشغيل كود JavaScript داخل تطبيقات Java باستخدام Aspose.HTML for Java.
 
+### [كيفية ضبط DPI عند تحويل SVG إلى PNG باستخدام Aspose – دليل Java](./how-to-set-dpi-when-converting-svg-to-png-with-aspose-java-g/)
+تعلم كيفية ضبط DPI عند تحويل ملفات SVG إلى PNG باستخدام Aspose في بيئة Java.
+
 ---
 
 **آخر تحديث:** 2025-11-29  

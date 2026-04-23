@@ -128,6 +128,8 @@ Aspose.HTML ให้คุณแนบ `DomMutationObserver` ไปยังโ
 เรียนรู้วิธีปรับขนาดหน้า XPS ด้วย Aspose.HTML for Java ควบคุมขนาดผลลัพธ์ของเอกสาร XPS ของคุณได้อย่างง่ายดาย  
 ### [วิธีรัน JavaScript ใน Java – คู่มือฉบับสมบูรณ์](./how-to-run-javascript-in-java-complete-guide/)
 เรียนรู้วิธีฝังและรันโค้ด JavaScript ภายในแอปพลิเคชัน Java ด้วย Aspose.HTML อย่างละเอียด  
+### [วิธีตั้งค่า DPI เมื่อแปลง SVG เป็น PNG ด้วย Aspose – Java Guide](./how-to-set-dpi-when-converting-svg-to-png-with-aspose-java-g/)
+เรียนรู้วิธีตั้งค่า DPI ขณะแปลงไฟล์ SVG เป็น PNG ด้วย Aspose.HTML for Java เพื่อควบคุมความละเอียดของภาพ  
 
 ---
 

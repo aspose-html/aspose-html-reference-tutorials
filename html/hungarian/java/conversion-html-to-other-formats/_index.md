@@ -85,6 +85,8 @@ Alakítsa át az SVG grafikákat XPS formátumba a készülékek közötti konzi
 Ismerje meg, hogyan konvertálhatja a HTML‑t PDF‑re Java‑ban az Aspose.HTML használatával. Készítsen magas minőségű PDF‑eket HTML tartalmából könnyedén.
 ### [HTML átalakítása PDF-re – Lépésről‑lépésre útmutató oldalméret beállításokkal](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Ismerje meg, hogyan konvertálhatja a HTML‑t PDF‑re Java‑ban részletesen, oldalméret beállításokkal.
+### [HTML átalakítása PDF-re Java‑ban – Lépésről‑lépésre útmutató](./convert-html-to-pdf-in-java-step-by-step-guide/)
+Tanulja meg, hogyan konvertálhatja a HTML‑t PDF‑re Java‑ban részletes, lépésről‑lépésre útmutatóval.
 ### [HTML átalakítása MHTML-re](./convert-html-to-mhtml/)
 Könnyedén konvertálja a HTML‑t MHTML‑re az Aspose.HTML for Java segítségével. Kövesse lépésről‑lépésre útmutatónkat a hatékony HTML‑MHTML átalakításhoz.
 ### [HTML átalakítása XPS-re](./convert-html-to-xps/)
@@ -97,6 +99,11 @@ Ismerje meg, hogyan konvertálhatja az SVG‑t képekké Java‑ban az Aspose.HT
 Konvertálja az SVG‑t PDF‑re Java‑ban az Aspose.HTML‑el. Zökkenőmentes megoldás a magas minőségű dokumentumkonverzióhoz.
 ### [SVG átalakítása XPS-re](./convert-svg-to-xps/)
 Ismerje meg, hogyan konvertálhatja az SVG‑t XPS‑re az Aspose.HTML for Java segítségével. Egyszerű, lépésről‑lépésre útmutató a zökkenőmentes átalakításokhoz.
+### [HTML átalakítása PDF-re Java‑ban – Teljes útmutató](./convert-html-to-pdf-with-java-full-guide/)
+Ismerje meg a teljes folyamatot a HTML PDF‑re konvertálásához Java‑ban az Aspose.HTML segítségével, részletes példákkal és beállításokkal.
+### [JavaScript engedélyezése az Aspose HTML PDF konvertálásban (Java)](./how-to-enable-javascript-in-aspose-html-to-pdf-java/)
+### [HTML mentése PDF‑ként – Párhuzamos kötegelt konvertálás fix szálkészlettel Java](./save-html-as-pdf-parallel-batch-conversion-using-fixed-threa/)
+### [HTML mentése Markdown‑ként Java‑ban – Teljes lépésről‑lépésre útmutató](./save-html-as-markdown-in-java-complete-step-by-step-guide/)
 
 ## Gyakran Ismételt Kérdések
 

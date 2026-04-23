@@ -56,6 +56,8 @@ Découvrez comment charger des documents HTML à partir de flux à l'aide d'Aspo
 Apprenez à créer des documents HTML à partir de chaînes dans Aspose.HTML pour Java avec ce guide étape par étape.
 ### [Charger des documents HTML à partir d'une URL dans Aspose.HTML pour Java](./load-html-documents-from-url/)
 Découvrez comment charger facilement des documents HTML à partir d'une URL en Java avec Aspose.HTML. Tutoriel étape par étape inclus.
+### [Comment lire un fichier XHTML en Java – Exemple d'espace de noms XPath](./how-to-read-xhtml-file-in-java-xpath-namespace-example/)
+Apprenez à lire un fichier XHTML en Java en utilisant XPath avec gestion des espaces de noms. Guide étape par étape.
 ### [Générer de nouveaux documents HTML à l'aide d'Aspose.HTML pour Java](./generate-new-html-documents/)
 Apprenez à créer de nouveaux documents HTML à l'aide d'Aspose.HTML pour Java grâce à ce guide étape par étape simple. Commencez à générer du contenu HTML dynamique.
 ### [Gérer les événements de chargement de documents dans Aspose.HTML pour Java](./handle-document-load-events/)
@@ -66,6 +68,10 @@ Apprenez à créer et à gérer des documents SVG à l'aide d'Aspose.HTML pour J
 Apprenez à créer un environnement sécurisé pour manipuler du HTML en Java avec Aspose.HTML, guide complet pas à pas.
 ### [Comment interroger le HTML en Java – Tutoriel complet](./how-to-query-html-in-java-complete-tutorial/)
 Apprenez à interroger et extraire des données HTML en Java avec Aspose.HTML grâce à ce guide complet étape par étape.
+### [Comment rechercher du HTML – Guide Java pour trouver du texte](./how-to-search-html-java-guide-for-finding-text/)
+Apprenez à rechercher du texte dans des documents HTML en Java avec Aspose.HTML grâce à ce guide étape par étape.
+### [Comment utiliser querySelectorAll en Java – Filtrer par classe](./how-to-use-queryselectorall-in-java-filter-by-class/)
+Apprenez à utiliser querySelectorAll en Java pour sélectionner des éléments HTML en filtrant par classe, avec un guide étape par étape.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
