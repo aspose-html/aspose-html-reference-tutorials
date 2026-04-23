@@ -83,21 +83,23 @@ XPS هو صيغة الطباعة الخاصة بمايكروسوفت. باستخ
 
 ## التحويل - دروس تحويل HTML إلى صيغ أخرى
 ### [تحويل HTML إلى PDF](./convert-html-to-pdf/)
-تعلم كيفية تحويل HTML إلى PDF في Java باستخدام Aspose.HTML. أنشئ ملفات PDF عالية الجودة من محتوى HTML بسهولة.
 ### [تحويل HTML إلى MHTML](./convert-html-to-mhtml/)
-حوّل HTML إلى MHTML بسهولة باستخدام Aspose.HTML for Java. اتبع دليلنا خطوة بخطوة لتحويل HTML إلى MHTML بكفاءة.
 ### [تحويل HTML إلى XPS](./convert-html-to-xps/)
-تعلم كيفية تحويل HTML إلى XPS بسهولة باستخدام Aspose.HTML for Java. أنشئ مستندات متعددة المنصات بسهولة.
 ### [تحويل Markdown إلى HTML](./convert-markdown-to-html/)
-حوّل Markdown إلى HTML في Java بسلاسة مع Aspose.HTML for Java. اتبع دليلنا خطوة بخطوة لتبسيط احتياجات تحويل المستندات.
 ### [تحويل SVG إلى صورة](./convert-svg-to-image/)
-تعلم كيفية تحويل SVG إلى صور في Java باستخدام Aspose.HTML. دليل شامل لإنتاج مخرجات عالية الجودة.
 ### [تحويل SVG إلى PDF](./convert-svg-to-pdf/)
-حوّل SVG إلى PDF في Java باستخدام Aspose.HTML. حل سلس لتحويل المستندات بجودة عالية.
 ### [تحويل SVG إلى XPS](./convert-svg-to-xps/)
-تعلم كيفية تحويل SVG إلى XPS باستخدام Aspose.HTML for Java. دليل بسيط خطوة بخطوة لتحويلات سلسة.
+### [تحويل HTML إلى PDF في Java – دليل خطوة بخطوة](./convert-html-to-pdf-in-java-step-by-step-guide/)
+تعلم تحويل HTML إلى PDF في Java خطوة بخطوة باستخدام Aspose.HTML لإنشاء ملفات PDF عالية الجودة بسهولة.
 ### [تحويل HTML إلى PDF في Java – دليل خطوة بخطوة مع إعدادات حجم الصفحة](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 تعلم تحويل HTML إلى PDF في Java مع إعدادات حجم الصفحة خطوة بخطوة باستخدام Aspose.HTML.
+### [تحويل HTML إلى PDF باستخدام Java – دليل كامل](./convert-html-to-pdf-with-java-full-guide/)
+دليل شامل لتحويل HTML إلى PDF باستخدام Java مع Aspose.HTML، يغطي الإعدادات المتقدمة وأفضل الممارسات.
+### [كيفية تمكين JavaScript في Aspose HTML إلى PDF (Java)](./how-to-enable-javascript-in-aspose-html-to-pdf-java/)
+### [حفظ HTML كـ PDF – تحويل دفعي متوازي باستخدام مجموعة خيوط ثابتة في Java](./save-html-as-pdf-parallel-batch-conversion-using-fixed-threa/)
+تعلم كيفية حفظ صفحات HTML كملفات PDF باستخدام تحويل دفعي متوازي مع مجموعة خيوط ثابتة في Java.
+### [حفظ HTML كـ Markdown في Java – دليل خطوة بخطوة كامل](./save-html-as-markdown-in-java-complete-step-by-step-guide/)
+تعلم كيفية حفظ صفحات HTML كملفات Markdown في Java خطوة بخطوة باستخدام Aspose.HTML.
 
 ## الأسئلة المتكررة
 

@@ -56,6 +56,10 @@ Learn how to load HTML documents from streams using Aspose.HTML for Java. This g
 Learn how to create HTML documents from strings in Aspose.HTML for Java with this step-by-step guide.
 ### [How to Query HTML in Java – Complete Tutorial](./how-to-query-html-in-java-complete-tutorial/)
 Learn how to query HTML in Java using Aspose.HTML with this comprehensive step-by-step guide.
+### [How to Search HTML – Java Guide for Finding Text](./how-to-search-html-java-guide-for-finding-text/)
+Learn how to search HTML content in Java using Aspose.HTML, with step-by-step examples for finding specific text.
+### [How to Use querySelectorAll in Java – Filter by Class](./how-to-use-queryselectorall-in-java-filter-by-class/)
+Learn how to filter HTML elements by class using querySelectorAll in Aspose.HTML for Java with a clear step-by-step guide.
 ### [Create sandbox for HTML in Java – Step‑by‑Step Guide](./create-sandbox-for-html-in-java-step-by-step-guide/)
 Learn how to set up a secure HTML sandbox in Java using Aspose.HTML with this detailed step-by-step guide.
 ### [Load HTML Documents from URL in Aspose.HTML for Java](./load-html-documents-from-url/)
@@ -66,6 +70,9 @@ Learn how to create new HTML documents using Aspose.HTML for Java with this easy
 Learn to handle document load events in Aspose.HTML for Java with this step-by-step guide. Enhance your web applications.
 ### [Create and Manage SVG Documents in Aspose.HTML for Java](./create-manage-svg-documents/)
 Learn to create and manage SVG documents using Aspose.HTML for Java! This comprehensive guide covers everything from basic creation to advanced manipulation.
+### [How to Read XHTML File in Java – XPath Namespace Example](./how-to-read-xhtml-file-in-java-xpath-namespace-example/)
+Learn how to read an XHTML file in Java using XPath with namespace handling, step-by-step guide.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

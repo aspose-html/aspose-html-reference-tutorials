@@ -66,6 +66,12 @@ Impara a gestire gli eventi di caricamento dei documenti in Aspose.HTML per Java
 Impara a creare e gestire documenti SVG usando Aspose.HTML per Java! Questa guida completa copre tutto, dalla creazione di base alla manipolazione avanzata.
 ### [Come interrogare HTML in Java – Tutorial completo](./how-to-query-html-in-java-complete-tutorial/)
 Impara a eseguire query su documenti HTML in Java usando Aspose.HTML con questa guida passo‑passo completa.
+### [Come utilizzare querySelectorAll in Java – Filtrare per classe](./how-to-use-queryselectorall-in-java-filter-by-class/)
+Scopri come usare querySelectorAll in Java per filtrare elementi HTML per classe con Aspose.HTML.
+### [Come leggere un file XHTML in Java – esempio di XPath con namespace](./how-to-read-xhtml-file-in-java-xpath-namespace-example/)
+Scopri come leggere file XHTML in Java usando XPath con gestione dei namespace, con esempi pratici passo‑passo.
+### [Come cercare HTML – Guida Java per trovare testo](./how-to-search-html-java-guide-for-finding-text/)
+Impara a cercare testo nei documenti HTML in Java con Aspose.HTML, con esempi pratici passo‑passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

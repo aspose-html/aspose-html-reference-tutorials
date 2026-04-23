@@ -58,6 +58,8 @@ Lär dig hur du skapar HTML-dokument från strängar i Aspose.HTML för Java med
 Upptäck hur du enkelt laddar HTML-dokument från en URL i Java med Aspose.HTML. Steg-för-steg handledning ingår.
 ### [Hur du frågar HTML i Java – Komplett handledning](./how-to-query-html-in-java-complete-tutorial/)
 Lär dig hur du söker och extraherar data från HTML-dokument i Java med en komplett steg-för-steg-guide.
+### [Hur man söker i HTML – Java-guide för att hitta text](./how-to-search-html-java-guide-for-finding-text/)
+Lär dig hur du söker efter text i HTML-dokument med Java. En steg-för-steg-guide för effektiv textupptäckt.
 ### [Generera nya HTML-dokument med Aspose.HTML för Java](./generate-new-html-documents/)
 Lär dig hur du skapar nya HTML-dokument med Aspose.HTML för Java med denna enkla steg-för-steg-guide. Börja generera dynamiskt HTML-innehåll.
 ### [Hantera dokumentladdningshändelser i Aspose.HTML för Java](./handle-document-load-events/)
@@ -66,6 +68,10 @@ Lär dig att hantera dokumentladdningshändelser i Aspose.HTML för Java med den
 Lär dig att skapa och hantera SVG-dokument med Aspose.HTML för Java! Den här omfattande guiden täcker allt från grundläggande skapande till avancerad manipulation.
 ### [Skapa sandlåda för HTML i Java – Steg‑för‑steg‑guide](./create-sandbox-for-html-in-java-step-by-step-guide/)
 Lär dig hur du skapar en säker sandlåda för HTML i Java med vår detaljerade steg-för-steg‑guide.
+### [Hur man använder querySelectorAll i Java – Filtrera efter klass](./how-to-use-queryselectorall-in-java-filter-by-class/)
+Lär dig hur du använder querySelectorAll i Java för att filtrera element efter klass.
+### [Hur man läser XHTML-fil i Java – XPath‑namnutrymmesexempel](./how-to-read-xhtml-file-in-java-xpath-namespace-example/)
+Lär dig läsa en XHTML-fil i Java med XPath och hantera namnrymder i detta praktiska exempel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
