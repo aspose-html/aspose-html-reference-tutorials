@@ -10,16 +10,6 @@ url: /pl/java/configuring-environment/configure-runtime-service/
 weight: 14
 ---
 
- translate.
-
-Let's do.
-
-Also keep **bold** formatting.
-
-Proceed.
-
-Will produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

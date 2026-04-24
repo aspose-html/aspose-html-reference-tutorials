@@ -13,39 +13,39 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Jak edytować HTML przy użyciu Aspose.HTML dla Java
+# Użyj HTML, aby używać Aspose.HTML w Javie
 
 ## Wprowadzenie
 
-## Quick Answers
-- **Jaka biblioteka upraszcza edycję HTML w Javie?** Aspose.HTML for Java.  
-- **Czy mogę programowo dodawać klasy CSS?** Tak – użyj `add style element java` lub ustaw `className`.  
-- **Czy obsługiwany jest eksport do PDF?** Oczywiście; użyj `render html to pdf` lub `generate pdf from html`.  
-- **Czy potrzebna jest licencja do produkcji?** Licencja jest wymagana do pełnej funkcjonalności; dostępna jest darmowa wersja próbna.  
-- **Która wersja Javy jest kompatybilna?** Każdy JDK 11+ działa z najnowszym wydaniem Aspose.HTML.
+## Szybkie odpowiedzi
+- **Jaka biblioteka upraszcza edycja HTML w Javie?** Aspose.HTML dla Java.
+- **Jak programować, jak korzystać z CSS?** Ponadto – użyj `dodaj element stylu java` i użyj `className`.
+- **Czy jest eksport do PDF?** Oczywiście; `renderuj html do pdf' lub `wygeneruj pdf z html'.
+- **To jest licencja na produkt?** Licencja to licencja na produkt; dostępna jest wersja próbna.
+- **Która wersja Javy jest kompatybilna?** Każdy JDK11+ działa z najnowszą wersją Aspose.HTML.
 
-## What is “how to edit html” in the context of Java?
+## Co to jest „jak edytować HTML” w kontekście Javy?
 
-When we talk about **how to edit html** with Java, we refer to manipulating the DOM (Document Object Model) of an HTML file directly from Java code. Aspose.HTML provides a rich DOM API that mirrors the standard browser DOM, letting you create elements, set attributes, and inject CSS without ever opening a browser.
+Kiedy mówimy o **jak edytować HTML** w Javie, mamy na myśli manipulowanie DOM (Document Object Model) pliku HTML bezpośrednio z kodu Java. Aspose.HTML zapewnia bogate API DOM, które odzwierciedla standardowy DOM przeglądarki, umożliwiając tworzenie elementów, ustawianie atrybutów i wstrzykiwanie CSS bez konieczności otwierania przeglądarki.
 
-## Why use Aspose.HTML for Java to edit HTML?
+## Po co używać Aspose.HTML dla Java do edycji HTML?
 
-- **Pełnoprawne API DOM** – tworzenie, modyfikowanie lub usuwanie dowolnego węzła.  
-- **Renderowanie bez zależności** – konwertowanie HTML do PDF, PNG lub JPEG bez zewnętrznych narzędzi.  
-- **Wieloplatformowość** – działa na Windows, Linux i macOS.  
+- **Pełnoprawne API DOM** – tworzenie, modyfikowanie lub usuwanie dowolnego rozwiązania.
+- **Można wykonać renderowanie** – konwertuje HTML do formatu PDF, PNG i JPEG do konwersji.
+- **Wieloplatformowość** – dla systemów Windows, Linux i macOS.
 - **Optymalizacja wydajności** – idealne do przetwarzania wsadowego dużej liczby dokumentów.
 
-## Prerequisites
+## Warunki wstępne
 
-Zanim przejdziemy do kodu, upewnij się, że masz następujące elementy:
+Powinieneś to również zrobić, dodając następujące elementy:
 
-1. **Java Development Kit (JDK)** – pobierz ze [Oracle website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).  
-2. **Aspose.HTML for Java** – pobierz najnowszą bibliotekę z oficjalnej strony: możesz [download it here](https://releases.aspose.com/html/java/).  
-3. **IDE** – IntelliJ IDEA, Eclipse lub dowolny edytor, którego preferujesz.
+1. **Java Development Kit (JDK)** – pobierz ze [strona Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
+2. **Aspose.HTML dla Java** – teraz możesz pobrać bibliotekę ze swojej strony: możesz ją pobrać tutaj (https://releases.aspose.com/html/java/).
+3. **IDE** – IntelliJ IDEA, Eclipse lub dowolny edytor, którego wolisz.
 
-Gdy to będzie gotowe, możesz rozpocząć edycję HTML.
+Gdy będzie gotowe, możesz przygotować edycję HTML.
 
-## Import Packages
+## Importuj pakiety
 
 Dodaj zależność Aspose.HTML do swojego projektu. Jeśli używasz Maven, wstaw następujący fragment do swojego `pom.xml`:
 
@@ -59,9 +59,9 @@ Dodaj zależność Aspose.HTML do swojego projektu. Jeśli używasz Maven, wstaw
 
 W przypadku ręcznej konfiguracji po prostu umieść pobrane pliki JAR na classpathie projektu.
 
-## Step‑by‑Step Guide
+## Przewodnik krok po kroku
 
-### Step 1: Create an Instance of an HTML Document
+### Krok 1: Utwórz instancję dokumentu HTML
 
 ```java
 com.aspose.html.HTMLDocument document = new com.aspose.html.HTMLDocument();
@@ -69,7 +69,7 @@ com.aspose.html.HTMLDocument document = new com.aspose.html.HTMLDocument();
 
 Tworzy to nową strukturę DOM, którą możesz modyfikować.
 
-### Step 2: Add a Style Element (add style element java)
+### Krok 2: Dodaj element stylu (dodaj element stylu Java)
 
 ```java
 com.aspose.html.dom.Element style = document.createElement("style");
@@ -78,7 +78,7 @@ style.setTextContent(".gr { color: green }");
 
 Tutaj definiujemy regułę CSS, która zostanie zastosowana do każdego elementu z klasą **gr**.
 
-### Step 3: Append the Style to the Document Header
+### Krok 3: Dodaj styl do nagłówka dokumentu
 
 ```java
 com.aspose.html.dom.Element head = document.getElementsByTagName("head").get_Item(0);
@@ -87,7 +87,7 @@ head.appendChild(style);
 
 Umieszczenie tagu `<style>` wewnątrz `<head>` zapewnia globalne zastosowanie reguły.
 
-### Step 4: Create a Paragraph Element (add css class java)
+### Krok 4: Utwórz element akapitu (dodaj klasę CSS Java)
 
 ```java
 com.aspose.html.HTMLParagraphElement p = (com.aspose.html.HTMLParagraphElement) document.createElement("p");
@@ -96,7 +96,7 @@ p.setClassName("gr");
 
 Tworzymy element `<p>` i przypisujemy mu klasę CSS **gr**, którą zdefiniowaliśmy wcześniej.
 
-### Step 5: Create a Text Node
+### Krok 5: Utwórz węzeł tekstowy
 
 ```java
 com.aspose.html.dom.Text text = document.createTextNode("Hello World!!");
@@ -105,7 +105,7 @@ p.appendChild(text);
 
 Węzeł tekstowy dostarcza widoczną treść dla paragrafu.
 
-### Step 6: Append the Paragraph to the Document Body
+### Krok 6: Dodaj akapit do treści dokumentu
 
 ```java
 document.getBody().appendChild(p);
@@ -113,7 +113,7 @@ document.getBody().appendChild(p);
 
 Teraz paragraf staje się częścią ciała strony, gotowy do renderowania.
 
-### Step 7: Save the HTML Document
+### Krok 7: Zapisz dokument HTML
 
 ```java
 document.save("using-dom.html");
@@ -121,7 +121,7 @@ document.save("using-dom.html");
 
 Uruchomienie tego kodu generuje plik `using-dom.html`, który możesz otworzyć w dowolnej przeglądarce.
 
-### Step 8: Render the Document to PDF (html to pdf conversion)
+### Krok 8: Renderuj dokument do formatu PDF (konwersja HTML do PDF)
 
 ```java
 com.aspose.html.rendering.pdf.PdfDevice device = new com.aspose.html.rendering.pdf.PdfDevice("using-dom.pdf");
@@ -130,39 +130,39 @@ document.renderTo(device);
 
 Ten krok **render html to pdf**, tworząc dopracowaną wersję PDF HTML, który właśnie stworzyłeś.
 
-## Common Issues and Solutions
+## Typowe problemy i rozwiązania
 
 | Problem | Powód | Rozwiązanie |
-|-------|--------|-----|
-| **NullPointerException przy `head`** | Dokument może nie mieć elementu `<head>` jeśli został utworzony pusty. | Ręcznie utwórz `<head>` przed dodaniem stylu, lub użyj `document.appendChild(document.createElement("head"))`. |
-| **PDF jest pusty** | Urządzenie renderujące nie zostało poprawnie zainicjowane. | Sprawdź, czy ścieżka wyjściowa jest zapisywalna i nazwa pliku kończy się na `.pdf`. |
-| **CSS nie zastosowany** | Niepasująca nazwa klasy. | Upewnij się, że `setClassName` odpowiada selektorowi zdefiniowanemu w bloku `<style>` (`.gr`). |
+|-------|--------|--------|
+| **NullPointerException przy `head`** | Dokument może nie mieć elementu `<head>` jeśli został wprowadzony pusty. | Na koniec dodaj `<head>` i dodaj `document.appendChild(document.createElement("head"))`. |
+| **PDF jest pusty** | Urządzenie renderujące nie odłączne zabezpieczające. | Sprawdź, ta ścieżka wyjściowa to zapisywalna i nazwa pliku kończy się na `.pdf`. |
+| **CSS zaprzecza, że ​​doszło** | Niepasująca nazwa klasy. | efekt się, że `setClassName` odpowiada selektorowi złożonemu w bloku `<style>` (`.gr`). |
 
-## Frequently Asked Questions
+## Często zadawane pytania
 
-**P: Czym jest Aspose.HTML for Java?**  
-O: Aspose.HTML for Java to potężna biblioteka do tworzenia, edytowania i konwertowania dokumentów HTML bezpośrednio z aplikacji Java.
+**P: Czym jest Aspose.HTML dla Java?**
+O: Aspose.HTML for Java do potężnej biblioteki do tworzenia, edytowania i konwertowania dokumentów HTML bezpośrednio z aplikacji Java.
 
-**P: Czy mogę konwertować HTML do innych formatów?**  
-O: Tak, możesz wykonać **html to pdf conversion**, a także renderować do obrazów (PNG, JPEG) oraz nawet EPUB.
+**P: Jak skonfigurować HTML w dowolnym formacie?**
+O: Teraz możesz użyć **konwersji HTML na PDF**, a następnie renderować (PNG, JPEG) lub teraz EPUB.
 
-**P: Czy Aspose.HTML jest darmowy?**  
-O: Dostępna jest darmowa wersja próbna do oceny, ale do użytku produkcyjnego wymagana jest licencja komercyjna.
+**P: Czy Aspose.HTML jest darmowy?**
+O: Dostępna i est wersja próbna do oceny, ale do użytku produkcyjnego wymagana jest est licencja komercyjna.
 
-**P: Gdzie mogę znaleźć wsparcie dla Aspose.HTML?**  
-O: Wsparcie znajdziesz na [forum Aspose](https://forum.aspose.com/c/html/29).
+**P: Gdzie mogę znaleźć wsparcie dla Aspose.HTML?**
+O: Wsparcie na [forum Aspose](https://forum.aspose.com/c/html/29).
 
-**P: Jak uzyskać tymczasową licencję dla Aspose.HTML?**  
-O: Tymczasową licencję możesz uzyskać na [stronie zakupu Aspose](https://purchase.aspose.com/temporary-license/).
+**P: Jaka jest licencja Aspose.HTML?**
+O: Tymczasową licencją możesz uzyskać na [stronę zakupu Aspose](https://purchase.aspose.com/temporary-license/).
 
-## Conclusion
+## Podsumowanie
 
-Teraz opanowałeś **jak edytować HTML** przy użyciu Aspose.HTML dla Java — od wstrzyknięcia elementu stylu java i dodania klasy CSS java po renderowanie końcowego dokumentu jako PDF. Te techniki pozwalają generować dynamiczną treść webową, automatyzować tworzenie raportów i integrować konwersję HTML‑do‑PDF w dowolnym procesie opartym na Javie.
+Teraz możesz edytować kod HTML**, używając Aspose.HTML w Javie — oraz wykorzystując elementy CSSjava i renderując go do formatu PDF. Technologia ta może generować dynamiczne dane, automatycznie generować dwa raporty oraz integrować się z HTML-do-PDF i przetwarzać je dla Javy.
 
 ---
 
-**Ostatnia aktualizacja:** 2026-02-10  
-**Testowano z:** Aspose.HTML for Java 24.11 (najnowsza w momencie pisania)  
+**Aktualizacja:** 2026-02-10
+**Testowano z:** Aspose.HTML dla Java 24.11 (najnowsza w momencie pisania)
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -9,11 +9,6 @@ url: /hi/java/editing-html-documents/advanced-html-document-tree-editing/
 weight: 11
 ---
 
-.
-
-Also keep table formatting.
-
-Let's write.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

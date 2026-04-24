@@ -9,26 +9,6 @@ url: /ja/java/editing-html-documents/advanced-html-document-tree-editing/
 weight: 11
 ---
 
-, tables.
-
-Need to translate table headers: Issue, Reason, Fix -> "問題", "原因", "対策" maybe. But keep as is? Should translate. Yes.
-
-Also FAQ questions and answers.
-
-Also "Last Updated", "Tested With", "Author". Translate.
-
-But keep dates.
-
-Also keep code block placeholders unchanged.
-
-Also keep markdown links unchanged.
-
-Let's produce final content.
-
-Be careful to keep markdown formatting.
-
-Now produce translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

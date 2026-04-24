@@ -9,9 +9,7 @@ url: /it/java/editing-html-documents/advanced-html-document-tree-editing/
 weight: 11
 ---
 
-.
-
-Let's produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

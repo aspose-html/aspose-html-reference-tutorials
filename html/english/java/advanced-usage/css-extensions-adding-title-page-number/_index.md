@@ -1,5 +1,5 @@
 ---
-title: How to Convert HTML to PDF Java: Set Page Margins with Aspose.HTML
+title: How to Convert HTML to PDF Java - Set Page Margins with Aspose.HTML
 linktitle: CSS Extensions - Adding Title and Page Number
 second_title: Java HTML Processing with Aspose.HTML
 description: Learn how to convert HTML to PDF Java with Aspose.HTML, set page margins, add page numbers and headers/footers efficiently.
@@ -158,13 +158,6 @@ You’ve now mastered **how to convert HTML to PDF Java** using Aspose.HTML, and
 
 If you run into any challenges, the official [Aspose.HTML for Java documentation](https://reference.aspose.com/html/java/) and the [Aspose support forum](https://forum.aspose.com/) are excellent places to get help.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-02-10  
@@ -172,3 +165,10 @@ If you run into any challenges, the official [Aspose.HTML for Java documentation
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

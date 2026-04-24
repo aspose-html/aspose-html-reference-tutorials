@@ -9,22 +9,6 @@ url: /sv/java/editing-html-documents/advanced-html-document-tree-editing/
 weight: 11
 ---
 
-_0}}. Keep as is.
-
-Also there are inline code snippets like `add style element java`, `className`, `render html to pdf`, etc. Keep them unchanged.
-
-But some text includes "add style element java" with non-breaking space? We'll keep same.
-
-Also "using-dom.html". Keep.
-
-Now produce final content.
-
-Let's translate each paragraph.
-
-I'll write Swedish.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

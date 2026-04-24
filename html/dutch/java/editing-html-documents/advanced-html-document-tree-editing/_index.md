@@ -9,23 +9,7 @@ url: /nl/java/editing-html-documents/advanced-html-document-tree-editing/
 weight: 11
 ---
 
-: translate all text content naturally to Dutch, keep technical terms in English. "how to edit HTML" is phrase but maybe keep English. We'll keep as is.
-
-Then horizontal line "---"
-
-Then "**Last Updated:** 2026-02-10" stays same.
-
-"**Tested With:** Aspose.HTML for Java 24.11 (latest at time of writing)" stays.
-
-"**Author:** Aspose" stays.
-
-Then closing shortcodes.
-
-Also there is a backtop button shortcode after.
-
-Make sure to keep all shortcodes exactly.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

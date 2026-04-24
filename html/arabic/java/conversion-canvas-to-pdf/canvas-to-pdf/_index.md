@@ -9,10 +9,6 @@ url: /ar/java/conversion-canvas-to-pdf/canvas-to-pdf/
 weight: 10
 ---
 
- careful to preserve markdown formatting exactly.
-
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

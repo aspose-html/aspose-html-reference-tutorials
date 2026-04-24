@@ -14,13 +14,13 @@ weight: 14
 
 # 如何在 Aspose.HTML for Java 运行时服务中设置超时
 
-## Introduction
+## 簡介
 如果您正在寻找在使用 Aspose.HTML for Java 时 **how to set timeout** 脚本的方法，您来对地方了。控制脚本执行不仅可以防止无限循环，还能帮助您更快地 **convert html to png**，并保持应用程序的响应性。在本教程中，我们将逐步演示如何配置 Runtime Service、限制脚本执行时间，最终从 HTML 生成 PNG 图像而不会导致程序卡死。
 
 ## 如何在 Aspose.HTML Runtime Service 中设置超时
 了解 Runtime Service 的目的可以更容易看出超时为何必不可少。该服务充当客户端代码的沙箱，使您能够在 JavaScript 消耗所有 CPU 周期之前停止失控的脚本。通过设置超时，您可以保护服务器免受拒绝服务（DoS）攻击，并确保 **html to png conversion** 在可预期的时间内完成。
 
-## Quick Answers
+## 快速解答
 - **Runtime Service 的作用是什么？** 它允许您在处理 HTML 时控制脚本执行时间并管理资源。  
 - **如何为 JavaScript 设置超时？** 使用 `runtimeService.setJavaScriptTimeout(TimeSpan.fromSeconds(...))`。  
 - **我能防止无限循环吗？** 可以——超时会停止超过设定限制的循环。  

@@ -9,11 +9,7 @@ url: /sv/java/conversion-canvas-to-pdf/canvas-to-pdf/
 weight: 10
 ---
 
- original.
-
-The code block placeholders are not fenced code blocks; they are placeholders. The requirement says preserve all code blocks: but there are none except placeholders. So fine.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
