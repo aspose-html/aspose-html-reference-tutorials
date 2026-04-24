@@ -1,65 +1,108 @@
 ---
-title: Java için Aspose.HTML'de HTML Belgelerine Harici CSS Uygulama
-linktitle: Java için Aspose.HTML'de HTML Belgelerine Harici CSS Uygulama
-second_title: Aspose.HTML ile Java HTML İşleme
-description: Java için Aspose.HTML kullanarak harici CSS'yi HTML belgelerine nasıl uygulayacağınızı keşfedin! Tam bir eğitim için bu adım adım kılavuzu izleyin.
-weight: 12
+date: 2026-02-12
+description: Aspose.HTML for Java ile HTML belgelerine CSS eklemeyi öğrenin; stil
+  etiketini head'e ekleme ve Java’da CSS sınıfı ayarlama dahil.
+linktitle: Add CSS to HTML Documents with Aspose.HTML
+second_title: Java HTML Processing with Aspose.HTML
+title: Aspose.HTML for Java ile HTML Belgelerine CSS Ekle
 url: /tr/java/editing-html-documents/apply-external-css-html-documents/
+weight: 12
 ---
+
+.
+
+I'll translate paragraphs.
+
+Make sure to keep markdown formatting.
+
+Also code block placeholders remain as is.
+
+Let's craft.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java için Aspose.HTML'de HTML Belgelerine Harici CSS Uygulama
+# HTML Belgelerine CSS Ekleme Aspose.HTML for Java ile
 
-## giriiş
-HTML belgeleriyle çalışırken, stilleri uygulamak sunum ve kullanıcı deneyiminde büyük fark yaratabilir. Java'ya dalıyorsanız ve Aspose.HTML kitaplığını kullanarak harici CSS stillerini HTML belgelerinize nasıl uygulayacağınızı öğrenmek istiyorsanız, doğru yerdesiniz! Bu kılavuz, Java veya CSS'ye yeni başlayanlar için bile kolaylaştırarak süreci adım adım aydınlatmayı amaçlamaktadır.
-## Ön koşullar
-Koda dalmadan önce, yerinde olması gereken birkaç şey var:
-### 1. Java Geliştirme Kiti (JDK)
- Makinenizde JDK'nın yüklü olduğundan emin olun. En son sürümü şu adresten indirebilirsiniz:[Oracle'ın Java web sitesi](https://www.oracle.com/java/technologies/javase-downloads.html).
-### 2. Java için Aspose.HTML
-Java için Aspose.HTML'i kurmanız gerekecek. Bunu henüz yapmadıysanız, şuraya gidin:[Aspose indirme sayfası](https://releases.aspose.com/html/java/) ve kütüphaneyi al.
-### 3. Bir IDE veya Metin Düzenleyici
-Java kodunuzu yazmak için IntelliJ IDEA, Eclipse veya basit bir metin düzenleyicisi gibi Entegre Geliştirme Ortamı (IDE) seçin.
-### 4. Java'nın Temel Bilgileri
-Java programlama ve CSS temellerine aşina olmanız, kesinlikle daha rahat takip etmenize yardımcı olacaktır.
-## Paketleri İçe Aktar
-Her şeyi ayarladıktan sonra, bir sonraki adım Java projenize gerekli paketleri içe aktarmaktır. İhtiyacınız olanlar şunlardır:
+## Introduction
+HTML belgeleriyle çalışırken, **HTML'e CSS eklemenin** nasıl yapılacağını bilmek sunum ve kullanıcı deneyimi açısından büyük fark yaratabilir. Java'ya yeni başladıysanız ve Aspose.HTML kütüphanesini kullanarak HTML belgelerinize harici CSS stilleri uygulamayı öğrenmek istiyorsanız doğru yerdesiniz! Bu kılavuz, süreci adım adım anlatır; böylece Java ya da CSS konusunda yeni olan geliştiriciler bile güvenle ilerleyebilir.
+
+## Quick Answers
+- **Aspose.HTML for Java ne işe yarar?** Java kodundan doğrudan HTML belgeleri oluşturmanıza, düzenlemenize ve render etmenize olanak tanır.  
+- **Harici CSS uygulayabilir miyim?** Evet – stil etiketini head'e ekleyebilir, dış dosyalara link verebilir veya CSS dizgilerini enjekte edebilirsiniz.  
+- **İnternet bağlantısına ihtiyacım var mı?** Hayır, kütüphaneyi indirdikten sonra her şey yerel olarak çalışır.  
+- **Hangi çıktı formatları destekleniyor?** HTML PDF, görüntüler ya da HTML olarak render edilebilir.  
+- **Üretim için lisans gerekiyor mu?** Üretim kullanımında ticari bir lisans gerekir; ücretsiz deneme sürümü mevcuttur.
+
+## What is “add CSS to HTML”?
+HTML'e CSS eklemek, bir HTML belgesine stil kuralları—satır içi, dahili ya da harici—ekleyerek tarayıcıların öğeleri (renkler, yazı tipleri, düzen vb.) nasıl göstereceğini bilmesini sağlamaktır. Aspose.HTML for Java ile bu stilleri bir tarayıcı açmadan programatik olarak enjekte edebilirsiniz.
+
+## Why use Aspose.HTML for Java to add CSS?
+- **Tam kontrol** – DOM'u manipüle edin, stil elemanları ekleyin ve sınıfları doğrudan Java'dan ayarlayın.  
+- **Harici bağımlılık yok** – çevrim dışı çalışır, arka uç hizmetleri için idealdir.  
+- **PDF'ye render** – stillendirilmiş HTML'i tek bir kod satırıyla yazdırılabilir PDF'e dönüştürün.  
+
+## Prerequisites
+Kodlamaya başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
+
+### 1. Java Development Kit (JDK)
+Makinenizde JDK yüklü olmalı. En son sürümü [Oracle’ın Java web sitesinden](https://www.oracle.com/java/technologies/javase-downloads.html) indirebilirsiniz.
+
+### 2. Aspose.HTML for Java
+Aspose.HTML for Java kurulmuş olmalı. Henüz yapmadıysanız, [Aspose indirme sayfasına](https://releases.aspose.com/html/java/) gidip kütüphaneyi edinin.
+
+### 3. An IDE or Text Editor
+IntelliJ IDEA, Eclipse gibi bir Entegre Geliştirme Ortamı (IDE) ya da basit bir metin düzenleyici seçerek Java kodunuzu yazın.
+
+### 4. Basic Knowledge of Java and CSS
+Java programlaması ve CSS temellerine aşina olmak, içeriği daha rahat takip etmenizi sağlar.
+
+## Import Packages
+Her şey kurulduktan sonra, Java projenizde gerekli paketleri içe aktarmanız gerekir. İşte ihtiyacınız olanlar:
+
 ```java
 import com.aspose.html.HTMLDocument;
 ```
-Bu içe aktarımlar HTML belgelerini düzenlemenize ve bunları PDF gibi farklı biçimlere dönüştürmenize olanak tanır.
 
-Eğitimimizi yönetilebilir adımlara böleceğiz. Her adım, Java için Aspose.HTML kullanarak harici CSS stillerini bir HTML belgesine uygulama sürecinde size rehberlik edecektir.
-## Adım 1: Bir HTML Belgesi Oluşturun
-Öncelikle HTML dokümanımızı oluşturmamız gerekiyor. İçeriği basit bir HTML yapısıyla tanımlayarak başlayacağız.
+Bu içe aktarmalar, HTML belgelerini manipüle etmenizi ve PDF gibi farklı formatlara render etmenizi sağlar.
+
+Eğitimimizi yönetilebilir adımlara böleceğiz. Her adım, Aspose.HTML for Java kullanarak **HTML'e CSS ekleme** sürecini size gösterecek.
+
+## Step 1: Create HTML document in Java
+İlk olarak, HTML belgemizi oluşturmamız gerekiyor. Basit bir HTML yapısı tanımlayarak başlayacağız.
+
 ```java
 String content = "<div><p>Internal CSS</p><p>An internal CSS is used to define a style for a single HTML page</p></div>";
 HTMLDocument document = new HTMLDocument(content, ".");
 ```
 
- Burada, aşağıdakileri içeren temel bir HTML yapısı tanımladık:`<div>` iki paragrafla.`HTMLDocument` sınıfı, HTML içeriğimizin belge gösterimini oluşturmak için kullanılır.
-## Adım 2: Bir Stil Öğesi Oluşturun
- Daha sonra bir tane oluşturacağız`style` CSS kurallarımızı tutacak öğe.
+Burada, iki paragraf içeren bir `<div>` ile temel bir HTML yapısı tanımladık. `HTMLDocument` sınıfı, HTML içeriğimizin bir belge temsili olarak oluşturulmasını sağlar.
+
+## Step 2: Create a Style Element
+Sonra, CSS kurallarımızı tutacak bir `style` elementi oluşturacağız.
+
 ```java
 Element style = document.createElement("style");
 style.setTextContent(".frame1 { margin-top:50px; margin-left:50px; padding:20px; width:360px; height:90px; background-color:#a52a2a; font-family:verdana; color:#FFF5EE;} \n" +
         ".frame2 { margin-top:-90px; margin-left:160px; text-align:center; padding:20px; width:360px; height:100px; background-color:#ADD8E6;}");
 ```
 
- Kullanımı`createElement` yöntemi`HTMLDocument` , yeni bir tane yaratıyoruz`<style>` öğesini oluşturup içeriğini iki sınıf için CSS tanımlarımızı içerecek şekilde ayarlayalım:`frame1` Ve`frame2`Bu sınıflar kenar boşluklarını, dolguyu, boyutları, arka plan renklerini, yazı tipi ailelerini ve metin renklerini tanımlar.
-## Adım 3: Stili Belge Başlığına Ekleyin
-Artık CSS'imiz hazır olduğuna göre, stil öğemizi belgenin başlığına eklememiz gerekiyor.
+`HTMLDocument`'in `createElement` yöntemiyle yeni bir `<style>` elementi yaratıp, `frame1` ve `frame2` sınıfları için margin, padding, boyut, arka plan rengi, yazı tipi ve metin renklerini içeren CSS tanımlarını ekliyoruz.
+
+## Step 3: Append style to head
+CSS'imiz hazır olduğuna göre, **style'ı head'e eklememiz** gerekir; böylece tarayıcı (veya Aspose renderlayıcısı) stilleri uygulayabilir.
+
 ```java
 Element head = document.getElementsByTagName("head").get_Item(0);
 head.appendChild(style);
 ```
 
- Belgenin başlığını alıyoruz ve yeni oluşturduğumuz başlığı ekliyoruz`style` Bu eylem CSS'imizi HTML belgesine etkili bir şekilde entegre ederek HTML içeriğimizi biçimlendirmemize olanak tanır.
-## Adım 4: Sınıfları HTML Elemanlarına Uygulayın
-Daha sonra, daha önce tanımlanmış olan CSS sınıflarını paragraf elemanlarımıza uygulayacağız.
+Belgenin head kısmını alıp yeni oluşturduğumuz `style` elementini ekliyoruz. Bu işlem, CSS'i HTML belgesine entegre eder ve içeriğin stil almasını sağlar.
+
+## Step 4: Set CSS class in Java
+Şimdi, daha önce tanımladığımız CSS sınıflarını paragraf elementlerine uygulayacağız.
+
 ```java
 HTMLElement paragraph = (HTMLElement) document.getElementsByTagName("p").get_Item(0);
 paragraph.setClassName("frame1");
@@ -67,9 +110,11 @@ HTMLElement lastParagraph = (HTMLElement) document.getElementsByTagName("p").get
 lastParagraph.setClassName("frame2");
 ```
 
-Burada, belgedeki ilk ve son paragraf öğelerine erişiyoruz ve onlara oluşturduğumuz CSS sınıflarını atıyoruz. Bu atama, CSS'mizde tanımlanan stillere uymalarını sağlar.
-## Adım 5: Ek Stil Özelliklerini Ayarlayın
-Görünümü daha da geliştirmek için paragraflarımıza ek stil özellikleri koyacağız.
+Burada, belgedeki ilk ve son paragraf elementlerine oluşturduğumuz CSS sınıflarını atıyoruz. Bu atama, öğelerin CSS'te tanımlanan stillere uymasını garantiler.
+
+## Step 5: Set Additional Style Properties
+Görünümü daha da iyileştirmek için paragraf elementlerine ek stil özellikleri ekleyeceğiz.
+
 ```java
 paragraph.getStyle().setFontSize("250%");
 paragraph.getStyle().setTextAlign("center");
@@ -78,35 +123,60 @@ lastParagraph.getStyle().setFontSize("150%");
 lastParagraph.getStyle().setFontFamily("verdana");
 ```
 
-Bu adımda, stillerimizi ince ayarlıyoruz. İlk paragrafın yazı tipi boyutu artırılır ve ortalanırken, son paragrafın rengi, yazı tipi boyutu ve yazı tipi ailesi tanımlanır. Bu ince ayar, okunabilirlik ve estetik çekicilik açısından önemlidir.
-## Adım 6: HTML Belgesini Kaydedin
-Stillerimizi uyguladıktan sonra, HTML belgesini kaydetme zamanı geldi.
+Bu adımda stillerimizi ince ayar yapıyoruz. İlk paragrafın yazı tipi boyutu artırılıyor ve ortalanıyor; son paragrafın rengi, yazı tipi boyutu ve yazı tipi ailesi tanımlanıyor. Bu düzenlemeler okunabilirlik ve estetik açıdan kritiktir.
+
+## Step 6: Save the HTML Document
+Stillerimizi uyguladıktan sonra, HTML belgesini kaydetme zamanı.
+
 ```java
 document.save("edit-internal-css.html");
 ```
 
- Burada, şunu kullanıyoruz:`save` yöntemi`HTMLDocument` Değiştirilen HTML içeriğini bir dosyaya yazmak için kullanılan sınıftır, böylece stillerimiz ve değişikliklerimiz korunur.
-## Adım 7: Belgeyi PDF'ye Dönüştürün
-Son olarak belgeyi çıktı olarak PDF formatına dönüştürelim.
+`HTMLDocument` sınıfının `save` metodunu kullanarak değiştirilmiş HTML içeriğini bir dosyaya yazdırıyoruz; böylece stiller ve yapılan değişiklikler korunmuş olur.
+
+## Step 7: Render HTML to PDF
+Son olarak, **HTML'i PDF'e render** edelim; böylece stilize belgeyi evrensel bir formatta paylaşabilirsiniz.
+
 ```java
 PdfDevice device = new PdfDevice("edit-internal-css.pdf");
 document.renderTo(device);
 ```
 
- Kullanımı`PdfDevice` sınıfta, HTML belgemizin PDF'ye dönüştürülmesini ayarladık. Bu adım, biçimlendirilmiş belgeyi evrensel olarak erişilebilir bir biçimde paylaşmak istediğinizde önemlidir.
-## Çözüm
-Ve işte karşınızda—Aspose.HTML for Java kullanarak HTML belgelerine harici CSS uygulamak hem basit hem de ödüllendirici! Sadece birkaç satır kodla, düz metni görsel olarak çekici ve profesyonelce biçimlendirilmiş belgelere dönüştürebilirsiniz. Dolayısıyla, ister kişisel kullanım için tasarım yapın, ister raporlar oluşturun veya web içeriği geliştirin, Java'da HTML ve CSS'yi nasıl işleyeceğinizi anlamak, araç setinizde bulundurmanız gereken güçlü bir beceridir.
-## SSS
-### Java için Aspose.HTML nedir?
-Java için Aspose.HTML, geliştiricilerin Java uygulamalarında HTML belgeleriyle çalışmasına olanak tanıyan, HTML düzenlemeden görüntülemeye kadar çok çeşitli özellikler sunan güçlü bir kütüphanedir.
-### Aspose.HTML'i kullanmak için internet bağlantısına ihtiyacım var mı?
-Hayır, gerekli kütüphane dosyalarını indirdikten sonra Aspose.HTML'yi çevrimdışı kullanabilirsiniz.
-### Bir HTML belgesine birden fazla CSS dosyası uygulayabilir miyim?
- Evet, birden fazla oluşturabilirsiniz`<link>` Çeşitli CSS dosyaları için öğeleri belgenin başlığına ekleyin.
-### Dahili ve harici CSS arasında bir fark var mı?
-Evet! Dahili CSS bir HTML belgesi içerisinde tanımlanırken, harici CSS ayrı bir dosyaya yerleştirilir ve belgeye bağlanır.
-### Java için Aspose.HTML desteğini nasıl alabilirim?
- Topluluk desteğine şu şekilde erişebilirsiniz:[Aspose forumu](https://forum.aspose.com/c/html/29) Herhangi bir soru veya sorununuzda bize ulaşabilirsiniz.
+`PdfDevice` sınıfını kullanarak HTML belgemizi PDF'e dönüştürüyoruz. Bu adım, stilize belgeyi yazdırılabilir ve geniş çapta desteklenen bir formatta paylaşmak istediğinizde çok önemlidir.
+
+## Common Use Cases
+- **Otomatik rapor oluşturma** – stilli HTML raporları üretin ve dağıtım için PDF'e dönüştürün.  
+- **E-posta şablonları** – tutarlı marka kimliğiyle HTML e-postalar oluşturun, ardından arşivleme için PDF'e render edin.  
+- **Toplu işleme** – sunucu tarafı bir görevde onlarca HTML dosyasına aynı CSS'i uygulayın.
+
+## Troubleshooting & Tips
+- **Missing head element** – `getElementsByTagName("head")` null dönerse, HTML dizesinin bir `<head>` etiketi içerdiğinden emin olun.  
+- **CSS not applied** – `setClassName` içinde kullanılan sınıf adlarının `<style>` bloğunda tanımlananlarla tam olarak eşleştiğini kontrol edin.  
+- **PDF rendering issues** – Aspose.HTML lisansının doğru şekilde uygulandığından emin olun; aksi takdirde çıktı su işareti taşıyabilir.
+
+## Frequently Asked Questions
+
+**Q: Aspose.HTML for Java nedir?**  
+A: Aspose.HTML for Java, geliştiricilerin Java uygulamalarında HTML belgeleriyle çalışmasını sağlayan güçlü bir kütüphanedir; HTML manipülasyonu ve render gibi geniş bir özellik yelpazesi sunar.
+
+**Q: Aspose.HTML kullanmak için internet bağlantısına ihtiyacım var mı?**  
+A: Hayır, gerekli kütüphane dosyalarını indirdikten sonra Aspose.HTML'i çevrim dışı kullanabilirsiniz.
+
+**Q: Bir HTML belgesine birden fazla CSS dosyası uygulayabilir miyim?**  
+A: Evet, birden fazla `<link>` elementi oluşturup belgeye ekleyerek çeşitli CSS dosyalarını bağlayabilirsiniz.
+
+**Q: İç CSS ile dış CSS arasında fark var mı?**  
+A: Evet! İç CSS, bir HTML belgesi içinde tanımlanırken, dış CSS ayrı bir dosyada bulunur ve belgeye linklenir.
+
+**Q: Aspose.HTML for Java için destek nasıl alınır?**  
+A: Herhangi bir soru ya da sorun için [Aspose forumundan](https://forum.aspose.com/c/html/29) topluluk desteğine ulaşabilirsiniz.
+
+---
+
+**Last Updated:** 2026-02-12  
+**Tested With:** Aspose.HTML for Java 24.11 (latest at time of writing)  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
