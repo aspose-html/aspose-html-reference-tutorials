@@ -58,6 +58,8 @@ url: /ar/java/creating-managing-html-documents/
 اكتشف كيفية تحميل مستندات HTML بسهولة من عنوان URL في Java باستخدام Aspose.HTML. يتضمن البرنامج التعليمي خطوة بخطوة.
 ### [إنشاء مستندات HTML جديدة باستخدام Aspose.HTML لـ Java](./generate-new-html-documents/)
 تعرف على كيفية إنشاء مستندات HTML جديدة باستخدام Aspose.HTML for Java من خلال هذا الدليل السهل خطوة بخطوة. ابدأ في إنشاء محتوى HTML ديناميكي.
+### [تحويل Markdown إلى HTML في Java – دليل سريع باستخدام Aspose](./convert-markdown-to-html-in-java-quick-guide-with-aspose/)
+تعلم كيفية تحويل ملفات Markdown إلى HTML في Java باستخدام Aspose.HTML في دليل سريع خطوة بخطوة.
 ### [التعامل مع أحداث تحميل المستندات في Aspose.HTML لـ Java](./handle-document-load-events/)
 تعلم كيفية التعامل مع أحداث تحميل المستندات في Aspose.HTML for Java باستخدام هذا الدليل خطوة بخطوة. قم بتحسين تطبيقات الويب الخاصة بك.
 ### [إنشاء وإدارة مستندات SVG في Aspose.HTML لـ Java](./create-manage-svg-documents/)
@@ -66,6 +68,8 @@ url: /ar/java/creating-managing-html-documents/
 تعلم كيفية إنشاء بيئة تجريبية لمعالجة HTML في Java باستخدام Aspose.HTML من خلال دليل خطوة بخطوة.
 ### [كيفية الاستعلام عن HTML في Java – دليل كامل](./how-to-query-html-in-java-complete-tutorial/)
 تعلم كيفية استعلام ومعالجة مستندات HTML في Java باستخدام Aspose.HTML من خلال دليل شامل خطوة بخطوة.
+### [كيفية الاستعلام عن HTML باستخدام Aspose.HTML – دليل Java كامل](./how-to-query-html-with-aspose-html-complete-java-guide/)
+تعلم كيفية الاستعلام عن مستندات HTML باستخدام Aspose.HTML في Java من خلال دليل شامل خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

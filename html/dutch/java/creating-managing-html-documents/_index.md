@@ -44,28 +44,45 @@ Als het gaat om het genereren van nieuwe HTML-documenten, biedt Aspose.HTML voor
 ## HTML-documenten maken en beheren in Aspose.HTML voor Java-zelfstudies
 ### [Asynchroon HTML-documenten maken in Aspose.HTML voor Java](./create-html-documents-async/)
 Beheers HTML-documentcreatie asynchroon met Aspose.HTML voor Java. Stapsgewijze handleiding, tips en FAQ's inbegrepen voor snel leren.
+
 ### [Maak lege HTML-documenten in Aspose.HTML voor Java](./create-empty-html-documents/)
 Leer hoe u lege HTML-documenten in Java kunt maken met Aspose.HTML met onze gedetailleerde stapsgewijze tutorial, perfect voor ontwikkelaars van alle niveaus.
+
 ### [HTML-documenten laden vanuit een bestand in Aspose.HTML voor Java](./load-html-documents-from-file/)
 Ontgrendel de kracht van HTML-manipulatie met Aspose.HTML voor Java. Leer HTML-documenten laden vanuit bestanden met stapsgewijze tutorials.
+
 ### [Geavanceerd laden van bestanden voor HTML-documenten in Aspose.HTML voor Java](./advanced-file-loading-html-documents/)
 Leer hoe u HTML-documenten laadt, bewerkt en opslaat met Aspose.HTML voor Java in deze stapsgewijze handleiding. Ontgrendel geavanceerde HTML-verwerking in uw Java-projecten.
+
 ### [Laad HTML-documenten uit de stream met Aspose.HTML voor Java](./load-html-documents-from-stream/)
 Leer hoe u HTML-documenten laadt uit streams met Aspose.HTML voor Java. Deze gids biedt een stapsgewijze tutorial voor naadloze HTML-manipulatie.
+
 ### [HTML-documenten maken van strings in Aspose.HTML voor Java](./create-html-documents-from-string/)
 Leer hoe u HTML-documenten van strings maakt in Aspose.HTML voor Java met deze stapsgewijze handleiding.
+
 ### [HTML-documenten laden vanaf URL in Aspose.HTML voor Java](./load-html-documents-from-url/)
 Ontdek hoe u eenvoudig HTML-documenten kunt laden vanaf een URL in Java met Aspose.HTML. Inclusief stapsgewijze tutorial.
+
 ### [Genereer nieuwe HTML-documenten met Aspose.HTML voor Java](./generate-new-html-documents/)
 Leer hoe u nieuwe HTML-documenten maakt met Aspose.HTML voor Java met deze eenvoudige stapsgewijze handleiding. Begin met het genereren van dynamische HTML-inhoud.
+
 ### [Documentlaadgebeurtenissen afhandelen in Aspose.HTML voor Java](./handle-document-load-events/)
 Leer hoe u documentlaadgebeurtenissen in Aspose.HTML voor Java kunt verwerken met deze stapsgewijze handleiding. Verbeter uw webapplicaties.
+
 ### [SVG-documenten maken en beheren in Aspose.HTML voor Java](./create-manage-svg-documents/)
 Leer SVG-documenten maken en beheren met Aspose.HTML voor Java! Deze uitgebreide gids behandelt alles van basiscreatie tot geavanceerde manipulatie.
+
 ### [Sandbox voor HTML maken in Java – Stapsgewijze handleiding](./create-sandbox-for-html-in-java-step-by-step-guide/)
 Leer hoe u een veilige sandboxomgeving voor HTML in Java opzet met een stapsgewijze handleiding.
+
 ### [HTML opvragen in Java – Complete tutorial](./how-to-query-html-in-java-complete-tutorial/)
 Leer hoe u HTML kunt query'en in Java met deze volledige stap‑voor‑stap handleiding.
+
+### [HTML opvragen met Aspose.HTML – Complete Java-gids](./how-to-query-html-with-aspose-html-complete-java-guide/)
+Leer hoe u HTML kunt query'en met Aspose.HTML in Java met deze volledige stap‑voor‑stap handleiding.
+
+### [Markdown naar HTML converteren in Java – Snelle gids met Aspose](./convert-markdown-to-html-in-java-quick-guide-with-aspose/)
+Leer hoe u Markdown naar HTML kunt converteren in Java met Aspose.HTML in deze snelle stapsgewijze handleiding.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

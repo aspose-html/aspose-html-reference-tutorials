@@ -58,6 +58,8 @@ Lär dig hur du skapar HTML-dokument från strängar i Aspose.HTML för Java med
 Upptäck hur du enkelt laddar HTML-dokument från en URL i Java med Aspose.HTML. Steg-för-steg handledning ingår.
 ### [Hur du frågar HTML i Java – Komplett handledning](./how-to-query-html-in-java-complete-tutorial/)
 Lär dig hur du söker och extraherar data från HTML-dokument i Java med en komplett steg-för-steg-guide.
+### [Hur du frågar HTML med Aspose.HTML – Komplett Java‑guide](./how-to-query-html-with-aspose-html-complete-java-guide/)
+Lär dig hur du söker och extraherar data från HTML i Java med Aspose.HTML i en komplett steg‑för‑steg‑guide.
 ### [Generera nya HTML-dokument med Aspose.HTML för Java](./generate-new-html-documents/)
 Lär dig hur du skapar nya HTML-dokument med Aspose.HTML för Java med denna enkla steg-för-steg-guide. Börja generera dynamiskt HTML-innehåll.
 ### [Hantera dokumentladdningshändelser i Aspose.HTML för Java](./handle-document-load-events/)
@@ -66,6 +68,8 @@ Lär dig att hantera dokumentladdningshändelser i Aspose.HTML för Java med den
 Lär dig att skapa och hantera SVG-dokument med Aspose.HTML för Java! Den här omfattande guiden täcker allt från grundläggande skapande till avancerad manipulation.
 ### [Skapa sandlåda för HTML i Java – Steg‑för‑steg‑guide](./create-sandbox-for-html-in-java-step-by-step-guide/)
 Lär dig hur du skapar en säker sandlåda för HTML i Java med vår detaljerade steg-för-steg‑guide.
+### [Konvertera Markdown till HTML i Java – Snabbguide med Aspose](./convert-markdown-to-html-in-java-quick-guide-with-aspose/)
+Lär dig hur du snabbt konverterar Markdown till HTML i Java med Aspose i en steg‑för‑steg‑guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
