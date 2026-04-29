@@ -1,67 +1,93 @@
 ---
-title: تنفيذ CSS داخلي في مستندات HTML باستخدام Aspose.HTML لـ Java
-linktitle: تنفيذ CSS داخلي في مستندات HTML باستخدام Aspose.HTML لـ Java
-second_title: معالجة HTML باستخدام Java مع Aspose.HTML
-description: تعلم كيفية تنفيذ CSS الداخلي في مستندات HTML باستخدام Aspose.HTML لـ Java من خلال البرنامج التعليمي السهل خطوة بخطوة.
-weight: 16
+date: 2026-02-15
+description: تعلم كيفية إنشاء مستند HTML باستخدام Java وإضافة عنصر النمط باستخدام
+  Java باستخدام Aspose.HTML للـ Java في هذا الدرس خطوة بخطوة.
+linktitle: Implement Internal CSS in HTML Documents with Aspose.HTML
+second_title: Java HTML Processing with Aspose.HTML
+title: إنشاء مستند HTML بلغة Java مع CSS داخلي باستخدام Aspose.HTML
 url: /ar/java/editing-html-documents/implement-internal-css-html-documents/
+weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# تنفيذ CSS داخلي في مستندات HTML باستخدام Aspose.HTML لـ Java
+# إنشاء مستند html java باستخدام CSS داخلي باستخدام Aspose.HTML
 
-## مقدمة
-غالبًا ما يتلخص إنشاء صفحات ويب جميلة ومنظمة بشكل جيد في عنصر واحد بالغ الأهمية: التصميم. في تطوير الويب، يشبه CSS (أوراق الأنماط المتتالية) تزيين HTML الخاص بك - فهو يجعل كل شيء يبدو جذابًا ومنظمًا. اليوم، سنتعمق في كيفية دمج CSS الداخلي داخل مستندات HTML باستخدام Aspose.HTML لـ Java. سواء كنت مبتدئًا أو مطورًا متمرسًا، فإن هذا البرنامج التعليمي سيوضح الخطوات بطريقة بسيطة وجذابة.
-## المتطلبات الأساسية
-قبل أن نبدأ، دعنا نتأكد من أنك تمتلك كل ما تحتاجه لمتابعة هذا البرنامج التعليمي. فيما يلي المتطلبات الأساسية:
-1.  مجموعة تطوير Java (JDK): تأكد من تثبيت JDK على جهازك. يمكنك تنزيله من[موقع أوراكل](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) أو[أوبن جيه دي كيه](https://openjdk.java.net/).
-2.  مكتبة Aspose.HTML لجافا: ستحتاج إلى مكتبة Aspose.HTML للتعامل مع مستندات HTML والتلاعب بها بسهولة. يمكنك تنزيل المكتبة من[موقع اسبوس](https://releases.aspose.com/html/java/).
-3. بيئة التطوير المتكاملة (IDE): يمكن لبيئة التطوير المتكاملة الجيدة مثل IntelliJ IDEA أو Eclipse أن تجعل عملية الترميز أكثر سلاسة.
-4. المعرفة الأساسية بلغة Java: يفترض هذا البرنامج التعليمي أن لديك بعض المعرفة ببرمجة Java.
-5. الوقت والصبر: على الرغم من أن هذه العملية واضحة، إلا أن تنفيذها خطوة بخطوة هو المفتاح.
+## المقدمة
+إذا كنت بحاجة إلى **create html document java** ملفات تبدو مصقولة مباشرةً، فإن CSS الداخلي هو أسرع طريقة لتنسيق صفحة واحدة دون التعامل مع أوراق الأنماط الخارجية. في هذا الدرس سنستعرض العملية بالكامل — من بناء مستند HTML في Java، إضافة عنصر `<style>`، حفظ الملف، إلى عرض النتيجة كملف PDF. في النهاية ستكون مرتاحًا مع كل خطوة وتفهم لماذا تجعل Aspose.HTML سير العمل سلسًا.
+
+## إجابات سريعة
+- **ما المكتبة التي تتعامل مع HTML في Java؟** Aspose.HTML for Java  
+- **هل يمكنني إضافة عنصر style برمجياً؟** نعم – استخدم `document.createElement("style")`  
+- **كيف أحفظ النتيجة؟** استدعِ `document.save("yourfile.html")`  
+- **هل يدعم تحويل PDF؟** بالتأكيد، عبر `PdfDevice` و `document.renderTo()`  
+- **هل أحتاج إلى ترخيص للإنتاج؟** نعم، يلزم ترخيص تجاري للاستخدام غير التجريبي  
+
+## ما هو “create html document java”؟
+إنشاء مستند HTML في Java يعني إنشاء كائن `HTMLDocument`، ملؤه بالعلامات، وربما إرفاق CSS أو JavaScript. تقوم Aspose.HTML بتجريد التحليل منخفض المستوى، مما يتيح لك التركيز على المحتوى والتنسيق.
+
+## لماذا نستخدم CSS داخلي مع Aspose.HTML؟
+- **تنسيق ذاتي الاحتواء:** جميع الأنماط موجودة داخل نفس الملف، مثالي لقوالب البريد الإلكتروني أو التقارير ذات الصفحة الواحدة.  
+- **لا طلبات شبكة إضافية:** أوقات تحميل أسرع لأن المتصفح لا يحتاج لجلب ملفات CSS خارجية.  
+- **تحويل PDF سهل:** عندما يحتوي HTML على أنماطه الخاصة، يتطابق PDF المُصدّر مع المظهر على الشاشة تمامًا.  
+
+## المتطلبات المسبقة
+قبل أن نبدأ، تأكد من وجود ما يلي:
+
+1. **Java Development Kit (JDK)** – احصل عليه من [موقع Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) أو [OpenJDK](https://openjdk.java.net/).  
+2. **Aspose.HTML for Java library** – حمّل أحدث إصدار من [موقع Aspose](https://releases.aspose.com/html/java/).  
+3. **IDE** – IntelliJ IDEA أو Eclipse أو أي محرر تفضله.  
+4. **معرفة أساسية بـ Java** – يجب أن تكون مرتاحًا مع الفئات، الكائنات، واستدعاءات الطرق.  
+
 ## استيراد الحزم
-قبل أن نبدأ في الترميز، دعنا نستورد الحزم اللازمة للتأكد من أن برنامجنا لديه القدرة على الوصول إلى الميزات التي يوفرها Aspose.HTML.
+أولاً، أضف الاستيرادات المطلوبة حتى يعرف المترجم أين يجد فئات Aspose.HTML.
+
 ```java
 import java.io.IOException;
 ```
-تأكد من إضافة عبارات الاستيراد هذه في أعلى ملف Java الخاص بك. سيسمح لنا هذا باستخدام الفئات المطلوبة لإنشاء مستند HTML ومعالجته وعرضه كملف PDF.
-دعونا نقسم العملية إلى خطوات مميزة حتى تتمكن من متابعتها بسهولة.
-## الخطوة 1: إنشاء مثيل لمستند HTML
-أولاً، نحتاج إلى إنشاء نسخة من مستند HTML. وإليك كيفية القيام بذلك:
+
+## دليل خطوة بخطوة
+
+### الخطوة 1: إنشاء نسخة من مستند HTML
+نبدأ بإنشاء مستند HTML الذي سنقوم بتنسيقه لاحقًا.
+
 ```java
 String content = "<div><p>Internal CSS</p><p>An internal CSS is used to define a style for a single HTML page</p></div>";
 com.aspose.html.HTMLDocument document = new com.aspose.html.HTMLDocument(content, ".");
 ```
- هنا، نقوم بتعريف بنية HTML بسيطة تحتوي على فقرتين داخل`div` . ال`HTMLDocument` تقوم المثيل بتهيئة هذا الهيكل، ليصبح جاهزًا للتعديل والتصميم.
-## الخطوة 2: إنشاء عنصر النمط وإضافته
-بعد ذلك، سنقوم بإنشاء أنماط CSS الداخلية. وهنا تبدأ سحر التصميم!
+
+### الخطوة 2: إضافة عنصر style (add style element java)
+الآن نقوم بإنشاء وسم `<style>` وتعريف فئتين CSS.
+
 ```java
 com.aspose.html.dom.Element style = document.createElement("style");
 style.setTextContent(".frame1 { margin-top:50px; margin-left:50px; padding:20px; width:360px; height:90px; background-color:#a52a2a; font-family:verdana; color:#FFF5EE;}" +
                       ".frame2 { margin-top:-90px; margin-left:160px; text-align:center; padding:20px; width:360px; height:100px; background-color:#ADD8E6;}");
 ```
- في هذه الخطوة، نقوم بإنشاء`<style>` العنصر وتحديد فئتين CSS—`frame1` و`frame2`. كل فئة لها أنماط محددة للحواف والحشو ولون الخلفية وخصائص الخط. وهنا يبدأ CSS الداخلي في التبلور.
-## الخطوة 3: إضافة عنصر النمط إلى رأس المستند
-الآن بعد أن قمنا بإنشاء أنماطنا، نحتاج إلى إضافتها إلى رأس المستند.
+
+### الخطوة 3: إلحاق عنصر style برأس المستند
+نرفق عنصر style الذي أنشأناه حديثًا إلى قسم `<head>`.
+
 ```java
 com.aspose.html.dom.Element head = document.getElementsByTagName("head").get_Item(0);
 head.appendChild(style);
 ```
- يحدد مقتطف التعليمات البرمجية هذا موقع`head` من الوثيقة ويضيف لنا`<style>` العنصر الخاص به. وهذا يربط أنماط CSS الخاصة بنا بمحتوى HTML أدناه.
-## الخطوة 4: تعيين فئات CSS لعناصر HTML
-بعد ذلك، دعونا نطبق الأنماط التي حددناها على عناصر الفقرة داخل مستندنا.
+
+### الخطوة 4: تعيين فئات CSS لعناصر HTML
+هنا نربط فئات CSS بعناصر الفقرة.
+
 ```java
 com.aspose.html.HTMLElement paragraph = (com.aspose.html.HTMLElement) document.getElementsByTagName("p").get_Item(0);
 paragraph.setClassName("frame1");
 HTMLElement lastParagraph = (HTMLElement) document.getElementsByTagName("p").get_Item(document.getElementsByTagName("p").getLength() - 1);
 lastParagraph.setClassName("frame2");
 ```
- هنا، نقوم باسترجاع عناصر الفقرة وتعيين أسماء فئاتها إلى`frame1` و`frame2`. الآن سوف ترث فقراتنا الأنماط التي حددناها للتو!
-## الخطوة 5: تخصيص خصائص النمط
-دعونا نعمل على تعزيز العرض المرئي بشكل أكبر عن طريق تخصيص خصائص النمط الخاصة بفقراتنا.
+
+### الخطوة 5: تخصيص خصائص النمط (render html to pdf java preparation)
+إلى جانب قواعد المستوى الفئوي، نقوم بتعديل خصائص النمط الفردية.
+
 ```java
 paragraph.getStyle().setFontSize("250%");
 paragraph.getStyle().setTextAlign("center");
@@ -69,34 +95,53 @@ lastParagraph.getStyle().setColor("#434343");
 lastParagraph.getStyle().setFontSize("150%");
 lastParagraph.getStyle().setFontFamily("verdana");
 ```
-في هذه الخطوة، نقوم بتعديل حجم الخط ومحاذاة الفقرة الأولى، مع تعديل لون وخط الفقرة الثانية. يضيف هذا التخصيص شخصية ووضوحًا إلى مستندك.
-## الخطوة 6: حفظ مستند HTML
-الآن بعد أن أكملنا CSS الداخلي وأجرينا التغييرات، فقد حان الوقت لحفظ المستند في ملف.
+
+### الخطوة 6: حفظ مستند HTML (save html file java)
+نحفظ العلامات المنسقة إلى ملف فعلي على القرص.
+
 ```java
 document.save("edit-internal-css.html");
 ```
- ال`save` تستمر الطريقة في حفظ مستندنا في ملف HTML يسمى`edit-internal-css.html`يمكنك فتح هذا الملف في أي متصفح ويب لرؤية التغييرات التي أجريتها أثناء العمل!
-## الخطوة 7: تحويل مستند HTML إلى PDF
-كخطوة أخيرة، دعنا نعرض مستند HTML المصمم بتنسيق PDF. وهذا مفيد بشكل خاص لمشاركة المحتوى المصمم أو طباعته.
+
+### الخطوة 7: تحويل مستند HTML إلى PDF (generate pdf from html java, convert html to pdf aspose)
+أخيرًا، نقوم بتحويل ملف HTML إلى PDF — مفيد للتقارير أو التوزيع.
+
 ```java
 com.aspose.html.rendering.pdf.PdfDevice device = new com.aspose.html.rendering.pdf.PdfDevice("edit-internal-css.pdf");
 document.renderTo(device);
 ```
- هنا، نقوم بإنشاء`PdfDevice` مثال يشير إلى ملف الإخراج المطلوب.`renderTo` ثم تقوم الطريقة بتحويل مستند HTML إلى ملف PDF. ما مدى روعة هذا؟
-## خاتمة
-والآن، أنت تعرف كيفية تنفيذ CSS داخلي في مستندات HTML باستخدام Aspose.HTML لـ Java. باتباع هذا البرنامج التعليمي، لم تتعلم فقط كيفية تنسيق HTML، بل تعلمت أيضًا كيفية حفظه وعرضه بتنسيق PDF. باستخدام هذه الأدوات، يمكنك جعل صفحات الويب الخاصة بك تبرز بأناقة واحترافية. فلماذا الانتظار إذن؟ ابدأ على الفور واستمتع بخيارات التنسيق!
 
-## الأسئلة الشائعة
-### ما هي فائدة استخدام CSS الداخلي؟  
-يتيح لك CSS الداخلي تصميم مستند HTML واحد دون التأثير على المستندات الأخرى، مما يجعله مثاليًا للتصميمات الفريدة.
-### هل يمكن لـ Aspose.HTML التعامل مع ملفات CSS الخارجية؟  
-نعم، يمكن لـ Aspose.HTML التعامل مع ملفات CSS الخارجية؛ ويمكنك ربطها بشكل مشابه للأنماط الداخلية.
-### هل Aspose.HTML مفتوح المصدر؟  
-لا، Aspose.HTML هي مكتبة تجارية، ولكن يمكنك البدء بإصدار تجريبي مجاني لاستكشاف ميزاتها.
-### كيف يمكنني التواصل مع الدعم إذا واجهت مشاكل؟  
- يمكنك زيارة[منتدى دعم Aspose](https://forum.aspose.com/c/html/29) للحصول على المساعدة.
-### هل هناك اعتبارات تتعلق بالأداء عند تحويل HTML إلى PDF؟  
-نعم، قد يستغرق عرض مستندات HTML المعقدة وقتًا أطول؛ ولكن تحسين المحتوى قد يؤدي إلى تحسين الأداء.
+## المشكلات الشائعة ونصائح احترافية
+- **غياب وسم `<head>`:** إذا بدأت بـ HTML خام يفتقر إلى `<head>`، سيقوم Aspose.HTML بإنشائه تلقائيًا، لكن من الأفضل تضمينه.  
+- **تعارض خصوصية CSS:** CSS الداخلي يتجاوز الأنماط الخارجية، لكن الأنماط المضمنة (inline) لا تزال تتفوق. حافظ على أن تكون محدداتك (selectors) محددة بما فيه الكفاية.  
+- **المستندات الكبيرة وسرعة PDF:** بالنسبة لملفات HTML الكبيرة جدًا، فكر في تبسيط CSS أو تقسيم المستند إلى أقسام قبل التحويل.  
+
+## الأسئلة المتكررة
+
+**س: ما هي ميزة استخدام CSS الداخلي؟**  
+ج: يتيح لك CSS الداخلي تنسيق مستند HTML واحد دون التأثير على صفحات أخرى، مما يجعله مثاليًا للتصاميم الفريدة أو قوالب البريد الإلكتروني.
+
+**س: هل يمكن لـ Aspose.HTML التعامل مع ملفات CSS الخارجية؟**  
+ج: نعم، يمكنك ربط أوراق الأنماط الخارجية بنفس الطريقة التي تفعلها في بيئة المتصفح العادية.
+
+**س: هل Aspose.HTML مفتوح المصدر؟**  
+ج: لا، إنه مكتبة تجارية، لكن يتوفر نسخة تجريبية مجانية للتقييم.
+
+**س: كيف يمكنني التواصل مع الدعم إذا واجهت مشاكل؟**  
+ج: زر [منتدى دعم Aspose](https://forum.aspose.com/c/html/29) للحصول على مساعدة من المجتمع ومهندسي Aspose.
+
+**س: هل هناك اعتبارات أداء عند تحويل HTML إلى PDF؟**  
+ج: يمكن للتصاميم المعقدة وCSS الثقيلة أن تزيد من زمن التحويل. تحسين الصور وتبسيط الأنماط يساعد على تحسين السرعة.
+
+## الخلاصة
+الآن لديك مثال كامل من البداية إلى النهاية حول كيفية **create html document java**، **add style element java**، **save html file java**، و **render html to pdf java** باستخدام Aspose.HTML. جرّب قواعد CSS، واختبر هياكل HTML مختلفة، واستكشف خيارات العرض المتعددة التي توفرها Aspose. برمجة سعيدة!
+
+---
+
+**Last Updated:** 2026-02-15  
+**Tested With:** Aspose.HTML for Java 23.12  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
