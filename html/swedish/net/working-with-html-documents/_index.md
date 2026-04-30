@@ -43,6 +43,10 @@ Lär dig spara HTML i C# med en anpassad resurs‑hanterare och generera komplet
 
 Lär dig hur du använder CSS och C# för att göra rubriker fetstilta i dina HTML‑dokument med en steg‑för‑steg‑guide.
 
+### [Skapa Zip‑arkiv för HTML – Komplett C#‑guide](./create-zip-archive-for-html-complete-c-guide/)
+
+Lär dig hur du skapar ett zip‑arkiv för HTML‑filer med C# i en komplett steg‑för‑steg‑guide.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
