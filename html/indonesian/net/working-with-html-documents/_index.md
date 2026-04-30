@@ -26,18 +26,15 @@ Sebelum kita menyelami secara spesifik pembuatan dan penyuntingan dokumen HTML d
 
 ### [Membuat Dokumen di .NET dengan Aspose.HTML](./creating-a-document/)
 
-Langkah pertama dalam perjalanan kita adalah mempelajari cara membuat dokumen HTML dari awal atau dari URL menggunakan Aspose.HTML. Kami akan memandu Anda melalui prosesnya, memastikan bahwa bahkan pemula pun dapat mengikutinya. Di akhir bagian ini, Anda akan memiliki keterampilan untuk membuat dokumen HTML dengan mudah.
-
 ### [Membuat Dokumen Sederhana di .NET dengan Aspose.HTML](./creating-a-simple-document/)
-
-Setelah Anda memahami dasar-dasarnya, kita akan mempelajari lebih dalam proses pembuatannya. Di bagian ini, Anda akan mempelajari cara membuat dokumen HTML sederhana menggunakan Aspose.HTML, dan kita akan menjelajahi berbagai fitur yang memungkinkan manipulasi mudah. Baik Anda sedang membuat halaman web, membuat konten, atau mengonversi data ke HTML, tutorial ini akan membekali Anda dengan pengetahuan yang diperlukan.
 
 ### [Mengedit Dokumen dalam .NET dengan Aspose.HTML](./editing-a-document/)
 
-Sekarang, mari tingkatkan keterampilan Anda ke tingkat berikutnya. Mengedit dokumen HTML merupakan tugas umum bagi pengembang web, dan Aspose.HTML menyederhanakan proses ini secara signifikan. Di bagian ini, kami akan membahas pembuatan, manipulasi, dan penataan dokumen. Anda akan menemukan cara meningkatkan tampilan dan fungsionalitas konten web Anda, membuatnya menarik dan mudah digunakan.
-
 ### [Cara Menyimpan HTML di C# – Panduan Lengkap Menggunakan Penangan Sumber Daya Kustom](./how-to-save-html-in-c-complete-guide-using-a-custom-resource/)
+
 ### [Cara Membuat Heading Tebal dengan CSS & C# – Panduan Lengkap Langkah demi Langkah](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
+
+### [Buat Arsip Zip untuk HTML – Panduan Lengkap C#](./create-zip-archive-for-html-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

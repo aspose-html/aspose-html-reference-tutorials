@@ -45,6 +45,8 @@ Pelajari cara menggunakan Aspose.HTML untuk .NET guna memanipulasi dokumen HTML,
 Pelajari cara mengaktifkan antialiasing untuk meningkatkan kualitas gambar PNG atau JPG saat mengonversi dokumen DOCX menggunakan Aspose.HTML.
 ### [Konversi DOCX ke PNG – Membuat Arsip ZIP dengan C# Tutorial](./convert-docx-to-png-create-zip-archive-c-tutorial/)
 Pelajari cara mengonversi file DOCX menjadi PNG dan mengemasnya ke dalam arsip ZIP menggunakan C# dengan Aspose.HTML.
+### [Buat PNG dari HTML – Panduan Lengkap C#](./create-png-from-html-complete-c-guide/)
+Panduan lengkap langkah demi langkah untuk membuat gambar PNG dari HTML menggunakan C# dengan Aspose.HTML.
 
 ## Kesimpulan
 
