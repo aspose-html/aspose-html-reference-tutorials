@@ -50,6 +50,8 @@ Step by step guide to render HTML to PNG using Aspose.HTML for .NET. Learn the p
 Comprehensive guide to render HTML to PNG using Aspose.HTML for .NET. Includes code examples and best practices.
 ### [Create PNG from HTML – Full C# Rendering Guide](./create-png-from-html-full-c-rendering-guide/)
 Learn how to generate high-quality PNG images from HTML using Aspose.HTML for .NET with a complete C# rendering guide.
+### [Create HTML Document String and Render to File – C# Guide](./create-html-document-string-and-render-to-file-c-guide/)
+Learn how to create an HTML document from a string and render it to a file using Aspose.HTML for .NET in C#.
 ### [Render EPUB as XPS in .NET with Aspose.HTML](./render-epub-as-xps/)
 Learn how to create and render HTML documents with Aspose.HTML for .NET in this comprehensive tutorial. Dive into the world of HTML manipulation, web scraping, and more.
 ### [Rendering Timeout in .NET with Aspose.HTML](./rendering-timeout/)
@@ -60,6 +62,9 @@ Learn how to control rendering timeouts effectively in Aspose.HTML for .NET. Exp
 Learn to render multiple HTML documents using Aspose.HTML for .NET. Boost your document processing capabilities with this powerful library.
 ### [Render SVG Doc as PNG in .NET with Aspose.HTML](./render-svg-doc-as-png/)
 Unlock the power of Aspose.HTML for .NET! Learn how to Render SVG Doc as PNG effortlessly. Dive into step-by-step examples and FAQs. Get started now!
+### [Render HTML as Image in C# – Complete Programming Guide](./render-html-as-image-in-c-complete-programming-guide/)
+Comprehensive guide to rendering HTML as images in C# using Aspose.HTML for .NET, with code examples and best practices.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

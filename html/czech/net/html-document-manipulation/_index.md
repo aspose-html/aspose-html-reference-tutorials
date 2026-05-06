@@ -51,7 +51,7 @@ Aspose.HTML for .NET vyniká svou jednoduchostí a výkonem. Umožňuje vám př
 ## Výukové programy pro manipulaci s dokumenty HTML
 ### [Načtěte dokumenty HTML asynchronně v .NET pomocí Aspose.HTML](./load-html-doc-asynchronously/)
 Naučte se používat Aspose.HTML pro .NET pro práci s HTML dokumenty. Podrobný průvodce s příklady a často kladenými dotazy pro vývojáře.
-### [Načtěte dokumenty HTML s pověřeními v .NET pomocí Aspose.HTML](./load-html-doc-with-credentials/)
+### [Načtěte dokumenty HTML s pověřeními v .NET pomocí Aspose.HTML](./load-html-with-credentials/)
 Naučte se, jak vylepšit vaše SEO pomocí Aspose.HTML pro .NET. Zvyšte hodnocení, analyzujte obsah webu a optimalizujte pro vyhledávače.
 ### [Načtěte HTML pomocí vzdáleného serveru v .NET s Aspose.HTML](./load-html-using-remote-server/)
 Odemkněte potenciál Aspose.HTML pro .NET pomocí našeho komplexního průvodce. Naučte se importovat jmenné prostory, přistupovat ke vzdáleným dokumentům HTML a další.
@@ -71,10 +71,9 @@ Naučte se používat Aspose.HTML pro .NET. Importujte jmenný prostor, slučujt
 Odemkněte potenciál vývoje webu s Aspose.HTML pro .NET. Snadno vytvářejte, převádějte a manipulujte s dokumenty HTML.
 ### [Vytvoření HTML ze řetězce v C# – Průvodce vlastním Resource Handlerem](./create-html-from-string-in-c-custom-resource-handler-guide/)
 Naučte se, jak vytvořit HTML dokument z řetězce v C# pomocí vlastního Resource Handleru.
+### [Jak vytvořit HTML se stylovaným textem – kompletní průvodce v C#](./how-to-create-html-with-styled-text-complete-c-guide/)
+Naučte se pomocí Aspose.HTML v C# vytvářet HTML dokumenty se stylovaným textem krok za krokem.
 
-## Závěr
-
-Závěrem, pokud chcete zvládnout manipulaci s HTML dokumenty pomocí Aspose.HTML pro .NET, jste na správném místě. Naše návody jsou vaší cestou k úspěchu. Připravte se prozkoumat možnosti, odemkněte svou kreativitu a zefektivněte svůj vývoj .NET. Začněte svou cestu ještě dnes a sledujte, jak se vaše dokumenty HTML mění před vašima očima. Ať už jste vývojář nebo nadšenec, Aspose.HTML pro .NET má pro vás něco neuvěřitelného. Tak na co čekáš? Vydejme se společně do tohoto vzrušujícího dobrodružství!
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

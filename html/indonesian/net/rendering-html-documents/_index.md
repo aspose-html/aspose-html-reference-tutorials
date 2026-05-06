@@ -62,11 +62,17 @@ Pelajari cara merender beberapa dokumen HTML menggunakan Aspose.HTML untuk .NET.
 ### [Render Dokumen SVG sebagai PNG di .NET dengan Aspose.HTML](./render-svg-doc-as-png/)
 Manfaatkan kekuatan Aspose.HTML untuk .NET! Pelajari cara Merender Dokumen SVG sebagai PNG dengan mudah. Pelajari contoh langkah demi langkah dan Tanya Jawab Umum. Mulailah sekarang!
 
+### [Buat String Dokumen HTML dan Render ke File – Panduan C#](./create-html-document-string-and-render-to-file-c-guide/)
+Pelajari cara membuat string dokumen HTML dan merendernya ke file menggunakan Aspose.HTML untuk .NET dengan contoh kode C# lengkap.
+
 ### [Cara Menggunakan Aspose untuk Merender HTML ke PNG – Panduan Langkah‑demi‑Langkah](./how-to-use-aspose-to-render-html-to-png-step-by-step-guide/)
 Pelajari cara menggunakan Aspose untuk mengonversi HTML menjadi PNG dengan panduan langkah demi langkah yang mudah diikuti.
 
 ### [Cara Merender HTML ke PNG dengan Aspose – Panduan Lengkap](./how-to-render-html-to-png-with-aspose-complete-guide/)
 Pelajari cara merender HTML menjadi PNG menggunakan Aspose dengan panduan lengkap langkah demi langkah.
+
+### [Render HTML sebagai Gambar di C# – Panduan Pemrograman Lengkap](./render-html-as-image-in-c-complete-programming-guide/)
+Pelajari cara merender HTML menjadi gambar dengan Aspose.HTML untuk .NET menggunakan panduan pemrograman lengkap.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
