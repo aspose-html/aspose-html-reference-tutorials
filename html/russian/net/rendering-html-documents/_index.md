@@ -67,6 +67,12 @@ Aspose.HTML для .NET выделяется как лучший выбор дл
 ### [Как отрендерить HTML в PNG с помощью Aspose – Полное руководство](./how-to-render-html-to-png-with-aspose-complete-guide/)
 Подробный пошаговый учебник по рендерингу HTML в PNG с использованием Aspose.HTML для .NET.
 
+### [Создание строки HTML‑документа и рендеринг в файл – руководство C#](./create-html-document-string-and-render-to-file-c-guide/)
+Узнайте, как создать HTML‑документ из строки и сохранить отрендеренный результат в файл с помощью Aspose.HTML для .NET на C#.
+
+### [Рендеринг HTML в виде изображения на C# – Полное руководство по программированию](./render-html-as-image-in-c-complete-programming-guide/)
+Подробный пошаговый учебник по рендерингу HTML в изображение с использованием Aspose.HTML в C#.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
