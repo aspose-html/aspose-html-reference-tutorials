@@ -96,10 +96,14 @@ Ismerje meg, hogyan konvertálhat HTML‑t GIF‑be Java‑ban az Aspose.HTML ha
 Tanulja meg, hogyan konvertálhat HTML‑t JPEG‑be az Aspose.HTML for Java segítségével. Lépésről‑lépésre útmutató a zökkenőmentes dokumentumfeldolgozáshoz.
 ### [HTML átalakítása PNG‑be](./convert-html-to-png/)
 Ismerje meg, hogyan konvertálhat HTML‑t PNG képekké Java‑ban az Aspose.HTML használatával. Átfogó útmutató részletes instrukciókkal.
+### [HTML konvertálása PNG‑re DPI beállítással – Teljes Java útmutató](./how-to-set-dpi-when-converting-html-to-png-complete-java-gui/)
+Ismerje meg, hogyan állíthatja be a DPI‑t a PNG képekhez HTML konvertálásakor az Aspose.HTML for Java használatával.
 ### [HTML átalakítása TIFF‑be](./convert-html-to-tiff/)
 Tanulja meg, hogyan konvertálhat HTML‑t TIFF‑be az Aspose.HTML for Java segítségével. Lépésről‑lépésre útmutató a hatékony dokumentumkezeléshez.
 ### [HTML konvertálása WebP‑be – Teljes Java útmutató az Aspose.HTML‑el](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
 Ismerje meg, hogyan konvertálhat HTML‑t WebP‑be Java‑ban az Aspose.HTML használatával. Részletes, lépésről‑lépésre útmutató a WebP konverzióhoz.
+### [Eszköz pixelarány beállítása Java‑ban – HTML renderelése PNG‑be](./set-device-pixel-ratio-in-java-render-html-to-png/)
+Ismerje meg, hogyan állíthatja be a device pixel ratio értékét Java‑ban az Aspose.HTML használatával a PNG képek minőségének optimalizálásához.
 
 ## Gyakran ismételt kérdések
 

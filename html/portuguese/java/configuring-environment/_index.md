@@ -100,18 +100,27 @@ Configurar seu ambiente é a base para projetos bem‑sucedidos de **converter H
 ## Configurando o Ambiente no Aspose.HTML para Java Tutoriais
 ### [Definir Conjunto de Caracteres no Aspose.HTML para Java](./set-character-set/)
 Saiba como definir o conjunto de caracteres no Aspose.HTML para Java e converter HTML para PDF neste guia passo a passo. Garanta a codificação e renderização corretas do texto.
+
 ### [Configurar Fontes no Aspose.HTML para Java](./configure-fonts/)
 Saiba como configurar fontes no Aspose.HTML para Java com este guia detalhado, passo a passo. Aprimore suas conversões de HTML para PDF com fontes e estilos personalizados.
+
 ### [Usar Manipuladores de Mensagens no Aspose.HTML para Java](./use-message-handlers/)
 Saiba como usar manipuladores de mensagens no Aspose.HTML para Java para lidar com imagens ausentes e outras operações de rede de forma eficaz.
+
 ### [Configurar Serviço de Rede no Aspose.HTML para Java](./setup-network-service/)
 Saiba como configurar um serviço de rede no Aspose.HTML para Java, gerenciar recursos de rede e converter HTML para PNG com tratamento de erros personalizado.
+
 ### [Configurar Runtime Service no Aspose.HTML para Java](./configure-runtime-service/)
 Saiba como configurar o Runtime Service no Aspose.HTML para Java para otimizar a execução de scripts, prevenir loops infinitos e melhorar o desempenho da aplicação.
+
 ### [Implementar Sandbox no Aspose.HTML para Java](./implement-sandboxing/)
 Saiba como implementar sandbox no Aspose.HTML para Java para controlar com segurança a execução de scripts em seus documentos HTML e convertê‑los para PDF.
+
 ### [Definir Folha de Estilo do Usuário no Aspose.HTML para Java](./set-user-style-sheet/)
 Saiba como definir uma folha de estilo personalizada no Aspose.HTML para Java, aprimorando a estilização de documentos e convertendo HTML para PDF com facilidade.
+
+### [Obter Versão da Biblioteca em Java – Guia Rápido para Exibir a Versão da Biblioteca](./get-library-version-in-java-quick-guide-to-show-library-vers/)
+Saiba como obter a versão da biblioteca Aspose.HTML em Java e exibi‑la rapidamente em sua aplicação.
 
 ---
 

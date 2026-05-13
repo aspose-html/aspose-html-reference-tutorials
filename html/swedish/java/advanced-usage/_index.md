@@ -127,7 +127,9 @@ Lär dig hur du justerar PDF‑sidstorlek med Aspose.HTML för Java. Skapa högk
 ### [Justera XPS‑sidstorlek med Aspose.HTML för Java](./adjust-xps-page-size/)
 Lär dig hur du justerar XPS‑sidstorlek med Aspose.HTML för Java. Kontrollera utmatningsdimensionerna för dina XPS‑dokument enkelt.
 ### [Hur man kör JavaScript i Java – Komplett guide](./how-to-run-javascript-in-java-complete-guide/)
-Lär dig hur du exekverar JavaScript-kod i Java-applikationer med Aspose.HTML, inklusive konfiguration och exempel.
+Lär dig hur du exekverar JavaScript‑kod i Java‑applikationer med Aspose.HTML, inklusive konfiguration och exempel.
+### [Anropa Java från JavaScript – Lägg till värdobjekt och kör JavaScript i Java](./call-java-from-javascript-add-host-object-and-run-javascript/)
+Lär dig hur du exponerar Java‑klasser som värdobjekt för JavaScript och kör skript i Java‑miljön med Aspose.HTML.
 
 ---
 

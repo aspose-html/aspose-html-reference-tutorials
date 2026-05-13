@@ -84,16 +84,27 @@ Použití Aspose.HTML for Java zjednodušuje převod HTML dokumentů do různýc
 ## Převod - HTML do různých formátů obrázků – Tutoriály
 ### [Převod HTML do BMP](./convert-html-to-bmp/)
 Převod HTML do BMP pomocí Aspose.HTML for Java. Komplexní tutoriál pro bezproblémový převod HTML dokumentů na BMP obrázky pomocí Aspose.HTML for Java.
+
 ### [Převod HTML do GIF](./convert-html-to-gif/)
 Naučte se, jak převést HTML do GIF v Javě pomocí Aspose.HTML. Komplexní krok‑za‑krokem průvodce pro efektivní převod HTML‑to‑GIF.
+
 ### [Převod HTML do JPEG](./convert-html-to-jpeg/)
 Naučte se převést HTML do JPEG pomocí Aspose.HTML for Java. Krok‑za‑krokem průvodce pro plynulé zpracování dokumentů.
+
 ### [Převod HTML do PNG](./convert-html-to-png/)
 Naučte se převést HTML na PNG obrázky v Javě pomocí Aspose.HTML. Komplexní průvodce s krok‑za‑krokem instrukcemi.
+
+### [Nastavte poměr pixelů zařízení v Javě – renderování HTML do PNG](./set-device-pixel-ratio-in-java-render-html-to-png/)
+Naučte se nastavit Device Pixel Ratio při renderování HTML do PNG v Javě pomocí Aspose.HTML.
+
 ### [Převod HTML do TIFF](./convert-html-to-tiff/)
 Naučte se snadno převést HTML do TIFF pomocí Aspose.HTML for Java. Krok‑za‑krokem průvodce pro efektivní zpracování dokumentů.
+
 ### [Převod HTML do WebP](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
 Naučte se převést HTML do formátu WebP v Javě pomocí Aspose.HTML. Kompletní krok‑za‑krokem průvodce.
+
+### [Jak nastavit DPI při převodu HTML na PNG – Kompletní průvodce v Javě](./how-to-set-dpi-when-converting-html-to-png-complete-java-gui/)
+Naučte se nastavit DPI při převodu HTML na PNG pomocí Aspose.HTML for Java. Kompletní krok‑za‑krokem průvodce.
 
 ## Často kladené otázky
 

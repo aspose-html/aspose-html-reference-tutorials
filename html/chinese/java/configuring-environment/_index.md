@@ -117,6 +117,9 @@ A: 沙箱会限制某些 API（例如 `window.open`），但普通的 DOM 操作
 ### [在 Aspose.HTML for Java 中设置用户样式表](./set-user-style-sheet/)
 了解如何在 Aspose.HTML for Java 中设置自定义用户样式表，提升文档样式并轻松将 HTML 转换为 PDF。
 
+### [在 Java 中获取库版本 – 快速指南展示库版本](./get-library-version-in-java-quick-guide-to-show-library-vers/)
+了解如何在 Aspose.HTML for Java 中获取库的版本信息，快速显示当前使用的版本号。
+
 ---
 
 **最后更新：** 2025-12-03  

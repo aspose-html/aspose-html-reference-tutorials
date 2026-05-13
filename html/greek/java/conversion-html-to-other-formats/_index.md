@@ -99,6 +99,9 @@ weight: 25
 Μετατρέψτε SVG σε PDF σε Java με το Aspose.HTML. Μία απρόσκοπτη λύση για μετατροπή εγγράφων υψηλής ποιότητας.
 ### [Μετατροπή SVG σε XPS](./convert-svg-to-xps/)
 Μάθετε πώς να μετατρέψετε SVG σε XPS με το Aspose.HTML for Java. Απλός, βήμα‑βήμα οδηγός για απρόσκοπτες μετατροπές.
+### [Μαθήματα HTML σε PDF – Μετατροπή HTML σε PDF με Aspose.HTML Java](./html-to-pdf-tutorial-convert-html-to-pdf-with-aspose-html-ja/)
+### [Δημιουργία PDF από HTML σε Java – Οδηγός Παράλληλης Μαζικής Μετατροπής](./create-pdf-from-html-in-java-parallel-batch-conversion-guide/)
+Μάθετε πώς να εκτελείτε μαζική παράλληλη μετατροπή HTML σε PDF σε Java για γρήγορη επεξεργασία μεγάλου όγκου εγγράφων.
 
 ## Συχνές Ερωτήσεις
 

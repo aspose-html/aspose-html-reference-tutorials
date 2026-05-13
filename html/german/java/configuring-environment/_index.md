@@ -112,6 +112,8 @@ Erfahren Sie, wie Sie den Runtime‑Service in Aspose.HTML für Java konfigurier
 Erfahren Sie, wie Sie Sandbox‑Einrichtung in Aspose.HTML für Java implementieren, um die Skriptausführung in Ihren HTML‑Dokumenten sicher zu steuern und sie in PDF zu konvertieren.
 ### [Benutzer‑Stylesheet in Aspose.HTML für Java festlegen](./set-user-style-sheet/)
 Erfahren Sie, wie Sie ein benutzerdefiniertes Benutzer‑Stylesheet in Aspose.HTML für Java festlegen, um das Dokumentstyling zu verbessern und HTML mühelos zu PDF zu konvertieren.
+### [Bibliotheksversion in Java abrufen – Schnellleitfaden zur Anzeige der Bibliotheksversion](./get-library-version-in-java-quick-guide-to-show-library-vers/)
+Erfahren Sie, wie Sie die aktuelle Version von Aspose.HTML für Java programmgesteuert ermitteln und anzeigen.
 
 ---
 
