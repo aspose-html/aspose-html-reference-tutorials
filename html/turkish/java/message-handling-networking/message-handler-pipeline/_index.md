@@ -1,34 +1,49 @@
 ---
-title: Java için Aspose.HTML'de Mesaj İşleyici Boru Hatları Oluşturma
-linktitle: Java için Aspose.HTML'de Mesaj İşleyici Boru Hatları Oluşturma
-second_title: Aspose.HTML ile Java HTML İşleme
-description: Bu ayrıntılı, adım adım kılavuzla Java için Aspose.HTML'de mesaj işleyici boru hatlarının nasıl oluşturulacağını öğrenin. ZIP'leri zahmetsizce PDF'ye dönüştürün.
-weight: 13
+date: 2026-02-23
+description: Aspose.HTML for Java kullanarak zip dosyalarını PDF'ye nasıl dönüştüreceğinizi
+  öğrenin. Bu adım adım kılavuz, ağ hizmetini nasıl yapılandıracağınızı, özel bir
+  işleyici ekleyeceğinizi ve istek süresini nasıl kaydedeceğinizi gösterir.
+linktitle: Creating Message Handler Pipelines in Aspose.HTML
+second_title: Java HTML Processing with Aspose.HTML
+title: Aspose.HTML for Java ile ZIP'i PDF'ye Nasıl Dönüştürülür
 url: /tr/java/message-handling-networking/message-handler-pipeline/
+weight: 13
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java için Aspose.HTML'de Mesaj İşleyici Boru Hatları Oluşturma
+# ZIP'i PDF'ye Aspose.HTML for Java ile Nasıl Dönüştürülür
 
-## giriiş
-Bu kılavuzda, Aspose.HTML ile mesaj işleyici boru hatlarının nasıl oluşturulacağına daha yakından bakacağız. İster deneyimli bir geliştirici olun, ister becerilerinizi geliştirmek isteyen bir kodlama acemisi olun, bu eğitim size bu harika kütüphaneyle başlamak için ihtiyacınız olan tüm temel adım adım talimatları, ipuçlarını ve püf noktalarını sağlayacaktır. Hadi başlayalım!
-## Ön koşullar
-Ayrıntılara girmeden önce, Java için Aspose.HTML ile sorunsuz bir seyir deneyimi sağlamak için sahip olmanız gereken birkaç temel ön koşul vardır. İşte ihtiyacınız olanlar:
-### 1. Java Geliştirme Kiti (JDK)
-Makinenizde JDK'nın yüklü olduğundan emin olun. Aspose.HTML, JDK 8 veya daha üstünü gerektirir. Oracle web sitesinden indirebilir veya OpenJDK gibi alternatifleri benimseyebilirsiniz.
-### 2. Java Kütüphanesi için Aspose.HTML
- Tüm işlevselliklerden yararlanmak için Aspose.HTML for Java kütüphanesini indirmeniz gerekir. Bunu şuradan alabilirsiniz:[Aspose indirmeleri](https://releases.aspose.com/html/java/) sayfa.
-### 3. Bir IDE
-IntelliJ IDEA, Eclipse veya NetBeans gibi Entegre Geliştirme Ortamı (IDE) kullanmak geliştirme sürecinizi hızlandırabilir, bu yüzden bir tane kurun ve kullanıma hazır hale getirin!
-### 4. Java'nın Temel Anlayışı
-Uzman olmanıza gerek yok ancak Java programlamanın temellerine dair bilgi sahibi olmanız bu kılavuzu takip etmenizi kolaylaştıracaktır.
-### 5. Temel HTML Bilgisi
-HTML'e aşina olmak, üzerinde çalıştığınız dosyaların bağlamını anlamanıza yardımcı olabilir ve bu da dönüştürme sürecini daha anlaşılır hale getirir.
+## Giriş
+Bu kapsamlı öğreticide **zip arşivlerini** PDF belgelerine dönüştürmeyi Aspose.HTML for Java kullanarak keşfedeceksiniz. Bir mesaj işleyici boru hattı oluşturmayı, ağ hizmetini yapılandırmayı, özel bir işleyici eklemeyi ve istek süresini kaydetmeyi adım adım göstereceğiz — tüm bunları kodu net ve çalıştırılabilir tutarak. Rapor oluşturmayı otomatikleştiriyor olun ya da HTML içeriğini PDF olarak paketlemenin güvenilir bir yoluna ihtiyacınız olsun, bu kılavuz ihtiyacınızı karşılayacak.
+
+## Hızlı Yanıtlar
+- **Boru hattı ne yapar?** Bir ZIP dosyasını işler, HTML'yi çıkarır ve PDF'ye render eder.  
+- **Hangi işleyici süreyi kaydeder?** `StartRequestDurationLoggingMessageHandler` ve `StopRequestDurationLoggingMessageHandler`.  
+- **Lisans gerekli mi?** Test için ücretsiz deneme çalışır; üretim için ticari lisans gerekir.  
+- **Çıktı yolunu değiştirebilir miyim?** Evet—Adım 1'de `savePath` değişkenini değiştirin.  
+- **Hangi Java sürümü gerekiyor?** JDK 8 veya üzeri.
+
+## Mesaj İşleyici Boru Hattı Nedir?
+Mesaj işleyici boru hattı, Aspose.HTML tarafından yapılan ağ isteklerini yakalayan yapılandırılabilir bir işleme bileşenleri zinciridir. Özel işleyiciler ekleyerek kaynakların nasıl alındığını, dönüştürüldüğünü ve kaydedildiğini kontrol edebilirsiniz — ZIP arşivini PDF'ye dönüştürme gibi senaryolar için mükemmeldir.
+
+## ZIP'i PDF'ye Dönüştürmek İçin Neden Boru Hattı Kullanmalı?
+- **İnce ayarlı kontrol** – İş akışınıza uygun olarak işleyicileri ekleyin, yeniden sıralayın veya kaldırın.  
+- **Performans içgörüleri** – Dar boğazları belirlemek için istek süresini kaydedin.  
+- **Genişletilebilirlik** – Kendi mantığınızı (ör. kimlik doğrulama, önbellekleme) ekleyin.  
+- **Güvenilirlik** – Kütüphane bozuk HTML gibi uç durumları otomatik olarak ele alır.
+
+## Ön Koşullar
+- **Java Development Kit (JDK) 8+** – `java -version` komutunun 8 veya daha yeni bir sürüm gösterdiğinden emin olun.  
+- **Aspose.HTML for Java kütüphanesi** – [Aspose indirmeleri](https://releases.aspose.com/html/java/) sayfasından indirin.  
+- **Bir IDE** – IntelliJ IDEA, Eclipse veya NetBeans kodlamayı kolaylaştırır.  
+- **Temel Java ve HTML bilgisi** – Faydalı ama zorunlu değil.
+
 ## Paketleri İçe Aktar
-Artık önkoşulları karşıladığınıza göre, gerekli paketleri içe aktarma zamanı. Java projenizde Aspose.HTML ile çalışmak için, kodunuza Aspose.HTML kütüphanesini eklemeniz gerekir. Bunu şu şekilde yapabilirsiniz:
+Başlamak için ihtiyacımız olan sınıfları içe aktarın. Bu içe aktarmalar, yapılandırma, ağ ve PDF render özelliklerine erişim sağlar.
+
 ```java
 import com.aspose.html.Configuration;
 import com.aspose.html.HTMLDocument;
@@ -36,95 +51,112 @@ import com.aspose.html.net.MessageHandlerCollection;
 import com.aspose.html.rendering.pdf.PdfDevice;
 import com.aspose.html.services.INetworkService;
 ```
-Artık sahneyi hazırladığımıza göre, kolları sıvayıp sağlanan kod parçacığını kullanarak mesaj işleyici boru hatlarının nasıl oluşturulacağının katlanmasına geçelim. Her adımı açıklık için inceleyeceğiz.
-## Adım 1: Dosyalara Giden Yolları Hazırlayın
 
+## Adım‑Adım Kılavuz
+
+### Adım 1: Dosya Yollarını Hazırlayın
 ```java
-// Kaynak zip dosyasına giden yolu hazırlayın
+// Prepare path to a source zip file
 String documentPath = "input/test.zip";
-// Dönüştürülen dosyanın kaydedilmesi için yolu hazırlayın
+// Prepare path for converted file saving
 String savePath = "output/zip-to-pdf-duration.pdf";
 ```
+`documentPath` değişkenini HTML dosyalarınızı içeren ZIP dosyasına, `savePath` değişkenini ise nihai PDF'in kaydedileceği konuma ayarlayın.
 
- İlk önce, kaynak ZIP dosyası ve çıktı PDF dosyası için yolları ayarlamamız gerekiyor. Burada,`documentPath` HTML içeriğinizi içeren giriş ZIP dosyanızın yolunu belirttiğiniz yer burasıdır ve`savePath`dönüştürülen PDF'in kaydedileceği yerdir. Daha sonra dosya bulunamadı hatalarından kaçınmak için bu yolların doğru olduğundan emin olmak önemlidir.
-## Adım 2: Bir Yapılandırma Örneği Oluşturun
-
+### Adım 2: Bir Configuration Örneği Oluşturun
 ```java
-// Yapılandırma sınıfının bir örneğini oluşturun
+// Create an instance of the Configuration class
 Configuration configuration = new Configuration();
 ```
+`Configuration` nesnesi, işleme boru hattını özelleştirmenin temelidir.
 
-Belgemizi ve işleme hattını kurmamıza izin verecek bir yapılandırma örneği oluşturmamız gerekiyor. Yapılandırma sınıfını kuruluşunuzun kurulum el kitabı olarak düşünün; etkili belge işleme için her şey hazır.
-## Adım 3: Ağ Hizmetini Başlatın
-
+### Adım 3: Ağ Hizmetini Başlatın
 ```java
 INetworkService service = configuration.getService(INetworkService.class);
 MessageHandlerCollection handlers = service.getMessageHandlers();
 ```
+Burada **ağ hizmetini yapılandırıyoruz** ve özel işleyiciler eklemek için araç kutusu olan `MessageHandlerCollection`'ı elde ediyoruz.
 
- Burada, şunu başlatıyoruz:`INetworkService` ileti işleyicilerimizin iletişimini ve işlenmesini yönetir. Ayrıca, iletileri alıyoruz`MessageHandlerCollection`, temel olarak boru hattı boyunca farklı işleyicileri eklemek ve yönetmek için kullandığımız araç kutusudur.
-## Adım 4: ZIP Dosyası Mesaj İşleyicisini Ekleyin
-
+### Adım 4: ZIP Dosyası Mesaj İşleyicisini Ekleyin
 ```java
-// Özel Şema: ZIP. Boru hattının sonuna ZipFileSchemaMessageHandler ekleyin
+// Custom Schema: ZIP. Add ZipFileSchemaMessageHandler to the end of the pipeline
 handlers.addItem(new ZIPFileSchemaMessageHandler(documentPath));
 ```
+**Özel bir işleyici** (`ZIPFileSchemaMessageHandler`) ekleyerek Aspose.HTML'e ZIP dosyasını sanal bir dosya sistemi gibi nasıl ele alacağını söylüyoruz.
 
- Şimdi eğlenceli kısma geliyoruz! Şunu ekliyoruz:`ZIPFileSchemaMessageHandler`ZIP dosyamızı işlemekten sorumludur. Bu işleyici, ZIP içindeki HTML dosyalarını alıp dönüştürme işlemi için hazırlamak üzere sahne arkasında çalışır. Bunu, ana montaj hattına girmeden önce öğeleri sıralayan bir birey olarak düşünün!
-## Adım 5: Başlatma İsteği Süresi Günlük Kaydı İşleyicisini Ekle
-
+### Adım 5: Başlangıç İstek Süresi Günlüğü İşleyicisini Ekleyin
 ```java
-// Süre Günlüğü. StartRequestDurationLoggingMessageHandler'ı boru hattının ilk yerine ekleyin
+// Duration Logging. Add the StartRequestDurationLoggingMessageHandler at the first place in the pipeline
 handlers.insertItem(0, new StartRequestDurationLoggingMessageHandler());
 ```
+Bu işleyici, boru hattının en başında **istek süresini kaydeder**, işleme ne zaman başladığını gösteren bir zaman damgası sağlar.
 
- Sonra, isteğimizin işlenmesinin ne kadar sürdüğünü takip etmek istiyoruz. Bunu, şunu ekleyerek başarıyoruz:`StartRequestDurationLoggingMessageHandler` boru hattımızın başlangıcında. Bu, bir yarışın başlangıcında bir zamanlayıcı ayarlamak gibidir, böylece sistemimizin ne kadar verimli çalıştığını kaydedebiliriz!
-## Adım 6: Durdurma İsteği Süresi Kayıt İşleyicisini ekleyin
-
+### Adım 6: Durdurma İstek Süresi Günlüğü İşleyicisini Ekleyin
 ```java
-// StopRequestDurationLoggingMessageHandler'ı boru hattının sonuna ekleyin
+// Add the StopRequestDurationLoggingMessageHandler to the end of the pipeline
 handlers.addItem(new StopRequestDurationLoggingMessageHandler());
 ```
+Bunu sonuna yerleştirerek ZIP'in PDF'ye dönüştürülmesi için harcanan toplam süreyi yakalayabilirsiniz.
 
- Benzer şekilde şunu da ekliyoruz:`StopRequestDurationLoggingMessageHandler`işleme hattının sonuna. Bu işleyici, istek işlememizin sonunu işaretleyecek ve toplam süreyi yakalamamızı sağlayacak, yarış bitiş çizgisi anımız olarak hizmet edecektir.
-## Adım 7: HTML Belgesini Başlatın
-
+### Adım 7: HTML Belgesini Başlatın
 ```java
-// Belirtilen yapılandırmayla bir HTML belgesini başlatın
-HTMLDocument document = new HTMLDocument("zip-file:///test.html", yapılandırma);
+// Initialize an HTML document with specified configuration
+HTMLDocument document = new HTMLDocument("zip-file:///test.html", configuration);
 ```
+`HTMLDocument`'i ZIP içindeki giriş HTML dosyasına (`zip-file:///test.html`) yönlendiriyoruz. Önceden oluşturduğumuz yapılandırma otomatik olarak uygulanır.
 
-Bu noktada, bir HTML belge örneği oluşturmaya hazırlanıyoruz. ZIP içindeki HTML dosyasının yolunu belirtiyoruz ve yapılandırmamızı geçiyoruz. Bu adım, içeriğimizi az önce yapılandırdığımız boru hattına bağladığı için önemlidir.
-## Adım 8: PDF Aygıtını Oluşturun
-
+### Adım 8: PDF Aygıtını Oluşturun
 ```java
-// PDF Aygıtını Oluşturun
+// Create the PDF Device
 PdfDevice device = new PdfDevice(savePath);
 ```
+**PDF aygıtı** (`PdfDevice`), **ZIP içeriğinden PDF oluşturur**. Render edilen sayfaları alır ve `savePath`'e yazar.
 
- Burada, hazırlıyoruz`PdfDevice` HTML içeriğini PDF formatına dönüştürmekten sorumludur. Güzelce hazırlanmış HTML'nizi taşınabilir bir belge formatına dönüştüren ve paylaşıma hazır hale getiren sihirli makinedir!
-## Adım 9: ZIP'i PDF'e dönüştürün
-
+### Adım 9: ZIP'i PDF'ye Render Edin
 ```java
-// ZIP'i PDF'e dönüştür
+// Render ZIP to PDF
 document.renderTo(device);
 ```
+`renderTo` çağrısı tüm boru hattını tetikler: ZIP açılır, HTML render edilir, süre kaydedilir ve nihai PDF yazılır.
 
- Son olarak şunu çağırıyoruz:`renderTo`dönüştürme sürecini başlatma yöntemi. Burada lastik yola temas eder; HTML içeriğimiz PDF formatına dönüştürülür ve daha önce belirtilen yola kaydedilir. Anında tatmin!
-## Çözüm
-Tebrikler! Java için Aspose.HTML'de ileti işleyici boru hatlarının oluşturulmasını yeni tamamladınız. Yapılandırma, işleyiciler ve belge başlatmanın bir karışımıyla, ZIP dosyalarını sorunsuz bir şekilde PDF'ye nasıl dönüştüreceğinizi öğrendiniz. Bu kitaplığın güzelliği, size dahil olan adımlar üzerinde tam kontrol sağlarken belgeleri verimli bir şekilde işleme yeteneğinde yatmaktadır. 
-Yani, ister raporlar oluşturmak, ister bilgi paylaşmak veya sunumlar oluşturmak isteyin, Aspose.HTML sizin yanınızda. İyi kodlamalar ve HTML-PDF dönüşümleriniz hızlı ve zahmetsiz olsun!
-## SSS
-### Java için Aspose.HTML nedir?
-Java için Aspose.HTML, PDF gibi farklı formatlar arasında dönüşüme olanak tanıyan, HTML belgelerini işlemek için kullanılan bir kütüphanedir.
-### Java için Aspose.HTML'yi nasıl indirebilirim?
- Bunu şuradan indirebilirsiniz:[Aspose indirme bağlantısı](https://releases.aspose.com/html/java/).
-### Aspose.HTML'i ücretsiz kullanabilir miyim?
- Evet, Aspose ücretsiz deneme sunuyor. Kaydolabilirsiniz[Burada](https://releases.aspose.com/).
-### Aspose.HTML için desteği nerede bulabilirim?
-Herhangi bir sorunuz varsa, şu adresi ziyaret edebilirsiniz:[Aspose Destek Forumu](https://forum.aspose.com/c/html/29).
-### Aspose.HTML'deki mesaj işleyicileri nelerdir?
-İleti işleyicileri, belge işleme sürecindeki çeşitli aşamaları (örneğin, süreleri günlüğe kaydetme veya belge biçimlerini dönüştürme) işleyen bileşenlerdir.
+## Yaygın Sorunlar ve Çözümler
+| Sorun | Neden | Çözüm |
+|-------|-------|-----|
+| `FileNotFoundException` | Yanlış `documentPath` veya `savePath` | Yolların çalışma dizinine göre mutlak ya da göreli olduğundan emin olun. |
+| PDF'de içerik yok | `HTMLDocument` yapıcısında yanlış giriş HTML adı | Dosya adının ZIP içindeki HTML dosyası (`test.html`) ile tam olarak eşleştiğinden emin olun. |
+| Süre kaydedilmedi | İşleyiciler doğru sırada eklenmemiş | `StartRequestDurationLoggingMessageHandler`'ı indeks 0'da ve `StopRequestDurationLoggingMessageHandler`'ı diğer tüm işleyicilerden sonra ekleyin. |
+| Desteklenmeyen HTML özellikleri | Aspose.HTML tarafından desteklenmeyen CSS/JS kullanımı | İşaretlemeyi basitleştirin veya render öncesi HTML'i ön işleme tabi tutun. |
+
+## Sıkça Sorulan Sorular
+
+**S: Aspose.HTML for Java nedir?**  
+C: Aspose.HTML for Java, HTML belgelerini manipüle etmeyi ve PDF, görüntü ve EPUB gibi formatlara dönüştürmeyi sağlayan bir kütüphanedir.
+
+**S: Aspose.HTML for Java nasıl indirilir?**  
+C: [Aspose indirmeleri](https://releases.aspose.com/html/java/) sayfasından indirebilirsiniz.
+
+**S: Aspose.HTML'i ücretsiz kullanabilir miyim?**  
+C: Evet, ücretsiz bir deneme sürümü mevcuttur. [Buradan](https://releases.aspose.com/) kaydolabilirsiniz.
+
+**S: Aspose.HTML için destek nereden bulunur?**  
+C: Topluluk ve Aspose mühendislerinden yardım almak için [Aspose Destek Forumunu](https://forum.aspose.com/c/html/29) ziyaret edin.
+
+**S: Aspose.HTML'de mesaj işleyicileri nedir?**  
+C: Mesaj işleyicileri, boru hattı içinde ağ isteklerini yakalayan ve işleyen bileşenlerdir — günlük tutma, kimlik doğrulama veya özel içerik alma gibi durumlar için faydalıdır.
+
+**S: Kendi özel işleyicimi nasıl ekleyebilirim?**  
+C: `IMessageHandler` arayüzünü uygulayın ve `handlers.addItem(new MyCustomHandler())` ile `MessageHandlerCollection`'a ekleyin.
+
+**S: Birden fazla ZIP dosyasını toplu olarak dönüştürmek mümkün mü?**  
+C: Evet—ZIP yollarının bir listesi üzerinde döngü yaparak, aynı yapılandırma ve boru hattını her yineleme için yeniden kullanabilirsiniz.
+
+## Sonuç
+Artık Aspose.HTML for Java kullanarak **zip** arşivlerini PDF dosyalarına nasıl dönüştüreceğinizi biliyorsunuz; yapılandırılabilir bir ağ hizmeti, özel ZIP işleyicisi ve kesin istek‑süre kaydıyla birlikte. Bu boru hattı, dönüşüm süreci üzerinde tam kontrol sağlar ve otomatik raporlama, belge arşivleme veya HTML içeriğinin PDF olarak paketlenmesi gereken herhangi bir senaryo için idealdir.
+
+**Son Güncelleme:** 2026-02-23  
+**Test Edilen Versiyon:** Aspose.HTML for Java 24.11  
+**Yazar:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
