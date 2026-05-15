@@ -123,25 +123,6 @@ O: Dodaj handler logujący (np. `new LoggingHandler()`) po handlerze poświadcze
 ## Zakończenie
 Postępując zgodnie z tymi krokami, teraz wiesz **jak obsługiwać poświadczenia aspose html** w sposób czysty i wielokrotnego użytku. Potok poświadczeń nie tylko zabezpiecza Twoje wywołania HTTP, ale także utrzymuje kod schludny i łatwy w utrzymaniu. Śmiało rozszerz łańcuch handlerów o logowanie, buforowanie lub własne mechanizmy uwierzytelniania, aby dopasować go do specyficznych potrzeb projektu.
 
-## FAQ's
-### Do czego służy Aspose.HTML for Java?
-Aspose.HTML for Java to potężna biblioteka przeznaczona do manipulacji dokumentami HTML, w tym ich odczytu, zapisu i konwersji do różnych formatów.
-### Czy potrzebuję licencji, aby używać Aspose.HTML for Java?
-Możesz korzystać z biblioteki w ograniczonym zakresie za darmo; jednak pełny dostęp i wszystkie funkcje wymagają zakupu licencji [tutaj](https://purchase.aspose.com/buy).
-### Gdzie mogę znaleźć wsparcie dla Aspose.HTML?
-Pomoc znajdziesz na [forum wsparcia Aspose](https://forum.aspose.com/c/html/29).
-### Jak uzyskać tymczasową licencję dla Aspose.HTML for Java?
-Tymczasową licencję do testów możesz uzyskać [tutaj](https://purchase.aspose.com/temporary-license/).
-### Czy dostępna jest darmowa wersja próbna Aspose.HTML for Java?
-Tak, darmową wersję próbną możesz pobrać [tutaj](https://releases.aspose.com/).
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Ostatnia aktualizacja:** 2026-02-20  
@@ -149,3 +130,10 @@ Tak, darmową wersję próbną możesz pobrać [tutaj](https://releases.aspose.c
 **Autor:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

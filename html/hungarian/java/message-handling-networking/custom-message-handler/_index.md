@@ -10,16 +10,6 @@ url: /hu/java/message-handling-networking/custom-message-handler/
 weight: 11
 ---
 
- translate to "## Gyors válaszok". etc.
-
-Let's craft.
-
-Also ensure we keep markdown tables.
-
-Translate each sentence.
-
-Let's do.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -10,14 +10,6 @@ url: /pt/java/message-handling-networking/credentials-pipeline/
 weight: 10
 ---
 
- translation could be "manusear credenciais aspose html". We'll translate but keep "Aspose.HTML" unchanged.
-
-Let's translate each section.
-
-Make sure to keep markdown formatting.
-
-Let's craft final output.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
@@ -131,25 +123,6 @@ R: Adicione um manipulador de registro (ex.: `new LoggingHandler()`) após o man
 ## Conclusão
 Seguindo estes passos, você agora sabe **como handle credentials aspose html** de forma limpa e reutilizável. O pipeline de credenciais não só protege suas chamadas HTTP como também mantém seu código organizado e fácil de manter. Sinta‑se à vontade para estender a cadeia de manipuladores com registro, cache ou mecanismos de autenticação personalizados para atender às necessidades específicas do seu projeto.
 
-## FAQ's
-### O que é o Aspose.HTML para Java?
-Aspose.HTML para Java é uma biblioteca poderosa projetada para manipular documentos HTML, incluindo leitura, gravação e conversão para vários formatos.
-### Preciso de licença para usar o Aspose.HTML para Java?
-Você pode usar a biblioteca em capacidade limitada gratuitamente; porém, para acesso total e recursos completos, será necessário adquirir uma licença [aqui](https://purchase.aspose.com/buy).
-### Onde posso encontrar suporte para o Aspose.HTML?
-Para ajuda, visite o [fórum de suporte da Aspose](https://forum.aspose.com/c/html/29).
-### Como obter uma licença temporária para o Aspose.HTML para Java?
-Você pode adquirir uma licença temporária para testes [aqui](https://purchase.aspose.com/temporary-license/).
-### Existe uma versão de avaliação gratuita do Aspose.HTML para Java?
-Sim, você pode baixar uma versão de avaliação gratuita [aqui](https://releases.aspose.com/).
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Última atualização:** 2026-02-20  
@@ -157,3 +130,10 @@ Sim, você pode baixar uma versão de avaliação gratuita [aqui](https://releas
 **Autor:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

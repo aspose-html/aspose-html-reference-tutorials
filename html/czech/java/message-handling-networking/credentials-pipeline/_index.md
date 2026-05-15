@@ -123,25 +123,6 @@ A: Přidejte logging handler (např. `new LoggingHandler()`) za credential handl
 ## Závěr
 Po absolvování těchto kroků nyní víte, **jak zacházet s přihlašovacími údaji v Aspose.HTML pro Java** čistým a znovupoužitelným způsobem. Pipeline pro přihlašovací údaje nejen zabezpečuje vaše HTTP volání, ale také udržuje kód přehledný a snadno udržovatelný. Neváhejte rozšířit řetězec handlerů o logování, cache nebo vlastní autentizační mechanismy podle specifických potřeb vašeho projektu.
 
-## FAQ's
-### K čemu slouží Aspose.HTML for Java?
-Aspose.HTML for Java je výkonná knihovna určená k manipulaci s HTML dokumenty, včetně čtení, zápisu a konverze do různých formátů.
-### Potřebuji licenci pro použití Aspose.HTML for Java?
-Knihovnu můžete používat v omezeném rozsahu zdarma; pro plný přístup a všechny funkce je nutné zakoupit licenci [zde](https://purchase.aspose.com/buy).
-### Kde najdu podporu pro Aspose.HTML?
-Pro pomoc navštivte [Aspose support forum](https://forum.aspose.com/c/html/29).
-### Jak získám dočasnou licenci pro Aspose.HTML for Java?
-Dočasnou licenci pro testovací účely získáte [zde](https://purchase.aspose.com/temporary-license/).
-### Je k dispozici bezplatná zkušební verze Aspose.HTML for Java?
-Ano, bezplatnou zkušební verzi si můžete stáhnout [zde](https://releases.aspose.com/).
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Poslední aktualizace:** 2026-02-20  
@@ -149,3 +130,10 @@ Ano, bezplatnou zkušební verzi si můžete stáhnout [zde](https://releases.as
 **Autor:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

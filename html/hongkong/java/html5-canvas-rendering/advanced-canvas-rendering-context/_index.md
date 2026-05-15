@@ -8,9 +8,7 @@ url: /zh-hant/java/html5-canvas-rendering/advanced-canvas-rendering-context/
 weight: 10
 ---
 
- formatting.
-
-Proceed to final.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

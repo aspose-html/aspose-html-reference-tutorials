@@ -123,21 +123,11 @@ C: Kimlik işleyicisinden sonra bir günlükleme işleyicisi (ör. `new LoggingH
 ## Sonuç
 Bu adımları izleyerek **handle credentials aspose html** konusunu temiz ve yeniden kullanılabilir bir şekilde nasıl yöneteceğinizi öğrendiniz. Kimlik bilgileri boru hattı, HTTP çağrılarınızı güvenli kılmakla kalmaz, aynı zamanda kod tabanınızı düzenli ve bakım yapılabilir tutar. İhtiyacınıza göre işlem zincirine günlükleme, önbellekleme veya özel kimlik doğrulama mekanizmaları ekleyerek projenizi daha da güçlendirebilirsiniz.
 
-## SSS'ler
-### Aspose.HTML for Java ne için kullanılır?
-Aspose.HTML for Java, HTML belgelerini okuma, yazma ve çeşitli formatlara dönüştürme gibi işlemleri gerçekleştirmek için tasarlanmış güçlü bir kütüphanedir.
+---
 
-### Aspose.HTML for Java kullanmak için lisansa ihtiyacım var mı?
-Kütüphaneyi sınırlı bir kapasiteyle ücretsiz olarak kullanabilirsiniz; ancak tam erişim ve tüm özellikler için [buradan](https://purchase.aspose.com/buy) bir lisans satın almanız gerekir.
-
-### Aspose.HTML için destek nereden bulabilirim?
-Yardım almak için [Aspose destek forumunu](https://forum.aspose.com/c/html/29) ziyaret edebilirsiniz.
-
-### Aspose.HTML for Java için geçici lisans nasıl alınır?
-Test amaçlı geçici bir lisansı [buradan](https://purchase.aspose.com/temporary-license/) edinebilirsiniz.
-
-### Aspose.HTML for Java için ücretsiz deneme mevcut mu?
-Evet, ücretsiz deneme sürümünü [buradan](https://releases.aspose.com/) indirebilirsiniz.
+**Son Güncelleme:** 2026-02-20  
+**Test Edilen:** Aspose.HTML for Java (latest release)  
+**Yazar:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -145,9 +135,3 @@ Evet, ücretsiz deneme sürümünü [buradan](https://releases.aspose.com/) indi
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Son Güncelleme:** 2026-02-20  
-**Test Edilen:** Aspose.HTML for Java (latest release)  
-**Yazar:** Aspose

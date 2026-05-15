@@ -123,25 +123,6 @@ document.dispose();
 ## الخاتمة
 باتباعك لهذه الخطوات، أصبحت الآن تعرف **كيفية معالجة بيانات الاعتماد aspose html** بطريقة نظيفة وقابلة لإعادة الاستخدام. خط أنابيب الاعتماد لا يحمي طلبات HTTP فحسب، بل يحافظ أيضًا على نظافة قاعدة الشيفرة وسهولة صيانتها. لا تتردد في توسيع سلسلة المعالجات بإضافة تسجيل، تخزين مؤقت، أو آليات مصادقة مخصصة لتناسب احتياجات مشروعك المحددة.
 
-## الأسئلة المتكررة
-### ما هو الاستخدام الرئيسي لـ Aspose.HTML for Java؟
-Aspose.HTML for Java هي مكتبة قوية صُممت لمعالجة مستندات HTML، بما في ذلك القراءة، الكتابة، والتحويل إلى صيغ مختلفة.
-### هل أحتاج إلى ترخيص لاستخدام Aspose.HTML for Java؟
-يمكنك استخدام المكتبة بقدرات محدودة مجانًا؛ ومع ذلك، للوصول الكامل إلى جميع الميزات، سيتوجب عليك شراء ترخيص [من هنا](https://purchase.aspose.com/buy).
-### أين يمكنني العثور على الدعم الخاص بـ Aspose.HTML؟
-للحصول على المساعدة، يمكنك زيارة [منتدى دعم Aspose](https://forum.aspose.com/c/html/29).
-### كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.HTML for Java؟
-يمكنك الحصول على ترخيص مؤقت لأغراض الاختبار [من هنا](https://purchase.aspose.com/temporary-license/).
-### هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.HTML for Java؟
-نعم، يمكنك تنزيل نسخة تجريبية مجانية [من هنا](https://releases.aspose.com/).
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **آخر تحديث:** 2026-02-20  
@@ -149,3 +130,10 @@ Aspose.HTML for Java هي مكتبة قوية صُممت لمعالجة مستن
 **المؤلف:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -8,31 +8,23 @@ url: /ja/java/message-handling-networking/credentials-pipeline/
 weight: 10
 ---
 
- With", "Author". Could translate? The content is not required to be translated? It's part of page content. Should translate to Japanese. Keep dates unchanged.
-
-Proceed.
-
-Make sure not to translate URLs.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # handle credentials aspose html – Aspose.HTML for Java の認証パイプラインの取り扱い
 
-## Introduction
+## はじめに
 今日のハイパーコネクテッドな世界では、**handle credentials aspose html** は、ネットワーク越しに HTML コンテンツを取得または投稿する Java アプリケーションを構築するすべての人にとって必須のスキルです。Aspose.HTML for Java を使用すると、Web サービスとやり取りしながらユーザー名、パスワード、トークンを安全に保つことができる、強力で高性能なエンジンが手に入ります。このチュートリアルでは、認証パイプラインを設定する正確な手順を解説し、各要素がなぜ重要かを説明し、リソースの適切なクリーンアップ方法を示します。
 
-## Quick Answers
+## よくある質問
 - **“handle credentials aspose html” とは何ですか？** ドキュメントをロードする際に、認証データ（例: Basic 認証）を自動的に提供するよう Aspose.HTML のネットワーク層を構成することを指します。  
 - **サンプルを実行するのにライセンスは必要ですか？** 開発目的であれば無料トライアルで動作します。商用環境では商用ライセンスが必要です。  
 - **対応している Java のバージョンは？** Aspose.HTML for Java は JDK 8 以降をサポートしています。  
 - **他の認証方式は使用できますか？** はい – ライブラリは NTLM、OAuth、カスタムハンドラもサポートしています。  
 - **コードはスレッドセーフですか？** `Configuration` オブジェクトは共有可能ですが、各スレッドは独自の `HTMLDocument` インスタンスを使用すべきです。
 
-## Prerequisites
+## 前提条件
 本格的に取り組む前に、以下が揃っていることを確認してください。
 
 1. **Java Development Kit (JDK)** – バージョン 8 以上。  
@@ -40,7 +32,7 @@ Now produce final content.
 3. **IDE** – IntelliJ IDEA、Eclipse、またはお好みのエディタ。  
 4. **基本的な Java 知識** – クラス、オブジェクト、例外処理に慣れていること。
 
-## Import Packages
+## パッケージのインポート
 前提条件が整ったら、必要なクラスをインポートします。このインポートにより、Aspose.HTML のコアネットワーキング API にアクセスできます。
 
 ```java
@@ -50,25 +42,25 @@ import com.aspose.html.net.MessageHandlerCollection;
 import com.aspose.html.services.INetworkService;
 ```
 
-## What is “handle credentials aspose html”?
+## 「Aspose HTML で資格情報を処理する」とは？
 このフレーズは、Aspose.HTML の内部ネットワークサービスに **CredentialHandler**（または任意のカスタム `MessageHandler`）を付与するプロセスを指します。このハンドラは送信される HTTP リクエストをインターセプトし、必要な認証ヘッダーを注入した後、リクエストを安全に続行させます。建物に入る前に訪問者をチェックする警備員のようなものです。
 
-## Why use Aspose.HTML’s credential pipeline?
+## Aspose.HTML の資格情報パイプラインを使用する理由
 - **組み込みのセキュリティ** – 各リクエストごとに `Authorization` ヘッダーを手動で作成する必要がありません。  
 - **再利用性** – ハンドラを登録すると、同じ `Configuration` で作成されたすべての `HTMLDocument` が自動的に認証情報を継承します。  
 - **拡張性** – ビジネスロジックを変更せずに、ロギング、キャッシュ、プロキシなど複数のハンドラをチェーンできます。  
 - **パフォーマンス** – ライブラリは可能な限り接続を再利用し、レイテンシを低減します。
 
-## Step‑by‑Step Guide
+## ステップバイステップガイド
 
-### Step 1: Create a Configuration Instance
+### ステップ 1: 設定インスタンスを作成する
 まず、`Configuration` オブジェクトを作成します。このオブジェクトは Aspose.HTML がサービス、ハンドラ、その他のオプションを保持する中心的な場所です。
 
 ```java
 Configuration configuration = new Configuration();
 ```
 
-### Step 2: Insert the CredentialHandler into the Message Handler Chain
+### ステップ 2: メッセージ ハンドラー チェーンに CredentialHandler を挿入する
 次に、`Configuration` からネットワークサービスを取得し、ハンドラコレクションの先頭にカスタム `CredentialHandler` を挿入します。インデックス 0 に配置することで、他のハンドラより先に実行されます。
 
 ```java
@@ -79,14 +71,14 @@ handlers.insertItem(0, new CredentialHandler());
 
 > **Pro tip:** 複数の認証方式をサポートする必要がある場合は、`CredentialHandler` の後に追加のハンドラを配置しても優先順位に影響しません。
 
-### Step 3: Load an HTML Document with the Configured Credentials
+### ステップ 3: 設定済みの資格情報を使用して HTML ドキュメントを読み込む
 ここでは、先ほど設定した `Configuration` を使用して `HTMLDocument` を作成します。例で使用する URL は、Basic 認証が必要な公開テストサービス（`httpbin.org`）を指しています。
 
 ```java
 HTMLDocument document = new HTMLDocument("https://httpbin.org/basic-auth/username/securelystoredpassword", configuration);
 ```
 
-### Step 4: (Optional) Retrieve the Document Content
+### ステップ 4: (オプション) ドキュメントの内容を取得する
 取得した HTML を確認したい場合は、ドキュメントを文字列に変換して出力します。この手順はデバッグや DOM API での更なる処理に便利です。
 
 ```java
@@ -94,22 +86,22 @@ String content = document.toString();
 System.out.println(content);
 ```
 
-### Step 5: Clean Up Resources
+### ステップ 5: リソースをクリーンアップする
 作業が完了したら必ず `HTMLDocument` を破棄してください。これによりネイティブリソースが解放され、メモリリークを防げます。特に長時間稼働するサービスでは重要です。
 
 ```java
 document.dispose();
 ```
 
-## Common Issues and Solutions
-| Issue | Reason | Fix |
+## よくある問題と解決策
+| 問題 | 原因 | 解決策 |
 |-------|--------|-----|
 | **Authentication fails** | ユーザー名/パスワードが間違っている、またはハンドラが登録されていない。 | `CredentialHandler` 内の認証情報を確認し、`handlers.insertItem(0, …)` がドキュメント作成前に実行されていることを確認してください。 |
 | **NullPointerException on `service`** | `Configuration` が正しく初期化されていない。 | `getService` を呼び出す **前に** `Configuration` をインスタンス化してください。 |
 | **Memory leak after many documents** | `dispose()` が呼び出されていない。 | `try‑with‑resources` パターンを使用するか、`finally` ブロックで必ず `document.dispose()` を呼び出してください。 |
 | **Handler order matters** | 他のハンドラ（例: プロキシ）が認証ハンドラより先に実行される。 | 認証ハンドラをインデックス 0 に挿入するか、必要に応じてコレクションの順序を再配置してください。 |
 
-## Frequently Asked Questions
+## よくある質問
 
 **Q: `MessageHandlerCollection` の目的は何ですか？**  
 A: Aspose.HTML が行うネットワークリクエストを変更、ログ記録、またはブロックできるハンドラのチェーンを保持します。`CredentialHandler` をこのコレクションに追加すると、自動認証が有効になります。
@@ -126,31 +118,8 @@ A: はい。別途 `ProxyHandler` を作成し、同じ `MessageHandlerCollectio
 **Q: ネットワークトラフィックをデバッグするには？**  
 A: 認証ハンドラの後にロギングハンドラ（例: `new LoggingHandler()`）を追加すれば、リクエスト/レスポンスの詳細を取得できます。
 
-## Conclusion
+## まとめ
 この手順に従うことで、**handle credentials aspose html** をクリーンかつ再利用可能な方法で実装できました。認証パイプラインは HTTP 呼び出しを保護するだけでなく、コードベースを整然と保ち、保守性を向上させます。ロギング、キャッシュ、カスタム認証など、プロジェクト固有の要件に合わせてハンドラチェーンを拡張してください。
-
-## FAQ's
-### What is Aspose.HTML for Java used for?
-Aspose.HTML for Java は、HTML ドキュメントの読み取り、書き込み、さまざまな形式への変換などを行う強力なライブラリです。
-
-### Do I need a license to use Aspose.HTML for Java?
-ライブラリは機能制限付きで無料で利用できますが、フルアクセスと全機能を使用するには [here](https://purchase.aspose.com/buy) でライセンスを購入する必要があります。
-
-### Where can I find support for Aspose.HTML?
-サポートが必要な場合は、[Aspose support forum](https://forum.aspose.com/c/html/29) をご利用ください。
-
-### How can I obtain a temporary license for Aspose.HTML for Java?
-テスト目的の一時ライセンスは [here](https://purchase.aspose.com/temporary-license/) から取得できます。
-
-### Is there a free trial available for Aspose.HTML for Java?
-はい、無料トライアル版は [here](https://releases.aspose.com/) からダウンロードできます。
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ---
 
@@ -159,3 +128,10 @@ Aspose.HTML for Java は、HTML ドキュメントの読み取り、書き込み
 **作者:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

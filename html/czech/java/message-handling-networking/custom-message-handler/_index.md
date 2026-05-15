@@ -9,21 +9,7 @@ url: /cs/java/message-handling-networking/custom-message-handler/
 weight: 11
 ---
 
- but keep as is? Should translate "Tested With:" to Czech "Testováno s:". Keep the rest.)
-
-**Author:** Aspose (translate "Autor:" maybe). We'll translate.
-
-Then closing shortcodes remain.
-
-Also there is a backtop button shortcode after.
-
-Now produce final content with all translations.
-
-Make sure to keep code block placeholders unchanged.
-
-Also ensure markdown formatting preserved.
-
-Let's construct final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

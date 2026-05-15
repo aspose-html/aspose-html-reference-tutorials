@@ -16,31 +16,31 @@ weight: 10
 # Comment dessiner un dégradé sur Canvas avec Aspose.HTML pour Java
 
 ## Introduction
-Si vous travaillez avec du contenu web, vous savez déjà à quel point le Canvas HTML5 est essentiel pour rendre des graphiques directement dans le navigateur. Mais saviez‑vous que vous pouvez **comment dessiner un dégradé** directement dans vos applications Java ? Avec Aspose.HTML pour Java, vous pouvez créer, manipuler et rendre des éléments Canvas HTML5 de façon programmatique, vous offrant un contrôle total sur votre contenu web—sans navigateur. Ce tutoriel vous montre exactement comment dessiner un dégradé sur Canvas, exporter le canvas en PDF, et même dessiner un rectangle sur le canvas pour des visuels plus riches.
+Si vous travaillez avec du contenu web, vous savez déjà à quel point le Canvas HTML5 est essentiel pour rendre des graphiques directement dans le navigateur. Mais saviez‑vous que vous pouvez **comment dessiner un dégradé** directement dans vos applications Java ? Avec Aspose.HTML pour Java, vous pouvez créer, manipuler et rendre des éléments Canvas HTML5 de façon programmatique, vous offrant un contrôle total sur votre contenu web—sans navigateur. Ce tutoriel vous montre exactement comment dessiner un dégradé sur Canvas, exporter le canevas en PDF, et même dessiner un rectangle sur le canevas pour des visuels plus riches.
 
-## Quick Answers
-- **Quel est le but principal de ce guide ?** Apprenez comment dessiner un dégradé sur Canvas avec Aspose.HTML pour Java et exporter le résultat en PDF.  
-- **Quelle bibliothèque est requise ?** Aspose.HTML pour Java (dernière version).  
-- **Ai‑je besoin d’une licence ?** Une licence temporaire est disponible pour l’évaluation ; une licence complète est requise pour la production.  
-- **Puis‑je convertir le canvas en PDF ?** Oui, en utilisant le moteur de rendu intégré `PdfDevice`.  
-- **Quelle version de Java est prise en charge ?** JDK 8 ou supérieur.
+## Réponses rapides
+- **Quel est le but principal de ce guide ?** Apprenez comment dessiner un dégradé sur Canvas avec Aspose.HTML pour Java et exporter le résultat en PDF.
+- **Quelle bibliothèque est requise ?** Aspose.HTML pour Java (dernière version).
+- **Ai‑je besoin d’une licence ?** Une licence temporaire est disponible pour l’évaluation ; une licence complète est requise pour la production.
+- **Puis‑je convertir le canevas en PDF ?** Oui, en utilisant le moteur de rendu intégré `PdfDevice`.
+- **Quelle version de Java est prise en charge ?** JDK8 ou supérieur.
 
-## What is a Gradient on Canvas?
+## Qu'est-ce qu'un dégradé sur toile ?
 Un dégradé est une transition douce entre deux ou plusieurs couleurs. Dans l’API Canvas 2D, les dégradés vous permettent de remplir des formes ou du texte avec des mélanges de couleurs, créant ainsi des graphiques d’aspect professionnel sans images externes.
 
-## Why Use Aspose.HTML for Java to Render Canvas?
-- **Rendu côté serveur :** Aucun navigateur requis ; parfait pour les services backend.  
-- **Export PDF :** Convertir directement les dessins Canvas en PDF, XPS ou images.  
-- **Support complet du HTML :** Combinez Canvas avec d’autres éléments HTML pour des rapports complexes.  
+## Pourquoi utiliser Aspose.HTML pour Java pour rendre le canevas ?
+- **Rendu côté serveur :** Aucun navigateur requis ; parfait pour les services backend.
+- **Export PDF :** Convertir directement les dessins Canvas en PDF, XPS ou images.
+- **Support complet du HTML :** Combinez Canvas avec d'autres éléments HTML pour des rapports complexes.
 - **Multi‑plateforme :** Fonctionne sur tout système d’exploitation supportant Java.
 
-## Prerequisites
-1. **Bibliothèque Aspose.HTML pour Java** – Téléchargez‑la [ici](https://releases.aspose.com/html/java/). La documentation détaillée est disponible [ici](https://reference.aspose.com/html/java/).  
-2. **Kit de développement Java (JDK)** – Version 8 ou plus récente.  
-3. **IDE** – IntelliJ IDEA, Eclipse, NetBeans ou tout éditeur compatible Java.  
+## Prérequis
+1. **Bibliothèque Aspose.HTML pour Java** – Téléchargez‑la [ici](https://releases.aspose.com/html/java/). La documentation détaillée est disponible [ici](https://reference.aspose.com/html/java/).
+2. **Kit de développement Java (JDK)** – Version8 ou plus récente.
+3. **IDE** – IntelliJ IDEA, Eclipse, NetBeans ou tout éditeur compatible Java.
 4. **Connaissances de base en Java** – Familiarité avec les objets, les méthodes et les packages.
 
-## Import Packages
+## Importer des packages
 Avant de plonger dans le code, assurez‑vous d’importer les classes requises. Ces packages vous permettent de travailler avec des documents HTML, des éléments Canvas et le rendu PDF.
 
 ```java
@@ -122,28 +122,28 @@ document.renderTo(device);
 - **Le fichier PDF est vide ?** Vérifiez que `document.renderTo(device);` est appelé après toutes les commandes de dessin.  
 - **Le texte est flou ?** Augmentez la résolution du canvas (par ex., définissez une largeur/hauteur plus grande et réduisez l’échelle en CSS) avant le rendu.
 
-## Frequently Asked Questions
+## Questions fréquemment posées
 
 ### Quel est le but principal de l’élément Canvas HTML5 ?
-L’élément Canvas HTML5 est utilisé pour dessiner des graphiques—formes, texte, images—directement dans une page web ou, dans ce cas, dans un environnement serveur basé sur Java utilisant Aspose.HTML.
+L’élément Canvas HTML5 est utilisé pour dessiner des graphiques—formes, textes, images—directement dans une page web ou, dans ce cas, dans un environnement serveur basé sur Java utilisant Aspose.HTML.
 
 ### Puis‑je rendre d’autres éléments HTML en PDF avec Aspose.HTML pour Java ?
 Oui, Aspose.HTML pour Java peut rendre un large éventail d’éléments HTML en PDF, XPS, JPEG, PNG et autres formats, pas seulement le Canvas.
 
-### Est‑il possible d’animer des graphiques sur le Canvas HTML5 avec Aspose.HTML pour Java ?
-Aspose.HTML se concentre sur **static server‑side rendering**. Les animations en temps réel sont mieux gérées dans le navigateur avec JavaScript.
+### Est-il possible d’animer des graphiques sur le Canvas HTML5 avec Aspose.HTML pour Java ?
+Aspose.HTML se concentre sur le **rendu statique côté serveur**. Les animations en temps réel sont mieux gérées dans le navigateur avec JavaScript.
 
-### Puis‑je utiliser des polices personnalisées lors du dessin de texte sur le canvas ?
-Absolument. Aspose.HTML prend en charge les polices personnalisées ; assurez‑vous simplement que les fichiers de police sont accessibles au moteur de rendu.
+### Puis‑je utiliser des polices personnalisées lors du dessin de texte sur la toile ?
+Absolument. Aspose.HTML prend en charge les polices personnalisées; Assurez-vous simplement que les fichiers de police sont accessibles au moteur de rendu.
 
 ### Comment obtenir une licence temporaire pour tester Aspose.HTML pour Java ?
 Vous pouvez obtenir une licence temporaire en visitant [ici](https://purchase.aspose.com/temporary-license/) et en suivant les instructions pour évaluer le produit avec toutes ses fonctionnalités.
 
-### Comment **convertir le canvas en pdf** en une seule étape ?
-La combinaison de `PdfDevice` et `document.renderTo(device)` présentée aux étapes 7‑8 effectue la conversion automatiquement.
+### Comment **convertir le canevas en pdf** en une seule étape ?
+La combinaison de `PdfDevice` et `document.renderTo(device)` présentée aux étapes7‑8 effectue la conversion automatiquement.
 
-### Et si je dois **générer un pdf à partir de html** contenant plusieurs canvases ?
-Créez chaque canvas dans le même `HTMLDocument`, dessinez vos graphiques, puis appelez `document.renderTo(device)` une fois. Tous les canvases seront rendus dans le PDF final.
+### Et si je dois **générer un pdf à partir de html** contenant plusieurs toiles ?
+Créez chaque toile dans le même `HTMLDocument`, dessinez vos graphiques, puis appelez `document.renderTo(device)` une fois. Toutes les toiles seront rendues dans le PDF final.
 
 ## Conclusion
 Vous avez maintenant appris **comment dessiner un dégradé** sur un Canvas HTML5 avec Aspose.HTML pour Java, comment **dessiner un rectangle sur le canvas**, et comment **exporter le canvas en PDF**. Cette approche puissante côté serveur vous permet d’intégrer des graphiques riches dans des rapports, factures ou tout flux de travail de documents automatisé sans navigateur. Expérimentez avec différents dégradés, polices et formes pour créer des PDF époustouflants directement depuis Java.

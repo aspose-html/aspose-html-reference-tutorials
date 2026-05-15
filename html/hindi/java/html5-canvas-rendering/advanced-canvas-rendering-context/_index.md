@@ -9,16 +9,16 @@ url: /hi/java/html5-canvas-rendering/advanced-canvas-rendering-context/
 weight: 10
 ---
 
-.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.HTML for Java के साथ Canvas पर ग्रेडिएंट कैसे बनाएं
 
-## Introduction
+## परिचय
 यदि आप वेब कंटेंट के साथ काम कर रहे हैं, तो आप पहले से ही जानते हैं कि HTML5 Canvas ब्राउज़र में सीधे ग्राफिक्स रेंडर करने के लिए कितना महत्वपूर्ण है। लेकिन क्या आप जानते हैं कि आप अपने Java एप्लिकेशन के भीतर **ग्रेडिएंट कैसे बनाएं** सकते हैं? Aspose.HTML for Java के साथ, आप प्रोग्रामेटिकली HTML5 Canvas एलिमेंट्स को बना, संशोधित और रेंडर कर सकते हैं, जिससे आपको अपने वेब कंटेंट पर पूर्ण नियंत्रण मिलता है—बिना ब्राउज़र के। यह ट्यूटोरियल आपको दिखाता है कि Canvas पर ग्रेडिएंट कैसे बनाएं, Canvas को PDF के रूप में एक्सपोर्ट करें, और समृद्ध विज़ुअल्स के लिए Canvas पर रेक्टैंगल भी कैसे बनाएं।
 
-## Quick Answers
+## क्विक आंसर
 - **What is the primary purpose of this guide?** इस गाइड का मुख्य उद्देश्य क्या है?  
   Aspose.HTML for Java के साथ Canvas पर ग्रेडिएंट कैसे बनाएं और परिणाम को PDF में एक्सपोर्ट करना सीखें।  
 - **Which library is required?** कौन सी लाइब्रेरी आवश्यक है?  
@@ -30,22 +30,22 @@ weight: 10
 - **What Java version is supported?** कौन सा Java संस्करण समर्थित है?  
   JDK 8 या उससे ऊपर।
 
-## What is a Gradient on Canvas?
+## Canvas पर ग्रेडिएंट क्या है?
 ग्रेडिएंट दो या अधिक रंगों के बीच एक सुगम संक्रमण है। Canvas 2D API में, ग्रेडिएंट आपको आकार या टेक्स्ट को रंग मिश्रण से भरने की अनुमति देता है, जिससे बाहरी इमेजेज़ के बिना पेशेवर दिखने वाले ग्राफिक्स बनते हैं।
 
-## Why Use Aspose.HTML for Java to Render Canvas?
+## Canvas को रेंडर करने के लिए Aspose.HTML for Java का इस्तेमाल क्यों करें?
 - **Server‑side rendering:** ब्राउज़र की आवश्यकता नहीं; बैकएंड सर्विसेज़ के लिए परफेक्ट।  
 - **PDF export:** Canvas ड्रॉइंग्स को सीधे PDF, XPS, या इमेजेज़ में बदलें।  
 - **Full HTML support:** जटिल रिपोर्ट्स के लिए Canvas को अन्य HTML एलिमेंट्स के साथ संयोजित करें।  
 - **Cross‑platform:** किसी भी OS पर काम करता है जो Java को सपोर्ट करता है।
 
-## Prerequisites
+## ज़रूरी शर्तें
 1. **Aspose.HTML for Java Library** – इसे [here](https://releases.aspose.com/html/java/) से डाउनलोड करें। विस्तृत दस्तावेज़ [here](https://reference.aspose.com/html/java/) उपलब्ध हैं।  
 2. **Java Development Kit (JDK)** – संस्करण 8 या नया।  
 3. **IDE** – IntelliJ IDEA, Eclipse, NetBeans, या कोई भी Java‑compatible एडिटर।  
 4. **Basic Java knowledge** – ऑब्जेक्ट्स, मेथड्स, और पैकेजेज़ की परिचितता।
 
-## Import Packages
+## पैकेज इंपोर्ट करें
 कोड में कूदने से पहले, सुनिश्चित करें कि आवश्यक क्लासेज़ को इम्पोर्ट किया गया है। ये पैकेज आपको HTML दस्तावेज़, Canvas एलिमेंट्स, और PDF रेंडरिंग के साथ काम करने देते हैं।
 
 ```java
@@ -56,16 +56,16 @@ import com.aspose.html.dom.canvas.ICanvasGradient;
 import com.aspose.html.rendering.pdf.PdfDevice;
 ```
 
-## Step‑by‑Step Guide
+## स्टेप-बाय-स्टेप गाइड
 
-### Step 1: Create an Empty HTML Document
+### स्टेप 1: एक खाली HTML डॉक्यूमेंट बनाएं
 हम एक खाली `HTMLDocument` बनाकर शुरू करते हैं। यह दस्तावेज़ हमारे Canvas एलिमेंट को होस्ट करेगा।
 
 ```java
 com.aspose.html.HTMLDocument document = new com.aspose.html.HTMLDocument();
 ```
 
-### Step 2: Create and Configure the Canvas Element
+### स्टेप 2: कैनवस एलिमेंट बनाएं और कॉन्फ़िगर करें
 अगला, हम दस्तावेज़ में एक `<canvas>` टैग जोड़ते हैं, उसका आकार सेट करते हैं, और उसे पेज बॉडी में अटैच करते हैं।
 
 ```java
@@ -75,14 +75,14 @@ canvas.setHeight(150);
 document.getBody().appendChild(canvas);
 ```
 
-### Step 3: Obtain the Canvas Rendering Context
+### स्टेप 3: कैनवस रेंडरिंग कॉन्टेक्स्ट पाएं
 रेंडरिंग कॉन्टेक्स्ट (`2d`) वह “पेंटब्रश” है जिसका उपयोग आप आकार, टेक्स्ट, और ग्रेडिएंट ड्रॉ करने के लिए करेंगे।
 
 ```java
 com.aspose.html.dom.canvas.ICanvasRenderingContext2D context = (com.aspose.html.dom.canvas.ICanvasRenderingContext2D) canvas.getContext("2d");
 ```
 
-### Step 4: Prepare the Gradient Brush
+### स्टेप 4: ग्रेडिएंट ब्रश तैयार करें
 यहाँ हम एक लीनियर ग्रेडिएंट बनाते हैं जो कैनवास की चौड़ाई तक फैला होता है और तीन कलर स्टॉप्स जोड़ते हैं: मैजेंटा, ब्लू, और रेड।
 
 ```java
@@ -92,7 +92,7 @@ gradient.addColorStop(0.5, "blue");
 gradient.addColorStop(1.0, "red");
 ```
 
-### Step 5: Apply the Gradient and Draw Text
+### स्टेप 5: ग्रेडिएंट लगाएं और टेक्स्ट बनाएं
 हम दोनों fill और stroke स्टाइल्स को ग्रेडिएंट पर सेट करते हैं, फिर *Hello World!* टेक्स्ट को ग्रेडिएंट रंगों से रेंडर करते हैं।
 
 ```java
@@ -101,62 +101,73 @@ context.setStrokeStyle(gradient);
 context.fillText("Hello World!", 10, 90, 500);
 ```
 
-### Step 6: Draw a Rectangle on Canvas
+### स्टेप 6: कैनवस पर एक रेक्टेंगल बनाएं
 टेक्स्ट के नीचे एक ठोस रेक्टैंगल ड्रॉ किया जा सकता है। यह **draw rectangle on canvas** को दर्शाता है और दिखाता है कि ग्रेडिएंट फिल्स को कैसे प्रभावित करता है।
 
 ```java
 context.fillRect(0, 95, 300, 20);
 ```
 
-### Step 7: Set Up the PDF Output Device
+### स्टेप 7: PDF आउटपुट डिवाइस सेट अप करें
 Aspose.HTML आपको पूरे HTML (Canvas सहित) को एक ही लाइन कोड से PDF फ़ाइल में रेंडर करने की सुविधा देता है।
 
 ```java
 com.aspose.html.rendering.pdf.PdfDevice device = new com.aspose.html.rendering.pdf.PdfDevice("canvas.pdf");
 ```
 
-### Step 8: Render the HTML5 Canvas to PDF
+### स्टेप 8: HTML5 कैनवस को PDF में रेंडर करें
 अंत में, हम दस्तावेज़ को `PdfDevice` पर रेंडर करने के लिए कहते हैं। यह **export canvas as pdf** ऑपरेशन तेज़ और विश्वसनीय है।
 
 ```java
 document.renderTo(device);
 ```
 
-## Common Issues and Solutions
-- **Gradient not appearing?** ग्रेडिएंट नहीं दिख रहा? सुनिश्चित करें कि Canvas की चौड़ाई/ऊँचाई **रेंडरिंग कॉन्टेक्स्ट प्राप्त करने से पहले** सेट की गई हों।  
-- **PDF file is empty?** PDF फ़ाइल खाली है? यह सत्यापित करें कि सभी ड्रॉइंग कमांड्स के बाद `document.renderTo(device);` कॉल किया गया है।  
-- **Text looks blurry?** टेक्स्ट धुंधला दिख रहा है? रेंडरिंग से पहले Canvas रेज़ोल्यूशन बढ़ाएँ (जैसे, बड़ी चौड़ाई/ऊँचाई सेट करें और CSS में स्केल डाउन करें)।
+## आम दिक्कतें और समाधान
+- **ग्रेडिएंट नहीं दिख रहा है?** ग्रेडिएंट नहीं दिख रहा है? पक्का करें कि Canvas की चौड़ाई/ऊँचाई **रेंडरिंग कॉन्टेक्स्ट पाने से पहले** सेट की गई हो।
 
-## Frequently Asked Questions
+- **PDF फ़ाइल खाली है?** PDF फ़ाइल खाली है? यह चेक करें कि सभी ड्राइंग कमांड के बाद `document.renderTo(device);` कॉल किया गया है।
 
-### What is the main purpose of the HTML5 Canvas element?
-HTML5 Canvas एलिमेंट का मुख्य उद्देश्य ग्राफिक्स—आकार, टेक्स्ट, इमेजेज़—को सीधे वेब पेज में या इस मामले में Aspose.HTML का उपयोग करके Java‑आधारित सर्वर वातावरण में ड्रॉ करना है।
+- **टेक्स्ट धुंधला दिख रहा है?** टेक्स्ट धुंधला दिख रहा है? रेंडरिंग से पहले Canvas रेज़ोल्यूशन बढ़ाएँ (जैसे, बड़ी चौड़ाई/ऊँचाई सेट करें और CSS में स्केल डाउन करें)।
 
-### Can I render other HTML elements to PDF using Aspose.HTML for Java?
-हाँ, Aspose.HTML for Java विभिन्न HTML एलिमेंट्स को PDF, XPS, JPEG, PNG, और अन्य फॉर्मैट्स में रेंडर कर सकता है, केवल Canvas ही नहीं।
+## अक्सर पूछे जाने वाले सवाल
 
-### Is it possible to animate graphics on the HTML5 Canvas using Aspose.HTML for Java?
-Aspose.HTML **static server‑side rendering** पर केंद्रित है। रीयल‑टाइम एनीमेशन ब्राउज़र में JavaScript के साथ बेहतर हैंडल किए जाते हैं।
+### HTML5 Canvas एलिमेंट का मुख्य मकसद क्या है?
 
-### Can I use custom fonts when drawing text on the canvas?
-बिल्कुल। Aspose.HTML कस्टम फ़ॉन्ट्स को सपोर्ट करता है; बस यह सुनिश्चित करें कि फ़ॉन्ट फ़ाइलें रेंडरिंग इंजन के लिए उपलब्ध हों।
+HTML5 Canvas एलिमेंट का मुख्य मकसद graphics—size, text, images—को सीधे वेब पेज में या इस मामले में Aspose.HTML का इस्तेमाल करके Java‑based सर्वर एनवायरनमेंट में ड्रॉ करना है।
 
-### How can I get a temporary license to try out Aspose.HTML for Java?
-आप एक अस्थायी लाइसेंस [here](https://purchase.aspose.com/temporary-license/) पर जाकर प्राप्त कर सकते हैं और पूर्ण कार्यक्षमता के साथ उत्पाद का मूल्यांकन कर सकते हैं।
+### क्या मैं Java के लिए Aspose.HTML का इस्तेमाल करके दूसरे HTML एलिमेंट्स को PDF में रेंडर कर सकता हूँ?
 
-### How do I **convert canvas to pdf** in a single step?
-Steps 7‑8 में दिखाए गए `PdfDevice` और `document.renderTo(device)` के संयोजन से यह रूपांतरण स्वचालित रूप से होता है।
+हाँ, Java के लिए Aspose.HTML अलग-अलग HTML एलिमेंट्स को PDF, XPS, JPEG, PNG, और दूसरे फ़ॉर्मैट में रेंडर कर सकता है, सिर्फ़ Canvas ही नहीं।
 
-### What if I need to **generate pdf from html** that contains multiple canvases?
-एक ही `HTMLDocument` में प्रत्येक Canvas बनाएं, अपने ग्राफिक्स ड्रॉ करें, और फिर एक बार `document.renderTo(device)` कॉल करें। सभी Canvas अंतिम PDF में रेंडर हो जाएंगे।
 
-## Conclusion
-आपने अब Aspose.HTML for Java का उपयोग करके HTML5 Canvas पर **ग्रेडिएंट कैसे बनाएं**, **canvas पर रेक्टैंगल कैसे बनाएं**, और **canvas को PDF के रूप में एक्सपोर्ट कैसे करें** सीख लिया है। यह शक्तिशाली सर्वर‑साइड दृष्टिकोण आपको ब्राउज़र के बिना रिपोर्ट्स, इनवॉइस, या किसी भी ऑटोमेटेड डॉक्यूमेंट वर्कफ़्लो में समृद्ध ग्राफिक्स एम्बेड करने देता है। विभिन्न ग्रेडिएंट्स, फ़ॉन्ट्स, और आकारों के साथ प्रयोग करें और Java से सीधे शानदार PDFs बनाएं।
+## क्या Java के लिए Aspose.HTML का इस्तेमाल करके HTML5 Canvas पर ग्राफ़िक्स को एनिमेट करना मुमकिन है?
+
+Aspose.HTML **static server‑side rendering** पर केंद्रित है। रीयल-टाइम एनीमेशन ब्राउज़र में JavaScript के साथ बेहतर हैंडल किए जाते हैं।
+
+
+## क्या मैं कैनवस पर टेक्स्ट बनाते समय कस्टम फ़ॉन्ट्स का इस्तेमाल कर सकता हूँ?
+
+बिल्कुल। Aspose.HTML कस्टम फ़ॉन्ट्स को सपोर्ट करता है; बस यह पक्का करें कि फ़ॉन्ट फ़ाइल रेंडरिंग इंजन के लिए उपलब्ध हों।
+
+## मैं Java के लिए Aspose.HTML आज़माने के लिए टेम्पररी लाइसेंस कैसे पा सकता हूँ?
+
+आप एक टेम्पररी लाइसेंस [यहां](https://purchase.aspose.com/temporary-license/) पर जाकर पा सकते हैं और पूरी क्षमता के साथ प्रोडक्ट का वैल्यूएशन कर सकते हैं।
+
+### मैं एक ही स्टेप में कैनवस को pdf में कैसे कन्वर्ट करूं?
+
+Steps7‑8 में दिखाए गए `PdfDevice` और `document.renderTo(device)` के कॉम्बिनेशन से यह कन्वर्जन ऑटोमैटिक रूप से होता है।
+
+### क्या होगा अगर मुझे **html से pdf जेनरेट करना हो** जिसमें कई कैनवस हों?
+
+एक ही `HTMLDocument` में हर कैनवस बनाएं, अपने ग्राफिक्स ड्रॉ करें, और फिर एक बार `document.renderTo(device)` कॉल करें। सभी कैनवस फाइनल PDF में रेंडर हो जाएंगे।
+
+## निष्कर्ष
+आपने अब Aspose.HTML for Java का इस्तेमाल करके HTML5 Canvas पर **ग्रेडिएंट कैसे बनाएं**, **canvas पर रेक्टेंगल कैसे बनाएं**, और **canvas को PDF के रूप में एक्सपोर्ट कैसे करें** सीख लिया है। यह शक्तिशाली सर्वर-साइड तरीका आपको ब्राउज़र के बिना रिपोर्ट, इनवॉइस, या किसी भी ऑटोमेटेड डॉक्यूमेंट इंडेक्स में समृद्ध ग्राफिक्स एम्बेड करने देता है। अलग-अलग ग्रेडिएंट, पोर्ट्रेट, और लेआउट के साथ इस्तेमाल करें और Java से सीधे शानदार PDF बनाएं।
 
 ---
 
-**Last Updated:** 2026-02-20  
-**Tested With:** Aspose.HTML for Java (latest release)  
+**Last Updated:** 2026-02-20
+**Tested With:** Aspose.HTML for Java (लेटेस्ट रिलीज़)
 **Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

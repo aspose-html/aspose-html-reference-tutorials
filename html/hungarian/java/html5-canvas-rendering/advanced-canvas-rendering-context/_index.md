@@ -10,31 +10,7 @@ url: /hu/java/html5-canvas-rendering/advanced-canvas-rendering-context/
 weight: 10
 ---
 
- and Solutions" => "Gyakori problémák és megoldások"
-
-List items translate.
-
-"Frequently Asked Questions" => "Gyakran ismételt kérdések"
-
-Then each Q&A translate.
-
-"Conclusion" => "Összegzés"
-
-Paragraph translate.
-
-"Last Updated:" etc keep date.
-
-"Tested With:" etc.
-
-"Author:" etc.
-
-Make sure to keep markdown formatting.
-
-Also note note: "For Hungarian, ensure proper RTL formatting if needed" - Hungarian is LTR, ignore.
-
-Now produce final content with same shortcodes.
-
-Let's craft translation.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

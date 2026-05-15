@@ -9,17 +9,7 @@ url: /es/java/html5-canvas-rendering/advanced-canvas-rendering-context/
 weight: 10
 ---
 
-"**Tested With:** Aspose.HTML for Java (latest release)" translate "Tested With" to "Probado con". Keep bold.
-
-"**Author:** Aspose" translate "Author" to "Autor". Keep bold.
-
-Then closing shortcodes.
-
-Also there is a backtop button shortcode at end.
-
-Make sure to preserve all shortcodes exactly.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

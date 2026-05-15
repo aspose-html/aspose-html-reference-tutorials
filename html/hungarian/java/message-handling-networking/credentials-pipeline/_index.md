@@ -10,11 +10,7 @@ url: /hu/java/message-handling-networking/credentials-pipeline/
 weight: 10
 ---
 
- translation.
-
-Be careful with bold and code formatting.
-
-Proceed to write final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
@@ -127,30 +123,6 @@ V: Helyezzen egy naplózó kezelőt (pl. `new LoggingHandler()`) a hitelesítő 
 ## Következtetés
 Ezeknek a lépéseknek a követésével most már tudja, **hogyan kezelje a hitelesítő adatokat az Aspose.HTML‑ben** tiszta, újrahasználható módon. A hitelesítő csővezeték nem csak a HTTP‑hívásokat teszi biztonságossá, hanem a kódbázist is rendezetté és karbantarthatóvá teszi. Nyugodtan bővítse a kezelőláncot naplózással, gyorsítótárazással vagy egyedi hitelesítési mechanizmusokkal, hogy megfeleljen a projektje speciális igényeinek.
 
-## GyIK
-
-### Miért használják az Aspose.HTML for Java‑t?
-Az Aspose.HTML for Java egy erőteljes könyvtár, amely HTML dokumentumok manipulálására szolgál, beleértve azok olvasását, írását és különböző formátumokba való konvertálását.
-
-### Szükségem van licencre az Aspose.HTML for Java használatához?
-A könyvtár korlátozott kapacitással ingyenesen használható; a teljes funkcionalitáshoz és minden funkcióhoz licencet kell vásárolni [itt](https://purchase.aspose.com/buy).
-
-### Hol találok támogatást az Aspose.HTML-hez?
-Segítségért látogassa meg az [Aspose támogatási fórumot](https://forum.aspose.com/c/html/29).
-
-### Hogyan szerezhetek ideiglenes licencet az Aspose.HTML for Java‑hoz?
-Ideiglenes, tesztelési célú licencet szerezhet [itt](https://purchase.aspose.com/temporary-license/).
-
-### Van ingyenes próba verzió az Aspose.HTML for Java‑hoz?
-Igen, letölthet egy ingyenes próba verziót [itt](https://releases.aspose.com/).
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-02-20  
@@ -158,3 +130,10 @@ Igen, letölthet egy ingyenes próba verziót [itt](https://releases.aspose.com/
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

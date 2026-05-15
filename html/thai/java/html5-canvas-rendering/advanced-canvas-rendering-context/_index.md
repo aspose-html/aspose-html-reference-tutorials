@@ -9,17 +9,7 @@ url: /th/java/html5-canvas-rendering/advanced-canvas-rendering-context/
 weight: 10
 ---
 
-:"
-
-**Author:** Aspose -> translate "ผู้เขียน:"
-
-Then closing shortcodes.
-
-Now produce final content.
-
-Be careful to keep markdown formatting exactly.
-
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

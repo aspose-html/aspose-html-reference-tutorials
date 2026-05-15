@@ -9,37 +9,31 @@ url: /th/java/message-handling-networking/credentials-pipeline/
 weight: 10
 ---
 
- produce final content.
-
-Be careful with markdown formatting.
-
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# handle credentials aspose html – การจัดการ Pipeline ของข้อมูลประจำตัวใน Aspose.HTML สำหรับ Java
+# จัดการข้อมูลประจำตัว aspose html – ตรวจสอบไปป์ไลน์ของข้อมูลที่ระบุใน Aspose.HTML สำหรับ Java
 
-## Introduction
-ในโลกที่เชื่อมต่อกันอย่างรวดเร็วในปัจจุบัน **handle credentials aspose html** เป็นทักษะที่จำเป็นสำหรับผู้ที่พัฒนาแอปพลิเคชัน Java ที่ต้องดึงหรือส่งเนื้อหา HTML ผ่านเครือข่าย เมื่อคุณทำงานกับ Aspose.HTML for Java คุณจะได้เครื่องยนต์ที่ทรงพลังและประสิทธิภาพสูงที่ช่วยให้คุณโต้ตอบกับเว็บเซอร์วิสได้ในขณะที่รักษาชื่อผู้ใช้, รหัสผ่าน, และโทเคนให้ปลอดภัย ในบทแนะนำนี้เราจะพาคุณผ่านขั้นตอนการตั้งค่า pipeline ของข้อมูลประจำตัว, อธิบายเหตุผลที่แต่ละส่วนสำคัญ, และแสดงวิธีทำความสะอาดทรัพยากรอย่างถูกต้อง
+## การแนะนำ
+ในโลกที่กันอย่างรวดเร็วในปัจจุบัน **handle credentials aspose html** เป็นทักษะในส่วนของการพัฒนาแอปพลิเคชัน Java ที่ต้องดึงหรือส่งเนื้อหา HTML ผ่านเครือข่ายและการออกแบบ Aspose.HTML สำหรับ Java เพื่อให้เครื่องยนต์และประสิทธิภาพที่ช่วยให้คุณได้รับประสิทธิภาพกับบริการเว็บได้ในขณะที่รักษาสุขภาพ, รหัสผ่าน, และโทเคนให้ปลอดภัย ในบทแนะนำนี้เราจะพาคุณผ่านขั้นตอนการตรวจไปป์ไลน์ ของข้อมูล, คำอธิบายรายละเอียดแต่ละส่วนสำคัญ, และแสดงวิธีทำความสะอาดทรัพยากรอย่างสม่ำเสมอ
 
-## Quick Answers
-- **What does “handle credentials aspose html” mean?** It refers to configuring Aspose.HTML’s networking layer to supply authentication data (e.g., basic auth) automatically when a document is loaded.  
-- **Do I need a license to run the sample?** A free trial works for development; a commercial license is required for production.  
-- **Which Java version is supported?** Aspose.HTML for Java supports JDK 8 and newer.  
-- **Can I use other authentication schemes?** Yes – the library also supports NTLM, OAuth, and custom handlers.  
-- **Is the code thread‑safe?** The `Configuration` object can be shared, but each thread should use its own `HTMLDocument` instance.
+## คำตอบด่วน
+- **“จัดการข้อมูลรับรอง aspose html” หมายความว่าอย่างไร**หมายถึงการกำหนดค่าเลเยอร์เครือข่ายของ Aspose.HTML เพื่อจัดหาข้อมูลการตรวจสอบสิทธิ์ (เช่น การตรวจสอบสิทธิ์พื้นฐาน) โดยอัตโนมัติเมื่อมีการโหลดเอกสาร
+- **ฉันจำเป็นต้องมีใบอนุญาตเพื่อเรียกใช้ตัวอย่างหรือไม่**ทดลองใช้ฟรีเพื่อการพัฒนา ต้องมีใบอนุญาตเชิงพาณิชย์สำหรับการผลิต
+- **รองรับ Java เวอร์ชันใด**Aspose.HTML สำหรับ Java รองรับ JDK8 และใหม่กว่า
+- **ฉันสามารถใช้รูปแบบการตรวจสอบสิทธิ์อื่นๆ ได้หรือไม่**ได้ – ไลบรารียังรองรับ NTLM, OAuth และตัวจัดการแบบกำหนดเองอีกด้วย
+- **เธรดโค้ดปลอดภัยหรือไม่**ออบเจ็กต์ `การกำหนดค่า` สามารถแชร์ได้ แต่แต่ละเธรดควรใช้อินสแตนซ์ `HTMLDocument` ของตัวเอง
 
-## Prerequisites
-ก่อนที่เราจะลงลึกไปในรายละเอียด โปรดตรวจสอบว่าคุณมีสิ่งต่อไปนี้พร้อมแล้ว:
+## ข้อกำหนดเบื้องต้น
+เราจะลงลึกไปในรายละเอียดทางการแพทย์ของคุณและจากนั้นพร้อมแล้ว:
 
-1. **Java Development Kit (JDK)** – เวอร์ชัน 8 หรือสูงกว่า.  
-2. **Aspose.HTML for Java** – ดาวน์โหลดเวอร์ชันล่าสุดจาก [download link here](https://releases.aspose.com/html/java/).  
-3. **IDE** – IntelliJ IDEA, Eclipse, หรือโปรแกรมแก้ไขใด ๆ ที่คุณชอบ.  
-4. **Basic Java knowledge** – คุณควรคุ้นเคยกับคลาส, อ็อบเจ็กต์, และการจัดการข้อยกเว้น.
+1. **Java Development Kit (JDK)** – รองรับ8 หรืออื่นๆ
+2. **Aspose.HTML สำหรับ Java** – ดาวน์โหลดล่าสุดจาก [ลิงก์ดาวน์โหลดที่นี่](https://releases.aspose.com/html/java/)
+3. **IDE** – IntelliJ IDEA, Eclipse, หรือโปรแกรมแก้ไขใดๆ ที่คุณชอบ
+4. **ความรู้ Java พื้นฐาน** – รวมถึงคลาสต่างๆ, อ็อบเจ็กต์, และการจัดการเนื้อหา.
 
-## Import Packages
+## นำเข้าแพ็กเกจ
 เมื่อเตรียมสิ่งที่จำเป็นเรียบร้อยแล้ว เรามา import คลาสที่ต้องใช้กันเลย. การ import เหล่านี้ทำให้เราสามารถเข้าถึง API เครือข่ายหลักของ Aspose.HTML ได้.
 
 ```java
@@ -49,25 +43,25 @@ import com.aspose.html.net.MessageHandlerCollection;
 import com.aspose.html.services.INetworkService;
 ```
 
-## What is “handle credentials aspose html”?
-วลีนี้อธิบายกระบวนการแนบ **CredentialHandler** (หรือ `MessageHandler` ที่กำหนดเอง) ไปยังบริการเครือข่ายภายในของ Aspose.HTML. ตัวจัดการนี้จะดักจับคำขอ HTTP ที่ออกไป, ใส่หัวข้อการยืนยันตัวตนที่จำเป็น, แล้วจึงส่งคำขอต่อไปอย่างปลอดภัย เหมือนกับผู้รักษาความปลอดภัยที่ตรวจสอบผู้เข้าอาคารทุกคนก่อนเข้าไป.
+## “จัดการข้อมูลประจำตัว aspose html” คืออะไร?
+กลิ่นหอมนี้อธิบายแนบ **CredentialHandler** (หรือ `MessageHandler` นักวิทยาศาสตร์) ประโยชน์ของบริการเครือข่ายภายใน Aspose.HTML เจ้าหน้าที่จัดการดักจับคำขอ HTTP ที่ออกไป ใส่หัวข้อตามลักษณะตัวตน จากนั้นจึงส่งคำขอต่อไปอย่างปลอดภัยจะมีลักษณะที่ตรวจสอบผู้ตรวจสอบอาคารทุกคนก่อนทุกคน
 
-## Why use Aspose.HTML’s credential pipeline?
-- **Built‑in security** – ไม่ต้องสร้างหัวข้อ `Authorization` ด้วยตนเองสำหรับแต่ละคำขอ.  
-- **Reusability** – เมื่อจัดการตัวจัดการแล้ว, `HTMLDocument` ทุกอันที่สร้างด้วย `Configuration` เดียวกันจะสืบทอดข้อมูลประจำตัวโดยอัตโนมัติ.  
-- **Extensibility** – คุณสามารถต่อสายตัวจัดการหลายตัว (logging, caching, proxy) ได้โดยไม่ต้องแก้ไขตรรกะธุรกิจของคุณ.  
-- **Performance** – ไลบรารีจะใช้การเชื่อมต่อซ้ำเมื่อเป็นไปได้, ลดความหน่วงเวลา.
+## เหตุใดจึงต้องใช้ไปป์ไลน์ข้อมูลรับรองของ Aspose.HTML
+- **การรักษาความปลอดภัยในตัว** – เคยสร้างหัวข้อ `การอนุญาต` และอื่น ๆ คำขอ
+- **การนำกลับมาใช้ใหม่** – ในกรณีที่จัดการตัวจัดการแล้ว, `HTMLDocument` ทุกอันและการรับประทานอาหารด้วย `การกำหนดค่า` เดียวกันจะเก็บข้อมูลการตรวจสอบของตัวเอง
+- **Extensibility** – ไม่เคยต่อสายตัวจัดการหลายตัว (การบันทึก, การแคช, พร็อกซี) การควบคุมดูแลระบบของลูกค้า
+- **Performance** – ไลบรารีจะต้องมีการทำซ้ำเมื่อไม่มีการลดการจำกัดความเวลา
 
-## Step‑by‑Step Guide
+## คู่มือทีละขั้นตอน
 
-### Step 1: Create a Configuration Instance
+### ขั้นตอนที่ 1: สร้างอินสแตนซ์การกำหนดค่า
 ขั้นแรกเราตั้งค่าอ็อบเจ็กต์ `Configuration`. อ็อบเจ็กต์นี้เป็นศูนย์กลางที่ Aspose.HTML เก็บบริการ, ตัวจัดการ, และตัวเลือกอื่น ๆ.
 
 ```java
 Configuration configuration = new Configuration();
 ```
 
-### Step 2: Insert the CredentialHandler into the Message Handler Chain
+### ขั้นตอนที่ 2: แทรก CredentialHandler ลงใน Message Handler Chain
 ต่อไปเราจะดึงบริการเครือข่ายจาก `Configuration` แล้วใส่ `CredentialHandler` ของเราที่ตำแหน่งแรกของคอลเลกชันตัวจัดการ. การวางไว้ที่ดัชนี 0 จะทำให้มันทำงานก่อนตัวจัดการอื่น ๆ.
 
 ```java
@@ -78,14 +72,14 @@ handlers.insertItem(0, new CredentialHandler());
 
 > **Pro tip:** หากคุณต้องการสนับสนุนหลายรูปแบบการยืนยันตัวตน, คุณสามารถเพิ่มตัวจัดการเพิ่มเติมหลังจาก `CredentialHandler` ได้โดยไม่กระทบลำดับความสำคัญของมัน.
 
-### Step 3: Load an HTML Document with the Configured Credentials
+### ขั้นตอนที่ 3: โหลดเอกสาร HTML ด้วยข้อมูลรับรองที่กำหนดค่าไว้
 ตอนนี้เราสร้าง `HTMLDocument` โดยใช้ `Configuration` ที่เตรียมไว้แล้ว. URL ในตัวอย่างชี้ไปยังบริการทดสอบสาธารณะ (`httpbin.org`) ที่ต้องการการยืนยันตัวตนแบบ basic.
 
 ```java
 HTMLDocument document = new HTMLDocument("https://httpbin.org/basic-auth/username/securelystoredpassword", configuration);
 ```
 
-### Step 4: (Optional) Retrieve the Document Content
+### ขั้นตอนที่ 4: (ไม่บังคับ) ดึงเนื้อหาเอกสาร
 หากต้องการตรวจสอบ HTML ที่ดึงมา, เพียงแปลงเอกสารเป็นสตริงและพิมพ์ออก. ขั้นตอนนี้มีประโยชน์สำหรับการดีบักหรือการประมวลผลต่อด้วย API ของ DOM.
 
 ```java
@@ -93,52 +87,54 @@ String content = document.toString();
 System.out.println(content);
 ```
 
-### Step 5: Clean Up Resources
+### ขั้นตอนที่ 5: ล้างทรัพยากร
 ควรทำการ dispose `HTMLDocument` เสมอเมื่อใช้งานเสร็จ. การทำเช่นนี้จะปล่อยทรัพยากรเนทีฟและป้องกันการรั่วของหน่วยความจำ—สำคัญมากสำหรับบริการที่ทำงานต่อเนื่องเป็นเวลานาน.
 
 ```java
 document.dispose();
 ```
 
-## Common Issues and Solutions
-| Issue | Reason | Fix |
+## ปัญหาและวิธีแก้ไขที่พบบ่อย
+| ปัญหา | สาเหตุ | วิธีแก้ไข |
+
 |-------|--------|-----|
-| **Authentication fails** | Wrong username/password or missing handler registration. | Verify the credentials inside `CredentialHandler` and ensure `handlers.insertItem(0, …)` is executed before document creation. |
-| **NullPointerException on `service`** | `Configuration` was not initialized correctly. | Make sure you instantiate `Configuration` **before** calling `getService`. |
-| **Memory leak after many documents** | `dispose()` not called. | Use a `try‑with‑resources` pattern or always call `document.dispose()` in a `finally` block. |
-| **Handler order matters** | Other handlers (e.g., proxy) run before the credential handler. | Insert the credential handler at index 0, or reorder the collection as needed. |
 
-## Frequently Asked Questions
+| **การตรวจสอบสิทธิ์ล้มเหลว** | ชื่อผู้ใช้/รหัสผ่านไม่ถูกต้อง หรือไม่ได้ลงทะเบียนแฮนด์เลอร์ | ตรวจสอบข้อมูลประจำตัวภายใน `CredentialHandler` และตรวจสอบให้แน่ใจว่าได้เรียกใช้ `handlers.insertItem(0, …)` ก่อนการสร้างเอกสาร |
 
-**Q: What is the purpose of `MessageHandlerCollection`?**  
-A: It stores a chain of handlers that can modify, log, or block network requests made by Aspose.HTML. Adding a `CredentialHandler` to this collection enables automatic authentication.
+**NullPointerException บน `service`** | `Configuration` ไม่ได้รับการเริ่มต้นอย่างถูกต้อง | ตรวจสอบให้แน่ใจว่าคุณได้สร้างอินสแตนซ์ของ `Configuration` **ก่อน** เรียกใช้ `getService` |
 
-**Q: Can I use OAuth tokens instead of basic auth?**  
-A: Absolutely. Implement a custom handler that adds the `Authorization: Bearer <token>` header and insert it into the collection just like the `CredentialHandler`.
+**หน่วยความจำรั่วไหลหลังจากเอกสารจำนวนมาก** | ไม่ได้เรียกใช้ `dispose()` | ใช้รูปแบบ `try‑with‑resources` หรือเรียกใช้ `document.dispose()` ในบล็อก `finally` เสมอ |
 
-**Q: Is the credential information stored in plain text?**  
-A: The sample uses a simple handler for illustration. In production, store secrets securely (e.g., Java Keystore, Azure Key Vault) and retrieve them at runtime.
+**ลำดับของแฮนด์เลอร์มีความสำคัญ** | แฮนด์เลอร์อื่นๆ (เช่น พร็อกซี) ทำงานก่อนแฮนด์เลอร์ข้อมูลประจำตัว | แทรกตัวจัดการข้อมูลรับรองที่ดัชนี 0 หรือจัดเรียงลำดับคอลเลกชันใหม่ตามต้องการ |
 
-**Q: Does Aspose.HTML support proxy authentication?**  
-A: Yes. You can add a separate `ProxyHandler` to the same `MessageHandlerCollection` and configure it with proxy credentials.
+## คำถามที่พบบ่อย
 
-**Q: How do I debug network traffic?**  
-A: Add a logging handler (e.g., `new LoggingHandler()`) after the credential handler to capture request/response details.
+**ถาม: จุดประสงค์ของ `MessageHandlerCollection` คืออะไร?**
+ตอบ: มันเก็บชุดของตัวจัดการที่สามารถแก้ไข บันทึก หรือบล็อกคำขอเครือข่ายที่สร้างโดย Aspose.HTML การเพิ่ม `CredentialHandler` ลงในคอลเลกชันนี้จะเปิดใช้งานการตรวจสอบสิทธิ์อัตโนมัติ
 
-## Conclusion
-โดยทำตามขั้นตอนเหล่านี้คุณจะรู้ **วิธีจัดการข้อมูลประจำตัว aspose html** อย่างเป็นระบบและนำกลับใช้ใหม่ได้ Pipeline นี้ไม่เพียงแต่ทำให้การเรียก HTTP ของคุณปลอดภัย แต่ยังช่วยให้โค้ดของคุณสะอาดและบำรุงรักษาง่าย อย่าลังเลที่จะขยายสายตัวจัดการด้วย logging, caching, หรือกลไกการยืนยันตัวตนแบบกำหนดเองให้ตรงกับความต้องการของโครงการของคุณ
+**ถาม: ฉันสามารถใช้โทเค็น OAuth แทนการตรวจสอบสิทธิ์พื้นฐานได้หรือไม่?**
+ตอบ: ได้อย่างแน่นอน ใช้งานตัวจัดการแบบกำหนดเองที่เพิ่มส่วนหัว `Authorization: Bearer <token>` และแทรกเข้าไปในคอลเลกชันเช่นเดียวกับ `CredentialHandler`
 
-## FAQ's
-### What is Aspose.HTML for Java used for?
-Aspose.HTML for Java is a powerful library designed to manipulate HTML documents, including reading, writing, and converting them into various formats.
-### Do I need a license to use Aspose.HTML for Java?
-You can use the library in a limited capacity for free; however, for full access and features, you'll need to purchase a license [here](https://purchase.aspose.com/buy).
-### Where can I find support for Aspose.HTML?
-For help, you can visit the [Aspose support forum](https://forum.aspose.com/c/html/29).
-### How can I obtain a temporary license for Aspose.HTML for Java?
-You can acquire a temporary license for testing purposes [here](https://purchase.aspose.com/temporary-license/).
-### Is there a free trial available for Aspose.HTML for Java?
-Yes, you can download a free trial version [here](https://releases.aspose.com/).
+**ถาม: ข้อมูลรับรองถูกจัดเก็บในรูปแบบข้อความธรรมดาหรือไม่?**
+ตอบ: ตัวอย่างใช้ตัวจัดการแบบง่ายเพื่อเป็นตัวอย่าง ในการใช้งานจริง ให้จัดเก็บความลับอย่างปลอดภัย (เช่น Java Keystore, Azure Key Vault) และเรียกใช้เมื่อรันไทม์
+
+
+**ถาม: Aspose.HTML รองรับการตรวจสอบสิทธิ์พร็อกซีหรือไม่**
+ก. ใช่. คุณสามารถเพิ่ม `ProxyHandler` แยกต่างหากลงใน `MessageHandlerCollection` เดียวกัน และกำหนดค่าด้วยข้อมูลรับรองพร็อกซี
+
+**ถาม: ฉันจะแก้ไขข้อบกพร่องการรับส่งข้อมูลเครือข่ายได้อย่างไร**
+ตอบ: เพิ่มตัวจัดการการบันทึก (เช่น `new LoggingHandler()`) หลังตัวจัดการข้อมูลประจำตัวเพื่อบันทึกรายละเอียดคำขอ/การตอบกลับ
+
+## บทสรุป
+โดยขั้นตอนที่คุณจะต้องรู้ **วิธีจัดการข้อมูลเป็นหลัก aspose html** ตามหลักและนำกลับใช้ใหม่ได้ Pipeline โดยทั่วไปแต่ทำให้การเรียก HTTP ของคุณปลอดภัยเป็นพิเศษช่วยให้โค้ดของคุณสะอาดและบำรุงรักษาง่ายเพื่อให้ขยายสายตัวบุคคลด้วยการบันทึก, การแคช, หรือเน้นย้ำที่ตัวตนของเราจะช่วยให้สามารถตรวจสอบโปรเจ็กต์ของคุณได้ง่าย
+
+---
+
+**อัปเดตล่าสุด:** 2026-02-20
+**ทดสอบด้วย:** Aspose.HTML สำหรับ Java (รุ่นล่าสุด)
+**ผู้เขียน:** สมมติ  
+
+---
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -146,11 +142,3 @@ Yes, you can download a free trial version [here](https://releases.aspose.com/).
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-02-20  
-**Tested With:** Aspose.HTML for Java (latest release)  
-**Author:** Aspose  
-
----

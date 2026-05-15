@@ -10,13 +10,7 @@ url: /ru/java/message-handling-networking/credentials-pipeline/
 weight: 10
 ---
 
-Author". Translate? Probably keep as is? Those are text, should translate. Keep dates unchanged.
-
-Let's produce final content.
-
-Be careful to keep markdown formatting.
-
-Let's write.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
@@ -129,25 +123,6 @@ document.dispose();
 ## Заключение
 Следуя этим шагам, вы теперь знаете, **как обрабатывать учётные данные в Aspose.HTML** чистым и переиспользуемым способом. Конвейер учётных данных не только защищает ваши HTTP‑вызовы, но и делает код более аккуратным и поддерживаемым. Не стесняйтесь расширять цепочку обработчиков логированием, кэшированием или пользовательскими механизмами аутентификации, чтобы удовлетворить специфические требования вашего проекта.
 
-## FAQ's
-### Что такое Aspose.HTML for Java и для чего он используется?
-Aspose.HTML for Java — мощная библиотека для работы с HTML‑документами, включая чтение, запись и конвертацию в различные форматы.  
-### Нужно ли приобретать лицензию для использования Aspose.HTML for Java?
-Библиотеку можно использовать в ограниченном режиме бесплатно; однако для полного доступа и всех функций требуется приобрести лицензию [здесь](https://purchase.aspose.com/buy).  
-### Где можно получить поддержку по Aspose.HTML?
-Помощь доступна на [форуме поддержки Aspose](https://forum.aspose.com/c/html/29).  
-### Как получить временную лицензию для Aspose.HTML for Java?
-Временную лицензию для тестирования можно получить [здесь](https://purchase.aspose.com/temporary-license/).  
-### Есть ли бесплатная пробная версия Aspose.HTML for Java?
-Да, бесплатную пробную версию можно скачать [здесь](https://releases.aspose.com/).
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Последнее обновление:** 2026-02-20  
@@ -155,3 +130,10 @@ Aspose.HTML for Java — мощная библиотека для работы
 **Автор:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

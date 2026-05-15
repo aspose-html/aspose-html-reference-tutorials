@@ -9,9 +9,7 @@ url: /hi/java/conversion-html-to-various-image-formats/convert-html-to-gif/
 weight: 11
 ---
 
- code block placeholders remain unchanged. Ensure markdown links unchanged.
-
-Now craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -121,21 +121,11 @@ A: 在憑證處理程式之後加入記錄處理程式（例如 `new LoggingHand
 ## 結論
 透過上述步驟，你現在已掌握 **how to handle credentials aspose html** 的乾淨且可重用方式。憑證管線不僅保護你的 HTTP 呼叫，還能讓程式碼保持整潔與易於維護。隨時可將處理程式鏈擴充為記錄、快取或自訂驗證機制，以符合專案的特定需求。
 
-## 常見問答
-### Aspose.HTML for Java 的用途是什麼？
-Aspose.HTML for Java 是一套功能強大的函式庫，設計用來操作 HTML 文件，包括讀取、寫入以及轉換成各種格式。
+---
 
-### 使用 Aspose.HTML for Java 是否需要授權？
-你可以在有限的功能下免費使用；若需完整功能與支援，必須在 [此處](https://purchase.aspose.com/buy) 購買授權。
-
-### 哪裡可以取得 Aspose.HTML 的支援？
-可前往 [Aspose 支援論壇](https://forum.aspose.com/c/html/29) 取得協助。
-
-### 如何取得 Aspose.HTML for Java 的臨時授權？
-可在 [此處](https://purchase.aspose.com/temporary-license/) 取得測試用的臨時授權。
-
-### 有提供免費試用版嗎？
-有，請至 [此處](https://releases.aspose.com/) 下載免費試用版。
+**最後更新：** 2026-02-20  
+**測試環境：** Aspose.HTML for Java（最新發行版）  
+**作者：** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -143,9 +133,3 @@ Aspose.HTML for Java 是一套功能強大的函式庫，設計用來操作 HTML
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最後更新：** 2026-02-20  
-**測試環境：** Aspose.HTML for Java（最新發行版）  
-**作者：** Aspose

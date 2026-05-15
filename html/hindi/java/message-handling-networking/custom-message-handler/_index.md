@@ -9,7 +9,7 @@ url: /hi/java/message-handling-networking/custom-message-handler/
 weight: 11
 ---
 
-Let's construct final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

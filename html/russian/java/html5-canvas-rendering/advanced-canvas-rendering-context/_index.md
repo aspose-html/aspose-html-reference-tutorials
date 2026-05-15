@@ -9,16 +9,6 @@ url: /ru/java/html5-canvas-rendering/advanced-canvas-rendering-context/
 weight: 10
 ---
 
-.
-
-Check for any "step‑by‑step" etc.
-
-Make sure to keep the code block placeholders exactly as they are, not as code fences.
-
-The placeholders are not inside code fences; they are just lines. Keep them.
-
-Now produce translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

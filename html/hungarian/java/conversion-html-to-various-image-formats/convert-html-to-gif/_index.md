@@ -10,10 +10,6 @@ url: /hu/java/conversion-html-to-various-image-formats/convert-html-to-gif/
 weight: 11
 ---
 
-.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

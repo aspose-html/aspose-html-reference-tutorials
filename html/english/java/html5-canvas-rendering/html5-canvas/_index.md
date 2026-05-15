@@ -1,5 +1,5 @@
 ---
-title: How to Use Aspose.HTML for Java: Mastering HTML5 Canvas Rendering
+title: How to Use Aspose.HTML for Java - Mastering HTML5 Canvas Rendering
 linktitle: Mastering HTML5 Canvas with Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
 description: Learn how to use Aspose.HTML for Java to generate PDF from HTML, including creating an HTML5 Canvas, drawing text on canvas, and converting HTML to PDF.
