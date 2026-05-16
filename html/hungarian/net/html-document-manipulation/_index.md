@@ -71,6 +71,8 @@ Tanulja meg az Aspose.HTML használatát .NET-hez. Importáljon névteret, egyes
 Használja ki a webfejlesztésben rejlő lehetőségeket az Aspose.HTML for .NET segítségével. Könnyen hozhat létre, konvertálhat és kezelhet HTML dokumentumokat.
 ### [HTML létrehozása karakterláncból C#-ban – Egyéni erőforráskezelő útmutató](./create-html-from-string-in-c-custom-resource-handler-guide/)
 Ismerje meg, hogyan hozhat létre HTML-t karakterláncból C#-ban egy egyéni erőforráskezelő segítségével.
+### [HTML létrehozása és CSS stíluselem hozzáadása – Lépésről‑lépésre útmutató](./how-to-create-html-and-add-css-style-element-step-by-step-gu/)
+Ismerje meg, hogyan hozhat létre HTML-fájlt, és adhat hozzá CSS stíluselemeket C#‑ban lépésről‑lépésre.
 
 ## Következtetés
 
