@@ -14,7 +14,7 @@ url: /cs/net/generate-jpg-and-png-images/
 # Vytvářejte obrázky JPG a PNG
 
  
-Aspose.HTML for .NET je výkonná knihovna, která umožňuje vývojářům snadno vytvářet obrázky JPG a PNG z dokumentů HTML. V tomto tutoriálu prozkoumáme, jak využít plný potenciál Aspose.HTML pro .NET ke generování vysoce kvalitních obrázků z vašeho obsahu HTML.
+Aspose.HTML for .NET je výkonná knihovna, která umožňuje vývojářům snadno vytvářet obrázky JPG a PNG z dokumentů HTML. V tomto tutoriálu prozkoumáme, jak využít plný potenciál Aspose.HTML pro .NET ke generování vysoce kvalitních obrázků z vašemu obsahu HTML.
 
 ## Proč Aspose.HTML pro .NET?
 
@@ -43,8 +43,14 @@ Naučte se vytvářet dynamické webové stránky pomocí Aspose.HTML for .NET. 
 Naučte se používat Aspose.HTML pro .NET k manipulaci s dokumenty HTML, převodu HTML na obrázky a další. Výukový program krok za krokem s nejčastějšími dotazy.
 ### [Jak povolit antialiasing při převodu DOCX na PNG/JPG](./how-to-enable-antialiasing-when-converting-docx-to-png-jpg/)
 Naučte se, jak při převodu dokumentů DOCX na PNG nebo JPG povolit antialiasing pro hladší výstup.
+### [Jak povolit antialiasing – Export dokumentu do obrázku pomocí C#](./how-to-enable-antialiasing-export-document-to-image-with-c/)
+Naučte se, jak povolit antialiasing při exportu dokumentu do obrázku pomocí C# pro hladší výstup.
 ### [Převod docx na png – vytvoření zip archivu C# tutoriál](./convert-docx-to-png-create-zip-archive-c-tutorial/)
 Naučte se převést soubory DOCX na PNG a zabalit je do ZIP archivu pomocí C# a Aspose.HTML.
+### [Vytvořte obrázek z HTML pomocí Aspose.HTML – Kompletní průvodce krok za krokem](./create-image-from-html-with-aspose-html-complete-step-by-ste/)
+Naučte se, jak pomocí Aspose.HTML převést HTML na obrázek v podrobném průvodci krok za krokem.
+### [Vytvořte PNG z Wordu – krok za krokem průvodce v C#](./create-png-from-word-step-by-step-c-guide/)
+Naučte se, jak převést dokument Word do PNG pomocí C# a Aspose.HTML v podrobném průvodci krok za krokem.
 
 ## Závěr
 
