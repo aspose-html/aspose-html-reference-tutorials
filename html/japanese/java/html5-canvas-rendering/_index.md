@@ -30,6 +30,8 @@ HTML5 Canvasをマスターする準備はできていますか？ガイド[Aspo
 Aspose.HTML for Java を使用して HTML5 Canvas を作成し、レンダリングします。この強力な Java ライブラリを使用して描画、スタイル設定、PDF へのエクスポートを行う方法をステップ バイ ステップで学習します。
 ### [Aspose.HTML for Java で HTML5 Canvas をマスターする](./html5-canvas/)
 Aspose.HTML for Java を使用して HTML5 Canvas を作成し、PDF に変換する方法を学びます。このガイドは、Web プロジェクトを強化したい開発者に最適です。
+### [iPhone をエミュレートする方法 – Aspose.HTML 完全ガイド](./how-to-emulate-iphone-complete-guide-with-aspose-html/)
+Aspose.HTML を使用して iPhone の表示をエミュレートし、デバイス固有のレンダリングを再現する手順を解説します。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

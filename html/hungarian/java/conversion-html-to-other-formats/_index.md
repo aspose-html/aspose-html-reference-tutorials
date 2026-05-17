@@ -91,12 +91,16 @@ Könnyedén konvertálja a HTML‑t MHTML‑re az Aspose.HTML for Java segítsé
 Ismerje meg, hogyan konvertálhatja könnyedén a HTML‑t XPS‑re az Aspose.HTML for Java használatával. Készítsen többplatformos dokumentumokat egyszerűen.
 ### [Markdown átalakítása HTML-re](./convert-markdown-to-html/)
 Konvertálja a Markdown‑t HTML‑re Java‑ban zökkenőmentesen az Aspose.HTML for Java segítségével. Kövesse lépésről‑lépésre útmutatónkat, hogy egyszerűsítse dokumentumkonverziós igényeit.
+### [HTML átalakítása Markdownra Java‑ban – Az eredeti formázás megőrzése](./convert-html-to-markdown-in-java-preserve-original-formattin/)
 ### [SVG átalakítása képre](./convert-svg-to-image/)
 Ismerje meg, hogyan konvertálhatja az SVG‑t képekké Java‑ban az Aspose.HTML‑el. Átfogó útmutató a magas minőségű kimenethez.
 ### [SVG átalakítása PDF-re](./convert-svg-to-pdf/)
 Konvertálja az SVG‑t PDF‑re Java‑ban az Aspose.HTML‑el. Zökkenőmentes megoldás a magas minőségű dokumentumkonverzióhoz.
 ### [SVG átalakítása XPS-re](./convert-svg-to-xps/)
 Ismerje meg, hogyan konvertálhatja az SVG‑t XPS‑re az Aspose.HTML for Java segítségével. Egyszerű, lépésről‑lépésre útmutató a zökkenőmentes átalakításokhoz.
+### [Egyedi méretű PDF létrehozása – HTML PDF-re konvertálás Aspose-szal](./create-pdf-custom-size-convert-html-to-pdf-with-aspose/)
+### [PDF létrehozása HTML-ből Java-ban – Párhuzamos kötegelt konverziós útmutató](./create-pdf-from-html-in-java-parallel-batch-conversion-guide/)
+Tanulja meg, hogyan konvertálhat több HTML fájlt egyszerre PDF‑re Java‑ban párhuzamosan az Aspose.HTML segítségével.
 
 ## Gyakran Ismételt Kérdések
 
