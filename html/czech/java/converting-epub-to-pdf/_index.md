@@ -70,6 +70,8 @@ Naučte se používat Aspose.HTML for Java: převod EPUB na obrázek a další. 
 Naučte se, jak převést EPUB na obrázky pomocí Aspose.HTML for Java. Přetvořte svůj digitální obsah bez námahy. Krok‑za‑krokem průvodce zahrnut.
 ### [Jak vložit písma při převodu EPUB do PDF v Javě](./how-to-embed-fonts-when-converting-epub-to-pdf-in-java/)
 Naučte se, jak vložit písma při převodu EPUB do PDF v Javě pomocí Aspose.HTML.
+### [Převod EPUB do PDF s vlastní velikostí písma – Java průvodce](./convert-epub-to-pdf-with-custom-font-size-java-guide/)
+Naučte se nastavit vlastní velikost písma při převodu EPUB do PDF v Javě s Aspose.HTML.
 
 ## Často kladené otázky
 

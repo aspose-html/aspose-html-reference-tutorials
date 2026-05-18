@@ -56,6 +56,8 @@ Aspose.HTML for Java ile EPUB'den PDF'ye dönüşümün kilidini açın, güçl�
 Aspose.HTML ile Java'da EPUB'yi PDF'ye zahmetsizce dönüştürmeyi öğrenin, belge işleme yeteneklerinizi artırın.
 ### [Specifying PDF Save Options for EPUB to PDF](./convert-epub-to-pdf-specify-pdf-save-options/)
 Aspose.HTML kullanarak Java'da EPUB'yi PDF'ye dönüştürmeyi öğrenin, güçlü bir HTML manipülasyon kütüphanesi.
+### [Özel Yazı Tipi Boyutu ile EPUB'u PDF'ye Dönüştürme – Java Rehberi](./convert-epub-to-pdf-with-custom-font-size-java-guide/)
+Aspose.HTML for Java kullanarak EPUB dosyalarını özel yazı tipi boyutu ile PDF'ye dönüştürmeyi öğrenin.
 ### [Java'da EPUB'ten PDF'ye Dönüştürürken Yazı Tipi Gömme](./how-to-embed-fonts-when-converting-epub-to-pdf-in-java/)
 Aspose.HTML for Java kullanarak EPUB'ten PDF'ye dönüşüm sırasında özel yazı tiplerini nasıl gömeceğinizi öğrenin.
 ### [Converting EPUB to BMP](./convert-epub-to-bmp/)

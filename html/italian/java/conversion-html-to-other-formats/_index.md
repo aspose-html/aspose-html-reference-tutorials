@@ -91,6 +91,9 @@ In conclusione, padroneggiare **html to pdf java** e l'insieme più ampio di con
 ### [Conversione da SVG a Immagine](./convert-svg-to-image/)
 ### [Conversione da SVG a PDF](./convert-svg-to-pdf/)
 ### [Conversione da SVG a XPS](./convert-svg-to-xps/)
+### [Crea PDF da Markdown in Java – Guida passo‑passo](./create-pdf-from-markdown-in-java-step-by-step-guide/)
+### [Tutorial html to pdf – Converti HTML in PDF in una sola riga con Java](./html-to-pdf-tutorial-convert-html-to-pdf-in-one-line-with-ja/)
+### [Crea PDF da HTML con Thread Java – Guida completa](./create-pdf-from-html-with-java-threads-full-guide/)
 
 ## Domande frequenti
 
