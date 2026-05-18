@@ -112,6 +112,8 @@ Aspose.HTML for Java’da Runtime Servisi nasıl yapılandırılır öğrenin; s
 Aspose.HTML for Java’da sandboxing nasıl uygulanır öğrenin; HTML belgelerinizde script yürütmeyi güvenli bir şekilde kontrol edin ve PDF'ye dönüştürün.
 ### [Aspose.HTML for Java’da Kullanıcı Stil Sayfası Nasıl Ayarlanır](./set-user-style-sheet/)
 Aspose.HTML for Java’da özel bir kullanıcı stil sayfası nasıl ayarlanır öğrenin; belge stilinizi geliştirin ve HTML'yi PDF'ye sorunsuz bir şekilde dönüştürün.
+### [Java’da Sandbox Nasıl Oluşturulur – Tam Kılavuz](./how-to-create-sandbox-in-java-full-guide/)
+Java’da sandbox oluşturmayı adım adım öğrenin ve güvenli HTML dönüşümleri için ortamı yapılandırın.
 
 ---
 

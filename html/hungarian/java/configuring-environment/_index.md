@@ -133,6 +133,11 @@ Ismerd meg, hogyan valósítható meg a sandboxing az Aspose.HTML for Java-ban a
 **Felhasználói stíluslap beállítása az Aspose.HTML for Java-ban**  
 Ismerd meg, hogyan állítható be egy egyedi felhasználói stíluslap az Aspose.HTML for Java-ban, javítva a dokumentum stílusát és könnyedén konvertálva a HTML-t PDF-re.
 
+### [How to Create Sandbox in Java – Full Guide](./how-to-create-sandbox-in-java-full-guide/)
+
+**Hogyan hozhatsz létre sandbox környezetet Java-ban – Teljes útmutató**  
+Ismerd meg, hogyan hozhatsz létre sandbox környezetet Java-ban a biztonságos HTML konverziókhoz.
+
 ---
 
 **Last Updated:** 2025-12-03  

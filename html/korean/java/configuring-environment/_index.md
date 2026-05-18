@@ -109,6 +109,8 @@ Aspose.HTML for Java에서 네트워크 서비스를 설정하고, 네트워크 
 Aspose.HTML for Java에서 런타임 서비스를 구성해 스크립트 실행을 최적화하고, 무한 루프를 방지하며, 애플리케이션 성능을 향상시키는 방법을 배웁니다.
 ### [Implement Sandboxing in Aspose.HTML for Java](./implement-sandboxing/)
 Aspose.HTML for Java에서 샌드박스를 구현해 HTML 문서의 스크립트 실행을 안전하게 제어하고 PDF로 변환하는 방법을 배웁니다.
+### [Java에서 샌드박스 만들기 – 전체 가이드](./how-to-create-sandbox-in-java-full-guide/)
+Aspose.HTML for Java에서 샌드박스를 구현하는 전체 단계와 모범 사례를 자세히 안내합니다.
 ### [Set User Style Sheet in Aspose.HTML for Java](./set-user-style-sheet/)
 Aspose.HTML for Java에서 사용자 정의 스타일시트를 설정해 문서 스타일을 향상하고 HTML을 PDF로 손쉽게 변환하는 방법을 배웁니다.
 

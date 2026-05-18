@@ -66,6 +66,10 @@ Naučte se, jak vytvořit sandboxové prostředí pro bezpečnou manipulaci s HT
 Naučte se vytvářet a spravovat dokumenty SVG pomocí Aspose.HTML pro Javu! Tento komplexní průvodce pokrývá vše od základní tvorby až po pokročilou manipulaci.
 ### [Jak dotazovat HTML v Javě – Kompletní tutoriál](./how-to-query-html-in-java-complete-tutorial/)
 Kompletní průvodce, jak v Javě dotazovat a získávat data z HTML pomocí Aspose.HTML, včetně příkladů a tipů.
+### [Načtení HTML dokumentu Aspose – Rychlý průvodce v Javě pro získání názvu stránky](./load-html-document-aspose-quick-java-guide-to-retrieve-page/)
+Rychlý návod, jak pomocí Aspose.HTML v Javě načíst HTML dokument a získat titulek stránky.
+### [Jak načíst HTML v Javě – krok‑za‑krokem průvodce](./how-to-load-html-in-java-step-by-step-guide/)
+Podrobný návod, jak pomocí Aspose.HTML načíst HTML dokument v Javě krok za krokem.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
