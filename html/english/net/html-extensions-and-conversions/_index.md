@@ -41,6 +41,10 @@ Aspose.HTML for .NET is not just a library; it's a game-changer in the world of 
 Convert HTML to PDF effortlessly with Aspose.HTML for .NET. Follow our step-by-step guide and unleash the power of HTML-to-PDF conversion.
 ### [Create PDF from HTML – C# Step‑by‑Step Guide](./create-pdf-from-html-c-step-by-step-guide/)
 Learn how to generate PDF files from HTML using Aspose.HTML for .NET with a detailed C# step‑by‑step guide.
+### [Convert HTML to PDF with C# – Complete Guide](./convert-html-to-pdf-with-c-complete-guide/)
+Learn how to convert HTML to PDF using C# and Aspose.HTML with a comprehensive step-by-step guide.
+### [Render HTML as PDF in C# – Full Step‑by‑Step Guide](./render-html-as-pdf-in-c-full-step-by-step-guide/)
+Learn how to render HTML to PDF using C# and Aspose.HTML with a comprehensive step‑by‑step guide.
 ### [Convert EPUB to Image in .NET with Aspose.HTML](./convert-epub-to-image/)
 Learn how to convert EPUB to images using Aspose.HTML for .NET. Step-by-step tutorial with code examples and customizable options.
 ### [Convert EPUB to PDF in .NET with Aspose.HTML](./convert-epub-to-pdf/)
@@ -71,6 +75,8 @@ Learn how to zip HTML files in C# using Aspose.HTML, saving HTML content to a ZI
 Learn how to create an HTML document with styled text and export it to PDF using Aspose.HTML for .NET in this comprehensive guide.
 ### [Save HTML as ZIP – Complete C# Tutorial](./save-html-as-zip-complete-c-tutorial/)
 Learn how to save HTML files as a ZIP archive using Aspose.HTML for .NET with a complete C# example.
+### [Save HTML as ZIP – Complete Guide for Aspose.HTML](./save-html-as-zip-complete-guide-for-aspose-html/)
+Learn how to save HTML files as a ZIP archive using Aspose.HTML for .NET in this comprehensive guide.
 ### [Convert EPUB to Image in .NET with Aspose.HTML](./convert-epub-to-image/)
 Learn how to convert EPUB to images using Aspose.HTML for .NET. Step-by-step tutorial with code examples and customizable options.
 ### [Convert EPUB to PDF in .NET with Aspose.HTML](./convert-epub-to-pdf/)
