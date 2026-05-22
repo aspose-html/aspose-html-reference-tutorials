@@ -39,6 +39,10 @@ Aspose.HTML per .NET non è solo una libreria; è un punto di svolta nel mondo d
 ## Tutorial sulle estensioni e conversioni HTML
 ### [Convertire HTML in PDF in .NET con Aspose.HTML](./convert-html-to-pdf/)
 Converti HTML in PDF senza sforzo con Aspose.HTML per .NET. Segui la nostra guida passo dopo passo e libera la potenza della conversione da HTML a PDF.
+### [Convertire HTML in PDF con C# – Guida completa](./convert-html-to-pdf-with-c-complete-guide/)
+Scopri come convertire HTML in PDF usando C# con Aspose.HTML, passo dopo passo, con esempi pratici e opzioni avanzate.
+### [Renderizzare HTML in PDF in C# – Guida completa passo‑a‑passo](./render-html-as-pdf-in-c-full-step-by-step-guide/)
+Scopri come renderizzare HTML in PDF usando C# con Aspose.HTML, passo dopo passo, con esempi pratici e opzioni avanzate.
 ### [Crea documento HTML con testo formattato ed esporta in PDF – Guida completa](./create-html-document-with-styled-text-and-export-to-pdf-full/)
 Impara a creare un documento HTML con testo stilizzato e a convertirlo in PDF usando Aspose.HTML per .NET, passo dopo passo.
 ### [Convertire EPUB in immagine in .NET con Aspose.HTML](./convert-epub-to-image/)
@@ -71,6 +75,8 @@ Scopri come comprimere un documento HTML in un file ZIP usando Aspose.HTML per .
 Crea un PDF da HTML in C# con Aspose.HTML per .NET. Segui la nostra guida passo passo per una conversione semplice ed efficace.
 ### [Salva HTML come ZIP – Tutorial completo C#](./save-html-as-zip-complete-c-tutorial/)
 Salva HTML come archivio ZIP con Aspose.HTML per .NET. Guida passo passo per creare file ZIP contenenti HTML in C#.
+### [Salva HTML come ZIP – Guida completa per Aspose.HTML](./save-html-as-zip-complete-guide-for-aspose-html/)
+Scopri come salvare un documento HTML in un archivio ZIP usando Aspose.HTML per .NET. Guida passo passo completa.
 ### [Salva HTML in ZIP in C# – Esempio completo in memoria](./save-html-to-zip-in-c-complete-in-memory-example/)
 Scopri come salvare un documento HTML in un archivio ZIP interamente in memoria usando Aspose.HTML per .NET.
 
