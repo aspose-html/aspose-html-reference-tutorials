@@ -89,6 +89,9 @@ Erfahren Sie, wie Sie HTML in Java mit Aspose.HTML zu PDF konvertieren. Erstelle
 ### [HTML zu PDF in Java – Schritt‑für‑Schritt‑Anleitung mit Seitengrößeneinstellungen](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Erfahren Sie, wie Sie HTML in Java zu PDF konvertieren und dabei die Seitengröße präzise festlegen.
 
+### [HTML zu PDF in Java – Vollständige Schritt‑für‑Schritt‑Anleitung](./convert-html-to-pdf-in-java-complete-step-by-step-guide/)
+Erfahren Sie, wie Sie HTML in Java zu PDF konvertieren – ein umfassender Leitfaden von Grund auf.
+
 ### [Konvertierung von HTML zu MHTML](./convert-html-to-mhtml/)
 Konvertieren Sie HTML mühelos zu MHTML mit Aspose.HTML für Java. Folgen Sie unserer Schritt‑für‑Schritt‑Anleitung für eine effiziente HTML‑zu‑MHTML‑Konvertierung.
 
@@ -106,6 +109,12 @@ Konvertieren Sie SVG in Java mit Aspose.HTML zu PDF. Eine nahtlose Lösung für 
 
 ### [Konvertierung von SVG zu XPS](./convert-svg-to-xps/)
 Erfahren Sie, wie Sie SVG mit Aspose.HTML für Java zu XPS konvertieren. Einfache, Schritt‑für‑Schritt‑Anleitung für reibungslose Konvertierungen.
+
+### [Einbetten von Schriftarten in PDF – Vollständiger Aspose HTML zu PDF Leitfaden (Java)](./embed-fonts-pdf-complete-aspose-html-to-pdf-guide-java/)
+Erfahren Sie, wie Sie Schriftarten beim HTML‑zu‑PDF‑Export in Java einbetten, um konsistente Darstellung in allen PDF‑Betrachtern sicherzustellen.
+
+### [DOCX aus HTML erstellen – Java‑Leitfaden zur Konvertierung von HTML in DOCX](./create-docx-from-html-java-guide-to-convert-html-to-docx/)
+Erfahren Sie, wie Sie HTML in Java mit Aspose.HTML in DOCX konvertieren und hochwertige Word‑Dokumente erzeugen.
 
 ## Häufig gestellte Fragen
 

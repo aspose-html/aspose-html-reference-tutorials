@@ -28,6 +28,8 @@ Most váltsunk sebességet, és fedezzük fel, hogyan lehet hatékonyan szerkesz
 ## CSS és HTML űrlapszerkesztés az Aspose.HTML for Java Tutorials segítségével
 ### [Speciális CSS-kiterjesztési technikák az Aspose.HTML for Java segítségével](./advanced-css-extension/)
 Tanulja meg, hogyan használhatja az Aspose.HTML for Java-t fejlett CSS-technikák alkalmazására, beleértve az egyéni oldalmargókat és a dinamikus tartalmat. Részletes, gyakorlati útmutató fejlesztőknek.
+### [CSS olvasása Java-ban – Lépésről‑lépésre útmutató](./how-to-read-css-in-java-step-by-step-guide/)
+Ismerje meg, hogyan olvashatja be és elemezheti a CSS‑fájlokat Java‑alkalmazásokban az Aspose.HTML segítségével.
 ### [HTML űrlap szerkesztése és benyújtása Aspose.HTML for Java segítségével](./html-form-editing/)
 Ebből az átfogó, lépésenkénti útmutatóból megtudhatja, hogyan szerkeszthet és küldhet be programozott HTML-űrlapokat az Aspose.HTML for Java használatával.
 ### [Elem kiválasztása osztály alapján Java-ban – Teljes útmutató](./select-element-by-class-in-java-complete-how-to-guide/)

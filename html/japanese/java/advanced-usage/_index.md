@@ -123,6 +123,8 @@ Aspose.HTML for Java を使用して PDF のページサイズを調整する方
 Aspose.HTML for Java を使用して XPS のページサイズを調整する方法を学びます。XPS ドキュメントの出力寸法を簡単に制御できます。
 ### [Java で JavaScript を実行する方法 – 完全ガイド](./how-to-run-javascript-in-java-complete-guide/)
 Aspose.HTML for Java を使用して、Java アプリケーション内で JavaScript を実行し、動的コンテンツやロジックを統合する方法を学びます。
+### [Java で JavaScript を有効にする方法 – 完全 Aspose.HTML ガイド](./how-to-enable-javascript-in-java-complete-aspose-html-guide/)
+Aspose.HTML for Java を使い、Java 環境で JavaScript を有効化し、動的ページ処理を実現する手順を解説します。
 
 ---
 
