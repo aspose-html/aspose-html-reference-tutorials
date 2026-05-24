@@ -56,6 +56,8 @@ Pelajari cara memuat dokumen HTML dari aliran menggunakan Aspose.HTML untuk Java
 Pelajari cara membuat dokumen HTML dari string di Aspose.HTML untuk Java dengan panduan langkah demi langkah ini.
 ### [Memuat Dokumen HTML dari URL di Aspose.HTML untuk Java](./load-html-documents-from-url/)
 Temukan cara mudah memuat dokumen HTML dari URL di Java dengan Aspose.HTML. Tutorial langkah demi langkah disertakan.
+### [Memuat Dokumen HTML Java – Panduan Lengkap dengan XPath & CSS](./load-html-document-java-complete-guide-with-xpath-css/)
+Pelajari cara memuat dokumen HTML di Java dengan Aspose.HTML, lengkap dengan contoh penggunaan XPath dan CSS untuk manipulasi yang kuat.
 ### [Hasilkan Dokumen HTML Baru menggunakan Aspose.HTML untuk Java](./generate-new-html-documents/)
 Pelajari cara membuat dokumen HTML baru menggunakan Aspose.HTML untuk Java dengan panduan langkah demi langkah yang mudah ini. Mulai buat konten HTML yang dinamis.
 ### [Menangani Peristiwa Pemuatan Dokumen di Aspose.HTML untuk Java](./handle-document-load-events/)
@@ -65,6 +67,8 @@ Pelajari cara membuat dan mengelola dokumen SVG menggunakan Aspose.HTML untuk Ja
 ### [Buat Sandbox untuk HTML di Java – Panduan Langkah‑per‑Langkah](./create-sandbox-for-html-in-java-step-by-step-guide/)
 Pelajari cara membuat sandbox HTML di Java dengan panduan langkah demi langkah untuk pengujian dan pengembangan yang aman.
 ### [Cara Menanyakan HTML di Java – Tutorial Lengkap](./how-to-query-html-in-java-complete-tutorial/)
+### [Menghitung Karakter HTML di Java – Panduan Lengkap dengan Aspose HTML](./count-html-characters-in-java-full-guide-with-aspose-html/)
+Pelajari cara menghitung jumlah karakter HTML dalam dokumen menggunakan Aspose.HTML untuk Java dengan panduan langkah demi langkah.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

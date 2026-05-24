@@ -66,6 +66,11 @@ Learn how to create new HTML documents using Aspose.HTML for Java with this easy
 Learn to handle document load events in Aspose.HTML for Java with this step-by-step guide. Enhance your web applications.
 ### [Create and Manage SVG Documents in Aspose.HTML for Java](./create-manage-svg-documents/)
 Learn to create and manage SVG documents using Aspose.HTML for Java! This comprehensive guide covers everything from basic creation to advanced manipulation.
+### [Load HTML Document Java – Complete Guide with XPath & CSS](./load-html-document-java-complete-guide-with-xpath-css/)
+Learn how to load HTML documents in Java using Aspose.HTML, with comprehensive XPath and CSS selectors guide.
+### [count html characters in Java – Full Guide with Aspose HTML](./count-html-characters-in-java-full-guide-with-aspose-html/)
+Learn how to count HTML characters in Java using Aspose.HTML with this comprehensive step‑by‑step guide.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

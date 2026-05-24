@@ -86,6 +86,11 @@ Em conclusão, dominar **html to pdf java** e o conjunto mais amplo de conversõ
 Aprenda como converter HTML para PDF em Java usando Aspose.HTML. Crie PDFs de alta qualidade a partir do seu conteúdo HTML sem esforço.
 ### [Converter HTML para PDF em Java – Guia passo a passo com configurações de tamanho de página](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Aprenda a converter HTML para PDF em Java, definindo tamanhos de página personalizados passo a passo.
+### [Convertendo HTML para PDF em Java – Guia Completo Passo a Passo](./convert-html-to-pdf-in-java-complete-step-by-step-guide/)
+### [Como usar Aspose – Conversão em lote de HTML para PDF em Java](./how-to-use-aspose-batch-convert-html-to-pdf-in-java/)
+Aprenda a converter vários arquivos HTML em PDFs usando Aspose.HTML for Java em um processo em lote eficiente.
+### [Como compactar PDF com Aspose HTML para PDF – Guia Java](./how-to-compress-pdf-with-aspose-html-to-pdf-java-guide/)
+Aprenda a reduzir o tamanho de arquivos PDF usando Aspose.HTML for Java, otimizando a compactação sem perder qualidade.
 ### [Convertendo HTML para MHTML](./convert-html-to-mhtml/)
 Converta HTML para MHTML facilmente usando Aspose.HTML for Java. Siga nosso guia passo a passo para uma conversão eficiente de HTML‑para‑MHTML.
 ### [Convertendo HTML para XPS](./convert-html-to-xps/)
@@ -98,6 +103,8 @@ Aprenda como converter SVG para imagens em Java com Aspose.HTML. Guia abrangente
 Converta SVG para PDF em Java com Aspose.HTML. Uma solução fluida para conversão de documentos de alta qualidade.
 ### [Convertendo SVG para XPS](./convert-svg-to-xps/)
 Aprenda como converter SVG para XPS com Aspose.HTML for Java. Guia simples, passo a passo, para conversões sem complicações.
+### [Converter HTML dinâmico para PDF com Aspose HTML para Java](./convert-dynamic-html-pdf-with-aspose-html-for-java/)
+Aprenda a gerar PDFs a partir de HTML dinâmico em Java usando Aspose.HTML, incluindo scripts e conteúdo carregado dinamicamente.
 
 ## Perguntas Frequentes
 
