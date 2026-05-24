@@ -89,6 +89,9 @@ Erfahren Sie, wie Sie HTML in Java mit Aspose.HTML zu PDF konvertieren. Erstelle
 ### [HTML zu PDF in Java – Schritt‑für‑Schritt‑Anleitung mit Seitengrößeneinstellungen](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Erfahren Sie, wie Sie HTML in Java zu PDF konvertieren und dabei die Seitengröße präzise festlegen.
 
+### [Wie man HTML zu PDF mit Aspose HTML konvertiert – Asynchroner Java‑Leitfaden](./how-to-convert-html-to-pdf-with-aspose-html-async-java-guide/)
+Erfahren Sie, wie Sie HTML asynchron in PDF konvertieren, indem Sie die asynchrone API von Aspose.HTML in Java nutzen.
+
 ### [Konvertierung von HTML zu MHTML](./convert-html-to-mhtml/)
 Konvertieren Sie HTML mühelos zu MHTML mit Aspose.HTML für Java. Folgen Sie unserer Schritt‑für‑Schritt‑Anleitung für eine effiziente HTML‑zu‑MHTML‑Konvertierung.
 
@@ -106,6 +109,11 @@ Konvertieren Sie SVG in Java mit Aspose.HTML zu PDF. Eine nahtlose Lösung für 
 
 ### [Konvertierung von SVG zu XPS](./convert-svg-to-xps/)
 Erfahren Sie, wie Sie SVG mit Aspose.HTML für Java zu XPS konvertieren. Einfache, Schritt‑für‑Schritt‑Anleitung für reibungslose Konvertierungen.
+
+### [Aspose HTML PDF/A‑Tutorial: HTML zu PDF/A‑2b mit Java konvertieren](./aspose-html-pdf-a-tutorial-convert-html-to-pdf-a-2b-with-jav/)
+Erfahren Sie, wie Sie HTML‑Dokumente mit Aspose.HTML für Java in das PDF/A‑2b‑Format konvertieren, um langfristige Archivierung zu gewährleisten.
+
+### [Audio aus HTML extrahieren – So extrahieren Sie Medien und Video](./extract-audio-from-html-how-to-extract-media-and-video/)
 
 ## Häufig gestellte Fragen
 

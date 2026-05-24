@@ -126,7 +126,11 @@ Aprende a automatizar el llenado y envío de formularios HTML con Aspose.HTML pa
 Aprende a ajustar el tamaño de página PDF con Aspose.HTML para Java. Crea PDFs de alta calidad a partir de HTML sin esfuerzo. Controla las dimensiones de la página de manera eficaz.
 ### [Ajustar tamaño de página XPS con Aspose.HTML para Java](./adjust-xps-page-size/)
 Aprende a ajustar el tamaño de página XPS con Aspose.HTML para Java. Controla fácilmente las dimensiones de salida de tus documentos XPS.
+### [Cómo cargar HTML, establecer DPI del dispositivo y leer el color de fondo](./how-to-load-html-set-device-dpi-read-background-color/)
+Aprende a cargar documentos HTML, configurar la DPI del dispositivo y obtener el color de fondo usando Aspose.HTML para Java.
 ### [Cómo ejecutar JavaScript en Java – Guía completa](./how-to-run-javascript-in-java-complete-guide/)
+### [Cómo ejecutar JavaScript de forma asíncrona usando CompletableFuture](./how-to-run-javascript-asynchronously-using-completablefuture/)
+Aprende a ejecutar código JavaScript de manera asíncrona en Java mediante CompletableFuture para mejorar el rendimiento de tus aplicaciones.
 
 ---
 

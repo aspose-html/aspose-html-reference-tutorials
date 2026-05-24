@@ -83,6 +83,8 @@ Aspose.HTML for Java 简化了 HTML 转 PDF 的工作流。请参阅专门的教
 ## Conversion - HTML to Other Formats Tutorials
 ### [将 HTML 转换为 PDF](./convert-html-to-pdf/)
 了解如何使用 Aspose.HTML 在 Java 中将 HTML 转换为 PDF。轻松从 HTML 内容创建高质量 PDF。
+### [使用 Aspose HTML 将 HTML 转换为 PDF – 异步 Java 指南](./how-to-convert-html-to-pdf-with-aspose-html-async-java-guide/)
+了解如何在 Java 中使用 Aspose.HTML 的异步 API 将 HTML 转换为 PDF，实现高效非阻塞文档生成。
 ### [将 HTML 转换为 MHTML](./convert-html-to-mhtml/)
 使用 Aspose.HTML for Java 轻松将 HTML 转换为 MHTML。按照我们的分步指南高效完成 HTML 到 MHTML 的转换。
 ### [将 HTML 转换为 XPS](./convert-html-to-xps/)
@@ -97,6 +99,9 @@ Aspose.HTML for Java 简化了 HTML 转 PDF 的工作流。请参阅专门的教
 了解如何使用 Aspose.HTML for Java 将 SVG 转换为 XPS。提供简单、分步的无缝转换指南。
 ### [在 Java 中将 HTML 转换为 PDF – 带页面尺寸设置的分步指南](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 详细步骤演示如何在 Java 使用 Aspose.HTML 将 HTML 转换为 PDF，并自定义页面尺寸。
+### [Aspose HTML PDF/A 教程：使用 Java 将 HTML 转换为 PDF/A‑2b](./aspose-html-pdf-a-tutorial-convert-html-to-pdf-a-2b-with-jav/)
+使用 Aspose.HTML for Java 将 HTML 转换为符合 PDF/A‑2b 标准的文档，满足长期存档需求。
+### [从 HTML 中提取音频 – 如何提取媒体和视频](./extract-audio-from-html-how-to-extract-media-and-video/)
 
 ## 常见问题
 
