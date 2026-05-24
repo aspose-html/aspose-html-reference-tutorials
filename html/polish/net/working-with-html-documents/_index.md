@@ -39,9 +39,14 @@ Teraz przenieśmy Twoje umiejętności na wyższy poziom. Edycja dokumentów HTM
 ### [Jak zapisać HTML w C# – Kompletny przewodnik z użyciem własnego obsługiwacza zasobów](./how-to-save-html-in-c-complete-guide-using-a-custom-resource/)
 
 Poznaj metodę zapisu HTML w C# z własnym obsługiwaczem zasobów, umożliwiającą pełną kontrolę nad zapisem i dostępem do zasobów.
+
+### [Jak zapisać HTML przy użyciu Aspose.Html – Kompletny przewodnik C#](./how-to-save-html-with-aspose-html-complete-c-guide/)
+
+Dowiedz się, jak zapisać dokument HTML w C# przy użyciu biblioteki Aspose.Html, krok po kroku, z przykładami kodu.
+
 ### [Jak pogrubić nagłówek za pomocą CSS i C# – Kompletny przewodnik krok po kroku](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
 
-Dowiedz się, jak użyć CSS i C# do pogrubienia nagłówka w HTML, krok po kroku, z praktycznymi przykładami.
+### [Jak spakować HTML w C# – Kompletny przewodnik krok po kroku](./how-to-zip-html-in-c-complete-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
