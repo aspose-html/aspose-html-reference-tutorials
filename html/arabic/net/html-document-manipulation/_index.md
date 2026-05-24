@@ -59,6 +59,8 @@ url: /ar/net/html-document-manipulation/
 تعرف على كيفية الاستفادة من قوة Aspose.HTML لـ .NET. عزز تطوير الويب لديك باستخدام معالجة HTML وتقديمها.
 ### [إنشاء مستند في .NET باستخدام Aspose.HTML](./creating-a-document/)
 أطلق العنان لقوة Aspose.HTML لـ .NET. تعلم كيفية إنشاء مستندات HTML وSVG ومعالجتها وتحسينها بسهولة. استكشف الأمثلة والأسئلة الشائعة خطوة بخطوة.
+### [كيفية إنشاء HTML باستخدام Aspose – العثور على عنصر وتطبيق غامق](./how-to-create-html-with-aspose-find-element-apply-bold/)
+تعلم كيفية إنشاء مستند HTML وتحديد عنصر معين وتطبيق تنسيق غامق باستخدام Aspose.HTML.
 ### [تحرير مستند في .NET باستخدام Aspose.HTML](./editing-a-document/)
 أنشئ محتوى ويب جذابًا باستخدام Aspose.HTML for .NET. تعرّف على كيفية التعامل مع HTML وCSS والمزيد.
 ### [حفظ مستند في .NET باستخدام Aspose.HTML](./saving-a-document/)
