@@ -1,15 +1,23 @@
 ---
-date: 2025-12-12
+date: 2026-02-17
 description: Μάθετε πώς να μετατρέπετε EPUB σε PDF και εικόνες χρησιμοποιώντας το
   Aspose.HTML για Java. Αυτός ο οδηγός βήμα‑βήμα σας δείχνει πώς να μετατρέψετε epub
-  σε pdf, να μετατρέψετε epub σε εικόνα και να χρησιμοποιήσετε τη καλύτερη βιβλιοθήκη
-  μετατροπής epub.
+  σε pdf, να μετατρέψετε epub σε εικόνα, να ορίσετε την ανάλυση της εικόνας και να
+  διαχειριστείτε τη μαζική μετατροπή epub.
 linktitle: Convert EPUB to PDF and Images with Aspose.HTML for Java
 second_title: Java HTML Processing with Aspose.HTML
-title: Μετατρέψτε το EPUB σε PDF και εικόνες με το Aspose.HTML για Java
+title: Μετατροπή EPUB σε PDF και εικόνες με το Aspose.HTML για Java
 url: /el/java/conversion-epub-to-image-and-pdf/
 weight: 22
 ---
+
+-backtop-button >}}" keep.
+
+Now ensure we preserve all markdown formatting, code fences (none present except inline code). No fenced code blocks.
+
+Now produce final content with translations.
+
+Let's assemble.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
@@ -17,78 +25,100 @@ weight: 22
 
 # Μετατροπή EPUB σε PDF και Εικόνες με Aspose.HTML για Java
 
-Αναζητάτε να **convert EPUB to PDF** ή να μετατρέψετε τα e‑books σας σε εικόνες υψηλής ποιότητας; Βρίσκεστε στη σωστή θέση! Σε αυτό το ολοκληρωμένο tutorial, θα σας καθοδηγήσουμε σε όλη τη διαδικασία χρησιμοποιώντας το **Aspose.HTML for Java** – μια κορυφαία **epub conversion library** που κάνει τις εργασίες **convert epub to pdf** και **convert epub to image** απρόσκοπτες.
+Αναζητάτε να **convert EPUB to PDF** ή να μετατρέψετε τα e‑books σας σε εικόνες υψηλής ποιότητας; Βρίσκεστε στο σωστό μέρος! Σε αυτόν τον ολοκληρωμένο οδηγό, θα σας καθοδηγήσουμε σε όλη τη διαδικασία χρησιμοποιώντας το **Aspose.HTML for Java** – μια κορυφαία **epub conversion library** που κάνει τις εργασίες **convert epub to pdf** και **convert epub to image** απρόσκοπτες.
 
 ## Γρήγορες Απαντήσεις
-- **Μπορώ να μετατρέψω EPUB σε PDF με Java;** Ναι, Aspose.HTML for Java provides a one‑line API to do it.  
-- **Υποστηρίζεται η μετατροπή εικόνας;** Απολύτως – you can export each page to PNG, JPEG, or BMP.  
-- **Χρειάζομαι άδεια;** A free trial works for development; a commercial license is required for production.  
-- **Ποιες εκδόσεις Java υποστηρίζονται;** Java 8 and newer, including Java 17 LTS.  
-- **Είναι η βιβλιοθήκη αρκετά γρήγορη για μεγάλα βιβλία;** Ναι, it streams content and uses minimal memory.
+- **Μπορώ να μετατρέψω EPUB σε PDF με Java;** Ναι, το Aspose.HTML for Java παρέχει ένα API μιας γραμμής για να το κάνετε.  
+- **Υποστηρίζεται η μετατροπή εικόνας;** Απόλυτα – μπορείτε να εξάγετε κάθε σελίδα σε PNG, JPEG ή BMP.  
+- **Χρειάζομαι άδεια;** Μια δωρεάν δοκιμή λειτουργεί για ανάπτυξη· απαιτείται εμπορική άδεια για παραγωγή.  
+- **Ποιες εκδόσεις Java υποστηρίζονται;** Java 8 και νεότερες, συμπεριλαμβανομένου του Java 17 LTS.  
+- **Είναι η βιβλιοθήκη αρκετά γρήγορη για μεγάλα βιβλία;** Ναι, κάνει streaming του περιεχομένου και χρησιμοποιεί ελάχιστη μνήμη.
 
 ## Τι είναι το “convert epub to pdf”;
-Η μετατροπή ενός αρχείου EPUB σε PDF σημαίνει ότι παίρνετε τη ρεφουλ‑μορφή, βασισμένη στο web, μορφή e‑book και δημιουργείτε ένα έγγραφο PDF σταθερής διάταξης. Αυτό είναι χρήσιμο όταν χρειάζεστε μια εκτυπώσιμη έκδοση, κοινή χρήση εκτός σύνδεσης ή συμμόρφωση με συστήματα διαχείρισης εγγράφων.
+Η μετατροπή ενός αρχείου EPUB σε PDF σημαίνει ότι παίρνετε τη ρεφλουώσιμη, βασισμένη στο web μορφή e‑book και δημιουργείτε ένα έγγραφο PDF σταθερής διάταξης. Αυτό είναι χρήσιμο όταν χρειάζεστε μια εκτυπώσιμη έκδοση, κοινή χρήση εκτός σύνδεσης ή συμμόρφωση με συστήματα διαχείρισης εγγράφων.
 
 ## Γιατί να χρησιμοποιήσετε το Aspose.HTML for Java για μετατροπή EPUB;
-- **All‑in‑one solution** – handles both PDF and image outputs without third‑party tools.  
-- **High fidelity** – preserves CSS, fonts, and vector graphics.  
-- **Cross‑platform** – works on Windows, Linux, and macOS.  
-- **Rich API** – simple methods like `HtmlDocument.save()` let you focus on business logic.  
+- **All‑in‑one solution** – διαχειρίζεται τόσο εξόδους PDF όσο και εικόνας χωρίς εργαλεία τρίτων.  
+- **High fidelity** – διατηρεί CSS, γραμματοσειρές και διανυσματικά γραφικά.  
+- **Cross‑platform** – λειτουργεί σε Windows, Linux και macOS.  
+- **Rich API** – απλές μέθοδοι όπως `HtmlDocument.save()` σας επιτρέπουν να εστιάσετε στη λογική της επιχείρησης.  
 
 ## Προαπαιτούμενα
-- Java Development Kit (JDK) 8 or higher installed.  
-- Maven or Gradle project setup (or you can add the JAR manually).  
-- An active Aspose.HTML for Java license (or a temporary trial key).  
+- Java Development Kit (JDK) 8 ή νεότερο εγκατεστημένο.  
+- Ρύθμιση έργου Maven ή Gradle (ή μπορείτε να προσθέσετε το JAR χειροκίνητα).  
+- Ένα ενεργό άδεια Aspose.HTML for Java (ή ένα προσωρινό κλειδί δοκιμής).  
 
-## Οδηγός Βήμα‑βήμα για τη Μετατροπή EPUB σε Εικόνες
-1. **Add the Aspose.HTML Maven dependency** to your `pom.xml` (or download the JAR).  
-2. **Load the EPUB file** using `HtmlDocument`.  
-3. **Iterate through pages** and call `save()` with an image format (PNG, JPEG, etc.).  
-4. **Specify output folder** and naming pattern, e.g., `page_{0}.png`.  
+## Πώς να μετατρέψετε EPUB σε PDF και Εικόνες με Java
+Παρακάτω θα βρείτε δύο σαφείς διαδρομές: μία για έξοδο PDF και άλλη για έξοδο εικόνας. Και οι δύο μοιράζονται τα ίδια αρχικά βήματα, ώστε να μπορείτε να επιλέξετε τη διαδρομή που ταιριάζει στις ανάγκες του έργου σας.
 
-> *Συμβουλή:* Use the `saveOptions.setPageNumber()` method to control which page you export, which helps when you only need a subset of images.
+### Οδηγός Βήμα‑Βήμα για τη Μετατροπή EPUB σε Εικόνες
+1. **Add the Aspose.HTML Maven dependency** στο `pom.xml` σας (ή κατεβάστε το JAR).  
+2. **Load the EPUB file** χρησιμοποιώντας το `HtmlDocument`.  
+3. **Iterate through pages** και καλέστε `save()` με μορφή εικόνας (PNG, JPEG, κλπ.).  
+4. **Specify output folder** και μοτίβο ονομασίας, π.χ., `page_{0}.png`.  
 
-## Οδηγός Βήμα‑βήμα για τη Μετατροπή EPUB σε PDF
-1. **Include the same Maven dependency** as above.  
-2. **Create an `HtmlDocument` instance** pointing to your EPUB file.  
-3. **Call `save()`** with `PdfSaveOptions` to generate a PDF file in one line.  
-4. **Adjust PDF options** (e.g., page size, compression) if you need custom output.  
+> *Pro tip:* Χρησιμοποιήστε τη μέθοδο `saveOptions.setPageNumber()` για να ελέγξετε ποια σελίδα εξάγετε, κάτι που βοηθά όταν χρειάζεστε μόνο ένα υποσύνολο εικόνων.
 
-> *Γιατί είναι σημαντικό:* Converting to PDF with a single API call eliminates the need for intermediate HTML rendering, reducing both development time and runtime overhead.
+#### Ορισμός ανάλυσης εικόνας για τη μετατροπή EPUB σε εικόνα
+Όταν χρειάζεστε γραφικά έτοιμα για εκτύπωση, ορίστε την ανάλυση ρητά:
 
-## Συνηθισμένα Πιθανά Σφάλματα & Πώς να τα Αποφύγετε
-- **Missing fonts** – embed custom fonts in the EPUB or supply a font folder to Aspose.HTML.  
-- **Large EPUB files** – enable streaming (`HtmlLoadOptions.setEnableMemoryOptimization(true)`) to keep memory usage low.  
-- **Incorrect image resolution** – set `ImageSaveOptions.setResolution(300)` for print‑quality images.  
+- • Καλέστε `ImageSaveOptions.setResolution(300)` για να παραγάγετε εικόνες 300 dpi.  
+- • Ρυθμίστε την τιμή ανάλογα με το μέσο-στόχο (150 dpi για web, 600 dpi για εκτυπώσεις υψηλής ποιότητας).  
 
-## Μετατροπή - Οδηγοί EPUB σε Εικόνα και PDF
+Αυτή η μικρή ρύθμιση εξασφαλίζει ότι οι ραστερισμένες σελίδες φαίνονται καθαρές και επαγγελματικές.
+
+### Οδηγός Βήμα‑Βήμα για τη Μετατροπή EPUB σε PDF
+1. **Include the same Maven dependency** όπως παραπάνω.  
+2. **Create an `HtmlDocument` instance** που δείχνει στο αρχείο EPUB σας.  
+3. **Call `save()`** με `PdfSaveOptions` για να δημιουργήσετε ένα αρχείο PDF με μία γραμμή.  
+4. **Adjust PDF options** (π.χ., μέγεθος σελίδας, συμπίεση) αν χρειάζεστε προσαρμοσμένη έξοδο.  
+
+> *Why this matters:* Η μετατροπή σε PDF με μία κλήση API εξαλείφει την ανάγκη ενδιάμεσης απόδοσης HTML, μειώνοντας τόσο το χρόνο ανάπτυξης όσο και το φορτίο χρόνου εκτέλεσης.
+
+## Μαζική μετατροπή EPUB
+Αν έχετε μια βιβλιοθήκη βιβλίων, τυλίξτε τη λογική μετατροπής σε βρόχο:
+
+- • Φορτώστε κάθε αρχείο EPUB διαδοχικά.  
+- • Επαναχρησιμοποιήστε ένα μόνο αντικείμενο `HtmlDocument` για να διατηρήσετε τη χρήση μνήμης χαμηλή.  
+- • Γράψτε κάθε έξοδο (PDF ή εικόνα) σε έναν αφιερωμένο φάκελο.  
+
+Η μαζική επεξεργασία αξιοποιεί τις ίδιες κλήσεις API, έτσι λαμβάνετε συνεπή αποτελέσματα σε όλα τα αρχεία.
+
+## Συνηθισμένα Παράπλευρα Προβλήματα & Πώς να τα Αποφύγετε
+- **Missing fonts** – ενσωματώστε προσαρμοσμένες γραμματοσειρές στο EPUB ή παρέχετε φάκελο γραμματοσειρών στο Aspose.HTML.  
+- **Large EPUB files** – ενεργοποιήστε το streaming (`HtmlLoadOptions.setEnableMemoryOptimization(true)`) για να διατηρήσετε τη χρήση μνήμης χαμηλή.  
+- **Incorrect image resolution** – ορίστε `ImageSaveOptions.setResolution(300)` για εικόνες εκτύπωσης υψηλής ποιότητας.  
+
+## Μετατροπή - Εκπαιδευτικά για EPUB σε Εικόνα και PDF
 ### [Μετατροπή EPUB σε Εικόνες με Aspose.HTML for Java](./convert-epub-to-image/)
-Μάθετε πώς να μετατρέψετε EPUB σε εικόνα χρησιμοποιώντας το Aspose.HTML for Java. Ένας απλός, βήμα‑βήμα οδηγός για αποδοτικές μετατροπές.
-
+Μάθετε πώς να μετατρέψετε EPUB σε εικόνα χρησιμοποιώντας το Aspose.HTML for Java. Ένας απλός, βήμα‑βήμα οδηγός για αποδοτικές μετατροπές.  
 ### [Μετατροπή EPUB σε PDF με Aspose.HTML for Java](./convert-epub-to-pdf/)
-Μάθετε πώς να μετατρέψετε EPUB σε PDF με το Aspose.HTML for Java. Αυτός ο βήμα‑βήμα οδηγός καλύπτει τα προαπαιτούμενα, τις εισαγωγές πακέτων και παραδείγματα κώδικα. Ξεκινήστε με τη μετατροπή EPUB σε PDF.
+Μάθετε πώς να μετατρέψετε EPUB σε PDF με το Aspose.HTML for Java. Αυτός ο οδηγός βήμα‑βήμα καλύπτει τις προαπαιτούμενες, τις εισαγωγές πακέτων και παραδείγματα κώδικα. Ξεκινήστε με τη μετατροπή EPUB σε PDF.
 
 ## Συχνές Ερωτήσεις
 
-**Q: Πώς μπορώ να μετατρέψω EPUB σε PDF σε μια Java web εφαρμογή;**  
-A: Φορτώστε το EPUB από ένα `InputStream`, μετατρέψτε το χρησιμοποιώντας το ίδιο API, και γράψτε το PDF απευθείας στο ρεύμα εξόδου της HTTP response.
+**Q: Πώς μπορώ να μετατρέψω EPUB σε PDF σε μια εφαρμογή web Java;**  
+A: Φορτώστε το EPUB από ένα `InputStream`, μετατρέψτε το χρησιμοποιώντας το ίδιο API, και γράψτε το PDF απευθείας στο ρεύμα εξόδου της HTTP απόκρισης.
 
 **Q: Μπορώ να μετατρέψω προστατευμένα αρχεία EPUB;**  
-A: Ναι, provide the decryption password via `HtmlLoadOptions.setPassword("yourPassword")`.
+A: Ναι, παρέχετε τον κωδικό αποκρυπτογράφησης μέσω `HtmlLoadOptions.setPassword("yourPassword")`.
 
-**Q: Υποστηρίζει το Aspose.HTML δυνατότητες EPUB 3;**  
-A: It fully supports EPUB 3, including audio, video, and interactive elements.
+**Q: Υποστηρίζει το Aspose.HTML χαρακτηριστικά του EPUB 3;**  
+A: Υποστηρίζει πλήρως το EPUB 3, συμπεριλαμβανομένου ήχου, βίντεο και διαδραστικών στοιχείων.
 
 **Q: Ποια είναι η διαφορά μεταξύ `convert epub to pdf` και `convert epub to image`;**  
-A: PDF retains the document’s flow and selectable text, while image conversion rasterizes each page, useful for thumbnails or preview images.
+A: Το PDF διατηρεί τη ροή του εγγράφου και το επιλέξιμο κείμενο, ενώ η μετατροπή σε εικόνα ραστεροποιεί κάθε σελίδα, χρήσιμη για μικρογραφίες ή εικόνες προεπισκόπησης.
 
-**Q: Υπάρχει τρόπος να επεξεργαστώ μαζικά πολλαπλά αρχεία EPUB;**  
-A: Wrap the conversion logic in a loop and reuse a single `HtmlDocument` instance to improve performance.
+**Q: Υπάρχει τρόπος να επεξεργαστείτε μαζικά πολλαπλά αρχεία EPUB;**  
+A: Τυλίξτε τη λογική μετατροπής σε βρόχο και επαναχρησιμοποιήστε ένα μόνο αντικείμενο `HtmlDocument` για να βελτιώσετε την απόδοση.
+
+**Q: Πώς μπορώ να ορίσω την ανάλυση εικόνας όταν μετατρέπω EPUB σε εικόνες;**  
+A: Χρησιμοποιήστε `ImageSaveOptions.setResolution(desiredDpi)`—π.χ., `setResolution(300)` για έξοδο εκτύπωσης υψηλής ποιότητας.
 
 ---
 
-**Τελευταία Ενημέρωση:** 2025-12-12  
-**Δοκιμή με:** Aspose.HTML for Java 24.10  
+**Τελευταία Ενημέρωση:** 2026-02-17  
+**Δοκιμή Με:** Aspose.HTML for Java 24.10  
 **Συγγραφέας:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
