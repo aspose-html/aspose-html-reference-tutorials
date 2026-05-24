@@ -26,6 +26,8 @@ Lassen Sie uns zunächst darüber sprechen, was Speicherströme sind. Stellen Si
 ## Datenverarbeitung und Stream-Verwaltung in Aspose.HTML für Java-Tutorials
 ### [Konvertieren Sie den Speicherstream mit Aspose.HTML für Java in eine Datei](./memory-stream-to-file/)
 Konvertieren Sie HTML mit Aspose.HTML für Java unter Verwendung von Speicherströmen in JPEG. Folgen Sie dieser Schritt-für-Schritt-Anleitung für die nahtlose Konvertierung von HTML in Bilder.
+### [Java Fixed Thread Pool: Bilder in parallelen Dateien zählen](./java-fixed-thread-pool-count-images-in-parallel-files/)
+Verwenden Sie einen festen Thread-Pool, um Bilder in mehreren Dateien parallel zu zählen.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
