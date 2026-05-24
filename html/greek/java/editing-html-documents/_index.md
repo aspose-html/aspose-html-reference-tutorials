@@ -60,6 +60,9 @@ url: /el/java/editing-html-documents/
 Μάθετε να εφαρμόζετε εσωτερικό CSS σε έγγραφα HTML χρησιμοποιώντας το Aspose.HTML για Java με τον εύκολο βήμα προς βήμα εκμάθησή μας.
 ### [Σταθερό thread pool Java – Παράλληλος καθαρισμός HTML με ExecutorService](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 Μάθετε πώς να χρησιμοποιήσετε ένα σταθερό thread pool σε Java για να εκτελείτε παράλληλο καθαρισμό HTML με την κλάση ExecutorService.
+### [Δημιουργία νέου στοιχείου HTML με Java – Πλήρης οδηγός Aspose.HTML](./create-new-html-element-with-java-full-aspose-html-guide/)
+Μάθετε πώς να δημιουργήσετε ένα νέο στοιχείο HTML χρησιμοποιώντας το Aspose.HTML για Java σε έναν πλήρη βήμα-βήμα οδηγό.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

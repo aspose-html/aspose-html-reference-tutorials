@@ -60,6 +60,8 @@ Tìm hiểu cách quản lý các thuộc tính HTML bên trong và bên ngoài 
 Học cách triển khai CSS nội bộ trong tài liệu HTML bằng Aspose.HTML cho Java với hướng dẫn từng bước dễ dàng của chúng tôi.
 ### [Fixed thread pool Java – Làm sạch HTML song song với ExecutorService](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 Sử dụng Fixed thread pool trong Java để thực hiện làm sạch HTML song song bằng ExecutorService.
+### [Tạo phần tử HTML mới bằng Java – Hướng dẫn đầy đủ Aspose.HTML](./create-new-html-element-with-java-full-aspose-html-guide/)
+Hướng dẫn chi tiết cách tạo phần tử HTML mới bằng Java sử dụng Aspose.HTML, bao gồm các bước thực hiện và ví dụ thực tế.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
