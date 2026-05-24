@@ -73,6 +73,8 @@ url: /ar/net/html-extensions-and-conversions/
 تعلم كيفية حفظ مستند HTML كملف ZIP باستخدام Aspose.HTML في C# خطوة بخطوة.
 ### [حفظ HTML إلى ZIP في C# – مثال كامل في الذاكرة](./save-html-to-zip-in-c-complete-in-memory-example/)
 تعلم كيفية حفظ مستند HTML كملف ZIP في الذاكرة باستخدام C# ومكتبة Aspose.HTML.
+### [كيفية استخدام المعالج في Aspose.HTML – تحميل HTML، حفظ كملف ZIP](./how-to-use-handler-in-aspose-html-load-html-save-as-zip/)
+تعلم كيفية تحميل مستند HTML واستخدام المعالج لحفظه كملف ZIP باستخدام Aspose.HTML.
 
 ## خاتمة
 

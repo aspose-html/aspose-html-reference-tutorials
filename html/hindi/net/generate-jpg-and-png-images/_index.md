@@ -44,7 +44,9 @@ HTML दस्तावेज़ों में हेरफेर करने
 ### [DOCX को PNG/JPG में बदलते समय एंटीएलियासिंग कैसे सक्षम करें](./how-to-enable-antialiasing-when-converting-docx-to-png-jpg/)
 DOCX फ़ाइलों को PNG या JPG में परिवर्तित करते समय एंटीएलियासिंग को सक्षम करने के चरणों को जानें।
 ### [DOCX को PNG में परिवर्तित करें – ZIP आर्काइव बनाएं C# ट्यूटोरियल](./convert-docx-to-png-create-zip-archive-c-tutorial/)
-C# में DOCX फ़ाइलों को PNG छवियों में बदलें और उन्हें ZIP आर्काइव में संकलित करना सीखें। चरण-दर-चरण मार्गदर्शिका।
+C# में DOCX फ़ाइलों को PNG छवियों में बदलें और उन्हें ZIP आर्काइव में संकलित करना सीखें। चरण-दर-शरण मार्गदर्शिका।
+### [Aspose.HTML के साथ HTML से PNG बनाएं – चरण‑दर‑चरण मार्गदर्शिका](./create-png-from-html-with-aspose-html-step-by-step-guide/)
+Aspose.HTML का उपयोग करके HTML को PNG में बदलने की प्रक्रिया को चरण‑दर‑चरण सीखें।
 
 ## निष्कर्ष
 
