@@ -60,6 +60,8 @@ Ezzel a lépésről lépésre szóló útmutatóval megtudhatja, hogyan kezelhet
 Ismerje meg a belső CSS-t HTML-dokumentumokban az Aspose.HTML for Java használatával az egyszerű, lépésről lépésre oktatóanyagunk segítségével.
 ### [Fixed thread pool Java – Párhuzamos HTML tisztítás ExecutorService használatával](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 Ismerje meg, hogyan használhatja a FixedThreadPool-t a HTML dokumentumok párhuzamos tisztításához az ExecutorService segítségével.
+### [h1 szöveg módosítása MHTML-ben Java-val – Teljes lépésről‑lépésre útmutató](./change-h1-text-in-mhtml-with-java-full-step-by-step-guide/)
+Ismerje meg, hogyan módosíthatja az MHTML fájlok h1 címkéjének szövegét Java segítségével részletes, lépésről‑lépésre útmutatóval.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

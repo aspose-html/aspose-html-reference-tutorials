@@ -41,7 +41,7 @@ Zewnętrzny CSS to miejsce, w którym prawdziwa moc projektowania stron internet
 
 ## Dodawanie inline i wewnętrznego CSS
 
-Czasami musisz zastosować style bezpośrednio w samym dokumencie HTML. To właśnie tutaj wkraczają inline i internal CSS. Samouczki dotyczące dodawania inline i internal CSS są idealne dla tych, którzy chcą szybkich i łatwych rozwiązań stylizacyjnych. Wyobraź sobie: pracujesz nad dokumentem, który wymaga określonego stylu i chcesz go zastosować bez wpływu na inne dokumenty. Inline i internal CSS pozwalają ci to zrobić. Niezależnie od tego, czy pracujesz nad małym projektem, czy aplikacją na dużą skalę, te przewodniki pomogą ci wykonać zadanie wydajnie.[Przeczytaj więcej](./add-inline-css-html-documents/) I[Przeczytaj więcej](./implement-internal-css-html-documents/)
+Czasami musisz zastosować style bezpośrednio w samym dokumencie HTML. To właśnie tutaj wkraczają inline i internal CSS. Samouczki dotyczące dodawania inline i internal CSS są idealne dla tych, którzy chcą szybkich i łatwych rozwiązań stylizacyjnych. Wyobraź sobie: pracujesz nad dokumentem, który wymaga określonego stylu i chcesz go zastosować bez wpływu na inne dokumenty. Inline i wewnętrzny CSS pozwalają ci to zrobić. Niezależnie od tego, czy pracujesz nad małym projektem, czy aplikacją na dużą skalę, te przewodniki pomogą ci wykonać zadanie wydajnie.[Przeczytaj więcej](./add-inline-css-html-documents/) I[Przeczytaj więcej](./implement-internal-css-html-documents/)
 
 ## Edycja dokumentów HTML w Aspose.HTML dla samouczków Java
 ### [Edytuj drzewo dokumentu HTML w Aspose.HTML dla Java](./edit-html-document-tree/)
@@ -58,6 +58,8 @@ Dowiedz się, jak dodawać inline CSS do dokumentów HTML za pomocą Aspose.HTML
 Dowiedz się, jak zarządzać wewnętrznymi i zewnętrznymi właściwościami HTML w Aspose.HTML dla Java dzięki temu przewodnikowi krok po kroku, idealnemu dla programistów stron internetowych i twórców treści.
 ### [Implementacja wewnętrznego CSS w dokumentach HTML za pomocą Aspose.HTML dla Java](./implement-internal-css-html-documents/)
 Naucz się implementować wewnętrzny kod CSS w dokumentach HTML, korzystając z Aspose.HTML dla Java, korzystając z naszego prostego samouczka krok po kroku.
+### [Zmień tekst h1 w MHTML przy użyciu Javy – Pełny przewodnik krok po kroku](./change-h1-text-in-mhtml-with-java-full-step-by-step-guide/)
+Dowiedz się, jak zmienić tekst elementu h1 w pliku MHTML przy użyciu Aspose.HTML dla Java w pełnym przewodniku krok po kroku.
 ### [Fixed thread pool Java – równoległe czyszczenie HTML przy użyciu ExecutorService](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 Dowiedz się, jak używać Fixed Thread Pool w Javie do równoległego czyszczenia HTML przy pomocy ExecutorService.
 {{< /blocks/products/pf/tutorial-page-section >}}

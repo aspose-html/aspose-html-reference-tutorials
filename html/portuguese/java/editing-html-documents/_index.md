@@ -60,6 +60,8 @@ Aprenda a gerenciar propriedades HTML internas e externas no Aspose.HTML para Ja
 Aprenda a implementar CSS interno em documentos HTML usando Aspose.HTML para Java com nosso tutorial passo a passo.
 ### [Pool de threads fixo java – Limpeza paralela de HTML com ExecutorService](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 Aprenda a usar um pool de threads fixo em Java para limpar HTML em paralelo usando ExecutorService.
+### [Alterar texto h1 em MHTML com Java – Guia completo passo a passo](./change-h1-text-in-mhtml-with-java-full-step-by-step-guide/)
+Aprenda a modificar o texto h1 em arquivos MHTML usando Java com este guia detalhado passo a passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

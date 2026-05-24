@@ -94,6 +94,8 @@ Erfahren Sie, wie Sie HTML in PNG‑Bilder mit Java und Aspose.HTML konvertieren
 Erfahren Sie, wie Sie HTML einfach mit Aspose.HTML for Java in TIFF konvertieren. Schritt‑für‑Schritt‑Leitfaden für effiziente Dokumentenverarbeitung.
 ### [HTML in WebP konvertieren](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
 Erfahren Sie, wie Sie HTML mit Aspose.HTML for Java in das moderne WebP‑Format konvertieren – Schritt‑für‑Schritt‑Anleitung für optimale Bildqualität.
+### [SVG in GIF konvertieren in Java – Vollständige Schritt‑für‑Schritt‑Anleitung](./svg-to-gif-conversion-in-java-complete-step-by-step-guide/)
+Erfahren Sie, wie Sie SVG mit Aspose.HTML for Java in GIF konvertieren – ein umfassender Schritt‑für‑Schritt‑Leitfaden.
 
 ## Häufig gestellte Fragen
 
