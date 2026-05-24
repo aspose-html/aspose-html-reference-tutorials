@@ -86,12 +86,18 @@ Kortom, het beheersen van **html to pdf java** en de bredere reeks conversies on
 Leer hoe u HTML naar PDF kunt converteren in Java met Aspose.HTML. Maak moeiteloos hoogwaardige PDF's van uw HTML‑inhoud.
 ### [HTML naar PDF converteren in Java – Stapsgewijze gids met paginagrootte‑instellingen](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Leer stap voor stap hoe u HTML naar PDF converteert in Java en paginagrootte‑instellingen configureert voor optimale resultaten.
+### [HTML naar PDF converteren in Java – Parallelle Fixed Thread Pool‑gids](./convert-html-to-pdf-in-java-parallel-fixed-thread-pool-guide/)
+Leer hoe u HTML naar PDF converteert in Java met behulp van een parallelle Fixed Thread Pool voor efficiënte batchverwerking.
+### [PDF maken van HTML in Java – Stapsgewijze gids](./create-pdf-from-html-in-java-step-by-step-guide/)
+Leer stap‑voor‑stap hoe u PDF‑bestanden genereert vanuit HTML in Java met Aspose.HTML.
 ### [HTML naar MHTML converteren](./convert-html-to-mhtml/)
 Converteer HTML moeiteloos naar MHTML met Aspose.HTML for Java. Volg onze stap‑voor‑stap gids voor efficiënte HTML‑naar‑MHTML conversie.
 ### [HTML naar XPS converteren](./convert-html-to-xps/)
 Leer hoe u HTML moeiteloos naar XPS kunt converteren met Aspose.HTML for Java. Maak cross‑platform documenten met gemak.
 ### [Markdown naar HTML converteren](./convert-markdown-to-html/)
 Converteer Markdown naar HTML in Java naadloos met Aspose.HTML for Java. Volg onze stap‑voor‑stap gids om uw documentconversiebehoeften te stroomlijnen.
+### [Markdown naar PDF converteren in Java – Complete gids](./convert-markdown-to-pdf-in-java-complete-guide/)
+Leer stap voor stap hoe u Markdown‑bestanden naar PDF converteert in Java met Aspose.HTML, inclusief configuratie‑opties en best practices.
 ### [SVG naar afbeelding converteren](./convert-svg-to-image/)
 Leer hoe u SVG naar afbeeldingen kunt converteren in Java met Aspose.HTML. Uitgebreide gids voor output van hoge kwaliteit.
 ### [SVG naar PDF converteren](./convert-svg-to-pdf/)

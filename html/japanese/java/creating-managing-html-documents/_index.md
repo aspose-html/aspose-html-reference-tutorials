@@ -27,7 +27,7 @@ HTML ドキュメントを非同期的に作成するのは複雑に聞こえる
 
 ## ファイルとストリームから HTML を読み込む
 
-ドキュメント作成のコツをつかんだら、ファイルやストリームから HTML ドキュメントを読み込む方法を学習して、スキルを向上しましょう。これらのチュートリアルでは、さまざまなソースから HTML コンテンツを取得するための知識を身に付けることができ、プロジェクトの柔軟性が向上します。ローカル ファイルやストリーミング データのどちらを扱う場合でも、Aspose.HTML for Java が役立ちます。[続きを読む](./load-html-documents-from-file/) [続きを読む](./load-html-documents-from-stream/)
+ドキュメント作成のコツをつかんだら、ファイルやストリームから HTML ドキュメントを読み込む方法を学習して、スキルを向上させましょう。これらのチュートリアルでは、さまざまなソースから HTML コンテンツを取得するための知識を身に付けることができ、プロジェクトの柔軟性が向上します。ローカル ファイルやストリーミング データのどちらを扱う場合でも、Aspose.HTML for Java が役立ちます。[続きを読む](./load-html-documents-from-file/) [続きを読む](./load-html-documents-from-stream/)
 
 ## 文字列と URL から HTML ドキュメントを作成する
 
@@ -66,6 +66,10 @@ Aspose.HTML for Java を使用して SVG ドキュメントを作成および管
 Java アプリで HTML のサンドボックス環境を構築し、安全にテストする方法をステップバイステップで学びます。
 ### [Java で HTML をクエリする方法 – 完全チュートリアル](./how-to-query-html-in-java-complete-tutorial/)
 Java で HTML を検索・抽出する方法をステップバイステップで解説します。XPath や CSS セレクタの活用例を含む完全ガイドです。
+### [Java で NodeList を反復処理する – 完全ガイド](./iterate-over-nodelist-java-complete-guide/)
+Aspose.HTML for Java を使用して、NodeList を反復処理する方法をステップバイステップで学びます。
+### [Java で HTML からテキストを抽出する – 完全ステップバイステップガイド](./extract-text-from-html-with-java-complete-step-by-step-guide/)
+Aspose.HTML for Java を使用して、HTML からテキストを抽出する方法を詳細に解説します。ステップバイステップのガイドで初心者も安心です。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

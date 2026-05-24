@@ -74,6 +74,8 @@ Leer hoe je Aspose.HTML for Java kunt gebruiken om EPUB‑bestanden naar afbeeld
 Leer hoe je Aspose.HTML for Java gebruikt: EPUB naar afbeelding & meer. Ontdek onze stapsgewijze gids.
 ### [EPUB naar afbeelding converteren](./convert-epub-to-image/)
 Leer hoe je EPUB naar afbeeldingen kunt converteren met Aspose.HTML for Java. Transformeer je digitale content moeiteloos. Stapsgewijze gids inbegrepen.
+### [epub naar pdf tutorial: eBook converteren naar PDF met Aspose](./epub-to-pdf-tutorial-convert-ebook-to-pdf-with-aspose/)
+Leer hoe je een eBook naar PDF converteert met Aspose.HTML for Java in deze stapsgewijze tutorial.
 
 ## Veelgestelde vragen
 
@@ -84,7 +86,7 @@ Leer hoe je EPUB naar afbeeldingen kunt converteren met Aspose.HTML for Java. Tr
 **A:** Gebruik de `PdfSaveOptions`‑klasse om `Compliance` in te stellen op `PdfCompliance.PdfA1b` (of andere PDF/A‑niveaus) vóór het opslaan.
 
 **Q:** *Is het mogelijk om tijdens de conversie afbeeldingen zoals JPG of PNG te extraheren?*  
-**A:** Absoluut. Door een afbeeldings‑opslaoptoptie op te geven of de aangepaste stream‑provider te gebruiken, kun je elke pagina of afbeelding naar JPG‑ of PNG‑formaat sturen.
+**A:** Absoluut. Door een afbeeldings‑opslaoptoptie op te geven of de aangepaste stream‑provider te gebruiken, kun je elke pagina of afbeelding naar JPG‑of PNG‑formaat sturen.
 
 **Q:** *Heb ik een aparte bibliotheek nodig voor het extraheren van afbeeldingen?*  
 **A:** Nee. dezelfde Aspose.HTML for Java API behandelt zowel PDF‑generatie als afbeeldingsextractie, waardoor de workflow wordt vereenvoudigd.
