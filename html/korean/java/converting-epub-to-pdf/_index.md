@@ -58,6 +58,8 @@ Aspose.HTML를 사용해 Java에서 EPUB을 PDF로 손쉽게 변환하고 문서
 Aspose.HTML, 강력한 HTML 조작 라이브러리를 사용해 Java에서 EPUB을 PDF로 변환하는 방법을 배워보세요.
 ### [Java에서 EPUB을 PDF로 변환할 때 글꼴 임베드하는 방법](./how-to-embed-fonts-when-converting-epub-to-pdf-in-java/)
 Aspose.HTML for Java를 사용해 EPUB을 PDF로 변환하면서 글꼴을 포함시키는 방법을 단계별로 안내합니다.
+### [Aspose HTML을 사용하여 PDF에 글꼴을 임베드하는 방법 – EPUB을 PDF 변환 가이드](./how-to-embed-fonts-in-pdf-using-aspose-html-convert-epub-to/)
+Aspose.HTML for Java를 활용해 PDF 변환 시 글꼴을 임베드하는 절차를 상세히 설명합니다.
 ### [EPUB을 BMP로 변환하기](./convert-epub-to-bmp/)
 Aspose.HTML for Java를 사용해 EPUB을 BMP로 변환하는 방법을 알아보세요. 효율적인 콘텐츠 변환을 위한 단계별 가이드.
 ### [EPUB을 GIF로 변환하기](./convert-epub-to-gif/)
