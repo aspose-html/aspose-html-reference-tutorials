@@ -44,7 +44,8 @@ Aspose.HTML for .NET을 사용하여 HTML을 PDF, XPS 및 이미지로 변환하
 .NET용 Aspose.HTML을 사용하여 JSON 데이터에서 HTML 문서를 동적으로 생성하는 방법을 알아보세요. .NET 애플리케이션에서 HTML 조작의 힘을 활용하세요.
 ### [c# 메모리 스트림 만들기 – 맞춤 스트림 생성 가이드](./create-memory-stream-c-custom-stream-creation-guide/)
 Aspose.HTML을 사용하여 .NET에서 메모리 스트림을 직접 생성하고 활용하는 방법을 단계별로 안내합니다.
-
+### [Aspose HTML에서 사용자 지정 리소스 핸들러 – 스트림 저장 가이드](./custom-resource-handler-in-aspose-html-save-to-stream-guide/)
+Aspose HTML에서 사용자 지정 리소스 핸들러를 구현하고, HTML 콘텐츠를 스트림에 저장하는 방법을 단계별로 안내합니다.
 
 ## 결론
 

@@ -32,6 +32,8 @@ Naučte se pracovat s dokumenty HTML v .NET pomocí Aspose.HTML pro úkoly, jako
 Naučte se používat Aspose.HTML pro .NET k efektivní manipulaci s HTML dokumenty. Výukový program krok za krokem pro vývojáře.
 ### [Memory Stream Provider v .NET s Aspose.HTML](./memory-stream-provider/)
 Naučte se vytvářet úžasné HTML dokumenty v .NET pomocí Aspose.HTML. Postupujte podle našeho podrobného návodu a odemkněte sílu manipulace s HTML.
+### [Vlastní manipulátor zdrojů v Aspose HTML – Průvodce ukládáním do streamu](./custom-resource-handler-in-aspose-html-save-to-stream-guide/)
+Naučte se, jak vytvořit vlastní manipulátor zdrojů v Aspose HTML a ukládat výstup do streamu.
 ### [Web Scraping v .NET s Aspose.HTML](./web-scraping/)
 Naučte se manipulovat s HTML dokumenty v .NET pomocí Aspose.HTML. Procházejte, filtrujte, dotazujte se a vybírejte prvky efektivně pro lepší vývoj webu.
 ### [Použijte vlastnost Extended Content Property v .NET s Aspose.HTML](./use-extended-content-property/)
