@@ -71,6 +71,8 @@ Pelajari cara menggunakan Aspose.HTML untuk .NET. Impor namespace, gabungkan HTM
 Manfaatkan potensi pengembangan web dengan Aspose.HTML untuk .NET. Buat, ubah, dan manipulasi dokumen HTML dengan mudah.
 ### [Buat HTML dari String di C# – Panduan Penangan Sumber Daya Kustom](./create-html-from-string-in-c-custom-resource-handler-guide/)
 Pelajari cara membuat dokumen HTML dari string menggunakan handler sumber daya kustom di C# dengan Aspose.HTML.
+### [Buat Teks Tebal Miring di C# – Panduan Cepat Menata HTML](./make-text-bold-italic-in-c-quick-guide-to-styling-html/)
+Pelajari cara menambahkan gaya teks tebal dan miring pada HTML menggunakan C# dengan Aspose.HTML dalam panduan singkat ini.
 
 ## Kesimpulan
 

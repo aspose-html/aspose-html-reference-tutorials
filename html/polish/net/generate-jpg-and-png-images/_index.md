@@ -30,7 +30,7 @@ Aspose.HTML dla .NET oferuje prostą metodę konwersji HTML na obrazy. Możesz o
 
 ## Optymalizacja obrazów
 
-Tworzenie obrazów to tylko pierwszy krok. Aspose.HTML dla .NET pozwala na dalszą optymalizację obrazów. Możesz dostosować ustawienia kompresji, ustawić rozdzielczość i dostroić dane wyjściowe, aby spełnić swoje specyficzne wymagania. Ta elastyczność zapewnia, że powstałe obrazy są zarówno przyjemne dla oka, jak i lekkie, co pozwala na wydajną dostawę do sieci.
+Tworzenie obrazów to tylko pierwszy krok. Aspose.HTML dla .NET pozwala na dalszą optymalizację obrazów. Możesz dostosować ustawienia kompresji, ustawić rozdzielczość i dopasować dane wyjściowe, aby spełnić swoje specyficzne wymagania. Ta elastyczność zapewnia, że powstałe obrazy są zarówno przyjemne dla oka, jak i lekkie, co pozwala na wydajną dostawę do sieci.
 
 ## Integracja z projektami .NET
 
@@ -45,6 +45,8 @@ Naucz się używać Aspose.HTML dla .NET do manipulowania dokumentami HTML, konw
 Dowiedz się, jak włączyć antyaliasing przy konwersji dokumentów DOCX do formatów PNG i JPG przy użyciu Aspose.HTML.
 ### [Konwertuj docx do png – utwórz archiwum zip w C# – samouczek](./convert-docx-to-png-create-zip-archive-c-tutorial/)
 Dowiedz się, jak konwertować pliki DOCX na obrazy PNG i spakować je do archiwum ZIP przy użyciu C# i Aspose.HTML.
+### [Utwórz PNG z HTML w C# – przewodnik krok po kroku](./create-png-from-html-in-c-step-by-step-guide/)
+Dowiedz się, jak w C# konwertować HTML na PNG przy użyciu Aspose.HTML, krok po kroku.
 
 ## Wniosek
 
