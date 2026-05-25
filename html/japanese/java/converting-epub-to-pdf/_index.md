@@ -81,6 +81,9 @@ Aspose.HTML for Java の使用方法を学びます：EPUB を画像に変換な
 ### [EPUB を画像に変換](./convert-epub-to-image/)
 Aspose.HTML for Java を使用して EPUB を画像に変換する方法を学びます。デジタルコンテンツを簡単に変換できます。ステップバイステップガイドが含まれています。
 
+### [JavaでEPUBをPDFに変換する完全プログラミングガイド](./convert-epub-to-pdf-with-java-complete-programming-guide/)
+Java と Aspose.HTML を使用して、EPUB を PDF に変換する完全な手順を解説します。
+
 ## よくある質問
 
 **Q:** *保護された EPUB ファイルを PDF に変換できますか？*  

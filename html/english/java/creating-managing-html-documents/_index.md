@@ -39,7 +39,7 @@ When it comes to generating new HTML documents, Aspose.HTML for Java offers a ro
 
 ## Managing SVG Documents and Handling Events
 
-Finally, for those looking to push their skills even further, there’s a wealth of advanced topics to explore. Learn how to manage SVG documents or handle document load events to create responsive and dynamic web applications. These tutorials take you beyond HTML, diving into the intricacies of Scalable Vector Graphics (SVG) and event-driven programming. [Read more](./create-manage-svg-documents/)
+Finally, for those looking to push their skills even further, there’s a wealth of advanced topics to explore. Learn how to manage SVG documents or handle document load events to create responsive and dynamic web applications. These tutorials take you beyond HTML, diving into the intricacies of Scalable Vector Graphics (SVG) and event‑driven programming. [Read more](./create-manage-svg-documents/)
 
 ## Creating and Managing HTML Documents in Aspose.HTML for Java Tutorials
 ### [Create HTML Documents Asynchronously in Aspose.HTML for Java](./create-html-documents-async/)
@@ -66,6 +66,13 @@ Learn how to create new HTML documents using Aspose.HTML for Java with this easy
 Learn to handle document load events in Aspose.HTML for Java with this step-by-step guide. Enhance your web applications.
 ### [Create and Manage SVG Documents in Aspose.HTML for Java](./create-manage-svg-documents/)
 Learn to create and manage SVG documents using Aspose.HTML for Java! This comprehensive guide covers everything from basic creation to advanced manipulation.
+### [Create HTML Document Java – Step‑by‑Step Guide with Aspose.HTML](./create-html-document-java-step-by-step-guide-with-aspose-htm/)
+Learn how to create an HTML document in Java using Aspose.HTML with a clear step‑by‑step guide.
+### [fetch json javascript – Complete Java Guide to Create HTML Document](./fetch-json-javascript-complete-java-guide-to-create-html-doc/)
+Learn how to fetch JSON using JavaScript and create HTML documents in Java with Aspose.HTML – a complete step-by-step guide.
+### [How to search HTML with Aspose Java – Complete Programming Guide](./how-to-search-html-with-aspose-java-complete-programming-gui/)
+Learn how to search HTML content using Aspose.HTML for Java in this comprehensive programming guide.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

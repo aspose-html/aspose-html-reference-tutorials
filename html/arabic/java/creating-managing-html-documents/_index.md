@@ -54,6 +54,8 @@ url: /ar/java/creating-managing-html-documents/
 تعرف على كيفية تحميل مستندات HTML من التدفقات باستخدام Aspose.HTML for Java. يوفر هذا الدليل برنامجًا تعليميًا خطوة بخطوة للتعامل بسلاسة مع HTML.
 ### [إنشاء مستندات HTML من سلسلة نصية في Aspose.HTML لـ Java](./create-html-documents-from-string/)
 تعرف على كيفية إنشاء مستندات HTML من السلاسل في Aspose.HTML لـ Java باستخدام هذا الدليل خطوة بخطوة.
+### [إنشاء مستند HTML في Java – دليل خطوة بخطوة مع Aspose.HTML](./create-html-document-java-step-by-step-guide-with-aspose-htm/)
+تعلم كيفية إنشاء مستند HTML في Java باستخدام Aspose.HTML من خلال دليل شامل خطوة بخطوة.
 ### [تحميل مستندات HTML من URL في Aspose.HTML لـ Java](./load-html-documents-from-url/)
 اكتشف كيفية تحميل مستندات HTML بسهولة من عنوان URL في Java باستخدام Aspose.HTML. يتضمن البرنامج التعليمي خطوة بخطوة.
 ### [إنشاء مستندات HTML جديدة باستخدام Aspose.HTML لـ Java](./generate-new-html-documents/)
@@ -66,6 +68,10 @@ url: /ar/java/creating-managing-html-documents/
 تعلم كيفية إنشاء بيئة تجريبية لمعالجة HTML في Java باستخدام Aspose.HTML من خلال دليل خطوة بخطوة.
 ### [كيفية الاستعلام عن HTML في Java – دليل كامل](./how-to-query-html-in-java-complete-tutorial/)
 تعلم كيفية استعلام ومعالجة مستندات HTML في Java باستخدام Aspose.HTML من خلال دليل شامل خطوة بخطوة.
+### [جلب JSON باستخدام JavaScript – دليل Java الكامل لإنشاء مستند HTML](./fetch-json-javascript-complete-java-guide-to-create-html-doc/)
+تعلم كيفية جلب بيانات JSON باستخدام JavaScript وإنشاء مستند HTML في Java عبر دليل شامل خطوة بخطوة.
+### [كيفية البحث في HTML باستخدام Aspose Java – دليل برمجة كامل](./how-to-search-html-with-aspose-java-complete-programming-gui/)
+تعلم كيفية البحث في مستندات HTML باستخدام Aspose Java عبر دليل برمجة شامل خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

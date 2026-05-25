@@ -84,6 +84,8 @@ Sammanfattningsvis låser behärskning av **html to pdf java** och den bredare u
 ## Konvertering - HTML till Andra Format Handledning
 ### [Konvertera HTML till PDF](./convert-html-to-pdf/)
 Lär dig hur du konverterar HTML till PDF i Java med Aspose.HTML. Skapa högkvalitativa PDF‑filer från ditt HTML‑innehåll utan ansträngning.
+### [HTML till PDF Java: Komplett guide för att konvertera en webbsida till PDF i ett steg](./html-to-pdf-java-complete-guide-to-convert-webpage-to-pdf-in/)
+Lär dig hur du med ett enda kodrader konverterar en webbsida till PDF i Java med Aspose.HTML.
 ### [Konvertera HTML till MHTML](./convert-html-to-mhtml/)
 Konvertera enkelt HTML till MHTML med Aspose.HTML for Java. Följ vår steg‑för‑steg‑guide för effektiv HTML‑till‑MHTML‑konvertering.
 ### [Konvertera HTML till XPS](./convert-html-to-xps/)
@@ -98,6 +100,10 @@ Konvertera SVG till PDF i Java med Aspose.HTML. En sömlös lösning för högkv
 Lär dig hur du konverterar SVG till XPS med Aspose.HTML for Java. Enkel, steg‑för‑steg‑guide för smidiga konverteringar.
 ### [Konvertera HTML till PDF i Java – Steg‑för‑steg‑guide med sidstorleksinställningar](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Lär dig konvertera HTML till PDF i Java med detaljerade steg och anpassa sidstorlek för optimal utskrift.
+### [Skapa PDF A4‑storlek med Java – Fullständig steg‑för‑steg‑guide](./create-pdf-a4-size-with-java-full-step-by-step-guide/)
+Lär dig hur du genererar PDF‑dokument i A4‑format med Java och Aspose.HTML i en detaljerad steg‑för‑steg‑guide.
+### [Hur man använder Aspose för parallell HTML‑till‑PDF‑konvertering i Java](./how-to-use-aspose-for-parallel-html-to-pdf-conversion-in-jav/)
+Lär dig hur du utnyttjar Aspose för att konvertera flera HTML‑filer till PDF parallellt i Java för snabbare bearbetning.
 
 ## Vanliga frågor
 

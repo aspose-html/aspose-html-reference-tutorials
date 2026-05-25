@@ -54,10 +54,16 @@ Aprenda como carregar, manipular e salvar documentos HTML usando Aspose.HTML par
 Aprenda como carregar documentos HTML de streams usando Aspose.HTML para Java. Este guia fornece um tutorial passo a passo para manipulação HTML sem interrupções.
 ### [Crie documentos HTML a partir de strings em Aspose.HTML para Java](./create-html-documents-from-string/)
 Aprenda a criar documentos HTML a partir de strings no Aspose.HTML para Java com este guia passo a passo.
+### [Buscar JSON JavaScript – Guia Java Completo para Criar Documento HTML](./fetch-json-javascript-complete-java-guide-to-create-html/)
+Aprenda a buscar dados JSON com JavaScript e gerar documentos HTML em Java neste guia completo passo a passo.
+### [Crie documento HTML Java – Guia passo a passo com Aspose.HTML](./create-html-document-java-step-by-step-guide-with-aspose-htm/)
+Aprenda a criar documentos HTML em Java usando Aspose.HTML com este guia passo a passo fácil de seguir.
 ### [Carregar documentos HTML de URL em Aspose.HTML para Java](./load-html-documents-from-url/)
 Descubra como carregar facilmente documentos HTML de uma URL em Java com Aspose.HTML. Tutorial passo a passo incluso.
 ### [Como consultar HTML em Java – Tutorial completo](./how-to-query-html-in-java-complete-tutorial/)
 Aprenda a consultar e extrair dados de documentos HTML em Java usando Aspose.HTML com este tutorial passo a passo.
+### [Como pesquisar HTML com Aspose Java – Guia de Programação Completo](./how-to-search-html-with-aspose-java-complete-programming-gui/)
+Aprenda a pesquisar e extrair dados de documentos HTML em Java usando Aspose.HTML com este guia passo a passo completo.
 ### [Gerar novos documentos HTML usando Aspose.HTML para Java](./generate-new-html-documents/)
 Aprenda como criar novos documentos HTML usando Aspose.HTML para Java com este guia passo a passo fácil. Comece a gerar conteúdo HTML dinâmico.
 ### [Manipular eventos de carregamento de documentos em Aspose.HTML para Java](./handle-document-load-events/)
