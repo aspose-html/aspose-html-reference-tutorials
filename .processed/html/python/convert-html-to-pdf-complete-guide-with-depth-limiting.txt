@@ -1,0 +1,7 @@
+Title: Convert HTML to PDF – Complete Guide with Depth Limiting
+Slug: convert-html-to-pdf-complete-guide-with-depth-limiting
+Category: general
+ProcessedDate: 2026-05-25T21:17:36.032367
+SourceRepo: AI Search API
+Keywords: convert html to pdf, save webpage as pdf, download html as pdf, how to limit depth, set depth limit
+PRNumber: 162
