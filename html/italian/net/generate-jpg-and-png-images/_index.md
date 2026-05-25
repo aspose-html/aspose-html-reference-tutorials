@@ -41,10 +41,20 @@ Integrare Aspose.HTML per .NET nei tuoi progetti .NET è semplice. La libreria �
 Scopri come creare pagine web dinamiche usando Aspose.HTML per .NET. Questo tutorial passo dopo passo riguarda i prerequisiti, gli spazi dei nomi e il rendering di HTML in immagini.
 ### [Genera immagini PNG tramite ImageDevice in .NET con Aspose.HTML](./generate-png-images-by-imagedevice/)
 Impara a usare Aspose.HTML per .NET per manipolare documenti HTML, convertire HTML in immagini e altro ancora. Tutorial passo dopo passo con FAQ.
+### [Crea PNG da HTML – Guida completa passo‑passo](./create-png-from-html-full-step-by-step-guide/)
+Impara a generare immagini PNG da HTML con Aspose.HTML per .NET, seguendo una guida dettagliata passo dopo passo.
 ### [Come abilitare l'antialiasing durante la conversione di DOCX in PNG/JPG](./how-to-enable-antialiasing-when-converting-docx-to-png-jpg/)
 Scopri come abilitare l'antialiasing durante la conversione di documenti DOCX in immagini PNG o JPG con Aspose.HTML per .NET.
 ### [Converti docx in PNG – crea archivio zip C# tutorial](./convert-docx-to-png-create-zip-archive-c-tutorial/)
 Impara a convertire documenti DOCX in PNG e a comprimerli in un archivio ZIP usando C# e Aspose.HTML.
+### [Crea PNG da HTML con Aspose – renderizza HTML in PNG](./create-png-from-html-with-aspose-render-html-to-png/)
+Scopri come convertire HTML in PNG con Aspose.HTML, passo dopo passo, includendo impostazioni di rendering e ottimizzazioni.
+### [Converti documento Word in PNG – Guida completa di programmazione](./convert-word-document-to-png-complete-programming-guide/)
+Impara a convertire documenti Word in immagini PNG usando Aspose.HTML per .NET, con esempi di codice dettagliati.
+### [Converti docx in PNG in C# – Guida completa passo‑passo](./convert-docx-to-png-in-c-complete-step-by-step-guide/)
+Impara a convertire documenti DOCX in PNG usando C# con una guida completa passo‑passo.
+### [Renderizza HTML in PNG – Guida completa con gestori personalizzati e opzioni](./render-html-to-png-complete-guide-with-custom-handlers-optio/)
+Scopri come renderizzare HTML in PNG usando Aspose.HTML con gestori personalizzati e opzioni avanzate.
 
 ## Conclusione
 
