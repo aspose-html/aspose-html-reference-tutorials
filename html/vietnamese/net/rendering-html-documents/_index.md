@@ -52,6 +52,8 @@ Tìm hiểu cách kiểm soát thời gian chờ kết xuất hiệu quả trong
 Học cách hiển thị nhiều tài liệu HTML bằng Aspose.HTML cho .NET. Tăng cường khả năng xử lý tài liệu của bạn với thư viện mạnh mẽ này.
 ### [Kết xuất SVG Doc thành PNG trong .NET với Aspose.HTML](./render-svg-doc-as-png/)
 Mở khóa sức mạnh của Aspose.HTML cho .NET! Tìm hiểu cách Render SVG Doc thành PNG một cách dễ dàng. Tìm hiểu các ví dụ từng bước và câu hỏi thường gặp. Bắt đầu ngay!
+### [Cách tắt khử răng cưa để có hình ảnh sắc nét – Hướng dẫn từng bước](./how-to-disable-antialiasing-for-sharper-images-step-by-step/)
+Học cách tắt tính năng khử răng cưa trong Aspose.HTML để tạo ra các hình ảnh rõ nét hơn, kèm hướng dẫn chi tiết từng bước.
 ### [Cách render HTML thành PNG – Hướng dẫn C# đầy đủ](./how-to-render-html-as-png-complete-c-guide/)
 Học cách chuyển đổi HTML sang PNG bằng C# với Aspose.HTML, bao gồm các bước chi tiết và mẹo thực tiễn.
 ### [Cách sử dụng Aspose để render HTML thành PNG – Hướng dẫn từng bước](./how-to-use-aspose-to-render-html-to-png-step-by-step-guide/)
@@ -60,6 +62,10 @@ Học cách chuyển đổi HTML sang PNG một cách dễ dàng với Aspose.HT
 Học cách chuyển đổi HTML sang PNG một cách dễ dàng với Aspose.HTML cho .NET. Khám phá hướng dẫn chi tiết từng bước.
 ### [Tạo PNG từ HTML – Hướng dẫn đầy đủ C# Rendering](./create-png-from-html-full-c-rendering-guide/)
 Học cách chuyển đổi HTML thành PNG bằng Aspose.HTML cho .NET với hướng dẫn chi tiết bằng C#.
+### [Trả về HTML dưới dạng Response – Hướng dẫn toàn diện về việc bắt và gửi HTML với Aspose.HTML](./return-html-as-response-complete-guide-to-capturing-and-send/)
+Học cách bắt và trả về nội dung HTML dưới dạng phản hồi HTTP bằng Aspose.HTML trong .NET. Khám phá hướng dẫn chi tiết và ví dụ thực tế.
+### [Render HTML thành hình ảnh với Aspose.HTML – Hướng dẫn toàn diện](./render-html-to-image-with-aspose-html-complete-guide/)
+Học cách chuyển đổi HTML thành hình ảnh với Aspose.HTML cho .NET qua hướng dẫn chi tiết từng bước.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
