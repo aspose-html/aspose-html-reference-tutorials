@@ -50,6 +50,8 @@ Step by step guide to render HTML to PNG using Aspose.HTML for .NET. Learn the p
 Comprehensive guide to render HTML to PNG using Aspose.HTML for .NET. Includes code examples and best practices.
 ### [Create PNG from HTML – Full C# Rendering Guide](./create-png-from-html-full-c-rendering-guide/)
 Learn how to generate high-quality PNG images from HTML using Aspose.HTML for .NET with a complete C# rendering guide.
+### [Render HTML to Image with Aspose.HTML – Complete Guide](./render-html-to-image-with-aspose-html-complete-guide/)
+Learn how to render HTML to various image formats using Aspose.HTML for .NET with a complete step‑by‑step guide.
 ### [Render EPUB as XPS in .NET with Aspose.HTML](./render-epub-as-xps/)
 Learn how to create and render HTML documents with Aspose.HTML for .NET in this comprehensive tutorial. Dive into the world of HTML manipulation, web scraping, and more.
 ### [Rendering Timeout in .NET with Aspose.HTML](./rendering-timeout/)
@@ -60,6 +62,11 @@ Learn how to control rendering timeouts effectively in Aspose.HTML for .NET. Exp
 Learn to render multiple HTML documents using Aspose.HTML for .NET. Boost your document processing capabilities with this powerful library.
 ### [Render SVG Doc as PNG in .NET with Aspose.HTML](./render-svg-doc-as-png/)
 Unlock the power of Aspose.HTML for .NET! Learn how to Render SVG Doc as PNG effortlessly. Dive into step-by-step examples and FAQs. Get started now!
+### [Return HTML as Response – Complete Guide to Capturing and Sending HTML with Aspose.HTML](./return-html-as-response-complete-guide-to-capturing-and-send/)
+Learn how to capture HTML output and send it as an HTTP response using Aspose.HTML for .NET in this complete guide.
+### [How to Disable Antialiasing for Sharper Images – Step‑by‑Step Guide](./how-to-disable-antialiasing-for-sharper-images-step-by-step/)
+Learn how to disable antialiasing in Aspose.HTML for .NET to produce sharper images. Follow the step‑by‑step guide.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
