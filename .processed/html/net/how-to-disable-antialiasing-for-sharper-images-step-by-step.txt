@@ -1,0 +1,7 @@
+Title: How to Disable Antialiasing for Sharper Images – Step‑by‑Step Guide
+Slug: how-to-disable-antialiasing-for-sharper-images-step-by-step
+Category: rendering-html-documents
+ProcessedDate: 2026-05-28T23:22:56.091205
+SourceRepo: AI Search API
+Keywords: how to disable antialiasing, improve image sharpness
+PRNumber: 163
