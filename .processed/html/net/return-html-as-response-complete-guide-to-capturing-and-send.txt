@@ -1,0 +1,7 @@
+Title: Return HTML as Response – Complete Guide to Capturing and Sending HTML with Aspose.HTML
+Slug: return-html-as-response-complete-guide-to-capturing-and-send
+Category: rendering-html-documents
+ProcessedDate: 2026-05-28T23:22:44.556210
+SourceRepo: AI Search API
+Keywords: return html as response, convert html to byte array, capture html output stream
+PRNumber: 163
