@@ -137,6 +137,9 @@ Aprenda a ajustar o tamanho de página XPS com Aspose.HTML for Java. Controle fa
 ### [Como Executar JavaScript em Java – Guia Completo](./how-to-run-javascript-in-java-complete-guide/)
 Aprenda a executar código JavaScript dentro de aplicações Java usando Aspose.HTML for Java.
 
+### [Como usar Executor em Java – Guia de pool de threads fixo](./how-to-use-executor-in-java-fixed-thread-pool-guide/)
+Aprenda a usar a classe Executor para criar e gerenciar um pool de threads fixo em Java, otimizando tarefas concorrentes.
+
 ---
 
 **Última atualização:** 2025-11-29  

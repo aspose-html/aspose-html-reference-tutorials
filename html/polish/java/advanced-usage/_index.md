@@ -128,6 +128,8 @@ Naucz się regulować rozmiar stron PDF przy użyciu Aspose.HTML dla Javy. Twór
 Dowiedz się, jak regulować rozmiar stron XPS przy użyciu Aspose.HTML dla Javy. Łatwo kontroluj wymiary wyjściowe dokumentów XPS.
 ### [Jak uruchomić JavaScript w Javie – Kompletny przewodnik](./how-to-run-javascript-in-java-complete-guide/)
 Dowiedz się, jak wykonywać kod JavaScript w aplikacji Java przy użyciu Aspose.HTML, krok po kroku, od konfiguracji po wywołanie skryptu.
+### [Jak używać Executor w Javie – Przewodnik po stałej puli wątków](./how-to-use-executor-in-java-fixed-thread-pool-guide/)
+Dowiedz się, jak skonfigurować i wykorzystywać Executor z stałą pulą wątków w Javie, aby efektywnie zarządzać równoległym przetwarzaniem.
 
 ---
 

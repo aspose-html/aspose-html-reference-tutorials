@@ -92,12 +92,16 @@ Converteer HTML moeiteloos naar MHTML met Aspose.HTML for Java. Volg onze stap�
 Leer hoe u HTML moeiteloos naar XPS kunt converteren met Aspose.HTML for Java. Maak cross‑platform documenten met gemak.
 ### [Markdown naar HTML converteren](./convert-markdown-to-html/)
 Converteer Markdown naar HTML in Java naadloos met Aspose.HTML for Java. Volg onze stap‑voor‑stap gids om uw documentconversiebehoeften te stroomlijnen.
+### [Markdown naar PDF converteren in Java – Complete gids](./convert-markdown-to-pdf-in-java-complete-guide/)
+Leer hoe u Markdown-bestanden naar PDF converteert in Java met Aspose.HTML, inclusief volledige configuratie‑opties en best practices.
 ### [SVG naar afbeelding converteren](./convert-svg-to-image/)
 Leer hoe u SVG naar afbeeldingen kunt converteren in Java met Aspose.HTML. Uitgebreide gids voor output van hoge kwaliteit.
 ### [SVG naar PDF converteren](./convert-svg-to-pdf/)
 Converteer SVG naar PDF in Java met Aspose.HTML. Een naadloze oplossing voor documentconversie van hoge kwaliteit.
 ### [SVG naar XPS converteren](./convert-svg-to-xps/)
 Leer hoe u SVG naar XPS kunt converteren met Aspose.HTML for Java. Eenvoudige, stap‑voor‑stap gids voor naadloze conversies.
+### [Lettertypen insluiten in PDF – Complete Java-gids met Aspose HTML](./embed-fonts-in-pdf-complete-java-guide-using-aspose-html/)
+Leer hoe u lettertypen insluit in PDF's met Aspose.HTML for Java voor consistente weergave op alle apparaten.
 
 ## Veelgestelde Vragen
 

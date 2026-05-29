@@ -127,6 +127,9 @@ Pelajari cara menyesuaikan ukuran halaman XPS dengan Aspose.HTML untuk Java. Kon
 ### [Cara Menjalankan JavaScript di Java – Panduan Lengkap](./how-to-run-javascript-in-java-complete-guide/)
 Pelajari cara menjalankan kode JavaScript dalam aplikasi Java dengan Aspose.HTML untuk Java secara lengkap.
 
+### [Cara Menggunakan Executor di Java – Panduan Fixed Thread Pool](./how-to-use-executor-in-java-fixed-thread-pool-guide/)
+Pelajari cara menggunakan Executor dengan Fixed Thread Pool di Java untuk mengelola tugas secara efisien.
+
 ---
 
 **Terakhir Diperbarui:** 2025-11-29  

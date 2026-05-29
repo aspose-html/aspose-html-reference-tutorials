@@ -100,6 +100,10 @@ Ismerje meg, hogyan konvertálhat HTML‑t PNG képekké Java‑ban az Aspose.HT
 Tanulja meg, hogyan konvertálhat HTML‑t TIFF‑be az Aspose.HTML for Java segítségével. Lépésről‑lépésre útmutató a hatékony dokumentumkezeléshez.
 ### [HTML konvertálása WebP‑be – Teljes Java útmutató az Aspose.HTML‑el](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
 Ismerje meg, hogyan konvertálhat HTML‑t WebP‑be Java‑ban az Aspose.HTML használatával. Részletes, lépésről‑lépésre útmutató a WebP konverzióhoz.
+### [HTML konvertálása WebP‑be – Teljes Java Aspose.HTML útmutató](./convert-html-to-webp-complete-java-aspose-html-guide/)
+Tanulja meg, hogyan konvertálhat HTML‑t WebP‑be Java‑ban az Aspose.HTML segítségével, részletes lépésről‑lépésre útmutatóval.
+### [HTML renderelése PNG‑be Java‑ban – Teljes Aspose HTML útmutató](./render-html-to-png-in-java-full-aspose-html-tutorial/)
+Ismerje meg, hogyan renderelhet HTML‑t PNG képpé Java‑ban az Aspose.HTML segítségével, részletes lépésről‑lépésre útmutatóval.
 
 ## Gyakran ismételt kérdések
 
