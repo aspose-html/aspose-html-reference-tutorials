@@ -1,0 +1,7 @@
+Title: Convert HTML to Markdown – Complete Python Guide
+Slug: convert-html-to-markdown-complete-python-guide
+Category: general
+ProcessedDate: 2026-05-29T01:36:58.664782
+SourceRepo: AI Search API
+Keywords: convert html to markdown, extract links from html, save html as markdown, how to convert html
+PRNumber: 165
