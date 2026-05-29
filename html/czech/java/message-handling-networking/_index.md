@@ -50,6 +50,8 @@ Naučte se spouštět webové požadavky pomocí Aspose.HTML for Java s tímto k
 V tomto podrobném průvodci se dozvíte, jak převést soubory ZIP na obrázky JPG pomocí Aspose.HTML for Java.
 ### [Převeďte ZIP do PDF pomocí Aspose.HTML pro Javu](./zip-to-pdf/)
 Pomocí tohoto podrobného průvodce můžete snadno převést soubory ZIP do formátu PDF pomocí Aspose.HTML for Java.
+### [Načtení dat z API v Javě pomocí Aspose.HTML – Kompletní průvodce](./fetch-api-data-in-java-with-aspose-html-complete-guide/)
+Kompletní průvodce, jak v Javě pomocí Aspose.HTML načíst data z API a zpracovat je v HTML dokumentech.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

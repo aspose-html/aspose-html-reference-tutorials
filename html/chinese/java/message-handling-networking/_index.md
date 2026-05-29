@@ -32,6 +32,9 @@ Aspose.HTML for Java 是一款功能强大的工具包，用于管理和操作 H
 ## Aspose.HTML for Java 中的 Web 请求执行
 执行 Web 请求是使用 Aspose.HTML for Java 的另一个重要方面。从获取第三方内容到管理远程资源，了解如何执行这些操作可能会改变游戏规则。[Aspose.HTML for Java 中的 Web 请求执行](./web-request-execution/)本教程全面介绍了如何有效地发送和接收数据。可以把它想象成打电话：您希望确保您的信息能够无缝地传递，没有任何干扰。掌握这项技能可以让您将更多数据带入应用程序，从而增强文档处理能力。
 
+### [在 Java 中使用 Aspose.HTML 获取 API 数据 - 完整指南](./fetch-api-data-in-java-with-aspose-html-complete-guide/)
+本完整指南教您如何使用 Aspose.HTML 在 Java 中发送请求并获取 API 数据，涵盖示例代码和最佳实践。
+
 ## 将 ZIP 转换为 JPG 和 PDF
 您是否曾经需要快速从压缩文件中提取图像？[使用 Aspose.HTML for Java 将 ZIP 转换为 JPG](./zip-to-jpg/)和[使用 Aspose.HTML for Java 将 ZIP 转换为 PDF](./zip-to-pdf/)教程为您提供了完成这些特定任务的工具。转换文件不一定是一个繁琐的过程——它可以像将草图变成杰作一样简单。这些指南分解了帮助您高效转换 ZIP 文件的步骤，展示了 Aspose.HTML for Java 的多功能性。
 

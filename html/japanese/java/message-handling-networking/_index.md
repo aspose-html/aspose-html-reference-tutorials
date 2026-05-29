@@ -38,8 +38,8 @@ Webリクエストの実行は、Aspose.HTML for Javaを使用する上でもう
 ## Aspose.HTML for Java チュートリアルにおけるメッセージ処理とネットワーク
 ### [Aspose.HTML for Java での資格情報パイプラインの処理](./credentials-pipeline/)
 このステップバイステップ ガイドでは、Aspose.HTML for Java を使用して資格情報を安全に処理する方法を学習します。重要なヒントとベスト プラクティスを紹介します。
-### [Aspose.HTML for Java でカスタム メッセージ ハンドラーを実装する](./custom-message-handler/)
-Aspose.HTML for Java でカスタム メッセージ ハンドラーを実装して、ドキュメント処理を強化し、ログを効率的に処理する方法を説明します。
+### [Aspose.HTML for Java でカスタム メッセージ ハンドラを実装する](./custom-message-handler/)
+Aspose.HTML for Java でカスタム メッセージ ハンドラを実装して、ドキュメント処理を強化し、ログを効率的に処理する方法を説明します。
 ### [Aspose.HTML for Java でネットワーク タイムアウトを管理する](./network-timeout/)
 この包括的なガイドでは、Aspose.HTML for Java を使用してネットワーク タイムアウトを管理する方法を説明します。効果的なタイムアウト処理により、スムーズなユーザー エクスペリエンスを実現します。
 ### [Aspose.HTML for Java でメッセージ ハンドラー パイプラインを作成する](./message-handler-pipeline/)
@@ -50,6 +50,9 @@ Aspose.HTML for Java でカスタム メッセージ ハンドラーを実装し
 このステップバイステップ ガイドでは、Aspose.HTML for Java を使用して ZIP ファイルを JPG 画像に変換する方法を学習します。
 ### [Aspose.HTML for Java で ZIP を PDF に変換する](./zip-to-pdf/)
 このステップバイステップ ガイドに従って、Aspose.HTML for Java を使用して ZIP ファイルを PDF に簡単に変換します。
+### [Aspose.HTML を使用した Java での API データ取得 - 完全ガイド](./fetch-api-data-in-java-with-aspose-html-complete-guide/)
+この完全ガイドでは、Aspose.HTML を利用して Java で API データを取得し、処理する手順を詳しく解説します。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

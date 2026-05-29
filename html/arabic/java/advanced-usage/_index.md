@@ -136,6 +136,9 @@ weight: 20
 ### [كيفية تشغيل JavaScript في Java – دليل كامل](./how-to-run-javascript-in-java-complete-guide/)
 تعلم كيفية تشغيل كود JavaScript داخل تطبيقات Java باستخدام Aspose.HTML for Java.
 
+### [كيفية استخدام Executor في Java – دليل مجموعة الخيوط الثابتة](./how-to-use-executor-in-java-fixed-thread-pool-guide/)
+تعلم كيفية استخدام Executor لإنشاء مجموعة خيوط ثابتة في Java لإدارة المهام المتزامنة بفعالية.
+
 ---
 
 **آخر تحديث:** 2025-11-29  

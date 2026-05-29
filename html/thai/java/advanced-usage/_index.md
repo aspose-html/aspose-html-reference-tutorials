@@ -114,20 +114,30 @@ Aspose.HTML ให้คุณแนบ `DomMutationObserver` ไปยังโ
 ## การใช้งานขั้นสูงของบทแนะนำ Aspose.HTML Java
 ### [ปรับขอบกระดาษ HTML ด้วย Aspose.HTML](./css-extensions-adding-title-page-number/)
 เรียนรู้วิธีปรับขอบกระดาษ เพิ่มหมายเลขหน้า และหัวเรื่องให้กับเอกสาร HTML ด้วย Aspose.HTML for Java  
+
 ### [DOM Mutation Observer กับ Aspose.HTML for Java](./dom-mutation-observer-observing-node-additions/)
 เรียนรู้วิธีใช้ Aspose.HTML for Java เพื่อทำ DOM Mutation Observer ในคู่มือขั้นตอนต่อขั้นตอนนี้ ตรวจสอบและตอบสนองต่อการเปลี่ยนแปลงของ DOM อย่างมีประสิทธิภาพ  
+
 ### [การจัดการ HTML5 Canvas ด้วย Aspose.HTML for Java](./html5-canvas-manipulation-using-code/)
 เรียนรู้การจัดการ HTML5 Canvas ด้วย Aspose.HTML for Java สร้างกราฟิกเชิงโต้ตอบด้วยคำแนะนำทีละขั้นตอน  
+
 ### [การจัดการ HTML5 Canvas ด้วย Aspose.HTML for Java](./html5-canvas-manipulation-using-javascript/)
 เรียนรู้วิธีจัดการ HTML5 Canvas ด้วย JavaScript ผ่าน Aspose.HTML for Java สร้างกราฟิกแบบไดนามิกและแปลงเป็น PDF  
+
 ### [อัตโนมัติการกรอกแบบฟอร์ม HTML ด้วย Aspose.HTML for Java](./html-form-editor-filling-submitting-forms/)
 เรียนรู้วิธีอัตโนมัติการกรอกและส่งฟอร์ม HTML ด้วย Aspose.HTML for Java ทำให้การโต้ตอบบนเว็บง่ายขึ้นด้วยบทแนะนำนี้  
+
 ### [ปรับขนาดหน้า PDF ด้วย Aspose.HTML for Java](./adjust-pdf-page-size/)
 เรียนรู้วิธีปรับขนาดหน้า PDF ด้วย Aspose.HTML for Java สร้าง PDF คุณภาพสูงจาก HTML อย่างง่ายดาย ควบคุมขนาดหน้าได้อย่างมีประสิทธิภาพ  
+
 ### [ปรับขนาดหน้า XPS ด้วย Aspose.HTML for Java](./adjust-xps-page-size/)
 เรียนรู้วิธีปรับขนาดหน้า XPS ด้วย Aspose.HTML for Java ควบคุมขนาดผลลัพธ์ของเอกสาร XPS ของคุณได้อย่างง่ายดาย  
+
 ### [วิธีรัน JavaScript ใน Java – คู่มือฉบับสมบูรณ์](./how-to-run-javascript-in-java-complete-guide/)
 เรียนรู้วิธีฝังและรันโค้ด JavaScript ภายในแอปพลิเคชัน Java ด้วย Aspose.HTML อย่างละเอียด  
+
+### [วิธีใช้ Executor ใน Java – คู่มือ Fixed Thread Pool](./how-to-use-executor-in-java-fixed-thread-pool-guide/)
+เรียนรู้วิธีสร้าง Fixed Thread Pool ด้วย Executor ใน Java เพื่อจัดการงานหลายๆ งานพร้อมกันอย่างมีประสิทธิภาพ  
 
 ---
 

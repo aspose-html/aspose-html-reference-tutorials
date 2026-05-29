@@ -32,6 +32,9 @@ Saját üzenetkezelő csővezetékek felépítése olyan érzés lehet, mint egy
 ## Webes kérés végrehajtása Aspose.HTML for Java-ban
  A webes kérések végrehajtása az Aspose.HTML for Java szoftverrel való munka másik döntő szempontja. Harmadik féltől származó tartalom lekérésétől a távoli erőforrások kezeléséig, ezeknek a műveleteknek a végrehajtásának ismerete megváltoztathatja a játékot. A[Webes kérés végrehajtása Aspose.HTML for Java-ban](./web-request-execution/)Az oktatóanyag átfogó részletezést kínál az adatok hatékony küldésére és fogadására. Tekintsd úgy, mint egy telefonhívást: azt szeretnéd elérni, hogy üzeneted zökkenőmentesen, statikusság nélkül eljusson. Ennek a készségnek az elsajátítása lehetővé teszi, hogy további adatokat vigyen be alkalmazásaiba, javítva ezzel a dokumentumfeldolgozási képességeket.
 
+### [API adatok lekérése Java-ban az Aspose.HTML segítségével - Teljes útmutató](./fetch-api-data-in-java-with-aspose-html-complete-guide/)
+Ismerje meg, hogyan lehet az Aspose.HTML használatával Java-ban API adatokat lekérni és feldolgozni.
+
 ## ZIP konvertálása JPG és PDF formátumba
  Szüksége volt már arra, hogy gyorsan kivonja a képeket egy tömörített fájlból? A[Konvertálja a ZIP-t JPG-be az Aspose.HTML for Java segítségével](./zip-to-jpg/) és[Konvertálja a ZIP-t PDF-be az Aspose.HTML for Java segítségével](./zip-to-pdf/) az oktatóanyagok eszközöket biztosítanak ezekhez a konkrét feladatokhoz. A fájlok konvertálásának nem kell nehézkes folyamatnak lennie – olyan egyszerű is lehet, mint egy vázlatot remekművé alakítani. Ezek az útmutatók lebontják a ZIP-fájlok hatékony konvertálásának lépéseit, bemutatva az Aspose.HTML for Java sokoldalúságát.
 

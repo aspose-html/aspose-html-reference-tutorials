@@ -50,6 +50,8 @@ Bu kapsamlı, adım adım kılavuzla Java için Aspose.HTML kullanarak web istek
 Bu adım adım kılavuzla Aspose.HTML for Java'yı kullanarak ZIP dosyalarını JPG resimlerine nasıl dönüştüreceğinizi öğrenin.
 ### [Java için Aspose.HTML ile ZIP'i PDF'ye dönüştürün](./zip-to-pdf/)
 Bu adım adım kılavuzla Aspose.HTML for Java'yı kullanarak ZIP dosyalarınızı kolayca PDF'ye dönüştürün.
+### [Java için Aspose.HTML ile API Verilerini Getirme - Tam Kılavuz](./fetch-api-data-in-java-with-aspose-html-complete-guide/)
+Java için Aspose.HTML kullanarak API'den veri çekmeyi adım adım öğrenin ve uygulamalarınıza entegre edin.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
