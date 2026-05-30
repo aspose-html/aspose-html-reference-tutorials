@@ -65,7 +65,13 @@ SVG दस्तावेज़ बनाना और प्रबंधित 
 ### [Java में HTML के लिए सैंडबॉक्स बनाएं – चरण‑दर‑चरण गाइड](./create-sandbox-for-html-in-java-step-by-step-guide/)
 Java में HTML सैंडबॉक्स बनाने की प्रक्रिया सीखें, सुरक्षित परीक्षण और विकास के लिए चरण‑दर‑चरण मार्गदर्शिका।
 ### [Java में HTML क्वेरी कैसे करें – पूर्ण ट्यूटोरियल](./how-to-query-html-in-java-complete-tutorial/)
-Java में Aspose.HTML का उपयोग करके HTML क्वेरी करने के चरण‑दर‑चरण मार्गदर्शिका, टिप्स और सर्वोत्तम प्रथाएँ।
+Java में Aspose.HTML का उपयोग करके HTML क्वेरी करने की चरण‑दर‑चरण मार्गदर्शिका, टिप्स और सर्वोत्तम प्रथाएँ।
+### [HTML कैसे खोजें – जावा में टेक्स्ट खोजने के लिए गाइड](./how-to-search-html-java-guide-for-finding-text/)
+Aspose.HTML for Java का उपयोग करके HTML दस्तावेज़ में टेक्स्ट खोजने की चरण‑दर‑चरण गाइड।
+### [Java में querySelectorAll का उपयोग – क्लास द्वारा फ़िल्टर करना](./how-to-use-queryselectorall-in-java-filter-by-class/)
+
+### [Java में XHTML फ़ाइल पढ़ना – XPath नेमस्पेस उदाहरण](./how-to-read-xhtml-file-in-java-xpath-namespace-example/)
+Java में Aspose.HTML का उपयोग करके XHTML फ़ाइल पढ़ें और XPath नेमस्पेस के साथ क्वेरी करें। चरण‑दर‑चरण गाइड।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

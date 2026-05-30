@@ -83,21 +83,18 @@ Kortom, het beheersen van **html to pdf java** en de bredere reeks conversies on
 
 ## Conversie - HTML naar Andere Formaten Tutorials
 ### [HTML naar PDF converteren](./convert-html-to-pdf/)
-Leer hoe u HTML naar PDF kunt converteren in Java met Aspose.HTML. Maak moeiteloos hoogwaardige PDF's van uw HTML‑inhoud.
 ### [HTML naar PDF converteren in Java – Stapsgewijze gids met paginagrootte‑instellingen](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
-Leer stap voor stap hoe u HTML naar PDF converteert in Java en paginagrootte‑instellingen configureert voor optimale resultaten.
+### [HTML naar PDF converteren in Java – Stapsgewijze gids](./convert-html-to-pdf-in-java-step-by-step-guide/)
+### [HTML naar PDF converteren met Java – Volledige gids](./convert-html-to-pdf-with-java-full-guide/)
+### [Hoe JavaScript in Aspose HTML naar PDF (Java) inschakelen](./how-to-enable-javascript-in-aspose-html-to-pdf-java/)
 ### [HTML naar MHTML converteren](./convert-html-to-mhtml/)
-Converteer HTML moeiteloos naar MHTML met Aspose.HTML for Java. Volg onze stap‑voor‑stap gids voor efficiënte HTML‑naar‑MHTML conversie.
 ### [HTML naar XPS converteren](./convert-html-to-xps/)
-Leer hoe u HTML moeiteloos naar XPS kunt converteren met Aspose.HTML for Java. Maak cross‑platform documenten met gemak.
 ### [Markdown naar HTML converteren](./convert-markdown-to-html/)
-Converteer Markdown naar HTML in Java naadloos met Aspose.HTML for Java. Volg onze stap‑voor‑stap gids om uw documentconversiebehoeften te stroomlijnen.
 ### [SVG naar afbeelding converteren](./convert-svg-to-image/)
-Leer hoe u SVG naar afbeeldingen kunt converteren in Java met Aspose.HTML. Uitgebreide gids voor output van hoge kwaliteit.
 ### [SVG naar PDF converteren](./convert-svg-to-pdf/)
-Converteer SVG naar PDF in Java met Aspose.HTML. Een naadloze oplossing voor documentconversie van hoge kwaliteit.
 ### [SVG naar XPS converteren](./convert-svg-to-xps/)
-Leer hoe u SVG naar XPS kunt converteren met Aspose.HTML for Java. Eenvoudige, stap‑voor‑stap gids voor naadloze conversies.
+### [HTML opslaan als PDF – Parallelle batchconversie met vaste thread‑pool Java](./save-html-as-pdf-parallel-batch-conversion-using-fixed-threa/)
+### [HTML opslaan als Markdown in Java – Complete stapsgewijze gids](./save-html-as-markdown-in-java-complete-step-by-step-guide/)
 
 ## Veelgestelde Vragen
 

@@ -127,6 +127,9 @@ Pelajari cara menyesuaikan ukuran halaman XPS dengan Aspose.HTML untuk Java. Kon
 ### [Cara Menjalankan JavaScript di Java – Panduan Lengkap](./how-to-run-javascript-in-java-complete-guide/)
 Pelajari cara menjalankan kode JavaScript dalam aplikasi Java dengan Aspose.HTML untuk Java secara lengkap.
 
+### [Cara Mengatur DPI Saat Mengonversi SVG ke PNG dengan Aspose – Panduan Java](./how-to-set-dpi-when-converting-svg-to-png-with-aspose-java-g/)
+Pelajari cara mengatur DPI saat mengonversi file SVG ke PNG menggunakan Aspose.HTML untuk Java.
+
 ---
 
 **Terakhir Diperbarui:** 2025-11-29  
