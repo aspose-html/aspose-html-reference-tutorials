@@ -32,6 +32,8 @@ Erfahren Sie, wie Sie mit Aspose.HTML für Java erweiterte CSS-Techniken anwende
 Erfahren Sie in dieser umfassenden Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.HTML für Java programmgesteuert HTML-Formulare bearbeiten und übermitteln.
 ### [Element per Klasse in Java auswählen – Komplett‑Anleitung](./select-element-by-class-in-java-complete-how-to-guide/)
 Erfahren Sie, wie Sie mit Aspose.HTML für Java Elemente anhand ihrer CSS‑Klasse auswählen und verarbeiten – Schritt‑für‑Schritt‑Anleitung.
+### [CSS in Java lesen – Mobilbildschirm simulieren & Media Queries testen](./how-to-read-css-in-java-simulate-mobile-screen-test-media-qu/)
+Erfahren Sie, wie Sie mit Aspose.HTML für Java CSS auslesen, mobile Bildschirme simulieren und Media Queries testen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -56,12 +56,16 @@ Learn how to load HTML documents from streams using Aspose.HTML for Java. This g
 Learn how to create HTML documents from strings in Aspose.HTML for Java with this step-by-step guide.
 ### [How to Query HTML in Java – Complete Tutorial](./how-to-query-html-in-java-complete-tutorial/)
 Learn how to query HTML in Java using Aspose.HTML with this comprehensive step-by-step guide.
+### [how to query html with Aspose.HTML – Complete Java Guide](./how-to-query-html-with-aspose-html-complete-java-guide/)
+Master querying HTML in Java using Aspose.HTML with this complete, step-by-step guide.
 ### [Create sandbox for HTML in Java – Step‑by‑Step Guide](./create-sandbox-for-html-in-java-step-by-step-guide/)
 Learn how to set up a secure HTML sandbox in Java using Aspose.HTML with this detailed step-by-step guide.
 ### [Load HTML Documents from URL in Aspose.HTML for Java](./load-html-documents-from-url/)
 Discover how to easily load HTML documents from a URL in Java with Aspose.HTML. Step-by-step tutorial included.
 ### [Generate New HTML Documents using Aspose.HTML for Java](./generate-new-html-documents/)
 Learn how to create new HTML documents using Aspose.HTML for Java with this easy step-by-step guide. Start generating dynamic HTML content.
+### [Convert Markdown to HTML in Java – Quick Guide with Aspose](./convert-markdown-to-html-in-java-quick-guide-with-aspose/)
+Learn how to convert Markdown files to HTML in Java using Aspose.HTML with a quick step-by-step guide.
 ### [Handle Document Load Events in Aspose.HTML for Java](./handle-document-load-events/)
 Learn to handle document load events in Aspose.HTML for Java with this step-by-step guide. Enhance your web applications.
 ### [Create and Manage SVG Documents in Aspose.HTML for Java](./create-manage-svg-documents/)

@@ -70,6 +70,8 @@ Ha **HTML‑t JPEG‑be** kell konvertálni fotó‑szerű megjelenítés vagy r
 
 A HTML PNG képekké alakítása ideális veszteségmentes grafikákhoz, képernyőképekhez vagy átlátszóság szükségessége esetén. Részletes útmutatónk világos instrukciókat nyújt a zökkenőmentes konverzióhoz.
 
+### [SVG konvertálása PNG‑be Java‑ban – Kötetes konverziós útmutató](./convert-svg-to-png-in-java-batch-conversion-guide/)
+
 ## HTML átalakítása TIFF‑be
 
 A HTML TIFF‑be konvertálása tökéletes magas felbontású nyomtatáshoz vagy archiváláshoz. Ez az oktatóanyag pontos lépéseket mutat be a TIFF fájlok hatékony előállításához az Aspose.HTML for Java használatával.
