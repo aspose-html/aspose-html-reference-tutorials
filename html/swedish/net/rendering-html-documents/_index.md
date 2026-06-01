@@ -60,6 +60,10 @@ Lås upp kraften i Aspose.HTML för .NET! Lär dig hur du renderar SVG-dokument 
 Lär dig hur du med Aspose.HTML för .NET konverterar HTML till PNG i en detaljerad steg‑för‑steg‑handledning.
 ### [Hur man renderar HTML till PNG med Aspose – Komplett guide](./how-to-render-html-to-png-with-aspose-complete-guide/)
 Lär dig hur du med Aspose.HTML för .NET konverterar HTML till PNG i en komplett guide.
+### [Hur man renderar HTML till PNG i C# – Komplett guide](./how-to-render-html-to-png-in-c-complete-guide/)
+Lär dig steg för steg hur du konverterar HTML till PNG med C# och Aspose.HTML i denna kompletta guide.
+### [Rendera HTML till PDF med Aspose – Komplett steg‑för‑steg‑guide](./render-html-to-pdf-with-aspose-complete-step-by-step-guide/)
+Lär dig hur du med Aspose.HTML för .NET konverterar HTML till PDF i en komplett steg‑för‑steg‑guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
