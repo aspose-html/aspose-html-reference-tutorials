@@ -56,6 +56,8 @@ Aspose.HTML for Java を使用して外部 CSS を編集する技術を習得し
 Aspose.HTML for Java を使用して HTML ドキュメントにインライン CSS を追加する方法を学びます。このステップ バイ ステップ ガイドは、HTML のスタイルを設定し、簡単に PDF に変換するのに役立ちます。
 ### [Aspose.HTML for Java で内部および外部 HTML プロパティを管理する](./manage-inner-outer-html-properties/)
 このステップバイステップ ガイドでは、Web 開発者やコンテンツ作成者に最適な、Aspose.HTML for Java で内部および外部の HTML プロパティを管理する方法を学習します。
+### [Javaで要素属性取得 – SVG選択とXPathの完全ガイド](./get-element-attribute-java-complete-guide-to-svg-selection-a/)
+Javaを使用してSVG要素の属性を取得し、XPathで選択する方法をステップバイステップで解説します。
 ### [Aspose.HTML for Java を使用して HTML ドキュメントに内部 CSS を実装する](./implement-internal-css-html-documents/)
 簡単なステップバイステップのチュートリアルで、Aspose.HTML for Java を使用して HTML ドキュメントに内部 CSS を実装する方法を学びます。
 ### [Fixed Thread Pool Java – ExecutorService を使用した並列 HTML クリーンアップ](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)

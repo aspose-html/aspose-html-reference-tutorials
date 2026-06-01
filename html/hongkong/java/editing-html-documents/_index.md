@@ -58,6 +58,8 @@ url: /zh-hant/java/editing-html-documents/
 透過此逐步指南，了解如何在 Aspose.HTML for Java 中管理內部和外部 HTML 屬性，非常適合 Web 開發人員和內容創作者。
 ### [使用 Aspose.HTML for Java 在 HTML 文件中實作內部 CSS](./implement-internal-css-html-documents/)
 透過我們簡單的逐步教程，學習使用 Aspose.HTML for Java 在 HTML 文件中實現內部 CSS。
+### [取得元素屬性 Java – 完整的 SVG 選取與 XPath 指南](./get-element-attribute-java-complete-guide-to-svg-selection-a/)
+了解如何使用 Aspose.HTML for Java 取得 SVG 元素屬性，並透過 XPath 進行精確選取的完整步驟指南。
 ### [固定執行緒池 Java – 使用 ExecutorService 進行平行 HTML 清理](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

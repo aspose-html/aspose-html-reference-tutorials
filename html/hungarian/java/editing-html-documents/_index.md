@@ -60,6 +60,8 @@ Ezzel a lépésről lépésre szóló útmutatóval megtudhatja, hogyan kezelhet
 Ismerje meg a belső CSS-t HTML-dokumentumokban az Aspose.HTML for Java használatával az egyszerű, lépésről lépésre oktatóanyagunk segítségével.
 ### [Fixed thread pool Java – Párhuzamos HTML tisztítás ExecutorService használatával](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 Ismerje meg, hogyan használhatja a FixedThreadPool-t a HTML dokumentumok párhuzamos tisztításához az ExecutorService segítségével.
+### [Elem attribútum lekérése Java – Teljes útmutató az SVG kiválasztáshoz és XPath-hez](./get-element-attribute-java-complete-guide-to-svg-selection-a/)
+Fedezze fel, hogyan kérheti le az elem attribútumait Java-ban, SVG kiválasztással és XPath használatával.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

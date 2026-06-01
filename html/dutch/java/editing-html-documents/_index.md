@@ -41,7 +41,9 @@ Externe CSS is waar de echte kracht van webdesign om de hoek komt kijken. Met de
 
 ## Inline en interne CSS toevoegen
 
-Soms moet u stijlen rechtstreeks in het HTML-document zelf toepassen. Dat is waar inline en interne CSS in het spel komen. De tutorials over het toevoegen van inline en interne CSS zijn perfect voor degenen die snelle en eenvoudige stylingoplossingen willen. Stel je voor: je werkt aan een document dat specifieke styling nodig heeft en je wilt deze toepassen zonder andere documenten te beïnvloeden. Met inline en interne CSS kun je precies dat doen. Of je nu aan een klein project of een grootschalige applicatie werkt, deze handleidingen helpen je om de klus efficiënt te klaren.[Lees meer](./add-inline-css-html-documents/) En[Lees meer](./implement-internal-css-html-documents/)
+Soms moet u stijlen rechtstreeks in het HTML-document zelf toepassen. Dat is waar inline en interne CSS in het spel komen. De tutorials over het toevoegen van inline en interne CSS zijn perfect voor de
+
+...
 
 ## HTML-documenten bewerken in Aspose.HTML voor Java-zelfstudies
 ### [Bewerk HTML-documentboom in Aspose.HTML voor Java](./edit-html-document-tree/)
@@ -58,6 +60,8 @@ Leer hoe u inline CSS toevoegt aan HTML-documenten met Aspose.HTML voor Java. De
 Leer hoe u interne en externe HTML-eigenschappen in Aspose.HTML voor Java beheert met deze stapsgewijze handleiding, perfect voor webontwikkelaars en makers van inhoud.
 ### [Implementeer interne CSS in HTML-documenten met Aspose.HTML voor Java](./implement-internal-css-html-documents/)
 Leer hoe u interne CSS in HTML-documenten implementeert met Aspose.HTML voor Java met onze eenvoudige stapsgewijze tutorial.
+### [Elementattribuut ophalen Java – Complete gids voor SVG-selectie en XPath](./get-element-attribute-java-complete-guide-to-svg-selection-a/)
+Leer hoe u met Aspose.HTML voor Java SVG-elementen selecteert en attributen ophaalt via XPath in deze volledige handleiding.
 ### [Fixed thread pool Java – Parallelle HTML-reiniging met ExecutorService](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
