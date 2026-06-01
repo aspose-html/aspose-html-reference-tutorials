@@ -1,0 +1,7 @@
+Title: execute javascript in java using Aspose.HTML
+Slug: execute-javascript-in-java-using-aspose-html
+Category: advanced-usage
+ProcessedDate: 2026-06-01T04:55:04.915071
+SourceRepo: AI Search API
+Keywords: execute javascript in java, get element by id, run javascript from html, retrieve element text java, load html document java
+PRNumber: 168
