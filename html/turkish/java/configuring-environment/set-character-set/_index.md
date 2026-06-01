@@ -1,10 +1,15 @@
 ---
-date: 2026-02-04
-description: Aspose.HTML for Java'da karakter seti ayarlamayı, HTML'yi PDF'ye dönüştürmeyi
-  ve doğru metin kodlaması ile görüntülenmesini nasıl sağlayacağınızı öğrenin.
-linktitle: Set Character Set in Aspose.HTML
+date: 2026-04-05
+description: Aspose.HTML kullanarak Java'da karakter setini nasıl ayarlayacağınızı
+  öğrenin, HTML'yi PDF'ye dönüştürün ve doğru metin kodlaması ve görüntülenmesini
+  sağlayın.
+keywords:
+- set charset in java
+- convert html pdf java
+- java html pdf example
+linktitle: Aspose.HTML'de Karakter Kümesini Ayarla
 second_title: Java HTML Processing with Aspose.HTML
-title: Aspose.HTML for Java'da Karakter Kümesi Nasıl Ayarlanır
+title: Aspose.HTML ile Java'da Karakter Seti Nasıl Ayarlanır
 url: /tr/java/configuring-environment/set-character-set/
 weight: 10
 ---
@@ -13,37 +18,34 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.HTML for Java'da Karakter Seti Nasıl Ayarlanır
+# Java'da Aspose.HTML ile Karakter Kümesini Nasıl Ayarlarsınız
 
 ## Giriş
-Java'da HTML belgeleriyle çalışıyorsanız, **karakter setinin nasıl ayarlanacağını** bilmek, doğru metin kodlaması ve renderleme için çok önemlidir. Bu adım‑adım öğreticide, Aspose.HTML for Java ile karakter setini yapılandırmayı gösterecek, ardından **HTML'yi PDF'ye dönüştürmeyi** göstererek çıktınızın tam istediğiniz gibi görünmesini sağlayacağız. **Karakter setinin nasıl ayarlanacağını** anlamak, *HTML to PDF Java* dönüşümü yaptığınızda bozuk metin oluşmasını önlemeye yardımcı olur.
+Java'da HTML belgeleriyle çalışıyorsanız, **java'da karakter kümesini nasıl ayarlayacağınızı** doğru bir şekilde bilmek, uygun metin kodlaması ve renderleme için gereklidir. Bu adım adım öğreticide, Aspose.HTML for Java ile karakter kümesini yapılandırmayı gösterecek, ardından **HTML'yi PDF'ye dönüştürmeyi** göstererek çıktınızın tam istediğiniz gibi görünmesini sağlayacağız. **Karakter kümesini nasıl ayarlayacağınızı** anlamak, *HTML'den PDF'ye Java* dönüşümü yaparken bozuk metin oluşmasını önlemeye yardımcı olur.
 
-## Hızlı Yanıtlar
+## Hızlı Cevaplar
 - **“charset” ne anlama gelir?** Bir belgede metni yorumlamak için kullanılan karakter kodlamasını (ör. ISO‑8859‑1, UTF‑8) tanımlar.  
-- **Aspose.HTML'de charset neden ayarlanır?** HTML'yi PDF'ye veya diğer formatlara dönüştürürken özel karakterlerin doğru görüntülenmesini garanti eder.  
+- **Aspose.HTML'de charset neden ayarlanır?** HTML'yi PDF'ye veya diğer formatlara dönüştürürken özel karakterlerin doğru şekilde render edilmesini garanti eder.  
 - **Bu örnekte hangi charset kullanılıyor?** `ISO‑8859‑1` (`setCharSet` ile ayarlanır).  
 - **Charset ayarlandıktan sonra HTML'yi PDF'ye dönüştürebilir miyim?** Evet – öğretici, `Converter.convertHTML` kullanarak bir PDF dönüşümüyle sona erer.  
-- **Lisans gerekir mi?** Ücretsiz deneme mevcuttur; üretim kullanımı için ticari lisans gereklidir.
+- **Bir lisansa ihtiyacım var mı?** Ücretsiz bir deneme sürümü mevcuttur; üretim kullanımı için ticari bir lisans gereklidir.
 
-## Aspose.HTML for Java'da Karakter Seti Nasıl Ayarlanır
-Karakter setini ayarlamak, bir **Aspose.HTML PDF dönüşümüne** başlamadan önce küçük ama hayati bir adımdır. Aşağıda süreci net, numaralı adımlara ayırdık, böylece hiçbir detayı kaçırmadan takip edebilirsiniz.
+## **set charset in java** nedir ve neden önemlidir?
+Bir charset (karakter kümesi), bayt dizilerini okunabilir karakterlere eşler. Yanlış charset kullanmak, özellikle aksanlı karakterler veya Latin dışı yazı sistemleri içeren dillerde metni bozabilir. Doğru charset'i ayarlamak, HTML'nin yazarın niyet ettiği şekilde tam olarak ayrıştırılmasını sağlar; bu, daha sonra **HTML'den PDF oluştururken** kritik öneme sahiptir.
 
-## Karakter Seti Nedir ve Neden Önemlidir?
-Bir charset (karakter seti), bayt dizilerini okunabilir karakterlere eşler. Yanlış charset kullanmak, özellikle aksanlı karakterler veya Latin dışı yazı sistemleri içeren dillerde metni bozabilir. Doğru charset'i ayarlamak, HTML'nin yazarın niyet ettiği şekilde tam olarak ayrıştırılmasını sağlar; bu, daha sonra **HTML'den PDF oluştururken** kritik öneme sahiptir.
-
-## Java'da HTML'yi PDF'ye Dönüştürürken Neden Charset Ayarlanmalı?
+## HTML'yi PDF'ye dönüştürürken java'da charset neden ayarlanmalı?
 - **Doğru renderleme** – karakterler tasarlandığı gibi görünür, mojibake olmaz.  
-- **Uluslararasılaştırma desteği** – ISO‑8859‑1 charset Java, UTF‑8, Windows‑1252 vb. charset'leri güvenle işleyebilirsiniz.  
-- **Tutarlı çıktı** – *Aspose.HTML PDF conversion* belirttiğiniz charset'i dikkate alır, platformlar arasında öngörülebilir sonuçlar sağlar.
+- **Uluslararasılaştırma desteği** – ISO‑8859‑1, UTF‑8, Windows‑1252 ve birçok diğer kodlamayı güvenle işleyebilirsiniz.  
+- **Tutarlı çıktı** – *Aspose.HTML PDF dönüşümü*, belirttiğiniz charset'i dikkate alır ve platformlar arasında öngörülebilir sonuçlar sağlar.
 
 ## Önkoşullar
 Koda geçmeden önce aşağıdakilere sahip olduğunuzdan emin olun:
 
 1. **Java Development Kit (JDK)** – herhangi bir güncel JDK (8+). [Oracle web sitesinden](https://www.oracle.com/java/technologies/javase-downloads.html) indirin.  
-2. **Aspose.HTML for Java** – en son kütüphaneyi [Aspose releases sayfasından](https://releases.aspose.com/html/java/) edinin.  
+2. **Aspose.HTML for Java** – en son kütüphaneyi [Aspose sürüm sayfasından](https://releases.aspose.com/html/java/) edinin.  
 3. **IDE** – tercih ettiğiniz IntelliJ IDEA, Eclipse veya herhangi bir Java uyumlu IDE.
 
-## Paketleri İçe Aktar
+## Paketleri İçe Aktarma
 Örnek için yalnızca tek bir import'a ihtiyacımız var, ancak Aspose.HTML sınıfları daha sonra doğrudan referans verilecektir.
 
 ```java
@@ -66,7 +68,7 @@ try (java.io.FileWriter fileWriter = new java.io.FileWriter("document.html")) {
 - **HTML İçeriği** – `code` değişkeni bir başlık ve bir paragraf içeren minimal bir HTML snippet'ini tutar.  
 - **FileWriter** – HTML string'ini `document.html` dosyasına yazar; bu dosya dönüşümümüzün kaynağı olur.
 
-## Adım 2: Karakter Setini Yapılandırın
+## Adım 2: Karakter Kümesini Yapılandırın
 Şimdi, özel ayarlarımızı tutacak bir `Configuration` nesnesi oluşturuyoruz.
 
 ```java
@@ -98,7 +100,7 @@ Charset yapılandırıldıktan sonra, aynı `Configuration` kullanarak HTML dosy
     HTMLDocument document = new HTMLDocument("document.html", configuration);
 ```
 
-`HTMLDocument` artık kaynak dosyayı temsil eder, `ISO‑8859‑1` charset'i ile ayrıştırılmıştır.
+`HTMLDocument` artık `ISO‑8859‑1` charset'i ile ayrıştırılan kaynak dosyayı temsil eder.
 
 ## Adım 5: HTML'yi PDF'ye Dönüştürün
 Son olarak, belgeyi PDF'ye dönüştürün. Bu, **aspose html convert pdf** işlemini gösterir.
@@ -124,39 +126,39 @@ Son olarak, belgeyi PDF'ye dönüştürün. Bu, **aspose html convert pdf** işl
 ```
 
 - **Converter.convertHTML** – PDF'ye gerçek dönüşümü gerçekleştirir.  
-- **PdfSaveOptions** – Gerekirse PDF'ye özgü ayarları ince ayar yapmanıza olanak tanır.  
+- **PdfSaveOptions** – Gerekirse PDF'ye özgü ayarları düzenlemenizi sağlar.  
 - **Kaynak Temizliği** – `dispose()` çağrıları yerel kaynakları serbest bırakarak bellek sızıntılarını önler.
 
-## Yaygın Sorunlar ve Çözümleri
+## Yaygın Sorunlar ve Çözümler
 | Sorun | Neden | Çözüm |
 |-------|-------|-----|
-| PDF'de bozuk karakterler | Yanlış charset ayarı (ör. varsayılan UTF‑8) | `userAgent.setCharSet("ISO-8859-1")` kullanın veya kaynağınız için uygun charset'i seçin. |
-| `document` üzerinde `NullPointerException` | `configuration` belge kullanımından önce dispose edildi | `configuration.dispose()` çağrısının **HTMLDocument** kullanımını bitirdikten sonra yapıldığından emin olun. |
-| Eksik fontlar | Hedef charset için yüklü olmayan fontlar | Gerekli fontu kurun veya `PdfSaveOptions` aracılığıyla gömün (ör. `setEmbedStandardFonts(true)`). |
+| PDF'de bozuk karakterler | Yanlış charset ayarlandı (ör. varsayılan UTF‑8) | `userAgent.setCharSet("ISO-8859-1")` kullanın veya kaynağınız için uygun charset'i seçin. |
+| `document` üzerinde `NullPointerException` | `configuration` belge kullanılmadan önce dispose edildi | `configuration.dispose()` çağrısının **HTMLDocument** kullanımını bitirdikten sonra yapıldığından emin olun. |
+| Eksik fontlar | Hedef charset, yüklü olmayan fontlar gerektiriyor | Gerekli fontu kurun veya `PdfSaveOptions` aracılığıyla gömün (ör. `setEmbedStandardFonts(true)`). |
 
 ## Sık Sorulan Sorular
 
-**S: Karakter seti nedir ve neden önemlidir?**  
-C: Bir charset, bayt değerlerini karakterlere eşler. Doğru charset kullanmak, özellikle ASCII dışı dillerde metin bozulmasını önler.
+**S: Bir charset nedir ve neden önemlidir?**  
+C: Charset, bayt değerlerini karakterlere eşler. Doğru charset kullanmak, özellikle ASCII dışı dillerde metin bozulmasını önler.
 
 **S: ISO‑8859‑1 dışındaki bir charset kullanabilir miyim?**  
-C: Kesinlikle. Aspose.HTML birçok kodlamayı destekler (UTF‑8, Windows‑1252 vb.). `setCharSet` içinde `"ISO-8859-1"` yerine istediğiniz değeri koymanız yeterlidir.
+C: Kesinlikle. Aspose.HTML birçok kodlamayı destekler (UTF‑8, Windows‑1252 vb.). `setCharSet` içinde `"ISO-8859-1"` ifadesini istediğiniz değere değiştirmeniz yeterlidir.
 
 **S: PDF dışındaki diğer formatları da dönüştürmek mümkün mü?**  
-C: Evet. Aspose.HTML, `PdfSaveOptions` yerine uygun kaydetme seçenek sınıfını kullanarak HTML'yi XPS, DOCX, PNG, JPEG ve daha fazlasına dönüştürebilir.
+C: Evet. Aspose.HTML, `PdfSaveOptions` yerine uygun kaydetme‑opsiyon sınıfını kullanarak HTML'yi XPS, DOCX, PNG, JPEG ve daha fazlasına dönüştürebilir.
 
 **S: Kaynak temizliğini manuel olarak yapmam gerekir mi?**  
-C: Java’nın çöp toplayıcısı yardımcı olsa da, yerel kaynakları hızlıca serbest bırakmak için `Configuration` ve `HTMLDocument` üzerinde `dispose()` metodunu açıkça çağırmalısınız.
+C: Java'nın çöp toplayıcısı yardımcı olsa da, yerel kaynakları hızlıca serbest bırakmak için `Configuration` ve `HTMLDocument` üzerinde `dispose()` metodunu açıkça çağırmalısınız.
 
 **S: Aspose.HTML for Java için ücretsiz deneme sürümünü nereden alabilirim?**  
-C: Deneme sürümünü [Aspose releases sayfasından](https://releases.aspose.com/) indirebilirsiniz.
+C: Deneme sürümünü [Aspose sürüm sayfasından](https://releases.aspose.com/) indirebilirsiniz.
 
 ## Sonuç
-Artık Aspose.HTML for Java'da **karakter setinin nasıl ayarlanacağını** ve doğru kodlamayla **HTML'yi PDF'ye nasıl dönüştüreceğinizi** biliyorsunuz. Doğru charset yönetimi, uluslararasılaştırma için hayati öneme sahiptir ve PDF'lerinizin orijinal HTML içeriğini eksiksiz yansıtmasını sağlar. Projenizin ihtiyaçlarına göre farklı charset'ler veya çıktı formatlarıyla denemeler yapmaktan çekinmeyin; ister *HTML to PDF Java* iş akışı, ister daha geniş bir **Aspose HTML PDF conversion** yapıyor olun.
+Artık Aspose.HTML ile **java'da charset nasıl ayarlanır** ve doğru kodlama ile **HTML'yi PDF'ye nasıl dönüştürülür** bildiğinize emin olabilirsiniz. Doğru charset yönetimi, uluslararasılaştırma için hayati öneme sahiptir ve PDF'lerinizin orijinal HTML içeriğini eksiksiz yansıtmasını sağlar. Projenizin ihtiyaçlarına göre farklı charset'ler veya çıktı formatlarıyla denemeler yapmaktan çekinmeyin; ister *HTML'den PDF'ye Java* iş akışı, ister daha geniş bir **Aspose HTML PDF dönüşümü** yapıyor olun.
 
 ---
 
-**Last Updated:** 2026-02-04  
+**Last Updated:** 2026-04-05  
 **Tested With:** Aspose.HTML for Java 24.12 (latest at time of writing)  
 **Author:** Aspose  
 
