@@ -60,6 +60,8 @@ Naučte se, jak spravovat vnitřní a vnější vlastnosti HTML v Aspose.HTML fo
 Naučte se implementovat interní CSS do HTML dokumentů pomocí Aspose.HTML for Java s naším jednoduchým návodem krok za krokem.
 ### [Fixní vlákno pool v Javě – paralelní čištění HTML pomocí ExecutorService](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 Naučte se, jak využít fixní pool vláken v Javě k paralelnímu čištění HTML pomocí ExecutorService.
+### [Získání atributu prvku v Javě – Kompletní průvodce výběrem SVG a XPath](./get-element-attribute-java-complete-guide-to-svg-selection-a/)
+Naučte se získávat atributy prvků SVG pomocí XPath v Aspose.HTML pro Java s podrobným návodem.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

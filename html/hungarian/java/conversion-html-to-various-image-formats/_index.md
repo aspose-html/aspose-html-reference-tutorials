@@ -70,6 +70,9 @@ Ha **HTML‑t JPEG‑be** kell konvertálni fotó‑szerű megjelenítés vagy r
 
 A HTML PNG képekké alakítása ideális veszteségmentes grafikákhoz, képernyőképekhez vagy átlátszóság szükségessége esetén. Részletes útmutatónk világos instrukciókat nyújt a zökkenőmentes konverzióhoz.
 
+### [Külső képek letiltása a weboldal PNG‑be renderelése közben Java‑ban](./disable-external-images-while-rendering-webpage-to-png-in-ja/)
+Ismerje meg, hogyan tilthatja le a külső képek betöltését a weboldal PNG‑be renderelése során Java‑ban az Aspose.HTML használatával.
+
 ## HTML átalakítása TIFF‑be
 
 A HTML TIFF‑be konvertálása tökéletes magas felbontású nyomtatáshoz vagy archiváláshoz. Ez az oktatóanyag pontos lépéseket mutat be a TIFF fájlok hatékony előállításához az Aspose.HTML for Java használatával.
@@ -96,10 +99,12 @@ Ismerje meg, hogyan konvertálhat HTML‑t GIF‑be Java‑ban az Aspose.HTML ha
 Tanulja meg, hogyan konvertálhat HTML‑t JPEG‑be az Aspose.HTML for Java segítségével. Lépésről‑lépésre útmutató a zökkenőmentes dokumentumfeldolgozáshoz.
 ### [HTML átalakítása PNG‑be](./convert-html-to-png/)
 Ismerje meg, hogyan konvertálhat HTML‑t PNG képekké Java‑ban az Aspose.HTML használatával. Átfogó útmutató részletes instrukciókkal.
-### [HTML átalakítása TIFF‑be](./convert-html-to-tiff/)
-Tanulja meg, hogyan konvertálhat HTML‑t TIFF‑be az Aspose.HTML for Java segítségével. Lépésről‑lépésre útmutató a hatékony dokumentumkezeléshez.
 ### [HTML konvertálása WebP‑be – Teljes Java útmutató az Aspose.HTML‑el](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
 Ismerje meg, hogyan konvertálhat HTML‑t WebP‑be Java‑ban az Aspose.HTML használatával. Részletes, lépésről‑lépésre útmutató a WebP konverzióhoz.
+### [HTML átalakítása TIFF‑be](./convert-html-to-tiff/)
+Tanulja meg, hogyan konvertálhat HTML‑t TIFF‑be az Aspose.HTML for Java segítségével. Lépésről‑lépésre útmutató a hatékony dokumentumkezeléshez.
+### [HTML konvertálása AVIF‑be az Aspose.HTML‑el – Teljes Java útmutató](./convert-html-to-avif-with-aspose-html-complete-java-guide/)
+Fedezze fel, hogyan konvertálhat HTML‑t AVIF‑formátumba Java‑ban az Aspose.HTML segítségével, részletes, lépésről‑lépésre útmutatóval.
 
 ## Gyakran ismételt kérdések
 

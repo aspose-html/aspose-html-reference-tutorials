@@ -37,7 +37,7 @@ Once you’ve got the basics of HTML document editing down, it’s time to level
 
 ## Applying External CSS Like a Pro
 
-External CSS is where the real power of web design comes into play. With the right CSS, you can transform a simple HTML page into a beautifully styled document. The tutorial on advanced external CSS editing is perfect for those who want to master the art of dynamic, responsive design. Imagine being able to apply complex styles across multiple HTML documents effortlessly—that’s what this tutorial offers. It’s your gateway to creating sleek, modern web pages that stand out. Don’t miss out on this valuable resource! [Read more](./advanced-external-css-editing/)
+External CSS is where the real power of web design does come into play. With the right CSS, you can transform a simple HTML page into a beautifully styled document. The tutorial on advanced external CSS editing is perfect for those who want to master the art of dynamic, responsive design. Imagine being able to apply complex styles across multiple HTML documents effortlessly—that’s what this tutorial offers. It’s your gateway to creating sleek, modern web pages that stand out. Don’t miss out on this valuable resource! [Read more](./advanced-external-css-editing/)
 
 ## Adding Inline and Internal CSS
 
@@ -58,6 +58,8 @@ Learn how to add inline CSS to HTML documents using Aspose.HTML for Java. This s
 Learn how to manage inner and outer HTML properties in Aspose.HTML for Java with this step-by-step guide, perfect for web developers and content creators.
 ### [Implement Internal CSS in HTML Documents with Aspose.HTML for Java](./implement-internal-css-html-documents/)
 Learn to implement internal CSS in HTML documents using Aspose.HTML for Java with our easy step-by-step tutorial.
+### [Get Element Attribute Java – Complete Guide to SVG Selection and XPath](./get-element-attribute-java-complete-guide-to-svg-selection-a/)
+Learn how to retrieve element attributes, select SVG elements, and use XPath with Aspose.HTML for Java in this comprehensive guide.
 ### [Fixed thread pool java – Parallel HTML Cleaning with ExecutorService](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 Learn how to use a fixed thread pool and ExecutorService in Java to clean HTML content in parallel efficiently.
 
