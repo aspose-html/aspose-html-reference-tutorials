@@ -1,0 +1,7 @@
+Title: Get element by id in Python – Complete HTML Manipulation Guide
+Slug: get-element-by-id-in-python-complete-html-manipulation-guide
+Category: general
+ProcessedDate: 2026-06-01T05:34:01.605767
+SourceRepo: AI Search API
+Keywords: get element by id, change background colour html, how to read html text, how to set html attribute, manipulate html with python
+PRNumber: 169
