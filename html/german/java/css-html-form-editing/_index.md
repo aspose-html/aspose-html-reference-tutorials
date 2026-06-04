@@ -32,6 +32,10 @@ Erfahren Sie, wie Sie mit Aspose.HTML für Java erweiterte CSS-Techniken anwende
 Erfahren Sie in dieser umfassenden Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.HTML für Java programmgesteuert HTML-Formulare bearbeiten und übermitteln.
 ### [Element per Klasse in Java auswählen – Komplett‑Anleitung](./select-element-by-class-in-java-complete-how-to-guide/)
 Erfahren Sie, wie Sie mit Aspose.HTML für Java Elemente anhand ihrer CSS‑Klasse auswählen und verarbeiten – Schritt‑für‑Schritt‑Anleitung.
+### [HTML-Element per Klasse in Java – Komplett‑Leitfaden](./select-html-element-by-class-in-java-complete-guide/)
+Erfahren Sie, wie Sie mit Aspose.HTML für Java HTML-Elemente anhand ihrer CSS‑Klasse auswählen und verarbeiten – vollständige Anleitung.
+### [CSS-Selektor für nicht deaktivierte Schaltfläche – Java HTML Parsing‑Leitfaden](./css-selector-not-disabled-button-java-html-parsing-guide/)
+Erfahren Sie, wie Sie mit Aspose.HTML für Java CSS‑Selektoren verwenden, um nicht deaktivierte Schaltflächen zu finden und zu verarbeiten.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

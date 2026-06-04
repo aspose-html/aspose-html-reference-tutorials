@@ -47,19 +47,23 @@ Meistern Sie die asynchrone Erstellung von HTML-Dokumenten mit Aspose.HTML für 
 ### [Erstellen Sie leere HTML-Dokumente in Aspose.HTML für Java](./create-empty-html-documents/)
 Erfahren Sie mit unserem ausführlichen Schritt-für-Schritt-Tutorial, wie Sie mit Aspose.HTML leere HTML-Dokumente in Java erstellen. Es ist ideal für Entwickler aller Niveaus.
 ### [Laden Sie HTML-Dokumente aus einer Datei in Aspose.HTML für Java](./load-html-documents-from-file/)
-Entfesseln Sie die Möglichkeiten der HTML-Manipulation mit Aspose.HTML für Java. Lernen Sie mit Schritt-für-Schritt-Tutorials, HTML-Dokumente aus Dateien zu laden.
+Entfesseln Sie die Möglichkeiten der HTML-Manipulation mit Aspose.HTML für Java. Lernen Sie mit Schritt‑für‑Schritt‑Tutorials, HTML-Dokumente aus Dateien zu laden.
 ### [Erweitertes Laden von Dateien für HTML-Dokumente in Aspose.HTML für Java](./advanced-file-loading-html-documents/)
-Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie HTML-Dokumente mit Aspose.HTML für Java laden, bearbeiten und speichern. Schalten Sie die erweiterte HTML-Verarbeitung in Ihren Java-Projekten frei.
+Erfahren Sie in dieser Schritt‑für‑Schritt‑Anleitung, wie Sie HTML-Dokumente mit Aspose.HTML für Java laden, bearbeiten und speichern. Schalten Sie die erweiterte HTML-Verarbeitung in Ihren Java-Projekten frei.
 ### [Laden Sie HTML-Dokumente aus dem Stream mit Aspose.HTML für Java](./load-html-documents-from-stream/)
-Erfahren Sie, wie Sie mit Aspose.HTML für Java HTML-Dokumente aus Streams laden. Diese Anleitung bietet eine Schritt-für-Schritt-Anleitung zur nahtlosen HTML-Bearbeitung.
+Erfahren Sie, wie Sie mit Aspose.HTML für Java HTML-Dokumente aus Streams laden. Diese Anleitung bietet eine Schritt‑für‑Schritt‑Anleitung zur nahtlosen HTML-Bearbeitung.
 ### [Erstellen Sie HTML-Dokumente aus Zeichenfolgen in Aspose.HTML für Java](./create-html-documents-from-string/)
-Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie in Aspose.HTML für Java HTML-Dokumente aus Zeichenfolgen erstellen.
+Erfahren Sie in dieser Schritt‑für‑Schritt‑Anleitung, wie Sie in Aspose.HTML für Java HTML-Dokumente aus Zeichenfolgen erstellen.
+### [Div mit Klasse java erstellen – Vollständiges Beispiel mit Aspose.HTML](./create-div-with-class-java-full-example-using-aspose-html/)
+Erfahren Sie, wie Sie mit Aspose.HTML in Java ein Div-Element mit der Klasse 'java' erstellen – vollständiges Schritt‑für‑Schritt‑Beispiel.
+### [HTML-Dokument mit eingebettetem JavaScript erstellen – Java-Beispiel](./create-html-document-with-embedded-javascript-java-example/)
+Erfahren Sie, wie Sie mit Aspose.HTML für Java ein HTML-Dokument mit eingebettetem JavaScript erstellen, inklusive Beispielcode.
 ### [Laden Sie HTML-Dokumente von einer URL in Aspose.HTML für Java](./load-html-documents-from-url/)
 Entdecken Sie, wie Sie mit Aspose.HTML ganz einfach HTML-Dokumente von einer URL in Java laden. Schritt‑für‑Schritt‑Anleitung inklusive.
 ### [Generieren Sie neue HTML-Dokumente mit Aspose.HTML für Java](./generate-new-html-documents/)
-Erfahren Sie in dieser einfachen Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.HTML für Java neue HTML-Dokumente erstellen. Beginnen Sie mit der Generierung dynamischer HTML-Inhalte.
+Erfahren Sie in dieser einfachen Schritt‑für‑Schritt‑Anleitung, wie Sie mit Aspose.HTML für Java neue HTML-Dokumente erstellen. Beginnen Sie mit der Generierung dynamischer HTML-Inhalte.
 ### [Behandeln von Dokumentladeereignissen in Aspose.HTML für Java](./handle-document-load-events/)
-Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie Dokumentladeereignisse in Aspose.HTML für Java handhaben. Verbessern Sie Ihre Webanwendungen.
+Erfahren Sie in dieser Schritt‑für‑Schritt‑Anleitung, wie Sie Dokumentladeereignisse in Aspose.HTML für Java handhaben. Verbessern Sie Ihre Webanwendungen.
 ### [Erstellen und Verwalten von SVG-Dokumenten in Aspose.HTML für Java](./create-manage-svg-documents/)
 Erfahren Sie, wie Sie SVG-Dokumente mit Aspose.HTML für Java erstellen und verwalten! Dieser umfassende Leitfaden deckt alles von der grundlegenden Erstellung bis zur erweiterten Bearbeitung ab.
 ### [Sandbox für HTML in Java erstellen – Schritt‑für‑Schritt‑Anleitung](./create-sandbox-for-html-in-java-step-by-step-guide/)

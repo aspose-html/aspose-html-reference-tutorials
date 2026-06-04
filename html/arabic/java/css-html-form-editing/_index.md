@@ -32,6 +32,10 @@ url: /ar/java/css-html-form-editing/
 تعرف على كيفية تحرير نماذج HTML وإرسالها برمجيًا باستخدام Aspose.HTML لـ Java في هذا الدليل الشامل خطوة بخطوة.
 ### [تحديد العنصر حسب الفئة في Java – دليل شامل خطوة بخطوة](./select-element-by-class-in-java-complete-how-to-guide/)
 تعلم كيفية اختيار عناصر HTML باستخدام الفئة في Java باستخدام Aspose.HTML خطوة بخطوة.
+### [تحديد عنصر HTML حسب الفئة في Java – دليل شامل](./select-html-element-by-class-in-java-complete-guide/)
+تعلم كيفية اختيار عناصر HTML باستخدام الفئة في Java باستخدام Aspose.HTML في دليل شامل ومفصل.
+### [محدد CSS للزر غير المعطل – دليل تحليل HTML في Java](./css-selector-not-disabled-button-java-html-parsing-guide/)
+تعلم كيفية اختيار الأزرار غير المعطلة باستخدام محددات CSS في Java مع Aspose.HTML خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

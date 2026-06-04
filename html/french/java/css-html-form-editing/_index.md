@@ -32,6 +32,11 @@ Découvrez comment utiliser Aspose.HTML pour Java pour appliquer des techniques 
 Découvrez comment modifier et soumettre des formulaires HTML par programmation à l'aide d'Aspose.HTML pour Java dans ce guide complet étape par étape.
 ### [Sélection d'élément par classe en Java – Guide complet](./select-element-by-class-in-java-complete-how-to-guide/)
 Apprenez à sélectionner des éléments HTML par leur classe en Java avec Aspose.HTML, grâce à ce guide complet pas à pas.
+### [Sélection d'élément HTML par classe en Java – Guide complet](./select-html-element-by-class-in-java-complete-guide/)
+Apprenez à sélectionner des éléments HTML par classe en Java avec Aspose.HTML grâce à ce guide complet et détaillé.
+### [Sélecteur CSS bouton non désactivé – Guide d'analyse HTML Java](./css-selector-not-disabled-button-java-html-parsing-guide/)
+Apprenez à identifier et manipuler les boutons actifs à l'aide de sélecteurs CSS dans Aspose.HTML pour Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

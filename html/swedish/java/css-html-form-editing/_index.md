@@ -32,6 +32,11 @@ Lär dig hur du använder Aspose.HTML för Java för att tillämpa avancerade CS
 Lär dig hur du redigerar och skickar HTML-formulär programmatiskt med Aspose.HTML för Java i den här omfattande steg-för-steg-guiden.
 ### [Välj element efter klass i Java – Komplett guide](./select-element-by-class-in-java-complete-how-to-guide/)
 Lär dig hur du programatiskt väljer HTML‑element baserat på deras klass i Java med Aspose.HTML.
+### [Välj HTML‑element efter klass i Java – Komplett guide](./select-html-element-by-class-in-java-complete-guide/)
+Lär dig hur du programatiskt väljer HTML‑element efter klass i Java med Aspose.HTML.
+### [CSS‑väljare för icke inaktiverad knapp – Java HTML‑parsningsguide](./css-selector-not-disabled-button-java-html-parsing-guide/)
+Lär dig hur du med Aspose.HTML för Java identifierar och hanterar knappar som inte är inaktiverade via CSS‑väljare.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

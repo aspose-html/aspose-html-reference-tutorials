@@ -54,6 +54,8 @@ Lär dig hur du laddar, manipulerar och sparar HTML-dokument med Aspose.HTML fö
 Lär dig hur du laddar HTML-dokument från strömmar med Aspose.HTML för Java. Den här guiden ger en steg-för-steg handledning för sömlös HTML-manipulation.
 ### [Skapa HTML-dokument från String i Aspose.HTML för Java](./create-html-documents-from-string/)
 Lär dig hur du skapar HTML-dokument från strängar i Aspose.HTML för Java med denna steg-för-steg-guide.
+### [Skapa HTML-dokument med inbäddad JavaScript – Java-exempel](./create-html-document-with-embedded-javascript-java-example/)
+Lär dig hur du skapar ett HTML-dokument med inbäddad JavaScript i Java med Aspose.HTML. Steg‑för‑steg‑guide.
 ### [Ladda HTML-dokument från URL i Aspose.HTML för Java](./load-html-documents-from-url/)
 Upptäck hur du enkelt laddar HTML-dokument från en URL i Java med Aspose.HTML. Steg-för-steg handledning ingår.
 ### [Hur du frågar HTML i Java – Komplett handledning](./how-to-query-html-in-java-complete-tutorial/)
@@ -66,6 +68,8 @@ Lär dig att hantera dokumentladdningshändelser i Aspose.HTML för Java med den
 Lär dig att skapa och hantera SVG-dokument med Aspose.HTML för Java! Den här omfattande guiden täcker allt från grundläggande skapande till avancerad manipulation.
 ### [Skapa sandlåda för HTML i Java – Steg‑för‑steg‑guide](./create-sandbox-for-html-in-java-step-by-step-guide/)
 Lär dig hur du skapar en säker sandlåda för HTML i Java med vår detaljerade steg-för-steg‑guide.
+### [Skapa div med klass java – Fullständigt exempel med Aspose.HTML](./create-div-with-class-java-full-example-using-aspose-html/)
+Lär dig hur du skapar en div med klass i Java med Aspose.HTML i ett komplett exempel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
