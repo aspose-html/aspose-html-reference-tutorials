@@ -37,9 +37,12 @@ Sobald Sie die Grundlagen verstanden haben, werden wir tiefer in den Erstellungs
 Lassen Sie uns nun Ihre Fähigkeiten auf die nächste Ebene bringen. Das Bearbeiten von HTML-Dokumenten ist eine häufige Aufgabe für Webentwickler, und Aspose.HTML vereinfacht diesen Prozess erheblich. In diesem Abschnitt behandeln wir die Erstellung, Bearbeitung und Gestaltung von Dokumenten. Sie erfahren, wie Sie das Erscheinungsbild und die Funktionalität Ihrer Webinhalte verbessern und sie ansprechend und benutzerfreundlich gestalten können.
 
 ### [HTML in C# speichern – Vollständige Anleitung mit benutzerdefiniertem Ressourcen-Handler](./how-to-save-html-in-c-complete-guide-using-a-custom-resource/)
-
 Erfahren Sie, wie Sie HTML in C# mit einem benutzerdefinierten Ressourcen-Handler speichern können.
+
 ### [Überschrift mit CSS & C# fett formatieren – Komplett‑Schritt‑für‑Schritt‑Anleitung](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
+
+### [HTML in Zip speichern – Vollständige C#‑Anleitung für In‑Memory‑Archive](./save-html-to-zip-complete-c-guide-for-in-memory-archives/)
+Erfahren Sie, wie Sie HTML-Inhalte direkt im Speicher in ein ZIP‑Archiv speichern können.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

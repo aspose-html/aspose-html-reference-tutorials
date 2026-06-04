@@ -38,6 +38,7 @@ url: /ar/net/working-with-html-documents/
 
 ### [كيفية حفظ HTML في C# – دليل كامل باستخدام معالج موارد مخصص](./how-to-save-html-in-c-complete-guide-using-a-custom-resource/)
 ### [كيفية جعل العنوان غامقًا باستخدام CSS و C# – دليل خطوة بخطوة كامل](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
+### [حفظ HTML إلى Zip – دليل كامل C# للأرشيفات في الذاكرة](./save-html-to-zip-complete-c-guide-for-in-memory-archives/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
