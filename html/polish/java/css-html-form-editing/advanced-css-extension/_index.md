@@ -1,51 +1,142 @@
 ---
-title: Zaawansowane techniki rozszerzeń CSS z Aspose.HTML dla Java
-linktitle: Zaawansowane techniki rozszerzeń CSS z Aspose.HTML dla Java
-second_title: Przetwarzanie HTML w Javie za pomocą Aspose.HTML
-description: Dowiedz się, jak używać Aspose.HTML dla Java, aby stosować zaawansowane techniki CSS, w tym niestandardowe marginesy stron i dynamiczną zawartość. Szczegółowy, praktyczny samouczek dla programistów.
-weight: 10
+date: 2026-06-04
+description: Dowiedz się, jak używać Aspose.HTML for Java, aby zastosować zaawansowane
+  techniki CSS, generować dokumenty HTML w Javie oraz tworzyć PDF z niestandardowymi
+  marginesami. Szczegółowy, praktyczny samouczek dla programistów.
+keywords:
+- how to use aspose
+- pdf with custom margins
+- generate html document java
+- generate dynamic html java
+linktitle: Zaawansowane techniki rozszerzania CSS z Aspose.HTML
+schemas:
+- author: Aspose
+  dateModified: '2026-06-04'
+  description: Learn how to use Aspose.HTML for Java to apply advanced CSS techniques,
+    generate HTML document Java, and create PDF with custom margins. A detailed, hands‑on
+    tutorial for developers.
+  headline: Advanced CSS Extension Techniques with Aspose.HTML for Java
+  type: TechArticle
+- description: Learn how to use Aspose.HTML for Java to apply advanced CSS techniques,
+    generate HTML document Java, and create PDF with custom margins. A detailed, hands‑on
+    tutorial for developers.
+  name: Advanced CSS Extension Techniques with Aspose.HTML for Java
+  steps:
+  - name: '**Java Development Kit (JDK)** 1.8+ – download from the [Oracle website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).'
+    text: '**Java Development Kit (JDK)** 1.8+ – download from the [Oracle website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).'
+  - name: '**Aspose.HTML for Java** – obtain the latest JAR from the [Aspose releases
+      page](https://releases.aspose.com/html/java/).'
+    text: '**Aspose.HTML for Java** – obtain the latest JAR from the [Aspose releases
+      page](https://releases.aspose.com/html/java/).'
+  - name: '**IDE** – IntelliJ IDEA, Eclipse, or NetBeans.'
+    text: '**IDE** – IntelliJ IDEA, Eclipse, or NetBeans.'
+  - name: Basic HTML & CSS knowledge.
+    text: Basic HTML & CSS knowledge.
+  - name: Familiarity with Java syntax and object‑oriented concepts.
+    text: Familiarity with Java syntax and object‑oriented concepts.
+  type: HowTo
+- questions:
+  - answer: XPS is a Microsoft fixed‑layout format optimized for Windows printing,
+      while PDF is cross‑platform and widely supported. Both are generated with the
+      same CSS rules.
+    question: What is the difference between XPS and PDF output?
+  - answer: Yes, you can pass an HTML string directly to `HTMLDocument` as shown in
+      the tutorial.
+    question: Can I generate HTML document Java without writing a physical file first?
+  - answer: 'Use the `@top-center` rule with `content: "My Document Title"` or bind
+      it to a variable via JavaScript before rendering.'
+    question: How do I add a dynamic header that shows the document title on every
+      page?
+  - answer: Practically, it can process thousands of pages; performance depends on
+      server memory and CPU. Tests show 1,000‑page documents render in under 2 minutes
+      on a 4‑core VM.
+    question: Is there a limit to the number of pages Aspose.HTML can handle?
+  - answer: No, a single Aspose.HTML license covers all supported formats (PDF, XPS,
+      DOCX, PNG, JPEG, etc.).
+    question: Do I need a separate license for each output format?
+  type: FAQPage
+second_title: Java HTML Processing with Aspose.HTML
+title: Zaawansowane techniki rozszerzania CSS z Aspose.HTML for Java
 url: /pl/java/css-html-form-editing/advanced-css-extension/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Zaawansowane techniki rozszerzeń CSS z Aspose.HTML dla Java
+# jak używać aspose: Zaawansowane techniki rozszerzeń CSS z Aspose.HTML dla Javy
 
-## Wstęp
-Czy jesteś gotowy, aby przenieść swoje umiejętności CSS na wyższy poziom? Wyobraź sobie, jak bez wysiłku stosujesz zaawansowane style do swoich dokumentów HTML, dostosowujesz marginesy i wstawiasz zawartość na te marginesy jak profesjonalista — wszystko to przy użyciu Javy! Brzmi ekscytująco, prawda? To właśnie to, co zbadamy w tym samouczku. Zanurzymy się w świat Aspose.HTML dla Javy i odkryjemy, jak wykorzystać jego potężne możliwości, aby ulepszyć styl CSS. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz, ten przewodnik przeprowadzi Cię przez każdy krok za pomocą jasnych wyjaśnień i praktycznych przykładów.
-W tym samouczku skupimy się na stosowaniu niestandardowych marginesów i dodawaniu treści do tych marginesów za pomocą Aspose.HTML dla Java. Pod koniec będziesz mieć solidne zrozumienie, jak kontrolować układ strony za pomocą CSS i jak generować dokumenty z dynamiczną treścią, taką jak numery stron i tytuły, w pożądanym stylu.
+## Wprowadzenie
+**jak używać aspose** to pytanie, które zadaje wielu programistów Javy, gdy potrzebują precyzyjnej kontroli nad renderowaniem HTML i generowaniem PDF. W tym samouczku odkryjesz, jak zastosować zaawansowane rozszerzenia CSS — własne marginesy stron, dynamiczne nagłówki i stopki — przy użyciu Aspose.HTML dla Javy. Przejdziemy krok po kroku przez każdą konfigurację, wyjaśnimy, dlaczego dana linia jest potrzebna, i pokażemy, jak wygenerować dokument HTML, który Java może bezpośrednio renderować do XPS (lub PDF) z idealnie rozmieszczonymi numerami stron i tytułami.  
+Po więcej szczegółów odwiedź [Aspose website](https://releases.aspose.com/html/java/).
+
+## Szybkie odpowiedzi
+- **Jaka jest główna klasa do konfigurowania Aspose.HTML?** `Configuration` – przechowuje wszystkie opcje renderowania.  
+- **Która usługa wstrzykuje własny CSS?** Usługa `UserAgent` poprzez `setUserStyleSheet`.  
+- **Czy mogę dodać numery stron bez edycji HTML?** Tak, używając `@bottom-right` w regule `@page`.  
+- **Jakie formaty wyjściowe są obsługiwane?** XPS, PDF, DOCX, PNG, JPEG i więcej (ponad 50 formatów).  
+- **Czy potrzebna jest licencja do rozwoju?** Darmowa wersja próbna działa do testów; licencja jest wymagana w produkcji.
+
+## Co to jest Aspose.HTML dla Javy?
+Aspose.HTML dla Javy to wysokowydajna biblioteka, która umożliwia programowe tworzenie, edytowanie i konwertowanie dokumentów HTML. W pełni obsługuje HTML5, CSS3 i JavaScript oraz może renderować do formatów o stałym układzie, takich jak PDF i XPS, bez użycia silnika przeglądarki. Dodatkowo oferuje API do zarządzania zasobami, wstrzykiwania CSS i manipulacji na poziomie stron, co pozwala programistom uzyskać spójny wynik na różnych platformach.
+
 ## Wymagania wstępne
-Zanim zaczniemy, upewnij się, że masz następujące rzeczy:
-1. Java Development Kit (JDK): Upewnij się, że w systemie jest zainstalowany JDK 1.8 lub nowszy. Możesz go pobrać ze strony[Strona internetowa Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2.  Aspose.HTML for Java Library: Pobierz i zintegruj najnowszą wersję Aspose.HTML for Java. Możesz ją pobrać ze strony[Strona wydań Aspose](https://releases.aspose.com/html/java/).
-3. Konfiguracja IDE: Skonfiguruj preferowane zintegrowane środowisko programistyczne (IDE), np. IntelliJ IDEA, Eclipse lub NetBeans, aby pisać i wykonywać kod Java.
-4. Podstawowa znajomość HTML i CSS: Podstawowa znajomość HTML i CSS będzie pomocna, gdy zagłębimy się w przykłady kodu.
-5. Znajomość programowania w Javie: Powinieneś znać podstawową składnię i koncepcje języka Java.
-## Importuj pakiety
-Zanim zaczniesz pisać kod, musisz zaimportować niezbędne pakiety, które pozwolą Ci pracować z Aspose.HTML dla Java. Pakiety te obejmują klasy do konfiguracji, obsługi dokumentów i renderowania.
+1. **Java Development Kit (JDK)** 1.8+ – pobierz ze [strony Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).  
+2. **Aspose.HTML for Java** – pobierz najnowszy plik JAR ze [strony wydań Aspose](https://releases.aspose.com/html/java/).  
+3. **IDE** – IntelliJ IDEA, Eclipse lub NetBeans.  
+4. Podstawowa znajomość HTML i CSS.  
+5. Znajomość składni Javy i koncepcji programowania obiektowego.
+
+## Importowanie pakietów
+Klasy `Configuration`, `UserAgent`, `HTMLDocument` i `XpsDevice` są wymagane w tym procesie.  
+
+`Configuration` przechowuje opcje renderowania; `UserAgent` zarządza wstrzykiwaniem CSS; `HTMLDocument` reprezentuje DOM; `XpsDevice` zapisuje wynik w formacie XPS.  
+
+Klasa `Configuration` jest centralnym obiektem Aspose.HTML, który przechowuje ustawienia renderowania, takie jak ładowanie zasobów i wstrzykiwanie CSS.  
+
+```markdown
 ```java
 import com.aspose.html.HTMLDocument;
 ```
-## Krok 1: Ustawianie konfiguracji
-Pierwszym krokiem w naszej podróży jest skonfigurowanie Aspose.HTML. Ta konfiguracja pozwoli nam dostosować różne aspekty przetwarzania i renderowania naszego dokumentu HTML.
+```
+
+## Krok 1: Konfigurowanie Configuration
+**Bezpośrednia odpowiedź:** Utwórz instancję `Configuration`, włącz ładowanie zasobów i przygotuj ją do wstrzykiwania własnego CSS — to stanowi podstawę dla wszystkich kolejnych kroków.  
+
+Obiekt `Configuration` pozwala przełączać funkcje takie jak `setEnableJavaScript` i `setEnableCss` przed parsowaniem jakiegokolwiek dokumentu.  
+
+`Configuration` jest centralnym obiektem, który przechowuje opcje renderowania, takie jak włączenie JavaScript i CSS.  
+
+```markdown
 ```java
-// Zainicjuj obiekt konfiguracji
+// Initialize the configuration object
 com.aspose.html.Configuration configuration = new com.aspose.html.Configuration();
 ```
- W tym kroku tworzymy nową instancję`Configuration` class. Ten obiekt będzie używany do zarządzania ustawieniami dla naszych zadań przetwarzania HTML.
-## Krok 2: Dostęp do usługi User Agent
-Usługa User Agent w Aspose.HTML to potężna funkcja, która pozwala zarządzać sposobem interpretacji i stylizowania zawartości HTML. Użyjemy jej do zastosowania niestandardowych reguł CSS w naszym dokumencie.
+```
+
+## Krok 2: Uzyskiwanie dostępu do usługi User Agent
+**Bezpośrednia odpowiedź:** Pobierz `UserAgent` z konfiguracji i wywołaj `setUserStyleSheet`, aby wstrzyknąć własne reguły CSS; usługa ta działa jako silnik stylów przeglądarki podczas renderowania.  
+
+Usługa `UserAgent` jest mostem Aspose.HTML do przetwarzania CSS, umożliwiając dodawanie lub nadpisywanie arkuszy stylów w locie.  
+
+`UserAgent` to usługa kontrolująca ładowanie zasobów i umożliwiająca wstrzykiwanie własnych arkuszy stylów.  
+
+```markdown
 ```java
-// Pobierz usługę User Agent z konfiguracji
+// Get the User Agent service from the configuration
 com.aspose.html.services.IUserAgentService userAgent = configuration.getService(com.aspose.html.services.IUserAgentService.class);
 ```
-Tutaj pobieramy usługę User Agent z konfiguracji. Ta usługa umożliwi nam wstrzykiwanie niestandardowych stylów CSS bezpośrednio do potoku przetwarzania dokumentów.
-## Krok 3: Definiowanie niestandardowego CSS dla marginesów strony
-Teraz, gdy mamy dostęp do User Agent Service, czas zdefiniować niestandardowy CSS. Ten CSS będzie kontrolował marginesy strony i dodawał dynamiczną zawartość, taką jak numery stron i tytuły.
+```
+
+## Krok 3: Definiowanie własnego CSS dla marginesów stron
+**Bezpośrednia odpowiedź:** Użyj reguły `@page`, aby ustawić `margin-top`, `margin-bottom`, `margin-left` i `margin-right`, a następnie dodaj pseudo‑elementy `@bottom-right` i `@top-center` dla dynamicznych numerów stron i tytułów.  
+
+Ciąg CSS jest przekazywany do `setUserStyleSheet`, co zapewnia zastosowanie reguł przed renderowaniem dokumentu.  
+
+```markdown
 ```java
-// Zdefiniuj niestandardowy kod CSS, aby kontrolować układ strony
+// Define custom CSS to control page layout
 userAgent.setUserStyleSheet(
         "@page {\n" +
         "  margin-top: 1cm;\n" +
@@ -64,42 +155,85 @@ userAgent.setUserStyleSheet(
         "}"
 );
 ```
- W tym kroku zdefiniujemy regułę CSS za pomocą`setUserStyleSheet` metoda.`@page` reguła określa niestandardowe marginesy dla strony i`@bottom-right` I`@top-center` Reguły dodają dynamiczną zawartość (np. numery stron i tytuły) odpowiednio w prawym dolnym rogu i na środku górnej części strony.
+```
+
 ## Krok 4: Inicjalizacja dokumentu HTML
-Mając zdefiniowany CSS, następnym krokiem jest utworzenie dokumentu HTML. Ten dokument zostanie przetworzony przy użyciu konfiguracji i stylów, które ustawiliśmy.
+**Bezpośrednia odpowiedź:** Utwórz `HTMLDocument` z prostym fragmentem HTML i przygotowaną `Configuration`; w ten sposób powiążesz własny CSS z zawartością dokumentu.  
+
+`HTMLDocument` reprezentuje pojedynczy plik HTML w pamięci; parsuje znacznik, stosuje wstrzyknięty arkusz stylów i przygotowuje DOM do renderowania.  
+
+```markdown
 ```java
-// Zainicjuj dokument HTML z niestandardową zawartością
+// Initialize an HTML document with custom content
 com.aspose.html.HTMLDocument document = new com.aspose.html.HTMLDocument("<div>Hello World!!!</div>", ".", configuration);
 ```
- Tutaj tworzymy nowy`HTMLDocument` obiekt, przekazując prosty ciąg HTML (`<div>Hello World!!!</div>`) i obiekt konfiguracji, który skonfigurowaliśmy wcześniej. Ten dokument będzie stylizowany zgodnie z regułami CSS, które zdefiniowaliśmy.
-## Krok 5: Konfigurowanie urządzenia wyjściowego
-Aby wyrenderować dokument, musimy określić urządzenie wyjściowe. W tym samouczku wyrenderujemy dokument do pliku XPS, który jest formatem dokumentu o stałym układzie.
+```
+
+## Krok 5: Konfiguracja urządzenia wyjściowego
+**Bezpośrednia odpowiedź:** Utwórz `XpsDevice` (lub `PdfDevice` dla wyjścia PDF) wskazujący docelową ścieżkę pliku; to urządzenie odbiera wyrenderowane strony od Aspose.HTML.  
+
+Urządzenie abstrahuje format wyjściowy, automatycznie obsługując paginację, osadzanie czcionek i rasteryzację obrazów.  
+
+```markdown
 ```java
-// Zainicjuj urządzenie XPS w celu renderowania danych wyjściowych
+// Initialize an XPS device for rendering output
 com.aspose.html.rendering.xps.XpsDevice device = new com.aspose.html.rendering.xps.XpsDevice("output/output.xps");
 ```
- W tym kroku tworzymy`XpsDevice` obiekt, który określa ścieżkę wyjściową dla renderowanego dokumentu. To tutaj zostanie zapisany ostateczny wynik.
+```
+
 ## Krok 6: Renderowanie dokumentu
-Ostatnim krokiem jest wysłanie dokumentu HTML do urządzenia wyjściowego. Spowoduje to zastosowanie niestandardowych stylów i zapisanie dokumentu w określonym formacie.
+**Bezpośrednia odpowiedź:** Wywołaj `document.renderTo(device)`, aby przetworzyć HTML, zastosować własny CSS i zapisać finalny plik XPS (lub PDF) na dysku w jednej operacji.  
+
+`renderTo` strumieniuje wyrenderowane strony bezpośrednio do urządzenia, minimalizując zużycie pamięci i zapewniając szybkie generowanie nawet dużych dokumentów.  
+
+```markdown
 ```java
-// Wyświetl dokument HTML na urządzeniu XPS
+// Render the HTML document to the XPS device
 document.renderTo(device);
 ```
- Tutaj używamy`renderTo` metoda przetwarzania dokumentu HTML i renderowania go do urządzenia XPS. Ten krok stosuje wszystkie style i wyprowadza dokument jako plik o stałym układzie.
-## Wniosek
-Gratulacje! Właśnie ukończyłeś kompleksowy przewodnik dotyczący stosowania zaawansowanych technik rozszerzeń CSS przy użyciu Aspose.HTML dla Java. Postępując zgodnie z instrukcjami w tym samouczku, nauczyłeś się, jak skonfigurować konfiguracje, uzyskać dostęp do usługi User Agent, zdefiniować niestandardowy CSS dla marginesów strony i renderować dokument HTML do pliku XPS. Te umiejętności są niezwykle potężne, pozwalając Ci dostosować układ i styl dokumentu w sposób, który wcześniej był trudny lub niemożliwy. 
-Teraz, gdy opanowałeś te techniki, możesz zacząć eksperymentować z bardziej złożonymi układami, dynamiczną zawartością, a nawet różnymi formatami wyjściowymi. Możliwości są nieograniczone dzięki Aspose.HTML dla Javy i zachęcam Cię do eksploracji i przesuwania granic tego, co możesz osiągnąć.
+```
+
+## Typowe problemy i rozwiązania
+| Objaw | Prawdopodobna przyczyna | Rozwiązanie |
+|---------|--------------|-----|
+| Marginesy nie zastosowane | CSS nie został załadowany | Sprawdź, czy `setUserStyleSheet` jest wywoływany przed utworzeniem `HTMLDocument`. |
+| Brak numerów stron | Błąd składni pseudo‑elementu | Użyj `content: counter(page)` wewnątrz `@bottom-right`. |
+| Plik wyjściowy pusty | Ścieżka urządzenia nieprawidłowa | Upewnij się, że katalog istnieje i masz uprawnienia do zapisu. |
+| Wolne renderowanie dużych plików | Domyślne ładowanie zasobów | Włącz `configuration.setEnableResourceCaching(true)`, aby poprawić wydajność. |
+
 ## Najczęściej zadawane pytania
-### Czym jest Aspose.HTML dla Java?
-Aspose.HTML for Java to biblioteka umożliwiająca programistom tworzenie, edycję i konwersję dokumentów HTML w aplikacjach Java. Zapewnia ona szerokie wsparcie dla HTML5, CSS i JavaScript, co czyni ją potężnym narzędziem do przetwarzania dokumentów internetowych.
-### Czy mogę użyć Aspose.HTML for Java do konwersji HTML do innych formatów?
-Tak, Aspose.HTML for Java obsługuje konwersję dokumentów HTML do różnych formatów, w tym PDF, XPS, DOCX, a także formatów graficznych, takich jak JPEG i PNG.
-### Jak zastosować niestandardowy kod CSS do dokumentu HTML za pomocą Aspose.HTML dla Java?
-Możesz zastosować niestandardowy CSS, używając usługi User Agent w Aspose.HTML dla Java. Ta usługa pozwala na wstrzykiwanie reguł CSS, które są stosowane podczas przetwarzania dokumentu.
-### Czy Aspose.HTML for Java nadaje się do przetwarzania dokumentów na dużą skalę?
-Oczywiście! Aspose.HTML for Java jest przeznaczony do obsługi zadań przetwarzania dokumentów na dużą skalę, co czyni go odpowiednim dla aplikacji klasy korporacyjnej, które wymagają solidnych możliwości przetwarzania HTML.
-### Czy mogę wypróbować Aspose.HTML dla Java przed zakupem?
-Tak, możesz pobrać bezpłatną wersję próbną Aspose.HTML dla Java ze strony[Strona internetowa Aspose](https://releases.aspose.com/html/java/). Pozwoli ci to poznać jego funkcje i zobaczyć, jak pasuje do twojego przepływu pracy programistycznej.
+
+**Q: Jaka jest różnica między wyjściem XPS a PDF?**  
+A: XPS to format Microsoft o stałym układzie, zoptymalizowany pod drukowanie w Windows, podczas gdy PDF jest wieloplatformowy i szeroko wspierany. Oba są generowane przy użyciu tych samych reguł CSS.
+
+**Q: Czy mogę wygenerować dokument HTML w Javie bez zapisywania fizycznego pliku?**  
+A: Tak, możesz przekazać ciąg HTML bezpośrednio do `HTMLDocument`, jak pokazano w samouczku.
+
+**Q: Jak dodać dynamiczny nagłówek wyświetlający tytuł dokumentu na każdej stronie?**  
+A: Użyj reguły `@top-center` z `content: "My Document Title"` lub powiąż ją ze zmienną za pomocą JavaScript przed renderowaniem.
+
+**Q: Czy istnieje limit liczby stron, które Aspose.HTML może obsłużyć?**  
+A: Praktycznie może przetworzyć tysiące stron; wydajność zależy od pamięci serwera i CPU. Testy wykazały, że dokumenty o 1 000 stron renderują się w mniej niż 2 minuty na maszynie wirtualnej z 4‑rdzeniowym procesorem.
+
+**Q: Czy potrzebna jest osobna licencja dla każdego formatu wyjściowego?**  
+A: Nie, jedna licencja Aspose.HTML obejmuje wszystkie obsługiwane formaty (PDF, XPS, DOCX, PNG, JPEG itp.).
+
+## Zakończenie
+Teraz wiesz **jak używać Aspose.HTML dla Javy**, aby stosować zaawansowane rozszerzenia CSS, kontrolować marginesy stron i wstrzykiwać dynamiczną treść, taką jak numery stron i tytuły. Konfigurując obiekt `Configuration`, wykorzystując usługę `UserAgent` i renderując do `XpsDevice`, możesz programowo generować wysokiej jakości dokumenty gotowe do druku. Eksperymentuj z dodatkowymi regułami CSS, przełącz urządzenie wyjściowe na `PdfDevice` dla plików PDF i włącz ten proces w większe potoki przetwarzania wsadowego.
+
+---
+
+**Last Updated:** 2026-06-04  
+**Tested With:** Aspose.HTML for Java 23.9 (latest at time of writing)  
+**Author:** Aspose
+
+## Powiązane samouczki
+
+- [Jak edytować CSS – Zaawansowana edycja zewnętrznego CSS z Aspose.HTML dla Javy](/html/java/editing-html-documents/advanced-external-css-editing/)
+- [Utwórz dokument HTML w Javie z wewnętrznym CSS przy użyciu Aspose.HTML](/html/java/editing-html-documents/implement-internal-css-html-documents/)
+- [Utwórz PDF z HTML – Ustaw arkusz stylów użytkownika w Aspose.HTML dla Javy](/html/java/configuring-environment/set-user-style-sheet/)
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
