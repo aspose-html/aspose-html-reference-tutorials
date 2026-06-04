@@ -49,6 +49,8 @@ Converti senza sforzo HTML in GIF con Aspose.HTML per Java. Crea immagini straor
 Scopri come convertire HTML in JPG usando Aspose.HTML per Java. Segui la nostra guida passo passo per una conversione senza problemi da HTML a JPG.
 ### [Conversione da HTML a PNG](./convert-html-to-png/)
 Converti HTML in PNG con Aspose.HTML per Java. Segui la nostra guida passo passo per una facile conversione da HTML a PNG. Inizia oggi stesso!
+### [Tutorial html to image – Converti file HTML in PNG e JPEG con Java](./html-to-image-tutorial-convert-html-files-to-png-jpeg-with-j/)
+Scopri come trasformare file HTML in immagini PNG e JPEG usando Aspose.HTML per Java con una guida passo passo.
 
 In conclusione, Aspose.HTML per Java offre una serie di opzioni per convertire il tuo contenuto HTML in vari formati di immagine. Che tu abbia bisogno di BMP, GIF, JPG o PNG, questi tutorial ti forniscono le conoscenze e gli strumenti per farlo senza sforzo. Trasforma il tuo contenuto web e rendilo visivamente accattivante con queste semplici guide passo dopo passo. Inizia oggi stesso ed esplora le infinite possibilità della conversione da HTML a immagine. È tempo di portare il tuo contenuto web al livello successivo!
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -32,6 +32,11 @@ url: /th/java/css-html-form-editing/
 เรียนรู้วิธีแก้ไขและส่งแบบฟอร์ม HTML ด้วยโปรแกรมโดยใช้ Aspose.HTML สำหรับ Java ในคู่มือทีละขั้นตอนที่ครอบคลุมนี้
 ### [การเลือกองค์ประกอบโดยคลาสใน Java – คู่มือฉบับสมบูรณ์](./select-element-by-class-in-java-complete-how-to-guide/)
 เรียนรู้วิธีเลือกองค์ประกอบ HTML ตามคลาสใน Java อย่างละเอียด พร้อมตัวอย่างและขั้นตอนครบถ้วน
+### [เลือกองค์ประกอบ HTML ตามคลาสใน Java – คู่มือฉบับสมบูรณ์](./select-html-element-by-class-in-java-complete-guide/)
+เรียนรู้วิธีเลือกองค์ประกอบ HTML ตามคลาสใน Java อย่างละเอียด พร้อมตัวอย่างและขั้นตอนที่ชัดเจน
+### [ตัวเลือก CSS สำหรับปุ่มที่ไม่ได้ปิดการใช้งาน – คู่มือการแยกวิเคราะห์ HTML ด้วย Java](./css-selector-not-disabled-button-java-html-parsing-guide/)
+เรียนรู้วิธีใช้ตัวเลือก CSS เพื่อค้นหาปุ่มที่ไม่ได้ปิดการใช้งานในเอกสาร HTML ด้วย Aspose.HTML สำหรับ Java
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

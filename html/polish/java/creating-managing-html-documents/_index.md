@@ -54,6 +54,10 @@ Dowiedz się, jak ładować, manipulować i zapisywać dokumenty HTML za pomocą
 Dowiedz się, jak ładować dokumenty HTML ze strumieni za pomocą Aspose.HTML dla Java. Ten przewodnik zawiera samouczek krok po kroku dotyczący bezproblemowej manipulacji HTML.
 ### [Tworzenie dokumentów HTML z ciągu w Aspose.HTML dla Java](./create-html-documents-from-string/)
 Dowiedz się, jak tworzyć dokumenty HTML z ciągów znaków w Aspose.HTML dla Java, korzystając z tego przewodnika krok po kroku.
+### [Utwórz dokument HTML z osadzonym JavaScript – przykład w Javie](./create-html-document-with-embedded-javascript-java-example/)
+Dowiedz się, jak utworzyć dokument HTML zawierający osadzony kod JavaScript w Javie przy użyciu Aspose.HTML.
+### [Utwórz div z klasą java – pełny przykład z użyciem Aspose.HTML](./create-div-with-class-java-full-example-using-aspose-html/)
+Dowiedz się, jak w Javie przy użyciu Aspose.HTML utworzyć element div z określoną klasą w pełnym przykładzie krok po kroku.
 ### [Ładowanie dokumentów HTML z adresu URL w Aspose.HTML dla Java](./load-html-documents-from-url/)
 Odkryj, jak łatwo ładować dokumenty HTML z adresu URL w Javie za pomocą Aspose.HTML. Zawiera samouczek krok po kroku.
 ### [Generuj nowe dokumenty HTML za pomocą Aspose.HTML dla Java](./generate-new-html-documents/)

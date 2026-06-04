@@ -32,6 +32,11 @@ Web geliştirmeye daldığınızda, CSS ve HTML formlarında ustalaşmak bisikle
 Bu kapsamlı adım adım kılavuzda, Aspose.HTML for Java'yı kullanarak HTML formlarını programlı olarak nasıl düzenleyeceğinizi ve göndereceğinizi öğrenin.
 ### [Java’da sınıfa göre öğe seçimi – Tam Kılavuz](./select-element-by-class-in-java-complete-how-to-guide/)
 Java’da belirli bir sınıfa sahip HTML öğelerini seçmeyi ve işlemeyi adım adım öğrenin.
+### [Java’da sınıfa göre HTML öğesini seçme – Tam Kılavuz](./select-html-element-by-class-in-java-complete-guide/)
+Java’da sınıfa göre HTML öğelerini seçerek dinamik içerik oluşturmayı öğrenin.
+### [Devre dışı olmayan buton seçicisi – Java HTML Ayrıştırma Kılavuzu](./css-selector-not-disabled-button-java-html-parsing-guide/)
+Bu rehberde, Java ile Aspose.HTML kullanarak devre dışı olmayan butonları CSS seçicileriyle nasıl seçeceğinizi ve işleyeceğinizi öğrenin.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

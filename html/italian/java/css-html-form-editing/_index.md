@@ -32,6 +32,10 @@ Scopri come usare Aspose.HTML per Java per applicare tecniche CSS avanzate, tra 
 Scopri come modificare e inviare moduli HTML a livello di programmazione utilizzando Aspose.HTML per Java in questa guida completa passo dopo passo.
 ### [Selezionare elemento per classe in Java – Guida completa passo passo](./select-element-by-class-in-java-complete-how-to-guide/)
 Scopri come individuare e manipolare elementi HTML per classe usando Aspose.HTML per Java in questa guida dettagliata.
+### [Selezionare elemento HTML per classe in Java – Guida completa](./select-html-element-by-class-in-java-complete-guide/)
+Impara a selezionare elementi HTML per classe in Java usando Aspose.HTML con esempi pratici passo passo.
+### [Selettore CSS per pulsante non disabilitato – Guida all'analisi HTML in Java](./css-selector-not-disabled-button-java-html-parsing-guide/)
+Scopri come selezionare pulsanti abilitati usando i selettori CSS con Aspose.HTML per Java in questa guida pratica.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

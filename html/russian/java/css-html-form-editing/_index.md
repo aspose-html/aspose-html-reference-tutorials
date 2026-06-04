@@ -32,6 +32,10 @@ url: /ru/java/css-html-form-editing/
 Узнайте, как программно редактировать и отправлять HTML-формы с помощью Aspose.HTML для Java, в этом подробном пошаговом руководстве.
 ### [Выбор элемента по классу в Java – Полное руководство](./select-element-by-class-in-java-complete-how-to-guide/)
 Узнайте, как выбрать элементы по классу в Java с помощью Aspose.HTML, пошаговое руководство от начала до конца.
+### [Выбор HTML-элемента по классу в Java – Полное руководство](./select-html-element-by-class-in-java-complete-guide/)
+Узнайте, как выбрать HTML-элемент по классу в Java с помощью Aspose.HTML, пошаговое руководство от начала до конца.
+### [CSS‑селектор не отключенной кнопки – Руководство по парсингу HTML на Java](./css-selector-not-disabled-button-java-html-parsing-guide/)
+Узнайте, как с помощью Aspose.HTML для Java находить активные кнопки, используя CSS‑селекторы, и обрабатывать их в HTML‑документах.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

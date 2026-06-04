@@ -66,6 +66,10 @@ url: /ar/java/creating-managing-html-documents/
 تعلم كيفية إنشاء بيئة تجريبية لمعالجة HTML في Java باستخدام Aspose.HTML من خلال دليل خطوة بخطوة.
 ### [كيفية الاستعلام عن HTML في Java – دليل كامل](./how-to-query-html-in-java-complete-tutorial/)
 تعلم كيفية استعلام ومعالجة مستندات HTML في Java باستخدام Aspose.HTML من خلال دليل شامل خطوة بخطوة.
+### [إنشاء مستند HTML مع جافا سكريبت مدمج – مثال Java](./create-html-document-with-embedded-javascript-java-example/)
+تعلم كيفية إنشاء مستند HTML يحتوي على جافا سكريبت مدمج باستخدام Aspose.HTML for Java في مثال عملي خطوة بخطوة.
+### [إنشاء div مع فئة java – مثال كامل باستخدام Aspose.HTML](./create-div-with-class-java-full-example-using-aspose-html/)
+تعلم كيفية إنشاء عنصر div مع فئة Java باستخدام Aspose.HTML في مثال كامل خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

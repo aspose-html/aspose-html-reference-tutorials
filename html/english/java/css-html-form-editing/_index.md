@@ -32,6 +32,10 @@ Learn how to use Aspose.HTML for Java to apply advanced CSS techniques, includin
 Learn how to edit and submit HTML forms programmatically using Aspose.HTML for Java in this comprehensive step-by-step guide.
 ### [select element by class in Java – Complete How‑To Guide](./select-element-by-class-in-java-complete-how-to-guide/)
 Learn how to select HTML elements by class using Aspose.HTML for Java in this complete step-by-step guide.
+### [Select HTML Element by Class in Java – Complete Guide](./select-html-element-by-class-in-java-complete-guide/)
+Learn how to select HTML elements by class using Aspose.HTML for Java in this complete guide.
+### [css selector not disabled button – Java HTML Parsing Guide](./css-selector-not-disabled-button-java-html-parsing-guide/)
+Learn how to locate enabled button elements using CSS selectors with Aspose.HTML for Java in this practical parsing guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
