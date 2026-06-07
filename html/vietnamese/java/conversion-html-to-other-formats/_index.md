@@ -88,6 +88,9 @@ Kết luận, việc nắm vững **html to pdf java** và bộ chuyển đổi 
 ### [Chuyển đổi HTML sang PDF](./convert-html-to-pdf/)
 Tìm hiểu cách chuyển đổi HTML sang PDF trong Java bằng Aspose.HTML. Tạo PDF chất lượng cao từ nội dung HTML của bạn một cách dễ dàng.
 
+### [Aspose HtmlDocument Lưu PDF – Hướng dẫn Java đầy đủ](./aspose-htmldocument-save-pdf-complete-java-guide/)
+Hướng dẫn chi tiết cách lưu tài liệu HtmlDocument thành PDF trong Java bằng Aspose.HTML.
+
 ### [Chuyển đổi HTML sang PDF trong Java – Hướng dẫn chi tiết với cài đặt kích thước trang](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Hướng dẫn từng bước chuyển HTML sang PDF trong Java, bao gồm cách thiết lập kích thước trang cho PDF.
 
@@ -100,6 +103,9 @@ Tìm hiểu cách chuyển đổi HTML sang XPS một cách dễ dàng bằng As
 ### [Chuyển đổi Markdown sang HTML](./convert-markdown-to-html/)
 Chuyển đổi Markdown sang HTML trong Java một cách liền mạch với Aspose.HTML for Java. Thực hiện theo hướng dẫn từng bước để tối ưu nhu cầu chuyển đổi tài liệu của bạn.
 
+### [Lưu HTML dưới dạng Markdown trong Java – Hướng dẫn đầy đủ của Aspose](./save-html-as-markdown-in-java-complete-aspose-guide/)
+Hướng dẫn chi tiết cách lưu nội dung HTML thành Markdown trong Java bằng Aspose.HTML, bao gồm các bước cấu hình và ví dụ thực tế.
+
 ### [Chuyển đổi SVG sang Hình ảnh](./convert-svg-to-image/)
 Tìm hiểu cách chuyển đổi SVG sang hình ảnh trong Java với Aspose.HTML. Hướng dẫn toàn diện để có đầu ra chất lượng cao.
 
@@ -108,6 +114,11 @@ Chuyển đổi SVG sang PDF trong Java với Aspose.HTML. Giải pháp liền m
 
 ### [Chuyển đổi SVG sang XPS](./convert-svg-to-xps/)
 Tìm hiểu cách chuyển đổi SVG sang XPS với Aspose.HTML for Java. Hướng dẫn đơn giản, từng bước để chuyển đổi liền mạch.
+
+### [Cách nhúng phông chữ PDF trong Java – Hướng dẫn đầy đủ](./how-to-embed-fonts-pdf-in-java-complete-guide/)
+Hướng dẫn chi tiết cách nhúng phông chữ vào PDF trong Java bằng Aspose.HTML, đảm bảo tài liệu hiển thị đúng ký tự và định dạng.
+
+### [Chuyển đổi HTML sang PDF với Java – Hướng dẫn xử lý song song hàng loạt](./convert-html-to-pdf-with-java-parallel-batch-guide/)
 
 ## Câu hỏi thường gặp
 

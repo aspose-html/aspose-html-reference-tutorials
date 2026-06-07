@@ -45,7 +45,7 @@ Jeśli chodzi o generowanie nowych dokumentów HTML, Aspose.HTML for Java oferuj
 ### [Twórz dokumenty HTML asynchronicznie w Aspose.HTML dla Java](./create-html-documents-async/)
 Opanuj asynchroniczne tworzenie dokumentów HTML za pomocą Aspose.HTML dla Java. Przewodnik krok po kroku, wskazówki i FAQ dołączone do szybkiej nauki.
 ### [Utwórz puste dokumenty HTML w Aspose.HTML dla Java](./create-empty-html-documents/)
-Dowiedz się, jak tworzyć puste dokumenty HTML w języku Java za pomocą Aspose.HTML, korzystając z naszego szczegółowego samouczka krok po kroku, idealnego dla programistów na każdym poziomie zaawansowania.
+Dowiedz się, jak tworzyć puste dokumenty HTML w języku Java za pomocą naszego szczegółowego samouczka krok po kroku, idealnego dla programistów na każdym poziomie zaawansowania.
 ### [Załaduj dokumenty HTML z pliku w Aspose.HTML dla Java](./load-html-documents-from-file/)
 Odblokuj moc manipulacji HTML za pomocą Aspose.HTML dla Java. Naucz się ładować dokumenty HTML z plików za pomocą samouczków krok po kroku.
 ### [Zaawansowane ładowanie plików dla dokumentów HTML w Aspose.HTML dla Java](./advanced-file-loading-html-documents/)
@@ -66,6 +66,8 @@ Naucz się tworzyć i zarządzać dokumentami SVG za pomocą Aspose.HTML dla Jav
 Dowiedz się, jak skonfigurować bezpieczną piaskownicę HTML w Javie, aby testować i uruchamiać kod w izolowanym środowisku.
 ### [Jak zapytać HTML w Javie – Kompletny samouczek](./how-to-query-html-in-java-complete-tutorial/)
 Dowiedz się, jak efektywnie zapytać i przetwarzać dokumenty HTML w Javie przy użyciu Aspose.HTML.
+### [Pobieranie JSON za pomocą JavaScript w Javie – Pełny przewodnik](./fetch-json-with-javascript-in-java-full-guide/)
+Dowiedz się, jak pobierać dane JSON przy użyciu JavaScript w aplikacjach Java, krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
