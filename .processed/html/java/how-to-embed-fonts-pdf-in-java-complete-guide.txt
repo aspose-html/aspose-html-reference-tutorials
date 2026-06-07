@@ -1,0 +1,7 @@
+Title: How to embed fonts pdf in Java – Complete Guide
+Slug: how-to-embed-fonts-pdf-in-java-complete-guide
+Category: conversion-html-to-other-formats
+ProcessedDate: 2026-06-07T11:10:23.568062
+SourceRepo: AI Search API
+Keywords: how to embed fonts pdf, convert html to pdf java, how to set pdf a4 size, how to generate pdfa pdf java
+PRNumber: 175
