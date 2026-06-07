@@ -1,0 +1,7 @@
+Title: Convert HTML to Markdown – Save HTML as Markdown with Feature Filtering
+Slug: convert-html-to-markdown-save-html-as-markdown-with-feature
+Category: general
+ProcessedDate: 2026-06-07T11:55:00.779691
+SourceRepo: AI Search API
+Keywords: convert html to markdown, save html as markdown, filter html elements, how to convert html, convert html document
+PRNumber: 176
