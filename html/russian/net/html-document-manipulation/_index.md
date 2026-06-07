@@ -71,6 +71,8 @@ Aspose.HTML для .NET выделяется своей простотой и м
 Раскройте потенциал веб-разработки с Aspose.HTML для .NET. Создавайте, конвертируйте и обрабатывайте HTML-документы легко.
 ### [Создание HTML из строки в C# – Руководство по пользовательскому обработчику ресурсов](./create-html-from-string-in-c-custom-resource-handler-guide/)
 Узнайте, как создавать HTML из строки в C# с помощью пользовательского обработчика ресурсов в Aspose.HTML.
+### [Установить innerHTML span в C# с Aspose.HTML – Полное руководство](./set-span-innerhtml-in-c-with-aspose-html-complete-guide/)
+Узнайте, как установить innerHTML элемента span в C# с помощью Aspose.HTML и управлять содержимым HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
