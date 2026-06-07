@@ -92,14 +92,20 @@ Az Aspose.HTML for Java leegyszerűsíti a HTML dokumentumok különböző képf
 HTML átalakítása BMP‑be az Aspose.HTML for Java segítségével. Átfogó oktatóanyag a HTML dokumentumok zökkenőmentes BMP képekké konvertálásához.
 ### [HTML átalakítása GIF‑be](./convert-html-to-gif/)
 Ismerje meg, hogyan konvertálhat HTML‑t GIF‑be Java‑ban az Aspose.HTML használatával. Részletes, lépésről‑lépésre útmutató a hatékony HTML‑to‑GIF konverzióhoz.
+### [Animált GIF létrehozása SVG‑ből – Lépésről‑lépés Java útmutató](./create-animated-gif-from-svg-step-by-step-java-guide/)
+Ismerje meg, hogyan hozhat létre animált GIF‑et SVG‑ből Java‑ban az Aspose.HTML használatával, részletes, könnyen követhető lépésekkel.
 ### [HTML átalakítása JPEG‑be](./convert-html-to-jpeg/)
 Tanulja meg, hogyan konvertálhat HTML‑t JPEG‑be az Aspose.HTML for Java segítségével. Lépésről‑lépésre útmutató a zökkenőmentes dokumentumfeldolgozáshoz.
 ### [HTML átalakítása PNG‑be](./convert-html-to-png/)
 Ismerje meg, hogyan konvertálhat HTML‑t PNG képekké Java‑ban az Aspose.HTML használatával. Átfogó útmutató részletes instrukciókkal.
+### [HTML renderelése – Teljes Aspose HTML‑t PNG‑be útmutató](./how-to-render-html-complete-aspose-html-to-png-guide/)
+Ismerje meg, hogyan renderelhet HTML‑t PNG‑képpé az Aspose.HTML segítségével részletes, lépésről‑lépés útmutatóval.
 ### [HTML átalakítása TIFF‑be](./convert-html-to-tiff/)
 Tanulja meg, hogyan konvertálhat HTML‑t TIFF‑be az Aspose.HTML for Java segítségével. Lépésről‑lépésre útmutató a hatékony dokumentumkezeléshez.
 ### [HTML konvertálása WebP‑be – Teljes Java útmutató az Aspose.HTML‑el](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
 Ismerje meg, hogyan konvertálhat HTML‑t WebP‑be Java‑ban az Aspose.HTML használatával. Részletes, lépésről‑lépésre útmutató a WebP konverzióhoz.
+### [PNG létrehozása HTML‑ből Java‑ban – Teljes példa](./create-png-from-html-in-java-full-example/)
+Ismerje meg, hogyan hozhat létre PNG képet HTML‑ből Java‑ban egy részletes, teljes példán keresztül.
 
 ## Gyakran ismételt kérdések
 

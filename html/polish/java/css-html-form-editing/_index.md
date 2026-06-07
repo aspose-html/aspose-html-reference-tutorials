@@ -32,6 +32,8 @@ Dowiedz się, jak używać Aspose.HTML dla Java, aby stosować zaawansowane tech
 Dowiedz się, jak edytować i przesyłać formularze HTML programowo, korzystając z Aspose.HTML for Java, dzięki temu kompleksowemu przewodnikowi krok po kroku.
 ### [Wybieranie elementu po klasie w Javie – Kompletny przewodnik](./select-element-by-class-in-java-complete-how-to-guide/)
 Dowiedz się, jak w Javie wybrać elementy HTML po klasie, używając Aspose.HTML, krok po kroku.
+### [Jak uzyskać styl obliczony w Javie – Kompletny przewodnik programistyczny](./how-to-get-computed-style-java-complete-programming-guide/)
+Dowiedz się, jak programowo pobrać obliczony styl elementu w Javie przy użyciu Aspose.HTML, krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -89,6 +89,9 @@ Erfahren Sie, wie Sie HTML in Java mit Aspose.HTML zu PDF konvertieren. Erstelle
 ### [HTML zu PDF in Java – Schritt‑für‑Schritt‑Anleitung mit Seitengrößeneinstellungen](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Erfahren Sie, wie Sie HTML in Java zu PDF konvertieren und dabei die Seitengröße präzise festlegen.
 
+### [HTML zu PDF mit Java – Parallel‑Batch‑Leitfaden](./convert-html-to-pdf-with-java-parallel-batch-guide/)
+Erfahren Sie, wie Sie mehrere HTML‑Dateien parallel in PDF konvertieren, um die Verarbeitungsgeschwindigkeit in Java zu maximieren.
+
 ### [Konvertierung von HTML zu MHTML](./convert-html-to-mhtml/)
 Konvertieren Sie HTML mühelos zu MHTML mit Aspose.HTML für Java. Folgen Sie unserer Schritt‑für‑Schritt‑Anleitung für eine effiziente HTML‑zu‑MHTML‑Konvertierung.
 
@@ -98,6 +101,9 @@ Erfahren Sie, wie Sie HTML mühelos zu XPS mit Aspose.HTML für Java konvertiere
 ### [Konvertierung von Markdown zu HTML](./convert-markdown-to-html/)
 Konvertieren Sie Markdown in Java nahtlos zu HTML mit Aspose.HTML für Java. Folgen Sie unserer Schritt‑für‑Schritt‑Anleitung, um Ihre Dokumentenkonvertierungs‑Bedürfnisse zu optimieren.
 
+### [HTML als Markdown speichern in Java – Vollständige Aspose‑Anleitung](./save-html-as-markdown-in-java-complete-aspose-guide/)
+Erfahren Sie, wie Sie HTML in Java mit Aspose.HTML in Markdown konvertieren – Schritt‑für‑Schritt‑Anleitung.
+
 ### [Konvertierung von SVG zu Bild](./convert-svg-to-image/)
 Erfahren Sie, wie Sie SVG in Java mit Aspose.HTML zu Bildern konvertieren. Umfassende Anleitung für hochwertige Ausgaben.
 
@@ -106,6 +112,11 @@ Konvertieren Sie SVG in Java mit Aspose.HTML zu PDF. Eine nahtlose Lösung für 
 
 ### [Konvertierung von SVG zu XPS](./convert-svg-to-xps/)
 Erfahren Sie, wie Sie SVG mit Aspose.HTML für Java zu XPS konvertieren. Einfache, Schritt‑für‑Schritt‑Anleitung für reibungslose Konvertierungen.
+
+### [Wie man Schriftarten in PDF in Java einbettet – Komplettanleitung](./how-to-embed-fonts-pdf-in-java-complete-guide/)
+
+### [Aspose HtmlDocument Save PDF – Komplett‑Java‑Leitfaden](./aspose-htmldocument-save-pdf-complete-java-guide/)
+Erfahren Sie, wie Sie mit Aspose.HTML das HtmlDocument als PDF speichern – Schritt‑für‑Schritt‑Anleitung für Java‑Entwickler.
 
 ## Häufig gestellte Fragen
 

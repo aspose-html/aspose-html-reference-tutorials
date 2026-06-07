@@ -91,12 +91,18 @@ Effortlessly convert HTML to MHTML using Aspose.HTML for Java. Follow our step-b
 Learn how to effortlessly convert HTML to XPS using Aspose.HTML for Java. Create cross-platform documents with ease.
 ### [Converting Markdown to HTML](./convert-markdown-to-html/)
 Convert Markdown to HTML in Java seamlessly with Aspose.HTML for Java. Follow our step-by-step guide to streamline your document conversion needs.
+### [Save HTML as Markdown in Java – Complete Aspose Guide](./save-html-as-markdown-in-java-complete-aspose-guide/)
+Learn how to convert HTML to Markdown in Java using Aspose.HTML with a comprehensive step‑by‑step guide.
 ### [Converting SVG to Image](./convert-svg-to-image/)
 Learn how to convert SVG to images in Java with Aspose.HTML. Comprehensive guide for high-quality output.
 ### [Converting SVG to PDF](./convert-svg-to-pdf/)
 Convert SVG to PDF in Java with Aspose.HTML. A seamless solution for high-quality document conversion.
 ### [Converting SVG to XPS](./convert-svg-to-xps/)
 Learn how to convert SVG to XPS with Aspose.HTML for Java. Simple, step-by-step guide for seamless conversions.
+### [How to embed fonts pdf in Java – Complete Guide](./how-to-embed-fonts-pdf-in-java-complete-guide/)
+### [Aspose HtmlDocument Save PDF – Complete Java Guide](./aspose-htmldocument-save-pdf-complete-java-guide/)
+### [Convert HTML to PDF with Java – Parallel Batch Guide](./convert-html-to-pdf-with-java-parallel-batch-guide/)
+Learn how to convert multiple HTML files to PDF in parallel using Java and Aspose.HTML for faster batch processing.
 
 ## Frequently Asked Questions
 

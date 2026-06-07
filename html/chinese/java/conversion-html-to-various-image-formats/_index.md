@@ -92,11 +92,20 @@ weight: 24
 ### [Converting HTML to GIF](./convert-html-to-gif/)
 了解如何使用 Aspose.HTML 在 Java 中将 HTML 转换为 GIF。一个完整的分步指南，帮助您高效完成 HTML 到 GIF 的转换。
 
+### [从 SVG 创建动画 GIF – Java 分步指南](./create-animated-gif-from-svg-step-by-step-java-guide/)
+使用 Aspose.HTML for Java 将 SVG 转换为动画 GIF。一步步指南，帮助您轻松实现动画图像生成。
+
 ### [Converting HTML to JPEG](./convert-html-to-jpeg/)
 学习使用 Aspose.HTML for Java 将 HTML 转换为 JPEG。一步步指南，助您实现无缝的文档处理。
 
 ### [Converting HTML to PNG](./convert-html-to-png/)
 了解如何使用 Aspose.HTML 在 Java 中将 HTML 转换为 PNG 图像。一个全面的指南，提供详细的步骤说明。
+
+### [如何渲染 HTML – 完整的 Aspose HTML 到 PNG 指南](./how-to-render-html-complete-aspose-html-to-png-guide/)
+学习如何使用 Aspose.HTML for Java 将 HTML 渲染为 PNG 图像的完整指南，提供完整代码示例。
+
+### [在 Java 中从 HTML 创建 PNG – 完整示例](./create-png-from-html-in-java-full-example/)
+学习如何在 Java 中使用 Aspose.HTML 将 HTML 渲染为 PNG 图像的完整示例，提供完整代码和步骤说明。
 
 ### [Converting HTML to TIFF](./convert-html-to-tiff/)
 学习如何使用 Aspose.HTML for Java 轻松将 HTML 转换为 TIFF。一步步指南，帮助您高效处理文档。
