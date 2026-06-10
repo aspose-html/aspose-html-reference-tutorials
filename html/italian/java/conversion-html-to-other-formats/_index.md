@@ -91,6 +91,8 @@ In conclusione, padroneggiare **html to pdf java** e l'insieme più ampio di con
 ### [Conversione da SVG a Immagine](./convert-svg-to-image/)
 ### [Conversione da SVG a PDF](./convert-svg-to-pdf/)
 ### [Conversione da SVG a XPS](./convert-svg-to-xps/)
+### [Come utilizzare la sandbox per la conversione HTML‑to‑PDF – Guida completa Java](./how-to-use-sandbox-for-html-to-pdf-conversion-complete-java/)
+### [Utilizza tutti i core CPU per la conversione batch parallela da HTML a PDF](./use-all-cpu-cores-for-parallel-html-to-pdf-batch-conversion/)
 
 ## Domande frequenti
 

@@ -95,6 +95,10 @@ Aspose.HTML を使用して Java で SVG を画像に変換する方法を学び
 Aspose.HTML で Java の SVG を PDF に変換します。高品質文書変換のシームレスなソリューションです。
 ### [Converting SVG to XPS](./convert-svg-to-xps/)
 Aspose.HTML for Java を使用して SVG を XPS に変換する方法を学びます。シンプルでステップバイステップのガイドでシームレスに変換できます。
+### [すべてのCPUコアを活用した並列HTML‑to‑PDFバッチ変換](./use-all-cpu-cores-for-parallel-html-to-pdf-batch-conversion/)
+複数のCPUコアを利用してHTMLをPDFにバッチ変換する方法をステップバイステップで解説します。
+### [HTML‑to‑PDF 変換のためのサンドボックス使用方法 – 完全な Java ガイド](./how-to-use-sandbox-for-html-to-pdf-conversion-complete-java/)
+Aspose.HTML のサンドボックス環境で HTML を PDF に変換する手順とベストプラクティスを詳しく解説します。
 ### [JavaでHTMLをPDFに変換 – ページサイズ設定付きステップバイステップガイド](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 JavaでHTMLをPDFに変換し、ページサイズをカスタマイズする手順を詳しく解説します。
 

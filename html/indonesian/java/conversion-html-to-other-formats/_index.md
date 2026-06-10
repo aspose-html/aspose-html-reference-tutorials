@@ -108,6 +108,11 @@ Ubah SVG ke PDF di Java dengan Aspose.HTML. Solusi mulus untuk konversi dokumen 
 ### [Mengonversi SVG ke XPS](./convert-svg-to-xps/)
 Pelajari cara mengonversi SVG ke XPS dengan Aspose.HTML untuk Java. Panduan sederhana, langkah‑demi‑langkah untuk konversi mulus.
 
+### [Cara Menggunakan Sandbox untuk Konversi HTML‑ke‑PDF – Panduan Lengkap Java](./how-to-use-sandbox-for-html-to-pdf-conversion-complete-java/)
+
+### [Gunakan Semua Inti CPU untuk Konversi Batch HTML‑ke‑PDF Paralel](./use-all-cpu-cores-for-parallel-html-to-pdf-batch-conversion/)
+Pelajari cara memanfaatkan semua inti CPU untuk mempercepat konversi batch HTML ke PDF secara paralel dengan Aspose.HTML.
+
 ## Pertanyaan yang Sering Diajukan
 
 **Q: Bisakah saya menggunakan Aspose.HTML untuk Java dalam aplikasi komersial?**  

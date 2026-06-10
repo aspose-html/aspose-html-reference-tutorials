@@ -128,6 +128,10 @@ Aspose.HTML for Java का उपयोग करके PDF पेज आका
 Aspose.HTML for Java का उपयोग करके XPS पेज आकार को कैसे समायोजित करें, जानें। अपने XPS दस्तावेज़ों के आउटपुट आयाम को आसानी से नियंत्रित करें।  
 ### [Java में JavaScript चलाना – पूर्ण गाइड](./how-to-run-javascript-in-java-complete-guide/)
 Java एप्लिकेशन में JavaScript को एम्बेड और निष्पादित करने के चरण‑दर‑चरण निर्देश।  
+### [Java में EPUB को DOCX में बदलें – पूर्ण चरण‑दर‑चरण गाइड](./convert-epub-to-docx-in-java-full-step-by-step-guide/)
+Java में Aspose.HTML का उपयोग करके EPUB फ़ाइल को DOCX में परिवर्तित करने की पूरी प्रक्रिया सीखें।  
+### [Java के साथ SVG को AVIF में बदलें – पूर्ण चरण‑दर‑चरण गाइड](./convert-svg-to-avif-with-java-complete-step-by-step-guide/)
+Java और Aspose.HTML का उपयोग करके SVG फ़ाइलों को उच्च‑गुणवत्ता वाले AVIF इमेज में परिवर्तित करने की पूरी प्रक्रिया सीखें।  
 
 ---
 
