@@ -61,6 +61,8 @@ Découvrez comment exploiter la puissance d'Aspose.HTML pour .NET. Boostez votre
 Exploitez la puissance d'Aspose.HTML pour .NET. Apprenez à créer, manipuler et optimiser facilement des documents HTML et SVG. Découvrez des exemples étape par étape et des FAQ.
 ### [Modification d'un document dans .NET avec Aspose.HTML](./editing-a-document/)
 Créez du contenu Web captivant avec Aspose.HTML pour .NET. Apprenez à manipuler HTML, CSS et bien plus encore.
+### [Modifier le style de paragraphe en C# – Guide complet Aspose.HTML](./change-paragraph-style-in-c-complete-aspose-html-guide/)
+Apprenez à modifier le style des paragraphes en C# avec Aspose.HTML grâce à ce guide complet, incluant exemples et meilleures pratiques.
 ### [Enregistrer un document dans .NET avec Aspose.HTML](./saving-a-document/)
 Découvrez la puissance d'Aspose.HTML pour .NET avec notre guide étape par étape. Apprenez à créer, manipuler et convertir des documents HTML et SVG
 ### [Fusionner HTML avec Json dans .NET avec Aspose.HTML](./merge-html-with-json/)
