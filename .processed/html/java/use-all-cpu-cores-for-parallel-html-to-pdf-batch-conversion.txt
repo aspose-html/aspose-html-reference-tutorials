@@ -1,0 +1,7 @@
+Title: Use All CPU Cores for Parallel HTML‑to‑PDF Batch Conversion
+Slug: use-all-cpu-cores-for-parallel-html-to-pdf-batch-conversion
+Category: conversion-html-to-other-formats
+ProcessedDate: 2026-06-10T11:39:42.257859
+SourceRepo: AI Search API
+Keywords: use all cpu cores, how to convert html, convert multiple html files, batch convert html pdf
+PRNumber: 179
