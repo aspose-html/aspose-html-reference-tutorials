@@ -86,6 +86,9 @@ Zusammenfassend eröffnet das Beherrschen von **html to pdf java** und der breit
 ### [Konvertierung von HTML zu PDF](./convert-html-to-pdf/)
 Erfahren Sie, wie Sie HTML in Java mit Aspose.HTML zu PDF konvertieren. Erstellen Sie mühelos hochwertige PDFs aus Ihrem HTML‑Inhalt.
 
+### [Wie man die Sandbox für die HTML‑zu‑PDF‑Konvertierung verwendet – Vollständige Java‑Anleitung](./how-to-use-sandbox-for-html-to-pdf-conversion-complete-java/)
+Erfahren Sie, wie Sie die Sandbox von Aspose.HTML für die HTML‑zu‑PDF‑Konvertierung in Java nutzen – komplette Schritt‑für‑Schritt‑Anleitung.
+
 ### [HTML zu PDF in Java – Schritt‑für‑Schritt‑Anleitung mit Seitengrößeneinstellungen](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Erfahren Sie, wie Sie HTML in Java zu PDF konvertieren und dabei die Seitengröße präzise festlegen.
 
@@ -106,6 +109,9 @@ Konvertieren Sie SVG in Java mit Aspose.HTML zu PDF. Eine nahtlose Lösung für 
 
 ### [Konvertierung von SVG zu XPS](./convert-svg-to-xps/)
 Erfahren Sie, wie Sie SVG mit Aspose.HTML für Java zu XPS konvertieren. Einfache, Schritt‑für‑Schritt‑Anleitung für reibungslose Konvertierungen.
+
+### [Alle CPU‑Kerne für parallele HTML‑zu‑PDF‑Batch‑Konvertierung nutzen](./use-all-cpu-cores-for-parallel-html-to-pdf-batch-conversion/)
+Erfahren Sie, wie Sie alle CPU‑Kerne nutzen, um HTML‑zu‑PDF‑Batches parallel zu verarbeiten und die Leistung zu maximieren.
 
 ## Häufig gestellte Fragen
 

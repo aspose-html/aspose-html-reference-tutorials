@@ -128,6 +128,10 @@ weight: 20
 Μάθετε πώς να προσαρμόζετε το μέγεθος XPS σελίδας με το Aspose.HTML for Java. Ελέγξτε εύκολα τις διαστάσεις εξόδου των εγγράφων XPS σας.
 ### [Πώς να Εκτελέσετε JavaScript σε Java – Πλήρης Οδηγός](./how-to-run-javascript-in-java-complete-guide/)
 Μάθετε πώς να εκτελείτε κώδικα JavaScript μέσα σε εφαρμογές Java χρησιμοποιώντας το Aspose.HTML for Java.
+### [Μετατροπή EPUB σε DOCX με Java – Πλήρης Οδηγός Βήμα‑βήμα](./convert-epub-to-docx-in-java-full-step-by-step-guide/)
+Μάθετε πώς να μετατρέψετε αρχεία EPUB σε DOCX χρησιμοποιώντας το Aspose.HTML for Java, βήμα‑βήμα με παραδείγματα κώδικα.
+### [Μετατροπή SVG σε AVIF με Java – Πλήρης Οδηγός Βήμα‑βήμα](./convert-svg-to-avif-with-java-complete-step-by-step-guide/)
+Μάθετε πώς να μετατρέψετε αρχεία SVG σε μορφή AVIF χρησιμοποιώντας το Aspose.HTML for Java, βήμα‑βήμα με παραδείγματα κώδικα.
 
 ---
 

@@ -128,6 +128,9 @@ Tanulja meg, hogyan állíthatja be a PDF oldalméretet az Aspose.HTML for Java 
 Ismerje meg, hogyan állíthatja be az XPS oldalméretet az Aspose.HTML for Java segítségével. Könnyedén szabályozza XPS dokumentumai kimeneti méreteit.
 ### [JavaScript futtatása Java-ban – Teljes útmutató](./how-to-run-javascript-in-java-complete-guide/)
 Ismerje meg, hogyan integrálhatja és futtathatja a JavaScript kódot Java alkalmazásokban Aspose.HTML segítségével.
+### [EPUB konvertálása DOCX-be Java‑ban – Teljes lépésről‑lépésre útmutató](./convert-epub-to-docx-in-java-full-step-by-step-guide/)
+Ismerje meg, hogyan konvertálhatja az EPUB fájlokat DOCX formátumba Java‑val az Aspose.HTML for Java segítségével, részletes lépésekkel.
+### [SVG konvertálása AVIF-re Java‑val – Teljes lépésről‑lépésre útmutató](./convert-svg-to-avif-with-java-complete-step-by-step-guide/)
 
 ---
 
