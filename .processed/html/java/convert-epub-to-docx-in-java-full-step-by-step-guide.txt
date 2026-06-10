@@ -1,0 +1,7 @@
+Title: Convert EPUB to DOCX in Java – Full Step-by-Step Guide
+Slug: convert-epub-to-docx-in-java-full-step-by-step-guide
+Category: advanced-usage
+ProcessedDate: 2026-06-10T11:39:34.691148
+SourceRepo: AI Search API
+Keywords: convert epub to docx, how to convert epub, java convert ebook, add page breaks docx, ebook to word conversion
+PRNumber: 179
