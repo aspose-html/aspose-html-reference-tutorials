@@ -1,0 +1,7 @@
+Title: Convert EPUB to PDF with Java – Step‑by‑Step Guide
+Slug: convert-epub-to-pdf-with-java-step-by-step-guide
+Category: converting-epub-to-pdf
+ProcessedDate: 2026-06-16T19:15:01.123033
+SourceRepo: AI Search API
+Keywords: convert epub to pdf, convert specific epub pages
+PRNumber: 183
