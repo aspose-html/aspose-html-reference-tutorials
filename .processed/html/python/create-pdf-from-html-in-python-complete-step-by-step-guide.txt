@@ -1,0 +1,7 @@
+Title: Create PDF from HTML in Python – Complete Step‑by‑Step Guide
+Slug: create-pdf-from-html-in-python-complete-step-by-step-guide
+Category: general
+ProcessedDate: 2026-06-16T19:42:42.513607
+SourceRepo: AI Search API
+Keywords: create pdf from html, html to pdf python, convert html to pdf, html bytes to pdf, generate pdf from html
+PRNumber: 184
