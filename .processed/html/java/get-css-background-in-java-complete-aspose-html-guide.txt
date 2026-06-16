@@ -1,0 +1,7 @@
+Title: Get CSS Background in Java – Complete Aspose.HTML Guide
+Slug: get-css-background-in-java-complete-aspose-html-guide
+Category: css-html-form-editing
+ProcessedDate: 2026-06-16T19:14:57.978033
+SourceRepo: AI Search API
+Keywords: get css background, retrieve background color, retrieve font size, extract computed style, load html document java
+PRNumber: 183
