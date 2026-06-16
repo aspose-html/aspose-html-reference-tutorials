@@ -84,6 +84,8 @@ Sammanfattningsvis låser behärskning av **html to pdf java** och den bredare u
 ## Konvertering - HTML till Andra Format Handledning
 ### [Konvertera HTML till PDF](./convert-html-to-pdf/)
 Lär dig hur du konverterar HTML till PDF i Java med Aspose.HTML. Skapa högkvalitativa PDF‑filer från ditt HTML‑innehåll utan ansträngning.
+### [Konvertera HTML till PDF med Aspose HTML för Java – Fullständig guide](./convert-html-to-pdf-with-aspose-html-for-java-full-guide/)
+En omfattande steg‑för‑steg‑guide för att konvertera HTML till PDF i Java med Aspose HTML, inklusive avancerade inställningar och exempel.
 ### [Konvertera HTML till MHTML](./convert-html-to-mhtml/)
 Konvertera enkelt HTML till MHTML med Aspose.HTML for Java. Följ vår steg‑för‑steg‑guide för effektiv HTML‑till‑MHTML‑konvertering.
 ### [Konvertera HTML till XPS](./convert-html-to-xps/)
@@ -96,8 +98,13 @@ Lär dig hur du konverterar SVG till bilder i Java med Aspose.HTML. Omfattande g
 Konvertera SVG till PDF i Java med Aspose.HTML. En sömlös lösning för högkvalitativ dokumentkonvertering.
 ### [Konvertera SVG till XPS](./convert-svg-to-xps/)
 Lär dig hur du konverterar SVG till XPS med Aspose.HTML for Java. Enkel, steg‑för‑steg‑guide för smidiga konverteringar.
+### [Konvertera HTML till Markdown i Java – Komplett programmeringsguide](./convert-html-to-markdown-in-java-complete-programming-guide/)
+Lär dig hur du konverterar HTML till Markdown i Java med Aspose.HTML i en komplett steg‑för‑steg‑guide.
 ### [Konvertera HTML till PDF i Java – Steg‑för‑steg‑guide med sidstorleksinställningar](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Lär dig konvertera HTML till PDF i Java med detaljerade steg och anpassa sidstorlek för optimal utskrift.
+### [Konvertera HTML till PDF i Java – Parallell batchkonverteringsguide](./convert-html-to-pdf-in-java-parallel-batch-conversion-guide/)
+Lär dig hur du konverterar flera HTML‑filer till PDF parallellt i Java med Aspose.HTML för hög prestanda.
+### [HTML till PDF‑handledning: En‑rad Aspose‑konverterare](./html-to-pdf-tutorial-one-line-aspose-converter/)
 
 ## Vanliga frågor
 

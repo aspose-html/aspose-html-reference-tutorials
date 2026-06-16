@@ -32,6 +32,11 @@ url: /el/java/css-html-form-editing/
 Μάθετε πώς να επεξεργάζεστε και να υποβάλλετε φόρμες HTML μέσω προγραμματισμού χρησιμοποιώντας το Aspose.HTML για Java σε αυτόν τον αναλυτικό οδηγό βήμα προς βήμα.
 ### [Επιλογή στοιχείου με κλάση σε Java – Πλήρης Οδηγός](./select-element-by-class-in-java-complete-how-to-guide/)
 Μάθετε πώς να επιλέγετε στοιχεία HTML με συγκεκριμένη κλάση χρησιμοποιώντας Aspose.HTML για Java σε αυτόν τον ολοκληρωμένο οδηγό.
+### [Απόκτηση CSS Background σε Java – Πλήρης Οδηγός Aspose.HTML](./get-css-background-in-java-complete-aspose-html-guide/)
+Μάθετε πώς να εξάγετε το CSS background από έγγραφα HTML χρησιμοποιώντας Aspose.HTML για Java σε αυτόν τον ολοκληρωμένο οδηγό.
+### [Πώς να χρησιμοποιήσετε CSS σε Java – Φόρτωση HTML, Καταμέτρηση Συνδέσμων & Αξιολόγηση XPath](./how-to-use-css-in-java-load-html-count-links-evaluate-xpath/)
+Μάθετε πώς να φορτώνετε HTML, να μετράτε συνδέσμους και να αξιολογείτε XPath χρησιμοποιώντας CSS με Aspose.HTML για Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

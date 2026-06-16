@@ -66,6 +66,8 @@ url: /ar/java/creating-managing-html-documents/
 تعلم كيفية إنشاء بيئة تجريبية لمعالجة HTML في Java باستخدام Aspose.HTML من خلال دليل خطوة بخطوة.
 ### [كيفية الاستعلام عن HTML في Java – دليل كامل](./how-to-query-html-in-java-complete-tutorial/)
 تعلم كيفية استعلام ومعالجة مستندات HTML في Java باستخدام Aspose.HTML من خلال دليل شامل خطوة بخطوة.
+### [تحميل JSON باستخدام Fetch في Java – دليل كامل](./load-json-with-fetch-in-java-complete-guide/)
+تعلم كيفية تحميل ملفات JSON باستخدام Fetch في Java عبر دليل خطوة بخطوة شامل.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

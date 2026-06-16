@@ -60,6 +60,8 @@ Learn how to query HTML in Java using Aspose.HTML with this comprehensive step-b
 Learn how to set up a secure HTML sandbox in Java using Aspose.HTML with this detailed step-by-step guide.
 ### [Load HTML Documents from URL in Aspose.HTML for Java](./load-html-documents-from-url/)
 Discover how to easily load HTML documents from a URL in Java with Aspose.HTML. Step-by-step tutorial included.
+### [Load JSON with Fetch in Java – Complete Guide](./load-json-with-fetch-in-java-complete-guide/)
+Learn how to fetch and load JSON data in Java using Aspose.HTML's Fetch API. Complete step-by-step guide.
 ### [Generate New HTML Documents using Aspose.HTML for Java](./generate-new-html-documents/)
 Learn how to create new HTML documents using Aspose.HTML for Java with this easy step-by-step guide. Start generating dynamic HTML content.
 ### [Handle Document Load Events in Aspose.HTML for Java](./handle-document-load-events/)

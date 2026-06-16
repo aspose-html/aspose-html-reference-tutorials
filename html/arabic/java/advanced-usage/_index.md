@@ -136,6 +136,9 @@ weight: 20
 ### [كيفية تشغيل JavaScript في Java – دليل كامل](./how-to-run-javascript-in-java-complete-guide/)
 تعلم كيفية تشغيل كود JavaScript داخل تطبيقات Java باستخدام Aspose.HTML for Java.
 
+### [ضبط DPI للجهاز باستخدام Aspose في Java – دليل شامل في Sandbox](./set-device-dpi-aspose-in-java-complete-sandbox-guide/)
+تعلم كيفية ضبط DPI للجهاز عند تحويل HTML إلى PDF/XPS باستخدام Aspose.HTML for Java في بيئة Sandbox.
+
 ---
 
 **آخر تحديث:** 2025-11-29  

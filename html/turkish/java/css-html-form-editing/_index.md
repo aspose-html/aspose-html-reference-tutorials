@@ -29,9 +29,14 @@ Web geliştirmeye daldığınızda, CSS ve HTML formlarında ustalaşmak bisikle
 ### [Java için Aspose.HTML ile Gelişmiş CSS Uzantı Teknikleri](./advanced-css-extension/)
 Özel sayfa kenar boşlukları ve dinamik içerik dahil olmak üzere gelişmiş CSS tekniklerini uygulamak için Aspose.HTML for Java'yı nasıl kullanacağınızı öğrenin. Geliştiriciler için ayrıntılı, uygulamalı bir eğitim.
 ### [Aspose.HTML for Java ile HTML Form Düzenleme ve Gönderimi](./html-form-editing/)
-Bu kapsamlı adım adım kılavuzda, Aspose.HTML for Java'yı kullanarak HTML formlarını programlı olarak nasıl düzenleyeceğinizi ve göndereceğinizi öğrenin.
+Bu kapsamlı adım adım kılavuzda, Aspose.HTML for Java'yı kullanarak HTML formlerini programlı olarak nasıl düzenleyeceğinizi ve göndereceğinizi öğrenin.
 ### [Java’da sınıfa göre öğe seçimi – Tam Kılavuz](./select-element-by-class-in-java-complete-how-to-guide/)
 Java’da belirli bir sınıfa sahip HTML öğelerini seçmeyi ve işlemeyi adım adım öğrenin.
+### [Java’da CSS Arka Planını Al – Tam Aspose.HTML Kılavuzu](./get-css-background-in-java-complete-aspose-html-guide/)
+Aspose.HTML for Java kullanarak CSS arka planını nasıl alacağınızı ve işleyeceğinizi adım adım öğrenin.
+### [Java’da CSS Kullanımı – HTML Yükleme, Bağlantıları Sayma ve XPath Değerlendirme](./how-to-use-css-in-java-load-html-count-links-evaluate-xpath/)
+Aspose.HTML for Java ile CSS'i nasıl kullanacağınızı, HTML'i nasıl yükleyeceğinizi, bağlantıları nasıl sayıp XPath'i nasıl değerlendireceğinizi öğrenin.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

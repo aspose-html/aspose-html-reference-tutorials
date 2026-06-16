@@ -56,6 +56,8 @@ Naučte se načítat HTML dokumenty ze streamů pomocí Aspose.HTML for Java. Ta
 Naučte se vytvářet HTML dokumenty z řetězců v Aspose.HTML pro Java pomocí tohoto podrobného průvodce.
 ### [Načtěte HTML dokumenty z URL v Aspose.HTML pro Java](./load-html-documents-from-url/)
 Objevte, jak snadno načíst HTML dokumenty z URL v Javě pomocí Aspose.HTML. Včetně návodu krok za krokem.
+### [Načtěte JSON pomocí Fetch v Javě – Kompletní průvodce](./load-json-with-fetch-in-java-complete-guide/)
+Kompletní průvodce načítáním JSON dat pomocí Fetch API v Javě s Aspose.HTML, včetně příkladů a tipů.
 ### [Generujte nové HTML dokumenty pomocí Aspose.HTML pro Java](./generate-new-html-documents/)
 Naučte se vytvářet nové HTML dokumenty pomocí Aspose.HTML for Java pomocí tohoto jednoduchého průvodce krok za krokem. Začněte generovat dynamický obsah HTML.
 ### [Zvládejte události načítání dokumentu v Aspose.HTML pro Java](./handle-document-load-events/)

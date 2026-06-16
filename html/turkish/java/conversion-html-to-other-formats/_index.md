@@ -85,18 +85,26 @@ Sonuç olarak, **html to pdf java** ve daha geniş dönüşüm setine hâkim olm
 ## Dönüştürme - HTML'den Diğer Formatlara Eğitimleri
 ### [HTML'yi PDF'ye Dönüştürme](./convert-html-to-pdf/)
 HTML içeriğinizden sorunsuz bir şekilde yüksek kaliteli PDF'ler oluşturun.
+### [Aspose HTML for Java ile HTML'yi PDF'ye Dönüştürme – Tam Kılavuz](./convert-html-to-pdf-with-aspose-html-for-java-full-guide/)
+Aspose.HTML for Java kullanarak HTML'den PDF'ye tam adım adım dönüşüm sürecini öğrenin.
+### [HTML'den PDF'ye Tek Satır Aspose Dönüştürücü Öğreticisi](./html-to-pdf-tutorial-one-line-aspose-converter/)
+Aspose HTML to PDF dönüşümünü tek satır kodla nasıl yapacağınızı gösterir.
 ### [HTML'yi PDF'ye Dönüştürme Java’da – Sayfa Boyutu Ayarlarıyla Adım‑Adım Kılavuz](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Java’da HTML'yi PDF'ye dönüştürürken sayfa boyutu ayarlarını nasıl yapılandıracağınızı adım adım gösterir.
+### [HTML'yi PDF'ye Dönüştürme Java’da – Paralel Toplu Dönüşüm Kılavuzu](./convert-html-to-pdf-in-java-parallel-batch-conversion-guide/)
+Java’da birden çok HTML dosyasını aynı anda PDF’ye dönüştürmek için paralel işleme yöntemlerini öğrenin.
 ### [HTML'yi MHTML'ye Dönüştürme](./convert-html-to-mhtml/)
 Aspose.HTML for Java ile HTML'yi MHTML'ye kolayca dönüştürün. Verimli HTML‑to‑MHTML dönüşümü için adım adım rehberimizi izleyin.
 ### [HTML'yi XPS'ye Dönüştürme](./convert-html-to-xps/)
 Aspose.HTML for Java ile HTML'yi XPS'ye sorunsuz bir şekilde dönüştürmeyi öğrenin. Kolaylıkla çok platformlu belgeler oluşturun.
 ### [Markdown'ı HTML'ye Dönüştürme](./convert-markdown-to-html/)
 Aspose.HTML for Java ile Java'da Markdown'ı HTML'ye sorunsuz bir şekilde dönüştürün. Belge dönüşüm ihtiyaçlarınızı kolaylaştırmak için adım adım rehberimizi izleyin.
+### [HTML'yi Markdown'a Dönüştürme Java’da – Tam Programlama Kılavuzu](./convert-html-to-markdown-in-java-complete-programming-guide/)
+Aspose.HTML for Java ile HTML'yi Markdown formatına dönüştürerek tam bir programlama rehberi izleyin.
 ### [SVG'yi Görüntüye Dönüştürme](./convert-svg-to-image/)
 Aspose.HTML ile Java'da SVG'yi görüntülere dönüştürmeyi öğrenin. Yüksek kaliteli çıktı için kapsamlı rehber.
 ### [SVG'yi PDF'ye Dönüştürme](./convert-svg-to-pdf/)
-Aspose.HTML ile Java'da SVG'yi PDF'ye dönüştürün. Yüksek kaliteli belge dönüşümü için sorunsuz bir çözüm.
+Aspose.HTML ile Java'da SVG'yi PDF'ye dönüştürün. Yüksek kaliteli belge dönüşümü için sorunsuz çözüm.
 ### [SVG'yi XPS'ye Dönüştürme](./convert-svg-to-xps/)
 Aspose.HTML for Java ile SVG'yi XPS'ye dönüştürmeyi öğrenin. Sorunsuz dönüşümler için basit, adım adım rehber.
 
