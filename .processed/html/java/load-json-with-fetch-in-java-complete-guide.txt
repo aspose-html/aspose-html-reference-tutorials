@@ -1,0 +1,7 @@
+Title: Load JSON with Fetch in Java – Complete Guide
+Slug: load-json-with-fetch-in-java-complete-guide
+Category: creating-managing-html-documents
+ProcessedDate: 2026-06-16T19:14:56.402762
+SourceRepo: AI Search API
+Keywords: load json with fetch, fetch json in javascript, run javascript from java, optional chaining tutorial, create htmldocument in java
+PRNumber: 183
