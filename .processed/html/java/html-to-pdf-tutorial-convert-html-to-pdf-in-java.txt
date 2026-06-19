@@ -1,0 +1,7 @@
+Title: html to pdf tutorial: Convert HTML to PDF in Java
+Slug: html-to-pdf-tutorial-convert-html-to-pdf-in-java
+Category: conversion-html-to-other-formats
+ProcessedDate: 2026-06-19T23:02:24.337985
+SourceRepo: AI Search API
+Keywords: html to pdf tutorial, generate pdf from html, convert html file pdf, create pdf from html, convert webpage to pdf
+PRNumber: 187
