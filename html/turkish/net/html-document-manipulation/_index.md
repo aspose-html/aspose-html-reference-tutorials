@@ -51,7 +51,7 @@ Eğitimlerimiz, yeni başlayanlardan deneyimli geliştiricilere kadar çeşitli 
 ## HTML Belge İşleme Eğitimleri
 ### [Aspose.HTML ile .NET'te HTML Belgelerini Eşzamansız Olarak Yükleme](./load-html-doc-asynchronously/)
 HTML belgeleriyle çalışmak için Aspose.HTML for .NET'i nasıl kullanacağınızı öğrenin. Geliştiriciler için örnekler ve SSS içeren adım adım kılavuz.
-### [Aspose.HTML ile .NET'te Kimlik Bilgileri ile HTML Belgelerini Yükleme](./load-html-doc-with-credentials/)
+### [Aspose.HTML ile .NET'te Kimlik Bilgileri ile HTML Belgelerini Yükleme](./load-html-with-credentials/)
 Aspose.HTML for .NET ile SEO'nuzu nasıl güçlendireceğinizi öğrenin. Sıralamaları artırın, web içeriğini analiz edin ve arama motorları için optimize edin.
 ### [Aspose.HTML ile .NET'te Uzak Sunucu Kullanarak HTML Yükleme](./load-html-using-remote-server/)
 Kapsamlı rehberimizle .NET için Aspose.HTML'nin potansiyelini açığa çıkarın. Ad alanlarını içe aktarmayı, uzak HTML belgelerine erişmeyi ve daha fazlasını öğrenin.
@@ -71,6 +71,8 @@ Aspose.HTML for .NET kullanarak dinamik ve web içerikleri oluşturmayı öğren
 Aspose.HTML for .NET ile web geliştirmenin potansiyelini açığa çıkarın. HTML belgelerini kolayca oluşturun, dönüştürün ve düzenleyin.
 ### [C#'ta Dizeden HTML Oluşturma – Özel Kaynak İşleyici Rehberi](./create-html-from-string-in-c-custom-resource-handler-guide/)
 C# içinde dizeden HTML oluşturmayı ve özel kaynak işleyicisiyle nasıl kullanacağınızı öğrenin.
+### [C#'ta Kalın İtalik Yazı Tipi Oluşturma – Tam Kılavuz](./create-font-bold-italic-in-c-complete-guide/)
+C# ile Aspose.HTML kullanarak kalın ve italik yazı tipleri oluşturmayı adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
