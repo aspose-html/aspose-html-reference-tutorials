@@ -136,6 +136,9 @@ weight: 20
 ### [كيفية تشغيل JavaScript في Java – دليل كامل](./how-to-run-javascript-in-java-complete-guide/)
 تعلم كيفية تشغيل كود JavaScript داخل تطبيقات Java باستخدام Aspose.HTML for Java.
 
+### [XPath مع مساحات الأسماء في Java – دليل كامل لاختيار عناصر SVG](./xpath-with-namespaces-in-java-complete-guide-to-selecting-sv/)
+تعلم كيفية استخدام XPath مع مساحات الأسماء في Java لاختيار ومعالجة عناصر SVG بدقة في مستندات HTML.
+
 ---
 
 **آخر تحديث:** 2025-11-29  

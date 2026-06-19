@@ -55,7 +55,7 @@ Dowiedz się, jak ładować dokumenty HTML ze strumieni za pomocą Aspose.HTML d
 ### [Tworzenie dokumentów HTML z ciągu w Aspose.HTML dla Java](./create-html-documents-from-string/)
 Dowiedz się, jak tworzyć dokumenty HTML z ciągów znaków w Aspose.HTML dla Java, korzystając z tego przewodnika krok po kroku.
 ### [Ładowanie dokumentów HTML z adresu URL w Aspose.HTML dla Java](./load-html-documents-from-url/)
-Odkryj, jak łatwo ładować dokumenty HTML z adresu URL w Javie za pomocą Aspose.HTML. Zawiera samouczek krok po kroku.
+Odkryj, jak łatwo ładować dokumenty HTML z adresu URL w Javie przy użyciu Aspose.HTML. Zawiera samouczek krok po kroku.
 ### [Generuj nowe dokumenty HTML za pomocą Aspose.HTML dla Java](./generate-new-html-documents/)
 Dowiedz się, jak tworzyć nowe dokumenty HTML za pomocą Aspose.HTML dla Java dzięki temu prostemu przewodnikowi krok po kroku. Zacznij generować dynamiczną zawartość HTML.
 ### [Obsługa zdarzeń ładowania dokumentów w Aspose.HTML dla Java](./handle-document-load-events/)
@@ -66,6 +66,10 @@ Naucz się tworzyć i zarządzać dokumentami SVG za pomocą Aspose.HTML dla Jav
 Dowiedz się, jak skonfigurować bezpieczną piaskownicę HTML w Javie, aby testować i uruchamiać kod w izolowanym środowisku.
 ### [Jak zapytać HTML w Javie – Kompletny samouczek](./how-to-query-html-in-java-complete-tutorial/)
 Dowiedz się, jak efektywnie zapytać i przetwarzać dokumenty HTML w Javie przy użyciu Aspose.HTML.
+### [Wyodrębnianie tytułu strony w Javie – pełny przewodnik przy użyciu Aspose.HTML](./extract-page-title-with-java-full-guide-using-aspose-html/)
+Dowiedz się, jak wyodrębnić tytuł strony HTML w Javie przy użyciu Aspose.HTML w tym kompletnym przewodniku krok po kroku.
+### [Jak uruchomić wątek w Javie – Kompletny przewodnik](./how-to-start-thread-in-java-complete-guide/)
+Dowiedz się, jak uruchomić wątek w Javie, krok po kroku, z praktycznymi przykładami i najlepszymi praktykami.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

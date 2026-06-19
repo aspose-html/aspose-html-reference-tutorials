@@ -60,6 +60,8 @@ Aprenda a gerenciar propriedades HTML internas e externas no Aspose.HTML para Ja
 Aprenda a implementar CSS interno em documentos HTML usando Aspose.HTML para Java com nosso tutorial passo a passo.
 ### [Pool de threads fixo java – Limpeza paralela de HTML com ExecutorService](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 Aprenda a usar um pool de threads fixo em Java para limpar HTML em paralelo usando ExecutorService.
+### [Executar JavaScript em HTML com Aspose.HTML para Java – Guia Completo](./run-javascript-in-html-with-aspose-html-for-java-full-guide/)
+Aprenda a executar scripts JavaScript em documentos HTML usando Aspose.HTML para Java com este guia passo a passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

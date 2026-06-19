@@ -93,7 +93,14 @@ weight: 24
 ### [將 HTML 轉換為 PNG](./convert-html-to-png/)
 學習如何在 Java 中使用 Aspose.HTML 將 HTML 轉換為 PNG 圖像。完整教學提供詳細步驟說明。
 
+### [從 HTML 建立 PNG – 完整 Java 指南，含自訂解析度](./create-png-from-html-complete-java-guide-with-custom-resolut/)
+學習如何使用 Aspose.HTML for Java 從 HTML 產生 PNG，並自訂解析度以符合不同需求的完整指南。
+
 ### [將 HTML 轉換為 WebP](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
+
+### [如何使用 Java 將 SVG 轉換為 AVIF – 步驟指南](./how-to-convert-svg-to-avif-with-java-step-by-step-guide/)
+本教學說明如何使用 Aspose.HTML for Java 將 SVG 圖形轉換為高效的 AVIF 圖像，提供完整步驟與範例程式碼。
+
 ### [將 HTML 轉換為 TIFF](./convert-html-to-tiff/)
 了解如何使用 Aspose.HTML for Java 輕鬆將 HTML 轉換為 TIFF。提供高效的文件處理步驟說明。
 

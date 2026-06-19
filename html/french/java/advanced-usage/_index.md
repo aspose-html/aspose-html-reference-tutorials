@@ -128,6 +128,8 @@ Apprenez à ajuster la taille de page PDF avec Aspose.HTML for Java. Créez des 
 Apprenez à ajuster la taille de page XPS avec Aspose.HTML for Java. Contrôlez facilement les dimensions de sortie de vos documents XPS.  
 ### [Comment exécuter du JavaScript en Java – Guide complet](./how-to-run-javascript-in-java-complete-guide/)
 Apprenez à exécuter du code JavaScript depuis Java en utilisant Aspose.HTML, avec des exemples complets et des meilleures pratiques.  
+### [XPath avec espaces de noms en Java – Guide complet pour sélectionner des éléments SVG](./xpath-with-namespaces-in-java-complete-guide-to-selecting-sv/)
+Apprenez à utiliser XPath avec des espaces de noms en Java pour sélectionner précisément des éléments SVG dans vos documents HTML.  
 
 ---
 
