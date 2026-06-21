@@ -54,6 +54,8 @@ Découvrez comment charger, manipuler et enregistrer des documents HTML à l'aid
 Découvrez comment charger des documents HTML à partir de flux à l'aide d'Aspose.HTML pour Java. Ce guide fournit un didacticiel étape par étape pour une manipulation HTML transparente.
 ### [Créer des documents HTML à partir d'une chaîne dans Aspose.HTML pour Java](./create-html-documents-from-string/)
 Apprenez à créer des documents HTML à partir de chaînes dans Aspose.HTML pour Java avec ce guide étape par étape.
+### [Créer un document HTML Java – Guide étape par étape avec Aspose.HTML](./create-html-document-java-step-by-step-guide-with-aspose-htm/)
+Apprenez à créer un document HTML en Java avec Aspose.HTML grâce à ce guide complet étape par étape.
 ### [Charger des documents HTML à partir d'une URL dans Aspose.HTML pour Java](./load-html-documents-from-url/)
 Découvrez comment charger facilement des documents HTML à partir d'une URL en Java avec Aspose.HTML. Tutoriel étape par étape inclus.
 ### [Générer de nouveaux documents HTML à l'aide d'Aspose.HTML pour Java](./generate-new-html-documents/)
@@ -65,6 +67,10 @@ Apprenez à créer et à gérer des documents SVG à l'aide d'Aspose.HTML pour J
 ### [Créer un bac à sable pour HTML en Java – Guide étape par étape](./create-sandbox-for-html-in-java-step-by-step-guide/)
 Apprenez à créer un environnement sécurisé pour manipuler du HTML en Java avec Aspose.HTML, guide complet pas à pas.
 ### [Comment interroger le HTML en Java – Tutoriel complet](./how-to-query-html-in-java-complete-tutorial/)
+Apprenez à interroger et extraire des données HTML en Java avec Aspose.HTML grâce à ce guide complet étape par étape.
+### [Récupérer JSON JavaScript – Guide complet Java pour créer un document HTML](./fetch-json-javascript-complete-java-guide-to-create-html-doc/)
+
+### [Comment rechercher du HTML avec Aspose Java – Guide complet de programmation](./how-to-search-html-with-aspose-java-complete-programming-gui/)
 Apprenez à interroger et extraire des données HTML en Java avec Aspose.HTML grâce à ce guide complet étape par étape.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
