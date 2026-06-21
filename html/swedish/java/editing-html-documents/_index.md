@@ -59,6 +59,8 @@ Lär dig hur du hanterar inre och yttre HTML-egenskaper i Aspose.HTML för Java 
 ### [Implementera intern CSS i HTML-dokument med Aspose.HTML för Java](./implement-internal-css-html-documents/)
 Lär dig att implementera intern CSS i HTML-dokument med Aspose.HTML för Java med vår enkla steg-för-steg handledning.
 ### [Fast trådpool i Java – parallell HTML‑rengöring med ExecutorService](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
+### [Hämta elementattribut i Java – Komplett guide till SVG‑val och XPath](./get-element-attribute-java-complete-guide-to-svg-selection-a/)
+Lär dig hur du hämtar elementattribut i Java, samt använder SVG‑val och XPath för exakt elementidentifiering.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

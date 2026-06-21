@@ -84,16 +84,27 @@ Usar Aspose.HTML for Java simplifica la conversión de documentos HTML a varios 
 ## Conversión - HTML a varios formatos de imagen - Tutoriales
 ### [Converting HTML to BMP](./convert-html-to-bmp/)
 Convertir HTML a BMP con Aspose.HTML for Java. Un tutorial completo para convertir documentos HTML en imágenes BMP de forma fluida usando Aspose.HTML for Java.
+
 ### [Converting HTML to GIF](./convert-html-to-gif/)
 Aprenda cómo convertir HTML a GIF en Java usando Aspose.HTML. Una guía paso a paso completa para una conversión eficiente de HTML a GIF.
+
 ### [Converting HTML to JPEG](./convert-html-to-jpeg/)
 Aprenda a convertir HTML a JPEG con Aspose.HTML for Java. Guía paso a paso para un procesamiento de documentos sin interrupciones.
+
 ### [Converting HTML to PNG](./convert-html-to-png/)
 Aprenda cómo convertir HTML a imágenes PNG en Java con Aspose.HTML. Una guía completa con instrucciones paso a paso.
+
 ### [Converting HTML to TIFF](./convert-html-to-tiff/)
 Aprenda a convertir HTML a TIFF fácilmente usando Aspose.HTML for Java. Guía paso a paso para un manejo eficiente de documentos.
+
 ### [Convertir HTML a WebP – Guía completa de Java con Aspose.HTML](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
 Aprenda a convertir HTML a WebP en Java usando Aspose.HTML. Guía paso a paso para una conversión eficiente y de alta calidad.
+
+### [Convertir HTML a AVIF – Guía completa de Java con Aspose.HTML](./convert-html-to-avif-with-aspose-html-complete-java-guide/)
+Aprenda a convertir HTML a AVIF en Java usando Aspose.HTML. Guía paso a paso para una conversión eficiente y de alta calidad.
+
+### [Desactivar imágenes externas al renderizar página web a PNG en Java](./disable-external-images-while-rendering-webpage-to-png-in-ja/)
+Aprenda a desactivar imágenes externas al renderizar una página web a PNG usando Aspose.HTML for Java.
 
 ## Preguntas frecuentes
 

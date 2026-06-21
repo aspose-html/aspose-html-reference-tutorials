@@ -60,6 +60,8 @@ Web geliştiricileri ve içerik oluşturucuları için mükemmel olan bu adım a
 Kolay adım adım eğitimimiz ile Java için Aspose.HTML'i kullanarak HTML belgelerinde dahili CSS'yi uygulamayı öğrenin.
 ### [Sabit iş parçacığı havuzu java – ExecutorService ile Paralel HTML Temizleme](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 ExecutorService kullanarak sabit iş parçacığı havuzu ile HTML belgelerini paralel olarak temizlemeyi öğrenin.
+### [Java’da Element Özniteliği Alma – SVG Seçimi ve XPath İçin Tam Kılavuz](./get-element-attribute-java-complete-guide-to-svg-selection-a/)
+Java’da öğe özniteliklerini almayı, SVG seçimini ve XPath kullanımını öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
