@@ -43,6 +43,9 @@ Teraz, gdy masz już skonfigurowany Aspose.HTML dla .NET, czas zapoznać się z 
 ### [Renderuj HTML jako PNG w .NET za pomocą Aspose.HTML](./render-html-as-png/)
 Naucz się pracować z Aspose.HTML dla .NET: Manipuluj HTML, konwertuj do różnych formatów i nie tylko. Zanurz się w tym kompleksowym samouczku!
 
+### [Renderowanie HTML do PNG w C# – Kompletny przewodnik z Aspose.HTML](./render-html-to-png-in-c-complete-guide-with-aspose-html/)
+Kompletny przewodnik w C#, pokazujący, jak przy użyciu Aspose.HTML renderować HTML do formatu PNG krok po kroku.
+
 ### [Jak renderować HTML jako PNG – Kompletny przewodnik C#](./how-to-render-html-as-png-complete-c-guide/)
 Pełny przewodnik C# pokazujący, jak przy użyciu Aspose.HTML renderować HTML jako PNG, krok po kroku.
 ### [Jak używać Aspose do renderowania HTML do PNG – przewodnik krok po kroku](./how-to-use-aspose-to-render-html-to-png-step-by-step-guide/)
@@ -58,7 +61,7 @@ Dowiedz się, jak tworzyć i renderować dokumenty HTML za pomocą Aspose.HTML d
 Dowiedz się, jak skutecznie kontrolować limity czasu renderowania w Aspose.HTML dla .NET. Poznaj opcje renderowania i zapewnij płynne renderowanie dokumentów HTML.
 
 ### [Renderuj MHTML jako XPS w .NET za pomocą Aspose.HTML](./render-mhtml-as-xps/)
- Naucz się renderować MHTML jako XPS w .NET z Aspose.HTML. Udoskonal swoje umiejętności manipulacji HTML i przyspiesz swoje projekty rozwoju sieci!
+Naucz się renderować MHTML jako XPS w .NET z Aspose.HTML. Udoskonal swoje umiejętności manipulacji HTML i przyspiesz swoje projekty rozwoju sieci!
 
 Naucz się renderować MHTML jako XPS w .NET z Aspose.HTML. Udoskonal swoje umiejętności manipulacji HTML i przyspiesz swoje projekty rozwoju sieci!
 ### [Renderowanie wielu dokumentów w .NET za pomocą Aspose.HTML](./render-multiple-documents/)
