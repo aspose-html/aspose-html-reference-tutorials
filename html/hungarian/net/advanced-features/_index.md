@@ -30,6 +30,8 @@ A .NET fejlesztés területén a fejlett funkciók elsajátítása végtelen leh
 Tanulja meg, hogyan dolgozhat HTML-dokumentumokkal .NET-ben az Aspose.HTML használatával olyan feladatokhoz, mint a szkriptkezelés, az egyéni stílusok, a JavaScript-végrehajtás vezérlése stb. Ez az átfogó oktatóanyag lépésről lépésre bemutatja a példákat és a GYIK-et a kezdéshez.
 ### [Hozzon létre Stream Provider-t .NET-ben az Aspose.HTML segítségével](./create-stream-provider/)
 Ismerje meg az Aspose.HTML for .NET használatát a HTML-dokumentumok hatékony kezeléséhez. Lépésről lépésre bemutató fejlesztőknek.
+### [Egyedi erőforráskezelő az Aspose HTML-ben – Mentés streambe útmutató](./custom-resource-handler-in-aspose-html-save-to-stream-guide/)
+Ismerje meg, hogyan hozhat létre egyedi erőforráskezelőt az Aspose HTML-ben, és mentheti a kimenetet streambe.
 ### [Memóriafolyam-szolgáltató .NET-ben Aspose.HTML-lel](./memory-stream-provider/)
 Ismerje meg, hogyan hozhat lenyűgöző HTML-dokumentumokat .NET-ben az Aspose.HTML segítségével. Kövesse lépésről lépésre bemutató oktatóanyagunkat, és szabadítsa fel a HTML-manipuláció erejét.
 ### [Webkaparás .NET-ben Aspose.HTML-lel](./web-scraping/)

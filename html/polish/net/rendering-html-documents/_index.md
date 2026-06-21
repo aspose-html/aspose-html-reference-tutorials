@@ -69,6 +69,9 @@ Odblokuj moc Aspose.HTML dla .NET! Dowiedz się, jak bez wysiłku renderować SV
 ### [Utwórz PNG z HTML – Pełny przewodnik renderowania w C#](./create-png-from-html-full-c-rendering-guide/)
 Naucz się, jak przy pomocy Aspose.HTML w C# konwertować HTML do plików PNG w pełnym, krok po kroku przewodniku.
 
+### [Renderuj HTML do PDF przy użyciu Aspose.HTML – przewodnik krok po kroku](./render-html-to-pdf-with-aspose-html-step-by-step-guide/)
+Pełny przewodnik pokazujący, jak przy użyciu Aspose.HTML konwertować HTML do PDF w kilku prostych krokach.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
