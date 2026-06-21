@@ -32,6 +32,8 @@ Pelajari cara menggunakan Aspose.HTML untuk Java guna menerapkan teknik CSS ting
 Pelajari cara mengedit dan mengirimkan formulir HTML secara terprogram menggunakan Aspose.HTML untuk Java dalam panduan langkah demi langkah yang komprehensif ini.
 ### [Memilih elemen select berdasarkan kelas di Java – Panduan Lengkap](./select-element-by-class-in-java-complete-how-to-guide/)
 Pelajari cara memilih elemen <select> berdasarkan kelas di Java dengan contoh kode lengkap dan penjelasan praktis.
+### [Cara Mendapatkan Properti CSS di Java – Membaca Warna Latar Belakang Elemen](./how-to-get-css-property-in-java-read-element-background-colo/)
+Pelajari cara mengambil nilai properti CSS, khususnya warna latar belakang elemen, menggunakan Aspose.HTML untuk Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

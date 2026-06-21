@@ -58,6 +58,9 @@ Ebből a lépésről lépésre szóló útmutatóból megtudhatja, hogyan hozhat
 Fedezze fel, hogyan tölthet be egyszerűen HTML dokumentumokat egy URL-ről Java nyelven az Aspose.HTML segítségével. Lépésről lépésre bemutató oktatóanyag.
 ### [HTML lekérdezése Java-ban – Teljes útmutató](./how-to-query-html-in-java-complete-tutorial/)
 Ismerje meg, hogyan kérdezhet le HTML-t Java használatával, lépésről lépésre útmutató a hatékony adatkinyeréshez.
+### [XPath lekérdezése Java-ban az Aspose segítségével – Lépésről‑lépésre útmutató](./how-to-query-xpath-in-java-with-aspose-step-by-step-guide/)
+Ismerje meg, hogyan használhatja az Aspose könyvtárat xpath lekérdezéshez Java-ban, részletes, lépésről‑lépésre útmutatóval.
+
 ### [Új HTML-dokumentumok létrehozása az Aspose.HTML for Java használatával](./generate-new-html-documents/)
 Ebből az egyszerű, lépésenkénti útmutatóból megtudhatja, hogyan hozhat létre új HTML-dokumentumokat az Aspose.HTML for Java használatával. Kezdje el a dinamikus HTML-tartalom generálását.
 ### [Kezelje a dokumentumbetöltési eseményeket az Aspose.HTML for Java-ban](./handle-document-load-events/)

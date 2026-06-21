@@ -35,11 +35,11 @@ Imagine you need to generate HTML content on the fly based on user input or data
 
 ## Generate New HTML Documents and Handle Advanced File Loading
 
-When it comes to generating new HTML documents, Aspose.HTML for Java offers a robust solution that enables you to build rich web content from scratch. Whether you're working on a content management system or need to generate reports in HTML format, understanding how to create and manage new HTML documents is crucial. Additionally, advanced file loading techniques allow you to work with complex HTML documents, ensuring that you can handle large-scale projects with ease. These tutorials guide you through every step, ensuring you're equipped to tackle any HTML-related challenge. [Read more](./generate-new-html-documents/)
+When it comes to generating new HTML documents, Aspose.HTML for Java offers a robust solution that enables you to build rich web content from scratch. Whether you're working on a content management system or need to generate reports in HTML format, understanding how to create and manage new HTML documents is crucial. Additionally, advanced file loading techniques allow you to work with complex HTML documents, ensuring that you can handle large‑scale projects with ease. These tutorials guide you through every step, ensuring you're equipped to tackle any HTML‑related challenge. [Read more](./generate-new-html-documents/)
 
 ## Managing SVG Documents and Handling Events
 
-Finally, for those looking to push their skills even further, there’s a wealth of advanced topics to explore. Learn how to manage SVG documents or handle document load events to create responsive and dynamic web applications. These tutorials take you beyond HTML, diving into the intricacies of Scalable Vector Graphics (SVG) and event-driven programming. [Read more](./create-manage-svg-documents/)
+Finally, for those looking to push their skills even further, there’s a wealth of advanced topics to explore. Learn how to manage SVG documents or handle document load events to create responsive and dynamic web applications. These tutorials take you beyond HTML, diving into the intricacies of Scalable Vector Graphics (SVG) and event‑driven programming. [Read more](./create-manage-svg-documents/)
 
 ## Creating and Managing HTML Documents in Aspose.HTML for Java Tutorials
 ### [Create HTML Documents Asynchronously in Aspose.HTML for Java](./create-html-documents-async/)
@@ -56,6 +56,8 @@ Learn how to load HTML documents from streams using Aspose.HTML for Java. This g
 Learn how to create HTML documents from strings in Aspose.HTML for Java with this step-by-step guide.
 ### [How to Query HTML in Java – Complete Tutorial](./how-to-query-html-in-java-complete-tutorial/)
 Learn how to query HTML in Java using Aspose.HTML with this comprehensive step-by-step guide.
+### [How to query xpath in Java with Aspose – Step‑by‑Step Guide](./how-to-query-xpath-in-java-with-aspose-step-by-step-guide/)
+Learn how to query XML using XPath in Java with Aspose.HTML, with a clear step‑by‑step guide for efficient data extraction.
 ### [Create sandbox for HTML in Java – Step‑by‑Step Guide](./create-sandbox-for-html-in-java-step-by-step-guide/)
 Learn how to set up a secure HTML sandbox in Java using Aspose.HTML with this detailed step-by-step guide.
 ### [Load HTML Documents from URL in Aspose.HTML for Java](./load-html-documents-from-url/)

@@ -58,6 +58,8 @@ Lär dig hur du skapar HTML-dokument från strängar i Aspose.HTML för Java med
 Upptäck hur du enkelt laddar HTML-dokument från en URL i Java med Aspose.HTML. Steg-för-steg handledning ingår.
 ### [Hur du frågar HTML i Java – Komplett handledning](./how-to-query-html-in-java-complete-tutorial/)
 Lär dig hur du söker och extraherar data från HTML-dokument i Java med en komplett steg-för-steg-guide.
+### [Hur du frågar xpath i Java med Aspose – Steg‑för‑steg‑guide](./how-to-query-xpath-in-java-with-aspose-step-by-step-guide/)
+Lär dig hur du använder XPath för att söka i HTML med Aspose i Java. En detaljerad steg‑för‑steg‑guide.
 ### [Generera nya HTML-dokument med Aspose.HTML för Java](./generate-new-html-documents/)
 Lär dig hur du skapar nya HTML-dokument med Aspose.HTML för Java med denna enkla steg-för-steg-guide. Börja generera dynamiskt HTML-innehåll.
 ### [Hantera dokumentladdningshändelser i Aspose.HTML för Java](./handle-document-load-events/)

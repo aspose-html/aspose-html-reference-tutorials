@@ -60,6 +60,7 @@ Web geliştiricileri ve içerik oluşturucuları için mükemmel olan bu adım a
 Kolay adım adım eğitimimiz ile Java için Aspose.HTML'i kullanarak HTML belgelerinde dahili CSS'yi uygulamayı öğrenin.
 ### [Sabit iş parçacığı havuzu java – ExecutorService ile Paralel HTML Temizleme](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 ExecutorService kullanarak sabit iş parçacığı havuzu ile HTML belgelerini paralel olarak temizlemeyi öğrenin.
+### [Java için Aspose.HTML'de Otomatik Kilit Bırakma – Thread‑Safe HTML Düzenleme Öğreticisi](./automatic-lock-release-in-java-thread-safe-html-editing-tuto/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

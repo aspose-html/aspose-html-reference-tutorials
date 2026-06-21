@@ -128,6 +128,8 @@ Học cách điều chỉnh kích thước trang PDF với Aspose.HTML for Java.
 Học cách điều chỉnh kích thước trang XPS với Aspose.HTML for Java. Kiểm soát kích thước đầu ra của tài liệu XPS một cách dễ dàng.
 ### [Cách chạy JavaScript trong Java – Hướng dẫn toàn diện](./how-to-run-javascript-in-java-complete-guide/)
 Hướng dẫn chi tiết cách thực thi mã JavaScript trong ứng dụng Java bằng Aspose.HTML, bao gồm thiết lập môi trường và ví dụ thực tế.
+### [Cách tải HTML trong Java – Ví dụ đầy đủ Aspose.HTML bất đồng bộ](./how-to-load-html-in-java-complete-aspose-html-async-example/)
+Hướng dẫn chi tiết cách tải tài liệu HTML bất đồng bộ trong Java bằng Aspose.HTML, bao gồm cấu hình và ví dụ thực tế.
 
 ---
 

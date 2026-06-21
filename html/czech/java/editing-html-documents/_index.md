@@ -60,6 +60,8 @@ Naučte se, jak spravovat vnitřní a vnější vlastnosti HTML v Aspose.HTML fo
 Naučte se implementovat interní CSS do HTML dokumentů pomocí Aspose.HTML for Java s naším jednoduchým návodem krok za krokem.
 ### [Fixní vlákno pool v Javě – paralelní čištění HTML pomocí ExecutorService](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 Naučte se, jak využít fixní pool vláken v Javě k paralelnímu čištění HTML pomocí ExecutorService.
+### [Automatické uvolnění zámku v Javě – Tutoriál pro bezpečnou úpravu HTML](./automatic-lock-release-in-java-thread-safe-html-editing-tuto/)
+Naučte se, jak automaticky uvolňovat zámky při úpravě HTML v Javě, aby byly operace vlákny‑bezpečné.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
