@@ -45,6 +45,8 @@ Apprenez à convertir un fichier SVG en PDF avec Aspose.HTML pour .NET. Tutoriel
 Apprenez à convertir SVG en XPS à l'aide d'Aspose.HTML pour .NET. Boostez votre développement Web avec cette puissante bibliothèque.
 ### [Comment activer l'anticrénelage en C# – Bords lisses](./how-to-enable-antialiasing-in-c-smooth-edges/)
 Apprenez à activer l'anticrénelage en C# pour obtenir des bords d'images lisses avec Aspose.HTML.
+### [Comment activer l'anticrénelage en C# – Guide complet du style de police](./how-to-enable-antialiasing-in-c-complete-font-style-guide/)
+Apprenez à activer l'anticrénelage en C# et à maîtriser les styles de police pour des rendus texte nets avec Aspose.HTML.
 
 ## Conclusion
 
