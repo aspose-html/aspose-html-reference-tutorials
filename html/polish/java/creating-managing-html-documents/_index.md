@@ -66,6 +66,8 @@ Naucz się tworzyć i zarządzać dokumentami SVG za pomocą Aspose.HTML dla Jav
 Dowiedz się, jak skonfigurować bezpieczną piaskownicę HTML w Javie, aby testować i uruchamiać kod w izolowanym środowisku.
 ### [Jak zapytać HTML w Javie – Kompletny samouczek](./how-to-query-html-in-java-complete-tutorial/)
 Dowiedz się, jak efektywnie zapytać i przetwarzać dokumenty HTML w Javie przy użyciu Aspose.HTML.
+### [Jak używać XPath w Javie – odczyt HTML i wyodrębnianie tekstu](./how-to-use-xpath-in-java-read-html-and-extract-text/)
+Naucz się, jak wykorzystać XPath w Javie do odczytu dokumentów HTML i wyciągania potrzebnego tekstu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

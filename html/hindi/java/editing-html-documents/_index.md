@@ -47,7 +47,7 @@ url: /hi/java/editing-html-documents/
 ### [Java के लिए Aspose.HTML में HTML दस्तावेज़ ट्री संपादित करें](./edit-html-document-tree/)
 जानें कि Java के लिए Aspose.HTML का उपयोग करके HTML दस्तावेज़ों में हेरफेर कैसे करें। कुशल सामग्री प्रबंधन के लिए चरण-दर-चरण मार्गदर्शिका।
 ### [Java के लिए Aspose.HTML में उन्नत HTML दस्तावेज़ ट्री संपादन](./advanced-html-document-tree-editing/)
-इस चरण-दर-चरण मार्गदर्शिका के साथ Java के लिए Aspose.HTML का उपयोग करके HTML दस्तावेज़ों को संपादित करने का तरीका जानें, जिसमें शैलियाँ, पैराग्राफ़ बनाना और PDF में परिवर्तित करना शामिल है।
+इस चरण-दर-चरण मार्गदर्शिका के साथ Java के लिए Aspose.HTML का उपयोग करके HTML दस्तावेज़ को संपादित करने का तरीका जानें, जिसमें शैलियाँ, पैराग्राफ़ बनाना और PDF में परिवर्तित करना शामिल है।
 ### [Java के लिए Aspose.HTML में HTML दस्तावेज़ों पर बाह्य CSS लागू करें](./apply-external-css-html-documents/)
 जानें कि Java के लिए Aspose.HTML का उपयोग करके HTML दस्तावेज़ों पर बाहरी CSS कैसे लागू करें! संपूर्ण ट्यूटोरियल के लिए इस चरण-दर-चरण मार्गदर्शिका का पालन करें।
 ### [Java के लिए Aspose.HTML के साथ उन्नत बाह्य CSS संपादन](./advanced-external-css-editing/)
@@ -55,11 +55,16 @@ Aspose.HTML for Java के साथ बाहरी CSS को संपाद
 ### [Java के लिए Aspose.HTML में HTML दस्तावेज़ों में इनलाइन CSS जोड़ें](./add-inline-css-html-documents/)
 Java के लिए Aspose.HTML का उपयोग करके HTML दस्तावेज़ों में इनलाइन CSS जोड़ना सीखें। यह चरण-दर-चरण मार्गदर्शिका आपको HTML को स्टाइल करने और इसे आसानी से PDF में बदलने में मदद करती है।
 ### [Java के लिए Aspose.HTML में आंतरिक और बाहरी HTML गुण प्रबंधित करें](./manage-inner-outer-html-properties/)
-इस चरण-दर-चरण मार्गदर्शिका के साथ Java के लिए Aspose.HTML में आंतरिक और बाहरी HTML गुणों को प्रबंधित करना सीखें, जो वेब डेवलपर्स और सामग्री निर्माताओं के लिए एकदम सही है।
+इस चरण-दर-स्तर मार्गदर्शिका के साथ Java के लिए Aspose.HTML में आंतरिक और बाहरी HTML गुणों को प्रबंधित करना सीखें, जो वेब डेवलपर्स और सामग्री निर्माताओं के लिए एकदम सही है।
 ### [Java के लिए Aspose.HTML के साथ HTML दस्तावेज़ों में आंतरिक CSS लागू करें](./implement-internal-css-html-documents/)
 हमारे आसान चरण-दर-चरण ट्यूटोरियल के साथ Java के लिए Aspose.HTML का उपयोग करके HTML दस्तावेज़ों में आंतरिक CSS को लागू करना सीखें।
 ### [Fixed thread pool java – ExecutorService के साथ समानांतर HTML सफाई](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 ExecutorService के साथ Fixed Thread Pool का उपयोग करके समानांतर रूप से HTML को साफ़ करने की प्रक्रिया सीखें।
+### [Java के लिए Aspose.HTML में HTML से स्क्रिप्ट हटाने की पूरी गाइड](./how-to-remove-scripts-from-html-in-java-complete-guide/)
+Java में Aspose.HTML का उपयोग करके HTML दस्तावेज़ों से सभी स्क्रिप्ट टैग को सुरक्षित रूप से हटाने के चरण-दर-स्टेप मार्गदर्शन।
+### [HTML को हाइलाइट कैसे करें – टेक्स्ट खोजें और <mark> से बदलें](./how-to-highlight-html-search-text-replace-with-mark/)
+Java के लिए Aspose.HTML का उपयोग करके HTML में टेक्स्ट खोजें और <mark> टैग से हाइलाइट करने की चरण-दर-चरण गाइड।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

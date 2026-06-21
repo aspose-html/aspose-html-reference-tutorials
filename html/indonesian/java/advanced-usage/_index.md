@@ -127,6 +127,8 @@ Pelajari cara menyesuaikan ukuran halaman XPS dengan Aspose.HTML untuk Java. Kon
 ### [Cara Menjalankan JavaScript di Java – Panduan Lengkap](./how-to-run-javascript-in-java-complete-guide/)
 Pelajari cara menjalankan kode JavaScript dalam aplikasi Java dengan Aspose.HTML untuk Java secara lengkap.
 
+### [Panggil Java dari JavaScript – Panduan Lengkap untuk Async Fetch & Eksekusi Mesin JS](./call-java-from-javascript-complete-guide-to-async-fetch-js-e/)
+
 ---
 
 **Terakhir Diperbarui:** 2025-11-29  

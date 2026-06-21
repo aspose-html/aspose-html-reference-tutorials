@@ -58,8 +58,12 @@ url: /ru/java/editing-html-documents/
 Узнайте, как управлять внутренними и внешними свойствами HTML в Aspose.HTML для Java, с помощью этого пошагового руководства, идеально подходящего для веб-разработчиков и создателей контента.
 ### [Внедрение внутреннего CSS в HTML-документы с помощью Aspose.HTML для Java](./implement-internal-css-html-documents/)
 Научитесь внедрять внутренний CSS в HTML-документы с помощью Aspose.HTML для Java с помощью нашего простого пошагового руководства.
+### [Как удалить скрипты из HTML в Java – Полное руководство](./how-to-remove-scripts-from-html-in-java-complete-guide/)
+Узнайте, как безопасно удалять скрипты из HTML‑документов в Java с помощью Aspose.HTML, следуя пошаговому полному руководству.
 ### [Фиксированный пул потоков Java – Параллельная очистка HTML с помощью ExecutorService](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 Узнайте, как использовать фиксированный пул потоков и ExecutorService для параллельной очистки HTML в Java.
+### [Как подсветить HTML – поиск текста и замена на <mark>](./how-to-highlight-html-search-text-replace-with-mark/)
+Узнайте, как искать определённый текст в HTML‑документе и заменять его тегом <mark> с помощью Aspose.HTML для Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

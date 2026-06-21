@@ -100,10 +100,16 @@ weight: 24
 ### [Преобразование HTML в PNG](./convert-html-to-png/)
 Узнайте, как преобразовывать изображения HTML в PNG в Java с помощью Aspose.HTML. Подробное руководство с пошаговыми инструкциями.
 
+### [Как установить DPI при конвертации HTML в PNG](./how-to-set-dpi-when-converting-html-to-png/)
+Узнайте, как задать разрешение DPI при преобразовании HTML в PNG с помощью Aspose.HTML for Java.
+
 ### [Преобразование HTML в TIFF](./convert-html-to-tiff/)
 Узнайте, как легко преобразовывать HTML в TIFF с помощью Aspose.HTML для Java. Пошаговое руководство по эффективной обработке документов.
 
-### [Преобразование HTML в WebP – Полное руководство Java с Aspose.HTML](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
+### [Преобразование HTML в WebP – Полное руководство Java с Aspose.HTML](./convert-html-to-webp-complete-java-guide/)
+Узнайте, как преобразовать HTML в WebP в Java с помощью Aspose.HTML. Полное пошаговое руководство.
+
+### [Преобразование HTML в WebP – Полное руководство Java](./convert-html-to-webp-complete-java-guide/)
 Узнайте, как преобразовать HTML в WebP в Java с помощью Aspose.HTML. Полное пошаговое руководство.
 
 ## Часто задаваемые вопросы

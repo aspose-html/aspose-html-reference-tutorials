@@ -58,7 +58,10 @@ Lär dig hur du lägger till inline CSS till HTML-dokument med Aspose.HTML för 
 Lär dig hur du hanterar inre och yttre HTML-egenskaper i Aspose.HTML för Java med denna steg-för-steg-guide, perfekt för webbutvecklare och innehållsskapare.
 ### [Implementera intern CSS i HTML-dokument med Aspose.HTML för Java](./implement-internal-css-html-documents/)
 Lär dig att implementera intern CSS i HTML-dokument med Aspose.HTML för Java med vår enkla steg-för-steg handledning.
+### [Hur man markerar HTML – sök text och ersätt med <mark>](./how-to-highlight-html-search-text-replace-with-mark/)
+Lär dig hur du markerar HTML genom att söka efter text och ersätta den med <mark>-taggen i Aspose.HTML för Java.
 ### [Fast trådpool i Java – parallell HTML‑rengöring med ExecutorService](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
+### [Hur man tar bort skript från HTML i Java – Komplett guide](./how-to-remove-scripts-from-html-in-java-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

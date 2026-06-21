@@ -127,7 +127,9 @@ Erfahren Sie, wie Sie die PDF‑Seitengröße mit Aspose.HTML für Java anpassen
 ### [XPS‑Seitengröße mit Aspose.HTML für Java anpassen](./adjust-xps-page-size/)
 Erfahren Sie, wie Sie die XPS‑Seitengröße mit Aspose.HTML für Java anpassen. Steuern Sie die Ausgabedimensionen Ihrer XPS‑Dokumente einfach.
 ### [Wie man JavaScript in Java ausführt – Komplettanleitung](./how-to-run-javascript-in-java-complete-guide/)
-Erfahren Sie, wie Sie JavaScript-Code innerhalb von Java-Anwendungen ausführen und integrieren können.
+Erfahren Sie, wie Sie JavaScript-Code innerhalb
+### [Java aus JavaScript aufrufen – Komplettanleitung zu Async Fetch & JS‑Engine‑Ausführung](./call-java-from-javascript-complete-guide-to-async-fetch-js-e/)
+Erfahren Sie, wie Sie Java‑Methoden aus JavaScript asynchron aufrufen und die Java‑Script‑Engine in Aspose.HTML für Java nutzen.
 
 ---
 

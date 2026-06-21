@@ -137,6 +137,9 @@ Aprenda a ajustar o tamanho de página XPS com Aspose.HTML for Java. Controle fa
 ### [Como Executar JavaScript em Java – Guia Completo](./how-to-run-javascript-in-java-complete-guide/)
 Aprenda a executar código JavaScript dentro de aplicações Java usando Aspose.HTML for Java.
 
+### [Chamar Java a partir de JavaScript – Guia Completo de Fetch Assíncrono e Execução do Motor JS](./call-java-from-javascript-complete-guide-to-async-fetch-js-e/)
+Aprenda a invocar código Java a partir de JavaScript, executar chamadas assíncronas e utilizar o motor JavaScript integrado ao Aspose.HTML.
+
 ---
 
 **Última atualização:** 2025-11-29  

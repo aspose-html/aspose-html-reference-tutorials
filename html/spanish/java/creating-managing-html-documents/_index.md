@@ -60,6 +60,8 @@ Aprenda a crear documentos HTML a partir de cadenas en Aspose.HTML para Java con
 Descubra cómo cargar fácilmente documentos HTML desde una URL en Java con Aspose.HTML. Incluye tutorial paso a paso.
 ### [Cómo consultar HTML en Java – Tutorial completo](./how-to-query-html-in-java-complete-tutorial/)
 Aprenda a consultar documentos HTML en Java usando Aspose.HTML con esta guía paso a paso completa.
+### [Cómo usar XPath en Java – Leer HTML y extraer texto](./how-to-use-xpath-in-java-read-html-and-extract-text/)
+Aprenda a usar XPath en Java para leer HTML y extraer texto fácilmente.
 ### [Generar nuevos documentos HTML con Aspose.HTML para Java](./generate-new-html-documents/)
 Aprenda a crear nuevos documentos HTML con Aspose.HTML para Java con esta sencilla guía paso a paso. Comience a generar contenido HTML dinámico.
 ### [Gestión de eventos de carga de documentos en Aspose.HTML para Java](./handle-document-load-events/)
