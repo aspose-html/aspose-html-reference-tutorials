@@ -65,6 +65,10 @@ Pelajari cara membuat dan mengelola dokumen SVG menggunakan Aspose.HTML untuk Ja
 ### [Buat Sandbox untuk HTML di Java – Panduan Langkah‑per‑Langkah](./create-sandbox-for-html-in-java-step-by-step-guide/)
 Pelajari cara membuat sandbox HTML di Java dengan panduan langkah demi langkah untuk pengujian dan pengembangan yang aman.
 ### [Cara Menanyakan HTML di Java – Tutorial Lengkap](./how-to-query-html-in-java-complete-tutorial/)
+### [Cara Menanyakan HTML dengan Aspose.HTML – Panduan Lengkap Java](./how-to-query-html-with-aspose-html-complete-java-guide/)
+Pelajari cara menanyakan dan mengekstrak data HTML menggunakan Aspose.HTML dalam Java dengan panduan langkah demi langkah lengkap.
+### [Mengonversi Markdown ke HTML di Java – Panduan Cepat dengan Aspose](./convert-markdown-to-html-in-java-quick-guide-with-aspose/)
+Pelajari cara mengonversi file Markdown menjadi HTML di Java menggunakan Aspose.HTML dengan panduan singkat langkah demi langkah.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

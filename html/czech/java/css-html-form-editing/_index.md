@@ -32,6 +32,9 @@ Naučte se používat Aspose.HTML pro Java k aplikaci pokročilých technik CSS,
 V tomto podrobném průvodci se dozvíte, jak programově upravovat a odesílat formuláře HTML pomocí Aspose.HTML for Java.
 ### [Výběr elementu podle třídy v Javě – kompletní průvodce](./select-element-by-class-in-java-complete-how-to-guide/)
 Naučte se, jak pomocí Aspose.HTML pro Javu vybrat HTML element podle třídy a manipulovat s ním.
+### [Jak číst CSS v Javě – Simulace mobilního displeje a testování media queries](./how-to-read-css-in-java-simulate-mobile-screen-test-media-qu/)
+Naučte se, jak v Javě načíst CSS, simulovat mobilní zařízení a ověřovat media queries pro responzivní design.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

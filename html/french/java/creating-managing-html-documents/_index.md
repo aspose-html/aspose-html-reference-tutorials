@@ -66,6 +66,10 @@ Apprenez à créer et à gérer des documents SVG à l'aide d'Aspose.HTML pour J
 Apprenez à créer un environnement sécurisé pour manipuler du HTML en Java avec Aspose.HTML, guide complet pas à pas.
 ### [Comment interroger le HTML en Java – Tutoriel complet](./how-to-query-html-in-java-complete-tutorial/)
 Apprenez à interroger et extraire des données HTML en Java avec Aspose.HTML grâce à ce guide complet étape par étape.
+### [Comment interroger le HTML avec Aspose.HTML – Guide complet Java](./how-to-query-html-with-aspose-html-complete-java-guide/)
+Apprenez à interroger le HTML en Java avec Aspose.HTML grâce à ce guide complet étape par étape.
+### [Convertir le Markdown en HTML en Java – Guide rapide avec Aspose](./convert-markdown-to-html-in-java-quick-guide-with-aspose/)
+Apprenez à transformer du Markdown en HTML en Java avec Aspose.HTML grâce à ce guide rapide et pratique.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
