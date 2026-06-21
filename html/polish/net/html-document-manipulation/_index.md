@@ -61,6 +61,8 @@ Dowiedz się, jak wykorzystać potencjał pakietu Aspose.HTML dla platformy .NET
 Uwolnij moc Aspose.HTML dla .NET. Naucz się łatwo tworzyć, manipulować i optymalizować dokumenty HTML i SVG. Poznaj przykłady krok po kroku i często zadawane pytania.
 ### [Edycja dokumentu w .NET za pomocą Aspose.HTML](./editing-a-document/)
 Twórz wciągające treści internetowe za pomocą Aspose.HTML dla .NET. Dowiedz się, jak manipulować HTML, CSS i nie tylko.
+### [Dodaj element do ciała – Kompletny przewodnik C# z Aspose.HTML](./append-element-to-body-complete-c-guide-with-aspose-html/)
+Dowiedz się, jak dodać element do sekcji body dokumentu HTML przy użyciu Aspose.HTML w C#.
 ### [Zapisywanie dokumentu w .NET za pomocą Aspose.HTML](./saving-a-document/)
 Odblokuj moc Aspose.HTML dla .NET dzięki naszemu przewodnikowi krok po kroku. Naucz się tworzyć, manipulować i konwertować dokumenty HTML i SVG
 ### [Łączenie HTML z Json w .NET za pomocą Aspose.HTML](./merge-html-with-json/)
