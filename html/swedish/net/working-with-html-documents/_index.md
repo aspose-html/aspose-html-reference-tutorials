@@ -43,6 +43,10 @@ Lär dig spara HTML i C# med en anpassad resurs‑hanterare och generera komplet
 
 Lär dig hur du använder CSS och C# för att göra rubriker fetstilta i dina HTML‑dokument med en steg‑för‑steg‑guide.
 
+### [Hur man sparar HTML med Aspose – Komplett C#‑guide](./how-to-save-html-with-aspose-complete-c-guide/)
+
+### [Hur man zippar HTML i C# – Komplett guide för att skapa ZIP‑arkiv](./how-to-zip-html-in-c-complete-guide-to-create-zip-archive/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

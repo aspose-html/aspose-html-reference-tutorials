@@ -39,6 +39,8 @@ url: /el/net/html-extensions-and-conversions/
 ## Εκμάθηση επεκτάσεων και μετατροπών HTML
 ### [Μετατροπή HTML σε PDF στο .NET με το Aspose.HTML](./convert-html-to-pdf/)
 Μετατρέψτε HTML σε PDF χωρίς κόπο με το Aspose.HTML για .NET. Ακολουθήστε τον οδηγό βήμα προς βήμα και απελευθερώστε τη δύναμη της μετατροπής HTML σε PDF.
+### [Οδηγός HTML σε PDF – Μετατροπή HTML σε PDF με C#](./html-to-pdf-tutorial-convert-html-to-pdf-in-c/)
+Μετατρέψτε HTML σε PDF χρησιμοποιώντας C# και Aspose.HTML. Ακολουθήστε τον βήμα‑βήμα οδηγό για γρήγορη ενσωμάτωση.
 ### [Δημιουργία PDF από HTML – Οδηγός βήμα‑βήμα C#](./create-pdf-from-html-c-step-by-step-guide/)
 Δημιουργήστε PDF από HTML με C# χρησιμοποιώντας το Aspose.HTML. Οδηγός βήμα‑βήμα για γρήγορη και εύκολη υλοποίηση.
 ### [Μετατρέψτε το EPUB σε Εικόνα στο .NET με το Aspose.HTML](./convert-epub-to-image/)
@@ -68,7 +70,7 @@ url: /el/net/html-extensions-and-conversions/
 ### [Πώς να συμπιέσετε HTML σε C# – Αποθήκευση HTML σε Zip](./how-to-zip-html-in-c-save-html-to-zip/)
 Μάθετε πώς να συμπιέσετε αρχεία HTML σε αρχείο ZIP χρησιμοποιώντας το Aspose.HTML για .NET σε C#.
 ### [Δημιουργία εγγράφου HTML με μορφοποιημένο κείμενο και εξαγωγή σε PDF – Πλήρης οδηγός](./create-html-document-with-styled-text-and-export-to-pdf-full/)
-Μάθετε πώς να δημιουργήσετε ένα έγγραφο HTML με μορφοποιημένο κείμενο και να το εξάγετε σε PDF χρησιμοποιώντας το Aspose.HTML για .NET.
+Μάθετε πώς να δημιουργήσετε ένα έγγραφο HTML με μορφοποιμένο κείμενο και να το εξάγετε σε PDF χρησιμοποιώντας το Aspose.HTML για .NET.
 ### [Αποθήκευση HTML ως ZIP – Πλήρης Εκπαιδευτικό C#](./save-html-as-zip-complete-c-tutorial/)
 Μάθετε πώς να αποθηκεύετε HTML σε αρχείο ZIP με C# και Aspose.HTML.
 ### [Αποθήκευση HTML σε ZIP σε C# – Πλήρες Παράδειγμα Εντός Μνήμης](./save-html-to-zip-in-c-complete-in-memory-example/)

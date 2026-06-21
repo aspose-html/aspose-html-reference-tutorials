@@ -38,6 +38,8 @@ url: /ar/net/working-with-html-documents/
 
 ### [كيفية حفظ HTML في C# – دليل كامل باستخدام معالج موارد مخصص](./how-to-save-html-in-c-complete-guide-using-a-custom-resource/)
 ### [كيفية جعل العنوان غامقًا باستخدام CSS و C# – دليل خطوة بخطوة كامل](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
+### [كيفية حفظ HTML باستخدام Aspose – دليل كامل C#](./how-to-save-html-with-aspose-complete-c-guide/)
+### [كيفية ضغط HTML في C# – دليل كامل لإنشاء أرشيف ZIP](./how-to-zip-html-in-c-complete-guide-to-create-zip-archive/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
