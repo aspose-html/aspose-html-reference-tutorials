@@ -58,6 +58,8 @@ Naučte se vytvářet HTML dokumenty z řetězců v Aspose.HTML pro Java pomocí
 Objevte, jak snadno načíst HTML dokumenty z URL v Javě pomocí Aspose.HTML. Včetně návodu krok za krokem.
 ### [Generujte nové HTML dokumenty pomocí Aspose.HTML pro Java](./generate-new-html-documents/)
 Naučte se vytvářet nové HTML dokumenty pomocí Aspose.HTML for Java pomocí tohoto jednoduchého průvodce krok za krokem. Začněte generovat dynamický obsah HTML.
+### [Převod Markdownu na HTML v Javě – krok‑za‑krokem průvodce](./convert-markdown-to-html-in-java-step-by-step-guide/)
+Naučte se převádět Markdown na HTML v Javě pomocí Aspose.HTML s podrobným návodem krok za krokem.
 ### [Zvládejte události načítání dokumentu v Aspose.HTML pro Java](./handle-document-load-events/)
 Naučte se zvládat události načítání dokumentů v Aspose.HTML pro Java pomocí tohoto podrobného průvodce. Vylepšete své webové aplikace.
 ### [Vytvořte sandbox pro HTML v Javě – krok‑za‑krokem průvodce](./create-sandbox-for-html-in-java-step-by-step-guide/)
@@ -66,6 +68,10 @@ Naučte se, jak vytvořit sandboxové prostředí pro bezpečnou manipulaci s HT
 Naučte se vytvářet a spravovat dokumenty SVG pomocí Aspose.HTML pro Javu! Tento komplexní průvodce pokrývá vše od základní tvorby až po pokročilou manipulaci.
 ### [Jak dotazovat HTML v Javě – Kompletní tutoriál](./how-to-query-html-in-java-complete-tutorial/)
 Kompletní průvodce, jak v Javě dotazovat a získávat data z HTML pomocí Aspose.HTML, včetně příkladů a tipů.
+### [Výběr divu podle třídy v Javě – Kompletní průvodce XPath](./select-div-by-class-in-java-complete-xpath-guide/)
+Naučte se pomocí XPath vybrat element <div> podle třídy v Javě s podrobným krok‑za‑krokem průvodcem.
+### [Renderování HTML v Javě – Kompletní průvodce čekáním na načtení stránky a query selector](./render-html-in-java-complete-guide-to-waiting-for-page-load/)
+Naučte se, jak renderovat HTML v Javě, čekat na načtení stránky a používat query selector pro získání elementů.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

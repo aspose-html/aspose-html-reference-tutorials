@@ -74,6 +74,8 @@ Aspose.HTML for Java'ı kullanarak EPUB dosyalarını görüntülere dönüştü
 Aspose.HTML for Java'ı kullanmayı öğrenin: EPUB'yi görüntüye ve daha fazlasına dönüştürün. Adım adım rehberimizi keşfedin.
 ### [Converting EPUB to Image](./convert-epub-to-image/)
 Aspose.HTML for Java ile EPUB'yi görüntülere dönüştürmeyi öğrenin. Dijital içeriğinizi zahmetsizce dönüştürün. Adım adım rehber dahil.
+### [Java'da Gömülü Yazı Tipleriyle EPUB'tan PDF'ye Dönüştürme](./convert-epub-to-pdf-with-embedded-fonts-in-java/)
+Aspose.HTML for Java ile EPUB'tan PDF'ye dönüşürken yazı tiplerini nasıl gömeceğinizi adım adım öğrenin.
 
 ## Sıkça Sorulan Sorular
 

@@ -66,6 +66,12 @@ Leer SVG-documenten maken en beheren met Aspose.HTML voor Java! Deze uitgebreide
 Leer hoe u een veilige sandboxomgeving voor HTML in Java opzet met een stapsgewijze handleiding.
 ### [HTML opvragen in Java – Complete tutorial](./how-to-query-html-in-java-complete-tutorial/)
 Leer hoe u HTML kunt query'en in Java met deze volledige stap‑voor‑stap handleiding.
+### [Selecteer div op class in Java – Complete XPath-gids](./select-div-by-class-in-java-complete-xpath-guide/)
+Leer hoe u met Aspose.HTML voor Java een div-element selecteert op basis van class met XPath. Volledige stapsgewijze gids.
+### [HTML renderen in Java – Complete gids voor wachten op paginalading en query selector](./render-html-in-java-complete-guide-to-waiting-for-page-load/)
+Leer hoe u HTML rendert in Java, wacht op paginalading en gebruik query selector met deze volledige stap‑voor‑stap handleiding.
+### [Markdown naar HTML converteren in Java – Stapsgewijze handleiding](./convert-markdown-to-html-in-java-step-by-step-guide/)
+Leer hoe u Markdown-bestanden converteert naar HTML in Java met Aspose.HTML, inclusief een stapsgewijze handleiding.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

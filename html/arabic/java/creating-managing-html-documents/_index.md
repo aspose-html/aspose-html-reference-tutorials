@@ -66,6 +66,12 @@ url: /ar/java/creating-managing-html-documents/
 تعلم كيفية إنشاء بيئة تجريبية لمعالجة HTML في Java باستخدام Aspose.HTML من خلال دليل خطوة بخطوة.
 ### [كيفية الاستعلام عن HTML في Java – دليل كامل](./how-to-query-html-in-java-complete-tutorial/)
 تعلم كيفية استعلام ومعالجة مستندات HTML في Java باستخدام Aspose.HTML من خلال دليل شامل خطوة بخطوة.
+### [اختيار div حسب الفئة في Java – دليل XPath كامل](./select-div-by-class-in-java-complete-xpath-guide/)
+تعلم كيفية اختيار عناصر div حسب الفئة في Java باستخدام XPath من خلال دليل شامل خطوة بخطوة.
+### [عرض HTML في Java – دليل كامل للانتظار حتى تحميل الصفحة ومحدد الاستعلام](./render-html-in-java-complete-guide-to-waiting-for-page-load/)
+تعلم كيفية عرض صفحات HTML في Java مع الانتظار حتى اكتمال التحميل واستخدام محددات الاستعلام لمعالجة المحتوى.
+### [تحويل Markdown إلى HTML في Java – دليل خطوة بخطوة](./convert-markdown-to-html-in-java-step-by-step-guide/)
+تعلم كيفية تحويل ملفات Markdown إلى HTML في Java باستخدام Aspose.HTML من خلال دليل خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

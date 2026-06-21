@@ -82,6 +82,9 @@ Tanuld meg, hogyan használhatod az Aspose.HTML for Java-t: EPUB konvertálása 
 ### [EPUB konvertálása képpé](./convert-epub-to-image/)
 Tanuld meg, hogyan konvertálj EPUB‑t képekké az Aspose.HTML for Java segítségével. Átalakítsd digitális tartalmad könnyedén. Lépésről‑lépésre útmutató is tartalmaz.
 
+### [EPUB konvertálása PDF-be beágyazott betűtípusokkal Java-ban](./convert-epub-to-pdf-with-embedded-fonts-in-java/)
+Tanulja meg, hogyan ágyazhat be egyedi betűtípusokat az EPUB‑PDF konvertálás során Java‑ban az Aspose.HTML segítségével.
+
 ## Gyakran Ismételt Kérdések
 
 **Q:** *Konvertálhatok védett EPUB fájlokat PDF‑be?*  

@@ -58,6 +58,9 @@ weight: 27
 ### [كيفية تضمين الخطوط عند تحويل EPUB إلى PDF في Java](./how-to-embed-fonts-when-converting-epub-to-pdf-in-java/)
 تعلم كيفية تضمين الخطوط أثناء تحويل EPUB إلى PDF باستخدام Aspose.HTML for Java.
 
+### [تحويل EPUB إلى PDF مع تضمين الخطوط في Java](./convert-epub-to-pdf-with-embedded-fonts-in-java/)
+تعلم كيفية تحويل EPUB إلى PDF مع تضمين الخطوط باستخدام Aspose.HTML for Java.
+
 ### [تحويل EPUB إلى BMP](./convert-epub-to-bmp/)
 تعلم كيفية تحويل EPUB إلى BMP باستخدام Aspose.HTML for Java. دليل خطوة بخطوة لتحويل المحتوى بكفاءة.
 
