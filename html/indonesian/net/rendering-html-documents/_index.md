@@ -68,6 +68,9 @@ Pelajari cara menggunakan Aspose untuk mengonversi HTML menjadi PNG dengan pandu
 ### [Cara Merender HTML ke PNG dengan Aspose – Panduan Lengkap](./how-to-render-html-to-png-with-aspose-complete-guide/)
 Pelajari cara merender HTML menjadi PNG menggunakan Aspose dengan panduan lengkap langkah demi langkah.
 
+### [Cara Mengaktifkan Antialiasing untuk HTML‑to‑PDF di C#](./how-to-enable-antialiasing-for-html-to-pdf-in-c/)
+Pelajari cara mengaktifkan antialiasing saat mengonversi HTML ke PDF menggunakan Aspose.HTML untuk .NET dengan contoh kode C#.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
