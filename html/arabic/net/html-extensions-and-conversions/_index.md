@@ -41,6 +41,7 @@ url: /ar/net/html-extensions-and-conversions/
 قم بتحويل HTML إلى PDF بسهولة باستخدام Aspose.HTML for .NET. اتبع دليلنا خطوة بخطوة واكتشف قوة تحويل HTML إلى PDF.
 ### [إنشاء PDF من HTML – دليل خطوة بخطوة بلغة C#](./create-pdf-from-html-c-step-by-step-guide/)
 دليل خطوة بخطوة لإنشاء ملف PDF من HTML باستخدام C# ومكتبة Aspose.HTML.
+### [إنشاء PDF من HTML باستخدام Aspose – دليل خطوة بخطوة](./create-pdf-from-html-with-aspose-step-by-step-guide/)
 ### [إنشاء مستند HTML بنص منسق وتصديره إلى PDF – دليل كامل](./create-html-document-with-styled-text-and-export-to-pdf-full/)
 دليل شامل لإنشاء مستند HTML بنص منسق وتصديره إلى PDF باستخدام Aspose.HTML.
 ### [تحويل EPUB إلى صورة في .NET باستخدام Aspose.HTML](./convert-epub-to-image/)
@@ -73,6 +74,9 @@ url: /ar/net/html-extensions-and-conversions/
 تعلم كيفية حفظ مستند HTML كملف ZIP باستخدام Aspose.HTML في C# خطوة بخطوة.
 ### [حفظ HTML إلى ZIP في C# – مثال كامل في الذاكرة](./save-html-to-zip-in-c-complete-in-memory-example/)
 تعلم كيفية حفظ مستند HTML كملف ZIP في الذاكرة باستخدام C# ومكتبة Aspose.HTML.
+### [إنشاء مستند HTML وحفظه كملف ZIP – دليل C# كامل](./create-html-document-and-save-as-zip-complete-c-guide/)
+تعلم كيفية إنشاء مستند HTML وحفظه كملف ZIP باستخدام C# ومكتبة Aspose.HTML خطوة بخطوة.
+### [إنشاء PDF من HTML – دليل كامل مع Aspose.Html](./create-pdf-from-html-complete-guide-with-aspose-html/)
 
 ## خاتمة
 
