@@ -71,6 +71,8 @@ Aprenda a usar Aspose.HTML para .NET. Importe namespace, mescle HTML com XML e a
 Desbloqueie o potencial do desenvolvimento web com Aspose.HTML para .NET. Crie, converta e manipule documentos HTML facilmente.
 ### [Criar HTML a partir de String em C# – Guia de Manipulador de Recurso Personalizado](./create-html-from-string-in-c-custom-resource-handler-guide/)
 Aprenda a gerar documentos HTML a partir de strings usando um manipulador de recurso personalizado em C# com Aspose.HTML.
+### [Como estilizar HTML com Aspose.HTML – Definir estilo de fonte em C#](./how-to-style-html-with-aspose-html-set-font-style-in-c/)
+Aprenda a definir estilos de fonte em documentos HTML usando Aspose.HTML com C#.
 
 ## Conclusão
 

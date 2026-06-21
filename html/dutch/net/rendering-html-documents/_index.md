@@ -60,6 +60,10 @@ Leer hoe u met Aspose.HTML HTML naar PNG kunt renderen met een duidelijke stap�
 Leer stap voor stap hoe u HTML naar PNG converteert met Aspose.HTML in deze volledige gids.
 ### [PNG maken vanuit HTML – Volledige C# Renderinggids](./create-png-from-html-full-c-rendering-guide/)
 Leer hoe u met Aspose.HTML voor .NET HTML naar PNG converteert met een volledige C#-renderinggids.
+### [HTML renderen als afbeelding – Complete gids om HTML naar JPEG te converteren](./render-html-as-image-complete-guide-to-convert-html-to-jpeg/)
+Leer stap voor stap hoe u HTML naar JPEG converteert met Aspose.HTML in deze volledige gids.
+### [Memory Stream maken in C# – Volledige gids met HTML-rendering en ZIP-export](./create-memory-stream-in-c-full-guide-with-html-rendering-zip/)
+Leer hoe u een Memory Stream maakt in C#, HTML rendert en de output als ZIP exporteert met Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
