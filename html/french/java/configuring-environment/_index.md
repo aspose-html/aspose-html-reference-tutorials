@@ -57,7 +57,7 @@ Si votre HTML fait référence à des ressources externes (CSS, JavaScript, imag
 
 ## Comment configurer le service d'exécution
 
-Le HTML dynamique contient souvent des scripts qui doivent s’exécuter avant le rendu. Le service d’exécution contrôle l’exécution des scripts, vous permettant de limiter l’utilisation du CPU, de définir des délais d’attente et d’éviter les boucles infinies—crucial pour des conversions stables et performantes.
+Le HTML dynamique contient souvent des scripts qui doivent s’exécuter avant le rendu. Le service d'exécution contrôle l’exécution des scripts, vous permettant de limiter l’utilisation du CPU, de définir des délais d’attente et d’éviter les boucles infinies—crucial pour des conversions stables et performantes.
 
 [Apprenez comment configurer le Runtime Service dans Aspose.HTML for Java.](./configure-runtime-service/)
 
@@ -116,6 +116,9 @@ Apprenez comment configurer le Runtime Service dans Aspose.HTML for Java pour op
 
 ### [Mettre en œuvre le sandboxing dans Aspose.HTML for Java](./implement-sandboxing/)
 Apprenez comment mettre en œuvre le sandboxing dans Aspose.HTML for Java pour contrôler en toute sécurité l’exécution des scripts dans vos documents HTML et les convertir en PDF.
+
+### [Comment utiliser le sandbox – définir l'agent utilisateur et obtenir la taille du viewport](./how-to-use-sandbox-set-user-agent-get-viewport-size/)
+Apprenez à configurer l'agent utilisateur et à récupérer la taille du viewport dans le sandbox d'Aspose.HTML for Java.
 
 ### [Définir une feuille de style utilisateur dans Aspose.HTML for Java](./set-user-style-sheet/)
 Apprenez comment définir une feuille de style utilisateur personnalisée dans Aspose.HTML for Java, améliorant le style de vos documents et convertissant HTML en PDF avec facilité.

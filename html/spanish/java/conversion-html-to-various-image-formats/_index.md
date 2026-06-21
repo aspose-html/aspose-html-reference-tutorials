@@ -65,6 +65,9 @@ Si necesita **convertir HTML a JPEG** para representaciones similares a fotos o 
 ## Conversión de HTML a PNG
 Transformar HTML en imágenes PNG es ideal para gráficos sin pérdida, capturas de pantalla o cuando se requiere transparencia. Nuestra guía completa proporciona instrucciones claras para una experiencia de conversión fluida.
 
+### [Convertir SVG a PNG con alta resolución – Guía Java](./convert-svg-to-png-with-high-resolution-java-guide/)
+Aprenda a convertir archivos SVG a PNG de alta resolución usando Aspose.HTML for Java. Guía paso a paso.
+
 ## Conversión de HTML a TIFF
 Convertir HTML a TIFF es perfecto para impresión de alta resolución o almacenamiento de archivo. Este tutorial describe los pasos exactos para generar archivos TIFF de manera eficiente usando Aspose.HTML for Java.
 

@@ -118,6 +118,8 @@ Learn how to implement sandboxing in Aspose.HTML for Java to securely control sc
 ### [Aspose.HTML for Java でユーザースタイルシートを設定する](./set-user-style-sheet/)
 Learn how to set a custom user stylesheet in Aspose.HTML for Java, enhancing your document styling and converting HTML to PDF with ease.
 
+### [Aspose.HTML for Java でサンドボックスを使用する – ユーザーエージェントの設定とビューポートサイズの取得](./how-to-use-sandbox-set-user-agent-get-viewport-size/)
+
 ---
 
 **最終更新日:** 2025-12-03  

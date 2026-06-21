@@ -117,6 +117,9 @@ A: 沙箱会限制某些 API（例如 `window.open`），但普通的 DOM 操作
 ### [在 Aspose.HTML for Java 中设置用户样式表](./set-user-style-sheet/)
 了解如何在 Aspose.HTML for Java 中设置自定义用户样式表，提升文档样式并轻松将 HTML 转换为 PDF。
 
+### [在 Aspose.HTML for Java 中使用沙箱 – 设置用户代理并获取视口大小](./how-to-use-sandbox-set-user-agent-get-viewport-size/)
+了解如何在 Aspose.HTML for Java 的沙箱环境中设置自定义用户代理并获取页面视口尺寸，以实现更精准的渲染控制。
+
 ---
 
 **最后更新：** 2025-12-03  

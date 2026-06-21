@@ -110,6 +110,7 @@ Lär dig hur du ställer in en nätverkstjänst i Aspose.HTML för Java, hantera
 Lär dig hur du konfigurerar Runtime‑tjänsten i Aspose.HTML för Java för att optimera skriptexekvering, förhindra oändliga loopar och förbättra applikationsprestanda.
 ### [Implement Sandboxing in Aspose.HTML for Java](./implement-sandboxing/)
 Lär dig hur du implementerar sandboxing i Aspose.HTML för Java för att säkert kontrollera skriptkörning i dina HTML‑dokument och konvertera dem till PDF.
+### [Hur man använder sandbox – Ställ in användaragents & hämta viewport‑storlek](./how-to-use-sandbox-set-user-agent-get-viewport-size/)
 ### [Set User Style Sheet in Aspose.HTML for Java](./set-user-style-sheet/)
 Lär dig hur du ställer in en anpassad användar‑stilmall i Aspose.HTML för Java, förbättrar ditt dokumentutseende och konverterar HTML till PDF med lätthet.
 
