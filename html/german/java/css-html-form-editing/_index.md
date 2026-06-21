@@ -32,6 +32,8 @@ Erfahren Sie, wie Sie mit Aspose.HTML für Java erweiterte CSS-Techniken anwende
 Erfahren Sie in dieser umfassenden Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.HTML für Java programmgesteuert HTML-Formulare bearbeiten und übermitteln.
 ### [Element per Klasse in Java auswählen – Komplett‑Anleitung](./select-element-by-class-in-java-complete-how-to-guide/)
 Erfahren Sie, wie Sie mit Aspose.HTML für Java Elemente anhand ihrer CSS‑Klasse auswählen und verarbeiten – Schritt‑für‑Schritt‑Anleitung.
+### [Element per ID in Java – Vollständige Anleitung zum Abrufen berechneter Stile](./get-element-by-id-in-java-full-guide-to-retrieve-computed-st/)
+Erfahren Sie, wie Sie mit Aspose.HTML für Java ein Element per ID auswählen und dessen berechnete CSS‑Stile programmgesteuert abrufen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

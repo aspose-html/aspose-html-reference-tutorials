@@ -52,6 +52,8 @@ Aspose.HTML for Java로 디지털 콘텐츠의 잠재력을 열어보세요. 지
 ## EPUB을 PDF로 변환하는 튜토리얼
 ### [EPUB을 PDF로 변환하기](./convert-epub-to-pdf/)
 Aspose.HTML for Java, 강력한 Java 라이브러리로 EPUB을 PDF 변환을 시작하세요. 접근성 높은 콘텐츠를 손쉽게 만들 수 있습니다.
+### [Java에서 EPUB을 PDF로 변환 – 목차 추가 및 전체 가이드](./convert-epub-to-pdf-in-java-add-toc-and-full-guide/)
+Aspose.HTML for Java를 사용해 EPUB에 목차를 포함한 PDF 변환 전체 과정을 단계별로 안내합니다.
 ### [EPUB을 PDF로 변환할 때 사용자 정의 스트림 제공자 지정하기](./convert-epub-to-pdf-specify-custom-stream-provider/)
 Aspose.HTML를 사용해 Java에서 EPUB을 PDF로 손쉽게 변환하고 문서 처리 능력을 향상시키는 방법을 배워보세요.
 ### [EPUB을 PDF로 변환할 때 PDF 저장 옵션 지정하기](./convert-epub-to-pdf-specify-pdf-save-options/)

@@ -32,6 +32,9 @@ Web geliştirmeye daldığınızda, CSS ve HTML formlarında ustalaşmak bisikle
 Bu kapsamlı adım adım kılavuzda, Aspose.HTML for Java'yı kullanarak HTML formlarını programlı olarak nasıl düzenleyeceğinizi ve göndereceğinizi öğrenin.
 ### [Java’da sınıfa göre öğe seçimi – Tam Kılavuz](./select-element-by-class-in-java-complete-how-to-guide/)
 Java’da belirli bir sınıfa sahip HTML öğelerini seçmeyi ve işlemeyi adım adım öğrenin.
+### [Java’da ID ile öğe alımı – Hesaplanmış stilleri elde etmek için tam rehber](./get-element-by-id-in-java-full-guide-to-retrieve-computed-st/)
+Bu kapsamlı rehberde, Java’da bir öğeyi ID’siyle seçip, hesaplanmış CSS stillerini adım adım nasıl alacağınızı öğrenin.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
