@@ -50,6 +50,8 @@ Erfahren Sie mit dieser umfassenden Schritt-für-Schritt-Anleitung, wie Sie Weba
 Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.HTML für Java ZIP-Dateien in JPG-Bilder konvertieren.
 ### [Konvertieren Sie ZIP in PDF mit Aspose.HTML für Java](./zip-to-pdf/)
 Konvertieren Sie Ihre ZIP-Dateien mit Aspose.HTML für Java mit dieser Schritt-für-Schritt-Anleitung ganz einfach in PDF.
+### [Abrufen von API-Daten in Java mit Aspose.HTML – Komplettanleitung](./fetch-api-data-in-java-with-aspose-html-complete-guide/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -32,6 +32,9 @@ Việc xây dựng các đường ống xử lý tin nhắn của riêng bạn c
 ## Thực hiện yêu cầu web trong Aspose.HTML cho Java
  Thực hiện các yêu cầu web là một khía cạnh quan trọng khác khi làm việc với Aspose.HTML cho Java. Từ việc tìm nạp nội dung của bên thứ ba đến quản lý tài nguyên từ xa, biết cách thực hiện các hành động này có thể là một bước ngoặt.[Thực hiện yêu cầu web trong Aspose.HTML cho Java](./web-request-execution/)hướng dẫn cung cấp một bản phân tích toàn diện về cách gửi và nhận dữ liệu hiệu quả. Hãy nghĩ về nó giống như việc gọi điện thoại: bạn muốn đảm bảo tin nhắn của mình được truyền tải liền mạch mà không có bất kỳ nhiễu nào. Việc thành thạo kỹ năng này giúp bạn có thể đưa thêm dữ liệu vào ứng dụng của mình, nâng cao khả năng xử lý tài liệu.
 
+### [Lấy dữ liệu API trong Java với Aspose.HTML - Hướng dẫn đầy đủ](./fetch-api-data-in-java-with-aspose-html-complete-guide/)
+Hướng dẫn chi tiết cách sử dụng Aspose.HTML để lấy dữ liệu từ API trong Java, từ cấu hình đến xử lý phản hồi.
+
 ## Chuyển đổi ZIP sang JPG và PDF
  Bạn đã bao giờ cần trích xuất hình ảnh từ một tệp nén một cách nhanh chóng chưa?[Chuyển đổi ZIP sang JPG bằng Aspose.HTML cho Java](./zip-to-jpg/) Và[Chuyển đổi ZIP sang PDF bằng Aspose.HTML cho Java](./zip-to-pdf/) hướng dẫn cung cấp cho bạn các công cụ cho những tác vụ cụ thể này. Việc chuyển đổi tệp không nhất thiết phải là một quá trình phức tạp—nó có thể đơn giản như việc biến một bản phác thảo thành một kiệt tác. Những hướng dẫn này chia nhỏ các bước để giúp bạn chuyển đổi tệp ZIP hiệu quả, thể hiện tính linh hoạt của Aspose.HTML cho Java.
 
@@ -46,6 +49,8 @@ Tìm hiểu cách quản lý thời gian chờ mạng bằng Aspose.HTML cho Jav
 Tìm hiểu cách tạo đường ống xử lý tin nhắn trong Aspose.HTML cho Java với hướng dẫn chi tiết từng bước này. Chuyển đổi ZIP sang PDF dễ dàng.
 ### [Thực hiện yêu cầu web trong Aspose.HTML cho Java](./web-request-execution/)
 Học cách thực hiện các yêu cầu web bằng Aspose.HTML cho Java với hướng dẫn từng bước toàn diện này. Nâng cao kỹ năng quản lý tài liệu HTML của bạn.
+### [Lấy dữ liệu API trong Java với Aspose.HTML - Hướng dẫn đầy đủ](./fetch-api-data-in-java-with-aspose-html-complete-guide/)
+Hướng dẫn chi tiết cách sử dụng Aspose.HTML để lấy dữ liệu từ API trong Java, từ cấu hình đến xử lý phản hồi.
 ### [Chuyển đổi ZIP sang JPG bằng Aspose.HTML cho Java](./zip-to-jpg/)
 Tìm hiểu cách chuyển đổi tệp ZIP sang ảnh JPG bằng Aspose.HTML cho Java với hướng dẫn từng bước này.
 ### [Chuyển đổi ZIP sang PDF bằng Aspose.HTML cho Java](./zip-to-pdf/)
