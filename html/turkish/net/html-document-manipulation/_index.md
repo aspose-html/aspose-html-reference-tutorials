@@ -71,6 +71,8 @@ Aspose.HTML for .NET kullanarak dinamik ve web içerikleri oluşturmayı öğren
 Aspose.HTML for .NET ile web geliştirmenin potansiyelini açığa çıkarın. HTML belgelerini kolayca oluşturun, dönüştürün ve düzenleyin.
 ### [C#'ta Dizeden HTML Oluşturma – Özel Kaynak İşleyici Rehberi](./create-html-from-string-in-c-custom-resource-handler-guide/)
 C# içinde dizeden HTML oluşturmayı ve özel kaynak işleyicisiyle nasıl kullanacağınızı öğrenin.
+### [C# ile HTML Belgesi Oluşturma – Özel Yazı Tipiyle Kalın İtalik Metin](./create-html-document-c-bold-italic-text-with-custom-font/)
+C# kullanarak özel bir yazı tipiyle kalın ve italik metin içeren HTML belgesi oluşturmayı öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

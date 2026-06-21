@@ -78,6 +78,12 @@ C# と Aspose.HTML を使用して、HTML コンテンツを Zip アーカイブ
 ### [C# で HTML を ZIP に保存 – 完全インメモリ例](./save-html-to-zip-in-c-complete-in-memory-example/)
 Aspose.HTML for .NET を使用して、HTML をメモリ内で ZIP アーカイブに保存する手順をステップバイステップで解説します。
 
+### [C# カスタムリソースハンドラ – HTML をロードして ZIP に保存](./custom-resource-handler-in-c-load-html-and-save-as-zip/)
+Aspose.HTML for .NET を使用して、カスタム リソース ハンドラで HTML を読み込み、ZIP アーカイブとして保存する方法をステップバイステップで解説します。
+
+### [Aspose.HTML を使用して HTML を Zip に圧縮する – ステップバイステップ ガイド](./how-to-zip-html-with-aspose-html-step-by-step-guide/)
+Aspose.HTML を使用して HTML を Zip アーカイブに圧縮する手順をステップバイステップで解説します。
+
 ## 結論
 
 結論として、HTML の拡張と変換は、現代の Web 開発に不可欠な要素です。Aspose.HTML for .NET はプロセスを簡素化し、あらゆるレベルの開発者が利用できるようにします。当社のチュートリアルに従うことで、幅広いスキルを備えた熟練した Web 開発者になるための道を順調に進むことができます。

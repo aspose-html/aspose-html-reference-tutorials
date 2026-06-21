@@ -59,6 +59,8 @@ Schöpfen Sie das Potenzial von Aspose.HTML für .NET mit unserem umfassenden Ha
 Erfahren Sie, wie Sie die Leistung von Aspose.HTML für .NET nutzen. Optimieren Sie Ihre Webentwicklung mit HTML-Manipulation und -Rendering.
 ### [Erstellen eines Dokuments in .NET mit Aspose.HTML](./creating-a-document/)
 Entfesseln Sie die Leistungsfähigkeit von Aspose.HTML für .NET. Lernen Sie, HTML- und SVG-Dokumente mühelos zu erstellen, zu bearbeiten und zu optimieren. Entdecken Sie Schritt-für-Schritt-Beispiele und FAQs.
+### [HTML-Dokument in C# erstellen – Fettdruck und Kursiv mit benutzerdefinierter Schrift](./create-html-document-c-bold-italic-text-with-custom-font/)
+Erfahren Sie, wie Sie mit Aspose.HTML für .NET ein HTML-Dokument in C# erstellen und Text fett, kursiv und mit einer benutzerdefinierten Schrift formatieren.
 ### [Bearbeiten eines Dokuments in .NET mit Aspose.HTML](./editing-a-document/)
 Erstellen Sie fesselnde Webinhalte mit Aspose.HTML für .NET. Erfahren Sie, wie Sie HTML, CSS und mehr bearbeiten.
 ### [Speichern eines Dokuments in .NET mit Aspose.HTML](./saving-a-document/)
