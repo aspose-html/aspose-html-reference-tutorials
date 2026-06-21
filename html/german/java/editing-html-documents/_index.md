@@ -47,7 +47,7 @@ Manchmal müssen Sie Stile direkt im HTML-Dokument selbst anwenden. Hier kommen 
 ### [Bearbeiten Sie den HTML-Dokumentenbaum in Aspose.HTML für Java](./edit-html-document-tree/)
 Entdecken Sie, wie Sie HTML-Dokumente mit Aspose.HTML für Java bearbeiten. Eine Schritt-für-Schritt-Anleitung für effizientes Content-Management.
 ### [Erweiterte Bearbeitung des HTML-Dokumentbaums in Aspose.HTML für Java](./advanced-html-document-tree-editing/)
-Entdecken Sie mit dieser Schritt-für-Schritt-Anleitung, wie Sie HTML-Dokumente mit Aspose.HTML für Java bearbeiten, einschließlich der Erstellung von Stilen, Absätzen und der Konvertierung in PDF.
+Entdecken Sie mit dieser Schritt-für-Schritt-Anleitung, wie Sie HTML-Dokumente mit Aspere.HTML für Java bearbeiten, einschließlich der Erstellung von Stilen, Absätzen und der Konvertierung in PDF.
 ### [Wenden Sie externes CSS auf HTML-Dokumente in Aspose.HTML für Java an](./apply-external-css-html-documents/)
 Entdecken Sie, wie Sie mit Aspose.HTML für Java externes CSS auf HTML-Dokumente anwenden! Folgen Sie dieser Schritt-für-Schritt-Anleitung für ein vollständiges Tutorial.
 ### [Erweiterte externe CSS-Bearbeitung mit Aspose.HTML für Java](./advanced-external-css-editing/)
@@ -60,6 +60,8 @@ Erfahren Sie mit dieser Schritt-für-Schritt-Anleitung, wie Sie innere und äuß
 Lernen Sie mit unserem einfachen Schritt-für-Schritt-Tutorial, mit Aspose.HTML für Java internes CSS in HTML-Dokumenten zu implementieren.
 ### [Fixed Thread Pool Java – Parallel HTML-Bereinigung mit ExecutorService](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 Erfahren Sie, wie Sie mit einem Fixed Thread Pool und ExecutorService HTML-Dokumente parallel bereinigen und die Leistung steigern.
+### [Wie man ein Kind-Element im Java DOM anhängt – Vollständige Aspose.HTML-Anleitung](./how-to-append-child-in-java-dom-complete-aspose-html-guide/)
+Erfahren Sie, wie Sie mit Aspose.HTML für Java ein Kind-Element zum DOM hinzufügen – Schritt-für-Schritt-Anleitung.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

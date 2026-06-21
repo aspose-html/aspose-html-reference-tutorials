@@ -46,6 +46,10 @@ HTML ドキュメント編集の基本を習得したら、次はレベルアッ
 ## Aspose.HTML for Java チュートリアルで HTML ドキュメントを編集する
 ### [Aspose.HTML for Java で HTML ドキュメント ツリーを編集する](./edit-html-document-tree/)
 Aspose.HTML for Java を使用して HTML ドキュメントを操作する方法を学びます。効率的なコンテンツ管理のためのステップバイステップ ガイドです。
+
+### [Java DOM で子要素を追加する方法 – 完全 Aspose.HTML ガイド](./how-to-append-child-in-java-dom-complete-aspose-html-guide/)
+Aspose.HTML for Java を使用して、DOM ツリーに子要素を追加する手順をステップバイステップで解説します。
+
 ### [Aspose.HTML for Java での高度な HTML ドキュメント ツリー編集](./advanced-html-document-tree-editing/)
 このステップバイステップ ガイドでは、スタイルや段落の作成、PDF への変換など、Aspose.HTML for Java を使用して HTML ドキュメントを編集する方法を説明します。
 ### [Aspose.HTML for Java で HTML ドキュメントに外部 CSS を適用する](./apply-external-css-html-documents/)

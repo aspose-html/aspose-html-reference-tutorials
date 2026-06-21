@@ -87,8 +87,17 @@ Sebagai kesimpulan, menguasai **html to pdf java** dan rangkaian konversi yang l
 ### [Mengonversi HTML ke PDF](./convert-html-to-pdf/)
 Pelajari cara mengonversi HTML ke PDF di Java menggunakan Aspose.HTML. Buat PDF berkualitas tinggi dari konten HTML Anda dengan mudah.
 
+### [Buat Fixed Thread Pool untuk Konversi Batch HTML ke PDF](./create-fixed-thread-pool-for-batch-html-to-pdf-conversion/)
+Panduan membuat thread pool tetap untuk mengonversi banyak file HTML ke PDF secara paralel menggunakan Aspose.HTML for Java.
+
 ### [Mengonversi HTML ke PDF di Java – Panduan Langkah‑demi‑Langkah dengan Pengaturan Ukuran Halaman](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Panduan lengkap mengonversi HTML ke PDF di Java dengan pengaturan ukuran halaman yang dapat disesuaikan.
+
+### [Mengonversi HTML ke PDF di Java – Panduan Lengkap Langkah‑demi‑Langkah](./convert-html-to-pdf-in-java-complete-step-by-step-guide/)
+Panduan lengkap mengonversi HTML ke PDF di Java dengan contoh kode dan penjelasan detail setiap langkah.
+
+### [Menyematkan Font ke PDF – Panduan Lengkap Aspose HTML ke PDF (Java)](./embed-fonts-pdf-complete-aspose-html-to-pdf-guide-java/)
+Pelajari cara menyematkan font ke dalam PDF menggunakan Aspose.HTML for Java untuk menghasilkan dokumen dengan tampilan tepat.
 
 ### [Mengonversi HTML ke MHTML](./convert-html-to-mhtml/)
 Konversi HTML ke MHTML dengan mudah menggunakan Aspose.HTML untuk Java. Ikuti panduan langkah‑demi‑langkah kami untuk konversi HTML‑ke‑MHTML yang efisien.
@@ -107,6 +116,9 @@ Ubah SVG ke PDF di Java dengan Aspose.HTML. Solusi mulus untuk konversi dokumen 
 
 ### [Mengonversi SVG ke XPS](./convert-svg-to-xps/)
 Pelajari cara mengonversi SVG ke XPS dengan Aspose.HTML untuk Java. Panduan sederhana, langkah‑demi‑langkah untuk konversi mulus.
+
+### [Buat docx dari html – Panduan Java untuk mengonversi HTML ke DOCX](./create-docx-from-html-java-guide-to-convert-html-to-docx/)
+Pelajari cara mengonversi HTML menjadi file DOCX di Java menggunakan Aspose.HTML.
 
 ## Pertanyaan yang Sering Diajukan
 
