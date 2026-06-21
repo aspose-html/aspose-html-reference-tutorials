@@ -136,6 +136,13 @@ weight: 20
 ### [كيفية تشغيل JavaScript في Java – دليل كامل](./how-to-run-javascript-in-java-complete-guide/)
 تعلم كيفية تشغيل كود JavaScript داخل تطبيقات Java باستخدام Aspose.HTML for Java.
 
+### [ضبط نسبة بكسل الجهاز في Java – دليل محاكاة الجوال](./set-device-pixel-ratio-in-java-mobile-simulation-guide/)
+تعلم كيفية ضبط نسبة بكسل الجهاز لمحاكاة شاشات الهواتف المحمولة في Java باستخدام Aspose.HTML.
+
+### [كيفية تمكين JavaScript في Java HTMLDocument – دليل خطوة بخطوة](./how-to-enable-javascript-in-java-htmldocument-step-by-step-g/)
+
+### [دروس Java المتعددة الخيوط: تشغيل المهام بالتوازي باستخدام مجموعة خيوط ثابتة](./java-multithreading-tutorial-run-tasks-parallel-with-fixed-t/)
+
 ---
 
 **آخر تحديث:** 2025-11-29  

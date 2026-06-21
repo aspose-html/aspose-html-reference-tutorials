@@ -115,7 +115,7 @@ R: No. Una única licencia de Aspose.HTML para Java cubre todos los formatos de 
 ### [Personalizar márgenes de página HTML con Aspose.HTML](./css-extensions-adding-title-page-number/)
 Aprende a personalizar los márgenes de página, añadir números de página y títulos a documentos HTML usando Aspose.HTML para Java.
 ### [Observador de mutación DOM con Aspose.HTML para Java](./dom-mutation-observer-observing-node-additions/)
-Aprende a usar Aspose.HTML para Java para implementar un Observador de Mutación DOM en esta guía paso a paso. Monitorea y reacciona a los cambios del DOM de manera eficaz.
+Aprende a usar un Observador de Mutación DOM en esta guía paso a paso. Monitorea y reacciona a los cambios del DOM de manera eficaz.
 ### [Manipulación de HTML5 Canvas con Aspose.HTML para Java](./html5-canvas-manipulation-using-code/)
 Aprende la manipulación de HTML5 Canvas usando Aspose.HTML para Java. Crea gráficos interactivos con guía paso a paso.
 ### [Manipulación de HTML5 Canvas con Aspose.HTML para Java](./html5-canvas-manipulation-using-javascript/)
@@ -127,6 +127,12 @@ Aprende a ajustar el tamaño de página PDF con Aspose.HTML para Java. Crea PDFs
 ### [Ajustar tamaño de página XPS con Aspose.HTML para Java](./adjust-xps-page-size/)
 Aprende a ajustar el tamaño de página XPS con Aspose.HTML para Java. Controla fácilmente las dimensiones de salida de tus documentos XPS.
 ### [Cómo ejecutar JavaScript en Java – Guía completa](./how-to-run-javascript-in-java-complete-guide/)
+Aprende a ejecutar JavaScript dentro de aplicaciones Java con Aspose.HTML, cubriendo configuraciones, ejemplos y mejores prácticas.
+### [Configurar la relación de píxeles del dispositivo en Java – Guía de simulación móvil](./set-device-pixel-ratio-in-java-mobile-simulation-guide/)
+### [Cómo habilitar JavaScript en Java HTMLDocument – Guía paso a paso](./how-to-enable-javascript-in-java-htmldocument-step-by-step-g/)
+Aprende a activar y ejecutar JavaScript dentro de un HtmlDocument en Java usando Aspose.HTML paso a paso.
+### [Tutorial de multihilos en Java: Ejecutar tareas en paralelo con un pool de hilos fijo](./java-multithreading-tutorial-run-tasks-parallel-with-fixed-t/)
+Aprende a usar un FixedThreadPool en Java para ejecutar múltiples tareas simultáneamente y mejorar el rendimiento de tus aplicaciones.
 
 ---
 

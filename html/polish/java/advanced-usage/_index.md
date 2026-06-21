@@ -128,6 +128,11 @@ Naucz się regulować rozmiar stron PDF przy użyciu Aspose.HTML dla Javy. Twór
 Dowiedz się, jak regulować rozmiar stron XPS przy użyciu Aspose.HTML dla Javy. Łatwo kontroluj wymiary wyjściowe dokumentów XPS.
 ### [Jak uruchomić JavaScript w Javie – Kompletny przewodnik](./how-to-run-javascript-in-java-complete-guide/)
 Dowiedz się, jak wykonywać kod JavaScript w aplikacji Java przy użyciu Aspose.HTML, krok po kroku, od konfiguracji po wywołanie skryptu.
+### [Jak włączyć JavaScript w Java HTMLDocument – Przewodnik krok po kroku](./how-to-enable-javascript-in-java-htmldocument-step-by-step-g/)
+Dowiedz się, jak włączyć i uruchomić JavaScript w obiekcie HtmlDocument w Javie, korzystając z Aspose.HTML, krok po kroku.
+### [Ustaw współczynnik pikseli urządzenia w Javie – przewodnik symulacji mobilnej](./set-device-pixel-ratio-in-java-mobile-simulation-guide/)
+Dowiedz się, jak ustawić współczynnik pikseli urządzenia w Aspose.HTML dla Javy, aby symulować wyświetlanie na różnych urządzeniach mobilnych.
+### [Java multithreading tutorial: Uruchamianie zadań równolegle przy użyciu stałej puli wątków](./java-multithreading-tutorial-run-tasks-parallel-with-fixed-t/)
 
 ---
 

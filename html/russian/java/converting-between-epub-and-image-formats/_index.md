@@ -79,6 +79,8 @@ JPG — широко используемый сжатый формат изоб
 Узнайте, как конвертировать EPUB в JPG с помощью Aspose.HTML для Java. Следуйте нашему пошаговому руководству и используйте возможности Aspose.HTML.
 ### [Конвертация EPUB в PNG](./convert-epub-to-png/)
 Узнайте, как конвертировать EPUB в PNG на Java с помощью Aspose.HTML для Java. Пошаговое руководство по плавному преобразованию.
+### [Конвертация EPUB в PNG с Java – Полное пошаговое руководство](./convert-epub-to-png-with-java-complete-step-by-step-guide/)
+Узнайте, как конвертировать EPUB в PNG с помощью Aspose.HTML для Java, следуя полному пошаговому руководству.
 ### [Конвертация EPUB в TIFF](./convert-epub-to-tiff/)
 Узнайте, как конвертировать файлы EPUB в изображения TIFF на Java с помощью Aspose.HTML, мощной библиотеки манипуляций с HTML.
 ### [Указание пользовательского провайдера потоков для конвертации EPUB в изображение](./convert-epub-to-image-specify-custom-stream-provider/)

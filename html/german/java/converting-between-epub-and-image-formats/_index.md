@@ -26,7 +26,7 @@ weight: 26
 Das Konvertieren einer EPUB‑Datei in BMP bedeutet, jede Seite des E‑Books zu extrahieren und als Bitmap‑Bild zu rendern. BMP‑Dateien sind unkomprimiert und eignen sich ideal für hochqualitative Vorschaubilder oder weitere Bildverarbeitung.
 
 ## Warum Aspose.HTML für Java verwenden?
-Aspose.HTML bietet eine robuste, reine Java‑API, die HTML, CSS und EPUB‑Rendering ohne externe Abhängigkeiten verarbeitet. Sie erhalten volle Kontrolle über Bildformat, Qualität und Stream‑Handling – perfekt für serverseitige Batch‑Konvertierungen.
+Aspose.HTML bietet eine robuste, reine Java‑API, die HTML, CSS und EPUB‑Rendering ohne externe Abhängigkeiten verarbeitet. Sie erhalten volle Kontrolle über Bildformat, Qualität und Stream‑Handling – perfekt für serverseitige Batch‑konvertierungen.
 
 ## Voraussetzungen
 - Java 8 oder höher  
@@ -77,6 +77,8 @@ Lernen Sie, wie Sie EPUB zu GIF mit Aspose.HTML für Java konvertieren. Einfach,
 Lernen Sie, wie Sie EPUB zu JPG mit Aspose.HTML für Java konvertieren. Folgen Sie unserer Schritt‑für‑Schritt‑Anleitung und nutzen Sie die Leistungsfähigkeit von Aspose.HTML.
 ### [EPUB in PNG konvertieren](./convert-epub-to-png/)
 Lernen Sie, wie Sie EPUB zu PNG in Java mit Aspose.HTML für Java konvertieren. Schritt‑für‑Schritt‑Leitfaden für nahtlose Konvertierung.
+### [EPUB in PNG mit Java konvertieren – Vollständige Schritt‑für‑Schritt‑Anleitung](./convert-epub-to-png-with-java-complete-step-by-step-guide/)
+Erfahren Sie, wie Sie EPUB‑Dateien mit Aspose.HTML für Java in PNG‑Bilder konvertieren – mit dieser vollständigen Schritt‑für‑Schritt‑Anleitung.
 ### [EPUB in TIFF konvertieren](./convert-epub-to-tiff/)
 Lernen Sie, wie Sie EPUB‑Dateien mit Aspose.HTML in TIFF‑Bilder in Java konvertieren, einer leistungsstarken HTML‑Manipulationsbibliothek.
 ### [Angeben eines benutzerdefinierten Stream‑Providers für die EPUB‑zu‑Bild‑Konvertierung](./convert-epub-to-image-specify-custom-stream-provider/)

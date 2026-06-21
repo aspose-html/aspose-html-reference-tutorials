@@ -95,18 +95,24 @@ Aspose.HTML for Java ทำให้กระบวนการแปลง HTML
 เรียนรู้วิธีแปลง HTML เป็น PDF ใน Java ด้วย Aspose.HTML สร้าง PDF คุณภาพสูงจากเนื้อหา HTML ของคุณได้อย่างง่ายดาย
 ### [Convert HTML to PDF in Java – Step‑by‑Step Guide with Page Size Settings](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 เรียนรู้ขั้นตอนการแปลง HTML เป็น PDF ใน Java พร้อมการตั้งค่าขนาดหน้าอย่างละเอียด
+### [ตั้งขนาดหน้ากระดาษ PDF ด้วย Aspose HTML to PDF ใน Java](./set-pdf-page-size-with-aspose-html-to-pdf-in-java/)
+กำหนดขนาดหน้ากระดาษ PDF ระหว่างการแปลง HTML ด้วย Aspose.HTML for Java อย่างละเอียด
 ### [Converting HTML to MHTML](./convert-html-to-mhtml/)
 แปลง HTML เป็น MHTML อย่างไม่มีความยุ่งยากด้วย Aspose.HTML for Java ทำตามคู่มือขั้นตอน‑ต่อ‑ขั้นตอนสำหรับการแปลง HTML‑to‑MHTML ที่มีประสิทธิภาพ
 ### [Converting HTML to XPS](./convert-html-to-xps/)
 เรียนรู้วิธีแปลง HTML เป็น XPS อย่างง่ายดายด้วย Aspose.HTML for Java สร้างเอกสารข้ามแพลตฟอร์มได้อย่างราบรื่น
 ### [Converting Markdown to HTML](./convert-markdown-to-html/)
 แปลง Markdown เป็น HTML ใน Java อย่างราบรื่นด้วย Aspose.HTML for Java ทำตามคู่มือขั้นตอน‑ต่อ‑ขั้นตอนเพื่อทำให้การแปลงเอกสารของคุณเป็นเรื่องง่าย
+### [แปลง HTML เป็น Markdown ใน Java – คู่มือขั้นตอน‑โดย‑ขั้นตอน](./convert-html-to-markdown-in-java-step-by-step-guide/)
+เรียนรู้วิธีแปลงไฟล์ HTML เป็น Markdown ใน Java อย่างละเอียดด้วย Aspose.HTML ผ่านขั้นตอน‑โดย‑ขั้นตอนที่เข้าใจง่าย
 ### [Converting SVG to Image](./convert-svg-to-image/)
 เรียนรู้วิธีแปลง SVG เป็นรูปภาพใน Java ด้วย Aspose.HTML คู่มือครบถ้วนสำหรับผลลัพธ์คุณภาพสูง
 ### [Converting SVG to PDF](./convert-svg-to-pdf/)
 แปลง SVG เป็น PDF ใน Java ด้วย Aspose.HTML โซลูชันที่ไร้รอยต่อสำหรับการแปลงเอกสารคุณภาพสูง
 ### [Converting SVG to XPS](./convert-svg-to-xps/)
 เรียนรู้วิธีแปลง SVG เป็น XPS ด้วย Aspose.HTML for Java คู่มือขั้นตอน‑ต่อ‑ขั้นตอนที่ง่ายสำหรับการแปลงที่ไร้รอยต่อ
+### [สร้าง PDF จาก HTML ใน Java – คู่มือขั้นตอน‑โดย‑ขั้นตอนแบบครบถ้วน](./create-pdf-from-html-in-java-complete-step-by-step-guide/)
+เรียนรู้วิธีสร้าง PDF จาก HTML ใน Java อย่างละเอียดด้วยขั้นตอนครบถ้วนและตัวเลือกการตั้งค่าต่าง ๆ
 
 ## คำถามที่พบบ่อย
 

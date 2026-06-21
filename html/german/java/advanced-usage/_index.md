@@ -128,6 +128,12 @@ Erfahren Sie, wie Sie die PDF‑Seitengröße mit Aspose.HTML für Java anpassen
 Erfahren Sie, wie Sie die XPS‑Seitengröße mit Aspose.HTML für Java anpassen. Steuern Sie die Ausgabedimensionen Ihrer XPS‑Dokumente einfach.
 ### [Wie man JavaScript in Java ausführt – Komplettanleitung](./how-to-run-javascript-in-java-complete-guide/)
 Erfahren Sie, wie Sie JavaScript-Code innerhalb von Java-Anwendungen ausführen und integrieren können.
+### [Geräte‑Pixel‑Verhältnis in Java setzen – Leitfaden zur mobilen Simulation](./set-device-pixel-ratio-in-java-mobile-simulation-guide/)
+Erfahren Sie, wie Sie das Geräte‑Pixel‑Verhältnis in Java simulieren, um mobile Darstellungen präzise zu testen.
+### [Wie man JavaScript in Java HTMLDocument aktiviert – Schritt‑für‑Schritt‑Anleitung](./how-to-enable-javascript-in-java-htmldocument-step-by-step-g/)
+Erfahren Sie, wie Sie JavaScript in einem Java‑HTMLDocument aktivieren und ausführen können – eine detaillierte Schritt‑für‑Schritt‑Anleitung.
+### [Java‑Multithreading‑Tutorial: Aufgaben parallel ausführen mit Fixed Thread Pool](./java-multithreading-tutorial-run-tasks-parallel-with-fixed-t/)
+Erfahren Sie, wie Sie mit einem Fixed Thread Pool mehrere Aufgaben gleichzeitig ausführen und die Multithreading‑Leistung in Java optimieren.
 
 ---
 

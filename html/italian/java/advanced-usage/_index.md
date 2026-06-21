@@ -26,7 +26,7 @@ Nello sviluppo web moderno, affinare l’aspetto dell’output HTML può fare un
 - **Ho bisogno di una licenza per l’uso in produzione?** È necessaria una licenza commerciale di Aspose.HTML for Java per le distribuzioni non‑trial.
 
 ## Cos'è “add page numbers” nel contesto di Aspose.HTML?
-Aggiungere numeri di pagina significa inserire un piè di pagina (o intestazione) corrente che numeri automaticamente ogni pagina quando l’HTML viene renderizzato in PDF, XPS o stampato. Aspose.HTML fornisce un modo programmatico per definire questo piè di pagina così non devi modificare manualmente l’HTML.
+Aggiungere numeri di pagina significa inserire un piè di pagina (o intestazione) corrente che numeri automaticamente ogni pagina quando l’HTML viene renderizzato in PDF, XPS o stampato. Aspose.HTML for fornisce un modo programmatico per definire questo piè di pagina così non devi modificare manualmente l'HTML.
 
 ## Perché personalizzare i margini e i numeri di pagina?
 - **Report professionali** – Margini coerenti e numeri di pagina conferiscono ai documenti un aspetto curato.  
@@ -121,6 +121,9 @@ R: No. Una singola licenza di Aspose.HTML for Java copre tutti i formati di outp
 ### [Regola le dimensioni della pagina PDF con Aspose.HTML per Java](./adjust-pdf-page-size/)
 ### [Regola le dimensioni della pagina XPS con Aspose.HTML per Java](./adjust-xps-page-size/)
 ### [Come eseguire JavaScript in Java – Guida completa](./how-to-run-javascript-in-java-complete-guide/)
+### [Imposta il rapporto di pixel del dispositivo in Java – Guida alla simulazione mobile](./set-device-pixel-ratio-in-java-mobile-simulation-guide/)
+### [Come abilitare JavaScript in Java HTMLDocument – Guida passo‑per‑passo](./how-to-enable-javascript-in-java-htmldocument-step-by-step-g/)
+### [java multithreading tutorial: esegui attività in parallelo con Fixed Thread Pool](./java-multithreading-tutorial-run-tasks-parallel-with-fixed-t/)
 
 ---
 

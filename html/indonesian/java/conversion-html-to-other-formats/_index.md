@@ -87,6 +87,9 @@ Sebagai kesimpulan, menguasai **html to pdf java** dan rangkaian konversi yang l
 ### [Mengonversi HTML ke PDF](./convert-html-to-pdf/)
 Pelajari cara mengonversi HTML ke PDF di Java menggunakan Aspose.HTML. Buat PDF berkualitas tinggi dari konten HTML Anda dengan mudah.
 
+### [Buat PDF dari HTML di Java – Panduan Lengkap Langkah‑demi‑Langkah](./create-pdf-from-html-in-java-complete-step-by-step-guide/)
+Pelajari cara membuat PDF dari HTML di Java dengan panduan langkah‑demi‑langkah lengkap menggunakan Aspose.HTML.
+
 ### [Mengonversi HTML ke PDF di Java – Panduan Langkah‑demi‑Langkah dengan Pengaturan Ukuran Halaman](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Panduan lengkap mengonversi HTML ke PDF di Java dengan pengaturan ukuran halaman yang dapat disesuaikan.
 
@@ -99,6 +102,9 @@ Pelajari cara mengonversi HTML ke XPS dengan mudah menggunakan Aspose.HTML untuk
 ### [Mengonversi Markdown ke HTML](./convert-markdown-to-html/)
 Ubah Markdown ke HTML di Java secara mulus dengan Aspose.HTML untuk Java. Ikuti panduan langkah‑demi‑langkah kami untuk mempermudah kebutuhan konversi dokumen Anda.
 
+### [Mengonversi HTML ke Markdown di Java – Panduan Langkah‑demi‑Langkah](./convert-html-to-markdown-in-java-step-by-step-guide/)
+Pelajari cara mengonversi HTML menjadi Markdown di Java dengan panduan langkah‑demi‑langkah menggunakan Aspose.HTML.
+
 ### [Mengonversi SVG ke Gambar](./convert-svg-to-image/)
 Pelajari cara mengonversi SVG ke gambar di Java dengan Aspose.HTML. Panduan komprehensif untuk output berkualitas tinggi.
 
@@ -107,6 +113,9 @@ Ubah SVG ke PDF di Java dengan Aspose.HTML. Solusi mulus untuk konversi dokumen 
 
 ### [Mengonversi SVG ke XPS](./convert-svg-to-xps/)
 Pelajari cara mengonversi SVG ke XPS dengan Aspose.HTML untuk Java. Panduan sederhana, langkah‑demi‑langkah untuk konversi mulus.
+
+### [Mengatur ukuran halaman PDF dengan Aspose HTML ke PDF di Java](./set-pdf-page-size-with-aspose-html-to-pdf-in-java/)
+Pelajari cara mengatur ukuran halaman PDF saat mengonversi HTML menggunakan Aspose.HTML for Java.
 
 ## Pertanyaan yang Sering Diajukan
 

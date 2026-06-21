@@ -113,21 +113,26 @@ A: Nee. Eén Aspose.HTML for Java‑licentie dekt alle uitvoerformaten, inclusie
 
 ## Geavanceerd gebruik van Aspose.HTML Java‑tutorials
 ### [HTML‑paginamarges aanpassen met Aspose.HTML](./css-extensions-adding-title-page-number/)
-Leer hoe je paginamarges, paginanummers en titels kunt aanpassen in HTML‑documenten met Aspose.HTML for Java.
+
 ### [DOM‑mutatie‑observer met Aspose.HTML for Java](./dom-mutation-observer-observing-node-additions/)
-Leer hoe je met Aspose.HTML for Java een DOM‑mutatie‑observer implementeert in deze stapsgewijze gids. Monitor en reageer effectief op DOM‑wijzigingen.
+
 ### [HTML5 Canvas‑manipulatie met Aspose.HTML for Java](./html5-canvas-manipulation-using-code/)
-Leer HTML5 Canvas‑manipulatie met Aspose.HTML for Java. Creëer interactieve graphics met stapsgewijze begeleiding.
+
 ### [HTML5 Canvas‑manipulatie met Aspose.HTML for Java](./html5-canvas-manipulation-using-javascript/)
-Leer hoe je HTML5 Canvas kunt manipuleren met JavaScript via Aspose.HTML for Java. Maak dynamische graphics en converteer naar PDF.
+
 ### [HTML‑formulieren automatisch invullen met Aspose.HTML for Java](./html-form-editor-filling-submitting-forms/)
-Leer hoe je HTML‑formulieren automatisch kunt invullen en indienen met Aspose.HTML for Java. Vereenvoudig webinteractie met deze tutorial.
+
 ### [PDF‑paginagrootte aanpassen met Aspose.HTML for Java](./adjust-pdf-page-size/)
-Leer hoe je PDF‑paginagrootte kunt aanpassen met Aspose.HTML for Java. Maak moeiteloos hoogwaardige PDF‑bestanden vanuit HTML. Beheer paginagroottes effectief.
+
 ### [XPS‑paginagrootte aanpassen met Aspose.HTML for Java](./adjust-xps-page-size/)
-Leer hoe je XPS‑paginagrootte kunt aanpassen met Aspose.HTML for Java. Beheer eenvoudig de uitvoerafmetingen van je XPS‑documenten.
+
 ### [Hoe JavaScript in Java uit te voeren – Complete gids](./how-to-run-javascript-in-java-complete-guide/)
-Leer hoe je JavaScript kunt embedden en uitvoeren binnen Java‑applicaties met Aspose.HTML, stap voor stap.
+
+### [Apparaat‑pixelratio instellen in Java – Mobiele simulatiegids](./set-device-pixel-ratio-in-java-mobile-simulation-guide/)
+
+### [Hoe JavaScript in Java HTMLDocument inschakelen – Stapsgewijze gids](./how-to-enable-javascript-in-java-htmldocument-step-by-step-g/)
+
+### [Java multithreading‑tutorial: taken parallel uitvoeren met vaste thread‑pool](./java-multithreading-tutorial-run-tasks-parallel-with-fixed-t/)
 
 ---
 

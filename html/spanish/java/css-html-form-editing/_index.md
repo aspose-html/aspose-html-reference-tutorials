@@ -32,6 +32,9 @@ Aprenda a utilizar Aspose.HTML para Java para aplicar técnicas avanzadas de CSS
 Aprenda a editar y enviar formularios HTML mediante programación utilizando Aspose.HTML para Java en esta completa guía paso a paso.
 ### [Seleccionar elemento por clase en Java – Guía completa paso a paso](./select-element-by-class-in-java-complete-how-to-guide/)
 Aprenda a seleccionar elementos por clase en Java usando Aspose.HTML con ejemplos claros y paso a paso.
+### [Cómo obtener estilo en Aspose HTML Java – Usar selector de consultas](./how-to-get-style-in-aspose-html-java-use-query-selector/)
+Aprenda a extraer estilos CSS de elementos HTML en Java con Aspose.HTML usando el método querySelector.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

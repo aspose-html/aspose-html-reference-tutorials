@@ -80,6 +80,8 @@ Aspose.HTML for Java ile EPUB'yi GIF'e dönüştürmeyi öğrenin. Basit, etkili
 Aspose.HTML for Java kullanarak EPUB'yi JPG'ye dönüştürmeyi öğrenin. Adım adım rehberimizle Aspose.HTML gücünden yararlanın.
 ### [EPUB'yi PNG'ye Dönüştürme](./convert-epub-to-png/)
 Aspose.HTML for Java kullanarak Java'da EPUB'yi PNG'ye dönüştürün. Sorunsuz dönüşüm için adım adım rehber.
+### [Java ile EPUB'yi PNG'ye Dönüştürme – Tam Adım‑Adım Kılavuz](./convert-epub-to-png-with-java-complete-step-by-step-guide/)
+Java ve Aspose.HTML kullanarak EPUB dosyalarını PNG formatına dönüştürmek için eksiksiz adım adım rehber.
 ### [EPUB'yi TIFF'e Dönüştürme](./convert-epub-to-tiff/)
 Aspose.HTML ile Java'da EPUB dosyalarını TIFF görüntülerine dönüştürmeyi öğrenin; güçlü bir HTML işleme kütüphanesi.
 ### [EPUB'yi Görüntüye Dönüştürürken Özel Akış Sağlayıcı Belirleme](./convert-epub-to-image-specify-custom-stream-provider/)
@@ -101,7 +103,7 @@ C: Evet, PNG kayıpsızdır; sadece `ImageSaveOptions` içinde çıktı formatı
 C: Her sayfayı ayrı bir GIF çerçevesi olarak render edin veya dönüşüm sonrası harici bir GIF kodlayıcıyla birleştirin.
 
 **S: Büyük EPUB dosyaları için çıktı akışını nasıl özelleştirebilirim?**  
-C: Özel bir `IStreamProvider` uygulayın ve çıktıyı bellek, bulut veya diğer depolama alanlarına yönlendirmek için `save` metoduna geçirin.
+C: Özel bir `IStreamProvider` uygulayın ve çıktıyı bellek, bulut veya diğer depolama alanlarına yönlendirmek için `save` metoduna geçin.
 
 **S: Tek satırda dönüşüm gerçekten mümkün mü?**  
 C: Kesinlikle – `new HtmlDocument("input.epub").save("output.bmp", new ImageSaveOptions(SaveFormat.Bmp));`

@@ -127,7 +127,13 @@ Lär dig hur du justerar PDF‑sidstorlek med Aspose.HTML för Java. Skapa högk
 ### [Justera XPS‑sidstorlek med Aspose.HTML för Java](./adjust-xps-page-size/)
 Lär dig hur du justerar XPS‑sidstorlek med Aspose.HTML för Java. Kontrollera utmatningsdimensionerna för dina XPS‑dokument enkelt.
 ### [Hur man kör JavaScript i Java – Komplett guide](./how-to-run-javascript-in-java-complete-guide/)
-Lär dig hur du exekverar JavaScript-kod i Java-applikationer med Aspose.HTML, inklusive konfiguration och exempel.
+Lär dig hur du exekverar JavaScript‑kod i Java‑applikationer med Aspose.HTML, inklusive konfiguration och exempel.
+### [Ställ in enhetens pixelratio i Java – Mobilsimuleringsguide](./set-device-pixel-ratio-in-java-mobile-simulation-guide/)
+Lär dig hur du simulerar mobila enheter genom att justera pixelratio i Aspose.HTML för Java.
+### [Hur du aktiverar JavaScript i Java HTMLDocument – Steg‑för‑steg‑guide](./how-to-enable-javascript-in-java-htmldocument-step-by-step-g/)
+Lär dig hur du aktiverar och kör JavaScript i ett HtmlDocument‑objekt i Java med Aspose.HTML, steg för steg.
+### [Java multitrådningshandledning: Kör uppgifter parallellt med fast trådpool](./java-multithreading-tutorial-run-tasks-parallel-with-fixed-t/)
+Lär dig hur du använder en fast trådpool för att köra flera uppgifter samtidigt i Java med Aspose.HTML.
 
 ---
 
