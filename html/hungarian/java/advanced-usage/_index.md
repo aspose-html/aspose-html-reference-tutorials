@@ -128,6 +128,8 @@ Tanulja meg, hogyan állíthatja be a PDF oldalméretet az Aspose.HTML for Java 
 Ismerje meg, hogyan állíthatja be az XPS oldalméretet az Aspose.HTML for Java segítségével. Könnyedén szabályozza XPS dokumentumai kimeneti méreteit.
 ### [JavaScript futtatása Java-ban – Teljes útmutató](./how-to-run-javascript-in-java-complete-guide/)
 Ismerje meg, hogyan integrálhatja és futtathatja a JavaScript kódot Java alkalmazásokban Aspose.HTML segítségével.
+### [Hogyan állítsuk be a DPI-t SVG‑ről PNG‑re konvertáláskor az Aspose‑val – Java útmutató](./how-to-set-dpi-when-converting-svg-to-png-with-aspose-java-g/)
+Ismerje meg, hogyan állíthatja be a DPI értéket SVG‑k PNG‑re konvertálásakor az Aspose.HTML for Java használatával.
 
 ---
 

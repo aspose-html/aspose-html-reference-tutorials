@@ -128,6 +128,8 @@ Erfahren Sie, wie Sie die PDF‑Seitengröße mit Aspose.HTML für Java anpassen
 Erfahren Sie, wie Sie die XPS‑Seitengröße mit Aspose.HTML für Java anpassen. Steuern Sie die Ausgabedimensionen Ihrer XPS‑Dokumente einfach.
 ### [Wie man JavaScript in Java ausführt – Komplettanleitung](./how-to-run-javascript-in-java-complete-guide/)
 Erfahren Sie, wie Sie JavaScript-Code innerhalb von Java-Anwendungen ausführen und integrieren können.
+### [Wie man DPI beim Konvertieren von SVG zu PNG mit Aspose – Java‑Leitfaden](./how-to-set-dpi-when-converting-svg-to-png-with-aspose-java-g/)
+Erfahren Sie, wie Sie die DPI‑Einstellung beim SVG‑zu‑PNG‑Export mit Aspose.HTML für Java konfigurieren, um hochwertige Bilder zu erhalten.
 
 ---
 

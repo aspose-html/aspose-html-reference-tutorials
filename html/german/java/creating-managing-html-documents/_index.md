@@ -49,23 +49,29 @@ Erfahren Sie mit unserem ausführlichen Schritt-für-Schritt-Tutorial, wie Sie m
 ### [Laden Sie HTML-Dokumente aus einer Datei in Aspose.HTML für Java](./load-html-documents-from-file/)
 Entfesseln Sie die Möglichkeiten der HTML-Manipulation mit Aspose.HTML für Java. Lernen Sie mit Schritt-für-Schritt-Tutorials, HTML-Dokumente aus Dateien zu laden.
 ### [Erweitertes Laden von Dateien für HTML-Dokumente in Aspose.HTML für Java](./advanced-file-loading-html-documents/)
-Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie HTML-Dokumente mit Aspose.HTML für Java laden, bearbeiten und speichern. Schalten Sie die erweiterte HTML-Verarbeitung in Ihren Java-Projekten frei.
+Erfahren Sie in dieser Schritt‑für‑Schritt‑Anleitung, wie Sie HTML-Dokumente mit Aspose.HTML für Java laden, bearbeiten und speichern. Schalten Sie die erweiterte HTML-Verarbeitung in Ihren Java-Projekten frei.
 ### [Laden Sie HTML-Dokumente aus dem Stream mit Aspose.HTML für Java](./load-html-documents-from-stream/)
-Erfahren Sie, wie Sie mit Aspose.HTML für Java HTML-Dokumente aus Streams laden. Diese Anleitung bietet eine Schritt-für-Schritt-Anleitung zur nahtlosen HTML-Bearbeitung.
+Erfahren Sie, wie Sie mit Aspose.HTML für Java HTML-Dokumente aus Streams laden. Diese Anleitung bietet eine Schritt‑für‑Schritt‑Anleitung zur nahtlosen HTML-Bearbeitung.
 ### [Erstellen Sie HTML-Dokumente aus Zeichenfolgen in Aspose.HTML für Java](./create-html-documents-from-string/)
-Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie in Aspose.HTML für Java HTML-Dokumente aus Zeichenfolgen erstellen.
+Erfahren Sie in dieser Schritt‑für‑Schritt‑Anleitung, wie Sie in Aspose.HTML für Java HTML-Dokumente aus Zeichenfolgen erstellen.
 ### [Laden Sie HTML-Dokumente von einer URL in Aspose.HTML für Java](./load-html-documents-from-url/)
 Entdecken Sie, wie Sie mit Aspose.HTML ganz einfach HTML-Dokumente von einer URL in Java laden. Schritt‑für‑Schritt‑Anleitung inklusive.
 ### [Generieren Sie neue HTML-Dokumente mit Aspose.HTML für Java](./generate-new-html-documents/)
-Erfahren Sie in dieser einfachen Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.HTML für Java neue HTML-Dokumente erstellen. Beginnen Sie mit der Generierung dynamischer HTML-Inhalte.
+Erfahren Sie in dieser einfachen Schritt‑für‑Schritt‑Anleitung, wie Sie mit Aspose.HTML für Java neue HTML-Dokumente erstellen. Beginnen Sie mit der Generierung dynamischer HTML-Inhalte.
 ### [Behandeln von Dokumentladeereignissen in Aspose.HTML für Java](./handle-document-load-events/)
-Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie Dokumentladeereignisse in Aspose.HTML für Java handhaben. Verbessern Sie Ihre Webanwendungen.
+Erfahren Sie in dieser Schritt‑für‑Schritt‑Anleitung, wie Sie Dokumentladeereignisse in Aspose.HTML für Java handhaben. Verbessern Sie Ihre Webanwendungen.
 ### [Erstellen und Verwalten von SVG-Dokumenten in Aspose.HTML für Java](./create-manage-svg-documents/)
 Erfahren Sie, wie Sie SVG-Dokumente mit Aspose.HTML für Java erstellen und verwalten! Dieser umfassende Leitfaden deckt alles von der grundlegenden Erstellung bis zur erweiterten Bearbeitung ab.
 ### [Sandbox für HTML in Java erstellen – Schritt‑für‑Schritt‑Anleitung](./create-sandbox-for-html-in-java-step-by-step-guide/)
 Erfahren Sie, wie Sie in Aspose.HTML für Java eine sichere Sandbox für HTML erstellen und verwalten – Schritt‑für‑Schritt‑Anleitung.
 ### [Wie man HTML in Java abfragt – Komplettes Tutorial](./how-to-query-html-in-java-complete-tutorial/)
 Erfahren Sie, wie Sie HTML-Inhalte in Java abfragen und verarbeiten – Schritt‑für‑Schritt‑Anleitung für vollständiges Verständnis.
+### [Wie man HTML durchsucht – Java-Leitfaden zum Finden von Text](./how-to-search-html-java-guide-for-finding-text/)
+Erfahren Sie, wie Sie mit Aspose.HTML für Java Text in HTML-Dokumenten suchen und extrahieren – Schritt‑für‑Schritt‑Anleitung.
+### [Wie man querySelectorAll in Java verwendet – Filtern nach Klasse](./how-to-use-queryselectorall-in-java-filter-by-class/)
+Erfahren Sie, wie Sie mit querySelectorAll in Aspose.HTML für Java Elemente nach CSS‑Klasse filtern können.
+### [Wie man XHTML-Datei in Java liest – XPath-Namespace-Beispiel](./how-to-read-xhtml-file-in-java-xpath-namespace-example/)
+Erfahren Sie, wie Sie mit Aspose.HTML für Java eine XHTML-Datei mithilfe von XPath und Namespaces auslesen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

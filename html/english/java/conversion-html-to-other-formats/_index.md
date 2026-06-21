@@ -85,18 +85,27 @@ In conclusion, mastering **html to pdf java** and the broader set of conversions
 Learn how to convert HTML to PDF in Java using Aspose.HTML. Create high-quality PDFs from your HTML content effortlessly.
 ### [Convert HTML to PDF in Java – Step‑by‑Step Guide with Page Size Settings](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Step-by-step guide to convert HTML to PDF in Java, including how to set custom page sizes using Aspose.HTML.
+### [Convert HTML to PDF in Java – Step‑by‑Step Guide](./convert-html-to-pdf-in-java-step-by-step-guide/)
+A comprehensive step‑by‑step tutorial for converting HTML to PDF in Java using Aspose.HTML.
 ### [Converting HTML to MHTML](./convert-html-to-mhtml/)
 Effortlessly convert HTML to MHTML using Aspose.HTML for Java. Follow our step-by-step guide for efficient HTML-to-MHTML conversion.
 ### [Converting HTML to XPS](./convert-html-to-xps/)
 Learn how to effortlessly convert HTML to XPS using Aspose.HTML for Java. Create cross-platform documents with ease.
 ### [Converting Markdown to HTML](./convert-markdown-to-html/)
 Convert Markdown to HTML in Java seamlessly with Aspose.HTML for Java. Follow our step-by-step guide to streamline your document conversion needs.
+### [Save HTML as Markdown in Java – Complete Step‑by‑Step Guide](./save-html-as-markdown-in-java-complete-step-by-step-guide/)
 ### [Converting SVG to Image](./convert-svg-to-image/)
 Learn how to convert SVG to images in Java with Aspose.HTML. Comprehensive guide for high-quality output.
 ### [Converting SVG to PDF](./convert-svg-to-pdf/)
 Convert SVG to PDF in Java with Aspose.HTML. A seamless solution for high-quality document conversion.
 ### [Converting SVG to XPS](./convert-svg-to-xps/)
 Learn how to convert SVG to XPS with Aspose.HTML for Java. Simple, step-by-step guide for seamless conversions.
+### [Convert HTML to PDF with Java – Full Guide](./convert-html-to-pdf-with-java-full-guide/)
+Comprehensive guide to converting HTML to PDF using Aspose.HTML for Java, covering setup, options, and best practices.
+### [How to Enable JavaScript in Aspose HTML to PDF (Java)](./how-to-enable-javascript-in-aspose-html-to-pdf-java/)
+Learn how to enable JavaScript execution during HTML to PDF conversion with Aspose.HTML for Java for dynamic content rendering.
+### [save html as pdf – Parallel Batch Conversion Using Fixed Thread Pool Java](./save-html-as-pdf-parallel-batch-conversion-using-fixed-threa/)
+Learn how to perform parallel batch HTML to PDF conversion using a fixed thread pool in Java with Aspose.HTML.
 
 ## Frequently Asked Questions
 

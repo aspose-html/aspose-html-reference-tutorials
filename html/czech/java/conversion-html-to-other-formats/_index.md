@@ -84,6 +84,8 @@ Na závěr, zvládnutí **html to pdf java** a širší sady konverzí odemyká 
 ## Konverze - Tutoriály pro HTML do jiných formátů
 ### [Převod HTML do PDF](./convert-html-to-pdf/)
 Naučte se převést HTML do PDF v Javě pomocí Aspose.HTML. Vytvářejte vysoce kvalitní PDF z vašeho HTML obsahu bez námahy.
+### [Jak povolit JavaScript v Aspose HTML do PDF (Java)](./how-to-enable-javascript-in-aspose-html-to-pdf-java/)
+Naučte se, jak povolit vykonávání JavaScriptu při konverzi HTML do PDF pomocí Aspose.HTML for Java.
 ### [Převod HTML do MHTML](./convert-html-to-mhtml/)
 Jednoduše převádějte HTML do MHTML pomocí Aspose.HTML for Java. Postupujte podle našeho krok‑za‑krokem průvodce pro efektivní konverzi HTML‑to‑MHTML.
 ### [Převod HTML do XPS](./convert-html-to-xps/)
@@ -96,8 +98,16 @@ Naučte se převádět SVG na obrázky v Javě s Aspose.HTML. Kompletní průvod
 Převádějte SVG do PDF v Javě s Aspose.HTML. Bezproblémové řešení pro vysoce kvalitní konverzi dokumentů.
 ### [Převod SVG do XPS](./convert-svg-to-xps/)
 Naučte se převádět SVG do XPS s Aspose.HTML for Java. Jednoduchý, krok‑za‑krokem průvodce pro plynulé konverze.
+### [Převod HTML do PDF v Javě – krok‑za‑krokem](./convert-html-to-pdf-in-java-step-by-step-guide/)
+Kompletní průvodce převodem HTML do PDF v Javě s podrobným nastavením a ukázkovým kódem.
 ### [Převod HTML do PDF v Javě – krok‑za‑krokem s nastavením velikosti stránky](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Naučte se převést HTML do PDF v Javě s podrobným nastavením velikosti stránky a dalšími možnostmi.
+### [Převod HTML do PDF v Javě – Kompletní průvodce](./convert-html-to-pdf-with-java-full-guide/)
+Kompletní průvodce převodem HTML do PDF v Javě s podrobným nastavením a ukázkovým kódem.
+### [Uložení HTML jako PDF – paralelní dávková konverze pomocí Fixed Thread Pool v Javě](./save-html-as-pdf-parallel-batch-conversion-using-fixed-threa/)
+Ukazuje, jak pomocí pevného thread poolu provádět paralelní konverzi více HTML souborů do PDF v Javě.
+### [Uložení HTML jako Markdown v Javě – Kompletní průvodce krok za krokem](./save-html-as-markdown-in-java-complete-step-by-step-guide/)
+Naučte se, jak převést HTML soubory na Markdown v Javě pomocí Aspose.HTML s podrobným návodem krok za krokem.
 
 ## Často kladené otázky
 
