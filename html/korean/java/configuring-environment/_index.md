@@ -98,19 +98,13 @@ Configuring your environment is the foundation for successful **convert HTML to 
 
 ## Aspose.HTML for Java 환경 구성 튜토리얼
 ### [Set Character Set in Aspose.HTML for Java](./set-character-set/)
-Aspose.HTML for Java에서 문자 집합을 설정하고 HTML을 PDF로 변환하는 방법을 단계별로 배웁니다. 올바른 텍스트 인코딩 및 렌더링을 보장합니다.
 ### [Configure Fonts in Aspose.HTML for Java](./configure-fonts/)
-Aspose.HTML for Java에서 폰트를 구성하는 방법을 자세하고 단계별로 배웁니다. 맞춤 폰트와 스타일을 활용해 HTML을 PDF로 변환하는 품질을 향상시키세요.
 ### [Use Message Handlers in Aspose.HTML for Java](./use-message-handlers/)
-Aspose.HTML for Java에서 메시지 핸들러를 사용해 누락된 이미지 및 기타 네트워크 작업을 효과적으로 처리하는 방법을 배웁니다.
 ### [Set Up Network Service in Aspose.HTML for Java](./setup-network-service/)
-Aspose.HTML for Java에서 네트워크 서비스를 설정하고, 네트워크 리소스를 관리하며, 맞춤 오류 처리를 통해 HTML을 PNG로 변환하는 방법을 배웁니다.
 ### [Configure Runtime Service in Aspose.HTML for Java](./configure-runtime-service/)
-Aspose.HTML for Java에서 런타임 서비스를 구성해 스크립트 실행을 최적화하고, 무한 루프를 방지하며, 애플리케이션 성능을 향상시키는 방법을 배웁니다.
 ### [Implement Sandboxing in Aspose.HTML for Java](./implement-sandboxing/)
-Aspose.HTML for Java에서 샌드박스를 구현해 HTML 문서의 스크립트 실행을 안전하게 제어하고 PDF로 변환하는 방법을 배웁니다.
 ### [Set User Style Sheet in Aspose.HTML for Java](./set-user-style-sheet/)
-Aspose.HTML for Java에서 사용자 정의 스타일시트를 설정해 문서 스타일을 향상하고 HTML을 PDF로 손쉽게 변환하는 방법을 배웁니다.
+### [Java에서 라이브러리 버전 가져오기 – 라이브러리 버전 표시 빠른 가이드](./get-library-version-in-java-quick-guide-to-show-library-vers/)
 
 ---
 

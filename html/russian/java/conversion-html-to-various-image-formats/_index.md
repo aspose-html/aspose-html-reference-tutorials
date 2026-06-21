@@ -106,6 +106,12 @@ weight: 24
 ### [Преобразование HTML в WebP – Полное руководство Java с Aspose.HTML](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
 Узнайте, как преобразовать HTML в WebP в Java с помощью Aspose.HTML. Полное пошаговое руководство.
 
+### [Как установить DPI при конвертации HTML в PNG – Полное руководство Java](./how-to-set-dpi-when-converting-html-to-png-complete-java-gui/)
+Узнайте, как задать DPI при конвертации HTML в PNG с помощью Aspose.HTML для Java. Подробные шаги и примеры кода.
+
+### [Установка device pixel ratio в Java – рендер HTML в PNG](./set-device-pixel-ratio-in-java-render-html-to-png/)
+Узнайте, как установить device pixel ratio при рендеринге HTML в PNG в Java с помощью Aspose.HTML. Подробное руководство.
+
 ## Часто задаваемые вопросы
 
 **В: Можно ли конвертировать HTML в PNG с помощью Java без дополнительных библиотек для работы с изображениями?**  

@@ -117,6 +117,9 @@ A: 沙盒會限制某些 API（例如 `window.open`），但一般的 DOM 操作
 ### [Set User Style Sheet in Aspose.HTML for Java](./set-user-style-sheet/)
 學習如何在 Aspose.HTML for Java 中設定自訂使用者樣式表，提升文件樣式，輕鬆將 HTML 轉換為 PDF。
 
+### [在 Java 中取得庫版本 – 快速顯示庫版本指南](./get-library-version-in-java-quick-guide-to-show-library-vers/)
+學習如何在 Aspose.HTML for Java 中取得庫的版本資訊，快速顯示當前使用的套件版本。
+
 ---
 
 **最後更新：** 2025-12-03  
