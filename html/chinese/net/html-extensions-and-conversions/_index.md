@@ -69,11 +69,16 @@ Aspose.HTML for .NET 不仅仅是一个库；它是 Web 开发领域的变革者
 本完整指南展示如何使用 Aspose.HTML for .NET 创建带样式的 HTML 文档并将其导出为 PDF，包含详细步骤和代码示例。
 ### [使用 Aspose.HTML 在 C# 中将 HTML 创建为 PDF – 完整指南](./create-pdf-from-html-c-step-by-step-guide/)
 使用 Aspose.HTML for .NET 在 C# 中将 HTML 转换为 PDF 的完整分步指南，涵盖代码示例和最佳实践。
+### [使用 Aspose.HTML 在 C# 中将 HTML 创建为 PDF – 完整指南（抗锯齿）](./create-pdf-from-html-full-c-guide-with-antialiasing/)
+使用 Aspose.HTML for .NET 在 C# 中将 HTML 转换为 PDF，详细演示开启抗锯齿以提升渲染质量的完整指南。
 ### [使用 Aspose.HTML 在 .NET 中将 HTML 保存为 ZIP – 完整的 C# 教程](./save-html-as-zip-complete-c-tutorial/)
 使用 Aspose.HTML for .NET 将 HTML 内容打包为 ZIP 文件的完整 C# 示例，包含代码演示和关键步骤。
-
 ### [在 C# 中将 HTML 保存为 ZIP – 完整内存示例](./save-html-to-zip-in-c-complete-in-memory-example/)
 演示如何使用 Aspose.HTML for .NET 在 C# 中将 HTML 内容压缩为 ZIP 文件，完整的内存操作示例。
+### [使用 Aspose.HTML 在 C# 中将 HTML 打包为 ZIP – 完整指南](./how-to-zip-html-in-c-complete-guide/)
+使用 Aspose.HTML for .NET 在 C# 中将 HTML 打包为 ZIP 的完整指南，提供详细步骤和代码示例。
+### [使用 Aspose.HTML 在 C# 中将 HTML 转换为字符串 – 完整指南](./convert-html-to-string-in-c-with-aspose-html-complete-guide/)
+使用 Aspose.HTML for .NET 在 C# 中将 HTML 内容转换为字符串的完整分步指南。
 
 ## 结论
 

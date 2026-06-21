@@ -48,6 +48,8 @@ Erfahren Sie, wie Sie mit Aspose.HTML für .NET HTML in PDF, XPS und Bilder konv
 Erfahren Sie, wie Sie mit Aspose.HTML für .NET dynamisch HTML-Dokumente aus JSON-Daten generieren. Nutzen Sie die Leistungsfähigkeit der HTML-Manipulation in Ihren .NET-Anwendungen.
 ### [Wie man Schriftarten programmgesteuert in C# kombiniert – Schritt‑für‑Schritt‑Anleitung](./how-to-combine-fonts-programmatically-in-c-step-by-step-guid/)
 Erfahren Sie, wie Sie mit Aspose.HTML Schriftarten in C# kombinieren, um benutzerdefinierte Fonts zu erstellen – detaillierte Schritt‑für‑Schritt‑Anleitung.
+### [Dokument als PDF in C# speichern – Vollständige Anleitung mit ZIP‑Unterstützung](./save-document-as-pdf-in-c-complete-guide-with-zip-support/)
+Erfahren Sie, wie Sie mit Aspose.HTML Dokumente in C# als PDF speichern und dabei ZIP‑Kompression für mehrere Dateien nutzen.
 
 ## Abschluss
 
