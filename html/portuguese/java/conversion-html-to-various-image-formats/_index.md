@@ -65,6 +65,22 @@ Se você precisa **converter HTML para JPEG** para representações semelhantes 
 ## Convertendo HTML para PNG
 Transformar HTML em imagens PNG é ideal para gráficos sem perdas, capturas de tela ou quando você precisa de transparência. Nosso guia abrangente fornece instruções claras para uma experiência de conversão fluida.
 
+## Conversão - HTML para Vários Formatos de Imagem Tutoriais
+### [Convertendo HTML para BMP](./convert-html-to-bmp/)
+Convertendo HTML para BMP com Aspose.HTML for Java. Um tutorial abrangente para converter documentos HTML em imagens BMP usando Aspose.HTML for Java.
+### [Convertendo HTML para GIF](./convert-html-to-gif/)
+Aprenda a converter HTML para GIF em Java usando Aspose.HTML. Um guia passo a passo completo para conversão eficiente de HTML para GIF.
+### [Convertendo HTML para JPEG](./convert-html-to-jpeg/)
+Aprenda a converter HTML para JPEG com Aspose.HTML for Java. Guia passo a passo para processamento de documentos sem interrupções.
+### [Convertendo HTML para PNG](./convert-html-to-png/)
+Aprenda a converter HTML para imagens PNG em Java com Aspose.HTML. Um guia abrangente com instruções passo a passo.
+### [Converter HTML para PNG com uso máximo de memória em Java](./convert-html-to-png-with-set-max-memory-usage-in-java/)
+Aprenda a converter HTML para PNG em Java definindo o uso máximo de memória. Guia passo a passo para otimizar recursos.
+### [Convertendo HTML para TIFF](./convert-html-to-tiff/)
+Aprenda a converter HTML para TIFF usando Aspose.HTML for Java de forma fácil. Guia passo a passo para manipulação eficiente de documentos.
+### [Convertendo HTML para WebP – Guia Completo em Java com Aspose.HTML](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
+Aprenda a converter HTML para WebP em Java usando Aspose.HTML. Guia completo passo a passo para gerar imagens WebP de alta qualidade.
+
 ## Convertendo HTML para TIFF
 Converter HTML para TIFF é perfeito para impressão de alta resolução ou armazenamento de arquivos. Este tutorial descreve os passos exatos para gerar arquivos TIFF de forma eficiente usando Aspose.HTML for Java.
 
@@ -90,6 +106,8 @@ Aprenda a converter HTML para GIF em Java usando Aspose.HTML. Um guia passo a pa
 Aprenda a converter HTML para JPEG com Aspose.HTML for Java. Guia passo a passo para processamento de documentos sem interrupções.
 ### [Convertendo HTML para PNG](./convert-html-to-png/)
 Aprenda a converter HTML para imagens PNG em Java com Aspose.HTML. Um guia abrangente com instruções passo a passo.
+### [Converter HTML para PNG com uso máximo de memória em Java](./convert-html-to-png-with-set-max-memory-usage-in-java/)
+Aprenda a converter HTML para PNG em Java definindo o uso máximo de memória. Guia passo a passo para otimizar recursos.
 ### [Convertendo HTML para TIFF](./convert-html-to-tiff/)
 Aprenda a converter HTML para TIFF usando Aspose.HTML for Java de forma fácil. Guia passo a passo para manipulação eficiente de documentos.
 ### [Convertendo HTML para WebP – Guia Completo em Java com Aspose.HTML](./convert-html-to-webp-complete-java-guide-with-aspose-html/)

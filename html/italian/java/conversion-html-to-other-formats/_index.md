@@ -85,12 +85,15 @@ In conclusione, padroneggiare **html to pdf java** e l'insieme più ampio di con
 
 ### [Conversione da HTML a PDF](./convert-html-to-pdf/)
 ### [Converti HTML in PDF in Java – Guida passo‑passo con impostazioni della dimensione della pagina](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
+### [Crea PDF da HTML in Java – Guida passo‑passo](./create-pdf-from-html-in-java-step-by-step-guide/)
 ### [Conversione da HTML a MHTML](./convert-html-to-mhtml/)
 ### [Conversione da HTML a XPS](./convert-html-to-xps/)
 ### [Conversione da Markdown a HTML](./convert-markdown-to-html/)
+### [Conversione da Markdown a PDF in Java – Guida completa](./convert-markdown-to-pdf-in-java-complete-guide/)
 ### [Conversione da SVG a Immagine](./convert-svg-to-image/)
 ### [Conversione da SVG a PDF](./convert-svg-to-pdf/)
 ### [Conversione da SVG a XPS](./convert-svg-to-xps/)
+### [Converti HTML in PDF in Java – Guida al pool di thread fisso parallelo](./convert-html-to-pdf-in-java-parallel-fixed-thread-pool-guide/)
 
 ## Domande frequenti
 
