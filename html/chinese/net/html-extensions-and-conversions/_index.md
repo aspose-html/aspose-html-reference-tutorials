@@ -39,6 +39,10 @@ Aspose.HTML for .NET 不仅仅是一个库；它是 Web 开发领域的变革者
 ## HTML 扩展和转换教程
 ### [使用 Aspose.HTML 在 .NET 中将 HTML 转换为 PDF](./convert-html-to-pdf/)
 使用 Aspose.HTML for .NET 轻松将 HTML 转换为 PDF。按照我们的分步指南，释放 HTML 到 PDF 转换的强大功能。
+
+### [在 C# 中使用 Aspose.HTML 将 HTML 渲染为 PDF – 完整指南（页面大小与抗锯齿）](./render-html-to-pdf-in-c-full-guide-with-page-size-anti-alias/)
+使用 Aspose.HTML for .NET 在 C# 中将 HTML 渲染为 PDF，涵盖页面大小设置和抗锯齿技术的完整分步指南。
+
 ### [使用 Aspose.HTML 在 .NET 中将 EPUB 转换为图像](./convert-epub-to-image/)
 了解如何使用 Aspose.HTML for .NET 将 EPUB 转换为图像。带有代码示例和可自定义选项的分步教程。
 ### [使用 Aspose.HTML 在 .NET 中将 EPUB 转换为 PDF](./convert-epub-to-pdf/)
@@ -56,7 +60,7 @@ Aspose.HTML for .NET 不仅仅是一个库；它是 Web 开发领域的变革者
 ### [使用 Aspose.HTML 在 .NET 中将 HTML 转换为 Markdown](./convert-html-to-markdown/)
 了解如何使用 Aspose.HTML 在 .NET 将 HTML 转换为 Markdown，以实现高效的内容操作。获取无缝转换过程的分步指导。
 ### [使用 Aspose.HTML 在 .NET 中将 HTML 转换为 MHTML](./convert-html-to-mhtml/)
-使用 Aspose.HTML 在 .NET 中将 HTML 转换为 MHTML - 高效 Web 内容存档的分步指南。了解如何使用 Aspose.HTML for .NET 创建 MHTML 存档。
+使用 Aspose.HTML 在 .NET 将 HTML 转换为 MHTML - 高效 Web 内容存档的分步指南。了解如何使用 Aspose.HTML for .NET 创建 MHTML 存档。
 ### [使用 Aspose.HTML 在 .NET 中将 HTML 转换为 PNG](./convert-html-to-png/)
 了解如何使用 Aspose.HTML for .NET 来操作和转换 HTML 文档。高效 .NET 开发的分步指南。
 ### [使用 Aspose.HTML 在 .NET 中将 HTML 转换为 TIFF](./convert-html-to-tiff/)
@@ -71,9 +75,12 @@ Aspose.HTML for .NET 不仅仅是一个库；它是 Web 开发领域的变革者
 使用 Aspose.HTML for .NET 在 C# 中将 HTML 转换为 PDF 的完整分步指南，涵盖代码示例和最佳实践。
 ### [使用 Aspose.HTML 在 .NET 中将 HTML 保存为 ZIP – 完整的 C# 教程](./save-html-as-zip-complete-c-tutorial/)
 使用 Aspose.HTML for .NET 将 HTML 内容打包为 ZIP 文件的完整 C# 示例，包含代码演示和关键步骤。
-
 ### [在 C# 中将 HTML 保存为 ZIP – 完整内存示例](./save-html-to-zip-in-c-complete-in-memory-example/)
 演示如何使用 Aspose.HTML for .NET 在 C# 中将 HTML 内容压缩为 ZIP 文件，完整的内存操作示例。
+### [在 C# 中将 HTML 压缩为 ZIP – 完整分步指南](./how-to-zip-html-in-c-complete-step-by-step-guide/)
+使用 Aspose.HTML for .NET 在 C# 中将 HTML 打包为 ZIP 的完整分步教程。
+### [在 C# 中创建 Zip 存档 – 将 HTML 转换为包含嵌入图像的 ZIP](./create-zip-archive-in-c-convert-html-to-zip-with-embedded-im/)
+使用 Aspose.HTML for .NET 在 C# 中将 HTML 与嵌入的图像一起压缩为 ZIP 文件的完整分步指南。
 
 ## 结论
 

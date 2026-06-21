@@ -51,26 +51,39 @@ Aspose.HTML voor .NET valt op door zijn eenvoud en kracht. Het geeft u de volled
 ## Handleidingen voor het manipuleren van HTML-documenten
 ### [Laad HTML-documenten asynchroon in .NET met Aspose.HTML](./load-html-doc-asynchronously/)
 Leer hoe u Aspose.HTML voor .NET gebruikt om met HTML-documenten te werken. Stapsgewijze handleiding met voorbeelden en FAQ's voor ontwikkelaars.
+
 ### [Laad HTML-documenten met referenties in .NET met Aspose.HTML](./load-html-doc-with-credentials/)
 Ontdek hoe u uw SEO een boost kunt geven met Aspose.HTML voor .NET. Verbeter rankings, analyseer webcontent en optimaliseer voor zoekmachines.
+
 ### [HTML laden met behulp van een externe server in .NET met Aspose.HTML](./load-html-using-remote-server/)
 Ontgrendel het potentieel van Aspose.HTML voor .NET met onze uitgebreide gids. Leer hoe u naamruimten importeert, externe HTML-documenten opent en meer.
+
 ### [HTML laden met URL in .NET met Aspose.HTML](./load-html-using-url/)
 Leer hoe u de kracht van Aspose.HTML voor .NET kunt benutten. Geef uw webontwikkeling een boost met HTML-manipulatie en rendering.
+
 ### [Een document maken in .NET met Aspose.HTML](./creating-a-document/)
 Ontketen de kracht van Aspose.HTML voor .NET. Leer eenvoudig HTML- en SVG-documenten maken, manipuleren en optimaliseren. Bekijk stapsgewijze voorbeelden en veelgestelde vragen.
+
 ### [HTML maken vanuit een string in C# – Gids voor aangepaste resourcehandler](./create-html-from-string-in-c-custom-resource-handler-guide/)
 Leer hoe u HTML vanuit een string genereert in C# met een aangepaste resourcehandler, inclusief voorbeeldcode en stapsgewijze uitleg.
+
 ### [Een document bewerken in .NET met Aspose.HTML](./editing-a-document/)
 Maak boeiende webcontent met Aspose.HTML voor .NET. Leer hoe u HTML, CSS en meer kunt manipuleren.
+
 ### [Een document opslaan in .NET met Aspose.HTML](./saving-a-document/)
 Ontgrendel de kracht van Aspose.HTML voor .NET met onze stapsgewijze handleiding. Leer HTML- en SVG-documenten te maken, te bewerken en te converteren.
+
 ### [Voeg HTML samen met Json in .NET met Aspose.HTML](./merge-html-with-json/)
 Leer dynamische en webinhoud te maken met Aspose.HTML voor .NET. Versterk uw online aanwezigheid en betrek uw publiek.
+
 ### [Voeg HTML samen met XML in .NET met Aspose.HTML](./merge-html-with-xml/)
 Leer Aspose.HTML voor .NET gebruiken. Importeer namespace, voeg HTML samen met XML en verbeter uw webontwikkelingsvaardigheden met deze uitgebreide gids.
+
 ### [Genereer XPS-documenten door XpsDevice in .NET met Aspose.HTML](./generate-xps-documents-by-xpsdevice/)
 Ontgrendel het potentieel van webontwikkeling met Aspose.HTML voor .NET. Maak, converteer en manipuleer eenvoudig HTML-documenten.
+
+### [Hoe HTML op te slaan met Aspose.HTML – Stapsgewijze gids](./how-to-save-html-with-aspose-html-step-by-step-guide/)
+Leer hoe u HTML kunt opslaan met Aspose.HTML in .NET via een stapsgewijze handleiding.
 
 ## Conclusie
 
