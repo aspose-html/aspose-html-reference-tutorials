@@ -69,6 +69,12 @@ Kompletní návod, jak pomocí Aspose.HTML v .NET převést HTML soubory do PNG 
 ### [Vytvořte PNG z HTML – Kompletní průvodce renderováním v C#](./create-png-from-html-full-c-rendering-guide/)
 Naučte se, jak pomocí Aspose.HTML pro .NET převést HTML do PNG pomocí kompletního C# průvodce.
 
+### [Vytvořte PDF dokument C# – Vykreslete HTML do PDF pomocí Aspose](./create-pdf-document-c-render-html-to-pdf-with-aspose/)
+Naučte se, jak pomocí Aspose.HTML v .NET převést HTML do PDF v C# s podrobnými ukázkami.
+
+### [Renderujte HTML do PDF a zabalte jej – Kompletní průvodce C#](./render-html-to-pdf-and-zip-it-complete-c-guide/)
+Naučte se pomocí Aspose.HTML v .NET převést HTML do PDF a následně jej zkomprimovat do ZIP souboru v C#.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

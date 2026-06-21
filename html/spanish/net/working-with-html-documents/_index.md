@@ -41,6 +41,8 @@ Ahora, llevemos tus habilidades al siguiente nivel. Editar documentos HTML es un
 
 Aprenda a aplicar estilo negrita a encabezados usando CSS y C# con este tutorial detallado.
 
+### [Crear HTML a partir de una cadena en C# – Guía completa con Memory Stream](./create-html-from-string-in-c-full-guide-with-memory-stream/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

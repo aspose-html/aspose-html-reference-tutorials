@@ -60,6 +60,10 @@ Aspose.HTML for .NET ile HTML dosyalarını PNG formatına dönüştürmeyi adı
 Aspose.HTML for .NET kullanarak HTML dosyalarını PNG formatına dönüştürmenin tüm adımlarını öğrenin.
 ### [HTML'den PNG Oluşturma – Tam C# Render Rehberi](./create-png-from-html-full-c-rendering-guide/)
 HTML'den PNG oluşturmayı tam C# render rehberiyle adım adım öğrenin.
+### [PDF Belgesi Oluşturma C# – Aspose ile HTML'yi PDF'ye Dönüştürme](./create-pdf-document-c-render-html-to-pdf-with-aspose/)
+Aspose.HTML for .NET kullanarak C# ile HTML içeriğini PDF belgesine dönüştürmeyi adım adım öğrenin.
+### [HTML'yi PDF'ye Dönüştür ve Zipleyin – Tam C# Rehberi](./render-html-to-pdf-and-zip-it-complete-c-guide/)
+HTML'yi PDF'ye dönüştürüp sıkıştırarak tek bir arşiv oluşturmayı adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
