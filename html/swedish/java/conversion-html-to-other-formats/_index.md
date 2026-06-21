@@ -90,6 +90,8 @@ Konvertera enkelt HTML till MHTML med Aspose.HTML for Java. Följ vår steg‑f�
 Lär dig hur du enkelt konverterar HTML till XPS med Aspose.HTML for Java. Skapa plattformsoberoende dokument med lätthet.
 ### [Konvertera Markdown till HTML](./convert-markdown-to-html/)
 Konvertera Markdown till HTML i Java sömlöst med Aspose.HTML for Java. Följ vår steg‑för‑steg‑guide för att förenkla dina dokumentkonverteringsbehov.
+### [Hur man anger förskjutning vid konvertering av HTML till Markdown i Java](./how-to-set-offset-when-converting-html-to-markdown-in-java/)
+Lär dig hur du justerar offset‑värdet när du konverterar HTML till Markdown med Aspose.HTML för Java.
 ### [Konvertera SVG till Bild](./convert-svg-to-image/)
 Lär dig hur du konverterar SVG till bilder i Java med Aspose.HTML. Omfattande guide för högkvalitativ output.
 ### [Konvertera SVG till PDF](./convert-svg-to-pdf/)
@@ -98,6 +100,9 @@ Konvertera SVG till PDF i Java med Aspose.HTML. En sömlös lösning för högkv
 Lär dig hur du konverterar SVG till XPS med Aspose.HTML for Java. Enkel, steg‑för‑steg‑guide för smidiga konverteringar.
 ### [Konvertera HTML till PDF i Java – Steg‑för‑steg‑guide med sidstorleksinställningar](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Lär dig konvertera HTML till PDF i Java med detaljerade steg och anpassa sidstorlek för optimal utskrift.
+### [Skapa PDF från HTML i Java – Komplett steg‑för‑steg‑guide](./create-pdf-from-html-in-java-complete-step-by-step-guide/)
+Lär dig hur du skapar PDF från HTML i Java med en komplett steg‑för‑steg‑guide.
+### [Ställ in PDF-sidstorlek med Aspose HTML – Fullständig Java‑guide](./set-pdf-page-size-with-aspose-html-full-java-guide/)
 
 ## Vanliga frågor
 

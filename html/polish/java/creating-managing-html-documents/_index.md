@@ -60,12 +60,16 @@ Odkryj, jak łatwo ładować dokumenty HTML z adresu URL w Javie za pomocą Aspo
 Dowiedz się, jak tworzyć nowe dokumenty HTML za pomocą Aspose.HTML dla Java dzięki temu prostemu przewodnikowi krok po kroku. Zacznij generować dynamiczną zawartość HTML.
 ### [Obsługa zdarzeń ładowania dokumentów w Aspose.HTML dla Java](./handle-document-load-events/)
 Naucz się obsługiwać zdarzenia ładowania dokumentów w Aspose.HTML dla Java dzięki temu przewodnikowi krok po kroku. Ulepsz swoje aplikacje internetowe.
+### [Wykonaj asynchroniczny JavaScript w Javie – Kompletny przewodnik krok po kroku](./execute-async-javascript-in-java-complete-step-by-step-guide/)
+Dowiedz się, jak uruchamiać asynchroniczny kod JavaScript w aplikacjach Java przy użyciu Aspose.HTML, krok po kroku.
 ### [Tworzenie i zarządzanie dokumentami SVG w Aspose.HTML dla Java](./create-manage-svg-documents/)
 Naucz się tworzyć i zarządzać dokumentami SVG za pomocą Aspose.HTML dla Java! Ten kompleksowy przewodnik obejmuje wszystko, od podstawowego tworzenia po zaawansowaną manipulację.
 ### [Utwórz piaskownicę dla HTML w Javie – przewodnik krok po kroku](./create-sandbox-for-html-in-java-step-by-step-guide/)
 Dowiedz się, jak skonfigurować bezpieczną piaskownicę HTML w Javie, aby testować i uruchamiać kod w izolowanym środowisku.
 ### [Jak zapytać HTML w Javie – Kompletny samouczek](./how-to-query-html-in-java-complete-tutorial/)
 Dowiedz się, jak efektywnie zapytać i przetwarzać dokumenty HTML w Javie przy użyciu Aspose.HTML.
+### [Jak parsować HTML w Javie – ładowanie, zapytania i liczenie elementów](./how-to-parse-html-java-load-query-count-elements/)
+Dowiedz się, jak ładować dokumenty HTML, wykonywać zapytania i liczyć elementy przy użyciu Aspose.HTML dla Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -87,18 +87,24 @@ Sonuç olarak, **html to pdf java** ve daha geniş dönüşüm setine hâkim olm
 HTML içeriğinizden sorunsuz bir şekilde yüksek kaliteli PDF'ler oluşturun.
 ### [HTML'yi PDF'ye Dönüştürme Java’da – Sayfa Boyutu Ayarlarıyla Adım‑Adım Kılavuz](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Java’da HTML'yi PDF'ye dönüştürürken sayfa boyutu ayarlarını nasıl yapılandıracağınızı adım adım gösterir.
+### [Aspose HTML ile PDF Sayfa Boyutunu Ayarlama – Tam Java Kılavuzu](./set-pdf-page-size-with-aspose-html-full-java-guide/)
+Aspose.HTML kullanarak Java'da PDF sayfa boyutunu nasıl ayarlayacağınızı adım adım gösteren kapsamlı rehber.
 ### [HTML'yi MHTML'ye Dönüştürme](./convert-html-to-mhtml/)
 Aspose.HTML for Java ile HTML'yi MHTML'ye kolayca dönüştürün. Verimli HTML‑to‑MHTML dönüşümü için adım adım rehberimizi izleyin.
 ### [HTML'yi XPS'ye Dönüştürme](./convert-html-to-xps/)
 Aspose.HTML for Java ile HTML'yi XPS'ye sorunsuz bir şekilde dönüştürmeyi öğrenin. Kolaylıkla çok platformlu belgeler oluşturun.
 ### [Markdown'ı HTML'ye Dönüştürme](./convert-markdown-to-html/)
 Aspose.HTML for Java ile Java'da Markdown'ı HTML'ye sorunsuz bir şekilde dönüştürün. Belge dönüşüm ihtiyaçlarınızı kolaylaştırmak için adım adım rehberimizi izleyin.
+### [Java’da HTML'yi Markdown’a Dönüştürürken Ofset Ayarlama](./how-to-set-offset-when-converting-html-to-markdown-in-java/)
+HTML'den Markdown'a dönüşüm sırasında ofset değerini nasıl ayarlayacağınızı adım adım gösterir.
 ### [SVG'yi Görüntüye Dönüştürme](./convert-svg-to-image/)
 Aspose.HTML ile Java'da SVG'yi görüntülere dönüştürmeyi öğrenin. Yüksek kaliteli çıktı için kapsamlı rehber.
 ### [SVG'yi PDF'ye Dönüştürme](./convert-svg-to-pdf/)
 Aspose.HTML ile Java'da SVG'yi PDF'ye dönüştürün. Yüksek kaliteli belge dönüşümü için sorunsuz bir çözüm.
 ### [SVG'yi XPS'ye Dönüştürme](./convert-svg-to-xps/)
 Aspose.HTML for Java ile SVG'yi XPS'ye dönüştürmeyi öğrenin. Sorunsuz dönüşümler için basit, adım adım rehber.
+### [Java’da HTML'den PDF Oluşturma – Tam Adım‑Adım Kılavuz](./create-pdf-from-html-in-java-complete-step-by-step-guide/)
+Java uygulamanızda HTML'den yüksek kaliteli PDF oluşturmak için eksiksiz adım adım rehber.
 
 ## Sıkça Sorulan Sorular
 
