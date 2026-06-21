@@ -127,6 +127,12 @@ Pelajari cara menyesuaikan ukuran halaman XPS dengan Aspose.HTML untuk Java. Kon
 ### [Cara Menjalankan JavaScript di Java – Panduan Lengkap](./how-to-run-javascript-in-java-complete-guide/)
 Pelajari cara menjalankan kode JavaScript dalam aplikasi Java dengan Aspose.HTML untuk Java secara lengkap.
 
+### [Mengonversi EPUB ke DOCX di Java – Panduan Lengkap Langkah demi Langkah](./convert-epub-to-docx-in-java-full-step-by-step-guide/)
+Pelajari cara mengonversi file EPUB menjadi DOCX menggunakan Aspose.HTML untuk Java dengan contoh kode lengkap.
+
+### [Mengonversi SVG ke AVIF dengan Java – Panduan Lengkap Langkah demi Langkah](./convert-svg-to-avif-with-java-complete-step-by-step-guide/)
+Pelajari cara mengonversi file SVG menjadi format gambar AVIF menggunakan Aspose.HTML untuk Java dengan contoh kode lengkap.
+
 ---
 
 **Terakhir Diperbarui:** 2025-11-29  

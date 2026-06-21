@@ -128,6 +128,10 @@ Erfahren Sie, wie Sie die PDF‑Seitengröße mit Aspose.HTML für Java anpassen
 Erfahren Sie, wie Sie die XPS‑Seitengröße mit Aspose.HTML für Java anpassen. Steuern Sie die Ausgabedimensionen Ihrer XPS‑Dokumente einfach.
 ### [Wie man JavaScript in Java ausführt – Komplettanleitung](./how-to-run-javascript-in-java-complete-guide/)
 Erfahren Sie, wie Sie JavaScript-Code innerhalb von Java-Anwendungen ausführen und integrieren können.
+### [EPUB in DOCX konvertieren in Java – Vollständige Schritt‑für‑Schritt‑Anleitung](./convert-epub-to-docx-in-java-full-step-by-step-guide/)
+Erfahren Sie, wie Sie EPUB‑Dateien mit Aspose.HTML für Java in DOCX‑Dokumente konvertieren – eine vollständige Schritt‑für‑Schritt‑Anleitung.
+### [SVG in AVIF mit Java konvertieren – Vollständige Schritt‑für‑Schritt‑Anleitung](./convert-svg-to-avif-with-java-complete-step-by-step-guide/)
+Erfahren Sie, wie Sie SVG‑Grafiken mit Aspose.HTML für Java in das AVIF‑Bildformat konvertieren – eine vollständige Schritt‑für‑Schritt‑Anleitung.
 
 ---
 

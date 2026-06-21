@@ -128,6 +128,10 @@ Naučte se upravit velikost PDF stránky s Aspose.HTML pro Java. Vytvářejte vy
 Naučte se upravit velikost XPS stránky s Aspose.HTML pro Java. Jednoduše kontrolujte výstupní rozměry vašich XPS dokumentů.
 ### [Jak spustit JavaScript v Javě – Kompletní průvodce](./how-to-run-javascript-in-java-complete-guide/)
 Naučte se, jak spouštět JavaScript kód v Javě pomocí Aspose.HTML, včetně integrace, nastavení a praktických příkladů.
+### [Převod EPUB do DOCX v Javě – Kompletní krok‑za‑krokem průvodce](./convert-epub-to-docx-in-java-full-step-by-step-guide/)
+Naučte se převést soubory EPUB do formátu DOCX pomocí Aspose.HTML pro Java s podrobným návodem.
+### [Převod SVG do AVIF pomocí Javy – Kompletní krok‑za‑krokem průvodce](./convert-svg-to-avif-with-java-complete-step-by-step-guide/)
+Naučte se převést soubory SVG do formátu AVIF v Javě pomocí Aspose.HTML, včetně nastavení kvality a optimalizace.
 
 ---
 
