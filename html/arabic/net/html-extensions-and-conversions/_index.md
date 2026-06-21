@@ -39,6 +39,8 @@ url: /ar/net/html-extensions-and-conversions/
 ## دروس حول امتدادات HTML وتحويلاتها
 ### [تحويل HTML إلى PDF في .NET باستخدام Aspose.HTML](./convert-html-to-pdf/)
 قم بتحويل HTML إلى PDF بسهولة باستخدام Aspose.HTML for .NET. اتبع دليلنا خطوة بخطوة واكتشف قوة تحويل HTML إلى PDF.
+### [تحويل HTML إلى PDF في C# – حفظ صفحة HTML كملف PDF](./convert-html-to-pdf-in-c-save-html-page-as-pdf/)
+تعلم كيفية حفظ صفحة HTML كملف PDF باستخدام Aspose.HTML في C# خطوة بخطوة.
 ### [إنشاء PDF من HTML – دليل خطوة بخطوة بلغة C#](./create-pdf-from-html-c-step-by-step-guide/)
 دليل خطوة بخطوة لإنشاء ملف PDF من HTML باستخدام C# ومكتبة Aspose.HTML.
 ### [إنشاء مستند HTML بنص منسق وتصديره إلى PDF – دليل كامل](./create-html-document-with-styled-text-and-export-to-pdf-full/)
@@ -67,12 +69,16 @@ url: /ar/net/html-extensions-and-conversions/
 تعرف على كيفية تحويل HTML إلى TIFF باستخدام Aspose.HTML لـ .NET. اتبع دليلنا خطوة بخطوة لتحسين محتوى الويب بكفاءة.
 ### [تحويل HTML إلى XPS في .NET باستخدام Aspose.HTML](./convert-html-to-xps/)
 اكتشف قوة Aspose.HTML لـ .NET: تحويل HTML إلى XPS بسهولة. المتطلبات الأساسية، ودليل خطوة بخطوة، والأسئلة الشائعة متضمنة.
+### [تحويل HTML إلى صورة في C# – دليل خطوة بخطوة](./convert-html-to-image-in-c-step-by-step-guide/)
+دليل خطوة بخطوة لتحويل مستندات HTML إلى صور باستخدام C# ومكتبة Aspose.HTML.
 ### [كيفية ضغط HTML في C# – حفظ HTML إلى ملف Zip](./how-to-zip-html-in-c-save-html-to-zip/)
 تعلم كيفية ضغط ملفات HTML وحفظها كملف Zip باستخدام C# ومكتبة Aspose.HTML.
 ### [حفظ HTML كملف ZIP – دليل C# كامل](./save-html-as-zip-complete-c-tutorial/)
 تعلم كيفية حفظ مستند HTML كملف ZIP باستخدام Aspose.HTML في C# خطوة بخطوة.
 ### [حفظ HTML إلى ZIP في C# – مثال كامل في الذاكرة](./save-html-to-zip-in-c-complete-in-memory-example/)
 تعلم كيفية حفظ مستند HTML كملف ZIP في الذاكرة باستخدام C# ومكتبة Aspose.HTML.
+### [كيفية ضغط HTML – دليل كامل لتصدير صفحات الويب كملف ZIP](./how-to-zip-html-complete-guide-to-exporting-web-pages-as-zip/)
+تعلم كيفية ضغط ملفات HTML وتصدير صفحات الويب كملف ZIP باستخدام Aspose.HTML في C# خطوة بخطوة.
 
 ## خاتمة
 
