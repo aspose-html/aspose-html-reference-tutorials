@@ -58,8 +58,14 @@ Lär dig att rendera flera HTML-dokument med Aspose.HTML för .NET. Förbättra 
 Lås upp kraften i Aspose.HTML för .NET! Lär dig hur du renderar SVG-dokument som PNG utan ansträngning. Dyk ner i steg-för-steg-exempel och vanliga frågor. Kom igång nu!
 ### [Hur man använder Aspose för att rendera HTML till PNG – Steg‑för‑steg‑guide](./how-to-use-aspose-to-render-html-to-png-step-by-step-guide/)
 Lär dig hur du med Aspose.HTML för .NET konverterar HTML till PNG i en detaljerad steg‑för‑steg‑handledning.
+### [Hur man aktiverar kantutjämning vid rendering av HTML till PNG – Steg‑för‑steg‑guide](./how-to-enable-antialiasing-when-rendering-html-to-png-step-b/)
+Lär dig hur du med Aspose.HTML för .NET aktiverar kantutjämning när du renderar HTML till PNG i en detaljerad steg‑för‑steg‑handledning.
 ### [Hur man renderar HTML till PNG med Aspose – Komplett guide](./how-to-render-html-to-png-with-aspose-complete-guide/)
 Lär dig hur du med Aspose.HTML för .NET konverterar HTML till PNG i en komplett guide.
+### [Hur man zippar HTML och renderar det som PNG – Komplett C#‑guide](./how-to-zip-html-and-render-it-as-png-complete-c-guide/)
+Lär dig hur du zippar HTML-filer och renderar dem till PNG med Aspose.HTML i en komplett C#‑guide.
+### [Rendera HTML till bild i C# – Komplett programmeringsguide](./render-html-to-image-in-c-complete-programming-guide/)
+Lär dig hur du med Aspose.HTML för .NET konverterar HTML till bild i C# i en komplett programmeringsguide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

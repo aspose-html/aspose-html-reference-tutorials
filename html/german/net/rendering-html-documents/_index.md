@@ -43,8 +43,11 @@ Nachdem Sie Aspose.HTML für .NET eingerichtet haben, ist es an der Zeit, die Tu
 ### [Rendern Sie HTML als PNG in .NET mit Aspose.HTML](./render-html-as-png/)
 Erfahren Sie, wie Sie mit Aspose.HTML für .NET arbeiten: HTML bearbeiten, in verschiedene Formate konvertieren und mehr. Tauchen Sie ein in dieses umfassende Tutorial!
 
+### [HTML in Bild rendern in C# – Vollständiger Programmierleitfaden](./render-html-to-image-in-c-complete-programming-guide/)
+Erfahren Sie, wie Sie mit Aspose.HTML für .NET HTML in verschiedene Bildformate konvertieren – vollständiger C#‑Leitfaden mit Beispielen.
+
 ### [HTML als PNG rendern – Vollständiger C#-Leitfaden](./how-to-render-html-as-png-complete-c-guide/)
-Erfahren Sie, wie Sie mit Aspose.HTML für .NET HTML in PNG konvertieren, inklusive vollständigem C#-Beispiel und Schritt‑für‑Schritt‑Anleitung.
+Erfahren Sie, wie Sie mit Aspose.HTML für .NET HTML in PNG konvertieren, inklusive vollständigem C#‑Beispiel und Schritt‑für‑Schritt‑Anleitung.
 ### [Wie Sie Aspose zum Rendern von HTML nach PNG verwenden – Schritt‑für‑Schritt‑Anleitung](./how-to-use-aspose-to-render-html-to-png-step-by-step-guide/)
 Erfahren Sie, wie Sie mit Aspose.HTML HTML‑Inhalte in PNG‑Bilder umwandeln – detaillierte Schritt‑für‑Schritt‑Anleitung.
 
@@ -67,6 +70,13 @@ Erfahren Sie, wie Sie mit Aspose.HTML für .NET mehrere HTML-Dokumente rendern. 
 
 ### [Rendern Sie SVG-Dokumente als PNG in .NET mit Aspose.HTML](./render-svg-doc-as-png/)
 Entfesseln Sie die Leistungsfähigkeit von Aspose.HTML für .NET! Erfahren Sie, wie Sie SVG-Dokumente mühelos als PNG rendern. Tauchen Sie ein in Schritt‑für‑Schritt‑Beispiele und FAQs. Jetzt loslegen!
+
+### [Wie Sie Antialiasing beim Rendern von HTML nach PNG aktivieren – Schritt‑für‑Schritt‑Leitfaden](./how-to-enable-antialiasing-when-rendering-html-to-png-step-b/)
+Erfahren Sie, wie Sie mit Aspose.HTML für .NET Antialiasing aktivieren, um hochwertige PNG‑Ausgaben zu erhalten.
+
+### [Wie Sie HTML zippen und als PNG rendern – Vollständiger C#‑Leitfaden](./how-to-zip-html-and-render-it-as-png-complete-c-guide/)
+Erfahren Sie, wie Sie HTML-Dateien zippen und mit Aspose.HTML in PNG konvertieren – vollständiger C#‑Leitfaden.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
