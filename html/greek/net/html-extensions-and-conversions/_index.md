@@ -73,6 +73,10 @@ url: /el/net/html-extensions-and-conversions/
 Μάθετε πώς να αποθηκεύετε HTML σε αρχείο ZIP με C# και Aspose.HTML.
 ### [Αποθήκευση HTML σε ZIP σε C# – Πλήρες Παράδειγμα Εντός Μνήμης](./save-html-to-zip-in-c-complete-in-memory-example/)
 Μάθετε πώς να αποθηκεύετε HTML σε αρχείο ZIP με C# χρησιμοποιώντας πλήρες παράδειγμα εντός μνήμης.
+### [Μετατροπή HTML σε ZIP σε C# – Πλήρης Βήμα‑βήμα Οδηγός](./convert-html-to-zip-in-c-complete-step-by-step-guide/)
+Μάθετε πώς να συμπιέσετε HTML σε αρχείο ZIP χρησιμοποιώντας C# και Aspose.HTML σε πλήρη βήμα‑βήμα οδηγό.
+### [Μετατροπή HTML σε ZIP σε C# – Πλήρης Οδηγός](./convert-html-to-zip-in-c-complete-guide/)
+Μάθετε πώς να συμπιέζετε αρχεία HTML σε ZIP χρησιμοποιώντας C# και Aspose.HTML σε πλήρη οδηγό βήμα‑βήμα.
 
 ## Σύναψη
 
