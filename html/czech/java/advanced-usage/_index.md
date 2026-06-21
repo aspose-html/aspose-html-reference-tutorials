@@ -128,6 +128,8 @@ Naučte se upravit velikost PDF stránky s Aspose.HTML pro Java. Vytvářejte vy
 Naučte se upravit velikost XPS stránky s Aspose.HTML pro Java. Jednoduše kontrolujte výstupní rozměry vašich XPS dokumentů.
 ### [Jak spustit JavaScript v Javě – Kompletní průvodce](./how-to-run-javascript-in-java-complete-guide/)
 Naučte se, jak spouštět JavaScript kód v Javě pomocí Aspose.HTML, včetně integrace, nastavení a praktických příkladů.
+### [Získání názvu HTML v Javě – Vykreslení stránky v sandboxu se šířkou obrazovky](./get-html-title-java-render-page-in-sandbox-with-screen-width/)
+Naučte se získat název HTML a vykreslit stránku v sandboxu s nastavenou šířkou obrazovky pomocí Aspose.HTML pro Java.
 
 ---
 

@@ -97,6 +97,8 @@ Ismerje meg, hogyan konvertálhatja az SVG‑t képekké Java‑ban az Aspose.HT
 Konvertálja az SVG‑t PDF‑re Java‑ban az Aspose.HTML‑el. Zökkenőmentes megoldás a magas minőségű dokumentumkonverzióhoz.
 ### [SVG átalakítása XPS-re](./convert-svg-to-xps/)
 Ismerje meg, hogyan konvertálhatja az SVG‑t XPS‑re az Aspose.HTML for Java segítségével. Egyszerű, lépésről‑lépésre útmutató a zökkenőmentes átalakításokhoz.
+### [PDF létrehozása HTML‑ből Java‑ban – Egysoros Aspose útmutató](./create-pdf-from-html-in-java-one-line-aspose-guide/)
+### [PDF létrehozása SVG‑ből – Egyedi oldalméret az Aspose.HTML (Java)](./create-pdf-from-svg-custom-page-size-with-aspose-html-java/)
 
 ## Gyakran Ismételt Kérdések
 

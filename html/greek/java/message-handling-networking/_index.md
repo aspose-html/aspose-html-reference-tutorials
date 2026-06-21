@@ -50,6 +50,8 @@ url: /el/java/message-handling-networking/
 Μάθετε πώς να μετατρέπετε αρχεία ZIP σε εικόνες JPG χρησιμοποιώντας το Aspose.HTML για Java με αυτόν τον οδηγό βήμα προς βήμα.
 ### [Μετατροπή ZIP σε PDF με το Aspose.HTML για Java](./zip-to-pdf/)
 Μετατρέψτε εύκολα τα αρχεία ZIP σε PDF χρησιμοποιώντας το Aspose.HTML για Java με αυτόν τον οδηγό βήμα προς βήμα.
+### [Πώς να κάνετε Fetch API σε Java – Πλήρης Οδηγός με τη Μηχανή Aspose HTML V8](./how-to-fetch-api-in-java-complete-guide-using-aspose-html-v8/)
+Μάθετε πώς να εκτελείτε κλήσεις Fetch API σε Java χρησιμοποιώντας τη μηχανή Aspose HTML V8 για αποδοτική επεξεργασία HTML.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
