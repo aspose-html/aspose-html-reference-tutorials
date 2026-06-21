@@ -39,6 +39,8 @@ Aspose.HTML for .NET은 단순한 라이브러리가 아니라 웹 개발의 세
 ## HTML 확장 및 변환 튜토리얼
 ### [Aspose.HTML을 사용하여 .NET에서 HTML을 PDF로 변환](./convert-html-to-pdf/)
 Aspose.HTML for .NET으로 HTML을 PDF로 손쉽게 변환하세요. 단계별 가이드를 따라 HTML-PDF 변환의 힘을 활용하세요.
+### [C#에서 URL을 PDF로 변환 – 한 줄 Aspose HTML 솔루션](./convert-url-to-pdf-in-c-one-line-aspose-html-solution/)
+Aspose.HTML을 사용해 C#에서 URL을 한 줄 코드로 PDF로 변환하는 방법을 단계별로 안내합니다.
 ### [HTML에서 PDF 만들기 – C# 단계별 가이드](./create-pdf-from-html-c-step-by-step-guide/)
 Aspose.HTML for .NET을 사용하여 C#에서 HTML을 PDF로 변환하는 단계별 가이드입니다.
 ### [Aspose.HTML을 사용하여 .NET에서 EPUB를 이미지로 변환](./convert-epub-to-image/)

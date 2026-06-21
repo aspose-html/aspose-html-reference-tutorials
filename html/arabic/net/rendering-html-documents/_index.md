@@ -45,11 +45,16 @@ url: /ar/net/rendering-html-documents/
 
 ### [كيفية تحويل HTML إلى PNG – دليل C# كامل](./how-to-render-html-as-png-complete-c-guide/)
 تعلم خطوة بخطوة كيفية تحويل مستندات HTML إلى صور PNG باستخدام Aspose.HTML وC# في هذا الدليل الشامل.
+
 ### [كيفية استخدام Aspose لتحويل HTML إلى PNG – دليل خطوة بخطوة](./how-to-use-aspose-to-render-html-to-png-step-by-step-guide/)
 تعلم كيفية تحويل مستندات HTML إلى صور PNG باستخدام Aspose.HTML في .NET خطوة بخطوة.
 
 ### [إنشاء PNG من HTML – دليل كامل للتصيير باستخدام C#](./create-png-from-html-full-c-rendering-guide/)
 تعلم كيفية تحويل صفحات HTML إلى صور PNG باستخدام Aspose.HTML في دليل شامل يوضح كل خطوة في C#.
+
+### [إنشاء مستند HTML C# – تحويل HTML إلى PNG](./create-html-document-c-render-html-to-png/)
+تعلم كيفية إنشاء مستند HTML باستخدام C# وتحويله إلى صورة PNG باستخدام Aspose.HTML.
+
 ### [عرض EPUB بتنسيق XPS في .NET باستخدام Aspose.HTML](./render-epub-as-xps/)
 تعرف على كيفية إنشاء مستندات HTML وعرضها باستخدام Aspose.HTML لـ .NET في هذا البرنامج التعليمي الشامل. انغمس في عالم معالجة HTML وكشط الويب والمزيد.
 
@@ -67,6 +72,9 @@ url: /ar/net/rendering-html-documents/
 
 ### [كيفية تحويل HTML إلى PNG باستخدام Aspose – دليل كامل](./how-to-render-html-to-png-with-aspose-complete-guide/)
 تعلم خطوة بخطوة كيفية تحويل مستندات HTML إلى صور PNG باستخدام Aspose.HTML في .NET.
+
+### [كيفية تمكين التنعيم عند تحويل HTML إلى PNG في C#](./how-to-enable-antialiasing-when-rendering-html-to-png-in-c/)
+تعلم كيفية تمكين خاصية التنعيم لتحسين جودة الصور عند تحويل مستندات HTML إلى PNG باستخدام Aspose.HTML وC#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

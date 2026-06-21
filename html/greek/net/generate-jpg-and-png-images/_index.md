@@ -45,6 +45,8 @@ url: /el/net/generate-jpg-and-png-images/
 Μάθετε πώς να βελτιώσετε την ποιότητα των εικόνων ενεργοποιώντας το antialiasing κατά τη μετατροπή αρχείων DOCX σε PNG ή JPG.
 ### [Μετατροπή docx σε png – δημιουργία αρχείου zip με C# σεμινάριο](./convert-docx-to-png-create-zip-archive-c-tutorial/)
 Μάθετε πώς να μετατρέψετε αρχεία DOCX σε PNG και να δημιουργήσετε αρχείο ZIP χρησιμοποιώντας C#.
+### [Πώς να ενεργοποιήσετε το Antialiasing – Απόδοση HTML σε PNG με C#](./how-to-enable-antialiasing-render-html-to-png-in-c/)
+Μάθετε πώς να βελτιώσετε την ποιότητα των εικόνων ενεργοποιώντας το antialiasing κατά τη μετατροπή HTML σε PNG με C#.
 
 ## Σύναψη
 
