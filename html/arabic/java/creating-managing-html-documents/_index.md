@@ -56,6 +56,10 @@ url: /ar/java/creating-managing-html-documents/
 تعرف على كيفية إنشاء مستندات HTML من السلاسل في Aspose.HTML لـ Java باستخدام هذا الدليل خطوة بخطوة.
 ### [تحميل مستندات HTML من URL في Aspose.HTML لـ Java](./load-html-documents-from-url/)
 اكتشف كيفية تحميل مستندات HTML بسهولة من عنوان URL في Java باستخدام Aspose.HTML. يتضمن البرنامج التعليمي خطوة بخطوة.
+### [تحميل مستند HTML باستخدام Aspose – دليل Java سريع لاسترجاع عنوان الصفحة](./load-html-document-aspose-quick-java-guide-to-retrieve-page/)
+تعلم كيفية تحميل مستند HTML واستخراج عنوان الصفحة باستخدام Aspose.HTML في Java من خلال دليل سريع خطوة بخطوة.
+### [كيفية تحميل HTML في Java – دليل خطوة بخطوة](./how-to-load-html-in-java-step-by-step-guide/)
+تعلم كيفية تحميل مستندات HTML في Java باستخدام Aspose.HTML من خلال دليل خطوة بخطوة.
 ### [إنشاء مستندات HTML جديدة باستخدام Aspose.HTML لـ Java](./generate-new-html-documents/)
 تعرف على كيفية إنشاء مستندات HTML جديدة باستخدام Aspose.HTML for Java من خلال هذا الدليل السهل خطوة بخطوة. ابدأ في إنشاء محتوى HTML ديناميكي.
 ### [التعامل مع أحداث تحميل المستندات في Aspose.HTML لـ Java](./handle-document-load-events/)

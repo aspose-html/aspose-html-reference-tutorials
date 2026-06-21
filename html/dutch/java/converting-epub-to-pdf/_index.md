@@ -55,7 +55,7 @@ Ontgrendel EPUB‑naar‑PDF‑conversie met Aspose.HTML for Java, de krachtige 
 ### [Aangepaste stream‑provider opgeven voor EPUB‑naar‑PDF](./convert-epub-to-pdf-specify-custom-stream-provider/)
 Leer hoe je EPUB naar PDF kunt converteren in Java moeiteloos met Aspose.HTML, en verbeter je documentverwerkingsmogelijkheden.
 ### [PDF‑opslaoptopties opgeven voor EPUB‑naar‑PDF](./convert-epub-to-pdf-specify-pdf-save-options/)
-Leer hoe je EPUB naar PDF kunt converteren in Java met Aspose.HTML, een krachtige HTML‑manipulatiebibliotheek.
+Leer hoe je EPUB naar PDF kunt converteren met Java en Aspose.HTML, een krachtige HTML‑manipulatiebibliotheek.
 ### [Lettertypen insluiten bij het converteren van EPUB naar PDF in Java](./how-to-embed-fonts-when-converting-epub-to-pdf-in-java/)
 Leer hoe je lettertypen kunt insluiten tijdens EPUB‑naar‑PDF‑conversie met Aspose.HTML for Java.
 ### [EPUB naar BMP converteren](./convert-epub-to-bmp/)
@@ -74,6 +74,8 @@ Leer hoe je Aspose.HTML for Java kunt gebruiken om EPUB‑bestanden naar afbeeld
 Leer hoe je Aspose.HTML for Java gebruikt: EPUB naar afbeelding & meer. Ontdek onze stapsgewijze gids.
 ### [EPUB naar afbeelding converteren](./convert-epub-to-image/)
 Leer hoe je EPUB naar afbeeldingen kunt converteren met Aspose.HTML for Java. Transformeer je digitale content moeiteloos. Stapsgewijze gids inbegrepen.
+### [EPUB naar PDF tutorial – Converteer uw eBooks met Java in minuten](./epub-to-pdf-tutorial-convert-your-ebooks-with-java-in-minute/)
+Leer hoe je EPUB‑bestanden in enkele minuten naar PDF converteert met Java en Aspose.HTML.
 
 ## Veelgestelde vragen
 
@@ -84,7 +86,7 @@ Leer hoe je EPUB naar afbeeldingen kunt converteren met Aspose.HTML for Java. Tr
 **A:** Gebruik de `PdfSaveOptions`‑klasse om `Compliance` in te stellen op `PdfCompliance.PdfA1b` (of andere PDF/A‑niveaus) vóór het opslaan.
 
 **Q:** *Is het mogelijk om tijdens de conversie afbeeldingen zoals JPG of PNG te extraheren?*  
-**A:** Absoluut. Door een afbeeldings‑opslaoptoptie op te geven of de aangepaste stream‑provider te gebruiken, kun je elke pagina of afbeelding naar JPG‑ of PNG‑formaat sturen.
+**A:** Absoluut. Door een afbeeldings‑opslaoptoptie op te geven of de aangepaste stream‑provider te gebruiken, kun je elke pagina of afbeelding naar JPG‑of PNG‑formaat sturen.
 
 **Q:** *Heb ik een aparte bibliotheek nodig voor het extraheren van afbeeldingen?*  
 **A:** Nee. dezelfde Aspose.HTML for Java API behandelt zowel PDF‑generatie als afbeeldingsextractie, waardoor de workflow wordt vereenvoudigd.
