@@ -39,8 +39,12 @@ url: /el/net/html-extensions-and-conversions/
 ## Εκμάθηση επεκτάσεων και μετατροπών HTML
 ### [Μετατροπή HTML σε PDF στο .NET με το Aspose.HTML](./convert-html-to-pdf/)
 Μετατρέψτε HTML σε PDF χωρίς κόπο με το Aspose.HTML για .NET. Ακολουθήστε τον οδηγό βήμα προς βήμα και απελευθερώστε τη δύναμη της μετατροπής HTML σε PDF.
+### [HTML σε PDF – Μετατροπή HTML σε PDF με το Aspose](./html-to-pdf-tutorial-convert-html-to-pdf-with-aspose/)
+Μάθετε πώς να μετατρέπετε HTML σε PDF με το Aspose σε βήμα‑βήμα οδηγό, απλοποιώντας τη διαδικασία δημιουργίας PDF.
 ### [Δημιουργία PDF από HTML – Οδηγός βήμα‑βήμα C#](./create-pdf-from-html-c-step-by-step-guide/)
 Δημιουργήστε PDF από HTML με C# χρησιμοποιώντας το Aspose.HTML. Οδηγός βήμα‑βήμα για γρήγορη και εύκολη υλοποίηση.
+### [Δημιουργία PDF από HTML σε C# – Πλήρης Οδηγός Βήμα‑βήμα](./create-pdf-from-html-in-c-full-step-by-step-guide/)
+Μάθετε πώς να δημιουργήσετε PDF από HTML σε C# με πλήρη βήμα‑βήμα οδηγίες χρησιμοποιώντας το Aspose.HTML.
 ### [Μετατρέψτε το EPUB σε Εικόνα στο .NET με το Aspose.HTML](./convert-epub-to-image/)
 Μάθετε πώς να μετατρέπετε το EPUB σε εικόνες χρησιμοποιώντας το Aspose.HTML για .NET. Βήμα προς βήμα μάθημα με παραδείγματα κώδικα και προσαρμόσιμες επιλογές.
 ### [Μετατροπή EPUB σε PDF σε .NET με Aspose.HTML](./convert-epub-to-pdf/)
@@ -61,6 +65,8 @@ url: /el/net/html-extensions-and-conversions/
 Μετατροπή HTML σε MHTML σε .NET με το Aspose.HTML - Ένας βήμα προς βήμα οδηγός για αποτελεσματική αρχειοθέτηση περιεχομένου ιστού. Μάθετε πώς να χρησιμοποιείτε το Aspose.HTML για .NET για τη δημιουργία αρχείων MHTML.
 ### [Μετατροπή HTML σε PNG σε .NET με Aspose.HTML](./convert-html-to-png/)
 Ανακαλύψτε πώς να χρησιμοποιήσετε το Aspose.HTML για .NET για χειρισμό και μετατροπή εγγράφων HTML. Οδηγός βήμα προς βήμα για αποτελεσματική ανάπτυξη .NET.
+### [Αποθήκευση HTML σε ZIP και Απόδοση HTML σε PNG – Πλήρης Οδηγός C#](./save-html-to-zip-and-render-html-to-png-complete-c-guide/)
+Μάθετε πώς να αποθηκεύετε HTML σε ZIP και να το μετατρέπετε σε PNG με C# και Aspose.HTML.
 ### [Μετατροπή HTML σε TIFF στο .NET με Aspose.HTML](./convert-html-to-tiff/)
 Μάθετε πώς να μετατρέπετε HTML σε TIFF με το Aspose.HTML για .NET. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για αποτελεσματική βελτιστοποίηση περιεχομένου ιστού.
 ### [Μετατροπή HTML σε XPS σε .NET με Aspose.HTML](./convert-html-to-xps/)
@@ -73,6 +79,8 @@ url: /el/net/html-extensions-and-conversions/
 Μάθετε πώς να αποθηκεύετε HTML σε αρχείο ZIP με C# και Aspose.HTML.
 ### [Αποθήκευση HTML σε ZIP σε C# – Πλήρες Παράδειγμα Εντός Μνήμης](./save-html-to-zip-in-c-complete-in-memory-example/)
 Μάθετε πώς να αποθηκεύετε HTML σε αρχείο ZIP με C# χρησιμοποιώντας πλήρες παράδειγμα εντός μνήμης.
+### [Πώς να χρησιμοποιήσετε το ZipArchive σε C# – Αποθήκευση HTML ως ZIP](./how-to-use-ziparchive-in-c-save-html-as-zip/)
+Μάθετε πώς να συμπιέζετε αρχεία HTML σε ZIP χρησιμοποιώντας τη βιβλιοθήκη ZipArchive σε C#.
 
 ## Σύναψη
 

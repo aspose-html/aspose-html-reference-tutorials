@@ -60,6 +60,10 @@ Aprenda a representar múltiples documentos HTML con Aspose.HTML para .NET. Aume
 Aprenda paso a paso a convertir HTML a PNG usando C# y Aspose.HTML. Guía completa con ejemplos claros.
 ### [Cómo renderizar HTML a PNG con Aspose – Guía completa](./how-to-render-html-to-png-with-aspose-complete-guide/)
 Aprenda a convertir HTML a PNG usando Aspose.HTML para .NET con esta guía completa paso a paso.
+### [Crear cadena de documento HTML y renderizar a archivo – Guía C#](./create-html-document-string-and-render-to-file-c-guide/)
+Aprenda a crear un documento HTML a partir de una cadena y renderizarlo a un archivo usando Aspose.HTML para .NET en C#.
+### [Representar HTML como Imagen en C# – Guía completa de programación](./render-html-as-image-in-c-complete-programming-guide/)
+Aprenda a convertir HTML a imágenes usando C# y Aspose.HTML con ejemplos paso a paso y mejores prácticas.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
