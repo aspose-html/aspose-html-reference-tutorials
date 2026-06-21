@@ -136,6 +136,9 @@ weight: 20
 ### [كيفية تشغيل JavaScript في Java – دليل كامل](./how-to-run-javascript-in-java-complete-guide/)
 تعلم كيفية تشغيل كود JavaScript داخل تطبيقات Java باستخدام Aspose.HTML for Java.
 
+### [كيفية استخدام Aspose HTML في Java – دليل تصفية XPath الكامل](./how-to-use-aspose-html-in-java-full-xpath-filtering-guide/)
+تعلم كيفية تطبيق فلاتر XPath المتقدمة على مستندات HTML باستخدام Aspose.HTML for Java خطوة بخطوة.
+
 ---
 
 **آخر تحديث:** 2025-11-29  

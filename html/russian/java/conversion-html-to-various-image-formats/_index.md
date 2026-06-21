@@ -89,22 +89,16 @@ weight: 24
 
 ## Преобразование — HTML в различные форматы изображений: инструкции материалов
 ### [Преобразование HTML в BMP](./convert-html-to-bmp/)
-Преобразование HTML в BMP с помощью Aspose.HTML для Java. Подробное руководство по легкому преобразованию HTML-документов в изображения BMP с помощью Aspose.HTML для Java.
-
 ### [Преобразование HTML в GIF](./convert-html-to-gif/)
-Узнайте, как преобразовать HTML в GIF в Java с помощью Aspose.HTML. Подробное пошаговое руководство по эффективному преобразованию HTML в GIF.
-
 ### [Преобразование HTML в JPEG](./convert-html-to-jpeg/)
-Узнайте, как преобразовать HTML в JPEG с помощью Aspose.HTML для Java. Пошаговое руководство по легкому преобразованию документов.
-
 ### [Преобразование HTML в PNG](./convert-html-to-png/)
-Узнайте, как преобразовывать изображения HTML в PNG в Java с помощью Aspose.HTML. Подробное руководство с пошаговыми инструкциями.
-
+### [Как отрендерить HTML в PNG – Полное руководство Java](./how-to-render-html-to-png-complete-java-guide/)
 ### [Преобразование HTML в TIFF](./convert-html-to-tiff/)
-Узнайте, как легко преобразовывать HTML в TIFF с помощью Aspose.HTML для Java. Пошаговое руководство по эффективной обработке документов.
-
 ### [Преобразование HTML в WebP – Полное руководство Java с Aspose.HTML](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
 Узнайте, как преобразовать HTML в WebP в Java с помощью Aspose.HTML. Полное пошаговое руководство.
+
+### [Рендеринг HTML в Java: Преобразование длинной страницы в PNG](./render-html-java-convert-long-page-to-png/)
+Узнайте, как с помощью Aspose.HTML for Java преобразовать длинную HTML‑страницу в PNG‑изображение, сохранив качество и масштабирование.
 
 ## Часто задаваемые вопросы
 

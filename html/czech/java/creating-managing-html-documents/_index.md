@@ -66,6 +66,10 @@ Naučte se, jak vytvořit sandboxové prostředí pro bezpečnou manipulaci s HT
 Naučte se vytvářet a spravovat dokumenty SVG pomocí Aspose.HTML pro Javu! Tento komplexní průvodce pokrývá vše od základní tvorby až po pokročilou manipulaci.
 ### [Jak dotazovat HTML v Javě – Kompletní tutoriál](./how-to-query-html-in-java-complete-tutorial/)
 Kompletní průvodce, jak v Javě dotazovat a získávat data z HTML pomocí Aspose.HTML, včetně příkladů a tipů.
+### [Vytvořte HTML z Markdownu v Javě – Kompletní průvodce krok za krokem](./create-html-from-markdown-in-java-full-step-by-step-guide/)
+Naučte se převádět Markdown na HTML v Javě pomocí Aspose.HTML s podrobným návodem krok za krokem.
+### [JavaScript setTimeout async: Spusťte JavaScript v Javě a aktualizujte HTML](./javascript-settimeout-async-run-javascript-in-java-and-updat/)
+Naučte se spouštět JavaScript pomocí setTimeout asynchronně v Javě a dynamicky aktualizovat HTML obsah.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

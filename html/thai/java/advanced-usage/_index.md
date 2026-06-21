@@ -116,6 +116,8 @@ Aspose.HTML ให้คุณแนบ `DomMutationObserver` ไปยังโ
 เรียนรู้วิธีปรับขอบกระดาษ เพิ่มหมายเลขหน้า และหัวเรื่องให้กับเอกสาร HTML ด้วย Aspose.HTML for Java  
 ### [DOM Mutation Observer กับ Aspose.HTML for Java](./dom-mutation-observer-observing-node-additions/)
 เรียนรู้วิธีใช้ Aspose.HTML for Java เพื่อทำ DOM Mutation Observer ในคู่มือขั้นตอนต่อขั้นตอนนี้ ตรวจสอบและตอบสนองต่อการเปลี่ยนแปลงของ DOM อย่างมีประสิทธิภาพ  
+### [วิธีใช้ Aspose HTML ใน Java – คู่มือการกรอง XPath เต็มรูปแบบ](./how-to-use-aspose-html-in-java-full-xpath-filtering-guide/)
+เรียนรู้วิธีใช้ Aspose.HTML ใน Java เพื่อกรองเนื้อหา HTML ด้วย XPath อย่างละเอียด  
 ### [การจัดการ HTML5 Canvas ด้วย Aspose.HTML for Java](./html5-canvas-manipulation-using-code/)
 เรียนรู้การจัดการ HTML5 Canvas ด้วย Aspose.HTML for Java สร้างกราฟิกเชิงโต้ตอบด้วยคำแนะนำทีละขั้นตอน  
 ### [การจัดการ HTML5 Canvas ด้วย Aspose.HTML for Java](./html5-canvas-manipulation-using-javascript/)

@@ -114,6 +114,8 @@ A: No. A single Aspose.HTML for Java license covers all output formats, includin
 Learn how to customize page margins, add page numbers, and titles to HTML documents using Aspose.HTML for Java.
 ### [DOM Mutation Observer with Aspose.HTML for Java](./dom-mutation-observer-observing-node-additions/)
 Learn how to use Aspose.HTML for Java to implement a DOM Mutation Observer in this step-by-step guide. Monitor and react to DOM changes effectively.
+### [How to Use Aspose HTML in Java – Full XPath Filtering Guide](./how-to-use-aspose-html-in-java-full-xpath-filtering-guide/)
+Learn how to apply full XPath filtering with Aspose.HTML for Java to select and manipulate HTML nodes efficiently.
 ### [HTML5 Canvas Manipulation with Aspose.HTML for Java](./html5-canvas-manipulation-using-code/)
 Learn HTML5 Canvas manipulation using Aspose.HTML for Java. Create interactive graphics with step-by-step guidance.
 ### [HTML5 Canvas Manipulation with Aspose.HTML for Java](./html5-canvas-manipulation-using-javascript/)

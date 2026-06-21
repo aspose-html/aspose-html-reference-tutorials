@@ -54,6 +54,8 @@ Découvrez comment charger, manipuler et enregistrer des documents HTML à l'aid
 Découvrez comment charger des documents HTML à partir de flux à l'aide d'Aspose.HTML pour Java. Ce guide fournit un didacticiel étape par étape pour une manipulation HTML transparente.
 ### [Créer des documents HTML à partir d'une chaîne dans Aspose.HTML pour Java](./create-html-documents-from-string/)
 Apprenez à créer des documents HTML à partir de chaînes dans Aspose.HTML pour Java avec ce guide étape par étape.
+### [Créer du HTML à partir de Markdown en Java – Guide complet étape par étape](./create-html-from-markdown-in-java-full-step-by-step-guide/)
+Apprenez à convertir du Markdown en HTML en Java avec Aspose.HTML grâce à ce guide complet étape par étape.
 ### [Charger des documents HTML à partir d'une URL dans Aspose.HTML pour Java](./load-html-documents-from-url/)
 Découvrez comment charger facilement des documents HTML à partir d'une URL en Java avec Aspose.HTML. Tutoriel étape par étape inclus.
 ### [Générer de nouveaux documents HTML à l'aide d'Aspose.HTML pour Java](./generate-new-html-documents/)
@@ -62,6 +64,8 @@ Apprenez à créer de nouveaux documents HTML à l'aide d'Aspose.HTML pour Java 
 Apprenez à gérer les événements de chargement de documents dans Aspose.HTML pour Java avec ce guide étape par étape. Améliorez vos applications Web.
 ### [Créer et gérer des documents SVG dans Aspose.HTML pour Java](./create-manage-svg-documents/)
 Apprenez à créer et à gérer des documents SVG à l'aide d'Aspose.HTML pour Java ! Ce guide complet couvre tout, de la création de base à la manipulation avancée.
+### [javascript settimeout async : Exécuter du JavaScript dans Java et mettre à jour le HTML](./javascript-settimeout-async-run-javascript-in-java-and-updat/)
+Apprenez à exécuter du code JavaScript asynchrone via setTimeout depuis Java et à actualiser le contenu HTML dynamiquement.
 ### [Créer un bac à sable pour HTML en Java – Guide étape par étape](./create-sandbox-for-html-in-java-step-by-step-guide/)
 Apprenez à créer un environnement sécurisé pour manipuler du HTML en Java avec Aspose.HTML, guide complet pas à pas.
 ### [Comment interroger le HTML en Java – Tutoriel complet](./how-to-query-html-in-java-complete-tutorial/)

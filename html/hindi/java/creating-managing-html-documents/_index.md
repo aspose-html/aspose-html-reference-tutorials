@@ -63,9 +63,12 @@ URL से HTML दस्तावेज़ लोड करना आसान 
 ### [Java के लिए Aspose.HTML में SVG दस्तावेज़ बनाएँ और प्रबंधित करें](./create-manage-svg-documents/)
 SVG दस्तावेज़ बनाना और प्रबंधित करना सीखें। बुनियादी से उन्नत हेरफेर तक।
 ### [Java में HTML के लिए सैंडबॉक्स बनाएं – चरण‑दर‑चरण गाइड](./create-sandbox-for-html-in-java-step-by-step-guide/)
-Java में HTML सैंडबॉक्स बनाने की प्रक्रिया सीखें, सुरक्षित परीक्षण और विकास के लिए चरण‑दर‑चरण मार्गदर्शिका।
+Java में HTML सैंडबॉक्स बनाने की प्रक्रिया सीखें, सुरक्षित परीक्षण और विकास के लिए चरण‑दर‑साथ।
 ### [Java में HTML क्वेरी कैसे करें – पूर्ण ट्यूटोरियल](./how-to-query-html-in-java-complete-tutorial/)
-Java में Aspose.HTML का उपयोग करके HTML क्वेरी करने के चरण‑दर‑चरण मार्गदर्शिका, टिप्स और सर्वोत्तम प्रथाएँ।
+Java में Aspose.HTML का उपयोग करके HTML क्वेरी करने के चरण‑दर‑चरण मार्गदर्शन, टिप्स और सर्वोत्तम प्रथाएँ।
+### [Java के लिए Aspose.HTML में जावास्क्रिप्ट सेटटाइमआउट एसिंक्रोनस: जावा में जावास्क्रिप्ट चलाएँ और HTML अपडेट करें](./javascript-settimeout-async-run-javascript-in-java-and-updat/)
+### [Java में मार्कडाउन से HTML बनाएं – पूर्ण चरण‑दर‑चरण गाइड](./create-html-from-markdown-in-java-full-step-by-step-guide/)
+Java में मार्कडाउन को HTML में परिवर्तित करने की पूरी प्रक्रिया सीखें, चरण‑दर‑चरण मार्गदर्शिका के साथ।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
