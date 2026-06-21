@@ -88,9 +88,17 @@ In conclusione, padroneggiare **html to pdf java** e l'insieme più ampio di con
 ### [Conversione da HTML a MHTML](./convert-html-to-mhtml/)
 ### [Conversione da HTML a XPS](./convert-html-to-xps/)
 ### [Conversione da Markdown a HTML](./convert-markdown-to-html/)
+### [Converti HTML in Markdown in Java – Guida completa passo‑passo](./convert-html-to-markdown-in-java-full-step-by-step-guide/)
 ### [Conversione da SVG a Immagine](./convert-svg-to-image/)
 ### [Conversione da SVG a PDF](./convert-svg-to-pdf/)
 ### [Conversione da SVG a XPS](./convert-svg-to-xps/)
+### [java html to pdf: Converti HTML in PDF/A usando Aspose](./java-html-to-pdf-convert-html-to-pdf-a-using-aspose/)
+### [Come abilitare JavaScript durante la conversione da HTML a PDF in Java](./how-to-enable-javascript-when-converting-html-to-pdf-in-java/)
+### [Come incorporare immagini in HTML in PDF con Aspose – Guida Java](./how-to-embed-images-in-html-to-pdf-with-aspose-java-guide/)
+### [Come crittografare PDF in Java – Proteggi con password PDF da HTML](./how-to-encrypt-pdf-in-java-password-protect-pdf-from-html/)
+### [Crea un pool di thread fisso per la conversione parallela da HTML a PDF in Java](./create-fixed-thread-pool-for-parallel-html-to-pdf-conversion/)
+### [Crea PDF da HTML con viewport mobile – Guida completa Java](./create-pdf-from-html-with-mobile-viewport-complete-java-guid/)
+### [Converti HTML in PDF – Guida completa per salvare PDF su Azure Blob](./convert-html-to-pdf-complete-guide-to-saving-pdf-to-azure-bl/)
 
 ## Domande frequenti
 

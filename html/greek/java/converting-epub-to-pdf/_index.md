@@ -70,6 +70,8 @@ weight: 27
 Μάθετε να χρησιμοποιείτε το Aspose.HTML for Java: Μετατροπή EPUB σε εικόνα & άλλα. Εξερευνήστε τον οδηγό βήμα‑βήμα.
 ### [Μετατροπή EPUB σε Εικόνα](./convert-epub-to-image/)
 Μάθετε πώς να μετατρέψετε EPUB σε εικόνες με το Aspose.HTML for Java. Μετασχηματίστε το ψηφιακό σας περιεχόμενο χωρίς κόπο. Περιλαμβάνεται οδηγός βήμα‑βήμα.
+### [οδηγός epub σε pdf: Μετατροπή eBooks με Java & Aspose](./epub-to-pdf-tutorial-convert-ebooks-with-java-aspose/)
+Μάθετε πώς να μετατρέψετε eBooks σε PDF χρησιμοποιώντας Java και τη βιβλιοθήκη Aspose.HTML.
 
 ## Συχνές Ερωτήσεις
 
