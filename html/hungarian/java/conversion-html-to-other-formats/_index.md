@@ -85,6 +85,8 @@ Alakítsa át az SVG grafikákat XPS formátumba a készülékek közötti konzi
 Ismerje meg, hogyan konvertálhatja a HTML‑t PDF‑re Java‑ban az Aspose.HTML használatával. Készítsen magas minőségű PDF‑eket HTML tartalmából könnyedén.
 ### [HTML átalakítása PDF-re – Lépésről‑lépésre útmutató oldalméret beállításokkal](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Ismerje meg, hogyan konvertálhatja a HTML‑t PDF‑re Java‑ban részletesen, oldalméret beállításokkal.
+### [Hogyan ágyazzunk be betűtípusokat PDF-be Java‑ban – Teljes útmutató](./how-to-embed-fonts-pdf-in-java-complete-guide/)
+Ismerje meg, hogyan ágyazhat be egyedi betűtípusokat PDF dokumentumokba Java‑ban az Aspose.HTML segítségével.
 ### [HTML átalakítása MHTML-re](./convert-html-to-mhtml/)
 Könnyedén konvertálja a HTML‑t MHTML‑re az Aspose.HTML for Java segítségével. Kövesse lépésről‑lépésre útmutatónkat a hatékony HTML‑MHTML átalakításhoz.
 ### [HTML átalakítása XPS-re](./convert-html-to-xps/)
@@ -97,6 +99,11 @@ Ismerje meg, hogyan konvertálhatja az SVG‑t képekké Java‑ban az Aspose.HT
 Konvertálja az SVG‑t PDF‑re Java‑ban az Aspose.HTML‑el. Zökkenőmentes megoldás a magas minőségű dokumentumkonverzióhoz.
 ### [SVG átalakítása XPS-re](./convert-svg-to-xps/)
 Ismerje meg, hogyan konvertálhatja az SVG‑t XPS‑re az Aspose.HTML for Java segítségével. Egyszerű, lépésről‑lépésre útmutató a zökkenőmentes átalakításokhoz.
+### [HTML mentése Markdown formátumba Java‑ban – Teljes Aspose útmutató](./save-html-as-markdown-in-java-complete-aspose-guide/)
+Ismerje meg, hogyan mentheti a HTML‑t Markdown‑ként Java‑ban az Aspose.HTML segítségével, részletes lépésekkel.
+### [Aspose HtmlDocument PDF mentése – Teljes Java útmutató](./aspose-htmldocument-save-pdf-complete-java-guide/)
+### [HTML konvertálása PDF-re Java‑val – Párhuzamos kötegelt útmutató](./convert-html-to-pdf-with-java-parallel-batch-guide/)
+Ismerje meg, hogyan hajthatja végre a HTML‑PDF konvertálást párhuzamos kötegben Java‑val az Aspose.HTML segítségével.
 
 ## Gyakran Ismételt Kérdések
 
