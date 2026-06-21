@@ -133,6 +133,11 @@ Ismerd meg, hogyan valósítható meg a sandboxing az Aspose.HTML for Java-ban a
 **Felhasználói stíluslap beállítása az Aspose.HTML for Java-ban**  
 Ismerd meg, hogyan állítható be egy egyedi felhasználói stíluslap az Aspose.HTML for Java-ban, javítva a dokumentum stílusát és könnyedén konvertálva a HTML-t PDF-re.
 
+### [Set User Agent for Headless HTML Rendering – Complete Guide](./set-user-agent-for-headless-html-rendering-complete-guide/)
+
+**Felhasználói ügynök beállítása fej nélküli HTML rendereléshez – Teljes útmutató**  
+Ismerd meg, hogyan állítható be a felhasználói ügynök a fej nélküli HTML rendereléshez az Aspose.HTML for Java-ban, hogy testreszabhasd a kéréseket.
+
 ---
 
 **Last Updated:** 2025-12-03  

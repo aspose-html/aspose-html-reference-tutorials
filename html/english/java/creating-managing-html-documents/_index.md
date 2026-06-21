@@ -54,18 +54,25 @@ Learn how to load, manipulate, and save HTML documents using Aspose.HTML for Jav
 Learn how to load HTML documents from streams using Aspose.HTML for Java. This guide provides a step-by-step tutorial for seamless HTML manipulation.
 ### [Create HTML Documents from String in Aspose.HTML for Java](./create-html-documents-from-string/)
 Learn how to create HTML documents from strings in Aspose.HTML for Java with this step-by-step guide.
+### [Create HTML Element with Java ExecutorService – Thread‑Safe Demo](./create-html-element-with-java-executorservice-thread-safe-de/)
+Demonstrates thread‑safe creation of HTML elements using Java ExecutorService with Aspose.HTML.
 ### [How to Query HTML in Java – Complete Tutorial](./how-to-query-html-in-java-complete-tutorial/)
 Learn how to query HTML in Java using Aspose.HTML with this comprehensive step-by-step guide.
 ### [Create sandbox for HTML in Java – Step‑by‑Step Guide](./create-sandbox-for-html-in-java-step-by-step-guide/)
 Learn how to set up a secure HTML sandbox in Java using Aspose.HTML with this detailed step-by-step guide.
 ### [Load HTML Documents from URL in Aspose.HTML for Java](./load-html-documents-from-url/)
 Discover how to easily load HTML documents from a URL in Java with Aspose.HTML. Step-by-step tutorial included.
+### [How to Load HTML in Java – Compare XPath and CSS Selector](./how-to-load-html-in-java-compare-xpath-and-css-selector/)
+Learn how to load HTML in Java using Aspose.HTML and compare XPath and CSS selector approaches for effective element selection.
 ### [Generate New HTML Documents using Aspose.HTML for Java](./generate-new-html-documents/)
 Learn how to create new HTML documents using Aspose.HTML for Java with this easy step-by-step guide. Start generating dynamic HTML content.
 ### [Handle Document Load Events in Aspose.HTML for Java](./handle-document-load-events/)
 Learn to handle document load events in Aspose.HTML for Java with this step-by-step guide. Enhance your web applications.
 ### [Create and Manage SVG Documents in Aspose.HTML for Java](./create-manage-svg-documents/)
 Learn to create and manage SVG documents using Aspose.HTML for Java! This comprehensive guide covers everything from basic creation to advanced manipulation.
+### [Execute JavaScript Java – Run JS on HTML & Append Elements](./execute-javascript-java-run-js-on-html-append-elements/)
+Learn how to execute JavaScript in Java using Aspose.HTML, run scripts on HTML pages and dynamically append elements.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

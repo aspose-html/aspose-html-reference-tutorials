@@ -55,6 +55,9 @@ weight: 29
 
 [Μάθετε πώς να ρυθμίσετε μια υπηρεσία δικτύου στο Aspose.HTML για Java.](./setup-network-service/)
 
+### [Ορισμός User Agent για Rendering HTML χωρίς Κεφαλή – Πλήρης Οδηγός](./set-user-agent-for-headless-html-rendering-complete-guide/)
+Μάθετε πώς να ορίσετε το User Agent για headless rendering HTML με Aspose.HTML για Java, βελτιώνοντας τη φόρτωση πόρων.
+
 ## Πώς να Διαμορφώσετε την Υπηρεσία Runtime
 
 Το δυναμικό HTML συχνά περιέχει σενάρια που πρέπει να εκτελεστούν πριν από την απόδοση. Η υπηρεσία Runtime ελέγχει την εκτέλεση των σεναρίων, επιτρέποντάς σας να περιορίσετε τη χρήση CPU, να ορίσετε χρονικά όρια και να αποτρέψετε άπειρους βρόχους—κρίσιμο για σταθερές, υψηλής απόδοσης μετατροπές.
@@ -109,6 +112,9 @@ weight: 29
 
 ### [Ρύθμιση Υπηρεσίας Δικτύου στο Aspose.HTML για Java](./setup-network-service/)
 Μάθετε πώς να ρυθμίσετε μια υπηρεσία δικτύου στο Aspose.HTML για Java, να διαχειριστείτε πόρους δικτύου και να μετατρέψετε HTML σε PNG με προσαρμοσμένη διαχείριση σφαλμάτων.
+
+### [Ορισμός User Agent για Rendering HTML χωρίς Κεφαλή – Πλήρης Οδηγός](./set-user-agent-for-headless-html-rendering-complete-guide/)
+Μάθετε πώς να ορίσετε το User Agent για headless rendering HTML με Aspose.HTML για Java, βελτιώνοντας τη φόρτωση πόρων.
 
 ### [Διαμόρφωση Υπηρεσίας Runtime στο Aspose.HTML για Java](./configure-runtime-service/)
 Μάθετε πώς να διαμορφώσετε την Υπηρεσία Runtime στο Aspose.HTML για Java για βέλτιστη εκτέλεση σεναρίων, αποφυγή άπειρων βρόχων και βελτίωση της απόδοσης της εφαρμογής.

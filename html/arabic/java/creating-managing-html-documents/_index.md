@@ -56,6 +56,10 @@ url: /ar/java/creating-managing-html-documents/
 تعرف على كيفية إنشاء مستندات HTML من السلاسل في Aspose.HTML لـ Java باستخدام هذا الدليل خطوة بخطوة.
 ### [تحميل مستندات HTML من URL في Aspose.HTML لـ Java](./load-html-documents-from-url/)
 اكتشف كيفية تحميل مستندات HTML بسهولة من عنوان URL في Java باستخدام Aspose.HTML. يتضمن البرنامج التعليمي خطوة بخطوة.
+### [تنفيذ JavaScript في Java – تشغيل JS على HTML وإضافة عناصر](./execute-javascript-java-run-js-on-html-append-elements/)
+تعلم كيفية تشغيل جافا سكريبت داخل مستندات HTML باستخدام Aspose.HTML for Java وإضافة عناصر ديناميكيًا.
+### [كيفية تحميل HTML في Java – مقارنة XPath ومحدد CSS](./how-to-load-html-in-java-compare-xpath-and-css-selector/)
+اكتشف كيفية تحميل مستندات HTML في Java ومقارنة استخدام XPath ومحددات CSS لاستخراج العناصر بدقة.
 ### [إنشاء مستندات HTML جديدة باستخدام Aspose.HTML لـ Java](./generate-new-html-documents/)
 تعرف على كيفية إنشاء مستندات HTML جديدة باستخدام Aspose.HTML for Java من خلال هذا الدليل السهل خطوة بخطوة. ابدأ في إنشاء محتوى HTML ديناميكي.
 ### [التعامل مع أحداث تحميل المستندات في Aspose.HTML لـ Java](./handle-document-load-events/)
@@ -66,6 +70,8 @@ url: /ar/java/creating-managing-html-documents/
 تعلم كيفية إنشاء بيئة تجريبية لمعالجة HTML في Java باستخدام Aspose.HTML من خلال دليل خطوة بخطوة.
 ### [كيفية الاستعلام عن HTML في Java – دليل كامل](./how-to-query-html-in-java-complete-tutorial/)
 تعلم كيفية استعلام ومعالجة مستندات HTML في Java باستخدام Aspose.HTML من خلال دليل شامل خطوة بخطوة.
+### [إنشاء عنصر HTML باستخدام Java ExecutorService – عرض تجريبي آمن للخيوط](./create-html-element-with-java-executorservice-thread-safe-de/)
+تعلم كيفية إنشاء عنصر HTML بأمان في بيئة متعددة الخيوط باستخدام ExecutorService في Java مع Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

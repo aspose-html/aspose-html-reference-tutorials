@@ -117,6 +117,9 @@ A: 沙箱会限制某些 API（例如 `window.open`），但普通的 DOM 操作
 ### [在 Aspose.HTML for Java 中设置用户样式表](./set-user-style-sheet/)
 了解如何在 Aspose.HTML for Java 中设置自定义用户样式表，提升文档样式并轻松将 HTML 转换为 PDF。
 
+### [在 Aspose.HTML for Java 中设置无头 HTML 渲染的用户代理 – 完整指南](./set-user-agent-for-headless-html-rendering-complete-guide/)
+了解如何在 Aspose.HTML for Java 的无头渲染环境中自定义 User Agent，以确保正确加载网页资源并提升转换成功率。
+
 ---
 
 **最后更新：** 2025-12-03  
