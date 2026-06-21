@@ -60,6 +60,9 @@ Ezzel a lépésről lépésre szóló útmutatóval megtudhatja, hogyan kezelhet
 Ismerje meg a belső CSS-t HTML-dokumentumokban az Aspose.HTML for Java használatával az egyszerű, lépésről lépésre oktatóanyagunk segítségével.
 ### [Fixed thread pool Java – Párhuzamos HTML tisztítás ExecutorService használatával](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 Ismerje meg, hogyan használhatja a FixedThreadPool-t a HTML dokumentumok párhuzamos tisztításához az ExecutorService segítségével.
+### [Új HTML elem létrehozása Java-val – Teljes Aspose.HTML útmutató](./create-new-html-element-with-java-full-aspose-html-guide/)
+Ismerje meg, hogyan hozhat létre új HTML elemet Java segítségével az Aspose.HTML teljes útmutatójában.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

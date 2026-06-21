@@ -93,6 +93,8 @@ Att använda Aspose.HTML for Java förenklar konverteringen av HTML‑dokument t
 ### [Konvertera HTML till PNG](./convert-html-to-png/)
 ### [Konvertera HTML till TIFF](./convert-html-to-tiff/)
 ### [Konvertera HTML till WebP – Komplett Java‑guide med Aspose.HTML](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
+### [Hur du använder Aspose för att konvertera SVG till WebP – Java‑guide](./how-to-use-aspose-to-convert-svg-to-webp-java-guide/)
+### [Hur man använder ExecutorService för parallell HTML‑till‑PNG batchkonvertering](./how-to-use-executorservice-for-parallel-html-to-png-batch-co/)
 
 ## Vanliga frågor
 
