@@ -70,6 +70,9 @@ weight: 24
 
 Η μετατροπή HTML σε PNG είναι ιδανική για γραφικά χωρίς απώλειες, στιγμιότυπα οθόνης ή όταν απαιτείται διαφάνεια. Ο ολοκληρωμένος μας οδηγός παρέχει σαφείς οδηγίες για μια ομαλή εμπειρία μετατροπής.
 
+### [Μετατροπή HTML σε PNG – Οδηγός Μαζικής Μετατροπής](./convert-html-to-png-batch-conversion-guide/)
+Μάθετε πώς να μετατρέπετε μαζικά HTML σε PNG χρησιμοποιώντας Aspose.HTML for Java, με βήμα‑βήμα οδηγίες για batch επεξεργασία.
+
 ## Μετατροπή HTML σε TIFF
 
 Η μετατροπή HTML σε TIFF είναι τέλεια για εκτυπώσεις υψηλής ανάλυσης ή αρχειοθέτηση. Αυτό το μάθημα περιγράφει τα ακριβή βήματα για την αποδοτική δημιουργία αρχείων TIFF χρησιμοποιώντας το Aspose.HTML for Java.
@@ -93,12 +96,17 @@ weight: 24
 ### [Μετατροπή HTML σε GIF](./convert-html-to-gif/)
 Μάθετε πώς να μετατρέψετε HTML σε GIF σε Java χρησιμοποιώντας το Aspose.HTML. Ένας πλήρης οδηγός βήμα‑βήμα για αποδοτική μετατροπή HTML‑σε‑GIF.
 ### [Μετατροπή HTML σε JPEG](./convert-html-to-jpeg/)
-Μάθετε να μετατρέπετε HTML σε JPEG με το Aspose.HTML για Java. Οδηγός βήμα‑βήμα για αδιάλειπτη επεξεργασία εγγράφων.
+Μάθετε να μετατρέψετε HTML σε JPEG με το Aspose.HTML για Java. Οδηγός βήμα‑βήμα για αδιάλειπτη επεξεργασία εγγράφων.
 ### [Μετατροπή HTML σε PNG](./convert-html-to-png/)
-Μάθετε πώς να μετατρέπετε HTML σε εικόνες PNG σε Java με το Aspose.HTML. Ένας ολοκληρωμένος οδηγός με οδηγίες βήμα‑βήμα.
+Μάθετε πώς να μετατρέπετε HTML σε εικόνες PNG σε Java με Aspose.HTML. Ένας ολοκληρωμένος οδηγός με οδηγίες βήμα‑βήμα.
+### [Πώς να αποδώσετε HTML σε PNG με προσαρμοσμένο viewport](./how-to-render-html-to-png-with-custom-viewport/)
+Μάθετε πώς να αποδίδετε HTML σε PNG με προσαρμοσμένο viewport χρησιμοποιώντας Aspose.HTML for Java.
 ### [Μετατροπή HTML σε TIFF](./convert-html-to-tiff/)
 Μάθετε πώς να μετατρέπετε εύκολα HTML σε TIFF χρησιμοποιώντας το Aspose.HTML για Java. Οδηγός βήμα‑βήμα για αποτελεσματική διαχείριση εγγράφων.
 ### [Μετατροπή HTML σε WebP – Πλήρης Οδηγός Java με Aspose.HTML](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
+### [Πώς να αποδώσετε HTML σε PNG σε Java – Πλήρης Οδηγός](./how-to-render-html-to-png-in-java-complete-guide/)
+### [Πώς να δημιουργήσετε GIF από SVG – Οδηγός Java βήμα‑βήμα](./how-to-create-gif-from-svg-step-by-step-java-guide/)
+### [Πώς να δημιουργήσετε μικρογραφία από HTML – Οδηγός Java](./how-to-generate-thumbnail-from-html-java-guide/)
 
 ## Συχνές Ερωτήσεις
 

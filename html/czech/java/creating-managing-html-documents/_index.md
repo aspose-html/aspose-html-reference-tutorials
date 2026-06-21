@@ -54,6 +54,8 @@ V tomto podrobném průvodci se dozvíte, jak načítat, manipulovat a ukládat 
 Naučte se načítat HTML dokumenty ze streamů pomocí Aspose.HTML for Java. Tato příručka poskytuje podrobný návod pro bezproblémovou manipulaci s HTML.
 ### [Vytvořte HTML dokumenty z String v Aspose.HTML pro Java](./create-html-documents-from-string/)
 Naučte se vytvářet HTML dokumenty z řetězců v Aspose.HTML pro Java pomocí tohoto podrobného průvodce.
+### [Vytvořte HTML dokument v Javě – načtěte JSON a generujte obsah](./create-html-document-with-java-fetch-json-and-generate-conte/)
+Naučte se v Javě načíst JSON a generovat dynamický HTML obsah pomocí Aspose.HTML.
 ### [Načtěte HTML dokumenty z URL v Aspose.HTML pro Java](./load-html-documents-from-url/)
 Objevte, jak snadno načíst HTML dokumenty z URL v Javě pomocí Aspose.HTML. Včetně návodu krok za krokem.
 ### [Generujte nové HTML dokumenty pomocí Aspose.HTML pro Java](./generate-new-html-documents/)

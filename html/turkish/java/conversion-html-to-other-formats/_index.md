@@ -99,6 +99,8 @@ Aspose.HTML ile Java'da SVG'yi görüntülere dönüştürmeyi öğrenin. Yükse
 Aspose.HTML ile Java'da SVG'yi PDF'ye dönüştürün. Yüksek kaliteli belge dönüşümü için sorunsuz bir çözüm.
 ### [SVG'yi XPS'ye Dönüştürme](./convert-svg-to-xps/)
 Aspose.HTML for Java ile SVG'yi XPS'ye dönüştürmeyi öğrenin. Sorunsuz dönüşümler için basit, adım adım rehber.
+### [HTML'yi PDF'ye Dönüştürme Java’da – Yazı Tipi Gömme ile Tam Kılavuz](./convert-html-to-pdf-in-java-complete-guide-with-font-embeddi/)
+Java'da HTML'yi PDF'ye dönüştürürken yazı tiplerini gömerek tam kontrol sağlayın. Adım adım rehber.
 
 ## Sıkça Sorulan Sorular
 
