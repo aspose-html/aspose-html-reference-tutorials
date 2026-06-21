@@ -45,6 +45,8 @@ HTML belgelerini düzenlemek, HTML'yi resimlere dönüştürmek ve daha fazlası
 DOCX belgelerini PNG veya JPG formatına dönüştürürken antialiasing'i etkinleştirerek daha net ve pürüzsüz görüntüler elde edin.
 ### [docx'i png'ye dönüştür – zip arşivi oluşturma C# eğitimi](./convert-docx-to-png-create-zip-archive-c-tutorial/)
 C# kullanarak docx dosyalarını png formatına dönüştürüp, sonuçları zip arşivi içinde paketlemeyi öğrenin.
+### [Word'ü PNG'ye Dönüştürürken Görüntü Genişliği ve Yüksekliğini Ayarlama – Tam Kılavuz](./set-image-width-height-when-converting-word-to-png-full-guid/)
+Word belgelerini PNG'ye dönüştürürken görüntü boyutlarını nasıl ayarlayacağınızı adım adım öğrenin.
 
 ## Çözüm
 
