@@ -65,6 +65,8 @@ Převod souboru EPUB do PDF znamená převést reflowovatelný, web‑založený
 Naučte se převádět EPUB na obrázek pomocí Aspose.HTML pro Java. Jednoduchý, krok‑za‑krokem průvodce pro efektivní převody.
 ### [EPUB to PDF Conversion with Aspose.HTML for Java](./convert-epub-to-pdf/)
 Naučte se převádět EPUB do PDF pomocí Aspose.HTML pro Java. Tento krok‑za‑krokem průvodce pokrývá předpoklady, importy balíčků a ukázky kódu. Začněte s převodem EPUB do PDF.
+### [Převod EPUB na PNG v Javě – Nastavení rozměrů obrázku](./convert-epub-to-png-in-java-set-image-dimensions/)
+Naučte se, jak převést EPUB na PNG a nastavit rozměry výstupních obrázků pomocí Aspose.HTML pro Java.
 
 ## Často kladené otázky
 

@@ -59,6 +59,8 @@ Apprenez à gérer les propriétés HTML internes et externes dans Aspose.HTML p
 ### [Implémenter du CSS interne dans des documents HTML avec Aspose.HTML pour Java](./implement-internal-css-html-documents/)
 Apprenez à implémenter du CSS interne dans des documents HTML à l'aide d'Aspose.HTML pour Java avec notre didacticiel simple étape par étape.
 ### [Pool de threads fixe Java – Nettoyage HTML parallèle avec ExecutorService](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
+### [Comment extraire du HTML en Java – Extraire le texte et mettre en évidence les mots](./how-to-extract-html-in-java-extract-text-highlight-words/)
+Apprenez à extraire du texte HTML et à mettre en évidence des mots dans vos documents Java avec Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

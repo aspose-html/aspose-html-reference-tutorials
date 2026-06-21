@@ -50,6 +50,9 @@ Aprenda a executar requisições web usando Aspose.HTML para Java com este guia 
 Aprenda como converter arquivos ZIP em imagens JPG usando o Aspose.HTML para Java com este guia passo a passo.
 ### [Converter ZIP para PDF com Aspose.HTML para Java](./zip-to-pdf/)
 Converta facilmente seus arquivos ZIP para PDF usando o Aspose.HTML para Java com este guia passo a passo.
+### [Definir agente de usuário personalizado em Java – Tutorial de carregamento de página da web em sandbox](./set-custom-user-agent-in-java-load-webpage-in-sandbox-tutori/)
+Aprenda a definir um agente de usuário personalizado ao carregar páginas web em sandbox usando Aspose.HTML para Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

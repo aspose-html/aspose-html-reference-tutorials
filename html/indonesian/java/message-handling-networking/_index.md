@@ -33,7 +33,7 @@ Membangun alur kerja penanganan pesan Anda sendiri dapat terasa seperti membangu
  Menjalankan permintaan web adalah aspek penting lainnya dalam bekerja dengan Aspose.HTML untuk Java. Dari mengambil konten pihak ketiga hingga mengelola sumber daya jarak jauh, mengetahui cara melakukan tindakan ini dapat menjadi pengubah permainan.[Eksekusi Permintaan Web di Aspose.HTML untuk Java](./web-request-execution/)tutorial ini menawarkan uraian lengkap tentang cara mengirim dan menerima data secara efektif. Bayangkan seperti melakukan panggilan telepon: Anda ingin memastikan pesan Anda tersampaikan dengan lancar tanpa gangguan. Menguasai keterampilan ini memberdayakan Anda untuk memasukkan data tambahan ke dalam aplikasi Anda, yang meningkatkan kemampuan pemrosesan dokumen.
 
 ## Mengonversi ZIP ke JPG dan PDF
- Pernahkah Anda perlu mengekstrak gambar dari file terkompresi dengan cepat?[Konversi ZIP ke JPG menggunakan Aspose.HTML untuk Java](./zip-to-jpg/) Dan[Konversi ZIP ke PDF dengan Aspose.HTML untuk Java](./zip-to-pdf/) tutorial menyediakan alat untuk tugas-tugas khusus ini. Mengonversi file tidak harus menjadi proses yang rumit—bisa semudah mengubah sketsa menjadi sebuah mahakarya. Panduan ini menguraikan langkah-langkah untuk membantu Anda mengonversi file ZIP secara efisien, memamerkan fleksibilitas Aspose.HTML untuk Java.
+ Pernahkah Anda perlu mengekstrak gambar dari file terkompresi dengan cepat?[Konversi ZIP ke JPG menggunakan Aspose.HTML untuk Java](./zip-to-jpg/) Dan[Konversi ZIP ke PDF dengan Aspose.HTML untuk Java](./zip-to-pdf/) tutorial menyediakan alat untuk tugas-tugas khusus ini. Mengonversi file tidak harus menjadi proses yang rumit—bisa semudah mengubah sketsa menjadi sebuah mahakarya. Panduan ini menguraikan langkah-langkah untuk membantu Anda mengkonversi file ZIP secara efisien, memamerkan fleksibilitas Aspose.HTML untuk Java.
 
 ## Penanganan Pesan dan Jaringan di Aspose.HTML untuk Tutorial Java
 ### [Penanganan Pipeline Kredensial di Aspose.HTML untuk Java](./credentials-pipeline/)
@@ -50,6 +50,9 @@ Pelajari cara menjalankan permintaan web menggunakan Aspose.HTML untuk Java deng
 Pelajari cara mengonversi file ZIP ke gambar JPG menggunakan Aspose.HTML untuk Java dengan panduan langkah demi langkah ini.
 ### [Konversi ZIP ke PDF dengan Aspose.HTML untuk Java](./zip-to-pdf/)
 Konversikan file ZIP Anda ke PDF dengan mudah menggunakan Aspose.HTML untuk Java dengan panduan langkah demi langkah ini.
+### [Mengatur User Agent Kustom di Java – Tutorial Memuat Halaman Web dalam Sandbox](./set-custom-user-agent-in-java-load-webpage-in-sandbox-tutori/)
+Pelajari cara mengatur user agent khusus di Java untuk memuat halaman web dalam sandbox menggunakan Aspose.HTML.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

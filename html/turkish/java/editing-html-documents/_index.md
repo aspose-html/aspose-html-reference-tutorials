@@ -60,6 +60,8 @@ Web geliştiricileri ve içerik oluşturucuları için mükemmel olan bu adım a
 Kolay adım adım eğitimimiz ile Java için Aspose.HTML'i kullanarak HTML belgelerinde dahili CSS'yi uygulamayı öğrenin.
 ### [Sabit iş parçacığı havuzu java – ExecutorService ile Paralel HTML Temizleme](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 ExecutorService kullanarak sabit iş parçacığı havuzu ile HTML belgelerini paralel olarak temizlemeyi öğrenin.
+### [Java'da HTML Çıkarma – Metin Çıkarma ve Kelimeleri Vurgulama](./how-to-extract-html-in-java-extract-text-highlight-words/)
+Java için Aspose.HTML kullanarak HTML'den metin çıkarın ve belirli kelimeleri vurgulayın.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

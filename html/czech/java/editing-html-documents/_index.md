@@ -60,6 +60,8 @@ Naučte se, jak spravovat vnitřní a vnější vlastnosti HTML v Aspose.HTML fo
 Naučte se implementovat interní CSS do HTML dokumentů pomocí Aspose.HTML for Java s naším jednoduchým návodem krok za krokem.
 ### [Fixní vlákno pool v Javě – paralelní čištění HTML pomocí ExecutorService](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 Naučte se, jak využít fixní pool vláken v Javě k paralelnímu čištění HTML pomocí ExecutorService.
+### [Jak extrahovat HTML v Javě – Extrahovat text a zvýraznit slova](./how-to-extract-html-in-java-extract-text-highlight-words/)
+Naučte se, jak v Javě extrahovat text z HTML a zvýraznit vybraná slova pomocí Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

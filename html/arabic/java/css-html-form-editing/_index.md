@@ -32,6 +32,8 @@ url: /ar/java/css-html-form-editing/
 تعرف على كيفية تحرير نماذج HTML وإرسالها برمجيًا باستخدام Aspose.HTML لـ Java في هذا الدليل الشامل خطوة بخطوة.
 ### [تحديد العنصر حسب الفئة في Java – دليل شامل خطوة بخطوة](./select-element-by-class-in-java-complete-how-to-guide/)
 تعلم كيفية اختيار عناصر HTML باستخدام الفئة في Java باستخدام Aspose.HTML خطوة بخطوة.
+### [كيفية قراءة CSS في Java – الحصول على النمط المحسوب](./how-to-read-css-in-java-get-computed-style/)
+تعلم كيفية قراءة خصائص CSS في Java واستخراج النمط المحسوب للعناصر باستخدام Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

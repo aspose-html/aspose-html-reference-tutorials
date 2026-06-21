@@ -66,6 +66,9 @@ weight: 22
 ### [使用 Aspose.HTML for Java 進行 EPUB 到 PDF 轉換](./convert-epub-to-pdf/)
 了解如何使用 Aspose.HTML for Java 將 EPUB 轉換為 PDF。本逐步指南涵蓋前置條件、套件匯入與程式碼範例。立即開始 EPUB 到 PDF 的轉換。
 
+### [使用 Aspose.HTML for Java 將 EPUB 轉換為 PNG – 設定圖像尺寸](./convert-epub-to-png-in-java-set-image-dimensions/)
+了解如何使用 Aspose.HTML for Java 在 Java 中將 EPUB 轉換為 PNG，並自訂圖像尺寸以符合需求。
+
 ## 常見問題
 **Q: 如何在 Java 網頁應用程式中將 EPUB 轉換為 PDF？**  
 A: 從 `InputStream` 載入 EPUB，使用相同的 API 進行轉換，然後直接將 PDF 寫入 HTTP 回應的輸出串流。  

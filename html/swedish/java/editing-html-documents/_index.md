@@ -59,6 +59,7 @@ Lär dig hur du hanterar inre och yttre HTML-egenskaper i Aspose.HTML för Java 
 ### [Implementera intern CSS i HTML-dokument med Aspose.HTML för Java](./implement-internal-css-html-documents/)
 Lär dig att implementera intern CSS i HTML-dokument med Aspose.HTML för Java med vår enkla steg-för-steg handledning.
 ### [Fast trådpool i Java – parallell HTML‑rengöring med ExecutorService](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
+### [Hur man extraherar HTML i Java – Extrahera text och markera ord](./how-to-extract-html-in-java-extract-text-highlight-words/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

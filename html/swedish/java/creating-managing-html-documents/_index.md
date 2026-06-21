@@ -66,6 +66,8 @@ Lär dig att hantera dokumentladdningshändelser i Aspose.HTML för Java med den
 Lär dig att skapa och hantera SVG-dokument med Aspose.HTML för Java! Den här omfattande guiden täcker allt från grundläggande skapande till avancerad manipulation.
 ### [Skapa sandlåda för HTML i Java – Steg‑för‑steg‑guide](./create-sandbox-for-html-in-java-step-by-step-guide/)
 Lär dig hur du skapar en säker sandlåda för HTML i Java med vår detaljerade steg-för-steg‑guide.
+### [Kör flera trådar i Java – använd try‑with‑resources i Java](./run-multiple-threads-java-use-try-with-resources-java/)
+Lär dig hur du kör flera trådar i Java samtidigt som du använder try‑with‑resources för automatisk resurshantering.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

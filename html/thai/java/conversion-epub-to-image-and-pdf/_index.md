@@ -65,6 +65,8 @@ weight: 22
 เรียนรู้วิธีแปลง EPUB เป็นรูปภาพด้วย Aspose.HTML for Java. คู่มือขั้นตอน‑โดย‑ขั้นตอนสำหรับการแปลงที่มีประสิทธิภาพ  
 ### [EPUB to PDF Conversion with Aspose.HTML for Java](./convert-epub-to-pdf/)
 เรียนรู้วิธีแปลง EPUB เป็น PDF ด้วย Aspose.HTML for Java. คู่มือขั้นตอน‑โดย‑ขั้นตอนนี้ครอบคลุมข้อกำหนดเบื้องต้น, การนำเข้าแพ็กเกจ, และตัวอย่างโค้ด. เริ่มต้นการแปลง EPUB เป็น PDF ได้เลย  
+### [แปลง EPUB เป็น PNG ใน Java – ตั้งค่าขนาดภาพ](./convert-epub-to-png-in-java-set-image-dimensions/)
+เรียนรู้วิธีแปลงไฟล์ EPUB เป็น PNG พร้อมกำหนดความกว้างและความสูงของภาพโดยใช้ Aspose.HTML for Java  
 
 ## คำถามที่พบบ่อย
 

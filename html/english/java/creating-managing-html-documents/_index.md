@@ -66,6 +66,9 @@ Learn how to create new HTML documents using Aspose.HTML for Java with this easy
 Learn to handle document load events in Aspose.HTML for Java with this step-by-step guide. Enhance your web applications.
 ### [Create and Manage SVG Documents in Aspose.HTML for Java](./create-manage-svg-documents/)
 Learn to create and manage SVG documents using Aspose.HTML for Java! This comprehensive guide covers everything from basic creation to advanced manipulation.
+### [run multiple threads java – use try with resources java](./run-multiple-threads-java-use-try-with-resources-java/)
+Learn how to run multiple Java threads while safely managing resources using try‑with‑resources. Step-by-step guide with examples.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
