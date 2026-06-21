@@ -85,6 +85,8 @@ weight: 25
 ## Μετατροπή - HTML σε Άλλες Μορφές Μαθήματα
 ### [Μετατροπή HTML σε PDF](./convert-html-to-pdf/)
 Μάθετε πώς να μετατρέψετε HTML σε PDF σε Java χρησιμοποιώντας το Aspose.HTML. Δημιουργήστε PDF υψηλής ποιότητας από το περιεχόμενο HTML σας χωρίς κόπο.
+### [Μετατροπή HTML σε PDF μαζικά – Οδηγός Java NIO με παράλληλη επεξεργασία](./convert-html-to-pdf-in-bulk-java-nio-guide-with-parallel-pro/)
+Μάθετε πώς να μετατρέψετε πολλαπλά αρχεία HTML σε PDF χρησιμοποιώντας Java NIO και παράλληλη επεξεργασία για υψηλή απόδοση.
 ### [Μετατροπή HTML σε PDF σε Java – Οδηγός βήμα‑βήμα με ρυθμίσεις μεγέθους σελίδας](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Ακολουθήστε τον πλήρη οδηγό για μετατροπή HTML σε PDF σε Java, με παραμετροποίηση μεγέθους σελίδας για ακριβή έγγραφα.
 ### [Μετατροπή HTML σε MHTML](./convert-html-to-mhtml/)
@@ -93,6 +95,8 @@ weight: 25
 Μάθετε πώς να μετατρέψετε εύκολα HTML σε XPS χρησιμοποιώντας το Aspose.HTML for Java. Δημιουργήστε έγγραφα πολλαπλών πλατφορμών με ευκολία.
 ### [Μετατροπή Markdown σε HTML](./convert-markdown-to-html/)
 Μετατρέψτε Markdown σε HTML σε Java απρόσκοπτα με το Aspose.HTML for Java. Ακολουθήστε τον βήμα‑βήμα οδηγό μας για να βελτιώσετε τις ανάγκες μετατροπής εγγράφων σας.
+### [Δημιουργία PDF από Markdown σε Java – Οδηγός βήμα‑βήμα](./create-pdf-from-markdown-in-java-step-by-step-guide/)
+Μάθετε πώς να μετατρέψετε αρχεία Markdown σε PDF σε Java με το Aspose.HTML, ακολουθώντας έναν απλό οδηγό βήμα‑βήμα.
 ### [Μετατροπή SVG σε Εικόνα](./convert-svg-to-image/)
 Μάθετε πώς να μετατρέψετε SVG σε εικόνες σε Java με το Aspose.HTML. Πλήρης οδηγός για έξοδο υψηλής ποιότητας.
 ### [Μετατροπή SVG σε PDF](./convert-svg-to-pdf/)

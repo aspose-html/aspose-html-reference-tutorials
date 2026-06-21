@@ -91,6 +91,8 @@ Het gebruik van Aspose.HTML for Java vereenvoudigt de conversie van HTML‑docum
 Converteer HTML naar BMP met Aspose.HTML for Java. Een uitgebreide tutorial om HTML‑documenten moeiteloos om te zetten naar BMP‑afbeeldingen met Aspose.HTML for Java.
 ### [HTML naar GIF converteren](./convert-html-to-gif/)
 Leer hoe je HTML naar GIF kunt converteren in Java met Aspose.HTML. Een uitgebreide stap‑voor‑stap gids voor efficiënte HTML‑naar‑GIF conversie.
+### [SVG naar GIF converteren in Java – Complete stap‑voor‑stap gids](./svg-to-gif-conversion-in-java-complete-step-by-step-guide/)
+Leer hoe je SVG-afbeeldingen naar GIF kunt omzetten in Java met Aspose.HTML. Een volledige stap‑voor‑stap handleiding.
 ### [HTML naar JPEG converteren](./convert-html-to-jpeg/)
 Leer HTML naar JPEG te converteren met Aspose.HTML for Java. Stap‑voor‑stap gids voor naadloze documentverwerking.
 ### [HTML naar PNG converteren](./convert-html-to-png/)
