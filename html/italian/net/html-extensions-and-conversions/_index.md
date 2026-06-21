@@ -61,6 +61,8 @@ Scopri come convertire HTML in Markdown in .NET usando Aspose.HTML per una manip
 Converti HTML in MHTML in .NET con Aspose.HTML - Una guida passo passo per un'archiviazione efficiente dei contenuti web. Scopri come usare Aspose.HTML per .NET per creare archivi MHTML.
 ### [Convertire HTML in PNG in .NET con Aspose.HTML](./convert-html-to-png/)
 Scopri come usare Aspose.HTML per .NET per manipolare e convertire documenti HTML. Guida passo passo per uno sviluppo .NET efficace.
+### [Convertire HTML in PNG in C# – Renderizzare HTML come immagine](./convert-html-to-png-in-c-render-html-as-image/)
+Scopri come rendere HTML come immagine PNG in C# con Aspose.HTML, con esempi di codice e passaggi dettagliati.
 ### [Convertire HTML in TIFF in .NET con Aspose.HTML](./convert-html-to-tiff/)
 Scopri come convertire HTML in TIFF con Aspose.HTML per .NET. Segui la nostra guida passo passo per un'ottimizzazione efficiente dei contenuti web.
 ### [Convertire HTML in XPS in .NET con Aspose.HTML](./convert-html-to-xps/)
@@ -73,6 +75,10 @@ Crea un PDF da HTML in C# con Aspose.HTML per .NET. Segui la nostra guida passo 
 Salva HTML come archivio ZIP con Aspose.HTML per .NET. Guida passo passo per creare file ZIP contenenti HTML in C#.
 ### [Salva HTML in ZIP in C# – Esempio completo in memoria](./save-html-to-zip-in-c-complete-in-memory-example/)
 Scopri come salvare un documento HTML in un archivio ZIP interamente in memoria usando Aspose.HTML per .NET.
+### [Salva HTML come ZIP con un gestore di risorse personalizzato – guida passo‑a‑passo](./save-html-as-zip-with-a-custom-resource-handler-step-by-step/)
+Scopri come salvare HTML in un archivio ZIP usando un gestore di risorse personalizzato con Aspose.HTML per .NET, passo dopo passo.
+### [Salva pagina web come ZIP con Aspose.HTML – Tutorial completo C#](./save-webpage-as-zip-with-aspose-html-complete-c-tutorial/)
+Salva una pagina web come archivio ZIP usando Aspose.HTML per .NET in C#. Guida completa passo passo.
 
 ## Conclusione
 

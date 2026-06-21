@@ -59,6 +59,8 @@ Lär dig hur du konverterar HTML till Markdown i .NET med Aspose.HTML för effek
 Konvertera HTML till MHTML i .NET med Aspose.HTML - En steg-för-steg-guide för effektiv arkivering av webbinnehåll. Lär dig hur du använder Aspose.HTML för .NET för att skapa MHTML-arkiv.
 ### [Konvertera HTML till PNG i .NET med Aspose.HTML](./convert-html-to-png/)
 Upptäck hur du använder Aspose.HTML för .NET för att manipulera och konvertera HTML-dokument. Steg-för-steg-guide för effektiv .NET-utveckling.
+### [Konvertera HTML till PNG i C# – Rendera HTML som bild](./convert-html-to-png-in-c-render-html-as-image/)
+Lär dig hur du renderar HTML som PNG-bild i C# med Aspose.HTML – steg‑för‑steg‑guide med kodexempel.
 ### [Konvertera HTML till TIFF i .NET med Aspose.HTML](./convert-html-to-tiff/)
 Lär dig hur du konverterar HTML till TIFF med Aspose.HTML för .NET. Följ vår steg-för-steg-guide för effektiv optimering av webbinnehåll.
 ### [Konvertera HTML till XPS i .NET med Aspose.HTML](./convert-html-to-xps/)
@@ -71,6 +73,10 @@ Lär dig skapa ett HTML-dokument med stiliserad text och konvertera det till PDF
 Skapa PDF från HTML med C# och Aspose.HTML för .NET. Följ vår steg‑för‑steg‑guide för enkel PDF‑generering.
 ### [Spara HTML som ZIP – Komplett C#-handledning](./save-html-as-zip-complete-c-tutorial/)
 Lär dig hur du sparar HTML som en ZIP-fil med en komplett C#-kodexempel och steg-för-steg-instruktioner.
+### [Spara webbsida som ZIP med Aspose.HTML – Komplett C#-handledning](./save-webpage-as-zip-with-aspose-html-complete-c-tutorial/)
+Lär dig hur du sparar en webbsida som ZIP-arkiv med Aspose.HTML i en komplett C#-guide med kodexempel.
+### [Spara HTML som ZIP med en anpassad resurs‑hanterare – steg‑för‑steg‑guide](./save-html-as-zip-with-a-custom-resource-handler-step-by-step/)
+Lär dig hur du sparar HTML som ZIP‑arkiv med en anpassad resurs‑hanterare i C# med Aspose.HTML för .NET.
 ### [Spara HTML till ZIP i C# – Komplett minnesexempel](./save-html-to-zip-in-c-complete-in-memory-example/)
 Lär dig hur du sparar HTML-filer i ett ZIP‑arkiv i minnet med C# och Aspose.HTML.
 

@@ -66,6 +66,8 @@ Aprenda como converter HTML para Markdown no .NET usando Aspose.HTML para manipu
 Converta HTML para MHTML em .NET com Aspose.HTML - Um guia passo a passo para arquivamento eficiente de conteúdo web. Aprenda a usar Aspose.HTML para .NET para criar arquivos MHTML.
 ### [Converter HTML para PNG no .NET com Aspose.HTML](./convert-html-to-png/)
 Descubra como usar Aspose.HTML para .NET para manipular e converter documentos HTML. Guia passo a passo para desenvolvimento .NET eficaz.
+### [Converter HTML para PNG em C# – Renderizar HTML como Imagem](./convert-html-to-png-in-c-render-html-as-image/)
+Aprenda a converter HTML para PNG em C# usando Aspose.HTML, renderizando HTML como imagem com um guia passo a passo.
 ### [Converter HTML para TIFF em .NET com Aspose.HTML](./convert-html-to-tiff/)
 Aprenda como converter HTML para TIFF com Aspose.HTML para .NET. Siga nosso guia passo a passo para otimização eficiente de conteúdo web.
 ### [Converter HTML para XPS em .NET com Aspose.HTML](./convert-html-to-xps/)
@@ -75,8 +77,15 @@ Aprenda a salvar documentos HTML em arquivos ZIP usando Aspose.HTML para .NET co
 
 ### [Como compactar HTML em C# – Salvar HTML em ZIP](./how-to-zip-html-in-c-save-html-to-zip/)
 Aprenda a criar um arquivo ZIP contendo arquivos HTML usando Aspose.HTML para .NET em C#.
+
 ### [Salvar HTML em ZIP em C# – Exemplo Completo em Memória](./save-html-to-zip-in-c-complete-in-memory-example/)
 Aprenda a salvar arquivos HTML em um arquivo ZIP usando C# com um exemplo completo totalmente em memória.
+
+### [Salvar HTML como ZIP com um manipulador de recursos personalizado – guia passo a passo](./save-html-as-zip-with-a-custom-resource-handler-step-by-step/)
+Aprenda a salvar HTML em um arquivo ZIP usando um manipulador de recursos personalizado com Aspose.HTML para .NET. Guia passo a passo.
+
+### [Salvar página da Web como ZIP com Aspose.HTML – Tutorial completo em C#](./save-webpage-as-zip-with-aspose-html-complete-c-tutorial/)
+Aprenda a salvar uma página da Web como um arquivo ZIP usando Aspose.HTML para .NET com um tutorial passo a passo em C#.
 
 ## Conclusão
 

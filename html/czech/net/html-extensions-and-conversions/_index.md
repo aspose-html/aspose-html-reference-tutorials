@@ -61,6 +61,8 @@ Naučte se, jak převést HTML na Markdown v .NET pomocí Aspose.HTML pro efekti
 Převeďte HTML na MHTML v .NET pomocí Aspose.HTML – podrobný průvodce pro efektivní archivaci webového obsahu. Naučte se používat Aspose.HTML pro .NET k vytváření MHTML archivů.
 ### [Převeďte HTML na PNG v .NET pomocí Aspose.HTML](./convert-html-to-png/)
 Objevte, jak používat Aspose.HTML pro .NET k manipulaci a převodu HTML dokumentů. Podrobný průvodce pro efektivní vývoj .NET.
+### [Převod HTML na PNG v C# – Vykreslení HTML jako obrázek](./convert-html-to-png-in-c-render-html-as-image/)
+Naučte se převést HTML na PNG v C# pomocí Aspose.HTML – podrobný průvodce s ukázkami kódu.
 ### [Převeďte HTML na TIFF v .NET pomocí Aspose.HTML](./convert-html-to-tiff/)
 Naučte se převádět HTML na TIFF pomocí Aspose.HTML pro .NET. Postupujte podle našeho podrobného průvodce pro efektivní optimalizaci webového obsahu.
 ### [Převeďte HTML na XPS v .NET pomocí Aspose.HTML](./convert-html-to-xps/)
@@ -71,8 +73,12 @@ Naučte se, jak pomocí Aspose.HTML pro .NET zabalit HTML soubor do ZIP archivu 
 Naučte se vytvořit HTML dokument se stylovaným textem a převést jej do PDF pomocí Aspose.HTML pro .NET.
 ### [Uložte HTML jako ZIP – Kompletní C# tutoriál](./save-html-as-zip-complete-c-tutorial/)
 Naučte se, jak uložit HTML soubor jako ZIP archiv pomocí Aspose.HTML pro .NET v kompletním C# tutoriálu.
+### [Uložte webovou stránku jako ZIP – Kompletní C# tutoriál](./save-webpage-as-zip-with-aspose-html-complete-c-tutorial/)
+Naučte se, jak uložit webovou stránku jako ZIP archiv pomocí Aspose.HTML pro .NET v kompletním C# tutoriálu.
 ### [Uložte HTML do ZIP v C# – Kompletní příklad v paměti](./save-html-to-zip-in-c-complete-in-memory-example/)
 Naučte se, jak uložit HTML soubor do ZIP archivu v paměti pomocí Aspose.HTML pro .NET v C#.
+### [Uložte HTML jako ZIP s vlastním manipulátorem zdrojů – krok za krokem](./save-html-as-zip-with-a-custom-resource-handler-step-by-step/)
+Naučte se, jak pomocí Aspose.HTML pro .NET uložit HTML soubor jako ZIP archiv s vlastním manipulátorem zdrojů v C#.
 
 ## Závěr
 

@@ -59,6 +59,8 @@ Etkili içerik düzenlemesi için Aspose.HTML kullanarak .NET'te HTML'yi Markdow
 Aspose.HTML ile .NET'te HTML'yi MHTML'ye dönüştürün - Etkili web içeriği arşivleme için adım adım bir kılavuz. MHTML arşivleri oluşturmak için .NET için Aspose.HTML'yi nasıl kullanacağınızı öğrenin.
 ### [Aspose.HTML ile .NET'te HTML'yi PNG'ye dönüştürün](./convert-html-to-png/)
 HTML belgelerini düzenlemek ve dönüştürmek için Aspose.HTML for .NET'in nasıl kullanılacağını keşfedin. Etkili .NET geliştirme için adım adım kılavuz.
+### [C# ile HTML'yi PNG'ye Dönüştür – HTML'yi Görüntü Olarak Renderla](./convert-html-to-png-in-c-render-html-as-image/)
+Aspose.HTML for .NET ile C# içinde HTML'yi PNG'ye dönüştürün, görüntü olarak renderleyin. Adım adım örnekler ve ipuçları.
 ### [Aspose.HTML ile .NET'te HTML'yi TIFF'e dönüştürün](./convert-html-to-tiff/)
 Aspose.HTML for .NET ile HTML'yi TIFF'e nasıl dönüştüreceğinizi öğrenin. Etkili web içeriği optimizasyonu için adım adım kılavuzumuzu izleyin.
 ### [Aspose.HTML ile .NET'te HTML'yi XPS'e dönüştürün](./convert-html-to-xps/)
@@ -69,8 +71,11 @@ Aspose.HTML for .NET kullanarak HTML'den PDF'ye nasıl dönüştüreceğinizi ad
 ### [Stil Verilmiş Metinle HTML Belgesi Oluşturma ve PDF'ye Dışa Aktarma – Tam Kılavuz](./create-html-document-with-styled-text-and-export-to-pdf-full/)
 ### [HTML'yi ZIP Olarak Kaydet – Tam C# Öğreticisi](./save-html-as-zip-complete-c-tutorial/)
 Aspose.HTML for .NET kullanarak HTML dosyalarını ZIP arşivine kaydetmeyi adım adım öğrenin.
+### [Aspose.HTML ile Web Sayfasını ZIP Olarak Kaydet – Tam C# Öğreticisi](./save-webpage-as-zip-with-aspose-html-complete-c-tutorial/)
+Aspose.HTML for .NET kullanarak bir web sayfasını ZIP arşivine kaydetmeyi adım adım öğrenin.
 ### [C# ile HTML'yi ZIP'e Kaydet – Tam Bellek İçi Örnek](./save-html-to-zip-in-c-complete-in-memory-example/)
 Aspose.HTML for .NET kullanarak HTML dosyasını bellek içinde ZIP arşivine dönüştürmeyi adım adım öğrenin.
+### [Özel kaynak işleyicisiyle HTML'yi ZIP olarak kaydet – adım adım kılavuz](./save-html-as-zip-with-a-custom-resource-handler-step-by-step/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
