@@ -118,6 +118,9 @@ A: การแซนด์บ็อกซ์จำกัด API บางอย
 ### [Set User Style Sheet in Aspose.HTML for Java](./set-user-style-sheet/)
 เรียนรู้วิธีตั้งค่า stylesheet ผู้ใช้ใน Aspose.HTML for Java, ปรับปรุงการจัดรูปแบบเอกสารของคุณและแปลง HTML เป็น PDF อย่างง่ายดาย
 
+### [ดึงหัวเรื่องจาก HTML ใน Java – คู่มือ Sandbox ฉบับสมบูรณ์](./extract-title-from-html-in-java-complete-sandbox-guide/)
+เรียนรู้วิธีดึงชื่อเรื่องจากไฟล์ HTML ใน Java โดยใช้ sandbox เพื่อความปลอดภัยและการทำงานที่แม่นยำ
+
 ---
 
 **Last Updated:** 2025-12-03  

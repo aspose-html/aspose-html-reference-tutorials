@@ -79,8 +79,6 @@ Producera PDF‑filer som innehåller vektorgrafik som skalar utan pixling.
 ### Konvertera SVG till XPS
 Transformera SVG‑grafik till XPS‑format för konsekvent utskrift på olika enheter.
 
-Sammanfattningsvis låser behärskning av **html to pdf java** och den bredare uppsättningen av konverteringar upp kraftfulla dokumentarbetsflöden för varje Java‑utvecklare. Aspose.HTML for Java erbjuder omfattande, lätt‑följda handledningar som låter dig konvertera HTML, Markdown och SVG till de format du behöver, med hög kvalitet och full kontroll.
-
 ## Konvertering - HTML till Andra Format Handledning
 ### [Konvertera HTML till PDF](./convert-html-to-pdf/)
 Lär dig hur du konverterar HTML till PDF i Java med Aspose.HTML. Skapa högkvalitativa PDF‑filer från ditt HTML‑innehåll utan ansträngning.
@@ -98,6 +96,13 @@ Konvertera SVG till PDF i Java med Aspose.HTML. En sömlös lösning för högkv
 Lär dig hur du konverterar SVG till XPS med Aspose.HTML for Java. Enkel, steg‑för‑steg‑guide för smidiga konverteringar.
 ### [Konvertera HTML till PDF i Java – Steg‑för‑steg‑guide med sidstorleksinställningar](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Lär dig konvertera HTML till PDF i Java med detaljerade steg och anpassa sidstorlek för optimal utskrift.
+### [Konvertera HTML till PDF i Java – Fullständig Sandbox‑guide](./convert-html-to-pdf-in-java-full-sandbox-guide/)
+Lär dig att konvertera HTML till PDF i Java med en komplett sandbox‑miljö och steg‑för‑steg‑instruktioner.
+### [Skapa PDF från HTML i Java – Steg‑för‑steg‑guide](./create-pdf-from-html-in-java-step-by-step-guide/)
+Lär dig att skapa PDF från HTML i Java med en detaljerad steg‑för‑steg‑guide.
+### [Skapa markdown från HTML i Java – Steg‑för‑steg konverteringsguide](./create-markdown-from-html-in-java-step-by-step-conversion-gu/)
+Lär dig hur du konverterar HTML till Markdown i Java med en detaljerad steg‑för‑steg‑guide.
+### [HTML till PDF handledning – Konvertera HTML till PDF med Java Fixed Thread Pool](./html-to-pdf-tutorial-convert-html-to-pdf-with-java-fixed-thr/)
 
 ## Vanliga frågor
 

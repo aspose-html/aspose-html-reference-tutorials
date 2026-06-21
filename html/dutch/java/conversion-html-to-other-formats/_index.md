@@ -84,8 +84,12 @@ Kortom, het beheersen van **html to pdf java** en de bredere reeks conversies on
 ## Conversie - HTML naar Andere Formaten Tutorials
 ### [HTML naar PDF converteren](./convert-html-to-pdf/)
 Leer hoe u HTML naar PDF kunt converteren in Java met Aspose.HTML. Maak moeiteloos hoogwaardige PDF's van uw HTML‑inhoud.
+### [HTML naar PDF converteren in Java – Volledige Sandbox‑gids](./convert-html-to-pdf-in-java-full-sandbox-guide/)
+Leer hoe u HTML naar PDF converteert in Java met een volledige sandbox‑omgeving en voorbeeldcode.
 ### [HTML naar PDF converteren in Java – Stapsgewijze gids met paginagrootte‑instellingen](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Leer stap voor stap hoe u HTML naar PDF converteert in Java en paginagrootte‑instellingen configureert voor optimale resultaten.
+### [PDF maken van HTML in Java – Stapsgewijze gids](./create-pdf-from-html-in-java-step-by-step-guide/)
+Leer stap‑voor‑stap hoe u met Aspose.HTML een PDF genereert vanuit HTML in Java.
 ### [HTML naar MHTML converteren](./convert-html-to-mhtml/)
 Converteer HTML moeiteloos naar MHTML met Aspose.HTML for Java. Volg onze stap‑voor‑stap gids voor efficiënte HTML‑naar‑MHTML conversie.
 ### [HTML naar XPS converteren](./convert-html-to-xps/)
@@ -98,6 +102,10 @@ Leer hoe u SVG naar afbeeldingen kunt converteren in Java met Aspose.HTML. Uitge
 Converteer SVG naar PDF in Java met Aspose.HTML. Een naadloze oplossing voor documentconversie van hoge kwaliteit.
 ### [SVG naar XPS converteren](./convert-svg-to-xps/)
 Leer hoe u SVG naar XPS kunt converteren met Aspose.HTML for Java. Eenvoudige, stap‑voor‑stap gids voor naadloze conversies.
+### [Markdown maken van HTML in Java – Stapsgewijze conversiegids](./create-markdown-from-html-in-java-step-by-step-conversion-gu/)
+Leer stap voor stap hoe u met Aspose.HTML markdown genereert uit HTML in Java.
+### [HTML naar PDF tutorial – Converteer HTML naar PDF met Java Fixed Thread Pool](./html-to-pdf-tutorial-convert-html-to-pdf-with-java-fixed-thr/)
+Leer hoe u met een Java Fixed Thread Pool meerdere HTML‑naar‑PDF conversies parallel kunt uitvoeren voor betere prestaties.
 
 ## Veelgestelde Vragen
 

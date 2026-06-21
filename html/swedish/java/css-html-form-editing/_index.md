@@ -32,6 +32,9 @@ Lär dig hur du använder Aspose.HTML för Java för att tillämpa avancerade CS
 Lär dig hur du redigerar och skickar HTML-formulär programmatiskt med Aspose.HTML för Java i den här omfattande steg-för-steg-guiden.
 ### [Välj element efter klass i Java – Komplett guide](./select-element-by-class-in-java-complete-how-to-guide/)
 Lär dig hur du programatiskt väljer HTML‑element baserat på deras klass i Java med Aspose.HTML.
+### [query selector div-klass – Hur man väljer en div efter klass och får beräknad stil i Java](./query-selector-div-class-how-to-select-a-div-by-class-and-ge/)
+Lär dig hur du använder querySelector för att välja en div efter klass och hämta dess beräknade stil med Aspose.HTML för Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

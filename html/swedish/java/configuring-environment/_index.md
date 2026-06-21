@@ -112,6 +112,8 @@ Lär dig hur du konfigurerar Runtime‑tjänsten i Aspose.HTML för Java för at
 Lär dig hur du implementerar sandboxing i Aspose.HTML för Java för att säkert kontrollera skriptkörning i dina HTML‑dokument och konvertera dem till PDF.
 ### [Set User Style Sheet in Aspose.HTML for Java](./set-user-style-sheet/)
 Lär dig hur du ställer in en anpassad användar‑stilmall i Aspose.HTML för Java, förbättrar ditt dokumentutseende och konverterar HTML till PDF med lätthet.
+### [Extrahera titel från HTML i Java – Komplett sandbox‑guide](./extract-title-from-html-in-java-complete-sandbox-guide/)
+Lär dig hur du extraherar titeln från HTML i Java med en komplett sandbox‑guide för säker bearbetning.
 
 ---
 

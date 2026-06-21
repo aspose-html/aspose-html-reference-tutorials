@@ -119,6 +119,9 @@ Tìm hiểu cách triển khai sandboxing trong Aspose.HTML for Java để kiể
 ### [Set User Style Sheet in Aspose.HTML for Java](./set-user-style-sheet/)
 Tìm hiểu cách thiết lập stylesheet người dùng tùy chỉnh trong Aspose.HTML for Java, nâng cao phong cách tài liệu và chuyển đổi HTML sang PDF một cách dễ dàng.
 
+### [Trích xuất tiêu đề từ HTML trong Java – Hướng dẫn Sandbox đầy đủ](./extract-title-from-html-in-java-complete-sandbox-guide/)
+Tìm hiểu cách trích xuất tiêu đề từ tài liệu HTML trong Java và áp dụng sandbox để bảo mật quá trình xử lý.
+
 ---
 
 **Last Updated:** 2025-12-03  

@@ -83,14 +83,22 @@ Aspose.HTML for Java 簡化了 HTML‑to‑PDF 工作流程。請參考專屬教
 ## Conversion - HTML to Other Formats Tutorials
 ### [Converting HTML to PDF](./convert-html-to-pdf/)
 了解如何使用 Aspose.HTML 在 Java 中將 HTML 轉換為 PDF，輕鬆產生高品質的 PDF 文件。
+### [HTML 轉 PDF 教學 – 使用 Java 固定執行緒池將 HTML 轉換為 PDF](./html-to-pdf-tutorial-convert-html-to-pdf-with-java-fixed-thr/)
+示範如何在 Java 中使用固定執行緒池進行多執行緒 HTML 轉 PDF，提高轉換效能與資源管理。
+### [在 Java 中將 HTML 轉換為 PDF – 完整沙盒指南](./convert-html-to-pdf-in-java-full-sandbox-guide/)
+完整的沙盒示範，說明如何在 Java 中使用 Aspose.HTML 將 HTML 轉換為 PDF，涵蓋設定與最佳實踐。
 ### [在 Java 中將 HTML 轉換為 PDF – 逐步指南與頁面大小設定](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 提供在 Java 中使用 Aspose.HTML 逐步將 HTML 轉換為 PDF，並設定頁面尺寸的完整教學。
+### [在 Java 中從 HTML 建立 PDF – 逐步指南](./create-pdf-from-html-in-java-step-by-step-guide/)
+提供在 Java 中使用 Aspose.HTML 逐步將 HTML 轉換為 PDF 的完整教學，涵蓋設定與最佳實踐。
 ### [Converting HTML to MHTML](./convert-html-to-mhtml/)
 使用 Aspose.HTML for Java 輕鬆將 HTML 轉換為 MHTML，依照步驟指南完成高效的 HTML‑to‑MHTML 轉換。
 ### [Converting HTML to XPS](./convert-html-to-xps/)
 學習如何使用 Aspose.HTML for Java 無縫將 HTML 轉換為 XPS，輕鬆建立跨平台文件。
 ### [Converting Markdown to HTML](./convert-markdown-to-html/)
 使用 Aspose.HTML for Java 在 Java 中順暢將 Markdown 轉為 HTML，依照步驟指南簡化文件轉換需求。
+### [在 Java 中從 HTML 建立 Markdown – 逐步轉換指南](./create-markdown-from-html-in-java-step-by-step-conversion-gu/)
+說明如何使用 Aspose.HTML 在 Java 中將 HTML 內容轉換為 Markdown，提供完整步驟與範例。
 ### [Converting SVG to Image](./convert-svg-to-image/)
 了解如何使用 Aspose.HTML 在 Java 中將 SVG 轉為影像，提供高品質輸出的完整指南。
 ### [Converting SVG to PDF](./convert-svg-to-pdf/)

@@ -32,6 +32,8 @@ Erfahren Sie, wie Sie mit Aspose.HTML für Java erweiterte CSS-Techniken anwende
 Erfahren Sie in dieser umfassenden Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.HTML für Java programmgesteuert HTML-Formulare bearbeiten und übermitteln.
 ### [Element per Klasse in Java auswählen – Komplett‑Anleitung](./select-element-by-class-in-java-complete-how-to-guide/)
 Erfahren Sie, wie Sie mit Aspose.HTML für Java Elemente anhand ihrer CSS‑Klasse auswählen und verarbeiten – Schritt‑für‑Schritt‑Anleitung.
+### [Query Selector div class – Wie man ein div nach Klasse auswählt und den berechneten Stil in Java ermittelt](./query-selector-div-class-how-to-select-a-div-by-class-and-ge/)
+Erfahren Sie, wie Sie mit Aspose.HTML für Java ein div‑Element per CSS‑Klasse auswählen und dessen berechneten Stil auslesen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

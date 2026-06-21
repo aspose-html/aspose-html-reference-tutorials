@@ -32,6 +32,7 @@ url: /ar/java/css-html-form-editing/
 تعرف على كيفية تحرير نماذج HTML وإرسالها برمجيًا باستخدام Aspose.HTML لـ Java في هذا الدليل الشامل خطوة بخطوة.
 ### [تحديد العنصر حسب الفئة في Java – دليل شامل خطوة بخطوة](./select-element-by-class-in-java-complete-how-to-guide/)
 تعلم كيفية اختيار عناصر HTML باستخدام الفئة في Java باستخدام Aspose.HTML خطوة بخطوة.
+### [محدد الاستعلام div class – كيفية اختيار div حسب الفئة والحصول على النمط المحسوب في Java](./query-selector-div-class-how-to-select-a-div-by-class-and-ge/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
