@@ -43,8 +43,14 @@ Erfahren Sie, wie Sie mit Aspose.HTML für .NET dynamische Webseiten erstellen. 
 Erfahren Sie, wie Sie mit Aspose.HTML für .NET HTML-Dokumente bearbeiten, HTML in Bilder konvertieren und vieles mehr. Schritt-für-Schritt-Anleitung mit FAQs.
 ### [Antialiasing beim Konvertieren von DOCX in PNG/JPG aktivieren](./how-to-enable-antialiasing-when-converting-docx-to-png-jpg/)
 Erfahren Sie, wie Sie beim Konvertieren von DOCX-Dokumenten in PNG oder JPG Antialiasing aktivieren, um hochwertige Bilder zu erhalten.
+### [Antialiasing beim Exportieren von Dokumenten in Bilder mit C# aktivieren](./how-to-enable-antialiasing-export-document-to-image-with-c/)
+Erfahren Sie, wie Sie Antialiasing aktivieren, um beim Exportieren von Dokumenten in Bilddateien mit C# hochwertige Ergebnisse zu erzielen.
 ### [DOCX in PNG konvertieren – ZIP-Archiv erstellen C#‑Tutorial](./convert-docx-to-png-create-zip-archive-c-tutorial/)
 Erfahren Sie, wie Sie DOCX‑Dateien in PNG‑Bilder umwandeln und diese in ein ZIP‑Archiv packen – Schritt‑für‑Schritt‑Anleitung in C#.
+### [Bild aus HTML mit Aspose.HTML erstellen – Vollständige Schritt‑für‑Schritt‑Anleitung](./create-image-from-html-with-aspose-html-complete-step-by-ste/)
+Erfahren Sie, wie Sie mit Aspose.HTML HTML in ein Bild konvertieren – detaillierte Schritt‑für‑Schritt‑Anleitung.
+### [PNG aus Word erstellen – Schritt‑für‑Schritt C#‑Leitfaden](./create-png-from-word-step-by-step-c-guide/)
+Erfahren Sie, wie Sie mit C# Word‑Dokumente in PNG‑Bilder konvertieren – detaillierte Schritt‑für‑Schritt‑Anleitung.
 
 ## Abschluss
 

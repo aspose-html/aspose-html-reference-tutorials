@@ -60,6 +60,8 @@ url: /el/net/rendering-html-documents/
 Μάθετε πώς να μετατρέψετε HTML σε PNG χρησιμοποιώντας το Aspose.HTML για .NET σε αυτόν τον πλήρη οδηγό.
 ### [Δημιουργία PNG από HTML – Πλήρης Οδηγός Απόδοσης C#](./create-png-from-html-full-c-rendering-guide/)
 Μάθετε πώς να δημιουργήσετε PNG από HTML χρησιμοποιώντας το Aspose.HTML για .NET με πλήρη οδηγό C#.
+### [Απόδοση HTML σε PNG και ZIP στη μνήμη – Πλήρης οδηγός C#](./render-html-to-png-and-zip-in-memory-complete-c-guide/)
+Μάθετε πώς να αποδίδετε HTML σε PNG, να το συμπιέζετε σε αρχείο ZIP στη μνήμη, χρησιμοποιώντας C# και Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

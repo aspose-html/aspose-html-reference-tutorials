@@ -45,6 +45,12 @@ Apprenez à utiliser Aspose.HTML pour .NET pour manipuler des documents HTML, co
 Apprenez à activer l'anticrénelage pour améliorer la qualité des images PNG/JPG générées à partir de documents DOCX avec Aspose.HTML.
 ### [Convertir docx en png – créer une archive zip tutoriel C#](./convert-docx-to-png-create-zip-archive-c-tutorial/)
 Apprenez à convertir des fichiers DOCX en images PNG et à les compresser dans une archive ZIP avec C#.
+### [Créer une image à partir de HTML avec Aspose.HTML – Guide complet étape par étape](./create-image-from-html-with-aspose-html-complete-step-by-ste/)
+Apprenez à créer des images à partir de HTML en suivant un guide complet étape par étape avec Aspose.HTML.
+### [Comment activer l'anticrénelage – Exporter un document en image avec C#](./how-to-enable-antialiasing-export-document-to-image-with-c/)
+Apprenez à activer l'anticrénelage lors de l'exportation d'un document vers une image en C# avec Aspose.HTML.
+### [Créer un PNG à partir de Word – Guide étape par étape C#](./create-png-from-word-step-by-step-c-guide/)
+Apprenez à convertir un document Word en image PNG en C# avec Aspose.HTML, étape par étape.
 
 ## Conclusion
 
