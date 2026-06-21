@@ -39,6 +39,11 @@ url: /el/net/working-with-html-documents/
 ### [Πώς να αποθηκεύσετε HTML σε C# – Πλήρης οδηγός με χρήση προσαρμοσμένου διαχειριστή πόρων](./how-to-save-html-in-c-complete-guide-using-a-custom-resource/)
 
 Μάθετε πώς να αποθηκεύετε HTML σε C# χρησιμοποιώντας έναν προσαρμοσμένο διαχειριστή πόρων, βήμα-βήμα οδηγός.
+
+### [Δημιουργία εγγράφου HTML σε C# – Πλήρης οδηγός με χρήση προσαρμοσμένου διαχειριστή πόρων](./create-html-document-c-complete-guide-with-custom-resource-h/)
+
+Μάθετε πώς να δημιουργήσετε έγγραφο HTML σε C# χρησιμοποιώντας προσαρμοσμένο διαχειριστή πόρων, βήμα‑βήμα οδηγός.
+
 ### [Πώς να κάνετε έντονο τίτλο με CSS & C# – Πλήρης οδηγός βήμα‑βήμα](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

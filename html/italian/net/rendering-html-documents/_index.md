@@ -60,6 +60,11 @@ Scopri come controllare efficacemente i timeout di rendering in Aspose.HTML per 
 Impara a eseguire il rendering di più documenti HTML utilizzando Aspose.HTML per .NET. Aumenta le tue capacità di elaborazione dei documenti con questa potente libreria.
 ### [Rendi il documento SVG come PNG in .NET con Aspose.HTML](./render-svg-doc-as-png/)
 Sblocca la potenza di Aspose.HTML per .NET! Scopri come rendere SVG Doc come PNG senza sforzo. Immergiti in esempi passo dopo passo e FAQ. Inizia subito!
+### [Renderizza HTML in immagine in C# – Guida completa passo‑passo](./render-html-to-image-in-c-complete-step-by-step-guide/)
+Scopri come convertire HTML in immagini usando C# con Aspose.HTML, seguendo una guida dettagliata passo‑passo.
+### [Renderizza HTML in PNG in C# – Guida passo‑passo](./render-html-to-png-in-c-step-by-step-guide/)
+Scopri come convertire HTML in PNG usando C# con Aspose.HTML, seguendo una guida dettagliata passo‑passo.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
