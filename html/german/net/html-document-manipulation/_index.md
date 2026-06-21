@@ -71,6 +71,8 @@ Erfahren Sie, wie Sie Aspose.HTML für .NET verwenden. Importieren Sie Namespace
 Schöpfen Sie das Potenzial der Webentwicklung mit Aspose.HTML für .NET. Erstellen, konvertieren und bearbeiten Sie HTML-Dokumente ganz einfach.
 ### [HTML aus String in C# erstellen – Leitfaden für benutzerdefinierten Ressourcen-Handler](./create-html-from-string-in-c-custom-resource-handler-guide/)
 Erfahren Sie, wie Sie mit einem benutzerdefinierten Ressourcen-Handler HTML aus einem String in C# generieren und rendern.
+### [Schriftstil programmgesteuert anwenden – Schnellleitfaden für C#](./apply-font-style-programmatically-quick-c-guide/)
+Erfahren Sie, wie Sie mit Aspose.HTML für .NET Schriftstile programmgesteuert anwenden und HTML-Inhalte in C# formatieren.
 
 ## Abschluss
 
