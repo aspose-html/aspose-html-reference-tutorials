@@ -14,7 +14,7 @@ url: /it/net/working-with-html-documents/
 # Lavorare con i documenti HTML
 
 
-Sei uno sviluppatore web che vuole immergersi nel regno della creazione e manipolazione di documenti HTML usando .NET? Non cercare oltre! In questa serie di tutorial completa, esploreremo la potenza di Aspose.HTML e come può semplificare i tuoi compiti. Che tu sia un principiante o uno sviluppatore esperto, troverai spunti preziosi e suggerimenti pratici per potenziare le tue competenze.
+Sei uno sviluppatore web che vuole immergersi nel regno della creazione e manipolazione di documenti HTML usando .NET? Non cercare oltre! In questa serie di tutorial completa, esploreremo la potenza di Aspose.HTML e come può semplificare i tuoi compiti. Che tu sia un principiante o un sviluppatore esperto, troverai spunti preziosi e suggerimenti pratici per potenziare le tue competenze.
 
 ## Introduzione
 
@@ -38,6 +38,7 @@ Ora, portiamo le tue competenze al livello successivo. La modifica di documenti 
 
 ### [Come salvare HTML in C# – Guida completa con un gestore di risorse personalizzato](./how-to-save-html-in-c-complete-guide-using-a-custom-resource/)
 ### [Come rendere grassetto un'intestazione con CSS e C# – Guida completa passo‑passo](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
+### [Salva HTML in Zip – Guida completa C# per archivi in memoria](./save-html-to-zip-complete-c-guide-for-in-memory-archives/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

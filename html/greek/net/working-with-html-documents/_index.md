@@ -41,6 +41,8 @@ url: /el/net/working-with-html-documents/
 Μάθετε πώς να αποθηκεύετε HTML σε C# χρησιμοποιώντας έναν προσαρμοσμένο διαχειριστή πόρων, βήμα-βήμα οδηγός.
 ### [Πώς να κάνετε έντονο τίτλο με CSS & C# – Πλήρης οδηγός βήμα‑βήμα](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
 
+### [Αποθήκευση HTML σε Zip – Πλήρης οδηγός C# για αρχεία εντός μνήμης](./save-html-to-zip-complete-c-guide-for-in-memory-archives/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

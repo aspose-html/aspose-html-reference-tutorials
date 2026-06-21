@@ -45,6 +45,8 @@ Apprenez à utiliser Aspose.HTML pour .NET pour manipuler des documents HTML, co
 Apprenez à activer l'anticrénelage pour améliorer la qualité des images PNG/JPG générées à partir de documents DOCX avec Aspose.HTML.
 ### [Convertir docx en png – créer une archive zip tutoriel C#](./convert-docx-to-png-create-zip-archive-c-tutorial/)
 Apprenez à convertir des fichiers DOCX en images PNG et à les compresser dans une archive ZIP avec C#.
+### [Convertir docx en zip – guide complet avec rendu d'image](./convert-docx-to-zip-complete-guide-with-image-rendering/)
+Apprenez à convertir des fichiers DOCX en archives ZIP tout en rendant les images, avec un guide complet et du code C#.
 
 ## Conclusion
 

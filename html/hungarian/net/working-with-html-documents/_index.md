@@ -38,8 +38,7 @@ Most emeljük tudását a következő szintre. A HTML-dokumentumok szerkesztése
 
 ### [HTML mentése C#-ban – Teljes útmutató egy egyéni erőforráskezelő használatával](./how-to-save-html-in-c-complete-guide-using-a-custom-resource/)
 ### [Hogyan tegyünk félkövér címet CSS‑el és C#‑val – Teljes lépésről‑lépésre útmutató](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
-
-Ismerje meg, hogyan formázhatja félkövérre a HTML‑címeket CSS‑sel és C#‑kóddal, részletes példákkal.
+### [HTML mentése Zip-be – Teljes C# útmutató a memória‑beli archívumokhoz](./save-html-to-zip-complete-c-guide-for-in-memory-archives/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
