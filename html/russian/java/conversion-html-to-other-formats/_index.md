@@ -91,7 +91,7 @@ Aspose.HTML for Java упрощает процесс конвертации HTML
 Легко конвертируйте HTML в MHTML с помощью Aspose.HTML for Java. Следуйте нашему пошаговому руководству для эффективной конвертации HTML в MHTML.
 
 ### [Конвертация HTML в XPS](./convert-html-to-xps/)
-Узнайте, как без труда конвертировать HTML в XPS с помощью Aspose.HTML for Java. Создавайте кросс‑платформенные документы с лёгкостью.
+Узнайте, как без труда конвертировать HTML в XPS с помощью Aspose.HTML for Java. Создавайте кросс‑платформные документы с лёгкостью.
 
 ### [Конвертация Markdown в HTML](./convert-markdown-to-html/)
 Бесшовно конвертируйте Markdown в HTML в Java с помощью Aspose.HTML for Java. Следуйте нашему пошаговому руководству, чтобы упростить ваши потребности в конвертации документов.
@@ -107,6 +107,18 @@ Aspose.HTML for Java упрощает процесс конвертации HTML
 
 ### [Конвертация HTML в PDF в Java – Пошаговое руководство с настройками размера страницы](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Подробное пошаговое руководство по конвертации HTML в PDF в Java с настройкой размеров страниц.
+
+### [Конвертация HTML в PDF с Java – как создать пул потоков](./convert-html-to-pdf-with-java-how-to-create-thread-pool/)
+Показывает, как использовать пул потоков для одновременной конвертации HTML в PDF в Java с Aspose.HTML.
+
+### [Как конвертировать веб‑страницу в PDF на Java – Пошаговое руководство](./how-to-convert-webpage-to-pdf-in-java-step-by-step-guide/)
+Подробное руководство по конвертации веб‑страницы в PDF в Java с использованием Aspose.HTML.
+
+### [Создание PDF из HTML с пользовательским размером страницы и встроенными шрифтами](./create-pdf-from-html-with-custom-page-size-and-embedded-font/)
+Узнайте, как задать собственный размер страницы и включить шрифты при конвертации HTML в PDF с помощью Aspose.HTML for Java.
+
+### [Конвертация HTML в PDF в Java – Пример кода в одну строку](./convert-html-to-pdf-in-java-one-line-code-example/)
+Быстрый пример, показывающий, как преобразовать HTML в PDF в Java всего одной строкой кода.
 
 ## Часто задаваемые вопросы
 

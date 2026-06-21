@@ -32,6 +32,9 @@ Aspose.HTML for Java を使用して、カスタム ページ マージンや動
 この包括的なステップバイステップ ガイドでは、Aspose.HTML for Java を使用して HTML フォームをプログラムで編集および送信する方法を学習します。
 ### [Javaでクラスによる要素選択 – 完全ハウツーガイド](./select-element-by-class-in-java-complete-how-to-guide/)
 Javaコードでクラス属性を持つ要素を取得し操作する方法をステップバイステップで解説します。
+### [JavaでCSSを取得する方法 – querySelector と Computed Style を使用](./how-to-get-css-in-java-using-queryselector-and-computed-styl/)
+querySelector と Computed Style を活用し、Java で要素の CSS プロパティを取得する手順を解説します。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

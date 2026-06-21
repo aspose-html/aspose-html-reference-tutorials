@@ -66,6 +66,10 @@ Impara a gestire gli eventi di caricamento dei documenti in Aspose.HTML per Java
 Impara a creare e gestire documenti SVG usando Aspose.HTML per Java! Questa guida completa copre tutto, dalla creazione di base alla manipolazione avanzata.
 ### [Come interrogare HTML in Java – Tutorial completo](./how-to-query-html-in-java-complete-tutorial/)
 Impara a eseguire query su documenti HTML in Java usando Aspose.HTML con questa guida passo‑passo completa.
+### [Come interrogare HTML in Java – Estrarre URL delle immagini](./how-to-query-html-in-java-extract-image-urls/)
+Scopri come estrarre gli URL delle immagini da documenti HTML in Java con Aspose.HTML, passo dopo passo.
+### [Come analizzare HTML in Java – Estrarre testo da articoli HTML](./how-to-parse-html-in-java-extract-text-from-html-articles/)
+Scopri come estrarre il testo da articoli HTML in Java con Aspose.HTML, guida passo passo per analizzare e ottenere contenuti testuali.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -100,8 +100,14 @@ En conclusion, maîtriser **html to pdf java** et l'ensemble plus large de conve
 ### [Converting HTML to PDF](./convert-html-to-pdf/)
 Apprenez à convertir HTML en PDF en Java avec Aspose.HTML. Créez des PDF de haute qualité à partir de votre contenu HTML sans effort.
 
+### [Convertir HTML en PDF en Java – Exemple de code en une ligne](./convert-html-to-pdf-in-java-one-line-code-example/)
+Découvrez comment convertir HTML en PDF en Java avec une seule ligne de code grâce à Aspose.HTML.
+
 ### [Convertir HTML en PDF en Java – Guide étape par étape avec réglages de taille de page](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Apprenez à convertir HTML en PDF en Java en suivant chaque étape, incluant la configuration de la taille de page pour des documents précis.
+
+### [Convertir HTML en PDF avec Java – comment créer un pool de threads](./convert-html-to-pdf-with-java-how-to-create-thread-pool/)
+Apprenez à créer un pool de threads pour convertir plusieurs fichiers HTML en PDF simultanément avec Aspose.HTML.
 
 ### [Converting HTML to MHTML](./convert-html-to-mhtml/)
 Convertissez facilement HTML en MHTML avec Aspose.HTML for Java. Suivez notre guide étape par étape pour une conversion HTML‑vers‑MHTML efficace.
@@ -121,10 +127,16 @@ Convertissez SVG en PDF en Java avec Aspose.HTML. Une solution fluide pour une c
 ### [Converting SVG to XPS](./convert-svg-to-xps/)
 Apprenez à convertir SVG en XPS avec Aspose.HTML for Java. Guide simple et étape par étape pour des conversions fluides.
 
+### [Créer un PDF à partir de HTML avec taille de page personnalisée et polices incorporées](./create-pdf-from-html-with-custom-page-size-and-embedded-font/)
+Apprenez à générer un PDF à partir de HTML en définissant une taille de page personnalisée et en incorporant des polices pour un rendu précis.
+
+### [Comment convertir une page Web en PDF en Java – Guide étape par étape](./how-to-convert-webpage-to-pdf-in-java-step-by-step-guide/)
+Apprenez à convertir une page Web en PDF en Java avec Aspose.HTML, en suivant chaque étape du processus.
+
 ## Foire aux questions
 
 **Q : Puis-je utiliser Aspose.HTML for Java dans une application commerciale ?**  
-R : Oui. Une licence commerciale valide est requise pour une utilisation en production ; un essai gratuit est disponible pour l'évaluation.
+R : Oui. Une licence commerciale valide est requise pour l'utilisation en production ; un essai gratuit est disponible pour l'évaluation.
 
 **Q : Quelles versions de Java sont prises en charge ?**  
 R : Aspose.HTML for Java prend en charge Java 8, 11 et les versions ultérieures.
