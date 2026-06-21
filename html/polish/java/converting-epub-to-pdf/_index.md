@@ -48,6 +48,10 @@ Odblokuj potencjał swoich treści cyfrowych z Aspose.HTML for Java. Rozpocznij 
 ## Samouczki konwersji EPUB do PDF
 ### [Konwertowanie EPUB do PDF](./convert-epub-to-pdf/)
 Odblokuj konwersję EPUB do PDF z Aspose.HTML for Java, potężną biblioteką Java. Twórz dostępne treści bez wysiłku.
+
+### [Konwertowanie EPUB do PDF w Javie – przewodnik krok po kroku](./convert-epub-to-pdf-with-java-step-by-step-guide/)
+Kompletny przewodnik krok po kroku, jak konwertować pliki EPUB do PDF w Javie przy użyciu Aspose.HTML.
+
 ### [Określanie własnego dostawcy strumieni dla EPUB do PDF](./convert-epub-to-pdf-specify-custom-stream-provider/)
 Dowiedz się, jak łatwo konwertować EPUB do PDF w Javie przy użyciu Aspose.HTML, zwiększając możliwości przetwarzania dokumentów.
 ### [Określanie opcji zapisu PDF dla EPUB do PDF](./convert-epub-to-pdf-specify-pdf-save-options/)

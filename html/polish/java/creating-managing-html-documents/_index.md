@@ -45,7 +45,7 @@ Jeśli chodzi o generowanie nowych dokumentów HTML, Aspose.HTML for Java oferuj
 ### [Twórz dokumenty HTML asynchronicznie w Aspose.HTML dla Java](./create-html-documents-async/)
 Opanuj asynchroniczne tworzenie dokumentów HTML za pomocą Aspose.HTML dla Java. Przewodnik krok po kroku, wskazówki i FAQ dołączone do szybkiej nauki.
 ### [Utwórz puste dokumenty HTML w Aspose.HTML dla Java](./create-empty-html-documents/)
-Dowiedz się, jak tworzyć puste dokumenty HTML w języku Java za pomocą Aspose.HTML, korzystając z naszego szczegółowego samouczka krok po kroku, idealnego dla programistów na każdym poziomie zaawansowania.
+Dowiedz się, jak tworzyć puste dokumenty HTML w języku Java za pomocą naszego szczegółowego samouczka krok po kroku, idealnego dla programistów na każdym poziomie zaawansowania.
 ### [Załaduj dokumenty HTML z pliku w Aspose.HTML dla Java](./load-html-documents-from-file/)
 Odblokuj moc manipulacji HTML za pomocą Aspose.HTML dla Java. Naucz się ładować dokumenty HTML z plików za pomocą samouczków krok po kroku.
 ### [Zaawansowane ładowanie plików dla dokumentów HTML w Aspose.HTML dla Java](./advanced-file-loading-html-documents/)
@@ -56,6 +56,8 @@ Dowiedz się, jak ładować dokumenty HTML ze strumieni za pomocą Aspose.HTML d
 Dowiedz się, jak tworzyć dokumenty HTML z ciągów znaków w Aspose.HTML dla Java, korzystając z tego przewodnika krok po kroku.
 ### [Ładowanie dokumentów HTML z adresu URL w Aspose.HTML dla Java](./load-html-documents-from-url/)
 Odkryj, jak łatwo ładować dokumenty HTML z adresu URL w Javie za pomocą Aspose.HTML. Zawiera samouczek krok po kroku.
+### [Ładowanie JSON za pomocą Fetch w Javie – Kompletny przewodnik](./load-json-with-fetch-in-java-complete-guide/)
+Dowiedz się, jak używać Fetch do pobierania danych JSON w Javie, krok po kroku, z praktycznymi przykładami.
 ### [Generuj nowe dokumenty HTML za pomocą Aspose.HTML dla Java](./generate-new-html-documents/)
 Dowiedz się, jak tworzyć nowe dokumenty HTML za pomocą Aspose.HTML dla Java dzięki temu prostemu przewodnikowi krok po kroku. Zacznij generować dynamiczną zawartość HTML.
 ### [Obsługa zdarzeń ładowania dokumentów w Aspose.HTML dla Java](./handle-document-load-events/)

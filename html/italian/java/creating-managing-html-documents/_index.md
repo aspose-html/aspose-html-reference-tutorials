@@ -66,6 +66,8 @@ Impara a gestire gli eventi di caricamento dei documenti in Aspose.HTML per Java
 Impara a creare e gestire documenti SVG usando Aspose.HTML per Java! Questa guida completa copre tutto, dalla creazione di base alla manipolazione avanzata.
 ### [Come interrogare HTML in Java – Tutorial completo](./how-to-query-html-in-java-complete-tutorial/)
 Impara a eseguire query su documenti HTML in Java usando Aspose.HTML con questa guida passo‑passo completa.
+### [Carica JSON con Fetch in Java – Guida completa](./load-json-with-fetch-in-java-complete-guide/)
+Scopri come caricare dati JSON usando Fetch in Java con Aspose.HTML. Guida passo‑passo completa per integrare contenuti dinamici.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

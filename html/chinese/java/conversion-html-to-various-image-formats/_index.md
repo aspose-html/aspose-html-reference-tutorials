@@ -101,6 +101,9 @@ weight: 24
 ### [Converting HTML to TIFF](./convert-html-to-tiff/)
 学习如何使用 Aspose.HTML for Java 轻松将 HTML 转换为 TIFF。一步步指南，帮助您高效处理文档。
 
+### [在 Java 中将 HTML 转换为 TIFF – 完整编程指南](./convert-html-to-tiff-in-java-complete-programming-guide/)
+使用 Aspose.HTML for Java 将 HTML 转换为 TIFF 的完整编程指南，提供详细步骤和最佳实践。
+
 ### [将 HTML 转换为 WebP](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
 使用 Aspose.HTML for Java 将 HTML 转换为 WebP。完整的 Java 指南，帮助您轻松生成高质量的 WebP 图像。
 

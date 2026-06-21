@@ -56,6 +56,8 @@ Aprenda como carregar documentos HTML de streams usando Aspose.HTML para Java. E
 Aprenda a criar documentos HTML a partir de strings no Aspose.HTML para Java com este guia passo a passo.
 ### [Carregar documentos HTML de URL em Aspose.HTML para Java](./load-html-documents-from-url/)
 Descubra como carregar facilmente documentos HTML de uma URL em Java com Aspose.HTML. Tutorial passo a passo incluso.
+### [Carregar JSON com Fetch em Java – Guia Completo](./load-json-with-fetch-in-java-complete-guide/)
+Aprenda a carregar JSON usando Fetch em Java com este guia passo a passo.
 ### [Como consultar HTML em Java – Tutorial completo](./how-to-query-html-in-java-complete-tutorial/)
 Aprenda a consultar e extrair dados de documentos HTML em Java usando Aspose.HTML com este tutorial passo a passo.
 ### [Gerar novos documentos HTML usando Aspose.HTML para Java](./generate-new-html-documents/)

@@ -29,9 +29,13 @@ Most váltsunk sebességet, és fedezzük fel, hogyan lehet hatékonyan szerkesz
 ### [Speciális CSS-kiterjesztési technikák az Aspose.HTML for Java segítségével](./advanced-css-extension/)
 Tanulja meg, hogyan használhatja az Aspose.HTML for Java-t fejlett CSS-technikák alkalmazására, beleértve az egyéni oldalmargókat és a dinamikus tartalmat. Részletes, gyakorlati útmutató fejlesztőknek.
 ### [HTML űrlap szerkesztése és benyújtása Aspose.HTML for Java segítségével](./html-form-editing/)
-Ebből az átfogó, lépésenkénti útmutatóból megtudhatja, hogyan szerkeszthet és küldhet be programozott HTML-űrlapokat az Aspose.HTML for Java használatával.
+Ebből az átfogó, lépésről‑lépésre útmutatóból megtudhatja, hogyan szerkeszthet és küldhet be programozott HTML‑űrlapokat az Aspose.HTML for Java használatával.
 ### [Elem kiválasztása osztály alapján Java-ban – Teljes útmutató](./select-element-by-class-in-java-complete-how-to-guide/)
 Ismerje meg, hogyan válassza ki a kívánt elemet osztály alapján Java-ban az Aspose.HTML segítségével.
+### [CSS háttér lekérése Java-ban – Teljes Aspose.HTML útmutató](./get-css-background-in-java-complete-aspose-html-guide/)
+Ismerje meg, hogyan szerezheti meg a CSS háttér értékét Java-ban az Aspose.HTML segítségével, részletes, lépésről‑lépésre útmutató.
+### [CSS használata Java-ban – HTML betöltése, linkek számlálása és XPath kiértékelése](./how-to-use-css-in-java-load-html-count-links-evaluate-xpath/)
+Ismerje meg, hogyan tölthet be HTML-t, számolhatja meg a linkeket és értékelheti ki az XPath kifejezéseket Java-ban az Aspose.HTML segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

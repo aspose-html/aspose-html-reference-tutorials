@@ -32,6 +32,11 @@ Aprenda a usar Aspose.HTML para Java para aplicar técnicas avançadas de CSS, i
 Aprenda a editar e enviar formulários HTML programaticamente usando o Aspose.HTML para Java neste guia passo a passo abrangente.
 ### [Selecionar elemento por classe em Java – Guia completo](./select-element-by-class-in-java-complete-how-to-guide/)
 Aprenda a selecionar elementos por classe em Java com Aspose.HTML neste guia completo e prático.
+### [Obter fundo CSS em Java – Guia completo do Aspose.HTML](./get-css-background-in-java-complete-aspose-html-guide/)
+Aprenda a recuperar e manipular imagens de fundo CSS em Java usando Aspose.HTML neste tutorial completo e prático.
+### [Como usar CSS em Java – Carregar HTML, contar links e avaliar XPath](./how-to-use-css-in-java-load-html-count-links-evaluate-xpath/)
+Aprenda a carregar HTML, contar links e avaliar expressões XPath usando CSS em Java com Aspose.HTML.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

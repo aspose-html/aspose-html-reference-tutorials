@@ -31,7 +31,7 @@ Aspose.HTML para Java ofrece un potente conjunto de herramientas para desarrolla
 
 ## Creación de documentos HTML a partir de cadenas y URL
 
-Imagina que necesitas generar contenido HTML sobre la marcha en función de la entrada del usuario o de los datos recuperados de la web. Ahí es donde la creación de documentos HTML a partir de cadenas o la carga directa de las URL se vuelve invaluable. Aspose.HTML para Java te permite crear documentos HTML sin problemas utilizando cadenas HTML sin formato o cargarlas desde cualquier dirección web. Estos tutoriales te proporcionan las herramientas para generar y manipular contenido web de forma dinámica, lo que hace que tus aplicaciones Java sean más flexibles y responsivas.[Leer más](./create-html-documents-from-string/)
+Imagina que necesitas generar contenido HTML sobre la marcha en función de la entrada del usuario o de los datos recuperados de la web. Ahí es donde la creación de documentos HTML a partir de cadenas o la carga directa de las URL se vuelve invaluable. Aspose.HTML para Java te permite crear documentos HTML sin problemas utilizando cadenas HTML sin formato o cargarlas desde cualquier dirección web. Estos tutoriales le proporcionan las herramientas para generar y manipular contenido web de forma dinámica, lo que hace que sus aplicaciones Java sean más flexibles y responsivas.[Leer más](./create-html-documents-from-string/)
 
 ## Generar nuevos documentos HTML y gestionar la carga avanzada de archivos
 
@@ -58,6 +58,8 @@ Aprenda a cargar documentos HTML desde secuencias de comandos con Aspose.HTML pa
 Aprenda a crear documentos HTML a partir de cadenas en Aspose.HTML para Java con esta guía paso a paso.
 ### [Cargar documentos HTML desde una URL en Aspose.HTML para Java](./load-html-documents-from-url/)
 Descubra cómo cargar fácilmente documentos HTML desde una URL en Java con Aspose.HTML. Incluye tutorial paso a paso.
+### [Cargar JSON con Fetch en Java – Guía completa](./load-json-with-fetch-in-java-complete-guide/)
+Aprenda a cargar datos JSON usando Fetch en Java con esta guía completa paso a paso.
 ### [Cómo consultar HTML en Java – Tutorial completo](./how-to-query-html-in-java-complete-tutorial/)
 Aprenda a consultar documentos HTML en Java usando Aspose.HTML con esta guía paso a paso completa.
 ### [Generar nuevos documentos HTML con Aspose.HTML para Java](./generate-new-html-documents/)
