@@ -59,6 +59,8 @@ Kibontakoztassa az Aspose.HTML-ben rejlő lehetőségeket .NET-hez átfogó útm
 Ismerje meg, hogyan használhatja ki az Aspose.HTML erejét .NET-hez. Fokozza fel webfejlesztését HTML-kezeléssel és -megjelenítéssel.
 ### [Dokumentum létrehozása .NET-ben az Aspose.HTML segítségével](./creating-a-document/)
 Engedje szabadjára az Aspose.HTML erejét .NET-hez. Tanuljon meg könnyedén létrehozni, manipulálni és optimalizálni HTML és SVG dokumentumokat. Fedezze fel a lépésről lépésre példákat és a GYIK-et.
+### [HTML-dokumentum létrehozása .NET-ben az Aspose.HTML segítségével – Teljes útmutató](./create-html-document-with-aspose-html-full-guide/)
+Ismerje meg, hogyan hozhat létre teljes körű HTML-dokumentumot az Aspose.HTML segítségével .NET környezetben.
 ### [Dokumentum szerkesztése .NET-ben az Aspose.HTML segítségével](./editing-a-document/)
 Hozzon létre lenyűgöző webes tartalmat az Aspose.HTML for .NET segítségével. Tanulja meg a HTML, CSS és egyebek kezelését.
 ### [Dokumentum mentése .NET-ben az Aspose.HTML segítségével](./saving-a-document/)
