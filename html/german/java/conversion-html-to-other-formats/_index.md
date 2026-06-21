@@ -89,6 +89,9 @@ Erfahren Sie, wie Sie HTML in Java mit Aspose.HTML zu PDF konvertieren. Erstelle
 ### [HTML zu PDF in Java – Schritt‑für‑Schritt‑Anleitung mit Seitengrößeneinstellungen](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Erfahren Sie, wie Sie HTML in Java zu PDF konvertieren und dabei die Seitengröße präzise festlegen.
 
+### [PDF mit benutzerdefinierter Größe erstellen – HTML zu PDF mit Aspose](./create-pdf-custom-size-convert-html-to-pdf-with-aspose/)
+Erfahren Sie, wie Sie mit Aspose.HTML in Java PDFs mit benutzerdefinierten Seitenmaßen aus HTML erzeugen.
+
 ### [Konvertierung von HTML zu MHTML](./convert-html-to-mhtml/)
 Konvertieren Sie HTML mühelos zu MHTML mit Aspose.HTML für Java. Folgen Sie unserer Schritt‑für‑Schritt‑Anleitung für eine effiziente HTML‑zu‑MHTML‑Konvertierung.
 
@@ -98,6 +101,9 @@ Erfahren Sie, wie Sie HTML mühelos zu XPS mit Aspose.HTML für Java konvertiere
 ### [Konvertierung von Markdown zu HTML](./convert-markdown-to-html/)
 Konvertieren Sie Markdown in Java nahtlos zu HTML mit Aspose.HTML für Java. Folgen Sie unserer Schritt‑für‑Schritt‑Anleitung, um Ihre Dokumentenkonvertierungs‑Bedürfnisse zu optimieren.
 
+### [HTML in Markdown konvertieren in Java – Originalformatierung beibehalten](./convert-html-to-markdown-in-java-preserve-original-formattin/)
+Erfahren Sie, wie Sie HTML mit Aspose.HTML in Java in Markdown umwandeln und dabei die ursprüngliche Formatierung erhalten.
+
 ### [Konvertierung von SVG zu Bild](./convert-svg-to-image/)
 Erfahren Sie, wie Sie SVG in Java mit Aspose.HTML zu Bildern konvertieren. Umfassende Anleitung für hochwertige Ausgaben.
 
@@ -106,6 +112,9 @@ Konvertieren Sie SVG in Java mit Aspose.HTML zu PDF. Eine nahtlose Lösung für 
 
 ### [Konvertierung von SVG zu XPS](./convert-svg-to-xps/)
 Erfahren Sie, wie Sie SVG mit Aspose.HTML für Java zu XPS konvertieren. Einfache, Schritt‑für‑Schritt‑Anleitung für reibungslose Konvertierungen.
+
+### [PDF aus HTML in Java erstellen – Parallel‑Batch‑Konvertierungs‑Leitfaden](./create-pdf-from-html-in-java-parallel-batch-conversion-guide/)
+Erfahren Sie, wie Sie mehrere HTML‑Dateien gleichzeitig in PDFs konvertieren und dabei die Leistung mit paralleler Verarbeitung maximieren.
 
 ## Häufig gestellte Fragen
 
