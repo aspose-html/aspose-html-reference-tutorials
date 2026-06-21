@@ -51,7 +51,7 @@ Aspose.HTML dla .NET wyróżnia się prostotą i mocą. Umożliwia przejęcie pe
 ## Samouczki dotyczące manipulacji dokumentami HTML
 ### [Asynchroniczne ładowanie dokumentów HTML w .NET za pomocą Aspose.HTML](./load-html-doc-asynchronously/)
 Dowiedz się, jak używać Aspose.HTML dla .NET do pracy z dokumentami HTML. Przewodnik krok po kroku z przykładami i FAQ dla programistów.
-### [Ładowanie dokumentów HTML z poświadczeniami w .NET za pomocą Aspose.HTML](./load-html-doc-with-credentials/)
+### [Ładowanie dokumentów HTML z poświadczeniami w .NET za pomocą Aspose.HTML](./load-html-with-credentials/)
 Dowiedz się, jak zwiększyć wydajność SEO dzięki Aspose.HTML dla .NET. Zwiększaj rankingi, analizuj zawartość internetową i optymalizuj ją pod kątem wyszukiwarek.
 ### [Ładowanie HTML za pomocą zdalnego serwera w .NET z Aspose.HTML](./load-html-using-remote-server/)
 Odkryj potencjał Aspose.HTML dla .NET dzięki naszemu kompleksowemu przewodnikowi. Dowiedz się, jak importować przestrzenie nazw, uzyskiwać dostęp do zdalnych dokumentów HTML i nie tylko.
@@ -71,6 +71,8 @@ Naucz się korzystać z Aspose.HTML dla .NET. Importuj przestrzenie nazw, scalaj
 Odblokuj potencjał rozwoju sieci z Aspose.HTML dla .NET. Twórz, konwertuj i manipuluj dokumentami HTML w prosty sposób.
 ### [Tworzenie HTML z ciągu w C# – Przewodnik po niestandardowym obsługiwaniu zasobów](./create-html-from-string-in-c-custom-resource-handler-guide/)
 Dowiedz się, jak generować dokumenty HTML z łańcucha znaków w C# przy użyciu niestandardowego obsługiwacza zasobów w Aspose.HTML.
+### [Ustawienie innerHTML elementu span w C# przy użyciu Aspose.HTML – Kompletny przewodnik](./set-span-innerhtml-in-c-with-aspose-html-complete-guide/)
+Dowiedz się, jak w C# ustawić innerHTML elementu span przy użyciu Aspose.HTML – kompletny przewodnik krok po kroku.
 
 ## Wniosek
 
