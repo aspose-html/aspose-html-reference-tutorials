@@ -38,6 +38,8 @@ Ora, portiamo le tue competenze al livello successivo. La modifica di documenti 
 
 ### [Come salvare HTML in C# – Guida completa con un gestore di risorse personalizzato](./how-to-save-html-in-c-complete-guide-using-a-custom-resource/)
 ### [Come rendere grassetto un'intestazione con CSS e C# – Guida completa passo‑passo](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
+### [Carica documento HTML con Aspose.HTML – Guida completa C#](./load-html-document-with-aspose-html-complete-c-guide/)
+### [Come comprimere HTML in C# – Guida completa passo‑passo](./how-to-zip-html-in-c-complete-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
