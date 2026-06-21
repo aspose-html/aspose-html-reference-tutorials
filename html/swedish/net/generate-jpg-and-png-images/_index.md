@@ -41,6 +41,8 @@ Att integrera Aspose.HTML för .NET i dina .NET-projekt är problemfritt. Biblio
 Lär dig hur du skapar dynamiska webbsidor med Aspose.HTML för .NET. Denna steg-för-steg handledning täcker förutsättningar, namnutrymmen och återgivning av HTML till bilder.
 ### [Generera PNG-bilder av ImageDevice i .NET med Aspose.HTML](./generate-png-images-by-imagedevice/)
 Lär dig att använda Aspose.HTML för .NET för att manipulera HTML-dokument, konvertera HTML till bilder och mer. Steg-för-steg handledning med vanliga frågor.
+### [Skapa PNG från HTML i C# – Steg‑för‑steg‑guide](./create-png-from-html-in-c-step-by-step-guide/)
+Lär dig hur du konverterar HTML till PNG-bilder i C# med en tydlig steg‑för‑steg‑guide.
 ### [Hur man aktiverar kantutjämning vid konvertering av DOCX till PNG/JPG](./how-to-enable-antialiasing-when-converting-docx-to-png-jpg/)
 Lär dig hur du aktiverar kantutjämning för att förbättra bildkvaliteten när du konverterar DOCX-dokument till PNG eller JPG med Aspose.HTML.
 ### [Konvertera DOCX till PNG – skapa zip‑arkiv C#‑handledning](./convert-docx-to-png-create-zip-archive-c-tutorial/)
