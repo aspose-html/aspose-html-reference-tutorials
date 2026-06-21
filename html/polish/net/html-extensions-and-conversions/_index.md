@@ -73,6 +73,10 @@ Dowiedz się, jak stworzyć dokument HTML z formatowanym tekstem i wyeksportowa�
 Zapisz dokument HTML jako archiwum ZIP w C# przy użyciu Aspose.HTML – kompletny przewodnik krok po kroku.
 ### [Zapisz HTML do ZIP w C# – Kompletny przykład w pamięci](./save-html-to-zip-in-c-complete-in-memory-example/)
 Zapisz dokument HTML do archiwum ZIP w pamięci przy użyciu Aspose.HTML w C#.
+### [Niestandardowy handler zasobów – konwertuj stronę internetową do ZIP w C#](./custom-resource-handler-convert-webpage-to-zip-in-c/)
+Dowiedz się, jak przy użyciu Aspose.HTML w C# spakować stronę internetową do pliku ZIP, korzystając z niestandardowego handlera zasobów.
+### [Zapisz HTML do ZIP w C# – Kompletny przewodnik](./save-html-to-zip-with-c-complete-guide/)
+Dowiedz się, jak zapisać dokument HTML jako archiwum ZIP w C# przy użyciu Aspose.HTML – kompletny przewodnik krok po kroku.
 
 ## Wniosek
 
