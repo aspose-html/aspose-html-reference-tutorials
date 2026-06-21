@@ -67,12 +67,12 @@ Naučte se převádět HTML na TIFF pomocí Aspose.HTML pro .NET. Postupujte pod
 Objevte sílu Aspose.HTML pro .NET: Převeďte HTML na XPS bez námahy. Součástí jsou předpoklady, podrobný průvodce a často kladené otázky.
 ### [Jak zkomprimovat HTML v C# – Uložit HTML do ZIP](./how-to-zip-html-in-c-save-html-to-zip/)
 Naučte se, jak pomocí Aspose.HTML pro .NET zabalit HTML soubor do ZIP archivu v C#.
-### [Vytvořte HTML dokument se stylovaným textem a exportujte do PDF – Kompletní průvodce](./create-html-document-with-styled-text-and-export-to-pdf-full/)
-Naučte se vytvořit HTML dokument se stylovaným textem a převést jej do PDF pomocí Aspose.HTML pro .NET.
 ### [Uložte HTML jako ZIP – Kompletní C# tutoriál](./save-html-as-zip-complete-c-tutorial/)
 Naučte se, jak uložit HTML soubor jako ZIP archiv pomocí Aspose.HTML pro .NET v kompletním C# tutoriálu.
 ### [Uložte HTML do ZIP v C# – Kompletní příklad v paměti](./save-html-to-zip-in-c-complete-in-memory-example/)
 Naučte se, jak uložit HTML soubor do ZIP archivu v paměti pomocí Aspose.HTML pro .NET v C#.
+### [Vlastní obslužná rutina zdrojů v C# – Převod HTML do ZIP tutoriál](./custom-resource-handler-in-c-convert-html-to-zip-tutorial/)
+Naučte se pomocí Aspose.HTML v C# vytvořit vlastní handler pro zdroje a převést HTML soubory do ZIP archivu.
 
 ## Závěr
 
