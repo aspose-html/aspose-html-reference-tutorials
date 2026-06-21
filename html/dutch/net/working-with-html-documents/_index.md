@@ -37,9 +37,14 @@ Zodra u de basis onder de knie hebt, gaan we dieper in op het creatieproces. In 
 Laten we nu uw vaardigheden naar een hoger niveau tillen. Het bewerken van HTML-documenten is een veelvoorkomende taak voor webontwikkelaars, en Aspose.HTML vereenvoudigt dit proces aanzienlijk. In deze sectie behandelen we het maken, manipuleren en stylen van documenten. U ontdekt hoe u het uiterlijk en de functionaliteit van uw webcontent kunt verbeteren, waardoor deze aantrekkelijk en gebruiksvriendelijk wordt.
 
 ### [HTML opslaan in C# – Complete gids met een aangepaste resourcehandler](./how-to-save-html-in-c-complete-guide-using-a-custom-resource/)
+
 ### [Koptekst vet maken met CSS & C# – Complete stapsgewijze handleiding](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
 
 Leer hoe u met CSS en C# kopteksten vet maakt in een .NET‑applicatie, stap voor stap met voorbeeldcode.
+
+### [HTML opslaan als ZIP in C# – Complete gids met aangepaste resourcehandler](./save-html-as-zip-in-c-complete-guide-with-custom-resource-ha/)
+
+Leer hoe u HTML-bestanden opslaat als ZIP‑archief in C# met een aangepaste resourcehandler.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
