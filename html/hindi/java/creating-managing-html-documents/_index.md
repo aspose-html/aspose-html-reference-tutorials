@@ -65,7 +65,10 @@ SVG दस्तावेज़ बनाना और प्रबंधित 
 ### [Java में HTML के लिए सैंडबॉक्स बनाएं – चरण‑दर‑चरण गाइड](./create-sandbox-for-html-in-java-step-by-step-guide/)
 Java में HTML सैंडबॉक्स बनाने की प्रक्रिया सीखें, सुरक्षित परीक्षण और विकास के लिए चरण‑दर‑चरण मार्गदर्शिका।
 ### [Java में HTML क्वेरी कैसे करें – पूर्ण ट्यूटोरियल](./how-to-query-html-in-java-complete-tutorial/)
-Java में Aspose.HTML का उपयोग करके HTML क्वेरी करने के चरण‑दर‑चरण मार्गदर्शिका, टिप्स और सर्वोत्तम प्रथाएँ।
+Java में Aspose.HTML का उपयोग करके HTML क्वेरी करने की चरण‑दर‑चरण मार्गदर्शिका, टिप्स और सर्वोत्तम प्रथाएँ।
+### [Java के लिए Aspose.HTML में एंबेडेड JavaScript के साथ HTML दस्तावेज़ बनाएं](./create-html-document-with-embedded-javascript-java-example/)
+### [Aspose.HTML का उपयोग करके क्लास java के साथ div बनाएं – पूर्ण उदाहरण](./create-div-with-class-java-full-example-using-aspose-html/)
+Aspose.HTML for Java में क्लास java वाले div को बनाने की पूरी प्रक्रिया सीखें, कोड उदाहरण और चरण‑दर‑चरण मार्गदर्शिका।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

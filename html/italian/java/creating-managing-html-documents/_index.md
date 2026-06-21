@@ -64,8 +64,12 @@ Scopri come creare nuovi documenti HTML usando Aspose.HTML per Java con questa s
 Impara a gestire gli eventi di caricamento dei documenti in Aspose.HTML per Java con questa guida passo-passo. Migliora le tue applicazioni web.
 ### [Crea e gestisci documenti SVG in Aspose.HTML per Java](./create-manage-svg-documents/)
 Impara a creare e gestire documenti SVG usando Aspose.HTML per Java! Questa guida completa copre tutto, dalla creazione di base alla manipolazione avanzata.
+### [Crea documento HTML con JavaScript incorporato – Esempio Java](./create-html-document-with-embedded-javascript-java-example/)
+Scopri come creare un documento HTML con JavaScript incorporato in Java usando Aspose.HTML, con esempi passo‑passo.
 ### [Come interrogare HTML in Java – Tutorial completo](./how-to-query-html-in-java-complete-tutorial/)
 Impara a eseguire query su documenti HTML in Java usando Aspose.HTML con questa guida passo‑passo completa.
+### [Crea div con classe java – Esempio completo con Aspose.HTML](./create-div-with-class-java-full-example-using-aspose-html/)
+Scopri come creare un elemento div con classe Java usando Aspose.HTML in un esempio completo passo‑passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

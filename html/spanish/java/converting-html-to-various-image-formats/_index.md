@@ -20,7 +20,7 @@ url: /es/java/converting-html-to-various-image-formats/
 
 Cuando se trata de convertir HTML a BMP, Aspose.HTML para Java lo tiene cubierto. Con este tutorial paso a paso, no solo aprenderá cómo realizar esta tarea, sino que también descubrirá los requisitos previos y las importaciones de paquetes que necesita para comenzar.
 
-Imagina convertir tus documentos HTML en imágenes BMP de alta calidad con tan solo unos sencillos pasos. Es una función potente y práctica que puede añadir una dimensión visual a tu contenido web.
+Imagina convertir tus documentos HTML en imágenes BMP de alta calidad con tan solo unos sencillos pasos. Es una función potente y práctica que puede añadir una dimensión visual a su contenido web.
 
 ## Convertir HTML a GIF
 
@@ -49,6 +49,8 @@ Convierte HTML a GIF sin esfuerzo con Aspose.HTML para Java. Crea imágenes impr
 Aprenda a convertir HTML a JPG con Aspose.HTML para Java. Siga nuestra guía paso a paso para realizar una conversión de HTML a JPG sin inconvenientes.
 ### [Conversión de HTML a PNG](./convert-html-to-png/)
 Convierte HTML a PNG con Aspose.HTML para Java. Sigue nuestra guía paso a paso para realizar una conversión de HTML a PNG de forma sencilla. ¡Comienza hoy mismo!
+### [Tutorial de HTML a imagen – Convertir archivos HTML a PNG y JPEG con Java](./html-to-image-tutorial-convert-html-files-to-png-jpeg-with-j/)
+Aprenda a convertir archivos HTML a imágenes PNG y JPEG usando Aspose.HTML para Java en simples pasos.
 
 En conclusión, Aspose.HTML para Java ofrece una variedad de opciones para convertir su contenido HTML en varios formatos de imagen. Ya sea que necesite BMP, GIF, JPG o PNG, estos tutoriales le brindan el conocimiento y las herramientas para hacerlo sin esfuerzo. Transforme su contenido web y hágalo visualmente atractivo con estas sencillas guías paso a paso. Comience hoy mismo y explore las infinitas posibilidades de conversión de HTML a imágenes. ¡Es hora de llevar su contenido web al siguiente nivel!
 {{< /blocks/products/pf/tutorial-page-section >}}

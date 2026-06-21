@@ -54,6 +54,8 @@ Découvrez comment charger, manipuler et enregistrer des documents HTML à l'aid
 Découvrez comment charger des documents HTML à partir de flux à l'aide d'Aspose.HTML pour Java. Ce guide fournit un didacticiel étape par étape pour une manipulation HTML transparente.
 ### [Créer des documents HTML à partir d'une chaîne dans Aspose.HTML pour Java](./create-html-documents-from-string/)
 Apprenez à créer des documents HTML à partir de chaînes dans Aspose.HTML pour Java avec ce guide étape par étape.
+### [Créer un document HTML avec JavaScript intégré – Exemple Java](./create-html-document-with-embedded-javascript-java-example/)
+Apprenez à créer un document HTML contenant du JavaScript intégré en Java avec Aspose.HTML. Guide pas à pas.
 ### [Charger des documents HTML à partir d'une URL dans Aspose.HTML pour Java](./load-html-documents-from-url/)
 Découvrez comment charger facilement des documents HTML à partir d'une URL en Java avec Aspose.HTML. Tutoriel étape par étape inclus.
 ### [Générer de nouveaux documents HTML à l'aide d'Aspose.HTML pour Java](./generate-new-html-documents/)
@@ -66,6 +68,8 @@ Apprenez à créer et à gérer des documents SVG à l'aide d'Aspose.HTML pour J
 Apprenez à créer un environnement sécurisé pour manipuler du HTML en Java avec Aspose.HTML, guide complet pas à pas.
 ### [Comment interroger le HTML en Java – Tutoriel complet](./how-to-query-html-in-java-complete-tutorial/)
 Apprenez à interroger et extraire des données HTML en Java avec Aspose.HTML grâce à ce guide complet étape par étape.
+### [Créer une div avec classe java – Exemple complet utilisant Aspose.HTML](./create-div-with-class-java-full-example-using-aspose-html/)
+Apprenez à créer une balise div avec une classe en Java en utilisant Aspose.HTML, exemple complet pas à pas.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
