@@ -127,7 +127,11 @@ Lär dig hur du justerar PDF‑sidstorlek med Aspose.HTML för Java. Skapa högk
 ### [Justera XPS‑sidstorlek med Aspose.HTML för Java](./adjust-xps-page-size/)
 Lär dig hur du justerar XPS‑sidstorlek med Aspose.HTML för Java. Kontrollera utmatningsdimensionerna för dina XPS‑dokument enkelt.
 ### [Hur man kör JavaScript i Java – Komplett guide](./how-to-run-javascript-in-java-complete-guide/)
-Lär dig hur du exekverar JavaScript-kod i Java-applikationer med Aspose.HTML, inklusive konfiguration och exempel.
+Lär dig hur du exekverar JavaScript‑kod i Java‑applikationer med Aspose.HTML, inklusive konfiguration och exempel.
+### [Hur man kör JavaScript asynkront med CompletableFuture](./how-to-run-javascript-asynchronously-using-completablefuture/)
+Lär dig hur du exekverar JavaScript‑kod asynkront i Java‑applikationer med CompletableFuture och Aspose.HTML.
+### [Hur du laddar HTML, anger enhetens DPI och läser bakgrundsfärg](./how-to-load-html-set-device-dpi-read-background-color/)
+Lär dig hur du laddar ett HTML‑dokument, ställer in DPI för enheten och läser bakgrundsfärgen med Aspose.HTML för Java.
 
 ---
 

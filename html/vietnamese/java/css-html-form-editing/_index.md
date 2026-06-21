@@ -32,6 +32,8 @@ Tìm hiểu cách sử dụng Aspose.HTML cho Java để áp dụng các kỹ th
 Tìm hiểu cách chỉnh sửa và gửi biểu mẫu HTML theo chương trình bằng Aspose.HTML cho Java trong hướng dẫn từng bước toàn diện này.
 ### [Chọn phần tử theo lớp trong Java – Hướng dẫn đầy đủ](./select-element-by-class-in-java-complete-how-to-guide/)
 Hướng dẫn chi tiết cách chọn phần tử HTML bằng class trong Java sử dụng Aspose.HTML.
+### [Cách truy vấn HTML trong Java – Chọn phần tử, lọc theo thuộc tính và lấy nội dung văn bản](./how-to-query-html-in-java-select-elements-filter-by-attribut/)
+Hướng dẫn chi tiết cách truy vấn HTML trong Java, chọn phần tử, lọc theo thuộc tính và lấy nội dung văn bản bằng Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

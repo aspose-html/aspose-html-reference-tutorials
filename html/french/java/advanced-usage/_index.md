@@ -21,7 +21,7 @@ Dans le développement web moderne, affiner l’apparence de votre sortie HTML p
 ## Réponses rapides
 - **Comment ajouter des numéros de page à un document HTML ?** Utilisez l’API `PageSetup` pour définir un pied de page qui insère le texte de remplacement du numéro de page.  
 - **Puis‑je générer un PDF à partir de HTML avec des marges personnalisées ?** Oui – combinez `HtmlLoadOptions` avec `PdfSaveOptions` et définissez les marges souhaitées.  
-- **Quelle méthode permet de surveiller les changements du DOM ?** Implémentez un `DomMutationObserver` et abonnez‑vous aux événements d’ajout de nœuds.  
+- **Quelle méthode permet de surveiller les changements du DOM ?** Implémentez un `DomMutationObserver` et abonne‑vous aux événements d’ajout de nœuds.  
 - **Est‑il possible de convertir du HTML en XPS tout en contrôlant la taille de la page ?** Absolument ; le `XpsSaveOptions` vous permet de spécifier des dimensions exactes.  
 - **Ai‑je besoin d’une licence pour une utilisation en production ?** Une licence commerciale Aspose.HTML for Java est requise pour les déploiements non‑essai.
 
@@ -114,20 +114,33 @@ R : Non. Une licence unique Aspose.HTML for Java couvre tous les formats de so
 ## Utilisation avancée des tutoriels Aspose.HTML Java
 ### [Personnaliser les marges de page HTML avec Aspose.HTML](./css-extensions-adding-title-page-number/)
 Apprenez à personnaliser les marges de page, ajouter des numéros de page et des titres aux documents HTML à l’aide d’Aspose.HTML for Java.  
+
 ### [Observateur de mutation du DOM avec Aspose.HTML for Java](./dom-mutation-observer-observing-node-additions/)
 Apprenez à utiliser Aspose.HTML for Java pour implémenter un observateur de mutation du DOM dans ce guide étape par étape. Surveillez et réagissez efficacement aux changements du DOM.  
+
 ### [Manipulation du Canvas HTML5 avec Aspose.HTML for Java](./html5-canvas-manipulation-using-code/)
 Apprenez la manipulation du Canvas HTML5 en utilisant Aspose.HTML for Java. Créez des graphiques interactifs avec un accompagnement détaillé.  
+
 ### [Manipulation du Canvas HTML5 avec Aspose.HTML for Java](./html5-canvas-manipulation-using-javascript/)
 Apprenez à manipuler le Canvas HTML5 avec JavaScript en utilisant Aspose.HTML for Java. Créez des graphiques dynamiques et convertissez-les en PDF.  
+
 ### [Automatiser le remplissage de formulaires HTML avec Aspose.HTML for Java](./html-form-editor-filling-submitting-forms/)
 Apprenez à automatiser le remplissage et la soumission de formulaires HTML avec Aspose.HTML for Java. Simplifiez l’interaction web grâce à ce tutoriel.  
+
 ### [Ajuster la taille de page PDF avec Aspose.HTML for Java](./adjust-pdf-page-size/)
 Apprenez à ajuster la taille de page PDF avec Aspose.HTML for Java. Créez des PDF de haute qualité à partir de HTML sans effort. Contrôlez efficacement les dimensions des pages.  
+
 ### [Ajuster la taille de page XPS avec Aspose.HTML for Java](./adjust-xps-page-size/)
 Apprenez à ajuster la taille de page XPS avec Aspose.HTML for Java. Contrôlez facilement les dimensions de sortie de vos documents XPS.  
+
 ### [Comment exécuter du JavaScript en Java – Guide complet](./how-to-run-javascript-in-java-complete-guide/)
 Apprenez à exécuter du code JavaScript depuis Java en utilisant Aspose.HTML, avec des exemples complets et des meilleures pratiques.  
+
+### [Comment exécuter du JavaScript de manière asynchrone avec CompletableFuture](./how-to-run-javascript-asynchronously-using-completablefuture/)
+Apprenez à exécuter du JavaScript de façon asynchrone depuis Java en utilisant CompletableFuture pour améliorer les performances.  
+
+### [Comment charger du HTML, définir le DPI de l'appareil et lire la couleur d'arrière-plan](./how-to-load-html-set-device-dpi-read-background-color/)
+Apprenez à charger du HTML, définir le DPI de l'appareil et lire la couleur d'arrière-plan avec Aspose.HTML for Java.  
 
 ---
 
