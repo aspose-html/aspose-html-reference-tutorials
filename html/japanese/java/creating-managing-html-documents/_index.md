@@ -66,6 +66,8 @@ Aspose.HTML for Java を使用して SVG ドキュメントを作成および管
 Java アプリで HTML のサンドボックス環境を構築し、安全にテストする方法をステップバイステップで学びます。
 ### [Java で HTML をクエリする方法 – 完全チュートリアル](./how-to-query-html-in-java-complete-tutorial/)
 Java で HTML を検索・抽出する方法をステップバイステップで解説します。XPath や CSS セレクタの活用例を含む完全ガイドです。
+### [MHTML から HTML を抽出する – 完全 Java ガイド](./extract-html-from-mhtml-complete-java-guide/)
+Aspose.HTML for Java を使用して MHTML ファイルから HTML コンテンツを抽出し、解析や再利用ができる手順をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

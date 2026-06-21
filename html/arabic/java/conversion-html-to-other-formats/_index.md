@@ -86,6 +86,8 @@ XPS هو صيغة الطباعة الخاصة بمايكروسوفت. باستخ
 تعلم كيفية تحويل HTML إلى PDF في Java باستخدام Aspose.HTML. أنشئ ملفات PDF عالية الجودة من محتوى HTML بسهولة.
 ### [تحويل HTML إلى MHTML](./convert-html-to-mhtml/)
 حوّل HTML إلى MHTML بسهولة باستخدام Aspose.HTML for Java. اتبع دليلنا خطوة بخطوة لتحويل HTML إلى MHTML بكفاءة.
+### [إنشاء ملف MHTML من HTML – دليل Java كامل](./create-mhtml-file-from-html-complete-java-guide/)
+تعلم كيفية إنشاء ملف MHTML من HTML في Java باستخدام Aspose.HTML خطوة بخطوة وبجودة عالية.
 ### [تحويل HTML إلى XPS](./convert-html-to-xps/)
 تعلم كيفية تحويل HTML إلى XPS بسهولة باستخدام Aspose.HTML for Java. أنشئ مستندات متعددة المنصات بسهولة.
 ### [تحويل Markdown إلى HTML](./convert-markdown-to-html/)
@@ -98,6 +100,14 @@ XPS هو صيغة الطباعة الخاصة بمايكروسوفت. باستخ
 تعلم كيفية تحويل SVG إلى XPS باستخدام Aspose.HTML for Java. دليل بسيط خطوة بخطوة لتحويلات سلسة.
 ### [تحويل HTML إلى PDF في Java – دليل خطوة بخطوة مع إعدادات حجم الصفحة](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 تعلم تحويل HTML إلى PDF في Java مع إعدادات حجم الصفحة خطوة بخطوة باستخدام Aspose.HTML.
+### [إنشاء Markdown من HTML باستخدام Aspose.HTML – دليل Java كامل](./create-markdown-from-html-with-aspose-html-complete-java-gui/)
+تعلم كيفية تحويل HTML إلى مستندات Markdown في Java باستخدام Aspose.HTML خطوة بخطوة مع أمثلة عملية.
+### [Aspose HTML إلى PDF في Java – دليل سريع خطوة بخطوة](./aspose-html-to-pdf-in-java-quick-step-by-step-guide/)
+### [إنشاء EPUB من HTML – دليل Java كامل لإنشاء وحفظ الكتب الإلكترونية](./create-epub-from-html-full-java-guide-to-build-and-save-eboo/)
+### [تحويل HTML إلى PDF باستخدام Java ExecutorService – دليل كامل](./convert-html-to-pdf-with-java-executorservice-complete-guide/)
+تعلم كيفية تحويل HTML إلى PDF في Java باستخدام ExecutorService لإدارة التحويلات المتعددة بكفاءة.
+### [java html إلى pdf – تحويل HTML إلى PDF/A‑2b باستخدام Aspose](./java-html-to-pdf-convert-html-to-pdf-a-2b-with-aspose/)
+تعلم كيفية تحويل HTML إلى PDF/A‑2b في Java باستخدام Aspose.HTML لضمان توافق الأرشفة ومعايير الجودة.
 
 ## الأسئلة المتكررة
 

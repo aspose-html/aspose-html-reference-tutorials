@@ -56,6 +56,8 @@ Lär dig hur du laddar HTML-dokument från strömmar med Aspose.HTML för Java. 
 Lär dig hur du skapar HTML-dokument från strängar i Aspose.HTML för Java med denna steg-för-steg-guide.
 ### [Ladda HTML-dokument från URL i Aspose.HTML för Java](./load-html-documents-from-url/)
 Upptäck hur du enkelt laddar HTML-dokument från en URL i Java med Aspose.HTML. Steg-för-steg handledning ingår.
+### [Extrahera HTML från MHTML – Komplett Java-guide](./extract-html-from-mhtml-complete-java-guide/)
+Lär dig hur du extraherar HTML‑innehåll från MHTML‑filer i Java med Aspose.HTML. En komplett steg‑för‑steg‑guide.
 ### [Hur du frågar HTML i Java – Komplett handledning](./how-to-query-html-in-java-complete-tutorial/)
 Lär dig hur du söker och extraherar data från HTML-dokument i Java med en komplett steg-för-steg-guide.
 ### [Generera nya HTML-dokument med Aspose.HTML för Java](./generate-new-html-documents/)

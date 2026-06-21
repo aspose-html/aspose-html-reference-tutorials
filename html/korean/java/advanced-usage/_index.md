@@ -127,6 +127,8 @@ Aspose.HTML for Java를 사용해 PDF 페이지 크기를 조정하는 방법을
 Aspose.HTML for Java를 사용해 XPS 페이지 크기를 조정하는 방법을 배웁니다. XPS 문서의 출력 치기를 손쉽게 제어합니다.
 ### [Java에서 JavaScript 실행하기 – 완전 가이드](./how-to-run-javascript-in-java-complete-guide/)
 Java 애플리케이션 내에서 JavaScript 코드를 실행하고, 엔진 설정 및 스크립트 통합 방법을 단계별로 배웁니다.
+### [Java에서 JavaScript 실행 – 본문에 요소 추가하는 완전 가이드](./execute-javascript-in-java-complete-guide-to-appending-eleme/)
+Java 애플리케이션에서 JavaScript를 실행하고, body에 요소를 동적으로 추가하는 방법을 단계별로 안내합니다.
 
 ---
 
