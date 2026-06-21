@@ -1,12 +1,11 @@
 ---
-date: 2025-12-30
-description: 'Aprende cómo establecer un tamaño de página personalizado y usar opciones
-  de guardado de imagen para convertir EPUB a imagen con Aspose.HTML para Java. #JavaDevelopment
+date: 2026-03-24
+description: 'Aprende a establecer el color de fondo de la imagen, el tamaño de página
+  personalizado y convertir EPUB a imagen usando Aspose.HTML para Java. #JavaDevelopment
   #WebDevelopment #DocumentConversion'
 linktitle: Specifying Image Save Options for EPUB to Image Conversion
 second_title: Java HTML Processing with Aspose.HTML
-title: Tamaño de página personalizado – Especificar opciones de guardado de imagen
-  para la conversión de EPUB a imagen
+title: Establecer el color de fondo de la imagen para la conversión de EPUB a imagen
 url: /es/java/converting-epub-to-pdf/convert-epub-to-image-specify-image-save-options/
 weight: 16
 ---
@@ -15,40 +14,39 @@ weight: 16
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Especificando Opciones de Guardado de Imagen para la Conversión de EPUB a Imagen
+# Establecer el color de fondo de la imagen para la conversión de EPUB a imagen
 
-En el mundo del desarrollo web y la manipulación de documentos, Aspose.HTML for Java se destaca como una herramienta poderosa. **Establecer un tamaño de página personalizado** le brinda un control preciso sobre las dimensiones de la imagen de salida, lo cual es especialmente útil cuando necesita coincidir con requisitos de diseño específicos. En esta guía completa, recorreremos cómo configurar las opciones de guardado de imagen —incluyendo tamaño de página personalizado y color de fondo— para convertir un archivo EPUB a un formato de imagen.
+En los flujos de trabajo modernos de web y documentos, **Aspose.HTML for Java** te brinda la capacidad de convertir libros electrónicos como EPUB en imágenes raster mientras mantienes un control total sobre la salida visual. Al usar la opción **set image background color** junto con un **custom page size**, puedes producir imágenes que coincidan perfectamente con componentes de UI, diseños de impresión o cualquier requisito de procesamiento posterior. En esta guía recorreremos todo el proceso —desde los requisitos previos hasta la conversión final— para que puedas **convert EPUB to image** con confianza.
 
-## Respuestas Rápidas
-- **¿Qué afecta el “tamaño de página personalizado”?** Define el ancho y la altura de la imagen generada en píxeles.  
-- **¿A qué formato puedo convertir EPUB?** Cualquier formato de imagen compatible con `ImageSaveOptions`, como JPEG, PNG o BMP.  
-- **¿Cómo establezco un color de fondo?** Use `options.setBackgroundColor(Color.getAliceBlue())` (o cualquier otro `Color`).  
-- **¿Necesito una licencia para desarrollo?** Una prueba gratuita sirve para evaluación; se requiere una licencia comercial para producción.  
-- **¿Qué versión de Java se requiere?** Java 8 o superior con la biblioteca Aspose.HTML for Java.
+## Quick Answers
+- **What does “custom page size” affect?** It defines the width and height of the generated image in pixels.  
+- **Which format can I convert EPUB to?** Any image format supported by `ImageSaveOptions`, such as JPEG, PNG, or BMP.  
+- **How do I set an image background color?** Use `options.setBackgroundColor(Color.getAliceBlue())` (or any other `Color`).  
+- **Do I need a license for development?** A free trial works for evaluation; a commercial license is required for production.  
+- **What Java version is required?** Java 8 or higher with the Aspose.HTML for Java library.
 
-## ¿Qué es un Tamaño de Página Personalizado?
-Un **tamaño de página personalizado** determina las dimensiones exactas en píxeles de la página renderizada antes de guardarse como una imagen. Al especificar un tamaño personalizado, evita las dimensiones predeterminadas y puede adaptar la salida para que encaje en componentes de UI, especificaciones de impresión o cualquier otro requisito posterior.
+## What is “set image background color”?
+Setting the image background color tells the rendering engine which color to fill the canvas before drawing the page content. This is especially useful when the source EPUB contains transparent elements or when you want a uniform backdrop for all pages.
 
-## ¿Por Qué Usar Opciones de Guardado de Imagen?
-`ImageSaveOptions` le permite afinar el proceso de conversión: elegir el formato de imagen, establecer un tamaño de página personalizado, aplicar un color de fondo y controlar otros parámetros de renderizado. Esta flexibilidad garantiza que la imagen resultante cumpla con las expectativas visuales y técnicas.
+## How to set image background color and custom page size in Java?
+Below we break down the steps you need to follow. Each step includes a short explanation followed by the exact code snippet you’ll use (the code itself remains unchanged from the original tutorial).
 
-## Requisitos Previos
+### Prerequisites
+Before you start, make sure you have:
 
-Antes de sumergirse en el código, asegúrese de contar con:
+1. **Java Development Environment** – JDK 8 or newer installed.  
+2. **Aspose.HTML for Java** – Download the library from the official site [here](https://releases.aspose.com/html/java/).  
+3. **A Code Editor** – IntelliJ IDEA, Eclipse, VS Code, or any IDE you prefer.  
+4. **Basic Java Knowledge** – Familiarity with Java syntax and project setup.  
+5. **Enthusiasm** – Ready to explore custom page size and other image save options.
 
-1. **Entorno de Desarrollo Java** – JDK 8 o más reciente instalado.  
-2. **Aspose.HTML for Java** – Descargue la biblioteca desde el sitio oficial [aquí](https://releases.aspose.com/html/java/).  
-3. **Un Editor de Código** – IntelliJ IDEA, Eclipse, VS Code, o cualquier IDE que prefiera.  
-4. **Conocimientos Básicos de Java** – Familiaridad con la sintaxis de Java y la configuración de proyectos.  
-5. **Entusiasmo** – Listo para explorar el tamaño de página personalizado y otras opciones de guardado de imagen.
+Now that you're ready, let’s move on to the implementation.
 
-Ahora que está listo, pasemos a la implementación.
+## Import Packages
 
-## Importar Paquetes
+First, import the classes required for rendering and conversion.
 
-Primero, importe las clases necesarias para el renderizado y la conversión.
-
-### Paso 1: Importar Clases de Aspose.HTML
+### Step 1: Import Aspose.HTML Classes
 
 ```java
 import com.aspose.html.saving.ImageSaveOptions;
@@ -60,21 +58,21 @@ import com.aspose.html.drawing.Color;
 import com.aspose.html.converters.Converter;
 ```
 
-Estas importaciones le dan acceso a `ImageSaveOptions`, objetos de diseño de página y la utilidad `Converter`.
+These imports give you access to `ImageSaveOptions`, page layout objects, and the `Converter` utility.
 
-## Desglose del Ejemplo: Convertir EPUB a Imagen
+## Example Breakdown: Converting EPUB to Image
 
-A continuación se muestra una guía paso a paso para convertir un archivo EPUB aplicando un **tamaño de página personalizado** y un color de fondo.
+Below is a step‑by‑step walkthrough of **how to convert EPUB** while applying a **custom page size** and a **set image background color** option.
 
-### Paso 2: Abrir el Archivo EPUB
+### Step 2: Open the EPUB File
 
 ```java
 try (java.io.FileInputStream fileInputStream = new java.io.FileInputStream(Resources.input("input.epub"))) {
 ```
 
-El `FileInputStream` lee el EPUB de origen. Reemplace `"input.epub"` con la ruta a su propio archivo.
+The `FileInputStream` reads the source EPUB. Replace `"input.epub"` with the path to your own file.
 
-### Paso 3: Inicializar ImageSaveOptions con Tamaño de Página Personalizado
+### Step 3: Initialize ImageSaveOptions with Custom Page Size
 
 ```java
 ImageSaveOptions options = new ImageSaveOptions(ImageFormat.Jpeg);
@@ -87,73 +85,76 @@ options.setPageSetup(pageSetup);
 options.setBackgroundColor(Color.getAliceBlue());
 ```
 
-- **Tamaño de Página Personalizado**: `Size` se crea con un ancho de 3000 px y una altura de 1000 px. Ajuste estos valores para satisfacer sus necesidades de diseño.  
-- **Color de Fondo**: `Color.getAliceBlue()` establece un fondo azul claro; puede elegir cualquier `Color` que desee.
+- **Custom Page Size**: `Size` is created with a width of 3000 px and a height of 1000 px. Adjust these values to meet your layout needs.  
+- **Set Image Background Color**: `Color.getAliceBlue()` fills the canvas with a light‑blue background; you can replace it with any `Color` you prefer, such as `Color.getTransparent()` for PNG transparency.  
 
-### Paso 4: Convertir EPUB a Imagen
+### Step 4: Convert EPUB to Image
 
 ```java
 Converter.convertEPUB(fileInputStream, options, Resources.output("output.jpg"));
 ```
 
-El método `convertEPUB` realiza la conversión usando las `options` configuradas. El resultado se guarda como `output.jpg`.
+The `convertEPUB` method performs the conversion using the configured `options`. The result is saved as `output.jpg`.
 
-> **Consejo profesional:** Si necesita salida PNG, instancie `ImageSaveOptions` con `ImageFormat.Png` en lugar de `ImageFormat.Jpeg`.
+> **Pro tip:** If you need **epub to png conversion**, instantiate `ImageSaveOptions` with `ImageFormat.Png` instead of `ImageFormat.Jpeg`.
 
-¡Felicidades! Ha convertido con éxito un archivo EPUB a una imagen mientras controla las dimensiones de la página y el color de fondo.
+Congratulations! You’ve successfully **convert epub to image** while controlling the page dimensions and background color.
 
-## Problemas Comunes y Soluciones
+## How to set page size (custom page size java) – deeper dive
+If you need a different page size for each EPUB, you can compute the dimensions dynamically based on the content’s CSS or metadata. The `PageSetup` object can be reused across multiple conversions; just adjust the `Size` before each call to `Converter.convertEPUB`.
 
-| Problema | Razón | Solución |
-|----------|-------|----------|
-| La imagen de salida está recortada | Tamaño de página personalizado más pequeño que el contenido | Aumente el ancho/altura en `Size` o use `options.setFitToPage(true)`. |
-| El fondo aparece negro | Color no establecido o formato no compatible | Asegúrese de que `options.setBackgroundColor(...)` se llame antes de la conversión. |
-| La conversión falla con `NullPointerException` | Falta el archivo `Resources.input` | Verifique la ruta y que el archivo EPUB exista. |
+## Common Issues and Solutions
 
-## Preguntas Frecuentes (FAQs)
+| Issue | Reason | Fix |
+|-------|--------|-----|
+| Output image is cropped | Custom page size smaller than content | Increase width/height in `Size` or enable `options.setFitToPage(true)`. |
+| Background appears black | Color not set or unsupported format | Ensure `options.setBackgroundColor(...)` is called before conversion. |
+| Conversion fails with `NullPointerException` | Missing `Resources.input` file | Verify the path and that the EPUB file exists. |
 
-### 1. ¿Dónde puedo encontrar la documentación de Aspose.HTML for Java?
+## Frequently Asked Questions (FAQs)
 
-Puede acceder a la documentación [aquí](https://reference.aspose.com/html/java/). Proporciona información completa y ejemplos para ayudarle a comenzar.
+### 1. Where can I find the Aspose.HTML for Java documentation?
+You can access the documentation [here](https://reference.aspose.com/html/java/). It provides comprehensive information and examples to help you get started.
 
-### 2. ¿Hay una versión de prueba gratuita de Aspose.HTML for Java disponible?
+### 2. Is there a free trial version of Aspose.HTML for Java available?
+Yes, you can download a free trial version [here](https://releases.aspose.com/). It allows you to explore the library's capabilities before making a purchase.
 
-Sí, puede descargar una versión de prueba gratuita [aquí](https://releases.aspose.com/). Le permite explorar las capacidades de la biblioteca antes de realizar una compra.
+### 3. How can I obtain a temporary license for Aspose.HTML for Java?
+If you need a temporary license, you can acquire one [here](https://purchase.aspose.com/temporary-license/).
 
-### 3. ¿Cómo puedo obtener una licencia temporal para Aspose.HTML for Java?
+### 4. Can Aspose.HTML for Java handle other document conversions?
+Yes, Aspose.HTML for Java supports various conversions, including HTML → PDF, HTML → image, and more.
 
-Si necesita una licencia temporal, puede obtener una [aquí](https://purchase.aspose.com/temporary-license/).
+### 5. Is Aspose.HTML for Java suitable for both beginners and experienced developers?
+Absolutely! Beginners can start with simple examples, while advanced users can leverage the full API for complex workflows.
 
-### 4. ¿Puede Aspose.HTML for Java manejar otras conversiones de documentos?
+**Additional Q&A**
 
-Sí, Aspose.HTML for Java admite varias conversiones, incluyendo HTML → PDF, HTML → imagen, y más.
+**Q: Can I convert multiple EPUB pages into separate images?**  
+A: Yes. Use a loop over page indices, adjust `options.setPageSetup(pageSetup)` for each page, and call `Converter.convertEPUB` repeatedly.
 
-### 5. ¿Es Aspose.HTML for Java adecuado tanto para principiantes como para desarrolladores experimentados?
+**Q: How do I change the image quality for JPEG output?**  
+A: Set `options.setQuality(90)` (value 0‑100) before invoking the conversion.
 
-¡Absolutamente! Los principiantes pueden comenzar rápidamente con ejemplos simples, mientras que los usuarios avanzados pueden aprovechar la API completa para flujos de trabajo complejos.
+**Q: Does the library support transparent backgrounds?**  
+A: For PNG output, you can use `options.setBackgroundColor(Color.getTransparent())`.
 
-**Preguntas Adicionales**
+## Related Topics You Might Explore
+- **How to convert EPUB to PNG** – switch `ImageFormat.Png` and optionally set a transparent background.  
+- **Batch converting multiple EPUB files** – iterate over a directory of EPUBs and reuse the same `ImageSaveOptions` instance.  
+- **Optimizing image size for web** – use `options.setQuality()` and `options.setResolution()` to balance visual fidelity and file size.
 
-**P: ¿Puedo convertir varias páginas EPUB en imágenes separadas?**  
-R: Sí. Use `options.setPageSetup(pageSetup)` con un bucle sobre cada índice de página, llamando a `Converter.convertEPUB` para cada página.
+## Conclusion
 
-**P: ¿Cómo cambio la calidad de imagen para la salida JPEG?**  
-R: Establezca `options.setQuality(90)` (valor 0‑100) antes de invocar la conversión.
+Aspose.HTML for Java gives you granular control over EPUB‑to‑image conversions. By configuring **custom page size**, **set image background color**, and other `ImageSaveOptions`, you can produce images that perfectly match your project’s visual requirements. Feel free to experiment with different formats, dimensions, and background colors, and explore the broader capabilities of Aspose.HTML for Java in your applications.
 
-**P: ¿La biblioteca admite fondos transparentes?**  
-R: Para salida PNG, puede usar `options.setBackgroundColor(Color.getTransparent())`.
-
-## Conclusión
-
-Aspose.HTML for Java le brinda un control granular sobre las conversiones de EPUB a imagen. Configurando **tamaño de página personalizado**, color de fondo y otras `ImageSaveOptions`, puede producir imágenes que coincidan perfectamente con los requisitos visuales de su proyecto. Siéntase libre de experimentar con diferentes formatos y dimensiones de página, y explore las capacidades más amplias de Aspose.HTML for Java en sus aplicaciones.
-
-¿Tiene preguntas o necesita asistencia? Comuníquese con la [comunidad de Aspose.HTML](https://forum.aspose.com/) para obtener soporte.
+Have questions or need assistance? Reach out to the [Aspose.HTML community](https://forum.aspose.com/) for support.
 
 ---
 
-**Última actualización:** 2025-12-30  
-**Probado con:** Aspose.HTML for Java 24.12  
-**Autor:** Aspose  
+**Last Updated:** 2026-03-24  
+**Tested With:** Aspose.HTML for Java 24.12  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
