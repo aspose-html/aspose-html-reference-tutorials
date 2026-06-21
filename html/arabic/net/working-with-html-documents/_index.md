@@ -38,6 +38,7 @@ url: /ar/net/working-with-html-documents/
 
 ### [كيفية حفظ HTML في C# – دليل كامل باستخدام معالج موارد مخصص](./how-to-save-html-in-c-complete-guide-using-a-custom-resource/)
 ### [كيفية جعل العنوان غامقًا باستخدام CSS و C# – دليل خطوة بخطوة كامل](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
+### [إنشاء HTML من سلسلة في C# – دليل خطوة بخطوة](./create-html-from-string-in-c-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

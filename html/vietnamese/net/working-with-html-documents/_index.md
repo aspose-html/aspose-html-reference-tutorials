@@ -41,6 +41,11 @@ Bây giờ, hãy đưa kỹ năng của bạn lên một tầm cao mới. Chỉn
 ### [Cách làm tiêu đề đậm bằng CSS & C# – Hướng dẫn chi tiết từng bước](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
 
 Hướng dẫn chi tiết cách sử dụng CSS và C# để làm tiêu đề in đậm, kèm ví dụ mã và các bước thực hiện cụ thể.
+
+### [Tạo HTML từ chuỗi trong C# – Hướng dẫn từng bước](./create-html-from-string-in-c-step-by-step-guide/)
+
+Hướng dẫn chi tiết cách tạo tài liệu HTML từ một chuỗi văn bản trong C# bằng Aspose.HTML.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
