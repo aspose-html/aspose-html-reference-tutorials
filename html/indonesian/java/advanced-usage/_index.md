@@ -127,6 +127,9 @@ Pelajari cara menyesuaikan ukuran halaman XPS dengan Aspose.HTML untuk Java. Kon
 ### [Cara Menjalankan JavaScript di Java – Panduan Lengkap](./how-to-run-javascript-in-java-complete-guide/)
 Pelajari cara menjalankan kode JavaScript dalam aplikasi Java dengan Aspose.HTML untuk Java secara lengkap.
 
+### [XPath dengan Namespace di Java – Panduan Lengkap Memilih Elemen SVG](./xpath-with-namespaces-in-java-complete-guide-to-selecting-sv/)
+Pelajari cara menggunakan XPath dengan namespace di Java untuk memilih elemen SVG secara akurat.
+
 ---
 
 **Terakhir Diperbarui:** 2025-11-29  

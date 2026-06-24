@@ -31,7 +31,7 @@ Aspose.HTML para Java ofrece un potente conjunto de herramientas para desarrolla
 
 ## Creación de documentos HTML a partir de cadenas y URL
 
-Imagina que necesitas generar contenido HTML sobre la marcha en función de la entrada del usuario o de los datos recuperados de la web. Ahí es donde la creación de documentos HTML a partir de cadenas o la carga directa de las URL se vuelve invaluable. Aspose.HTML para Java te permite crear documentos HTML sin problemas utilizando cadenas HTML sin formato o cargarlas desde cualquier dirección web. Estos tutoriales te proporcionan las herramientas para generar y manipular contenido web de forma dinámica, lo que hace que tus aplicaciones Java sean más flexibles y responsivas.[Leer más](./create-html-documents-from-string/)
+Imagina que necesitas generar contenido HTML sobre la marcha en función de la entrada del usuario o de los datos recuperados de la web. Ahí es donde la creación de documentos HTML a partir de cadenas o la carga directa de las URL se vuelve invaluable. Aspose.HTML para Java te permite crear documentos HTML sin problemas utilizando cadenas HTML sin formato o cargarlas desde cualquier dirección web. Estos tutoriales le proporcionan las herramientas para generar y manipular contenido web de forma dinámica, lo que hace que sus aplicaciones Java sean más flexibles y responsivas.[Leer más](./create-html-documents-from-string/)
 
 ## Generar nuevos documentos HTML y gestionar la carga avanzada de archivos
 
@@ -44,28 +44,46 @@ Cuando se trata de generar nuevos documentos HTML, Aspose.HTML para Java ofrece 
 ## Creación y gestión de documentos HTML en Aspose.HTML para tutoriales de Java
 ### [Cree documentos HTML de forma asincrónica en Aspose.HTML para Java](./create-html-documents-async/)
 Domine la creación de documentos HTML de forma asincrónica con Aspose.HTML para Java. Guía paso a paso, consejos y preguntas frecuentes incluidas para un aprendizaje rápido.
+
 ### [Crear documentos HTML vacíos en Aspose.HTML para Java](./create-empty-html-documents/)
 Aprenda a crear documentos HTML vacíos en Java usando Aspose.HTML con nuestro detallado tutorial paso a paso, perfecto para desarrolladores de todos los niveles.
+
 ### [Crear sandbox para HTML en Java – Guía paso a paso](./create-sandbox-for-html-in-java-step-by-step-guide/)
 Aprenda a crear un entorno sandbox para HTML en Java con esta guía paso a paso, ideal para pruebas seguras y desarrollo aislado.
+
 ### [Cargar documentos HTML desde un archivo en Aspose.HTML para Java](./load-html-documents-from-file/)
 Descubra el poder de la manipulación de HTML con Aspose.HTML para Java. Aprenda a cargar documentos HTML desde archivos con tutoriales paso a paso.
+
 ### [Carga avanzada de archivos para documentos HTML en Aspose.HTML para Java](./advanced-file-loading-html-documents/)
 Aprenda a cargar, manipular y guardar documentos HTML con Aspose.HTML para Java en esta guía paso a paso. Descubra el procesamiento avanzado de HTML en sus proyectos Java.
+
 ### [Cargar documentos HTML desde Stream con Aspose.HTML para Java](./load-html-documents-from-stream/)
 Aprenda a cargar documentos HTML desde secuencias de comandos con Aspose.HTML para Java. Esta guía ofrece un tutorial paso a paso para manipular HTML sin problemas.
+
 ### [Crear documentos HTML a partir de cadenas en Aspose.HTML para Java](./create-html-documents-from-string/)
 Aprenda a crear documentos HTML a partir de cadenas en Aspose.HTML para Java con esta guía paso a paso.
+
 ### [Cargar documentos HTML desde una URL en Aspose.HTML para Java](./load-html-documents-from-url/)
 Descubra cómo cargar fácilmente documentos HTML desde una URL en Java con Aspose.HTML. Incluye tutorial paso a paso.
+
 ### [Cómo consultar HTML en Java – Tutorial completo](./how-to-query-html-in-java-complete-tutorial/)
 Aprenda a consultar documentos HTML en Java usando Aspose.HTML con esta guía paso a paso completa.
+
 ### [Generar nuevos documentos HTML con Aspose.HTML para Java](./generate-new-html-documents/)
 Aprenda a crear nuevos documentos HTML con Aspose.HTML para Java con esta sencilla guía paso a paso. Comience a generar contenido HTML dinámico.
+
 ### [Gestión de eventos de carga de documentos en Aspose.HTML para Java](./handle-document-load-events/)
 Aprenda a gestionar eventos de carga de documentos en Aspose.HTML para Java con esta guía paso a paso. Mejore sus aplicaciones web.
+
 ### [Crear y administrar documentos SVG en Aspose.HTML para Java](./create-manage-svg-documents/)
 Aprenda a crear y gestionar documentos SVG con Aspose.HTML para Java. Esta guía completa cubre todo, desde la creación básica hasta la manipulación avanzada.
+
+### [Extraer el título de la página con Java – Guía completa usando Aspose.HTML](./extract-page-title-with-java-full-guide-using-aspose-html/)
+Aprenda a extraer el título de una página web en Java con Aspose.HTML mediante una guía paso a paso.
+
+### [Cómo iniciar un hilo en Java – Guía completa](./how-to-start-thread-in-java-complete-guide/)
+Aprenda a iniciar hilos en Java paso a paso, mejorando la concurrencia y el rendimiento de sus aplicaciones.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

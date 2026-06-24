@@ -98,7 +98,9 @@ Pelajari cara mengkonversi HTML ke JPEG dengan Aspose.HTML untuk Java. Panduan l
 Pelajari cara mengkonversi HTML ke gambar PNG di Java dengan Aspose.HTML. Panduan komprehensif dengan instruksi langkah demi langkah.
 ### [Mengonversi HTML ke TIFF](./convert-html-to-tiff/)
 Pelajari cara mudah mengkonversi HTML ke TIFF menggunakan Aspose.HTML untuk Java. Panduan langkah demi langkah untuk penanganan dokumen yang efisien.
+### [Buat PNG dari HTML – Panduan Lengkap Java dengan Resolusi Kustom](./create-png-from-html-complete-java-guide-with-custom-resolut/)
 ### [Mengonversi HTML ke WebP – Panduan Lengkap Java dengan Aspose.HTML](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
+### [Mengonversi SVG ke AVIF dengan Java – Panduan Langkah‑demi‑Langkah](./how-to-convert-svg-to-avif-with-java-step-by-step-guide/)
 
 ## Pertanyaan yang Sering Diajukan
 

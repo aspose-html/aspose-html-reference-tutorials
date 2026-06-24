@@ -128,6 +128,8 @@ Aspose.HTML for Java का उपयोग करके PDF पेज आका
 Aspose.HTML for Java का उपयोग करके XPS पेज आकार को कैसे समायोजित करें, जानें। अपने XPS दस्तावेज़ों के आउटपुट आयाम को आसानी से नियंत्रित करें।  
 ### [Java में JavaScript चलाना – पूर्ण गाइड](./how-to-run-javascript-in-java-complete-guide/)
 Java एप्लिकेशन में JavaScript को एम्बेड और निष्पादित करने के चरण‑दर‑चरण निर्देश।  
+### [Java में नेमस्पेस के साथ XPath – SVG तत्वों का चयन करने का पूर्ण गाइड](./xpath-with-namespaces-in-java-complete-guide-to-selecting-sv/)
+Java में नेमस्पेस वाले XML में SVG तत्वों को XPath से चुनने की पूरी प्रक्रिया सीखें।  
 
 ---
 

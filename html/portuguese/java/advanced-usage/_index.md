@@ -137,6 +137,9 @@ Aprenda a ajustar o tamanho de página XPS com Aspose.HTML for Java. Controle fa
 ### [Como Executar JavaScript em Java – Guia Completo](./how-to-run-javascript-in-java-complete-guide/)
 Aprenda a executar código JavaScript dentro de aplicações Java usando Aspose.HTML for Java.
 
+### [XPath com Namespaces em Java – Guia Completo para Selecionar Elementos SVG](./xpath-with-namespaces-in-java-complete-guide-to-selecting-sv/)
+Aprenda a usar XPath com namespaces em Java para selecionar elementos SVG de forma precisa usando Aspose.HTML for Java.
+
 ---
 
 **Última atualização:** 2025-11-29  

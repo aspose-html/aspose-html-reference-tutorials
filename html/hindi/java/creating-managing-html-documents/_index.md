@@ -66,6 +66,10 @@ SVG दस्तावेज़ बनाना और प्रबंधित 
 Java में HTML सैंडबॉक्स बनाने की प्रक्रिया सीखें, सुरक्षित परीक्षण और विकास के लिए चरण‑दर‑चरण मार्गदर्शिका।
 ### [Java में HTML क्वेरी कैसे करें – पूर्ण ट्यूटोरियल](./how-to-query-html-in-java-complete-tutorial/)
 Java में Aspose.HTML का उपयोग करके HTML क्वेरी करने के चरण‑दर‑चरण मार्गदर्शिका, टिप्स और सर्वोत्तम प्रथाएँ।
+### [Java के साथ Aspose.HTML का उपयोग करके पृष्ठ शीर्षक निकालें – पूर्ण गाइड](./extract-page-title-with-java-full-guide-using-aspose-html/)
+Aspose.HTML for Java का उपयोग करके HTML पृष्ठ से शीर्षक निकालने की पूरी प्रक्रिया सीखें। चरण‑दर‑चरण मार्गदर्शिका।
+### [Java में थ्रेड कैसे शुरू करें – पूर्ण गाइड](./how-to-start-thread-in-java-complete-guide/)
+Java में थ्रेड शुरू करने की पूरी प्रक्रिया सीखें, चरण‑दर‑चरण मार्गदर्शिका और सर्वोत्तम प्रथाएँ।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
