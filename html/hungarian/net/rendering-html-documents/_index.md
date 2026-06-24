@@ -58,8 +58,12 @@ Oldja fel az Aspose.HTML erejét .NET-hez! Tanulja meg, hogyan lehet könnyedén
 Tanulja meg, hogyan renderelhet HTML-t PNG formátumba az Aspose segítségével .NET környezetben, lépésről lépésre.
 ### [Hogyan rendereljük a HTML-t PNG formátumba az Aspose-szal – Teljes útmutató](./how-to-render-html-to-png-with-aspose-complete-guide/)
 Ismerje meg, hogyan konvertálhatja a HTML-t PNG-be az Aspose segítségével .NET környezetben, lépésről lépésre.
+### [HTML renderelése PNG-ként C#‑ban – Teljes lépésről‑lépésre útmutató](./render-html-to-png-in-c-complete-step-by-step-guide/)
+Ismerje meg, hogyan renderelhet HTML-t PNG formátumba C#‑ban az Aspose.HTML segítségével, lépésről‑lépésre.
 ### [PNG létrehozása HTML-ből – Teljes C# renderelési útmutató](./create-png-from-html-full-c-rendering-guide/)
 Tanulja meg, hogyan hozhat létre PNG képeket HTML-ből C#-ban az Aspose.HTML segítségével.
+### [HTML dokumentum létrehozása és renderelése PNG‑ként – Teljes C# útmutató](./create-html-document-and-render-html-to-png-full-c-guide/)
+Tanulja meg, hogyan hozhat létre HTML dokumentumot, és renderelheti PNG‑be C#‑ban az Aspose.HTML segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
