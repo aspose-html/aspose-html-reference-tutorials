@@ -95,10 +95,17 @@ Leer hoe je HTML naar GIF kunt converteren in Java met Aspose.HTML. Een uitgebre
 Leer HTML naar JPEG te converteren met Aspose.HTML for Java. Stap‑voor‑stap gids voor naadloze documentverwerking.
 ### [HTML naar PNG converteren](./convert-html-to-png/)
 Leer hoe je HTML naar PNG‑afbeeldingen kunt converteren in Java met Aspose.HTML. Een uitgebreide gids met stap‑voor‑stap instructies.
+### [HTML naar PNG converteren in Java – Complete stap‑voor‑stap gids](./convert-html-to-png-in-java-complete-step-by-step-guide/)
+Leer hoe je HTML naar PNG kunt converteren in Java met Aspose.HTML. Een volledige stap‑voor‑stap gids.
+### [Hoe DPI in te stellen bij het converteren van SVG naar PNG – Java-gids](./how-to-set-dpi-when-converting-svg-to-png-java-guide/)
+Leer hoe je de DPI-waarde kunt aanpassen bij het omzetten van SVG naar PNG met Aspose.HTML for Java.
 ### [HTML naar TIFF converteren](./convert-html-to-tiff/)
 Leer hoe je HTML eenvoudig naar TIFF kunt converteren met Aspose.HTML for Java. Stap‑voor‑stap gids voor efficiënte documentafhandeling.
 ### [HTML naar WebP – Complete Java-gids met Aspose.HTML](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
 Leer hoe je HTML naar WebP kunt converteren met Aspose.HTML for Java. Een stapsgewijze gids voor efficiënte WebP‑rendering.
+### [Hoe JavaScript uit te voeren en HTML naar PNG te renderen met Aspose](./how-to-run-javascript-and-render-html-to-png-with-aspose/)
+### [HTML naar PNG renderen in Java – Bearer‑token en aangepaste headers toevoegen](./render-html-to-png-in-java-add-bearer-token-custom-headers/)
+Leer hoe je met Aspose.HTML for Java HTML rendert naar PNG en daarbij een Bearer‑token en aangepaste HTTP‑headers gebruikt.
 
 ## Veelgestelde vragen
 
