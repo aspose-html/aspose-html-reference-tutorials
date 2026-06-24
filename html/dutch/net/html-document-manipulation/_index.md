@@ -71,6 +71,8 @@ Leer dynamische en webinhoud te maken met Aspose.HTML voor .NET. Versterk uw onl
 Leer Aspose.HTML voor .NET gebruiken. Importeer namespace, voeg HTML samen met XML en verbeter uw webontwikkelingsvaardigheden met deze uitgebreide gids.
 ### [Genereer XPS-documenten door XpsDevice in .NET met Aspose.HTML](./generate-xps-documents-by-xpsdevice/)
 Ontgrendel het potentieel van webontwikkeling met Aspose.HTML voor .NET. Maak, converteer en manipuleer eenvoudig HTML-documenten.
+### [Lettertype vet en cursief maken in C# – Complete gids](./create-font-bold-italic-in-c-complete-guide/)
+Leer hoe u vet en cursief lettertype maakt in C# met Aspose.HTML. Stapsgewijze handleiding met voorbeelden.
 
 ## Conclusie
 

@@ -51,7 +51,7 @@ O Aspose.HTML para .NET se destaca por sua simplicidade e poder. Ele permite que
 ## Tutoriais de manipulação de documentos HTML
 ### [Carregar documentos HTML de forma assíncrona no .NET com Aspose.HTML](./load-html-doc-asynchronously/)
 Aprenda a usar Aspose.HTML para .NET para trabalhar com documentos HTML. Guia passo a passo com exemplos e FAQs para desenvolvedores.
-### [Carregar documentos HTML com credenciais no .NET com Aspose.HTML](./load-html-doc-with-credentials/)
+### [Carregar documentos HTML com credenciais no .NET com Aspose.HTML](./load-html-with-credentials/)
 Aprenda como turbinar seu SEO com Aspose.HTML para .NET. Aumente as classificações, analise o conteúdo da web e otimize para mecanismos de busca.
 ### [Carregar HTML usando um servidor remoto em .NET com Aspose.HTML](./load-html-using-remote-server/)
 Desbloqueie o potencial do Aspose.HTML para .NET com nosso guia abrangente. Aprenda como importar namespaces, acessar documentos HTML remotos e muito mais.
@@ -71,6 +71,8 @@ Aprenda a usar Aspose.HTML para .NET. Importe namespace, mescle HTML com XML e a
 Desbloqueie o potencial do desenvolvimento web com Aspose.HTML para .NET. Crie, converta e manipule documentos HTML facilmente.
 ### [Criar HTML a partir de String em C# – Guia de Manipulador de Recurso Personalizado](./create-html-from-string-in-c-custom-resource-handler-guide/)
 Aprenda a gerar documentos HTML a partir de strings usando um manipulador de recurso personalizado em C# com Aspose.HTML.
+### [Criar fonte negrito itálico em C# – Guia completo](./create-font-bold-italic-in-c-complete-guide/)
+Aprenda a criar texto em negrito e itálico usando Aspose.HTML para .NET em C#. Guia passo a passo com exemplos.
 
 ## Conclusão
 
