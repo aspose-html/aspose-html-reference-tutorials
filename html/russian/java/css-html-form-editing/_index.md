@@ -32,6 +32,10 @@ url: /ru/java/css-html-form-editing/
 Узнайте, как программно редактировать и отправлять HTML-формы с помощью Aspose.HTML для Java, в этом подробном пошаговом руководстве.
 ### [Выбор элемента по классу в Java – Полное руководство](./select-element-by-class-in-java-complete-how-to-guide/)
 Узнайте, как выбрать элементы по классу в Java с помощью Aspose.HTML, пошаговое руководство от начала до конца.
+### [Получить вычисленный стиль в Java – отладка CSS‑Grid с Aspose.HTML](./get-computed-style-in-java-debug-css-grid-with-aspose-html/)
+Узнайте, как получить вычисленные стили элементов и отлаживать сетки CSS Grid в Java с помощью Aspose.HTML.
+### [Получить значение display элемента в Java – Руководство по песочнице Aspose HTML](./get-element-display-value-in-java-aspose-html-sandbox-guide/)
+Узнайте, как получить значение свойства display у HTML‑элементов в Java с помощью песочницы Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
