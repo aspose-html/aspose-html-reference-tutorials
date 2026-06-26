@@ -104,6 +104,12 @@ weight: 24
 ### [将 HTML 转换为 WebP](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
 使用 Aspose.HTML for Java 将 HTML 转换为 WebP。完整的 Java 指南，帮助您轻松生成高质量的 WebP 图像。
 
+### [在 Java 中将 HTML 转换为 WebP – 完整分步指南](./convert-html-to-webp-in-java-complete-step-by-step-guide/)
+使用 Aspose.HTML for Java 在 Java 环境下将 HTML 转换为 WebP，提供完整的分步指南，帮助您快速生成高质量图像。
+
+### [将 SVG 转换为 WebP – 完整的 Java 动画 SVG 指南](./convert-svg-to-webp-full-java-guide-for-animated-svgs/)
+使用 Aspose.HTML for Java 将动画 SVG 转换为 WebP。完整步骤指南，帮助您轻松生成高质量的 WebP 动画图像。
+
 ## 常见问题解答
 
 **Q: 我可以使用 Java 将 HTML 转换为 PNG 而无需额外的图像库吗？**  

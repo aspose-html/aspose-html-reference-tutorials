@@ -32,6 +32,10 @@ Learn how to use Aspose.HTML for Java to apply advanced CSS techniques, includin
 Learn how to edit and submit HTML forms programmatically using Aspose.HTML for Java in this comprehensive step-by-step guide.
 ### [select element by class in Java – Complete How‑To Guide](./select-element-by-class-in-java-complete-how-to-guide/)
 Learn how to select HTML elements by class using Aspose.HTML for Java in this complete step-by-step guide.
+### [Get Computed Style in Java – Debug CSS Grid with Aspose.HTML](./get-computed-style-in-java-debug-css-grid-with-aspose-html/)
+Learn how to retrieve computed CSS styles in Java using Aspose.HTML to debug and troubleshoot CSS Grid layouts effectively.
+### [Get Element Display Value in Java – Aspose HTML Sandbox Guide](./get-element-display-value-in-java-aspose-html-sandbox-guide/)
+Learn how to retrieve an element's display property in Java using Aspose.HTML within the sandbox environment.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

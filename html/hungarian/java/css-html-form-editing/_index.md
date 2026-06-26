@@ -32,6 +32,10 @@ Tanulja meg, hogyan használhatja az Aspose.HTML for Java-t fejlett CSS-technik�
 Ebből az átfogó, lépésenkénti útmutatóból megtudhatja, hogyan szerkeszthet és küldhet be programozott HTML-űrlapokat az Aspose.HTML for Java használatával.
 ### [Elem kiválasztása osztály alapján Java-ban – Teljes útmutató](./select-element-by-class-in-java-complete-how-to-guide/)
 Ismerje meg, hogyan válassza ki a kívánt elemet osztály alapján Java-ban az Aspose.HTML segítségével.
+### [Számított stílus lekérése Java-ban – CSS Grid hibakeresése az Aspose.HTML segítségével](./get-computed-style-in-java-debug-css-grid-with-aspose-html/)
+Tanulja meg, hogyan kérheti le a számított stílusokat Java-ban, és hibakeresse a CSS Grid elrendezéseket az Aspose.HTML használatával.
+### [Elem megjelenítési érték lekérése Java-ban – Aspose HTML Sandbox útmutató](./get-element-display-value-in-java-aspose-html-sandbox-guide/)
+Tanulja meg, hogyan kérheti le egy elem display értékét Java-ban az Aspose.HTML Sandbox segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

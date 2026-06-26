@@ -90,6 +90,9 @@ Pelajari cara mengonversi HTML ke PDF di Java menggunakan Aspose.HTML. Buat PDF 
 ### [Mengonversi HTML ke PDF di Java – Panduan Langkah‑demi‑Langkah dengan Pengaturan Ukuran Halaman](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Panduan lengkap mengonversi HTML ke PDF di Java dengan pengaturan ukuran halaman yang dapat disesuaikan.
 
+### [Mengonversi HTML ke PDF di Java – Panduan Batch Paralel](./convert-html-to-pdf-in-java-parallel-batch-guide/)
+Panduan langkah‑demi‑langkah untuk mengonversi banyak file HTML ke PDF secara paralel menggunakan Aspose.HTML for Java, meningkatkan kecepatan proses batch.
+
 ### [Mengonversi HTML ke MHTML](./convert-html-to-mhtml/)
 Konversi HTML ke MHTML dengan mudah menggunakan Aspose.HTML untuk Java. Ikuti panduan langkah‑demi‑langkah kami untuk konversi HTML‑ke‑MHTML yang efisien.
 
@@ -99,6 +102,9 @@ Pelajari cara mengonversi HTML ke XPS dengan mudah menggunakan Aspose.HTML untuk
 ### [Mengonversi Markdown ke HTML](./convert-markdown-to-html/)
 Ubah Markdown ke HTML di Java secara mulus dengan Aspose.HTML untuk Java. Ikuti panduan langkah‑demi‑langkah kami untuk mempermudah kebutuhan konversi dokumen Anda.
 
+### [Aspose HTML ke Markdown di Java – Panduan Lengkap Langkah‑demi‑Langkah](./aspose-html-to-markdown-in-java-complete-step-by-step-guide/)
+Pelajari cara mengonversi HTML menjadi Markdown di Java menggunakan Aspose.HTML dengan panduan langkah‑demi‑langkah lengkap.
+
 ### [Mengonversi SVG ke Gambar](./convert-svg-to-image/)
 Pelajari cara mengonversi SVG ke gambar di Java dengan Aspose.HTML. Panduan komprehensif untuk output berkualitas tinggi.
 
@@ -107,6 +113,12 @@ Ubah SVG ke PDF di Java dengan Aspose.HTML. Solusi mulus untuk konversi dokumen 
 
 ### [Mengonversi SVG ke XPS](./convert-svg-to-xps/)
 Pelajari cara mengonversi SVG ke XPS dengan Aspose.HTML untuk Java. Panduan sederhana, langkah‑demi‑langkah untuk konversi mulus.
+
+### [Membuat Dokumen PDF/A-2b dengan Aspose HTML untuk Java – Panduan Lengkap](./create-pdf-a-2b-document-with-aspose-html-for-java-full-guid/)
+Panduan lengkap membuat dokumen PDF/A‑2b menggunakan Aspose.HTML for Java, memastikan kepatuhan standar arsip dengan mudah.
+
+### [Mengonversi HTML ke DOCX dengan Aspose – Panduan Java html ke docx](./convert-html-to-docx-with-aspose-java-html-to-docx-guide/)
+Pelajari cara mengonversi HTML ke DOCX di Java menggunakan Aspose.HTML. Buat dokumen DOCX berkualitas tinggi dari konten HTML Anda dengan mudah.
 
 ## Pertanyaan yang Sering Diajukan
 

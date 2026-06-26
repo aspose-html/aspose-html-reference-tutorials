@@ -32,6 +32,11 @@ Lär dig hur du använder Aspose.HTML för Java för att tillämpa avancerade CS
 Lär dig hur du redigerar och skickar HTML-formulär programmatiskt med Aspose.HTML för Java i den här omfattande steg-för-steg-guiden.
 ### [Välj element efter klass i Java – Komplett guide](./select-element-by-class-in-java-complete-how-to-guide/)
 Lär dig hur du programatiskt väljer HTML‑element baserat på deras klass i Java med Aspose.HTML.
+### [Få beräknad stil i Java – Debugga CSS Grid med Aspose.HTML](./get-computed-style-in-java-debug-css-grid-with-aspose-html/)
+Lär dig hur du hämtar beräknad CSS-stil i Java för att felsöka CSS Grid med Aspose.HTML.
+### [Hämta elementets display‑värde i Java – Aspose HTML Sandbox‑guide](./get-element-display-value-in-java-aspose-html-sandbox-guide/)
+Lär dig hur du hämtar ett elements display‑värde i Java med Aspose HTML i en praktisk sandbox‑guide.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

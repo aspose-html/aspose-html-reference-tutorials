@@ -113,20 +113,14 @@ R: No. Una única licencia de Aspose.HTML para Java cubre todos los formatos de 
 
 ## Uso avanzado de tutoriales de Aspose.HTML Java
 ### [Personalizar márgenes de página HTML con Aspose.HTML](./css-extensions-adding-title-page-number/)
-Aprende a personalizar los márgenes de página, añadir números de página y títulos a documentos HTML usando Aspose.HTML para Java.
 ### [Observador de mutación DOM con Aspose.HTML para Java](./dom-mutation-observer-observing-node-additions/)
-Aprende a usar Aspose.HTML para Java para implementar un Observador de Mutación DOM en esta guía paso a paso. Monitorea y reacciona a los cambios del DOM de manera eficaz.
 ### [Manipulación de HTML5 Canvas con Aspose.HTML para Java](./html5-canvas-manipulation-using-code/)
-Aprende la manipulación de HTML5 Canvas usando Aspose.HTML para Java. Crea gráficos interactivos con guía paso a paso.
 ### [Manipulación de HTML5 Canvas con Aspose.HTML para Java](./html5-canvas-manipulation-using-javascript/)
-Aprende a manipular HTML5 Canvas con JavaScript usando Aspose.HTML para Java. Crea gráficos dinámicos y conviértelos a PDF.
 ### [Automatizar el llenado de formularios HTML con Aspose.HTML para Java](./html-form-editor-filling-submitting-forms/)
-Aprende a automatizar el llenado y envío de formularios HTML con Aspose.HTML para Java. Simplifica la interacción web con este tutorial.
 ### [Ajustar tamaño de página PDF con Aspose.HTML para Java](./adjust-pdf-page-size/)
-Aprende a ajustar el tamaño de página PDF con Aspose.HTML para Java. Crea PDFs de alta calidad a partir de HTML sin esfuerzo. Controla las dimensiones de la página de manera eficaz.
 ### [Ajustar tamaño de página XPS con Aspose.HTML para Java](./adjust-xps-page-size/)
-Aprende a ajustar el tamaño de página XPS con Aspose.HTML para Java. Controla fácilmente las dimensiones de salida de tus documentos XPS.
 ### [Cómo ejecutar JavaScript en Java – Guía completa](./how-to-run-javascript-in-java-complete-guide/)
+### [Ejecutar JavaScript en Java – Guía completa de Aspose.HTML](./execute-javascript-in-java-complete-aspose-html-guide/)
 
 ---
 

@@ -87,6 +87,9 @@ Aspose.HTML for Java упрощает процесс конвертации HTML
 ### [Конвертация HTML в PDF](./convert-html-to-pdf/)
 Узнайте, как конвертировать HTML в PDF в Java с помощью Aspose.HTML. Создавайте высококачественные PDF из вашего HTML‑контента без усилий.
 
+### [Конвертация HTML в PDF в Java – Параллельный пакетный гид](./convert-html-to-pdf-in-java-parallel-batch-guide/)
+Узнайте, как выполнять параллельную пакетную конвертацию HTML в PDF в Java с помощью Aspose.HTML, повышая производительность.
+
 ### [Конвертация HTML в MHTML](./convert-html-to-mhtml/)
 Легко конвертируйте HTML в MHTML с помощью Aspose.HTML for Java. Следуйте нашему пошаговому руководству для эффективной конвертации HTML в MHTML.
 
@@ -95,6 +98,9 @@ Aspose.HTML for Java упрощает процесс конвертации HTML
 
 ### [Конвертация Markdown в HTML](./convert-markdown-to-html/)
 Бесшовно конвертируйте Markdown в HTML в Java с помощью Aspose.HTML for Java. Следуйте нашему пошаговому руководству, чтобы упростить ваши потребности в конвертации документов.
+
+### [Aspose HTML в Markdown на Java – Полное пошаговое руководство](./aspose-html-to-markdown-in-java-complete-step-by-step-guide/)
+Полное руководство по конвертации HTML в Markdown в Java с помощью Aspose.HTML.
 
 ### [Конвертация SVG в изображение](./convert-svg-to-image/)
 Узнайте, как конвертировать SVG в изображения в Java с помощью Aspose.HTML. Полное руководство для получения высококачественного результата.
@@ -107,6 +113,11 @@ Aspose.HTML for Java упрощает процесс конвертации HTML
 
 ### [Конвертация HTML в PDF в Java – Пошаговое руководство с настройками размера страницы](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Подробное пошаговое руководство по конвертации HTML в PDF в Java с настройкой размеров страниц.
+
+### [Создание PDF/A-2b документа с Aspose HTML для Java – Полное руководство](./create-pdf-a-2b-document-with-aspose-html-for-java-full-guid/)
+Подробное руководство по созданию PDF/A-2b документов в Java с использованием Aspose.HTML, включая настройки соответствия стандарту.
+
+### [Конвертация HTML в DOCX с Aspose – Руководство Java html to docx](./convert-html-to-docx-with-aspose-java-html-to-docx-guide/)
 
 ## Часто задаваемые вопросы
 
