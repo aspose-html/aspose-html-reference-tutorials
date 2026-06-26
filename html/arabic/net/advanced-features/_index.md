@@ -46,6 +46,8 @@ Aspose.HTML for .NET هي أداة قوية تتيح للمطورين العمل
 تعرف على كيفية استخدام Aspose.HTML لـ .NET لإنشاء مستندات HTML بشكل ديناميكي من بيانات JSON. استغل قوة معالجة HTML في تطبيقات .NET الخاصة بك.
 ### [كيفية دمج الخطوط برمجيًا في C# – دليل خطوة بخطوة](./how-to-combine-fonts-programmatically-in-c-step-by-step-guid/)
 تعلم كيفية دمج خطوط متعددة برمجيًا في C# باستخدام Aspose.HTML لإنشاء مستندات HTML غنية ومتنوعة.
+### [كيفية تمكين Clear Type – تمكين وضع التنعيم في .NET](./how-to-enable-clear-type-enable-smoothing-mode-in-net/)
+تعلم كيفية تفعيل تقنية Clear Type وتحسين جودة النصوص في تطبيقات .NET عبر تمكين وضع التنعيم.
 
 ## خاتمة
 

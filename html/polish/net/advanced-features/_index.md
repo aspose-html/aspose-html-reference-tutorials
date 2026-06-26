@@ -46,6 +46,8 @@ Dowiedz się, jak konwertować HTML na PDF, XPS i obrazy za pomocą Aspose.HTML 
 Dowiedz się, jak używać Aspose.HTML dla .NET do dynamicznego generowania dokumentów HTML z danych JSON. Wykorzystaj moc manipulacji HTML w swoich aplikacjach .NET.
 ### [Jak łączyć czcionki programowo w C# – przewodnik krok po kroku](./how-to-combine-fonts-programmatically-in-c-step-by-step-guid/)
 Dowiedz się, jak programowo łączyć czcionki w C# przy użyciu Aspose.HTML, krok po kroku, z przykładami kodu.
+### [Jak włączyć Clear Type – włącz tryb wygładzania w .NET](./how-to-enable-clear-type-enable-smoothing-mode-in-net/)
+Dowiedz się, jak w .NET włączyć ClearType i tryb wygładzania, aby uzyskać wyraźny i płynny tekst w dokumentach HTML.
 
 ## Wniosek
 

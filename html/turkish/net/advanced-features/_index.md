@@ -45,6 +45,8 @@ Aspose.HTML for .NET ile HTML'yi PDF, XPS ve resimlere nasıl dönüştüreceği
 JSON verilerinden HTML belgelerini dinamik olarak oluşturmak için Aspose.HTML for .NET'i nasıl kullanacağınızı öğrenin. .NET uygulamalarınızda HTML manipülasyonunun gücünden yararlanın.
 ### [C# ile Programlı Olarak Yazı Tiplerini Birleştirme – Adım Adım Kılavuz](./how-to-combine-fonts-programmatically-in-c-step-by-step-guid/)
 C# kullanarak yazı tiplerini programlı şekilde birleştirmenin adımlarını öğrenin ve dinamik PDF/HTML çıktıları oluşturun.
+### [Clear Type'ı Etkinleştirme – .NET'te Düzleştirme Modunu Etkinleştirme](./how-to-enable-clear-type-enable-smoothing-mode-in-net/)
+Clear Type ve Düzleştirme Modu özelliklerini .NET uygulamalarınızda nasıl etkinleştireceğinizi adım adım öğrenin.
 
 ## Çözüm
 
