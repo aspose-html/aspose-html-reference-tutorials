@@ -1,0 +1,7 @@
+Title: How to Enable Clear Type – Enable Smoothing Mode in .NET
+Slug: how-to-enable-clear-type-enable-smoothing-mode-in-net
+Category: advanced-features
+ProcessedDate: 2026-06-26T06:35:54.682170
+SourceRepo: AI Search API
+Keywords: how to enable clear type, enable smoothing mode
+PRNumber: 191
