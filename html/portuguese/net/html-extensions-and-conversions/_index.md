@@ -72,11 +72,20 @@ Aprenda como converter HTML para TIFF com Aspose.HTML para .NET. Siga nosso guia
 Descubra o poder do Aspose.HTML para .NET: Converta HTML para XPS sem esforço. Pré-requisitos, guia passo a passo e FAQs inclusos.
 ### [Salvar HTML como ZIP – Tutorial Completo em C#](./save-html-as-zip-complete-c-tutorial/)
 Aprenda a salvar documentos HTML em arquivos ZIP usando Aspose.HTML para .NET com um tutorial passo a passo em C#.
-
+### [Salvar HTML como ZIP com Aspose.HTML – Guia Completo em C#](./save-html-as-zip-with-aspose-html-complete-c-guide/)
+Guia completo para salvar HTML em arquivos ZIP usando Aspose.HTML em C#, com exemplos detalhados.
 ### [Como compactar HTML em C# – Salvar HTML em ZIP](./how-to-zip-html-in-c-save-html-to-zip/)
 Aprenda a criar um arquivo ZIP contendo arquivos HTML usando Aspose.HTML para .NET em C#.
 ### [Salvar HTML em ZIP em C# – Exemplo Completo em Memória](./save-html-to-zip-in-c-complete-in-memory-example/)
 Aprenda a salvar arquivos HTML em um arquivo ZIP usando C# com um exemplo completo totalmente em memória.
+### [Salvar HTML como ZIP em C# – Guia completo de armazenamento personalizado](./save-html-as-zip-in-c-complete-guide-to-custom-storage/)
+Aprenda a salvar documentos HTML em arquivos ZIP usando armazenamento personalizado com Aspose.HTML para .NET em C#.
+
+### [Converter arquivo HTML local para PDF com C# – guia passo a passo](./convert-local-html-file-to-pdf-with-c-step-by-step-guide/)
+Aprenda a converter um arquivo HTML local em PDF usando C# com Aspose.HTML, seguindo um guia passo a passo.
+
+### [Como habilitar antialiasing na conversão de HTML para PDF com Aspose HTML (C#)](./how-to-enable-antialiasing-in-aspose-html-to-pdf-conversion/)
+Aprenda a ativar antialiasing ao converter HTML em PDF usando Aspose.HTML em C#, melhorando a qualidade visual dos documentos.
 
 ## Conclusão
 

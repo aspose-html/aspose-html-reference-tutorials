@@ -46,6 +46,8 @@ Leer hoe u HTML naar PDF, XPS en afbeeldingen converteert met Aspose.HTML voor .
 Leer hoe u Aspose.HTML voor .NET kunt gebruiken om dynamisch HTML-documenten te genereren uit JSON-gegevens. Benut de kracht van HTML-manipulatie in uw .NET-toepassingen.
 ### [Lettertypen combineren via code in C# – Stapsgewijze handleiding](./how-to-combine-fonts-programmatically-in-c-step-by-step-guid/)
 Leer hoe u lettertypen programmatically combineert in C# met Aspose.HTML, inclusief voorbeeldcode en stapsgewijze instructies.
+### [Hoe Clear Type in te schakelen – Smoothing-modus inschakelen in .NET](./how-to-enable-clear-type-enable-smoothing-mode-in-net/)
+Leer hoe u Clear Type en de smoothing-modus inschakelt voor scherpere tekstweergave in .NET met Aspose.HTML.
 
 ## Conclusie
 

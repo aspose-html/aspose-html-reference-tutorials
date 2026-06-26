@@ -73,6 +73,14 @@ Dowiedz się, jak stworzyć dokument HTML z formatowanym tekstem i wyeksportowa�
 Zapisz dokument HTML jako archiwum ZIP w C# przy użyciu Aspose.HTML – kompletny przewodnik krok po kroku.
 ### [Zapisz HTML do ZIP w C# – Kompletny przykład w pamięci](./save-html-to-zip-in-c-complete-in-memory-example/)
 Zapisz dokument HTML do archiwum ZIP w pamięci przy użyciu Aspose.HTML w C#.
+### [Zapisz HTML jako ZIP w C# – Kompletny przewodnik po niestandardowym przechowywaniu](./save-html-as-zip-in-c-complete-guide-to-custom-storage/)
+Zapisz dokument HTML jako archiwum ZIP w C# z niestandardowym przechowywaniem – kompletny przewodnik krok po kroku.
+### [Zapisz HTML jako ZIP przy użyciu Aspose.HTML – Kompletny przewodnik C#](./save-html-as-zip-with-aspose-html-complete-c-guide/)
+Dowiedz się, jak zapisać dokument HTML jako archiwum ZIP w C# przy użyciu Aspose.HTML – kompletny przewodnik krok po kroku.
+### [Konwertuj lokalny plik HTML do PDF w C# – przewodnik krok po kroku](./convert-local-html-file-to-pdf-with-c-step-by-step-guide/)
+Konwertuj lokalny plik HTML do PDF w C# przy użyciu Aspose.HTML – kompletny przewodnik krok po kroku.
+### [Jak włączyć antyaliasing w konwersji Aspose HTML do PDF (C#)](./how-to-enable-antialiasing-in-aspose-html-to-pdf-conversion/)
+Dowiedz się, jak w C# włączyć antyaliasing podczas konwersji HTML do PDF przy użyciu Aspose.HTML, aby uzyskać wyraźniejsze renderowanie.
 
 ## Wniosek
 

@@ -44,7 +44,8 @@ Learn how to convert HTML to PDF, XPS, and images with Aspose.HTML for .NET. Ste
 Learn how to use Aspose.HTML for .NET to dynamically generate HTML documents from JSON data. Harness the power of HTML manipulation in your .NET applications.
 ### [Create memory stream c# – Custom stream creation guide](./create-memory-stream-c-custom-stream-creation-guide/)
 Learn how to create a memory stream in C# using Aspose.HTML for .NET, with step-by-step examples and best practices.
-
+### [How to Enable Clear Type – Enable Smoothing Mode in .NET](./how-to-enable-clear-type-enable-smoothing-mode-in-net/)
+Learn how to enable ClearType and set smoothing mode in .NET using Aspose.HTML for improved text rendering. Step-by-step guide and examples.
 
 ## Conclusion
 

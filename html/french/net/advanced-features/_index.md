@@ -28,24 +28,36 @@ Avant de nous plonger dans les tutoriels, comprenons pourquoi Aspose.HTML pour .
 Dans le domaine du développement .NET, la maîtrise des fonctionnalités avancées peut ouvrir la voie à des possibilités infinies. Aspose.HTML vous fournit les outils nécessaires pour exploiter tout le potentiel de la manipulation HTML. Cet article vous guidera à travers une sélection de tutoriels, vous dévoilant comment exploiter Aspose.HTML pour diverses tâches.
 ### [Configuration de l'environnement dans .NET avec Aspose.HTML](./environment-configuration/)
 Découvrez comment travailler avec des documents HTML dans .NET à l'aide d'Aspose.HTML pour des tâches telles que la gestion des scripts, les styles personnalisés, le contrôle de l'exécution JavaScript, etc. Ce didacticiel complet fournit des exemples étape par étape et des FAQ pour vous aider à démarrer.
+
 ### [Créer un fournisseur de flux dans .NET avec Aspose.HTML](./create-stream-provider/)
 Découvrez comment utiliser Aspose.HTML pour .NET pour manipuler efficacement des documents HTML. Tutoriel étape par étape pour les développeurs.
+
 ### [Fournisseur de flux de mémoire dans .NET avec Aspose.HTML](./memory-stream-provider/)
 Découvrez comment créer de superbes documents HTML dans .NET avec Aspose.HTML. Suivez notre tutoriel étape par étape et découvrez la puissance de la manipulation HTML.
+
 ### [Créer un flux mémoire C# – Guide de création de flux personnalisé](./create-memory-stream-c-custom-stream-creation-guide/)
 Apprenez à créer un flux mémoire personnalisé en C# avec Aspose.HTML, incluant des exemples pas à pas et des conseils pratiques.
+
 ### [Web Scraping en .NET avec Aspose.HTML](./web-scraping/)
 Apprenez à manipuler des documents HTML dans .NET avec Aspose.HTML. Parcourez, filtrez, interrogez et sélectionnez des éléments de manière efficace pour un développement Web amélioré.
+
 ### [Utiliser la propriété de contenu étendu dans .NET avec Aspose.HTML](./use-extended-content-property/)
 Découvrez comment créer du contenu Web dynamique à l'aide d'Aspose.HTML pour .NET. Notre didacticiel couvre les prérequis, les instructions étape par étape et les FAQ pour les débutants.
+
 ### [Générer un PDF crypté par PdfDevice dans .NET avec Aspose.HTML](./generate-encrypted-pdf-by-pdfdevice/)
 Convertissez du HTML en PDF de manière dynamique avec Aspose.HTML pour .NET. Intégration facile, options personnalisables et performances robustes.
+
 ### [Ajustement précis des convertisseurs dans .NET avec Aspose.HTML](./fine-tuning-converters/)
 Découvrez comment convertir du HTML en PDF, XPS et images avec Aspose.HTML pour .NET. Tutoriel étape par étape avec des exemples de code et des FAQ.
+
 ### [Utilisation de modèles HTML dans .NET avec Aspose.HTML](./using-html-templates/)
 Découvrez comment utiliser Aspose.HTML pour .NET pour générer dynamiquement des documents HTML à partir de données JSON. Exploitez la puissance de la manipulation HTML dans vos applications .NET.
+
 ### [Comment combiner des polices programmatiquement en C# – Guide étape par étape](./how-to-combine-fonts-programmatically-in-c-step-by-step-guid/)
 Apprenez à combiner plusieurs polices en C# avec Aspose.HTML, étape par étape, incluant des exemples de code et des FAQ.
+
+### [Comment activer Clear Type – Activer le mode de lissage en .NET](./how-to-enable-clear-type-enable-smoothing-mode-in-net/)
+Apprenez à activer ClearType et le mode de lissage pour améliorer le rendu du texte dans vos applications .NET avec Aspose.HTML.
 
 ## Conclusion
 
