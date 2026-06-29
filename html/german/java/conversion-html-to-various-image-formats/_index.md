@@ -65,6 +65,9 @@ Wenn Sie **HTML in JPEG** für fotorealistische Darstellungen oder die Kompatibi
 ## HTML in PNG konvertieren
 Die Umwandlung von HTML in PNG‑Bilder ist ideal für verlustfreie Grafiken, Screenshots oder wenn Sie Transparenz benötigen. Unser umfassender Leitfaden bietet klare Anweisungen für ein reibungsloses Konvertierungserlebnis.
 
+### [Wie man DPI beim Konvertieren von HTML zu PNG festlegt – Vollständige Aspose HTML Anleitung](./how-to-set-dpi-when-converting-html-to-png-complete-aspose-h/)
+Erfahren Sie, wie Sie die DPI beim Rendern von HTML zu PNG mit Aspose.HTML for Java einstellen, um Bildqualität und Größe zu steuern.
+
 ## HTML in TIFF konvertieren
 Die Konvertierung von HTML zu TIFF ist perfekt für hochauflösenden Druck oder Archivspeicherung. Dieses Tutorial beschreibt die genauen Schritte, um TIFF‑Dateien effizient mit Aspose.HTML for Java zu erzeugen.
 
@@ -90,6 +93,10 @@ Erfahren Sie, wie Sie HTML in GIF mit Java und Aspose.HTML konvertieren. Ein umf
 Erfahren Sie, wie Sie HTML mit Aspose.HTML for Java in JPEG konvertieren. Schritt‑für‑Schritt‑Leitfaden für nahtlose Dokumentenverarbeitung.
 ### [HTML in PNG konvertieren](./convert-html-to-png/)
 Erfahren Sie, wie Sie HTML in PNG‑Bilder mit Java und Aspose.HTML konvertieren. Ein umfassender Leitfaden mit Schritt‑für‑Schritt‑Anweisungen.
+### [HTML in PNG konvertieren – Batch‑Export‑Leitfaden für Java](./convert-html-to-png-batch-export-guide-for-java/)
+Erfahren Sie, wie Sie mehrere HTML‑Dateien in PNG‑Bilder batchweise mit Aspose.HTML for Java exportieren.
+### [Wie man DPI beim Konvertieren von HTML zu PNG festlegt – Vollständige Aspose HTML Anleitung](./how-to-set-dpi-when-converting-html-to-png-complete-aspose-h/)
+Erfahren Sie, wie Sie die DPI beim Rendern von HTML zu PNG mit Aspose.HTML for Java einstellen, um Bildqualität und Größe zu steuern.
 ### [HTML in TIFF konvertieren](./convert-html-to-tiff/)
 Erfahren Sie, wie Sie HTML einfach mit Aspose.HTML for Java in TIFF konvertieren. Schritt‑für‑Schritt‑Leitfaden für effiziente Dokumentenverarbeitung.
 ### [HTML in WebP konvertieren](./convert-html-to-webp-complete-java-guide-with-aspose-html/)

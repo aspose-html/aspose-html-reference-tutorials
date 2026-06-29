@@ -54,7 +54,7 @@ Wywołaj `renderer.renderToFile(outputPath, saveOptions)`, aby wygenerować obra
 *Te same trzy kroki mają zastosowanie do BMP, TIFF i każdego innego obsługiwanego formatu.*
 
 ## Konwertowanie HTML do BMP
-Konwertowanie HTML do BMP jest częstym wymogiem przy archiwizacji stron internetowych lub generowaniu miniatur, które wymagają jakości bezstratnej. Niezależnie od tego, czy tworzysz system zarządzania dokumentami, czy narzędzie raportujące, ten przewodnik pokaże, jak wykonać konwersję bez wysiłku.
+Konwertowanie HTML do BMP jest częstym wymogiem przy archiwizacji stron internetowych lub generowaniu miniatur, które wymagają jakości bezstratnej. Niezależnie od tego, czy tworzysz system zarządzania dokumentami, czy narzędzie raportujące, ten przewodnik pokaże Ci, jak wykonać konwersję bez wysiłku.
 
 ## Konwertowanie HTML do GIF
 Chcesz **convert HTML to GIF** dla animowanych podglądów lub lekkich grafik? Aspose.HTML for Java upraszcza to zadanie. Ten samouczek przeprowadzi Cię przez proces, zapewniając wysokiej jakości wynik przy minimalnym kodzie.
@@ -64,22 +64,6 @@ Jeśli potrzebujesz **convert HTML to JPEG** dla reprezentacji podobnych do zdj�
 
 ## Konwertowanie HTML do PNG
 Przekształcanie HTML w obrazy PNG jest idealne dla grafik bezstratnych, zrzutów ekranu lub gdy potrzebna jest przezroczystość. Nasz kompleksowy przewodnik zapewnia jasne instrukcje dla płynnego doświadczenia konwersji.
-
-## Konwertowanie HTML do TIFF
-Konwertowanie HTML do TIFF jest idealne dla druku wysokiej rozdzielczości lub archiwizacji. Ten samouczek opisuje dokładne kroki, aby efektywnie generować pliki TIFF przy użyciu Aspose.HTML for Java.
-
-Korzystanie z Aspose.HTML for Java upraszcza konwersję dokumentów HTML do różnych formatów obrazu. Te samouczki wyposażą Cię w wiedzę i umiejętności potrzebne do efektywnego i skutecznego osiągnięcia tego. Powitaj świat łatwych konwersji HTML do formatów obrazu z Aspose.HTML for Java.
-
-## Typowe przypadki użycia i korzyści
-- **Automatyczne generowanie raportów** – Osadzaj dynamiczną zawartość internetową w raportach PDF lub Word jako obrazy.  
-- **Miniatury e‑mail** – Generuj obrazy podglądu do newsletterów bez usług zewnętrznych.  
-- **Migracja systemów legacy** – Konwertuj komponenty UI oparte na sieci do statycznych obrazów dla starszych platform.  
-- **Archiwizacja treści** – Zachowaj dokładne wizualne migawki stron internetowych w celach zgodności.
-
-## Porady dotyczące rozwiązywania problemów
-- **Pusty wynik** – Upewnij się, że źródło HTML jest w pełni załadowane; w razie potrzeby użyj `renderer.waitForComplete()`.  
-- **Duży rozmiar pliku (TIFF/BMP)** – Dostosuj DPI lub użyj opcji kompresji dostępnych w ustawieniach zapisu.  
-- **Brakujące czcionki** – Zainstaluj wymagane czcionki na serwerze lub osadź je w HTML przy użyciu `@font-face`.
 
 ## Konwersja - HTML do różnych formatów obrazu – samouczki
 ### [Converting HTML to BMP](./convert-html-to-bmp/)
@@ -94,10 +78,26 @@ Dowiedz się, jak konwertować HTML do JPEG przy użyciu Aspose.HTML for Java. P
 ### [Converting HTML to PNG](./convert-html-to-png/)
 Dowiedz się, jak konwertować HTML do obrazów PNG w Javie przy użyciu Aspose.HTML. Kompleksowy przewodnik z instrukcjami krok po kroku.
 
+### [Konwertowanie HTML do PNG – Przewodnik eksportu wsadowego w Javie](./convert-html-to-png-batch-export-guide-for-java/)
+Dowiedz się, jak masowo konwertować HTML do PNG w Javie przy użyciu Aspose.HTML. Przewodnik krok po kroku dla eksportu wsadowego.
+
+### [Jak ustawić DPI przy konwertowaniu HTML do PNG – Kompletny przewodnik Aspose HTML](./how-to-set-dpi-when-converting-html-to-png-complete-aspose-h/)
+
 ### [Converting HTML to TIFF](./convert-html-to-tiff/)
 Dowiedz się, jak łatwo konwertować HTML do TIFF przy użyciu Aspose.HTML for Java. Przewodnik krok po kroku dla efektywnego zarządzania dokumentami.
 
 ### [Konwertowanie HTML do WebP – Kompletny przewodnik Java z Aspose.HTML](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
+
+## Typowe przypadki użycia i korzyści
+- **Automatyczne generowanie raportów** – Osadzaj dynamiczną zawartość internetową w raportach PDF lub Word jako obrazy.  
+- **Miniatury e‑mail** – Generuj obrazy podglądu do newsletterów bez usług zewnętrznych.  
+- **Migracja systemów legacy** – Konwertuj komponenty UI oparte na sieci do statycznych obrazów dla starszych platform.  
+- **Archiwizacja treści** – Zachowaj dokładne wizualne migawki stron internetowych w celach zgodności.
+
+## Porady dotyczące rozwiązywania problemów
+- **Pusty wynik** – Upewnij się, że źródło HTML jest w pełni załadowane; w razie potrzeby użyj `renderer.waitForComplete()`.  
+- **Duży rozmiar pliku (TIFF/BMP)** – Dostosuj DPI lub użyj opcji kompresji dostępnych w ustawieniach zapisu.  
+- **Brakujące czcionki** – Zainstaluj wymagane czcionki na serwerze lub osadź je w HTML przy użyciu `@font-face`.
 
 ## Najczęściej zadawane pytania
 

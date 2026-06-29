@@ -48,6 +48,8 @@ Domine a criação de documentos HTML de forma assíncrona com Aspose.HTML para 
 Aprenda a criar documentos HTML vazios em Java usando Aspose.HTML com nosso tutorial detalhado passo a passo, perfeito para desenvolvedores de todos os níveis.
 ### [Carregar documentos HTML de arquivo em Aspose.HTML para Java](./load-html-documents-from-file/)
 Desbloqueie o poder da manipulação de HTML com Aspose.HTML para Java. Aprenda a carregar documentos HTML de arquivos com tutoriais passo a passo.
+### [Ler arquivo HTML Java – Guia completo usando Aspose.HTML](./read-html-file-java-complete-guide-using-aspose-html/)
+Aprenda a ler arquivos HTML em Java usando Aspose.HTML com este guia completo passo a passo.
 ### [Carregamento avançado de arquivos para documentos HTML em Aspose.HTML para Java](./advanced-file-loading-html-documents/)
 Aprenda como carregar, manipular e salvar documentos HTML usando Aspose.HTML para Java neste guia passo a passo. Desbloqueie processamento HTML avançado em seus projetos Java.
 ### [Carregar documentos HTML do Stream com Aspose.HTML para Java](./load-html-documents-from-stream/)
@@ -58,6 +60,8 @@ Aprenda a criar documentos HTML a partir de strings no Aspose.HTML para Java com
 Descubra como carregar facilmente documentos HTML de uma URL em Java com Aspose.HTML. Tutorial passo a passo incluso.
 ### [Como consultar HTML em Java – Tutorial completo](./how-to-query-html-in-java-complete-tutorial/)
 Aprenda a consultar e extrair dados de documentos HTML em Java usando Aspose.HTML com este tutorial passo a passo.
+### [Extrair texto de HTML em Java – Guia de programação completo](./extract-text-from-html-in-java-complete-programming-guide/)
+Aprenda a extrair texto de documentos HTML em Java usando Aspose.HTML com este guia de programação completo passo a passo.
 ### [Gerar novos documentos HTML usando Aspose.HTML para Java](./generate-new-html-documents/)
 Aprenda como criar novos documentos HTML usando Aspose.HTML para Java com este guia passo a passo fácil. Comece a gerar conteúdo HTML dinâmico.
 ### [Manipular eventos de carregamento de documentos em Aspose.HTML para Java](./handle-document-load-events/)

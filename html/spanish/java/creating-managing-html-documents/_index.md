@@ -50,6 +50,8 @@ Aprenda a crear documentos HTML vacíos en Java usando Aspose.HTML con nuestro d
 Aprenda a crear un entorno sandbox para HTML en Java con esta guía paso a paso, ideal para pruebas seguras y desarrollo aislado.
 ### [Cargar documentos HTML desde un archivo en Aspose.HTML para Java](./load-html-documents-from-file/)
 Descubra el poder de la manipulación de HTML con Aspose.HTML para Java. Aprenda a cargar documentos HTML desde archivos con tutoriales paso a paso.
+### [Leer archivo HTML en Java – Guía completa usando Aspose.HTML](./read-html-file-java-complete-guide-using-aspose-html/)
+Aprenda a leer archivos HTML en Java con Aspose.HTML mediante esta guía paso a paso completa.
 ### [Carga avanzada de archivos para documentos HTML en Aspose.HTML para Java](./advanced-file-loading-html-documents/)
 Aprenda a cargar, manipular y guardar documentos HTML con Aspose.HTML para Java en esta guía paso a paso. Descubra el procesamiento avanzado de HTML en sus proyectos Java.
 ### [Cargar documentos HTML desde Stream con Aspose.HTML para Java](./load-html-documents-from-stream/)
@@ -60,6 +62,8 @@ Aprenda a crear documentos HTML a partir de cadenas en Aspose.HTML para Java con
 Descubra cómo cargar fácilmente documentos HTML desde una URL en Java con Aspose.HTML. Incluye tutorial paso a paso.
 ### [Cómo consultar HTML en Java – Tutorial completo](./how-to-query-html-in-java-complete-tutorial/)
 Aprenda a consultar documentos HTML en Java usando Aspose.HTML con esta guía paso a paso completa.
+### [Extraer texto de HTML en Java – Guía completa de programación](./extract-text-from-html-in-java-complete-programming-guide/)
+Aprenda a extraer texto de documentos HTML en Java usando Aspose.HTML con esta guía paso a paso completa.
 ### [Generar nuevos documentos HTML con Aspose.HTML para Java](./generate-new-html-documents/)
 Aprenda a crear nuevos documentos HTML con Aspose.HTML para Java con esta sencilla guía paso a paso. Comience a generar contenido HTML dinámico.
 ### [Gestión de eventos de carga de documentos en Aspose.HTML para Java](./handle-document-load-events/)

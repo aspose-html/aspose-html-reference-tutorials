@@ -120,14 +120,18 @@ Tìm hiểu cách sử dụng Aspose.HTML for Java để triển khai DOM Mutati
 Học cách thao tác HTML5 Canvas bằng Aspose.HTML for Java. Tạo đồ họa tương tác với hướng dẫn chi tiết.
 ### [Thao tác HTML5 Canvas với Aspose.HTML for Java](./html5-canvas-manipulation-using-javascript/)
 Học cách thao tác HTML5 Canvas bằng JavaScript sử dụng Aspose.HTML for Java. Tạo đồ họa động và chuyển đổi sang PDF.
-### [Tự động điền biểu mẫu HTML với Aspose.HTML for Java](./html-form-editor-filling-submitting-forms/)
+### [Tự động điền biểu mẫu HTML với Aspose.HTML cho Java](./html-form-editor-filling-submitting-forms/)
 Tìm hiểu cách tự động điền và gửi biểu mẫu HTML bằng Aspose.HTML for Java. Đơn giản hoá tương tác web với tutorial này.
-### [Điều chỉnh kích thước trang PDF với Aspose.HTML for Java](./adjust-pdf-page-size/)
+### [Điều chỉnh kích thước trang PDF với Aspose.HTML cho Java](./adjust-pdf-page-size/)
 Học cách điều chỉnh kích thước trang PDF với Aspose.HTML for Java. Tạo PDF chất lượng cao từ HTML một cách dễ dàng. Kiểm soát kích thước trang hiệu quả.
-### [Điều chỉnh kích thước trang XPS với Aspose.HTML for Java](./adjust-xps-page-size/)
+### [Điều chỉnh kích thước trang XPS với Aspose.HTML cho Java](./adjust-xps-page-size/)
 Học cách điều chỉnh kích thước trang XPS với Aspose.HTML for Java. Kiểm soát kích thước đầu ra của tài liệu XPS một cách dễ dàng.
 ### [Cách chạy JavaScript trong Java – Hướng dẫn toàn diện](./how-to-run-javascript-in-java-complete-guide/)
 Hướng dẫn chi tiết cách thực thi mã JavaScript trong ứng dụng Java bằng Aspose.HTML, bao gồm thiết lập môi trường và ví dụ thực tế.
+### [Kích hoạt thực thi JavaScript Aspose – Hướng dẫn toàn diện cho Java](./enable-javascript-execution-aspose-complete-java-guide/)
+Hướng dẫn chi tiết cách bật và chạy JavaScript trong Aspose.HTML for Java, bao gồm cấu hình môi trường và ví dụ thực tế.
+### [Tạo sandbox cho HTML trong Java – Hướng dẫn chi tiết từng bước](./create-sandbox-for-html-in-java-complete-step-by-step-guide/)
+Hướng dẫn toàn diện cách tạo môi trường sandbox cho HTML trong Java, giúp chạy và kiểm thử mã an toàn.
 
 ---
 
