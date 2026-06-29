@@ -66,6 +66,10 @@ Java için Aspose.HTML kullanarak SVG belgeleri oluşturmayı ve yönetmeyi öğ
 Java için Aspose.HTML kullanarak HTML sandbox oluşturmayı adım adım öğrenin.
 ### [Java için Aspose.HTML'de HTML Sorgulama – Tam Kılavuz](./how-to-query-html-in-java-complete-tutorial/)
 Java için Aspose.HTML kullanarak HTML içeriğini nasıl sorgulayacağınızı adım adım öğrenin.
+### [Java’da HTML Dosyasını Okuma – Aspose.HTML Kullanarak Tam Kılavuz](./read-html-file-java-complete-guide-using-aspose-html/)
+Aspose.HTML for Java ile HTML dosyalarını nasıl okuyacağınızı adım adım öğrenin.
+### [Java için Aspose.HTML'de HTML'den Metin Çıkarma – Tam Programlama Kılavuzu](./extract-text-from-html-in-java-complete-programming-guide/)
+Java için Aspose.HTML kullanarak HTML belgelerinden metin çıkarmayı adım adım öğrenin. Tam kılavuz ve örnek kodlar içerir.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

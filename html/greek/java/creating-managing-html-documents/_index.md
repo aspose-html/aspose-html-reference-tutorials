@@ -48,6 +48,8 @@ url: /el/java/creating-managing-html-documents/
 Μάθετε πώς να δημιουργείτε κενά έγγραφα HTML σε Java χρησιμοποιώντας το Aspose.HTML με τον αναλυτικό μας οδηγό βήμα προς βήμα, ιδανικό για προγραμματιστές όλων των επιπέδων.
 ### [Φόρτωση εγγράφων HTML από το αρχείο στο Aspose.HTML για Java](./load-html-documents-from-file/)
 Ξεκλειδώστε τη δύναμη του χειρισμού HTML με το Aspose.HTML για Java. Μάθετε να φορτώνετε έγγραφα HTML από αρχεία με οδηγίες βήμα προς βήμα.
+### [Ανάγνωση αρχείου HTML Java – Πλήρης οδηγός με χρήση Aspose.HTML](./read-html-file-java-complete-guide-using-aspose-html/)
+Μάθετε πώς να διαβάζετε αρχεία HTML σε Java χρησιμοποιώντας το Aspose.HTML με βήμα‑βήμα οδηγίες.
 ### [Σύνθετη φόρτωση αρχείων για έγγραφα HTML στο Aspose.HTML για Java](./advanced-file-loading-html-documents/)
 Μάθετε πώς να φορτώνετε, να χειρίζεστε και να αποθηκεύετε έγγραφα HTML χρησιμοποιώντας το Aspose.HTML για Java σε αυτόν τον οδηγό βήμα προς βήμα. Ξεκλειδώστε την προηγμένη επεξεργασία HTML στα έργα σας Java.
 ### [Φόρτωση εγγράφων HTML από τη ροή με το Aspose.HTML για Java](./load-html-documents-from-stream/)
@@ -66,6 +68,8 @@ url: /el/java/creating-managing-html-documents/
 Μάθετε να δημιουργείτε και να διαχειρίζεστε έγγραφα SVG χρησιμοποιώντας το Aspose.HTML για Java! Αυτός ο περιεκτικός οδηγός καλύπτει τα πάντα, από τη βασική δημιουργία έως την προηγμένη χειραγώγηση.
 ### [Πώς να ερωτήσετε HTML σε Java – Πλήρης οδηγός](./how-to-query-html-in-java-complete-tutorial/)
 Μάθετε πώς να εκτελείτε ερωτήματα σε έγγραφα HTML με Java χρησιμοποιώντας το Aspose.HTML, βήμα‑βήμα οδηγίες και παραδείγματα.
+### [Εξαγωγή κειμένου από HTML σε Java – Πλήρης οδηγός προγραμματισμού](./extract-text-from-html-in-java-complete-programming-guide/)
+Μάθετε πώς να εξάγετε κείμενο από έγγραφα HTML σε Java χρησιμοποιώντας το Aspose.HTML με οδηγίες βήμα‑βήμα.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -70,6 +70,13 @@ Ha **HTML‑t JPEG‑be** kell konvertálni fotó‑szerű megjelenítés vagy r
 
 A HTML PNG képekké alakítása ideális veszteségmentes grafikákhoz, képernyőképekhez vagy átlátszóság szükségessége esetén. Részletes útmutatónk világos instrukciókat nyújt a zökkenőmentes konverzióhoz.
 
+### [HTML átalakítása PNG‑be](./convert-html-to-png/)
+Ismerje meg, hogyan konvertálhat HTML‑t PNG képekké Java‑ban az Aspose.HTML használatával. Átfogó útmutató részletes instrukciókkal.
+### [HTML átalakítása PNG‑be – Kötegelt export útmutató Java‑ban](./convert-html-to-png-batch-export-guide-for-java/)
+Ismerje meg, hogyan exportálhat HTML‑t PNG‑ként kötegelt módon Java‑ban az Aspose.HTML segítségével.
+### [HTML átalakítása PNG‑be – DPI beállítása (Teljes útmutató)](./how-to-set-dpi-when-converting-html-to-png-complete-aspose-h/)
+Ismerje meg, hogyan állíthatja be a DPI‑t HTML‑t PNG‑be konvertáláskor az Aspose.HTML használatával. Részletes, lépésről‑lépésre útmutató.
+
 ## HTML átalakítása TIFF‑be
 
 A HTML TIFF‑be konvertálása tökéletes magas felbontású nyomtatáshoz vagy archiváláshoz. Ez az oktatóanyag pontos lépéseket mutat be a TIFF fájlok hatékony előállításához az Aspose.HTML for Java használatával.
@@ -96,6 +103,8 @@ Ismerje meg, hogyan konvertálhat HTML‑t GIF‑be Java‑ban az Aspose.HTML ha
 Tanulja meg, hogyan konvertálhat HTML‑t JPEG‑be az Aspose.HTML for Java segítségével. Lépésről‑lépésre útmutató a zökkenőmentes dokumentumfeldolgozáshoz.
 ### [HTML átalakítása PNG‑be](./convert-html-to-png/)
 Ismerje meg, hogyan konvertálhat HTML‑t PNG képekké Java‑ban az Aspose.HTML használatával. Átfogó útmutató részletes instrukciókkal.
+### [HTML átalakítása PNG‑be – DPI beállítása (Teljes útmutató)](./how-to-set-dpi-when-converting-html-to-png-complete-aspose-h/)
+Ismerje meg, hogyan állíthatja be a DPI‑t HTML‑t PNG‑be konvertáláskor az Aspose.HTML használatával. Részletes, lépésről‑lépésre útmutató.
 ### [HTML átalakítása TIFF‑be](./convert-html-to-tiff/)
 Tanulja meg, hogyan konvertálhat HTML‑t TIFF‑be az Aspose.HTML for Java segítségével. Lépésről‑lépésre útmutató a hatékony dokumentumkezeléshez.
 ### [HTML konvertálása WebP‑be – Teljes Java útmutató az Aspose.HTML‑el](./convert-html-to-webp-complete-java-guide-with-aspose-html/)

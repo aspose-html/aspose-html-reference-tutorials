@@ -108,6 +108,11 @@ Aspose.HTML for Java упрощает процесс конвертации HTML
 ### [Конвертация HTML в PDF в Java – Пошаговое руководство с настройками размера страницы](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Подробное пошаговое руководство по конвертации HTML в PDF в Java с настройкой размеров страниц.
 
+### [Как конвертировать HTML‑файл в PDF в Java – Полное руководство](./how-to-convert-html-file-to-pdf-in-java-full-guide/)
+
+### [Создание PDF из Markdown в Java – Полное пошаговое руководство](./create-pdf-from-markdown-in-java-full-step-by-step-guide/)
+Узнайте, как создать PDF из файлов Markdown в Java с помощью Aspose.HTML, следуя полному пошаговому руководству.
+
 ## Часто задаваемые вопросы
 
 **Q: Можно ли использовать Aspose.HTML for Java в коммерческом приложении?**  

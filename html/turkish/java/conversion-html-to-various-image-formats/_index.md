@@ -60,7 +60,7 @@ HTML'yi BMP'ye dönüştürmek, web sayfalarını arşivleme veya kayıpsız kal
 
 ## HTML'yi GIF'ye Dönüştürme
 
-**HTML'yi GIF'ye dönüştürmek** ister misiniz? Animasyonlu ön izlemeler veya hafif grafikler için ideal bir çözümdür. Aspose.HTML for Java bu süreci basitleştirir. Bu eğitim, yüksek kaliteli çıktıyı minimum kodla elde etmenizi sağlar.
+**HTML'yi GIF'ye dönüştürmek**, animasyonlu ön izlemeler veya hafif grafikler için ideal bir çözümdür. Aspose.HTML for Java bu süreci basitleştirir. Bu eğitim, yüksek kaliteli çıktıyı minimum kodla elde etmenizi sağlar.
 
 ## HTML'yi JPEG'ye Dönüştürme
 
@@ -100,6 +100,10 @@ Aspose.HTML ile Java'da HTML'yi PNG görüntülerine dönüştürmeyi öğrenin.
 Aspose.HTML for Java kullanarak HTML'yi TIFF'ye kolayca dönüştürmeyi öğrenin. Verimli belge işleme için adım‑adım bir rehber.
 ### [HTML'yi WebP'ye Dönüştür – Aspose.HTML ile Tam Java Rehberi](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
 Aspose.HTML for Java kullanarak HTML'yi WebP formatına yüksek kaliteyle dönüştürmeyi adım adım öğrenin.
+### [HTML'yi PNG'ye Dönüştürürken DPI Ayarlama – Tam Aspose HTML Rehberi](./how-to-set-dpi-when-converting-html-to-png-complete-aspose-h/)
+Aspose.HTML for Java kullanarak HTML'den PNG'ye dönüşürken DPI değerini nasıl ayarlayacağınızı adım adım öğrenin.
+### [HTML'yi PNG'ye Dönüştür – Java Toplu Dışa Aktarma Kılavuzu](./convert-html-to-png-batch-export-guide-for-java/)
+Aspose.HTML for Java kullanarak birden çok HTML dosyasını toplu olarak PNG'ye dönüştürmeyi adım adım öğrenin.
 
 ## Sıkça Sorulan Sorular
 
@@ -107,7 +111,7 @@ Aspose.HTML for Java kullanarak HTML'yi WebP formatına yüksek kaliteyle dönü
 C: Evet, Aspose.HTML for Java PNG renderlamasını dahili olarak gerçekleştirir; ekstra kütüphane gerekmez.
 
 **S: HTML'den animasyonlu GIF oluşturmak mümkün mü?**  
-C: Aspose.HTML statik GIF görüntüleri oluşturabilir. Animasyonlu GIF'ler için birden çok çerçeveyi renderlayıp ayrı bir GIF kodlayıcı ile birleştirmeniz gerekir.
+C: Aspose.HTML statik GIF görüntüleri oluşturabilir. Animasyonlu GIFler için birden çok çerçeveyi renderlayıp ayrı bir GIF kodlayıcı ile birleştirmeniz gerekir.
 
 **S: Kütüphane CSS3 özellikleri (gradient, flexbox vb.) destekliyor mu?**  
 C: Kesinlikle. Aspose.HTML modern CSS3 spesifikasyonlarını tam olarak destekler, doğru görsel çıktı sağlar.

@@ -48,6 +48,8 @@ Opanuj asynchroniczne tworzenie dokumentów HTML za pomocą Aspose.HTML dla Java
 Dowiedz się, jak tworzyć puste dokumenty HTML w języku Java za pomocą Aspose.HTML, korzystając z naszego szczegółowego samouczka krok po kroku, idealnego dla programistów na każdym poziomie zaawansowania.
 ### [Załaduj dokumenty HTML z pliku w Aspose.HTML dla Java](./load-html-documents-from-file/)
 Odblokuj moc manipulacji HTML za pomocą Aspose.HTML dla Java. Naucz się ładować dokumenty HTML z plików za pomocą samouczków krok po kroku.
+### [Odczyt pliku HTML w Javie – kompletny przewodnik z użyciem Aspose.HTML](./read-html-file-java-complete-guide-using-aspose-html/)
+Dowiedz się, jak odczytać plik HTML w Javie przy pomocy Aspose.HTML, krok po kroku, z praktycznymi przykładami.
 ### [Zaawansowane ładowanie plików dla dokumentów HTML w Aspose.HTML dla Java](./advanced-file-loading-html-documents/)
 Dowiedz się, jak ładować, manipulować i zapisywać dokumenty HTML za pomocą Aspose.HTML dla Java w tym przewodniku krok po kroku. Odblokuj zaawansowane przetwarzanie HTML w swoich projektach Java.
 ### [Ładowanie dokumentów HTML ze strumienia za pomocą Aspose.HTML dla Java](./load-html-documents-from-stream/)
@@ -66,6 +68,8 @@ Naucz się tworzyć i zarządzać dokumentami SVG za pomocą Aspose.HTML dla Jav
 Dowiedz się, jak skonfigurować bezpieczną piaskownicę HTML w Javie, aby testować i uruchamiać kod w izolowanym środowisku.
 ### [Jak zapytać HTML w Javie – Kompletny samouczek](./how-to-query-html-in-java-complete-tutorial/)
 Dowiedz się, jak efektywnie zapytać i przetwarzać dokumenty HTML w Javie przy użyciu Aspose.HTML.
+### [Wyodrębnianie tekstu z HTML w Javie – Kompletny przewodnik programistyczny](./extract-text-from-html-in-java-complete-programming-guide/)
+Dowiedz się, jak wyodrębnić tekst z dokumentów HTML w Javie przy użyciu Aspose.HTML, krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

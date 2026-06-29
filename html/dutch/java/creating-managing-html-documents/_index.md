@@ -48,6 +48,8 @@ Beheers HTML-documentcreatie asynchroon met Aspose.HTML voor Java. Stapsgewijze 
 Leer hoe u lege HTML-documenten in Java kunt maken met Aspose.HTML met onze gedetailleerde stapsgewijze tutorial, perfect voor ontwikkelaars van alle niveaus.
 ### [HTML-documenten laden vanuit een bestand in Aspose.HTML voor Java](./load-html-documents-from-file/)
 Ontgrendel de kracht van HTML-manipulatie met Aspose.HTML voor Java. Leer HTML-documenten laden vanuit bestanden met stapsgewijze tutorials.
+### [HTML-bestand lezen in Java – Complete gids met Aspose.HTML](./read-html-file-java-complete-guide-using-aspose-html/)
+Leer hoe u HTML-bestanden kunt lezen in Java met Aspose.HTML in deze volledige stap‑voor‑stap handleiding.
 ### [Geavanceerd laden van bestanden voor HTML-documenten in Aspose.HTML voor Java](./advanced-file-loading-html-documents/)
 Leer hoe u HTML-documenten laadt, bewerkt en opslaat met Aspose.HTML voor Java in deze stapsgewijze handleiding. Ontgrendel geavanceerde HTML-verwerking in uw Java-projecten.
 ### [Laad HTML-documenten uit de stream met Aspose.HTML voor Java](./load-html-documents-from-stream/)
@@ -56,6 +58,8 @@ Leer hoe u HTML-documenten laadt uit streams met Aspose.HTML voor Java. Deze gid
 Leer hoe u HTML-documenten van strings maakt in Aspose.HTML voor Java met deze stapsgewijze handleiding.
 ### [HTML-documenten laden vanaf URL in Aspose.HTML voor Java](./load-html-documents-from-url/)
 Ontdek hoe u eenvoudig HTML-documenten kunt laden vanaf een URL in Java met Aspose.HTML. Inclusief stapsgewijze tutorial.
+### [Tekst extraheren uit HTML in Java – Complete programmeergids](./extract-text-from-html-in-java-complete-programming-guide/)
+Leer hoe u tekst uit HTML-documenten haalt in Java met Aspose.HTML in deze volledige stap‑voor‑stap gids.
 ### [Genereer nieuwe HTML-documenten met Aspose.HTML voor Java](./generate-new-html-documents/)
 Leer hoe u nieuwe HTML-documenten maakt met Aspose.HTML voor Java met deze eenvoudige stapsgewijze handleiding. Begin met het genereren van dynamische HTML-inhoud.
 ### [Documentlaadgebeurtenissen afhandelen in Aspose.HTML voor Java](./handle-document-load-events/)

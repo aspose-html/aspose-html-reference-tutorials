@@ -58,6 +58,8 @@ Lär dig hur du skapar HTML-dokument från strängar i Aspose.HTML för Java med
 Upptäck hur du enkelt laddar HTML-dokument från en URL i Java med Aspose.HTML. Steg-för-steg handledning ingår.
 ### [Hur du frågar HTML i Java – Komplett handledning](./how-to-query-html-in-java-complete-tutorial/)
 Lär dig hur du söker och extraherar data från HTML-dokument i Java med en komplett steg-för-steg-guide.
+### [Extrahera text från HTML i Java – Komplett programmeringsguide](./extract-text-from-html-in-java-complete-programming-guide/)
+Lär dig hur du extraherar text från HTML i Java med Aspose.HTML i denna kompletta steg‑för‑steg‑guide.
 ### [Generera nya HTML-dokument med Aspose.HTML för Java](./generate-new-html-documents/)
 Lär dig hur du skapar nya HTML-dokument med Aspose.HTML för Java med denna enkla steg-för-steg-guide. Börja generera dynamiskt HTML-innehåll.
 ### [Hantera dokumentladdningshändelser i Aspose.HTML för Java](./handle-document-load-events/)
@@ -65,7 +67,9 @@ Lär dig att hantera dokumentladdningshändelser i Aspose.HTML för Java med den
 ### [Skapa och hantera SVG-dokument i Aspose.HTML för Java](./create-manage-svg-documents/)
 Lär dig att skapa och hantera SVG-dokument med Aspose.HTML för Java! Den här omfattande guiden täcker allt från grundläggande skapande till avancerad manipulation.
 ### [Skapa sandlåda för HTML i Java – Steg‑för‑steg‑guide](./create-sandbox-for-html-in-java-step-by-step-guide/)
-Lär dig hur du skapar en säker sandlåda för HTML i Java med vår detaljerade steg-för-steg‑guide.
+Lär dig hur du skapar en säker sandlåda för HTML i Java med vår detaljerade steg‑för‑steg‑guide.
+### [Läs HTML-fil i Java – Komplett guide med Aspose.HTML](./read-html-file-java-complete-guide-using-aspose-html/)
+Lär dig hur du läser HTML-filer i Java med Aspose.HTML i denna kompletta steg‑för‑steg‑guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
