@@ -45,6 +45,10 @@ url: /el/net/generate-jpg-and-png-images/
 Μάθετε πώς να βελτιώσετε την ποιότητα των εικόνων ενεργοποιώντας το antialiasing κατά τη μετατροπή αρχείων DOCX σε PNG ή JPG.
 ### [Μετατροπή docx σε png – δημιουργία αρχείου zip με C# σεμινάριο](./convert-docx-to-png-create-zip-archive-c-tutorial/)
 Μάθετε πώς να μετατρέψετε αρχεία DOCX σε PNG και να δημιουργήσετε αρχείο ZIP χρησιμοποιώντας C#.
+### [Δημιουργία PNG από HTML – Πλήρης Οδηγός Aspose.HTML](./create-png-from-html-complete-aspose-html-guide/)
+Μάθετε πώς να μετατρέψετε HTML σε PNG με πλήρη οδηγό και παραδείγματα χρησιμοποιώντας το Aspose.HTML.
+### [Προσαρμοσμένος Διαχειριστής Πόρων σε C# – Αποδοτική Μετατροπή Word σε PNG](./custom-resource-handler-in-c-convert-word-to-png-efficiently/)
+Μάθετε πώς να χρησιμοποιήσετε προσαρμοσμένο διαχειριστή πόρων σε C# για αποδοτική μετατροπή αρχείων Word σε PNG.
 
 ## Σύναψη
 
