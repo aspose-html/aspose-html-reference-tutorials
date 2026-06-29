@@ -1,0 +1,7 @@
+Title: Custom Resource Handler in C# – Convert Word to PNG Efficiently
+Slug: custom-resource-handler-in-c-convert-word-to-png-efficiently
+Category: generate-jpg-and-png-images
+ProcessedDate: 2026-06-29T10:39:07.901327
+SourceRepo: AI Search API
+Keywords: custom resource handler, convert word to png, set bold font, image rendering options, use font hinting
+PRNumber: 195
