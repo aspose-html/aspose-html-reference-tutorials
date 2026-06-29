@@ -1,0 +1,7 @@
+Title: How to Set DPI When Converting HTML to PNG – Complete Aspose HTML Guide
+Slug: how-to-set-dpi-when-converting-html-to-png-complete-aspose-h
+Category: conversion-html-to-various-image-formats
+ProcessedDate: 2026-06-29T11:28:53.445457
+SourceRepo: AI Search API
+Keywords: how to set dpi, convert html to png, set image resolution, convert html page, aspose html converter
+PRNumber: 196
