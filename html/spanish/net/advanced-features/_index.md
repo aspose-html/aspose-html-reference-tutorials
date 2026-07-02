@@ -46,6 +46,8 @@ Aprenda a convertir HTML a PDF, XPS e imágenes con Aspose.HTML para .NET. Tutor
 Aprenda a utilizar Aspose.HTML para .NET para generar documentos HTML de forma dinámica a partir de datos JSON. Aproveche el poder de la manipulación de HTML en sus aplicaciones .NET.
 ### [Cómo combinar fuentes programáticamente en C# – Guía paso a paso](./how-to-combine-fonts-programmatically-in-c-step-by-step-guid/)
 Aprenda a combinar fuentes en C# de forma programática con ejemplos claros y paso a paso.
+### [Convertir documento Word a PDF – Guía de texto claro (C#)](./convert-word-document-to-pdf-clear-text-guide-c/)
+Aprenda a convertir documentos Word a PDF en C# usando Aspose.HTML, con pasos claros y ejemplos prácticos.
 
 ## Conclusión
 

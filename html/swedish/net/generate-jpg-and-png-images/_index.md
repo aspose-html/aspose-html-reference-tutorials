@@ -45,6 +45,8 @@ Lär dig att använda Aspose.HTML för .NET för att manipulera HTML-dokument, k
 Lär dig hur du aktiverar kantutjämning för att förbättra bildkvaliteten när du konverterar DOCX-dokument till PNG eller JPG med Aspose.HTML.
 ### [Konvertera DOCX till PNG – skapa zip‑arkiv C#‑handledning](./convert-docx-to-png-create-zip-archive-c-tutorial/)
 Lär dig hur du konverterar DOCX-filer till PNG-bilder och packar dem i ett zip‑arkiv med C# och Aspose.HTML.
+### [Skapa JPEG från Word – Komplett C#-guide](./create-jpeg-from-word-complete-c-guide/)
+Lär dig hur du konverterar Word-dokument till JPEG-bilder med en komplett C#-guide och Aspose.HTML.
 
 ## Slutsats
 
