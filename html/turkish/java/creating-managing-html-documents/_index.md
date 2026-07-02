@@ -56,6 +56,8 @@ Java için Aspose.HTML kullanarak akışlardan HTML belgelerinin nasıl yüklene
 Bu adım adım kılavuzla Java için Aspose.HTML'de dizelerden HTML belgelerinin nasıl oluşturulacağını öğrenin.
 ### [Java için Aspose.HTML'de URL'den HTML Belgelerini Yükle](./load-html-documents-from-url/)
 Aspose.HTML ile Java'da bir URL'den HTML belgelerinin nasıl kolayca yükleneceğini keşfedin. Adım adım eğitim dahildir.
+### [Java için Aspose.HTML'de URL'den HTML Yükleme – CSS ve XPath ile Tam Kılavuz](./load-html-from-url-in-java-complete-guide-with-css-xpath/)
+Java için Aspose.HTML kullanarak bir URL'den HTML içeriğini CSS seçicileri ve XPath ifadeleriyle nasıl yükleyeceğinizi ve analiz edeceğinizi öğrenin.
 ### [Java için Aspose.HTML kullanarak Yeni HTML Belgeleri Oluşturun](./generate-new-html-documents/)
 Bu kolay adım adım kılavuzla Aspose.HTML for Java kullanarak yeni HTML belgelerinin nasıl oluşturulacağını öğrenin. Dinamik HTML içeriği oluşturmaya başlayın.
 ### [Java için Aspose.HTML'de Belge Yükleme Olaylarını Yönetme](./handle-document-load-events/)
@@ -66,6 +68,10 @@ Java için Aspose.HTML kullanarak SVG belgeleri oluşturmayı ve yönetmeyi öğ
 Java için Aspose.HTML kullanarak HTML sandbox oluşturmayı adım adım öğrenin.
 ### [Java için Aspose.HTML'de HTML Sorgulama – Tam Kılavuz](./how-to-query-html-in-java-complete-tutorial/)
 Java için Aspose.HTML kullanarak HTML içeriğini nasıl sorgulayacağınızı adım adım öğrenin.
+### [Java için Hesaplanmış Stili Al – Tam Programlama Kılavuzu](./get-computed-style-java-complete-programming-guide/)
+Java için Aspose.HTML kullanarak hesaplanmış stil değerlerini nasıl alacağınızı adım adım öğrenin.
+### [Java için Aspose.HTML'de HTML Belgesi Oluşturma – Tam Java Kılavuzu](./create-html-document-with-aspose-html-complete-java-guide/)
+Aspose.HTML kullanarak Java'da HTML belgesi oluşturmayı adım adım öğrenin. Tam kapsamlı rehber, örnek kodlar ve ipuçları içerir.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

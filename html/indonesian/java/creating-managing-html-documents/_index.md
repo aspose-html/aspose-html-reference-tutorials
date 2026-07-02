@@ -56,6 +56,8 @@ Pelajari cara memuat dokumen HTML dari aliran menggunakan Aspose.HTML untuk Java
 Pelajari cara membuat dokumen HTML dari string di Aspose.HTML untuk Java dengan panduan langkah demi langkah ini.
 ### [Memuat Dokumen HTML dari URL di Aspose.HTML untuk Java](./load-html-documents-from-url/)
 Temukan cara mudah memuat dokumen HTML dari URL di Java dengan Aspose.HTML. Tutorial langkah demi langkah disertakan.
+### [Memuat HTML dari URL di Java – Panduan Lengkap dengan CSS & XPath](./load-html-from-url-in-java-complete-guide-with-css-xpath/)
+Panduan lengkap memuat HTML dari URL di Java menggunakan Aspose.HTML, termasuk penggunaan CSS selector dan XPath untuk ekstraksi data.
 ### [Hasilkan Dokumen HTML Baru menggunakan Aspose.HTML untuk Java](./generate-new-html-documents/)
 Pelajari cara membuat dokumen HTML baru menggunakan Aspose.HTML untuk Java dengan panduan langkah demi langkah yang mudah ini. Mulai buat konten HTML yang dinamis.
 ### [Menangani Peristiwa Pemuatan Dokumen di Aspose.HTML untuk Java](./handle-document-load-events/)
@@ -65,6 +67,12 @@ Pelajari cara membuat dan mengelola dokumen SVG menggunakan Aspose.HTML untuk Ja
 ### [Buat Sandbox untuk HTML di Java – Panduan Langkah‑per‑Langkah](./create-sandbox-for-html-in-java-step-by-step-guide/)
 Pelajari cara membuat sandbox HTML di Java dengan panduan langkah demi langkah untuk pengujian dan pengembangan yang aman.
 ### [Cara Menanyakan HTML di Java – Tutorial Lengkap](./how-to-query-html-in-java-complete-tutorial/)
+
+### [Dapatkan Computed Style Java – Panduan Pemrograman Lengkap](./get-computed-style-java-complete-programming-guide/)
+Pelajari cara mendapatkan gaya terhitung pada elemen HTML menggunakan Aspose.HTML untuk Java dengan panduan lengkap.
+
+### [Buat Dokumen HTML dengan Aspose.HTML – Panduan Lengkap Java](./create-html-document-with-aspose-html-complete-java-guide/)
+Panduan lengkap untuk membuat dokumen HTML menggunakan Aspose.HTML di Java, langkah demi langkah dengan contoh kode.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
