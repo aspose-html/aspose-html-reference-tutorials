@@ -56,14 +56,20 @@ Lär dig hur du laddar HTML-dokument från strömmar med Aspose.HTML för Java. 
 Lär dig hur du skapar HTML-dokument från strängar i Aspose.HTML för Java med denna steg-för-steg-guide.
 ### [Ladda HTML-dokument från URL i Aspose.HTML för Java](./load-html-documents-from-url/)
 Upptäck hur du enkelt laddar HTML-dokument från en URL i Java med Aspose.HTML. Steg-för-steg handledning ingår.
+### [Ladda HTML från URL i Java – Komplett guide med CSS & XPath](./load-html-from-url-in-java-complete-guide-with-css-xpath/)
+Lär dig hur du laddar HTML från en URL i Java med stöd för CSS‑ och XPath‑frågor. Fullständig steg‑för‑steg‑guide.
 ### [Hur du frågar HTML i Java – Komplett handledning](./how-to-query-html-in-java-complete-tutorial/)
 Lär dig hur du söker och extraherar data från HTML-dokument i Java med en komplett steg-för-steg-guide.
+### [Hämta beräknad stil i Java – Komplett programmeringsguide](./get-computed-style-java-complete-programming-guide/)
+Lär dig hur du hämtar beräknad CSS‑stil för HTML‑element i Java med Aspose.HTML. Steg‑för‑steg‑guide med exempel och tips.
 ### [Generera nya HTML-dokument med Aspose.HTML för Java](./generate-new-html-documents/)
 Lär dig hur du skapar nya HTML-dokument med Aspose.HTML för Java med denna enkla steg-för-steg-guide. Börja generera dynamiskt HTML-innehåll.
 ### [Hantera dokumentladdningshändelser i Aspose.HTML för Java](./handle-document-load-events/)
 Lär dig att hantera dokumentladdningshändelser i Aspose.HTML för Java med denna steg-för-steg-guide. Förbättra dina webbapplikationer.
 ### [Skapa och hantera SVG-dokument i Aspose.HTML för Java](./create-manage-svg-documents/)
 Lär dig att skapa och hantera SVG-dokument med Aspose.HTML för Java! Den här omfattande guiden täcker allt från grundläggande skapande till avancerad manipulation.
+### [Skapa HTML-dokument med Aspose.HTML – Komplett Java-guide](./create-html-document-with-aspose-html-complete-java-guide/)
+Lär dig att skapa HTML-dokument med Aspose.HTML i Java genom en komplett steg-för-steg-guide med exempel och bästa praxis.
 ### [Skapa sandlåda för HTML i Java – Steg‑för‑steg‑guide](./create-sandbox-for-html-in-java-step-by-step-guide/)
 Lär dig hur du skapar en säker sandlåda för HTML i Java med vår detaljerade steg-för-steg‑guide.
 

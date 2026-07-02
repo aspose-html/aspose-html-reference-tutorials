@@ -52,6 +52,8 @@ Dowiedz się, jak zapisać dokument HTML do pliku za pomocą Aspose.HTML dla Jav
 Łatwo konwertuj HTML do Markdown za pomocą Aspose.HTML dla Java. Postępuj zgodnie z tym przewodnikiem krok po kroku, aby płynnie konwertować i manipulować treścią.
 ### [Zapisz HTML do MHTML w Aspose.HTML dla Java](./save-html-to-mhtml/)
 Dowiedz się, jak zapisywać dokumenty HTML w formacie MHTML za pomocą Aspose.HTML dla Java, korzystając z tego przewodnika krok po kroku, który zawiera przykłady kodu i praktyczne wskazówki.
+### [Zapisz stronę internetową jako MHTML przy użyciu Aspose HTML dla Java – przewodnik krok po kroku](./save-webpage-as-mhtml-with-aspose-html-for-java-step-by-step/)
+Dowiedz się, jak zapisać stronę internetową w formacie MHTML przy użyciu Aspose.HTML dla Java, korzystając z tego szczegółowego przewodnika krok po kroku.
 ### [Zapisz dokument SVG w Aspose.HTML dla Java](./save-svg-document/)
 Dowiedz się, jak zapisywać dokumenty SVG za pomocą Aspose.HTML dla Java, korzystając z tego prostego przewodnika krok po kroku wypełnionego przykładami.
 {{< /blocks/products/pf/tutorial-page-section >}}

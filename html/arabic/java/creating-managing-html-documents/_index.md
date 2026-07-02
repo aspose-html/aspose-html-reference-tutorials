@@ -56,6 +56,8 @@ url: /ar/java/creating-managing-html-documents/
 تعرف على كيفية إنشاء مستندات HTML من السلاسل في Aspose.HTML لـ Java باستخدام هذا الدليل خطوة بخطوة.
 ### [تحميل مستندات HTML من URL في Aspose.HTML لـ Java](./load-html-documents-from-url/)
 اكتشف كيفية تحميل مستندات HTML بسهولة من عنوان URL في Java باستخدام Aspose.HTML. يتضمن البرنامج التعليمي خطوة بخطوة.
+### [تحميل HTML من URL في Aspose.HTML لـ Java – دليل كامل مع CSS و XPath](./load-html-from-url-in-java-complete-guide-with-css-xpath/)
+اكتشف كيفية تحميل HTML من عنوان URL في Java باستخدام Aspose.HTML، مع شرح شامل لاستخدام CSS و XPath.
 ### [إنشاء مستندات HTML جديدة باستخدام Aspose.HTML لـ Java](./generate-new-html-documents/)
 تعرف على كيفية إنشاء مستندات HTML جديدة باستخدام Aspose.HTML for Java من خلال هذا الدليل السهل خطوة بخطوة. ابدأ في إنشاء محتوى HTML ديناميكي.
 ### [التعامل مع أحداث تحميل المستندات في Aspose.HTML لـ Java](./handle-document-load-events/)
@@ -65,7 +67,11 @@ url: /ar/java/creating-managing-html-documents/
 ### [إنشاء بيئة تجريبية لـ HTML في Java – دليل خطوة بخطوة](./create-sandbox-for-html-in-java-step-by-step-guide/)
 تعلم كيفية إنشاء بيئة تجريبية لمعالجة HTML في Java باستخدام Aspose.HTML من خلال دليل خطوة بخطوة.
 ### [كيفية الاستعلام عن HTML في Java – دليل كامل](./how-to-query-html-in-java-complete-tutorial/)
-تعلم كيفية استعلام ومعالجة مستندات HTML في Java باستخدام Aspose.HTML من خلال دليل شامل خطوة بخطوة.
+تعلم استعلام ومعالجة مستندات HTML في Java باستخدام Aspose.HTML من خلال دليل شامل خطوة بخطوة.
+### [الحصول على النمط المحسوب في Java – دليل برمجة كامل](./get-computed-style-java-complete-programming-guide/)
+تعلم كيفية الحصول على النمط المحسوب في Java باستخدام Aspose.HTML عبر دليل شامل خطوة بخطوة.
+### [إنشاء مستند HTML باستخدام Aspose.HTML - دليل Java كامل](./create-html-document-with-aspose-html-complete-java-guide/)
+تعلم كيفية إنشاء مستند HTML باستخدام Aspose.HTML في Java من خلال دليل شامل خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
