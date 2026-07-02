@@ -51,7 +51,7 @@ Aspose.HTML für .NET zeichnet sich durch seine Einfachheit und Leistungsfähigk
 ## Tutorials zur Bearbeitung von HTML-Dokumenten
 ### [Laden Sie HTML-Dokumente asynchron in .NET mit Aspose.HTML](./load-html-doc-asynchronously/)
 Erfahren Sie, wie Sie Aspose.HTML für .NET zum Arbeiten mit HTML-Dokumenten verwenden. Schritt-für-Schritt-Anleitung mit Beispielen und FAQs für Entwickler.
-### [Laden Sie HTML-Dokumente mit Anmeldeinformationen in .NET mit Aspose.HTML](./load-html-doc-with-credentials/)
+### [Laden Sie HTML-Dokumente mit Anmeldeinformationen in .NET mit Aspose.HTML](./load-html-with-credentials/)
 Erfahren Sie, wie Sie Ihre SEO mit Aspose.HTML für .NET verbessern. Steigern Sie Rankings, analysieren Sie Webinhalte und optimieren Sie für Suchmaschinen.
 ### [Laden Sie HTML mithilfe eines Remoteservers in .NET mit Aspose.HTML](./load-html-using-remote-server/)
 Schöpfen Sie das Potenzial von Aspose.HTML für .NET mit unserem umfassenden Handbuch aus. Erfahren Sie, wie Sie Namespaces importieren, auf Remote-HTML-Dokumente zugreifen und vieles mehr.
@@ -71,6 +71,8 @@ Erfahren Sie, wie Sie Aspose.HTML für .NET verwenden. Importieren Sie Namespace
 Schöpfen Sie das Potenzial der Webentwicklung mit Aspose.HTML für .NET. Erstellen, konvertieren und bearbeiten Sie HTML-Dokumente ganz einfach.
 ### [HTML aus String in C# erstellen – Leitfaden für benutzerdefinierten Ressourcen-Handler](./create-html-from-string-in-c-custom-resource-handler-guide/)
 Erfahren Sie, wie Sie mit einem benutzerdefinierten Ressourcen-Handler HTML aus einem String in C# generieren und rendern.
+### [HTML-Dokument im Speicher erstellen mit Aspose.HTML – Komplettanleitung](./create-html-document-memory-with-aspose-html-complete-guide/)
+Erfahren Sie, wie Sie HTML-Dokumente vollständig im Speicher erstellen und verwalten, ohne Dateisystem, mit Aspose.HTML.
 
 ## Abschluss
 

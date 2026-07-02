@@ -40,6 +40,8 @@ Pelajari cara memanipulasi dokumen HTML dalam .NET dengan Aspose.HTML. Navigasi,
 Pelajari cara membuat konten web dinamis menggunakan Aspose.HTML untuk .NET. Tutorial kami mencakup prasyarat, petunjuk langkah demi langkah, dan FAQ untuk pemula.
 ### [Hasilkan PDF Terenkripsi oleh PdfDevice dalam .NET dengan Aspose.HTML](./generate-encrypted-pdf-by-pdfdevice/)
 Konversi HTML ke PDF secara dinamis dengan Aspose.HTML untuk .NET. Integrasi yang mudah, opsi yang dapat disesuaikan, dan kinerja yang tangguh.
+### [Konversi Dokumen Word ke PDF – Panduan Teks Jelas (C#)](./convert-word-document-to-pdf-clear-text-guide-c/)
+Pelajari cara mengonversi dokumen Word ke PDF dengan teks yang dapat dibaca menggunakan Aspose.HTML di C#.
 ### [Penyetelan Halus Konverter di .NET dengan Aspose.HTML](./fine-tuning-converters/)
 Pelajari cara mengonversi HTML ke PDF, XPS, dan gambar dengan Aspose.HTML untuk .NET. Tutorial langkah demi langkah dengan contoh kode dan Tanya Jawab Umum.
 ### [Menggunakan Template HTML di .NET dengan Aspose.HTML](./using-html-templates/)

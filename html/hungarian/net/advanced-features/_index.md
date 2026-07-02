@@ -44,7 +44,8 @@ Ismerje meg, hogyan konvertálhat HTML-t PDF-be, XPS-be és képekké az Aspose.
 Ismerje meg, hogyan használhatja az Aspose.HTML for .NET-et HTML-dokumentumok dinamikus generálására JSON-adatokból. Használja ki a HTML-kezelés erejét .NET-alkalmazásaiban.
 ### [Memóriafolyam létrehozása C# – Egyéni stream létrehozási útmutató](./create-memory-stream-c-custom-stream-creation-guide/)
 Tanulja meg, hogyan hozhat létre egyedi memóriafolyamot C#-ban az Aspose.HTML használatával.
-
+### [Word dokumentum PDF-re konvertálása – Tiszta szöveges útmutató (C#)](./convert-word-document-to-pdf-clear-text-guide-c/)
+Ismerje meg, hogyan konvertálhat Word dokumentumot PDF-be C#-ban az Aspose.HTML segítségével, egyszerű, tiszta szöveges útmutatóval.
 
 ## Következtetés
 
