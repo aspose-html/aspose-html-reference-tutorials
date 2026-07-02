@@ -1,0 +1,7 @@
+Title: How to Extract Icons from HTML with Python – Complete Guide
+Slug: how-to-extract-icons-from-html-with-python-complete-guide
+Category: general
+ProcessedDate: 2026-07-02T15:46:22.022432
+SourceRepo: AI Search API
+Keywords: how to extract icons, read html file python, parse html document, extract href attribute, extract favicon urls
+PRNumber: 200
