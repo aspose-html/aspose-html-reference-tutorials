@@ -1,0 +1,7 @@
+Title: How to Get CSS from an HTML Element in Java – Complete Guide
+Slug: how-to-get-css-from-an-html-element-in-java-complete-guide
+Category: css-html-form-editing
+ProcessedDate: 2026-07-05T20:00:28.026104
+SourceRepo: AI Search API
+Keywords: how to get css, select element by id, get element style attribute, load html document, retrieve computed style
+PRNumber: 203
