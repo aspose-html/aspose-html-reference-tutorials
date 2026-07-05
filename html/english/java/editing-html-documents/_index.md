@@ -37,7 +37,7 @@ Once you’ve got the basics of HTML document editing down, it’s time to level
 
 ## Applying External CSS Like a Pro
 
-External CSS is where the real power of web design comes into play. With the right CSS, you can transform a simple HTML page into a beautifully styled document. The tutorial on advanced external CSS editing is perfect for those who want to master the art of dynamic, responsive design. Imagine being able to apply complex styles across multiple HTML documents effortlessly—that’s what this tutorial offers. It’s your gateway to creating sleek, modern web pages that stand out. Don’t miss out on this valuable resource! [Read more](./advanced-external-css-editing/)
+External CSS is where the real power of web design does play. With the right CSS, you can transform a simple HTML page into a beautifully styled document. The tutorial on advanced external CSS editing is perfect for those who want to master the art of dynamic, responsive design. Imagine being able to apply complex styles across multiple HTML documents effortlessly—that’s what this tutorial offers. It’s your gateway to creating sleek, modern web pages that stand out. Don’t miss out on this valuable resource! [Read more](./advanced-external-css-editing/)
 
 ## Adding Inline and Internal CSS
 
@@ -60,6 +60,8 @@ Learn how to manage inner and outer HTML properties in Aspose.HTML for Java with
 Learn to implement internal CSS in HTML documents using Aspose.HTML for Java with our easy step-by-step tutorial.
 ### [Fixed thread pool java – Parallel HTML Cleaning with ExecutorService](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 Learn how to use a fixed thread pool and ExecutorService in Java to clean HTML content in parallel efficiently.
+### [Load HTML Template Java – Complete Aspose.HTML Guide](./load-html-template-java-complete-aspose-html-guide/)
+Learn how to load and work with HTML templates in Java using Aspose.HTML with a comprehensive step-by-step guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

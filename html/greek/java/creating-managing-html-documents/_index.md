@@ -66,6 +66,8 @@ url: /el/java/creating-managing-html-documents/
 Μάθετε να δημιουργείτε και να διαχειρίζεστε έγγραφα SVG χρησιμοποιώντας το Aspose.HTML για Java! Αυτός ο περιεκτικός οδηγός καλύπτει τα πάντα, από τη βασική δημιουργία έως την προηγμένη χειραγώγηση.
 ### [Πώς να ερωτήσετε HTML σε Java – Πλήρης οδηγός](./how-to-query-html-in-java-complete-tutorial/)
 Μάθετε πώς να εκτελείτε ερωτήματα σε έγγραφα HTML με Java χρησιμοποιώντας το Aspose.HTML, βήμα‑βήμα οδηγίες και παραδείγματα.
+### [Φόρτωση εγγράφου HTML Java – Πλήρης οδηγός με ερωτήματα CSS & XPath](./load-html-document-java-complete-guide-with-css-xpath-querie/)
+Μάθετε πώς να φορτώνετε έγγραφα HTML σε Java και να εκτελείτε ερωτήματα CSS και XPath με το Aspose.HTML, βήμα‑βήμα οδηγίες.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

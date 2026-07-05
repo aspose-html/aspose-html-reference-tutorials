@@ -49,7 +49,7 @@ Java için Aspose.HTML kullanarak HTML belgelerinin nasıl işleneceğini keşfe
 ### [Java için Aspose.HTML'de Gelişmiş HTML Belge Ağacı Düzenleme](./advanced-html-document-tree-editing/)
 Bu adım adım kılavuzla Aspose.HTML for Java kullanarak HTML belgelerinin nasıl düzenleneceğini, stiller, paragraflar oluşturmayı ve PDF'ye dönüştürmeyi öğrenin.
 ### [Java için Aspose.HTML'de HTML Belgelerine Harici CSS Uygulama](./apply-external-css-html-documents/)
-Java için Aspose.HTML kullanarak harici CSS'yi HTML belgelerine nasıl uygulayacağınızı keşfedin! Tam bir eğitim için bu adım adım kılavuzu izleyin.
+Java için Aspose.HTML kullanarak harici CSS'yi HTML belgelerine nasıl uygulayacağınızı keşedin! Tam bir eğitim için bu adım adım kılavuzu izleyin.
 ### [Java için Aspose.HTML ile Gelişmiş Harici CSS Düzenleme](./advanced-external-css-editing/)
 Java için Aspose.HTML ile harici CSS düzenleme sanatında ustalaşın. Bu ayrıntılı, adım adım kılavuz, dinamik, biçimlendirilmiş HTML belgeleri oluşturmanızda size yol gösterir.
 ### [Java için Aspose.HTML'de HTML Belgelerine Satır İçi CSS Ekleme](./add-inline-css-html-documents/)
@@ -58,8 +58,9 @@ Java için Aspose.HTML kullanarak HTML belgelerine satır içi CSS eklemeyi öğ
 Web geliştiricileri ve içerik oluşturucuları için mükemmel olan bu adım adım kılavuzla Aspose.HTML for Java'da iç ve dış HTML özelliklerinin nasıl yönetileceğini öğrenin.
 ### [Java için Aspose.HTML ile HTML Belgelerinde Dahili CSS'yi Uygulayın](./implement-internal-css-html-documents/)
 Kolay adım adım eğitimimiz ile Java için Aspose.HTML'i kullanarak HTML belgelerinde dahili CSS'yi uygulamayı öğrenin.
+### [Java için HTML Şablonu Yükleme – Tam Aspose.HTML Kılavuzu](./load-html-template-java-complete-aspose-html-guide/)
+Java'da Aspose.HTML kullanarak bir HTML şablonunu nasıl yükleyeceğinizi ve dinamik içerik ekleyeceğinizi adım adım öğrenin.
 ### [Sabit iş parçacığı havuzu java – ExecutorService ile Paralel HTML Temizleme](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
-ExecutorService kullanarak sabit iş parçacığı havuzu ile HTML belgelerini paralel olarak temizlemeyi öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

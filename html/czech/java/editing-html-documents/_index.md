@@ -60,6 +60,8 @@ Naučte se, jak spravovat vnitřní a vnější vlastnosti HTML v Aspose.HTML fo
 Naučte se implementovat interní CSS do HTML dokumentů pomocí Aspose.HTML for Java s naším jednoduchým návodem krok za krokem.
 ### [Fixní vlákno pool v Javě – paralelní čištění HTML pomocí ExecutorService](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 Naučte se, jak využít fixní pool vláken v Javě k paralelnímu čištění HTML pomocí ExecutorService.
+### [Načtení HTML šablony v Javě – kompletní průvodce Aspose.HTML](./load-html-template-java-complete-aspose-html-guide/)
+Naučte se načíst HTML šablonu v Javě s Aspose.HTML a generovat dynamické dokumenty snadno a rychle.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
