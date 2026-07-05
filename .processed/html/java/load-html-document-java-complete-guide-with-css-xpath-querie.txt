@@ -1,0 +1,7 @@
+Title: Load HTML Document Java – Complete Guide with CSS & XPath Queries
+Slug: load-html-document-java-complete-guide-with-css-xpath-querie
+Category: creating-managing-html-documents
+ProcessedDate: 2026-07-05T20:00:31.776132
+SourceRepo: AI Search API
+Keywords: load html document java, queryselectorall example java, extract href attributes java, select elements with css selector java
+PRNumber: 203
