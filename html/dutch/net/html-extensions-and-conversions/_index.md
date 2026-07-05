@@ -39,6 +39,10 @@ Aspose.HTML voor .NET is niet zomaar een bibliotheek; het is een game-changer in
 ## HTML-extensies en conversiehandleidingen
 ### [Converteer HTML naar PDF in .NET met Aspose.HTML](./convert-html-to-pdf/)
 Converteer moeiteloos HTML naar PDF met Aspose.HTML voor .NET. Volg onze stapsgewijze handleiding en ontketen de kracht van HTML-naar-PDF-conversie.
+### [Render HTML naar PDF in C# – Verbeter PDF-tekstkwaliteit](./render-html-to-pdf-in-c-improve-pdf-text-quality/)
+Leer hoe u met Aspose.HTML voor .NET HTML rendert naar PDF in C# en de tekstkwaliteit van de PDF verbetert.
+### [HTML renderen naar PDF in C# – html‑string naar pdf‑gids](./render-html-to-pdf-in-c-html-string-to-pdf-guide/)
+Leer hoe u met Aspose.HTML voor .NET een HTML‑string rendert naar PDF in C#, inclusief code‑voorbeelden en optimalisatietips.
 ### [Converteer EPUB naar afbeelding in .NET met Aspose.HTML](./convert-epub-to-image/)
 Leer hoe u EPUB naar afbeeldingen converteert met Aspose.HTML voor .NET. Stapsgewijze tutorial met codevoorbeelden en aanpasbare opties.
 ### [Converteer EPUB naar PDF in .NET met Aspose.HTML](./convert-epub-to-pdf/)
@@ -48,7 +52,7 @@ Leer hoe u EPUB naar XPS converteert in .NET met Aspose.HTML voor .NET. Volg onz
 ### [Converteer HTML naar BMP in .NET met Aspose.HTML](./convert-html-to-bmp/)
 Leer hoe u HTML naar BMP converteert in .NET met Aspose.HTML voor .NET. Uitgebreide handleiding voor webontwikkelaars voor het benutten van Aspose.HTML voor .NET.
 ### [Converteer HTML naar DOC en DOCX in .NET met Aspose.HTML](./convert-html-to-doc-docx/)
-Leer hoe u de kracht van Aspose.HTML voor .NET kunt benutten in deze stapsgewijze handleiding. Converteer moeiteloos HTML naar DOCX en breng uw .NET-projecten naar een hoger niveau. Ga vandaag nog aan de slag!
+Leer de kracht van Aspose.HTML voor .NET kunt benutten in deze stapsgewijze handleiding. Converteer moeiteloos HTML naar DOCX en breng uw .NET-projecten naar een hoger niveau. Ga vandaag nog aan de slag!
 ### [Converteer HTML naar GIF in .NET met Aspose.HTML](./convert-html-to-gif/)
 Ontdek de kracht van Aspose.HTML voor .NET: een stapsgewijze handleiding voor het converteren van HTML naar GIF. Vereisten, codevoorbeelden, FAQ's en meer! Optimaliseer uw HTML-manipulatie met Aspose.HTML.
 ### [Converteer HTML naar JPEG in .NET met Aspose.HTML](./convert-html-to-jpeg/)
