@@ -1,0 +1,7 @@
+Title: Render HTML to PDF in C# – html string to pdf guide
+Slug: render-html-to-pdf-in-c-html-string-to-pdf-guide
+Category: html-extensions-and-conversions
+ProcessedDate: 2026-07-05T18:34:48.309335
+SourceRepo: AI Search API
+Keywords: render html to pdf, custom resource handler, save pdf to memory, html string to pdf, pdf output without file
+PRNumber: 202
