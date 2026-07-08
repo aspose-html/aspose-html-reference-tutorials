@@ -56,6 +56,10 @@ Dowiedz się, jak ładować dokumenty HTML ze strumieni za pomocą Aspose.HTML d
 Dowiedz się, jak tworzyć dokumenty HTML z ciągów znaków w Aspose.HTML dla Java, korzystając z tego przewodnika krok po kroku.
 ### [Ładowanie dokumentów HTML z adresu URL w Aspose.HTML dla Java](./load-html-documents-from-url/)
 Odkryj, jak łatwo ładować dokumenty HTML z adresu URL w Javie za pomocą Aspose.HTML. Zawiera samouczek krok po kroku.
+### [Ładowanie HTML z adresu URL w Javie – Kompletny przewodnik z CSS i XPath](./load-html-from-url-in-java-complete-guide-with-css-xpath/)
+Dowiedz się, jak ładować dokumenty HTML z adresu URL i przetwarzać je przy użyciu CSS i XPath w Javie z Aspose.HTML.
+### [Utwórz dokument HTML za pomocą Aspose.HTML – Kompletny przewodnik Java](./create-html-document-with-aspose-html-complete-java-guide/)
+Dowiedz się, jak utworzyć dokument HTML przy użyciu Aspose.HTML w Javie, krok po kroku.
 ### [Generuj nowe dokumenty HTML za pomocą Aspose.HTML dla Java](./generate-new-html-documents/)
 Dowiedz się, jak tworzyć nowe dokumenty HTML za pomocą Aspose.HTML dla Java dzięki temu prostemu przewodnikowi krok po kroku. Zacznij generować dynamiczną zawartość HTML.
 ### [Obsługa zdarzeń ładowania dokumentów w Aspose.HTML dla Java](./handle-document-load-events/)
@@ -66,6 +70,8 @@ Naucz się tworzyć i zarządzać dokumentami SVG za pomocą Aspose.HTML dla Jav
 Dowiedz się, jak skonfigurować bezpieczną piaskownicę HTML w Javie, aby testować i uruchamiać kod w izolowanym środowisku.
 ### [Jak zapytać HTML w Javie – Kompletny samouczek](./how-to-query-html-in-java-complete-tutorial/)
 Dowiedz się, jak efektywnie zapytać i przetwarzać dokumenty HTML w Javie przy użyciu Aspose.HTML.
+### [Pobierz styl obliczony w Javie – Kompletny przewodnik programistyczny](./get-computed-style-java-complete-programming-guide/)
+Dowiedz się, jak uzyskać obliczony styl elementu HTML w Javie przy użyciu Aspose.HTML. Przewodnik krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

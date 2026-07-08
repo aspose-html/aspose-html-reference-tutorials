@@ -46,12 +46,14 @@ url: /ru/java/saving-html-documents/
 ## Сохранение HTML-документов в Aspose.HTML для Java Tutorials
 ### [Сохраните HTML-документ в Aspose.HTML для Java](./save-html-document/)
 Узнайте, как сохранять HTML-документы с помощью Aspose.HTML для Java, с помощью этого подробного пошагового руководства, предназначенного для новичков и экспертов.
-### [Сохраните HTML-документ в файл в Aspose.HTML для Java](./save-html-to-file/)
+### [Сохраните HTML документ в файл в Aspose.HTML для Java](./save-html-to-file/)
 Узнайте, как сохранить HTML-документ в файл с помощью Aspose.HTML для Java, который идеально подходит для удобной обработки нескольких связанных ресурсов.
 ### [Конвертировать HTML в Markdown в Aspose.HTML для Java](./convert-html-to-markdown/)
 Легко конвертируйте HTML в Markdown с помощью Aspose.HTML для Java. Следуйте этому пошаговому руководству для плавного преобразования и манипуляции контентом.
 ### [Сохраните HTML в MHTML в Aspose.HTML для Java](./save-html-to-mhtml/)
 Узнайте, как сохранять HTML-документы в формате MHTML с помощью Aspose.HTML для Java, с помощью этого пошагового руководства, дополненного примерами кода и практическими советами.
+### [Сохранить веб-страницу в формате MHTML с помощью Aspose HTML для Java – пошаговое руководство](./save-webpage-as-mhtml-with-aspose-html-for-java-step-by-step/)
+Подробное пошаговое руководство по сохранению веб-страницы в MHTML с использованием Aspose.HTML для Java.
 ### [Сохраните документ SVG в Aspose.HTML для Java](./save-svg-document/)
 Узнайте, как сохранять документы SVG с помощью Aspose.HTML для Java, с помощью этого простого пошагового руководства, полного примеров.
 {{< /blocks/products/pf/tutorial-page-section >}}

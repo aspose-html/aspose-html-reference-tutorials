@@ -15,7 +15,7 @@ url: /zh/java/saving-html-documents/
 
 ## 介绍
 
-在处理 Java 中的 HTML 文档时，Aspose.HTML 是一个多功能库。如果您曾经对 HTML 文档处理的复杂性感到不知所措，请不要害怕！本教程系列旨在简化您的学习曲线。我们将介绍主要功能，确保您可以像专业人士一样保存和操作 HTML 文档。 
+在处理 Java 中的 HTML 文档时，Aspose.HTML 是一个多功能库。如果您曾经对 HTML 文档处理的复杂性感到不知所惑，请不要害怕！本教程系列旨在简化您的学习曲线。我们将介绍主要功能，确保您可以像专业人士一样保存和操作 HTML 文档。 
 
 ## 保存 HTML 文档：分步方法
 
@@ -51,7 +51,9 @@ url: /zh/java/saving-html-documents/
 ### [使用 Aspose.HTML for Java 将 HTML 转换为 Markdown](./convert-html-to-markdown/)
 使用 Aspose.HTML for Java 轻松将 HTML 转换为 Markdown。按照此分步指南进行操作，即可顺利完成内容转换和操作。
 ### [使用 Aspose.HTML for Java 将 HTML 保存为 MHTML](./save-html-to-mhtml/)
-通过本分步指南（其中包含代码示例和实用技巧），了解如何使用 Aspose.HTML for Java 将 HTML 文档保存为 MHTML。
+通过本分步指南（其中包含代码示例和实用技巧），了解如何使用 Aspose.HTML for Java 将 HTML 保存为 MHTML。
+### [使用 Aspose.HTML for Java 将网页保存为 MHTML](./save-webpage-as-mhtml-with-aspose-html-for-java-step-by-step/)
+通过本分步指南，学习如何使用 Aspose.HTML for Java 将完整网页保存为 MHTML，保留所有资源。
 ### [在 Aspose.HTML for Java 中保存 SVG 文档](./save-svg-document/)
 通过本包含示例的简单分步指南学习如何使用 Aspose.HTML for Java 保存 SVG 文档。
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -79,17 +79,18 @@ Producera PDF‑filer som innehåller vektorgrafik som skalar utan pixling.
 ### Konvertera SVG till XPS
 Transformera SVG‑grafik till XPS‑format för konsekvent utskrift på olika enheter.
 
-Sammanfattningsvis låser behärskning av **html to pdf java** och den bredare uppsättningen av konverteringar upp kraftfulla dokumentarbetsflöden för varje Java‑utvecklare. Aspose.HTML for Java erbjuder omfattande, lätt‑följda handledningar som låter dig konvertera HTML, Markdown och SVG till de format du behöver, med hög kvalitet och full kontroll.
-
 ## Konvertering - HTML till Andra Format Handledning
 ### [Konvertera HTML till PDF](./convert-html-to-pdf/)
 Lär dig hur du konverterar HTML till PDF i Java med Aspose.HTML. Skapa högkvalitativa PDF‑filer från ditt HTML‑innehåll utan ansträngning.
+### [Konvertera HTML till PDF i Java – Komplett högkvalitativ guide](./convert-html-to-pdf-in-java-complete-high-quality-guide/)
+Lär dig en komplett guide för att konvertera HTML till PDF i Java med hög kvalitet och avancerade inställningar.
 ### [Konvertera HTML till MHTML](./convert-html-to-mhtml/)
 Konvertera enkelt HTML till MHTML med Aspose.HTML for Java. Följ vår steg‑för‑steg‑guide för effektiv HTML‑till‑MHTML‑konvertering.
 ### [Konvertera HTML till XPS](./convert-html-to-xps/)
 Lär dig hur du enkelt konverterar HTML till XPS med Aspose.HTML for Java. Skapa plattformsoberoende dokument med lätthet.
 ### [Konvertera Markdown till HTML](./convert-markdown-to-html/)
 Konvertera Markdown till HTML i Java sömlöst med Aspose.HTML for Java. Följ vår steg‑för‑steg‑guide för att förenkla dina dokumentkonverteringsbehov.
+### [Skapa PDF från Markdown i Java – Komplett guide](./create-pdf-from-markdown-in-java-complete-guide/)
 ### [Konvertera SVG till Bild](./convert-svg-to-image/)
 Lär dig hur du konverterar SVG till bilder i Java med Aspose.HTML. Omfattande guide för högkvalitativ output.
 ### [Konvertera SVG till PDF](./convert-svg-to-pdf/)

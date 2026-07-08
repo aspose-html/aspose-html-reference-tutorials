@@ -56,6 +56,8 @@ Leer hoe u HTML-documenten laadt uit streams met Aspose.HTML voor Java. Deze gid
 Leer hoe u HTML-documenten van strings maakt in Aspose.HTML voor Java met deze stapsgewijze handleiding.
 ### [HTML-documenten laden vanaf URL in Aspose.HTML voor Java](./load-html-documents-from-url/)
 Ontdek hoe u eenvoudig HTML-documenten kunt laden vanaf een URL in Java met Aspose.HTML. Inclusief stapsgewijze tutorial.
+### [HTML laden vanaf URL in Java – Complete gids met CSS & XPath](./load-html-from-url-in-java-complete-guide-with-css-xpath/)
+Leer hoe u HTML van een URL laadt in Java met CSS‑selectoren en XPath, inclusief stapsgewijze handleiding.
 ### [Genereer nieuwe HTML-documenten met Aspose.HTML voor Java](./generate-new-html-documents/)
 Leer hoe u nieuwe HTML-documenten maakt met Aspose.HTML voor Java met deze eenvoudige stapsgewijze handleiding. Begin met het genereren van dynamische HTML-inhoud.
 ### [Documentlaadgebeurtenissen afhandelen in Aspose.HTML voor Java](./handle-document-load-events/)
@@ -66,6 +68,10 @@ Leer SVG-documenten maken en beheren met Aspose.HTML voor Java! Deze uitgebreide
 Leer hoe u een veilige sandboxomgeving voor HTML in Java opzet met een stapsgewijze handleiding.
 ### [HTML opvragen in Java – Complete tutorial](./how-to-query-html-in-java-complete-tutorial/)
 Leer hoe u HTML kunt query'en in Java met deze volledige stap‑voor‑stap handleiding.
+### [Computed Style ophalen in Java – Complete programmeergids](./get-computed-style-java-complete-programming-guide/)
+Leer hoe u de berekende stijl van HTML‑elementen opvraagt met Aspose.HTML voor Java in deze volledige stap‑voor‑stap gids.
+### [HTML-document maken met Aspose.HTML - Complete Java-gids](./create-html-document-with-aspose-html-complete-java-guide/)
+Leer stap voor stap hoe u een HTML-document maakt met Aspose.HTML in Java, inclusief volledige codevoorbeelden en best practices.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

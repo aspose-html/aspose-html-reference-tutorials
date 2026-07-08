@@ -54,8 +54,12 @@ Découvrez comment charger, manipuler et enregistrer des documents HTML à l'aid
 Découvrez comment charger des documents HTML à partir de flux à l'aide d'Aspose.HTML pour Java. Ce guide fournit un didacticiel étape par étape pour une manipulation HTML transparente.
 ### [Créer des documents HTML à partir d'une chaîne dans Aspose.HTML pour Java](./create-html-documents-from-string/)
 Apprenez à créer des documents HTML à partir de chaînes dans Aspose.HTML pour Java avec ce guide étape par étape.
+### [Créer un document HTML avec Aspose.HTML – Guide complet Java](./create-html-document-with-aspose-html-complete-java-guide/)
+Apprenez à créer un document HTML avec Aspose.HTML en Java grâce à ce guide complet étape par étape.
 ### [Charger des documents HTML à partir d'une URL dans Aspose.HTML pour Java](./load-html-documents-from-url/)
 Découvrez comment charger facilement des documents HTML à partir d'une URL en Java avec Aspose.HTML. Tutoriel étape par étape inclus.
+### [Charger du HTML depuis une URL en Java – Guide complet avec CSS et XPath](./load-html-from-url-in-java-complete-guide-with-css-xpath/)
+Apprenez à charger des documents HTML depuis une URL en Java avec Aspose.HTML, en utilisant CSS et XPath. Guide complet étape par étape.
 ### [Générer de nouveaux documents HTML à l'aide d'Aspose.HTML pour Java](./generate-new-html-documents/)
 Apprenez à créer de nouveaux documents HTML à l'aide d'Aspose.HTML pour Java grâce à ce guide étape par étape simple. Commencez à générer du contenu HTML dynamique.
 ### [Gérer les événements de chargement de documents dans Aspose.HTML pour Java](./handle-document-load-events/)
@@ -66,6 +70,8 @@ Apprenez à créer et à gérer des documents SVG à l'aide d'Aspose.HTML pour J
 Apprenez à créer un environnement sécurisé pour manipuler du HTML en Java avec Aspose.HTML, guide complet pas à pas.
 ### [Comment interroger le HTML en Java – Tutoriel complet](./how-to-query-html-in-java-complete-tutorial/)
 Apprenez à interroger et extraire des données HTML en Java avec Aspose.HTML grâce à ce guide complet étape par étape.
+### [Obtenir le style calculé en Java – Guide complet de programmation](./get-computed-style-java-complete-programming-guide/)
+Apprenez à récupérer le style calculé d'un élément HTML en Java avec Aspose.HTML. Guide complet étape par étape.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

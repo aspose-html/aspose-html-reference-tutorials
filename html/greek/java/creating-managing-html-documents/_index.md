@@ -55,9 +55,13 @@ url: /el/java/creating-managing-html-documents/
 ### [Δημιουργήστε έγγραφα HTML από το String στο Aspose.HTML για Java](./create-html-documents-from-string/)
 Μάθετε πώς να δημιουργείτε έγγραφα HTML από συμβολοσειρές στο Aspose.HTML για Java με αυτόν τον οδηγό βήμα προς βήμα.
 ### [Φόρτωση εγγράφων HTML από τη διεύθυνση URL στο Aspose.HTML για Java](./load-html-documents-from-url/)
-Ανακαλύψτε πώς να φορτώνετε εύκολα έγγραφα HTML από μια διεύθυνση URL σε Java με το Aspose.HTML. Περιλαμβάνεται σεμινάριο βήμα προς βήμα.
+Ανακαλύψτε πώς να φορτώνετε εύκολα έγγραφα HTML από μια διεύθυνση URL σε Java με το Aspose.HTML. Περιλαμβάνεται σεμινάριο βήμα‑βήμα.
+### [Φόρτωση HTML από URL σε Java – Πλήρης οδηγός με CSS & XPath](./load-html-from-url-in-java-complete-guide-with-css-xpath/)
+Μάθετε πώς να φορτώνετε HTML από URL, να εφαρμόζετε CSS και να εκτελείτε ερωτήματα XPath με το Aspose.HTML για Java.
 ### [Δημιουργήστε νέα έγγραφα HTML χρησιμοποιώντας το Aspose.HTML για Java](./generate-new-html-documents/)
 Μάθετε πώς να δημιουργείτε νέα έγγραφα HTML χρησιμοποιώντας το Aspose.HTML για Java με αυτόν τον εύκολο, βήμα προς βήμα οδηγό. Ξεκινήστε τη δημιουργία δυναμικού περιεχομένου HTML.
+### [Δημιουργία εγγράφου HTML με Aspose.HTML - Πλήρης οδηγός Java](./create-html-document-with-aspose-html-complete-java-guide/)
+Μάθετε πώς να δημιουργήσετε ένα έγγραφο HTML χρησιμοποιώντας το Aspose.HTML σε Java με αυτόν τον πλήρη οδηγό βήμα‑βήμα.
 ### [Δημιουργία sandbox για HTML σε Java – Οδηγός βήμα‑βήμα](./create-sandbox-for-html-in-java-step-by-step-guide/)
 Μάθετε πώς να δημιουργήσετε ένα sandbox HTML σε Java με οδηγίες βήμα‑βήμα, για ασφαλή και απομονωμένη επεξεργασία HTML.
 ### [Χειριστείτε συμβάντα φόρτωσης εγγράφου στο Aspose.HTML για Java](./handle-document-load-events/)
@@ -66,6 +70,8 @@ url: /el/java/creating-managing-html-documents/
 Μάθετε να δημιουργείτε και να διαχειρίζεστε έγγραφα SVG χρησιμοποιώντας το Aspose.HTML για Java! Αυτός ο περιεκτικός οδηγός καλύπτει τα πάντα, από τη βασική δημιουργία έως την προηγμένη χειραγώγηση.
 ### [Πώς να ερωτήσετε HTML σε Java – Πλήρης οδηγός](./how-to-query-html-in-java-complete-tutorial/)
 Μάθετε πώς να εκτελείτε ερωτήματα σε έγγραφα HTML με Java χρησιμοποιώντας το Aspose.HTML, βήμα‑βήμα οδηγίες και παραδείγματα.
+### [Απόκτηση Υπολογισμένου Στυλ Java – Πλήρης Οδηγός Προγραμματισμού](./get-computed-style-java-complete-programming-guide/)
+Μάθετε πώς να λαμβάνετε το υπολογισμένο στυλ στοιχείων HTML σε Java με το Aspose.HTML, βήμα‑βήμα πλήρης οδηγός προγραμματισμού.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

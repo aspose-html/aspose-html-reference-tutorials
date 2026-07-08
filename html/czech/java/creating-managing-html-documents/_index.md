@@ -54,8 +54,12 @@ V tomto podrobném průvodci se dozvíte, jak načítat, manipulovat a ukládat 
 Naučte se načítat HTML dokumenty ze streamů pomocí Aspose.HTML for Java. Tato příručka poskytuje podrobný návod pro bezproblémovou manipulaci s HTML.
 ### [Vytvořte HTML dokumenty z String v Aspose.HTML pro Java](./create-html-documents-from-string/)
 Naučte se vytvářet HTML dokumenty z řetězců v Aspose.HTML pro Java pomocí tohoto podrobného průvodce.
+### [Vytvořte HTML dokument s Aspose.HTML – kompletní průvodce pro Javu](./create-html-document-with-aspose-html-complete-java-guide/)
+Kompletní průvodce vytvářením HTML dokumentu v Javě pomocí Aspose.HTML, krok za krokem s ukázkami kódu.
 ### [Načtěte HTML dokumenty z URL v Aspose.HTML pro Java](./load-html-documents-from-url/)
 Objevte, jak snadno načíst HTML dokumenty z URL v Javě pomocí Aspose.HTML. Včetně návodu krok za krokem.
+### [Načtěte HTML z URL v Javě – Kompletní průvodce s CSS a XPath](./load-html-from-url-in-java-complete-guide-with-css-xpath/)
+Kompletní průvodce načítáním HTML z URL v Javě pomocí Aspose.HTML, včetně práce s CSS a XPath dotazy.
 ### [Generujte nové HTML dokumenty pomocí Aspose.HTML pro Java](./generate-new-html-documents/)
 Naučte se vytvářet nové HTML dokumenty pomocí Aspose.HTML for Java pomocí tohoto jednoduchého průvodce krok za krokem. Začněte generovat dynamický obsah HTML.
 ### [Zvládejte události načítání dokumentu v Aspose.HTML pro Java](./handle-document-load-events/)
@@ -66,6 +70,8 @@ Naučte se, jak vytvořit sandboxové prostředí pro bezpečnou manipulaci s HT
 Naučte se vytvářet a spravovat dokumenty SVG pomocí Aspose.HTML pro Javu! Tento komplexní průvodce pokrývá vše od základní tvorby až po pokročilou manipulaci.
 ### [Jak dotazovat HTML v Javě – Kompletní tutoriál](./how-to-query-html-in-java-complete-tutorial/)
 Kompletní průvodce, jak v Javě dotazovat a získávat data z HTML pomocí Aspose.HTML, včetně příkladů a tipů.
+### [Získání vypočteného stylu v Javě – Kompletní programovací průvodce](./get-computed-style-java-complete-programming-guide/)
+Naučte se, jak získat vypočtené CSS styly v Javě pomocí Aspose.HTML s podrobným krok‑za‑krokem průvodcem.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
