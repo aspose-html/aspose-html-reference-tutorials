@@ -54,6 +54,9 @@ Dowiedz się, jak zapisać dokument HTML do pliku za pomocą Aspose.HTML dla Jav
 Dowiedz się, jak zapisywać dokumenty HTML w formacie MHTML za pomocą Aspose.HTML dla Java, korzystając z tego przewodnika krok po kroku, który zawiera przykłady kodu i praktyczne wskazówki.
 ### [Zapisz dokument SVG w Aspose.HTML dla Java](./save-svg-document/)
 Dowiedz się, jak zapisywać dokumenty SVG za pomocą Aspose.HTML dla Java, korzystając z tego prostego przewodnika krok po kroku wypełnionego przykładami.
+### [Zapisz wygenerowany wynik HTML – Pełny przewodnik przetwarzania szablonu](./save-generated-html-result-full-template-processing-guide/)
+Dowiedz się, jak zapisać wygenerowany wynik HTML przy użyciu pełnego przetwarzania szablonu w Aspose.HTML dla Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
