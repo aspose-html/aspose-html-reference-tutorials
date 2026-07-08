@@ -71,6 +71,8 @@ Lär dig att använda Aspose.HTML för .NET. Importera namnutrymme, slå samman 
 Lås upp potentialen för webbutveckling med Aspose.HTML för .NET. Skapa, konvertera och manipulera HTML-dokument enkelt.
 ### [Skapa HTML från sträng i C# – Anpassad resurs‑hanterare guide](./create-html-from-string-in-c-custom-resource-handler-guide/)
 Lär dig hur du skapar HTML från en sträng i C# med en anpassad resurs‑hanterare i Aspose.HTML för .NET.
+### [Skapa HTML-dokument i C# – Komplett programmeringsguide](./create-html-document-in-c-complete-programming-guide/)
+Lär dig att skapa HTML-dokument i C# med en komplett guide som täcker alla steg och bästa praxis.
 
 ## Slutsats
 

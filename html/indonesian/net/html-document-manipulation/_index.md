@@ -51,7 +51,7 @@ Aspose.HTML untuk .NET menonjol karena kesederhanaan dan kekuatannya. Aplikasi i
 ## Tutorial Manipulasi Dokumen HTML
 ### [Memuat Dokumen HTML Secara Asinkron di .NET dengan Aspose.HTML](./load-html-doc-asynchronously/)
 Pelajari cara menggunakan Aspose.HTML for .NET untuk bekerja dengan dokumen HTML. Panduan langkah demi langkah dengan contoh dan Tanya Jawab Umum untuk pengembang.
-### [Memuat Dokumen HTML dengan Kredensial di .NET dengan Aspose.HTML](./load-html-doc-with-credentials/)
+### [Memuat Dokumen HTML dengan Kredensial di .NET dengan Aspose.HTML](./load-html-with-credentials/)
 Pelajari cara meningkatkan SEO Anda dengan Aspose.HTML untuk .NET. Tingkatkan peringkat, analisis konten web, dan optimalkan untuk mesin pencari.
 ### [Memuat HTML Menggunakan Server Jarak Jauh di .NET dengan Aspose.HTML](./load-html-using-remote-server/)
 Manfaatkan potensi Aspose.HTML untuk .NET dengan panduan lengkap kami. Pelajari cara mengimpor namespace, mengakses dokumen HTML jarak jauh, dan banyak lagi.
@@ -71,6 +71,8 @@ Pelajari cara menggunakan Aspose.HTML untuk .NET. Impor namespace, gabungkan HTM
 Manfaatkan potensi pengembangan web dengan Aspose.HTML untuk .NET. Buat, ubah, dan manipulasi dokumen HTML dengan mudah.
 ### [Buat HTML dari String di C# – Panduan Penangan Sumber Daya Kustom](./create-html-from-string-in-c-custom-resource-handler-guide/)
 Pelajari cara membuat dokumen HTML dari string menggunakan handler sumber daya kustom di C# dengan Aspose.HTML.
+### [Buat Dokumen HTML di C# – Panduan Pemrograman Lengkap](./create-html-document-in-c-complete-programming-guide/)
+Pelajari cara membuat dokumen HTML di C# dengan panduan pemrograman lengkap menggunakan Aspose.HTML.
 
 ## Kesimpulan
 

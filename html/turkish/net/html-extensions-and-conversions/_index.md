@@ -39,6 +39,10 @@ Aspose.HTML for .NET yalnızca bir kütüphane değil; web geliştirme dünyası
 ## HTML Uzantıları ve Dönüşümleri Eğitimleri
 ### [Aspose.HTML ile .NET'te HTML'yi PDF'ye dönüştürün](./convert-html-to-pdf/)
 Aspose.HTML for .NET ile HTML'yi zahmetsizce PDF'ye dönüştürün. Adım adım kılavuzumuzu izleyin ve HTML'den PDF'ye dönüştürmenin gücünü serbest bırakın.
+### [C# ile HTML'yi PDF'ye Render Et – PDF Metin Kalitesini İyileştirin](./render-html-to-pdf-in-c-improve-pdf-text-quality/)
+C# kullanarak HTML'yi PDF'ye render ederken metin kalitesini nasıl artıracağınızı adım adım öğrenin.
+### [C# ile HTML Dizesini PDF'ye Render Et – HTML String'den PDF Rehberi](./render-html-to-pdf-in-c-html-string-to-pdf-guide/)
+C# kullanarak HTML dizesini PDF'ye dönüştürmeyi adım adım öğrenin.
 ### [Aspose.HTML ile .NET'te EPUB'ı Görüntüye Dönüştürme](./convert-epub-to-image/)
 Aspose.HTML for .NET kullanarak EPUB'ı görsellere nasıl dönüştüreceğinizi öğrenin. Kod örnekleri ve özelleştirilebilir seçenekler içeren adım adım eğitim.
 ### [Aspose.HTML ile .NET'te EPUB'ı PDF'ye dönüştürün](./convert-epub-to-pdf/)

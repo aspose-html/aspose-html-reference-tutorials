@@ -58,11 +58,11 @@ Schöpfen Sie das Potenzial von Aspose.HTML für .NET mit unserem umfassenden Ha
 ### [Laden Sie HTML mithilfe einer URL in .NET mit Aspose.HTML](./load-html-using-url/)
 Erfahren Sie, wie Sie die Leistung von Aspose.HTML für .NET nutzen. Optimieren Sie Ihre Webentwicklung mit HTML-Manipulation und -Rendering.
 ### [Erstellen eines Dokuments in .NET mit Aspose.HTML](./creating-a-document/)
-Entfesseln Sie die Leistungsfähigkeit von Aspose.HTML für .NET. Lernen Sie, HTML- und SVG-Dokumente mühelos zu erstellen, zu bearbeiten und zu optimieren. Entdecken Sie Schritt-für-Schritt-Beispiele und FAQs.
+Entfesseln Sie die Leistungsfähigkeit von Aspose.HTML für .NET. Lernen Sie, HTML- und SVG-Dokumente mühelos zu erstellen, zu bearbeiten und zu optimieren. Entdecken Sie Schritt‑für‑Schritt‑Beispiele und FAQs.
 ### [Bearbeiten eines Dokuments in .NET mit Aspose.HTML](./editing-a-document/)
 Erstellen Sie fesselnde Webinhalte mit Aspose.HTML für .NET. Erfahren Sie, wie Sie HTML, CSS und mehr bearbeiten.
 ### [Speichern eines Dokuments in .NET mit Aspose.HTML](./saving-a-document/)
-Entfesseln Sie die Leistungsfähigkeit von Aspose.HTML für .NET mit unserer Schritt-für-Schritt-Anleitung. Lernen Sie, HTML- und SVG-Dokumente zu erstellen, zu bearbeiten und zu konvertieren
+Entfesseln Sie die Leistungsfähigkeit von Aspose.HTML für .NET mit unserer Schritt‑für‑Schritt‑Anleitung. Lernen Sie, HTML- und SVG-Dokumente zu erstellen, zu bearbeiten und zu konvertieren
 ### [Zusammenführen von HTML mit Json in .NET mit Aspose.HTML](./merge-html-with-json/)
 Erfahren Sie, wie Sie mit Aspose.HTML für .NET dynamische Webinhalte erstellen. Stärken Sie Ihre Onlinepräsenz und begeistern Sie Ihr Publikum.
 ### [Zusammenführen von HTML und XML in .NET mit Aspose.HTML](./merge-html-with-xml/)
@@ -71,6 +71,8 @@ Erfahren Sie, wie Sie Aspose.HTML für .NET verwenden. Importieren Sie Namespace
 Schöpfen Sie das Potenzial der Webentwicklung mit Aspose.HTML für .NET. Erstellen, konvertieren und bearbeiten Sie HTML-Dokumente ganz einfach.
 ### [HTML aus String in C# erstellen – Leitfaden für benutzerdefinierten Ressourcen-Handler](./create-html-from-string-in-c-custom-resource-handler-guide/)
 Erfahren Sie, wie Sie mit einem benutzerdefinierten Ressourcen-Handler HTML aus einem String in C# generieren und rendern.
+### [HTML-Dokument in C# erstellen – Vollständiger Programmierleitfaden](./create-html-document-in-c-complete-programming-guide/)
+Erfahren Sie, wie Sie in C# ein HTML-Dokument von Grund auf erstellen und anpassen – Schritt‑für‑Schritt‑Anleitung mit Beispielen.
 
 ## Abschluss
 

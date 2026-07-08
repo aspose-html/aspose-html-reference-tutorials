@@ -47,6 +47,9 @@ Lär dig hur du använder Aspose.HTML för .NET för att dynamiskt generera HTML
 ### [Hur du kombinerar teckensnitt programatiskt i C# – Steg‑för‑steg‑guide](./how-to-combine-fonts-programmatically-in-c-step-by-step-guid/)
 Lär dig att kombinera flera teckensnitt i ett HTML-dokument med C# och Aspose.HTML i en enkel steg‑för‑steg‑guide.
 
+### [Spara HTML till zip med C# – skapa zip‑arkiv i C# med Aspose](./save-html-to-zip-with-c-create-zip-archive-c-using-aspose/)
+Lär dig hur du sparar HTML-filer i ett zip‑arkiv med C# och Aspose.HTML, inklusive kodexempel och steg‑för‑steg‑instruktioner.
+
 ## Slutsats
 
 Aspose.HTML för .NET öppnar dörren till en värld av möjligheter när det kommer till att arbeta med HTML-dokument i dina .NET-applikationer. Dessa avancerade funktionshandledningar kommer att utrusta dig med de kunskaper och färdigheter som behövs för att dra nytta av Aspose.HTMLs fulla potential. Lyft dina utvecklingsprojekt, spara tid och skapa anmärkningsvärda lösningar med Aspose.HTML för .NET. Kom igång med våra tutorials idag och ta din webbutveckling till nästa nivå.
