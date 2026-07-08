@@ -46,6 +46,8 @@ Lär dig hur du konverterar HTML till PDF, XPS och bilder med Aspose.HTML för .
 Lär dig hur du använder Aspose.HTML för .NET för att dynamiskt generera HTML-dokument från JSON-data. Utnyttja kraften i HTML-manipulation i dina .NET-applikationer.
 ### [Hur du kombinerar teckensnitt programatiskt i C# – Steg‑för‑steg‑guide](./how-to-combine-fonts-programmatically-in-c-step-by-step-guid/)
 Lär dig att kombinera flera teckensnitt i ett HTML-dokument med C# och Aspose.HTML i en enkel steg‑för‑steg‑guide.
+### [Konvertera Word-dokument till PDF – Klartextguide (C#)](./convert-word-document-to-pdf-clear-text-guide-c/)
+Lär dig hur du konverterar Word-dokument till PDF med Aspose.HTML i C#, steg‑för‑steg och tydliga exempel.
 
 ## Slutsats
 

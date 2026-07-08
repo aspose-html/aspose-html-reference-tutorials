@@ -59,6 +59,8 @@ Libérez le potentiel d'Aspose.HTML pour .NET avec notre guide complet. Découvr
 Découvrez comment exploiter la puissance d'Aspose.HTML pour .NET. Boostez votre développement Web grâce à la manipulation et au rendu HTML.
 ### [Créer un document en .NET avec Aspose.HTML](./creating-a-document/)
 Exploitez la puissance d'Aspose.HTML pour .NET. Apprenez à créer, manipuler et optimiser facilement des documents HTML et SVG. Découvrez des exemples étape par étape et des FAQ.
+### [Créer un document HTML en mémoire avec Aspose.HTML – Guide complet](./create-html-document-memory-with-aspose-html-complete-guide/)
+Apprenez à créer et gérer des documents HTML en mémoire avec Aspose.HTML, étape par étape.
 ### [Modification d'un document dans .NET avec Aspose.HTML](./editing-a-document/)
 Créez du contenu Web captivant avec Aspose.HTML pour .NET. Apprenez à manipuler HTML, CSS et bien plus encore.
 ### [Enregistrer un document dans .NET avec Aspose.HTML](./saving-a-document/)
