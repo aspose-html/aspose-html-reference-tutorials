@@ -42,6 +42,8 @@ Nu u Aspose.HTML voor .NET hebt ingesteld, is het tijd om de tutorials te verken
 
 ### [HTML als PNG renderen in .NET met Aspose.HTML](./render-html-as-png/)
 Leer werken met Aspose.HTML voor .NET: HTML manipuleren, converteren naar verschillende formaten en meer. Duik in deze uitgebreide tutorial!
+### [Hoe antialiasing inschakelen bij het renderen van HTML naar PNG](./how-to-enable-antialiasing-rendering-html-to-png/)
+Leer hoe u antialiasing activeert om HTML-rendering naar PNG met hoge kwaliteit te verkrijgen met Aspose.HTML.
 ### [HTML als PNG renderen – Complete C#-gids](./how-to-render-html-as-png-complete-c-guide/)
 Leer stap voor stap hoe u HTML naar PNG converteert met C# en Aspose.HTML in deze volledige gids.
 ### [EPUB renderen als XPS in .NET met Aspose.HTML](./render-epub-as-xps/)
