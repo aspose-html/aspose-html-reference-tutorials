@@ -59,6 +59,7 @@ Aspose.HTML for Java を使用して HTML ドキュメントにインライン C
 ### [Aspose.HTML for Java を使用して HTML ドキュメントに内部 CSS を実装する](./implement-internal-css-html-documents/)
 簡単なステップバイステップのチュートリアルで、Aspose.HTML for Java を使用して HTML ドキュメントに内部 CSS を実装する方法を学びます。
 ### [Fixed Thread Pool Java – ExecutorService を使用した並列 HTML クリーンアップ](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
+### [Java で HTML テンプレートを読み込む – 完全な Aspose.HTML ガイド](./load-html-template-java-complete-aspose-html-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -66,6 +66,8 @@ url: /ar/java/creating-managing-html-documents/
 تعلم كيفية إنشاء بيئة تجريبية لمعالجة HTML في Java باستخدام Aspose.HTML من خلال دليل خطوة بخطوة.
 ### [كيفية الاستعلام عن HTML في Java – دليل كامل](./how-to-query-html-in-java-complete-tutorial/)
 تعلم كيفية استعلام ومعالجة مستندات HTML في Java باستخدام Aspose.HTML من خلال دليل شامل خطوة بخطوة.
+### [تحميل مستند HTML في Java – دليل كامل مع استعلامات CSS و XPath](./load-html-document-java-complete-guide-with-css-xpath-querie/)
+تعلم كيفية تحميل مستند HTML في Java واستخدام استعلامات CSS و XPath لمعالجة المحتوى بفعالية.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

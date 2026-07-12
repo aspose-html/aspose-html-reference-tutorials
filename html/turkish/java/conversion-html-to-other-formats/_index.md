@@ -85,6 +85,10 @@ Sonuç olarak, **html to pdf java** ve daha geniş dönüşüm setine hâkim olm
 ## Dönüştürme - HTML'den Diğer Formatlara Eğitimleri
 ### [HTML'yi PDF'ye Dönüştürme](./convert-html-to-pdf/)
 HTML içeriğinizden sorunsuz bir şekilde yüksek kaliteli PDF'ler oluşturun.
+### [Web Sayfasını PDF'ye Dönüştürme Java’da – Aspose HTML Kılavuzu](./convert-webpage-to-pdf-in-java-aspose-html-guide/)
+Aspose.HTML for Java kullanarak bir web sayfasını PDF'ye dönüştürmeyi adım adım gösteren kapsamlı rehber.
+### [Java’da HTML'den PDF Oluşturma – Tam Aspose.HTML Kılavuzu](./create-pdf-from-html-in-java-full-aspose-html-guide/)
+Java uygulamalarınızda HTML'den PDF oluşturmayı adım adım gösteren kapsamlı Aspose.HTML rehberi.
 ### [HTML'yi PDF'ye Dönüştürme Java’da – Sayfa Boyutu Ayarlarıyla Adım‑Adım Kılavuz](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Java’da HTML'yi PDF'ye dönüştürürken sayfa boyutu ayarlarını nasıl yapılandıracağınızı adım adım gösterir.
 ### [HTML'yi MHTML'ye Dönüştürme](./convert-html-to-mhtml/)
@@ -99,6 +103,10 @@ Aspose.HTML ile Java'da SVG'yi görüntülere dönüştürmeyi öğrenin. Yükse
 Aspose.HTML ile Java'da SVG'yi PDF'ye dönüştürün. Yüksek kaliteli belge dönüşümü için sorunsuz bir çözüm.
 ### [SVG'yi XPS'ye Dönüştürme](./convert-svg-to-xps/)
 Aspose.HTML for Java ile SVG'yi XPS'ye dönüştürmeyi öğrenin. Sorunsuz dönüşümler için basit, adım adım rehber.
+### [HTML'yi Sabit İş Parçacığı Havuzu Kullanarak PDF'ye Dönüştürme (Java)](./convert-html-to-pdf-with-fixed-thread-pool-java/)
+HTML'yi PDF'ye dönüştürürken sabit iş parçacığı havuzu kullanarak çoklu dönüşüm işlemlerini nasıl yöneteceğinizi öğrenin.
+### [Java'da Markdown'ı PDF'ye Dönüştürme – Tam Aspose Kılavuzu](./convert-markdown-to-pdf-in-java-complete-aspose-guide/)
+Aspose.HTML for Java kullanarak Markdown dosyalarını yüksek kaliteli PDF'lere dönüştürmeyi adım adım öğrenin.
 
 ## Sıkça Sorulan Sorular
 

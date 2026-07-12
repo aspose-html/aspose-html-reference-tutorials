@@ -84,6 +84,12 @@ Sammanfattningsvis låser behärskning av **html to pdf java** och den bredare u
 ## Konvertering - HTML till Andra Format Handledning
 ### [Konvertera HTML till PDF](./convert-html-to-pdf/)
 Lär dig hur du konverterar HTML till PDF i Java med Aspose.HTML. Skapa högkvalitativa PDF‑filer från ditt HTML‑innehåll utan ansträngning.
+### [Konvertera HTML till PDF med Fast Trådpool i Java](./convert-html-to-pdf-with-fixed-thread-pool-java/)
+Lär dig hur du använder en fast trådpool för att konvertera flera HTML‑filer till PDF parallellt i Java med Aspose.HTML.
+### [Konvertera webbsida till PDF i Java – Aspose HTML‑guide](./convert-webpage-to-pdf-in-java-aspose-html-guide/)
+Lär dig hur du konverterar en webbsida till PDF i Java med Aspose.HTML, steg‑för‑steg‑instruktioner och exempel.
+### [Skapa PDF från HTML i Java – Fullständig Aspose.HTML‑guide](./create-pdf-from-html-in-java-full-aspose-html-guide/)
+Lär dig steg‑för‑steg‑hur du skapar PDF‑filer från HTML i Java med Aspose.HTML, inklusive avancerade inställningar och exempel.
 ### [Konvertera HTML till MHTML](./convert-html-to-mhtml/)
 Konvertera enkelt HTML till MHTML med Aspose.HTML for Java. Följ vår steg‑för‑steg‑guide för effektiv HTML‑till‑MHTML‑konvertering.
 ### [Konvertera HTML till XPS](./convert-html-to-xps/)
@@ -98,6 +104,8 @@ Konvertera SVG till PDF i Java med Aspose.HTML. En sömlös lösning för högkv
 Lär dig hur du konverterar SVG till XPS med Aspose.HTML for Java. Enkel, steg‑för‑steg‑guide för smidiga konverteringar.
 ### [Konvertera HTML till PDF i Java – Steg‑för‑steg‑guide med sidstorleksinställningar](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Lär dig konvertera HTML till PDF i Java med detaljerade steg och anpassa sidstorlek för optimal utskrift.
+### [Konvertera Markdown till PDF i Java – Fullständig Aspose‑guide](./convert-markdown-to-pdf-in-java-complete-aspose-guide/)
+Lär dig hur du konverterar Markdown till PDF i Java med Aspose.HTML. En komplett guide för högkvalitativ PDF‑generering.
 
 ## Vanliga frågor
 

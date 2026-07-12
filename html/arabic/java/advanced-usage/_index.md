@@ -136,6 +136,9 @@ weight: 20
 ### [كيفية تشغيل JavaScript في Java – دليل كامل](./how-to-run-javascript-in-java-complete-guide/)
 تعلم كيفية تشغيل كود JavaScript داخل تطبيقات Java باستخدام Aspose.HTML for Java.
 
+### [تنفيذ JavaScript في Java باستخدام Aspose.HTML – دليل شامل](./execute-javascript-in-java-using-aspose-html-complete-guide/)
+تعلم كيفية تنفيذ جافا سكريبت داخل تطبيقات Java باستخدام Aspose.HTML في دليل شامل خطوة بخطوة.
+
 ---
 
 **آخر تحديث:** 2025-11-29  

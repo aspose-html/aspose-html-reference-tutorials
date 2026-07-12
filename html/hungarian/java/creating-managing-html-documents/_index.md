@@ -51,13 +51,15 @@ Fedezze fel a HTML-kezelés erejét az Aspose.HTML for Java segítségével. Ism
 ### [Speciális fájlbetöltés HTML-dokumentumokhoz az Aspose.HTML for Java-ban](./advanced-file-loading-html-documents/)
 Ebből a lépésről lépésre szóló útmutatóból megtudhatja, hogyan tölthet be, kezelhet és menthet el HTML-dokumentumokat az Aspose.HTML for Java használatával. Oldja fel a fejlett HTML-feldolgozást a Java-projektekben.
 ### [Töltsön be HTML dokumentumokat a Streamből az Aspose.HTML for Java segítségével](./load-html-documents-from-stream/)
-Ismerje meg, hogyan tölthet be HTML-dokumentumokat adatfolyamokból az Aspose.HTML for Java használatával. Ez az útmutató lépésről lépésre ismerteti a zökkenőmentes HTML-kezelést.
+Ismerje meg, hogyan tölthet be HTML dokumentumokat adatfolyamokból az Aspose.HTML for Java használatával. Ez az útmutató lépésről lépésre ismerteti a zökkenőmentes HTML-kezelést.
 ### [Hozzon létre HTML-dokumentumokat a Stringből az Aspose.HTML for Java-ban](./create-html-documents-from-string/)
 Ebből a lépésről lépésre szóló útmutatóból megtudhatja, hogyan hozhat létre HTML-dokumentumokat karakterláncokból az Aspose.HTML for Java programban.
 ### [Töltsön be HTML dokumentumokat az Aspose.HTML for Java-ban található URL-ből](./load-html-documents-from-url/)
 Fedezze fel, hogyan tölthet be egyszerűen HTML dokumentumokat egy URL-ről Java nyelven az Aspose.HTML segítségével. Lépésről lépésre bemutató oktatóanyag.
 ### [HTML lekérdezése Java-ban – Teljes útmutató](./how-to-query-html-in-java-complete-tutorial/)
 Ismerje meg, hogyan kérdezhet le HTML-t Java használatával, lépésről lépésre útmutató a hatékony adatkinyeréshez.
+### [HTML-dokumentum betöltése Java-ban – Teljes útmutató CSS és XPath lekérdezésekkel](./load-html-document-java-complete-guide-with-css-xpath-querie/)
+Fedezze fel, hogyan tölthet be HTML-dokumentumot Java-ban, és végezhet CSS‑ és XPath‑lekérdezéseket lépésről‑lépésre.
 ### [Új HTML-dokumentumok létrehozása az Aspose.HTML for Java használatával](./generate-new-html-documents/)
 Ebből az egyszerű, lépésenkénti útmutatóból megtudhatja, hogyan hozhat létre új HTML-dokumentumokat az Aspose.HTML for Java használatával. Kezdje el a dinamikus HTML-tartalom generálását.
 ### [Kezelje a dokumentumbetöltési eseményeket az Aspose.HTML for Java-ban](./handle-document-load-events/)

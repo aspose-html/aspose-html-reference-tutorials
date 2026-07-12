@@ -88,9 +88,13 @@ In conclusione, padroneggiare **html to pdf java** e l'insieme più ampio di con
 ### [Conversione da HTML a MHTML](./convert-html-to-mhtml/)
 ### [Conversione da HTML a XPS](./convert-html-to-xps/)
 ### [Conversione da Markdown a HTML](./convert-markdown-to-html/)
+### [Converti Markdown in PDF in Java – Guida completa Aspose](./convert-markdown-to-pdf-in-java-complete-aspose-guide/)
 ### [Conversione da SVG a Immagine](./convert-svg-to-image/)
 ### [Conversione da SVG a PDF](./convert-svg-to-pdf/)
 ### [Conversione da SVG a XPS](./convert-svg-to-xps/)
+### [Crea PDF da HTML in Java – Guida completa Aspose.HTML](./create-pdf-from-html-in-java-full-aspose-html-guide/)
+### [Converti pagina web in PDF in Java – Guida Aspose HTML](./convert-webpage-to-pdf-in-java-aspose-html-guide/)
+### [Converti HTML in PDF con Fixed Thread Pool Java](./convert-html-to-pdf-with-fixed-thread-pool-java/)
 
 ## Domande frequenti
 

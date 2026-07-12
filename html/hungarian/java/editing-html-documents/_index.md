@@ -41,7 +41,7 @@ Ha már megtanulta a HTML-dokumentumszerkesztés alapjait, ideje feljebb lépni!
 
 ## Inline és belső CSS hozzáadása
 
-Néha a stílusokat közvetlenül a HTML-dokumentumban kell alkalmazni. Itt jön képbe az inline és a belső CSS. Az inline és a belső CSS hozzáadásával kapcsolatos oktatóanyagok tökéletesek azok számára, akik gyors és egyszerű stílusmegoldásokat keresnek. Képzelje el ezt: olyan dokumentumon dolgozik, amely speciális stílust igényel, és azt szeretné alkalmazni anélkül, hogy ez más dokumentumokat érintene. Az Inline és a belső CSS lehetővé teszi ezt. Akár egy kis projekten, akár egy nagyszabású alkalmazáson dolgozik, ezek az útmutatók segítenek a munka hatékony elvégzésében.[Olvass tovább](./add-inline-css-html-documents/) és[Olvass tovább](./implement-internal-css-html-documents/)
+Néha a stílusokat közvetlenül a HTML-dokumentumban kell alkalmazni. Itt jön képbe az inline és a belső CSS. Az inline és a belső CSS hozzáadásával kapcsolatos oktatóanyagok tökéletesek azok számára, akik gyors és egyszerű stílusmegoldásokat keresnek. Képzelje el ezt: olyan dokumentumon dolgozik, amely speciális stílust igényel, és azt szeretné alkalmazni anélkül, hogy ez más dokumentumokat érintene. Az Inline és a belső CSS lehetővé teszi ezt. Akár egy kis projekten, akár egy nagyszabású alkalmazáson dolgozik, ezek a útmutatók segítenek a munka hatékony elvégzésében.[Olvass tovább](./add-inline-css-html-documents/) és[Olvass tovább](./implement-internal-css-html-documents/)
 
 ## HTML-dokumentumok szerkesztése az Aspose.HTML for Java oktatóanyagokban
 ### [Szerkessze a HTML-dokumentumfát az Aspose.HTML for Java-ban](./edit-html-document-tree/)
@@ -60,6 +60,9 @@ Ezzel a lépésről lépésre szóló útmutatóval megtudhatja, hogyan kezelhet
 Ismerje meg a belső CSS-t HTML-dokumentumokban az Aspose.HTML for Java használatával az egyszerű, lépésről lépésre oktatóanyagunk segítségével.
 ### [Fixed thread pool Java – Párhuzamos HTML tisztítás ExecutorService használatával](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 Ismerje meg, hogyan használhatja a FixedThreadPool-t a HTML dokumentumok párhuzamos tisztításához az ExecutorService segítségével.
+### [HTML sablon betöltése Java – Teljes Aspose.HTML útmutató](./load-html-template-java-complete-aspose-html-guide/)
+Ismerje meg, hogyan tölthet be HTML sablonokat Java-ban az Aspose.HTML segítségével, lépésről lépésre útmutatóval.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
