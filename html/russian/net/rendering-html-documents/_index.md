@@ -45,6 +45,7 @@ Aspose.HTML для .NET выделяется как лучший выбор дл
 
 ### [Как отрендерить HTML в PNG – Полное руководство C#](./how-to-render-html-as-png-complete-c-guide/)
 Полное руководство по рендерингу HTML в PNG с использованием Aspose.HTML и C#.
+
 ### [Создание PNG из HTML – Полное руководство по рендерингу на C#](./create-png-from-html-full-c-rendering-guide/)
 Подробный учебник по созданию PNG из HTML с использованием Aspose.HTML для .NET на C#.
 
@@ -62,10 +63,21 @@ Aspose.HTML для .NET выделяется как лучший выбор дл
 
 ### [Рендеринг SVG Doc как PNG в .NET с помощью Aspose.HTML](./render-svg-doc-as-png/)
 Откройте для себя мощь Aspose.HTML для .NET! Узнайте, как легко визуализировать SVG Doc как PNG. Погрузитесь в пошаговые примеры и часто задаваемые вопросы. Начните прямо сейчас!
+
 ### [Как использовать Aspose для рендеринга HTML в PNG – пошаговое руководство](./how-to-use-aspose-to-render-html-to-png-step-by-step-guide/)
 Подробный пошаговый учебник по использованию Aspose.HTML для конвертации HTML в PNG в .NET.
+
+### [Как упаковать HTML в ZIP и отрендерить его как PNG – Полное руководство C#](./how-to-zip-html-and-render-it-as-png-complete-c-guide/)
+Узнайте, как упаковать HTML в архив ZIP и преобразовать его в PNG с помощью Aspose.HTML для .NET на C#.
+
 ### [Как отрендерить HTML в PNG с помощью Aspose – Полное руководство](./how-to-render-html-to-png-with-aspose-complete-guide/)
 Подробный пошаговый учебник по рендерингу HTML в PNG с использованием Aspose.HTML для .NET.
+
+### [Рендеринг HTML в изображение на C# – Полное руководство по программированию](./render-html-to-image-in-c-complete-programming-guide/)
+Подробный учебник по конвертации HTML в изображения с помощью Aspose.HTML для .NET на C#.
+
+### [Как включить сглаживание при рендеринге HTML в PNG – пошаговое руководство](./how-to-enable-antialiasing-when-rendering-html-to-png-step-b/)
+Узнайте, как включить сглаживание при конвертации HTML в PNG с помощью Aspose.HTML для .NET, следуя пошаговым инструкциям.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
