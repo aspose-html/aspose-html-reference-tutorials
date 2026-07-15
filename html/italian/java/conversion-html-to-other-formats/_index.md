@@ -91,6 +91,7 @@ In conclusione, padroneggiare **html to pdf java** e l'insieme più ampio di con
 ### [Conversione da SVG a Immagine](./convert-svg-to-image/)
 ### [Conversione da SVG a PDF](./convert-svg-to-pdf/)
 ### [Conversione da SVG a XPS](./convert-svg-to-xps/)
+### [Tutorial html to pdf – Converti HTML in PDF con Aspose HTML per Java](./html-to-pdf-tutorial-convert-html-to-pdf-with-aspose-html-fo/)
 
 ## Domande frequenti
 
