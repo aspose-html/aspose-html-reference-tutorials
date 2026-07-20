@@ -9,16 +9,6 @@ url: /es/java/conversion-html-to-other-formats/convert-svg-to-pdf/
 weight: 15
 ---
 
- technical terms in English. So keep "svg to pdf java". Also keep "Aspose.HTML for Java". Keep "convert SVG to PDF Java‑style". Keep "PdfSaveOptions". Keep "batch convert svg pdf". Keep code placeholders.
-
-Proceed.
-
-We'll translate each section.
-
-Make sure bullet points remain bullet.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -102,20 +102,6 @@ Bu beş basit adımla, Aspose.HTML for Java kullanarak **bir EPUB’u görüntü
 | **Düşük görüntü kalitesi** | Varsayılan DPI düşük | Dönüşümden önce `options.setResolution(300);` ayarlayın (**set image resolution java** gerekir) |
 | **Desteklenmeyen fontlar** | Sisteminizde gerekli fontlar yok | Fontları EPUB’a gömün veya gerekli fontları ana makineye kurun |
 
-## Sık Sorulan Sorular
-
-**S: Sadece EPUB’un belirli bir sayfasını dönüştürebilir miyim?**  
-C: Evet. Sayfa aralığı parametrelerini kabul eden `Converter.convertEPUB` aşırı yüklemelerini kullanın.
-
-**S: Çıktı görüntü boyutunu nasıl değiştiririm?**  
-C: Dönüştürücüyü çağırmadan önce `options.setWidth()` ve `options.setHeight()` metodlarını ayarlayın.
-
-**S: Kütüphane DRM‑korumalı EPUB’ları işleyebilir mi?**  
-C: Hayır. Dönüşümün başarılı olabilmesi için EPUB’un DRM’den özgür olması gerekir.
-
-**S: Görüntü yerine PDF’e dönüştürmek mümkün mü?**  
-C: Kesinlikle. Aspose.HTML ayrıca PDF çıktısı için `Converter.convertEPUB` aşırı yüklemeleri sunar.
-
 ## SSS
 
 **S: EPUB’u özellikle JPEG’e nasıl dönüştürürüm?**  

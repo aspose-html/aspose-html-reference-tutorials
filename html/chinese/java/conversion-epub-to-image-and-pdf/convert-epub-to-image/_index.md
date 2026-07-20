@@ -9,7 +9,7 @@ url: /zh/java/conversion-epub-to-image-and-pdf/convert-epub-to-image/
 weight: 10
 ---
 
- final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
@@ -100,20 +100,6 @@ Converter.convertEPUB(fileInputStream, options, outputFile);
 | **空白输出图像** | 输入流未指向有效的 EPUB | 验证文件路径并确保 EPUB 未损坏 |
 | **图像质量低** | 默认 DPI 较低 | 在转换前设置 `options.setResolution(300);`（需要 **set image resolution java**） |
 | **不支持的字体** | 系统缺少字体 | 将字体嵌入 EPUB 或在主机上安装所需字体 |
-
-## 常见问答
-
-**Q: 我可以只转换 EPUB 的特定页面吗？**  
-A: 可以。使用接受页码范围参数的 `Converter.convertEPUB` 重载。
-
-**Q: 如何更改输出图像的尺寸？**  
-A: 在调用转换器之前调整 `options.setWidth()` 和 `options.setHeight()`。
-
-**Q: 该库能处理受 DRM 保护的 EPUB 吗？**  
-A: 不能。EPUB 必须没有 DRM 才能成功转换。
-
-**Q: 能否将其转换为 PDF 而不是图像？**  
-A: 完全可以。Aspose.HTML 也提供用于 PDF 输出的 `Converter.convertEPUB` 重载。
 
 ## 常见问题
 

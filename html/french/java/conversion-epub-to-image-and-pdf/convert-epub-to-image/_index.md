@@ -102,20 +102,6 @@ Avec ces cinq étapes simples, vous avez **converti un EPUB en image** à l’ai
 | **Qualité d’image basse** | Le DPI par défaut est faible | Définissez `options.setResolution(300);` avant la conversion (nécessite **set image resolution java**) |
 | **Polices non prises en charge** | Polices manquantes sur le système | Intégrez les polices dans l’EPUB ou installez les polices requises sur la machine hôte |
 
-## Questions fréquemment posées
-
-**Q : Puis‑je convertir uniquement une page spécifique de l’EPUB ?**  
-R : Oui. Utilisez les surcharges de `Converter.convertEPUB` qui acceptent des paramètres de plage de pages.
-
-**Q : Comment modifier la taille de l’image de sortie ?**  
-R : Ajustez `options.setWidth()` et `options.setHeight()` avant d’appeler le convertisseur.
-
-**Q : La bibliothèque gère‑t‑elle les EPUB protégés par DRM ?**  
-R : Non. L’EPUB doit être exempt de DRM pour que la conversion réussisse.
-
-**Q : Est‑il possible de convertir en PDF au lieu d’une image ?**  
-R : Absolument. Aspose.HTML propose également des surcharges de `Converter.convertEPUB` pour la sortie PDF.
-
 ## FAQ
 
 **Q : Comment convertir spécifiquement un EPUB en JPEG ?**  

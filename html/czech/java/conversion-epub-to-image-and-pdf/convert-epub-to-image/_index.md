@@ -10,10 +10,6 @@ url: /cs/java/conversion-epub-to-image-and-pdf/convert-epub-to-image/
 weight: 10
 ---
 
- translate context.
-
-Let's produce.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
@@ -105,20 +101,6 @@ Těmito pěti jednoduchými kroky jste úspěšně **převáděli EPUB na obráz
 | **Prázdný výstupní obrázek** | Vstupní proud neukazuje na platný EPUB | Ověřte cestu k souboru a ujistěte se, že EPUB není poškozený |
 | **Nízká kvalita obrázku** | Výchozí DPI je nízké | Před konverzí nastavte `options.setResolution(300);` (vyžaduje **set image resolution java**) |
 | **Nezahrnutá písma** | Písma chybí v systému | Vložte písma do EPUB nebo nainstalujte požadovaná písma na hostitelském počítači |
-
-## Často kladené otázky
-
-**Q: Mohu převést jen konkrétní stránku EPUB?**  
-A: Ano. Použijte přetížené metody `Converter.convertEPUB`, které přijímají parametry rozsahu stránek.
-
-**Q: Jak změním velikost výstupního obrázku?**  
-A: Před voláním konvertoru upravte `options.setWidth()` a `options.setHeight()`.
-
-**Q: Zvládá knihovna EPUB chráněné DRM?**  
-A: Ne. EPUB musí být bez DRM, aby konverze proběhla úspěšně.
-
-**Q: Je možné převést na PDF místo obrázku?**  
-A: Rozhodně. Aspose.HTML také poskytuje přetížené metody `Converter.convertEPUB` pro výstup PDF.
 
 ## FAQ
 

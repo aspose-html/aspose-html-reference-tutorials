@@ -9,28 +9,6 @@ url: /nl/java/conversion-html-to-other-formats/convert-svg-to-pdf/
 weight: 15
 ---
 
-.
-
-Next "## Conclusion" translate.
-
-Paragraph translate.
-
-Then the metadata lines: "**Last Updated:** 2026-02-17" keep date, translate "Last Updated" maybe "Laatst bijgewerkt". "**Tested With:** Aspose.HTML for Java 24.11" translate "Getest met". "**Author:** Aspose" translate "Auteur". Keep formatting.
-
-Then closing shortcodes.
-
-Also there is a backtop button shortcode after.
-
-Make sure to keep all shortcodes exactly.
-
-Now produce final content.
-
-Let's craft translation.
-
-Be careful with markdown formatting.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

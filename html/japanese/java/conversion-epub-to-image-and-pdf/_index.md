@@ -15,14 +15,14 @@ weight: 22
 
 # Aspose.HTML for Java を使用した EPUB の PDF および画像への変換
 
-Are you looking to **convert EPUB to PDF** or turn your e‑books into high‑quality images? You're in the right place! In this comprehensive tutorial, we’ll walk you through the entire process using **Aspose.HTML for Java** – a top‑tier **epub conversion library** that makes both **convert epub to pdf** and **convert epub to image** tasks effortless.
+**EPUBをPDFに変換**したり、電子書籍を高画質画像に変換したいですか？それなら、まさにここが最適な場所です！この包括的なチュートリアルでは、**Aspose.HTML for Java** を使用した全プロセスを詳しく解説します。**Aspose.HTML for Java** は、**EPUBからPDFへの変換**と**EPUBから画像への変換**の両方を簡単に行える、最高レベルの**EPUB変換ライブラリ**です。
 
 ## クイック回答
-- **Can I convert EPUB to PDF with Java?** Yes, Aspose.HTML for Java provides a one‑line API to do it.  
-- **Is image conversion supported?** Absolutely – you can export each page to PNG, JPEG, or BMP.  
-- **Do I need a license?** A free trial works for development; a commercial license is required for production.  
-- **What Java versions are supported?** Java 8 and newer, including Java 17 LTS.  
-- **Is the library fast enough for large books?** Yes, it streams content and uses minimal memory.
+- **JavaでEPUBをPDFに変換できますか？** はい、Aspose.HTML for Java は、たった1行のAPIで変換できます。
+- **画像変換はサポートされていますか？** もちろんです。各ページをPNG、JPEG、またはBMP形式でエクスポートできます。
+- **ライセンスは必要ですか？** 開発用途には無料トライアル版が利用できます。本番環境での使用には商用ライセンスが必要です。
+- **サポートされているJavaバージョンは？** Java 8以降（Java 17 LTSを含む）に対応しています。
+- **大容量の書籍でも十分な速度で処理できますか？** はい、コンテンツをストリーミング処理し、メモリ使用量を最小限に抑えています。
 
 ## 「convert epub to pdf」とは何ですか？
 EPUB ファイルを PDF に変換するということは、再フロー可能なウェブベースの電子書籍フォーマットを固定レイアウトの PDF ドキュメントに変換することを意味します。印刷用バージョンが必要な場合や、オフラインでの共有、文書管理システムへの準拠が必要な場合に便利です。

@@ -10,8 +10,6 @@ url: /hu/java/conversion-epub-to-image-and-pdf/convert-epub-to-image/
 weight: 10
 ---
 
- translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
@@ -103,20 +101,6 @@ Ezzel az öt egyszerű lépéssel **sikeresen konvertált egy EPUB‑ot képpé*
 | **Üres kimeneti kép** | A bemeneti stream nem mutat érvényes EPUB fájlra | Ellenőrizze az elérési utat, és győződjön meg róla, hogy az EPUB nem sérült |
 | **Alacsony képminőség** | Alapértelmezett DPI alacsony | A konverzió előtt állítsa be a `options.setResolution(300);` értéket (**set image resolution java**) |
 | **Nem támogatott betűtípusok** | A rendszerben hiányoznak a betűtípusok | Ágyazza be a betűtípusokat az EPUB‑ba, vagy telepítse a szükséges betűtípusokat a gépre |
-
-## Gyakran feltett kérdések
-
-**K: Konvertálhatok csak egy konkrét oldalt az EPUB‑ból?**  
-V: Igen. Használja a `Converter.convertEPUB` túlterhelt változatait, amelyek oldaltartomány paramétereket fogadnak.
-
-**K: Hogyan változtathatom meg a kimeneti kép méretét?**  
-V: Állítsa be a `options.setWidth()` és `options.setHeight()` értékeket a konverter hívása előtt.
-
-**K: Kezeli a könyvtár a DRM‑védelem alatt álló EPUB‑okat?**  
-V: Nem. Az EPUB‑nak DRM‑mentesnek kell lennie a sikeres konverzióhoz.
-
-**K: Lehetséges PDF‑re konvertálni a képek helyett?**  
-V: Természetesen. Az Aspose.HTML szintén biztosít `Converter.convertEPUB` túlterheléseket PDF kimenethez.
 
 ## FAQ
 

@@ -102,20 +102,6 @@ Với năm bước đơn giản này, bạn đã **chuyển đổi thành công 
 | **Chất lượng ảnh thấp** | DPI mặc định quá thấp | Đặt `options.setResolution(300);` trước khi chuyển đổi (cần **set image resolution java**) |
 | **Phông chữ không được hỗ trợ** | Thiếu phông trên hệ thống | Nhúng phông vào EPUB hoặc cài đặt các phông cần thiết trên máy chủ |
 
-## Câu Hỏi Thường Gặp
-
-**H: Tôi có thể chuyển đổi chỉ một trang cụ thể của EPUB không?**  
-Đ: Có. Sử dụng các overload của `Converter.convertEPUB` cho phép truyền tham số phạm vi trang.
-
-**H: Làm sao để thay đổi kích thước ảnh đầu ra?**  
-Đ: Điều chỉnh `options.setWidth()` và `options.setHeight()` trước khi gọi bộ chuyển đổi.
-
-**H: Thư viện có xử lý EPUB có DRM không?**  
-Đ: Không. EPUB phải không có DRM để quá trình chuyển đổi thành công.
-
-**H: Có thể chuyển đổi sang PDF thay vì ảnh không?**  
-Đ: Hoàn toàn có thể. Aspose.HTML cũng cung cấp các overload của `Converter.convertEPUB` cho đầu ra PDF.
-
 ## FAQ
 
 **H: Làm sao tôi chuyển EPUB sang JPEG cụ thể?**  

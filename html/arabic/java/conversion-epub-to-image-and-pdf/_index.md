@@ -10,24 +10,6 @@ url: /ar/java/conversion-epub-to-image-and-pdf/
 weight: 22
 ---
 
- links.
-
-Also "Frequently Asked Questions" Q&A.
-
-Also "Last Updated", "Tested With", "Author".
-
-All Arabic translation, keep English technical terms.
-
-Make sure to keep markdown formatting.
-
-Also ensure RTL direction? Usually Arabic text is right-to-left but we just write Arabic text; markdown will display accordingly.
-
-Let's produce translation.
-
-We'll keep shortcodes exactly.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

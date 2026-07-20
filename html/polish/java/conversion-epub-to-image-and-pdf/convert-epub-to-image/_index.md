@@ -102,20 +102,6 @@ Dzięki tym pięciu prostym krokom pomyślnie **przekonwertowałeś EPUB na obra
 | **Niska jakość obrazu** | Domyślne DPI jest niskie | Ustaw `options.setResolution(300);` przed konwersją (wymaga **set image resolution java**) |
 | **Nieobsługiwane czcionki** | Brak czcionek w systemie | Osadź czcionki w EPUB lub zainstaluj wymagane czcionki na maszynie hosta |
 
-## Najczęściej zadawane pytania
-
-**P: Czy mogę konwertować tylko konkretną stronę EPUB?**  
-O: Tak. Użyj przeciążeń `Converter.convertEPUB`, które przyjmują parametry zakresu stron.
-
-**P: Jak zmienić rozmiar wyjściowego obrazu?**  
-O: Dostosuj `options.setWidth()` i `options.setHeight()` przed wywołaniem konwertera.
-
-**P: Czy biblioteka obsługuje EPUB‑y zabezpieczone DRM?**  
-O: Nie. EPUB musi być wolny od DRM, aby konwersja się powiodła.
-
-**P: Czy można konwertować na PDF zamiast obrazu?**  
-O: Oczywiście. Aspose.HTML udostępnia również przeciążenia `Converter.convertEPUB` dla wyjścia PDF.
-
 ## FAQ
 
 **P: Jak konkretnie skonwertować EPUB na JPEG?**  

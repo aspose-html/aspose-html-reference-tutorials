@@ -8,17 +8,7 @@ url: /zh/java/conversion-html-to-other-formats/convert-svg-to-pdf/
 weight: 15
 ---
 
-## Frequently Asked Questions" done.
-
-Check "## Additional FAQ (AI‑friendly)" done.
-
-Check "## Conclusion" done.
-
-Check "Aspose.HTML for Java makes it straightforward to **convert SVG to PDF Java** projects..." done.
-
-All shortcodes preserved.
-
-Now produce final output with all content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

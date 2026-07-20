@@ -9,27 +9,7 @@ url: /de/java/conversion-html-to-other-formats/convert-svg-to-pdf/
 weight: 15
 ---
 
-".
-
-Translate bullet points.
-
-Translate "Frequently Asked Questions" -> "Häufig gestellte Fragen".
-
-Translate each Q.
-
-Make sure to keep links unchanged.
-
-Translate "Additional FAQ (AI‑friendly)" -> "Zusätzliche FAQ (KI‑freundlich)".
-
-Translate Q/A.
-
-Translate "Conclusion" -> "Fazit".
-
-Translate final lines.
-
-Make sure to keep the shortcodes at bottom unchanged.
-
-Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

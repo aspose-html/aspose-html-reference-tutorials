@@ -102,20 +102,6 @@ Dengan lima langkah sederhana ini, Anda telah berhasil **mengonversi EPUB menjad
 | **Kualitas gambar rendah** | DPI default terlalu rendah | Atur `options.setResolution(300);` sebelum konversi (memerlukan **set image resolution java**) |
 | **Font tidak didukung** | Font tidak ada di sistem | Sematkan font dalam EPUB atau instal font yang diperlukan di mesin host |
 
-## Pertanyaan yang Sering Diajukan
-
-**Q: Bisakah saya mengonversi hanya halaman tertentu dari EPUB?**  
-A: Ya. Gunakan overload `Converter.convertEPUB` yang menerima parameter rentang halaman.
-
-**Q: Bagaimana cara mengubah ukuran gambar output?**  
-A: Sesuaikan `options.setWidth()` dan `options.setHeight()` sebelum memanggil konverter.
-
-**Q: Apakah perpustakaan menangani EPUB yang dilindungi DRM?**  
-A: Tidak. EPUB harus bebas dari DRM agar konversi berhasil.
-
-**Q: Apakah memungkinkan mengonversi ke PDF alih-alih gambar?**  
-A: Tentu. Aspose.HTML juga menyediakan overload `Converter.convertEPUB` untuk output PDF.
-
 ## FAQ
 
 **Q: Bagaimana saya dapat mengonversi EPUB ke JPEG secara khusus?**  

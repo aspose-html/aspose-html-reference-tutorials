@@ -15,32 +15,34 @@ weight: 10
 
 # ZIP ファイルの読み取り（Java） – Aspose.HTML メッセージハンドラ
 
-## Introduction
+## はじめに
 ZIP アーカイブの操作は、**read zip file java** スタイルのリソースをオンザフライで読み込む必要がある場合に一般的な要件です。このチュートリアルでは、Aspose.HTML for Java を使用して ZIP アーカイブ メッセージハンドラを構築する手順を解説します。これにより、ファイルを事前に展開せずに ZIP アーカイブから直接配信でき、I/O のオーバーヘッドを削減し、すべてのアセットを単一パッケージにまとめることでデプロイがシンプルになります。
 
-## Quick Answers
-- **What does the handler do?** It reads files from a ZIP archive and returns them as HTTP responses.  
-- **Which library is required?** Aspose.HTML for Java.  
-- **How to set the correct MIME type?** Use `MimeType.fromFileExtension` – see the “set mime type java” step.  
-- **Can I use it to serve zip content?** Yes – the handler shows **how to serve zip** files efficiently.  
-- **What Java version is needed?** JDK 8 or higher.
+## よくある質問
+- **ハンドラーの機能は何ですか？** ZIPアーカイブからファイルを読み込み、HTTPレスポンスとして返します。
+- **必要なライブラリは何ですか？** Aspose.HTML for Java。
+- **正しいMIMEタイプを設定するにはどうすればよいですか？** `MimeType.fromFileExtension` を使用してください。「JavaでMIMEタイプを設定する」の手順を参照してください。
+- **ZIPコンテンツの配信に使用できますか？** はい。このハンドラーは、ZIPファイルを効率的に配信する方法を示しています。
+- **必要なJavaのバージョンは何ですか？** JDK8以降。
 
-## What is “read zip file java”?
-Reading a ZIP file in Java means accessing compressed entries directly from the archive without manual extraction. Aspose.HTML’s network pipeline lets you plug a custom handler that performs this operation automatically for each incoming request.
+## 「JavaでZIPファイルを読み込む」とは？
 
-## Why use a custom Message Handler?
-- **Performance:** No need to unzip files on disk; data is streamed straight from the archive.  
-- **Security:** Reduces the attack surface by limiting file system access.  
-- **Simplicity:** One‑line configuration (`ProtocolMessageFilter("zip")`) tells the engine to route ZIP requests to your code.
+JavaでZIPファイルを読み込むとは、手動で解凍することなく、アーカイブから圧縮されたエントリに直接アクセスすることを意味します。Aspose.HTMLのネットワークパイプラインを使用すると、受信リクエストごとにこの操作を自動的に実行するカスタムハンドラーをプラグインできます。
 
-## Prerequisites
-- **Aspose.HTML for Java:** You can [download it here](https://releases.aspose.com/html/java/).  
-- **Java Development Kit (JDK):** Version 8 or newer.  
-- **IDE:** IntelliJ IDEA, Eclipse, or any Java‑compatible editor.  
-- **Basic Java knowledge:** Familiarity with file I/O and networking concepts.
+## カスタムメッセージハンドラーを使用する理由
 
-## Import Packages
-To start, import the classes that enable network handling, content creation, and ZIP processing.
+- **パフォーマンス:** ディスク上でファイルを解凍する必要がありません。データはアーカイブから直接ストリーミングされます。
+- **セキュリティ:** ファイルシステムへのアクセスを制限することで、攻撃対象領域を縮小します。
+- **シンプルさ:** 1行の設定（`ProtocolMessageFilter("zip")`）で、ZIPリクエストをコードにルーティングするようにエンジンに指示できます。
+
+## 前提条件
+- **Aspose.HTML for Java:** [こちらからダウンロードできます](https://releases.aspose.com/html/java/)。
+- **Java Development Kit (JDK):** バージョン8以降。
+- **IDE:** IntelliJ IDEA、Eclipse、またはJava互換のエディタ。
+- **Javaの基礎知識:** ファイルI/Oとネットワークの概念を理解していること。
+
+## パッケージのインポート
+まず、ネットワーク処理、コンテンツ作成、ZIP処理を可能にするクラスをインポートします。
 
 ```java
 import com.aspose.html.IDisposable;
@@ -55,8 +57,8 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 ```
 
-## How to read zip file java – Step 1: Initialize the Handler
-Create a class that extends `MessageHandler` and implements `IDisposable`. The constructor registers a protocol filter for the `zip` scheme, ensuring the handler only processes ZIP‑based requests.
+## JavaでZIPファイルを読み込む方法 – ステップ1：ハンドラの初期化
+`MessageHandler`を継承し、`IDisposable`インターフェースを実装するクラスを作成します。コンストラクタは`zip`スキームのプロトコルフィルタを登録し、ハンドラがZIPベースのリクエストのみを処理するようにします。
 
 ```java
 public class ZIPArchiveMessageHandler extends MessageHandler implements IDisposable {
@@ -69,8 +71,8 @@ public class ZIPArchiveMessageHandler extends MessageHandler implements IDisposa
 }
 ```
 
-## Step 2: Implement the Dispose Method (set mime type java – resource cleanup)
-Even if you don’t have explicit resources to free, providing a `dispose` method follows good practice and prepares the class for future extensions.
+## ステップ2：Disposeメソッドの実装（JavaでMIMEタイプを設定 – リソースのクリーンアップ）
+解放するリソースが明示的に存在しない場合でも、`dispose`メソッドを提供することはベストプラクティスであり、将来の拡張に備えることができます。
 
 ```java
 @Override
@@ -79,8 +81,8 @@ public void dispose() {
 }
 ```
 
-## Step 3: Handle Network Requests – Core of “how to serve zip”
-The `invoke` method reads the requested entry from the ZIP archive and builds the appropriate HTTP response.
+## ステップ3：ネットワークリクエストの処理 – 「ZIPファイルの提供方法」の中核部分
+`invoke`メソッドは、ZIPアーカイブから要求されたエントリを読み込み、適切なHTTPレスポンスを生成します。
 
 ```java
 @Override
@@ -102,59 +104,65 @@ public void invoke(INetworkOperationContext context) {
 }
 ```
 
-### What’s happening here?
-1. **Read bytes:** `Files.readAllBytes` pulls the file data from the ZIP entry.  
-2. **Success path:** A `200 OK` response is created, and the raw bytes are wrapped in `ByteArrayContent`.  
-3. **Error path:** If the file isn’t found, a `404` response is returned.  
+### ここで何が起こっているのか？
 
-## Step 4: Set the MIME type Java (set mime type java)
-Correct MIME types ensure browsers render the content properly. The following line extracts the file extension and maps it to a MIME type.
+1. **バイトの読み込み:** `Files.readAllBytes`はZIPエントリからファイルデータを取得します。
+2. **成功時の処理:** `200 OK` レスポンスが生成され、生のバイト列が `ByteArrayContent` でラップされます。
+3. **エラー時の処理:** ファイルが見つからない場合は、`404` レスポンスが返されます。
+
+## ステップ 4: MIME タイプを Java に設定します (set mime type java)
+正しい MIME タイプを設定することで、ブラウザがコンテンツを正しくレンダリングできるようになります。次の行は、ファイル拡張子を抽出し、MIME タイプにマッピングします。
 
 ```java
 context.getResponse().getHeaders().getContentType().setMediaType(MimeType.fromFileExtension(context.getRequest().getRequestUri().getPathname()));
 ```
 
-## Step 5: Invoke the Next Handler – Completing the pipeline
-After your handler finishes processing, forward the request to the next handler in the chain.
+## ステップ 5: 次のハンドラを呼び出す - パイプラインの完了
+ハンドラの処理が完了したら、リクエストをチェーン内の次のハンドラに転送します。
 
 ```java
 invoke(context);
 ```
 
-This respects the **chain‑of‑responsibility** pattern, allowing additional handlers (e.g., caching, logging) to run after yours.
+これは**責任連鎖**パターンを尊重し、追加のハンドラ（キャッシュ、ログ記録など）があなたのハンドラの後に実行されることを可能にします。
 
-## Common Issues & Solutions
-| Issue | Reason | Fix |
+## よくある問題と解決策
+| 問題 | 原因 | 解決策 |
+
 |-------|--------|-----|
-| `FileNotFoundException` | Path inside ZIP is wrong or missing leading slash. | Use `context.getRequest().getRequestUri().getPathname().replaceFirst("^/", "")`. |
-| Wrong content type | MIME mapping not recognized for obscure extensions. | Add custom mapping with `MimeType.registerExtension(".xyz", "application/xyz")`. |
-| Memory pressure on large files | `Files.readAllBytes` loads the whole file into memory. | Stream the entry using `InputStream` and `ByteArrayContent` constructor that accepts a stream. |
 
-## Frequently Asked Questions (FAQ)
+| `FileNotFoundException` | ZIPファイル内のパスが間違っているか、先頭のスラッシュがありません。| `context.getRequest().getRequestUri().getPathname().replaceFirst("^/", "")` を使用してください。|
 
-**Q: What is the primary use of a ZIP Archive Message Handler?**  
-A: It allows you to **read zip file java** and serve the contained files as network responses, streamlining file management.
+| コンテンツタイプが間違っています | 不明瞭な拡張子のMIMEマッピングが認識されません。| `MimeType.registerExtension(".xyz", "application/xyz")` を使用してカスタムマッピングを追加してください。|
 
-**Q: Can I handle other file types with this handler?**  
-A: Yes. By changing the `ProtocolMessageFilter` and adjusting MIME resolution, you can support other archive formats.
+| 大容量ファイルでメモリ負荷が増大しています | `Files.readAllBytes` はファイル全体をメモリに読み込みます。| `InputStream` とストリームを受け入れる `ByteArrayContent` コンストラクタを使用してエントリをストリーム化します。|
 
-**Q: What happens if the requested file is not found in the ZIP archive?**  
-A: The handler returns a `404` response, indicating the resource could not be located.
+## よくある質問 (FAQ)
 
-**Q: Do I need to implement the `dispose` method?**  
-A: While not mandatory for this simple example, implementing `dispose` helps prevent memory leaks in larger applications.
+**Q: ZIP アーカイブ メッセージ ハンドラの主な用途は何ですか？** 
+A: ZIP ファイルを読み込み、含まれているファイルをネットワーク レスポンスとして提供することで、ファイル管理を効率化できます。
 
-**Q: Can this handler be used in a web server?**  
-A: Absolutely. It integrates with Aspose.HTML’s networking stack, which can be embedded in any Java web application.
+**Q: このハンドラで他のファイル タイプも処理できますか？** 
+A: はい。`ProtocolMessageFilter` を変更し、MIME 解決を調整することで、他のアーカイブ形式をサポートできます。
 
-## Conclusion
-In this guide we demonstrated **how to read zip file java** using Aspose.HTML for Java and showed **how to serve zip** content with the correct MIME type. By following the step‑by‑step instructions you can embed this handler into your web server, delivering compressed assets on demand while keeping your deployment tidy and efficient.
+**Q: 要求されたファイルが ZIP アーカイブ内に見つからない場合はどうなりますか？** 
+A: ハンドラは `404` レスポンスを返し、リソースが見つからなかったことを示します。
+
+**Q: `dispose` メソッドを実装する必要がありますか？** 
+A: この簡単な例では必須ではありませんが、`dispose` を実装することで、大規模なアプリケーションでのメモリ リークを防ぐことができます。
+
+
+**Q: このハンドラーはWebサーバーで使用できますか？** 
+A: もちろんです。Aspose.HTMLのネットワークスタックと統合されており、あらゆるJava Webアプリケーションに組み込むことができます。
+
+## まとめ
+このガイドでは、Aspose.HTML for Javaを使用して**Javaでzipファイルを読み込む方法**と、**適切なMIMEタイプでzipコンテンツを配信する方法**を説明しました。手順に沿ってこのハンドラーをWebサーバーに組み込むことで、圧縮アセットをオンデマンドで配信し、デプロイメントを整理して効率的に運用できます。
 
 ---
 
-**Last Updated:** 2026-02-17  
-**Tested With:** Aspose.HTML for Java 24.12  
-**Author:** Aspose  
+**最終更新日:** 2026年2月17日
+**テスト環境:** Aspose.HTML for Java 24.12
+**作成者:** Aspose 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

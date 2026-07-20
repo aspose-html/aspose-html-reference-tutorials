@@ -8,13 +8,7 @@ url: /zh/java/handling-zip-files/zip-archive-message-handler/
 weight: 10
 ---
 
-Let's go through.
-
-Start with shortcodes at top and bottom unchanged.
-
-Now translate.
-
-I'll produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

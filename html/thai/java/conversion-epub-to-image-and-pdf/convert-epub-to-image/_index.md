@@ -9,9 +9,7 @@ url: /th/java/conversion-epub-to-image-and-pdf/convert-epub-to-image/
 weight: 10
 ---
 
- shortcodes exactly.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
@@ -105,34 +103,20 @@ Converter.convertEPUB(fileInputStream, options, outputFile);
 
 ## คำถามที่พบบ่อย
 
-**Q: Can I convert only a specific page of the EPUB?**  
-A: Yes. Use `Converter.convertEPUB` overloads that accept page range parameters.
+**ถาม: ฉันจะแปลง EPUB เป็น JPEG ได้อย่างไร?**
+ตอบ: ตั้งค่า `ImageFormat.Jpeg` ใน `ImageSaveOptions` ดังแสดงในขั้นตอนที่ 3
 
-**Q: How do I change the output image size?**  
-A: Adjust `options.setWidth()` and `options.setHeight()` before calling the converter.
+**ถาม: วิธีที่ดีที่สุดในการตั้งค่า DPI ให้สูงขึ้นเพื่อภาพที่คมชัดขึ้นคืออะไร?**
+ตอบ: เรียกใช้ `options.setResolution(300);` (หรือ DPI ที่ต้องการ) ก่อนการแปลง – นี่คือวิธีการ **ตั้งค่าความละเอียดภาพใน Java** ทั่วไป
 
-**Q: Does the library handle DRM‑protected EPUBs?**  
-A: No. The EPUB must be free of DRM for the conversion to succeed.
+**ถาม: ฉันสามารถประมวลผลไฟล์ EPUB หลายไฟล์พร้อมกันได้หรือไม่?**
+ตอบ: ได้ ห่อโค้ดการแปลงไว้ในลูปที่วนซ้ำตามรายการเส้นทางไฟล์
 
-**Q: Is it possible to convert to PDF instead of an image?**  
-A: Absolutely. Aspose.HTML also provides `Converter.convertEPUB` overloads for PDF output.
+**ถาม: มีปัญหาเรื่องหน่วยความจำกับ EPUB ขนาดใหญ่หรือไม่?**
+ตอบ: สำหรับหนังสือขนาดใหญ่มาก ควรพิจารณาแปลงทีละหน้าและปิดสตรีมทันทีเพื่อลดการใช้หน่วยความจำ
 
-## คำถามที่พบบ่อย
-
-**Q: How can I convert EPUB to JPEG specifically?**  
-A: Set `ImageFormat.Jpeg` in `ImageSaveOptions` as shown in Step 3.
-
-**Q: What is the best way to set a higher DPI for sharper images?**  
-A: Call `options.setResolution(300);` (or any desired DPI) before conversion – this is the typical **set image resolution java** approach.
-
-**Q: Can I process multiple EPUB files in one run?**  
-A: Yes. Wrap the conversion code inside a loop that iterates over a list of file paths.
-
-**Q: Are there any memory concerns with large EPUBs?**  
-A: For very large books, consider converting one page at a time and disposing of streams promptly to keep memory usage low.
-
-**Q: Do I need to install any native libraries?**  
-A: No. Aspose.HTML for Java is a pure‑Java library; just add the JAR to your project’s classpath.
+**ถาม: ฉันต้องติดตั้งไลบรารีเนทีฟใดๆ หรือไม่?**
+ตอบ: ไม่จำเป็น Aspose.HTML สำหรับ Java เป็นไลบรารี Java บริสุทธิ์ เพียงแค่เพิ่มไฟล์ JAR ลงใน classpath ของโปรเจ็กต์ของคุณ
 
 ## สรุป
 

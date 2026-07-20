@@ -8,30 +8,6 @@ url: /ja/java/conversion-epub-to-image-and-pdf/convert-epub-to-image/
 weight: 10
 ---
 
-" heading.
-
-Translate "Why convert EPUB pages to images with Aspose.HTML?" etc.
-
-Translate prerequisites list.
-
-Translate code block placeholders remain.
-
-Translate steps.
-
-Translate table.
-
-Translate FAQ.
-
-Translate conclusion.
-
-Translate last updated etc.
-
-Let's craft translation.
-
-Make sure to keep markdown syntax.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
@@ -40,7 +16,7 @@ Proceed.
 
 この包括的なチュートリアルでは、**EPUB ページを画像に変換**する方法を Aspose.HTML for Java を使って解説します。EPUB ページを画像に変換すれば、サムネイルやカバープレビューを作成したり、ウェブサイトに書籍ページを埋め込んだりする際に便利です。ガイドの最後まで読むと、任意の EPUB を JPEG（または他のサポート形式）に変換する、数行のコードだけで動作する Java スニペットが手に入ります。
 
-## Quick Answers
+## 簡単な回答
 - **変換の結果は何ですか？** EPUB の各ページに対してラスタ画像（例: JPEG、PNG）が生成されます。  
 - **必要なライブラリは？** Aspose.HTML for Java。  
 - **ライセンスは必要ですか？** テスト用の無料トライアルは利用可能です。商用利用には有償ライセンスが必要です。  
@@ -124,21 +100,7 @@ Converter.convertEPUB(fileInputStream, options, outputFile);
 | **画像品質が低い** | デフォルト DPI が低い | 変換前に `options.setResolution(300);` を設定します（**set image resolution java** が必要） |
 | **フォントがサポートされていない** | システムにフォントが無い | EPUB にフォントを埋め込むか、必要なフォントをホストマシンにインストールしてください |
 
-## Frequently Asked Questions
-
-**Q: EPUB の特定ページだけを変換できますか？**  
-A: はい。ページ範囲パラメータを受け取る `Converter.convertEPUB` のオーバーロードを使用します。
-
-**Q: 出力画像のサイズはどう変更しますか？**  
-A: 変換呼び出し前に `options.setWidth()` と `options.setHeight()` を調整してください。
-
-**Q: DRM 保護された EPUB は扱えますか？**  
-A: できません。変換には DRM が解除された EPUB が必要です。
-
-**Q: 画像ではなく PDF に変換することは可能ですか？**  
-A: 可能です。Aspose.HTML には PDF 出力用の `Converter.convertEPUB` オーバーロードがあります。
-
-## FAQ
+## よくある質問
 
 **Q: 特に JPEG に変換したい場合は？**  
 A: Step 3 の例のように `ImageSaveOptions` で `ImageFormat.Jpeg` を設定します。

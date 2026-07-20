@@ -10,11 +10,7 @@ url: /it/java/conversion-epub-to-image-and-pdf/convert-epub-to-image/
 weight: 10
 ---
 
-codes.
-
-Make sure to keep all shortcodes unchanged.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
@@ -107,20 +103,6 @@ Con questi cinque semplici passaggi, hai **convertito con successo un EPUB in un
 | **Immagine di output vuota** | Lo stream di input non punta a un EPUB valido | Verifica il percorso del file e assicurati che l'EPUB non sia corrotto |
 | **Qualità immagine bassa** | Il DPI predefinito è basso | Imposta `options.setResolution(300);` prima della conversione (richiede **set image resolution java**) |
 | **Font non supportati** | Font mancanti sul sistema | Incorpora i font nell'EPUB o installa i font richiesti sulla macchina host |
-
-## Domande frequenti
-
-**D: Posso convertire solo una pagina specifica dell'EPUB?**  
-R: Sì. Usa le overload di `Converter.convertEPUB` che accettano parametri di intervallo di pagine.
-
-**D: Come posso modificare le dimensioni dell'immagine di output?**  
-R: Regola `options.setWidth()` e `options.setHeight()` prima di chiamare il convertitore.
-
-**D: La libreria gestisce EPUB protetti da DRM?**  
-R: No. L'EPUB deve essere privo di DRM per consentire la conversione.
-
-**D: È possibile convertire in PDF invece che in un'immagine?**  
-R: Assolutamente. Aspose.HTML fornisce anche overload di `Converter.convertEPUB` per l'output PDF.
 
 ## FAQ
 

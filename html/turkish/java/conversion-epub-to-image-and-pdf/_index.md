@@ -14,103 +14,118 @@ weight: 22
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.HTML for Java ile EPUB'yi PDF ve Görsellere Dönüştürme
+# Aspose.HTML for Java ile EPUB'ı PDF ve Görsellere Dönüştürme
 
-Are you looking to **convert EPUB to PDF** or turn your e‑books into high‑quality images? You're in the right place! In this comprehensive tutorial, we’ll walk you through the entire process using **Aspose.HTML for Java** – a top‑tier **epub conversion library** that makes both **convert epub to pdf** and **convert epub to image** tasks effortless.
+EPUB'ı PDF'ye dönüştürmek veya e-kitaplarınızı yüksek kaliteli görsellere çevirmek mi istiyorsunuz? Doğru yerdesiniz! Bu kapsamlı eğitimde, hem **epub'ı pdf'ye dönüştürme** hem de **epub'ı görsele dönüştürme** işlemlerini zahmetsiz hale getiren üst düzey bir **epub dönüştürme kütüphanesi** olan **Aspose.HTML for Java**'yı kullanarak tüm süreci adım adım anlatacağız.
 
 ## Hızlı Yanıtlar
-- **Java ile EPUB'yi PDF'ye dönüştürebilir miyim?** Yes, Aspose.HTML for Java provides a one‑line API to do it.  
-- **Görsel dönüşümü destekleniyor mu?** Absolutely – you can export each page to PNG, JPEG, or BMP.  
-- **Bir lisansa ihtiyacım var mı?** A free trial works for development; a commercial license is required for production.  
-- **Hangi Java sürümleri destekleniyor?** Java 8 and newer, including Java 17 LTS.  
-- **Kütüphane büyük kitaplar için yeterince hızlı mı?** Yes, it streams content and uses minimal memory.
+- **Java ile EPUB'ı PDF'ye dönüştürebilir miyim?** Evet, Aspose.HTML for Java bunu yapmak için tek satırlık bir API sağlar.
 
-## “convert epub to pdf” nedir?
-Converting an EPUB file to PDF means taking the reflowable, web‑based e‑book format and generating a fixed‑layout PDF document. This is useful when you need a printable version, offline sharing, or compliance with document‑management systems.
+- **Görsel olarak destekleniyor mu?** Kesinlikle – her sayfayı PNG, JPEG veya BMP olarak dışa aktarabilirsiniz.
 
-## EPUB Dönüştürme için Aspose.HTML for Java Neden Kullanılmalı?
-- **All‑in‑one solution** – handles both PDF and image outputs without third‑party tools.  
-- **High fidelity** – preserves CSS, fonts, and vector graphics.  
-- **Cross‑platform** – works on Windows, Linux, and macOS.  
-- **Rich API** – simple methods like `HtmlDocument.save()` let you focus on business logic.  
+- **Bir lisansa ihtiyacım var mı?** Geliştirme için ücretsiz deneme sürümü çalışır; üretim için ticari lisans gereklidir.
+
+- **Hangi Java desteği sağlanıyor mu?** Java 8 ve üzeri, Java 17 LTS dahil.
+
+- **Kütüphane büyük kitaplar için yeterince hızlı mı?** Evet, içerik akışı sağlar ve minimum bellek kullanır.
+
+
+## “epub'u pdf'ye dönüştürmek” nedir?
+Bir EPUB dosyasını PDF'ye dönüştürmek, yeniden düzenlenebilir, web tabanlı e-kitap formatını alıp sabit düzenli bir PDF belgesi oluşturmak anlamına gelir. Bu, yazdırılabilir bir sürüme, çevrimdışı paylaşıma veya belge yönetim sistemleriyle uyumluluğa ihtiyaç duyduğunuzda kullanışlıdır.
+
+## EPUB Dönüştürme için Aspose.HTML for Java Neden Kullanılır?
+
+- **Hepsi bir arada çözüm** – üçüncü taraf araçlara ihtiyaç duymadan hem PDF hem de görüntü çıktılarını işler.
+
+- **Yüksek doğruluk** – CSS, yazı tipleri ve vektör grafiklerini korur.
+
+- **Çapraz platform** – Windows, Linux ve macOS'ta çalışır.
+
+- **Zengin API** – `HtmlDocument.save()` gibi basit yöntemler, iş mantığına odaklanmanızı sağlar.
 
 ## Önkoşullar
-- Java Development Kit (JDK) 8 or higher installed.  
-- Maven or Gradle project setup (or you can add the JAR manually).  
-- An active Aspose.HTML for Java license (or a temporary trial key).  
+- Java Geliştirme Kiti (JDK) 8 veya üzeri kurulu olmalıdır.
+
+- Maven veya Gradle proje kurulumu (veya JAR dosyasını manuel olarak ekleyebilirsiniz).
+
+- Aktif bir Aspose.HTML for Java lisansı (veya geçici bir deneme anahtarı).
 
 ## Java'da EPUB'yi PDF ve Görsellere Nasıl Dönüştürülür
-Below you’ll find two clear pathways: one for PDF output and another for image output. Both share the same initial steps, so you can pick the route that matches your project’s needs.
+Aşağıda iki açık yol bulacaksınız: biri PDF çıktısı, diğeri ise resim çıktısı için. Her ikisi de aynı başlangıç ​​adımlarını paylaşır, böylece projenizin ihtiyaçlarına uygun yolu seçebilirsiniz.
 
-### EPUB'yi Görsellere Dönüştürmek için Adım Adım Kılavuz
-1. **Add the Aspose.HTML Maven dependency** to your `pom.xml` (or download the JAR).  
-2. **Load the EPUB file** using `HtmlDocument`.  
-3. **Iterate through pages** and call `save()` with an image format (PNG, JPEG, etc.).  
-4. **Specify output folder** and naming pattern, e.g., `page_{0}.png`.  
+### EPUB'yi Görsellere Dönüştürmek İçin Adım Adım Kılavuz
+1. `pom.xml` dosyanıza **Aspose.HTML Maven bağımlılığını** ekleyin (veya JAR dosyasını indirin).
 
-> *Pro tip:* Use the `saveOptions.setPageNumber()` method to control which page you export, which helps when you only need a subset of images.
+2. `HtmlDocument` kullanarak **EPUB dosyasını yükleyin**.
 
-#### EPUB'yi Görsele Dönüştürürken Görüntü Çözünürlüğünü Ayarlama
-When you need print‑ready graphics, set the resolution explicitly:
+3. **Sayfalar arasında yineleyin** ve bir resim formatı (PNG, JPEG, vb.) ile `save()` yöntemini çağırın.
 
-- Call `ImageSaveOptions.setResolution(300)` to produce 300 dpi images.  
-- Adjust the value based on your target medium (150 dpi for web, 600 dpi for high‑quality prints).  
+4. **Çıktı klasörünü** ve adlandırma kalıbını belirtin, örneğin `page_{0}.png`.
 
-This small tweak ensures the rasterized pages look crisp and professional.
+> *İpucu:* Yalnızca resimlerin bir alt kümesine ihtiyacınız olduğunda, hangi sayfayı dışa aktaracağınızı kontrol etmek için `saveOptions.setPageNumber()` yöntemini kullanın.
 
-### EPUB'yi PDF'ye Dönüştürmek için Adım Adım Kılavuz
-1. **Include the same Maven dependency** as above.  
-2. **Create an `HtmlDocument` instance** pointing to your EPUB file.  
-3. **Call `save()`** with `PdfSaveOptions` to generate a PDF file in one line.  
-4. **Adjust PDF options** (e.g., page size, compression) if you need custom output.  
+#### EPUB'yi Görsele Dönüştürürken Görüntü Çözünürlüğü Ayarı
+Baskıya hazır grafiklere ihtiyacınız olduğunda, çözünürlüğü açıkça ayarlayın:
 
-> *Why this matters:* Converting to PDF with a single API call eliminates the need for intermediate HTML rendering, reducing both development time and runtime overhead.
+- 300 dpi görüntüler üretmek için `ImageSaveOptions.setResolution(300)` yöntemini çağırın.
+
+- Hedef ortamınıza göre değeri ayarlayın (web için 150 dpi, yüksek kaliteli baskılar için 600 dpi).
+
+Bu küçük ayar, rasterleştirilmiş sayfaların net ve profesyonel görünmesini sağlar.
+
+### EPUB'ı PDF'ye Dönüştürmek İçin Adım Adım Kılavuz
+1. Yukarıdakiyle aynı Maven bağımlılığını ekleyin.
+2. EPUB dosyanıza işaret eden bir `HtmlDocument` örneği oluşturun.
+3. Tek satırda bir PDF dosyası oluşturmak için `PdfSaveOptions` ile `save()` fonksiyonunu çağırın.
+4. Özel çıktıya ihtiyacınız varsa PDF seçeneklerini (örneğin, sayfa boyutu, sıkıştırma) ayarlayın.
+
+> *Neden önemli:* Tek bir API çağrısıyla PDF'ye dönüştürmek, ara HTML oluşturma ihtiyacını ortadan kaldırarak hem geliştirme süresini hem de çalışma zamanı yükünü azaltır.
 
 ## Toplu EPUB Dönüştürme
-If you have a library of books, wrap the conversion logic in a loop:
+Bir kitap kütüphaneniz varsa, dönüştürme mantığını bir döngüye alın:
 
-- Load each EPUB file in turn.  
-- Reuse a single `HtmlDocument` instance to keep memory usage low.  
-- Write each output (PDF or image) to a dedicated folder.  
+- Her EPUB dosyasını sırayla yükleyin.
+- Bellek kullanımını düşük tutmak için tek bir `HtmlDocument` örneğini yeniden kullanın.
+- Her çıktıyı (PDF veya resim) ayrı bir klasöre yazın.
 
-Batch processing leverages the same API calls, so you get consistent results across all files.
+Toplu işlem aynı API çağrılarını kullanır, böylece tüm dosyalarda tutarlı sonuçlar elde edersiniz.
 
 ## Yaygın Tuzaklar ve Nasıl Önlenir
-- **Missing fonts** – embed custom fonts in the EPUB or supply a font folder to Aspose.HTML.  
-- **Large EPUB files** – enable streaming (`HtmlLoadOptions.setEnableMemoryOptimization(true)`) to keep memory usage low.  
-- **Incorrect image resolution** – set `ImageSaveOptions.setResolution(300)` for print‑quality images.  
+- **Eksik yazı tipleri** – EPUB dosyasına özel yazı tipleri ekleyin veya Aspose.HTML'ye bir yazı tipi klasörü sağlayın.
+- **Büyük EPUB dosyaları** – Bellek kullanımını düşük tutmak için akışı etkinleştirin (`HtmlLoadOptions.setEnableMemoryOptimization(true)`).
+- **Yanlış resim çözünürlüğü** – Baskı kalitesinde resimler için `ImageSaveOptions.setResolution(300)` değerini ayarlayın.  
 
 ## Dönüştürme - EPUB'den Görsele ve PDF'e Öğreticiler
-### [Convert EPUB to Images with Aspose.HTML for Java](./convert-epub-to-image/)
-Learn how to convert EPUB to image using Aspose.HTML for Java. A simple, step‑by‑step guide for efficient conversions.  
-### [EPUB to PDF Conversion with Aspose.HTML for Java](./convert-epub-to-pdf/)
-Learn how to convert EPUB to PDF with Aspose.HTML for Java. This step‑by‑step guide covers prerequisites, package imports, and code examples. Get started with EPUB to PDF conversion.
+### [Aspose.HTML for Java ile EPUB'ı Görüntüye Dönüştürme](./convert-epub-to-image/)
+Aspose.HTML for Java kullanarak EPUB'ı görüntüye nasıl dönüştüreceğinizi öğrenin. Verimli dönüşümler için basit, adım adım bir kılavuz.
+### [Aspose.HTML for Java ile EPUB'dan PDF'ye Dönüştürme](./convert-epub-to-pdf/)
+Aspose.HTML for Java ile EPUB'ı PDF'ye nasıl dönüştüreceğinizi öğrenin. Bu adım adım kılavuz, ön koşulları, paket içe aktarmalarını ve kod örneklerini kapsar. EPUB'dan PDF'ye dönüştürmeye başlayın.
 
 ## Sıkça Sorulan Sorular
 
-**Q: How do I convert EPUB to PDF in a Java web application?**  
-A: Load the EPUB from an `InputStream`, convert it using the same API, and write the PDF directly to the HTTP response output stream.
+**S: Java web uygulamasında EPUB'ı PDF'ye nasıl dönüştürürüm?**
+C: EPUB'ı bir `InputStream`'den yükleyin, aynı API'yi kullanarak dönüştürün ve PDF'yi doğrudan HTTP yanıt çıktı akışına yazın.
 
-**Q: Can I convert protected EPUB files?**  
-A: Yes, provide the decryption password via `HtmlLoadOptions.setPassword("yourPassword")`.
+**S: Korumalı EPUB dosyalarını dönüştürebilir miyim?**
+C: Evet, şifre çözme parolasını `HtmlLoadOptions.setPassword("yourPassword")` aracılığıyla sağlayabilirsiniz.
 
-**Q: Does Aspose.HTML support EPUB 3 features?**  
-A: It fully supports EPUB 3, including audio, video, and interactive elements.
+**S: Aspose.HTML, EPUB 3 özelliklerini destekliyor mu?**
+C: Ses, video ve etkileşimli öğeler de dahil olmak üzere EPUB3'ü tamamen destekler.
 
-**Q: What is the difference between `convert epub to pdf` and `convert epub to image`?**  
-A: PDF retains the document’s flow and selectable text, while image conversion rasterizes each page, useful for thumbnails or preview images.
+**S: `epub'ı pdf'ye dönüştürme` ile `epub'ı resme dönüştürme` arasındaki fark nedir?**
+C: PDF, belgenin akışını ve seçilebilir metni korurken, resim dönüştürme her sayfayı rasterleştirir; bu da küçük resimler veya önizleme resimleri için kullanışlıdır.
 
-**Q: Is there a way to batch‑process multiple EPUB files?**  
-A: Wrap the conversion logic in a loop and reuse a single `HtmlDocument` instance to improve performance.
+**S: Birden fazla EPUB dosyasını toplu olarak işlemenin bir yolu var mı?**
+C: Performansı artırmak için dönüştürme mantığını bir döngüye alın ve tek bir `HtmlDocument` örneğini yeniden kullanın.
 
-**Q: How can I set image resolution when converting EPUB to images?**  
-A: Use `ImageSaveOptions.setResolution(desiredDpi)`—for example, `setResolution(300)` for high‑quality print output.
+**S: EPUB dosyalarını resimlere dönüştürürken resim çözünürlüğünü nasıl ayarlayabilirim?**
+C: `ImageSaveOptions.setResolution(desiredDpi)` kullanın—örneğin, yüksek kaliteli baskı çıktısı için `setResolution(300)`.
 
 ---
 
-**Last Updated:** 2026-02-17  
-**Tested With:** Aspose.HTML for Java 24.10  
-**Author:** Aspose
+**Son Güncelleme:** 17.02.2026
+**Test Edilen Sürüm:** Aspose.HTML for Java 24.10
+**Yazar:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

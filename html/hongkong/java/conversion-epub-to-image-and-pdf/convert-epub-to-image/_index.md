@@ -9,20 +9,6 @@ url: /zh-hant/java/conversion-epub-to-image-and-pdf/convert-epub-to-image/
 weight: 10
 ---
 
- "# 如何使用 Aspose.HTML for Java 將 EPUB 頁面轉換為圖像"
-
-Then paragraph.
-
-We need to translate all text.
-
-Let's rewrite.
-
-Will keep code block placeholders unchanged.
-
-Also tables: translate headers and cells.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
@@ -114,20 +100,6 @@ Converter.convertEPUB(fileInputStream, options, outputFile);
 | **輸出圖像為空白** | 輸入串流未指向有效的 EPUB | 檢查檔案路徑，確保 EPUB 未損毀 |
 | **圖像品質低** | 預設 DPI 較低 | 在轉換前呼叫 `options.setResolution(300);`（需要 **set image resolution java**） |
 | **字型不支援** | 系統缺少相應字型 | 在 EPUB 中嵌入字型，或於主機上安裝所需字型 |
-
-## 常見問答
-
-**Q: 能只轉換 EPUB 的特定頁面嗎？**  
-A: 可以。使用接受頁碼範圍參數的 `Converter.convertEPUB` 重載方法。
-
-**Q: 如何調整輸出圖像的尺寸？**  
-A: 在呼叫轉換器前，使用 `options.setWidth()` 與 `options.setHeight()` 進行設定。
-
-**Q: 函式庫能處理受 DRM 保護的 EPUB 嗎？**  
-A: 不能。必須先移除 DRM，才能成功轉換。
-
-**Q: 能否轉換成 PDF 而非圖像？**  
-A: 完全可以。Aspose.HTML 也提供輸出 PDF 的 `Converter.convertEPUB` 重載。
 
 ## FAQ
 

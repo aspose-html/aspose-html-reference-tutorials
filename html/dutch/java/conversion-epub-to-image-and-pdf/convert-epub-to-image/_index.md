@@ -102,20 +102,6 @@ Met deze vijf eenvoudige stappen heb je **een EPUB naar een afbeelding** geconve
 | **Lage beeldkwaliteit** | Standaard DPI is laag | Stel `options.setResolution(300);` in vóór conversie (vereist **beeldresolutie instellen java**) |
 | **Niet‑ondersteunde lettertypen** | Lettertypen ontbreken op het systeem | Embed lettertypen in het EPUB of installeer de benodigde lettertypen op de hostmachine |
 
-## Veelgestelde vragen
-
-**V: Kan ik alleen een specifieke pagina van het EPUB converteren?**  
-A: Ja. Gebruik `Converter.convertEPUB`‑overloads die paginabereik‑parameters accepteren.
-
-**V: Hoe wijzig ik de grootte van de uitvoerafbeelding?**  
-A: Pas `options.setWidth()` en `options.setHeight()` aan vóór het aanroepen van de converter.
-
-**V: Ondersteunt de bibliotheek DRM‑beveiligde EPUB‑bestanden?**  
-A: Nee. Het EPUB moet vrij zijn van DRM om de conversie te laten slagen.
-
-**V: Is het mogelijk om naar PDF te converteren in plaats van een afbeelding?**  
-A: Absoluut. Aspose.HTML biedt ook `Converter.convertEPUB`‑overloads voor PDF‑uitvoer.
-
 ## FAQ
 
 **V: Hoe kan ik specifiek EPUB naar JPEG converteren?**  

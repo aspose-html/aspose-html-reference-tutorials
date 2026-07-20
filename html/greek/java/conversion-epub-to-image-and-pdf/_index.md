@@ -11,14 +11,6 @@ url: /el/java/conversion-epub-to-image-and-pdf/
 weight: 22
 ---
 
--backtop-button >}}" keep.
-
-Now ensure we preserve all markdown formatting, code fences (none present except inline code). No fenced code blocks.
-
-Now produce final content with translations.
-
-Let's assemble.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

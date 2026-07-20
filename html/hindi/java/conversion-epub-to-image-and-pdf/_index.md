@@ -86,22 +86,22 @@ Aspose.HTML for Java के साथ EPUB को PDF में कैसे ब
 
 ## अक्सर पूछे जाने वाले प्रश्न
 
-**Q: How do I convert EPUB to PDF in a Java web application?**  
-A: `InputStream` से EPUB लोड करें, वही API उपयोग करके इसे बदलें, और PDF को सीधे HTTP रिस्पॉन्स आउटपुट स्ट्रीम में लिखें।
+**Q: मैं Java वेब एप्लिकेशन में EPUB को PDF में कैसे कन्वर्ट करूँ?**
+A: `InputStream` से EPUB लोड करें, वही API इस्तेमाल करके इसे बदलें, और PDF को सीधे HTTP रिस्पॉन्स आउटपुट स्ट्रीम में लिखें।
 
-**Q: Can I convert protected EPUB files?**  
-A: हाँ, `HtmlLoadOptions.setPassword("yourPassword")` के माध्यम से डिक्रिप्शन पासवर्ड प्रदान करें।
+**Q: क्या मैं प्रोटेक्टेड EPUB फाइल्स को कन्वर्ट कर सकता हूँ?**
+A: हाँ, `HtmlLoadOptions.setPassword("yourPassword")` के ज़रिए डिक्रिप्शन पासवर्ड दें।
 
-**Q: Does Aspose.HTML support EPUB 3 features?**  
-A: यह पूरी तरह से EPUB 3 का समर्थन करता है, जिसमें ऑडियो, वीडियो, और इंटरैक्टिव एलिमेंट्स शामिल हैं।
+**Q: क्या Aspose.HTML EPUB 3 फीचर्स को सपोर्ट करता है?**
+A: यह पूरी तरह से EPUB3 का सपोर्ट करता है, जिसमें ऑडियो, वीडियो, और इंटरफेस एलिमेंट्स शामिल हैं।
 
-**Q: What is the difference between `convert epub to pdf` and `convert epub to image`?**  
-A: PDF दस्तावेज़ के प्रवाह और चयन योग्य टेक्स्ट को बनाए रखता है, जबकि इमेज रूपांतरण प्रत्येक पृष्ठ को रास्टराइज़ करता है, जो थंबनेल या प्रीव्यू इमेज के लिए उपयोगी है।
+**Q: `convert epub to pdf` और `convert epub to image` में क्या अंतर है?**
+A: PDF डॉक्यूमेंट के फ्लो और सिलेक्शन लायक टेक्स्ट को बनाए रखता है, जबकि इमेज कन्वर्जन हर पेज को रास्टराइज करता है, जो थंबनेल या प्रीव्यू इमेज के लिए उपयोगी है।
 
-**Q: Is there a way to batch‑process multiple EPUB files?**  
-A: रूपांतरण लॉजिक को एक लूप में रखें और प्रदर्शन सुधारने के लिए एक ही `HtmlDocument` इंस्टेंस को पुनः उपयोग करें।
+**Q: क्या कई EPUB फाइलों को बैच-प्रोसेस करने का कोई तरीका है?**
+A: कन्वर्जन लॉजिक को एक लूप में रखें और परफॉर्मेंस सुधारने के लिए एक ही `HtmlDocument` इंस्टेंस को रीबूट करें।
 
-**Q: How can I set image resolution when converting EPUB to images?**  
+**Q: EPUB को इमेज में कन्वर्ट करते समय मैं इमेज रिज़ॉल्यूशन कैसे सेट कर सकता हूँ?** 
 A: `ImageSaveOptions.setResolution(desiredDpi)` का उपयोग करें—उदाहरण के लिए, उच्च‑गुणवत्ता प्रिंट आउटपुट के लिए `setResolution(300)`।
 
 ---

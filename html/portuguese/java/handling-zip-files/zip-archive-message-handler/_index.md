@@ -10,9 +10,7 @@ url: /pt/java/handling-zip-files/zip-archive-message-handler/
 weight: 10
 ---
 
- exactly as original.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
