@@ -264,13 +264,13 @@ A: 能。获取最终 HTML 后，可将其传递给 Aspose.HTML 的 PDF 转换 A
 
 ![如何运行 javascript 插图](image.png)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **最后更新：** 2026-03-07  
 **测试环境：** Aspose.HTML 23.9（撰写时最新）  
 **作者：** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

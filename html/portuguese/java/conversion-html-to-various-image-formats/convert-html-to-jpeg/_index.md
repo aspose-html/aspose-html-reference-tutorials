@@ -1,4 +1,4 @@
----
+ ---
 date: 2026-03-07
 description: Aprenda como converter HTML em JPEG e gerar JPEG a partir de HTML usando
   Aspose.HTML para Java. Este tutorial de HTML para imagem em Java mostra a conversão
@@ -36,7 +36,7 @@ Converter HTML para JPEG permite criar instantâneos visuais exatos do conteúdo
 Antes de mergulharmos no guia passo a passo, certifique‑se de que você tem o seguinte:
 
 1. **Java Development Environment** – JDK 8 ou superior instalado e configurado.  
-2. **Aspose.HTML for Java** – Baixe a versão mais recente no site oficial. Você pode encontrar o link de download **[here](https://releases.aspose.com/html/java/)**.  
+2. **Aspose.HTML for Java** – Baixe a versão mais recente no site oficial. Você pode encontrar o link de download **[here](https://releases.aspose.com/html/java/) **.  
 3. **HTML Document** – O arquivo HTML fonte que você deseja renderizar como imagem JPEG.  
 
 Ter esses itens em ordem permitirá que você execute o código de exemplo sem problemas.
@@ -128,15 +128,15 @@ Converter.convertHTML(htmlDocument, options, outputFile);
 
 ### Q1: O Aspose.HTML para Java é uma ferramenta gratuita?
 
-A1: Não, Aspose.HTML para Java é um produto comercial. Você pode encontrar informações de licenciamento e preços **[here](https://purchase.aspose.com/buy)**.
+A1: Não, Aspose.HTML para Java é um produto comercial. Você pode encontrar informações de licenciamento e preços **[here](https://purchase.aspose.com/buy) **.
 
 ### Q2: Posso experimentar o Aspose.HTML para Java antes de comprar?
 
-A2: Sim, você pode baixar uma versão de avaliação gratuita **[here](https://releases.aspose.com/html/java/)**.
+A2: Sim, você pode baixar uma versão de avaliação gratuita **[here](https://releases.aspose.com/html/java/) **.
 
 ### Q3: Como posso obter suporte para Aspose.HTML para Java?
 
-A3: Você pode encontrar suporte e interagir com a comunidade nos fóruns da Aspose **[here](https://forum.aspose.com/)**.
+A3: Você pode encontrar suporte e interagir com a comunidade nos fóruns da Aspose **[here](https://forum.aspose.com/) **.
 
 ### Q4: Para quais outros formatos de documento o Aspose.HTML para Java pode converter?
 

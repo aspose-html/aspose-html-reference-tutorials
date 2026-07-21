@@ -16,7 +16,7 @@ tags:
 - Java
 - PDF
 - Aspise
-title: Set PDF Page Size: Convert HTML to PDF in Java
+title: Set PDF Page Size - Convert HTML to PDF in Java
 url: /java/conversion-html-to-other-formats/convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/
 ---
 

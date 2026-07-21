@@ -36,7 +36,7 @@ Convertir HTML a JPEG le permite crear instantáneas visuales exactas del conten
 Antes de sumergirnos en la guía paso a paso, asegúrese de tener lo siguiente:
 
 1. **Entorno de desarrollo Java** – JDK 8 o superior instalado y configurado.  
-2. **Aspose.HTML for Java** – Descargue la última versión del sitio oficial. Puede encontrar el enlace de descarga **[aquí](https://releases.aspose.com/html/java/)**.  
+2. **Aspose.HTML for Java** – Descargue la última versión del sitio oficial. Puede encontrar el enlace de descarga **[aquí](https://releases.aspose.com/html/java/) **.  
 3. **Documento HTML** – El archivo HTML fuente que desea renderizar como imagen JPEG.  
 
 Tener estos elementos le permitirá ejecutar el código de ejemplo sin problemas.
@@ -128,15 +128,15 @@ Converter.convertHTML(htmlDocument, options, outputFile);
 
 ### Q1: ¿Es Aspose.HTML para Java una herramienta gratuita?
 
-R1: No, Aspose.HTML for Java es un producto comercial. Puede encontrar información de licencias y precios **[aquí](https://purchase.aspose.com/buy)**.
+R1: No, Aspose.HTML for Java es un producto comercial. Puede encontrar información de licencias y precios **[aquí](https://purchase.aspose.com/buy) **.
 
 ### Q2: ¿Puedo probar Aspose.HTML para Java antes de comprar?
 
-R2: Sí, puede descargar una versión de prueba gratuita **[aquí](https://releases.aspose.com/html/java/)**.
+R2: Sí, puede descargar una versión de prueba gratuita **[aquí](https://releases.aspose.com/html/java/) **.
 
 ### Q3: ¿Cómo puedo obtener soporte para Aspose.HTML para Java?
 
-R3: Puede encontrar soporte e interactuar con la comunidad en los foros de Aspose **[aquí](https://forum.aspose.com/)**.
+R3: Puede encontrar soporte e interactuar con la comunidad en los foros de Aspose **[aquí](https://forum.aspose.com/) **.
 
 ### Q4: ¿A qué otros formatos de documento puede convertir Aspose.HTML para Java?
 

@@ -267,13 +267,13 @@ jsEngine.put("data", data);
 
 ![Иллюстрация как запустить javascript](image.png)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Последнее обновление:** 2026-03-07  
 **Тестировано с:** Aspose.HTML 23.9 (latest at time of writing)  
 **Автор:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

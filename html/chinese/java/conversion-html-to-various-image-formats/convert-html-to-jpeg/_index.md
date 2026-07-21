@@ -35,7 +35,7 @@ weight: 12
 在我们进入逐步指南之前，请确保您具备以下条件：
 
 1. **Java 开发环境** – 已安装并配置 JDK 8 或更高版本。  
-2. **Aspose.HTML for Java** – 从官方网站下载最新版本。您可以在 **[此处](https://releases.aspose.com/html/java/)** 找到下载链接。  
+2. **Aspose.HTML for Java** – 从官方网站下载最新版本。您可以在 **[此处](https://releases.aspose.com/html/java/) ** 找到下载链接。  
 3. **HTML 文档** – 您希望渲染为 JPEG 图像的源 HTML 文件。  
 
 拥有这些后，您就可以毫无障碍地运行示例代码。
@@ -127,15 +127,15 @@ Converter.convertHTML(htmlDocument, options, outputFile);
 
 ### Q1: Aspose.HTML for Java 是免费工具吗？
 
-A1: 不是，Aspose.HTML for Java 是商业产品。您可以在 **[此处](https://purchase.aspose.com/buy)** 查看许可和定价信息。
+A1: 不是，Aspose.HTML for Java 是商业产品。您可以在 **[此处](https://purchase.aspose.com/buy) ** 查看许可和定价信息。
 
 ### Q2: 我可以在购买前试用 Aspose.HTML for Java 吗？
 
-A2: 可以，您可以在 **[此处](https://releases.aspose.com/html/java/)** 下载免费试用版。
+A2: 可以，您可以在 **[此处](https://releases.aspose.com/html/java/) ** 下载免费试用版。
 
 ### Q3: 如何获取 Aspose.HTML for Java 的支持？
 
-A3: 您可以在 Aspose 论坛 **[此处](https://forum.aspose.com/)** 获取支持并与社区互动。
+A3: 您可以在 Aspose 论坛 **[此处](https://forum.aspose.com/) ** 获取支持并与社区互动。
 
 ### Q4: Aspose.HTML for Java 还能转换哪些文档格式？
 

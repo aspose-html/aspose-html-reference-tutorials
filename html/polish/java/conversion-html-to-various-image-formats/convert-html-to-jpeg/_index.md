@@ -36,7 +36,7 @@ Konwersja HTML do JPEG pozwala tworzyć dokładne wizualne migawki treści inter
 Zanim przejdziemy do szczegółowego przewodnika, upewnij się, że masz następujące elementy:
 
 1. **Środowisko programistyczne Java** – zainstalowany i skonfigurowany JDK 8 lub nowszy.  
-2. **Aspose.HTML for Java** – pobierz najnowszą wersję ze strony producenta. Link do pobrania znajdziesz **[tutaj](https://releases.aspose.com/html/java/)**.  
+2. **Aspose.HTML for Java** – pobierz najnowszą wersję ze strony producenta. Link do pobrania znajdziesz **[tutaj](https://releases.aspose.com/html/java/) **.  
 3. **Dokument HTML** – plik źródłowy HTML, który chcesz wyrenderować jako obraz JPEG.  
 
 Posiadanie tych elementów pozwoli uruchomić przykładowy kod bez problemów.
@@ -128,15 +128,15 @@ To wszystko! Po zakończeniu programu znajdziesz renderowany obraz JPEG swojej s
 
 ### P1: Czy Aspose.HTML dla Javy jest darmowym narzędziem?
 
-A1: Nie, Aspose.HTML for Java jest produktem komercyjnym. Informacje o licencjonowaniu i cenach znajdziesz **[tutaj](https://purchase.aspose.com/buy)**.
+A1: Nie, Aspose.HTML for Java jest produktem komercyjnym. Informacje o licencjonowaniu i cenach znajdziesz **[tutaj](https://purchase.aspose.com/buy) **.
 
 ### P2: Czy mogę wypróbować Aspose.HTML dla Javy przed zakupem?
 
-A2: Tak, możesz pobrać darmową wersję próbną **[tutaj](https://releases.aspose.com/html/java/)**.
+A2: Tak, możesz pobrać darmową wersję próbną **[tutaj](https://releases.aspose.com/html/java/) **.
 
 ### P3: Jak mogę uzyskać wsparcie dla Aspose.HTML dla Javy?
 
-A3: Wsparcie oraz społeczność znajdziesz na forach Aspose **[tutaj](https://forum.aspose.com/)**.
+A3: Wsparcie oraz społeczność znajdziesz na forach Aspose **[tutaj](https://forum.aspose.com/) **.
 
 ### P4: Na jakie inne formaty dokumentów może konwertować Aspose.HTML dla Javy?
 

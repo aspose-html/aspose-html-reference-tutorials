@@ -36,7 +36,7 @@ A HTML‑JPEG konvertálás lehetővé teszi, hogy pontos vizuális pillanatkép
 Mielőtt belemerülnénk a lépésről‑lépésre útmutatóba, győződj meg róla, hogy a következők rendelkezésedre állnak:
 
 1. **Java fejlesztői környezet** – JDK 8 vagy újabb telepítve és konfigurálva.  
-2. **Aspose.HTML for Java** – Töltsd le a legújabb kiadást a hivatalos oldalról. A letöltési linket **[itt](https://releases.aspose.com/html/java/)** találod.  
+2. **Aspose.HTML for Java** – Töltsd le a legújabb kiadást a hivatalos oldalról. A letöltési linket **[itt](https://releases.aspose.com/html/java/) ** találod.  
 3. **HTML dokumentum** – A forrás HTML‑fájl, amelyet JPEG‑képként szeretnél megjeleníteni.  
 
 Ezek megléte lehetővé teszi, hogy a mintakódot hibamentesen futtasd.
@@ -128,15 +128,15 @@ Ennyi! Amikor a program befejeződik, a megadott helyen megtalálod a HTML‑old
 
 ### Q1: Az Aspose.HTML for Java ingyenes eszköz?
 
-A1: Nem, az Aspose.HTML for Java egy kereskedelmi termék. A licencelési és árinformációkat **[itt](https://purchase.aspose.com/buy)** találod.
+A1: Nem, az Aspose.HTML for Java egy kereskedelmi termék. A licencelési és árinformációkat **[itt](https://purchase.aspose.com/buy) ** találod.
 
 ### Q2: Kipróbálhatom az Aspose.HTML for Java-t vásárlás előtt?
 
-A2: Igen, letöltheted az ingyenes próbaverziót **[itt](https://releases.aspose.com/html/java/)**.
+A2: Igen, letöltheted az ingyenes próbaverziót **[itt](https://releases.aspose.com/html/java/) **.
 
 ### Q3: Hogyan kaphatok támogatást az Aspose.HTML for Java-hoz?
 
-A3: Támogatást és a közösséggel való interakciót az Aspose fórumokon **[itt](https://forum.aspose.com/)** találod.
+A3: Támogatást és a közösséggel való interakciót az Aspose fórumokon **[itt](https://forum.aspose.com/) ** találod.
 
 ### Q4: Milyen egyéb dokumentumformátumokra képes konvertálni az Aspose.HTML for Java?
 

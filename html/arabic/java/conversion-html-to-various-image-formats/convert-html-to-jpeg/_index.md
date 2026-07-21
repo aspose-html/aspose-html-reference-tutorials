@@ -36,7 +36,7 @@ weight: 12
 قبل أن نبدأ الدليل خطوة بخطوة، تأكد من توفر ما يلي:
 
 1. **بيئة تطوير Java** – JDK 8 أو أعلى مثبتة ومُعَدَّة.  
-2. **Aspose.HTML للـ Java** – قم بتحميل أحدث إصدار من الموقع الرسمي. يمكنك العثور على رابط التحميل **[هنا](https://releases.aspose.com/html/java/)**.  
+2. **Aspose.HTML للـ Java** – قم بتحميل أحدث إصدار من الموقع الرسمي. يمكنك العثور على رابط التحميل **[هنا](https://releases.aspose.com/html/java/) **.  
 3. **مستند HTML** – ملف HTML المصدر الذي تريد تحويله إلى صورة JPEG.  
 
 وجود هذه المتطلبات سيمكنك من تشغيل الشيفرة التجريبية دون أي مشاكل.
@@ -128,15 +128,15 @@ Converter.convertHTML(htmlDocument, options, outputFile);
 
 ### س1: هل Aspose.HTML للـ Java أداة مجانية؟
 
-ج1: لا، Aspose.HTML للـ Java هو منتج تجاري. يمكنك العثور على معلومات الترخيص والأسعار **[هنا](https://purchase.aspose.com/buy)**.
+ج1: لا، Aspose.HTML للـ Java هو منتج تجاري. يمكنك العثور على معلومات الترخيص والأسعار **[هنا](https://purchase.aspose.com/buy) **.
 
 ### س2: هل يمكن تجربة Aspose.HTML للـ Java قبل الشراء؟
 
-ج2: نعم، يمكنك تحميل نسخة تجريبية مجانية **[هنا](https://releases.aspose.com/html/java/)**.
+ج2: نعم، يمكنك تحميل نسخة تجريبية مجانية **[هنا](https://releases.aspose.com/html/java/) **.
 
 ### س3: كيف يمكنني الحصول على دعم لـ Aspose.HTML للـ Java؟
 
-ج3: يمكنك العثور على الدعم والتفاعل مع المجتمع في منتديات Aspose **[هنا](https://forum.aspose.com/)**.
+ج3: يمكنك العثور على الدعم والتفاعل مع المجتمع في منتديات Aspose **[هنا](https://forum.aspose.com/) **.
 
 ### س4: ما صيغ المستندات الأخرى التي يمكن لـ Aspose.HTML للـ Java تحويلها إليها؟
 

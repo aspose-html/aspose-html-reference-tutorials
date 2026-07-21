@@ -261,15 +261,15 @@ Ready to take it further? Try loading a full HTML template, inject dynamic data 
 
 If you hit any snags or have ideas for extensions, feel free to leave a comment. Happy coding, and enjoy running JavaScript inside Java! 
 
+---
+
+**Last Updated:** 2026-03-07  
+**Tested With:** Aspose.HTML 23.9 (latest at time of writing)  
+**Author:** Aspose
+
 ![How to run javascript illustration](image.png)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-03-07  
-**Tested With:** Aspose.HTML 23.9 (latest at time of writing)  
-**Author:** Aspose

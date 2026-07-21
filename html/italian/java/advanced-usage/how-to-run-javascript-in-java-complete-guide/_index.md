@@ -267,13 +267,13 @@ Se incontri difficoltà o hai idee per estensioni, lascia un commento. Buon codi
 
 ![Illustrazione su come eseguire JavaScript](image.png)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Ultimo aggiornamento:** 2026-03-07  
 **Testato con:** Aspose.HTML 23.9 (ultima versione al momento della scrittura)  
 **Autore:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

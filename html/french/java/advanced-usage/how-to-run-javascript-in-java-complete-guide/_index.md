@@ -267,13 +267,13 @@ Si vous rencontrez des difficultés ou avez des idées d’extensions, n’hési
 
 ![How to run javascript illustration](image.png)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Dernière mise à jour :** 2026-03-07  
 **Testé avec :** Aspose.HTML 23.9 (dernière version au moment de la rédaction)  
 **Auteur :** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -36,7 +36,7 @@ HTML'yi JPEG'e dönüştürmek, bir tarayıcıya ihtiyaç duymadan web içeriği
 Adım adım rehbere başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
 1. **Java Geliştirme Ortamı** – JDK 8 veya üzeri yüklü ve yapılandırılmış.  
-2. **Aspose.HTML for Java** – Resmi siteden en son sürümü indirin. İndirme bağlantısını **[burada](https://releases.aspose.com/html/java/)** bulabilirsiniz.  
+2. **Aspose.HTML for Java** – Resmi siteden en son sürümü indirin. İndirme bağlantısını **[burada](https://releases.aspose.com/html/java/) ** bulabilirsiniz.  
 3. **HTML Belgesi** – JPEG resmi olarak render etmek istediğiniz kaynak HTML dosyası.  
 
 Bu öğeler hazır olduğunda örnek kodu sorunsuz çalıştırabilirsiniz.
@@ -128,15 +128,15 @@ Hepsi bu! Program tamamlandığında, belirttiğiniz konumda HTML sayfanızın J
 
 ### S1: Aspose.HTML for Java ücretsiz bir araç mı?
 
-C1: Hayır, Aspose.HTML for Java ticari bir üründür. Lisans ve fiyatlandırma bilgilerini **[burada](https://purchase.aspose.com/buy)** bulabilirsiniz.
+C1: Hayır, Aspose.HTML for Java ticari bir üründür. Lisans ve fiyatlandırma bilgilerini **[burada](https://purchase.aspose.com/buy) ** bulabilirsiniz.
 
 ### S2: Aspose.HTML for Java’yı satın almadan deneyebilir miyim?
 
-C2: Evet, ücretsiz deneme sürümünü **[buradan](https://releases.aspose.com/html/java/)** indirebilirsiniz.
+C2: Evet, ücretsiz deneme sürümünü **[buradan](https://releases.aspose.com/html/java/) ** indirebilirsiniz.
 
 ### S3: Aspose.HTML for Java için destek nasıl alınır?
 
-C3: Destek ve topluluk etkileşimi için Aspose forumlarını **[burada](https://forum.aspose.com/)** ziyaret edebilirsiniz.
+C3: Destek ve topluluk etkileşimi için Aspose forumlarını **[burada](https://forum.aspose.com/) ** ziyaret edebilirsiniz.
 
 ### S4: Aspose.HTML for Java başka hangi belge formatlarına dönüştürebilir?
 

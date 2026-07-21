@@ -16,36 +16,36 @@ weight: 12
 
 # Cara Mengonversi HTML ke JPEG Menggunakan Aspose.HTML untuk Java
 
-## Introduction
+## Perkenalan
 
-Jika Anda perlu mengubah halaman web atau markup HTML apa pun menjadi gambar JPEG statis, Anda berada di tempat yang tepat. Pada tutorial ini kami akan menunjukkan **cara mengonversi HTML ke JPEG** dengan Aspose.HTML untuk Java, mencakup semua hal mulai dari menyiapkan lingkungan hingga menyempurnakan gambar output. Pada akhir panduan Anda akan dapat mengintegrasikan konversi HTML‑ke‑gambar ke dalam aplikasi Java Anda dengan hanya beberapa baris kode.
+Jika Anda perlu mengubah halaman web atau markup HTML apa pun menjadi gambar JPEG statistik, Anda berada di tempat yang tepat. Pada tutorial ini kami akan menunjukkan **cara mengonversi HTML ke JPEG** dengan Aspose.HTML untuk Java, mencakup semua hal mulai dari menyiapkan lingkungan hingga menyempurnakan keluaran gambar. Pada akhir panduan Anda akan dapat mengintegrasikan konversi HTML‑ke‑gambar ke dalam aplikasi Java Anda hanya dengan beberapa baris kode.
 
-## Quick Answers
-- **What library does the conversion?** Aspose.HTML for Java  
-- **Supported output formats?** JPEG, PNG, BMP, GIF, TIFF, and more  
-- **Do I need a license?** A commercial license is required for production; a free trial is available  
-- **Can I adjust image quality?** Yes, via `ImageSaveOptions` (quality, DPI, etc.)  
-- **Is the code cross‑platform?** Absolutely – it runs on any OS with a Java runtime  
+## Jawaban Cepat
+- **Pustaka apa yang melakukan konversi?** Aspose.HTML untuk Java
+- **Format keluaran yang didukung?** JPEG, PNG, BMP, GIF, TIFF, dan banyak lagi
+- **Apakah saya memerlukan lisensi?** Lisensi komersial diperlukan untuk produksi; uji coba gratis tersedia
+- **Dapatkah saya menyesuaikan kualitas gambar?** Ya, melalui `ImageSaveOptions` (kualitas, DPI, dll.)
+- **Apakah kodenya lintas platform?** Tentu saja – kode ini berjalan di OS apa pun dengan runtime Java
 
-## What Is “convert html to jpeg” and Why Does It Matter?
+## Apa Itu “konversi html ke jpeg” dan Mengapa Itu Penting?
 
-Mengonversi HTML ke JPEG memungkinkan Anda membuat snapshot visual yang tepat dari konten web tanpa bergantung pada browser. Hal ini berguna untuk menghasilkan thumbnail, pratinjau email, laporan PDF, atau mengarsipkan halaman web sebagai gambar. Pendekatan **html to image java** dengan Aspose.HTML memberi Anda rendering pixel‑perfect sambil tetap berada dalam stack Java Anda.
+Mengonversi HTML ke JPEG memungkinkan Anda membuat snapshot visual yang tepat dari konten web tanpa bergantung pada browser. Hal ini berguna untuk menghasilkan thumbnail, memuaskan email, laporan PDF, atau mengarsipkan halaman web sebagai gambar. Pendekatan **html ke gambar java** dengan Aspose.HTML memberi Anda rendering piksel‑sempurna sambil tetap berada dalam tumpukan Java Anda.
 
-## Prerequisites
+## Prasyarat
 
 Sebelum kita masuk ke panduan langkah‑demi‑langkah, pastikan Anda memiliki hal‑hal berikut:
 
-1. **Java Development Environment** – JDK 8 atau lebih tinggi terpasang dan terkonfigurasi.  
-2. **Aspose.HTML for Java** – Unduh rilis terbaru dari situs resmi. Anda dapat menemukan tautan unduhan **[here](https://releases.aspose.com/html/java/)**.  
-3. **HTML Document** – File HTML sumber yang ingin Anda render menjadi gambar JPEG.  
+1. **Java Development Environment** – JDK8 atau lebih tinggi terpasang dan terkonfigurasi.
+2. **Aspose.HTML untuk Java** – Unduh rilis terbaru dari situs resmi. Anda dapat menemukan tautan unduhan **[di sini](https://releases.aspose.com/html/java/) **.
+3. **Dokumen HTML** – File HTML sumber yang ingin Anda render menjadi gambar JPEG.
 
 Memiliki semua ini akan memungkinkan Anda menjalankan contoh kode tanpa kendala.
 
-## Import Packages
+## Impor Paket
 
-Hal pertama yang perlu kita lakukan adalah mengimpor kelas‑kelas Aspose.HTML yang diperlukan ke dalam proyek. Langkah ini memastikan kompilator mengetahui di mana menemukan API konversi.
+Hal pertama yang perlu kita lakukan adalah mengimpor kelas‑kelas Aspose.HTML yang diperlukan ke dalam proyek. Langkah ini memastikan kompilator mengetahui di mana menemukan konversi API.
 
-### Step 1: Import Aspose.HTML Packages
+### Langkah 1: Impor Paket Aspose.HTML
 
 ```java
 import com.aspose.html.HTMLDocument;
@@ -56,11 +56,11 @@ import com.aspose.html.converters.Converter;
 
 Dengan paket‑paket diimpor, kita siap memuat HTML dan memulai konversi.
 
-## Step‑by‑Step Conversion Guide
+## Panduan Konversi Langkah demi Langkah
 
 Berikut kami memecah seluruh proses menjadi langkah‑langkah yang jelas dan berurutan. Setiap langkah menyertakan penjelasan singkat diikuti oleh kode yang dapat Anda salin langsung.
 
-### Step 2: Load the Source HTML Document
+### Langkah 2: Muat Dokumen HTML Sumber
 
 Buat instance `HTMLDocument` yang menunjuk ke file input Anda. Aspose.HTML akan membaca file, mengurai markup, dan membangun DOM yang siap dirender.
 
@@ -70,7 +70,7 @@ HTMLDocument htmlDocument = new HTMLDocument("input.html");
 
 > **Tip:** Ganti `"input.html"` dengan path absolut atau relatif ke file HTML Anda yang sebenarnya.
 
-### Step 3: Set Up ImageSaveOptions for JPEG
+### Langkah 3: Atur ImageSaveOptions untuk JPEG
 
 `ImageSaveOptions` memberi tahu konverter format gambar apa yang akan dihasilkan dan memungkinkan Anda menyesuaikan parameter seperti kualitas dan resolusi. Di sini kami menentukan JPEG sebagai format target.
 
@@ -80,7 +80,7 @@ ImageSaveOptions options = new ImageSaveOptions(ImageFormat.Jpeg);
 
 > **Pro tip:** Jika Anda perlu menghasilkan PNG, cukup ubah `ImageFormat.Jpeg` menjadi `ImageFormat.Png`. Ini juga memenuhi kata kunci sekunder **java convert html png**.
 
-### Step 4: Define the Output File Path
+### Langkah 4: Tentukan Jalur File Output
 
 Tentukan lokasi di mana JPEG hasil konversi akan disimpan. Anda dapat menyertakan folder apa pun yang Anda suka; pastikan aplikasi memiliki izin menulis.
 
@@ -90,7 +90,7 @@ String outputFile = "HTMLtoJPEG_Output.jpeg";
 
 Anda bebas mengganti nama file atau mengubah ekstensi jika menargetkan tipe gambar lain.
 
-### Step 5: Perform the Conversion
+### Langkah 5: Lakukan Konversi
 
 Akhirnya, panggil metode statis `convertHTML`. Metode ini menerima dokumen yang dimuat, opsi penyimpanan, dan path tujuan, kemudian menulis JPEG ke disk.
 
@@ -100,61 +100,61 @@ Converter.convertHTML(htmlDocument, options, outputFile);
 
 Itu saja! Ketika program selesai, Anda akan menemukan rendering JPEG dari halaman HTML Anda di lokasi yang telah Anda tentukan.
 
-## Why Use Aspose.HTML for Java to Convert HTML to Image?
+## Mengapa Menggunakan Aspose.HTML untuk Java untuk Mengonversi HTML menjadi Gambar?
 
-- **High fidelity rendering** – Mesin ini mendukung CSS modern, SVG, dan JavaScript, sehingga output terlihat persis seperti snapshot browser.  
-- **Multiple image formats** – Selain JPEG, Anda dapat menghasilkan PNG, BMP, GIF, TIFF, dll., mencakup kasus penggunaan **convert html to image java**.  
-- **No external dependencies** – Library murni Java, tidak perlu menginstal browser headless atau binary native.  
-- **Fine‑grained control** – Atur DPI, kualitas, warna latar belakang, dan lainnya melalui `ImageSaveOptions`.  
+- **High fidelity rendering** – Mesin ini mendukung CSS modern, SVG, dan JavaScript, sehingga output terlihat tetap seperti snapshot browser.
+- **Beberapa format gambar** – Selain JPEG, Anda dapat menghasilkan PNG, BMP, GIF, TIFF, dll., mencakup penggunaan **konversi html ke gambar java**.
+- **Tidak ada ketergantungan eksternal** – Library murni Java, tidak perlu menginstal browser headless atau biner asli.
+- **Kontrol halus** – Atur DPI, kualitas, warna latar belakang, dan lainnya melalui `ImageSaveOptions`.
 
-## Common Use Cases for Rendering HTML as JPEG
+## Kasus Penggunaan Umum untuk Merender HTML sebagai JPEG
 
-| Scenario | How “convert html to jpeg” Helps |
+| Skenario | Bagaimana “mengonversi html ke jpeg” Membantu |
 |----------|----------------------------------|
-| **Email newsletters** | Menyematkan snapshot halaman web dinamis sebagai gambar statis untuk menghindari tautan yang rusak. |
-| **Automated reporting** | Menghasilkan diagram atau dasbor visual dari template HTML untuk laporan PDF. |
-| **Thumbnail creation** | Dengan cepat membuat gambar pratinjau untuk perayap web atau sistem manajemen konten. |
-| **Archiving** | Menyimpan tata letak visual halaman web secara persis untuk keperluan hukum atau kepatuhan. |
+| **Buletin email** | Menyematkan snapshot halaman web dinamis sebagai gambar statistik untuk menghindari tautan yang rusak. |
+| **Pelaporan otomatis** | Akhirnya diagram atau dasbor visual dari template HTML untuk laporan PDF. |
+| **Pembuatan gambar mini** | Dengan cepat membuat gambar mengesankan untuk web atau sistem manajemen konten. |
+| **Pengarsipan** | Menyimpan tata letak visual halaman web secara tetap untuk keperluan hukum atau kepatuhan. |
 
-## Common Issues & Troubleshooting
+## Masalah Umum & Pemecahan Masalah
 
-| Symptom | Likely Cause | Fix |
+| Gejala | Kemungkinan Penyebab | Perbaiki |
 |---------|--------------|-----|
-| Blank or white image | Missing CSS or resources | Ensure all linked CSS, fonts, and images are accessible (use absolute paths or embed resources). |
-| Low‑resolution output | Default DPI is low | Set `options.setResolution(300);` before conversion to increase DPI. |
-| Out‑of‑memory error on large pages | Large DOM consumes heap | Increase JVM heap (`-Xmx2g`) or render the page in sections. |
+| Gambar kosong atau putih | CSS atau sumber daya tidak ada | Pastikan semua CSS, font, dan gambar tertaut dapat diakses (gunakan jalur absolut atau sematkan sumber daya). |
+| Keluaran resolusi rendah | DPI default rendah | Tetapkan `options.setResolution(300);` sebelum konversi untuk meningkatkan DPI. |
+| Kesalahan kehabisan memori pada halaman besar | DOM besar memakan heap | Tingkatkan heap JVM (`-Xmx2g`) atau render halaman dalam beberapa bagian. |
 
-## Frequently Asked Questions
+## Pertanyaan yang Sering Diajukan
 
-### Q1: Is Aspose.HTML for Java a free tool?
+### T1: Apakah Aspose.HTML for Java merupakan alat gratis?
 
-A1: No, Aspose.HTML for Java is a commercial product. You can find licensing and pricing information **[here](https://purchase.aspose.com/buy)**.
+J1: Tidak, Aspose.HTML for Java adalah produk komersial. Anda dapat menemukan informasi lisensi dan harga **[di sini](https://purchase.aspose.com/buy) **.
 
-### Q2: Can I try Aspose.HTML for Java before purchasing?
+### T2: Dapatkah saya mencoba Aspose.HTML for Java sebelum membeli?
 
-A2: Yes, you can download a free trial version **[here](https://releases.aspose.com/html/java/)**.
+J2: Ya, Anda dapat mengunduh versi uji coba gratis **[di sini](https://releases.aspose.com/html/java/) **.
 
-### Q3: How can I get support for Aspose.HTML for Java?
+### T3: Bagaimana saya bisa mendapatkan dukungan untuk Aspose.HTML for Java?
 
-A3: You can find support and interact with the community on the Aspose forums **[here](https://forum.aspose.com/)**.
+J3: Anda dapat menemukan dukungan dan berinteraksi dengan komunitas di forum Aspose **[di sini](https://forum.aspose.com/) **.
 
-### Q4: What other document formats can Aspose.HTML for Java convert to?
+### Q4: Format dokumen lain apa yang dapat dikonversi ke Aspose.HTML untuk Java?
 
-A4: Aspose.HTML for Java supports a wide range of document formats, including PDF, XPS, and various image formats.
+A4: Aspose.HTML untuk Java mendukung berbagai format dokumen, termasuk PDF, XPS, dan berbagai format gambar.
 
-### Q5: Are there any advanced customization options for the conversion process?
+### Q5: Apakah ada opsi penyesuaian lanjutan untuk proses konversi?
 
-A5: Yes, Aspose.HTML for Java provides extensive options for customizing the conversion, such such as setting image quality and resolution.
+A5: Ya, Aspose.HTML untuk Java menyediakan opsi ekstensif untuk menyesuaikan konversi, seperti mengatur kualitas dan resolusi gambar.
 
-## Conclusion
+## Kesimpulan
 
 Dalam panduan ini kami membahas **cara mengonversi html ke jpeg** menggunakan Aspose.HTML untuk Java, mulai dari menyiapkan lingkungan hingga menyempurnakan output. Pendekatan yang sama berlaku untuk format gambar lain, memenuhi skenario **aspose html convert image** yang lebih luas. Integrasikan potongan kode ini ke dalam proyek Anda untuk mengotomatisasi rendering halaman web, menghasilkan thumbnail, atau membuat laporan visual langsung dari HTML.
 
 ---
 
-**Last Updated:** 2026-03-07  
-**Tested With:** Aspose.HTML for Java 24.12 (latest)  
-**Author:** Aspose  
+**Terakhir Diperbarui:** 2026-03-07
+**Diuji Dengan:** Aspose.HTML untuk Java 24.12 (terbaru)
+**Penulis:** Aspose 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
