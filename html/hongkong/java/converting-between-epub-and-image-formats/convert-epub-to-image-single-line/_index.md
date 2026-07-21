@@ -17,11 +17,11 @@ weight: 17
 如果你想了解 **how to use Aspose** 如何將 EPUB 文件轉換成圖片，你來對地方了。在本教學中，我們將一步步說明整個流程，從設定 Java 環境到僅用幾行程式碼產生 JPEG（或 PNG）圖像。完成後，你就能 **convert EPUB to JPG** 或甚至 **java convert EPUB PNG**，在需要快速預覽電子書時使用。
 
 ## 快速解答
-- **What library is needed?** Aspose.HTML for Java  
-- **Supported image formats?** JPEG, PNG, BMP, and more  
-- **How many lines of code?** Only three lines after imports  
-- **Do I need a license?** Yes, a trial or permanent license is required for production  
-- **Can I run this on any OS?** Yes, any platform that supports Java  
+- **需要哪個函式庫？ ** Aspose.HTML for Java
+- **支援哪些圖像格式？ ** JPEG、PNG、BMP 等
+- **需要多少行程式碼？ ** 導入後僅需三行
+- **需要許可證嗎？ ** 是的，生產環境需要試用許可證或永久許可證
+- **可以在任何作業系統上運行嗎？ ** 是的，任何支援 Java 的平台都可以。  
 
 ## 如何使用 Aspose 進行 EPUB 轉圖像轉換
 本節回答本教學的核心問題：如何使用 Aspose 的 `Converter` 類別將 EPUB 檔案轉換為圖像檔案。了解此步驟後，你可以輕鬆將程式碼套用到其他格式或批次處理情境。
@@ -104,25 +104,25 @@ try (java.io.FileInputStream fileInputStream = new java.io.FileInputStream("inpu
 
 ## 常見問答
 
-**Q: Is Aspose.HTML for Java a free library?**  
+**Q：Aspose.HTML for Java 是免費函式庫嗎？**  
 A: Aspose.HTML for Java 是商業產品。價格與授權資訊請參閱 [Aspose website](https://purchase.aspose.com/buy)。
 
-**Q: Can I try Aspose.HTML for Java before buying?**  
+**Q：購買前可以試用 Aspose.HTML for Java 嗎？**  
 A: 可以，請從 [here](https://releases.aspose.com/html/java) 下載免費試用版。
 
-**Q: What image formats can I export to?**  
+**Q：可以匯出哪些影像格式？**  
 A: 支援 JPEG、PNG、BMP、GIF 等多種格式。
 
-**Q: How do I obtain a temporary license for evaluation?**  
+**Q：如何獲得臨時評估許可？**  
 A: 可從 [this link](https://purchase.aspose.com/temporary-license/) 申請臨時授權。
 
-**Q: Where can I get community support?**  
+**Q：哪裡可以獲得社區支持？**  
 A: 前往 [Aspose.HTML forum](https://forum.aspose.com/) 提問與分享經驗。
 
-**Q: Can I convert multiple EPUB pages in a single run?**  
+**Q：可以一次轉換多個 EPUB 頁面嗎？**  
 A: 可以，透過迴圈處理各頁並呼叫 `Converter.convertEPUB`，指定不同的輸出檔名。
 
-**Q: Does the library support high‑DPI output for print quality?**  
+**Q：該庫是否支援高解析度 (DPI) 輸出以提高列印品質？**  
 A: 當然支援，只需在 `ImageSaveOptions` 中設定 `Resolution` 屬性即可控制 DPI。
 
 **最後更新：** 2026-03-26  

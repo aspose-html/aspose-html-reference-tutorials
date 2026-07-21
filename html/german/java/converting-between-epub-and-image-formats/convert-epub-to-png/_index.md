@@ -104,22 +104,11 @@ A: Eine kostenlose Testversion reicht für die Evaluierung, aber für den Produk
 **F: Wo kann ich weitere Hilfe erhalten?**  
 A: Besuchen Sie das Aspose.HTML‑Forum für Community‑Support: [Aspose.HTML Forum](https://forum.aspose.com/).
 
-## FAQ
+---
 
-### F1: Kann ich EPUB‑Dateien mit Aspose.HTML für Java in andere Bildformate konvertieren?
-A1: Ja, Aspose.HTML für Java unterstützt verschiedene Bildformate, und Sie können EPUB‑Dateien problemlos in Formate wie JPEG, BMP und TIFF konvertieren.
-
-### F2: Ist Aspose.HTML für Java für Batch‑Konvertierungen von EPUB‑Dateien geeignet?
-A2: Absolut! Aspose.HTML für Java ist darauf ausgelegt, Batch‑Konvertierungen effizient zu verarbeiten, was es ideal für die Verarbeitung mehrerer EPUB‑Dateien auf einmal macht.
-
-### F3: Kann ich die Ausgabebildabmessungen und -qualität während der Konvertierung anpassen?
-A3: Ja, Sie können die Bildabmessungen und -qualität anpassen, indem Sie vor der Konvertierung `ImageSaveOptions` ändern.
-
-### F4: Bietet Aspose.HTML für Java eine kostenlose Testversion an?
-A4: Ja, Sie können eine kostenlose Testversion von Aspose.HTML für Java [here](https://releases.aspose.com/) erhalten.
-
-### F5: Wo finde ich die ausführliche Dokumentation für Aspose.HTML für Java?
-A5: Sie können die Dokumentation [here](https://reference.aspose.com/html/java/) einsehen, die ausführliche Informationen zu den Funktionen und zur Nutzung von Aspose.HTML für Java bietet.
+**Zuletzt aktualisiert:** 2026-03-26  
+**Getestet mit:** Aspose.HTML for Java 23.12 (latest at time of writing)  
+**Autor:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -127,9 +116,3 @@ A5: Sie können die Dokumentation [here](https://reference.aspose.com/html/java/
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Zuletzt aktualisiert:** 2026-03-26  
-**Getestet mit:** Aspose.HTML for Java 23.12 (latest at time of writing)  
-**Autor:** Aspose

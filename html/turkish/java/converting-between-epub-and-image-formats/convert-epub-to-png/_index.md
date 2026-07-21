@@ -105,27 +105,11 @@ C: Değerlendirme için ücretsiz deneme yeterli, ancak üretim ortamları için
 **S: Daha fazla yardıma nereden ulaşabilirim?**  
 C: Topluluk desteği için Aspose.HTML forumunu ziyaret edin: [Aspose.HTML Forum](https://forum.aspose.com/).
 
-## SSS
+---
 
-### S1: Aspose.HTML for Java ile EPUB dosyalarını başka görüntü formatlarına dönüştürebilir miyim?
-
-C1: Evet, Aspose.HTML for Java çeşitli görüntü formatlarını destekler ve EPUB dosyalarını JPEG, BMP, TIFF gibi formatlara kolayca dönüştürebilirsiniz.
-
-### S2: Aspose.HTML for Java, EPUB dosyalarının toplu dönüşümü için uygun mu?
-
-C2: Kesinlikle! Aspose.HTML for Java, toplu dönüşümleri verimli bir şekilde gerçekleştirecek şekilde tasarlanmıştır; birden fazla EPUB dosyasını tek seferde işlemek için idealdir.
-
-### S3: Dönüşüm sırasında çıktı görüntü boyutlarını ve kalitesini özelleştirebilir miyim?
-
-C3: Evet, dönüşümden önce `ImageSaveOptions`'ı değiştirerek görüntü boyutlarını ve kalitesini özelleştirebilirsiniz.
-
-### S4: Aspose.HTML for Java ücretsiz deneme sürümü sunuyor mu?
-
-C4: Evet, Aspose.HTML for Java ücretsiz deneme sürümüne [buradan](https://releases.aspose.com/) erişebilirsiniz.
-
-### S5: Aspose.HTML for Java için detaylı belgeleri nereden bulabilirim?
-
-C5: Aspose.HTML for Java belgelerine [buradan](https://reference.aspose.com/html/java/) ulaşabilirsiniz; burada kütüphanenin özellikleri ve kullanımı hakkında kapsamlı bilgiler yer alır.
+**Son Güncelleme:** 2026-03-26  
+**Test Edilen:** Aspose.HTML for Java 23.12 (yazım anındaki en son sürüm)  
+**Yazar:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -133,9 +117,3 @@ C5: Aspose.HTML for Java belgelerine [buradan](https://reference.aspose.com/html
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Son Güncelleme:** 2026-03-26  
-**Test Edilen:** Aspose.HTML for Java 23.12 (yazım anındaki en son sürüm)  
-**Yazar:** Aspose

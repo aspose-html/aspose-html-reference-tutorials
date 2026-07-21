@@ -14,39 +14,42 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# epub to pdf java – Μετατροπή EPUB σε PDF
+# epub σε pdf java – Μετατροπή EPUB σε PDF
 
-Αν χρειάζεστε **epub to pdf java** μετατροπή, βρίσκεστε στο σωστό μέρος. Στον χώρο της ανάπτυξης ιστοσελίδων, η εξασφάλιση της άριστης παρουσίασης του περιεχομένου σας είναι προτεραιότητα. Το HTML, ως θεμέλιο του ιστού, παίζει καθοριστικό ρόλο στο πώς εμφανίζεται το περιεχόμενό σας. Το Aspose.HTML for Java προσφέρει ένα ισχυρό σύνολο εργαλείων που δίνει τη δυνατότητα στους προγραμματιστές να διαχειρίζονται και να βελτιστοποιούν έγγραφα HTML με ευκολία. Σε αυτόν τον ολοκληρωμένο οδηγό, θα σας καθοδηγήσουμε στη διαδικασία χρήσης του Aspose.HTML for Java για **convert EPUB to PDF**, ένα κρίσιμο βήμα για όποιον θέλει **generate pdf from epub** και να προσεγγίσει ευρύτερο κοινό.
+Αν χρειάζεστε **epub to pdf java** μετατροπή, βρίσκεστε στο σωστό μέρος. Στον χώρο της ανάπτυξης ιστοσελίδων, η εξασφάλιση της άριστης παρουσίασης του περιεχομένου σας είναι προτεραιότητα. Το HTML, ως θεμέλιο του ιστού, παίζει καθοριστικό ρόλο στο πώς εμφανίζεται το περιεχόμενό σας. Το Aspose.HTML for Java προσφέρει ένα ισχυρό σύνολο εργαλείων που δίνει τη δυνατότητα στους προγραμματιστές να διαχειρίζονται και να βελτιστοποιούν έγγραφα HTML με ευκολία. Σε αυτόν τον ολοκληρωμένο οδηγό, θα σας καθοδηγήσει στη διαδικασία χρήσης του Aspose.HTML for Java για **convert EPUB to PDF**, ένα κρίσιμο βήμα για όποιον θέλει **generate pdf from epub** και να προσεγγίσει ευρύτερο κοινό.
 
-## Quick Answers
-- **What library handles epub to pdf java?** Aspose.HTML for Java  
-- **How many lines of code are needed?** About 5 lines after setup  
-- **Do I need a license?** Yes, a commercial license is required for production  
-- **Can I customize PDF layout?** Absolutely – use `PdfSaveOptions` to set page size, margins, etc.  
-- **Is a trial available?** Yes, a free trial can be downloaded from the Aspose site  
+## Γρήγορες απαντήσεις
+- **Τι βιβλιοθήκη χειρίζεται το epub σε pdf java;** Aspose.HTML για Java
+- **Πόσες γραμμές κώδικα χρειάζονται;** Περίπου 5 γραμμές μετά την εγκατάσταση
+- **Χρειάζομαι άδεια;** Ναι, απαιτείται εμπορική άδεια για την παραγωγή
+- **Μπορώ να προσαρμόσω τη διάταξη PDF;** Απολύτως – χρησιμοποιήστε το «PdfSaveOptions» για να ορίσετε το μέγεθος σελίδας, τα περιθώρια κ.λπ.
+- **Είναι διαθέσιμη δοκιμή;** Ναι, μπορείτε να κατεβάσετε μια δωρεάν δοκιμή από τον ιστότοπο Aspose
 
-## What is epub to pdf java?
-`epub to pdf java` αναφέρεται στη διαδικασία μετατροπής ενός αρχείου ebook EPUB σε έγγραφο PDF χρησιμοποιώντας κώδικα Java. Αυτή η μετατροπή είναι χρήσιμη όταν χρειάζεστε μορφή σταθερού layout που λειτουργεί σε οποιαδήποτε συσκευή, εκτυπώνεται αξιόπιστα ή συμμορφώνεται με πρότυπα προσβασιμότητας.
+## Τι είναι το epub σε pdf java;
+«epub to pdf java» αναφέρεται στη διαδικασία μετατροπής ενός αρχείου ebook EPUB σε έγγραφο PDF χρησιμοποιώντας κώδικα Java. Αυτή η μετατροπή χρήσιμη όταν χρειάζεστε μορφή σταθερού layout που λειτουργεί σε μια τυπική συσκευή, εκτυπώνεται ή συμμορφώνεται με πρότυπα προσαρμογής.
 
-## Why use Aspose.HTML for Java for epub to pdf conversion?
-- **Reliability:** Handles complex EPUB structures, images, and CSS without loss of fidelity.  
-- **Performance:** Fast, server‑side conversion suitable for batch processing.  
-- **Customization:** `PdfSaveOptions` lets you tweak page size, margins, headers, footers, and more.  
-- **Cross‑platform:** Works on any OS that supports Java, making it ideal for cloud services.
+## Γιατί να χρησιμοποιήσετε το Aspose.HTML για Java για μετατροπή epub σε pdf;
+- **Αξιοπιστία:** Χειρίζεται πολύπλοκες δομές EPUB, εικόνες και CSS χωρίς απώλεια πιστότητας.
+- **Απόδοση:** Γρήγορη μετατροπή από την πλευρά του διακομιστή κατάλληλη για μαζική επεξεργασία.
+- **Προσαρμογή:** Το `PdfSaveOptions` σας επιτρέπει να τροποποιήσετε το μέγεθος της σελίδας, τα περιθώρια, τις κεφαλίδες, τα υποσέλιδα και πολλά άλλα.
 
-## Prerequisites
+- **Πολλαπλατφόρμες:** Λειτουργεί σε οποιοδήποτε λειτουργικό σύστημα που υποστηρίζει Java, καθιστώντας το ιδανικό για υπηρεσίες cloud.
 
-Before we dive into the technical details, make sure you have the following:
+## Προαπαιτούμενα
 
-1. **Java Development Environment** – JDK 8 or higher installed.  
-2. **Aspose.HTML for Java** – Download the library from the official page [here](https://releases.aspose.com/html/java/).  
-3. **Input EPUB File** – Have an EPUB file ready (e.g., `input.epub`). You can use any sample EPUB for testing.
+Πριν εμβαθύνουμε στις τεχνικές λεπτομέρειες, βεβαιωθείτε ότι έχετε τα εξής:
 
-With these prerequisites in place, you’re ready to start converting your EPUB documents to PDF using Aspose.HTML for Java.
+1. **Περιβάλλον Ανάπτυξης Java** – Εγκατεστημένο JDK 8 ή νεότερη έκδοση.
 
-## Import Packages
+2. **Aspose.HTML για Java** – Κατεβάστε τη βιβλιοθήκη από την επίσημη σελίδα [εδώ](https://releases.aspose.com/html/java/).
 
-First, open your Java project and import the essential Aspose.HTML for Java packages. These imports give you access to the converter and PDF‑specific options.
+3. **Εισαγωγή Αρχείου EPUB** – Να έχετε έτοιμο ένα αρχείο EPUB (π.χ., `input.epub`). Μπορείτε να χρησιμοποιήσετε οποιοδήποτε δείγμα EPUB για δοκιμή.
+
+Έχοντας αυτές τις προϋποθέσεις, είστε έτοιμοι να ξεκινήσετε τη μετατροπή των εγγράφων EPUB σε PDF χρησιμοποιώντας το Aspose.HTML για Java.
+
+## Εισαγωγή Πακέτων
+
+Πρώτα, ανοίξτε το έργο Java και εισαγάγετε το απαραίτητο Aspose.HTML για πακέτα Java. Αυτές οι εισαγωγές σάς δίνουν πρόσβαση στις επιλογές που αφορούν τον μετατροπέα και τα PDF.
 
 ```java
 import com.aspose.html.saving.PdfSaveOptions;
@@ -54,9 +57,9 @@ import com.aspose.html.converters.Converter;
 import java.io.FileInputStream;
 ```
 
-## Load the EPUB File
+## Φόρτωση του αρχείου EPUB
 
-Next, load the EPUB file you want to convert. Replace `"input.epub"` with the actual path to your source file.
+Στη συνέχεια, φορτώστε το αρχείο EPUB που θέλετε να μετατρέψετε. Αντικαταστήστε το `"input.epub"` με την πραγματική διαδρομή προς το αρχείο προέλευσης.
 
 ```java
 try (FileInputStream fileInputStream = new FileInputStream("input.epub")) {
@@ -64,58 +67,59 @@ try (FileInputStream fileInputStream = new FileInputStream("input.epub")) {
 
 Η δήλωση `try‑with‑resources` εξασφαλίζει ότι η ροή κλείνει αυτόματα μετά τη μετατροπή.
 
-## Set PDF Conversion Options
+## Ορισμός επιλογών μετατροπής PDF
 
-Create an instance of `PdfSaveOptions` to fine‑tune the PDF output. You can adjust page size, margins, and other rendering options here.
+Δημιουργήστε μια παρουσία του `PdfSaveOptions` για να βελτιώσετε την έξοδο PDF. Μπορείτε να προσαρμόσετε το μέγεθος σελίδας, τα περιθώρια και άλλες επιλογές απόδοσης εδώ.
 
 ```java
 PdfSaveOptions options = new PdfSaveOptions();
 ```
 
-## Convert EPUB to PDF
+## Μετατροπή EPUB σε PDF
 
-Now perform the actual conversion. The `Converter.convertEPUB` method reads the EPUB stream, applies the options, and writes the result to `output.pdf`.
+Τώρα εκτελέστε την πραγματική μετατροπή. Η μέθοδος `Converter.convertEPUB` διαβάζει τη ροή EPUB, εφαρμόζει τις επιλογές και γράφει το αποτέλεσμα στο `output.pdf`.
 
 ```java
 Converter.convertEPUB(fileInputStream, options, "output.pdf");
 ```
 
-After this line executes, you’ll find `output.pdf` in your project directory, ready to be distributed or archived.
+Αφού εκτελεστεί αυτή η γραμμή, θα βρείτε το `output.pdf` στον κατάλογο του έργου σας, έτοιμο για διανομή ή αρχειοθέτηση.
 
-## Common Issues and Solutions
+## Συνήθη προβλήματα και λύσεις
 
 | Πρόβλημα | Αιτία | Διόρθωση |
-|----------|-------|----------|
-| **Blank pages in PDF** | Missing CSS or fonts in the EPUB | Ensure the EPUB includes all resources or embed fonts via `PdfSaveOptions` |
-| **Incorrect page size** | Default options don’t match your requirements | Set `options.setPageSize()` or `options.setMargins()` before conversion |
-| **OutOfMemoryError** on large EPUBs | Large files consume too much memory | Process the EPUB in chunks or increase JVM heap size (`-Xmx2g`) |
+|----------|--------|----------|
+| **Κενές σελίδες σε PDF** | Λείπουν CSS ή γραμματοσειρές στο EPUB | Βεβαιωθείτε ότι το EPUB περιλαμβάνει όλους τους πόρους ή ενσωματώνει γραμματοσειρές μέσω του `PdfSaveOptions` |
+| **Λανθασμένο μέγεθος σελίδας** | Οι προεπιλεγμένες επιλογές δεν ταιριάζουν με τις απαιτήσεις σας | Ορίστε `options.setPageSize()` ή `options.setMargins()` πριν από τη μετατροπή |
+| **OutOfMemoryError** σε μεγάλα EPUB | Τα μεγάλα αρχεία καταναλώνουν υπερβολική μνήμη | Επεξεργαστείτε το EPUB σε κομμάτια ή αυξήστε το μέγεθος σωρού JVM (`-Xmx2g`) |
 
-## Frequently Asked Questions (FAQs)
+## Συχνές Ερωτήσεις (FAQs)
 
-### Is Aspose.HTML for Java a free tool?
-No, Aspose.HTML for Java is a commercial library. You can find licensing and pricing details on their [purchase page](https://purchase.aspose.com/buy).
+### Είναι το Aspose.HTML για Java ένα δωρεάν εργαλείο;
+Όχι, το Aspose.HTML για Java είναι μια εμπορική βιβλιοθήκη. Μπορείτε να βρείτε λεπτομέρειες σχετικά με τις άδειες χρήσης και τις τιμές στη [σελίδα αγοράς](https://purchase.aspose.com/buy).
 
-### Can I try Aspose.HTML for Java before purchasing?
-Yes, you can access a free trial of Aspose.HTML for Java from [here](https://releases.aspose.com/).
+### Μπορώ να δοκιμάσω το Aspose.HTML για Java πριν από την αγορά;
+Ναι, μπορείτε να αποκτήσετε πρόσβαση σε μια δωρεάν δοκιμαστική έκδοση του Aspose.HTML για Java από [εδώ](https://releases.aspose.com/).
 
-### What other document formats can I convert using Aspose.HTML for Java?
-Aspose.HTML for Java supports a wide range of formats, including HTML, EPUB, and more. Check the documentation for a full list of supported formats.
+### Ποιες άλλες μορφές εγγράφων μπορώ να μετατρέψω χρησιμοποιώντας το Aspose.HTML για Java;
 
-### Is Aspose.HTML for Java suitable for both beginners and experienced developers?
-Yes, the API is designed to be intuitive for newcomers while offering deep customization for seasoned developers. Detailed guides are available in the official docs.
+Το Aspose.HTML για Java υποστηρίζει ένα ευρύ φάσμα μορφών, συμπεριλαμβανομένων HTML, EPUB και άλλων. Ελέγξτε την τεκμηρίωση για μια πλήρη λίστα με τις υποστηριζόμενες μορφές.
 
-### Are there any advanced customization options for PDF conversion in Aspose.HTML for Java?
-Absolutely. You can customize page size, margins, headers, footers, and even embed fonts using the `PdfSaveOptions` class.
+### Είναι το Aspose.HTML για Java κατάλληλο τόσο για αρχάριους όσο και για έμπειρους προγραμματιστές;
+Ναι, το API έχει σχεδιαστεί για να είναι εύχρηστο για τους νεοφερμένους, προσφέροντας παράλληλα βαθιά προσαρμογή για έμπειρους προγραμματιστές. Λεπτομερείς οδηγοί είναι διαθέσιμοι στα επίσημα έγγραφα.
 
-## Conclusion
+### Υπάρχουν προηγμένες επιλογές προσαρμογής για τη μετατροπή PDF στο Aspose.HTML για Java;
+Απολύτως. Μπορείτε να προσαρμόσετε το μέγεθος σελίδας, τα περιθώρια, τις κεφαλίδες, τα υποσέλιδα, ακόμη και τις γραμματοσειρές ενσωμάτωσης χρησιμοποιώντας την κλάση `PdfSaveOptions`.
 
-In this tutorial, we’ve shown you **how to convert EPUB to PDF using Java** with Aspose.HTML. With just a few lines of code, you can **generate pdf from epub**, customize the output, and deliver a polished, device‑agnostic document. If you run into any challenges, refer to the Aspose.HTML for Java [documentation](https://reference.aspose.com/html/java/) or ask the community on the Aspose [support forum](https://forum.aspose.com/).
+## Συμπέρασμα
+
+Σε αυτό το σεμινάριο, σας δείξαμε **πώς να μετατρέψετε EPUB σε PDF χρησιμοποιώντας Java** με το Aspose.HTML. Με λίγες μόνο γραμμές κώδικα, μπορείτε να **δημιουργήσετε pdf από epub**, να προσαρμόσετε την έξοδο και να παραδώσετε ένα γυαλισμένο έγγραφο, ανεξάρτητα από συσκευές. Εάν αντιμετωπίσετε οποιεσδήποτε προκλήσεις, ανατρέξτε στην [τεκμηρίωση] του Aspose.HTML για Java (https://reference.aspose.com/html/java/) ή ρωτήστε την κοινότητα στο [φόρουμ υποστήριξης] του Aspose (https://forum.aspose.com/).
 
 ---
 
-**Last Updated:** 2026-03-26  
-**Tested With:** Aspose.HTML for Java 23.12  
-**Author:** Aspose  
+**Τελευταία ενημέρωση:** 2026-03-26
+**Δοκιμάστηκε με:** Aspose.HTML για Java 23.12
+**Συγγραφέας:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

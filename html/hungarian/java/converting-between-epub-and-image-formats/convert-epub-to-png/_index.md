@@ -105,22 +105,11 @@ A: Az ingyenes próba a kiértékeléshez működik, de a termelési telepítés
 **K: Hol kaphatok további segítséget?**  
 A: Látogassa meg az Aspose.HTML fórumot a közösségi támogatásért: [Aspose.HTML Forum](https://forum.aspose.com/).
 
-## GyIK
+---
 
-### Q1: Átalakíthatok EPUB fájlokat más képformátumokra az Aspose.HTML for Java használatával?
-A1: Igen, az Aspose.HTML for Java több képformátumot támogat, és könnyen konvertálhat EPUB fájlokat JPEG, BMP és TIFF formátumokra.
-
-### Q2: Alkalmas-e az Aspose.HTML for Java kötegelt EPUB konvertálásra?
-A2: Természetesen! Az Aspose.HTML for Java hatékonyan kezeli a kötegelt konvertálásokat, így ideális több EPUB fájl egyidejű feldolgozásához.
-
-### Q3: Testreszabhatom-e a kimeneti kép méreteit és minőségét a konvertálás során?
-A3: Igen, a `ImageSaveOptions` módosításával testreszabhatja a kép méreteit és minőségét a konvertálás előtt.
-
-### Q4: Kínál-e az Aspose.HTML for Java ingyenes próba verziót?
-A4: Igen, ingyenes próba verziót érhet el az Aspose.HTML for Java‑hez [here](https://releases.aspose.com/).
-
-### Q5: Hol találhat részletes dokumentációt az Aspose.HTML for Java‑hez?
-A5: A dokumentációt [here](https://reference.aspose.com/html/java/) tekintheti meg, amely részletes információkat nyújt az Aspose.HTML for Java funkcióiról és használatáról.
+**Legutóbb frissítve:** 2026-03-26  
+**Tesztelve a következővel:** Aspose.HTML for Java 23.12 (legújabb a megírás időpontjában)  
+**Szerző:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -128,9 +117,3 @@ A5: A dokumentációt [here](https://reference.aspose.com/html/java/) tekintheti
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Legutóbb frissítve:** 2026-03-26  
-**Tesztelve a következővel:** Aspose.HTML for Java 23.12 (legújabb a megírás időpontjában)  
-**Szerző:** Aspose

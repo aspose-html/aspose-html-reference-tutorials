@@ -17,7 +17,7 @@ weight: 11
 
 Java 開発者で、**java epub to pdf** をシームレスかつ効率的に行いたいですか？ そうであれば、ここが適切な場所です。このステップバイステップガイドでは、強力な Java ライブラリである Aspose.HTML を使用して *how to convert epub* ファイルを PDF に変換する方法を解説します。事前の経験は不要です—各操作を分かりやすく分解します。さあ始めましょう、カスタムストリームプロバイダーを使用して **java convert ebook pdf** と **save pdf from stream** ができる方法を見てみましょう！
 
-## Quick Answers
+## 簡単な回答
 - **使用されているライブラリは何ですか？** Aspose.HTML for Java  
 - **ディスクに書き込まずに EPUB を変換できますか？** Yes – using `MemoryStreamProvider` streams the result directly in memory  
 - **本番環境でライセンスが必要ですか？** A valid Aspose.HTML license is required for commercial use  

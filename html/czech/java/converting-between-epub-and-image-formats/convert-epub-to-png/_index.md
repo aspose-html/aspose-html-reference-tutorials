@@ -104,22 +104,11 @@ A: Bezplatná zkušební verze stačí pro hodnocení, ale pro produkční nasaz
 **Q: Kde mohu získat další pomoc?**  
 A: Navštivte fórum Aspose.HTML pro komunitní podporu: [Aspose.HTML Forum](https://forum.aspose.com/).
 
-## FAQ
+---
 
-### Q1: Mohu převést soubory EPUB do jiných formátů obrázků pomocí Aspose.HTML pro Java?
-A1: Ano, Aspose.HTML pro Java podporuje různé formáty obrázků a můžete snadno převést soubory EPUB do formátů jako JPEG, BMP a TIFF.
-
-### Q2: Je Aspose.HTML pro Java vhodný pro hromadné převody souborů EPUB?
-A2: Ano! Aspose.HTML pro Java je navržen tak, aby efektivně zvládal hromadné převody, což je ideální pro zpracování více souborů EPUB najednou.
-
-### Q3: Mohu během převodu přizpůsobit rozměry a kvalitu výstupního obrázku?
-A3: Ano, můžete přizpůsobit rozměry a kvalitu obrázku úpravou `ImageSaveOptions` před převodem.
-
-### Q4: Nabízí Aspose.HTML pro Java bezplatnou zkušební verzi?
-A4: Ano, můžete získat bezplatnou zkušební verzi Aspose.HTML pro Java [zde](https://releases.aspose.com/).
-
-### Q5: Kde mohu najít podrobnou dokumentaci pro Aspose.HTML pro Java?
-A5: Dokumentaci najdete [zde](https://reference.aspose.com/html/java/), která poskytuje podrobné informace o funkcích a použití Aspose.HTML pro Java.
+**Poslední aktualizace:** 2026-03-26  
+**Testováno s:** Aspose.HTML for Java 23.12 (latest at time of writing)  
+**Autor:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -127,9 +116,3 @@ A5: Dokumentaci najdete [zde](https://reference.aspose.com/html/java/), která p
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Poslední aktualizace:** 2026-03-26  
-**Testováno s:** Aspose.HTML for Java 23.12 (latest at time of writing)  
-**Autor:** Aspose

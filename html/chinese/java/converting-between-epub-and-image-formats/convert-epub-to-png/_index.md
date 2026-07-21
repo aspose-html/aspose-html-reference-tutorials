@@ -103,27 +103,11 @@ A: 评估阶段可使用免费试用版，生产部署需商业许可证。
 **Q: 哪里可以获得更多帮助？**  
 A: 访问 Aspose.HTML 论坛获取社区支持：[Aspose.HTML Forum](https://forum.aspose.com/)。
 
-## FAQ's
+---
 
-### Q1: 能使用 Aspose.HTML for Java 将 EPUB 文件转换为其他图像格式吗？
-
-A1: 可以，Aspose.HTML for Java 支持多种图像格式，您可以轻松将 EPUB 转换为 JPEG、BMP、TIFF 等。
-
-### Q2: Aspose.HTML for Java 适合批量转换 EPUB 文件吗？
-
-A2: 绝对可以！Aspose.HTML for Java 设计用于高效处理批量转换，非常适合一次性处理多个 EPUB 文件。
-
-### Q3: 在转换过程中能自定义输出图像的尺寸和质量吗？
-
-A3: 可以，在转换前修改 `ImageSaveOptions` 即可自定义图像尺寸和质量。
-
-### Q4: Aspose.HTML for Java 提供免费试用版吗？
-
-A4: 是的，您可以在此处获取免费试用版 [here](https://releases.aspose.com/)。
-
-### Q5: 哪里可以找到 Aspose.HTML for Java 的详细文档？
-
-A5: 您可以在此处查阅文档 [here](https://reference.aspose.com/html/java/)，其中提供了 Aspose.HTML for Java 功能和使用的深入信息。
+**最后更新：** 2026-03-26  
+**测试环境：** Aspose.HTML for Java 23.12 (latest at time of writing)  
+**作者：** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -131,9 +115,3 @@ A5: 您可以在此处查阅文档 [here](https://reference.aspose.com/html/java
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最后更新：** 2026-03-26  
-**测试环境：** Aspose.HTML for Java 23.12 (latest at time of writing)  
-**作者：** Aspose

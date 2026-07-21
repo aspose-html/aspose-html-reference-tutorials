@@ -105,22 +105,11 @@ A : Une version d’essai gratuite suffit pour l’évaluation, mais une licen
 **Q : Où puis‑je obtenir plus d’aide ?**  
 A : Consultez le forum Aspose.HTML pour le support communautaire : [Aspose.HTML Forum](https://forum.aspose.com/).
 
-## FAQ
+---
 
-### Q1 : Puis‑je convertir des fichiers EPUB en d’autres formats d’image avec Aspose.HTML pour Java ?
-A1 : Oui, Aspose.HTML pour Java prend en charge divers formats d’image, et vous pouvez facilement convertir des fichiers EPUB en formats tels que JPEG, BMP et TIFF.
-
-### Q2 : Aspose.HTML pour Java est‑il adapté aux conversions par lots de fichiers EPUB ?
-A2 : Absolument ! Aspose.HTML pour Java est conçu pour gérer les conversions par lots efficacement, ce qui le rend idéal pour traiter plusieurs fichiers EPUB en une seule fois.
-
-### Q3 : Puis‑je personnaliser les dimensions et la qualité de l’image de sortie lors de la conversion ?
-A3 : Oui, vous pouvez personnaliser les dimensions et la qualité de l’image en modifiant `ImageSaveOptions` avant la conversion.
-
-### Q4 : Aspose.HTML pour Java propose‑t‑il une version d’essai gratuite ?
-A4 : Oui, vous pouvez accéder à une version d’essai gratuite d’Aspose.HTML pour Java [here](https://releases.aspose.com/).
-
-### Q5 : Où puis‑je trouver la documentation détaillée d’Aspose.HTML pour Java ?
-A5 : Vous pouvez consulter la documentation [here](https://reference.aspose.com/html/java/), qui fournit des informations détaillées sur les fonctionnalités et l’utilisation d’Aspose.HTML pour Java.
+**Dernière mise à jour** : 2026-03-26  
+**Testé avec** : Aspose.HTML for Java 23.12 (latest at time of writing)  
+**Auteur** : Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -128,9 +117,3 @@ A5 : Vous pouvez consulter la documentation [here](https://reference.aspose.co
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Dernière mise à jour** : 2026-03-26  
-**Testé avec** : Aspose.HTML for Java 23.12 (latest at time of writing)  
-**Auteur** : Aspose
