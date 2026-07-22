@@ -1,0 +1,7 @@
+Title: Load HTML File Python – Set Max Depth & Parse Large Files
+Slug: load-html-file-python-set-max-depth-parse-large-files
+Category: general
+ProcessedDate: 2026-07-22T02:42:44.145240
+SourceRepo: AI Search API
+Keywords: load html file python, set max depth, parse large html file
+PRNumber: 218
