@@ -41,6 +41,10 @@ Bây giờ, hãy đưa kỹ năng của bạn lên một tầm cao mới. Chỉn
 ### [Cách làm tiêu đề đậm bằng CSS & C# – Hướng dẫn chi tiết từng bước](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
 
 Hướng dẫn chi tiết cách sử dụng CSS và C# để làm tiêu đề in đậm, kèm ví dụ mã và các bước thực hiện cụ thể.
+
+### [Tạo tài liệu HTML trong bộ nhớ với Aspose.HTML – Hướng dẫn đầy đủ](./create-in-memory-html-document-with-aspose-html-complete-gui/)
+Hướng dẫn chi tiết cách tạo tài liệu HTML trong bộ nhớ bằng Aspose.HTML, kèm ví dụ mã và các bước thực hiện.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

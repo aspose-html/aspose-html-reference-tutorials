@@ -38,6 +38,7 @@ Temelleri kavradığınızda, oluşturma sürecine daha derinlemesine dalacağı
 
 ### [C#'ta HTML Kaydetme – Özel Kaynak İşleyicisi Kullanarak Tam Kılavuz](./how-to-save-html-in-c-complete-guide-using-a-custom-resource/)
 ### [CSS ve C# ile Başlığı Kalınlaştırma – Tam Adım Adım Kılavuz](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
+### [Aspose.HTML ile Bellek İçi HTML Belgesi Oluşturma – Tam Kılavuz](./create-in-memory-html-document-with-aspose-html-complete-gui/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

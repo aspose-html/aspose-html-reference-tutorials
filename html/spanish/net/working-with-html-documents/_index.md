@@ -41,6 +41,9 @@ Ahora, llevemos tus habilidades al siguiente nivel. Editar documentos HTML es un
 
 Aprenda a aplicar estilo negrita a encabezados usando CSS y C# con este tutorial detallado.
 
+### [Crear documento HTML en memoria con Aspose.HTML – Guía completa](./create-in-memory-html-document-with-aspose-html-complete-gui/)
+Aprenda a generar documentos HTML completamente en memoria usando Aspose.HTML sin necesidad de archivos físicos.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

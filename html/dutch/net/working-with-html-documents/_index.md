@@ -41,6 +41,8 @@ Laten we nu uw vaardigheden naar een hoger niveau tillen. Het bewerken van HTML-
 
 Leer hoe u met CSS en C# kopteksten vet maakt in een .NET‑applicatie, stap voor stap met voorbeeldcode.
 
+### [In‑memory HTML‑document maken met Aspose.HTML – Complete gids](./create-in-memory-html-document-with-aspose-html-complete-gui/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
