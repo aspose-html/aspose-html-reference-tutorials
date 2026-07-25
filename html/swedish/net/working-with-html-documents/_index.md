@@ -43,6 +43,10 @@ Lär dig spara HTML i C# med en anpassad resurs‑hanterare och generera komplet
 
 Lär dig hur du använder CSS och C# för att göra rubriker fetstilta i dina HTML‑dokument med en steg‑för‑steg‑guide.
 
+### [Skapa ett HTML-dokument i minnet med Aspose.HTML – Komplett guide](./create-in-memory-html-document-with-aspose-html-complete-gui/)
+
+Lär dig hur du skapar HTML-dokument helt i minnet med Aspose.HTML utan att skriva till disk.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
