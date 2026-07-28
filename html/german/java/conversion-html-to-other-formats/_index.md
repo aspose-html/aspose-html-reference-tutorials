@@ -102,10 +102,13 @@ Konvertieren Sie Markdown in Java nahtlos zu HTML mit Aspose.HTML für Java. Fol
 Erfahren Sie, wie Sie SVG in Java mit Aspose.HTML zu Bildern konvertieren. Umfassende Anleitung für hochwertige Ausgaben.
 
 ### [Konvertierung von SVG zu PDF](./convert-svg-to-pdf/)
-Konvertieren Sie SVG in Java mit Aspose.HTML zu PDF. Eine nahtlose Lösung für hochwertige Dokumentenkonvertierung.
+Konvertieren Sie SVG in Java mit Aspose.HTML zu PDF. Eine nahtlose Lösung für hochwertige Dokumentkonvertierung.
 
 ### [Konvertierung von SVG zu XPS](./convert-svg-to-xps/)
 Erfahren Sie, wie Sie SVG mit Aspose.HTML für Java zu XPS konvertieren. Einfache, Schritt‑für‑Schritt‑Anleitung für reibungslose Konvertierungen.
+
+### [Lokale HTML-Datei in PDF konvertieren – Vollständige Java-Anleitung](./convert-local-html-file-to-pdf-complete-java-guide/)
+Erfahren Sie, wie Sie eine lokale HTML‑Datei mit Aspose.HTML für Java vollständig in ein PDF umwandeln, inkl. Optionen und Best Practices.
 
 ## Häufig gestellte Fragen
 

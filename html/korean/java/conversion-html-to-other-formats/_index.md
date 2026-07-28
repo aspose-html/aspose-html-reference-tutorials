@@ -84,6 +84,8 @@ SVG 그래픽을 XPS 형식으로 변환하여 기기 간 일관된 인쇄를 �
 ## 변환 - HTML 기타 형식 튜토리얼
 ### [HTML을 PDF로 변환](./convert-html-to-pdf/)
 Aspose.HTML를 사용하여 Java에서 HTML을 PDF로 변환하는 방법을 배우세요. HTML 콘텐츠에서 고품질 PDF를 손쉽게 생성합니다.
+### [로컬 HTML 파일을 PDF로 변환 – 완전 Java 가이드](./convert-local-html-file-to-pdf-complete-java-guide/)
+Aspose.HTML를 사용하여 Java에서 로컬 HTML 파일을 PDF로 변환하는 전체 가이드를 확인하세요.
 ### [Java에서 HTML을 PDF로 변환 – 페이지 크기 설정을 포함한 단계별 가이드](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Aspose.HTML를 사용하여 Java에서 페이지 크기 옵션을 지정하며 HTML을 PDF로 변환하는 방법을 단계별로 안내합니다.
 ### [HTML을 MHTML로 변환](./convert-html-to-mhtml/)
