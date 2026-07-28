@@ -45,6 +45,8 @@ Học cách sử dụng Aspose.HTML cho .NET để thao tác với các tài li�
 Hướng dẫn chi tiết cách bật khử răng cưa để cải thiện chất lượng hình ảnh khi chuyển đổi tài liệu DOCX sang PNG hoặc JPG bằng Aspose.HTML.
 ### [Chuyển đổi DOCX sang PNG – tạo tệp ZIP bằng C# – Hướng dẫn](./convert-docx-to-png-create-zip-archive-c-tutorial/)
 Hướng dẫn cách chuyển đổi tài liệu DOCX thành hình ảnh PNG và đóng gói chúng vào tệp ZIP bằng C#.
+### [Tạo PNG từ HTML với Aspose.Html – Hướng dẫn C# đầy đủ](./create-png-from-html-with-aspose-html-complete-c-guide/)
+Hướng dẫn chi tiết cách chuyển đổi HTML thành ảnh PNG bằng Aspose.Html trong C# từ đầu đến cuối.
 
 ## Phần kết luận
 

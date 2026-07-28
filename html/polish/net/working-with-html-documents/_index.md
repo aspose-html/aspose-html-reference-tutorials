@@ -43,6 +43,10 @@ Poznaj metodę zapisu HTML w C# z własnym obsługiwaczem zasobów, umożliwiaj�
 
 Dowiedz się, jak użyć CSS i C# do pogrubienia nagłówka w HTML, krok po kroku, z praktycznymi przykładami.
 
+### [Jak zapisać HTML w C# – Kompletny przewodnik z własnym magazynem wyjściowym](./how-to-save-html-in-c-complete-guide-with-custom-output-stor/)
+
+Poznaj metodę zapisu HTML w C# z własnym magazynem wyjściowym, dającą pełną kontrolę nad przechowywaniem wyników.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
