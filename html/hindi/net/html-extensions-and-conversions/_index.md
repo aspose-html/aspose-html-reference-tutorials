@@ -79,7 +79,7 @@ Aspose.HTML के साथ .NET में HTML को MHTML में बद�
 ### [Aspose.HTML के साथ .NET में HTML को XPS में बदलें](./convert-html-to-xps/)
 .NET के लिए Aspose.HTML की शक्ति का पता लगाएं: HTML को XPS में आसानी से बदलें। पूर्वापेक्षाएँ, चरण-दर-चरण मार्गदर्शिका और FAQ शामिल हैं।
 ### [HTML को ZIP के रूप में सहेजें – पूर्ण C# ट्यूटोरियल](./save-html-as-zip-complete-c-tutorial/)
-HTML को ZIP फ़ाइल में सहेजने के चरण-दर-चरण मार्गदर्शन, C# कोड उदाहरण और अनुकूलन विकल्प।
+HTML को ZIP फ़ाइल में सहेजने के चरण-दर-स्टेप मार्गदर्शन, C# कोड उदाहरण और अनुकूलन विकल्प।
 
 ### [C# में HTML को ज़िप कैसे करें – HTML को ज़िप में सहेजें](./how-to-zip-html-in-c-save-html-to-zip/)
 .NET के लिए Aspose.HTML का उपयोग करके C# में HTML को ज़िप फ़ाइल में सहेजने का तरीका सीखें।
@@ -89,6 +89,8 @@ Aspose.HTML for .NET का उपयोग करके स्टाइल्�
 .NET के लिए Aspose.HTML की शक्ति का पता लगाएं: HTML को XPS में आसानी से बदलें। पूर्वापेक्षाएँ, चरण-दर-स्टेप मार्गदर्शिका और FAQ शामिल हैं।
 ### [C# में HTML को ZIP में सहेजें – पूर्ण इन‑मेमोरी उदाहरण](./save-html-to-zip-in-c-complete-in-memory-example/)
 C# में इन‑मेमोरी में HTML को ZIP फ़ाइल में सहेजने का पूरा उदाहरण देखें।
+
+### [Aspose.HTML के साथ HTML को ZIP में बदलें – पूर्ण C# गाइड](./convert-html-to-zip-with-aspose-html-complete-c-guide/)
 
 ## निष्कर्ष
 
