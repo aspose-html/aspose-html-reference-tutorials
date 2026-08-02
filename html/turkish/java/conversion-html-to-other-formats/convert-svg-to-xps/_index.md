@@ -1,10 +1,59 @@
 ---
-date: 2026-03-02
+date: 2026-08-02
 description: Aspose.HTML for Java ile SVG'yi XPS'ye nasıl dönüştüreceğinizi öğrenin.
-  Bu kılavuz, SVG'yi XPS'ye hızlı ve kolay bir şekilde nasıl dönüştüreceğinizi gösterir.
-linktitle: Converting SVG to XPS
+  Bu kılavuz, SVG'yi XPS'ye hızlı ve kolay bir şekilde dönüştürmeyi gösterir.
+keywords:
+- convert svg to xps
+- aspose html java
+- how to convert svg
+lastmod: 2026-08-02
+linktitle: SVG'yi XPS'ye Dönüştürme
+og_description: Aspose.HTML for Java kullanarak SVG'yi XPS'ye dönüştürün. Verimli
+  bir şekilde yüksek kaliteli XPS dosyaları oluşturmak için adımları, ön koşulları
+  ve ipuçlarını öğrenin.
+og_image_alt: 'Developer guide: Convert SVG to XPS using Aspose.HTML for Java'
+og_title: SVG'yi XPS'ye Dönüştür – Aspose.HTML for Java ile Hızlı Kılavuz
+schemas:
+- author: Aspose
+  dateModified: '2026-08-02'
+  description: Learn how to convert SVG to XPS with Aspose.HTML for Java. This guide
+    shows how to convert svg to xps quickly and easily.
+  headline: Convert SVG to XPS with Aspose.HTML for Java
+  type: TechArticle
+- description: Learn how to convert SVG to XPS with Aspose.HTML for Java. This guide
+    shows how to convert svg to xps quickly and easily.
+  name: Convert SVG to XPS with Aspose.HTML for Java
+  steps:
+  - name: '**Java Development Environment**'
+    text: '**Java Development Environment**'
+  - name: '**Aspose.HTML for Java**'
+    text: '**Aspose.HTML for Java**'
+  - name: '**SVG Document**'
+    text: '**SVG Document**'
+  type: HowTo
+- questions:
+  - answer: Absolutely. The same API works in any Java environment, including servlet
+      containers and Spring Boot applications.
+    question: Can I use this conversion in a web application?
+  - answer: Yes, vector text in the original SVG remains selectable in the resulting
+      XPS file.
+    question: Does the conversion preserve text as selectable text?
+  - answer: Aspose.HTML for Java supports Java 8 and newer versions.
+    question: What Java versions are supported?
+  - answer: While the library handles large files, extremely complex SVGs (hundreds
+      of MB) may require more memory. Optimizing the SVG beforehand helps maintain
+      fast conversion times.
+    question: How large can an SVG file be before performance degrades?
+  - answer: Yes, simply loop over your file list and invoke `Converter.convertSVG`
+      for each document.
+    question: Is it possible to batch‑convert multiple SVG files?
+  type: FAQPage
 second_title: Java HTML Processing with Aspose.HTML
-title: Aspose.HTML for Java ile SVG'yi XPS'ye Dönüştürme
+tags:
+- convert svg
+- Aspose.HTML
+- Java document processing
+title: Aspose.HTML for Java ile SVG'yi XPS'ye Dönüştür
 url: /tr/java/conversion-html-to-other-formats/convert-svg-to-xps/
 weight: 16
 ---
@@ -13,26 +62,37 @@ weight: 16
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.HTML for Java ile SVG'yi XPS'ye Dönüştürme
+# SVG'yi XPS'ye Aspose.HTML for Java ile Dönüştür
 
-Eğer Java kullanarak **SVG** dosyalarını XPS formatına nasıl dönüştüreceğinizi merak ediyorsanız, doğru yerdesiniz. Bu öğreticide ortamınızı kurmaktan yüksek‑kaliteli bir XPS belgesi üretmeye kadar tüm süreci adım adım anlatacağız— böylece Aspose.HTML for Java ile **convert svg to xps** konusunu hızla öğrenebileceksiniz. Rehberin sonunda bu dönüşümün neden önemli olduğunu, çıktıyı nasıl ince ayar yapabileceğinizi ve yaygın sorunları nerede çözebileceğinizi anlayacaksınız.
+Eğer Java kullanarak SVG dosyalarını XPS formatına **nasıl dönüştüreceğinizi** merak ediyorsanız, doğru yerdesiniz. Bu öğreticide ortamınızı kurmaktan yüksek kaliteli bir XPS belgesi üretmeye kadar tüm süreci adım adım anlatacağız— böylece Aspose.HTML for Java ile **svg'yi xps'ye dönüştür** konusunu hızlıca öğrenebileceksiniz. Sonunda dönüşümün neden önemli olduğunu, çıktıyı nasıl ince ayar yapacağınızı ve en yaygın sorunları nasıl çözeceğinizi öğreneceksiniz.
 
 ## Hızlı Yanıtlar
 - **Hangi kütüphane gerekiyor?** Aspose.HTML for Java  
-- **Özel bir arka plan ayarlayabilir miyim?** Evet, `XpsSaveOptions.setBackgroundColor` kullanarak  
-- **Test için lisansa ihtiyacım var mı?** Değerlendirme için ücretsiz deneme çalışır; üretim için lisans gerekir  
-- **Desteklenen Java sürümleri?** Java 8 ve üzeri  
-- **Tipik dönüşüm süresi?** Çoğu SVG dosyası için birkaç saniye  
+- **Özel bir arka plan ayarlayabilir miyim?** Yes, via `XpsSaveOptions.setBackgroundColor`  
+- **Test için bir lisansa ihtiyacım var mı?** A free trial works for evaluation; a license is required for production  
+- **Desteklenen Java sürümleri?** Java 8 and higher  
+- **Tipik dönüşüm süresi?** A few seconds for most SVG files  
 
-## SVG'yi XPS'ye Dönüştürme – Genel Bakış
-SVG'yi XPS'ye dönüştürmek, baskı, arşivleme veya XPS'yi destekleyen platformlar arasında paylaşım için sabit‑düzen bir belgeye ihtiyaç duyduğunuzda faydalıdır. Aspose.HTML API'si ağır işleri halleder, vektör kalitesini korur ve arka plan rengi, sayfa boyutu gibi çıktı ayarlarını özelleştirmenize olanak tanır.
+## SVG'yi XPS'ye Nasıl Dönüştürülür?
 
-## Ön Koşullar
+Aspose.HTML for Java ile bir SVG dosyasını XPS'ye dönüştürmek için, SVG'yi bir `SVGDocument` içine yüklersiniz, `XpsSaveOptions` aracılığıyla istediğiniz render seçeneklerini yapılandırırsınız ve ardından `Converter.convertSVG` metodunu çağırarak kaynak belgeyi, çıktı yolunu ve seçenekleri sağlarsınız. Kütüphane vektör korumasını, sayfa boyutlandırmasını ve renk yönetimini otomatik olarak ele alır.
 
-Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
+### Önkoşullar Nelerdir?
+
+Java 8+ yüklü, Aspose.HTML for Java kütüphanesi ve diskte bir SVG dosyası. Bu üç öğe, dönüşüm kodunu yazmadan önce ihtiyacınız olan tek şeydir.
+
+### Neden SVG'yi XPS'ye Dönüştürmeliyiz?
+
+XPS, Windows, macOS ve Linux'ta aynı görünüme sahip, baskıya hazır, sabit düzenli belgeler sunar. Vektör netliğini korur, seçilebilir metni destekler ve daha büyük raporlama iş akışlarına gömülebilir; bu da faturalar, biletler ve arşiv PDF'leri için ideal kılar.
+
+### Paketleri içe aktarmak için ne gerekir?
+
+`import` ifadeleri, dönüşüm için gereken Aspose.HTML sınıflarına erişim sağlar. Bunlar olmadan derleyici `SVGDocument`, `XpsSaveOptions` veya `Converter` sınıflarını çözemez.
+
+## Önkoşullar
 
 1. **Java Geliştirme Ortamı**  
-   Henüz yapmadıysanız, en yeni JDK'yı [Java's website](https://www.oracle.com/java/technologies/javase-downloads.html) adresinden indirin.
+   Henüz yapmadıysanız, en son JDK'yi [Java'nın web sitesinden](https://www.oracle.com/java/technologies/javase-downloads.html) yükleyin.
 
 2. **Aspose.HTML for Java**  
    Kütüphaneyi resmi siteden indirin: [Aspose.HTML for Java](https://releases.aspose.com/html/java/).
@@ -40,17 +100,9 @@ Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 3. **SVG Belgesi**  
    Diskte hazır bir SVG dosyanız olsun ve tam yolunu not edin.
 
-Her şey hazır olduğuna göre, gerçek dönüşüm adımlarına dalalım.
-
-## Neden SVG'yi XPS'ye Dönüştürmeliyiz?
-- **Baskıya hazır kalite:** XPS vektör verilerini korur, herhangi bir çözünürlükte net çıktı sağlar.  
-- **Çapraz platform tutarlılığı:** Uyumlu görüntüleyicilerle Windows, macOS ve Linux'ta aynı şekilde render edilir.  
-- **Kolay entegrasyon:** Oluşan XPS raporlar, faturalar veya sabit düzen gerektiren herhangi bir belge iş akışına gömülebilir.  
-- **Seçilebilir metnin korunması:** Metin öğeleri seçilebilir ve aranabilir kalır, bu da erişilebilirlik ve sonraki işleme için değerlidir.
-
 ## Paketleri İçe Aktarma
 
-Başlamak için, gerekli sınıfları Java projenize içe aktarın. Bu, Aspose.HTML dönüşüm API'sine erişmenizi sağlar.
+`import` ifadeleri, Aspose.HTML API sınıflarını kaynak dosyanızda kullanılabilir hale getirir.
 
 ```java
 import com.aspose.html.dom.svg.SVGDocument;
@@ -59,9 +111,9 @@ import com.aspose.html.drawing.Color;
 import com.aspose.html.converters.Converter;
 ```
 
-## Adım 1: SVG Belgesini Yükleme
+## Adım 1: SVG Belgesini Yükleyin
 
-`SVGDocument` örneğini, kaynak SVG dosyanıza işaret ederek oluşturun.
+`SVGDocument` sınıfı, belleğe yüklenmiş bir SVG dosyasını temsil eder ve içeriğine ve boyutlarına programatik erişim sağlar.
 
 ```java
 SVGDocument svgDocument = new SVGDocument("path-to-your-input.svg");
@@ -69,40 +121,42 @@ SVGDocument svgDocument = new SVGDocument("path-to-your-input.svg");
 
 ## Adım 2: XPS Dönüşümünü Yapılandırma
 
-`XpsSaveOptions` nesnesini başlatın ve ihtiyacınız olan ayarları özelleştirin. Örneğin, arka plan rengini camgöbeği (cyan) olarak değiştirebilirsiniz.
+`XpsSaveOptions`, XPS dosyasının nasıl render edileceğini kontrol etmenizi sağlar—sayfa boyutu, arka plan rengi, sıkıştırma ve daha fazlası. Örneğin, `setBackgroundColor(Color.cyan)` ile camgöbeği bir arka plan ayarlayabilirsiniz.
 
 ```java
 XpsSaveOptions options = new XpsSaveOptions();
 options.setBackgroundColor(Color.getCyan());
 ```
 
-> **Pro ipucu:** Arka plan rengi ayarlamazsanız, Aspose.HTML varsayılan olarak şeffaf bir arka plan kullanır.
+> **Pro ipucu:** Bir arka plan rengi ayarlamazsanız, Aspose.HTML varsayılan olarak şeffaf bir arka plan kullanır.
 
-## Adım 3: Çıktı Yolunu Tanımlama
+## Adım 3: Çıktı Yolunu Tanımlayın
 
-Dönüştürülen XPS dosyasının nereye kaydedileceğini belirtin.
+Dönüştürülen XPS'nin yazılacağı tam dosya sistemi yolunu belirtin. Yol, Java süreci tarafından yazılabilir olmalıdır.
 
 ```java
 String outputFile = "path-to-your-output.xps";
 ```
 
-## Adım 4: SVG'yi XPS'ye Dönüştürme
+## Adım 4: SVG'yi XPS'ye Dönüştürün
 
-Dönüşümü, `Converter.convertSVG` metoduna tek bir çağrı yaparak yürütün.
+`Converter.convertSVG`, gerçek dönüşümü gerçekleştirir. Yüklenmiş `SVGDocument`, hedef yolu ve yapılandırılmış `XpsSaveOptions` parametrelerini alır ve ardından tamamen render edilmiş bir XPS dosyası yazar.
 
 ```java
 Converter.convertSVG(svgDocument, options, outputFile);
 ```
 
-Metod tamamlandıktan sonra, belirttiğiniz konumda tam olarak render edilmiş bir XPS belgesi bulacaksınız.
+Metot tamamlandığında, belirttiğiniz konumda tamamen render edilmiş bir XPS belgesi bulacaksınız.
 
-## Yaygın Sorunlar ve Çözümleri
+## Yaygın Sorunlar ve Çözümler
 
 | Sorun | Açıklama | Çözüm |
 |-------|----------|-------|
 | **Dosya bulunamadı** | Yanlış SVG yolu | Yol dizesini doğrulayın ve dosyanın mevcut olduğundan emin olun. |
 | **Desteklenmeyen SVG özellikleri** | Bazı gelişmiş SVG filtreleri desteklenmiyor | SVG'yi basitleştirin veya dönüşümden önce karmaşık öğeleri rasterleştirin. |
-| **Lisans hatası** | Üretimde geçerli bir lisans olmadan kütüphane kullanmak | Aspose.HTML lisans dosyanızı şu şekilde uygulayın: `License license = new License(); license.setLicense("Aspose.HTML.Java.lic");` |
+| **Lisans hatası** | Üretim ortamında geçerli bir lisans olmadan kütüphane kullanmak | Aspose.HTML lisans dosyanızı şu şekilde uygulayın: `License license = new License(); license.setLicense("Aspose.HTML.Java.lic");` |
+
+`License` sınıfı, Aspose.HTML for Java lisansınızı uygulamak için kullanılır; böylece değerlendirme sınırlamaları olmadan tam özellikli işlevsellik elde edilir.
 
 ## Sıkça Sorulan Sorular
 
@@ -110,37 +164,43 @@ Metod tamamlandıktan sonra, belirttiğiniz konumda tam olarak render edilmiş b
 C: Kesinlikle. Aynı API, servlet konteynerleri ve Spring Boot uygulamaları dahil olmak üzere herhangi bir Java ortamında çalışır.
 
 **S: Dönüşüm metni seçilebilir metin olarak korur mu?**  
-C: Evet, orijinal SVG'deki vektör metni, oluşan XPS dosyasında seçilebilir olarak kalır.
+C: Evet, orijinal SVG'deki vektör metni, ortaya çıkan XPS dosyasında seçilebilir olarak kalır.
 
 **S: Hangi Java sürümleri destekleniyor?**  
 C: Aspose.HTML for Java, Java 8 ve daha yeni sürümleri destekler.
 
 **S: Performans düşmeden önce bir SVG dosyası ne kadar büyük olabilir?**  
-C: Kütüphane büyük dosyaları işlese de, çok karmaşık SVG'ler (yüzlerce MB) daha fazla bellek gerektirebilir. Dönüştürmeden önce SVG'yi optimize etmeyi düşünün.
+C: Kütüphane büyük dosyaları işlese de, çok karmaşık SVG'ler (yüzlerce MB) daha fazla bellek gerektirebilir. SVG'yi önceden optimize etmek, hızlı dönüşüm sürelerini korumaya yardımcı olur.
 
 **S: Birden fazla SVG dosyasını toplu olarak dönüştürmek mümkün mü?**  
-C: Evet, dosya listeniz üzerinde döngü kurarak her belge için `Converter.convertSVG` metodunu çağırabilirsiniz.
+C: Evet, dosya listeniz üzerinde döngü kurarak her belge için `Converter.convertSVG` metodunu çağırmanız yeterlidir.
 
 ## En İyi Uygulamalar ve İpuçları
 
 - **Toplu işleme:** Dönüşüm mantığını bir döngü içinde sarın ve performansı artırmak için tek bir `XpsSaveOptions` örneğini yeniden kullanın.  
 - **Bellek yönetimi:** Çok büyük SVG'ler için, her dönüşümden sonra `System.gc()` çağırın veya dosyaları daha küçük partilerde işleyin.  
-- **Çıktı doğrulama:** Oluşturulan XPS'yi bir görüntüleyici (ör. Microsoft XPS Viewer) ile açarak renklerin, yazı tiplerinin ve düzenin beklentilere uygun olduğunu doğrulayın.  
-- **Lisans konumu:** Lisans dosyanızı, Java sınıf yolunda (classpath) bir konuma yerleştirerek çalışma zamanı lisans hatalarını önleyin.
+- **Çıktı doğrulama:** Oluşturulan XPS'yi bir görüntüleyiciyle (ör. Microsoft XPS Viewer) açarak renklerin, yazı tiplerinin ve düzenin beklentileri karşıladığını doğrulayın.  
+- **Lisans konumu:** Lisans dosyanızı, çalışma zamanında lisans hatalarından kaçınmak için Java sınıf yolunda bir konuma yerleştirin.  
 
 ## Sonuç
 
-Artık Aspose.HTML for Java kullanarak **convert svg to xps** için eksiksiz, üretime hazır bir yönteme sahipsiniz. Raporlama motoru, belge arşivleme sistemi ya da sabit düzen çıktısı gerektiren bir web servisi oluşturuyor olun, bu yaklaşım kalite ve görünüm üzerinde tam kontrol sağlar. Belge iş akışınızı daha da genişletmek için diğer kaydetme seçeneklerini (PDF, PNG, JPEG) keşfedin.
+Artık Aspose.HTML for Java kullanarak **svg'yi xps'ye dönüştür** için eksiksiz, üretim ortamına hazır bir yönteme sahipsiniz. Raporlama motoru, belge arşivleme sistemi ya da sabit düzenli çıktı gerektiren bir web servisi oluşturuyor olun, bu yaklaşım kalite ve görünüm üzerinde tam kontrol sağlar. Belge iş akışınızı daha da genişletmek için diğer kaydetme seçeneklerini (PDF, PNG, JPEG) keşfedin.
 
 ---
 
-**Son Güncelleme:** 2026-03-02  
+**Son Güncelleme:** 2026-08-02  
 **Test Edilen Versiyon:** Aspose.HTML for Java 24.12 (latest at time of writing)  
 **Yazar:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/products-backtop-button >}}
 
+## İlgili Öğreticiler
+
+- [Aspose.HTML for Java ile HTML'yi XPS'ye Dönüştür](/html/java/conversion-html-to-other-formats/convert-html-to-xps/)
+- [Aspose.HTML for Java ile HTML'yi XPS'ye Dönüştür ve XPS Sayfa Boyutunu Ayarla](/html/java/advanced-usage/adjust-xps-page-size/)
+- [svg to png java – Aspose.HTML for Java ile SVG'yi Görsele Dönüştür](/html/java/conversion-html-to-other-formats/convert-svg-to-image/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
