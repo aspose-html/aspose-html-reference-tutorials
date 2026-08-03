@@ -41,6 +41,8 @@ Maintenant, passons à un niveau supérieur de compétences. L'édition de docum
 Apprenez à enregistrer du HTML en C# en utilisant un gestionnaire de ressources personnalisé pour contrôler le flux de sortie et les ressources liées.
 ### [Comment mettre en gras un titre avec CSS & C# – Guide complet étape par étape](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
 
+### [Charger une chaîne HTML en C# – guide complet avec gestionnaire personnalisé](./load-html-string-in-c-complete-guide-with-custom-handler/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

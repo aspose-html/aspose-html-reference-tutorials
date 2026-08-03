@@ -38,6 +38,7 @@ HTML ドキュメントは Web のバックボーンであり、それを効果�
 
 ### [カスタムリソースハンドラを使用した C# での HTML 保存完全ガイド](./how-to-save-html-in-c-complete-guide-using-a-custom-resource/)
 ### [CSS と C# で見出しを太字にする方法 – 完全ステップバイステップガイド](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
+### [カスタムハンドラを使用した C# で HTML 文字列をロードする完全ガイド](./load-html-string-in-c-complete-guide-with-custom-handler/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

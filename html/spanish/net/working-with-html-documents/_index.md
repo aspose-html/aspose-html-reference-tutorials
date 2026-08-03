@@ -41,6 +41,8 @@ Ahora, llevemos tus habilidades al siguiente nivel. Editar documentos HTML es un
 
 Aprenda a aplicar estilo negrita a encabezados usando CSS y C# con este tutorial detallado.
 
+### [Cargar cadena HTML en C# – Guía completa con controlador personalizado](./load-html-string-in-c-complete-guide-with-custom-handler/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

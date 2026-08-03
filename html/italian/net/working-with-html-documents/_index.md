@@ -38,6 +38,7 @@ Ora, portiamo le tue competenze al livello successivo. La modifica di documenti 
 
 ### [Come salvare HTML in C# – Guida completa con un gestore di risorse personalizzato](./how-to-save-html-in-c-complete-guide-using-a-custom-resource/)
 ### [Come rendere grassetto un'intestazione con CSS e C# – Guida completa passo‑passo](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
+### [Carica stringa HTML in C# – guida completa con gestore personalizzato](./load-html-string-in-c-complete-guide-with-custom-handler/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
