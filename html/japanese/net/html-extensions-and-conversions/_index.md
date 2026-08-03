@@ -46,6 +46,9 @@ Aspose.HTML for .NET を使用して、C# で HTML から PDF を作成する手
 ### [スタイル付きテキストで HTML ドキュメントを作成し、PDF にエクスポートする – 完全ガイド](./create-html-document-with-styled-text-and-export-to-pdf-full/)
 Aspose.HTML for .NET を使用して、スタイル付きテキストを含む HTML ドキュメントを作成し、PDF にエクスポートする手順を詳しく解説します。
 
+### [C# で HTML を PDF に変換 – フォントスタイルをプログラムで設定する](./convert-html-to-pdf-in-c-set-font-style-programmatically/)
+Aspose.HTML for .NET を使用し、C# でフォントスタイルをプログラム的に設定しながら HTML を PDF に変換する手順を解説します。
+
 ### [Aspose.HTML を使用して .NET で EPUB を画像に変換する](./convert-epub-to-image/)
 Aspose.HTML for .NET を使用して EPUB を画像に変換する方法を学びます。コード例とカスタマイズ可能なオプションを含むステップバイステップのチュートリアルです。
 ### [Aspose.HTML を使用して .NET で EPUB を PDF に変換する](./convert-epub-to-pdf/)

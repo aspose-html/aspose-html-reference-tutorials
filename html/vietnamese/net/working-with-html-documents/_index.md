@@ -38,6 +38,10 @@ Bây giờ, hãy đưa kỹ năng của bạn lên một tầm cao mới. Chỉn
 
 ### [Cách lưu HTML trong C# – Hướng dẫn đầy đủ sử dụng Trình xử lý tài nguyên tùy chỉnh](./how-to-save-html-in-c-complete-guide-using-a-custom-resource/)
 
+### [Tải chuỗi HTML trong C# – hướng dẫn đầy đủ với trình xử lý tùy chỉnh](./load-html-string-in-c-complete-guide-with-custom-handler/)
+
+Hướng dẫn chi tiết cách tải một chuỗi HTML trong C# bằng Aspose.HTML sử dụng trình xử lý tùy chỉnh.
+
 ### [Cách làm tiêu đề đậm bằng CSS & C# – Hướng dẫn chi tiết từng bước](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
 
 Hướng dẫn chi tiết cách sử dụng CSS và C# để làm tiêu đề in đậm, kèm ví dụ mã và các bước thực hiện cụ thể.

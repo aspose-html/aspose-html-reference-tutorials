@@ -38,6 +38,8 @@ url: /th/net/working-with-html-documents/
 
 ### [วิธีบันทึก HTML ใน C# – คู่มือฉบับสมบูรณ์โดยใช้ Custom Resource Handler](./how-to-save-html-in-c-complete-guide-using-a-custom-resource/)
 ### [วิธีทำให้หัวเรื่องเป็นตัวหนาด้วย CSS & C# – คู่มือขั้นตอนเต็ม](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
+### [โหลดสตริง HTML ใน C# – คู่มือฉบับสมบูรณ์ด้วยตัวจัดการแบบกำหนดเอง](./load-html-string-in-c-complete-guide-with-custom-handler/)
+
 เรียนรู้วิธีทำให้หัวเรื่องเป็นตัวหนาด้วย CSS ใน C# อย่างละเอียด พร้อมขั้นตอนครบถ้วนเพื่อปรับปรุงการออกแบบเว็บของคุณ
 
 {{< /blocks/products/pf/tutorial-page-section >}}

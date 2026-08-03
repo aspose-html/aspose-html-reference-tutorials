@@ -43,6 +43,8 @@ Poznaj metodę zapisu HTML w C# z własnym obsługiwaczem zasobów, umożliwiaj�
 
 Dowiedz się, jak użyć CSS i C# do pogrubienia nagłówka w HTML, krok po kroku, z praktycznymi przykładami.
 
+### [Ładowanie ciągu HTML w C# – kompletny przewodnik z własnym obsługiwaczem](./load-html-string-in-c-complete-guide-with-custom-handler/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
