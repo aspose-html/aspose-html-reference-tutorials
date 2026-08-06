@@ -45,6 +45,7 @@ Aspose.HTML for .NET を使用して HTML ドキュメントを操作したり�
 DOCX 文書を PNG または JPG 画像に変換する際に、アンチエイリアシングを有効にして高品質な出力を得る手順を解説します。
 ### [DOCX を PNG に変換 – ZIP アーカイブを作成する C# チュートリアル](./convert-docx-to-png-create-zip-archive-c-tutorial/)
 C# で DOCX を PNG に変換し、ZIP アーカイブを作成する方法を学びます。
+### [C# で HTML を PNG にレンダリングする完全ガイド](./render-html-to-png-in-c-complete-guide/)
 
 ## 結論
 
