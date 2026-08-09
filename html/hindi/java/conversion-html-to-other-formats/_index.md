@@ -106,6 +106,9 @@ Aspose.HTML for Java के साथ SVG को XPS में कैसे ब�
 ### [Java में HTML को PDF में बदलें – पेज आकार सेटिंग्स के साथ चरण‑दर‑चरण गाइड](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Aspose.HTML for Java के साथ पेज आकार सेटिंग्स को नियंत्रित करते हुए HTML को PDF में बदलने का विस्तृत गाइड।
 
+### [Java में HTML से PDF बनाना – चरण‑दर‑चरण गाइड](./create-pdf-from-html-in-java-step-by-step-guide/)
+Aspose.HTML for Java का उपयोग करके HTML को PDF में बदलने की विस्तृत चरण‑दर‑चरण प्रक्रिया सीखें।
+
 ## अक्सर पूछे जाने वाले प्रश्न
 
 **Q: क्या मैं Aspose.HTML for Java को व्यावसायिक एप्लिकेशन में उपयोग कर सकता हूँ?**  
