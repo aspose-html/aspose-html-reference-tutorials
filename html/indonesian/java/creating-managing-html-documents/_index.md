@@ -54,6 +54,8 @@ Pelajari cara memuat, memanipulasi, dan menyimpan dokumen HTML menggunakan Aspos
 Pelajari cara memuat dokumen HTML dari aliran menggunakan Aspose.HTML untuk Java. Panduan ini menyediakan tutorial langkah demi langkah untuk manipulasi HTML yang lancar.
 ### [Membuat Dokumen HTML dari String di Aspose.HTML untuk Java](./create-html-documents-from-string/)
 Pelajari cara membuat dokumen HTML dari string di Aspose.HTML untuk Java dengan panduan langkah demi langkah ini.
+### [Buat Dokumen HTML dengan Java – Ambil JSON dan Hasilkan Konten](./create-html-document-with-java-fetch-json-and-generate-conte/)
+Pelajari cara mengambil data JSON dan menghasilkan konten HTML secara dinamis menggunakan Aspose.HTML untuk Java dalam panduan langkah demi langkah.
 ### [Memuat Dokumen HTML dari URL di Aspose.HTML untuk Java](./load-html-documents-from-url/)
 Temukan cara mudah memuat dokumen HTML dari URL di Java dengan Aspose.HTML. Tutorial langkah demi langkah disertakan.
 ### [Hasilkan Dokumen HTML Baru menggunakan Aspose.HTML untuk Java](./generate-new-html-documents/)

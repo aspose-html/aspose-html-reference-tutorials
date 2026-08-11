@@ -66,6 +66,8 @@ Aprenda a manipular eventos de carregamento de documentos no Aspose.HTML para Ja
 Aprenda a criar e gerenciar documentos SVG usando Aspose.HTML para Java! Este guia abrangente cobre tudo, desde a criação básica até a manipulação avançada.
 ### [Criar sandbox para HTML em Java – Guia passo a passo](./create-sandbox-for-html-in-java-step-by-step-guide/)
 Aprenda a criar um sandbox para HTML em Java usando Aspose.HTML com este guia passo a passo.
+### [Criar documento HTML com Java – Buscar JSON e gerar conteúdo](./create-html-document-with-java-fetch-json-and-generate-conte/)
+Aprenda a buscar dados JSON e gerar dinamicamente conteúdo HTML em Java usando Aspose.HTML. Guia passo a passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

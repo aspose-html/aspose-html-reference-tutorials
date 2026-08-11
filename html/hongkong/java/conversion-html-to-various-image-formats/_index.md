@@ -85,17 +85,31 @@ weight: 24
 將 HTML 轉換為 BMP，使用 Aspose.HTML for Java。完整教學說明如何無縫將 HTML 文件轉換為 BMP 圖像。
 
 ### [將 HTML 轉換為 GIF](./convert-html-to-gif/)
-了解如何在 Java 中使用 Aspose.HTML 將 HTML 轉換為 GIF。提供高效的 HTML 轉 GIF 轉換步驟說明。
+了解如何在 Java 中使用 Aspose.HTML將 HTML 轉換為 GIF。提供高效的 HTML 轉 GIF 轉換步驟說明。
+
+### [如何從 SVG 建立 GIF – Java 步驟指南](./how-to-create-gif-from-svg-step-by-step-java-guide/)
+說明如何使用 Aspose.HTML for Java 將 SVG 轉換為 GIF，提供完整步驟與範例程式碼。
 
 ### [將 HTML 轉換為 JPEG](./convert-html-to-jpeg/)
 學習使用 Aspose.HTML for Java 將 HTML 轉換為 JPEG。提供逐步指引，協助順利完成文件處理。
 
 ### [將 HTML 轉換為 PNG](./convert-html-to-png/)
-學習如何在 Java 中使用 Aspose.HTML 將 HTML 轉換為 PNG 圖像。完整教學提供詳細步驟說明。
+學習如何在 Java 中使用 Aspose.HTML將 HTML 轉換為 PNG 圖像。完整教學提供詳細步驟說明。
+
+### [如何在 Java 中將 HTML 渲染為 PNG – 完整指南](./how-to-render-html-to-png-in-java-complete-guide/)
+完整步驟說明如何使用 Aspose.HTML for Java 將 HTML 渲染為 PNG 圖像，涵蓋設定、渲染與儲存。
+
+### [將 HTML 轉換為 PNG – 批次轉換指南](./convert-html-to-png-batch-conversion-guide/)
+說明如何使用 Aspose.HTML for Java 批量將 HTML 轉換為 PNG 圖像，提高效率與自動化。
+
+### [如何使用自訂視口渲染 HTML 為 PNG](./how-to-render-html-to-png-with-custom-viewport/)
 
 ### [將 HTML 轉換為 WebP](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
+
 ### [將 HTML 轉換為 TIFF](./convert-html-to-tiff/)
 了解如何使用 Aspose.HTML for Java 輕鬆將 HTML 轉換為 TIFF。提供高效的文件處理步驟說明。
+
+### [如何從 HTML 產生縮圖 – Java 指南](./how-to-generate-thumbnail-from-html-java-guide/)
 
 ## 常見問題集
 

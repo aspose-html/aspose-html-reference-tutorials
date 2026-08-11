@@ -6,7 +6,7 @@ description: Pelajari cara mengonversi HTML, GIF, dan format lain seperti BMP, J
 linktitle: Conversion - HTML to Various Image Formats
 second_title: Java HTML Processing with Aspose.HTML
 title: konversi html gif – Mengonversi HTML ke Berbagai Format Gambar
-url: /id/java/conversion-html-to-various-image-formats/
+url: /id/java/conversion-html-to-various-image-forms/
 weight: 24
 ---
 
@@ -96,9 +96,18 @@ Pelajari cara mengkonversi HTML ke GIF di Java menggunakan Aspose.HTML. Panduan 
 Pelajari cara mengkonversi HTML ke JPEG dengan Aspose.HTML untuk Java. Panduan langkah demi langkah untuk pemrosesan dokumen yang mudah.
 ### [Mengonversi HTML ke PNG](./convert-html-to-png/)
 Pelajari cara mengkonversi HTML ke gambar PNG di Java dengan Aspose.HTML. Panduan komprehensif dengan instruksi langkah demi langkah.
+### [Mengonversi HTML ke PNG – Panduan Konversi Batch](./convert-html-to-png-batch-conversion-guide/)
+Panduan lengkap untuk mengonversi banyak file HTML menjadi PNG secara batch menggunakan Aspose.HTML for Java.
 ### [Mengonversi HTML ke TIFF](./convert-html-to-tiff/)
 Pelajari cara mudah mengkonversi HTML ke TIFF menggunakan Aspose.HTML untuk Java. Panduan langkah demi langkah untuk penanganan dokumen yang efisien.
 ### [Mengonversi HTML ke WebP – Panduan Lengkap Java dengan Aspose.HTML](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
+### [Cara merender HTML ke PNG di Java – Pandaan Lengkap](./how-to-render-html-to-png-in-java-complete-guide/)
+### [Cara merender HTML ke PNG dengan viewport khusus](./how-to-render-html-to-png-with-custom-viewport/)
+Pelajari cara merender HTML ke PNG dengan viewport khusus menggunakan Aspose.HTML for Java, memungkinkan kontrol ukuran gambar output.
+### [Cara Membuat GIF dari SVG – Panduan Langkah‑demi‑Langkah Java](./how-to-create-gif-from-svg-step-by-step-java-guide/)
+Pelajari cara mengonversi file SVG menjadi animasi GIF menggunakan Aspose.HTML for Java dengan contoh kode lengkap.
+### [Cara Membuat Thumbnail dari HTML – Panduan Java](./how-to-generate-thumbnail-from-html-java-guide/)
+Pelajari cara menghasilkan thumbnail dari HTML menggunakan Aspose.HTML for Java dalam panduan langkah demi langkah yang mudah diikuti.
 
 ## Pertanyaan yang Sering Diajukan
 
