@@ -75,8 +75,12 @@ Aprenda a salvar documentos HTML em arquivos ZIP usando Aspose.HTML para .NET co
 
 ### [Como compactar HTML em C# – Salvar HTML em ZIP](./how-to-zip-html-in-c-save-html-to-zip/)
 Aprenda a criar um arquivo ZIP contendo arquivos HTML usando Aspose.HTML para .NET em C#.
+
 ### [Salvar HTML em ZIP em C# – Exemplo Completo em Memória](./save-html-to-zip-in-c-complete-in-memory-example/)
 Aprenda a salvar arquivos HTML em um arquivo ZIP usando C# com um exemplo completo totalmente em memória.
+
+### [Como compactar HTML em C# – Tutorial de Manipulador de Recursos Personalizado](./how-to-zip-html-in-c-custom-resource-handler-tutorial/)
+Aprenda a compactar HTML em C# usando um manipulador de recursos personalizado com Aspose.HTML para .NET.
 
 ## Conclusão
 
