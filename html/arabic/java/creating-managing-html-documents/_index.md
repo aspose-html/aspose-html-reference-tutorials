@@ -56,6 +56,8 @@ url: /ar/java/creating-managing-html-documents/
 تعرف على كيفية إنشاء مستندات HTML من السلاسل في Aspose.HTML لـ Java باستخدام هذا الدليل خطوة بخطوة.
 ### [تحميل مستندات HTML من URL في Aspose.HTML لـ Java](./load-html-documents-from-url/)
 اكتشف كيفية تحميل مستندات HTML بسهولة من عنوان URL في Java باستخدام Aspose.HTML. يتضمن البرنامج التعليمي خطوة بخطوة.
+### [تحميل مستند HTML في Java – دليل كامل مع XPath و CSS](./load-html-document-java-complete-guide-with-xpath-css/)
+تعلم كيفية تحميل ومعالجة مستندات HTML في Java باستخدام Aspose.HTML مع دعم XPath و CSS في دليل شامل خطوة بخطوة.
 ### [إنشاء مستندات HTML جديدة باستخدام Aspose.HTML لـ Java](./generate-new-html-documents/)
 تعرف على كيفية إنشاء مستندات HTML جديدة باستخدام Aspose.HTML for Java من خلال هذا الدليل السهل خطوة بخطوة. ابدأ في إنشاء محتوى HTML ديناميكي.
 ### [التعامل مع أحداث تحميل المستندات في Aspose.HTML لـ Java](./handle-document-load-events/)
@@ -66,6 +68,8 @@ url: /ar/java/creating-managing-html-documents/
 تعلم كيفية إنشاء بيئة تجريبية لمعالجة HTML في Java باستخدام Aspose.HTML من خلال دليل خطوة بخطوة.
 ### [كيفية الاستعلام عن HTML في Java – دليل كامل](./how-to-query-html-in-java-complete-tutorial/)
 تعلم كيفية استعلام ومعالجة مستندات HTML في Java باستخدام Aspose.HTML من خلال دليل شامل خطوة بخطوة.
+### [عد أحرف HTML في Java – دليل كامل مع Aspose HTML](./count-html-characters-in-java-full-guide-with-aspose-html/)
+تعلم كيفية حساب عدد أحرف HTML في مستندات Java باستخدام Aspose.HTML من خلال دليل شامل خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

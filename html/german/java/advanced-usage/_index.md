@@ -128,6 +128,8 @@ Erfahren Sie, wie Sie die PDF‑Seitengröße mit Aspose.HTML für Java anpassen
 Erfahren Sie, wie Sie die XPS‑Seitengröße mit Aspose.HTML für Java anpassen. Steuern Sie die Ausgabedimensionen Ihrer XPS‑Dokumente einfach.
 ### [Wie man JavaScript in Java ausführt – Komplettanleitung](./how-to-run-javascript-in-java-complete-guide/)
 Erfahren Sie, wie Sie JavaScript-Code innerhalb von Java-Anwendungen ausführen und integrieren können.
+### [Wie man Aspose verwendet, um EPUB in DOCX zu konvertieren – Schritt‑für‑Schritt‑Anleitung](./how-to-use-aspose-to-convert-epub-to-docx-step-by-step-guide/)
+Erfahren Sie, wie Sie EPUB‑Dateien mit Aspose in DOCX‑Dokumente konvertieren und dabei Formatierung und Inhalte erhalten.
 
 ---
 

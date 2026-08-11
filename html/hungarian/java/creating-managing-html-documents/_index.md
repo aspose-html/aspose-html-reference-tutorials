@@ -58,12 +58,16 @@ Ebből a lépésről lépésre szóló útmutatóból megtudhatja, hogyan hozhat
 Fedezze fel, hogyan tölthet be egyszerűen HTML dokumentumokat egy URL-ről Java nyelven az Aspose.HTML segítségével. Lépésről lépésre bemutató oktatóanyag.
 ### [HTML lekérdezése Java-ban – Teljes útmutató](./how-to-query-html-in-java-complete-tutorial/)
 Ismerje meg, hogyan kérdezhet le HTML-t Java használatával, lépésről lépésre útmutató a hatékony adatkinyeréshez.
+### [HTML-dokumentum betöltése Java-ban – Teljes útmutató XPath és CSS használatával](./load-html-document-java-complete-guide-with-xpath-css/)
+Fedezze fel, hogyan tölthet be HTML-dokumentumokat Java-ban, és használhatja az XPath és CSS szelektorokat a tartalom lekérdezéséhez.
 ### [Új HTML-dokumentumok létrehozása az Aspose.HTML for Java használatával](./generate-new-html-documents/)
 Ebből az egyszerű, lépésenkénti útmutatóból megtudhatja, hogyan hozhat létre új HTML-dokumentumokat az Aspose.HTML for Java használatával. Kezdje el a dinamikus HTML-tartalom generálását.
 ### [Kezelje a dokumentumbetöltési eseményeket az Aspose.HTML for Java-ban](./handle-document-load-events/)
 Ezzel a lépésről lépésre útmutatóval ismerkedjen meg a dokumentumbetöltési események kezelésével az Aspose.HTML for Java programban. Bővítse webalkalmazásait.
 ### [Hozzon létre és kezeljen SVG-dokumentumokat az Aspose.HTML for Java-ban](./create-manage-svg-documents/)
 Ismerje meg az SVG dokumentumok létrehozását és kezelését az Aspose.HTML for Java segítségével! Ez az átfogó útmutató az alapvető alkotástól a haladó manipulációig mindent lefed.
+### [HTML karakterek számlálása Java-ban – Teljes útmutató az Aspose HTML-lel](./count-html-characters-in-java-full-guide-with-aspose-html/)
+Ismerje meg, hogyan számolhatja meg a HTML karaktereket Java-ban az Aspose.HTML segítségével, részletes, lépésről‑lépésre útmutatóval.
 ### [HTML sandbox létrehozása Java-ban – Lépésről‑lépésre útmutató](./create-sandbox-for-html-in-java-step-by-step-guide/)
 Ismerje meg, hogyan hozhat létre biztonságos sandbox környezetet HTML feldolgozáshoz Java-ban, részletes lépésekkel.
 
