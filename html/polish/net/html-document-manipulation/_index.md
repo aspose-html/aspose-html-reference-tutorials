@@ -71,6 +71,8 @@ Naucz się korzystać z Aspose.HTML dla .NET. Importuj przestrzenie nazw, scalaj
 Odblokuj potencjał rozwoju sieci z Aspose.HTML dla .NET. Twórz, konwertuj i manipuluj dokumentami HTML w prosty sposób.
 ### [Tworzenie HTML z ciągu w C# – Przewodnik po niestandardowym obsługiwaniu zasobów](./create-html-from-string-in-c-custom-resource-handler-guide/)
 Dowiedz się, jak generować dokumenty HTML z łańcucha znaków w C# przy użyciu niestandardowego obsługiwacza zasobów w Aspose.HTML.
+### [Jak tworzyć HTML przy użyciu Aspose – Znajdź element, zastosuj pogrubienie](./how-to-create-html-with-aspose-find-element-apply-bold/)
+Dowiedz się, jak znaleźć określony element w dokumencie HTML i zastosować do niego pogrubienie przy użyciu Aspose.HTML.
 
 ## Wniosek
 

@@ -39,6 +39,8 @@ Aspose.HTML pour .NET n'est pas seulement une bibliothèque ; c'est un outil ré
 ## Tutoriels sur les extensions et conversions HTML
 ### [Convertir HTML en PDF dans .NET avec Aspose.HTML](./convert-html-to-pdf/)
 Convertissez facilement du HTML en PDF avec Aspose.HTML pour .NET. Suivez notre guide étape par étape et exploitez la puissance de la conversion HTML en PDF.
+### [Aspose HTML vers PDF en C# – Guide complet avec archive ZIP](./aspose-html-to-pdf-in-c-complete-guide-with-zip-archive/)
+Apprenez à convertir du HTML en PDF en C# et à créer une archive ZIP avec Aspose.HTML, guide complet pas à pas.
 ### [Créer un PDF à partir de HTML – Guide étape par étape en C#](./create-pdf-from-html-c-step-by-step-guide/)
 Apprenez à créer un PDF à partir de HTML en C# avec Aspose.HTML, guide complet pas à pas.
 ### [Créer un document HTML avec du texte stylisé et l'exporter en PDF – Guide complet](./create-html-document-with-styled-text-and-export-to-pdf-full/)
@@ -59,7 +61,7 @@ Découvrez la puissance d'Aspose.HTML pour .NET : un guide étape par étape po
 ### [Convertir HTML en JPEG dans .NET avec Aspose.HTML](./convert-html-to-jpeg/)
 Découvrez comment convertir du HTML en JPEG dans .NET avec Aspose.HTML pour .NET. Un guide étape par étape pour exploiter la puissance d'Aspose.HTML pour .NET. Optimisez vos tâches de développement Web sans effort.
 ### [Convertir HTML en Markdown dans .NET avec Aspose.HTML](./convert-html-to-markdown/)
-Découvrez comment convertir du HTML en Markdown dans .NET à l'aide d'Aspose.HTML pour une manipulation efficace du contenu. Bénéficiez de conseils étape par étape pour un processus de conversion fluide.
+Découvrez comment convertir du HTML en Markdown dans .NET à l'aide d'Aspose.HTML pour une manipulation efficace du contenu. Bénéficiez de conseils étape à étape pour un processus de conversion fluide.
 ### [Convertir HTML en MHTML dans .NET avec Aspose.HTML](./convert-html-to-mhtml/)
 Convertissez du HTML en MHTML dans .NET avec Aspose.HTML - Un guide étape par étape pour un archivage efficace du contenu Web. Découvrez comment utiliser Aspose.HTML pour .NET pour créer des archives MHTML.
 ### [Convertir HTML en PNG dans .NET avec Aspose.HTML](./convert-html-to-png/)

@@ -71,6 +71,8 @@ Aspose.HTML for .NET을 사용하여 동적이고 웹 콘텐츠를 만드는 방
 .NET용 Aspose.HTML을 사용하는 방법을 배우세요. 이 포괄적인 가이드로 네임스페이스를 가져오고, HTML을 XML과 병합하고, 웹 개발 기술을 향상시키세요.
 ### [Aspose.HTML을 사용하여 .NET에서 XpsDevice로 XPS 문서 생성](./generate-xps-documents-by-xpsdevice/)
 Aspose.HTML for .NET으로 웹 개발의 잠재력을 열어보세요. HTML 문서를 쉽게 만들고, 변환하고, 조작하세요.
+### [Aspose를 사용하여 HTML 만들기 – 요소 찾기, 굵게 적용](./how-to-create-html-with-aspose-find-element-apply-bold/)
+Aspose.HTML을 사용해 특정 요소를 찾아 굵게 적용하는 방법을 단계별로 안내합니다.
 
 ## 결론
 

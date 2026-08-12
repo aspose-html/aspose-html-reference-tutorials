@@ -69,13 +69,11 @@ Apprenez à créer du contenu Web dynamique à l'aide d'Aspose.HTML pour .NET. D
 Apprenez à utiliser Aspose.HTML pour .NET. Importez des espaces de noms, fusionnez HTML avec XML et améliorez vos compétences en développement Web avec ce guide complet.
 ### [Générer des documents XPS par XpsDevice dans .NET avec Aspose.HTML](./generate-xps-documents-by-xpsdevice/)
 Libérez le potentiel du développement Web avec Aspose.HTML pour .NET. Créez, convertissez et manipulez facilement des documents HTML.
-
 ### [Créer du HTML à partir d'une chaîne en C# – Guide du gestionnaire de ressources personnalisé](./create-html-from-string-in-c-custom-resource-handler-guide/)
 Apprenez à générer du HTML à partir d'une chaîne C# en utilisant un gestionnaire de ressources personnalisé avec Aspose.HTML.
+### [Comment créer du HTML avec Aspose – Trouver un élément, appliquer le gras](./how-to-create-html-with-aspose-find-element-apply-bold/)
+Apprenez à localiser un élément HTML et à appliquer le style gras à l'aide d'Aspose.HTML pour .NET.
 
-## Conclusion
-
-En conclusion, si vous souhaitez maîtriser la manipulation de documents HTML à l'aide d'Aspose.HTML pour .NET, vous êtes au bon endroit. Nos tutoriels sont votre feuille de route vers le succès. Préparez-vous à explorer les possibilités, à libérer votre créativité et à rationaliser votre développement .NET. Commencez votre voyage dès aujourd'hui et regardez vos documents HTML se transformer sous vos yeux. Que vous soyez développeur ou passionné, Aspose.HTML pour .NET vous réserve quelque chose d'incroyable. Alors, qu'attendez-vous ? Embarquons ensemble dans cette aventure passionnante !
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
