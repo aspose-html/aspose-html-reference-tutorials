@@ -60,6 +60,9 @@ url: /el/java/editing-html-documents/
 Μάθετε να εφαρμόζετε εσωτερικό CSS σε έγγραφα HTML χρησιμοποιώντας το Aspose.HTML για Java με τον εύκολο βήμα προς βήμα εκμάθησή μας.
 ### [Σταθερό thread pool Java – Παράλληλος καθαρισμός HTML με ExecutorService](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 Μάθετε πώς να χρησιμοποιήσετε ένα σταθερό thread pool σε Java για να εκτελείτε παράλληλο καθαρισμό HTML με την κλάση ExecutorService.
+### [Αλλαγή κειμένου h1 σε MHTML με Java – Πλήρης Οδηγός Βήμα‑Βήμα](./change-h1-text-in-mhtml-with-java-full-step-by-step-guide/)
+Μάθετε πώς να αλλάξετε το κείμενο h1 σε αρχεία MHTML χρησιμοποιώντας το Aspose.HTML για Java με αυτόν τον πλήρη οδηγό βήμα‑βήμα.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

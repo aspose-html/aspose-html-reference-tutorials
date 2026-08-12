@@ -91,7 +91,7 @@ Aspose.HTML for Java упрощает процесс конвертации HTML
 Легко конвертируйте HTML в MHTML с помощью Aspose.HTML for Java. Следуйте нашему пошаговому руководству для эффективной конвертации HTML в MHTML.
 
 ### [Конвертация HTML в XPS](./convert-html-to-xps/)
-Узнайте, как без труда конвертировать HTML в XPS с помощью Aspose.HTML for Java. Создавайте кросс‑платформенные документы с лёгкостью.
+Узнайте, как без труда конвертировать HTML в XPS с помощью Aspose.HTML for Java. Создавайте кросс‑платформные документы с лёгкостью.
 
 ### [Конвертация Markdown в HTML](./convert-markdown-to-html/)
 Бесшовно конвертируйте Markdown в HTML в Java с помощью Aspose.HTML for Java. Следуйте нашему пошаговому руководству, чтобы упростить ваши потребности в конвертации документов.
@@ -107,6 +107,11 @@ Aspose.HTML for Java упрощает процесс конвертации HTML
 
 ### [Конвертация HTML в PDF в Java – Пошаговое руководство с настройками размера страницы](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Подробное пошаговое руководство по конвертации HTML в PDF в Java с настройкой размеров страниц.
+
+### [Создание PDF из Markdown в Java – Пошаговое руководство](./create-pdf-from-markdown-in-java-step-by-step-guide/)
+
+### [Конвертация HTML в PDF пакетно – Руководство Java NIO с параллельной обработкой](./convert-html-to-pdf-in-bulk-java-nio-guide-with-parallel-pro/)
+Узнайте, как массово конвертировать HTML в PDF с помощью Java NIO и параллельной обработки.
 
 ## Часто задаваемые вопросы
 

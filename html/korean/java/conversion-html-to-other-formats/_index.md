@@ -92,12 +92,16 @@ Aspose.HTML for Java를 사용하여 HTML을 MHTML로 손쉽게 변환합니다.
 Aspose.HTML for Java를 사용하여 HTML을 XPS로 손쉽게 변환하는 방법을 배우세요. 크로스‑플랫폼 문서를 쉽게 생성합니다.
 ### [Markdown을 HTML로 변환](./convert-markdown-to-html/)
 Aspose.HTML for Java를 사용하여 Java에서 Markdown을 HTML로 원활하게 변환합니다. 문서 변환 요구를 간소화하기 위한 단계별 가이드를 따라 주세요.
+### [Java에서 Markdown을 PDF로 변환 – 단계별 가이드](./create-pdf-from-markdown-in-java-step-by-step-guide/)
+Aspose.HTML를 사용하여 Java에서 Markdown을 PDF로 변환하는 방법을 단계별로 안내합니다.
 ### [SVG를 이미지로 변환](./convert-svg-to-image/)
 Aspose.HTML를 사용하여 Java에서 SVG를 이미지로 변환하는 방법을 배우세요. 고품질 출력에 대한 포괄적인 가이드입니다.
 ### [SVG를 PDF로 변환](./convert-svg-to-pdf/)
 Aspose.HTML를 사용하여 Java에서 SVG를 PDF로 변환합니다. 고품질 문서 변환을 위한 원활한 솔루션입니다.
 ### [SVG를 XPS로 변환](./convert-svg-to-xps/)
 Aspose.HTML for Java를 사용하여 SVG를 XPS로 변환하는 방법을 배우세요. 원활한 변환을 위한 간단하고 단계별 가이드입니다.
+### [대량 HTML을 PDF로 변환 – Java NIO 및 병렬 처리 가이드](./convert-html-to-pdf-in-bulk-java-nio-guide-with-parallel-pro/)
+Java NIO와 병렬 처리를 활용해 여러 HTML 파일을 한 번에 PDF로 변환하는 방법을 단계별로 안내합니다.
 
 ## 자주 묻는 질문
 

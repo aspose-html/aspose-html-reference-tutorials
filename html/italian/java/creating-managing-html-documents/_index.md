@@ -54,6 +54,8 @@ Scopri come caricare, manipolare e salvare documenti HTML usando Aspose.HTML per
 Scopri come caricare documenti HTML da flussi usando Aspose.HTML per Java. Questa guida fornisce un tutorial passo dopo passo per una manipolazione HTML senza soluzione di continuità.
 ### [Crea documenti HTML da stringhe in Aspose.HTML per Java](./create-html-documents-from-string/)
 Scopri come creare documenti HTML da stringhe in Aspose.HTML per Java con questa guida dettagliata.
+### [Estrai testo da HTML in Java – Guida completa di programmazione](./extract-text-from-html-in-java-complete-programming-guide/)
+Scopri come estrarre testo da documenti HTML in Java usando Aspose.HTML con questa guida passo‑passo completa.
 ### [Crea sandbox per HTML in Java – Guida passo‑a‑passo](./create-sandbox-for-html-in-java-step-by-step-guide/)
 Impara a creare un ambiente sandbox per HTML in Java, garantendo sicurezza e isolamento durante lo sviluppo.
 ### [Carica documenti HTML dall'URL in Aspose.HTML per Java](./load-html-documents-from-url/)

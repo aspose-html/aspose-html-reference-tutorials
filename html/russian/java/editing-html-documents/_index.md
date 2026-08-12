@@ -58,6 +58,8 @@ url: /ru/java/editing-html-documents/
 Узнайте, как управлять внутренними и внешними свойствами HTML в Aspose.HTML для Java, с помощью этого пошагового руководства, идеально подходящего для веб-разработчиков и создателей контента.
 ### [Внедрение внутреннего CSS в HTML-документы с помощью Aspose.HTML для Java](./implement-internal-css-html-documents/)
 Научитесь внедрять внутренний CSS в HTML-документы с помощью Aspose.HTML для Java с помощью нашего простого пошагового руководства.
+### [Изменить текст h1 в MHTML с помощью Java – Полное пошаговое руководство](./change-h1-text-in-mhtml-with-java-full-step-by-step-guide/)
+Узнайте, как изменить текст h1 в MHTML с помощью Java, следуя полному пошаговому руководству.
 ### [Фиксированный пул потоков Java – Параллельная очистка HTML с помощью ExecutorService](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 Узнайте, как использовать фиксированный пул потоков и ExecutorService для параллельной очистки HTML в Java.
 

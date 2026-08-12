@@ -60,6 +60,8 @@ Web geliştiricileri ve içerik oluşturucuları için mükemmel olan bu adım a
 Kolay adım adım eğitimimiz ile Java için Aspose.HTML'i kullanarak HTML belgelerinde dahili CSS'yi uygulamayı öğrenin.
 ### [Sabit iş parçacığı havuzu java – ExecutorService ile Paralel HTML Temizleme](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 ExecutorService kullanarak sabit iş parçacığı havuzu ile HTML belgelerini paralel olarak temizlemeyi öğrenin.
+### [Java ile MHTML'de h1 Metnini Değiştirme – Tam Adım‑Adım Kılavuz](./change-h1-text-in-mhtml-with-java-full-step-by-step-guide/)
+Java kullanarak MHTML dosyalarındaki h1 etiketinin metnini nasıl değiştireceğinizi adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
