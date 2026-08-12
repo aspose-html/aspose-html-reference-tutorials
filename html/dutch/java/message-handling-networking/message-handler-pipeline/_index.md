@@ -1,11 +1,94 @@
 ---
-date: 2026-02-23
-description: Leer hoe je zip‑bestanden naar PDF kunt converteren met Aspose.HTML voor
-  Java. Deze stapsgewijze handleiding laat zien hoe je de netwerkservice configureert,
-  een aangepaste handler toevoegt en de duur van verzoeken logt.
-linktitle: Creating Message Handler Pipelines in Aspose.HTML
+date: 2026-08-12
+description: Leer hoe u PDF kunt genereren vanuit ZIP-archieven met Aspose.HTML for
+  Java, configureer de network service, voeg custom handlers toe en log de request
+  duration.
+keywords:
+- how to generate pdf
+- convert zip to pdf
+- log request duration
+- configure network service
+- render html to pdf
+lastmod: 2026-08-12
+linktitle: Message Handler Pipelines maken in Aspose.HTML
+og_description: Leer hoe u PDF kunt genereren vanuit ZIP-bestanden met Aspose.HTML
+  for Java. Deze gids behandelt network service configuratie, custom handlers en request
+  duration logging.
+og_image_alt: Guide illustrating conversion of ZIP to PDF using Aspose.HTML for Java
+og_title: Hoe PDF genereren vanuit ZIP met Aspose.HTML for Java
+schemas:
+- author: Aspose
+  dateModified: '2026-08-12'
+  description: Learn how to generate PDF from ZIP archives using Aspose.HTML for Java,
+    configure network service, add custom handlers, and log request duration.
+  headline: How to generate PDF from ZIP with Aspose.HTML for Java
+  type: TechArticle
+- description: Learn how to generate PDF from ZIP archives using Aspose.HTML for Java,
+    configure network service, add custom handlers, and log request duration.
+  name: How to generate PDF from ZIP with Aspose.HTML for Java
+  steps:
+  - name: prepare the paths to files
+    text: Set the location of the source ZIP (`documentPath`) and the destination
+      PDF (`savePath`). Use absolute paths for reliability, or relative paths anchored
+      to the project root.
+  - name: create a configuration instance
+    text: The `Configuration` class is the central object that stores all pipeline
+      settings. It allows you to attach custom handlers and modify default behavior
+      before any rendering occurs.
+  - name: initialize the network service
+    text: The `NetworkService` provides low‑level HTTP and file‑system access for
+      Aspose.HTML. By calling `configuration.setNetworkService(networkService)` you
+      inject the service into the pipeline, making its handler collection available.
+  - name: add the ZIP file message handler
+    text: '`ZIPFileSchemaMessageHandler` implements a virtual file system that maps
+      `zip-file://` URIs to entries inside the supplied ZIP archive. This handler
+      tells Aspose.HTML to treat the archive as a source of HTML resources.'
+  - name: insert start request duration logging handler
+    text: '`StartRequestDurationLoggingMessageHandler` records the timestamp when
+      the first request enters the pipeline. Placing it at index 0 ensures the start
+      time is captured before any other processing occurs.'
+  - name: add the stop request duration logging handler
+    text: '`StopRequestDurationLoggingMessageHandler` records the timestamp after
+      the last handler finishes. By adding it after all other handlers you obtain
+      the total elapsed time for the entire conversion.'
+  - name: initialize the HTML document
+    text: '`HTMLDocument` represents the entry HTML file inside the ZIP. The constructor
+      `new HTMLDocument("zip-file:///test.html", configuration)` points the renderer
+      to the virtual file system and automatically applies the configured handlers.'
+  - name: create the PDF device
+    text: '`PdfDevice` is the rendering target that receives layout information from
+      the HTML engine and writes it to a PDF file. The device streams pages directly
+      to `savePath`, avoiding the need for intermediate files.'
+  - name: render the ZIP to PDF
+    text: 'Calling `htmlDocument.renderTo(pdfDevice)` triggers the full pipeline:
+      the ZIP is unpacked, HTML pages are rendered, duration is logged, and the final
+      PDF is written to disk in a single operation.'
+  type: HowTo
+- questions:
+  - answer: Aspose.HTML for Java is a cross‑platform library that lets you create,
+      edit, and convert HTML documents to PDF, images, EPUB, and other formats without
+      needing a browser engine.
+    question: What is Aspose.HTML for Java?
+  - answer: Download the latest JAR files from the [Aspose downloads](https://releases.aspose.com/html/java/)
+      page and add them to your project’s classpath.
+    question: How do I download Aspose.HTML for Java?
+  - answer: Yes, a fully functional 30‑day trial is available. For production use
+      you must acquire a commercial license.
+    question: Can I use Aspose.HTML for free?
+  - answer: Get help from the community and Aspose engineers on the [Aspose Support
+      Forum](https://forum.aspose.com/c/html/29).
+    question: Where can I find support for Aspose.HTML?
+  - answer: Implement the `IMessageHandler` interface, then register it with `handlers.addItem(new
+      MyCustomHandler())` in the pipeline configuration.
+    question: How can I add my own custom handler?
+  type: FAQPage
 second_title: Java HTML Processing with Aspose.HTML
-title: Hoe ZIP naar PDF te converteren met Aspose.HTML voor Java
+tags:
+- convert zip
+- Aspose.HTML
+- Java PDF conversion
+- message handler pipeline
+title: Hoe PDF genereren vanuit ZIP met Aspose.HTML for Java
 url: /nl/java/message-handling-networking/message-handler-pipeline/
 weight: 13
 ---
@@ -14,35 +97,33 @@ weight: 13
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hoe ZIP naar PDF te converteren met Aspose.HTML voor Java
+# Hoe PDF te genereren vanuit ZIP met Aspose.HTML voor Java
 
-## Introductie
-In deze uitgebreide tutorial ontdek je **hoe zip te converteren**-archieven naar PDF-documenten met Aspose.HTML voor Java. We lopen door het bouwen van een message handler‑pipeline, het configureren van de netwerkservice, het toevoegen van een aangepaste handler en het loggen van de verzoekduur — allemaal terwijl de code duidelijk en uitvoerbaar blijft. Of je nu rapportgeneratie automatiseert of een betrouwbare manier nodig hebt om HTML‑inhoud als PDF te verpakken, deze gids heeft alles wat je nodig hebt.
+## Inleiding
+In deze uitgebreide tutorial leer je **hoe PDF te genereren** bestanden vanuit ZIP‑archieven met Aspose.HTML voor Java. We lopen stap voor stap door het bouwen van een message‑handler‑pipeline, het configureren van de netwerksdienst, het toevoegen van een aangepaste ZIP‑handler en het loggen van de request‑duur — allemaal met duidelijke, uitvoerbare code. Of je nu rapportgeneratie wilt automatiseren, webinhoud wilt archiveren, of PDF‑bundels wilt maken vanuit HTML‑pakketten, deze gids geeft je volledige controle over het conversieproces.
 
 ## Snelle antwoorden
-- **Wat doet de pipeline?** Het verwerkt een ZIP‑bestand, extraheert HTML en rendert het naar PDF.  
-- **Welke handler logt de duur?** `StartRequestDurationLoggingMessageHandler` en `StopRequestDurationLoggingMessageHandler`.  
-- **Heb ik een licentie nodig?** Een gratis proefversie werkt voor testen; een commerciële licentie is vereist voor productie.  
-- **Kan ik het uitvoerpad wijzigen?** Ja — wijzig de `savePath`‑variabele in Stap 1.  
-- **Welke Java‑versie is vereist?** JDK 8 of hoger.
+- **Wat doet de pipeline?** Het extraheert HTML uit een ZIP, rendert elke pagina en schrijft het resultaat naar één PDF‑bestand.  
+- **Welke handlers loggen de duur?** `StartRequestDurationLoggingMessageHandler` (start) en `StopRequestDurationLoggingMessageHandler` (eind).  
+- **Heb ik een licentie nodig?** Een gratis proefversie werkt voor evaluatie; een commerciële licentie is vereist voor productiegebruik.  
+- **Kan ik de uitvoerlokatie wijzigen?** Ja — wijzig de `savePath`‑variabele in Stap 1 zodat deze naar een schrijfbare map wijst.  
+- **Welke Java‑versie is vereist?** JDK 8 of hoger; de bibliotheek ondersteunt ook Java 11 en nieuwer.  
 
-## Wat is een Message Handler Pipeline?
-Een message handler‑pipeline is een configureerbare keten van verwerkingscomponenten die netwerkverzoeken van Aspose.HTML onderscheppen. Door aangepaste handlers in te voegen kun je bepalen hoe bronnen worden opgehaald, getransformeerd en gelogd — perfect voor scenario's zoals het converteren van een ZIP‑archief naar PDF.
+## Wat is een message‑handler‑pipeline?
+Een message‑handler‑pipeline is een configureerbare keten van componenten die elk netwerkverzoek van Aspose.HTML onderschept. Het stelt je in staat om aangepaste logica—zoals authenticatie, caching of logging—in te voegen voordat de bibliotheek bronnen ophaalt. Door handlers in een specifieke volgorde te rangschikken, krijg je fijnmazige controle over hoe HTML‑inhoud wordt opgehaald en getransformeerd.
 
 ## Waarom een pipeline gebruiken om ZIP naar PDF te converteren?
-- **Fijne controle** – Voeg handlers toe, herschik ze of verwijder ze om aan je workflow te voldoen.  
-- **Inzichten in prestaties** – Log de verzoekduur om knelpunten te identificeren.  
-- **Uitbreidbaarheid** – Sluit je eigen logica aan (bijv. authenticatie, caching).  
-- **Betrouwbaarheid** – De bibliotheek behandelt randgevallen zoals misvormde HTML automatisch.
+Het gebruik van een pipeline geeft je deterministische prestatiemetingen en uitbreidbaarheid. De ingebouwde logging‑handlers laten je exacte start‑ en eindtijden vastleggen, waardoor knelpunten in de conversie zichtbaar worden. Bovendien kun je handlers verwisselen of herschikken om aangepaste authenticatieschema's te ondersteunen, vaak gebruikte assets te cachen, of het standaard bestandssysteem te vervangen door een virtueel systeem — waardoor de oplossing robuust is voor grootschalige batch‑taken.
 
 ## Vereisten
-- **Java Development Kit (JDK) 8+** – Zorg ervoor dat `java -version` 8 of nieuwer rapporteert.  
-- **Aspose.HTML for Java‑bibliotheek** – Download van de [Aspose downloads](https://releases.aspose.com/html/java/) pagina.  
-- **Een IDE** – IntelliJ IDEA, Eclipse of NetBeans maakt coderen gemakkelijker.  
-- **Basiskennis van Java en HTML** – Handig maar niet verplicht.
+- **Java Development Kit (JDK) 8+** – voer `java -version` uit om te bevestigen dat je minimaal versie 8 hebt.  
+- **Aspose.HTML for Java library** – download de nieuwste build van de [Aspose downloads](https://releases.aspose.com/html/java/) pagina.  
+- **Een IDE** – IntelliJ IDEA, Eclipse of NetBeans worden aanbevolen voor een eenvoudige projectopzet.  
+- **Basiskennis van Java en HTML** – nuttig maar niet verplicht.  
+- Je kunt ook andere Aspose‑producten verkennen [hier](https://releases.aspose.com/).
 
 ## Pakketten importeren
-Om te beginnen importeer je de klassen die we nodig hebben. Deze imports geven ons toegang tot configuratie-, netwerk- en PDF‑renderingsfuncties.
+Importeer de klassen die nodig zijn voor configuratie, netwerken en PDF‑rendering. Deze imports maken de API‑oppervlakte beschikbaar die je gedurende de tutorial zult gebruiken.
 
 ```java
 import com.aspose.html.Configuration;
@@ -54,110 +135,119 @@ import com.aspose.html.services.INetworkService;
 
 ## Stapsgewijze handleiding
 
-### Stap 1: Bereid de paden naar bestanden voor
+### Stap 1: bereid de paden naar bestanden voor
+Stel de locatie van de bron‑ZIP (`documentPath`) en de doel‑PDF (`savePath`) in. Gebruik absolute paden voor betrouwbaarheid, of relatieve paden die zijn verankerd aan de project‑root.
+
 ```java
 // Prepare path to a source zip file
 String documentPath = "input/test.zip";
 // Prepare path for converted file saving
 String savePath = "output/zip-to-pdf-duration.pdf";
 ```
-Stel `documentPath` in op de ZIP die je HTML‑bestanden bevat en `savePath` op de locatie waar je de uiteindelijke PDF wilt opslaan.
 
-### Stap 2: Maak een Configuration‑instantie
+### Stap 2: maak een configuratie‑instantie
+De `Configuration`‑klasse is het centrale object dat alle pipeline‑instellingen opslaat. Het stelt je in staat om aangepaste handlers toe te voegen en het standaardgedrag te wijzigen voordat er gerenderd wordt.
+
 ```java
 // Create an instance of the Configuration class
 Configuration configuration = new Configuration();
 ```
-Het `Configuration`‑object is de basis voor het aanpassen van de verwerkingspipeline.
 
-### Stap 3: Initialiseer de netwerkservice
+### Stap 3: initialiseert de netwerksservice
+De `NetworkService` biedt low‑level HTTP‑ en bestandssysteem‑toegang voor Aspose.HTML. Door `configuration.setNetworkService(networkService)` aan te roepen, injecteer je de service in de pipeline, waardoor de verzameling handlers beschikbaar wordt.
+
 ```java
 INetworkService service = configuration.getService(INetworkService.class);
 MessageHandlerCollection handlers = service.getMessageHandlers();
 ```
-Hier **configureren we de netwerkservice** en verkrijgen we de `MessageHandlerCollection`, die de gereedschapskist is voor het toevoegen van aangepaste handlers.
 
-### Stap 4: Voeg de ZIP‑bestand Message Handler toe
+### Stap 4: voeg de ZIP‑bestand‑message‑handler toe
+`ZIPFileSchemaMessageHandler` implementeert een virtueel bestandssysteem dat `zip-file://`‑URI's koppelt aan items binnen het opgegeven ZIP‑archief. Deze handler vertelt Aspose.HTML om het archief te behandelen als een bron van HTML‑resources.
+
 ```java
 // Custom Schema: ZIP. Add ZipFileSchemaMessageHandler to the end of the pipeline
 handlers.addItem(new ZIPFileSchemaMessageHandler(documentPath));
 ```
-Door **een aangepaste handler toe te voegen** (`ZIPFileSchemaMessageHandler`) vertellen we Aspose.HTML hoe het ZIP‑bestand als een virtueel bestandssysteem moet behandelen.
 
-### Stap 5: Voeg de Start Request Duration Logging Handler toe
+### Stap 5: voeg start‑request‑duration‑logging‑handler toe
+`StartRequestDurationLoggingMessageHandler` registreert de tijdstempel wanneer het eerste verzoek de pipeline binnenkomt. Plaatsing op index 0 zorgt ervoor dat de starttijd wordt vastgelegd vóór enige andere verwerking.
+
 ```java
 // Duration Logging. Add the StartRequestDurationLoggingMessageHandler at the first place in the pipeline
 handlers.insertItem(0, new StartRequestDurationLoggingMessageHandler());
 ```
-Deze handler **logt de verzoekduur** aan het begin van de pipeline, waardoor je een tijdstempel krijgt voor wanneer de verwerking start.
 
-### Stap 6: Voeg de Stop Request Duration Logging Handler toe
+### Stap 6: voeg stop‑request‑duration‑logging‑handler toe
+`StopRequestDurationLoggingMessageHandler` registreert de tijdstempel nadat de laatste handler is voltooid. Door deze toe te voegen na alle andere handlers krijg je de totale verstreken tijd voor de volledige conversie.
+
 ```java
 // Add the StopRequestDurationLoggingMessageHandler to the end of the pipeline
 handlers.addItem(new StopRequestDurationLoggingMessageHandler());
 ```
-Door dit aan het einde te plaatsen kun je de totale tijd vastleggen die nodig is om de ZIP naar PDF te converteren.
 
-### Stap 7: Initialiseer het HTML‑document
+### Stap 7: initialiseert het HTML‑document
+`HTMLDocument` vertegenwoordigt het HTML‑bestand binnen de ZIP. De constructor `new HTMLDocument("zip-file:///test.html", configuration)` wijst de renderer naar het virtuele bestandssysteem en past automatisch de geconfigureerde handlers toe.
+
 ```java
 // Initialize an HTML document with specified configuration
 HTMLDocument document = new HTMLDocument("zip-file:///test.html", configuration);
 ```
-We wijzen de `HTMLDocument` naar het ingang‑HTML‑bestand binnen de ZIP (`zip-file:///test.html`). De eerder gebouwde configuratie wordt automatisch toegepast.
 
-### Stap 8: Maak het PDF‑apparaat
+### Stap 8: maak het PDF‑apparaat
+`PdfDevice` is het renderdoel dat layout‑informatie van de HTML‑engine ontvangt en deze naar een PDF‑bestand schrijft. Het apparaat streamt pagina's direct naar `savePath`, waardoor tussenliggende bestanden overbodig zijn.
+
 ```java
 // Create the PDF Device
 PdfDevice device = new PdfDevice(savePath);
 ```
-Het **PDF‑apparaat** (`PdfDevice`) is wat **PDF maakt van ZIP**‑inhoud. Het ontvangt de gerenderde pagina's en schrijft ze naar `savePath`.
 
-### Stap 9: Render de ZIP naar PDF
+### Stap 9: render de ZIP naar PDF
+Het aanroepen van `htmlDocument.renderTo(pdfDevice)` activeert de volledige pipeline: de ZIP wordt uitgepakt, HTML‑pagina's worden gerenderd, de duur wordt gelogd, en de uiteindelijke PDF wordt in één bewerking naar schijf geschreven.
+
 ```java
 // Render ZIP to PDF
 document.renderTo(device);
 ```
-Het aanroepen van `renderTo` activeert de volledige pipeline: de ZIP wordt uitgepakt, HTML wordt gerenderd, de duur wordt gelogd en de uiteindelijke PDF wordt weggeschreven.
 
 ## Veelvoorkomende problemen en oplossingen
 | Probleem | Oorzaak | Oplossing |
 |----------|---------|-----------|
-| `FileNotFoundException` | Onjuiste `documentPath` of `savePath` | Controleer of de paden absoluut of relatief ten opzichte van de werkmap zijn. |
-| Geen inhoud in PDF | Verkeerde ingang‑HTML‑naam in de `HTMLDocument`‑constructor | Zorg ervoor dat de bestandsnaam exact overeenkomt met het HTML‑bestand binnen de ZIP (`test.html`). |
+| `FileNotFoundException` | Onjuiste `documentPath` of `savePath` | Controleer of beide paden correct zijn en toegankelijk vanuit het draaiende proces. |
+| Geen inhoud in PDF | Verkeerde HTML‑bestandsnaam in `HTMLDocument`‑constructor | Zorg ervoor dat de bestandsnaam exact overeenkomt met het HTML‑bestand binnen de ZIP (bijv. `test.html`). |
 | Duur niet gelogd | Handlers niet in de juiste volgorde ingevoegd | Voeg `StartRequestDurationLoggingMessageHandler` toe op index 0 en `StopRequestDurationLoggingMessageHandler` na alle andere handlers. |
-| Niet‑ondersteunde HTML‑functies | Gebruik van CSS/JS die niet door Aspose.HTML wordt ondersteund | Vereenvoudig de markup of pre‑process HTML vóór het renderen. |
+| Niet‑ondersteunde HTML‑functies | Gebruik van CSS/JS die niet volledig ondersteund wordt door Aspose.HTML | Vereenvoudig de markup of pre‑process het HTML om niet‑ondersteunde scripts en geavanceerde CSS te verwijderen. |
 
 ## Veelgestelde vragen
-
 **Q: Wat is Aspose.HTML voor Java?**  
-A: Aspose.HTML voor Java is een bibliotheek die manipulatie van HTML‑documenten mogelijk maakt en conversie naar formaten zoals PDF, afbeelding en EPUB.
+A: Aspose.HTML voor Java is een cross‑platform bibliotheek die je in staat stelt HTML‑documenten te maken, bewerken en converteren naar PDF, afbeeldingen, EPUB en andere formaten zonder een browser‑engine nodig te hebben.
 
 **Q: Hoe download ik Aspose.HTML voor Java?**  
-A: Je kunt het downloaden van de [Aspose downloads](https://releases.aspose.com/html/java/) pagina.
+A: Download de nieuwste JAR‑bestanden van de [Aspose downloads](https://releases.aspose.com/html/java/) pagina en voeg ze toe aan de classpath van je project.
 
 **Q: Kan ik Aspose.HTML gratis gebruiken?**  
-A: Ja, er is een gratis proefversie beschikbaar. Meld je hiervoor aan [hier](https://releases.aspose.com/).
+A: Ja, er is een volledig functionele 30‑daagse proefversie beschikbaar. Voor productiegebruik moet je een commerciële licentie aanschaffen.
 
-**Q: Waar kan ik ondersteuning voor Aspose.HTML vinden?**  
-A: Bezoek het [Aspose Support Forum](https://forum.aspose.com/c/html/29) voor hulp van de community en Aspose‑engineers.
-
-**Q: Wat zijn message handlers in Aspose.HTML?**  
-A: Message handlers zijn componenten die netwerkverzoeken binnen de pipeline onderscheppen en verwerken — nuttig voor logging, authenticatie of aangepaste content‑ophaling.
+**Q: Waar kan ik ondersteuning vinden voor Aspose.HTML?**  
+A: Krijg hulp van de community en Aspose‑engineers op het [Aspose Support Forum](https://forum.aspose.com/c/html/29).
 
 **Q: Hoe kan ik mijn eigen aangepaste handler toevoegen?**  
-A: Implementeer `IMessageHandler` en voeg deze toe aan de `MessageHandlerCollection` met `handlers.addItem(new MyCustomHandler())`.
-
-**Q: Is het mogelijk om meerdere ZIP‑bestanden in één batch te converteren?**  
-A: Ja — loop over een lijst met ZIP‑paden en hergebruik dezelfde configuratie en pipeline voor elke iteratie.
+A: Implementeer de `IMessageHandler`‑interface en registreer deze vervolgens met `handlers.addItem(new MyCustomHandler())` in de pipeline‑configuratie.
 
 ## Conclusie
-Je weet nu **hoe zip te converteren**‑archieven naar PDF‑bestanden met Aspose.HTML voor Java, compleet met een configureerbare netwerkservice, aangepaste ZIP‑handler en nauwkeurige logging van verzoekduur. Deze pipeline geeft je volledige controle over het conversieproces, waardoor het ideaal is voor geautomatiseerde rapportage, documentarchivering of elke situatie waarin HTML‑content als PDF moet worden verpakt.
+Je weet nu **hoe PDF te genereren** bestanden vanuit ZIP‑archieven met Aspose.HTML voor Java, compleet met een configureerbare netwerksservice, een aangepaste ZIP‑handler en nauwkeurige request‑duration‑logging. Deze pipeline biedt deterministische prestaties, uitbreidbaarheid voor aangepaste authenticatie of caching, en betrouwbare conversie van HTML‑bundels naar één PDF — perfect voor geautomatiseerde rapportage, archivering of batch‑verwerking scenario's.
 
 ---
 
-**Last Updated:** 2026-02-23  
-**Tested With:** Aspose.HTML for Java 24.11  
-**Author:** Aspose  
+**Laatst bijgewerkt:** 2026-08-12  
+**Getest met:** Aspose.HTML for Java 24.11  
+**Auteur:** Aspose
+
+## Gerelateerde tutorials
+
+- [Genereer versleutelde PDF met PdfDevice in .NET met Aspose.HTML](/html/net/advanced-features/generate-encrypted-pdf-by-pdfdevice/)
+- [Converteer HTML naar PDF in .NET met Aspose.HTML](/html/net/html-extensions-and-conversions/convert-html-to-pdf/)
+- [Converteer SVG naar PDF in .NET met Aspose.HTML](/html/net/canvas-and-image-manipulation/convert-svg-to-pdf/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
