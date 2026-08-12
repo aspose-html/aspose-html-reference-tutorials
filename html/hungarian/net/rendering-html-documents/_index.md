@@ -34,7 +34,7 @@ Az Aspose.HTML for .NET kiemelkedik a legjobb választás a HTML-megjelenítésh
 
 - Rendszeres frissítések: Az Aspose elkötelezett termékei fejlesztése mellett, így rendszeres frissítésekre és hibajavításokra számíthat.
 
-Tehát akár tapasztalt fejlesztő, akár csak most kezdi a HTML-megjelenítés felé vezető utat, az Aspose.HTML for .NET rendelkezik a sikerhez szükséges erőforrásokkal és eszközökkel.
+Tehát akár tapasztalt fejlesztő, akár csak most kezdi a HTML-megjelenítést felé vezető utat, az Aspose.HTML for .NET rendelkezik a sikerhez szükséges erőforrásokkal és eszközökkel.
 
 ## A HTML-dokumentumok renderelése oktatóanyagok listájának felfedezése
 
@@ -60,6 +60,8 @@ Tanulja meg, hogyan renderelhet HTML-t PNG formátumba az Aspose segítségével
 Ismerje meg, hogyan konvertálhatja a HTML-t PNG-be az Aspose segítségével .NET környezetben, lépésről lépésre.
 ### [PNG létrehozása HTML-ből – Teljes C# renderelési útmutató](./create-png-from-html-full-c-rendering-guide/)
 Tanulja meg, hogyan hozhat létre PNG képeket HTML-ből C#-ban az Aspose.HTML segítségével.
+### [HTML renderelése PNG-be és mentése ZIP-be C#-al – Teljes útmutató](./render-html-to-png-and-save-to-zip-with-c-complete-guide/)
+Tanulja meg, hogyan renderelhet HTML-t PNG-be, majd ZIP-fájlba mentheti C#-ban az Aspose.HTML segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
