@@ -50,6 +50,8 @@ Naučte se vytvářet prázdné HTML dokumenty v Javě pomocí Aspose.HTML s na�
 Odemkněte sílu manipulace s HTML pomocí Aspose.HTML pro Java. Naučte se načítat dokumenty HTML ze souborů pomocí výukových programů krok za krokem.
 ### [Pokročilé načítání souborů pro HTML dokumenty v Aspose.HTML pro Java](./advanced-file-loading-html-documents/)
 V tomto podrobném průvodci se dozvíte, jak načítat, manipulovat a ukládat dokumenty HTML pomocí Aspose.HTML for Java. Odemkněte pokročilé zpracování HTML ve svých projektech Java.
+### [Převod HTML šablony – krok‑za‑krokem průvodce pro vývojáře Java](./convert-html-template-step-by-step-guide-for-java-developers/)
+Naučte se převádět HTML šablony v Javě pomocí Aspose.HTML pomocí podrobného průvodce krok za krokem.
 ### [Načtěte HTML dokumenty ze Stream pomocí Aspose.HTML pro Java](./load-html-documents-from-stream/)
 Naučte se načítat HTML dokumenty ze streamů pomocí Aspose.HTML for Java. Tato příručka poskytuje podrobný návod pro bezproblémovou manipulaci s HTML.
 ### [Vytvořte HTML dokumenty z String v Aspose.HTML pro Java](./create-html-documents-from-string/)
@@ -66,6 +68,7 @@ Naučte se, jak vytvořit sandboxové prostředí pro bezpečnou manipulaci s HT
 Naučte se vytvářet a spravovat dokumenty SVG pomocí Aspose.HTML pro Javu! Tento komplexní průvodce pokrývá vše od základní tvorby až po pokročilou manipulaci.
 ### [Jak dotazovat HTML v Javě – Kompletní tutoriál](./how-to-query-html-in-java-complete-tutorial/)
 Kompletní průvodce, jak v Javě dotazovat a získávat data z HTML pomocí Aspose.HTML, včetně příkladů a tipů.
+### [Tutoriál vazby dat tabulky HTML – vytvoření dynamické HTML tabulky](./html-table-data-binding-tutorial-create-a-dynamic-html-table/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -66,6 +66,10 @@ Java용 Aspose.HTML을 사용하여 HTML을 효율적으로 쿼리하는 방법�
 Java용 Aspose.HTML을 사용하여 SVG 문서를 만들고 관리하는 방법을 알아보세요! 이 포괄적인 가이드는 기본 생성부터 고급 조작까지 모든 것을 다룹니다.
 ### [Java용 Aspose.HTML에서 HTML 샌드박스 만들기 – 단계별 가이드](./create-sandbox-for-html-in-java-step-by-step-guide/)
 Aspose.HTML for Java를 사용하여 안전한 HTML 샌드박스를 설정하고 테스트하는 방법을 단계별로 안내합니다.
+### [HTML 테이블 데이터 바인딩 튜토리얼 – 동적 HTML 테이블 만들기](./html-table-data-binding-tutorial-create-a-dynamic-html-table/)
+### [HTML 템플릿 변환 – Java 개발자를 위한 단계별 가이드](./convert-html-template-step-by-step-guide-for-java-developers/)
+Java 개발자를 위한 HTML 템플릿 변환 방법을 단계별로 안내합니다.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

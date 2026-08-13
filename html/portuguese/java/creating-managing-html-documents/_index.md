@@ -60,12 +60,16 @@ Descubra como carregar facilmente documentos HTML de uma URL em Java com Aspose.
 Aprenda a consultar e extrair dados de documentos HTML em Java usando Aspose.HTML com este tutorial passo a passo.
 ### [Gerar novos documentos HTML usando Aspose.HTML para Java](./generate-new-html-documents/)
 Aprenda como criar novos documentos HTML usando Aspose.HTML para Java com este guia passo a passo fácil. Comece a gerar conteúdo HTML dinâmico.
+### [Converter modelo HTML – guia passo a passo para desenvolvedores Java](./convert-html-template-step-by-step-guide-for-java-developers/)
+Aprenda a converter templates HTML em documentos usando Aspose.HTML para Java com este tutorial detalhado passo a passo.
 ### [Manipular eventos de carregamento de documentos em Aspose.HTML para Java](./handle-document-load-events/)
 Aprenda a manipular eventos de carregamento de documentos no Aspose.HTML para Java com este guia passo a passo. Aprimore seus aplicativos da web.
 ### [Crie e gerencie documentos SVG em Aspose.HTML para Java](./create-manage-svg-documents/)
 Aprenda a criar e gerenciar documentos SVG usando Aspose.HTML para Java! Este guia abrangente cobre tudo, desde a criação básica até a manipulação avançada.
 ### [Criar sandbox para HTML em Java – Guia passo a passo](./create-sandbox-for-html-in-java-step-by-step-guide/)
 Aprenda a criar um sandbox para HTML em Java usando Aspose.HTML com este guia passo a passo.
+### [Vinculação de dados em tabela HTML – criar uma tabela HTML dinâmica](./html-table-data-binding-tutorial-create-a-dynamic-html-table/)
+Aprenda a vincular dados a tabelas HTML e criar tabelas dinâmicas em Java usando Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
