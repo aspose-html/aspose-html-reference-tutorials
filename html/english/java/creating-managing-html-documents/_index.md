@@ -54,6 +54,8 @@ Learn how to load, manipulate, and save HTML documents using Aspose.HTML for Jav
 Learn how to load HTML documents from streams using Aspose.HTML for Java. This guide provides a step-by-step tutorial for seamless HTML manipulation.
 ### [Create HTML Documents from String in Aspose.HTML for Java](./create-html-documents-from-string/)
 Learn how to create HTML documents from strings in Aspose.HTML for Java with this step-by-step guide.
+### [HTML Table Data Binding Tutorial – Create a Dynamic HTML Table](./html-table-data-binding-tutorial-create-a-dynamic-html-table/)
+Learn how to bind data to HTML tables dynamically in Java with Aspose.HTML, enabling interactive table generation.
 ### [How to Query HTML in Java – Complete Tutorial](./how-to-query-html-in-java-complete-tutorial/)
 Learn how to query HTML in Java using Aspose.HTML with this comprehensive step-by-step guide.
 ### [Create sandbox for HTML in Java – Step‑by‑Step Guide](./create-sandbox-for-html-in-java-step-by-step-guide/)
@@ -66,6 +68,9 @@ Learn how to create new HTML documents using Aspose.HTML for Java with this easy
 Learn to handle document load events in Aspose.HTML for Java with this step-by-step guide. Enhance your web applications.
 ### [Create and Manage SVG Documents in Aspose.HTML for Java](./create-manage-svg-documents/)
 Learn to create and manage SVG documents using Aspose.HTML for Java! This comprehensive guide covers everything from basic creation to advanced manipulation.
+### [Convert html template – step‑by‑step guide for Java developers](./convert-html-template-step-by-step-guide-for-java-developers/)
+Convert an HTML template into a dynamic document using Aspose.HTML for Java. Follow this concise step‑by‑step guide.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

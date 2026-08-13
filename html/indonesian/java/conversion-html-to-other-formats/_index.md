@@ -90,6 +90,9 @@ Pelajari cara mengonversi HTML ke PDF di Java menggunakan Aspose.HTML. Buat PDF 
 ### [Mengonversi HTML ke PDF di Java – Panduan Langkah‑demi‑Langkah dengan Pengaturan Ukuran Halaman](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Panduan lengkap mengonversi HTML ke PDF di Java dengan pengaturan ukuran halaman yang dapat disesuaikan.
 
+### [Mengonversi Template HTML dengan Aspose – Panduan Langkah‑demi‑Langkah](./convert-html-template-with-aspose-step-by-step-guide/)
+Panduan langkah‑demi‑langkah mengonversi template HTML menjadi PDF menggunakan Aspose.HTML di Java.
+
 ### [Mengonversi HTML ke MHTML](./convert-html-to-mhtml/)
 Konversi HTML ke MHTML dengan mudah menggunakan Aspose.HTML untuk Java. Ikuti panduan langkah‑demi‑langkah kami untuk konversi HTML‑ke‑MHTML yang efisien.
 

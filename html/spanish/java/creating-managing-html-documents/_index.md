@@ -56,6 +56,10 @@ Aprenda a cargar, manipular y guardar documentos HTML con Aspose.HTML para Java 
 Aprenda a cargar documentos HTML desde secuencias de comandos con Aspose.HTML para Java. Esta guía ofrece un tutorial paso a paso para manipular HTML sin problemas.
 ### [Crear documentos HTML a partir de cadenas en Aspose.HTML para Java](./create-html-documents-from-string/)
 Aprenda a crear documentos HTML a partir de cadenas en Aspose.HTML para Java con esta guía paso a paso.
+### [Convertir plantilla HTML – guía paso a paso para desarrolladores Java](./convert-html-template-step-by-step-guide-for-java-developers/)
+Aprenda a convertir plantillas HTML en Java paso a paso con Aspose.HTML, facilitando la personalización y generación dinámica de contenido.
+### [Tutorial de enlace de datos de tabla HTML – crear una tabla HTML dinámica](./html-table-data-binding-tutorial-create-a-dynamic-html-table/)
+Aprenda a enlazar datos a una tabla HTML y crear tablas dinámicas en Java con Aspose.HTML.
 ### [Cargar documentos HTML desde una URL en Aspose.HTML para Java](./load-html-documents-from-url/)
 Descubra cómo cargar fácilmente documentos HTML desde una URL en Java con Aspose.HTML. Incluye tutorial paso a paso.
 ### [Cómo consultar HTML en Java – Tutorial completo](./how-to-query-html-in-java-complete-tutorial/)

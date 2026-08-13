@@ -65,6 +65,9 @@ Aspose.HTML for Java 为开发人员提供了功能强大的工具包，旨在�
 ### [在 Java 中查询 HTML – 完整教程](./how-to-query-html-in-java-complete-tutorial/)
 本完整教程详细讲解如何使用 Aspose.HTML for Java 查询 HTML 内容，包括选择器、XPath 和 CSS 查询等实用技巧。
 ### [在 Aspose.HTML for Java 中创建 HTML 沙盒 – 步骤指南](./create-sandbox-for-html-in-java-step-by-step-guide/)
+### [HTML 表格数据绑定教程 – 创建动态 HTML 表格](./html-table-data-binding-tutorial-create-a-dynamic-html-table/)
+学习如何使用 Aspose.HTML for Java 将数据绑定到 HTML 表格并实现动态更新。
+### [在 Aspose.HTML for Java 中转换 HTML 模板 – Java 开发者分步指南](./convert-html-template-step-by-step-guide-for-java-developers/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

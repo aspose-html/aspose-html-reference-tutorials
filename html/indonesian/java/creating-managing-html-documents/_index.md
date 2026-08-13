@@ -66,6 +66,11 @@ Pelajari cara membuat dan mengelola dokumen SVG menggunakan Aspose.HTML untuk Ja
 Pelajari cara membuat sandbox HTML di Java dengan panduan langkah demi langkah untuk pengujian dan pengembangan yang aman.
 ### [Cara Menanyakan HTML di Java – Tutorial Lengkap](./how-to-query-html-in-java-complete-tutorial/)
 
+### [Tutorial Pengikatan Data Tabel HTML – Buat Tabel HTML Dinamis di Aspose.HTML untuk Java](./html-table-data-binding-tutorial-create-a-dynamic-html-table/)
+Pelajari cara mengikat data ke tabel HTML dan membuat tabel dinamis menggunakan Aspose.HTML untuk Java dalam panduan langkah demi langkah.
+
+### [Mengonversi templat HTML – panduan langkah‑per‑langkah untuk pengembang Java](./convert-html-template-step-by-step-guide-for-java-developers/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

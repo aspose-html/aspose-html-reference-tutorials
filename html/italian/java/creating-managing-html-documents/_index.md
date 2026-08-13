@@ -66,6 +66,10 @@ Impara a gestire gli eventi di caricamento dei documenti in Aspose.HTML per Java
 Impara a creare e gestire documenti SVG usando Aspose.HTML per Java! Questa guida completa copre tutto, dalla creazione di base alla manipolazione avanzata.
 ### [Come interrogare HTML in Java – Tutorial completo](./how-to-query-html-in-java-complete-tutorial/)
 Impara a eseguire query su documenti HTML in Java usando Aspose.HTML con questa guida passo‑passo completa.
+### [Tutorial di binding dei dati di una tabella HTML – crea una tabella HTML dinamica](./html-table-data-binding-tutorial-create-a-dynamic-html-table/)
+Impara a collegare dati a una tabella HTML e generare tabelle dinamiche in Java con Aspose.HTML.
+### [Converti modello HTML – guida passo‑a‑passo per sviluppatori Java](./convert-html-template-step-by-step-guide-for-java-developers/)
+Impara a convertire template HTML in Java con Aspose.HTML, seguendo una guida dettagliata passo‑a‑passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

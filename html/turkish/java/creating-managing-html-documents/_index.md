@@ -66,6 +66,10 @@ Java için Aspose.HTML kullanarak SVG belgeleri oluşturmayı ve yönetmeyi öğ
 Java için Aspose.HTML kullanarak HTML sandbox oluşturmayı adım adım öğrenin.
 ### [Java için Aspose.HTML'de HTML Sorgulama – Tam Kılavuz](./how-to-query-html-in-java-complete-tutorial/)
 Java için Aspose.HTML kullanarak HTML içeriğini nasıl sorgulayacağınızı adım adım öğrenin.
+### [Java için Aspose.HTML'de HTML tablo veri bağlama öğreticisi – dinamik bir HTML tablo oluşturma](./html-table-data-binding-tutorial-create-a-dynamic-html-table/)
+Java için Aspose.HTML kullanarak dinamik bir HTML tablo oluşturmayı ve veri bağlamayı adım adım öğrenin.
+### [HTML şablonunu dönüştür – Java geliştiricileri için adım adım kılavuz](./convert-html-template-step-by-step-guide-for-java-developers/)
+Java için Aspose.HTML kullanarak HTML şablonlarını nasıl dönüştüreceğinizi adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

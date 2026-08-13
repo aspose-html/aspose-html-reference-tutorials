@@ -66,6 +66,10 @@ Naucz się tworzyć i zarządzać dokumentami SVG za pomocą Aspose.HTML dla Jav
 Dowiedz się, jak skonfigurować bezpieczną piaskownicę HTML w Javie, aby testować i uruchamiać kod w izolowanym środowisku.
 ### [Jak zapytać HTML w Javie – Kompletny samouczek](./how-to-query-html-in-java-complete-tutorial/)
 Dowiedz się, jak efektywnie zapytać i przetwarzać dokumenty HTML w Javie przy użyciu Aspose.HTML.
+### [Samouczek wiązania danych tabeli HTML – tworzenie dynamicznej tabeli HTML](./html-table-data-binding-tutorial-create-a-dynamic-html-table/)
+Dowiedz się, jak powiązać dane z tabelą HTML i dynamicznie generować jej zawartość w Javie przy użyciu Aspose.HTML.
+### [Konwertuj szablon HTML – przewodnik krok po kroku dla programistów Java](./convert-html-template-step-by-step-guide-for-java-developers/)
+Dowiedz się, jak konwertować szablony HTML w Javie przy użyciu Aspose.HTML, krok po kroku, z praktycznymi przykładami.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

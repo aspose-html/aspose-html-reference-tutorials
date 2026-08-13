@@ -65,6 +65,9 @@ Aspose.HTML для Java предлагает мощный набор инстр�
 ### [Создание песочницы для HTML в Aspose.HTML для Java – пошаговое руководство](./create-sandbox-for-html-in-java-step-by-step-guide/)
 ### [Как выполнять запросы к HTML в Java – полное руководство](./how-to-query-html-in-java-complete-tutorial/)
 Узнайте, как выполнять запросы к HTML в Java с помощью Aspose.HTML, полное пошаговое руководство.
+### [Учебник по привязке данных таблицы HTML – создание динамической HTML‑таблицы](./html-table-data-binding-tutorial-create-a-dynamic-html-table/)
+Узнайте, как привязывать данные к HTML‑таблице и создавать динамические таблицы в Java с помощью Aspose.HTML.
+### [Конвертировать HTML‑шаблон — пошаговое руководство для разработчиков Java](./convert-html-template-step-by-step-guide-for-java-developers/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

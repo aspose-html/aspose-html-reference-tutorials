@@ -27,7 +27,7 @@ HTML ドキュメントを非同期的に作成するのは複雑に聞こえる
 
 ## ファイルとストリームから HTML を読み込む
 
-ドキュメント作成のコツをつかんだら、ファイルやストリームから HTML ドキュメントを読み込む方法を学習して、スキルを向上しましょう。これらのチュートリアルでは、さまざまなソースから HTML コンテンツを取得するための知識を身に付けることができ、プロジェクトの柔軟性が向上します。ローカル ファイルやストリーミング データのどちらを扱う場合でも、Aspose.HTML for Java が役立ちます。[続きを読む](./load-html-documents-from-file/) [続きを読む](./load-html-documents-from-stream/)
+ドキュメント作成のコツをつかんだら、ファイルやストリームから HTML ドキュメントを読み込む方法を学習して、スキルを向上させましょう。これらのチュートリアルでは、さまざまなソースから HTML コンテンツを取得するための知識を身に付けることができ、プロジェクトの柔軟性が向上します。ローカル ファイルやストリーミング データのどちらを扱う場合でも、Aspose.HTML for Java が役立ちます。[続きを読む](./load-html-documents-from-file/) [続きを読む](./load-html-documents-from-stream/)
 
 ## 文字列と URL から HTML ドキュメントを作成する
 
@@ -48,7 +48,7 @@ Aspose.HTML for Java を使用して、非同期で HTML ドキュメントを�
 あらゆるレベルの開発者に最適な、詳細なステップバイステップのチュートリアルで、Aspose.HTML を使用して Java で空の HTML ドキュメントを作成する方法を学びます。
 ### [Aspose.HTML for Java でファイルから HTML ドキュメントを読み込む](./load-html-documents-from-file/)
 Aspose.HTML for Java で HTML 操作のパワーを解き放ちます。ステップバイステップのチュートリアルで、ファイルから HTML ドキュメントを読み込む方法を学習します。
-### [Aspose.HTML for Java での HTML ドキュメントの高度なファイル読み込み](./advanced-file-loading-html-documents/)
+### [Aspose.HTML for Java の HTML ドキュメントの高度なファイル読み込み](./advanced-file-loading-html-documents/)
 このステップバイステップ ガイドでは、Aspose.HTML for Java を使用して HTML ドキュメントを読み込み、操作し、保存する方法を学習します。Java プロジェクトで高度な HTML 処理を活用できます。
 ### [Aspose.HTML for Java を使用してストリームから HTML ドキュメントを読み込む](./load-html-documents-from-stream/)
 Aspose.HTML for Java を使用してストリームから HTML ドキュメントを読み込む方法を学習します。このガイドでは、シームレスな HTML 操作の手順を説明したチュートリアルを提供します。
@@ -62,10 +62,14 @@ Aspose.HTML を使用して、Java で URL から HTML ドキュメントを簡�
 このステップバイステップ ガイドで、Aspose.HTML for Java でドキュメント読み込みイベントを処理する方法を学習します。Web アプリケーションを強化します。
 ### [Aspose.HTML for Java で SVG ドキュメントを作成および管理する](./create-manage-svg-documents/)
 Aspose.HTML for Java を使用して SVG ドキュメントを作成および管理する方法を学びます。この包括的なガイドでは、基本的な作成から高度な操作まですべてをカバーしています。
+### [HTML テンプレートの変換 – Java 開発者向けステップバイステップ ガイド](./convert-html-template-step-by-step-guide-for-java-developers/)
+HTML テンプレートを変換し、Java アプリケーションで再利用する方法を段階的に解説します。
 ### [Java で HTML のサンドボックスを作成する – ステップバイステップ ガイド](./create-sandbox-for-html-in-java-step-by-step-guide/)
 Java アプリで HTML のサンドボックス環境を構築し、安全にテストする方法をステップバイステップで学びます。
 ### [Java で HTML をクエリする方法 – 完全チュートリアル](./how-to-query-html-in-java-complete-tutorial/)
 Java で HTML を検索・抽出する方法をステップバイステップで解説します。XPath や CSS セレクタの活用例を含む完全ガイドです。
+### [HTML テーブル データ バインディング チュートリアル – 動的 HTML テーブルの作成](./html-table-data-binding-tutorial-create-a-dynamic-html-table/)
+HTML テーブルにデータをバインドし、動的に生成・更新する方法をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
