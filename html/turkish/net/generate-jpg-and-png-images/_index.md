@@ -45,6 +45,8 @@ HTML belgelerini düzenlemek, HTML'yi resimlere dönüştürmek ve daha fazlası
 DOCX belgelerini PNG veya JPG formatına dönüştürürken antialiasing'i etkinleştirerek daha net ve pürüzsüz görüntüler elde edin.
 ### [docx'i png'ye dönüştür – zip arşivi oluşturma C# eğitimi](./convert-docx-to-png-create-zip-archive-c-tutorial/)
 C# kullanarak docx dosyalarını png formatına dönüştürüp, sonuçları zip arşivi içinde paketlemeyi öğrenin.
+### [C# ile Aspose.HTML kullanarak HTML'den PNG Oluşturun](./create-png-from-html-in-c-using-aspose-html/)
+C# ve Aspose.HTML ile HTML içeriğinden PNG resim oluşturmayı adım adım öğrenin.
 
 ## Çözüm
 
