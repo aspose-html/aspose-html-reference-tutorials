@@ -137,6 +137,9 @@ Aprenda a ajustar o tamanho de página XPS com Aspose.HTML for Java. Controle fa
 ### [Como Executar JavaScript em Java – Guia Completo](./how-to-run-javascript-in-java-complete-guide/)
 Aprenda a executar código JavaScript dentro de aplicações Java usando Aspose.HTML for Java.
 
+### [Definir proporção de pixels do dispositivo em Java – Tutorial de Sandbox Móvel](./set-device-pixel-ratio-in-java-mobile-sandbox-tutorial/)
+Aprenda a definir a proporção de pixels do dispositivo em Java usando o Sandbox Móvel do Aspose.HTML.
+
 ---
 
 **Última atualização:** 2025-11-29  

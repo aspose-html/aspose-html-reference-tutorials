@@ -64,8 +64,13 @@ Discover how to easily load HTML documents from a URL in Java with Aspose.HTML. 
 Learn how to create new HTML documents using Aspose.HTML for Java with this easy step-by-step guide. Start generating dynamic HTML content.
 ### [Handle Document Load Events in Aspose.HTML for Java](./handle-document-load-events/)
 Learn to handle document load events in Aspose.HTML for Java with this step-by-step guide. Enhance your web applications.
+### [execute async javascript in Java – Complete Step‑by‑Step Guide](./execute-async-javascript-in-java-complete-step-by-step-guide/)
+Learn how to execute asynchronous JavaScript in Java using Aspose.HTML with this complete step-by-step guide.
 ### [Create and Manage SVG Documents in Aspose.HTML for Java](./create-manage-svg-documents/)
 Learn to create and manage SVG documents using Aspose.HTML for Java! This comprehensive guide covers everything from basic creation to advanced manipulation.
+### [How to Parse HTML Java – Load, Query & Count Elements](./how-to-parse-html-java-load-query-count-elements/)
+Learn to load HTML, query elements, and count them using Aspose.HTML for Java in this comprehensive step-by-step guide.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

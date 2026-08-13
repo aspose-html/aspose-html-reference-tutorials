@@ -44,6 +44,8 @@ Představte si, že potřebujete generovat obsah HTML za chodu na základě vstu
 ## Vytváření a správa HTML dokumentů v Aspose.HTML pro Java tutoriály
 ### [Vytvářejte dokumenty HTML asynchronně v Aspose.HTML pro Java](./create-html-documents-async/)
 Hlavní vytváření HTML dokumentů asynchronně s Aspose.HTML pro Java. Součástí je podrobný průvodce, tipy a často kladené otázky pro rychlé učení.
+### [Spusťte asynchronní JavaScript v Javě – Kompletní průvodce krok za krokem](./execute-async-javascript-in-java-complete-step-by-step-guide/)
+Kompletní návod, jak spouštět asynchronní JavaScript v Javě pomocí Aspose.HTML, včetně praktických příkladů a tipů.
 ### [Vytvořte prázdné HTML dokumenty v Aspose.HTML pro Java](./create-empty-html-documents/)
 Naučte se vytvářet prázdné HTML dokumenty v Javě pomocí Aspose.HTML s naším podrobným návodem krok za krokem, který je ideální pro vývojáře na všech úrovních.
 ### [Načtěte HTML dokumenty ze souboru v Aspose.HTML pro Java](./load-html-documents-from-file/)
@@ -66,6 +68,8 @@ Naučte se, jak vytvořit sandboxové prostředí pro bezpečnou manipulaci s HT
 Naučte se vytvářet a spravovat dokumenty SVG pomocí Aspose.HTML pro Javu! Tento komplexní průvodce pokrývá vše od základní tvorby až po pokročilou manipulaci.
 ### [Jak dotazovat HTML v Javě – Kompletní tutoriál](./how-to-query-html-in-java-complete-tutorial/)
 Kompletní průvodce, jak v Javě dotazovat a získávat data z HTML pomocí Aspose.HTML, včetně příkladů a tipů.
+### [Jak parsovat HTML v Javě – načíst, dotazovat a počítat prvky](./how-to-parse-html-java-load-query-count-elements/)
+Naučte se načíst HTML, dotazovat jej a počítat elementy v Javě pomocí Aspose.HTML v tomto podrobném průvodci.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

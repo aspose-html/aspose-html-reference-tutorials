@@ -84,12 +84,18 @@ Em conclusão, dominar **html to pdf java** e o conjunto mais amplo de conversõ
 ## Conversão - Tutoriais de HTML para Outros Formatos
 ### [Convertendo HTML para PDF](./convert-html-to-pdf/)
 Aprenda como converter HTML para PDF em Java usando Aspose.HTML. Crie PDFs de alta qualidade a partir do seu conteúdo HTML sem esforço.
+### [Criar PDF a partir de HTML em Java – Guia Completo Passo a Passo](./create-pdf-from-html-in-java-complete-step-by-step-guide/)
+Aprenda a gerar PDFs a partir de HTML em Java com um guia detalhado, cobrindo configuração, opções de layout e melhores práticas.
 ### [Converter HTML para PDF em Java – Guia passo a passo com configurações de tamanho de página](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Aprenda a converter HTML para PDF em Java, definindo tamanhos de página personalizados passo a passo.
+### [Definir Tamanho da Página PDF com Aspose HTML – Guia Completo Java](./set-pdf-page-size-with-aspose-html-full-java-guide/)
+Aprenda a configurar o tamanho da página PDF ao converter HTML usando Aspose.HTML for Java, com opções avançadas de layout.
 ### [Convertendo HTML para MHTML](./convert-html-to-mhtml/)
 Converta HTML para MHTML facilmente usando Aspose.HTML for Java. Siga nosso guia passo a passo para uma conversão eficiente de HTML‑para‑MHTML.
 ### [Convertendo HTML para XPS](./convert-html-to-xps/)
 Aprenda como converter HTML para XPS usando Aspose.HTML for Java. Crie documentos multiplataforma com facilidade.
+### [Como Definir Offset ao Converter HTML para Markdown em Java](./how-to-set-offset-when-converting-html-to-markdown-in-java/)
+Aprenda a ajustar o offset ao converter HTML para Markdown usando Aspose.HTML for Java, garantindo formatação correta.
 ### [Convertendo Markdown para HTML](./convert-markdown-to-html/)
 Converta Markdown para HTML em Java de forma fluida com Aspose.HTML for Java. Siga nosso guia passo a passo para simplificar suas necessidades de conversão de documentos.
 ### [Convertendo SVG para Imagem](./convert-svg-to-image/)

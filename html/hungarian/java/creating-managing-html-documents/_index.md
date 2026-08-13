@@ -44,6 +44,8 @@ Ha új HTML-dokumentumokról van szó, az Aspose.HTML for Java robusztus megold�
 ## HTML-dokumentumok létrehozása és kezelése az Aspose.HTML for Java oktatóanyagban
 ### [Hozzon létre HTML-dokumentumokat aszinkron módon az Aspose.HTML for Java-ban](./create-html-documents-async/)
 Elsz... (description)
+### [Aszinkron JavaScript végrehajtása Java-ban – Teljes lépésről‑lépésre útmutató](./execute-async-javascript-in-java-complete-step-by-step-guide/)
+Ismerje meg, hogyan hajthat végre aszinkron JavaScript kódot Java alkalmazásban az Aspose.HTML segítségével, részletes útmutatóval.
 ### [Hozzon létre üres HTML-dokumentumokat az Aspose.HTML for Java-ban](./create-empty-html-documents/)
 Tanulja meg, hogyan hozhat létre üres HTML-dokumentumokat Java nyelven az Aspose.HTML használatával a részletes, lépésről lépésre bemutatott oktatóanyagunkkal, amely minden szintű fejlesztő számára tökéletes.
 ### [Töltsön be HTML dokumentumokat az Aspose.HTML for Java fájlból](./load-html-documents-from-file/)
@@ -58,6 +60,8 @@ Ebből a lépésről lépésre szóló útmutatóból megtudhatja, hogyan hozhat
 Fedezze fel, hogyan tölthet be egyszerűen HTML dokumentumokat egy URL-ről Java nyelven az Aspose.HTML segítségével. Lépésről lépésre bemutató oktatóanyag.
 ### [HTML lekérdezése Java-ban – Teljes útmutató](./how-to-query-html-in-java-complete-tutorial/)
 Ismerje meg, hogyan kérdezhet le HTML-t Java használatával, lépésről lépésre útmutató a hatékony adatkinyeréshez.
+### [HTML elem betöltése, lekérdezése és számlálása Java-ban](./how-to-parse-html-java-load-query-count-elements/)
+Ismerje meg, hogyan tölthet be, kérdezhet le és számolhat meg HTML elemeket Java nyelven az Aspose.HTML segítségével.
 ### [Új HTML-dokumentumok létrehozása az Aspose.HTML for Java használatával](./generate-new-html-documents/)
 Ebből az egyszerű, lépésenkénti útmutatóból megtudhatja, hogyan hozhat létre új HTML-dokumentumokat az Aspose.HTML for Java használatával. Kezdje el a dinamikus HTML-tartalom generálását.
 ### [Kezelje a dokumentumbetöltési eseményeket az Aspose.HTML for Java-ban](./handle-document-load-events/)

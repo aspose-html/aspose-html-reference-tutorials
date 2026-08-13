@@ -76,7 +76,7 @@ Oavsett om du bygger spel, instrumentpanel eller datavisualiseringar är HTML5 C
 
 Att fylla i repetitiva webbformulär kan vara tråkigt. Aspose.HTML tillhandahåller ett `Form`‑API som låter dig programatiskt sätta inmatningsvärden, välja alternativ och skicka formuläret—allt från Java. Denna automatisering är särskilt användbar för massinmatning av data eller testning.
 
-*Endast förklaring – kod oförändrad.*
+*Endals förklaring – kod oförändrad.*
 
 ## Justering av PDF‑ och XPS‑sidstorlekar
 
@@ -127,7 +127,9 @@ Lär dig hur du justerar PDF‑sidstorlek med Aspose.HTML för Java. Skapa högk
 ### [Justera XPS‑sidstorlek med Aspose.HTML för Java](./adjust-xps-page-size/)
 Lär dig hur du justerar XPS‑sidstorlek med Aspose.HTML för Java. Kontrollera utmatningsdimensionerna för dina XPS‑dokument enkelt.
 ### [Hur man kör JavaScript i Java – Komplett guide](./how-to-run-javascript-in-java-complete-guide/)
-Lär dig hur du exekverar JavaScript-kod i Java-applikationer med Aspose.HTML, inklusive konfiguration och exempel.
+Lär dig hur du exekverar JavaScript‑kod i Java‑applikationer med Aspose.HTML, inklusive konfiguration och exempel.
+### [Ställ in enhetens pixelratio i Java – Mobil Sandbox‑handledning](./set-device-pixel-ratio-in-java-mobile-sandbox-tutorial/)
+Lär dig hur du ställer in enhetens pixelratio i Java‑sandboxen för mobila enheter med Aspose.HTML.
 
 ---
 

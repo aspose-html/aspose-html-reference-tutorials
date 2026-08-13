@@ -127,6 +127,9 @@ Pelajari cara menyesuaikan ukuran halaman XPS dengan Aspose.HTML untuk Java. Kon
 ### [Cara Menjalankan JavaScript di Java – Panduan Lengkap](./how-to-run-javascript-in-java-complete-guide/)
 Pelajari cara menjalankan kode JavaScript dalam aplikasi Java dengan Aspose.HTML untuk Java secara lengkap.
 
+### [Atur Rasio Piksel Perangkat di Java – Tutorial Sandbox Seluler](./set-device-pixel-ratio-in-java-mobile-sandbox-tutorial/)
+Pelajari cara mengatur rasio piksel perangkat dalam lingkungan sandbox seluler menggunakan Aspose.HTML untuk Java.
+
 ---
 
 **Terakhir Diperbarui:** 2025-11-29  

@@ -66,6 +66,10 @@ url: /ar/java/creating-managing-html-documents/
 تعلم كيفية إنشاء بيئة تجريبية لمعالجة HTML في Java باستخدام Aspose.HTML من خلال دليل خطوة بخطوة.
 ### [كيفية الاستعلام عن HTML في Java – دليل كامل](./how-to-query-html-in-java-complete-tutorial/)
 تعلم كيفية استعلام ومعالجة مستندات HTML في Java باستخدام Aspose.HTML من خلال دليل شامل خطوة بخطوة.
+### [كيفية تحليل HTML في Java – التحميل، الاستعلام وعدّ العناصر](./how-to-parse-html-java-load-query-count-elements/)
+تعلم كيفية تحميل مستندات HTML، استعلامها وعدّ العناصر باستخدام Aspose.HTML for Java في دليل خطوة بخطوة.
+### [تنفيذ JavaScript غير متزامن في Java – دليل شامل خطوة بخطوة](./execute-async-javascript-in-java-complete-step-by-step-guide/)
+تعلم كيفية تنفيذ جافا سكريبت غير متزامن في Java باستخدام Aspose.HTML من خلال دليل خطوة بخطوة شامل.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
