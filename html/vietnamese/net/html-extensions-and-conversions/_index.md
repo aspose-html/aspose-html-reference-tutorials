@@ -71,6 +71,8 @@ Hướng dẫn chi tiết cách tạo tài liệu HTML có văn bản định d�
 Tạo PDF từ HTML trong .NET bằng C#. Hướng dẫn chi tiết từng bước để chuyển đổi HTML sang PDF nhanh chóng.
 ### [Lưu HTML dưới dạng ZIP – Hướng dẫn C# hoàn chỉnh](./save-html-as-zip-complete-c-tutorial/)
 Hướng dẫn chi tiết cách lưu tài liệu HTML thành tệp ZIP bằng Aspose.HTML cho .NET với C#.
+### [Lưu HTML dưới dạng ZIP trong C# – hướng dẫn từng bước](./save-html-as-zip-in-c-step-by-step-guide/)
+Hướng dẫn chi tiết cách lưu tài liệu HTML thành tệp ZIP bằng C# và Aspose.HTML cho .NET.
 ### [Lưu HTML thành ZIP trong C# – Ví dụ Toàn bộ trong Bộ nhớ](./save-html-to-zip-in-c-complete-in-memory-example/)
 Hướng dẫn lưu tài liệu HTML vào tệp ZIP trong C# bằng Aspose.HTML, sử dụng bộ nhớ tạm và không tạo file tạm trên đĩa.
 

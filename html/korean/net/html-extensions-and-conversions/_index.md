@@ -67,6 +67,8 @@ Aspose.HTML for .NET을 사용하여 HTML을 TIFF로 변환하는 방법을 알�
 .NET용 Aspose.HTML의 힘을 알아보세요: HTML을 XPS로 손쉽게 변환하세요. 필수 조건, 단계별 가이드, FAQ가 포함되어 있습니다.
 ### [C#에서 HTML을 Zip으로 압축하는 방법 – HTML을 Zip으로 저장](./how-to-zip-html-in-c-save-html-to-zip/)
 C#과 Aspose.HTML을 사용해 HTML 파일을 ZIP 압축 파일로 저장하는 단계별 가이드를 제공합니다.
+### [C#에서 HTML을 ZIP으로 저장하는 단계별 가이드](./save-html-as-zip-in-c-step-by-step-guide/)
+C#과 Aspose.HTML을 활용해 HTML을 ZIP 파일로 저장하는 자세한 단계별 가이드를 제공합니다.
 ### [스타일이 적용된 텍스트로 HTML 문서 만들기 및 PDF로 내보내기 – 전체 가이드](./create-html-document-with-styled-text-and-export-to-pdf-full/)
 Aspose.HTML for .NET을 사용하여 스타일이 적용된 텍스트가 포함된 HTML 문서를 만들고 PDF로 내보내는 전체 가이드를 확인하세요.
 ### [HTML을 ZIP으로 저장 – 전체 C# 튜토리얼](./save-html-as-zip-complete-c-tutorial/)

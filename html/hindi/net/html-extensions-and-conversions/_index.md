@@ -81,6 +81,9 @@ Aspose.HTML के साथ .NET में HTML को MHTML में बद�
 ### [HTML को ZIP के रूप में सहेजें – पूर्ण C# ट्यूटोरियल](./save-html-as-zip-complete-c-tutorial/)
 HTML को ZIP फ़ाइल में सहेजने के चरण-दर-चरण मार्गदर्शन, C# कोड उदाहरण और अनुकूलन विकल्प।
 
+### [C# में HTML को ZIP के रूप में सहेजें – चरण‑दर‑चरण गाइड](./save-html-as-zip-in-c-step-by-step-guide/)
+C# में Aspose.HTML का उपयोग करके HTML को ZIP फ़ाइल में सहेजने के चरण‑दर‑चरण मार्गदर्शन।
+
 ### [C# में HTML को ज़िप कैसे करें – HTML को ज़िप में सहेजें](./how-to-zip-html-in-c-save-html-to-zip/)
 .NET के लिए Aspose.HTML का उपयोग करके C# में HTML को ज़िप फ़ाइल में सहेजने का तरीका सीखें।
 
