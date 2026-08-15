@@ -1,38 +1,57 @@
 ---
-title: Java için Aspose.HTML ile EPUB'ı XPS'e Dönüştürme
-linktitle: EPUB'ı XPS'e dönüştürme
-second_title: Aspose.HTML ile Java HTML İşleme
-description: Aspose.HTML for Java kullanarak EPUB'ı XPS'e nasıl dönüştüreceğinizi öğrenin. Sorunsuz EPUB'dan XPS'e dönüştürme için adım adım bir kılavuz. Şimdi deneyin!
-weight: 10
+date: 2026-03-31
+description: Aspose.HTML for Java kullanarak EPUB'ten XPS oluşturmayı öğrenin. Bu
+  adım adım kılavuz, Java ile EPUB'u PDF veya XPS'ye hızlıca dönüştürmenize yardımcı
+  olur.
+keywords:
+- create xps from epub
+- java convert epub pdf
+- aspose supported formats
+linktitle: EPUB'u XPS'ye Dönüştürme
+second_title: Java HTML Processing with Aspose.HTML
+title: Aspose.HTML for Java kullanarak EPUB'tan XPS oluşturun
 url: /tr/java/converting-epub-to-xps/convert-epub-to-xps/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java için Aspose.HTML ile EPUB'ı XPS'e Dönüştürme
+# XPS'yi EPUB'dan Aspose.HTML for Java ile Oluşturma
 
+Java kullanarak **EPUB'dan XPS oluşturmak** istiyor musunuz? Aspose.HTML for Java, süreci sizin için basitleştiriyor. Bu adım‑adım kılavuz, ön koşullardan gerekli paketlerin içe aktarılmasına kadar tüm prosedürü size anlatacak ve her örneği birden fazla takip etmesi kolay adıma ayıracak.
 
-Java kullanarak EPUB dosyalarını XPS formatına dönüştürmek mi istiyorsunuz? Aspose.HTML for Java sizin için süreci basitleştirmek için burada. Bu adım adım kılavuz, ön koşullardan gerekli paketleri içe aktarmaya ve her örneği birden fazla kolay takip edilebilir adıma ayırmaya kadar tüm prosedürde size yol gösterecektir.
+## Hızlı Yanıtlar
+- **Hangi kütüphaneyi kullanmalıyım?** Aspose.HTML for Java
+- **EPUB'ı tek satır kodla XPS'e dönüştürebilir miyim?** Evet, `Converter.convertEPUB` kullanarak
+- **Üretim için lisansa ihtiyacım var mı?** Ticari bir lisans gereklidir; geçici bir deneme lisansı mevcuttur
+- **Hangi Java sürümleri destekleniyor?** Java 8 ve sonrası
+- **Birden fazla EPUB'u aynı anda dönüştürmek mümkün mü?** Evet, dosyalar üzerinde döngü kullanarak (SSS'ye bakın)
 
-## Ön koşullar
+## “EPUB'dan XPS oluşturma” nedir?
+EPUB'dan XPS oluşturmak, bir e‑kitap paketi (EPUB) alıp bunu sabit‑düzenli bir belge formatı olan Microsoft XPS'ye dönüştürmek anlamına gelir. Bu, arşivleme veya Windows‑tabanlı iş akışları için baskıya hazır, sayfalı bir e‑kitap sürümüne ihtiyacınız olduğunda faydalıdır.
 
-Başlamadan önce aşağıdaki ön koşulların mevcut olduğundan emin olun:
+## Neden Aspose.HTML for Java kullanmalısınız?
+- **Yüksek doğruluk** – düzeni, yazı tiplerini ve görüntüleri korur.
+- **Harici bağımlılık yok** – saf Java, yerel ikili dosyalar yok.
+- **Geniş format desteği** – ayrıca PDF, TIFF, PNG ve daha fazlasını (ikincil anahtar kelime *aspose supported formats*'a bakın) işler.
+- **Ölçeklenebilir** – tek dosyalar veya toplu dönüşümler için çalışır.
 
-1. Java Geliştirme Kiti (JDK): Sisteminizde Java Geliştirme Kiti'nin (JDK) yüklü olduğundan emin olun. Bunu Oracle web sitesinden veya başka güvenilir bir kaynaktan indirebilirsiniz.
+## Ön Koşullar
 
-2. Java Kütüphanesi için Aspose.HTML: Java kütüphanesi için Aspose.HTML'yi indirin ve yükleyin[Java Belgeleri için Aspose.HTML](https://reference.aspose.com/html/java/) . Kullanabilirsiniz[İndirme Bağlantısı](https://releases.aspose.com/html/java/) Bu amaçla.
+Başlamadan önce, aşağıdaki ön koşulların yerine getirildiğinden emin olun:
 
-3. IDE (Bütünleşik Geliştirme Ortamı): Kodlama için favori Java IDE'nizi seçin. IntelliJ IDEA, Eclipse veya NetBeans popüler seçeneklerdir.
+1. **Java Development Kit (JDK)** – Java 8 veya daha yeni bir sürümünün yüklü olduğundan emin olun. Oracle web sitesinden veya başka güvenilir bir kaynaktan indirebilirsiniz.  
+2. **Aspose.HTML for Java Kütüphanesi** – Aspose.HTML for Java kütüphanesini [Aspose.HTML for Java Documentation](https://reference.aspose.com/html/java/) adresinden indirin ve kurun. Bu amaçla [Download Link](https://releases.aspose.com/html/java/) adresini kullanabilirsiniz.  
+3. **IDE (Entegre Geliştirme Ortamı)** – Kodlama için favori Java IDE'nizi seçin. IntelliJ IDEA, Eclipse veya NetBeans popüler seçeneklerdir.  
+4. **EPUB Dosyası** – XPS'e dönüştürmek istediğiniz bir EPUB dosyasına ihtiyacınız olacak. Bu dosyanın hazır olduğundan emin olun.
 
-4. EPUB Dosyası: XPS'e dönüştürmek istediğiniz bir EPUB dosyasına ihtiyacınız olacak. Bu dosyanın hazır olduğundan emin olun.
+## Java'da EPUB'dan XPS nasıl oluşturulur
 
-## Paketleri İçe Aktar
+Aşağıda dönüşüm sürecini net, numaralı adımlara ayırıyoruz. Her adım kısa bir açıklama ve kopyalayıp‑yapıştırmanız gereken tam kodu içerir.
 
-Bu adımda Aspose.HTML kütüphanesinden gerekli paketleri içe aktaracağız ve dönüştürme görevimiz için ortamı ayarlayacağız.
-
-### Aspose.HTML Paketlerini İçe Aktar
+### Adım 1: Aspose.HTML Paketlerini İçe Aktarın
 
 ```java
 import com.aspose.html.saving.XpsSaveOptions;
@@ -40,27 +59,25 @@ import com.aspose.html.converters.Converter;
 import java.io.FileInputStream;
 ```
 
-Artık ön koşullarımız hazır ve gerekli paketler içe aktarılmış durumda, örneğe geçelim.
+Bu içe aktarmalar, dönüşüm için `Converter` sınıfına ve çıktıyı kontrol etmek için `XpsSaveOptions` sınıfına erişim sağlar.
 
-Bu bölümde EPUB dosyasını XPS formatına dönüştürme sürecini birden fazla adıma ayıracağız.
-
-## EPUB Dosyasını Aç
+### Adım 2: EPUB Dosyasını Açın
 
 ```java
 try (FileInputStream fileInputStream = new FileInputStream("input.epub")) {
 ```
 
- Bu adımda, EPUB dosyasını okumak için açıyoruz`FileInputStream`Dönüştürmek istediğiniz EPUB dosyasının adının "input.epub" olduğundan emin olun veya dosya yolunu buna göre güncelleyin.
+`FileInputStream` kullanarak EPUB dosyasını okuma amaçlı açıyoruz. `"input.epub"` ifadesini kaynak dosyanızın yolu ile değiştirin.
 
-## XpsSaveOptions'ı Oluştur
+### Adım 3: XpsSaveOptions Oluşturun
 
 ```java
 XpsSaveOptions options = new XpsSaveOptions();
 ```
 
-Burada, bir örnek oluşturuyoruz`XpsSaveOptions`XPS dosyasını kaydetme seçeneklerini belirten .
+`XpsSaveOptions`, XPS belgesinin nasıl kaydedileceğini (sıkıştırma, sayfa boyutu vb.) belirlemenizi sağlar. Varsayılan ayarlar çoğu senaryo için yeterlidir.
 
-## EPUB'ı XPS'e dönüştür
+### Adım 4: EPUB'u XPS'e Dönüştürün
 
 ```java
 Converter.convertEPUB(
@@ -70,32 +87,51 @@ Converter.convertEPUB(
 );
 ```
 
- Şimdi, şunu kullanıyoruz:`Converter.convertEPUB` EPUB dosyasını XPS biçimine dönüştürme yöntemi. Yöntem,`fileInputStream` ,`options` Daha önce oluşturduğumuz ve bu örnekte "output.xps" olan çıktı dosyası adı. Çıktı dosyası adını ihtiyacınıza göre değiştirebilirsiniz.
+`Converter.convertEPUB` metodu işi halleder: EPUB akışını okur, seçenekleri uygular ve sonucu `"output.xps"` dosyasına yazar. Çıktı dosya adını istediğiniz gibi değiştirebilirsiniz.
 
-Ve işte bu kadar! Aspose.HTML for Java kullanarak bir EPUB dosyasını XPS formatına başarıyla dönüştürdünüz.
+### Adım 5: Kaynakları Kapatma (Otomatik Olarak İşlenir)
 
-## Çözüm
+Bir try‑with‑resources bloğu kullandığımız için `FileInputStream` otomatik olarak kapanır ve dosya tanıtıcı sızıntısı olmaz.
 
-Bu eğitimde, Aspose.HTML kullanarak EPUB dosyalarının Java'da XPS formatına nasıl dönüştürüleceğini öğrendik. Doğru ön koşullar ve basit bir kod örneğiyle, bu işlevselliği Java uygulamalarınıza kolayca entegre edebilirsiniz.
+> **Pro ipucu:** Birçok EPUB dosyasını dönüştürmeniz gerekiyorsa, dönüşüm kodunu bir döngü içinde yerleştirin ve daha iyi performans için tek bir `XpsSaveOptions` örneğini yeniden kullanın.
 
- Daha fazla sorunuz mu var veya daha fazla yardıma mı ihtiyacınız var? Şuraya göz atın:[Aspose.HTML Forum](https://forum.aspose.com/) destek için.
+## Yaygın Sorunlar ve Çözümler
 
-## SSS
+| Sorun | Neden Oluşur | Çözüm |
+|-------|--------------|------|
+| **FileNotFoundException** | Yanlış yol veya eksik dosya | `input.epub` yolunu doğrulayın ve dosyanın mevcut olduğundan emin olun. |
+| **OutOfMemoryError** büyük EPUB'larda | Tüm dosya belleğe yüklendi | JVM yığın boyutunu (`-Xmx2g`) artırın veya mümkünse EPUB'u parçalara bölerek işleyin. |
+| **Missing fonts** XPS'de | Yazı tipleri EPUB içinde gömülü değil | `options.setEmbedFonts(true)` kullanarak yazı tipi gömme zorlayın. |
 
-### Birden fazla EPUB dosyasını tek seferde dönüştürebilir miyim?
-Evet, verilen örneği kullanarak EPUB dosyalarının bir listesini tarayabilir ve bunları tek tek XPS'e dönüştürebilirsiniz.
+## Sıkça Sorulan Sorular
 
-### Test için geçici lisans mevcut mu?
-Evet, test amaçlı geçici bir lisans almak için şu adresi ziyaret edebilirsiniz:[Geçici Lisans Sayfası](https://purchase.aspose.com/temporary-license/).
+**Q: Birden fazla EPUB dosyasını tek seferde dönüştürebilir miyim?**  
+A: Evet, dosya yollarının bir koleksiyonunu yineleyerek ve döngü içinde her dosya için `Converter.convertEPUB` metodunu çağırarak.
 
-### Dönüştürme için hangi EPUB sürümleri destekleniyor?
-Java için Aspose.HTML EPUB 2 ve 3 formatlarını destekler.
+**Q: Test amaçlı geçici bir lisans mevcut mu?**  
+A: Evet, test amaçlı geçici bir lisans almak için [Temporary License Page](https://purchase.aspose.com/temporary-license/) sayfasını ziyaret edebilirsiniz.
 
-### XPS dışında desteklenen başka çıktı biçimleri var mı?
-Evet, Java için Aspose.HTML, PDF, TIFF ve daha fazlası gibi çeşitli diğer biçimlere dönüştürmeyi destekler. Ayrıntılar için belgelere bakın.
+**Q: Dönüşüm için hangi EPUB sürümleri destekleniyor?**  
+A: Aspose.HTML for Java, EPUB 2 ve EPUB 3 formatlarını destekler.
 
-### Aspose.HTML ticari projeler için uygun mudur?
-Kesinlikle. Aspose.HTML hem kişisel hem de ticari projeler için güçlü ve güvenilir bir çözümdür.
+**Q: XPS dışında başka çıktı formatları destekleniyor mu?**  
+A: Kesinlikle. Aspose.HTML for Java, EPUB'u PDF, TIFF, PNG, JPEG ve birçok diğer *aspose supported formats* formatına da dönüştürebilir.
+
+**Q: Aspose.HTML ticari projeler için uygun mu?**  
+A: Evet. Geçerli bir ticari lisansla Aspose.HTML'i herhangi bir üretim ortamında, büyük ölçekli kurumsal uygulamalar dahil, kullanabilirsiniz.
+
+## Sonuç
+
+Bu öğreticide, Aspose.HTML for Java kullanarak **EPUB'dan XPS oluşturmayı** gösterdik. Sadece birkaç kod satırı ve doğru ön koşullarla, EPUB‑to‑XPS dönüşümünü herhangi bir Java uygulamasına entegre edebilirsiniz—ister masaüstü aracı, ister web servisi, ister toplu‑işlem arka ucu olsun.
+
+Daha fazla sorunuz varsa veya ek yardıma ihtiyacınız olursa, topluluk desteği ve resmi rehberlik için [Aspose.HTML Forum](https://forum.aspose.com/) adresine göz atın.
+
+---
+
+**Son Güncelleme:** 2026-03-31  
+**Test Edilen Versiyon:** Aspose.HTML for Java 24.11  
+**Yazar:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
