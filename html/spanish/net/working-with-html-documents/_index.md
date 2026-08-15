@@ -37,9 +37,13 @@ Una vez que haya comprendido los conceptos básicos, profundizaremos en el proce
 Ahora, llevemos tus habilidades al siguiente nivel. Editar documentos HTML es una tarea común para los desarrolladores web, y Aspose.HTML simplifica este proceso significativamente. En esta sección, cubriremos la creación, manipulación y estilo de documentos. Descubrirás cómo mejorar la apariencia y la funcionalidad de tu contenido web, haciéndolo atractivo y fácil de usar.
 
 ### [Cómo guardar HTML en C# – Guía completa usando un controlador de recursos personalizado](./how-to-save-html-in-c-complete-guide-using-a-custom-resource/)
+
 ### [Cómo poner en negrita un encabezado con CSS y C# – Guía completa paso a paso](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
 
 Aprenda a aplicar estilo negrita a encabezados usando CSS y C# con este tutorial detallado.
+
+### [Crear documento HTML en C# – Guía completa con controlador de recursos personalizado](./create-html-document-c-complete-guide-with-custom-resource-h/)
+Aprenda a crear documentos HTML en C# usando un controlador de recursos personalizado en esta guía completa.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

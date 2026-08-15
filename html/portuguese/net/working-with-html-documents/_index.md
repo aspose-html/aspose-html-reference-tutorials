@@ -38,6 +38,7 @@ Agora, vamos levar suas habilidades para o próximo nível. Editar documentos HT
 
 ### [Como salvar HTML em C# – Guia completo usando um manipulador de recursos personalizado](./how-to-save-html-in-c-complete-guide-using-a-custom-resource/)
 ### [Como deixar o título em negrito com CSS e C# – Guia completo passo a passo](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
+### [Criar documento HTML em C# – Guia completo usando um manipulador de recursos personalizado](./create-html-document-c-complete-guide-with-custom-resource-h/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

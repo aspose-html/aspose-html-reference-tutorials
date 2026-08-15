@@ -2,7 +2,7 @@
 title: Travailler avec des documents HTML
 linktitle: Travailler avec des documents HTML
 second_title: API de manipulation HTML Aspose.HTML .NET
-description: Découvrez le monde de la création et de la manipulation de documents HTML dans .NET avec Aspose.HTML. De la création de documents simples à l'édition approfondie.
+description: Découvrez le monde de la création et la manipulation de documents HTML dans .NET avec Aspose.HTML. De la création de documents simples à l'édition approfondie.
 weight: 23
 url: /fr/net/working-with-html-documents/
 ---
@@ -26,19 +26,18 @@ Avant de nous plonger dans les détails de la création et de la modification de
 
 ### [Créer un document en .NET avec Aspose.HTML](./creating-a-document/)
 
-La première étape de notre parcours consiste à apprendre à créer des documents HTML à partir de zéro ou à partir d'URL à l'aide d'Aspose.HTML. Nous vous guiderons tout au long du processus, en veillant à ce que même les débutants puissent suivre. À la fin de cette section, vous aurez les compétences nécessaires pour générer des documents HTML sans effort.
-
 ### [Créer un document simple dans .NET avec Aspose.HTML](./creating-a-simple-document/)
 
-Une fois que vous aurez compris les bases, nous approfondirons le processus de création. Dans cette section, vous apprendrez à créer des documents HTML simples à l'aide d'Aspose.HTML et nous explorerons diverses fonctionnalités qui permettent une manipulation facile. Que vous créiez une page Web, génériez du contenu ou convertissiez des données en HTML, ce didacticiel vous fournira les connaissances nécessaires.
-
 ### [Modification d'un document dans .NET avec Aspose.HTML](./editing-a-document/)
-
-Maintenant, passons à un niveau supérieur de compétences. L'édition de documents HTML est une tâche courante pour les développeurs Web, et Aspose.HTML simplifie considérablement ce processus. Dans cette section, nous aborderons la création, la manipulation et le style des documents. Vous découvrirez comment améliorer l'apparence et la fonctionnalité de votre contenu Web, en le rendant attrayant et convivial.
 
 ### [Comment enregistrer du HTML en C# – Guide complet avec un gestionnaire de ressources personnalisé](./how-to-save-html-in-c-complete-guide-using-a-custom-resource/)
 
 Apprenez à enregistrer du HTML en C# en utilisant un gestionnaire de ressources personnalisé pour contrôler le flux de sortie et les ressources liées.
+
+### [Créer un document HTML en C# – Guide complet avec un gestionnaire de ressources personnalisé](./create-html-document-c-complete-guide-with-custom-resource-h/)
+
+Apprenez à créer un document HTML en C# en utilisant un gestionnaire de ressources personnalisé pour contrôler le flux de sortie et les ressources liées.
+
 ### [Comment mettre en gras un titre avec CSS & C# – Guide complet étape par étape](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
