@@ -41,6 +41,10 @@ HTML 문서는 웹의 중추이며, 효과적으로 만들고 조작할 수 있�
 사용자 정의 리소스 핸들러를 사용해 C#에서 HTML을 저장하는 방법을 단계별로 안내합니다.
 ### [CSS와 C#로 제목을 굵게 만드는 방법 – 완전 단계별 가이드](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
 
+### [HTML 로딩을 위한 C# 사용자 정의 리소스 핸들러 만들기](./create-custom-resource-handler-in-c-for-html-loading/)
+
+HTML 로딩 시 사용자 정의 리소스 핸들러를 구현하는 방법을 단계별로 안내합니다.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

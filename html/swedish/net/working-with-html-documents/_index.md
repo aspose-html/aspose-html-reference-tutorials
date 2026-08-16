@@ -43,6 +43,10 @@ Lär dig spara HTML i C# med en anpassad resurs‑hanterare och generera komplet
 
 Lär dig hur du använder CSS och C# för att göra rubriker fetstilta i dina HTML‑dokument med en steg‑för‑steg‑guide.
 
+### [Skapa en anpassad resurs‑hanterare i C# för HTML‑laddning](./create-custom-resource-handler-in-c-for-html-loading/)
+
+Lär dig skapa en anpassad resurs‑hanterare i C# för att ladda HTML‑dokument.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

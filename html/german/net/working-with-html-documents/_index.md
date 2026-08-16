@@ -39,6 +39,11 @@ Lassen Sie uns nun Ihre Fähigkeiten auf die nächste Ebene bringen. Das Bearbei
 ### [HTML in C# speichern – Vollständige Anleitung mit benutzerdefiniertem Ressourcen-Handler](./how-to-save-html-in-c-complete-guide-using-a-custom-resource/)
 
 Erfahren Sie, wie Sie HTML in C# mit einem benutzerdefinierten Ressourcen-Handler speichern können.
+
+### [Erstellen eines benutzerdefinierten Ressourcen-Handlers in C# für das Laden von HTML](./create-custom-resource-handler-in-c-for-html-loading/)
+
+Lernen Sie, wie Sie in C# einen eigenen Ressourcen-Handler implementieren, um HTML zu laden.
+
 ### [Überschrift mit CSS & C# fett formatieren – Komplett‑Schritt‑für‑Schritt‑Anleitung](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

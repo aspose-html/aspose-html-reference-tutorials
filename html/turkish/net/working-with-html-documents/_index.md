@@ -38,6 +38,7 @@ Temelleri kavradığınızda, oluşturma sürecine daha derinlemesine dalacağı
 
 ### [C#'ta HTML Kaydetme – Özel Kaynak İşleyicisi Kullanarak Tam Kılavuz](./how-to-save-html-in-c-complete-guide-using-a-custom-resource/)
 ### [CSS ve C# ile Başlığı Kalınlaştırma – Tam Adım Adım Kılavuz](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
+### [C#'ta HTML Yükleme İçin Özel Kaynak İşleyicisi Oluşturma](./create-custom-resource-handler-in-c-for-html-loading/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

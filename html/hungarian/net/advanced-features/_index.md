@@ -44,7 +44,8 @@ Ismerje meg, hogyan konvertálhat HTML-t PDF-be, XPS-be és képekké az Aspose.
 Ismerje meg, hogyan használhatja az Aspose.HTML for .NET-et HTML-dokumentumok dinamikus generálására JSON-adatokból. Használja ki a HTML-kezelés erejét .NET-alkalmazásaiban.
 ### [Memóriafolyam létrehozása C# – Egyéni stream létrehozási útmutató](./create-memory-stream-c-custom-stream-creation-guide/)
 Tanulja meg, hogyan hozhat létre egyedi memóriafolyamot C#-ban az Aspose.HTML használatával.
-
+### [Félkövér dőlt betű létrehozása C#‑ban – lépésről‑lépésre útmutató](./create-bold-italic-font-in-c-step-by-step-guide/)
+Tanulja meg, hogyan hozhat létre félkövér és dőlt betűstílusú szöveget C#‑ban az Aspose.HTML segítségével, részletes lépésekkel.
 
 ## Következtetés
 

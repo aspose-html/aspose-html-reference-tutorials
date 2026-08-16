@@ -43,6 +43,8 @@ Poznaj metodę zapisu HTML w C# z własnym obsługiwaczem zasobów, umożliwiaj�
 
 Dowiedz się, jak użyć CSS i C# do pogrubienia nagłówka w HTML, krok po kroku, z praktycznymi przykładami.
 
+### [Utwórz własny obsługiwacz zasobów w C# do ładowania HTML](./create-custom-resource-handler-in-c-for-html-loading/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

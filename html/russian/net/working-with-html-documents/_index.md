@@ -38,6 +38,7 @@ HTML-документы являются основой Интернета, и �
 
 ### [Как сохранить HTML в C# – Полное руководство с использованием пользовательского обработчика ресурсов](./how-to-save-html-in-c-complete-guide-using-a-custom-resource/)
 ### [Как сделать заголовок жирным с помощью CSS и C# – Полное пошаговое руководство](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
+### [Создание пользовательского обработчика ресурсов в C# для загрузки HTML](./create-custom-resource-handler-in-c-for-html-loading/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

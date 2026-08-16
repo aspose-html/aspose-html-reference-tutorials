@@ -44,7 +44,7 @@ Aspose.HTML for .NET を使用して HTML を PDF、XPS、画像に変換する�
 Aspose.HTML for .NET を使用して JSON データから HTML ドキュメントを動的に生成する方法を学びます。.NET アプリケーションで HTML 操作のパワーを活用します。
 ### [C# のメモリ ストリーム作成 – カスタム ストリーム作成ガイド](./create-memory-stream-c-custom-stream-creation-guide/)
 C# でカスタム メモリ ストリームを作成し、Aspose.HTML での HTML 操作に活用する方法をステップバイステップで学びます。
-
+### [C# で太字斜体フォントを作成する – ステップバイステップ ガイド](./create-bold-italic-font-in-c-step-by-step-guide/)
 
 ## 結論
 

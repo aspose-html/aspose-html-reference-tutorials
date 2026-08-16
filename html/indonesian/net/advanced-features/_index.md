@@ -46,6 +46,8 @@ Pelajari cara mengonversi HTML ke PDF, XPS, dan gambar dengan Aspose.HTML untuk 
 Pelajari cara menggunakan Aspose.HTML untuk .NET guna membuat dokumen HTML secara dinamis dari data JSON. Manfaatkan kekuatan manipulasi HTML dalam aplikasi .NET Anda.
 ### [Cara Menggabungkan Font Secara Programatis di C# – Panduan Langkah‑demi‑Langkah](./how-to-combine-fonts-programmatically-in-c-step-by-step-guid/)
 Pelajari cara menggabungkan beberapa font menjadi satu file menggunakan C# dengan Aspose.HTML, lengkap dengan contoh kode langkah demi langkah.
+### [Buat Font Tebal Miring di C# – Panduan Langkah‑demi‑Langkah](./create-bold-italic-font-in-c-step-by-step-guide/)
+Pelajari cara membuat font tebal miring di C# dengan panduan langkah demi langkah menggunakan Aspose.HTML.
 
 ## Kesimpulan
 
