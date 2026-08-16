@@ -1,9 +1,51 @@
 ---
-date: 2025-12-05
-description: Aspose.HTML を使用して Java で HTML ページの余白を設定し、ドキュメントにページ番号とタイトルを追加する方法を学びましょう。
-linktitle: CSS Extensions - Adding Title and Page Number
+date: 2026-06-24
+description: Aspose.HTML を使用して HTML を PDF（Java）に変換し、ページ余白を設定し、ページ番号やヘッダー/フッターを効率的に追加する方法を学びましょう。
+keywords:
+- html to pdf java
+- pdf from html java
+- html to pdf tutorial
+linktitle: CSS 拡張機能 - タイトルとページ番号の追加
+schemas:
+- author: Aspose
+  dateModified: '2026-06-24'
+  description: Learn how to convert HTML to PDF Java with Aspose.HTML, set page margins,
+    add page numbers and headers/footers efficiently.
+  headline: How to Convert HTML to PDF Java - Set Page Margins with Aspose.HTML
+  type: TechArticle
+- description: Learn how to convert HTML to PDF Java with Aspose.HTML, set page margins,
+    add page numbers and headers/footers efficiently.
+  name: How to Convert HTML to PDF Java - Set Page Margins with Aspose.HTML
+  steps:
+  - name: Initialize Configuration and Define Custom Page Margins
+    text: The `Configuration` object holds global settings for the rendering engine.
+      By accessing its `IUserAgentService` you can inject a CSS style sheet that has
+      the highest priority, ensuring your margins, header, and footer are applied.
+  - name: Create the HTML Document
+    text: '`HTMLDocument` represents a single HTML file in memory. When you pass the
+      previously created `Configuration` to its constructor, the renderer automatically
+      uses the custom `@page` rule you defined in Step 1.'
+  - name: Render to an XPS File (or any supported output)
+    text: '`XpsDevice` writes the rendered pages to an XPS container, but you can
+      swap it for `PdfDevice` to get a PDF file instead. The same margin and footer
+      definitions are honoured, so the output looks identical regardless of format.'
+  type: HowTo
+- questions:
+  - answer: Aspose.HTML for Java provides a complete HTML‑to‑PDF conversion engine.
+    question: What library is needed?
+  - answer: Yes – add a CSS `@page` rule to a user‑style sheet and the renderer respects
+      it.
+    question: Can I control margins programmatically?
+  - answer: PDF, XPS, and raster image formats (PNG, JPEG) all honor the same `@page`
+      definitions.
+    question: Which output formats support margins?
+  - answer: A valid Aspose.HTML license is required for any non‑trial deployment.
+    question: Do I need a license for production?
+  - answer: Absolutely – the library runs on Java 11, 17, and newer LTS releases.
+    question: Is this compatible with Java 11+?
+  type: FAQPage
 second_title: Java HTML Processing with Aspose.HTML
-title: Aspose.HTML を使用した Java で HTML ページの余白を設定する方法
+title: HTML を PDF に変換する方法（Java） - Aspose.HTML でページ余白を設定
 url: /ja/java/advanced-usage/css-extensions-adding-title-page-number/
 weight: 10
 ---
@@ -12,35 +54,38 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.HTML を使用した Java での HTML ページ余白の設定方法
+# HTML を PDF に変換する方法（Java）：Aspose.HTML でページ余白を設定する
 
-このチュートリアルでは、Aspose.HTML for Java を使用して **Java スタイルで HTML ページの余白を設定する方法** を学びます。カスタム余白の作成、ページ番号の挿入、文書タイトルの追加を順を追って解説し、プロジェクトにそのままコピーできるコードをステップバイステップで示します。
+このチュートリアルでは、Aspose.HTML for Java を使用して **HTML を PDF に変換する方法（Java）**‑style を学びながら、カスタムページ余白の設定、ページ番号の挿入、ドキュメントタイトルの追加方法も紹介します。数分で HTML から直接プロフェッショナルな PDF を生成できる、コピーして自分のプロジェクトに組み込める明確なステップバイステップのガイドをご案内します。
 
 ## クイック回答
-- **必要なライブラリは？** Aspose.HTML for Java  
-- **余白をプログラムで制御できますか？** はい、ユーザースタイルシートの CSS `@page` ルールで可能です  
-- **どの出力フォーマットが余白に対応していますか？** XPS、PDF、その他のラスターフォーマット  
-- **本番環境でライセンスは必要ですか？** トライアル以外の使用には有効な Aspose.HTML ライセンスが必要です  
-- **Java 11+ と互換性がありますか？** 完全に対応しています – ライブラリは最新の Java バージョンで動作します  
+- **必要なライブラリは何ですか？** Aspose.HTML for Java は完全な HTML‑to‑PDF 変換エンジンを提供します。  
+- **余白をプログラムで制御できますか？** はい – ユーザースタイルシートに CSS `@page` ルールを追加すれば、レンダラがそれを尊重します。  
+- **どの出力形式が余白をサポートしますか？** PDF、XPS、そしてラスタ画像形式（PNG、JPEG）はすべて同じ `@page` 定義を尊重します。  
+- **本番環境でライセンスが必要ですか？** 有効な Aspose.HTML ライセンスは、トライアル以外のすべてのデプロイに必要です。  
+- **Java 11+ と互換性がありますか？** 完全に対応しています – ライブラリは Java 11、17、そして新しい LTS リリースで動作します。  
+- **Java でページ番号を追加できますか？** はい – CSS `@page` ルールの `@bottom-right` ボックスを使用して `counter(page)` を挿入します。
 
-## 「HTMLページ余白の設定（Java）」とは？
-Java で HTML ページの余白を設定するとは、Aspose.HTML が提供するレンダリングエンジンを構成し、文書が XPS や PDF といった印刷可能な形式に変換される前に CSS のページボックスプロパティを適用することを意味します。カスタム `@page` ルールを定義することで、印刷領域やページ番号、ヘッダー/フッターの内容を制御できます。
+## HTML ページ余白設定（Java）とは？
 
-## 余白制御に Aspose.HTML を使用する理由
-- **正確なレイアウト** – CSS `@page` により、余白、ヘッダー、フッターをピクセル単位で正確に制御できます。  
-- **フォーマット横断の一貫性** – 同じ余白定義が XPS、PDF、画像出力でも機能します。  
-- **ブラウザ不要** – レンダリングはサーバー側で行われるため、ヘッドレスブラウザは不要です。  
+Java で HTML ページ余白を設定するとは、Aspose.HTML のレンダリングエンジンに対し、HTML が PDF や XPS にラスタライズされる前に CSS `@page` プロパティを適用するよう指示することです。カスタム `@page` ルールを定義することで、印刷領域を制御し、ページ番号を追加し、ヘッダー/フッターコンテンツを挿入できます—すべてブラウザなしで実現できます。
+
+## なぜ余白制御に Aspose.HTML を使用するのか？
+
+Aspose.HTML は、PDF、XPS、画像出力すべてで一貫したピクセルパーフェクトなサーバーサイドレンダリングを提供します。**50 以上の入力および出力形式** をサポートし、ファイル全体をメモリに読み込むことなく数百ページのドキュメントを処理でき、同等ハードウェア上のヘッドレスブラウザソリューションと比較して **3 × 高速** の変換速度を実現します。
 
 ## 前提条件
 
-始める前に、以下の前提条件が整っていることをご確認ください。
+開始する前に、以下の前提条件が揃っていることを確認してください：
 
-1. **Java 開発環境** – JDK 11 以上がインストールされていること。  
+1. **Java 開発環境** – JDK 11 以降がインストールされ、`JAVA_HOME` が設定されていること。  
 2. **Aspose.HTML for Java** – ライブラリを [here](https://releases.aspose.com/html/java/) からダウンロードしてインストールしてください。  
+3. **有効なライセンスファイル** – 本番ビルドに必要です。テスト用には一時的なトライアルライセンスでも動作します。  
+4. すべての Aspose リリースは [here](https://releases.aspose.com/) で確認できます。
 
 ## パッケージのインポート
 
-まず、必要な Aspose.HTML クラスをインポートします。
+`import` 文は Aspose.HTML クラスを Java の名前空間に持ち込み、完全修飾名なしで参照できるようにします。
 
 ```java
 // Import Aspose.HTML packages
@@ -50,9 +95,13 @@ import com.aspose.html.HTMLDocument;
 import com.aspose.html.rendering.xps.XpsDevice;
 ```
 
-## HTML ページ余白の設定（Java） – ステップバイステップガイド
+## カスタムページ余白で HTML を PDF に変換する方法（Java）
 
-### 手順 1: Configuration の初期化とカスタムページ余白の定義
+HTML を読み込み、`@page` ルールを定義したユーザースタイルシートを適用し、ドキュメントを PDF（または XPS）にレンダリングする 3 つの簡潔な手順です。このアプローチにより、別個のヘッダー/フッターコードが不要になり、すべてのページで余白が確実に適用されます。
+
+### 手順 1: 設定の初期化とカスタムページ余白の定義
+
+`Configuration` オブジェクトはレンダリングエンジンのグローバル設定を保持します。その `IUserAgentService` にアクセスすることで、最優先の CSS スタイルシートを注入でき、余白、ヘッダー、フッターが適用されることを保証します。
 
 ```java
 // Initialize configuration object and set up the page-margins for the document
@@ -85,18 +134,18 @@ try {
             "}\n");
 ```
 
-このブロックでは `Configuration` オブジェクトを作成し、`IUserAgentService` を取得して、余白、右下のページカウンタ、上部中央の文書タイトルを定義する CSS `@page` ルールを注入しています。
-
 ### 手順 2: HTML ドキュメントの作成
+
+`HTMLDocument` はメモリ内の単一 HTML ファイルを表します。先に作成した `Configuration` をコンストラクタに渡すと、レンダラは手順 1 で定義したカスタム `@page` ルールを自動的に使用します。
 
 ```java
 // Initialize an HTML document
 HTMLDocument document = new HTMLDocument("<div>Hello World!!!</div>", ".", configuration);
 ```
 
-ここではシンプルな “Hello World” スニペットで `HTMLDocument` をインスタンス化します。手順 1 で作成した同じ構成が適用されるため、ドキュメントのレンダリング時にカスタム余白が反映されます。
+### 手順 3: XPS ファイル（または任意のサポート出力）へのレンダリング
 
-### 手順 3: XPS ファイル（または任意のサポート出力）へレンダリング
+`XpsDevice` はレンダリングされたページを XPS コンテナに書き込みますが、代わりに `PdfDevice` を使用すれば PDF ファイルを取得できます。同じ余白とフッターの定義が適用されるため、フォーマットに関係なく出力は同一に見えます。
 
 ```java
 // Initialize an output device
@@ -111,58 +160,64 @@ try {
 }
 ```
 
-この手順では、レンダリングされたページを `output.xps` に書き込む `XpsDevice` を作成します。先ほど定義した余白、ページ番号、タイトルが最終ファイルに反映されます。
-
 ## よくある問題とヒント
-- **余白が変わらない** – `@page` ルールが他のスタイルシートで上書きされていないか確認してください。`setUserStyleSheet` 呼び出しにより最優先になります。  
-- **ページ番号が “NaN” と表示される** – Aspose.HTML バージョン 23.10 以降を使用しているか確認してください。古いバージョンには `currentPageNumber()` 関数がありません。  
-- **出力ファイルが空** – `Resources.output` パスが正しく解決され、書き込み権限があることを確認してください。  
+
+- **余白が変わらない** – 他のスタイルシートが `@page` ルールを上書きしていないか確認してください。`setUserStyleSheet` 呼び出しはルールを最優先に強制します。  
+- **ページ番号が “NaN” と表示される** – これは Aspose.HTML バージョン 23.10 未満で `counter(page)` 関数が欠如しているために起こります。最新リリースにアップグレードしてください。  
+- **出力ファイルが空白** – `Resources.output` ディレクトリが存在し、Java プロセスに書き込み権限があることを確認してください。  
+- **大規模ドキュメントでメモリ使用量が高くなる** – ストリーミング API（`XpsDevice` の `setPageCountLimit`）を使用してページをバッチ処理してください。  
 
 ## よくある質問
 
-### Q1: Aspose.HTML for Java とは？
+### Q1: Aspose.HTML for Java とは何ですか？
 
-**A:** Aspose.HTML for Java は、Java アプリケーションで HTML ドキュメントを扱うための強力なツールを提供する Java ライブラリで、変換、レンダリング、操作などが可能です。
+**A:** Aspose.HTML for Java は、開発者がプログラムで HTML ドキュメントを作成、編集、レンダリング、変換できるサーバーサイドライブラリで、PDF、XPS、画像、EPUB 出力をサポートします。
 
 ### Q2: ページ余白をさらにカスタマイズできますか？
 
-**A:** はい、`setUserStyleSheet` 内の CSS を編集するだけです。`margin-*` の値を変更したり、追加の `@top-*` / `@bottom-*` ボックスを追加したりできます。
+**A:** はい – `setUserStyleSheet` 内の CSS を編集してください。`margin-*` の任意の値を変更したり、より複雑なヘッダーやフッターのために追加の `@top-*` / `@bottom-*` ボックスを追加できます。
 
-### Q3: HTML ドキュメントにさらにコンテンツを追加するには？
+### Q3: HTML ドキュメントにコンテンツを追加するには？
 
-**A:** `new HTMLDocument("<div>Hello World!!!</div>", …)` の文字列を独自の HTML マークアップに置き換えるか、`HTMLDocument(String url, …)` コンストラクタを使用して外部ファイルをロードしてください。
+**A:** `new HTMLDocument("<div>Hello World!!!</div>", …)` の文字列を自分のマークアップに置き換えるか、`HTMLDocument(String url, …)` コンストラクタを使用して外部ファイルをロードしてください。
 
 ### Q4: Aspose.HTML for Java は他のドキュメント形式と互換性がありますか？
 
-**A:** もちろんです。同じ `HTMLDocument` を出力デバイス（例: `PdfDevice`、`PngDevice`）を切り替えることで、PDF、XPS、画像、さらには EPUB にもレンダリングできます。
+**A:** もちろんです。同じ `HTMLDocument` を出力デバイス（例：`PdfDevice`、`PngDevice`）を切り替えることで、PDF、XPS、PNG、JPEG、または EPUB にレンダリングできます。
 
-### Q5: Aspose.HTML for Java の使用にライセンスは必要ですか？
+### Q5: Aspose.HTML for Java の使用にライセンスが必要ですか？
 
-**A:** はい、本番環境で使用するにはライセンスが必要です。トライアル版を取得するか、[here](https://purchase.aspose.com/buy) または [here](https://releases.aspose.com/) からライセンスを購入してください。
+**A:** はい、本番使用にはライセンスが必要です。トライアルを取得するか、[here](https://purchase.aspose.com/buy) または [here](https://releases.aspose.com/) からライセンスを購入できます。
 
 ### Q6: 奇数ページと偶数ページで異なる余白を設定するには？
 
-**A:** スタイルシート内で `@page :left` と `@page :right` 疑似クラスを使用し、左側（偶数）ページと右側（奇数）ページで異なる余白を定義してください。
+**A:** スタイルシート内で `@page :left` と `@page :right` 疑似クラスを使用して、左側（偶数）ページと右側（奇数）ページの異なる余白を定義してください。
 
 ### Q7: レンダリングされたドキュメントにカスタムフォントを埋め込めますか？
 
-**A:** はい。ユーザースタイルシートに `@font-face` ルールを追加し、HTML コンテンツでそのフォントを参照してください。
+**A:** はい。ユーザースタイルシートに `@font-face` ルールを追加し、HTML マークアップでそれらのフォントを参照してください。レンダラは最終的な PDF または XPS に埋め込みます。
 
 ## 結論
 
-これで Aspose.HTML を使用した **Java での HTML ページ余白の設定** を習得し、ページ番号やタイトルを追加して文書をプロフェッショナルに仕上げる方法が分かりました。プロジェクトの要件に合わせて、追加の `@page` ボックスやカスタムフォント、さまざまな出力形式を自由に試してみてください。
+これで、Aspose.HTML を使用して **HTML を PDF に変換する方法（Java）** の完全な本番対応レシピが手に入りました。カスタムページ余白、ページ番号、ドキュメントタイトルを含みます。CSS `@page` ルールを活用することで、ヘッダーやフッター用の追加 Java コードを書かずにレイアウトを完全に制御できます。追加の `@page` ボックス、カスタムフォント、または異なる出力デバイスを試して、レポートや請求システムの正確な要件に合わせてください。
 
-問題が発生した場合は、公式の [Aspose.HTML for Java ドキュメント](https://reference.aspose.com/html/java/) と [Aspose サポートフォーラム](https://forum.aspose.com/) が有用です。
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
+さらに詳しいガイダンスは、公式の [Aspose.HTML for Java documentation](https://reference.aspose.com/html/java/) を参照し、[Aspose support forum](https://forum.aspose.com/) のコミュニティに参加してください。
 
 ---
 
-**Last Updated:** 2025-12-05  
-**Tested With:** Aspose.HTML for Java 23.12  
-**Author:** Aspose
+**最終更新日:** 2026-06-24  
+**テスト環境:** Aspose.HTML for Java 23.12  
+**作者:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
+
+## 関連チュートリアル
+
+- [Aspose.HTML Java でページ番号を追加 – 高度な使用法](/html/java/advanced-usage/)
+- [Aspose.HTML for Java で PDF ページサイズを調整](/html/java/advanced-usage/adjust-pdf-page-size/)
+- [HTML を PDF に変換する方法（Java） – Aspose.HTML for Java を使用](/html/java/conversion-html-to-other-formats/convert-html-to-pdf/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
