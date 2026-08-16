@@ -92,6 +92,9 @@ weight: 25
 ### [Δημιουργία PDF από HTML σε Java – Πλήρης Οδηγός Βήμα‑βήμα](./create-pdf-from-html-in-java-complete-step-by-step-guide/)
 Μάθετε πώς να δημιουργήσετε PDF από HTML σε Java με έναν λεπτομερή, βήμα‑βήμα οδηγό χρησιμοποιώντας το Aspose.HTML.
 
+### [Aspose HTML σε PDF σε Java – πλήρης οδηγός βήμα‑βήμα](./aspose-html-to-pdf-in-java-complete-step-by-step-guide/)
+Μάθετε πώς να μετατρέψετε HTML σε PDF σε Java με πλήρη, βήμα‑βήμα καθοδήγηση.
+
 ### [Μετατροπή HTML σε MHTML](./convert-html-to-mhtml/)
 Μετατρέψτε εύκολα HTML σε MHTML χρησιμοποιώντας το Aspose.HTML for Java. Ακολουθήστε τον βήμα‑βήμα οδηγό μας για αποδοτική μετατροπή HTML‑σε‑MHTML.
 

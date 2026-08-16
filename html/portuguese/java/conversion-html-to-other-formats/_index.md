@@ -90,6 +90,8 @@ Aprenda a gerar PDFs a partir de HTML em Java com um guia detalhado, cobrindo co
 Aprenda a converter HTML para PDF em Java, definindo tamanhos de página personalizados passo a passo.
 ### [Definir Tamanho da Página PDF com Aspose HTML – Guia Completo Java](./set-pdf-page-size-with-aspose-html-full-java-guide/)
 Aprenda a configurar o tamanho da página PDF ao converter HTML usando Aspose.HTML for Java, com opções avançadas de layout.
+### [Aspose HTML para PDF em Java – guia completo passo a passo](./aspose-html-to-pdf-in-java-complete-step-by-step-guide/)
+Aprenda passo a passo como converter HTML para PDF em Java usando Aspose.HTML, com configurações detalhadas e melhores práticas.
 ### [Convertendo HTML para MHTML](./convert-html-to-mhtml/)
 Converta HTML para MHTML facilmente usando Aspose.HTML for Java. Siga nosso guia passo a passo para uma conversão eficiente de HTML‑para‑MHTML.
 ### [Convertendo HTML para XPS](./convert-html-to-xps/)

@@ -104,6 +104,8 @@ Naučte se převést HTML do PDF v Javě s podrobným nastavením velikosti str�
 Naučte se nastavit velikost stránky PDF v Javě pomocí Aspose.HTML s podrobným krok‑za‑krokem návodem.
 ### [Vytvoření PDF z HTML v Javě – Kompletní krok‑za‑krokem průvodce](./create-pdf-from-html-in-java-complete-step-by-step-guide/)
 Kompletní návod, jak v Javě převést HTML na PDF s podrobným nastavením a ukázkami kódu.
+### [Aspose HTML do PDF v Javě – kompletní krok‑za‑krokem průvodce](./aspose-html-to-pdf-in-java-complete-step-by-step-guide/)
+Kompletní průvodce převodem HTML do PDF v Javě s podrobným nastavením a ukázkami kódu.
 
 ## Často kladené otázky
 

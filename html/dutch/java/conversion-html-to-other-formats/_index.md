@@ -86,6 +86,8 @@ Kortom, het beheersen van **html to pdf java** en de bredere reeks conversies on
 Leer hoe u HTML naar PDF kunt converteren in Java met Aspose.HTML. Maak moeiteloos hoogwaardige PDF's van uw HTML‑inhoud.
 ### [PDF maken van HTML in Java – Complete stapsgewijze gids](./create-pdf-from-html-in-java-complete-step-by-step-guide/)
 Leer hoe u stap‑voor‑stap een PDF maakt van HTML in Java met Aspose.HTML, inclusief volledige configuratie‑opties.
+### [Aspose HTML naar PDF in Java – Complete stapsgewijze gids](./aspose-html-to-pdf-in-java-complete-step-by-step-guide/)
+Leer hoe u Aspose HTML gebruikt om HTML naar PDF te converteren in Java met een volledige stap‑voor‑stap gids.
 ### [HTML naar PDF converteren in Java – Stapsgewijze gids met paginagrootte‑instellingen](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Leer stap voor stap hoe u HTML naar PDF converteert in Java en paginagrootte‑instellingen configureert voor optimale resultaten.
 ### [HTML naar MHTML converteren](./convert-html-to-mhtml/)
