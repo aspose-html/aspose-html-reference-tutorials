@@ -103,6 +103,7 @@ XPS هو صيغة الطباعة الخاصة بمايكروسوفت. باستخ
 ### [كيفية تعيين الإزاحة عند تحويل HTML إلى Markdown في Java](./how-to-set-offset-when-converting-html-to-markdown-in-java/)
 تعلم كيفية ضبط إزاحة المحتوى أثناء تحويل ملفات HTML إلى تنسيق Markdown باستخدام Aspose.HTML for Java.
 ### [إنشاء PDF من HTML في Java – دليل خطوة بخطوة كامل](./create-pdf-from-html-in-java-complete-step-by-step-guide/)
+### [Aspose HTML إلى PDF في Java – دليل خطوة بخطوة كامل](./aspose-html-to-pdf-in-java-complete-step-by-step-guide/)
 
 ## الأسئلة المتكررة
 

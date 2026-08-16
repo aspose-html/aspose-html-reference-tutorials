@@ -103,6 +103,8 @@ Lär dig konvertera HTML till PDF i Java med detaljerade steg och anpassa sidsto
 ### [Skapa PDF från HTML i Java – Komplett steg‑för‑steg‑guide](./create-pdf-from-html-in-java-complete-step-by-step-guide/)
 Lär dig hur du skapar PDF från HTML i Java med en komplett steg‑för‑steg‑guide.
 ### [Ställ in PDF-sidstorlek med Aspose HTML – Fullständig Java‑guide](./set-pdf-page-size-with-aspose-html-full-java-guide/)
+### [Aspose HTML till PDF i Java – komplett steg‑för‑steg‑guide](./aspose-html-to-pdf-in-java-complete-step-by-step-guide/)
+Lär dig hur du konverterar HTML till PDF i Java med en detaljerad steg‑för‑steg‑guide.
 
 ## Vanliga frågor
 

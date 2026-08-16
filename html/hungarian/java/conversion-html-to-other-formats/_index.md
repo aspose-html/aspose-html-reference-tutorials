@@ -90,6 +90,9 @@ Ismerje meg, hogyan konvertálhatja a HTML‑t PDF‑re Java‑ban részletesen,
 ### [HTML‑ből PDF létrehozása Java‑ban – Teljes lépésről‑lépésre útmutató](./create-pdf-from-html-in-java-complete-step-by-step-guide/)
 Ismerje meg, hogyan hozhat létre PDF fájlokat HTML‑ből Java‑ban részletes, minden lépést bemutató útmutatóval.
 
+### [Aspose HTML PDF-re Java‑ban – teljes lépésről‑lépésre útmutató](./aspose-html-to-pdf-in-java-complete-step-by-step-guide/)
+Részletes útmutató az Aspose.HTML használatához HTML PDF-re konvertálásához Java‑ban, minden lépésben.
+
 ### [HTML átalakítása MHTML-re](./convert-html-to-mhtml/)
 Könnyedén konvertálja a HTML‑t MHTML‑re az Aspose.HTML for Java segítségével. Kövesse lépésről‑lépésre útmutatónkat a hatékony HTML‑MHTML átalakításhoz.
 
