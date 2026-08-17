@@ -39,6 +39,8 @@ url: /ar/net/html-extensions-and-conversions/
 ## دروس حول امتدادات HTML وتحويلاتها
 ### [تحويل HTML إلى PDF في .NET باستخدام Aspose.HTML](./convert-html-to-pdf/)
 قم بتحويل HTML إلى PDF بسهولة باستخدام Aspose.HTML for .NET. اتبع دليلنا خطوة بخطوة واكتشف قوة تحويل HTML إلى PDF.
+### [إنشاء PDF من URL – دليل C# كامل](./create-pdf-from-url-complete-c-guide/)
+دليل شامل لإنشاء PDF من عنوان URL باستخدام C# و Aspose.HTML
 ### [إنشاء PDF من HTML – دليل خطوة بخطوة بلغة C#](./create-pdf-from-html-c-step-by-step-guide/)
 دليل خطوة بخطوة لإنشاء ملف PDF من HTML باستخدام C# ومكتبة Aspose.HTML.
 ### [إنشاء مستند HTML بنص منسق وتصديره إلى PDF – دليل كامل](./create-html-document-with-styled-text-and-export-to-pdf-full/)

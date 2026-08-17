@@ -37,6 +37,8 @@ Bent u klaar om te beginnen? Aspose.HTML voor .NET tutorials zijn geschikt voor 
 Aspose.HTML voor .NET is niet zomaar een bibliotheek; het is een game-changer in de wereld van webontwikkeling. Het biedt een uitgebreid scala aan functies en tools die uw HTML-gerelateerde taken stroomlijnen. Aan het einde van deze tutorials bent u uitgerust met de kennis en vaardigheden om het potentieel van Aspose.HTML voor .NET te maximaliseren.
 
 ## HTML-extensies en conversiehandleidingen
+### [PDF maken van URL – Complete C#-gids](./create-pdf-from-url-complete-c-guide/)
+Leer hoe u met Aspose.HTML voor .NET een PDF genereert vanuit een URL met een volledige C#-stapsgewijze handleiding.
 ### [Converteer HTML naar PDF in .NET met Aspose.HTML](./convert-html-to-pdf/)
 Converteer moeiteloos HTML naar PDF met Aspose.HTML voor .NET. Volg onze stapsgewijze handleiding en ontketen de kracht van HTML-naar-PDF-conversie.
 ### [Converteer EPUB naar afbeelding in .NET met Aspose.HTML](./convert-epub-to-image/)

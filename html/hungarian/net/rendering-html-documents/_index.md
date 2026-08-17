@@ -42,6 +42,8 @@ Most, hogy be van állítva az Aspose.HTML for .NET, itt az ideje, hogy felfedez
 
 ### [Rendelje meg a HTML-t PNG-ként .NET-ben az Aspose.HTML-lel](./render-html-as-png/)
 Tanulja meg az Aspose.HTML for .NET használatát: Manipuláljon HTML-t, konvertáljon különféle formátumokba stb. Merüljön el ebben az átfogó oktatóanyagban!
+### [HTML renderelése PNG‑ként – Teljes lépésről‑lépésre útmutató](./how-to-render-html-to-png-complete-step-by-step-guide/)
+Tanulja meg, hogyan renderelhet HTML-t PNG formátumba az Aspose.HTML for .NET segítségével, részletes útmutatóval.
 ### [HTML renderelése PNG-ként – Teljes C# útmutató](./how-to-render-html-as-png-complete-c-guide/)
 Ismerje meg, hogyan renderelhet HTML-t PNG formátumba C#-ban az Aspose.HTML segítségével, lépésről lépésre útmutató.
 ### [Az EPUB megjelenítése XPS-ként .NET-ben az Aspose.HTML segítségével](./render-epub-as-xps/)
@@ -54,6 +56,8 @@ Ismerje meg, hogyan szabályozhatja hatékonyan a megjelenítési időtúllépé
 Tanuljon meg több HTML-dokumentumot renderelni az Aspose.HTML for .NET használatával. Növelje dokumentumfeldolgozási képességeit ezzel a hatékony könyvtárral.
 ### [Jelenítse meg az SVG-dokumentumot PNG-ként .NET-ben az Aspose.HTML-lel](./render-svg-doc-as-png/)
 Oldja fel az Aspose.HTML erejét .NET-hez! Tanulja meg, hogyan lehet könnyedén renderelni az SVG-dokumentumot PNG-ként. Merüljön el a lépésről lépésre bemutatott példákban és a GYIK-ben. Kezdje el most!
+### [HTML renderelése – Teljes útmutató egyedi erőforráskezelővel](./how-to-render-html-complete-guide-with-custom-resource-handl/)
+Fedezze fel, hogyan renderelhet HTML-t egyedi erőforráskezelővel a teljes útmutatóban.
 ### [Hogyan használja az Aspose-t HTML PNG-ként rendereléshez – Lépésről lépésre útmutató](./how-to-use-aspose-to-render-html-to-png-step-by-step-guide/)
 Tanulja meg, hogyan renderelhet HTML-t PNG formátumba az Aspose segítségével .NET környezetben, lépésről lépésre.
 ### [Hogyan rendereljük a HTML-t PNG formátumba az Aspose-szal – Teljes útmutató](./how-to-render-html-to-png-with-aspose-complete-guide/)

@@ -65,6 +65,8 @@ url: /el/net/html-extensions-and-conversions/
 Μάθετε πώς να μετατρέπετε HTML σε TIFF με το Aspose.HTML για .NET. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για αποτελεσματική βελτιστοποίηση περιεχομένου ιστού.
 ### [Μετατροπή HTML σε XPS σε .NET με Aspose.HTML](./convert-html-to-xps/)
 Ανακαλύψτε τη δύναμη του Aspose.HTML για .NET: Μετατρέψτε HTML σε XPS χωρίς κόπο. Περιλαμβάνονται προαπαιτούμενα, οδηγός βήμα προς βήμα και συχνές ερωτήσεις.
+### [Δημιουργία PDF από URL – Πλήρης Οδηγός C#](./create-pdf-from-url-complete-c-guide/)
+Μάθετε πώς να δημιουργήσετε PDF από μια διεύθυνση URL χρησιμοποιώντας το Aspose.HTML για .NET με πλήρη οδηγό C#.
 ### [Πώς να συμπιέσετε HTML σε C# – Αποθήκευση HTML σε Zip](./how-to-zip-html-in-c-save-html-to-zip/)
 Μάθετε πώς να συμπιέσετε αρχεία HTML σε αρχείο ZIP χρησιμοποιώντας το Aspose.HTML για .NET σε C#.
 ### [Δημιουργία εγγράφου HTML με μορφοποιημένο κείμενο και εξαγωγή σε PDF – Πλήρης οδηγός](./create-html-document-with-styled-text-and-export-to-pdf-full/)

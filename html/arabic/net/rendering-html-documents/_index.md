@@ -64,7 +64,10 @@ url: /ar/net/rendering-html-documents/
 
 ### [عرض مستند SVG بصيغة PNG في .NET باستخدام Aspose.HTML](./render-svg-doc-as-png/)
 اكتشف قوة Aspose.HTML لـ .NET! تعرّف على كيفية عرض مستند SVG بتنسيق PNG بسهولة. انغمس في الأمثلة والأسئلة الشائعة خطوة بخطوة. ابدأ الآن!
-
+### [كيفية عرض HTML – دليل كامل مع معالج موارد مخصص](./how-to-render-html-complete-guide-with-custom-resource-handl/)
+تعلم كيفية عرض HTML باستخدام Aspose.HTML لـ .NET مع معالج موارد مخصص لتخصيص تحميل المحتوى وتحسين الأداء.
+### [كيفية عرض HTML كـ PNG – دليل كامل خطوة بخطوة](./how-to-render-html-to-png-complete-step-by-step-guide/)
+تعلم كيفية تحويل مستندات HTML إلى صور PNG خطوة بخطوة باستخدام Aspose.HTML لـ .NET.
 ### [كيفية تحويل HTML إلى PNG باستخدام Aspose – دليل كامل](./how-to-render-html-to-png-with-aspose-complete-guide/)
 تعلم خطوة بخطوة كيفية تحويل مستندات HTML إلى صور PNG باستخدام Aspose.HTML في .NET.
 

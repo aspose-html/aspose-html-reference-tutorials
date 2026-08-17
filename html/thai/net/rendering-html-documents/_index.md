@@ -58,6 +58,10 @@ Aspose.HTML สำหรับ .NET ถือเป็นตัวเลือ�
 เรียนรู้การเรนเดอร์เอกสาร HTML หลายฉบับโดยใช้ Aspose.HTML สำหรับ .NET เพิ่มประสิทธิภาพการประมวลผลเอกสารของคุณด้วยไลบรารีอันทรงพลังนี้
 ### [เรนเดอร์เอกสาร SVG เป็น PNG ใน .NET ด้วย Aspose.HTML](./render-svg-doc-as-png/)
 ปลดล็อกพลังของ Aspose.HTML สำหรับ .NET! เรียนรู้วิธีการเรนเดอร์เอกสาร SVG เป็น PNG ได้อย่างง่ายดาย เจาะลึกตัวอย่างทีละขั้นตอนและคำถามที่พบบ่อย เริ่มต้นเลยตอนนี้!
+### [วิธีการเรนเดอร์ HTML – คู่มือฉบับสมบูรณ์พร้อมตัวจัดการทรัพยากรแบบกำหนดเอง](./how-to-render-html-complete-guide-with-custom-resource-handl/)
+เรียนรู้วิธีเรนเดอร์ HTML อย่างละเอียดด้วยตัวจัดการทรัพยากรแบบกำหนดเองใน Aspose.HTML สำหรับ .NET
+### [วิธีการเรนเดอร์ HTML เป็น PNG – คู่มือขั้นตอนเต็ม](./how-to-render-html-to-png-complete-step-by-step-guide/)
+เรียนรู้วิธีการเรนเดอร์ HTML เป็น PNG อย่างละเอียดด้วย Aspose.HTML สำหรับ .NET ในคู่มือขั้นตอนเต็ม!
 ### [วิธีใช้ Aspose เพื่อเรนเดอร์ HTML เป็น PNG – คู่มือแบบขั้นตอน](./how-to-use-aspose-to-render-html-to-png-step-by-step-guide/)
 เรียนรู้วิธีการเรนเดอร์ไฟล์ HTML เป็น PNG ด้วย Aspose.HTML สำหรับ .NET อย่างละเอียดในคู่มือขั้นตอนนี้!
 ### [วิธีเรนเดอร์ HTML เป็น PNG ด้วย Aspose – คู่มือฉบับสมบูรณ์](./how-to-render-html-to-png-with-aspose-complete-guide/)
