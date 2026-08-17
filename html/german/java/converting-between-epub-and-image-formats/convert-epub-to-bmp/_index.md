@@ -1,60 +1,117 @@
 ---
-date: 2026-03-13
-description: Erfahren Sie, wie Sie EPUB in BMP konvertieren und die BMP‑DPI mit Aspose.HTML
-  für Java mithilfe einer Schritt‑für‑Schritt‑Anleitung anpassen.
-linktitle: Converting EPUB to BMP
-second_title: Java HTML Processing with Aspise.HTML
-title: EPUB in BMP konvertieren mit Aspose.HTML für Java
+date: 2026-08-17
+description: Erfahren Sie, wie Sie DPI beim Konvertieren von EPUB zu BMP festlegen
+  und die Bildauflösung mit Aspose.HTML for Java in einer Schritt‑für‑Schritt‑Anleitung
+  anpassen.
+keywords:
+- how to set dpi
+- convert epub to bmp
+- convert ebook to bmp
+lastmod: 2026-08-17
+linktitle: Konvertieren von EPUB zu BMP
+og_description: Erfahren Sie, wie Sie DPI beim Konvertieren von EPUB zu BMP mit Aspose.HTML
+  for Java festlegen. Dieser Leitfaden zeigt Schritt‑für‑Schritt‑Code, DPI‑Anpassungen
+  und Fehlerbehebungstipps.
+og_image_alt: Developer guide showing Java code converting EPUB to BMP with custom
+  DPI
+og_title: Wie man DPI beim Konvertieren von EPUB zu BMP effizient mit Aspose.HTML
+  for Java einstellt
+schemas:
+- author: Aspose
+  dateModified: '2026-08-17'
+  description: Learn how to set DPI while converting EPUB to BMP and customize image
+    resolution using Aspose.HTML for Java in a step‑by‑step guide.
+  headline: How to set DPI when converting EPUB to BMP efficiently using Aspose.HTML
+    for Java
+  type: TechArticle
+- description: Learn how to set DPI while converting EPUB to BMP and customize image
+    resolution using Aspose.HTML for Java in a step‑by‑step guide.
+  name: How to set DPI when converting EPUB to BMP efficiently using Aspose.HTML for
+    Java
+  steps:
+  - name: open the epub file
+    text: First, load the EPUB document into a `Document` object so the library can
+      read its structure and assets. `Document` represents an EPUB or HTML document
+      loaded into memory, providing access to its pages and resources. Replace `"path/to/your/input.epub"`
+      with the actual file path of your EPUB.
+  - name: initialize image save options
+    text: Create an `ImageSaveOptions` instance and specify BMP as the target format.
+      `ImageSaveOptions` configures how the output image is saved, including format,
+      resolution, and quality settings. This ensures the conversion output will be
+      a BMP file.
+  - name: convert epub to bmp
+    text: Invoke the static `Converter.convertEPUB` method, passing the source document,
+      the output path, and the configured options. `Converter.convertEPUB` performs
+      the rendering of the EPUB to an image using the supplied options. Replace `"path/to/your/output.bmp"`
+      with the desired destination path. And th
+  type: HowTo
+- questions:
+  - answer: Converting an EPUB document to a BMP image and setting custom DPI with
+      Aspose.HTML for Java.
+    question: What does this tutorial cover?
+  - answer: About 10‑15 minutes for a basic conversion.
+    question: How long does the implementation take?
+  - answer: Java JDK, Aspose.HTML for Java library, and an EPUB file.
+    question: What are the prerequisites?
+  - answer: A free trial works for testing; a commercial license is required for production.
+    question: Do I need a license?
+  - answer: Yes—replace `ImageFormat.Bmp` with PNG, JPEG, etc.
+    question: Can I target other image formats?
+  type: FAQPage
+second_title: Java HTML Processing with Aspose.HTML
+tags:
+- convert epub to bmp
+- Aspose.HTML
+- Java image processing
+title: Wie man DPI beim Konvertieren von EPUB zu BMP effizient mit Aspose.HTML for
+  Java einstellt
 url: /de/java/converting-between-epub-and-image-formats/convert-epub-to-bmp/
 weight: 10
 ---
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# EPUB in BMP konvertieren mit Aspose.HTML für Java
+# Wie man DPI beim effizienten Konvertieren von EPUB zu BMP mit Aspose.HTML für Java festlegt
 
-## Einleitung
+## Einführung
 
-Wenn Sie **convert epub to bmp**-Dateien mit Java konvertieren möchten, sind Sie hier genau richtig. Aspose.HTML für Java bietet eine leistungsstarke und effiziente Lösung, die den Konvertierungsprozess unkompliziert macht – selbst wenn Sie neu in der Bibliothek sind. In diesem Leitfaden führen wir Sie durch eine **step‑by‑step conversion**, damit Sie schnell und zuverlässig Ergebnisse erzielen.
+Wenn Sie **epub zu bmp konvertieren** und gleichzeitig die Bildauflösung steuern müssen, zeigt Ihnen dieses Tutorial genau **wie man DPI** während der Konvertierung mit Aspose.HTML für Java einstellt. Sie erhalten eine klare, schritt‑für‑Schritt‑Anleitung, die für jedes EPUB‑ oder andere E‑Book‑Format funktioniert und hochwertige Bitmap‑Dateien für den Druck oder die Archivierung erzeugt.
 
-## Schnelle Antworten
-- **Worum geht es in diesem Tutorial?** Converting an EPUB document to a BMP image with Aspose.HTML for Java.  
-- **Wie lange dauert die Implementierung?** About 10‑15 minutes for a basic conversion.  
-- **Was sind die Voraussetzungen?** Java JDK, Aspose.HTML for Java library, and an EPUB file.  
-- **Benötige ich eine Lizenz?** A free trial works for testing; a commercial license is required for production.  
-- **Kann ich andere Bildformate anvisieren?** Yes—replace `ImageFormat.Bmp` with PNG, JPEG, etc.
+## Schnellantworten
+- **Was behandelt dieses Tutorial?** Konvertieren eines EPUB‑Dokuments in ein BMP‑Bild und Festlegen einer benutzerdefinierten DPI mit Aspose.HTML für Java.  
+- **Wie lange dauert die Implementierung?** Etwa 10‑15 Minuten für eine Basis‑Konvertierung.  
+- **Was sind die Voraussetzungen?** Java JDK, Aspose.HTML für Java‑Bibliothek und eine EPUB‑Datei.  
+- **Benötige ich eine Lizenz?** Eine kostenlose Testversion reicht für Tests; für den Produktionseinsatz ist eine kommerzielle Lizenz erforderlich.  
+- **Kann ich andere Bildformate anvisieren?** Ja — ersetzen Sie `ImageFormat.Bmp` durch PNG, JPEG usw.
 
-## Was bedeutet “convert epub to bmp”?
-Das Konvertieren einer EPUB-Datei in BMP bedeutet, jede Seite des E‑Books als Rasterbild im BMP-Format zu rendern. Dies ist nützlich, wenn Sie eine festauflösende Darstellung für den Druck, die Archivierung oder die Integration in Systeme benötigen, die nur Bitmap‑Bilder akzeptieren.
+## Was bedeutet „convert epub to bmp“?
+Das Konvertieren einer EPUB‑Datei zu BMP bedeutet, jede Seite des elektronischen Buches als Rasterbild im BMP‑Format zu rendern. Dies ist nützlich, wenn Sie eine fest‑auflösende Darstellung für Druck, Archivierung oder die Integration in Systeme benötigen, die nur Bitmap‑Bilder akzeptieren.
 
 ## Warum Aspose.HTML für Java verwenden?
-- **No external dependencies** – the library handles EPUB parsing and image rendering internally.  
-- **High fidelity** – retains layout, fonts, and vector graphics when rasterizing.  
-- **Performance‑optimized** – suitable for batch processing large collections of EPUBs.  
+Aspose.HTML für Java bietet einen umfassenden Funktionsumfang, der das Rendern von EPUBs und die Bildkonvertierung vereinfacht. Es übernimmt das Parsen, Layouten und Rasterisieren intern und liefert hochwertige Ergebnisse mit minimalem Code und ohne externe Abhängigkeiten.
+
+- **Keine externen Abhängigkeiten** – die Bibliothek verarbeitet EPUB‑Parsing und Bildrendering intern.  
+- **Hohe Treue** – behält Layout, Schriftarten und Vektorgrafiken beim Rasterisieren bei.  
+- **Leistungsoptimiert** – geeignet für die Stapelverarbeitung großer EPUB‑Sammlungen.  
 
 ## Voraussetzungen
 
 Bevor Sie beginnen, stellen Sie sicher, dass Sie die folgenden Voraussetzungen erfüllt haben:
 
-1. **Java Development Environment**  
-   Stellen Sie sicher, dass Sie eine funktionierende Java-Entwicklungsumgebung haben, einschließlich des installierten Java Development Kit (JDK).
+1. **Java‑Entwicklungsumgebung** – JDK 8 oder höher installiert und konfiguriert.  
+2. **Aspose.HTML für Java** – Sie sollten Aspose.HTML für Java einsatzbereit haben. Falls noch nicht geschehen, können Sie es von der [laden Sie es von der Aspose.HTML für Java Release‑Seite herunter](https://releases.aspose.com/html/java/) herunterladen.  
+3. **EPUB‑Datei** – ein gültiges EPUB, das Sie konvertieren möchten.  
+4. **Grundlegende Java‑Kenntnisse** – hilfreich zum Verständnis des Beispielcodes.
 
-2. **Aspose.HTML for Java**  
-   Sie sollten Aspose.HTML für Java einsatzbereit haben. Falls Sie es noch nicht haben, können Sie es [hier](https://releases.aspose.com/html/java/) herunterladen.
-
-3. **EPUB File**  
-   Sie benötigen eine EPUB-Datei, um sie in BMP zu konvertieren. Stellen Sie sicher, dass Ihnen eine EPUB-Datei für die Konvertierung zur Verfügung steht.
-
-4. **Basic Java Knowledge**  
-   Ein grundlegendes Verständnis der Java-Programmierung ist hilfreich, wenn Sie die Code‑Beispiele durchgehen.
-
-Jetzt, da Sie die Voraussetzungen geklärt haben, importieren wir die erforderlichen Pakete.
+Jetzt, wo die Voraussetzungen geklärt sind, importieren wir die benötigten Pakete.
 
 ## Pakete importieren
 
-In Ihrem Java‑Code müssen Sie die notwendigen Pakete importieren, um Aspose.HTML für Java effektiv zu nutzen. So geht's:
+Der Namespace `com.aspose.html` enthält alle Klassen, die Sie für das Rendern von EPUBs und das Speichern von Bildern benötigen.
+
+Die Klasse `ImageSaveOptions` definiert, wie das Ausgabebild formatiert und gerendert wird.  
 
 ```java
 import com.aspose.html.saving.ImageSaveOptions;
@@ -62,11 +119,12 @@ import com.aspose.html.rendering.image.ImageFormat;
 import com.aspose.html.converters.Converter;
 ```
 
-## EPUB in BMP konvertieren – Schritt‑für‑Schritt‑Konvertierung
+## EPUB zu BMP konvertieren – Schritt‑für‑Schritt‑Konvertierung
 
 ### Schritt 1: EPUB‑Datei öffnen
 
-Zuerst müssen Sie eine vorhandene EPUB‑Datei zum Lesen öffnen. Das können Sie mit folgendem Code erreichen:
+Laden Sie das EPUB‑Dokument in ein `Document`‑Objekt, damit die Bibliothek seine Struktur und Ressourcen lesen kann.  
+`Document` repräsentiert ein EPUB‑ oder HTML‑Dokument, das im Speicher geladen ist und Zugriff auf Seiten und Ressourcen bietet.
 
 ```java
 try (java.io.FileInputStream fileInputStream = new java.io.FileInputStream("path/to/your/input.epub")) {
@@ -74,80 +132,87 @@ try (java.io.FileInputStream fileInputStream = new java.io.FileInputStream("path
 
 Ersetzen Sie `"path/to/your/input.epub"` durch den tatsächlichen Dateipfad Ihrer EPUB‑Datei.
 
-### Schritt 2: ImageSaveOptions initialisieren
+### Schritt 2: Bildspeicheroptionen initialisieren
 
-Als Nächstes initialisieren Sie `ImageSaveOptions` mit dem gewünschten Bildformat (in diesem Fall BMP):
+Erstellen Sie eine Instanz von `ImageSaveOptions` und geben Sie BMP als Zielformat an.  
+`ImageSaveOptions` konfiguriert, wie das Ausgabebild gespeichert wird, einschließlich Format, Auflösung und Qualitäts‑Einstellungen.
 
 ```java
 ImageSaveOptions options = new ImageSaveOptions(ImageFormat.Bmp);
 ```
 
-Dieser Schritt stellt sicher, dass die Ausgabe im BMP‑Format erfolgt.
+Damit wird sichergestellt, dass die Konvertierungsausgabe eine BMP‑Datei ist.
 
-#### BMP‑DPI anpassen (sekundäres Schlüsselwort)
+#### BMP‑DPI anpassen (wie DPI festgelegt wird)
 
-Wenn Sie Bilder mit höherer Auflösung benötigen, können Sie **BMP‑DPI anpassen**, indem Sie die Auflösung am selben `options`‑Objekt setzen, z. B. `options.setResolution(300);`. Passen Sie den DPI‑Wert an Ihre Qualitätsanforderungen an, bevor Sie die Konvertierungsmethode aufrufen.
+Um **DPI** zu setzen, rufen Sie `options.setResolution(300);` auf (oder einen anderen gewünschten Wert).  
+`setResolution` legt die DPI (dots per inch) des resultierenden Bitmaps fest und steuert damit Größe und Klarheit beim Druck.
 
-### Schritt 3: EPUB in BMP konvertieren
+### Schritt 3: EPUB zu BMP konvertieren
 
-Rufen Sie nun die Methode `convertEPUB` auf, um die EPUB‑Datei in BMP zu konvertieren. Dieses Code‑Snippet übernimmt den Konvertierungsprozess:
+Rufen Sie die statische Methode `Converter.convertEPUB` auf, übergeben Sie das Quell‑Dokument, den Ausgabepfad und die konfigurierten Optionen.  
+`Converter.convertEPUB` führt das Rendern des EPUBs zu einem Bild unter Verwendung der angegebenen Optionen aus.
 
 ```java
 Converter.convertEPUB(fileInputStream, options, "path/to/your/output.bmp");
 ```
 
-Ersetzen Sie `"path/to/your/output.bmp"` durch den tatsächlichen Dateipfad, an dem Sie die BMP‑Ausgabe speichern möchten.
+Ersetzen Sie `"path/to/your/output.bmp"` durch den gewünschten Zielpfad.
 
-Und das war's – Sie haben **epub to bmp** erfolgreich mit Aspose.HTML für Java konvertiert.
+Und das war's — Sie haben **epub zu bmp** erfolgreich konvertiert und dabei die DPI mit Aspose.HTML für Java gesteuert.
+
+## Wie man DPI für die EPUB‑zu‑BMP‑Konvertierung festlegt
+
+Laden Sie das EPUB, konfigurieren Sie `ImageSaveOptions` mit `setResolution` und rufen Sie `Converter.convertEPUB` auf. Dieses Drei‑Schritte‑Muster ermöglicht es Ihnen, die genaue DPI (z. B. 300) vor der Rasterisierung festzulegen, sodass das resultierende Bitmap Ihren Auflösungsanforderungen entspricht. Das Setzen der DPI sorgt dafür, dass das Bitmap die korrekte Pixeldichte für Druck oder detailreiche Anzeige hat und die beabsichtigte physische Größe widerspiegelt.
 
 ## Häufige Probleme und Lösungen
 
 | Problem | Warum es passiert | Wie zu beheben |
 |---------|-------------------|----------------|
-| **File not found** | Incorrect file path or missing file permissions. | Verify the path and ensure the application has read access. |
-| **Unsupported EPUB features** | Complex EPUBs with embedded fonts or scripts may need additional handling. | Use `Converter` overloads that accept rendering options, or simplify the EPUB. |
-| **Out of memory for large files** | The whole EPUB is loaded into memory. | Increase JVM heap size (`-Xmx`) or process the EPUB in smaller chunks. |
-| **DPI not applied** | `ImageSaveOptions` resolution not set before conversion. | Set the desired DPI using `options.setResolution(yourDpi);` before calling `convertEPUB`. |
+| **Datei nicht gefunden** | Falscher Pfad oder fehlende Berechtigungen. | Pfad überprüfen und Lesezugriff sicherstellen. |
+| **Nicht unterstützte EPUB‑Funktionen** | Komplexe EPUBs mit eingebetteten Schriftarten oder Skripten. | Überladene `Converter`‑Methoden verwenden, die Rendering‑Optionen akzeptieren, oder das EPUB vereinfachen. |
+| **Speicher‑Fehler bei großen Dateien** | Das gesamte EPUB wird im Speicher geladen. | JVM‑Heap erhöhen (`-Xmx`) oder das EPUB seitenweise verarbeiten. |
+| **DPI nicht angewendet** | Auflösung in `ImageSaveOptions` nicht vor der Konvertierung gesetzt. | `options.setResolution(ihreDpi);` vor `convertEPUB` aufrufen. |
 
 ## Häufig gestellte Fragen
 
-### Q1: Ist Aspose.HTML für Java kostenlos zu verwenden?
+**F1: Ist Aspose.HTML für Java kostenlos nutzbar?**  
+A: Aspose.HTML für Java bietet eine kostenlose Testversion; für den Produktionseinsatz ist eine kommerzielle Lizenz erforderlich. Sie können eine temporäre Lizenz von Aspose [eine temporäre Lizenz von Aspose erhalten](https://purchase.aspose.com/temporary-license/).
 
-A1: Aspose.HTML für Java ist nicht kostenlos, bietet jedoch eine kostenlose Testversion an. Sie können eine temporäre Lizenz [hier](https://purchase.aspose.com/temporary-license/) erhalten, um das Produkt zu evaluieren.
+**F2: Kann ich EPUB zu anderen Bildformaten konvertieren?**  
+A: Ja — einfach `ImageFormat.Bmp` durch PNG, JPEG, TIFF oder eines der über 50 unterstützten Formate ersetzen.
 
-### Q2: Kann ich EPUB mit Aspose.HTML für Java in andere Bildformate konvertieren?
+**F3: Benötige ich fortgeschrittene Programmierkenntnisse?**  
+A: Grundlegende Java‑Kenntnisse reichen aus; die API ist bewusst einfach und gut dokumentiert.
 
-A2: Ja, Sie können EPUB‑Dateien in verschiedene Bildformate konvertieren, einschließlich BMP, PNG, JPEG und mehr.
+**F4: Wo bekomme ich Hilfe oder Support?**  
+A: Besuchen Sie das Aspose.HTML‑Community‑Forum [Aspose.HTML community forum](https://forum.aspose.com/) für Unterstützung von Aspose‑Ingenieuren und der Nutzer‑Community.
 
-### Q3: Benötige ich fortgeschrittene Programmierkenntnisse, um Aspose.HTML für Java zu nutzen?
+**F5: Gibt es eine Größenbeschränkung für EPUB‑Dateien?**  
+A: Aspose.HTML verarbeitet große EPUBs effizient; es gibt keine harte Größenbegrenzung, jedoch können extrem große Dateien mehr JVM‑Heap benötigen.
 
-A3: Obwohl grundlegende Java‑Kenntnisse von Vorteil sind, bietet Aspose.HTML benutzerfreundliche APIs und umfassende Dokumentation, um den Prozess für alle Kenntnisstufen zugänglich zu machen.
+**F6: Wie konvertiere ich jede Seite eines EPUBs in separate BMP‑Dateien?**  
+A: Durchlaufen Sie die Seiten mit der `Converter`‑Überladung, die einen Seiten‑Index akzeptiert, und geben Sie für jede Iteration einen eindeutigen Ausgabepfad an.
 
-### Q4: Wo kann ich Hilfe oder Support für Aspose.HTML für Java erhalten?
-
-A4: Wenn Sie Probleme haben oder Fragen haben, besuchen Sie das Aspose.HTML Community‑Forum [hier](https://forum.aspose.com/) für Unterstützung und Hilfe.
-
-### Q5: Gibt es eine Größenbeschränkung für EPUB‑Dateien, die mit Aspose.HTML für Java konvertiert werden können?
-
-A5: Aspose.HTML für Java kann große EPUB‑Dateien effizient verarbeiten, und es gibt keine strengen Größenbeschränkungen.
-
-### Q6: Wie konvertiere ich mehrere Seiten eines EPUB in separate BMP‑Dateien?
-
-A6: Durchlaufen Sie die Seiten mit der `Converter`‑Überladung, die einen Seitenindex akzeptiert, und geben Sie für jede Iteration einen eindeutigen Ausgabepfad an.
-
-### Q7: Kann ich die DPI oder Qualität des erzeugten BMP anpassen?
-
-A7: Ja – setzen Sie zusätzliche Eigenschaften auf `ImageSaveOptions`, wie `setResolution` oder `setQuality`, bevor Sie `convertEPUB` aufrufen.
+**F7: Kann ich die Qualität oder DPI des erzeugten BMPs anpassen?**  
+A: Ja — setzen Sie Eigenschaften wie `options.setResolution(dpi)` und `options.setQuality(quality)` bevor Sie `convertEPUB` aufrufen.
 
 ## Fazit
 
-Das Konvertieren von **epub to bmp**‑Bildern in Java war dank Aspose.HTML für Java noch nie so einfach. Dieser **step‑by‑step conversion**‑Leitfaden zeigt Ihnen, wie Sie die Umgebung einrichten, den Code schreiben und häufige Fallstricke behandeln. Erkunden Sie die umfangreiche Dokumentation von Aspose.HTML [hier](https://reference.aspose.com/html/java/), um tiefer in fortgeschrittene Szenarien und weitere Ausgabeformate einzutauchen.
+Das Festlegen der DPI beim Konvertieren von **epub zu bmp** ist mit Aspose.HTML für Java unkompliziert. Dieser Leitfaden behandelte die Umgebungseinrichtung, den Code‑Durchlauf, DPI‑Anpassungen und Fehlersuche. Erkunden Sie die vollständige Aspose.HTML‑Dokumentation [Aspose.HTML Java API reference](https://reference.aspose.com/html/java/) für erweiterte Szenarien wie Stapelverarbeitung, benutzerdefinierte Rendering‑Optionen und die Konvertierung anderer E‑Book‑Formate.
 
 ---
 
-**Zuletzt aktualisiert:** 2026-03-13  
-**Getestet mit:** Aspose.HTML for Java (latest version)  
-**Autor:** Aspose  
+**Letzte Aktualisierung:** 2026-08-17  
+**Getestet mit:** Aspose.HTML für Java (latest version)  
+**Autor:** Aspose
+
+## Verwandte Tutorials
+
+- [EPUB zu Bild mit Aspose.HTML für Java konvertieren – Benutzerdefinierte Seitengröße festlegen](/html/java/converting-between-epub-and-image-formats/convert-epub-to-image-specify-image-save-options/)
+- [Aspose HTML EPUB zu PNG in Java konvertieren – Schritt‑für‑Schritt‑Anleitung](/html/java/converting-between-epub-and-image-formats/convert-epub-to-png/)
+- [Wie man EPUB zu TIFF‑Bild mit Aspose.HTML für Java konvertiert](/html/java/converting-between-epub-and-image-formats/convert-epub-to-tiff/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
