@@ -26,6 +26,10 @@ Laten we eerst eens kijken wat geheugenstromen zijn. Stel je een geheugenstroom 
 ## Gegevensverwerking en streambeheer in Aspose.HTML voor Java-zelfstudies
 ### [Converteer geheugenstroom naar bestand met Aspose.HTML voor Java](./memory-stream-to-file/)
 Converteer HTML naar JPEG met Aspose.HTML voor Java met behulp van geheugenstromen. Volg deze stapsgewijze handleiding voor naadloze HTML naar afbeeldingsconversie.
+
+### [Java Fixed Thread Pool: Tel Afbeeldingen in Parallelle Bestanden](./java-fixed-thread-pool-count-images-in-parallel-files/)
+Gebruik een vaste thread‑pool om afbeeldingen in meerdere bestanden parallel te tellen met Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

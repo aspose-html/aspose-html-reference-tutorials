@@ -44,6 +44,8 @@ Aspose.HTML for Java 为开发人员提供了功能强大的工具包，旨在�
 ## 在 Aspose.HTML for Java 教程中创建和管理 HTML 文档
 ### [在 Aspose.HTML for Java 中异步创建 HTML 文档](./create-html-documents-async/)
 掌握使用 Aspose.HTML for Java 异步创建 HTML 文档的方法。其中包含分步指南、提示和常见问题解答，可帮助您快速学习。
+### [在 Java 中执行异步 JavaScript – 完整分步指南](./execute-async-javascript-in-java-complete-step-by-step-guide/)
+本完整指南详细演示如何在 Java 环境中使用 Aspose.HTML 异步执行 JavaScript，包括示例代码和最佳实践。
 ### [在 Aspose.HTML for Java 中创建空 HTML 文档](./create-empty-html-documents/)
 通过我们详细的分步教程学习如何使用 Aspose.HTML 在 Java 中创建空 HTML 文档，非常适合各个级别的开发人员。
 ### [在 Aspose.HTML for Java 中从文件加载 HTML 文档](./load-html-documents-from-file/)
@@ -62,6 +64,12 @@ Aspose.HTML for Java 为开发人员提供了功能强大的工具包，旨在�
 通过本分步指南学习如何在 Aspose.HTML for Java 中处理文档加载事件。增强您的 Web 应用程序。
 ### [在 Aspose.HTML for Java 中创建和管理 SVG 文档](./create-manage-svg-documents/)
 学习使用 Aspose.HTML for Java 创建和管理 SVG 文档！本综合指南涵盖了从基本创建到高级操作的所有内容。
+### [在 Java 中查询 HTML – 完整教程](./how-to-query-html-in-java-complete-tutorial/)
+本完整教程详细讲解如何使用 Aspose.HTML for Java 查询 HTML 内容，包括选择器、XPath 和 CSS 查询等实用技巧。
+### [如何在 Java 中解析 HTML – 加载、查询与计数元素](./how-to-parse-html-java-load-query-count-elements/)
+本教程详细讲解如何使用 Aspose.HTML for Java 加载 HTML、执行查询并统计元素数量，帮助您高效解析网页。
+### [在 Aspose.HTML for Java 中创建 HTML 沙盒 – 步骤指南](./create-sandbox-for-html-in-java-step-by-step-guide/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

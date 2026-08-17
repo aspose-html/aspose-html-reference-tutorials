@@ -32,6 +32,8 @@ Aprenda a trabalhar com documentos HTML em .NET usando Aspose.HTML para tarefas 
 Aprenda como usar Aspose.HTML para .NET para manipular documentos HTML de forma eficiente. Tutorial passo a passo para desenvolvedores.
 ### [Provedor de fluxo de memória em .NET com Aspose.HTML](./memory-stream-provider/)
 Aprenda a criar documentos HTML impressionantes em .NET com Aspose.HTML. Siga nosso tutorial passo a passo e desbloqueie o poder da manipulação HTML.
+### [Criar fluxo de memória C# – Guia de criação de fluxo personalizado](./create-memory-stream-c-custom-stream-creation-guide/)
+Aprenda a criar e usar fluxos de memória personalizados em C# com Aspose.HTML, passo a passo e exemplos práticos.
 ### [Web Scraping em .NET com Aspose.HTML](./web-scraping/)
 Aprenda a manipular documentos HTML em .NET com Aspose.HTML. Navegue, filtre, consulte e selecione elementos de forma eficaz para desenvolvimento web aprimorado.
 ### [Use a propriedade de conteúdo estendido no .NET com Aspose.HTML](./use-extended-content-property/)

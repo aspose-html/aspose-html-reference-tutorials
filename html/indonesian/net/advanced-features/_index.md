@@ -32,6 +32,8 @@ Pelajari cara bekerja dengan dokumen HTML dalam .NET menggunakan Aspose.HTML unt
 Pelajari cara menggunakan Aspose.HTML untuk .NET guna memanipulasi dokumen HTML secara efisien. Tutorial langkah demi langkah untuk pengembang.
 ### [Penyedia Aliran Memori di .NET dengan Aspose.HTML](./memory-stream-provider/)
 Pelajari cara membuat dokumen HTML yang menakjubkan dalam .NET dengan Aspose.HTML. Ikuti tutorial langkah demi langkah kami dan dapatkan kekuatan manipulasi HTML.
+### [Buat Memory Stream C# – Panduan Pembuatan Stream Kustom](./create-memory-stream-c-custom-stream-creation-guide/)
+Pelajari cara membuat memory stream di C# dengan panduan langkah demi langkah untuk membuat stream kustom menggunakan Aspose.HTML.
 ### [Pengikisan Web dalam .NET dengan Aspose.HTML](./web-scraping/)
 Pelajari cara memanipulasi dokumen HTML dalam .NET dengan Aspose.HTML. Navigasi, filter, kueri, dan pilih elemen secara efektif untuk pengembangan web yang lebih baik.
 ### [Gunakan Properti Konten yang Diperluas di .NET dengan Aspose.HTML](./use-extended-content-property/)

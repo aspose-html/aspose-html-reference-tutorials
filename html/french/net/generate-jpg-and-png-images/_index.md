@@ -41,6 +41,18 @@ L'intégration d'Aspose.HTML pour .NET dans vos projets .NET est simple. La bibl
 Découvrez comment créer des pages Web dynamiques à l'aide d'Aspose.HTML pour .NET. Ce didacticiel étape par étape couvre les prérequis, les espaces de noms et le rendu HTML en images.
 ### [Générer des images PNG par ImageDevice dans .NET avec Aspose.HTML](./generate-png-images-by-imagedevice/)
 Apprenez à utiliser Aspose.HTML pour .NET pour manipuler des documents HTML, convertir du HTML en images, etc. Tutoriel étape par étape avec FAQ.
+### [Comment activer l'anticrénelage lors de la conversion de DOCX en PNG/JPG](./how-to-enable-antialiasing-when-converting-docx-to-png-jpg/)
+Apprenez à activer l'anticrénelage pour améliorer la qualité des images PNG/JPG générées à partir de documents DOCX avec Aspose.HTML.
+### [Convertir docx en png – créer une archive zip tutoriel C#](./convert-docx-to-png-create-zip-archive-c-tutorial/)
+Apprenez à convertir des fichiers DOCX en images PNG et à les compresser dans une archive ZIP avec C#.
+### [Créer un PNG à partir de HTML avec Aspose.HTML – Guide complet](./create-png-from-html-with-aspose-html-complete-guide/)
+Apprenez à convertir du HTML en images PNG avec Aspose.HTML, étape par étape, incluant les options de rendu et d'optimisation.
+### [Créer un PNG à partir de HTML avec Aspose.HTML – Guide étape par étape](./create-png-from-html-with-aspose-html-step-by-step-guide/)
+Apprenez à transformer du HTML en PNG avec Aspose.HTML grâce à un guide détaillé étape par étape.
+### [Créer une image à partir de HTML en C# – Guide étape par étape](./create-image-from-html-in-c-step-by-step-guide/)
+Apprenez à générer une image depuis du HTML en C# avec Aspose.HTML, en suivant un guide complet et détaillé.
+### [Convertir docx en png en C# – Guide complet étape par étape](./convert-docx-to-png-in-c-full-step-by-step-guide/)
+Apprenez à convertir des fichiers DOCX en images PNG en C# avec Aspose.HTML, grâce à un guide complet et détaillé.
 
 ## Conclusion
 

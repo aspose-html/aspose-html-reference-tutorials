@@ -32,6 +32,10 @@ Erfahren Sie, wie Sie mit Aspose.HTML mit HTML-Dokumenten in .NET für Aufgaben 
 Erfahren Sie, wie Sie mit Aspose.HTML für .NET HTML-Dokumente effizient bearbeiten. Schritt-für-Schritt-Anleitung für Entwickler.
 ### [Memory Stream Provider in .NET mit Aspose.HTML](./memory-stream-provider/)
 Erfahren Sie, wie Sie mit Aspose.HTML beeindruckende HTML-Dokumente in .NET erstellen. Folgen Sie unserem Schritt-für-Schritt-Tutorial und entfesseln Sie die Möglichkeiten der HTML-Manipulation.
+
+### [Erstellen Sie einen Memory Stream in C# – Leitfaden zur benutzerdefinierten Stream-Erstellung](./create-memory-stream-c-custom-stream-creation-guide/)
+Erfahren Sie, wie Sie mit Aspose.HTML in C# benutzerdefinierte Memory Streams erstellen und effizient nutzen.
+
 ### [Web Scraping in .NET mit Aspose.HTML](./web-scraping/)
 Erfahren Sie, wie Sie HTML-Dokumente in .NET mit Aspose.HTML bearbeiten. Navigieren, filtern, abfragen und wählen Sie Elemente effektiv aus, um die Webentwicklung zu verbessern.
 ### [Verwenden Sie die erweiterte Inhaltseigenschaft in .NET mit Aspose.HTML](./use-extended-content-property/)

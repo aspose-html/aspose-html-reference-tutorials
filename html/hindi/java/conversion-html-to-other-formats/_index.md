@@ -94,6 +94,9 @@ Aspose.HTML for Java का उपयोग करके HTML को XPS मे�
 ### [Markdown को HTML में बदलना](./convert-markdown-to-html/)
 Aspose.HTML for Java के साथ Java में Markdown को HTML में सहजता से बदलें। अपने दस्तावेज़ रूपांतरण आवश्यकताओं को सुव्यवस्थित करने के लिए हमारे चरण‑दर‑चरण गाइड का पालन करें।
 
+### [Java में HTML को Markdown में बदलते समय ऑफ़सेट कैसे सेट करें](./how-to-set-offset-when-converting-html-to-markdown-in-java/)
+Aspose.HTML for Java का उपयोग करके HTML को Markdown में बदलते समय ऑफ़सेट सेट करने की प्रक्रिया सीखें।
+
 ### [SVG को इमेज में बदलना](./convert-svg-to-image/)
 Aspose.HTML के साथ Java में SVG को इमेज में कैसे बदलें सीखें। उच्च‑गुणवत्ता आउटपुट के लिए व्यापक गाइड।
 
@@ -102,6 +105,15 @@ Aspose.HTML के साथ Java में SVG को PDF में बदल�
 
 ### [SVG को XPS में बदलना](./convert-svg-to-xps/)
 Aspose.HTML for Java के साथ SVG को XPS में कैसे बदलें सीखें। सहज रूपांतरण के लिए सरल, चरण‑दर‑चरण गाइड।
+
+### [Java में HTML को PDF में बदलें – पेज आकार सेटिंग्स के साथ चरण‑दर‑चरण गाइड](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
+Aspose.HTML for Java के साथ पेज आकार सेटिंग्स को नियंत्रित करते हुए HTML को PDF में बदलने का विस्तृत गाइड।
+
+### [Java में HTML से PDF बनाना – पूर्ण चरण‑दर‑चरण गाइड](./create-pdf-from-html-in-java-complete-step-by-step-guide/)
+Aspose.HTML for Java का उपयोग करके HTML से PDF बनाने की पूरी प्रक्रिया सीखें। चरण‑दर‑चरण मार्गदर्शन।
+
+### [Aspose HTML के साथ PDF पेज आकार सेट करें – पूर्ण Java गाइड](./set-pdf-page-size-with-aspose-html-full-java-guide/)
+Aspose HTML का उपयोग करके Java में PDF पेज आकार को कस्टमाइज़ करने की पूरी प्रक्रिया सीखें।
 
 ## अक्सर पूछे जाने वाले प्रश्न
 

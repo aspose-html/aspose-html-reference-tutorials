@@ -1,0 +1,7 @@
+Title: How to Save HTML with Controlled Depth – Step‑by‑Step Python Guide
+Slug: how-to-save-html-with-controlled-depth-step-by-step-python-g
+Category: general
+ProcessedDate: 2026-06-04T08:54:34.526722
+SourceRepo: AI Search API
+Keywords: how to save html, load html document, how to limit depth
+PRNumber: 173

@@ -32,6 +32,8 @@ Lär dig hur du arbetar med HTML-dokument i .NET med Aspose.HTML för uppgifter 
 Lär dig hur du använder Aspose.HTML för .NET för att manipulera HTML-dokument effektivt. Steg-för-steg handledning för utvecklare.
 ### [Minnesströmsleverantör i .NET med Aspose.HTML](./memory-stream-provider/)
 Lär dig hur du skapar fantastiska HTML-dokument i .NET med Aspose.HTML. Följ vår steg-för-steg handledning och lås upp kraften i HTML-manipulation.
+### [Skapa minnesström i C# – Guide för anpassad strömskapning](./create-memory-stream-c-custom-stream-creation-guide/)
+Lär dig hur du skapar en minnesström i C# med Aspose.HTML och anpassar strömhantering för effektiv HTML-manipulation.
 ### [Webbskrapning i .NET med Aspose.HTML](./web-scraping/)
 Lär dig att manipulera HTML-dokument i .NET med Aspose.HTML. Navigera, filtrera, fråga och välj element effektivt för förbättrad webbutveckling.
 ### [Använd Extended Content Property i .NET med Aspose.HTML](./use-extended-content-property/)

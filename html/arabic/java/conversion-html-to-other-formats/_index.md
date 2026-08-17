@@ -96,6 +96,13 @@ XPS هو صيغة الطباعة الخاصة بمايكروسوفت. باستخ
 حوّل SVG إلى PDF في Java باستخدام Aspose.HTML. حل سلس لتحويل المستندات بجودة عالية.
 ### [تحويل SVG إلى XPS](./convert-svg-to-xps/)
 تعلم كيفية تحويل SVG إلى XPS باستخدام Aspose.HTML for Java. دليل بسيط خطوة بخطوة لتحويلات سلسة.
+### [تحويل HTML إلى PDF في Java – دليل خطوة بخطوة مع إعدادات حجم الصفحة](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
+تعلم تحويل HTML إلى PDF في Java مع إعدادات حجم الصفحة خطوة بخطوة باستخدام Aspose.HTML.
+### [تعيين حجم صفحة PDF باستخدام Aspose HTML – دليل Java كامل](./set-pdf-page-size-with-aspose-html-full-java-guide/)
+تعلم كيفية ضبط حجم صفحة PDF أثناء التحويل باستخدام Aspose.HTML في Java خطوة بخطوة.
+### [كيفية تعيين الإزاحة عند تحويل HTML إلى Markdown في Java](./how-to-set-offset-when-converting-html-to-markdown-in-java/)
+تعلم كيفية ضبط إزاحة المحتوى أثناء تحويل ملفات HTML إلى تنسيق Markdown باستخدام Aspose.HTML for Java.
+### [إنشاء PDF من HTML في Java – دليل خطوة بخطوة كامل](./create-pdf-from-html-in-java-complete-step-by-step-guide/)
 
 ## الأسئلة المتكررة
 

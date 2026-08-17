@@ -132,6 +132,12 @@ A: 不需要。單一的 Aspose.HTML for Java 授權即涵蓋所有輸出格式�
 ### [使用 Aspose.HTML for Java 調整 XPS 頁面尺寸](./adjust-xps-page-size/)
 了解如何使用 Aspose.HTML for Java 調整 XPS 文件的輸出尺寸。
 
+### [如何在 Java 中執行 JavaScript – 完整指南](./how-to-run-javascript-in-java-complete-guide/)
+學習在 Java 應用程式中使用 Rhino、Nashorn 或 GraalVM 執行 JavaScript 程式碼的完整步驟。
+
+### [在 Java 中設定裝置像素比例 – 行動沙盒教學](./set-device-pixel-ratio-in-java-mobile-sandbox-tutorial/)
+說明如何在 Aspose.HTML for Java 的行動沙盒環境中設定裝置像素比例，以確保高解析度渲染。
+
 ---
 
 **最後更新日期：** 2025-11-29  

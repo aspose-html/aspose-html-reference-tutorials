@@ -1,11 +1,11 @@
 ---
-date: 2025-12-17
-description: Java için Aspose.HTML kullanarak EPUB'u XPS'ye nasıl dönüştüreceğinizi
+date: 2026-02-25
+description: Aspose.HTML for Java kullanarak EPUB'ları toplu olarak XPS'ye dönüştürmeyi
   öğrenin. Bu adım adım kılavuz, Java'da EPUB yüklemeyi ve XPS çıktısını özelleştirmeyi
   gösterir.
 linktitle: Converting EPUB to XPS
 second_title: Java HTML Processing with Aspose.HTML
-title: Aspose.HTML for Java ile EPUB'u XPS'e Nasıl Dönüştürülür
+title: Aspose.HTML for Java ile EPUB'yi XPS'ye Toplu Dönüştürme
 url: /tr/java/conversion-epub-to-xps/convert-epub-to-xps/
 weight: 10
 ---
@@ -14,29 +14,28 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.HTML for Java ile EPUB'u XPS'ye Dönüştürme
-
-Bu kapsamlı öğreticide, Aspose.HTML for Java kullanarak **EPUB'u XPS'ye nasıl dönüştüreceğinizi** öğreneceksiniz. Java'da bir EPUB dosyasını yüklemekten XPS çıktısını özelleştirmeye kadar her adımı adım adım göstereceğiz; böylece sadece kodu çalıştırmakla kalmaz, aynı zamanda her parçanın neden önemli olduğunu da anlarsınız.
+# Aspose.HTML for Java ile EPUB'yi XPS'ye Dönüştürme
 
 ## Hızlı Yanıtlar
-- **Bu öğretici neyi kapsıyor?** Aspose.HTML for Java ile bir EPUB dosyasını XPS formatına dönüştürme.  
-- **Hangi kütüphane gerekiyor?** Aspose.HTML for Java (ticari, ücretsiz deneme mevcuttur).  
+- **Bu öğreticide ne anlatılıyor?** Aspose.HTML for Java ile bir EPUB dosyasını XPS formatına dönüştürme.  
+- **Hangi kütüphane gerekiyor?** Aspose.HTML for Java (ticari, ücretsiz deneme mevcut).  
 - **Özel bir IDE'ye ihtiyacım var mı?** Java 8+ destekleyen herhangi bir Java IDE (IntelliJ, Eclipse, VS Code).  
 - **XPS görünümünü özelleştirebilir miyim?** Evet—arka plan rengi, sayfa boyutu ve daha fazlası `XpsSaveOptions` aracılığıyla.  
 - **Çıktı nerede kaydedilir?** Tanımladığınız bir yola, örneğin `EPUBtoXPS_Output.xps`.
 
 ## “convert epub to xps” nedir?
+EPUB'yi XPS'ye dönüştürmek, bir e‑kitap paketini (EPUB) düzeni, yazı tiplerini ve grafikleri koruyan sabit‑düzen bir belgeye (XPS) dönüştürmek anlamına gelir. XPS, baskı, arşivleme veya Windows cihazlarda görüntüleme için kullanışlıdır.
 
-EPUB'u XPS'ye dönüştürmek, bir e‑kitap paketi (EPUB) içeriğini, düzeni, yazı tiplerini ve grafikleri koruyan sabit‑düzen bir belge (XPS) haline getirmek anlamına gelir. XPS, baskı, arşivleme veya Windows cihazlarda görüntüleme için kullanışlıdır.
+## Neden Aspose.HTML for Java Kullanmalı?
+Aspose.HTML, dış bağımlılıklar olmadan HTML, EPUB ve diğer web formatlarını işleyen yüksek performanslı, saf Java motoru sunar. Dönüşüm seçenekleri üzerinde ayrıntılı kontrol sağlar ve sunucu‑tarafı belge iş akışları için idealdir.
 
-## Neden Aspose.HTML for Java kullanmalı?
+## Neden EPUB'yi XPS'ye Toplu Dönüştürmeliyiz?
+Toplu dönüşüm, bir seferde birçok e‑kitabı işlemeyi sağlar—dijital kütüphaneler, yayın akışları veya otomatik arşivleme için mükemmeldir. Dosyalar arasında aynı `XpsSaveOptions` örneğini kullanarak çıktıyı tutarlı tutar ve geliştirme süresinden tasarruf edersiniz.
 
-Aspose.HTML, harici bağımlılıklar olmadan HTML, EPUB ve diğer web formatlarını işleyen yüksek performanslı, saf Java motoru sunar. Dönüşüm seçenekleri üzerinde ince ayar kontrolü sağlar ve sunucu‑tarafı belge iş akışları için idealdir.
-
-## Ön Koşullar
+## Önkoşullar
 
 - **Java Geliştirme Ortamı** – JDK 8 veya daha yeni bir sürüm yüklü.  
-- **Aspose.HTML for Java** – Kütüphaneyi resmi siteden indirip projenizin sınıf yoluna ekleyin.  
+- **Aspose.HTML for Java** – Kütüphaneyi resmi siteden indirin ve projenizin sınıf yoluna ekleyin.  
 - **EPUB Belgesi** – Dönüşümü test etmek için bir `.epub` dosyanız olsun.
 
 ## Paketleri İçe Aktarma
@@ -50,13 +49,13 @@ import com.aspose.html.converters.Converter;
 import java.io.FileInputStream;
 ```
 
-Gerekli paketler içe aktarıldıktan sonra, gerçek dönüşüm adımlarına dalalım.
+Gerekli paketler içe aktarıldıktan sonra, dönüşüm adımlarını inceleyelim.
 
-## EPUB'u XPS'ye Dönüştürme – Dönüşüm Süreci
+## EPUB'yi XPS'ye Toplu Dönüştürme – Dönüşüm Süreci
 
 Bu numaralı adımları izleyin. Her adım kısa bir açıklama ve ihtiyacınız olan tam kodu içerir.
 
-### Adım 1: EPUB Belgesini Java'da Yükleyin
+### Adım 1: EPUB Belgesini Java'da Yükleme
 
 Bir EPUB dosyasını yüklemek, bir `FileInputStream` açmak kadar basittir. Burada ikincil anahtar kelime **load epub java** doğal olarak ortaya çıkar.
 
@@ -66,26 +65,26 @@ try (FileInputStream fileInputStream = new FileInputStream("input.epub")) {
 }
 ```
 
-> **Pro ipucu:** `FileInputStream`'i bir try‑with‑resources bloğuna (gösterildiği gibi) sararak akışın otomatik olarak kapanmasını sağlayın.
+> **Pro tip:** `FileInputStream`'i bir try‑with‑resources bloğuna sarın (gösterildiği gibi) böylece akış otomatik olarak kapanır.
 
-### Adım 2: `XpsSaveOptions`'ı Başlatın
+### Adım 2: `XpsSaveOptions` Başlatma
 
-`XpsSaveOptions`, XPS çıktısını ayarlamanıza olanak tanır. Bu örnekte camgöbeği bir arka plan ayarladık, ancak ihtiyacınız olan herhangi bir özelliği değiştirebilirsiniz.
+`XpsSaveOptions` XPS çıktısını ayarlamanızı sağlar. Bu örnekte camgöbeği bir arka plan ayarladık, ancak ihtiyacınız olan herhangi bir özelliği değiştirebilirsiniz.
 
 ```java
 XpsSaveOptions options = new XpsSaveOptions();
 options.setBackgroundColor(Color.getCyan());
 ```
 
-### Adım 3: Çıktı Dosya Yolunu Belirleyin
+### Adım 3: Çıktı Dosya Yolunu Belirleme
 
-Dönüştürülen XPS dosyasının nereye kaydedileceğine karar verin. Dosya adını veya dizini gerektiği gibi değiştirin.
+Dönüştürülen XPS dosyasının nereye kaydedileceğine karar verin. Gerekirse dosya adını veya dizini değiştirin.
 
 ```java
 String outputFile = "EPUBtoXPS_Output.xps";
 ```
 
-### Adım 4: Dönüşümü Gerçekleştirin
+### Adım 4: Dönüşümü Gerçekleştirme
 
 Son olarak, giriş akışı, seçenekler ve çıktı yolu ile `Converter.convertEPUB` metodunu çağırın.
 
@@ -97,36 +96,36 @@ Bu satır çalıştığında, Aspose.HTML EPUB'u okur, XPS seçeneklerini uygula
 
 ## Yaygın Sorunlar ve Çözümleri
 
-| Issue | Reason | Fix |
+| Sorun | Sebep | Çözüm |
 |-------|--------|-----|
-| **`FileNotFoundException`** | Yanlış `input.epub` yolu | Dosyanın çalışma dizinine göre mevcut olduğunu doğrulayın veya mutlak bir yol kullanın. |
-| **Missing fonts in XPS** | Yazı tipleri EPUB içinde gömülü değil | EPUB'un gerekli yazı tiplerini içerdiğinden emin olun veya bunları ana makineye kurun. |
-| **Out‑of‑memory error** | Çok büyük EPUB dosyaları | JVM yığın boyutunu (`-Xmx2g`) artırın veya mümkünse EPUB'u daha küçük parçalar halinde işleyin. |
+| **`FileNotFoundException`** | `input.epub` için yanlış yol | Dosyanın çalışma dizinine göre mevcut olduğunu doğrulayın veya mutlak bir yol kullanın. |
+| **XPS'de eksik yazı tipleri** | Yazı tipleri EPUB içinde gömülü değil | EPUB'un gerekli yazı tiplerini içerdiğinden emin olun veya bunları ana makineye kurun. |
+| **Bellek yetersizliği hatası** | Çok büyük EPUB dosyaları | JVM yığın boyutunu (`-Xmx2g`) artırın veya mümkünse EPUB'u daha küçük parçalar halinde işleyin. |
 
-## Sık Sorulan Sorular
+## Sıkça Sorulan Sorular
 
-**Q:** Şifre korumalı EPUB dosyalarını dönüştürebilir miyim?  
-**A:** Evet. Şifreyi temel akışa sağlayarak EPUB'u bir `FileInputStream` ile açın, ardından `Converter.convertEPUB` metoduna geçirin.
+**S: Parola korumalı EPUB dosyalarını dönüştürebilir miyim?**  
+C: Evet. Parolayı temel akışa sağlayarak EPUB'u bir `FileInputStream` ile açın, ardından `Converter.convertEPUB`'a geçirin.
 
-**Q:** Oluşturulan XPS'in sayfa boyutunu nasıl değiştiririm?  
-**A:** Genişlik ve yüksekliğin point cinsinden olduğu `options.setPageSize(width, height)` metodunu kullanın.
+**S: Oluşturulan XPS'nin sayfa boyutunu nasıl değiştiririm?**  
+C: Genişlik ve yükseklik puan cinsinden `options.setPageSize(width, height)` metodunu kullanın.
 
-**Q:** Birden fazla EPUB dosyasını toplu olarak dönüştürmek mümkün mü?  
-**A:** Kesinlikle. Dosya yolu listesini döngüyle işleyerek her dönüşümde aynı `XpsSaveOptions` örneğini yeniden kullanabilirsiniz.
+**S: Birden fazla EPUB dosyasını toplu olarak dönüştürmek mümkün mü?**  
+C: Kesinlikle. Dosya yolu listesini döngüye alarak, her dönüşümde aynı `XpsSaveOptions` örneğini yeniden kullanın.
 
-**Q:** Aspose.HTML, EPUB içindeki SVG görüntülerini destekliyor mu?  
-**A:** Evet. SVG içeriği XPS'e dönüşüm sırasında doğru şekilde işlenir.
+**S: Aspose.HTML, EPUB içindeki SVG görüntülerini destekliyor mu?**  
+C: Evet. SVG içeriği XPS'ye dönüşüm sırasında doğru şekilde işlenir.
 
 ## Sonuç
 
-Artık Aspose.HTML for Java kullanarak **EPUB'u XPS'ye dönüştürmek** için eksiksiz, üretim‑hazır bir kılavuza sahipsiniz. Yukarıdaki adımları izleyerek bu dönüşümü herhangi bir Java uygulamasına entegre edebilir, XPS görünümünü özelleştirebilir ve yaygın sorunları güvenle yönetebilirsiniz.
+Artık Aspose.HTML for Java kullanarak **EPUB'yi XPS'ye toplu olarak dönüştürmek** için eksiksiz, üretim‑hazır bir rehbere sahipsiniz. Yukarıdaki adımları izleyerek bu dönüşümü herhangi bir Java uygulamasına entegre edebilir, XPS görünümünü özelleştirebilir ve yaygın sorunları güvenle ele alabilirsiniz.
 
 Herhangi bir sorunla karşılaşırsanız veya daha fazla yardıma ihtiyaç duyarsanız, [Aspose.HTML destek forumundan](https://forum.aspose.com/) yardım almaktan çekinmeyin.
 
 ---
 
-**Son Güncelleme:** 2025-12-17  
-**Test Edilen:** Aspose.HTML for Java 24.12 (yazım anındaki en son sürüm)  
+**Son Güncelleme:** 2026-02-25  
+**Test Edilen Versiyon:** Aspose.HTML for Java 24.12 (yazım anındaki en son sürüm)  
 **Yazar:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

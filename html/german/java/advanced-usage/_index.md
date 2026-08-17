@@ -120,12 +120,16 @@ Erfahren Sie, wie Sie in diesem Schritt‑für‑Schritt‑Leitfaden einen DOM�
 Lernen Sie die Manipulation von HTML5‑Canvas mit Aspose.HTML für Java kennen. Erstellen Sie interaktive Grafiken mit einer Schritt‑für‑Schritt‑Anleitung.
 ### [HTML5‑Canvas‑Manipulation mit Aspose.HTML für Java](./html5-canvas-manipulation-using-javascript/)
 Erfahren Sie, wie Sie HTML5‑Canvas mit JavaScript und Aspose.HTML für Java manipulieren. Erstellen Sie dynamische Grafiken und konvertieren Sie sie zu PDF.
+### [Geräte‑Pixel‑Verhältnis in Java festlegen – Mobile Sandbox Tutorial](./set-device-pixel-ratio-in-java-mobile-sandbox-tutorial/)
+Erfahren Sie, wie Sie das Geräte‑Pixel‑Verhältnis in Java festlegen, um mobile Sandbox‑Renderings zu optimieren.
 ### [Automatisches Ausfüllen von HTML‑Formularen mit Aspose.HTML für Java](./html-form-editor-filling-submitting-forms/)
 Erfahren Sie, wie Sie das automatische Ausfüllen und Absenden von HTML‑Formularen mit Aspose.HTML für Java automatisieren. Vereinfachen Sie die Web‑Interaktion mit diesem Tutorial.
 ### [PDF‑Seitengröße mit Aspose.HTML für Java anpassen](./adjust-pdf-page-size/)
 Erfahren Sie, wie Sie die PDF‑Seitengröße mit Aspose.HTML für Java anpassen. Erstellen Sie mühelos hochwertige PDFs aus HTML und steuern Sie die Seitenabmessungen effektiv.
 ### [XPS‑Seitengröße mit Aspose.HTML für Java anpassen](./adjust-xps-page-size/)
 Erfahren Sie, wie Sie die XPS‑Seitengröße mit Aspose.HTML für Java anpassen. Steuern Sie die Ausgabedimensionen Ihrer XPS‑Dokumente einfach.
+### [Wie man JavaScript in Java ausführt – Komplettanleitung](./how-to-run-javascript-in-java-complete-guide/)
+Erfahren Sie, wie Sie JavaScript-Code innerhalb von Java-Anwendungen ausführen und integrieren können.
 
 ---
 

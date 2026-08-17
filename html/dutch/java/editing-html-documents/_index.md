@@ -58,6 +58,8 @@ Leer hoe u inline CSS toevoegt aan HTML-documenten met Aspose.HTML voor Java. De
 Leer hoe u interne en externe HTML-eigenschappen in Aspose.HTML voor Java beheert met deze stapsgewijze handleiding, perfect voor webontwikkelaars en makers van inhoud.
 ### [Implementeer interne CSS in HTML-documenten met Aspose.HTML voor Java](./implement-internal-css-html-documents/)
 Leer hoe u interne CSS in HTML-documenten implementeert met Aspose.HTML voor Java met onze eenvoudige stapsgewijze tutorial.
+### [Fixed thread pool Java – Parallelle HTML-reiniging met ExecutorService](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

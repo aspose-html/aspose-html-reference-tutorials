@@ -37,7 +37,7 @@ Tingkatkan kemampuan pemrosesan dokumen Anda dengan mempelajari cara menentukan 
 
 ## Menentukan Opsi Penyimpanan PDF untuk EPUB ke PDF
 
-Sesuaikan konversi EPUB ke PDF Anda lebih jauh lagi dengan menentukan opsi penyimpanan PDF. Aspose.HTML for Java memberi Anda kontrol penuh, memungkinkan Anda membuat dokumen PDF persis seperti yang Anda inginkan—baik Anda memerlukan font tersemat, ukuran halaman tertentu, atau kepatuhan terhadap standar PDF/A.
+Sesuaikan konversi EPUB ke PDF Anda lebih jauh lagi dengan menentukan opsi penyimpanan PDF. Aspose.HTML for Java memberi Anda kontrol penuh, memungkinkan Anda membuat dokumen PDF persis seperti yang Anda inginkan—bahwa Anda memerlukan font tersemat, ukuran halaman tertentu, atau kepatuhan terhadap standar PDF/A.
 
 ## Mengubah Konten Digital
 
@@ -56,6 +56,8 @@ Buka konversi EPUB ke PDF dengan Aspose.HTML for Java, perpustakaan Java yang ku
 Pelajari cara mengonversi EPUB ke PDF di Java dengan mudah menggunakan Aspose.HTML, meningkatkan kemampuan pemrosesan dokumen Anda.
 ### [Menentukan Opsi Penyimpanan PDF untuk EPUB ke PDF](./convert-epub-to-pdf-specify-pdf-save-options/)
 Pelajari cara mengonversi EPUB ke PDF di Java menggunakan Aspose.HTML, perpustakaan manipulasi HTML yang kuat.
+### [Cara Menyematkan Font Saat Mengonversi EPUB ke PDF di Java](./how-to-embed-fonts-when-converting-epub-to-pdf-in-java/)
+Pelajari cara menyematkan font dalam PDF saat mengonversi EPUB menggunakan Aspose.HTML for Java.
 ### [Mengonversi EPUB ke BMP](./convert-epub-to-bmp/)
 Pelajari cara mengonversi EPUB ke BMP menggunakan Aspose.HTML for Java. Panduan langkah demi langkah untuk transformasi konten yang efisien.
 ### [Mengonversi EPUB ke GIF](./convert-epub-to-gif/)

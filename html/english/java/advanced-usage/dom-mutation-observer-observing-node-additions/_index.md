@@ -3,7 +3,7 @@ title: Append Element to Body with Aspose.HTML for Java using a DOM Mutation Obs
 linktitle: Append Element to Body - Observing Node Additions
 second_title: Java HTML Processing with Aspose.HTML
 description: Learn how to append element to body and monitor DOM changes in Java using Aspose.HTML's Mutation Observer. Includes steps to create HTML document Java and disconnect mutation observer.
-date: 2025-11-30
+date: 2026-03-18
 weight: 11
 url: /java/advanced-usage/dom-mutation-observer-observing-node-additions/
 ---
@@ -120,6 +120,12 @@ When you’re finished monitoring, always **disconnect mutation observer** to fr
 observer.disconnect();
 ```
 
+## How to add paragraph to body
+In many real‑world scenarios you’ll want to insert a paragraph that contains dynamic content, such as user‑generated text or server‑side messages. By creating a `<p>` element, appending it to the `<body>`, and then adding a text node, you achieve exactly that. This approach works seamlessly with the Mutation Observer we set up, so the addition is logged instantly.
+
+## How to monitor DOM changes Java
+The observer configuration we used (`childList`, `subtree`, `characterData`) covers the most common change types. If you also need to track attribute modifications, simply enable `config.setAttributes(true)`. The observer runs on a background thread, so your main application flow remains uninterrupted while you receive detailed mutation records.
+
 ## Common Pitfalls & Tips
 - **Never forget to disconnect** – leaving observers running can lead to memory leaks.  
 - **Thread safety:** The callback runs on a background thread; use proper synchronization if you modify shared data.  
@@ -150,7 +156,7 @@ If you run into any issues, the community is ready to help in the [Aspose.HTML f
 
 ---
 
-**Last Updated:** 2025-11-30  
+**Last Updated:** 2026-03-18  
 **Tested With:** Aspose.HTML for Java 24.11  
 **Author:** Aspose
 

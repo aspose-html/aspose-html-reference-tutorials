@@ -62,6 +62,14 @@ Aspose.HTML を使用して、Java で URL から HTML ドキュメントを簡�
 このステップバイステップ ガイドで、Aspose.HTML for Java でドキュメント読み込みイベントを処理する方法を学習します。Web アプリケーションを強化します。
 ### [Aspose.HTML for Java で SVG ドキュメントを作成および管理する](./create-manage-svg-documents/)
 Aspose.HTML for Java を使用して SVG ドキュメントを作成および管理する方法を学びます。この包括的なガイドでは、基本的な作成から高度な操作まですべてをカバーしています。
+### [Java で HTML のサンドボックスを作成する – ステップバイステップ ガイド](./create-sandbox-for-html-in-java-step-by-step-guide/)
+Java アプリで HTML のサンドボックス環境を構築し、安全にテストする方法をステップバイステップで学びます。
+### [Java で HTML をクエリする方法 – 完全チュートリアル](./how-to-query-html-in-java-complete-tutorial/)
+Java で HTML を検索・抽出する方法をステップバイステップで解説します。XPath や CSS セレクタの活用例を含む完全ガイドです。
+### [Java で HTML を解析する方法 – ロード、クエリ、要素のカウント](./how-to-parse-html-java-load-query-count-elements/)
+### [Java で非同期 JavaScript を実行する – 完全ステップバイステップガイド](./execute-async-javascript-in-java-complete-step-by-step-guide/)
+Java アプリケーションで非同期 JavaScript を実行し、動的な Web コンテンツを操作する方法をステップバイステップで学びます。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

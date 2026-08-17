@@ -126,6 +126,10 @@ Aspose.HTML позволяет прикрепить `DomMutationObserver` к л�
 Узнайте, как изменять размер страниц PDF с помощью Aspose.HTML for Java. Создавайте высококачественные PDF из HTML без усилий, эффективно контролируя размеры страниц.
 ### [Регулировка размера XPS‑страницы с Aspose.HTML for Java](./adjust-xps-page-size/)
 Узнайте, как изменять размер страниц XPS с помощью Aspose.HTML for Java. Легко контролируйте размеры выводимых XPS‑документов.
+### [Как выполнить JavaScript в Java – Полное руководство](./how-to-run-javascript-in-java-complete-guide/)
+Узнайте, как запускать JavaScript‑код из Java‑приложений с помощью Aspose.HTML for Java.
+### [Установка коэффициента пикселей устройства в Java – Руководство по мобильной песочнице](./set-device-pixel-ratio-in-java-mobile-sandbox-tutorial/)
+Узнайте, как задать device pixel ratio в Java при работе в мобильной песочнице Aspose.HTML, обеспечивая корректный рендеринг на разных экранах.
 
 ---
 

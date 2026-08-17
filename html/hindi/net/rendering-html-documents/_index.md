@@ -46,16 +46,30 @@ Aspose.HTML for .NET अपनी समृद्ध विशेषताओं
 HTML को PNG में बदलने की पूरी प्रक्रिया सीखें, कोड उदाहरण और सर्वोत्तम प्रथाओं के साथ।
 ### [Aspose.HTML के साथ .NET में EPUB को XPS के रूप में प्रस्तुत करें](./render-epub-as-xps/)
 इस विस्तृत ट्यूटोरियल में जानें कि .NET के लिए Aspose.HTML के साथ HTML दस्तावेज़ कैसे बनाएँ और रेंडर करें। HTML मैनिपुलेशन, वेब स्क्रैपिंग और बहुत कुछ की दुनिया में गोता लगाएँ।
+
 ### [Aspose.HTML के साथ .NET में टाइमआउट रेंडर करना](./rendering-timeout/)
 Aspose.HTML for .NET में रेंडरिंग टाइमआउट को प्रभावी ढंग से नियंत्रित करने का तरीका जानें। रेंडरिंग विकल्पों का अन्वेषण करें और HTML दस्तावेज़ रेंडरिंग को सुचारू रूप से सुनिश्चित करें।
+
 ### [Aspose.HTML के साथ .NET में MHTML को XPS के रूप में प्रस्तुत करें](./render-mhtml-as-xps/)
  Aspose.HTML के साथ .NET में MHTML को XPS के रूप में प्रस्तुत करना सीखें। अपने HTML हेरफेर कौशल को बढ़ाएँ और अपनी वेब डेवलपमेंट परियोजनाओं को बढ़ावा दें!
+
 ### [Aspose.HTML के साथ .NET में एकाधिक दस्तावेज़ प्रस्तुत करें](./render-multiple-documents/)
 .NET के लिए Aspose.HTML का उपयोग करके कई HTML दस्तावेज़ों को रेंडर करना सीखें। इस शक्तिशाली लाइब्रेरी के साथ अपनी दस्तावेज़ प्रसंस्करण क्षमताओं को बढ़ाएँ।
+
 ### [Aspose.HTML के साथ .NET में SVG दस्तावेज़ को PNG के रूप में प्रस्तुत करें](./render-svg-doc-as-png/)
 .NET के लिए Aspose.HTML की शक्ति अनलॉक करें! SVG Doc को आसानी से PNG के रूप में रेंडर करना सीखें। चरण-दर-चरण उदाहरणों और FAQ में गोता लगाएँ। अभी शुरू करें!
 ### [HTML को रेंडर करने का तरीका – कस्टम रिसोर्स हैंडलर के साथ पूर्ण गाइड](./how-to-render-html-complete-guide-with-custom-resource-handl/)
 कस्टम रिसोर्स हैंडलर के साथ HTML रेंडर करने की पूरी प्रक्रिया सीखें।
+### [HTML को PNG के रूप में रेंडर करने का पूर्ण C# गाइड](./how-to-render-html-as-png-complete-c-guide/)
+C# में Aspose.HTML का उपयोग करके HTML को PNG में बदलने के चरण-दर-चरण निर्देश।
+
+### [Aspose का उपयोग करके HTML को PNG में रेंडर करने का चरण‑दर‑चरण गाइड](./how-to-use-aspose-to-render-html-to-png-step-by-step-guide/)
+Aspose.HTML के साथ HTML को PNG फ़ॉर्मेट में बदलने की पूरी प्रक्रिया सीखें, कोड उदाहरण और टिप्स के साथ।
+
+### [Aspose के साथ HTML को PNG में रेंडर करने का पूर्ण गाइड](./how-to-render-html-to-png-with-aspose-complete-guide/)
+Aspose.HTML का उपयोग करके HTML को PNG फ़ॉर्मेट में बदलने की पूरी प्रक्रिया सीखें, कोड उदाहरण और टिप्स के साथ।
+### [HTML से PNG बनाएं – पूर्ण C# रेंडरिंग गाइड](./create-png-from-html-full-c-rendering-guide/)
+HTML को PNG में बदलने के लिए पूर्ण C# रेंडरिंग चरणों को सीखें और Aspose.HTML का उपयोग करके उच्च गुणवत्ता वाले परिणाम प्राप्त करें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

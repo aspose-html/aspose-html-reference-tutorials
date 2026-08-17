@@ -71,6 +71,8 @@ Aspose.HTML สำหรับ .NET โดดเด่นด้วยควา�
 ปลดล็อกศักยภาพของการพัฒนาเว็บด้วย Aspose.HTML สำหรับ .NET สร้าง แปลง และจัดการเอกสาร HTML ได้อย่างง่ายดาย
 ### [สร้างเอกสาร HTML ด้วย Aspose.HTML – คู่มือขั้นตอนต่อขั้นตอน](./create-html-document-with-aspose-html-step-by-step-guide/)
 เรียนรู้วิธีสร้างเอกสาร HTML ด้วย Aspose.HTML ผ่านขั้นตอนที่ชัดเจนและตัวอย่างโค้ด
+### [สร้าง HTML จากสตริงใน C# – คู่มือ Custom Resource Handler](./create-html-from-string-in-c-custom-resource-handler-guide/)
+เรียนรู้วิธีสร้าง HTML จากสตริงใน C# ด้วยตัวจัดการทรัพยากรแบบกำหนดเองใน Aspose.HTML สำหรับ .NET
 
 ## บทสรุป
 

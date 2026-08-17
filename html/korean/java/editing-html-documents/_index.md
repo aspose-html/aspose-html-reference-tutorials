@@ -33,7 +33,7 @@ HTML 요소를 미세 조정하려는 사람이라면 내부 및 외부 HTML 속
 
 ## 고급 HTML 문서 트리 편집
 
-HTML 문서 편집의 기본을 익혔다면 이제 레벨업할 때입니다! 고급 HTML 문서 트리 편집 튜토리얼은 가능성의 경계를 넓히고자 하는 사람들을 위해 고안되었습니다. 몇 가지 명령만으로 전체 문서를 재구성할 수 있다고 상상해보세요. 놀라운 일이죠? 새로운 요소를 추가하든, 기존 요소를 수정하든, 심지어 HTML을 PDF로 변환하든, 이 가이드는 모든 단계를 안내합니다. HTML 콘텐츠에 대한 마법의 지팡이를 가진 것과 같습니다. 뛰어들 준비가 되셨나요?[더 읽어보기](./advanced-html-document-tree-editing/)
+HTML 문서 편집의 기본을 익혔다면 이제 레벨업할 때입니다! 고급 HTML 문서 트리 편집 튜토리얼은 가능성의 경계를 넓히고자 하는 사람들을 위해 고안되었습니다. 몇 가지 명령만으로 전체 문서를 재구성할 수 있다고 상상해보세요. 놀라운 일이죠? 새로운 요소를 추가하든, 기존 요소를 수정하든, 심지어 HTML을 PDF로 변환하든, 이 가이드는 모든 단계를 안내합니다. HTML 콘텐츠에 대한 마법의 지팁을 가진 것과 같습니다. 뛰어들 준비가 되셨나요?[더 읽어보기](./advanced-html-document-tree-editing/)
 
 ## 프로처럼 외부 CSS 적용하기
 
@@ -58,6 +58,8 @@ Aspose.HTML for Java를 사용하여 HTML 문서에 인라인 CSS를 추가하�
 이 단계별 가이드를 통해 웹 개발자와 콘텐츠 제작자에게 적합한 Aspose.HTML for Java에서 내부 및 외부 HTML 속성을 관리하는 방법을 알아보세요.
 ### [Aspose.HTML for Java를 사용하여 HTML 문서에 내부 CSS 구현](./implement-internal-css-html-documents/)
 간단한 단계별 튜토리얼을 통해 Java용 Aspose.HTML을 사용하여 HTML 문서에서 내부 CSS를 구현하는 방법을 알아보세요.
+### [고정 스레드 풀 Java – ExecutorService를 이용한 병렬 HTML 정리](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
+ExecutorService와 고정 스레드 풀을 활용해 HTML 문서를 병렬로 정리하는 방법을 단계별로 안내합니다.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

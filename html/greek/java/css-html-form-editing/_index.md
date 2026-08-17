@@ -30,6 +30,11 @@ url: /el/java/css-html-form-editing/
 Μάθετε πώς να χρησιμοποιείτε το Aspose.HTML για Java για την εφαρμογή προηγμένων τεχνικών CSS, συμπεριλαμβανομένων προσαρμοσμένων περιθωρίων σελίδας και δυναμικού περιεχομένου. Ένα λεπτομερές, πρακτικό σεμινάριο για προγραμματιστές.
 ### [Επεξεργασία και υποβολή φόρμας HTML με Aspose.HTML για Java](./html-form-editing/)
 Μάθετε πώς να επεξεργάζεστε και να υποβάλλετε φόρμες HTML μέσω προγραμματισμού χρησιμοποιώντας το Aspose.HTML για Java σε αυτόν τον αναλυτικό οδηγό βήμα προς βήμα.
+### [Επιλογή στοιχείου με κλάση σε Java – Πλήρης Οδηγός](./select-element-by-class-in-java-complete-how-to-guide/)
+Μάθετε πώς να επιλέγετε στοιχεία HTML με συγκεκριμένη κλάση χρησιμοποιώντας Aspose.HTML για Java σε αυτόν τον ολοκληρωμένο οδηγό.
+### [Πώς να διαβάσετε CSS σε Java – Πλήρης Οδηγός με Aspose.HTML](./how-to-read-css-in-java-complete-guide-with-aspose-html/)
+Μάθετε πώς να διαβάζετε και να επεξεργάζεστε αρχεία CSS σε Java χρησιμοποιώντας το Aspose.HTML σε αυτόν τον πλήρη οδηγό.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

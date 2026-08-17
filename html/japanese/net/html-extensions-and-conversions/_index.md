@@ -38,6 +38,13 @@ Aspose.HTML for .NET は単なるライブラリではありません。Web 開�
 
 ## HTML 拡張と変換のチュートリアル
 ### [Aspose.HTML を使用して .NET で HTML を PDF に変換する](./convert-html-to-pdf/)
+Aspose.HTML for .NET を使用すると、HTML を PDF に簡単に変換できます。ステップ バイ ステップ ガイドに従って、HTML から PDF への変換のパワーを解放しましょう。
+
+### [HTML から PDF を作成する – C# ステップバイステップ ガイド](./create-pdf-from-html-c-step-by-step-guide/)
+Aspose.HTML for .NET を使用して、C# で HTML から PDF を作成する手順をステップバイステップで解説します。
+
+### [スタイル付きテキストで HTML ドキュメントを作成し、PDF にエクスポートする – 完全ガイド](./create-html-document-with-styled-text-and-export-to-pdf-full/)
+Aspose.HTML for .NET を使用して、スタイル付きテキストを含む HTML ドキュメントを作成し、PDF にエクスポートする手順を詳しく解説します。
 ### [Aspose.HTML を使用して .NET で EPUB を画像に変換する](./convert-epub-to-image/)
 ### [Aspose.HTML を使用して .NET で EPUB を PDF に変換する](./convert-epub-to-pdf/)
 ### [Aspose.HTML を使用して .NET で EPUB を XPS に変換する](./convert-epub-to-xps/)
@@ -51,6 +58,17 @@ Aspose.HTML for .NET は単なるライブラリではありません。Web 開�
 ### [Aspose.HTML を使用して .NET で HTML を TIFF に変換する](./convert-html-to-tiff/)
 ### [Aspose.HTML を使用して .NET で HTML を XPS に変換する](./convert-html-to-xps/)
 ### [URL から PDF を作成 – 完全 C# ガイド](./create-pdf-from-url-complete-c-guide/)
+Aspose.HTML for .NET のパワーを発見してください: HTML を XPS に簡単に変換します。前提条件、ステップバイステップ ガイド、FAQ が含まれています。
+### [HTML を ZIP に保存 – 完全 C# チュートリアル](./save-html-as-zip-complete-c-tutorial/)
+Aspose.HTML for .NET を使用して、HTML コンテンツを ZIP アーカイブとして保存する方法をステップバイステップで解説します。
+
+### [C# で HTML を Zip に圧縮する方法 – HTML を Zip に保存](./how-to-zip-html-in-c-save-html-to-zip/)
+C# と Aspose.HTML を使用して、HTML コンテンツを Zip アーカイブに保存する手順をステップバイステップで解説します。
+### [C# で HTML を ZIP に保存 – 完全インメモリ例](./save-html-to-zip-in-c-complete-in-memory-example/)
+Aspose.HTML for .NET を使用して、HTML をメモリ内で ZIP アーカイブに保存する手順をステップバイステップで解説します。
+
+### [C# のカスタム リソース ハンドラ – HTML を ZIP に変換するチュートリアル](./custom-resource-handler-in-c-convert-html-to-zip-tutorial/)
+Aspose.HTML for .NET を使用して、C# でカスタム リソース ハンドラを作成し、HTML を ZIP アーカイブに変換する方法をステップバイステップで解説します。
 
 ## 結論
 
