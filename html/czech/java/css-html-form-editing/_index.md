@@ -41,3 +41,11 @@ Naučte se, jak pomocí Aspose.HTML v Javě načíst a analyzovat CSS soubory.
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Získání vypočítaného stylu Java – Extrakce barvy pozadí z HTML](./get-computed-style-java-extract-background-color-from-html/)
+Naučte se pomocí Aspose.HTML pro Java získat vypočítané styly a extrahovat barvu pozadí z HTML dokumentu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

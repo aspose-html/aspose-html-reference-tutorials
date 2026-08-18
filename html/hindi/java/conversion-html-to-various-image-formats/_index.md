@@ -97,28 +97,23 @@ Aspose.HTML for Java का उपयोग करके HTML दस्ताव
 - **फ़ॉन्ट गायब** – सर्वर पर आवश्यक फ़ॉन्ट इंस्टॉल करें या `@font-face` का उपयोग करके HTML में एम्बेड करें।
 
 ## रूपांतरण - HTML को विभिन्न इमेज फ़ॉर्मैट ट्यूटोरियल
-
 ### [HTML को BMP में बदलना](./convert-html-to-bmp/)
 Aspose.HTML for Java के साथ HTML को BMP में बदलें। एक व्यापक ट्यूटोरियल जो Aspose.HTML for Java का उपयोग करके HTML दस्तावेज़ों को BMP इमेज में सहजता से बदलने की प्रक्रिया बताता है।
-
 ### [HTML को GIF में बदलना](./convert-html-to-gif/)
 Aspose.HTML का उपयोग करके Java में HTML को GIF में कैसे बदलें सीखें। प्रभावी HTML‑to‑GIF रूपांतरण के लिए एक व्यापक चरण‑दर‑चरण गाइड।
-
 ### [HTML को JPEG में बदलना](./convert-html-to-jpeg/)
 Aspose.HTML for Java के साथ HTML को JPEG में कैसे बदलें सीखें। सहज दस्तावेज़ प्रोसेसिंग के लिए चरण‑दर‑चरण गाइड।
-
 ### [HTML को PNG में बदलना](./convert-html-to-png/)
 Aspose.HTML के साथ Java में HTML को PNG इमेज में कैसे बदलें सीखें। चरण‑दर‑चरण निर्देशों के साथ एक व्यापक गाइड।
-
 ### [SVG से PNG बनाना – पूर्ण चरण‑दर‑चरण गाइड](./create-png-from-svg-in-java-complete-step-by-step-guide/)
 Aspose.HTML for Java का उपयोग करके SVG फ़ाइल को PNG इमेज में बदलने के विस्तृत चरण‑दर‑चरण गाइड।
-
 ### [HTML को TIFF में बदलना](./convert-html-to-tiff/)
 Aspose.HTML for Java का उपयोग करके HTML को TIFF में आसानी से कैसे बदलें सीखें। प्रभावी दस्तावेज़ हैंडलिंग के लिए चरण‑दर‑चरण गाइड।
-
 ### [HTML को WebP में बदलना](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
 Aspose.HTML for Java का उपयोग करके HTML को WebP इमेज में बदलने के चरण‑दर‑चरण निर्देश।
-
+### [HTML को PNG में बदलते समय DPI कैसे सेट करें – पूर्ण गाइड](./how-to-set-dpi-when-converting-html-to-png-complete-guide/)
+Aspose.HTML for Java के साथ HTML को PNG में बदलते समय DPI सेट करने की विस्तृत प्रक्रिया सीखें।
+### [उच्च DPI रेंडरिंग Java में – कस्टम यूज़र एजेंट के साथ वेबपेज स्क्रीनशॉट कैप्चर करें](./high-dpi-rendering-in-java-capture-webpage-screenshots-with/)
 ## अक्सर पूछे जाने वाले प्रश्न
 
 **प्रश्न: क्या मैं Java का उपयोग करके अतिरिक्त इमेज लाइब्रेरी के बिना HTML को PNG में बदल सकता हूँ?**  

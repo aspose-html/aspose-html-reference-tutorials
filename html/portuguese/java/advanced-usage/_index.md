@@ -112,33 +112,39 @@ A: Use `HtmlLoadOptions` com as margens definidas em `PageSetup` e habilite `Ena
 A: Não. Uma única licença do Aspose.HTML for Java cobre todos os formatos de saída, incluindo PDF e XPS.
 
 ## Uso avançado dos tutoriais Aspose.HTML Java
-
 ### [Personalizar margens de página HTML com Aspose.HTML](./css-extensions-adding-title-page-number/)
 Aprenda a personalizar margens de página, adicionar numeração de páginas e títulos a documentos HTML usando Aspose.HTML for Java.
-
 ### [Observador de Mutação DOM com Aspose.HTML for Java](./dom-mutation-observer-observing-node-additions/)
 Aprenda a usar Aspose.HTML for Java para implementar um Observador de Mutação DOM neste guia passo a passo. Monitore e reaja às mudanças no DOM de forma eficaz.
-
 ### [Manipulação de Canvas HTML5 com Aspose.HTML for Java](./html5-canvas-manipulation-using-code/)
 Aprenda a manipular Canvas HTML5 usando Aspose.HTML for Java. Crie gráficos interativos com orientação passo a passo.
-
 ### [Manipulação de Canvas HTML5 com Aspose.HTML for Java](./html5-canvas-manipulation-using-javascript/)
 Aprenda a manipular Canvas HTML5 com JavaScript usando Aspose.HTML for Java. Crie gráficos dinâmicos e converta para PDF.
-
 ### [Automatizar o preenchimento de formulários HTML com Aspose.HTML for Java](./html-form-editor-filling-submitting-forms/)
 Aprenda a automatizar o preenchimento e envio de formulários HTML com Aspose.HTML for Java. Simplifique a interação web com este tutorial.
-
 ### [Ajustar tamanho de página PDF com Aspose.HTML for Java](./adjust-pdf-page-size/)
 Aprenda a ajustar o tamanho de página PDF com Aspose.HTML for Java. Crie PDFs de alta qualidade a partir de HTML sem esforço. Controle as dimensões da página de forma eficaz.
-
 ### [Ajustar tamanho de página XPS com Aspose.HTML for Java](./adjust-xps-page-size/)
 Aprenda a ajustar o tamanho de página XPS com Aspose.HTML for Java. Controle facilmente as dimensões de saída dos seus documentos XPS.
-
 ### [Como Executar JavaScript em Java – Guia Completo](./how-to-run-javascript-in-java-complete-guide/)
 Aprenda a executar código JavaScript dentro de aplicações Java usando Aspose.HTML for Java.
-
 ### [Definir proporção de pixels do dispositivo em Java – Tutorial de Sandbox Móvel](./set-device-pixel-ratio-in-java-mobile-sandbox-tutorial/)
 Aprenda a definir a proporção de pixels do dispositivo em Java usando o Sandbox Móvel do Aspose.HTML.
+
+---
+
+**Última atualização:** 2025-11-29  
+**Testado com:** Aspose.HTML for Java 24.11  
+**Autor:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Extrair HTML de MHTML – Guia Completo em Java](./extract-html-from-mhtml-complete-java-guide/)
+Aprenda a extrair HTML de arquivos MHTML usando Aspose.HTML for Java, com exemplos completos.
 
 ---
 

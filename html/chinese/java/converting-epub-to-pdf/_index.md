@@ -51,40 +51,30 @@ EPUB 文件被广泛用于电子书，但有时您需要将其转换为 PDF 格�
 ## EPUB 转 PDF 教程
 ### [Converting EPUB to PDF](./convert-epub-to-pdf/)
 使用 Aspose.HTML for Java 解锁 EPUB 到 PDF 的转换，这是一款强大的 Java 库。轻松创建可访问的内容。
-
 ### [Specifying Custom Stream Provider for EPUB to PDF](./convert-epub-to-pdf-specify-custom-stream-provider/)
 学习如何使用 Aspose.HTML 在 Java 中轻松将 EPUB 转换为 PDF，提升文档处理能力。
-
 ### [Specifying PDF Save Options for EPUB to PDF](./convert-epub-to-pdf-specify-pdf-save-options/)
 学习如何使用 Aspose.HTML 将 EPUB 转换为 PDF，这是一款强大的 HTML 操作库。
-
 ### [在 Java 中将 EPUB 转换为 PDF 时如何嵌入字体](./how-to-embed-fonts-when-converting-epub-to-pdf-in-java/)
 学习在使用 Aspose.HTML for Java 将 EPUB 转 PDF 时嵌入自定义字体，确保文档显示一致。
-
 ### [Converting EPUB to BMP](./convert-epub-to-bmp/)
 了解如何使用 Aspose.HTML for Java 将 EPUB 转换为 BMP。提供高效内容转换的分步指南。
-
 ### [Converting EPUB to GIF](./convert-epub-to-gif/)
 了解如何使用 Aspose.HTML for Java 将 EPUB 转换为 GIF。为您的多媒体需求提供简便高效的转换流程。
-
 ### [Converting EPUB to JPG](./convert-epub-to-jpg/)
 了解如何使用 Aspose.HTML for Java 将 EPUB 转换为 JPG 图像。遵循我们的分步指南，实现无缝转换。
-
 ### [Converting EPUB to PNG](./convert-epub-to-png/)
 了解如何使用 Aspose.HTML for Java 将 EPUB 转换为 PNG。遵循分步指南，让您的电子书内容更具视觉吸引力。
-
 ### [Converting EPUB to TIFF](./convert-epub-to-tiff/)
 了解如何使用 Aspose.HTML for Java 将 EPUB 转换为 TIFF。提供高质量文档转换的分步指南。
-
 ### [Specifying Custom Stream Provider for EPUB to Image Conversion](./convert-epub-to-image-specify-custom-stream-provider/)
 学习如何使用 Aspose.HTML for Java 将 EPUB 文件转换为图像的分步指南。
-
 ### [Specifying Image Save Options for EPUB to Image Conversion](./convert-epub-to-image-specify-image-save-options/)
 学习使用 Aspose.HTML for Java：将 EPUB 转换为图像等。探索我们的分步指南。
-
 ### [Converting EPUB to Image](./convert-epub-to-image/)
 了解如何使用 Aspose.HTML for Java 将 EPUB 转换为图像。轻松转换数字内容。包含分步指南。
-
+### [在将 EPUB 转换为 PDF 时嵌入字体 – Java 指南](./how-to-embed-fonts-when-converting-epub-to-pdf-java-guide/)
+了解如何在使用 Aspose.HTML for Java 将 EPUB 转换为 PDF 时嵌入自定义字体，确保文档在所有设备上保持一致显示。
 ## 常见问题
 
 **Q:** *我可以将受保护的 EPUB 文件转换为 PDF 吗？*  

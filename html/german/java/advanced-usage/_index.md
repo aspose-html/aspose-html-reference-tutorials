@@ -143,3 +143,18 @@ Erfahren Sie, wie Sie JavaScript-Code innerhalb von Java-Anwendungen ausführen 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [HTML aus MHTML extrahieren – Vollständiger Java-Leitfaden](./extract-html-from-mhtml-complete-java-guide/)
+Erfahren Sie, wie Sie HTML‑Inhalte aus MHTML‑Dateien extrahieren und weiterverarbeiten mit Aspose.HTML für Java.
+
+---
+
+**Zuletzt aktualisiert:** 2025-11-29  
+**Getestet mit:** Aspose.HTML für Java 24.11  
+**Autor:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

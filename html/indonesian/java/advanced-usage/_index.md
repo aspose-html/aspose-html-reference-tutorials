@@ -102,33 +102,39 @@ J: Gunakan `HtmlLoadOptions` dengan margin `PageSetup` dan aktifkan `EnableCssLa
 J: Tidak. Satu lisensi Aspose.HTML untuk Java mencakup semua format output, termasuk PDF dan XPS.
 
 ## Penggunaan Lanjutan Tutorial Aspose.HTML Java
-
 ### [Sesuaikan Margin Halaman HTML dengan Aspose.HTML](./css-extensions-adding-title-page-number/)
 Pelajari cara menyesuaikan margin halaman, menambahkan nomor halaman, dan judul ke dokumen HTML menggunakan Aspose.HTML untuk Java.
-
 ### [Pengamat Mutasi DOM dengan Aspose.HTML untuk Java](./dom-mutation-observer-observing-node-additions/)
 Pelajari cara menggunakan Aspose.HTML untuk Java untuk mengimplementasikan Pengamat Mutasi DOM dalam panduan langkah demi langkah ini. Pantau dan respons perubahan DOM secara efektif.
-
 ### [Manipulasi Canvas HTML5 dengan Aspose.HTML untuk Java](./html5-canvas-manipulation-using-code/)
 Pelajari manipulasi Canvas HTML5 menggunakan Aspose.HTML untuk Java. Buat grafik interaktif dengan panduan langkah demi langkah.
-
 ### [Manipulasi Canvas HTML5 dengan Aspose.HTML untuk Java](./html5-canvas-manipulation-using-javascript/)
 Pelajari cara memanipulasi Canvas HTML5 dengan JavaScript menggunakan Aspose.HTML untuk Java. Buat grafik dinamis dan konversi ke PDF.
-
 ### [Otomatisasi Pengisian Formulir HTML dengan Aspose.HTML untuk Java](./html-form-editor-filling-submitting-forms/)
 Pelajari cara mengotomatisasi pengisian dan pengiriman formulir HTML dengan Aspose.HTML untuk Java. Sederhanakan interaksi web dengan tutorial ini.
-
 ### [Sesuaikan Ukuran Halaman PDF dengan Aspose.HTML untuk Java](./adjust-pdf-page-size/)
 Pelajari cara menyesuaikan ukuran halaman PDF dengan Aspose.HTML untuk Java. Buat PDF berkualitas tinggi dari HTML dengan mudah. Kontrol dimensi halaman secara efektif.
-
 ### [Sesuaikan Ukuran Halaman XPS dengan Aspose.HTML untuk Java](./adjust-xps-page-size/)
 Pelajari cara menyesuaikan ukuran halaman XPS dengan Aspose.HTML untuk Java. Kontrol dimensi output dokumen XPS Anda dengan mudah.
-
 ### [Cara Menjalankan JavaScript di Java – Panduan Lengkap](./how-to-run-javascript-in-java-complete-guide/)
 Pelajari cara menjalankan kode JavaScript dalam aplikasi Java dengan Aspose.HTML untuk Java secara lengkap.
-
 ### [Atur Rasio Piksel Perangkat di Java – Tutorial Sandbox Seluler](./set-device-pixel-ratio-in-java-mobile-sandbox-tutorial/)
 Pelajari cara mengatur rasio piksel perangkat dalam lingkungan sandbox seluler menggunakan Aspose.HTML untuk Java.
+
+---
+
+**Terakhir Diperbarui:** 2025-11-29  
+**Diuji Dengan:** Aspose.HTML for Java 24.11  
+**Penulis:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Ekstrak HTML dari MHTML – Panduan Lengkap Java](./extract-html-from-mhtml-complete-java-guide/)
+Pelajari cara mengekstrak konten HTML dari file MHTML menggunakan Aspose.HTML untuk Java dalam panduan lengkap ini.
 
 ---
 

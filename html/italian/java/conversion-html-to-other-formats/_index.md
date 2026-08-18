@@ -95,6 +95,12 @@ In conclusione, padroneggiare **html to pdf java** e l'insieme più ampio di con
 ### [Conversione da SVG a XPS](./convert-svg-to-xps/)
 ### [Imposta la dimensione della pagina PDF con Aspose HTML – Guida completa Java](./set-pdf-page-size-with-aspose-html-full-java-guide/)
 
+### [Crea un pool di thread fisso per la conversione parallela da HTML a PDF](./create-fixed-thread-pool-for-parallel-html-to-pdf-conversion/)
+Scopri come utilizzare un pool di thread fisso per convertire più file HTML in PDF in parallelo con Aspose.HTML for Java.
+
+### [Converti HTML in Markdown – Guida Completa C#](./convert-html-to-markdown-complete-c-guide/)
+Scopri come convertire HTML in Markdown usando C# con Aspose.HTML. Guida passo‑passo per una conversione accurata.
+
 ## Domande frequenti
 
 **Q: Posso usare Aspose.HTML for Java in un'applicazione commerciale?**  

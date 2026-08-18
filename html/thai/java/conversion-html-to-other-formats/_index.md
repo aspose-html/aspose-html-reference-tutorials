@@ -113,7 +113,9 @@ Aspose.HTML for Java ทำให้กระบวนการแปลง HTML
 เรียนรู้วิธีตั้งขนาดหน้า PDF อย่างละเอียดใน Java ด้วย Aspose.HTML
 ### [วิธีตั้งค่า Offset เมื่อแปลง HTML เป็น Markdown ใน Java](./how-to-set-offset-when-converting-html-to-markdown-in-java/)
 เรียนรู้วิธีกำหนดค่า offset ในการแปลง HTML ไปเป็น Markdown ด้วย Aspose.HTML for Java อย่างละเอียด
-
+### [แปลง HTML เป็น Markdown – คู่มือฉบับสมบูรณ์สำหรับ C#](./convert-html-to-markdown-complete-c-guide/)
+เรียนรู้วิธีแปลง HTML เป็น Markdown ใน C# ด้วย Aspose.HTML ทำตามคู่มือขั้นตอน‑ต่อ‑ขั้นตอนเพื่อแปลงเอกสารได้ง่าย
+### [สร้าง Fixed Thread Pool สำหรับการแปลง HTML เป็น PDF แบบขนาน](./create-fixed-thread-pool-for-parallel-html-to-pdf-conversion/)
 ## คำถามที่พบบ่อย
 
 **ถาม: ฉันสามารถใช้ Aspose.HTML สำหรับ Java ในแอปพลิเคชันเชิงพาณิชย์ได้หรือไม่**

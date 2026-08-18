@@ -40,3 +40,11 @@ Aspose.HTML for Java kullanarak CSS dosyalarını nasıl okuyacağınızı ve an
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Get Computed Style Java – HTML'den Arka Plan Rengini Çıkar](./get-computed-style-java-extract-background-color-from-html/)
+Aspose.HTML for Java kullanarak bir HTML öğesinin hesaplanmış stilinden arka plan rengini nasıl alacağınızı öğrenin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

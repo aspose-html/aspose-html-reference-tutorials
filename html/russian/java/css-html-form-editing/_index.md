@@ -40,3 +40,12 @@ url: /ru/java/css-html-form-editing/
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Получить вычисленный стиль Java – извлечь цвет фона из HTML](./get-computed-style-java-extract-background-color-from-html/)
+Узнайте, как с помощью Aspose.HTML для Java получить вычисленный стиль и извлечь цвет фона из HTML‑страницы.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -41,3 +41,12 @@ url: /el/java/css-html-form-editing/
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Λήψη Υπολογιζόμενου Στυλ Java – Εξαγωγή Χρώματος Φόντου από HTML](./get-computed-style-java-extract-background-color-from-html/)
+Μάθετε πώς να χρησιμοποιείτε το Aspose.HTML για Java για να εξάγετε το υπολογιζόμενο χρώμα φόντου ενός στοιχείου HTML.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

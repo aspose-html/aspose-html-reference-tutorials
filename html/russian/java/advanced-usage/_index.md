@@ -143,3 +143,18 @@ Aspose.HTML позволяет прикрепить `DomMutationObserver` к л�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Извлечение HTML из MHTML – Полное руководство по Java](./extract-html-from-mhtml-complete-java-guide/)
+Узнайте, как извлечь HTML‑контент из MHTML‑файлов с помощью Aspose.HTML for Java.
+
+---
+
+**Последнее обновление:** 2025-11-29  
+**Тестировано с:** Aspose.HTML for Java 24.11  
+**Автор:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -41,3 +41,11 @@ Ismerje meg, hogyan olvashat és elemezhet CSS-fájlokat Java-ban az Aspose.HTML
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Számított stílus Java – Háttérszín kinyerése HTML-ből](./get-computed-style-java-extract-background-color-from-html/)
+Ismerje meg, hogyan nyerheti ki a háttérszínt egy HTML-elemből a Java GetComputedStyle metódusával.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

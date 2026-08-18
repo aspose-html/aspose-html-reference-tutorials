@@ -143,3 +143,18 @@ Java में मोबाइल सैंडबॉक्स का उपय�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [MHTML से HTML निकालें – पूर्ण Java गाइड](./extract-html-from-mhtml-complete-java-guide/)
+MHTML फ़ाइल से HTML सामग्री निकालने और प्रोसेस करने के लिए Aspose.HTML for Java का उपयोग कैसे करें, सीखें।  
+
+---
+
+**Last Updated:** 2025-11-29  
+**Tested With:** Aspose.HTML for Java 24.11  
+**Author:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

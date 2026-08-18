@@ -143,3 +143,18 @@ Naučte se, jak nastavit poměr pixelů zařízení v Javě pomocí mobilního s
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Extrahování HTML z MHTML – Kompletní průvodce pro Javu](./extract-html-from-mhtml-complete-java-guide/)
+Naučte se, jak pomocí Aspose.HTML pro Java extrahovat HTML obsah z MHTML souborů a pracovat s ním.
+
+---
+
+**Poslední aktualizace:** 2025-11-29  
+**Testováno s:** Aspose.HTML pro Java 24.11  
+**Autor:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

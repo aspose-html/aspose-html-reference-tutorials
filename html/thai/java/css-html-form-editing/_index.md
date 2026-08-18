@@ -41,3 +41,12 @@ url: /th/java/css-html-form-editing/
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [รับ Computed Style ด้วย Java – ดึงสีพื้นหลังจาก HTML](./get-computed-style-java-extract-background-color-from-html/)
+เรียนรู้วิธีดึงสีพื้นหลังจาก HTML ด้วยการใช้ Computed Style ของ Aspose.HTML สำหรับ Java
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
