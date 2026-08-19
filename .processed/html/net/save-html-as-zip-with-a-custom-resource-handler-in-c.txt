@@ -1,0 +1,7 @@
+Title: Save HTML as ZIP with a custom resource handler in C#
+Slug: save-html-as-zip-with-a-custom-resource-handler-in-c
+Category: advanced-features
+ProcessedDate: 2026-08-19T14:27:42.167364
+SourceRepo: AI Search API
+Keywords: save html as zip, custom resource handler
+PRNumber: 245
