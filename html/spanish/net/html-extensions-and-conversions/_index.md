@@ -37,6 +37,7 @@ El desarrollo web suele implicar la conversión de documentos HTML a distintos f
 Aspose.HTML para .NET no es solo una biblioteca, es un punto de inflexión en el mundo del desarrollo web. Ofrece una amplia gama de funciones y herramientas que agilizan las tareas relacionadas con HTML. Al finalizar estos tutoriales, contará con los conocimientos y las habilidades necesarios para maximizar el potencial de Aspose.HTML para .NET.
 
 ## Tutoriales de extensiones y conversiones de HTML
+
 ### [Convierte HTML a PDF en .NET con Aspose.HTML](./convert-html-to-pdf/)
 Convierta HTML a PDF sin esfuerzo con Aspose.HTML para .NET. Siga nuestra guía paso a paso y aproveche el poder de la conversión de HTML a PDF.
 ### [Crear PDF a partir de HTML – Guía paso a paso en C#](./create-pdf-from-html-c-step-by-step-guide/)
@@ -77,7 +78,10 @@ Aprenda a empaquetar archivos HTML en un archivo ZIP usando C# y Aspose.HTML. Gu
 Aprenda a guardar HTML en un archivo ZIP usando C# con un ejemplo completo en memoria.
 ### [Controlador de recursos personalizado en C# – Tutorial de conversión de HTML a ZIP](./custom-resource-handler-in-c-convert-html-to-zip-tutorial/)
 Aprenda a crear un manejador de recursos personalizado en C# para convertir documentos HTML en archivos ZIP usando Aspose.HTML.
-
+### [Convierte HTML a PDF con Aspose.HTML – Guía completa paso a paso](./convert-html-to-pdf-with-aspose-html-full-step-by-step-guide/)
+Aprenda a convertir HTML a PDF con Aspose.HTML siguiendo esta guía completa paso a paso.
+### [Crear archivo zip C# – Guía paso a paso para comprimir HTML en memoria](./create-zip-file-c-step-by-step-guide-to-zip-html-in-memory/)
+Aprenda a crear un archivo zip en C# y comprimir contenido HTML directamente en memoria con Aspose.HTML.
 ## Conclusión
 
 En conclusión, las extensiones y conversiones HTML son elementos esenciales del desarrollo web moderno. Aspose.HTML para .NET simplifica el proceso y lo hace accesible a desarrolladores de todos los niveles. Si sigue nuestros tutoriales, estará en el camino correcto para convertirse en un desarrollador web competente con un amplio conjunto de habilidades.

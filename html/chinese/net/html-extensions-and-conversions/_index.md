@@ -37,6 +37,7 @@ Web 开发通常涉及将 HTML 文档转换为不同的格式。Aspose.HTML for 
 Aspose.HTML for .NET 不仅仅是一个库；它是 Web 开发领域的变革者。它提供了广泛的功能和工具，可简化与 HTML 相关的任务。在完成这些教程后，您将掌握知识和技能，以最大限度地发挥 Aspose.HTML for .NET 的潜力。
 
 ## HTML 扩展和转换教程
+
 ### [使用 Aspose.HTML 在 .NET 中将 HTML 转换为 PDF](./convert-html-to-pdf/)
 使用 Aspose.HTML for .NET 轻松将 HTML 转换为 PDF。按照我们的分步指南，释放 HTML 到 PDF 转换的强大功能。
 ### [使用 Aspose.HTML 在 .NET 中从 URL 创建 PDF – 完整 C# 指南](./create-pdf-from-url-complete-c-guide/)
@@ -77,7 +78,10 @@ Aspose.HTML for .NET 不仅仅是一个库；它是 Web 开发领域的变革者
 演示如何使用自定义资源处理程序在 C# 中将 HTML 内容转换并保存为 ZIP 文件的完整示例。
 ### [在 C# 中将 HTML 保存为 ZIP – 完整内存示例](./save-html-to-zip-in-c-complete-in-memory-example/)
 演示如何使用 Aspose.HTML for .NET 在 C# 中将 HTML 内容压缩为 ZIP 文件，完整的内存操作示例。
-
+### [使用 Aspose.HTML 将 HTML 转换为 PDF – 完整分步指南](./convert-html-to-pdf-with-aspose-html-full-step-by-step-guide/)
+使用 Aspose.HTML 将 HTML 完整转换为 PDF 的详细分步指南，帮助您快速上手并实现高质量文档输出。
+### [创建 zip 文件 C# – 内存中压缩 HTML 的分步指南](./create-zip-file-c-step-by-step-guide-to-zip-html-in-memory/)
+使用 Aspose.HTML for .NET 在内存中创建 zip 文件，压缩 HTML 内容的完整分步指南。
 ## 结论
 
 总之，HTML 扩展和转换是现代 Web 开发的基本要素。Aspose.HTML for .NET 简化了该过程，使各个级别的开发人员都可以使用它。通过学习我们的教程，您将成为一名拥有广泛技能的熟练 Web 开发人员。

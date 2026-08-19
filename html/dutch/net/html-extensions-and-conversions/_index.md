@@ -37,6 +37,7 @@ Bent u klaar om te beginnen? Aspose.HTML voor .NET tutorials zijn geschikt voor 
 Aspose.HTML voor .NET is niet zomaar een bibliotheek; het is een game-changer in de wereld van webontwikkeling. Het biedt een uitgebreid scala aan functies en tools die uw HTML-gerelateerde taken stroomlijnen. Aan het einde van deze tutorials bent u uitgerust met de kennis en vaardigheden om het potentieel van Aspose.HTML voor .NET te maximaliseren.
 
 ## HTML-extensies en conversiehandleidingen
+
 ### [PDF maken van URL – Complete C#-gids](./create-pdf-from-url-complete-c-guide/)
 Leer hoe u met Aspose.HTML voor .NET een PDF genereert vanuit een URL met een volledige C#-stapsgewijze handleiding.
 ### [Converteer HTML naar PDF in .NET met Aspose.HTML](./convert-html-to-pdf/)
@@ -76,7 +77,10 @@ Leer hoe u met Aspose.HTML voor .NET PDF's genereert vanuit HTML met een duideli
 Leer hoe u HTML-inhoud in het geheugen comprimeert en opslaat als ZIP-bestand met Aspose.HTML voor .NET in C#.
 ### [Aangepaste resourcehandler in C# – Converteer HTML naar ZIP-tutorial](./custom-resource-handler-in-c-convert-html-to-zip-tutorial/)
 Leer hoe u een aangepaste resourcehandler implementeert om HTML naar een ZIP‑archief te converteren met Aspose.HTML voor .NET.
-
+### [Converteer HTML naar PDF met Aspose.HTML – Volledige stapsgewijze handleiding](./convert-html-to-pdf-with-aspose-html-full-step-by-step-guide/)
+Converteer moeiteloos HTML naar PDF met Aspose.HTML voor .NET. Volg onze volledige stapsgewijze handleiding en ontketen de kracht van HTML‑naar‑PDF‑conversie.
+### [Maak zip‑bestand C# – Stapsgewijze handleiding om HTML in geheugen te zippen](./create-zip-file-c-step-by-step-guide-to-zip-html-in-memory/)
+Leer hoe u met C# een zip‑bestand maakt en HTML‑inhoud in het geheugen comprimeert met een stapsgewijze handleiding.
 ## Conclusie
 
 Concluderend zijn HTML-extensies en conversies essentiële elementen van moderne webontwikkeling. Aspose.HTML voor .NET vereenvoudigt het proces en maakt het toegankelijk voor ontwikkelaars van alle niveaus. Door onze tutorials te volgen, bent u goed op weg om een bekwame webontwikkelaar te worden met een brede vaardighedenset.

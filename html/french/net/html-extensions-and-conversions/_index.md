@@ -37,6 +37,7 @@ Le développement Web implique souvent la conversion de documents HTML en diffé
 Aspose.HTML pour .NET n'est pas seulement une bibliothèque ; c'est un outil révolutionnaire dans le monde du développement Web. Il offre une vaste gamme de fonctionnalités et d'outils qui simplifient vos tâches liées au HTML. À la fin de ces didacticiels, vous disposerez des connaissances et des compétences nécessaires pour maximiser le potentiel d'Aspose.HTML pour .NET.
 
 ## Tutoriels sur les extensions et conversions HTML
+
 ### [Convertir HTML en PDF dans .NET avec Aspose.HTML](./convert-html-to-pdf/)
 Convertissez facilement du HTML en PDF avec Aspose.HTML pour .NET. Suivez notre guide étape par étape et exploitez la puissance de la conversion HTML en PDF.
 ### [Créer un PDF à partir d’une URL – Guide complet C#](./create-pdf-from-url-complete-c-guide/)
@@ -78,7 +79,10 @@ Apprenez à enregistrer un document HTML dans un fichier ZIP en C# avec Aspose.H
 Enregistrez du HTML dans un fichier ZIP en mémoire avec Aspose.HTML pour .NET.
 ### [Gestionnaire de ressources personnalisé en C# – Tutoriel de conversion HTML en ZIP](./custom-resource-handler-in-c-convert-html-to-zip-tutorial/)
 Apprenez à créer un gestionnaire de ressources personnalisé en C# pour convertir du HTML en fichier ZIP avec Aspose.HTML.
-
+### [Convertir HTML en PDF avec Aspose.HTML – Guide complet étape par étape](./convert-html-to-pdf-with-aspose-html-full-step-by-step-guide/)
+Apprenez à convertir du HTML en PDF avec Aspose.HTML grâce à un guide complet étape par étape.
+### [Créer un fichier zip C# – Guide étape par étape pour zipper du HTML en mémoire](./create-zip-file-c-step-by-step-guide-to-zip-html-in-memory/)
+Apprenez à créer un fichier zip en mémoire avec C# pour compresser du HTML rapidement et efficacement.
 ## Conclusion
 
 En conclusion, les extensions et conversions HTML sont des éléments essentiels du développement Web moderne. Aspose.HTML pour .NET simplifie le processus et le rend accessible aux développeurs de tous niveaux. En suivant nos tutoriels, vous serez sur la bonne voie pour devenir un développeur Web compétent doté d'un large éventail de compétences.

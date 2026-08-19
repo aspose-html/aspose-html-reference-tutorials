@@ -37,6 +37,7 @@ Apakah Anda siap untuk memulai? Tutorial Aspose.HTML untuk .NET ditujukan untuk 
 Aspose.HTML untuk .NET bukan sekadar pustaka; pustaka ini merupakan pengubah permainan dalam dunia pengembangan web. Aspose.HTML menawarkan berbagai fitur dan alat yang menyederhanakan tugas-tugas terkait HTML Anda. Di akhir tutorial ini, Anda akan dibekali dengan pengetahuan dan keterampilan untuk memaksimalkan potensi Aspose.HTML untuk .NET.
 
 ## Tutorial Ekstensi dan Konversi HTML
+
 ### [Konversi HTML ke PDF dalam .NET dengan Aspose.HTML](./convert-html-to-pdf/)
 Ubah HTML ke PDF dengan mudah menggunakan Aspose.HTML untuk .NET. Ikuti panduan langkah demi langkah kami dan manfaatkan kekuatan konversi HTML ke PDF.
 ### [Buat PDF dari URL – Panduan Lengkap C#](./create-pdf-from-url-complete-c-guide/)
@@ -77,7 +78,10 @@ Pelajari cara membuat dokumen HTML dengan teks berformat dan mengekspornya ke PD
 Pelajari cara menyimpan file HTML sebagai arsip ZIP menggunakan Aspose.HTML untuk .NET dengan contoh kode C# lengkap.
 ### [Simpan HTML ke ZIP di C# – Contoh In‑Memory Lengkap](./save-html-to-zip-in-c-complete-in-memory-example/)
 Pelajari cara menyimpan file HTML ke dalam arsip ZIP secara langsung di memori menggunakan C# dan Aspose.HTML.
-
+### [Konversi HTML ke PDF dengan Aspose.HTML – Panduan Lengkap Langkah‑demi‑Langkah](./convert-html-to-pdf-with-aspose-html-full-step-by-step-guide/)
+Panduan lengkap langkah demi langkah untuk mengonversi HTML ke PDF menggunakan Aspose.HTML dalam .NET.
+### [Buat file zip C# – Panduan Langkah‑demi‑Langkah untuk Mengompres HTML dalam Memori](./create-zip-file-c-step-by-step-guide-to-zip-html-in-memory/)
+Pelajari cara membuat file zip dari HTML secara langsung di memori menggunakan C# dengan panduan langkah demi langkah.
 ## Kesimpulan
 
 Kesimpulannya, ekstensi dan konversi HTML merupakan elemen penting dalam pengembangan web modern. Aspose.HTML untuk .NET menyederhanakan proses dan membuatnya dapat diakses oleh pengembang dari semua tingkatan. Dengan mengikuti tutorial kami, Anda akan berada di jalur yang tepat untuk menjadi pengembang web yang ahli dengan keahlian yang luas.
