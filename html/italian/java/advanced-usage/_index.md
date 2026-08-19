@@ -112,6 +112,7 @@ R: Usa `HtmlLoadOptions` con i margini di `PageSetup` e abilita `EnableCssLayout
 R: No. Una singola licenza di Aspose.HTML for Java copre tutti i formati di output, inclusi PDF e XPS.
 
 ## Uso avanzato dei tutorial Aspose.HTML Java
+
 ### [Personalizza i margini della pagina HTML con Aspose.HTML](./css-extensions-adding-title-page-number/)
 ### [Osservatore di Mutazione DOM con Aspose.HTML per Java](./dom-mutation-observer-observing-node-additions/)
 ### [Manipolazione HTML5 Canvas con Aspose.HTML per Java (codice)](./html5-canvas-manipulation-using-code/)
@@ -135,6 +136,20 @@ R: No. Una singola licenza di Aspose.HTML for Java copre tutti i formati di outp
 
 {{< blocks/products/products-backtop-button >}}
 ### [Estrai HTML da MHTML – Guida completa per Java](./extract-html-from-mhtml-complete-java-guide/)
+
+---
+
+**Last Updated:** 2025-11-29  
+**Tested With:** Aspose.HTML for Java 24.11  
+**Author:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Esegui JavaScript in Java – Guida completa all'esecuzione di JS da Java](./execute-javascript-in-java-complete-guide-to-running-js-from/)
 
 ---
 

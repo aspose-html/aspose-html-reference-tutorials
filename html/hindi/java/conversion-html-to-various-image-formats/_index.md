@@ -97,6 +97,7 @@ Aspose.HTML for Java का उपयोग करके HTML दस्ताव
 - **फ़ॉन्ट गायब** – सर्वर पर आवश्यक फ़ॉन्ट इंस्टॉल करें या `@font-face` का उपयोग करके HTML में एम्बेड करें।
 
 ## रूपांतरण - HTML को विभिन्न इमेज फ़ॉर्मैट ट्यूटोरियल
+
 ### [HTML को BMP में बदलना](./convert-html-to-bmp/)
 Aspose.HTML for Java के साथ HTML को BMP में बदलें। एक व्यापक ट्यूटोरियल जो Aspose.HTML for Java का उपयोग करके HTML दस्तावेज़ों को BMP इमेज में सहजता से बदलने की प्रक्रिया बताता है।
 ### [HTML को GIF में बदलना](./convert-html-to-gif/)
@@ -114,6 +115,8 @@ Aspose.HTML for Java का उपयोग करके HTML को WebP इम
 ### [HTML को PNG में बदलते समय DPI कैसे सेट करें – पूर्ण गाइड](./how-to-set-dpi-when-converting-html-to-png-complete-guide/)
 Aspose.HTML for Java के साथ HTML को PNG में बदलते समय DPI सेट करने की विस्तृत प्रक्रिया सीखें।
 ### [उच्च DPI रेंडरिंग Java में – कस्टम यूज़र एजेंट के साथ वेबपेज स्क्रीनशॉट कैप्चर करें](./high-dpi-rendering-in-java-capture-webpage-screenshots-with/)
+### [HTML को PNG में तेज़ बैच रूपांतरण – थ्रेड पूल का उपयोग करके बनाएं](./create-png-from-html-fast-batch-conversion-using-a-thread-po/)
+Aspose.HTML for Java का उपयोग करके थ्रेड पूल के साथ तेज़ बैच में HTML से PNG इमेज बनाना सीखें।
 ## अक्सर पूछे जाने वाले प्रश्न
 
 **प्रश्न: क्या मैं Java का उपयोग करके अतिरिक्त इमेज लाइब्रेरी के बिना HTML को PNG में बदल सकता हूँ?**  

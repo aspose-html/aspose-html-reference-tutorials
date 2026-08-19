@@ -130,6 +130,9 @@ Aspose.HTML 允许您将 `DomMutationObserver` 附加到任意节点。这对于
 ### [在 Java 中设置设备像素比 – 移动沙盒教程](./set-device-pixel-ratio-in-java-mobile-sandbox-tutorial/)
 了解如何在 Java 移动沙盒环境中设置设备像素比，以确保不同 DPI 屏幕的渲染效果一致。
 
+### [在 Java 中执行 JavaScript – 完整运行指南](./execute-javascript-in-java-complete-guide-to-running-js-from/)
+学习如何在 Java 中调用并运行 JavaScript 代码，涵盖 ScriptEngine、Nashorn、Graals 等实现。
+
 ---
 **最后更新：** 2025-11-29  
 **测试环境：** Aspose.HTML for Java 24.11  

@@ -26,6 +26,7 @@ url: /ar/java/css-html-form-editing/
 الآن، دعنا ننتقل إلى استكشاف كيفية تحرير نماذج HTML وإرسالها بفعالية باستخدام Aspose.HTML for Java. النماذج هي قلب تفاعل المستخدم على مواقع الويب، أليس كذلك؟ من خلال هذا البرنامج التعليمي، ستتعلم كيفية تغيير تصميم ووظائف النماذج بسهولة. ستكتشف كيفية ملء الحقول مسبقًا، والتحقق من صحة المدخلات باستخدام منطق مخصص، وتسهيل إرسال البيانات بسلاسة إلى الواجهة الخلفية الخاصة بك. تخيل هذا: يمكن لمستخدميك ملء نموذج على موقعك ومعرفة أن معلوماتهم آمنة وسليمة - لأن هذا هو نوع التجربة التي تريد إنشاءها! هذا الدليل خطوة بخطوة مليء بالرؤى القابلة للتنفيذ، مما يضمن لك استيعاب كل مفهوم على طول الطريق.[اقرأ المزيد](./html-form-editing/). 
 
 ## تحرير نماذج CSS وHTML باستخدام Aspose.HTML لـ Java
+
 ### [تقنيات توسعة CSS المتقدمة مع Aspose.HTML لـ Java](./advanced-css-extension/)
 تعرف على كيفية استخدام Aspose.HTML for Java لتطبيق تقنيات CSS المتقدمة، بما في ذلك هوامش الصفحات المخصصة والمحتوى الديناميكي. برنامج تعليمي عملي مفصل للمطورين.
 ### [تحرير نماذج HTML وإرسالها باستخدام Aspose.HTML لـ Java](./html-form-editing/)
@@ -42,6 +43,15 @@ url: /ar/java/css-html-form-editing/
 {{< blocks/products/products-backtop-button >}}
 ### [الحصول على النمط المحسوب في Java – استخراج لون الخلفية من HTML](./get-computed-style-java-extract-background-color-from-html/)
 تعلم كيفية استخراج لون الخلفية من عناصر HTML باستخدام أسلوب GetComputedStyle في Aspose.HTML for Java.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [الحصول على نمط العنصر المحسوب في Java – دليل خطوة بخطوة كامل](./get-element-computed-style-in-java-full-step-by-step-guide/)
+دليل شامل يوضح كيفية استخراج النمط المحسوب لعنصر HTML في Java باستخدام Aspose.HTML خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

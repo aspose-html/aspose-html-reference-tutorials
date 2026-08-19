@@ -42,6 +42,7 @@ Představte si, že potřebujete generovat obsah HTML za chodu na základě vstu
  A konečně, pro ty, kteří chtějí své dovednosti posouvat ještě dále, je tu spousta pokročilých témat k prozkoumání. Naučte se spravovat dokumenty SVG nebo zpracovávat události načítání dokumentů a vytvářet citlivé a dynamické webové aplikace. Tyto výukové programy vás zavedou za hranice HTML, ponoříte se do složitostí škálovatelné vektorové grafiky (SVG) a programování řízeného událostmi.[Přečtěte si více](./create-manage-svg-documents/)
 
 ## Vytváření a správa HTML dokumentů v Aspose.HTML pro Java tutoriály
+
 ### [Vytvářejte dokumenty HTML asynchronně v Aspose.HTML pro Java](./create-html-documents-async/)
 Hlavní vytváření HTML dokumentů asynchronně s Aspose.HTML pro Java. Součástí je podrobný průvodce, tipy a často kladené otázky pro rychlé učení.
 ### [Spusťte asynchronní JavaScript v Javě – Kompletní průvodce krok za krokem](./execute-async-javascript-in-java-complete-step-by-step-guide/)
@@ -79,3 +80,5 @@ Naučte se načíst HTML, dotazovat jej a počítat elementy v Javě pomocí Asp
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Iterace NodeList v Javě – čtení HTML a získání src obrázku](./iterate-nodelist-java-read-html-get-image-src/)
+Naučte se, jak iterovat přes NodeList v Javě, číst HTML a získat atribut src obrázku pomocí Aspose.HTML.

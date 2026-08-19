@@ -131,6 +131,9 @@ Aprenda a executar código JavaScript dentro de aplicações Java usando Aspose.
 ### [Definir proporção de pixels do dispositivo em Java – Tutorial de Sandbox Móvel](./set-device-pixel-ratio-in-java-mobile-sandbox-tutorial/)
 Aprenda a definir a proporção de pixels do dispositivo em Java usando o Sandbox Móvel do Aspose.HTML.
 
+### [Executar JavaScript em Java – Guia Completo para Executar JS a partir de Java](./execute-javascript-in-java-complete-guide-to-running-js-from/)
+Aprenda a executar scripts JavaScript a partir de código Java usando Aspose.HTML for Java, incluindo exemplos e melhores práticas.
+
 ---
 
 **Última atualização:** 2025-11-29  

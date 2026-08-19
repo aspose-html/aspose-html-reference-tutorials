@@ -112,6 +112,7 @@ A: Gebruik `HtmlLoadOptions` met `PageSetup`‑marges en schakel `EnableCssLayou
 A: Nee. Eén Aspose.HTML for Java‑licentie dekt alle uitvoerformaten, inclusief PDF en XPS.
 
 ## Geavanceerd gebruik van Aspose.HTML Java‑tutorials
+
 ### [HTML‑paginamarges aanpassen met Aspose.HTML](./css-extensions-adding-title-page-number/)
 Leer hoe je paginamarges, paginanummers en titels kunt aanpassen in HTML‑documenten met Aspose.HTML for Java.
 ### [DOM‑mutatie‑observer met Aspose.HTML for Java](./dom-mutation-observer-observing-node-additions/)
@@ -144,6 +145,21 @@ Leer hoe je JavaScript kunt embedden en uitvoeren binnen Java‑applicaties met 
 {{< blocks/products/products-backtop-button >}}
 ### [HTML extraheren uit MHTML – Complete Java-gids](./extract-html-from-mhtml-complete-java-guide/)
 Leer hoe je met Aspose.HTML for Java HTML uit een MHTML‑bestand kunt extraheren en verwerken.
+
+---
+
+**Laatst bijgewerkt:** 2025-11-29  
+**Getest met:** Aspose.HTML for Java 24.11  
+**Auteur:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [JavaScript uitvoeren in Java – Complete gids voor het uitvoeren van JS vanuit Java](./execute-javascript-in-java-complete-guide-to-running-js-from/)
+Leer hoe je JavaScript vanuit Java kunt aanroepen en uitvoeren met Aspose.HTML for Java, inclusief voorbeelden en best practices.
 
 ---
 

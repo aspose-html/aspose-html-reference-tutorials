@@ -112,6 +112,7 @@ A: Använd `HtmlLoadOptions` med `PageSetup`‑marginaler och aktivera `EnableCs
 A: Nej. En enda Aspose.HTML för Java‑licens täcker alla utdataformat, inklusive PDF och XPS.
 
 ## Avancerad användning av Aspose.HTML Java‑handledningar
+
 ### [Anpassa HTML‑sidmarginaler med Aspose.HTML](./css-extensions-adding-title-page-number/)
 Lär dig hur du anpassar sidmarginaler, lägger till sidnummer och titlar i HTML‑dokument med Aspose.HTML för Java.
 ### [DOM‑mutationsobservatör med Aspose.HTML för Java](./dom-mutation-observer-observing-node-additions/)
@@ -145,6 +146,21 @@ Lär dig hur du ställer in enhetens pixelratio i Java‑sandboxen för mobila e
 {{< blocks/products/products-backtop-button >}}
 ### [Extrahera HTML från MHTML – Komplett Java‑guide](./extract-html-from-mhtml-complete-java-guide/)
 Lär dig hur du extraherar HTML‑innehåll från MHTML‑filer med Aspose.HTML för Java i en komplett steg‑för‑steg‑guide.
+
+---
+
+**Last Updated:** 2025-11-29  
+**Tested With:** Aspose.HTML for Java 24.11  
+**Author:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Kör JavaScript i Java – Komplett guide för att köra JS från Java](./execute-javascript-in-java-complete-guide-to-running-js-from/)
+Lär dig hur du exekverar JavaScript‑kod från Java med Aspose.HTML, inklusive konfiguration och exempel.
 
 ---
 

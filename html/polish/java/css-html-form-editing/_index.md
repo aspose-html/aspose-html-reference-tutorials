@@ -26,6 +26,7 @@ Najpierw porozmawiajmy o zaawansowanych technikach rozszerzeń CSS z Aspose.HTML
 Teraz zmieńmy biegi i zbadajmy, jak skutecznie edytować i przesyłać formularze HTML za pomocą Aspose.HTML dla Java. Formularze są sercem interakcji użytkownika na stronach internetowych, prawda? Dzięki temu samouczkowi nauczysz się, jak łatwo zmieniać wygląd i funkcjonalność formularzy. Odkryjesz, jak wstępnie wypełniać pola, weryfikować dane wejściowe za pomocą niestandardowej logiki i ułatwiać bezproblemowe przesyłanie danych do zaplecza. Wyobraź sobie: Twoi użytkownicy mogą wypełnić formularz w Twojej witrynie i mieć pewność, że ich informacje są bezpieczne i solidne — ponieważ to jest rodzaj doświadczenia, które chcesz stworzyć! Ten przewodnik krok po kroku jest pełen praktycznych spostrzeżeń, dzięki czemu po drodze zrozumiesz każdą koncepcję.[Przeczytaj więcej](./html-form-editing/). 
 
 ## Edycja formularzy CSS i HTML za pomocą Aspose.HTML dla samouczków Java
+
 ### [Zaawansowane techniki rozszerzeń CSS z Aspose.HTML dla Java](./advanced-css-extension/)
 Dowiedz się, jak używać Aspose.HTML dla Java, aby stosować zaawansowane techniki CSS, w tym niestandardowe marginesy stron i dynamiczną zawartość. Szczegółowy, praktyczny samouczek dla programistów.
 ### [Edycja i przesyłanie formularzy HTML za pomocą Aspose.HTML dla Java](./html-form-editing/)
@@ -43,6 +44,15 @@ Dowiedz się, jak odczytywać i analizować pliki CSS w Javie przy użyciu Aspos
 {{< blocks/products/products-backtop-button >}}
 ### [Pobierz obliczony styl w Javie – wyodrębnij kolor tła z HTML](./get-computed-style-java-extract-background-color-from-html/)
 Dowiedz się, jak w Javie uzyskać obliczone style elementu i wyodrębnić kolor tła z kodu HTML przy użyciu Aspose.HTML.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Pobieranie obliczonego stylu elementu w Javie – Kompletny przewodnik krok po kroku](./get-element-computed-style-in-java-full-step-by-step-guide/)
+Dowiedz się, jak w Javie uzyskać obliczony styl elementu przy użyciu Aspose.HTML, krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

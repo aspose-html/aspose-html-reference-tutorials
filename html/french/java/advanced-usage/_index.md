@@ -112,6 +112,7 @@ R : Utilisez `HtmlLoadOptions` avec les marges `PageSetup` et activez `EnableC
 R : Non. Une licence unique Aspose.HTML for Java couvre tous les formats de sortie, y compris PDF et XPS.
 
 ## Utilisation avancée des tutoriels Aspose.HTML Java
+
 ### [Personnaliser les marges de page HTML avec Aspose.HTML](./css-extensions-adding-title-page-number/)
 Apprenez à personnaliser les marges de page, ajouter des numéros de page et des titres aux documents HTML à l’aide d’Aspose.HTML for Java.  
 ### [Observateur de mutation du DOM avec Aspose.HTML for Java](./dom-mutation-observer-observing-node-additions/)
@@ -145,6 +146,21 @@ Apprenez à définir le ratio de pixels de l'appareil dans le bac à sable mobil
 {{< blocks/products/products-backtop-button >}}
 ### [Extraire le HTML à partir de MHTML – Guide complet Java](./extract-html-from-mhtml-complete-java-guide/)
 Apprenez à extraire le contenu HTML d’un fichier MHTML en Java avec Aspose.HTML, étape par étape.  
+
+---
+
+**Dernière mise à jour :** 2025-11-29  
+**Testé avec :** Aspose.HTML for Java 24.11  
+**Auteur :** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Exécuter du JavaScript en Java – Guide complet pour exécuter du JS depuis Java](./execute-javascript-in-java-complete-guide-to-running-js-from/)
+Apprenez à exécuter du JavaScript depuis Java en utilisant Aspose.HTML for Java, avec des exemples complets et des meilleures pratiques.  
 
 ---
 

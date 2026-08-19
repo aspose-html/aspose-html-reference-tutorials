@@ -88,6 +88,7 @@ Menggunakan Aspose.HTML for Java menyederhanakan konversi dokumen HTML ke berbag
 - **Font tidak ditemukan** – Instal font yang diperlukan di server atau sematkan dalam HTML menggunakan `@font-face`.  
 
 ## Konversi - HTML ke Berbagai Tutorial Format Gambar
+
 ### [Mengonversi HTML ke BMP](./convert-html-to-bmp/)
 Konversikan HTML ke BMP dengan Aspose.HTML untuk Java. Tutorial komprehensif untuk mengkonversi dokumen HTML menjadi gambar BMP dengan mudah menggunakan Aspose.HTML untuk Java.
 ### [Mengonversi HTML ke GIF](./convert-html-to-gif/)
@@ -102,6 +103,7 @@ Pelajari cara mudah mengkonversi HTML ke TIFF menggunakan Aspose.HTML untuk Java
 ### [Membuat PNG dari SVG di Java – Panduan Lengkap Langkah‑demi‑Langkah](./create-png-from-svg-in-java-complete-step-by-step-guide/)
 ### [Rendering DPI Tinggi di Java – Tangkap Tangkapan Layar Halaman Web dengan User Agent Kustom](./high-dpi-rendering-in-java-capture-webpage-screenshots-with/)
 ### [Cara Mengatur DPI Saat Mengonversi HTML ke PNG – Panduan Lengkap](./how-to-set-dpi-when-converting-html-to-png-complete-guide/)
+### [Buat PNG dari HTML – Konversi Batch Cepat Menggunakan Thread Pool](./create-png-from-html-fast-batch-conversion-using-a-thread-po/)
 ## Pertanyaan yang Sering Diajukan
 
 **T: Bisakah saya mengonversi HTML ke PNG menggunakan Java tanpa perpustakaan gambar tambahan?**  

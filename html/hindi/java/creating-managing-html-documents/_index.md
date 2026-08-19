@@ -42,6 +42,7 @@ Aspose.HTML for Java उन डेवलपर्स के लिए एक श
  अंत में, जो लोग अपने कौशल को और भी आगे बढ़ाना चाहते हैं, उनके लिए खोज करने के लिए उन्नत विषयों का खजाना है। जानें कि उत्तरदायी और गतिशील वेब एप्लिकेशन बनाने के लिए SVG दस्तावेज़ों को कैसे प्रबंधित करें या दस्तावेज़ लोड ईवेंट को कैसे संभालें। ये ट्यूटोरियल आपको HTML से आगे ले जाते हैं, स्केलेबल वेक्टर ग्राफ़िक्स (SVG) और इवेंट-ड्रिवन प्रोग्रामिंग की पेचीदगियों में गोता लगाते हैं।[और पढ़ें](./create-manage-svg-documents/)
 
 ## Aspose.HTML for Java ट्यूटोरियल में HTML दस्तावेज़ बनाना और प्रबंधित करना
+
 ### [Java के लिए Aspose.HTML में एसिंक्रोनस रूप से HTML दस्तावेज़ बनाएँ](./create-html-documents-async/)
 Aspose.HTML for Java के साथ एसिंक्रोनस रूप से HTML दस्तावेज़ निर्माण में महारत हासिल करें। त्वरित सीखने के लिए चरण-दर-चरण मार्गदर्शिका, युक्तियाँ और FAQ शामिल हैं।
 ### [Java में असिंक्रोनस जावास्क्रिप्ट निष्पादित करें – पूर्ण चरण‑दर‑चरण गाइड](./execute-async-javascript-in-java-complete-step-by-step-guide/)
@@ -79,3 +80,12 @@ Aspose.HTML for Java का उपयोग करके HTML को लोड, 
 {{< blocks/products/products-backtop-button >}}
 ### [Java में JavaScript से HTML उत्पन्न करें – पूर्ण चरण‑दर‑चरण गाइड](./generate-html-from-javascript-in-java-complete-step-by-step/)
 Java में JavaScript को निष्पादित करके HTML उत्पन्न करने की पूरी चरण‑दर‑चरण गाइड। कोड उदाहरण और सर्वोत्तम प्रथाएँ शामिल हैं।
+### [NodeList को इटररेट करें Java – HTML पढ़ें और इमेज src प्राप्त करें](./iterate-nodelist-java-read-html-get-image-src/)
+Java में NodeList को इटररेट करके HTML से इमेज src निकालना सीखें। चरण-दर-चरण मार्गदर्शिका और कोड उदाहरण।
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

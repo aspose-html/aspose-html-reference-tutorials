@@ -112,6 +112,7 @@ A: Použijte `HtmlLoadOptions` s okraji `PageSetup` a povolte `EnableCssLayout`
 A: Ne. Jedna licence Aspose.HTML pro Java pokrývá všechny výstupní formáty, včetně PDF i XPS.
 
 ## Pokročilé použití tutoriálů Aspose.HTML Java
+
 ### [Přizpůsobení okrajů HTML stránky s Aspose.HTML](./css-extensions-adding-title-page-number/)
 Naučte se přizpůsobit okraje stránky, přidat číslování stránek a titulky do HTML dokumentů pomocí Aspose.HTML pro Java.
 ### [DOM Mutation Observer s Aspose.HTML pro Java](./dom-mutation-observer-observing-node-additions/)
@@ -145,6 +146,21 @@ Naučte se, jak nastavit poměr pixelů zařízení v Javě pomocí mobilního s
 {{< blocks/products/products-backtop-button >}}
 ### [Extrahování HTML z MHTML – Kompletní průvodce pro Javu](./extract-html-from-mhtml-complete-java-guide/)
 Naučte se, jak pomocí Aspose.HTML pro Java extrahovat HTML obsah z MHTML souborů a pracovat s ním.
+
+---
+
+**Poslední aktualizace:** 2025-11-29  
+**Testováno s:** Aspose.HTML pro Java 24.11  
+**Autor:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Spuštění JavaScriptu v Javě – Kompletní průvodce spouštěním JS z Javy](./execute-javascript-in-java-complete-guide-to-running-js-from/)
+Naučte se, jak spouštět JavaScript kód přímo z Javy pomocí Aspose.HTML, včetně integrace, ladění a správy skriptů.
 
 ---
 

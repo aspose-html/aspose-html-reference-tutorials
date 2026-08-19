@@ -42,6 +42,7 @@ Jeśli chodzi o generowanie nowych dokumentów HTML, Aspose.HTML for Java oferuj
  Na koniec, dla tych, którzy chcą rozwinąć swoje umiejętności jeszcze bardziej, jest mnóstwo zaawansowanych tematów do zbadania. Dowiedz się, jak zarządzać dokumentami SVG lub obsługiwać zdarzenia ładowania dokumentów, aby tworzyć responsywne i dynamiczne aplikacje internetowe. Te samouczki przeniosą Cię poza HTML, zagłębiając się w zawiłości Scalable Vector Graphics (SVG) i programowania opartego na zdarzeniach.[Przeczytaj więcej](./create-manage-svg-documents/)
 
 ## Tworzenie i zarządzanie dokumentami HTML w samouczkach Aspose.HTML dla języka Java
+
 ### [Twórz dokumenty HTML asynchronicznie w Aspose.HTML dla Java](./create-html-documents-async/)
 Opanuj asynchroniczne tworzenie dokumentów HTML za pomocą Aspose.HTML dla Java. Przewodnik krok po kroku, wskazówki i FAQ dołączone do szybkiej nauki.
 ### [Utwórz puste dokumenty HTML w Aspose.HTML dla Java](./create-empty-html-documents/)
@@ -80,6 +81,14 @@ Dowiedz się, jak ładować dokumenty HTML, wykonywać zapytania i liczyć eleme
 ### [Generowanie HTML z JavaScript w Javie – Kompletny przewodnik krok po kroku](./generate-html-from-javascript-in-java-complete-step-by-step/)
 Dowiedz się, jak generować HTML z kodu JavaScript w aplikacji Java, korzystając z pełnego przewodnika krok po kroku.
 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Iteruj NodeList w Javie – Odczytaj HTML i pobierz src obrazu](./iterate-nodelist-java-read-html-get-image-src/)
+Dowiedz się, jak iterować NodeList w Javie, odczytywać HTML i wyodrębniać atrybut src obrazów.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

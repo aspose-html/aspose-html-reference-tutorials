@@ -101,6 +101,12 @@ Scopri come utilizzare un pool di thread fisso per convertire più file HTML in 
 ### [Converti HTML in Markdown – Guida Completa C#](./convert-html-to-markdown-complete-c-guide/)
 Scopri come convertire HTML in Markdown usando C# con Aspose.HTML. Guida passo‑passo per una conversione accurata.
 
+### [Tutorial HTML to PDF: Converti HTML in PDF in Java in una sola riga](./html-to-pdf-tutorial-convert-html-to-pdf-in-one-line/)
+Scopri come convertire HTML in PDF con una singola riga di codice Java usando Aspose.HTML.
+
+### [Crea PDF a Dimensione Personalizzata da HTML in Java – Guida Completa](./create-pdf-custom-size-from-html-in-java-full-guide/)
+Impara a generare PDF con dimensioni personalizzate da HTML in Java usando Aspose.HTML, con esempi passo‑passo.
+
 ## Domande frequenti
 
 **Q: Posso usare Aspose.HTML for Java in un'applicazione commerciale?**  

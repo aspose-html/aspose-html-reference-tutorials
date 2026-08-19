@@ -112,6 +112,7 @@ Aspose.HTML ให้คุณแนบ `DomMutationObserver` ไปยังโ
 ตอบ: ไม่จำเป็น ไลเซนส์เดียวของ Aspose.HTML for Java ครอบคลุมรูปแบบผลลัพธ์ทั้งหมดรวมถึง PDF และ XPS
 
 ## การใช้งานขั้นสูงของบทแนะนำ Aspose.HTML Java
+
 ### [ปรับขอบกระดาษ HTML ด้วย Aspose.HTML](./css-extensions-adding-title-page-number/)
 เรียนรู้วิธีปรับขอบกระดาษ เพิ่มหมายเลขหน้า และหัวเรื่องให้กับเอกสาร HTML ด้วย Aspose.HTML for Java  
 ### [DOM Mutation Observer กับ Aspose.HTML for Java](./dom-mutation-observer-observing-node-additions/)
@@ -145,6 +146,21 @@ Aspose.HTML ให้คุณแนบ `DomMutationObserver` ไปยังโ
 {{< blocks/products/products-backtop-button >}}
 ### [สกัด HTML จาก MHTML – คู่มือ Java ฉบับสมบูรณ์](./extract-html-from-mhtml-complete-java-guide/)
 เรียนรู้วิธีดึง HTML จากไฟล์ MHTML ด้วย Aspose.HTML for Java อย่างละเอียดและครบถ้วน  
+
+---
+
+**อัปเดตล่าสุด:** 2025-11-29  
+**ทดสอบด้วย:** Aspose.HTML for Java 24.11  
+**ผู้เขียน:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [เรียกใช้ JavaScript ใน Java – คู่มือฉบับสมบูรณ์สำหรับการรัน JS จาก Java](./execute-javascript-in-java-complete-guide-to-running-js-from/)
+เรียนรู้วิธีรันโค้ด JavaScript ภายในแอปพลิเคชัน Java อย่างเต็มที่ด้วย Aspose.HTML for Java  
 
 ---
 

@@ -42,6 +42,7 @@ url: /ar/java/creating-managing-html-documents/
  أخيرًا، بالنسبة لأولئك الذين يتطلعون إلى تطوير مهاراتهم إلى أبعد من ذلك، هناك مجموعة كبيرة من الموضوعات المتقدمة التي يمكن استكشافها. تعرّف على كيفية إدارة مستندات SVG أو التعامل مع أحداث تحميل المستندات لإنشاء تطبيقات ويب سريعة الاستجابة وديناميكية. تأخذك هذه الدروس التعليمية إلى ما هو أبعد من HTML، وتتعمق في تعقيدات الرسومات المتجهة القابلة للتطوير (SVG) والبرمجة القائمة على الأحداث.[اقرأ المزيد](./create-manage-svg-documents/)
 
 ## إنشاء وإدارة مستندات HTML في Aspose.HTML لـ Java - دروس تعليمية
+
 ### [إنشاء مستندات HTML بشكل غير متزامن في Aspose.HTML لـ Java](./create-html-documents-async/)
 إتقان إنشاء مستندات HTML بشكل غير متزامن باستخدام Aspose.HTML لـ Java. دليل خطوة بخطوة ونصائح وأسئلة شائعة متضمنة للتعلم السريع.
 ### [إنشاء مستندات HTML فارغة في Aspose.HTML لـ Java](./create-empty-html-documents/)
@@ -79,6 +80,15 @@ url: /ar/java/creating-managing-html-documents/
 {{< blocks/products/products-backtop-button >}}
 ### [إنشاء HTML من JavaScript في Java – دليل شامل خطوة بخطوة](./generate-html-from-javascript-in-java-complete-step-by-step/)
 تعلم كيفية توليد مستندات HTML من كود JavaScript داخل تطبيق Java باستخدام دليل خطوة بخطوة شامل.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [تكرار NodeList في Java – قراءة HTML واستخراج مسار الصورة](./iterate-nodelist-java-read-html-get-image-src/)
+تعلم كيفية تكرار قائمة العقد (NodeList) في Java لقراءة ملفات HTML واستخراج مسار الصور بسهولة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

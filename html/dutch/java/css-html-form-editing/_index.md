@@ -26,6 +26,7 @@ Laten we het eerst hebben over geavanceerde CSS-extensietechnieken met Aspose.HT
 Laten we nu eens van versnelling veranderen en onderzoeken hoe u HTML-formulieren effectief kunt bewerken en verzenden met Aspose.HTML voor Java. Formulieren vormen het hart van gebruikersinteractie op websites, toch? Met deze tutorial leert u hoe u het ontwerp en de functionaliteit van formulieren eenvoudig kunt wijzigen. U ontdekt hoe u velden vooraf kunt invullen, invoer kunt valideren met aangepaste logica en naadloze gegevensinzendingen naar uw backend kunt vergemakkelijken. Stel u voor: uw gebruikers kunnen een formulier op uw site invullen en weten dat hun informatie veilig is, want dat is het soort ervaring dat u wilt creëren! Deze stapsgewijze handleiding staat boordevol bruikbare inzichten, zodat u onderweg elk concept begrijpt.[Lees meer](./html-form-editing/). 
 
 ## CSS en HTML-formulierbewerking met Aspose.HTML voor Java-zelfstudies
+
 ### [Geavanceerde CSS-extensietechnieken met Aspose.HTML voor Java](./advanced-css-extension/)
 Leer hoe u Aspose.HTML voor Java kunt gebruiken om geavanceerde CSS-technieken toe te passen, waaronder aangepaste paginamarges en dynamische content. Een gedetailleerde, praktische tutorial voor ontwikkelaars.
 ### [HTML-formulier bewerken en indienen met Aspose.HTML voor Java](./html-form-editing/)
@@ -43,6 +44,15 @@ Ontdek hoe u CSS-bestanden in Java kunt lezen en verwerken met Aspose.HTML in de
 {{< blocks/products/products-backtop-button >}}
 ### [Computed Style ophalen in Java – Achtergrondkleur uit HTML extraheren](./get-computed-style-java-extract-background-color-from-html/)
 Leer hoe u met Aspose.HTML voor Java de berekende stijl van een element kunt ophalen en de achtergrondkleur uit HTML kunt extraheren.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Element berekende stijl ophalen in Java – Volledige stap‑voor‑stap gids](./get-element-computed-style-in-java-full-step-by-step-guide/)
+Leer hoe u met Aspose.HTML voor Java de berekende stijl van een element kunt ophalen in een gedetailleerde stap‑voor‑stap gids.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

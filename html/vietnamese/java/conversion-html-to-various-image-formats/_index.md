@@ -82,6 +82,7 @@ Sử dụng Aspose.HTML for Java đơn giản hoá việc chuyển đổi tài l
 - **Missing fonts** – Cài đặt các phông chữ cần thiết trên máy chủ hoặc nhúng chúng vào HTML bằng `@font-face`.
 
 ## Chuyển đổi - Hướng dẫn HTML sang Các Định dạng Hình ảnh Khác nhau
+
 ### [Converting HTML to BMP](./convert-html-to-bmp/)
 Chuyển đổi HTML sang BMP với Aspose.HTML for Java. Một hướng dẫn toàn diện để chuyển đổi tài liệu HTML thành hình ảnh BMP một cách liền mạch bằng Aspose.HTML for Java.
 ### [Converting HTML to GIF](./convert-html-to-gif/)
@@ -97,6 +98,7 @@ Tìm hiểu cách dễ dàng convert HTML to TIFF bằng Aspose.HTML for Java. H
 ### [Chuyển đổi HTML sang WebP – Hướng dẫn Java đầy đủ với Aspose.HTML](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
 ### [Cách Đặt DPI Khi Chuyển Đổi HTML sang PNG – Hướng Dẫn Toàn Diện](./how-to-set-dpi-when-converting-html-to-png-complete-guide/)
 ### [Render DPI cao trong Java – Chụp ảnh màn hình trang web với User Agent tùy chỉnh](./high-dpi-rendering-in-java-capture-webpage-screenshots-with/)
+### [Tạo PNG từ HTML – Chuyển đổi hàng loạt nhanh bằng Thread Pool](./create-png-from-html-fast-batch-conversion-using-a-thread-po/)
 ## Câu hỏi thường gặp
 
 **Q: Tôi có thể convert HTML to PNG bằng Java mà không cần thư viện hình ảnh bổ sung không?**  

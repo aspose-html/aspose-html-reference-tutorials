@@ -42,6 +42,7 @@ När det gäller att skapa nya HTML-dokument erbjuder Aspose.HTML för Java en r
  Slutligen, för dem som vill utveckla sina färdigheter ännu längre, finns det en mängd avancerade ämnen att utforska. Lär dig hur du hanterar SVG-dokument eller hanterar dokumentladdningshändelser för att skapa responsiva och dynamiska webbapplikationer. Dessa handledningar tar dig bortom HTML, dyker in i krångligheterna med Scalable Vector Graphics (SVG) och händelsedriven programmering.[Läs mer](./create-manage-svg-documents/)
 
 ## Skapa och hantera HTML-dokument i Aspose.HTML för Java Tutorials
+
 ### [Skapa HTML-dokument asynkront i Aspose.HTML för Java](./create-html-documents-async/)
 Bemästra HTML-dokument skapande asynkront med Aspose.HTML för Java. Steg-för-steg-guide, tips och vanliga frågor ingår för snabb inlärning.
 ### [Skapa tomma HTML-dokument i Aspose.HTML för Java](./create-empty-html-documents/)
@@ -86,3 +87,5 @@ Lär dig hur du kör JavaScript för att generera HTML i Java med vår detaljera
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Iterera NodeList i Java – Läs HTML och hämta bild‑src](./iterate-nodelist-java-read-html-get-image-src/)
+Lär dig hur du itererar en NodeList i Java för att läsa HTML och extrahera bild‑src‑attributen.

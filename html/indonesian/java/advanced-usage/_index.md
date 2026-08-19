@@ -121,6 +121,9 @@ Pelajari cara menjalankan kode JavaScript dalam aplikasi Java dengan Aspose.HTML
 ### [Atur Rasio Piksel Perangkat di Java – Tutorial Sandbox Seluler](./set-device-pixel-ratio-in-java-mobile-sandbox-tutorial/)
 Pelajari cara mengatur rasio piksel perangkat dalam lingkungan sandbox seluler menggunakan Aspose.HTML untuk Java.
 
+### [Jalankan JavaScript di Java – Panduan Lengkap Menjalankan JS dari Java](./execute-javascript-in-java-complete-guide-to-running-js-from/)
+Pelajari cara mengeksekusi kode JavaScript langsung dari aplikasi Java menggunakan Aspose.HTML, termasuk contoh lengkap dan konfigurasi.
+
 ---
 
 **Terakhir Diperbarui:** 2025-11-29  

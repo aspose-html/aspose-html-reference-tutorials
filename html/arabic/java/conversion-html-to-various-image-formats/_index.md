@@ -87,6 +87,7 @@ weight: 24
 - **خطوط مفقودة** – ثبّت الخطوط المطلوبة على الخادم أو دمجها في HTML باستخدام `@font-face`.  
 
 ## Conversion - HTML to Various Image Formats Tutorials
+
 ### [تحويل HTML إلى BMP](./convert-html-to-bmp/)
 Convert HTML to BMP with Aspose.HTML for Java. A comprehensive tutorial to seamlessly convert HTML documents into BMP images using Aspose.HTML for Java.
 ### [تحويل HTML إلى GIF](./convert-html-to-gif/)
@@ -105,6 +106,8 @@ Learn how to easily convert HTML to TIFF using Aspose.HTML for Java. Step-by-ste
 تعلم كيفية ضبط DPI عند تحويل HTML إلى PNG باستخدام Aspose.HTML for Java. دليل خطوة بخطوة للحصول على مخرجات عالية الدقة.
 ### [العرض بدقة DPI عالية في Java – التقاط لقطات شاشة للويب باستخدام وكيل مستخدم مخصص](./high-dpi-rendering-in-java-capture-webpage-screenshots-with/)
 تعلم كيفية عرض صفحات الويب بدقة DPI عالية والتقاط لقطات شاشة في Java باستخدام وكيل مستخدم مخصص مع Aspose.HTML.
+### [إنشاء PNG من HTML – تحويل دفعي سريع باستخدام مجموعة خيوط](./create-png-from-html-fast-batch-conversion-using-a-thread-po/)
+تعلم كيفية إنشاء صور PNG من HTML بكفاءة باستخدام مجموعة خيوط للمعالجة الدفعية مع Aspose.HTML for Java.
 ## الأسئلة المتكررة
 
 **س: هل يمكنني تحويل HTML إلى PNG باستخدام Java دون مكتبات صور إضافية؟**  

@@ -42,6 +42,7 @@ Cuando se trata de generar nuevos documentos HTML, Aspose.HTML para Java ofrece 
  Por último, para aquellos que buscan llevar sus habilidades aún más lejos, hay una gran cantidad de temas avanzados para explorar. Aprenda a administrar documentos SVG o a manejar eventos de carga de documentos para crear aplicaciones web dinámicas y responsivas. Estos tutoriales lo llevan más allá del HTML, profundizando en las complejidades de los gráficos vectoriales escalables (SVG) y la programación basada en eventos.[Leer más](./create-manage-svg-documents/)
 
 ## Creación y gestión de documentos HTML en Aspose.HTML para tutoriales de Java
+
 ### [Cree documentos HTML de forma asincrónica en Aspose.HTML para Java](./create-html-documents-async/)
 Domine la creación de documentos HTML de forma asincrónica con Aspose.HTML para Java. Guía paso a paso, consejos y preguntas frecuentes incluidas para un aprendizaje rápido.
 ### [Crear documentos HTML vacíos en Aspose.HTML para Java](./create-empty-html-documents/)
@@ -79,3 +80,12 @@ Aprenda a ejecutar JavaScript asíncrono en Java con Aspose.HTML mediante una gu
 {{< blocks/products/products-backtop-button >}}
 ### [Generar HTML desde JavaScript en Java – Guía completa paso a paso](./generate-html-from-javascript-in-java-complete-step-by-step/)
 Aprenda a generar HTML a partir de JavaScript en Java usando Aspose.HTML con esta guía paso a paso.
+### [Iterar NodeList en Java – Leer HTML y obtener src de imagen](./iterate-nodelist-java-read-html-get-image-src/)
+Aprenda a iterar un NodeList en Java para leer HTML y extraer la ruta src de las imágenes en un tutorial paso a paso.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -42,6 +42,7 @@ Yeni HTML belgeleri oluşturmaya gelince, Java için Aspose.HTML, sıfırdan zen
  Son olarak, becerilerini daha da ileri taşımak isteyenler için keşfedilecek çok sayıda gelişmiş konu var. Duyarlı ve dinamik web uygulamaları oluşturmak için SVG belgelerini nasıl yöneteceğinizi veya belge yükleme olaylarını nasıl ele alacağınızı öğrenin. Bu eğitimler sizi HTML'nin ötesine götürerek Ölçeklenebilir Vektör Grafikleri (SVG) ve olay odaklı programlamanın inceliklerine daldırır.[Devamını oku](./create-manage-svg-documents/)
 
 ## Aspose.HTML for Java'da HTML Belgeleri Oluşturma ve Yönetme Eğitimleri
+
 ### [Java için Aspose.HTML'de HTML Belgelerini Eşzamansız Olarak Oluşturun](./create-html-documents-async/)
 Java için Aspose.HTML ile asenkron olarak HTML belge oluşturma konusunda uzmanlaşın. Hızlı öğrenme için adım adım kılavuz, ipuçları ve SSS dahildir.
 ### [Java için Aspose.HTML'de Boş HTML Belgeleri Oluşturma](./create-empty-html-documents/)
@@ -76,6 +77,15 @@ Java için Aspose.HTML kullanarak HTML sandbox oluşturmayı adım adım öğren
 {{< blocks/products/products-backtop-button >}}
 ### [Java için Aspose.HTML'de JavaScript'ten HTML Oluşturma – Tam Adım Adım Kılavuz](./generate-html-from-javascript-in-java-complete-step-by-step/)
 Java'da JavaScript kullanarak dinamik HTML oluşturmayı adım adım öğrenin.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Java için Aspose.HTML'de NodeList'i Döngüyle Gezin – HTML Oku ve Görüntü src'sini Al](./iterate-nodelist-java-read-html-get-image-src/)
+Java’da NodeList’i dolaşarak HTML içeriğinden görsel kaynaklarını (src) nasıl alacağınızı öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

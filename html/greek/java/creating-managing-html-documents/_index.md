@@ -58,6 +58,8 @@ url: /el/java/creating-managing-html-documents/
 Μάθετε πώς να δημιουργείτε HTML από κώδικα JavaScript σε εφαρμογές Java χρησιμοποιώντας το Aspose.HTML, με αναλυτικό βήμα‑βήμα οδηγό.
 ### [Φόρτωση εγγράφων HTML από τη διεύθυνση URL στο Aspose.HTML για Java](./load-html-documents-from-url/)
 Ανακαλύψτε πώς να φορτώνετε εύκολα έγγραφα HTML από μια διεύθυνση URL σε Java με το Aspose.HTML. Περιλαμβάνεται σεμινάριο βήμα προς βήμα.
+### [Επανάληψη NodeList σε Java – Ανάγνωση HTML & Λήψη src εικόνας](./iterate-nodelist-java-read-html-get-image-src/)
+Μάθετε πώς να διατρέχετε έναν NodeList σε Java, να διαβάζετε HTML και να εξάγετε τη διεύθυνση src των εικόνων.
 ### [Δημιουργήστε νέα έγγραφα HTML χρησιμοποιώντας το Aspose.HTML για Java](./generate-new-html-documents/)
 Μάθετε πώς να δημιουργείτε νέα έγγραφα HTML χρησιμοποιώντας το Aspose.HTML για Java με αυτόν τον εύκολο, βήμα προς βήμα οδηγό. Ξεκινήστε τη δημιουργία δυναμικού περιεχομένου HTML.
 ### [Δημιουργία sandbox για HTML σε Java – Οδηγός βήμα‑βήμα](./create-sandbox-for-html-in-java-step-by-step-guide/)

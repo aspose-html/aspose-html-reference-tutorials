@@ -130,6 +130,8 @@ A: 不需要。單一的 Aspose.HTML for Java 授權即涵蓋所有輸出格式�
 ### [在 Java 中設定裝置像素比例 – 行動沙盒教學](./set-device-pixel-ratio-in-java-mobile-sandbox-tutorial/)
 說明如何在 Aspose.HTML for Java 的行動沙盒環境中設定裝置像素比例，以確保高解析度渲染。
 
+### [在 Java 中執行 JavaScript – 完整指南](./execute-javascript-in-java-complete-guide-to-running-js-from/)
+
 ---
 
 **最後更新日期：** 2025-11-29  

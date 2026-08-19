@@ -112,6 +112,7 @@ weight: 20
 Α: Όχι. Μία άδεια Aspose.HTML for Java καλύπτει όλες τις μορφές εξόδου, συμπεριλαμβανομένων PDF και XPS.
 
 ## Προχωρημένες Χρήσεις των Οδηγών Aspose.HTML Java
+
 ### [Προσαρμογή Περιθωρίων HTML Σελίδας με Aspose.HTML](./css-extensions-adding-title-page-number/)
 Μάθετε πώς να προσαρμόζετε τα περιθώρια σελίδας, να προσθέτετε αριθμούς σελίδων και τίτλους σε έγγραφα HTML χρησιμοποιώντας το Aspose.HTML for Java.
 ### [Παρατηρητής Μεταβολών DOM με Aspose.HTML for Java](./dom-mutation-observer-observing-node-additions/)
@@ -145,6 +146,20 @@ weight: 20
 {{< blocks/products/products-backtop-button >}}
 ### [Εξαγωγή HTML από MHTML – Πλήρης Οδηγός Java](./extract-html-from-mhtml-complete-java-guide/)
 Μάθετε πώς να εξάγετε HTML από αρχεία MHTML με το Aspose.HTML for Java σε πλήρη οδηγό.
+
+---
+
+**Τελευταία ενημέρωση:** 2025-11-29  
+**Δοκιμή με:** Aspose.HTML for Java 24.11  
+**Συγγραφέας:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Εκτέλεση JavaScript σε Java – Πλήρης Οδηγός για Εκτέλεση JS από Java](./execute-javascript-in-java-complete-guide-to-running-js-from/)
 
 ---
 

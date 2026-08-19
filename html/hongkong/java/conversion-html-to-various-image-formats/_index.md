@@ -81,6 +81,7 @@ weight: 24
 - **缺少字型** – 在伺服器上安裝所需字型，或在 HTML 中使用 `@font-face` 內嵌字型。
 
 ## 轉換 - HTML 至多種圖像格式教學
+
 ### [將 HTML 轉換為 BMP](./convert-html-to-bmp/)
 將 HTML 轉換為 BMP，使用 Aspose.HTML for Java。完整教學說明如何無縫將 HTML 文件轉換為 BMP 圖像。
 ### [將 HTML 轉換為 GIF](./convert-html-to-gif/)
@@ -98,6 +99,7 @@ weight: 24
 說明如何在使用 Aspose.HTML for Java 轉換 HTML 為 PNG 時設定 DPI，以取得高解析度圖像。
 ### [高 DPI 渲染於 Java – 使用自訂使用者代理擷取網頁螢幕截圖](./high-dpi-rendering-in-java-capture-webpage-screenshots-with/)
 說明如何在 Java 中使用 Aspose.HTML 以高 DPI 渲染網頁，並透過自訂使用者代理擷取螢幕截圖。
+### [從 HTML 建立 PNG – 使用執行緒池的快速批次轉換](./create-png-from-html-fast-batch-conversion-using-a-thread-po/)
 ## 常見問題集
 
 **Q: 我可以在 Java 中將 HTML 轉換為 PNG 而不使用額外的圖像函式庫嗎？**  

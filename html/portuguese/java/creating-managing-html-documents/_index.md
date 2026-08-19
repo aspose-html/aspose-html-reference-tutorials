@@ -42,6 +42,7 @@ Quando se trata de gerar novos documentos HTML, o Aspose.HTML para Java oferece 
  Por fim, para aqueles que buscam levar suas habilidades ainda mais longe, há uma riqueza de tópicos avançados para explorar. Aprenda a gerenciar documentos SVG ou lidar com eventos de carregamento de documentos para criar aplicativos da web dinâmicos e responsivos. Esses tutoriais levam você além do HTML, mergulhando nas complexidades do Scalable Vector Graphics (SVG) e da programação orientada a eventos.[Ler mais](./create-manage-svg-documents/)
 
 ## Criação e gerenciamento de documentos HTML em Aspose.HTML para tutoriais Java
+
 ### [Crie documentos HTML de forma assíncrona no Aspose.HTML para Java](./create-html-documents-async/)
 Domine a criação de documentos HTML de forma assíncrona com Aspose.HTML para Java. Guia passo a passo, dicas e FAQs incluídos para aprendizado rápido.
 ### [Crie documentos HTML vazios em Aspose.HTML para Java](./create-empty-html-documents/)
@@ -72,6 +73,15 @@ Aprenda a criar um sandbox para HTML em Java usando Aspose.HTML com este guia pa
 Aprenda a analisar, consultar e contar elementos em documentos HTML usando Aspose.HTML para Java com este guia passo a passo.
 ### [Executar JavaScript assíncrono em Java – Guia completo passo a passo](./execute-async-javascript-in-java-complete-step-by-step-guide/)
 Aprenda a executar JavaScript assíncrono em Java usando Aspose.HTML com este guia passo a passo.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Iterar NodeList em Java – Ler HTML e Obter src da Imagem](./iterate-nodelist-java-read-html-get-image-src/)
+Aprenda a percorrer um NodeList em Java para ler HTML e extrair o atributo src das imagens.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

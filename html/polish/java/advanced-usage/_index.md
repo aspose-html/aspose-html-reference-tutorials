@@ -112,6 +112,7 @@ O: Użyj `HtmlLoadOptions` wraz z marginesami `PageSetup` i włącz `EnableCssLa
 O: Nie. Jedna licencja Aspose.HTML dla Javy obejmuje wszystkie formaty wyjściowe, w tym PDF i XPS.
 
 ## Zaawansowane tutoriale Aspose.HTML Java
+
 ### [Dostosuj marginesy stron HTML przy użyciu Aspose.HTML](./css-extensions-adding-title-page-number/)
 Dowiedz się, jak dostosować marginesy stron, dodać numery stron i tytuły do dokumentów HTML przy użyciu Aspose.HTML dla Javy.
 ### [Obserwator mutacji DOM z Aspose.HTML dla Javy](./dom-mutation-observer-observing-node-additions/)
@@ -145,6 +146,21 @@ Dowiedz się, jak ustawić współczynnik pikseli urządzenia w środowisku Mobi
 {{< blocks/products/products-backtop-button >}}
 ### [Wyodrębnij HTML z MHTML – Kompletny przewodnik Java](./extract-html-from-mhtml-complete-java-guide/)
 Dowiedz się, jak wyodrębnić kod HTML z plików MHTML przy użyciu Aspose.HTML dla Javy, krok po kroku.
+
+---
+
+**Ostatnia aktualizacja:** 2025-11-29  
+**Testowano z:** Aspose.HTML dla Javy 24.11  
+**Autor:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Wykonaj JavaScript w Javie – Kompletny przewodnik po uruchamianiu JS z Java](./execute-javascript-in-java-complete-guide-to-running-js-from/)
+Dowiedz się, jak uruchamiać kod JavaScript z poziomu aplikacji Java przy użyciu Aspose.HTML, w pełnym przewodniku krok po kroku.
 
 ---
 

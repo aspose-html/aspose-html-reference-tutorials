@@ -111,6 +111,7 @@ A: `HtmlLoadOptions`와 `PageSetup` 여백을 설정하고 `EnableCssLayout`을 
 A: 필요 없습니다. 하나의 Aspose.HTML for Java 라이선스로 PDF와 XPS를 포함한 모든 출력 형식을 커버합니다.
 
 ## Aspose.HTML Java 튜토리얼 고급 사용법
+
 ### [Aspose.HTML로 HTML 페이지 여백 맞춤하기](./css-extensions-adding-title-page-number/)
 Aspose.HTML for Java를 사용해 HTML 문서의 페이지 여백, 페이지 번호 및 제목을 맞춤 설정하는 방법을 배웁니다.
 ### [Aspose.HTML for Java와 함께하는 DOM Mutation Observer](./dom-mutation-observer-observing-node-additions/)
@@ -143,6 +144,21 @@ Java 환경에서 디바이스 픽셀 비율을 설정하고 모바일 샌드박
 
 {{< blocks/products/products-backtop-button >}}
 ### [MHTML에서 HTML 추출 – 완전한 Java 가이드](./extract-html-from-mhtml-complete-java-guide/)
+
+---
+
+**마지막 업데이트:** 2025-11-29  
+**테스트 환경:** Aspose.HTML for Java 24.11  
+**작성자:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Java에서 JavaScript 실행 – Java에서 JS 실행을 위한 완전 가이드](./execute-javascript-in-java-complete-guide-to-running-js-from/)
+Aspose.HTML for Java를 사용해 Java에서 JavaScript 코드를 실행하는 방법을 단계별로 배웁니다.
 
 ---
 
