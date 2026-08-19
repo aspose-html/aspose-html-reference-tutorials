@@ -44,7 +44,8 @@ Learn how to convert HTML to PDF, XPS, and images with Aspose.HTML for .NET. Ste
 Learn how to use Aspose.HTML for .NET to dynamically generate HTML documents from JSON data. Harness the power of HTML manipulation in your .NET applications.
 ### [Create memory stream c# – Custom stream creation guide](./create-memory-stream-c-custom-stream-creation-guide/)
 Learn how to create a memory stream in C# using Aspose.HTML for .NET, with step-by-step examples and best practices.
-
+### [Save HTML as ZIP with a custom resource handler in C#](./save-html-as-zip-with-a-custom-resource-handler-in-c/)
+Learn how to save HTML output as a ZIP archive using a custom resource handler in C# with Aspose.HTML.
 
 ## Conclusion
 

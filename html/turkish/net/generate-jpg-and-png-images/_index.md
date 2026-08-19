@@ -53,6 +53,8 @@ Aspose.HTML kullanarak HTML'den PNG görüntüsü oluşturmayı adım adım öğ
 C# kullanarak HTML'den yüksek kaliteli görüntüler oluşturmayı adım adım öğrenin.
 ### [docx'i png'ye dönüştür – C# tam adım adım kılavuz](./convert-docx-to-png-in-c-full-step-by-step-guide/)
 C# kullanarak docx dosyalarını png formatına tam adım adım dönüştürmeyi öğrenin.
+### [C#'ta Aspose kullanarak HTML'yi PNG'ye dönüştürme](./how-to-use-aspose-to-render-html-to-png-in-c/)
+C# ile Aspose kullanarak HTML içeriğini PNG görüntüsüne dönüştürmeyi öğrenin.
 
 ## Çözüm
 
