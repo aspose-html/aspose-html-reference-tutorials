@@ -114,6 +114,9 @@ Erfahren Sie, wie Sie mit einem Fixed Thread Pool mehrere HTML‑zu‑PDF‑Konv
 Erfahren Sie, wie Sie PDFs mit individuellen Abmessungen aus HTML in Java generieren.
 ### [HTML‑zu‑PDF‑Tutorial: HTML in Java mit einem einzigen Aufruf in PDF konvertieren](./html-to-pdf-tutorial-convert-html-to-pdf-in-java-in-one-line/)
 Erfahren Sie, wie Sie HTML in Java mit Aspose.HTML in nur einer Zeile in PDF umwandeln.
+### [Wie man ein HTML‑PDF‑Tutorial in Java mit Aspose.HTML befolgt](./how-to-follow-an-html-pdf-tutorial-in-java-using-aspose-html/)
+Erfahren Sie, wie Sie Schritt für Schritt ein HTML‑PDF‑Tutorial in Java mit Aspose.HTML umsetzen.
+
 ## Häufig gestellte Fragen
 
 **Q: Kann ich Aspose.HTML für Java in einer kommerziellen Anwendung verwenden?**  

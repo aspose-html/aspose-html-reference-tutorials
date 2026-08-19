@@ -112,6 +112,9 @@ Aprenda a transformar HTML em Markdown usando Aspose.HTML com C#, passo a passo 
 Aprenda a converter HTML para PDF em Java com apenas uma linha de código usando Aspose.HTML.
 ### [Criar PDF com Tamanho Personalizado a partir de HTML em Java – Guia Completo](./create-pdf-custom-size-from-html-in-java-full-guide/)
 Aprenda a gerar PDFs com dimensões personalizadas a partir de HTML em Java usando Aspose.HTML.
+### [Como seguir um tutorial HTML PDF em Java usando Aspose.HTML](./how-to-follow-an-html-pdf-tutorial-in-java-using-aspose-html/)
+Aprenda a seguir um tutorial de conversão de HTML para PDF em Java usando Aspose.HTML passo a passo.
+
 ## Perguntas Frequentes
 
 **Q: Posso usar o Aspose.HTML for Java em uma aplicação comercial?**  

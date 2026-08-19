@@ -110,10 +110,13 @@ Panduan terperinci untuk menghasilkan PDF dari HTML menggunakan Aspose.HTML di J
 Pelajari cara membuat Fixed Thread Pool di Java untuk mempercepat konversi HTML ke PDF secara paralel menggunakan Aspose.HTML.
 ### [Mengonversi HTML ke Markdown – Panduan Lengkap C#](./convert-html-to-markdown-complete-c-guide/)
 Pelajari cara mengonversi HTML ke Markdown di C# dengan Aspose.HTML. Ikuti panduan lengkap langkah demi langkah untuk hasil optimal.
-### [Tutorial html ke pdf: Mengonversi HTML ke PDF di Java dalam Satu Baris](./html-to-pdf-tutorial-convert-html-to-pdf-in-java-in-one-line/)
+### [Tutorial html ke pdf: Mengonversi HTML ke PDF di Java dalam Satu Baris](./html-to-pdf-tutorial-convert-html-to-pdf-in-one-line/)
 Pelajari cara mengonversi HTML ke PDF di Java hanya dengan satu baris kode menggunakan Aspose.HTML.
 ### [Buat PDF Ukuran Kustom dari HTML di Java – Panduan Lengkap](./create-pdf-custom-size-from-html-in-java-full-guide/)
 Pelajari cara menghasilkan PDF dengan ukuran kustom dari HTML menggunakan Aspose.HTML for Java dalam panduan langkah demi langkah.
+### [Cara mengikuti tutorial HTML PDF di Java menggunakan Aspose.HTML](./how-to-follow-an-html-pdf-tutorial-in-java-using-aspose-html/)
+Panduan langkah‑demi‑langkah untuk mengikuti tutorial HTML ke PDF di Java dengan Aspose.HTML, termasuk contoh kode lengkap.
+
 ## Pertanyaan yang Sering Diajukan
 
 **Q: Bisakah saya menggunakan Aspose.HTML untuk Java dalam aplikasi komersial?**  
