@@ -90,6 +90,8 @@ HTML içeriğinizden sorunsuz bir şekilde yüksek kaliteli PDF'ler oluşturun.
 Java’da HTML'yi PDF'ye dönüştürürken sayfa boyutu ayarlarını nasıl yapılandıracağınızı adım adım gösterir.
 ### [Aspose HTML ile PDF Sayfa Boyutunu Ayarlama – Tam Java Kılavuzu](./set-pdf-page-size-with-aspose-html-full-java-guide/)
 Aspose.HTML kullanarak Java'da PDF sayfa boyutunu nasıl ayarlayacağınızı adım adım gösteren kapsamlı rehber.
+### [Aspose.HTML kullanarak Java'da HTML PDF öğreticisini nasıl izlersiniz](./how-to-follow-an-html-pdf-tutorial-in-java-using-aspose-html/)
+Bu öğretici, Aspose.HTML ile Java’da HTML PDF dönüşüm sürecini adım adım takip etmenizi sağlar.
 ### [HTML'yi MHTML'ye Dönüştürme](./convert-html-to-mhtml/)
 Aspose.HTML for Java ile HTML'yi MHTML'ye kolayca dönüştürün. Verimli HTML‑to‑MHTML dönüşümü için adım adım rehberimizi izleyin.
 ### [HTML'yi XPS'ye Dönüştürme](./convert-html-to-xps/)
@@ -114,6 +116,7 @@ Aspose.HTML ile C# kullanarak HTML'yi Markdown'a dönüştürmenin tam adım ad�
 Java'da tek bir kod satırıyla HTML dosyasını hızlıca PDF'ye dönüştürün.
 ### [Java'da HTML'den Özel Boyutlu PDF Oluşturma – Tam Kılavuz](./create-pdf-custom-size-from-html-in-java-full-guide/)
 HTML'den istediğiniz sayfa boyutlarıyla PDF oluşturmayı adım adım öğrenin.
+
 ## Sıkça Sorulan Sorular
 
 **S: Aspose.HTML for Java'ı ticari bir uygulamada kullanabilir miyim?**  

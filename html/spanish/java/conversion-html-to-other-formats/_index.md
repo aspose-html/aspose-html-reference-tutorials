@@ -108,6 +108,8 @@ Aprende a crear un pool de hilos fijo en Java para convertir múltiples archivos
 ### [Tutorial html a pdf: Convertir HTML a PDF en Java en una sola línea](./html-to-pdf-tutorial-convert-html-to-pdf-in-java-in-one-line/)
 Aprende a generar un PDF a partir de HTML con una sola línea de código usando Aspose.HTML para Java.
 ### [Crear PDF de Tamaño Personalizado desde HTML en Java – Guía Completa](./create-pdf-custom-size-from-html-in-java-full-guide/)
+### [Cómo seguir un tutorial de HTML PDF en Java usando Aspose.HTML](./how-to-follow-an-html-pdf-tutorial-in-java-using-aspose-html/)
+
 ## Preguntas Frecuentes
 
 **Q:** ¿Puedo usar Aspose.HTML para Java en una aplicación comercial?  

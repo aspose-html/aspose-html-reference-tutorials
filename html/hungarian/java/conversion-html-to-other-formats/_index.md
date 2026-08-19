@@ -104,10 +104,13 @@ Ismerje meg, hogyan hozhat létre fix szálú szálkezelőt a párhuzamos HTML�
 Tanulja meg, hogyan alakíthatja át a HTML-t Markdown formátumba C#-ban az Aspose.HTML segítségével, lépésről‑lépésre útmutatóval.
 ### [PDF oldalméret beállítása Aspose HTML‑lel – Teljes Java útmutató](./set-pdf-page-size-with-aspose-html-full-java-guide/)
 ### [HTML offset beállítása Markdown konvertálásakor Java‑ban](./how-to-set-offset-when-converting-html-to-markdown-in-java/)
-### [HTML to PDF oktatóanyag: HTML konvertálása PDF-re Java-ban egy sorban](./html-to-pdf-tutorial-convert-html-to-pdf-in-java-in-one-line/)
+### [HTML to PDF oktatóanyag: HTML konvertálása PDF-re Java-ban egy sorban](./html-to-pdf-tutorial-convert-html-to-pdf-in-one-line/)
 Ismerje meg, hogyan konvertálhatja a HTML‑t PDF‑re Java‑ban egyetlen soros kóddal az Aspose.HTML segítségével.
 ### [PDF egyedi méret létrehozása HTML-ből Java-ban – Teljes útmutató](./create-pdf-custom-size-from-html-in-java-full-guide/)
 Ismerje meg, hogyan hozhat létre egyedi méretű PDF-et HTML-ből Java-ban az Aspose.HTML segítségével.
+### [Hogyan kövessük az HTML PDF oktatóanyagot Java-ban az Aspose.HTML használatával](./how-to-follow-an-html-pdf-tutorial-in-java-using-aspose-html/)
+Rövid útmutató az HTML‑PDF konvertálás lépéseiről Java‑ban az Aspose.HTML‑el.
+
 ## Gyakran Ismételt Kérdések
 
 **Q: Használhatom az Aspose.HTML for Java‑t kereskedelmi alkalmazásban?**  

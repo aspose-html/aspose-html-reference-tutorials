@@ -113,6 +113,9 @@ Aspose.HTML를 사용하여 Java에서 병렬 HTML‑PDF 변환을 위한 고정
 Aspose.HTML를 사용하여 Java에서 한 줄 코드로 HTML을 PDF로 변환하는 방법을 배웁니다.
 ### [Java에서 HTML로부터 사용자 정의 크기의 PDF 만들기 – 전체 가이드](./create-pdf-custom-size-from-html-in-java-full-guide/)
 Aspose.HTML를 사용하여 Java에서 HTML을 원하는 크기의 PDF로 변환하는 전체 가이드를 제공합니다.
+### [Java에서 Aspose.HTML를 사용해 HTML PDF 튜토리얼을 따라하는 방법](./how-to-follow-an-html-pdf-tutorial-in-java-using-aspose-html/)
+Aspose.HTML를 활용해 Java에서 HTML PDF 튜토리얼을 단계별로 진행하는 방법을 안내합니다.
+
 ## 자주 묻는 질문
 
 **Q: Aspose.HTML for Java를 상용 애플리케이션에서 사용할 수 있나요?**  

@@ -113,6 +113,9 @@ Dowiedz się, jak skonfigurować stałą pulę wątków w Javie, aby równolegle
 Prosty przykład, jak w jednej linii kodu przekształcić HTML w PDF przy użyciu Aspose.HTML for Java.
 ### [Tworzenie PDF o niestandardowym rozmiarze z HTML w Javie – Pełny przewodnik](./create-pdf-custom-size-from-html-in-java-full-guide/)
 Dowiedz się, jak generować pliki PDF o dowolnym rozmiarze z kodu HTML w Javie przy użyciu Aspose.HTML.
+### [Jak śledzić samouczek HTML PDF w Javie przy użyciu Aspose.HTML](./how-to-follow-an-html-pdf-tutorial-in-java-using-aspose-html/)
+Dowiedz się, jak krok po kroku podążać za samouczkiem konwersji HTML do PDF w Javie przy użyciu Aspose.HTML.
+
 ## Często zadawane pytania
 
 **P: Czy mogę używać Aspose.HTML for Java w aplikacji komercyjnej?**
