@@ -46,6 +46,8 @@ Aspose.HTML for .NET 是一款功能强大的工具，允许开发人员以编�
 了解如何使用 Aspose.HTML for .NET 从 JSON 数据动态生成 HTML 文档。在您的 .NET 应用程序中充分利用 HTML 操作的强大功能。
 ### [在 C# 中以编程方式合并字体 – 步骤指南](./how-to-combine-fonts-programmatically-in-c-step-by-step-guid/)
 了解如何使用 Aspose.HTML for .NET 在 C# 中合并字体文件，提供完整代码示例和操作步骤。
+### [在 C# 中使用自定义资源处理程序将 HTML 保存为 ZIP](./save-html-as-zip-with-a-custom-resource-handler-in-c/)
+学习如何在 C# 中使用自定义资源处理程序将 HTML 内容打包为 ZIP 文件，以便更高效地管理资源。
 
 ## 结论
 

@@ -45,6 +45,9 @@ Tìm hiểu cách sử dụng Aspose.HTML cho .NET để tạo tài liệu HTML 
 ### [Tạo memory stream C# – Hướng dẫn tạo luồng tùy chỉnh](./create-memory-stream-c-custom-stream-creation-guide/)
 Hướng dẫn chi tiết cách tạo memory stream trong C# bằng Aspose.HTML, bao gồm các bước thực hiện và ví dụ thực tế.
 
+### [Lưu HTML dưới dạng ZIP với trình xử lý tài nguyên tùy chỉnh trong C#](./save-html-as-zip-with-a-custom-resource-handler-in-c/)
+Hướng dẫn cách lưu tài liệu HTML thành tệp ZIP và sử dụng trình xử lý tài nguyên tùy chỉnh trong C# bằng Aspose.HTML.
+
 
 ## Phần kết luận
 
