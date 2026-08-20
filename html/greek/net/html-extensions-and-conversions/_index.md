@@ -38,6 +38,7 @@ url: /el/net/html-extensions-and-conversions/
 
 ## Εκμάθηση επεκτάσεων και μετατροπών HTML
 
+
 ### [Μετατροπή HTML σε PDF στο .NET με το Aspose.HTML](./convert-html-to-pdf/)
 Μετατρέψτε HTML σε PDF χωρίς κόπο με το Aspose.HTML για .NET. Ακολουθήστε τον οδηγό βήμα προς βήμα και απελευθερώστε τη δύναμη της μετατροπής HTML σε PDF.
 ### [Δημιουργία PDF από HTML – Οδηγός βήμα‑βήμα C#](./create-pdf-from-html-c-step-by-step-guide/)
@@ -82,6 +83,15 @@ url: /el/net/html-extensions-and-conversions/
 Μάθετε πώς να δημιουργήσετε αρχείο zip σε C# και να συμπιέσετε HTML απευθείας στη μνήμη με το Aspose.HTML.
 ### [Μετατροπή HTML σε PDF με το Aspose.HTML – Πλήρης Οδηγός Βήμα‑βήμα](./convert-html-to-pdf-with-aspose-html-full-step-by-step-guide/)
 Μετατρέψτε HTML σε PDF με πλήρη οδηγίες βήμα‑βήμα χρησιμοποιώντας το Aspose.HTML για .NET.
+### [Μετατροπή HTML σε ZIP σε C# – Πλήρης Οδηγός](./convert-html-to-zip-in-c-complete-guide/)
+Μάθετε πώς να μετατρέπετε HTML σε αρχείο ZIP χρησιμοποιώντας C# και το Aspose.HTML, βήμα προς βήμα οδηγίες.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 ## Σύναψη
 
 Συμπερασματικά, οι επεκτάσεις και οι μετατροπές HTML είναι βασικά στοιχεία της σύγχρονης ανάπτυξης ιστού. Το Aspose.HTML για .NET απλοποιεί τη διαδικασία και το καθιστά προσβάσιμο σε προγραμματιστές όλων των επιπέδων. Ακολουθώντας τα σεμινάρια μας, θα είστε σε καλό δρόμο για να γίνετε ικανός προγραμματιστής ιστού με ευρύ σύνολο δεξιοτήτων.

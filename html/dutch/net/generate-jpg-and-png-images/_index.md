@@ -37,6 +37,7 @@ Het maken van afbeeldingen is slechts de eerste stap. Met Aspose.HTML voor .NET 
 Het integreren van Aspose.HTML voor .NET in uw .NET-projecten is probleemloos. De bibliotheek is ontworpen om naadloos te versmelten met uw bestaande code, waardoor het een uitstekende keuze is voor ontwikkelaars. U kunt het gebruiken om uw applicaties moeiteloos te verbeteren met mogelijkheden voor het genereren van afbeeldingen.
 
 ## Tutorials voor het genereren van JPG- en PNG-afbeeldingen
+
 ### [Genereer JPG-afbeeldingen via ImageDevice in .NET met Aspose.HTML](./generate-jpg-images-by-imagedevice/)
 Leer hoe u dynamische webpagina's maakt met Aspose.HTML voor .NET. Deze stapsgewijze tutorial behandelt vereisten, naamruimten en het renderen van HTML naar afbeeldingen.
 ### [Genereer PNG-afbeeldingen via ImageDevice in .NET met Aspose.HTML](./generate-png-images-by-imagedevice/)
@@ -53,7 +54,8 @@ Leer stap voor stap hoe u PNG-afbeeldingen maakt vanuit HTML met Aspose.HTML, me
 Leer hoe u met Aspose.HTML in C# een afbeelding genereert vanuit HTML, stap voor stap uitgelegd.
 ### [DOCX naar PNG converteren in C# – Volledige stapsgewijze gids](./convert-docx-to-png-in-c-full-step-by-step-guide/)
 Leer hoe u een DOCX-bestand naar PNG converteert met een volledige stap‑voor‑stap handleiding in C# en Aspose.HTML.
-
+### [HTML naar PNG renderen in C# – Stapsgewijze gids](./render-html-to-png-in-c-step-by-step-guide/)
+Leer hoe u HTML naar PNG kunt renderen in C# met Aspose.HTML, inclusief codevoorbeelden en configuratie‑opties.
 ## Conclusie
 
 Concluderend biedt Aspose.HTML voor .NET een gebruiksvriendelijke en krachtige oplossing voor het genereren van JPG- en PNG-afbeeldingen uit HTML-inhoud. Of u nu een doorgewinterde ontwikkelaar bent of net begint, deze tutorials begeleiden u door het proces. Maak visueel aantrekkelijke afbeeldingen die opvallen en uw projecten naar een hoger niveau tillen met Aspose.HTML voor .NET.

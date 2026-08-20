@@ -37,6 +37,7 @@ Tworzenie obrazów to tylko pierwszy krok. Aspose.HTML dla .NET pozwala na dalsz
 Zintegrowanie Aspose.HTML dla .NET z projektami .NET jest bezproblemowe. Biblioteka została zaprojektowana tak, aby płynnie łączyć się z istniejącym kodem, co czyni ją doskonałym wyborem dla programistów. Możesz jej używać do bezproblemowego ulepszania aplikacji o możliwości generowania obrazów.
 
 ## Generowanie obrazów JPG i PNG - samouczki
+
 ### [Generuj obrazy JPG przez ImageDevice w .NET z Aspose.HTML](./generate-jpg-images-by-imagedevice/)
 Dowiedz się, jak tworzyć dynamiczne strony internetowe za pomocą Aspose.HTML dla .NET. Ten samouczek krok po kroku obejmuje wymagania wstępne, przestrzenie nazw i renderowanie HTML do obrazów.
 ### [Generuj obrazy PNG przez ImageDevice w .NET z Aspose.HTML](./generate-png-images-by-imagedevice/)
@@ -53,7 +54,8 @@ Poznaj pełny proces konwersji HTML do pliku PNG przy użyciu Aspose.HTML, krok 
 Dowiedz się, jak przekształcić HTML w plik PNG przy użyciu Aspose.HTML, krok po kroku, z przykładami kodu.
 ### [Utwórz obraz z HTML w C# – Przewodnik krok po kroku](./create-image-from-html-in-c-step-by-step-guide/)
 Dowiedz się, jak w C# przekształcić kod HTML w obraz, krok po kroku, z przykładami i wskazówkami.
-
+### [Renderuj HTML do PNG w C# – przewodnik krok po kroku](./render-html-to-png-in-c-step-by-step-guide/)
+Naucz się renderować HTML do formatu PNG w C# przy użyciu Aspose.HTML, krok po kroku.
 ## Wniosek
 
 Podsumowując, Aspose.HTML dla .NET zapewnia przyjazne użytkownikowi i wydajne rozwiązanie do generowania obrazów JPG i PNG z treści HTML. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz, te samouczki poprowadzą Cię przez ten proces. Twórz wizualnie atrakcyjne obrazy, które się wyróżniają i podnoszą poziom Twoich projektów dzięki Aspose.HTML dla .NET.
