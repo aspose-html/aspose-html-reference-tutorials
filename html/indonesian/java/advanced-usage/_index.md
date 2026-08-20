@@ -124,6 +124,12 @@ Pelajari cara mengatur rasio piksel perangkat dalam lingkungan sandbox seluler m
 ### [Jalankan JavaScript di Java – Panduan Lengkap Menjalankan JS dari Java](./execute-javascript-in-java-complete-guide-to-running-js-from/)
 Pelajari cara mengeksekusi kode JavaScript langsung dari aplikasi Java menggunakan Aspose.HTML, termasuk contoh lengkap dan konfigurasi.
 
+### [Cara Menggunakan Sandbox untuk HTML ke PDF Java – Panduan Langkah‑per‑Langkah](./how-to-use-sandbox-for-html-to-pdf-java-step-by-step-guide/)
+Pelajari cara menggunakan sandbox untuk mengonversi HTML ke PDF dengan Java secara langkah demi langkah.
+
+### [Mengaktifkan Eksekusi Skrip di Java – Panduan Lengkap Aspose.HTML](./enable-script-execution-in-java-complete-aspose-html-guide/)
+Pelajari cara mengaktifkan eksekusi JavaScript dalam aplikasi Java menggunakan Aspose.HTML, termasuk konfigurasi sandbox dan keamanan.
+
 ---
 
 **Terakhir Diperbarui:** 2025-11-29  

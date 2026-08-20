@@ -43,6 +43,7 @@ Finally, for those looking to push their skills even further, there’s a wealth
 
 ## Creating and Managing HTML Documents in Aspose.HTML for Java Tutorials
 
+
 ### [Create HTML Documents Asynchronously in Aspose.HTML for Java](./create-html-documents-async/)
 Master HTML document creation asynchronously with Aspose.HTML for Java. Step-by-step guide, tips, and FAQs included for swift learning.
 ### [Create Empty HTML Documents in Aspose.HTML for Java](./create-empty-html-documents/)
@@ -82,6 +83,17 @@ Learn to load HTML, query elements, and count them using Aspose.HTML for Java in
 {{< blocks/products/products-backtop-button >}}
 ### [Iterate NodeList Java – Read HTML & Get Image src](./iterate-nodelist-java-read-html-get-image-src/)
 Learn how to iterate a NodeList in Java to read HTML and extract image src attributes using Aspose.HTML.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Iterate over NodeList Java – Complete Guide](./iterate-over-nodelist-java-complete-guide/)
+Learn how to iterate over a NodeList in Java using Aspose.HTML with this comprehensive step-by-step guide.
+### [Extract text from HTML with Java – Complete Step‑by‑Step Guide](./extract-text-from-html-with-java-complete-step-by-step-guide/)
+Learn how to extract text from HTML using Aspose.HTML for Java with this comprehensive step-by-step tutorial.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

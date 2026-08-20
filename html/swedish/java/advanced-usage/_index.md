@@ -113,6 +113,7 @@ A: Nej. En enda Aspose.HTML för Java‑licens täcker alla utdataformat, inklus
 
 ## Avancerad användning av Aspose.HTML Java‑handledningar
 
+
 ### [Anpassa HTML‑sidmarginaler med Aspose.HTML](./css-extensions-adding-title-page-number/)
 Lär dig hur du anpassar sidmarginaler, lägger till sidnummer och titlar i HTML‑dokument med Aspose.HTML för Java.
 ### [DOM‑mutationsobservatör med Aspose.HTML för Java](./dom-mutation-observer-observing-node-additions/)
@@ -161,6 +162,23 @@ Lär dig hur du extraherar HTML‑innehåll från MHTML‑filer med Aspose.HTML 
 {{< blocks/products/products-backtop-button >}}
 ### [Kör JavaScript i Java – Komplett guide för att köra JS från Java](./execute-javascript-in-java-complete-guide-to-running-js-from/)
 Lär dig hur du exekverar JavaScript‑kod från Java med Aspose.HTML, inklusive konfiguration och exempel.
+
+---
+
+**Last Updated:** 2025-11-29  
+**Tested With:** Aspose.HTML for Java 24.11  
+**Author:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Hur man använder Sandbox för HTML till PDF Java – Steg‑för‑steg‑guide](./how-to-use-sandbox-for-html-to-pdf-java-step-by-step-guide/)
+Lär dig hur du använder Sandbox för att konvertera HTML till PDF med Java i en steg‑för‑steg‑guide.
+### [Aktivera skriptkörning i Java – Komplett Aspose.HTML‑guide](./enable-script-execution-in-java-complete-aspose-html-guide/)
+Lär dig hur du aktiverar och kör JavaScript i Java‑applikationer med Aspose.HTML, inklusive konfiguration och exempel.
 
 ---
 

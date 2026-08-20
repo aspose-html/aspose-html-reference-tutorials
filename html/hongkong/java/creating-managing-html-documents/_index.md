@@ -43,6 +43,7 @@ Aspose.HTML for Java 為旨在在 Java 應用程式中無縫處理 HTML 文件�
 
 ## 在 Aspose.HTML for Java 教程中建立和管理 HTML 文件
 
+
 ### [在 Aspose.HTML for Java 中非同步建立 HTML 文檔](./create-html-documents-async/)
 使用 Aspose.HTML for Java 掌握非同步 HTML 文件建立。包含逐步指南、提示和常見問題解答，可幫助您快速學習。
 ### [在 Aspose.HTML for Java 中建立空 HTML 文檔](./create-empty-html-documents/)
@@ -82,6 +83,17 @@ Aspose.HTML for Java 為旨在在 Java 應用程式中無縫處理 HTML 文件�
 {{< blocks/products/products-backtop-button >}}
 ### [遍歷 NodeList（Java）– 讀取 HTML 並取得圖像 src](./iterate-nodelist-java-read-html-get-image-src/)
 學習如何在 Java 中遍歷 NodeList，讀取 HTML 並提取圖像的 src 屬性，適用於網頁解析與資料抓取。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [在 Java 中遍歷 NodeList – 完整指南](./iterate-over-nodelist-java-complete-guide/)
+透過此完整指南，了解如何在 Aspose.HTML for Java 中遍歷 NodeList，掌握節點操作技巧。
+### [使用 Java 從 HTML 提取文字 – 完整逐步指南](./extract-text-from-html-with-java-complete-step-by-step-guide/)
+使用 Aspose.HTML for Java 從 HTML 中提取文字的完整逐步指南，涵蓋關鍵技巧與範例。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

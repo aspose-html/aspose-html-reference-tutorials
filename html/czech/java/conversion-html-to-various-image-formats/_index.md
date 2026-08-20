@@ -64,6 +64,7 @@ Pokud potřebujete **convert HTML to JPEG** pro fotografické reprezentace nebo 
 
 ## Převod HTML do PNG
 
+
 Převod HTML na PNG obrázky je ideální pro bezztrátovou grafiku, snímky obrazovky nebo když potřebujete průhlednost. Náš komplexní průvodce poskytuje jasné instrukce pro plynulý převod.
 
 ### [Převod HTML do BMP](./convert-html-to-bmp/)
@@ -83,6 +84,8 @@ Naučte se převést HTML do formátu WebP v Javě pomocí Aspose.HTML. Kompletn
 ### [Vysoké DPI vykreslování v Javě – Zachycení snímků webových stránek s vlastním uživatelským agentem](./high-dpi-rendering-in-java-capture-webpage-screenshots-with/)
 ### [Jak nastavit DPI při převodu HTML na PNG – Kompletní průvodce](./how-to-set-dpi-when-converting-html-to-png-complete-guide/)
 ### [Vytvořit PNG z HTML – Rychlá dávková konverze pomocí thread poolu](./create-png-from-html-fast-batch-conversion-using-a-thread-po/)
+### [Převod HTML na PNG s nastavením maximálního využití paměti v Javě](./convert-html-to-png-with-set-max-memory-usage-in-java/)
+Naučte se, jak omezit paměť při převodu HTML na PNG v Javě pomocí Aspose.HTML.
 ## Často kladené otázky
 
 **Q: Mohu převést HTML na PNG pomocí Javy bez dalších knihoven pro obrázky?**  

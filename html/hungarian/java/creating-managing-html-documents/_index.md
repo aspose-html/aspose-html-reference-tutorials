@@ -43,6 +43,7 @@ Ha új HTML-dokumentumokról van szó, az Aspose.HTML for Java robusztus megold�
 
 ## HTML-dokumentumok létrehozása és kezelése az Aspose.HTML for Java oktatóanyagban
 
+
 ### [Hozzon létre HTML-dokumentumokat aszinkron módon az Aspose.HTML for Java-ban](./create-html-documents-async/)
 Elsz... (description)
 ### [Aszinkron JavaScript végrehajtása Java-ban – Teljes lépésről‑lépésre útmutató](./execute-async-javascript-in-java-complete-step-by-step-guide/)
@@ -89,3 +90,7 @@ Ismerje meg, hogyan generálhat HTML-t JavaScript kódból Java alkalmazásban, 
 {{< blocks/products/products-backtop-button >}}
 ### [NodeList bejárása Java – HTML olvasása és képek src lekérése](./iterate-nodelist-java-read-html-get-image-src/)
 Tanulja meg, hogyan járhatja be a NodeList-et Java-ban, olvashat HTML-t és szerezheti meg a képek src attribútumát lépésről lépésre.
+### [HTML-ből szöveg kinyerése Java-val – Teljes lépésről‑lépésre útmutató](./extract-text-from-html-with-java-complete-step-by-step-guide/)
+Fedezze fel, hogyan nyerhet ki szöveget HTML-ből Java használatával, részletes, lépésről‑lépésre útmutató.
+### [NodeList bejárása Java-ban – Teljes útmutató](./iterate-over-nodelist-java-complete-guide/)
+Ismerje meg, hogyan iterálhat a NodeList elemein Java-ban az Aspose.HTML segítségével, részletes, lépésről‑lépésre útmutató.

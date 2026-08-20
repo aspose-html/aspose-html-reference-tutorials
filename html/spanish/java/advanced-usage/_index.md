@@ -113,6 +113,7 @@ R: No. Una única licencia de Aspose.HTML para Java cubre todos los formatos de 
 
 ## Uso avanzado de tutoriales de Aspose.HTML Java
 
+
 ### [Personalizar márgenes de página HTML con Aspose.HTML](./css-extensions-adding-title-page-number/)
 Aprende a personalizar los márgenes de página, añadir números de página y títulos a documentos HTML usando Aspose.HTML para Java.
 ### [Observador de mutación DOM con Aspose.HTML para Java](./dom-mutation-observer-observing-node-additions/)
@@ -159,6 +160,23 @@ Aprende a extraer contenido HTML a partir de archivos MHTML usando Aspose.HTML p
 
 {{< blocks/products/products-backtop-button >}}
 ### [Ejecutar JavaScript en Java – Guía completa para ejecutar JS desde Java](./execute-javascript-in-java-complete-guide-to-running-js-from/)
+
+---
+
+**Última actualización:** 2025-11-29  
+**Probado con:** Aspose.HTML para Java 24.11  
+**Autor:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Cómo usar Sandbox para HTML a PDF Java – Guía paso a paso](./how-to-use-sandbox-for-html-to-pdf-java-step-by-step-guide/)
+Aprende a utilizar el entorno Sandbox de Aspose.HTML para convertir HTML a PDF en Java con una guía paso a paso.
+### [Habilitar la ejecución de scripts en Java – Guía completa de Aspose.HTML](./enable-script-execution-in-java-complete-aspose-html-guide/)
+Aprende a ejecutar JavaScript dentro de aplicaciones Java usando Aspose.HTML, con ejemplos paso a paso y mejores prácticas.
 
 ---
 

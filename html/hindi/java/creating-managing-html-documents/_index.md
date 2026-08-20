@@ -43,6 +43,7 @@ Aspose.HTML for Java उन डेवलपर्स के लिए एक श
 
 ## Aspose.HTML for Java ट्यूटोरियल में HTML दस्तावेज़ बनाना और प्रबंधित करना
 
+
 ### [Java के लिए Aspose.HTML में एसिंक्रोनस रूप से HTML दस्तावेज़ बनाएँ](./create-html-documents-async/)
 Aspose.HTML for Java के साथ एसिंक्रोनस रूप से HTML दस्तावेज़ निर्माण में महारत हासिल करें। त्वरित सीखने के लिए चरण-दर-चरण मार्गदर्शिका, युक्तियाँ और FAQ शामिल हैं।
 ### [Java में असिंक्रोनस जावास्क्रिप्ट निष्पादित करें – पूर्ण चरण‑दर‑चरण गाइड](./execute-async-javascript-in-java-complete-step-by-step-guide/)
@@ -82,6 +83,17 @@ Aspose.HTML for Java का उपयोग करके HTML को लोड, 
 Java में JavaScript को निष्पादित करके HTML उत्पन्न करने की पूरी चरण‑दर‑चरण गाइड। कोड उदाहरण और सर्वोत्तम प्रथाएँ शामिल हैं।
 ### [NodeList को इटररेट करें Java – HTML पढ़ें और इमेज src प्राप्त करें](./iterate-nodelist-java-read-html-get-image-src/)
 Java में NodeList को इटररेट करके HTML से इमेज src निकालना सीखें। चरण-दर-चरण मार्गदर्शिका और कोड उदाहरण।
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Java में NodeList पर इटरेट करना – पूर्ण गाइड](./iterate-over-nodelist-java-complete-guide/)
+Aspose.HTML for Java का उपयोग करके NodeList को इटरेट करने की पूरी प्रक्रिया सीखें, कोड उदाहरण और सर्वोत्तम प्रथाएँ।
+### [Java के साथ HTML से टेक्स्ट निकालें – पूर्ण चरण‑दर‑चरण गाइड](./extract-text-from-html-with-java-complete-step-by-step-guide/)
+Aspose.HTML for Java का उपयोग करके HTML दस्तावेज़ से टेक्स्ट निकालना सीखें। विस्तृत चरण‑दर‑चरण मार्गदर्शिका।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

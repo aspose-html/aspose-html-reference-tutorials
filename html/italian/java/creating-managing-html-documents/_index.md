@@ -42,6 +42,7 @@ Quando si tratta di generare nuovi documenti HTML, Aspose.HTML per Java offre un
  Infine, per coloro che desiderano spingere ulteriormente le proprie competenze, c'è una vasta gamma di argomenti avanzati da esplorare. Scopri come gestire i documenti SVG o gestire gli eventi di caricamento dei documenti per creare applicazioni web dinamiche e responsive. Questi tutorial ti portano oltre l'HTML, immergendoti nelle complessità della Scalable Vector Graphics (SVG) e della programmazione basata sugli eventi.[Per saperne di più](./create-manage-svg-documents/)
 
 ## Creazione e gestione di documenti HTML in Aspose.HTML per tutorial Java
+
 ### [Crea documenti HTML in modo asincrono in Aspose.HTML per Java](./create-html-documents-async/)
 Padroneggia la creazione di documenti HTML in modo asincrono con Aspose.HTML per Java. Guida passo passo, suggerimenti e FAQ inclusi per un apprendimento rapido.
 ### [Crea documenti HTML vuoti in Aspose.HTML per Java](./create-empty-html-documents/)
@@ -81,6 +82,17 @@ Scopri come eseguire JavaScript asincrono in Java usando Aspose.HTML. Guida pass
 {{< blocks/products/products-backtop-button >}}
 ### [Genera HTML da JavaScript in Java – Guida completa passo‑passo](./generate-html-from-javascript-in-java-complete-step-by-step/)
 Scopri come generare HTML da codice JavaScript in Java usando Aspose.HTML per Java con questa guida dettagliata passo‑passo.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Iterare su NodeList Java – Guida completa](./iterate-over-nodelist-java-complete-guide/)
+Scopri come iterare su NodeList in Java con Aspose.HTML, passo dopo passo, con esempi pratici e consigli utili.
+### [Estrai testo da HTML con Java – Guida completa passo‑a‑passo](./extract-text-from-html-with-java-complete-step-by-step-guide/)
+Scopri come estrarre testo da documenti HTML in Java usando Aspose.HTML con questa guida dettagliata passo dopo passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

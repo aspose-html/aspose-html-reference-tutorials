@@ -108,6 +108,7 @@ A: いいえ。単一の Aspose.HTML for Java ライセンスで、PDF や XPS �
 
 ## Aspose.HTML Java チュートリアルの高度な使用法
 
+
 ### [Aspose.HTML で HTML ページ余白をカスタマイズ](./css-extensions-adding-title-page-number/)
 Aspose.HTML for Java を使用して、HTML ドキュメントのページ余白、ページ番号、タイトルをカスタマイズする方法を学びます。
 ### [Aspose.HTML for Java を使用した DOM Mutation Observer を使用する](./dom-mutation-observer-observing-node-additions/)
@@ -156,6 +157,23 @@ Aspose.HTML for Java を使用して、MHTML ファイルから HTML コンテ�
 {{< blocks/products/products-backtop-button >}}
 ### [Java で JavaScript を実行 – Java から JS を実行する完全ガイド](./execute-javascript-in-java-complete-guide-to-running-js-from/)
 Aspose.HTML for Java を使用して、Java から JavaScript を実行し、動的コンテンツを操作する方法を学びます。
+
+---
+
+**最終更新日:** 2025-11-29  
+**テスト環境:** Aspose.HTML for Java 24.11  
+**作者:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Aspose.HTML のサンドボックスの使用方法 – ステップバイステップガイド](./how-to-use-sandbox-for-html-to-pdf-java-step-by-step-guide/)
+Aspose.HTML のサンドボックス環境を利用し、Java で HTML を PDF に変換する手順を詳しく解説します。
+### [Java でスクリプト実行を有効化 – 完全 Aspose.HTML ガイド](./enable-script-execution-in-java-complete-aspose-html-guide/)
+Aspose.HTML for Java を使用して、Java アプリケーション内で JavaScript を実行する方法をステップバイステップで解説します。
 
 ---
 

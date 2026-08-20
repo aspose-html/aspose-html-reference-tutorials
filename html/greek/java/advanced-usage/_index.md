@@ -113,6 +113,7 @@ weight: 20
 
 ## Προχωρημένες Χρήσεις των Οδηγών Aspose.HTML Java
 
+
 ### [Προσαρμογή Περιθωρίων HTML Σελίδας με Aspose.HTML](./css-extensions-adding-title-page-number/)
 Μάθετε πώς να προσαρμόζετε τα περιθώρια σελίδας, να προσθέτετε αριθμούς σελίδων και τίτλους σε έγγραφα HTML χρησιμοποιώντας το Aspose.HTML for Java.
 ### [Παρατηρητής Μεταβολών DOM με Aspose.HTML for Java](./dom-mutation-observer-observing-node-additions/)
@@ -160,6 +161,20 @@ weight: 20
 
 {{< blocks/products/products-backtop-button >}}
 ### [Εκτέλεση JavaScript σε Java – Πλήρης Οδηγός για Εκτέλεση JS από Java](./execute-javascript-in-java-complete-guide-to-running-js-from/)
+
+---
+
+**Τελευταία ενημέρωση:** 2025-11-29  
+**Δοκιμή με:** Aspose.HTML for Java 24.11  
+**Συγγραφέας:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Ενεργοποίηση Εκτέλεσης Script σε Java – Πλήρης Οδηγός Aspose.HTML](./enable-script-execution-in-java-complete-aspose-html-guide/)
 
 ---
 

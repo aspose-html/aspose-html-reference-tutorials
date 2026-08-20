@@ -42,6 +42,7 @@ url: /el/java/creating-managing-html-documents/
  Τέλος, για όσους θέλουν να προωθήσουν ακόμη περισσότερο τις δεξιότητές τους, υπάρχει πληθώρα προηγμένων θεμάτων προς εξερεύνηση. Μάθετε πώς να διαχειρίζεστε έγγραφα SVG ή να χειρίζεστε συμβάντα φόρτωσης εγγράφων για να δημιουργείτε αποκριτικές και δυναμικές εφαρμογές web. Αυτά τα σεμινάρια σας πηγαίνουν πέρα από την HTML, βουτώντας στις περιπλοκές των κλιμακούμενων διανυσματικών γραφικών (SVG) και του προγραμματισμού που βασίζεται σε εκδηλώσεις.[Διαβάστε περισσότερα](./create-manage-svg-documents/)
 
 ## Δημιουργία και διαχείριση εγγράφων HTML στο Aspose.HTML for Java Tutorials
+
 ### [Δημιουργία εγγράφων HTML ασύγχρονα στο Aspose.HTML για Java](./create-html-documents-async/)
 Κύρια δημιουργία εγγράφων HTML ασύγχρονα με το Aspose.HTML για Java. Οδηγός βήμα προς βήμα, συμβουλές και συχνές ερωτήσεις περιλαμβάνονται για γρήγορη εκμάθηση.
 ### [Δημιουργήστε κενά έγγραφα HTML στο Aspose.HTML για Java](./create-empty-html-documents/)
@@ -74,6 +75,17 @@ url: /el/java/creating-managing-html-documents/
 Μάθετε πώς να φορτώνετε, ερωτάτε και μετράτε στοιχεία HTML σε Java με το Aspose.HTML, βήμα‑βήμα οδηγός.
 ### [Εκτέλεση ασύγχρονης JavaScript σε Java – Πλήρης οδηγός βήμα‑βήμα](./execute-async-javascript-in-java-complete-step-by-step-guide/)
 Μάθετε πώς να εκτελείτε κώδικα JavaScript ασύγχρονα σε εφαρμογές Java με το Aspose.HTML, βήμα‑βήμα οδηγίες.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Επανάληψη NodeList σε Java – Πλήρης Οδηγός](./iterate-over-nodelist-java-complete-guide/)
+Μάθετε πώς να επαναλαμβάνετε NodeList σε Java χρησιμοποιώντας το Aspose.HTML με αυτόν τον πλήρη οδηγό βήμα‑βήμα.
+### [Εξαγωγή κειμένου από HTML με Java – Πλήρης οδηγός βήμα‑βήμα](./extract-text-from-html-with-java-complete-step-by-step-guide/)
+Μάθετε πώς να εξάγετε κείμενο από έγγραφα HTML σε Java χρησιμοποιώντας το Aspose.HTML με αυτόν τον πλήρη οδηγό βήμα‑βήμα.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

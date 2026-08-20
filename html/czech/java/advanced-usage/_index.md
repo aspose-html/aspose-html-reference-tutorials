@@ -113,6 +113,7 @@ A: Ne. Jedna licence Aspose.HTML pro Java pokrývá všechny výstupní formáty
 
 ## Pokročilé použití tutoriálů Aspose.HTML Java
 
+
 ### [Přizpůsobení okrajů HTML stránky s Aspose.HTML](./css-extensions-adding-title-page-number/)
 Naučte se přizpůsobit okraje stránky, přidat číslování stránek a titulky do HTML dokumentů pomocí Aspose.HTML pro Java.
 ### [DOM Mutation Observer s Aspose.HTML pro Java](./dom-mutation-observer-observing-node-additions/)
@@ -161,6 +162,23 @@ Naučte se, jak pomocí Aspose.HTML pro Java extrahovat HTML obsah z MHTML soubo
 {{< blocks/products/products-backtop-button >}}
 ### [Spuštění JavaScriptu v Javě – Kompletní průvodce spouštěním JS z Javy](./execute-javascript-in-java-complete-guide-to-running-js-from/)
 Naučte se, jak spouštět JavaScript kód přímo z Javy pomocí Aspose.HTML, včetně integrace, ladění a správy skriptů.
+
+---
+
+**Poslední aktualizace:** 2025-11-29  
+**Testováno s:** Aspose.HTML pro Java 24.11  
+**Autor:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Jak používat Sandbox pro HTML do PDF v Javě – krok za krokem průvodce](./how-to-use-sandbox-for-html-to-pdf-java-step-by-step-guide/)
+Naučte se, jak využít sandbox prostředí pro bezpečnou konverzi HTML do PDF v Javě pomocí Aspose.HTML.
+### [Povolení spouštění skriptů v Javě – Kompletní průvodce Aspose.HTML](./enable-script-execution-in-java-complete-aspose-html-guide/)
+Naučte se, jak povolit a spouštět JavaScript v Javě pomocí Aspose.HTML, včetně nastavení, zabezpečení a praktických příkladů.
 
 ---
 
