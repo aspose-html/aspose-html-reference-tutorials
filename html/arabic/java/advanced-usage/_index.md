@@ -137,6 +137,9 @@ weight: 20
 ### [تمكين تنفيذ السكريبت في Java – دليل شامل Aspose.HTML](./enable-script-execution-in-java-complete-aspose-html-guide/)
 تعلم كيفية تمكين تشغيل JavaScript في تطبيقات Java باستخدام Aspose.HTML – دليل خطوة بخطوة.
 
+### [كيفية تمكين JavaScript في Aspose HTML – تحميل HTML واستخراج النص](./how-to-enable-javascript-in-aspose-html-load-html-get-text/)
+تعلم كيفية تمكين JavaScript عند تحميل HTML واستخدام Aspose.HTML لاستخراج النص من المستند.
+
 ---
 
 **آخر تحديث:** 2025-11-29  

@@ -53,6 +53,8 @@ url: /el/java/css-html-form-editing/
 {{< blocks/products/products-backtop-button >}}
 ### [Λήψη Υπολογιζόμενου Στυλ Στοιχείου σε Java – Πλήρης Οδηγός Βήμα‑βήμα](./get-element-computed-style-in-java-full-step-by-step-guide/)
 Μάθετε πώς να αποκτήσετε το υπολογιζόμενο στυλ ενός στοιχείου HTML χρησιμοποιώντας το Aspose.HTML για Java σε αναλυτικό βήμα‑βήμα οδηγό.
+### [Πώς να χρησιμοποιήσετε το getComputedStyle στη Java – Εξαγωγή χρώματος φόντου και άλλων ιδιοτήτων CSS](./how-to-use-getcomputedstyle-in-java-extract-background-color/)
+Μάθετε πώς να χρησιμοποιήσετε τη μέθοδο getComputedStyle στη Java για να εξάγετε το χρώμα φόντου και άλλες ιδιότητες CSS.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

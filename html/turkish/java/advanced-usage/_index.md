@@ -132,6 +132,8 @@ Aspose.HTML for Java ile XPS sayfa boyutunu nasıl ayarlayacağınızı öğreni
 Aspose.HTML for Java kullanarak Java içinde JavaScript kodu çalıştırmayı ve entegrasyonu öğrenin.
 ### [Java’da cihaz piksel oranını ayarlama – Mobil Sandbox Eğitimi](./set-device-pixel-ratio-in-java-mobile-sandbox-tutorial/)
 Java’da Mobil Sandbox ortamında cihaz piksel oranını nasıl ayarlayacağınızı öğrenin.
+### [Aspose.HTML'de JavaScript'i Etkinleştirme – HTML Yükleme ve Metin Alma](./how-to-enable-javascript-in-aspose-html-load-html-get-text/)
+Aspose.HTML ile JavaScript'i etkinleştirerek HTML yükleyin ve metni çıkarın.
 
 ---
 

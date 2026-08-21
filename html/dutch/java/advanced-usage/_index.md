@@ -131,6 +131,8 @@ Leer hoe je XPS‑paginagrootte kunt aanpassen met Aspose.HTML for Java. Beheer 
 ### [Hoe JavaScript in Java uit te voeren – Complete gids](./how-to-run-javascript-in-java-complete-guide/)
 Leer hoe je JavaScript kunt embedden en uitvoeren binnen Java‑applicaties met Aspose.HTML, stap voor stap.
 ### [apparaatpixelratio instellen in Java – Mobiele Sandbox Tutorial](./set-device-pixel-ratio-in-java-mobile-sandbox-tutorial/)
+### [Hoe JavaScript in Aspose HTML inschakelen – HTML laden & tekst ophalen](./how-to-enable-javascript-in-aspose-html-load-html-get-text/)
+Leer hoe je JavaScript inschakelt in Aspose HTML, HTML laadt en tekst extrahert met Java.
 
 ---
 

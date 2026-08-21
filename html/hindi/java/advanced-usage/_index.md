@@ -132,6 +132,8 @@ Aspose.HTML for Java का उपयोग करके XPS पेज आका
 Java एप्लिकेशन में JavaScript को एम्बेड और निष्पादित करने के चरण‑दर‑चरण निर्देश।  
 ### [Java में डिवाइस पिक्सेल रेशियो सेट करें – मोबाइल सैंडबॉक्स ट्यूटोरियल](./set-device-pixel-ratio-in-java-mobile-sandbox-tutorial/)
 Java में मोबाइल सैंडबॉक्स का उपयोग करके डिवाइस पिक्सेल रेशियो को कैसे सेट करें, सीखें।  
+### [Aspose HTML में JavaScript सक्षम करना – HTML लोड करें और टेक्स्ट प्राप्त करें](./how-to-enable-javascript-in-aspose-html-load-html-get-text/)
+Aspose.HTML में JavaScript सक्रिय करके HTML लोड करें और टेक्स्ट निकालें, इस चरण‑दर‑चरण गाइड में देखें।
 
 ---
 

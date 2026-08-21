@@ -120,15 +120,13 @@ Pelajari cara menyesuaikan ukuran halaman XPS dengan Aspose.HTML untuk Java. Kon
 Pelajari cara menjalankan kode JavaScript dalam aplikasi Java dengan Aspose.HTML untuk Java secara lengkap.
 ### [Atur Rasio Piksel Perangkat di Java – Tutorial Sandbox Seluler](./set-device-pixel-ratio-in-java-mobile-sandbox-tutorial/)
 Pelajari cara mengatur rasio piksel perangkat dalam lingkungan sandbox seluler menggunakan Aspose.HTML untuk Java.
-
 ### [Jalankan JavaScript di Java – Panduan Lengkap Menjalankan JS dari Java](./execute-javascript-in-java-complete-guide-to-running-js-from/)
 Pelajari cara mengeksekusi kode JavaScript langsung dari aplikasi Java menggunakan Aspose.HTML, termasuk contoh lengkap dan konfigurasi.
-
 ### [Cara Menggunakan Sandbox untuk HTML ke PDF Java – Panduan Langkah‑per‑Langkah](./how-to-use-sandbox-for-html-to-pdf-java-step-by-step-guide/)
 Pelajari cara menggunakan sandbox untuk mengonversi HTML ke PDF dengan Java secara langkah demi langkah.
-
 ### [Mengaktifkan Eksekusi Skrip di Java – Panduan Lengkap Aspose.HTML](./enable-script-execution-in-java-complete-aspose-html-guide/)
 Pelajari cara mengaktifkan eksekusi JavaScript dalam aplikasi Java menggunakan Aspose.HTML, termasuk konfigurasi sandbox dan keamanan.
+### [Cara Mengaktifkan JavaScript di Aspose HTML – Muat HTML & Dapatkan Teks](./how-to-enable-javascript-in-aspose-html-load-html-get-text/)
 
 ---
 

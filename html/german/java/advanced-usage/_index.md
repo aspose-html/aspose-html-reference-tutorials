@@ -135,6 +135,8 @@ Erfahren Sie, wie Sie JavaScript-Code innerhalb von Java-Anwendungen ausführen 
 Erfahren Sie, wie Sie die Aspose.HTML Sandbox nutzen, um HTML‑Dokumente sicher in PDF zu konvertieren – Schritt für Schritt erklärt.
 ### [Java‑Skriptausführung aktivieren – Komplett‑Guide für Aspose.HTML](./enable-script-execution-in-java-complete-aspose-html-guide/)
 Erfahren Sie, wie Sie die Skriptausführung in Java mit Aspose.HTML aktivieren und JavaScript sicher ausführen können.
+### [Wie man JavaScript in Aspose HTML aktiviert – HTML laden & Text extrahieren](./how-to-enable-javascript-in-aspose-html-load-html-get-text/)
+Erfahren Sie, wie Sie JavaScript in Aspose HTML aktivieren, HTML laden und den Textinhalt auslesen.
 
 ---
 

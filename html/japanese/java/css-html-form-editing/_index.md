@@ -52,6 +52,8 @@ Java で Aspose.HTML を使用し、HTML 要素の計算済みスタイルから
 {{< blocks/products/products-backtop-button >}}
 ### [Java で要素の計算済みスタイルを取得 – 完全ステップバイステップガイド](./get-element-computed-style-in-java-full-step-by-step-guide/)
 このチュートリアルでは、Aspose.HTML for Java を使用して要素の計算済みスタイルを取得する方法をステップバイステップで解説します。
+### [Java で getComputedStyle を使用する方法 – 背景色やその他の CSS プロパティを取得](./how-to-use-getcomputedstyle-in-java-extract-background-color/)
+このチュートリアルでは、Aspose.HTML for Java を使って getComputedStyle を呼び出し、要素の背景色や他の CSS プロパティを抽出する手順を解説します。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

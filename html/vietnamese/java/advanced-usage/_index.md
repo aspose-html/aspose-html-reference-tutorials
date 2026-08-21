@@ -132,6 +132,8 @@ Học cách điều chỉnh kích thước trang XPS với Aspose.HTML for Java.
 Hướng dẫn chi tiết cách thực thi mã JavaScript trong ứng dụng Java bằng Aspose.HTML, bao gồm thiết lập môi trường và ví dụ thực tế.
 ### [Đặt tỷ lệ pixel thiết bị trong Java – Hướng dẫn Sandbox di động](./set-device-pixel-ratio-in-java-mobile-sandbox-tutorial/)
 Hướng dẫn cách thiết lập DevicePixelRatio trong môi trường Sandbox di động khi dùng Aspose.HTML cho Java.
+### [Cách bật JavaScript trong Aspose HTML – Tải HTML & Lấy văn bản](./how-to-enable-javascript-in-aspose-html-load-html-get-text/)
+Tìm hiểu cách bật JavaScript khi tải HTML và trích xuất văn bản bằng Aspose.HTML for Java.
 
 ---
 

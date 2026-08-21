@@ -53,7 +53,8 @@ Java में Aspose.HTML का उपयोग करके HTML तत्व
 {{< blocks/products/products-backtop-button >}}
 ### [Java में तत्व का गणना किया गया शैली प्राप्त करें – पूर्ण चरण-दर-चरण गाइड](./get-element-computed-style-in-java-full-step-by-step-guide/)
 इस गाइड में Java के साथ Aspose.HTML का उपयोग करके किसी तत्व की गणना की गई शैली कैसे प्राप्त करें, सीखें।
-
+### [Java में getComputedStyle का उपयोग कैसे करें – बैकग्राउंड रंग और अन्य CSS गुण निकालें](./how-to-use-getcomputedstyle-in-java-extract-background-color/)
+Java में getComputedStyle का उपयोग करके बैकग्राउंड रंग और अन्य CSS प्रॉपर्टीज़ को प्राप्त करने की विधि सीखें।
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

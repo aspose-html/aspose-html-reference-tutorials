@@ -131,6 +131,7 @@ Aprende a ajustar el tamaño de página XPS con Aspose.HTML para Java. Controla 
 ### [Establecer la relación de píxeles del dispositivo en Java – Tutorial de Sandbox móvil](./set-device-pixel-ratio-in-java-mobile-sandbox-tutorial/)
 Aprende a configurar la relación de píxeles del dispositivo en entornos móviles usando Aspose.HTML para Java.
 ### [Cómo ejecutar JavaScript en Java – Guía completa](./how-to-run-javascript-in-java-complete-guide/)
+### [Cómo habilitar JavaScript en Aspose HTML – Cargar HTML y obtener texto](./how-to-enable-javascript-in-aspose-html-load-html-get-text/)
 
 ---
 

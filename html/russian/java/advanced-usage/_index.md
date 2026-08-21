@@ -132,6 +132,8 @@ Aspose.HTML позволяет прикрепить `DomMutationObserver` к л�
 Узнайте, как запускать JavaScript‑код из Java‑приложений с помощью Aspose.HTML for Java.
 ### [Установка коэффициента пикселей устройства в Java – Руководство по мобильной песочнице](./set-device-pixel-ratio-in-java-mobile-sandbox-tutorial/)
 Узнайте, как задать device pixel ratio в Java при работе в мобильной песочнице Aspose.HTML, обеспечивая корректный рендеринг на разных экранах.
+### [Как включить JavaScript в Aspose HTML – загрузить HTML и получить текст](./how-to-enable-javascript-in-aspose-html-load-html-get-text/)
+Узнайте, как включить выполнение JavaScript при загрузке HTML и извлечь текстовое содержимое с помощью Aspose.HTML for Java.
 
 ---
 

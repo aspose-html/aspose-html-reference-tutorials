@@ -139,6 +139,8 @@ Aspose.HTML 允许您将 `DomMutationObserver` 附加到任意节点。这对于
 ### [在 Java 中启用脚本执行 – 完整的 Aspose.HTML 指南](./enable-script-execution-in-java-complete-aspose-html-guide/)
 学习如何在 Aspose.HTML for Java 中启用脚本执行，包括配置、沙盒设置和安全注意事项。
 
+### [如何在 Aspose HTML 中启用 JavaScript – 加载 HTML 并获取文本](./how-to-enable-javascript-in-aspose-html-load-html-get-text/)
+
 ---
 **最后更新：** 2025-11-29  
 **测试环境：** Aspose.HTML for Java 24.11  

@@ -52,6 +52,8 @@ Ismerje meg, hogyan nyerheti ki a háttérszínt egy HTML-elemből a Java GetCom
 {{< blocks/products/products-backtop-button >}}
 ### [Elem számított stílusának lekérése Java‑ban – Teljes lépésről‑lépésre útmutató](./get-element-computed-style-in-java-full-step-by-step-guide/)
 Ismerje meg, hogyan kérheti le egy HTML elem számított CSS‑stílusát Java‑ban az Aspose.HTML segítségével, részletes példákkal.
+### [Hogyan használja a getComputedStyle-t Java-ban – Háttérszín és egyéb CSS tulajdonságok kinyerése](./how-to-use-getcomputedstyle-in-java-extract-background-color/)
+Ismerje meg, hogyan nyerheti ki a háttérszínt és más CSS tulajdonságokat a getComputedStyle segítségével Java-ban.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
