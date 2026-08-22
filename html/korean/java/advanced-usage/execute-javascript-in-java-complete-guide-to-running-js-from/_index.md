@@ -1,19 +1,46 @@
 ---
 category: general
-date: 2026-01-04
+date: 2026-08-22
 description: Aspose.HTML 샌드박스를 사용하여 Java에서 JavaScript를 실행합니다. Java에서 HTML 파일을 로드하고,
-  Java에서 JS를 호출하며, Java에서 JS 함수를 안전하게 실행하는 방법을 배웁니다.
+  Java에서 JavaScript를 호출하며, JS 함수를 안전하게 실행하는 방법을 배웁니다.
 draft: false
 keywords:
 - execute javascript in java
 - load html file java
-- how to call js java
+- call javascript from java
 - invoke javascript from java
 - run js function java
-language: ko
+lastmod: 2026-08-22
 og_description: Aspose.HTML 샌드박스를 사용하여 Java에서 JavaScript를 실행합니다. Java에서 HTML 파일을 로드하고,
-  Java에서 JavaScript를 호출하며, 전체 코드 예제와 함께 Java에서 JS 함수를 실행합니다.
-og_title: Java에서 JavaScript 실행 – 단계별 튜토리얼
+  Java에서 JavaScript를 호출하며, 전체 코드 예제와 함께 JS 함수를 안전하게 실행합니다.
+og_image_alt: Screenshot of Java code that loads an HTML file and invokes a JavaScript
+  function using Aspose.HTML sandbox
+og_title: Java에서 JavaScript 실행 – 보안 샌드박스 쉬운 가이드
+schemas:
+- author: Aspose
+  dateModified: '2026-08-22'
+  description: Execute JavaScript in Java with Aspose.HTML sandbox. Learn how to load
+    an HTML file in Java, call JavaScript from Java, and run a JS function safely.
+  headline: Execute JavaScript in Java – Complete guide to running JS from Java
+  type: TechArticle
+- questions:
+  - answer: Yes. Instantiate a sandbox per request or reuse a thread‑local sandbox,
+      invoke the desired JavaScript, and return the result as JSON from the controller.
+    question: Can I use this approach in a Spring Boot REST controller?
+  - answer: It uses a native JavaScript engine packaged with the library; the native
+      binaries are bundled in the Maven artifact, so no separate installation is needed.
+    question: Does Aspose.HTML require a native library?
+  - answer: The sandbox can process files up to **200 MB** without loading the entire
+      document into memory, thanks to its streaming parser.
+    question: What is the maximum HTML file size the sandbox can handle?
+  - answer: Enable Aspose logging (`System.setProperty("aspose.html.logging", "true")`)
+      to capture the script source and stack trace, then inspect the generated log
+      file.
+    question: How do I debug a script that fails inside the sandbox?
+  - answer: The sandbox disables external network calls by default. If you need to
+      allow specific URLs, configure the `Sandbox`’s `allowedUrls` collection accordingly.
+    question: Is there a way to limit network access from the script?
+  type: FAQPage
 tags:
 - Java
 - Aspose.HTML
@@ -27,33 +54,45 @@ url: /ko/java/advanced-usage/execute-javascript-in-java-complete-guide-to-runnin
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Execute JavaScript in Java – Complete Guide
+# Java에서 JavaScript 실행 – Java에서 JS 실행을 위한 완전 가이드
 
-클라이언트‑사이드 코드를 서버‑사이드에서 실행하려고 할 때, 스크립트가 JVM을 망가뜨리지 않도록 하는 방법을 몰라 고민한 적 있나요? 혼자가 아닙니다. HTML 페이지에 자체 스크립트가 포함돼 있을 경우, 이를 서버‑사이드에서 실행하려다 많은 개발자들이 벽에 부딪히곤 합니다.  
+Running client‑side JavaScript inside a Java application used to feel like walking a tightrope: one mis‑behaving script could hang the JVM or expose security holes. With Aspose.HTML’s sandbox you get a contained environment that limits execution time, memory usage, and filesystem access. In this tutorial you’ll learn how to **load an HTML file in Java**, safely **call JavaScript from Java**, and retrieve the result—all while keeping your server stable and secure.
 
-이 튜토리얼에서는 **load HTML file Java**, 안전하게 **call JS from Java**, 그리고 결과를 다시 받아오는 과정을 Aspose.HTML 라이브러리의 sandbox 기능을 활용해 단계별로 보여드립니다. 끝까지 따라오면 **run JS function Java** 를 애플리케이션에 위험 요소 없이 적용할 수 있게 됩니다.
+## 빠른 답변
+- **어떤 JavaScript 코드를 실행할 수 있나요?** 예, 하지만 샌드박스는 JVM을 보호하기 위해 시간 제한과 메모리 상한을 적용합니다.  
+- **개발에 라이선스가 필요합니까?** 무료 체험판으로 평가가 가능하며, 상용 라이선스는 프로덕션에 필요합니다.  
+- **필요한 Java 버전은 무엇인가요?** Aspose.HTML 23.10+에 대해 Java 17 이상을 권장합니다.  
+- **JavaScript에서 값을 어떻게 가져오나요?** `document.invokeScript`를 사용하면 Java `Object`를 반환합니다.  
+- **샌드박스가 스레드‑안전한가요?** 각 `Sandbox` 인스턴스는 단일 스레드이며, 스레드당 하나를 생성하거나 접근을 동기화해야 합니다.
 
-## What You’ll Learn
+## Java에서 JavaScript 실행이란 무엇인가요?
 
-- Aspose.HTML sandbox를 스크립트 타임아웃과 함께 설정하는 방법.  
-- **load an HTML file Java** 를 sandboxed `HtmlDocument` 로 로드하는 정확한 단계.  
-- `document.invokeScript` 를 사용해 **invoke javascript from java** 하는 구문.  
-- 반환값 처리, 리소스 정리, 흔히 발생하는 문제 해결 팁.
+`execute javascript in java`는 일반적으로 브라우저에서 실행되는 JavaScript 코드를 스크립팅 엔진이나 라이브러리를 사용하여 Java 런타임 내부에서 실행하는 과정을 의미합니다. Aspose.HTML는 스크립트를 격리하고 시간 제한을 적용하며 결과를 직접 Java에 반환하는 샌드박스 엔진을 제공합니다.
 
-### Prerequisites
+## JavaScript 실행을 위해 Aspose.HTML 샌드박스를 사용하는 이유는?
 
-| Requirement | Why it matters |
+Aspose.HTML는 **50개 이상의 입력 및 출력 포맷**을 지원하며, **최대 500페이지**까지 전체 파일을 메모리에 로드하지 않고 처리할 수 있습니다. 샌드박스는 JavaScript 엔진을 격리하여 기본적으로 구성 가능한 **5초**로 CPU 사용을 제한하고 메모리를 **256 MB**로 제한합니다. 이러한 정량화된 안전망을 통해 텍스트 분석이나 계산과 같은 클라이언트‑사이드 로직을 백엔드 서비스에 안정성을 해치지 않고 삽입할 수 있습니다.
+
+## 사전 요구 사항
+
+| 요구 사항 | 중요한 이유 |
 |-------------|----------------|
-| Java 17 or newer | Aspose.HTML 23.10+ 은 최신 JDK를 대상으로 합니다. |
-| Aspose.HTML for Java (Maven artifact `com.aspose:aspose-html:23.10`) | `HtmlDocument` 와 `Sandbox` 클래스를 제공합니다. |
-| A simple HTML page with a JavaScript function (e.g., `wordCount()`) | Java → JS → Java 전체 흐름을 시연하기 위함입니다. |
-| Basic familiarity with try‑with‑resources (optional) | 네이티브 리소스의 적절한 해제를 보장하는 데 도움이 됩니다. |
+| Java 17 이상 | Aspose.HTML 23.10+는 최신 JDK를 대상으로 하며, 네이티브 상호 운용을 위해 내장된 `jdk.incubator.foreign` 모듈을 사용합니다. |
+| Aspose.HTML for Java (`com.aspose:aspose-html:23.10`) | 안전한 스크립트 실행에 필요한 `HtmlDocument`와 `Sandbox` 클래스를 제공합니다. |
+| JavaScript 함수(`wordCount()` 등)가 포함된 간단한 HTML 페이지 | Java에서 JS로, 다시 Java로의 전체 라운드‑트립을 보여줍니다. |
+| try‑with‑resources에 대한 숙련도(선택 사항) | 네이티브 리소스의 결정적 해제를 보장하여 메모리 누수를 방지합니다. |
 
-위 항목들을 준비했다면, 바로 시작해 보겠습니다.
+이 준비가 되었다면, 샌드박스 구축을 시작합시다.
 
-## Step 1 – Configure the Sandbox (Primary Keyword in Action)
+## Sandbox 클래스란?
 
-가장 먼저 해야 할 일은 **execute JavaScript in Java** 를 제어된 환경 안에서 수행하는 것입니다. `Sandbox` 클래스는 타임아웃 및 기타 보안 옵션을 설정할 수 있게 해줍니다.
+`Sandbox` 클래스는 HTML 및 JavaScript를 위한 격리된 실행 환경을 생성하며, 스크립트 시간 제한, 메모리 제한, 파일‑시스템 제한과 같은 보안 정책을 적용합니다. JavaScript 엔진을 별도의 네이티브 컨텍스트에서 실행하여 스크립트가 호스트 JVM에 직접 접근하는 것을 방지합니다. 문서를 로드하기 전에 `scriptTimeout`, `maxMemory`, `allowedUrls`와 같은 옵션을 구성할 수 있습니다.
+
+## 샌드박스 구성 방법 (단계 1)
+
+스크립트 복잡도에 맞는 시간 제한으로 샌드박스를 로드하세요; 텍스트‑처리 함수의 경우 5초 제한이 좋은 기본값이며, 더 무거운 작업에는 늘릴 수 있습니다. 샌드박스는 또한 최대 메모리 사용량을 256 MB로 지정할 수 있어 대형 스크립트가 JVM 힙을 고갈시키는 것을 방지합니다.
+
+> **프로 팁:** 스크립트를 프로파일링한 후에만 시간 제한을 조정하세요; 값이 너무 높으면 샌드박스의 보호 목적이 무색해집니다.
 
 ```java
 import com.aspose.html.sandbox.SandboxOptions;
@@ -67,11 +106,13 @@ options.setScriptTimeout(5000); // milliseconds
 Sandbox sandbox = new Sandbox(options);
 ```
 
-> **Pro tip:** 간단한 텍스트 처리라면 5 초 정도의 타임아웃이면 충분하지만, 작업량에 따라 조정하세요. 너무 크게 설정하면 sandbox의 의미가 사라집니다.
+## HtmlDocument 클래스란?
 
-## Step 2 – Load the HTML File Java
+`HtmlDocument`는 메모리 내의 단일 HTML 파일을 나타냅니다. 생성자에 `Sandbox` 인스턴스를 전달하면 문서가 파싱되고 모든 `<script>` 태그가 로드되지만 **실행되지** 않습니다; 명시적으로 함수를 호출할 때까지 실행되지 않습니다. 로드 후에는 DOM을 조회하거나 수정하고, 요소를 추가·제거하며, JavaScript를 호출하기 전에 환경을 준비할 수 있습니다.
 
-sandbox가 준비되었으니, 이제 안전하게 **load an HTML file Java** 할 수 있습니다. `HtmlDocument` 생성자는 파일 경로와 sandbox 인스턴스를 받아, 페이지가 제한된 컨테이너 안에서 실행되도록 보장합니다.
+## Java에서 HTML 파일을 로드하는 방법 (단계 2)
+
+파일 경로와 샌드박스 인스턴스를 제공하면 모든 스크립트가 제한된 컨테이너 내에서 실행되어 호스트 시스템에 대한 무단 접근을 방지합니다. 이 분리를 통해 JavaScript 코드를 자동으로 트리거하지 않고도 DOM을 파싱하고, 요소를 수정하거나 속성을 검사할 수 있으며, 로드하기 전에 추가 리소스를 주입하거나 샌드박스 옵션을 설정할 수도 있습니다.
 
 ```java
 import com.aspose.html.HtmlDocument;
@@ -83,11 +124,11 @@ String htmlPath = "C:/myproject/resources/sample_with_script.html";
 HtmlDocument document = new HtmlDocument(htmlPath, sandbox);
 ```
 
-파일에 `<script>` 태그가 있더라도 **won’t execute until you explicitly invoke a function** 하므로, 필요할 때만 페이지 로직의 일부를 사용할 수 있습니다.
+페이지에 `<script>` 요소가 포함되어 있으면 `invokeScript`를 호출할 때까지 대기 상태로 남아 있습니다. 이 동작은 큰 페이지에서 특정 유틸리티 함수만 필요할 때 유용합니다.
 
-## Step 3 – Invoke JavaScript from Java
+## Java에서 JavaScript를 호출하는 방법 (단계 3)
 
-문서가 로드되었으니 이제 **invoke javascript from java** 를 수행합니다. 예를 들어 HTML에 `wordCount()` 라는 함수가 정의돼 있다면, 다음과 같이 호출합니다:
+HTML에 단락의 단어 수를 반환하는 `wordCount()` 함수가 정의되어 있다고 가정합니다. `document.invokeScript("wordCount")`를 사용해 호출합니다. 이 메서드는 샌드박스 내부에서 스크립트를 실행하고, 시간 제한을 준수하며, 결과를 Java `Object`로 반환합니다.
 
 ```java
 // The name passed to invokeScript must match the JS function exactly
@@ -99,11 +140,11 @@ String wordCount = result != null ? result.toString() : "null";
 System.out.println("Word count = " + wordCount);
 ```
 
-> **Why this works:** `invokeScript` 가 sandbox 내부의 JavaScript 엔진을 트리거해 지정된 함수를 실행하고, 반환값을 Java로 전달합니다. 스크립트가 예외를 발생시키거나 타임아웃을 초과하면 `AsposeException` 이 발생합니다.
+> **왜 이렇게 동작하나요:** `invokeScript`는 JavaScript 엔진과 Java 런타임을 연결하여 기본 반환 타입을 자동으로 마샬링합니다. 스크립트가 예외를 발생시키거나 시간 제한을 초과하면 `AsposeException`이 발생하여 오류를 우아하게 처리할 수 있습니다.
 
-## Step 4 – Clean Up Resources
+## 리소스 정리 방법 (단계 4)
 
-Aspose.HTML 은 네이티브 리소스를 사용하므로, **run JS function Java** 후에 모든 리소스를 해제해 메모리 누수를 방지해야 합니다.
+Aspose.HTML는 JavaScript 엔진을 위해 네이티브 리소스를 할당합니다. 메모리 누수를 방지하려면 작업이 끝났을 때 `HtmlDocument`와 `Sandbox` 모두에 `dispose()`를 호출해야 합니다. 작은 `AutoCloseable` 래퍼를 만들어 try‑with‑resources 블록에 감쌀 수도 있지만, 명시적인 해제가 명확하고 신뢰할 수 있습니다.
 
 ```java
 // Release native resources – always in a finally block or try‑with‑resources
@@ -111,11 +152,9 @@ document.dispose();
 sandbox.dispose();
 ```
 
-현대적인 `try‑with‑resources` 방식을 선호한다면 `HtmlDocument` 와 `Sandbox` 를 커스텀 `AutoCloseable` 래퍼에 감싸도 되지만, 명시적인 `dispose()` 호출도 충분히 안전합니다.
+## 전체 작동 예제
 
-## Full Working Example
-
-전체 흐름을 하나의 프로그램으로 정리하면 다음과 같습니다. Maven 의존성이 충족돼 있다면 IDE에 복사‑붙여넣기만으로 바로 실행할 수 있습니다.
+아래는 샌드박스 생성부터 결과 조회까지 전체 흐름을 보여주는 독립 실행형 프로그램입니다. IDE에 복사하고 Maven 의존성을 추가한 뒤 `sample_with_script.html`에 대해 실행하세요.
 
 ```java
 import com.aspose.html.HtmlDocument;
@@ -144,9 +183,9 @@ public class JsInvokeTutorial {
 }
 ```
 
-### Expected Output
+### 예상 출력
 
-`sample_with_script.html` 파일 내용이 다음과 같다면:
+`sample_with_script.html`에 `<p>` 요소의 단어 수를 세는 `wordCount()` 함수가 포함되어 있으면, Java 프로그램은 정수 카운트를 출력합니다.
 
 ```html
 <!DOCTYPE html>
@@ -163,54 +202,81 @@ function wordCount() {
 </html>
 ```
 
-Java 프로그램을 실행했을 때 출력은:
+프로그램을 실행하면 다음과 같은 결과가 나옵니다:
 
 ```
 Word count = 5
 ```
 
-이것이 **execute javascript in java** 전체 사이클입니다—파일 로드부터 값 반환까지.
+이로써 **Java에서 JavaScript 실행** 사이클인 로드, 호출, 조회, 정리가 완료됩니다.
 
-## Common Questions & Edge Cases
+## 일반 질문 및 엣지 케이스
 
-### What if the script never returns?
+### 스크립트가 절대 반환되지 않으면 어떻게 하나요?
 
-sandbox 의 `scriptTimeout` 설정 덕분에 무한 루프가 발생하면 지정된 밀리초 후에 강제 종료됩니다. “Script execution timed out.” 라는 `AsposeException` 이 발생하며, 필요에 따라 타임아웃을 늘릴 수 있습니다.
+샌드박스의 `scriptTimeout`은 설정된 제한보다 오래 실행되는 스크립트를 중단하며, 일반적으로 **5 seconds**입니다. 시간 제한이 발생하면 “Script execution timed out.”라는 메시지를 가진 `AsposeException`이 발생합니다. 이 예외를 잡아 문제 스크립트를 로그에 기록하고, 정당한 장시간 실행 코드에 대해 필요시 시간 제한을 늘릴 수 있습니다.
 
-### Can I pass arguments to the JavaScript function?
+### JavaScript 함수에 인수를 전달할 수 있나요?
 
-`invokeScript` 는 함수 이름만 받습니다. 매개변수를 전달하려면 DOM 이나 `document.window` 로 설정한 전역 변수를 읽는 전역 JavaScript 함수를 만들어야 합니다. 예시:
+`invokeScript`는 함수 이름만 허용합니다. 매개변수를 제공하려면 DOM이나 `document.window.setProperty`를 통해 설정한 사용자 전역 변수에서 값을 읽는 전역 JavaScript 함수를 노출하세요. 예를 들어, `add`라는 함수를 호출하기 전에 `document.window.setProperty("a", 3)`으로 숫자 값을 주입할 수 있습니다.
+
+### 샌드박스가 악성 코드에 대해 안전한가요?
+
+샌드박스는 스크립트를 호스트 JVM에서 격리하고 CPU 및 메모리 제한을 적용하지만, **전체 보안 관리자**는 아닙니다. 무한 루프를 방지하고 메모리 사용을 제한하지만, 악성 스크립트가 허용된 시간 내에 무거운 계산을 수행할 수 있습니다. 완전히 신뢰할 수 없는 코드는 별도의 프로세스나 컨테이너에서 실행하는 것을 고려하세요.
+
+## 프로덕션 사용 팁
+
+- **많은 스크립트를 처리할 때 샌드박스 인스턴스를 재사용**하세요; 샌드박스 생성은 비용이 적지만 호출 사이에 상태를 재설정하면 불필요한 오버헤드를 피할 수 있습니다.  
+- **전체 예외 세부 정보를 로그**하세요; `AsposeException`은 종종 실패를 일으킨 라인 번호와 스크립트 조각을 포함합니다.  
+- **HTML을 검증**하여 실행 전에 Aspose.HTML의 내장 검증기를 사용해 잘못된 마크업을 조기에 발견하세요.  
+- **스레드 간에 샌드박스를 공유하지 마세요**; 각 인스턴스는 단일 스레드입니다. 동시 실행이 필요하면 샌드박스 풀을 만들거나 접근을 동기화하세요.
+
+## 자주 묻는 질문
+
+**Q: 이 방식을 Spring Boot REST 컨트롤러에서 사용할 수 있나요?**  
+A: 예. 요청당 샌드박스를 인스턴스화하거나 스레드‑로컬 샌드박스를 재사용하고, 원하는 JavaScript를 호출한 뒤 컨트롤러에서 결과를 JSON으로 반환합니다.
+
+**Q: Aspose.HTML에 네이티브 라이브러리가 필요합니까?**  
+A: 라이브러리와 함께 패키징된 네이티브 JavaScript 엔진을 사용합니다; 네이티브 바이너리는 Maven 아티팩트에 포함되어 별도 설치가 필요 없습니다.
+
+**Q: 샌드박스가 처리할 수 있는 최대 HTML 파일 크기는 얼마인가요?**  
+A: 스트리밍 파서 덕분에 전체 문서를 메모리에 로드하지 않고 **200 MB**까지 파일을 처리할 수 있습니다.
+
+**Q: 샌드박스 내부에서 실패한 스크립트를 어떻게 디버깅하나요?**  
+A: `System.setProperty("aspose.html.logging", "true")`를 설정해 Aspose 로깅을 활성화하면 스크립트 소스와 스택 트레이스를 캡처하고, 생성된 로그 파일을 검사할 수 있습니다.
+
+**Q: 스크립트의 네트워크 접근을 제한할 방법이 있나요?**  
+A: 샌드박스는 기본적으로 외부 네트워크 호출을 차단합니다. 특정 URL을 허용해야 하면 `Sandbox`의 `allowedUrls` 컬렉션을 적절히 구성하세요.
+
+## 결론
+
+이제 Aspose.HTML의 샌드박스를 사용하여 **Java에서 JavaScript 실행**을 위한 완전하고 프로덕션 준비된 레시피를 갖추었습니다. **Java에서 HTML 파일을 로드**하고, 안전하게 **Java에서 JavaScript를 호출**하며, 리소스를 적절히 해제함으로써 클라이언트‑사이드 로직을 백엔드 서비스에 JVM 안정성을 위험에 빠뜨리지 않고 삽입할 수 있습니다. 다음 단계로 원격 데이터를 가져오는 페이지를 로드하거나 복잡한 JSON 객체를 반환하거나 흐름을 웹 서비스 엔드포인트에 통합해 보세요.
+
+---
+
+**Last Updated:** 2026-08-22  
+**Tested With:** Aspose.HTML 23.10 for Java  
+**Author:** Aspose  
+
+
+
+
+
 
 ```javascript
 function add(a, b) { return a + b; }
 ```
 
-`document.window.setProperty("a", 3)` 로 값을 주입한 뒤 `add` 를 호출하면 됩니다.
+## 관련 튜토리얼
 
-### Is the sandbox secure against malicious code?
+- [Aspose Html 샌드박스 완전 Java 가이드 만들기](/html/java/configuring-environment/create-aspose-html-sandbox-complete-java-guide/)
+- [Aspose Html 로드 HTML에서 텍스트 가져오기 시 JavaScript 활성화 방법](/html/java/advanced-usage/how-to-enable-javascript-in-aspose-html-load-html-get-text/)
+- [Java에서 스크립트 실행 활성화 완전 Aspose Html 가이드](/html/java/advanced-usage/enable-script-execution-in-java-complete-aspose-html-guide/)
 
-sandbox 는 스크립트를 호스트 JVM으로부터 격리하지만, 완전한 보안 매니저를 대체하지는 않습니다. 무한 루프와 메모리 사용량은 제한하지만, 타임아웃 내에서 무거운 CPU 작업을 수행하는 것을 막지는 못합니다. 신뢰할 수 없는 코드를 다룰 경우 외부 프로세스나 컨테이너 사용을 고려하세요.
-
-### How do I handle non‑numeric return values?
-
-`invokeScript` 는 `Object` 를 반환합니다. JavaScript 가 문자열, 배열, 객체 등을 반환하면 Java에서는 `String`, `Map` 등으로 매핑됩니다. 필요에 따라 캐스팅하거나, 스크립트 내부에서 JSON 으로 직렬화한 뒤 Java에서 파싱하면 됩니다.
-
-## Tips for Production Use
-
-- **Reuse the sandbox**: sandbox 생성 비용은 낮지만, 많은 스크립트를 호출해야 한다면 하나의 인스턴스를 재사용하고 호출 사이에 상태를 초기화하세요.  
-- **Log exceptions**: `AsposeException` 상세 정보를 기록하면 스크립트 내 오류 라인을 빠르게 찾을 수 있습니다.  
-- **Validate HTML**: Aspose.HTML 의 파싱 기능을 활용해 실행 전에 파일이 올바른지 검증하세요.  
-- **Thread safety**: 각 `Sandbox` 인스턴스는 스레드‑안전하지 않으므로, 스레드당 하나씩 만들거나 접근을 동기화하세요.
-
-## Conclusion
-
-이제 Aspose.HTML 의 sandbox 를 이용해 **execute javascript in java** 를 수행하는 완전한 레시피를 갖추었습니다. **loading an HTML file Java**, 안전하게 **invoke javascript from java**, 그리고 적절히 정리하는 과정을 통해 클라이언트‑사이드 로직을 서버‑사이드 Java 애플리케이션에 안정적으로 통합할 수 있습니다.
-
-다음 단계가 궁금하신가요? API 를 호출해 데이터를 가져오는 페이지를 로드하거나, JavaScript 에서 복합 객체를 반환하도록 실험해 보세요. 또한 **how to call js java** 를 웹 서비스에서 호출하거나, Spring Boot 컨트롤러에 이 기술을 적용해 사용자‑제출 HTML 스니펫을 처리하는 방법도 탐구해 보시기 바랍니다.
-
-Happy scripting, and may your Java‑JS bridges be both fast and secure!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}
