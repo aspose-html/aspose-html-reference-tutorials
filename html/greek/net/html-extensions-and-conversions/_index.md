@@ -85,6 +85,8 @@ url: /el/net/html-extensions-and-conversions/
 Μετατρέψτε HTML σε PDF με πλήρη οδηγίες βήμα‑βήμα χρησιμοποιώντας το Aspose.HTML για .NET.
 ### [Μετατροπή HTML σε ZIP σε C# – Πλήρης Οδηγός](./convert-html-to-zip-in-c-complete-guide/)
 Μάθετε πώς να μετατρέπετε HTML σε αρχείο ZIP χρησιμοποιώντας C# και το Aspose.HTML, βήμα προς βήμα οδηγίες.
+### [Πώς να μετατρέψετε HTML σε bytes σε C# χρησιμοποιώντας το Aspose.Html](./how-to-convert-html-to-bytes-in-c-using-aspose-html/)
+Μάθετε πώς να μετατρέψετε HTML σε πίνακα byte σε C# με το Aspose.HTML για .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

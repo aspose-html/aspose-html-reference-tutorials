@@ -56,6 +56,9 @@ Dowiedz się, jak przekształcić HTML w plik PNG przy użyciu Aspose.HTML, krok
 Dowiedz się, jak w C# przekształcić kod HTML w obraz, krok po kroku, z przykładami i wskazówkami.
 ### [Renderuj HTML do PNG w C# – przewodnik krok po kroku](./render-html-to-png-in-c-step-by-step-guide/)
 Naucz się renderować HTML do formatu PNG w C# przy użyciu Aspose.HTML, krok po kroku.
+### [Jak renderować HTML do PNG w C# przy użyciu Aspose.HTML](./how-to-render-html-to-png-in-c-with-aspose-html/)
+Dowiedz się, jak przekształcić HTML w plik PNG w C# przy użyciu Aspose.HTML.
+
 ## Wniosek
 
 Podsumowując, Aspose.HTML dla .NET zapewnia przyjazne użytkownikowi i wydajne rozwiązanie do generowania obrazów JPG i PNG z treści HTML. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz, te samouczki poprowadzą Cię przez ten proces. Twórz wizualnie atrakcyjne obrazy, które się wyróżniają i podnoszą poziom Twoich projektów dzięki Aspose.HTML dla .NET.

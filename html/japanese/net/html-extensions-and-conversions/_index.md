@@ -57,6 +57,7 @@ Aspose.HTML for .NET を使用して、スタイル付きテキストを含む H
 ### [Aspose.HTML を使用して .NET で HTML を PNG に変換する](./convert-html-to-png/)
 ### [Aspose.HTML を使用して .NET で HTML を TIFF に変換する](./convert-html-to-tiff/)
 ### [Aspose.HTML を使用して .NET で HTML を XPS に変換する](./convert-html-to-xps/)
+### [Aspose.HTML を使用して C# で HTML をバイト配列に変換する方法](./how-to-convert-html-to-bytes-in-c-using-aspose-html/)
 ### [URL から PDF を作成 – 完全 C# ガイド](./create-pdf-from-url-complete-c-guide/)
 Aspose.HTML for .NET のパワーを発見してください: HTML を XPS に簡単に変換します。前提条件、ステップバイステップ ガイド、FAQ が含まれています。
 ### [HTML を ZIP に保存 – 完全 C# チュートリアル](./save-html-as-zip-complete-c-tutorial/)

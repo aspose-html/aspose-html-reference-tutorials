@@ -53,9 +53,11 @@ Lär dig hur du konverterar HTML till PNG-bilder med Aspose.HTML i en komplett s
 ### [Skapa PNG från HTML med Aspose.HTML – Steg‑för‑steg guide](./create-png-from-html-with-aspose-html-step-by-step-guide/)
 Lär dig hur du konverterar HTML till PNG-bilder med Aspose.HTML i en steg‑för‑steg guide.
 ### [Skapa bild från HTML i C# – Steg‑för‑steg guide](./create-image-from-html-in-c-step-by-step-guide/)
-Lär dig hur du genererar en bild från HTML med C# och Aspose.HTML i en detaljerad steg‑för‑steg guide.
+Lär dig hur du genererar en bild från HTML med C# och Aspose.HTML i en detaljerad steg‑för‑steg‑guide.
 ### [Rendera HTML till PNG i C# – Steg‑för‑steg‑guide](./render-html-to-png-in-c-step-by-step-guide/)
 Lär dig hur du med Aspose.HTML för .NET renderar HTML till PNG-bilder i C# med en detaljerad steg‑för‑steg‑guide.
+### [Hur man renderar HTML till PNG i C# med Aspose.HTML](./how-to-render-html-to-png-in-c-with-aspose-html/)
+Lär dig hur du renderar HTML till PNG-bilder i C# med Aspose.HTML i en tydlig steg‑för‑steg‑guide.
 ## Slutsats
 
 Sammanfattningsvis erbjuder Aspose.HTML för .NET en användarvänlig och kraftfull lösning för att generera JPG- och PNG-bilder från HTML-innehåll. Oavsett om du är en erfaren utvecklare eller precis har börjat, kommer dessa tutorials att guida dig genom processen. Skapa visuellt tilltalande bilder som sticker ut och lyfter dina projekt med Aspose.HTML för .NET.
