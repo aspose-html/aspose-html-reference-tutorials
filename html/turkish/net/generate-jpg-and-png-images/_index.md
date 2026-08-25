@@ -56,6 +56,9 @@ C# kullanarak HTML'den yüksek kaliteli görüntüler oluşturmayı adım adım 
 C# kullanarak docx dosyalarını png formatına tam adım adım dönüştürmeyi öğrenin.
 ### [C# ile HTML'yi PNG'ye Render Et – Adım Adım Kılavuz](./render-html-to-png-in-c-step-by-step-guide/)
 Aspose.HTML for .NET ile C# içinde HTML'yi PNG resimlerine dönüştürmeyi adım adım öğrenin.
+### [C# ile Aspose.HTML kullanarak HTML'yi PNG'ye Render Et](./how-to-render-html-to-png-in-c-with-aspose-html/)
+Aspose.HTML for .NET ile C# içinde HTML'yi PNG görüntülerine dönüştürmeyi öğrenin.
+
 ## Çözüm
 
 Sonuç olarak, Aspose.HTML for .NET, HTML içeriğinden JPG ve PNG görüntüleri oluşturmak için kullanıcı dostu ve güçlü bir çözüm sunar. İster deneyimli bir geliştirici olun ister yeni başlıyor olun, bu eğitimler sizi süreçte yönlendirecektir. Aspose.HTML for .NET ile öne çıkan ve projelerinizi geliştiren görsel olarak çekici görüntüler oluşturun.

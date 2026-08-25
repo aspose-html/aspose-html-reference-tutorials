@@ -69,7 +69,8 @@ Ismerje meg, hogyan használhat egyéni erőforráskezelőt a HTML ZIP-archívum
 Részletes útmutató a HTML PDF-be konvertálásához az Aspose.HTML for .NET használatával, lépésről‑lépésre példákkal.
 ### [Zip fájl létrehozása C# – Lépésről‑lépésre útmutató a HTML memóriában történő tömörítéséhez](./create-zip-file-c-step-by-step-guide-to-zip-html-in-memory/)
 ### [HTML konvertálása ZIP-be C#-ban – Teljes útmutató](./convert-html-to-zip-in-c-complete-guide/)
-Ismerje meg, hogyan konvertálhat HTML-t ZIP-archívummá C#-ban az Aspose.HTML for .NET segítségével. Lépésről lépésre útmutató.
+### [HTML konvertálása bájtokká C#-ban az Aspose.HTML segítségével](./how-to-convert-html-to-bytes-in-c-using-aspose-html/)
+
 ## Következtetés
 
 Összefoglalva, a HTML-kiterjesztések és -konverziók a modern webfejlesztés elengedhetetlen elemei. Az Aspose.HTML for .NET leegyszerűsíti a folyamatot, és minden szinten elérhetővé teszi a fejlesztők számára. Ha követi oktatóanyagainkat, jó úton halad afelé, hogy széles készségekkel rendelkező, gyakorlott webfejlesztővé váljon.
