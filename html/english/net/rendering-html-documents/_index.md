@@ -61,7 +61,11 @@ Learn how to control rendering timeouts effectively in Aspose.HTML for .NET. Exp
 ### [Render Multiple Documents in .NET with Aspose.HTML](./render-multiple-documents/)
 Learn to render multiple HTML documents using Aspose.HTML for .NET. Boost your document processing capabilities with this powerful library.
 ### [Render SVG Doc as PNG in .NET with Aspose.HTML](./render-svg-doc-as-png/)
-Unlock the power of Aspose.HTML for .NET! Learn how to Render SVG Doc as PNG effortlessly. Dive into step-by-step examples and FAQs. Get started now!
+Unlock the power of Aspose.HTML for .NET! Learn how to Render SVG Doc as PNG effortlessly. Dive into step‑by‑step examples and FAQs. Get started now!
+### [How to Render HTML in C# – Complete Guide to Styling Paragraphs](./how-to-render-html-in-c-complete-guide-to-styling-paragraphs/)
+Learn to style HTML paragraphs in C# using Aspose.HTML. Master formatting, CSS, and rendering techniques in this comprehensive guide!
+### [Render HTML to PNG in C# – Complete Step‑by‑Step Guide](./render-html-to-png-in-c-complete-step-by-step-guide/)
+Learn how to render HTML to PNG using Aspose.HTML in C#. Follow a detailed, step‑by‑step tutorial to master conversion.
 ### [How to Render HTML – Complete Guide with Custom Resource Handler](./how-to-render-html-complete-guide-with-custom-resource-handl/)
 Learn how to render HTML with a custom resource handler using Aspose.HTML for .NET in this complete guide.
 

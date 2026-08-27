@@ -42,6 +42,11 @@ Tích hợp Aspose.HTML cho .NET vào các dự án .NET của bạn thật dễ
 Tìm hiểu cách tạo trang web động bằng Aspose.HTML cho .NET. Hướng dẫn từng bước này bao gồm các điều kiện tiên quyết, không gian tên và kết xuất HTML thành hình ảnh.
 ### [Tạo hình ảnh PNG bằng ImageDevice trong .NET với Aspose.HTML](./generate-png-images-by-imagedevice/)
 Học cách sử dụng Aspose.HTML cho .NET để thao tác với các tài liệu HTML, chuyển đổi HTML thành hình ảnh và nhiều hơn nữa. Hướng dẫn từng bước có Câu hỏi thường gặp.
+### [Chuyển đổi Word sang PNG – Hướng dẫn đầy đủ cho nhà phát triển](./convert-word-to-png-complete-guide-for-developers/)
+Hướng dẫn chi tiết cách chuyển đổi tài liệu Word sang ảnh PNG bằng Aspose.HTML cho .NET, bao gồm các bước cài đặt và mã mẫu.
+### [Chuyển đổi Word sang Hình ảnh trong C# – Hướng dẫn đầy đủ](./convert-word-to-image-in-c-complete-guide/)
+Hướng dẫn chi tiết cách chuyển đổi tài liệu Word sang ảnh trong C# bằng Aspose.HTML cho .NET, bao gồm các bước cài đặt và mã mẫu.
+
 ### [Cách bật khử răng cưa khi chuyển đổi DOCX sang PNG/JPG](./how-to-enable-antialiasing-when-converting-docx-to-png-jpg/)
 Hướng dẫn chi tiết cách bật khử răng cưa để cải thiện chất lượng hình ảnh khi chuyển đổi tài liệu DOCX sang PNG hoặc JPG bằng Aspose.HTML.
 ### [Chuyển đổi DOCX sang PNG – tạo tệp ZIP bằng C# – Hướng dẫn](./convert-docx-to-png-create-zip-archive-c-tutorial/)

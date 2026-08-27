@@ -50,14 +50,23 @@ Lär dig steg för steg hur du renderar HTML till PNG med C# och Aspose.HTML i d
 Lär dig att skapa PNG från HTML med Aspose.HTML för .NET i en komplett C#-guide.
 ### [Rendera EPUB som XPS i .NET med Aspose.HTML](./render-epub-as-xps/)
 Lär dig hur du skapar och renderar HTML-dokument med Aspose.HTML för .NET i den här omfattande självstudien. Dyk in i en värld av HTML-manipulation, webbskrapning och mer.
+
 ### [Rendering Timeout i .NET med Aspose.HTML](./rendering-timeout/)
 Lär dig hur du kontrollerar renderingstidsgränser effektivt i Aspose.HTML för .NET. Utforska renderingsalternativ och säkerställ smidig HTML-dokumentrendering.
+
 ### [Rendera MHTML som XPS i .NET med Aspose.HTML](./render-mhtml-as-xps/)
  Lär dig att rendera MHTML som XPS i .NET med Aspose.HTML. Förbättra dina HTML-manipuleringsfärdigheter och öka dina webbutvecklingsprojekt!
+
 ### [Rendera flera dokument i .NET med Aspose.HTML](./render-multiple-documents/)
 Lär dig att rendera flera HTML-dokument med Aspose.HTML för .NET. Förbättra dina dokumentbehandlingsmöjligheter med detta kraftfulla bibliotek.
+
 ### [Rendera SVG Doc som PNG i .NET med Aspose.HTML](./render-svg-doc-as-png/)
 Lås upp kraften i Aspose.HTML för .NET! Lär dig hur du renderar SVG-dokument som PNG utan ansträngning. Dyk ner i steg-för-steg-exempel och vanliga frågor. Kom igång nu!
+### [Rendera HTML i C# – Komplett guide för att formatera stycken](./how-to-render-html-in-c-complete-guide-to-styling-paragraphs/)
+Lär dig att rendera HTML i C# med stilfulla styckeformat. En komplett guide för att anpassa och förbättra dina HTML-paragrafer.
+
+### [Rendera HTML till PNG i C# – Komplett steg‑för‑steg‑guide](./render-html-to-png-in-c-complete-step-by-step-guide/)
+Lär dig hur du konverterar HTML till PNG i C# med en komplett steg‑för‑steg‑guide.
 ### [Hur man renderar HTML – Komplett guide med anpassad resurs‑hanterare](./how-to-render-html-complete-guide-with-custom-resource-handl/)
 Lär dig att rendera HTML med en anpassad resurs‑hanterare i Aspose.HTML för .NET. Steg‑för‑steg‑exempel och bästa praxis.
 ### [Hur man använder Aspose för att rendera HTML till PNG – Steg‑för‑steg‑guide](./how-to-use-aspose-to-render-html-to-png-step-by-step-guide/)

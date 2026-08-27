@@ -43,6 +43,8 @@ Aspose.HTML for .NET 凭借其丰富的功能、出色的文档和活跃的社�
 ### [使用 Aspose.HTML 在 .NET 中将 HTML 渲染为 PNG](./render-html-as-png/)
 学习使用 Aspose.HTML for .NET：操作 HTML、转换为各种格式等等。深入了解这个全面的教程！
 
+### [在 C# 中将 HTML 渲染为 PNG – 完整分步指南](./render-html-to-png-in-c-complete-step-by-step-guide/)
+学习如何使用 Aspose.HTML for .NET 在 C# 中将 HTML 文档渲染为 PNG，提供完整的步骤和示例。
 ### [如何将 HTML 渲染为 PNG – 完整分步指南](./how-to-render-html-to-png-complete-step-by-step-guide/)
 学习使用 Aspose.HTML for .NET 将 HTML 渲染为 PNG 的完整分步指南，涵盖关键设置和最佳实践。
 ### [如何将 HTML 渲染为 PNG – 完整 C# 指南](./how-to-render-html-as-png-complete-c-guide/)
@@ -68,6 +70,8 @@ Aspose.HTML for .NET 凭借其丰富的功能、出色的文档和活跃的社�
 
 ### [使用 Aspose.HTML 在 .NET 中将 SVG 文档渲染为 PNG](./render-svg-doc-as-png/)
 解锁 Aspose.HTML for .NET 的强大功能！了解如何轻松将 SVG Doc 渲染为 PNG。深入了解分步示例和常见问题解答。立即开始！
+### [如何在 C# 中渲染 HTML – 完整段落样式指南](./how-to-render-html-in-c-complete-guide-to-styling-paragraphs/)
+学习在 C# 中使用 Aspose.HTML 渲染 HTML，并掌握段落样式的完整技巧与示例。
 ### [如何渲染 HTML – 带自定义资源处理程序的完整指南](./how-to-render-html-complete-guide-with-custom-resource-handl/)
 学习使用自定义资源处理程序完整渲染 HTML 的方法，提升页面加载和资源管理。
 ### [使用 Aspose.HTML 在 .NET 中从 HTML 创建 PNG – 完整 C# 渲染指南](./create-png-from-html-full-c-rendering-guide/)

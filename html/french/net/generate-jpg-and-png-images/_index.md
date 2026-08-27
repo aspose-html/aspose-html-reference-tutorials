@@ -42,6 +42,11 @@ L'intégration d'Aspose.HTML pour .NET dans vos projets .NET est simple. La bibl
 Découvrez comment créer des pages Web dynamiques à l'aide d'Aspose.HTML pour .NET. Ce didacticiel étape par étape couvre les prérequis, les espaces de noms et le rendu HTML en images.
 ### [Générer des images PNG par ImageDevice dans .NET avec Aspose.HTML](./generate-png-images-by-imagedevice/)
 Apprenez à utiliser Aspose.HTML pour .NET pour manipuler des documents HTML, convertir du HTML en images, etc. Tutoriel étape par étape avec FAQ.
+### [Convertir Word en PNG – Guide complet pour les développeurs](./convert-word-to-png-complete-guide-for-developers/)
+Apprenez à convertir des documents Word en images PNG avec Aspose.HTML pour .NET, étape par étape, incluant les options de configuration.
+### [Convertir Word en image en C# – Guide complet](./convert-word-to-image-in-c-complete-guide/)
+Apprenez à convertir des documents Word en images (PNG, JPG) en C# avec Aspose.HTML pour .NET, étape par étape.
+
 ### [Comment activer l'anticrénelage lors de la conversion de DOCX en PNG/JPG](./how-to-enable-antialiasing-when-converting-docx-to-png-jpg/)
 Apprenez à activer l'anticrénelage pour améliorer la qualité des images PNG/JPG générées à partir de documents DOCX avec Aspose.HTML.
 ### [Convertir docx en png – créer une archive zip tutoriel C#](./convert-docx-to-png-create-zip-archive-c-tutorial/)

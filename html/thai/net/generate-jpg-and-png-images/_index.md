@@ -42,6 +42,11 @@ Aspose.HTML สำหรับ .NET นำเสนอวิธีการง�
 เรียนรู้วิธีสร้างหน้าเว็บแบบไดนามิกโดยใช้ Aspose.HTML สำหรับ .NET บทช่วยสอนแบบทีละขั้นตอนนี้ครอบคลุมถึงข้อกำหนดเบื้องต้น เนมสเปซ และการเรนเดอร์ HTML ลงในรูปภาพ
 ### [สร้างภาพ PNG โดย ImageDevice ใน .NET ด้วย Aspose.HTML](./generate-png-images-by-imagedevice/)
 เรียนรู้การใช้ Aspose.HTML สำหรับ .NET เพื่อจัดการเอกสาร HTML แปลง HTML เป็นรูปภาพ และอื่นๆ อีกมากมาย บทช่วยสอนแบบทีละขั้นตอนพร้อมคำถามที่พบบ่อย
+### [แปลง Word เป็น PNG – คู่มือฉบับสมบูรณ์สำหรับนักพัฒนา](./convert-word-to-png-complete-guide-for-developers/)
+เรียนรู้วิธีแปลงไฟล์ Word เป็นภาพ PNG อย่างละเอียดด้วย Aspose.HTML สำหรับ .NET พร้อมขั้นตอนและเคล็ดลับสำหรับนักพัฒนา
+### [แปลง Word เป็นภาพใน C# – คู่มือฉบับสมบูรณ์](./convert-word-to-image-in-c-complete-guide/)
+เรียนรู้วิธีแปลงไฟล์ Word เป็นภาพใน C# อย่างละเอียดด้วย Aspose.HTML สำหรับ .NET พร้อมขั้นตอนและเคล็ดลับสำหรับนักพัฒนา
+
 ### [วิธีเปิดใช้งาน Antialiasing เมื่อแปลง DOCX เป็น PNG/JPG](./how-to-enable-antialiasing-when-converting-docx-to-png-jpg/)
 เรียนรู้วิธีเปิดใช้งาน Antialiasing เพื่อให้ภาพ PNG/JPG ที่แปลงจาก DOCX มีความคมชัดและลื่นไหล
 ### [แปลง DOCX เป็น PNG – สร้างไฟล์ ZIP ด้วย C#](./convert-docx-to-png-create-zip-archive-c-tutorial/)

@@ -42,6 +42,8 @@ Ahora que ha configurado Aspose.HTML para .NET, es hora de explorar los tutorial
 
 ### [Representar HTML como PNG en .NET con Aspose.HTML](./render-html-as-png/)
 Aprenda a trabajar con Aspose.HTML para .NET: manipule HTML, convierta a varios formatos y más. ¡Sumérjase en este tutorial completo!
+### [Renderizar HTML a PNG en C# – Guía completa paso a paso](./render-html-to-png-in-c-complete-step-by-step-guide/)
+Aprenda a convertir HTML a PNG en C# con Aspose.HTML, siguiendo una guía paso a paso con ejemplos claros.
 ### [Cómo usar Aspose para renderizar HTML a PNG – Guía paso a paso](./how-to-use-aspose-to-render-html-to-png-step-by-step-guide/)
 Aprenda paso a paso a convertir HTML a PNG usando Aspose.HTML para .NET. Siga el tutorial completo y obtenga resultados de alta calidad.
 ### [Crear PNG a partir de HTML – Guía completa de renderizado en C#](./create-png-from-html-full-c-rendering-guide/)
@@ -56,6 +58,8 @@ Aprenda a controlar los tiempos de espera de renderización de manera eficaz en 
 Aprenda a representar múltiples documentos HTML con Aspose.HTML para .NET. Aumente sus capacidades de procesamiento de documentos con esta potente biblioteca.
 ### [Convertir un documento SVG en formato PNG en .NET con Aspose.HTML](./render-svg-doc-as-png/)
 ¡Descubra el poder de Aspose.HTML para .NET! Aprenda a convertir documentos SVG en PNG sin esfuerzo. Conozca ejemplos paso a paso y preguntas frecuentes. ¡Comience ahora!
+### [Cómo renderizar HTML en C# – Guía completa para dar estilo a los párrafos](./how-to-render-html-in-c-complete-guide-to-styling-paragraphs/)
+Aprenda a renderizar HTML en C# y aplicar estilos a los párrafos con Aspose.HTML, paso a paso y con ejemplos claros.
 ### [Cómo renderizar HTML – Guía completa con manejador de recursos personalizado](./how-to-render-html-complete-guide-with-custom-resource-handl/)
 Aprenda a renderizar HTML usando un manejador de recursos personalizado para un control total del proceso.
 ### [Cómo renderizar HTML a PNG – Guía completa paso a paso](./how-to-render-html-to-png-complete-step-by-step-guide/)

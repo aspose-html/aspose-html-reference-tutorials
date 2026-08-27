@@ -42,6 +42,8 @@ Agora que você configurou o Aspose.HTML para .NET, é hora de explorar os tutor
 
 ### [Renderizar HTML como PNG em .NET com Aspose.HTML](./render-html-as-png/)
 Aprenda a trabalhar com Aspose.HTML para .NET: Manipule HTML, converta para vários formatos e muito mais. Mergulhe neste tutorial abrangente!
+### [Renderizar HTML para PNG em C# – Guia Completo Passo a Passo](./render-html-to-png-in-c-complete-step-by-step-guide/)
+Aprenda a converter HTML em imagens PNG usando C# e Aspose.HTML com este guia passo a passo completo.
 ### [Como Renderizar HTML para PNG – Guia Completo Passo a Passo](./how-to-render-html-to-png-complete-step-by-step-guide/)
 Aprenda a converter HTML em PNG usando Aspose.HTML para .NET com instruções detalhadas passo a passo.
 ### [Como renderizar HTML como PNG – Guia completo em C#](./how-to-render-html-as-png-complete-c-guide/)
@@ -62,6 +64,8 @@ Aprenda a controlar efetivamente os tempos limite de renderização no Aspose.HT
 Aprenda a renderizar vários documentos HTML usando Aspose.HTML para .NET. Aumente suas capacidades de processamento de documentos com esta poderosa biblioteca.
 ### [Renderizar documento SVG como PNG em .NET com Aspose.HTML](./render-svg-doc-as-png/)
 Desbloqueie o poder do Aspose.HTML para .NET! Aprenda como renderizar SVG Doc como PNG sem esforço. Mergulhe em exemplos passo a passo e FAQs. Comece agora!
+### [Como Renderizar HTML em C# – Guia Completo para Estilizar Parágrafos](./how-to-render-html-in-c-complete-guide-to-styling-paragraphs/)
+Aprenda a renderizar HTML em C# e aplicar estilos avançados a parágrafos usando Aspose.HTML. Guia passo a passo completo.
 ### [Como Renderizar HTML – Guia Completo com Manipulador de Recursos Personalizado](./how-to-render-html-complete-guide-with-custom-resource-handl/)
 Aprenda a renderizar HTML usando um manipulador de recursos personalizado para controlar imagens, scripts e estilos durante a renderização.
 ### [Criar PNG a partir de HTML – Guia Completo de Renderização em C#](./create-png-from-html-full-c-rendering-guide/)

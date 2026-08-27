@@ -42,6 +42,11 @@ Az Aspose.HTML for .NET integrálása a .NET-projektekbe problémamentes. A kön
 Ismerje meg, hogyan hozhat létre dinamikus weboldalakat az Aspose.HTML for .NET használatával. Ez a lépésenkénti oktatóanyag az előfeltételeket, a névtereket és a HTML képekben való megjelenítését ismerteti.
 ### [PNG-képek létrehozása ImageDevice segítségével .NET-ben az Aspose.HTML-lel](./generate-png-images-by-imagedevice/)
 Tanulja meg az Aspose.HTML for .NET használatát HTML-dokumentumok kezeléséhez, HTML-kódok képpé konvertálásához stb. Lépésről lépésre bemutató GYIK.
+### [Word konvertálása PNG-re – Teljes útmutató fejlesztőknek](./convert-word-to-png-complete-guide-for-developers/)
+Ismerje meg, hogyan konvertálhat Word dokumentumokat PNG képekké az Aspose.HTML for .NET segítségével.
+### [Word konvertálása képre C#-ban – Teljes útmutató fejlesztőknek](./convert-word-to-image-in-c-complete-guide/)
+Ismerje meg, hogyan konvertálhat Word dokumentumokat képekké C#-ban az Aspose.HTML for .NET használatával.
+
 ### [Hogyan engedélyezzük az antialiasingot a DOCX PNG/JPG konvertálásakor](./how-to-enable-antialiasing-when-converting-docx-to-png-jpg/)
 Ismerje meg, hogyan állíthatja be az antialiasingot a DOCX dokumentumok PNG vagy JPG képekké konvertálásakor az Aspose.HTML for .NET használatával.
 ### [docx konvertálása png-re – zip archívum létrehozása C# oktatóanyag](./convert-docx-to-png-create-zip-archive-c-tutorial/)

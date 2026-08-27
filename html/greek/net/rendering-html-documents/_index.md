@@ -42,6 +42,8 @@ url: /el/net/rendering-html-documents/
 
 ### [Αποδώστε το HTML ως PNG στο .NET με το Aspose.HTML](./render-html-as-png/)
 Μάθετε να εργάζεστε με το Aspose.HTML για .NET: Χειριστείτε HTML, μετατρέψτε σε διάφορες μορφές και πολλά άλλα. Βουτήξτε σε αυτό το ολοκληρωμένο σεμινάριο!
+### [Απόδοση HTML σε PNG με C# – Πλήρης Οδηγός Βήμα‑βήμα](./render-html-to-png-in-c-complete-step-by-step-guide/)
+Μάθετε πώς να αποδίδετε HTML σε PNG χρησιμοποιώντας C# με το Aspose.HTML, ακολουθώντας βήμα‑βήμα οδηγίες.
 ### [Πώς να αποδώσετε HTML σε PNG – Πλήρης οδηγός βήμα‑βήμα](./how-to-render-html-to-png-complete-step-by-step-guide/)
 Μάθετε πώς να αποδίδετε HTML σε PNG με πλήρη βήμα‑βήμα οδηγίες, χρησιμοποιώντας το Aspose.HTML για .NET.
 ### [Αποδώστε το EPUB ως XPS σε .NET με Aspose.HTML](./render-epub-as-xps/)
@@ -54,6 +56,8 @@ url: /el/net/rendering-html-documents/
 Μάθετε να αποδίδετε πολλά έγγραφα HTML χρησιμοποιώντας το Aspose.HTML για .NET. Ενισχύστε τις δυνατότητες επεξεργασίας εγγράφων σας με αυτήν την ισχυρή βιβλιοθήκη.
 ### [Απόδοση SVG Doc ως PNG σε .NET με Aspose.HTML](./render-svg-doc-as-png/)
 Ξεκλειδώστε τη δύναμη του Aspose.HTML για .NET! Μάθετε πώς να αποδίδετε το Έγγραφο SVG ως PNG χωρίς κόπο. Ανατρέξτε σε παραδείγματα βήμα προς βήμα και συχνές ερωτήσεις. Ξεκινήστε τώρα!
+### [Πώς να αποδώσετε HTML σε C# – Πλήρης οδηγός για τη μορφοποίηση παραγράφων](./how-to-render-html-in-c-complete-guide-to-styling-paragraphs/)
+Μάθετε πώς να αποδίδετε HTML σε C# και να μορφοποιείτε παραγράφους με στυλ, χρησιμοποιώντας το Aspose.HTML για .NET.
 ### [Πώς να αποδώσετε HTML – Πλήρης οδηγός με προσαρμοσμένο διαχειριστή πόρων](./how-to-render-html-complete-guide-with-custom-resource-handl/)
 Μάθετε πώς να αποδίδετε HTML με προσαρμοσμένο διαχειριστή πόρων, βήμα-βήμα, σε αυτόν τον ολοκληρωμένο οδηγό.
 ### [Πώς να αποδώσετε HTML ως PNG – Πλήρης οδηγός C#](./how-to-render-html-as-png-complete-c-guide/)

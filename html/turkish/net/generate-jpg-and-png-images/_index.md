@@ -42,6 +42,11 @@ Aspose.HTML for .NET'i .NET projelerinize entegre etmek zahmetsizdir. Kütüphan
 Aspose.HTML for .NET kullanarak dinamik web sayfaları oluşturmayı öğrenin. Bu adım adım eğitim, ön koşulları, ad alanlarını ve HTML'yi resimlere dönüştürmeyi kapsar.
 ### [Aspose.HTML ile .NET'te ImageDevice ile PNG Görüntüleri Oluşturun](./generate-png-images-by-imagedevice/)
 HTML belgelerini düzenlemek, HTML'yi resimlere dönüştürmek ve daha fazlası için Aspose.HTML for .NET'i kullanmayı öğrenin. SSS'li adım adım eğitim.
+### [Word'ü PNG'ye Dönüştür – Geliştiriciler İçin Tam Kılavuz](./convert-word-to-png-complete-guide-for-developers/)
+Aspose.HTML for .NET kullanarak Word belgelerini PNG görüntülerine dönüştürmeyi adım adım öğrenin.
+### [C# ile Word'ü Görüntüye Dönüştür – Tam Kılavuz](./convert-word-to-image-in-c-complete-guide/)
+Aspose.HTML for .NET kullanarak Word belgelerini görüntülere (JPG/PNG) dönüştürmeyi C# ile adım adım öğrenin.
+
 ### [DOCX'yi PNG/JPG'ye Dönüştürürken Antialiasing'i Etkinleştirme](./how-to-enable-antialiasing-when-converting-docx-to-png-jpg/)
 DOCX belgelerini PNG veya JPG formatına dönüştürürken antialiasing'i etkinleştirerek daha net ve pürüzsüz görüntüler elde edin.
 ### [docx'i png'ye dönüştür – zip arşivi oluşturma C# eğitimi](./convert-docx-to-png-create-zip-archive-c-tutorial/)

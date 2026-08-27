@@ -42,6 +42,8 @@ Ora che hai configurato Aspose.HTML per .NET, è il momento di esplorare i tutor
 
 ### [Renderizza HTML come PNG in .NET con Aspose.HTML](./render-html-as-png/)
 Impara a lavorare con Aspose.HTML per .NET: manipola HTML, converti in vari formati e altro ancora. Immergiti in questo tutorial completo!
+### [Renderizza HTML in PNG in C# – Guida completa passo‑passo](./render-html-to-png-in-c-complete-step-by-step-guide/)
+Scopri come convertire HTML in PNG usando C# con Aspose.HTML: esempi pratici e guida passo‑passo per risultati di alta qualità.
 ### [Come rendere HTML in PNG – Guida completa passo‑passo](./how-to-render-html-to-png-complete-step-by-step-guide/)
 Scopri come convertire HTML in PNG con Aspose.HTML passo dopo passo, con esempi pratici e consigli utili.
 ### [Come rendere HTML come PNG – Guida completa C#](./how-to-render-html-as-png-complete-c-guide/)
@@ -66,7 +68,8 @@ Impara a eseguire il rendering di più documenti HTML utilizzando Aspose.HTML pe
 
 ### [Rendi il documento SVG come PNG in .NET con Aspose.HTML](./render-svg-doc-as-png/)
 Sblocca la potenza di Aspose.HTML per .NET! Scopri come rendere SVG Doc come PNG senza sforzo. Immergiti in esempi passo dopo passo e FAQ. Inizia subito!
-
+### [Come renderizzare HTML in C# – Guida completa allo styling dei paragrafi](./how-to-render-html-in-c-complete-guide-to-styling-paragraphs/)
+Scopri come renderizzare HTML in C# e applicare stili ai paragrafi con Aspose.HTML, passo dopo passo.
 ### [Come rendere HTML – Guida completa con gestore di risorse personalizzato](./how-to-render-html-complete-guide-with-custom-resource-handl/)
 Scopri come rendere HTML usando Aspose.HTML con un gestore di risorse personalizzato per un controllo totale del rendering.
 

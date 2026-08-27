@@ -42,6 +42,11 @@ Aspose.HTML for .NET को अपने .NET प्रोजेक्ट मे
 जानें कि .NET के लिए Aspose.HTML का उपयोग करके गतिशील वेब पेज कैसे बनाएं। यह चरण-दर-चरण ट्यूटोरियल पूर्वापेक्षाएँ, नामस्थान और HTML को छवियों में प्रस्तुत करने को कवर करता है।
 ### [Aspose.HTML के साथ .NET में ImageDevice द्वारा PNG छवियाँ उत्पन्न करें](./generate-png-images-by-imagedevice/)
 HTML दस्तावेज़ों में हेरफेर करने, HTML को छवियों में बदलने, और बहुत कुछ करने के लिए .NET के लिए Aspose.HTML का उपयोग करना सीखें। FAQ के साथ चरण-दर-चरण ट्यूटोरियल।
+### [डेवलपर्स के लिए वर्ड को PNG में बदलें – पूर्ण गाइड](./convert-word-to-png-complete-guide-for-developers/)
+Aspose.HTML for .NET का उपयोग करके वर्ड दस्तावेज़ों को PNG इमेज में बदलने के चरण-दर-स्टेप मार्गदर्शन।
+### [C# में वर्ड को इमेज में बदलें – पूर्ण गाइड](./convert-word-to-image-in-c-complete-guide/)
+C# में Aspose.HTML का उपयोग करके वर्ड दस्तावेज़ को इमेज में बदलने के चरण-दर-चरण मार्गदर्शन।
+
 ### [DOCX को PNG/JPG में बदलते समय एंटीएलियासिंग कैसे सक्षम करें](./how-to-enable-antialiasing-when-converting-docx-to-png-jpg/)
 DOCX फ़ाइलों को PNG या JPG में परिवर्तित करते समय एंटीएलियासिंग को सक्षम करने के चरणों को जानें।
 ### [DOCX को PNG में परिवर्तित करें – ZIP आर्काइव बनाएं C# ट्यूटोरियल](./convert-docx-to-png-create-zip-archive-c-tutorial/)
