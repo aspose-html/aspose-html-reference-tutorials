@@ -113,24 +113,47 @@ A: 不需要。單一的 Aspose.HTML for Java 授權即涵蓋所有輸出格式�
 ## Aspose.HTML Java 進階教學
 ### [使用 Aspose.HTML 自訂 HTML 頁面邊距](./css-extensions-adding-title-page-number/)
 了解如何使用 Aspose.HTML for Java 自訂頁面邊距、加入頁碼與標題。
-
 ### [使用 Aspose.HTML for Java 實作 DOM Mutation Observer 監測節點新增](./dom-mutation-observer-observing-node-additions/)
 學習在 Aspose.HTML for Java 中實作 DOM Mutation Observer，並有效監控與回應 DOM 變化。
-
 ### [使用 Aspose.HTML for Java 操作 HTML5 Canvas（程式碼示範）](./html5-canvas-manipulation-using-code/)
 透過 Aspose.HTML for Java 操作 HTML5 Canvas，提供逐步程式碼指引。
-
 ### [使用 Aspose.HTML for Java 操作 HTML5 Canvas（JavaScript 範例）](./html5-canvas-manipulation-using-javascript/)
 學習如何以 JavaScript 搭配 Aspose.HTML for Java 操作 HTML5 Canvas，並轉換為 PDF。
-
 ### [使用 Aspose.HTML for Java 自動化 HTML 表單填寫與提交](./html-form-editor-filling-submitting-forms/)
 了解如何使用 Aspose.HTML for Java 自動化表單填寫與提交，簡化網頁互動流程。
-
 ### [使用 Aspose.HTML for Java 調整 PDF 頁面尺寸](./adjust-pdf-page-size/)
 學習如何使用 Aspose.HTML for Java 調整 PDF 頁面尺寸，輕鬆產生高品質 PDF。
-
 ### [使用 Aspose.HTML for Java 調整 XPS 頁面尺寸](./adjust-xps-page-size/)
 了解如何使用 Aspose.HTML for Java 調整 XPS 文件的輸出尺寸。
+### [如何在 Java 中執行 JavaScript – 完整指南](./how-to-run-javascript-in-java-complete-guide/)
+學習在 Java 應用程式中使用 Rhino、Nashorn 或 GraalVM 執行 JavaScript 程式碼的完整步驟。
+### [在 Java 中設定裝置像素比例 – 行動沙盒教學](./set-device-pixel-ratio-in-java-mobile-sandbox-tutorial/)
+說明如何在 Aspose.HTML for Java 的行動沙盒環境中設定裝置像素比例，以確保高解析度渲染。
+
+### [在 Java 中執行 JavaScript – 完整指南](./execute-javascript-in-java-complete-guide-to-running-js-from/)
+
+### [使用 Aspose.HTML 沙盒將 HTML 轉為 PDF（Java） – 步驟指南](./how-to-use-sandbox-for-html-to-pdf-java-step-by-step-guide/)
+本教學說明在 Java 環境下使用 Aspose.HTML 沙盒功能，將 HTML 轉換為 PDF 的完整步驟與注意事項。
+
+### [在 Java 中啟用腳本執行 – 完整 Aspose.HTML 指南](./enable-script-execution-in-java-complete-aspose-html-guide/)
+
+### [如何在 Aspose HTML 中啟用 JavaScript – 載入 HTML 並取得文字](./how-to-enable-javascript-in-aspose-html-load-html-get-text/)
+學習在 Aspose.HTML 中啟用 JavaScript，載入 HTML 並提取文字內容的步驟與範例。
+
+---
+
+**最後更新日期：** 2025-11-29  
+**測試環境：** Aspose.HTML for Java 24.11  
+**作者：** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [從 MHTML 提取 HTML – 完整 Java 指南](./extract-html-from-mhtml-complete-java-guide/)
+學習如何使用 Aspose.HTML for Java 從 MHTML 檔案中提取原始 HTML 內容，完整步驟與範例代碼。
 
 ---
 

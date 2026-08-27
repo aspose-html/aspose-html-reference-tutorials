@@ -26,10 +26,34 @@ Web 開発に取り組む場合、CSS および HTML フォームを習得する
 さて、話を変えて、Aspose.HTML for Java を使用して HTML フォームを効果的に編集および送信する方法を見てみましょう。フォームは、Web サイトでのユーザー インタラクションの中心です。このチュートリアルでは、フォームのデザインと機能を簡単に変更する方法を学びます。フィールドを事前入力する方法、カスタム ロジックで入力を検証する方法、バックエンドへのシームレスなデータ送信を実現する方法を学びます。想像してみてください。ユーザーがサイト上のフォームに入力し、自分の情報が安全であることを知ることができます。それが、あなたが作り出したいエクスペリエンスだからです。このステップ バイ ステップ ガイドには、実用的な洞察が満載されており、途中ですべての概念を確実に把握できます。[続きを読む](./html-form-editing/). 
 
 ## Aspose.HTML for Java チュートリアルを使用した CSS および HTML フォームの編集
+
 ### [Aspose.HTML for Java を使用した高度な CSS 拡張テクニック](./advanced-css-extension/)
 Aspose.HTML for Java を使用して、カスタム ページ マージンや動的コンテンツなどの高度な CSS テクニックを適用する方法を学びます。開発者向けの詳細な実践的なチュートリアルです。
 ### [Aspose.HTML for Java を使用した HTML フォームの編集と送信](./html-form-editing/)
 この包括的なステップバイステップ ガイドでは、Aspose.HTML for Java を使用して HTML フォームをプログラムで編集および送信する方法を学習します。
+### [Javaでクラスによる要素選択 – 完全ハウツーガイド](./select-element-by-class-in-java-complete-how-to-guide/)
+Javaコードでクラス属性を持つ要素を取得し操作する方法をステップバイステップで解説します。
+### [Aspose.HTML for Java を使用した CSS の読み取り方法 – 完全ガイド](./how-to-read-css-in-java-complete-guide-with-aspose-html/)
+Aspose.HTML for Java を活用し、Java で CSS をプログラム的に読み取る手順とベストプラクティスを詳しく解説します。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Java で計算済みスタイルを取得 – HTML から背景色を抽出](./get-computed-style-java-extract-background-color-from-html/)
+Java で Aspose.HTML を使用し、HTML 要素の計算済みスタイルから背景色を取得する方法を学びます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Java で要素の計算済みスタイルを取得 – 完全ステップバイステップガイド](./get-element-computed-style-in-java-full-step-by-step-guide/)
+このチュートリアルでは、Aspose.HTML for Java を使用して要素の計算済みスタイルを取得する方法をステップバイステップで解説します。
+### [Java で getComputedStyle を使用する方法 – 背景色やその他の CSS プロパティを取得](./how-to-use-getcomputedstyle-in-java-extract-background-color/)
+このチュートリアルでは、Aspose.HTML for Java を使って getComputedStyle を呼び出し、要素の背景色や他の CSS プロパティを抽出する手順を解説します。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

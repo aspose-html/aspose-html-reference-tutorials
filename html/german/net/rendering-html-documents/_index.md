@@ -46,6 +46,18 @@ Erfahren Sie, wie Sie mit Aspose.HTML für .NET arbeiten: HTML bearbeiten, in ve
 ### [Rendern Sie HTML in C# zu PNG – Vollständiger Schritt‑für‑Schritt‑Leitfaden](./render-html-to-png-in-c-complete-step-by-step-guide/)
 Erfahren Sie, wie Sie mit Aspose.HTML für .NET HTML in C# in PNG-Bilder umwandeln – ein vollständiger, leicht nachvollziehbarer Leitfaden.
 
+### [HTML zu PNG rendern – Vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-render-html-to-png-complete-step-by-step-guide/)
+Erfahren Sie, wie Sie HTML mit Aspose.HTML in .NET Schritt für Schritt in PNG konvertieren und dabei alle wichtigen Einstellungen nutzen.
+### [HTML als PNG rendern – Vollständiger C#-Leitfaden](./how-to-render-html-as-png-complete-c-guide/)
+Erfahren Sie, wie Sie mit Aspose.HTML für .NET HTML in PNG konvertieren, inklusive vollständigem C#-Beispiel und Schritt‑für‑Schritt‑Anleitung.
+### [Wie Sie Aspose zum Rendern von HTML nach PNG verwenden – Schritt‑für‑Schritt‑Anleitung](./how-to-use-aspose-to-render-html-to-png-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.HTML HTML‑Inhalte in PNG‑Bilder umwandeln – detaillierte Schritt‑für‑Schritt‑Anleitung.
+
+### [Wie Sie HTML mit Aspose zu PNG rendern – Komplett‑Leitfaden](./how-to-render-html-to-png-with-aspose-complete-guide/)
+Erfahren Sie, wie Sie HTML‑Inhalte mit Aspose in PNG‑Bilder umwandeln – ein vollständiger Leitfaden.
+
+### [PNG aus HTML erstellen – Vollständiger C#-Rendering-Leitfaden](./create-png-from-html-full-c-rendering-guide/)
+Erfahren Sie, wie Sie mit Aspose.HTML für .NET HTML in PNG konvertieren – ein umfassender Leitfaden für C#-Entwickler.
 ### [Rendern Sie EPUB als XPS in .NET mit Aspose.HTML](./render-epub-as-xps/)
 Erfahren Sie in diesem umfassenden Tutorial, wie Sie mit Aspose.HTML für .NET HTML-Dokumente erstellen und rendern. Tauchen Sie ein in die Welt der HTML-Manipulation, des Web Scraping und mehr.
 
@@ -64,6 +76,9 @@ Entfesseln Sie die Leistungsfähigkeit von Aspose.HTML für .NET! Erfahren Sie, 
 ### [Wie man HTML in C# rendert – Vollständiger Leitfaden zur Formatierung von Absätzen](./how-to-render-html-in-c-complete-guide-to-styling-paragraphs/)
 Erfahren Sie, wie Sie mit Aspose.HTML für .NET HTML rendern und Absätze stilvoll formatieren. Tauchen Sie ein in dieses umfassende Tutorial!
 
+### [HTML rendern – Vollständige Anleitung mit benutzerdefiniertem Ressourcen-Handler](./how-to-render-html-complete-guide-with-custom-resource-handl/)
+Erfahren Sie, wie Sie HTML mit einem benutzerdefinierten Ressourcen-Handler rendern und dabei volle Kontrolle über das Laden von Ressourcen erhalten.
+Entfesseln Sie die Leistungsfähigkeit von Aspose.HTML für .NET! Erfahren Sie, wie Sie SVG-Dokumente mühelos als PNG rendern. Tauchen Sie ein in Schritt‑für‑Schritt‑Beispiele und FAQs. Jetzt loslegen!
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

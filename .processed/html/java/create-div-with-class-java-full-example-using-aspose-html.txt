@@ -1,0 +1,7 @@
+Title: Create div with class java – Full Example Using Aspose.HTML
+Slug: create-div-with-class-java-full-example-using-aspose-html
+Category: creating-managing-html-documents
+ProcessedDate: 2026-06-04T08:27:52.137155
+SourceRepo: AI Search API
+Keywords: create div with class java, add class attribute to div, insert element into body, append child element java, how to create html document java
+PRNumber: 172

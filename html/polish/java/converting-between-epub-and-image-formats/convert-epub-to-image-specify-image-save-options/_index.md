@@ -1,11 +1,11 @@
 ---
-date: 2025-12-25
-description: „Dowiedz się, jak konwertować pliki EPUB na obrazy przy użyciu Aspose.HTML
-  dla Javy i ustawiać niestandardowy rozmiar strony. Ten przewodnik krok po kroku
-  obejmuje wymagania wstępne, importy pakietów oraz proces konwersji.”
+date: 2026-03-13
+description: Dowiedz się, jak konwertować pliki EPUB na obrazy przy użyciu Aspose.HTML
+  dla Javy, ustawiać niestandardowy rozmiar strony oraz zmieniać kolor tła obrazu,
+  aby uzyskać optymalne rezultaty.
 linktitle: Specifying Image Save Options for EPUB to Image Conversion
 second_title: Java HTML Processing with Aspose.HTML
-title: Konwertuj EPUB na obraz przy użyciu Aspose.HTML dla Javy – ustaw niestandardowy
+title: Konwertuj EPUB na obraz przy użyciu Aspose.HTML dla Javy – Ustaw niestandardowy
   rozmiar strony
 url: /pl/java/converting-between-epub-and-image-formats/convert-epub-to-image-specify-image-save-options/
 weight: 16
@@ -15,29 +15,32 @@ weight: 16
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Konwertowanie EPUB na Obraz przy użyciu Aspose.HTML for Java – Ustawienie Niestandardowego Rozmiaru Strony
+# Konwertuj EPUB na obraz przy użyciu Aspose.HTML dla Javy – Ustaw niestandardowy rozmiar strony
 
-## Quick Answers
-- **Co oznacza „ustawienie niestandardowego rozmiaru strony”?** Pozwala określić szerokość i wysokość każdej wyjściowej strony obrazu.  
-- **Czy mogę zmienić kolor tła obrazu?** Tak, możesz podać dowolny kolor przy użyciu `ImageSaveOptions`.  
+W nieustannie rozwijającym się świecie tworzenia stron internetowych, Aspose.HTML for Java jest potężnym narzędziem, a dzisiaj skupimy się na **jak ustawić niestandardowy rozmiar strony** przy konwersji EPUB na obraz. Niezależnie od tego, czy tworzysz cyfrową bibliotekę, generujesz miniatury, czy tworzysz wysokiej rozdzielczości zrzuty ekranu, opanowanie tego ustawienia pozwala **konwertować EPUB na obraz** w sposób dopasowany do Twoich wymagań układu.
+
+## Szybkie odpowiedzi
+- **Co oznacza „ustaw niestandardowy rozmiar strony”?** Pozwala zdefiniować szerokość i wysokość każdej wyjściowej strony obrazu.  
+- **Czy mogę zmienić kolor tła obrazu?** Tak, możesz określić dowolny kolor używając `ImageSaveOptions`.  
 - **Jakie formaty są obsługiwane?** JPEG, PNG, GIF i inne poprzez `ImageFormat`.  
-- **Czy potrzebna jest licencja?** Darmowa wersja próbna wystarczy do testów; licencja komercyjna jest wymagana w produkcji.  
-- **Jakiej wersji Javy potrzebuję?** Java 1.7 lub nowsza jest w pełni wspierana.
+- **Czy potrzebna jest licencja?** Darmowa wersja próbna działa do testów; licencja komercyjna jest wymagana w produkcji.  
+- **Jaka wersja Javy jest wymagana?** Java 1.7 lub nowsza jest w pełni wspierana.
 
-## Co oznacza „ustawienie niestandardowego rozmiaru strony” w konwersji EPUB na obraz?
+## Co oznacza „ustaw niestandardowy rozmiar strony” w konwersji EPUB na obraz?
 Ustawienie niestandardowego rozmiaru strony oznacza, że kontrolujesz wymiary renderowanego obrazu (np. 3000 × 1000 pikseli). Jest to przydatne, gdy potrzebujesz wysokiej rozdzielczości zrzutów ekranu e‑booków lub gdy chcesz, aby wynik pasował do określonego układu.
 
 ## Dlaczego ustawiać niestandardowy rozmiar strony i zmieniać kolor tła obrazu?
-Niestandardowe rozmiary stron dają elastyczność dla różnych docelowych wyświetlaczy — ekrany mobilne, gotowe do druku PDF‑y lub miniatury internetowe. Zmiana koloru tła pomaga dopasować się do identyfikacji wizualnej lub poprawić czytelność obrazów zawierających przezroczyste elementy.
+Niestandardowe rozmiary stron dają elastyczność dla różnych docelowych wyświetlaczy — ekranów mobilnych, gotowych do druku PDF‑ów lub miniatur internetowych. Zmiana koloru tła pomaga dopasować branding lub poprawić czytelność obrazów zawierających przezroczyste elementy.
 
-## Prerequisites
+## Wymagania wstępne
 
-Zanim rozpoczniesz **konwersję epub na obraz**, upewnij się, że masz następujące elementy:
+Zanim rozpoczniemy naszą podróż do **konwertowania epub na obraz**, upewnij się, że masz następujące elementy:
 
-1. **Java Environment** – Zestaw deweloperski Javy zainstalowany na Twoim komputerze. Jeśli nie masz jeszcze Javy, możesz ją pobrać [tutaj](https://www.java.com).
+1. **Środowisko Java** – Zestaw deweloperski Javy zainstalowany na twoim komputerze. Jeśli nie masz jeszcze Javy, możesz pobrać ją z [tutaj](https://www.java.com).
+
 2. **Aspose.HTML for Java** – Biblioteka Aspose.HTML for Java. Pobierz najnowsze wydanie ze [strony Aspose.HTML for Java](https://releases.aspose.com/html/java/).
 
-## Import Packages
+## Importowanie pakietów
 
 Aby pracować z Aspose.HTML for Java, zaimportuj wymagane przestrzenie nazw:
 
@@ -53,17 +56,17 @@ import com.aspose.html.converters.Converter;
 import java.io.FileInputStream;
 ```
 
-## Step‑by‑Step Guide
+## Przewodnik krok po kroku
 
-### Step 1: Open an Existing EPUB File for Reading
+### Krok 1: Otwórz istniejący plik EPUB do odczytu
 
 ```java
 try (FileInputStream fileInputStream = new FileInputStream("input.epub")) {
 ```
 
-Tutaj otwieramy źródłowy plik EPUB. Zamień `"input.epub"` na ścieżkę do swojego pliku e‑booka.
+Tutaj otwieramy źródłowy plik EPUB. Zastąp `"input.epub"` ścieżką do swojego pliku e‑booka.
 
-### Step 2: Initialize ImageSaveOptions with Custom Settings (set custom page size & change image background color)
+### Krok 2: Zainicjuj ImageSaveOptions z niestandardowymi ustawieniami (ustaw niestandardowy rozmiar strony i zmień kolor tła obrazu)
 
 ```java
 ImageSaveOptions options = new ImageSaveOptions(ImageFormat.Jpeg);
@@ -79,9 +82,9 @@ options.setPageSetup(pageSetup);
 options.setBackgroundColor(Color.getAliceBlue());
 ```
 
-W tym bloku **ustawiamy niestandardowy rozmiar strony** na 3000 × 1000 pikseli i zmieniamy tło na AliceBlue. Śmiało dostosuj `size` lub `Color` do potrzeb projektu (np. `Color.getWhite()` dla czystego białego tła).
+W tym bloku **ustawiamy niestandardowy rozmiar strony** na 3000 × 1000 pikseli i zmieniamy tło na AliceBlue. Śmiało dostosuj `size` lub `Color` do potrzeb swojego projektu (np. `Color.getWhite()` dla czystego białego tła).
 
-### Step 3: Convert EPUB to Image
+### Krok 3: Konwertuj EPUB na obraz
 
 ```java
 Converter.convertEPUB(
@@ -91,46 +94,59 @@ Converter.convertEPUB(
 );
 ```
 
-Ta linia wykonuje rzeczywistą konwersję. Plik wyjściowy (`"output.jpg"`) będzie zawierał renderowany obraz o określonych wymiarach i tle. Możesz także zmienić rozszerzenie na `.png`, jeśli wolisz **java convert epub png**.
+Ta linia wykonuje rzeczywistą konwersję. Plik wyjściowy (`"output.jpg"`) będzie zawierał renderowany obraz o wymiarach i tle, które określiłeś. Możesz także zmienić rozszerzenie pliku na `.png`, jeśli wolisz **java convert epub png**. Biblioteka obsługuje zarówno **format obrazu JPEG**, jak i **format obrazu PNG**, dając ci elastyczność w dalszym przetwarzaniu.
 
-### Step 4: Close Resources (handled automatically)
+### Krok 4: Zamknij zasoby (obsługiwane automatycznie)
 
 Instrukcja `try‑with‑resources` automatycznie zamyka `FileInputStream`, zapewniając, że żadne uchwyty plików nie pozostaną otwarte.
 
-## Common Use Cases
+## Typowe przypadki użycia
 
 - **Generowanie miniatur** dla bibliotek e‑booków.  
-- **Tworzenie wysokiej rozdzielczości zrzutów ekranu** do dokumentacji lub materiałów marketingowych.  
-- **Przetwarzanie wsadowe** dużych zbiorów EPUB‑ów na zasoby PNG/JPEG dla galerii internetowych.
+- **Tworzenie wysokiej rozdzielczości zrzutów ekranu** do dokumentacji lub marketingu.  
+- **Przetwarzanie wsadowe** dużych kolekcji EPUB‑ów do zasobów PNG/JPEG dla galerii internetowych.  
+- **Automatyzacja ekstrakcji obrazów** dla narzędzi dostępności, które potrzebują wizualnych podglądów e‑booków.
 
-## Tips & Best Practices
+## Wskazówki i najlepsze praktyki
 
-- **Pro tip:** Użyj `Length.fromInches()` lub `Length.fromCentimeters()`, jeśli wolisz jednostki fizyczne zamiast pikseli.  
-- **Performance tip:** Dla dużych EPUB‑ów rozważ zwiększenie rozmiaru sterty JVM (`-Xmx2g`), aby uniknąć problemów z pamięcią.  
-- **Error handling:** Owiń wywołanie konwersji w blok `try‑catch`, aby przechwycić `IOException` lub `AsposeException`.
+- **Porada:** Użyj `Length.fromInches()` lub `Length.fromCentimeters()`, jeśli wolisz jednostki fizyczne zamiast pikseli.  
+- **Wskazówka wydajnościowa:** Dla dużych EPUB‑ów rozważ zwiększenie rozmiaru sterty JVM (`-Xmx2g`), aby uniknąć problemów z pamięcią.  
+- **Obsługa błędów:** Otocz wywołanie konwersji w blok `try‑catch`, aby przechwycić `IOException` lub `AsposeException`.  
+- **Kontrola jakości:** Dostosuj `options.setQuality(90)`, aby precyzyjnie ustawić kompresję JPEG bez zauważalnej utraty jakości.
 
-## Frequently Asked Questions
+## Typowe problemy i rozwiązania
 
-**Q: Czy mogę konwertować pliki EPUB na inne formaty obrazu?**  
-A: Tak, możesz określić formaty takie jak PNG lub GIF, zmieniając `ImageFormat.Jpeg` na `ImageFormat.Png` lub `ImageFormat.Gif`.
+- **Błędy pamięci (OutOfMemoryError):** Zwiększ rozmiar sterty lub przetwarzaj EPUB w mniejszych fragmentach, renderując poszczególne strony.  
+- **Puste tło:** Upewnij się, że ustawiono kolor tła; przezroczyste tła mogą wyświetlać się jako czarne w niektórych przeglądarkach.  
+- **Nieoczekiwane wymiary obrazu:** Sprawdź, czy obiekt `Size` odzwierciedla dokładne wartości pikseli, których potrzebujesz; pamiętaj, że ustawienia DPI nie wpływają na rozmiar w pikselach.  
+- **Nieobsługiwane funkcje EPUB:** Aspose.HTML w pełni obsługuje EPUB3, ale niestandardowe czcionki mogą wymagać prawidłowego osadzenia lub odwołania.
 
-**Q: Czy Aspose.HTML for Java obsługuje EPUB3?**  
-A: Absolutnie. Biblioteka w pełni wspiera EPUB3, umożliwiając pracę z najnowszymi standardami e‑booków.
+## Najczęściej zadawane pytania
 
-**Q: Jak mogę obsłużyć błędy podczas procesu konwersji?**  
-A: Zaimplementuj bloki `try‑catch` wokół kodu konwersji, aby przechwycić i zalogować wyjątki, zapewniając stabilność aplikacji.
+**P: Czy mogę konwertować pliki EPUB na inne formaty obrazów?**  
+O: Tak, możesz określić formaty takie jak PNG lub GIF, zmieniając `ImageFormat.Jpeg` na `ImageFormat.Png` lub `ImageFormat.Gif`.
 
-**Q: Czy mogę dostosować rozmiar i jakość obrazu?**  
-A: Tak, zmień obiekt `Size` dla wymiarów i użyj `options.setQuality(int)`, aby kontrolować jakość kompresji JPEG.
+**P: Czy Aspose.HTML for Java obsługuje EPUB3?**  
+O: Zdecydowanie tak. Biblioteka w pełni obsługuje EPUB3, umożliwiając pracę z najnowszymi standardami e‑booków.
 
-**Q: Czy Aspose.HTML for Java jest kompatybilny ze wszystkimi wersjami Javy?**  
-A: Biblioteka działa z Java 1.7 i nowszymi, obejmując szeroki zakres środowisk programistycznych.
+**P: Jak mogę obsłużyć błędy podczas procesu konwersji?**  
+O: Zaimplementuj bloki `try‑catch` wokół kodu konwersji, aby przechwycić i zalogować wyjątki, zapewniając stabilność aplikacji.
+
+**P: Czy mogę dostosować rozmiar i jakość obrazu?**  
+O: Tak, dostosuj obiekt `Size` do wymiarów i użyj `options.setQuality(int)`, aby kontrolować jakość kompresji JPEG.
+
+**P: Czy Aspose.HTML for Java jest kompatybilny ze wszystkimi wersjami Javy?**  
+O: Biblioteka działa z Java 1.7 i nowszymi, obejmując szeroki zakres środowisk programistycznych.
+
+## Podsumowanie
+
+Korzystając z tego przewodnika, teraz wiesz, jak **konwertować EPUB na obraz** jednocześnie **ustawiając niestandardowy rozmiar strony** i **zmieniając kolor tła obrazu** przy użyciu Aspose.HTML for Java. Te możliwości pozwalają tworzyć idealnie dopasowane, markowe obrazy dla dowolnego dalszego przepływu pracy — czy to galeria miniatur, broszura marketingowa, czy zautomatyzowana usługa podglądu e‑booków. Śmiało eksperymentuj z różnymi wymiarami, kolorami i formatami wyjściowymi, aby dopasować je do swoich konkretnych potrzeb.
 
 ---
 
-**Last Updated:** 2025-12-25  
-**Tested With:** Aspose.HTML for Java 24.10  
-**Author:** Aspose  
+**Ostatnia aktualizacja:** 2026-03-13  
+**Testowano z:** Aspose.HTML for Java 24.10  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

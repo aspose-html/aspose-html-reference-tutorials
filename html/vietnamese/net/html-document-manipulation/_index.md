@@ -59,6 +59,8 @@ Mở khóa tiềm năng của Aspose.HTML cho .NET với hướng dẫn toàn di
 Tìm hiểu cách khai thác sức mạnh của Aspose.HTML cho .NET. Tăng cường phát triển web của bạn bằng cách xử lý và hiển thị HTML.
 ### [Tạo một tài liệu trong .NET với Aspose.HTML](./creating-a-document/)
 Giải phóng sức mạnh của Aspose.HTML cho .NET. Học cách tạo, thao tác và tối ưu hóa tài liệu HTML và SVG một cách dễ dàng. Khám phá các ví dụ từng bước và câu hỏi thường gặp.
+### [Tạo tài liệu HTML với Aspose.HTML – Hướng dẫn từng bước](./create-html-document-with-aspose-html-step-by-step-guide/)
+Khám phá cách tạo tài liệu HTML bằng Aspose.HTML qua hướng dẫn chi tiết từng bước.
 ### [Chỉnh sửa tài liệu trong .NET với Aspose.HTML](./editing-a-document/)
 Tạo nội dung web hấp dẫn với Aspose.HTML cho .NET. Tìm hiểu cách thao tác HTML, CSS và nhiều hơn nữa.
 ### [Lưu tài liệu trong .NET với Aspose.HTML](./saving-a-document/)
@@ -69,10 +71,9 @@ Học cách tạo nội dung động và web bằng Aspose.HTML cho .NET. Tăng 
 Học cách sử dụng Aspose.HTML cho .NET. Nhập không gian tên, hợp nhất HTML với XML và nâng cao kỹ năng phát triển web của bạn với hướng dẫn toàn diện này.
 ### [Tạo tài liệu XPS bằng XpsDevice trong .NET với Aspose.HTML](./generate-xps-documents-by-xpsdevice/)
 Mở khóa tiềm năng phát triển web với Aspose.HTML cho .NET. Tạo, chuyển đổi và thao tác tài liệu HTML dễ dàng.
+### [Tạo HTML từ chuỗi trong C# – Hướng dẫn Trình xử lý tài nguyên tùy chỉnh](./create-html-from-string-in-c-custom-resource-handler-guide/)
+Tìm hiểu cách tạo tài liệu HTML từ chuỗi trong C# bằng trình xử lý tài nguyên tùy chỉnh của Aspose.HTML.
 
-## Phần kết luận
-
-Tóm lại, nếu bạn muốn thành thạo thao tác tài liệu HTML bằng Aspose.HTML cho .NET, bạn đã đến đúng nơi rồi. Các hướng dẫn của chúng tôi chính là lộ trình dẫn đến thành công của bạn. Hãy sẵn sàng khám phá các khả năng, giải phóng sự sáng tạo của bạn và hợp lý hóa quá trình phát triển .NET của bạn. Hãy bắt đầu hành trình của bạn ngay hôm nay và xem các tài liệu HTML của bạn biến đổi trước mắt bạn. Cho dù bạn là một nhà phát triển hay một người đam mê, Aspose.HTML cho .NET đều có điều gì đó đáng kinh ngạc dành cho bạn. Vậy, bạn còn chờ gì nữa? Hãy cùng nhau bắt đầu cuộc phiêu lưu thú vị này!
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

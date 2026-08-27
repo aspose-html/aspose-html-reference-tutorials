@@ -26,10 +26,36 @@ First up, let’s talk about advanced CSS extension techniques with Aspose.HTML 
 Now, let’s shift gears and explore how to effectively edit and submit HTML forms using Aspose.HTML for Java. Forms are the heart of user interaction on websites, right? With this tutorial, you’ll learn how to alter the design and functionality of forms with ease. You’ll discover how to pre-fill fields, validate inputs with custom logic, and facilitate seamless data submissions to your backend. Picture this: your users can fill out a form on your site and know their info is safe and sound—because that's the kind of experience you want to create! This step-by-step guide is packed with actionable insights, ensuring you grasp every concept along the way. [Read more](./html-form-editing/). 
 
 ## CSS and HTML Form Editing with Aspose.HTML for Java Tutorials
+
 ### [Advanced CSS Extension Techniques with Aspose.HTML for Java](./advanced-css-extension/)
 Learn how to use Aspose.HTML for Java to apply advanced CSS techniques, including custom page margins and dynamic content. A detailed, hands-on tutorial for developers.
 ### [HTML Form Editing and Submission with Aspose.HTML for Java](./html-form-editing/)
 Learn how to edit and submit HTML forms programmatically using Aspose.HTML for Java in this comprehensive step-by-step guide.
+### [select element by class in Java – Complete How‑To Guide](./select-element-by-class-in-java-complete-how-to-guide/)
+Learn how to select HTML elements by class using Aspose.HTML for Java in this complete step-by-step guide.
+### [how to read css in Java – Complete Guide with Aspose.HTML](./how-to-read-css-in-java-complete-guide-with-aspose-html/)
+Learn how to read and parse CSS files in Java using Aspose.HTML in this complete step-by-step guide.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Get Computed Style Java – Extract Background Color from HTML](./get-computed-style-java-extract-background-color-from-html/)
+Learn how to extract the background color of HTML elements using Aspose.HTML for Java's computed style API.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Get Element Computed Style in Java – Full Step‑by‑Step Guide](./get-element-computed-style-in-java-full-step-by-step-guide/)
+Learn how to retrieve an element's computed style using Aspose.HTML for Java in this detailed step‑by‑step guide.
+### [how to use getcomputedstyle in Java – Extract background color and other CSS properties](./how-to-use-getcomputedstyle-in-java-extract-background-color/)
+Learn how to use Aspose.HTML for Java's GetComputedStyle to extract background color and other CSS properties programmatically.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

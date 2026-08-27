@@ -32,6 +32,8 @@ Aspose.HTML for .NET 是一款功能强大的工具，允许开发人员以编�
 了解如何使用 Aspose.HTML for .NET 高效地操作 HTML 文档。面向开发人员的分步教程。
 ### [使用 Aspose.HTML 在 .NET 中使用内存流提供程序](./memory-stream-provider/)
 了解如何使用 Aspose.HTML 在 .NET 中创建出色的 HTML 文档。按照我们的分步教程，解锁 HTML 操作的强大功能。
+### [在 C# 中创建内存流 – 自定义流创建指南](./create-memory-stream-c-custom-stream-creation-guide/)
+了解如何在 C# 中使用 Aspose.HTML 创建自定义内存流，以便高效处理 HTML 内容。
 ### [使用 Aspose.HTML 在 .NET 中进行 Web 抓取](./web-scraping/)
 学习使用 Aspose.HTML 在 .NET 中操作 HTML 文档。有效地导航、过滤、查询和选择元素，以增强 Web 开发。
 ### [在 .NET 中通过 Aspose.HTML 使用扩展内容属性](./use-extended-content-property/)
@@ -44,6 +46,8 @@ Aspose.HTML for .NET 是一款功能强大的工具，允许开发人员以编�
 了解如何使用 Aspose.HTML for .NET 从 JSON 数据动态生成 HTML 文档。在您的 .NET 应用程序中充分利用 HTML 操作的强大功能。
 ### [在 C# 中以编程方式合并字体 – 步骤指南](./how-to-combine-fonts-programmatically-in-c-step-by-step-guid/)
 了解如何使用 Aspose.HTML for .NET 在 C# 中合并字体文件，提供完整代码示例和操作步骤。
+### [在 C# 中获取程序集版本 – 快速指南获取库版本](./get-assembly-version-in-c-quick-guide-to-retrieve-library-ve/)
+了解如何在 C# 中使用反射获取程序集的版本信息，快速获取库的版本号并在代码中使用。
 
 ## 结论
 

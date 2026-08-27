@@ -87,6 +87,8 @@ Het gebruik van Aspose.HTML for Java vereenvoudigt de conversie van HTML‑docum
 - **Ontbrekende lettertypen** – Installeer vereiste lettertypen op de server of embed ze in de HTML met `@font-face`.  
 
 ## Conversie - HTML naar verschillende afbeeldingsformaten Tutorials
+
+
 ### [HTML naar BMP converteren](./convert-html-to-bmp/)
 Converteer HTML naar BMP met Aspose.HTML for Java. Een uitgebreide tutorial om HTML‑documenten moeiteloos om te zetten naar BMP‑afbeeldingen met Aspose.HTML for Java.
 ### [HTML naar GIF converteren](./convert-html-to-gif/)
@@ -95,9 +97,20 @@ Leer hoe je HTML naar GIF kunt converteren in Java met Aspose.HTML. Een uitgebre
 Leer HTML naar JPEG te converteren met Aspose.HTML for Java. Stap‑voor‑stap gids voor naadloze documentverwerking.
 ### [HTML naar PNG converteren](./convert-html-to-png/)
 Leer hoe je HTML naar PNG‑afbeeldingen kunt converteren in Java met Aspose.HTML. Een uitgebreide gids met stap‑voor‑stap instructies.
+### [PNG maken vanuit SVG in Java – Complete stapsgewijze gids](./create-png-from-svg-in-java-complete-step-by-step-guide/)
+Leer hoe je PNG‑bestanden uit SVG kunt genereren in Java met Aspose.HTML. Een volledige stap‑voor‑stap handleiding.
 ### [HTML naar TIFF converteren](./convert-html-to-tiff/)
 Leer hoe je HTML eenvoudig naar TIFF kunt converteren met Aspose.HTML for Java. Stap‑voor‑stap gids voor efficiënte documentafhandeling.
-
+### [HTML naar WebP – Complete Java-gids met Aspose.HTML](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
+Leer hoe je HTML naar WebP kunt converteren met Aspose.HTML for Java. Een stapsgewijze gids voor efficiënte WebP‑rendering.
+### [Hoe DPI in te stellen bij het converteren van HTML naar PNG – Complete gids](./how-to-set-dpi-when-converting-html-to-png-complete-guide/)
+Leer hoe je de DPI-instellingen aanpast bij HTML‑naar‑PNG conversie met Aspose.HTML for Java voor optimale beeldkwaliteit.
+### [High DPI rendering in Java – Webpagina-screenshots maken met aangepaste user‑agent](./high-dpi-rendering-in-java-capture-webpage-screenshots-with/)
+Leer hoe je met Aspose.HTML for Java hoge‑DPI screenshots van webpagina's maakt en een aangepaste user‑agent instelt.
+### [PNG maken vanuit HTML – Snelle batchconversie met een thread‑pool](./create-png-from-html-fast-batch-conversion-using-a-thread-po/)
+Leer hoe je met Aspose.HTML for Java efficiënt PNG‑bestanden genereert uit HTML in batch met behulp van een thread‑pool.
+### [HTML naar PNG converteren met maximaal geheugengebruik in Java](./convert-html-to-png-with-set-max-memory-usage-in-java/)
+Leer hoe je HTML naar PNG converteert met een maximale geheugengrens in Java via Aspose.HTML.
 ## Veelgestelde vragen
 
 **Q: Kan ik HTML naar PNG converteren met Java zonder extra afbeeldingsbibliotheken?**  

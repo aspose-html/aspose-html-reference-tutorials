@@ -1,0 +1,7 @@
+Title: Save HTML as ZIP in C# – Complete Guide to Custom Storage
+Slug: save-html-as-zip-in-c-complete-guide-to-custom-storage
+Category: html-extensions-and-conversions
+ProcessedDate: 2026-06-26T06:35:51.761146
+SourceRepo: AI Search API
+Keywords: save html as zip, create custom storage, export html to zip, how to implement storage, use memory stream
+PRNumber: 191

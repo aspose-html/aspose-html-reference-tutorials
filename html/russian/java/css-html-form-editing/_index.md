@@ -26,10 +26,34 @@ url: /ru/java/css-html-form-editing/
 Теперь давайте переключим передачи и рассмотрим, как эффективно редактировать и отправлять HTML-формы с помощью Aspose.HTML для Java. Формы — это сердце взаимодействия пользователя на веб-сайтах, верно? С помощью этого руководства вы узнаете, как легко изменять дизайн и функциональность форм. Вы узнаете, как предварительно заполнять поля, проверять вводимые данные с помощью пользовательской логики и облегчать бесперебойную отправку данных в ваш бэкэнд. Представьте себе: ваши пользователи могут заполнить форму на вашем сайте и знать, что их данные в безопасности, — потому что именно такой опыт вы хотите создать! Это пошаговое руководство наполнено практическими рекомендациями, гарантируя, что вы усвоите каждую концепцию на этом пути.[Читать далее](./html-form-editing/). 
 
 ## Редактирование форм CSS и HTML с помощью Aspose.HTML для учебных пособий Java
+
 ### [Расширенные методы расширения CSS с помощью Aspose.HTML для Java](./advanced-css-extension/)
 Узнайте, как использовать Aspose.HTML для Java, чтобы применять передовые методы CSS, включая пользовательские поля страниц и динамический контент. Подробное практическое руководство для разработчиков.
 ### [Редактирование и отправка HTML-форм с помощью Aspose.HTML для Java](./html-form-editing/)
 Узнайте, как программно редактировать и отправлять HTML-формы с помощью Aspose.HTML для Java, в этом подробном пошаговом руководстве.
+### [Выбор элемента по классу в Java – Полное руководство](./select-element-by-class-in-java-complete-how-to-guide/)
+Узнайте, как выбрать элементы по классу в Java с помощью Aspose.HTML, пошаговое руководство от начала до конца.
+### [Как прочитать CSS в Java – Полное руководство с Aspose.HTML](./how-to-read-css-in-java-complete-guide-with-aspose-html/)
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Получить вычисленный стиль Java – извлечь цвет фона из HTML](./get-computed-style-java-extract-background-color-from-html/)
+Узнайте, как с помощью Aspose.HTML для Java получить вычисленный стиль и извлечь цвет фона из HTML‑страницы.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Получить вычисленный стиль элемента в Java – Полное пошаговое руководство](./get-element-computed-style-in-java-full-step-by-step-guide/)
+Узнайте, как получить вычисленный стиль HTML‑элемента в Java с помощью Aspose.HTML, следуя полному пошаговому руководству.
+### [Как использовать getComputedStyle в Java – извлечение цвета фона и других свойств CSS](./how-to-use-getcomputedstyle-in-java-extract-background-color/)
+Узнайте, как получить вычисленные стили элементов, включая цвет фона и другие свойства CSS, используя Aspose.HTML для Java.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

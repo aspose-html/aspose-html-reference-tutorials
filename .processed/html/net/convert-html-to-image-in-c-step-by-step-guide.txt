@@ -1,0 +1,7 @@
+Title: Convert HTML to Image in C# – Step‑by‑Step Guide
+Slug: convert-html-to-image-in-c-step-by-step-guide
+Category: html-extensions-and-conversions
+ProcessedDate: 2026-05-28T23:22:52.172292
+SourceRepo: AI Search API
+Keywords: convert html to image, save web page as png, render webpage to png, create png from website
+PRNumber: 163
