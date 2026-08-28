@@ -1,10 +1,58 @@
 ---
-date: 2026-01-04
-description: Aspose.HTML for Java ile epub'u png'ye ve e‑kitapları görüntüye dönüştürmeyi
-  öğrenin. Kolay EPUB’tan görüntüye dönüşüm için bu adım adım rehberi izleyin.
-linktitle: Converting EPUB to PNG
+date: 2026-05-19
+description: Aspose.HTML for Java ile epub'yi png'ye ve ebook'yi image'a nasıl dönüştüreceğinizi
+  öğrenin. Kolay EPUB'tan image'a dönüşüm için bu step‑by‑step kılavuzu izleyin.
+keywords:
+- convert epub to png
+- how to batch convert
+- batch convert epub
+- java ebook to image
+linktitle: EPUB'yi PNG'ye Dönüştürme
+schemas:
+- author: Aspose
+  dateModified: '2026-05-19'
+  description: Learn how to convert epub to png and convert ebook to image with Aspose.HTML
+    for Java. Follow this step‑by‑step guide for easy EPUB to image conversion.
+  headline: Convert EPUB to PNG Using Aspose.HTML for Java
+  type: TechArticle
+- description: Learn how to convert epub to png and convert ebook to image with Aspose.HTML
+    for Java. Follow this step‑by‑step guide for easy EPUB to image conversion.
+  name: Convert EPUB to PNG Using Aspose.HTML for Java
+  steps:
+  - name: '**Java Development Environment** – Install the latest JDK (Java 17 or newer
+      is recommended). You can download it from the official site: [Java Downloads](https://www.oracle.com/java/technologies/javase-downloads.html).'
+    text: '**Java Development Environment** – Install the latest JDK (Java 17 or newer
+      is recommended). You can download it from the official site: [Java Downloads](https://www.oracle.com/java/technologies/javase-downloads.html).'
+  - name: '**Aspose.HTML for Java** – Obtain the library (the Maven/Gradle package
+      or the ZIP distribution). Download it here: [Aspose.HTML for Java](https://releases.aspose.com/html/java/).'
+    text: '**Aspose.HTML for Java** – Obtain the library (the Maven/Gradle package
+      or the ZIP distribution). Download it here: [Aspose.HTML for Java](https://releases.aspose.com/html/java/).'
+  - name: '**EPUB File** – Have the source EPUB ready on your file system.'
+    text: '**EPUB File** – Have the source EPUB ready on your file system.'
+  - name: '**Temporary License (optional for testing)** – For production use you’ll
+      need a license; a trial license works for evaluation.'
+    text: '**Temporary License (optional for testing)** – For production use you’ll
+      need a license; a trial license works for evaluation.'
+  type: HowTo
+- questions:
+  - answer: Aspose.HTML for Java is a commercial product, but you can download a free
+      trial version [here](https://releases.aspose.com/) to evaluate its capabilities.
+    question: Is Aspose.HTML for Java free to use?
+  - answer: The full API reference is available [here](https://reference.aspose.com/html/java/),
+      covering all classes, methods, and code samples.
+    question: Where can I find the documentation for Aspose.HTML for Java?
+  - answer: Request a temporary license from the Aspose portal [this link](https://purchase.aspose.com/temporary-license/).
+      It works for development and testing.
+    question: How can I obtain a temporary license for Aspose.HTML for Java?
+  - answer: The community forum provides answers from both Aspose engineers and fellow
+      developers. Access it [here](https://forum.aspose.com/).
+    question: Where can I get support for Aspose.HTML for Java?
+  - answer: Using `ImageSaveOptions`, you can export to JPEG, BMP, TIFF, and GIF.
+      Just change the `format` property to the desired `ImageFormat` enum value.
+    question: What other image formats can I export to besides PNG?
+  type: FAQPage
 second_title: Java HTML Processing with Aspose.HTML
-title: Aspose.HTML for Java kullanarak EPUB'u PNG'ye nasıl dönüştürülür
+title: Aspose.HTML for Java Kullanarak EPUB'yi PNG'ye Dönüştür
 url: /tr/java/converting-epub-to-pdf/convert-epub-to-png/
 weight: 13
 ---
@@ -13,41 +61,43 @@ weight: 13
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# EPUB'yi PNG'ye Dönüştürme
+# Aspose.HTML for Java ile EPUB'ı PNG'ye Dönüştürme
 
-Günümüz dijital çağında, **convert epub to png** ihtiyacı oldukça yaygındır. EPUB, eKitaplar için popüler bir format iken PNG, yaygın olarak kullanılan bir görüntü formatıdır. EPUB dosyalarını PNG görüntülerine dönüştürmek faydalı bir görev olabilir ve Aspose.HTML for Java bu amaç için sorunsuz bir çözüm sunar. Bu adım adım rehberde, Aspose.HTML for Java kullanarak EPUB'yi PNG'ye dönüştürme sürecini size göstereceğiz.
+Günümüz dijital çağında, **convert epub to png** ihtiyacı oldukça yaygındır. EPUB popüler bir eKitap formatıdır, PNG ise yaygın olarak kullanılan bir raster görüntü formatıdır. EPUB dosyalarını PNG görüntülerine dönüştürmek, web ön izlemelerinden yazdırılabilir PDF'lere kadar her yerde çalışan statik anlık görüntüler sağlar. Aspose.HTML for Java bu dönüşümü hızlı ve güvenilir bir şekilde gerçekleştirir, düşük seviyeli render detaylarıyla uğraşmak yerine uygulamanıza odaklanmanızı sağlar.
 
 ## Hızlı Yanıtlar
-- **Ana kütüphane nedir?** Aspose.HTML for Java
-- **Dönüşüm ne kadar sürer?** Genellikle sayfa başına bir saniyenin altında
-- **Bir lisansa ihtiyacım var mı?** Üretim kullanımı için geçici bir lisans gereklidir
-- **Birden fazla EPUB'u toplu olarak dönüştürebilir miyim?** Evet, aynı kodla dosyalar üzerinde döngü yapabilirsiniz
-- **PNG tek çıktı formatı mı?** Hayır, JPEG, BMP vb. formatlara da dışa aktarabilirsiniz.
+- **Temel kütüphane nedir?** Aspose.HTML for Java  
+- **Dönüşüm ne kadar sürer?** Genellikle 300 sayfalık bir EPUB için sayfa başına bir saniyenin altında  
+- **Lisans gerekiyor mu?** Üretim kullanımı için geçici bir lisans gereklidir; ücretsiz deneme sürümü mevcuttur  
+- **Birden fazla EPUB'u toplu olarak dönüştürebilir miyim?** Evet—aynı kodla dosyalar üzerinde döngü yapın (aşağıdaki “how to batch convert” bölümüne bakın)  
+- **PNG tek çıktı formatı mı?** Hayır, tek bir seçenek değişikliğiyle JPEG, BMP veya TIFF olarak da dışa aktarabilirsiniz  
 
 ## convert epub to png nedir?
-*convert epub to png* ifadesi, bir EPUB eKitabının her sayfasını raster PNG görüntüsü olarak render etme sürecini tanımlar. Bu, eKitap içeriğinin önizlemeler, küçük resimler veya EPUB desteklemeyen belgelere ekleme gibi statik anlık görüntülerine ihtiyaç duyduğunuzda kullanışlıdır.
+EPUB'ı PNG'ye dönüştürmek, bir EPUB eKitabının her sayfasını raster PNG görüntüsü olarak render etmek anlamına gelir. Bu süreç, ön izlemeler, küçük resimler veya EPUB desteklemeyen belgelere gömmek için yararlı statik anlık görüntüler oluşturur. Aspose.HTML for Java render işlemini sunucu tarafında gerçekleştirir, düzeni, yazı tiplerini ve görüntüleri otomatik olarak korur.
 
-## Neden eKitap görüntüye dönüştürülür?
-- **Çapraz platform önizleme:** PNG'ler herhangi bir cihazda veya tarayıcıda tutarlı şekilde görüntülenir.
-- **Kolay gömme:** Görüntüleri PDF'lere, Word belgelerine veya web sayfalarına ekstra eklentiler olmadan ekleyin.
-- **Küçük resim oluşturma:** Kataloglar veya kütüphaneler için kapak veya sayfa küçük resimleri oluşturun.
-- **Arşiv anlık görüntüleri:** Bir eKitabın görsel düzenini belirli bir zamanda koruyun.
+## Neden ebook görüntüye dönüştürülür?
+Bir eKitabı görüntüye dönüştürmek, sayfalarının evrensel ve cihaz bağımsız bir temsilini sağlar. Görüntüler orijinal düzeni, yazı tiplerini ve grafikleri korur, böylece izleyicinin yetenekleri veya yüklü yazılımı ne olursa olsun, gördüğünüz tam olarak amaçlanan şey olur.
 
-## Prerequisites
+- **Cross‑platform preview:** PNG'ler ekstra eklenti olmadan herhangi bir cihazda veya tarayıcıda tutarlı görüntülenir.  
+- **Easy embedding:** Görüntüleri PDF'lere, Word belgelerine veya web sayfalarına EPUB desteği hakkında endişelenmeden ekleyin.  
+- **Thumbnail generation:** Kataloglar, kütüphaneler veya arama sonuçları için kapak veya sayfa küçük resimleri oluşturun.  
+- **Archival snapshots:** Orijinal EPUB okunamaz hale gelse bile, bir eKitabın görsel düzenini belirli bir zamanda koruyun.
 
-Başlamadan önce, yerine getirmeniz gereken birkaç önkoşul vardır:
+## Ön Koşullar
+Başlamadan önce, aşağıdakilere sahip olduğunuzdan emin olun:
 
-1. Java Geliştirme Ortamı: Sisteminizde Java yüklü olduğundan emin olun. Java'yı web sitesinden indirebilir ve kurabilirsiniz: [Java Downloads](https://www.oracle.com/java/technologies/javase-downloads.html).
+1. **Java Development Environment** – En son JDK'yı (Java 17 veya daha yenisi önerilir) kurun. Resmi siteden indirebilirsiniz: [Java Downloads](https://www.oracle.com/java/technologies/javase-downloads.html).  
+2. **Aspose.HTML for Java** – Kütüphaneyi edinin (Maven/Gradle paketi veya ZIP dağıtımı). Buradan indirin: [Aspose.HTML for Java](https://releases.aspose.com/html/java/).  
+3. **EPUB File** – Kaynak EPUB dosyasını dosya sisteminizde hazır bulundurun.  
+4. **Temporary License (optional for testing)** – Üretim kullanımı için bir lisansa ihtiyacınız olacak; deneme lisansı değerlendirme için çalışır.
 
-2. Aspose.HTML for Java: Aspose.HTML for Java kütüphanesine sahip olmalısınız. Bunu şu adresten indirebilirsiniz: [Aspose.HTML for Java](https://releases.aspose.com/html/java/).
+Bu öğeler hazır olduğunda, dönüştürmeye başlayabilirsiniz.
 
-3. EPUB Dosyası: PNG'ye dönüştürmek istediğiniz EPUB dosyasını hazırlayın. Sisteminizde mevcut olduğundan emin olun.
+## Paketleri İçe Aktarın
+`com.aspose.html` ad alanı, EPUB render'ı için ihtiyaç duyacağınız tüm sınıfları içerir.  
+`Document` sınıfı yüklenmiş bir EPUB'u temsil eder, `ImageSaveOptions` ise PNG'ye özgü ayarları tanımlamanızı sağlar.
 
-Artık önkoşullarımız hazır olduğuna göre, Aspose.HTML for Java kullanarak EPUB'yi PNG'ye dönüştürme adımlarına geçelim.
-
-## Paketleri İçe Aktarma
-
-İlk olarak, Aspose.HTML for Java kütüphanesine erişmek için gerekli paketleri içe aktarmamız gerekiyor. İşte nasıl yapabileceğiniz:
+**Definition anchor:** `Document` Aspose.HTML'in bir EPUB dosyasını bellekte yükleyen ve temsil eden temel nesnesidir.  
 
 ```java
 import com.aspose.html.saving.ImageSaveOptions;
@@ -56,27 +106,30 @@ import com.aspose.html.rendering.image.ImageFormat;
 import java.io.FileInputStream;
 ```
 
-## Adım 1: EPUB Dosyasını Açma
+## Adım 1: EPUB Dosyasını Açın
+EPUB'u bir `Document` örneğine yükleyin. Bu adım konteyneri ayrıştırır, HTML içeriğini çıkarır ve render için hazırlar.
 
-Dönüşüm sürecine başlamak için EPUB dosyasını açmanız gerekir. Bunu yapmak için aşağıdaki kodu kullanın:
+**Definition anchor:** `Converter` EPUB → PNG gibi format dönüşümlerini gerçekleştiren yardımcı sınıftır.  
 
 ```java
 try (FileInputStream fileInputStream = new FileInputStream("path/to/your/input.epub")) {
 ```
 
-`"path/to/your/input.epub"` ifadesini EPUB dosyanızın gerçek dosya yolu ile değiştirdiğinizden emin olun.
+`"path/to/your/input.epub"` ifadesini EPUB dosyanızın gerçek yolu ile değiştirin.
 
-## Adım 2: ImageSaveOptions'ı Başlatma
+## Adım 2: ImageSaveOptions'ı Başlatın
+`ImageSaveOptions` çıktı formatını, çözünürlüğü ve diğer görüntüyle ilgili parametreleri belirlemenizi sağlar. `format` değerini `ImageFormat.Png` olarak ayarlamak PNG çıktısını garanti eder.
 
-ImageSaveOptions, EPUB içeriğini kaydetmek istediğiniz formatı belirtmenizi sağlar. Bu durumda, PNG görüntüsü olarak kaydetmek istiyoruz. Aşağıda gösterildiği gibi seçenekleri başlatın:
+**Definition anchor:** `ImageSaveOptions` format, DPI ve renk derinliği gibi raster‑görüntü çıktı seçeneklerini yapılandırır.  
 
 ```java
 ImageSaveOptions options = new ImageSaveOptions(ImageFormat.Png);
 ```
 
-## Adım 3: EPUB'yi PNG'ye Dönüştürme
+## Adım 3: EPUB'u PNG'ye Dönüştürün
+Şimdi dönüşümü çağırın. `Converter.convertEPUB` metodu EPUB'un her sayfasını işleyerek render edilen her sayfa için bir PNG dosyası yazar.
 
-Şimdi EPUB dosyasını PNG görüntüsüne dönüştürmenin kritik adımı geliyor. Bu amaçla `Converter.convertEPUB` metodunu kullanın. İşte nasıl yapılacağı:
+**Definition anchor:** `convertEPUB` gerçek render ve dosya oluşturmayı yapan statik metottur.  
 
 ```java
 Converter.convertEPUB(
@@ -86,47 +139,50 @@ Converter.convertEPUB(
 );
 ```
 
-`"path/to/your/output.png"` ifadesini PNG dosyasını kaydetmek istediğiniz yol ile değiştirdiğinizden emin olun.
+`"path/to/your/output.png"` ifadesini istediğiniz çıktı klasörü ve dosya adı desenine göre değiştirin. EPUB birden fazla sayfa içeriyorsa, metod otomatik olarak sayfa numaralarını ekleyecektir.
 
-Bu üç adımla, Aspose.HTML for Java kullanarak bir EPUB dosyasını başarıyla PNG görüntüsüne dönüştürdünüz. Bu kütüphanenin güçlü özellikleri sayesinde süreç oldukça basittir.
+Bu üç adımla, Aspose.HTML for Java kullanarak **convert epub to png** işlemini başarıyla gerçekleştirdiniz. Kütüphane ek kod gerektirmeden karmaşık düzenleri, gömülü yazı tiplerini ve SVG grafiklerini yönetir.
 
-## Sonuç
-
-Bu rehberde, Aspose.HTML for Java kullanarak **convert epub to png** işlemini nasıl yapacağımızı öğrendik. Bu dönüşüm, eKitap içeriğini görüntülere dönüştürmek gibi çeşitli senaryolarda kullanışlı bir araç olabilir. Doğru önkoşullar ve yukarıda belirtilen basit adımlarla bu görevi zahmetsizce yerine getirebilirsiniz.
+## Java'da EPUB dosyalarını toplu olarak nasıl dönüştürürüm?
+**batch convert epub** dosyalarını gerçekleştirmek için, bir EPUB dizininde döngü yapın ve her dosya için aynı dönüşüm mantığını çağırın. Üç adımın kodunu bir `for` döngüsü içinde sarın, giriş ve çıkış yollarını dinamik olarak ayarlayın. Bu yaklaşım, kütüphane otomasyonu için ideal olan tek bir betikle yüzlerce kitabı işlemeyi sağlar.
 
 ## Yaygın Sorunlar ve Çözümler
-- **Dosya bulunamadı hatası:** Dosya yollarının mutlak ya da projenizin çalışma dizinine göre doğru göreceli olduğundan emin olun.
-- **Büyük EPUB'larda bellek yetersizliği:** EPUB'yi sayfa sayfa işleyin veya JVM yığın boyutunu (`-Xmx` bayrağı) artırın.
-- **Eksik fontlar:** EPUB'te kullanılan fontların sistemde yüklü olduğundan emin olun veya `FontSettings` kullanarak gömün.
+- **File not found error:** Dosya yollarının mutlak ya da proje çalışma dizinine göre doğru göreceli olduğundan emin olun.  
+- **Out of memory for large EPUBs:** EPUB'u sayfa sayfa işleyin (kütüphane sayfaları akıtır) veya `-Xmx` bayrağı ile JVM yığın boyutunu artırın.  
+- **Missing fonts:** EPUB'ta kullanılan yazı tiplerinin sunucuda yüklü olduğundan emin olun veya `FontSettings` aracılığıyla gömün.  
+- **Incorrect image colors:** Tutarlı renk render'ı için `ImageSaveOptions` `colorMode` değerini `ColorMode.Rgb` olarak ayarlayın.
 
-## FAQs
+## Sıkça Sorulan Sorular
 
-### Aspose.HTML for Java ücretsiz mi?
-Aspose.HTML for Java ücretsiz değildir, ancak yeteneklerini denemek için ücretsiz bir deneme sürümünü [buradan](https://releases.aspose.com/) inceleyebilirsiniz.
+**S: Aspose.HTML for Java ücretsiz mi?**  
+C: Aspose.HTML for Java ticari bir üründür, ancak yeteneklerini değerlendirmek için ücretsiz deneme sürümünü [buradan](https://releases.aspose.com/) indirebilirsiniz.
 
-### Aspose.HTML for Java belgelerini nerede bulabilirim?
-Belgeler [burada](https://reference.aspose.com/html/java/) bulunabilir. Kütüphanenin özelliklerini ve işlevselliğini anlamak için değerli bir kaynaktır.
+**S: Aspose.HTML for Java belgelerini nerede bulabilirim?**  
+C: Tam API referansı [burada](https://reference.aspose.com/html/java/) mevcuttur, tüm sınıfları, metodları ve kod örneklerini kapsar.
 
-### Aspose.HTML for Java için geçici bir lisans nasıl alabilirim?
-Geçici bir lisansa ihtiyacınız varsa, [bu linkten](https://purchase.aspose.com/temporary-license/) bir lisans talep edebilirsiniz.
+**S: Aspose.HTML for Java için geçici bir lisans nasıl alabilirim?**  
+C: Aspose portalından [bu link](https://purchase.aspose.com/temporary-license/) ile geçici lisans talep edin. Geliştirme ve test için çalışır.
 
-### Aspose.HTML for Java için destek nereden alabilirim?
-Aspose.HTML for Java topluluk forumu, destek ve rehberlik almak için harika bir yerdir. Forum'a [buradan](https://forum.aspose.com/) erişebilirsiniz.
+**S: Aspose.HTML for Java için destek nereden alabilirim?**  
+C: Topluluk forumu, Aspose mühendisleri ve diğer geliştiricilerin yanıtlarını sunar. [Buradan](https://forum.aspose.com/) erişebilirsiniz.
 
-### Aspose.HTML for Java hangi diğer dosya formatlarını işleyebilir?
-Aspose.HTML for Java, HTML, PDF ve daha fazlasını içeren geniş bir dosya formatı yelpazesini dönüştürme ve işleme konusunda destekler. Desteklenen formatların kapsamlı listesini belgelerde kontrol edin.
+**S: PNG dışında hangi görüntü formatlarına dışa aktarabilirim?**  
+C: `ImageSaveOptions` kullanarak JPEG, BMP, TIFF ve GIF formatlarına dışa aktarabilirsiniz. `format` özelliğini istediğiniz `ImageFormat` enum değerine değiştirmeniz yeterlidir.
 
 ---
 
-**Son Güncelleme:** 2026-01-04  
+**Son Güncelleme:** 2026-05-19  
 **Test Edilen Versiyon:** Aspose.HTML for Java 24.12  
 **Yazar:** Aspose  
 
----
+{{< blocks/products/products-backtop-button >}}
+
+## İlgili Eğitimler
+
+- [epub to pdf java - Aspose.HTML ile EPUB'u PDF'ye Dönüştür](/html/java/conversion-epub-to-image-and-pdf/convert-epub-to-pdf/)
+- [Aspose.HTML for Java ile EPUB görüntüsünü TIFF'e dönüştür](/html/java/converting-between-epub-and-image-formats/convert-epub-to-tiff/)
+- [Aspose.HTML for Java ile EPUB'u BMP'ye Dönüştür](/html/java/converting-between-epub-and-image-formats/convert-epub-to-bmp/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
