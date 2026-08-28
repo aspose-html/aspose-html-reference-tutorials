@@ -54,6 +54,9 @@ url: /zh-hant/java/saving-html-documents/
 透過本逐步指南（包含程式碼範例和實用技巧），了解如何使用 Aspose.HTML for Java 將 HTML 文件儲存為 MHTML。
 ### [在 Aspose.HTML for Java 中儲存 SVG 文檔](./save-svg-document/)
 透過這個包含範例的簡單逐步指南，了解如何使用 Aspose.HTML for Java 儲存 SVG 文件。
+### [在 Aspose.HTML for Java 中儲存產生的 HTML 結果 – 完整範本處理指南](./save-generated-html-result-full-template-processing-guide/)
+本指南說明如何使用 Aspose.HTML for Java 生成完整的 HTML 範本並將結果儲存至檔案。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

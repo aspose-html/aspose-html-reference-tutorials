@@ -54,6 +54,8 @@ Convierta HTML a Markdown fácilmente con Aspose.HTML para Java. Siga esta guía
 Aprenda a guardar documentos HTML como MHTML usando Aspose.HTML para Java con esta guía paso a paso, completa con ejemplos de código y consejos prácticos.
 ### [Guardar documento SVG en Aspose.HTML para Java](./save-svg-document/)
 Aprenda a guardar documentos SVG usando Aspose.HTML para Java con esta sencilla guía paso a paso repleta de ejemplos.
+### [Guardar resultado HTML generado – Guía completa de procesamiento de plantillas](./save-generated-html-result-full-template-processing-guide/)
+Aprenda a guardar el HTML generado después del procesamiento completo de plantillas con Aspose.HTML para Java, paso a paso.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

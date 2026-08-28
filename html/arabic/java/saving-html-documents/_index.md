@@ -54,6 +54,8 @@ url: /ar/java/saving-html-documents/
 تعرف على كيفية حفظ مستندات HTML بتنسيق MHTML باستخدام Aspose.HTML لـ Java من خلال هذا الدليل خطوة بخطوة، والذي يشتمل على أمثلة التعليمات البرمجية والنصائح العملية.
 ### [حفظ مستند SVG في Aspose.HTML لـ Java](./save-svg-document/)
 تعرف على كيفية حفظ مستندات SVG باستخدام Aspose.HTML لـ Java من خلال هذا الدليل السهل خطوة بخطوة والمليء بالأمثلة.
+### [حفظ نتيجة HTML المُولَّدة – دليل معالجة القالب الكامل](./save-generated-html-result-full-template-processing-guide/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

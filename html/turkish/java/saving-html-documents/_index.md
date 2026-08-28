@@ -54,6 +54,8 @@ Java için Aspose.HTML kullanarak HTML'yi Markdown'a kolayca dönüştürün. So
 Bu adım adım kılavuzla, kod örnekleri ve pratik ipuçlarıyla birlikte Aspose.HTML for Java kullanarak HTML belgelerini MHTML olarak nasıl kaydedeceğinizi öğrenin.
 ### [Java için Aspose.HTML'de SVG Belgesini Kaydetme](./save-svg-document/)
 Örneklerle dolu bu kolay adım adım kılavuzla Java için Aspose.HTML kullanarak SVG belgelerinin nasıl kaydedileceğini öğrenin.
+### [Oluşturulan HTML Sonucunu Kaydet – Tam Şablon İşleme Kılavuzu](./save-generated-html-result-full-template-processing-guide/)
+Java için Aspose.HTML kullanarak tam şablon işleme ile oluşturulan HTML sonucunu kaydetmeyi öğrenin.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

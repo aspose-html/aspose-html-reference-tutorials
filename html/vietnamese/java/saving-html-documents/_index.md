@@ -54,6 +54,8 @@ Dễ dàng chuyển đổi HTML sang Markdown bằng Aspose.HTML cho Java. Thự
 Tìm hiểu cách lưu tài liệu HTML dưới dạng MHTML bằng Aspose.HTML cho Java với hướng dẫn từng bước này, kèm theo các ví dụ mã và mẹo thực tế.
 ### [Lưu tài liệu SVG trong Aspose.HTML cho Java](./save-svg-document/)
 Tìm hiểu cách lưu tài liệu SVG bằng Aspose.HTML cho Java với hướng dẫn từng bước dễ dàng kèm theo nhiều ví dụ này.
+### [Lưu kết quả HTML đã tạo – Hướng dẫn xử lý mẫu đầy đủ](./save-generated-html-result-full-template-processing-guide/)
+Khám phá cách lưu kết quả HTML được tạo ra bằng Aspose.HTML cho Java qua hướng dẫn chi tiết toàn diện.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
