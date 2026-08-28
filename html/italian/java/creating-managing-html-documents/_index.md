@@ -42,6 +42,7 @@ Quando si tratta di generare nuovi documenti HTML, Aspose.HTML per Java offre un
  Infine, per coloro che desiderano spingere ulteriormente le proprie competenze, c'è una vasta gamma di argomenti avanzati da esplorare. Scopri come gestire i documenti SVG o gestire gli eventi di caricamento dei documenti per creare applicazioni web dinamiche e responsive. Questi tutorial ti portano oltre l'HTML, immergendoti nelle complessità della Scalable Vector Graphics (SVG) e della programmazione basata sugli eventi.[Per saperne di più](./create-manage-svg-documents/)
 
 ## Creazione e gestione di documenti HTML in Aspose.HTML per tutorial Java
+
 ### [Crea documenti HTML in modo asincrono in Aspose.HTML per Java](./create-html-documents-async/)
 Padroneggia la creazione di documenti HTML in modo asincrono con Aspose.HTML per Java. Guida passo passo, suggerimenti e FAQ inclusi per un apprendimento rapido.
 ### [Crea documenti HTML vuoti in Aspose.HTML per Java](./create-empty-html-documents/)
@@ -54,14 +55,45 @@ Scopri come caricare, manipolare e salvare documenti HTML usando Aspose.HTML per
 Scopri come caricare documenti HTML da flussi usando Aspose.HTML per Java. Questa guida fornisce un tutorial passo dopo passo per una manipolazione HTML senza soluzione di continuità.
 ### [Crea documenti HTML da stringhe in Aspose.HTML per Java](./create-html-documents-from-string/)
 Scopri come creare documenti HTML da stringhe in Aspose.HTML per Java con questa guida dettagliata.
+### [Crea sandbox per HTML in Java – Guida passo‑a‑passo](./create-sandbox-for-html-in-java-step-by-step-guide/)
+Impara a creare un ambiente sandbox per HTML in Java, garantendo sicurezza e isolamento durante lo sviluppo.
 ### [Carica documenti HTML dall'URL in Aspose.HTML per Java](./load-html-documents-from-url/)
-Scopri come caricare facilmente documenti HTML da un URL in Java con Aspose.HTML. Tutorial passo dopo passo incluso.
+Scopri come caricare facilmente documenti HTML da un URL in Java con Aspose.HTML. Tutorial passo passo incluso.
+### [Iterare NodeList in Java – Leggi HTML e ottieni src immagine](./iterate-nodelist-java-read-html-get-image-src/)
+Scopri come iterare un NodeList in Java per leggere un documento HTML e estrarre gli attributi src delle immagini.
 ### [Generare nuovi documenti HTML utilizzando Aspose.HTML per Java](./generate-new-html-documents/)
 Scopri come creare nuovi documenti HTML usando Aspose.HTML per Java con questa semplice guida passo-passo. Inizia a generare contenuti HTML dinamici.
 ### [Gestire gli eventi di caricamento dei documenti in Aspose.HTML per Java](./handle-document-load-events/)
 Impara a gestire gli eventi di caricamento dei documenti in Aspose.HTML per Java con questa guida passo-passo. Migliora le tue applicazioni web.
 ### [Crea e gestisci documenti SVG in Aspose.HTML per Java](./create-manage-svg-documents/)
 Impara a creare e gestire documenti SVG usando Aspose.HTML per Java! Questa guida completa copre tutto, dalla creazione di base alla manipolazione avanzata.
+### [Come interrogare HTML in Java – Tutorial completo](./how-to-query-html-in-java-complete-tutorial/)
+Impara a eseguire query su documenti HTML in Java usando Aspose.HTML con questa guida passo‑passo completa.
+### [Come analizzare HTML in Java – Caricare, interrogare e contare gli elementi](./how-to-parse-html-java-load-query-count-elements/)
+Impara a caricare, interrogare e contare gli elementi HTML in Java usando Aspose.HTML con questa guida passo‑passo.
+### [Esegui JavaScript asincrono in Java – Guida completa passo‑a‑passo](./execute-async-javascript-in-java-complete-step-by-step-guide/)
+Scopri come eseguire JavaScript asincrono in Java usando Aspose.HTML. Guida passo‑passo con esempi pratici e consigli utili.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Genera HTML da JavaScript in Java – Guida completa passo‑passo](./generate-html-from-javascript-in-java-complete-step-by-step/)
+Scopri come generare HTML da codice JavaScript in Java usando Aspose.HTML per Java con questa guida dettagliata passo‑passo.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Iterare su NodeList Java – Guida completa](./iterate-over-nodelist-java-complete-guide/)
+Scopri come iterare su NodeList in Java con Aspose.HTML, passo dopo passo, con esempi pratici e consigli utili.
+### [Estrai testo da HTML con Java – Guida completa passo‑a‑passo](./extract-text-from-html-with-java-complete-step-by-step-guide/)
+Scopri come estrarre testo da documenti HTML in Java usando Aspose.HTML con questa guida dettagliata passo dopo passo.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

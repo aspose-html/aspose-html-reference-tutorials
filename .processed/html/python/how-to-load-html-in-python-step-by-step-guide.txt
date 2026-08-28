@@ -1,0 +1,7 @@
+Title: How to Load HTML in Python – Step‑by‑Step Guide
+Slug: how-to-load-html-in-python-step-by-step-guide
+Category: general
+ProcessedDate: 2026-07-02T15:46:20.455748
+SourceRepo: AI Search API
+Keywords: how to load html, how to get element, how to extract text, get element by id, read html file python
+PRNumber: 200

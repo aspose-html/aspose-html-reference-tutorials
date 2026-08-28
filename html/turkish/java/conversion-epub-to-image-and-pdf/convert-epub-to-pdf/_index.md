@@ -1,142 +1,154 @@
 ---
-date: 2025-12-14
-description: Aspose.HTML for Java kullanarak epub'i pdf'e Java ile nasıl dönüştüreceğinizi
-  öğrenin. Bu adım adım kılavuz, ön koşulları, paket importlarını ve kod örneklerini
-  kapsar.
+date: 2026-02-25
+description: Aspose.HTML kullanarak Java ile epub'u pdf'ye nasıl dönüştüreceğinizi
+  öğrenin; ayrıca pdf java'ya filigran ekleme ve çıktıyı özelleştirme ipuçları.
 linktitle: Converting EPUB to PDF
 second_title: Java HTML Processing with Aspose.HTML
-title: 'epub to pdf java - Aspose.HTML kullanarak EPUB''yi PDF''ye dönüştür'
+title: Java ile EPUB'yi PDF'ye Dönüştürme – Aspose.HTML Kullanarak
 url: /tr/java/conversion-epub-to-image-and-pdf/convert-epub-to-pdf/
 weight: 11
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+quote >. Keep translation inside.
+
+Also the "## Quick Answers" etc.
+
+Make sure not to translate URLs.
+
+Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# epub to pdf java – Aspise.HTML ile EPUB'yi PDF'ye Dönüştür
-
-Bu kapsamlı öğreticide, Aspose.HTML for Java kullanarak **epub to pdf java** dönüşümünü adım adım göstereceğiz. İster bir toplu iş işlemcisi, bir e‑kitap yayınlama hattı oluşturuyor olun, ister EPUB dosyalarını yazdırılabilir PDF'lere dönüştürmek için güvenilir bir yol arıyor olun, bu kılavuz size ortamı kurmaktan çıktıyı özelleştirmeye kadar ihtiyacınız olan her şeyi sunar.
+# epub'u pdf'ye nasıl dönüştürülür – Aspose.HTML ile EPUB'ı PDF'ye Dönüştürme
 
 ## Hızlı Yanıtlar
-- **epub to pdf java** işlemini hangi kütüphane yönetir?** Aspose.HTML for Java.
-- **Üretim için lisansa ihtiyacım var mı?** Evet, değerlendirme dışı kullanım için ticari lisans gereklidir.
-- **PDF kalitesini özelleştirebilir miyim?** Kesinlikle – JPEG kalitesini ayarlayabilir, yazı tiplerini gömebilir ve daha fazlasını yapabilirsiniz.
-- **Java 8+ destekleniyor mu?** Evet, Aspose.HTML Java 8 ve daha yeni çalışma zamanlarıyla çalışır.
-- **Yardım alabileceğim yer neresi?** Aspose.HTML forumu topluluk desteği için en iyi yerdir.
+- **EPUB'u PDF'ye nasıl dönüştürür?** Aspose.HTML for Java.  
+- **Üretim için lisansa ihtiyacım var mı?** Yes, a commercial license is required for non‑evaluation use.  
+- **PDF kalitesini özelleştirebilir miyim?** Absolutely – you can set JPEG quality, embed fonts, and more.  
+- **Java 8+ destekleniyor mu?** Yes, Aspose.HTML works with Java 8 and newer runtimes.  
+- **Yardım nereden alınabilir?** The Aspose.HTML forum is the best place for community support.  
 
-## epub to pdf java nedir?
-“epub to pdf java” ifadesi, bir EPUB e‑kitap dosyasını Java kodu kullanarak PDF belgesine dönüştürme sürecine atıfta bulunur. Aspose.HTML for Java, yerleşim, görüntüler ve stil korunarak ağır işleri yapan yüksek seviyeli bir API sağlar.
+## EPUB'u PDF'ye nasıl dönüştürülür nedir?
+“how to convert epub to pdf” ifadesi, bir EPUB e‑kitap dosyasını Java kodu kullanarak PDF belgesine dönüştürme sürecini tanımlar. Aspose.HTML for Java, düzeni, görüntüleri ve stillemeyi koruyan, ağır işleri sizin için yapan yüksek seviyeli bir API sağlar.
 
 ## Neden Aspose.HTML for Java kullanmalısınız?
-- **Sağlam dönüşüm motoru** – Karmaşık EPUB yapılarıyla kalite kaybı olmadan başa çıkar.
-- **Harici bağımlılık yok** – Saf Java, yerel ikili dosyalar gerekmez.
-- **İnce ayarlı kontrol** – `PdfSaveOptions` gibi seçenekler PDF çıktısını ayarlamanıza olanak tanır.
-- **Ölçeklenebilir** – Tek dosya dönüşümleri ve yüksek hacimli toplu işler için uygundur.
+- **Sağlam dönüşüm motoru** – Karmaşık EPUB yapılarıyla çalışırken kalite kaybı yaşamaz.  
+- **Harici bağımlılık yok** – Saf Java, yerel ikili dosyalar gerekmez.  
+- **İnce ayarlı kontrol** – `PdfSaveOptions` gibi seçenekler PDF çıktısını ayarlamanıza olanak tanır.  
+- **Ölçeklenebilir** – Tek dosya dönüşümleri ve yüksek hacimli toplu işler için uygundur.  
 
 ## Önkoşullar
 
-Dönüşüm sürecine başlamadan önce, aşağıdaki önkoşulların yerine getirildiğinden emin olun:
+Dönüşüm sürecine başlamadan önce, aşağıdaki önkoşulların karşılandığından emin olun:
 
 1. **Java Geliştirme Ortamı**  
-   Sisteminizde bir Java geliştirme ortamının kurulu olduğundan emin olun. Java'yı web sitesinden [buradan](https://www.oracle.com/java/) indirebilir ve kurabilirsiniz.
+   Ensure you have a Java development environment set up on your system. You can download and install Java from the website [here](https://www.oracle.com/java/).
 
 2. **Aspose.HTML for Java**  
-   Aspose.HTML for Java kütüphanesinin kurulu olması gerekir. Kütüphaneyi web sitesinden [buradan](https://releases.aspose.com/html/java/) indirebilirsiniz.
+   You need to have Aspose.HTML for Java library installed. You can download it from the website [here](https://releases.aspose.com/html/java/).
 
-3. **EPUB Belgesi**  
-   PDF'ye dönüştürmek istediğiniz EPUB belgesine sahip olun. Java kodunuzda EPUB dosyasının doğru yolunu belirtin.
+3. **EPUB Document**  
+   Have the EPUB document you want to convert to PDF ready. Provide the correct path to the EPUB file in your Java code.
 
 ## Paketleri İçe Aktarma
 
-Java projenizde, gerekli Aspose.HTML for Java paketlerini içe aktarın. Aşağıda ihtiyacınız olan tam kod verilmiştir:
+In your Java project, import the necessary Aspose.HTML for Java packages. Below is the exact code you’ll need:
 
 ```java
 import com.aspose.html.saving.PdfSaveOptions;
 import com.aspose.html.converters.Converter;
 ```
 
-## epub to pdf java Dönüşümünü Nasıl Gerçekleştirirsiniz
+## EPUB'u PDF'ye nasıl dönüştürülür işlemini Nasıl Gerçekleştirirsiniz
 
-Aşağıda adım adım bir rehber bulunmaktadır. Her adım kısa bir açıklama ve ardından orijinal kod bloğunu (değiştirilmemiş) içerir.
+Aşağıda adım adım bir rehber bulunmaktadır. Her adım kısa bir açıklama ve ardından orijinal kod bloğu (değiştirilmemiş) içerir.
 
-### Adım 1: Kaynak EPUB Belgesini Aç
+### Adım 1: Kaynak EPUB Belgesini Açın
 
-Kaynak EPUB dosyasını bir `FileInputStream` kullanarak açıyoruz. Bu akış, dönüştürücüye ham EPUB verisini sağlar.
+`FileInputStream` kullanarak kaynak EPUB dosyasını açarak başlarız. Bu akış, dönüştürücüye ham EPUB verisini sağlar.
 
 ```java
 try (java.io.FileInputStream fileInputStream = new java.io.FileInputStream("input.epub")) {
 ```
 
-### Adım 2: `PdfSaveOptions`'ı Başlat
+### Adım 2: `PdfSaveOptions`'ı Başlatın
 
-`PdfSaveOptions` bir örnek oluşturun ve PDF dönüşümünü yapılandırın. Örneğin, görüntülerin yüksek kaliteyi koruması için JPEG kalitesini ayarlayabilirsiniz.
+`PdfSaveOptions` bir örneği oluşturarak PDF dönüşümünü yapılandırın. Örneğin, görüntülerin yüksek kaliteyi koruması için JPEG kalitesini ayarlayabilirsiniz.
 
 ```java
 PdfSaveOptions options = new PdfSaveOptions();
 options.setJpegQuality(100);
 ```
 
-### Adım 3: Çıktı Dosya Yolunu Tanımla
+### Adım 3: Çıktı Dosya Yolunu Tanımlayın
 
-Oluşturulan PDF'nin nereye kaydedileceğini belirtin. İhtiyaca göre dosya adını veya dizini değiştirebilirsiniz.
+Oluşturulan PDF'nin nereye kaydedileceğini belirtin. Dosya adını veya dizini ihtiyacınıza göre değiştirebilirsiniz.
 
 ```java
 String outputFile = "EPUBtoPDF_Output.pdf";
 ```
 
-### Adım 4: EPUB'yi PDF'ye Dönüştür
+### Adım 4: EPUB'ı PDF'ye Dönüştürün
 
-Son olarak, `convertEPUB` metodunu çağırın ve giriş akışını, kaydetme seçeneklerini ve çıktı yolunu parametre olarak geçirin.
+Son olarak, `convertEPUB` metodunu çağırarak giriş akışını, kaydetme seçeneklerini ve çıktı yolunu iletin.
 
 ```java
 Converter.convertEPUB(fileInputStream, options, outputFile);
 ```
 
-Hepsi bu! EPUB dosyası artık PDF'ye dönüştürüldü ve dağıtıma ya da baskıya hazır.
+> **Not:** Step 1'de açılan `try` bloğu, Step 4'ten sonra kapatılmalıdır (kapanış süslü parantez burada kısalık amacıyla atlanmıştır).
+
+## Dönüştürmeden Sonra watermark pdf java Nasıl Eklenir
+
+Oluşturulan PDF'ye **watermark pdf java** eklemeniz gerekiyorsa, bunu Aspose.PDF (veya tercih ettiğiniz herhangi bir PDF kütüphanesi) kullanarak bir son‑işlem adımında yapabilirsiniz. Temel fikir şudur:
+
+1. Adım 4'te üretilen PDF'yi yükleyin.  
+2. Bir watermark metni veya görüntüsü oluşturun.  
+3. Watermark'ı her sayfaya uygulayın.  
+4. Son PDF'yi kaydedin.  
+
+Burada ek kod bloklarına gerek yok, ancak kaynak sızıntılarını önlemek için açtığınız akışları kapatmayı unutmayın.
 
 ## Yaygın Tuzaklar ve İpuçları
 
-- **Dosya Yolları** – `FileNotFoundException` hatasından kaçınmak için mutlak yollar kullanın veya çalışma dizininizin doğru ayarlandığından emin olun.
-- **Bellek Kullanımı** – Çok büyük EPUB'lar için çıktıyı akış olarak işlemek veya JVM yığın boyutunu artırmak düşünün.
-- **Çıktıyı Özelleştirme** – Yazı tiplerini gömmek için `setEmbedStandardFonts(true)` gibi diğer `PdfSaveOptions` özelliklerini veya sayfa boyutlarını kontrol etmek için `setPageSize(...)`'ı keşfedin.
+- **Dosya Yolları** – `FileNotFoundException` hatasından kaçınmak için mutlak yollar kullanın veya çalışma dizininizin doğru ayarlandığından emin olun.  
+- **Bellek Kullanımı** – Çok büyük EPUB'lar için çıktıyı akış olarak işlemeyi veya JVM yığın boyutunu artırmayı düşünün.  
+- **Çıktıyı Özelleştirme** – Fontları gömmek için `setEmbedStandardFonts(true)` gibi diğer `PdfSaveOptions` özelliklerini veya sayfa boyutlarını kontrol etmek için `setPageSize(...)`'ı keşfedin.  
+- **Watermark Düşünceleri** – Dönüştürmeden sonra watermark eklemek ekstra bir işleme adımı ekler, bu yüzden performans testlerine bunu dahil edin.
 
 ## Sonuç
 
-Bu öğreticide, Aspose.HTML for Java ile **epub to pdf java** dönüşümünü nasıl gerçekleştireceğinizi gösterdik. Önkoşullar kuruldu ve örnek kod hazır olduğunda, EPUB‑to‑PDF dönüşümünü herhangi bir Java uygulamasına entegre edebilirsiniz.
+Bu öğreticide, Aspose.HTML for Java ile **epub'u pdf'ye nasıl dönüştüreceğinizi** gösterdik ve iş akışınız gerektiriyorsa **watermark pdf java** ekleyebileceğinizi vurguladık. Önkoşullar kuruldu ve örnek kod hazır olduğunda, EPUB‑to‑PDF dönüşümünü herhangi bir Java uygulamasına entegre edebilirsiniz.
 
-Herhangi bir sorunla karşılaşırsanız veya sorularınız olursa, [Aspose.HTML forumunda](https://forum.aspose.com/) yardım isteyin.
+Herhangi bir sorunla karşılaşırsanız veya sorularınız olursa, [Aspose.HTML forumunda](https://forum.aspose.com/) yardım istemekten çekinmeyin.
 
 ## Sıkça Sorulan Sorular
 
 ### Q1: Aspose.HTML for Java nedir?
+Aspose.HTML for Java, EPUB'tan PDF'ye dönüşüm dahil olmak üzere geniş bir HTML işleme ve manipülasyon yetenekleri sunan bir Java kütüphanesidir.
 
-A1: Aspose.HTML for Java, EPUB'tan PDF'ye dönüşüm dahil olmak üzere geniş bir HTML işleme ve manipülasyon yetenekleri sunan bir Java kütüphanesidir.
-
-### Q2: Aspose.HTML for Java'yi ticari projelerimde kullanabilir miyim?
-
-A2: Evet, Aspose.HTML for Java ticari kullanım için mevcuttur. Lisans detaylarını ve satın alma seçeneklerini [buradan](https://purchase.aspose.com/buy) bulabilirsiniz.
+### Q2: Aspose.HTML for Java'ı ticari projelerimde kullanabilir miyim?
+Evet, Aspose.HTML for Java ticari kullanım için mevcuttur. Lisans detaylarını ve satın alma seçeneklerini [burada](https://purchase.aspose.com/buy) bulabilirsiniz.
 
 ### Q3: Aspose.HTML for Java için ücretsiz deneme mevcut mu?
-
-A3: Evet, Aspose.HTML for Java'yi ücretsiz deneme sürümüyle deneyebilirsiniz. Deneme sürümünü [buradan](https://releases.aspose.com/html/java) edinin.
+Evet, Aspose.HTML for Java'ı ücretsiz deneme ile deneyebilirsiniz. Deneme sürümünü [buradan](https://releases.aspose.com/html/java) edinin.
 
 ### Q4: Aspose.HTML for Java için sistem gereksinimleri nelerdir?
-
-A4: Aspose.HTML for Java bir Java geliştirme ortamı gerektirir. Sisteminizin gerekli Java sürüm gereksinimlerini karşıladığından emin olun.
+Aspose.HTML for Java bir Java geliştirme ortamı gerektirir. Sisteminizin gerekli Java sürüm gereksinimlerini karşıladığından emin olun.
 
 ### Q5: Aspose.HTML for Java kullanarak PDF dönüşüm seçeneklerini özelleştirebilir miyim?
-
-A5: Evet, öğreticide gösterildiği gibi JPEG kalitesi gibi PDF dönüşüm seçeneklerini özelleştirebilirsiniz.
+Evet, öğreticide gösterildiği gibi JPEG kalitesi gibi PDF dönüşüm seçeneklerini özelleştirebilirsiniz.
 
 **S: Birden fazla EPUB dosyasını toplu olarak nasıl dönüştürürüm?**  
-C: Dosya listesi üzerinde döngü kurarak her dönüşümde aynı `PdfSaveOptions` örneğini yeniden kullanın. Her `FileInputStream`'i kapatarak kaynakları serbest bırakmayı unutmayın.
+C: Dosya listesi üzerinde döngü kurarak, her dönüşüm için aynı `PdfSaveOptions` örneğini yeniden kullanın. Her `FileInputStream`'i kapatarak kaynakları serbest bırakın.
 
-**S: Dönüşüm sırasında bir filigran eklemek mümkün mü?**  
-C: Temel `convertEPUB` metodu doğrudan filigranları desteklemez, ancak oluşturulan PDF'yi Aspose.PDF kullanarak sonradan işleyip filigran ekleyebilirsiniz.
+**S: Dönüştürme sırasında watermark eklemek mümkün mü?**  
+C: Temel `convertEPUB` metodu doğrudan watermark desteklemez, ancak oluşturulan PDF'yi Aspose.PDF kullanarak sonradan işleyip watermark ekleyebilirsiniz.
 
-**Son Güncelleme:** 2025-12-14  
-**Test Edilen Versiyon:** Aspose.HTML for Java 23.12 (yazım anındaki en son)  
+---
+
+**Son Güncelleme:** 2026-02-25  
+**Test Edilen:** Aspose.HTML for Java (latest version)  
 **Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

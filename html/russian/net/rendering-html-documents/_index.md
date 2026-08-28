@@ -42,16 +42,38 @@ Aspose.HTML для .NET выделяется как лучший выбор дл
 
 ### [Рендеринг HTML как PNG в .NET с помощью Aspose.HTML](./render-html-as-png/)
 Научитесь работать с Aspose.HTML для .NET: манипулируйте HTML, конвертируйте в различные форматы и многое другое. Погрузитесь в этот всеобъемлющий учебник!
+### [Рендеринг HTML в PNG на C# – Полное пошаговое руководство](./render-html-to-png-in-c-complete-step-by-step-guide/)
+Научитесь конвертировать HTML в PNG в C# с помощью Aspose.HTML, следуя подробному пошаговому руководству.
+### [Как отрендерить HTML в PNG — Полное пошаговое руководство](./how-to-render-html-to-png-complete-step-by-step-guide/)
+Подробное руководство по рендерингу HTML в PNG с использованием Aspose.HTML для .NET, включающее все необходимые шаги и примеры.
+### [Как отрендерить HTML в PNG – Полное руководство C#](./how-to-render-html-as-png-complete-c-guide/)
+Полное руководство по рендерингу HTML в PNG с использованием Aspose.HTML и C#.
+### [Создание PNG из HTML – Полное руководство по рендерингу на C#](./create-png-from-html-full-c-rendering-guide/)
+Подробный учебник по созданию PNG из HTML с использованием Aspose.HTML для .NET на C#.
+
 ### [Рендеринг EPUB как XPS в .NET с помощью Aspose.HTML](./render-epub-as-xps/)
 Узнайте, как создавать и отображать HTML-документы с помощью Aspose.HTML для .NET в этом всеобъемлющем руководстве. Погрузитесь в мир манипуляций HTML, веб-скрапинга и многого другого.
+
 ### [Отрисовка тайм-аута в .NET с помощью Aspose.HTML](./rendering-timeout/)
 Узнайте, как эффективно контролировать тайм-ауты рендеринга в Aspose.HTML для .NET. Изучите параметры рендеринга и обеспечьте плавный рендеринг HTML-документа.
+
 ### [Рендеринг MHTML как XPS в .NET с помощью Aspose.HTML](./render-mhtml-as-xps/)
  Научитесь отображать MHTML как XPS в .NET с Aspose.HTML. Улучшите свои навыки работы с HTML и ускорьте свои проекты по веб-разработке!
+
 ### [Рендеринг нескольких документов в .NET с помощью Aspose.HTML](./render-multiple-documents/)
 Научитесь визуализировать несколько HTML-документов с помощью Aspose.HTML для .NET. Расширьте свои возможности обработки документов с помощью этой мощной библиотеки.
+
 ### [Рендеринг SVG Doc как PNG в .NET с помощью Aspose.HTML](./render-svg-doc-as-png/)
 Откройте для себя мощь Aspose.HTML для .NET! Узнайте, как легко визуализировать SVG Doc как PNG. Погрузитесь в пошаговые примеры и часто задаваемые вопросы. Начните прямо сейчас!
+### [Как рендерить HTML в C# – Полное руководство по стилизации абзацев](./how-to-render-html-in-c-complete-guide-to-styling-paragraphs/)
+Узнайте, как рендерить HTML в C# и стилизовать абзацы с помощью Aspose.HTML. Пошаговое руководство и практические примеры.
+### [Как отрендерить HTML — Полное руководство с пользовательским обработчиком ресурсов](./how-to-render-html-complete-guide-with-custom-resource-handl/)
+Узнайте, как полностью настроить рендеринг HTML, используя собственный обработчик ресурсов в Aspose.HTML для .NET.
+### [Как использовать Aspose для рендеринга HTML в PNG – пошаговое руководство](./how-to-use-aspose-to-render-html-to-png-step-by-step-guide/)
+Подробный пошаговый учебник по использованию Aspose.HTML для конвертации HTML в PNG в .NET.
+### [Как отрендерить HTML в PNG с помощью Aspose – Полное руководство](./how-to-render-html-to-png-with-aspose-complete-guide/)
+Подробный пошаговый учебник по рендерингу HTML в PNG с использованием Aspose.HTML для .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -22,7 +22,7 @@ weight: 25
 - **Java로 SVG를 이미지로 변환할 수 있나요?** 예 – Aspose.HTML는 SVG‑to‑PNG/JPEG 변환을 지원합니다.  
 - **Markdown를 HTML로 변환하는 것이 지원되나요?** 물론입니다, 동일한 Aspose.HTML API를 사용합니다.  
 - **프로덕션 사용에 라이선스가 필요합니까?** 평가용이 아닌 배포에는 상용 라이선스가 필요합니다.  
-- **호환되는 Java 버전은?** Java 8 및 이후 버전이 완전히 지원됩니다.
+- **호환되는 Java 버전은?** Java 8 및 이후 버전을 완전히 지원됩니다.
 
 ## HTML to PDF Java란?
 Java 환경에서 HTML을 PDF로 변환한다는 것은 웹 스타일 마크업을 가져와 페이지가 구분된 인쇄 준비 문서로 만드는 것을 의미합니다. 이 과정은 CSS 스타일링, 폰트 및 레이아웃을 보존하여 공유, 인쇄 또는 아카이브가 가능한 픽셀 단위 정확도의 PDF를 제공합니다.
@@ -82,21 +82,52 @@ SVG 그래픽을 XPS 형식으로 변환하여 기기 간 일관된 인쇄를 �
 결론적으로, **html to pdf java**와 더 넓은 변환 세트를 마스터하면 모든 Java 개발자에게 강력한 문서 워크플로를 제공할 수 있습니다. Aspose.HTML for Java는 포괄적이고 따라하기 쉬운 튜토리얼을 제공하여 HTML, Markdown, SVG를 필요한 형식으로 고품질 및 완전한 제어 하에 변환할 수 있게 합니다.
 
 ## 변환 - HTML 기타 형식 튜토리얼
+
+
 ### [HTML을 PDF로 변환](./convert-html-to-pdf/)
 Aspose.HTML를 사용하여 Java에서 HTML을 PDF로 변환하는 방법을 배우세요. HTML 콘텐츠에서 고품질 PDF를 손쉽게 생성합니다.
+### [Java에서 HTML을 PDF로 변환 – 페이지 크기 설정을 포함한 단계별 가이드](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
+Aspose.HTML를 사용하여 Java에서 페이지 크기 옵션을 지정하며 HTML을 PDF로 변환하는 방법을 단계별로 안내합니다.
+### [Aspose HTML을 사용하여 PDF 페이지 크기 설정 – 전체 Java 가이드](./set-pdf-page-size-with-aspose-html-full-java-guide/)
+Aspose.HTML를 사용하여 Java에서 PDF 페이지 크기를 설정하는 전체 단계별 가이드를 제공합니다.
+### [고정 스레드 풀을 사용한 HTML을 PDF로 변환 Java – 단계별 가이드](./convert-html-to-pdf-with-fixed-thread-pool-java-step-by-step/)
+고정 스레드 풀을 활용해 다중 HTML 파일을 효율적으로 PDF로 변환하는 방법을 단계별로 안내합니다.
+### [Java에서 HTML을 PDF로 변환 – PDF 페이지 크기 및 해상도 설정, HTML을 PDF로 저장](./convert-html-to-pdf-in-java-set-pdf-page-size-resolution-and/)
+Java에서 HTML을 PDF로 변환하면서 페이지 크기와 해상도를 지정하고, HTML 파일을 직접 PDF로 저장하는 방법을 안내합니다.
 ### [HTML을 MHTML로 변환](./convert-html-to-mhtml/)
 Aspose.HTML for Java를 사용하여 HTML을 MHTML로 손쉽게 변환합니다. 효율적인 HTML‑to‑MHTML 변환을 위한 단계별 가이드를 따라 주세요.
 ### [HTML을 XPS로 변환](./convert-html-to-xps/)
 Aspose.HTML for Java를 사용하여 HTML을 XPS로 손쉽게 변환하는 방법을 배우세요. 크로스‑플랫폼 문서를 쉽게 생성합니다.
 ### [Markdown을 HTML로 변환](./convert-markdown-to-html/)
-Aspose.HTML for Java를 사용하여 Java에서 Markdown을 HTML로 원활하게 변환합니다. 문서 변환 요구를 간소화하기 위한 단계별 가이드를 따라 주세요.
+Aspose.HTML를 사용하여 Java에서 Markdown을 HTML로 원활하게 변환합니다. 문서 변환 요구를 간소화하기 위한 단계별 가이드를 따라 주세요.
+### [Java에서 HTML을 Markdown으로 변환할 때 오프셋 설정 방법](./how-to-set-offset-when-converting-html-to-markdown-in-java/)
+Aspose.HTML를 사용하여 Java에서 HTML을 Markdown으로 변환할 때 오프셋을 지정하는 방법을 단계별로 안내합니다.
+### [Markdown을 HTML로 변환 – PDF 출력 포함 Java 가이드](./convert-markdown-to-html-java-guide-with-pdf-output/)
+Aspose.HTML를 사용해 Java에서 Markdown을 HTML로 변환하고 PDF로 출력하는 방법을 단계별로 안내합니다.
 ### [SVG를 이미지로 변환](./convert-svg-to-image/)
 Aspose.HTML를 사용하여 Java에서 SVG를 이미지로 변환하는 방법을 배우세요. 고품질 출력에 대한 포괄적인 가이드입니다.
 ### [SVG를 PDF로 변환](./convert-svg-to-pdf/)
 Aspose.HTML를 사용하여 Java에서 SVG를 PDF로 변환합니다. 고품질 문서 변환을 위한 원활한 솔루션입니다.
 ### [SVG를 XPS로 변환](./convert-svg-to-xps/)
 Aspose.HTML for Java를 사용하여 SVG를 XPS로 변환하는 방법을 배우세요. 원활한 변환을 위한 간단하고 단계별 가이드입니다.
-
+### [Java에서 HTML을 PDF로 만들기 – 완전 단계별 가이드](./create-pdf-from-html-in-java-complete-step-by-step-guide/)
+Aspose.HTML를 사용하여 Java에서 HTML을 PDF로 변환하는 전체 단계별 가이드를 제공합니다.
+### [HTML을 Markdown으로 변환 – 완전한 C# 가이드](./convert-html-to-markdown-complete-c-guide/)
+Aspose.HTML를 사용하여 C#에서 HTML을 Markdown으로 변환하는 전체 단계별 가이드를 제공합니다.
+### [병렬 HTML to PDF 변환을 위한 고정 스레드 풀 생성](./create-fixed-thread-pool-for-parallel-html-to-pdf-conversion/)
+Aspose.HTML를 사용하여 Java에서 병렬 HTML‑PDF 변환을 위한 고정 스레드 풀을 만드는 방법을 안내합니다.
+### [HTML을 PDF로 변환하는 튜토리얼: Java에서 한 줄로 변환](./html-to-pdf-tutorial-convert-html-to-pdf-in-java-in-one-line/)
+Aspose.HTML를 사용하여 Java에서 한 줄 코드로 HTML을 PDF로 변환하는 방법을 배웁니다.
+### [Java에서 HTML로부터 사용자 정의 크기의 PDF 만들기 – 전체 가이드](./create-pdf-custom-size-from-html-in-java-full-guide/)
+Aspose.HTML를 사용하여 Java에서 HTML을 원하는 크기의 PDF로 변환하는 전체 가이드를 제공합니다.
+### [Java에서 Markdown을 PDF로 변환 – 완전 가이드](./convert-markdown-to-pdf-in-java-complete-guide/)
+Aspose.HTML를 사용하여 Java에서 Markdown을 PDF로 변환하는 방법을 단계별로 안내합니다. 고품질 PDF를 손쉽게 생성하세요.
+### [Java에서 HTML을 PDF로 생성 – 단계별 가이드](./create-pdf-from-html-in-java-step-by-step-guide/)
+Aspose.HTML를 사용하여 Java에서 HTML을 PDF로 변환하는 단계별 방법을 안내합니다.
+### [Java에서 HTML을 PDF로 변환 – 병렬 고정 스레드 풀 가이드](./convert-html-to-pdf-in-java-parallel-fixed-thread-pool-guide/)
+Aspose.HTML를 사용하여 Java에서 병렬 고정 스레드 풀을 활용해 HTML을 PDF로 효율적으로 변환하는 방법을 단계별로 안내합니다.
+### [SVG 변환 방법 – Aspose HTML 변환기 완전 가이드](./how-to-convert-svg-complete-guide-using-aspose-html-converte/)
+Aspose.HTML를 활용해 SVG를 다양한 포맷으로 변환하는 전체 과정을 단계별로 안내합니다.
 ## 자주 묻는 질문
 
 **Q: Aspose.HTML for Java를 상용 애플리케이션에서 사용할 수 있나요?**  

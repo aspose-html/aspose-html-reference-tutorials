@@ -1,0 +1,7 @@
+Title: convert html to docx with Aspose – Java html to docx guide
+Slug: convert-html-to-docx-with-aspose-java-html-to-docx-guide
+Category: conversion-html-to-other-formats
+ProcessedDate: 2026-06-26T07:26:45.511918
+SourceRepo: AI Search API
+Keywords: convert html to docx, save html as docx, how to convert html, aspose html conversion, java html to docx
+PRNumber: 192

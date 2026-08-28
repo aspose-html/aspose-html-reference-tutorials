@@ -62,7 +62,7 @@ Sayfa numarası eklemek, HTML PDF, XPS ya da yazdırma sırasında otomatik olar
 
 ## DOM değişikliklerini izleme – “monitor dom changes”
 
-Aspose.HTML, herhangi bir düğüme bir `DomMutationObserver` eklemenize olanak tanır. Bu, dinamik içeriğe (örneğin otomatik form doldurma veya grafik güncellemeleri) yanıt vermeniz gerektiğinde mükemmeldir. Düğüm eklemelerini izleyerek gerçek zamanlı özel mantık tetikleyebilirsiniz.
+Aspose.HTML, herhangi bir düğüme bir `DomMutationObserver` eklemenize olanak tanır. Bu, dinamik içeriğe (örneğin otomatik form doldurma veya grafik güncellemeleri) yanıt vermeniz gerektiğinde mükemmeldir. Düğün eklemelerini izleyerek gerçek zamanlı özel mantık tetikleyebilirsiniz.
 
 > *Explanation only – code unchanged.*
 
@@ -80,7 +80,7 @@ Tekrarlayan web formlarını doldurmak zaman alıcı olabilir. Aspose.HTML, `For
 
 ## PDF ve XPS Sayfa Boyutlarını Ayarlama
 
-HTML’yi PDF veya XPS’ye dönüştürürken son sayfa boyutlarını kontrol etmeniz sıkça gerekir. Aspose.HTML’in `PdfSaveOptions` ve `XpsSaveOptions` sınıfları, `PageWidth` ve `PageHeight` gibi özellikler sunar; böylece **PDF sayfa boyutunu ayarlayabilir** veya **HTML’yi XPS’ye tam ölçülerle dönüştürebilirsiniz**.
+HTML’yi PDF veya XPS’ye dönüştürürken son sayfa boyutlarını kontrol etmeniz sıkça gerekir. Aspose.HTML’in `PdfSaveOptions` ve `XpsSaveOptions` sınıfları, `PageWidth` ve `PageHeight` gibi özellikler sunar; böylece **PDF sayfa boyutunu ayarlabilir** veya **HTML’yi XPS’ye tam ölçülerle dönüştürebilirsiniz**.
 
 > *Explanation only – code unchanged.*
 
@@ -112,6 +112,8 @@ C: `HtmlLoadOptions` ile `PageSetup` kenar boşluklarını ayarlayın ve CSS‑t
 C: Hayır. Tek bir Aspose.HTML for Java lisansı, PDF ve XPS dahil tüm çıktı formatlarını kapsar.
 
 ## Aspose.HTML Java Eğitimlerinin İleri Düzey Kullanımı
+
+
 ### [Aspose.HTML ile HTML Sayfa Kenar Boşluklarını Özelleştirme](./css-extensions-adding-title-page-number/)
 Aspose.HTML for Java kullanarak HTML belgelerine sayfa kenar boşlukları, sayfa numaraları ve başlıklar eklemeyi öğrenin.
 ### [Aspose.HTML for Java ile DOM Mutation Observer](./dom-mutation-observer-observing-node-additions/)
@@ -126,6 +128,59 @@ Aspose.HTML for Java ile HTML form doldurmayı ve göndermeyi otomatikleştirmey
 Aspose.HTML for Java kullanarak PDF sayfa boyutunu nasıl ayarlayacağınızı öğrenin. HTML’den yüksek kaliteli PDF’ler oluşturun ve sayfa boyutlarını etkili bir şekilde kontrol edin.
 ### [Aspose.HTML for Java ile XPS Sayfa Boyutunu Ayarlama](./adjust-xps-page-size/)
 Aspose.HTML for Java ile XPS sayfa boyutunu nasıl ayarlayacağınızı öğrenin. XPS belgelerinizin çıktı boyutlarını kolayca kontrol edin.
+### [Java’da JavaScript Çalıştırma – Tam Kılavuz](./how-to-run-javascript-in-java-complete-guide/)
+Aspose.HTML for Java kullanarak Java içinde JavaScript kodu çalıştırmayı ve entegrasyonu öğrenin.
+### [Java’da cihaz piksel oranını ayarlama – Mobil Sandbox Eğitimi](./set-device-pixel-ratio-in-java-mobile-sandbox-tutorial/)
+Java’da Mobil Sandbox ortamında cihaz piksel oranını nasıl ayarlayacağınızı öğrenin.
+### [Aspose.HTML'de JavaScript'i Etkinleştirme – HTML Yükleme ve Metin Alma](./how-to-enable-javascript-in-aspose-html-load-html-get-text/)
+Aspose.HTML ile JavaScript'i etkinleştirerek HTML yükleyin ve metni çıkarın.
+
+---
+
+**Son Güncelleme:** 2025-11-29  
+**Test Edilen Versiyon:** Aspose.HTML for Java 24.11  
+**Yazar:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [MHTML'den HTML Çıkarma – Tam Java Kılavuzu](./extract-html-from-mhtml-complete-java-guide/)
+Aspose.HTML for Java kullanarak MHTML dosyalarından HTML içeriğini nasıl çıkaracağınızı öğrenin.
+
+---
+
+**Son Güncelleme:** 2025-11-29  
+**Test Edilen Versiyon:** Aspose.HTML for Java 24.11  
+**Yazar:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Java'da JavaScript Çalıştırma – Java'dan JS Çalıştırma Tam Rehberi](./execute-javascript-in-java-complete-guide-to-running-js-from/)
+Aspose.HTML for Java ile Java uygulamalarında JavaScript çalıştırmayı ve entegrasyonu adım adım öğrenin.
+
+---
+
+**Son Güncelleme:** 2025-11-29  
+**Test Edilen Versiyon:** Aspose.HTML for Java 24.11  
+**Yazar:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [HTML'den PDF'ye Java Sandbox Kullanımı – Adım Adım Kılavuz](./how-to-use-sandbox-for-html-to-pdf-java-step-by-step-guide/)
+Aspose.HTML for Java Sandbox ortamını kullanarak HTML dosyalarını güvenli bir şekilde PDF'ye dönüştürmeyi öğrenin.
+### [Java’da Betik Çalıştırmayı Etkinleştirme – Tam Aspose.HTML Rehberi](./enable-script-execution-in-java-complete-aspose-html-guide/)
+Aspose.HTML for Java kullanarak Java ortamında betik yürütmeyi nasıl etkinleştireceğinizi ve güvenli bir şekilde çalıştıracağınızı öğrenin.
 
 ---
 

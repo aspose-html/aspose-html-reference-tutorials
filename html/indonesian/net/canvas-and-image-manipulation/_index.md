@@ -45,6 +45,8 @@ Pelajari cara mengonversi SVG ke PDF dengan Aspose.HTML untuk .NET. Tutorial lan
 Pelajari cara mengonversi SVG ke XPS menggunakan Aspose.HTML untuk .NET. Tingkatkan pengembangan web Anda dengan pustaka canggih ini.
 ### [Cara Mengaktifkan Antialiasing di C# – Tepi Halus](./how-to-enable-antialiasing-in-c-smooth-edges/)
 Pelajari cara mengaktifkan antialiasing di C# untuk menghasilkan tepi gambar yang halus dan kualitas visual yang lebih baik.
+### [Membuat Teks pada Kanvas – Panduan Lengkap Rendering Teks pada Gambar](./create-canvas-text-full-guide-to-rendering-text-on-images/)
+Panduan menyeluruh tentang cara menambahkan teks ke kanvas dan merendernya pada gambar menggunakan Aspose.HTML untuk .NET.
 
 ## Kesimpulan
 

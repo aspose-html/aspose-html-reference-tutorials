@@ -1,0 +1,7 @@
+Title: convert svg to webp – Full Java Guide for Animated SVGs
+Slug: convert-svg-to-webp-full-java-guide-for-animated-svgs
+Category: conversion-html-to-various-image-formats
+ProcessedDate: 2026-06-26T07:26:41.682045
+SourceRepo: AI Search API
+Keywords: convert svg to webp, convert animated svg to webp
+PRNumber: 192

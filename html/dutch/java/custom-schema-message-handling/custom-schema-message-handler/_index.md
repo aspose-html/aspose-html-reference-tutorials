@@ -1,43 +1,71 @@
 ---
-title: Aangepaste schemaberichtenhandler met Aspose.HTML voor Java
-linktitle: Aangepaste schemaberichtenhandler met Aspose.HTML voor Java
-second_title: Java HTML-verwerking met Aspose.HTML
-description: Leer hoe u een aangepaste schema-berichthandler maakt met Aspose.HTML voor Java. Deze tutorial leidt u stap voor stap door het proces.
-weight: 11
+date: 2026-01-28
+description: Leer hoe u een aangepaste schema‑handler maakt met Aspose.HTML voor Java.
+  Deze stap‑voor‑stap tutorial laat u alles zien wat u nodig heeft.
+linktitle: Custom Schema Message Handler with Aspose.HTML
+second_title: Java HTML Processing with Aspose.HTML
+title: Hoe een aangepaste schemahandler te maken met Aspose.HTML voor Java
 url: /nl/java/custom-schema-message-handling/custom-schema-message-handler/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aangepaste schemaberichtenhandler met Aspose.HTML voor Java
+# Hoe een aangepaste schema‑handler maken met Aspose.HTML voor Java
 
-## Invoering
-Welkom, mede-ontwikkelaars! Als u uw Java-applicaties wilt verbeteren met robuuste HTML-manipulatiemogelijkheden, bent u op de juiste plek beland. Vandaag duiken we diep in hoe u een aangepaste schema-berichthandler kunt maken met Aspose.HTML voor Java. Stel u voor dat u een chef-kok bent die een speciaal gerecht bereidt; deze handler is als uw geheime saus die een standaardrecept verheft tot een gastronomische maaltijd. Hiermee kunt u HTML-berichten naadloos beheren en filteren op basis van uw eigen schemaspecificaties.
+## Introductie
+Welkom, mede‑ontwikkelaars! Als je je Java‑toepassingen wilt verbeteren met robuuste HTML‑manipulatiemogelijkheden, ben je hier op de juiste plek. In deze tutorial zullen we **een aangepaste schema‑handler maken** met Aspose.HTML voor Java. Beschouw de handler als een geheime saus die gewone HTML‑verwerking naar een gastronomische oplossing tilt, zodat je berichten kunt filteren en beheren volgens je eigen schemadefinities.
+
+## Snelle antwoorden
+- **Wat doet de handler?** Hij filtert HTML‑berichten op basis van een door de gebruiker gedefinieerd schema.  
+- **Welke bibliotheek is vereist?** Aspose.HTML voor Java.  
+- **Heb ik een licentie nodig?** Een gratis proefversie werkt voor ontwikkeling; een commerciële licentie is nodig voor productie.  
+- **Welke Java‑versie wordt ondersteund?** JDK 11 of hoger.  
+- **Kan ik het lokaal testen?** Ja – voer simpelweg de meegeleverde testklasse uit.
+
+## Wat is een aangepaste schema‑handler?
+Een **aangepaste schema‑handler** is een stuk code dat HTML‑gerelateerde berichten onderschept en jouw eigen validatie‑ of transformatieregels toepast. Door `MessageHandler` van Aspose.HTML uit te breiden, krijg je volledige controle over welke berichten worden doorgelaten en hoe ze worden verwerkt.
+
+## Waarom Aspose.HTML voor Java gebruiken?
+Aspose.HTML biedt een krachtige, pure‑Java API voor het parseren, wijzigen en converteren van HTML zonder dat er een browser‑engine nodig is. Het is ideaal voor server‑side scenario's zoals e‑mailverwerking, web‑scraping‑pijplijnen, of elke toepassing die op een gecontroleerde manier met HTML‑inhoud moet werken.
+
 ## Vereisten
-Voordat u zich halsoverkop in de wereld van aangepaste schemaberichtenverwerking stort, is het essentieel om ervoor te zorgen dat u alles hebt wat u nodig hebt. Hier is een lijst met vereisten die u op orde moet hebben:
-### Java-ontwikkelingskit (JDK)
- Zorg ervoor dat u de Java Development Kit op uw machine hebt geïnstalleerd. Als deze nog niet is ingesteld, kunt u deze downloaden van[De site van Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-### Aspose.HTML-bibliotheek
-moet de Aspose.HTML-bibliotheek voor Java in het classpath van uw project hebben. Deze krachtige bibliotheek biedt de tools die u nodig hebt om moeiteloos met HTML-bestanden te werken.
--  Download de Aspose.HTML-bibliotheek:[Downloadlink](https://releases.aspose.com/html/java/)
-### Geïntegreerde ontwikkelomgeving (IDE)
-Gebruik een Integrated Development Environment (IDE) zoals Eclipse of IntelliJ IDEA voor een eenvoudigere schrijfervaring. Deze tools bieden functies zoals codesuggesties, debugging en meer om uw workflow te stroomlijnen.
-### Basiskennis Java
-Een fundamenteel begrip van Java-programmeerconcepten is handig. Als u bekend bent met het maken en beheren van klassen, zult u deze tutorial eenvoudig vinden.
+Voordat je begint, zorg ervoor dat je het volgende hebt:
+
+### Java Development Kit (JDK)
+Zorg ervoor dat de Java Development Kit op je machine is geïnstalleerd. Als deze nog niet is ingesteld, kun je hem downloaden van [Oracle's site](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
+
+### Aspose.HTML Library
+Je moet de Aspose.HTML‑bibliotheek voor Java in de classpath van je project hebben. Deze krachtige bibliotheek biedt de tools die je nodig hebt om moeiteloos met HTML‑bestanden te werken.
+
+- Download the Aspose.HTML library: [Download link](https://releases.aspose.com/html/java/)
+
+### Integrated Development Environment (IDE)
+Gebruik een Integrated Development Environment (IDE) zoals Eclipse of IntelliJ IDEA voor een gemakkelijker ontwikkelproces. Deze tools bieden functies zoals code‑suggesties, debugging en meer om je workflow te stroomlijnen.
+
+### Basic Java Knowledge
+Een fundamenteel begrip van Java‑programmeervoorconcepten komt van pas. Als je bekend bent met het maken en beheren van klassen, zul je deze tutorial eenvoudig vinden.
+
 ## Pakketten importeren
-Het maken van een aangepaste schemahandler vereist het importeren van de benodigde pakketten uit de Aspose.HTML-bibliotheek. Dit vormt de basis voor uw toekomstige code.
+Het maken van een aangepaste schema‑handler vereist het importeren van de benodigde pakketten uit de Aspose.HTML‑bibliotheek. Dit legt de basis voor je toekomstige code.
+
 ## Stap 1: Aspose.HTML importeren
-Voeg de volgende imports toe aan het begin van uw Java-bestand. Hiermee krijgt u toegang tot de klassen waarmee u gaat werken:
+Voeg de volgende imports toe aan het begin van je Java‑bestand. Hiermee krijg je toegang tot de klassen waarmee je gaat werken:
+
 ```java
 import com.aspose.html.net.MessageHandler;
 ```
-Met deze imports krijgt u toegang tot de kernfunctionaliteiten die u nodig hebt om uw aangepaste handler te implementeren.
-## Een aangepaste schema-berichtenhandler maken
-Nu we onze pakketten hebben geïmporteerd, is het tijd om onze aangepaste schema-berichthandler te construeren. Dit is waar de magie gebeurt!
-## Stap 2: Definieer de aangepaste handlerklasse
- Maak een abstracte klasse die uitbreidt`MessageHandler`Dit is cruciaal omdat u hiermee berichten kunt vastleggen op basis van een specifiek schema.
+
+Met deze imports heb je toegang tot de kernfunctionaliteiten die je nodig hebt om je aangepaste handler te implementeren.
+
+## Een aangepaste schema‑bericht‑handler maken
+Nu we onze pakketten hebben geïmporteerd, is het tijd om onze aangepaste schema‑bericht‑handler te construeren. Hier gebeurt de magie!
+
+## Stap 2: Definieer de aangepaste handler‑klasse
+Maak een abstracte klasse die `MessageHandler` uitbreidt. Dit is cruciaal omdat het je in staat stelt berichten op basis van een specifiek schema te vangen.
+
 ```java
 public abstract class CustomSchemaMessageHandler extends MessageHandler {
     protected CustomSchemaMessageHandler(String schema) {
@@ -46,11 +74,13 @@ public abstract class CustomSchemaMessageHandler extends MessageHandler {
 }
 ```
 
-- Abstracte klasse: Door deze klasse abstract te maken, geeft u aan dat deze niet direct geïnstantieerd moet worden. In plaats daarvan moet deze worden gesubklasseerd.
--  Constructor: De constructor accepteert een`schema` parameter die wordt gebruikt om de`CustomSchemaMessageFilter`Hierdoor kan de handler berichten filteren op basis van het gedefinieerde schema.
-- getFilters(): Deze methode haalt de berichtenfilters op die aan de handler zijn gekoppeld. U voegt hier uw aangepaste filter toe, waarmee u de koppeling tussen uw schema en de filterfunctionaliteit tot stand brengt.
+- **Abstracte klasse:** Door deze klasse abstract te maken, geef je aan dat hij niet direct geïnstantieerd mag worden. In plaats daarvan moet hij worden uitgebreid.  
+- **Constructor:** De constructor accepteert een `schema`‑parameter die wordt gebruikt om de `CustomSchemaMessageFilter` te initialiseren. Hierdoor kan de handler berichten filteren op basis van het gedefinieerde schema.  
+- **getFilters():** Deze methode haalt de berichtfilters op die bij de handler horen. Hier voeg je je aangepaste filter toe, waarmee je de koppeling tussen je schema en de filterfunctionaliteit tot stand brengt.
+
 ## Stap 3: De aangepaste logica implementeren
- Vervolgens implementeert u uw aangepaste logica binnen een subklasse van de`CustomSchemaMessageHandler`Hier kunt u opgeven wat er moet gebeuren als een bericht overeenkomt met uw schema. 
+Vervolgens implementeer je je aangepaste logica in een subklasse van `CustomSchemaMessageHandler`. Hier kun je specificeren wat er moet gebeuren wanneer een bericht overeenkomt met je schema.
+
 ```java
 public class MyCustomHandler extends CustomSchemaMessageHandler {
     public MyCustomHandler(String schema) {
@@ -59,45 +89,62 @@ public class MyCustomHandler extends CustomSchemaMessageHandler {
     
     @Override
     public void handle(Message message) {
-        // Hier komt uw aangepaste verwerkingslogica
+        // Your custom handling logic goes here
     }
 }
 ```
 
--  Subklasse: Door het creëren van`MyCustomHandler`, geeft u specifiek gedrag op dat uw toepassing zal uitvoeren bij het verwerken van berichten.
--  handle Methode: Overschrijf de`handle` methode om de daadwerkelijke logica op te nemen die u wilt implementeren. Dit is waar u het bericht kunt manipuleren of gerelateerde taken kunt uitvoeren.
-## Uw aangepaste schemaberichthandler testen
-Nu u uw aangepaste handler hebt ingesteld, is het belangrijk om deze te testen om er zeker van te zijn dat deze werkt zoals bedoeld.
-## Stap 4: Stel een testomgeving in
-Maak een testcase die uw aangepaste handler gebruikt. Dit betekent doorgaans dat u instanties van uw handler maakt en deze berichten geeft volgens uw schema.
+- **Subclass:** Door `MyCustomHandler` te maken, lever je specifiek gedrag dat je applicatie zal uitvoeren bij het afhandelen van berichten.  
+- **handle‑methode:** Overschrijf de `handle`‑methode om de daadwerkelijke logica toe te voegen die je wilt implementeren. Hier kun je het bericht manipuleren of gerelateerde taken uitvoeren.
+
+## Je aangepaste schema‑bericht‑handler testen
+Nu je je aangepaste handler hebt opgezet, is het essentieel om deze te testen om te verzekeren dat hij werkt zoals bedoeld.
+
+## Stap 4: Een testomgeving opzetten
+Maak een testcase die je aangepaste handler gebruikt. Dit betekent meestal het creëren van instanties van je handler en het voeden van berichten volgens je schema.
+
 ```java
 public class CustomHandlerTest {
     public static void main(String[] args) {
         MyCustomHandler handler = new MyCustomHandler("yourSchema");
-        // Simuleer een bericht dat moet worden afgehandeld
+        // Simulate a message to be handled
         Message testMessage = new Message("Test message content");
         handler.handle(testMessage);
     }
 }
 ```
 
-- Simulatie: U maakt een testbericht om te zien hoe uw handler het verwerkt. Dit biedt een eenvoudige manier om uw implementatie te debuggen en te verfijnen.
-- Hoofdmethode: Dit is uw toegangspunt voor het testen van de handler. U kunt uw testklasse direct uitvoeren om de effecten te zien.
+- **Simulatie:** Je maakt een testbericht om te zien hoe je handler het verwerkt. Dit biedt een eenvoudige manier om te debuggen en je implementatie te verfijnen.  
+- **Main‑methode:** Dit is je toegangspunt voor het testen van de handler. Je kunt je testklasse direct uitvoeren om de resultaten te zien.
 
-## Conclusie
-Gefeliciteerd, u hebt het volledige proces van het maken van een aangepaste schema-berichtenhandler met Aspose.HTML voor Java doorlopen! Denk eens aan alle mogelijkheden die u nu tot uw beschikking hebt. Door deze stappen te volgen, hebt u een solide basis gelegd voor het beheren van HTML-berichten op een manier die is afgestemd op de unieke behoeften van uw applicatie.
-Of u nu een webapplicatie, e-mailprocessor of een andere innovatieve oplossing bouwt, het aanpassen van uw berichtverwerking is een krachtig hulpmiddel in uw Java-toolkit. Vergeet niet dat oefening kunst baart en aarzel niet om meer Aspose-documentatie te verkennen om extra functies te ontdekken.
+## Veelvoorkomende problemen en oplossingen
+- **Ontbrekende `CustomSchemaMessageFilter`‑klasse:** Zorg ervoor dat je de juiste Aspose.HTML‑versie hebt die de filter‑API bevat.  
+- **Handler niet aangeroepen:** Controleer of de schema‑string die je doorgeeft overeenkomt met de berichten die je simuleert.  
+- **Compilatiefouten:** Controleer nogmaals of alle benodigde Aspose.HTML‑JAR‑bestanden in de classpath staan.
+
 ## Veelgestelde vragen
-### Waarvoor wordt Aspose.HTML voor Java gebruikt?
-Aspose.HTML voor Java wordt gebruikt voor het bewerken en converteren van HTML-bestanden in Java-toepassingen, waardoor geavanceerde documentverwerking mogelijk wordt.
-### Is er een gratis proefversie voor Aspose.HTML?
- Ja, u kunt een gratis proefversie van Aspose.HTML voor Java gebruiken[hier](https://releases.aspose.com/).
-### Hoe ga ik om met verschillende schema's?
- U kunt meerdere aangepaste schemaberichthandlers maken door de`CustomSchemaMessageHandler` klasse en het implementeren van aangepaste logica voor elk schema.
-### Kan ik Aspose.HTML permanent kopen?
- Ja, u kunt een permanente licentie voor Aspose.HTML kopen[hier](https://purchase.aspose.com/buy).
-### Waar kan ik ondersteuning vinden voor Aspose.HTML?
- U kunt ondersteuning krijgen door het Aspose-forum voor HTML te bezoeken[hier](https://forum.aspose.com/c/html/29).
+
+**V: Waar wordt Aspose.HTML voor Java voor gebruikt?**  
+A: Aspose.HTML for Java is utilized for manipulating and converting HTML files in Java applications, enabling sophisticated document handling.
+
+**V: Is er een gratis proefversie voor Aspose.HTML?**  
+A: Yes, you can access a free trial of Aspose.HTML for Java [here](https://releases.aspose.com/).
+
+**V: Hoe ga ik om met verschillende schema's?**  
+A: You can create multiple custom schema message handlers by extending the `CustomSchemaMessageHandler` class and implementing custom logic for each schema.
+
+**V: Kan ik Aspose.HTML permanent aanschaffen?**  
+A: Yes, you can purchase a permanent license for Aspose.HTML [here](https://purchase.aspose.com/buy).
+
+**V: Waar vind ik ondersteuning voor Aspose.HTML?**  
+A: You can access support by visiting the Aspose forum for HTML [here](https://forum.aspose.com/c/html/29).
+
+---
+
+**Laatst bijgewerkt:** 2026-01-28  
+**Getest met:** Aspose.HTML for Java (latest)  
+**Auteur:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
