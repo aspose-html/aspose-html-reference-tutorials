@@ -97,6 +97,13 @@ Impara a impostare dimensioni e risoluzione della pagina PDF durante la conversi
 ### [Conversione da SVG a Immagine](./convert-svg-to-image/)
 ### [Conversione da SVG a PDF](./convert-svg-to-pdf/)
 ### [Conversione da SVG a XPS](./convert-svg-to-xps/)
+Scopri come convertire SVG in XPS con Aspose.HTML for Java. Guida semplice, passo‑passo, per conversioni fluide.
+
+### [Come generare PDF da Markdown in Java – Guida passo‑passo](./how-to-generate-pdf-from-markdown-in-java-step-by-step-guide/)
+Scopri come trasformare file Markdown in PDF in Java usando Aspose.HTML con una guida dettagliata passo‑passo.
+
+### [Salva HTML come PDF con Java – Guida completa usando Thread Pool e Template](./save-html-as-pdf-with-java-complete-guide-using-thread-pool/)
+
 ### [Imposta la dimensione della pagina PDF con Aspose HTML – Guida completa Java](./set-pdf-page-size-with-aspose-html-full-java-guide/)
 ### [Crea un pool di thread fisso per la conversione parallela da HTML a PDF](./create-fixed-thread-pool-for-parallel-html-to-pdf-conversion/)
 Scopri come utilizzare un pool di thread fisso per convertire più file HTML in PDF in parallelo con Aspose.HTML for Java.

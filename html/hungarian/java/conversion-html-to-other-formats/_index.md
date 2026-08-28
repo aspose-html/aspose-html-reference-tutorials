@@ -95,6 +95,8 @@ Könnyedén konvertálja a HTML‑t MHTML‑re az Aspose.HTML for Java segítsé
 Ismerje meg, hogyan konvertálhatja könnyedén a HTML‑t XPS‑re az Aspose.HTML for Java használatával. Készítsen többplatformos dokumentumokat egyszerűen.
 ### [Markdown átalakítása HTML-re](./convert-markdown-to-html/)
 Konvertálja a Markdown‑t HTML‑re Java‑ban zökkenőmentesen az Aspose.HTML for Java segítségével. Kövesse lépésről‑lépésre útmutatónkat, hogy egyszerűsítse dokumentumkonverziós igényeit.
+### [Markdownból PDF generálása Java‑ban – Lépésről‑lépésre útmutató](./how-to-generate-pdf-from-markdown-in-java-step-by-step-guide/)
+Ismerje meg, hogyan konvertálhatja a Markdown‑t PDF‑re Java‑ban az Aspose.HTML segítségével. Kövesse a részletes lépéseket a magas minőségű PDF‑hez.
 ### [Markdown átalakítása HTML-re – Java útmutató PDF kimenettel](./convert-markdown-to-html-java-guide-with-pdf-output/)
 ### [SVG átalakítása képre](./convert-svg-to-image/)
 Ismerje meg, hogyan konvertálhatja az SVG‑t képekké Java‑ban az Aspose.HTML‑el. Átfogó útmutató a magas minőségű kimenethez.
@@ -102,6 +104,9 @@ Ismerje meg, hogyan konvertálhatja az SVG‑t képekké Java‑ban az Aspose.HT
 Konvertálja az SVG‑t PDF‑re Java‑ban az Aspose.HTML‑el. Zökkenőmentes megoldás a magas minőségű dokumentumkonverzióhoz.
 ### [SVG átalakítása XPS-re](./convert-svg-to-xps/)
 Ismerje meg, hogyan konvertálhatja az SVG‑t XPS‑re az Aspose.HTML for Java segítségével. Egyszerű, lépésről‑lépésre útmutató a zökkenőmentes átalakításokhoz.
+### [HTML mentése PDF‑ként Java‑ban – Teljes útmutató szálkezelő pool és sablonok használatával](./save-html-as-pdf-with-java-complete-guide-using-thread-pool/)
+Ismerje meg, hogyan használhat szálkezelő pool‑t és sablonokat a HTML PDF‑re konvertálásához Java‑ban, nagy teljesítményű feldolgozáshoz.
+
 ### [Fix szálú szálkezelő létrehozása párhuzamos HTML‑PDF konverzióhoz](./create-fixed-thread-pool-for-parallel-html-to-pdf-conversion/)
 Ismerje meg, hogyan hozhat létre fix szálú szálkezelőt a párhuzamos HTML‑PDF konverziókhoz Java‑ban az Aspose.HTML‑el.
 ### [HTML átalakítása Markdownra – Teljes C# útmutató](./convert-html-to-markdown-complete-c-guide/)

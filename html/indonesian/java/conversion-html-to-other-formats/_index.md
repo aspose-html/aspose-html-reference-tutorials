@@ -99,6 +99,9 @@ Konversi HTML ke MHTML dengan mudah menggunakan Aspose.HTML untuk Java. Ikuti pa
 Pelajari cara mengonversi HTML ke XPS dengan mudah menggunakan Aspose.HTML untuk Java. Buat dokumen lintas platform dengan mudah.
 ### [Mengonversi Markdown ke HTML](./convert-markdown-to-html/)
 Ubah Markdown ke HTML di Java secara mulus dengan Aspose.HTML untuk Java. Ikuti panduan langkah‑demi‑langkah kami untuk mempermudah kebutuhan konversi dokumen Anda.
+### [Cara Membuat PDF dari Markdown di Java – Panduan Langkah‑per‑Langkah](./how-to-generate-pdf-from-markdown-in-java-step-by-step-guide/)
+Pelajari cara mengonversi Markdown ke PDF di Java menggunakan Aspose.HTML. Ikuti panduan langkah‑demi‑langkah kami untuk menghasilkan PDF berkualitas tinggi.
+
 ### [Cara Mengatur Offset Saat Mengonversi HTML ke Markdown di Java](./how-to-set-offset-when-converting-html-to-markdown-in-java/)
 Panduan langkah demi langkah mengatur offset konversi HTML ke Markdown menggunakan Aspose.HTML di Java.
 ### [Mengonversi Markdown ke HTML – Panduan Java dengan Output PDF](./convert-markdown-to-html-java-guide-with-pdf-output/)
@@ -109,6 +112,9 @@ Pelajari cara mengonversi SVG ke gambar di Java dengan Aspose.HTML. Panduan komp
 Ubah SVG ke PDF di Java dengan Aspose.HTML. Solusi mulus untuk konversi dokumen berkualitas tinggi.
 ### [Mengonversi SVG ke XPS](./convert-svg-to-xps/)
 Pelajari cara mengonversi SVG ke XPS dengan Aspose.HTML untuk Java. Panduan sederhana, langkah‑demi‑langkah untuk konversi mulus.
+### [Simpan HTML sebagai PDF dengan Java – Panduan Lengkap Menggunakan Thread Pool dan Template](./save-html-as-pdf-with-java-complete-guide-using-thread-pool/)
+Pelajari cara menyimpan HTML sebagai PDF secara efisien menggunakan thread pool dan template di Java dengan Aspose.HTML.
+
 ### [Membuat PDF dari HTML di Java – Panduan Lengkap Langkah‑demi‑Langkah](./create-pdf-from-html-in-java-complete-step-by-step-guide/)
 Panduan terperinci untuk menghasilkan PDF dari HTML menggunakan Aspose.HTML di Java, langkah demi langkah.
 ### [Membuat Fixed Thread Pool untuk Konversi HTML ke PDF Paralel](./create-fixed-thread-pool-for-parallel-html-to-pdf-conversion/)

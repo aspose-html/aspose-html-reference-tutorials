@@ -112,6 +112,12 @@ Tìm hiểu cách chuyển đổi SVG sang hình ảnh trong Java với Aspose.H
 Chuyển đổi SVG sang PDF trong Java với Aspose.HTML. Giải pháp liền mạch cho việc chuyển đổi tài liệu chất lượng cao.
 ### [Chuyển đổi SVG sang XPS](./convert-svg-to-xps/)
 Tìm hiểu cách chuyển đổi SVG sang XPS với Aspose.HTML for Java. Hướng dẫn đơn giản, từng bước để chuyển đổi liền mạch.
+### [Cách tạo PDF từ Markdown trong Java – Hướng dẫn từng bước](./how-to-generate-pdf-from-markdown-in-java-step-by-step-guide/)
+Tạo PDF từ tệp Markdown trong Java bằng Aspose.HTML. Hướng dẫn chi tiết từng bước để chuyển đổi nhanh chóng và chất lượng.
+
+### [Lưu HTML thành PDF với Java – Hướng dẫn toàn diện sử dụng Thread Pool và Templates](./save-html-as-pdf-with-java-complete-guide-using-thread-pool/)
+Hướng dẫn chi tiết cách lưu HTML thành PDF trong Java bằng Thread Pool và Templates để tối ưu hiệu suất và tái sử dụng mã.
+
 ### [Tạo Fixed Thread Pool để Chuyển đổi HTML sang PDF Song song](./create-fixed-thread-pool-for-parallel-html-to-pdf-conversion/)
 Hướng dẫn tạo Fixed Thread Pool trong Java để thực hiện chuyển đổi HTML sang PDF đồng thời, tăng hiệu suất xử lý.
 ### [Chuyển đổi HTML sang Markdown – Hướng dẫn đầy đủ C#](./convert-html-to-markdown-complete-c-guide/)

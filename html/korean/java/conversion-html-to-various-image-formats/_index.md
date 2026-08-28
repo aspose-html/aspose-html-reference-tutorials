@@ -86,6 +86,10 @@ Aspose.HTML for Java를 사용하면 HTML 문서를 다양한 이미지 형식�
 - **폰트 누락** – 서버에 필요한 폰트를 설치하거나 `@font-face`를 사용해 HTML에 임베드합니다.
 
 ## 변환 - HTML을 다양한 이미지 형식으로 변환하는 튜토리얼
+### [Java에서 HTML을 PNG로 생성 – 전체 단계별 가이드](./create-png-from-html-in-java-full-step-by-step-guide/)
+Java에서 Aspose.HTML를 활용해 HTML을 PNG 파일로 변환하는 전체 과정을 단계별로 안내합니다.
+### [HTML을 PNG로 고 DPI SVG 내보내기 – Java에서 만들기](./create-png-from-html-high-dpi-svg-export-in-java/)
+### [HTML을 PNG로 렌더링하는 방법 – Java 개발자를 위한 완전 가이드](./how-to-render-html-to-png-complete-guide-for-java-developers/)
 ### [dpi 설정 – AsposeHTML로 HTML을 PNG로 렌더링](./how-to-set-dpi-render-html-to-png-with-asposehtml/)
 AsposeHTML를 사용해 PNG 이미지의 DPI를 설정하는 방법을 단계별로 안내합니다.
 

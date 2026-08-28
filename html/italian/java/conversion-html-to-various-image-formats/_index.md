@@ -92,10 +92,17 @@ Scopri come convertire HTML in GIF in Java usando Aspose.HTML. Una guida complet
 Impara a convertire HTML in JPEG con Aspose.HTML for Java. Guida passo‑passo per una gestione fluida dei documenti.
 ### [Conversione di HTML in PNG](./convert-html-to-png/)
 Scopri come convertire HTML in immagini PNG in Java con Aspose.HTML. Una guida completa con istruzioni passo‑passo.
-### [Conversione di SVG in PNG in Java – Guida completa passo‑a‑passo](./create-png-from-svg-in-java-complete-step-by-step-guide/)
-Crea PNG da SVG in Java con Aspose.HTML. Guida completa passo‑a‑passo per convertire file SVG in immagini PNG di alta qualità.
+### [Crea PNG da HTML in Java – Guida completa passo‑passo](./create-png-from-html-in-java-full-step-by-step-guide/)
+Scopri come creare un'immagine PNG da HTML in Java usando Aspose.HTML. Una guida dettagliata passo‑step.
+### [Crea PNG da HTML – Esportazione SVG ad alta DPI in Java](./create-png-from-html-high-dpi-svg-export-in-java/)
+Scopri come generare PNG da HTML con esportazione SVG ad alta DPI usando Aspose.HTML for Java, passo‑passo.
 ### [Conversione di HTML in TIFF](./convert-html-to-tiff/)
 Scopri come convertire facilmente HTML in TIFF usando Aspose.HTML for Java. Guida passo‑passo per una gestione efficiente dei documenti.
+### [Come renderizzare HTML in PNG – Guida completa per sviluppatori Java](./how-to-render-html-to-png-complete-guide-for-java-developers/)
+Scopri come trasformare HTML in PNG con Aspose.HTML per Java, passo‑step, con esempi pratici e consigli di ottimizzazione.
+
+### [Conversione di SVG in PNG in Java – Guida completa passo‑a‑passo](./create-png-from-svg-in-java-complete-step-by-step-guide/)
+Crea PNG da SVG in Java con Aspose.HTML. Guida completa passo‑a‑passo per convertire file SVG in immagini PNG di alta qualità.
 ### [Converti HTML in WebP](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
 Scopri come convertire HTML in WebP in Java usando Aspose.HTML. Una guida completa passo‑passo per una conversione efficiente.
 ### [Come impostare DPI durante la conversione di HTML in PNG – Guida completa](./how-to-set-dpi-when-converting-html-to-png-complete-guide/)

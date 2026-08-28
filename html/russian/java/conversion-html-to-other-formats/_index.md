@@ -101,6 +101,8 @@ Aspose.HTML for Java упрощает процесс конвертации HTML
 ### [Конвертация Markdown в HTML](./convert-markdown-to-html/)
 Бесшовно конвертируйте Markdown в HTML в Java с помощью Aspose.HTML for Java. Следуйте нашему пошаговому руководству, чтобы упростить ваши потребности в конвертации документов.
 
+### [Как создать PDF из Markdown в Java – пошаговое руководство](./how-to-generate-pdf-from-markdown-in-java-step-by-step-guide/)
+Узнайте, как преобразовать Markdown в PDF в Java с помощью Aspose.HTML, следуя подробному пошаговому руководству.
 ### [Конвертация Markdown в HTML – Руководство Java с выводом PDF](./convert-markdown-to-html-java-guide-with-pdf-output/)
 Узнайте, как преобразовать Markdown в HTML и сохранить результат в PDF с помощью Aspose.HTML for Java.
 
@@ -112,6 +114,9 @@ Aspose.HTML for Java упрощает процесс конвертации HTML
 Узнайте, как конвертировать SVG в XPS с помощью Aspose.HTML for Java. Простое пошаговое руководство для бесшовных конвертаций.
 ### [Создание PDF из Markdown в Java – простой однострочный гид](./create-pdf-from-markdown-in-java-simple-one-liner-guide/)
 Узнайте, как в одну строку преобразовать Markdown в PDF в Java с помощью Aspose.HTML.
+
+### [Сохранение HTML в PDF с Java – Полное руководство с использованием пула потоков и шаблонов](./save-html-as-pdf-with-java-complete-guide-using-thread-pool/)
+Узнайте, как эффективно сохранять HTML в PDF в Java, используя пул потоков и шаблоны для масштабируемой обработки.
 
 ### [Конвертация HTML в PDF в Java – Пошаговое руководство с настройками размера страницы](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Подробное пошаговое руководство по конвертации HTML в PDF в Java с настройкой размеров страниц.

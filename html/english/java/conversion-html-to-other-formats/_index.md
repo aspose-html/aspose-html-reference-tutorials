@@ -93,6 +93,8 @@ Effortlessly convert HTML to MHTML using Aspose.HTML for Java. Follow our step-b
 Learn how to effortlessly convert HTML to XPS using Aspose.HTML for Java. Create cross-platform documents with ease.
 ### [Converting Markdown to HTML](./convert-markdown-to-html/)
 Convert Markdown to HTML in Java seamlessly with Aspose.HTML for Java. Follow our step-by-step guide to streamline your document conversion needs.
+### [How to Generate PDF from Markdown in Java – Step‑by‑Step Guide](./how-to-generate-pdf-from-markdown-in-java-step-by-step-guide/)
+Learn how to generate PDF from Markdown in Java using Aspose.HTML. Follow our step‑by‑step guide for seamless conversion.
 ### [Create PDF from Markdown in Java – Simple One‑Liner Guide](./create-pdf-from-markdown-in-java-simple-one-liner-guide/)
 Generate a PDF directly from Markdown in Java with a single line of code using Aspose.HTML.
 ### [How to Set Offset When Converting HTML to Markdown in Java](./how-to-set-offset-when-converting-html-to-markdown-in-java/)
@@ -105,6 +107,9 @@ Learn how to convert SVG to images in Java with Aspose.HTML. Comprehensive guide
 Convert SVG to PDF in Java with Aspose.HTML. A seamless solution for high-quality document conversion.
 ### [Converting SVG to XPS](./convert-svg-to-xps/)
 Learn how to convert SVG to XPS with Aspose.HTML for Java. Simple, step-by-step guide for seamless conversions.
+### [Save HTML as PDF with Java – Complete Guide Using Thread Pool and Templates](./save-html-as-pdf-with-java-complete-guide-using-thread-pool/)
+Learn how to efficiently save HTML as PDF in Java using thread pools and templates for high‑performance batch processing.
+
 ### [Create PDF from HTML in Java – Complete Step‑by‑Step Guide](./create-pdf-from-html-in-java-complete-step-by-step-guide/)
 A comprehensive step‑by‑step tutorial to generate PDFs from HTML in Java using Aspose.HTML, covering setup, options, and best practices.
 ### [Set PDF Page Size with Aspose HTML – Full Java Guide](./set-pdf-page-size-with-aspose-html-full-java-guide/)
