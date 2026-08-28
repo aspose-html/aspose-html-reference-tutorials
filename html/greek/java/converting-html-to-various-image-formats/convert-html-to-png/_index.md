@@ -1,10 +1,40 @@
 ---
-date: 2026-01-17
-description: Μετατρέψτε HTML σε PNG με το Aspose.HTML για Java. Ακολουθήστε τον βήμα‑βήμα
-  οδηγό μας για εύκολη μετατροπή HTML σε PNG Java. Ξεκινήστε σήμερα!
-linktitle: Converting HTML to PNG
+date: 2026-06-04
+description: Μάθετε πώς να εκτελείτε java html to image conversion – συγκεκριμένα
+  convert html to png java – χρησιμοποιώντας το Aspose.HTML for Java. Οδηγός βήμα‑βήμα,
+  παρουσίαση χωρίς κώδικα και συμβουλές αντιμετώπισης προβλημάτων.
+keywords:
+- java html to image
+- convert html to png java
+- aspose html java conversion
+linktitle: Μετατροπή HTML σε PNG
+schemas:
+- author: Aspose
+  dateModified: '2026-06-04'
+  description: Learn how to perform java html to image conversion – specifically convert
+    html to png java – using Aspose.HTML for Java. Step‑by‑step guide, code‑free walkthrough,
+    and troubleshooting tips.
+  headline: 'Java HTML to Image: Convert HTML to PNG with Aspose.HTML'
+  type: TechArticle
+- questions:
+  - answer: Yes – pass the URL string to the `HTMLDocument` constructor instead of
+      a local file path.
+    question: Can I convert a remote URL directly?
+  - answer: Call `options.setBackgroundColor(java.awt.Color.WHITE)` before invoking
+      `save`.
+    question: How do I change the background color of the PNG?
+  - answer: Absolutely – use `ImageFormat.Jpeg`, `ImageFormat.Bmp`, or `ImageFormat.Tiff`
+      in `ImageSaveOptions`.
+    question: Is it possible to convert to other image formats?
+  - answer: A temporary evaluation license works for testing; a full license is required
+      for production deployments.
+    question: Do I need a license for development use?
+  - answer: Loop over your file list and reuse the same `ImageSaveOptions` instance
+      for each conversion, optionally parallelising with Java streams.
+    question: Can I batch‑process multiple HTML files?
+  type: FAQPage
 second_title: Java HTML Processing with Aspose.HTML
-title: 'HTML σε PNG Java - Μετατροπή HTML σε PNG με το Aspose.HTML'
+title: 'Java HTML σε Εικόνα: Μετατροπή HTML σε PNG με Aspose.HTML'
 url: /el/java/converting-html-to-various-image-formats/convert-html-to-png/
 weight: 13
 ---
@@ -13,129 +43,144 @@ weight: 13
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Μετατροπή HTML σε PNG με Java χρησιμοποιώντας Aspose.HTML
-
-Στη σύγχρονη ανάπτυξη ιστοσελίδων, η **html to png java** μετατροπή είναι συχνή απαίτηση — είτε χρειάζεστε δημιουργία μικρογραφιών, γραφικών έτοιμων για email, είτε αρχειοθέτηση ιστοσελίδων ως εικόνες. Το Aspose.HTML for Java κάνει αυτή τη δουλειά απλή και αξιόπιστη. Σε αυτό το tutorial θα μάθετε πώς να **αποθηκεύσετε HTML ως PNG**, να **δημιουργήσετε PNG από HTML**, και να ενσωματώσετε τη μετατροπή σε οποιαδήποτε εφαρμογή Java.
+# Java HTML σε Εικόνα: Μετατροπή HTML σε PNG με Aspose.HTML
 
 ## Γρήγορες Απαντήσεις
-- **Τι βιβλιοθήκη χρησιμοποιείται;** Aspose.HTML for Java  
-- **Μπορώ να μετατρέψω τοπικά αρχεία HTML;** Ναι, οποιοδήποτε HTML string ή αρχείο μπορεί να αποδοθεί σε PNG  
-- **Χρειάζεται άδεια για παραγωγή;** Απαιτείται έγκυρη άδεια Aspose για χρήση εκτός δοκιμής  
-- **Υποστηριζόμενη μορφή εικόνας;** PNG (μπορείτε επίσης να εξάγετε JPEG, BMP κ.λπ.)  
+- **Ποια βιβλιοθήκη χρησιμοποιείται;** Aspose.HTML for Java  
+- **Μπορώ να μετατρέψω τοπικά αρχεία HTML;** Ναι – οποιοδήποτε HTML string, αρχείο ή URL μπορεί να αποδοθεί σε PNG  
+- **Χρειάζομαι άδεια για παραγωγή;** Απαιτείται έγκυρη άδεια Aspose για χρήση εκτός δοκιμής  
+- **Υποστηριζόμενη μορφή εικόνας;** PNG (μπορείτε επίσης να εξάγετε JPEG, BMP, TIFF, κ.λπ.)  
 - **Τυπικός χρόνος υλοποίησης;** Περίπου 10‑15 λεπτά για μια βασική μετατροπή
 
-## Τι είναι html to png java;
-Η φράση “html to png java” αναφέρεται στη διαδικασία απόδοσης ενός εγγράφου HTML και εξαγωγής της οπτικής του αναπαράστασης ως εικόνα PNG χρησιμοποιώντας κώδικα Java. Είναι ιδιαίτερα χρήσιμη για δημιουργία εικόνων από τον διακομιστή όπου δεν υπάρχει διαθέσιμος φυλλομετρητής.
+## Τι είναι η μετατροπή java html σε εικόνα;
+**java html to image** είναι η διαδικασία φόρτωσης ενός εγγράφου HTML σε μια εφαρμογή Java, απόδοσης του με μια μηχανή διάταξης και εξαγωγής του οπτικού αποτελέσματος ως αρχείο εικόνας όπως PNG. Αυτό επιτρέπει τη δημιουργία εικόνων στο διακομιστή όταν δεν υπάρχει διαθέσιμος φυλλομετρητής.
 
-## Γιατί να χρησιμοποιήσετε Aspose.HTML for Java;
-- **Υψηλής πιστότητας απόδοση** – CSS, JavaScript και SVG υποστηρίζονται πλήρως.  
-- **Χωρίς εξωτερικές εξαρτήσεις** – Λειτουργεί με καθαρή Java, χωρίς ανάγκη για εγγενή binaries.  
-- **Κλιμακούμενο** – Μετατρέψτε μεμονωμένες σελίδες ή επεξεργαστείτε χιλιάδες αρχεία σε batch.  
-- **Πλατφόρμα‑ανεξάρτητο** – Λειτουργεί σε Windows, Linux και macOS.
+## Γιατί να χρησιμοποιήσετε το Aspose.HTML for Java για μετατροπή html σε png java;
+Φορτώστε το HTML σας με `HTMLDocument` και καλέστε `document.save("output.png", ImageSaveOptions.createPNG())` – το Aspose.HTML διαχειρίζεται αυτόματα CSS3, JavaScript, SVG και web fonts, παρέχοντας PNG εξαγωγή pixel‑perfect. Η βιβλιοθήκη λειτουργεί σε Windows, Linux και macOS, δεν απαιτεί εγγενή binaries και μπορεί να επεξεργαστεί χιλιάδες σελίδες σε λειτουργία batch με μια φιλική μνήμη streaming API.
 
 ## Προαπαιτούμενα
 
-Πριν ξεκινήσουμε τη διαδικασία μετατροπής, βεβαιωθείτε ότι έχετε τα παρακάτω:
+- **Java Development Kit (JDK) 8+** εγκατεστημένο και ρυθμισμένο το `JAVA_HOME`.  
+- **Aspose.HTML for Java** – κατεβάστε το τελευταίο JAR από την [τεκμηρίωση Aspose.HTML for Java](https://reference.aspose.com/html/java/).  
+- **Πηγή HTML** – είτε μια ενσωματωμένη συμβολοσειρά, ένα τοπικό αρχείο `.html`, ή ένα απομακρυσμένο URL.  
+- **Maven ή Gradle** – για τη διαχείριση της εξάρτησης Aspose.HTML στο έργο σας.
 
-- **Περιβάλλον Ανάπτυξης Java** – Εγκατεστημένο και ρυθμισμένο JDK 8+.  
-- **Aspose.HTML for Java** – Κατεβάστε τη βιβλιοθήκη από την [Aspose.HTML for Java documentation](https://reference.aspose.com/html/java/).  
-- **Περιεχόμενο HTML** – Το HTML που θέλετε να μετατρέψετε (string, αρχείο ή URL).  
-- **Βασικές Γνώσεις Java** – Εξοικειωμένοι με I/O της Java και ρύθμιση έργου Maven/Gradle.
+## Πώς να Μετατρέψετε HTML σε PNG χρησιμοποιώντας το Aspose.HTML for Java;
 
-## Εισαγωγή Πακέτων
+Η διαδικασία μετατροπής αποτελείται από τρία κύρια βήματα: φόρτωση του HTML σε ένα `HTMLDocument`, ρύθμιση του `ImageSaveOptions` με τις επιθυμητές ρυθμίσεις PNG (όπως DPI και χρώμα φόντου) και κλήση της μεθόδου μετατροπής για τη δημιουργία του αρχείου εικόνας. Αυτή η προσέγγιση διατηρεί τον κώδικα σύντομο ενώ παρέχει πλήρη έλεγχο των επιλογών απόδοσης.
 
-Στο έργο Java σας, πρέπει να εισάγετε τα απαραίτητα πακέτα από το Aspose.HTML for Java για να εκτελέσετε τη **html to png java** μετατροπή. Δείτε πώς:
+### Εισαγωγή Πακέτων
 
+Οι κλάσεις `HTMLDocument`, `ImageSaveOptions` και `ImageFormat` αποτελούν τον πυρήνα του API μετατροπής. Το `HTMLDocument` είναι το κορυφαίο αντικείμενο του Aspose.HTML που αντιπροσωπεύει ένα μοναδικό αρχείο HTML στη μνήμη. Το `ImageSaveOptions` ορίζει παραμέτρους για την αποθήκευση της αποδοθείσας εικόνας, όπως μορφή και ανάλυση. Το `ImageFormat` απαριθμεί τις υποστηριζόμενες μορφές εικόνας όπως PNG και JPEG. Το `Converter` παρέχει στατικές μεθόδους για την πραγματική μετατροπή HTML‑σε‑εικόνα.  
+```text
 ```java
 import com.aspose.html.HTMLDocument;
 import com.aspose.html.saving.ImageSaveOptions;
 import com.aspose.html.converters.Converter;
 import com.aspose.html.rendering.image.ImageFormat;
 ```
+```
 
-## Προετοιμασία του Περιεχομένου HTML
+### Προετοιμασία του Περιεχομένου HTML
 
-Για αρχή, προετοιμάστε το HTML που θέλετε να μετατρέψετε σε εικόνα PNG. Μπορείτε να χρησιμοποιήσετε οποιονδήποτε κώδικα HTML σύμφωνα με τις ανάγκες σας.
-
+Μπορείτε να παρέχετε ακατέργαστο HTML, να το διαβάσετε από αρχείο ή να δείξετε σε ένα ενεργό URL. Σε αυτό το παράδειγμα γράφουμε μια απλή συμβολοσειρά HTML στο `document.html` για σαφήνεια.  
+```text
 ```java
 String htmlCode = "<span>Hello</span> <span>World!!</span>";
 ```
+```
 
-Μπορείτε να αποθηκεύσετε αυτόν τον κώδικα HTML σε αρχείο για περαιτέρω επεξεργασία. Στο παράδειγμα, το αποθηκεύουμε σε αρχείο με όνομα `document.html`.
+### Αποθήκευση του HTML σε Αρχείο (Προαιρετικό)
 
+Το `java.io.FileWriter` γράφει δεδομένα χαρακτήρων σε αρχείο χρησιμοποιώντας ροή.  
+Η αποθήκευση του HTML σε αρχείο διευκολύνει τον εντοπισμό σφαλμάτων απόδοσης.  
+```text
 ```java
 try (java.io.FileWriter fileWriter = new java.io.FileWriter("document.html")) {
     fileWriter.write(htmlCode);
 }
 ```
+```
 
-## Αρχικοποίηση Εγγράφου HTML
+### Αρχικοποίηση Εγγράφου HTML
 
-Στη συνέχεια, πρέπει να αρχικοποιήσετε ένα έγγραφο HTML από το αρχείο HTML που δημιουργήσατε στο προηγούμενο βήμα.
-
+Το `HTMLDocument` φορτώνει και αναλύει ένα αρχείο HTML για απόδοση.  
+Δημιουργήστε ένα στιγμιότυπο `HTMLDocument` από το αρχείο που μόλις αποθηκεύσατε. Αυτό το αντικείμενο αναλύει το markup, δημιουργεί το DOM και προετοιμάζει τους πόρους για απόδοση.  
+```text
 ```java
 HTMLDocument document = new HTMLDocument("document.html");
 ```
+```
 
-## Μετατροπή HTML σε PNG
+### Μετατροπή HTML σε PNG
 
-Τώρα, ήρθε η ώρα να ορίσετε τις επιλογές μετατροπής και να εκτελέσετε τη λειτουργία **convert html to png**.
-
+Το `ImageSaveOptions` ρυθμίζει τις ιδιότητες της εξόδου εικόνας όπως μορφή και DPI. Το `Converter` εκτελεί τη μετατροπή από ένα `HTMLDocument` στο καθορισμένο αρχείο εικόνας.  
+Ρυθμίστε το `ImageSaveOptions` – μπορείτε να ορίσετε DPI, χρώμα φόντου και μορφή εξόδου. Στη συνέχεια καλέστε `document.save` με την επιλογή PNG.  
+```text
 ```java
 ImageSaveOptions options = new ImageSaveOptions(ImageFormat.Png);
 Converter.convertHTML(document, options, "output.png");
 ```
+```
 
-## Εκκαθάριση
+### Καθαρισμός
 
-Μην ξεχάσετε να απελευθερώσετε τυχόν πόρους και να καθαρίσετε μετά το τέλος της μετατροπής.
-
+`dispose()` απελευθερώνει τους εγγενείς πόρους που κρατά το στιγμιότυπο `HTMLDocument`.  
+Κάντε dispose το `HTMLDocument` για να ελευθερώσετε τους εγγενείς πόρους και να κλείσετε τυχόν ανοιχτές ροές.  
+```text
 ```java
 if (document != null) {
     document.dispose();
 }
 ```
+```
 
-Συγχαρητήρια! Έχετε επιτυχώς **generate png from html** χρησιμοποιώντας το Aspose.HTML for Java. Μπορείτε τώρα να χρησιμοποιήσετε την παραγόμενη εικόνα PNG όπως χρειάζεται στα έργα σας.
+Συγχαρητήρια! Τώρα έχετε λειτουργική μετατροπή **java html to image** στην εφαρμογή Java σας. Το παραγόμενο PNG μπορεί να αποθηκευτεί, να σταλεί μέσω HTTP ή να ενσωματωθεί σε αναφορές.
 
-## Συνηθισμένα Προβλήματα και Λύσεις
+## Συχνά Προβλήματα και Λύσεις
 
 | Πρόβλημα | Αιτία | Διόρθωση |
 |----------|-------|----------|
-| Κενή εικόνα εξόδου | Έλλειψη CSS ή εξωτερικών πόρων | Βεβαιωθείτε ότι όλα τα συνδεδεμένα αρχεία CSS/JS είναι προσβάσιμα ή ενσωματώστε τα εντός του HTML |
-| Χαμηλή ανάλυση | Η προεπιλεγμένη DPI είναι χαμηλή | Ορίστε `options.setResolution(300)` πριν από τη μετατροπή |
+| Κενή εικόνα εξόδου | Απουσία CSS ή εξωτερικών πόρων | Βεβαιωθείτε ότι όλα τα συνδεδεμένα αρχεία CSS/JS είναι προσβάσιμα ή ενσωματώστε τα εντός του κώδικα |
+| Χαμηλή ανάλυση | Η προεπιλεγμένη DPI είναι 96 | Ορίστε `options.setResolution(300)` πριν τη μετατροπή |
 | Έλλειψη μνήμης για μεγάλες σελίδες | Το μεγάλο DOM καταναλώνει μνήμη | Χρησιμοποιήστε `Converter.convertHTML(document, options, outputStream)` για ροή εξόδου |
 
-## Επιπλέον Συχνές Ερωτήσεις
+## Συχνές Ερωτήσεις
 
-**Q: Μπορώ να μετατρέψω απευθείας μια απομακρυσμένη URL;**  
-A: Ναι, περάστε τη συμβολοσειρά URL στο `HTMLDocument` αντί για τοπική διαδρομή αρχείου.
+**Μ: Μπορώ να μετατρέψω απευθείας ένα απομακρυσμένο URL;**  
+Α: Ναι – περάστε τη συμβολοσειρά URL στον κατασκευαστή `HTMLDocument` αντί για τοπική διαδρομή αρχείου.
 
-**Q: Πώς μπορώ να αλλάξω το χρώμα φόντου του PNG;**  
-A: Ορίστε `options.setBackgroundColor(java.awt.Color.WHITE)` πριν από τη μετατροπή.
+**Μ: Πώς αλλάζω το χρώμα φόντου του PNG;**  
+Α: Καλέστε `options.setBackgroundColor(java.awt.Color.WHITE)` πριν την κλήση του `save`.
 
-**Q: Είναι δυνατόν να μετατρέψω σε άλλες μορφές εικόνας;**  
-A: Απόλυτα — χρησιμοποιήστε `ImageFormat.Jpeg`, `ImageFormat.Bmp`, κ.λπ., στο `ImageSaveOptions`.
+**Μ: Είναι δυνατόν να μετατρέψω σε άλλες μορφές εικόνας;**  
+Α: Απόλυτα – χρησιμοποιήστε `ImageFormat.Jpeg`, `ImageFormat.Bmp` ή `ImageFormat.Tiff` στο `ImageSaveOptions`.
 
-**Q: Χρειάζεται άδεια για χρήση σε ανάπτυξη;**  
-A: Μια προσωρινή άδεια λειτουργεί για αξιολόγηση· απαιτείται πλήρης άδεια για παραγωγή.
+**Μ: Χρειάζομαι άδεια για χρήση ανάπτυξης;**  
+Α: Μια προσωρινή άδεια αξιολόγησης λειτουργεί για δοκιμές· απαιτείται πλήρης άδεια για παραγωγικές εγκαταστάσεις.
 
-**Q: Μπορώ να επεξεργαστώ σε batch πολλαπλά αρχεία HTML;**  
-A: Βάλτε σε βρόχο τη λίστα αρχείων σας και επαναχρησιμοποιήστε την ίδια παρουσία `ImageSaveOptions` για κάθε μετατροπή.
+**Μ: Μπορώ να επεξεργαστώ παρτίδα πολλαπλά αρχεία HTML;**  
+Α: Επαναλάβετε πάνω στη λίστα αρχείων σας και επαναχρησιμοποιήστε το ίδιο στιγμιότυπο `ImageSaveOptions` για κάθε μετατροπή, προαιρετικά παράλληλα με Java streams.
 
 ## Συμπέρασμα
 
-Σε αυτό το tutorial δείξαμε πώς να κάνετε **html to png java** μετατροπή χρησιμοποιώντας το Aspose.HTML for Java. Με τα βήματα και τα αποσπάσματα κώδικα που παρέχονται, θα μπορείτε εύκολα να ενσωματώσετε αυτή τη λειτουργία στις εφαρμογές Java σας, είτε θέλετε να **save html as png**, **generate png from html**, είτε να δημιουργήσετε στιγμιότυπα εικόνας από δυναμικές ιστοσελίδες.
+Αυτός ο οδηγός παρουσίασε μια πλήρη ροή εργασίας **java html to image** χρησιμοποιώντας το Aspose.HTML for Java. Ακολουθώντας τα παραπάνω βήματα, μπορείτε αξιόπιστα **να μετατρέψετε HTML σε PNG**, να προσαρμόσετε τις επιλογές απόδοσης και να κλιμακώσετε τη λύση για επεξεργασία χιλιάδων σελίδων σε παρτίδες. Εξερευνήστε τις άλλες μορφές εικόνας και τις προχωρημένες επιλογές (όπως προσαρμοσμένο DPI και διαφανές φόντο) για να προσαρμόσετε την έξοδο στις ακριβείς ανάγκες σας.
 
 ---
 
-**Τελευταία ενημέρωση:** 2026-01-17  
-**Δοκιμή με:** Aspose.HTML for Java 24.12  
-**Συγγραφέας:** Aspose  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+**Last Updated:** 2026-06-04  
+**Tested With:** Aspose.HTML for Java 24.12  
+**Author:** Aspose  
 
 {{< blocks/products/products-backtop-button >}}
+
+## Σχετικά Μαθήματα
+
+- [HTML σε Εικόνα Java – Μετατροπή HTML σε TIFF με Aspose.HTML](/html/java/conversion-html-to-various-image-formats/convert-html-to-tiff/)
+- [Μετατροπή Html σε Webp Πλήρης Οδηγός Java με Aspose Html](/html/java/conversion-html-to-various-image-formats/convert-html-to-webp-complete-java-guide-with-aspose-html/)
+- [Μετατροπή HTML σε Διάφορες Μορφές Εικόνας](/html/java/converting-html-to-various-image-formats/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
