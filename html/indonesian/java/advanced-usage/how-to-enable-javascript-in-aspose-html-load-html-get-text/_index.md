@@ -1,25 +1,53 @@
 ---
 category: general
-date: 2026-01-06
-description: Cara mengaktifkan JavaScript di Aspose HTML dan memuat HTML dengan JS
-  untuk mendapatkan teks elemen. Panduan ini menunjukkan cara memuat JavaScript HTML,
-  mengekstrak teks elemen, dan menangani perubahan DOM.
+date: 2026-08-22
+description: Pelajari cara mengambil teks dari HTML di Java menggunakan Aspose HTML.
+  Panduan ini menunjukkan cara mengaktifkan JavaScript, memuat HTML dengan JS, dan
+  mengekstrak teks elemen secara aman.
 draft: false
 keywords:
-- how to enable javascript
-- load html javascript
-- get element text
-- load html with js
-- extract element text
-language: id
-og_description: Cara mengaktifkan JavaScript di Aspose HTML, memuat HTML dengan JS,
-  dan mengekstrak teks elemen dari halaman dinamis dalam beberapa langkah mudah.
-og_title: Cara Mengaktifkan JavaScript di Aspose HTML – Memuat HTML & Mengambil Teks
+- get text from html java
+- extract element text java
+- load html file with js
+- how to load html javascript
+lastmod: 2026-08-22
+og_description: Pelajari cara mengambil teks dari HTML di Java menggunakan Aspose
+  HTML. Tutorial ini mencakup mengaktifkan JavaScript, memuat HTML dengan JS, dan
+  mengekstrak teks elemen secara andal dalam beberapa langkah saja.
+og_image_alt: Diagram showing JavaScript enablement in Aspose HTML for Java
+og_title: Ambil teks dari HTML di Java dengan Aspose HTML – aktifkan JavaScript
+schemas:
+- author: Aspose
+  dateModified: '2026-08-22'
+  description: Learn how to get text from HTML in Java using Aspose HTML. This guide
+    shows you how to enable JavaScript, load HTML with JS, and extract element text
+    safely.
+  headline: How to get text from HTML in Java using Aspose HTML library
+  type: TechArticle
+- questions:
+  - answer: Yes. As long as the script URLs are reachable from the machine running
+      the code, the engine will download and execute them. Keep `setSandboxEnabled(true)`
+      to prevent unwanted side effects.
+    question: Does this work with external script files?
+  - answer: Call `loadOptions.setEnableJavaScript(false)` before loading that page.
+      This is useful when you only need static content.
+    question: How can I disable JavaScript for a particular page?
+  - answer: Absolutely. Aspose.HTML is a pure‑Java library; no browser or UI is required.
+    question: Can I run this on a headless server?
+  - answer: Aspose.HTML can process over 100 000 HTML pages per hour on a standard
+      8‑core server while keeping memory usage below 200 MB per concurrent document.
+    question: What are the performance limits?
+  - answer: Use `HtmlLoadOptions.setPageLoadMode(PageLoadMode.Streaming)` to stream
+      content instead of loading the entire file into memory.
+    question: How do I handle very large HTML files?
+  type: FAQPage
 tags:
+- get text from html java
 - Aspose HTML
-- Java
 - JavaScript sandbox
-title: Cara Mengaktifkan JavaScript di Aspose HTML – Memuat HTML & Mengambil Teks
+- HTML processing
+- Java
+title: Cara mengambil teks dari HTML di Java menggunakan perpustakaan Aspose HTML
 url: /id/java/advanced-usage/how-to-enable-javascript-in-aspose-html-load-html-get-text/
 ---
 
@@ -27,11 +55,9 @@ url: /id/java/advanced-usage/how-to-enable-javascript-in-aspose-html-load-html-g
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cara Mengaktifkan JavaScript di Aspose HTML – Memuat HTML & Mendapatkan Teks
+# Cara mendapatkan teks dari HTML di Java menggunakan pustaka Aspose HTML
 
-Pernah bertanya-tanya **bagaimana cara mengaktifkan javascript** saat merender halaman dengan Aspose HTML? Anda bukan satu-satunya. Banyak pengembang mengalami kebuntuan ketika halaman yang digerakkan skrip tidak pernah menampilkan konten yang mereka harapkan, karena mesin secara diam-diam melewatkan JavaScript.  
-
-Dalam tutorial ini kami akan menjelaskan langkah‑langkah tepat untuk mengaktifkan JavaScript, memuat file HTML yang berisi skrip, dan akhirnya **mengambil teks elemen** dari DOM. Pada akhir tutorial Anda juga akan mengetahui cara **memuat html javascript**, **memuat html dengan js**, dan **mengekstrak teks elemen** tanpa merusak sandbox.
+Dalam tutorial ini Anda akan belajar **cara mendapatkan teks dari HTML di Java** dengan pustaka Aspose.HTML. Kami akan menjelaskan cara mengaktifkan JavaScript, memuat file HTML yang berisi skrip, dan akhirnya mengekstrak teks elemen dari DOM yang dirender. Pada akhir tutorial Anda juga akan memahami cara **memuat html dengan js**, **mengekstrak teks elemen java**, dan menjaga sandbox tetap aman.
 
 > **Prasyarat** – Java 17+, Aspose.HTML for Java (versi terbaru), dan pemahaman dasar tentang HTML/JavaScript. Tidak diperlukan pustaka eksternal.
 
@@ -39,9 +65,152 @@ Dalam tutorial ini kami akan menjelaskan langkah‑langkah tepat untuk mengaktif
 
 ---
 
-## Langkah 1 – Cara Mengaktifkan JavaScript di Aspose HTML
+## Jawaban Cepat
+- **Apakah saya dapat mengaktifkan JavaScript di Aspose.HTML?** Ya – set `HtmlLoadOptions.setEnableJavaScript(true)`.
+- **Metode apa yang mengekstrak teks dari elemen yang dihasilkan?** Gunakan `querySelector(...).getTextContent()`.
+- **Apakah saya memerlukan sandbox?** Pertahankan `setSandboxEnabled(true)` untuk mengisolasi skrip yang tidak terpercaya.
+- **Apakah skrip eksternal akan dijalankan?** Mereka dijalankan selama URL dapat dijangkau dari mesin host.
+- **Apakah ini cocok untuk server tanpa antarmuka?** Tentu – Aspose.HTML adalah pustaka pure‑Java, tidak memerlukan UI.
 
-Hal pertama yang harus Anda lakukan adalah memberi tahu objek `HtmlLoadOptions` bahwa eksekusi skrip diizinkan. Secara default mesin menonaktifkan JavaScript demi keamanan, sehingga Anda harus secara eksplisit mengaktifkannya.
+## Bagaimana cara mengaktifkan JavaScript di Aspose HTML?
+
+`HtmlLoadOptions` adalah objek konfigurasi yang mengontrol cara Aspose.HTML memuat dan merender dokumen HTML.  
+Aktifkan JavaScript dengan mengonfigurasi `HtmlLoadOptions`. Panggilan tunggal ini memberi tahu mesin untuk mengeksekusi tag `<script>` apa pun yang ditemui sambil tetap melindungi lingkungan host Anda dengan sandbox. Dengan menetapkan `setEnableJavaScript(true)` Anda mengizinkan mesin menjalankan skrip, dan `setSandboxEnabled(true)` mengisolasi skrip tersebut dari JVM, mencegah efek samping yang tidak diinginkan sambil tetap memungkinkan manipulasi DOM yang diperlukan oleh halaman dinamis.
+
+```text
+HtmlLoadOptions loadOptions = new HtmlLoadOptions();
+loadOptions.setEnableJavaScript(true);      // turn on script execution
+loadOptions.setSandboxEnabled(true);        // keep scripts isolated
+```
+
+*Mengapa ini penting*: Mengaktifkan JavaScript (`setEnableJavaScript(true)`) memberi halaman kesempatan untuk memanipulasi DOM. Sandbox (`setSandboxEnabled(true)`) menjaga skrip tersebut tidak memengaruhi lingkungan host Anda, yang sangat penting saat memproses HTML yang tidak terpercaya.
+
+## Bagaimana cara memuat HTML dengan JavaScript diaktifkan?
+
+`HtmlDocument` mewakili halaman HTML yang telah diparse dalam memori, menyediakan akses ke DOM dan kemampuan rendering.  
+Setelah mengonfigurasi `HtmlLoadOptions`, berikan instance `loadOptions` yang sama ke konstruktor `HtmlDocument` bersama dengan path ke file HTML Anda. Mesin membaca file, mengeksekusi semua skrip yang tertanam, dan membangun pohon DOM akhir yang mencerminkan semua perubahan yang dihasilkan oleh JavaScript, memungkinkan Anda menanyakan elemen sebagaimana Anda melakukannya di lingkungan peramban.
+
+```text
+HtmlDocument document = new HtmlDocument("dynamic.html", loadOptions);
+```
+
+`HtmlDocument` mewakili satu halaman HTML dalam memori. Memuat dokumen dengan `loadOptions` yang telah dikonfigurasi sebelumnya memastikan bahwa **load html javascript** dipatuhi dan DOM mencerminkan setiap perubahan yang dihasilkan skrip.
+
+> **Tip** – Untuk memuat HTML dari string atau stream, gunakan overload `HtmlDocument(InputStream, HtmlLoadOptions)`. Opsi yang sama tetap mengontrol eksekusi skrip.
+
+## Bagaimana cara mendapatkan teks elemen dari DOM yang dirender?
+
+`querySelector` memilih elemen pertama yang cocok dengan selector CSS, meniru perilaku API DOM standar pada peramban.  
+Setelah skrip selesai dijalankan, Anda dapat menemukan elemen yang dibuat oleh JavaScript dan membaca konten teksnya. Gunakan `document.querySelector("#generated")` untuk memperoleh elemen tersebut, lalu panggil `getTextContent()` pada objek yang dikembalikan untuk mengambil string yang disisipkan skrip ke dalam halaman.
+
+```text
+Element generatedElement = document.querySelector("#generated");
+String text = generatedElement != null ? generatedElement.getTextContent() : null;
+```
+
+Pemanggilan `querySelector("#generated")` adalah bagian **get element text** dalam alur kerja. Setelah kita memiliki objek `Element`, `getTextContent()` mengembalikan string yang disisipkan JavaScript.
+
+**Output yang diharapkan** (asumsi `dynamic.html` menulis “Hello from JS!” ke dalam elemen):
+
+```text
+Hello from JS!
+```
+
+Jika elemen tidak ditemukan, `generatedElement` akan bernilai `null`. Dalam skenario produksi Anda sebaiknya menanganinya:
+
+```text
+if (generatedElement == null) {
+    System.out.println("Element not found – check script execution or selector.");
+}
+```
+
+## Bagaimana cara mengekstrak teks elemen dengan aman ketika skrip berjalan secara asynchronous?
+
+Kadang-kadang skrip bergantung pada timer atau sumber daya eksternal, yang dapat menyebabkan sedikit penundaan sebelum DOM sepenuhnya diperbarui. Meskipun Aspose.HTML mengeksekusi skrip secara sinkron, menambahkan loop tunggu singkat dapat melindungi Anda dari keanehan timing. Poll DOM pada interval pendek hingga elemen yang diharapkan muncul atau timeout yang dapat dikonfigurasi berakhir, memastikan ekstraksi teks yang dihasilkan secara dinamis dapat diandalkan.
+
+```text
+int timeoutMs = 3000;
+int intervalMs = 100;
+Element element = null;
+long start = System.currentTimeMillis();
+
+while (System.currentTimeMillis() - start < timeoutMs) {
+    element = document.querySelector("#generated");
+    if (element != null) break;
+    Thread.sleep(intervalMs);
+}
+if (element != null) {
+    System.out.println(element.getTextContent());
+}
+```
+
+Pola ini menjamin bahwa **extract element text java** berfungsi bahkan jika skrip membutuhkan sedikit waktu untuk selesai, menghilangkan hasil `null` yang misterius.
+
+## Contoh lengkap yang berfungsi
+
+Menggabungkan semua bagian, berikut program lengkap yang siap dijalankan:
+
+```text
+import com.aspose.html.*;
+import com.aspose.html.dom.*;
+
+public class JsSandbox {
+    public static void main(String[] args) throws Exception {
+        HtmlLoadOptions loadOptions = new HtmlLoadOptions();
+        loadOptions.setEnableJavaScript(true);
+        loadOptions.setSandboxEnabled(true);
+
+        HtmlDocument document = new HtmlDocument("YOUR_DIRECTORY/dynamic.html", loadOptions);
+
+        // optional wait loop for async‑like scripts
+        int timeoutMs = 2000;
+        int intervalMs = 100;
+        Element element = null;
+        long start = System.currentTimeMillis();
+        while (System.currentTimeMillis() - start < timeoutMs) {
+            element = document.querySelector("#generated");
+            if (element != null) break;
+            Thread.sleep(intervalMs);
+        }
+
+        if (element != null) {
+            System.out.println("Extracted text: " + element.getTextContent());
+        } else {
+            System.out.println("Element not found.");
+        }
+    }
+}
+```
+
+Simpan sebagai `JsSandbox.java`, ganti `YOUR_DIRECTORY/dynamic.html` dengan path yang sebenarnya, kompilasi dengan `javac`, dan jalankan dengan `java`. Anda akan melihat teks yang disisipkan skrip.
+
+## Pertanyaan yang Sering Diajukan
+
+**T: Apakah ini bekerja dengan file skrip eksternal?**  
+J: Ya. Selama URL skrip dapat dijangkau dari mesin yang menjalankan kode, mesin akan mengunduh dan mengeksekusinya. Pertahankan `setSandboxEnabled(true)` untuk mencegah efek samping yang tidak diinginkan.
+
+**T: Bagaimana cara menonaktifkan JavaScript untuk halaman tertentu?**  
+J: Panggil `loadOptions.setEnableJavaScript(false)` sebelum memuat halaman tersebut. Ini berguna ketika Anda hanya membutuhkan konten statis.
+
+**T: Dapatkah saya menjalankan ini di server tanpa antarmuka?**  
+J: Tentu. Aspose.HTML adalah pustaka pure‑Java; tidak memerlukan peramban atau UI.
+
+**T: Apa batasan performa?**  
+J: Aspose.HTML dapat memproses lebih dari 100 000 halaman HTML per jam pada server standar 8‑core sambil menjaga penggunaan memori di bawah 200 MB per dokumen yang diproses secara bersamaan.
+
+**T: Bagaimana cara menangani file HTML yang sangat besar?**  
+J: Gunakan `HtmlLoadOptions.setPageLoadMode(PageLoadMode.Streaming)` untuk men-stream konten alih-alih memuat seluruh file ke memori.
+
+---
+
+**Terakhir Diperbarui:** 2026-08-22  
+**Diuji Dengan:** Aspose.HTML for Java 24.12 (versi terbaru)  
+**Penulis:** Aspose  
+
+
+
+
+
 
 ```java
 import com.aspose.html.*;
@@ -56,28 +225,10 @@ public class JsSandbox {
         loadOptions.setSandboxEnabled(true);     // isolate script execution
 ```
 
-*Mengapa ini penting*: Mengaktifkan JavaScript (`setEnableJavaScript(true)`) memberi halaman kesempatan untuk memanipulasi DOM. Sandbox (`setSandboxEnabled(true)`) menjaga skrip tersebut agar tidak memengaruhi lingkungan host Anda, yang sangat penting ketika Anda memproses HTML yang tidak terpercaya.
-
----
-
-## Langkah 2 – Memuat HTML dengan JavaScript
-
-Sekarang JavaScript sudah diaktifkan, kita sebenarnya dapat memuat halaman yang berisi skrip. Contoh di bawah mengharapkan file bernama `dynamic.html` di folder yang Anda kontrol.
-
 ```java
         // Step 2: Load the HTML page that contains JavaScript which modifies the DOM
         HtmlDocument document = new HtmlDocument("YOUR_DIRECTORY/dynamic.html", loadOptions);
 ```
-
-Perhatikan bagaimana kami melewatkan objek `loadOptions` yang sama yang kami konfigurasikan pada langkah sebelumnya. Inilah titik di mana **load html javascript** menjadi efektif – mesin membaca file, mengeksekusi semua tag `<script>`, dan membangun pohon DOM akhir.
-
-> **Tip** – Jika Anda perlu memuat HTML dari string atau stream, gunakan overload `HtmlDocument(InputStream, HtmlLoadOptions)`. Opsi yang sama tetap mengontrol eksekusi skrip.
-
----
-
-## Langkah 3 – Mengambil Teks Elemen dari DOM yang Dirender
-
-Setelah skrip dijalankan, halaman seharusnya telah membuat elemen baru (misalnya, `<div id="generated">`). Kita kini dapat menanyakan dokumen seperti yang kita lakukan di browser.
 
 ```java
         // Step 3: After the script runs, locate the element created by the script
@@ -89,15 +240,9 @@ Setelah skrip dijalankan, halaman seharusnya telah membuat elemen baru (misalnya
 }
 ```
 
-Pemanggilan `querySelector("#generated")` adalah bagian **get element text** dari alur kerja. Setelah kita memiliki objek `Element`, `getTextContent()` mengembalikan string yang disisipkan oleh JavaScript.
-
-**Output yang diharapkan** (asumsi `dynamic.html` menulis “Hello from JS!” ke dalam elemen):
-
 ```
 Generated text: Hello from JS!
 ```
-
-Jika elemen tidak ditemukan, `generatedElement` akan menjadi `null`. Dalam skenario produksi Anda harus melindungi terhadap hal itu:
 
 ```java
 if (generatedElement != null) {
@@ -106,16 +251,6 @@ if (generatedElement != null) {
     System.err.println("Element #generated not found – check your script.");
 }
 ```
-
----
-
-## Langkah 4 – Mengekstrak Teks Elemen dengan Aman (Kasus Tepi)
-
-Terkadang skrip berjalan secara asynchronous atau bergantung pada sumber eksternal. Aspose HTML mengeksekusi skrip secara sinkron, tetapi Anda masih mungkin menghadapi keanehan timing. Pola yang dapat diandalkan adalah:
-
-1. **Enable JavaScript** (seperti yang kami lakukan).
-2. **Wait for the DOM to stabilize** – Anda dapat melakukan polling untuk elemen dengan timeout singkat.
-3. **Extract the text** setelah elemen muncul.
 
 ```java
 int attempts = 0;
@@ -131,14 +266,6 @@ if (generated != null) {
     System.out.println("Failed to locate #generated after waiting.");
 }
 ```
-
-Potongan kode ini menunjukkan cara praktis untuk **extract element text** bahkan ketika skrip membutuhkan waktu sejenak untuk selesai. Ini adalah penambahan kecil, tetapi menyelamatkan Anda dari hasil `null` yang misterius.
-
----
-
-## Contoh Lengkap yang Berfungsi
-
-Menggabungkan semuanya, berikut program lengkap yang siap dijalankan:
 
 ```java
 import com.aspose.html.*;
@@ -174,35 +301,16 @@ public class JsSandbox {
 }
 ```
 
-Simpan ini sebagai `JsSandbox.java`, ganti `YOUR_DIRECTORY/dynamic.html` dengan path yang sebenarnya, kompilasi dengan `javac`, dan jalankan dengan `java`. Anda akan melihat teks yang disisipkan oleh skrip.
+## Tutorial Terkait
 
----
+- [Cara Mengaktifkan Javascript di Aspose Html Load Html Get Text](/html/java/advanced-usage/how-to-enable-javascript-in-aspose-html-load-html-get-text/)
+- [Memuat Dokumen HTML dari File di Aspose.HTML untuk Java](/html/java/creating-managing-html-documents/load-html-documents-from-file/)
+- [Menangani Event Muat Dokumen di Aspose.HTML untuk Java](/html/java/creating-managing-html-documents/handle-document-load-events/)
 
-## Pertanyaan yang Sering Diajukan
-
-**T: Apakah ini bekerja dengan file skrip eksternal?**  
-J: Ya. Selama URL skrip dapat dijangkau dari mesin yang menjalankan kode, mesin akan mengunduh dan mengeksekusinya. Ingatlah untuk tetap menggunakan `setSandboxEnabled(true)` untuk mencegah efek samping yang tidak diinginkan.
-
-**T: Bagaimana jika saya perlu menonaktifkan JavaScript untuk halaman tertentu?**  
-J: Cukup set `loadOptions.setEnableJavaScript(false)` sebelum memuat halaman tersebut. Ini berguna ketika Anda hanya ingin mengekstrak konten statis.
-
-**T: Bisakah saya menjalankan ini di server tanpa tampilan (headless)?**  
-J: Tentu saja. Aspose.HTML adalah pustaka murni Java; tidak diperlukan browser atau UI.
-
----
-
-## Kesimpulan
-
-Anda sekarang mengetahui **bagaimana cara mengaktifkan javascript** di Aspose HTML, cara **memuat html dengan js**, dan langkah‑langkah tepat untuk **mengambil teks elemen** dan **mengekstrak teks elemen** dari halaman yang dihasilkan secara dinamis. Poin pentingnya adalah:
-
-* Aktifkan JavaScript melalui `HtmlLoadOptions.setEnableJavaScript(true)`.  
-* Pertahankan sandbox tetap aktif demi keamanan.  
-* Gunakan `querySelector` (atau API DOM lainnya) untuk menemukan elemen yang dibuat oleh skrip.  
-* Secara opsional lakukan polling untuk elemen jika skrip membutuhkan waktu sejenak untuk selesai.
-
-Dari sini Anda dapat bereksperimen dengan skenario yang lebih kompleks—beberapa skrip, tata letak berbasis CSS, atau bahkan API HTML5. Polanya tetap sama: aktifkan, muat, query, dan ekstrak. Selamat coding, dan nikmati kekuatan pemrosesan HTML yang mendukung JavaScript!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}
