@@ -1,10 +1,10 @@
 ---
-date: 2026-01-09
+date: 2026-03-29
 description: Erfahren Sie, wie Sie Aspose.HTML für Java verwenden, um XPS‑Speicheroptionen
-  festzulegen und EPUB effizient in XPS zu konvertieren.
+  festzulegen, EPUB in XPS zu konvertieren und die Lizenzierung zu verwalten.
 linktitle: Specifying XPS Save Options for EPUB to XPS
 second_title: Java HTML Processing with Aspose.HTML
-title: Festlegen von Aspose HTML‑Speicheroptionen für die EPUB‑zu‑XPS‑Konvertierung
+title: Wie man die Aspose HTML‑Speicheroptionen für EPUB nach XPS verwendet
 url: /de/java/converting-epub-to-xps/convert-epub-to-xps-specify-xps-save-options/
 weight: 12
 ---
@@ -13,39 +13,39 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Festlegen von Aspose HTML Save Options für EPUB nach XPS
+# So verwenden Sie Aspose HTML Save Options für EPUB zu XPS
 
-Das Konvertieren eines EPUB-Dokuments in XPS kann ein nützliches Element eines Publishing‑Workflows sein, und **Aspose HTML Save Options** geben Ihnen feinkörnige Kontrolle über die Ausgabe. In diesem Tutorial gehen wir die genauen Schritte durch, die nötig sind, um diese Save Options mit Aspose.HTML für Java zu konfigurieren und eine hochwertige XPS‑Datei zu erzeugen.
+In diesem Leitfaden zeigen wir **how to use Aspose** HTML Save Options, um ein EPUB-Dokument in XPS zu konvertieren, mit voller Kontrolle über Seitenabmessungen, Hintergrundfarbe und Lizenzierungsaspekte. Egal, ob Sie eine Batch‑Verarbeitungspipeline oder ein einmaliges Konvertierungstool erstellen, diese Schritte helfen Ihnen, schnell zuverlässige Ergebnisse zu erzielen.
 
 ## Schnelle Antworten
-- **Was tun Aspose HTML Save Options?** Sie ermöglichen das Anpassen von Seitengröße, Hintergrundfarbe und anderen Rendering‑Einstellungen beim Speichern in Formate wie XPS.  
-- **Welche Bibliothek wird benötigt?** Aspose.HTML für Java (neueste Version).  
-- **Brauche ich eine Lizenz?** Eine kostenlose Testversion ist für die Evaluierung ausreichend; für den Produktionseinsatz ist eine kommerzielle Lizenz erforderlich.  
-- **Kann ich die Seitendimensionen ändern?** Ja – Sie können jede Breite und Höhe über `PageSetup` festlegen.  
-- **Ist die Konvertierung schnell?** Bei typischen EPUB‑Dateien wird die Konvertierung in Sekunden auf einer modernen JVM abgeschlossen.
+- **Was macht Aspose HTML Save Options?** Es ermöglicht Ihnen, die Seitengröße, Hintergrundfarbe und andere Rendering‑Einstellungen beim Speichern in Formate wie XPS anzupassen.  
+- **Welche Bibliothek wird benötigt?** Aspose.HTML for Java (latest version).  
+- **Benötige ich eine Lizenz?** Eine kostenlose Testversion funktioniert für die Evaluierung; für die Produktion ist eine kommerzielle Lizenz erforderlich.  
+- **Kann ich die Seitenabmessungen ändern?** Ja – Sie können jede Breite und Höhe über `PageSetup` festlegen.  
+- **Ist die Konvertierung schnell?** Für typische EPUB‑Dateien wird die Konvertierung in Sekunden auf einer modernen JVM abgeschlossen.
 
-## Was sind Aspose HTML Save Options?
-Aspose HTML Save Options sind eine Gruppe von Eigenschaften, die steuern, wie HTML-, EPUB- oder andere webbasierte Dokumente gerendert und in ein Zielformat wie XPS, PDF oder Bilddateien gespeichert werden. Sie ermöglichen die Definition von Seitenlayout, Hintergrundfarben, Rändern und mehr, sodass die resultierende Datei Ihren Design‑Anforderungen entspricht.
+## Was bedeutet „how to use aspose“ in diesem Kontext?
+Der Ausdruck **how to use Aspose** bezieht sich auf die praktischen Schritte zur Nutzung der Aspose.HTML-Bibliothek, um webbasierte Dokumente zu manipulieren und zu konvertieren. In diesem Tutorial konzentrieren wir uns auf die **aspose html save options**, die es Ihnen ermöglichen, die Ausgabe fein abzustimmen, wenn Sie **EPUB zu XPS konvertieren**.
 
-## Warum Aspose.HTML für Java verwenden, um EPUB nach XPS zu konvertieren?
+## Warum Aspose.HTML für Java zum Konvertieren von EPUB zu XPS verwenden?
 - **Hohe Treue** – bewahrt komplexe Layouts, Schriftarten und Vektorgrafiken.  
-- **Programmgesteuerte Kontrolle** – automatisiert Stapelkonvertierungen innerhalb von Java‑Anwendungen.  
+- **Programmgesteuerte Kontrolle** – automatisieren Sie Batch‑Konvertierungen innerhalb von Java‑Anwendungen.  
 - **Keine externen Abhängigkeiten** – reine Java‑Bibliothek, keine nativen Komponenten.  
-- **Anpassbare Ausgabe** – dank Save Options können Sie das XPS exakt an Ihre Bedürfnisse anpassen.
+- **Anpassbare Ausgabe** – dank Save Options können Sie das XPS exakt an Ihre Bedürfnisse anpassen, z. B. **Seitenabmessungen festlegen** oder einen benutzerdefinierten Hintergrund setzen.  
 
 ## Voraussetzungen
 
 Bevor wir in den Code eintauchen, stellen Sie sicher, dass Sie Folgendes haben:
 
-1. **Java-Entwicklungsumgebung** – JDK 8 oder höher installiert.  
-2. **Aspose.HTML für Java Bibliothek** – laden Sie sie von dem [download link](https://releases.aspose.com/html/java/) herunter.  
-3. **EPUB‑Datei** – das Quell‑EPUB, das Sie konvertieren möchten.  
+1. **Java-Entwicklungsumgebung** – JDK 8 oder höher installiert.  
+2. **Aspose.HTML for Java Bibliothek** – laden Sie sie von dem [Download-Link](https://releases.aspose.com/html/java/) herunter.  
+3. **EPUB-Datei** – das Quell‑EPUB, das Sie **EPUB zu XPS konvertieren** möchten.  
 
-Wenn Sie diese bereit haben, können Sie die Schritte ohne Unterbrechungen folgen.
+Wenn Sie diese bereit haben, können Sie die Schritte ohne Unterbrechungen ausführen.
 
 ## Pakete importieren
 
-Zuerst importieren Sie die benötigten Klassen. Platzieren Sie die Importe am Anfang Ihrer Java‑Quelldatei:
+Zuerst importieren Sie die benötigten Klassen. Platzieren Sie die Importe am Anfang Ihrer Java-Quelldatei:
 
 ```java
 import java.io.FileInputStream;
@@ -61,9 +61,9 @@ import com.aspose.html.system.io.resources.Resources;
 
 Diese Importe geben Ihnen Zugriff auf die Konvertierungs‑Engine und die **Aspose HTML Save Options**, die für das Feintuning benötigt werden.
 
-## Öffnen der EPUB‑Datei
+## EPUB-Datei öffnen
 
-Als Nächstes öffnen Sie das EPUB, das Sie konvertieren möchten. Der `Resources.input`‑Helper lädt eine Datei aus dem Demo‑Ressourcen‑Ordner:
+Als Nächstes öffnen Sie das EPUB, das Sie konvertieren möchten. Der `Resources.input`‑Hilfsfunktion lädt eine Datei aus dem Demo‑Ressourcenordner:
 
 ```java
 try (FileInputStream fileInputStream = new FileInputStream(Resources.input("input.epub"))) {
@@ -73,9 +73,9 @@ try (FileInputStream fileInputStream = new FileInputStream(Resources.input("inpu
 
 Die Verwendung eines try‑with‑resources‑Blocks stellt sicher, dass der Stream automatisch geschlossen wird.
 
-## XPS‑Save‑Options erstellen (Seitengröße & Hintergrund konfigurieren)
+## XPS Save Options erstellen (Seitengröße & Hintergrund konfigurieren)
 
-Jetzt erstellen wir eine `XpsSaveOptions`‑Instanz und passen sie an. Hier kommen die **Save Options** wirklich zur Geltung:
+Jetzt erstellen wir eine Instanz von `XpsSaveOptions` und passen sie an. Hier kommen die **Save Options** wirklich zur Geltung:
 
 ```java
 XpsSaveOptions options = new XpsSaveOptions();
@@ -87,14 +87,14 @@ options.setPageSetup(pageSetup);
 options.setBackgroundColor(Color.getAliceBlue());
 ```
 
-- **Seitengröße** – in diesem Beispiel auf 3000 × 1000 Pixel gesetzt; passen Sie sie an Ihre gewünschte Papiergröße an.  
-- **Hintergrundfarbe** – `AliceBlue` zeigt, wie man den Hintergrund der Zeichenfläche ändert; Sie können jede `Color` wählen.
+- **Seitengröße** – in diesem Beispiel auf 3000 × 1000 Pixel gesetzt; passen Sie sie an Ihre gewünschte Papiergröße an oder verwenden Sie `Length.fromInches`, um **Seitenabmessungen** in Zoll **festzulegen**.  
+- **Hintergrundfarbe** – `AliceBlue` zeigt, wie man den Hintergrund der Zeichenfläche ändert; Sie können jede `Color` wählen.  
 
-Diese Einstellungen sind Teil der **Aspose HTML Save Options**, die das endgültige XPS‑Dokument beeinflussen.
+Diese Einstellungen sind Teil der **aspose html save options**, die das endgültige XPS‑Dokument beeinflussen.
 
-## EPUB nach XPS konvertieren
+## EPUB zu XPS konvertieren
 
-Abschließend rufen Sie den Konverter mit dem Stream, den konfigurierten Optionen und einem Ausgabepfad auf:
+Zum Schluss rufen Sie den Konverter mit dem Stream, den konfigurierten Optionen und einem Ausgabepfad auf:
 
 ```java
 Converter.convertEPUB(
@@ -104,16 +104,18 @@ Converter.convertEPUB(
 );
 ```
 
-Wenn diese Zeile ausgeführt wird, liest Aspose.HTML das EPUB, wendet die von Ihnen definierte Seiteneinrichtung und Hintergrundfarbe an und schreibt eine vollständig konforme XPS‑Datei.
+Wenn diese Zeile ausgeführt wird, liest Aspose.HTML das EPUB, wendet die von Ihnen festgelegte Seiteneinrichtung und Hintergrundfarbe an und schreibt eine vollständig konforme XPS‑Datei.
 
 ## Häufige Probleme & Tipps
-- **Falsche Seitendimensionen** – stellen Sie sicher, dass die Abmessungen in Pixeln angegeben sind (oder verwenden Sie `Length.fromInches`).  
-- **Fehlende Schriftarten** – betten Sie benötigte Schriftarten im EPUB ein oder installieren Sie sie auf dem JVM‑Host, um ein Zurückfallen zu vermeiden.  
-- **Große Dateien** – bei sehr großen EPUBs erhöhen Sie den JVM‑Heap (`-Xmx`), um `OutOfMemoryError` zu verhindern.
+
+- **Falsche Seitenabmessungen** – stellen Sie sicher, dass die Abmessungen in Pixeln angegeben sind (oder verwenden Sie `Length.fromInches`).  
+- **Fehlende Schriftarten** – betten Sie die erforderlichen Schriftarten im EPUB ein oder installieren Sie sie auf dem JVM‑Host, um ein Zurückfallen zu vermeiden.  
+- **Große Dateien** – bei sehr großen EPUBs erhöhen Sie den JVM‑Heap (`-Xmx`), um `OutOfMemoryError` zu verhindern.  
+- **Aspose HTML Lizenzierung** – stellen Sie sicher, dass vor der Konvertierung eine gültige Lizenz geladen ist; andernfalls erscheint das Testwasserzeichen.
 
 ## Fazit
 
-Durch die Nutzung von **Aspose HTML Save Options** erhalten Sie präzise Kontrolle darüber, wie ein EPUB nach XPS gerendert wird. Die obigen Schritte zeigen Ihnen, wie Sie die Seitengröße, die Hintergrundfarbe festlegen und die Konvertierung mit nur wenigen Zeilen Java‑Code durchführen. Integrieren Sie dieses Muster in Ihre Batch‑Verarbeitungspipelines, um Publishing‑Aufgaben effizient zu automatisieren.
+Durch die Nutzung von **Aspose HTML Save Options** erhalten Sie präzise Kontrolle darüber, wie ein EPUB zu XPS gerendert wird. Die obigen Schritte zeigen Ihnen, wie Sie **EPUB konvertieren**, **Seitenabmessungen** festlegen, den Hintergrund ändern und die Konvertierung mit nur wenigen Zeilen Java‑Code durchführen. Integrieren Sie dieses Muster in Ihre Batch‑Verarbeitungspipelines, um Veröffentlichungsaufgaben effizient zu automatisieren.
 
 ## Häufig gestellte Fragen
 
@@ -121,20 +123,20 @@ Durch die Nutzung von **Aspose HTML Save Options** erhalten Sie präzise Kontrol
 A: Es ist eine Java‑Bibliothek, die Entwicklern ermöglicht, HTML, EPUB und andere webbasierte Dokumente zu erstellen, zu bearbeiten, zu rendern und zu konvertieren, ohne einen Browser zu benötigen.
 
 **Q: Kann ich das in einem kommerziellen Projekt verwenden?**  
-A: Ja. Für den Produktionseinsatz benötigen Sie eine gültige Lizenz. Sie können eine auf der [purchase page](https://purchase.aspose.com/buy) erwerben.
+A: Ja. Für den Produktionseinsatz benötigen Sie eine gültige Lizenz. Sie können eine auf der [Kaufseite](https://purchase.aspose.com/buy) erwerben.
 
 **Q: Gibt es eine kostenlose Testversion?**  
 A: Auf jeden Fall. Laden Sie eine Testversion von [hier](https://releases.aspose.com/) herunter.
 
-**Q: Wo kann ich Support erhalten?**  
-A: Community‑Support und offizieller Support sind über die Aspose‑Foren unter [https://forum.aspose.com/](https://forum.aspose.com/) verfügbar.
+**Q: Wo kann ich Unterstützung erhalten?**  
+A: Community‑Support und offizielle Hilfe sind über die Aspose‑Foren unter [https://forum.aspose.com/](https://forum.aspose.com/) verfügbar.
 
 **Q: Was sind die Systemanforderungen?**  
-A: Ein Java Development Kit (JDK) 8+ und ein vom Aspose‑Runtime unterstütztes Betriebssystem. Stellen Sie sicher, dass Ihre Umgebung die zuvor genannten Voraussetzungen erfüllt.
+A: Ein Java Development Kit (JDK) 8+ und ein vom Aspose‑Runtime unterstütztes Betriebssystem. Stellen Sie sicher, dass Ihre Umgebung die oben genannten Voraussetzungen erfüllt.
 
 ---
 
-**Zuletzt aktualisiert:** 2026-01-09  
+**Zuletzt aktualisiert:** 2026-03-29  
 **Getestet mit:** Aspose.HTML for Java 24.12  
 **Autor:** Aspose  
 
