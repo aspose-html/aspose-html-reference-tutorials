@@ -112,6 +112,8 @@ Aspose.HTML позволяет прикрепить `DomMutationObserver` к л�
 О: Нет. Одна лицензия Aspose.HTML for Java покрывает все форматы вывода, включая PDF и XPS.
 
 ## Расширенные руководства по Aspose.HTML Java
+
+
 ### [Настройка полей HTML‑страницы с Aspose.HTML](./css-extensions-adding-title-page-number/)
 Узнайте, как настраивать поля страницы, добавлять номера страниц и заголовки в HTML‑документы с помощью Aspose.HTML for Java.
 ### [Наблюдатель изменений DOM с Aspose.HTML for Java](./dom-mutation-observer-observing-node-additions/)
@@ -126,6 +128,58 @@ Aspose.HTML позволяет прикрепить `DomMutationObserver` к л�
 Узнайте, как изменять размер страниц PDF с помощью Aspose.HTML for Java. Создавайте высококачественные PDF из HTML без усилий, эффективно контролируя размеры страниц.
 ### [Регулировка размера XPS‑страницы с Aspose.HTML for Java](./adjust-xps-page-size/)
 Узнайте, как изменять размер страниц XPS с помощью Aspose.HTML for Java. Легко контролируйте размеры выводимых XPS‑документов.
+### [Как выполнить JavaScript в Java – Полное руководство](./how-to-run-javascript-in-java-complete-guide/)
+Узнайте, как запускать JavaScript‑код из Java‑приложений с помощью Aspose.HTML for Java.
+### [Установка коэффициента пикселей устройства в Java – Руководство по мобильной песочнице](./set-device-pixel-ratio-in-java-mobile-sandbox-tutorial/)
+Узнайте, как задать device pixel ratio в Java при работе в мобильной песочнице Aspose.HTML, обеспечивая корректный рендеринг на разных экранах.
+### [Как включить JavaScript в Aspose HTML – загрузить HTML и получить текст](./how-to-enable-javascript-in-aspose-html-load-html-get-text/)
+Узнайте, как включить выполнение JavaScript при загрузке HTML и извлечь текстовое содержимое с помощью Aspose.HTML for Java.
+
+---
+
+**Последнее обновление:** 2025-11-29  
+**Тестировано с:** Aspose.HTML for Java 24.11  
+**Автор:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Извлечение HTML из MHTML – Полное руководство по Java](./extract-html-from-mhtml-complete-java-guide/)
+Узнайте, как извлечь HTML‑контент из MHTML‑файлов с помощью Aspose.HTML for Java.
+
+---
+
+**Последнее обновление:** 2025-11-29  
+**Тестировано с:** Aspose.HTML for Java 24.11  
+**Автор:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Выполнение JavaScript в Java – Полное руководство по запуску JS из Java](./execute-javascript-in-java-complete-guide-to-running-js-from/)
+Узнайте, как выполнять JavaScript из Java с помощью Aspose.HTML for Java, включая настройку среды и примеры кода.
+
+---
+
+**Последнее обновление:** 2025-11-29  
+**Тестировано с:** Aspose.HTML for Java 24.11  
+**Автор:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Как использовать Sandbox для конвертации HTML в PDF Java – пошаговое руководство](./how-to-use-sandbox-for-html-to-pdf-java-step-by-step-guide/)
+Подробное руководство по использованию Sandbox в Aspose.HTML for Java для безопасного преобразования HTML в PDF.
+### [Включение выполнения скриптов в Java – Полное руководство Aspose.HTML](./enable-script-execution-in-java-complete-aspose-html-guide/)
 
 ---
 

@@ -1,0 +1,7 @@
+Title: Convert HTML to WebP in Java – Complete Step‑by‑Step Guide
+Slug: convert-html-to-webp-in-java-complete-step-by-step-guide
+Category: conversion-html-to-various-image-formats
+ProcessedDate: 2026-06-26T07:26:15.053070
+SourceRepo: AI Search API
+Keywords: convert html to webp, save html as webp, export html as image, save document as webp, convert html image java
+PRNumber: 192

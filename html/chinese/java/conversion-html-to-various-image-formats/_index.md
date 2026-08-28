@@ -86,18 +86,16 @@ weight: 24
 - **缺少字体** – 在服务器上安装所需字体，或在 HTML 中使用 `@font-face` 嵌入。
 
 ## 转换 - HTML 到各种图像格式教程
+
+
 ### [Converting HTML to BMP](./convert-html-to-bmp/)
 使用 Aspose.HTML for Java 将 HTML 转换为 BMP。一个全面的教程，帮助您无缝地将 HTML 文档转换为 BMP 图像。
-
 ### [Converting HTML to GIF](./convert-html-to-gif/)
 了解如何使用 Aspose.HTML 在 Java 中将 HTML 转换为 GIF。一个完整的分步指南，帮助您高效完成 HTML 到 GIF 的转换。
-
 ### [Converting HTML to JPEG](./convert-html-to-jpeg/)
 学习使用 Aspose.HTML for Java 将 HTML 转换为 JPEG。一步步指南，助您实现无缝的文档处理。
-
 ### [Converting HTML to PNG](./convert-html-to-png/)
 了解如何使用 Aspose.HTML 在 Java 中将 HTML 转换为 PNG 图像。一个全面的指南，提供详细的步骤说明。
-
 ### [Create PNG from HTML – High‑DPI SVG Export in Java](./create-png-from-html-high-dpi-svg-export-in-java/)
 
 ### [如何将 HTML 渲染为 PNG – Java 开发者完整指南](./how-to-render-html-to-png-complete-guide-for-java-developers/)
@@ -105,9 +103,17 @@ weight: 24
 ### [在 Java 中从 HTML 创建 PNG – 完整分步指南](./create-png-from-html-in-java-full-step-by-step-guide/)
 使用 Aspose.HTML for Java 将 HTML 渲染为 PNG 图像的完整分步教程，帮助您轻松实现高质量输出。
 
+### [在 Java 中从 SVG 创建 PNG – 完整分步指南](./create-png-from-svg-in-java-complete-step-by-step-guide/)
+使用 Aspose.HTML for Java 将 SVG 文件转换为 PNG 图像的完整步骤指南。
 ### [Converting HTML to TIFF](./convert-html-to-tiff/)
 学习如何使用 Aspose.HTML for Java 轻松将 HTML 转换为 TIFF。一步步指南，帮助您高效处理文档。
-
+### [将 HTML 转换为 WebP](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
+使用 Aspose.HTML for Java 将 HTML 转换为 WebP。完整的 Java 指南，帮助您轻松生成高质量的 WebP 图像。
+### [如何在将 HTML 转换为 PNG 时设置 DPI – 完整指南](./how-to-set-dpi-when-converting-html-to-png-complete-guide/)
+### [Java 高 DPI 渲染 – 使用自定义用户代理捕获网页截图](./high-dpi-rendering-in-java-capture-webpage-screenshots-with/)
+### [使用线程池快速批量将 HTML 转换为 PNG](./create-png-from-html-fast-batch-conversion-using-a-thread-po/)
+演示如何利用线程池在 Java 中批量将 HTML 渲染为 PNG，提高转换效率并降低资源消耗。
+### [使用设置最大内存的方式将 HTML 转换为 PNG（Java）](./convert-html-to-png-with-set-max-memory-usage-in-java/)
 ## 常见问题解答
 
 **Q: 我可以使用 Java 将 HTML 转换为 PNG 而无需额外的图像库吗？**  

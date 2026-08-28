@@ -25,6 +25,7 @@ Aspose.HTML per .NET è un potente strumento che consente agli sviluppatori di l
 Prima di immergerci nei tutorial, cerchiamo di capire perché Aspose.HTML per .NET è la scelta preferita dagli sviluppatori. Aspose.HTML ti dà la possibilità di manipolare e gestire documenti HTML senza sforzo. Con il suo ampio set di funzionalità, puoi eseguire attività come l'analisi, il rendering e la conversione di documenti HTML in modo efficiente. Che tu sia uno sviluppatore esperto o alle prime armi, Aspose.HTML semplifica il tuo flusso di lavoro, facendoti risparmiare tempo e fatica.
 
 ## Tutorial sulle funzionalità avanzate
+
 Nel regno dello sviluppo .NET, padroneggiare le funzionalità avanzate può aprire le porte a infinite possibilità. Aspose.HTML ti fornisce gli strumenti per sfruttare appieno il potenziale della manipolazione HTML. Questo articolo ti guiderà attraverso una selezione di tutorial, svelando come sfruttare Aspose.HTML per diverse attività.
 ### [Configurazione dell'ambiente in .NET con Aspose.HTML](./environment-configuration/)
 Scopri come lavorare con documenti HTML in .NET usando Aspose.HTML per attività come gestione script, stili personalizzati, controllo esecuzione JavaScript e altro. Questo tutorial completo fornisce esempi passo dopo passo e FAQ per iniziare.
@@ -42,9 +43,12 @@ Converti dinamicamente HTML in PDF con Aspose.HTML per .NET. Facile integrazione
 Scopri come convertire HTML in PDF, XPS e immagini con Aspose.HTML per .NET. Esercitazione dettagliata con esempi di codice e FAQ.
 ### [Utilizzo di modelli HTML in .NET con Aspose.HTML](./using-html-templates/)
 Scopri come usare Aspose.HTML per .NET per generare dinamicamente documenti HTML da dati JSON. Sfrutta la potenza della manipolazione HTML nelle tue applicazioni .NET.
+### [Crea stream di memoria in C# – Guida alla creazione di stream personalizzati](./create-memory-stream-c-custom-stream-creation-guide/)
+Scopri come creare uno stream di memoria personalizzato in C# usando Aspose.HTML per .NET. Esempi passo passo e consigli pratici.
 ### [Come combinare i font programmaticamente in C# – Guida passo‑passo](./how-to-combine-fonts-programmatically-in-c-step-by-step-guid/)
 Scopri come unire più font in C# usando Aspose.HTML, con esempi pratici e istruzioni dettagliate passo‑passo.
-
+### [Recupera la versione dell'assembly in C# – Guida rapida per ottenere la versione della libreria](./get-assembly-version-in-c-quick-guide-to-retrieve-library-ve/)
+Scopri come ottenere la versione di un assembly C# in modo rapido, usando Aspose.HTML per identificare la versione della libreria.
 ## Conclusione
 
 Aspose.HTML per .NET apre le porte a un mondo di possibilità quando si tratta di lavorare con documenti HTML nelle tue applicazioni .NET. Questi tutorial sulle funzionalità avanzate ti forniranno le conoscenze e le competenze necessarie per sfruttare appieno il potenziale di Aspose.HTML. Porta i tuoi progetti di sviluppo, risparmia tempo e crea soluzioni straordinarie con Aspose.HTML per .NET. Inizia subito con i nostri tutorial e porta il tuo sviluppo web al livello successivo.

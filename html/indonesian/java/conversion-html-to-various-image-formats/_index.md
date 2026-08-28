@@ -88,6 +88,7 @@ Menggunakan Aspose.HTML for Java menyederhanakan konversi dokumen HTML ke berbag
 - **Font tidak ditemukan** – Instal font yang diperlukan di server atau sematkan dalam HTML menggunakan `@font-face`.  
 
 ## Konversi - HTML ke Berbagai Tutorial Format Gambar
+
 ### [Mengonversi HTML ke BMP](./convert-html-to-bmp/)
 Konversikan HTML ke BMP dengan Aspose.HTML untuk Java. Tutorial komprehensif untuk mengkonversi dokumen HTML menjadi gambar BMP dengan mudah menggunakan Aspose.HTML untuk Java.
 ### [Mengonversi HTML ke GIF](./convert-html-to-gif/)
@@ -102,9 +103,16 @@ Panduan lengkap membuat file PNG dari HTML menggunakan Aspose.HTML for Java, den
 Panduan lengkap untuk merender HTML menjadi PNG bagi pengembang Java menggunakan Aspose.HTML.
 ### [Buat PNG dari HTML – Ekspor SVG High‑DPI di Java](./create-png-from-html-high-dpi-svg-export-in-java/)
 Panduan membuat PNG dari HTML dengan mengekspor SVG beresolusi tinggi di Java menggunakan Aspose.HTML.
+### [Mengonversi HTML ke PNG dengan Pengaturan Memori Maksimum di Java](./convert-html-to-png-with-set-max-memory-usage-in-java/)
 ### [Mengonversi HTML ke TIFF](./convert-html-to-tiff/)
 Pelajari cara mudah mengkonversi HTML ke TIFF menggunakan Aspose.HTML untuk Java. Panduan langkah demi langkah untuk penanganan dokumen yang efisien.
+### [Cara mengatur DPI – Render HTML ke PNG dengan AsposeHTML](./how-to-set-dpi-render-html-to-png-with-asposehtml/)
 
+### [Mengonversi HTML ke WebP – Panduan Lengkap Java dengan Aspose.HTML](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
+### [Membuat PNG dari SVG di Java – Panduan Lengkap Langkah‑demi‑Langkah](./create-png-from-svg-in-java-complete-step-by-step-guide/)
+### [Rendering DPI Tinggi di Java – Tangkap Tangkapan Layar Halaman Web dengan User Agent Kustom](./high-dpi-rendering-in-java-capture-webpage-screenshots-with/)
+### [Cara Mengatur DPI Saat Mengonversi HTML ke PNG – Panduan Lengkap](./how-to-set-dpi-when-converting-html-to-png-complete-guide/)
+### [Buat PNG dari HTML – Konversi Batch Cepat Menggunakan Thread Pool](./create-png-from-html-fast-batch-conversion-using-a-thread-po/)
 ## Pertanyaan yang Sering Diajukan
 
 **T: Bisakah saya mengonversi HTML ke PNG menggunakan Java tanpa perpustakaan gambar tambahan?**  

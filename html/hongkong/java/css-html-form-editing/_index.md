@@ -26,12 +26,37 @@ url: /zh-hant/java/css-html-form-editing/
 現在，讓我們換個方向，探索如何使用 Aspose.HTML for Java 有效地編輯和提交 HTML 表單。表單是網站上使用者互動的核心，對吧？透過本教學課程，您將學習如何輕鬆更改表單的設計和功能。您將了解如何預先填充欄位、使用自訂邏輯驗證輸入以及促進向後端的無縫資料提交。想像一下：您的用戶可以在您的網站上填寫表格，並知道他們的資訊是安全可靠的 - 因為這就是您想要創造的體驗！本逐步指南充滿了可操作的見解，確保您掌握整個過程中的每個概念。[閱讀更多](./html-form-editing/). 
 
 ## 使用 Aspose.HTML for Java 教學進行 CSS 和 HTML 表單編輯
+
 ### [使用 Aspose.HTML for Java 的高階 CSS 擴充技術](./advanced-css-extension/)
 了解如何使用 Aspose.HTML for Java 來應用進階 CSS 技術，包括自訂頁邊距和動態內容。為開發人員提供的詳細實務教學。
 ### [使用 Aspose.HTML for Java 編輯並提交 HTML 表單](./html-form-editing/)
 在此綜合逐步指南中，了解如何使用 Aspose.HTML for Java 以程式設計方式編輯和提交 HTML 表單。
 ### [在 Java 中獲取計算後的 CSS – 完整 Aspose HTML 指南](./get-computed-css-in-java-complete-aspose-html-guide/)
 本指南說明如何使用 Aspose.HTML for Java 取得元素的計算樣式，適合需要精確樣式資訊的開發者。
+### [在 Java 中按類別選取元素 – 完整操作指南](./select-element-by-class-in-java-complete-how-to-guide/)
+本指南說明如何在 Java 中使用 Aspose.HTML 按類別選取元素，涵蓋完整步驟與範例。
+### [如何在 Java 中讀取 CSS – Aspose.HTML 完整指南](./how-to-read-css-in-java-complete-guide-with-aspose-html/)
+本完整指南說明如何使用 Aspose.HTML 在 Java 中讀取與解析 CSS 檔案，涵蓋實作步驟與範例。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [取得計算樣式（Java） – 從 HTML 提取背景顏色](./get-computed-style-java-extract-background-color-from-html/)
+了解如何使用 Aspose.HTML for Java 取得計算樣式，並從 HTML 中提取背景顏色。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [在 Java 中取得元素計算樣式 – 完整步驟指南](./get-element-computed-style-in-java-full-step-by-step-guide/)
+本指南逐步說明如何在 Java 中使用 Aspose.HTML 取得元素的計算樣式，涵蓋完整示例與最佳實踐。
+### [如何在 Java 中使用 getComputedStyle – 提取背景顏色及其他 CSS 屬性](./how-to-use-getcomputedstyle-in-java-extract-background-color/)
+本教學示範如何在 Java 使用 Aspose.HTML 的 getComputedStyle 方法取得元素的背景顏色與其他 CSS 屬性。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

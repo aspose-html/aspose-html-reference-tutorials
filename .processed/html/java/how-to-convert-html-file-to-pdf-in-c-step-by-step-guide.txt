@@ -1,0 +1,7 @@
+Title: How to Convert HTML File to PDF in C# – Step‑by‑Step Guide
+Slug: how-to-convert-html-file-to-pdf-in-c-step-by-step-guide
+Category: conversion-html-to-other-formats
+ProcessedDate: 2026-07-18T22:40:52.865676
+SourceRepo: AI Search API
+Keywords: how to convert html file to pdf, convert html to pdf c#, batch convert html files to pdf, generate pdf from html document
+PRNumber: 214

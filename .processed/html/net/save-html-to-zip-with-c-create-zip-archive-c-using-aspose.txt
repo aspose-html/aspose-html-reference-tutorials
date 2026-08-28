@@ -1,0 +1,7 @@
+Title: save html to zip with C# – create zip archive c# using Aspose
+Slug: save-html-to-zip-with-c-create-zip-archive-c-using-aspose
+Category: advanced-features
+ProcessedDate: 2026-07-05T18:34:42.205954
+SourceRepo: AI Search API
+Keywords: save html to zip, create zip archive c#
+PRNumber: 202

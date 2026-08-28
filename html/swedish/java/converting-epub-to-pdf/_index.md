@@ -50,12 +50,15 @@ Redo att börja? Låt oss dyka in i världen av sömlös dokumentkonvertering me
 Lås upp potentialen i ditt digitala innehåll med Aspose.HTML for Java. Påbörja din EPUB till PDF‑konverteringsresa nu.
 
 ## Handledning för konvertering av EPUB till PDF
+
 ### [Konvertera EPUB till PDF](./convert-epub-to-pdf/)
 Lås upp EPUB till PDF-konvertering med Aspose.HTML for Java, det kraftfulla Java-biblioteket. Skapa tillgängligt innehåll utan ansträngning.
 ### [Ange anpassad strömleverantör för EPUB till PDF](./convert-epub-to-pdf-specify-custom-stream-provider/)
 Lär dig hur du enkelt konverterar EPUB till PDF i Java med Aspose.HTML, och förbättrar dina dokumentbehandlingsmöjligheter.
 ### [Ange PDF-sparalternativ för EPUB till PDF](./convert-epub-to-pdf-specify-pdf-save-options/)
 Lär dig hur du konverterar EPUB till PDF i Java med Aspose.HTML, ett kraftfullt HTML-manipuleringsbibliotek.
+### [Hur man bäddar in teckensnitt vid konvertering av EPUB till PDF i Java](./how-to-embed-fonts-when-converting-epub-to-pdf-in-java/)
+Lär dig hur du bäddar in teckensnitt för att behålla korrekt formatering när du konverterar EPUB till PDF med Aspose.HTML för Java.
 ### [Konvertera EPUB till BMP](./convert-epub-to-bmp/)
 Lär dig hur du konverterar EPUB till BMP med Aspose.HTML for Java. Steg‑för‑steg‑guide för effektiv innehållstransformation.
 ### [Konvertera EPUB till GIF](./convert-epub-to-gif/)
@@ -74,6 +77,10 @@ Lär dig använda Aspose.HTML for Java: Konvertera EPUB till bild & mer. Utforsk
 Lär dig hur du konverterar EPUB till bilder med Aspose.HTML for Java. Omvandla ditt digitala innehåll utan ansträngning. Steg‑för‑steg‑guide inkluderad.
 ### [Konvertera EPUB till PDF med Java – Steg‑för‑Steg‑guide](./convert-epub-to-pdf-with-java-step-by-step-guide/)
 
+### [Hur man bäddar in teckensnitt vid konvertering av EPUB till PDF – Java‑guide](./how-to-embed-fonts-when-converting-epub-to-pdf-java-guide/)
+Lär dig hur du bäddar in teckensnitt vid EPUB‑till‑PDF‑konvertering i Java med Aspose.HTML för att säkerställa korrekt teckensnittsrendering.
+### [epub till pdf-handledning: Konvertera eBook till PDF med Aspose](./epub-to-pdf-tutorial-convert-ebook-to-pdf-with-aspose/)
+Lär dig hur du konverterar en eBook till PDF med Aspose.HTML för Java i en enkel steg‑för‑steg‑guide.
 ## Vanliga frågor
 
 **Q:** *Kan jag konvertera skyddade EPUB-filer till PDF?*  

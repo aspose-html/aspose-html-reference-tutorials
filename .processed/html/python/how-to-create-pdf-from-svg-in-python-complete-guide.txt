@@ -1,0 +1,7 @@
+Title: How to create PDF from SVG in Python – complete guide
+Slug: how-to-create-pdf-from-svg-in-python-complete-guide
+Category: general
+ProcessedDate: 2026-08-22T22:19:48.493091
+SourceRepo: AI Search API
+Keywords: create pdf from svg, convert svg to pdf, svg file to pdf, svg to pdf converter, save svg as pdf
+PRNumber: 249

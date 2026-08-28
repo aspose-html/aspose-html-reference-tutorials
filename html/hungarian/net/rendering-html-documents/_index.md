@@ -42,8 +42,14 @@ Most, hogy be van állítva az Aspose.HTML for .NET, itt az ideje, hogy felfedez
 
 ### [Rendelje meg a HTML-t PNG-ként .NET-ben az Aspose.HTML-lel](./render-html-as-png/)
 Tanulja meg az Aspose.HTML for .NET használatát: Manipuláljon HTML-t, konvertáljon különféle formátumokba stb. Merüljön el ebben az átfogó oktatóanyagban!
+### [HTML renderelése PNG-ként C#‑ban – Teljes lépésről‑lépésre útmutató](./render-html-to-png-in-c-complete-step-by-step-guide/)
+Tanulja meg, hogyan renderelhet HTML-t PNG formátumba C#‑ban az Aspose.HTML segítségével, részletes lépésről‑lépésre útmutatóval.
+### [HTML renderelése PNG‑ként – Teljes lépésről‑lépésre útmutató](./how-to-render-html-to-png-complete-step-by-step-guide/)
+Tanulja meg, hogyan renderelhet HTML-t PNG formátumba az Aspose.HTML for .NET segítségével, részletes útmutatóval.
+### [HTML renderelése PNG-ként – Teljes C# útmutató](./how-to-render-html-as-png-complete-c-guide/)
+Ismerje meg, hogyan renderelhet HTML-t PNG formátumba C#-ban az Aspose.HTML segítségével, lépésről lépésre útmutató.
 ### [Az EPUB megjelenítése XPS-ként .NET-ben az Aspose.HTML segítségével](./render-epub-as-xps/)
-Ebben az átfogó oktatóanyagban megtudhatja, hogyan hozhat létre és jeleníthet meg HTML-dokumentumokat az Aspose.HTML for .NET segítségével. Merüljön el a HTML-kezelés, a webkaparás és egyebek világában.
+Ebben az átfogó oktatóanyagban megtudhatja, hogyan hozhat létre és jeleníthet meg HTML-dokumentumokat az Aspose.HTML for .NET segítségével. Merüljön el a webkaparás és egyebek világában.
 ### [Renderelési időtúllépés .NET-ben az Aspose.HTML-lel](./rendering-timeout/)
 Ismerje meg, hogyan szabályozhatja hatékonyan a megjelenítési időtúllépéseket az Aspose.HTML for .NET-ben. Fedezze fel a megjelenítési lehetőségeket, és biztosítsa a HTML-dokumentumok gördülékeny megjelenítését.
 ### [Rendelje meg az MHTML-t XPS-ként .NET-ben az Aspose.HTML-lel](./render-mhtml-as-xps/)
@@ -52,6 +58,17 @@ Ismerje meg, hogyan szabályozhatja hatékonyan a megjelenítési időtúllépé
 Tanuljon meg több HTML-dokumentumot renderelni az Aspose.HTML for .NET használatával. Növelje dokumentumfeldolgozási képességeit ezzel a hatékony könyvtárral.
 ### [Jelenítse meg az SVG-dokumentumot PNG-ként .NET-ben az Aspose.HTML-lel](./render-svg-doc-as-png/)
 Oldja fel az Aspose.HTML erejét .NET-hez! Tanulja meg, hogyan lehet könnyedén renderelni az SVG-dokumentumot PNG-ként. Merüljön el a lépésről lépésre bemutatott példákban és a GYIK-ben. Kezdje el most!
+### [HTML renderelése C#-ban – Teljes útmutató a bekezdések stílusozásához](./how-to-render-html-in-c-complete-guide-to-styling-paragraphs/)
+Ismerje meg, hogyan lehet stílusos bekezdéseket létrehozni és renderelni HTML-t C#-ban az Aspose.HTML segítségével.
+### [HTML renderelése – Teljes útmutató egyedi erőforráskezelővel](./how-to-render-html-complete-guide-with-custom-resource-handl/)
+Fedezze fel, hogyan renderelhet HTML-t egyedi erőforráskezelővel a teljes útmutatóban.
+### [Hogyan használja az Aspose-t HTML PNG-ként rendereléshez – Lépésről lépésre útmutató](./how-to-use-aspose-to-render-html-to-png-step-by-step-guide/)
+Tanulja meg, hogyan renderelhet HTML-t PNG formátumba az Aspose segítségével .NET környezetben, lépésről lépésre.
+### [Hogyan rendereljük a HTML-t PNG formátumba az Aspose-szal – Teljes útmutató](./how-to-render-html-to-png-with-aspose-complete-guide/)
+Ismerje meg, hogyan konvertálhatja a HTML-t PNG-be az Aspose segítségével .NET környezetben, lépésről lépésre.
+### [PNG létrehozása HTML-ből – Teljes C# renderelési útmutató](./create-png-from-html-full-c-rendering-guide/)
+Tanulja meg, hogyan hozhat létre PNG képeket HTML-ből C#-ban az Aspose.HTML segítségével.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

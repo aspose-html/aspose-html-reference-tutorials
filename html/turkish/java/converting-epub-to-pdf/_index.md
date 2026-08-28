@@ -50,12 +50,15 @@ Başlamaya hazır mısınız? Aspose.HTML for Java ile sorunsuz belge dönüşü
 Aspose.HTML for Java ile dijital içeriğinizin potansiyelini ortaya çıkarın. EPUB'den PDF'ye dönüşüm yolculuğunuza hemen başlayın.
 
 ## EPUB'yi PDF'ye Dönüştürme Öğreticileri
+
 ### [EPUB'yi PDF'ye Dönüştürme](./convert-epub-to-pdf/)
 Aspose.HTML for Java ile EPUB'den PDF'ye dönüşümün kilidini açın, güçlü Java kütüphanesi. Erişilebilir içeriği zahmetsizce oluşturun.
 ### [Specifying Custom Stream Provider for EPUB to PDF](./convert-epub-to-pdf-specify-custom-stream-provider/)
 Aspose.HTML ile Java'da EPUB'yi PDF'ye zahmetsizce dönüştürmeyi öğrenin, belge işleme yeteneklerinizi artırın.
 ### [Specifying PDF Save Options for EPUB to PDF](./convert-epub-to-pdf-specify-pdf-save-options/)
 Aspose.HTML kullanarak Java'da EPUB'yi PDF'ye dönüştürmeyi öğrenin, güçlü bir HTML manipülasyon kütüphanesi.
+### [Java'da EPUB'ten PDF'ye Dönüştürürken Yazı Tipi Gömme](./how-to-embed-fonts-when-converting-epub-to-pdf-in-java/)
+Aspose.HTML for Java kullanarak EPUB'ten PDF'ye dönüşüm sırasında özel yazı tiplerini nasıl gömeceğinizi öğrenin.
 ### [Converting EPUB to BMP](./convert-epub-to-bmp/)
 Aspose.HTML for Java kullanarak EPUB'yi BMP'ye dönüştürmeyi öğrenin. Etkili içerik dönüşümü için adım adım rehber.
 ### [Converting EPUB to GIF](./convert-epub-to-gif/)
@@ -75,6 +78,10 @@ Aspose.HTML for Java ile EPUB'yi görüntülere dönüştürmeyi öğrenin. Diji
 ### [Java ile EPUB'u PDF'e Dönüştürme – Adım Adım Kılavuz](./convert-epub-to-pdf-with-java-step-by-step-guide/)
 Aspose.HTML for Java kullanarak Java ile EPUB'tan PDF'e adım adım dönüşüm yapın.
 
+### [EPUB'yi PDF'ye Dönüştürürken Fontları Gömmek – Java Rehberi](./how-to-embed-fonts-when-converting-epub-to-pdf-java-guide/)
+Aspose.HTML for Java ile EPUB'tan PDF'ye dönüştürürken fontları gömmeyi adım adım öğrenin.
+### [epub to pdf öğreticisi: eKitabı Aspose ile PDF'ye dönüştürün](./epub-to-pdf-tutorial-convert-ebook-to-pdf-with-aspose/)
+Aspose.HTML for Java kullanarak eKitapları PDF'ye dönüştürmeyi adım adım öğrenin.
 ## Sıkça Sorulan Sorular
 
 **Q:** *Korunan EPUB dosyalarını PDF'ye dönüştürebilir miyim?*  

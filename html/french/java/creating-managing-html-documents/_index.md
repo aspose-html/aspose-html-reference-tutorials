@@ -42,6 +42,8 @@ Pour générer de nouveaux documents HTML, Aspose.HTML pour Java offre une solut
  Enfin, pour ceux qui souhaitent approfondir leurs compétences, il existe une multitude de sujets avancés à explorer. Apprenez à gérer les documents SVG ou à gérer les événements de chargement de documents pour créer des applications Web réactives et dynamiques. Ces didacticiels vous emmènent au-delà du HTML, en plongeant dans les subtilités des graphiques vectoriels évolutifs (SVG) et de la programmation pilotée par événements.[En savoir plus](./create-manage-svg-documents/)
 
 ## Création et gestion de documents HTML dans Aspose. Tutoriels HTML pour Java
+
+
 ### [Créer des documents HTML de manière asynchrone dans Aspose.HTML pour Java](./create-html-documents-async/)
 Maîtrisez la création de documents HTML de manière asynchrone avec Aspose.HTML pour Java. Guide étape par étape, conseils et FAQ inclus pour un apprentissage rapide.
 ### [Créer des documents HTML vides dans Aspose.HTML pour Java](./create-empty-html-documents/)
@@ -60,8 +62,38 @@ Découvrez comment charger facilement des documents HTML à partir d'une URL en 
 Apprenez à créer de nouveaux documents HTML à l'aide d'Aspose.HTML pour Java grâce à ce guide étape par étape simple. Commencez à générer du contenu HTML dynamique.
 ### [Gérer les événements de chargement de documents dans Aspose.HTML pour Java](./handle-document-load-events/)
 Apprenez à gérer les événements de chargement de documents dans Aspose.HTML pour Java avec ce guide étape par étape. Améliorez vos applications Web.
+### [Générer du HTML à partir de JavaScript en Java – Guide complet étape par étape](./generate-html-from-javascript-in-java-complete-step-by-step/)
+Apprenez à générer du HTML à partir de code JavaScript en Java avec ce guide complet étape par étape.
 ### [Créer et gérer des documents SVG dans Aspose.HTML pour Java](./create-manage-svg-documents/)
 Apprenez à créer et à gérer des documents SVG à l'aide d'Aspose.HTML pour Java ! Ce guide complet couvre tout, de la création de base à la manipulation avancée.
+### [Créer un bac à sable pour HTML en Java – Guide étape par étape](./create-sandbox-for-html-in-java-step-by-step-guide/)
+Apprenez à créer un environnement sécurisé pour manipuler du HTML en Java avec Aspose.HTML, guide complet pas à pas.
+### [Comment interroger le HTML en Java – Tutoriel complet](./how-to-query-html-in-java-complete-tutorial/)
+Apprenez à interroger et extraire des données HTML en Java avec Aspose.HTML grâce à ce guide complet étape par étape.
+### [Comment analyser le HTML en Java – Charger, interroger et compter les éléments](./how-to-parse-html-java-load-query-count-elements/)
+Apprenez à charger, interroger et compter les éléments HTML en Java avec Aspose.HTML grâce à ce guide complet.
+### [Exécuter du JavaScript asynchrone en Java – Guide complet étape par étape](./execute-async-javascript-in-java-complete-step-by-step-guide/)
+Apprenez à exécuter du JavaScript de façon asynchrone dans vos applications Java avec Aspose.HTML, guide complet pas à pas.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Itérer NodeList Java – Lire le HTML et obtenir le src de l'image](./iterate-nodelist-java-read-html-get-image-src/)
+Apprenez à parcourir un NodeList en Java pour lire le HTML et extraire les attributs src des images.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Itérer sur NodeList en Java – Guide complet](./iterate-over-nodelist-java-complete-guide/)
+Apprenez à parcourir un NodeList en Java avec Aspose.HTML grâce à ce guide complet étape par étape.
+### [Extraire du texte à partir de HTML avec Java – Guide complet étape par étape](./extract-text-from-html-with-java-complete-step-by-step-guide/)
+Apprenez à extraire du texte d'un document HTML en Java avec Aspose.HTML grâce à ce guide complet étape par étape.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

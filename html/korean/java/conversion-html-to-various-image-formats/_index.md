@@ -86,21 +86,26 @@ Aspose.HTML for Java를 사용하면 HTML 문서를 다양한 이미지 형식�
 - **폰트 누락** – 서버에 필요한 폰트를 설치하거나 `@font-face`를 사용해 HTML에 임베드합니다.
 
 ## 변환 - HTML을 다양한 이미지 형식으로 변환하는 튜토리얼
-### [HTML을 BMP로 변환](./convert-html-to-bmp/)
-Aspose.HTML for Java를 사용해 HTML을 BMP로 변환합니다. HTML 문서를 BMP 이미지로 원활하게 변환하는 포괄적인 튜토리얼입니다.
-### [HTML을 GIF로 변환](./convert-html-to-gif/)
-Aspose.HTML를 사용해 Java에서 HTML을 GIF로 변환하는 방법을 배웁니다. 효율적인 HTML‑to‑GIF 변환을 위한 포괄적인 단계별 가이드입니다.
-### [HTML을 JPEG로 변환](./convert-html-to-jpeg/)
-Aspose.HTML for Java를 사용해 HTML을 JPEG로 변환하는 방법을 배웁니다. 원활한 문서 처리를 위한 단계별 가이드입니다.
-### [HTML을 PNG로 변환](./convert-html-to-png/)
-Aspose.HTML를 사용해 Java에서 HTML을 PNG 이미지로 변환하는 방법을 배웁니다. 단계별 지침이 포함된 포괄적인 가이드입니다.
 ### [Java에서 HTML을 PNG로 생성 – 전체 단계별 가이드](./create-png-from-html-in-java-full-step-by-step-guide/)
 Java에서 Aspose.HTML를 활용해 HTML을 PNG 파일로 변환하는 전체 과정을 단계별로 안내합니다.
 ### [HTML을 PNG로 고 DPI SVG 내보내기 – Java에서 만들기](./create-png-from-html-high-dpi-svg-export-in-java/)
-### [HTML을 TIFF로 변환](./convert-html-to-tiff/)
-Aspose.HTML for Java를 사용해 HTML을 TIFF로 쉽게 변환하는 방법을 배웁니다. 효율적인 문서 처리를 위한 단계별 가이드입니다.
 ### [HTML을 PNG로 렌더링하는 방법 – Java 개발자를 위한 완전 가이드](./how-to-render-html-to-png-complete-guide-for-java-developers/)
+### [dpi 설정 – AsposeHTML로 HTML을 PNG로 렌더링](./how-to-set-dpi-render-html-to-png-with-asposehtml/)
+AsposeHTML를 사용해 PNG 이미지의 DPI를 설정하는 방법을 단계별로 안내합니다.
 
+
+### [HTML을 BMP로 변환](./convert-html-to-bmp/)
+### [HTML을 GIF로 변환](./convert-html-to-gif/)
+### [HTML을 JPEG로 변환](./convert-html-to-jpeg/)
+### [HTML을 PNG로 변환](./convert-html-to-png/)
+### [HTML을 TIFF로 변환](./convert-html-to-tiff/)
+### [HTML을 WebP로 변환 – Aspose.HTML와 함께하는 완전한 Java 가이드](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
+### [Java에서 SVG를 PNG로 변환 – 완전한 단계별 가이드](./create-png-from-svg-in-java-complete-step-by-step-guide/)
+### [HTML을 PNG로 변환할 때 DPI 설정 방법 – 완전 가이드](./how-to-set-dpi-when-converting-html-to-png-complete-guide/)
+### [Java에서 고 DPI 렌더링 – 사용자 에이전트 지정으로 웹페이지 스크린샷 캡처](./high-dpi-rendering-in-java-capture-webpage-screenshots-with/)
+### [HTML에서 PNG 만들기 – 스레드 풀을 이용한 빠른 배치 변환](./create-png-from-html-fast-batch-conversion-using-a-thread-po/)
+스레드 풀을 활용해 다수의 HTML을 PNG로 빠르게 일괄 변환하는 방법을 단계별로 안내합니다.
+### [Java에서 최대 메모리 사용량을 설정하여 HTML을 PNG로 변환](./convert-html-to-png-with-set-max-memory-usage-in-java/)
 ## 자주 묻는 질문
 
 **Q: Java에서 추가 이미지 라이브러리 없이 HTML을 PNG로 변환할 수 있나요?**  

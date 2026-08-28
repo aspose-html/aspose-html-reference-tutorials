@@ -1,0 +1,7 @@
+Title: convert html to pdf – Complete Python Guide for Reliable Document Conversion
+Slug: convert-html-to-pdf-complete-python-guide-for-reliable-docum
+Category: general
+ProcessedDate: 2026-07-08T22:54:06.808825
+SourceRepo: AI Search API
+Keywords: convert html to pdf, how to convert html, html document pdf, limit nesting depth, prevent infinite loops
+PRNumber: 207

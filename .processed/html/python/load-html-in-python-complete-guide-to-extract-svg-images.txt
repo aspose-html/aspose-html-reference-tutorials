@@ -1,0 +1,7 @@
+Title: Load HTML in Python – Complete Guide to Extract SVG Images
+Slug: load-html-in-python-complete-guide-to-extract-svg-images
+Category: general
+ProcessedDate: 2026-06-10T12:38:03.970163
+SourceRepo: AI Search API
+Keywords: load html python, extract svg images, extract svg from html, search html svg, find inline svg
+PRNumber: 180

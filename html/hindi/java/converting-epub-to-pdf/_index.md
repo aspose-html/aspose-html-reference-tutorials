@@ -46,6 +46,7 @@ EPUB को PDF में बदलना केवल शुरुआत है
 Aspose.HTML for Java के साथ अपने डिजिटल कंटेंट की संभावनाओं को अनलॉक करें। अभी अपना EPUB को PDF रूपांतरण यात्रा शुरू करें।
 
 ## EPUB को PDF रूपांतरण ट्यूटोरियल्स
+
 ### [EPUB को PDF में बदलना](./convert-epub-to-pdf/)
 Aspose.HTML for Java, शक्तिशाली Java लाइब्रेरी के साथ EPUB को PDF रूपांतरण अनलॉक करें। आसानी से सुलभ कंटेंट बनाएं।
 
@@ -54,34 +55,30 @@ Java और Aspose.HTML का उपयोग करके EPUB को PDF म�
 
 ### [EPUB को PDF के लिए कस्टम स्ट्रीम प्रोवाइडर निर्दिष्ट करना](./convert-epub-to-pdf-specify-custom-stream-provider/)
 Aspose.HTML के साथ Java में EPUB को PDF में आसानी से बदलना सीखें, जिससे आपके दस्तावेज़ प्रोसेसिंग क्षमताओं में सुधार होगा।
-
 ### [EPUB को PDF के लिए PDF सहेजने के विकल्प निर्दिष्ट करना](./convert-epub-to-pdf-specify-pdf-save-options/)
 Aspose.HTML, एक शक्तिशाली HTML मैनिपुलेशन लाइब्रेरी का उपयोग करके Java में EPUB को PDF में कैसे बदलें सीखें।
-
+### [Java में EPUB को PDF में बदलते समय फ़ॉन्ट एम्बेड कैसे करें](./how-to-embed-fonts-when-converting-epub-to-pdf-in-java/)
+Aspose.HTML for Java का उपयोग करके EPUB को PDF में बदलते समय फ़ॉन्ट एम्बेड करने की प्रक्रिया सीखें।
 ### [EPUB को BMP में बदलना](./convert-epub-to-bmp/)
 Aspose.HTML for Java का उपयोग करके EPUB को BMP में कैसे बदलें सीखें। कुशल कंटेंट ट्रांसफ़ॉर्मेशन के लिए चरण‑दर‑चरण गाइड।
-
 ### [EPUB को GIF में बदलना](./convert-epub-to-gif/)
 Aspose.HTML for Java का उपयोग करके EPUB को GIF में कैसे बदलें सीखें। आपके सभी मल्टीमीडिया आवश्यकताओं के लिए आसान और कुशल रूपांतरण प्रक्रिया।
-
 ### [EPUB को JPG में बदलना](./convert-epub-to-jpg/)
 Aspose.HTML for Java के साथ EPUB को JPG इमेजेज में कैसे बदलें सीखें। सहज रूपांतरण के लिए हमारे चरण‑दर‑चरण गाइड का पालन करें।
-
 ### [EPUB को PNG में बदलना](./convert-epub-to-png/)
 Aspose.HTML for Java का उपयोग करके EPUB को PNG में कैसे बदलें सीखें। हमारे चरण‑दर‑चरण गाइड का पालन करें और अपने eBook कंटेंट को दृश्य रूप से आकर्षक बनाएं।
-
 ### [EPUB को TIFF में बदलना](./convert-epub-to-tiff/)
 Aspose.HTML for Java का उपयोग करके EPUB को TIFF में कैसे बदलें सीखें। उच्च गुणवत्ता वाले दस्तावेज़ रूपांतरण के लिए हमारे चरण‑दर‑चरण गाइड का पालन करें।
-
 ### [EPUB को इमेज रूपांतरण के लिए कस्टम स्ट्रीम प्रोवाइडर निर्दिष्ट करना](./convert-epub-to-image-specify-custom-stream-provider/)
 Aspose.HTML for Java का उपयोग करके EPUB फ़ाइलों को इमेज में बदलने के लिए इस चरण‑दर‑चरण गाइड के साथ सीखें।
-
 ### [EPUB को इमेज रूपांतरण के लिए इमेज सहेजने के विकल्प निर्दिष्ट करना](./convert-epub-to-image-specify-image-save-options/)
 Aspose.HTML for Java का उपयोग करना सीखें: EPUB को इमेज में बदलें और अधिक। हमारे चरण‑दर‑चरण गाइड का अन्वेषण करें।
-
 ### [EPUB को इमेज में बदलना](./convert-epub-to-image/)
 Aspose.HTML for Java के साथ EPUB को इमेज में कैसे बदलें सीखें। अपने डिजिटल कंटेंट को सहजता से बदलें। चरण‑दर‑चरण गाइड शामिल है।
-
+### [EPUB को PDF में बदलते समय फ़ॉन्ट एम्बेड करना – Java गाइड](./how-to-embed-fonts-when-converting-epub-to-pdf-java-guide/)
+Aspose.HTML for Java का उपयोग करके EPUB को PDF में बदलते समय फ़ॉन्ट एम्बेड करने की प्रक्रिया सीखें।
+### [EPUB को PDF ट्यूटोरियल: Aspose के साथ eBook को PDF में बदलें](./epub-to-pdf-tutorial-convert-ebook-to-pdf-with-aspose/)
+Aspose.HTML for Java का उपयोग करके eBook को PDF में बदलने की प्रक्रिया सीखें।
 ## अक्सर पूछे जाने वाले प्रश्न
 
 **Q:** *क्या मैं संरक्षित EPUB फ़ाइलों को PDF में बदल सकता हूँ?*  
