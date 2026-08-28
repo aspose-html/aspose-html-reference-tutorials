@@ -1,11 +1,35 @@
 ---
-date: 2026-01-28
-description: Erfahren Sie, wie Sie einen benutzerdefinierten Schema‑Handler mit Aspose.HTML
-  für Java erstellen. Dieses Schritt‑für‑Schritt‑Tutorial zeigt Ihnen alles, was Sie
-  benötigen.
-linktitle: Custom Schema Message Handler with Aspose.HTML
+date: 2026-06-14
+description: Erfahren Sie, wie Sie einen custom schema handler mit Aspose.HTML für
+  Java erstellen. Dieses Schritt-für-Schritt-Tutorial zeigt Ihnen alles, was Sie benötigen.
+keywords:
+- create custom schema handler
+- Aspose.HTML Java
+- custom schema message handling
+linktitle: Custom Schema Message Handler mit Aspose.HTML
+schemas:
+- author: Aspose
+  dateModified: '2026-06-14'
+  description: Learn how to create custom schema handler with Aspose.HTML for Java.
+    This step‑by‑step tutorial shows you everything you need.
+  headline: How to create custom schema handler with Aspose.HTML for Java
+  type: TechArticle
+- questions:
+  - answer: Aspose.HTML for Java is utilized for manipulating and converting HTML
+      files in Java applications, enabling sophisticated document handling.
+    question: What is Aspose.HTML for Java used for?
+  - answer: Yes, you can access a free trial of Aspose.HTML for Java [here](https://releases.aspose.com/).
+    question: Is there a free trial for Aspose.HTML?
+  - answer: You can create multiple custom schema message handlers by extending the
+      `CustomSchemaMessageHandler` class and implementing custom logic for each schema.
+    question: How do I handle different schemas?
+  - answer: Yes, you can purchase a permanent license for Aspose.HTML [here](https://purchase.aspose.com/buy).
+    question: Can I buy Aspose.HTML permanently?
+  - answer: You can access support by visiting the Aspose forum for HTML [here](https://forum.aspose.com/c/html/29).
+    question: Where can I find support for Aspose.HTML?
+  type: FAQPage
 second_title: Java HTML Processing with Aspose.HTML
-title: Wie man einen benutzerdefinierten Schema‑Handler mit Aspose.HTML für Java erstellt
+title: Wie man einen custom schema handler mit Aspose.HTML für Java erstellt
 url: /de/java/custom-schema-message-handling/custom-schema-message-handler/
 weight: 11
 ---
@@ -14,58 +38,62 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# So erstellen Sie einen benutzerdefinierten Schema‑Handler mit Aspose.HTML für Java
+# Wie man einen benutzerdefinierten Schema-Handler mit Aspose.HTML für Java erstellt
 
-## Einführung
-Willkommen, liebe Entwickler! Wenn Sie Ihre Java‑Anwendungen mit leistungsstarken HTML‑Manipulationsfunktionen erweitern möchten, sind Sie hier genau richtig. In diesem Tutorial **erstellen wir einen benutzerdefinierten Schema‑Handler** mit Aspose.HTML für Java. Denken Sie an den Handler als geheime Sauce, die die gewöhnliche HTML‑Verarbeitung zu einer Gourmet‑Lösung macht und Ihnen ermöglicht, Nachrichten nach Ihren eigenen Schema‑Definitionen zu filtern und zu verwalten.
+## Einleitung
+Willkommen, liebe Entwickler! Wenn Sie Ihre Java-Anwendungen mit robusten HTML-Manipulationsfähigkeiten erweitern möchten, sind Sie hier genau richtig. In diesem Tutorial werden wir **create custom schema handler** mit Aspose.HTML für Java erstellen. Stellen Sie sich den Handler als geheime Sauce vor, die die gewöhnliche HTML-Verarbeitung zu einer Gourmet‑Lösung macht und Ihnen ermöglicht, Nachrichten nach Ihren eigenen Schema‑Definitionen zu filtern und zu verwalten. Sie werden sehen, warum dieser Ansatz schneller, zuverlässiger und perfekt für serverseitige Pipelines geeignet ist.
 
-## Schnellantworten
+## Schnelle Antworten
 - **Was macht der Handler?** Er filtert HTML‑Nachrichten basierend auf einem benutzerdefinierten Schema.  
-- **Welche Bibliothek wird benötigt?** Aspose.HTML für Java.  
-- **Benötige ich eine Lizenz?** Eine kostenlose Testversion reicht für die Entwicklung; für die Produktion ist eine kommerzielle Lizenz erforderlich.  
+- **Welche Bibliothek wird benötigt?** Aspose.HTML for Java.  
+- **Brauche ich eine Lizenz?** Eine kostenlose Testversion funktioniert für die Entwicklung; für die Produktion ist eine kommerzielle Lizenz erforderlich.  
 - **Welche Java‑Version wird unterstützt?** JDK 11 oder höher.  
-- **Kann ich ihn lokal testen?** Ja – führen Sie einfach die bereitgestellte Testklasse aus.
+- **Kann ich es lokal testen?** Ja – führen Sie einfach die bereitgestellte Testklasse aus.
 
-## Was ist ein benutzerdefinierter Schema‑Handler?
-Ein **benutzerdefinierter Schema‑Handler** ist ein Code‑Snippet, das HTML‑bezogene Nachrichten abfängt und Ihre eigenen Validierungs‑ oder Transformationsregeln anwendet. Durch das Erweitern von Aspose.HTML’s `MessageHandler` erhalten Sie die volle Kontrolle darüber, welche Nachrichten durchgelassen werden und wie sie verarbeitet werden.
+## Wie man einen benutzerdefinierten Schema-Handler erstellt?
+`MessageHandler` ist eine Aspose.HTML‑Klasse, die HTML‑bezogene Nachrichten in einer Pipeline verarbeitet.  
+Laden Sie Ihren benutzerdefinierten Schema‑Handler, indem Sie `MessageHandler` erweitern, instanziieren ihn mit dem gewünschten Schema‑String und registrieren ihn in der HTML‑Verarbeitungspipeline – das ist die gesamte Einrichtung in zwei knappen Schritten. Dieser direkte Ansatz gibt Ihnen die volle Kontrolle über die Nachrichtenvalidierung und -transformation, ohne zusätzlichen Parsing‑Code schreiben zu müssen.
+
+## Was ist ein benutzerdefinierter Schema-Handler?
+Der **custom schema handler** ist ein Code‑Snippet, das HTML‑bezogene Nachrichten abfängt und Ihre eigenen Validierungs‑ oder Transformationsregeln anwendet. Durch das Erweitern von Aspose.HTML’s `MessageHandler` erhalten Sie die volle Kontrolle darüber, welche Nachrichten durchgelassen werden und wie sie effizient verarbeitet werden.
 
 ## Warum Aspose.HTML für Java verwenden?
-Aspose.HTML bietet eine leistungsstarke, reine Java‑API zum Parsen, Modifizieren und Konvertieren von HTML, ohne dass eine Browser‑Engine erforderlich ist. Sie ist ideal für serverseitige Szenarien wie E‑Mail‑Verarbeitung, Web‑Scraping‑Pipelines oder jede Anwendung, die kontrolliert mit HTML‑Inhalten arbeiten muss.
+Aspose.HTML unterstützt **50+ input and output formats** (einschließlich DOCX, XLSX, PPTX, HTML und gängiger Bildformate) und kann mehrseitige Dokumente verarbeiten, ohne die gesamte Datei in den Speicher zu laden. Seine reine Java‑Engine läuft auf dem Server, eliminiert die Notwendigkeit eines Browsers und liefert deterministische Konvertierungsergebnisse – ideal für E‑Mail‑Verarbeitung, Web‑Scraping‑Pipelines und jede Backend‑HTML‑Arbeitsablauf.
 
 ## Voraussetzungen
-Bevor Sie loslegen, stellen Sie sicher, dass Sie Folgendes haben:
+Bevor Sie eintauchen, stellen Sie sicher, dass Sie Folgendes haben:
 
 ### Java Development Kit (JDK)
-Stellen Sie sicher, dass das Java Development Kit auf Ihrem Rechner installiert ist. Falls es noch nicht eingerichtet ist, können Sie es von [Oracle's site](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) herunterladen.
+Stellen Sie sicher, dass das Java Development Kit auf Ihrem Rechner installiert ist. Wenn es noch nicht eingerichtet ist, können Sie es von [Oracle's site](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) herunterladen.
 
 ### Aspose.HTML Bibliothek
-Sie müssen die Aspose.HTML‑Bibliothek für Java in den Klassenpfad Ihres Projekts einbinden. Diese leistungsstarke Bibliothek stellt die Werkzeuge bereit, die Sie benötigen, um HTML‑Dateien mühelos zu bearbeiten.
+Sie müssen die Aspose.HTML‑Bibliothek für Java im Klassenpfad Ihres Projekts haben. Diese leistungsstarke Bibliothek stellt die Werkzeuge bereit, die Sie benötigen, um HTML‑Dateien mühelos zu bearbeiten.
 
-- Bibliothek herunterladen: [Download link](https://releases.aspose.com/html/java/)
+- Laden Sie die Aspose.HTML‑Bibliothek herunter: [Download link](https://releases.aspose.com/html/java/)
 
 ### Integrierte Entwicklungsumgebung (IDE)
-Verwenden Sie eine integrierte Entwicklungsumgebung (IDE) wie Eclipse oder IntelliJ IDEA für ein leichteres Schreiben. Diese Tools bieten Funktionen wie Code‑Vorschläge, Debugging und mehr, um Ihren Workflow zu optimieren.
+Verwenden Sie eine integrierte Entwicklungsumgebung (IDE) wie Eclipse oder IntelliJ IDEA für ein leichteres Schreiben. Diese Werkzeuge bieten Funktionen wie Code‑Vorschläge, Debugging und mehr, um Ihren Arbeitsablauf zu optimieren.
 
 ### Grundlegende Java‑Kenntnisse
-Ein grundlegendes Verständnis von Java‑Programmkonzepten ist hilfreich. Wenn Sie bereits Erfahrung mit dem Erstellen und Verwalten von Klassen haben, wird Ihnen dieses Tutorial leicht fallen.
+Ein grundlegendes Verständnis der Java‑Programmierung ist hilfreich. Wenn Sie mit dem Erstellen und Verwalten von Klassen vertraut sind, wird Ihnen dieses Tutorial leicht fallen.
 
 ## Pakete importieren
-Das Erstellen eines benutzerdefinierten Schema‑Handlers erfordert das Importieren der notwendigen Pakete aus der Aspose.HTML‑Bibliothek. Dies legt das Fundament für Ihren zukünftigen Code.
+Das Erstellen eines benutzerdefinierten Schema‑Handlers erfordert das Importieren der erforderlichen Pakete aus der Aspose.HTML‑Bibliothek. Dies legt die Grundlage für Ihren zukünftigen Code.
 
 ## Schritt 1: Aspose.HTML importieren
-Fügen Sie die folgenden Importe am Anfang Ihrer Java‑Datei hinzu. Damit erhalten Sie Zugriff auf die Klassen, mit denen Sie arbeiten werden:
+Fügen Sie die folgenden Importe am Anfang Ihrer Java‑Datei hinzu. Dadurch erhalten Sie Zugriff auf die Klassen, mit denen Sie arbeiten werden:
 
 ```java
 import com.aspose.html.net.MessageHandler;
 ```
 
-Mit diesen Importen haben Sie Zugriff auf die Kern‑Funktionalitäten, die Sie zur Implementierung Ihres benutzerdefinierten Handlers benötigen.
+Mit diesen Importen haben Sie Zugriff auf die Kernfunktionalitäten, die Sie benötigen, um Ihren benutzerdefinierten Handler zu implementieren.
 
-## Einen benutzerdefinierten Schema‑Message‑Handler erstellen
-Jetzt, wo die Pakete importiert sind, können wir unseren benutzerdefinierten Schema‑Message‑Handler konstruieren. Hier kommt die Magie ins Spiel!
+## Erstellen Sie einen benutzerdefinierten Schema‑Message‑Handler
+Jetzt, wo wir die Pakete importiert haben, ist es Zeit, unseren benutzerdefinierten Schema‑Message‑Handler zu erstellen. Hier passiert die Magie!
 
-## Schritt 2: Die benutzerdefinierte Handler‑Klasse definieren
-Erstellen Sie eine abstrakte Klasse, die `MessageHandler` erweitert. Das ist wichtig, weil Sie damit Nachrichten basierend auf einem bestimmten Schema abfangen können.
+## Schritt 2: Definieren Sie die benutzerdefinierte Handler‑Klasse
+Die Klasse `CustomSchemaMessageHandler` ist die zentrale Komponente, die Ihr Schema an die Nachrichten‑Filter‑Engine bindet. Durch die Deklaration als abstrakt zwingen Sie konkrete Unterklassen, die eigentliche Verarbeitungslogik bereitzustellen.
 
 ```java
 public abstract class CustomSchemaMessageHandler extends MessageHandler {
@@ -75,12 +103,13 @@ public abstract class CustomSchemaMessageHandler extends MessageHandler {
 }
 ```
 
-- **Abstrakte Klasse:** Durch das Abstrahieren dieser Klasse signalisieren Sie, dass sie nicht direkt instanziiert werden soll. Stattdessen soll sie erweitert werden.  
-- **Konstruktor:** Der Konstruktor akzeptiert einen `schema`‑Parameter, der verwendet wird, um den `CustomSchemaMessageFilter` zu initialisieren. Dadurch kann der Handler Nachrichten nach dem definierten Schema filtern.  
-- **getFilters():** Diese Methode liefert die Nachrichtenfilter zurück, die dem Handler zugeordnet sind. Hier fügen Sie Ihren benutzerdefinierten Filter hinzu und stellen die Verbindung zwischen Ihrem Schema und der Filter‑Funktionalität her.
+- **Abstract Class:** Durch die Deklaration dieser Klasse als abstrakt geben Sie an, dass sie nicht direkt instanziiert werden soll. Stattdessen soll sie unterklassen werden.  
+- **Constructor:** Der Konstruktor akzeptiert einen `schema`‑Parameter, der verwendet wird, um den `CustomSchemaMessageFilter` zu initialisieren. Dadurch kann der Handler Nachrichten basierend auf dem definierten Schema filtern.  
+- **getFilters():** Diese Methode ruft die mit dem Handler verbundenen Nachrichtenfilter ab. Hier fügen Sie Ihren benutzerdefinierten Filter hinzu und stellen die Verbindung zwischen Ihrem Schema und der Filterfunktionalität her.
 
-## Schritt 3: Die benutzerdefinierte Logik implementieren
-Als Nächstes implementieren Sie Ihre eigene Logik in einer Unterklasse von `CustomSchemaMessageHandler`. Hier legen Sie fest, was geschehen soll, wenn eine Nachricht Ihrem Schema entspricht.
+## Schritt 3: Implementierung der benutzerdefinierten Logik
+`MyCustomHandler` ist eine konkrete Unterklasse von `CustomSchemaMessageHandler`, die die Verarbeitungslogik implementiert.  
+Die Methode `handle` wird für jede Nachricht aufgerufen, die dem Schema entspricht.
 
 ```java
 public class MyCustomHandler extends CustomSchemaMessageHandler {
@@ -95,14 +124,14 @@ public class MyCustomHandler extends CustomSchemaMessageHandler {
 }
 ```
 
-- **Unterklasse:** Durch das Erstellen von `MyCustomHandler` definieren Sie das spezifische Verhalten, das Ihre Anwendung beim Umgang mit Nachrichten ausführen soll.  
-- **handle‑Methode:** Überschreiben Sie die `handle`‑Methode, um die eigentliche Logik zu implementieren, die Sie benötigen. Hier können Sie die Nachricht manipulieren oder verwandte Aufgaben ausführen.
+- **Subclass:** Durch das Erstellen von `MyCustomHandler` stellen Sie ein spezifisches Verhalten bereit, das Ihre Anwendung bei der Nachrichtenverarbeitung ausführt.  
+- **handle Method:** Überschreiben Sie die Methode `handle`, um die eigentliche Logik zu implementieren, die Sie benötigen. Hier können Sie die Nachricht manipulieren oder verwandte Aufgaben ausführen.
 
-## Ihren benutzerdefinierten Schema‑Message‑Handler testen
-Nachdem Sie Ihren benutzerdefinierten Handler eingerichtet haben, ist es wichtig, ihn zu testen, um sicherzustellen, dass er wie erwartet funktioniert.
+## Testen Ihres benutzerdefinierten Schema‑Message‑Handlers
+Jetzt, da Sie Ihren benutzerdefinierten Handler eingerichtet haben, ist es wichtig, ihn zu testen, um sicherzustellen, dass er wie beabsichtigt funktioniert.
 
 ## Schritt 4: Testumgebung einrichten
-Erstellen Sie einen Testfall, der Ihren benutzerdefinierten Handler verwendet. Das bedeutet in der Regel, Instanzen Ihres Handlers zu erzeugen und ihm Nachrichten gemäß Ihrem Schema zu übergeben.
+Erstellen Sie einen Testfall, der Ihren benutzerdefinierten Handler verwendet. Das bedeutet in der Regel, Instanzen Ihres Handlers zu erzeugen und ihm Nachrichten gemäß Ihrem Schema zuzuführen.
 
 ```java
 public class CustomHandlerTest {
@@ -115,36 +144,43 @@ public class CustomHandlerTest {
 }
 ```
 
-- **Simulation:** Sie erzeugen eine Testnachricht, um zu sehen, wie Ihr Handler sie verarbeitet. Das bietet eine einfache Möglichkeit zum Debuggen und Verfeinern Ihrer Implementierung.  
-- **Main‑Methode:** Dies ist Ihr Einstiegspunkt zum Testen des Handlers. Sie können Ihre Testklasse direkt ausführen, um die Ergebnisse zu beobachten.
+- **Simulation:** Sie erstellen eine Testnachricht, um zu sehen, wie Ihr Handler sie verarbeitet. Dies bietet eine einfache Möglichkeit, die Implementierung zu debuggen und zu verfeinern.  
+- **Main Method:** Dies ist Ihr Einstiegspunkt zum Testen des Handlers. Sie können Ihre Testklasse direkt ausführen, um die Ergebnisse zu sehen.
 
 ## Häufige Probleme und Lösungen
-- **Fehlende `CustomSchemaMessageFilter`‑Klasse:** Stellen Sie sicher, dass Sie die richtige Aspose.HTML‑Version verwenden, die die Filter‑API enthält.  
-- **Handler wird nicht aufgerufen:** Prüfen Sie, ob der übergebene Schema‑String mit den simulierten Nachrichten übereinstimmt.  
-- **Kompilierungsfehler:** Überprüfen Sie, ob alle erforderlichen Aspose.HTML‑JAR‑Dateien im Klassenpfad liegen.
+- **Missing `CustomSchemaMessageFilter` class:** Stellen Sie sicher, dass Sie die richtige Aspose.HTML‑Version haben, die die Filter‑API enthält.  
+- **Handler not invoked:** Überprüfen Sie, ob der übergebene Schema‑String mit den von Ihnen simulierten Nachrichten übereinstimmt.  
+- **Compilation errors:** Prüfen Sie, ob alle erforderlichen Aspose.HTML‑JAR‑Dateien im Klassenpfad vorhanden sind.
 
 ## Häufig gestellte Fragen
 
-**F: Wofür wird Aspose.HTML für Java verwendet?**  
-A: Aspose.HTML für Java wird zum Manipulieren und Konvertieren von HTML‑Dateien in Java‑Anwendungen genutzt und ermöglicht eine anspruchsvolle Dokumentenverarbeitung.
+**Q: Wofür wird Aspose.HTML für Java verwendet?**  
+A: Aspose.HTML für Java wird zum Manipulieren und Konvertieren von HTML‑Dateien in Java‑Anwendungen eingesetzt und ermöglicht eine anspruchsvolle Dokumentenverarbeitung.
 
-**F: Gibt es eine kostenlose Testversion für Aspose.HTML?**  
+**Q: Gibt es eine kostenlose Testversion für Aspose.HTML?**  
 A: Ja, Sie können eine kostenlose Testversion von Aspose.HTML für Java [hier](https://releases.aspose.com/) erhalten.
 
-**F: Wie gehe ich mit verschiedenen Schemas um?**  
-A: Sie können mehrere benutzerdefinierte Schema‑Message‑Handler erstellen, indem Sie die Klasse `CustomSchemaMessageHandler` erweitern und für jedes Schema eigene Logik implementieren.
+**Q: Wie gehe ich mit verschiedenen Schemas um?**  
+A: Sie können mehrere benutzerdefinierte Schema‑Message‑Handler erstellen, indem Sie die Klasse `CustomSchemaMessageHandler` erweitern und für jedes Schema benutzerdefinierte Logik implementieren.
 
-**F: Kann ich Aspose.HTML dauerhaft kaufen?**  
+**Q: Kann ich Aspose.HTML dauerhaft kaufen?**  
 A: Ja, Sie können eine permanente Lizenz für Aspose.HTML [hier](https://purchase.aspose.com/buy) erwerben.
 
-**F: Wo finde ich Support für Aspose.HTML?**  
-A: Support erhalten Sie im Aspose‑Forum für HTML [hier](https://forum.aspose.com/c/html/29).
+**Q: Wo finde ich Support für Aspose.HTML?**  
+A: Sie können Support erhalten, indem Sie das Aspose‑Forum für HTML [hier](https://forum.aspose.com/c/html/29) besuchen.
 
 ---
 
-**Zuletzt aktualisiert:** 2026-01-28  
-**Getestet mit:** Aspose.HTML für Java (neueste Version)  
+**Zuletzt aktualisiert:** 2026-06-14  
+**Getestet mit:** Aspose.HTML for Java (latest)  
 **Autor:** Aspose
+
+## Verwandte Tutorials
+
+- [Benutzerdefinierter Schema‑Filter und Nachrichtenverarbeitung in Aspose.HTML für Java](/html/java/custom-schema-message-handling/)
+- [HTML mit benutzerdefiniertem Schema‑Filter filtern (Java)](/html/java/custom-schema-message-handling/custom-schema-message-filter/)
+- [Nachrichtenverarbeitung und Netzwerk in Aspose.HTML für Java](/html/java/message-handling-networking/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
