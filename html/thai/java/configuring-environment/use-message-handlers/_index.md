@@ -1,10 +1,16 @@
 ---
-date: 2026-02-10
-description: เรียนรู้วิธีใช้ Aspose เพื่อจัดการลิงก์ที่เสียใน Java, แปลง HTML เป็น
-  PNG และโหลดเอกสาร HTML ใน Java ด้วย Aspose.HTML for Java.
-linktitle: Use Message Handlers in Aspose.HTML
+date: 2026-05-04
+description: เรียนรู้วิธีทำการแปลง HTML เป็น PNG, ดักจับคำขอเครือข่ายใน Java, และจัดการลิงก์ที่เสียใน
+  Java ด้วย Aspose.HTML for Java.
+keywords:
+- html to png conversion
+- intercept network requests java
+- html to image conversion
+- load html document java
+- handle broken links java
+linktitle: ใช้ตัวจัดการข้อความใน Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
-title: แปลง HTML เป็น PNG ด้วย Aspose.HTML Message Handlers ใน Java
+title: การแปลง HTML เป็น PNG ด้วย Aspose.HTML Message Handlers ใน Java
 url: /th/java/configuring-environment/use-message-handlers/
 weight: 12
 ---
@@ -13,43 +19,50 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# แปลง HTML เป็น PNG ด้วย Aspose.HTML Message Handlers ใน Java
+# การแปลง HTML เป็น PNG ด้วย Aspose.HTML Message Handlers ใน Java
 
-## บทนำ
-ในบทเรียนนี้คุณจะได้ค้นพบ **how to convert HTML to PNG** พร้อมกับการจัดการทรัพยากรที่หายไปอย่างราบรื่นโดยใช้ Aspose.HTML สำหรับ Java เราจะอธิบายขั้นตอนการสร้างหน้า HTML ขนาดเล็กที่อ้างอิงรูปภาพที่ไม่มีอยู่, การเชื่อมต่อ **custom message handler** เพื่อ **intercept network requests**, การกำหนดค่า **network service**, การโหลดเอกสาร, และสุดท้ายการทำ **html to image conversion** เมื่อเสร็จคุณจะมีรูปแบบที่มั่นคงสำหรับทั้ง **handle broken links java** และการสร้าง PNG คุณภาพสูง—เหมาะสำหรับรายงาน, รูปย่อ, หรือพรีวิวอีเมล
+## บทนำสู่การแปลง HTML เป็น PNG
+
+ในบทแนะนำนี้คุณจะได้ค้นพบ **how to convert HTML to PNG** พร้อมกับการจัดการทรัพยากรที่หายไปอย่างราบรื่นโดยใช้ Aspose.HTML สำหรับ Java เราจะอธิบายขั้นตอนการสร้างหน้า HTML ขนาดเล็กที่อ้างอิงภาพที่ไม่มีอยู่, เชื่อมต่อ **custom message handler** เพื่อ **intercept network requests**, กำหนดค่า **network service**, โหลดเอกสาร, และสุดท้ายทำ **html to image conversion**. เมื่อเสร็จคุณจะมีรูปแบบที่มั่นคงสำหรับทั้ง **handle broken links java** และการสร้าง PNG คุณภาพสูง—เหมาะสำหรับรายงาน, รูปย่อ, หรือพรีวิวอีเมล.
 
 ## คำตอบสั้น
-- **What does a message handler do?** มันทำการ **intercept network operations** (เช่น การร้องขอรูปภาพ) และให้คุณตอบสนองต่อรหัสสถานะเช่น 404.  
+- **What does a message handler do?** มันทำการดักจับการทำงานของเครือข่าย (เช่น การร้องขอภาพ) และให้คุณตอบสนองต่อรหัสสถานะเช่น 404.  
 - **Can Aspose.HTML convert HTML to PNG?** ใช่—`Converter.convertHTML` ทำการแปลงในหนึ่งคำสั่ง.  
-- **Do I need a license for this example?** ใบอนุญาตชั่วคราวจะลบข้อจำกัดการประเมิน; จำเป็นต้องมีใบอนุญาตถาวรสำหรับการใช้งานในผลิตภัณฑ์.  
+- **Do I need a license for this example?** ใบอนุญาตชั่วคราวจะลบข้อจำกัดการประเมิน; จำเป็นต้องมีใบอนุญาตถาวรสำหรับการใช้งานในสภาพการผลิต.  
 - **Which Java version works?** JDK 8 ขึ้นไป (ตัวอย่างทำงานบน JDK 11).  
 - **Can I configure the network service?** แน่นอน—ใช้ `configuration.getService(INetworkService.class)` เพื่อเพิ่ม handler ของคุณ.
 
-## ข้อกำหนดเบื้องต้น
-ก่อนที่เราจะเริ่ม, ตรวจสอบให้แน่ใจว่าคุณมีสิ่งต่อไปนี้พร้อม:
+## HTML to PNG Conversion คืออะไร
 
+การแปลง HTML เป็น PNG จะทำการเรนเดอร์หน้าเว็บ (หรือส่วนของ HTML) เป็นภาพแรสเตอร์ ซึ่งมีประโยชน์เมื่อคุณต้องการพรีวิวแบบคงที่ของเนื้อหาแบบไดนามิก, สร้างรูปย่อสำหรับจดหมายข่าวอีเมล, หรือเก็บบันทึกหน้าเว็บเป็นภาพ.
+
+## ทำไมต้องใช้ Message Handlers เพื่อ Intercept Network Requests Java?
+
+Message handlers ให้คุณ **fine‑grained control** บนทุกการร้องขอเครือข่าย—ไม่ว่าจะเป็นภาพ, CSS, JavaScript, หรือไฟล์ฟอนต์ โดยการดักจับการร้องขอเหล่านี้คุณสามารถ **log missing assets**, ให้เนื้อหาสำรอง, หรือแม้แต่ลองดาวน์โหลดใหม่เมื่อเกิดข้อผิดพลาด, ทำให้ pipeline การประมวลผล HTML ของคุณ **robust** และ **production‑ready**.
+
+## ข้อกำหนดเบื้องต้น
 1. **Java Development Kit (JDK)** – ดาวน์โหลดจาก [Oracle website](https://www.oracle.com/java/technologies/javase-downloads.html).  
 2. **Aspose.HTML for Java** – รับไลบรารีจาก [Aspose releases page](https://releases.aspose.com/html/java/).  
-3. **IDE** – IntelliJ IDEA, Eclipse หรือ NetBeans ใช้งานได้ดี.  
+3. **IDE** – IntelliJ IDEA, Eclipse, หรือ NetBeans ใช้งานได้ดี.  
 4. **Basic Java knowledge** – คุณควรคุ้นเคยกับคลาส, try‑with‑resources, และการจัดการข้อยกเว้น.  
 5. **Temporary License** – หากคุณอยู่ในช่วงทดลอง, รับ [temporary license](https://purchase.aspose.com/temporary-license/) เพื่อหลีกเลี่ยงลายน้ำ.
 
 ## นำเข้าแพ็กเกจ
-ขั้นแรก, นำเข้าคลาส Java I/O ที่เราต้องการสำหรับการจัดการไฟล์ ส่วนคลาส Aspose ที่เหลือจะถูกอ้างอิงด้วยชื่อเต็มในภายหลัง, ทำให้รายการ import ดูเรียบร้อย.
+ขั้นแรกให้ดึงคลาส Java I/O ที่เราต้องการสำหรับการจัดการไฟล์ ส่วนคลาส Aspose ที่เหลือจะอ้างอิงด้วยชื่อเต็มในภายหลัง เพื่อให้รายการ import ดูเรียบร้อย.
 
 ```java
 import java.io.IOException;
 ```
 
 ## ขั้นตอนที่ 1: เตรียมโค้ด HTML
-เราจะสร้างส่วนย่อย HTML ขั้นต่ำที่อ้างอิงรูปภาพที่ไม่มีอยู่โดยเจตนา สิ่งนี้จะทำให้ handler ของเราถูกเรียกเมื่อเอนจินพยายามดึงทรัพยากร.
+เราจะสร้างส่วนย่อย HTML ขั้นต่ำที่อ้างอิงภาพที่ไม่มีอยู่โดยเจตนา ซึ่งจะทำให้ handler ของเราถูกเรียกเมื่อเอนจินพยายามดึงทรัพยากรนั้น.
 
 ```java
 String code = "<img src='missing.jpg'>";
 ```
 
 ## ขั้นตอนที่ 2: เขียนโค้ด HTML ลงไฟล์
-ต่อไป, เราจะบันทึกส่วนย่อยนี้เป็น *document.html* การใช้บล็อก try‑with‑resources จะรับประกันว่า `FileWriter` ปิดอย่างถูกต้อง.
+ต่อไปเราจะบันทึกส่วนย่อยลงในไฟล์ *document.html* การใช้บล็อก try‑with‑resources จะรับประกันว่า `FileWriter` ปิดอย่างถูกต้อง.
 
 ```java
 try (java.io.FileWriter fileWriter = new java.io.FileWriter("document.html")) {
@@ -58,7 +71,7 @@ try (java.io.FileWriter fileWriter = new java.io.FileWriter("document.html")) {
 ```
 
 ## ขั้นตอนที่ 3: เขียน Custom Message Handler
-ตอนนี้เราจะสร้าง **custom message handler** ที่ตรวจสอบสถานะ HTTP ของทุกการร้องขอเครือข่าย หากการตอบกลับไม่ใช่ `200` เราจะบันทึกคำเตือนอย่างเป็นมิตร สังเกตการเรียก `invoke(context);` ที่ส่วนท้าย—มันจะส่งต่อคำขอไปยัง handler ถัดไปในลำดับ, ป้องกันการวนลูป.
+ตอนนี้เราจะสร้าง **custom message handler** ที่ตรวจสอบสถานะ HTTP ของทุกการร้องขอเครือข่าย หากการตอบกลับไม่ใช่ `200` เราจะบันทึกคำเตือนแบบเป็นมิตร โปรดสังเกตการเรียก `invoke(context);` ที่ส่วนท้าย—ซึ่งจะส่งต่อการร้องขอไปยัง handler ถัดไปในลำดับ, ป้องกันการเรียกซ้ำ.
 
 ```java
 com.aspose.html.net.MessageHandler handler = new com.aspose.html.net.MessageHandler() {
@@ -73,7 +86,7 @@ com.aspose.html.net.MessageHandler handler = new com.aspose.html.net.MessageHand
 ```
 
 ## ขั้นตอนที่ 4: กำหนดค่า Network Service
-เพื่อให้ Aspose.HTML รู้จัก handler ของเรา, เราจะดึง **network service** จากอ็อบเจกต์ `Configuration` แล้วเพิ่ม handler ลงในคอลเลกชันของมัน นี่คือขั้นตอนที่เราจะ **configure network service** เพื่อพฤติกรรมแบบกำหนดเอง.
+เพื่อให้ Aspose.HTML รู้จัก handler ของเรา เราจะดึง **network service** จากอินสแตนซ์ `Configuration` แล้วเพิ่ม handler เข้าไปในคอลเลกชันของมัน นี่คือขั้นตอนที่เราจะ **configure network service** เพื่อพฤติกรรมแบบกำหนดเอง.
 
 ```java
 com.aspose.html.Configuration configuration = new com.aspose.html.Configuration();
@@ -83,7 +96,7 @@ try {
 ```
 
 ## ขั้นตอนที่ 5: โหลดเอกสาร HTML
-เมื่อการกำหนดค่าเรียบร้อย, เราจะโหลด *document.html* เอนจินจะใช้ network service ของเรา, ดังนั้นคำขอรูปภาพที่หายไปจะถูกดักโดย handler ที่เราเพิ่มไว้.
+เมื่อการกำหนดค่าเสร็จแล้ว เราจะโหลด *document.html* เอนจินจะใช้ network service ของเรา ดังนั้นการร้องขอภาพที่หายไปจะถูกดักจับโดย handler ที่เราเพิ่มไว้.
 
 ```java
 com.aspose.html.HTMLDocument document = new com.aspose.html.HTMLDocument("document.html", configuration);
@@ -108,7 +121,7 @@ com.aspose.html.converters.Converter.convertHTML(
 ```
 
 ## ขั้นตอนที่ 7: ทำความสะอาดทรัพยากร
-แนวปฏิบัติที่ดีของ Java กำหนดให้เราปล่อยทรัพยากรเนทีฟทั้งหมด บล็อก `finally` จะรับประกันว่า `Configuration` ถูกทำลายแม้จะมีข้อยกเว้นเกิดขึ้น.
+แนวปฏิบัติที่ดีของ Java กำหนดให้เราปล่อยทรัพยากรเนทีฟทั้งหมด บล็อก `finally` จะรับประกันว่า `Configuration` ถูกทำลายแม้จะเกิดข้อยกเว้น.
 
 ```java
 } finally {
@@ -118,40 +131,34 @@ com.aspose.html.converters.Converter.convertHTML(
 }
 ```
 
-## ทำไมต้องใช้ Message Handlers?
-Message handlers ให้คุณ **fine‑grained control** กับทุกการร้องขอเครือข่าย—ไม่ว่าจะเป็นรูปภาพ, CSS, JavaScript หรือไฟล์ฟอนต์ แทนที่จะให้ไลบรารีล้มเหลวโดยไม่มีข้อความ, คุณสามารถบันทึกทรัพยากรที่หายไป, ให้เนื้อหา fallback, หรือแม้กระทั่งลองร้องขอใหม่ สิ่งนี้ทำให้ pipeline การประมวลผล HTML ของคุณ **robust**, **production‑ready**, และง่ายต่อการดีบัก.
-
 ## ปัญหาทั่วไปและวิธีแก้
-- **Handler recursion** – เรียก `invoke(context);` เพียงครั้งเดียวเพื่อหลีกเลี่ยงลูปไม่มีที่สิ้นสุด.  
+- **Handler recursion** – เรียก `invoke(context);` เพียงครั้งเดียวเพื่อหลีกเลี่ยงลูปไม่สิ้นสุด.  
 - **Missing license** – หากไม่มีใบอนุญาตที่ถูกต้อง PNG ผลลัพธ์จะมีลายน้ำ.  
-- **Incorrect file paths** – ใช้เส้นทางแบบ absolute หรือกำหนด working directory ให้ถูกต้องเมื่อโหลด `document.html`.  
-- **Unsupported resource types** – ตรวจสอบให้แน่ใจว่าแหล่งข้อมูลที่คุณต้องการดัก (รูปภาพ, CSS ฯลฯ) ถูกเรียกโดยเอนจิน HTML จริงๆ.
+- **Incorrect file paths** – ใช้เส้นทางแบบเต็มหรือกำหนดไดเรกทอรีทำงานอย่างถูกต้องเมื่อโหลด `document.html`.  
+- **Unsupported resource types** – ตรวจสอบให้แน่ใจว่าทรัพยากรที่คุณต้องการดักจับ (ภาพ, CSS, ฯลฯ) ถูกเรียกโดยเอนจิน HTML จริง ๆ.
 
 ## คำถามที่พบบ่อย
 
-**ถาม: ฉันสามารถเชื่อมโยงตัวจัดการข้อความหลายตัวเข้าด้วยกันได้หรือไม่**
-A: เป็นไปได้, และมันก็มีตัวจัดการหลายตัวร้อนร้อน `network.getMessageHandlers(`); ควบคุมการควบคุมที่เพิ่ม
+**Q: Can I chain multiple message handlers?**  
+A: ใช่, คุณสามารถเพิ่มหลาย handler ลงในคอลเลกชัน `network.getMessageHandlers()`; พวกมันจะทำงานตามลำดับที่เพิ่ม.
 
-**ถาม: ตัวจัดการใช้ได้กับทรัพยากร CSS หรือสคริปต์ด้วยหรือไม่**
-ตอบ: เราขอ—การร้องขอเครือข่ายใดๆ ก็ตามที่ทำโดยเอนจิน HTML (รูปภาพ, CSS, JS, ฟอนต์) จะผ่านตัวจัดการ
+**Q: Does the handler work for CSS or script resources as well?**  
+A: แน่นอน—การร้องขอเครือข่ายใด ๆ ที่ทำโดยเอนจิน HTML (ภาพ, CSS, JS, ฟอนต์) จะผ่าน handler นี้.
 
-**ถาม: ฉันจะเปลี่ยนคำขอ HTTP ก่อนที่จะส่งได้อย่างไร**
-A: สร้าง handler ที่แก้ไข `context.getRequest()` ก่อนเรียก `invive(context)`.
+**Q: How do I change the HTTP request before it’s sent?**  
+A: สร้าง handler ที่แก้ไข `context.getRequest()` ก่อนเรียก `invoke(context)`.
 
-**ถาม: มีวิธีระงับคำเตือนสำหรับ URL ที่เฉพาะเจาะจงหรือไม่**
-A: ภายในตัวจัดการ, การถ่ายภาพ `context.getRequest().getRequestUri()` และต้องยอมรับ
+**Q: Is there a way to suppress the warning for specific URLs?**  
+A: ภายใน handler ให้ตรวจสอบ `context.getRequest().getRequestUri()` และข้ามการบันทึกตามเงื่อนไข.
 
-**ถาม: Aspose.HTML เวอร์ชันใดที่จำเป็นสำหรับ API เหล่านี้** 
+**Q: What version of Aspose.HTML is required for these APIs?**  
 A: โค้ดทำงานกับ Aspose.HTML for Java 22.10 ขึ้นไป.
-
-## สรุป
-ตอนนี้คุณมีตัวอย่างครบวงจรของ **how to convert HTML to PNG** พร้อมกับการใช้ **custom message handler** เพื่อ **intercept network requests** และ **handle broken links java** ด้วยการกำหนดค่า network service, โหลดเอกสาร, และเรียกใช้ converter, คุณสามารถสร้างภาพ PNG thumbnail หรือ screenshot หน้าเต็มได้อย่างเชื่อถือในแอปพลิเคชัน Java ใดก็ได้.
 
 ---
 
-**Last Updated:** 2026-02-10  
-**Tested With:** Aspose.HTML for Java 24.11  
-**Author:** Aspose  
+**อัปเดตล่าสุด:** 2026-05-04  
+**ทดสอบด้วย:** Aspose.HTML for Java 24.11  
+**ผู้เขียน:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
