@@ -86,6 +86,9 @@ Konvertieren Sie HTML mühelos in PDF mit Aspose.HTML. Folgen Sie unserer vollst
 Erfahren Sie, wie Sie HTML-Inhalte im Speicher mit C# in eine ZIP-Datei komprimieren – komplette Schritt‑für‑Schritt‑Anleitung.
 ### [Konvertieren Sie HTML in ZIP in C# – Komplettanleitung](./convert-html-to-zip-in-c-complete-guide/)
 Erfahren Sie, wie Sie mit Aspose.HTML für .NET HTML in ZIP-Archive konvertieren. Schritt-für-Schritt-Anleitung mit Codebeispielen.
+### [HTML als ZIP-Bündel mit Aspose.HTML in C# speichern](./how-to-save-html-as-a-zip-bundle-using-aspose-html-in-c/)
+Erfahren Sie, wie Sie HTML‑Inhalte mit Aspose.HTML für .NET als ZIP‑Bündel speichern. Schritt‑für‑Schritt‑Anleitung mit Codebeispielen.
+
 ## Abschluss
 
 Zusammenfassend lässt sich sagen, dass HTML-Erweiterungen und -Konvertierungen wesentliche Elemente der modernen Webentwicklung sind. Aspose.HTML für .NET vereinfacht den Prozess und macht ihn für Entwickler aller Niveaus zugänglich. Wenn Sie unseren Tutorials folgen, sind Sie auf dem besten Weg, ein kompetenter Webentwickler mit breitem Kompetenzspektrum zu werden.
