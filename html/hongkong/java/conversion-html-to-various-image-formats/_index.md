@@ -94,6 +94,9 @@ weight: 24
 ### [將 HTML 轉換為 WebP](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
 ### [將 HTML 轉換為 TIFF](./convert-html-to-tiff/)
 了解如何使用 Aspose.HTML for Java 輕鬆將 HTML 轉換為 TIFF。提供高效的文件處理步驟說明。
+### [如何設定 DPI – 使用 AsposeHTML 渲染 HTML 為 PNG](./how-to-set-dpi-render-html-to-png-with-asposehtml/)
+說明如何在 AsposeHTML 中設定 DPI，以將 HTML 渲染為高解析度 PNG 圖像。
+
 ### [在 Java 中從 SVG 建立 PNG – 完整步驟指南](./create-png-from-svg-in-java-complete-step-by-step-guide/)
 學習如何使用 Aspose.HTML for Java 在 Java 中將 SVG 轉換為 PNG，提供完整步驟與範例程式碼。
 ### [將 HTML 轉換為 PNG 時設定 DPI – 完整指南](./how-to-set-dpi-when-converting-html-to-png-complete-guide/)

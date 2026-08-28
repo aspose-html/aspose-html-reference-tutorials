@@ -96,6 +96,9 @@ Tìm hiểu cách convert HTML to PNG trong Java với Aspose.HTML. Một hướ
 Hướng dẫn chi tiết cách chuyển đổi tệp SVG thành PNG trong Java bằng Aspose.HTML, bao gồm các bước mã mẫu và tùy chọn tối ưu.
 ### [Converting HTML to TIFF](./convert-html-to-tiff/)
 Tìm hiểu cách dễ dàng convert HTML to TIFF bằng Aspose.HTML for Java. Hướng dẫn từng bước cho việc xử lý tài liệu hiệu quả.
+### [Cách đặt DPI – Render HTML sang PNG với AsposeHTML](./how-to-set-dpi-render-html-to-png-with-asposehtml/)
+Hướng dẫn cách thiết lập DPI khi chuyển đổi HTML sang PNG bằng Aspose.HTML for Java.
+
 ### [Chuyển đổi HTML sang WebP – Hướng dẫn Java đầy đủ với Aspose.HTML](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
 ### [Cách Đặt DPI Khi Chuyển Đổi HTML sang PNG – Hướng Dẫn Toàn Diện](./how-to-set-dpi-when-converting-html-to-png-complete-guide/)
 ### [Render DPI cao trong Java – Chụp ảnh màn hình trang web với User Agent tùy chỉnh](./high-dpi-rendering-in-java-capture-webpage-screenshots-with/)

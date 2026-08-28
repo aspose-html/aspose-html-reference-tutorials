@@ -31,6 +31,8 @@ Passons maintenant à la vitesse supérieure et découvrons comment modifier et 
 Découvrez comment utiliser Aspose.HTML pour Java pour appliquer des techniques CSS avancées, notamment des marges de page personnalisées et du contenu dynamique. Un didacticiel pratique et détaillé pour les développeurs.
 ### [Édition et soumission de formulaires HTML avec Aspose.HTML pour Java](./html-form-editing/)
 Découvrez comment modifier et soumettre des formulaires HTML par programmation à l'aide d'Aspose.HTML pour Java dans ce guide complet étape par étape.
+### [Comment récupérer le style en Java – charger le HTML et utiliser le sélecteur de requête](./how-to-get-style-in-java-load-html-query-selector/)
+Apprenez à charger un document HTML en Java avec Aspose.HTML et à extraire les styles via un sélecteur CSS.
 ### [Sélection d'élément par classe en Java – Guide complet](./select-element-by-class-in-java-complete-how-to-guide/)
 Apprenez à sélectionner des éléments HTML par leur classe en Java avec Aspose.HTML, grâce à ce guide complet pas à pas.
 ### [Comment lire le CSS en Java – Guide complet avec Aspose.HTML](./how-to-read-css-in-java-complete-guide-with-aspose-html/)

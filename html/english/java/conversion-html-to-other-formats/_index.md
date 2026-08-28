@@ -93,6 +93,8 @@ Effortlessly convert HTML to MHTML using Aspose.HTML for Java. Follow our step-b
 Learn how to effortlessly convert HTML to XPS using Aspose.HTML for Java. Create cross-platform documents with ease.
 ### [Converting Markdown to HTML](./convert-markdown-to-html/)
 Convert Markdown to HTML in Java seamlessly with Aspose.HTML for Java. Follow our step-by-step guide to streamline your document conversion needs.
+### [Create PDF from Markdown in Java – Simple One‑Liner Guide](./create-pdf-from-markdown-in-java-simple-one-liner-guide/)
+Generate a PDF directly from Markdown in Java with a single line of code using Aspose.HTML.
 ### [How to Set Offset When Converting HTML to Markdown in Java](./how-to-set-offset-when-converting-html-to-markdown-in-java/)
 Learn how to set an offset during HTML to Markdown conversion in Java using Aspose.HTML.
 ### [Convert markdown to html – Java guide with PDF output](./convert-markdown-to-html-java-guide-with-pdf-output/)

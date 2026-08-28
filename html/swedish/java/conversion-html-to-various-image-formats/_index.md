@@ -87,14 +87,15 @@ Att använda Aspose.HTML for Java förenklar konverteringen av HTML‑dokument t
 - **Saknade typsnitt** – Installera nödvändiga typsnitt på servern eller bädda in dem i HTML med `@font-face`.  
 
 ## Konvertering – HTML till olika bildformat – Handledningar
-
-
 ### [Konvertera HTML till BMP](./convert-html-to-bmp/)
 ### [Konvertera HTML till GIF](./convert-html-to-gif/)
 ### [Konvertera HTML till JPEG](./convert-html-to-jpeg/)
 ### [Konvertera HTML till PNG](./convert-html-to-png/)
-### [Skapa PNG från SVG i Java – Komplett steg‑för‑steg‑guide](./create-png-from-svg-in-java-complete-step-by-step-guide/)
+### [Ställ in DPI – Rendera HTML till PNG med AsposeHTML](./how-to-set-dpi-render-html-to-png-with-asposehtml/)
 ### [Konvertera HTML till TIFF](./convert-html-to-tiff/)
+
+
+### [Skapa PNG från SVG i Java – Komplett steg‑för‑steg‑guide](./create-png-from-svg-in-java-complete-step-by-step-guide/)
 ### [Konvertera HTML till WebP – Komplett Java‑guide med Aspose.HTML](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
 ### [Hur du ställer in DPI när du konverterar HTML till PNG – Komplett guide](./how-to-set-dpi-when-converting-html-to-png-complete-guide/)
 Lär dig hur du ställer in DPI för PNG‑utdata när du konverterar HTML med Aspose.HTML för Java. En komplett guide med exempel.
