@@ -1,26 +1,24 @@
 ---
 category: general
-date: 2026-01-01
-description: Hur du bäddar in typsnitt när du konverterar EPUB till PDF i Java. Lär
-  dig att ställa in PDF‑sidstorlek och använda Aspose HTML för en smidig EPUB‑till‑PDF‑konvertering
-  i Java.
+date: 2026-04-12
+description: Lär dig hur du ställer in PDF‑sidstorlek och bäddar in teckensnitt i
+  PDF när du konverterar EPUB till PDF i Java med Aspose.HTML. Denna guide guidar
+  dig genom hela Java‑EPUB‑till‑PDF‑arbetsflödet.
 draft: false
 keywords:
-- how to embed fonts
-- convert epub to pdf
-- how to convert epub
 - set pdf page size
-- epub to pdf java
-language: sv
-og_description: Hur man bäddar in teckensnitt vid konvertering av EPUB till PDF i
-  Java. Denna guide visar dig steg för steg hur du ställer in PDF‑sidstorlek och utför
-  en pålitlig EPUB‑till‑PDF‑konvertering i Java.
-og_title: Hur man bäddar in teckensnitt när man konverterar EPUB till PDF i Java
+- embed fonts pdf
+- convert epub to pdf
+- java epub to pdf
+- custom pdf page size
+og_description: Lär dig hur du ställer in PDF‑sidstorlek och bäddar in teckensnitt
+  när du konverterar EPUB till PDF i Java med Aspose.HTML.
+og_title: Ställ in PDF-sidstorlek och bädda in teckensnitt för EPUB till PDF i Java
 tags:
 - Java
 - PDF
 - EPUB
-title: Hur man bäddar in teckensnitt vid konvertering av EPUB till PDF i Java
+title: Ställ in PDF-sidstorlek och bädda in teckensnitt för EPUB till PDF i Java
 url: /sv/java/converting-epub-to-pdf/how-to-embed-fonts-when-converting-epub-to-pdf-in-java/
 ---
 
@@ -28,24 +26,31 @@ url: /sv/java/converting-epub-to-pdf/how-to-embed-fonts-when-converting-epub-to-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hur man bäddar in typsnitt när man konverterar EPUB till PDF i Java
+# Ställ in PDF-sidstorlek och bädda in teckensnitt för EPUB till PDF i Java
 
-Har du någonsin undrat **hur man bäddar in typsnitt** så att din konverterade PDF ser exakt ut som den ursprungliga EPUB-filen? Du är inte ensam—många utvecklare stöter på problemet med saknade typsnitt direkt efter det första konverteringsförsöket. Den goda nyheten är att med Aspose.HTML för Java kan du kontrollera typsnittsinbäddning, sidstorlek och hela konverteringsprocessen med bara några rader kod.
+Om du behöver **ställa in PDF-sidstorlek** medan du **konverterar EPUB till PDF** och garantera att det resulterande dokumentet ser exakt ut som källan, är du på rätt plats. I den här handledningen går vi igenom ett komplett, produktionsklart Java‑exempel som visar hur du **bäddar in teckensnitt i PDF**, väljer en **anpassad PDF‑sidstorlek** och kör konverteringen med Aspose.HTML. I slutet har du ett färdigt program som producerar en trogen PDF varje gång.
 
-I den här handledningen går vi igenom hela processen för att **konvertera epub till pdf** med Java, visar dig hur du **ställer in pdf-sidstorlek**, och förklarar varför inbäddning av typsnitt är viktigt för plattformsoberoende noggrannhet. I slutet har du ett färdigt program som omvandlar vilken EPUB-fil som helst till en perfekt renderad PDF, komplett med inbäddade typsnitt och den sidstorlek du väljer.
+## Snabba svar
+- **Vad är huvudmålet?** Ställa in PDF-sidstorlek och bädda in teckensnitt vid konvertering av EPUB till PDF i Java.  
+- **Vilket bibliotek ska jag använda?** Aspose.HTML för Java (gratis provversion tillgänglig).  
+- **Behöver jag en licens för produktion?** Ja – en licens tar bort utvärderingsvattenstämpeln.  
+- **Kan jag använda en anpassad sidstorlek?** Absolut – du kan ange exakta dimensioner eller använda inbyggda enum‑värden som A4, LETTER osv.  
+- **Vilken Java‑version krävs?** Java 17 eller nyare rekommenderas.
 
-> **Förutsättningar**  
-> * Java 17 eller nyare (API:et fungerar med äldre versioner men 17 är den optimala).  
-> * Aspose.HTML för Java‑biblioteket – du kan hämta det från Maven Central.  
-> * En exempel‑EPUB‑fil att testa med.  
+### Förutsättningar
+- Java 17+ installerat.  
+- Aspose.HTML för Java tillagt i ditt projekt (Maven, Gradle eller manuellt JAR).  
+- En EPUB‑fil som du vill omvandla.
 
-Om du är bekväm med Maven eller Gradle är du redo. Annars, ladda ner JAR‑filen och lägg till den i din classpath—ingen stor grej.
+> Om du föredrar Gradle, ersätt bara Maven‑snutten med motsvarande Gradle‑koordinater.
 
 ---
 
-## Så bäddar du in typsnitt i PDF‑utdata
+## Varför bädda in teckensnitt i PDF?
 
-Att bädda in typsnitt säkerställer att PDF‑filen visar samma typografi på alla enheter, även om läsaren inte har det ursprungliga typsnittet installerat. Aspose.HTML ger dig en enkel växel för att slå på detta.
+Att bädda in teckensnitt låser den visuella designen i käll‑EPUB‑filen, så PDF‑filen renderas korrekt på alla enheter – även om läsaren inte har de ursprungliga typsnitten installerade. Utan inbäddning kan rubriker falla tillbaka på standardtypsnitt som Arial, vilket förstör den layout du arbetat hårt för att skapa.
+
+**Proffstips:** Om du vet exakt vilka teckensnitt som används i EPUB‑filen, peka Aspose på en mapp som innehåller dessa `.ttf`‑ eller `.otf`‑filer med `pdfOptions.setFontsFolder("path/to/fonts")`. Detta påskyndar konverteringen och minskar den slutliga filstorleken.
 
 ```java
 // Configure PDF save options
@@ -53,13 +58,11 @@ PdfSaveOptions pdfOptions = new PdfSaveOptions();
 pdfOptions.setEmbedFonts(true);               // <-- This line embeds all used fonts
 ```
 
-Varför är detta viktigt? Föreställ dig att du skickar en PDF till en kund som bara har standardtypsnitten i systemet. Utan inbäddning kan rubriker falla tillbaka till Arial eller Times New Roman, vilket förstör layouten. Genom att bädda in låser du den visuella designen på plats, vilket gör PDF‑filen riktigt portabel.
+---
 
-> **Proffstips:** Om du vet exakt vilka typsnitt ditt EPUB använder kan du också ange en anpassad teckensnittsmapp via `pdfOptions.setFontsFolder("path/to/fonts")`. Detta snabbar upp konverteringen och undviker onödig typsnittsinbäddning.
+## Så konverterar du EPUB till PDF i Java – Fullt arbetsflöde
 
-## Konvertera EPUB till PDF i Java – Fullt arbetsflöde
-
-Nedan är den minsta, men ändå kompletta, koden du behöver. Den täcker tre väsentliga steg: att lokalisera käll‑EPUB‑filen, konfigurera PDF‑alternativ (inklusive sidstorlek) och anropa konverteringen.
+Nedan är den minsta, men ändå kompletta, koden du behöver. Den täcker tre väsentliga steg: hitta käll‑EPUB‑filen, konfigurera PDF‑alternativ (inklusive **set PDF page size**), och anropa konverteringen.
 
 ```java
 import com.aspose.html.converters.Converter;
@@ -87,26 +90,31 @@ public class EpubToPdfDemo {
 
 ### Vad händer under huven?
 
-1. **Käll‑EPUB** – Variabeln `epubPath` talar om för Aspose var EPUB‑behållaren ska läsas.  
-2. **PDF‑alternativ** – `PdfSaveOptions` låter dig slå på/av typsnittsinbäddning (`setEmbedFonts`) och definiera sidmåtten (`setPageSize`). `PageSize.LETTER`‑enum är praktisk för US‑letter; du kan också välja `A4`, `A5` osv.  
-3. **Konverteringsanrop** – `Converter.convert` gör det tunga arbetet. Den parsar EPUB‑filen, renderar varje XHTML‑sida till en PDF‑sida, tillämpar alternativen och skriver resultatet.
+1. **Käll‑EPUB** – `epubPath` talar om för Aspose var EPUB‑behållaren ska läsas.  
+2. **PDF‑alternativ** – `PdfSaveOptions` låter dig slå på/av teckensnitts­inbäddning (`setEmbedFonts`) och definiera sidmåtten (`setPageSize`). `PageSize.LETTER`‑enum är praktisk för US‑letter; du kan också välja `A4`, `A5` osv.  
+3. **Konverteringsanrop** – `Converter.convert` parsar EPUB‑filen, renderar varje XHTML‑sida till en PDF‑sida, tillämpar alternativen och skriver ut resultatet.
 
 Metoden kastar ett generiskt `Exception` för korthetens skull; i produktion bör du fånga specifika underklasser (t.ex. `IOException`, `FileNotFoundException`) och hantera dem på ett smidigt sätt.
 
-## Ställ in PDF‑sidstorlek för resultatet
+---
 
-Att välja rätt sidstorlek är mer än estetik; det påverkar paginering, bildskalning och utskriftslayout. Aspose.HTML erbjuder en bekväm enum, men du kan också ange en anpassad storlek om standardvärdena inte passar.
+## Så ställer du in PDF‑sidstorlek för resultatet
+
+Att välja rätt sidstorlek påverkar sidnumrering, bildskalning och utskriftslayout. Aspose.HTML erbjuder en praktisk enum, men du kan också ange en anpassad storlek om standardvärdena inte passar dina behov.
 
 ```java
 // Example: Custom size – 6" x 9"
 pdfOptions.setPageSize(new PdfSaveOptions.PageSize(6.0, 9.0));
 ```
 
-Varför kan du behöva en anpassad storlek? Kanske genererar du pocket‑sized e‑böcker eller en utskrivningsbok som följer en specifik trimstorlek. API:et accepterar tum (eller du kan använda millimeter genom att konvertera själv), vilket ger dig full kontroll.
+**När skulle du behöva en anpassad storlek?**  
+Kanske genererar du fick‑storlek e‑böcker, ett utskrivbart häfte eller en rapport som följer en specifik trim‑storlek. API‑et accepterar tum (eller så kan du konvertera från millimeter), vilket ger dig full kontroll.
+
+---
 
 ## Komplett fungerande exempel (inklusive Maven‑beroende)
 
-Om du använder Maven, lägg till följande beroende i din `pom.xml`. Detta säkerställer att klasserna `Converter` och `PdfSaveOptions` finns på classpath.
+Om du använder Maven, lägg till följande beroende i din `pom.xml`. Detta säkerställer att klasserna `Converter` och `PdfSaveOptions` finns på klassvägen.
 
 ```xml
 <dependency>
@@ -161,41 +169,60 @@ public class EpubToPdfDemo {
 
 ### Förväntad output
 
-När programmet körs skrivs en bekräftelsesats ut:
+När programmet körs skrivs en bekräftelse‑rad ut:
 
 ```
 ✅ Success! PDF created at: C:/Docs/output.pdf
 ```
 
-Öppna den resulterande PDF‑filen i någon läsare (Adobe Reader, Chrome, etc.) och du kommer att se:
+Öppna den resulterande PDF‑filen i någon visare (Adobe Reader, Chrome osv.) och du kommer att se:
 
-* Alla textelement behåller den ursprungliga typsnittsstilen.  
-* Sidmåtten matchar den valda **Letter**‑storleken.  
-* Bilder, tabeller och hyperlänkar från EPUB‑filen bevaras.
+* Alla textelement behåller den ursprungliga teckensnittsstilen.  
+* Sidmåtten matchar den valda **Letter**‑storleken (eller någon anpassad storlek du har angett).  
+* Bilder, tabeller och hyperlänkar från EPUB bevaras.
 
-Om du inspekterar PDF‑egenskaperna (File → Properties → Fonts) kommer du att märka att varje typsnitt listas som **Embedded Subset**, vilket bekräftar att anropet `setEmbedFonts(true)` har gjort sitt jobb.
+Om du granskar PDF‑egenskaperna (File → Properties → Fonts) kommer du att märka att varje teckensnitt listas som **Embedded Subset**, vilket bekräftar att anropet `setEmbedFonts(true)` har gjort sitt jobb.
 
-## Vanliga frågor & specialfall
+---
 
-| Question | Answer |
-|----------|--------|
-| **Vad händer om mitt EPUB använder ett anpassat typsnitt som inte är installerat på servern?** | Placera `.ttf`‑ eller `.otf`‑filerna i en mapp och peka Aspose på den med `pdfOptions.setFontsFolder("path/to/custom/fonts")`. Konverteraren laddar och bäddar in dem automatiskt. |
-| **Kan jag konvertera flera EPUB‑filer i ett körning?** | Absolut. Lägg konverteringslogiken i en loop, ändra `epubPath` och `outputPdf` för varje fil. Aspose är trådsäker, så du kan till och med parallellisera arbetet med en `ExecutorService`. |
-| **Finns det någon storleksgräns för inmatnings‑EPUB‑filen?** | Ingen fast gräns, men mycket stora EPUB‑filer (hundratals MB) kommer att förbruka mer minne. Överväg att öka JVM‑heapen (`-Xmx2g` eller högre) för enorma böcker. |
-| **Hur inaktiverar jag typsnittsinbäddning för en mindre PDF?** | Ange `pdfOptions.setEmbedFonts(false)`. Den resulterande PDF‑filen kommer att förlita sig på läsarens installerade typsnitt, vilket minskar filstorleken men kan förändra utseendet. |
-| **Behöver jag en licens för Aspose.HTML?** | En gratis utvärderingslicens fungerar för testning, men den lägger till ett vattenmärke. För produktion, köp en licens och anropa `License license = new License(); license.setLicense("path/to/license.xml");` innan konverteringen. |
+## Vanliga frågor
+
+**Q: Vad händer om min EPUB använder ett anpassat teckensnitt som inte är installerat på servern?**  
+**A:** Placera `.ttf`‑ eller `.otf`‑filerna i en mapp och peka Aspose på den med `pdfOptions.setFontsFolder("path/to/custom/fonts")`. Konverteraren kommer att läsa in och bädda in dessa teckensnitt automatiskt.
+
+**Q: Kan jag konvertera flera EPUB‑filer i ett kör?**  
+**A:** Ja. Lägg in konverteringslogiken i en loop, ändra `epubPath` och `outputPdf` för varje fil, och kör eventuellt loopen parallellt med en `ExecutorService` eftersom Aspose är trådsäker.
+
+**Q: Finns det någon storleksgräns för indata‑EPUB?**  
+**A:** Det finns ingen strikt gräns, men mycket stora EPUB‑filer (hundratals MB) kan förbruka mycket minne. Öka JVM‑heapen (`-Xmx2g` eller mer) för enorma böcker.
+
+**Q: Hur inaktiverar jag teckensnitts­inbäddning för att minska PDF‑storleken?**  
+**A:** Anropa `pdfOptions.setEmbedFonts(false)`. PDF‑filen kommer då att förlita sig på de teckensnitt som läsaren har installerade, vilket minskar filstorleken men kan förändra utseendet.
+
+**Q: Behöver jag en licens för Aspose.HTML?**  
+**A:** En gratis utvärderingslicens fungerar för testning men lägger till en vattenstämpel. För produktionsbruk, köp en licens och ladda den med `License license = new License(); license.setLicense("path/to/license.xml");`.
+
+---
 
 ## Slutsats
 
-Du vet nu **hur man bäddar in typsnitt** när du **konverterar EPUB till PDF** i Java, hur du **ställer in PDF‑sidstorlek**, och hur du sätter ihop allt med Aspose.HTML. Det kompletta, körbara exemplet ovan bör fungera direkt—byt bara ut platshållar‑sökvägarna mot dina egna filer så är du klar.
+Du vet nu **hur du ställer in PDF‑sidstorlek** och **bäddar in teckensnitt i PDF** när du **konverterar EPUB till PDF** i Java med Aspose.HTML. Det kompletta, körbara exemplet ovan bör fungera direkt – byt bara ut platshållar‑sökvägarna mot dina egna filer.
 
-Nästa steg? Prova att experimentera med andra sidformat som **A4** eller en anpassad 6×9‑storlek, utforska `PdfSaveOptions`‑egenskaperna för bildkomprimering, eller lägg till en omslagssida programatiskt. Samma mönster fungerar också för andra källformat (HTML, Markdown) eftersom Aspose.HTML behandlar dem enhetligt.
+Nästa steg? Prova olika sidformat som **A4** eller en anpassad 6×9‑storlek, utforska andra `PdfSaveOptions` (bildkomprimering, PDF/A‑kompatibilitet), eller lägg till en omslagssida programatiskt. Samma mönster fungerar för andra källformat (HTML, Markdown) eftersom Aspose.HTML behandlar dem på ett enhetligt sätt.
 
-Lycka till med kodningen, och må dina PDF‑filer alltid se exakt ut som du tänkt! 
+Lycka till med kodningen, och må dina PDF‑filer alltid se exakt ut som du tänkt!
 
-![Hur man bäddar in typsnitt i PDF‑konvertering](https://example.com/images/embed-fonts.png "Hur man bäddar in typsnitt i PDF‑konvertering")
+![Hur man bäddar in teckensnitt i PDF‑konvertering](https://example.com/images/embed-fonts.png "Hur man bäddar in teckensnitt i PDF‑konvertering")
+
+---
+
+**Senast uppdaterad:** 2026-04-12  
+**Testad med:** Aspose.HTML för Java 23.10  
+**Författare:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}
