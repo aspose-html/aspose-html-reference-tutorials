@@ -1,7 +1,8 @@
 ---
-date: 2025-12-22
-description: Aspose.HTML for Java ile EPUB'yi görüntülere nasıl dönüştüreceğinizi
-  öğrenin. Sorunsuz dönüşüm için adım adım kılavuz.
+date: 2026-03-13
+description: Java için Aspose.HTML ile EPUB'u görüntülere ve JPEG'e nasıl dönüştüreceğinizi
+  öğrenin. Bu adım adım rehber, EPUB sayfalarını verimli bir şekilde dönüştürmenize
+  yardımcı olur.
 linktitle: Specifying Custom Stream Provider for EPUB to Image Conversion
 second_title: Java HTML Processing with Aspose.HTML
 title: Aspose.HTML for Java ile EPUB'yi Görsellere Dönüştür
@@ -9,43 +10,43 @@ url: /tr/java/converting-between-epub-and-image-formats/convert-epub-to-image-sp
 weight: 15
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+ placeholders remain unchanged.
+
+Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java için Aspose.HTML ile EPUB'yi Görsellere Dönüştürme
+# Aspose.HTML for Java ile EPUB'yi Görsellere Dönüştürme
 
-Java'da **EPUB'yi görsellere dönüştürmek** istiyorsanız, Aspose.HTML for Java bu süreci kolaylaştıran güçlü bir araçtır. Bu adım‑adım kılavuzda, kütüphaneyi kurmaktan EPUB belgesinden yüksek‑kaliteli görüntü dosyaları üretmeye kadar ihtiyacınız olan her şeyi size anlatacağız. Sonunda, bu yöntemin neden güvenilir olduğunu, çıktı formatını nasıl özelleştirebileceğinizi ve oluşan görüntü akışlarını nasıl verimli bir şekilde yönetebileceğinizi anlayacaksınız.
+Eğer Java'da **EPUB'yi görüntülere dönüştürmek** yapmak istiyorsanız, Aspose.HTML for Java bu süreci kolaylaştıran güçlü bir araçtır. Bu adım adım rehberde, kütüphaneyi kurmaktan EPUB belgesinden yüksek kaliteli görüntü dosyaları üretmeye kadar ihtiyacınız olan her şeyi size göstereceğiz. Sonunda, bu yaklaşımın neden güvenilir olduğunu, çıktı formatını nasıl özelleştirebileceğinizi ve oluşan görüntü akışlarını nasıl verimli bir şekilde yöneteceğinizi anlayacaksınız.
 
 ## Hızlı Yanıtlar
 - **Dönüşüm ne üretir?** EPUB'un her sayfasını temsil eden bir dizi görüntü dosyası (ör. JPEG, PNG).  
-- **Hangi kütüphane gerekir?** Aspose.HTML for Java.  
-- **Lisans gerekiyor mu?** Üretim kullanımı için geçici veya tam lisans gerekir; ücretsiz bir deneme sürümü mevcuttur.  
-- **Görüntü formatını değiştirebilir miyim?** Evet—`ImageSaveOptions` ile PNG, GIF vb. ayarlayabilirsiniz.  
+- **Hangi kütüphane gereklidir?** Aspose.HTML for Java.  
+- **Lisans gerekir mi?** Üretim kullanımı için geçici veya tam lisans gereklidir; ücretsiz deneme mevcuttur.  
+- **Görüntü formatını değiştirebilir miyim?** Evet—`ImageSaveOptions`'ı PNG, GIF veya **JPEG** olarak ayarlayın (bkz. “EPUB'yi JPEG'e dönüştürme”).  
 - **Kod Java 8+ ile uyumlu mu?** Kesinlikle; herhangi bir yeni JDK ile çalışır.
 
-## “EPUB'yi görsellere dönüştürmek” nedir?
-Bir EPUB'u görsellere dönüştürmek, e‑kitabın her sayfasını raster grafik olarak render etmektir. Bu, ön izlemeler oluşturmak, küçük resimler (thumbnail) üretmek veya yalnızca görüntü varlıklarını destekleyen platformlara EPUB içeriğini entegre etmek için kullanışlıdır.
+## “EPUB'yi görüntülere dönüştürmek” nedir?
+Bir EPUB'u görüntülere dönüştürmek, e‑kitabın her sayfasını raster grafik olarak render etmek anlamına gelir. Bu, ön izlemeler oluşturmak, küçük resimler üretmek veya yalnızca görüntü varlıklarını destekleyen platformlara EPUB içeriğini entegre etmek için faydalıdır.
 
-## Neden Aspose.HTML for Java kullanmalısınız?
-- **Yüksek doğrulukta render** – düzeni, yazı tiplerini ve SVG grafikleri korur.  
-- **Akış‑tabanlı işleme** – geçici dosyalara ihtiyaç duymadan bellek akışlarıyla çalışır.  
+## Bu dönüşüm için neden Aspose.HTML for Java kullanmalı?
+- **Yüksek doğrulukta render** – düzeni, yazı tiplerini ve SVG grafiklerini korur.  
+- **Akış tabanlı işleme** – bellek akışlarıyla çalışır, geçici dosyaları önler.  
 - **Esnek çıktı** – JPEG, PNG, GIF ve daha fazlasını destekler.  
-- **Çapraz‑platform** – desteklenen bir JDK ile herhangi bir işletim sisteminde çalışır.
+- **Çapraz platform** – desteklenen bir JDK ile herhangi bir işletim sisteminde çalışır.
 
-## Ön Koşullar
+## Önkoşullar
 
-Dönüşüme başlamadan önce aşağıdaki ön koşulların sağlandığından emin olun:
+Conversion'a başlamadan önce, aşağıdaki önkoşulların yerine getirildiğinden emin olun:
 
-- Java Development Kit (JDK): Sisteminizde Java SE Development Kit (JDK) yüklü olmalıdır. İndirmek için [buraya](https://www.oracle.com/java/technologies/javase-downloads.html) tıklayın.
-
+- Java Development Kit (JDK): Sisteminizde Java SE Development Kit (JDK) yüklü olmalıdır. [buradan](https://www.oracle.com/java/technologies/javase-downloads.html) indirebilirsiniz.
 - Aspose.HTML for Java: Aspose.HTML for Java kütüphanesine sahip olmanız gerekir. Henüz edinmediyseniz, [buradan](https://releases.aspose.com/html/java/) alabilirsiniz.
-
 - EPUB Dosyası: Görsellere dönüştürmek istediğiniz EPUB dosyasını hazırlayın.
 
 ## Paketleri İçe Aktarma
 
-Java projenizde Aspose.HTML for Java’dan gerekli paketleri içe aktarmanız gerekir. Bu satırları kodunuza eklediğinizden emin olun.
+Java projenizde, Aspose.HTML for Java'dan gerekli paketleri içe aktarmanız gerekir. Bunları kodunuza eklediğinizden emin olun.
 
 ```java
 import com.aspose.html.converters.Converter;
@@ -56,21 +57,21 @@ import java.io.FileOutputStream;
 import java.io.InputStream;
 ```
 
-## Adım‑Adım Kılavuz
+## Adım Adım Kılavuz
 
-Aspose.HTML for Java kullanarak **EPUB'yi görsellere dönüştürme** sürecini birden fazla adıma ayıralım:
+Aspose.HTML for Java kullanarak **EPUB'yi görüntülere dönüştürmek** sürecini birden fazla adıma ayıralım:
 
 ### Adım 1: EPUB Dosyasını Açma
 
-`FileInputStream` kullanarak mevcut bir EPUB dosyasını okuma amaçlı açacaksınız.
+`FileInputStream` kullanarak mevcut bir EPUB dosyasını okuma amaçlı açarak başlayacaksınız.
 
 ```java
 try (FileInputStream fileInputStream = new FileInputStream("input.epub")) {
 ```
 
-### Adım 2: Bellek Akışı Sağlayıcı (Memory Stream Provider) Oluşturma
+### Adım 2: Bellek Akışı Sağlayıcı Oluşturma
 
-Dönüşümü kolaylaştırmak için bir `MemoryStreamProvider` örneği oluşturun.
+Dönüşümü kolaylaştırmak için `MemoryStreamProvider` örneği oluşturun.
 
 ```java
 try (MemoryStreamProvider streamProvider = new MemoryStreamProvider()) {
@@ -78,7 +79,7 @@ try (MemoryStreamProvider streamProvider = new MemoryStreamProvider()) {
 
 ### Adım 3: EPUB'u Görsele Dönüştürme
 
-Şimdi EPUB dosyasını görsellere dönüştürme işlemini gerçekleştireceksiniz. Bunun için `Converter.convertEPUB` metodunu kullanın ve çıktı formatını JPEG olarak belirtin.
+Şimdi, EPUB dosyasını görüntülere dönüştürme işlemini gerçekleştirme zamanı. Bunun için `Converter.convertEPUB` metodunu kullanın ve çıktı formatını JPEG olarak belirtin. Bu, **EPUB'yi JPEG'e dönüştürme** işleminin çekirdeğidir.
 
 ```java
 Converter.convertEPUB(
@@ -90,7 +91,7 @@ Converter.convertEPUB(
 
 ### Adım 4: Oluşan Veriye Erişim
 
-Dönüşüm tamamlandıktan sonra, oluşan görüntü verilerini içeren bellek akışlarına erişebilirsiniz. Bu akışları döngüyle gezerek görüntüleri işleyin.
+Dönüşümden sonra, oluşan görüntü verisini içeren bellek akışlarına erişebilirsiniz. Görüntüleri işlemek için bu akışlar üzerinde döngü oluşturun.
 
 ```java
 int size = streamProvider.getStream().size();
@@ -106,39 +107,45 @@ for (int i = 0; i < size; i++) {
 }
 ```
 
-Ve işte bu kadar! Aspose.HTML for Java ile **EPUB'yi görsellere başarıyla dönüştürmüş** oldunuz.
+Ve işte bu kadar! Aspose.HTML for Java kullanarak **EPUB'yi görüntülere dönüştürdünüz**.
 
-## Yaygın Hatalar & İpuçları
+## Java ile EPUB sayfalarını görüntülere nasıl dönüştürürüm?
+Eğer **java EPUB sayfalarını** tek tek dönüştürmeniz gerekiyorsa, Step 4'te gösterildiği gibi `streamProvider.getStream()` tarafından döndürülen akışlar üzerinde yineleme yapın. Ayrıca koleksiyonu filtreleyerek yalnızca belirli sayfaları işleyebilir, bu da bölüm‑özel küçük resimler oluşturmak için kullanışlıdır.
 
-- **Bellek kullanımı** – Büyük EPUB'ları dönüştürürken bellek akışları önemli miktarda RAM tüketebilir. `OutOfMemoryError` alırsanız sayfaları partiler halinde işleme almayı düşünün.  
-- **Görüntü kalitesi** – JPEG sıkıştırma seviyelerini kontrol etmek için `ImageSaveOptions` içinde `Quality` özelliğini ayarlayın.  
-- **Dosya adlandırma** – Örnekte basit bir adlandırma şeması (`page_1.jpg`) kullanılmıştır. Bölüm başlıkları veya zaman damgaları ekleyerek özelleştirebilirsiniz.
+## Yaygın Tuzaklar ve İpuçları
+- **Bellek kullanımı** – Büyük EPUB'ları dönüştürürken, bellek içi akışlar önemli miktarda RAM tüketebilir. `OutOfMemoryError` ile karşılaşırsanız sayfaları partiler halinde işlemeyi düşünün.  
+- **Görüntü kalitesi** – JPEG sıkıştırma seviyelerini kontrol etmek için `ImageSaveOptions`'ı (ör. `Quality` özelliğini) ayarlayın.  
+- **Dosya adlandırma** – Örnek basit bir adlandırma şeması (`page_1.jpg`) kullanır. Bunu bölüm başlıkları veya zaman damgaları içerecek şekilde özelleştirebilirsiniz.  
+- **Performans ipucu:** Çok sayıda sayfa dönüştürüyorsanız tek bir `ImageSaveOptions` örneğini yeniden kullanın; bu nesne oluşturma yükünü azaltır.
 
 ## Sonuç
 
-Aspose.HTML for Java, EPUB dosyalarını görsellere dönüştürme sürecini basitleştirir. Bu kılavuzda belirtilen adımlarla bu görevi hızlı ve etkili bir şekilde yerine getirebilirsiniz. Ön koşulları karşılamayı ve gerekli paketleri içe aktarmayı unutmayın; böylece sorunsuz bir dönüşüm süreci elde edersiniz.
+Aspose.HTML for Java, EPUB dosyalarını görüntülere dönüştürme sürecini basitleştirir. Bu rehberde belirtilen adımlarla bu görevi hızlı ve etkili bir şekilde gerçekleştirebilirsiniz. Sorunsuz bir dönüşüm süreci için önkoşulları yerine getirmeyi ve gerekli paketleri içe aktarmayı unutmayın.
 
 ## Sıkça Sorulan Sorular
 
 **S: Çıktıyı JPEG yerine PNG olarak nasıl değiştiririm?**  
 C: `ImageSaveOptions` yapıcısında `ImageFormat.Jpeg` yerine `ImageFormat.Png` kullanın.
 
-**S: Yalnızca belirli sayfaları dönüştürmek mümkün mü?**  
-C: Evet—`streamProvider.getStream()` tarafından döndürülen akışları filtreleyerek sadece istediğiniz indeksleri dosyalara yazabilirsiniz.
+**S: Yalnızca bir sayfa alt kümesini dönüştürmek mümkün mü?**  
+C: Evet—`streamProvider.getStream()` tarafından döndürülen akışları filtreleyebilir ve yalnızca istediğiniz indeksleri dosyalara yazabilirsiniz.
 
 **S: Hangi Java sürümleri destekleniyor?**  
-C: Java SE 8 ve üzeri tüm sürümler desteklenir.
+C: Java SE 8 veya daha sonraki herhangi bir sürüm desteklenir.
 
 **S: Görüntüleri doğrudan bir web yanıtına akıtabilir miyim?**  
-C: Kesinlikle. `FileOutputStream` yerine HTTP yanıtının çıktı akışına bayt dizisini yazabilirsiniz.
+C: Kesinlikle. `FileOutputStream`'e yazmak yerine bayt dizisini HTTP yanıtı çıkış akışına yazın.
 
-**S: Kütüphane gömülü yazı tiplerini işliyor mu?**  
+**S: Kütüphane gömülü yazı tiplerini yönetiyor mu?**  
 C: Evet, Aspose.HTML EPUB içinde bulunan özel yazı tiplerini otomatik olarak gömer ve render eder.
+
+**S: Çok büyük EPUB'lar için bellek tüketimini nasıl azaltabilirim?**  
+C: Sayfaları daha küçük partiler halinde işleyin ve dosyayı yazdıktan sonra her `InputStream`'i serbest bırakın.
 
 ---
 
-**Son Güncelleme:** 2025-12-22  
-**Test Edilen Versiyon:** Aspose.HTML for Java 24.11  
+**Son Güncelleme:** 2026-03-13  
+**Test Edilen:** Aspose.HTML for Java 24.11  
 **Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

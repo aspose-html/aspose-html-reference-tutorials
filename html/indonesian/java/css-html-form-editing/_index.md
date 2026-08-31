@@ -26,10 +26,40 @@ Pertama, mari kita bahas teknik ekstensi CSS tingkat lanjut dengan Aspose.HTML u
 Sekarang, mari kita beralih ke cara lain dan menjelajahi cara mengedit dan mengirimkan formulir HTML secara efektif menggunakan Aspose.HTML untuk Java. Formulir adalah inti dari interaksi pengguna di situs web, bukan? Dengan tutorial ini, Anda akan mempelajari cara mengubah desain dan fungsionalitas formulir dengan mudah. Anda akan menemukan cara mengisi kolom terlebih dahulu, memvalidasi input dengan logika khusus, dan memfasilitasi pengiriman data yang lancar ke backend Anda. Bayangkan ini: pengguna Anda dapat mengisi formulir di situs Anda dan tahu bahwa info mereka aman dan terjamin—karena itulah jenis pengalaman yang ingin Anda ciptakan! Panduan langkah demi langkah ini dikemas dengan wawasan yang dapat ditindaklanjuti, memastikan Anda memahami setiap konsep di sepanjang jalan.[Baca selengkapnya](./html-form-editing/). 
 
 ## Pengeditan Formulir CSS dan HTML dengan Aspose.HTML untuk Tutorial Java
+
 ### [Teknik Ekstensi CSS Lanjutan dengan Aspose.HTML untuk Java](./advanced-css-extension/)
 Pelajari cara menggunakan Aspose.HTML untuk Java guna menerapkan teknik CSS tingkat lanjut, termasuk margin halaman khusus dan konten dinamis. Tutorial terperinci dan praktis untuk pengembang.
 ### [Pengeditan dan Pengiriman Formulir HTML dengan Aspose.HTML untuk Java](./html-form-editing/)
 Pelajari cara mengedit dan mengirimkan formulir HTML secara terprogram menggunakan Aspose.HTML untuk Java dalam panduan langkah demi langkah yang komprehensif ini.
+### [Mendapatkan CSS yang Dihitung di Java – Panduan Lengkap Aspose HTML](./get-computed-css-in-java-complete-aspose-html-guide/)
+Pelajari cara mengambil nilai CSS yang dihitung menggunakan Aspose.HTML untuk Java dalam panduan lengkap ini.
+### [Cara Mendapatkan Gaya di Java – Memuat HTML & Query Selector](./how-to-get-style-in-java-load-html-query-selector/)
+Pelajari cara memuat dokumen HTML dan mengambil gaya menggunakan selector di Java dengan Aspose.HTML.
+### [Memilih elemen select berdasarkan kelas di Java – Panduan Lengkap](./select-element-by-class-in-java-complete-how-to-guide/)
+Pelajari cara memilih elemen <select> berdasarkan kelas di Java dengan contoh kode lengkap dan penjelasan praktis.
+### [Cara Membaca CSS di Java – Panduan Lengkap dengan Aspose.HTML](./how-to-read-css-in-java-complete-guide-with-aspose-html/)
+Pelajari cara membaca file CSS di Java menggunakan Aspose.HTML dalam panduan lengkap ini.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Dapatkan Gaya Terhitung Java – Ekstrak Warna Latar Belakang dari HTML](./get-computed-style-java-extract-background-color-from-html/)
+Pelajari cara menggunakan Aspose.HTML untuk Java guna mengambil gaya terhitung dan mengekstrak warna latar belakang dari elemen HTML.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Dapatkan Gaya Terhitung Elemen di Java – Panduan Langkah‑per‑Langkah Lengkap](./get-element-computed-style-in-java-full-step-by-step-guide/)
+Pelajari cara memperoleh gaya terhitung elemen HTML menggunakan Aspose.HTML untuk Java dalam panduan lengkap langkah demi langkah.
+### [Cara menggunakan getComputedStyle di Java – Ekstrak warna latar belakang dan properti CSS lainnya](./how-to-use-getcomputedstyle-in-java-extract-background-color/)
+Pelajari cara menggunakan metode getComputedStyle di Java untuk mengekstrak warna latar belakang serta properti CSS lainnya secara terprogram.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

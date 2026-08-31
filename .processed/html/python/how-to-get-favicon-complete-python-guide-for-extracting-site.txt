@@ -1,0 +1,7 @@
+Title: How to Get Favicon – Complete Python Guide for Extracting Site Icons
+Slug: how-to-get-favicon-complete-python-guide-for-extracting-site
+Category: general
+ProcessedDate: 2026-06-26T07:51:23.308390
+SourceRepo: AI Search API
+Keywords: how to get favicon, load html from url, get website icons, extract href from link, how to extract favicons
+PRNumber: 193

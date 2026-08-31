@@ -36,6 +36,12 @@ Gdy już opanujesz podstawy, zagłębimy się w proces tworzenia. W tej sekcji n
 
 Teraz przenieśmy Twoje umiejętności na wyższy poziom. Edycja dokumentów HTML to typowe zadanie dla programistów stron internetowych, a Aspose.HTML znacznie upraszcza ten proces. W tej sekcji omówimy tworzenie, manipulację i stylizowanie dokumentów. Odkryjesz, jak ulepszyć wygląd i funkcjonalność treści internetowych, czyniąc je angażującymi i przyjaznymi dla użytkownika.
 
+### [Jak zapisać HTML w C# – Kompletny przewodnik z użyciem własnego obsługiwacza zasobów](./how-to-save-html-in-c-complete-guide-using-a-custom-resource/)
+
+Poznaj metodę zapisu HTML w C# z własnym obsługiwaczem zasobów, umożliwiającą pełną kontrolę nad zapisem i dostępem do zasobów.
+### [Jak pogrubić nagłówek za pomocą CSS i C# – Kompletny przewodnik krok po kroku](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
+
+Dowiedz się, jak użyć CSS i C# do pogrubienia nagłówka w HTML, krok po kroku, z praktycznymi przykładami.
 ### [Jak zapisać HTML w C# – własne obsługi zasobów i ZIP](./how-to-save-html-in-c-custom-resource-handlers-zip/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

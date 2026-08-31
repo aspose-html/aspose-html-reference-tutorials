@@ -26,10 +26,37 @@ Nejprve si promluvme o pokročilých technikách rozšíření CSS s Aspose.HTML
 Nyní pojďme zařadit rychlost a prozkoumat, jak efektivně upravovat a odesílat formuláře HTML pomocí Aspose.HTML pro Java. Formuláře jsou srdcem uživatelské interakce na webových stránkách, že? V tomto tutoriálu se naučíte, jak snadno změnit design a funkčnost formulářů. Zjistíte, jak předvyplňovat pole, ověřovat vstupy pomocí vlastní logiky a usnadňovat bezproblémové odesílání dat do vašeho backendu. Představte si toto: vaši uživatelé mohou na vašem webu vyplnit formulář a vědět, že jejich informace jsou bezpečné a spolehlivé – protože právě takový zážitek chcete vytvořit! Tento podrobný průvodce je nabitý užitečnými informacemi, které vám zajistí, že během cesty pochopíte každý koncept.[Přečtěte si více](./html-form-editing/). 
 
 ## CSS a HTML úpravy formulářů s Aspose.HTML pro Java tutoriály
+
 ### [Pokročilé techniky rozšíření CSS s Aspose.HTML pro Javu](./advanced-css-extension/)
 Naučte se používat Aspose.HTML pro Java k aplikaci pokročilých technik CSS, včetně vlastních okrajů stránek a dynamického obsahu. Podrobný praktický návod pro vývojáře.
 ### [Editace a odeslání formuláře HTML pomocí Aspose.HTML pro Javu](./html-form-editing/)
 V tomto podrobném průvodci se dozvíte, jak programově upravovat a odesílat formuláře HTML pomocí Aspose.HTML for Java.
+### [Získání vypočteného CSS v Javě – Kompletní průvodce Aspose HTML](./get-computed-css-in-java-complete-aspose-html-guide/)
+Kompletní návod, jak v Javě získat vypočtené CSS pomocí Aspose.HTML a využít jej pro úpravy webových stránek.
+### [Výběr elementu podle třídy v Javě – kompletní průvodce](./select-element-by-class-in-java-complete-how-to-guide/)
+Naučte se, jak pomocí Aspose.HTML pro Javu vybrat HTML element podle třídy a manipulovat s ním.
+### [Jak číst CSS v Javě – kompletní průvodce s Aspose.HTML](./how-to-read-css-in-java-complete-guide-with-aspose-html/)
+Naučte se, jak pomocí Aspose.HTML v Javě načíst a analyzovat CSS soubory.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Získání vypočítaného stylu Java – Extrakce barvy pozadí z HTML](./get-computed-style-java-extract-background-color-from-html/)
+Naučte se pomocí Aspose.HTML pro Java získat vypočítané styly a extrahovat barvu pozadí z HTML dokumentu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Získání vypočteného stylu prvku v Javě – Kompletní krok‑za‑krokem průvodce](./get-element-computed-style-in-java-full-step-by-step-guide/)
+Naučte se, jak pomocí Aspose.HTML pro Javu získat vypočtené CSS styly konkrétního HTML elementu krok po kroku.
+### [Jak použít getComputedStyle v Javě – Extrahovat barvu pozadí a další CSS vlastnosti](./how-to-use-getcomputedstyle-in-java-extract-background-color/)
+Naučte se získat výpočetní styly v Javě a extrahovat barvu pozadí a další CSS vlastnosti pomocí Aspose.HTML.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

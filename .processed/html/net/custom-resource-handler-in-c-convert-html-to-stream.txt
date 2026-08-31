@@ -1,0 +1,7 @@
+Title: Custom Resource Handler in C# – Convert HTML to Stream
+Slug: custom-resource-handler-in-c-convert-html-to-stream
+Category: html-extensions-and-conversions
+ProcessedDate: 2026-06-23T02:32:02.247234
+SourceRepo: AI Search API
+Keywords: custom resource handler, convert html to stream
+PRNumber: 189

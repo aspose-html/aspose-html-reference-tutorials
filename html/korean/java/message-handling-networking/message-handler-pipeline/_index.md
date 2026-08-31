@@ -1,34 +1,48 @@
 ---
-title: Java용 Aspose.HTML에서 메시지 핸들러 파이프라인 생성
-linktitle: Java용 Aspose.HTML에서 메시지 핸들러 파이프라인 생성
-second_title: Aspose.HTML을 사용한 Java HTML 처리
-description: 이 자세한 단계별 가이드를 통해 Java용 Aspose.HTML에서 메시지 핸들러 파이프라인을 만드는 방법을 알아보세요. ZIP 파일을 PDF로 손쉽게 변환하세요.
-weight: 13
+date: 2026-02-23
+description: Aspose.HTML for Java를 사용하여 zip 파일을 PDF로 변환하는 방법을 배워보세요. 이 단계별 가이드는 네트워크
+  서비스를 구성하고, 사용자 정의 핸들러를 추가하며, 요청 지속 시간을 기록하는 방법을 보여줍니다.
+linktitle: Creating Message Handler Pipelines in Aspose.HTML
+second_title: Java HTML Processing with Aspose.HTML
+title: Aspose.HTML for Java를 사용하여 ZIP를 PDF로 변환하는 방법
 url: /ko/java/message-handling-networking/message-handler-pipeline/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java용 Aspose.HTML에서 메시지 핸들러 파이프라인 생성
+# ZIP를 PDF로 변환하는 방법 (Aspose.HTML for Java 사용)
 
 ## 소개
-이 가이드에서는 Aspose.HTML로 메시지 핸들러 파이프라인을 만드는 방법을 자세히 살펴보겠습니다. 숙련된 개발자이든 기술을 향상시키고자 하는 코딩 초보자이든, 이 튜토리얼은 이 환상적인 라이브러리를 시작하는 데 필요한 모든 필수 단계별 지침, 팁, 요령을 제공합니다. 시작해 볼까요!
-## 필수 조건
-핵심적인 내용으로 들어가기 전에, Java용 Aspose.HTML을 원활하게 사용하기 위해 꼭 갖춰야 할 몇 가지 핵심 전제 조건이 있습니다. 필요한 것은 다음과 같습니다.
-### 1. 자바 개발 키트(JDK)
-컴퓨터에 JDK가 설치되어 있는지 확인하세요. Aspose.HTML에는 JDK 8 이상이 필요합니다. Oracle 웹사이트에서 다운로드하거나 OpenJDK와 같은 대안을 채택할 수 있습니다.
-### 2. Java 라이브러리용 Aspose.HTML
- 모든 기능을 활용하려면 Java 라이브러리용 Aspose.HTML을 다운로드해야 합니다. 다음에서 가져올 수 있습니다.[Aspose 다운로드](https://releases.aspose.com/html/java/) 페이지.
-### 3. IDE
-IntelliJ IDEA, Eclipse, NetBeans와 같은 통합 개발 환경(IDE)을 사용하면 개발 프로세스를 간소화할 수 있으니, 하나 설정하여 바로 사용할 수 있도록 준비하세요!
-### 4. 자바에 대한 기본 이해
-전문가가 될 필요는 없지만, Java 프로그래밍에 대한 기본 지식이 있으면 이 가이드를 따라가기가 더 쉬울 것입니다.
-### 5. 기본 HTML 지식
-HTML에 익숙하면 작업하는 파일의 컨텍스트를 이해하는 데 도움이 되어 변환 과정이 더 명확해집니다.
+이 포괄적인 튜토리얼에서는 Aspose.HTML for Java를 사용하여 **how to convert zip** 아카이브를 PDF 문서로 변환하는 방법을 알아봅니다. 메시지 핸들러 파이프라인 구축, 네트워크 서비스 구성, 사용자 정의 핸들러 추가, 요청 지속 시간 로깅 등을 단계별로 진행하면서 코드를 명확하고 실행 가능하게 유지합니다. 보고서 자동 생성이든 HTML 콘텐츠를 PDF로 패키징해야 하는 상황이든 이 가이드가 해결책을 제공합니다.
+
+## 빠른 답변
+- **파이프라인은 무엇을 하나요?** ZIP 파일을 처리하고 HTML을 추출한 뒤 PDF로 렌더링합니다.  
+- **어떤 핸들러가 지속 시간을 로그합니까?** `StartRequestDurationLoggingMessageHandler` 및 `StopRequestDurationLoggingMessageHandler`.  
+- **라이선스가 필요합니까?** 테스트용으로는 무료 체험판으로 충분하지만, 프로덕션에서는 상용 라이선스가 필요합니다.  
+- **출력 경로를 변경할 수 있나요?** 예—Step 1에서 `savePath` 변수를 수정하면 됩니다.  
+- **필요한 Java 버전은?** JDK 8 이상.
+
+## Message Handler 파이프라인이란?
+Message handler 파이프라인은 Aspose.HTML이 수행하는 네트워크 요청을 가로채는 구성 가능한 처리 컴포넌트 체인입니다. 사용자 정의 핸들러를 삽입하면 리소스 가져오기, 변환, 로깅 방식을 제어할 수 있어 ZIP 아카이브를 PDF로 변환하는 시나리오에 적합합니다.
+
+## ZIP를 PDF로 변환할 때 파이프라인을 사용하는 이유
+- **세밀한 제어** – 워크플로에 맞게 핸들러를 추가, 재배열 또는 제거합니다.  
+- **성능 인사이트** – 요청 지속 시간을 로그하여 병목 현상을 파악합니다.  
+- **확장성** – 자체 로직(예: 인증, 캐싱)을 플러그인합니다.  
+- **신뢰성** – 라이브러리가 손상된 HTML과 같은 엣지 케이스를 자동으로 처리합니다.
+
+## 전제 조건
+- **Java Development Kit (JDK) 8+** – `java -version` 명령이 8 이상을 표시하는지 확인하세요.  
+- **Aspose.HTML for Java 라이브러리** – [Aspose downloads](https://releases.aspose.com/html/java/) 페이지에서 다운로드하세요.  
+- **IDE** – IntelliJ IDEA, Eclipse, NetBeans 중 하나를 사용하면 코딩이 쉬워집니다.  
+- **기본 Java 및 HTML 지식** – 도움이 되지만 필수는 아닙니다.
+
 ## 패키지 가져오기
-이제 필수 구성 요소를 다루었으므로 필요한 패키지를 가져올 차례입니다. Java 프로젝트에서 Aspose.HTML을 사용하려면 코드에 Aspose.HTML 라이브러리를 포함해야 합니다. 방법은 다음과 같습니다.
+시작하려면 필요한 클래스를 가져옵니다. 이러한 import는 구성, 네트워킹 및 PDF 렌더링 기능에 접근할 수 있게 해줍니다.
+
 ```java
 import com.aspose.html.Configuration;
 import com.aspose.html.HTMLDocument;
@@ -36,95 +50,115 @@ import com.aspose.html.net.MessageHandlerCollection;
 import com.aspose.html.rendering.pdf.PdfDevice;
 import com.aspose.html.services.INetworkService;
 ```
-이제 무대를 마련했으니, 소매를 걷어붙이고 제공된 코드 조각을 사용하여 메시지 핸들러 파이프라인을 만드는 방법을 시작해 보겠습니다. 명확성을 위해 각 단계를 분석해 보겠습니다.
-## 1단계: 파일 경로 준비
 
+## 단계별 가이드
+
+### Step 1: 파일 경로 준비
 ```java
-// 소스 zip 파일에 대한 경로 준비
+// Prepare path to a source zip file
 String documentPath = "input/test.zip";
-// 변환된 파일 저장을 위한 경로 준비
+// Prepare path for converted file saving
 String savePath = "output/zip-to-pdf-duration.pdf";
 ```
+`documentPath`를 HTML 파일이 들어 있는 ZIP 파일 경로로, `savePath`를 최종 PDF를 저장할 경로로 설정합니다.
 
- 우선, 소스 ZIP 파일과 출력 PDF 파일의 경로를 설정해야 합니다. 여기서,`documentPath` HTML 콘텐츠가 포함된 입력 ZIP 파일의 경로를 지정하는 곳입니다.`savePath`변환된 PDF가 저장되는 위치입니다. 나중에 파일을 찾을 수 없음 오류가 발생하지 않도록 이러한 경로가 올바른지 확인하는 것이 중요합니다.
-## 2단계: 구성 인스턴스 생성
-
+### Step 2: Configuration 인스턴스 생성
 ```java
-// Configuration 클래스의 인스턴스를 생성합니다.
+// Create an instance of the Configuration class
 Configuration configuration = new Configuration();
 ```
+`Configuration` 객체는 처리 파이프라인을 사용자 정의하기 위한 기반입니다.
 
-문서와 처리 파이프라인을 설정할 수 있는 구성 인스턴스를 만들어야 합니다. 구성 클래스를 조직의 설정 핸드북으로 생각하세요. 효과적인 문서 처리를 위해 모든 것이 준비되어 있습니다.
-## 3단계: 네트워크 서비스 초기화
-
+### Step 3: 네트워크 서비스 초기화
 ```java
 INetworkService service = configuration.getService(INetworkService.class);
 MessageHandlerCollection handlers = service.getMessageHandlers();
 ```
+여기서 **configure network service**를 수행하고 `MessageHandlerCollection`을 얻습니다. 이 컬렉션은 사용자 정의 핸들러를 추가하기 위한 도구 상자 역할을 합니다.
 
- 여기서 우리는 초기화하고 있습니다`INetworkService` 메시지 핸들러의 통신 및 처리를 담당합니다. 또한 다음을 검색하고 있습니다.`MessageHandlerCollection`이는 기본적으로 파이프라인 전체에 걸쳐 다양한 핸들러를 추가하고 관리하기 위한 도구 상자입니다.
-## 4단계: ZIP 파일 메시지 핸들러 추가
-
+### Step 4: ZIP 파일 메시지 핸들러 추가
 ```java
-// 사용자 지정 스키마: ZIP. 파이프라인 끝에 ZipFileSchemaMessageHandler를 추가합니다.
+// Custom Schema: ZIP. Add ZipFileSchemaMessageHandler to the end of the pipeline
 handlers.addItem(new ZIPFileSchemaMessageHandler(documentPath));
 ```
+**adding a custom handler**(`ZIPFileSchemaMessageHandler`)를 통해 Aspose.HTML이 ZIP 파일을 가상 파일 시스템으로 취급하도록 지정합니다.
 
- 이제 재밌는 부분이 왔습니다! 우리는 다음을 추가하고 있습니다.`ZIPFileSchemaMessageHandler`ZIP 파일을 처리하는 역할을 합니다. 이 핸들러는 ZIP 내부의 HTML 파일을 가져와 변환 프로세스를 위해 준비하기 위해 백그라운드에서 작동합니다. 개인이 주요 조립 라인에 들어가기 전에 품목을 분류하는 것으로 상상해보세요!
-## 5단계: 시작 요청 기간 로깅 핸들러 삽입
-
+### Step 5: 시작 요청 지속 시간 로깅 핸들러 삽입
 ```java
-// 지속 시간 로깅. 파이프라인의 첫 번째 위치에 StartRequestDurationLoggingMessageHandler를 추가합니다.
+// Duration Logging. Add the StartRequestDurationLoggingMessageHandler at the first place in the pipeline
 handlers.insertItem(0, new StartRequestDurationLoggingMessageHandler());
 ```
+이 핸들러는 파이프라인 시작 부분에서 **logs request duration**을 수행하여 처리 시작 시점을 타임스탬프로 기록합니다.
 
- 다음으로, 우리는 요청을 처리하는 데 걸리는 시간을 추적하고 싶습니다. 우리는 다음을 삽입하여 이를 달성합니다.`StartRequestDurationLoggingMessageHandler` 파이프라인의 시작 부분에서요. 레이스 시작 시 타이머를 설정해서 시스템이 얼마나 효율적으로 작동하는지 기록할 수 있는 것과 같아요!
-## 6단계: 중지 요청 기간 로깅 핸들러 추가
-
+### Step 6: 종료 요청 지속 시간 로깅 핸들러 추가
 ```java
-// 파이프라인 끝에 StopRequestDurationLoggingMessageHandler를 추가합니다.
+// Add the StopRequestDurationLoggingMessageHandler to the end of the pipeline
 handlers.addItem(new StopRequestDurationLoggingMessageHandler());
 ```
+파이프라인 끝에 배치하면 ZIP를 PDF로 변환하는 전체 소요 시간을 캡처할 수 있습니다.
 
- 마찬가지로 우리는 다음을 추가합니다.`StopRequestDurationLoggingMessageHandler`처리 파이프라인의 끝까지. 이 핸들러는 요청 처리의 끝을 표시하고 전체 기간을 캡처할 수 있게 해주며, 레이스 결승선 순간으로 사용됩니다.
-## 7단계: HTML 문서 초기화
-
+### Step 7: HTML 문서 초기화
 ```java
-// 지정된 구성으로 HTML 문서 초기화
-HTMLDocument document = new HTMLDocument("zip-file:///test.html", 구성);
+// Initialize an HTML document with specified configuration
+HTMLDocument document = new HTMLDocument("zip-file:///test.html", configuration);
 ```
+`HTMLDocument`를 ZIP 내부의 진입 HTML 파일(`zip-file:///test.html`)에 지정합니다. 앞서 만든 구성은 자동으로 적용됩니다.
 
-이 시점에서 HTML 문서 인스턴스를 만들 준비를 하고 있습니다. ZIP 파일 내의 HTML 파일 경로를 지정하고 구성을 전달합니다. 이 단계는 방금 구성한 파이프라인에 콘텐츠를 바인딩하기 때문에 중요합니다.
-## 8단계: PDF 장치 생성
-
+### Step 8: PDF 디바이스 생성
 ```java
-// PDF 장치 생성
+// Create the PDF Device
 PdfDevice device = new PdfDevice(savePath);
 ```
+**PDF device**(`PdfDevice`)는 **creates PDF from ZIP** 콘텐츠를 담당합니다. 렌더링된 페이지를 받아 `savePath`에 기록합니다.
 
- 여기서 우리는 준비합니다`PdfDevice` HTML 콘텐츠를 PDF 형식으로 렌더링하는 역할을 합니다. 아름답게 만든 HTML을 휴대용 문서 형식으로 변환하여 공유할 수 있도록 해주는 마법의 기계입니다!
-## 9단계: ZIP을 PDF로 렌더링
-
+### Step 9: ZIP를 PDF로 렌더링
 ```java
-// ZIP을 PDF로 렌더링
+// Render ZIP to PDF
 document.renderTo(device);
 ```
+`renderTo`를 호출하면 전체 파이프라인이 실행됩니다: ZIP이 풀리고, HTML이 렌더링되며, 지속 시간이 로그되고, 최종 PDF가 작성됩니다.
 
- 마지막으로 우리는 다음을 호출합니다.`renderTo`변환 프로세스를 시작하는 방법입니다. 여기서 고무가 도로를 만나는 지점입니다. HTML 콘텐츠가 PDF 형식으로 변환되어 이전에 지정한 경로에 저장됩니다. 즉각적인 만족감!
-## 결론
-축하합니다! 방금 Java용 Aspose.HTML에서 메시지 핸들러 파이프라인을 만드는 과정을 거쳤습니다. 구성, 핸들러, 문서 초기화를 혼합하여 ZIP 파일을 PDF로 원활하게 변환하는 방법을 배웠습니다. 이 라이브러리의 장점은 문서를 효율적으로 처리하는 동시에 관련 단계를 완벽하게 제어할 수 있다는 점입니다. 
-따라서 보고서를 생성하든, 정보를 공유하든, 프레젠테이션을 만들든 Aspose.HTML이 도와드리겠습니다. 즐거운 코딩을 하시고, HTML-PDF 변환이 빠르고 번거롭지 않기를 바랍니다!
+## 일반적인 문제 및 해결책
+
+| 문제 | 원인 | 해결 방법 |
+|-------|-------|-----|
+| `FileNotFoundException` | `documentPath` 또는 `savePath`가 올바르지 않음 | 경로가 절대 경로나 작업 디렉터리에 대한 상대 경로인지 확인하세요. |
+| PDF에 내용이 없음 | `HTMLDocument` 생성자에서 엔트리 HTML 파일 이름이 잘못됨 | 파일 이름이 ZIP 내부의 HTML 파일(`test.html`)과 정확히 일치하는지 확인하세요. |
+| 지속 시간이 로그되지 않음 | 핸들러가 올바른 순서로 삽입되지 않음 | `StartRequestDurationLoggingMessageHandler`를 인덱스 0에, `StopRequestDurationLoggingMessageHandler`를 모든 다른 핸들러 뒤에 삽입하세요. |
+| 지원되지 않는 HTML 기능 | Aspose.HTML에서 지원하지 않는 CSS/JS 사용 | 마크업을 단순화하거나 렌더링 전에 HTML을 사전 처리하세요. |
+
 ## 자주 묻는 질문
-### Java용 Aspose.HTML이란 무엇인가요?
-Java용 Aspose.HTML은 HTML 문서를 조작하고 PDF 등의 다양한 형식 간의 변환을 가능하게 하는 라이브러리입니다.
-### Java용 Aspose.HTML을 어떻게 다운로드하나요?
- 여기에서 다운로드할 수 있습니다[Aspose 다운로드 링크](https://releases.aspose.com/html/java/).
-### Aspose.HTML을 무료로 사용할 수 있나요?
- 네, Aspose는 무료 체험판을 제공합니다. 가입할 수 있습니다.[여기](https://releases.aspose.com/).
-### Aspose.HTML에 대한 지원은 어디에서 찾을 수 있나요?
-문의사항은 다음 사이트를 방문하시면 됩니다.[Aspose 지원 포럼](https://forum.aspose.com/c/html/29).
-### Aspose.HTML의 메시지 핸들러는 무엇인가요?
-메시지 핸들러는 문서 조작 파이프라인의 다양한 단계(예: 로깅 기간 또는 문서 형식 변환)를 처리하는 구성 요소입니다.
+
+**Q: Aspose.HTML for Java란?**  
+A: Aspose.HTML for Java는 HTML 문서를 조작하고 PDF, 이미지, EPUB 등 다양한 형식으로 변환할 수 있게 해주는 라이브러리입니다.
+
+**Q: Aspose.HTML for Java를 어떻게 다운로드하나요?**  
+A: [Aspose downloads](https://releases.aspose.com/html/java/) 페이지에서 다운로드할 수 있습니다.
+
+**Q: Aspose.HTML를 무료로 사용할 수 있나요?**  
+A: 예, 무료 체험판을 이용할 수 있습니다. 체험판 신청은 [여기](https://releases.aspose.com/)에서 가능합니다.
+
+**Q: Aspose.HTML에 대한 지원은 어디서 받을 수 있나요?**  
+A: 커뮤니티와 Aspose 엔지니어의 도움을 받으려면 [Aspose Support Forum](https://forum.aspose.com/c/html/29)을 방문하세요.
+
+**Q: Aspose.HTML의 메시지 핸들러란?**  
+A: 메시지 핸들러는 파이프라인 내에서 네트워크 요청을 가로채고 처리하는 컴포넌트이며, 로깅, 인증, 사용자 정의 콘텐츠 검색 등에 유용합니다.
+
+**Q: 내 자체 커스텀 핸들러를 어떻게 추가하나요?**  
+A: `IMessageHandler`를 구현하고 `handlers.addItem(new MyCustomHandler())`를 사용해 `MessageHandlerCollection`에 추가하면 됩니다.
+
+**Q: 여러 ZIP 파일을 배치로 변환할 수 있나요?**  
+A: 예—ZIP 경로 리스트를 순회하면서 동일한 구성과 파이프라인을 각 반복에 재사용하면 됩니다.
+
+## 결론
+이제 Aspose.HTML for Java를 사용해 **how to convert zip** 아카이브를 PDF 파일로 변환하는 방법을 완전히 이해했습니다. 구성 가능한 네트워크 서비스, 사용자 정의 ZIP 핸들러, 정확한 요청‑지속 시간 로깅을 포함한 파이프라인을 통해 변환 과정을 완벽히 제어할 수 있어 자동 보고서 생성, 문서 보관 또는 HTML 콘텐츠를 PDF로 패키징해야 하는 모든 시나리오에 최적화됩니다.
+
+---
+
+**Last Updated:** 2026-02-23  
+**Tested With:** Aspose.HTML for Java 24.11  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,0 +1,7 @@
+Title: How to Render HTML as PNG with Aspose.HTML
+Slug: how-to-render-html-as-png-with-aspose-html
+Category: generate-jpg-and-png-images
+ProcessedDate: 2026-06-16T18:22:08.364179
+SourceRepo: AI Search API
+Keywords: how to render html, convert html to image, save html as png, configure image size, set text options
+PRNumber: 182

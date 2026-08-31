@@ -42,6 +42,7 @@ Khi nói đến việc tạo tài liệu HTML mới, Aspose.HTML for Java cung c
  Cuối cùng, đối với những ai muốn nâng cao kỹ năng của mình hơn nữa, có rất nhiều chủ đề nâng cao để khám phá. Tìm hiểu cách quản lý tài liệu SVG hoặc xử lý các sự kiện tải tài liệu để tạo các ứng dụng web phản hồi và động. Các hướng dẫn này đưa bạn vượt ra ngoài HTML, đi sâu vào sự phức tạp của Scalable Vector Graphics (SVG) và lập trình hướng sự kiện.[Đọc thêm](./create-manage-svg-documents/)
 
 ## Tạo và quản lý tài liệu HTML trong Aspose.HTML cho Java Tutorials
+
 ### [Tạo tài liệu HTML không đồng bộ trong Aspose.HTML cho Java](./create-html-documents-async/)
 Làm chủ việc tạo tài liệu HTML không đồng bộ với Aspose.HTML cho Java. Hướng dẫn từng bước, mẹo và câu hỏi thường gặp để học nhanh.
 ### [Tạo tài liệu HTML trống trong Aspose.HTML cho Java](./create-empty-html-documents/)
@@ -56,12 +57,43 @@ Tìm hiểu cách tải tài liệu HTML từ luồng bằng Aspose.HTML cho Jav
 Tìm hiểu cách tạo tài liệu HTML từ chuỗi trong Aspose.HTML cho Java với hướng dẫn từng bước này.
 ### [Tải tài liệu HTML từ URL trong Aspose.HTML cho Java](./load-html-documents-from-url/)
 Khám phá cách dễ dàng tải tài liệu HTML từ URL trong Java bằng Aspose.HTML. Có kèm hướng dẫn từng bước.
+### [Lặp qua NodeList trong Java – Đọc HTML và Lấy src ảnh](./iterate-nodelist-java-read-html-get-image-src/)
+Học cách duyệt NodeList trong Java để đọc HTML và trích xuất thuộc tính src của ảnh trong hướng dẫn chi tiết.
 ### [Tạo tài liệu HTML mới bằng Aspose.HTML cho Java](./generate-new-html-documents/)
 Tìm hiểu cách tạo tài liệu HTML mới bằng Aspose.HTML cho Java với hướng dẫn từng bước dễ dàng này. Bắt đầu tạo nội dung HTML động.
 ### [Xử lý sự kiện tải tài liệu trong Aspose.HTML cho Java](./handle-document-load-events/)
 Học cách xử lý các sự kiện tải tài liệu trong Aspose.HTML cho Java với hướng dẫn từng bước này. Nâng cao ứng dụng web của bạn.
 ### [Tạo và quản lý tài liệu SVG trong Aspose.HTML cho Java](./create-manage-svg-documents/)
 Học cách tạo và quản lý tài liệu SVG bằng Aspose.HTML cho Java! Hướng dẫn toàn diện này bao gồm mọi thứ từ việc tạo cơ bản đến thao tác nâng cao.
+### [Tạo sandbox cho HTML trong Java – Hướng dẫn từng bước](./create-sandbox-for-html-in-java-step-by-step-guide/)
+Hướng dẫn chi tiết cách tạo môi trường sandbox cho HTML trong Java, giúp bạn thử nghiệm và phát triển an toàn.
+### [Cách truy vấn HTML trong Java – Hướng dẫn đầy đủ](./how-to-query-html-in-java-complete-tutorial/)
+Khám phá cách truy vấn tài liệu HTML trong Java một cách chi tiết, bao gồm các ví dụ thực tế và mẹo tối ưu.
+### [Cách phân tích HTML trong Java – Tải, Truy vấn & Đếm phần tử](./how-to-parse-html-java-load-query-count-elements/)
+Tìm hiểu cách tải tài liệu HTML, truy vấn và đếm các phần tử trong Java bằng Aspose.HTML với hướng dẫn chi tiết.
+### [Thực thi JavaScript bất đồng bộ trong Java – Hướng dẫn chi tiết từng bước](./execute-async-javascript-in-java-complete-step-by-step-guide/)
+Học cách thực thi JavaScript bất đồng bộ trong Java bằng Aspose.HTML với hướng dẫn chi tiết từng bước.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Tạo HTML từ JavaScript trong Java – Hướng dẫn chi tiết từng bước](./generate-html-from-javascript-in-java-complete-step-by-step/)
+Tìm hiểu cách tạo HTML từ JavaScript trong Java bằng Aspose.HTML với hướng dẫn chi tiết từng bước.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Lặp qua NodeList trong Java – Hướng dẫn đầy đủ](./iterate-over-nodelist-java-complete-guide/)
+Tìm hiểu cách lặp qua NodeList trong Java bằng Aspose.HTML với hướng dẫn chi tiết và ví dụ thực tế.
+### [Trích xuất văn bản từ HTML bằng Java – Hướng dẫn đầy đủ từng bước](./extract-text-from-html-with-java-complete-step-by-step-guide/)
+Học cách trích xuất nội dung văn bản từ tài liệu HTML trong Java bằng Aspose.HTML qua hướng dẫn chi tiết từng bước.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

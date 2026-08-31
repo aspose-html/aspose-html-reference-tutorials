@@ -26,6 +26,8 @@ Nejprve si řekněme, co jsou toky paměti. Představte si paměťový proud jak
 ## Manipulace s daty a správa streamů v Aspose.HTML pro Java tutoriály
 ### [Převeďte Memory Stream na soubor pomocí Aspose.HTML for Java](./memory-stream-to-file/)
 Převeďte HTML na JPEG pomocí Aspose.HTML pro Java pomocí paměťových proudů. Postupujte podle tohoto podrobného průvodce pro bezproblémový převod HTML na obrázek.
+### [Java Fixed Thread Pool: Počítání obrázků v paralelních souborech](./java-fixed-thread-pool-count-images-in-parallel-files/)
+Počítejte obrázky v souborech paralelně pomocí pevného poolu vláken v Javě.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

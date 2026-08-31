@@ -1,0 +1,7 @@
+Title: Create Markdown from HTML – Convert HTML to Markdown with Bold and Links
+Slug: create-markdown-from-html-convert-html-to-markdown-with-bold
+Category: general
+ProcessedDate: 2026-05-25T21:17:34.618897
+SourceRepo: AI Search API
+Keywords: create markdown from html, convert html to markdown, how to keep bold, how to generate markdown, convert html list
+PRNumber: 162
