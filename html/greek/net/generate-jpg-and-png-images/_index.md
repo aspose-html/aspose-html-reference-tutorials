@@ -46,6 +46,8 @@ url: /el/net/generate-jpg-and-png-images/
 Μάθετε πώς να μετατρέπετε έγγραφα Word σε εικόνες PNG χρησιμοποιώντας το Aspose.HTML για .NET.
 ### [Μετατροπή Word σε εικόνα σε C# – Πλήρης Οδηγός](./convert-word-to-image-in-c-complete-guide/)
 Μάθετε πώς να μετατρέπετε έγγραφα Word σε εικόνες χρησιμοποιώντας το Aspose.HTML για .NET με C#.
+### [Σεμινάριο HTML σε Εικόνα – Απόδοση HTML σε PNG με C#](./html-to-image-tutorial-render-html-to-png-in-c/)
+Μάθετε πώς να μετατρέπετε HTML σε εικόνες PNG χρησιμοποιώντας C# και το Aspose.HTML.
 
 ### [Πώς να ενεργοποιήσετε το Antialiasing κατά τη μετατροπή DOCX σε PNG/JPG](./how-to-enable-antialiasing-when-converting-docx-to-png-jpg/)
 Μάθετε πώς να βελτιώσετε την ποιότητα των εικόνων ενεργοποιώντας το antialiasing κατά τη μετατροπή αρχείων DOCX σε PNG ή JPG.

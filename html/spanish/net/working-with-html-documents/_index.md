@@ -40,6 +40,9 @@ Ahora, llevemos tus habilidades al siguiente nivel. Editar documentos HTML es un
 ### [Cómo poner en negrita un encabezado con CSS y C# – Guía completa paso a paso](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
 
 Aprenda a aplicar estilo negrita a encabezados usando CSS y C# con este tutorial detallado.
+### [Cómo guardar HTML en C# – Controladores de recursos personalizados y ZIP](./how-to-save-html-in-c-custom-resource-handlers-zip/)
+
+Aprenda a guardar documentos HTML en C# usando controladores de recursos personalizados y empaquetarlos en archivos ZIP.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

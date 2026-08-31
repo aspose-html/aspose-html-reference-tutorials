@@ -46,6 +46,8 @@ HTML दस्तावेज़ों में हेरफेर करने
 Aspose.HTML for .NET का उपयोग करके वर्ड दस्तावेज़ों को PNG इमेज में बदलने के चरण-दर-स्टेप मार्गदर्शन।
 ### [C# में वर्ड को इमेज में बदलें – पूर्ण गाइड](./convert-word-to-image-in-c-complete-guide/)
 C# में Aspose.HTML का उपयोग करके वर्ड दस्तावेज़ को इमेज में बदलने के चरण-दर-चरण मार्गदर्शन।
+### [HTML से इमेज ट्यूटोरियल – C# में HTML को PNG में रेंडर करें](./html-to-image-tutorial-render-html-to-png-in-c/)
+C# में Aspose.HTML का उपयोग करके HTML को PNG इमेज में रेंडर करने का चरण-दर-चरण ट्यूटोरियल।
 
 ### [DOCX को PNG/JPG में बदलते समय एंटीएलियासिंग कैसे सक्षम करें](./how-to-enable-antialiasing-when-converting-docx-to-png-jpg/)
 DOCX फ़ाइलों को PNG या JPG में परिवर्तित करते समय एंटीएलियासिंग को सक्षम करने के चरणों को जानें।

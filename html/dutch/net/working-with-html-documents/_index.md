@@ -40,6 +40,7 @@ Laten we nu uw vaardigheden naar een hoger niveau tillen. Het bewerken van HTML-
 ### [Koptekst vet maken met CSS & C# – Complete stapsgewijze handleiding](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
 
 Leer hoe u met CSS en C# kopteksten vet maakt in een .NET‑applicatie, stap voor stap met voorbeeldcode.
+### [HTML opslaan in C# – Aangepaste resourcehandlers & ZIP](./how-to-save-html-in-c-custom-resource-handlers-zip/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

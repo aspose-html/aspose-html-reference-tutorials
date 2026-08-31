@@ -50,12 +50,21 @@ Aprenda paso a paso a convertir HTML a PNG usando Aspose.HTML para .NET. Siga el
 Aprenda a generar imágenes PNG desde HTML usando Aspose.HTML para .NET con ejemplos completos en C#.
 ### [Procesar EPUB como XPS en .NET con Aspose.HTML](./render-epub-as-xps/)
 Aprenda a crear y renderizar documentos HTML con Aspose.HTML para .NET en este completo tutorial. Sumérjase en el mundo de la manipulación HTML, el web scraping y más.
+### [Cómo renderizar HTML a PNG – Guía paso a paso](./how-to-render-html-to-png-step-by-step-guide/)
+Aprenda a convertir HTML a PNG de forma sencilla con Aspose.HTML para .NET siguiendo esta guía paso a paso.
+
+### [Cómo renderizar HTML a PNG en C# – Guía paso a paso](./how-to-render-html-to-png-in-c-step-by-step-guide/)
+Aprenda a convertir HTML a PNG usando C# con Aspose.HTML para .NET siguiendo esta guía paso a paso.
+
 ### [Tiempo de espera de renderizado en .NET con Aspose.HTML](./rendering-timeout/)
 Aprenda a controlar los tiempos de espera de renderización de manera eficaz en Aspose.HTML para .NET. Explore las opciones de renderización y garantice una renderización fluida de documentos HTML.
+
 ### [Representar MHTML como XPS en .NET con Aspose.HTML](./render-mhtml-as-xps/)
  Aprenda a representar MHTML como XPS en .NET con Aspose.HTML. Mejore sus habilidades de manipulación de HTML y potencie sus proyectos de desarrollo web.
+
 ### [Representar múltiples documentos en .NET con Aspose.HTML](./render-multiple-documents/)
 Aprenda a representar múltiples documentos HTML con Aspose.HTML para .NET. Aumente sus capacidades de procesamiento de documentos con esta potente biblioteca.
+
 ### [Convertir un documento SVG en formato PNG en .NET con Aspose.HTML](./render-svg-doc-as-png/)
 ¡Descubra el poder de Aspose.HTML para .NET! Aprenda a convertir documentos SVG en PNG sin esfuerzo. Conozca ejemplos paso a paso y preguntas frecuentes. ¡Comience ahora!
 ### [Cómo renderizar HTML en C# – Guía completa para dar estilo a los párrafos](./how-to-render-html-in-c-complete-guide-to-styling-paragraphs/)

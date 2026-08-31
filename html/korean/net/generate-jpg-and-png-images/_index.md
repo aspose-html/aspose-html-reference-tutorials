@@ -46,6 +46,8 @@ Aspose.HTML for .NET을 .NET 프로젝트에 통합하는 것은 번거롭지 �
 Aspose.HTML을 사용하여 Word 문서를 PNG 이미지로 변환하는 방법을 단계별로 안내합니다.
 ### [Word를 이미지로 변환 – C# 개발자를 위한 완전 가이드](./convert-word-to-image-in-c-complete-guide/)
 Aspose.HTML을 사용하여 C#에서 Word 문서를 이미지로 변환하는 전체 과정을 단계별로 안내합니다.
+### [HTML을 이미지로 변환 튜토리얼 – C#에서 PNG로 렌더링](./html-to-image-tutorial-render-html-to-png-in-c/)
+C#에서 Aspose.HTML을 사용해 HTML을 PNG 이미지로 변환하는 방법을 단계별로 안내합니다.
 
 ### [DOCX를 PNG/JPG로 변환할 때 안티앨리어싱 활성화 방법](./how-to-enable-antialiasing-when-converting-docx-to-png-jpg/)
 DOCX 문서를 PNG 또는 JPG 이미지로 변환할 때 안티앨리어싱을 적용하는 방법을 단계별로 안내합니다.

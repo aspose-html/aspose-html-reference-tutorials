@@ -42,6 +42,7 @@ Poznaj metodę zapisu HTML w C# z własnym obsługiwaczem zasobów, umożliwiaj�
 ### [Jak pogrubić nagłówek za pomocą CSS i C# – Kompletny przewodnik krok po kroku](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
 
 Dowiedz się, jak użyć CSS i C# do pogrubienia nagłówka w HTML, krok po kroku, z praktycznymi przykładami.
+### [Jak zapisać HTML w C# – własne obsługi zasobów i ZIP](./how-to-save-html-in-c-custom-resource-handlers-zip/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
