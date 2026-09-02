@@ -112,6 +112,8 @@ Khi chuyển HTML sang PDF hoặc XPS, bạn thường cần kiểm soát kích 
 Đ: Không. Một giấy phép Aspose.HTML for Java duy nhất bao gồm tất cả các định dạng đầu ra, bao gồm PDF và XPS.
 
 ## Hướng dẫn sử dụng nâng cao Aspose.HTML Java
+
+
 ### [Tùy chỉnh lề trang HTML với Aspose.HTML](./css-extensions-adding-title-page-number/)
 Tìm hiểu cách tùy chỉnh lề trang, thêm số trang và tiêu đề vào tài liệu HTML bằng Aspose.HTML for Java.
 ### [DOM Mutation Observer với Aspose.HTML for Java](./dom-mutation-observer-observing-node-additions/)
@@ -126,6 +128,59 @@ Tìm hiểu cách tự động điền và gửi biểu mẫu HTML bằng Aspose
 Học cách điều chỉnh kích thước trang PDF với Aspose.HTML for Java. Tạo PDF chất lượng cao từ HTML một cách dễ dàng. Kiểm soát kích thước trang hiệu quả.
 ### [Điều chỉnh kích thước trang XPS với Aspose.HTML for Java](./adjust-xps-page-size/)
 Học cách điều chỉnh kích thước trang XPS với Aspose.HTML for Java. Kiểm soát kích thước đầu ra của tài liệu XPS một cách dễ dàng.
+### [Cách chạy JavaScript trong Java – Hướng dẫn toàn diện](./how-to-run-javascript-in-java-complete-guide/)
+Hướng dẫn chi tiết cách thực thi mã JavaScript trong ứng dụng Java bằng Aspose.HTML, bao gồm thiết lập môi trường và ví dụ thực tế.
+### [Đặt tỷ lệ pixel thiết bị trong Java – Hướng dẫn Sandbox di động](./set-device-pixel-ratio-in-java-mobile-sandbox-tutorial/)
+Hướng dẫn cách thiết lập DevicePixelRatio trong môi trường Sandbox di động khi dùng Aspose.HTML cho Java.
+### [Cách bật JavaScript trong Aspose HTML – Tải HTML & Lấy văn bản](./how-to-enable-javascript-in-aspose-html-load-html-get-text/)
+Tìm hiểu cách bật JavaScript khi tải HTML và trích xuất văn bản bằng Aspose.HTML for Java.
+### [Cách chạy script trong Java – Hướng dẫn đầy đủ để thực thi JavaScript & trích xuất dữ liệu](./how-to-run-scripts-in-java-complete-guide-to-execute-javascr/)
+
+---
+
+**Cập nhật lần cuối:** 2025-11-29  
+**Đã kiểm tra với:** Aspose.HTML for Java 24.11  
+**Tác giả:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Trích xuất HTML từ MHTML – Hướng dẫn Java toàn diện](./extract-html-from-mhtml-complete-java-guide/)
+Học cách trích xuất nội dung HTML từ tệp MHTML bằng Aspose.HTML for Java trong hướng dẫn chi tiết này.
+
+---
+
+**Cập nhật lần cuối:** 2025-11-29  
+**Đã kiểm tra với:** Aspose.HTML for Java 24.11  
+**Tác giả:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Thực thi JavaScript trong Java – Hướng dẫn đầy đủ về chạy JS từ Java](./execute-javascript-in-java-complete-guide-to-running-js-from/)
+Học cách nhúng và thực thi mã JavaScript trong ứng dụng Java bằng Aspose.HTML, bao gồm các ví dụ thực tế và cấu hình.
+
+---
+
+**Cập nhật lần cuối:** 2025-11-29  
+**Đã kiểm tra với:** Aspose.HTML for Java 24.11  
+**Tác giả:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Kích hoạt thực thi script trong Java – Hướng dẫn toàn diện Aspose.HTML](./enable-script-execution-in-java-complete-aspose-html-guide/)
+Hướng dẫn chi tiết cách bật và chạy mã JavaScript trong ứng dụng Java bằng Aspose.HTML, bao gồm cấu hình môi trường và ví dụ thực tế.
+### [Cách sử dụng Sandbox để chuyển HTML sang PDF Java – Hướng dẫn từng bước](./how-to-use-sandbox-for-html-to-pdf-java-step-by-step-guide/)
 
 ---
 

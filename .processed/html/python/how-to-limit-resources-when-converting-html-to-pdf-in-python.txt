@@ -1,0 +1,7 @@
+Title: How to limit resources when converting HTML to PDF in Python
+Slug: how-to-limit-resources-when-converting-html-to-pdf-in-python
+Category: general
+ProcessedDate: 2026-08-16T06:35:32.656279
+SourceRepo: AI Search API
+Keywords: how to limit resources, convert html to pdf, export html to pdf, save html as pdf, how to convert html
+PRNumber: 243

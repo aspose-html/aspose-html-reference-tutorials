@@ -26,6 +26,9 @@ url: /el/java/data-handling-stream-management/
 ## Χειρισμός δεδομένων και διαχείριση ροής στο Aspose.HTML for Java Tutorials
 ### [Μετατρέψτε τη ροή μνήμης σε αρχείο χρησιμοποιώντας το Aspose.HTML για Java](./memory-stream-to-file/)
 Μετατροπή HTML σε JPEG με το Aspose.HTML για Java χρησιμοποιώντας ροές μνήμης. Ακολουθήστε αυτόν τον οδηγό βήμα προς βήμα για απρόσκοπτη μετατροπή HTML σε εικόνα.
+### [Java Fixed Thread Pool: Καταμέτρηση εικόνων σε παράλληλα αρχεία](./java-fixed-thread-pool-count-images-in-parallel-files/)
+Μάθετε πώς να χρησιμοποιήσετε ένα σταθερό thread pool στην Java για να μετρήσετε εικόνες σε πολλά αρχεία ταυτόχρονα.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

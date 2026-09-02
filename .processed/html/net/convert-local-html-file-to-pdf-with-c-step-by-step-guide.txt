@@ -1,0 +1,7 @@
+Title: convert local html file to pdf with C# – step‑by‑step guide
+Slug: convert-local-html-file-to-pdf-with-c-step-by-step-guide
+Category: html-extensions-and-conversions
+ProcessedDate: 2026-06-26T06:35:57.569419
+SourceRepo: AI Search API
+Keywords: convert local html file to pdf, save html as pdf c#, convert html to pdf c#
+PRNumber: 191

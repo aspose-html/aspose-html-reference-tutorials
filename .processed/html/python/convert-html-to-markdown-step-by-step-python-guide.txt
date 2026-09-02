@@ -1,0 +1,7 @@
+Title: Convert HTML to Markdown – Step‑by‑Step Python Guide
+Slug: convert-html-to-markdown-step-by-step-python-guide
+Category: general
+ProcessedDate: 2026-06-29T11:45:08.514149
+SourceRepo: AI Search API
+Keywords: convert html to markdown
+PRNumber: 197

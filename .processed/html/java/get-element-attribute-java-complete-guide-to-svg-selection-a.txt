@@ -1,0 +1,7 @@
+Title: Get Element Attribute Java – Complete Guide to SVG Selection and XPath
+Slug: get-element-attribute-java-complete-guide-to-svg-selection-a
+Category: editing-html-documents
+ProcessedDate: 2026-06-01T04:55:07.727611
+SourceRepo: AI Search API
+Keywords: get element attribute java, xpath select element id, select svg elements java
+PRNumber: 168

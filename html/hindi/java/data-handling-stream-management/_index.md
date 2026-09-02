@@ -26,6 +26,10 @@ url: /hi/java/data-handling-stream-management/
 ## जावा ट्यूटोरियल के लिए Aspose.HTML में डेटा हैंडलिंग और स्ट्रीम प्रबंधन
 ### [Java के लिए Aspose.HTML का उपयोग करके मेमोरी स्ट्रीम को फ़ाइल में बदलें](./memory-stream-to-file/)
 मेमोरी स्ट्रीम का उपयोग करके Java के लिए Aspose.HTML के साथ HTML को JPEG में बदलें। HTML को इमेज में सहज रूपांतरण के लिए इस चरण-दर-चरण मार्गदर्शिका का पालन करें।
+
+### [जावा फिक्स्ड थ्रेड पूल: समानांतर फ़ाइलों में छवियों की गिनती](./java-fixed-thread-pool-count-images-in-parallel-files/)
+जावा फिक्स्ड थ्रेड पूल का उपयोग करके कई फ़ाइलों में समानांतर रूप से छवियों की गणना करने की प्रक्रिया सीखें।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
