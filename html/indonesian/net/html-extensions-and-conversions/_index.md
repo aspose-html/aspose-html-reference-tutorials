@@ -45,6 +45,8 @@ Ubah HTML ke PDF dengan mudah menggunakan Aspose.HTML untuk .NET. Ikuti panduan 
 Pelajari cara membuat PDF dari URL menggunakan Aspose.HTML untuk .NET dengan contoh kode C# lengkap.
 ### [Buat PDF dari HTML – Panduan Langkah‑demi‑Langkah C#](./create-pdf-from-html-c-step-by-step-guide/)
 Pelajari cara membuat PDF dari HTML menggunakan C# dengan panduan langkah demi langkah menggunakan Aspose.HTML.
+### [Buat PDF dari HTML di C# – Panduan Lengkap Langkah demi Langkah](./create-pdf-from-html-in-c-complete-step-by-step-guide/)
+Pelajari cara membuat PDF dari HTML menggunakan C# dengan Aspose.HTML melalui panduan lengkap langkah demi langkah.
 ### [Konversi EPUB ke Gambar dalam .NET dengan Aspose.HTML](./convert-epub-to-image/)
 Pelajari cara mengonversi EPUB ke gambar menggunakan Aspose.HTML untuk .NET. Tutorial langkah demi langkah dengan contoh kode dan opsi yang dapat disesuaikan.
 ### [Konversi EPUB ke PDF dalam .NET dengan Aspose.HTML](./convert-epub-to-pdf/)
@@ -85,6 +87,9 @@ Panduan lengkap langkah demi langkah untuk mengonversi HTML ke PDF menggunakan A
 Pelajari cara membuat file zip dari HTML secara langsung di memori menggunakan C# dengan panduan langkah demi langkah.
 ### [Konversi HTML ke ZIP dalam C# – Panduan Lengkap](./convert-html-to-zip-in-c-complete-guide/)
 Pelajari cara mengonversi file HTML menjadi arsip ZIP menggunakan Aspose.HTML untuk .NET dengan contoh kode lengkap.
+### [Cara Zip HTML di C# – Panduan Lengkap Langkah demi Langkah](./how-to-zip-html-in-c-complete-step-by-step-guide/)
+Pelajari cara mengompres file HTML menjadi arsip ZIP menggunakan C# dengan Aspose.HTML dalam panduan langkah demi langkah yang lengkap.
+
 ## Kesimpulan
 
 Kesimpulannya, ekstensi dan konversi HTML merupakan elemen penting dalam pengembangan web modern. Aspose.HTML untuk .NET menyederhanakan proses dan membuatnya dapat diakses oleh pengembang dari semua tingkatan. Dengan mengikuti tutorial kami, Anda akan berada di jalur yang tepat untuk menjadi pengembang web yang ahli dengan keahlian yang luas.

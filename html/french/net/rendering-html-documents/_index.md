@@ -52,6 +52,8 @@ Apprenez à convertir du HTML en images PNG avec Aspose.HTML pour .NET grâce à
 Apprenez à générer des images PNG à partir de HTML en utilisant Aspose.HTML pour .NET avec un guide complet en C#.
 ### [Rendre HTML en PNG en C# – Guide étape par étape](./how-to-render-html-to-png-in-c-step-by-step-guide/)
 Apprenez à convertir du HTML en images PNG en C# avec Aspose.HTML grâce à ce guide détaillé étape par étape.
+### [Comment rendre du HTML en PNG – Guide complet C#](./how-to-render-html-to-png-complete-c-guide/)
+Apprenez à convertir du HTML en images PNG avec Aspose.HTML en C#, étape par étape, avec des exemples complets.
 
 ### [Rendre EPUB en XPS dans .NET avec Aspose.HTML](./render-epub-as-xps/)
 Découvrez comment créer et restituer des documents HTML avec Aspose.HTML pour .NET dans ce didacticiel complet. Plongez dans le monde de la manipulation HTML, du scraping Web et bien plus encore.

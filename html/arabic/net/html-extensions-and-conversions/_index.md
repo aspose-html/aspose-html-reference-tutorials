@@ -85,6 +85,11 @@ url: /ar/net/html-extensions-and-conversions/
 تعلم كيفية إنشاء ملف zip للـ HTML في الذاكرة باستخدام C# خطوة بخطوة مع Aspose.HTML.
 ### [تحويل HTML إلى ZIP في C# – دليل كامل](./convert-html-to-zip-in-c-complete-guide/)
 تعلم كيفية تحويل ملفات HTML إلى ملفات ZIP باستخدام Aspose.HTML في C# من خلال دليل شامل خطوة بخطوة.
+### [كيفية ضغط HTML في C# – دليل خطوة بخطوة كامل](./how-to-zip-html-in-c-complete-step-by-step-guide/)
+تعلم كيفية ضغط ملفات HTML باستخدام C# خطوة بخطوة باستخدام Aspose.HTML.
+### [إنشاء PDF من HTML في C# – دليل خطوة بخطوة كامل](./create-pdf-from-html-in-c-complete-step-by-step-guide/)
+تعلم كيفية إنشاء ملف PDF من مستند HTML باستخدام C# خطوة بخطوة.
+
 ## خاتمة
 
 في الختام، تعد امتدادات HTML وتحويلاتها عناصر أساسية لتطوير الويب الحديث. يعمل Aspose.HTML for .NET على تبسيط العملية وجعلها في متناول المطورين من جميع المستويات. باتباع دروسنا التعليمية، ستكون على الطريق الصحيح لتصبح مطور ويب ماهرًا يتمتع بمجموعة واسعة من المهارات.

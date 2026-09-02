@@ -45,6 +45,8 @@ Convert HTML to PDF effortlessly with Aspose.HTML for .NET. Follow our step-by-s
 Learn how to generate a PDF directly from a web URL using Aspose.HTML for .NET with a complete C# step-by-step guide.
 ### [Create PDF from HTML – C# Step‑by‑Step Guide](./create-pdf-from-html-c-step-by-step-guide/)
 Learn how to generate PDF files from HTML using Aspose.HTML for .NET with a detailed C# step‑by‑step guide.
+### [Create PDF from HTML in C# – Complete Step‑by‑Step Guide](./create-pdf-from-html-in-c-complete-step-by-step-guide/)
+Learn how to generate PDFs from HTML using C# and Aspose.HTML. Follow our comprehensive step‑by‑step guide with code examples.
 ### [Convert EPUB to Image in .NET with Aspose.HTML](./convert-epub-to-image/)
 Learn how to convert EPUB to images using Aspose.HTML for .NET. Step-by-step tutorial with code examples and customizable options.
 ### [Convert EPUB to PDF in .NET with Aspose.HTML](./convert-epub-to-pdf/)
@@ -85,6 +87,9 @@ Learn how to convert HTML to PDF using Aspose.HTML with a comprehensive step‑b
 Learn how to zip HTML content in memory using C# with a step‑by‑step guide and Aspose.HTML.
 ### [Convert HTML to ZIP in C# – Complete Guide](./convert-html-to-zip-in-c-complete-guide/)
 Convert HTML to ZIP in C# using Aspose.HTML for .NET. Follow our step-by-step guide to package HTML files into ZIP archives efficiently.
+### [How to Zip HTML in C# – Complete Step‑by‑Step Guide](./how-to-zip-html-in-c-complete-step-by-step-guide/)
+Learn how to zip HTML files in C# using Aspose.HTML for .NET. Follow our step-by-step guide with code examples.
+
 ## Conclusion
 
 In conclusion, HTML extensions and conversions are essential elements of modern web development. Aspose.HTML for .NET simplifies the process and makes it accessible to developers of all levels. By following our tutorials, you'll be well on your way to becoming a proficient web developer with a broad skill set.

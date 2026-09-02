@@ -41,6 +41,8 @@ Aspose.HTML for .NET yalnızca bir kütüphane değil; web geliştirme dünyası
 
 ### [Aspose.HTML ile .NET'te HTML'yi PDF'ye dönüştürün](./convert-html-to-pdf/)
 ### [URL'den PDF Oluştur – Tam C# Kılavuzu](./create-pdf-from-url-complete-c-guide/)
+### [C# ile HTML'den PDF Oluşturma – Tam Adım‑Adım Kılavuz](./create-pdf-from-html-in-c-complete-step-by-step-guide/)
+C# ve Aspose.HTML kullanarak HTML'den PDF'ye nasıl dönüştüreceğinizi adım adım öğrenin.
 ### [Aspose.HTML ile .NET'te EPUB'ı Görüntüye Dönüştürme](./convert-epub-to-image/)
 ### [Aspose.HTML ile .NET'te EPUB'ı PDF'ye dönüştürün](./convert-epub-to-pdf/)
 ### [Aspose.HTML ile .NET'te EPUB'ı XPS'e dönüştürün](./convert-epub-to-xps/)
@@ -65,6 +67,8 @@ Aspose.HTML for .NET kullanarak HTML dosyalarını ZIP arşivine kaydetmeyi adı
 Aspose.HTML for .NET kullanarak HTML dosyasını bellek içinde ZIP arşivine dönüştürmeyi adım adım öğrenin.
 ### [C#'ta Özel Kaynak İşleyicisi – HTML'yi ZIP'e Dönüştürme Öğreticisi](./custom-resource-handler-in-c-convert-html-to-zip-tutorial/)
 Aspose.HTML for .NET kullanarak C#'ta özel bir kaynak işleyicisi ile HTML dosyalarını ZIP arşivine dönüştürün. Adım adım kılavuz.
+### [C#'ta HTML'yi Zip'leme – Tam Adım‑Adım Kılavuz](./how-to-zip-html-in-c-complete-step-by-step-guide/)
+C# ve Aspose.HTML kullanarak HTML dosyalarını zip arşivine dönüştürmeyi adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

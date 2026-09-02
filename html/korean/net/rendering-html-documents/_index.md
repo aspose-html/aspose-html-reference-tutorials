@@ -80,6 +80,9 @@ C#을 사용해 HTML을 렌더링하고 단락 스타일을 적용하는 방법�
 사용자 정의 리소스 핸들러를 활용해 HTML을 렌더링하는 전체 과정을 단계별로 배워보세요.
 ### [HTML에서 PNG 생성 – 전체 C# 렌더링 가이드](./create-png-from-html-full-c-rendering-guide/)
 .NET용 Aspose.HTML을 사용해 HTML을 PNG 이미지로 변환하는 전체 C# 렌더링 과정을 배워보세요.
+### [HTML을 PNG로 렌더링하는 방법 – 완전한 C# 가이드](./how-to-render-html-to-png-complete-c-guide/)
+C#를 사용해 HTML을 PNG 이미지로 변환하는 전체 가이드를 확인하세요. 단계별 예제로 쉽게 따라 할 수 있습니다.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

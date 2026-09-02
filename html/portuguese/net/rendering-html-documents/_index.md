@@ -74,6 +74,8 @@ Aprenda a renderizar HTML em C# e aplicar estilos avançados a parágrafos usand
 Aprenda a renderizar HTML usando um manipulador de recursos personalizado para controlar imagens, scripts e estilos durante a renderização.
 ### [Criar PNG a partir de HTML – Guia Completo de Renderização em C#](./create-png-from-html-full-c-rendering-guide/)
 Aprenda a gerar imagens PNG a partir de HTML usando Aspose.HTML para .NET com um guia completo em C#.
+### [Como renderizar HTML para PNG – Guia Completo em C#](./how-to-render-html-to-png-complete-c-guide/)
+Aprenda passo a passo como converter HTML em imagens PNG usando C# e Aspose.HTML, com exemplos claros e dicas práticas.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
