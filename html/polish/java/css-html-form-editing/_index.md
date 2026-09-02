@@ -26,14 +26,43 @@ Najpierw porozmawiajmy o zaawansowanych technikach rozszerzeń CSS z Aspose.HTML
 Teraz zmieńmy biegi i zbadajmy, jak skutecznie edytować i przesyłać formularze HTML za pomocą Aspose.HTML dla Java. Formularze są sercem interakcji użytkownika na stronach internetowych, prawda? Dzięki temu samouczkowi nauczysz się, jak łatwo zmieniać wygląd i funkcjonalność formularzy. Odkryjesz, jak wstępnie wypełniać pola, weryfikować dane wejściowe za pomocą niestandardowej logiki i ułatwiać bezproblemowe przesyłanie danych do zaplecza. Wyobraź sobie: Twoi użytkownicy mogą wypełnić formularz w Twojej witrynie i mieć pewność, że ich informacje są bezpieczne i solidne — ponieważ to jest rodzaj doświadczenia, które chcesz stworzyć! Ten przewodnik krok po kroku jest pełen praktycznych spostrzeżeń, dzięki czemu po drodze zrozumiesz każdą koncepcję.[Przeczytaj więcej](./html-form-editing/). 
 
 ## Edycja formularzy CSS i HTML za pomocą Aspose.HTML dla samouczków Java
+
 ### [Zaawansowane techniki rozszerzeń CSS z Aspose.HTML dla Java](./advanced-css-extension/)
 Dowiedz się, jak używać Aspose.HTML dla Java, aby stosować zaawansowane techniki CSS, w tym niestandardowe marginesy stron i dynamiczną zawartość. Szczegółowy, praktyczny samouczek dla programistów.
 ### [Edycja i przesyłanie formularzy HTML za pomocą Aspose.HTML dla Java](./html-form-editing/)
 Dowiedz się, jak edytować i przesyłać formularze HTML programowo, korzystając z Aspose.HTML for Java, dzięki temu kompleksowemu przewodnikowi krok po kroku.
+### [Pobieranie obliczonego CSS w Javie – Kompletny przewodnik Aspose HTML](./get-computed-css-in-java-complete-aspose-html-guide/)
+Dowiedz się, jak uzyskać obliczone style CSS w Javie przy użyciu Aspose.HTML, w pełnym przewodniku krok po kroku.
+### [Jak uzyskać styl w Javie – wczytaj HTML i użyj selektora zapytań](./how-to-get-style-in-java-load-html-query-selector/)
+Dowiedz się, jak w Javie pobrać style z dokumentu HTML, używając selektora zapytań w Aspose.HTML.
+### [Wybieranie elementu po klasie w Javie – Kompletny przewodnik](./select-element-by-class-in-java-complete-how-to-guide/)
+Dowiedz się, jak w Javie wybrać elementy HTML po klasie, używając Aspose.HTML, krok po kroku.
+### [Jak odczytać CSS w Javie – Kompletny przewodnik z Aspose.HTML](./how-to-read-css-in-java-complete-guide-with-aspose-html/)
+Dowiedz się, jak odczytywać i analizować pliki CSS w Javie przy użyciu Aspose.HTML – kompletny przewodnik krok po kroku.
 ### [Parsowanie HTML w Javie: wyodrębnij właściwość CSS i uzyskaj rozmiar czcionki](./parse-html-with-java-extract-css-property-and-get-font-size/)
 Naucz się, jak w Javie analizować HTML, wyciągać właściwości CSS i określać rozmiar czcionki w prosty sposób.
 ### [Jak zapytać HTML w Javie – wczytaj HTML, selektor CSS i wyodrębnij nagłówki](./how-to-query-html-in-java-load-html-css-selector-and-extract/)
 Dowiedz się, jak w Javie wczytywać dokumenty HTML, używać selektorów CSS i wyciągać nagłówki w prosty sposób.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Pobierz obliczony styl w Javie – wyodrębnij kolor tła z HTML](./get-computed-style-java-extract-background-color-from-html/)
+Dowiedz się, jak w Javie uzyskać obliczone style elementu i wyodrębnić kolor tła z kodu HTML przy użyciu Aspose.HTML.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Pobieranie obliczonego stylu elementu w Javie – Kompletny przewodnik krok po kroku](./get-element-computed-style-in-java-full-step-by-step-guide/)
+Dowiedz się, jak w Javie uzyskać obliczony styl elementu przy użyciu Aspose.HTML, krok po kroku.
+### [Jak używać getComputedStyle w Javie – Pobieranie koloru tła i innych właściwości CSS](./how-to-use-getcomputedstyle-in-java-extract-background-color/)
+Dowiedz się, jak za pomocą Aspose.HTML w Javie odczytać właściwości CSS, w tym kolor tła, przy użyciu metody getComputedStyle.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

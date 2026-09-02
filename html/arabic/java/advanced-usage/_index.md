@@ -111,29 +111,51 @@ weight: 20
 ج: لا. ترخيص واحد لـ Aspose.HTML for Java يغطي جميع صيغ الإخراج، بما في ذلك PDF و XPS.
 
 ## الاستخدام المتقدم لتعليمات Aspose.HTML Java
-
 ### [تخصيص هوامش صفحة HTML باستخدام Aspose.HTML](./css-extensions-adding-title-page-number/)
 تعلم كيفية تخصيص هوامش الصفحة، إضافة أرقام الصفحات، والعناوين إلى مستندات HTML باستخدام Aspose.HTML for Java.
-
 ### [مراقب تغيرات DOM باستخدام Aspose.HTML for Java](./dom-mutation-observer-observing-node-additions/)
 تعلم كيفية استخدام Aspose.HTML for Java لتنفيذ مراقب تغيرات DOM في هذا الدليل خطوة بخطوة. راقب وتفاعل مع تغييرات DOM بفعالية.
-
 ### [معالجة HTML5 Canvas باستخدام Aspose.HTML for Java](./html5-canvas-manipulation-using-code/)
 تعلم معالجة HTML5 Canvas باستخدام Aspose.HTML for Java. أنشئ رسومات تفاعلية مع إرشادات خطوة بخطوة.
-
 ### [معالجة HTML5 Canvas باستخدام Aspose.HTML for Java (JavaScript)](./html5-canvas-manipulation-using-javascript/)
 تعلم كيفية معالجة HTML5 Canvas باستخدام JavaScript و Aspose.HTML for Java. أنشئ رسومات ديناميكية وحولها إلى PDF.
-
 ### [أتمتة تعبئة نماذج HTML باستخدام Aspose.HTML for Java](./html-form-editor-filling-submitting-forms/)
 تعلم كيفية أتمتة تعبئة نماذج HTML وإرسالها باستخدام Aspose.HTML for Java. بسط التفاعل مع الويب من خلال هذا الدليل.
-
 ### [ضبط حجم صفحة PDF باستخدام Aspose.HTML for Java](./adjust-pdf-page-size/)
 تعلم كيفية ضبط حجم صفحة PDF باستخدام Aspose.HTML for Java. أنشئ ملفات PDF عالية الجودة من HTML بسهولة. سيطر على أبعاد الصفحة بفعالية.
-
 ### [ضبط حجم صفحة XPS باستخدام Aspose.HTML for Java](./adjust-xps-page-size/)
 تعلم كيفية ضبط حجم صفحة XPS باستخدام Aspose.HTML for Java. سيطر على أبعاد مخرجات مستندات XPS بسهولة.
+### [كيفية تشغيل JavaScript في Java – دليل كامل](./how-to-run-javascript-in-java-complete-guide/)
+تعلم كيفية تشغيل كود JavaScript داخل تطبيقات Java باستخدام Aspose.HTML for Java.
+### [ضبط نسبة بكسل الجهاز في Java – دليل صندوق الرمل للهواتف المحمولة](./set-device-pixel-ratio-in-java-mobile-sandbox-tutorial/)
+تعلم كيفية ضبط نسبة بكسل الجهاز في بيئة Java باستخدام صندوق الرمل للهواتف المحمولة للحصول على رسومات دقيقة.
+
+### [تنفيذ JavaScript في Java – دليل كامل لتشغيل JS من Java](./execute-javascript-in-java-complete-guide-to-running-js-from/)
+
+### [كيفية استخدام Sandbox لتحويل HTML إلى PDF في Java – دليل خطوة بخطوة](./how-to-use-sandbox-for-html-to-pdf-java-step-by-step-guide/)
+
+### [تمكين تنفيذ السكريبت في Java – دليل شامل Aspose.HTML](./enable-script-execution-in-java-complete-aspose-html-guide/)
+تعلم كيفية تمكين تشغيل JavaScript في تطبيقات Java باستخدام Aspose.HTML – دليل خطوة بخطوة.
+
+### [كيفية تمكين JavaScript في Aspose HTML – تحميل HTML واستخراج النص](./how-to-enable-javascript-in-aspose-html-load-html-get-text/)
+تعلم كيفية تمكين JavaScript عند تحميل HTML واستخدام Aspose.HTML لاستخراج النص من المستند.
 
 ### [كيفية تشغيل السكريبتات في Java – دليل كامل لتنفيذ JavaScript واستخراج البيانات](./how-to-run-scripts-in-java-complete-guide-to-execute-javascr/)
+
+---
+
+**آخر تحديث:** 2025-11-29  
+**تم الاختبار مع:** Aspose.HTML for Java 24.11  
+**المؤلف:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [استخراج HTML من MHTML – دليل Java الكامل](./extract-html-from-mhtml-complete-java-guide/)
+تعلم كيفية استخراج محتوى HTML من ملفات MHTML باستخدام Aspose.HTML for Java خطوة بخطوة.
 
 ---
 

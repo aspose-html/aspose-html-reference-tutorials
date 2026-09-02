@@ -45,6 +45,8 @@ Ismerje meg, hogyan konvertálhat SVG-t PDF-be az Aspose.HTML for .NET segítsé
 Ismerje meg, hogyan konvertálhat SVG-t XPS-re az Aspose.HTML for .NET használatával. Fokozza fel webfejlesztését ezzel a hatékony könyvtárral.
 ### [Hogyan engedélyezzük az antialiasingot C#-ban – Simább élek](./how-to-enable-antialiasing-in-c-smooth-edges/)
 Ismerje meg, hogyan aktiválhatja az antialiasingot C#-ban a simább grafikai elemek érdekében.
+### [Canvas szöveg létrehozása – Teljes útmutató a szöveg képeken való megjelenítéséhez](./create-canvas-text-full-guide-to-rendering-text-on-images/)
+Lépésről lépésre bemutatja, hogyan adhat szöveget vászonra, és jelenítheti meg képeken az Aspose.HTML for .NET segítségével.
 
 ## Következtetés
 

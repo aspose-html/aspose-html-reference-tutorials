@@ -1,0 +1,7 @@
+Title: Create PDF from HTML in C# – Complete Programming Guide
+Slug: create-pdf-from-html-in-c-complete-programming-guide
+Category: html-extensions-and-conversions
+ProcessedDate: 2026-06-23T02:32:13.897687
+SourceRepo: AI Search API
+Keywords: create pdf from html, convert html to pdf, save html as pdf, export html as pdf, how to convert html to pdf
+PRNumber: 189

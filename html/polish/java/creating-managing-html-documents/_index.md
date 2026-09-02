@@ -42,6 +42,8 @@ Jeśli chodzi o generowanie nowych dokumentów HTML, Aspose.HTML for Java oferuj
  Na koniec, dla tych, którzy chcą rozwinąć swoje umiejętności jeszcze bardziej, jest mnóstwo zaawansowanych tematów do zbadania. Dowiedz się, jak zarządzać dokumentami SVG lub obsługiwać zdarzenia ładowania dokumentów, aby tworzyć responsywne i dynamiczne aplikacje internetowe. Te samouczki przeniosą Cię poza HTML, zagłębiając się w zawiłości Scalable Vector Graphics (SVG) i programowania opartego na zdarzeniach.[Przeczytaj więcej](./create-manage-svg-documents/)
 
 ## Tworzenie i zarządzanie dokumentami HTML w samouczkach Aspose.HTML dla języka Java
+
+
 ### [Twórz dokumenty HTML asynchronicznie w Aspose.HTML dla Java](./create-html-documents-async/)
 Opanuj asynchroniczne tworzenie dokumentów HTML za pomocą Aspose.HTML dla Java. Przewodnik krok po kroku, wskazówki i FAQ dołączone do szybkiej nauki.
 ### [Utwórz puste dokumenty HTML w Aspose.HTML dla Java](./create-empty-html-documents/)
@@ -60,8 +62,45 @@ Odkryj, jak łatwo ładować dokumenty HTML z adresu URL w Javie za pomocą Aspo
 Dowiedz się, jak tworzyć nowe dokumenty HTML za pomocą Aspose.HTML dla Java dzięki temu prostemu przewodnikowi krok po kroku. Zacznij generować dynamiczną zawartość HTML.
 ### [Obsługa zdarzeń ładowania dokumentów w Aspose.HTML dla Java](./handle-document-load-events/)
 Naucz się obsługiwać zdarzenia ładowania dokumentów w Aspose.HTML dla Java dzięki temu przewodnikowi krok po kroku. Ulepsz swoje aplikacje internetowe.
+### [Wykonaj asynchroniczny JavaScript w Javie – Kompletny przewodnik krok po kroku](./execute-async-javascript-in-java-complete-step-by-step-guide/)
+Dowiedz się, jak uruchamiać asynchroniczny kod JavaScript w aplikacjach Java przy użyciu Aspose.HTML, krok po kroku.
 ### [Tworzenie i zarządzanie dokumentami SVG w Aspose.HTML dla Java](./create-manage-svg-documents/)
 Naucz się tworzyć i zarządzać dokumentami SVG za pomocą Aspose.HTML dla Java! Ten kompleksowy przewodnik obejmuje wszystko, od podstawowego tworzenia po zaawansowaną manipulację.
+### [Utwórz piaskownicę dla HTML w Javie – przewodnik krok po kroku](./create-sandbox-for-html-in-java-step-by-step-guide/)
+Dowiedz się, jak skonfigurować bezpieczną piaskownicę HTML w Javie, aby testować i uruchamiać kod w izolowanym środowisku.
+### [Jak zapytać HTML w Javie – Kompletny samouczek](./how-to-query-html-in-java-complete-tutorial/)
+Dowiedz się, jak efektywnie zapytać i przetwarzać dokumenty HTML w Javie przy użyciu Aspose.HTML.
+### [Jak parsować HTML w Javie – ładowanie, zapytania i liczenie elementów](./how-to-parse-html-java-load-query-count-elements/)
+Dowiedz się, jak ładować dokumenty HTML, wykonywać zapytania i liczyć elementy przy użyciu Aspose.HTML dla Java.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Generowanie HTML z JavaScript w Javie – Kompletny przewodnik krok po kroku](./generate-html-from-javascript-in-java-complete-step-by-step/)
+Dowiedz się, jak generować HTML z kodu JavaScript w aplikacji Java, korzystając z pełnego przewodnika krok po kroku.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Iteruj NodeList w Javie – Odczytaj HTML i pobierz src obrazu](./iterate-nodelist-java-read-html-get-image-src/)
+Dowiedz się, jak iterować NodeList w Javie, odczytywać HTML i wyodrębniać atrybut src obrazów.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Iterowanie po NodeList w Javie – Kompletny przewodnik](./iterate-over-nodelist-java-complete-guide/)
+Poznaj, jak iterować po NodeList w Javie przy użyciu Aspose.HTML, krok po kroku, z praktycznymi przykładami.
+### [Wyodrębnianie tekstu z HTML w Javie – Kompletny przewodnik krok po kroku](./extract-text-from-html-with-java-complete-step-by-step-guide/)
+Dowiedz się, jak wyodrębnić tekst z dokumentów HTML w Javie przy użyciu Aspose.HTML, krok po kroku, z praktycznymi przykładami.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

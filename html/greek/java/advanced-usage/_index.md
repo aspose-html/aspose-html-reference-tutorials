@@ -112,6 +112,8 @@ weight: 20
 Α: Όχι. Μία άδεια Aspose.HTML for Java καλύπτει όλες τις μορφές εξόδου, συμπεριλαμβανομένων PDF και XPS.
 
 ## Προχωρημένες Χρήσεις των Οδηγών Aspose.HTML Java
+
+
 ### [Προσαρμογή Περιθωρίων HTML Σελίδας με Aspose.HTML](./css-extensions-adding-title-page-number/)
 Μάθετε πώς να προσαρμόζετε τα περιθώρια σελίδας, να προσθέτετε αριθμούς σελίδων και τίτλους σε έγγραφα HTML χρησιμοποιώντας το Aspose.HTML for Java.
 ### [Παρατηρητής Μεταβολών DOM με Aspose.HTML for Java](./dom-mutation-observer-observing-node-additions/)
@@ -126,7 +128,56 @@ weight: 20
 Μάθετε πώς να προσαρμόζετε το μέγεθος PDF σελίδας με το Aspose.HTML for Java. Δημιουργήστε υψηλής ποιότητας PDF από HTML χωρίς κόπο. Ελέγξτε τις διαστάσεις της σελίδας αποτελεσματικά.
 ### [Προσαρμογή Μεγέθους XPS Σελίδας με Aspose.HTML for Java](./adjust-xps-page-size/)
 Μάθετε πώς να προσαρμόζετε το μέγεθος XPS σελίδας με το Aspose.HTML for Java. Ελέγξτε εύκολα τις διαστάσεις εξόδου των εγγράφων XPS σας.
+### [Πώς να Εκτελέσετε JavaScript σε Java – Πλήρης Οδηγός](./how-to-run-javascript-in-java-complete-guide/)
+Μάθετε πώς να εκτελείτε κώδικα JavaScript μέσα σε εφαρμογές Java χρησιμοποιώντας το Aspose.HTML for Java.
+### [Ορισμός αναλογίας pixel συσκευής σε Java – Οδηγός Mobile Sandbox](./set-device-pixel-ratio-in-java-mobile-sandbox-tutorial/)
+Μάθετε πώς να ορίσετε την αναλογία pixel της συσκευής σε Java χρησιμοποιώντας το Mobile Sandbox του Aspose.HTML.
+### [Πώς να ενεργοποιήσετε τη JavaScript στο Aspose HTML – Φόρτωση HTML & Λήψη κειμένου](./how-to-enable-javascript-in-aspose-html-load-html-get-text/)
+Μάθετε πώς να ενεργοποιήσετε τη JavaScript στο Aspose.HTML, να φορτώσετε HTML και να εξάγετε το κείμενο.
 ### [Πώς να Εκτελέσετε Σενάρια σε Java – Πλήρης Οδηγός για Εκτέλεση JavaScript & Εξαγωγή Δεδομένων](./how-to-run-scripts-in-java-complete-guide-to-execute-javascr/)
+
+---
+
+**Τελευταία ενημέρωση:** 2025-11-29  
+**Δοκιμή με:** Aspose.HTML for Java 24.11  
+**Συγγραφέας:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Εξαγωγή HTML από MHTML – Πλήρης Οδηγός Java](./extract-html-from-mhtml-complete-java-guide/)
+Μάθετε πώς να εξάγετε HTML από αρχεία MHTML με το Aspose.HTML for Java σε πλήρη οδηγό.
+
+---
+
+**Τελευταία ενημέρωση:** 2025-11-29  
+**Δοκιμή με:** Aspose.HTML for Java 24.11  
+**Συγγραφέας:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Εκτέλεση JavaScript σε Java – Πλήρης Οδηγός για Εκτέλεση JS από Java](./execute-javascript-in-java-complete-guide-to-running-js-from/)
+
+---
+
+**Τελευταία ενημέρωση:** 2025-11-29  
+**Δοκιμή με:** Aspose.HTML for Java 24.11  
+**Συγγραφέας:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Ενεργοποίηση Εκτέλεσης Script σε Java – Πλήρης Οδηγός Aspose.HTML](./enable-script-execution-in-java-complete-aspose-html-guide/)
 
 ---
 

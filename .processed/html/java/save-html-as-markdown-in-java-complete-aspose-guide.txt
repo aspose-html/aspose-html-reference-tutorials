@@ -1,0 +1,7 @@
+Title: Save HTML as Markdown in Java – Complete Aspose Guide
+Slug: save-html-as-markdown-in-java-complete-aspose-guide
+Category: conversion-html-to-other-formats
+ProcessedDate: 2026-06-07T11:10:24.987605
+SourceRepo: AI Search API
+Keywords: save html as markdown, convert html to markdown, aspose html to markdown, how to convert html file to markdown, github flavor markdown java
+PRNumber: 175

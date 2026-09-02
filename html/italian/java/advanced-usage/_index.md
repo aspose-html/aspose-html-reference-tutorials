@@ -113,6 +113,7 @@ R: No. Una singola licenza di Aspose.HTML for Java copre tutti i formati di outp
 
 ## Uso avanzato dei tutorial Aspose.HTML Java
 
+
 ### [Personalizza i margini della pagina HTML con Aspose.HTML](./css-extensions-adding-title-page-number/)
 ### [Osservatore di Mutazione DOM con Aspose.HTML per Java](./dom-mutation-observer-observing-node-additions/)
 ### [Manipolazione HTML5 Canvas con Aspose.HTML per Java (codice)](./html5-canvas-manipulation-using-code/)
@@ -120,7 +121,53 @@ R: No. Una singola licenza di Aspose.HTML for Java copre tutti i formati di outp
 ### [Automatizza il riempimento di moduli HTML con Aspose.HTML per Java](./html-form-editor-filling-submitting-forms/)
 ### [Regola le dimensioni della pagina PDF con Aspose.HTML per Java](./adjust-pdf-page-size/)
 ### [Regola le dimensioni della pagina XPS con Aspose.HTML per Java](./adjust-xps-page-size/)
+### [Come eseguire JavaScript in Java – Guida completa](./how-to-run-javascript-in-java-complete-guide/)
+### [Imposta il rapporto di pixel del dispositivo in Java – Tutorial Sandbox Mobile](./set-device-pixel-ratio-in-java-mobile-sandbox-tutorial/)
+### [Come abilitare JavaScript in Aspose HTML – Carica HTML e ottieni testo](./how-to-enable-javascript-in-aspose-html-load-html-get-text/)
 ### [Come eseguire script in Java – Guida completa per eseguire JavaScript e estrarre dati](./how-to-run-scripts-in-java-complete-guide-to-execute-javascr/)
+
+---
+
+**Last Updated:** 2025-11-29  
+**Tested With:** Aspose.HTML for Java 24.11  
+**Author:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Estrai HTML da MHTML – Guida completa per Java](./extract-html-from-mhtml-complete-java-guide/)
+
+---
+
+**Last Updated:** 2025-11-29  
+**Tested With:** Aspose.HTML for Java 24.11  
+**Author:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Esegui JavaScript in Java – Guida completa all'esecuzione di JS da Java](./execute-javascript-in-java-complete-guide-to-running-js-from/)
+
+---
+
+**Last Updated:** 2025-11-29  
+**Tested With:** Aspose.HTML for Java 24.11  
+**Author:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Come utilizzare Sandbox per HTML‑to‑PDF Java – Guida passo‑passo](./how-to-use-sandbox-for-html-to-pdf-java-step-by-step-guide/)
+### [Abilita l'esecuzione di script in Java – Guida completa Aspose.HTML](./enable-script-execution-in-java-complete-aspose-html-guide/)
 
 ---
 

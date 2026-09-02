@@ -50,6 +50,8 @@ Java용 Aspose.HTML에서 사용자 정의 메시지 핸들러를 구현하여 �
 이 단계별 가이드를 통해 Java용 Aspose.HTML을 사용하여 ZIP 파일을 JPG 이미지로 변환하는 방법을 알아보세요.
 ### [Java용 Aspose.HTML을 사용하여 ZIP을 PDF로 변환](./zip-to-pdf/)
 이 단계별 가이드에 따라 Java용 Aspose.HTML을 사용하여 ZIP 파일을 PDF로 쉽게 변환하세요.
+### [Java 11 HttpClient 인증자 – 보안 요청을 위한 완전 가이드](./java-11-httpclient-authenticator-complete-guide-to-secure-re/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

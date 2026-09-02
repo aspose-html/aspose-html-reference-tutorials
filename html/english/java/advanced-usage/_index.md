@@ -110,6 +110,8 @@ A: Use `HtmlLoadOptions` with `PageSetup` margins and enable `EnableCssLayout` t
 A: No. A single Aspose.HTML for Java license covers all output formats, including PDF and XPS.
 
 ## Advanced Usage of Aspose.HTML Java Tutorials
+
+
 ### [Customize HTML Page Margins with Aspose.HTML](./css-extensions-adding-title-page-number/)
 Learn how to customize page margins, add page numbers, and titles to HTML documents using Aspose.HTML for Java.
 ### [DOM Mutation Observer with Aspose.HTML for Java](./dom-mutation-observer-observing-node-additions/)
@@ -124,8 +126,48 @@ Learn how to automate HTML form filling and submission with Aspose.HTML for Java
 Learn how to adjust PDF page size with Aspose.HTML for Java. Create high-quality PDFs from HTML effortlessly. Control page dimensions effectively.
 ### [Adjust XPS Page Size with Aspose.HTML for Java](./adjust-xps-page-size/)
 Learn how to adjust XPS page size with Aspose.HTML for Java. Control the output dimensions of your XPS documents easily.
+### [Extract HTML from MHTML – Complete Java Guide](./extract-html-from-mhtml-complete-java-guide/)
+Learn how to extract HTML content from MHTML files with Aspose.HTML for Java, handling embedded resources and preserving layout.
+### [How to Run JavaScript in Java – Complete Guide](./how-to-run-javascript-in-java-complete-guide/)
+Learn how to execute JavaScript code within Java applications using Aspose.HTML, covering setup, examples, and best practices.
+### [set device pixel ratio in Java – Mobile Sandbox Tutorial](./set-device-pixel-ratio-in-java-mobile-sandbox-tutorial/)
+Learn how to set the device pixel ratio in Java using Aspose.HTML's mobile sandbox for accurate rendering on high‑DPI devices.
 ### [How to Run Scripts in Java – Complete Guide to Execute JavaScript & Extract Data](./how-to-run-scripts-in-java-complete-guide-to-execute-javascr/)
 Learn how to execute JavaScript in Java, run scripts, and extract data using Aspose.HTML for Java.
+
+---
+
+**Last Updated:** 2025-11-29  
+**Tested With:** Aspose.HTML for Java 24.11  
+**Author:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Execute JavaScript in Java – Complete Guide to Running JS from Java](./execute-javascript-in-java-complete-guide-to-running-js-from/)
+Learn how to run JavaScript from Java using Aspose.HTML, covering script evaluation, engine setup, and practical integration examples.
+
+---
+
+**Last Updated:** 2025-11-29  
+**Tested With:** Aspose.HTML for Java 24.11  
+**Author:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [How to Use Sandbox for HTML to PDF Java – Step‑by‑Step Guide](./how-to-use-sandbox-for-html-to-pdf-java-step-by-step-guide/)
+Step‑by‑step guide on using the Aspose.HTML sandbox to convert HTML to PDF in Java, covering setup, execution, and best practices.
+### [Enable Script Execution in Java – Complete Aspose.HTML Guide](./enable-script-execution-in-java-complete-aspose-html-guide/)
+Learn how to enable JavaScript execution in Java using Aspose.HTML, covering setup, security, and practical examples.
+### [How to Enable JavaScript in Aspose HTML – Load HTML & Get Text](./how-to-enable-javascript-in-aspose-html-load-html-get-text/)
+Learn how to enable JavaScript when loading HTML with Aspose.HTML for Java and extract text from the page.
 
 ---
 

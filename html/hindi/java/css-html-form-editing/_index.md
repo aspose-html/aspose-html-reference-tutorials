@@ -26,15 +26,41 @@ url: /hi/java/css-html-form-editing/
 अब, आइए गियर बदलें और जानें कि Aspose.HTML for Java का उपयोग करके HTML फ़ॉर्म को प्रभावी ढंग से कैसे संपादित और सबमिट किया जाए। फ़ॉर्म वेबसाइट पर उपयोगकर्ता इंटरैक्शन का दिल हैं, है न? इस ट्यूटोरियल के साथ, आप सीखेंगे कि फ़ॉर्म के डिज़ाइन और कार्यक्षमता को आसानी से कैसे बदला जाए। आप जानेंगे कि फ़ील्ड को पहले से कैसे भरें, कस्टम लॉजिक के साथ इनपुट को कैसे मान्य करें और अपने बैकएंड पर सहज डेटा सबमिशन की सुविधा कैसे दें। इसकी कल्पना करें: आपके उपयोगकर्ता आपकी साइट पर एक फ़ॉर्म भर सकते हैं और जान सकते हैं कि उनकी जानकारी सुरक्षित और सही है - क्योंकि यही वह अनुभव है जिसे आप बनाना चाहते हैं! यह चरण-दर-चरण मार्गदर्शिका कार्रवाई योग्य अंतर्दृष्टि से भरी हुई है, यह सुनिश्चित करती है कि आप हर अवधारणा को समझ सकें।[और पढ़ें](./html-form-editing/). 
 
 ## जावा ट्यूटोरियल के लिए Aspose.HTML के साथ CSS और HTML फॉर्म संपादन
+
 ### [Java के लिए Aspose.HTML के साथ उन्नत CSS एक्सटेंशन तकनीकें](./advanced-css-extension/)
 कस्टम पेज मार्जिन और डायनामिक कंटेंट सहित उन्नत CSS तकनीकों को लागू करने के लिए Java के लिए Aspose.HTML का उपयोग करना सीखें। डेवलपर्स के लिए एक विस्तृत, व्यावहारिक ट्यूटोरियल।
 ### [Java के लिए Aspose.HTML के साथ HTML फॉर्म संपादन और सबमिशन](./html-form-editing/)
 इस व्यापक चरण-दर-चरण मार्गदर्शिका में Java के लिए Aspose.HTML का उपयोग करके HTML फ़ॉर्म को प्रोग्रामेटिक रूप से संपादित और सबमिट करना सीखें।
+### [Java में गणना किया गया CSS प्राप्त करें – पूर्ण Aspose HTML गाइड](./get-computed-css-in-java-complete-aspose-html-guide/)
+Java में Aspose.HTML का उपयोग करके गणना किए गए CSS मानों को प्राप्त करने की पूरी प्रक्रिया सीखें।
+### [Java में क्लास द्वारा एलिमेंट चयन – पूर्ण गाइड](./select-element-by-class-in-java-complete-how-to-guide/)
+Java में Aspose.HTML का उपयोग करके क्लास द्वारा HTML एलिमेंट को चुनने और प्रोसेस करने की पूरी प्रक्रिया सीखें।
+### [Java में CSS पढ़ना – Aspose.HTML के साथ पूर्ण गाइड](./how-to-read-css-in-java-complete-guide-with-aspose-html/)
+Aspose.HTML का उपयोग करके Java में CSS फ़ाइलों को पढ़ने और पार्स करने की पूरी प्रक्रिया सीखें।
 ### [Java के साथ HTML पार्स करें: CSS प्रॉपर्टी निकालें और फ़ॉन्ट आकार प्राप्त करें](./parse-html-with-java-extract-css-property-and-get-font-size/)
 इस ट्यूटोरियल में Java का उपयोग करके HTML से CSS प्रॉपर्टी निकालना और फ़ॉन्ट साइज प्राप्त करना सीखें।
 ### [Java में HTML क्वेरी कैसे करें – HTML लोड करें, CSS सेलेक्टर, और हेडिंग्स निकालें](./how-to-query-html-in-java-load-html-css-selector-and-extract/)
 Java का उपयोग करके HTML लोड करना, CSS सेलेक्टर से तत्व चुनना और हेडिंग्स निकालना सीखें।
 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Java के लिए Aspose.HTML के साथ Computed Style प्राप्त करें – HTML से बैकग्राउंड रंग निकालें](./get-computed-style-java-extract-background-color-from-html/)
+Java में Aspose.HTML का उपयोग करके HTML तत्व की गणना की गई शैली से बैकग्राउंड रंग कैसे निकालें, सीखें।
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Java में तत्व का गणना किया गया शैली प्राप्त करें – पूर्ण चरण-दर-चरण गाइड](./get-element-computed-style-in-java-full-step-by-step-guide/)
+इस गाइड में Java के साथ Aspose.HTML का उपयोग करके किसी तत्व की गणना की गई शैली कैसे प्राप्त करें, सीखें।
+### [Java में getComputedStyle का उपयोग कैसे करें – बैकग्राउंड रंग और अन्य CSS गुण निकालें](./how-to-use-getcomputedstyle-in-java-extract-background-color/)
+Java में getComputedStyle का उपयोग करके बैकग्राउंड रंग और अन्य CSS प्रॉपर्टीज़ को प्राप्त करने की विधि सीखें।
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -42,6 +42,7 @@ När det gäller att skapa nya HTML-dokument erbjuder Aspose.HTML för Java en r
  Slutligen, för dem som vill utveckla sina färdigheter ännu längre, finns det en mängd avancerade ämnen att utforska. Lär dig hur du hanterar SVG-dokument eller hanterar dokumentladdningshändelser för att skapa responsiva och dynamiska webbapplikationer. Dessa handledningar tar dig bortom HTML, dyker in i krångligheterna med Scalable Vector Graphics (SVG) och händelsedriven programmering.[Läs mer](./create-manage-svg-documents/)
 
 ## Skapa och hantera HTML-dokument i Aspose.HTML för Java Tutorials
+
 ### [Skapa HTML-dokument asynkront i Aspose.HTML för Java](./create-html-documents-async/)
 Bemästra HTML-dokument skapande asynkront med Aspose.HTML för Java. Steg-för-steg-guide, tips och vanliga frågor ingår för snabb inlärning.
 ### [Skapa tomma HTML-dokument i Aspose.HTML för Java](./create-empty-html-documents/)
@@ -56,15 +57,39 @@ Lär dig hur du laddar HTML-dokument från strömmar med Aspose.HTML för Java. 
 Lär dig hur du skapar HTML-dokument från strängar i Aspose.HTML för Java med denna steg-för-steg-guide.
 ### [Ladda HTML-dokument från URL i Aspose.HTML för Java](./load-html-documents-from-url/)
 Upptäck hur du enkelt laddar HTML-dokument från en URL i Java med Aspose.HTML. Steg-för-steg handledning ingår.
+### [Extrahera text från HTML med Java – Komplett steg‑för‑steg‑guide](./extract-text-from-html-with-java-complete-step-by-step-guide/)
+Lär dig hur du extraherar text från HTML-dokument i Java med en detaljerad steg‑för‑steg‑guide.
+### [Hur du frågar HTML i Java – Komplett handledning](./how-to-query-html-in-java-complete-tutorial/)
+Lär dig hur du söker och extraherar data från HTML-dokument i Java med en komplett steg-för-steg-guide.
+### [Hur man parsar HTML i Java – Ladda, fråga & räkna element](./how-to-parse-html-java-load-query-count-elements/)
+Lär dig hur du laddar, frågar och räknar HTML-element i Java med Aspose.HTML i denna steg-för-steg-guide.
 ### [Generera nya HTML-dokument med Aspose.HTML för Java](./generate-new-html-documents/)
 Lär dig hur du skapar nya HTML-dokument med Aspose.HTML för Java med denna enkla steg-för-steg-guide. Börja generera dynamiskt HTML-innehåll.
 ### [Hantera dokumentladdningshändelser i Aspose.HTML för Java](./handle-document-load-events/)
 Lär dig att hantera dokumentladdningshändelser i Aspose.HTML för Java med denna steg-för-steg-guide. Förbättra dina webbapplikationer.
 ### [Skapa och hantera SVG-dokument i Aspose.HTML för Java](./create-manage-svg-documents/)
 Lär dig att skapa och hantera SVG-dokument med Aspose.HTML för Java! Den här omfattande guiden täcker allt från grundläggande skapande till avancerad manipulation.
+### [Kör asynkron JavaScript i Java – Komplett steg‑för‑steg‑guide](./execute-async-javascript-in-java-complete-step-by-step-guide/)
+Lär dig hur du kör asynkron JavaScript i Java med Aspose.HTML, komplett steg‑för‑steg‑guide för smidig integration.
+### [Skapa sandlåda för HTML i Java – Steg‑för‑steg‑guide](./create-sandbox-for-html-in-java-step-by-step-guide/)
+Lär dig hur du skapar en säker sandlåda för HTML i Java med vår detaljerade steg‑för‑steg‑guide.
+### [Iterera över NodeList i Java – Komplett guide](./iterate-over-nodelist-java-complete-guide/)
+Lär dig hur du itererar över NodeList i Java med en komplett steg‑för‑steg‑guide.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Generera HTML från JavaScript i Java – Komplett steg‑för‑steg‑guide](./generate-html-from-javascript-in-java-complete-step-by-step/)
+Lär dig hur du kör JavaScript för att generera HTML i Java med vår detaljerade steg‑för‑steg‑guide.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Iterera NodeList i Java – Läs HTML och hämta bild‑src](./iterate-nodelist-java-read-html-get-image-src/)
+Lär dig hur du itererar en NodeList i Java för att läsa HTML och extrahera bild‑src‑attributen.

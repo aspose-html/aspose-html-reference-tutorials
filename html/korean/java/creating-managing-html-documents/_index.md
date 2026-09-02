@@ -42,6 +42,7 @@ Aspose.HTML for Java는 Java 애플리케이션 내에서 HTML 문서를 원활�
  마지막으로, 기술을 더욱 발전시키고자 하는 사람들을 위해, 탐구할 수 있는 고급 주제가 많이 있습니다. SVG 문서를 관리하거나 문서 로드 이벤트를 처리하여 반응형 동적 웹 애플리케이션을 만드는 방법을 알아보세요. 이 튜토리얼은 HTML을 넘어 확장 가능 벡터 그래픽(SVG)과 이벤트 기반 프로그래밍의 복잡성을 탐구합니다.[더 읽어보기](./create-manage-svg-documents/)
 
 ## Aspose.HTML for Java 튜토리얼에서 HTML 문서 만들기 및 관리
+
 ### [Java용 Aspose.HTML에서 비동기적으로 HTML 문서 만들기](./create-html-documents-async/)
 Aspose.HTML for Java로 비동기적으로 HTML 문서 생성을 마스터하세요. 신속한 학습을 위해 단계별 가이드, 팁, FAQ가 포함되어 있습니다.
 ### [Java용 Aspose.HTML에서 빈 HTML 문서 만들기](./create-empty-html-documents/)
@@ -54,14 +55,45 @@ Aspose.HTML for Java로 HTML 조작의 힘을 잠금 해제하세요. 단계별 
 Aspose.HTML for Java를 사용하여 스트림에서 HTML 문서를 로드하는 방법을 알아보세요. 이 가이드는 원활한 HTML 조작을 위한 단계별 튜토리얼을 제공합니다.
 ### [Java용 Aspose.HTML에서 문자열로부터 HTML 문서 만들기](./create-html-documents-from-string/)
 이 단계별 가이드를 통해 Java용 Aspose.HTML에서 문자열로 HTML 문서를 만드는 방법을 알아보세요.
+### [Java용 Aspose.HTML에서 NodeList 반복 – HTML 읽고 이미지 src 가져오기](./iterate-nodelist-java-read-html-get-image-src/)
+Aspose.HTML for Java를 사용해 NodeList를 순회하며 HTML을 읽고 이미지 src 속성을 추출하는 방법을 단계별로 안내합니다.
 ### [Java용 Aspose.HTML에서 URL에서 HTML 문서 로드](./load-html-documents-from-url/)
 Aspose.HTML을 사용하여 Java에서 URL에서 HTML 문서를 쉽게 로드하는 방법을 알아보세요. 단계별 튜토리얼이 포함되어 있습니다.
+### [Java에서 HTML을 쿼리하는 방법 – 완전 튜토리얼](./how-to-query-html-in-java-complete-tutorial/)
+Java용 Aspose.HTML을 사용하여 HTML을 효율적으로 쿼리하는 방법을 단계별로 안내합니다.
+### [Java용 HTML 파싱 방법 – 로드, 쿼리 및 요소 개수 세기](./how-to-parse-html-java-load-query-count-elements/)
+Aspose.HTML for Java를 사용하여 HTML을 로드하고, 쿼리하고, 요소 개수를 세는 방법을 단계별로 안내합니다.
 ### [Java용 Aspose.HTML을 사용하여 새 HTML 문서 생성](./generate-new-html-documents/)
 이 간단한 단계별 가이드를 통해 Aspose.HTML for Java를 사용하여 새 HTML 문서를 만드는 방법을 알아보세요. 동적 HTML 콘텐츠 생성을 시작하세요.
 ### [Java용 Aspose.HTML에서 문서 로드 이벤트 처리](./handle-document-load-events/)
-이 단계별 가이드를 통해 Aspose.HTML for Java에서 문서 로드 이벤트를 처리하는 방법을 알아보세요. 웹 애플리케이션을 강화하세요.
+이 단계별 가이드를 통해 Aspose.HTML for Java에서 문서 로드 이벤트 처리하는 방법을 알아보세요. 웹 애플리케이션을 강화하세요.
 ### [Java용 Aspose.HTML에서 SVG 문서 만들기 및 관리](./create-manage-svg-documents/)
 Java용 Aspose.HTML을 사용하여 SVG 문서를 만들고 관리하는 방법을 알아보세요! 이 포괄적인 가이드는 기본 생성부터 고급 조작까지 모든 것을 다룹니다.
+### [Java용 Aspose.HTML에서 HTML 샌드박스 만들기 – 단계별 가이드](./create-sandbox-for-html-in-java-step-by-step-guide/)
+Aspose.HTML for Java를 사용하여 안전한 HTML 샌드박스를 설정하고 테스트하는 방법을 단계별로 안내합니다.
+### [Java용 Aspose.HTML에서 비동기 JavaScript 실행 – 완전 단계별 가이드](./execute-async-javascript-in-java-complete-step-by-step-guide/)
+Aspose.HTML for Java를 활용해 Java에서 비동기 JavaScript를 실행하는 방법을 단계별로 배워보세요.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Java에서 JavaScript로 HTML 생성 – 완전 단계별 가이드](./generate-html-from-javascript-in-java-complete-step-by-step/)
+Aspose.HTML for Java를 사용하여 Java에서 JavaScript를 실행하고 HTML을 생성하는 방법을 단계별로 안내합니다.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Java에서 NodeList 반복 – 완전 가이드](./iterate-over-nodelist-java-complete-guide/)
+Aspose.HTML for Java를 사용하여 NodeList를 반복하는 방법을 단계별로 안내합니다. 완전 가이드로 효율적인 HTML 조작을 배우세요.
+### [Java용 Aspose.HTML에서 HTML 텍스트 추출 – 완전 단계별 가이드](./extract-text-from-html-with-java-complete-step-by-step-guide/)
+Aspose.HTML for Java를 사용하여 HTML 문서에서 텍스트를 추출하는 방법을 단계별로 안내합니다.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

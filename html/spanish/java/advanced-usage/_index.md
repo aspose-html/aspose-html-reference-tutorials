@@ -112,6 +112,8 @@ R: Usa `HtmlLoadOptions` con márgenes `PageSetup` y habilita `EnableCssLayout` 
 R: No. Una única licencia de Aspose.HTML para Java cubre todos los formatos de salida, incluidos PDF y XPS.
 
 ## Uso avanzado de tutoriales de Aspose.HTML Java
+
+
 ### [Personalizar márgenes de página HTML con Aspose.HTML](./css-extensions-adding-title-page-number/)
 Aprende a personalizar los márgenes de página, añadir números de página y títulos a documentos HTML usando Aspose.HTML para Java.
 ### [Observador de mutación DOM con Aspose.HTML para Java](./dom-mutation-observer-observing-node-additions/)
@@ -126,8 +128,58 @@ Aprende a automatizar el llenado y envío de formularios HTML con Aspose.HTML pa
 Aprende a ajustar el tamaño de página PDF con Aspose.HTML para Java. Crea PDFs de alta calidad a partir de HTML sin esfuerzo. Controla las dimensiones de la página de manera eficaz.
 ### [Ajustar tamaño de página XPS con Aspose.HTML para Java](./adjust-xps-page-size/)
 Aprende a ajustar el tamaño de página XPS con Aspose.HTML para Java. Controla fácilmente las dimensiones de salida de tus documentos XPS.
+### [Establecer la relación de píxeles del dispositivo en Java – Tutorial de Sandbox móvil](./set-device-pixel-ratio-in-java-mobile-sandbox-tutorial/)
+Aprende a configurar la relación de píxeles del dispositivo en entornos móviles usando Aspose.HTML para Java.
+### [Cómo ejecutar JavaScript en Java – Guía completa](./how-to-run-javascript-in-java-complete-guide/)
+### [Cómo habilitar JavaScript en Aspose HTML – Cargar HTML y obtener texto](./how-to-enable-javascript-in-aspose-html-load-html-get-text/)
 ### [Cómo ejecutar scripts en Java – Guía completa para ejecutar JavaScript y extraer datos](./how-to-run-scripts-in-java-complete-guide-to-execute-javascr/)
 Aprende a ejecutar scripts JavaScript dentro de Java y a extraer datos de manera eficiente con Aspose.HTML.
+
+---
+
+**Última actualización:** 2025-11-29  
+**Probado con:** Aspose.HTML para Java 24.11  
+**Autor:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Extraer HTML de MHTML – Guía completa de Java](./extract-html-from-mhtml-complete-java-guide/)
+Aprende a extraer contenido HTML a partir de archivos MHTML usando Aspose.HTML para Java, con ejemplos paso a paso.
+
+---
+
+**Última actualización:** 2025-11-29  
+**Probado con:** Aspose.HTML para Java 24.11  
+**Autor:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Ejecutar JavaScript en Java – Guía completa para ejecutar JS desde Java](./execute-javascript-in-java-complete-guide-to-running-js-from/)
+
+---
+
+**Última actualización:** 2025-11-29  
+**Probado con:** Aspose.HTML para Java 24.11  
+**Autor:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Cómo usar Sandbox para HTML a PDF Java – Guía paso a paso](./how-to-use-sandbox-for-html-to-pdf-java-step-by-step-guide/)
+Aprende a utilizar el entorno Sandbox de Aspose.HTML para convertir HTML a PDF en Java con una guía paso a paso.
+### [Habilitar la ejecución de scripts en Java – Guía completa de Aspose.HTML](./enable-script-execution-in-java-complete-aspose-html-guide/)
+Aprende a ejecutar JavaScript dentro de aplicaciones Java usando Aspose.HTML, con ejemplos paso a paso y mejores prácticas.
 
 ---
 

@@ -26,15 +26,41 @@ Laten we het eerst hebben over geavanceerde CSS-extensietechnieken met Aspose.HT
 Laten we nu eens van versnelling veranderen en onderzoeken hoe u HTML-formulieren effectief kunt bewerken en verzenden met Aspose.HTML voor Java. Formulieren vormen het hart van gebruikersinteractie op websites, toch? Met deze tutorial leert u hoe u het ontwerp en de functionaliteit van formulieren eenvoudig kunt wijzigen. U ontdekt hoe u velden vooraf kunt invullen, invoer kunt valideren met aangepaste logica en naadloze gegevensinzendingen naar uw backend kunt vergemakkelijken. Stel u voor: uw gebruikers kunnen een formulier op uw site invullen en weten dat hun informatie veilig is, want dat is het soort ervaring dat u wilt creëren! Deze stapsgewijze handleiding staat boordevol bruikbare inzichten, zodat u onderweg elk concept begrijpt.[Lees meer](./html-form-editing/). 
 
 ## CSS en HTML-formulierbewerking met Aspose.HTML voor Java-zelfstudies
+
 ### [Geavanceerde CSS-extensietechnieken met Aspose.HTML voor Java](./advanced-css-extension/)
 Leer hoe u Aspose.HTML voor Java kunt gebruiken om geavanceerde CSS-technieken toe te passen, waaronder aangepaste paginamarges en dynamische content. Een gedetailleerde, praktische tutorial voor ontwikkelaars.
 ### [HTML-formulier bewerken en indienen met Aspose.HTML voor Java](./html-form-editing/)
 Leer hoe u HTML-formulieren programmatisch kunt bewerken en verzenden met Aspose.HTML voor Java in deze uitgebreide stapsgewijze handleiding.
+### [Berekende CSS ophalen in Java – Complete Aspose HTML-gids](./get-computed-css-in-java-complete-aspose-html-guide/)
+Leer hoe u met Aspose.HTML voor Java de berekende CSS‑stijlen van een element kunt ophalen en gebruiken in uw toepassingen.
+### [Selecteer element op klasse in Java – Complete handleiding](./select-element-by-class-in-java-complete-how-to-guide/)
+Leer hoe u in Java een element kunt selecteren op basis van een CSS‑klasse, met voorbeeldcode en handige tips.
+### [CSS lezen in Java – Complete gids met Aspose.HTML](./how-to-read-css-in-java-complete-guide-with-aspose-html/)
+Ontdek hoe u CSS-bestanden in Java kunt lezen en verwerken met Aspose.HTML in deze praktische stap‑voor‑stap gids.
 ### [HTML parseren met Java: CSS-eigenschap extraheren en lettergrootte ophalen](./parse-html-with-java-extract-css-property-and-get-font-size/)
 Leer hoe u HTML kunt parseren met Java, CSS‑eigenschappen kunt extraheren en de lettergrootte van elementen kunt bepalen.
 ### [HTML opvragen in Java – HTML laden, CSS-selectors gebruiken en koppen extraheren](./how-to-query-html-in-java-load-html-css-selector-and-extract/)
 Leer hoe u HTML kunt laden, CSS-selectors kunt toepassen en kopteksten kunt extraheren met Java.
 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Computed Style ophalen in Java – Achtergrondkleur uit HTML extraheren](./get-computed-style-java-extract-background-color-from-html/)
+Leer hoe u met Aspose.HTML voor Java de berekende stijl van een element kunt ophalen en de achtergrondkleur uit HTML kunt extraheren.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Element berekende stijl ophalen in Java – Volledige stap‑voor‑stap gids](./get-element-computed-style-in-java-full-step-by-step-guide/)
+Leer hoe u met Aspose.HTML voor Java de berekende stijl van een element kunt ophalen in een gedetailleerde stap‑voor‑stap gids.
+### [Hoe getComputedStyle te gebruiken in Java – Achtergrondkleur en andere CSS-eigenschappen extraheren](./how-to-use-getcomputedstyle-in-java-extract-background-color/)
+Leer hoe u met Aspose.HTML voor Java de getComputedStyle-methode kunt gebruiken om achtergrondkleur en andere CSS-eigenschappen uit een element te halen.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

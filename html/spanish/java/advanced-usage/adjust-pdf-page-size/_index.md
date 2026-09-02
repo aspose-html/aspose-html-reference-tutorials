@@ -1,7 +1,7 @@
 ---
-date: 2025-12-01
-description: Aprenda a ajustar el tamaño de página de PDF, renderizar HTML como PDF
-  y generar PDF a partir de HTML usando Aspose.HTML para Java. Controle las dimensiones
+date: 2026-03-18
+description: Aprende cómo ajustar el tamaño de página de PDF, renderizar HTML a PDF
+  y generar PDF a partir de HTML usando Aspose.HTML para Java. Controla las dimensiones
   de la página fácilmente.
 linktitle: Adjusting PDF Page Size
 second_title: Java HTML Processing with Aspose.HTML
@@ -16,7 +16,7 @@ weight: 15
 
 # Ajustar el tamaño de página PDF con Aspose.HTML para Java
 
-Generar PDFs a partir de HTML es un requisito común para informes, facturas y libros electrónicos. Cuando **ajustas el tamaño de página PDF** aseguras que el documento final coincida con el diseño que creaste en HTML. En este tutorial aprenderás a renderizar HTML como PDF, establecer dimensiones personalizadas y controlar si la página se expande automáticamente al contenido más ancho. Recorreremos un ejemplo completo y práctico usando Aspose.HTML para Java.
+Generar PDFs a partir de HTML es un requisito común para informes, facturas y libros electrónicos. Cuando **ajustas el tamaño de página PDF** aseguras que el documento final coincida con el diseño que creaste en HTML. En este tutorial aprenderás a renderizar HTML a PDF, establecer dimensiones personalizadas y controlar si la página se expande automáticamente al contenido más ancho. Recorreremos un ejemplo completo y práctico usando Aspose.HTML para Java, para que puedas **cambiar las dimensiones de la página PDF** en tus propios proyectos con confianza.
 
 ## Respuestas rápidas
 - **¿Qué significa “ajustar el tamaño de página PDF”?** Permite definir el ancho y la altura de cada página PDF o dejar que el renderizador ajuste automáticamente al elemento más ancho.  
@@ -26,23 +26,26 @@ Generar PDFs a partir de HTML es un requisito común para informes, facturas y l
 - **¿Es compatible con Java 8+?** Absolutamente – la API funciona con cualquier JDK 8 o superior.
 
 ## ¿Qué es “ajustar el tamaño de página PDF”?
-Ajustar el tamaño de página PDF significa configurar las dimensiones de cada página que el renderizador HTML crea. Puedes establecer un tamaño fijo (p. ej., A4, Letter) o permitir que el renderizador calcule el ancho óptimo según el contenido. Esto te brinda control preciso sobre el diseño, la paginación y la fidelidad visual.
+Ajustar el tamaño de página PDF significa configurar las dimensiones de cada página que crea el renderizador HTML. Puedes establecer un tamaño fijo (p. ej., A4, Letter) o permitir que el renderizador calcule el ancho óptimo según el contenido. Esto te brinda un control preciso sobre el diseño, la paginación y la fidelidad visual.
 
 ## ¿Por qué ajustar el tamaño de página PDF al convertir HTML a PDF?
 - **Preservar la intención del diseño:** Evita que el contenido se corte o se estire.  
 - **Optimizar para impresión:** Coincide con el tamaño de papel requerido por procesos posteriores.  
 - **Mejorar la legibilidad:** Evita espacios en blanco excesivos o texto demasiado comprimido.  
-- **Documentos dinámicos:** Ajusta automáticamente tablas o imágenes anchas sin cálculos manuales.
+- **Documentos dinámicos:** Ajusta automáticamente tablas o imágenes anchas sin cálculos manuales.  
+
+## Cuándo usar “renderizar HTML a PDF” vs. “generar PDF a partir de HTML”
+Ambas expresiones describen el mismo proceso de conversión, pero la redacción influye en la descubribilidad en buscadores. Usa **renderizar HTML a PDF** cuando te enfoques en el motor de renderizado, y **generar PDF a partir de HTML** cuando enfatices el resultado final. En esta guía cubrimos ambos escenarios.
 
 ## Requisitos previos
 Antes de comenzar, asegúrate de tener:
 
 - **Java Development Kit (JDK) 8 o superior** instalado en tu máquina.  
 - **Aspose.HTML para Java** – descarga el último JAR desde la [página oficial de lanzamientos](https://releases.aspose.com/html/java/).  
-- **Un archivo HTML** que quieras convertir (usaremos `FirstFile.html` en el ejemplo).  
+- **Un archivo HTML** que desees convertir (usaremos `FirstFile.html` en el ejemplo).  
 
 ## Importar paquetes
-Primero, importa las clases que necesitaremos. El bloque de código a continuación se mantiene sin cambios respecto al tutorial original.
+Primero, importa las clases que necesitaremos. El bloque de código a continuación es idéntico al tutorial original.
 
 ```java
 import com.aspose.html.HTMLDocument;
@@ -89,7 +92,7 @@ try (java.io.FileOutputStream fileOutputStream = new java.io.FileOutputStream(Re
 Ahora veremos cómo **generar PDF a partir de HTML** con dos estrategias diferentes de tamaño de página.
 
 ### 3.1 Tamaño de página NO ajustado al ancho del contenido
-En este caso fijamos las dimensiones de la página (100 × 100 puntos). Si algún elemento supera estos límites, será recortado.
+En este caso fijamos las dimensiones de la página (100 × 100 puntos). Si algún elemento supera esos límites, será recortado.
 
 ```java
 String pdf_output;
@@ -135,15 +138,21 @@ El objeto `PageSetup` es la clave:
 - `setAnyPage(Page page)`: define el ancho × altura base.  
 - `setAdjustToWidestPage(boolean)`: alterna el ensanchamiento automático.  
 
-Al ajustar estas dos propiedades puedes **establecer dimensiones PDF** para cualquier escenario, ya sea que necesites una página estática A4 o un ancho dinámico que siga tu diseño HTML.
+Al ajustar estas dos propiedades puedes **cambiar las dimensiones de la página PDF** para cualquier escenario, ya sea que necesites una página A4 estática o un ancho dinámico que siga el diseño de tu HTML.
 
 ## Problemas comunes y consejos
 | Problema | Por qué ocurre | Solución |
 |----------|----------------|----------|
-| El contenido se corta | El tamaño fijo es demasiado pequeño | Incrementa los valores de `Size` o habilita `AdjustToWidestPage`. |
-| El texto se ve borroso | La DPI de renderizado predeterminada es baja | Usa `PdfRenderingOptions.setResolution(int dpi)` para aumentar la calidad. |
-| Falta de estilos | CSS externo no se carga | Inserta CSS en línea o usa `HTMLDocument.setBaseUrl()` para apuntar a la carpeta de tus hojas de estilo. |
-| Archivos HTML grandes provocan OutOfMemoryError | El renderizador carga todo el documento en memoria | Procesa el documento por partes o aumenta el heap de JVM (`-Xmx`). |
+| El contenido se corta | El tamaño fijo es demasiado pequeño | Aumenta los valores de `Size` o habilita `AdjustToWidestPage`. |
+| El texto se ve borroso | La DPI de renderizado predeterminada es baja | Usa `PdfRenderingOptions.setResolution(int dpi)` para mejorar la calidad. |
+| Falta de estilos | CSS externo no se carga | Inserta CSS en línea o usa `HTMLDocument.setBaseUrl()` para apuntar a la carpeta de hojas de estilo. |
+| Archivos HTML grandes provocan OutOfMemoryError | El renderizador carga todo el documento en memoria | Procesa el documento por partes o incrementa el heap de JVM (`-Xmx`). |
+
+## Consejos adicionales para el ajuste del tamaño de página PDF
+- **Utiliza tamaños de página estándar** (A4, Letter) pasando objetos `Size` predefinidos de `com.aspose.html.drawing.PaperSize`.  
+- **Combina el ajuste de ancho con el escalado de altura** para mantener la proporción de las imágenes.  
+- **Establece DPI** cuando se requiera salida de alta resolución, especialmente para PDFs listos para imprimir.  
+- **Prueba con contenido variado** (tablas, imágenes, párrafos extensos) para verificar que `AdjustToWidestPage` se comporte como esperas.
 
 ## Preguntas frecuentes
 
@@ -159,18 +168,18 @@ R: Sí – puedes inyectar CSS, modificar el DOM o usar hojas de estilo externas
 **P: ¿Dónde puedo encontrar la documentación de Aspose.HTML para Java?**  
 R: La documentación completa está disponible [aquí](https://reference.aspose.com/html/java/).
 
-**P: ¿Hay una prueba gratuita disponible para Aspose.HTML para Java?**  
+**P: ¿Existe una prueba gratuita disponible para Aspose.HTML para Java?**  
 R: Absolutamente – descarga una prueba desde la [página de lanzamientos](https://releases.aspose.com/html/java/).
 
 ## Conclusión
-Ahora sabes cómo **ajustar el tamaño de página PDF**, **renderizar HTML como PDF** y **establecer dimensiones PDF personalizadas** usando Aspose.HTML para Java. Experimenta con diferentes tamaños de página, configuraciones de DPI y ajustes de CSS para perfeccionar la salida según tu caso de uso específico. Si encuentras desafíos, consulta la documentación oficial o los foros de soporte de Aspose.
+Ahora sabes cómo **ajustar el tamaño de página PDF**, **renderizar HTML a PDF** y **establecer dimensiones PDF personalizadas** usando Aspose.HTML para Java. Experimenta con diferentes tamaños de página, configuraciones de DPI y ajustes de CSS para perfeccionar la salida según tu caso de uso específico. Si encuentras desafíos, consulta la documentación oficial o los foros de soporte de Aspose.
 
 ---
 
-**Última actualización:** 2025-12-01  
-**Probado con:** Aspose.HTML para Java 24.12 (última)  
+**Última actualización:** 2026-03-18  
+**Probado con:** Aspose.HTML para Java (última)  
 **Autor:** Aspose  
-**Recursos relacionados:** [Referencia API](https://reference.aspose.com/html/java/) | [Descargar prueba gratuita](https://releases.aspose.com/html/java/)
+**Recursos relacionados:** [Referencia de API](https://reference.aspose.com/html/java/) | [Descargar prueba gratuita](https://releases.aspose.com/html/java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

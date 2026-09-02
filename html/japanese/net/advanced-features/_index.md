@@ -25,6 +25,7 @@ Aspose.HTML for .NET は、開発者が HTML ドキュメントをプログラ�
 チュートリアルに進む前に、なぜ Aspose.HTML for .NET が開発者にとって好ましい選択肢であるかを理解しましょう。Aspose.HTML を使用すると、HTML ドキュメントを簡単に操作および管理できます。豊富な機能セットにより、HTML ドキュメントの解析、レンダリング、変換などのタスクを効率的に実行できます。熟練した開発者でも、初心者でも、Aspose.HTML はワークフローを合理化し、時間と労力を節約します。
 
 ## 高度な機能のチュートリアル
+
 .NET 開発の分野では、高度な機能を習得することで無限の可能性が広がります。Aspose.HTML は、HTML 操作の可能性を最大限に引き出すツールを提供します。この記事では、さまざまなチュートリアルを紹介しながら、さまざまなタスクに Aspose.HTML を活用する方法を説明します。
 ### [Aspose.HTML を使用した .NET の環境構成](./environment-configuration/)
 スクリプト管理、カスタム スタイル、JavaScript 実行制御などのタスクに Aspose.HTML を使用して .NET で HTML ドキュメントを操作する方法を学習します。この包括的なチュートリアルでは、開始するためのステップバイステップの例と FAQ を提供します。
@@ -42,9 +43,11 @@ Aspose.HTML for .NET を使用して HTML を PDF に動的に変換します。
 Aspose.HTML for .NET を使用して HTML を PDF、XPS、画像に変換する方法を学びます。コード例と FAQ を含むステップバイステップのチュートリアルです。
 ### [Aspose.HTML を使用して .NET で HTML テンプレートを使用する](./using-html-templates/)
 Aspose.HTML for .NET を使用して JSON データから HTML ドキュメントを動的に生成する方法を学びます。.NET アプリケーションで HTML 操作のパワーを活用します。
+### [C# のメモリ ストリーム作成 – カスタム ストリーム作成ガイド](./create-memory-stream-c-custom-stream-creation-guide/)
+C# でカスタム メモリ ストリームを作成し、Aspose.HTML での HTML 操作に活用する方法をステップバイステップで学びます。
 ### [C# でフォントをプログラム的に結合する方法 – ステップバイステップガイド](./how-to-combine-fonts-programmatically-in-c-step-by-step-guid/)
-C# を使用して複数のフォントを結合し、カスタムフォントファイルを作成する手順をステップバイステップで解説します。
-
+### [C# でアセンブリ バージョンを取得 – ライブラリ バージョン取得のクイック ガイド](./get-assembly-version-in-c-quick-guide-to-retrieve-library-ve/)
+C# でアセンブリのバージョン情報を取得し、ライブラリのバージョンを確認する手順をステップバイステップで解説します。
 ## 結論
 
 Aspose.HTML for .NET は、.NET アプリケーションで HTML ドキュメントを操作する際に、可能性の世界への扉を開きます。これらの高度な機能のチュートリアルでは、Aspose.HTML の潜在能力を最大限に活用するために必要な知識とスキルを身に付けることができます。Aspose.HTML for .NET を使用すると、開発プロジェクトを向上させ、時間を節約し、優れたソリューションを作成できます。今すぐチュートリアルを始めて、Web 開発を次のレベルに引き上げましょう。

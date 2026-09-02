@@ -112,6 +112,8 @@ A: Használja a `HtmlLoadOptions`‑t a `PageSetup` margókkal, és engedélyezz
 A: Nem. Egyetlen Aspose.HTML for Java licenc lefedi az összes kimeneti formátumot, beleértve a PDF‑t és az XPS‑t.
 
 ## Haladó Aspose.HTML Java oktatóanyagok
+
+
 ### [HTML oldal margók testreszabása Aspose.HTML‑vel](./css-extensions-adding-title-page-number/)
 Ismerje meg, hogyan testreszabhatja az oldal margókat, adhat hozzá oldalszámokat és címeket HTML dokumentumokhoz az Aspose.HTML for Java használatával.
 ### [DOM Mutation Observer Aspose.HTML for Java‑val](./dom-mutation-observer-observing-node-additions/)
@@ -126,8 +128,60 @@ Ismerje meg, hogyan automatizálhatja a HTML űrlapok kitöltését és beküld�
 Tanulja meg, hogyan állíthatja be a PDF oldalméretet az Aspose.HTML for Java használatával. Készítsen magas minőségű PDF‑eket HTML‑ből könnyedén, és hatékonyan szabályozza az oldalméreteket.
 ### [XPS oldalméret beállítása Aspose.HTML for Java‑val](./adjust-xps-page-size/)
 Ismerje meg, hogyan állíthatja be az XPS oldalméretet az Aspose.HTML for Java segítségével. Könnyedén szabályozza XPS dokumentumai kimeneti méreteit.
+### [JavaScript futtatása Java-ban – Teljes útmutató](./how-to-run-javascript-in-java-complete-guide/)
+Ismerje meg, hogyan integrálhatja és futtathatja a JavaScript kódot Java alkalmazásokban Aspose.HTML segítségével.
+### [Eszköz pixelarány beállítása Java‑ban – Mobil Sandbox oktatóanyag](./set-device-pixel-ratio-in-java-mobile-sandbox-tutorial/)
+### [Hogyan engedélyezzük a JavaScript-et az Aspose HTML-ben – HTML betöltése és szöveg lekérése](./how-to-enable-javascript-in-aspose-html-load-html-get-text/)
+Ismerje meg, hogyan kapcsolhatja be a JavaScript-et az Aspose HTML-ben, tölthet be HTML-t és nyerhet ki szöveget a dokumentumból.
 ### [Hogyan futtassunk szkripteket Java-ban – Teljes útmutató a JavaScript végrehajtásához és adatok kinyeréséhez](./how-to-run-scripts-in-java-complete-guide-to-execute-javascr/)
 Ismerje meg, hogyan hajthatja végre a JavaScriptet Java környezetben, és hogyan nyerhet ki adatokat a szkriptekből.
+
+---
+
+**Legutóbb frissítve:** 2025-11-29  
+**Tesztelve a következővel:** Aspose.HTML for Java 24.11  
+**Szerző:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [HTML kinyerése MHTML‑ből – Teljes Java útmutató](./extract-html-from-mhtml-complete-java-guide/)
+Ismerje meg, hogyan nyerhet ki HTML‑t MHTML fájlokból Java‑val az Aspose.HTML segítségével.
+
+---
+
+**Legutóbb frissítve:** 2025-11-29  
+**Tesztelve a következővel:** Aspose.HTML for Java 24.11  
+**Szerző:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Java-ban JavaScript végrehajtása – Teljes útmutató a Java-ból történő JS futtatáshoz](./execute-javascript-in-java-complete-guide-to-running-js-from/)
+Tanulja meg, hogyan hívhat meg és futtathat JavaScript kódot közvetlenül Java alkalmazásból az Aspose.HTML for Java segítségével.
+
+---
+
+**Legutóbb frissítve:** 2025-11-29  
+**Tesztelve a következővel:** Aspose.HTML for Java 24.11  
+**Szerző:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Java-ban a szkript végrehajtás engedélyezése – Teljes Aspose.HTML útmutató](./enable-script-execution-in-java-complete-aspose-html-guide/)
+Ismerje meg, hogyan engedélyezheti a Java-ban a JavaScript futtatását az Aspose.HTML segítségével, és használja ki a teljes funkcionalitást.
+### [Hogyan használja a Sandbox-ot HTML‑ről PDF‑re Java‑ban – Lépésről‑lépésre útmutató](./how-to-use-sandbox-for-html-to-pdf-java-step-by-step-guide/)
+Ismerje meg, hogyan használhatja a Sandbox‑ot HTML‑ből PDF‑re konvertáláshoz Java‑ban, részletes lépésről‑lépésre útmutatóval.
 
 ---
 

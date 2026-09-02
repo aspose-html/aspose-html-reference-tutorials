@@ -112,6 +112,7 @@ A: Nutzen Sie `HtmlLoadOptions` zusammen mit `PageSetup`‑Rändern und aktivier
 A: Nein. Eine einzige Aspose.HTML‑Java‑Lizenz deckt alle Ausgabeformate ab, einschließlich PDF und XPS.
 
 ## Erweiterte Nutzung von Aspose.HTML Java‑Tutorials
+
 ### [HTML‑Seitenränder mit Aspose.HTML anpassen](./css-extensions-adding-title-page-number/)
 Erfahren Sie, wie Sie Seitenränder, Seitenzahlen und Titel in HTML‑Dokumenten mit Aspose.HTML für Java anpassen können.
 ### [DOM‑Mutation‑Observer mit Aspose.HTML für Java](./dom-mutation-observer-observing-node-additions/)
@@ -120,14 +121,54 @@ Erfahren Sie, wie Sie in diesem Schritt‑für‑Schritt‑Leitfaden einen DOM�
 Lernen Sie die Manipulation von HTML5‑Canvas mit Aspose.HTML für Java kennen. Erstellen Sie interaktive Grafiken mit einer Schritt‑für‑Schritt‑Anleitung.
 ### [HTML5‑Canvas‑Manipulation mit Aspose.HTML für Java](./html5-canvas-manipulation-using-javascript/)
 Erfahren Sie, wie Sie HTML5‑Canvas mit JavaScript und Aspose.HTML für Java manipulieren. Erstellen Sie dynamische Grafiken und konvertieren Sie sie zu PDF.
+### [Geräte‑Pixel‑Verhältnis in Java festlegen – Mobile Sandbox Tutorial](./set-device-pixel-ratio-in-java-mobile-sandbox-tutorial/)
+Erfahren Sie, wie Sie das Geräte‑Pixel‑Verhältnis in Java festlegen, um mobile Sandbox‑Renderings zu optimieren.
 ### [Automatisches Ausfüllen von HTML‑Formularen mit Aspose.HTML für Java](./html-form-editor-filling-submitting-forms/)
 Erfahren Sie, wie Sie das automatische Ausfüllen und Absenden von HTML‑Formularen mit Aspose.HTML für Java automatisieren. Vereinfachen Sie die Web‑Interaktion mit diesem Tutorial.
 ### [PDF‑Seitengröße mit Aspose.HTML für Java anpassen](./adjust-pdf-page-size/)
 Erfahren Sie, wie Sie die PDF‑Seitengröße mit Aspose.HTML für Java anpassen. Erstellen Sie mühelos hochwertige PDFs aus HTML und steuern Sie die Seitenabmessungen effektiv.
 ### [XPS‑Seitengröße mit Aspose.HTML für Java anpassen](./adjust-xps-page-size/)
 Erfahren Sie, wie Sie die XPS‑Seitengröße mit Aspose.HTML für Java anpassen. Steuern Sie die Ausgabedimensionen Ihrer XPS‑Dokumente einfach.
+### [Wie man JavaScript in Java ausführt – Komplettanleitung](./how-to-run-javascript-in-java-complete-guide/)
+Erfahren Sie, wie Sie JavaScript-Code innerhalb von Java-Anwendungen ausführen und integrieren können.
+### [Wie man die Sandbox für HTML‑zu‑PDF in Java verwendet – Schritt‑für‑Schritt‑Anleitung](./how-to-use-sandbox-for-html-to-pdf-java-step-by-step-guide/)
+Erfahren Sie, wie Sie die Aspose.HTML Sandbox nutzen, um HTML‑Dokumente sicher in PDF zu konvertieren – Schritt für Schritt erklärt.
+### [Java‑Skriptausführung aktivieren – Komplett‑Guide für Aspose.HTML](./enable-script-execution-in-java-complete-aspose-html-guide/)
+Erfahren Sie, wie Sie die Skriptausführung in Java mit Aspose.HTML aktivieren und JavaScript sicher ausführen können.
+### [Wie man JavaScript in Aspose HTML aktiviert – HTML laden & Text extrahieren](./how-to-enable-javascript-in-aspose-html-load-html-get-text/)
+Erfahren Sie, wie Sie JavaScript in Aspose HTML aktivieren, HTML laden und den Textinhalt auslesen.
 ### [Wie man Skripte in Java ausführt – Vollständiger Leitfaden zum Ausführen von JavaScript & Extrahieren von Daten](./how-to-run-scripts-in-java-complete-guide-to-execute-javascr/)
 Erfahren Sie, wie Sie JavaScript in Java ausführen und Daten aus Skripten extrahieren können.
+
+---
+
+**Zuletzt aktualisiert:** 2025-11-29  
+**Getestet mit:** Aspose.HTML für Java 24.11  
+**Autor:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [HTML aus MHTML extrahieren – Vollständiger Java-Leitfaden](./extract-html-from-mhtml-complete-java-guide/)
+Erfahren Sie, wie Sie HTML‑Inhalte aus MHTML‑Dateien extrahieren und weiterverarbeiten mit Aspose.HTML für Java.
+
+---
+
+**Zuletzt aktualisiert:** 2025-11-29  
+**Getestet mit:** Aspose.HTML für Java 24.11  
+**Autor:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [JavaScript in Java ausführen – Komplett‑Guide zum Ausführen von JS aus Java](./execute-javascript-in-java-complete-guide-to-running-js-from/)
+Erfahren Sie, wie Sie JavaScript‑Code aus Java heraus ausführen, Skripte einbinden und Ergebnisse verarbeiten – Schritt für Schritt.
 
 ---
 

@@ -87,6 +87,8 @@ weight: 24
 - **ฟอนต์หาย** – ติดตั้งฟอนต์ที่จำเป็นบนเซิร์ฟเวอร์หรือฝังฟอนต์ใน HTML ด้วย `@font-face`.  
 
 ## การแปลง - บทช่วยสอนการแปลง HTML เป็นรูปแบบภาพต่างๆ
+
+
 ### [การแปลง HTML เป็น BMP](./convert-html-to-bmp/)
 แปลง HTML เป็น BMP ด้วย Aspose.HTML สำหรับ Java บทช่วยสอนที่ครอบคลุมสำหรับการแปลงเอกสาร HTML เป็นภาพ BMP อย่างราบรื่นโดยใช้ Aspose.HTML สำหรับ Java
 ### [การแปลง HTML เป็น GIF](./convert-html-to-gif/)
@@ -95,8 +97,22 @@ weight: 24
 เรียนรู้วิธีการแปลง HTML เป็น JPEG ด้วย Aspose.HTML สำหรับ Java คู่มือทีละขั้นตอนสำหรับการประมวลผลเอกสารอย่างราบรื่น
 ### [การแปลง HTML เป็น PNG](./convert-html-to-png/)
 เรียนรู้วิธีการแปลง HTML เป็นภาพ PNG ใน Java ด้วย Aspose.HTML คู่มือฉบับสมบูรณ์พร้อมคำแนะนำทีละขั้นตอน
+### [วิธีเรนเดอร์ HTML เป็น PNG – คู่มือเต็มสำหรับนักพัฒนา Java](./how-to-render-html-to-png-complete-guide-for-java-developers/)
+### [สร้าง PNG จาก HTML ใน Java – คู่มือเต็มขั้นตอน](./create-png-from-html-in-java-full-step-by-step-guide/)
+เรียนรู้วิธีสร้างไฟล์ PNG จาก HTML ใน Java ด้วย Aspose.HTML คู่มือขั้นตอนเต็มสำหรับการแปลงที่แม่นยำ
+### [สร้าง PNG จาก HTML – การส่งออก SVG ความละเอียดสูงใน Java](./create-png-from-html-high-dpi-svg-export-in-java/)
+เรียนรู้วิธีสร้าง PNG จาก HTML ด้วยการส่งออก SVG ความละเอียดสูงใน Java โดยใช้ Aspose.HTML
+### [วิธีตั้งค่า DPI – เรนเดอร์ HTML เป็น PNG ด้วย AsposeHTML](./how-to-set-dpi-render-html-to-png-with-asposehtml/)
 ### [การแปลง HTML เป็น TIFF](./convert-html-to-tiff/)
 เรียนรู้วิธีการแปลง HTML เป็น TIFF ได้อย่างง่ายดายโดยใช้ Aspose.HTML สำหรับ Java คู่มือทีละขั้นตอนเพื่อการจัดการเอกสารอย่างมีประสิทธิภาพ
+### [แปลง HTML เป็น WebP – คู่มือ Java ฉบับสมบูรณ์ด้วย Aspose.HTML](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
+เรียนรู้วิธีการแปลง HTML เป็น WebP ใน Java ด้วย Aspose.HTML คู่มือทีละขั้นตอนสำหรับการแปลงที่มีประสิทธิภาพ
+### [สร้าง PNG จาก SVG ใน Java – คู่มือขั้นตอนเต็ม](./create-png-from-svg-in-java-complete-step-by-step-guide/)
+### [การเรนเดอร์ DPI สูงใน Java – ถ่ายภาพหน้าจอเว็บด้วย User Agent ที่กำหนดเอง](./high-dpi-rendering-in-java-capture-webpage-screenshots-with/)
+เรียนรู้วิธีการเรนเดอร์หน้าเว็บด้วยความละเอียด DPI สูงใน Java พร้อมกำหนด User Agent เองเพื่อจับภาพหน้าจอเว็บ
+### [วิธีตั้งค่า DPI เมื่อแปลง HTML เป็น PNG – คู่มือฉบับสมบูรณ์](./how-to-set-dpi-when-converting-html-to-png-complete-guide/)
+### [สร้าง PNG จาก HTML – การแปลงแบบแบตช์เร็วโดยใช้ Thread Pool](./create-png-from-html-fast-batch-conversion-using-a-thread-po/)
+### [การแปลง HTML เป็น PNG พร้อมตั้งค่าการใช้หน่วยความจำสูงสุดใน Java](./convert-html-to-png-with-set-max-memory-usage-in-java/)
 ### [แปลง HTML เป็น WebP – คู่มือ Java สำหรับบันทึก HTML เป็น WebP](./convert-html-to-webp-java-guide-to-save-html-as-webp/)
 เรียนรู้วิธีแปลง HTML เป็นรูปภาพ WebP ด้วย Aspose.HTML for Java พร้อมขั้นตอนและโค้ดตัวอย่างที่ใช้งานง่าย
 ### [วิธีจับภาพหน้าจอของเว็บเพจด้วย Aspose HTML – คู่มือ Java](./how-to-capture-screenshot-of-a-webpage-with-aspose-html-java/)

@@ -26,14 +26,42 @@ url: /ar/java/css-html-form-editing/
 الآن، دعنا ننتقل إلى استكشاف كيفية تحرير نماذج HTML وإرسالها بفعالية باستخدام Aspose.HTML for Java. النماذج هي قلب تفاعل المستخدم على مواقع الويب، أليس كذلك؟ من خلال هذا البرنامج التعليمي، ستتعلم كيفية تغيير تصميم ووظائف النماذج بسهولة. ستكتشف كيفية ملء الحقول مسبقًا، والتحقق من صحة المدخلات باستخدام منطق مخصص، وتسهيل إرسال البيانات بسلاسة إلى الواجهة الخلفية الخاصة بك. تخيل هذا: يمكن لمستخدميك ملء نموذج على موقعك ومعرفة أن معلوماتهم آمنة وسليمة - لأن هذا هو نوع التجربة التي تريد إنشاءها! هذا الدليل خطوة بخطوة مليء بالرؤى القابلة للتنفيذ، مما يضمن لك استيعاب كل مفهوم على طول الطريق.[اقرأ المزيد](./html-form-editing/). 
 
 ## تحرير نماذج CSS وHTML باستخدام Aspose.HTML لـ Java
+
 ### [تقنيات توسعة CSS المتقدمة مع Aspose.HTML لـ Java](./advanced-css-extension/)
 تعرف على كيفية استخدام Aspose.HTML for Java لتطبيق تقنيات CSS المتقدمة، بما في ذلك هوامش الصفحات المخصصة والمحتوى الديناميكي. برنامج تعليمي عملي مفصل للمطورين.
 ### [تحرير نماذج HTML وإرسالها باستخدام Aspose.HTML لـ Java](./html-form-editing/)
 تعرف على كيفية تحرير نماذج HTML وإرسالها برمجيًا باستخدام Aspose.HTML لـ Java في هذا الدليل الشامل خطوة بخطوة.
+### [استخراج CSS المحسوب في Java – دليل Aspose HTML الكامل](./get-computed-css-in-java-complete-aspose-html-guide/)
+تعرف على كيفية الحصول على القيم المحسوبة لخصائص CSS برمجيًا باستخدام Aspose.HTML for Java في هذا الدليل الشامل.
+### [كيفية الحصول على النمط في Java – تحميل HTML واستخدام محدد الاستعلام](./how-to-get-style-in-java-load-html-query-selector/)
+تعلم كيفية تحميل مستند HTML واستخراج الأنماط باستخدام محددات الاستعلام في Aspose.HTML for Java.
+### [تحديد العنصر حسب الفئة في Java – دليل شامل خطوة بخطوة](./select-element-by-class-in-java-complete-how-to-guide/)
+تعلم كيفية اختيار عناصر HTML باستخدام الفئة في Java باستخدام Aspose.HTML خطوة بخطوة.
+### [كيفية قراءة CSS في Java – دليل شامل مع Aspose.HTML](./how-to-read-css-in-java-complete-guide-with-aspose-html/)
 ### [تحليل HTML باستخدام Java: استخراج خاصية CSS والحصول على حجم الخط](./parse-html-with-java-extract-css-property-and-get-font-size/)
 تعلم كيفية استخراج خاصية CSS مثل حجم الخط من مستندات HTML برمجيًا باستخدام Aspose.HTML for Java.
 ### [كيفية الاستعلام عن HTML في Java – تحميل HTML، محدد CSS، واستخراج العناوين](./how-to-query-html-in-java-load-html-css-selector-and-extract/)
 تعلم كيفية تحميل مستند HTML واستخدام محددات CSS لاستخراج العناوين باستخدام Aspose.HTML for Java.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [الحصول على النمط المحسوب في Java – استخراج لون الخلفية من HTML](./get-computed-style-java-extract-background-color-from-html/)
+تعلم كيفية استخراج لون الخلفية من عناصر HTML باستخدام أسلوب GetComputedStyle في Aspose.HTML for Java.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [الحصول على نمط العنصر المحسوب في Java – دليل خطوة بخطوة كامل](./get-element-computed-style-in-java-full-step-by-step-guide/)
+دليل شامل يوضح كيفية استخراج النمط المحسوب لعنصر HTML في Java باستخدام Aspose.HTML خطوة بخطوة.
+### [كيفية استخدام getComputedStyle في Java – استخراج لون الخلفية وخصائص CSS الأخرى](./how-to-use-getcomputedstyle-in-java-extract-background-color/)
+تعلم كيفية الحصول على أنماط CSS مثل لون الخلفية باستخدام getComputedStyle في Java وتطبيقها برمجيًا.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

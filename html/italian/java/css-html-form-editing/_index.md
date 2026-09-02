@@ -26,15 +26,43 @@ Per prima cosa, parliamo delle tecniche avanzate di estensione CSS con Aspose.HT
 Ora, cambiamo marcia ed esploriamo come modificare e inviare in modo efficace i moduli HTML utilizzando Aspose.HTML per Java. I moduli sono il cuore dell'interazione dell'utente sui siti Web, giusto? Con questo tutorial, imparerai come modificare il design e la funzionalità dei moduli con facilità. Scoprirai come precompilare i campi, convalidare gli input con logica personalizzata e facilitare l'invio di dati senza interruzioni al tuo backend. Immagina questo: i tuoi utenti possono compilare un modulo sul tuo sito e sapere che le loro informazioni sono al sicuro e protette, perché questo è il tipo di esperienza che vuoi creare! Questa guida passo passo è ricca di spunti pratici, assicurandoti di comprendere ogni concetto lungo il percorso.[Per saperne di più](./html-form-editing/). 
 
 ## Modifica di moduli CSS e HTML con Aspose.HTML per tutorial Java
+
 ### [Tecniche avanzate di estensione CSS con Aspose.HTML per Java](./advanced-css-extension/)
 Scopri come usare Aspose.HTML per Java per applicare tecniche CSS avanzate, tra cui margini di pagina personalizzati e contenuto dinamico. Un tutorial pratico e dettagliato per sviluppatori.
 ### [Modifica e invio di moduli HTML con Aspose.HTML per Java](./html-form-editing/)
 Scopri come modificare e inviare moduli HTML a livello di programmazione utilizzando Aspose.HTML per Java in questa guida completa passo dopo passo.
+### [Ottieni CSS calcolato in Java – Guida completa Aspose HTML](./get-computed-css-in-java-complete-aspose-html-guide/)
+Scopri come ottenere gli stili CSS calcolati di un elemento usando Aspose.HTML per Java in questa guida completa.
+### [Come ottenere lo stile in Java – caricare HTML e query selector](./how-to-get-style-in-java-load-html-query-selector/)
+Scopri come caricare un documento HTML in Java e recuperare gli stili usando i selettori di query con Aspose.HTML.
+### [Selezionare elemento per classe in Java – Guida completa passo passo](./select-element-by-class-in-java-complete-how-to-guide/)
+Scopri come individuare e manipolare elementi HTML per classe usando Aspose.HTML per Java in questa guida dettagliata.
+### [Come leggere CSS in Java – Guida completa con Aspose.HTML](./how-to-read-css-in-java-complete-guide-with-aspose-html/)
+Scopri come leggere i file CSS in Java utilizzando Aspose.HTML in questa guida completa passo passo.
 ### [Analizza HTML con Java: estrai la proprietà CSS e ottieni la dimensione del carattere](./parse-html-with-java-extract-css-property-and-get-font-size/)
 Impara a estrarre proprietà CSS da un documento HTML e a determinare la dimensione dei font usando Java.
 ### [Come interrogare HTML in Java – caricare HTML, selettore CSS ed estrarre intestazioni](./how-to-query-html-in-java-load-html-css-selector-and-extract/)
 Impara a caricare un documento HTML, utilizzare selettori CSS e estrarre i titoli con Java.
 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Recupera lo stile calcolato Java – Estrai il colore di sfondo da HTML](./get-computed-style-java-extract-background-color-from-html/)
+Scopri come ottenere lo stile calcolato di un elemento e estrarre il colore di sfondo da un documento HTML usando Aspose.HTML per Java.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Recupera lo stile calcolato dell'elemento in Java – Guida completa passo‑passo](./get-element-computed-style-in-java-full-step-by-step-guide/)
+Scopri come ottenere lo stile computato di un elemento HTML usando Aspose.HTML per Java, con esempi pratici e istruzioni dettagliate.
+### [come usare getcomputedstyle in Java – Estrarre il colore di sfondo e altre proprietà CSS](./how-to-use-getcomputedstyle-in-java-extract-background-color/)
+Scopri come utilizzare getComputedStyle in Java per estrarre il colore di sfondo e altre proprietà CSS dei documenti HTML.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

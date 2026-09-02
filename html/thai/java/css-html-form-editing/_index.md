@@ -26,15 +26,41 @@ url: /th/java/css-html-form-editing/
 ตอนนี้เรามาเปลี่ยนเกียร์และสำรวจวิธีการแก้ไขและส่งแบบฟอร์ม HTML อย่างมีประสิทธิภาพโดยใช้ Aspose.HTML สำหรับ Java แบบฟอร์มเป็นหัวใจสำคัญของการโต้ตอบของผู้ใช้บนเว็บไซต์ใช่หรือไม่ ด้วยบทช่วยสอนนี้ คุณจะเรียนรู้วิธีการปรับเปลี่ยนการออกแบบและการทำงานของแบบฟอร์มได้อย่างง่ายดาย คุณจะค้นพบวิธีการกรอกข้อมูลล่วงหน้า ตรวจสอบอินพุตด้วยตรรกะที่กำหนดเอง และอำนวยความสะดวกในการส่งข้อมูลไปยังแบ็กเอนด์ของคุณอย่างราบรื่น ลองนึกภาพดู: ผู้ใช้ของคุณสามารถกรอกแบบฟอร์มบนเว็บไซต์ของคุณและมั่นใจได้ว่าข้อมูลของพวกเขาปลอดภัย เพราะนั่นคือประสบการณ์ที่คุณต้องการสร้างขึ้น! คำแนะนำทีละขั้นตอนนี้เต็มไปด้วยข้อมูลเชิงลึกที่ดำเนินการได้ ช่วยให้คุณเข้าใจทุกแนวคิดตลอดทาง[อ่านเพิ่มเติม](./html-form-editing/). 
 
 ## การแก้ไขแบบฟอร์ม CSS และ HTML ด้วย Aspose.HTML สำหรับบทช่วยสอน Java
+
 ### [เทคนิคการขยาย CSS ขั้นสูงด้วย Aspose.HTML สำหรับ Java](./advanced-css-extension/)
 เรียนรู้วิธีใช้ Aspose.HTML สำหรับ Java เพื่อใช้เทคนิค CSS ขั้นสูง รวมถึงการกำหนดระยะขอบหน้าแบบกำหนดเองและเนื้อหาแบบไดนามิก บทช่วยสอนแบบปฏิบัติจริงโดยละเอียดสำหรับนักพัฒนา
 ### [การแก้ไขและส่งแบบฟอร์ม HTML ด้วย Aspose.HTML สำหรับ Java](./html-form-editing/)
 เรียนรู้วิธีแก้ไขและส่งแบบฟอร์ม HTML ด้วยโปรแกรมโดยใช้ Aspose.HTML สำหรับ Java ในคู่มือทีละขั้นตอนที่ครอบคลุมนี้
+### [รับค่า CSS ที่คำนวณใน Java – คู่มือ Aspose HTML ฉบับสมบูรณ์](./get-computed-css-in-java-complete-aspose-html-guide/)
+เรียนรู้วิธีดึงค่า CSS ที่คำนวณจากหน้าเว็บโดยใช้ Aspose.HTML สำหรับ Java อย่างละเอียด
+### [การเลือกองค์ประกอบโดยคลาสใน Java – คู่มือฉบับสมบูรณ์](./select-element-by-class-in-java-complete-how-to-guide/)
+เรียนรู้วิธีเลือกองค์ประกอบ HTML ตามคลาสใน Java อย่างละเอียด พร้อมตัวอย่างและขั้นตอนครบถ้วน
+### [วิธีอ่าน CSS ใน Java – คู่มือฉบับสมบูรณ์ด้วย Aspose.HTML](./how-to-read-css-in-java-complete-guide-with-aspose-html/)
+เรียนรู้วิธีอ่านไฟล์ CSS ใน Java อย่างละเอียดด้วย Aspose.HTML ในคู่มือฉบับสมบูรณ์นี้
 ### [แยกวิเคราะห์ HTML ด้วย Java: ดึงคุณสมบัติ CSS และรับขนาดฟอนต์](./parse-html-with-java-extract-css-property-and-get-font-size/)
 เรียนรู้วิธีการแยกวิเคราะห์ HTML ด้วย Java เพื่อดึงคุณสมบัติ CSS และรับค่าขนาดฟอนต์
 ### [วิธีสืบค้น HTML ใน Java – โหลด HTML, ตัวเลือก CSS, และดึงหัวเรื่อง](./how-to-query-html-in-java-load-html-css-selector-and-extract/)
 เรียนรู้วิธีโหลดไฟล์ HTML, ใช้ตัวเลือก CSS เพื่อดึงหัวข้อใน Java อย่างง่ายดาย
 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [รับ Computed Style ด้วย Java – ดึงสีพื้นหลังจาก HTML](./get-computed-style-java-extract-background-color-from-html/)
+เรียนรู้วิธีดึงสีพื้นหลังจาก HTML ด้วยการใช้ Computed Style ของ Aspose.HTML สำหรับ Java
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [รับสไตล์ที่คำนวณขององค์ประกอบใน Java – คู่มือเต็มขั้นตอน](./get-element-computed-style-in-java-full-step-by-step-guide/)
+เรียนรู้วิธีดึงสไตล์ที่คำนวณขององค์ประกอบ HTML ด้วย Aspose.HTML สำหรับ Java ผ่านคู่มือขั้นตอนเต็มรูปแบบ
+### [วิธีใช้ getcomputedstyle ใน Java – ดึงสีพื้นหลังและคุณสมบัติ CSS อื่น ๆ](./how-to-use-getcomputedstyle-in-java-extract-background-color/)
+เรียนรู้การใช้ getComputedStyle ใน Java เพื่อดึงสีพื้นหลังและคุณสมบัติ CSS อื่น ๆ อย่างง่าย
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
