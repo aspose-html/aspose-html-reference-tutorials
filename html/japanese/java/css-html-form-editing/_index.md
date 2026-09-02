@@ -40,6 +40,10 @@ Javaコードでクラス属性を持つ要素を取得し操作する方法を�
 ### [Aspose.HTML for Java を使用した CSS の読み取り方法 – 完全ガイド](./how-to-read-css-in-java-complete-guide-with-aspose-html/)
 Aspose.HTML for Java を活用し、Java で CSS をプログラム的に読み取る手順とベストプラクティスを詳しく解説します。
 
+### [JavaでHTMLを解析し、CSSプロパティを抽出してフォントサイズを取得](./parse-html-with-java-extract-css-property-and-get-font-size/)
+Javaを使用してHTMLを解析し、CSSプロパティからフォントサイズを取得する方法を学びます。
+### [JavaでHTMLをクエリする方法 – HTMLのロード、CSSセレクタ、見出しの抽出](./how-to-query-html-in-java-load-html-css-selector-and-extract/)
+JavaでHTMLを読み込み、CSSセレクタを使用して見出し要素を抽出する手順を解説します。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -92,6 +92,8 @@ Java’da HTML'yi PDF'ye dönüştürürken sayfa boyutu ayarlarını nasıl yap
 ### [Aspose HTML ile PDF Sayfa Boyutunu Ayarlama – Tam Java Kılavuzu](./set-pdf-page-size-with-aspose-html-full-java-guide/)
 Aspose.HTML kullanarak Java'da PDF sayfa boyutunu nasıl ayarlayacağınızı adım adım gösteren kapsamlı rehber.
 ### [HTML'yi PDF'ye Dönüştürme – Sayfa Boyutu ve Çözünürlük Ayarları](./convert-html-to-pdf-in-java-set-pdf-page-size-resolution-and/)
+### [HTML'den PDF'ye Öğretici: Web Sayfalarını Java ile PDF'ye Dönüştürme](./html-to-pdf-tutorial-convert-web-pages-to-pdf-with-java/)
+Web sayfalarını Java kullanarak PDF'ye dönüştürün. Adım adım rehberle yüksek kalite çıktısı elde edin.
 ### [HTML'yi MHTML'ye Dönüştürme](./convert-html-to-mhtml/)
 Aspose.HTML for Java ile HTML'yi MHTML'ye kolayca dönüştürün. Verimli HTML‑to‑MHTML dönüşümü için adım adım rehberimizi izleyin.
 ### [HTML'yi XPS'ye Dönüştürme](./convert-html-to-xps/)
@@ -111,6 +113,8 @@ Aspose.HTML ile Java'da SVG'yi PDF'ye dönüştürün. Yüksek kaliteli belge d�
 Aspose.HTML for Java ile SVG'yi XPS'ye dönüştürmeyi öğrenin. Sorunsuz dönüşümler için basit, adım adım rehber.
 ### [HTML'yi PDF olarak kaydetme – Java ile Tam Kılavuz, Thread Pool ve Şablonlar Kullanarak](./save-html-as-pdf-with-java-complete-guide-using-thread-pool/)
 Thread havuzu ve şablonlar kullanarak Java’da HTML’yi PDF’ye dönüştürmeyi adım adım öğrenin.
+### [Java'da PDF Sayfa Boyutunu Ayarlama – Tam HTML'den PDF Kılavuzu](./set-pdf-page-size-in-java-complete-html-to-pdf-guide/)
+HTML'den PDF'ye dönüştürürken sayfa boyutunu özelleştirerek tam kontrol sağlayın.
 
 ### [Java’da HTML'den PDF Oluşturma – Tam Adım‑Adım Kılavuz](./create-pdf-from-html-in-java-complete-step-by-step-guide/)
 Java uygulamanızda HTML'den yüksek kaliteli PDF oluşturmak için eksiksiz adım adım rehber.

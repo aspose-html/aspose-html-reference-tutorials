@@ -134,6 +134,8 @@ Apprenez à exécuter du code JavaScript depuis Java en utilisant Aspose.HTML, a
 Apprenez à définir le ratio de pixels de l'appareil dans le bac à sable mobile avec Aspose.HTML for Java pour un rendu précis sur les écrans haute résolution.  
 ### [Comment activer JavaScript dans Aspose HTML – Charger le HTML et obtenir le texte](./how-to-enable-javascript-in-aspose-html-load-html-get-text/)
 Apprenez à activer JavaScript lors du chargement d’un document HTML avec Aspose.HTML et à extraire le texte généré.  
+### [Comment exécuter des scripts en Java – Guide complet pour exécuter JavaScript et extraire des données](./how-to-run-scripts-in-java-complete-guide-to-execute-javascr/)
+Apprenez à exécuter du JavaScript depuis Java, récupérer des données et automatiser vos processus avec Aspose.HTML.  
 
 ---
 

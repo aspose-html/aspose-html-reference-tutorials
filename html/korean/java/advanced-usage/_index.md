@@ -132,6 +132,8 @@ Java 애플리케이션 내에서 JavaScript 코드를 실행하고, 엔진 설�
 ### [Java에서 디바이스 픽셀 비율 설정 – 모바일 샌드박스 튜토리얼](./set-device-pixel-ratio-in-java-mobile-sandbox-tutorial/)
 Java 환경에서 디바이스 픽셀 비율을 설정하고 모바일 샌드박스에서 정확한 렌더링을 구현하는 방법을 배웁니다.
 ### [Aspose HTML에서 JavaScript 활성화 – HTML 로드 및 텍스트 가져오기](./how-to-enable-javascript-in-aspose-html-load-html-get-text/)
+### [Java에서 스크립트 실행하기 – JavaScript 실행 및 데이터 추출 완전 가이드](./how-to-run-scripts-in-java-complete-guide-to-execute-javascr/)
+Java 환경에서 JavaScript를 실행하고 데이터를 추출하는 방법을 단계별로 안내합니다.
 
 ---
 

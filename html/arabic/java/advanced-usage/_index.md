@@ -140,6 +140,8 @@ weight: 20
 ### [كيفية تمكين JavaScript في Aspose HTML – تحميل HTML واستخراج النص](./how-to-enable-javascript-in-aspose-html-load-html-get-text/)
 تعلم كيفية تمكين JavaScript عند تحميل HTML واستخدام Aspose.HTML لاستخراج النص من المستند.
 
+### [كيفية تشغيل السكريبتات في Java – دليل كامل لتنفيذ JavaScript واستخراج البيانات](./how-to-run-scripts-in-java-complete-guide-to-execute-javascr/)
+
 ---
 
 **آخر تحديث:** 2025-11-29  

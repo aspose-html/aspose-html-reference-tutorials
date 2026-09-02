@@ -134,6 +134,12 @@ Ubah file Markdown menjadi PDF di Java dengan Aspose.HTML. Ikuti panduan lengkap
 ### [Mengonversi HTML ke PDF di Java – Atur Ukuran Halaman PDF, Resolusi, dan Simpan HTML sebagai PDF](./convert-html-to-pdf-in-java-set-pdf-page-size-resolution-and/)
 Pelajari cara mengatur ukuran halaman, resolusi, dan menyimpan HTML sebagai PDF menggunakan Aspose.HTML untuk Java.
 ### [Cara Mengonversi SVG – Panduan Lengkap Menggunakan Aspose HTML Converter](./how-to-convert-svg-complete-guide-using-aspose-html-converte/)
+### [Tutorial HTML ke PDF: Mengonversi Halaman Web ke PDF dengan Java](./html-to-pdf-tutorial-convert-web-pages-to-pdf-with-java/)
+Panduan langkah demi langkah mengonversi halaman web menjadi file PDF menggunakan Aspose.HTML untuk Java.
+
+### [Mengatur Ukuran Halaman PDF di Java – Panduan Lengkap HTML ke PDF](./set-pdf-page-size-in-java-complete-html-to-pdf-guide/)
+Pelajari cara mengatur ukuran halaman PDF saat mengonversi HTML ke PDF di Java menggunakan Aspose.HTML.
+
 ## Pertanyaan yang Sering Diajukan
 
 **Q: Bisakah saya menggunakan Aspose.HTML untuk Java dalam aplikasi komersial?**  

@@ -39,6 +39,10 @@ Erfahren Sie, wie Sie mit Aspose.HTML für Java CSS-Stile aus einer HTML-Datei l
 Erfahren Sie, wie Sie mit Aspose.HTML für Java Elemente anhand ihrer CSS‑Klasse auswählen und verarbeiten – Schritt‑für‑Schritt‑Anleitung.
 ### [Wie man CSS in Java liest – Komplett‑Anleitung mit Aspose.HTML](./how-to-read-css-in-java-complete-guide-with-aspose-html/)
 Erfahren Sie, wie Sie mit Aspose.HTML für Java CSS-Dateien programmgesteuert lesen und verarbeiten – Schritt‑für‑Schritt‑Anleitung.
+### [HTML mit Java parsen: CSS-Eigenschaft extrahieren und Schriftgröße ermitteln](./parse-html-with-java-extract-css-property-and-get-font-size/)
+Lernen Sie, wie Sie mit Aspose.HTML für Java HTML analysieren, CSS-Eigenschaften auslesen und die Schriftgröße von Elementen bestimmen.
+### [Wie man HTML in Java abfragt – HTML laden, CSS-Selektor verwenden und Überschriften extrahieren](./how-to-query-html-in-java-load-html-css-selector-and-extract/)
+Erfahren Sie, wie Sie mit Aspose.HTML für Java HTML laden, CSS-Selektoren nutzen und Überschriften programmgesteuert extrahieren.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -92,6 +92,14 @@ Java에서 Aspose.HTML를 활용해 HTML을 PNG 파일로 변환하는 전체 �
 ### [HTML을 PNG로 렌더링하는 방법 – Java 개발자를 위한 완전 가이드](./how-to-render-html-to-png-complete-guide-for-java-developers/)
 ### [dpi 설정 – AsposeHTML로 HTML을 PNG로 렌더링](./how-to-set-dpi-render-html-to-png-with-asposehtml/)
 AsposeHTML를 사용해 PNG 이미지의 DPI를 설정하는 방법을 단계별로 안내합니다.
+Aspose.HTML for Java를 사용해 HTML을 BMP로 변환합니다. HTML 문서를 BMP 이미지로 원활하게 변환하는 포괄적인 튜토리얼입니다.
+Aspose.HTML를 사용해 Java에서 HTML을 GIF로 변환하는 방법을 배웁니다. 효율적인 HTML‑to‑GIF 변환을 위한 포괄적인 단계별 가이드입니다.
+Aspose.HTML for Java를 사용해 HTML을 JPEG로 변환하는 방법을 배웁니다. 원활한 문서 처리를 위한 단계별 가이드입니다.
+Aspose.HTML를 사용해 Java에서 HTML을 PNG 이미지로 변환하는 방법을 배웁니다. 단계별 지침이 포함된 포괄적인 가이드입니다.
+Aspose.HTML for Java를 사용해 HTML을 TIFF로 쉽게 변환하는 방법을 배웁니다. 효율적인 문서 처리를 위한 단계별 가이드입니다.
+### [HTML을 WebP로 변환](./convert-html-to-webp-java-guide-to-save-html-as-webp/)
+Aspose.HTML for Java를 사용해 HTML을 WebP로 변환합니다. HTML 문서를 WebP 이미지로 손쉽게 변환하는 포괄적인 튜토리얼입니다.
+### [Aspose HTML을 사용하여 웹 페이지 스크린샷 캡처 – Java 가이드](./how-to-capture-screenshot-of-a-webpage-with-aspose-html-java/)
 
 
 ### [HTML을 BMP로 변환](./convert-html-to-bmp/)

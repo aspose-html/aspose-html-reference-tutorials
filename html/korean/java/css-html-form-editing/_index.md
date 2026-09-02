@@ -39,6 +39,10 @@ Java용 Aspose.HTML을 사용해 HTML을 로드하고 쿼리 선택자로 스타
 Java에서 CSS 클래스 이름으로 select 요소를 찾는 방법을 단계별로 안내합니다.
 ### [Java에서 CSS 읽기 – Aspose.HTML을 활용한 완전 가이드](./how-to-read-css-in-java-complete-guide-with-aspose-html/)
 Aspose.HTML을 사용하여 Java에서 CSS 파일을 읽고 파싱하는 방법을 단계별로 안내합니다.
+### [Java로 HTML 파싱: CSS 속성 추출 및 글꼴 크기 가져오기](./parse-html-with-java-extract-css-property-and-get-font-size/)
+Java를 사용해 HTML을 파싱하고 CSS 속성을 추출하여 글꼴 크기를 확인하는 방법을 배웁니다.
+### [Java에서 HTML 쿼리하는 방법 – HTML 로드, CSS 선택자, 헤딩 추출](./how-to-query-html-in-java-load-html-css-selector-and-extract/)
+Java를 사용해 HTML을 로드하고 CSS 선택자를 이용해 헤딩을 추출하는 방법을 배웁니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

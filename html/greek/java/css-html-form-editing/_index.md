@@ -37,6 +37,10 @@ url: /el/java/css-html-form-editing/
 Μάθετε πώς να επιλέγετε στοιχεία HTML με συγκεκριμένη κλάση χρησιμοποιώντας Aspose.HTML για Java σε αυτόν τον ολοκληρωμένο οδηγό.
 ### [Πώς να διαβάσετε CSS σε Java – Πλήρης Οδηγός με Aspose.HTML](./how-to-read-css-in-java-complete-guide-with-aspose-html/)
 Μάθετε πώς να διαβάζετε και να επεξεργάζεστε αρχεία CSS σε Java χρησιμοποιώντας το Aspose.HTML σε αυτόν τον πλήρη οδηγό.
+### [Ανάλυση HTML με Java: Εξαγωγή ιδιότητας CSS και λήψη μεγέθους γραμματοσειράς](./parse-html-with-java-extract-css-property-and-get-font-size/)
+Μάθετε πώς να αναλύετε HTML με Java, να εξάγετε ιδιότητες CSS και να εντοπίζετε το μέγεθος γραμματοσειράς.
+### [Πώς να ερωτήσετε HTML σε Java – φόρτωση HTML, CSS selector και εξαγωγή επικεφαλίδων](./how-to-query-html-in-java-load-html-css-selector-and-extract/)
+Μάθετε πώς να φορτώνετε HTML, να χρησιμοποιείτε CSS selectors και να εξάγετε επικεφαλίδες σε Java με Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

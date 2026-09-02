@@ -113,6 +113,10 @@ Aspose.HTML for Java를 사용하여 SVG를 XPS로 변환하는 방법을 배우
 ### [Java로 HTML을 PDF로 저장하기 – 스레드 풀 및 템플릿 완전 가이드](./save-html-as-pdf-with-java-complete-guide-using-thread-pool/)
 Aspose.HTML를 사용하여 Java에서 스레드 풀과 템플릿을 활용해 HTML을 PDF로 저장하는 전체 가이드를 배우세요.
 ### [Java에서 Markdown으로 PDF 생성하기 – 단계별 가이드](./how-to-generate-pdf-from-markdown-in-java-step-by-step-guide/)
+### [Java에서 PDF 페이지 크기 설정 – 전체 HTML to PDF 가이드](./set-pdf-page-size-in-java-complete-html-to-pdf-guide/)
+Aspose.HTML를 사용하여 Java에서 PDF 페이지 크기를 지정하고 HTML을 PDF로 변환하는 전체 가이드를 제공합니다.
+### [HTML을 PDF 튜토리얼: Java로 웹 페이지를 PDF로 변환](./html-to-pdf-tutorial-convert-web-pages-to-pdf-with-java/)
+Aspose.HTML를 사용하여 Java에서 웹 페이지를 PDF 파일로 변환하는 방법을 단계별로 안내합니다.
 
 ### [Java에서 HTML을 PDF로 만들기 – 완전 단계별 가이드](./create-pdf-from-html-in-java-complete-step-by-step-guide/)
 Aspose.HTML를 사용하여 Java에서 HTML을 PDF로 변환하는 전체 단계별 가이드를 제공합니다.

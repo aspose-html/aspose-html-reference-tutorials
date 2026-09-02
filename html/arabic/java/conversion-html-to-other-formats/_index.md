@@ -108,6 +108,8 @@ XPS هو صيغة الطباعة الخاصة بمايكروسوفت. باستخ
 ### [كيفية إنشاء PDF من Markdown في Java – دليل خطوة بخطوة](./how-to-generate-pdf-from-markdown-in-java-step-by-step-guide/)
 ### [حفظ HTML كملف PDF باستخدام Java – دليل كامل باستخدام مجموعة الخيوط والقوالب](./save-html-as-pdf-with-java-complete-guide-using-thread-pool/)
 تعلم كيفية حفظ HTML كملف PDF في Java باستخدام مجموعة الخيوط والقوالب لتحقيق أداء عالي وإدارة موارد فعّالة.
+### [تحويل HTML إلى PDF: تحويل صفحات الويب إلى PDF باستخدام Java](./html-to-pdf-tutorial-convert-web-pages-to-pdf-with-java/)
+### [تعيين حجم صفحة PDF في Java – دليل كامل لتحويل HTML إلى PDF](./set-pdf-page-size-in-java-complete-html-to-pdf-guide/)
 
 ### [تحويل HTML إلى PDF في Java – دليل خطوة بخطوة مع إعدادات حجم الصفحة](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 تعلم تحويل HTML إلى PDF في Java مع إعدادات حجم الصفحة خطوة بخطوة باستخدام Aspose.HTML.

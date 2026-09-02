@@ -39,6 +39,10 @@ Aprenda a cargar un documento HTML en Java y usar selectores de consulta para ob
 Aprenda a seleccionar elementos por clase en Java usando Aspose.HTML con ejemplos claros y paso a paso.
 ### [Cómo leer CSS en Java – Guía completa con Aspose.HTML](./how-to-read-css-in-java-complete-guide-with-aspose-html/)
 Aprenda a leer archivos CSS en Java utilizando Aspose.HTML, con ejemplos paso a paso y mejores prácticas.
+### [Analizar HTML con Java: Extraer la propiedad CSS y obtener el tamaño de fuente](./parse-html-with-java-extract-css-property-and-get-font-size/)
+Aprenda a analizar HTML con Java, extraer propiedades CSS y obtener el tamaño de fuente de manera programática.
+### [Cómo consultar HTML en Java – cargar HTML, selector CSS y extraer encabezados](./how-to-query-html-in-java-load-html-css-selector-and-extract/)
+Aprenda a cargar HTML, usar selectores CSS y extraer encabezados con Java de forma sencilla.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

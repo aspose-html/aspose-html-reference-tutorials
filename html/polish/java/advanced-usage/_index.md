@@ -133,6 +133,8 @@ Dowiedz się, jak wykonywać kod JavaScript w aplikacji Java przy użyciu Aspose
 ### [Ustaw współczynnik pikseli urządzenia w Javie – Samouczek Mobile Sandbox](./set-device-pixel-ratio-in-java-mobile-sandbox-tutorial/)
 Dowiedz się, jak ustawić współczynnik pikseli urządzenia w środowisku Mobile Sandbox przy użyciu Aspose.HTML dla Javy.
 ### [Jak włączyć JavaScript w Aspose HTML – Ładowanie HTML i pobieranie tekstu](./how-to-enable-javascript-in-aspose-html-load-html-get-text/)
+### [Jak uruchamiać skrypty w Javie – Kompletny przewodnik po wykonywaniu JavaScript i wyciąganiu danych](./how-to-run-scripts-in-java-complete-guide-to-execute-javascr/)
+Poznaj, jak uruchamiać skrypty JavaScript w Javie i wyodrębniać potrzebne dane przy pomocy Aspose.HTML.
 
 ---
 

@@ -38,6 +38,9 @@ Aspose.HTML for Java kullanarak HTML'den stil bilgilerini yükleyip sorgu seçic
 ### [Java’da sınıfa göre öğe seçimi – Tam Kılavuz](./select-element-by-class-in-java-complete-how-to-guide/)
 ### [Java’da CSS Okuma – Aspose.HTML ile Tam Kılavuz](./how-to-read-css-in-java-complete-guide-with-aspose-html/)
 Aspose.HTML for Java kullanarak CSS dosyalarını nasıl okuyacağınızı ve analiz edeceğinizi adım adım öğrenin.
+### [Java'da HTML Sorgulama – HTML Yükleme, CSS Seçici ve Başlıkları Çıkarma](./how-to-query-html-in-java-load-html-css-selector-and-extract/)
+Bu eğitimde, Java kullanarak HTML dosyasını yükleyip CSS seçicileriyle başlıkları nasıl çıkaracağınızı öğrenin.
+### [Java ile HTML Ayrıştırma: CSS Özelliğini Çıkar ve Yazı Boyutunu Al](./parse-html-with-java-extract-css-property-and-get-font-size/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

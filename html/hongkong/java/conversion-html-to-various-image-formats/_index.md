@@ -114,6 +114,11 @@ weight: 24
 說明如何在 Java 中使用 Aspose.HTML 以高 DPI 渲染網頁，並透過自訂使用者代理擷取螢幕截圖。
 ### [從 HTML 建立 PNG – 使用執行緒池的快速批次轉換](./create-png-from-html-fast-batch-conversion-using-a-thread-po/)
 ### [將 HTML 轉換為 PNG（設定最大記憶體使用量）](./convert-html-to-png-with-set-max-memory-usage-in-java/)
+### [將 HTML 轉換為 WebP](./convert-html-to-webp-java-guide-to-save-html-as-webp/)
+學習使用 Aspose.HTML for Java 將 HTML 轉換為 WebP 圖像，提供完整步驟與範例程式碼。
+
+### [如何使用 Aspose HTML 捕獲網頁截圖 – Java 指南](./how-to-capture-screenshot-of-a-webpage-with-aspose-html-java/)
+
 ## 常見問題集
 
 **Q: 我可以在 Java 中將 HTML 轉換為 PNG 而不使用額外的圖像函式庫嗎？**  

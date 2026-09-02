@@ -37,6 +37,10 @@ Lär dig hur du programatiskt hämtar beräknad CSS för element i Java med Aspo
 Lär dig hur du programatiskt väljer HTML‑element baserat på deras klass i Java med Aspose.HTML.
 ### [Hur man läser CSS i Java – Komplett guide med Aspose.HTML](./how-to-read-css-in-java-complete-guide-with-aspose-html/)
 Lär dig hur du läser och analyserar CSS i Java med Aspose.HTML i denna kompletta guide.
+### [Analysera HTML med Java: Extrahera CSS‑egenskap och hämta teckenstorlek](./parse-html-with-java-extract-css-property-and-get-font-size/)
+Lär dig hur du med Aspose.HTML för Java kan analysera HTML, extrahera CSS‑egenskaper och bestämma teckenstorlek programatiskt.
+### [Hur man frågar HTML i Java – ladda HTML, CSS‑väljare och extrahera rubriker](./how-to-query-html-in-java-load-html-css-selector-and-extract/)
+Lär dig hur du laddar HTML, använder CSS‑väljare och extraherar rubriker med Aspose.HTML för Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

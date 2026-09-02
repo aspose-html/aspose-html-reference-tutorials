@@ -133,6 +133,8 @@ Ismerje meg, hogyan integrálhatja és futtathatja a JavaScript kódot Java alka
 ### [Eszköz pixelarány beállítása Java‑ban – Mobil Sandbox oktatóanyag](./set-device-pixel-ratio-in-java-mobile-sandbox-tutorial/)
 ### [Hogyan engedélyezzük a JavaScript-et az Aspose HTML-ben – HTML betöltése és szöveg lekérése](./how-to-enable-javascript-in-aspose-html-load-html-get-text/)
 Ismerje meg, hogyan kapcsolhatja be a JavaScript-et az Aspose HTML-ben, tölthet be HTML-t és nyerhet ki szöveget a dokumentumból.
+### [Hogyan futtassunk szkripteket Java-ban – Teljes útmutató a JavaScript végrehajtásához és adatok kinyeréséhez](./how-to-run-scripts-in-java-complete-guide-to-execute-javascr/)
+Ismerje meg, hogyan hajthatja végre a JavaScriptet Java környezetben, és hogyan nyerhet ki adatokat a szkriptekből.
 
 ---
 

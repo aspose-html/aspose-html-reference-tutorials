@@ -140,6 +140,8 @@ A: 不需要。單一的 Aspose.HTML for Java 授權即涵蓋所有輸出格式�
 ### [如何在 Aspose HTML 中啟用 JavaScript – 載入 HTML 並取得文字](./how-to-enable-javascript-in-aspose-html-load-html-get-text/)
 學習在 Aspose.HTML 中啟用 JavaScript，載入 HTML 並提取文字內容的步驟與範例。
 
+### [如何在 Java 中執行腳本 – 完整指南：執行 JavaScript 與提取資料](./how-to-run-scripts-in-java-complete-guide-to-execute-javascr/)
+
 ---
 
 **最後更新日期：** 2025-11-29  

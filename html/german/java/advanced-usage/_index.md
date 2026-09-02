@@ -137,6 +137,8 @@ Erfahren Sie, wie Sie die Aspose.HTML Sandbox nutzen, um HTML‑Dokumente sicher
 Erfahren Sie, wie Sie die Skriptausführung in Java mit Aspose.HTML aktivieren und JavaScript sicher ausführen können.
 ### [Wie man JavaScript in Aspose HTML aktiviert – HTML laden & Text extrahieren](./how-to-enable-javascript-in-aspose-html-load-html-get-text/)
 Erfahren Sie, wie Sie JavaScript in Aspose HTML aktivieren, HTML laden und den Textinhalt auslesen.
+### [Wie man Skripte in Java ausführt – Vollständiger Leitfaden zum Ausführen von JavaScript & Extrahieren von Daten](./how-to-run-scripts-in-java-complete-guide-to-execute-javascr/)
+Erfahren Sie, wie Sie JavaScript in Java ausführen und Daten aus Skripten extrahieren können.
 
 ---
 

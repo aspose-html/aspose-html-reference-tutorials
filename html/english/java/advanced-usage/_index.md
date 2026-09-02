@@ -132,6 +132,8 @@ Learn how to extract HTML content from MHTML files with Aspose.HTML for Java, ha
 Learn how to execute JavaScript code within Java applications using Aspose.HTML, covering setup, examples, and best practices.
 ### [set device pixel ratio in Java – Mobile Sandbox Tutorial](./set-device-pixel-ratio-in-java-mobile-sandbox-tutorial/)
 Learn how to set the device pixel ratio in Java using Aspose.HTML's mobile sandbox for accurate rendering on high‑DPI devices.
+### [How to Run Scripts in Java – Complete Guide to Execute JavaScript & Extract Data](./how-to-run-scripts-in-java-complete-guide-to-execute-javascr/)
+Learn how to execute JavaScript in Java, run scripts, and extract data using Aspose.HTML for Java.
 
 ---
 

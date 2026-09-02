@@ -134,6 +134,8 @@ Lär dig hur du exekverar JavaScript‑kod i Java‑applikationer med Aspose.HTM
 Lär dig hur du ställer in enhetens pixelratio i Java‑sandboxen för mobila enheter med Aspose.HTML.
 ### [Hur man aktiverar JavaScript i Aspose HTML – Ladda HTML & Hämta text](./how-to-enable-javascript-in-aspose-html-load-html-get-text/)
 Lär dig hur du aktiverar JavaScript i Aspose.HTML, laddar HTML och extraherar text från dokumentet.
+### [Hur man kör skript i Java – Komplett guide för att köra JavaScript och extrahera data](./how-to-run-scripts-in-java-complete-guide-to-execute-javascr/)
+Lär dig hur du kör JavaScript i Java, exekverar skript och extraherar data med Aspose.HTML för Java.
 
 ---
 

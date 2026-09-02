@@ -134,6 +134,8 @@ Java एप्लिकेशन में JavaScript को एम्बेड 
 Java में मोबाइल सैंडबॉक्स का उपयोग करके डिवाइस पिक्सेल रेशियो को कैसे सेट करें, सीखें।  
 ### [Aspose HTML में JavaScript सक्षम करना – HTML लोड करें और टेक्स्ट प्राप्त करें](./how-to-enable-javascript-in-aspose-html-load-html-get-text/)
 Aspose.HTML में JavaScript सक्रिय करके HTML लोड करें और टेक्स्ट निकालें, इस चरण‑दर‑चरण गाइड में देखें।
+### [Java में स्क्रिप्ट चलाना कैसे – JavaScript निष्पादित करने और डेटा निकालने की पूर्ण गाइड](./how-to-run-scripts-in-java-complete-guide-to-execute-javascr/)
+Java एप्लिकेशन में JavaScript चलाने, स्क्रिप्ट निष्पादन और डेटा निष्कर्षण के चरण‑दर‑चरण निर्देश।
 
 ---
 

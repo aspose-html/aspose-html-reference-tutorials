@@ -133,6 +133,8 @@ Leer hoe je JavaScript kunt embedden en uitvoeren binnen Java‑applicaties met 
 ### [apparaatpixelratio instellen in Java – Mobiele Sandbox Tutorial](./set-device-pixel-ratio-in-java-mobile-sandbox-tutorial/)
 ### [Hoe JavaScript in Aspose HTML inschakelen – HTML laden & tekst ophalen](./how-to-enable-javascript-in-aspose-html-load-html-get-text/)
 Leer hoe je JavaScript inschakelt in Aspose HTML, HTML laadt en tekst extrahert met Java.
+### [Scripts uitvoeren in Java – Complete gids voor het uitvoeren van JavaScript en gegevens extraheren](./how-to-run-scripts-in-java-complete-guide-to-execute-javascr/)
+Leer hoe je JavaScript kunt uitvoeren binnen Java en data kunt extraheren met Aspose.HTML for Java.
 
 ---
 

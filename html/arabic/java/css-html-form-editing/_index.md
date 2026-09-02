@@ -38,6 +38,10 @@ url: /ar/java/css-html-form-editing/
 ### [تحديد العنصر حسب الفئة في Java – دليل شامل خطوة بخطوة](./select-element-by-class-in-java-complete-how-to-guide/)
 تعلم كيفية اختيار عناصر HTML باستخدام الفئة في Java باستخدام Aspose.HTML خطوة بخطوة.
 ### [كيفية قراءة CSS في Java – دليل شامل مع Aspose.HTML](./how-to-read-css-in-java-complete-guide-with-aspose-html/)
+### [تحليل HTML باستخدام Java: استخراج خاصية CSS والحصول على حجم الخط](./parse-html-with-java-extract-css-property-and-get-font-size/)
+تعلم كيفية استخراج خاصية CSS مثل حجم الخط من مستندات HTML برمجيًا باستخدام Aspose.HTML for Java.
+### [كيفية الاستعلام عن HTML في Java – تحميل HTML، محدد CSS، واستخراج العناوين](./how-to-query-html-in-java-load-html-css-selector-and-extract/)
+تعلم كيفية تحميل مستند HTML واستخدام محددات CSS لاستخراج العناوين باستخدام Aspose.HTML for Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

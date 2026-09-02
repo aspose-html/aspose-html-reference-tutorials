@@ -39,6 +39,10 @@ Pelajari cara memuat dokumen HTML dan mengambil gaya menggunakan selector di Jav
 Pelajari cara memilih elemen <select> berdasarkan kelas di Java dengan contoh kode lengkap dan penjelasan praktis.
 ### [Cara Membaca CSS di Java – Panduan Lengkap dengan Aspose.HTML](./how-to-read-css-in-java-complete-guide-with-aspose-html/)
 Pelajari cara membaca file CSS di Java menggunakan Aspose.HTML dalam panduan lengkap ini.
+### [Menganalisis HTML dengan Java: Ekstrak Properti CSS dan Dapatkan Ukuran Font](./parse-html-with-java-extract-css-property-and-get-font-size/)
+Pelajari cara mem-parsing HTML menggunakan Java untuk mengekstrak properti CSS dan menentukan ukuran font secara programatis.
+### [Cara Menanyakan HTML di Java – Memuat HTML, Selektor CSS, dan Mengekstrak Heading](./how-to-query-html-in-java-load-html-css-selector-and-extract/)
+Pelajari cara memuat dokumen HTML, menggunakan selektor CSS, dan mengekstrak heading secara programatis dengan Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

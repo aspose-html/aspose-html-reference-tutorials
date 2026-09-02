@@ -143,6 +143,9 @@ Aprenda a usar o Sandbox do Aspose.HTML para converter HTML em PDF com Java, pas
 ### [Como habilitar JavaScript no Aspose HTML – Carregar HTML e obter texto](./how-to-enable-javascript-in-aspose-html-load-html-get-text/)
 Aprenda a habilitar JavaScript ao carregar HTML e extrair texto usando Aspose.HTML for Java.
 
+### [Como Executar Scripts em Java – Guia Completo para Executar JavaScript e Extrair Dados](./how-to-run-scripts-in-java-complete-guide-to-execute-javascr/)
+Aprenda a executar scripts JavaScript dentro de aplicações Java e a extrair dados de forma eficiente usando Aspose.HTML.
+
 ---
 
 **Última atualização:** 2025-11-29  

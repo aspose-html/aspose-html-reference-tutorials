@@ -104,10 +104,11 @@ weight: 24
 ### [Δημιουργία PNG από HTML – Εξαγωγή SVG υψηλής DPI σε Java](./create-png-from-html-high-dpi-svg-export-in-java/)
 Μάθετε πώς να δημιουργήσετε PNG υψηλής ανάλυσης από HTML εξάγοντας SVG με υψηλό DPI χρησιμοποιώντας Aspose.HTML for Java.
 ### [Μετατροπή HTML σε TIFF](./convert-html-to-tiff/)
-Μάθετε πώς να μετατρέψετε εύκολα HTML σε TIFF χρησιμοποιώντας το Aspose.HTML για Java. Οδηγός βήμα‑βήμα για αποτελεσματική διαχείριση εγγράφων.
 ### [Δημιουργία PNG από HTML – Γρήγορη Μαζική Μετατροπή Χρησιμοποιώντας Πισίνα Νημάτων](./create-png-from-html-fast-batch-conversion-using-a-thread-po/)
 Μάθετε πώς να δημιουργείτε γρήγορα PNG από HTML σε δέσμες χρησιμοποιώντας πισίνα νημάτων για υψηλή απόδοση.
 ### [Πώς να ορίσετε DPI – Απόδοση HTML σε PNG με AsposeHTML](./how-to-set-dpi-render-html-to-png-with-asposehtml/)
+### [Μετατροπή HTML σε WebP](./convert-html-to-webp-java-guide-to-save-html-as-webp/)
+### [Πώς να καταγράψετε στιγμιότυπο οθόνης μιας ιστοσελίδας με το Aspose HTML – οδηγός Java](./how-to-capture-screenshot-of-a-webpage-with-aspose-html-java/)
 
 ### [Μετατροπή HTML σε WebP – Πλήρης Οδηγός Java με Aspose.HTML](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
 ### [Δημιουργία PNG από SVG σε Java – Πλήρης Οδηγός Βήμα‑βήμα](./create-png-from-svg-in-java-complete-step-by-step-guide/)

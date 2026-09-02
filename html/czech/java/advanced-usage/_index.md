@@ -134,6 +134,8 @@ Naučte se, jak spouštět JavaScript kód v Javě pomocí Aspose.HTML, včetně
 Naučte se, jak nastavit poměr pixelů zařízení v Javě pomocí mobilního sandboxu pro přesné vykreslování.
 ### [Jak povolit JavaScript v Aspose HTML – Načíst HTML a získat text](./how-to-enable-javascript-in-aspose-html-load-html-get-text/)
 Naučte se povolit JavaScript při načítání HTML v Aspose.HTML a získat textový obsah dokumentu.
+### [Jak spouštět skripty v Javě – Kompletní průvodce pro vykonání JavaScriptu a extrakci dat](./how-to-run-scripts-in-java-complete-guide-to-execute-javascr/)
+Naučte se spouštět JavaScript v Javě a extrahovat data pomocí Aspose.HTML pro Java.
 
 ---
 

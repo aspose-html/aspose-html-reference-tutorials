@@ -114,6 +114,11 @@ Aprenda a capturar capturas de pantalla de alta resolución usando Aspose.HTML f
 Aprenda a generar imágenes PNG desde HTML de forma masiva y eficiente mediante un pool de hilos en Java con Aspose.HTML.
 ### [Convertir HTML a PNG con uso máximo de memoria configurado en Java](./convert-html-to-png-with-set-max-memory-usage-in-java/)
 Aprenda a convertir HTML a PNG en Java limitando el uso máximo de memoria para optimizar recursos.
+### [Convertir HTML a WebP – Guía Java para Guardar HTML como WebP](./convert-html-to-webp-java-guide-to-save-html-as-webp/)
+Aprenda a convertir HTML a WebP con Aspose.HTML for Java. Guía paso a paso para guardar HTML como imágenes WebP.
+### [Cómo capturar una captura de pantalla de una página web con Aspose HTML – Guía Java](./how-to-capture-screenshot-of-a-webpage-with-aspose-html-java/)
+Aprenda a capturar una captura de pantalla de una página web usando Aspose.HTML for Java. Guía paso a paso para obtener imágenes precisas.
+
 ## Preguntas frecuentes
 
 **Q: ¿Puedo convertir HTML a PNG usando Java sin bibliotecas de imagen adicionales?**  

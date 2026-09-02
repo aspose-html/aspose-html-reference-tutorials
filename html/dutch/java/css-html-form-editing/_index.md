@@ -37,6 +37,10 @@ Leer hoe u met Aspose.HTML voor Java de berekende CSS‑stijlen van een element 
 Leer hoe u in Java een element kunt selecteren op basis van een CSS‑klasse, met voorbeeldcode en handige tips.
 ### [CSS lezen in Java – Complete gids met Aspose.HTML](./how-to-read-css-in-java-complete-guide-with-aspose-html/)
 Ontdek hoe u CSS-bestanden in Java kunt lezen en verwerken met Aspose.HTML in deze praktische stap‑voor‑stap gids.
+### [HTML parseren met Java: CSS-eigenschap extraheren en lettergrootte ophalen](./parse-html-with-java-extract-css-property-and-get-font-size/)
+Leer hoe u HTML kunt parseren met Java, CSS‑eigenschappen kunt extraheren en de lettergrootte van elementen kunt bepalen.
+### [HTML opvragen in Java – HTML laden, CSS-selectors gebruiken en koppen extraheren](./how-to-query-html-in-java-load-html-css-selector-and-extract/)
+Leer hoe u HTML kunt laden, CSS-selectors kunt toepassen en kopteksten kunt extraheren met Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

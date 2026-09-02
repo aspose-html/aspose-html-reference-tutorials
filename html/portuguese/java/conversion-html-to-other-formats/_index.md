@@ -122,6 +122,9 @@ Aprenda como converter SVG para XPS com Aspose.HTML for Java. Guia simples, pass
 Aprenda a gerar PDFs a partir de Markdown em Java usando Aspose.HTML, com instruções detalhadas passo a passo.
 ### [Salvar HTML como PDF com Java – Guia Completo Usando Thread Pool e Templates](./save-html-as-pdf-with-java-complete-guide-using-thread-pool/)
 Aprenda a gerar PDFs a partir de HTML em Java usando Thread Pool e templates para processamento eficiente e escalável.
+### [Definir Tamanho da Página PDF em Java – Guia Completo de HTML para PDF](./set-pdf-page-size-in-java-complete-html-to-pdf-guide/)
+Aprenda a definir o tamanho da página ao gerar PDFs a partir de HTML em Java usando Aspose.HTML.
+### [Tutorial HTML para PDF: Converta Páginas Web em PDF com Java](./html-to-pdf-tutorial-convert-web-pages-to-pdf-with-java/)
 
 ### [Criar Pool de Threads Fixas para Conversão Paralela de HTML para PDF](./create-fixed-thread-pool-for-parallel-html-to-pdf-conversion/)
 ### [Convertendo HTML para Markdown – Guia Completo em C#](./convert-html-to-markdown-complete-c-guide/)

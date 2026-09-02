@@ -134,6 +134,8 @@ Aspose.HTML for Java kullanarak Java içinde JavaScript kodu çalıştırmayı v
 Java’da Mobil Sandbox ortamında cihaz piksel oranını nasıl ayarlayacağınızı öğrenin.
 ### [Aspose.HTML'de JavaScript'i Etkinleştirme – HTML Yükleme ve Metin Alma](./how-to-enable-javascript-in-aspose-html-load-html-get-text/)
 Aspose.HTML ile JavaScript'i etkinleştirerek HTML yükleyin ve metni çıkarın.
+### [Java’da Script Çalıştırma – JavaScript Çalıştırma ve Veri Çıkarma İçin Tam Kılavuz](./how-to-run-scripts-in-java-complete-guide-to-execute-javascr/)
+Java’da JavaScript çalıştırmayı, scriptleri yürütmeyi ve veri çıkarmayı adım adım öğrenin.
 
 ---
 

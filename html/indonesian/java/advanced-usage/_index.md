@@ -128,6 +128,8 @@ Pelajari cara menggunakan sandbox untuk mengonversi HTML ke PDF dengan Java seca
 Pelajari cara mengaktifkan eksekusi JavaScript dalam aplikasi Java menggunakan Aspose.HTML, termasuk konfigurasi sandbox dan keamanan.
 ### [Cara Mengaktifkan JavaScript di Aspose HTML – Muat HTML & Dapatkan Teks](./how-to-enable-javascript-in-aspose-html-load-html-get-text/)
 
+### [Cara Menjalankan Skrip di Java – Panduan Lengkap untuk Menjalankan JavaScript & Mengekstrak Data](./how-to-run-scripts-in-java-complete-guide-to-execute-javascr/)
+
 ---
 
 **Terakhir Diperbarui:** 2025-11-29  

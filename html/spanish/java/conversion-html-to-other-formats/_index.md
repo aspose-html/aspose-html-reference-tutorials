@@ -108,6 +108,10 @@ Convierte SVG a PDF en Java con Aspose.HTML. Una solución fluida para conversio
 Aprende a convertir SVG a XPS con Aspose.HTML para Java. Guía simple, paso a paso, para conversiones sin inconvenientes.
 ### [Cómo generar PDF a partir de Markdown en Java – Guía paso a paso](./how-to-generate-pdf-from-markdown-in-java-step-by-step-guide/)
 Aprende a generar PDFs a partir de archivos Markdown en Java usando Aspose.HTML. Sigue nuestra guía paso a paso para una conversión sencilla.
+### [Tutorial de HTML a PDF: Convertir páginas web a PDF con Java](./html-to-pdf-tutorial-convert-web-pages-to-pdf-with-java/)
+Aprende a convertir páginas web en PDFs de alta calidad usando Aspose.HTML para Java en unos simples pasos.
+### [Establecer el tamaño de página PDF en Java – Guía completa de HTML a PDF](./set-pdf-page-size-in-java-complete-html-to-pdf-guide/)
+Aprende a establecer el tamaño de página en PDFs generados desde HTML usando Aspose.HTML para Java.
 
 ### [Establecer el tamaño de página PDF con Aspose HTML – Guía completa Java](./set-pdf-page-size-with-aspose-html-full-java-guide/)
 Aprende a definir el tamaño de página del PDF generado con Aspose HTML en Java, paso a paso y con ejemplos claros.

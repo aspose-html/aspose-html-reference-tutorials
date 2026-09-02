@@ -39,6 +39,10 @@ Learn how to load HTML in Java and retrieve CSS styles using query selectors wit
 Learn how to select HTML elements by class using Aspose.HTML for Java in this complete step-by-step guide.
 ### [how to read css in Java – Complete Guide with Aspose.HTML](./how-to-read-css-in-java-complete-guide-with-aspose-html/)
 Learn how to read and parse CSS files in Java using Aspose.HTML in this complete step-by-step guide.
+### [Parse HTML with Java: Extract CSS Property and Get Font Size](./parse-html-with-java-extract-css-property-and-get-font-size/)
+Learn how to parse HTML using Aspose.HTML for Java to extract CSS properties and retrieve font size values programmatically.
+### [How to Query HTML in Java – Load HTML, CSS Selector, and Extract Headings](./how-to-query-html-in-java-load-html-css-selector-and-extract/)
+Learn how to load HTML, use CSS selectors, and extract heading elements programmatically with Aspose.HTML for Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

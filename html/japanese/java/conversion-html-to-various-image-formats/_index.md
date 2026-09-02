@@ -99,6 +99,8 @@ Aspose.HTML for Java を使用して Java で HTML から PNG を作成する完
 Aspose.HTML for Java を使って、HTML を高品質な PNG 画像に変換する手順を詳しく解説します。
 
 ### [HTML から PNG を作成 – Java で高 DPI SVG エクスポート](./create-png-from-html-high-dpi-svg-export-in-java/)
+### [HTML を WebP に変換 – Java ガイド](./convert-html-to-webp-java-guide-to-save-html-as-webp/)
+Aspose.HTML for Java を使用して HTML を WebP 画像に変換する方法を学びます。高品質かつ軽量な WebP 形式で保存する手順を解説します。
 
 ### [HTML を TIFF に変換](./convert-html-to-tiff/)
 Aspose.HTML for Java を使用して HTML を TIFF に簡単に変換する方法を学びます。効率的なドキュメント処理のためのステップバイステップガイドです。
@@ -114,6 +116,9 @@ Aspose.HTML for Java で HTML を PNG に変換する際の DPI 指定方法と�
 ### [HTML から PNG を作成 – スレッドプールを使用した高速バッチ変換](./create-png-from-html-fast-batch-conversion-using-a-thread-po/)
 ### [HTML を PNG に変換（最大メモリ使用量設定）](./convert-html-to-png-with-set-max-memory-usage-in-java/)
 Aspose.HTML for Java でメモリ使用上限を設定しながら HTML を PNG に変換する方法を解説します。
+### [Aspose HTML でウェブページのスクリーンショットを取得する – Java ガイド](./how-to-capture-screenshot-of-a-webpage-with-aspose-html-java/)
+Aspose.HTML for Java を使ってウェブページのスクリーンショットを簡単に取得する手順を解説します。
+
 ## よくある質問
 
 **Q: 追加の画像ライブラリなしで Java で HTML を PNG に変換できますか？**  

@@ -134,6 +134,7 @@ weight: 20
 Μάθετε πώς να ορίσετε την αναλογία pixel της συσκευής σε Java χρησιμοποιώντας το Mobile Sandbox του Aspose.HTML.
 ### [Πώς να ενεργοποιήσετε τη JavaScript στο Aspose HTML – Φόρτωση HTML & Λήψη κειμένου](./how-to-enable-javascript-in-aspose-html-load-html-get-text/)
 Μάθετε πώς να ενεργοποιήσετε τη JavaScript στο Aspose.HTML, να φορτώσετε HTML και να εξάγετε το κείμενο.
+### [Πώς να Εκτελέσετε Σενάρια σε Java – Πλήρης Οδηγός για Εκτέλεση JavaScript & Εξαγωγή Δεδομένων](./how-to-run-scripts-in-java-complete-guide-to-execute-javascr/)
 
 ---
 

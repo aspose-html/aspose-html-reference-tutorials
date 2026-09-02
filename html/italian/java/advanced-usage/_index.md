@@ -124,6 +124,7 @@ R: No. Una singola licenza di Aspose.HTML for Java copre tutti i formati di outp
 ### [Come eseguire JavaScript in Java – Guida completa](./how-to-run-javascript-in-java-complete-guide/)
 ### [Imposta il rapporto di pixel del dispositivo in Java – Tutorial Sandbox Mobile](./set-device-pixel-ratio-in-java-mobile-sandbox-tutorial/)
 ### [Come abilitare JavaScript in Aspose HTML – Carica HTML e ottieni testo](./how-to-enable-javascript-in-aspose-html-load-html-get-text/)
+### [Come eseguire script in Java – Guida completa per eseguire JavaScript e estrarre dati](./how-to-run-scripts-in-java-complete-guide-to-execute-javascr/)
 
 ---
 

@@ -37,6 +37,10 @@ Khám phá cách lấy các thuộc tính CSS đã tính toán trong Java bằng
 Hướng dẫn chi tiết cách chọn phần tử HTML bằng class trong Java sử dụng Aspose.HTML.
 ### [Cách đọc CSS trong Java – Hướng dẫn đầy đủ với Aspose.HTML](./how-to-read-css-in-java-complete-guide-with-aspose-html/)
 Hướng dẫn chi tiết cách đọc CSS trong Java bằng Aspose.HTML.
+### [Phân tích HTML với Java: Trích xuất thuộc tính CSS và lấy kích thước phông chữ](./parse-html-with-java-extract-css-property-and-get-font-size/)
+Hướng dẫn cách phân tích HTML bằng Java để trích xuất thuộc tính CSS và xác định kích thước phông chữ.
+### [cách truy vấn HTML trong Java – tải HTML, CSS selector và trích xuất các tiêu đề](./how-to-query-html-in-java-load-html-css-selector-and-extract/)
+Hướng dẫn cách tải HTML, sử dụng CSS selector và trích xuất các tiêu đề trong Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

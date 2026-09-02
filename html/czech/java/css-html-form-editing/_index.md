@@ -37,6 +37,10 @@ Kompletní návod, jak v Javě získat vypočtené CSS pomocí Aspose.HTML a vyu
 Naučte se, jak pomocí Aspose.HTML pro Javu vybrat HTML element podle třídy a manipulovat s ním.
 ### [Jak číst CSS v Javě – kompletní průvodce s Aspose.HTML](./how-to-read-css-in-java-complete-guide-with-aspose-html/)
 Naučte se, jak pomocí Aspose.HTML v Javě načíst a analyzovat CSS soubory.
+### [Analyzovat HTML v Javě: Extrahovat CSS vlastnost a získat velikost písma](./parse-html-with-java-extract-css-property-and-get-font-size/)
+Naučte se pomocí Aspose.HTML v Javě extrahovat CSS vlastnosti a zjistit velikost písma z HTML dokumentu.
+### [Jak dotazovat HTML v Javě – načíst HTML, CSS selektor a extrahovat nadpisy](./how-to-query-html-in-java-load-html-css-selector-and-extract/)
+Naučte se načíst HTML, použít CSS selektory a získat nadpisy pomocí Aspose.HTML pro Javu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

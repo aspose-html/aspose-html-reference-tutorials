@@ -119,6 +119,12 @@ Impara a generare PDF con dimensioni personalizzate da HTML in Java usando Aspos
 ### [Converti markdown in HTML – Guida Java con output PDF](./convert-markdown-to-html-java-guide-with-pdf-output/)
 ### [Converti HTML in PDF con Fixed Thread Pool Java – Guida passo‑passo](./convert-html-to-pdf-with-fixed-thread-pool-java-step-by-step/)
 Scopri come convertire HTML in PDF usando un pool di thread fisso in Java per migliorare le prestazioni di conversione.
+### [HTML to PDF Tutorial: Convert Web Pages to PDF with Java](./html-to-pdf-tutorial-convert-web-pages-to-pdf-with-java/)
+Impara a convertire pagine web in PDF usando Aspose.HTML per Java con esempi passo‑passo.
+
+### [Imposta le dimensioni della pagina PDF in Java – Guida completa HTML a PDF](./set-pdf-page-size-in-java-complete-html-to-pdf-guide/)
+Imposta le dimensioni della pagina PDF durante la conversione da HTML a PDF in Java con Aspose.HTML.
+
 ## Domande frequenti
 
 **Q: Posso usare Aspose.HTML for Java in un'applicazione commerciale?**  
