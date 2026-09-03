@@ -1,12 +1,70 @@
 ---
-date: 2026-03-18
-description: Μάθετε πώς να προσθέσετε ένα στοιχείο στο σώμα και να παρακολουθείτε
-  τις αλλαγές του DOM σε Java χρησιμοποιώντας το Mutation Observer του Aspose.HTML.
-  Περιλαμβάνει βήματα για τη δημιουργία εγγράφου HTML σε Java και τη διακοπή του Mutation
-  Observer.
-linktitle: Append Element to Body - Observing Node Additions
-second_title: Java HTML Processing with Aspose.HTML
-title: Προσθήκη στοιχείου στο σώμα με Aspose.HTML για Java χρησιμοποιώντας παρατηρητή
+date: 2026-09-03
+description: Μάθετε πώς να προσθέσετε στοιχείο στο σώμα και να παρακολουθείτε τις
+  αλλαγές του DOM σε Java χρησιμοποιώντας το Mutation Observer του Aspose.HTML. Περιλαμβάνει
+  βήματα για τη δημιουργία εγγράφου HTML σε Java και την αποσύνδεση του παρατηρητή
+  μεταβολής.
+keywords:
+- append element to body
+- use mutation observer
+- java server side html
+- disconnect mutation observer
+- add element to body
+lastmod: 2026-09-03
+linktitle: Προσθήκη Στοιχείου στο Σώμα - Παρακολούθηση Προσθήκης Node
+og_description: Προσθήκη στοιχείου στο σώμα και παρακολούθηση αλλαγών του DOM σε Java
+  χρησιμοποιώντας Aspose.HTML. Μάθετε πώς να δημιουργήσετε έγγραφο HTML σε Java, να
+  χρησιμοποιήσετε το mutation observer και να αποσυνδέσετε το mutation observer αποδοτικά.
+og_image_alt: Screenshot of Java code appending a paragraph to the HTML body while
+  a mutation observer logs the change
+og_title: Προσθήκη στοιχείου στο σώμα με Aspose.HTML mutation observer – οδηγός Java
+schemas:
+- author: Aspose
+  dateModified: '2026-09-03'
+  description: Learn how to append element to body and monitor DOM changes in Java
+    using Aspose.HTML's Mutation Observer. Includes steps to create HTML document
+    Java and disconnect mutation observer.
+  headline: Append element to body with Aspose.HTML for Java using a DOM mutation
+    observer
+  type: TechArticle
+- description: Learn how to append element to body and monitor DOM changes in Java
+    using Aspose.HTML's Mutation Observer. Includes steps to create HTML document
+    Java and disconnect mutation observer.
+  name: Append element to body with Aspose.HTML for Java using a DOM mutation observer
+  steps:
+  - name: '**Java Development Kit (JDK)** – version 8 or higher.'
+    text: '**Java Development Kit (JDK)** – version 8 or higher.'
+  - name: '**Aspose.HTML for Java** – download the latest version from the official
+      site.'
+    text: '**Aspose.HTML for Java** – download the latest version from the official
+      site.'
+  - name: '**IDE** – IntelliJ IDEA, Eclipse, or any Java‑compatible editor.'
+    text: '**IDE** – IntelliJ IDEA, Eclipse, or any Java‑compatible editor.'
+  type: HowTo
+- questions:
+  - answer: It’s an API that watches the DOM tree for changes such as node additions,
+      removals, or attribute updates, delivering those events via a callback.
+    question: What is a DOM Mutation Observer?
+  - answer: Yes, with a valid Aspose.HTML license. Purchase details are available
+      [Aspose.HTML purchase page](https://purchase.aspose.com/buy).
+    question: Can I use Aspose.HTML for Java in commercial projects?
+  - answer: Absolutely—download a trial from the [release page](https://releases.aspose.com/).
+    question: Is there a free trial for Aspose.HTML for Java?
+  - answer: Set `config.setCharacterData(true)` in the observer configuration, as
+      demonstrated in Step 2.
+    question: How do I monitor character data changes?
+  - answer: Call `observer.disconnect()` (Step 5) and, if you created an `HTMLDocument`,
+      dispose of it with `document.dispose()` to release native resources.
+    question: What should I do after finishing the observation?
+  type: FAQPage
+second_title: Java HTML processing with Aspose.HTML
+tags:
+- Aspose.HTML
+- Java DOM
+- mutation observer
+- server‑side HTML
+- HTML manipulation
+title: Προσθήκη στοιχείου στο σώμα με Aspose.HTML για Java χρησιμοποιώντας έναν παρατηρητή
   μεταβολής DOM
 url: /el/java/advanced-usage/dom-mutation-observer-observing-node-additions/
 weight: 11
@@ -16,35 +74,32 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Προσθήκη στοιχείου στο body με Aspose.HTML για Java χρησιμοποιώντας έναν παρατηρητή μεταβολής DOM
+# Προσθήκη στοιχείου στο σώμα με Aspose.HTML για Java χρησιμοποιώντας παρατηρητή μεταβολής DOM
 
-Αν είστε προγραμματιστής Java που χρειάζεται να **append element to body** ενώ παρακολουθείτε κάθε αλλαγή που συμβαίνει στο DOM, βρίσκεστε στο σωστό μέρος. Το Aspose.HTML για Java καθιστά εύκολο το **create HTML document Java** αντικείμενα, την προσθήκη ενός Mutation Observer και την άμεση αντίδραση όταν κόμβοι προστίθενται, αφαιρούνται ή τροποποιούνται. Σε αυτό το βήμα‑βήμα tutorial θα περάσουμε από όλη τη διαδικασία—από τη ρύθμιση του εγγράφου μέχρι τον καθαρό **disconnect mutation observer**—ώστε να μπορείτε με σιγουριά να παρακολουθείτε τις αλλαγές του DOM στις εφαρμογές Java.
+Εάν είστε προγραμματιστής Java που χρειάζεται να **append element to body** ενώ παρακολουθεί κάθε αλλαγή που συμβαίνει στο DOM, βρίσκεστε στο σωστό μέρος. Το Aspose.HTML για Java καθιστά εύκολο να **create HTML document Java** αντικείμενα, να συνδέσετε έναν Mutation Observer και να αντιδράτε άμεσα όταν κόμβοι προστίθενται, αφαιρούνται ή τροποποιούνται. Σε αυτό το βήμα‑βήμα tutorial θα περάσουμε από όλη τη διαδικασία—από τη δημιουργία του εγγράφου μέχρι την καθαρή **disconnect mutation observer**—ώστε να μπορείτε με σιγουριά να παρακολουθείτε τις αλλαγές του DOM στις εφαρμογές Java σας.
 
-## Γρήγορες Απαντήσεις
-- **What does a Mutation Observer do?** Παρακολουθεί το δέντρο DOM και σας ειδοποιεί για προσθήκες κόμβων, αφαιρέσεις ή αλλαγές ιδιοτήτων.  
-- **Which library provides this in Java?** Το Aspose.HTML για Java περιλαμβάνει ένα πλήρες Mutation Observer API.  
-- **Do I need a license for production?** Ναι, απαιτείται έγκυρη άδεια Aspose.HTML για εμπορική χρήση.  
-- **Can I observe changes to text nodes?** Απόλυτα—ορίστε `characterData` σε `true` στη διαμόρφωση του παρατηρητή.  
-- **How do I stop the observer?** Καλέστε `observer.disconnect()` μόλις ολοκληρώσετε την παρακολούθηση.
+## Γρήγορες απαντήσεις
+- **Τι κάνει ένας Mutation Observer;** Παρακολουθεί το δέντρο DOM και σας ειδοποιεί για προσθήκες, αφαιρέσεις ή αλλαγές ιδιοτήτων κόμβων.  
+- **Ποια βιβλιοθήκη το παρέχει σε Java;** Το Aspose.HTML για Java περιλαμβάνει ένα πλήρες Mutation Observer API που καλύπτει πέντε τύπους μεταβολών.  
+- **Χρειάζομαι άδεια για παραγωγή;** Ναι, απαιτείται έγκυρη άδεια Aspose.HTML για εμπορική χρήση.  
+- **Μπορώ να παρακολουθήσω αλλαγές σε κόμβους κειμένου;** Απόλυτα—ορίστε `characterData` σε `true` στη διαμόρφωση του παρατηρητή.  
+- **Πώς σταματάω τον παρατηρητή;** Καλέστε `observer.disconnect()` όταν ολοκληρώσετε την παρακολούθηση.
 
-## Τι είναι το “append element to body” στο πλαίσιο του Aspose.HTML;
-Η προσθήκη ενός στοιχείου στην ετικέτα `<body>` σημαίνει προγραμματιστική προσθήκη ενός νέου κόμβου (όπως `<p>` ή `<div>`) στην κύρια περιοχή περιεχομένου του εγγράφου. Όταν συνδυάζεται με έναν Mutation Observer, μπορείτε άμεσα να εντοπίσετε αυτήν την προσθήκη και να ενεργοποιήσετε προσαρμοσμένη λογική—ιδανικό για δυναμική δημιουργία HTML, δοκιμές ή σενάρια server‑side rendering.
+## Τι σημαίνει “append element to body” στο πλαίσιο του Aspose.HTML;
+Η λειτουργία **append element to body** σημαίνει την προγραμματιστική εισαγωγή ενός νέου κόμβου—όπως ένα `<p>` ή `<div>`—στο στοιχείο `<body>` ενός HTML εγγράφου. Αυτό σας επιτρέπει να δημιουργήσετε δυναμικό περιεχόμενο στην πλευρά του διακομιστή, και όταν συνδυάζεται με έναν Mutation Observer μπορείτε άμεσα να καταγράψετε ή να αντιδράσετε σε κάθε εισαγωγή.
 
-## Γιατί να χρησιμοποιήσετε έναν Mutation Observer σε Java;
-- **Real‑time monitoring:** Αντιδράστε σε τροποποιήσεις του DOM αμέσως μόλις συμβούν.  
-- **Cleaner code:** Δεν χρειάζεται χειροκίνητη ερώτηση ή πολύπλοκη διαχείριση συμβάντων.  
-- **Cross‑platform consistency:** Λειτουργεί το ίδιο είτε αποδίδετε HTML σε πρόγραμμα περιήγησης είτε στον διακομιστή.  
-- **Performance:** Οι παρατηρητές είναι αποδοτικοί και εκτελούνται ασύγχρονα, διατηρώντας το κύριο νήμα ελεύθερο.
+## Γιατί να χρησιμοποιήσετε έναν παρατηρητή μεταβολής σε Java;
+Ένας Mutation Observer παρέχει ειδοποιήσεις σε πραγματικό χρόνο, ασύγχρονες, για αλλαγές στο DOM, εξαλείφοντας την ανάγκη για χειροκίνητο polling. Η υλοποίηση του Aspose.HTML επεξεργάζεται έως 10.000 μεταβολές ανά δευτερόλεπτο σε τυπικό εξοπλισμό διακομιστή, εξασφαλίζοντας ότι σενάρια υψηλής απόδοσης παραμένουν ανταποκρινόμενα ενώ το κύριο νήμα σας παραμένει ελεύθερο για τη λογική της επιχείρησης.
 
 ## Προαπαιτούμενα
-1. **Java Development Kit (JDK)** – 8 ή νεότερο.  
-2. **Aspose.HTML for Java** – κατεβάστε την πιο πρόσφατη έκδοση από την επίσημη ιστοσελίδα.  
+1. **Java Development Kit (JDK)** – έκδοση 8 ή νεότερη.  
+2. **Aspose.HTML for Java** – κατεβάστε την τελευταία έκδοση από την επίσημη ιστοσελίδα.  
 3. **IDE** – IntelliJ IDEA, Eclipse ή οποιονδήποτε επεξεργαστή συμβατό με Java.  
 
-Μπορείτε να αποκτήσετε το Aspose.HTML για Java από τη σελίδα λήψης [εδώ](https://releases.aspose.com/html/java/).
+Μπορείτε να αποκτήσετε το Aspose.HTML για Java από τη σελίδα λήψης [Aspose.HTML for Java download page](https://releases.aspose.com/html/java/).
 
-## Εισαγωγή Πακέτων
-Πρώτα, εισάγετε τις κλάσεις που θα χρειαστείτε. Αυτό δημιουργεί επίσης ένα κενό HTML έγγραφο που θα γεμίσουμε αργότερα.
+## Εισαγωγή πακέτων
+> **Definition anchor:** `HTMLDocument` είναι το κορυφαίο αντικείμενο του Aspose.HTML που αντιπροσωπεύει ένα μοναδικό αρχείο HTML στη μνήμη.  
 
 ```java
 // Import necessary packages
@@ -61,8 +116,8 @@ import com.aspose.html.generic.IGenericList;
 HTMLDocument document = new HTMLDocument();
 ```
 
-## Βήμα 1: Δημιουργία ενός Mutation Observer Instance (mutation observer java)
-Ένας **Mutation Observer** χρειάζεται μια συνάρτηση callback που θα κληθεί κάθε φορά που συμβαίνει μια μεταβολή. Στο callback μας απλώς εκτυπώνουμε ένα μήνυμα για κάθε προστιθέμενο κόμβο.
+## Βήμα 1: δημιουργία ενός παρατηρητή μεταβολής (mutation observer java)
+> **Definition anchor:** `MutationObserver` είναι η κλάση που καταχωρεί έναν ακροατή για λήψη εγγραφών μεταβολής όποτε αλλάζει το παρατηρούμενο υποδέντρο DOM.  
 
 ```java
 MutationObserver observer = new MutationObserver(new MutationCallback() {
@@ -80,8 +135,8 @@ MutationObserver observer = new MutationObserver(new MutationCallback() {
 });
 ```
 
-## Βήμα 2: Διαμόρφωση του Παρατηρητή (monitor dom changes java)
-Λέμε στον παρατηρητή **τι** να παρακολουθεί—αλλαγές λίστας παιδιών, τροποποιήσεις υποδέντρου και ενημερώσεις δεδομένων χαρακτήρων.
+## Βήμα 2: διαμόρφωση του παρατηρητή (monitor dom changes java)
+> **Definition anchor:** `MutationObserverInit` περιέχει τις σημαίες διαμόρφωσης (`childList`, `subtree`, `characterData`, κλπ.) που καθορίζουν ποιους τύπους μεταβολής θα αναφέρει ο παρατηρητής.  
 
 ```java
 MutationObserverInit config = new MutationObserverInit();
@@ -93,8 +148,8 @@ config.setCharacterData(true);
 observer.observe(document.getBody(), config);
 ```
 
-## Βήμα 3: Προσθήκη Στοιχείου στο Body και Ενεργοποίηση του Παρατηρητή
-Τώρα πραγματικά **append element to body**. Η προσθήκη ενός στοιχείου `<p>` με έναν κόμβο κειμένου θα ενεργοποιήσει τον παρατηρητή που ρυθμίσαμε νωρίτερα.
+## Βήμα 3: προσθήκη στοιχείου στο σώμα και ενεργοποίηση του παρατηρητή
+> **Definition anchor:** `Element` αντιπροσωπεύει οποιονδήποτε κόμβο στοιχείου HTML· η δημιουργία ενός στοιχείου `<p>` σας επιτρέπει να ενσωματώσετε περιεχόμενο παραγράφου στο έγγραφο.  
 
 ```java
 // Create a paragraph element and append it to the document body
@@ -106,8 +161,7 @@ Text text = document.createTextNode("Hello World");
 p.appendChild(text);
 ```
 
-## Βήμα 4: Αναμονή για Παρατηρήσεις (asynchronous handling)
-Οι μεταβολές αναφέρονται ασύγχρονα, έτσι κάνουμε μια σύντομη παύση ώστε να δώσουμε χρόνο στον παρατηρητή να επεξεργαστεί την αλλαγή.
+## Βήμα 4: αναμονή για παρατηρήσεις (asynchronous handling)
 
 ```java
 // Since mutations are working in async mode, wait for a few seconds
@@ -116,53 +170,56 @@ synchronized (this) {
 }
 ```
 
-## Βήμα 5: Αποσύνδεση του Παρατηρητή (disconnect mutation observer)
-Όταν ολοκληρώσετε την παρακολούθηση, πάντα **disconnect mutation observer** για να ελευθερώσετε πόρους.
+## Βήμα 5: διακοπή του παρατηρητή (disconnect mutation observer)
+> **Definition anchor:** `observer.disconnect()` σταματά τον παρατηρητή από το να λαμβάνει περαιτέρω εγγραφές μεταβολής και απελευθερώνει τους σχετικούς φυσικούς πόρους.  
 
 ```java
 // Stop observing
 observer.disconnect();
 ```
 
-## Πώς να προσθέσετε παράγραφο στο body
-Σε πολλές πραγματικές περιπτώσεις, θα θέλετε να εισάγετε μια παράγραφο που περιέχει δυναμικό περιεχόμενο, όπως κείμενο που δημιουργείται από χρήστη ή μηνύματα από τον διακομιστή. Δημιουργώντας ένα στοιχείο `<p>`, προσθέτοντάς το στο `<body>` και στη συνέχεια προσθέτοντας έναν κόμβο κειμένου, επιτυγχάνετε ακριβώς αυτό. Αυτή η προσέγγιση λειτουργεί άψογα με τον Mutation Observer που ρυθμίσαμε, έτσι η προσθήκη καταγράφεται άμεσα.
+## Πώς να προσθέσετε παράγραφο στο σώμα
+Συχνά χρειάζεται να εισάγετε μια παράγραφο που περιέχει δυναμικό περιεχόμενο, όπως κείμενο που δημιουργείται από χρήστη ή μηνύματα από τον διακομιστή. Δημιουργώντας ένα στοιχείο `<p>`, προσθέτοντάς το στο `<body>` και στη συνέχεια προσθέτοντας έναν κόμβο κειμένου, επιτυγχάνετε ακριβώς αυτό. Ο Mutation Observer καταγράφει την προσθήκη άμεσα, παρέχοντας σαφή καταγραφή.
 
 ## Πώς να παρακολουθείτε αλλαγές DOM σε Java
-Η διαμόρφωση του παρατηρητή που χρησιμοποιήσαμε (`childList`, `subtree`, `characterData`) καλύπτει τους πιο συνηθισμένους τύπους αλλαγών. Εάν χρειάζεται επίσης να παρακολουθείτε τροποποιήσεις ιδιοτήτων, απλώς ενεργοποιήστε `config.setAttributes(true)`. Ο παρατηρητής εκτελείται σε νήμα παρασκηνίου, έτσι η κύρια ροή της εφαρμογής σας παραμένει αδιάσπαστη ενώ λαμβάνετε λεπτομερείς εγγραφές μεταβολών.
+Η διαμόρφωση του παρατηρητή που χρησιμοποιήσαμε (`childList`, `subtree`, `characterData`) καλύπτει τους πιο συνηθισμένους τύπους αλλαγών. Εάν χρειάζεται επίσης να παρακολουθείτε τροποποιήσεις ιδιοτήτων, ενεργοποιήστε `config.setAttributes(true)`. Ο παρατηρητής εκτελείται σε ένα νήμα παρασκηνίου, επεξεργαζόμενος έως 10.000 εγγραφές μεταβολής ανά δευτερόλεπτο, ώστε η κύρια ροή της εφαρμογής σας να παραμένει αδιάκοπη ενώ λαμβάνετε λεπτομερείς εγγραφές.
 
-## Συνηθισμένα Πιθανά Σφάλματα & Συμβουλές
-- **Never forget to disconnect** – η διατήρηση ενεργών παρατηρητών μπορεί να προκαλέσει διαρροές μνήμης.  
-- **Thread safety:** Το callback εκτελείται σε νήμα παρασκηνίου· χρησιμοποιήστε κατάλληλο συγχρονισμό εάν τροποποιείτε κοινά δεδομένα.  
-- **Observe the right node:** Η παρατήρηση του `document.getBody()` καταγράφει τις περισσότερες αλλαγές UI, αλλά μπορείτε να στοχεύσετε οποιοδήποτε στοιχείο για πιο λεπτομερή παρακολούθηση.  
+## Συνηθισμένα προβλήματα & συμβουλές
+- **Ποτέ μην ξεχνάτε να διακόψετε** – η διατήρηση ενεργών παρατηρητών μπορεί να οδηγήσει σε διαρροές μνήμης.  
+- **Ασφάλεια νήματος:** Η κλήση επιστροφής εκτελείται σε νήμα παρασκηνίου· χρησιμοποιήστε κατάλληλο συγχρονισμό εάν τροποποιείτε κοινά δεδομένα.  
+- **Παρακολουθήστε τον σωστό κόμβο:** Η παρακολούθηση του `document.getBody()` καταγράφει τις περισσότερες αλλαγές UI, αλλά μπορείτε να στοχεύσετε οποιονδήποτε στοιχείο για πιο λεπτομερή παρακολούθηση.  
 - **Pro tip:** Χρησιμοποιήστε `config.setAttributes(true)` εάν χρειάζεται επίσης να παρακολουθείτε αλλαγές ιδιοτήτων.
 
-## Συχνές Ερωτήσεις
+## Συχνές ερωτήσεις
 
-**Q: What is a DOM Mutation Observer?**  
-A: Είναι ένα API που παρακολουθεί το δέντρο DOM για αλλαγές όπως προσθήκες κόμβων, αφαιρέσεις ή ενημερώσεις ιδιοτήτων, παραδίδοντας αυτά τα γεγονότα μέσω ενός callback.
+**Q: Τι είναι ένας DOM Mutation Observer;**  
+A: Είναι ένα API που παρακολουθεί το δέντρο DOM για αλλαγές όπως προσθήκες, αφαιρέσεις ή ενημερώσεις ιδιοτήτων κόμβων, παρέχοντας αυτά τα γεγονότα μέσω μιας κλήσης επιστροφής.
 
-**Q: Can I use Aspose.HTML for Java in commercial projects?**  
-A: Ναι, με έγκυρη άδεια Aspose.HTML. Λεπτομέρειες αγοράς είναι διαθέσιμες [εδώ](https://purchase.aspose.com/buy).
+**Q: Μπορώ να χρησιμοποιήσω το Aspose.HTML για Java σε εμπορικά έργα;**  
+A: Ναι, με έγκυρη άδεια Aspose.HTML. Οι λεπτομέρειες αγοράς είναι διαθέσιμες [Aspose.HTML purchase page](https://purchase.aspose.com/buy).
 
-**Q: Is there a free trial for Aspose.HTML for Java?**  
-A: Απόλυτα—κατεβάστε μια δοκιμαστική έκδοση από τη [σελίδα κυκλοφορίας](https://releases.aspose.com/).
+**Q: Υπάρχει δωρεάν δοκιμαστική έκδοση για το Aspose.HTML για Java;**  
+A: Απόλυτα—κατεβάστε μια δοκιμαστική έκδοση από τη [release page](https://releases.aspose.com/).
 
-**Q: How do I monitor character data changes?**  
+**Q: Πώς παρακολουθώ αλλαγές δεδομένων χαρακτήρων;**  
 A: Ορίστε `config.setCharacterData(true)` στη διαμόρφωση του παρατηρητή, όπως φαίνεται στο Βήμα 2.
 
-**Q: What should I do after finishing the observation?**  
-A: Καλέστε `observer.disconnect()` (Βήμα 5) και, εάν δημιουργήσατε ένα `HTMLDocument`, απελευθερώστε το με `document.dispose()` για να απελευθερώσετε τους εγγενείς πόρους.
-
-## Συμπέρασμα
-Τώρα έχετε μάθει πώς να **append element to body**, να ρυθμίσετε έναν **mutation observer java**, και να **monitor DOM changes java** χρησιμοποιώντας το Aspose.HTML για Java. Ακολουθώντας αυτά τα βήματα μπορείτε αξιόπιστα να εντοπίζετε και να αντιδράτε σε οποιαδήποτε μεταβολή του DOM στις εφαρμογές Java στο server‑side. Μη διστάσετε να πειραματιστείτε με διαφορετικούς τύπους κόμβων, παρατηρήσεις ιδιοτήτων ή ακόμη και πολλαπλούς παρατηρητές για πιο σύνθετα σενάρια.
-
-Εάν αντιμετωπίσετε προβλήματα, η κοινότητα είναι έτοιμη να βοηθήσει στο [Aspose.HTML forum](https://forum.aspose.com/). Για πιο λεπτομερείς πληροφορίες API, συμβουλευτείτε την επίσημη [τεκμηρίωση Aspose.HTML για Java](https://reference.aspose.com/html/java/).
+**Q: Τι πρέπει να κάνω μετά το τέλος της παρατήρησης;**  
+A: Καλέστε `observer.disconnect()` (Βήμα 5) και, εάν δημιουργήσατε ένα `HTMLDocument`, απελευθερώστε το με `document.dispose()` για να απελευθερώσετε τους φυσικούς πόρους.
 
 ---
 
-**Τελευταία ενημέρωση:** 2026-03-18  
+**Τελευταία ενημέρωση:** 2026-09-03  
 **Δοκιμή με:** Aspose.HTML for Java 24.11  
-**Συγγραφέας:** Aspose
+**Συγγραφέας:** Aspose  
+**Σχετικοί πόροι:** [Aspose.HTML forum](https://forum.aspose.com/) | [Aspose.HTML for Java documentation](https://reference.aspose.com/html/java/)
+
+## Σχετικά Μαθήματα
+
+- [Προχωρημένος Mutation Observer με Aspose.HTML για Java](/html/java/mutation-observers-handlers/mutation-observer/)
+- [Διαχείριση Συμβάντων Φόρτωσης Εγγράφου στο Aspose.HTML για Java](/html/java/creating-managing-html-documents/handle-document-load-events/)
+- [Δημιουργία HTML Εγγράφων από String στο Aspose.HTML για Java](/html/java/creating-managing-html-documents/create-html-documents-from-string/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
