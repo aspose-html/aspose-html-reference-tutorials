@@ -82,6 +82,9 @@ weight: 21
 ### [Convert HTML Canvas to PDF with Aspose.HTML for Java](./canvas-to-pdf/)
 تعلم كيفية تحويل HTML Canvas إلى PDF باستخدام Aspose.HTML للـ Java في هذا الدليل خطوة بخطوة.
 
+### [كيفية تحويل SVG إلى PDF/A‑2b باستخدام Java – دليل كامل](./how-to-convert-svg-to-pdf-a-2b-with-java-complete-guide/)
+دليل شامل لتحويل ملفات SVG إلى PDF/A‑2b باستخدام Aspose.HTML للـ Java.
+
 ## الأسئلة المتكررة
 
 **س: هل يمكنني استخدام هذه الطريقة في تطبيق Spring Boot؟**  

@@ -37,8 +37,12 @@ Bạn đã sẵn sàng để bắt đầu chưa? Hướng dẫn Aspose.HTML cho 
 Aspose.HTML for .NET không chỉ là một thư viện; mà còn là một công cụ thay đổi cuộc chơi trong thế giới phát triển web. Nó cung cấp một loạt các tính năng và công cụ giúp đơn giản hóa các tác vụ liên quan đến HTML của bạn. Đến cuối các hướng dẫn này, bạn sẽ được trang bị kiến thức và kỹ năng để tối đa hóa tiềm năng của Aspose.HTML for .NET.
 
 ## Hướng dẫn về phần mở rộng và chuyển đổi HTML
+
+
 ### [Chuyển đổi HTML sang PDF trong .NET với Aspose.HTML](./convert-html-to-pdf/)
 Chuyển đổi HTML sang PDF dễ dàng với Aspose.HTML cho .NET. Làm theo hướng dẫn từng bước của chúng tôi và giải phóng sức mạnh của việc chuyển đổi HTML sang PDF.
+### [Tạo PDF từ URL – Hướng dẫn C# đầy đủ](./create-pdf-from-url-complete-c-guide/)
+Hướng dẫn chi tiết cách tạo PDF từ URL bằng C# và Aspose.HTML, bao gồm các bước cấu hình và ví dụ mã nguồn.
 ### [Chuyển đổi EPUB sang hình ảnh trong .NET với Aspose.HTML](./convert-epub-to-image/)
 Tìm hiểu cách chuyển đổi EPUB sang hình ảnh bằng Aspose.HTML cho .NET. Hướng dẫn từng bước với các ví dụ về mã và tùy chọn có thể tùy chỉnh.
 ### [Chuyển đổi EPUB sang PDF trong .NET với Aspose.HTML](./convert-epub-to-pdf/)
@@ -63,6 +67,28 @@ Khám phá cách sử dụng Aspose.HTML cho .NET để thao tác và chuyển �
 Tìm hiểu cách chuyển đổi HTML sang TIFF bằng Aspose.HTML cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để tối ưu hóa nội dung web hiệu quả.
 ### [Chuyển đổi HTML sang XPS trong .NET với Aspose.HTML](./convert-html-to-xps/)
 Khám phá sức mạnh của Aspose.HTML cho .NET: Chuyển đổi HTML sang XPS dễ dàng. Bao gồm các điều kiện tiên quyết, hướng dẫn từng bước và Câu hỏi thường gặp.
+### [Cách Nén HTML thành Zip trong C# – Lưu HTML vào Zip](./how-to-zip-html-in-c-save-html-to-zip/)
+Hướng dẫn chi tiết cách nén HTML thành tệp Zip bằng C# và Aspose.HTML, kèm ví dụ mã và các tùy chọn cấu hình.
+### [Tạo tài liệu HTML với văn bản có kiểu dáng và xuất ra PDF – Hướng dẫn đầy đủ](./create-html-document-with-styled-text-and-export-to-pdf-full/)
+Hướng dẫn chi tiết cách tạo tài liệu HTML có văn bản định dạng và xuất ra PDF bằng Aspose.HTML cho .NET.
+### [Tạo PDF từ HTML – Hướng dẫn từng bước C#](./create-pdf-from-html-c-step-by-step-guide/)
+Tạo PDF từ HTML trong .NET bằng C#. Hướng dẫn chi tiết từng bước để chuyển đổi HTML sang PDF nhanh chóng.
+### [Lưu HTML dưới dạng ZIP – Hướng dẫn C# hoàn chỉnh](./save-html-as-zip-complete-c-tutorial/)
+Hướng dẫn chi tiết cách lưu tài liệu HTML thành tệp ZIP bằng Aspose.HTML cho .NET với C#.
+### [Lưu HTML thành ZIP trong C# – Ví dụ Toàn bộ trong Bộ nhớ](./save-html-to-zip-in-c-complete-in-memory-example/)
+Hướng dẫn lưu tài liệu HTML vào tệp ZIP trong C# bằng Aspose.HTML, sử dụng bộ nhớ tạm và không tạo file tạm trên đĩa.
+### [Xử lý tài nguyên tùy chỉnh trong C# – Hướng dẫn chuyển đổi HTML sang ZIP](./custom-resource-handler-in-c-convert-html-to-zip-tutorial/)
+Hướng dẫn chi tiết cách sử dụng Custom Resource Handler trong C# để chuyển đổi HTML thành tệp ZIP bằng Aspose.HTML.
+### [Chuyển đổi HTML sang PDF với Aspose.HTML – Hướng dẫn chi tiết từng bước](./convert-html-to-pdf-with-aspose-html-full-step-by-step-guide/)
+Chuyển đổi HTML sang PDF nhanh chóng với Aspose.HTML cho .NET. Hướng dẫn chi tiết từng bước giúp bạn thực hiện dễ dàng.
+### [Tạo tệp zip C# – Hướng dẫn từng bước để nén HTML trong bộ nhớ](./create-zip-file-c-step-by-step-guide-to-zip-html-in-memory/)
+Hướng dẫn chi tiết cách tạo file zip trong C# để nén HTML trực tiếp trong bộ nhớ.
+### [Chuyển đổi HTML sang ZIP trong C# – Hướng dẫn toàn diện](./convert-html-to-zip-in-c-complete-guide/)
+Hướng dẫn chi tiết cách chuyển đổi tài liệu HTML thành file ZIP trong C# bằng Aspose.HTML, bao gồm các bước và tùy chọn cấu hình.
+### [Cách Nén HTML trong C# – Hướng Dẫn Chi Tiết Từng Bước](./how-to-zip-html-in-c-complete-step-by-step-guide/)
+Hướng dẫn chi tiết cách nén tệp HTML thành file ZIP trong C# bằng Aspose.HTML, bao gồm các bước và ví dụ mã.
+### [Tạo PDF từ HTML trong C# – Hướng Dẫn Chi Tiết Từng Bước](./create-pdf-from-html-in-c-complete-step-by-step-guide/)
+Hướng dẫn chi tiết cách tạo PDF từ HTML trong C# bằng Aspose.HTML, bao gồm các bước và ví dụ mã.
 
 ## Phần kết luận
 

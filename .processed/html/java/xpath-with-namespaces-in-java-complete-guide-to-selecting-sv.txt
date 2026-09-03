@@ -1,0 +1,7 @@
+Title: XPath with Namespaces in Java – Complete Guide to Selecting SVG Elements
+Slug: xpath-with-namespaces-in-java-complete-guide-to-selecting-sv
+Category: advanced-usage
+ProcessedDate: 2026-06-19T23:02:39.486942
+SourceRepo: AI Search API
+Keywords: xpath with namespaces, java xpath namespace, how to select svg, load html document, extract svg paths
+PRNumber: 187

@@ -1,0 +1,7 @@
+Title: Set span innerHTML in C# with Aspose.HTML – Complete Guide
+Slug: set-span-innerhtml-in-c-with-aspose-html-complete-guide
+Category: html-document-manipulation
+ProcessedDate: 2026-06-07T10:17:02.644636
+SourceRepo: AI Search API
+Keywords: set span innerhtml, add span element, make text bold italic, append element to body, how to style text
+PRNumber: 174

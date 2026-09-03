@@ -1,0 +1,7 @@
+Title: How to Enable Antialiasing When Rendering HTML to PNG – Complete Guide
+Slug: how-to-enable-antialiasing-when-rendering-html-to-png-comple
+Category: rendering-html-documents
+ProcessedDate: 2026-06-26T06:35:56.122006
+SourceRepo: AI Search API
+Keywords: how to enable antialiasing, render html to png, render html image, improve text clarity, set font style
+PRNumber: 191

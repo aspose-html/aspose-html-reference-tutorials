@@ -42,16 +42,43 @@ Nu u Aspose.HTML voor .NET hebt ingesteld, is het tijd om de tutorials te verken
 
 ### [HTML als PNG renderen in .NET met Aspose.HTML](./render-html-as-png/)
 Leer werken met Aspose.HTML voor .NET: HTML manipuleren, converteren naar verschillende formaten en meer. Duik in deze uitgebreide tutorial!
+### [HTML renderen naar PNG in C# – Complete stapsgewijze gids](./render-html-to-png-in-c-complete-step-by-step-guide/)
+Leer hoe u HTML naar PNG kunt renderen in C# met Aspose.HTML. Volg deze volledige, stap‑voor‑stap gids voor optimale resultaten.
+
+### [HTML als PNG renderen – Complete C#-gids](./how-to-render-html-as-png-complete-c-guide/)
+Leer stap voor stap hoe u HTML naar PNG converteert met C# en Aspose.HTML in deze volledige gids.
+### [HTML renderen naar PNG – Complete C#-gids](./how-to-render-html-to-png-complete-c-guide/)
+Leer hoe u HTML naar PNG kunt renderen met een volledige C#-handleiding in Aspose.HTML voor .NET.
 ### [EPUB renderen als XPS in .NET met Aspose.HTML](./render-epub-as-xps/)
 Leer hoe u HTML-documenten kunt maken en renderen met Aspose.HTML voor .NET in deze uitgebreide tutorial. Duik in de wereld van HTML-manipulatie, webscraping en meer.
+
 ### [Rendering Timeout in .NET met Aspose.HTML](./rendering-timeout/)
-Leer hoe u renderingtime-outs effectief kunt beheren in Aspose.HTML voor .NET. Verken renderingopties en zorg voor soepele rendering van HTML-documenten.
+Leer hoe u renderingtime‑outs effectief kunt beheren in Aspose.HTML voor .NET. Verken renderingopties en zorg voor soepele rendering van HTML-documenten.
 ### [MHTML renderen als XPS in .NET met Aspose.HTML](./render-mhtml-as-xps/)
  Leer MHTML als XPS renderen in .NET met Aspose.HTML. Verbeter uw HTML-manipulatievaardigheden en geef uw webontwikkelingsprojecten een boost!
+
 ### [Render meerdere documenten in .NET met Aspose.HTML](./render-multiple-documents/)
 Leer hoe u meerdere HTML-documenten kunt renderen met Aspose.HTML voor .NET. Verbeter uw documentverwerkingsmogelijkheden met deze krachtige bibliotheek.
+
 ### [SVG-document renderen als PNG in .NET met Aspose.HTML](./render-svg-doc-as-png/)
 Ontgrendel de kracht van Aspose.HTML voor .NET! Leer hoe u moeiteloos SVG Doc als PNG kunt renderen. Duik in stapsgewijze voorbeelden en FAQ's. Ga nu aan de slag!
+### [HTML renderen in C# – Complete gids voor het stylen van alinea's](./how-to-render-html-in-c-complete-guide-to-styling-paragraphs/)
+Leer hoe u HTML kunt renderen in C# en alinea's kunt stylen met Aspose.HTML. Volg deze volledige gids voor stap‑voor‑stap voorbeelden.
+### [HTML renderen – Complete gids met aangepaste resourcehandler](./how-to-render-html-complete-guide-with-custom-resource-handl/)
+Leer hoe u HTML kunt renderen met een aangepaste resourcehandler in Aspose.HTML voor .NET.
+### [HTML renderen naar PNG – Complete stap‑voor‑stap gids](./how-to-render-html-to-png-complete-step-by-step-guide/)
+Leer hoe u HTML naar PNG kunt renderen met Aspose.HTML voor .NET in een volledige stap‑voor‑stap handleiding.
+### [Hoe Aspose te gebruiken voor het renderen van HTML naar PNG – Stapsgewijze gids](./how-to-use-aspose-to-render-html-to-png-step-by-step-guide/)
+Leer hoe u met Aspose.HTML HTML naar PNG kunt renderen met een duidelijke stap‑voor‑stap handleiding.
+### [Hoe HTML te renderen naar PNG met Aspose – Complete gids](./how-to-render-html-to-png-with-aspose-complete-guide/)
+Leer stap voor stap hoe u HTML naar PNG converteert met Aspose.HTML in deze volledige gids.
+### [PNG maken vanuit HTML – Volledige C# Renderinggids](./create-png-from-html-full-c-rendering-guide/)
+Leer hoe u met Aspose.HTML voor .NET HTML naar PNG converteert met een volledige C#-renderinggids.
+### [HTML naar PNG renderen – Stapsgewijze handleiding](./how-to-render-html-to-png-step-by-step-guide/)
+Leer hoe u HTML naar PNG kunt renderen met Aspose.HTML voor .NET in deze stap‑voor‑stap tutorial!
+### [HTML naar PNG renderen in C# – Stapsgewijze handleiding](./how-to-render-html-to-png-in-c-step-by-step-guide/)
+Leer hoe u HTML naar PNG kunt renderen in C# met Aspose.HTML voor .NET in deze stap‑voor‑stap tutorial!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,61 +1,87 @@
 ---
-title: تحديد موفر البث المخصص لتحويل EPUB إلى PDF
-linktitle: تحديد موفر البث المخصص لتحويل EPUB إلى PDF
-second_title: معالجة HTML باستخدام Java مع Aspose.HTML
-description: تعرف على كيفية تحويل EPUB إلى PDF في Java بسهولة باستخدام Aspose.HTML، مما يعزز قدرات معالجة المستندات لديك.
-weight: 11
+date: 2026-03-26
+description: تعلم كيفية تحويل ملفات EPUB إلى PDF باستخدام Aspose.HTML في جافا، واكتشف
+  طريقة تحويل EPUB، وتحويل الكتاب الإلكتروني إلى PDF باستخدام جافا، وحفظ PDF من التدفق
+  في بضع خطوات.
+linktitle: Specifying Custom Stream Provider for EPUB to PDF
+second_title: Java HTML Processing with Aspose.HTML
+title: جافا EPUB إلى PDF – تحديد موفر تدفق مخصص
 url: /ar/java/converting-epub-to-pdf/convert-epub-to-pdf-specify-custom-stream-provider/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# تحديد موفر البث المخصص لتحويل EPUB إلى PDF
+# Java EPUB إلى PDF – تحديد موفر تدفق مخصص
 
+هل أنت مطور Java تبحث عن **java epub to pdf** بسلاسة وكفاءة؟ إذاً، لقد وجدت المكان المناسب. في هذا الدليل خطوة بخطوة، سنستعرض كيفية *how to convert epub* ملفات إلى PDF باستخدام Aspose.HTML، مكتبة Java قوية. لا تحتاج إلى أي خبرة سابقة—سنقسم كل خطوة إلى أجزاء سهلة المتابعة. لنبدأ ونرى كيف يمكنك **java convert ebook pdf** مع **save pdf from stream** باستخدام موفر تدفق مخصص!
 
-هل أنت مطور جافا تبحث عن تحويل ملفات EPUB إلى PDF بسلاسة وكفاءة؟ إذا كان الأمر كذلك، فقد وصلت إلى المكان الصحيح. في هذا الدليل خطوة بخطوة، سنستكشف كيفية تحقيق ذلك باستخدام Aspose.HTML، وهي مكتبة Java قوية. ليست هناك حاجة إلى خبرة سابقة، حيث سنقسم العملية إلى خطوات سهلة المتابعة. لذا، دعنا نتعمق في تحويل ملفات EPUB إلى PDF بسهولة!
+## إجابات سريعة
+- **ما المكتبة المستخدمة؟** Aspose.HTML for Java  
+- **هل يمكنني تحويل EPUB دون الكتابة إلى القرص؟** نعم – باستخدام `MemoryStreamProvider` يتم بث النتيجة مباشرة في الذاكرة  
+- **هل أحتاج إلى ترخيص للإنتاج؟** يتطلب ترخيص Aspose.HTML صالح للاستخدام التجاري  
+- **ما نسخة Java المدعومة؟** Java 8 وما بعدها (JDK 8+)  
+- **هل الكود متعدد المنصات؟** يعمل على Windows و Linux و macOS  
 
-## المتطلبات الأساسية
+## ما هو java epub to pdf؟
+تحويل كتاب EPUB إلى مستند PDF في Java يتيح لك تجميع محتوى غني وقابل لإعادة التدفق إلى تنسيق ثابت يسهل مشاركته أو طباعته أو أرشفته. تتولى Aspose.HTML الجزء الأكبر من العمل، مع الحفاظ على التخطيط والصور والتنسيق مع منحك التحكم الكامل في تدفق الإخراج.
 
-قبل أن نبدأ رحلتنا لتحويل EPUB إلى PDF باستخدام Aspose.HTML، هناك بعض المتطلبات الأساسية التي يجب وضعها في الاعتبار:
+## لماذا تستخدم موفر تدفق مخصص؟
+موفر تدفق مخصص، مثل `MemoryStreamProvider`، يتيح لك الحفاظ على التحويل بالكامل في الذاكرة. هذا النهج:
+- يقلل من عبء I/O بتجنب الملفات المؤقتة  
+- يحسن الأداء لخدمات الويب أو وظائف السحابة  
+- يوفر لك المرونة لتخزين PDF في قاعدة بيانات، أو إرساله عبر HTTP، أو معالجته أكثر قبل الحفظ  
 
-### 1. بيئة تطوير جافا
+## لماذا هذا مهم
+عند معالجة عدد كبير من الكتب الإلكترونية—مثلاً في خط إنتاج النشر أو خدمة تحويل سحابية—كل مللي ثانية تُوفرها تتراكم. من خلال تجنب كتابة الملفات على القرص، تلغي أيضًا مشاكل الأذونات في البيئات ذات القراءة فقط وتجعل الكود أكثر أمانًا عند النشر في حاويات.
 
- للعمل مع Aspose.HTML في Java، تحتاج إلى بيئة تطوير Java وظيفية. تأكد من تثبيت Java Development Kit (JDK) على نظامك. يمكنك تنزيله من[موقع أوراكل](https://www.oracle.com/java/technologies/javase-downloads.html).
+## حالات الاستخدام الشائعة
+- **تحويل فوري** لتطبيقات القراءة الإلكترونية التي تحتاج إلى PDFs للطباعة.  
+- **معالجة دفعات** في خطوط CI/CD حيث التخزين المؤقت محدود.  
+- **وظائف بدون خادم** (AWS Lambda، Azure Functions) حيث بيئة التنفيذ لا تحتفظ بالحالة ومساحة القرص نادرة.
+
+## المتطلبات المسبقة
+
+قبل أن نبدأ رحلتنا في تحويل EPUB إلى PDF باستخدام Aspose.HTML، هناك بعض المتطلبات المسبقة التي يجب مراعاتها:
+
+### 1. بيئة تطوير Java
+
+للعمل مع Aspose.HTML في Java، تحتاج إلى بيئة تطوير Java وظيفية. تأكد من تثبيت مجموعة تطوير Java (JDK) على نظامك. يمكنك تنزيلها من [Oracle's website](https://www.oracle.com/java/technologies/javase-downloads.html).
 
 ### 2. مكتبة Aspose.HTML
 
- يجب عليك الحصول على مكتبة Aspose.HTML للغة Java. يمكنك تنزيلها من موقع Aspose على الويب[صفحة التحميل](https://releases.aspose.com/html/java/).
+يجب عليك الحصول على مكتبة Aspose.HTML لـ Java. يمكنك تنزيلها من [صفحة التحميل](https://releases.aspose.com/html/java/) على موقع Aspose.
 
-### 3. ملف EPUB نموذجي
+### 3. ملف EPUB تجريبي
 
-بالنسبة لهذا البرنامج التعليمي، ستحتاج إلى ملف EPUB نموذجي تريد تحويله إلى PDF. إذا لم يكن لديك ملف EPUB نموذجي، فيمكنك العثور على ملفات EPUB نموذجية على مواقع ويب مختلفة أو إنشاء ملف بنفسك.
+لهذا الدرس، ستحتاج إلى ملف EPUB تجريبي تريد تحويله إلى PDF. إذا لم يكن لديك واحد، يمكنك العثور على ملفات EPUB تجريبية على مواقع مختلفة أو إنشاء واحد بنفسك.
 
-الآن بعد أن أصبح لدينا المتطلبات الأساسية بالترتيب، دعنا ننتقل إلى الخطوات المطلوبة لتحويل ملف EPUB إلى PDF باستخدام Aspose.HTML.
+الآن بعد أن رتبنا المتطلبات المسبقة، دعنا ننتقل إلى خطوات التحويل الفعلية.
 
-## افتح ملف EPUB
+## فتح ملف EPUB
 
 ```java
-// افتح ملف EPUB الموجود للقراءة.
+// Open an existing EPUB file for reading.
 try (java.io.FileInputStream fileInputStream = new java.io.FileInputStream(Resources.input("input.epub"))) {
 ```
 
- في الخطوة الأولى، يمكنك فتح ملف EPUB باستخدام`FileInputStream` تأكد من توفير المسار الصحيح لملف EPUB الخاص بك بدلاً من`"input.epub"`.
+في الخطوة الأولى، تقوم بفتح ملف EPUB باستخدام `FileInputStream`. تأكد من توفير المسار الصحيح لملف EPUB الخاص بك بدلاً من `"input.epub"`.
 
 ## إنشاء MemoryStreamProvider
 
 ```java
-// إنشاء مثيل لـ MemoryStreamProvider
+// Create an instance of MemoryStreamProvider
 try (MemoryStreamProvider streamProvider = new MemoryStreamProvider()) {
 ```
 
- هنا، يمكنك إنشاء مثيل لـ`MemoryStreamProvider` والتي سيتم استخدامها للتعامل مع عملية التحويل.
+هنا، تقوم بإنشاء نسخة من `MemoryStreamProvider` التي ستُستخدم لمعالجة عملية التحويل.
 
 ## تحويل EPUB إلى PDF
 
 ```java
-// تحويل EPUB إلى PDF باستخدام MemoryStreamProvider
+// Convert EPUB to PDF by using the MemoryStreamProvider
 com.aspose.html.converters.Converter.convertEPUB(
     fileInputStream,
     new com.aspose.html.saving.PdfSaveOptions(),
@@ -63,21 +89,21 @@ com.aspose.html.converters.Converter.convertEPUB(
 );
 ```
 
- تتضمن هذه الخطوة تحويل ملف EPUB إلى PDF باستخدام Aspose.HTML`Converter` الصف والتحديد`PdfSaveOptions` سيتم توجيه الإخراج إلى`streamProvider`.
+تتضمن هذه الخطوة تحويل ملف EPUB إلى PDF باستخدام فئة `Converter` من Aspose.HTML وتحديد `PdfSaveOptions`. سيتم توجيه الناتج إلى `streamProvider`.
 
 ## الوصول إلى النتيجة
 
 ```java
-// احصل على إمكانية الوصول إلى مجرى الذاكرة الذي يحتوي على البيانات الناتجة
+// Get access to the memory stream that contains the resulted data
 java.io.InputStream inputStream = streamProvider.lStream.stream().findFirst().get();
 ```
 
-في هذه الخطوة، يمكنك الوصول إلى مجرى الذاكرة الذي يحتوي على البيانات المحولة، مما يجعلها جاهزة للإخراج النهائي.
+في هذه الخطوة، تصل إلى تدفق الذاكرة الذي يحتوي على البيانات المحولة، مما يجعله جاهزًا للإخراج النهائي.
 
-## احفظ ملف PDF
+## حفظ PDF
 
 ```java
-// قم بمسح بيانات النتيجة إلى ملف الإخراج
+// Flush the result data to the output file
 try (java.io.FileOutputStream fileOutputStream = new java.io.FileOutputStream(Resources.output("output.pdf"))) {
     byte[] buffer = new byte[inputStream.available()];
     inputStream.read(buffer);
@@ -85,26 +111,24 @@ try (java.io.FileOutputStream fileOutputStream = new java.io.FileOutputStream(Re
 }
 ```
 
- أخيرًا، يمكنك حفظ ملف PDF عن طريق تفريغ بيانات النتيجة في ملف الإخراج. تأكد من تحديد المسار الصحيح لملف PDF الناتج بدلاً من`"output.pdf"`.
-
-باستخدام هذه الخطوات الخمس البسيطة، يمكنك تحويل ملفات EPUB بكفاءة إلى PDF باستخدام Aspose.HTML في Java. تعمل هذه العملية على تعزيز قدرات معالجة المستندات لديك وتفتح إمكانيات جديدة لإدارة مستنداتك الرقمية دون عناء.
+أخيرًا، تقوم بحفظ PDF عن طريق تفريغ بيانات النتيجة إلى ملف الإخراج. تأكد من تحديد المسار الصحيح لملف PDF الناتج بدلاً من `"output.pdf"`.
 
 ## الكود المصدر الكامل
 ```java
 Specifying Custom Stream Provider for EPUB to PDF
-        // افتح ملف EPUB الموجود للقراءة.
+        // Open an existing EPUB file for reading.
         try (java.io.FileInputStream fileInputStream = new java.io.FileInputStream(Resources.input("input.epub"))) {
-            // إنشاء مثيل لـ MemoryStreamProvider
+            // Create an instance of MemoryStreamProvider
             try (MemoryStreamProvider streamProvider = new MemoryStreamProvider()) {
-                // تحويل EPUB إلى PDF باستخدام MemoryStreamProvider
+                // Convert EPUB to PDF by using the MemoryStreamProvider
                 com.aspose.html.converters.Converter.convertEPUB(
                         fileInputStream,
                         new com.aspose.html.saving.PdfSaveOptions(),
                         streamProvider.lStream
                 );
-                // احصل على إمكانية الوصول إلى مجرى الذاكرة الذي يحتوي على البيانات الناتجة
+                // Get access to the memory stream that contains the resulted data
                 java.io.InputStream inputStream = streamProvider.lStream.stream().findFirst().get();
-                // قم بمسح بيانات النتيجة إلى ملف الإخراج
+                // Flush the result data to the output file
                 try (java.io.FileOutputStream fileOutputStream = new java.io.FileOutputStream(Resources.output("output.pdf"))) {
                     byte[] buffer = new byte[inputStream.available()];
                     inputStream.read(buffer);
@@ -114,39 +138,47 @@ Specifying Custom Stream Provider for EPUB to PDF
         }
 ```
 
-## خاتمة
+## المشكلات الشائعة والحلول
 
-في هذا البرنامج التعليمي، قمنا بإرشادك خلال عملية تحويل EPUB إلى PDF في Java باستخدام Aspose.HTML. باستخدام المتطلبات الأساسية الصحيحة ودليلنا خطوة بخطوة، يمكنك دمج هذه الوظيفة بسلاسة في تطبيقات Java الخاصة بك، مما يجعل تحويل المستندات أمرًا سهلاً.
+| المشكلة | السبب | الحل |
+|-------|-------|-----|
+| `java.io.FileNotFoundException` | مسار خاطئ لـ `input.epub` أو `output.pdf` | تحقق من مسارات الملفات الممررة إلى `Resources.input` / `Resources.output`. |
+| `OutOfMemoryError` on large EPUBs | تدفق الذاكرة يحتفظ بملف PDF كامل في الذاكرة | قم بمعالجة EPUB على دفعات أو زيادة حجم ذاكرة JVM (`-Xmx`). |
+| Blank PDF output | عدم وجود إعدادات `PdfSaveOptions` | تأكد من تمرير `new com.aspose.html.saving.PdfSaveOptions()` وأن المكتبة مرخصة بشكل صحيح. |
 
-يبسط Aspose.HTML مهام معالجة المستندات، وهذا البرنامج التعليمي هو مجرد غيض من فيض. استكشف وثائق Aspose.HTML للحصول على المزيد من الميزات والإمكانيات.
+## نصائح استكشاف الأخطاء وإصلاحها
+- **تحقق من الترخيص مبكرًا** – قد ينتج عن نسخة غير مرخصة من Aspose.HTML ملفات PDF منخفضة الدقة أو علامات مائية.  
+- **تحقق من سلامة EPUB** – قد تتسبب ملفات EPUB التالفة في فشل التحويل؛ استخدم أداة تحقق من EPUB إذا واجهت أخطاء غير متوقعة.  
+- **راقب استخدام الذاكرة** – عند تحويل كتب كبيرة جدًا، فكر في بث ملف EPUB المدخل أيضًا، أو زيادة تخصيص ذاكرة JVM.  
 
- إذا كان لديك أي أسئلة أو تحتاج إلى مساعدة، فلا تتردد في زيارة[منتدى Aspose.HTML](https://forum.aspose.com/) للحصول على الدعم والتوجيه.
+## الأسئلة المتكررة
 
-الآن، قم بالمضي قدمًا وتعزيز قدرات معالجة المستندات لديك باستخدام Aspose.HTML في Java!
+**س: هل Aspose.HTML متوافق مع أنظمة تشغيل مختلفة؟**  
+ج: نعم، Aspose.HTML يعمل على Windows و Linux و macOS، لذا يمكنك استخدام نفس الكود عبر المنصات.
 
-## الأسئلة الشائعة
+**س: هل يمكنني تحويل ملفات EPUB ذات التنسيق المعقد إلى PDF باستخدام Aspose.HTML؟**  
+ج: بالتأكيد. Aspose.HTML يحافظ على التخطيطات المعقدة، وتنسيق CSS، والصور المدمجة، ويقدم ملفات PDF عالية الجودة.
 
-### 1. هل Aspose.HTML متوافق مع أنظمة التشغيل المختلفة؟
+**س: هل هناك خيارات ترخيص متاحة لـ Aspose.HTML؟**  
+ج: نعم، Aspose.HTML يقدم نماذج ترخيص مختلفة، بما في ذلك تراخيص مؤقتة للتقييم. راجع [صفحة شراء Aspose](https://purchase.aspose.com/buy) أو اطلب [ترخيصًا مؤقتًا](https://purchase.aspose.com/temporary-license/).
 
-يعد Aspose.HTML متوافقًا مع أنظمة التشغيل المختلفة، بما في ذلك Windows وLinux وmacOS، مما يجعله متعدد الاستخدامات لتلبية احتياجات التطوير الخاصة بك.
+**س: أين يمكنني العثور على المزيد من الوثائق أو الأمثلة؟**  
+ج: الوثائق الشاملة متاحة على [صفحة الوثائق](https://reference.aspose.com/html/java/).
 
-### 2. هل يمكنني تحويل ملفات EPUB ذات التنسيق المعقد إلى PDF باستخدام Aspose.HTML؟
+**س: ما هي صيغ المستندات الأخرى التي يدعمها Aspose.HTML؟**  
+ج: بالإضافة إلى EPUB و PDF، يدعم Aspose.HTML صيغ HTML و XHTML و MHTML والعديد من الصيغ المتعلقة بالويب.
 
-نعم، Aspose.HTML مجهز للتعامل مع ملفات EPUB ذات التنسيق المعقد، مما يضمن إخراج PDF عالي الجودة.
+## الخلاصة
 
-### 3. هل هناك أي خيارات ترخيص متاحة لـ Aspose.HTML؟
+في هذا الدرس، استعرضنا كيفية **java epub to pdf** باستخدام `MemoryStreamProvider` مخصص. باتباع الخطوات أعلاه، يمكنك دمج تحويل EPUB إلى PDF في أي تطبيق Java، والحفاظ على العملية في الذاكرة، وتجنب عمليات I/O غير الضرورية على القرص. استكشف المزيد من الميزات في وثائق Aspose.HTML لتوسيع سير عمل معالجة المستندات الخاص بك.
 
- نعم، يوفر Aspose.HTML خيارات ترخيص متنوعة، بما في ذلك التراخيص المؤقتة. يمكنك العثور على مزيد من التفاصيل على[صفحة شراء Aspose](https://purchase.aspose.com/buy) أو اطلب[رخصة مؤقتة](https://purchase.aspose.com/temporary-license/).
+إذا كان لديك أي أسئلة أو تحتاج إلى مساعدة، لا تتردد في زيارة [منتدى Aspose.HTML](https://forum.aspose.com/) للحصول على الدعم والإرشاد.
 
-### 4. هل يوفر Aspose.HTML توثيقًا للحصول على مزيد من المساعدة؟
+---
 
- بالتأكيد! يمكنك العثور على وثائق وموارد شاملة لـ Aspose.HTML على موقعهم[صفحة التوثيق](https://reference.aspose.com/html/java/).
-
-### 5. ما هي تنسيقات المستندات الأخرى التي يمكن لـ Aspose.HTML التعامل معها؟
-
-يدعم Aspose.HTML مجموعة واسعة من تنسيقات المستندات، بما في ذلك HTML وXHTML وMHTML والمزيد، مما يسمح لك بالعمل مع مجموعة متنوعة من أنواع المستندات الرقمية.
-
-قم بتعزيز قدرات معالجة المستندات لديك باستخدام Aspose.HTML وقم بتبسيط مهام تحويل المستندات الخاصة بك اليوم!
+**آخر تحديث:** 2026-03-26  
+**تم الاختبار مع:** Aspose.HTML for Java 24.11 (latest at time of writing)  
+**المؤلف:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
