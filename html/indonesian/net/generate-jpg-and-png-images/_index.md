@@ -48,6 +48,8 @@ Pelajari cara mengonversi dokumen Word menjadi gambar PNG menggunakan Aspose.HTM
 Pelajari cara mengonversi dokumen Word menjadi gambar menggunakan Aspose.HTML untuk .NET dalam panduan lengkap bagi pengembang.
 ### [Tutorial HTML ke Gambar – Render HTML ke PNG dalam C#](./html-to-image-tutorial-render-html-to-png-in-c/)
 Pelajari cara merender HTML menjadi gambar PNG menggunakan Aspose.HTML untuk .NET dengan C#. Ikuti tutorial langkah demi langkah untuk hasil optimal.
+### [Buat PNG dari HTML – Panduan Lengkap C# dengan Aspose.HTML](./create-png-from-html-full-c-guide-with-aspose-html/)
+Pelajari cara mengonversi HTML menjadi gambar PNG menggunakan C# dengan Aspose.HTML dalam panduan langkah demi langkah.
 
 ### [Cara Mengaktifkan Antialiasing Saat Mengonversi DOCX ke PNG/JPG](./how-to-enable-antialiasing-when-converting-docx-to-png-jpg/)
 Pelajari cara mengaktifkan antialiasing untuk meningkatkan kualitas gambar PNG atau JPG saat mengonversi dokumen DOCX menggunakan Aspose.HTML.

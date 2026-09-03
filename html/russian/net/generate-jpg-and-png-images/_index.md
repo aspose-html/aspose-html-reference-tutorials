@@ -48,6 +48,8 @@ Aspose.HTML для .NET предлагает простой метод прео�
 Узнайте, как преобразовать документы Word в изображения с помощью Aspose.HTML для .NET на C#. Подробное пошаговое руководство.
 ### [Учебник по преобразованию HTML в изображение – рендеринг HTML в PNG на C#](./html-to-image-tutorial-render-html-to-png-in-c/)
 Узнайте, как с помощью Aspose.HTML преобразовать HTML в PNG в приложениях C#.
+### [Создание PNG из HTML – Полное руководство C# с Aspose.HTML](./create-png-from-html-full-c-guide-with-aspose-html/)
+Полное руководство по созданию PNG из HTML с использованием C# и Aspose.HTML, включая примеры кода и настройки.
 
 ### [Создание PNG из HTML с Aspose.HTML – Полное руководство](./create-png-from-html-with-aspose-html-complete-guide/)
 Подробное руководство по созданию PNG‑изображений из HTML‑кода с помощью Aspose.HTML для .NET.
