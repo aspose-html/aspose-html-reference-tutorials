@@ -65,9 +65,12 @@ Naučte se, jak pomocí Aspose.HTML v C# převést HTML na obrázek pomocí podr
 Naučte se převést soubory DOCX na PNG v C# pomocí podrobného krok‑za‑krokového návodu.
 ### [Vykreslení HTML do PNG v C# – krok za krokem](./render-html-to-png-in-c-step-by-step-guide/)
 Naučte se, jak pomocí Aspose.HTML for .NET převést HTML na PNG v jazyce C# pomocí podrobných kroků.
+### [Jak vytvořit obrázek z HTML pomocí Aspose.HTML v C#](./how-to-create-image-from-html-using-aspose-html-in-c/)
+Naučte se, jak pomocí Aspose.HTML v C# převést HTML na obrázek.
+
 ## Závěr
 
-Na závěr, Aspose.HTML for .NET poskytuje uživatelsky přívětivé a výkonné řešení pro generování obrázků JPG a PNG z obsahu HTML. Ať už jste zkušený vývojář nebo teprve začínáte, tyto výukové programy vás provedou celým procesem. Vytvářejte vizuálně přitažlivé obrázky, které vynikají a pozvednou vaše projekty pomocí Aspose.HTML for .NET.
+Na závěr, Aspose.HTML for .NET poskytuje uživatelsky přívětivé a výkonné řešení pro generování obrázků JPG a PNG z obsahu HTML. Ať už jste zkušený vývojář nebo teprve začínáte, tyto výukové programy vás provedou celým procesem. Vytvářejte vizuálně přitažlivé obrázky, které vynikají a pozvednou vaše projekty pomocí Aspose.HTML pro .NET.
 
 Tak proč čekat? Začněte objevovat svět HTML na konverzi obrázků s Aspose.HTML pro .NET ještě dnes. Odemkněte nové možnosti a udělejte své webové a desktopové aplikace ještě poutavější a vizuálně přitažlivější. Šťastné kódování!
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -65,6 +65,9 @@ Aspose.HTML for .NET هي مكتبة قوية تتيح للمطورين إنشا
 تعلم كيفية تحويل ملفات docx إلى صور PNG باستخدام C# ومكتبة Aspose.HTML خطوة بخطوة.
 ### [تحويل HTML إلى PNG في C# – دليل خطوة بخطوة](./render-html-to-png-in-c-step-by-step-guide/)
 تعلم كيفية تحويل صفحات HTML إلى صور PNG باستخدام C# ومكتبة Aspose.HTML خطوة بخطوة.
+### [كيفية إنشاء صورة من HTML باستخدام Aspose.HTML في C#](./how-to-create-image-from-html-using-aspose-html-in-c/)
+تعلم خطوة بخطوة كيفية تحويل ملفات HTML إلى صورة باستخدام C# ومكتبة Aspose.HTML.
+
 ## خاتمة
 
 في الختام، يوفر Aspose.HTML for .NET حلاً سهل الاستخدام وقويًا لإنشاء صور JPG وPNG من محتوى HTML. سواء كنت مطورًا متمرسًا أو مبتدئًا، فسترشدك هذه البرامج التعليمية خلال العملية. أنشئ صورًا جذابة بصريًا تبرز وترفع من مستوى مشاريعك باستخدام Aspose.HTML for .NET.
