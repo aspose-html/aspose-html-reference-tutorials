@@ -68,12 +68,10 @@ Apprenez à générer du HTML à partir de code JavaScript en Java avec ce guide
 Apprenez à créer et à gérer des documents SVG à l'aide d'Aspose.HTML pour Java ! Ce guide complet couvre tout, de la création de base à la manipulation avancée.
 ### [Créer un bac à sable pour HTML en Java – Guide étape par étape](./create-sandbox-for-html-in-java-step-by-step-guide/)
 Apprenez à créer un environnement sécurisé pour manipuler du HTML en Java avec Aspose.HTML, guide complet pas à pas.
-### [Comment interroger le HTML en Java – Tutoriel complet](./how-to-query-html-in-java-complete-tutorial/)
-Apprenez à interroger et extraire des données HTML en Java avec Aspose.HTML grâce à ce guide complet étape par étape.
-### [Comment analyser le HTML en Java – Charger, interroger et compter les éléments](./how-to-parse-html-java-load-query-count-elements/)
-Apprenez à charger, interroger et compter les éléments HTML en Java avec Aspose.HTML grâce à ce guide complet.
-### [Exécuter du JavaScript asynchrone en Java – Guide complet étape par étape](./execute-async-javascript-in-java-complete-step-by-step-guide/)
-Apprenez à exécuter du JavaScript de façon asynchrone dans vos applications Java avec Aspose.HTML, guide complet pas à pas.
+### [Comment convertir un modèle en HTML avec un moteur de modèles Java](./how-to-convert-template-to-html-with-a-java-template-engine/)
+Apprenez à transformer un template en HTML en Java avec un moteur de templates, guide étape par étape.
+### [Lier des données à un tableau HTML dynamique avec colonnes prénom et nom de famille](./how-to-bind-data-to-a-dynamic-html-table-with-first-and-last/)
+Apprenez à lier des données à un tableau HTML dynamique contenant des colonnes prénom et nom en Java avec Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

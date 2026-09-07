@@ -70,7 +70,8 @@ Aspose.HTML для Java предлагает мощный набор инстр�
 ### [Создание песочницы для HTML в Aspose.HTML для Java – пошаговое руководство](./create-sandbox-for-html-in-java-step-by-step-guide/)
 ### [Как выполнять запросы к HTML в Java – полное руководство](./how-to-query-html-in-java-complete-tutorial/)
 ### [Выполнение асинхронного JavaScript в Java – Полное пошаговое руководство](./execute-async-javascript-in-java-complete-step-by-step-guide/)
-Узнайте, как выполнять асинхронный JavaScript в Java с помощью Aspose.HTML, следуя подробному пошаговому руководству.
+### [Как преобразовать шаблон в HTML с помощью Java‑шаблонизатора](./how-to-convert-template-to-html-with-a-java-template-engine/)
+### [Как привязать данные к динамической HTML-таблице с колонками имени и фамилии](./how-to-bind-data-to-a-dynamic-html-table-with-first-and-last/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -60,6 +60,8 @@ Leer hoe u HTML-documenten van strings maakt in Aspose.HTML voor Java met deze s
 Ontdek hoe u eenvoudig HTML-documenten kunt laden vanaf een URL in Java met Aspose.HTML. Inclusief stapsgewijze tutorial.
 ### [Genereer nieuwe HTML-documenten met Aspose.HTML voor Java](./generate-new-html-documents/)
 Leer hoe u nieuwe HTML-documenten maakt met Aspose.HTML voor Java met deze eenvoudige stapsgewijze handleiding. Begin met het genereren van dynamische HTML-inhoud.
+### [Hoe een sjabloon omzetten naar HTML met een Java‑template‑engine](./how-to-convert-template-to-html-with-a-java-template-engine/)
+Leer stap‑voor‑stap hoe u met een Java‑template‑engine sjablonen omzet naar HTML met Aspose.HTML voor Java.
 ### [HTML genereren vanuit JavaScript in Java – Complete stapsgewijze handleiding](./generate-html-from-javascript-in-java-complete-step-by-step/)
 Leer hoe u HTML genereert vanuit JavaScript-code in Java met een volledige stap‑voor‑stap handleiding.
 ### [Documentlaadgebeurtenissen afhandelen in Aspose.HTML voor Java](./handle-document-load-events/)
@@ -74,6 +76,8 @@ Leer hoe u HTML kunt query'en in Java met deze volledige stap‑voor‑stap hand
 Leer hoe u HTML laadt, query't en elementen telt in Java met Aspose.HTML – stap‑voor‑stap handleiding.
 ### [Asynchroon JavaScript uitvoeren in Java – Complete stapsgewijze handleiding](./execute-async-javascript-in-java-complete-step-by-step-guide/)
 Leer hoe u asynchrone JavaScript-code in Java kunt uitvoeren met Aspose.HTML, inclusief stap‑voor‑stap instructies.
+### [Hoe gegevens binden aan een dynamische HTML-tabel met kolommen voor voor- en achternaam](./how-to-bind-data-to-a-dynamic-html-table-with-first-and-last/)
+Leer hoe u dynamisch een HTML-tabel vult met voor- en achternamen met Aspose.HTML voor Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

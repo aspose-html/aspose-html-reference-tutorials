@@ -60,6 +60,10 @@ Aspose.HTML for Java 為旨在在 Java 應用程式中無縫處理 HTML 文件�
 了解如何使用 Aspose.HTML 從 Java 中的 URL 輕鬆載入 HTML 文件。包括逐步教程。
 ### [使用 Aspose.HTML for Java 產生新的 HTML 文檔](./generate-new-html-documents/)
 透過這個簡單的逐步指南，了解如何使用 Aspose.HTML for Java 建立新的 HTML 文件。開始產生動態 HTML 內容。
+### [如何將資料繫結至具有名與姓欄位的動態 HTML 表格](./how-to-bind-data-to-a-dynamic-html-table-with-first-and-last/)
+學習如何在 Java 中使用 Aspose.HTML 將資料繫結至動態 HTML 表格的名與姓欄位。
+### [如何使用 Java 模板引擎將模板轉換為 HTML](./how-to-convert-template-to-html-with-a-java-template-engine/)
+學習使用 Java 模板引擎將現有模板轉換為 HTML，結合 Aspose.HTML for Java 進行後續處理與優化。
 ### [在 Java 中從 JavaScript 產生 HTML – 完整逐步指南](./generate-html-from-javascript-in-java-complete-step-by-step/)
 使用 Aspose.HTML for Java，從 JavaScript 生成 HTML，提供完整的逐步說明與範例，幫助您快速上手。
 ### [在 Aspose.HTML for Java 中處理文件載入事件](./handle-document-load-events/)

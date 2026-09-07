@@ -55,6 +55,8 @@ Tìm hiểu cách tải, thao tác và lưu tài liệu HTML bằng Aspose.HTML 
 Tìm hiểu cách tải tài liệu HTML từ luồng bằng Aspose.HTML cho Java. Hướng dẫn này cung cấp hướng dẫn từng bước để thao tác HTML liền mạch.
 ### [Tạo tài liệu HTML từ chuỗi trong Aspose.HTML cho Java](./create-html-documents-from-string/)
 Tìm hiểu cách tạo tài liệu HTML từ chuỗi trong Aspose.HTML cho Java với hướng dẫn từng bước này.
+### [Cách chuyển đổi mẫu thành HTML bằng công cụ mẫu Java](./how-to-convert-template-to-html-with-a-java-template-engine/)
+Hướng dẫn chi tiết cách sử dụng công cụ mẫu Java để chuyển đổi template thành tài liệu HTML trong Aspose.HTML cho Java.
 ### [Tải tài liệu HTML từ URL trong Aspose.HTML cho Java](./load-html-documents-from-url/)
 Khám phá cách dễ dàng tải tài liệu HTML từ URL trong Java bằng Aspose.HTML. Có kèm hướng dẫn từng bước.
 ### [Lặp qua NodeList trong Java – Đọc HTML và Lấy src ảnh](./iterate-nodelist-java-read-html-get-image-src/)
@@ -73,6 +75,7 @@ Khám phá cách truy vấn tài liệu HTML trong Java một cách chi tiết, 
 Tìm hiểu cách tải tài liệu HTML, truy vấn và đếm các phần tử trong Java bằng Aspose.HTML với hướng dẫn chi tiết.
 ### [Thực thi JavaScript bất đồng bộ trong Java – Hướng dẫn chi tiết từng bước](./execute-async-javascript-in-java-complete-step-by-step-guide/)
 Học cách thực thi JavaScript bất đồng bộ trong Java bằng Aspose.HTML với hướng dẫn chi tiết từng bước.
+### [Cách liên kết dữ liệu tới bảng HTML động với các cột Họ và Tên trong Aspose.HTML cho Java](./how-to-bind-data-to-a-dynamic-html-table-with-first-and-last/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

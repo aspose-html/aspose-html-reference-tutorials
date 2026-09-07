@@ -56,6 +56,8 @@ Pelajari cara memuat, memanipulasi, dan menyimpan dokumen HTML menggunakan Aspos
 Pelajari cara memuat dokumen HTML dari aliran menggunakan Aspose.HTML untuk Java. Panduan ini menyediakan tutorial langkah demi langkah untuk manipulasi HTML yang lancar.
 ### [Membuat Dokumen HTML dari String di Aspose.HTML untuk Java](./create-html-documents-from-string/)
 Pelajari cara membuat dokumen HTML dari string di Aspose.HTML untuk Java dengan panduan langkah demi langkah ini.
+### [Cara mengonversi template menjadi HTML dengan mesin template Java](./how-to-convert-template-to-html-with-a-java-template-engine/)
+Pelajari cara mengonversi template menjadi HTML menggunakan mesin template Java dengan panduan langkah demi langkah.
 ### [Memuat Dokumen HTML dari URL di Aspose.HTML untuk Java](./load-html-documents-from-url/)
 Temukan cara mudah memuat dokumen HTML dari URL di Java dengan Aspose.HTML. Tutorial langkah demi langkah disertakan.
 ### [Hasilkan Dokumen HTML Baru menggunakan Aspose.HTML untuk Java](./generate-new-html-documents/)
@@ -69,6 +71,7 @@ Pelajari cara membuat sandbox HTML di Java dengan panduan langkah demi langkah u
 ### [Cara Menanyakan HTML di Java – Tutorial Lengkap](./how-to-query-html-in-java-complete-tutorial/)
 ### [Cara Mengurai HTML di Java – Memuat, Menanyakan & Menghitung Elemen](./how-to-parse-html-java-load-query-count-elements/)
 ### [Jalankan JavaScript Asinkron di Java – Panduan Lengkap Langkah‑per‑Langkah](./execute-async-javascript-in-java-complete-step-by-step-guide/)
+### [Cara mengikat data ke tabel HTML dinamis dengan kolom nama depan dan belakang](./how-to-bind-data-to-a-dynamic-html-table-with-first-and-last/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

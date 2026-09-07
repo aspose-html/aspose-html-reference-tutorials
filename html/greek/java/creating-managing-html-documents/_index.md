@@ -75,6 +75,10 @@ url: /el/java/creating-managing-html-documents/
 Μάθετε πώς να φορτώνετε, ερωτάτε και μετράτε στοιχεία HTML σε Java με το Aspose.HTML, βήμα‑βήμα οδηγός.
 ### [Εκτέλεση ασύγχρονης JavaScript σε Java – Πλήρης οδηγός βήμα‑βήμα](./execute-async-javascript-in-java-complete-step-by-step-guide/)
 Μάθετε πώς να εκτελείτε κώδικα JavaScript ασύγχρονα σε εφαρμογές Java με το Aspose.HTML, βήμα‑βήμα οδηγίες.
+### [Πώς να μετατρέψετε πρότυπο σε HTML με μηχανή προτύπων Java](./how-to-convert-template-to-html-with-a-java-template-engine/)
+Μάθετε πώς να μετατρέπετε πρότυπα σε HTML χρησιμοποιώντας μια μηχανή προτύπων Java με το Aspose.HTML.
+### [Πώς να δεσμεύσετε δεδομένα σε έναν δυναμικό πίνακα HTML με στήλες ονόματος και επωνύμου](./how-to-bind-data-to-a-dynamic-html-table-with-first-and-last/)
+Μάθετε πώς να δεσμεύσετε δεδομένα σε έναν δυναμικό πίνακα HTML με στήλες πρώτου ονόματος και επωνύμου.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

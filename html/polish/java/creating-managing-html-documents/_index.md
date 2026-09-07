@@ -72,6 +72,10 @@ Dowiedz się, jak skonfigurować bezpieczną piaskownicę HTML w Javie, aby test
 Dowiedz się, jak efektywnie zapytać i przetwarzać dokumenty HTML w Javie przy użyciu Aspose.HTML.
 ### [Jak parsować HTML w Javie – ładowanie, zapytania i liczenie elementów](./how-to-parse-html-java-load-query-count-elements/)
 Dowiedz się, jak ładować dokumenty HTML, wykonywać zapytania i liczyć elementy przy użyciu Aspose.HTML dla Java.
+### [Jak przekonwertować szablon na HTML przy użyciu silnika szablonów Java](./how-to-convert-template-to-html-with-a-java-template-engine/)
+Dowiedz się, jak przy użyciu silnika szablonów Java przekształcić szablon w gotowy dokument HTML.
+### [Jak powiązać dane z dynamiczną tabelą HTML z kolumnami imienia i nazwiska](./how-to-bind-data-to-a-dynamic-html-table-with-first-and-last/)
+Dowiedz się, jak dynamicznie wypełnić tabelę HTML danymi, tworząc kolumny imienia i nazwiska.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

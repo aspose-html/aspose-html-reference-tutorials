@@ -57,6 +57,8 @@ Scopri come caricare documenti HTML da flussi usando Aspose.HTML per Java. Quest
 Scopri come creare documenti HTML da stringhe in Aspose.HTML per Java con questa guida dettagliata.
 ### [Crea sandbox per HTML in Java – Guida passo‑a‑passo](./create-sandbox-for-html-in-java-step-by-step-guide/)
 Impara a creare un ambiente sandbox per HTML in Java, garantendo sicurezza e isolamento durante lo sviluppo.
+### [Come convertire un modello in HTML con un motore di template Java](./how-to-convert-template-to-html-with-a-java-template-engine/)
+Scopri come trasformare template in HTML usando un motore di template Java con Aspose.HTML per Java.
 ### [Carica documenti HTML dall'URL in Aspose.HTML per Java](./load-html-documents-from-url/)
 Scopri come caricare facilmente documenti HTML da un URL in Java con Aspose.HTML. Tutorial passo passo incluso.
 ### [Iterare NodeList in Java – Leggi HTML e ottieni src immagine](./iterate-nodelist-java-read-html-get-image-src/)
@@ -73,6 +75,8 @@ Impara a eseguire query su documenti HTML in Java usando Aspose.HTML con questa 
 Impara a caricare, interrogare e contare gli elementi HTML in Java usando Aspose.HTML con questa guida passo‑passo.
 ### [Esegui JavaScript asincrono in Java – Guida completa passo‑a‑passo](./execute-async-javascript-in-java-complete-step-by-step-guide/)
 Scopri come eseguire JavaScript asincrono in Java usando Aspose.HTML. Guida passo‑passo con esempi pratici e consigli utili.
+### [Come collegare dati a una tabella HTML dinamica con colonne nome e cognome](./how-to-bind-data-to-a-dynamic-html-table-with-first-and-last/)
+Scopri come popolare una tabella HTML dinamica con dati di nome e cognome usando Aspose.HTML per Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
