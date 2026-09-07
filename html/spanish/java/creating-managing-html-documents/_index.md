@@ -70,8 +70,12 @@ Aprenda a crear nuevos documentos HTML con Aspose.HTML para Java con esta sencil
 Aprenda a gestionar eventos de carga de documentos en Aspose.HTML para Java con esta guía paso a paso. Mejore sus aplicaciones web.
 ### [Crear y administrar documentos SVG en Aspose.HTML para Java](./create-manage-svg-documents/)
 Aprenda a crear y gestionar documentos SVG con Aspose.HTML para Java. Esta guía completa cubre todo, desde la creación básica hasta la manipulación avanzada.
+### [Cómo enlazar datos a una tabla HTML dinámica con columnas de nombre y apellido](./how-to-bind-data-to-a-dynamic-html-table-with-first-and-last/)
+Aprenda a enlazar datos a una tabla HTML dinámica con columnas de nombre y apellido usando Aspose.HTML para Java.
 ### [Ejecutar JavaScript asíncrono en Java – Guía completa paso a paso](./execute-async-javascript-in-java-complete-step-by-step-guide/)
 Aprenda a ejecutar JavaScript asíncrono en Java con Aspose.HTML mediante una guía paso a paso completa.
+### [Cómo convertir una plantilla a HTML con un motor de plantillas Java](./how-to-convert-template-to-html-with-a-java-template-engine/)
+Aprenda a convertir plantillas a HTML usando un motor de plantillas Java con Aspose.HTML, guía paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

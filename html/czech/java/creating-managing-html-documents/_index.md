@@ -74,6 +74,8 @@ Naučte se vytvářet a spravovat dokumenty SVG pomocí Aspose.HTML pro Javu! Te
 Kompletní průvodce, jak v Javě dotazovat a získávat data z HTML pomocí Aspose.HTML, včetně příkladů a tipů.
 ### [Jak parsovat HTML v Javě – načíst, dotazovat a počítat prvky](./how-to-parse-html-java-load-query-count-elements/)
 Naučte se načíst HTML, dotazovat jej a počítat elementy v Javě pomocí Aspose.HTML v tomto podrobném průvodci.
+### [Jak převést šablonu na HTML pomocí Java šablonového enginu](./how-to-convert-template-to-html-with-a-java-template-engine/)
+### [Jak svázat data s dynamickou HTML tabulkou se sloupci jména a příjmení](./how-to-bind-data-to-a-dynamic-html-table-with-first-and-last/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

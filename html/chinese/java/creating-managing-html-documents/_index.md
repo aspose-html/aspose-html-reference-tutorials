@@ -62,6 +62,8 @@ Aspose.HTML for Java 为开发人员提供了功能强大的工具包，旨在�
 了解如何使用 Aspose.HTML 轻松地从 Java 中的 URL 加载 HTML 文档。内含分步教程。
 ### [使用 Aspose.HTML for Java 生成新的 HTML 文档](./generate-new-html-documents/)
 通过本简单的分步指南学习如何使用 Aspose.HTML for Java 创建新的 HTML 文档。开始生成动态 HTML 内容。
+### [如何将数据绑定到包含名和姓列的动态 HTML 表格](./how-to-bind-data-to-a-dynamic-html-table-with-first-and-last/)
+简要说明如何使用 Aspose.HTML for Java 将数据绑定到具有名和姓列的动态 HTML 表格。
 ### [在 Aspose.HTML for Java 中处理文档加载事件](./handle-document-load-events/)
 通过本分步指南学习如何在 Aspose.HTML for Java 中处理文档加载事件。增强您的 Web 应用程序。
 ### [在 Aspose.HTML for Java 中创建和管理 SVG 文档](./create-manage-svg-documents/)
@@ -71,6 +73,10 @@ Aspose.HTML for Java 为开发人员提供了功能强大的工具包，旨在�
 ### [如何在 Java 中解析 HTML – 加载、查询与计数元素](./how-to-parse-html-java-load-query-count-elements/)
 本教程详细讲解如何使用 Aspose.HTML for Java 加载 HTML、执行查询并统计元素数量，帮助您高效解析网页。
 ### [在 Aspose.HTML for Java 中创建 HTML 沙盒 – 步骤指南](./create-sandbox-for-html-in-java-step-by-step-guide/)
+### [如何使用 Java 模板引擎将模板转换为 HTML](./how-to-convert-template-to-html-with-a-java-template-engine/)
+学习如何使用 Java 模板引擎将模板渲染为 HTML，结合 Aspose.HTML 实现高效转换。
+### [在 Java 中从 HTML 提取文本 – 完整分步指南](./extract-text-from-html-with-java-complete-step-by-step-guide/)
+本完整分步指南教您使用 Aspose.HTML for Java 提取 HTML 文本，包括示例代码和最佳实践。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

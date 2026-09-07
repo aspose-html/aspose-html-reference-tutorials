@@ -77,6 +77,9 @@ Aprenda a criar um sandbox para HTML em Java usando Aspose.HTML com este guia pa
 Aprenda a analisar, consultar e contar elementos em documentos HTML usando Aspose.HTML para Java com este guia passo a passo.
 ### [Executar JavaScript assíncrono em Java – Guia completo passo a passo](./execute-async-javascript-in-java-complete-step-by-step-guide/)
 Aprenda a executar JavaScript assíncrono em Java usando Aspose.HTML com este guia passo a passo.
+### [Como converter modelo para HTML com um mecanismo de template Java](./how-to-convert-template-to-html-with-a-java-template-engine/)
+### [Como vincular dados a uma tabela HTML dinâmica com colunas de nome e sobrenome](./how-to-bind-data-to-a-dynamic-html-table-with-first-and-last/)
+Aprenda a vincular dados a uma tabela HTML dinâmica com colunas de nome e sobrenome usando Aspose.HTML para Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

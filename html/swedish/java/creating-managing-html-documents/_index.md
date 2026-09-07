@@ -55,12 +55,14 @@ Lär dig hur du laddar, manipulerar och sparar HTML-dokument med Aspose.HTML fö
 Lär dig hur du laddar HTML-dokument från strömmar med Aspose.HTML för Java. Den här guiden ger en steg-för-steg handledning för sömlös HTML-manipulation.
 ### [Skapa HTML-dokument från String i Aspose.HTML för Java](./create-html-documents-from-string/)
 Lär dig hur du skapar HTML-dokument från strängar i Aspose.HTML för Java med denna steg-för-steg-guide.
+### [Konvertera mall till HTML med en Java‑mallmotor i Aspose.HTML för Java](./how-to-convert-template-to-html-with-a-java-template-engine/)
+Lär dig att omvandla en mall till HTML med hjälp av en Java‑mallmotor i en steg‑för‑steg‑guide.
 ### [Ladda HTML-dokument från URL i Aspose.HTML för Java](./load-html-documents-from-url/)
 Upptäck hur du enkelt laddar HTML-dokument från en URL i Java med Aspose.HTML. Steg-för-steg handledning ingår.
 ### [Extrahera text från HTML med Java – Komplett steg‑för‑steg‑guide](./extract-text-from-html-with-java-complete-step-by-step-guide/)
 Lär dig hur du extraherar text från HTML-dokument i Java med en detaljerad steg‑för‑steg‑guide.
 ### [Hur du frågar HTML i Java – Komplett handledning](./how-to-query-html-in-java-complete-tutorial/)
-Lär dig hur du söker och extraherar data från HTML-dokument i Java med en komplett steg-för-steg-guide.
+Lär dig hur du söker och extraherar data från HTML-dokument i Java med en komplett steg‑för‑steg‑guide.
 ### [Hur man parsar HTML i Java – Ladda, fråga & räkna element](./how-to-parse-html-java-load-query-count-elements/)
 Lär dig hur du laddar, frågar och räknar HTML-element i Java med Aspose.HTML i denna steg-för-steg-guide.
 ### [Generera nya HTML-dokument med Aspose.HTML för Java](./generate-new-html-documents/)
@@ -75,6 +77,8 @@ Lär dig hur du kör asynkron JavaScript i Java med Aspose.HTML, komplett steg�
 Lär dig hur du skapar en säker sandlåda för HTML i Java med vår detaljerade steg‑för‑steg‑guide.
 ### [Iterera över NodeList i Java – Komplett guide](./iterate-over-nodelist-java-complete-guide/)
 Lär dig hur du itererar över NodeList i Java med en komplett steg‑för‑steg‑guide.
+### [Hur du binder data till en dynamisk HTML-tabell med kolumner för för- och efternamn](./how-to-bind-data-to-a-dynamic-html-table-with-first-and-last/)
+Lär dig att dynamiskt fylla en HTML-tabell med för- och efternamn från data i Java med Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

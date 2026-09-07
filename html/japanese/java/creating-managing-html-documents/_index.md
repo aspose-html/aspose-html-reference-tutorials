@@ -72,7 +72,11 @@ Java アプリで HTML のサンドボックス環境を構築し、安全にテ
 Java で HTML を検索・抽出する方法をステップバイステップで解説します。XPath や CSS セレクタの活用例を含む完全ガイドです。
 ### [Java で HTML を解析する方法 – ロード、クエリ、要素のカウント](./how-to-parse-html-java-load-query-count-elements/)
 ### [Java で非同期 JavaScript を実行する – 完全ステップバイステップガイド](./execute-async-javascript-in-java-complete-step-by-step-guide/)
-Java アプリケーションで非同期 JavaScript を実行し、動的な Web コンテンツを操作する方法をステップバイステップで学びます。
+### [Java テンプレートエンジンでテンプレートを HTML に変換する方法](./how-to-convert-template-to-html-with-a-java-template-engine/)
+Java のテンプレートエンジンを使用してテンプレートを HTML に変換する手順をステップバイステップで解説します。
+
+### [動的HTMLテーブルにデータをバインドする方法（姓と名の列）](./how-to-bind-data-to-a-dynamic-html-table-with-first-and-last/)
+このチュートリアルでは、Java で動的な HTML テーブルに姓と名の列を持つデータをバインドする手順をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

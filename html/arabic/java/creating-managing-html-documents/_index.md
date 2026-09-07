@@ -56,6 +56,8 @@ url: /ar/java/creating-managing-html-documents/
 تعرف على كيفية تحميل مستندات HTML من التدفقات باستخدام Aspose.HTML for Java. يوفر هذا الدليل برنامجًا تعليميًا خطوة بخطوة للتعامل بسلاسة مع HTML.
 ### [إنشاء مستندات HTML من سلسلة نصية في Aspose.HTML لـ Java](./create-html-documents-from-string/)
 تعرف على كيفية إنشاء مستندات HTML من السلاسل في Aspose.HTML لـ Java باستخدام هذا الدليل خطوة بخطوة.
+### [كيفية تحويل القالب إلى HTML باستخدام محرك قوالب Java](./how-to-convert-template-to-html-with-a-java-template-engine/)
+تعلم كيفية تحويل القوالب إلى مستندات HTML باستخدام محرك قوالب Java.
 ### [تحميل مستندات HTML من URL في Aspose.HTML لـ Java](./load-html-documents-from-url/)
 اكتشف كيفية تحميل مستندات HTML بسهولة من عنوان URL في Java باستخدام Aspose.HTML. يتضمن البرنامج التعليمي خطوة بخطوة.
 ### [إنشاء مستندات HTML جديدة باستخدام Aspose.HTML لـ Java](./generate-new-html-documents/)
@@ -64,14 +66,7 @@ url: /ar/java/creating-managing-html-documents/
 تعلم كيفية التعامل مع أحداث تحميل المستندات في Aspose.HTML for Java باستخدام هذا الدليل خطوة بخطوة. قم بتحسين تطبيقات الويب الخاصة بك.
 ### [إنشاء وإدارة مستندات SVG في Aspose.HTML لـ Java](./create-manage-svg-documents/)
 تعلم كيفية إنشاء مستندات SVG وإدارتها باستخدام Aspose.HTML لـ Java! يغطي هذا الدليل الشامل كل شيء بدءًا من الإنشاء الأساسي وحتى المعالجة المتقدمة.
-### [إنشاء بيئة تجريبية لـ HTML في Java – دليل خطوة بخطوة](./create-sandbox-for-html-in-java-step-by-step-guide/)
-تعلم كيفية إنشاء بيئة تجريبية لمعالجة HTML في Java باستخدام Aspose.HTML من خلال دليل خطوة بخطوة.
-### [كيفية الاستعلام عن HTML في Java – دليل كامل](./how-to-query-html-in-java-complete-tutorial/)
-تعلم كيفية استعلام ومعالجة مستندات HTML في Java باستخدام Aspose.HTML من خلال دليل شامل خطوة بخطوة.
-### [كيفية تحليل HTML في Java – التحميل، الاستعلام وعدّ العناصر](./how-to-parse-html-java-load-query-count-elements/)
-تعلم كيفية تحميل مستندات HTML، استعلامها وعدّ العناصر باستخدام Aspose.HTML for Java في دليل خطوة بخطوة.
-### [تنفيذ JavaScript غير متزامن في Java – دليل شامل خطوة بخطوة](./execute-async-javascript-in-java-complete-step-by-step-guide/)
-تعلم كيفية تنفيذ جافا سكريبت غير متزامن في Java باستخدام Aspose.HTML من خلال دليل خطوة بخطوة شامل.
+### [كيفية ربط البيانات بجدول HTML ديناميكي بأعمدة الاسم الأول والاسم الأخير](./how-to-bind-data-to-a-dynamic-html-table-with-first-and-last/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

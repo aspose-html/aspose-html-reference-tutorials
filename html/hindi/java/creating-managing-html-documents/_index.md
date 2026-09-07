@@ -69,9 +69,13 @@ SVG दस्तावेज़ बनाना और प्रबंधित 
 ### [Java में HTML के लिए सैंडबॉक्स बनाएं – चरण‑दर‑चरण गाइड](./create-sandbox-for-html-in-java-step-by-step-guide/)
 Java में HTML सैंडबॉक्स बनाने की प्रक्रिया सीखें, सुरक्षित परीक्षण और विकास के लिए चरण‑दर‑चरण मार्गदर्शिका।
 ### [Java में HTML क्वेरी कैसे करें – पूर्ण ट्यूटोरियल](./how-to-query-html-in-java-complete-tutorial/)
-Java में Aspose.HTML का उपयोग करके HTML क्वेरी करने के चरण‑दर‑चरण मार्गदर्शिका, टिप्स और सर्वोत्तम प्रथाएँ।
+Java में Aspose.HTML का उपयोग करके HTML क्वेरी करने के चरण‑दर‑चरण मार्गदर्शन, टिप्स और सर्वोत्तम प्रथाएँ।
 ### [Java में HTML को पार्स करना – लोड, क्वेरी और तत्वों की गिनती](./how-to-parse-html-java-load-query-count-elements/)
-Aspose.HTML for Java का उपयोग करके HTML को लोड, क्वेरी और तत्वों की गिनती करने की चरण‑दर‑चरण मार्गदर्शिका।
+Aspose.HTML for Java का उपयोग करके HTML को लोड, क्वेरी और तत्वों की गिनती करने की चरण‑दर‑चरण मार्गदर्शन।
+
+### [डायनामिक HTML तालिका में प्रथम और अंतिम नाम कॉलम के साथ डेटा बाइंड करना कैसे करें](./how-to-bind-data-to-a-dynamic-html-table-with-first-and-last/)
+
+### [Java टेम्पलेट इंजन के साथ टेम्पलेट को HTML में कैसे बदलें](./how-to-convert-template-to-html-with-a-java-template-engine/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -82,7 +86,7 @@ Aspose.HTML for Java का उपयोग करके HTML को लोड, 
 ### [Java में JavaScript से HTML उत्पन्न करें – पूर्ण चरण‑दर‑चरण गाइड](./generate-html-from-javascript-in-java-complete-step-by-step/)
 Java में JavaScript को निष्पादित करके HTML उत्पन्न करने की पूरी चरण‑दर‑चरण गाइड। कोड उदाहरण और सर्वोत्तम प्रथाएँ शामिल हैं।
 ### [NodeList को इटररेट करें Java – HTML पढ़ें और इमेज src प्राप्त करें](./iterate-nodelist-java-read-html-get-image-src/)
-Java में NodeList को इटररेट करके HTML से इमेज src निकालना सीखें। चरण-दर-चरण मार्गदर्शिका और कोड उदाहरण।
+Java में NodeList को इटररेट करके HTML से इमेज src निकालना सीखें। चरण‑दर‑चरण मार्गदर्शिका और कोड उदाहरण।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -93,7 +97,7 @@ Java में NodeList को इटररेट करके HTML से इ�
 ### [Java में NodeList पर इटरेट करना – पूर्ण गाइड](./iterate-over-nodelist-java-complete-guide/)
 Aspose.HTML for Java का उपयोग करके NodeList को इटरेट करने की पूरी प्रक्रिया सीखें, कोड उदाहरण और सर्वोत्तम प्रथाएँ।
 ### [Java के साथ HTML से टेक्स्ट निकालें – पूर्ण चरण‑दर‑चरण गाइड](./extract-text-from-html-with-java-complete-step-by-step-guide/)
-Aspose.HTML for Java का उपयोग करके HTML दस्तावेज़ से टेक्स्ट निकालना सीखें। विस्तृत चरण‑दर‑चरण मार्गदर्शिका।
+Aspose.HTML for Java का उपयोग करके HTML दस्तावेज़ से टेक्स्ट निकालना सीखें। विस्तृत चरण‑दर‑चरण मार्गदर्शन।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

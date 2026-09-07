@@ -72,6 +72,10 @@ Ezzel a lépésről lépésre útmutatóval ismerkedjen meg a dokumentumbetölt�
 Ismerje meg az SVG dokumentumok létrehozását és kezelését az Aspose.HTML for Java segítségével! Ez az átfogó útmutató az alapvető alkotástól a haladó manipulációig mindent lefed.
 ### [HTML sandbox létrehozása Java-ban – Lépésről‑lépésre útmutató](./create-sandbox-for-html-in-java-step-by-step-guide/)
 Ismerje meg, hogyan hozhat létre biztonságos sandbox környezetet HTML feldolgozáshoz Java-ban, részletes lépésekkel.
+### [Hogyan konvertáljon sablont HTML-re Java sablonmotorral](./how-to-convert-template-to-html-with-a-java-template-engine/)
+Ismerje meg, hogyan alakíthatja át a sablonokat HTML-re Java sablonmotor segítségével, lépésről‑lépésre útmutató.
+### [Hogyan kössön adatot egy dinamikus HTML táblázathoz, amely első- és utolsónév oszlopokat tartalmaz](./how-to-bind-data-to-a-dynamic-html-table-with-first-and-last/)
+Tanulja meg, hogyan kössön adatot egy dinamikus HTML táblázathoz, amely első- és utolsónév oszlopokat tartalmaz.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -94,3 +98,4 @@ Tanulja meg, hogyan járhatja be a NodeList-et Java-ban, olvashat HTML-t és sze
 Fedezze fel, hogyan nyerhet ki szöveget HTML-ből Java használatával, részletes, lépésről‑lépésre útmutató.
 ### [NodeList bejárása Java-ban – Teljes útmutató](./iterate-over-nodelist-java-complete-guide/)
 Ismerje meg, hogyan iterálhat a NodeList elemein Java-ban az Aspose.HTML segítségével, részletes, lépésről‑lépésre útmutató.
+{{< /blocks/products/pf/tutorial-page-section >}}

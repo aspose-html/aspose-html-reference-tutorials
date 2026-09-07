@@ -58,6 +58,8 @@ Erfahren Sie in dieser Schritt‑für‑Schritt‑Anleitung, wie Sie HTML-Dokume
 Erfahren Sie, wie Sie mit Aspose.HTML für Java HTML-Dokumente aus Streams laden. Diese Anleitung bietet eine Schritt‑für‑Schritt‑Anleitung zur nahtlosen HTML-Bearbeitung.
 ### [Erstellen Sie HTML-Dokumente aus Zeichenfolgen in Aspose.HTML für Java](./create-html-documents-from-string/)
 Erfahren Sie in dieser Schritt‑für‑Schritt‑Anleitung, wie Sie in Aspose.HTML für Java HTML-Dokumente aus Zeichenfolgen erstellen.
+### [Wie man Vorlagen mit einer Java-Template-Engine in HTML konvertiert](./how-to-convert-template-to-html-with-a-java-template-engine/)
+Erfahren Sie, wie Sie Vorlagen mithilfe einer Java-Template-Engine in HTML umwandeln und dynamische Inhalte erzeugen.
 ### [Laden Sie HTML-Dokumente von einer URL in Aspose.HTML für Java](./load-html-documents-from-url/)
 Entdecken Sie, wie Sie mit Aspose.HTML ganz einfach HTML-Dokumente von einer URL in Java laden. Schritt‑für‑Schritt‑Anleitung inklusive.
 ### [Generieren Sie neue HTML-Dokumente mit Aspose.HTML für Java](./generate-new-html-documents/)
@@ -72,6 +74,7 @@ Erfahren Sie, wie Sie in Aspose.HTML für Java eine sichere Sandbox für HTML er
 Erfahren Sie, wie Sie HTML-Inhalte in Java abfragen und verarbeiten – Schritt‑für‑Schritt‑Anleitung für vollständiges Verständnis.
 ### [HTML in Java parsen – Laden, Abfragen & Elemente zählen](./how-to-parse-html-java-load-query-count-elements/)
 Erfahren Sie, wie Sie HTML in Java laden, Elemente abfragen und deren Anzahl bestimmen – Schritt‑für‑Schritt‑Anleitung.
+### [Daten an eine dynamische HTML‑Tabelle mit Vor‑ und Nachnamen‑Spalten binden](./how-to-bind-data-to-a-dynamic-html-table-with-first-and-last/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -73,6 +73,9 @@ Java용 Aspose.HTML을 사용하여 SVG 문서를 만들고 관리하는 방법�
 Aspose.HTML for Java를 사용하여 안전한 HTML 샌드박스를 설정하고 테스트하는 방법을 단계별로 안내합니다.
 ### [Java용 Aspose.HTML에서 비동기 JavaScript 실행 – 완전 단계별 가이드](./execute-async-javascript-in-java-complete-step-by-step-guide/)
 Aspose.HTML for Java를 활용해 Java에서 비동기 JavaScript를 실행하는 방법을 단계별로 배워보세요.
+### [Java 템플릿 엔진으로 템플릿을 HTML로 변환하는 방법](./how-to-convert-template-to-html-with-a-java-template-engine/)
+Aspose.HTML for Java를 사용하여 Java 템플릿 엔진을 활용해 템플릿을 HTML로 변환하는 방법을 단계별로 안내합니다.
+### [동적 HTML 테이블에 이름 및 성 열 바인딩하기](./how-to-bind-data-to-a-dynamic-html-table-with-first-and-last/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

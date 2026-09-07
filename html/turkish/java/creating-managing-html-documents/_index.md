@@ -69,6 +69,8 @@ Java için Aspose.HTML kullanarak HTML sandbox oluşturmayı adım adım öğren
 ### [Java için Aspose.HTML'de HTML Sorgulama – Tam Kılavuz](./how-to-query-html-in-java-complete-tutorial/)
 ### [Java için Aspose.HTML'de HTML'i Java'da Ayrıştırma – Yükleme, Sorgulama ve Eleman Sayma](./how-to-parse-html-java-load-query-count-elements/)
 ### [Java'da Asenkron JavaScript Çalıştırma – Adım Adım Tam Kılavuz](./execute-async-javascript-in-java-complete-step-by-step-guide/)
+### [Java için Aspose.HTML'de Şablonu Java Şablon Motoru ile HTML'ye Dönüştürme](./how-to-convert-template-to-html-with-a-java-template-engine/)
+### [İlk ve Soyad Sütunlarıyla Dinamik HTML Tablosuna Veri Bağlama](./how-to-bind-data-to-a-dynamic-html-table-with-first-and-last/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
