@@ -89,6 +89,8 @@ Pelajari cara membuat file zip dari HTML secara langsung di memori menggunakan C
 Pelajari cara mengonversi file HTML menjadi arsip ZIP menggunakan Aspose.HTML untuk .NET dengan contoh kode lengkap.
 ### [Cara Zip HTML di C# – Panduan Lengkap Langkah demi Langkah](./how-to-zip-html-in-c-complete-step-by-step-guide/)
 Pelajari cara mengompres file HTML menjadi arsip ZIP menggunakan C# dengan Aspose.HTML dalam panduan langkah demi langkah yang lengkap.
+### [Simpan HTML sebagai ZIP di C# – Panduan Lengkap Langkah-demi-Langkah](./save-html-as-zip-in-c-complete-step-by-step-guide/)
+Pelajari cara menyimpan dokumen HTML sebagai file ZIP menggunakan Aspose.HTML untuk .NET dengan contoh kode C# lengkap.
 
 ## Kesimpulan
 

@@ -54,6 +54,9 @@ Leer hoe u HTML-documenten kunt maken en renderen met Aspose.HTML voor .NET in d
 
 ### [Rendering Timeout in .NET met Aspose.HTML](./rendering-timeout/)
 Leer hoe u renderingtime‑outs effectief kunt beheren in Aspose.HTML voor .NET. Verken renderingopties en zorg voor soepele rendering van HTML-documenten.
+### [Hoe HTML te renderen naar een afbeelding met C# – Complete gids](./how-to-render-html-to-an-image-with-c-complete-guide/)
+Leer stap voor stap hoe u HTML met C# naar verschillende afbeeldingsformaten rendert met Aspose.HTML.
+
 ### [MHTML renderen als XPS in .NET met Aspose.HTML](./render-mhtml-as-xps/)
  Leer MHTML als XPS renderen in .NET met Aspose.HTML. Verbeter uw HTML-manipulatievaardigheden en geef uw webontwikkelingsprojecten een boost!
 
@@ -78,6 +81,11 @@ Leer hoe u met Aspose.HTML voor .NET HTML naar PNG converteert met een volledige
 Leer hoe u HTML naar PNG kunt renderen met Aspose.HTML voor .NET in deze stap‑voor‑stap tutorial!
 ### [HTML naar PNG renderen in C# – Stapsgewijze handleiding](./how-to-render-html-to-png-in-c-step-by-step-guide/)
 Leer hoe u HTML naar PNG kunt renderen in C# met Aspose.HTML voor .NET in deze stap‑voor‑stap tutorial!
+### [HTML-document maken in C# – Renderen naar PNG met vet en cursief lettertype](./create-html-document-c-render-to-png-with-bold-italic-font/)
+Leer hoe u een HTML-document in C# maakt en rendert naar PNG met vet en cursief lettertype.
+
+### [Hoe Aspose te gebruiken om HTML naar PNG te renderen in C#](./how-to-use-aspose-to-render-html-to-png-in-c/)
+Leer hoe u Aspose gebruikt om HTML naar PNG te renderen in C# met een stapsgewijze tutorial.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

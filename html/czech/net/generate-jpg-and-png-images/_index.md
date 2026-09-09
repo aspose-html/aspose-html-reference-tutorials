@@ -50,6 +50,8 @@ Naučte se převádět dokumenty Word na obrázky v C# pomocí Aspose.HTML pro .
 Naučte se pomocí Aspose.HTML pro .NET převést HTML na PNG v jazyce C#.
 ### [Vytvořte PNG z HTML – Kompletní průvodce C# s Aspose.HTML](./create-png-from-html-full-c-guide-with-aspose-html/)
 Naučte se pomocí Aspose.HTML pro .NET převádět HTML na PNG v kompletním C# průvodci.
+### [Vytvořte PNG z HTML v C# – Renderování HTML do PNG](./create-png-from-html-in-c-render-html-to-png/)
+Naučte se pomocí Aspose.HTML pro .NET převést HTML na PNG v C# pomocí jednoduchého kódu.
 
 ### [Jak povolit antialiasing při převodu DOCX na PNG/JPG](./how-to-enable-antialiasing-when-converting-docx-to-png-jpg/)
 Naučte se, jak při převodu dokumentů DOCX na PNG nebo JPG povolit antialiasing pro hladší výstup.

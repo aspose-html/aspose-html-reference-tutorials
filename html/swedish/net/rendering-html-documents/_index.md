@@ -79,6 +79,12 @@ Lär dig att rendera HTML med en anpassad resurs‑hanterare i Aspose.HTML för 
 Lär dig hur du med Aspose.HTML för .NET konverterar HTML till PNG i en detaljerad steg‑för‑steg‑handledning.
 ### [Hur man renderar HTML till PNG med Aspose – Komplett guide](./how-to-render-html-to-png-with-aspose-complete-guide/)
 Lär dig hur du med Aspose.HTML för .NET konverterar HTML till PNG i en komplett guide.
+### [Skapa HTML-dokument i C# – Rendera till PNG med fet kursiv teckensnitt](./create-html-document-c-render-to-png-with-bold-italic-font/)
+Lär dig att skapa ett HTML-dokument i C# och rendera det till PNG med fet kursiv teckensnitt.
+### [Rendera HTML till PNG i C# med Aspose](./how-to-use-aspose-to-render-html-to-png-in-c/)
+Lär dig hur du med Aspose.HTML renderar HTML till PNG i C# med enkla steg och kodexempel.
+### [Hur du renderar HTML till en bild med C# – Komplett guide](./how-to-render-html-to-an-image-with-c-complete-guide/)
+Lär dig steg för steg hur du med Aspose.HTML renderar HTML till en bild i C# med praktiska kodexempel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -89,6 +89,8 @@ Learn how to zip HTML content in memory using C# with a step‑by‑step guide a
 Convert HTML to ZIP in C# using Aspose.HTML for .NET. Follow our step-by-step guide to package HTML files into ZIP archives efficiently.
 ### [How to Zip HTML in C# – Complete Step‑by‑Step Guide](./how-to-zip-html-in-c-complete-step-by-step-guide/)
 Learn how to zip HTML files in C# using Aspose.HTML for .NET. Follow our step-by-step guide with code examples.
+### [Save HTML as ZIP in C# – Complete Step‑by‑Step Guide](./save-html-as-zip-in-c-complete-step-by-step-guide/)
+Save HTML as ZIP in C# with Aspose.HTML for .NET. Follow our step‑by‑step guide to archive HTML content efficiently.
 
 ## Conclusion
 

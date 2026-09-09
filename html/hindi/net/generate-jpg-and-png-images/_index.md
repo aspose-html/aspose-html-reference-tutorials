@@ -50,6 +50,8 @@ C# में Aspose.HTML का उपयोग करके वर्ड दस
 C# में Aspose.HTML का उपयोग करके HTML को PNG इमेज में रेंडर करने का चरण-दर-चरण ट्यूटोरियल।
 ### [HTML से PNG बनाएं – Aspose.HTML के साथ पूर्ण C# गाइड](./create-png-from-html-full-c-guide-with-aspose-html/)
 Aspose.HTML का उपयोग करके HTML को PNG में बदलने के लिए पूर्ण C# चरण-दर-चरण गाइड। आवश्यक सेटअप और कोड उदाहरण शामिल हैं।
+### [C# में HTML से PNG बनाएं – HTML को PNG में रेंडर करें](./create-png-from-html-in-c-render-html-to-png/)
+Aspose.HTML for .NET का उपयोग करके HTML को PNG इमेज में बदलने की प्रक्रिया सीखें। चरण-दर-चरण मार्गदर्शन।
 
 ### [DOCX को PNG/JPG में बदलते समय एंटीएलियासिंग कैसे सक्षम करें](./how-to-enable-antialiasing-when-converting-docx-to-png-jpg/)
 DOCX फ़ाइलों को PNG या JPG में परिवर्तित करते समय एंटीएलियासिंग को सक्षम करने के चरणों को जानें।

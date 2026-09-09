@@ -59,6 +59,9 @@ Aspose를 활용해 HTML을 PNG 이미지로 변환하는 전체 단계별 가�
 HTML을 PNG 이미지로 변환하는 과정을 단계별로 안내합니다. Aspose.HTML for .NET을 활용하여 손쉽게 렌더링하세요.
 ### [C#에서 HTML을 PNG로 렌더링하는 방법 – 단계별 가이드](./how-to-render-html-to-png-in-c-step-by-step-guide/)
 C#와 Aspose.HTML for .NET을 사용하여 HTML을 PNG 이미지로 변환하는 과정을 단계별로 안내합니다.
+### [C#에서 Aspose를 사용하여 HTML을 PNG로 렌더링하는 방법](./how-to-use-aspose-to-render-html-to-png-in-c/)
+C#와 Aspose.HTML을 활용해 HTML을 PNG 이미지로 변환하는 단계별 가이드를 확인하세요.
+
 ### [Aspose.HTML을 사용하여 .NET에서 EPUB를 XPS로 렌더링](./render-epub-as-xps/)
 이 포괄적인 튜토리얼에서 Aspose.HTML for .NET으로 HTML 문서를 만들고 렌더링하는 방법을 알아보세요. HTML 조작, 웹 스크래핑 등의 세계로 뛰어드세요.
 
@@ -82,6 +85,11 @@ C#을 사용해 HTML을 렌더링하고 단락 스타일을 적용하는 방법�
 .NET용 Aspose.HTML을 사용해 HTML을 PNG 이미지로 변환하는 전체 C# 렌더링 과정을 배워보세요.
 ### [HTML을 PNG로 렌더링하는 방법 – 완전한 C# 가이드](./how-to-render-html-to-png-complete-c-guide/)
 C#를 사용해 HTML을 PNG 이미지로 변환하는 전체 가이드를 확인하세요. 단계별 예제로 쉽게 따라 할 수 있습니다.
+### [C#를 사용하여 HTML 문서 만들기 – 굵은 이탤릭체 폰트로 PNG 렌더링](./create-html-document-c-render-to-png-with-bold-italic-font/)
+C#를 사용해 HTML 문서를 생성하고, 굵은 이탤릭체 폰트를 적용해 PNG 이미지로 렌더링하는 방법을 배웁니다.
+
+### [C#를 사용하여 HTML을 이미지로 렌더링하는 완전 가이드](./how-to-render-html-to-an-image-with-c-complete-guide/)
+C#와 Aspose.HTML을 활용해 HTML을 다양한 이미지 형식으로 변환하는 단계별 완전 가이드를 확인하세요.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

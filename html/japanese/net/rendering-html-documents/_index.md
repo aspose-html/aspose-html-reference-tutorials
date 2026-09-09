@@ -49,6 +49,8 @@ C# を使用して HTML を PNG 画像に変換する手順をステップバイ
 
 ### [Aspose を使用して HTML を PNG にレンダリングする方法 – ステップバイステップ ガイド](./how-to-use-aspose-to-render-html-to-png-step-by-step-guide/)
 Aspose.HTML for .NET を使い、HTML を高品質な PNG 画像に変換する手順を詳しく解説します。
+### [C# で Aspose を使用して HTML を PNG にレンダリングする方法](./how-to-use-aspose-to-render-html-to-png-in-c/)
+C# で Aspose.HTML を使用し、HTML を PNG 画像に変換する手順を学びます。
 
 ### [Aspose.HTML を使用して .NET で EPUB を XPS としてレンダリングする](./render-epub-as-xps/)
 この包括的なチュートリアルでは、Aspose.HTML for .NET を使用して HTML ドキュメントを作成し、レンダリングする方法を学びます。HTML 操作、Web スクレイピングなどの世界に飛び込んでみましょう。
@@ -81,6 +83,11 @@ Aspose.HTML for .NET を使用して、HTML を PNG 画像に変換する手順�
 C# で Aspose.HTML を使用して HTML を PNG 画像に変換する手順をステップバイステップで解説します。
 ### [HTML を PNG にレンダリングする方法 – 完全 C# ガイド](./how-to-render-html-to-png-complete-c-guide/)
 C# を使用して HTML を PNG 画像に変換する手順を詳しく解説します。初心者でも簡単に実装可能です。
+### [C# で HTML ドキュメントを作成 – 太字イタリックフォントで PNG にレンダリング](./create-html-document-c-render-to-png-with-bold-italic-font/)
+このチュートリアルでは、C# を使用して HTML ドキュメントを作成し、太字イタリックフォントで PNG にレンダリングする方法を学びます。
+
+### [C# で HTML を画像にレンダリングする方法 – 完全ガイド](./how-to-render-html-to-an-image-with-c-complete-guide/)
+C# と Aspose.HTML を使用して、HTML を画像に変換する手順を包括的に解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

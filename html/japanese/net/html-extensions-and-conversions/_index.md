@@ -76,6 +76,8 @@ C# と Aspose.HTML を使用して、HTML を PDF に変換する方法をステ
 
 ### [C# で HTML を Zip する方法 – 完全ステップバイステップガイド](./how-to-zip-html-in-c-complete-step-by-step-guide/)
 C# と Aspose.HTML を使用して、HTML ファイルを Zip アーカイブに圧縮する手順をステップバイステップで解説します。
+### [C# で HTML を ZIP として保存する – 完全ステップバイステップガイド](./save-html-as-zip-in-c-complete-step-by-step-guide/)
+Aspose.HTML for .NET を使用して、C# で HTML を ZIP ファイルに保存する方法をステップバイステップで解説します。
 
 ## 結論
 

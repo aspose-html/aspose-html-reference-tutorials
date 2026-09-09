@@ -88,6 +88,8 @@ Aprenda a criar um arquivo zip em memória usando C# e Aspose.HTML, compactando 
 Aprenda a converter arquivos HTML em arquivos ZIP usando C# e Aspose.HTML. Guia passo a passo com exemplos de código.
 ### [Como Compactar HTML em C# – Guia Completo Passo a Passo](./how-to-zip-html-in-c-complete-step-by-step-guide/)
 Aprenda a compactar arquivos HTML em um ZIP usando C# com Aspose.HTML, passo a passo e exemplos de código.
+### [Salvar HTML como ZIP em C# – Guia Completo Passo a Passo](./save-html-as-zip-in-c-complete-step-by-step-guide/)
+Aprenda a salvar arquivos HTML em um arquivo ZIP usando C# com Aspose.HTML. Guia passo a passo com exemplos de código.
 
 ## Conclusão
 

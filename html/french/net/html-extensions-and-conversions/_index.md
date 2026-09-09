@@ -90,6 +90,8 @@ Convertissez du HTML en ZIP en C# avec Aspose.HTML. Guide complet étape par ét
 Apprenez à compresser des fichiers HTML en un fichier ZIP avec C# grâce à ce guide complet et détaillé.
 ### [Créer un PDF à partir de HTML en C# – Guide complet étape par étape](./create-pdf-from-html-in-c-complete-step-by-step-guide/)
 Apprenez à générer un PDF à partir de HTML en C# avec un guide détaillé étape par étape.
+### [Enregistrer HTML en ZIP en C# – Guide complet étape par étape](./save-html-as-zip-in-c-complete-step-by-step-guide/)
+Apprenez à sauvegarder un document HTML dans une archive ZIP en C# avec Aspose.HTML, grâce à un guide détaillé pas à pas.
 
 ## Conclusion
 

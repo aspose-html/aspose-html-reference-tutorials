@@ -52,6 +52,8 @@ Aspose.HTML для .NET выделяется как лучший выбор дл
 Подробный учебник по созданию PNG из HTML с использованием Aspose.HTML для .NET на C#.
 ### [Как отрендерить HTML в PNG – Полное руководство C#](./how-to-render-html-to-png-complete-c-guide/)
 Подробный пошаговый гайд по рендерингу HTML в PNG с использованием Aspose.HTML в C#.
+### [Как использовать Aspose для рендеринга HTML в PNG на C#](./how-to-use-aspose-to-render-html-to-png-in-c/)
+Узнайте, как использовать Aspose для рендеринга HTML в PNG на C# с подробными примерами и настройками.
 
 ### [Рендеринг EPUB как XPS в .NET с помощью Aspose.HTML](./render-epub-as-xps/)
 Узнайте, как создавать и отображать HTML-документы с помощью Aspose.HTML для .NET в этом всеобъемлющем руководстве. Погрузитесь в мир манипуляций HTML, веб-скрапинга и многого другого.
@@ -79,6 +81,11 @@ Aspose.HTML для .NET выделяется как лучший выбор дл
 Подробный пошаговый учебник по рендерингу HTML в PNG с помощью Aspose.HTML для .NET.
 ### [Как отрендерить HTML в PNG на C# – пошаговое руководство](./how-to-render-html-to-png-in-c-step-by-step-guide/)
 Подробный пошаговый учебник по рендерингу HTML в PNG с помощью Aspose.HTML для .NET на C#.
+### [Создание HTML‑документа C# – рендеринг в PNG с полужирным курсивным шрифтом](./create-html-document-c-render-to-png-with-bold-italic-font/)
+Научитесь создавать HTML‑документ на C# и рендерить его в PNG, используя полужирный курсивный шрифт.
+
+### [Как отрендерить HTML в изображение с C# – Полное руководство](./how-to-render-html-to-an-image-with-c-complete-guide/)
+Подробное руководство по рендерингу HTML в изображение с помощью C# и Aspose.HTML, включая примеры кода и настройки.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
