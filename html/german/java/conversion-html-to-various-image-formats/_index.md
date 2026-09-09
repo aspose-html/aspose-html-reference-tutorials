@@ -82,6 +82,8 @@ Mit Aspose.HTML for Java wird die Konvertierung von HTML‑Dokumenten in verschi
 - **Fehlende Schriftarten** – Installieren Sie die benötigten Schriftarten auf dem Server oder betten Sie sie mit `@font-face` in das HTML ein.
 
 ## Konvertierung – HTML in verschiedene Bildformate – Tutorials
+
+
 ### [HTML in BMP konvertieren](./convert-html-to-bmp/)
 HTML mit Aspose.HTML for Java in BMP konvertieren. Ein umfassendes Tutorial, um HTML‑Dokumente nahtlos in BMP‑Bilder mit Aspose.HTML for Java zu konvertieren.
 ### [HTML in GIF konvertieren](./convert-html-to-gif/)
@@ -90,8 +92,30 @@ Erfahren Sie, wie Sie HTML in GIF mit Java und Aspose.HTML konvertieren. Ein umf
 Erfahren Sie, wie Sie HTML mit Aspose.HTML for Java in JPEG konvertieren. Schritt‑für‑Schritt‑Leitfaden für nahtlose Dokumentenverarbeitung.
 ### [HTML in PNG konvertieren](./convert-html-to-png/)
 Erfahren Sie, wie Sie HTML in PNG‑Bilder mit Java und Aspose.HTML konvertieren. Ein umfassender Leitfaden mit Schritt‑für‑Schritt‑Anweisungen.
+### [HTML zu PNG rendern – Vollständiger Leitfaden für Java‑Entwickler](./how-to-render-html-to-png-complete-guide-for-java-developers/)
+Erfahren Sie, wie Sie mit Aspose.HTML for Java HTML‑Inhalte in hochwertige PNG‑Bilder rendern – Schritt‑für‑Schritt‑Anleitung für Entwickler.
+### [PNG aus HTML in Java erstellen – Vollständige Schritt‑für‑Schritt‑Anleitung](./create-png-from-html-in-java-full-step-by-step-guide/)
+Lernen Sie, wie Sie HTML in PNG‑Bilder mit Java und Aspose.HTML konvertieren – ein vollständiger Schritt‑für‑Schritt‑Leitfaden.
+### [PNG aus HTML erstellen – High‑DPI SVG‑Export in Java](./create-png-from-html-high-dpi-svg-export-in-java/)
+Erfahren Sie, wie Sie mit Aspose.HTML for Java PNG‑Bilder aus HTML mit hoher DPI und SVG‑Export erzeugen.
+### [PNG aus SVG in Java erstellen – Vollständige Schritt‑für‑Schritt‑Anleitung](./create-png-from-svg-in-java-complete-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.HTML for Java SVG‑Dateien in hochwertige PNG‑Bilder konvertieren – detaillierte Schritt‑für‑Schritt‑Anleitung.
 ### [HTML in TIFF konvertieren](./convert-html-to-tiff/)
 Erfahren Sie, wie Sie HTML einfach mit Aspose.HTML for Java in TIFF konvertieren. Schritt‑für‑Schritt‑Leitfaden für effiziente Dokumentenverarbeitung.
+### [HTML in WebP konvertieren](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
+Erfahren Sie, wie Sie HTML mit Aspose.HTML for Java in das moderne WebP‑Format konvertieren – Schritt‑für‑Schritt‑Anleitung für optimale Bildqualität.
+### [Wie man DPI beim Konvertieren von HTML zu PNG festlegt – Vollständige Anleitung](./how-to-set-dpi-when-converting-html-to-png-complete-guide/)
+Erfahren Sie, wie Sie die DPI-Einstellungen beim Rendern von HTML zu PNG mit Aspose.HTML for Java präzise steuern.
+### [High‑DPI‑Rendering in Java – Webseiten‑Screenshots mit benutzerdefiniertem User‑Agent erfassen](./high-dpi-rendering-in-java-capture-webpage-screenshots-with/)
+Erfahren Sie, wie Sie mit Aspose.HTML for Java hochauflösende Screenshots erstellen und dabei einen benutzerdefinierten User‑Agent festlegen.
+### [PNG aus HTML erstellen – Schnelle Batch‑Konvertierung mit Thread‑Pool](./create-png-from-html-fast-batch-conversion-using-a-thread-po/)
+Erfahren Sie, wie Sie mit Aspose.HTML for Java und einem Thread‑Pool mehrere HTML‑Dateien effizient in PNG‑Bilder konvertieren.
+### [HTML in PNG konvertieren mit festgelegter maximaler Speichernutzung in Java](./convert-html-to-png-with-set-max-memory-usage-in-java/)
+Erfahren Sie, wie Sie mit Aspose.HTML for Java die PNG‑Konvertierung durchführen und dabei die maximale Speichernutzung begrenzen.
+### [HTML in WebP konvertieren – Java‑Leitfaden zum Speichern von HTML als WebP](./convert-html-to-webp-java-guide-to-save-html-as-webp/)
+Erfahren Sie, wie Sie HTML mit Aspose.HTML for Java in das WebP‑Format konvertieren – Schritt‑für‑Schritt‑Anleitung.
+### [Wie man einen Screenshot einer Webseite mit Aspose HTML – Java‑Leitfaden](./how-to-capture-screenshot-of-a-webpage-with-aspose-html-java/)
+Erfahren Sie, wie Sie mit Aspose.HTML for Java einen Screenshot einer Webseite erstellen – Schritt‑für‑Schritt‑Anleitung.
 
 ## Häufig gestellte Fragen
 

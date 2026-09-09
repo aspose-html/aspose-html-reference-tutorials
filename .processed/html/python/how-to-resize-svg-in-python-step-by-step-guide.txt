@@ -1,0 +1,7 @@
+Title: How to Resize SVG in Python – Step‑by‑Step Guide
+Slug: how-to-resize-svg-in-python-step-by-step-guide
+Category: general
+ProcessedDate: 2026-06-16T19:42:53.982430
+SourceRepo: AI Search API
+Keywords: how to resize svg, batch resize svg files, load svg file python, edit svg file python
+PRNumber: 184

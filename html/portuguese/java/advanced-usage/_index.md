@@ -60,9 +60,9 @@ Ao chamar `save`, passe uma instância de `PdfSaveOptions` (ou `XpsSaveOptions`)
 
 *Apenas explicação – código inalterado.*
 
-## Observando mudanças no DOM – “monitorar mudanças no dom”
+## Observando mudanças en DOM – “monitorar mudanças no dom”
 
-O Aspose.HTML permite anexar um `DomMutationObserver` a qualquer nó. Isso é perfeito para cenários onde você precisa reagir a conteúdo dinâmico — como preenchimento automático de formulários ou atualização de gráficos. Monitorando adições de nós, você pode disparar lógica personalizada em tempo real.
+O Aspose.HTML permite anexar um `DomMutationObserver` a qualquer nó. Isso é perfeito para escenarios donde você precisa reagir a conteúdo dinâmico — como preenchimento automático de formulários ou atualização de gráficos. Monitorando adições de nós, você pode disparar lógica personalizada em tempo real.
 
 *Apenas explicação – código inalterado.*
 
@@ -112,27 +112,54 @@ A: Use `HtmlLoadOptions` com as margens definidas em `PageSetup` e habilite `Ena
 A: Não. Uma única licença do Aspose.HTML for Java cobre todos os formatos de saída, incluindo PDF e XPS.
 
 ## Uso avançado dos tutoriais Aspose.HTML Java
-
 ### [Personalizar margens de página HTML com Aspose.HTML](./css-extensions-adding-title-page-number/)
 Aprenda a personalizar margens de página, adicionar numeração de páginas e títulos a documentos HTML usando Aspose.HTML for Java.
-
 ### [Observador de Mutação DOM com Aspose.HTML for Java](./dom-mutation-observer-observing-node-additions/)
 Aprenda a usar Aspose.HTML for Java para implementar um Observador de Mutação DOM neste guia passo a passo. Monitore e reaja às mudanças no DOM de forma eficaz.
-
 ### [Manipulação de Canvas HTML5 com Aspose.HTML for Java](./html5-canvas-manipulation-using-code/)
 Aprenda a manipular Canvas HTML5 usando Aspose.HTML for Java. Crie gráficos interativos com orientação passo a passo.
-
 ### [Manipulação de Canvas HTML5 com Aspose.HTML for Java](./html5-canvas-manipulation-using-javascript/)
 Aprenda a manipular Canvas HTML5 com JavaScript usando Aspose.HTML for Java. Crie gráficos dinâmicos e converta para PDF.
-
 ### [Automatizar o preenchimento de formulários HTML com Aspose.HTML for Java](./html-form-editor-filling-submitting-forms/)
 Aprenda a automatizar o preenchimento e envio de formulários HTML com Aspose.HTML for Java. Simplifique a interação web com este tutorial.
-
 ### [Ajustar tamanho de página PDF com Aspose.HTML for Java](./adjust-pdf-page-size/)
 Aprenda a ajustar o tamanho de página PDF com Aspose.HTML for Java. Crie PDFs de alta qualidade a partir de HTML sem esforço. Controle as dimensões da página de forma eficaz.
-
 ### [Ajustar tamanho de página XPS com Aspose.HTML for Java](./adjust-xps-page-size/)
 Aprenda a ajustar o tamanho de página XPS com Aspose.HTML for Java. Controle facilmente as dimensões de saída dos seus documentos XPS.
+### [Como Executar JavaScript em Java – Guia Completo](./how-to-run-javascript-in-java-complete-guide/)
+Aprenda a executar código JavaScript dentro de aplicações Java usando Aspose.HTML for Java.
+### [Definir proporção de pixels do dispositivo em Java – Tutorial de Sandbox Móvel](./set-device-pixel-ratio-in-java-mobile-sandbox-tutorial/)
+Aprenda a definir a proporção de pixels do dispositivo em Java usando o Sandbox Móvel do Aspose.HTML.
+
+### [Executar JavaScript em Java – Guia Completo para Executar JS a partir de Java](./execute-javascript-in-java-complete-guide-to-running-js-from/)
+Aprenda a executar scripts JavaScript a partir de código Java usando Aspose.HTML for Java, incluindo exemplos e melhores práticas.
+
+### [Habilitar Execução de Script em Java – Guia Completo do Aspose.HTML](./enable-script-execution-in-java-complete-aspose-html-guide/)
+Aprenda a habilitar a execução de scripts JavaScript ao converter HTML para PDF usando Aspose.HTML for Java.
+
+### [Como Usar o Sandbox para HTML para PDF Java – Guia Passo a Passo](./how-to-use-sandbox-for-html-to-pdf-java-step-by-step-guide/)
+Aprenda a usar o Sandbox do Aspose.HTML para converter HTML em PDF com Java, passo a passo, incluindo configuração e melhores práticas.
+
+### [Como habilitar JavaScript no Aspose HTML – Carregar HTML e obter texto](./how-to-enable-javascript-in-aspose-html-load-html-get-text/)
+Aprenda a habilitar JavaScript ao carregar HTML e extrair texto usando Aspose.HTML for Java.
+
+### [Como Executar Scripts em Java – Guia Completo para Executar JavaScript e Extrair Dados](./how-to-run-scripts-in-java-complete-guide-to-execute-javascr/)
+Aprenda a executar scripts JavaScript dentro de aplicações Java e a extrair dados de forma eficiente usando Aspose.HTML.
+
+---
+
+**Última atualização:** 2025-11-29  
+**Testado com:** Aspose.HTML for Java 24.11  
+**Autor:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Extrair HTML de MHTML – Guia Completo em Java](./extract-html-from-mhtml-complete-java-guide/)
+Aprenda a extrair HTML de arquivos MHTML usando Aspose.HTML for Java, com exemplos completos.
 
 ---
 

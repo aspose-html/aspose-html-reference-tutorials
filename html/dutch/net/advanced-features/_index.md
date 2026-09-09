@@ -32,6 +32,8 @@ Leer hoe u met HTML-documenten in .NET werkt met Aspose.HTML voor taken zoals sc
 Leer hoe u Aspose.HTML voor .NET gebruikt om HTML-documenten efficiënt te manipuleren. Stapsgewijze tutorial voor ontwikkelaars.
 ### [Geheugenstroomprovider in .NET met Aspose.HTML](./memory-stream-provider/)
 Leer hoe u verbluffende HTML-documenten in .NET maakt met Aspose.HTML. Volg onze stapsgewijze tutorial en ontgrendel de kracht van HTML-manipulatie.
+### [Geheugenstroom maken in C# – Gids voor aangepaste streamcreatie](./create-memory-stream-c-custom-stream-creation-guide/)
+Leer hoe u een aangepaste geheugenstroom in C# maakt met Aspose.HTML, inclusief stap‑voor‑stap instructies en voorbeeldcode.
 ### [Webscraping in .NET met Aspose.HTML](./web-scraping/)
 Leer HTML-documenten te manipuleren in .NET met Aspose.HTML. Navigeer, filter, query en selecteer elementen effectief voor verbeterde webontwikkeling.
 ### [Gebruik Extended Content Property in .NET met Aspose.HTML](./use-extended-content-property/)
@@ -44,6 +46,8 @@ Leer hoe u HTML naar PDF, XPS en afbeeldingen converteert met Aspose.HTML voor .
 Leer hoe u Aspose.HTML voor .NET kunt gebruiken om dynamisch HTML-documenten te genereren uit JSON-gegevens. Benut de kracht van HTML-manipulatie in uw .NET-toepassingen.
 ### [Lettertypen combineren via code in C# – Stapsgewijze handleiding](./how-to-combine-fonts-programmatically-in-c-step-by-step-guid/)
 Leer hoe u lettertypen programmatically combineert in C# met Aspose.HTML, inclusief voorbeeldcode en stapsgewijze instructies.
+### [Assemblyversie ophalen in C# – Snelle gids om bibliotheekversie te achterhalen](./get-assembly-version-in-c-quick-guide-to-retrieve-library-ve/)
+Leer hoe u de versie van een assembly in C# kunt ophalen met een eenvoudig codevoorbeeld.
 
 ## Conclusie
 

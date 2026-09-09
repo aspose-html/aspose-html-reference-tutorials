@@ -1,0 +1,7 @@
+Title: Convert EPUB to PDF with Java – Complete Programming Guide
+Slug: convert-epub-to-pdf-with-java-complete-programming-guide
+Category: converting-epub-to-pdf
+ProcessedDate: 2026-05-25T20:44:40.735879
+SourceRepo: AI Search API
+Keywords: convert epub to pdf, generate pdf from epub, convert digital book to pdf, epub file to pdf conversion, convert epub to pdf command line
+PRNumber: 161

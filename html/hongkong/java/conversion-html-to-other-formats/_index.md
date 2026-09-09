@@ -81,21 +81,61 @@ Aspose.HTML for Java 簡化了 HTML‑to‑PDF 工作流程。請參考專屬教
 總結來說，精通 **html to pdf java** 以及更廣泛的轉換功能，能為任何 Java 開發者開啟強大的文件工作流程。Aspose.HTML for Java 提供完整且易於遵循的教學，讓您能將 HTML、Markdown 與 SVG 轉換為所需格式，且品質卓越、控制完整。
 
 ## Conversion - HTML to Other Formats Tutorials
+
+
 ### [Converting HTML to PDF](./convert-html-to-pdf/)
 了解如何使用 Aspose.HTML 在 Java 中將 HTML 轉換為 PDF，輕鬆產生高品質的 PDF 文件。
+### [在 Java 中將 HTML 轉換為 PDF – 逐步指南與頁面大小設定](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
+提供在 Java 中使用 Aspose.HTML 逐步將 HTML 轉換為 PDF，並設定頁面尺寸的完整教學。
+### [使用 Aspose HTML 設定 PDF 頁面大小 – 完整 Java 指南](./set-pdf-page-size-with-aspose-html-full-java-guide/)
+完整教學說明如何在 Java 中使用 Aspose.HTML 設定 PDF 的頁面尺寸與版面配置。
+### [在 Java 中將 HTML 轉換為 PDF – 設定 PDF 頁面大小、解析度，並將 HTML 儲存為 PDF](./convert-html-to-pdf-in-java-set-pdf-page-size-resolution-and/)
+說明如何在 Java 中設定 PDF 頁面尺寸與解析度，並將 HTML 直接儲存為 PDF。
 ### [Converting HTML to MHTML](./convert-html-to-mhtml/)
 使用 Aspose.HTML for Java 輕鬆將 HTML 轉換為 MHTML，依照步驟指南完成高效的 HTML‑to‑MHTML 轉換。
 ### [Converting HTML to XPS](./convert-html-to-xps/)
 學習如何使用 Aspose.HTML for Java 無縫將 HTML 轉換為 XPS，輕鬆建立跨平台文件。
 ### [Converting Markdown to HTML](./convert-markdown-to-html/)
 使用 Aspose.HTML for Java 在 Java 中順暢將 Markdown 轉為 HTML，依照步驟指南簡化文件轉換需求。
+### [將 Markdown 轉換為 HTML – Java 指南與 PDF 輸出](./convert-markdown-to-html-java-guide-with-pdf-output/)
+使用 Aspose.HTML 在 Java 中將 Markdown 轉換為 HTML，並輸出為 PDF，提供完整步驟與範例。
 ### [Converting SVG to Image](./convert-svg-to-image/)
 了解如何使用 Aspose.HTML 在 Java 中將 SVG 轉為影像，提供高品質輸出的完整指南。
 ### [Converting SVG to PDF](./convert-svg-to-pdf/)
 使用 Aspose.HTML 在 Java 中將 SVG 轉為 PDF，提供高品質文件轉換的無縫解決方案。
 ### [Converting SVG to XPS](./convert-svg-to-xps/)
 學習如何使用 Aspose.HTML for Java 將 SVG 轉為 XPS，提供簡單、步驟式的無縫轉換指南。
+### [如何在 Java 中將 Markdown 生成 PDF – 步驟指南](./how-to-generate-pdf-from-markdown-in-java-step-by-step-guide/)
+使用 Aspose.HTML for Java，將 Markdown 文件轉換為高品質 PDF，提供完整步驟與範例說明。
+### [使用執行緒池與模板的 Java HTML 轉 PDF 完整指南](./save-html-as-pdf-with-java-complete-guide-using-thread-pool/)
+說明如何在 Java 中使用執行緒池與模板將 HTML 高效轉換為 PDF，涵蓋完整步驟與最佳實踐。
+### [HTML to PDF 教學：使用 Java 將網頁轉換為 PDF](./html-to-pdf-tutorial-convert-web-pages-to-pdf-with-java/)
+學習如何使用 Aspose.HTML for Java 將網頁 HTML 轉換為高品質的 PDF 文件。
+### [在 Java 中設定 PDF 頁面大小 – 完整 HTML 轉 PDF 教學](./set-pdf-page-size-in-java-complete-html-to-pdf-guide/)
+說明如何在 Java 使用 Aspose.HTML 設定 PDF 頁面尺寸，完整的 HTML 轉 PDF 操作指南。
 
+### [在 Java 中從 HTML 建立 PDF – 完整步驟指南](./create-pdf-from-html-in-java-complete-step-by-step-guide/)
+提供在 Java 中使用 Aspose.HTML 從 HTML 完整生成 PDF 的逐步教學，涵蓋設定、樣式與最佳化技巧。
+### [在 Java 中將 HTML 轉換為 Markdown 時設定偏移量的方法](./how-to-set-offset-when-converting-html-to-markdown-in-java/)
+使用 Aspose.HTML for Java 在將 HTML 轉換為 Markdown 時設定偏移量的完整指南。
+### [將 HTML 轉換為 Markdown – 完整 C# 指南](./convert-html-to-markdown-complete-c-guide/)
+了解如何使用 Aspose.HTML 在 C# 中將 HTML 轉換為 Markdown，提供完整步驟與最佳實踐。
+### [建立固定執行緒池以平行 HTML 轉 PDF 轉換](./create-fixed-thread-pool-for-parallel-html-to-pdf-conversion/)
+了解如何使用 Aspose.HTML 在 Java 中建立固定執行緒池，以平行執行 HTML 轉 PDF 的轉換。
+### [HTML 轉 PDF 教學：在 Java 中一行程式碼完成 HTML 轉 PDF](./html-to-pdf-tutorial-convert-html-to-pdf-in-java-in-one-line/)
+只需一行程式碼，即可使用 Aspose.HTML 在 Java 中將 HTML 轉換為 PDF，簡化開發流程。
+### [從 HTML 建立自訂尺寸 PDF（Java）完整指南](./create-pdf-custom-size-from-html-in-java-full-guide/)
+說明如何使用 Aspose.HTML 在 Java 中將 HTML 轉換為自訂尺寸的 PDF，提供完整步驟與範例。
+### [在 Java 中使用平行固定執行緒池將 HTML 轉換為 PDF 的指南](./convert-html-to-pdf-in-java-parallel-fixed-thread-pool-guide/)
+說明如何在 Java 中使用固定執行緒池平行化 HTML 轉 PDF 的流程，提高轉換效能。
+### [在 Java 中從 HTML 建立 PDF – 逐步指南](./create-pdf-from-html-in-java-step-by-step-guide/)
+提供使用 Aspose.HTML 在 Java 中逐步將 HTML 轉換為 PDF 的完整教學。
+### [在 Java 中將 Markdown 轉換為 PDF – 完整指南](./convert-markdown-to-pdf-in-java-complete-guide/)
+使用 Aspose.HTML for Java 將 Markdown 文件完整轉換為 PDF，提供步驟說明與最佳實踐。
+### [如何轉換 SVG – 使用 Aspose HTML 轉換器的完整指南](./how-to-convert-svg-complete-guide-using-aspose-html-converte/)
+深入說明如何使用 Aspose.HTML 將 SVG 轉換為多種格式，提供完整步驟與最佳實踐。
+### [使用固定執行緒池的 Java 將 HTML 轉換為 PDF – 步驟指南](./convert-html-to-pdf-with-fixed-thread-pool-java-step-by-step/)
+說明如何在 Java 中使用固定執行緒池進行 HTML 到 PDF 的批次轉換，提高效能與資源利用。
 ## 常見問題
 
 **Q: Can I use Aspose.HTML for Java in a commercial application?**  

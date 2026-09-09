@@ -1,5 +1,5 @@
 ---
-date: 2025-12-22
+date: 2026-02-23
 description: เรียนรู้วิธีแปลง HTML เป็นภาพใน Java ด้วย Aspose.HTML for Java คู่มือขั้นตอนนี้แสดงการแปลง
   HTML เป็น TIFF และรูปแบบภาพอื่น ๆ
 linktitle: Converting HTML to TIFF
@@ -9,46 +9,48 @@ url: /th/java/conversion-html-to-various-image-formats/convert-html-to-tiff/
 weight: 14
 ---
 
+.
+
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # HTML to Image Java – แปลง HTML เป็น TIFF ด้วย Aspose.HTML
 
-หากคุณต้องการ **html to image java** คุณมาถูกที่แล้ว ในบทแนะนำนี้เราจะอธิบายขั้นตอนการแปลงไฟล์ HTML ให้เป็นภาพ TIFF คุณภาพสูงโดยใช้ Aspose.HTML for Java วิธีการนี้ยังทำงานกับรูปแบบภาพอื่น ๆ ได้เช่นกัน ดังนั้นคุณจะได้โซลูชันที่ยืดหยุ่นและสามารถนำกลับมาใช้ใหม่ในหลายโครงการ
+หากคุณต้องการ **html to image java** คุณมาถูกที่แล้ว ในบทแนะนำนี้เราจะสาธิตการแปลงไฟล์ HTML ให้เป็นภาพ TIFF คุณภาพสูงโดยใช้ Aspose.HTML for Java วิธีการนี้ยังใช้ได้กับรูปแบบภาพอื่น ๆ อีกด้วย ทำให้คุณได้โซลูชันที่ยืดหยุ่นและสามารถนำกลับมาใช้ใหม่ในหลายโครงการ ไม่ว่าจะเป็นการสร้างเครื่องมือรายงาน ระบบจัดเก็บเอกสาร หรือโปรแกรมสร้างภาพย่อ คู่มือนี้จะแสดงวิธีให้ได้ผลลัพธ์ที่พิกเซลสมบูรณ์โดยตรงจาก Java
 
-## คำตอบด่วน
+## Quick Answers
 - **ไลบรารีที่ทำการแปลงคืออะไร?** Aspose.HTML for Java.  
-- **ฉันสามารถแปลงเป็นรูปแบบอื่นนอกจาก TIFF ได้หรือไม่?** ได้ – PNG, JPEG, BMP, เป็นต้น.  
-- **ฉันต้องการไลเซนส์สำหรับการพัฒนาหรือไม่?** เวอร์ชันทดลองฟรีใช้ได้สำหรับการทดสอบ; จำเป็นต้องมีไลเซนส์สำหรับการใช้งานจริง.  
-- **เวอร์ชัน Java ที่รองรับคืออะไร?** Java 8 และรุ่นต่อไป.  
-- **โค้ดนี้ปลอดภัยต่อการทำงานหลายเธรดหรือไม่?** ใช่, API สามารถใช้ในสภาพแวดล้อมแบบหลายเธรดได้.
+- **สามารถแปลงเป็นรูปแบบอื่นนอกจาก TIFF ได้หรือไม่?** ได้ – PNG, JPEG, BMP, ฯลฯ  
+- **ต้องมีลิขสิทธิ์สำหรับการพัฒนาหรือไม่?** เวอร์ชันทดลองฟรีใช้สำหรับการทดสอบ; ต้องมีลิขสิทธิ์สำหรับการใช้งานจริง  
+- **รองรับเวอร์ชัน Java ใดบ้าง?** Java 8 ขึ้นไป  
+- **โค้ดนี้ปลอดภัยต่อการทำงานหลายเธรดหรือไม่?** ใช่, API สามารถใช้ในสภาพแวดล้อมหลายเธรดได้  
 
-## html to image java คืออะไร?
-“html to image java” หมายถึงกระบวนการเรนเดอร์เอกสาร HTML และส่งออกการแสดงผลเป็นไฟล์ภาพ (TIFF, PNG, JPEG, …) จากแอปพลิเคชัน Java ซึ่งมีประโยชน์สำหรับการสร้างภาพย่อ รายงาน หรือสำเนาเก็บถาวรของหน้าเว็บ
+## What is html to image java?
+“html to image java” หมายถึงกระบวนการเรนเดอร์เอกสาร HTML และส่งออกผลลัพธ์ที่เป็นภาพ (TIFF, PNG, JPEG, …) จากแอปพลิเคชัน Java ซึ่งมีประโยชน์สำหรับการสร้างภาพย่อ รายงาน หรือสำเนาเพื่อจัดเก็บของหน้าเว็บ
 
-## ทำไมต้องใช้ Aspose.HTML for Java?
-- **การเรนเดอร์ความละเอียดสูง** – รองรับ CSS, JavaScript, และ SVG อย่างเต็มรูปแบบ.  
-- **ไม่มีการพึ่งพาไลบรารีภายนอก** – Java แท้ ๆ ไม่ต้องใช้ไบนารีเนทีฟ.  
-- **หลายรูปแบบผลลัพธ์** – แปลงเป็น TIFF, PNG, JPEG, BMP และอื่น ๆ ด้วยการเรียก API ครั้งเดียว.  
-- **ประสิทธิภาพสูง** – ปรับแต่งสำหรับการประมวลผลเป็นชุดและเอกสารขนาดใหญ่.
+## Why use Aspose.HTML for Java?
+- **การเรนเดอร์ที่แม่นยำสูง** – รองรับ CSS, JavaScript, และ SVG อย่างเต็มรูปแบบ  
+- **ไม่มีการพึ่งพาไลบรารีภายนอก** – Pure Java, ไม่ต้องใช้ไบนารีเนทีฟ  
+- **หลายรูปแบบผลลัพธ์** – แปลงเป็น TIFF, PNG, JPEG, BMP และอื่น ๆ ด้วยการเรียก API เพียงครั้งเดียว  
+- **ประสิทธิภาพสูง** – ปรับให้เหมาะกับการประมวลผลแบบแบตช์และเอกสารขนาดใหญ่  
 
-## ข้อกำหนดเบื้องต้น
+## Prerequisites
 
-ก่อนเริ่มกระบวนการแปลง ให้ตรวจสอบว่าคุณมีสิ่งต่อไปนี้:
+ก่อนเริ่มกระบวนการแปลง ให้ตรวจสอบว่าคุณมีสิ่งต่อไปนี้พร้อมแล้ว:
 
 1. **สภาพแวดล้อมการพัฒนา Java**  
-   ติดตั้ง Java Development Kit (JDK). คุณสามารถดาวน์โหลดได้จาก [Oracle website](https://www.oracle.com/java/technologies/javase-downloads.html).
+   ติดตั้ง Java Development Kit (JDK) คุณสามารถดาวน์โหลดได้จาก [Oracle website](https://www.oracle.com/java/technologies/javase-downloads.html)
 
 2. **Aspose.HTML for Java**  
-   ดาวน์โหลดไลบรารี Aspose.HTML for Java รุ่นล่าสุดจาก [Aspose website](https://releases.aspose.com/html/java/).
+   ดาวน์โหลดไลบรารี Aspose.HTML for Java เวอร์ชันล่าสุดจาก [Aspose website](https://releases.aspose.com/html/java/)
 
-3. **HTML Document**  
-   เตรียมไฟล์ HTML ที่ต้องการแปลงไว้บนดิสก์ ซึ่งจะเป็นแหล่งข้อมูลสำหรับการแปลงเป็นภาพ.
+3. **เอกสาร HTML**  
+   เตรียมไฟล์ HTML ที่ต้องการแปลงไว้บนดิสก์ ซึ่งจะเป็นแหล่งข้อมูลสำหรับการแปลงเป็นภาพ  
 
-## นำเข้าแพ็กเกจ
+## Import Packages
 
-ในโปรเจกต์ Java ของคุณ ให้นำเข้าคลาสสำคัญของ Aspose.HTML:
+ในโปรเจกต์ Java ของคุณ ให้ import คลาสสำคัญของ Aspose.HTML:
 
 ```java
 import com.aspose.html.HTMLDocument;
@@ -57,15 +59,11 @@ import com.aspose.html.rendering.image.ImageFormat;
 import com.aspose.html.converters.Converter;
 ```
 
-การนำเข้าดังกล่าวทำให้คุณสามารถโหลดเอกสาร ตั้งค่าการบันทึกภาพ และใช้เอนจินแปลงได้
+การ import เหล่านี้ทำให้คุณเข้าถึงการโหลดเอกสาร ตัวเลือกการบันทึกภาพ และเอนจินการแปลงได้
 
-## แปลง HTML เป็น TIFF
+## How to load HTML document java
 
-ด้านล่างเป็นโค้ดแบบขั้นตอนที่คุณต้องใช้เพื่อแปลงไฟล์ HTML ให้เป็นภาพ TIFF
-
-### ขั้นตอนที่ 1: โหลดเอกสาร HTML  
-
-ใช้คลาส `HTMLDocument` เพื่ออ่านไฟล์ต้นทางของคุณ ตัวอย่างนี้แสดงการ **load html document java** ในบรรทัดเดียว:
+การโหลดไฟล์ต้นทางเป็นขั้นตอนแรก คลาส `HTMLDocument` จะทำการพาร์ส HTML, ประยุกต์สไตล์ และเตรียมพร้อมสำหรับการเรนเดอร์
 
 ```java
 HTMLDocument htmlDocument = new HTMLDocument("path/to/your/input.html");
@@ -73,29 +71,29 @@ HTMLDocument htmlDocument = new HTMLDocument("path/to/your/input.html");
 
 เปลี่ยน `"path/to/your/input.html"` ให้เป็นพาธจริงของไฟล์ HTML ของคุณ
 
-### ขั้นตอนที่ 2: กำหนด ImageSaveOptions สำหรับ TIFF  
+## How to convert HTML to TIFF (render html tiff)
 
-กำหนดรูปแบบผลลัพธ์โดยสร้างอินสแตนซ์ `ImageSaveOptions`:
+กำหนดการแปลงเพื่อสร้างภาพ TIFF TIFF มักถูกเลือกเพราะคุณภาพแบบ lossless และรองรับหลายหน้า
 
 ```java
 ImageSaveOptions options = new ImageSaveOptions(ImageFormat.Tiff);
 ```
 
-หากคุณต้องการ **convert html to png** ในภายหลัง เพียงเปลี่ยน `ImageFormat.Tiff` เป็น `ImageFormat.Png`
+หากคุณต้องการ **html to png java** ในภายหลัง เพียงเปลี่ยน `ImageFormat.Tiff` เป็น `ImageFormat.Png`
 
-### ขั้นตอนที่ 3: ตั้งค่าพาธไฟล์ผลลัพธ์  
+## How to set the output file path
 
-กำหนดตำแหน่งที่ต้องการบันทึกภาพที่สร้างขึ้น:
+กำหนดตำแหน่งที่ไฟล์ภาพที่สร้างจะถูกบันทึก:
 
 ```java
 String outputFile = "path/to/your/output.tif";
 ```
 
-ปรับส่วนขยายไฟล์หากเลือกใช้รูปแบบอื่น
+ปรับนามสกุลไฟล์หากเลือกใช้รูปแบบอื่น
 
-### ขั้นตอนที่ 4: ทำการแปลง  
+## How to perform the conversion
 
-สุดท้ายเรียกเมธอดสแตติก `convertHTML` เพื่อสร้างภาพ:
+เรียกการแปลงด้วย API เพียงครั้งเดียว:
 
 ```java
 Converter.convertHTML(htmlDocument, options, outputFile);
@@ -103,43 +101,45 @@ Converter.convertHTML(htmlDocument, options, outputFile);
 
 หลังจากรันเสร็จ คุณจะพบไฟล์ TIFF ที่ตำแหน่งที่กำหนดไว้
 
-## กรณีการใช้งานทั่วไป
+## Common Use Cases
 
-- **สร้างใบแจ้งหนี้ที่พิมพ์ได้** – แปลงใบแจ้งหนี้ HTML ที่มีสไตล์เป็น TIFF เพื่อการเก็บบันทึก.  
-- **สร้างภาพย่อสำหรับหน้าเว็บ** – ใช้ `ImageFormat.Png` สำหรับภาพขนาดเล็กและเหมาะกับเว็บ.  
-- **ประมวลผลแบรนด์การตลาดเป็นชุด** – ทำการแปลงอัตโนมัติของแบนเนอร์ HTML หลายสิบรายการเป็นภาพความละเอียดสูง.
+- **สร้างใบแจ้งหนี้ที่พิมพ์ได้** – แปลงใบแจ้งหนี้ HTML ที่มีสไตล์เป็น TIFF เพื่อเก็บรักษา  
+- **สร้างภาพย่อสำหรับหน้าเว็บ** – ใช้ `ImageFormat.Png` เพื่อให้ได้ภาพขนาดเล็กและเหมาะกับเว็บ  
+- **ประมวลผลแบตช์ของสื่อการตลาด** – อัตโนมัติการแปลงแบนเนอร์ HTML จำนวนหลายสิบเป็นภาพความละเอียดสูง  
 
-## สรุป
+## Frequently Asked Questions
 
-ในคู่มือนี้ เราได้อธิบายทุกขั้นตอนที่คุณต้องการ **html to image java** ด้วย Aspose.HTML for Java: ตั้งค่าสภาพแวดล้อม, โหลดเอกสาร HTML, กำหนดตัวเลือกภาพ, และดำเนินการแปลง ด้วยความรู้เหล่านี้คุณสามารถรวมฟังก์ชันแปลง HTML‑to‑image เข้าไปในแอปพลิเคชัน Java ใดก็ได้ ไม่ว่าจะต้องการ TIFF, PNG หรือรูปแบบอื่น
-
-หากคุณมีคำถามหรืออยากขอความช่วยเหลือเพิ่มเติม ให้ดูที่ [Aspose.HTML documentation](https://reference.aspose.com/html/java/) หรือเยี่ยมชม [Aspose support forum](https://forum.aspose.com/)
-
-## คำถามที่พบบ่อย
-
-### Q1: ฉันสามารถใช้ Aspose.HTML for Java เพื่อแปลง HTML เป็นรูปแบบภาพอื่นได้หรือไม่?
+### Q1: สามารถใช้ Aspose.HTML for Java แปลง HTML เป็นรูปแบบภาพอื่นได้หรือไม่?
 
 A1: ได้, Aspose.HTML for Java รองรับรูปแบบภาพหลายประเภท รวมถึง PNG, JPEG, และ BMP นอกเหนือจาก TIFF
 
 ### Q2: Aspose.HTML for Java รองรับเวอร์ชัน Java ต่าง ๆ หรือไม่?
 
-A2: รองรับหลายเวอร์ชันของ Java รวมถึง Java 8 และรุ่นต่อไป
+A2: รองรับหลายเวอร์ชันของ Java รวมถึง Java 8 ขึ้นไป
 
-### Q3: Aspose.HTML for Java ต้องการไลเซนส์สำหรับการใช้งานเชิงพาณิชย์หรือไม่?
+### Q3: Aspose.HTML for Java ต้องการลิขสิทธิ์สำหรับการใช้งานเชิงพาณิชย์หรือไม่?
 
-A3: ใช่, สำหรับการใช้งานเชิงพาณิชย์คุณต้องซื้อไลเซนส์ คุณสามารถดูข้อมูลเพิ่มเติมได้ [ที่นี่](https://purchase.aspose.com/buy)
+A3: ต้องการ, สำหรับการใช้งานเชิงพาณิชย์คุณต้องซื้อไลเซนส์ คุณสามารถดูข้อมูลเพิ่มเติมได้ [ที่นี่](https://purchase.aspose.com/buy)
 
-### Q4: มีเวอร์ชันทดลองสำหรับ Aspose.HTML for Java หรือไม่?
+### Q4: มีเวอร์ชันทดลองใช้งานสำหรับ Aspose.HTML for Java หรือไม่?
 
-A4: มี, คุณสามารถดาวน์โหลดเวอร์ชันทดลองได้จาก [ที่นี่](https://releases.aspose.com/html/java)
+A4: มี, คุณสามารถดาวน์โหลดเวอร์ชันทดลองฟรีได้จาก [ที่นี่](https://releases.aspose.com/html/java)
 
 ### Q5: Aspose.HTML รองรับมาตรฐาน HTML ใดบ้างสำหรับการแปลง?
 
 A5: Aspose.HTML for Java รองรับ HTML5 และเวอร์ชัน HTML ก่อนหน้า
 
-**อัปเดตล่าสุด:** 2025-12-22  
-**ทดสอบกับ:** Aspose.HTML for Java 24.11 (latest at time of writing)  
-**ผู้เขียน:** Aspose  
+## Conclusion
+
+ในคู่มือนี้เราได้อธิบายทุกขั้นตอนที่คุณต้องการเพื่อ **html to image java** ด้วย Aspose.HTML for Java: ตั้งค่าสภาพแวดล้อม, โหลดเอกสาร HTML, กำหนดตัวเลือกภาพ, และดำเนินการแปลง ด้วยความรู้เหล่านี้คุณสามารถบูรณาการการแปลง HTML‑to‑image เข้าไปในแอปพลิเคชัน Java ใด ๆ ไม่ว่าจะเป็น TIFF, PNG หรือรูปแบบอื่น ๆ
+
+หากคุณมีคำถามหรืออยากขอความช่วยเหลือเพิ่มเติม โปรดตรวจสอบ [เอกสาร Aspose.HTML](https://reference.aspose.com/html/java/) หรือเยี่ยมชม [ฟอรั่มสนับสนุนของ Aspose](https://forum.aspose.com/)
+
+---
+
+**Last Updated:** 2026-02-23  
+**Tested With:** Aspose.HTML for Java (latest)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

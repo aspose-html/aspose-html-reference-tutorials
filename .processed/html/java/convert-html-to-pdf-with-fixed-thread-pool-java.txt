@@ -1,0 +1,7 @@
+Title: Convert HTML to PDF with Fixed Thread Pool Java
+Slug: convert-html-to-pdf-with-fixed-thread-pool-java
+Category: conversion-html-to-other-formats
+ProcessedDate: 2026-07-05T20:00:42.979407
+SourceRepo: AI Search API
+Keywords: convert html to pdf, fixed thread pool java, batch convert html files, java parallel file processing, shutdown executorservice java
+PRNumber: 203

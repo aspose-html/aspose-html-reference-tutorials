@@ -1,0 +1,7 @@
+Title: Create JPEG from Word – Complete C# Guide
+Slug: create-jpeg-from-word-complete-c-guide
+Category: generate-jpg-and-png-images
+ProcessedDate: 2026-07-02T14:27:37.762739
+SourceRepo: AI Search API
+Keywords: create jpeg from word, convert word to jpeg, save word as jpg, convert docx to jpg, export docx as image
+PRNumber: 198

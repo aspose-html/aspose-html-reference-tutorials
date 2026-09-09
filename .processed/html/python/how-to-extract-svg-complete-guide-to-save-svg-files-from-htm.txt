@@ -1,0 +1,7 @@
+Title: How to Extract SVG – Complete Guide to Save SVG Files from HTML
+Slug: how-to-extract-svg-complete-guide-to-save-svg-files-from-htm
+Category: general
+ProcessedDate: 2026-07-22T02:42:40.698775
+SourceRepo: AI Search API
+Keywords: how to extract svg, save svg files, convert html svg, extract svg from html, download inline svg
+PRNumber: 218

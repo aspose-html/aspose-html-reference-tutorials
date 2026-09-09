@@ -85,26 +85,61 @@ Kết luận, việc nắm vững **html to pdf java** và bộ chuyển đổi 
 
 ## Chuyển đổi - Hướng dẫn HTML sang các định dạng khác
 
+
 ### [Chuyển đổi HTML sang PDF](./convert-html-to-pdf/)
 Tìm hiểu cách chuyển đổi HTML sang PDF trong Java bằng Aspose.HTML. Tạo PDF chất lượng cao từ nội dung HTML của bạn một cách dễ dàng.
+### [Chuyển đổi HTML sang PDF trong Java – Hướng dẫn chi tiết với cài đặt kích thước trang](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
+Hướng dẫn từng bước chuyển HTML sang PDF trong Java, bao gồm cách thiết lập kích thước trang cho PDF.
+### [Đặt kích thước trang PDF với Aspose HTML – Hướng dẫn Java đầy đủ](./set-pdf-page-size-with-aspose-html-full-java-guide/)
+Hướng dẫn chi tiết cách thiết lập kích thước trang PDF khi chuyển đổi HTML sang PDF bằng Aspose.HTML trong Java.
+### [Tạo PDF từ HTML trong Java – Hướng dẫn chi tiết từng bước](./create-pdf-from-html-in-java-complete-step-by-step-guide/)
+Hướng dẫn toàn diện tạo PDF từ HTML trong Java bằng Aspose.HTML, bao gồm các bước cấu hình và tối ưu chất lượng.
+### [Chuyển đổi HTML sang PDF trong Java – Đặt kích thước trang PDF, độ phân giải và lưu HTML dưới dạng PDF](./convert-html-to-pdf-in-java-set-pdf-page-size-resolution-and/)
+Tìm hiểu cách thiết lập kích thước trang, độ phân giải khi chuyển đổi HTML sang PDF trong Java và lưu HTML dưới dạng PDF.
+### [Đặt kích thước trang PDF trong Java – Hướng dẫn đầy đủ HTML sang PDF](./set-pdf-page-size-in-java-complete-html-to-pdf-guide/)
+Hướng dẫn cách thiết lập kích thước trang PDF khi chuyển đổi HTML sang PDF trong Java bằng Aspose.HTML.
 
 ### [Chuyển đổi HTML sang MHTML](./convert-html-to-mhtml/)
 Chuyển đổi HTML sang MHTML một cách dễ dàng bằng Aspose.HTML for Java. Thực hiện theo hướng dẫn từng bước để chuyển đổi HTML‑to‑MHTML hiệu quả.
-
 ### [Chuyển đổi HTML sang XPS](./convert-html-to-xps/)
 Tìm hiểu cách chuyển đổi HTML sang XPS một cách dễ dàng bằng Aspose.HTML for Java. Tạo tài liệu đa nền tảng một cách nhanh chóng.
-
 ### [Chuyển đổi Markdown sang HTML](./convert-markdown-to-html/)
 Chuyển đổi Markdown sang HTML trong Java một cách liền mạch với Aspose.HTML for Java. Thực hiện theo hướng dẫn từng bước để tối ưu nhu cầu chuyển đổi tài liệu của bạn.
-
+### [Cách thiết lập offset khi chuyển đổi HTML sang Markdown trong Java](./how-to-set-offset-when-converting-html-to-markdown-in-java/)
+Hướng dẫn cách thiết lập offset khi chuyển đổi HTML sang Markdown trong Java bằng Aspose.HTML, giúp kiểm soát vị trí nội dung đầu ra.
+### [Chuyển đổi Markdown sang HTML – Hướng dẫn Java với đầu ra PDF](./convert-markdown-to-html-java-guide-with-pdf-output/)
+Hướng dẫn chuyển đổi Markdown sang HTML trong Java và xuất ra PDF bằng Aspose.HTML.
 ### [Chuyển đổi SVG sang Hình ảnh](./convert-svg-to-image/)
 Tìm hiểu cách chuyển đổi SVG sang hình ảnh trong Java với Aspose.HTML. Hướng dẫn toàn diện để có đầu ra chất lượng cao.
-
 ### [Chuyển đổi SVG sang PDF](./convert-svg-to-pdf/)
 Chuyển đổi SVG sang PDF trong Java với Aspose.HTML. Giải pháp liền mạch cho việc chuyển đổi tài liệu chất lượng cao.
-
 ### [Chuyển đổi SVG sang XPS](./convert-svg-to-xps/)
 Tìm hiểu cách chuyển đổi SVG sang XPS với Aspose.HTML for Java. Hướng dẫn đơn giản, từng bước để chuyển đổi liền mạch.
+### [Cách tạo PDF từ Markdown trong Java – Hướng dẫn từng bước](./how-to-generate-pdf-from-markdown-in-java-step-by-step-guide/)
+Tạo PDF từ tệp Markdown trong Java bằng Aspose.HTML. Hướng dẫn chi tiết từng bước để chuyển đổi nhanh chóng và chất lượng.
+
+### [Lưu HTML thành PDF với Java – Hướng dẫn toàn diện sử dụng Thread Pool và Templates](./save-html-as-pdf-with-java-complete-guide-using-thread-pool/)
+Hướng dẫn chi tiết cách lưu HTML thành PDF trong Java bằng Thread Pool và Templates để tối ưu hiệu suất và tái sử dụng mã.
+
+### [Tạo Fixed Thread Pool để Chuyển đổi HTML sang PDF Song song](./create-fixed-thread-pool-for-parallel-html-to-pdf-conversion/)
+Hướng dẫn tạo Fixed Thread Pool trong Java để thực hiện chuyển đổi HTML sang PDF đồng thời, tăng hiệu suất xử lý.
+### [Chuyển đổi HTML sang Markdown – Hướng dẫn đầy đủ C#](./convert-html-to-markdown-complete-c-guide/)
+### [Tạo PDF Kích Thước Tùy Chỉnh từ HTML trong Java – Hướng Dẫn Đầy Đủ](./create-pdf-custom-size-from-html-in-java-full-guide/)
+Hướng dẫn chi tiết cách tạo file PDF với kích thước tùy chỉnh từ HTML trong Java bằng Aspose.HTML.
+### [Chuyển đổi HTML sang PDF trong Java chỉ một dòng](./html-to-pdf-tutorial-convert-html-to-pdf-in-java-in-one-line/)
+Hướng dẫn nhanh cách chuyển đổi HTML sang PDF trong Java chỉ với một dòng mã, đơn giản và hiệu quả.
+### [Tạo PDF từ HTML trong Java – Hướng dẫn từng bước](./create-pdf-from-html-in-java-step-by-step-guide/)
+Hướng dẫn chi tiết cách tạo PDF từ HTML trong Java bằng Aspose.HTML, bao gồm các bước cấu hình và tùy chỉnh.
+### [Chuyển đổi HTML sang PDF trong Java – Hướng dẫn Thread Pool cố định song song](./convert-html-to-pdf-in-java-parallel-fixed-thread-pool-guide/)
+Hướng dẫn cách sử dụng Fixed Thread Pool để chuyển đổi HTML sang PDF đồng thời trong Java, tối ưu hiệu suất và tài nguyên.
+### [Chuyển đổi Markdown sang PDF trong Java – Hướng dẫn đầy đủ](./convert-markdown-to-pdf-in-java-complete-guide/)
+Hướng dẫn chi tiết cách chuyển đổi tài liệu Markdown sang PDF trong Java bằng Aspose.HTML, bao gồm các bước cấu hình và tùy chỉnh.
+### [Cách chuyển đổi SVG – Hướng dẫn đầy đủ sử dụng Aspose HTML Converter](./how-to-convert-svg-complete-guide-using-aspose-html-converte/)
+Hướng dẫn chi tiết cách chuyển đổi SVG sang các định dạng khác bằng Aspose HTML Converter trong Java.
+### [Chuyển đổi HTML sang PDF với Fixed Thread Pool Java – Hướng dẫn từng bước](./convert-html-to-pdf-with-fixed-thread-pool-java-step-by-step/)
+Hướng dẫn sử dụng Fixed Thread Pool trong Java để chuyển đổi HTML sang PDF hiệu quả với Aspose.HTML, bao gồm cấu hình và ví dụ thực tế.
+### [Hướng dẫn HTML sang PDF: Chuyển đổi trang web sang PDF với Java](./html-to-pdf-tutorial-convert-web-pages-to-pdf-with-java/)
+Hướng dẫn chi tiết cách chuyển đổi các trang web HTML sang PDF trong Java bằng Aspose.HTML, với các bước thực hành dễ hiểu.
 
 ## Câu hỏi thường gặp
 

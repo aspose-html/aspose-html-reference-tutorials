@@ -1,0 +1,7 @@
+Title: create pdf a4 size with Java – Full Step‑by‑Step Guide
+Slug: create-pdf-a4-size-with-java-full-step-by-step-guide
+Category: conversion-html-to-other-formats
+ProcessedDate: 2026-05-25T20:44:25.693592
+SourceRepo: AI Search API
+Keywords: create pdf a4 size, convert html to pdf, java html to pdf, custom pdf page size, html file to pdf
+PRNumber: 161

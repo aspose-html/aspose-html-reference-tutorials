@@ -32,6 +32,8 @@ Découvrez comment travailler avec des documents HTML dans .NET à l'aide d'Aspo
 Découvrez comment utiliser Aspose.HTML pour .NET pour manipuler efficacement des documents HTML. Tutoriel étape par étape pour les développeurs.
 ### [Fournisseur de flux de mémoire dans .NET avec Aspose.HTML](./memory-stream-provider/)
 Découvrez comment créer de superbes documents HTML dans .NET avec Aspose.HTML. Suivez notre tutoriel étape par étape et découvrez la puissance de la manipulation HTML.
+### [Créer un flux mémoire C# – Guide de création de flux personnalisé](./create-memory-stream-c-custom-stream-creation-guide/)
+Apprenez à créer un flux mémoire personnalisé en C# avec Aspose.HTML, incluant des exemples pas à pas et des conseils pratiques.
 ### [Web Scraping en .NET avec Aspose.HTML](./web-scraping/)
 Apprenez à manipuler des documents HTML dans .NET avec Aspose.HTML. Parcourez, filtrez, interrogez et sélectionnez des éléments de manière efficace pour un développement Web amélioré.
 ### [Utiliser la propriété de contenu étendu dans .NET avec Aspose.HTML](./use-extended-content-property/)
@@ -44,6 +46,8 @@ Découvrez comment convertir du HTML en PDF, XPS et images avec Aspose.HTML pour
 Découvrez comment utiliser Aspose.HTML pour .NET pour générer dynamiquement des documents HTML à partir de données JSON. Exploitez la puissance de la manipulation HTML dans vos applications .NET.
 ### [Comment combiner des polices programmatiquement en C# – Guide étape par étape](./how-to-combine-fonts-programmatically-in-c-step-by-step-guid/)
 Apprenez à combiner plusieurs polices en C# avec Aspose.HTML, étape par étape, incluant des exemples de code et des FAQ.
+### [Obtenir la version de l'assembly en C# – Guide rapide pour récupérer la version d'une bibliothèque](./get-assembly-version-in-c-quick-guide-to-retrieve-library-ve/)
+Apprenez à récupérer la version d'un assembly C# rapidement, avec des exemples de code simples.
 
 ## Conclusion
 

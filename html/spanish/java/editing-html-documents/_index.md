@@ -58,6 +58,10 @@ Aprenda a agregar CSS en línea a documentos HTML con Aspose.HTML para Java. Est
 Aprenda a administrar propiedades HTML internas y externas en Aspose.HTML para Java con esta guía paso a paso, perfecta para desarrolladores web y creadores de contenido.
 ### [Implemente CSS interno en documentos HTML con Aspose.HTML para Java](./implement-internal-css-html-documents/)
 Aprenda a implementar CSS interno en documentos HTML usando Aspose.HTML para Java con nuestro sencillo tutorial paso a paso.
+### [Pool de hilos fijo en Java – Limpieza paralela de HTML con ExecutorService](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
+Aprenda a usar un pool de hilos fijo y ExecutorService para limpiar HTML en paralelo con Aspose.HTML para Java.
+### [Agregar un hijo al cuerpo en Java – Tutorial completo de Aspose.HTML](./append-child-to-body-in-java-full-aspose-html-tutorial/)
+Aprenda a agregar un elemento hijo al cuerpo del documento HTML usando Aspose.HTML para Java en este tutorial paso a paso.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

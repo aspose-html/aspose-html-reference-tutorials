@@ -58,6 +58,10 @@ Java के लिए Aspose.HTML का उपयोग करके HTML द�
 इस चरण-दर-चरण मार्गदर्शिका के साथ Java के लिए Aspose.HTML में आंतरिक और बाहरी HTML गुणों को प्रबंधित करना सीखें, जो वेब डेवलपर्स और सामग्री निर्माताओं के लिए एकदम सही है।
 ### [Java के लिए Aspose.HTML के साथ HTML दस्तावेज़ों में आंतरिक CSS लागू करें](./implement-internal-css-html-documents/)
 हमारे आसान चरण-दर-चरण ट्यूटोरियल के साथ Java के लिए Aspose.HTML का उपयोग करके HTML दस्तावेज़ों में आंतरिक CSS को लागू करना सीखें।
+### [Fixed thread pool java – ExecutorService के साथ समानांतर HTML सफाई](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
+ExecutorService के साथ Fixed Thread Pool का उपयोग करके समानांतर रूप से HTML को साफ़ करने की प्रक्रिया सीखें।
+### [Java में बॉडी में चाइल्ड जोड़ें – पूर्ण Aspose.HTML ट्यूटोरियल](./append-child-to-body-in-java-full-aspose-html-tutorial/)
+Java के लिए Aspose.HTML का उपयोग करके बॉडी में नया तत्व जोड़ने की पूरी चरण-दर-चरण गाइड।
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,0 +1,7 @@
+Title: Convert HTML to PDF in Java – Parallel Thread Pool Guide
+Slug: convert-html-to-pdf-in-java-parallel-thread-pool-guide
+Category: conversion-html-to-other-formats
+ProcessedDate: 2026-06-01T04:55:09.169183
+SourceRepo: AI Search API
+Keywords: convert html to pdf, java fixed thread pool, convert multiple html files, shutdown executorservice java, aspose html to pdf
+PRNumber: 168

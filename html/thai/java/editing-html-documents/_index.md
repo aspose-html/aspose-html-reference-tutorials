@@ -58,6 +58,9 @@ CSS ภายนอกคือจุดที่พลังที่แท้�
 เรียนรู้วิธีจัดการคุณสมบัติ HTML ภายในและภายนอกใน Aspose.HTML สำหรับ Java ด้วยคู่มือทีละขั้นตอนนี้ ซึ่งเหมาะสำหรับนักพัฒนาเว็บและผู้สร้างเนื้อหา
 ### [นำ CSS ภายในไปใช้ในเอกสาร HTML ด้วย Aspose.HTML สำหรับ Java](./implement-internal-css-html-documents/)
 เรียนรู้การนำ CSS ภายในไปใช้ในเอกสาร HTML โดยใช้ Aspose.HTML สำหรับ Java ด้วยบทช่วยสอนทีละขั้นตอนง่ายๆ ของเรา
+### [Fixed thread pool Java – การทำความสะอาด HTML แบบขนานด้วย ExecutorService](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
+### [เพิ่ม child ไปยัง body ใน Java – บทช่วยสอนเต็ม Aspose.HTML](./append-child-to-body-in-java-full-aspose-html-tutorial/)
+เรียนรู้วิธีเพิ่ม child element ลงใน body ของเอกสาร HTML ด้วย Aspose.HTML สำหรับ Java อย่างละเอียด
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

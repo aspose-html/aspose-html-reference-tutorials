@@ -1,0 +1,7 @@
+Title: Convert HTML to ZIP with Aspose.HTML – Complete C# Guide
+Slug: convert-html-to-zip-with-aspose-html-complete-c-guide
+Category: html-extensions-and-conversions
+ProcessedDate: 2026-07-31T10:17:05.480078
+SourceRepo: AI Search API
+Keywords: convert html to zip, extract images from html, custom resource handler
+PRNumber: 225

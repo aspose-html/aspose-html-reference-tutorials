@@ -1,0 +1,7 @@
+Title: Convert HTML to PDF in Python – complete guide with Markdown export
+Slug: convert-html-to-pdf-in-python-complete-guide-with-markdown-e
+Category: general
+ProcessedDate: 2026-08-16T06:35:36.405040
+SourceRepo: AI Search API
+Keywords: convert html to pdf, save html as pdf, export html to markdown, convert html to markdown, html to pdf python
+PRNumber: 243

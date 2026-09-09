@@ -1,0 +1,7 @@
+Title: How to convert template to HTML with a Java template engine
+Slug: how-to-convert-template-to-html-with-a-java-template-engine
+Category: creating-managing-html-documents
+ProcessedDate: 2026-09-07T14:23:38.810331
+SourceRepo: AI Search API
+Keywords: how to convert template, generate html from template, how to use foreach, java template engine example, convert html template
+PRNumber: 256

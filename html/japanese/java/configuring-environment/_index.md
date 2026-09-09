@@ -116,7 +116,10 @@ Learn how to configure the Runtime Service in Aspose.HTML for Java to optimize s
 Learn how to implement sandboxing in Aspose.HTML for Java to securely control script execution in your HTML documents and convert them to PDF.
 
 ### [Aspose.HTML for Java でユーザースタイルシートを設定する](./set-user-style-sheet/)
-Learn how to set a custom user stylesheet in Aspose.HTML for Java, enhancing your document styling and converting HTML to PDF with ease.
+Learn how to set a custom user stylesheet in Aspose.HTML for Java, enhancing your document styling and converting HTML to PDF with ease。
+
+### [Aspose HTML サンドボックスの作成 – 完全な Java ガイド](./create-aspose-html-sandbox-complete-java-guide/)
+Aspose.HTML のサンドボックスを Java で構築し、セキュアに HTML を PDF や PNG に変換する手順を詳しく解説します。
 
 ---
 

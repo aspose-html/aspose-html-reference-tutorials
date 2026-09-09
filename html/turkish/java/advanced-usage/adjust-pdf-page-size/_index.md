@@ -1,8 +1,8 @@
 ---
-date: 2025-12-01
+date: 2026-03-18
 description: Aspose.HTML for Java kullanarak PDF sayfa boyutunu nasıl ayarlayacağınızı,
-  HTML'yi PDF olarak nasıl render edeceğinizi ve HTML'den PDF oluşturacağınızı öğrenin.
-  Sayfa boyutlarını kolayca kontrol edin.
+  HTML'yi PDF'ye nasıl dönüştüreceğinizi ve HTML'den PDF oluşturmayı öğrenin. Sayfa
+  boyutlarını kolayca kontrol edin.
 linktitle: Adjusting PDF Page Size
 second_title: Java HTML Processing with Aspose.HTML
 title: Aspose.HTML for Java ile PDF Sayfa Boyutunu Ayarlayın
@@ -16,33 +16,36 @@ weight: 15
 
 # Aspose.HTML for Java ile PDF Sayfa Boyutunu Ayarlama
 
-HTML'den PDF oluşturmak, raporlar, faturalar ve e‑kitaplar için yaygın bir gereksinimdir. **PDF sayfa boyutunu ayarladığınızda**, son belgenin HTML'de tasarladığınız düzenle eşleşmesini sağlarsınız. Bu öğreticide, HTML'yi PDF olarak nasıl oluşturacağınızı, özel boyutlar nasıl ayarlayacağınızı ve sayfanın en geniş içeriğe otomatik olarak genişleyip genişlemeyeceğini nasıl kontrol edeceğinizi öğreneceksiniz. Aspose.HTML for Java kullanarak eksiksiz, uygulamalı bir örnek üzerinden ilerleyeceğiz.
+HTML'den PDF oluşturmak, raporlar, faturalar ve e‑kitaplar için yaygın bir gereksinimdir. **adjust PDF page size** yaptığınızda, son belgenin HTML'de tasarladığınız düzenle eşleştiğinden emin olursunuz. Bu öğreticide, HTML'yi PDF'ye nasıl render edeceğinizi, özel boyutları nasıl ayarlayacağınızı ve sayfanın en geniş içeriğe otomatik olarak genişleyip genişlemeyeceğini nasıl kontrol edeceğinizi öğreneceksiniz. Aspose.HTML for Java kullanarak eksiksiz, uygulamalı bir örnek üzerinden ilerleyeceğiz, böylece kendi projelerinizde **change PDF page dimensions** işlemini güvenle yapabilirsiniz.
 
 ## Hızlı Yanıtlar
-- **“PDF sayfa boyutunu ayarlama” ne anlama geliyor?** Her PDF sayfasının genişliğini ve yüksekliğini tanımlamanızı sağlar veya renderlayıcının en geniş öğeye otomatik olarak uyum sağlamasına izin verir.  
+- **“adjust PDF page size” ne anlama geliyor?** Her PDF sayfasının genişliğini ve yüksekliğini tanımlamanızı sağlar veya renderlayıcının en geniş öğeye otomatik olarak uymasına izin verir.  
 - **Hangi kütüphane kullanılıyor?** Aspose.HTML for Java (en son sürüm).  
-- **Lisans gerekli mi?** Geliştirme için ücretsiz deneme sürümü yeterlidir; üretim için ticari lisans gereklidir.  
+- **Bir lisansa ihtiyacım var mı?** Geliştirme için ücretsiz deneme sürümü çalışır; üretim için ticari lisans gereklidir.  
 - **Boyutları programlı olarak değiştirebilir miyim?** Evet – `PageSetup` ve `AdjustToWidestPage` özelliğini kullanın.  
-- **Java 8+ ile uyumlu mu?** Kesinlikle – API, JDK 8 ve üzerindeki tüm sürümlerle çalışır.
+- **Bu Java 8+ ile uyumlu mu?** Kesinlikle – API, JDK 8 veya daha yeni sürümlerle çalışır.
 
-## “PDF sayfa boyutunu ayarlama” nedir?
+## “adjust PDF page size” nedir?
 PDF sayfa boyutunu ayarlamak, HTML renderlayıcısının oluşturduğu her sayfanın boyutlarını yapılandırmak anlamına gelir. Sabit bir boyut (ör. A4, Letter) belirleyebilir veya renderlayıcının içeriğe göre optimal genişliği hesaplamasına izin verebilirsiniz. Bu, düzen, sayfalama ve görsel doğruluk üzerinde kesin kontrol sağlar.
 
-## HTML'yi PDF'ye dönüştürürken PDF sayfa boyutunu neden ayarlamalısınız?
-- **Tasarım amacını koruma:** İçeriğin kesilmesini veya uzatılmasını önler.  
-- **Baskı için optimize et:** Sonraki süreçlerde gereken kağıt boyutuyla eşleşir.  
-- **Okunabilirliği artır:** Aşırı boşluk veya sıkışık metinlerden kaçınır.  
-- **Dinamik belgeler:** Geniş tabloları veya görselleri manuel hesaplama yapmadan otomatik olarak sığdırır.
+## HTML'den PDF'ye dönüştürürken PDF sayfa boyutunu neden ayarlamalısınız?
+- **Tasarım amacını koruyun:** İçeriğin kesilmesini veya uzatılmasını önleyin.  
+- **Baskı için optimize edin:** Sonraki süreçlerde gereken kağıt boyutuyla eşleşin.  
+- **Okunabilirliği artırın:** Aşırı beyaz alan veya sıkışık metinlerden kaçının.  
+- **Dinamik belgeler:** Geniş tabloları veya resimleri manuel hesaplama yapmadan otomatik olarak sığdırın.  
+
+## “render HTML to PDF” ile “generate PDF from HTML” ne zaman kullanılmalı
+Her iki ifade de aynı dönüşüm sürecini tanımlar, ancak kelime seçimi arama bulunurluğu açısından önemlidir. Render motoruna odaklandığınızda **render HTML to PDF** ifadesini, son sonuca vurgu yaptığınızda **generate PDF from HTML** ifadesini kullanın. Bu rehberde her iki senaryoyu da ele alıyoruz.
 
 ## Önkoşullar
-Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
+Başlamadan önce şunların yüklü olduğundan emin olun:
 
-- **Java Development Kit (JDK) 8 veya daha üstü** makinenizde kurulu.  
-- **Aspose.HTML for Java** – en son JAR dosyasını [resmi sürüm sayfasından](https://releases.aspose.com/html/java/) indirin.  
-- **Dönüştürmek istediğiniz bir HTML dosyası** (örnekte `FirstFile.html` dosyasını kullanacağız).
+- **Java Development Kit (JDK) 8 veya üzeri** makinenizde kurulu.  
+- **Aspose.HTML for Java** – en son JAR dosyasını [official release page](https://releases.aspose.com/html/java/) adresinden indirin.  
+- **Dönüştürmek istediğiniz bir HTML dosyası** (örnekte `FirstFile.html` dosyasını kullanacağız).  
 
 ## Paketleri İçe Aktarma
-İlk olarak, ihtiyacımız olan sınıfları içe aktarın. Aşağıdaki kod bloğu orijinal öğreticiden değiştirilmemiştir.
+İlk olarak ihtiyacımız olan sınıfları içe aktaralım. Aşağıdaki kod bloğu orijinal öğreticiden değiştirilmemiştir.
 
 ```java
 import com.aspose.html.HTMLDocument;
@@ -54,14 +57,14 @@ import com.aspose.html.rendering.PageSetup;
 ```
 
 ## Adım 1: HTML İçeriğini Oku
-`FileInputStream` kullanarak kaynak HTML dosyasını okuruz. Bu adım, ham işaretlemenin sonraki işlemler için hazırlanmasını sağlar.
+Kaynak HTML dosyasını bir `FileInputStream` kullanarak okuruz. Bu adım, ham işaretlemenin sonraki manipülasyonlar için hazırlanmasını sağlar.
 
 ```java
 try (java.io.FileInputStream fileInputStream = new java.io.FileInputStream(Resources.input("FirstFile.html"))) {
 ```
 
 ## Adım 2: HTML'i Yaz (ve isteğe bağlı olarak zenginleştir)
-Burada orijinal HTML'i yeni bir dosyaya kopyalıyor ve stilin PDF çıktısını nasıl etkilediğini göstermek için birkaç satır içi stil ekliyoruz. Örnek CSS'i kendi stilinizle değiştirmekten çekinmeyin.
+Burada orijinal HTML'i yeni bir dosyaya kopyalıyor ve stilin PDF çıktısını nasıl etkilediğini göstermek için birkaç satır iç stil ekliyoruz. Örnek CSS'i kendi stilinizle değiştirmekten çekinmeyin.
 
 ```java
 try (java.io.FileOutputStream fileOutputStream = new java.io.FileOutputStream(Resources.output("FirstFileOut.html"))) {
@@ -85,11 +88,11 @@ try (java.io.FileOutputStream fileOutputStream = new java.io.FileOutputStream(Re
 }
 ```
 
-## Adım 3: HTML'i PDF'ye Renderla – İki Senaryo
-Şimdi **HTML'den PDF oluşturma** işlemini iki farklı sayfa boyutu stratejisiyle göreceğiz.
+## Adım 3: HTML'i PDF'ye Render Et – İki Senaryo
+Şimdi iki farklı sayfa‑boyutu stratejisiyle **generate PDF from HTML** nasıl yapılacağını göreceğiz.
 
 ### 3.1 Sayfa boyutu içeriğin genişliğine AYARLANMAMIŞ
-Bu durumda sayfa boyutlarını (100 × 100 point) sabitleriz. Herhangi bir öğe bu sınırları aşarsa kırpılacaktır.
+Bu durumda sayfa boyutlarını (100 × 100 point) sabit tutuyoruz. Herhangi bir öğe bu limitleri aşarsa kırpılır.
 
 ```java
 String pdf_output;
@@ -113,7 +116,7 @@ pdf_renderer.render(device, html_document);
 ```
 
 ### 3.2 Sayfa boyutu içeriğin genişliğine AYARLANMIŞ
-Burada `AdjustToWidestPage` özelliğini etkinleştiririz, böylece renderlayıcı en geniş öğeyi sığdırmak için sayfa genişliğini otomatik olarak genişletir, yüksekliği sabit tutar.
+Burada `AdjustToWidestPage` özelliğini etkinleştiriyoruz; böylece renderlayıcı en geniş öğeyi sığdırmak için sayfa genişliğini otomatik olarak genişletir, yüksekliği sabit tutar.
 
 ```java
 com.aspose.html.rendering.pdf.PdfRenderingOptions pdf_options = new com.aspose.html.rendering.pdf.PdfRenderingOptions();
@@ -129,48 +132,54 @@ device = new com.aspose.html.rendering.pdf.PdfDevice(pdf_options, pdf_output);
 pdf_renderer.render(device, html_document);
 ```
 
-## Kod içinde PDF boyutlarını (PDF sayfa boyutunu nasıl değiştiririz) ayarlama
+## Kod içinde PDF boyutlarını nasıl ayarlarsınız (PDF sayfa boyutunu nasıl değiştirirsiniz)
 `PageSetup` nesnesi anahtar:
 
 - `setAnyPage(Page page)`: temel genişlik × yüksekliği tanımlar.  
 - `setAdjustToWidestPage(boolean)`: otomatik genişlemeyi açar/kapatır.  
 
-Bu iki özelliği ayarlayarak, statik bir A4 sayfasına ya da HTML düzeninizi takip eden dinamik bir genişliğe ihtiyacınız olsun, **PDF boyutlarını nasıl ayarlayacağınızı** her senaryo için yapabilirsiniz.
+Bu iki özelliği ayarlayarak, statik bir A4 sayfasına ya da HTML düzeninizi takip eden dinamik bir genişliğe ihtiyacınız olsun, **change PDF page dimensions** işlemini her senaryoda gerçekleştirebilirsiniz.
 
 ## Yaygın Sorunlar ve İpuçları
-| Sorun | Neden Oluşur | Çözüm |
-|-------|--------------|------|
+| Issue | Why it Happens | Fix |
+|-------|----------------|-----|
 | İçerik kesiliyor | Sabit boyut çok küçük | `Size` değerlerini artırın veya `AdjustToWidestPage` özelliğini etkinleştirin. |
-| Metin bulanık görünüyor | Render DPI varsayılanı düşük | Kaliteyi artırmak için `PdfRenderingOptions.setResolution(int dpi)` kullanın. |
+| Metin bulanık görünüyor | Render DPI varsayılanı düşük | `PdfRenderingOptions.setResolution(int dpi)` kullanarak kaliteyi artırın. |
 | Stiller eksik | Harici CSS yüklenmedi | CSS'i satır içi gömün veya `HTMLDocument.setBaseUrl()` ile stil sayfası klasörünü gösterin. |
-| Büyük HTML dosyaları OutOfMemoryError hatası verir | Renderlayıcı tüm belgeyi belleğe yüklüyor | Belgeyi parçalar halinde işleyin veya JVM yığın boyutunu artırın (`-Xmx`). |
+| Büyük HTML dosyaları OutOfMemoryError hatasına neden oluyor | Renderlayıcı tüm belgeyi belleğe yüklüyor | Belgeyi parçalara bölerek işleyin veya JVM yığın boyutunu (`-Xmx`) artırın. |
 
-## Sıkça Sorulan Sorular
+## PDF Sayfa Boyutu Ayarlama İçin Ek İpuçları
+- **Standart sayfa boyutlarını kullanın** (A4, Letter) `com.aspose.html.drawing.PaperSize` sınıfından önceden tanımlı `Size` nesnelerini geçirerek.  
+- **Genişlik ayarlamasını yükseklik ölçeklendirmesiyle birleştirin** görüntüler için en‑boy oranlarını korumak amacıyla.  
+- **DPI ayarlayın** yüksek çözünürlüklü çıktı gerektiğinde, özellikle baskıya hazır PDF'lerde.  
+- **Farklı içeriklerle test edin** (tablolar, resimler, uzun paragraflar) `AdjustToWidestPage`'in beklendiği gibi çalıştığını doğrulamak için.  
 
-**S: Aspose.HTML for Java nedir?**  
-C: HTML belgeleri oluşturmanıza, düzenlemenize ve renderlamanıza olanak tanıyan bir Java kütüphanesidir; PDF, PNG ve diğer formatlara dönüştürme dahil.
+## Sık Sorulan Sorular
 
-**S: Aspose.HTML for Java ile HTML'yi PDF'ye dönüştürürken PDF sayfa boyutunu nasıl ayarlayabilirim?**  
-C: `PageSetup` sınıfını kullanın ve `AdjustToWidestPage` özelliğini `true` (otomatik boyut) veya `false` (sabit boyut) olarak ayarlayın. Ardından istediğiniz `Size` değerini `new Page(new Size(width, height))` ile atayın.
+**Q: Aspose.HTML for Java nedir?**  
+A: HTML belgeleri oluşturmanıza, düzenlemenize ve renderlamanıza olanak tanıyan, PDF, PNG ve diğer formatlara dönüşüm de dahil olmak üzere bir Java kütüphanesidir.
 
-**S: HTML içeriğinin stilini PDF'ye dönüştürmeden önce özelleştirebilir miyim?**  
-C: Evet – CSS ekleyebilir, DOM'u değiştirebilir veya harici stil sayfaları kullanabilirsiniz. Öğreticide satır içi CSS enjeksiyonu gösterilmiştir.
+**Q: Aspose.HTML for Java ile HTML'den PDF'ye dönüştürürken PDF sayfa boyutunu nasıl ayarlarım?**  
+A: `PageSetup` sınıfını kullanın ve `AdjustToWidestPage` özelliğini `true` (otomatik boyut) ya da `false` (sabit boyut) olarak ayarlayın. Ardından `new Page(new Size(width, height))` ile istediğiniz `Size` değerini atayın.
 
-**S: Aspose.HTML for Java belgelerine nereden ulaşabilirim?**  
-C: Kapsamlı dokümantasyon [burada](https://reference.aspose.com/html/java/) mevcuttur.
+**Q: HTML içeriğinin stilini PDF'ye dönüştürmeden önce özelleştirebilir miyim?**  
+A: Evet – CSS enjekte edebilir, DOM'u değiştirebilir veya harici stil sayfaları kullanabilirsiniz. Öğreticide satır içi CSS enjeksiyonu gösterilmiştir.
 
-**S: Aspose.HTML for Java için ücretsiz deneme sürümü var mı?**  
-C: Kesinlikle – deneme sürümünü [sürüm sayfasından](https://releases.aspose.com/html/java/) indirebilirsiniz.
+**Q: Aspose.HTML for Java dokümantasyonunu nerede bulabilirim?**  
+A: Kapsamlı dokümanlar [here](https://reference.aspose.com/html/java/) adresinde mevcuttur.
+
+**Q: Aspose.HTML for Java için ücretsiz bir deneme sürümü var mı?**  
+A: Kesinlikle – bir deneme sürümünü [release page](https://releases.aspose.com/html/java/) adresinden indirebilirsiniz.
 
 ## Sonuç
-Artık Aspose.HTML for Java kullanarak **PDF sayfa boyutunu nasıl ayarlayacağınızı**, **HTML'yi PDF olarak nasıl renderlayacağınızı** ve **özel PDF boyutlarını nasıl belirleyeceğinizi** biliyorsunuz. Farklı sayfa boyutları, DPI ayarları ve CSS ince ayarlarıyla denemeler yaparak çıktıyı kendi kullanım senaryonuza göre mükemmelleştirin. Zorluklarla karşılaşırsanız resmi dokümantasyona veya Aspose destek forumlarına başvurun.
+Artık Aspose.HTML for Java kullanarak **adjust PDF page size**, **render HTML to PDF** ve **set custom PDF dimensions** işlemlerini nasıl yapacağınızı biliyorsunuz. Farklı sayfa boyutları, DPI ayarları ve CSS ince ayarlarıyla denemeler yaparak çıktıyı kendi kullanım senaryonuza göre mükemmelleştirin. Zorluklarla karşılaşırsanız resmi dokümantasyona veya Aspose destek forumlarına başvurun.
 
 ---
 
-**Son Güncelleme:** 2025-12-01  
-**Test Edilen Versiyon:** Aspose.HTML for Java 24.12 (en son)  
-**Yazar:** Aspose  
-**İlgili Kaynaklar:** [API Referansı](https://reference.aspose.com/html/java/) | [Ücretsiz Deneme İndir](https://releases.aspose.com/html/java/)
+**Last Updated:** 2026-03-18  
+**Tested With:** Aspose.HTML for Java (latest)  
+**Author:** Aspose  
+**Related Resources:** [API Reference](https://reference.aspose.com/html/java/) | [Download Free Trial](https://releases.aspose.com/html/java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

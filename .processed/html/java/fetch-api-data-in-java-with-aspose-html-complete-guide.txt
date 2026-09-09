@@ -1,0 +1,7 @@
+Title: fetch api data in Java with Aspose.HTML - Complete Guide
+Slug: fetch-api-data-in-java-with-aspose-html-complete-guide
+Category: message-handling-networking
+ProcessedDate: 2026-05-29T00:49:38.104777
+SourceRepo: AI Search API
+Keywords: fetch api data, execute async javascript, run async script, set dom attribute, how to run async
+PRNumber: 164

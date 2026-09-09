@@ -1,0 +1,7 @@
+Title: Custom Resource Handler in C# – How to Create ZIP of HTML
+Slug: custom-resource-handler-in-c-how-to-create-zip-of-html
+Category: html-extensions-and-conversions
+ProcessedDate: 2026-07-22T02:15:38.222251
+SourceRepo: AI Search API
+Keywords: custom resource handler, how to create zip, create html zip, export html to zip, save html zip
+PRNumber: 216

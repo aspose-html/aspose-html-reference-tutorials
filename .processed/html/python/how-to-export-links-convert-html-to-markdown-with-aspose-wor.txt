@@ -1,0 +1,7 @@
+Title: How to Export Links: Convert HTML to Markdown with Aspose.Words
+Slug: how-to-export-links-convert-html-to-markdown-with-aspose-wor
+Category: general
+ProcessedDate: 2026-07-02T15:46:13.971462
+SourceRepo: AI Search API
+Keywords: how to export links, html to markdown, convert html to markdown, convert document to markdown, extract links from html
+PRNumber: 200

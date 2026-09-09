@@ -35,15 +35,19 @@ Představte si, že potřebujete generovat obsah HTML za chodu na základě vstu
 
 ## Vytvářejte nové dokumenty HTML a zvládejte pokročilé načítání souborů
 
-Pokud jde o generování nových dokumentů HTML, Aspose.HTML for Java nabízí robustní řešení, které vám umožní vytvářet bohatý webový obsah od začátku. Ať už pracujete na redakčním systému nebo potřebujete generovat sestavy ve formátu HTML, pochopení toho, jak vytvářet a spravovat nové HTML dokumenty, je zásadní. Pokročilé techniky načítání souborů vám navíc umožňují pracovat se složitými dokumenty HTML a zajišťují, že snadno zvládnete rozsáhlé projekty. Tyto výukové programy vás provedou každým krokem a zajistí, že budete připraveni vypořádat se s jakoukoli výzvou související s HTML.[Přečtěte si více](./generate-new-html-documents/)
+ Pokud jde o generování nových dokumentů HTML, Aspose.HTML for Java nabízí robustní řešení, které vám umožní vytvářet bohatý webový obsah od začátku. Ať už pracujete na redakčním systému nebo potřebujete generovat sestavy ve formátu HTML, pochopení toho, jak vytvářet a spravovat nové HTML dokumenty, je zásadní. Pokročilé techniky načítání souborů vám navíc umožňují pracovat se složitými dokumenty HTML a zajišťují, že snadno zvládnete rozsáhlé projekty. Tyto výukové programy vás provedou každým krokem a zajistí, že budete připraveni vypořádat se s jakoukoli výzvou související s HTML.[Přečtěte si více](./generate-new-html-documents/)
 
 ## Správa dokumentů SVG a zpracování událostí
 
  A konečně, pro ty, kteří chtějí své dovednosti posouvat ještě dále, je tu spousta pokročilých témat k prozkoumání. Naučte se spravovat dokumenty SVG nebo zpracovávat události načítání dokumentů a vytvářet citlivé a dynamické webové aplikace. Tyto výukové programy vás zavedou za hranice HTML, ponoříte se do složitostí škálovatelné vektorové grafiky (SVG) a programování řízeného událostmi.[Přečtěte si více](./create-manage-svg-documents/)
 
 ## Vytváření a správa HTML dokumentů v Aspose.HTML pro Java tutoriály
+
+
 ### [Vytvářejte dokumenty HTML asynchronně v Aspose.HTML pro Java](./create-html-documents-async/)
 Hlavní vytváření HTML dokumentů asynchronně s Aspose.HTML pro Java. Součástí je podrobný průvodce, tipy a často kladené otázky pro rychlé učení.
+### [Spusťte asynchronní JavaScript v Javě – Kompletní průvodce krok za krokem](./execute-async-javascript-in-java-complete-step-by-step-guide/)
+Kompletní návod, jak spouštět asynchronní JavaScript v Javě pomocí Aspose.HTML, včetně praktických příkladů a tipů.
 ### [Vytvořte prázdné HTML dokumenty v Aspose.HTML pro Java](./create-empty-html-documents/)
 Naučte se vytvářet prázdné HTML dokumenty v Javě pomocí Aspose.HTML s naším podrobným návodem krok za krokem, který je ideální pro vývojáře na všech úrovních.
 ### [Načtěte HTML dokumenty ze souboru v Aspose.HTML pro Java](./load-html-documents-from-file/)
@@ -58,10 +62,32 @@ Naučte se vytvářet HTML dokumenty z řetězců v Aspose.HTML pro Java pomocí
 Objevte, jak snadno načíst HTML dokumenty z URL v Javě pomocí Aspose.HTML. Včetně návodu krok za krokem.
 ### [Generujte nové HTML dokumenty pomocí Aspose.HTML pro Java](./generate-new-html-documents/)
 Naučte se vytvářet nové HTML dokumenty pomocí Aspose.HTML for Java pomocí tohoto jednoduchého průvodce krok za krokem. Začněte generovat dynamický obsah HTML.
+### [Generujte HTML z JavaScriptu v Javě – Kompletní průvodce krok za krokem](./generate-html-from-javascript-in-java-complete-step-by-step/)
+Naučte se generovat HTML pomocí JavaScriptu v Javě pomocí podrobného průvodce krok za krokem.
 ### [Zvládejte události načítání dokumentu v Aspose.HTML pro Java](./handle-document-load-events/)
 Naučte se zvládat události načítání dokumentů v Aspose.HTML pro Java pomocí tohoto podrobného průvodce. Vylepšete své webové aplikace.
+### [Vytvořte sandbox pro HTML v Javě – krok‑za‑krokem průvodce](./create-sandbox-for-html-in-java-step-by-step-guide/)
+Naučte se, jak vytvořit sandboxové prostředí pro bezpečnou manipulaci s HTML v Javě pomocí Aspose.HTML.
 ### [Vytvářejte a spravujte dokumenty SVG v Aspose.HTML pro Javu](./create-manage-svg-documents/)
 Naučte se vytvářet a spravovat dokumenty SVG pomocí Aspose.HTML pro Javu! Tento komplexní průvodce pokrývá vše od základní tvorby až po pokročilou manipulaci.
+### [Jak dotazovat HTML v Javě – Kompletní tutoriál](./how-to-query-html-in-java-complete-tutorial/)
+Kompletní průvodce, jak v Javě dotazovat a získávat data z HTML pomocí Aspose.HTML, včetně příkladů a tipů.
+### [Jak parsovat HTML v Javě – načíst, dotazovat a počítat prvky](./how-to-parse-html-java-load-query-count-elements/)
+Naučte se načíst HTML, dotazovat jej a počítat elementy v Javě pomocí Aspose.HTML v tomto podrobném průvodci.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Iterace NodeList v Javě – čtení HTML a získání src obrázku](./iterate-nodelist-java-read-html-get-image-src/)
+Naučte se, jak iterovat přes NodeList v Javě, číst HTML a získat atribut src obrázku pomocí Aspose.HTML.
+### [Iterace přes NodeList v Javě – Kompletní průvodce](./iterate-over-nodelist-java-complete-guide/)
+Naučte se, jak iterovat přes NodeList v Javě pomocí Aspose.HTML v tomto podrobném průvodci.
+### [Extrahujte text z HTML v Javě – Kompletní průvodce krok‑za‑krokem](./extract-text-from-html-with-java-complete-step-by-step-guide/)
+Kompletní návod, jak pomocí Aspose.HTML pro Java extrahovat text z HTML dokumentů, včetně příkladů a tipů.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

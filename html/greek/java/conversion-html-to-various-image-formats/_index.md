@@ -88,6 +88,7 @@ weight: 24
 - **Απουσία γραμματοσειρών** – Εγκαταστήστε τις απαιτούμενες γραμματοσειρές στον διακομιστή ή ενσωματώστε τις στο HTML με `@font-face`.  
 
 ## Μετατροπή - Εκμάθηση HTML σε διάφορες μορφές εικόνας
+
 ### [Μετατροπή HTML σε BMP](./convert-html-to-bmp/)
 Μετατρέψτε HTML σε BMP με το Aspose.HTML για Java. Ένας ολοκληρωμένος οδηγός για την αδιάλειπτη μετατροπή εγγράφων HTML σε εικόνες BMP χρησιμοποιώντας το Aspose.HTML for Java.
 ### [Μετατροπή HTML σε GIF](./convert-html-to-gif/)
@@ -95,10 +96,27 @@ weight: 24
 ### [Μετατροπή HTML σε JPEG](./convert-html-to-jpeg/)
 Μάθετε να μετατρέπετε HTML σε JPEG με το Aspose.HTML για Java. Οδηγός βήμα‑βήμα για αδιάλειπτη επεξεργασία εγγράφων.
 ### [Μετατροπή HTML σε PNG](./convert-html-to-png/)
-Μάθετε πώς να μετατρέπετε HTML σε εικόνες PNG σε Java με το Aspose.HTML. Ένας ολοκληρωμένος οδηγός με οδηγίες βήμα‑βήμα.
+Μάθετε πώς να μετατρέπετε HTML σε εικόνες PNG σε Java με Aspose.HTML. Ένας ολοκληρωμένος οδηγός με οδηγίες βήμα‑βήμα.
+### [Πώς να αποδώσετε HTML σε PNG – Πλήρης Οδηγός για Προγραμματιστές Java](./how-to-render-html-to-png-complete-guide-for-java-developers/)
+Μάθετε πώς να αποδώσετε HTML σε PNG με Aspose.HTML for Java, βήμα‑βήμα οδηγός για προγραμματιστές Java.
+### [Δημιουργία PNG από HTML σε Java – Πλήρης Οδηγός Βήμα‑βήμα](./create-png-from-html-in-java-full-step-by-step-guide/)
+Μάθετε πώς να δημιουργήσετε PNG από HTML σε Java με πλήρη οδηγό βήμα‑βήμα.
+### [Δημιουργία PNG από HTML – Εξαγωγή SVG υψηλής DPI σε Java](./create-png-from-html-high-dpi-svg-export-in-java/)
+Μάθετε πώς να δημιουργήσετε PNG υψηλής ανάλυσης από HTML εξάγοντας SVG με υψηλό DPI χρησιμοποιώντας Aspose.HTML for Java.
 ### [Μετατροπή HTML σε TIFF](./convert-html-to-tiff/)
-Μάθετε πώς να μετατρέπετε εύκολα HTML σε TIFF χρησιμοποιώντας το Aspose.HTML για Java. Οδηγός βήμα‑βήμα για αποτελεσματική διαχείριση εγγράφων.
+### [Δημιουργία PNG από HTML – Γρήγορη Μαζική Μετατροπή Χρησιμοποιώντας Πισίνα Νημάτων](./create-png-from-html-fast-batch-conversion-using-a-thread-po/)
+Μάθετε πώς να δημιουργείτε γρήγορα PNG από HTML σε δέσμες χρησιμοποιώντας πισίνα νημάτων για υψηλή απόδοση.
+### [Πώς να ορίσετε DPI – Απόδοση HTML σε PNG με AsposeHTML](./how-to-set-dpi-render-html-to-png-with-asposehtml/)
+### [Μετατροπή HTML σε WebP](./convert-html-to-webp-java-guide-to-save-html-as-webp/)
+### [Πώς να καταγράψετε στιγμιότυπο οθόνης μιας ιστοσελίδας με το Aspose HTML – οδηγός Java](./how-to-capture-screenshot-of-a-webpage-with-aspose-html-java/)
 
+### [Μετατροπή HTML σε WebP – Πλήρης Οδηγός Java με Aspose.HTML](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
+### [Δημιουργία PNG από SVG σε Java – Πλήρης Οδηγός Βήμα‑βήμα](./create-png-from-svg-in-java-complete-step-by-step-guide/)
+### [Απόδοση υψηλής ανάλυσης DPI σε Java – Λήψη στιγμιότυπων ιστοσελίδας με προσαρμοσμένο User Agent](./high-dpi-rendering-in-java-capture-webpage-screenshots-with/)
+Μάθετε πώς να αποδίδετε ιστοσελίδες σε υψηλή ανάλυση DPI και να λαμβάνετε στιγμιότυπα με προσαρμοσμένο User Agent χρησιμοποιώντας Aspose.HTML for Java.
+### [Πώς να ορίσετε DPI κατά τη μετατροπή HTML σε PNG – Πλήρης Οδηγός](./how-to-set-dpi-when-converting-html-to-png-complete-guide/)
+Μάθετε πώς να ορίσετε το DPI κατά τη μετατροπή HTML σε PNG χρησιμοποιώντας Aspose.HTML for Java.
+### [Μετατροπή HTML σε PNG με ορισμό μέγιστης χρήσης μνήμης σε Java](./convert-html-to-png-with-set-max-memory-usage-in-java/)
 ## Συχνές Ερωτήσεις
 
 **Ε: Μπορώ να μετατρέψω HTML σε PNG χρησιμοποιώντας Java χωρίς πρόσθετες βιβλιοθήκες εικόνας;**  

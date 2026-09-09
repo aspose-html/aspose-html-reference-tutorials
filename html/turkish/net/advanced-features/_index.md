@@ -32,6 +32,7 @@ Komut dosyası yönetimi, özel stiller, JavaScript yürütme denetimi ve daha f
 HTML belgelerini etkili bir şekilde düzenlemek için Aspose.HTML for .NET'i nasıl kullanacağınızı öğrenin. Geliştiriciler için adım adım eğitim.
 ### [Aspose.HTML ile .NET'te Bellek Akışı Sağlayıcısı](./memory-stream-provider/)
 Aspose.HTML ile .NET'te çarpıcı HTML belgeleri oluşturmayı öğrenin. Adım adım öğreticimizi izleyin ve HTML manipülasyonunun gücünü açığa çıkarın.
+### [Bellek akışı oluşturma c# – Özel akış oluşturma rehberi](./create-memory-stream-c-custom-stream-creation-guide/)
 ### [Aspose.HTML ile .NET'te Web Kazıma](./web-scraping/)
 Aspose.HTML ile .NET'te HTML belgelerini düzenlemeyi öğrenin. Gelişmiş web geliştirme için öğeleri etkili bir şekilde gezinin, filtreleyin, sorgulayın ve seçin.
 ### [.NET'te Aspose.HTML ile Genişletilmiş İçerik Özelliğini Kullanma](./use-extended-content-property/)
@@ -43,7 +44,8 @@ Aspose.HTML for .NET ile HTML'yi PDF, XPS ve resimlere nasıl dönüştüreceği
 ### [Aspose.HTML ile .NET'te HTML Şablonlarını Kullanma](./using-html-templates/)
 JSON verilerinden HTML belgelerini dinamik olarak oluşturmak için Aspose.HTML for .NET'i nasıl kullanacağınızı öğrenin. .NET uygulamalarınızda HTML manipülasyonunun gücünden yararlanın.
 ### [C# ile Programlı Olarak Yazı Tiplerini Birleştirme – Adım Adım Kılavuz](./how-to-combine-fonts-programmatically-in-c-step-by-step-guid/)
-C# kullanarak yazı tiplerini programlı şekilde birleştirmenin adımlarını öğrenin ve dinamik PDF/HTML çıktıları oluşturun.
+### [C#'ta Derleme Sürümünü Alın – Kütüphane Sürümünü Hızlıca Öğrenme Kılavuzu](./get-assembly-version-in-c-quick-guide-to-retrieve-library-ve/)
+C# ile bir derlemenin sürüm numarasını almayı ve kütüphane sürümünü hızlıca öğrenmeyi gösteren adım adım rehber.
 
 ## Çözüm
 

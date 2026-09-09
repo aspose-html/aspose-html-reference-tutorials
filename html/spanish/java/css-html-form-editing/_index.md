@@ -26,10 +26,44 @@ En primer lugar, hablemos de técnicas avanzadas de extensión CSS con Aspose.HT
 Ahora, cambiemos de tema y exploremos cómo editar y enviar formularios HTML de manera efectiva usando Aspose.HTML para Java. Los formularios son el corazón de la interacción del usuario en los sitios web, ¿verdad? Con este tutorial, aprenderá a modificar el diseño y la funcionalidad de los formularios con facilidad. Descubrirá cómo rellenar previamente los campos, validar las entradas con lógica personalizada y facilitar el envío de datos sin problemas a su backend. Imagínese esto: sus usuarios pueden completar un formulario en su sitio y saber que su información está segura y protegida, ¡porque ese es el tipo de experiencia que desea crear! Esta guía paso a paso está repleta de información práctica, lo que garantiza que comprenda todos los conceptos a lo largo del camino.[Leer más](./html-form-editing/). 
 
 ## Edición de formularios CSS y HTML con Aspose.HTML para tutoriales de Java
+
 ### [Técnicas avanzadas de extensión CSS con Aspose.HTML para Java](./advanced-css-extension/)
 Aprenda a utilizar Aspose.HTML para Java para aplicar técnicas avanzadas de CSS, incluidos márgenes de página personalizados y contenido dinámico. Un tutorial práctico y detallado para desarrolladores.
 ### [Edición y envío de formularios HTML con Aspose.HTML para Java](./html-form-editing/)
 Aprenda a editar y enviar formularios HTML mediante programación utilizando Aspose.HTML para Java en esta completa guía paso a paso.
+### [Obtener CSS calculado en Java – Guía completa de Aspose HTML](./get-computed-css-in-java-complete-aspose-html-guide/)
+Aprenda a obtener el CSS calculado de una página web usando Aspose.HTML para Java en esta guía completa.
+### [Cómo obtener estilos en Java – cargar HTML y selector de consultas](./how-to-get-style-in-java-load-html-query-selector/)
+Aprenda a cargar un documento HTML en Java y usar selectores de consulta para obtener estilos CSS de forma programática.
+### [Seleccionar elemento por clase en Java – Guía completa paso a paso](./select-element-by-class-in-java-complete-how-to-guide/)
+Aprenda a seleccionar elementos por clase en Java usando Aspose.HTML con ejemplos claros y paso a paso.
+### [Cómo leer CSS en Java – Guía completa con Aspose.HTML](./how-to-read-css-in-java-complete-guide-with-aspose-html/)
+Aprenda a leer archivos CSS en Java utilizando Aspose.HTML, con ejemplos paso a paso y mejores prácticas.
+### [Analizar HTML con Java: Extraer la propiedad CSS y obtener el tamaño de fuente](./parse-html-with-java-extract-css-property-and-get-font-size/)
+Aprenda a analizar HTML con Java, extraer propiedades CSS y obtener el tamaño de fuente de manera programática.
+### [Cómo consultar HTML en Java – cargar HTML, selector CSS y extraer encabezados](./how-to-query-html-in-java-load-html-css-selector-and-extract/)
+Aprenda a cargar HTML, usar selectores CSS y extraer encabezados con Java de forma sencilla.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Obtener estilo computado Java – Extraer color de fondo de HTML](./get-computed-style-java-extract-background-color-from-html/)
+Aprenda a obtener el estilo computado de un elemento y extraer su color de fondo usando Aspose.HTML para Java.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Obtener el estilo computado del elemento en Java – Guía completa paso a paso](./get-element-computed-style-in-java-full-step-by-step-guide/)
+Aprenda a obtener el estilo computado de un elemento usando Aspose.HTML para Java en esta guía paso a paso.
+### [Cómo usar getComputedStyle en Java – Extraer el color de fondo y otras propiedades CSS](./how-to-use-getcomputedstyle-in-java-extract-background-color/)
+Aprenda a obtener estilos computados en Java con Aspose.HTML, extrayendo colores de fondo y otras propiedades CSS de forma programática.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

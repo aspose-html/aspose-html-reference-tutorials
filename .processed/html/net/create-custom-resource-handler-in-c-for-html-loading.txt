@@ -1,0 +1,7 @@
+Title: Create custom resource handler in C# for HTML loading
+Slug: create-custom-resource-handler-in-c-for-html-loading
+Category: working-with-html-documents
+ProcessedDate: 2026-08-16T06:13:42.744138
+SourceRepo: AI Search API
+Keywords: create custom resource handler
+PRNumber: 241

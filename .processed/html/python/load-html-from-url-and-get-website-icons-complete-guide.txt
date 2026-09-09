@@ -1,0 +1,7 @@
+Title: Load HTML from URL and Get Website Icons – Complete Guide
+Slug: load-html-from-url-and-get-website-icons-complete-guide
+Category: general
+ProcessedDate: 2026-06-10T12:37:59.944031
+SourceRepo: AI Search API
+Keywords: load html from url, get website icons, how to extract favicons, extract favicon urls, fetch website favicon urls
+PRNumber: 180

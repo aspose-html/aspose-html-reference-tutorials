@@ -1,0 +1,7 @@
+Title: how to use sandbox for HTML‑to‑PDF conversion – Complete Java Guide
+Slug: how-to-use-sandbox-for-html-to-pdf-conversion-complete-java
+Category: conversion-html-to-other-formats
+ProcessedDate: 2026-06-10T11:39:38.455982
+SourceRepo: AI Search API
+Keywords: how to use sandbox, convert html to pdf, set viewport size, set custom user agent, create pdf from html
+PRNumber: 179

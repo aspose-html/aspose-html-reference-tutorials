@@ -111,6 +111,8 @@ A: `HtmlLoadOptions`와 `PageSetup` 여백을 설정하고 `EnableCssLayout`을 
 A: 필요 없습니다. 하나의 Aspose.HTML for Java 라이선스로 PDF와 XPS를 포함한 모든 출력 형식을 커버합니다.
 
 ## Aspose.HTML Java 튜토리얼 고급 사용법
+
+
 ### [Aspose.HTML로 HTML 페이지 여백 맞춤하기](./css-extensions-adding-title-page-number/)
 Aspose.HTML for Java를 사용해 HTML 문서의 페이지 여백, 페이지 번호 및 제목을 맞춤 설정하는 방법을 배웁니다.
 ### [Aspose.HTML for Java와 함께하는 DOM Mutation Observer](./dom-mutation-observer-observing-node-additions/)
@@ -125,6 +127,59 @@ Aspose.HTML for Java를 활용해 HTML 양식 자동 채우기 및 제출을 자
 Aspose.HTML for Java를 사용해 PDF 페이지 크기를 조정하는 방법을 배웁니다. HTML에서 고품질 PDF를 손쉽게 생성하고 페이지 치기를 효과적으로 제어합니다.
 ### [Aspose.HTML for Java로 XPS 페이지 크기 조정하기](./adjust-xps-page-size/)
 Aspose.HTML for Java를 사용해 XPS 페이지 크기를 조정하는 방법을 배웁니다. XPS 문서의 출력 치기를 손쉽게 제어합니다.
+### [Java에서 JavaScript 실행하기 – 완전 가이드](./how-to-run-javascript-in-java-complete-guide/)
+Java 애플리케이션 내에서 JavaScript 코드를 실행하고, 엔진 설정 및 스크립트 통합 방법을 단계별로 배웁니다.
+### [Java에서 디바이스 픽셀 비율 설정 – 모바일 샌드박스 튜토리얼](./set-device-pixel-ratio-in-java-mobile-sandbox-tutorial/)
+Java 환경에서 디바이스 픽셀 비율을 설정하고 모바일 샌드박스에서 정확한 렌더링을 구현하는 방법을 배웁니다.
+### [Aspose HTML에서 JavaScript 활성화 – HTML 로드 및 텍스트 가져오기](./how-to-enable-javascript-in-aspose-html-load-html-get-text/)
+### [Java에서 스크립트 실행하기 – JavaScript 실행 및 데이터 추출 완전 가이드](./how-to-run-scripts-in-java-complete-guide-to-execute-javascr/)
+Java 환경에서 JavaScript를 실행하고 데이터를 추출하는 방법을 단계별로 안내합니다.
+
+---
+
+**마지막 업데이트:** 2025-11-29  
+**테스트 환경:** Aspose.HTML for Java 24.11  
+**작성자:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [MHTML에서 HTML 추출 – 완전한 Java 가이드](./extract-html-from-mhtml-complete-java-guide/)
+
+---
+
+**마지막 업데이트:** 2025-11-29  
+**테스트 환경:** Aspose.HTML for Java 24.11  
+**작성자:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Java에서 JavaScript 실행 – Java에서 JS 실행을 위한 완전 가이드](./execute-javascript-in-java-complete-guide-to-running-js-from/)
+Aspose.HTML for Java를 사용해 Java에서 JavaScript 코드를 실행하는 방법을 단계별로 배웁니다.
+
+---
+
+**마지막 업데이트:** 2025-11-29  
+**테스트 환경:** Aspose.HTML for Java 24.11  
+**작성자:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [HTML을 PDF로 변환하기 위한 샌드박스 사용 방법 – 단계별 가이드](./how-to-use-sandbox-for-html-to-pdf-java-step-by-step-guide/)
+Aspose.HTML for Java의 샌드박스를 활용해 안전하게 HTML을 PDF로 변환하는 방법을 단계별로 안내합니다.
+### [Java에서 스크립트 실행 활성화 – 완전 Aspose.HTML 가이드](./enable-script-execution-in-java-complete-aspose-html-guide/)
+Java에서 스크립트 실행을 활성화하고 Aspose.HTML와 통합하는 방법을 단계별로 안내합니다.
 
 ---
 

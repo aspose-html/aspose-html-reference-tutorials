@@ -26,10 +26,41 @@ Primeiro, vamos falar sobre técnicas avançadas de extensão CSS com Aspose.HTM
 Agora, vamos mudar de assunto e explorar como editar e enviar formulários HTML de forma eficaz usando o Aspose.HTML para Java. Os formulários são o coração da interação do usuário em sites, certo? Com este tutorial, você aprenderá a alterar o design e a funcionalidade dos formulários com facilidade. Você descobrirá como preencher previamente campos, validar entradas com lógica personalizada e facilitar envios de dados contínuos para seu backend. Imagine isso: seus usuários podem preencher um formulário em seu site e saber que suas informações estão seguras e protegidas — porque esse é o tipo de experiência que você deseja criar! Este guia passo a passo está repleto de insights acionáveis, garantindo que você entenda todos os conceitos ao longo do caminho.[Ler mais](./html-form-editing/). 
 
 ## Edição de formulários CSS e HTML com Aspose.HTML para tutoriais Java
+
 ### [Técnicas avançadas de extensão CSS com Aspose.HTML para Java](./advanced-css-extension/)
 Aprenda a usar Aspose.HTML para Java para aplicar técnicas avançadas de CSS, incluindo margens de página personalizadas e conteúdo dinâmico. Um tutorial detalhado e prático para desenvolvedores.
 ### [Edição e envio de formulários HTML com Aspose.HTML para Java](./html-form-editing/)
 Aprenda a editar e enviar formulários HTML programaticamente usando o Aspose.HTML para Java neste guia passo a passo abrangente.
+### [Obter CSS computado em Java – Guia Completo do Aspose HTML](./get-computed-css-in-java-complete-aspose-html-guide/)
+Aprenda a recuperar o CSS computado de elementos usando Aspose.HTML para Java neste guia completo.
+### [Selecionar elemento por classe em Java – Guia completo](./select-element-by-class-in-java-complete-how-to-guide/)
+Aprenda a selecionar elementos por classe em Java com Aspose.HTML neste guia completo e prático.
+### [Como ler CSS em Java – Guia completo com Aspose.HTML](./how-to-read-css-in-java-complete-guide-with-aspose-html/)
+Aprenda a ler CSS em Java usando Aspose.HTML neste guia completo e prático.
+### [Analisar HTML com Java: Extrair Propriedade CSS e Obter Tamanho da Fonte](./parse-html-with-java-extract-css-property-and-get-font-size/)
+Aprenda a analisar documentos HTML em Java, extrair propriedades CSS e determinar o tamanho da fonte de elementos.
+### [Como consultar HTML em Java – carregar HTML, seletor CSS e extrair cabeçalhos](./how-to-query-html-in-java-load-html-css-selector-and-extract/)
+Aprenda a carregar documentos HTML, usar seletores CSS e extrair títulos usando Aspose.HTML para Java.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Obter Estilo Computado Java – Extrair Cor de Fundo do HTML](./get-computed-style-java-extract-background-color-from-html/)
+Aprenda a usar Aspose.HTML para Java e obter estilos computados, extraindo a cor de fundo de elementos HTML de forma programática.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Obter o estilo computado do elemento em Java – Guia completo passo a passo](./get-element-computed-style-in-java-full-step-by-step-guide/)
+Aprenda a recuperar o estilo computado de um elemento usando Aspose.HTML para Java neste tutorial detalhado passo a passo.
+### [Como usar GetComputedStyle em Java – Extrair cor de fundo e outras propriedades CSS](./how-to-use-getcomputedstyle-in-java-extract-background-color/)
+Aprenda a usar GetComputedStyle em Java para obter a cor de fundo e outras propriedades CSS de elementos HTML.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

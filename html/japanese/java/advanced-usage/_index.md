@@ -92,7 +92,7 @@ HTML を PDF または XPS に変換する際、最終的なページ寸法を�
 ## よくある質問
 
 **Q: カスタムヘッダーが既にあるドキュメントにページ番号を追加できますか？**  
-A: はい。Aspose.HTML はヘッダーとフッターを別々に定義できるため、既存のヘッダーを保持しつつ、フッターにページ番号を追加できます。
+A: はい。Aspose.HTML はヘッダーとフッターを別々に定義できるので、既存のヘッダーを保持しつつ、フッターにページ番号を追加できます。
 
 **Q: 余白の単位をインチからミリメートルに変更するにはどうすればよいですか？**  
 A: `PageSetup` API は任意の `Length` 値を受け入れるので、`Length.fromInches(value)` の代わりに `Length.fromMillimeters(value)` を使用してください。
@@ -107,6 +107,8 @@ A: `HtmlLoadOptions` と `PageSetup` の余白を使用し、`EnableCssLayout` �
 A: いいえ。単一の Aspose.HTML for Java ライセンスで、PDF や XPS を含むすべての出力形式がカバーされます。
 
 ## Aspose.HTML Java チュートリアルの高度な使用法
+
+
 ### [Aspose.HTML で HTML ページ余白をカスタマイズ](./css-extensions-adding-title-page-number/)
 Aspose.HTML for Java を使用して、HTML ドキュメントのページ余白、ページ番号、タイトルをカスタマイズする方法を学びます。
 ### [Aspose.HTML for Java を使用した DOM Mutation Observer を使用する](./dom-mutation-observer-observing-node-additions/)
@@ -121,6 +123,59 @@ Aspose.HTML for Java を使用して HTML フォームの入力と送信を自�
 Aspose.HTML for Java を使用して PDF のページサイズを調整する方法を学びます。HTML から高品質な PDF を簡単に作成し、ページ寸法を効果的に制御します。
 ### [Aspose.HTML for Java で XPS ページサイズを調整](./adjust-xps-page-size/)
 Aspose.HTML for Java を使用して XPS のページサイズを調整する方法を学びます。XPS ドキュメントの出力寸法を簡単に制御できます。
+### [Java で JavaScript を実行する方法 – 完全ガイド](./how-to-run-javascript-in-java-complete-guide/)
+Aspose.HTML for Java を使用して、Java アプリケーション内で JavaScript を実行し、動的コンテンツやロジックを統合する方法を学びます。
+### [Java でデバイス ピクセル比を設定 – モバイルサンドボックス チュートリアル](./set-device-pixel-ratio-in-java-mobile-sandbox-tutorial/)
+Aspose.HTML for Java のモバイルサンドボックスでデバイス ピクセル比を設定し、レンダリング品質を調整する方法を学びます。
+### [Aspose HTML で JavaScript を有効にする方法 – HTML の読み込みとテキスト取得](./how-to-enable-javascript-in-aspose-html-load-html-get-text/)
+### [Javaでスクリプトを実行する方法 – JavaScriptの実行とデータ抽出の完全ガイド](./how-to-run-scripts-in-java-complete-guide-to-execute-javascr/)
+
+---
+
+**最終更新日:** 2025-11-29  
+**テスト環境:** Aspose.HTML for Java 24.11  
+**作者:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [MHTML から HTML を抽出 – 完全な Java ガイド](./extract-html-from-mhtml-complete-java-guide/)
+Aspose.HTML for Java を使用して、MHTML ファイルから HTML コンテンツを抽出する手順を詳しく解説します。
+
+---
+
+**最終更新日:** 2025-11-29  
+**テスト環境:** Aspose.HTML for Java 24.11  
+**作者:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Java で JavaScript を実行 – Java から JS を実行する完全ガイド](./execute-javascript-in-java-complete-guide-to-running-js-from/)
+Aspose.HTML for Java を使用して、Java から JavaScript を実行し、動的コンテンツを操作する方法を学びます。
+
+---
+
+**最終更新日:** 2025-11-29  
+**テスト環境:** Aspose.HTML for Java 24.11  
+**作者:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Aspose.HTML のサンドボックスの使用方法 – ステップバイステップガイド](./how-to-use-sandbox-for-html-to-pdf-java-step-by-step-guide/)
+Aspose.HTML のサンドボックス環境を利用し、Java で HTML を PDF に変換する手順を詳しく解説します。
+### [Java でスクリプト実行を有効化 – 完全 Aspose.HTML ガイド](./enable-script-execution-in-java-complete-aspose-html-guide/)
+Aspose.HTML for Java を使用して、Java アプリケーション内で JavaScript を実行する方法をステップバイステップで解説します。
 
 ---
 

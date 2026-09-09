@@ -26,6 +26,9 @@ Först och främst, låt oss prata om vad minnesströmmar är. Föreställ dig e
 ## Datahantering och strömhantering i Aspose.HTML för Java Tutorials
 ### [Konvertera Memory Stream till fil med Aspose.HTML för Java](./memory-stream-to-file/)
 Konvertera HTML till JPEG med Aspose.HTML för Java med minnesströmmar. Följ denna steg-för-steg-guide för sömlös HTML till bildkonvertering.
+### [Java fast trådpool: Räkna bilder i parallella filer](./java-fixed-thread-pool-count-images-in-parallel-files/)
+Räkna bilder i parallella filer med en fast trådpool i Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

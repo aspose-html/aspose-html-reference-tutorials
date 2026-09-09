@@ -76,7 +76,7 @@ Oavsett om du bygger spel, instrumentpanel eller datavisualiseringar är HTML5 C
 
 Att fylla i repetitiva webbformulär kan vara tråkigt. Aspose.HTML tillhandahåller ett `Form`‑API som låter dig programatiskt sätta inmatningsvärden, välja alternativ och skicka formuläret—allt från Java. Denna automatisering är särskilt användbar för massinmatning av data eller testning.
 
-*Endast förklaring – kod oförändrad.*
+*Endals förklaring – kod oförändrad.*
 
 ## Justering av PDF‑ och XPS‑sidstorlekar
 
@@ -112,6 +112,8 @@ A: Använd `HtmlLoadOptions` med `PageSetup`‑marginaler och aktivera `EnableCs
 A: Nej. En enda Aspose.HTML för Java‑licens täcker alla utdataformat, inklusive PDF och XPS.
 
 ## Avancerad användning av Aspose.HTML Java‑handledningar
+
+
 ### [Anpassa HTML‑sidmarginaler med Aspose.HTML](./css-extensions-adding-title-page-number/)
 Lär dig hur du anpassar sidmarginaler, lägger till sidnummer och titlar i HTML‑dokument med Aspose.HTML för Java.
 ### [DOM‑mutationsobservatör med Aspose.HTML för Java](./dom-mutation-observer-observing-node-additions/)
@@ -126,6 +128,61 @@ Lär dig hur du automatiserar HTML‑formulärifyllning och -inlämning med Aspo
 Lär dig hur du justerar PDF‑sidstorlek med Aspose.HTML för Java. Skapa högkvalitativa PDF‑filer från HTML utan ansträngning. Kontrollera sidmåtten effektivt.
 ### [Justera XPS‑sidstorlek med Aspose.HTML för Java](./adjust-xps-page-size/)
 Lär dig hur du justerar XPS‑sidstorlek med Aspose.HTML för Java. Kontrollera utmatningsdimensionerna för dina XPS‑dokument enkelt.
+### [Hur man kör JavaScript i Java – Komplett guide](./how-to-run-javascript-in-java-complete-guide/)
+Lär dig hur du exekverar JavaScript‑kod i Java‑applikationer med Aspose.HTML, inklusive konfiguration och exempel.
+### [Ställ in enhetens pixelratio i Java – Mobil Sandbox‑handledning](./set-device-pixel-ratio-in-java-mobile-sandbox-tutorial/)
+Lär dig hur du ställer in enhetens pixelratio i Java‑sandboxen för mobila enheter med Aspose.HTML.
+### [Hur man aktiverar JavaScript i Aspose HTML – Ladda HTML & Hämta text](./how-to-enable-javascript-in-aspose-html-load-html-get-text/)
+Lär dig hur du aktiverar JavaScript i Aspose.HTML, laddar HTML och extraherar text från dokumentet.
+### [Hur man kör skript i Java – Komplett guide för att köra JavaScript och extrahera data](./how-to-run-scripts-in-java-complete-guide-to-execute-javascr/)
+Lär dig hur du kör JavaScript i Java, exekverar skript och extraherar data med Aspose.HTML för Java.
+
+---
+
+**Last Updated:** 2025-11-29  
+**Tested With:** Aspose.HTML for Java 24.11  
+**Author:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Extrahera HTML från MHTML – Komplett Java‑guide](./extract-html-from-mhtml-complete-java-guide/)
+Lär dig hur du extraherar HTML‑innehåll från MHTML‑filer med Aspose.HTML för Java i en komplett steg‑för‑steg‑guide.
+
+---
+
+**Last Updated:** 2025-11-29  
+**Tested With:** Aspose.HTML for Java 24.11  
+**Author:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Kör JavaScript i Java – Komplett guide för att köra JS från Java](./execute-javascript-in-java-complete-guide-to-running-js-from/)
+Lär dig hur du exekverar JavaScript‑kod från Java med Aspose.HTML, inklusive konfiguration och exempel.
+
+---
+
+**Last Updated:** 2025-11-29  
+**Tested With:** Aspose.HTML for Java 24.11  
+**Author:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Hur man använder Sandbox för HTML till PDF Java – Steg‑för‑steg‑guide](./how-to-use-sandbox-for-html-to-pdf-java-step-by-step-guide/)
+Lär dig hur du använder Sandbox för att konvertera HTML till PDF med Java i en steg‑för‑steg‑guide.
+### [Aktivera skriptkörning i Java – Komplett Aspose.HTML‑guide](./enable-script-execution-in-java-complete-aspose-html-guide/)
+Lär dig hur du aktiverar och kör JavaScript i Java‑applikationer med Aspose.HTML, inklusive konfiguration och exempel.
 
 ---
 

@@ -1,0 +1,7 @@
+Title: Convert HTML to PDF in C# – Save HTML Page as PDF
+Slug: convert-html-to-pdf-in-c-save-html-page-as-pdf
+Category: html-extensions-and-conversions
+ProcessedDate: 2026-05-28T23:23:03.614127
+SourceRepo: AI Search API
+Keywords: convert html to pdf, save html page as pdf, how to convert url to pdf
+PRNumber: 163
