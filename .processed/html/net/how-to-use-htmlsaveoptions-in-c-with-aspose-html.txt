@@ -1,0 +1,7 @@
+Title: How to use HtmlSaveOptions in C# with Aspose.HTML
+Slug: how-to-use-htmlsaveoptions-in-c-with-aspose-html
+Category: working-with-html-documents
+ProcessedDate: 2026-09-10T18:40:50.261323
+SourceRepo: AI Search API
+Keywords: how to use htmlsaveoptions
+PRNumber: 259
