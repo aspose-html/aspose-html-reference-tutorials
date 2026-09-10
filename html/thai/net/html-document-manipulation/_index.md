@@ -73,6 +73,8 @@ Aspose.HTML สำหรับ .NET โดดเด่นด้วยควา�
 เรียนรู้วิธีสร้างเอกสาร HTML ด้วย Aspose.HTML ผ่านขั้นตอนที่ชัดเจนและตัวอย่างโค้ด
 ### [สร้าง HTML จากสตริงใน C# – คู่มือ Custom Resource Handler](./create-html-from-string-in-c-custom-resource-handler-guide/)
 เรียนรู้วิธีสร้าง HTML จากสตริงใน C# ด้วยตัวจัดการทรัพยากรแบบกำหนดเองใน Aspose.HTML สำหรับ .NET
+### [เพิ่ม Element ลงใน Body – คู่มือ C# ฉบับสมบูรณ์กับ Aspose.HTML](./append-element-to-body-complete-c-guide-with-aspose-html/)
+เรียนรู้วิธีเพิ่ม Element ลงใน Body ของ HTML ด้วย C# และ Aspose.HTML อย่างครบถ้วน
 
 ## บทสรุป
 

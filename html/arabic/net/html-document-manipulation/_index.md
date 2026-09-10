@@ -73,6 +73,8 @@ url: /ar/net/html-document-manipulation/
 تعلم كيفية إنشاء مستند HTML من الصفر باستخدام Aspose.HTML خطوة بخطوة مع أمثلة عملية.
 ### [إنشاء HTML من سلسلة في C# – دليل معالج الموارد المخصص](./create-html-from-string-in-c-custom-resource-handler-guide/)
 تعرف على كيفية إنشاء مستند HTML من سلسلة نصية في C# باستخدام معالج موارد مخصص.
+### [إضافة عنصر إلى الجسم – دليل C# كامل مع Aspose.HTML](./append-element-to-body-complete-c-guide-with-aspose-html/)
+تعلم كيفية إضافة عنصر إلى جسم مستند HTML باستخدام Aspose.HTML في C# خطوة بخطوة.
 
 ## خاتمة
 

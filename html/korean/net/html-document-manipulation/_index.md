@@ -73,6 +73,8 @@ Aspose.HTML for .NET을 사용하여 동적이고 웹 콘텐츠를 만드는 방
 Aspose.HTML for .NET으로 웹 개발의 잠재력을 열어보세요. HTML 문서를 쉽게 만들고, 변환하고, 조작하세요.
 ### [Aspose.HTML을 사용하여 HTML 문서 만들기 – 단계별 가이드](./create-html-document-with-aspose-html-step-by-step-guide/)
 Aspose.HTML을 활용해 HTML 문서를 처음부터 만들고 저장하는 방법을 단계별로 안내합니다.
+### [Aspose.HTML을 사용하여 .NET에서 Body에 요소 추가 – C# 전체 가이드](./append-element-to-body-complete-c-guide-with-aspose-html/)
+Aspose.HTML for .NET을 활용해 HTML 문서의 Body에 새 요소를 삽입하는 방법을 단계별로 설명합니다.
 
 ## 결론
 

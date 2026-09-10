@@ -67,6 +67,9 @@ Hướng dẫn chi tiết từng bước để chuyển đổi HTML thành ảnh
 Hướng dẫn chi tiết cách chuyển đổi HTML thành hình ảnh bằng C# sử dụng Aspose.HTML, bao gồm các bước cài đặt và tùy chỉnh đầu ra.
 ### [Chuyển đổi HTML sang PNG trong C# – Hướng dẫn từng bước](./render-html-to-png-in-c-step-by-step-guide/)
 Hướng dẫn chi tiết cách sử dụng Aspose.HTML cho .NET để chuyển đổi HTML thành ảnh PNG trong C#.
+### [Tạo PNG từ HTML trong C# – Hướng dẫn từng bước](./create-png-from-html-in-c-step-by-step-guide/)
+Hướng dẫn chi tiết cách tạo PNG từ HTML bằng C# với Aspose.HTML, bao gồm các bước thiết lập và tùy chỉnh.
+
 ## Phần kết luận
 
 Tóm lại, Aspose.HTML for .NET cung cấp giải pháp mạnh mẽ và thân thiện với người dùng để tạo hình ảnh JPG và PNG từ nội dung HTML. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu, các hướng dẫn này sẽ hướng dẫn bạn trong suốt quá trình. Tạo hình ảnh hấp dẫn trực quan, nổi bật và nâng cao dự án của bạn với Aspose.HTML for .NET.

@@ -53,9 +53,6 @@ Aspose.HTML สำหรับ .NET ถือเป็นตัวเลือ�
 ### [วิธีการเรนเดอร์ HTML เป็น PNG – คู่มือแบบขั้นตอนต่อขั้นตอน](./how-to-render-html-to-png-step-by-step-guide/)
 เรียนรู้วิธีการเรนเดอร์ HTML เป็น PNG ด้วย Aspose.HTML สำหรับ .NET อย่างละเอียดในคู่มือขั้นตอนนี้!
 
-### [วิธีการเรนเดอร์ HTML เป็น PNG ใน C# – คู่มือแบบขั้นตอนต่อขั้นตอน](./how-to-render-html-to-png-in-c-step-by-step-guide/)
-เรียนรู้วิธีการเรนเดอร์ HTML เป็น PNG ด้วย C# อย่างละเอียดในคู่มือขั้นตอนนี้!
-
 ### [วิธีใช้ Aspose เพื่อเรนเดอร์ HTML เป็น PNG ด้วย C#](./how-to-use-aspose-to-render-html-to-png-in-c/)
 เรียนรู้วิธีใช้ Aspose.HTML กับ C# เพื่อแปลงไฟล์ HTML เป็น PNG อย่างง่ายดาย
 ### [เรนเดอร์ EPUB เป็น XPS ใน .NET ด้วย Aspose.HTML](./render-epub-as-xps/)
@@ -88,6 +85,8 @@ Aspose.HTML สำหรับ .NET ถือเป็นตัวเลือ�
 เรียนรู้วิธีสร้างเอกสาร HTML ด้วย C# และเรนเดอร์เป็น PNG พร้อมฟอนต์หนาและเอียงด้วย Aspose.HTML สำหรับ .NET
 ### [วิธีเรนเดอร์ HTML เป็นภาพด้วย C# – คู่มือฉบับสมบูรณ์](./how-to-render-html-to-an-image-with-c-complete-guide/)
 เรียนรู้วิธีใช้ Aspose.HTML กับ C# เพื่อแปลง HTML เป็นภาพอย่างละเอียดและครบถ้วน
+### [วิธีเรนเดอร์ HTML เป็น PNG ใน C# – คู่มือขั้นตอนต่อขั้นตอน](./how-to-render-html-to-png-in-c-step-by-step-guide/)
+เรียนรู้วิธีเรนเดอร์ HTML เป็น PNG ด้วย C# อย่างละเอียดในคู่มือขั้นตอนต่อขั้นตอน
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

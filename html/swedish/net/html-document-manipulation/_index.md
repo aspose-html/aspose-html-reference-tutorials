@@ -73,6 +73,8 @@ Lås upp potentialen för webbutveckling med Aspose.HTML för .NET. Skapa, konve
 Lär dig att skapa HTML-dokument med Aspose.HTML i .NET med en tydlig steg‑för‑steg‑guide.
 ### [Skapa HTML från sträng i C# – Anpassad resurs‑hanterare guide](./create-html-from-string-in-c-custom-resource-handler-guide/)
 Lär dig hur du skapar HTML från en sträng i C# med en anpassad resurs‑hanterare i Aspose.HTML för .NET.
+### [Lägg till element i body – Komplett C#-guide med Aspose.HTML](./append-element-to-body-complete-c-guide-with-aspose-html/)
+Lär dig hur du lägger till ett element i body med Aspose.HTML för .NET i en komplett C#-guide.
 
 ## Slutsats
 

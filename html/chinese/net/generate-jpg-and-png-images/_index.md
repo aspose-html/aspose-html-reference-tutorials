@@ -54,6 +54,8 @@ Aspose.HTML for .NET 提供了一种将 HTML 转换为图像的简单方法。�
 
 ### [使用 C# 将 docx 转换为 png 并创建 zip 存档教程](./convert-docx-to-png-create-zip-archive-c-tutorial/)
 学习如何使用 C# 将 DOCX 文档转换为 PNG 图像并打包为 ZIP 文件的完整步骤。
+### [使用 C# 将 HTML 转换为 PNG – 步骤指南](./create-png-from-html-in-c-step-by-step-guide/)
+学习如何使用 C# 将 HTML 内容渲染为 PNG 图像的完整步骤。
 
 ### [使用 Aspose.HTML 从 HTML 创建 PNG – 完整指南](./create-png-from-html-with-aspose-html-complete-guide/)
 本完整指南展示如何使用 Aspose.HTML for .NET 将 HTML 内容转换为高质量 PNG 图像，涵盖设置、渲染和优化技巧。

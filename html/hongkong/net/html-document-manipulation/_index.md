@@ -73,6 +73,8 @@ Aspose.HTML for .NET 因其簡單性和強大功能而脫穎而出。它使您�
 本教學逐步說明如何使用 Aspose.HTML 建立全新的 HTML 文件，涵蓋基本設定與範例程式碼。
 ### [在 C# 中從字串建立 HTML – 自訂資源處理程式指南](./create-html-from-string-in-c-custom-resource-handler-guide/)
 了解如何使用 Aspose.HTML for .NET 從字串建立 HTML，並透過自訂資源處理程式進行管理。
+### [將元素附加到 Body – 完整的 C# 指南（使用 Aspose.HTML）](./append-element-to-body-complete-c-guide-with-aspose-html/)
+了解如何使用 Aspose.HTML for .NET 在 C# 中將 HTML 元素動態附加到 body，完整步驟與範例說明。
 
 ## 結論
 

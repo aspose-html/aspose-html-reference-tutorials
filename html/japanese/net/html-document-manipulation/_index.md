@@ -73,6 +73,8 @@ Aspose.HTML for .NET で Web 開発の可能性を最大限に引き出します
 Aspose.HTML を使って HTML ドキュメントを最初から作成する方法を、ステップバイステップで学びます。
 ### [C# の文字列から HTML を作成 – カスタム リソース ハンドラ ガイド](./create-html-from-string-in-c-custom-resource-handler-guide/)
 C# の文字列から HTML を生成し、カスタム リソース ハンドラで処理する方法をステップバイステップで解説します。
+### [Aspose.HTML を使用した C# 完全ガイド – 要素を Body に追加](./append-element-to-body-complete-c-guide-with-aspose-html/)
+Aspose.HTML for .NET を使用して、HTML ドキュメントの Body に要素を追加する方法をステップバイステップで解説します。
 
 ## 結論
 

@@ -41,6 +41,8 @@ Temelleri kavradığınızda, oluşturma sürecine daha derinlemesine dalacağı
 ### [C# ile HTML Kaydetme – Özel Kaynak İşleyicileri ve ZIP](./how-to-save-html-in-c-custom-resource-handlers-zip/)
 
 C# kullanarak HTML dosyalarını özel kaynak işleyicileri ve ZIP arşivleriyle kaydetmeyi öğrenin.
+### [Aspose.Html ile HTML Kaydetme – Tam C# Kılavuzu](./how-to-save-html-with-aspose-html-complete-c-guide/)
+### [C#'ta HTML Sıkıştırma – Tam Adım Adım Kılavuz](./how-to-zip-html-in-c-complete-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

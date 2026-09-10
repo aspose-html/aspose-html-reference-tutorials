@@ -76,14 +76,15 @@ Kompletní průvodce v C#, jak pomocí Aspose.HTML převést HTML do PNG formát
 ### [Jak použít Aspose k vykreslení HTML do PNG – krok za krokem](./how-to-use-aspose-to-render-html-to-png-step-by-step-guide/)
 Naučte se, jak pomocí Aspose.HTML v .NET převést HTML do PNG pomocí podrobného průvodce krok za krokem.
 
+### [Jak vykreslit HTML do PNG v C# – krok‑za‑krokem průvodce](./how-to-render-html-to-png-in-c-step-by-step-guide/)
+Kompletní návod, jak pomocí Aspose.HTML v .NET převést HTML do PNG v C# s podrobnými kroky a tipy.
+
 ### [Jak vykreslit HTML do PNG pomocí Aspose – Kompletní průvodce](./how-to-render-html-to-png-with-aspose-complete-guide/)
 Kompletní návod, jak pomocí Aspose.HTML v .NET převést HTML soubory do PNG s podrobnými kroky a tipy.
 ### [Vytvořte PNG z HTML – Kompletní průvodce renderováním v C#](./create-png-from-html-full-c-rendering-guide/)
 Naučte se, jak pomocí Aspose.HTML pro .NET převést HTML do PNG pomocí kompletního C# průvodce.
 ### [Jak renderovat HTML do PNG – krok za krokem](./how-to-render-html-to-png-step-by-step-guide/)
 Podrobný návod, jak pomocí Aspose.HTML pro .NET převést HTML soubory do formátu PNG.
-### [Jak renderovat HTML do PNG v C# – krok za krokem](./how-to-render-html-to-png-in-c-step-by-step-guide/)
-Podrobný návod, jak pomocí Aspose.HTML pro .NET v C# převést HTML soubory do PNG.
 ### [Vytvořte HTML dokument v C# – Vykreslete do PNG s tučným kurzívním písmem](./create-html-document-c-render-to-png-with-bold-italic-font/)
 Naučte se vytvořit HTML dokument v C# a vykreslit jej do PNG s tučným a kurzívním písmem pomocí Aspose.HTML.
 

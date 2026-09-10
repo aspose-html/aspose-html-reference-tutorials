@@ -50,6 +50,10 @@ Erfahren Sie, wie Sie mit Aspose.HTML für .NET HTML in C# in PNG-Bilder umwande
 Erfahren Sie, wie Sie HTML mit Aspose.HTML in .NET Schritt für Schritt in PNG konvertieren und dabei alle wichtigen Einstellungen nutzen.
 ### [HTML als PNG rendern – Vollständiger C#-Leitfaden](./how-to-render-html-as-png-complete-c-guide/)
 Erfahren Sie, wie Sie mit Aspose.HTML für .NET HTML in PNG konvertieren, inklusive vollständigem C#-Beispiel und Schritt‑für‑Schritt‑Anleitung.
+
+### [Wie Sie HTML in C# zu PNG rendern – Schritt‑für‑Schritt‑Leitfaden](./how-to-render-html-to-png-in-c-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.HTML HTML in PNG konvertieren – vollständiger C#‑Schritt‑für‑Schritt‑Leitfaden.
+
 ### [Wie Sie Aspose zum Rendern von HTML nach PNG verwenden – Schritt‑für‑Schritt‑Anleitung](./how-to-use-aspose-to-render-html-to-png-step-by-step-guide/)
 Erfahren Sie, wie Sie mit Aspose.HTML HTML‑Inhalte in PNG‑Bilder umwandeln – detaillierte Schritt‑für‑Schritt‑Anleitung.
 
@@ -82,8 +86,6 @@ Erfahren Sie, wie Sie HTML mit einem benutzerdefinierten Ressourcen-Handler rend
 Entfesseln Sie die Leistungsfähigkeit von Aspose.HTML für .NET! Erfahren Sie, wie Sie SVG-Dokumente mühelos als PNG rendern. Tauchen Sie ein in Schritt‑für‑Schritt‑Beispiele und FAQs. Jetzt loslegen!
 ### [HTML zu PNG rendern – Schritt‑für‑Schritt‑Anleitung](./how-to-render-html-to-png-step-by-step-guide/)
 Erfahren Sie, wie Sie HTML mit Aspose.HTML in PNG konvertieren – eine detaillierte Schritt‑für‑Schritt‑Anleitung.
-### [HTML zu PNG rendern in C# – Schritt‑für‑Schritt‑Anleitung](./how-to-render-html-to-png-in-c-step-by-step-guide/)
-Erfahren Sie, wie Sie HTML mit Aspose.HTML in C# in PNG konvertieren – eine detaillierte Schritt‑für‑Schritt‑Anleitung.
 ### [HTML zu PNG rendern – Vollständiger C#-Leitfaden](./how-to-render-html-to-png-complete-c-guide/)
 Erfahren Sie, wie Sie mit C# HTML in PNG konvertieren, Schritt für Schritt, inkl. Codebeispiele und Tipps.
 ### [Rendern Sie HTML nach PNG in C# mit Aspose](./how-to-use-aspose-to-render-html-to-png-in-c/)

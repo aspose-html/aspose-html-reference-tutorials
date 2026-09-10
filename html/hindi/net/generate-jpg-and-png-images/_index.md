@@ -56,7 +56,6 @@ Aspose.HTML for .NET का उपयोग करके HTML को PNG इम�
 ### [DOCX को PNG/JPG में बदलते समय एंटीएलियासिंग कैसे सक्षम करें](./how-to-enable-antialiasing-when-converting-docx-to-png-jpg/)
 DOCX फ़ाइलों को PNG या JPG में परिवर्तित करते समय एंटीएलियासिंग को सक्षम करने के चरणों को जानें।
 ### [DOCX को PNG में परिवर्तित करें – ZIP आर्काइव बनाएं C# ट्यूटोरियल](./convert-docx-to-png-create-zip-archive-c-tutorial/)
-C# में DOCX फ़ाइलों को PNG छवियों में बदलें और उन्हें ZIP आर्काइव में संकलित करना सीखें। चरण-दर-स्टेप मार्गदर्शिका।
 ### [C# में DOCX को PNG में बदलें – पूर्ण चरण‑दर‑चरण गाइड](./convert-docx-to-png-in-c-full-step-by-step-guide/)
 C# में Aspose.HTML का उपयोग करके DOCX फ़ाइलों को PNG इमेज में बदलने के विस्तृत चरण‑दर‑चरण निर्देश।
 ### [Aspose.HTML के साथ HTML से PNG बनाएं – पूर्ण मार्गदर्शिका](./create-png-from-html-with-aspose-html-complete-guide/)
@@ -67,6 +66,9 @@ HTML को PNG इमेज में बदलने के लिए Aspose.H
 C# में Aspose.HTML का उपयोग करके HTML को इमेज में बदलने के चरण‑दर‑चरण निर्देश।
 ### [C# में HTML को PNG में रेंडर करें – चरण‑दर‑चरण गाइड](./render-html-to-png-in-c-step-by-step-guide/)
 C# में Aspose.HTML का उपयोग करके HTML को PNG इमेज में बदलने की प्रक्रिया सीखें। चरण‑दर‑चरण निर्देश और उदाहरण।
+### [C# में HTML से PNG बनाएं – चरण‑दर‑चरण गाइड](./create-png-from-html-in-c-step-by-step-guide/)
+HTML को PNG में बदलने के लिए C# कोड के साथ एक विस्तृत चरण‑दर‑चरण ट्यूटोरियल।
+
 ## निष्कर्ष
 
 निष्कर्ष में, Aspose.HTML for .NET HTML सामग्री से JPG और PNG छवियाँ बनाने के लिए एक उपयोगकर्ता-अनुकूल और शक्तिशाली समाधान प्रदान करता है। चाहे आप एक अनुभवी डेवलपर हों या अभी शुरुआत कर रहे हों, ये ट्यूटोरियल आपको इस प्रक्रिया में मार्गदर्शन करेंगे। Aspose.HTML for .NET के साथ दिखने में आकर्षक छवियाँ बनाएँ जो सबसे अलग दिखें और आपकी परियोजनाओं को बेहतर बनाएँ।
