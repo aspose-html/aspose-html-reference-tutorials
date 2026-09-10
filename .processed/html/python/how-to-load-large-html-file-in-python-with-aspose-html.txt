@@ -1,0 +1,7 @@
+Title: How to load large HTML file in Python with Aspose.HTML
+Slug: how-to-load-large-html-file-in-python-with-aspose-html
+Category: general
+ProcessedDate: 2026-09-10T19:16:07.422934
+SourceRepo: AI Search API
+Keywords: load large html file, how to set max depth, load html document python
+PRNumber: 261
