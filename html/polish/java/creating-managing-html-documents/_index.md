@@ -60,6 +60,8 @@ Dowiedz się, jak tworzyć dokumenty HTML z ciągów znaków w Aspose.HTML dla J
 Odkryj, jak łatwo ładować dokumenty HTML z adresu URL w Javie za pomocą Aspose.HTML. Zawiera samouczek krok po kroku.
 ### [Generuj nowe dokumenty HTML za pomocą Aspose.HTML dla Java](./generate-new-html-documents/)
 Dowiedz się, jak tworzyć nowe dokumenty HTML za pomocą Aspose.HTML dla Java dzięki temu prostemu przewodnikowi krok po kroku. Zacznij generować dynamiczną zawartość HTML.
+### [Generuj HTML z szablonu przy użyciu Aspose.HTML dla Java](./generate-html-from-a-template-with-aspose-html-for-java/)
+Dowiedz się, jak generować dokumenty HTML z gotowych szablonów przy użyciu Aspose.HTML dla Java w prostym przewodniku krok po kroku.
 ### [Obsługa zdarzeń ładowania dokumentów w Aspose.HTML dla Java](./handle-document-load-events/)
 Naucz się obsługiwać zdarzenia ładowania dokumentów w Aspose.HTML dla Java dzięki temu przewodnikowi krok po kroku. Ulepsz swoje aplikacje internetowe.
 ### [Wykonaj asynchroniczny JavaScript w Javie – Kompletny przewodnik krok po kroku](./execute-async-javascript-in-java-complete-step-by-step-guide/)

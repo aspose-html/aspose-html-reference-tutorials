@@ -64,6 +64,8 @@ Objevte, jak snadno načíst HTML dokumenty z URL v Javě pomocí Aspose.HTML. V
 Naučte se vytvářet nové HTML dokumenty pomocí Aspose.HTML for Java pomocí tohoto jednoduchého průvodce krok za krokem. Začněte generovat dynamický obsah HTML.
 ### [Generujte HTML z JavaScriptu v Javě – Kompletní průvodce krok za krokem](./generate-html-from-javascript-in-java-complete-step-by-step/)
 Naučte se generovat HTML pomocí JavaScriptu v Javě pomocí podrobného průvodce krok za krokem.
+### [Generujte HTML ze šablony pomocí Aspose.HTML pro Java](./generate-html-from-a-template-with-aspose-html-for-java/)
+Naučte se generovat HTML ze šablony pomocí Aspose.HTML pro Java s podrobným krok‑za‑krokem návodem.
 ### [Zvládejte události načítání dokumentu v Aspose.HTML pro Java](./handle-document-load-events/)
 Naučte se zvládat události načítání dokumentů v Aspose.HTML pro Java pomocí tohoto podrobného průvodce. Vylepšete své webové aplikace.
 ### [Vytvořte sandbox pro HTML v Javě – krok‑za‑krokem průvodce](./create-sandbox-for-html-in-java-step-by-step-guide/)

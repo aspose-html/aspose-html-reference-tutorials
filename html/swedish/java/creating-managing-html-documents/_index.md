@@ -37,6 +37,9 @@ Föreställ dig att du behöver generera HTML-innehåll i farten baserat på anv
 
 När det gäller att skapa nya HTML-dokument erbjuder Aspose.HTML för Java en robust lösning som gör att du kan bygga rikt webbinnehåll från grunden. Oavsett om du arbetar med ett innehållshanteringssystem eller behöver generera rapporter i HTML-format, är det avgörande att förstå hur man skapar och hanterar nya HTML-dokument. Dessutom låter avancerade filladdningstekniker dig arbeta med komplexa HTML-dokument, vilket säkerställer att du kan hantera storskaliga projekt med lätthet. Dessa handledningar guidar dig genom varje steg och säkerställer att du är rustad för att hantera alla HTML-relaterade utmaningar.[Läs mer](./generate-new-html-documents/)
 
+### [Generera HTML från en mall med Aspose.HTML för Java](./generate-html-from-a-template-with-aspose-html-for-java/)
+Lär dig hur du genererar HTML från en mall med Aspose.HTML för Java i en steg‑för‑steg‑guide.
+
 ## Hantera SVG-dokument och hantera händelser
 
  Slutligen, för dem som vill utveckla sina färdigheter ännu längre, finns det en mängd avancerade ämnen att utforska. Lär dig hur du hanterar SVG-dokument eller hanterar dokumentladdningshändelser för att skapa responsiva och dynamiska webbapplikationer. Dessa handledningar tar dig bortom HTML, dyker in i krångligheterna med Scalable Vector Graphics (SVG) och händelsedriven programmering.[Läs mer](./create-manage-svg-documents/)

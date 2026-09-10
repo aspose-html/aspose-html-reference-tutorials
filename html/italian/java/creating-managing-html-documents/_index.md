@@ -63,8 +63,10 @@ Scopri come caricare facilmente documenti HTML da un URL in Java con Aspose.HTML
 Scopri come iterare un NodeList in Java per leggere un documento HTML e estrarre gli attributi src delle immagini.
 ### [Generare nuovi documenti HTML utilizzando Aspose.HTML per Java](./generate-new-html-documents/)
 Scopri come creare nuovi documenti HTML usando Aspose.HTML per Java con questa semplice guida passo-passo. Inizia a generare contenuti HTML dinamici.
+### [Genera HTML da un modello con Aspose.HTML per Java](./generate-html-from-a-template-with-aspose-html-for-java/)
+Scopri come generare HTML a partire da un modello usando Aspose.HTML per Java in questa guida passo‑passo.
 ### [Gestire gli eventi di caricamento dei documenti in Aspose.HTML per Java](./handle-document-load-events/)
-Impara a gestire gli eventi di caricamento dei documenti in Aspose.HTML per Java con questa guida passo-passo. Migliora le tue applicazioni web.
+Impara a gestire gli eventi di caricamento dei documenti in Aspose.HTML per Java con questa guida passo‑passo. Migliora le tue applicazioni web.
 ### [Crea e gestisci documenti SVG in Aspose.HTML per Java](./create-manage-svg-documents/)
 Impara a creare e gestire documenti SVG usando Aspose.HTML per Java! Questa guida completa copre tutto, dalla creazione di base alla manipolazione avanzata.
 ### [Come interrogare HTML in Java – Tutorial completo](./how-to-query-html-in-java-complete-tutorial/)

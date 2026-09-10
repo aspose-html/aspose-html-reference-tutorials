@@ -64,7 +64,7 @@ url: /el/java/creating-managing-html-documents/
 ### [Δημιουργήστε νέα έγγραφα HTML χρησιμοποιώντας το Aspose.HTML για Java](./generate-new-html-documents/)
 Μάθετε πώς να δημιουργείτε νέα έγγραφα HTML χρησιμοποιώντας το Aspose.HTML για Java με αυτόν τον εύκολο, βήμα προς βήμα οδηγό. Ξεκινήστε τη δημιουργία δυναμικού περιεχομένου HTML.
 ### [Δημιουργία sandbox για HTML σε Java – Οδηγός βήμα‑βήμα](./create-sandbox-for-html-in-java-step-by-step-guide/)
-Μάθετε πώς να δημιουργήσετε ένα sandbox HTML σε Java με οδηγίες βήμα‑βήμα, για ασφαλή και απομονωμένη επεξεργασία HTML.
+Μάθετε πώς να δημιουργήσετε ένα sandbox HTML σε Java με οδηγίες βήμα προς βήμα, για ασφαλή και απομονωμένη επεξεργασία HTML.
 ### [Χειριστείτε συμβάντα φόρτωσης εγγράφου στο Aspose.HTML για Java](./handle-document-load-events/)
 Μάθετε να χειρίζεστε συμβάντα φόρτωσης εγγράφων στο Aspose.HTML για Java με αυτόν τον οδηγό βήμα προς βήμα. Βελτιώστε τις διαδικτυακές εφαρμογές σας.
 ### [Δημιουργία και διαχείριση εγγράφων SVG στο Aspose.HTML για Java](./create-manage-svg-documents/)
@@ -74,7 +74,10 @@ url: /el/java/creating-managing-html-documents/
 ### [Πώς να αναλύσετε HTML σε Java – Φόρτωση, ερώτημα και καταμέτρηση στοιχείων](./how-to-parse-html-java-load-query-count-elements/)
 Μάθετε πώς να φορτώνετε, ερωτάτε και μετράτε στοιχεία HTML σε Java με το Aspose.HTML, βήμα‑βήμα οδηγός.
 ### [Εκτέλεση ασύγχρονης JavaScript σε Java – Πλήρης οδηγός βήμα‑βήμα](./execute-async-javascript-in-java-complete-step-by-step-guide/)
-Μάθετε πώς να εκτελείτε κώδικα JavaScript ασύγχρονα σε εφαρμογές Java με το Aspose.HTML, βήμα‑βήμα οδηγίες.
+Μάθετε πώς να εκτελείτε κώδικα JavaScript ασύγχρον
+
+### [Δημιουργία HTML από πρότυπο με Aspose.HTML για Java](./generate-html-from-a-template-with-aspose-html-for-java/)
+Μάθετε πώς να δημιουργείτε HTML χρησιμοποιώντας πρότυπο με Aspose.HTML για Java σε βήμα‑βήμα οδηγό.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
