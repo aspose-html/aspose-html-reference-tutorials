@@ -61,6 +61,11 @@ Aprenda a converter HTML em PNG usando C# com Aspose.HTML neste guia passo a pas
 ### [Como usar Aspose para renderizar HTML em PNG em C#](./how-to-use-aspose-to-render-html-to-png-in-c/)
 Aprenda a usar Aspose.HTML para converter documentos HTML em imagens PNG usando C# de forma simples e eficaz.
 
+### [Como habilitar antialiasing para renderização de imagens HTML em C#](./how-to-enable-antialiasing-for-html-image-rendering-in-c/)
+Aprenda a ativar o antialiasing ao renderizar imagens HTML em C# usando Aspose.HTML para melhorar a qualidade visual.
+### [Como melhorar a clareza do texto no Aspose.HTML com hinting](./how-to-improve-text-clarity-in-aspose-html-with-hinting/)
+Aprenda a melhorar a clareza do texto ao renderizar HTML usando hinting no Aspose.HTML para .NET.
+
 ### [Renderizar EPUB como XPS em .NET com Aspose.HTML](./render-epub-as-xps/)
 Aprenda como criar e renderizar documentos HTML com Aspose.HTML para .NET neste tutorial abrangente. Mergulhe no mundo da manipulação de HTML, web scraping e muito mais.
 
@@ -77,6 +82,8 @@ Aprenda a renderizar vários documentos HTML usando Aspose.HTML para .NET. Aumen
 Desbloqueie o poder do Aspose.HTML para .NET! Aprenda como renderizar SVG Doc como PNG sem esforço. Mergulhe em exemplos passo a passo e FAQs. Comece agora!
 ### [Como Renderizar HTML em C# – Guia Completo para Estilizar Parágrafos](./how-to-render-html-in-c-complete-guide-to-styling-paragraphs/)
 Aprenda a renderizar HTML em C# e aplicar estilos avançados a parágrafos usando Aspose.HTML. Guia passo a passo completo.
+### [Como renderizar HTML em C# com Aspose.Html – guia completo](./how-to-render-html-in-c-with-aspose-html-full-guide/)
+Aprenda a renderizar HTML em C# usando Aspose.Html com este guia completo passo a passo.
 ### [Como Renderizar HTML – Guia Completo com Manipulador de Recursos Personalizado](./how-to-render-html-complete-guide-with-custom-resource-handl/)
 Aprenda a renderizar HTML usando um manipulador de recursos personalizado para controlar imagens, scripts e estilos durante a renderização.
 ### [Criar PNG a partir de HTML – Guia Completo de Renderização em C#](./create-png-from-html-full-c-rendering-guide/)

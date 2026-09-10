@@ -40,7 +40,9 @@ Now, let's take your skills to the next level. Editing HTML documents is a commo
 ### [How to Bold Heading with CSS & C# – Complete Step‑by‑Step Guide](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
 ### [How to Save HTML in C# – Custom Resource Handlers & ZIP](./how-to-save-html-in-c-custom-resource-handlers-zip/)
 ### [How to Save HTML with Aspose.Html – Complete C# Guide](./how-to-save-html-with-aspose-html-complete-c-guide/)
+### [How to use HtmlSaveOptions in C# with Aspose.HTML](./how-to-use-htmlsaveoptions-in-c-with-aspose-html/)
 ### [how to zip html in C# – Complete Step‑by‑Step Guide](./how-to-zip-html-in-c-complete-step-by-step-guide/)
+### [How to load HTML document from file with Aspose.HTML in C#](./how-to-load-html-document-from-file-with-aspose-html-in-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

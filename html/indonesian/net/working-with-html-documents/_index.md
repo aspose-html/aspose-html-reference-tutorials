@@ -39,11 +39,16 @@ Sekarang, mari tingkatkan keterampilan Anda ke tingkat berikutnya. Mengedit doku
 ### [Cara Menyimpan HTML di C# – Panduan Lengkap Menggunakan Penangan Sumber Daya Kustom](./how-to-save-html-in-c-complete-guide-using-a-custom-resource/)
 
 ### [Cara Membuat Heading Tebal dengan CSS & C# – Panduan Lengkap Langkah demi Langkah](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
+
 ### [Cara Menyimpan HTML di C# – Penangan Sumber Daya Kustom & ZIP](./how-to-save-html-in-c-custom-resource-handlers-zip/)
 
 ### [Cara Menyimpan HTML dengan Aspose.Html – Panduan Lengkap C#](./how-to-save-html-with-aspose-html-complete-c-guide/)
 
 ### [Cara Mengompres HTML di C# – Panduan Lengkap Langkah demi Langkah](./how-to-zip-html-in-c-complete-step-by-step-guide/)
+
+### [Cara Menggunakan HtmlSaveOptions di C# dengan Aspose.HTML](./how-to-use-htmlsaveoptions-in-c-with-aspose-html/)
+
+### [Cara Memuat Dokumen HTML dari File dengan Aspose.HTML di C#](./how-to-load-html-document-from-file-with-aspose-html-in-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -39,11 +39,16 @@ HTML-документы являются основой Интернета, и �
 ### [Как сохранить HTML в C# – Полное руководство с использованием пользовательского обработчика ресурсов](./how-to-save-html-in-c-complete-guide-using-a-custom-resource/)
 
 ### [Как сделать заголовок жирным с помощью CSS и C# – Полное пошаговое руководство](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
+
 ### [Как сохранить HTML в C# – Пользовательские обработчики ресурсов и ZIP](./how-to-save-html-in-c-custom-resource-handlers-zip/)
 
 ### [Как сохранить HTML с Aspose.Html – Полное руководство C#](./how-to-save-html-with-aspose-html-complete-c-guide/)
 
 ### [Как заархивировать HTML в C# – Полное пошаговое руководство](./how-to-zip-html-in-c-complete-step-by-step-guide/)
+
+### [Как использовать HtmlSaveOptions в C# с Aspose.HTML](./how-to-use-htmlsaveoptions-in-c-with-aspose-html/)
+
+### [Как загрузить HTML-документ из файла с помощью Aspose.HTML в C#](./how-to-load-html-document-from-file-with-aspose-html-in-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

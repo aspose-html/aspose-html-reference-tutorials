@@ -51,6 +51,12 @@ Erfahren Sie, wie Sie HTML mit Aspose.HTML in C# vollständig speichern können.
 
 Erfahren Sie, wie Sie HTML-Dateien in C# zu einer ZIP-Datei komprimieren können.
 
+### [HtmlSaveOptions in C# mit Aspose.HTML verwenden](./how-to-use-htmlsaveoptions-in-c-with-aspose-html/)
+
+Erfahren Sie, wie Sie mit HtmlSaveOptions HTML-Ausgabe in C# gezielt konfigurieren und speichern.
+
+### [HTML-Dokument aus Datei mit Aspose.HTML in C# laden](./how-to-load-html-document-from-file-with-aspose-html-in-c/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

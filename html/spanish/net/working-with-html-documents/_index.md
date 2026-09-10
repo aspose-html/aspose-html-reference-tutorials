@@ -51,6 +51,14 @@ Aprenda a guardar documentos HTML en C# usando controladores de recursos persona
 
 Aprenda a comprimir archivos HTML en C# usando Aspose.HTML con esta guía paso a paso.
 
+### [Cómo usar HtmlSaveOptions en C# con Aspose.HTML](./how-to-use-htmlsaveoptions-in-c-with-aspose-html/)
+
+Aprenda a configurar opciones de guardado al exportar HTML con Aspose.HTML en C#.
+
+### [Cómo cargar un documento HTML desde archivo con Aspose.HTML en C#](./how-to-load-html-document-from-file-with-aspose-html-in-c/)
+
+Aprenda a cargar documentos HTML desde un archivo usando Aspose.HTML en C#.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
