@@ -64,6 +64,8 @@ Learn how to set up a secure HTML sandbox in Java using Aspose.HTML with this de
 Discover how to easily load HTML documents from a URL in Java with Aspose.HTML. Step-by-step tutorial included.
 ### [Generate New HTML Documents using Aspose.HTML for Java](./generate-new-html-documents/)
 Learn how to create new HTML documents using Aspose.HTML for Java with this easy step-by-step guide. Start generating dynamic HTML content.
+### [Generate HTML from a template with Aspose.HTML for Java](./generate-html-from-a-template-with-aspose-html-for-java/)
+Learn how to generate HTML from a template using Aspose.HTML for Java with a clear step-by-step guide.
 ### [Generate HTML from JavaScript in Java – Complete Step‑by‑Step Guide](./generate-html-from-javascript-in-java-complete-step-by-step/)
 Learn how to generate HTML from JavaScript within Java using Aspose.HTML. Detailed step-by-step guide for seamless integration.
 ### [Handle Document Load Events in Aspose.HTML for Java](./handle-document-load-events/)

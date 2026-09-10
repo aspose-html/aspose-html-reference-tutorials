@@ -61,6 +61,7 @@ Aspose.HTML для Java предлагает мощный набор инстр�
 Узнайте, как проходить по NodeList в Java, читать HTML и извлекать атрибут src изображений с помощью Aspose.HTML.
 ### [Создание новых HTML-документов с помощью Aspose.HTML для Java](./generate-new-html-documents/)
 Узнайте, как создавать новые HTML-документы с помощью Aspose.HTML для Java с помощью этого простого пошагового руководства. Начните создавать динамический HTML-контент.
+### [Генерация HTML из шаблона с помощью Aspose.HTML для Java](./generate-html-from-a-template-with-aspose-html-for-java/)
 ### [Обработка событий загрузки документа в Aspose.HTML для Java](./handle-document-load-events/)
 Изучите обработку событий загрузки документов в Aspose.HTML для Java с помощью этого пошагового руководства. Улучшите свои веб-приложения.
 ### [Создание и управление документами SVG в Aspose.HTML для Java](./create-manage-svg-documents/)

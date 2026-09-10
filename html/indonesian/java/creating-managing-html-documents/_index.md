@@ -37,6 +37,9 @@ Bayangkan Anda perlu membuat konten HTML dengan cepat berdasarkan masukan penggu
 
 Jika berbicara tentang pembuatan dokumen HTML baru, Aspose.HTML untuk Java menawarkan solusi tangguh yang memungkinkan Anda membuat konten web yang kaya dari awal. Baik Anda bekerja pada sistem manajemen konten atau perlu membuat laporan dalam format HTML, memahami cara membuat dan mengelola dokumen HTML baru sangatlah penting. Selain itu, teknik pemuatan file tingkat lanjut memungkinkan Anda bekerja dengan dokumen HTML yang kompleks, memastikan bahwa Anda dapat menangani proyek berskala besar dengan mudah. Tutorial ini memandu Anda melalui setiap langkah, memastikan Anda siap menghadapi tantangan apa pun yang terkait dengan HTML.[Baca selengkapnya](./generate-new-html-documents/)
 
+### [Hasilkan HTML dari Template dengan Aspose.HTML untuk Java](./generate-html-from-a-template-with-aspose-html-for-java/)
+Pelajari cara menghasilkan HTML dari template menggunakan Aspose.HTML untuk Java dengan panduan langkah demi langkah.
+
 ## Mengelola Dokumen SVG dan Menangani Peristiwa
 
  Terakhir, bagi mereka yang ingin mengasah keterampilan mereka lebih jauh, ada banyak topik lanjutan untuk dijelajahi. Pelajari cara mengelola dokumen SVG atau menangani peristiwa pemuatan dokumen untuk membuat aplikasi web yang responsif dan dinamis. Tutorial ini akan membawa Anda melampaui HTML, menyelami seluk-beluk Scalable Vector Graphics (SVG) dan pemrograman berbasis peristiwa.[Baca selengkapnya](./create-manage-svg-documents/)
