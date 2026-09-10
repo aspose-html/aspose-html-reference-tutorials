@@ -1,0 +1,7 @@
+Title: Convert html template – step‑by‑step guide for Java developers
+Slug: convert-html-template-step-by-step-guide-for-java-developers
+Category: creating-managing-html-documents
+ProcessedDate: 2026-08-13T02:30:38.131863
+SourceRepo: AI Search API
+Keywords: convert html template, generate html from xml, convert html with data, convert html using xml, html to html conversion
+PRNumber: 239

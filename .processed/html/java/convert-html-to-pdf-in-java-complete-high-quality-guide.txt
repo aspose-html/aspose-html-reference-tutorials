@@ -1,0 +1,7 @@
+Title: Convert HTML to PDF in Java – Complete High‑Quality Guide
+Slug: convert-html-to-pdf-in-java-complete-high-quality-guide
+Category: conversion-html-to-other-formats
+ProcessedDate: 2026-07-02T15:10:45.812363
+SourceRepo: AI Search API
+Keywords: convert html to pdf, high quality pdf conversion, embed fonts in pdf, generate high quality pdf, set pdf dpi
+PRNumber: 199

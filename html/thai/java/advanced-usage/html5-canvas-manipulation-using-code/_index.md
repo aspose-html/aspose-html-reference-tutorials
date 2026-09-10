@@ -1,7 +1,7 @@
 ---
-date: 2025-12-04
+date: 2026-02-04
 description: เรียนรู้วิธีแปลง HTML เป็น PDF โดยการจัดการ HTML5 Canvas ด้วย Aspose.HTML
-  สำหรับ Java ทำตามขั้นตอนทีละขั้นเพื่อส่งออก Canvas เป็น PDF.
+  สำหรับ Java ทำตามคำแนะนำทีละขั้นตอนเพื่อส่งออก Canvas เป็น PDF.
 linktitle: HTML5 Canvas Manipulation Using Code
 second_title: Java HTML Processing with Aspose.HTML
 title: 'แปลง HTML เป็น PDF: การจัดการ Canvas ด้วย Aspose.HTML สำหรับ Java'
@@ -13,37 +13,46 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# เรนเดอร์ HTML เป็น PDF: การจัดการ Canvas ด้วย Aspose.HTML for Java
+# แปลง HTML เป็น PDF: การจัดการ Canvas ด้วย Aspose.HTML for Java
 
-HTML5’s **Canvas** element gives developers a powerful drawing surface right inside the browser, and **Aspose.HTML for Java** lets you take that canvas content and **render HTML to PDF** on the server side. In this tutorial you’ll learn how to create an empty HTML document, add a canvas, draw shapes and text, apply a gradient brush, and finally export the canvas as a PDF file. By the end, you’ll be able to **export canvas as PDF** in just a few lines of Java code.
+องค์ประกอบ **Canvas** ของ HTML5 ช่วยให้นักพัฒนามีพื้นผิวการวาดภาพที่มีประสิทธิภาพภายในเบราว์เซอร์ และ **Aspose.HTML สำหรับ Java** ช่วยให้คุณสามารถนำเนื้อหาแคนวาสนั้นและ **เรนเดอร์ HTML เป็น PDF** บนฝั่งเซิร์ฟเวอร์ ในบทช่วยสอนนี้ คุณจะได้เรียนรู้วิธีสร้างเอกสาร HTML เปล่า เพิ่มแคนวาส วาดรูปทรงและข้อความ ใช้แปรงไล่ระดับสี และสุดท้ายส่งออกแคนวาสเป็นไฟล์ PDF ในตอนท้าย คุณจะสามารถ **ส่งออกแคนวาสเป็น PDF** ได้โดยใช้โค้ด Java เพียงไม่กี่บรรทัด
 
-## คำตอบอย่างรวดเร็ว
-- **What does Aspose.HTML for Java do?** It lets you create, edit, and render HTML documents—including Canvas graphics—to PDF, images, and more.  
-- **Can I set the canvas size in Java?** Yes, use `setWidth()` and `setHeight()` on the `HTMLCanvasElement`.  
-- **How do I add text to the canvas?** Call `fillText()` on the 2D rendering context.  
-- **Is gradient support available?** Absolutely – create a `ICanvasGradient` and assign it to `fillStyle` and `strokeStyle`.  
-- **What output formats are supported?** PDF, PNG, JPEG, and other raster formats via Aspose.HTML rendering devices.
+##คำตอบอย่างรวดเร็ว
+- **Aspose.HTML สำหรับ Java ทำหน้าที่อะไร** ช่วยให้สร้าง, สร้าง, และ **render** เอกสาร HTML—รวมถึงกราฟิก Canvas—เป็น PDF, รูปภาพ และอื่นๆ
+- **Can I set the canvas size in Java?** เป็นไปได้, use `setWidth()` และ `setHeight()` บน `HTMLCanvasElement`.
+- **ฉันจะเพิ่มข้อความบนผืนผ้าใบได้อย่างไร?** เรียก `fillText()` บนบริบทการเรนเดอร์ 2D
+- **รองรับการไล่ระดับสีหรือไม่** ต้องสร้าง `ICanvasGradient` แล้วกำหนดให้กับ `fillStyle` และ `สโตรกStyle`
+- **รองรับรูปแบบเอาต์พุตใดบ้าง** PDF, PNG, JPEG, และรูปแบบแรสเตอร์อื่นๆ ผ่านการแสดงผลอุปกรณ์ต่างๆ ของ Aspose.HTML
 
-## “render html to pdf” คืออะไร
-Rendering HTML to PDF means converting a web page (including CSS, JavaScript, and Canvas drawings) into a static PDF document that preserves the visual layout. Aspose.HTML for Java handles this conversion on the server without a browser, making it ideal for automated reporting, invoicing, or archiving.
+## “render html to pdf” คืออะไร?
+การ **render HTML เป็น PDF** โดยทั่วไปสำหรับการจัดเก็บข้อมูล (รวมถึง CSS, JavaScript, และ Canvas) ให้เป็นเอกสาร PDF แบบที่การรักษาของไลเอาต์ภาพไว้. Aspose.HTML สำหรับ Java จัดการนี้บนเซิร์ฟเวอร์ของคุณเอง, คุณสามารถใช้รายงานอัตโนมัติ, การออกแถลงการณ์, หรือเฟิร์มแวร์
 
-## ทำไมต้องใช้ Aspose.HTML for Java เพื่อส่งออก canvas เป็น PDF?
-- **Server‑side processing** – No need for a headless browser; the library does the heavy lifting.  
-- **Full Canvas support** – All 2D drawing APIs (`fillRect`, `fillText`, gradients, etc.) work exactly as they do in the browser.  
-- **High‑quality PDF output** – Vector graphics remain crisp, and text stays selectable.  
-- **Cross‑platform** – Works on any OS that runs Java.
+##เพื่อใช้ Aspose.HTML สำหรับ Java เพื่อส่งออก Canvas เป็น PDF หรือไม่
+- **การประมวลผลฝั่งเซิร์ฟเวอร์** – เบราว์เซอร์ที่ไม่มีส่วนหัว; ไลบรารี่ของเค้าให้.
+- **รองรับ Full Canvas** – API พิเศษสำหรับ 2D เท่านั้น (`fillRect`, `fillText`, การไล่ระดับสี, ฯลฯ) พิเศษสำหรับคืนนี้
+- **เอาต์พุต PDF คุณภาพสูง** – วิดีโอความคมชัด, ยังคงเลือกได้
+- **ข้ามแพลตฟอร์ม** – ทำงานบน OS ดาวน์โหลดที่รัน Java
 
-## ข้อกำหนดเบื้องต้น
+##เหตุผลนี้ถึงสำคัญสำหรับการสร้าง PDF ฝั่งเซิร์ฟเวอร์
+ตรวจสอบจาก PDF บนแพลตฟอร์มที่ช่วยขยายขอบเขตในหน้าจอฝั่งที่รองรับหรือบริการที่รองรับ มันให้ผลลัพธ์ที่กำหนดได้, โรงภาพยนตร์ได้และต้องฝังกราฟิก—เช่น การตรวจระดับ, ลายเซ็น, หรือส่วนที่เห็นได้ชัด— โดยตรงในรูปแบบ PDF, เก็บรักษา, หรือพิมพ์อัตโนมัติได้
 
-Before diving into the code, make sure you have the following:
+## ตัวอย่างการใช้งานทั่วไป
+- **ใบแจ้งหนี้แบบไดนามิก** ที่รวมโลโก้บริษัทที่วาดบน Canvas.
+- **การแสดงภาพข้อมูล** หมายถึง ระดับบาร์โค้ดหรืออุณหภูมิที่เรนเดอร์ พาร์ก.
+- **การสร้างใบรับรอง** ที่อ่าน Canvas เพื่อเป็นข้อความส่วนบุคคล
+- **Interactive Report Export** ที่ผู้ใช้ออกแบบกราฟิกในเว็บแอปและดำเนินการ PDF ทันที.
 
-- **Java Environment** – Java 8 or later installed. You can download Java from [here](https://www.java.com/download/).
-- **Aspose.HTML for Java** – Download the library from the [download page](https://releases.aspose.com/html/java/).
-- **IDE** – Any Java IDE such as Eclipse, IntelliJ IDEA, or VS Code.
+## เบื้องต้น
 
-## นำเข้าแพ็กเกจ
+ก่อนที่จะเจาะลึกโค้ด ตรวจสอบให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
 
-To start working with the Canvas, import the required Aspose.HTML classes:
+- **Java Environment** – Java 8 หรือใหม่กว่าติดตั้งแล้ว. ดาวน์โหลดดาวน์โหลด Java ได้จาก [ที่นี่](https://www.java.com/download/)
+- **Aspose.HTML for Java** – ดาวน์โหลดไลบรารีจาก [หน้าดาวน์โหลด](https://releases.aspose.com/html/java/)
+- **IDE** – IDE Java ตัวอย่างเช่น Eclipse, IntelliJ IDEA, หรือ VS Code.
+
+##นำเข้าพาร์ท
+
+หากต้องการเริ่มทำงานกับ Canvas ให้นำเข้าคลาส Aspose.HTML ที่จำเป็น:
 
 ```java
 // Import Aspose.HTML packages
@@ -54,21 +63,21 @@ import com.aspose.html.dom.canvas.ICanvasGradient;
 import com.aspose.html.rendering.pdf.PdfDevice;
 ```
 
-Now that the packages are ready, let’s walk through each step of the canvas manipulation process.
+ตอนนี้เมื่อบรรจุภัณฑ์พร้อมแล้ว มาดูแต่ละขั้นตอนของกระบวนการจัดการแคนวาสกันดีกว่า
 
-## คู่มือขั้นตอนต่อขั้นตอน
+##ขั้นตอนต่อขั้นตอน
 
-### ขั้นตอนที่ 1: สร้างเอกสาร HTML ว่าง
+### คำถามที่พบบ่อย 1: สร้างเอกสาร HTML ว่าง
 
-First, instantiate an `HTMLDocument` which will serve as the container for our canvas.
+ขั้นแรก สร้างอินสแตนซ์ `HTMLDocument` ซึ่งจะทำหน้าที่เป็นคอนเทนเนอร์สำหรับแคนวาสของเรา
 
 ```java
 HTMLDocument document = new HTMLDocument();
 ```
 
-### ขั้นตอนที่ 2: ตั้งขนาด Canvas ใน Java
+### ขั้นตอน 2: ตั้งขนาด Canvas ใน Java
 
-Create a `<canvas>` element and define its dimensions. This is where the **set canvas size java** keyword comes into play.
+สร้างองค์ประกอบ `<canvas>` และกำหนดขนาด ตรงนี้จะใช้คีย์เวิร์ด **set canvas size java**
 
 ```java
 HTMLCanvasElement canvas = (HTMLCanvasElement) document.createElement("canvas");
@@ -76,25 +85,25 @@ canvas.setWidth(300);
 canvas.setHeight(150);
 ```
 
-### ขั้นตอนที่ 3: เพิ่ม Canvas เข้าไปในเอกสาร
+### ขั้นตอน 3: ผนวก Canvas ไปยังเอกสาร
 
-Attach the canvas to the document’s `<body>` so that it becomes part of the HTML structure.
+แนบ canvas เข้ากับ `<body>` ของเอกสารเพื่อให้เป็นส่วนหนึ่งของโครงสร้าง HTML
 
 ```java
 document.getBody().appendChild(canvas);
 ```
 
-### ขั้นตอนที่ 4: รับ Context การเรนเดอร์ของ Canvas
+### ขั้นตอน 4: รับ Context การเรนเดอร์ของ Canvas
 
-Obtain a 2D rendering context (`ICanvasRenderingContext2D`) to draw on the canvas.
+รับคอนเท็กซ์การเรนเดอร์ 2 มิติ (`ICanvasRenderingContext2D`) เพื่อวาดบน canvas
 
 ```java
 ICanvasRenderingContext2D context = (ICanvasRenderingContext2D) canvas.getContext("2d");
 ```
 
-### ขั้นตอนที่ 5: เตรียมแปรง Gradient
+### ขั้นตอน 5: เตรียมแปรงไล่สี
 
-Create a linear gradient that transitions from magenta to blue to red. This demonstrates **draw gradient canvas java**.
+สร้างการไล่ระดับสีแบบเส้นตรงที่เปลี่ยนจากสีม่วงแดงเป็นสีน้ำเงินเป็นสีแดง นี่เป็นการสาธิต **draw gradient canvas java**
 
 ```java
 ICanvasGradient gradient = context.createLinearGradient(0, 0, canvas.getWidth(), 0);
@@ -103,76 +112,82 @@ gradient.addColorStop(0.5, "blue");
 gradient.addColorStop(1.0, "red");
 ```
 
-### ขั้นตอนที่ 6: กำหนด Gradient ให้กับ Fill และ Stroke
+### ขั้นตอน 6: กำหนด Gradient ให้กับ Fill และ Stroke
 
-Apply the gradient to both fill and stroke styles.
+ใช้การไล่ระดับสีกับทั้งสไตล์การเติมและเส้นขอบ
 
 ```java
 context.setFillStyle(gradient);
 context.setStrokeStyle(gradient);
 ```
 
-### ขั้นตอนที่ 7: เพิ่มข้อความลงใน Canvas (add text canvas java)
+### ขั้นตอน 7: เพิ่มข้อความลง Canvas (add text canvas java)
 
-Use the rendering context to write text and draw a filled rectangle.
+ใช้คอนเท็กซ์การเรนเดอร์เพื่อเขียนข้อความและวาดสี่เหลี่ยมผืนผ้าที่เติมสี
 
 ```java
 context.fillText("Hello World!", 10, 90, 500d);
 context.fillRect(0, 95, 300, 20);
 ```
 
-### ขั้นตอนที่ 8: สร้างอุปกรณ์ Output PDF
+### ขั้นตอน 8: สร้างอุปกรณ์ Output PDF
 
-Set up a `PdfDevice` that will receive the rendered PDF. This step is essential for **export canvas as pdf**.
+ตั้งค่า `PdfDevice` ที่จะรับไฟล์ PDF ที่แสดงผล ขั้นตอนนี้สำคัญมากสำหรับ **การส่งออก canvas เป็น PDF**
 
 ```java
 PdfDevice device = new PdfDevice("canvas.output.2.pdf");
 ```
 
-### ขั้นตอนที่ 9: เรนเดอร์ HTML5 Canvas ไปเป็น PDF (render html to pdf)
+### ขั้นตอน 9: เรนเดอร์ HTML5 Canvas ไปเป็น PDF (render html to pdf)
 
-Finally, render the entire HTML document—including the canvas—to the PDF device.
+สุดท้าย แสดงผลเอกสาร HTML ทั้งหมด รวมถึง canvas ไปยังอุปกรณ์ PDF
 
 ```java
 document.renderTo(device);
 ```
 
-When the program finishes, you’ll find `canvas.output.2.pdf` in your working directory, containing the gradient‑filled rectangle and the “Hello World!” text.
+เมื่อโปรแกรมเสร็จสิ้น คุณจะพบ `canvas.output.2.pdf` ในไดเร็กทอรีการทำงานของคุณ ซึ่งมีสี่เหลี่ยมที่เต็มไปด้วยการไล่ระดับสีและข้อความ “Hello World!” ข้อความ. ข้อมูลนี้สาธิตวิธีการ **สร้าง PDF จาก Canvas** ด้วยโค้ดเพียงไม่กี่บรรทัด
 
-## ปัญหาที่พบบ่อยและวิธีแก้
+##ไม่ต้องกังวลทั่วไปและวิธีการแก้
 
-| ปัญหา | สาเหตุ | วิธีแก้ |
+| ปัญหา | เหตุผล | แก้ไข |
 |-------|--------|-----|
-| **Blank PDF** | Canvas not attached to the document before rendering. | Ensure `document.getBody().appendChild(canvas);` is called before `renderTo()`. |
-| **Gradient not visible** | Gradient colors not added correctly. | Verify `addColorStop()` calls and that the gradient is set to both fill and stroke. |
-| **File not created** | No write permission for the output folder. | Run the program with appropriate file system permissions or specify an absolute path. |
+| **PDF เปล่า** | Canvas นำเสนอครั้งแรกที่ถูกนำเสนอเอกสารก่อนการเรนเดอร์ | ฟังได้เรียก `document.getBody().appendChild(canvas);` ก่อน `renderTo()`. |
+| **มองไม่เห็นการไล่ระดับสี** | การไล่ระดับสีเพื่อเพิ่มสิ่งเหล่านี้ | การเรียก `addColorStop()` และว่ากำหนดการฉีดไล่ระดับให้กับทั้งเติมและเส้นขีด |
+| **ไม่ได้สร้างไฟล์** | ไม่มีสิทธิ์เขียนในผลลัพธ์ | รันโปรแกรมด้วยสิทธิ์ไฟล์ที่เหมาะสมหรือระบุเส้นทางแบบสัมบูรณ์ |
 
-## คำถามที่พบบ่อย
+##ในเวลานี้
 
-**Q: Aspose.HTML for Java ฟรีหรือไม่?**  
-A: No, Aspose.HTML for Java is a commercial library. Pricing details are on the [purchase page](https://purchase.aspose.com/buy).
+**ถาม: Aspose.HTML สำหรับ Java ใช้งานได้ฟรีหรือไม่**
+A: ไม่ใช่, Aspose.HTML สำหรับ Java ในไลบรารีเท่านั้น รายละเอียดราคาอยู่ [หน้าซื้อ](https://purchase.aspose.com/buy)
 
-**Q: มีรุ่นทดลองฟรีหรือไม่?**  
-A: Yes, you can download a free trial from [here](https://releases.aspose.com/).
+**ถาม: มีการทดลองใช้ฟรีหรือไม่**
+ตอบ: มีนิยายดาวน์โหลดรุ่นทดลองฟรีได้จาก [ที่นี่](https://releases.aspose.com/)
 
-**Q: จะหาเอกสารและการสนับสนุนได้จากที่ไหน?**  
-A: Documentation is available at [https://reference.aspose.com/html/java/](https://reference.aspose.com/html/java/). For community help, visit the [Aspose forums](https://forum.aspose.com/).
+**ถาม: ฉันจะหาเอกสารและการสนับสนุนได้ที่ไหน**
+A: เอกสารพร้อมใช้งานที่ [https://reference.aspose.com/html/java/](https://reference.aspose.com/html/java/) เพื่อความสุขจากชุมชน ต่อไป [Aspose forums](https://forum.aspose.com/)
 
-**Q: สามารถใช้ Aspose.HTML for Java กับภาษาโปรแกรมอื่นได้หรือไม่?**  
-A: Aspose offers similar libraries for .NET, Node.js, and other platforms, but the Java library is specific to Java.
+**ถาม: ฉันสามารถใช้ Aspose.HTML สำหรับ Java กับภาษาการเขียนโปรแกรมอื่นๆ ได้หรือไม่**
+ตอบ: Aspose มีไลบรารี่พิเศษสำหรับ .NET, Node.js, และแพลตฟอร์มอื่นๆ, แต่ไลบรารีส่วนใหญ่ Java เฉพาะสำหรับ Java
 
-**Q: ตัวอย่างการใช้งานอื่น ๆ ของ HTML5 Canvas มีอะไรบ้าง?**  
-A: Canvas is great for games, interactive data visualizations, image editors, and custom charting solutions.
+**ถาม: กรณีการใช้งาน HTML5 Canvas อื่นๆ มีอะไรบ้าง**
+ตอบ: Canvas สำหรับเกม, ปัจจุบันข้อมูลแบบต่างๆ, คนที่แก้ไขภาพ, และความเข้มข้นของระดับนั้น.
 
-## สรุป
+**ถาม: การวาดการไล่ระดับสีบนผืนผ้าใบแตกต่างจากการเติมสีทึบอย่างไร**
+ตอบ: การไล่ระดับสี สร้างการเปลี่ยนสีอย่างทั่วถึงรูป, ส่วนใหญ่มักจะคำนึงถึงมากกว่าการเติมสีเดียว
 
-In this tutorial you learned how to **render HTML to PDF** by creating and manipulating an HTML5 Canvas with Aspose.HTML for Java. You now know how to **set canvas size java**, **add text canvas java**, **draw gradient canvas java**, and finally **export canvas as pdf**. Use these techniques to build dynamic reports, generate graphics‑rich PDFs, or automate any workflow that requires server‑side rendering of HTML canvas content.
+**ถาม: ฉันสามารถสร้าง PDF จาก Canvas โดยไม่ต้องเขียนลงดิสก์ก่อนได้ไหม**
+ตอบ: ได้สำเร็จ, เร็นเดอร์เดอร์ไปยังสตรีมหน่วยความจำได้ดำเนินการส่ง PDF ต่อเนื่องไปยังร้านอาหารหรือบริการอื่น ๆ
+
+##ยังไงก็ตาม
+
+ในบทช่วยสอนนี้ คุณได้เรียนรู้วิธี **เรนเดอร์ HTML เป็น PDF** โดยการสร้างและจัดการ HTML5 Canvas ด้วย Aspose.HTML สำหรับ Java ตอนนี้คุณรู้วิธี **ตั้งค่าขนาดแคนวาส java**, **เพิ่มข้อความแคนวาสจาวา**, **วาดเกรเดียนต์แคนวาสจาวา** และสุดท้าย **ส่งออกแคนวาสเป็น pdf** ใช้เทคนิคเหล่านี้เพื่อสร้างรายงานแบบไดนามิก สร้าง PDF ที่เต็มไปด้วยกราฟิก หรือทำให้เวิร์กโฟลว์ใดๆ ที่ต้องมีการเรนเดอร์เนื้อหา Canvas ฝั่งเซิร์ฟเวอร์เป็นอัตโนมัติ
 
 ---
 
-**Last Updated:** 2025-12-04  
-**Tested With:** Aspose.HTML for Java 24.11 (latest at time of writing)  
-**Author:** Aspose
+** อัปเดตล่าสุด:** 2026-02-04
+**ทดสอบกับ:** Aspose.HTML for Java 24.11 (ล่าสุด ณ เวลาที่เขียน)
+**หมายเหตุ:** สมมุติ
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

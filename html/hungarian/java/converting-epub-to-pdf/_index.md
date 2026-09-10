@@ -52,11 +52,17 @@ Szabadítsd fel digitális tartalmad potenciálját az Aspose.HTML for Java-val.
 ### [EPUB konvertálása PDF-be](./convert-epub-to-pdf/)
 Nyisd meg az EPUB‑PDF konvertálást az Aspose.HTML for Java-val, a hatékony Java könyvtárral. Hozz létre könnyedén hozzáférhető tartalmat.
 
+### [EPUB konvertálása PDF‑be Java‑val – Lépésről‑lépésre útmutató](./convert-epub-to-pdf-with-java-step-by-step-guide/)
+Tanulja meg, hogyan konvertáljon EPUB‑t PDF‑be Java‑val részletes, lépésről‑lépésre útmutatóval.
+
 ### [Egyedi Stream Provider megadása EPUB‑PDF konvertáláshoz](./convert-epub-to-pdf-specify-custom-stream-provider/)
 Tanuld meg, hogyan konvertálj EPUB‑t PDF‑be Java‑ban könnyedén az Aspose.HTML segítségével, növelve dokumentumfeldolgozási képességeidet.
 
 ### [PDF mentési beállítások megadása EPUB‑PDF konvertáláshoz](./convert-epub-to-pdf-specify-pdf-save-options/)
 Tanuld meg, hogyan konvertálj EPUB‑t PDF‑be Java‑ban az Aspose.HTML használatával, egy hatékony HTML manipulációs könyvtárat.
+
+### [Hogyan ágyazzunk be betűtípusokat az EPUB‑PDF konvertálásakor – Java útmutató](./how-to-embed-fonts-when-converting-epub-to-pdf-java-guide/)
+Ismerje meg, hogyan ágyazhat be egyedi betűtípusokat az EPUB‑PDF konvertálás során az Aspose.HTML for Java használatával.
 
 ### [EPUB konvertálása BMP‑be](./convert-epub-to-bmp/)
 Tanuld meg, hogyan konvertálj EPUB‑t BMP‑be az Aspose.HTML for Java használatával. Lépésről‑lépésre útmutató a hatékony tartalomátalakításhoz.
@@ -81,6 +87,9 @@ Tanuld meg, hogyan használhatod az Aspose.HTML for Java-t: EPUB konvertálása 
 
 ### [EPUB konvertálása képpé](./convert-epub-to-image/)
 Tanuld meg, hogyan konvertálj EPUB‑t képekké az Aspose.HTML for Java segítségével. Átalakítsd digitális tartalmad könnyedén. Lépésről‑lépésre útmutató is tartalmaz.
+
+### [epub to pdf oktatóanyag: e‑könyv PDF‑be konvertálása Aspose‑szal](./epub-to-pdf-tutorial-convert-ebook-to-pdf-with-aspose/)
+Tanulja meg, hogyan konvertálja az e‑könyveket PDF‑be az Aspose.HTML for Java segítségével.
 
 ## Gyakran Ismételt Kérdések
 

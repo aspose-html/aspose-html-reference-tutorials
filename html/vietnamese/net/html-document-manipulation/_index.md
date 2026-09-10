@@ -59,6 +59,8 @@ Mở khóa tiềm năng của Aspose.HTML cho .NET với hướng dẫn toàn di
 Tìm hiểu cách khai thác sức mạnh của Aspose.HTML cho .NET. Tăng cường phát triển web của bạn bằng cách xử lý và hiển thị HTML.
 ### [Tạo một tài liệu trong .NET với Aspose.HTML](./creating-a-document/)
 Giải phóng sức mạnh của Aspose.HTML cho .NET. Học cách tạo, thao tác và tối ưu hóa tài liệu HTML và SVG một cách dễ dàng. Khám phá các ví dụ từng bước và câu hỏi thường gặp.
+### [Tạo tài liệu HTML với Aspose.HTML – Hướng dẫn từng bước](./create-html-document-with-aspose-html-step-by-step-guide/)
+Khám phá cách tạo tài liệu HTML bằng Aspose.HTML qua hướng dẫn chi tiết từng bước.
 ### [Chỉnh sửa tài liệu trong .NET với Aspose.HTML](./editing-a-document/)
 Tạo nội dung web hấp dẫn với Aspose.HTML cho .NET. Tìm hiểu cách thao tác HTML, CSS và nhiều hơn nữa.
 ### [Lưu tài liệu trong .NET với Aspose.HTML](./saving-a-document/)

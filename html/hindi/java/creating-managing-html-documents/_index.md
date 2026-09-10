@@ -42,8 +42,12 @@ Aspose.HTML for Java उन डेवलपर्स के लिए एक श
  अंत में, जो लोग अपने कौशल को और भी आगे बढ़ाना चाहते हैं, उनके लिए खोज करने के लिए उन्नत विषयों का खजाना है। जानें कि उत्तरदायी और गतिशील वेब एप्लिकेशन बनाने के लिए SVG दस्तावेज़ों को कैसे प्रबंधित करें या दस्तावेज़ लोड ईवेंट को कैसे संभालें। ये ट्यूटोरियल आपको HTML से आगे ले जाते हैं, स्केलेबल वेक्टर ग्राफ़िक्स (SVG) और इवेंट-ड्रिवन प्रोग्रामिंग की पेचीदगियों में गोता लगाते हैं।[और पढ़ें](./create-manage-svg-documents/)
 
 ## Aspose.HTML for Java ट्यूटोरियल में HTML दस्तावेज़ बनाना और प्रबंधित करना
+
+
 ### [Java के लिए Aspose.HTML में एसिंक्रोनस रूप से HTML दस्तावेज़ बनाएँ](./create-html-documents-async/)
 Aspose.HTML for Java के साथ एसिंक्रोनस रूप से HTML दस्तावेज़ निर्माण में महारत हासिल करें। त्वरित सीखने के लिए चरण-दर-चरण मार्गदर्शिका, युक्तियाँ और FAQ शामिल हैं।
+### [Java में असिंक्रोनस जावास्क्रिप्ट निष्पादित करें – पूर्ण चरण‑दर‑चरण गाइड](./execute-async-javascript-in-java-complete-step-by-step-guide/)
+Java में असिंक्रोनस जावास्क्रिप्ट चलाने के लिए चरण‑दर‑चरण मार्गदर्शिका, टिप्स और सर्वोत्तम प्रथाएँ।
 ### [Java के लिए Aspose.HTML में खाली HTML दस्तावेज़ बनाएँ](./create-empty-html-documents/)
 Aspose.HTML for Java का उपयोग करके जावा में खाली HTML दस्तावेज़ बनाना सीखें, सभी स्तरों के डेवलपर्स के लिए उपयुक्त।
 ### [Java के लिए Aspose.HTML में फ़ाइल से HTML दस्तावेज़ लोड करें](./load-html-documents-from-file/)
@@ -66,6 +70,30 @@ SVG दस्तावेज़ बनाना और प्रबंधित 
 Java में HTML सैंडबॉक्स बनाने की प्रक्रिया सीखें, सुरक्षित परीक्षण और विकास के लिए चरण‑दर‑चरण मार्गदर्शिका।
 ### [Java में HTML क्वेरी कैसे करें – पूर्ण ट्यूटोरियल](./how-to-query-html-in-java-complete-tutorial/)
 Java में Aspose.HTML का उपयोग करके HTML क्वेरी करने के चरण‑दर‑चरण मार्गदर्शिका, टिप्स और सर्वोत्तम प्रथाएँ।
+### [Java में HTML को पार्स करना – लोड, क्वेरी और तत्वों की गिनती](./how-to-parse-html-java-load-query-count-elements/)
+Aspose.HTML for Java का उपयोग करके HTML को लोड, क्वेरी और तत्वों की गिनती करने की चरण‑दर‑चरण मार्गदर्शिका।
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Java में JavaScript से HTML उत्पन्न करें – पूर्ण चरण‑दर‑चरण गाइड](./generate-html-from-javascript-in-java-complete-step-by-step/)
+Java में JavaScript को निष्पादित करके HTML उत्पन्न करने की पूरी चरण‑दर‑चरण गाइड। कोड उदाहरण और सर्वोत्तम प्रथाएँ शामिल हैं।
+### [NodeList को इटररेट करें Java – HTML पढ़ें और इमेज src प्राप्त करें](./iterate-nodelist-java-read-html-get-image-src/)
+Java में NodeList को इटररेट करके HTML से इमेज src निकालना सीखें। चरण-दर-चरण मार्गदर्शिका और कोड उदाहरण।
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Java में NodeList पर इटरेट करना – पूर्ण गाइड](./iterate-over-nodelist-java-complete-guide/)
+Aspose.HTML for Java का उपयोग करके NodeList को इटरेट करने की पूरी प्रक्रिया सीखें, कोड उदाहरण और सर्वोत्तम प्रथाएँ।
+### [Java के साथ HTML से टेक्स्ट निकालें – पूर्ण चरण‑दर‑चरण गाइड](./extract-text-from-html-with-java-complete-step-by-step-guide/)
+Aspose.HTML for Java का उपयोग करके HTML दस्तावेज़ से टेक्स्ट निकालना सीखें। विस्तृत चरण‑दर‑चरण मार्गदर्शिका।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

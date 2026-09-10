@@ -1,0 +1,7 @@
+Title: Create Font Bold Italic in C# – Complete Guide
+Slug: create-font-bold-italic-in-c-complete-guide
+Category: html-document-manipulation
+ProcessedDate: 2026-06-19T22:17:15.130454
+SourceRepo: AI Search API
+Keywords: create font bold italic, apply multiple font styles, set font size family
+PRNumber: 186

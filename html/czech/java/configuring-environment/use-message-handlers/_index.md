@@ -1,10 +1,10 @@
 ---
-date: 2025-12-10
+date: 2026-02-10
 description: Naučte se, jak používat Aspose k řešení poškozených odkazů v Javě, převádět
   HTML na PNG a načítat HTML dokument v Javě pomocí Aspose.HTML pro Javu.
 linktitle: Use Message Handlers in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
-title: Jak používat zpracovatele zpráv Aspose.HTML v Javě
+title: Převod HTML na PNG s Aspose.HTML Message Handlers v Javě
 url: /cs/java/configuring-environment/use-message-handlers/
 weight: 12
 ---
@@ -13,50 +13,53 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Jak používat Aspose.HTML Message Handlers v Javě
+# Převod HTML na PNG pomocí Aspose.HTML Message Handlers v Javě
 
 ## Úvod
-V tomto tutoriálu je krok za krokem předvedeno, **how to use aspose** pro zpracování chybějících zdrojů v HTML. Vytvoříme jednoduchý HTML dokument, který odkazuje na chybějící obrázek, připojíme vlastní handler zpráv a ukážeme vám, jak **načtete html dokument java** s elegantním zacházením s nefunkčními odkazy. Na konci také uvidíte, jak **convert html to png** pomocí Aspose.HTML, což vám poskytne kompletní přehled o konverzi HTML na obrázek v Javě.
+V tomto tutoriálu se dozvíte **jak převést HTML na PNG** a zároveň elegantně zacházet s chybějícími zdroji pomocí Aspose.HTML pro Javu. Provedeme vás vytvořením malé HTML stránky, která odkazuje na neexistující obrázek, nastavením **vlastního message handleru** k **zachycení síťových požadavků**, konfigurací **síťové služby**, načtením dokumentu a nakonec provedením **převodu HTML na obrázek**. Na konci budete mít solidní vzor jak pro **handle broken links java**, tak pro výstup PNG vysoké kvality — ideální pro zprávy, miniatury nebo náhledy e‑mailů.
 
 ## Rychlé odpovědi
-- **Jaký je primární účel obsluhy zpráv?** Interceptovat síťové operace a reagovat na stavové kódy, jako jsou chybějící zdroje.
-- **Can Aspose.HTML convert HTML to PNG?** Ano, pomocí `Converter.convertHTML` můžete provést konverzi HTML na obrázek.
-- **Potřebuji pro tento příklad licenci?** Dočasná licence hodnocení hodnocení; trvalá licence je vyžadována pro produkci.
-- **Jaká verze Java je podporována?** Jakýkoli JDK8+ (v tutoriálu je použit JDK11).
-- **Je možné zpracovat více nefunkčních odkazů?** Rozhodně – můžete řetězit několik handlerů pro správu různých scénářů.
+- **Co dělá message handler?** Zachycuje síťové operace (např. požadavky na obrázky) a umožňuje reagovat na stavové kódy jako 404.  
+- **Umí Aspose.HTML převést HTML na PNG?** Ano — `Converter.convertHTML` provádí převod jedním voláním.  
+- **Potřebuji licenci pro tento příklad?** Dočasná licence odstraňuje omezení hodnocení; pro produkční použití je vyžadována trvalá licence.  
+- **Která verze Javy funguje?** Jakýkoli JDK 8+ (ukázka běží na JDK 11).  
+- **Mohu konfigurovat síťovou službu?** Samozřejmě — použijte `configuration.getService(INetworkService.class)` k přidání vašeho handleru.
 
-## Předpoklady
-1. Java Development Kit (JDK): přichází se, že máte J nainstalovaný ve svém systému. Můžete si jej stáhnout z [web Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
-2. Aspose.HTML for Java: Budete potřebovat nainstalovaný Aspose.HTML for Java. Stáhněte jej z [Stránka vydání Aspose](https://releases.aspose.com/html/java/).
-3. IDE: Použijte své oblíbené Java Integrated Development Environment (IDE) jako IntelliJ IDEA, Eclipse nebo NetBeans.
-4. Basic Knowledge of Java: Znalost programování v Javě je nezbytná pro efektivní sledování tohoto tutoriálu.
-5. Dočasná licence: Pokud používáte zkušební verzi licence Aspose.HTML, získáte získání [dočasná licence](https://purchase.aspose.com/temporary-license/) , abyste se vyhnuli omezením během vývoje.
+## Požadavky
+Než se ponoříme dál, ujistěte se, že máte následující připravené:
 
-## Importujte balíčky
-Než začneme, ujistěte se, že máte do svého Java projektu importovány potřebné balíčky. Níže jsou nezbytné importy, které budete potřebovat:
+1. **Java Development Kit (JDK)** — stáhněte z [Oracle website](https://www.oracle.com/java/technologies/javase-downloads.html).  
+2. **Aspose.HTML for Java** — získejte knihovnu ze [Aspose releases page](https://releases.aspose.com/html/java/).  
+3. **IDE** — IntelliJ IDEA, Eclipse nebo NetBeans jsou v pořádku.  
+4. **Základní znalost Javy** — měli byste být obeznámeni s třídami, try‑with‑resources a zpracováním výjimek.  
+5. **Dočasná licence** — pokud používáte zkušební verzi, pořiďte si [temporary license](https://purchase.aspose.com/temporary-license/) pro odstranění vodoznaků.
+
+## Import balíčků
+Nejprve načtěte třídu Java I/O, kterou budeme potřebovat pro práci se soubory. Ostatní třídy Aspose jsou později odkazovány pomocí plně kvalifikovaných názvů, což udržuje seznam importů přehledný.
+
 ```java
 import java.io.IOException;
 ```
-Tyto importy vám poskytnou přístup ke třídám a metodám potřebným pro zpracování síťových operací, tvorbu HTML dokumentů a provádění konverze HTML‑to‑PNG.
 
-## Krok 1: Příprava HTML kódu
-Prvním krokem je jednoduchý HTML úryvek, který odkazuje na soubor obrázku. Úmyslně odkážeme na obrázek, který neexistuje, aby se spustil mechanismus zpracování chyb.
+## Krok 1: Připravte HTML kód
+Vytvoříme minimální úryvek HTML, který úmyslně odkazuje na chybějící obrázek. To spustí náš handler, když engine bude chtít načíst zdroj.
+
 ```java
 String code = "<img src='missing.jpg'>";
 ```
-Tento kód vytváří značku `<img>`, která ukazuje na `missing.jpg`. Protože obrázek chybí, síťová služba vrátí stavový kód odlišný od 200, který zachytí náš vlastní handler.
 
 ## Krok 2: Zapište HTML kód do souboru
-Dále musíme HTML úryvek uložit, aby ho Aspose.HTML mohl načíst jako dokument.
+Dále uložíme úryvek do *document.html*. Použití bloku try‑with‑resources zajišťuje, že `FileWriter` bude řádně uzavřen.
+
 ```java
 try (java.io.FileWriter fileWriter = new java.io.FileWriter("document.html")) {
     fileWriter.write(code);
 }
 ```
-Pomocí `FileWriter` uložíme HTML do **document.html**. Tento soubor se stane zdrojem pro krok **load html document java** později.
 
-## Krok 3: Vytvořte vlastní obslužnou rutinu zpráv
-Nyní si vytvoříme vlastní message handler, který reaguje, když obrázek nelze najít. Handler kontroluje HTTP stavový kód a vypíše přátelskou zprávu.
+## Krok 3: Napište vlastní Message Handler
+Nyní vytvoříme **vlastní message handler**, který kontroluje HTTP stav každého síťového požadavku. Pokud odpověď není `200`, zaznamenáme přátelské varování. Všimněte si volání `invoke(context);` na konci — tím se požadavek předá dalšímu handleru v řetězci, čímž se zabrání rekurzi.
+
 ```java
 com.aspose.html.net.MessageHandler handler = new com.aspose.html.net.MessageHandler() {
     @Override
@@ -68,20 +71,20 @@ com.aspose.html.net.MessageHandler handler = new com.aspose.html.net.MessageHand
     }
 };
 ```
-Metoda `invoke` zkoumá `context.getResponse().getStatusCode()`. Pokud není **200**, vypíšeme jasné varování, že soubor chybí. Poslední volání `invoke(context);` předá řízení dalšímu handleru v řetězci.
 
-## Krok 4: Konfigurace síťové služby
-Aby Aspose.HTML vědělo o našem handleru, zaregistrujeme jej do síťové služby pomocí třídy `Configuration`.
+## Krok 4: Nakonfigurujte síťovou službu
+Aby Aspose.HTML poznal náš handler, získáme **síťovou službu** z instance `Configuration` a přidáme handler do její kolekce. Toto je krok, kde **konfigurujeme síťovou službu** pro vlastní chování.
+
 ```java
 com.aspose.html.Configuration configuration = new com.aspose.html.Configuration();
 try {
     com.aspose.html.services.INetworkService network = configuration.getService(com.aspose.html.services.INetworkService.class);
     network.getMessageHandlers().addItem(handler);
 ```
-Zde vytvoříme instanci `Configuration`, získáme `INetworkService` a přidáme náš vlastní handler do její kolekce. Tím zajistíme, že handler bude spuštěn při každém síťovém požadavku, například při načítání obrázků.
 
 ## Krok 5: Načtěte HTML dokument
-S připravenou konfigurací můžeme nyní načíst HTML soubor, který jsme vytvořili dříve. Tento krok demonstruje **load html document java**, zatímco chybějící obrázek spustí náš handler.
+Po připravení konfigurace načteme *document.html*. Engine nyní používá naši síťovou službu, takže požadavek na chybějící obrázek zachytí právě přidaný handler.
+
 ```java
 com.aspose.html.HTMLDocument document = new com.aspose.html.HTMLDocument("document.html", configuration);
 try {
@@ -92,10 +95,10 @@ try {
     }
 }
 ```
-Konstruktor `HTMLDocument` přijímá jak cestu k souboru, tak vlastní `configuration`. Když dokument parsuje značku `<img>`, síťová služba se pokusí načíst `missing.jpg`, obdrží 404 a náš handler vypíše varování.
 
-## Krok 6: Převod HTML do PNG
-Abychom ukázali širší možnosti Aspose.HTML, převedeme načtený dokument na PNG obrázek. Jedná se o klasický scénář **convert html to png**.
+## Krok 6: Převod HTML na PNG
+Zde je jádro procesu **html to image conversion**. Metoda `Converter.convertHTML` přijímá načtený `HTMLDocument`, volitelné `ImageSaveOptions` (kde můžete upravit DPI nebo kvalitu) a název výstupního souboru.
+
 ```java
 com.aspose.html.converters.Converter.convertHTML(
     document,
@@ -103,10 +106,10 @@ com.aspose.html.converters.Converter.convertHTML(
     "output.png"
 );
 ```
-`Converter.convertHTML` přijímá `HTMLDocument`, volitelné `ImageSaveOptions` (kde můžete nastavit DPI, kvalitu atd.) a název výstupního souboru. Výsledkem je rastrový obrázek vykresleného HTML.
 
-## Krok 7: Vyčištění zdrojů
-Správná správa zdrojů je v každé Java aplikaci zásadní. Uvolníme jak `Configuration`, tak `HTMLDocument`, aby nedocházelo k únikům paměti.
+## Krok 7: Vyčistěte prostředky
+Dobrá praxe v Javě vyžaduje uvolnění všech nativních prostředků. Blok `finally` zajišťuje, že `Configuration` bude uvolněna i v případě, že se vyhodí výjimka.
+
 ```java
 } finally {
     if (configuration != null) {
@@ -114,41 +117,41 @@ Správná správa zdrojů je v každé Java aplikaci zásadní. Uvolníme jak `C
     }
 }
 ```
-Zabalení úklidu do bloku `finally` zaručuje jeho provedení i v případě, že se dříve vyvolá výjimka.
 
-## Proč používat obslužné rutiny zpráv?
-Message handlery vám poskytují detailní kontrolu nad síťovými operacemi, jako je **handle broken links java**. Místo tichého selhání knihovny můžete logovat, opakovat požadavky, nahrazovat zdroje nebo poskytovat náhradní obsah – čímž učiníte zpracování HTML robustním a připraveným pro produkci.
+## Proč používat Message Handlery?
+Message handlery vám poskytují **jemnou kontrolu** nad každým síťovým požadavkem — ať už jde o obrázek, CSS, JavaScript nebo soubor fontu. Místo toho, aby knihovna selhala tiše, můžete zaznamenávat chybějící zdroje, poskytovat záložní obsah nebo dokonce požadavek opakovat. To činí váš HTML zpracovatelský řetězec **robustním**, **připraveným pro produkci** a snáze laditelným.
 
-## Běžné problémy a řešení
-- **Her recursion** – `and naplní se, že voláte invoke(context);` jen jednou, aby nedošlo k nekonečným smyčkám.
-- **Chybí licence** – Bez platné licence může být vytvořen obrázek s vodoznakem.
-- **Chyby cesty k souboru** – Používejte absolutní cestu nebo správně nastavte pracovní adresář při načítání `document.html`.
+## Časté problémy a řešení
+- **Rekurze handleru** — volání `invoke(context);` pouze jednou, aby se předešlo nekonečným smyčkám.  
+- **Chybějící licence** — bez platné licence bude výstupní PNG obsahovat vodoznak.  
+- **Nesprávné cesty k souborům** — použijte absolutní cesty nebo správně nastavte pracovní adresář při načítání `document.html`.  
+- **Nepodporované typy zdrojů** — ujistěte se, že zdroj, který chcete zachytit (obrázek, CSS atd.), je skutečně požadován HTML engine.
 
 ## Často kladené otázky
 
-**Otázka: Mohu řetězit více obslužných programů zpráv?**
+**Q: Mohu řetězit více message handlerů?**  
 A: Ano, můžete přidat několik handlerů do kolekce `network.getMessageHandlers()`; budou provedeny v pořadí, v jakém byly přidány.
 
-**Otázka: Funguje obslužný program také pro zdroje CSS nebo skriptů?**
-A: Rozhodně – jakýkoli síťový požadavek vytvořený HTML enginem (obrázky, CSS, JS, fonty) projde skrz handler.
+**Q: Funguje handler také pro CSS nebo skriptové zdroje?**  
+A: Rozhodně — každý síťový požadavek vytvořený HTML engine (obrázky, CSS, JS, fonty) prochází handlerem.
 
-**Otázka: Jak změním požadavek HTTP před jeho odesláním?**
+**Q: Jak mohu změnit HTTP požadavek před jeho odesláním?**  
 A: Implementujte handler, který upraví `context.getRequest()` před voláním `invoke(context)`.
 
-**Otázka: Existuje způsob, jak potlačit varování pro konkrétní adresy URL?**
-A: V handleru můžete zkontrolovat `context.getRequest().getRequestUri()` a podmíněně vynechat logování.
+**Q: Existuje způsob, jak potlačit varování pro konkrétní URL?**  
+A: V handleru prozkoumejte `context.getRequest().getRequestUri()` a podmíněně vynechejte zápis do logu.
 
-**Otázka: Jaká verze Aspose.HTML je pro tato rozhraní API vyžadována?**
+**Q: Jaká verze Aspose.HTML je pro tyto API vyžadována?**  
 A: Kód funguje s Aspose.HTML pro Java 22.10 a novější.
 
 ## Závěr
-A to je vše – komplexní průvodce **jak používat správu zpráv aspose** v Javě. Pokryli jsme tvorbu HTML souboru, napojení vlastního handleru na **handle broken links java**, načtení dokumentu a provedení **convert html to png**. S tímto přístupem můžete sebejistě zachovat chybějící zdroje, vynucovat vlastní politiku a rozšiřovat síťové Aspose.HTML v jakékoli aplikaci Java.
+Nyní máte kompletní, end‑to‑end příklad **jak převést HTML na PNG** a zároveň použít **vlastní message handler** k **zachycení síťových požadavků** a **handle broken links java**. Konfigurací síťové služby, načtením dokumentu a voláním konvertoru můžete spolehlivě generovat PNG miniatury nebo snímky celé stránky v jakékoli Java aplikaci.
 
 ---
 
-**Poslední aktualizace:** 2025-12-10
-**Testováno s:** Aspose.HTML pro Javu 24.11
-**Autor:** Aspose  
+**Last Updated:** 2026-02-10  
+**Tested With:** Aspose.HTML for Java 24.11  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

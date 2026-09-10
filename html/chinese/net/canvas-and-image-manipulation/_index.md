@@ -45,6 +45,8 @@ Aspose.HTML for .NET 简化了图像编辑。您可以加载图像、应用滤�
 了解如何使用 Aspose.HTML for .NET 将 SVG 转换为 XPS。使用这个强大的库来提升您的 Web 开发。
 ### [在 C# 中启用抗锯齿 – 平滑边缘](./how-to-enable-antialiasing-in-c-smooth-edges/)
 了解如何在 C# 中使用 Aspose.HTML 启用抗锯齿，以获得平滑的图形边缘。
+### [创建画布文本 – 渲染图像文字的完整指南](./create-canvas-text-full-guide-to-rendering-text-on-images/)
+本完整指南展示如何在图像上使用 Aspose.HTML for .NET 渲染文本，包括字体、颜色和位置设置。
 
 ## 结论
 

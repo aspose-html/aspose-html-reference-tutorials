@@ -50,6 +50,8 @@ url: /el/java/message-handling-networking/
 Μάθετε πώς να μετατρέπετε αρχεία ZIP σε εικόνες JPG χρησιμοποιώντας το Aspose.HTML για Java με αυτόν τον οδηγό βήμα προς βήμα.
 ### [Μετατροπή ZIP σε PDF με το Aspose.HTML για Java](./zip-to-pdf/)
 Μετατρέψτε εύκολα τα αρχεία ZIP σε PDF χρησιμοποιώντας το Aspose.HTML για Java με αυτόν τον οδηγό βήμα προς βήμα.
+### [java 11 httpclient authenticator – Πλήρης Οδηγός για Ασφαλή Αιτήματα](./java-11-httpclient-authenticator-complete-guide-to-secure-re/)
+Μάθετε πώς να χρησιμοποιείτε το HttpClient του Java 11 με Authenticator για ασφαλή αιτήματα, εξασφαλίζοντας κρυπτογραφημένη επικοινωνία.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

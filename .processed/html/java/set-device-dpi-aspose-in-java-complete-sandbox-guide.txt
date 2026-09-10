@@ -1,0 +1,7 @@
+Title: set device dpi aspose in Java – Complete Sandbox Guide
+Slug: set-device-dpi-aspose-in-java-complete-sandbox-guide
+Category: advanced-usage
+ProcessedDate: 2026-06-16T19:14:54.854588
+SourceRepo: AI Search API
+Keywords: set device dpi aspose, set viewport width height
+PRNumber: 183

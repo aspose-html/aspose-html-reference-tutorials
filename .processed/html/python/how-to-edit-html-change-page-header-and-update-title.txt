@@ -1,0 +1,7 @@
+Title: How to Edit HTML – Change Page Header and Update Title
+Slug: how-to-edit-html-change-page-header-and-update-title
+Category: general
+ProcessedDate: 2026-06-10T12:37:55.950482
+SourceRepo: AI Search API
+Keywords: how to edit html, change page header, update html title, find element by id, change html text
+PRNumber: 180

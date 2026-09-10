@@ -1,0 +1,7 @@
+Title: How to Parse HTML in Python – Complete Guide
+Slug: how-to-parse-html-in-python-complete-guide
+Category: general
+ProcessedDate: 2026-05-29T01:37:25.722427
+SourceRepo: AI Search API
+Keywords: how to parse html, get href attribute, load html file, use css selector, xpath contains example
+PRNumber: 165

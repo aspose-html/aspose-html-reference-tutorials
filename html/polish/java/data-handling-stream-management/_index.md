@@ -26,6 +26,9 @@ Po pierwsze, porozmawiajmy o tym, czym są strumienie pamięci. Wyobraź sobie s
 ## Obsługa danych i zarządzanie strumieniami w Aspose.HTML dla samouczków Java
 ### [Konwersja strumienia pamięci do pliku przy użyciu Aspose.HTML dla języka Java](./memory-stream-to-file/)
 Konwertuj HTML na JPEG za pomocą Aspose.HTML dla Java przy użyciu strumieni pamięci. Postępuj zgodnie z tym przewodnikiem krok po kroku, aby uzyskać bezproblemową konwersję HTML na obraz.
+### [Java Fixed Thread Pool: zliczanie obrazów w równoległych plikach](./java-fixed-thread-pool-count-images-in-parallel-files/)
+Użyj stałego puli wątków w Javie, aby równolegle przetwarzać pliki i zliczać obrazy. Przewodnik krok po kroku pokazuje wydajne rozwiązanie.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

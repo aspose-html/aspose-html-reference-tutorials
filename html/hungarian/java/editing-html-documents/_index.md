@@ -37,7 +37,7 @@ Ha már megtanulta a HTML-dokumentumszerkesztés alapjait, ideje feljebb lépni!
 
 ## Külső CSS alkalmazása profiként
 
- külső CSS az, ahol a webdesign valódi ereje lép működésbe. A megfelelő CSS segítségével egy egyszerű HTML-oldalt gyönyörű stílusú dokumentummá alakíthat. A speciális külső CSS-szerkesztésről szóló oktatóanyag tökéletes azok számára, akik szeretnék elsajátítani a dinamikus, reszponzív tervezés művészetét. Képzelje el, hogy könnyedén alkalmazhat összetett stílusokat több HTML-dokumentumban – ez az oktatóanyag ezt kínálja. Ez az Ön átjárója az elegáns, modern weboldalak létrehozásához, amelyek kiemelkednek. Ne hagyja ki ezt az értékes forrást![Olvass tovább](./advanced-external-css-editing/)
+ külső CSS az, ahol a webdesign valódi ereje lép működésbe. A megfelelő CSS segítségével egy egyszerű HTML-oldalt gyönyörű stílusú dokumentummá alakíthat. A speciális külső CSS-szerkesztésről szóló oktatóanyag tökéletes azok számára, akik szeretnék elsajátítani a dinamikus, reszponzív tervezés művészetét. Képzelje el, hogy könnyedén alkalmazhat összetett stílusokat több HTML-dokumentumban – ez az oktatóanyag ezt kínálja. Ez a Ön átjárója az elegáns, modern weboldalak létrehozásához, amelyek kiemelkednek. Ne hagyja ki ezt az értékes forrást![Olvass tovább](./advanced-external-css-editing/)
 
 ## Inline és belső CSS hozzáadása
 
@@ -60,6 +60,8 @@ Ezzel a lépésről lépésre szóló útmutatóval megtudhatja, hogyan kezelhet
 Ismerje meg a belső CSS-t HTML-dokumentumokban az Aspose.HTML for Java használatával az egyszerű, lépésről lépésre oktatóanyagunk segítségével.
 ### [Fixed thread pool Java – Párhuzamos HTML tisztítás ExecutorService használatával](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 Ismerje meg, hogyan használhatja a FixedThreadPool-t a HTML dokumentumok párhuzamos tisztításához az ExecutorService segítségével.
+### [Gyermek elem hozzáadása a body-hoz Java-ban – Teljes Aspose.HTML oktatóanyag](./append-child-to-body-in-java-full-aspose-html-tutorial/)
+Ismerje meg, hogyan adhat hozzá új elemet a HTML body részéhez Java-ban az Aspose.HTML segítségével, lépésről lépésre.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

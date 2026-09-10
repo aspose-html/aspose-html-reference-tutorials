@@ -1,224 +1,206 @@
 ---
 category: general
-date: 2026-02-11
-description: Hur man renderar HTML till PNG i C# med Aspose.HTML – konvertera HTML
-  till PNG snabbt med tydlig kod, spara HTML som PNG och generera PNG från HTML.
+date: 2026-01-07
+description: Lär dig hur du renderar HTML till PNG med Aspose.HTML. Denna handledning
+  visar hur du konverterar HTML till bild, ställer in bildens dimensioner, exporterar
+  HTML som PNG och sparar bitmap som PNG.
 draft: false
 keywords:
 - how to render html
-- convert html to png
-- save html as png
-- c# html to png
-- generate png from html
+- convert html to image
+- set image dimensions
+- export html as png
+- save bitmap as png
 language: sv
-og_description: Hur man renderar HTML till PNG i C# med Aspose.HTML. Lär dig att konvertera
-  HTML till PNG, spara HTML som PNG och generera PNG från HTML på några minuter.
+og_description: Upptäck hur du renderar HTML till PNG med Aspose.HTML. Följ hela exemplet
+  för att konvertera HTML till bild, ange bildens dimensioner, exportera HTML som
+  PNG och spara bitmap som PNG.
 og_title: Hur man renderar HTML till PNG i C# – Komplett guide
 tags:
-- Aspose.HTML
 - C#
+- Aspose.HTML
 - Image Rendering
-title: Så renderar du HTML till PNG i C# – Steg‑för‑steg‑guide
+title: Hur man renderar HTML till PNG i C# – Steg‑för‑steg guide
 url: /sv/net/rendering-html-documents/how-to-render-html-to-png-in-c-step-by-step-guide/
 ---
-
-Varför | (or "Vad att justera" maybe "Vad som ska justeras").
-
-We'll use "Vad som ska justeras". So:
-
-| Situation | Vad som ska justeras | Varför |
-
-Now ensure code placeholders remain.
-
-Now produce final markdown.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hur man renderar HTML till PNG i C# – Komplett genomgång
+# Hur man renderar HTML till PNG i C# – Steg‑för‑steg‑guide
 
-Har du någonsin undrat **hur man renderar html** direkt till en bitmap-bild utan att behöva en webbläsarmotor? Du är inte ensam. Många utvecklare stöter på problem när de behöver en snabb PNG‑ögonblicksbild av en e‑postmall, ett diagram eller en dynamiskt‑genererad rapport.  
+Har du någonsin undrat **hur man renderar html** direkt till en bildfil utan att pilla med en webbläsare? Kanske behöver du en miniatyr för ett e‑postmeddelande, en förhandsgranskning för ett CMS eller en snabbvy för en rapporteringsdashboard. Oavsett vad är du inte ensam—utvecklare frågar ständigt hur man renderar html till en bitmap som kan sparas som PNG.
 
-Den goda nyheten? Med Aspose.HTML kan du **konvertera html till png** med bara några rader C#. I den här handledningen går vi igenom hur du laddar en lokal HTML‑fil, justerar renderingsalternativ och slutligen **sparar html som png** – samtidigt som vi förklarar varför varje steg är viktigt.
+I den här handledningen går vi igenom en komplett, färdig‑att‑köra‑lösning som **konverterar html till bild**, låter dig **ange bilddimensioner**, **exportera html som png**, och slutligen **spara bitmap som png**. Inga vaga referenser, bara koden du kan kopiera‑klistra in och köra idag.
 
-## Vad du kommer att lära dig
+## Vad du behöver
 
-* Förstå förutsättningarna för **c# html to png**-konvertering.
-* Konfigurera `ImageRenderingOptions` för att styra storlek, DPI och antialiasing.
-* Utför ett enstaka `Save`‑anrop som **generate png from html**.
-* Identifiera vanliga fallgropar (t.ex. saknade typsnitt) och tillämpa snabba lösningar.
+- **.NET 6+** (Aspose.HTML NuGet‑paketet fungerar med .NET Framework, .NET Core och .NET 5/6/7)
+- **Aspose.HTML for .NET** – installera via NuGet: `Install-Package Aspose.HTML`
+- En grundläggande C#‑IDE (Visual Studio, Rider eller VS Code) – allt som låter dig kompilera en konsolapp fungerar.
+- Skrivbehörighet till en mapp där PNG‑filen ska sparas.
 
-Inga externa verktyg, ingen headless Chrome—bara ren .NET‑kod som fungerar på Windows, Linux och macOS.
+Det är allt. Inga extra webbdri­ver, ingen headless Chrome, bara ett enda bibliotek som gör det tunga lyftet.
 
-## Förutsättningar
+![exempel på hur man renderar html](render-html.png){:alt="exempel på hur man renderar html"}
 
-* .NET 6.0 eller senare (API:et fungerar även med .NET Framework 4.6+).
-* Aspose.HTML för .NET NuGet‑paket (`Aspose.Html`).
-* En giltig HTML‑fil (`sample.html`) placerad någonstans där din app kan läsa den.  
+## Så renderar du HTML till PNG med Aspose.HTML
 
-Om du ännu inte har lagt till NuGet‑paketet, kör:
+Nedan delar vi upp processen i sex logiska steg. Varje steg förklarar **varför** det är viktigt, inte bara **vad** du ska skriva.
+
+### Steg 1: Installera och referera Aspose.HTML
+
+Först, lägg till biblioteket i ditt projekt. Paketet innehåller klassen `HTMLDocument` och renderingsmotorer för både bild och text.
 
 ```bash
-dotnet add package Aspose.Html
+dotnet add package Aspose.HTML
 ```
 
-Det är allt du behöver—inga extra binärer, inga runtime‑installatörer.
+> **Proffstips:** Om du använder en CI‑pipeline, lås versionen (`Aspose.HTML==23.12`) för att undvika oväntade brytande förändringar.
 
----
+### Steg 2: Aktivera texthintning för skarpa typsnitt
 
-## Steg 1: Ladda HTML‑dokumentet – Hur man renderar HTML
-
-Det första du måste göra är att tala om för Aspose.HTML var din källa finns.  
-Att ladda dokumentet är snabbt, men det parsar också markupen, löser CSS och bygger ett DOM‑träd som renderaren senare kommer att gå igenom.
+När text renderas kan Aspose.HTML tillämpa hinting för att förbättra tydligheten på lågupplösta bilder. Detta är den moderna ersättningen för den äldre `TextRenderingHint`‑egenskapen.
 
 ```csharp
 using Aspose.Html;
 using Aspose.Html.Rendering.Image;
+using Aspose.Html.Rendering.Text;
 
-// Load the source HTML file from disk
-HTMLDocument htmlDoc = new HTMLDocument(@"C:\MyProject\sample.html");
-
-// Verify that the document loaded correctly (optional but handy)
-if (htmlDoc == null)
+// Enable text hinting – makes the glyphs look sharper
+var textOptions = new TextOptions
 {
-    throw new InvalidOperationException("Failed to load the HTML document.");
-}
-```
-
-> **Varför detta är viktigt:**  
-> Om HTML‑filen innehåller externa resurser (bilder, typsnitt, CSS) löser Aspose.HTML dem relativt till dokumentets bas‑URL. Att ange en absolut sökväg undviker felmeddelandet “resource not found” senare.
-
----
-
-## Steg 2: Konfigurera renderingsalternativ – Konvertera HTML till PNG
-
-Nu ställer vi in `ImageRenderingOptions`. Tänk på detta objekt som kamerainställningarna för din skärmdump: du väljer upplösning, canvas‑storlek och om du vill ha mjuka kanter.
-
-```csharp
-// Define how the HTML should be rasterized
-ImageRenderingOptions renderingOptions = new ImageRenderingOptions
-{
-    Width = 1024,               // Width in pixels – adjust to your layout
-    Height = 768,               // Height in pixels – maintain aspect ratio if needed
-    UseAntialiasing = true,     // Turns on smoothing for sharper lines
-    BackgroundColor = System.Drawing.Color.White // Guarantees a solid background
+    UseHinting = true   // Replaces the older TextRenderingHint property
 };
 ```
 
-> **Proffstips:** Om du behöver en PNG med högre kvalitet för utskrift, öka `Width` och `Height` proportionellt, eller sätt `Resolution` (DPI) via `renderingOptions.Resolution = 300;`.
+**Varför det är viktigt:** Utan hinting kan tunna linjer bli suddiga, särskilt i mindre storlekar. Att aktivera det säkerställer att den slutgiltiga PNG‑filen ser professionell ut.
 
----
+### Steg 3: Ange bilddimensioner (konvertera html till bild)
 
-## Steg 3: Spara bilden – Spara HTML som PNG
-
-Med dokumentet och alternativen klara är sista steget ett enda `Save`‑anrop. Denna metod gör det tunga jobbet: layout, målning och kodning av bitmapen till en PNG‑fil.
+Du kan kontrollera utdata‑storleken genom att konfigurera `ImageRenderingOptions`. Här **anger du bilddimensioner** för att matcha dina designkrav.
 
 ```csharp
-// Render the HTML page to a PNG image using the configured options
-htmlDoc.Save(@"C:\MyProject\output.png", renderingOptions);
+var imageOptions = new ImageRenderingOptions
+{
+    Width = 1024,   // Desired width in pixels
+    Height = 768,   // Desired height in pixels
+    TextOptions = textOptions
+};
 ```
 
-När anropet är klart kommer `output.png` att innehålla en pixel‑perfekt representation av `sample.html`. Öppna den med någon bildvisare för att bekräfta.
+> **Edge case:** Om du utelämnar bredd/höjd kommer Aspose.HTML att härleda dimensionerna från HTML‑layouten, vilket kan resultera i en förvånansvärt hög bild för långa sidor. Att explicit ange dem undviker överraskningar.
 
-> **Vad händer om resultatet är tomt?**  
-> Dubbelkolla att alla CSS‑filer och bilder som refereras i `sample.html` är åtkomliga från den sökväg du angav. Du kan också sätta `htmlDoc.BaseUrl = new Uri(@"file:///C:/MyProject/");` för att hjälpa motorn att hitta relativa resurser.
+### Steg 4: Ladda ditt HTML‑innehåll
 
----
+Du kan ladda HTML från en fil, en URL eller en rå sträng. I det här exemplet håller vi det enkelt och använder en sträng i minnet.
 
-## Fullt fungerande exempel – C# HTML till PNG i en fil
+```csharp
+var htmlContent = "<html><body><h1>Sharp Text</h1></body></html>";
+var htmlDoc = new HTMLDocument(htmlContent);
+```
 
-Nedan är ett fristående konsolprogram som du kan kopiera och klistra in i ett nytt .NET‑projekt. Det innehåller alla importeringar, felhantering och ett kommentars‑rikt flöde som gör det enkelt att anpassa.
+**Varför en sträng?** Den eliminerar externa beroenden och gör handledningen självständig. I riktiga projekt kan du läsa från `File.ReadAllText` eller hämta via `HttpClient`.
+
+### Steg 5: Rendera dokumentet till en bitmap (exportera html som png)
+
+Nu är den centrala operationen—rendera `HTMLDocument` till en bitmap med de alternativ vi definierade.
+
+```csharp
+using (var bitmap = htmlDoc.RenderToBitmap(imageOptions))
+{
+    // The bitmap now holds the rendered image data
+    // You can manipulate it further with System.Drawing if needed
+```
+
+> **Obs:** `using`‑blocket garanterar att bitmap‑objektet tas bort korrekt, vilket frigör inhemska resurser.
+
+### Steg 6: Spara bitmap som en PNG‑fil (spara bitmap som png)
+
+Till sist, skriv bilden till disk. `Save`‑metoden accepterar vilken `ImageFormat` som helst; vi använder PNG eftersom det är förlustfritt och brett stödjat.
+
+```csharp
+    bitmap.Save("YOUR_DIRECTORY/hinted.png", ImageFormat.Png);
+}
+```
+
+Ersätt `YOUR_DIRECTORY` med en riktig sökväg, t.ex. `Path.Combine(Environment.CurrentDirectory, "output")`. Den resulterande filen, `hinted.png`, innehåller den renderade HTML‑koden.
+
+## Fullständigt fungerande exempel
+
+Kopiera koden nedan till en ny Console‑app (`Program.cs`). Den kompileras som den är och producerar en PNG i `output`‑mappen.
 
 ```csharp
 using System;
+using System.Drawing.Imaging;
+using System.IO;
 using Aspose.Html;
 using Aspose.Html.Rendering.Image;
+using Aspose.Html.Rendering.Text;
 
-namespace HtmlToPngDemo
+class Program
 {
-    class Program
+    static void Main()
     {
-        static void Main(string[] args)
+        // 1️⃣ Enable text hinting for clearer rendering
+        var textOptions = new TextOptions
         {
-            // ---------------------------------------------------------
-            // 1️⃣ Load the source HTML document (how to render html)
-            // ---------------------------------------------------------
-            string htmlPath = @"C:\MyProject\sample.html";
-            HTMLDocument htmlDoc;
+            UseHinting = true   // Replaces the older TextRenderingHint property
+        };
 
-            try
-            {
-                htmlDoc = new HTMLDocument(htmlPath);
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Error loading HTML: {ex.Message}");
-                return;
-            }
+        // 2️⃣ Define image rendering settings, including size and the text options
+        var imageOptions = new ImageRenderingOptions
+        {
+            Width = 1024,
+            Height = 768,
+            TextOptions = textOptions
+        };
 
-            // ---------------------------------------------------------
-            // 2️⃣ Configure rendering options (convert html to png)
-            // ---------------------------------------------------------
-            ImageRenderingOptions options = new ImageRenderingOptions
-            {
-                Width = 1024,
-                Height = 768,
-                UseAntialiasing = true,
-                BackgroundColor = System.Drawing.Color.White
-            };
+        // 3️⃣ Load a simple HTML document from a string
+        var html = "<html><body><h1>Sharp Text</h1></body></html>";
+        var htmlDoc = new HTMLDocument(html);
 
-            // ---------------------------------------------------------
-            // 3️⃣ Render and save (save html as png)
-            // ---------------------------------------------------------
-            string outputPath = @"C:\MyProject\output.png";
+        // 4️⃣ Render the HTML document to a bitmap using the configured options
+        using (var bitmap = htmlDoc.RenderToBitmap(imageOptions))
+        {
+            // 5️⃣ Ensure the output directory exists
+            var outputDir = Path.Combine(Environment.CurrentDirectory, "output");
+            Directory.CreateDirectory(outputDir);
 
-            try
-            {
-                htmlDoc.Save(outputPath, options);
-                Console.WriteLine($"Success! PNG saved to {outputPath}");
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Rendering failed: {ex.Message}");
-            }
+            // 6️⃣ Save the resulting image to a PNG file
+            var outputPath = Path.Combine(outputDir, "hinted.png");
+            bitmap.Save(outputPath, ImageFormat.Png);
+            Console.WriteLine($"Image saved to: {outputPath}");
         }
     }
 }
 ```
 
-**Förväntat resultat:** En 1024 × 768 PNG‑fil som ser exakt ut som webbläsarens rendering av `sample.html`. Bilden kommer att inkludera all formaterad text, inbäddade bilder och vektorgrafik, tack vare antialiasing.
+**Förväntad output:** Efter körning ser du `hinted.png` i `output`‑mappen. Öppna den med någon bildvisare—du bör se en skarp “Sharp Text”-rubrik renderad i 1024 × 768 pixlar.
 
----
+## Vanliga fallgropar & praktiska tips
 
-## Vanliga variationer & kantfall
+- **Saknad `using System.Drawing.Imaging;`** – Utan detta namnrum känns inte `ImageFormat.Png`‑enumet igen.
+- **Felaktiga sökvägsavgränsare på Linux/macOS** – Använd `Path.Combine` istället för hårdkodade bakåtsnedstreck.
+- **Stora HTML‑sidor** – Rendering av mycket långa sidor kan förbruka mycket minne. Överväg att dela upp innehållet eller använda `PageSize`‑alternativ.
+- **Typsnittstillgänglighet** – Aspose.HTML använder systemtypsnitt. Om mål‑typsnittet inte är installerat kan reservtypsnittet se annorlunda ut. Du kan bädda in egna typsnitt via CSS `@font-face`.
+- **Prestanda** – Rendering är CPU‑bunden. Om du behöver generera många bilder, överväg att återanvända en enda `HTMLDocument`‑instans och bara uppdatera dess `innerHTML`.
 
-| Situation | Vad som ska justeras | Varför |
-|-----------|----------------------|--------|
-| **Storskalig utskriftsoutput** | Öka `Width`/`Height` eller sätt `options.Resolution = 300;` | Högre DPI ger skarpare utskriftsklara PNG‑filer. |
-| **HTML använder webbtypsnitt** | Se till att typsnitts‑filerna är åtkomliga, eller bädda in dem med `@font-face` med absoluta URL:er. | Saknade typsnitt leder till att generiska familjer används, vilket ändrar layouten. |
-| **Dynamisk HTML genererad vid körning** | Använd `HTMLDocument(string html, Uri baseUrl)`‑konstruktorn för att mata in rå markup. | Gör att du kan rendera HTML‑strängar utan en fysisk fil. |
-| **Behöver en JPEG istället för PNG** | Byt `output.png` mot `output.jpg` och sätt eventuellt `options.ImageFormat = ImageFormat.Jpeg;`. | JPEG är mindre men förlustig; välj baserat på lagringskrav. |
+## Utöka lösningen
 
----
+Nu när du vet **hur man renderar html**, kan du utforska:
 
-## Felsökningschecklista
-
-* **Tom bild?** Verifiera `BaseUrl` och att alla externa resurser är åtkomliga.  
-* **Fel färger?** Sätt `BackgroundColor` explicit; standard kan vara transparent.  
-* **Minnesbrist på enorma sidor?** Rendera i rutor med `ImageRenderer` för strömmad output.  
-
----
+- **Batch‑konvertering** – Loopa över en lista med HTML‑strängar eller URL:er, återanvänd samma `ImageRenderingOptions` för att öka genomströmningen.
+- **Olika bildformat** – Byt `ImageFormat.Png` mot `ImageFormat.Jpeg` eller `ImageFormat.Bmp` om storlek är viktigare än förlustfri kvalitet.
+- **Vattenstämpel** – Efter rendering, rita ytterligare grafik på bitmapen med `System.Drawing.Graphics`.
+- **Dynamiska dimensioner** – Beräkna `Width`/`Height` baserat på HTML:ens faktiska layout med `htmlDoc.DocumentElement.ScrollWidth` och `ScrollHeight`.
 
 ## Slutsats
 
-Du har nu ett tydligt, produktionsklart recept för **hur man renderar html** till en PNG med C#. Från att ladda filen, justera renderingsalternativ, till slut att **spara html som png**, är processen enkel och helt skriptbar.  
+Vi har gått igenom allt du behöver veta för att **hur man renderar html** till en PNG med Aspose.HTML för .NET. Genom att följa de sex stegen—installera biblioteket, aktivera texthintning, ange bilddimensioner, ladda HTML, rendera till en bitmap och spara bitmap som PNG—kan du på ett pålitligt sätt **konvertera html till bild**, **exportera html som png** och **spara bitmap som png** i vilket C#‑projekt som helst.
 
-Känn dig fri att experimentera: ändra canvas‑storleken, byt PNG mot JPEG, eller mata in en HTML‑sträng direkt till **generate png from html** i farten. Nästa steg kan vara att utforska konvertering av HTML till PDF eller SVG—båda är bara ett metodanrop bort i Aspose.HTML.
-
-Har du frågor om kantfall, licensiering eller prestandajusteringar? Lämna en kommentar nedan, och lycka till med rendering! 
-
-![Skärmdump av renderad PNG – hur man renderar html](/images/rendered-output.png "exempel på hur man renderar html")
+Prova det, justera dimensionerna, experimentera med CSS, så kommer du snabbt att se hur mångsidig denna metod är. Behöver du mer avancerade scenarier? Kolla in Asposes dokumentation om PDF‑rendering, SVG‑stöd eller server‑sidig bildbehandling. Lycka till med kodandet!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

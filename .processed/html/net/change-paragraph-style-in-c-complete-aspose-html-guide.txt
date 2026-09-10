@@ -1,0 +1,7 @@
+Title: Change Paragraph Style in C# – Complete Aspose.HTML Guide
+Slug: change-paragraph-style-in-c-complete-aspose-html-guide
+Category: html-document-manipulation
+ProcessedDate: 2026-06-10T10:52:48.663366
+SourceRepo: AI Search API
+Keywords: change paragraph style, use getelementbyid, modify html element, load html from string, retrieve element by id
+PRNumber: 178

@@ -5,7 +5,7 @@ second_title: Java HTML Processing with Aspose.HTML
 description: Learn how to convert HTML to XPS and adjust XPS page size using Aspose.HTML for Java. Control output dimensions easily.
 weight: 16
 url: /java/advanced-usage/adjust-xps-page-size/
-date: 2025-11-29
+date: 2026-03-18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -50,7 +50,11 @@ import com.aspose.html.rendering.xps.XpsRenderingOptions;
 import com.aspose.html.HTMLDocument;
 ```
 
-## Step 1: Set the Input File Name
+## Step‑by‑Step Guide
+
+Below is a concise, numbered walkthrough that mirrors the original steps while adding extra context for clarity.
+
+### Step 1: Set the Input File Name
 
 Read the source HTML file using a `FileInputStream`. This stream feeds the raw HTML into the Aspose.HTML engine.
 
@@ -60,7 +64,7 @@ try (java.io.FileInputStream fileInputStream = new java.io.FileInputStream("Your
 }
 ```
 
-## Step 2: Create an HTML Document and Set Styles
+### Step 2: Create an HTML Document and Set Styles
 
 Create an `HTMLDocument` instance that represents the content you’ll render. In this example we also inject a small CSS block to demonstrate styling—feel free to replace it with your own markup.
 
@@ -82,7 +86,7 @@ String style = "<style>\n" +
 // ...
 ```
 
-## Step 3: Create XPS Rendering Options
+### Step 3: Create XPS Rendering Options
 
 Instantiate `XpsRenderingOptions` to hold all settings that affect the conversion from HTML to XPS.
 
@@ -90,9 +94,9 @@ Instantiate `XpsRenderingOptions` to hold all settings that affect the conversio
 com.aspose.html.rendering.xps.XpsRenderingOptions xps_options = new com.aspose.html.rendering.xps.XpsRenderingOptions();
 ```
 
-## Step 4: Adjust the Page Size
+### Step 4: Adjust the Page Size  
 
-Define a custom page size (width × height in points) and tell the renderer whether it should automatically expand to the widest page. Setting `adjustToWidestPage` to `false` preserves the exact dimensions you specify.
+**How to set XPS page size** – Define a custom page size (width × height in points) and tell the renderer whether it should automatically expand to the widest page. Setting `adjustToWidestPage` to `false` preserves the exact dimensions you specify.
 
 ```java
 com.aspose.html.drawing.Page page = new com.aspose.html.drawing.Page(new com.aspose.html.drawing.Size(100, 100));
@@ -102,7 +106,7 @@ pageSetup.setAdjustToWidestPage(false);
 xps_options.setPageSetup(pageSetup);
 ```
 
-## Step 5: Render the Output
+### Step 5: Render the Output
 
 Finally, create an `XpsDevice` with the configured options and render the HTML document. The result is a fully‑formed XPS file with the custom page dimensions you set.
 
@@ -152,7 +156,7 @@ If you have any questions or need further assistance, explore the [Aspose.HTML f
 
 ---
 
-**Last Updated:** 2025-11-29  
+**Last Updated:** 2026-03-18  
 **Tested With:** Aspose.HTML for Java 24.11 (latest at time of writing)  
 **Author:** Aspose  
 

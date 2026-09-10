@@ -1,0 +1,7 @@
+Title: Convert HTML to Markdown with GitLab Markdown
+Slug: convert-html-to-markdown-with-gitlab-markdown
+Category: general
+ProcessedDate: 2026-07-22T02:42:33.640098
+SourceRepo: AI Search API
+Keywords: convert html to markdown, gitlab flavored markdown, html to markdown conversion
+PRNumber: 218

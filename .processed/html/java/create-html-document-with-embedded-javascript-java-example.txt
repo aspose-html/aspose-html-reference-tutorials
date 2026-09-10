@@ -1,0 +1,7 @@
+Title: Create HTML Document with Embedded JavaScript – Java Example
+Slug: create-html-document-with-embedded-javascript-java-example
+Category: creating-managing-html-documents
+ProcessedDate: 2026-06-04T08:27:43.872171
+SourceRepo: AI Search API
+Keywords: create html document, embed javascript html, get element innerhtml, increment counter javascript, script engine example
+PRNumber: 172

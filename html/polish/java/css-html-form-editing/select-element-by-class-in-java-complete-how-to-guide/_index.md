@@ -26,7 +26,7 @@ url: /pl/java/css-html-form-editing/select-element-by-class-in-java-complete-how
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
-{{< blocks/productsf/tutorial-page-section >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 
 # wybieranie elementu po klasie w Javie – Kompletny przewodnik
 
@@ -253,6 +253,8 @@ Wypróbuj go, zmień selektor i zobacz, jak zmieniają się obliczone style. Je�
 ![Diagram pokazujący przepływ: load HTML → query selector → get computed style → read CSS property (select element by class)](image-placeholder.png "diagram przepływu select element by class")
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}
