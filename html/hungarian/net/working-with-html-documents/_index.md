@@ -51,6 +51,12 @@ Ismerje meg, hogyan formázhatja félkövérre a HTML‑címeket CSS‑sel és C
 Megmutatjuk, hogyan menthet HTML-t C#-ban egyedi erőforráskezelőkkel és ZIP-archívummal.
 ### [HTML tömörítése C#-ban – Teljes lépésről‑lépésre útmutató](./how-to-zip-html-in-c-complete-step-by-step-guide/)
 
+### [HtmlSaveOptions használata C#-ban az Aspose.HTML segítségével](./how-to-use-htmlsaveoptions-in-c-with-aspose-html/)
+
+### [HTML dokumentum betöltése fájlból Aspose.HTML segítségével C#-ban](./how-to-load-html-document-from-file-with-aspose-html-in-c/)
+
+Ismerje meg, hogyan tölthet be HTML-fájlokat Aspose.HTML könyvtárral C#-ban.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

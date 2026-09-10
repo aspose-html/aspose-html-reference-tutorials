@@ -72,7 +72,7 @@ Aspose.HTML для .NET выделяется как лучший выбор дл
 Откройте для себя мощь Aspose.HTML для .NET! Узнайте, как легко визуализировать SVG Doc как PNG. Погрузитесь в пошаговые примеры и часто задаваемые вопросы. Начните прямо сейчас!
 ### [Как рендерить HTML в C# – Полное руководство по стилизации абзацев](./how-to-render-html-in-c-complete-guide-to-styling-paragraphs/)
 Узнайте, как рендерить HTML в C# и стилизовать абзацы с помощью Aspose.HTML. Пошаговое руководство и практические примеры.
-### [Как отрендерить HTML — Полное руководство с пользовательским обработчиком ресурсов](./how-to-render-html-complete-guide-with-custom-resource-handl/)
+### [Как отрендерить HTML – Полное руководство с пользовательским обработчиком ресурсов](./how-to-render-html-complete-guide-with-custom-resource-handl/)
 Узнайте, как полностью настроить рендеринг HTML, используя собственный обработчик ресурсов в Aspose.HTML для .NET.
 ### [Как использовать Aspose для рендеринга HTML в PNG – пошаговое руководство](./how-to-use-aspose-to-render-html-to-png-step-by-step-guide/)
 Подробный пошаговый учебник по использованию Aspose.HTML для конвертации HTML в PNG в .NET.
@@ -87,6 +87,15 @@ Aspose.HTML для .NET выделяется как лучший выбор дл
 
 ### [Как отрендерить HTML в изображение с C# – Полное руководство](./how-to-render-html-to-an-image-with-c-complete-guide/)
 Подробное руководство по рендерингу HTML в изображение с помощью C# и Aspose.HTML, включая примеры кода и настройки.
+
+### [Как отрендерить HTML в C# – Полное руководство](./how-to-render-html-in-c-with-aspose-html-full-guide/)
+Подробный пошаговый учебник по рендерингу HTML в C# с использованием Aspose.HTML, включая примеры кода и настройки.
+
+### [Как включить сглаживание при рендеринге HTML‑изображений в C#](./how-to-enable-antialiasing-for-html-image-rendering-in-c/)
+Узнайте, как включить сглаживание при рендеринге HTML‑изображений в C# с помощью Aspose.HTML.
+
+### [Как улучшить четкость текста в Aspose.HTML с помощью хинтинга](./how-to-improve-text-clarity-in-aspose-html-with-hinting/)
+Узнайте, как улучшить четкость текста с помощью хинтинга в Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

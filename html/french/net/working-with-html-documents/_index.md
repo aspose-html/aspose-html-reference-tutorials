@@ -41,6 +41,7 @@ Maintenant, passons à un niveau supérieur de compétences. L'édition de docum
 Apprenez à enregistrer du HTML en C# en utilisant un gestionnaire de ressources personnalisé pour contrôler le flux de sortie et les ressources liées.
 
 ### [Comment mettre en gras un titre avec CSS & C# – Guide complet étape par étape](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
+
 ### [Comment enregistrer du HTML en C# – Gestionnaires de ressources personnalisés et ZIP](./how-to-save-html-in-c-custom-resource-handlers-zip/)
 
 Apprenez à enregistrer du HTML en C# en utilisant des gestionnaires de ressources personnalisés et à compresser le résultat dans un fichier ZIP.
@@ -52,6 +53,10 @@ Apprenez à enregistrer du HTML en C# avec Aspose.Html grâce à ce guide comple
 ### [Comment zipper du HTML en C# – Guide complet étape par étape](./how-to-zip-html-in-c-complete-step-by-step-guide/)
 
 Apprenez à compresser des fichiers HTML en C# en suivant un guide complet étape par étape.
+
+### [Comment utiliser HtmlSaveOptions en C# avec Aspose.HTML](./how-to-use-htmlsaveoptions-in-c-with-aspose-html/)
+
+### [Comment charger un document HTML depuis un fichier avec Aspose.HTML en C#](./how-to-load-html-document-from-file-with-aspose-html-in-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

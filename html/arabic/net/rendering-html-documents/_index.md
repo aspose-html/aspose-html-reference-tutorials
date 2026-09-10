@@ -77,6 +77,8 @@ url: /ar/net/rendering-html-documents/
 ### [عرض مستند SVG بصيغة PNG في .NET باستخدام Aspose.HTML](./render-svg-doc-as-png/)
 اكتشف قوة Aspose.HTML لـ .NET! تعرّف على كيفية عرض مستند SVG بتنسيق PNG بسهولة. انغمس في الأمثلة والأسئلة الشائعة خطوة بخطوة. ابدأ الآن!
 ### [كيفية عرض HTML في C# – دليل كامل لتنسيق الفقرات](./how-to-render-html-in-c-complete-guide-to-styling-paragraphs/)
+### [كيفية عرض HTML في C# – دليل كامل](./how-to-render-html-in-c-with-aspose-html-full-guide/)
+تعلم كيفية عرض مستندات HTML باستخدام C# و Aspose.HTML في دليل شامل خطوة بخطوة.
 ### [كيفية عرض HTML – دليل كامل مع معالج موارد مخصص](./how-to-render-html-complete-guide-with-custom-resource-handl/)
 تعلم كيفية عرض HTML باستخدام Aspose.HTML لـ .NET مع معالج موارد مخصص لتخصيص تحميل المحتوى وتحسين الأداء.
 ### [كيفية عرض HTML كـ PNG – دليل كامل خطوة بخطوة](./how-to-render-html-to-png-complete-step-by-step-guide/)
@@ -85,6 +87,11 @@ url: /ar/net/rendering-html-documents/
 تعلم خطوة بخطوة كيفية تحويل مستندات HTML إلى صور PNG باستخدام Aspose.HTML في .NET.
 ### [كيفية تحويل HTML إلى صورة باستخدام C# – دليل كامل](./how-to-render-html-to-an-image-with-c-complete-guide/)
 تعلم خطوة بخطوة كيفية تحويل ملفات HTML إلى صور باستخدام C# مع Aspose.HTML في هذا الدليل الكامل.
+### [كيفية تمكين التنعيم لتصوير صور HTML في C#](./how-to-enable-antialiasing-for-html-image-rendering-in-c/)
+تعلم كيفية تمكين التنعيم عند تصيير صور HTML في C# باستخدام Aspose.HTML.
+
+### [كيفية تحسين وضوح النص في Aspose.HTML باستخدام التلميحات](./how-to-improve-text-clarity-in-aspose-html-with-hinting/)
+تعلم كيفية تحسين وضوح النص في مستندات HTML باستخدام تقنية التلميحات في Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -36,11 +36,14 @@ Jakmile pochopíte základy, ponoříme se hlouběji do procesu tvorby. V této 
 
 Nyní posuňte vaše dovednosti na další úroveň. Úpravy HTML dokumentů jsou běžným úkolem webových vývojářů a Aspose.HTML tento proces výrazně zjednodušuje. V této části se budeme zabývat tvorbou dokumentu, manipulací s ním a stylováním. Zjistíte, jak vylepšit vzhled a funkčnost vašeho webového obsahu, aby byl poutavý a uživatelsky přívětivý.
 
+### [Jak načíst HTML dokument ze souboru pomocí Aspose.HTML v C#](./how-to-load-html-document-from-file-with-aspose-html-in-c/)
+
 ### [Jak uložit HTML v C# – Kompletní průvodce pomocí vlastního resource handleru](./how-to-save-html-in-c-complete-guide-using-a-custom-resource/)
 ### [Jak zvýraznit nadpis tučným písmem pomocí CSS a C# – Kompletní průvodce krok za krokem](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
 ### [Jak uložit HTML v C# – Vlastní manipulátory zdrojů a ZIP](./how-to-save-html-in-c-custom-resource-handlers-zip/)
 ### [Jak uložit HTML pomocí Aspose.Html – Kompletní průvodce v C#](./how-to-save-html-with-aspose-html-complete-c-guide/)
 ### [Jak zkomprimovat HTML v C# – Kompletní průvodce krok za krokem](./how-to-zip-html-in-c-complete-step-by-step-guide/)
+### [Jak použít HtmlSaveOptions v C# s Aspose.HTML](./how-to-use-htmlsaveoptions-in-c-with-aspose-html/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

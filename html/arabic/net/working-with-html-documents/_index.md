@@ -41,6 +41,8 @@ url: /ar/net/working-with-html-documents/
 ### [كيفية حفظ HTML في C# – معالجات الموارد المخصصة وZIP](./how-to-save-html-in-c-custom-resource-handlers-zip/)
 ### [كيفية حفظ HTML باستخدام Aspose.Html – دليل كامل C#](./how-to-save-html-with-aspose-html-complete-c-guide/)
 ### [كيفية ضغط HTML في C# – دليل خطوة بخطوة كامل](./how-to-zip-html-in-c-complete-step-by-step-guide/)
+### [كيفية استخدام HtmlSaveOptions في C# مع Aspose.HTML](./how-to-use-htmlsaveoptions-in-c-with-aspose-html/)
+### [كيفية تحميل مستند HTML من ملف باستخدام Aspose.HTML في C#](./how-to-load-html-document-from-file-with-aspose-html-in-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

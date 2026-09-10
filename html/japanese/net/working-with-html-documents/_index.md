@@ -36,11 +36,14 @@ HTML ドキュメントは Web のバックボーンであり、それを効果�
 
 では、スキルを次のレベルに引き上げましょう。HTML ドキュメントの編集は Web 開発者にとって一般的なタスクであり、Aspose.HTML はこのプロセスを大幅に簡素化します。このセクションでは、ドキュメントの作成、操作、およびスタイル設定について説明します。Web コンテンツの外観と機能を強化して、魅力的でユーザーフレンドリーにする方法を学びます。
 
+### [Aspose.HTML を使用して C# でファイルから HTML ドキュメントを読み込む方法](./how-to-load-html-document-from-file-with-aspose-html-in-c/)
+
 ### [カスタムリソースハンドラを使用した C# での HTML 保存完全ガイド](./how-to-save-html-in-c-complete-guide-using-a-custom-resource/)
 ### [CSS と C# で見出しを太字にする方法 – 完全ステップバイステップガイド](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
 ### [C# で HTML を保存する方法 – カスタム リソース ハンドラと ZIP](./how-to-save-html-in-c-custom-resource-handlers-zip/)
 ### [Aspose.HTML を使用した C# での HTML 保存完全ガイド](./how-to-save-html-with-aspose-html-complete-c-guide/)
 ### [C# で HTML を zip する方法 – 完全ステップバイステップガイド](./how-to-zip-html-in-c-complete-step-by-step-guide/)
+### [C# で Aspose.HTML の HtmlSaveOptions を使用する方法](./how-to-use-htmlsaveoptions-in-c-with-aspose-html/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

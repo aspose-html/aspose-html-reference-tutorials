@@ -44,6 +44,10 @@ Hướng dẫn chi tiết cách sử dụng CSS và C# để làm tiêu đề in
 
 Hướng dẫn chi tiết cách nén tài liệu HTML trong C# bằng Aspose.HTML, bao gồm các bước và ví dụ thực tế.
 
+### [Cách sử dụng HtmlSaveOptions trong C# với Aspose.HTML](./how-to-use-htmlsaveoptions-in-c-with-aspose-html/)
+
+### [Cách tải tài liệu HTML từ tệp với Aspose.HTML trong C#](./how-to-load-html-document-from-file-with-aspose-html-in-c/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

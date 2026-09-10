@@ -50,6 +50,14 @@ Lär dig spara HTML med Aspose.Html i C# med en komplett steg‑för‑steg‑gu
 
 ### [Hur du zippar HTML i C# – Komplett steg‑för‑steg‑guide](./how-to-zip-html-in-c-complete-step-by-step-guide/)
 
+### [Hur man använder HtmlSaveOptions i C# med Aspose.HTML](./how-to-use-htmlsaveoptions-in-c-with-aspose-html/)
+
+Lär dig hur du använder HtmlSaveOptions för att spara HTML med anpassade inställningar i C#.
+
+### [Hur man laddar HTML-dokument från fil med Aspose.HTML i C#](./how-to-load-html-document-from-file-with-aspose-html-in-c/)
+
+Lär dig hur du laddar ett HTML‑dokument från en fil med Aspose.HTML i C#.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
