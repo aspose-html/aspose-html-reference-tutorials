@@ -87,6 +87,9 @@ Leer hoe u een HTML-document in C# maakt en rendert naar PNG met vet en cursief 
 ### [Hoe Aspose te gebruiken om HTML naar PNG te renderen in C#](./how-to-use-aspose-to-render-html-to-png-in-c/)
 Leer hoe u Aspose gebruikt om HTML naar PNG te renderen in C# met een stapsgewijze tutorial.
 
+### [Hoe antialiasing inschakelen tijdens het renderen van HTML naar PNG](./how-to-enable-antialiasing-while-rendering-html-to-png/)
+Leer hoe u antialiasing inschakelt bij het renderen van HTML naar PNG met Aspose.HTML.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

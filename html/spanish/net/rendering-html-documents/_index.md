@@ -84,6 +84,8 @@ Aprenda a convertir HTML a PNG usando Aspose.HTML para .NET con esta guía compl
 Aprenda a renderizar HTML a imágenes usando C# paso a paso con Aspose.HTML para .NET.
 ### [Cómo renderizar HTML a PNG en C# – Guía paso a paso](./how-to-render-html-to-png-in-c-step-by-step-guide/)
 Siga este tutorial paso a paso para convertir HTML a PNG con C# y Aspose.HTML, con ejemplos claros y fáciles de seguir.
+### [Cómo habilitar el antialiasing al renderizar HTML a PNG](./how-to-enable-antialiasing-while-rendering-html-to-png/)
+Aprenda a habilitar el antialiasing al renderizar HTML a PNG con Aspose.HTML para .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

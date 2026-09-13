@@ -42,6 +42,8 @@ Bây giờ bạn đã thiết lập Aspose.HTML cho .NET, đã đến lúc khám
 
 ### [Kết xuất HTML dưới dạng PNG trong .NET với Aspose.HTML](./render-html-as-png/)
 Học cách làm việc với Aspose.HTML cho .NET: Thao tác HTML, chuyển đổi sang nhiều định dạng khác nhau và hơn thế nữa. Khám phá hướng dẫn toàn diện này!
+### [Cách bật khử răng cưa khi render HTML thành PNG](./how-to-enable-antialiasing-while-rendering-html-to-png/)
+Hướng dẫn bật tính năng khử răng cưa để cải thiện chất lượng PNG khi render HTML bằng Aspose.HTML.
 ### [Cách Render HTML thành PNG – Hướng dẫn từng bước](./how-to-render-html-to-png-step-by-step-guide/)
 Học cách render HTML thành PNG trong .NET với Aspose.HTML. Khám phá hướng dẫn chi tiết từng bước!
 ### [Kết xuất EPUB dưới dạng XPS trong .NET với Aspose.HTML](./render-epub-as-xps/)
