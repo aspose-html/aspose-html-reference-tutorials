@@ -137,6 +137,9 @@ Dowiedz się, jak utworzyć PDF z HTML w Javie przy użyciu Aspose.HTML, korzyst
 Dowiedz się, jak konwertować Markdown do PDF w Javie przy użyciu Aspose.HTML. Przejdź przez szczegółowy przewodnik krok po kroku, aby uzyskać wysokiej jakości PDFy.
 ### [Jak konwertować SVG – Kompletny przewodnik z użyciem Aspose HTML Converter](./how-to-convert-svg-complete-guide-using-aspose-html-converte/)
 Poznaj pełny proces konwersji plików SVG przy użyciu Aspose HTML Converter w Javie, krok po kroku.
+### [Konwertuj plik HTML do PDF w Javie – przewodnik krok po kroku](./convert-html-file-to-pdf-in-java-step-by-step-guide/)
+Dowiedz się, jak w Javie przekonwertować plik HTML na PDF, korzystając z Aspose.HTML, krok po kroku.
+
 ## Często zadawane pytania
 
 **P: Czy mogę używać Aspose.HTML for Java w aplikacji komercyjnej?**

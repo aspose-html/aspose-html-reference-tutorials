@@ -136,6 +136,9 @@ Naučte se vytvořit PDF z HTML v Javě pomocí Aspose.HTML s podrobným návode
 Kompletní průvodce převodem SVG do různých formátů pomocí Aspose HTML Converter v Javě.
 ### [Převod HTML do PDF s pevnou vlákny v Javě – krok za krokem průvodce](./convert-html-to-pdf-with-fixed-thread-pool-java-step-by-step/)
 Naučte se, jak pomocí pevného thread poolu v Javě efektivně konvertovat HTML do PDF s Aspose.HTML, krok za krokem.
+### [Převod HTML souboru do PDF v Javě – krok za krokem](./convert-html-file-to-pdf-in-java-step-by-step-guide/)
+Naučte se převést HTML soubor do PDF v Javě pomocí Aspose.HTML s podrobným krok‑za‑krokem návodem.
+
 ## Často kladené otázky
 
 **Q: Mohu použít Aspose.HTML for Java v komerční aplikaci?**  

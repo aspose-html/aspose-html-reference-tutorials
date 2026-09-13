@@ -86,6 +86,9 @@ In conclusione, padroneggiare **html to pdf java** e l'insieme più ampio di con
 
 ### [Conversione da HTML a PDF](./convert-html-to-pdf/)
 ### [Converti HTML in PDF in Java – Guida passo‑passo con impostazioni della dimensione della pagina](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
+Impara a impostare dimensioni e risoluzione della pagina PDF durante la conversione da HTML a PDF in Java con Aspose.HTML.
+### [Converti file HTML in PDF in Java – Guida passo‑passo](./convert-html-file-to-pdf-in-java-step-by-step-guide/)
+Guida dettagliata per convertire un file HTML in PDF usando Aspose.HTML for Java.
 ### [Crea PDF da HTML in Java – Guida completa passo‑passo](./create-pdf-from-html-in-java-complete-step-by-step-guide/)
 ### [Converti HTML in PDF in Java – Imposta dimensione pagina PDF, risoluzione e salva HTML come PDF](./convert-html-to-pdf-in-java-set-pdf-page-size-resolution-and/)
 Impara a impostare dimensioni e risoluzione della pagina PDF durante la conversione da HTML a PDF in Java con Aspose.HTML.

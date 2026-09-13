@@ -91,6 +91,8 @@ PDF のページサイズや解像度を指定しながら、HTML を PDF に変
 固定スレッドプールを活用し、Java で HTML を PDF に同時変換する手順を解説します。
 ### [HTML to PDF チュートリアル：JavaでウェブページをPDFに変換](./html-to-pdf-tutorial-convert-web-pages-to-pdf-with-java/)
 Aspose.HTML を使用して Java でウェブページを PDF に変換する手順を学びます。シンプルなコードで高品質な PDF を生成できます。
+### [JavaでHTMLファイルをPDFに変換する – ステップバイステップガイド](./convert-html-file-to-pdf-in-java-step-by-step-guide/)
+Aspose.HTML を使用して、Java で HTML ファイルを PDF に変換する手順を詳しく解説します。
 ### [Converting HTML to MHTML](./convert-html-to-mhtml/)
 Aspose.HTML for Java で HTML を MHTML に簡単に変換します。効率的な HTML‑to‑MHTML 変換の手順をご覧ください。
 ### [Converting HTML to XPS](./convert-html-to-xps/)
@@ -135,6 +137,7 @@ Aspose.HTML を使用して Java で Markdown を PDF に変換する方法を�
 Aspose.HTML を使用して Java で HTML から PDF を作成する手順を詳しく解説します。
 ### [SVG を変換する方法 – Aspose HTML コンバータを使用した完全ガイド](./how-to-convert-svg-complete-guide-using-aspose-html-converte/)
 Aspose.HTML を利用して SVG をさまざまなフォーマットに変換する手順とベストプラクティスを詳しく解説します。
+
 ## よくある質問
 
 **Q: Aspose.HTML for Java を商用アプリケーションで使用できますか？**

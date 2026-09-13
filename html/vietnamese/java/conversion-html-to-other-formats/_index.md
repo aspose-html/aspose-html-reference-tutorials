@@ -88,6 +88,8 @@ Kết luận, việc nắm vững **html to pdf java** và bộ chuyển đổi 
 
 ### [Chuyển đổi HTML sang PDF](./convert-html-to-pdf/)
 Tìm hiểu cách chuyển đổi HTML sang PDF trong Java bằng Aspose.HTML. Tạo PDF chất lượng cao từ nội dung HTML của bạn một cách dễ dàng.
+### [Chuyển đổi tệp HTML sang PDF trong Java – hướng dẫn chi tiết từng bước](./convert-html-file-to-pdf-in-java-step-by-step-guide/)
+Hướng dẫn chi tiết cách chuyển đổi tệp HTML sang PDF trong Java bằng Aspose.HTML.
 ### [Chuyển đổi HTML sang PDF trong Java – Hướng dẫn chi tiết với cài đặt kích thước trang](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Hướng dẫn từng bước chuyển HTML sang PDF trong Java, bao gồm cách thiết lập kích thước trang cho PDF.
 ### [Đặt kích thước trang PDF với Aspose HTML – Hướng dẫn Java đầy đủ](./set-pdf-page-size-with-aspose-html-full-java-guide/)
