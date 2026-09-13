@@ -88,6 +88,9 @@ Pelajari cara merender file HTML menjadi gambar menggunakan C# dengan contoh lan
 ### [Cara Merender HTML ke PNG dalam C# – Panduan Langkah‑demi‑Langkah](./how-to-render-html-to-png-in-c-step-by-step-guide/)
 Pelajari cara merender HTML menjadi PNG menggunakan C# dengan panduan langkah demi langkah yang mudah diikuti.
 
+### [Cara mengaktifkan antialiasing saat merender HTML ke PNG](./how-to-enable-antialiasing-while-rendering-html-to-png/)
+Pelajari cara mengaktifkan antialiasing saat merender HTML menjadi PNG menggunakan Aspose.HTML untuk .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

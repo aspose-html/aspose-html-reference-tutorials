@@ -87,6 +87,9 @@ url: /el/net/rendering-html-documents/
 ### [Πώς να αποδώσετε HTML σε εικόνα με C# – Πλήρης Οδηγός](./how-to-render-html-to-an-image-with-c-complete-guide/)
 Μάθετε πώς να αποδίδετε HTML σε εικόνα χρησιμοποιώντας C# με έναν πλήρη οδηγό βήμα-βήμα.
 
+### [Πώς να ενεργοποιήσετε το antialiasing κατά την απόδοση HTML σε PNG](./how-to-enable-antialiasing-while-rendering-html-to-png/)
+Μάθετε πώς να ενεργοποιήσετε το antialiasing για πιο ομαλή απόδοση HTML σε PNG με το Aspose.HTML για .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

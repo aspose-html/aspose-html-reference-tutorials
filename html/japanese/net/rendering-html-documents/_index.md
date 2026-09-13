@@ -42,6 +42,10 @@ Aspose.HTML for .NET のセットアップが完了したら、HTML レンダリ
 
 ### [Aspose.HTML を使用して .NET で HTML を PNG としてレンダリングする](./render-html-as-png/)
 Aspose.HTML for .NET の使い方を学びます。HTML の操作、さまざまな形式への変換などを行います。この包括的なチュートリアルをぜひご覧ください。
+
+### [HTML を PNG にレンダリングする際のアンチエイリアシングの有効化方法](./how-to-enable-antialiasing-while-rendering-html-to-png/)
+HTML を PNG 画像に変換する際にアンチエイリアシングを有効にする手順を解説します。
+
 ### [C# で HTML を PNG にレンダリングする – 完全ステップバイステップガイド](./render-html-to-png-in-c-complete-step-by-step-guide/)
 Aspose.HTML for .NET を使用して、C# で HTML を PNG 画像に変換する方法を詳細に解説します。
 ### [HTML を PNG にレンダリングする方法 – 完全 C# ガイド](./how-to-render-html-as-png-complete-c-guide/)

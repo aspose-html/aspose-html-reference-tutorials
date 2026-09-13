@@ -42,6 +42,10 @@ url: /ar/net/rendering-html-documents/
 
 ### [عرض HTML بصيغة PNG في .NET باستخدام Aspose.HTML](./render-html-as-png/)
 تعلم كيفية العمل باستخدام Aspose.HTML لـ .NET: التعامل مع HTML وتحويله إلى تنسيقات مختلفة والمزيد. انغمس في هذا البرنامج التعليمي الشامل!
+
+### [كيفية تمكين التنعيم أثناء تصيير HTML إلى PNG](./how-to-enable-antialiasing-while-rendering-html-to-png/)
+تعلم كيفية تمكين التنعيم عند تصيير مستندات HTML إلى صور PNG باستخدام Aspose.HTML في .NET.
+
 ### [عرض HTML بصيغة PNG في C# – دليل خطوة بخطوة كامل](./render-html-to-png-in-c-complete-step-by-step-guide/)
 تعلم كيفية تحويل مستندات HTML إلى صور PNG باستخدام C# و Aspose.HTML في دليل شامل خطوة بخطوة.
 ### [كيفية تحويل HTML إلى PNG – دليل C# كامل](./how-to-render-html-as-png-complete-c-guide/)

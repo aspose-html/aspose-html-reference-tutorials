@@ -89,6 +89,8 @@ Aspose.HTML for .NET 凭借其丰富的功能、出色的文档和活跃的社�
 ### [如何使用 C# 将 HTML 渲染为图像 – 完整指南](./how-to-render-html-to-an-image-with-c-complete-guide/)
 本完整指南详细演示如何在 C# 中使用 Aspose.HTML 将 HTML 页面渲染为图像，涵盖设置、代码示例和常见问题。
 
+### [如何在渲染 HTML 为 PNG 时启用抗锯齿](./how-to-enable-antialiasing-while-rendering-html-to-png/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

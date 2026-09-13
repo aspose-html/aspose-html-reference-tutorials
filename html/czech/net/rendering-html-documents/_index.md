@@ -85,6 +85,8 @@ Kompletní návod, jak pomocí Aspose.HTML v .NET převést HTML soubory do PNG 
 Naučte se, jak pomocí Aspose.HTML pro .NET převést HTML do PNG pomocí kompletního C# průvodce.
 ### [Jak renderovat HTML do PNG – krok za krokem](./how-to-render-html-to-png-step-by-step-guide/)
 Podrobný návod, jak pomocí Aspose.HTML pro .NET převést HTML soubory do formátu PNG.
+### [Jak povolit antialiasing při vykreslování HTML do PNG](./how-to-enable-antialiasing-while-rendering-html-to-png/)
+Naučte se, jak pomocí Aspose.HTML povolit antialiasing při převodu HTML do PNG pro lepší kvalitu obrazu.
 ### [Vytvořte HTML dokument v C# – Vykreslete do PNG s tučným kurzívním písmem](./create-html-document-c-render-to-png-with-bold-italic-font/)
 Naučte se vytvořit HTML dokument v C# a vykreslit jej do PNG s tučným a kurzívním písmem pomocí Aspose.HTML.
 
