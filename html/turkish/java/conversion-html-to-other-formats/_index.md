@@ -133,6 +133,9 @@ Java’da paralel sabit iş parçacığı havuzu kullanarak HTML'den PDF'ye topl
 ### [Markdown'ı PDF'ye Dönüştürme Java’da – Tam Kılavuz](./convert-markdown-to-pdf-in-java-complete-guide/)
 ### [SVG'yi Dönüştürme – Aspose HTML Dönüştürücü Kullanarak Tam Kılavuz](./how-to-convert-svg-complete-guide-using-aspose-html-converte/)
 ### [HTML'yi Sabit İş Parçacığı Havuzu ile PDF'ye Dönüştürme – Adım Adım Kılavuz](./convert-html-to-pdf-with-fixed-thread-pool-java-step-by-step/)
+### [HTML dosyasını PDF'ye Dönüştürme Java’da – Adım‑Adım Kılavuz](./convert-html-file-to-pdf-in-java-step-by-step-guide/)
+HTML dosyasını Java kullanarak PDF'ye dönüştürmek için adım adım rehber.
+
 ## Sıkça Sorulan Sorular
 
 **S: Aspose.HTML for Java'ı ticari bir uygulamada kullanabilir miyim?**  

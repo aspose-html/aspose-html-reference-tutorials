@@ -89,6 +89,7 @@ Aprende a convertir HTML a PDF en Java usando Aspose.HTML. Crea PDFs de alta cal
 ### [Guardar HTML como PDF con Java – Guía completa usando Thread Pool y plantillas](./save-html-as-pdf-with-java-complete-guide-using-thread-pool/)
 Aprende a guardar HTML como PDF en Java usando Thread Pool y plantillas para un procesamiento eficiente.
 ### [Convertir HTML a PDF en Java – Guía paso a paso con configuración de tamaño de página](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
+### [Convertir archivo HTML a PDF en Java – guía paso a paso](./convert-html-file-to-pdf-in-java-step-by-step-guide/)
 ### [Crear PDF a partir de HTML en Java – Guía completa paso a paso](./create-pdf-from-html-in-java-complete-step-by-step-guide/)
 ### [Conversión de HTML a MHTML](./convert-html-to-mhtml/)
 Convierte HTML a MHTML de forma sencilla con Aspose.HTML para Java. Sigue nuestra guía paso a paso para una conversión eficiente de HTML a MHTML.
@@ -112,7 +113,6 @@ Aprende a generar PDFs a partir de archivos Markdown en Java usando Aspose.HTML.
 Aprende a convertir páginas web en PDFs de alta calidad usando Aspose.HTML para Java en unos simples pasos.
 ### [Establecer el tamaño de página PDF en Java – Guía completa de HTML a PDF](./set-pdf-page-size-in-java-complete-html-to-pdf-guide/)
 Aprende a establecer el tamaño de página en PDFs generados desde HTML usando Aspose.HTML para Java.
-
 ### [Establecer el tamaño de página PDF con Aspose HTML – Guía completa Java](./set-pdf-page-size-with-aspose-html-full-java-guide/)
 Aprende a definir el tamaño de página del PDF generado con Aspose HTML en Java, paso a paso y con ejemplos claros.
 ### [Crear Pool de Hilos Fijo para Conversión Paralela de HTML a PDF](./create-fixed-thread-pool-for-parallel-html-to-pdf-conversion/)
@@ -131,6 +131,7 @@ Aprende a definir el tamaño de página, la resolución y guardar HTML como PDF 
 ### [Crear PDF a partir de HTML en Java – Guía paso a paso](./create-pdf-from-html-in-java-step-by-step-guide/)
 ### [Convertir HTML a PDF con Fixed Thread Pool en Java – Guía paso a paso](./convert-html-to-pdf-with-fixed-thread-pool-java-step-by-step/)
 Aprende a convertir HTML a PDF usando un Fixed Thread Pool en Java para procesamiento concurrente eficiente.
+
 ## Preguntas Frecuentes
 
 **Q:** ¿Puedo usar Aspose.HTML para Java en una aplicación comercial?  
