@@ -59,6 +59,8 @@ Unlock the potential of Aspose.HTML for .NET with our comprehensive guide. Learn
 Learn how to harness the power of Aspose.HTML for .NET. Boost your web development with HTML manipulation and rendering.
 ### [Creating a Document in .NET with Aspose.HTML](./creating-a-document/)
 Unleash the Power of Aspose.HTML for .NET. Learn to Create, Manipulate, and Optimize HTML and SVG Documents with Ease. Explore Step-By-Step Examples and FAQs.
+### [Create HTML Document with Aspose.HTML – Step‑by‑Step Guide](./create-html-document-with-aspose-html-step-by-step-guide/)
+Learn how to create HTML documents using Aspose.HTML for .NET with a detailed step‑by‑step guide and practical examples.
 ### [Create HTML from String in C# – Custom Resource Handler Guide](./create-html-from-string-in-c-custom-resource-handler-guide/)
 Learn how to generate HTML from a string using a custom resource handler in C# with Aspose.HTML for .NET.
 ### [Editing a Document in .NET with Aspose.HTML](./editing-a-document/)
@@ -71,6 +73,8 @@ Learn to create dynamic and web content using Aspose.HTML for .NET. Empower your
 Learn to use Aspose.HTML for .NET. Import namespace, merge HTML with XML, and enhance your web development skills with this comprehensive guide.
 ### [Generate XPS Documents by XpsDevice in .NET with Aspose.HTML](./generate-xps-documents-by-xpsdevice/)
 Unlock the potential of web development with Aspose.HTML for .NET. Create, convert, and manipulate HTML documents easily.
+### [Append Element to Body – Complete C# Guide with Aspose.HTML](./append-element-to-body-complete-c-guide-with-aspose-html/)
+Learn how to append elements to the HTML body using Aspose.HTML for .NET with a complete C# guide and practical examples.
 
 ## Conclusion
 

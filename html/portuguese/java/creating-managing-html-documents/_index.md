@@ -75,3 +75,30 @@ Aprenda a buscar dados JSON e gerar dinamicamente conteúdo HTML em Java usando 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Extrair texto de HTML com Java – Guia completo passo a passo](./extract-text-from-html-with-java-complete-step-by-step-guide/)
+Aprenda a extrair texto de documentos HTML em Java usando Aspose.HTML com este guia passo a passo completo.
+### [Iterar sobre NodeList em Java – Guia Completo](./iterate-over-nodelist-java-complete-guide/)
+Aprenda a percorrer NodeList em Java usando Aspose.HTML com este guia passo a passo completo.
+### [Gerar HTML a partir de JavaScript em Java – Guia Completo Passo a Passo](./generate-html-from-javascript-in-java-complete-step-by-step/)
+Aprenda a gerar HTML a partir de código JavaScript em Java com este guia passo a passo detalhado.
+### [Como analisar HTML Java – Carregar, consultar e contar elementos](./how-to-parse-html-java-load-query-count-elements/)
+Aprenda a analisar, consultar e contar elementos em documentos HTML usando Aspose.HTML para Java com este guia passo a passo.
+### [Executar JavaScript assíncrono em Java – Guia completo passo a passo](./execute-async-javascript-in-java-complete-step-by-step-guide/)
+Aprenda a executar JavaScript assíncrono em Java usando Aspose.HTML com este guia passo a passo.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Iterar NodeList em Java – Ler HTML e Obter src da Imagem](./iterate-nodelist-java-read-html-get-image-src/)
+Aprenda a percorrer um NodeList em Java para ler HTML e extrair o atributo src das imagens.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+

@@ -1,8 +1,8 @@
 ---
-date: 2025-12-19
+date: 2026-03-02
 description: Aspose.HTML for Java kullanarak html'yi png'ye nasıl dönüştüreceğinizi
-  öğrenin. Bu adım adım kılavuz, html'yi görüntüye dönüştürmeyi, html'yi png olarak
-  kaydetmeyi ve html'yi png olarak dışa aktarmayı kapsar.
+  öğrenin. Bu adım adım kılavuz, html'den görüntü dönüşümünü, html'yi png olarak kaydetmeyi
+  ve html'yi png olarak dışa aktarmayı kapsar.
 linktitle: Converting HTML to PNG
 second_title: Java HTML Processing with Aspose.HTML
 title: Aspose.HTML for Java ile HTML'yi PNG'ye Dönüştür
@@ -14,29 +14,34 @@ weight: 13
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# HTML'yi PNG'ye Dönüştürme Aspose.HTML for Java
+# Aspose.HTML for Java ile HTML'yi PNG'ye Dönüştürme
 
-Bu kapsamlı öğreticide, Java için güçlü Aspose.HTML kütüphanesini kullanarak **html'yi png'ye nasıl dönüştüreceğinizi** öğreneceksiniz. İster bir küçük resim oluşturmanız, bir rapor anlık görüntüsü hazırlamanız, ister web içeriğinden görsel varlıkları otomatikleştirmeniz gerekse, bu rehber sizi önkoşullardan son dönüşüm koduna kadar her adımda yönlendirir—böylece projelerinizde html'yi görüntüye dönüştürmeyi güvenle yapabilirsiniz.
+Bu kapsamlı öğreticide, güçlü Aspose.HTML Java kütüphanesini kullanarak **html'yi png'ye nasıl dönüştüreceğinizi** öğreneceksiniz. İster bir küçük resim oluşturmak, bir rapor anlık görüntüsü üretmek, ister web içeriğinden otomatik görsel varlıklar üretmek isteyin, bu rehber ön koşullardan son dönüşüm koduna kadar her şeyi adım adım anlatır; böylece projelerinizde **html'den görüntüye dönüşüm** işlemini güvenle gerçekleştirebilirsiniz.
 
 ## Hızlı Yanıtlar
-- **Dönüşüm ne yapar?** Bir HTML sayfasını render eder ve PNG görüntü dosyası olarak kaydeder.  
+- **Dönüştürme ne yapar?** Bir HTML sayfasını render eder ve PNG görüntü dosyası olarak kaydeder.  
 - **Hangi kütüphane gereklidir?** Aspose.HTML for Java (genellikle *aspose html java* olarak anılır).  
-- **Lisans gerekir mi?** Değerlendirme için ücretsiz deneme çalışır; üretim için ticari bir lisans gereklidir.  
-- **HTML'yi png olarak herhangi bir işletim sisteminde dışa aktarabilir miyim?** Evet, kütüphane çapraz platformdur ve Windows, Linux ve macOS'ta çalışır.  
-- **Kodun çalışması ne kadar sürer?** Standart sayfalar için genellikle bir saniyenin altında.
+- **Lisans gerekli mi?** Değerlendirme için ücretsiz deneme çalışır; üretim için ticari lisans gereklidir.  
+- **HTML'yi PNG olarak herhangi bir işletim sisteminde dışa aktarabilir miyim?** Evet, kütüphane çapraz platformdur ve Windows, Linux ve macOS'ta çalışır.  
+- **Kodun çalışması ne kadar sürer?** Standart sayfalar için genellikle bir saniyeden az.
 
-## “html'yi png'ye dönüştürmek” nedir?
-HTML'yi PNG'ye dönüştürmek, bir web sayfasının işaretlemesini, stillerini ve görsellerini raster bir görüntüye (PNG) render etmek anlamına gelir. Bu işlem, görsel ön izlemeler oluşturmak, ekran görüntülerinden PDF üretmek veya web içeriğini statik görüntüler olarak saklamak için faydalıdır.
+## “html'yi png'ye dönüştürmek” ne demektir?
+HTML'yi PNG'ye dönüştürmek, bir web sayfasının işaretlemesini, stillerini ve görsellerini raster bir görüntüye (PNG) render etmek anlamına gelir. Bu süreç, görsel ön izlemeler oluşturmak, ekran görüntülerinden PDF üretmek veya web içeriğini statik görseller olarak saklamak için faydalıdır.
 
 ## Neden Aspose.HTML for Java kullanmalı?
-Aspose.HTML, CSS, JavaScript ve modern HTML5 özelliklerini doğru bir şekilde yeniden üreten yüksek doğruluklu bir render motoru sunar. Ayrıca **save html as png** seçenekleriyle esnek bir kontrol sağlar; tarayıcıya ihtiyaç duymadan görüntü boyutunu, çözünürlüğünü ve formatını ayarlayabilirsiniz.
+Aspose.HTML, CSS, JavaScript ve modern HTML5 özelliklerini yüksek doğrulukla yeniden üreten bir render motoru sunar. Ayrıca **html'yi png olarak kaydet** seçenekleriyle görüntü boyutu, çözünürlük ve formatı kontrol etmenizi sağlar; tarayıcıya ihtiyaç duymaz.
 
-## Önkoşullar
+## Gerçek Dünya Kullanım Senaryoları
+- **HTML ekran görüntüsü Java**: Otomatik test raporları için bir web sayfasının anlık görüntüsünü yakalayın.  
+- **E-posta küçük resim oluşturma**: Bülten HTML'sini ön izleme panelleri için PNG küçük resimlerine dönüştürün.  
+- **Eski sistem arşivleme**: Dinamik HTML raporlarını uzun vadeli depolama için statik PNG dosyalarına aktarın.  
 
-Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
+## Ön Koşullar
 
-1. **Java Geliştirme Ortamı** – JDK 8 veya daha üstü yüklü.  
-2. **Aspose.HTML for Java** – Resmi siteden bu [Download Link](https://releases.aspose.com/html/java/) kullanarak kütüphaneyi indirin.  
+Başlamadan önce aşağıdakilerin kurulu olduğundan emin olun:
+
+1. **Java Geliştirme Ortamı** – JDK 8 veya üzeri yüklü.  
+2. **Aspose.HTML for Java** – Resmi siteden bu [İndirme Bağlantısı](https://releases.aspose.com/html/java/) kullanarak kütüphaneyi indirin.  
 3. **HTML Belgesi** – Dönüştürmek istediğiniz bir `.html` dosyası (ör. `input.html`).  
 
 ## Paketleri İçe Aktarma
@@ -50,11 +55,11 @@ import com.aspose.html.rendering.image.ImageFormat;
 import com.aspose.html.converters.Converter;
 ```
 
-Bu içe aktarmalar, belge modeline, görüntü kaydetme seçeneklerine ve dönüşüm yardımcı aracına erişmenizi sağlar.
+Bu importlar, belge modeline, görüntü kaydetme seçeneklerine ve dönüşüm aracına erişim sağlar.
 
 ## HTML'yi PNG'ye Dönüştürmek İçin Adım‑Adım Kılavuz
 
-Aşağıda, Aspose.HTML kullanarak **html'den png üretmenin** tam olarak nasıl yapılacağını gösteren net, numaralı bir yol haritası bulacaksınız.
+Aşağıda, Aspose.HTML kullanarak **html'den png üretme** sürecini net bir şekilde gösteren numaralı bir rehber bulacaksınız.
 
 ### Adım 1: HTML Belgesini Yükleyin
 
@@ -67,25 +72,25 @@ HTMLDocument htmlDocument = new HTMLDocument("input.html");
 
 ### Adım 2: ImageSaveOptions'ı Yapılandırın
 
-`ImageSaveOptions`'ı, çıktı formatı olarak PNG'yi belirleyecek şekilde ayarlayın.
+Çıktı formatı olarak PNG'yi belirtmek için `ImageSaveOptions` ayarlarını yapın.
 
 ```java
 // Initialize ImageSaveOptions
 ImageSaveOptions options = new ImageSaveOptions(ImageFormat.Png);
 ```
 
-Özel boyutlara ihtiyacınız varsa `options`'ı (ör. genişlik, yükseklik, kalite) da ayarlayabilirsiniz.
+İhtiyacınız olan özel boyutlar varsa `options`'ı (ör. genişlik, yükseklik, kalite) da ayarlayabilirsiniz.
 
-### Adım 3: Çıktı Yolunu Tanımlayın
+### Adım 3: Çıktı Yolunu Belirleyin
 
-Render edilen görüntünün nereye kaydedileceğini seçin.
+Render edilen görüntünün kaydedileceği yeri seçin.
 
 ```java
 // Output file path
 String outputFile = "HTMLtoPNG_Output.png";
 ```
 
-Dosya adını veya dizini, proje yapınıza uygun şekilde değiştirmekten çekinmeyin.
+Proje yapınıza uygun olacak şekilde dosya adını veya dizini değiştirmekten çekinmeyin.
 
 ### Adım 4: Dönüşümü Gerçekleştirin
 
@@ -96,17 +101,18 @@ Son olarak, PNG'yi render edip kaydetmek için dönüştürücüyü çağırın.
 Converter.convertHTML(htmlDocument, options, outputFile);
 ```
 
-Bu satır çalıştırıldığında, Aspose.HTML HTML'i işler, CSS'yi uygular, kaynakları çözer ve `outputFile` konumuna yüksek kaliteli bir PNG dosyası yazar.
+Bu satır çalıştığında, Aspose.HTML HTML'i işler, CSS'i uygular, kaynakları çözer ve yüksek kalite bir PNG dosyasını `outputFile` konumuna yazar.
 
-## Yaygın Sorunlar ve Çözüm Yolları
-- **Eksik kaynaklar (CSS, görseller):** Tüm bağlı varlıkların dosya sisteminden erişilebilir olduğundan emin olun veya mutlak URL'ler sağlayın.  
+## Yaygın Sorunlar & Hata Ayıklama
+
+- **Eksik kaynaklar (CSS, görseller):** Tüm bağlı varlıkların dosya sisteminden erişilebilir olduğundan veya mutlak URL'ler sağladığınızdan emin olun.  
 - **Büyük sayfalar bellek baskısı oluşturuyor:** Render edilen alanı sınırlamak için `options.setPageWidth()` ve `options.setPageHeight()` kullanın.  
-- **Lisans uygulanmadı:** Bir filigran görürseniz, dönüşümden önce geçerli bir Aspose.HTML lisansı yüklediğinizi doğrulayın.
+- **Lisans uygulanmadı:** Eğer filigran görüyorsanız, dönüşümden önce geçerli bir Aspose.HTML lisansı yüklediğinizi doğrulayın.
 
-## Sıkça Sorulan Sorular
+## Sık Sorulan Sorular
 
 **S: Aspose.HTML for Java nedir?**  
-C: Aspose.HTML for Java, geliştiricilerin HTML belgelerini programlı olarak oluşturmasına, düzenlemesine, render etmesine ve dönüştürmesine olanak tanıyan bir kütüphanedir; **html'den görüntüye dönüşüm** dahil.
+C: Aspose.HTML for Java, geliştiricilerin programatik olarak HTML belgeleri oluşturmasına, düzenlemesine, render etmesine ve dönüştürmesine olanak tanıyan bir kütüphanedir; **html'den görüntüye dönüşüm** dahil.
 
 **S: HTML'yi başka görüntü formatlarına dönüştürebilir miyim?**  
 C: Evet, PNG dışında `ImageSaveOptions` içindeki `ImageFormat`'ı değiştirerek JPEG, BMP, GIF ve TIFF üretebilirsiniz.
@@ -115,21 +121,27 @@ C: Evet, PNG dışında `ImageSaveOptions` içindeki `ImageFormat`'ı değiştir
 C: Evet, deneme veya kalıcı lisans alabilirsiniz. Ayrıntılar [burada](https://purchase.aspose.com/buy) ve [burada](https://purchase.aspose.com/temporary-license/) mevcuttur.
 
 **S: Daha fazla belgeyi nerede bulabilirim?**  
-C: Kapsamlı API belgeleri Aspose sitesinde [burada](https://reference.aspose.com/html/java/) bulunur.
+C: Kapsamlı API dokümantasyonu Aspose sitesinde [burada](https://reference.aspose.com/html/java/) bulunur.
 
-**S: Aspose.HTML web kazıma görevleri için uygun mu?**  
+**S: Aspose.HTML web‑scraping görevleri için uygun mu?**  
 C: Temelde bir render motoru olsa da, ayrıştırma yetenekleri HTML sayfalarından veri çıkarmada yardımcı olabilir.
+
+**S: Bu, bir html screenshot java senaryosuna nasıl yardımcı olur?**  
+C: Sayfayı sunucu tarafında render edip PNG olarak kaydederek bir tarayıcı başlatma yükünden kaçınırsınız; bu da otomatik ekran görüntüsü üretimini hızlı ve güvenilir kılar.
+
+**S: Kütüphane headless ortamları destekliyor mu?**  
+C: Evet, Aspose.HTML Linux konteynerlerinde headless modda çalışır ve CI/CD boru hatları için idealdir.
 
 ## Sonuç
 
-Artık Aspose.HTML for Java kullanarak **html'yi png'ye dönüştürmek** için eksiksiz, üretime hazır bir yönteme sahipsiniz. Yukarıdaki adımları izleyerek **save html as png** işlevini herhangi bir Java uygulamasına kolayca entegre edebilir, görüntü üretimini otomatikleştirebilir veya web içeriğinin görsel arşivlerini oluşturabilirsiniz.
+Artık Aspose.HTML for Java kullanarak **html'yi png'ye dönüştürmek** için eksiksiz, üretim‑hazır bir yönteme sahipsiniz. Yukarıdaki adımları izleyerek **html'yi png olarak kaydet** işlevini herhangi bir Java uygulamasına kolayca entegre edebilir, görüntü üretimini otomatikleştirebilir veya web içeriğinin görsel arşivlerini oluşturabilirsiniz.
 
-Herhangi bir zorlukla karşılaşırsanız, Aspose topluluğu [Support Forum](https://forum.aspose.com/) üzerinden yardımcı olmaya hazırdır.
+Herhangi bir sorunla karşılaşırsanız, Aspose topluluğu [Destek Forumu](https://forum.aspose.com/) üzerinden size yardımcı olmaya hazırdır.
 
 ---
 
-**Son Güncelleme:** 2025-12-19  
-**Test Edilen Versiyon:** Aspose.HTML for Java 24.12 (yazım anındaki en son sürüm)  
+**Son Güncelleme:** 2026-03-02  
+**Test Edilen Versiyon:** Aspose.HTML for Java 24.12 (yazım anındaki en yeni)  
 **Yazar:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

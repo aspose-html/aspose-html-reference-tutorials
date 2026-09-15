@@ -1,0 +1,7 @@
+Title: fetch json with javascript in Java – Full Guide
+Slug: fetch-json-with-javascript-in-java-full-guide
+Category: creating-managing-html-documents
+ProcessedDate: 2026-06-07T11:10:22.105963
+SourceRepo: AI Search API
+Keywords: fetch json with javascript, execute javascript in java, create html document java
+PRNumber: 175

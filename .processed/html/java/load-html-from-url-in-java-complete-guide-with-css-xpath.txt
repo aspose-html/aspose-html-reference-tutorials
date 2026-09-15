@@ -1,0 +1,7 @@
+Title: Load HTML from URL in Java – Complete Guide with CSS & XPath
+Slug: load-html-from-url-in-java-complete-guide-with-css-xpath
+Category: creating-managing-html-documents
+ProcessedDate: 2026-07-02T15:10:49.008235
+SourceRepo: AI Search API
+Keywords: load html from url, select elements with attribute, extract download links, search html with css, count xpath nodes
+PRNumber: 199

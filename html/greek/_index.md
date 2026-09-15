@@ -1,6 +1,6 @@
 ---
 additionalTitle: Aspose API References
-date: 2025-11-30
+date: 2026-03-18
 description: Μάθετε πώς να μετατρέπετε HTML σε PDF, να αποδίδετε HTML ως εικόνα και
   να δημιουργείτε JPG από HTML χρησιμοποιώντας το Aspose.HTML – βήμα‑βήμα οδηγίες
   για προγραμματιστές .NET και Java.
@@ -16,105 +16,113 @@ weight: 11
 
 # Μετατροπή HTML σε PDF με Aspose.HTML
 
-Αν χρειάζεστε **convert HTML to PDF** γρήγορα και αξιόπιστα, βρίσκεστε στο σωστό μέρος. Το Aspose.HTML σας παρέχει ένα ισχυρό, cross‑platform API που όχι μόνο μετατρέπει σελίδες HTML σε τέλεια PDF, αλλά σας επιτρέπει επίσης **render HTML as image**, **generate JPG from HTML**, και ακόμη εργασία με αρχεία EPUB. Σε αυτόν τον οδηγό θα περάσουμε από τα πιο χρήσιμα tutorials για .NET και Java, θα εξηγήσουμε γιατί αυτές οι δυνατότητες είναι σημαντικές, και θα σας δείξουμε πού να βρείτε τον ακριβή κώδικα που χρειάζεστε.
+Αν χρειάζεστε γρήγορη και αξιόπιστη **convert HTML to PDF**, βρίσκεστε στο σωστό μέρος. Το Aspose.HTML σας παρέχει ένα ισχυρό, cross‑platform API που όχι μόνο μετατρέπει σελίδες HTML σε τέλεια PDF, αλλά σας επιτρέπει επίσης να **render HTML as image**, **generate JPG from HTML**, και ακόμη να εργάζεστε με αρχεία EPUB. Σε αυτόν τον οδηγό θα περάσουμε από τα πιο χρήσιμα tutorials για .NET και Java, θα εξηγήσουμε γιατί αυτές οι δυνατότητες είναι σημαντικές, και θα σας δείξουμε πού μπορείτε να βρείτε τον ακριβή κώδικα που χρειάζεστε.
 
 ## Γρήγορες Απαντήσεις
-- **Μπορεί το Aspose.HTML να μετατρέψει HTML σε PDF σε μία γραμμή;** Ναι – η κλάση `HtmlDocument` διαθέτει τη μέθοδο `Save` που εξάγει PDF απευθείας.  
-- **Υποστηρίζεται η απόδοση εικόνας;** Απόλυτα. Χρησιμοποιήστε το `HtmlRenderer` για **render HTML as image** ή **generate JPG from HTML**.  
-- **Χρειάζομαι άδεια για παραγωγή;** Απαιτείται εμπορική άδεια για απεριόριστη χρήση· μια δωρεάν δοκιμή λειτουργεί για αξιολόγηση.  
-- **Ποιες πλατφόρμες καλύπτονται;** Τanto .NET (Framework, .NET Core, .NET 5/6) όσο και Java υποστηρίζονται πλήρως.  
-- **Μπορώ επίσης να μετατρέψω EPUB σε PDF ή εικόνα;** Ναι – το Aspose.HTML περιλαμβάνει ειδικούς βοηθούς για **convert EPUB to PDF** και **convert EPUB to image**.
+- **Can Aspose.HTML convert HTML to PDF in one line?** Ναι – η κλάση `HtmlDocument` έχει μέθοδο `Save` που εξάγει PDF απευθείας.  
+- **Is image rendering supported?** Απολύτως. Χρησιμοποιήστε `HtmlRenderer` για **render HTML as image** ή **generate JPG from HTML**.  
+- **Do I need a license for production?** Απαιτείται εμπορική άδεια για απεριόριστη χρήση· μια δωρεάν δοκιμή λειτουργεί για αξιολόγηση.  
+- **Which platforms are covered?** Τanto .NET (Framework, .NET Core, .NET 5/6) όσο και Java υποστηρίζονται πλήρως.  
+- **Can I also convert EPUB to PDF or image?** Ναι – το Aspose.HTML περιλαμβάνει ειδικές βοηθητικές λειτουργίες για **convert EPUB to PDF** και **convert EPUB to image**.
 
-## Τι είναι το “convert HTML to PDF”;
-Η μετατροπή HTML σε PDF σημαίνει τη λήψη μιας ιστοσελίδας — ή οποιουδήποτε HTML markup — και η δημιουργία ενός σελιδοποιημένου, έτοιμου για εκτύπωση εγγράφου PDF. Η έξοδος διατηρεί τα στυλ, τις γραμματοσειρές και τη διάταξη, καθιστώντας το ιδανικό για τιμολόγια, αναφορές ή λήψιμο περιεχομένου.
+## Τι είναι η “convert HTML to PDF”;
+Η μετατροπή HTML σε PDF σημαίνει ότι παίρνετε μια ιστοσελίδα — ή οποιοδήποτε HTML markup — και παράγετε ένα σελιδοποιημένο, έτοιμο για εκτύπωση PDF έγγραφο. Το αποτέλεσμα διατηρεί τα στυλ, τις γραμματοσειρές και τη διάταξη, καθιστώντας το ιδανικό για τιμολόγια, αναφορές ή λήψιμο περιεχομένου.
 
 ## Γιατί να χρησιμοποιήσετε το Aspose.HTML για μετατροπή και απόδοση;
-- **Pixel‑perfect fidelity** – CSS, SVG, και σύγχρονες δυνατότητες HTML5 αποδίδονται ακριβώς όπως θα τα εμφάνιζαν οι browsers.  
+- **Pixel‑perfect fidelity** – CSS, SVG και σύγχρονες δυνατότητες HTML5 αποδίδονται ακριβώς όπως θα τα εμφάνιζαν οι browsers.  
 - **No external dependencies** – Δεν χρειάζεται Internet Explorer, Chrome ή headless browsers στον server.  
-- **Cross‑language support** – Ίδια API για .NET και Java, απλοποιώντας έργα πολλαπλών πλατφορμών.  
-- **Additional formats** – Πέρα από PDF, μπορείτε να **render HTML as image**, **convert EPUB to image**, ή **generate JPG from HTML** με μία κλήση.  
+- **Cross‑language support** – Ίδιο API για .NET και Java, απλοποιώντας έργα πολλαπλών πλατφορμών.  
+- **Additional formats** – Πέρα από PDF, μπορείτε να **render HTML as image**, **convert EPUB to image**, ή **generate JPG from HTML** με μία κλήση.
 
 ## Προαπαιτούμενα
-- Ένα έγκυρο άδεια Aspose.HTML (ή κλειδί δοκιμής).  
-- .NET 4.5+ / .NET Core 3.1+ **or** Java 8+.  
+- Ένα έγκυρο license του Aspose.HTML (ή κλειδί δοκιμής).  
+- .NET 4.5+ / .NET Core 3.1+ **ή** Java 8+.  
 - Βασικές γνώσεις HTML/CSS και της επιλεγμένης γλώσσας προγραμματισμού.
 
-## Aspose.HTML για .NET Tutorials
+## Aspose.HTML for .NET Tutorials
 {{% alert color="primary" %}}
-Ανακαλύψτε ολοκληρωμένα tutorials και παραδείγματα για την αξιοποίηση των δυνατοτήτων του Aspose.HTML για .NET. Βυθιστείτε σε μια πληθώρα πόρων για να αξιοποιήσετε πλήρως το Aspose.HTML και να ανεβάσετε τις δεξιότητές σας στην ανάπτυξη .NET σε νέα επίπεδα. Είτε θέλετε να κάνετε parse, manipulate, ή **convert HTML to PDF**, τα tutorials μας παρέχουν τη γνώση και την καθοδήγηση που χρειάζεστε για να διαπρέψετε στα έργα ανάπτυξής σας.  
+Ανακαλύψτε ολοκληρωμένα tutorials και παραδείγματα για την αξιοποίηση των δυνατοτήτων του Aspose.HTML για .NET. Βυθιστείτε σε μια πληθώρα πόρων για να αξιοποιήσετε πλήρως το Aspose.HTML και να ανεβάσετε τις δεξιότητές σας στην ανάπτυξη .NET σε νέα επίπεδα. Είτε θέλετε να κάνετε parsing, manipulation, ή **convert HTML to PDF**, τα tutorials μας παρέχουν τη γνώση και την καθοδήγηση που χρειάζεστε για να διαπρέψετε στα έργα ανάπτυξής σας.  
 {{% /alert %}}
 
-Αυτοί είναι σύνδεσμοι σε μερικούς χρήσιμους πόρους:
-
-- [HTML Extensions and Conversions](./net/html-extensions-and-conversions/)
-- [HTML Document Manipulation](./net/html-document-manipulation/)
-- [Canvas and Image Manipulation](./net/canvas-and-image-manipulation/)
-- [Working with HTML Documents](./net/working-with-html-documents/)
-- [Advanced Features](./net/advanced-features/)
-- [Licensing and Initialization](./net/licensing-and-initialization/)
-- [Generate JPG and PNG Images](./net/generate-jpg-and-png-images/)
-- [Rendering HTML Documents](./net/rendering-html-documents/)
+- [Επεκτάσεις HTML και Μετατροπές](./net/html-extensions-and-conversions/)
+- [Διαχείριση Εγγράφου HTML](./net/html-document-manipulation/)
+- [Διαχείριση Canvas και Εικόνας](./net/canvas-and-image-manipulation/)
+- [Εργασία με Έγγραφα HTML](./net/working-with-html-documents/)
+- [Προηγμένες Λειτουργίες](./net/advanced-features/)
+- [Αδειοδότηση και Αρχικοποίηση](./net/licensing-and-initialization/)
+- [Δημιουργία Εικόνων JPG και PNG](./net/generate-jpg-and-png-images/)
+- [Απόδοση Εγγράφων HTML](./net/rendering-html-documents/)
 
 ### Πώς να **render HTML as image** σε .NET
-Το “Rendering HTML Documents” tutorial σας δείχνει πώς να καλέσετε το `HtmlRenderer` για να δημιουργήσετε αρχεία PNG, JPEG ή BMP απευθείας από μια συμβολοσειρά ή αρχείο HTML. Αυτή είναι η προτιμώμενη μέθοδος για **convert HTML to image** όταν χρειάζεστε μικρογραφίες ή προεπισκοπήσεις.
+Το tutorial “Rendering HTML Documents” σας δείχνει πώς να καλέσετε το `HtmlRenderer` για να παράγετε αρχεία PNG, JPEG ή BMP απευθείας από μια συμβολοσειρά ή αρχείο HTML. Αυτή είναι η προτιμώμενη μέθοδος για **convert HTML to image** όταν χρειάζεστε μικρογραφίες ή προεπισκοπήσεις.
 
 ### Πώς να **convert EPUB to PDF** και **EPUB to image** σε .NET
-Ελέγξτε την ενότητα “HTML Extensions and Conversions” – περιλαμβάνει κώδικα βήμα‑βήμα για τη μετατροπή πακέτων EPUB σε αναφορές PDF ή σειρά σελίδων PNG/JPG, καλύπτοντας τα σενάρια **convert epub to pdf** και **convert epub to image**.
+Δείτε την ενότητα “HTML Extensions and Conversions” – περιλαμβάνει κώδικα βήμα‑βήμα για τη μετατροπή πακέτων EPUB σε αναφορές PDF ή σειρά σελίδων PNG/JPG, καλύπτοντας τα σενάρια **convert epub to pdf** και **convert epub to image**.
 
-## Aspose.HTML για Java Tutorials
+## Aspose.HTML for Java Tutorials
 {{% alert color="primary" %}}
-Εξερευνήστε μια ολοκληρωμένη συλλογή tutorials για το Aspose.HTML για Java, προσφέροντας ενδελεχή καθοδήγηση και πληροφορίες για τις ευέλικτες δυνατότητες αυτής της ισχυρής βιβλιοθήκης. Είτε είστε προγραμματιστής που θέλει να προσαρμόσει τα περιθώρια σελίδας HTML, να υλοποιήσει έναν DOM Mutation Observer, να χειριστεί το HTML5 Canvas, να αυτοματοποιήσει τη συμπλήρωση φορμών HTML, ή να κυριαρχήσει στην τέχνη της μετατροπής διαφόρων μορφών όπως EPUB σε εικόνες και PDF, αυτά τα tutorials παρέχουν βήμα‑βήμα οδηγίες και παραδείγματα κώδικα για να ενισχύσετε τις δεξιότητές σας στην επεξεργασία HTML. Απελευθερώστε το πλήρες δυναμικό του Aspose.HTML για Java και βελτιστοποιήστε τις εργασίες ανάπτυξης web και μετατροπής εγγράφων με ευκολία.  
+Εξερευνήστε μια ολοκληρωμένη συλλογή tutorials για το Aspose.HTML για Java, προσφέροντας εις βάθος καθοδήγηση και πληροφορίες για τις ευέλικτες δυνατότητες αυτής της ισχυρής βιβλιοθήκης. Είτε είστε προγραμματιστής που θέλει να προσαρμόσει τα περιθώρια σελίδας HTML, να υλοποιήσει έναν DOM Mutation Observer, να διαχειριστεί HTML5 Canvas, να αυτοματοποιήσει τη συμπλήρωση φορμών HTML, ή να κατακτήσει την τέχνη της μετατροπής διαφόρων μορφών όπως EPUB σε εικόνες και PDF, αυτά τα tutorials παρέχουν βήμα‑βήμα οδηγίες και παραδείγματα κώδικα για να ενισχύσετε τις δεξιότητές σας στην επεξεργασία HTML. Απελευθερώστε το πλήρες δυναμικό του Aspose.HTML για Java και βελτιστοποιήστε τις εργασίες ανάπτυξης ιστού και μετατροπής εγγράφων με ευκολία.  
 {{% /alert %}}
 
-Αυτοί είναι σύνδεσμοι σε μερικούς χρήσιμους πόρους:
-
-- [Advanced Usage of Aspose.HTML Java](./java/advanced-usage/)
-- [Conversion - Canvas to PDF](./java/conversion-canvas-to-pdf/)
-- [Conversion - EPUB to Image and PDF](./java/conversion-epub-to-image-and-pdf/)
-- [Conversion - EPUB to XPS](./java/conversion-epub-to-xps/)
-- [Conversion - HTML to Various Image Formats](./java/conversion-html-to-various-image-formats/)
-- [Conversion - HTML to Other Formats](./java/conversion-html-to-other-formats/)
-- [Converting Between EPUB and Image Formats](./java/converting-between-epub-and-image-formats/)
-- [Converting EPUB to PDF](./java/converting-epub-to-pdf/)
-- [Converting EPUB to XPS](./java/converting-epub-to-xps/)
-- [Converting HTML to Various Image Formats](./java/converting-html-to-various-image-formats/)
+- [Προχωρημένη Χρήση του Aspose.HTML Java](./java/advanced-usage/)
+- [Μετατροπή - Canvas σε PDF](./java/conversion-canvas-to-pdf/)
+- [Μετατροπή - EPUB σε Εικόνα και PDF](./java/conversion-epub-to-image-and-pdf/)
+- [Μετατροπή - EPUB σε XPS](./java/conversion-epub-to-xps/)
+- [Μετατροπή - HTML σε Διάφορες Μορφές Εικόνας](./java/conversion-html-to-various-image-formats/)
+- [Μετατροπή - HTML σε Άλλες Μορφές](./java/conversion-html-to-other-formats/)
+- [Μετατροπή μεταξύ EPUB και Μορφών Εικόνας](./java/converting-between-epub-and-image-formats/)
+- [Μετατροπή EPUB σε PDF](./java/converting-epub-to-pdf/)
+- [Μετατροπή EPUB σε XPS](./java/converting-epub-to-xps/)
+- [Μετατροπή HTML σε Διάφορες Μορφές Εικόνας](./java/converting-html-to-various-image-formats/)
 
 ### Πώς να **generate JPG from HTML** σε Java
-Το “Conversion - HTML to Various Image Formats” tutorial δείχνει το API `HtmlRenderer` για τη δημιουργία αρχείων JPG υψηλής ανάλυσης, ιδανικά για αναφορές που χρειάζονται raster εικόνες αντί για PDF.
+Το tutorial “Conversion - HTML to Various Image Formats” δείχνει το API `HtmlRenderer` για τη δημιουργία αρχείων JPG υψηλής ανάλυσης, ιδανικά για αναφορές που χρειάζονται raster εικόνες αντί για PDF.
 
 ### Πώς να **convert HTML to PDF** σε Java
-Οι οδηγίες “Conversion - Canvas to PDF” και “Conversion - EPUB to Image and PDF” σας καθοδηγούν βήμα‑βήμα στις ακριβείς κλήσεις για να μετατρέψετε περιεχόμενο HTML ή canvas σε PDF, διαχειριζόμενοι αυτόματα την ενσωμάτωση γραμματοσειρών και τη διάταξη CSS.
+Οι οδηγίες “Conversion - Canvas to PDF” και “Conversion - EPUB to Image and PDF” σας καθοδηγούν βήμα‑βήμα στις ακριβείς κλήσεις για τη μετατροπή περιεχομένου HTML ή canvas σε PDF, διαχειριζόμενες αυτόματα την ενσωμάτωση γραμματοσειρών και τη διάταξη CSS.
 
-## Συνηθισμένες Περιπτώσεις Χρήσης
-| Σενάριο | Γιατί Είναι Σημαντικό | Δυνατότητα Aspose.HTML |
-|----------|----------------------|------------------------|
-| **Δημιουργία τιμολογίου** | Τα PDF υψηλής νομικής αξίας πρέπει να φαίνονται ταυτόσημα σε κάθε συσκευή. | `convert html to pdf` with CSS support |
+## Κοινές Περιπτώσεις Χρήσης
+| Σενάριο | Γιατί είναι σημαντικό | Δυνατότητα Aspose.HTML |
+|----------|----------------|--------------------|
+| **Δημιουργία τιμολογίων** | Τα PDF υψηλής νομικής αξίας πρέπει να φαίνονται ταυτόσημα σε κάθε συσκευή. | `convert html to pdf` με υποστήριξη CSS |
 | **Προεπισκόπηση ενημερωτικών δελτίων email** | Απαιτείται μικρογραφία για κάθε εκστρατεία. | **render html as image** / **generate jpg from html** |
 | **Δημοσίευση eBook** | Μετατροπή συλλογών EPUB σε εκτυπώσιμα PDF. | **convert epub to pdf** |
 | **Αρχειοθέτηση παλαιών εγγράφων** | Αποθήκευση ιστοσελίδων ως στιγμιότυπα εικόνας για συμμόρφωση. | **convert html to image** / **convert epub to image** |
 
+## Γιατί είναι σημαντικό για τους προγραμματιστές
+Όταν δημιουργείτε PDF ή εικόνες στο server, εξαλείφετε την ανάγκη για τεχνάσματα απόδοσης στην πλευρά του πελάτη, μειώνετε την καθυστέρηση και αποκτάτε πλήρη έλεγχο στην ποιότητα του αποτελέσματος. Το μοντέλο **single‑call conversion** του Aspose.HTML σημαίνει ότι μπορείτε να ενσωματώσετε τη δημιουργία εγγράφων σε batch jobs, υπηρεσίες αναφορών ή CI pipelines χωρίς να διαχειρίζεστε εξωτερικά browsers.
+
+## Συνηθισμένα προβλήματα & αντιμετώπιση
+- **Missing fonts** – Βεβαιωθείτε ότι τυχόν προσαρμοσμένες γραμματοσειρές είναι είτε ενσωματωμένες στο HTML μέσω `@font-face` είτε τοποθετημένες σε φάκελο που αναφέρεται από `HtmlLoadOptions`.  
+- **Large HTML files** – Πολύ μεγάλα έγγραφα μπορούν να καταναλώσουν σημαντική μνήμη. Χρησιμοποιήστε `Document.OptimizeResources()` πριν από την αποθήκευση για να μειώσετε το αποτύπωμα.  
+- **CSS incompatibilities** – Παρόλο που το Aspose.HTML υποστηρίζει το μεγαλύτερο μέρος του CSS3, ορισμένοι προχωρημένοι selectors μπορεί να αγνοηθούν. Δοκιμάστε κρίσιμα στυλ στο παραγόμενο PDF για να επαληθεύσετε την πιστότητα.  
+- **Thread safety** – Η βιβλιοθήκη είναι thread‑safe για λειτουργίες μόνο ανάγνωσης. Όταν γράφετε αρχεία παράλληλα, δημιουργήστε ξεχωριστό αντικείμενο `HtmlDocument` ανά νήμα.
+
 ## Συχνές Ερωτήσεις
 
-**Ε: Υποστηρίζει το Aspose.HTML CSS3 και σύγχρονες γραμματοσειρές web;**  
-Απάντηση: Ναι. Η μηχανή απόδοσης υποστηρίζει πλήρως CSS3, @font‑face, SVG, και HTML5 canvas, εξασφαλίζοντας ότι τα PDF και οι εικόνες σας φαίνονται ακριβώς όπως σε ένα πρόγραμμα περιήγησης.
+**Q: Υποστηρίζει το Aspose.HTML CSS3 και σύγχρονες web γραμματοσειρές;**  
+A: Ναι. Η μηχανή απόδοσης υποστηρίζει πλήρως CSS3, @font‑face, SVG και HTML5 canvas, διασφαλίζοντας ότι τα PDF και οι εικόνες σας φαίνονται ακριβώς όπως σε ένα πρόγραμμα περιήγησης.
 
-**Ε: Μπορώ να επεξεργαστώ μαζικά πολλά αρχεία HTML σε PDF;**  
-Απάντηση: Απόλυτα. Τοποθετήστε τη δημιουργία του `HtmlDocument` και την κλήση `Save` μέσα σε βρόχο· η βιβλιοθήκη είναι thread‑safe για παράλληλη επεξεργασία.
+**Q: Μπορώ να επεξεργαστώ μαζικά πολλά αρχεία HTML σε PDF;**  
+A: Απόλυτα. Τυλίξτε τη δημιουργία `HtmlDocument` και την κλήση `Save` μέσα σε βρόχο· η βιβλιοθήκη είναι thread‑safe για παράλληλη επεξεργασία.
 
-**Ε: Υπάρχει όριο στο μέγεθος των αρχείων HTML που μπορώ να μετατρέψω;**  
-Απάντηση: Δεν υπάρχει σκληρό όριο, αλλά πολύ μεγάλα αρχεία μπορεί να απαιτούν περισσότερη μνήμη. Χρησιμοποιήστε τη μέθοδο `Document.OptimizeResources()` για να μειώσετε το αποτύπωμα μνήμης.
+**Q: Υπάρχει όριο στο μέγεθος των αρχείων HTML που μπορώ να μετατρέψω;**  
+A: Δεν υπάρχει σκληρό όριο, αλλά πολύ μεγάλα αρχεία μπορεί να απαιτούν περισσότερη μνήμη. Χρησιμοποιήστε τη μέθοδο `Document.OptimizeResources()` για να μειώσετε το αποτύπωμα μνήμης.
 
-**Ε: Πώς μπορώ να προσθέσω προσαρμοσμένη κεφαλίδα/υποσέλιδο στο παραγόμενο PDF;**  
-Απάντηση: Αφού φορτώσετε το HTML, μπορείτε να ενσωματώσετε επιπλέον HTML ή να χρησιμοποιήσετε το `PdfSaveOptions` για να ορίσετε τα περιθώρια σελίδας και να προσθέσετε στατικές κεφαλίδες/υποσέλιδα.
+**Q: Πώς μπορώ να προσθέσω προσαρμοσμένη κεφαλίδα/υποσέλιδο στο παραγόμενο PDF;**  
+A: Μετά τη φόρτωση του HTML, μπορείτε να ενσωματώσετε επιπλέον HTML ή να χρησιμοποιήσετε το `PdfSaveOptions` για να ορίσετε περιθώρια σελίδας και να προσθέσετε στατικά κεφαλίδες/υποσέλιδα.
 
-**Ε: Υπάρχουν περιορισμοί αδειοδότησης για εμπορική χρήση;**  
-Απάντηση: Μια εμπορική άδεια αφαιρεί όλους τους περιορισμούς αξιολόγησης και σας παρέχει πλήρη δικαιώματα για την ανάπτυξη της λύσης σε παραγωγικά περιβάλλοντα.
+**Q: Υπάρχουν περιορισμοί αδειοδότησης για εμπορική χρήση;**  
+A: Μια εμπορική άδεια αφαιρεί όλους τους περιορισμούς αξιολόγησης και σας παρέχει πλήρη δικαιώματα για την ανάπτυξη της λύσης σε περιβάλλοντα παραγωγής.
+
+## Συμπέρασμα
+Τώρα έχετε έναν σαφή οδηγό για **converting HTML to PDF**, **rendering HTML as image**, **generating JPG from HTML**, και τη διαχείριση **EPUB conversions** με το Aspose.HTML σε πλατφόρμες .NET και Java. Επιλέξτε το tutorial που ταιριάζει στο stack σας, ακολουθήστε τις οδηγίες βήμα‑βήμα, και ενσωματώστε το API στις δικές σας εφαρμογές για να παρέχετε έγγραφα υψηλής ποιότητας, pixel‑perfect, κάθε φορά.
 
 ---
 
-**Τελευταία ενημέρωση:** 2025-11-30  
-**Δοκιμάστηκε με:** Aspose.HTML 24.11 for .NET & Java  
-**Συγγραφέας:** Aspose  
+**Last Updated:** 2026-03-18  
+**Tested With:** Aspose.HTML 24.11 for .NET & Java  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,0 +1,7 @@
+Title: Create sandbox for HTML in Java – Complete Step‑by‑Step Guide
+Slug: create-sandbox-for-html-in-java-complete-step-by-step-guide
+Category: advanced-usage
+ProcessedDate: 2026-06-29T11:29:02.682441
+SourceRepo: AI Search API
+Keywords: create sandbox for html, apply content security policy java, content security policy example java
+PRNumber: 196

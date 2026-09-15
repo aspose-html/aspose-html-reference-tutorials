@@ -73,6 +73,12 @@ Naučte se, jak vložit písma při převodu EPUB do PDF v Javě pomocí Aspose.
 ### [Jak vložit písma do PDF pomocí Aspose HTML – průvodce převodem EPUB na PDF](./how-to-embed-fonts-in-pdf-using-aspose-html-convert-epub-to/)
 Naučte se, jak vložit písma do PDF při převodu EPUB na PDF pomocí Aspose.HTML for Java.
 
+### [Převod EPUB do PDF pomocí Javy – průvodce krok za krokem](./convert-epub-to-pdf-with-java-step-by-step-guide/)
+Kompletní návod, jak převést soubory EPUB do PDF v Javě pomocí Aspose.HTML, krok po kroku.
+### [Jak vložit písma při převodu EPUB do PDF – průvodce pro Javu](./how-to-embed-fonts-when-converting-epub-to-pdf-java-guide/)
+Naučte se, jak při převodu EPUB do PDF v Javě vložit písma pro zachování vzhledu dokumentu.
+### [epub to pdf tutoriál: Převod eKnihy do PDF s Aspose](./epub-to-pdf-tutorial-convert-ebook-to-pdf-with-aspose/)
+Naučte se, jak převést eKnihy do PDF pomocí Aspose.HTML v Javě.
 ## Často kladené otázky
 
 **Q:** *Mohu převést chráněné soubory EPUB do PDF?*  

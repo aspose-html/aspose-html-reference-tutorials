@@ -76,6 +76,13 @@ Learn how to embed custom fonts during EPUB to PDF conversion using Aspose.HTML 
 ### [how to embed fonts in PDF using Aspose HTML – convert epub to pdf guide](./how-to-embed-fonts-in-pdf-using-aspose-html-convert-epub-to/)
 Learn how to embed custom fonts when converting EPUB to PDF with Aspose.HTML for Java, ensuring consistent typography.
 
+### [convert epub to pdf with Java – Step‑by‑Step Guide](./convert-epub-to-pdf-with-java-step-by-step-guide/)
+Step‑by‑step guide to convert EPUB to PDF using Aspose.HTML for Java, ensuring easy and reliable results.
+### [How to embed fonts when converting EPUB to PDF – Java guide](./how-to-embed-fonts-when-converting-epub-to-pdf-java-guide/)
+Learn how to embed fonts during EPUB to PDF conversion using Aspose.HTML for Java for consistent typography.
+### [epub to pdf tutorial: Convert eBook to PDF with Aspose](./epub-to-pdf-tutorial-convert-ebook-to-pdf-with-aspose/)
+Learn how to convert eBooks to PDF using Aspose.HTML for Java with a simple step‑by‑step guide.
+
 ## Frequently Asked Questions
 
 **Q:** *Can I convert protected EPUB files to PDF?*  

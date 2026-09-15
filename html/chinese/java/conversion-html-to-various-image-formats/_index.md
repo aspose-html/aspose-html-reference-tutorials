@@ -104,6 +104,26 @@ weight: 24
 
 ### [如何从 HTML 生成缩略图 – Java 指南](./how-to-generate-thumbnail-from-html-java-guide/)
 
+### [Create PNG from HTML – High‑DPI SVG Export in Java](./create-png-from-html-high-dpi-svg-export-in-java/)
+
+### [如何将 HTML 渲染为 PNG – Java 开发者完整指南](./how-to-render-html-to-png-complete-guide-for-java-developers/)
+
+### [在 Java 中从 HTML 创建 PNG – 完整分步指南](./create-png-from-html-in-java-full-step-by-step-guide/)
+使用 Aspose.HTML for Java 将 HTML 渲染为 PNG 图像的完整分步教程，帮助您轻松实现高质量输出。
+
+### [在 Java 中从 SVG 创建 PNG – 完整分步指南](./create-png-from-svg-in-java-complete-step-by-step-guide/)
+使用 Aspose.HTML for Java 将 SVG 文件转换为 PNG 图像的完整步骤指南。
+### [如何在将 HTML 转换为 PNG 时设置 DPI – 完整指南](./how-to-set-dpi-when-converting-html-to-png-complete-guide/)
+### [Java 高 DPI 渲染 – 使用自定义用户代理捕获网页截图](./high-dpi-rendering-in-java-capture-webpage-screenshots-with/)
+### [使用线程池快速批量将 HTML 转换为 PNG](./create-png-from-html-fast-batch-conversion-using-a-thread-po/)
+演示如何利用线程池在 Java 中批量将 HTML 渲染为 PNG，提高转换效率并降低资源消耗。
+### [使用设置最大内存的方式将 HTML 转换为 PNG（Java）](./convert-html-to-png-with-set-max-memory-usage-in-java/)
+### [将 HTML 转换为 WebP – Java 指南：将 HTML 保存为 WebP](./convert-html-to-webp-java-guide-to-save-html-as-webp/)
+使用 Aspose.HTML for Java 将 HTML 转换为 WebP。详细步骤帮助您轻松保存为高效的 WebP 图像。
+
+### [使用 Aspose HTML 捕获网页截图 – Java 指南](./how-to-capture-screenshot-of-a-webpage-with-aspose-html-java/)
+学习如何使用 Aspose.HTML for Java 捕获网页截图的完整步骤和示例。
+
 ## 常见问题解答
 
 **Q: 我可以使用 Java 将 HTML 转换为 PNG 而无需额外的图像库吗？**  

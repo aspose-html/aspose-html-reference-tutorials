@@ -1,0 +1,7 @@
+Title: How to Limit Recursion in HTML Processing – Complete Guide
+Slug: how-to-limit-recursion-in-html-processing-complete-guide
+Category: general
+ProcessedDate: 2026-07-31T10:43:02.505576
+SourceRepo: AI Search API
+Keywords: how to limit recursion
+PRNumber: 227

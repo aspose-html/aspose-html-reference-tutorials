@@ -75,3 +75,36 @@ Apprenez à récupérer des données JSON et à générer dynamiquement du conte
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Générer du HTML à partir de JavaScript en Java – Guide complet étape par étape](./generate-html-from-javascript-in-java-complete-step-by-step/)
+Apprenez à générer du HTML à partir de code JavaScript en Java avec ce guide complet étape par étape.
+### [Comment analyser le HTML en Java – Charger, interroger et compter les éléments](./how-to-parse-html-java-load-query-count-elements/)
+Apprenez à charger, interroger et compter les éléments HTML en Java avec Aspose.HTML grâce à ce guide complet.
+### [Exécuter du JavaScript asynchrone en Java – Guide complet étape par étape](./execute-async-javascript-in-java-complete-step-by-step-guide/)
+Apprenez à exécuter du JavaScript de façon asynchrone dans vos applications Java avec Aspose.HTML, guide complet pas à pas.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Itérer NodeList Java – Lire le HTML et obtenir le src de l'image](./iterate-nodelist-java-read-html-get-image-src/)
+Apprenez à parcourir un NodeList en Java pour lire le HTML et extraire les attributs src des images.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Itérer sur NodeList en Java – Guide complet](./iterate-over-nodelist-java-complete-guide/)
+Apprenez à parcourir un NodeList en Java avec Aspose.HTML grâce à ce guide complet étape par étape.
+### [Extraire du texte à partir de HTML avec Java – Guide complet étape par étape](./extract-text-from-html-with-java-complete-step-by-step-guide/)
+Apprenez à extraire du texte d'un document HTML en Java avec Aspose.HTML grâce à ce guide complet étape par étape.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+

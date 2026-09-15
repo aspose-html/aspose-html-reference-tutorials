@@ -75,3 +75,30 @@ Lär dig hur du hämtar JSON-data i Java och genererar dynamiskt HTML-innehåll 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Extrahera text från HTML med Java – Komplett steg‑för‑steg‑guide](./extract-text-from-html-with-java-complete-step-by-step-guide/)
+Lär dig hur du extraherar text från HTML-dokument i Java med en detaljerad steg‑för‑steg‑guide.
+### [Hur man parsar HTML i Java – Ladda, fråga & räkna element](./how-to-parse-html-java-load-query-count-elements/)
+Lär dig hur du laddar, frågar och räknar HTML-element i Java med Aspose.HTML i denna steg-för-steg-guide.
+### [Kör asynkron JavaScript i Java – Komplett steg‑för‑steg‑guide](./execute-async-javascript-in-java-complete-step-by-step-guide/)
+Lär dig hur du kör asynkron JavaScript i Java med Aspose.HTML, komplett steg‑för‑steg‑guide för smidig integration.
+### [Iterera över NodeList i Java – Komplett guide](./iterate-over-nodelist-java-complete-guide/)
+Lär dig hur du itererar över NodeList i Java med en komplett steg‑för‑steg‑guide.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Generera HTML från JavaScript i Java – Komplett steg‑för‑steg‑guide](./generate-html-from-javascript-in-java-complete-step-by-step/)
+Lär dig hur du kör JavaScript för att generera HTML i Java med vår detaljerade steg‑för‑steg‑guide.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Iterera NodeList i Java – Läs HTML och hämta bild‑src](./iterate-nodelist-java-read-html-get-image-src/)
+Lär dig hur du itererar en NodeList i Java för att läsa HTML och extrahera bild‑src‑attributen.
+

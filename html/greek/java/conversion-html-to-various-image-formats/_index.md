@@ -108,6 +108,24 @@ weight: 24
 ### [Πώς να δημιουργήσετε GIF από SVG – Οδηγός Java βήμα‑βήμα](./how-to-create-gif-from-svg-step-by-step-java-guide/)
 ### [Πώς να δημιουργήσετε μικρογραφία από HTML – Οδηγός Java](./how-to-generate-thumbnail-from-html-java-guide/)
 
+### [Πώς να αποδώσετε HTML σε PNG – Πλήρης Οδηγός για Προγραμματιστές Java](./how-to-render-html-to-png-complete-guide-for-java-developers/)
+Μάθετε πώς να αποδώσετε HTML σε PNG με Aspose.HTML for Java, βήμα‑βήμα οδηγός για προγραμματιστές Java.
+### [Δημιουργία PNG από HTML σε Java – Πλήρης Οδηγός Βήμα‑βήμα](./create-png-from-html-in-java-full-step-by-step-guide/)
+Μάθετε πώς να δημιουργήσετε PNG από HTML σε Java με πλήρη οδηγό βήμα‑βήμα.
+### [Δημιουργία PNG από HTML – Εξαγωγή SVG υψηλής DPI σε Java](./create-png-from-html-high-dpi-svg-export-in-java/)
+Μάθετε πώς να δημιουργήσετε PNG υψηλής ανάλυσης από HTML εξάγοντας SVG με υψηλό DPI χρησιμοποιώντας Aspose.HTML for Java.
+### [Δημιουργία PNG από HTML – Γρήγορη Μαζική Μετατροπή Χρησιμοποιώντας Πισίνα Νημάτων](./create-png-from-html-fast-batch-conversion-using-a-thread-po/)
+Μάθετε πώς να δημιουργείτε γρήγορα PNG από HTML σε δέσμες χρησιμοποιώντας πισίνα νημάτων για υψηλή απόδοση.
+### [Πώς να ορίσετε DPI – Απόδοση HTML σε PNG με AsposeHTML](./how-to-set-dpi-render-html-to-png-with-asposehtml/)
+### [Μετατροπή HTML σε WebP](./convert-html-to-webp-java-guide-to-save-html-as-webp/)
+### [Πώς να καταγράψετε στιγμιότυπο οθόνης μιας ιστοσελίδας με το Aspose HTML – οδηγός Java](./how-to-capture-screenshot-of-a-webpage-with-aspose-html-java/)
+
+### [Δημιουργία PNG από SVG σε Java – Πλήρης Οδηγός Βήμα‑βήμα](./create-png-from-svg-in-java-complete-step-by-step-guide/)
+### [Απόδοση υψηλής ανάλυσης DPI σε Java – Λήψη στιγμιότυπων ιστοσελίδας με προσαρμοσμένο User Agent](./high-dpi-rendering-in-java-capture-webpage-screenshots-with/)
+Μάθετε πώς να αποδίδετε ιστοσελίδες σε υψηλή ανάλυση DPI και να λαμβάνετε στιγμιότυπα με προσαρμοσμένο User Agent χρησιμοποιώντας Aspose.HTML for Java.
+### [Πώς να ορίσετε DPI κατά τη μετατροπή HTML σε PNG – Πλήρης Οδηγός](./how-to-set-dpi-when-converting-html-to-png-complete-guide/)
+Μάθετε πώς να ορίσετε το DPI κατά τη μετατροπή HTML σε PNG χρησιμοποιώντας Aspose.HTML for Java.
+### [Μετατροπή HTML σε PNG με ορισμό μέγιστης χρήσης μνήμης σε Java](./convert-html-to-png-with-set-max-memory-usage-in-java/)
 ## Συχνές Ερωτήσεις
 
 **Ε: Μπορώ να μετατρέψω HTML σε PNG χρησιμοποιώντας Java χωρίς πρόσθετες βιβλιοθήκες εικόνας;**  

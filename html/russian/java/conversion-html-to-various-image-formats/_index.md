@@ -119,6 +119,25 @@ weight: 24
 
 ### [Как сгенерировать миниатюру из HTML – руководство Java](./how-to-generate-thumbnail-from-html-java-guide/)
 
+### [Как отрендерить HTML в PNG – Полное руководство для Java-разработчиков](./how-to-render-html-to-png-complete-guide-for-java-developers/)
+Полное руководство по рендерингу HTML в PNG для Java‑разработчиков с использованием Aspose.HTML, включая примеры кода и настройки.
+
+### [Создание PNG из HTML в Java – Полное пошаговое руководство](./create-png-from-html-in-java-full-step-by-step-guide/)
+
+### [Создание PNG из HTML – экспорт SVG с высоким DPI в Java](./create-png-from-html-high-dpi-svg-export-in-java/)
+Узнайте, как экспортировать SVG с высоким DPI и преобразовать его в PNG в Java с помощью Aspose.HTML.
+
+### [Создание PNG из SVG в Java – Полное пошаговое руководство](./create-png-from-svg-in-java-complete-step-by-step-guide/)
+Узнайте, как преобразовать SVG‑файлы в PNG в Java с помощью Aspose.HTML. Подробное пошаговое руководство.
+### [Как установить DPI при конвертации HTML в PNG – Полное руководство](./how-to-set-dpi-when-converting-html-to-png-complete-guide/)
+Подробное руководство по настройке DPI при конвертации HTML в PNG с помощью Aspose.HTML for Java, включая примеры кода и рекомендации.
+### [Визуализация с высоким DPI в Java – Захват скриншотов веб‑страниц с пользовательским User Agent](./high-dpi-rendering-in-java-capture-webpage-screenshots-with/)
+### [Создание PNG из HTML – Быстрая пакетная конверсия с использованием пула потоков](./create-png-from-html-fast-batch-conversion-using-a-thread-po/)
+Узнайте, как эффективно генерировать PNG‑изображения из HTML, используя пул потоков для быстрой пакетной конверсии.
+### [Преобразование HTML в PNG с ограничением памяти в Java](./convert-html-to-png-with-set-max-memory-usage-in-java/)
+### [Преобразование HTML в WebP](./convert-html-to-webp-java-guide-to-save-html-as-webp/)
+### [Как захватить скриншот веб-страницы с Aspose HTML – руководство для Java](./how-to-capture-screenshot-of-a-webpage-with-aspose-html-java/)
+
 ## Часто задаваемые вопросы
 
 **В: Можно ли конвертировать HTML в PNG с помощью Java без дополнительных библиотек для работы с изображениями?**  

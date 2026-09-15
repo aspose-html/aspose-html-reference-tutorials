@@ -1,0 +1,7 @@
+Title: convert html to png – Batch Export Guide for Java
+Slug: convert-html-to-png-batch-export-guide-for-java
+Category: conversion-html-to-various-image-formats
+ProcessedDate: 2026-06-29T11:28:59.656897
+SourceRepo: AI Search API
+Keywords: convert html to png, convert multiple html files, how to batch export images, parallel processing thread pool, set image resolution dpi
+PRNumber: 196

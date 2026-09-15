@@ -1,0 +1,7 @@
+Title: How to Use Aspose – Convert HTML to Markdown and Extract Links
+Slug: how-to-use-aspose-convert-html-to-markdown-and-extract-links
+Category: general
+ProcessedDate: 2026-06-16T19:42:34.303959
+SourceRepo: AI Search API
+Keywords: how to use aspose, convert html to markdown, extract links from html, html to markdown file, extract paragraphs from html
+PRNumber: 184

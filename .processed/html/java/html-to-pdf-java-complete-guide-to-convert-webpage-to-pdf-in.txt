@@ -1,0 +1,7 @@
+Title: html to pdf java: Complete Guide to Convert Webpage to PDF in One Line
+Slug: html-to-pdf-java-complete-guide-to-convert-webpage-to-pdf-in
+Category: conversion-html-to-other-formats
+ProcessedDate: 2026-05-25T20:44:21.795632
+SourceRepo: AI Search API
+Keywords: html to pdf java, convert webpage to pdf, generate pdf from html, convert html to pdf, html file to pdf
+PRNumber: 161

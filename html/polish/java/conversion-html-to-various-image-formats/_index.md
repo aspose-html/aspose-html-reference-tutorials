@@ -113,6 +113,29 @@ Dowiedz się, jak łatwo konwertować HTML do TIFF przy użyciu Aspose.HTML for 
 
 ### [Konwertowanie HTML do WebP – Kompletny przewodnik Java z Aspose.HTML](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
 
+### [Jak ustawić DPI – renderowanie HTML do PNG przy użyciu AsposeHTML](./how-to-set-dpi-render-html-to-png-with-asposehtml/)
+
+### [Utwórz PNG z HTML – eksport SVG w wysokim DPI w Javie](./create-png-from-html-high-dpi-svg-export-in-java/)
+Dowiedz się, jak wygenerować PNG z HTML przy użyciu eksportu SVG w wysokiej rozdzielczości w Javie.
+
+### [Jak renderować HTML do PNG – Kompletny przewodnik dla programistów Java](./how-to-render-html-to-png-complete-guide-for-java-developers/)
+Kompletny przewodnik, jak przy użyciu Aspose.HTML w Javie renderować HTML do plików PNG, krok po kroku.
+
+### [Utwórz PNG z HTML w Javie – Pełny przewodnik krok po kroku](./create-png-from-html-in-java-full-step-by-step-guide/)
+Pełny przewodnik, jak wygenerować plik PNG z kodu HTML w Javie przy użyciu Aspose.HTML, krok po kroku.
+
+### [Create PNG from SVG in Java – Complete Step‑by‑Step Guide](./create-png-from-svg-in-java-complete-step-by-step-guide/)
+Dowiedz się, jak przy użyciu Aspose.HTML for Java przekształcić plik SVG w obraz PNG w kilku prostych krokach.
+### [Jak ustawić DPI przy konwertowaniu HTML do PNG – Kompletny przewodnik](./how-to-set-dpi-when-converting-html-to-png-complete-guide/)
+### [Renderowanie w wysokim DPI w Javie – Tworzenie zrzutów ekranu stron internetowych z niestandardowym User Agent](./high-dpi-rendering-in-java-capture-webpage-screenshots-with/)
+### [Utwórz PNG z HTML – szybka konwersja wsadowa przy użyciu puli wątków](./create-png-from-html-fast-batch-conversion-using-a-thread-po/)
+### [Konwertowanie HTML do PNG z ustawionym maksymalnym zużyciem pamięci w Javie](./convert-html-to-png-with-set-max-memory-usage-in-java/)
+Dowiedz się, jak konwertować HTML do PNG w Javie, ograniczając maksymalne zużycie pamięci, używając Aspose.HTML.
+### [Convert HTML to WebP – Java Guide to Save HTML as WebP](./convert-html-to-webp-java-guide-to-save-html-as-webp/)
+Dowiedz się, jak konwertować HTML do formatu WebP w Javie przy użyciu Aspose.HTML. Przewodnik krok po kroku.
+
+### [Jak przechwycić zrzut ekranu strony internetowej przy użyciu Aspose HTML – przewodnik Java](./how-to-capture-screenshot-of-a-webpage-with-aspose-html-java/)
+
 ## Najczęściej zadawane pytania
 
 **Q: Czy mogę konwertować HTML do PNG w Javie bez dodatkowych bibliotek graficznych?**  
