@@ -42,8 +42,6 @@ Aspose.HTML for Java 為旨在在 Java 應用程式中無縫處理 HTML 文件�
 最後，對於那些希望進一步提高技能的人來說，有大量的高級主題可供探索。了解如何管理 SVG 文件或處理文件載入事件以建立響應式動態 Web 應用程式。這些教學將帶您超越 HTML，深入了解可擴展向量圖形 (SVG) 和事件驅動程式設計的複雜性。[閱讀更多](./create-manage-svg-documents/)
 
 ## 在 Aspose.HTML for Java 教程中建立和管理 HTML 文件
-
-
 ### [在 Aspose.HTML for Java 中非同步建立 HTML 文檔](./create-html-documents-async/)
 使用 Aspose.HTML for Java 掌握非同步 HTML 文件建立。包含逐步指南、提示和常見問題解答，可幫助您快速學習。
 ### [在 Aspose.HTML for Java 中建立空 HTML 文檔](./create-empty-html-documents/)
@@ -60,8 +58,8 @@ Aspose.HTML for Java 為旨在在 Java 應用程式中無縫處理 HTML 文件�
 了解如何使用 Aspose.HTML 從 Java 中的 URL 輕鬆載入 HTML 文件。包括逐步教程。
 ### [使用 Aspose.HTML for Java 產生新的 HTML 文檔](./generate-new-html-documents/)
 透過這個簡單的逐步指南，了解如何使用 Aspose.HTML for Java 建立新的 HTML 文件。開始產生動態 HTML 內容。
-### [在 Java 中從 JavaScript 產生 HTML – 完整逐步指南](./generate-html-from-javascript-in-java-complete-step-by-step/)
-使用 Aspose.HTML for Java，從 JavaScript 生成 HTML，提供完整的逐步說明與範例，幫助您快速上手。
+### [使用 Java 建立 HTML 文檔 – 抓取 JSON 並生成內容](./create-html-document-with-java-fetch-json-and-generate-conte/)
+學習如何使用 Aspose.HTML for Java 從 JSON 資料抓取並動態生成 HTML 內容的完整步驟。
 ### [在 Aspose.HTML for Java 中處理文件載入事件](./handle-document-load-events/)
 透過此逐步指南，了解如何處理 Aspose.HTML for Java 中的文件載入事件。增強您的網頁應用程式。
 ### [在 Aspose.HTML for Java 中建立和管理 SVG 文檔](./create-manage-svg-documents/)
@@ -70,6 +68,15 @@ Aspose.HTML for Java 為旨在在 Java 應用程式中無縫處理 HTML 文件�
 本指南說明如何在 Java 中使用 Aspose.HTML 建立安全的 HTML 沙盒環境，提供逐步說明。
 ### [在 Java 中查詢 HTML – 完整教學](./how-to-query-html-in-java-complete-tutorial/)
 學習使用 Aspose.HTML for Java 查詢 HTML 結構與內容的完整步驟，涵蓋選擇器、XPath 及實作範例。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [在 Java 中從 JavaScript 產生 HTML – 完整逐步指南](./generate-html-from-javascript-in-java-complete-step-by-step/)
+使用 Aspose.HTML for Java，從 JavaScript 生成 HTML，提供完整的逐步說明與範例，幫助您快速上手。
 ### [如何在 Java 中解析 HTML – 載入、查詢與計數元素](./how-to-parse-html-java-load-query-count-elements/)
 使用 Aspose.HTML for Java，學習在 Java 中載入 HTML、查詢元素並統計其數量的完整步驟指南。
 ### [在 Java 中執行非同步 JavaScript – 完整逐步指南](./execute-async-javascript-in-java-complete-step-by-step-guide/)
@@ -101,3 +108,4 @@ Aspose.HTML for Java 為旨在在 Java 應用程式中無縫處理 HTML 文件�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+

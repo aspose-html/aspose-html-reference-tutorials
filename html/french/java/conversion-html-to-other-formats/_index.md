@@ -154,6 +154,8 @@ Apprenez à définir la taille de page PDF lors de la conversion HTML en PDF ave
 ### [Tutoriel HTML vers PDF : Convertir des pages Web en PDF avec Java](./html-to-pdf-tutorial-convert-web-pages-to-pdf-with-java/)
 Apprenez à convertir des pages Web en PDF avec Java en utilisant Aspose.HTML. Générez des PDF de haute qualité à partir de HTML.
 
+### [Convert HTML to PDF in Java – Complete Guide with Font Embedding](./convert-html-to-pdf-in-java-complete-guide-with-font-embeddi/)
+
 ## Foire aux questions
 
 **Q : Puis-je utiliser Aspose.HTML for Java dans une application commerciale ?**  

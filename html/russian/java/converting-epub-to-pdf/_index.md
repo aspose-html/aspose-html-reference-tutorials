@@ -46,7 +46,6 @@ weight: 27
 Откройте потенциал вашего цифрового контента с Aspose.HTML for Java. Начните путь конвертации EPUB в PDF прямо сейчас.
 
 ## Учебные материалы по конвертации EPUB в PDF
-
 ### [Конвертация EPUB в PDF](./convert-epub-to-pdf/)
 Откройте конвертацию EPUB в PDF с помощью Aspose.HTML for Java, мощной Java‑библиотеки. Создавайте доступный контент без усилий.
 ### [Указание пользовательского провайдера потоков для EPUB в PDF](./convert-epub-to-pdf-specify-custom-stream-provider/)
@@ -71,6 +70,9 @@ weight: 27
 Научитесь использовать Aspose.HTML for Java: конвертация EPUB в изображение и не только. Изучите наше пошаговое руководство.
 ### [Конвертация EPUB в изображение](./convert-epub-to-image/)
 Узнайте, как конвертировать EPUB в изображения с помощью Aspose.HTML for Java. Преобразуйте ваш цифровой контент без усилий. Включено пошаговое руководство.
+### [Как встроить шрифты в PDF с помощью Aspose HTML – руководство по конвертации EPUB в PDF](./how-to-embed-fonts-in-pdf-using-aspose-html-convert-epub-to/)
+Узнайте, как добавить шрифты в PDF при конвертации EPUB с Aspose.HTML for Java, обеспечивая корректное отображение текста.
+
 ### [Конвертация EPUB в PDF с Java – пошаговое руководство](./convert-epub-to-pdf-with-java-step-by-step-guide/)
 Пошаговое руководство по конвертации EPUB в PDF с помощью Java и Aspose.HTML for Java.
 

@@ -99,6 +99,9 @@ Tìm hiểu cách thiết lập kích thước trang, độ phân giải khi chu
 ### [Đặt kích thước trang PDF trong Java – Hướng dẫn đầy đủ HTML sang PDF](./set-pdf-page-size-in-java-complete-html-to-pdf-guide/)
 Hướng dẫn cách thiết lập kích thước trang PDF khi chuyển đổi HTML sang PDF trong Java bằng Aspose.HTML.
 
+### [Chuyển đổi HTML sang PDF trong Java – Hướng dẫn chi tiết với nhúng phông chữ](./convert-html-to-pdf-in-java-complete-guide-with-font-embeddi/)
+Hướng dẫn toàn diện cách chuyển đổi HTML sang PDF trong Java, bao gồm nhúng phông chữ để bảo đảm tài liệu hiển thị đúng trên mọi thiết bị.
+
 ### [Chuyển đổi HTML sang MHTML](./convert-html-to-mhtml/)
 Chuyển đổi HTML sang MHTML một cách dễ dàng bằng Aspose.HTML for Java. Thực hiện theo hướng dẫn từng bước để chuyển đổi HTML‑to‑MHTML hiệu quả.
 ### [Chuyển đổi HTML sang XPS](./convert-html-to-xps/)

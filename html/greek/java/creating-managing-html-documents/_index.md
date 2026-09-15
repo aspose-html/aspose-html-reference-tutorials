@@ -42,7 +42,6 @@ url: /el/java/creating-managing-html-documents/
  Τέλος, για όσους θέλουν να προωθήσουν ακόμη περισσότερο τις δεξιότητές τους, υπάρχει πληθώρα προηγμένων θεμάτων προς εξερεύνηση. Μάθετε πώς να διαχειρίζεστε έγγραφα SVG ή να χειρίζεστε συμβάντα φόρτωσης εγγράφων για να δημιουργείτε αποκριτικές και δυναμικές εφαρμογές web. Αυτά τα σεμινάρια σας πηγαίνουν πέρα από την HTML, βουτώντας στις περιπλοκές των κλιμακούμενων διανυσματικών γραφικών (SVG) και του προγραμματισμού που βασίζεται σε εκδηλώσεις.[Διαβάστε περισσότερα](./create-manage-svg-documents/)
 
 ## Δημιουργία και διαχείριση εγγράφων HTML στο Aspose.HTML for Java Tutorials
-
 ### [Δημιουργία εγγράφων HTML ασύγχρονα στο Aspose.HTML για Java](./create-html-documents-async/)
 Κύρια δημιουργία εγγράφων HTML ασύγχρονα με το Aspose.HTML για Java. Οδηγός βήμα προς βήμα, συμβουλές και συχνές ερωτήσεις περιλαμβάνονται για γρήγορη εκμάθηση.
 ### [Δημιουργήστε κενά έγγραφα HTML στο Aspose.HTML για Java](./create-empty-html-documents/)
@@ -55,12 +54,10 @@ url: /el/java/creating-managing-html-documents/
 Μάθετε πώς να φορτώνετε έγγραφα HTML από ροές χρησιμοποιώντας το Aspose.HTML για Java. Αυτός ο οδηγός παρέχει έναν οδηγό βήμα προς βήμα για απρόσκοπτη επεξεργασία HTML.
 ### [Δημιουργήστε έγγραφα HTML από το String στο Aspose.HTML για Java](./create-html-documents-from-string/)
 Μάθετε πώς να δημιουργείτε έγγραφα HTML από συμβολοσειρές στο Aspose.HTML για Java με αυτόν τον οδηγό βήμα προς βήμα.
-### [Δημιουργία HTML από JavaScript σε Java – Πλήρης Οδηγός Βήμα‑βήμα](./generate-html-from-javascript-in-java-complete-step-by-step/)
-Μάθετε πώς να δημιουργείτε HTML από κώδικα JavaScript σε εφαρμογές Java χρησιμοποιώντας το Aspose.HTML, με αναλυτικό βήμα‑βήμα οδηγό.
+### [Δημιουργία εγγράφου HTML με Java – Λήψη JSON και δημιουργία περιεχομένου](./create-html-document-with-java-fetch-json-and-generate-conte/)
+Μάθετε πώς να δημιουργήσετε ένα έγγραφο HTML σε Java, λαμβάνοντας δεδομένα JSON και δημιουργώντας δυναμικό περιεχόμενο HTML με οδηγίες βήμα‑βήμα.
 ### [Φόρτωση εγγράφων HTML από τη διεύθυνση URL στο Aspose.HTML για Java](./load-html-documents-from-url/)
 Ανακαλύψτε πώς να φορτώνετε εύκολα έγγραφα HTML από μια διεύθυνση URL σε Java με το Aspose.HTML. Περιλαμβάνεται σεμινάριο βήμα προς βήμα.
-### [Επανάληψη NodeList σε Java – Ανάγνωση HTML & Λήψη src εικόνας](./iterate-nodelist-java-read-html-get-image-src/)
-Μάθετε πώς να διατρέχετε έναν NodeList σε Java, να διαβάζετε HTML και να εξάγετε τη διεύθυνση src των εικόνων.
 ### [Δημιουργήστε νέα έγγραφα HTML χρησιμοποιώντας το Aspose.HTML για Java](./generate-new-html-documents/)
 Μάθετε πώς να δημιουργείτε νέα έγγραφα HTML χρησιμοποιώντας το Aspose.HTML για Java με αυτόν τον εύκολο, βήμα προς βήμα οδηγό. Ξεκινήστε τη δημιουργία δυναμικού περιεχομένου HTML.
 ### [Δημιουργία sandbox για HTML σε Java – Οδηγός βήμα‑βήμα](./create-sandbox-for-html-in-java-step-by-step-guide/)
@@ -71,6 +68,17 @@ url: /el/java/creating-managing-html-documents/
 Μάθετε να δημιουργείτε και να διαχειρίζεστε έγγραφα SVG χρησιμοποιώντας το Aspose.HTML για Java! Αυτός ο περιεκτικός οδηγός καλύπτει τα πάντα, από τη βασική δημιουργία έως την προηγμένη χειραγώγηση.
 ### [Πώς να ερωτήσετε HTML σε Java – Πλήρης οδηγός](./how-to-query-html-in-java-complete-tutorial/)
 Μάθετε πώς να εκτελείτε ερωτήματα σε έγγραφα HTML με Java χρησιμοποιώντας το Aspose.HTML, βήμα‑βήμα οδηγίες και παραδείγματα.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Δημιουργία HTML από JavaScript σε Java – Πλήρης Οδηγός Βήμα‑βήμα](./generate-html-from-javascript-in-java-complete-step-by-step/)
+Μάθετε πώς να δημιουργείτε HTML από κώδικα JavaScript σε εφαρμογές Java χρησιμοποιώντας το Aspose.HTML, με αναλυτικό βήμα‑βήμα οδηγό.
+### [Επανάληψη NodeList σε Java – Ανάγνωση HTML & Λήψη src εικόνας](./iterate-nodelist-java-read-html-get-image-src/)
+Μάθετε πώς να διατρέχετε έναν NodeList σε Java, να διαβάζετε HTML και να εξάγετε τη διεύθυνση src των εικόνων.
 ### [Πώς να αναλύσετε HTML σε Java – Φόρτωση, ερώτημα και καταμέτρηση στοιχείων](./how-to-parse-html-java-load-query-count-elements/)
 Μάθετε πώς να φορτώνετε, ερωτάτε και μετράτε στοιχεία HTML σε Java με το Aspose.HTML, βήμα‑βήμα οδηγός.
 ### [Εκτέλεση ασύγχρονης JavaScript σε Java – Πλήρης οδηγός βήμα‑βήμα](./execute-async-javascript-in-java-complete-step-by-step-guide/)
@@ -93,3 +101,4 @@ url: /el/java/creating-managing-html-documents/
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+

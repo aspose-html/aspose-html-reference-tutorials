@@ -82,30 +82,31 @@ Transformeer SVG‑graphics naar XPS‑formaat voor consistente afdrukken over a
 Kortom, het beheersen van **html to pdf java** en de bredere reeks conversies ontsluit krachtige document‑workflows voor elke Java‑ontwikkelaar. Aspose.HTML for Java biedt uitgebreide, gemakkelijk te volgen tutorials waarmee u HTML, Markdown en SVG kunt converteren naar de formaten die u nodig heeft, met hoge kwaliteit en volledige controle.
 
 ## Conversie - HTML naar Andere Formaten Tutorials
-
-
 ### [HTML naar PDF converteren](./convert-html-to-pdf/)
 Leer hoe u HTML naar PDF kunt converteren in Java met Aspose.HTML. Maak moeiteloos hoogwaardige PDF's van uw HTML‑inhoud.
-### [PDF maken van HTML in Java – Complete stapsgewijze gids](./create-pdf-from-html-in-java-complete-step-by-step-guide/)
-Leer hoe u stap‑voor‑stap een PDF maakt van HTML in Java met Aspose.HTML, inclusief volledige configuratie‑opties.
 ### [HTML naar PDF converteren in Java – Stapsgewijze gids met paginagrootte‑instellingen](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Leer stap voor stap hoe u HTML naar PDF converteert in Java en paginagrootte‑instellingen configureert voor optimale resultaten.
-### [PDF maken van HTML in Java – Stapsgewijze gids](./create-pdf-from-html-in-java-step-by-step-guide/)
-Leer stap‑voor‑stap hoe u PDF‑bestanden genereert vanuit HTML in Java met Aspose.HTML.
 ### [HTML naar MHTML converteren](./convert-html-to-mhtml/)
 Converteer HTML moeiteloos naar MHTML met Aspose.HTML for Java. Volg onze stap‑voor‑stap gids voor efficiënte HTML‑naar‑MHTML conversie.
 ### [HTML naar XPS converteren](./convert-html-to-xps/)
 Leer hoe u HTML moeiteloos naar XPS kunt converteren met Aspose.HTML for Java. Maak cross‑platform documenten met gemak.
 ### [Markdown naar HTML converteren](./convert-markdown-to-html/)
 Converteer Markdown naar HTML in Java naadloos met Aspose.HTML for Java. Volg onze stap‑voor‑stap gids om uw documentconversiebehoeften te stroomlijnen.
-### [Hoe offset instellen bij het converteren van HTML naar Markdown in Java](./how-to-set-offset-when-converting-html-to-markdown-in-java/)
-Leer hoe u een offset kunt instellen tijdens het omzetten van HTML naar Markdown met Aspose.HTML for Java.
 ### [SVG naar afbeelding converteren](./convert-svg-to-image/)
 Leer hoe u SVG naar afbeeldingen kunt converteren in Java met Aspose.HTML. Uitgebreide gids voor output van hoge kwaliteit.
 ### [SVG naar PDF converteren](./convert-svg-to-pdf/)
 Converteer SVG naar PDF in Java met Aspose.HTML. Een naadloze oplossing voor documentconversie van hoge kwaliteit.
 ### [SVG naar XPS converteren](./convert-svg-to-xps/)
 Leer hoe u SVG naar XPS kunt converteren met Aspose.HTML for Java. Eenvoudige, stap‑voor‑stap gids voor naadloze conversies.
+### [HTML naar PDF converteren in Java – Complete gids met lettertype‑inbedding](./convert-html-to-pdf-in-java-complete-guide-with-font-embeddi/)
+Leer hoe u HTML naar PDF converteert in Java met volledige lettertype‑inbedding voor nauwkeurige weergave.
+
+### [PDF maken van HTML in Java – Complete stapsgewijze gids](./create-pdf-from-html-in-java-complete-step-by-step-guide/)
+Leer hoe u stap‑voor‑stap een PDF maakt van HTML in Java met Aspose.HTML, inclusief volledige configuratie‑opties.
+### [PDF maken van HTML in Java – Stapsgewijze gids](./create-pdf-from-html-in-java-step-by-step-guide/)
+Leer stap‑voor‑stap hoe u PDF‑bestanden genereert vanuit HTML in Java met Aspose.HTML.
+### [Hoe offset instellen bij het converteren van HTML naar Markdown in Java](./how-to-set-offset-when-converting-html-to-markdown-in-java/)
+Leer hoe u een offset kunt instellen tijdens het omzetten van HTML naar Markdown met Aspose.HTML for Java.
 ### [Hoe PDF genereren vanuit Markdown in Java – Stapsgewijze gids](./how-to-generate-pdf-from-markdown-in-java-step-by-step-guide/)
 ### [HTML opslaan als PDF met Java – Complete gids met thread‑pool en sjablonen](./save-html-as-pdf-with-java-complete-guide-using-thread-pool/)
 Leer hoe u HTML naar PDF kunt converteren in Java met behulp van een thread‑pool en sjablonen voor efficiënte batchverwerking.

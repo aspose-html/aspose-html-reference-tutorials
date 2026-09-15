@@ -66,6 +66,8 @@ Aspose.HTML สำหรับ Java นำเสนอชุดเครื่�
 เรียนรู้วิธีจัดการเหตุการณ์โหลดเอกสารใน Aspose.HTML สำหรับ Java ด้วยคู่มือทีละขั้นตอนนี้ ปรับปรุงแอปพลิเคชันเว็บของคุณ
 ### [สร้างและจัดการเอกสาร SVG ใน Aspose.HTML สำหรับ Java](./create-manage-svg-documents/)
 เรียนรู้การสร้างและจัดการเอกสาร SVG โดยใช้ Aspose.HTML สำหรับ Java! คู่มือฉบับสมบูรณ์นี้ครอบคลุมทุกอย่างตั้งแต่การสร้างขั้นพื้นฐานจนถึงการจัดการขั้นสูง
+### [สร้างเอกสาร HTML ด้วย Java – ดึง JSON และสร้างเนื้อหา](./create-html-document-with-java-fetch-json-and-generate-conte/)
+เรียนรู้วิธีดึงข้อมูล JSON ใน Java แล้วสร้างเนื้อหา HTML อย่างอัตโนมัติด้วย Aspose.HTML
 ### [สร้าง sandbox สำหรับ HTML ใน Java – คู่มือทีละขั้นตอน](./create-sandbox-for-html-in-java-step-by-step-guide/)
 เรียนรู้วิธีสร้าง sandbox สำหรับ HTML ใน Java ด้วย Aspose.HTML ผ่านคู่มือทีละขั้นตอนที่เข้าใจง่าย
 ### [วิธีการสืบค้น HTML ใน Java – คู่มือฉบับสมบูรณ์](./how-to-query-html-in-java-complete-tutorial/)

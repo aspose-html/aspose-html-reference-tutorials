@@ -58,6 +58,8 @@ Aspose.HTML for Java を使用してストリームから HTML ドキュメン�
 このステップバイステップ ガイドを使用して、Aspose.HTML for Java で文字列から HTML ドキュメントを作成する方法を学習します。
 ### [Aspose.HTML for Java で URL から HTML ドキュメントを読み込む](./load-html-documents-from-url/)
 Aspose.HTML を使用して、Java で URL から HTML ドキュメントを簡単に読み込む方法を説明します。ステップバイステップのチュートリアルが含まれています。
+### [Java で HTML ドキュメントを作成 – JSON を取得してコンテンツを生成](./create-html-document-with-java-fetch-json-and-generate-conte/)
+Java で JSON データを取得し、動的に HTML コンテンツを生成する方法をステップバイステップで解説します。
 ### [Aspose.HTML for Java を使用して新しい HTML ドキュメントを生成する](./generate-new-html-documents/)
 この簡単なステップバイステップ ガイドで、Aspose.HTML for Java を使用して新しい HTML ドキュメントを作成する方法を学びます。動的な HTML コンテンツの生成を開始します。
 ### [Java で JavaScript から HTML を生成する – 完全ステップバイステップガイド](./generate-html-from-javascript-in-java-complete-step-by-step/)

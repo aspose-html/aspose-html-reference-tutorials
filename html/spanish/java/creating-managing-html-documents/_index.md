@@ -42,8 +42,6 @@ Cuando se trata de generar nuevos documentos HTML, Aspose.HTML para Java ofrece 
  Por último, para aquellos que buscan llevar sus habilidades aún más lejos, hay una gran cantidad de temas avanzados para explorar. Aprenda a administrar documentos SVG o a manejar eventos de carga de documentos para crear aplicaciones web dinámicas y responsivas. Estos tutoriales lo llevan más allá del HTML, profundizando en las complejidades de los gráficos vectoriales escalables (SVG) y la programación basada en eventos.[Leer más](./create-manage-svg-documents/)
 
 ## Creación y gestión de documentos HTML en Aspose.HTML para tutoriales de Java
-
-
 ### [Cree documentos HTML de forma asincrónica en Aspose.HTML para Java](./create-html-documents-async/)
 Domine la creación de documentos HTML de forma asincrónica con Aspose.HTML para Java. Guía paso a paso, consejos y preguntas frecuentes incluidas para un aprendizaje rápido.
 ### [Crear documentos HTML vacíos en Aspose.HTML para Java](./create-empty-html-documents/)
@@ -62,14 +60,23 @@ Aprenda a crear documentos HTML a partir de cadenas en Aspose.HTML para Java con
 Descubra cómo cargar fácilmente documentos HTML desde una URL en Java con Aspose.HTML. Incluye tutorial paso a paso.
 ### [Cómo consultar HTML en Java – Tutorial completo](./how-to-query-html-in-java-complete-tutorial/)
 Aprenda a consultar documentos HTML en Java usando Aspose.HTML con esta guía paso a paso completa.
-### [Cómo analizar HTML en Java – Cargar, consultar y contar elementos](./how-to-parse-html-java-load-query-count-elements/)
-Aprenda a cargar, consultar y contar elementos en documentos HTML usando Aspose.HTML para Java con esta guía paso a paso.
 ### [Generar nuevos documentos HTML con Aspose.HTML para Java](./generate-new-html-documents/)
 Aprenda a crear nuevos documentos HTML con Aspose.HTML para Java con esta sencilla guía paso a paso. Comience a generar contenido HTML dinámico.
 ### [Gestión de eventos de carga de documentos en Aspose.HTML para Java](./handle-document-load-events/)
 Aprenda a gestionar eventos de carga de documentos en Aspose.HTML para Java con esta guía paso a paso. Mejore sus aplicaciones web.
 ### [Crear y administrar documentos SVG en Aspose.HTML para Java](./create-manage-svg-documents/)
 Aprenda a crear y gestionar documentos SVG con Aspose.HTML para Java. Esta guía completa cubre todo, desde la creación básica hasta la manipulación avanzada.
+### [Crear documento HTML con Java – Obtener JSON y generar contenido](./create-html-document-with-java-fetch-json-and-generate-conte/)
+Aprenda a obtener datos JSON y generar contenido HTML dinámico en Java usando Aspose.HTML.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Cómo analizar HTML en Java – Cargar, consultar y contar elementos](./how-to-parse-html-java-load-query-count-elements/)
+Aprenda a cargar, consultar y contar elementos en documentos HTML usando Aspose.HTML para Java con esta guía paso a paso.
 ### [Ejecutar JavaScript asíncrono en Java – Guía completa paso a paso](./execute-async-javascript-in-java-complete-step-by-step-guide/)
 Aprenda a ejecutar JavaScript asíncrono en Java con Aspose.HTML mediante una guía paso a paso completa.
 
@@ -94,3 +101,4 @@ Aprenda a iterar un NodeList en Java para leer HTML y extraer la ruta src de las
 Aprenda a extraer texto de documentos HTML en Java con Aspose.HTML mediante esta guía paso a paso completa.
 ### [Iterar sobre NodeList Java – Guía completa](./iterate-over-nodelist-java-complete-guide/)
 Aprenda a iterar sobre NodeList en Java con Aspose.HTML mediante esta guía paso a paso completa.
+

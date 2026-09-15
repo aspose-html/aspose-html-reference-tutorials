@@ -42,12 +42,8 @@ Wenn es um die Generierung neuer HTML-Dokumente geht, bietet Aspose.HTML für Ja
  Und schließlich gibt es für alle, die ihre Fähigkeiten noch weiter vertiefen möchten, eine Fülle fortgeschrittener Themen zu entdecken. Erfahren Sie, wie Sie SVG-Dokumente verwalten oder Dokumentladeereignisse handhaben, um reaktionsfähige und dynamische Webanwendungen zu erstellen. Diese Tutorials führen Sie über HTML hinaus und tauchen in die Feinheiten von Scalable Vector Graphics (SVG) und ereignisgesteuerter Programmierung ein.[Mehr lesen](./create-manage-svg-documents/)
 
 ## Erstellen und Verwalten von HTML-Dokumenten in Aspose.HTML für Java-Tutorials
-
-
 ### [Erstellen Sie asynchron HTML-Dokumente in Aspose.HTML für Java](./create-html-documents-async/)
 Meistern Sie die asynchrone Erstellung von HTML-Dokumenten mit Aspose.HTML für Java. Schritt‑für‑Schritt‑Anleitung, Tipps und FAQs für schnelles Lernen enthalten.
-### [Ausführen von asynchronem JavaScript in Java – Komplett‑Schritt‑für‑Schritt‑Anleitung](./execute-async-javascript-in-java-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie asynchronen JavaScript-Code in Java ausführen, inklusive Setup, Code‑Beispiele und Best Practices.
 ### [Erstellen Sie leere HTML-Dokumente in Aspose.HTML für Java](./create-empty-html-documents/)
 Erfahren Sie mit unserem ausführlichen Schritt-für-Schritt-Tutorial, wie Sie mit Aspose.HTML leere HTML-Dokumente in Java erstellen. Es ist ideal für Entwickler aller Niveaus.
 ### [Laden Sie HTML-Dokumente aus einer Datei in Aspose.HTML für Java](./load-html-documents-from-file/)
@@ -57,7 +53,9 @@ Erfahren Sie in dieser Schritt‑für‑Schritt‑Anleitung, wie Sie HTML-Dokume
 ### [Laden Sie HTML-Dokumente aus dem Stream mit Aspose.HTML für Java](./load-html-documents-from-stream/)
 Erfahren Sie, wie Sie mit Aspose.HTML für Java HTML-Dokumente aus Streams laden. Diese Anleitung bietet eine Schritt‑für‑Schritt‑Anleitung zur nahtlosen HTML-Bearbeitung.
 ### [Erstellen Sie HTML-Dokumente aus Zeichenfolgen in Aspose.HTML für Java](./create-html-documents-from-string/)
-Erfahren Sie in dieser Schritt‑für‑Schritt‑Anleitung, wie Sie in Aspose.HTML für Java HTML-Dokumente aus Zeichenfolgen erstellen.
+Erfahren Sie in dieser Schritt‑für‑Schritt‑Anleitung, wie Sie in Aspose.HTML für Java HTML‑Dokumente aus Zeichenfolgen erstellen.
+### [HTML-Dokument mit Java erstellen – JSON abrufen und Inhalt generieren](./create-html-document-with-java-fetch-json-and-generate-conte/)
+Erfahren Sie, wie Sie mit Aspose.HTML für Java ein HTML‑Dokument erstellen, JSON‑Daten abrufen und dynamisch Inhalte generieren.
 ### [Laden Sie HTML-Dokumente von einer URL in Aspose.HTML für Java](./load-html-documents-from-url/)
 Entdecken Sie, wie Sie mit Aspose.HTML ganz einfach HTML-Dokumente von einer URL in Java laden. Schritt‑für‑Schritt‑Anleitung inklusive.
 ### [Generieren Sie neue HTML-Dokumente mit Aspose.HTML für Java](./generate-new-html-documents/)
@@ -70,6 +68,15 @@ Erfahren Sie, wie Sie SVG-Dokumente mit Aspose.HTML für Java erstellen und verw
 Erfahren Sie, wie Sie in Aspose.HTML für Java eine sichere Sandbox für HTML erstellen und verwalten – Schritt‑für‑Schritt‑Anleitung.
 ### [Wie man HTML in Java abfragt – Komplettes Tutorial](./how-to-query-html-in-java-complete-tutorial/)
 Erfahren Sie, wie Sie HTML-Inhalte in Java abfragen und verarbeiten – Schritt‑für‑Schritt‑Anleitung für vollständiges Verständnis.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Ausführen von asynchronem JavaScript in Java – Komplett‑Schritt‑für‑Schritt‑Anleitung](./execute-async-javascript-in-java-complete-step-by-step-guide/)
+Erfahren Sie, wie Sie asynchronen JavaScript-Code in Java ausführen, inklusive Setup, Code‑Beispiele und Best Practices.
 ### [HTML in Java parsen – Laden, Abfragen & Elemente zählen](./how-to-parse-html-java-load-query-count-elements/)
 Erfahren Sie, wie Sie HTML in Java laden, Elemente abfragen und deren Anzahl bestimmen – Schritt‑für‑Schritt‑Anleitung.
 
@@ -100,3 +107,4 @@ Erfahren Sie in dieser Schritt‑für‑Schritt‑Anleitung, wie Sie Text aus HT
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+

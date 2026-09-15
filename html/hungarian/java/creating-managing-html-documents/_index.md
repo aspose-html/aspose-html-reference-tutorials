@@ -72,6 +72,8 @@ Ezzel a lépésről lépésre útmutatóval ismerkedjen meg a dokumentumbetölt�
 Ismerje meg az SVG dokumentumok létrehozását és kezelését az Aspose.HTML for Java segítségével! Ez az átfogó útmutató az alapvető alkotástól a haladó manipulációig mindent lefed.
 ### [HTML sandbox létrehozása Java-ban – Lépésről‑lépésre útmutató](./create-sandbox-for-html-in-java-step-by-step-guide/)
 Ismerje meg, hogyan hozhat létre biztonságos sandbox környezetet HTML feldolgozáshoz Java-ban, részletes lépésekkel.
+### [HTML-dokumentum létrehozása Java-val – JSON lekérése és tartalom generálása](./create-html-document-with-java-fetch-json-and-generate-conte/)
+Ismerje meg, hogyan hozhat létre HTML-dokumentumot Java-ban JSON adatok lekérésével és dinamikus tartalom generálásával.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -42,8 +42,6 @@ Yeni HTML belgeleri oluşturmaya gelince, Java için Aspose.HTML, sıfırdan zen
  Son olarak, becerilerini daha da ileri taşımak isteyenler için keşfedilecek çok sayıda gelişmiş konu var. Duyarlı ve dinamik web uygulamaları oluşturmak için SVG belgelerini nasıl yöneteceğinizi veya belge yükleme olaylarını nasıl ele alacağınızı öğrenin. Bu eğitimler sizi HTML'nin ötesine götürerek Ölçeklenebilir Vektör Grafikleri (SVG) ve olay odaklı programlamanın inceliklerine daldırır.[Devamını oku](./create-manage-svg-documents/)
 
 ## Aspose.HTML for Java'da HTML Belgeleri Oluşturma ve Yönetme Eğitimleri
-
-
 ### [Java için Aspose.HTML'de HTML Belgelerini Eşzamansız Olarak Oluşturun](./create-html-documents-async/)
 Java için Aspose.HTML ile asenkron olarak HTML belge oluşturma konusunda uzmanlaşın. Hızlı öğrenme için adım adım kılavuz, ipuçları ve SSS dahildir.
 ### [Java için Aspose.HTML'de Boş HTML Belgeleri Oluşturma](./create-empty-html-documents/)
@@ -67,6 +65,16 @@ Java için Aspose.HTML kullanarak SVG belgeleri oluşturmayı ve yönetmeyi öğ
 ### [Java için Aspose.HTML'de HTML sandbox oluşturma – Adım adım kılavuz](./create-sandbox-for-html-in-java-step-by-step-guide/)
 Java için Aspose.HTML kullanarak HTML sandbox oluşturmayı adım adım öğrenin.
 ### [Java için Aspose.HTML'de HTML Sorgulama – Tam Kılavuz](./how-to-query-html-in-java-complete-tutorial/)
+Java için Aspose.HTML kullanarak HTML içeriğini nasıl sorgulayacağınızı adım adım öğrenin.
+### [Java ile HTML Belgesi Oluşturma – JSON Getir ve İçerik Üret](./create-html-document-with-java-fetch-json-and-generate-conte/)
+Java için Aspose.HTML ile JSON verilerini çekip dinamik HTML içeriği oluşturmayı adım adım öğrenin.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 ### [Java için Aspose.HTML'de HTML'i Java'da Ayrıştırma – Yükleme, Sorgulama ve Eleman Sayma](./how-to-parse-html-java-load-query-count-elements/)
 ### [Java'da Asenkron JavaScript Çalıştırma – Adım Adım Tam Kılavuz](./execute-async-javascript-in-java-complete-step-by-step-guide/)
 
@@ -105,3 +113,4 @@ Java için Aspose.HTML kullanarak HTML'den metin çıkarma konusunda adım adım
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+

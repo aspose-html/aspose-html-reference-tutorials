@@ -143,6 +143,9 @@ Aspose.HTML for Java упрощает процесс конвертации HTML
 ### [Установить размер страницы PDF в Java – Полное руководство по конвертации HTML в PDF](./set-pdf-page-size-in-java-complete-html-to-pdf-guide/)
 Узнайте, как задать размер страницы PDF при конвертации HTML в PDF с помощью Aspose.HTML for Java.
 
+### [Конвертация HTML в PDF в Java – Полное руководство с внедрением шрифтов](./convert-html-to-pdf-in-java-complete-guide-with-font-embeddi/)
+Полное руководство по конвертации HTML в PDF в Java с внедрением шрифтов для обеспечения корректного отображения текста.
+
 ## Часто задаваемые вопросы
 
 **Q: Можно ли использовать Aspose.HTML for Java в коммерческом приложении?**  
