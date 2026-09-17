@@ -92,6 +92,9 @@ Scopri come comprimere file HTML in un archivio ZIP usando C# e Aspose.HTML per 
 ### [Salva HTML come ZIP in C# – Guida completa passo‑per‑passo](./save-html-as-zip-in-c-complete-step-by-step-guide/)
 Scopri come comprimere file HTML in un archivio ZIP usando C# con Aspose.HTML, passo dopo passo.
 
+### [Come salvare HTML come archivio ZIP usando Aspose.HTML in C#](./how-to-save-html-as-zip-archive-using-aspose-html-in-c/)
+Scopri come comprimere un documento HTML in un archivio ZIP con Aspose.HTML per .NET usando C#.
+
 ## Conclusione
 
 In conclusione, le estensioni e le conversioni HTML sono elementi essenziali dello sviluppo web moderno. Aspose.HTML per .NET semplifica il processo e lo rende accessibile a sviluppatori di tutti i livelli. Seguendo i nostri tutorial, sarai sulla buona strada per diventare un sviluppatore web competente con un ampio set di competenze.
