@@ -89,7 +89,9 @@ Leer hoe u HTML naar ZIP converteert in C# met Aspose.HTML. Volg onze stap‑voo
 ### [Hoe HTML te zippen in C# – Complete stapsgewijze handleiding](./how-to-zip-html-in-c-complete-step-by-step-guide/)
 Leer hoe u HTML-bestanden comprimeert tot een ZIP‑archief met C# en Aspose.HTML. Volg de volledige stap‑voor‑stap‑handleiding.
 ### [HTML opslaan als ZIP in C# – Complete stapsgewijze handleiding](./save-html-as-zip-in-c-complete-step-by-step-guide/)
-Leer hoe u HTML opslaat als ZIP-bestand in C# met Aspose.HTML. Volg onze stapsgewijze handleiding voor eenvoudige implementatie.
+Leer hoe u HTML opslaat als ZIP‑bestand in C# met Aspose.HTML. Volg onze stapsgewijze handleiding voor eenvoudige implementatie.
+### [HTML opslaan als ZIP‑archief met Aspose.HTML in C#](./how-to-save-html-as-zip-archive-using-aspose-html-in-c/)
+Leer hoe u HTML-bestanden comprimeert en opslaat als een ZIP‑archief met Aspose.HTML in C#.
 
 ## Conclusie
 

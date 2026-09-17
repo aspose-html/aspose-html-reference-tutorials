@@ -79,18 +79,16 @@ Aspose.HTML для .NET — это не просто библиотека; эт�
 Сохраните HTML в архив ZIP полностью в памяти с помощью Aspose.HTML для .NET, используя C#.
 ### [Пользовательский обработчик ресурсов в C# – Руководство по конвертации HTML в ZIP](./custom-resource-handler-in-c-convert-html-to-zip-tutorial/)
 Узнайте, как создать пользовательский обработчик ресурсов в C# для конвертации HTML‑страниц в архив ZIP с помощью Aspose.HTML.
-### [Конвертируйте HTML в PDF с помощью Aspose.HTML – Полное пошаговое руководство](./convert-html-to-pdf-with-aspose-html-full-step-by-step-guide/)
-Полное пошаговое руководство по конвертации HTML в PDF с использованием Aspose.HTML для .NET.
-### [Создайте zip‑файл C# – Пошаговое руководство по упаковке HTML в памяти](./create-zip-file-c-step-by-step-guide-to-zip-html-in-memory/)
-Создайте zip‑файл из HTML‑контента в памяти с помощью C#. Пошаговое руководство с примерами кода.
 ### [Конвертируйте HTML в ZIP в C# с помощью Aspose.HTML](./convert-html-to-zip-in-c-complete-guide/)
 Конвертируйте HTML в ZIP в C# без усилий с Aspose.HTML. Пошаговое руководство с примерами кода и настройками.
 ### [Как заархивировать HTML в C# – Полное пошаговое руководство](./how-to-zip-html-in-c-complete-step-by-step-guide/)
 Узнайте, как с помощью Aspose.HTML создать ZIP‑архив HTML‑файлов в C# шаг за шагом.
 ### [Создайте PDF из HTML в C# – Полное пошаговое руководство](./create-pdf-from-html-in-c-complete-step-by-step-guide/)
 Узнайте, как с помощью Aspose.HTML создать PDF из HTML в C# шаг за шагом.
-### [Сохраните HTML в ZIP в C# – Полное пошаговое руководство](./save-html-as-zip-in-c-complete-step-by-step-guide/)
+### [Сохраните HTML в ZIP в C# – Полный учебник](./save-html-as-zip-in-c-complete-step-by-step-guide/)
 Сохраните HTML в ZIP в C# с помощью Aspose.HTML для .NET. Пошаговое руководство с примерами кода и настройками.
+### [Сохраните HTML в ZIP‑архив с помощью Aspose.HTML в C#](./how-to-save-html-as-zip-archive-using-aspose-html-in-c/)
+Узнайте, как сохранить HTML‑страницу в ZIP‑архив с помощью Aspose.HTML в C#. Пошаговое руководство с примерами кода.
 
 ## Заключение
 

@@ -52,7 +52,20 @@ Leer hoe u met Aspose.HTML voor .NET HTML rendert naar PNG-afbeeldingen in C# me
 Leer stap voor stap PNG-afbeeldingen genereren vanuit HTML met een volledige C#-handleiding voor Aspose.HTML.
 ### [Genereer PNG vanuit HTML in C# – Render HTML naar PNG](./create-png-from-html-in-c-render-html-to-png/)
 Leer hoe u HTML naar PNG rendert in C# met Aspose.HTML, inclusief voorbeeldcode en renderinstellingen.
-
+### [HTML naar PNG renderen met Aspose.HTML in C#](./how-to-render-html-to-png-with-aspose-html-in-c/)
+Leer hoe u met Aspose.HTML in C# HTML rendert naar PNG-afbeeldingen, inclusief voorbeeldcode en renderinstellingen.
+### [PNG maken vanuit HTML met Aspose.HTML – Complete gids](./create-png-from-html-with-aspose-html-complete-guide/)
+Leer stap voor stap hoe u PNG-afbeeldingen genereert uit HTML met Aspose.HTML, inclusief instellingen en best practices.
+### [PNG maken vanuit HTML met Aspose.HTML – Stapsgewijze gids](./create-png-from-html-with-aspose-html-step-by-step-guide/)
+Leer stap voor stap hoe u PNG-afbeeldingen maakt vanuit HTML met Aspose.HTML, met duidelijke instructies en voorbeelden.
+### [Afbeelding maken vanuit HTML in C# – Stapsgewijze gids](./create-image-from-html-in-c-step-by-step-guide/)
+Leer hoe u met Aspose.HTML in C# een afbeelding genereert vanuit HTML, stap voor stap uitgelegd.
+### [DOCX naar PNG converteren in C# – Volledige stapsgewijze gids](./convert-docx-to-png-in-c-full-step-by-step-guide/)
+Leer hoe u een DOCX-bestand naar PNG converteert met een volledige stap‑voor‑stap handleiding in C# en Aspose.HTML.
+### [HTML naar PNG renderen in C# – Stapsgewijze gids](./render-html-to-png-in-c-step-by-step-guide/)
+Leer hoe u HTML naar PNG kunt renderen in C# met Aspose.HTML, inclusief codevoorbeelden en configuratie‑opties.
+### [PNG maken vanuit HTML in C# – Stapsgewijze handleiding](./create-png-from-html-in-c-step-by-step-guide/)
+Leer hoe u PNG-afbeeldingen genereert vanuit HTML met C# en Aspose.HTML in een gedetailleerde stap‑voor‑stap gids.
 ### [Hoe antialiasing in te schakelen bij het converteren van DOCX naar PNG/JPG](./how-to-enable-antialiasing-when-converting-docx-to-png-jpg/)
 Leer hoe u antialiasing inschakelt bij het omzetten van DOCX-bestanden naar PNG- of JPG-afbeeldingen met Aspose.HTML.
 ### [docx naar png converteren – zip-archief maken C#-tutorial](./convert-docx-to-png-create-zip-archive-c-tutorial/)

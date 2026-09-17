@@ -84,11 +84,13 @@ Aspose.HTML for .NET을 활용해 HTML을 PDF로 변환하는 전체 단계별 �
 ### [C#으로 zip 파일 만들기 – 메모리에서 HTML을 압축하는 단계별 가이드](./create-zip-file-c-step-by-step-guide-to-zip-html-in-memory/)
 C#을 사용해 메모리 내 HTML을 zip 파일로 압축하는 방법을 단계별로 안내합니다.
 ### [C#에서 HTML을 ZIP으로 변환 – 완전 가이드](./convert-html-to-zip-in-c-complete-guide/)
-Aspose.HTML for .NET을 활용해 HTML을 ZIP 파일로 압축하는 방법을 단계별로 안내합니다.
+Aspose.HTML for .NET을 활용해 HTML을 ZIP으로 압축하는 방법을 단계별로 안내합니다.
 ### [C#에서 HTML을 ZIP으로 압축하는 방법 – 완전 단계별 가이드](./how-to-zip-html-in-c-complete-step-by-step-guide/)
 Aspose.HTML for .NET을 사용하여 C#에서 HTML 파일을 ZIP으로 압축하는 방법을 단계별로 안내합니다.
 ### [C#에서 HTML을 ZIP으로 저장 – 완전 단계별 가이드](./save-html-as-zip-in-c-complete-step-by-step-guide/)
 Aspose.HTML for .NET을 사용하여 C#에서 HTML을 ZIP 파일로 저장하는 방법을 단계별로 안내합니다.
+### [C#에서 Aspose.HTML을 사용하여 HTML을 ZIP 아카이브로 저장하는 방법](./how-to-save-html-as-zip-archive-using-aspose-html-in-c/)
+Aspose.HTML for .NET을 활용해 C#에서 HTML 파일을 ZIP 압축 파일로 저장하는 단계별 가이드입니다.
 
 ## 결론
 
