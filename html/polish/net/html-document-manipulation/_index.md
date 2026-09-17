@@ -61,6 +61,8 @@ Dowiedz się, jak wykorzystać potencjał pakietu Aspose.HTML dla platformy .NET
 Uwolnij moc Aspose.HTML dla .NET. Naucz się łatwo tworzyć, manipulować i optymalizować dokumenty HTML i SVG. Poznaj przykłady krok po kroku i często zadawane pytania.
 ### [Edycja dokumentu w .NET za pomocą Aspose.HTML](./editing-a-document/)
 Twórz wciągające treści internetowe za pomocą Aspose.HTML dla .NET. Dowiedz się, jak manipulować HTML, CSS i nie tylko.
+### [Dodaj element do ciała – Kompletny przewodnik C# z Aspose.HTML](./append-element-to-body-complete-c-guide-with-aspose-html/)
+Dowiedz się, jak dodać element do sekcji body dokumentu HTML przy użyciu Aspose.HTML w C#.
 ### [Zapisywanie dokumentu w .NET za pomocą Aspose.HTML](./saving-a-document/)
 Odblokuj moc Aspose.HTML dla .NET dzięki naszemu przewodnikowi krok po kroku. Naucz się tworzyć, manipulować i konwertować dokumenty HTML i SVG
 ### [Łączenie HTML z Json w .NET za pomocą Aspose.HTML](./merge-html-with-json/)
@@ -69,6 +71,8 @@ Naucz się tworzyć dynamiczną i internetową zawartość przy użyciu Aspose.H
 Naucz się korzystać z Aspose.HTML dla .NET. Importuj przestrzenie nazw, scalaj HTML z XML i rozwijaj swoje umiejętności tworzenia stron internetowych dzięki temu kompleksowemu przewodnikowi.
 ### [Generuj dokumenty XPS przez XpsDevice w .NET z Aspose.HTML](./generate-xps-documents-by-xpsdevice/)
 Odblokuj potencjał rozwoju sieci z Aspose.HTML dla .NET. Twórz, konwertuj i manipuluj dokumentami HTML w prosty sposób.
+### [Tworzenie dokumentu HTML przy użyciu Aspose.HTML – przewodnik krok po kroku](./create-html-document-with-aspose-html-step-by-step-guide/)
+Dowiedz się, jak krok po kroku utworzyć dokument HTML przy użyciu Aspose.HTML w .NET, z praktycznymi przykładami i wskazówkami.
 ### [Tworzenie HTML z ciągu w C# – Przewodnik po niestandardowym obsługiwaniu zasobów](./create-html-from-string-in-c-custom-resource-handler-guide/)
 Dowiedz się, jak generować dokumenty HTML z łańcucha znaków w C# przy użyciu niestandardowego obsługiwacza zasobów w Aspose.HTML.
 ### [Pogrubienie i pochylenie tekstu w C# – szybki przewodnik po stylizacji HTML](./make-text-bold-italic-in-c-quick-guide-to-styling-html/)

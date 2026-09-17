@@ -1,0 +1,7 @@
+Title: convert docx to markdown with Python – Complete Step‑by‑Step Guide
+Slug: convert-docx-to-markdown-with-python-complete-step-by-step-g
+Category: general
+ProcessedDate: 2026-06-01T05:33:54.336511
+SourceRepo: AI Search API
+Keywords: convert docx to markdown, export word as markdown, how to convert word to markdown, convert word document markdown python
+PRNumber: 169

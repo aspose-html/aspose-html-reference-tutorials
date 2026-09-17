@@ -1,0 +1,7 @@
+Title: Create SVG Document – Step‑by‑Step Guide for Beginners
+Slug: create-svg-document-step-by-step-guide-for-beginners
+Category: general
+ProcessedDate: 2026-07-02T15:46:18.847345
+SourceRepo: AI Search API
+Keywords: create svg document, save svg file, how to generate svg, export svg from code, create basic svg image
+PRNumber: 200

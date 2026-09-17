@@ -1,12 +1,11 @@
 ---
-date: 2025-12-10
+date: 2026-02-10
 description: Dowiedz się, jak ustawić limit czasu w Aspose.HTML dla Javy, skonfigurować
-  usługę Runtime Service do konwersji HTML na PNG, zapobiegać nieskończonym pętlom
+  usługę Runtime Service do konwertowania HTML na PNG, zapobiegać nieskończonym pętlom
   i zwiększyć wydajność.
 linktitle: Configure Runtime Service in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
-title: Jak ustawić limit czasu w usłudze Aspose.HTML dla środowiska uruchomieniowego
-  Java
+title: Jak ustawić limit czasu w usłudze Aspose.HTML dla Java Runtime
 url: /pl/java/configuring-environment/configure-runtime-service/
 weight: 14
 ---
@@ -18,32 +17,35 @@ weight: 14
 # Jak ustawić limit czasu w usłudze Runtime Aspose.HTML dla Java
 
 ## Wprowadzenie
-Jeśli szukasz **jak ustawić limit czasu** dla skryptów podczas pracy z Aspose.HTML dla Java, trafiłeś we właściwe miejsce. Kontrola wykonywania skryptów nie tylko zapobiega nieskończonym pętlom, ale także pomaga **szybciej konwertować html na png** i utrzymać responsywność aplikacji. W tym samouczku przeprowadzimy Cię krok po kroku przez konfigurację usługi Runtime, ograniczenie wykonywania skryptów i ostateczne wygenerowanie obrazu PNG z HTML bez zawieszania programu.
+Jeśli szukasz **jak ustawić limit czasu** dla skryptów podczas pracy z Aspose.HTML dla Java, trafiłeś we właściwe miejsce. Kontrola wykonywania skryptów nie tylko zapobiega nieskończonym pętlom, ale także pomaga **szybciej konwertować html na png** i utrzymać responsywność aplikacji. W tym samouczku przeprowadzimy Cię krok po kroku przez konfigurację usługi Runtime, ograniczenie wykonywania skryptu i ostateczne wygenerowanie obrazu PNG z HTML bez zawieszania programu.
+
+## Jak ustawić limit czasu w usłudze Runtime Aspose.HTML
+Zrozumienie celu usługi Runtime ułatwia dostrzeżenie, dlaczego limit czasu jest niezbędny. Usługa działa jako piaskownica dla kodu po stronie klienta, dając możliwość zatrzymania wymykającego się JavaScriptu, zanim zużyje wszystkie cykle CPU. Ustawiając limit czasu chronisz serwer przed scenariuszami odmowy usługi (DoS) i zapewniasz, że **konwersja html do png** zakończy się w przewidywalnym czasie.
 
 ## Szybkie odpowiedzi
-- **Co robi usługa Runtime?** Pozwala kontrolować czas wykonywania skryptów i zarządzać zasobami podczas przetwarzania HTML.  
+- **Co robi usługa Runtime?** Umożliwia kontrolowanie czasu wykonywania skryptu i zarządzanie zasobami podczas przetwarzania HTML.  
 - **Jak ustawić limit czasu dla JavaScript?** Użyj `runtimeService.setJavaScriptTimeout(TimeSpan.fromSeconds(...))`.  
-- **Czy mogę zapobiec nieskończonym pętlom?** Tak – limit czasu przerywa pętle, które przekraczają określony limit.  
+- **Czy mogę zapobiec nieskończonym pętlom?** Tak – limit czasu zatrzymuje pętle przekraczające określony limit.  
 - **Czy ma to wpływ na konwersję HTML‑do‑PNG?** Nie, konwersja przebiega po zakończeniu skryptu lub jego przerwaniu przez limit czasu.  
-- **Jakiej wersji Aspose.HTML potrzebuję?** Najnowszej dostępnej na stronie pobierania Aspose.
+- **Jakiej wersji Aspose.HTML wymaga się?** Najnowszej dostępnej na stronie pobierania Aspose.  
 
 ## Wymagania wstępne
 Zanim przejdziemy do szczegółów, upewnij się, że masz następujące elementy:
 
 1. **Java Development Kit (JDK)** – zainstaluj go ze [strony Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).  
-2. **Biblioteka Aspose.HTML dla** – pobierz najnowszą wersję ze [strony wydań Aspose](https://releases.aspose.com/html/java/).  
+2. **Biblioteka Aspose.HTML dla Java** – pobierz najnowszą wersję ze [strony wydań Aspose](https://releases.aspose.com/html/java/).  
 3. **IDE** – IntelliJ IDEA, Eclipse lub NetBeans będą odpowiednie.  
-4. **Podstawowa znajomość Java i HTML** – niezbędna do zrozumienia fragmentów kodu.
+4. **Podstawowa znajomość Java i HTML** – niezbędna do śledzenia fragmentów kodu.
 
 ## Importowanie pakietów
-Najpierw zaimportuj klasy, które będą potrzebne. Import `java.io.IOException` jest wymagany do obsługi plików.
+Najpierw zaimportuj klasy, których będziesz potrzebować. Import `java.io.IOException` jest wymagany do obsługi plików.
 
 ```java
 import java.io.IOException;
 ```
 
 ## Krok 1: Utworzenie pliku HTML z kodem JavaScript
-Zaczniemy od wygenerowania prostego pliku HTML zawierającego pętlę JavaScript. Pętla ta działałaby w nieskończoność, gdyby nie wymuszony limit czasu, co czyni ją idealnym przykładem dla usługi Runtime.
+Zaczniemy od wygenerowania prostego pliku HTML zawierającego pętlę JavaScript. Ta pętla działałaby w nieskończoność, gdyby nie wymuszony limit czasu, co czyni ją idealnym przykładem dla usługi Runtime.
 
 ```java
 String code = "<h1>Runtime Service</h1>\r\n" +
@@ -65,7 +67,7 @@ com.aspose.html.Configuration configuration = new com.aspose.html.Configuration(
 ```
 
 ## Krok 3: Konfiguracja usługi Runtime
-Tutaj faktycznie **ustawiamy limit czasu**. Pobierając `IRuntimeService` z konfiguracji, możemy zdefiniować limit wykonywania JavaScript.
+Tutaj faktycznie **ustawiamy limit czasu**. Pobierając `IRuntimeService` z konfiguracji, możemy określić limit wykonywania JavaScriptu.
 
 ```java
 try {
@@ -77,7 +79,7 @@ try {
 - To także **ogranicza wykonywanie skryptu** dla wszelkiego ciężkiego kodu po stronie klienta.
 
 ## Krok 4: Załadowanie dokumentu HTML z konfiguracją
-Teraz wczytaj plik HTML używając konfiguracji, która zawiera naszą regułę limitu czasu.
+Teraz wczytaj plik HTML przy użyciu konfiguracji zawierającej naszą regułę limitu czasu.
 
 ```java
     com.aspose.html.HTMLDocument document = new com.aspose.html.HTMLDocument("runtime-service.html", configuration);
@@ -96,10 +98,10 @@ Po bezpiecznym załadowaniu dokumentu możemy **konwertować html na png**. Konw
     );
 ```
 
-- `ImageSaveOptions` instruuje Aspose.HTML, aby wyjściowym formatem był obraz PNG.  
+- `ImageSaveOptions` instruuje Aspose.HTML, aby wyeksportował obraz w formacie PNG.  
 - Powstały plik, **runtime-service_out.png**, przedstawia wyrenderowany HTML bez zawieszania aplikacji.
 
-## Krok 6: Zwolnienie zasobów
+## Krok 6: Czyszczenie zasobów
 Na koniec zwolnij obiekty, aby uwolnić pamięć i uniknąć wycieków.
 
 ```java
@@ -113,31 +115,36 @@ Na koniec zwolnij obiekty, aby uwolnić pamięć i uniknąć wycieków.
 }
 ```
 
-- Prawidłowe zwalnianie jest kluczowe w aplikacjach działających długo.
+- Poprawne zwalnianie jest kluczowe w aplikacjach działających długo.
 
-## Zakończenie
-Właśnie nauczyłeś się **ustawiać limit czasu** dla wykonywania JavaScript w Aspose.HTML dla Java, **zapobiegać nieskończonym pętlom** oraz **bezpiecznie konwertować html na png**. Konfigurując usługę Runtime zyskujesz precyzyjną kontrolę nad zachowaniem skryptów, co przekłada się na szybsze uruchamianie i bardziej niezawodne konwersje. Eksperymentuj z różnymi wartościami limitu, aby dopasować je do swoich obciążeń, a zauważysz wyraźny wzrost wydajności.
+## Dlaczego to ważne
+Ustawienie limitu czasu to nie tylko zabezpieczenie; bezpośrednio zwiększa niezawodność **konwersji html do png**. Gdy integrujesz Aspose.HTML w usłudze internetowej przetwarzającej HTML generowany przez użytkowników, złośliwy skrypt mógłby w przeciwnym razie zablokować wątek na nieokreślony czas. Skromny limit (np. 5 sekund) daje legalnym skryptom wystarczająco czasu, jednocześnie odcinając nadużycia.
+
+## Typowe pułapki i rozwiązywanie problemów
+- **Limit czasu zbyt krótki** – Złożone strony z wieloma zasobami mogą wymagać dłuższego limitu. Zwiększ wartość `TimeSpan`, jeśli obserwujesz przedwczesne przerwania.  
+- **Brak zwolnienia zasobów** – Zapomnienie o wywołaniu `dispose()` może prowadzić do wycieków pamięci natywnej, szczególnie przy przetwarzaniu wielu dokumentów w pętli.  
+- **Nieprawidłowy obiekt konfiguracji** – Zawsze pobieraj `IRuntimeService` z tej samej instancji `Configuration`, której używasz do ładowania dokumentu; w przeciwnym razie limit nie zostanie zastosowany.
 
 ## Najczęściej zadawane pytania
 
 **P: Jaki jest cel usługi Runtime w Aspose.HTML dla Java?**  
-O: Pozwala kontrolować czas wykonywania skryptów, pomagając **zapobiegać nieskończonym pętlom** i utrzymać responsywność konwersji.
+O: Umożliwia kontrolowanie czasu wykonywania skryptu, pomagając **zapobiegać nieskończonym pętlom** i utrzymać responsywność konwersji.
 
 **P: Jak mogę pobrać Aspose.HTML dla Java?**  
 O: Pobierz najnowszą wersję ze [strony wydań](https://releases.aspose.com/html/java/).
 
 **P: Czy konieczne jest zwolnienie obiektów `document` i `configuration`?**  
-O: Tak, zwolnienie zwalnia zasoby natywne i zapobiega wyciekom pamięci.
+O: Tak, zwolnienie uwalnia zasoby natywne i zapobiega wyciekom pamięci.
 
 **P: Czy mogę ustawić limit czasu JavaScript na inną wartość niż 5 sekund?**  
 O: Oczywiście – zmień argument w `TimeSpan.fromSeconds()` na dowolny limit pasujący do Twojego scenariusza.
 
-**P Gdzie mogę znaleźć pomoc w razie problemów?**  
+**P: Gdzie mogę uzyskać pomoc w razie problemów?**  
 O: Odwiedź [forum Aspose.HTML](https://forum.aspose.com/c/html/29), gdzie społeczność i personel udzielają wsparcia.
 
 ---
 
-**Ostatnia aktualizacja:** 2025-12-10  
+**Ostatnia aktualizacja:** 2026-02-10  
 **Testowano z:** Aspose.HTML dla Java 24.11 (najnowsza)  
 **Autor:** Aspose  
 

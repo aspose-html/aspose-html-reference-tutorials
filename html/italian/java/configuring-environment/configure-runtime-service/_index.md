@@ -1,11 +1,11 @@
 ---
-date: 2025-12-10
-description: Scopri come impostare il timeout in Aspose.HTML per Java, configurare
-  il Runtime Service per convertire HTML in PNG, prevenire i loop infiniti e migliorare
+date: 2026-02-10
+description: Scopri come impostare il timeout in Aspose.HTML per Java, configura il
+  Runtime Service per convertire HTML in PNG, previeni i loop infiniti e migliora
   le prestazioni.
 linktitle: Configure Runtime Service in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
-title: Come impostare il timeout nel servizio di runtime Aspose.HTML per Java
+title: Come impostare il timeout in Aspose.HTML per il servizio di runtime Java
 url: /it/java/configuring-environment/configure-runtime-service/
 weight: 14
 ---
@@ -17,24 +17,27 @@ weight: 14
 # Come impostare il timeout in Aspose.HTML per Java Runtime Service
 
 ## Introduzione
-Se stai cercando **come impostare il timeout** per gli script quando lavori con Aspose.HTML per Java, sei nel posto giusto. Controllare l'esecuzione degli script non solo previene i loop infiniti, ma ti aiuta anche a **convertire html in png** più velocemente e a mantenere la tua applicazione reattiva. In questo tutorial vedremo passo passo come configurare il Runtime Service, limitare l'esecuzione degli script e, infine, produrre un'immagine PNG da HTML senza bloccare il programma.
+Se stai cercando **come impostare il timeout** per gli script quando lavori con Aspose.HTML per Java, sei nel posto giusto. Controllare l'esecuzione degli script non solo evita loop infiniti, ma ti aiuta anche a **convertire html in png** più velocemente e a mantenere la tua applicazione reattiva. In questo tutorial vedremo passo passo come configurare il Runtime Service, limitare l'esecuzione degli script e, infine, produrre un'immagine PNG da HTML senza bloccare il programma.
+
+## Come impostare il timeout in Aspose.HTML Runtime Service
+Comprendere lo scopo del Runtime Service rende più chiaro perché un timeout è essenziale. Il servizio funge da sandbox per il codice client‑side, permettendoti di fermare JavaScript fuori controllo prima che consumi tutti i cicli CPU. Impostando un timeout proteggi il tuo server da scenari di denial‑of‑service e garantisci che la **conversione html in png** termini in un tempo prevedibile.
 
 ## Risposte rapide
-- **Che cosa fa il Runtime Service?** Consente di controllare il tempo di esecuzione degli script e gestire le risorse durante l'elaborazione dell'HTML.  
-- **Come impostare il timeout per JavaScript?** Utilizzare `runtimeService.setJavaScriptTimeout(TimeSpan.fromSeconds(...))`.  
+- **Cosa fa il Runtime Service?** Consente di controllare il tempo di esecuzione degli script e di gestire le risorse durante l'elaborazione di HTML.  
+- **Come impostare il timeout per JavaScript?** Usa `runtimeService.setJavaScriptTimeout(TimeSpan.fromSeconds(...))`.  
 - **Posso prevenire i loop infiniti?** Sì – il timeout interrompe i loop che superano il limite definito.  
 - **Questo influisce sulla conversione HTML‑to‑PNG?** No, la conversione procede una volta che lo script termina o viene interrotto dal timeout.  
-- **Quale versione di Aspose.HTML è necessaria?** L'ultima release dalla pagina di download di Aspose.
+- **Quale versione di Aspose.HTML è necessaria?** L'ultima release dalla pagina di download di Aspose.  
 
 ## Prerequisiti
 Prima di entrare nei dettagli, assicurati di avere quanto segue:
 
 1. **Java Development Kit (JDK)** – installalo dal [sito di Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).  
-2. **Aspose.HTML for Java Library** – scarica l'ultima build dalla [pagina di release di Aspose](https://releases.aspose.com/html/java/).  
+2. **Aspose.HTML for Java Library** – scarica l'ultima build dalla [pagina dei rilasci Aspose](https://releases.aspose.com/html/java/).  
 3. **IDE** – IntelliJ IDEA, Eclipse o NetBeans vanno bene.  
-4. **Conoscenze di base di Java e HTML** – essenziali per seguire gli esempi di codice.
+4. **Conoscenze di base di Java & HTML** – essenziali per seguire gli snippet di codice.
 
-## Importazione dei pacchetti
+## Importare i pacchetti
 Per prima cosa, importa le classi necessarie. L'import `java.io.IOException` è richiesto per la gestione dei file.
 
 ```java
@@ -64,7 +67,7 @@ com.aspose.html.Configuration configuration = new com.aspose.html.Configuration(
 ```
 
 ## Passo 3: Configurare il Runtime Service
-Ecco dove effettivamente **impostiamo il timeout**. Recuperando l'`IRuntimeService` dalla configurazione, possiamo definire un limite di esecuzione per JavaScript.
+Qui è dove effettivamente **impostiamo il timeout**. Recuperando l'`IRuntimeService` dalla configurazione, possiamo definire un limite di esecuzione per JavaScript.
 
 ```java
 try {
@@ -72,8 +75,8 @@ try {
     runtimeService.setJavaScriptTimeout(com.aspose.html.utils.TimeSpan.fromSeconds(5));
 ```
 
-- `setJavaScriptTimeout` limita l'esecuzione dello script a **5 secondi**, impedendo efficacemente i **loop infiniti**.  
-- Questo **limita l'esecuzione degli script** per qualsiasi codice client‑side pesante.
+- `setJavaScriptTimeout` limita l'esecuzione dello script a **5 secondi**, impedendo efficacemente **loop infiniti**.  
+- Questo **limita anche l'esecuzione degli script** per qualsiasi codice client‑side pesante.
 
 ## Passo 4: Caricare il documento HTML con la configurazione
 Ora carica il file HTML usando la configurazione che contiene la nostra regola di timeout.
@@ -85,7 +88,7 @@ Ora carica il file HTML usando la configurazione che contiene la nostra regola d
 - Il documento rispetta il timeout definito in precedenza, quindi il loop infinito verrà interrotto dopo 5 secondi.
 
 ## Passo 5: Convertire l'HTML in PNG
-Con il documento caricato in modo sicuro, possiamo **convertire html in png**. La conversione avviene solo dopo che lo script termina o viene interrotto dal timeout.
+Con il documento caricato in sicurezza, possiamo **convertire html in png**. La conversione avviene solo dopo che lo script termina o viene terminato dal timeout.
 
 ```java
     com.aspose.html.converters.Converter.convertHTML(
@@ -99,7 +102,7 @@ Con il documento caricato in modo sicuro, possiamo **convertire html in png**. L
 - Il file risultante, **runtime-service_out.png**, mostra l'HTML renderizzato senza blocchi.
 
 ## Passo 6: Pulire le risorse
-Infine, elimina gli oggetti per liberare memoria e prevenire perdite.
+Infine, elimina gli oggetti per liberare memoria ed evitare perdite.
 
 ```java
 } finally {
@@ -112,21 +115,26 @@ Infine, elimina gli oggetti per liberare memoria e prevenire perdite.
 }
 ```
 
-- Una corretta eliminazione è essenziale per applicazioni a lungo termine.
+- Una corretta eliminazione è fondamentale per applicazioni a lungo termine.
 
-## Conclusione
-Hai appena imparato **come impostare il timeout** per l'esecuzione di JavaScript in Aspose.HTML per Java, come **prevenire i loop infiniti** e come **convertire html in png** in modo sicuro. Configurando il Runtime Service ottieni un controllo fine sul comportamento degli script, il che si traduce in tempi di avvio più rapidi e conversioni più affidabili. Sperimenta con valori di timeout diversi per adattarli ai tuoi carichi di lavoro specifici e noterai un notevole miglioramento delle prestazioni.
+## Perché è importante
+Impostare un timeout non è solo una rete di sicurezza; migliora direttamente l'affidabilità delle pipeline di **conversione html in png**. Quando integri Aspose.HTML in un servizio web che elabora HTML generato dagli utenti, uno script malevolo potrebbe altrimenti bloccare un thread indefinitamente. Un timeout modesto (ad esempio, 5 secondi) dà tempo sufficiente agli script legittimi di eseguire, tagliando al contempo i comportamenti abusivi.
+
+## Problemi comuni e risoluzione
+- **Timeout troppo breve** – Pagine complesse con molte risorse potrebbero necessitare di un limite più lungo. Aumenta il valore di `TimeSpan` se osservi terminazioni premature.  
+- **Mancata eliminazione** – Dimenticare di chiamare `dispose()` può causare perdite di memoria native, specialmente quando si elaborano molti documenti in un ciclo.  
+- **Oggetto di configurazione errato** – Recupera sempre l'`IRuntimeService` dalla stessa istanza di `Configuration` usata per caricare il documento; altrimenti il timeout non verrà applicato.
 
 ## Domande frequenti
 
 **D: Qual è lo scopo del Runtime Service in Aspose.HTML per Java?**  
-R: Consente di controllare il tempo di esecuzione degli script, aiutando a **prevenire i loop infiniti** e a mantenere le conversioni reattive.
+R: Consente di controllare il tempo di esecuzione degli script, aiutando a **prevenire loop infiniti** e mantenere le conversioni reattive.
 
 **D: Come posso scaricare Aspose.HTML per Java?**  
-R: Ottieni l'ultima versione dalla [pagina di release](https://releases.aspose.com/html/java/).
+R: Ottieni l'ultima versione dalla [pagina dei rilasci](https://releases.aspose.com/html/java/).
 
 **D: È necessario eliminare gli oggetti `document` e `configuration`?**  
-R: Sì, l'eliminazione rilascia le risorse native e previene perdite di memoria.
+R: Sì, l'eliminazione rilascia risorse native e previene perdite di memoria.
 
 **D: Posso impostare il timeout JavaScript a un valore diverso da 5 secondi?**  
 R: Assolutamente – modifica l'argomento di `TimeSpan.fromSeconds()` con il limite che meglio si adatta al tuo scenario.
@@ -134,8 +142,10 @@ R: Assolutamente – modifica l'argomento di `TimeSpan.fromSeconds()` con il lim
 **D: Dove posso trovare aiuto se incontro problemi?**  
 R: Visita il [forum Aspose.HTML](https://forum.aspose.com/c/html/29) per assistenza da parte della community e dello staff.
 
-**Ultimo aggiornamento:** 2025-12-10  
-**Testato con:** Aspose.HTML per Java 24.11 (latest)  
+---
+
+**Ultimo aggiornamento:** 2026-02-10  
+**Testato con:** Aspose.HTML per Java 24.11 (ultima)  
 **Autore:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

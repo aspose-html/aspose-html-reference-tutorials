@@ -73,6 +73,10 @@ Leer Aspose.HTML voor .NET gebruiken. Importeer namespace, voeg HTML samen met X
 Ontgrendel het potentieel van webontwikkeling met Aspose.HTML voor .NET. Maak, converteer en manipuleer eenvoudig HTML-documenten.
 ### [Tekst vet en cursief maken in C# – Snelle gids voor het stylen van HTML](./make-text-bold-italic-in-c-quick-guide-to-styling-html/)
 Leer hoe u tekst vet en cursief maakt in HTML met C# en Aspose.HTML, inclusief voorbeeldcode en stapsgewijze uitleg.
+### [HTML-document maken met Aspose.HTML – Stapsgewijze gids](./create-html-document-with-aspose-html-step-by-step-guide/)
+Leer hoe u een HTML-document maakt met Aspose.HTML in .NET. Volg deze stapsgewijze gids met voorbeelden en tips.
+### [Element aan body toevoegen – Complete C#-gids met Aspose.HTML](./append-element-to-body-complete-c-guide-with-aspose-html/)
+Leer hoe u een element aan de body van een HTML-document kunt toevoegen met een volledige C#-gids voor Aspose.HTML.
 
 ## Conclusie
 

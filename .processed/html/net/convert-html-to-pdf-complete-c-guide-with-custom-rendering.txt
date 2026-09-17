@@ -1,0 +1,7 @@
+Title: Convert HTML to PDF – Complete C# Guide with Custom Rendering
+Slug: convert-html-to-pdf-complete-c-guide-with-custom-rendering
+Category: html-extensions-and-conversions
+ProcessedDate: 2026-07-18T22:32:38.006620
+SourceRepo: AI Search API
+Keywords: convert html to pdf, html to pdf c#, c# html to pdf, set text rendering, configure pdf converter
+PRNumber: 213

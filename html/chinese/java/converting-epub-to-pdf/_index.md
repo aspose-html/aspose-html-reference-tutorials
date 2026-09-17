@@ -61,6 +61,9 @@ EPUB 文件被广泛用于电子书，但有时您需要将其转换为 PDF 格�
 ### [在 Java 中将 EPUB 转换为 PDF 时如何嵌入字体](./how-to-embed-fonts-when-converting-epub-to-pdf-in-java/)
 学习在使用 Aspose.HTML for Java 将 EPUB 转 PDF 时嵌入自定义字体，确保文档显示一致。
 
+### [使用 Aspose HTML 在 PDF 中嵌入字体 – 将 EPUB 转换为 PDF 指南](./how-to-embed-fonts-in-pdf-using-aspose-html-convert-epub-to/)
+了解如何使用 Aspose.HTML for Java 在转换 EPUB 为 PDF 时嵌入自定义字体，确保文档显示一致。
+
 ### [Converting EPUB to BMP](./convert-epub-to-bmp/)
 了解如何使用 Aspose.HTML for Java 将 EPUB 转换为 BMP。提供高效内容转换的分步指南。
 
@@ -85,6 +88,13 @@ EPUB 文件被广泛用于电子书，但有时您需要将其转换为 PDF 格�
 ### [Converting EPUB to Image](./convert-epub-to-image/)
 了解如何使用 Aspose.HTML for Java 将 EPUB 转换为图像。轻松转换数字内容。包含分步指南。
 
+### [convert epub to pdf with Java – Step‑by‑Step Guide](./convert-epub-to-pdf-with-java-step-by-step-guide/)
+使用 Java 和 Aspose.HTML for Java 将 EPUB 转换为 PDF 的完整分步指南。
+
+### [在将 EPUB 转换为 PDF 时嵌入字体 – Java 指南](./how-to-embed-fonts-when-converting-epub-to-pdf-java-guide/)
+了解如何在使用 Aspose.HTML for Java 将 EPUB 转换为 PDF 时嵌入自定义字体，确保文档在所有设备上保持一致显示。
+### [epub 转 pdf 教程：使用 Aspose 将电子书转换为 PDF](./epub-to-pdf-tutorial-convert-ebook-to-pdf-with-aspose/)
+使用 Aspose.HTML for Java 将电子书轻松转换为 PDF，支持自定义选项和高质量输出。
 ## 常见问题
 
 **Q:** *我可以将受保护的 EPUB 文件转换为 PDF 吗？*  

@@ -1,0 +1,7 @@
+Title: fetch json javascript – Complete Java Guide to Create HTML Document
+Slug: fetch-json-javascript-complete-java-guide-to-create-html-doc
+Category: creating-managing-html-documents
+ProcessedDate: 2026-05-25T20:44:36.979084
+SourceRepo: AI Search API
+Keywords: fetch json javascript, display json html, display fetched data, create body element, create html document java
+PRNumber: 161
