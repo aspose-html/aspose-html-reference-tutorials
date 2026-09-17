@@ -63,6 +63,8 @@ Unleash the Power of Aspose.HTML for .NET. Learn to Create, Manipulate, and Opti
 Learn how to create HTML documents using Aspose.HTML for .NET with a detailed step‑by‑step guide and practical examples.
 ### [Create HTML from String in C# – Custom Resource Handler Guide](./create-html-from-string-in-c-custom-resource-handler-guide/)
 Learn how to generate HTML from a string using a custom resource handler in C# with Aspose.HTML for .NET.
+### [Make Text Bold Italic in C# – Quick Guide to Styling HTML](./make-text-bold-italic-in-c-quick-guide-to-styling-html/)
+Learn how to apply bold and italic styling to text in HTML using C# with Aspose.HTML – a quick guide for developers.
 ### [Editing a Document in .NET with Aspose.HTML](./editing-a-document/)
 Create captivating web content with Aspose.HTML for .NET. Learn how to manipulate HTML, CSS, and more.
 ### [Saving a Document in .NET with Aspose.HTML](./saving-a-document/)

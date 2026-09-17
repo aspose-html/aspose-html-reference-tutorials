@@ -51,6 +51,8 @@ url: /ar/net/html-document-manipulation/
 ## دروس تعليمية حول التعامل مع مستندات HTML
 ### [تحميل مستندات HTML بشكل غير متزامن في .NET باستخدام Aspose.HTML](./load-html-doc-asynchronously/)
 تعرف على كيفية استخدام Aspose.HTML for .NET للعمل مع مستندات HTML. دليل خطوة بخطوة مع أمثلة وأسئلة شائعة للمطورين.
+### [تحميل مستندات HTML باستخدام بيانات الاعتماد في .NET باستخدام Aspose.HTML](./load-html-with-credentials/)
+تعرف على كيفية تعزيز تحسين محرك البحث الخاص بك باستخدام Aspose.HTML لـ .NET. قم بتعزيز التصنيفات وتحليل محتوى الويب وتحسينه لمحركات البحث.
 ### [تحميل مستندات HTML باستخدام بيانات الاعتماد في .NET باستخدام Aspose.HTML](./load-html-doc-with-credentials/)
 تعرف على كيفية تعزيز تحسين محرك البحث الخاص بك باستخدام Aspose.HTML لـ .NET. قم بتحسين التصنيفات وتحليل محتوى الويب وتحسينه لمحركات البحث.
 ### [تحميل HTML باستخدام خادم بعيد في .NET مع Aspose.HTML](./load-html-using-remote-server/)
@@ -73,6 +75,8 @@ url: /ar/net/html-document-manipulation/
 تعلم كيفية إنشاء مستند HTML من الصفر باستخدام Aspose.HTML خطوة بخطوة مع أمثلة عملية.
 ### [إنشاء HTML من سلسلة في C# – دليل معالج الموارد المخصص](./create-html-from-string-in-c-custom-resource-handler-guide/)
 تعرف على كيفية إنشاء مستند HTML من سلسلة نصية في C# باستخدام معالج موارد مخصص.
+### [اجعل النص غامقًا ومائلًا في C# – دليل سريع لتنسيق HTML](./make-text-bold-italic-in-c-quick-guide-to-styling-html/)
+دليل سريع لتطبيق تنسيق النص الغامق والمائل في HTML باستخدام C# و Aspose.HTML.
 ### [إضافة عنصر إلى الجسم – دليل C# كامل مع Aspose.HTML](./append-element-to-body-complete-c-guide-with-aspose-html/)
 تعلم كيفية إضافة عنصر إلى جسم مستند HTML باستخدام Aspose.HTML في C# خطوة بخطوة.
 

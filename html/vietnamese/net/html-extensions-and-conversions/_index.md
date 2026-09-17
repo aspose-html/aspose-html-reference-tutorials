@@ -69,6 +69,8 @@ Tìm hiểu cách chuyển đổi HTML sang TIFF bằng Aspose.HTML cho .NET. L�
 Khám phá sức mạnh của Aspose.HTML cho .NET: Chuyển đổi HTML sang XPS dễ dàng. Bao gồm các điều kiện tiên quyết, hướng dẫn từng bước và Câu hỏi thường gặp.
 ### [Cách Nén HTML thành Zip trong C# – Lưu HTML vào Zip](./how-to-zip-html-in-c-save-html-to-zip/)
 Hướng dẫn chi tiết cách nén HTML thành tệp Zip bằng C# và Aspose.HTML, kèm ví dụ mã và các tùy chọn cấu hình.
+### [Cách Nén HTML thành Zip trong C# – Tải HTML & Sử dụng Trình xử lý Tùy chỉnh](./how-to-zip-html-in-c-load-html-use-custom-handler/)
+Hướng dẫn chi tiết cách nén HTML thành Zip trong C# bằng cách tải HTML và sử dụng trình xử lý tùy chỉnh, kèm ví dụ mã.
 ### [Tạo tài liệu HTML với văn bản có kiểu dáng và xuất ra PDF – Hướng dẫn đầy đủ](./create-html-document-with-styled-text-and-export-to-pdf-full/)
 Hướng dẫn chi tiết cách tạo tài liệu HTML có văn bản định dạng và xuất ra PDF bằng Aspose.HTML cho .NET.
 ### [Tạo PDF từ HTML – Hướng dẫn từng bước C#](./create-pdf-from-html-c-step-by-step-guide/)
@@ -77,6 +79,8 @@ Tạo PDF từ HTML trong .NET bằng C#. Hướng dẫn chi tiết từng bư�
 Hướng dẫn chi tiết cách lưu tài liệu HTML thành tệp ZIP bằng Aspose.HTML cho .NET với C#.
 ### [Lưu HTML thành ZIP trong C# – Ví dụ Toàn bộ trong Bộ nhớ](./save-html-to-zip-in-c-complete-in-memory-example/)
 Hướng dẫn lưu tài liệu HTML vào tệp ZIP trong C# bằng Aspose.HTML, sử dụng bộ nhớ tạm và không tạo file tạm trên đĩa.
+### [Trình xử lý tài nguyên tùy chỉnh trong C# – Chuyển đổi HTML thành tệp ZIP từ bộ nhớ](./custom-resource-handler-in-c-convert-html-to-zip-archive-fro/)
+Hướng dẫn tạo trình xử lý tài nguyên tùy chỉnh trong C# để chuyển đổi HTML thành tệp ZIP trực tiếp trong bộ nhớ.
 ### [Xử lý tài nguyên tùy chỉnh trong C# – Hướng dẫn chuyển đổi HTML sang ZIP](./custom-resource-handler-in-c-convert-html-to-zip-tutorial/)
 Hướng dẫn chi tiết cách sử dụng Custom Resource Handler trong C# để chuyển đổi HTML thành tệp ZIP bằng Aspose.HTML.
 ### [Chuyển đổi HTML sang PDF với Aspose.HTML – Hướng dẫn chi tiết từng bước](./convert-html-to-pdf-with-aspose-html-full-step-by-step-guide/)

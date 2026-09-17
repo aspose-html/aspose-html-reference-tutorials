@@ -75,6 +75,8 @@ Apprenez à créer un document HTML avec Aspose.HTML grâce à un guide détaill
 ### [Créer du HTML à partir d'une chaîne en C# – Guide du gestionnaire de ressources personnalisé](./create-html-from-string-in-c-custom-resource-handler-guide/)
 Apprenez à générer du HTML à partir d'une chaîne C# en utilisant un gestionnaire de ressources personnalisé avec Aspose.HTML.
 
+### [Mettre le texte en gras et italique en C# – Guide rapide pour le style HTML](./make-text-bold-italic-in-c-quick-guide-to-styling-html/)
+Apprenez à appliquer du gras et de l'italique au texte HTML en C# avec Aspose.HTML. Guide rapide et exemples pratiques.
 ### [Ajouter un élément au corps – Guide complet C# avec Aspose.HTML](./append-element-to-body-complete-c-guide-with-aspose-html/)
 Apprenez à ajouter dynamiquement un élément au corps d'une page HTML en C# avec Aspose.HTML, étape par étape.
 

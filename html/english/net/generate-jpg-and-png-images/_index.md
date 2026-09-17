@@ -34,7 +34,7 @@ Creating images is just the first step. Aspose.HTML for .NET allows you to furth
 
 ## Integrating with .NET Projects
 
-Integrating Aspose.HTML for .NET into your .NET projects is hassle-free. The library is designed to seamlessly blend with your existing code, making it an excellent choice for developers. You can use it to enhance your applications with image generation capabilities effortlessly.
+Integrating Aspose.HTML for .NET into your .NET projects is hassle‑free. The library is designed to seamlessly blend with your existing code, making it an excellent choice for developers. You can use it to enhance your applications with image generation capabilities effortlessly.
 
 ## Generate JPG and PNG Images Tutorials
 

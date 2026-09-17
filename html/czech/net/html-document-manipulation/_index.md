@@ -73,6 +73,8 @@ Odemkněte potenciál vývoje webu s Aspose.HTML pro .NET. Snadno vytvářejte, 
 Naučte se krok za krokem vytvářet HTML dokumenty pomocí knihovny Aspose.HTML v .NET.
 ### [Vytvoření HTML ze řetězce v C# – Průvodce vlastním Resource Handlerem](./create-html-from-string-in-c-custom-resource-handler-guide/)
 Naučte se, jak vytvořit HTML dokument z řetězce v C# pomocí vlastního Resource Handleru.
+### [Ztučte a kurzívu textu v C# – Rychlý průvodce stylováním HTML](./make-text-bold-italic-in-c-quick-guide-to-styling-html/)
+Naučte se, jak pomocí Aspose.HTML v C# aplikacích aplikovat tučný a kurzívní styl na text v HTML.
 ### [Přidání elementu do těla – Kompletní C# průvodce s Aspose.HTML](./append-element-to-body-complete-c-guide-with-aspose-html/)
 Naučte se, jak pomocí Aspose.HTML v C# přidat element do těla HTML dokumentu.
 

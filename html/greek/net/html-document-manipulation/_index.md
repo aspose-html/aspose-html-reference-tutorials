@@ -73,6 +73,8 @@ url: /el/net/html-document-manipulation/
 Μάθετε να χρησιμοποιείτε το Aspose.HTML για .NET. Εισαγάγετε χώρο ονομάτων, συγχώνευση HTML με XML και βελτιώστε τις δεξιότητές σας στην ανάπτυξη ιστού με αυτόν τον περιεκτικό οδηγό.
 ### [Δημιουργήστε έγγραφα XPS από το XpsDevice σε .NET με Aspose.HTML](./generate-xps-documents-by-xpsdevice/)
 Ξεκλειδώστε τις δυνατότητες ανάπτυξης ιστού με το Aspose.HTML για .NET. Δημιουργήστε, μετατρέψτε και χειριστείτε εύκολα έγγραφα HTML.
+### [Κάντε το κείμενο έντονο πλάγιο σε C# – Σύντομος οδηγός στυλιζάρισματος HTML](./make-text-bold-italic-in-c-quick-guide-to-styling-html/)
+Μάθετε πώς να εφαρμόζετε έντονη και πλάγια μορφοποίηση σε κείμενο HTML χρησιμοποιώντας C# και Aspose.HTML.
 ### [Δημιουργία εγγράφου HTML με Aspose.HTML – Οδηγός βήμα‑βήμα](./create-html-document-with-aspose-html-step-by-step-guide/)
 Μάθετε πώς να δημιουργήσετε έγγραφα HTML χρησιμοποιώντας το Aspose.HTML με αναλυτικές οδηγίες βήμα‑βήμα.
 

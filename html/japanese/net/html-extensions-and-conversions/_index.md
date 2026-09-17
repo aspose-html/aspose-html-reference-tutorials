@@ -61,6 +61,7 @@ Aspose.HTML for .NET のパワーを発見してください: HTML を XPS に�
 Aspose.HTML for .NET を使用して、HTML コンテンツを ZIP アーカイブとして保存する方法をステップバイステップで解説します。
 ### [C# で HTML を Zip に圧縮する方法 – HTML を Zip に保存](./how-to-zip-html-in-c-save-html-to-zip/)
 C# と Aspose.HTML を使用して、HTML コンテンツを Zip アーカイブに保存する手順をステップバイステップで解説します。
+
 ### [C# で HTML を ZIP に保存 – 完全インメモリ例](./save-html-to-zip-in-c-complete-in-memory-example/)
 Aspose.HTML for .NET を使用して、HTML をメモリ内で ZIP アーカイブに保存する手順をステップバイステップで解説します。
 ### [C# のカスタム リソース ハンドラ – HTML を ZIP に変換するチュートリアル](./custom-resource-handler-in-c-convert-html-to-zip-tutorial/)
@@ -78,6 +79,12 @@ C# と Aspose.HTML を使用して、HTML を PDF に変換する方法をステ
 C# と Aspose.HTML を使用して、HTML ファイルを Zip アーカイブに圧縮する手順をステップバイステップで解説します。
 ### [C# で HTML を ZIP として保存する – 完全ステップバイステップガイド](./save-html-as-zip-in-c-complete-step-by-step-guide/)
 Aspose.HTML for .NET を使用して、C# で HTML を ZIP ファイルに保存する方法をステップバイステップで解説します。
+
+### [C# のカスタム リソース ハンドラ – メモリ内の HTML を ZIP アーカイブに変換](./custom-resource-handler-in-c-convert-html-to-zip-archive-fro/)
+Aspose.HTML for .NET を使用して、C# でカスタム リソース ハンドラを実装し、メモリ内の HTML を ZIP アーカイブに変換する手順を解説します。
+
+### [C# で HTML を Zip に圧縮する – HTML を読み込みカスタム ハンドラを使用](./how-to-zip-html-in-c-load-html-use-custom-handler/)
+Aspose.HTML for .NET を使用して、C# で HTML を読み込みカスタム ハンドラで ZIP 圧縮する手順をステップバイステップで解説します。
 
 ## 結論
 

@@ -30,7 +30,7 @@ Aspose.HTML dla .NET oferuje prostą metodę konwersji HTML na obrazy. Możesz o
 
 ## Optymalizacja obrazów
 
-Tworzenie obrazów to tylko pierwszy krok. Aspose.HTML dla .NET pozwala na dalszą optymalizację obrazów. Możesz dostosować ustawienia kompresji, ustawić rozdzielczość i dostroić dane wyjściowe, aby spełnić swoje specyficzne wymagania. Ta elastyczność zapewnia, że powstałe obrazy są zarówno przyjemne dla oka, jak i lekkie, co pozwala na wydajną dostawę do sieci.
+Tworzenie obrazów to tylko pierwszy krok. Aspose.HTML dla .NET pozwala na dalszą optymalizację obrazów. Możesz dostosować ustawienia kompresji, ustawić rozdzielczość i dopasować dane wyjściowe, aby spełnić swoje specyficzne wymagania. Ta elastyczność zapewnia, że powstałe obrazy są zarówno przyjemne dla oka, jak i lekkie, co pozwala na wydajną dostawę do sieci.
 
 ## Integracja z projektami .NET
 
