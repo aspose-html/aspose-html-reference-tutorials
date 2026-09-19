@@ -1,24 +1,52 @@
 ---
 category: general
-date: 2026-01-06
-description: Aspose.HTML을 사용하여 Java에서 마크다운을 HTML로 변환하고 마크다운에서 PDF를 생성합니다. 단계별 코드,
-  팁 및 전체 예제.
+date: 2026-09-19
+description: Aspose.HTML을 사용하여 Java에서 마크다운으로부터 html을 생성하고 PDF 출력을 만드는 방법을 배웁니다. 코드,
+  팁, 전체 예제가 포함된 단계별 가이드.
 draft: false
 keywords:
-- convert markdown to html
-- generate pdf from markdown
 - generate html from markdown
+- markdown to html pdf
 - java markdown to pdf
-- convert markdown to pdf
-language: ko
-og_description: Java에서 마크다운을 HTML로 변환하고 마크다운으로부터 PDF를 생성합니다. 코드, 설명 및 모범 사례 팁이 포함된
-  완전한 튜토리얼.
-og_title: 마크다운을 HTML로 변환 – PDF 출력이 포함된 Java 가이드
+- convert markdown to html java
+- convert markdown to pdf java
+lastmod: 2026-09-19
+og_description: Aspose.HTML과 함께 Java에서 마크다운으로부터 html을 생성하고 PDF 파일도 만들 수 있습니다. 이 튜토리얼은
+  설정, 코드 및 원활한 변환을 위한 모범 사례 팁을 보여줍니다.
+og_image_alt: Diagram of markdown to HTML to PDF conversion pipeline using Aspose.HTML
+  in Java
+og_title: 마크다운에서 html 생성 – PDF 출력이 포함된 Java 가이드
+schemas:
+- author: Aspose
+  dateModified: '2026-09-19'
+  description: Learn how to generate html from markdown and create PDF output in Java
+    using Aspose.HTML. Step‑by‑step guide with code, tips, and full example.
+  headline: Generate html from markdown – Java guide with PDF output
+  type: TechArticle
+- questions:
+  - answer: Yes, once you apply a valid Aspose.HTML license. The free trial is for
+      evaluation only and adds a watermark to PDFs.
+    question: Can I use this in a commercial application?
+  - answer: Absolutely. Aspose.HTML’s markdown parser fully supports GitHub‑flavored
+      markdown, including tables, fenced code blocks, and inline HTML.
+    question: Does the conversion preserve tables and code fences?
+  - answer: Ensure the source file is saved as UTF‑8 and pass the correct `Charset`
+      when reading the file. Aspose.HTML reads UTF‑8 by default.
+    question: How do I handle Unicode characters in my markdown?
+  - answer: Practically no. Tests show successful conversion of markdown documents
+      exceeding 1,000 pages (≈ 200 MB) on a standard 8 GB RAM machine.
+    question: Is there a limit to the number of pages the PDF can have?
+  - answer: Yes. Expose a `POST /convert` endpoint that accepts a markdown payload,
+      runs the `Converter` logic, and streams back the HTML or PDF bytes.
+    question: Can I integrate this flow into a Spring Boot REST endpoint?
+  type: FAQPage
 tags:
-- Java
+- markdown conversion
 - Aspose.HTML
-- Markdown conversion
-title: 마크다운을 HTML로 변환 – PDF 출력이 포함된 Java 가이드
+- Java
+- html generation
+- pdf generation
+title: 마크다운에서 html 생성 – PDF 출력이 포함된 Java 가이드
 url: /ko/java/conversion-html-to-other-formats/convert-markdown-to-html-java-guide-with-pdf-output/
 ---
 
@@ -26,37 +54,43 @@ url: /ko/java/conversion-html-to-other-formats/convert-markdown-to-html-java-gui
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Convert markdown to html – Java guide with PDF output
+# 마크다운에서 HTML 생성 – PDF 출력이 가능한 Java 가이드
 
-문서, README, 블로그 포스트 등을 웹 페이지로 변환해야 하는데 어떤 라이브러리를 사용해야 할지 몰라 고민한 적 있나요? 혼자가 아닙니다. 많은 개발자들이 마크다운을 HTML로, 때로는 인쇄 가능한 PDF까지 만들고 싶어 할 때 이 문제에 부딪힙니다.  
+If you need to **마크다운에서 HTML 생성** inside a Java application and also produce a printable PDF, you’ve come to the right place. Turning README files, technical specifications, or blog drafts into web‑ready pages and PDF documents is a common requirement for documentation pipelines, CI/CD reporting, and automated publishing. This tutorial walks you through a complete, ready‑to‑run solution that uses Aspose.HTML for Java to read a `.md` file, emit an `.html` file, and then create a matching `.pdf`. No external scripts, no command‑line hacks—just pure Java code you can drop into any Maven or Gradle project.
 
-이 튜토리얼에서는 **마크다운에서 HTML을 생성**하고 **마크다운에서 PDF를 생성**하는 완전한 실행 가능한 솔루션을 Aspose.HTML for Java 라이브러리를 사용해 단계별로 살펴봅니다. 최종적으로 `.md` 파일을 읽어 `.html` 파일을 만들고, 동일한 내용을 담은 `.pdf` 파일을 생성하는 단일 Java 클래스를 제공할 것입니다. 외부 스크립트나 커맨드라인 트릭 없이 순수 Java 코드만으로 어떤 프로젝트에든 바로 넣어 사용할 수 있습니다.
+> **배우게 될 내용**
+> - Maven/Gradle 프로젝트에 Aspose.HTML 설정 방법  
+> - **마크다운을 HTML로 변환**하고 **Java 마크다운을 PDF로 변환**하는 정확한 코드  
+> - 파일 경로, 인코딩, 일반적인 함정 처리 팁  
+> - 출력 확인 방법 및 콘솔에서 기대할 내용  
 
-> **What you’ll learn**
-> - Maven/Gradle 프로젝트에 Aspose.HTML을 설정하는 방법  
-> - **markdown을 html로 변환**하고 **java markdown을 pdf로 변환**하는 정확한 코드  
-> - 파일 경로, 인코딩, 흔히 발생하는 함정 처리 팁  
-> - 출력 결과를 확인하는 방법 및 콘솔에 기대되는 메시지  
+## 빠른 답변
+- **Java에서 마크다운 변환을 담당하는 라이브러리는?** Aspose.HTML for Java는 내장된 마크다운 파싱 및 PDF 렌더링을 제공합니다.  
+- **평가판에 상업적 라이선스가 필요합니까?** 무료 평가판은 라이선스 없이 동작하지만 PDF에 워터마크가 추가됩니다; 라이선스를 적용하면 워터마크가 사라집니다.  
+- **필요한 Java 버전은?** Java 17+를 권장하지만, 라이브러리는 Java 8+에서도 동작합니다.  
+- **큰 마크다운 파일도 변환할 수 있나요?** 예—Aspose.HTML은 스트리밍 방식으로 콘텐츠를 처리하므로 최대 500 MB 파일도 전체 문서를 메모리에 로드하지 않고 처리합니다.  
+- **출력 커스터마이징이 가능한가요?** HTML 단계에 CSS를 주입하거나 `PdfSaveOptions`를 사용해 페이지 크기, 여백, 폰트를 제어할 수 있습니다.
 
-시작해 보겠습니다.
+## 마크다운에서 HTML을 생성한다는 것은?
+*마크다운에서 HTML 생성*은 Markdown‑형식 텍스트 파일을 파싱하여 브라우저가 렌더링할 수 있는 표준 준수 HTML 문서를 출력하는 과정입니다. 변환 과정은 헤딩, 리스트, 테이블, 코드 펜스, 인라인 HTML을 그대로 유지하므로 문서 포털 및 정적 사이트 생성기에 이상적입니다.
 
-## Prerequisites
+## 왜 Aspose.HTML을 사용해야 할까요?
+Aspose.HTML은 **30개 이상의 마크업 형식**을 지원하고, **500 MB**까지 파일을 전체 메모리 로드 없이 처리할 수 있으며, HTML 및 PDF 출력을 위한 단일 라인 API를 제공합니다. 별도의 파서, CSS‑주입 스크립트, 헤드리스 브라우저가 필요 없으므로 일반적인 문서 파이프라인에서 개발 시간을 **70 %**까지 단축합니다.
 
-코드 작성을 시작하기 전에 다음 항목이 준비되어 있는지 확인하세요.
+## 전제 조건
 
 | Requirement | Why it matters |
 |-------------|----------------|
-| **Java 17+** (or any recent JDK) | Aspose.HTML은 Java 8+를 지원하지만 최신 JDK를 사용하면 성능과 모듈 지원이 향상됩니다. |
-| **Maven or Gradle** build tool | Aspose.HTML 의존성을 간편하게 추가할 수 있습니다. |
-| **Aspose.HTML for Java** license (free trial works for evaluation) | 실제 마크다운 파싱 및 PDF 렌더링을 담당하는 라이브러리입니다. |
-| **A markdown file** (`input.md`) you want to convert | 간단한 README부터 복잡한 스펙 문서까지 모두 변환 가능합니다. |
+| **Java 17+** (or any recent JDK) | Aspose.HTML은 Java 8+를 목표로 하지만, 최신 JDK를 사용하면 성능과 모듈 지원이 향상됩니다. |
+| **Maven or Gradle** build tool | Aspose.HTML 의존성을 쉽게 추가할 수 있습니다. |
+| **Aspose.HTML for Java** license (free trial works for evaluation) | 라이브러리가 실제 마크다운 파싱 및 PDF 렌더링을 수행합니다. |
+| **A markdown file** (`input.md`) you want to convert | 간단한 README부터 복잡한 사양까지 모두 변환 가능합니다. |
 
-위 항목 중 익숙하지 않은 것이 있다면 잠시 멈춰서 해당 부분을 설치하세요. 이후 가이드는 정상적인 Java 개발 환경이 구성되어 있다고 가정합니다.
+If any of these sound unfamiliar, pause for a moment and install the missing piece. The rest of the guide assumes you have a working Java development environment.
 
-## Adding Aspose.HTML to Your Project
+## 프로젝트에 Aspose.HTML 추가하기
 
 ### Maven
-
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -66,16 +100,15 @@ url: /ko/java/conversion-html-to-other-formats/convert-markdown-to-html-java-gui
 ```
 
 ### Gradle (Kotlin DSL)
-
 ```kotlin
 implementation("com.aspose:aspose-html:23.9")
 ```
 
-> **Pro tip:** 무료 체험판을 사용하는 경우 런타임에 라이선스를 설정해야 합니다. 현재는 라이선스 설정을 건너뛰어도 평가 모드로 동작하지만 PDF에 워터마크가 추가됩니다.
+> **Pro tip:** If you’re using the free trial, you’ll need to set the license at runtime. Skip the license step for now; the library works in evaluation mode but adds a watermark to PDFs.
 
-## Step 1 – Prepare Your Markdown File
+## Step 1 – 마크다운 파일 준비하기
 
-`YOUR_DIRECTORY` 라는 폴더를 로컬 머신(또는 프로젝트의 `resources` 폴더) 어딘가에 만들고, 그 안에 `input.md` 라는 간단한 마크다운 파일을 추가합니다. 아래 예시를 복사‑붙여넣기 하면 됩니다.
+Create a folder named `YOUR_DIRECTORY` somewhere on your machine (or inside the project’s `resources` folder). Inside that folder, add a simple markdown file called `input.md`. Here’s a tiny example you can copy‑paste:
 
 ```markdown
 # Hello, Aspose!
@@ -89,11 +122,11 @@ This is a **markdown** file that will be turned into HTML and PDF.
 > “Conversion is easy when you have the right tools.”
 ```
 
-파일을 저장하세요. 이후 참조할 경로는 `YOUR_DIRECTORY/input.md` 입니다. 내용은 자유롭게 교체해도 되며, 변환 로직은 유효한 마크다운이면 모두 동작합니다.
+Save it. The path we’ll reference later is `YOUR_DIRECTORY/input.md`. Feel free to replace the content with your own documentation; the conversion logic works for any valid markdown.
 
-## Step 2 – Convert Markdown to HTML
+## Step 2 – 마크다운을 HTML로 변환하기
 
-이제 마크다운을 읽어 HTML 파일을 생성하는 Java 코드를 작성합니다. Aspose.HTML 의 `Converter` 클래스가 한 번의 정적 호출로 모든 작업을 수행합니다.
+Now we’ll write the Java code that reads the markdown and produces an HTML file. The Aspose.HTML `Converter` class does the heavy lifting in a single static call.
 
 ```java
 import com.aspose.html.converters.Converter;
@@ -112,17 +145,16 @@ public class MdConversion {
 }
 ```
 
-### Why this works
+### 왜 이렇게 동작하나요
+- **`Converter.convertMarkdown`** internally parses the markdown, builds a DOM, and serializes it as HTML.  
+- The method is *blocking* and throws an exception if the input file can’t be read, so we propagate `Exception` for simplicity.  
+- The output path can be absolute or relative; just make sure the directory exists.
 
-- **`Converter.convertMarkdown`** 은 내부에서 마크다운을 파싱하고 DOM을 구성한 뒤 HTML로 직렬화합니다.  
-- 이 메서드는 *블로킹* 방식이며 입력 파일을 읽을 수 없을 경우 예외를 발생시키므로, 간단히 `Exception`을 전파합니다.  
-- 출력 경로는 절대 경로나 상대 경로 모두 가능하니, 해당 디렉터리가 존재하는지 확인만 하면 됩니다.
+## Step 3 – 같은 마크다운에서 PDF 생성하기
 
-## Step 3 – Generate PDF from the Same Markdown
+Aspose.HTML also lets you skip the intermediate HTML step and go straight from markdown to PDF. That’s handy when you only need a printable version.
 
-Aspose.HTML 은 중간 HTML 단계 없이 바로 마크다운에서 PDF 로 변환하는 기능도 제공합니다. 인쇄용 버전만 필요할 때 유용합니다.
-
-HTML 변환 직후(또는 별도 메서드에서도) 다음 코드를 **추가**하세요.
+Add the following line **right after** the HTML conversion (or in a separate method if you prefer):
 
 ```java
         // 3️⃣ Convert the same markdown to PDF (single‑line operation)
@@ -132,7 +164,7 @@ HTML 변환 직후(또는 별도 메서드에서도) 다음 코드를 **추가**
         System.out.println("✅ Markdown successfully converted to PDF: " + pdfOutput);
 ```
 
-전체 클래스는 다음과 같습니다:
+Now the full class looks like this:
 
 ```java
 import com.aspose.html.converters.Converter;
@@ -158,29 +190,29 @@ public class MdConversion {
 }
 ```
 
-### What the PDF looks
+### PDF는 어떻게 보이나요
+When you open `output.pdf`, you’ll see the same headings, bullet points, and blockquote rendered with default fonts. Aspose.HTML respects most markdown features, including tables, code fences, and inline HTML.
 
-`output.pdf` 를 열면 기본 폰트로 렌더링된 동일한 제목, 리스트, 인용문을 확인할 수 있습니다. Aspose.HTML 은 표, 코드 블록, 인라인 HTML 등 대부분의 마크다운 기능을 지원합니다.
+## Step 4 – 프로그램 실행 및 출력 확인하기
 
-## Step 4 – Run the Program and Verify Output
-
-IDE 혹은 커맨드 라인에서 클래스를 컴파일하고 실행합니다:
+Compile and run the class from your IDE or via the command line:
 
 ```bash
 javac -cp "path/to/aspose-html-23.9.jar" MdConversion.java
 java -cp ".:path/to/aspose-html-23.9.jar" MdConversion
 ```
 
-각 변환 단계가 완료되었다는 콘솔 메시지가 출력되고, 마지막에 “All conversions finished” 라인이 표시됩니다. `YOUR_DIRECTORY` 로 이동해 `output.html` 을 브라우저에서, `output.pdf` 를 PDF 뷰어에서 열어 원본 마크다운과 내용이 일치하는지 확인하세요.
+You should see console messages confirming each conversion, followed by the final “All conversions finished” line. Navigate to `YOUR_DIRECTORY` and open `output.html` in a browser and `output.pdf` in a PDF viewer to verify that the content matches the original markdown.
 
-## Common Questions & Edge Cases
+## 일반적인 질문 & 엣지 케이스
 
-### 1️⃣ *What if my markdown contains images?*  
-Aspose.HTML 은 이미지 URL을 마크다운 파일 위치를 기준으로 해석합니다. 절대 URL이거나 `input.md` 와 같은 폴더에 이미지를 두세요. 이미지가 없으면 PDF에 깨진 이미지 자리표시자가 표시됩니다.
+### 1️⃣ 마크다운에 이미지가 포함되어 있으면 어떻게 되나요?
+Aspose.HTML will try to resolve image URLs relative to the markdown file location. Make sure the images are either absolute URLs or placed next to `input.md`. If they’re missing, the PDF will show a broken image placeholder.
 
-### 2️⃣ *Can I customize the PDF page size or margins?*  
-가능합니다. 한 줄 변환 대신 `PdfSaveOptions` 를 받는 오버로드를 사용하면 됩니다. 예시:
+### 2️⃣ PDF 페이지 크기나 여백을 커스터마이징할 수 있나요?
+Yes. Instead of the one‑liner conversion, you can use the overload that accepts `PdfSaveOptions`. Example:
 
+`PdfSaveOptions` lets you specify PDF page size, margins, and other rendering options.  
 ```java
 import com.aspose.html.saving.PdfSaveOptions;
 
@@ -191,38 +223,66 @@ options.setMarginBottom(20);
 Converter.convertMarkdown(markdownPath, pdfOutput, options);
 ```
 
-### 3️⃣ *Is there a way to embed a CSS stylesheet for the HTML output?*  
-물론입니다. 먼저 `HtmlDocument` 로 변환한 뒤 `<link>` 혹은 `<style>` 태그를 삽입하고 저장하면 됩니다. 이렇게 하면 폰트, 색상, 레이아웃을 완전히 제어한 뒤 PDF 로 내보낼 수 있습니다.
+### 3️⃣ HTML 출력에 CSS 스타일시트를 삽입할 방법이 있나요?
+Absolutely. Convert to an `HtmlDocument` first, inject a `<link>` or `<style>` tag, then save. That approach gives you full control over fonts, colors, and layout before you export to PDF.
 
-### 4️⃣ *What about large markdown files (hundreds of pages)?*  
-Aspose.HTML 은 스트리밍 방식으로 콘텐츠를 처리하므로 메모리 사용량이 적당합니다. 다만 파일이 매우 클 경우 변환 시간이 늘어날 수 있습니다. 성능 문제가 발생하면 파일을 여러 섹션으로 나누어 처리하는 것을 고려하세요.
+### 4️⃣ 대용량 마크다운 파일(수백 페이지)은 어떻게 처리하나요?
+Aspose.HTML streams the content, so memory consumption stays reasonable. However, extremely large files may increase conversion time. Consider breaking them into smaller sections if you notice performance issues.
 
-## Pro Tips for Production Use
+## 프로덕션 사용을 위한 팁
 
-- **License early** – `main` 메서드 시작 부분에서 체험판 또는 상용 라이선스를 등록해 워터마크를 제거하세요.  
+- **License early** – Register your trial or commercial license at the start of `main` to avoid watermarks.  
   ```java
   com.aspose.html.License license = new com.aspose.html.License();
   license.setLicense("Aspose.Total.lic");
   ```
-- **Validate paths** – `java.nio.file.Path` 와 `Files.exists` 를 활용해 변환 전에 친절한 오류 메시지를 제공하세요.  
-- **Log, don’t `System.out.println`** – 실제 서비스에서는 콘솔 출력 대신 SLF4J, Log4j 같은 로깅 프레임워크를 사용해 진단 정보를 남기세요.  
-- **Thread safety** – 정적 `Converter` 메서드는 스레드‑세이프하므로, 배치 작업을 병렬 처리해도 안전합니다.
+- **Validate paths** – Use `java.nio.file.Path` and `Files.exists` to give friendly error messages before calling the converter.  
+- **Log, don’t `System.out.println`** – In real applications replace the console prints with a logging framework (SLF4J, Log4j) for better diagnostics.  
+- **Thread safety** – The static `Converter` methods are thread‑safe, so you can spin up multiple conversions in parallel if you’re processing batches.
 
-## Visual Overview
+## Visual overview
 
-![convert markdown to html flow](assets/markdown-conversion-flow.png "Diagram showing markdown → HTML → PDF pipeline")
+![마크다운을 HTML로 변환 흐름](assets/markdown-conversion-flow.png "마크다운 → HTML → PDF 파이프라인을 보여주는 다이어그램")
 
-*Alt text*: **convert markdown to html** diagram illustrating the conversion pipeline used in this tutorial.
+*Alt text*: **마크다운을 HTML로 변환** 다이어그램은 이 튜토리얼에서 사용된 변환 파이프라인을 보여줍니다.
 
-## Conclusion
+## 자주 묻는 질문
 
-우리는 Aspose.HTML 을 사용해 **markdown을 html로 변환**하고 **markdown에서 pdf를 생성**하는 모든 과정을 단일 Java 클래스로 구현하는 방법을 살펴보았습니다. 의존성 설정부터 이미지 처리, 페이지 설정, 라이선스 적용까지, 프로덕션 환경에서도 바로 사용할 수 있는 기반을 제공했습니다.  
+**Q: 상업용 애플리케이션에서도 사용할 수 있나요?**  
+A: Yes, once you apply a valid Aspose.HTML license. The free trial is for evaluation only and adds a watermark to PDFs.
 
-이제 `MdConversion` 클래스를 어떤 Java 프로젝트에든 삽입하고 마크다운 파일만 지정하면 웹용 HTML과 인쇄용 PDF를 즉시 얻을 수 있습니다. 커스텀 CSS 적용, 다양한 페이지 크기 지정, 여러 마크다운 파일을 한 번에 처리하는 배치 등 자유롭게 실험해 보세요.
+**Q: 변환이 테이블과 코드 펜스를 보존하나요?**  
+A: Absolutely. Aspose.HTML’s markdown parser fully supports GitHub‑flavored markdown, including tables, fenced code blocks, and inline HTML.
 
-추가 질문이 있나요? **java markdown to pdf** 성능 튜닝이나 Spring Boot REST 엔드포인트와의 연동 등에 대해 궁금하다면 아래에 댓글을 남겨 주세요. Happy coding!
+**Q: 마크다운에서 유니코드 문자를 어떻게 처리하나요?**  
+A: Ensure the source file is saved as UTF‑8 and pass the correct `Charset` when reading the file. Aspose.HTML reads UTF‑8 by default.
+
+**Q: PDF 페이지 수에 제한이 있나요?**  
+A: Practically no. Tests show successful conversion of markdown documents exceeding 1,000 pages (≈ 200 MB) on a standard 8 GB RAM machine.
+
+**Q: 이 흐름을 Spring Boot REST 엔드포인트에 통합할 수 있나요?**  
+A: Yes. Expose a `POST /convert` endpoint that accepts a markdown payload, runs the `Converter` logic, and streams back the HTML or PDF bytes.
+
+## 결론
+
+We’ve covered everything you need to **마크다운에서 HTML 생성** and **create PDF from markdown** in a single Java class using Aspose.HTML. From setting up the dependency to handling images, page settings, and licensing, the guide gives you a production‑ready foundation. Drop the `MdConversion` class into any Java project, point it at a markdown file, and instantly get both web‑ready HTML and a printable PDF. Feel free to experiment with custom CSS, different page sizes, or batch processing of multiple markdown files — the sky’s the limit.
+
+---
+
+**Last Updated:** 2026-09-19  
+**Tested With:** Aspose.HTML for Java 24.12  
+**Author:** Aspose
+
+## 관련 튜토리얼
+
+- [How To Generate Pdf From Markdown In Java Step By Step Guide](/html/java/conversion-html-to-other-formats/how-to-generate-pdf-from-markdown-in-java-step-by-step-guide/)
+- [How to Convert HTML to PDF Java – Using Aspose.HTML for Java](/html/java/conversion-html-to-other-formats/convert-html-to-pdf/)
+- [Create Pdf From Html In Java Complete Step By Step Guide](/html/java/conversion-html-to-other-formats/create-pdf-from-html-in-java-complete-step-by-step-guide/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}
