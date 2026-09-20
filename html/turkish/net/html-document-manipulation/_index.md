@@ -75,6 +75,8 @@ Aspose.HTML for .NET ile web geliştirmenin potansiyelini açığa çıkarın. H
 C# içinde dizeden HTML oluşturmayı ve özel kaynak işleyicisiyle nasıl kullanacağınızı öğrenin.
 ### [C#'ta Metni Kalın ve İtalik Yapma – HTML Stili İçin Hızlı Rehber](./make-text-bold-italic-in-c-quick-guide-to-styling-html/)
 C# kullanarak HTML içinde metni kalın ve italik olarak biçimlendirmeyi hızlı bir şekilde öğrenin.
+### [Aspose.HTML ile Dizeden HTML Belgesi Oluşturma](./how-to-create-html-document-from-string-with-aspose-html/)
+C# içinde dizeden HTML belgesi oluşturmayı ve Aspose.HTML ile kaydetmeyi öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

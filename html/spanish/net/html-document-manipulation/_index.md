@@ -73,6 +73,8 @@ Aprenda a utilizar Aspose.HTML para .NET. Importe espacios de nombres, combine H
 Descubra el potencial del desarrollo web con Aspose.HTML para .NET. Cree, convierta y manipule documentos HTML fácilmente.
 ### [Crear HTML a partir de una cadena en C# – Guía del controlador de recursos personalizado](./create-html-from-string-in-c-custom-resource-handler-guide/)
 Aprenda a generar contenido HTML a partir de una cadena en C# utilizando un controlador de recursos personalizado con Aspose.HTML.
+### [Cómo crear un documento HTML a partir de una cadena con Aspose.HTML](./how-to-create-html-document-from-string-with-aspose-html/)
+Aprenda a generar un documento HTML desde una cadena en C# usando Aspose.HTML. Guía paso a paso con ejemplos.
 ### [Hacer texto en negrita y cursiva en C# – Guía rápida para estilizar HTML](./make-text-bold-italic-in-c-quick-guide-to-styling-html/)
 Aprenda a aplicar negrita y cursiva al texto HTML usando Aspose.HTML en C#. Guía rápida paso a paso.
 ### [Agregar elemento al cuerpo – Guía completa en C# con Aspose.HTML](./append-element-to-body-complete-c-guide-with-aspose-html/)

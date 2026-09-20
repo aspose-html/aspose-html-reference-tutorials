@@ -77,6 +77,8 @@ Dowiedz się, jak krok po kroku utworzyć dokument HTML przy użyciu Aspose.HTML
 Dowiedz się, jak generować dokumenty HTML z łańcucha znaków w C# przy użyciu niestandardowego obsługiwacza zasobów w Aspose.HTML.
 ### [Pogrubienie i pochylenie tekstu w C# – szybki przewodnik po stylizacji HTML](./make-text-bold-italic-in-c-quick-guide-to-styling-html/)
 Dowiedz się, jak w C# zastosować pogrubienie i kursywę w HTML przy użyciu Aspose.HTML.
+### [Jak utworzyć dokument HTML z ciągu znaków przy użyciu Aspose.HTML](./how-to-create-html-document-from-string-with-aspose-html/)
+Dowiedz się, jak utworzyć dokument HTML z łańcucha znaków przy użyciu Aspose.HTML w .NET.
 
 ## Wniosek
 

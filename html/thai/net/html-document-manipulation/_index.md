@@ -77,6 +77,8 @@ Aspose.HTML สำหรับ .NET โดดเด่นด้วยควา�
 เรียนรู้วิธีทำให้ข้อความใน HTML เป็นตัวหนาและตัวเอียงด้วย C# อย่างรวดเร็วด้วย Aspose.HTML
 ### [เพิ่ม Element ลงใน Body – คู่มือ C# ฉบับสมบูรณ์กับ Aspose.HTML](./append-element-to-body-complete-c-guide-with-aspose-html/)
 เรียนรู้วิธีเพิ่ม Element ลงใน Body ของ HTML ด้วย C# และ Aspose.HTML อย่างครบถ้วน
+### [วิธีสร้างเอกสาร HTML จากสตริงด้วย Aspose.HTML](./how-to-create-html-document-from-string-with-aspose-html/)
+คำแนะนำทีละขั้นตอนในการสร้างเอกสาร HTML จากสตริงโดยใช้ Aspose.HTML สำหรับ .NET
 
 ## บทสรุป
 

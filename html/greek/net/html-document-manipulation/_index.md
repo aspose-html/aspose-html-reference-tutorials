@@ -77,6 +77,8 @@ url: /el/net/html-document-manipulation/
 Μάθετε πώς να εφαρμόζετε έντονη και πλάγια μορφοποίηση σε κείμενο HTML χρησιμοποιώντας C# και Aspose.HTML.
 ### [Δημιουργία εγγράφου HTML με Aspose.HTML – Οδηγός βήμα‑βήμα](./create-html-document-with-aspose-html-step-by-step-guide/)
 Μάθετε πώς να δημιουργήσετε έγγραφα HTML χρησιμοποιώντας το Aspose.HTML με αναλυτικές οδηγίες βήμα‑βήμα.
+### [Πώς να δημιουργήσετε έγγραφο HTML από συμβολοσειρά με Aspose.HTML](./how-to-create-html-document-from-string-with-aspose-html/)
+Μάθετε πώς να δημιουργήσετε ένα έγγραφο HTML από μια συμβολοσειρά χρησιμοποιώντας Aspose.HTML.
 
 ## Σύναψη
 

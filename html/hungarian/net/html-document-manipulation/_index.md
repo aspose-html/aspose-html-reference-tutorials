@@ -77,6 +77,8 @@ Ismerje meg, hogyan hozhat létre HTML-t karakterláncból C#-ban egy egyéni er
 Ismerje meg, hogyan formázhatja félkövérre és dőlthetre a szöveget C#-ban az Aspose.HTML segítségével.
 ### [Elem hozzáadása a body-hoz – Teljes C# útmutató az Aspose.HTML-lel](./append-element-to-body-complete-c-guide-with-aspose-html/)
 Ismerje meg, hogyan adhat hozzá elemeket a HTML body részéhez C#-ban az Aspose.HTML használatával.
+### [HTML-dokumentum létrehozása karakterláncból az Aspose.HTML-lel](./how-to-create-html-document-from-string-with-aspose-html/)
+Ismerje meg, hogyan hozhat létre HTML-dokumentumot karakterláncból az Aspose.HTML segítségével.
 
 ## Következtetés
 
