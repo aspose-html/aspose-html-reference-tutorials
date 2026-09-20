@@ -73,6 +73,8 @@ Sfrutta il potenziale dello sviluppo web con Aspose.HTML per .NET. Crea, convert
 Scopri come creare un documento HTML con Aspose.HTML passo dopo passo. Esempi pratici e consigli per sviluppatori.
 ### [Creare HTML da stringa in C# – Guida al gestore di risorse personalizzato](./create-html-from-string-in-c-custom-resource-handler-guide/)
 Impara a generare documenti HTML da stringhe C# usando un gestore di risorse personalizzato con Aspose.HTML.
+### [Come creare un documento HTML da stringa con Aspose.HTML](./how-to-create-html-document-from-string-with-aspose-html/)
+Impara a generare un documento HTML a partire da una stringa C# utilizzando Aspose.HTML per .NET.
 ### [Rendere il testo grassetto e corsivo in C# – Guida rapida allo styling HTML](./make-text-bold-italic-in-c-quick-guide-to-styling-html/)
 Scopri come applicare grassetto e corsivo al testo HTML usando C# con Aspose.HTML in pochi passaggi.
 ### [Aggiungere elemento al body – Guida completa C# con Aspose.HTML](./append-element-to-body-complete-c-guide-with-aspose-html/)

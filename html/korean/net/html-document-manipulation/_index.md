@@ -77,6 +77,8 @@ Aspose.HTML for .NET을 사용하여 C#에서 HTML 텍스트를 굵게와 기울
 Aspose.HTML을 활용해 HTML 문서를 처음부터 만들고 저장하는 방법을 단계별로 안내합니다.
 ### [Aspose.HTML을 사용하여 .NET에서 Body에 요소 추가 – C# 전체 가이드](./append-element-to-body-complete-c-guide-with-aspose-html/)
 Aspose.HTML for .NET을 활용해 HTML 문서의 Body에 새 요소를 삽입하는 방법을 단계별로 설명합니다.
+### [Aspose.HTML을 사용하여 문자열에서 HTML 문서 만들기](./how-to-create-html-document-from-string-with-aspose-html/)
+Aspose.HTML for .NET을 활용해 문자열을 HTML 문서로 변환하는 방법을 단계별로 안내합니다.
 
 ## 결론
 

@@ -52,7 +52,6 @@ C# kullanarak HTML içeriğini PNG formatında görüntüye dönüştürmeyi ad�
 Aspose.HTML kullanarak HTML'den PNG dosyaları oluşturmayı adım adım öğrenin. Tam C# örnekleri ve ipuçlarıyla.
 ### [C# ile HTML'den PNG Oluşturun – HTML'yi PNG'ye Render Edin](./create-png-from-html-in-c-render-html-to-png/)
 Aspose.HTML for .NET kullanarak HTML içeriğini PNG formatına dönüştürmeyi adım adım öğrenin.
-
 ### [DOCX'yi PNG/JPG'ye Dönüştürürken Antialiasing'i Etkinleştirme](./how-to-enable-antialiasing-when-converting-docx-to-png-jpg/)
 DOCX belgelerini PNG veya JPG formatına dönüştürürken antialiasing'i etkinleştirerek daha net ve pürüzsüz görüntüler elde edin.
 ### [docx'i png'ye dönüştür – zip arşivi oluşturma C# eğitimi](./convert-docx-to-png-create-zip-archive-c-tutorial/)
@@ -69,6 +68,8 @@ C# kullanarak docx dosyalarını png formatına tam adım adım dönüştürmeyi
 Aspose.HTML for .NET ile C# içinde HTML'yi PNG resimlerine dönüştürmeyi adım adım öğrenin.
 ### [C# ile HTML'den PNG Oluşturma – Adım Adım Kılavuz](./create-png-from-html-in-c-step-by-step-guide/)
 C# kullanarak HTML içeriğini PNG formatına dönüştürmeyi adım adım öğrenin.
+### [C#'ta Aspose.HTML ile HTML'den PNG Oluşturun](./how-to-create-png-from-html-with-aspose-html-in-c/)
+Aspose.HTML kullanarak C# içinde HTML içeriğini PNG formatına dönüştürmeyi adım adım öğrenin.
 
 ## Çözüm
 

@@ -77,6 +77,8 @@ C# の文字列から HTML を生成し、カスタム リソース ハンドラ
 C# を使用して HTML テキストを太字と斜体にスタイル設定する方法をステップバイステップで解説します。
 ### [Aspose.HTML を使用した C# 完全ガイド – 要素を Body に追加](./append-element-to-body-complete-c-guide-with-aspose-html/)
 Aspose.HTML for .NET を使用して、HTML ドキュメントの Body に要素を追加する方法をステップバイステップで解説します。
+### [Aspose.HTML を使用して .NET で文字列から HTML ドキュメントを作成する](./how-to-create-html-document-from-string-with-aspose-html/)
+文字列から HTML ドキュメントを生成し、Aspose.HTML の機能で操作する方法をステップバイステップで解説します。
 
 ## 結論
 

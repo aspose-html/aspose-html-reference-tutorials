@@ -79,6 +79,8 @@ url: /ar/net/html-document-manipulation/
 دليل سريع لتطبيق تنسيق النص الغامق والمائل في HTML باستخدام C# و Aspose.HTML.
 ### [إضافة عنصر إلى الجسم – دليل C# كامل مع Aspose.HTML](./append-element-to-body-complete-c-guide-with-aspose-html/)
 تعلم كيفية إضافة عنصر إلى جسم مستند HTML باستخدام Aspose.HTML في C# خطوة بخطوة.
+### [إنشاء مستند HTML من سلسلة نصية باستخدام Aspose.HTML](./how-to-create-html-document-from-string-with-aspose-html/)
+تعلم كيفية إنشاء مستند HTML من سلسلة نصية باستخدام Aspose.HTML في .NET خطوة بخطوة.
 
 ## خاتمة
 

@@ -80,6 +80,9 @@ Apprenez à appliquer du gras et de l'italique au texte HTML en C# avec Aspose.H
 ### [Ajouter un élément au corps – Guide complet C# avec Aspose.HTML](./append-element-to-body-complete-c-guide-with-aspose-html/)
 Apprenez à ajouter dynamiquement un élément au corps d'une page HTML en C# avec Aspose.HTML, étape par étape.
 
+### [Créer un document HTML à partir d'une chaîne avec Aspose.HTML](./how-to-create-html-document-from-string-with-aspose-html/)
+Apprenez à générer un document HTML à partir d'une chaîne en C# avec Aspose.HTML.
+
 ## Conclusion
 
 En conclusion, si vous souhaitez maîtriser la manipulation de documents HTML à l'aide d'Aspose.HTML pour .NET, vous êtes au bon endroit. Nos tutoriels sont votre feuille de route vers le succès. Préparez-vous à explorer les possibilités, à libérer votre créativité et à rationaliser votre développement .NET. Commencez votre voyage dès aujourd'hui et regardez vos documents HTML se transformer sous vos yeux. Que vous soyez développeur ou passionné, Aspose.HTML pour .NET vous réserve quelque chose d'incroyable. Alors, qu'attendez-vous ? Embarquons ensemble dans cette aventure passionnante !
