@@ -1,0 +1,7 @@
+Title: How to convert a local HTML file to PDF with Python
+Slug: how-to-convert-a-local-html-file-to-pdf-with-python
+Category: general
+ProcessedDate: 2026-09-20T06:30:50.958059
+SourceRepo: AI Search API
+Keywords: convert local html file to pdf, convert html to pdf python
+PRNumber: 271
