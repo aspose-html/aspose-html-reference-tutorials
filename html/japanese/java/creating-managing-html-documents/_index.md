@@ -58,10 +58,11 @@ Aspose.HTML for Java を使用してストリームから HTML ドキュメン�
 このステップバイステップ ガイドを使用して、Aspose.HTML for Java で文字列から HTML ドキュメントを作成する方法を学習します。
 ### [Aspose.HTML for Java で URL から HTML ドキュメントを読み込む](./load-html-documents-from-url/)
 Aspose.HTML を使用して、Java で URL から HTML ドキュメントを簡単に読み込む方法を説明します。ステップバイステップのチュートリアルが含まれています。
-### [Java で HTML ドキュメントを作成 – JSON を取得してコンテンツを生成](./create-html-document-with-java-fetch-json-and-generate-conte/)
-Java で JSON データを取得し、動的に HTML コンテンツを生成する方法をステップバイステップで解説します。
 ### [Java で HTML ドキュメントを読み込む – XPath と CSS を使用した完全ガイド](./load-html-document-java-complete-guide-with-xpath-css/)
 Java で XPath と CSS セレクタを活用し、HTML ドキュメントを効率的に読み込む完全ガイドです。ステップバイステップで解説します。
+
+### [Java で HTML ドキュメントを作成 – JSON を取得してコンテンツを生成](./create-html-document-with-java-fetch-json-and-generate-conte/)
+Java で JSON データを取得し、動的に HTML コンテンツを生成する方法をステップバイステップで解説します。
 ### [Aspose.HTML for Java を使用して新しい HTML ドキュメントを生成する](./generate-new-html-documents/)
 この簡単なステップバイステップ ガイドで、Aspose.HTML for Java を使用して新しい HTML ドキュメントを作成する方法を学びます。動的な HTML コンテンツの生成を開始します。
 ### [Java で JavaScript から HTML を生成する – 完全ステップバイステップガイド](./generate-html-from-javascript-in-java-complete-step-by-step/)
@@ -69,16 +70,17 @@ Java で XPath と CSS セレクタを活用し、HTML ドキュメントを効�
 ### [Aspose.HTML for Java でドキュメント読み込みイベントを処理する](./handle-document-load-events/)
 このステップバイステップ ガイドで、Aspose.HTML for Java でドキュメント読み込みイベントを処理する方法を学習します。Web アプリケーションを強化します。
 ### [Aspose.HTML for Java で SVG ドキュメントを作成および管理する](./create-manage-svg-documents/)
-Aspose.HTML for Java を使用して SVG ドキュメントを作成および管理する方法を学びます。この包括的なガイドでは、基本的な作成から高度な操作まで...
+Aspose.HTML for Java を使用して SVG ドキュメントを作成および管理する方法を学びます。この包括的なガイドでは、基本的な作成から高度な操作まですべてをカバーしています。
 ### [Java で HTML のサンドボックスを作成する – ステップバイステップ ガイド](./create-sandbox-for-html-in-java-step-by-step-guide/)
 Java アプリで HTML のサンドボックス環境を構築し、安全にテストする方法をステップバイステップで学びます。
 ### [Java で HTML をクエリする方法 – 完全チュートリアル](./how-to-query-html-in-java-complete-tutorial/)
 Java で HTML を検索・抽出する方法をステップバイステップで解説します。XPath や CSS セレクタの活用例を含む完全ガイドです。
+### [Java で HTML 文字数をカウントする – Aspose HTML 完全ガイド](./count-html-characters-in-java-full-guide-with-aspose-html/)
+Aspose.HTML for Java を使用し、Java で HTML の文字数を正確にカウントする方法をステップバイステップで解説します。実践的な例とベストプラクティスを提供。
+
 ### [Java で HTML を解析する方法 – ロード、クエリ、要素のカウント](./how-to-parse-html-java-load-query-count-elements/)
 ### [Java で非同期 JavaScript を実行する – 完全ステップバイステップガイド](./execute-async-javascript-in-java-complete-step-by-step-guide/)
 Java アプリケーションで非同期 JavaScript を実行し、動的な Web コンテンツを操作する方法をステップバイステップで学びます。
-### [Java で HTML 文字数をカウントする – Aspose HTML 完全ガイド](./count-html-characters-in-java-full-guide-with-aspose-html/)
-Aspose.HTML for Java を使用し、Java で HTML の文字数を正確にカウントする方法をステップバイステップで解説します。実践的な例とベストプラクティスを提供。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
