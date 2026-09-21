@@ -68,6 +68,10 @@ Java için Aspose.HTML kullanarak HTML sandbox oluşturmayı adım adım öğren
 Java için Aspose.HTML kullanarak HTML içeriğini nasıl sorgulayacağınızı adım adım öğrenin.
 ### [Java ile HTML Belgesi Oluşturma – JSON Getir ve İçerik Üret](./create-html-document-with-java-fetch-json-and-generate-conte/)
 Java için Aspose.HTML ile JSON verilerini çekip dinamik HTML içeriği oluşturmayı adım adım öğrenin.
+### [Java için Aspose.HTML'de HTML Belgesi Yükleme – XPath ve CSS ile Tam Kılavuz](./load-html-document-java-complete-guide-with-xpath-css/)
+Java için Aspose.HTML kullanarak XPath ve CSS ile HTML belgelerini nasıl yükleyeceğinizi ve sorgulayacağınızı öğrenin.
+### [Java için Aspose.HTML'de HTML karakterlerini sayma – Tam Kılavuz](./count-html-characters-in-java-full-guide-with-aspose-html/)
+Java uygulamalarında Aspose.HTML kullanarak HTML belgelerindeki karakter sayısını adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

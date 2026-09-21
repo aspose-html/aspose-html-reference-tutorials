@@ -136,6 +136,8 @@ Lär dig hur du ställer in enhetens pixelratio i Java‑sandboxen för mobila e
 Lär dig hur du aktiverar JavaScript i Aspose.HTML, laddar HTML och extraherar text från dokumentet.
 ### [Hur man kör skript i Java – Komplett guide för att köra JavaScript och extrahera data](./how-to-run-scripts-in-java-complete-guide-to-execute-javascr/)
 Lär dig hur du kör JavaScript i Java, exekverar skript och extraherar data med Aspose.HTML för Java.
+### [Hur man använder Aspose för att konvertera EPUB till DOCX – Steg‑för‑steg‑guide](./how-to-use-aspose-to-convert-epub-to-docx-step-by-step-guide/)
+Lär dig konvertera EPUB‑filer till DOCX med Aspose i Java, steg för steg.
 
 ---
 

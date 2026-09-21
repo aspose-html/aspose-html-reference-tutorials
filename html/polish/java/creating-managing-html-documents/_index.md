@@ -74,6 +74,10 @@ Dowiedz się, jak skonfigurować bezpieczną piaskownicę HTML w Javie, aby test
 Dowiedz się, jak efektywnie zapytać i przetwarzać dokumenty HTML w Javie przy użyciu Aspose.HTML.
 ### [Jak parsować HTML w Javie – ładowanie, zapytania i liczenie elementów](./how-to-parse-html-java-load-query-count-elements/)
 Dowiedz się, jak ładować dokumenty HTML, wykonywać zapytania i liczyć elementy przy użyciu Aspose.HTML dla Java.
+### [Ładowanie dokumentu HTML w Javie – Kompletny przewodnik z XPath i CSS](./load-html-document-java-complete-guide-with-xpath-css/)
+Poznaj pełny przewodnik, jak ładować dokumenty HTML w Javie, wykorzystując XPath i selektory CSS w Aspose.HTML.
+### [Policz znaki HTML w Javie – Kompletny przewodnik z Aspose HTML](./count-html-characters-in-java-full-guide-with-aspose-html/)
+Dowiedz się, jak liczyć znaki w dokumentach HTML przy użyciu Aspose.HTML w Javie. Praktyczny przewodnik krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

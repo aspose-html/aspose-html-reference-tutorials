@@ -135,6 +135,8 @@ Hướng dẫn cách thiết lập DevicePixelRatio trong môi trường Sandbox
 ### [Cách bật JavaScript trong Aspose HTML – Tải HTML & Lấy văn bản](./how-to-enable-javascript-in-aspose-html-load-html-get-text/)
 Tìm hiểu cách bật JavaScript khi tải HTML và trích xuất văn bản bằng Aspose.HTML for Java.
 ### [Cách chạy script trong Java – Hướng dẫn đầy đủ để thực thi JavaScript & trích xuất dữ liệu](./how-to-run-scripts-in-java-complete-guide-to-execute-javascr/)
+### [Cách sử dụng Aspose để chuyển đổi EPUB sang DOCX – Hướng dẫn từng bước](./how-to-use-aspose-to-convert-epub-to-docx-step-by-step-guide/)
+Hướng dẫn chi tiết cách chuyển đổi tệp EPUB sang DOCX bằng Aspose, bao gồm các bước cấu hình và lưu trữ kết quả.
 
 ---
 

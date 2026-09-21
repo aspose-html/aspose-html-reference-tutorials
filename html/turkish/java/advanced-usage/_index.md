@@ -136,6 +136,8 @@ Java’da Mobil Sandbox ortamında cihaz piksel oranını nasıl ayarlayacağın
 Aspose.HTML ile JavaScript'i etkinleştirerek HTML yükleyin ve metni çıkarın.
 ### [Java’da Script Çalıştırma – JavaScript Çalıştırma ve Veri Çıkarma İçin Tam Kılavuz](./how-to-run-scripts-in-java-complete-guide-to-execute-javascr/)
 Java’da JavaScript çalıştırmayı, scriptleri yürütmeyi ve veri çıkarmayı adım adım öğrenin.
+### [Aspose ile EPUB’u DOCX’e Dönüştürme – Adım Adım Kılavuz](./how-to-use-aspose-to-convert-epub-to-docx-step-by-step-guide/)
+Aspose.HTML for Java kullanarak EPUB dosyalarını DOCX formatına nasıl dönüştüreceğinizi adım adım öğrenin.
 
 ---
 

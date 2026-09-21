@@ -107,6 +107,8 @@ Aspose.HTML for Java를 사용해 맞춤 뷰포트 설정으로 HTML을 PNG 이�
 ### [SVG에서 GIF를 만들기 – 단계별 Java 가이드](./how-to-create-gif-from-svg-step-by-step-java-guide/)
 ### [HTML에서 썸네일 생성 – Java 가이드](./how-to-generate-thumbnail-from-html-java-guide/)
 Aspose.HTML for Java를 사용해 HTML 페이지에서 썸네일 이미지를 생성하는 방법을 단계별로 안내합니다.
+### [Java에서 SVG를 PNG로 변환할 때 DPI 설정 방법](./how-to-set-dpi-when-converting-svg-to-png-with-java/)
+Java와 Aspose.HTML을 사용해 SVG를 PNG로 변환하면서 DPI를 지정하는 방법을 단계별로 안내합니다.
 
 ### [Java에서 HTML을 PNG로 생성 – 전체 단계별 가이드](./create-png-from-html-in-java-full-step-by-step-guide/)
 Java에서 Aspose.HTML를 활용해 HTML을 PNG 파일로 변환하는 전체 과정을 단계별로 안내합니다.

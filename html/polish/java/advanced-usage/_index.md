@@ -135,6 +135,8 @@ Dowiedz się, jak ustawić współczynnik pikseli urządzenia w środowisku Mobi
 ### [Jak włączyć JavaScript w Aspose HTML – Ładowanie HTML i pobieranie tekstu](./how-to-enable-javascript-in-aspose-html-load-html-get-text/)
 ### [Jak uruchamiać skrypty w Javie – Kompletny przewodnik po wykonywaniu JavaScript i wyciąganiu danych](./how-to-run-scripts-in-java-complete-guide-to-execute-javascr/)
 Poznaj, jak uruchamiać skrypty JavaScript w Javie i wyodrębniać potrzebne dane przy pomocy Aspose.HTML.
+### [Jak używać Aspose do konwersji EPUB na DOCX – przewodnik krok po kroku](./how-to-use-aspose-to-convert-epub-to-docx-step-by-step-guide/)
+Dowiedz się, jak konwertować pliki EPUB do DOCX przy użyciu Aspose, krok po kroku.
 
 ---
 

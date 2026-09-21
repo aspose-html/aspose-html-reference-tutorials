@@ -139,6 +139,8 @@ Erfahren Sie, wie Sie die Skriptausführung in Java mit Aspose.HTML aktivieren u
 Erfahren Sie, wie Sie JavaScript in Aspose HTML aktivieren, HTML laden und den Textinhalt auslesen.
 ### [Wie man Skripte in Java ausführt – Vollständiger Leitfaden zum Ausführen von JavaScript & Extrahieren von Daten](./how-to-run-scripts-in-java-complete-guide-to-execute-javascr/)
 Erfahren Sie, wie Sie JavaScript in Java ausführen und Daten aus Skripten extrahieren können.
+### [Wie man Aspose verwendet, um EPUB in DOCX zu konvertieren – Schritt‑für‑Schritt‑Anleitung](./how-to-use-aspose-to-convert-epub-to-docx-step-by-step-guide/)
+Erfahren Sie, wie Sie EPUB‑Dateien mit Aspose in DOCX‑Dokumente konvertieren und dabei Formatierung und Inhalte erhalten.
 
 ---
 

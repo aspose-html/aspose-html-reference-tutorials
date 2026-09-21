@@ -65,6 +65,8 @@ JSON 데이터를 가져와 동적으로 HTML 콘텐츠를 생성하는 방법�
 Java용 Aspose.HTML을 사용하여 HTML을 효율적으로 쿼리하는 방법을 단계별로 안내합니다.
 ### [Java용 HTML 파싱 방법 – 로드, 쿼리 및 요소 개수 세기](./how-to-parse-html-java-load-query-count-elements/)
 Aspose.HTML for Java를 사용하여 HTML을 로드하고, 쿼리하고, 요소 개수를 세는 방법을 단계별로 안내합니다.
+### [Java용 HTML 문서 로드 – XPath 및 CSS 완전 가이드](./load-html-document-java-complete-guide-with-xpath-css/)
+XPath와 CSS 선택자를 활용해 Java에서 HTML 문서를 로드하고 쿼리하는 방법을 단계별로 안내합니다.
 ### [Java용 Aspose.HTML을 사용하여 새 HTML 문서 생성](./generate-new-html-documents/)
 이 간단한 단계별 가이드를 통해 Aspose.HTML for Java를 사용하여 새 HTML 문서를 만드는 방법을 알아보세요. 동적 HTML 콘텐츠 생성을 시작하세요.
 ### [Java용 Aspose.HTML에서 문서 로드 이벤트 처리](./handle-document-load-events/)
@@ -76,6 +78,8 @@ Aspose.HTML for Java를 사용하여 안전한 HTML 샌드박스를 설정하고
 ### [Java용 Aspose.HTML에서 비동기 JavaScript 실행 – 완전 단계별 가이드](./execute-async-javascript-in-java-complete-step-by-step-guide/)
 Aspose.HTML for Java를 활용해 Java에서 비동기 JavaScript를 실행하는 방법을 단계별로 배워보세요.
 
+### [Java에서 HTML 문자 수 세기 – Aspose HTML을 활용한 전체 가이드](./count-html-characters-in-java-full-guide-with-aspose-html/)
+Aspose.HTML for Java를 사용하여 HTML 문자열의 문자 수를 정확히 계산하는 방법을 단계별로 안내합니다.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

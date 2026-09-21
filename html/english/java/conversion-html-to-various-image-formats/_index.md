@@ -108,6 +108,8 @@ Learn how to easily convert HTML to TIFF using Aspose.HTML for Java. Step-by-ste
 Convert HTML to WebP using Aspose.HTML for Java. A comprehensive guide for efficient HTML‑to‑WebP image conversion.
 ### [How to Generate Thumbnail from HTML – Java Guide](./how-to-generate-thumbnail-from-html-java-guide/)
 Learn how to generate a thumbnail from HTML using Aspose.HTML for Java. A step‑by‑step guide for quick thumbnail creation.
+### [How to Set DPI When Converting SVG to PNG with Java](./how-to-set-dpi-when-converting-svg-to-png-with-java/)
+Learn how to set DPI during SVG to PNG conversion in Java using Aspose.HTML, ensuring proper image resolution.
 
 ### [How to Render HTML to PNG – Complete Guide for Java Developers](./how-to-render-html-to-png-complete-guide-for-java-developers/)
 A complete guide for Java developers on rendering HTML pages to PNG images using Aspose.HTML, with step‑by‑step code examples.

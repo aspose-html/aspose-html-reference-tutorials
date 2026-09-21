@@ -124,6 +124,9 @@ weight: 24
 ### [使用 Aspose HTML 捕获网页截图 – Java 指南](./how-to-capture-screenshot-of-a-webpage-with-aspose-html-java/)
 学习如何使用 Aspose.HTML for Java 捕获网页截图的完整步骤和示例。
 
+### [在 Java 中将 SVG 转换为 PNG 时设置 DPI](./how-to-set-dpi-when-converting-svg-to-png-with-java/)
+了解如何在使用 Aspose.HTML for Java 将 SVG 转换为 PNG 时自定义 DPI，以获得所需的图像分辨率。
+
 ## 常见问题解答
 
 **Q: 我可以使用 Java 将 HTML 转换为 PNG 而无需额外的图像库吗？**  

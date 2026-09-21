@@ -86,11 +86,16 @@ Sebagai kesimpulan, menguasai **html to pdf java** dan rangkaian konversi yang l
 ### [Mengonversi HTML ke PDF](./convert-html-to-pdf/)
 Pelajari cara mengonversi HTML ke PDF di Java menggunakan Aspose.HTML. Buat PDF berkualitas tinggi dari konten HTML Anda dengan mudah.
 
+### [Mengonversi HTML Dinamis ke PDF dengan Aspose HTML untuk Java](./convert-dynamic-html-pdf-with-aspose-html-for-java/)
+Pelajari cara mengonversi HTML dinamis menjadi PDF menggunakan Aspose.HTML for Java dengan contoh kode lengkap.
+
 ### [Mengonversi HTML ke PDF di Java – Panduan Langkah‑demi‑Langkah dengan Pengaturan Ukuran Halaman](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Panduan lengkap mengonversi HTML ke PDF di Java dengan pengaturan ukuran halaman yang dapat disesuaikan.
 
 ### [Mengonversi HTML ke PDF di Java – Panduan Lengkap dengan Penyematan Font](./convert-html-to-pdf-in-java-complete-guide-with-font-embeddi/)
 Panduan menyeluruh untuk mengonversi HTML ke PDF di Java dengan menyematkan font agar hasil PDF memiliki tampilan yang konsisten.
+### [Mengonversi HTML ke PDF di Java – Panduan Lengkap Langkah‑demi‑Langkah](./convert-html-to-pdf-in-java-complete-step-by-step-guide/)
+Panduan lengkap mengonversi HTML ke PDF di Java dengan langkah‑demi‑langkah yang jelas dan contoh kode.
 
 ### [Mengonversi HTML ke MHTML](./convert-html-to-mhtml/)
 Konversi HTML ke MHTML dengan mudah menggunakan Aspose.HTML untuk Java. Ikuti panduan langkah‑demi‑langkah kami untuk konversi HTML‑ke‑MHTML yang efisien.
@@ -148,6 +153,11 @@ Panduan langkah demi langkah mengonversi halaman web menjadi file PDF menggunaka
 
 ### [Mengatur Ukuran Halaman PDF di Java – Panduan Lengkap HTML ke PDF](./set-pdf-page-size-in-java-complete-html-to-pdf-guide/)
 Pelajari cara mengatur ukuran halaman PDF saat mengonversi HTML ke PDF di Java menggunakan Aspose.HTML.
+### [Cara mengompres PDF dengan Aspose HTML ke PDF – Panduan Java](./how-to-compress-pdf-with-aspose-html-to-pdf-java-guide/)
+Pelajari cara mengompres file PDF menggunakan Aspose.HTML for Java untuk mengurangi ukuran tanpa mengorbankan kualitas.
+
+### [Cara Menggunakan Aspose – Batch Convert HTML ke PDF di Java](./how-to-use-aspose-batch-convert-html-to-pdf-in-java/)
+Pelajari cara mengonversi banyak file HTML menjadi PDF secara batch dengan Aspose.HTML for Java.
 
 ## Pertanyaan yang Sering Diajukan
 

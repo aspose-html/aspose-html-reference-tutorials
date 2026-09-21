@@ -61,6 +61,9 @@ url: /th/java/css-html-form-editing/
 เรียนรู้วิธีดึงสไตล์ที่คำนวณขององค์ประกอบ HTML ด้วย Aspose.HTML สำหรับ Java ผ่านคู่มือขั้นตอนเต็มรูปแบบ
 ### [วิธีใช้ getcomputedstyle ใน Java – ดึงสีพื้นหลังและคุณสมบัติ CSS อื่น ๆ](./how-to-use-getcomputedstyle-in-java-extract-background-color/)
 เรียนรู้การใช้ getComputedStyle ใน Java เพื่อดึงสีพื้นหลังและคุณสมบัติ CSS อื่น ๆ อย่างง่าย
+### [สกัด CSS จาก HTML ใน Java – คู่มือทีละขั้นตอน](./extract-css-from-html-in-java-step-by-step-guide/)
+เรียนรู้วิธีสกัด CSS จากไฟล์ HTML ด้วย Aspose.HTML สำหรับ Java ในคู่มือทีละขั้นตอนนี้
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -104,6 +104,9 @@ weight: 24
 
 ### [如何使用自訂視口渲染 HTML 為 PNG](./how-to-render-html-to-png-with-custom-viewport/)
 
+### [如何在 Java 中將 SVG 轉換為 PNG 時設定 DPI](./how-to-set-dpi-when-converting-svg-to-png-with-java/)
+說明如何在使用 Aspose.HTML for Java 時，設定 SVG 轉 PNG 的 DPI 以獲得所需解析度。
+
 ### [將 HTML 轉換為 WebP](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
 
 ### [將 HTML 轉換為 TIFF](./convert-html-to-tiff/)

@@ -60,6 +60,8 @@ Aspose.HTML สำหรับ Java นำเสนอชุดเครื่�
 เรียนรู้วิธีสร้าง HTML จากโค้ด JavaScript ใน Java ด้วยคู่มือขั้นตอนเต็มที่อธิบายอย่างละเอียด
 ### [โหลดเอกสาร HTML จาก URL ใน Aspose.HTML สำหรับ Java](./load-html-documents-from-url/)
 ค้นพบวิธีการโหลดเอกสาร HTML จาก URL ใน Java ได้อย่างง่ายดายด้วย Aspose.HTML พร้อมบทช่วยสอนแบบทีละขั้นตอน
+### [โหลดเอกสาร HTML ใน Java – คู่มือฉบับสมบูรณ์ด้วย XPath & CSS](./load-html-document-java-complete-guide-with-xpath-css/)
+เรียนรู้วิธีโหลดเอกสาร HTML ใน Java พร้อมการใช้ XPath และ CSS อย่างละเอียดในคู่มือฉบับสมบูรณ์
 ### [สร้างเอกสาร HTML ใหม่โดยใช้ Aspose.HTML สำหรับ Java](./generate-new-html-documents/)
 เรียนรู้วิธีสร้างเอกสาร HTML ใหม่โดยใช้ Aspose.HTML สำหรับ Java ด้วยคู่มือทีละขั้นตอนง่ายๆ นี้ เริ่มต้นสร้างเนื้อหา HTML แบบไดนามิก
 ### [จัดการเหตุการณ์การโหลดเอกสารใน Aspose.HTML สำหรับ Java](./handle-document-load-events/)
@@ -76,6 +78,8 @@ Aspose.HTML สำหรับ Java นำเสนอชุดเครื่�
 เรียนรู้วิธีโหลดเอกสาร HTML, คิวรีข้อมูลและนับจำนวนองค์ประกอบใน Java ด้วย Aspose.HTML อย่างละเอียด
 ### [ดำเนินการ JavaScript แบบอะซิงโครนัสใน Java – คู่มือขั้นตอนเต็ม](./execute-async-javascript-in-java-complete-step-by-step-guide/)
 เรียนรู้วิธีดำเนินการ JavaScript แบบอะซิงโครนัสใน Java ด้วย Aspose.HTML ผ่านคู่มือขั้นตอนเต็มที่เข้าใจง่าย
+### [นับอักขระ HTML ใน Java – คู่มือฉบับสมบูรณ์ด้วย Aspose HTML](./count-html-characters-in-java-full-guide-with-aspose-html/)
+เรียนรู้วิธีนับอักขระทั้งหมดในเอกสาร HTML ด้วย Aspose.HTML สำหรับ Java ผ่านคู่มือฉบับสมบูรณ์
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

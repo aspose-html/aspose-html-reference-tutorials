@@ -107,6 +107,8 @@ Dowiedz się, jak przy użyciu Aspose.HTML for Java wygenerować miniaturkę str
 
 ### [Jak renderować HTML do PNG z niestandardowym viewportem](./how-to-render-html-to-png-with-custom-viewport/)
 Dowiedz się, jak ustawić własny rozmiar viewportu przy renderowaniu HTML do PNG w Javie przy użyciu Aspose.HTML.
+### [Jak ustawić DPI przy konwertowaniu SVG do PNG w Javie](./how-to-set-dpi-when-converting-svg-to-png-with-java/)
+Dowiedz się, jak ustawić DPI podczas konwersji SVG do PNG w Javie przy użyciu Aspose.HTML.
 
 ### [Converting HTML to TIFF](./convert-html-to-tiff/)
 Dowiedz się, jak łatwo konwertować HTML do TIFF przy użyciu Aspose.HTML for Java. Przewodnik krok po kroku dla efektywnego zarządzania dokumentami.

@@ -63,6 +63,8 @@ Dowiedz się, jak w Javie uzyskać obliczone style elementu i wyodrębnić kolor
 Dowiedz się, jak w Javie uzyskać obliczony styl elementu przy użyciu Aspose.HTML, krok po kroku.
 ### [Jak używać getComputedStyle w Javie – Pobieranie koloru tła i innych właściwości CSS](./how-to-use-getcomputedstyle-in-java-extract-background-color/)
 Dowiedz się, jak za pomocą Aspose.HTML w Javie odczytać właściwości CSS, w tym kolor tła, przy użyciu metody getComputedStyle.
+### [Wyodrębnianie CSS z HTML w Javie – Przewodnik krok po kroku](./extract-css-from-html-in-java-step-by-step-guide/)
+Dowiedz się, jak programowo wyodrębnić arkusze stylów CSS z dokumentów HTML w Javie, korzystając z Aspose.HTML, w prostym przewodniku krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

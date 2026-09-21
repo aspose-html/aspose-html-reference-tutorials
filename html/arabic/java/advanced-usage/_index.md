@@ -142,6 +142,9 @@ weight: 20
 
 ### [كيفية تشغيل السكريبتات في Java – دليل كامل لتنفيذ JavaScript واستخراج البيانات](./how-to-run-scripts-in-java-complete-guide-to-execute-javascr/)
 
+### [كيفية استخدام Aspose لتحويل EPUB إلى DOCX – دليل خطوة بخطوة](./how-to-use-aspose-to-convert-epub-to-docx-step-by-step-guide/)
+تعلم كيفية تحويل ملفات EPUB إلى DOCX باستخدام Aspose خطوة بخطوة.
+
 ---
 
 **آخر تحديث:** 2025-11-29  

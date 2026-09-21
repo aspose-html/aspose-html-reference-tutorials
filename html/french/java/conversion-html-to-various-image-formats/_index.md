@@ -2,7 +2,7 @@
 date: 2025-12-19
 description: Apprenez à convertir HTML, GIF et d’autres formats tels que BMP, JPEG,
   PNG et TIFF à l’aide d’Aspose.HTML pour Java. Ce guide couvre la conversion efficace
-de HTML en image.
+  de HTML en image.
 linktitle: Conversion - HTML to Various Image Formats
 second_title: Java HTML Processing with Aspose.HTML
 title: convertir html gif – Conversion du HTML en différents formats d'image
@@ -119,6 +119,8 @@ Apprenez à définir le DPI lors de la conversion HTML en PNG avec Aspose.HTML f
 Apprenez à capturer une capture d'écran d'une page Web avec Aspose.HTML for Java. Guide étape par étape pour obtenir des images précises.
 ### [Convertir HTML en WebP – Guide Java pour enregistrer HTML au format WebP](./convert-html-to-webp-java-guide-to-save-html-as-webp/)
 Apprenez à convertir HTML en WebP avec Aspose.HTML for Java. Guide complet étape par étape pour enregistrer HTML au format WebP.
+### [Comment définir le DPI lors de la conversion SVG en PNG avec Java](./how-to-set-dpi-when-converting-svg-to-png-with-java/)
+Apprenez à définir le DPI lors de la conversion de SVG en PNG avec Aspose.HTML for Java.
 
 ## Questions fréquemment posées
 

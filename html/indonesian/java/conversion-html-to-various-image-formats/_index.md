@@ -108,6 +108,8 @@ Pelajari cara merender HTML ke PNG dengan viewport khusus menggunakan Aspose.HTM
 Pelajari cara mengonversi file SVG menjadi animasi GIF menggunakan Aspose.HTML for Java dengan contoh kode lengkap.
 ### [Cara Membuat Thumbnail dari HTML – Panduan Java](./how-to-generate-thumbnail-from-html-java-guide/)
 Pelajari cara menghasilkan thumbnail dari HTML menggunakan Aspose.HTML for Java dalam panduan langkah demi langkah yang mudah diikuti.
+### [Cara Mengatur DPI Saat Mengonversi SVG ke PNG dengan Java](./how-to-set-dpi-when-converting-svg-to-png-with-java/)
+Pelajari cara mengatur DPI saat mengonversi SVG ke PNG dengan Java menggunakan Aspose.HTML. Panduan langkah demi langkah yang komprehensif.
 
 ### [Buat PNG dari HTML di Java – Panduan Lengkap Langkah‑per‑Langkah](./create-png-from-html-in-java-full-step-by-step-guide/)
 Panduan lengkap membuat file PNG dari HTML menggunakan Aspose.HTML for Java, dengan langkah‑langkah detail dan contoh kode siap pakai.

@@ -135,6 +135,8 @@ Leer hoe je JavaScript kunt embedden en uitvoeren binnen Java‑applicaties met 
 Leer hoe je JavaScript inschakelt in Aspose HTML, HTML laadt en tekst extrahert met Java.
 ### [Scripts uitvoeren in Java – Complete gids voor het uitvoeren van JavaScript en gegevens extraheren](./how-to-run-scripts-in-java-complete-guide-to-execute-javascr/)
 Leer hoe je JavaScript kunt uitvoeren binnen Java en data kunt extraheren met Aspose.HTML for Java.
+### [Hoe Aspose te gebruiken om EPUB naar DOCX te converteren – Stapsgewijze gids](./how-to-use-aspose-to-convert-epub-to-docx-step-by-step-guide/)
+Leer hoe je met Aspose EPUB-bestanden naar DOCX converteert in een eenvoudige stap‑voor‑stap handleiding.
 
 ---
 

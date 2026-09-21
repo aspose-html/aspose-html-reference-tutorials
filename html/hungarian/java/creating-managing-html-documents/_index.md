@@ -64,12 +64,16 @@ Fedezze fel, hogyan tölthet be egyszerűen HTML dokumentumokat egy URL-ről Jav
 Ismerje meg, hogyan kérdezhet le HTML-t Java használatával, lépésről lépésre útmutató a hatékony adatkinyeréshez.
 ### [HTML elem betöltése, lekérdezése és számlálása Java-ban](./how-to-parse-html-java-load-query-count-elements/)
 Ismerje meg, hogyan tölthet be, kérdezhet le és számolhat meg HTML elemeket Java nyelven az Aspose.HTML segítségével.
+### [HTML-dokumentum betöltése Java-ban – Teljes útmutató XPath és CSS használatával](./load-html-document-java-complete-guide-with-xpath-css/)
+Fedezze fel, hogyan tölthet be HTML-dokumentumokat Java-ban, és használhatja az XPath és CSS szelektorokat a tartalom lekérdezéséhez.
 ### [Új HTML-dokumentumok létrehozása az Aspose.HTML for Java használatával](./generate-new-html-documents/)
 Ebből az egyszerű, lépésenkénti útmutatóból megtudhatja, hogyan hozhat létre új HTML-dokumentumokat az Aspose.HTML for Java használatával. Kezdje el a dinamikus HTML-tartalom generálását.
 ### [Kezelje a dokumentumbetöltési eseményeket az Aspose.HTML for Java-ban](./handle-document-load-events/)
 Ezzel a lépésről lépésre útmutatóval ismerkedjen meg a dokumentumbetöltési események kezelésével az Aspose.HTML for Java programban. Bővítse webalkalmazásait.
 ### [Hozzon létre és kezeljen SVG-dokumentumokat az Aspose.HTML for Java-ban](./create-manage-svg-documents/)
 Ismerje meg az SVG dokumentumok létrehozását és kezelését az Aspose.HTML for Java segítségével! Ez az átfogó útmutató az alapvető alkotástól a haladó manipulációig mindent lefed.
+### [HTML karakterek számlálása Java-ban – Teljes útmutató az Aspose HTML-lel](./count-html-characters-in-java-full-guide-with-aspose-html/)
+Ismerje meg, hogyan számolhatja meg a HTML karaktereket Java-ban az Aspose.HTML segítségével, részletes, lépésről‑lépésre útmutatóval.
 ### [HTML sandbox létrehozása Java-ban – Lépésről‑lépésre útmutató](./create-sandbox-for-html-in-java-step-by-step-guide/)
 Ismerje meg, hogyan hozhat létre biztonságos sandbox környezetet HTML feldolgozáshoz Java-ban, részletes lépésekkel.
 ### [HTML-dokumentum létrehozása Java-val – JSON lekérése és tartalom generálása](./create-html-document-with-java-fetch-json-and-generate-conte/)

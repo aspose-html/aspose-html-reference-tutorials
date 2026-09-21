@@ -63,6 +63,8 @@ Aprenda a obtener el estilo computado de un elemento y extraer su color de fondo
 Aprenda a obtener el estilo computado de un elemento usando Aspose.HTML para Java en esta guía paso a paso.
 ### [Cómo usar getComputedStyle en Java – Extraer el color de fondo y otras propiedades CSS](./how-to-use-getcomputedstyle-in-java-extract-background-color/)
 Aprenda a obtener estilos computados en Java con Aspose.HTML, extrayendo colores de fondo y otras propiedades CSS de forma programática.
+### [Extraer CSS de HTML en Java – Guía paso a paso](./extract-css-from-html-in-java-step-by-step-guide/)
+Aprenda a extraer estilos CSS de documentos HTML usando Aspose.HTML para Java en esta guía práctica paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

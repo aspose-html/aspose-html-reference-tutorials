@@ -146,6 +146,9 @@ Aprenda a habilitar JavaScript ao carregar HTML e extrair texto usando Aspose.HT
 ### [Como Executar Scripts em Java – Guia Completo para Executar JavaScript e Extrair Dados](./how-to-run-scripts-in-java-complete-guide-to-execute-javascr/)
 Aprenda a executar scripts JavaScript dentro de aplicações Java e a extrair dados de forma eficiente usando Aspose.HTML.
 
+### [Como usar Aspose para converter EPUB para DOCX – Guia passo a passo](./how-to-use-aspose-to-convert-epub-to-docx-step-by-step-guide/)
+Aprenda a converter arquivos EPUB para DOCX usando Aspose.HTML for Java em um guia detalhado passo a passo.
+
 ---
 
 **Última atualização:** 2025-11-29  

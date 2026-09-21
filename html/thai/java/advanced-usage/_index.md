@@ -136,6 +136,8 @@ Aspose.HTML ให้คุณแนบ `DomMutationObserver` ไปยังโ
 เรียนรู้วิธีเปิดใช้งาน JavaScript ใน Aspose.HTML เพื่อโหลด HTML และดึงข้อความจากเอกสาร  
 ### [วิธีรันสคริปต์ใน Java – คู่มือเต็มสำหรับการดำเนินการ JavaScript & ดึงข้อมูล](./how-to-run-scripts-in-java-complete-guide-to-execute-javascr/)
 เรียนรู้วิธีรันสคริปต์ JavaScript ใน Java เพื่อดึงข้อมูลและประมวลผลอย่างครบถ้วน
+### [วิธีใช้ Aspose แปลง EPUB เป็น DOCX – คู่มือขั้นตอนโดยละเอียด](./how-to-use-aspose-to-convert-epub-to-docx-step-by-step-guide/)
+เรียนรู้วิธีแปลงไฟล์ EPUB เป็น DOCX ด้วย Aspose อย่างละเอียดและง่ายดาย  
 
 ---
 

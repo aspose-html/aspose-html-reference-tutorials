@@ -72,7 +72,11 @@ Aspose.HTML for Java 为开发人员提供了功能强大的工具包，旨在�
 本完整教程详细讲解如何使用 Aspose.HTML for Java 查询 HTML 内容，包括选择器、XPath 和 CSS 查询等实用技巧。
 ### [如何在 Java 中解析 HTML – 加载、查询与计数元素](./how-to-parse-html-java-load-query-count-elements/)
 本教程详细讲解如何使用 Aspose.HTML for Java 加载 HTML、执行查询并统计元素数量，帮助您高效解析网页。
+### [在 Java 中加载 HTML 文档 – 完整指南，包含 XPath 与 CSS](./load-html-document-java-complete-guide-with-xpath-css/)
+本完整指南详细讲解如何在 Java 中使用 Aspose.HTML 加载 HTML 文档，并使用 XPath 与 CSS 进行查询。
 ### [在 Aspose.HTML for Java 中创建 HTML 沙盒 – 步骤指南](./create-sandbox-for-html-in-java-step-by-step-guide/)
+### [在 Java 中统计 HTML 字符 – 使用 Aspose HTML 的完整指南](./count-html-characters-in-java-full-guide-with-aspose-html/)
+本完整指南教您如何使用 Aspose.HTML for Java 统计 HTML 文本字符数，涵盖示例代码和最佳实践。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

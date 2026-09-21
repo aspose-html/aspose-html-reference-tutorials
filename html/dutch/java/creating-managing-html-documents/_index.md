@@ -76,6 +76,10 @@ Leer hoe u HTML kunt query'en in Java met deze volledige stap‑voor‑stap hand
 Leer hoe u HTML laadt, query't en elementen telt in Java met Aspose.HTML – stap‑voor‑stap handleiding.
 ### [Asynchroon JavaScript uitvoeren in Java – Complete stapsgewijze handleiding](./execute-async-javascript-in-java-complete-step-by-step-guide/)
 Leer hoe u asynchrone JavaScript-code in Java kunt uitvoeren met Aspose.HTML, inclusief stap‑voor‑stap instructies.
+### [HTML-document laden in Java – Complete gids met XPath & CSS](./load-html-document-java-complete-guide-with-xpath-css/)
+Leer stap‑voor‑stap hoe u HTML‑documenten laadt in Java met XPath‑ en CSS‑selectoren.
+### [HTML-tekens tellen in Java – Volledige gids met Aspose HTML](./count-html-characters-in-java-full-guide-with-aspose-html/)
+Leer hoe u het aantal HTML‑tekens in een document kunt tellen met Aspose.HTML voor Java in deze stapsgewijze volledige gids.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

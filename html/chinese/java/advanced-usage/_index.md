@@ -143,6 +143,9 @@ Aspose.HTML 允许您将 `DomMutationObserver` 附加到任意节点。这对于
 
 ### [如何在 Java 中运行脚本 – 完整指南：执行 JavaScript 并提取数据](./how-to-run-scripts-in-java-complete-guide-to-execute-javascr/)
 
+### [如何使用 Aspose 将 EPUB 转换为 DOCX – 步骤指南](./how-to-use-aspose-to-convert-epub-to-docx-step-by-step-guide/)
+学习如何使用 Aspose 将 EPUB 电子书转换为 DOCX 文档的完整步骤，适用于 Java 环境。
+
 ---
 **最后更新：** 2025-11-29  
 **测试环境：** Aspose.HTML for Java 24.11  

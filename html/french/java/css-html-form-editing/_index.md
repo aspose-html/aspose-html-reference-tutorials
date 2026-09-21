@@ -64,6 +64,9 @@ Apprenez à extraire la couleur d'arrière-plan d'un élément HTML en utilisant
 Apprenez à récupérer le style calculé d'un élément HTML en Java avec Aspose.HTML, grâce à un guide détaillé pas à pas.
 ### [Comment utiliser getComputedStyle en Java – Extraire la couleur d'arrière-plan et d'autres propriétés CSS](./how-to-use-getcomputedstyle-in-java-extract-background-color/)
 Apprenez à récupérer la couleur d'arrière-plan et d'autres propriétés CSS d'un élément avec getComputedStyle en Java.
+### [Extraction du CSS à partir de HTML en Java – Guide étape par étape](./extract-css-from-html-in-java-step-by-step-guide/)
+Apprenez à extraire les feuilles de style CSS d'un document HTML en Java avec Aspose.HTML grâce à un guide détaillé pas à pas.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

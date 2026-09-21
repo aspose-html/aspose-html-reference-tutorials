@@ -136,6 +136,8 @@ Naučte se, jak nastavit poměr pixelů zařízení v Javě pomocí mobilního s
 Naučte se povolit JavaScript při načítání HTML v Aspose.HTML a získat textový obsah dokumentu.
 ### [Jak spouštět skripty v Javě – Kompletní průvodce pro vykonání JavaScriptu a extrakci dat](./how-to-run-scripts-in-java-complete-guide-to-execute-javascr/)
 Naučte se spouštět JavaScript v Javě a extrahovat data pomocí Aspose.HTML pro Java.
+### [Jak použít Aspose k převodu EPUB do DOCX – krok za krokem](./how-to-use-aspose-to-convert-epub-to-docx-step-by-step-guide/)
+Naučte se převádět soubory EPUB do DOCX pomocí Aspose.HTML pro Java v podrobném krok‑za‑krokem průvodci.
 
 ---
 

@@ -63,6 +63,8 @@ Pelajari cara menggunakan Aspose.HTML untuk Java guna mengambil gaya terhitung d
 Pelajari cara memperoleh gaya terhitung elemen HTML menggunakan Aspose.HTML untuk Java dalam panduan lengkap langkah demi langkah.
 ### [Cara menggunakan getComputedStyle di Java – Ekstrak warna latar belakang dan properti CSS lainnya](./how-to-use-getcomputedstyle-in-java-extract-background-color/)
 Pelajari cara menggunakan metode getComputedStyle di Java untuk mengekstrak warna latar belakang serta properti CSS lainnya secara terprogram.
+### [Ekstrak CSS dari HTML di Java – Panduan Langkah‑per‑Langkah](./extract-css-from-html-in-java-step-by-step-guide/)
+Pelajari cara mengekstrak CSS dari dokumen HTML menggunakan Java dengan panduan langkah demi langkah yang mudah diikuti.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -103,6 +103,9 @@ Scopri come convertire più file HTML in PNG in batch usando Aspose.HTML for Jav
 ### [Come rendere HTML in PNG con viewport personalizzato](./how-to-render-html-to-png-with-custom-viewport/)
 Scopri come rendere HTML in PNG con un viewport personalizzato usando Aspose.HTML for Java. Guida passo‑passo per controllare dimensioni e scala.
 
+### [Come impostare DPI durante la conversione da SVG a PNG con Java](./how-to-set-dpi-when-converting-svg-to-png-with-java/)
+Impara a configurare il DPI per ottenere PNG di alta qualità dalla conversione di SVG usando Aspose.HTML for Java.
+
 ### [Conversione di HTML in TIFF](./convert-html-to-tiff/)
 Scopri come convertire facilmente HTML in TIFF usando Aspose.HTML for Java. Guida passo‑passo per una gestione efficiente dei documenti.
 

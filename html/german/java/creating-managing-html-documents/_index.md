@@ -69,6 +69,12 @@ Erfahren Sie, wie Sie in Aspose.HTML für Java eine sichere Sandbox für HTML er
 ### [Wie man HTML in Java abfragt – Komplettes Tutorial](./how-to-query-html-in-java-complete-tutorial/)
 Erfahren Sie, wie Sie HTML-Inhalte in Java abfragen und verarbeiten – Schritt‑für‑Schritt‑Anleitung für vollständiges Verständnis.
 
+### [HTML-Dokument in Java laden – Komplett‑Leitfaden mit XPath & CSS](./load-html-document-java-complete-guide-with-xpath-css/)
+Lernen Sie, HTML-Dokumente in Java zu laden und mit XPath und CSS zu analysieren – Schritt‑für‑Schritt‑Anleitung.
+
+### [HTML‑Zeichen in Java zählen – Vollständiger Leitfaden mit Aspose HTML](./count-html-characters-in-java-full-guide-with-aspose-html/)
+Erfahren Sie, wie Sie mit Aspose.HTML für Java die Anzahl von HTML‑Zeichen ermitteln – Schritt‑für‑Schritt‑Anleitung.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

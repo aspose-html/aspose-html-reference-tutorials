@@ -63,6 +63,8 @@ url: /zh/java/css-html-form-editing/
 本指南详细演示如何在 Java 中使用 Aspose.HTML 获取元素的计算样式，提供完整的分步说明。
 ### [在 Java 中使用 getComputedStyle – 提取背景颜色和其他 CSS 属性](./how-to-use-getcomputedstyle-in-java-extract-background-color/)
 了解如何使用 Aspose.HTML for Java 的 getComputedStyle 方法获取元素的背景颜色及其他 CSS 属性。
+### [在 Java 中从 HTML 提取 CSS – 步骤指南](./extract-css-from-html-in-java-step-by-step-guide/)
+本教程详细演示如何使用 Aspose.HTML for Java 从 HTML 文档中提取 CSS 样式，提供完整的步骤和示例。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

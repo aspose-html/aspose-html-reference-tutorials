@@ -136,6 +136,8 @@ Java में मोबाइल सैंडबॉक्स का उपय�
 Aspose.HTML में JavaScript सक्रिय करके HTML लोड करें और टेक्स्ट निकालें, इस चरण‑दर‑चरण गाइड में देखें।
 ### [Java में स्क्रिप्ट चलाना कैसे – JavaScript निष्पादित करने और डेटा निकालने की पूर्ण गाइड](./how-to-run-scripts-in-java-complete-guide-to-execute-javascr/)
 Java एप्लिकेशन में JavaScript चलाने, स्क्रिप्ट निष्पादन और डेटा निष्कर्षण के चरण‑दर‑चरण निर्देश।
+### [Aspose का उपयोग करके EPUB को DOCX में बदलना – चरण‑दर‑चरण गाइड](./how-to-use-aspose-to-convert-epub-to-docx-step-by-step-guide/)
+Aspose लाइब्रेरी से EPUB फ़ाइल को DOCX में परिवर्तित करने के सभी चरणों को सीखें।
 
 ---
 

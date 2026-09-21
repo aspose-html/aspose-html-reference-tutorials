@@ -43,6 +43,8 @@ Scopri come leggere i file CSS in Java utilizzando Aspose.HTML in questa guida c
 Impara a estrarre proprietà CSS da un documento HTML e a determinare la dimensione dei font usando Java.
 ### [Come interrogare HTML in Java – caricare HTML, selettore CSS ed estrarre intestazioni](./how-to-query-html-in-java-load-html-css-selector-and-extract/)
 Impara a caricare un documento HTML, utilizzare selettori CSS e estrarre i titoli con Java.
+### [Estrai CSS da HTML in Java – Guida passo‑passo](./extract-css-from-html-in-java-step-by-step-guide/)
+Scopri come estrarre i CSS da un documento HTML usando Aspose.HTML per Java in questa guida dettagliata passo dopo passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

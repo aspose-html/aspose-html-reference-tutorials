@@ -61,6 +61,8 @@ Hướng dẫn cách sử dụng Aspose.HTML cho Java để lấy kiểu tính t
 Hướng dẫn chi tiết cách lấy kiểu tính toán của phần tử trong Java bằng Aspose.HTML, bao gồm các ví dụ thực tế và mã nguồn mẫu.
 ### [Cách sử dụng getComputedStyle trong Java – Trích xuất màu nền và các thuộc tính CSS khác](./how-to-use-getcomputedstyle-in-java-extract-background-color/)
 Hướng dẫn cách dùng getComputedStyle trong Java để lấy màu nền và các thuộc tính CSS khác của phần tử.
+### [Trích xuất CSS từ HTML trong Java – Hướng dẫn từng bước](./extract-css-from-html-in-java-step-by-step-guide/)
+Hướng dẫn chi tiết cách trích xuất CSS từ tài liệu HTML bằng Aspose.HTML cho Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

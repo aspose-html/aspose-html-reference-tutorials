@@ -52,6 +52,8 @@ Exploitez la puissance de la manipulation HTML avec Aspose.HTML pour Java. Appre
 Découvrez comment charger, manipuler et enregistrer des documents HTML à l'aide d'Aspose.HTML pour Java dans ce guide étape par étape. Débloquez le traitement HTML avancé dans vos projets Java.
 ### [Charger des documents HTML à partir d'un flux avec Aspose.HTML pour Java](./load-html-documents-from-stream/)
 Découvrez comment charger des documents HTML à partir de flux à l'aide d'Aspose.HTML pour Java. Ce guide fournit un didacticiel étape par étape pour une manipulation HTML transparente.
+### [Charger un document HTML Java – Guide complet avec XPath et CSS dans Aspose.HTML pour Java](./load-html-document-java-complete-guide-with-xpath-css/)
+Apprenez à charger des documents HTML en Java avec Aspose.HTML, en utilisant XPath et CSS pour extraire et styliser le contenu.
 ### [Créer des documents HTML à partir d'une chaîne dans Aspose.HTML pour Java](./create-html-documents-from-string/)
 Apprenez à créer des documents HTML à partir de chaînes dans Aspose.HTML pour Java avec ce guide étape par étape.
 ### [Charger des documents HTML à partir d'une URL dans Aspose.HTML pour Java](./load-html-documents-from-url/)
@@ -68,6 +70,8 @@ Apprenez à créer un environnement sécurisé pour manipuler du HTML en Java av
 Apprenez à interroger et extraire des données HTML en Java avec Aspose.HTML grâce à ce guide complet étape par étape.
 ### [Créer un document HTML avec Java – Récupérer JSON et générer du contenu](./create-html-document-with-java-fetch-json-and-generate-conte/)
 Apprenez à récupérer des données JSON et à générer dynamiquement du contenu HTML en Java avec Aspose.HTML.
+### [Compter les caractères HTML en Java – Guide complet avec Aspose.HTML](./count-html-characters-in-java-full-guide-with-aspose-html/)
+Apprenez à compter le nombre de caractères dans un document HTML en Java à l'aide d'Aspose.HTML, avec un guide détaillé pas à pas.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

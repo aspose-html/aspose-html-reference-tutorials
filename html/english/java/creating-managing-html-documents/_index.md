@@ -76,6 +76,10 @@ Learn how to execute asynchronous JavaScript in Java using Aspose.HTML with this
 Learn to create and manage SVG documents using Aspose.HTML for Java! This comprehensive guide covers everything from basic creation to advanced manipulation.
 ### [How to Parse HTML Java – Load, Query & Count Elements](./how-to-parse-html-java-load-query-count-elements/)
 Learn to load HTML, query elements, and count them using Aspose.HTML for Java in this comprehensive step-by-step guide.
+### [Load HTML Document Java – Complete Guide with XPath & CSS](./load-html-document-java-complete-guide-with-xpath-css/)
+Learn how to load HTML documents in Java using Aspose.HTML, with comprehensive XPath and CSS selectors guide.
+### [count html characters in Java – Full Guide with Aspose HTML](./count-html-characters-in-java-full-guide-with-aspose-html/)
+Learn how to count HTML characters in Java using Aspose.HTML with this comprehensive step‑by‑step guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

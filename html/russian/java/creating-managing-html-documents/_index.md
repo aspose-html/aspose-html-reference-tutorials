@@ -61,6 +61,8 @@ Aspose.HTML для Java предлагает мощный набор инстр�
 Узнайте, как легко загружать HTML-документы из URL в Java с помощью Aspose.HTML. Пошаговое руководство включено.
 ### [Итерация NodeList Java – чтение HTML и получение src изображения](./iterate-nodelist-java-read-html-get-image-src/)
 Узнайте, как проходить по NodeList в Java, читать HTML и извлекать атрибут src изображений с помощью Aspose.HTML.
+### [Загрузка HTML-документа Java – Полное руководство с XPath и CSS](./load-html-document-java-complete-guide-with-xpath-css/)
+Узнайте, как загружать HTML-документы в Java с помощью Aspose.HTML, используя XPath и CSS для точного выбора и стилизации.
 ### [Создание новых HTML-документов с помощью Aspose.HTML для Java](./generate-new-html-documents/)
 Узнайте, как создавать новые HTML документы с помощью Aspose.HTML для Java с помощью этого простого пошагового руководства. Начните создавать динамический HTML-контент.
 ### [Обработка событий загрузки документа в Aspose.HTML для Java](./handle-document-load-events/)
@@ -73,6 +75,8 @@ Aspose.HTML для Java предлагает мощный набор инстр�
 ### [Как выполнять запросы к HTML в Java – полное руководство](./how-to-query-html-in-java-complete-tutorial/)
 ### [Выполнение асинхронного JavaScript в Java – Полное пошаговое руководство](./execute-async-javascript-in-java-complete-step-by-step-guide/)
 Узнайте, как выполнять асинхронный JavaScript в Java с помощью Aspose.HTML, следуя подробному пошаговому руководству.
+### [Подсчет символов HTML в Java – Полное руководство с Aspose HTML](./count-html-characters-in-java-full-guide-with-aspose-html/)
+Узнайте, как подсчитать количество символов HTML в Java с помощью Aspose.HTML, следуя пошаговому полному руководству.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

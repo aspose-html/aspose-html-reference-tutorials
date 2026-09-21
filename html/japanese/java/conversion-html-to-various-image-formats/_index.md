@@ -134,6 +134,9 @@ Aspose.HTML for Java でメモリ使用上限を設定しながら HTML を PNG 
 ### [Aspose HTML でウェブページのスクリーンショットを取得する – Java ガイド](./how-to-capture-screenshot-of-a-webpage-with-aspose-html-java/)
 Aspose.HTML for Java を使ってウェブページのスクリーンショットを簡単に取得する手順を解説します。
 
+### [Java で SVG を PNG に変換する際の DPI 設定方法](./how-to-set-dpi-when-converting-svg-to-png-with-java/)
+Aspose.HTML for Java を使用して SVG を PNG に変換し、DPI を設定する手順を詳しく解説します。
+
 ## よくある質問
 
 **Q: 追加の画像ライブラリなしで Java で HTML を PNG に変換できますか？**  

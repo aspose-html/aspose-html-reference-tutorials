@@ -130,6 +130,9 @@ Pelajari cara mengaktifkan eksekusi JavaScript dalam aplikasi Java menggunakan A
 
 ### [Cara Menjalankan Skrip di Java – Panduan Lengkap untuk Menjalankan JavaScript & Mengekstrak Data](./how-to-run-scripts-in-java-complete-guide-to-execute-javascr/)
 
+### [Cara Menggunakan Aspose untuk Mengonversi EPUB ke DOCX – Panduan Langkah‑per‑Langkah](./how-to-use-aspose-to-convert-epub-to-docx-step-by-step-guide/)
+Pelajari cara mengonversi file EPUB menjadi DOCX menggunakan Aspose dengan contoh kode Java langkah demi langkah.
+
 ---
 
 **Terakhir Diperbarui:** 2025-11-29  

@@ -100,6 +100,13 @@ Naučte se převádět SVG do XPS s Aspose.HTML for Java. Jednoduchý, krok‑za
 Naučte se převést HTML do PDF v Javě s podrobným nastavením velikosti stránky a dalšími možnostmi.
 ### [Převod HTML do PDF v Javě – Kompletní průvodce s vložením fontů](./convert-html-to-pdf-in-java-complete-guide-with-font-embeddi/)
 Kompletní průvodce převodem HTML do PDF v Javě s vložením všech potřebných fontů pro zachování vzhledu.
+### [Převod HTML do PDF v Javě – Kompletní krok‑za‑krokem průvodce](./convert-html-to-pdf-in-java-complete-step-by-step-guide/)
+Naučte se převést HTML do PDF v Javě pomocí podrobného průvodce krok za krokem s nastavením velikosti stránky a dalšími možnostmi.
+### [Jak komprimovat PDF pomocí Aspose HTML to PDF – Java průvodce](./how-to-compress-pdf-with-aspose-html-to-pdf-java-guide/)
+Naučte se, jak zmenšit velikost PDF souborů pomocí Aspose.HTML for Java a optimalizovat výstup pro rychlejší načítání.
+### [Převod dynamického HTML do PDF pomocí Aspose HTML pro Java](./convert-dynamic-html-pdf-with-aspose-html-for-java/)
+Naučte se generovat PDF z dynamického HTML v Javě pomocí Aspose.HTML, včetně vykonání skriptů a úpravy obsahu.
+### [Jak použít Aspose – Dávková konverze HTML do PDF v Javě](./how-to-use-aspose-batch-convert-html-to-pdf-in-java/)
 
 ### [Převod HTML do PDF v Javě – Nastavte velikost stránky PDF, rozlišení a uložte HTML jako PDF](./convert-html-to-pdf-in-java-set-pdf-page-size-resolution-and/)
 Naučte se nastavit velikost stránky, rozlišení a uložit HTML jako PDF pomocí Aspose.HTML for Java.

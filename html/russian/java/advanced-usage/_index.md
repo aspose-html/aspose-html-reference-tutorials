@@ -136,6 +136,8 @@ Aspose.HTML позволяет прикрепить `DomMutationObserver` к л�
 Узнайте, как включить выполнение JavaScript при загрузке HTML и извлечь текстовое содержимое с помощью Aspose.HTML for Java.
 ### [Как запускать скрипты в Java – Полное руководство по выполнению JavaScript и извлечению данных](./how-to-run-scripts-in-java-complete-guide-to-execute-javascr/)
 Узнайте, как запускать JavaScript в Java, выполнять скрипты и извлекать данные с помощью Aspose.HTML for Java.
+### [Как использовать Aspose для конвертации EPUB в DOCX – пошаговое руководство](./how-to-use-aspose-to-convert-epub-to-docx-step-by-step-guide/)
+Узнайте, как преобразовать файлы EPUB в DOCX с помощью Aspose, используя пошаговые инструкции и примеры кода.
 
 ---
 

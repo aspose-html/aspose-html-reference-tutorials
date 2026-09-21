@@ -107,6 +107,8 @@ Aspose.HTML for Java kullanarak HTML'yi WebP formatına yüksek kaliteyle dönü
 ### [SVG'den GIF Oluşturma – Adım Adım Java Rehberi](./how-to-create-gif-from-svg-step-by-step-java-guide/)
 ### [HTML'den Küçük Resim Oluşturma – Java Rehberi](./how-to-generate-thumbnail-from-html-java-guide/)
 Aspose.HTML for Java ile HTML'den küçük resim oluşturmayı adım adım öğrenin.
+### [Java ile SVG'yi PNG'ye Dönüştürürken DPI Nasıl Ayarlanır](./how-to-set-dpi-when-converting-svg-to-png-with-java/)
+Java ve Aspose.HTML kullanarak SVG'yi PNG'ye dönüştürürken DPI değerini ayarlamayı adım adım öğrenin.
 
 ### [HTML'yi PNG'ye Render Etme – Java Geliştiricileri için Tam Kılavuz](./how-to-render-html-to-png-complete-guide-for-java-developers/)
 Aspose.HTML for Java ile HTML'yi yüksek kaliteli PNG görüntüsüne dönüştürmeyi adım adım öğrenin.

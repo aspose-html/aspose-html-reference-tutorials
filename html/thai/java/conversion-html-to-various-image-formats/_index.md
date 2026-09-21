@@ -124,6 +124,8 @@ weight: 24
 เรียนรู้วิธีแปลง HTML เป็นรูปภาพ WebP ด้วย Aspose.HTML for Java พร้อมขั้นตอนและโค้ดตัวอย่างที่ใช้งานง่าย
 ### [วิธีจับภาพหน้าจอของเว็บเพจด้วย Aspose HTML – คู่มือ Java](./how-to-capture-screenshot-of-a-webpage-with-aspose-html-java/)
 เรียนรู้วิธีจับภาพหน้าจอของหน้าเว็บโดยใช้ Aspose.HTML สำหรับ Java ด้วยขั้นตอนง่าย ๆ และโค้ดตัวอย่าง
+### [วิธีตั้งค่า DPI เมื่อแปลง SVG เป็น PNG ด้วย Java](./how-to-set-dpi-when-converting-svg-to-png-with-java/)
+เรียนรู้วิธีตั้งค่า DPI ขณะแปลงไฟล์ SVG เป็น PNG ด้วย Java โดยใช้ Aspose.HTML เพื่อควบคุมความละเอียดของภาพ
 
 ## คำถามที่พบบ่อย
 

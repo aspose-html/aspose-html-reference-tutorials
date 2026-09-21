@@ -129,6 +129,7 @@ Aspose.HTML for Java を使用して、Java アプリケーション内で JavaS
 Aspose.HTML for Java のモバイルサンドボックスでデバイス ピクセル比を設定し、レンダリング品質を調整する方法を学びます。
 ### [Aspose HTML で JavaScript を有効にする方法 – HTML の読み込みとテキスト取得](./how-to-enable-javascript-in-aspose-html-load-html-get-text/)
 ### [Javaでスクリプトを実行する方法 – JavaScriptの実行とデータ抽出の完全ガイド](./how-to-run-scripts-in-java-complete-guide-to-execute-javascr/)
+### [Aspose を使用して EPUB を DOCX に変換する方法 – ステップバイステップ ガイド](./how-to-use-aspose-to-convert-epub-to-docx-step-by-step-guide/)
 
 ---
 

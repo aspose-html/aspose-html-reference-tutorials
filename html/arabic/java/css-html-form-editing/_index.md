@@ -62,6 +62,8 @@ url: /ar/java/css-html-form-editing/
 دليل شامل يوضح كيفية استخراج النمط المحسوب لعنصر HTML في Java باستخدام Aspose.HTML خطوة بخطوة.
 ### [كيفية استخدام getComputedStyle في Java – استخراج لون الخلفية وخصائص CSS الأخرى](./how-to-use-getcomputedstyle-in-java-extract-background-color/)
 تعلم كيفية الحصول على أنماط CSS مثل لون الخلفية باستخدام getComputedStyle في Java وتطبيقها برمجيًا.
+### [استخراج CSS من HTML في Java – دليل خطوة بخطوة](./extract-css-from-html-in-java-step-by-step-guide/)
+تعلم كيفية استخراج ملفات CSS من مستندات HTML باستخدام Aspose.HTML لـ Java في هذا الدليل العملي خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -142,6 +142,8 @@ A: 不需要。單一的 Aspose.HTML for Java 授權即涵蓋所有輸出格式�
 
 ### [如何在 Java 中執行腳本 – 完整指南：執行 JavaScript 與提取資料](./how-to-run-scripts-in-java-complete-guide-to-execute-javascr/)
 
+### [如何使用 Aspose 將 EPUB 轉換為 DOCX – 步驟說明指南](./how-to-use-aspose-to-convert-epub-to-docx-step-by-step-guide/)
+
 ---
 
 **最後更新日期：** 2025-11-29  

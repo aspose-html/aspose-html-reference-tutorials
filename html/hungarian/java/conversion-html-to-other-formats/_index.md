@@ -87,6 +87,8 @@ Ismerje meg, hogyan konvertálhatja a HTML‑t PDF‑re Java‑ban az Aspose.HTM
 Fedezze fel, hogyan ágyazhat be egyedi betűtípusokat a PDF‑be Java‑ban az Aspose.HTML segítségével, lépésről‑lépésre útmutatóval.
 ### [HTML átalakítása PDF-re – Lépésről‑lépésre útmutató oldalméret beállításokkal](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Ismerje meg, hogyan konvertálhatja a HTML‑t PDF‑re Java‑ban részletesen, oldalméret beállításokkal.
+### [HTML átalakítása PDF-re Java‑ban – Teljes lépésről‑lépésre útmutató](./convert-html-to-pdf-in-java-complete-step-by-step-guide/)
+
 ### [HTML‑ből PDF létrehozása Java‑ban – Teljes lépésről‑lépésre útmutató](./create-pdf-from-html-in-java-complete-step-by-step-guide/)
 Ismerje meg, hogyan hozhat létre PDF fájlokat HTML‑ből Java‑ban részletes, minden lépést bemutató útmutatóval.
 ### [HTML konvertálása PDF-re Java‑ban – PDF oldalméret, felbontás beállítása és HTML mentése PDF‑ként](./convert-html-to-pdf-in-java-set-pdf-page-size-resolution-and/)
@@ -110,6 +112,12 @@ Ismerje meg, hogyan konvertálhatja az SVG‑t képekké Java‑ban az Aspose.HT
 Konvertálja az SVG‑t PDF‑re Java‑ban az Aspose.HTML‑el. Zökkenőmentes megoldás a magas minőségű dokumentumkonverzióhoz.
 ### [SVG átalakítása XPS-re](./convert-svg-to-xps/)
 Ismerje meg, hogyan konvertálhatja az SVG‑t XPS‑re az Aspose.HTML for Java segítségével. Egyszerű, lépésről‑lépésre útmutató a zökkenőmentes átalakításokhoz.
+### [PDF tömörítése Aspose HTML to PDF‑vel – Java útmutató](./how-to-compress-pdf-with-aspose-html-to-pdf-java-guide/)
+
+### [Dinamikus HTML PDF konvertálása az Aspose HTML for Java segítségével](./convert-dynamic-html-pdf-with-aspose-html-for-java/)
+
+### [Hogyan használjuk az Aspose – HTML kötegelt konvertálása PDF-re Java‑ban](./how-to-use-aspose-batch-convert-html-to-pdf-in-java/)
+
 ### [HTML mentése PDF‑ként Java‑ban – Teljes útmutató szálkezelő pool és sablonok használatával](./save-html-as-pdf-with-java-complete-guide-using-thread-pool/)
 Ismerje meg, hogyan használhat szálkezelő pool‑t és sablonokat a HTML PDF‑re konvertálásához Java‑ban, nagy teljesítményű feldolgozáshoz.
 

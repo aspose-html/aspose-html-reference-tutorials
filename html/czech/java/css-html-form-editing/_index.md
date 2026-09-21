@@ -60,6 +60,8 @@ Naučte se pomocí Aspose.HTML pro Java získat vypočítané styly a extrahovat
 Naučte se, jak pomocí Aspose.HTML pro Javu získat vypočtené CSS styly konkrétního HTML elementu krok po kroku.
 ### [Jak použít getComputedStyle v Javě – Extrahovat barvu pozadí a další CSS vlastnosti](./how-to-use-getcomputedstyle-in-java-extract-background-color/)
 Naučte se získat výpočetní styly v Javě a extrahovat barvu pozadí a další CSS vlastnosti pomocí Aspose.HTML.
+### [Extrahování CSS z HTML v Javě – krok‑za‑krokem průvodce](./extract-css-from-html-in-java-step-by-step-guide/)
+Naučte se, jak pomocí Aspose.HTML pro Javu extrahovat CSS styly z HTML dokumentů v podrobném průvodci.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

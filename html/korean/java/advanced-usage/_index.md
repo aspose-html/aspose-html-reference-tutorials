@@ -134,6 +134,8 @@ Java 환경에서 디바이스 픽셀 비율을 설정하고 모바일 샌드박
 ### [Aspose HTML에서 JavaScript 활성화 – HTML 로드 및 텍스트 가져오기](./how-to-enable-javascript-in-aspose-html-load-html-get-text/)
 ### [Java에서 스크립트 실행하기 – JavaScript 실행 및 데이터 추출 완전 가이드](./how-to-run-scripts-in-java-complete-guide-to-execute-javascr/)
 Java 환경에서 JavaScript를 실행하고 데이터를 추출하는 방법을 단계별로 안내합니다.
+### [Aspose를 사용하여 EPUB을 DOCX로 변환하는 방법 – 단계별 가이드](./how-to-use-aspose-to-convert-epub-to-docx-step-by-step-guide/)
+Aspose 라이브러리를 활용해 EPUB 파일을 DOCX 형식으로 변환하는 과정을 단계별로 안내합니다.
 
 ---
 
