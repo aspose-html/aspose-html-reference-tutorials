@@ -24,10 +24,6 @@ title: Конвертировать динамический HTML в PDF с Aspo
 url: /ru/java/conversion-html-to-other-formats/convert-dynamic-html-pdf-with-aspose-html-for-java/
 ---
 
-Be careful not to translate code block placeholders.
-
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

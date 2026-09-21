@@ -24,18 +24,6 @@ title: สกัด CSS จาก HTML ด้วย Java – คู่มือ�
 url: /th/java/css-html-form-editing/extract-css-from-html-in-java-step-by-step-guide/
 ---
 
-Let's craft translation.
-
-Start with shortcodes unchanged.
-
-Then heading "# Extract CSS from HTML in Java – Complete Tutorial" translate: "# ดึง CSS จาก HTML ด้วย Java – บทเรียนเต็ม". Keep same heading level.
-
-Paragraph: "Ever needed to **extract CSS from HTML** while writing Java code? ..." translate.
-
-We'll translate each paragraph.
-
-Let's produce final answer.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

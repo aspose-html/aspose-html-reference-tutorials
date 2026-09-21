@@ -25,7 +25,7 @@ title: Tải tài liệu HTML bằng Java – Hướng dẫn toàn diện với 
 url: /vi/java/creating-managing-html-documents/load-html-document-java-complete-guide-with-xpath-css/
 ---
 
-.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

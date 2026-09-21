@@ -24,14 +24,6 @@ title: Подсчёт символов HTML в Java — полное руков
 url: /ru/java/creating-managing-html-documents/count-html-characters-in-java-full-guide-with-aspose-html/
 ---
 
-might be considered part of image syntax. Safer to keep exactly as is.
-
-Also the table content: translate the text inside but keep markdown.
-
-Let's translate.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

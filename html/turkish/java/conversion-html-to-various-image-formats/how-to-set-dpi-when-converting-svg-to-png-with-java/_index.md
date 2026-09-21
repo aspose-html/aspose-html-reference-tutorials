@@ -25,10 +25,6 @@ title: Java ile SVG'yi PNG'ye Dönüştürürken DPI Nasıl Ayarlanır
 url: /tr/java/conversion-html-to-various-image-formats/how-to-set-dpi-when-converting-svg-to-png-with-java/
 ---
 
-terms unchanged.
-
-Let's do it.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

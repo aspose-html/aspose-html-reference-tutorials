@@ -24,9 +24,7 @@ title: converteer dynamische HTML PDF met Aspose HTML voor Java
 url: /nl/java/conversion-html-to-other-formats/convert-dynamic-html-pdf-with-aspose-html-for-java/
 ---
 
-and markdown formatting.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

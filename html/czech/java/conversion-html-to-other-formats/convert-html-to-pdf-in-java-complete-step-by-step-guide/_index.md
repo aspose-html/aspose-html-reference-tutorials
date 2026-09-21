@@ -23,9 +23,7 @@ title: Převod HTML do PDF v Javě – Kompletní průvodce krok za krokem
 url: /cs/java/conversion-html-to-other-formats/convert-html-to-pdf-in-java-complete-step-by-step-guide/
 ---
 
-Keep bold.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

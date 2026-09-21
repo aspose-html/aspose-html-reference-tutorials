@@ -22,16 +22,6 @@ title: Aspose HTML to PDF로 PDF 압축하는 방법 – Java 가이드
 url: /ko/java/conversion-html-to-other-formats/how-to-compress-pdf-with-aspose-html-to-pdf-java-guide/
 ---
 
-Paragraph: "Happy coding, and enjoy those leaner PDFs!" translate.
-
-Then closing shortcodes.
-
-Now produce final content.
-
-Be careful to keep markdown formatting exactly.
-
-Let's craft Korean translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -25,11 +25,7 @@ title: Carregar Documento HTML Java – Guia Completo com XPath e CSS
 url: /pt/java/creating-managing-html-documents/load-html-document-java-complete-guide-with-xpath-css/
 ---
 
-CODE_BLOCK_0}} etc. They are not fenced code blocks but placeholders. The instruction says preserve code blocks fenced. But these placeholders are not fenced; they are just placeholders. Should keep as is.
-
-Make sure to keep bullet list formatting.
-
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

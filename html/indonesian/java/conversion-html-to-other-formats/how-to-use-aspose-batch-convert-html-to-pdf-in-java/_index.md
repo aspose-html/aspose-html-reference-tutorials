@@ -24,7 +24,7 @@ title: Cara Menggunakan Aspose – Mengonversi HTML ke PDF secara Batch di Java
 url: /id/java/conversion-html-to-other-formats/how-to-use-aspose-batch-convert-html-to-pdf-in-java/
 ---
 
-produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

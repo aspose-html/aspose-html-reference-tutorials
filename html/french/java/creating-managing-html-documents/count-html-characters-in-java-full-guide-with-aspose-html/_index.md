@@ -24,18 +24,6 @@ title: Compter les caractères HTML en Java – Guide complet avec Aspose HTML
 url: /fr/java/creating-managing-html-documents/count-html-characters-in-java-full-guide-with-aspose-html/
 ---
 
-.
-
-Now produce final content.
-
-Let's craft translation.
-
-Be careful with punctuation and spaces.
-
-Also note "step 1 – Load the HTML Document (count html characters)" maybe "Étape 1 – Charger le document HTML (comptage des caractères html)". Keep dash.
-
-Now produce final output.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

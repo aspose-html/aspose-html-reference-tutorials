@@ -25,9 +25,7 @@ title: Wyodrębnij CSS z HTML w Javie – Przewodnik krok po kroku
 url: /pl/java/css-html-form-editing/extract-css-from-html-in-java-step-by-step-guide/
 ---
 
-translate any code block placeholders.
-
-Now craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

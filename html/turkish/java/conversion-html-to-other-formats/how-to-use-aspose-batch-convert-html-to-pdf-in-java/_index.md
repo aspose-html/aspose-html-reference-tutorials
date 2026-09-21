@@ -23,7 +23,7 @@ title: Aspose Nasıl Kullanılır – Java’da HTML’yi PDF’ye Toplu Dönü�
 url: /tr/java/conversion-html-to-other-formats/how-to-use-aspose-batch-convert-html-to-pdf-in-java/
 ---
 
-.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -24,10 +24,6 @@ title: Převést dynamický HTML PDF pomocí Aspose HTML pro Javu
 url: /cs/java/conversion-html-to-other-formats/convert-dynamic-html-pdf-with-aspose-html-for-java/
 ---
 
-careful to preserve markdown formatting, code block placeholders unchanged.
-
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

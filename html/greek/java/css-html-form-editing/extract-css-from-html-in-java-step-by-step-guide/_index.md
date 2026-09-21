@@ -25,7 +25,7 @@ title: Εξαγωγή CSS από HTML σε Java – Οδηγός βήμα‑βή
 url: /el/java/css-html-form-editing/extract-css-from-html-in-java-step-by-step-guide/
 ---
 
-produce final content. Ensure no extra explanation.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

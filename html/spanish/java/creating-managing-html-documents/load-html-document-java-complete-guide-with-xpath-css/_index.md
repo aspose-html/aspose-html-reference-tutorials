@@ -25,7 +25,7 @@ title: Cargar documento HTML en Java – Guía completa con XPath y CSS
 url: /es/java/creating-managing-html-documents/load-html-document-java-complete-guide-with-xpath-css/
 ---
 
-.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

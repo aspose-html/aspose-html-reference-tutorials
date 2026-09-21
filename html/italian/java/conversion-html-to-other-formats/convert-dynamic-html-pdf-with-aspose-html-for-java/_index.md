@@ -24,10 +24,6 @@ title: Converti HTML dinamico in PDF con Aspose HTML per Java
 url: /it/java/conversion-html-to-other-formats/convert-dynamic-html-pdf-with-aspose-html-for-java/
 ---
 
-.
-
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

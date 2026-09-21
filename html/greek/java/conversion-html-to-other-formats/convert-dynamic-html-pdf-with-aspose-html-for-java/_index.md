@@ -24,11 +24,7 @@ title: Μετατροπή δυναμικού HTML σε PDF με το Aspose HTML
 url: /el/java/conversion-html-to-other-formats/convert-dynamic-html-pdf-with-aspose-html-for-java/
 ---
 
-table, list.
-
-Make sure to preserve code block placeholders unchanged.
-
-Now craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

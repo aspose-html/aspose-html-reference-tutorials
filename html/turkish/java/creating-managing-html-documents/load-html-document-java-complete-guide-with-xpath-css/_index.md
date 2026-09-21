@@ -25,15 +25,7 @@ title: HTML Belgesini Java ile Yükleme – XPath ve CSS ile Tam Kılavuz
 url: /tr/java/creating-managing-html-documents/load-html-document-java-complete-guide-with-xpath-css/
 ---
 
-Bir yorum bırakın, birlikte sorunu çözelim. İyi ayrıştırmalar!"
-
-Then closing shortcodes.
-
-Make sure to keep all shortcodes exactly as original.
-
-Also ensure we keep any markdown formatting like **bold**, code fences placeholders.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

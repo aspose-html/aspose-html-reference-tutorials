@@ -25,8 +25,6 @@ title: CSS aus HTML in Java extrahieren – Schritt‑für‑Schritt‑Anleitung
 url: /de/java/css-html-form-editing/extract-css-from-html-in-java-step-by-step-guide/
 ---
 
-.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

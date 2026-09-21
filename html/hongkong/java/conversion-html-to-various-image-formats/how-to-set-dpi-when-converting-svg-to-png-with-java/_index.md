@@ -21,8 +21,6 @@ title: 使用 Java 轉換 SVG 為 PNG 時如何設定 DPI
 url: /zh-hant/java/conversion-html-to-various-image-formats/how-to-set-dpi-when-converting-svg-to-png-with-java/
 ---
 
-.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

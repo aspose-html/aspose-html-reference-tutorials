@@ -23,12 +23,6 @@ title: Πώς να συμπιέσετε PDF με το Aspose HTML σε PDF – �
 url: /el/java/conversion-html-to-other-formats/how-to-compress-pdf-with-aspose-html-to-pdf-java-guide/
 ---
 
-ensure we didn't miss any code block placeholders: CODE_BLOCK_0 through CODE_BLOCK_7, and CODE_BLOCK_4 etc. They remain.
-
-Check for any other markdown like blockquote we handled.
-
-Now produce final content with all translations.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

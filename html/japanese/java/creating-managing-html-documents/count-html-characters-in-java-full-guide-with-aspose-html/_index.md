@@ -20,20 +20,6 @@ title: JavaでHTML文字数をカウントする – Aspose HTMLによる完全�
 url: /ja/java/creating-managing-html-documents/count-html-characters-in-java-full-guide-with-aspose-html/
 ---
 
-produce Japanese translation preserving markdown.
-
-Proceed paragraph by paragraph.
-
-Will also translate bullet lists, tables.
-
-Also need to keep code block placeholders unchanged.
-
-Also keep image alt and URL unchanged.
-
-Also keep shortcodes unchanged.
-
-Now produce final output.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

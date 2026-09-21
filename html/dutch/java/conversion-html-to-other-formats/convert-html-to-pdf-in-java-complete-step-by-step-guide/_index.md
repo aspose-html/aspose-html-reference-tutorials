@@ -25,7 +25,7 @@ title: HTML naar PDF converteren in Java – Complete stapsgewijze gids
 url: /nl/java/conversion-html-to-other-formats/convert-html-to-pdf-in-java-complete-step-by-step-guide/
 ---
 
-produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

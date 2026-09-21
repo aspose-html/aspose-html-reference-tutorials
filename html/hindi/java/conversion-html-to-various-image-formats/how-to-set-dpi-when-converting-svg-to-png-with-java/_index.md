@@ -25,11 +25,7 @@ title: जावा के साथ SVG को PNG में बदलते �
 url: /hi/java/conversion-html-to-various-image-formats/how-to-set-dpi-when-converting-svg-to-png-with-java/
 ---
 
-}}
-
-All good.
-
-Now produce final content with translations. Ensure no extra explanations.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -24,8 +24,6 @@ title: Hogyan használjuk az Aspose‑t – HTML tömeges konvertálása PDF‑r
 url: /hu/java/conversion-html-to-other-formats/how-to-use-aspose-batch-convert-html-to-pdf-in-java/
 ---
 
-final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

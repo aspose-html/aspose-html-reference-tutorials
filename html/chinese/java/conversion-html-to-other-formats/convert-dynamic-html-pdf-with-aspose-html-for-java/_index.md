@@ -22,10 +22,6 @@ title: 使用 Aspose HTML for Java 将动态 HTML 转换为 PDF
 url: /zh/java/conversion-html-to-other-formats/convert-dynamic-html-pdf-with-aspose-html-for-java/
 ---
 
-them as is.
-
-Now produce final Chinese markdown.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

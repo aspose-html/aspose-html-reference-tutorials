@@ -26,8 +26,6 @@ title: Πώς να χρησιμοποιήσετε το Aspose για τη μετ
 url: /el/java/advanced-usage/how-to-use-aspose-to-convert-epub-to-docx-step-by-step-guide/
 ---
 
-output with all translations and placeholders unchanged.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

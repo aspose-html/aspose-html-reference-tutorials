@@ -23,14 +23,6 @@ title: Chuyển đổi HTML sang PDF trong Java – Hướng dẫn chi tiết t�
 url: /vi/java/conversion-html-to-other-formats/convert-html-to-pdf-in-java-complete-step-by-step-guide/
 ---
 
-translate.
-
-I'll produce Vietnamese translation.
-
-Be careful with markdown formatting.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

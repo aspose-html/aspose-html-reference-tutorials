@@ -23,14 +23,6 @@ title: 在 Java 中加载 HTML 文档 – 包含 XPath 与 CSS 的完整指南
 url: /zh/java/creating-managing-html-documents/load-html-document-java-complete-guide-with-xpath-css/
 ---
 
-– Complete Guide with XPath & CSS" translate to Chinese: "加载 HTML 文档 Java – 使用 XPath 与 CSS 的完整指南". Keep "Java" and "XPath", "CSS". Keep dash maybe.
-
-Similarly for other sentences.
-
-Also keep the shortcodes at end.
-
-Let's produce final output.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

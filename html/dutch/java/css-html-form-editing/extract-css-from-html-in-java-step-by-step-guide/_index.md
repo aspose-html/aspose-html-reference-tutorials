@@ -24,20 +24,6 @@ title: CSS uit HTML extraheren in Java – Stapsgewijze handleiding
 url: /nl/java/css-html-form-editing/extract-css-from-html-in-java-step-by-step-guide/
 ---
 
-codes unchanged.
-
-Then heading "# Extract CSS from HTML in Java – Complete Tutorial" translate: "# CSS uit HTML extraheren in Java – Complete tutorial". Keep case? We'll translate.
-
-Proceed.
-
-Check each paragraph.
-
-Will translate but keep technical terms like Aspose.HTML, query selector java, getStyle, getComputedStyle, etc.
-
-Also keep code block placeholders.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

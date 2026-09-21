@@ -23,16 +23,6 @@ title: Converter HTML para PDF em Java – Guia Completo Passo a Passo
 url: /pt/java/conversion-html-to-other-formats/convert-html-to-pdf-in-java-complete-step-by-step-guide/
 ---
 
-Make sure to keep them.
-
-Now produce final content with translations.
-
-Be careful to preserve markdown formatting, code block placeholders remain unchanged.
-
-Also note "RTL formatting" not needed.
-
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

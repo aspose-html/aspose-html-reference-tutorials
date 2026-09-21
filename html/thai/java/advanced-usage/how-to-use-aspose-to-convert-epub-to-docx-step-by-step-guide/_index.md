@@ -24,9 +24,7 @@ title: วิธีใช้ Aspose แปลง EPUB เป็น DOCX – ค�
 url: /th/java/advanced-usage/how-to-use-aspose-to-convert-epub-to-docx-step-by-step-guide/
 ---
 
-Make sure we kept bold formatting.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

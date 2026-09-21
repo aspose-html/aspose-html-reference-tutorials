@@ -23,11 +23,7 @@ title: Converti HTML in PDF con Java – Guida completa passo passo
 url: /it/java/conversion-html-to-other-formats/convert-html-to-pdf-in-java-complete-step-by-step-guide/
 ---
 
-didn't translate URLs (none). Keep markdown formatting.
-
-Check for any stray formatting like italics: "*convert html to pdf*" we kept as italics.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

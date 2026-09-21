@@ -24,22 +24,6 @@ title: Comment compresser un PDF avec Aspose HTML vers PDF – Guide Java
 url: /fr/java/conversion-html-to-other-formats/how-to-compress-pdf-with-aspose-html-to-pdf-java-guide/
 ---
 
-actual code. So we keep them.
-
-We need to translate bullet points, paragraphs, etc.
-
-Let's produce the final content.
-
-Be careful with markdown links: there is none besides the image link. There's also a blockquote with "Pro tip". Keep that.
-
-Also the "## Expected outcome" etc.
-
-Let's translate.
-
-We'll keep the headings same but translate text after them.
-
-Let's produce.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -25,10 +25,6 @@ title: Jak použít Aspose k převodu EPUB na DOCX – průvodce krok za krokem
 url: /cs/java/advanced-usage/how-to-use-aspose-to-convert-epub-to-docx-step-by-step-guide/
 ---
 
-inline code.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

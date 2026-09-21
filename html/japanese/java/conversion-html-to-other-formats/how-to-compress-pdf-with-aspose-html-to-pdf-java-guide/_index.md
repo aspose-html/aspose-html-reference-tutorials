@@ -20,9 +20,7 @@ title: Aspose HTML to PDFでPDFを圧縮する方法 – Javaガイド
 url: /ja/java/conversion-html-to-other-formats/how-to-compress-pdf-with-aspose-html-to-pdf-java-guide/
 ---
 
-kept markdown formatting.
-
-Now produce final output with all translated content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

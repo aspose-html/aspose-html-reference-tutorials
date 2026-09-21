@@ -24,15 +24,7 @@ title: Как использовать Aspose — пакетное преобр�
 url: /ru/java/conversion-html-to-other-formats/how-to-use-aspose-batch-convert-html-to-pdf-in-java/
 ---
 
-table.
-
-- Translate "Pro Tips & Best Practices" etc.
-
-- Translate "Conclusion" etc.
-
-- Keep shortcodes at end.
-
-Let's produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
