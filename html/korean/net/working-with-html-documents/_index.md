@@ -49,6 +49,8 @@ Aspose.Html을 사용해 C#에서 HTML을 저장하는 방법을 단계별로 �
 
 ### [C#에서 HTML 압축하기 – 완전 단계별 가이드](./how-to-zip-html-in-c-complete-step-by-step-guide/)
 
+### [C#에서 사용자 정의 리소스 핸들러로 HTML 저장하기](./how-to-save-html-in-c-with-custom-resource-handler/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

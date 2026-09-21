@@ -79,6 +79,8 @@ Learn how to render HTML with a custom resource handler using Aspose.HTML for .N
 Learn how to render HTML pages to PNG images using Aspose.HTML for .NET in C# with step-by-step examples.
 ### [How to render html to an image with C# – Complete Guide](./how-to-render-html-to-an-image-with-c-complete-guide/)
 Learn how to render HTML to an image using C# and Aspose.HTML for .NET in this comprehensive guide.
+### [Render HTML to PNG and Save to ZIP with C# – Complete Guide](./render-html-to-png-and-save-to-zip-with-c-complete-guide/)
+Step-by-step guide to render HTML to PNG and package the images into a ZIP file using C# and Aspose.HTML for .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

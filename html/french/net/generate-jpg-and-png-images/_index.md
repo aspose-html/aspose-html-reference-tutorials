@@ -69,6 +69,8 @@ Apprenez à convertir des fichiers DOCX en images PNG en C# avec Aspose.HTML, gr
 Apprenez à convertir du HTML en images PNG avec C# en suivant ce guide détaillé pas à pas.
 ### [Créer un PNG à partir de HTML en C# – Guide étape par étape](./create-png-from-html-in-c-step-by-step-guide/)
 Apprenez à convertir du HTML en PNG en C# avec Aspose.HTML, guide complet étape par étape.
+### [Créer un PNG à partir de HTML en C# – Guide complet de programmation](./create-png-from-html-in-c-complete-programming-guide/)
+Apprenez à générer des images PNG à partir de HTML en C# avec un guide complet, incluant le code et les meilleures pratiques.
 
 ## Conclusion
 

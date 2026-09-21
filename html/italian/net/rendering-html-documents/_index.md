@@ -65,6 +65,8 @@ Scopri come convertire HTML in PNG usando C# con Aspose.HTML. Segui la guida pas
 ### [Crea documento HTML C# – Renderizza in PNG con font grassetto e corsivo](./create-html-document-c-render-to-png-with-bold-italic-font/)
 Scopri come creare un documento HTML in C# e renderizzarlo in PNG usando font grassetto e corsivo con Aspose.HTML.
 
+### [Renderizza HTML in PNG e salva in ZIP con C# – Guida completa](./render-html-to-png-and-save-to-zip-with-c-complete-guide/)
+Scopri come convertire HTML in PNG e comprimere i risultati in un file ZIP usando C# e Aspose.HTML.
 ### [Renderizza EPUB come XPS in .NET con Aspose.HTML](./render-epub-as-xps/)
 Scopri come creare e rendere documenti HTML con Aspose.HTML per .NET in questo tutorial completo. Immergiti nel mondo della manipolazione HTML, del web scraping e altro ancora.
 

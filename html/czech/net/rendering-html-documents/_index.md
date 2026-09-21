@@ -59,7 +59,7 @@ V tomto komplexním kurzu se dozvíte, jak vytvářet a vykreslovat dokumenty HT
 Naučte se, jak efektivně řídit časové limity vykreslování v Aspose.HTML pro .NET. Prozkoumejte možnosti vykreslování a zajistěte hladké vykreslování HTML dokumentu.
 
 ### [Render MHTML jako XPS v .NET s Aspose.HTML](./render-mhtml-as-xps/)
- Naučte se vykreslovat MHTML jako XPS v .NET pomocí Aspose.HTML. Vylepšete své dovednosti v manipulaci s HTML a podpořte své projekty vývoje webu!
+Naučte se vykreslovat MHTML jako XPS v .NET pomocí Aspose.HTML. Vylepšete své dovednosti v manipulaci s HTML a podpořte své projekty vývoje webu!
 
 ### [Renderujte více dokumentů v .NET pomocí Aspose.HTML](./render-multiple-documents/)
 Naučte se vykreslovat více dokumentů HTML pomocí Aspose.HTML pro .NET. Zvyšte své možnosti zpracování dokumentů pomocí této výkonné knihovny.
@@ -81,12 +81,16 @@ Kompletní návod, jak pomocí Aspose.HTML v .NET převést HTML do PNG v C# s p
 
 ### [Jak vykreslit HTML do PNG pomocí Aspose – Kompletní průvodce](./how-to-render-html-to-png-with-aspose-complete-guide/)
 Kompletní návod, jak pomocí Aspose.HTML v .NET převést HTML soubory do PNG s podrobnými kroky a tipy.
+
 ### [Vytvořte PNG z HTML – Kompletní průvodce renderováním v C#](./create-png-from-html-full-c-rendering-guide/)
 Naučte se, jak pomocí Aspose.HTML pro .NET převést HTML do PNG pomocí kompletního C# průvodce.
 ### [Jak renderovat HTML do PNG – krok za krokem](./how-to-render-html-to-png-step-by-step-guide/)
 Podrobný návod, jak pomocí Aspose.HTML pro .NET převést HTML soubory do formátu PNG.
 ### [Vytvořte HTML dokument v C# – Vykreslete do PNG s tučným kurzívním písmem](./create-html-document-c-render-to-png-with-bold-italic-font/)
 Naučte se vytvořit HTML dokument v C# a vykreslit jej do PNG s tučným a kurzívním písmem pomocí Aspose.HTML.
+
+### [Renderujte HTML do PNG a uložte do ZIP pomocí C# – Kompletní průvodce](./render-html-to-png-and-save-to-zip-with-c-complete-guide/)
+Naučte se, jak pomocí Aspose.HTML v .NET převést HTML do PNG a archivovat výstup do ZIP souboru s podrobným návodem.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -45,6 +45,8 @@ Sekarang, mari tingkatkan keterampilan Anda ke tingkat berikutnya. Mengedit doku
 
 ### [Cara Mengompres HTML di C# – Panduan Lengkap Langkah demi Langkah](./how-to-zip-html-in-c-complete-step-by-step-guide/)
 
+### [Cara Menyimpan HTML di C# dengan Penangan Sumber Daya Kustom](./how-to-save-html-in-c-with-custom-resource-handler/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

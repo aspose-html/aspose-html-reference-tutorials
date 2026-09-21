@@ -31,9 +31,9 @@ HTML 文档是 Web 的支柱，能够有效地创建和操作 HTML 文档是任�
 ### [使用 Aspose.HTML 在 .NET 中编辑文档](./editing-a-document/)
 
 ### [如何在 C# 中保存 HTML – 使用自定义资源处理程序的完整指南](./how-to-save-html-in-c-complete-guide-using-a-custom-resource/)
-
 ### [如何使用 Aspose.Html 保存 HTML – 完整 C# 指南](./how-to-save-html-with-aspose-html-complete-c-guide/)
 
+### [如何在 C# 中保存 HTML – 使用自定义资源处理程序](./how-to-save-html-in-c-with-custom-resource-handler/)
 ### [使用 CSS 和 C# 加粗标题 – 完整分步指南](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
 ### [如何在 C# 中保存 HTML – 自定义资源处理程序和 ZIP](./how-to-save-html-in-c-custom-resource-handlers-zip/)
 

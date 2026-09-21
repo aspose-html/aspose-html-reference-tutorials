@@ -40,6 +40,10 @@ url: /el/net/working-with-html-documents/
 
 Μάθετε πώς να αποθηκεύετε HTML σε C# χρησιμοποιώντας έναν προσαρμοσμένο διαχειριστή πόρων, βήμα-βήμα οδηγός.
 
+### [Πώς να αποθηκεύσετε HTML σε C# με προσαρμοσμένο διαχειριστή πόρων](./how-to-save-html-in-c-with-custom-resource-handler/)
+
+Μάθετε πώς να αποθηκεύσετε HTML σε C# με προσαρμοσμένο διαχειριστή πόρων, βήμα‑βήμα οδηγίες.
+
 ### [Πώς να κάνετε έντονο τίτλο με CSS & C# – Πλήρης οδηγός βήμα‑βήμα](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
 ### [Πώς να αποθηκεύσετε HTML σε C# – Προσαρμοσμένοι Διαχειριστές Πόρων & ZIP](./how-to-save-html-in-c-custom-resource-handlers-zip/)
 

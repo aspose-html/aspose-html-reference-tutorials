@@ -33,6 +33,8 @@ HTML 文件是網路的支柱，能夠有效地創建和操作它們對於任何
 ### [如何在 C# 中保存 HTML – 使用自訂資源處理程式的完整指南](./how-to-save-html-in-c-complete-guide-using-a-custom-resource/)
 
 ### [如何使用 Aspose.Html 保存 HTML – 完整 C# 指南](./how-to-save-html-with-aspose-html-complete-c-guide/)
+### [如何在 C# 中保存 HTML – 使用自訂資源處理程式](./how-to-save-html-in-c-with-custom-resource-handler/)
+本教學說明如何在 C# 中使用自訂資源處理程式將 HTML 內容保存至檔案或串流。
 
 ### [如何使用 CSS 與 C# 加粗標題 – 完整步驟指南](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
 ### [如何在 C# 中儲存 HTML – 自訂資源處理程式與 ZIP](./how-to-save-html-in-c-custom-resource-handlers-zip/)

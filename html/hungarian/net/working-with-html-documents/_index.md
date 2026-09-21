@@ -44,6 +44,8 @@ Ismerje meg, hogyan menthet HTML-fájlokat Aspose.Html könyvtárral C#-ban, lé
 
 ### [Hogyan tegyünk félkövér címet CSS‑el és C#‑val – Teljes lépésről‑lépésre útmutató](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
 
+### [HTML mentése C#-ban egy egyéni erőforráskezelővel](./how-to-save-html-in-c-with-custom-resource-handler/)
+
 Ismerje meg, hogyan formázhatja félkövérre a HTML‑címeket CSS‑sel és C#‑kóddal, részletes példákkal.
 
 ### [HTML mentése C#-ban – Egyedi erőforráskezelők és ZIP](./how-to-save-html-in-c-custom-resource-handlers-zip/)
