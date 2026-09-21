@@ -24,10 +24,6 @@ title: C#'ta HTML'den PNG Oluşturma – Tam Programlama Rehberi
 url: /tr/net/generate-jpg-and-png-images/create-png-from-html-in-c-complete-programming-guide/
 ---
 
-markdown formatting.
-
-Proceed translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

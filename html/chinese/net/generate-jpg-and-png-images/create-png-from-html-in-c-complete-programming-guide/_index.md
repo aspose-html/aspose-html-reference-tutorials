@@ -22,8 +22,6 @@ title: 在 C# 中从 HTML 创建 PNG – 完整编程指南
 url: /zh/net/generate-jpg-and-png-images/create-png-from-html-in-c-complete-programming-guide/
 ---
 
-produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

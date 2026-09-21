@@ -20,9 +20,7 @@ title: カスタムリソースハンドラを使用してC#でHTMLを保存す�
 url: /ja/net/working-with-html-documents/how-to-save-html-in-c-with-custom-resource-handler/
 ---
 
-sure to keep code block placeholders unchanged.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

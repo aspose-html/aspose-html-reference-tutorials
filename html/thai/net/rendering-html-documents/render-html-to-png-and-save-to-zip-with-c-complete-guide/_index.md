@@ -23,7 +23,7 @@ title: เรนเดอร์ HTML เป็น PNG และบันทึ�
 url: /th/net/rendering-html-documents/render-html-to-png-and-save-to-zip-with-c-complete-guide/
 ---
 
-construct final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -24,15 +24,7 @@ title: Cómo guardar HTML en C# con un manejador de recursos personalizado
 url: /es/net/working-with-html-documents/how-to-save-html-in-c-with-custom-resource-handler/
 ---
 
-"
-
-Paragraph: "¿Alguna vez te has preguntado **cómo guardar html** directamente desde una cadena sin tocar el disco primero? No estás solo—muchos desarrolladores se topan con este problema cuando necesitan generar informes al vuelo o transmitir contenido a un navegador. La buena noticia es que Aspose.HTML hace que todo el proceso sea pan comido, y puedes incluso conectar tu propia lógica de almacenamiento con un controlador de recursos personalizado."
-
-Continue.
-
-Make sure to keep bold formatting.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -23,8 +23,6 @@ title: PNG maken van HTML in C# – Complete programmeergids
 url: /nl/net/generate-jpg-and-png-images/create-png-from-html-in-c-complete-programming-guide/
 ---
 
-.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

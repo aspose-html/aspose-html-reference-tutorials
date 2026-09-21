@@ -24,10 +24,6 @@ title: Создание PNG из HTML в C# – Полное руководст
 url: /ru/net/generate-jpg-and-png-images/create-png-from-html-in-c-complete-programming-guide/
 ---
 
-ensure we keep markdown formatting.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

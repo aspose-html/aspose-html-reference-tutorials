@@ -24,18 +24,6 @@ title: Как сохранить HTML в C# с пользовательским 
 url: /ru/net/working-with-html-documents/how-to-save-html-in-c-with-custom-resource-handler/
 ---
 
-and title.
-
-We must preserve headers (# etc). Also preserve block shortcodes at top and bottom.
-
-Let's produce final content.
-
-We need to ensure we keep all placeholders unchanged.
-
-Proceed to translate each paragraph.
-
-Let's write.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

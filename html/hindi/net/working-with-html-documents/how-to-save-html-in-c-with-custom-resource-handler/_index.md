@@ -24,16 +24,6 @@ title: कस्टम रिसोर्स हैंडलर के साथ
 url: /hi/net/working-with-html-documents/how-to-save-html-in-c-with-custom-resource-handler/
 ---
 
-writing the HTML to a file. By the end you’ll know how to **write html file**, how to **load html from string**, how to **convert html to file**, and how to craft a **custom resource handler** that fits any storage scenario."
-
-Translate.
-
-Proceed similarly for all sections.
-
-Make sure to keep markdown formatting: blockquotes, headings, lists.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -25,34 +25,6 @@ title: Πώς να αποθηκεύσετε HTML σε C# με προσαρμοσ
 url: /el/net/working-with-html-documents/how-to-save-html-in-c-with-custom-resource-handler/
 ---
 
-headings and paragraphs.
-
-Each blockquote.
-
-All code block placeholders remain.
-
-List items in step 5? Actually step 5 has bullet? No.
-
-Step 6 includes code block placeholder.
-
-Full working example block.
-
-Expected output block.
-
-Common Questions & Edge Cases heading and bullet points.
-
-Translate bullet points.
-
-Make sure to keep markdown formatting.
-
-Let's craft Greek translation.
-
-Note: Keep technical terms like "HTML", "C#", "Aspose.HTML", "IOutputStorage", "ResourceHandler", "MemoryStream", "HTMLSaveOptions", "OutputStorage", "HandleResource", "Encoding.UTF8" unchanged.
-
-Also keep URLs unchanged.
-
-Let's write.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

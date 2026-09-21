@@ -21,7 +21,7 @@ title: 如何在 C# 中使用自訂資源處理程式儲存 HTML
 url: /zh-hant/net/working-with-html-documents/how-to-save-html-in-c-with-custom-resource-handler/
 ---
 
-.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

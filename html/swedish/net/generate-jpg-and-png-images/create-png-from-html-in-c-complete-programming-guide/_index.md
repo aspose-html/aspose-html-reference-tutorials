@@ -22,10 +22,6 @@ title: Skapa PNG från HTML i C# – Komplett programmeringsguide
 url: /sv/net/generate-jpg-and-png-images/create-png-from-html-in-c-complete-programming-guide/
 ---
 
-paragraph.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

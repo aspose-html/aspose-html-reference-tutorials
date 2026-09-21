@@ -24,34 +24,6 @@ title: Hur man sparar HTML i C# med en anpassad resurs‑hanterare
 url: /sv/net/working-with-html-documents/how-to-save-html-in-c-with-custom-resource-handler/
 ---
 
-produce final content.
-
-Check for any other text: "Result you’ll see:" translate.
-
-"Expected output" translate.
-
-"Common Questions & Edge Cases" translate.
-
-List items under that.
-
-Also "What if I need to embed images?" translate.
-
-"Can I change the encoding?" translate.
-
-Also "Pro tip:" translate.
-
-"Why this matters:" translate.
-
-"What's happening:" translate.
-
-"Result you’ll see:" translate.
-
-"Expected output (console):" translate.
-
-Ok.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -25,10 +25,6 @@ title: HTML renderelése PNG-be és mentése ZIP-be C#‑al – Teljes útmutat�
 url: /hu/net/rendering-html-documents/render-html-to-png-and-save-to-zip-with-c-complete-guide/
 ---
 
-preserve markdown formatting exactly, including spaces, line breaks.
-
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

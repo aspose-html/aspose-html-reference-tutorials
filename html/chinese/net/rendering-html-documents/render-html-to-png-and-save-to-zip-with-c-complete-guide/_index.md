@@ -21,8 +21,6 @@ title: 使用 C# 将 HTML 渲染为 PNG 并保存为 ZIP 的完整指南
 url: /zh/net/rendering-html-documents/render-html-to-png-and-save-to-zip-with-c-complete-guide/
 ---
 
-write.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

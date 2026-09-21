@@ -24,27 +24,7 @@ title: HTML in PNG rendern und mit C# in ZIP speichern – Vollständiger Leitfa
 url: /de/net/rendering-html-documents/render-html-to-png-and-save-to-zip-with-c-complete-guide/
 ---
 
-legen Sie los."
-
-Then "## Step 1: Set Up a Custom ResourceHandler to Write Stream to ZIP" -> "## Schritt 1: Einen benutzerdefinierten ResourceHandler einrichten, um den Stream in ein ZIP zu schreiben"
-
-Paragraph.
-
-Then code block placeholder.
-
-Then "**Why this matters:** ..." translate.
-
-Continue similarly for each step.
-
-Make sure to keep markdown formatting.
-
-In tables, translate column headers and content.
-
-Proceed.
-
-At the end, keep the closing shortcodes.
-
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

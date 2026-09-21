@@ -24,7 +24,7 @@ title: Cách lưu HTML trong C# với trình xử lý tài nguyên tùy chỉnh
 url: /vi/net/working-with-html-documents/how-to-save-html-in-c-with-custom-resource-handler/
 ---
 
-content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

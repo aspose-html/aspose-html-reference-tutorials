@@ -22,16 +22,6 @@ title: Crea PNG da HTML in C# – Guida completa alla programmazione
 url: /it/net/generate-jpg-and-png-images/create-png-from-html-in-c-complete-programming-guide/
 ---
 
-aggio della console che conferma la creazione del file. Apri `output.png` e verifica il testo in grassetto—voilà, hai appena **salvato HTML come PNG**"
-
-Now close shortcodes: they are after content.
-
-We must keep the final shortcodes unchanged.
-
-Also ensure we keep the block with backticks placeholders unchanged.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

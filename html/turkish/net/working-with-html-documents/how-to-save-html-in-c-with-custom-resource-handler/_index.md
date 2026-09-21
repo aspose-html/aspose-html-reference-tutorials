@@ -24,20 +24,6 @@ title: C#'ta Özel Kaynak İşleyicisi ile HTML Nasıl Kaydedilir
 url: /tr/net/working-with-html-documents/how-to-save-html-in-c-with-custom-resource-handler/
 ---
 
-save html flow". Should translate that too.
-
-Also translate the "What you’ll get:" etc.
-
-Make sure not to translate code placeholders.
-
-Also keep markdown formatting.
-
-Let's produce translation.
-
-We need to keep shortcodes at top and bottom unchanged.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

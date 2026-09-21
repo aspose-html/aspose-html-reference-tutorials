@@ -23,11 +23,7 @@ title: كيفية حفظ HTML في C# باستخدام معالج موارد م�
 url: /ar/net/working-with-html-documents/how-to-save-html-in-c-with-custom-resource-handler/
 ---
 
-}}
-
-Make sure to keep code block placeholders unchanged.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

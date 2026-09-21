@@ -22,22 +22,6 @@ title: วิธีบันทึก HTML ใน C# ด้วยตัวจั
 url: /th/net/working-with-html-documents/how-to-save-html-in-c-with-custom-resource-handler/
 ---
 
-title translation.
-
-Step headings: "Step 1: Load HTML from a String (the “load html from string” part)" -> translate but keep phrase "load html from string" unchanged.
-
-Similarly for other steps.
-
-Blockquote texts: translate.
-
-Result you’ll see: translate.
-
-Common Questions & Edge Cases heading and bullet items.
-
-Make sure to keep code block placeholders.
-
-Now produce final output.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

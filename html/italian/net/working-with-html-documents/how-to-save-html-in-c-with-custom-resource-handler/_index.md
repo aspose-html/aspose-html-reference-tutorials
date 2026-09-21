@@ -24,10 +24,6 @@ title: Come salvare HTML in C# con gestore di risorse personalizzato
 url: /it/net/working-with-html-documents/how-to-save-html-in-c-with-custom-resource-handler/
 ---
 
-markdown with same structure.
-
-Let's write.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

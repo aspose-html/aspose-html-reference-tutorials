@@ -23,9 +23,7 @@ title: Renderizza HTML in PNG e salva in ZIP con C# – Guida completa
 url: /it/net/rendering-html-documents/render-html-to-png-and-save-to-zip-with-c-complete-guide/
 ---
 
-needed.
-
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
