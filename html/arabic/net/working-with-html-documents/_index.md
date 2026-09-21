@@ -41,6 +41,9 @@ url: /ar/net/working-with-html-documents/
 ### [كيفية حفظ HTML في C# باستخدام معالج موارد مخصص](./how-to-save-html-in-c-with-custom-resource-handler/)
 
 ### [كيفية جعل العنوان غامقًا باستخدام CSS و C# – دليل خطوة بخطوة كامل](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
+### [كيفية حفظ HTML في C# – معالجات الموارد المخصصة وZIP](./how-to-save-html-in-c-custom-resource-handlers-zip/)
+### [كيفية حفظ HTML باستخدام Aspose.Html – دليل كامل C#](./how-to-save-html-with-aspose-html-complete-c-guide/)
+### [كيفية ضغط HTML في C# – دليل خطوة بخطوة كامل](./how-to-zip-html-in-c-complete-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

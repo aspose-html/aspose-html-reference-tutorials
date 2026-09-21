@@ -59,6 +59,8 @@ Manfaatkan potensi Aspose.HTML untuk .NET dengan panduan lengkap kami. Pelajari 
 Pelajari cara memanfaatkan kekuatan Aspose.HTML untuk .NET. Tingkatkan pengembangan web Anda dengan manipulasi dan rendering HTML.
 ### [Membuat Dokumen di .NET dengan Aspose.HTML](./creating-a-document/)
 Manfaatkan Kekuatan Aspose.HTML untuk .NET. Pelajari Cara Membuat, Memanipulasi, dan Mengoptimalkan Dokumen HTML dan SVG dengan Mudah. Jelajahi Contoh Langkah demi Langkah dan Tanya Jawab Umum.
+### [Buat Dokumen HTML dengan Aspose.HTML – Panduan Langkah-demi-Langkah](./create-html-document-with-aspose-html-step-by-step-guide/)
+Pelajari cara membuat dokumen HTML menggunakan Aspose.HTML dengan panduan langkah demi langkah yang mudah diikuti.
 ### [Mengedit Dokumen dalam .NET dengan Aspose.HTML](./editing-a-document/)
 Ciptakan konten web yang menarik dengan Aspose.HTML untuk .NET. Pelajari cara memanipulasi HTML, CSS, dan lainnya.
 ### [Menyimpan Dokumen dalam .NET dengan Aspose.HTML](./saving-a-document/)
@@ -71,6 +73,10 @@ Pelajari cara menggunakan Aspose.HTML untuk .NET. Impor namespace, gabungkan HTM
 Manfaatkan potensi pengembangan web dengan Aspose.HTML untuk .NET. Buat, ubah, dan manipulasi dokumen HTML dengan mudah.
 ### [Buat HTML dari String di C# – Panduan Penangan Sumber Daya Kustom](./create-html-from-string-in-c-custom-resource-handler-guide/)
 Pelajari cara membuat dokumen HTML dari string menggunakan handler sumber daya kustom di C# dengan Aspose.HTML.
+### [Buat Teks Tebal Miring di C# – Panduan Cepat Menata HTML](./make-text-bold-italic-in-c-quick-guide-to-styling-html/)
+Pelajari cara menambahkan gaya teks tebal dan miring pada HTML menggunakan C# dengan Aspose.HTML dalam panduan singkat ini.
+### [Menambahkan Elemen ke Body – Panduan Lengkap C# dengan Aspose.HTML](./append-element-to-body-complete-c-guide-with-aspose-html/)
+Pelajari cara menambahkan elemen ke body dokumen HTML menggunakan Aspose.HTML dengan panduan lengkap C#.
 
 ## Kesimpulan
 

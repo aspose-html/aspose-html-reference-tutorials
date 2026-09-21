@@ -90,10 +90,35 @@ Tìm hiểu cách convert HTML to GIF trong Java bằng Aspose.HTML. Một hư�
 Học cách convert HTML to JPEG với Aspose.HTML for Java. Hướng dẫn từng bước để xử lý tài liệu một cách liền mạch.
 ### [Converting HTML to PNG](./convert-html-to-png/)
 Tìm hiểu cách convert HTML to PNG trong Java với Aspose.HTML. Một hướng dẫn toàn diện với các bước chi tiết.
+### [Cách render HTML sang PNG trong Java – Hướng dẫn đầy đủ](./how-to-render-html-to-png-in-java-complete-guide/)
+### [Cách render HTML sang PNG với viewport tùy chỉnh](./how-to-render-html-to-png-with-custom-viewport/)
+### [Chuyển đổi HTML sang PNG – Hướng dẫn chuyển đổi hàng loạt](./convert-html-to-png-batch-conversion-guide/)
+Hướng dẫn chi tiết cách chuyển đổi nhiều tệp HTML sang PNG đồng thời bằng Aspose.HTML for Java.
 ### [Converting HTML to TIFF](./convert-html-to-tiff/)
 Tìm hiểu cách dễ dàng convert HTML to TIFF bằng Aspose.HTML for Java. Hướng dẫn từng bước cho việc xử lý tài liệu hiệu quả.
-### [Chuyển đổi HTML sang WebP – Hướng dẫn Java đầy đủ với Aspose.HTML](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
+### [Cách tạo thumbnail từ HTML – Hướng dẫn Java](./how-to-generate-thumbnail-from-html-java-guide/)
+Hướng dẫn chi tiết cách tạo thumbnail từ HTML bằng Aspose.HTML for Java trong vài bước đơn giản.
+### [Converting HTML to WebP – Hướng dẫn Java đầy đủ với Aspose.HTML](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
+### [Cách tạo GIF từ SVG – Hướng dẫn từng bước Java](./how-to-create-gif-from-svg-step-by-step-java-guide/)
 
+### [Cách Render HTML thành PNG – Hướng Dẫn Đầy Đủ cho Các Nhà Phát Triển Java](./how-to-render-html-to-png-complete-guide-for-java-developers/)
+Hướng dẫn chi tiết cách chuyển đổi HTML sang PNG trong Java bằng Aspose.HTML, bao gồm các bước cài đặt và mã mẫu.
+### [Create PNG from HTML in Java – Full Step‑by‑Step Guide](./create-png-from-html-in-java-full-step-by-step-guide/)
+### [Create PNG from HTML – High‑DPI SVG Export in Java](./create-png-from-html-high-dpi-svg-export-in-java/)
+### [Tạo PNG từ SVG trong Java – Hướng dẫn chi tiết từng bước](./create-png-from-svg-in-java-complete-step-by-step-guide/)
+Hướng dẫn chi tiết cách chuyển đổi tệp SVG thành PNG trong Java bằng Aspose.HTML, bao gồm các bước mã mẫu và tùy chọn tối ưu.
+### [Cách đặt DPI – Render HTML sang PNG với AsposeHTML](./how-to-set-dpi-render-html-to-png-with-asposehtml/)
+Hướng dẫn cách thiết lập DPI khi chuyển đổi HTML sang PNG bằng Aspose.HTML for Java.
+### [Chuyển đổi HTML sang WebP – Hướng dẫn Java để lưu HTML dưới dạng WebP](./convert-html-to-webp-java-guide-to-save-html-as-webp/)
+Tìm hiểu cách convert HTML to WebP trong Java bằng Aspose.HTML. Hướng dẫn chi tiết các bước thực hiện.
+### [Cách chụp ảnh màn hình của một trang web bằng Aspose HTML – Hướng dẫn Java](./how-to-capture-screenshot-of-a-webpage-with-aspose-html-java/)
+Hướng dẫn chi tiết cách sử dụng Aspose.HTML for Java để chụp ảnh màn hình của trang web và lưu dưới dạng hình ảnh.
+
+### [Cách Đặt DPI Khi Chuyển Đổi HTML sang PNG – Hướng Dẫn Toàn Diện](./how-to-set-dpi-when-converting-html-to-png-complete-guide/)
+### [Render DPI cao trong Java – Chụp ảnh màn hình trang web với User Agent tùy chỉnh](./high-dpi-rendering-in-java-capture-webpage-screenshots-with/)
+### [Tạo PNG từ HTML – Chuyển đổi hàng loạt nhanh bằng Thread Pool](./create-png-from-html-fast-batch-conversion-using-a-thread-po/)
+### [Chuyển đổi HTML sang PNG với thiết lập mức sử dụng bộ nhớ tối đa trong Java](./convert-html-to-png-with-set-max-memory-usage-in-java/)
+Hướng dẫn cách chuyển đổi HTML sang PNG trong Java đồng thời giới hạn mức sử dụng bộ nhớ tối đa.
 ## Câu hỏi thường gặp
 
 **Q: Tôi có thể convert HTML to PNG bằng Java mà không cần thư viện hình ảnh bổ sung không?**  

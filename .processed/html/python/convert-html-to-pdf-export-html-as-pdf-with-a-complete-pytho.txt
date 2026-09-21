@@ -1,0 +1,7 @@
+Title: Convert HTML to PDF – Export HTML as PDF with a Complete Python Guide
+Slug: convert-html-to-pdf-export-html-as-pdf-with-a-complete-pytho
+Category: general
+ProcessedDate: 2026-06-10T12:38:07.864677
+SourceRepo: AI Search API
+Keywords: convert html to pdf, export html as pdf, how to convert html
+PRNumber: 180

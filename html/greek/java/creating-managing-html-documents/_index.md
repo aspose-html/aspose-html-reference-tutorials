@@ -54,6 +54,8 @@ url: /el/java/creating-managing-html-documents/
 Μάθετε πώς να φορτώνετε έγγραφα HTML από ροές χρησιμοποιώντας το Aspose.HTML για Java. Αυτός ο οδηγός παρέχει έναν οδηγό βήμα προς βήμα για απρόσκοπτη επεξεργασία HTML.
 ### [Δημιουργήστε έγγραφα HTML από το String στο Aspose.HTML για Java](./create-html-documents-from-string/)
 Μάθετε πώς να δημιουργείτε έγγραφα HTML από συμβολοσειρές στο Aspose.HTML για Java με αυτόν τον οδηγό βήμα προς βήμα.
+### [Δημιουργία εγγράφου HTML με Java – Λήψη JSON και δημιουργία περιεχομένου](./create-html-document-with-java-fetch-json-and-generate-conte/)
+Μάθετε πώς να δημιουργήσετε ένα έγγραφο HTML σε Java, λαμβάνοντας δεδομένα JSON και δημιουργώντας δυναμικό περιεχόμενο HTML με οδηγίες βήμα‑βήμα.
 ### [Φόρτωση εγγράφων HTML από τη διεύθυνση URL στο Aspose.HTML για Java](./load-html-documents-from-url/)
 Ανακαλύψτε πώς να φορτώνετε εύκολα έγγραφα HTML από μια διεύθυνση URL σε Java με το Aspose.HTML. Περιλαμβάνεται σεμινάριο βήμα προς βήμα.
 ### [Δημιουργήστε νέα έγγραφα HTML χρησιμοποιώντας το Aspose.HTML για Java](./generate-new-html-documents/)
@@ -73,3 +75,30 @@ url: /el/java/creating-managing-html-documents/
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Δημιουργία HTML από JavaScript σε Java – Πλήρης Οδηγός Βήμα‑βήμα](./generate-html-from-javascript-in-java-complete-step-by-step/)
+Μάθετε πώς να δημιουργείτε HTML από κώδικα JavaScript σε εφαρμογές Java χρησιμοποιώντας το Aspose.HTML, με αναλυτικό βήμα‑βήμα οδηγό.
+### [Επανάληψη NodeList σε Java – Ανάγνωση HTML & Λήψη src εικόνας](./iterate-nodelist-java-read-html-get-image-src/)
+Μάθετε πώς να διατρέχετε έναν NodeList σε Java, να διαβάζετε HTML και να εξάγετε τη διεύθυνση src των εικόνων.
+### [Πώς να αναλύσετε HTML σε Java – Φόρτωση, ερώτημα και καταμέτρηση στοιχείων](./how-to-parse-html-java-load-query-count-elements/)
+Μάθετε πώς να φορτώνετε, ερωτάτε και μετράτε στοιχεία HTML σε Java με το Aspose.HTML, βήμα‑βήμα οδηγός.
+### [Εκτέλεση ασύγχρονης JavaScript σε Java – Πλήρης οδηγός βήμα‑βήμα](./execute-async-javascript-in-java-complete-step-by-step-guide/)
+Μάθετε πώς να εκτελείτε κώδικα JavaScript ασύγχρονα σε εφαρμογές Java με το Aspose.HTML, βήμα‑βήμα οδηγίες.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Επανάληψη NodeList σε Java – Πλήρης Οδηγός](./iterate-over-nodelist-java-complete-guide/)
+Μάθετε πώς να επαναλαμβάνετε NodeList σε Java χρησιμοποιώντας το Aspose.HTML με αυτόν τον πλήρη οδηγό βήμα‑βήμα.
+### [Εξαγωγή κειμένου από HTML με Java – Πλήρης οδηγός βήμα‑βήμα](./extract-text-from-html-with-java-complete-step-by-step-guide/)
+Μάθετε πώς να εξάγετε κείμενο από έγγραφα HTML σε Java χρησιμοποιώντας το Aspose.HTML με αυτόν τον πλήρη οδηγό βήμα‑βήμα.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+

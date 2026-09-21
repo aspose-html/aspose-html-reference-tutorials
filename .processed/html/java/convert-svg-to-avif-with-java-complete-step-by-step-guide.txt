@@ -1,0 +1,7 @@
+Title: Convert SVG to AVIF with Java – Complete Step‑by‑Step Guide
+Slug: convert-svg-to-avif-with-java-complete-step-by-step-guide
+Category: advanced-usage
+ProcessedDate: 2026-06-10T11:39:46.345971
+SourceRepo: AI Search API
+Keywords: convert svg to avif, java convert image format
+PRNumber: 179

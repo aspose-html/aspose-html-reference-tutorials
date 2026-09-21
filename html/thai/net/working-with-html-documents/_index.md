@@ -40,6 +40,13 @@ url: /th/net/working-with-html-documents/
 ### [วิธีบันทึก HTML ใน C# ด้วย Custom Resource Handler](./how-to-save-html-in-c-with-custom-resource-handler/)
 ### [วิธีทำให้หัวเรื่องเป็นตัวหนาด้วย CSS & C# – คู่มือขั้นตอนเต็ม](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
 เรียนรู้วิธีทำให้หัวเรื่องเป็นตัวหนาด้วย CSS ใน C# อย่างละเอียด พร้อมขั้นตอนครบถ้วนเพื่อปรับปรุงการออกแบบเว็บของคุณ
+### [วิธีบันทึก HTML ใน C# – ตัวจัดการทรัพยากรแบบกำหนดเอง & ZIP](./how-to-save-html-in-c-custom-resource-handlers-zip/)
+
+### [วิธีบันทึก HTML ด้วย Aspose.Html – คู่มือ C# ฉบับสมบูรณ์](./how-to-save-html-with-aspose-html-complete-c-guide/)
+เรียนรู้วิธีบันทึก HTML ด้วย Aspose.HTML ด้วยคู่มือฉบับสมบูรณ์สำหรับ C#
+
+### [วิธีบีบอัด HTML ใน C# – คู่มือขั้นตอนเต็ม](./how-to-zip-html-in-c-complete-step-by-step-guide/)
+เรียนรู้วิธีบีบอัดไฟล์ HTML ด้วย C# อย่างละเอียด พร้อมขั้นตอนครบถ้วนเพื่อเพิ่มประสิทธิภาพการจัดเก็บ
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

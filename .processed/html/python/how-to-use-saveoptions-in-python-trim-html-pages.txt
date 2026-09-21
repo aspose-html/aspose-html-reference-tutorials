@@ -1,0 +1,7 @@
+Title: How to Use SaveOptions in Python – Trim HTML Pages
+Slug: how-to-use-saveoptions-in-python-trim-html-pages
+Category: general
+ProcessedDate: 2026-05-29T01:37:06.364565
+SourceRepo: AI Search API
+Keywords: how to use saveoptions, how to load html document, how to trim html page
+PRNumber: 165

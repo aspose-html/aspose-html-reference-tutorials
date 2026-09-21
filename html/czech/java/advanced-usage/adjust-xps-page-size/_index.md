@@ -1,10 +1,10 @@
 ---
-date: 2025-11-29
+date: 2026-03-18
 description: Naučte se, jak převést HTML na XPS a upravit velikost stránky XPS pomocí
-  Aspose.HTML pro Java. Jednoduše ovládejte rozměry výstupu.
+  Aspose.HTML pro Javu. Snadno ovládejte rozměry výstupu.
 linktitle: Adjusting XPS Page Size
 second_title: Java HTML Processing with Aspose.HTML
-title: Převod HTML na XPS a úprava velikosti stránky XPS pomocí Aspose.HTML pro Javu
+title: Převod HTML do XPS a úprava velikosti stránky XPS pomocí Aspose.HTML pro Java
 url: /cs/java/advanced-usage/adjust-xps-page-size/
 weight: 16
 ---
@@ -15,30 +15,30 @@ weight: 16
 
 # Převod HTML na XPS a úprava velikosti stránky XPS pomocí Aspose.HTML pro Java
 
-V tomto tutoriálu se dozvíte **jak převést HTML na XPS** a jemně doladit výslednou velikost stránky pomocí Aspose.HTML pro Java. Ať už generujete tisknutelné zprávy, faktury nebo archivní dokumenty, řízení rozměrů XPS zajišťuje, že výstup vypadá přesně tak, jak očekáváte. Provedeme vás každým krokem – od nastavení prostředí po vykreslení finálního XPS souboru – abyste tuto funkci mohli okamžitě integrovat do svých Java aplikací.
+V tomto tutoriálu se dozvíte **jak převést HTML na XPS** a jemně doladit výslednou velikost stránky pomocí Aspose.HTML pro Java. Ať už generujete tisknutelné zprávy, faktury nebo archivní dokumenty, kontrola rozměrů XPS zajišťuje, že výstup vypadá přesně tak, jak očekáváte. Provedeme vás každým krokem – od nastavení prostředí po vykreslení finálního XPS souboru – abyste tuto funkci mohli okamžitě integrovat do svých Java aplikací.
 
 ## Rychlé odpovědi
-- **Co znamená „převod HTML na XPS“?** Převádí HTML dokument do XPS souboru, přičemž zachovává rozvržení a stylování.  
+- **Co znamená „převést HTML na XPS“?** Převádí HTML dokument do XPS souboru, přičemž zachovává rozvržení a stylování.  
 - **Potřebuji licenci?** Bezplatná zkušební verze funguje pro vývoj; pro produkci je vyžadována komerční licence.  
 - **Jaká verze Javy je podporována?** Java 8 nebo vyšší (doporučeno JDK 11+).  
-- **Mohu změnit velikost stránky?** Ano – Aspose.HTML vám umožní před vykreslením zadat vlastní rozměry.  
+- **Mohu změnit velikost stránky?** Ano – Aspose.HTML vám umožní před vykreslením zadat vlastní rozměry.  
 - **Jak dlouho trvá převod?** Obvykle méně než sekunda pro standardní stránky; u větších dokumentů může trvat déle.
 
 ## Co je převod HTML na XPS?
-Převod HTML na XPS znamená převést soubor s webovým značkováním do dokumentu XPS (XML Paper Specification) – formátu s pevnou stránkou připraveným k tisku, podobně jako PDF. To je užitečné, když potřebujete vysoce věrné, zařízení nezávislé dokumenty pro archivaci nebo tisk z Java aplikací.
+Převod HTML na XPS znamená převést webově orientovaný značkovací soubor na dokument XPS (XML Paper Specification) – formát s pevnou stránkou, připravený k tisku, podobný PDF. To je užitečné, když potřebujete vysoce věrné, nezávislé na zařízení dokumenty pro archivaci nebo tisk z Java aplikací.
 
 ## Proč upravit velikost stránky XPS?
 Úprava velikosti stránky vám dává kontrolu nad fyzickými rozměry finálního dokumentu (např. A4, Letter, vlastní štítky). Zabraňuje nechtěnému škálování, zajišťuje, že obsah přesně zapadne, a může snížit velikost souboru odstraněním zbytečného bílého prostoru.
 
-## Požadavky
+## Předpoklady
 
-Než začneme, ujistěte se, že máte následující:
+Než začneme, ujistěte se, že máte připraveny následující předpoklady:
 
-1. **Java vývojové prostředí** – nainstalovaný Java Development Kit (JDK) na vašem systému.  
-2. **Aspose.HTML pro Java knihovna** – stáhněte a zahrňte knihovnu Aspose.HTML pro Java do svého projektu. Knihovnu najdete [zde](https://releases.aspose.com/html/java/).  
-3. **Vstupní HTML soubor** – připravte HTML soubor, který chcete převést a upravit velikost stránky XPS. Pro tento tutoriál můžete použít svůj vlastní HTML soubor.
+1. **Vývojové prostředí Java** – nainstalovaný Java Development Kit (JDK) na vašem systému.  
+2. **Knihovna Aspose.HTML pro Java** – stáhněte a zahrňte knihovnu Aspose.HTML pro Java do svého projektu. Knihovnu najdete [zde](https://releases.aspose.com/html/java/).  
+3. **Vstupní HTML soubor** – připravte HTML soubor, který chcete převést a upravit velikost XPS stránky. Pro tento tutoriál můžete použít svůj vlastní HTML soubor.
 
-## Import balíčků
+## Import Packages
 
 Nejprve importujte třídy, které budete potřebovat. Tyto balíčky vám poskytují přístup k manipulaci s dokumenty, vykreslování a nastavení stránky.
 
@@ -51,9 +51,13 @@ import com.aspose.html.rendering.xps.XpsRenderingOptions;
 import com.aspose.html.HTMLDocument;
 ```
 
-## Krok 1: Nastavte název vstupního souboru
+## Průvodce krok za krokem
 
-Načtěte zdrojový HTML soubor pomocí `FileInputStream`. Tento stream předává surové HTML do Aspose.HTML enginu.
+Níže je stručný, číslovaný průběh, který odráží původní kroky a zároveň přidává další kontext pro jasnost.
+
+### Krok 1: Nastavte název vstupního souboru
+
+Načtěte zdrojový HTML soubor pomocí `FileInputStream`. Tento stream předává surové HTML do enginu Aspose.HTML.
 
 ```java
 try (java.io.FileInputStream fileInputStream = new java.io.FileInputStream("YourInputFile.html")) {
@@ -61,9 +65,9 @@ try (java.io.FileInputStream fileInputStream = new java.io.FileInputStream("Your
 }
 ```
 
-## Krok 2: Vytvořte HTML dokument a nastavte styly
+### Krok 2: Vytvořte HTML dokument a nastavte styly
 
-Vytvořte instanci `HTMLDocument`, která představuje obsah, který budete vykreslovat. V tomto příkladu také vložíme malý CSS blok pro demonstraci stylování – klidně jej nahraďte svým vlastním značkováním.
+Vytvořte instanci `HTMLDocument`, která představuje obsah, který budete vykreslovat. V tomto příkladu také vložíme malý CSS blok pro demonstraci stylování – můžete jej nahradit svým vlastním značkováním.
 
 ```java
 com.aspose.html.HTMLDocument html_document = new com.aspose.html.HTMLDocument("YourOutputFile.html");
@@ -83,7 +87,7 @@ String style = "<style>\n" +
 // ...
 ```
 
-## Krok 3: Vytvořte možnosti vykreslování XPS
+### Krok 3: Vytvořte XPS Rendering Options
 
 Instancujte `XpsRenderingOptions`, která obsahuje všechna nastavení ovlivňující převod z HTML na XPS.
 
@@ -91,9 +95,9 @@ Instancujte `XpsRenderingOptions`, která obsahuje všechna nastavení ovlivňuj
 com.aspose.html.rendering.xps.XpsRenderingOptions xps_options = new com.aspose.html.rendering.xps.XpsRenderingOptions();
 ```
 
-## Krok 4: Upravit velikost stránky
+### Krok 4: Upravit velikost stránky  
 
-Definujte vlastní velikost stránky (šířka × výška v bodech) a řekněte rendereru, zda má automaticky rozšířit na nejširší stránku. Nastavení `adjustToWidestPage` na `false` zachová přesné rozměry, které zadáte.
+**Jak nastavit velikost stránky XPS** – Definujte vlastní velikost stránky (šířka × výška v bodech) a řekněte rendereru, zda má automaticky rozšířit na nejširší stránku. Nastavením `adjustToWidestPage` na `false` zachováte přesné rozměry, které zadáte.
 
 ```java
 com.aspose.html.drawing.Page page = new com.aspose.html.drawing.Page(new com.aspose.html.drawing.Size(100, 100));
@@ -103,7 +107,7 @@ pageSetup.setAdjustToWidestPage(false);
 xps_options.setPageSetup(pageSetup);
 ```
 
-## Krok 5: Vykreslete výstup
+### Krok 5: Vykreslete výstup
 
 Nakonec vytvořte `XpsDevice` s nakonfigurovanými možnostmi a vykreslete HTML dokument. Výsledkem je plně vytvořený XPS soubor s vlastními rozměry stránky, které jste nastavili.
 
@@ -115,45 +119,45 @@ renderer.render(device, html_document);
 
 ## Časté problémy a řešení
 
-| Problém | Proč se to děje | Řešení |
-|---------|----------------|--------|
+| Problém | Proč se vyskytuje | Řešení |
+|-------|----------------|-----|
 | **Prázdný XPS výstup** | Vstupní stream není uzavřen nebo `HTMLDocument` ukazuje na špatný soubor. | Ujistěte se, že `FileInputStream` je správně zabalen v bloku try‑with‑resources a cesta k souboru je přesná. |
-| **Velikost stránky se nepoužije** | `adjustToWidestPage` zůstalo nastaveno na `true`. | Nastavte `pageSetup.setAdjustToWidestPage(false);` jak je ukázáno v kroku 4. |
+| **Velikost stránky se nepoužije** | `adjustToWidestPage` zůstalo nastaveno na `true`. | Nastavte `pageSetup.setAdjustToWidestPage(false);` jak je ukázáno v Kroku 4. |
 | **Nesprávná podpora CSS** | Aspose.HTML podporuje jen podmnožinu CSS. | Držte se základního rozvržení, fontů a barev; vyhněte se pokročilým selektorům nebo CSS Grid. |
-| **LicenseException** | Spuštěno bez platné licence v produkci. | Aplikujte dočasnou nebo zakoupenou licenci před vykreslením (`License license = new License(); license.setLicense("Aspose.Total.Java.lic");`). |
+| **LicenseException** | Spuštění bez platné licence v produkci. | Aplikujte dočasnou nebo zakoupenou licenci před vykreslením (`License license = new License(); license.setLicense("Aspose.Total.Java.lic");`). |
 
 ## Často kladené otázky
 
 **Q: Co je Aspose.HTML pro Java?**  
-A: Aspose.HTML pro Java je knihovna pro Javu, která umožňuje vývojářům manipulovat a převádět HTML dokumenty do různých formátů, jako jsou XPS, PDF a obrázky.
+A: Aspose.HTML pro Java je knihovna pro Java, která umožňuje vývojářům manipulovat a převádět HTML dokumenty do různých formátů, jako jsou XPS, PDF a obrázky.
 
 **Q: Kde si mohu stáhnout Aspose.HTML pro Java?**  
 A: Knihovnu Aspose.HTML pro Java můžete stáhnout z [tohoto odkazu](https://releases.aspose.com/html/java/).
 
 **Q: Je k dispozici bezplatná zkušební verze Aspose.HTML pro Java?**  
-A: Ano, bezplatnou zkušební verzi získáte [zde](https://releases.aspose.com/).
+A: Ano, bezplatnou zkušební verzi Aspose.HTML pro Java získáte [zde](https://releases.aspose.com/).
 
 **Q: Jak získám dočasnou licenci pro Aspose.HTML pro Java?**  
-A: Pro získání dočasné licence navštivte [tuto stránku](https://purchase.aspose.com/temporary-license/).
+A: Pro získání dočasné licence pro Aspose.HTML pro Java navštivte [tuto stránku](https://purchase.aspose.com/temporary-license/).
 
 **Q: Mohu získat podporu pro Aspose.HTML pro Java?**  
-A: Ano, pomoc a podporu můžete získat v komunitě Aspose na [Aspose fóru](https://forum.aspose.com/).
+A: Ano, můžete požádat o pomoc a podporu v komunitě Aspose na [Aspose fóru](https://forum.aspose.com/).
 
-**Q: Lze převést HTML na XPS na serveru bez grafického rozhraní?**  
-A: Rozhodně. Aspose.HTML funguje v prostředích bez GUI; stačí mít správně nakonfigurovaný Java runtime.
+**Q: Můžu převádět HTML na XPS na serveru bez grafického rozhraní?**  
+A: Rozhodně. Aspose.HTML funguje v prostředích bez GUI; stačí zajistit, aby byl Java runtime správně nakonfigurován.
 
 **Q: Podporuje knihovna vlastní okraje stránky?**  
-A: Ano. Použijte `PageSetup.setMarginTop()`, `setMarginBottom()` a podobně před přiřazením `PageSetup` k možnostem vykreslování.
+A: Ano. Použijte `PageSetup.setMarginTop()`, `setMarginBottom()` atd. před přiřazením `PageSetup` k možnostem vykreslování.
 
 ## Závěr
 
-Prošli jsme kompletním procesem **převodu HTML na XPS** a úpravy velikosti stránky pomocí Aspose.HTML pro Java. Dodržením těchto kroků můžete generovat tiskové XPS dokumenty, které přesně odpovídají vašim požadavkům na rozvržení. Nebojte se experimentovat s různými rozměry stránky, styly nebo dokonce přidávat záhlaví a zápatí podle potřeb vašeho projektu.
+Prošli jsme kompletním procesem **převodu HTML na XPS** a úpravy velikosti stránky pomocí Aspose.HTML pro Java. Dodržením těchto kroků můžete generovat tiskové XPS dokumenty, které přesně odpovídají vašim požadavkům na rozvržení. Nebojte se experimentovat s různými rozměry stránky, styly nebo dokonce přidávat záhlaví a zápatí podle potřeb projektu.
 
 Pokud máte jakékoli otázky nebo potřebujete další pomoc, prozkoumejte [dokumentaci Aspose.HTML pro Java](https://reference.aspose.com/html/java/) nebo se zapojte do diskuze na [Aspose fóru](https://forum.aspose.com/).
 
 ---
 
-**Poslední aktualizace:** 2025-11-29  
+**Poslední aktualizace:** 2026-03-18  
 **Testováno s:** Aspose.HTML pro Java 24.11 (nejnovější v době psaní)  
 **Autor:** Aspose  
 

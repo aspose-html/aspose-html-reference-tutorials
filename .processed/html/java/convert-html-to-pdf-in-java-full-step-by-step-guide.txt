@@ -1,0 +1,7 @@
+Title: Convert HTML to PDF in Java – Full Step‑by‑Step Guide
+Slug: convert-html-to-pdf-in-java-full-step-by-step-guide
+Category: conversion-html-to-other-formats
+ProcessedDate: 2026-06-19T23:02:28.307445
+SourceRepo: AI Search API
+Keywords: convert html to pdf, generate pdf from html file, how to convert html to pdf java
+PRNumber: 187

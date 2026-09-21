@@ -57,6 +57,8 @@ Ismerje meg, hogyan töltheti fel SEO-ját az Aspose.HTML for .NET segítségév
 Kibontakoztassa az Aspose.HTML-ben rejlő lehetőségeket .NET-hez átfogó útmutatónkkal. Ismerje meg, hogyan importálhat névtereket, hogyan férhet hozzá távoli HTML-dokumentumokhoz stb.
 ### [HTML betöltése URL használatával a .NET-ben az Aspose.HTML-lel](./load-html-using-url/)
 Ismerje meg, hogyan használhatja ki az Aspose.HTML erejét .NET-hez. Fokozza fel webfejlesztését HTML-kezeléssel és -megjelenítéssel.
+### [HTML-dokumentum létrehozása az Aspose.HTML‑el – Lépésről‑lépésre útmutató](./create-html-document-with-aspose-html-step-by-step-guide/)
+Ismerje meg, hogyan hozhat létre HTML-dokumentumot az Aspose.HTML segítségével, részletes lépésekkel és példákkal.
 ### [Dokumentum létrehozása .NET-ben az Aspose.HTML segítségével](./creating-a-document/)
 Engedje szabadjára az Aspose.HTML erejét .NET-hez. Tanuljon meg könnyedén létrehozni, manipulálni és optimalizálni HTML és SVG dokumentumokat. Fedezze fel a lépésről lépésre példákat és a GYIK-et.
 ### [Dokumentum szerkesztése .NET-ben az Aspose.HTML segítségével](./editing-a-document/)
@@ -71,6 +73,10 @@ Tanulja meg az Aspose.HTML használatát .NET-hez. Importáljon névteret, egyes
 Használja ki a webfejlesztésben rejlő lehetőségeket az Aspose.HTML for .NET segítségével. Könnyen hozhat létre, konvertálhat és kezelhet HTML dokumentumokat.
 ### [HTML létrehozása karakterláncból C#-ban – Egyéni erőforráskezelő útmutató](./create-html-from-string-in-c-custom-resource-handler-guide/)
 Ismerje meg, hogyan hozhat létre HTML-t karakterláncból C#-ban egy egyéni erőforráskezelő segítségével.
+### [Szöveg félkövér és dőlt formázása C#-ban – Gyors útmutató a HTML stílusozásához](./make-text-bold-italic-in-c-quick-guide-to-styling-html/)
+Ismerje meg, hogyan formázhatja félkövérre és dőlthetre a szöveget C#-ban az Aspose.HTML segítségével.
+### [Elem hozzáadása a body-hoz – Teljes C# útmutató az Aspose.HTML-lel](./append-element-to-body-complete-c-guide-with-aspose-html/)
+Ismerje meg, hogyan adhat hozzá elemeket a HTML body részéhez C#-ban az Aspose.HTML használatával.
 
 ## Következtetés
 

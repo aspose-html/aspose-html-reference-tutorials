@@ -1,0 +1,7 @@
+Title: Convert HTML to PDF in Python – complete programming guide
+Slug: convert-html-to-pdf-in-python-complete-programming-guide
+Category: general
+ProcessedDate: 2026-08-13T02:43:31.008103
+SourceRepo: AI Search API
+Keywords: convert html to pdf, save html as pdf, html to pdf options, save html document pdf
+PRNumber: 240
