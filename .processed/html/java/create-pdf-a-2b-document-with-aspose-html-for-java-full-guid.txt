@@ -1,0 +1,7 @@
+Title: Create PDF/A-2b Document with Aspose HTML for Java – Full Guide
+Slug: create-pdf-a-2b-document-with-aspose-html-for-java-full-guid
+Category: conversion-html-to-other-formats
+ProcessedDate: 2026-06-26T07:26:18.983935
+SourceRepo: AI Search API
+Keywords: create pdf/a-2b document
+PRNumber: 192

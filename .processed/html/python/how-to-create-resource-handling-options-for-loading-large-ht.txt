@@ -1,0 +1,7 @@
+Title: How to create resource handling options for loading large HTML documents in Python
+Slug: how-to-create-resource-handling-options-for-loading-large-ht
+Category: general
+ProcessedDate: 2026-09-17T03:00:24.106323
+SourceRepo: AI Search API
+Keywords: create resource handling options, load large html document
+PRNumber: 268

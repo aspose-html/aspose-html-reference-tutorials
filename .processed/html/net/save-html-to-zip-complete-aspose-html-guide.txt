@@ -1,0 +1,7 @@
+Title: Save HTML to ZIP – Complete Aspose.Html Guide
+Slug: save-html-to-zip-complete-aspose-html-guide
+Category: html-extensions-and-conversions
+ProcessedDate: 2026-06-07T10:16:58.820969
+SourceRepo: AI Search API
+Keywords: save html to zip, create zip archive stream, create zip archive programmatically
+PRNumber: 174

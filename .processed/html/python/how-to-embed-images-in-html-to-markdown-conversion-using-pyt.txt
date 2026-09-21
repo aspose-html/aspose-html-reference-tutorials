@@ -1,0 +1,7 @@
+Title: How to embed images in HTML to Markdown conversion using Python
+Slug: how-to-embed-images-in-html-to-markdown-conversion-using-pyt
+Category: general
+ProcessedDate: 2026-08-03T14:46:42.582789
+SourceRepo: AI Search API
+Keywords: how to embed images, convert html to markdown, how to convert html, save html as markdown, embed images as base64
+PRNumber: 230

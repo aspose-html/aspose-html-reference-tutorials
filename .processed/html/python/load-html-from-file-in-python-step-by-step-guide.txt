@@ -1,0 +1,7 @@
+Title: Load html from file in Python – step‑by‑step guide
+Slug: load-html-from-file-in-python-step-by-step-guide
+Category: general
+ProcessedDate: 2026-08-13T02:43:36.760960
+SourceRepo: AI Search API
+Keywords: load html from file, read html file using python, how to load html in python, load html from url, create htmldocument from string
+PRNumber: 240
