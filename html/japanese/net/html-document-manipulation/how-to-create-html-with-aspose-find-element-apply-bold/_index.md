@@ -19,7 +19,7 @@ title: AsposeでHTMLを作成する方法 – 要素を検索し、太字を適�
 url: /ja/net/html-document-manipulation/how-to-create-html-with-aspose-find-element-apply-bold/
 ---
 
-assemble.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

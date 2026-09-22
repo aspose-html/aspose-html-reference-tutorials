@@ -22,7 +22,7 @@ title: Comment créer du HTML avec Aspose – Trouver l’élément, appliquer l
 url: /fr/net/html-document-manipulation/how-to-create-html-with-aspose-find-element-apply-bold/
 ---
 
-produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

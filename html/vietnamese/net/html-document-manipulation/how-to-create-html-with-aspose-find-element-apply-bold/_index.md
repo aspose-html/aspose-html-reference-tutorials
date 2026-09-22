@@ -21,10 +21,6 @@ title: cách tạo html với Aspose – Tìm phần tử, Đặt in đậm
 url: /vi/net/html-document-manipulation/how-to-create-html-with-aspose-find-element-apply-bold/
 ---
 
-translations.
-
-Let's craft the final markdown.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

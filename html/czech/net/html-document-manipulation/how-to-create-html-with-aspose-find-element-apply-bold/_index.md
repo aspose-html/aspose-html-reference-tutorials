@@ -21,18 +21,6 @@ title: Jak vytvořit HTML s Aspose – najít prvek, použít tučné písmo
 url: /cs/net/html-document-manipulation/how-to-create-html-with-aspose-find-element-apply-bold/
 ---
 
-the "Prerequisites" heading translate.
-
-Also the "Step 1: Find element by id – the foundation of DOM manipulation" translate.
-
-Make sure to keep markdown formatting.
-
-Let's produce translation.
-
-We need to ensure we keep URLs unchanged: the image URL is /images/asp-aspose-html-example.png . Keep same.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

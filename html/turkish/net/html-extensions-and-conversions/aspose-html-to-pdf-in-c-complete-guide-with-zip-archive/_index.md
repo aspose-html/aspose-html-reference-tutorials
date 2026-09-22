@@ -24,9 +24,7 @@ title: C#'ta Aspose HTML'den PDF'ye – ZIP Arşiviyle Tam Kılavuz
 url: /tr/net/html-extensions-and-conversions/aspose-html-to-pdf-in-c-complete-guide-with-zip-archive/
 ---
 
-code block placeholders unchanged.
-
-Now produce final output with all translated text.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

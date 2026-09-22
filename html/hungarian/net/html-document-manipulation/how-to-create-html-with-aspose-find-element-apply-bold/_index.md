@@ -23,7 +23,7 @@ title: HTML létrehozása Aspose-szal – Elem keresése, félkövér alkalmazá
 url: /hu/net/html-document-manipulation/how-to-create-html-with-aspose-find-element-apply-bold/
 ---
 
-.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

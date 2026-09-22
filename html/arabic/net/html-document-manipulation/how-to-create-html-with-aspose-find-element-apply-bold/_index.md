@@ -21,17 +21,7 @@ title: كيفية إنشاء HTML باستخدام Aspose – العثور عل�
 url: /ar/net/html-document-manipulation/how-to-create-html-with-aspose-find-element-apply-bold/
 ---
 
-Paragraph translate.
-
-Then final shortcodes closing.
-
-Also need to keep the final shortcodes unchanged.
-
-Now produce final content with all translations.
-
-Be careful to preserve markdown formatting exactly.
-
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

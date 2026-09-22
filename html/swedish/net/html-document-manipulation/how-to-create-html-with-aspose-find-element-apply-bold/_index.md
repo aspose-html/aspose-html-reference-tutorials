@@ -21,12 +21,6 @@ title: Hur man skapar HTML med Aspose – Hitta element, applicera fetstil
 url: /sv/net/html-document-manipulation/how-to-create-html-with-aspose-find-element-apply-bold/
 ---
 
-"## Förutsättningar". etc.
-
-Make sure to keep markdown formatting.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

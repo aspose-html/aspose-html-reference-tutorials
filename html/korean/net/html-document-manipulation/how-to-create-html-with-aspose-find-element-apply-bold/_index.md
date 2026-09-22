@@ -21,12 +21,6 @@ title: Aspose로 HTML 만들기 – 요소 찾기, 굵게 적용
 url: /ko/net/html-document-manipulation/how-to-create-html-with-aspose-find-element-apply-bold/
 ---
 
-샷 – how to create html". Keep URL and title unchanged? Title is "how to create html example". Should not translate title (it's attribute). Keep as is.
-
-Also "*Image alt text:* **how to create html example screenshot showing bold‑italic text**" translate.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

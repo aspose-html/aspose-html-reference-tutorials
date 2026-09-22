@@ -21,12 +21,6 @@ title: วิธีสร้าง HTML ด้วย Aspose – ค้นหา�
 url: /th/net/html-document-manipulation/how-to-create-html-with-aspose-find-element-apply-bold/
 ---
 
-.
-
-Also not to translate any code snippet inside tables (like `new HtmlDocument()`) keep as is.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
