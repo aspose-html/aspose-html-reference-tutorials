@@ -69,8 +69,14 @@ Aspose.HTML for .NET 以其简单性和强大性脱颖而出。它使您能够�
 学习使用 Aspose.HTML for .NET。通过本综合指南导入命名空间、合并 HTML 与 XML 并增强您的 Web 开发技能。
 ### [使用 Aspose.HTML 在 .NET 中通过 XpsDevice 生成 XPS 文档](./generate-xps-documents-by-xpsdevice/)
 使用 Aspose.HTML for .NET 释放 Web 开发的潜力。轻松创建、转换和操作 HTML 文档。
+### [使用 Aspose.HTML 创建 HTML 文档 – 步骤指南](./create-html-document-with-aspose-html-step-by-step-guide/)
+了解如何使用 Aspose.HTML for .NET 创建 HTML 文档的完整步骤，帮助您快速上手并生成高质量的网页。
 ### [在 C# 中从字符串创建 HTML – 自定义资源处理程序指南](./create-html-from-string-in-c-custom-resource-handler-guide/)
 了解如何使用自定义资源处理程序将字符串转换为 HTML 文档。
+### [在 C# 中将文本加粗斜体 – HTML 样式快速指南](./make-text-bold-italic-in-c-quick-guide-to-styling-html/)
+了解如何在 C# 中使用 Aspose.HTML 为 HTML 文本应用粗体和斜体样式的快速方法。
+### [使用 Aspose.HTML 在 .NET 中将元素追加到 Body – 完整 C# 指南](./append-element-to-body-complete-c-guide-with-aspose-html/)
+了解如何使用 Aspose.HTML for .NET 将元素追加到 HTML 文档的 Body 部分，提供完整的 C# 示例和步骤指南。
 ### [使用 Aspose 创建 HTML – 查找元素并加粗](./how-to-create-html-with-aspose-find-element-apply-bold/)
 了解如何使用 Aspose.HTML 在 .NET 中查找元素并将其文字设置为粗体。
 

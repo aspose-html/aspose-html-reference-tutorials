@@ -26,6 +26,8 @@ Pertama-tama, mari kita bahas tentang apa itu aliran memori. Bayangkan aliran me
 ## Penanganan Data dan Manajemen Aliran di Aspose.HTML untuk Tutorial Java
 ### [Konversi Aliran Memori ke File menggunakan Aspose.HTML untuk Java](./memory-stream-to-file/)
 Konversi HTML ke JPEG dengan Aspose.HTML untuk Java menggunakan aliran memori. Ikuti panduan langkah demi langkah ini untuk konversi HTML ke gambar yang lancar.
+### [Java Fixed Thread Pool: Menghitung Gambar dalam File Paralel](./java-fixed-thread-pool-count-images-in-parallel-files/)
+Gunakan Fixed Thread Pool di Java untuk menghitung gambar secara paralel dalam banyak file secara efisien.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

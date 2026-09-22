@@ -1,7 +1,7 @@
 ---
-date: 2025-12-17
+date: 2026-02-28
 description: Aspose.HTML for Java를 사용하여 HTML을 MHTML로 변환하는 방법을 배우세요 – HTML 변환, HTML을
-  MHTML로 저장, 그리고 Java에서 HTML 문서를 로드하는 단계별 가이드.
+  MHTML로 저장 및 Java에서 HTML 문서를 로드하는 단계별 가이드.
 linktitle: Converting HTML to MHTML
 second_title: Java HTML Processing with Aspose.HTML
 title: Aspose.HTML for Java를 사용하여 HTML을 MHTML로 변환하는 방법
@@ -15,35 +15,35 @@ weight: 11
 
 # Aspose.HTML for Java를 사용하여 HTML을 MHTML로 변환하는 방법
 
-HTML을 MHTML로 변환하는 것은 HTML 페이지와 모든 리소스(이미지, CSS, 스크립트)를 하나의 휴대 가능한 파일에 포함해야 할 때 흔히 요구됩니다. 이 튜토리얼에서는 Aspose.HTML for Java를 사용하여 **HTML을 MHTML로 변환하는 방법**을 배우고, **HTML을 MHTML로 저장하는 방법**을 확인하며, **Java 스타일로 HTML 문서를 로드하는** 최적의 방법을 알아봅니다. 웹 페이지를 보관하거나, 이메일용 콘텐츠를 생성하거나, 보고 파이프라인을 구축할 때 아래 단계가 빠르게 도움이 될 것입니다.
+HTML을 MHTML로 변환하는 것은 HTML 페이지와 모든 리소스(이미지, CSS, 스크립트)를 포함하는 단일 포터블 파일이 필요할 때 흔히 요구되는 작업입니다. 이 튜토리얼에서는 Aspose.HTML for Java를 사용하여 **HTML을 MHTML로 변환하는 방법**을 배우고, **HTML을 MHTML로 저장하는 방법**을 확인하며, **Java 스타일로 HTML 문서를 로드하는** 최적의 방법을 알아봅니다. 웹 페이지를 아카이브하거나, 이메일용 콘텐츠를 생성하거나, 보고 파이프라인을 구축할 때 아래 단계들을 따라 하면 빠르게 목표를 달성할 수 있습니다.
 
-## 빠른 답변
-- **주요 라이브러리는?** Aspose.HTML for Java
-- **구현에 걸리는 시간은?** 기본 변환의 경우 약 10‑15분
-- **라이선스가 필요합니까?** 테스트에는 임시 라이선스로 충분하며, 프로덕션에는 정식 라이선스가 필요합니다
-- **파일을 배치 처리할 수 있나요?** 예 – 코드를 루프에 넣고 동일한 옵션을 재사용하면 됩니다
-- **지원되는 출력 형식?** MHTML(`.mht`) 및 PDF, PNG 등 기타 형식
+## Quick Answers
+- **주요 라이브러리는?** Aspose.HTML for Java  
+- **구현 소요 시간은?** 기본 변환의 경우 약 10‑15분  
+- **라이선스가 필요합니까?** 테스트용 임시 라이선스로 충분하며, 프로덕션에서는 정식 라이선스가 필요합니다  
+- **파일을 배치 처리할 수 있나요?** 예 – 코드를 루프에 넣고 동일한 옵션을 재사용하면 됩니다  
+- **지원되는 출력 형식?** MHTML(`.mht`), plus other formats like PDF, PNG, etc.
 
-## HTML을 MHTML로 변환이란?
-MHTML(또는 MHT)은 HTML 페이지와 모든 외부 리소스를 하나의 MIME 인코딩 파일로 묶습니다. 이 파일은 독립형 문서가 되어 오프라인 보기나 이메일 첨부에 적합합니다.
+## What is HTML to MHTML Conversion?
+MHTML(또는 MHT)은 HTML 페이지와 모든 외부 리소스를 하나의 MIME‑인코딩 파일로 묶습니다. 이렇게 하면 문서가 자체 포함형이 되어 오프라인 보기나 이메일 첨부에 적합합니다.
 
-## Aspose.HTML for Java를 사용하는 이유
-- **전체 제어** – 리소스 처리 방식을 직접 지정할 수 있습니다(변환기가 링크를 얼마나 깊게 따라갈지 결정).
-- **외부 브라우저 불필요** – 변환이 JVM에서 완전히 실행됩니다.
-- **고충실도** – 생성된 MHTML은 브라우저에서 보는 원본 페이지와 동일하게 표시됩니다.
-- **확장성** – 단일 페이지든 대규모 배치 작업이든 적합합니다.
+## Why Use Aspose.HTML for Java?
+- **Full control** over resource handling (you decide how deep the converter should follow links)  
+- **No external browsers** – the conversion runs entirely on the JVM  
+- **High fidelity** – the resulting MHTML looks exactly like the original page in a browser  
+- **Scalable** – suitable for single pages or large batch jobs  
 
-## 사전 요구 사항
+## Prerequisites
 
 Before we start, make sure you have the following:
 
-1. **Java 개발 환경** – 최신 JDK가 설치되어 있어야 합니다. [Oracle's website](https://www.oracle.com/java/technologies/javase-downloads.html)에서 다운로드할 수 있습니다.
-2. **Aspose.HTML for Java** – [Aspose.HTML for Java documentation](https://reference.aspose.com/html/java/)에서 라이브러리를 얻으세요.
-3. **HTML 문서** – **HTML을 MHTML로 저장**하려는 파일입니다. 로컬 `.html` 파일이거나 런타임에 생성한 페이지일 수 있습니다.
+1. **Java Development Environment** – a recent JDK installed. You can download it from [Oracle's website](https://www.oracle.com/java/technologies/javase-downloads.html).  
+2. **Aspose.HTML for Java** – obtain the library from the [Aspose.HTML for Java documentation](https://reference.aspose.com/html/java/).  
+3. **HTML Document** – the file you want to **save HTML as MHTML**. It can be any local `.html` file or a page you generate at runtime.
 
-이제 기본 사항을 다했으니, 코드로 들어가 보겠습니다.
+Now that the basics are covered, let’s dive into the code.
 
-## 패키지 가져오기
+## Import Packages
 
 Add the required imports to your Java class:
 
@@ -54,98 +54,92 @@ import com.aspose.html.converters.Converter;
 import com.aspose.html.saving.MHTMLResourceHandlingOptions;
 ```
 
-## 단계별 가이드
+## Step‑by‑Step Guide
 
-### 단계 1: HTML 문서 로드
+### Step 1: Load the HTML Document
 
 ```java
 HTMLDocument htmlDocument = new HTMLDocument("path_to_your_html_file.html");
 ```
 
-여기서는 파일 경로를 제공하여 **Java 스타일로 HTML 문서를 로드**합니다. `HTMLDocument` 클래스가 마크업을 파싱하고 변환을 위해 준비합니다.
+Here we **load HTML document Java**‑style by providing the file path. The `HTMLDocument` class parses the markup and prepares it for conversion.
 
-### 단계 2: MHTML 저장 옵션 초기화
+### Step 2: Initialize MHTML Save Options
 
 ```java
 MHTMLSaveOptions options = new MHTMLSaveOptions();
 ```
 
-`MHTMLSaveOptions` 객체를 사용하면 변환 동작(예: 리소스 처리, 인코딩)을 조정할 수 있습니다.
-
-### 단계 3: 리소스 처리 규칙 설정
+### Step 3: Set Resource Handling Rules
 
 ```java
 MHTMLResourceHandlingOptions resourceHandlingOptions = options.getResourceHandlingOptions();
 resourceHandlingOptions.setMaxHandlingDepth(1);
 ```
 
-변환기가 링크된 리소스를 얼마나 깊게 따라갈지 제어할 수 있습니다. 깊이를 `1`로 설정하면 즉시 연결된 리소스(이미지, CSS)만 포함되어 출력 크기를 적절하게 유지합니다.
-
-### 단계 4: 출력 경로 지정
+### Step 4: Specify the Output Path
 
 ```java
 String outputMHTML = "path_to_output_mhtml_file.mht";
 ```
 
-생성된 **MHTML** 파일을 저장할 위치를 선택합니다.
-
-### 단계 5: 변환 수행
+### Step 5: Perform the Conversion
 
 ```java
 Converter.convertHTML(htmlDocument, options, outputMHTML);
 ```
 
-정적 `convertHTML` 메서드가 핵심 작업을 수행합니다: `HTMLDocument`를 읽고 `options`를 적용한 뒤 `outputMHTML`에 MHTML 파일을 씁니다.
+> **Pro tip:** If you need to convert many files, instantiate `MHTMLSaveOptions` once and reuse it inside a loop to improve performance.
 
-> **프로 팁:** 많은 파일을 변환해야 할 경우 `MHTMLSaveOptions`를 한 번 인스턴스화하고 루프 안에서 재사용하면 성능이 향상됩니다.
+## How to Convert HTML to PDF (java html to pdf) – A Quick Note
 
-축하합니다! Aspose.HTML for Java를 사용하여 **HTML을 MHTML로 성공적으로 변환**했습니다.
+Aspose.HTML for Java isn’t limited to MHTML. If you also need to generate PDFs, simply replace `MHTMLSaveOptions` with `PdfSaveOptions` and call the same `Converter.convertHTML` method. This flexibility lets you handle **java html to pdf** conversions without adding extra libraries.
 
-## 일반적인 문제와 해결책
+## Common Issues and Solutions
 
-| 문제 | 해결책 |
+| Issue | Solution |
 |-------|----------|
-| **MHTML 파일에 이미지 누락** | `setMaxHandlingDepth`를 충분히 높게 설정하여 중첩 리소스를 포함하거나, `resourceHandlingOptions.getAdditionalResources()`를 통해 수동으로 추가하세요 |
-| **지원되지 않는 CSS 기능** | Aspose.HTML는 HTML5/CSS3 표준을 따릅니다; 오래되거나 독점적인 CSS는 무시될 수 있습니다. 스타일시트를 단순화하거나 스타일을 HTML에 직접 삽입하세요 |
-| **런타임에서 LicenseException** | 개발 중 임시 라이선스를 적용하세요: `License license = new License(); license.setLicense("Aspose.HTML.Java.lic");` |
+| **Missing images in the MHTML file** | Ensure `setMaxHandlingDepth` is high enough to include nested resources, or manually add them via `resourceHandlingOptions.getAdditionalResources()` |
+| **Unsupported CSS features** | Aspose.HTML follows the HTML5/CSS3 standards; older or proprietary CSS may be ignored. Simplify the stylesheet or embed styles directly in the HTML |
+| **LicenseException at runtime** | Apply a temporary license during development: `License license = new License(); license.setLicense("Aspose.HTML.Java.lic");` |
 
-## FAQ
+## Frequently Asked Questions
 
-### Q1: MHTML이란 무엇이며, 왜 사용하나요?
-A1: MHTML(MIME HTML)은 HTML 페이지와 모든 리소스(이미지, 스타일, 스크립트)를 하나의 파일로 결합한 형식입니다. 웹 페이지를 보관하거나 이메일로 자체 포함 콘텐츠를 전송할 때 이상적입니다.
+**Q1: What is MHTML, and why is it used?**  
+A1: MHTML (MIME HTML) is a file format that combines an HTML page and all its resources (images, styles, scripts) into a single file. It’s ideal for archiving web pages or sending self‑contained content via email.
 
-### Q2: Aspose.HTML for Java에서 리소스 처리 규칙을 사용자 정의할 수 있나요?
-A2: 네, Aspose.HTML for Java는 리소스 처리 규칙을 사용자 정의할 수 있어 변환 중 리소스가 어떻게 처리될지 제어할 수 있습니다.
+**Q2: Can I customize the resource handling rules in Aspose.HTML for Java?**  
+A2: Yes, Aspose.HTML for Java allows you to customize resource handling rules, giving you control over how resources are handled during conversion.
 
-### Q3: Aspose.HTML for Java는 배치 변환에 적합한가요?
-A3: 네, Aspose.HTML for Java는 배치 변환에 사용할 수 있어 다수의 HTML을 MHTML로 변환하는 데 다재다능한 도구입니다.
+**Q3: Is Aspose.HTML for Java suitable for batch conversions?**  
+A3: Yes, Aspose.HTML for Java can be used for batch conversions, making it a versatile tool for handling multiple HTML to MHTML conversions.
 
-### Q4: 다른 변환 도구보다 Aspose.HTML for Java를 사용할 때 장점은 무엇인가요?
-A4: Aspose.HTML for Java는 고급 기능, 리소스 처리 및 사용자 정의 옵션을 제공하여 HTML을 MHTML로 변환할 때 강력한 선택이 됩니다.
+**Q4: What are the advantages of using Aspose.HTML for Java over other conversion tools?**  
+A4: Aspose.HTML for Java offers advanced features, resource handling, and customization options, making it a robust choice for HTML to MHTML conversions.
 
-### Q5: Aspose.HTML for Java의 임시 라이선스를 어떻게 얻을 수 있나요?
-A5: [여기](https://purchase.aspose.com/temporary-license/)에서 Aspose.HTML for Java의 임시 라이선스를 얻을 수 있습니다.
+**Q5: How can I obtain a temporary license for Aspose.HTML for Java?**  
+A5: You can obtain a temporary license for Aspose.HTML for Java from [here](https://purchase.aspose.com/temporary-license/).
 
-**추가 자주 묻는 질문**
+**Additional Frequently Asked Questions**
 
-**Q: 원격 URL을 먼저 저장하지 않고 직접 변환할 수 있나요?**  
-A: 예 – URL을 `HTMLDocument` 생성자에 전달하면(예: `new HTMLDocument("https://example.com")`) 라이브러리가 페이지를 자동으로 가져옵니다.
+**Q: Can I convert a remote URL directly without saving it first?**  
+A: Yes – pass the URL to the `HTMLDocument` constructor (e.g., `new HTMLDocument("https://example.com")`) and the library will fetch the page automatically.
 
-**Q: 변환기가 JavaScript 실행을 보존하나요?**  
-A: 아니요. 변환은 정적 마크업과 리소스를 캡처하며, 런타임에 JavaScript가 생성하는 동적 콘텐츠는 실행되지 않습니다.
+**Q: Does the converter preserve JavaScript execution?**  
+A: No. The conversion captures the static markup and resources; dynamic content generated by JavaScript at runtime is not executed.
 
-**Q: 지원되는 Java 버전은 무엇인가요?**  
-A: Aspose.HTML for Java는 Java 8 이상을 지원합니다.
+**Q: Which Java versions are supported?**  
+A: Aspose.HTML for Java supports Java 8 and later versions.
 
-## 결론
+## Conclusion
 
-이제 Aspose.HTML for Java를 사용하여 **HTML을 MHTML로 변환하는 방법**에 대한 완전하고 프로덕션 준비된 레시피를 갖게 되었습니다. 위 단계들을 활용해 변환을 애플리케이션에 통합하고, 배치 작업을 자동화하거나 간단한 아카이브 유틸리티를 구축하세요. 보다 깊은 사용자 정의를 위해 전체 API 레퍼런스를 살펴보고 PDF 또는 PNG와 같은 다른 출력 형식도 실험해 보세요.
+You now have a complete, production‑ready recipe for **how to convert html to mhtml** with Aspose.HTML for Java. Use the steps above to integrate the conversion into your applications, automate batch jobs, or build a simple archive utility. For deeper customization, explore the full API reference and experiment with other output formats such as PDF or PNG.
 
-**관련 자료:** [Aspose.HTML for Java 문서](https://reference.aspose.com/html/java/) | [Aspose 커뮤니티 포럼](https://forum.aspose.com/)
+**Related Resources:** [Aspose.HTML for Java documentation](https://reference.aspose.com/html/java/) | [Aspose community forums](https://forum.aspose.com/)
 
 ---
 
-**Last Updated:** 2025-12-17  
+**Last Updated:** 2026-02-28  
 **Tested With:** Aspose.HTML for Java 24.10  
 **Author:** Aspose  
 

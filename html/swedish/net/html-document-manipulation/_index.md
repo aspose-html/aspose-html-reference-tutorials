@@ -69,8 +69,14 @@ Lär dig att skapa dynamiskt och webbinnehåll med Aspose.HTML för .NET. Styr d
 Lär dig att använda Aspose.HTML för .NET. Importera namnutrymme, slå samman HTML med XML och förbättra dina färdigheter i webbutveckling med den här omfattande guiden.
 ### [Generera XPS-dokument av XpsDevice i .NET med Aspose.HTML](./generate-xps-documents-by-xpsdevice/)
 Lås upp potentialen för webbutveckling med Aspose.HTML för .NET. Skapa, konvertera och manipulera HTML-dokument enkelt.
+### [Skapa HTML-dokument med Aspose.HTML – Steg‑för‑steg‑guide](./create-html-document-with-aspose-html-step-by-step-guide/)
+Lär dig att skapa HTML-dokument med Aspose.HTML i .NET med en tydlig steg‑för‑steg‑guide.
 ### [Skapa HTML från sträng i C# – Anpassad resurs‑hanterare guide](./create-html-from-string-in-c-custom-resource-handler-guide/)
 Lär dig hur du skapar HTML från en sträng i C# med en anpassad resurs‑hanterare i Aspose.HTML för .NET.
+### [Gör text fet och kursiv i C# – Snabbguide för att styla HTML](./make-text-bold-italic-in-c-quick-guide-to-styling-html/)
+Lär dig hur du gör text fet och kursiv i HTML med C#. En snabbguide med kodexempel och steg‑för‑steg‑instruktioner.
+### [Lägg till element i body – Komplett C#-guide med Aspose.HTML](./append-element-to-body-complete-c-guide-with-aspose-html/)
+Lär dig hur du lägger till ett element i body med Aspose.HTML för .NET i en komplett C#-guide.
 ### [Skapa HTML med Aspose – Hitta element, applicera fetstil](./how-to-create-html-with-aspose-find-element-apply-bold/)
 Lär dig hur du hittar ett element i ett HTML-dokument och gör texten fet med Aspose.HTML för .NET.
 

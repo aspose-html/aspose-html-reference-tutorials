@@ -26,6 +26,9 @@ When you're dealing with HTML to JPEG conversions, it's crucial to handle these 
 ## Data Handling and Stream Management in Aspose.HTML for Java Tutorials
 ### [Convert Memory Stream to File using Aspose.HTML for Java](./memory-stream-to-file/)
 Convert HTML to JPEG with Aspose.HTML for Java using memory streams. Follow this step-by-step guide for seamless HTML to image conversion.
+### [java fixed thread pool: Count Images in Parallel Files](./java-fixed-thread-pool-count-images-in-parallel-files/)
+Learn how to use a fixed thread pool in Java to count images across multiple files in parallel with Aspose.HTML.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

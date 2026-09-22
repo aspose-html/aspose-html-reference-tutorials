@@ -45,6 +45,8 @@ Aspose.HTML for .NET を使用して SVG を PDF に変換する方法を学び�
 Aspose.HTML for .NET を使用して SVG を XPS に変換する方法を学びます。この強力なライブラリを使用して Web 開発を強化します。
 ### [C# でアンチエイリアシングを有効にする – スムーズなエッジ](./how-to-enable-antialiasing-in-c-smooth-edges/)
 C# でアンチエイリアシングを有効にし、描画エッジを滑らかにする方法を学びます。
+### [キャンバスにテキストを描画する – 画像上にテキストをレンダリングする完全ガイド](./create-canvas-text-full-guide-to-rendering-text-on-images/)
+Aspose.HTML for .NET を使用して、キャンバス上にテキストを描画し、画像に文字をレンダリングする方法をステップバイステップで解説します。
 
 ## 結論
 

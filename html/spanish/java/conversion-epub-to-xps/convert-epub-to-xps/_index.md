@@ -1,10 +1,11 @@
 ---
-date: 2025-12-17
-description: Aprende cómo convertir EPUB a XPS usando Aspose.HTML para Java. Esta
-  guía paso a paso muestra cómo cargar EPUB en Java y personalizar la salida XPS.
+date: 2026-02-25
+description: Aprende cómo convertir EPUB a XPS por lotes usando Aspose.HTML para Java.
+  Esta guía paso a paso muestra cómo cargar EPUB en Java y personalizar la salida
+  XPS.
 linktitle: Converting EPUB to XPS
 second_title: Java HTML Processing with Aspose.HTML
-title: Cómo convertir EPUB a XPS con Aspose.HTML para Java
+title: Cómo convertir por lotes EPUB a XPS con Aspose.HTML para Java
 url: /es/java/conversion-epub-to-xps/convert-epub-to-xps/
 weight: 10
 ---
@@ -15,7 +16,7 @@ weight: 10
 
 # Convertir EPUB a XPS con Aspose.HTML para Java
 
-En este tutorial exhaustivo, aprenderá **cómo convertir EPUB a XPS** usando Aspose.HTML para Java. Recorreremos cada paso—desde cargar un archivo EPUB en Java hasta personalizar la salida XPS—para que no solo haga que el código funcione, sino también comprenda por qué cada parte es importante.
+En este tutorial completo, aprenderá cómo **convertir por lotes EPUB a XPS** usando Aspose.HTML para Java. Recorreremos cada paso—desde cargar un archivo EPUB en Java hasta personalizar la salida XPS—para que no solo haga que el código funcione, sino también comprenda por qué cada parte es importante.
 
 ## Respuestas rápidas
 - **¿Qué cubre este tutorial?** Convertir un archivo EPUB al formato XPS con Aspose.HTML para Java.  
@@ -24,11 +25,14 @@ En este tutorial exhaustivo, aprenderá **cómo convertir EPUB a XPS** usando As
 - **¿Puedo personalizar la apariencia del XPS?** Sí—color de fondo, tamaño de página y más mediante `XpsSaveOptions`.  
 - **¿Dónde se guarda la salida?** En una ruta que usted defina, por ejemplo, `EPUBtoXPS_Output.xps`.
 
-## ¿Qué es “convertir epub a xps”?
+## Qué es “convertir epub a xps”?
 Convertir EPUB a XPS significa transformar un paquete de libro electrónico (EPUB) en un documento de diseño fijo (XPS) que conserva el diseño, las fuentes y los gráficos. XPS es útil para impresión, archivado o visualización en dispositivos Windows.
 
-## ¿Por qué usar Aspose.HTML para Java?
-Aspose.HTML ofrece un motor puro‑Java de alto rendimiento que maneja HTML, EPUB y otros formatos web sin dependencias externas. Le brinda control granular sobre las opciones de conversión, lo que lo hace ideal para canalizaciones de documentos del lado del servidor.
+## Por qué usar Aspose.HTML para Java?
+Aspose.HTML ofrece un motor puro‑Java de alto rendimiento que maneja HTML, EPUB y otros formatos web sin dependencias externas. Le brinda un control granular sobre las opciones de conversión, lo que lo hace ideal para canalizaciones de documentos del lado del servidor.
+
+## Por qué convertir EPUB a XPS por lotes?
+La conversión por lotes le permite procesar muchos libros electrónicos en una sola ejecución—perfecto para bibliotecas digitales, flujos de trabajo de publicación o archivado automatizado. Al usar la misma instancia de `XpsSaveOptions` para varios archivos, mantiene la salida consistente y ahorra tiempo de desarrollo.
 
 ## Requisitos previos
 
@@ -47,9 +51,9 @@ import com.aspose.html.converters.Converter;
 import java.io.FileInputStream;
 ```
 
-Ahora que los paquetes esenciales están importados, profundicemos en los pasos reales de conversión.
+Ahora que los paquetes esenciales están importados, recorramos los pasos de conversión.
 
-## Cómo convertir EPUB a XPS – Proceso de conversión
+## Cómo convertir EPUB a XPS por lotes – Proceso de conversión
 
 Siga estos pasos numerados. Cada paso incluye una breve explicación y el código exacto que necesita.
 
@@ -63,7 +67,7 @@ try (FileInputStream fileInputStream = new FileInputStream("input.epub")) {
 }
 ```
 
-> **Consejo profesional:** Envuelva el `FileInputStream` en un bloque *try‑with‑resources* (como se muestra) para asegurarse de que el flujo se cierre automáticamente.
+> **Consejo profesional:** Envuelva el `FileInputStream` en un bloque try‑with‑resources (como se muestra) para asegurar que el flujo se cierre automáticamente.
 
 ### Paso 2: Inicializar `XpsSaveOptions`
 
@@ -98,17 +102,17 @@ Cuando esta línea se ejecuta, Aspose.HTML lee el EPUB, aplica las opciones XPS 
 |----------|-------|----------|
 | **`FileNotFoundException`** | Ruta incorrecta a `input.epub` | Verifique que el archivo exista relativo al directorio de trabajo o use una ruta absoluta. |
 | **Fuentes faltantes en XPS** | Las fuentes no están incrustadas en el EPUB | Asegúrese de que el EPUB incluya las fuentes requeridas o instálelas en la máquina host. |
-| **Error de falta de memoria** | Archivos EPUB muy grandes | Aumente el tamaño del heap de la JVM (`-Xmx2g`) o procese el EPUB en fragmentos más pequeños si es posible. |
+| **Error de falta de memoria** | Archivos EPUB muy grandes | Aumente el tamaño del heap de JVM (`-Xmx2g`) o procese el EPUB en fragmentos más pequeños si es posible. |
 
 ## Preguntas frecuentes
 
 **Q: ¿Puedo convertir archivos EPUB protegidos con contraseña?**  
-A: Sí. Abra el EPUB con un `FileInputStream` después de proporcionar la contraseña al flujo subyacente, y luego páselo a `Converter.convertEPUB`.
+A: Sí. Abra el EPUB con un `FileInputStream` después de proporcionar la contraseña al flujo subyacente, luego páselo a `Converter.convertEPUB`.
 
 **Q: ¿Cómo cambio el tamaño de página del XPS generado?**  
-A: Establezca `options.setPageSize(width, height)` donde *width* y *height* están en puntos.
+A: Establezca `options.setPageSize(width, height)` donde width y height están en puntos.
 
-**Q: ¿Es posible convertir varios archivos EPUB en lote?**  
+**Q: ¿Es posible convertir varios archivos EPUB en un lote?**  
 A: Absolutamente. Recorra una lista de rutas de archivo, reutilizando la misma instancia de `XpsSaveOptions` para cada conversión.
 
 **Q: ¿Aspose.HTML admite imágenes SVG dentro de EPUB?**  
@@ -116,13 +120,13 @@ A: Sí. El contenido SVG se renderiza correctamente durante la conversión a XPS
 
 ## Conclusión
 
-Ahora tiene una guía completa y lista para producción para **convertir EPUB a XPS** usando Aspose.HTML para Java. Siguiendo los pasos anteriores puede integrar esta conversión en cualquier aplicación Java, personalizar la apariencia del XPS y manejar los problemas comunes con confianza.
+Ahora tiene una guía completa y lista para producción para **convertir por lotes EPUB a XPS** usando Aspose.HTML para Java. Siguiendo los pasos anteriores, puede integrar esta conversión en cualquier aplicación Java, personalizar la apariencia del XPS y manejar los problemas comunes con confianza.
 
-Si encuentra algún problema o necesita asistencia adicional, no dude en buscar ayuda en el [foro de soporte de Aspose.HTML](https://forum.aspose.com/).
+Si encuentra algún problema o necesita más ayuda, no dude en buscar asistencia en el [foro de soporte de Aspose.HTML](https://forum.aspose.com/).
 
 ---
 
-**Última actualización:** 2025-12-17  
+**Última actualización:** 2026-02-25  
 **Probado con:** Aspose.HTML para Java 24.12 (última versión al momento de escribir)  
 **Autor:** Aspose
 

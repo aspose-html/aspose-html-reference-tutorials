@@ -1,0 +1,7 @@
+Title: save webpage as mhtml with Aspose HTML for Java – Step‑by‑Step Guide
+Slug: save-webpage-as-mhtml-with-aspose-html-for-java-step-by-step
+Category: saving-html-documents
+ProcessedDate: 2026-07-02T15:10:52.255376
+SourceRepo: AI Search API
+Keywords: save webpage as mhtml
+PRNumber: 199

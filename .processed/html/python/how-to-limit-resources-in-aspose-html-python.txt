@@ -1,0 +1,7 @@
+Title: How to Limit Resources in Aspose.HTML Python
+Slug: how-to-limit-resources-in-aspose-html-python
+Category: general
+ProcessedDate: 2026-07-02T15:46:15.609447
+SourceRepo: AI Search API
+Keywords: how to limit resources, how to set depth, load large html page
+PRNumber: 200

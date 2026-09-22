@@ -59,6 +59,8 @@ url: /el/net/html-document-manipulation/
 Μάθετε πώς να αξιοποιήσετε τη δύναμη του Aspose.HTML για .NET. Ενισχύστε την ανάπτυξη Ιστού σας με χειρισμό και απόδοση HTML.
 ### [Δημιουργία εγγράφου σε .NET με Aspose.HTML](./creating-a-document/)
 Απελευθερώστε το Power of Aspose.HTML για .NET. Μάθετε να δημιουργείτε, να χειρίζεστε και να βελτιστοποιείτε έγγραφα HTML και SVG με ευκολία. Εξερευνήστε Βήμα-Βήμα Παραδείγματα και Συχνές Ερωτήσεις.
+### [Προσθήκη στοιχείου στο σώμα – Πλήρης οδηγός C# με Aspose.HTML](./append-element-to-body-complete-c-guide-with-aspose-html/)
+Μάθετε πώς να προσθέτετε στοιχεία στο σώμα του HTML χρησιμοποιώντας C# και Aspose.HTML με βήμα‑βήμα παραδείγματα.
 ### [Δημιουργία HTML από συμβολοσειρά σε C# – Οδηγός προσαρμοσμένου διαχειριστή πόρων](./create-html-from-string-in-c-custom-resource-handler-guide/)
 Μάθετε πώς να δημιουργείτε HTML από συμβολοσειρά χρησιμοποιώντας προσαρμοσμένο διαχειριστή πόρων σε C#.
 ### [Επεξεργασία εγγράφου σε .NET με Aspose.HTML](./editing-a-document/)
@@ -71,6 +73,10 @@ url: /el/net/html-document-manipulation/
 Μάθετε να χρησιμοποιείτε το Aspose.HTML για .NET. Εισαγάγετε χώρο ονομάτων, συγχώνευση HTML με XML και βελτιώστε τις δεξιότητές σας στην ανάπτυξη ιστού με αυτόν τον περιεκτικό οδηγό.
 ### [Δημιουργήστε έγγραφα XPS από το XpsDevice σε .NET με Aspose.HTML](./generate-xps-documents-by-xpsdevice/)
 Ξεκλειδώστε τις δυνατότητες ανάπτυξης ιστού με το Aspose.HTML για .NET. Δημιουργήστε, μετατρέψτε και χειριστείτε εύκολα έγγραφα HTML.
+### [Κάντε το κείμενο έντονο πλάγιο σε C# – Σύντομος οδηγός στυλιζάρισματος HTML](./make-text-bold-italic-in-c-quick-guide-to-styling-html/)
+Μάθετε πώς να εφαρμόζετε έντονη και πλάγια μορφοποίηση σε κείμενο HTML χρησιμοποιώντας C# και Aspose.HTML.
+### [Δημιουργία εγγράφου HTML με Aspose.HTML – Οδηγός βήμα‑βήμα](./create-html-document-with-aspose-html-step-by-step-guide/)
+Μάθετε πώς να δημιουργήσετε έγγραφα HTML χρησιμοποιώντας το Aspose.HTML με αναλυτικές οδηγίες βήμα‑βήμα.
 
 ### [Πώς να δημιουργήσετε HTML με Aspose – Εύρεση στοιχείου, Εφαρμογή έντονου](./how-to-create-html-with-aspose-find-element-apply-bold/)
 Μάθετε πώς να εντοπίζετε ένα στοιχείο HTML και να το κάνετε έντονο χρησιμοποιώντας το Aspose.HTML για .NET.

@@ -69,8 +69,12 @@ Aprenda a criar conteúdo dinâmico e web usando Aspose.HTML para .NET. Fortale�
 Aprenda a usar Aspose.HTML para .NET. Importe namespace, mescle HTML com XML e aprimore suas habilidades de desenvolvimento web com este guia abrangente.
 ### [Gerar documentos XPS por XpsDevice em .NET com Aspose.HTML](./generate-xps-documents-by-xpsdevice/)
 Desbloqueie o potencial do desenvolvimento web com Aspose.HTML para .NET. Crie, converta e manipule documentos HTML facilmente.
+### [Criar documento HTML com Aspose.HTML – Guia passo a passo](./create-html-document-with-aspose-html-step-by-step-guide/)
+Aprenda a criar documentos HTML usando Aspose.HTML com um guia passo a passo e exemplos práticos.
 ### [Criar HTML a partir de String em C# – Guia de Manipulador de Recurso Personalizado](./create-html-from-string-in-c-custom-resource-handler-guide/)
 Aprenda a gerar documentos HTML a partir de strings usando um manipulador de recurso personalizado em C# com Aspose.HTML.
+### [Tornar Texto Negrito e Itálico em C# – Guia Rápido para Estilizar HTML](./make-text-bold-italic-in-c-quick-guide-to-styling-html/)
+Aprenda a aplicar estilos de negrito e itálico em elementos HTML usando C# com Aspose.HTML. Guia rápido e prático.
 ### [Criar HTML com Aspose – Encontrar elemento e aplicar negrito](./how-to-create-html-with-aspose-find-element-apply-bold/)
 Aprenda a localizar um elemento no HTML e aplicar formatação em negrito usando Aspose.HTML para .NET.
 

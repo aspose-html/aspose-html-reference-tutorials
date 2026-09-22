@@ -1,0 +1,7 @@
+Title: How to perform an html to pdf tutorial using Python
+Slug: how-to-perform-an-html-to-pdf-tutorial-using-python
+Category: general
+ProcessedDate: 2026-09-20T06:30:45.027051
+SourceRepo: AI Search API
+Keywords: html to pdf tutorial, how to generate pdf, generate pdf from html, python convert html pdf, export html as pdf
+PRNumber: 271
