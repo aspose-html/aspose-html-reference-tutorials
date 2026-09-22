@@ -41,6 +41,8 @@ Az Aspose.HTML for .NET nem csak egy könyvtár; ez egy változás a webfejleszt
 
 ### [PDF létrehozása URL-ből – Teljes C# útmutató](./create-pdf-from-url-complete-c-guide/)
 ### [Konvertálja a HTML-t PDF-be .NET-ben az Aspose.HTML-lel](./convert-html-to-pdf/)
+### [Aspose HTML PDF-re C#‑ban – Teljes útmutató ZIP-archívummal](./aspose-html-to-pdf-in-c-complete-guide-with-zip-archive/)
+Lépésről‑lépésre útmutató a HTML PDF‑re konvertálásához C#‑ban, ZIP‑archívumba csomagolva az Aspose.HTML for .NET segítségével.
 ### [Az Aspose.HTML segítségével EPUB-t konvertáljon képpé .NET-ben](./convert-epub-to-image/)
 ### [Konvertálja az EPUB-t PDF-be .NET-ben az Aspose.HTML segítségével](./convert-epub-to-pdf/)
 ### [Konvertálja az EPUB-t XPS-re .NET-ben az Aspose.HTML segítségével](./convert-epub-to-xps/)

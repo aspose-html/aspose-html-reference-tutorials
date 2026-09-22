@@ -93,6 +93,8 @@ url: /el/net/html-extensions-and-conversions/
 Μάθετε πώς να δημιουργήσετε αρχείο ZIP από HTML χρησιμοποιώντας C# με αναλυτικές οδηγίες και παραδείγματα κώδικα.
 ### [Δημιουργία PDF από HTML σε C# – Πλήρης Οδηγός Βήμα‑βήμα](./create-pdf-from-html-in-c-complete-step-by-step-guide/)
 Δημιουργήστε PDF από HTML χρησιμοποιώντας C# με το Aspose.HTML, ακολουθώντας έναν πλήρη οδηγό βήμα‑βήμα.
+### [Aspose HTML σε PDF με C# – Πλήρης οδηγός με αρχείο ZIP](./aspose-html-to-pdf-in-c-complete-guide-with-zip-archive/)
+Δημιουργήστε PDF από HTML σε C# και αποθηκεύστε το σε αρχείο ZIP με τον πλήρη οδηγό του Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -77,6 +77,8 @@ Aprenda a generar contenido HTML a partir de una cadena en C# utilizando un cont
 Aprenda a aplicar negrita y cursiva al texto HTML usando Aspose.HTML en C#. Guía rápida paso a paso.
 ### [Agregar elemento al cuerpo – Guía completa en C# con Aspose.HTML](./append-element-to-body-complete-c-guide-with-aspose-html/)
 Aprenda a agregar un elemento al cuerpo del documento HTML usando Aspose.HTML en C#. Guía paso a paso con ejemplos.
+### [Cómo crear HTML con Aspose – Encontrar elemento y aplicar negrita](./how-to-create-html-with-aspose-find-element-apply-bold/)
+Aprenda a buscar un elemento en un documento HTML y aplicar formato en negrita usando Aspose.HTML para .NET.
 
 ## Conclusión
 

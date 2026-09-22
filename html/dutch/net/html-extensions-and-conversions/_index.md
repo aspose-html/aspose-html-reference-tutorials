@@ -45,6 +45,8 @@ Leer hoe u met Aspose.HTML voor .NET een PDF genereert vanuit een URL met een vo
 Converteer moeiteloos HTML naar PDF met Aspose.HTML voor .NET. Volg onze stapsgewijze handleiding en ontketen de kracht van HTML-naar-PDF-conversie.
 ### [PDF maken van HTML in C# – Complete stapsgewijze handleiding](./create-pdf-from-html-in-c-complete-step-by-step-guide/)
 Maak eenvoudig PDF's van HTML met C# en Aspose.HTML. Volg onze volledige stap‑voor‑stap‑handleiding.
+### [Aspose HTML naar PDF in C# – Complete gids met ZIP-archief](./aspose-html-to-pdf-in-c-complete-guide-with-zip-archive/)
+Leer hoe u met Aspose.HTML in C# HTML naar PDF converteert en het resultaat opslaat in een ZIP‑archief.
 ### [Converteer EPUB naar afbeelding in .NET met Aspose.HTML](./convert-epub-to-image/)
 Leer hoe u EPUB naar afbeeldingen converteert met Aspose.HTML voor .NET. Stapsgewijze tutorial met codevoorbeelden en aanpasbare opties.
 ### [Converteer EPUB naar PDF in .NET met Aspose.HTML](./convert-epub-to-pdf/)

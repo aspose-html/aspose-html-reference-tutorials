@@ -77,6 +77,8 @@ C# の文字列から HTML を生成し、カスタム リソース ハンドラ
 C# を使用して HTML テキストを太字と斜体にスタイル設定する方法をステップバイステップで解説します。
 ### [Aspose.HTML を使用した C# 完全ガイド – 要素を Body に追加](./append-element-to-body-complete-c-guide-with-aspose-html/)
 Aspose.HTML for .NET を使用して、HTML ドキュメントの Body に要素を追加する方法をステップバイステップで解説します。
+### [Aspose を使用して HTML を作成する – 要素の検索、太字の適用](./how-to-create-html-with-aspose-find-element-apply-bold/)
+Aspose.HTML を使用して HTML ドキュメント内の特定要素を検索し、太字スタイルを適用する方法を解説します。
 
 ## 結論
 

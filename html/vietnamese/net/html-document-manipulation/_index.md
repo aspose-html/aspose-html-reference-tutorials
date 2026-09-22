@@ -77,6 +77,8 @@ Tìm hiểu cách tạo tài liệu HTML từ chuỗi trong C# bằng trình x�
 Học cách áp dụng kiểu chữ đậm và nghiêng cho nội dung HTML bằng Aspose.HTML trong C# một cách nhanh chóng.
 ### [Thêm phần tử vào Body – Hướng dẫn C# đầy đủ với Aspose.HTML](./append-element-to-body-complete-c-guide-with-aspose-html/)
 Hướng dẫn chi tiết cách thêm phần tử vào phần thân HTML bằng C# và Aspose.HTML.
+### [Cách tạo HTML với Aspose – Tìm phần tử, áp dụng in đậm](./how-to-create-html-with-aspose-find-element-apply-bold/)
+Hướng dẫn cách sử dụng Aspose.HTML để tìm một phần tử trong tài liệu HTML và áp dụng định dạng in đậm.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

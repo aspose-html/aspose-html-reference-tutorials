@@ -48,6 +48,9 @@ C# में Aspose.HTML का उपयोग करके HTML को PDF म
 ### [C# में HTML से PDF बनाएं – पूर्ण चरण‑दर‑चरण गाइड](./create-pdf-from-html-in-c-complete-step-by-step-guide/)
 C# में Aspose.HTML का उपयोग करके HTML को PDF में बदलने के चरण‑दर‑चरण निर्देश। सहज रूपांतरण के लिए हमारा गाइड देखें।
 
+### [C# में Aspose HTML को PDF में बदलें – ZIP आर्काइव के साथ पूर्ण गाइड](./aspose-html-to-pdf-in-c-complete-guide-with-zip-archive/)
+C# में Aspose.HTML का उपयोग करके HTML को PDF में बदलें और परिणाम को ZIP आर्काइव में सहेजें। चरण‑दर‑चरण मार्गदर्शिका।
+
 ### [Aspose.HTML के साथ .NET में EPUB को छवि में बदलें](./convert-epub-to-image/)
 .NET के लिए Aspose.HTML का उपयोग करके EPUB को छवियों में परिवर्तित करना सीखें। कोड उदाहरणों और अनुकूलन योग्य विकल्पों के साथ चरण‑दर‑चरण ट्यूटोरियल।
 

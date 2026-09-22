@@ -51,6 +51,9 @@ Aspose.HTML for .NET vyniká svou jednoduchostí a výkonem. Umožňuje vám př
 ## Výukové programy pro manipulaci s dokumenty HTML
 ### [Načtěte dokumenty HTML asynchronně v .NET pomocí Aspose.HTML](./load-html-doc-asynchronously/)
 Naučte se používat Aspose.HTML pro .NET pro práci s HTML dokumenty. Podrobný průvodce s příklady a často kladenými dotazy pro vývojáře.
+### [Načtěte dokumenty HTML s pověřeními v .NET pomocí Aspose.HTML](./load-html-doc-with-credentials/)
+Naučte se, jak vylepšit vaše SEO pomocí Aspose.HTML pro .NET. Zvyšte hodnocení, analyzujte obsah webu a optimalizujte pro vyhledávače.
+
 ### [Načtěte dokumenty HTML s pověřeními v .NET pomocí Aspose.HTML](./load-html-with-credentials/)
 Naučte se, jak vylepšit vaše SEO pomocí Aspose.HTML pro .NET. Zvyšte hodnocení, analyzujte obsah webu a optimalizujte pro vyhledávače.
 ### [Načtěte HTML pomocí vzdáleného serveru v .NET s Aspose.HTML](./load-html-using-remote-server/)
@@ -61,6 +64,9 @@ Naučte se, jak využít sílu Aspose.HTML pro .NET. Podpořte svůj vývoj webu
 Uvolněte sílu Aspose.HTML pro .NET. Naučte se snadno vytvářet, manipulovat a optimalizovat dokumenty HTML a SVG. Prozkoumejte příklady krok za krokem a často kladené otázky.
 ### [Úprava dokumentu v .NET pomocí Aspose.HTML](./editing-a-document/)
 Vytvářejte podmanivý webový obsah s Aspose.HTML pro .NET. Naučte se manipulovat s HTML, CSS a dalšími.
+### [Vytvoření HTML s Aspose – Najít prvek, aplikovat tučný text](./how-to-create-html-with-aspose-find-element-apply-bold/)
+Naučte se, jak pomocí Aspose vytvořit HTML, najít prvek a aplikovat tučný styl.
+
 ### [Uložení dokumentu v .NET pomocí Aspose.HTML](./saving-a-document/)
 Odemkněte sílu Aspose.HTML pro .NET pomocí našeho podrobného průvodce. Naučte se vytvářet, manipulovat a převádět dokumenty HTML a SVG
 ### [Sloučit HTML s Json v .NET s Aspose.HTML](./merge-html-with-json/)

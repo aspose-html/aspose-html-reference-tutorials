@@ -95,6 +95,8 @@ url: /ar/net/html-extensions-and-conversions/
 تعلم كيفية إنشاء ملف PDF من مستند HTML باستخدام C# خطوة بخطوة.
 ### [حفظ HTML كملف ZIP في C# – دليل خطوة بخطوة كامل](./save-html-as-zip-in-c-complete-step-by-step-guide/)
 تعلم كيفية حفظ مستندات HTML كملفات ZIP باستخدام C# مع Aspose.HTML خطوة بخطوة.
+### [Aspose HTML إلى PDF في C# – دليل كامل مع أرشيف ZIP](./aspose-html-to-pdf-in-c-complete-guide-with-zip-archive/)
+دليل شامل لتحويل HTML إلى PDF باستخدام C# وحفظ الملف الناتج في أرشيف ZIP عبر Aspose.HTML.
 
 ## خاتمة
 

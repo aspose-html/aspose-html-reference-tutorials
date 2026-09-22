@@ -77,6 +77,8 @@ Lär dig hur du skapar HTML från en sträng i C# med en anpassad resurs‑hante
 Lär dig hur du gör text fet och kursiv i HTML med C#. En snabbguide med kodexempel och steg‑för‑steg‑instruktioner.
 ### [Lägg till element i body – Komplett C#-guide med Aspose.HTML](./append-element-to-body-complete-c-guide-with-aspose-html/)
 Lär dig hur du lägger till ett element i body med Aspose.HTML för .NET i en komplett C#-guide.
+### [Skapa HTML med Aspose – Hitta element, applicera fetstil](./how-to-create-html-with-aspose-find-element-apply-bold/)
+Lär dig hur du hittar ett element i ett HTML-dokument och gör texten fet med Aspose.HTML för .NET.
 
 ## Slutsats
 

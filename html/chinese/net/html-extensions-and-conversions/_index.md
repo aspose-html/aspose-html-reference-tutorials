@@ -45,6 +45,8 @@ Aspose.HTML for .NET 不仅仅是一个库；它是 Web 开发领域的变革者
 使用 Aspose.HTML for .NET 将网页 URL 转换为 PDF 的完整 C# 示例，包含代码步骤和关键设置。
 ### [使用 Aspose.HTML 在 C# 中将 HTML 创建为 PDF – 完整分步指南](./create-pdf-from-html-in-c-complete-step-by-step-guide/)
 使用 Aspose.HTML for .NET 在 C# 中将 HTML 转换为 PDF 的完整分步指南，包含代码示例和最佳实践。
+### [使用 Aspose.HTML 在 .NET 中将 HTML 转换为 PDF – 完整指南（含 ZIP 存档）](./aspose-html-to-pdf-in-c-complete-guide-with-zip-archive/)
+在 C# 中使用 Aspose.HTML 将 HTML 转换为 PDF，并将生成的 PDF 打包为 ZIP 文件的完整分步指南。
 ### [使用 Aspose.HTML 在 .NET 中将 EPUB 转换为图像](./convert-epub-to-image/)
 了解如何使用 Aspose.HTML for .NET 将 EPUB 转换为图像。带有代码示例和可自定义选项的分步教程。
 

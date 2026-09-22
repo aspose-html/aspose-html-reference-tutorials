@@ -77,6 +77,8 @@ Aspose.HTML для .NET выделяется своей простотой и м
 Узнайте, как быстро применить полужирный и курсивный стиль к тексту в HTML с помощью Aspose.HTML для .NET в C#.
 ### [Добавление элемента в body – Полное руководство C# с Aspose.HTML](./append-element-to-body-complete-c-guide-with-aspose-html/)
 Узнайте, как добавить элемент в тело HTML-документа с помощью Aspose.HTML в C#. Полное пошаговое руководство.
+### [Как создать HTML с Aspose – найти элемент, применить полужирный](./how-to-create-html-with-aspose-find-element-apply-bold/)
+Узнайте, как находить элементы в HTML и применять к ним полужирное форматирование с помощью Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

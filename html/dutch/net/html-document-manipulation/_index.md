@@ -77,6 +77,8 @@ Leer hoe u tekst vet en cursief maakt in HTML met C# en Aspose.HTML, inclusief v
 Leer hoe u een HTML-document maakt met Aspose.HTML in .NET. Volg deze stapsgewijze gids met voorbeelden en tips.
 ### [Element aan body toevoegen – Complete C#-gids met Aspose.HTML](./append-element-to-body-complete-c-guide-with-aspose-html/)
 Leer hoe u een element aan de body van een HTML-document kunt toevoegen met een volledige C#-gids voor Aspose.HTML.
+### [HTML maken met Aspose – Element vinden, vet toepassen](./how-to-create-html-with-aspose-find-element-apply-bold/)
+Leer hoe u met Aspose.HTML een HTML-document maakt, een element zoekt en tekst vet maakt.
 
 ## Conclusie
 

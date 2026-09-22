@@ -97,6 +97,9 @@ Aprenda a usar um manipulador de recursos personalizado em C# para converter HTM
 ### [Como compactar HTML em C# – Carregar HTML e usar manipulador personalizado](./how-to-zip-html-in-c-load-html-use-custom-handler/)
 Aprenda a carregar HTML e usar um manipulador de recursos personalizado para compactar em ZIP totalmente em memória.
 
+### [Aspose HTML para PDF em C# – Guia completo com arquivo ZIP](./aspose-html-to-pdf-in-c-complete-guide-with-zip-archive/)
+Aprenda a converter HTML para PDF em C# usando Aspose.HTML e salvar o resultado em um arquivo ZIP. Guia passo a passo completo.
+
 ## Conclusão
 
 Concluindo, extensões e conversões HTML são elementos essenciais do desenvolvimento web moderno. O Aspose.HTML para .NET simplifica o processo e o torna acessível a desenvolvedores de todos os níveis. Ao seguir nossos tutoriais, você estará no caminho certo para se tornar um desenvolvedor web proficiente com um amplo conjunto de habilidades.

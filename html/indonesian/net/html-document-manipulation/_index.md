@@ -77,6 +77,8 @@ Pelajari cara membuat dokumen HTML dari string menggunakan handler sumber daya k
 Pelajari cara menambahkan gaya teks tebal dan miring pada HTML menggunakan C# dengan Aspose.HTML dalam panduan singkat ini.
 ### [Menambahkan Elemen ke Body – Panduan Lengkap C# dengan Aspose.HTML](./append-element-to-body-complete-c-guide-with-aspose-html/)
 Pelajari cara menambahkan elemen ke body dokumen HTML menggunakan Aspose.HTML dengan panduan lengkap C#.
+### [Cara Membuat HTML dengan Aspose – Temukan Elemen, Terapkan Tebal](./how-to-create-html-with-aspose-find-element-apply-bold/)
+Pelajari cara menemukan elemen dalam dokumen HTML dan menerapkan format tebal menggunakan Aspose.HTML untuk .NET.
 
 ## Kesimpulan
 
