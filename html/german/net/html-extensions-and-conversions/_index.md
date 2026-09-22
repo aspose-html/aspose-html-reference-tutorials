@@ -40,6 +40,9 @@ Aspose.HTML für .NET ist nicht nur eine Bibliothek; es verändert die Welt der 
 
 ### [Konvertieren Sie HTML in .NET in PDF mit Aspose.HTML](./convert-html-to-pdf/)
 Konvertieren Sie HTML mühelos in PDF mit Aspose.HTML für .NET. Folgen Sie unserer Schritt‑für‑Schritt‑Anleitung und entfesseln Sie die Leistungsfähigkeit der HTML‑zu‑PDF‑Konvertierung.
+### [Aspose HTML zu PDF in C# – Vollständige Anleitung mit ZIP‑Archiv](./aspose-html-to-pdf-in-c-complete-guide-with-zip-archive/)
+Erfahren Sie, wie Sie mit Aspose.HTML für .NET HTML in PDF konvertieren und das Ergebnis in ein ZIP‑Archiv speichern – vollständige Schritt‑für‑Schritt‑Anleitung.
+
 ### [Konvertieren Sie EPUB in .NET mit Aspose.HTML in ein Bild](./convert-epub-to-image/)
 Erfahren Sie, wie Sie mit Aspose.HTML für .NET EPUB in Bilder konvertieren. Schritt‑für‑Schritt‑Anleitung mit Codebeispielen und anpassbaren Optionen.
 ### [Konvertieren Sie EPUB in .NET mit Aspose.HTML in PDF](./convert-epub-to-pdf/)
@@ -49,7 +52,6 @@ Erfahren Sie, wie Sie mit Aspose.HTML für .NET EPUB in XPS in .NET konvertieren
 ### [Konvertieren Sie HTML in BMP in .NET mit Aspose.HTML](./convert-html-to-bmp/)
 Erfahren Sie, wie Sie mit Aspose.HTML für .NET HTML in BMP in .NET konvertieren. Umfassender Leitfaden für Webentwickler zur Nutzung von Aspose.HTML für .NET.
 ### [Konvertieren Sie HTML in .NET in DOC und DOCX mit Aspose.HTML](./convert-html-to-doc-docx/)
-Erfahren Sie in dieser Schritt‑für‑Schritt‑Anleitung, wie Sie die Leistung von Aspose.HTML für .NET nutzen. Konvertieren Sie HTML mühelos in DOCX und verbessern Sie Ihre .NET-Projekte. Legen Sie noch heute los!
 ### [Konvertieren Sie HTML in GIF in .NET mit Aspose.HTML](./convert-html-to-gif/)
 Entdecken Sie die Leistungsfähigkeit von Aspose.HTML für .NET: Eine Schritt‑für‑Schritt‑Anleitung zur Konvertierung von HTML in GIF. Voraussetzungen, Codebeispiele, FAQs und mehr! Optimieren Sie Ihre HTML‑Manipulation mit Aspose.HTML.
 ### [Konvertieren Sie HTML in JPEG in .NET mit Aspose.HTML](./convert-html-to-jpeg/)
