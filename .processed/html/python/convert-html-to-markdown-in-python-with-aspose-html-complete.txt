@@ -1,0 +1,7 @@
+Title: Convert HTML to Markdown in Python with Aspose.HTML – complete guide
+Slug: convert-html-to-markdown-in-python-with-aspose-html-complete
+Category: general
+ProcessedDate: 2026-09-23T10:41:07.892471
+SourceRepo: AI Search API
+Keywords: convert html to markdown, set max depth, export html as markdown, save markdown file python, convert html markdown
+PRNumber: 273
