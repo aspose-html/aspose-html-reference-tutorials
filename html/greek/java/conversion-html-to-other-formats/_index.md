@@ -84,6 +84,7 @@ weight: 25
 
 ## Μετατροπή - HTML σε Άλλες Μορφές Μαθήματα
 ### [Μετατροπή HTML σε PDF](./convert-html-to-pdf/)
+Μάθετε πώς να μετατρέψετε HTML σε PDF σε Java χρησιμοποιώντας το Aspose.HTML. Δημιουργήστε PDF υψηλής ποιότητας από το περιεχόμενο HTML σας χωρίς κόπο.
 ### [Πώς να συμπιέσετε PDF με Aspose HTML to PDF – Οδηγός Java](./how-to-compress-pdf-with-aspose-html-to-pdf-java-guide/)
 Μάθετε πώς να μειώσετε το μέγεθος των αρχείων PDF χρησιμοποιώντας Aspose.HTML for Java κατά τη μετατροπή.
 ### [Μετατροπή HTML σε PDF σε Java – Οδηγός βήμα‑βήμα με ρυθμίσεις μεγέθους σελίδας](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
@@ -91,19 +92,28 @@ weight: 25
 ### [Μετατροπή HTML σε PDF σε Java – Πλήρης Οδηγός Βήμα‑βήμα](./convert-html-to-pdf-in-java-complete-step-by-step-guide/)
 Αναλυτικός οδηγός για τη μετατροπή HTML σε PDF σε Java, καλύπτοντας όλες τις ρυθμίσεις και βέλτιστες πρακτικές.
 ### [Μετατροπή HTML σε MHTML](./convert-html-to-mhtml/)
+Μετατρέψτε εύκολα HTML σε MHTML χρησιμοποιώντας το Aspose.HTML for Java. Ακολουθήστε τον βήμα‑βήμα οδηγό μας για αποδοτική μετατροπή HTML‑σε‑MHTML.
 ### [Μετατροπή HTML σε XPS](./convert-html-to-xps/)
+Μάθετε πώς να μετατρέψετε εύκολα HTML σε XPS χρησιμοποιώντας το Aspose.HTML for Java. Δημιουργήστε έγγραφα πολλαπλών πλατφορμών με ευκολία.
 ### [Μετατροπή Markdown σε HTML](./convert-markdown-to-html/)
+Μετατρέψτε Markdown σε HTML σε Java απρόσκοπτα με το Aspose.HTML for Java. Ακολουθήστε τον βήμα‑βήμα οδηγό μας για να βελτιώσετε τις ανάγκες μετατροπής εγγράφων σας.
 ### [Μετατροπή SVG σε Εικόνα](./convert-svg-to-image/)
+Μάθετε πώς να μετατρέψετε SVG σε εικόνες σε Java με το Aspose.HTML. Πλήρης οδηγός για έξοδο υψηλής ποιότητας.
 ### [Μετατροπή SVG σε PDF](./convert-svg-to-pdf/)
+Μετατρέψτε SVG σε PDF σε Java με το Aspose.HTML. Μία απρόσκοπτη λύση για μετατροπή εγγράφων υψηλής ποιότητας.
 ### [Μετατροπή SVG σε XPS](./convert-svg-to-xps/)
+Μάθετε πώς να μετατρέψετε SVG σε XPS με το Aspose.HTML for Java. Απλός, βήμα‑βήμα οδηγός για απρόσκοπτες μετατροπές.
+### [Aspose HTML PDF/A Tutorial: Μετατροπή HTML σε PDF/A‑2b με Java](./aspose-html-pdf-a-tutorial-convert-html-to-pdf-a-2b-with-jav/)
+
+### [Πώς να μετατρέψετε HTML σε PDF με Aspose HTML – Ασύγχρονος οδηγός Java](./how-to-convert-html-to-pdf-with-aspose-html-async-java-guide/)
+
+### [Εξαγωγή ήχου από HTML – Πώς να εξάγετε πολυμέσα και βίντεο](./extract-audio-from-html-how-to-extract-media-and-video/)
+
 ### [Μετατροπή HTML σε PDF σε Java – Πλήρης Οδηγός με Ενσωμάτωση Γραμματοσειρών](./convert-html-to-pdf-in-java-complete-guide-with-font-embeddi/)
 ### [Μετατροπή δυναμικού HTML σε PDF με Aspose HTML για Java](./convert-dynamic-html-pdf-with-aspose-html-for-java/)
 Μάθετε πώς να μετατρέψετε δυναμικό HTML σε PDF με Aspose.HTML for Java, υποστηρίζοντας JavaScript και CSS.
 ### [Πώς να χρησιμοποιήσετε το Aspose – Μαζική μετατροπή HTML σε PDF σε Java](./how-to-use-aspose-batch-convert-html-to-pdf-in-java/)
 Μάθετε πώς να μετατρέψετε πολλαπλά αρχεία HTML σε PDF ταυτόχρονα με το Aspose.HTML for Java, χρησιμοποιώντας batch processing.
-### [Aspose HTML PDF/A Tutorial: Μετατροπή HTML σε PDF/A‑2b με Java](./aspose-html-pdf-a-tutorial-convert-html-to-pdf-a-2b-with-jav/)
-### [Πώς να μετατρέψετε HTML σε PDF με Aspose HTML – Ασύγχρονος οδηγός Java](./how-to-convert-html-to-pdf-with-aspose-html-async-java-guide/)
-### [Εξαγωγή ήχου από HTML – Πώς να εξάγετε πολυμέσα και βίντεο](./extract-audio-from-html-how-to-extract-media-and-video/)
 
 ### [Δημιουργία PDF από HTML σε Java – Πλήρης Οδηγός Βήμα‑βήμα](./create-pdf-from-html-in-java-complete-step-by-step-guide/)
 Μάθετε πώς να δημιουργήσετε PDF από HTML σε Java με έναν λεπτομερή, βήμα‑βήμα οδηγό χρησιμοποιώντας το Aspose.HTML.
@@ -147,7 +157,7 @@ A: Ναι. Απαιτείται έγκυρη εμπορική άδεια για 
 A: Το Aspose.HTML for Java υποστηρίζει Java 8, 11 και μεταγενέστερες εκδόσεις.
 
 **Q: Η βιβλιοθήκη διαχειρίζεται εξωτερικά CSS και JavaScript;**  
-A: Απόλυτα. Ο renderer επεξεργάζεται τα συνδεδεμένα αρχεία CSS και εκτελεί JavaScript για να διασφαλίσει ότι το PDF ταιάζει με την αρχική διάταξη της σελίδας.
+A: Απόλυτα. Ο renderer επεξεργάζεται τα συνδεδεμένα αρχεία CSS και εκτελεί JavaScript για να διασφαλίσει ότι το PDF ταιριάζει με την αρχική διάταξη της σελίδας.
 
 **Q: Πόσο μεγάλα μπορούν να είναι τα αρχεία HTML για μετατροπή;**  
 A: Η βιβλιοθήκη είναι βελτιστοποιημένη για μεγάλα έγγραφα· ωστόσο, η κατανάλωση μνήμης αυξάνεται με το μέγεθος της σελίδας, οπότε σκεφτείτε τη ροή (streaming) μεγάλων εισό**Q: Είναι δυνατόν να προσαρμόσετε τα μεταδεδομένα PDF κατά τη μετατροπή;**  

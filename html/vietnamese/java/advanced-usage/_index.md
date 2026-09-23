@@ -126,10 +126,15 @@ Học cách thao tác HTML5 Canvas bằng JavaScript sử dụng Aspose.HTML for
 Tìm hiểu cách tự động điền và gửi biểu mẫu HTML bằng Aspose.HTML for Java. Đơn giản hoá tương tác web với tutorial này.
 ### [Điều chỉnh kích thước trang PDF với Aspose.HTML for Java](./adjust-pdf-page-size/)
 Học cách điều chỉnh kích thước trang PDF với Aspose.HTML for Java. Tạo PDF chất lượng cao từ HTML một cách dễ dàng. Kiểm soát kích thước trang hiệu quả.
-### [Điều chỉnh kích thước trang XPS với Aspose.HTML cho Java](./adjust-xps-page-size/)
-Học cách điều chỉnh kích thước trang XPS với Aspose.HTML cho Java. Kiểm soát kích thước đầu ra của tài liệu XPS một cách dễ dàng.
+### [Điều chỉnh kích thước trang XPS với Aspose.HTML for Java](./adjust-xps-page-size/)
+Học cách điều chỉnh kích thước trang XPS với Aspose.HTML for Java. Kiểm soát kích thước đầu ra của tài liệu XPS một cách dễ dàng.
 ### [Cách chạy JavaScript trong Java – Hướng dẫn toàn diện](./how-to-run-javascript-in-java-complete-guide/)
 Hướng dẫn chi tiết cách thực thi mã JavaScript trong ứng dụng Java bằng Aspose.HTML, bao gồm thiết lập môi trường và ví dụ thực tế.
+### [Cách chạy JavaScript bất đồng bộ bằng CompletableFuture](./how-to-run-javascript-asynchronously-using-completablefuture/)
+Hướng dẫn sử dụng CompletableFuture để thực thi JavaScript một cách bất đồng bộ trong Java với Aspose.HTML.
+
+### [Cách tải HTML, đặt DPI thiết bị & đọc màu nền](./how-to-load-html-set-device-dpi-read-background-color/)
+
 ### [Đặt tỷ lệ pixel thiết bị trong Java – Hướng dẫn Sandbox di động](./set-device-pixel-ratio-in-java-mobile-sandbox-tutorial/)
 Hướng dẫn cách thiết lập DevicePixelRatio trong môi trường Sandbox di động khi dùng Aspose.HTML cho Java.
 ### [Cách bật JavaScript trong Aspose HTML – Tải HTML & Lấy văn bản](./how-to-enable-javascript-in-aspose-html-load-html-get-text/)
@@ -137,9 +142,6 @@ Tìm hiểu cách bật JavaScript khi tải HTML và trích xuất văn bản b
 ### [Cách chạy script trong Java – Hướng dẫn đầy đủ để thực thi JavaScript & trích xuất dữ liệu](./how-to-run-scripts-in-java-complete-guide-to-execute-javascr/)
 ### [Cách sử dụng Aspose để chuyển đổi EPUB sang DOCX – Hướng dẫn từng bước](./how-to-use-aspose-to-convert-epub-to-docx-step-by-step-guide/)
 Hướng dẫn chi tiết cách chuyển đổi tệp EPUB sang DOCX bằng Aspose, bao gồm các bước cấu hình và lưu trữ kết quả.
-### [Cách chạy JavaScript bất đồng bộ bằng CompletableFuture](./how-to-run-javascript-asynchronously-using-completablefuture/)
-Hướng dẫn sử dụng CompletableFuture để thực thi JavaScript một cách bất đồng bộ trong Java với Aspose.HTML.
-### [Cách tải HTML, đặt DPI thiết bị & đọc màu nền](./how-to-load-html-set-device-dpi-read-background-color/)
 
 ---
 

@@ -19,7 +19,7 @@ Web 開発に取り組む場合、CSS および HTML フォームを習得する
 
 ## 高度な CSS 拡張テクニック
 
-まず最初に、Aspose.HTML for Java を使用した高度な CSS 拡張テクニックについて説明します。Web ページに適切な余白を設定するのに苦労したことはありませんか? あるいは、ユーザーの操作に基づいて変化する動的なコンテンツを含めたいと思ったことはありませんか? このチュートリアルでは、複雑な CSS ルールを簡単に適用するための基本事項を説明します。Aspose を使用すると、スタイルをプログラムで操作して、閲覧者に合わせて視覚的に魅力的なレイアウトを作成できます。静的なページを動的な傑作に変えることが想像してみてください。このガイドでは、その方法を正確に説明します。[続きを読む](./advanced-css-extension/).
+まず最初に、Aspose.HTML for Java を使用した高度な CSS 拡張テクニックについて説明します。Web ページに適切な余白を設定するのに苦労したことはありませんか? あるいは、ユーザーの操作に基づいて変化する動的なコンテンツを含めたいと思ったことはありませんか? このチュートリアルでは、複雑な CSS ルールを簡単に適用するための基本事項を説明します。Aspose を使用すると、スタイルをプログラムで操作して、閲覧者に合わせて視覚的に魅力的なレイアウトを作成できます。静的なページを動的な傑作に変えることを想像してみてください。このガイドでは、その方法を正確に説明します。[続きを読む](./advanced-css-extension/).
 
 ## HTML フォームの編集と送信
 
@@ -37,6 +37,9 @@ Aspose.HTML for Java を使用して、要素の計算済み CSS スタイルを
 JavaでHTMLをロードし、クエリセレクタでスタイル情報を取得する手順を解説します。
 ### [Javaでクラスによる要素選択 – 完全ハウツーガイド](./select-element-by-class-in-java-complete-how-to-guide/)
 Javaコードでクラス属性を持つ要素を取得し操作する方法をステップバイステップで解説します。
+### [JavaでHTMLをクエリする方法 – 要素を選択し、属性でフィルタリングし、テキストコンテンツを取得する](./how-to-query-html-in-java-select-elements-filter-by-attribut/)
+JavaコードでHTMLを検索し、要素を選択、属性で絞り込み、テキストを取得する手順を解説します。
+
 ### [Aspose.HTML for Java を使用した CSS の読み取り方法 – 完全ガイド](./how-to-read-css-in-java-complete-guide-with-aspose-html/)
 Aspose.HTML for Java を活用し、Java で CSS をプログラム的に読み取る手順とベストプラクティスを詳しく解説します。
 
@@ -64,8 +67,6 @@ Java で Aspose.HTML を使用し、HTML 要素の計算済みスタイルから
 このチュートリアルでは、Aspose.HTML for Java を使って getComputedStyle を呼び出し、要素の背景色や他の CSS プロパティを抽出する手順を解説します。
 ### [JavaでHTMLからCSSを抽出する – ステップバイステップガイド](./extract-css-from-html-in-java-step-by-step-guide/)
 このチュートリアルでは、Javaを使用してHTMLからCSSを抽出する方法をステップバイステップで学びます。
-### [JavaでHTMLをクエリする方法 – 要素を選択し、属性でフィルタリングし、テキストコンテンツを取得する](./how-to-query-html-in-java-select-elements-filter-by-attribut/)
-JavaコードでHTMLを検索し、要素を選択、属性で絞り込み、テキストを取得する手順を解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
