@@ -137,6 +137,10 @@ Leer hoe je JavaScript inschakelt in Aspose HTML, HTML laadt en tekst extrahert 
 Leer hoe je JavaScript kunt uitvoeren binnen Java en data kunt extraheren met Aspose.HTML for Java.
 ### [Hoe Aspose te gebruiken om EPUB naar DOCX te converteren – Stapsgewijze gids](./how-to-use-aspose-to-convert-epub-to-docx-step-by-step-guide/)
 Leer hoe je met Aspose EPUB-bestanden naar DOCX converteert in een eenvoudige stap‑voor‑stap handleiding.
+### [Hoe JavaScript asynchroon uitvoeren met CompletableFuture](./how-to-run-javascript-asynchronously-using-completablefuture/)
+Leer hoe je JavaScript asynchroon kunt uitvoeren met CompletableFuture in Java via Aspose.HTML.
+### [Hoe HTML te laden, apparaat‑DPI in te stellen en achtergrondkleur te lezen](./how-to-load-html-set-device-dpi-read-background-color/)
+Leer hoe je HTML laadt, de apparaat‑DPI instelt en de achtergrondkleur uitleest met Aspose.HTML for Java.
 
 ---
 

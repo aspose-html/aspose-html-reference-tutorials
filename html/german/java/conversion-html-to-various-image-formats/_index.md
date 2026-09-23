@@ -125,6 +125,8 @@ Erfahren Sie, wie Sie HTML mit Aspose.HTML for Java in das WebP‑Format konvert
 Erfahren Sie, wie Sie mit Aspose.HTML for Java einen Screenshot einer Webseite erstellen – Schritt‑für‑Schritt‑Anleitung.
 ### [Wie man DPI beim Konvertieren von SVG zu PNG mit Java festlegt](./how-to-set-dpi-when-converting-svg-to-png-with-java/)
 Erfahren Sie, wie Sie die DPI‑Einstellung beim Rendern von SVG zu PNG mit Aspose.HTML for Java anpassen, um die Bildqualität zu steuern.
+### [HTML in WebP konvertieren – Vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-convert-html-to-webp-in-java-complete-step-by-step-gu/)
+Erfahren Sie, wie Sie HTML mit Aspose.HTML for Java in das WebP‑Format konvertieren – vollständige Schritt‑für‑Schritt‑Anleitung.
 
 ## Häufig gestellte Fragen
 

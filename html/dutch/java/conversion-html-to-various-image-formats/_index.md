@@ -111,6 +111,8 @@ Leer hoe je HTML eenvoudig naar TIFF kunt converteren met Aspose.HTML for Java. 
 Leer hoe je HTML naar WebP kunt converteren met Aspose.HTML for Java. Een stapsgewijze gids voor efficiënte WebP‑rendering.
 ### [GIF maken van SVG – Stapsgewijze Java‑gids](./how-to-create-gif-from-svg-step-by-step-java-guide/)
 Leer hoe je met Aspose.HTML for Java een GIF maakt uit een SVG‑bestand. Een stap‑voor‑stap gids voor eenvoudige SVG‑naar‑GIF conversie.
+### [Hoe HTML naar WebP converteren in Java – Complete stapsgewijze gids](./how-to-convert-html-to-webp-in-java-complete-step-by-step-gu/)
+Leer hoe je HTML naar WebP kunt converteren in Java met Aspose.HTML. Een volledige stap‑voor‑stap handleiding.
 
 ### [Hoe HTML naar PNG renderen – Complete gids voor Java‑ontwikkelaars](./how-to-render-html-to-png-complete-guide-for-java-developers/)
 Leer stap‑voor‑stap hoe je met Aspose.HTML for Java HTML rendert naar PNG‑afbeeldingen van hoge kwaliteit.

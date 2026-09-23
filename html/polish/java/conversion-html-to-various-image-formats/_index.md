@@ -137,6 +137,8 @@ Dowiedz się, jak konwertować HTML do PNG w Javie, ograniczając maksymalne zu�
 Dowiedz się, jak konwertować HTML do formatu WebP w Javie przy użyciu Aspose.HTML. Przewodnik krok po kroku.
 
 ### [Jak przechwycić zrzut ekranu strony internetowej przy użyciu Aspose HTML – przewodnik Java](./how-to-capture-screenshot-of-a-webpage-with-aspose-html-java/)
+### [Jak przekonwertować HTML do WebP w Javie – Kompletny przewodnik krok po kroku](./how-to-convert-html-to-webp-in-java-complete-step-by-step-gu/)
+Dowiedz się, jak konwertować HTML do formatu WebP w Javie przy użyciu Aspose.HTML. Szczegółowy przewodnik krok po kroku.
 
 ## Najczęściej zadawane pytania
 

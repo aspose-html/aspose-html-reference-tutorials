@@ -112,6 +112,8 @@ Ismerje meg, hogyan konvertálhat HTML‑t WebP‑be Java‑ban az Aspose.HTML h
 Ismerje meg, hogyan hozhat létre bélyegképeket HTML‑ből Java‑ban az Aspose.HTML segítségével, egyszerű, lépésről‑lépésre útmutatóval.
 ### [Hogyan állítsuk be a DPI-t SVG‑t PNG‑re konvertáláskor Java‑val](./how-to-set-dpi-when-converting-svg-to-png-with-java/)
 Ismerje meg, hogyan állíthatja be a DPI értéket SVG‑k PNG‑re konvertálásakor Java‑ban az Aspose.HTML segítségével.
+### [Hogyan konvertáljunk HTML‑t WebP‑be Java‑ban – Teljes lépésről‑lépésre útmutató](./how-to-convert-html-to-webp-in-java-complete-step-by-step-gu/)
+Tanulja meg, hogyan konvertálhat HTML‑t WebP‑be Java‑ban az Aspose.HTML segítségével, részletes, lépésről‑lépésre útmutatóval.
 
 ### [HTML renderelése PNG-be – Teljes útmutató Java fejlesztőknek](./how-to-render-html-to-png-complete-guide-for-java-developers/)
 Ismerje meg, hogyan renderelhet HTML-t PNG képpé Java‑ban az Aspose.HTML segítségével, részletes, lépésről‑lépésre útmutatóval.

@@ -101,6 +101,7 @@ Tìm hiểu cách dễ dàng convert HTML to TIFF bằng Aspose.HTML for Java. H
 Hướng dẫn chi tiết cách tạo thumbnail từ HTML bằng Aspose.HTML for Java trong vài bước đơn giản.
 ### [Converting HTML to WebP – Hướng dẫn Java đầy đủ với Aspose.HTML](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
 ### [Cách tạo GIF từ SVG – Hướng dẫn từng bước Java](./how-to-create-gif-from-svg-step-by-step-java-guide/)
+### [Cách chuyển đổi HTML sang WebP trong Java – Hướng dẫn chi tiết từng bước](./how-to-convert-html-to-webp-in-java-complete-step-by-step-gu/)
 
 ### [Cách Render HTML thành PNG – Hướng Dẫn Đầy Đủ cho Các Nhà Phát Triển Java](./how-to-render-html-to-png-complete-guide-for-java-developers/)
 Hướng dẫn chi tiết cách chuyển đổi HTML sang PNG trong Java bằng Aspose.HTML, bao gồm các bước cài đặt và mã mẫu.

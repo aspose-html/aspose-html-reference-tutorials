@@ -128,6 +128,8 @@ Aspose.HTML for Java ile HTML form doldurmayı ve göndermeyi otomatikleştirmey
 Aspose.HTML for Java kullanarak PDF sayfa boyutunu nasıl ayarlayacağınızı öğrenin. HTML’den yüksek kaliteli PDF’ler oluşturun ve sayfa boyutlarını etkili bir şekilde kontrol edin.
 ### [Aspose.HTML for Java ile XPS Sayfa Boyutunu Ayarlama](./adjust-xps-page-size/)
 Aspose.HTML for Java ile XPS sayfa boyutunu nasıl ayarlayacağınızı öğrenin. XPS belgelerinizin çıktı boyutlarını kolayca kontrol edin.
+### [CompletableFuture ile JavaScript'i Asenkron Çalıştırma](./how-to-run-javascript-asynchronously-using-completablefuture/)
+Aspose.HTML for Java kullanarak JavaScript'i CompletableFuture ile asenkron olarak çalıştırmayı öğrenin.
 ### [Java’da JavaScript Çalıştırma – Tam Kılavuz](./how-to-run-javascript-in-java-complete-guide/)
 Aspose.HTML for Java kullanarak Java içinde JavaScript kodu çalıştırmayı ve entegrasyonu öğrenin.
 ### [Java’da cihaz piksel oranını ayarlama – Mobil Sandbox Eğitimi](./set-device-pixel-ratio-in-java-mobile-sandbox-tutorial/)
@@ -138,6 +140,8 @@ Aspose.HTML ile JavaScript'i etkinleştirerek HTML yükleyin ve metni çıkarın
 Java’da JavaScript çalıştırmayı, scriptleri yürütmeyi ve veri çıkarmayı adım adım öğrenin.
 ### [Aspose ile EPUB’u DOCX’e Dönüştürme – Adım Adım Kılavuz](./how-to-use-aspose-to-convert-epub-to-docx-step-by-step-guide/)
 Aspose.HTML for Java kullanarak EPUB dosyalarını DOCX formatına nasıl dönüştüreceğinizi adım adım öğrenin.
+### [HTML'yi Yükleme, Cihaz DPI'sını Ayarlama ve Arka Plan Rengini Okuma](./how-to-load-html-set-device-dpi-read-background-color/)
+HTML dosyasını yükleyip cihaz DPI'sını ayarlayarak arka plan rengini nasıl okuyacağınızı öğrenin.
 
 ---
 

@@ -43,6 +43,8 @@ Aspose.HTML का उपयोग करके Java में CSS फ़ाइ�
 इस ट्यूटोरियल में Java का उपयोग करके HTML से CSS प्रॉपर्टी निकालना और फ़ॉन्ट साइज प्राप्त करना सीखें।
 ### [Java में HTML क्वेरी कैसे करें – HTML लोड करें, CSS सेलेक्टर, और हेडिंग्स निकालें](./how-to-query-html-in-java-load-html-css-selector-and-extract/)
 Java का उपयोग करके HTML लोड करना, CSS सेलेक्टर से तत्व चुनना और हेडिंग्स निकालना सीखें।
+### [Java में HTML क्वेरी कैसे करें – एलिमेंट चुनें, एट्रिब्यूट द्वारा फ़िल्टर करें, और टेक्स्ट कंटेंट प्राप्त करें](./how-to-query-html-in-java-select-elements-filter-by-attribut/)
+Java में Aspose.HTML का उपयोग करके HTML को क्वेरी करना, एलिमेंट चुनना, एट्रिब्यूट से फ़िल्टर करना और टेक्स्ट प्राप्त करना सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -123,6 +123,8 @@ Aprenda a converter HTML para PNG em Java definindo o uso máximo de memória. G
 Aprenda a capturar screenshots de páginas web usando Aspose.HTML for Java em poucos passos.
 ### [Convertendo HTML para WebP – Guia Java para Salvar HTML como WebP](./convert-html-to-webp-java-guide-to-save-html-as-webp/)
 Aprenda a converter HTML para WebP em Java usando Aspose.HTML. Guia passo a passo para salvar páginas como imagens WebP.
+### [Como Converter HTML para WebP em Java – Guia Completo Passo a Passo](./how-to-convert-html-to-webp-in-java-complete-step-by-step-gu/)
+Aprenda a converter HTML para WebP em Java usando Aspose.HTML. Guia completo passo a passo para gerar imagens WebP de alta qualidade.
 
 ## Perguntas Frequentes
 

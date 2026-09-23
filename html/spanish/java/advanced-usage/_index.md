@@ -136,6 +136,10 @@ Aprende a configurar la relación de píxeles del dispositivo en entornos móvil
 Aprende a ejecutar scripts JavaScript dentro de Java y a extraer datos de manera eficiente con Aspose.HTML.
 ### [Cómo usar Aspose para convertir EPUB a DOCX – Guía paso a paso](./how-to-use-aspose-to-convert-epub-to-docx-step-by-step-guide/)
 Aprende a convertir archivos EPUB a DOCX usando Aspose en Java con una guía paso a paso.
+### [Cómo cargar HTML, establecer DPI del dispositivo y leer el color de fondo](./how-to-load-html-set-device-dpi-read-background-color/)
+Aprende a cargar documentos HTML, configurar la DPI del dispositivo y obtener el color de fondo usando Aspose.HTML para Java.
+### [Cómo ejecutar JavaScript de forma asíncrona usando CompletableFuture](./how-to-run-javascript-asynchronously-using-completablefuture/)
+Aprende a ejecutar código JavaScript de manera asíncrona en Java mediante CompletableFuture para mejorar el rendimiento de tus aplicaciones.
 
 ---
 

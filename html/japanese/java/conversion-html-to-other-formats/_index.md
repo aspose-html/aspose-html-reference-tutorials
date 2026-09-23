@@ -107,6 +107,9 @@ JavaでHTMLをPDFに変換し、ページサイズをカスタマイズする手
 Aspose.HTML を使って Java で HTML を PDF に変換する、完全なステップバイステップガイドです。
 ### [Aspose HTML for Java を使用した動的 HTML の PDF 変換](./convert-dynamic-html-pdf-with-aspose-html-for-java/)
 動的に生成された HTML コンテンツを高品質な PDF に変換する手順とベストプラクティスを解説します。
+### [Aspose HTML PDF/A チュートリアル: Java で HTML を PDF/A‑2b に変換](./aspose-html-pdf-a-tutorial-convert-html-to-pdf-a-2b-with-jav/)
+Aspose.HTML を使用して Java で HTML を PDF/A‑2b 形式に変換する手順を解説します。長期保存に適した PDF を簡単に作成できます。
+### [HTML から音声を抽出 – メディアとビデオの抽出方法](./extract-audio-from-html-how-to-extract-media-and-video/)
 
 ### [Java で HTML を PDF に変換 – PDF ページサイズ、解像度を設定し、HTML を PDF として保存](./convert-html-to-pdf-in-java-set-pdf-page-size-resolution-and/)
 PDF のページサイズや解像度を指定しながら、HTML を PDF に変換する手順を解説します。

@@ -133,6 +133,11 @@ Pelajari cara mengaktifkan eksekusi JavaScript dalam aplikasi Java menggunakan A
 ### [Cara Menggunakan Aspose untuk Mengonversi EPUB ke DOCX – Panduan Langkah‑per‑Langkah](./how-to-use-aspose-to-convert-epub-to-docx-step-by-step-guide/)
 Pelajari cara mengonversi file EPUB menjadi DOCX menggunakan Aspose dengan contoh kode Java langkah demi langkah.
 
+### [Cara Memuat HTML, Mengatur DPI Perangkat, dan Membaca Warna Latar Belakang](./how-to-load-html-set-device-dpi-read-background-color/)
+Pelajari cara memuat file HTML, mengatur DPI perangkat, dan mendapatkan warna latar belakang menggunakan Aspose.HTML untuk Java.
+
+### [Cara Menjalankan JavaScript Secara Asinkron Menggunakan CompletableFuture](./how-to-run-javascript-asynchronously-using-completablefuture/)
+
 ---
 
 **Terakhir Diperbarui:** 2025-11-29  

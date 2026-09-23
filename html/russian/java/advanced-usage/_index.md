@@ -138,6 +138,10 @@ Aspose.HTML позволяет прикрепить `DomMutationObserver` к л�
 Узнайте, как запускать JavaScript в Java, выполнять скрипты и извлекать данные с помощью Aspose.HTML for Java.
 ### [Как использовать Aspose для конвертации EPUB в DOCX – пошаговое руководство](./how-to-use-aspose-to-convert-epub-to-docx-step-by-step-guide/)
 Узнайте, как преобразовать файлы EPUB в DOCX с помощью Aspose, используя пошаговые инструкции и примеры кода.
+### [Как выполнить JavaScript асинхронно с использованием CompletableFuture](./how-to-run-javascript-asynchronously-using-completablefuture/)
+Узнайте, как запускать JavaScript‑код асинхронно в Java с помощью CompletableFuture и Aspose.HTML.
+### [Как загрузить HTML, установить DPI устройства и прочитать цвет фона](./how-to-load-html-set-device-dpi-read-background-color/)
+Узнайте, как загрузить HTML, установить DPI устройства и прочитать цвет фона с помощью Aspose.HTML for Java.
 
 ---
 

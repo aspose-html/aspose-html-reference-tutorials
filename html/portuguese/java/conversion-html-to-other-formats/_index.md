@@ -107,6 +107,12 @@ Aprenda como converter SVG para XPS com Aspose.HTML for Java. Guia simples, pass
 Aprenda a converter HTML para PDF em Java, incluindo como incorporar fontes para garantir renderização correta em todos os dispositivos.
 ### [Converter HTML dinâmico para PDF com Aspose HTML para Java](./convert-dynamic-html-pdf-with-aspose-html-for-java/)
 Aprenda a gerar PDFs a partir de HTML dinâmico em Java usando Aspose.HTML, incluindo scripts e conteúdo carregado dinamicamente.
+### [Extrair áudio de HTML – Como extrair mídia e vídeo](./extract-audio-from-html-how-to-extract-media-and-video/)
+Aprenda a extrair áudio, mídia e vídeo de arquivos HTML usando Aspose.HTML for Java.
+### [Tutorial Aspose HTML PDF/A: Converter HTML para PDF/A‑2b com Java](./aspose-html-pdf-a-tutorial-convert-html-to-pdf-a-2b-with-jav/)
+Aprenda a converter HTML para PDF/A‑2b usando Aspose.HTML for Java, garantindo conformidade com padrões de arquivamento.
+### [Como converter HTML para PDF com Aspose HTML – Guia Async Java](./how-to-convert-html-to-pdf-with-aspose-html-async-java-guide/)
+Aprenda a converter HTML para PDF de forma assíncrona em Java usando Aspose.HTML, otimizando desempenho em aplicações multithread.
 
 ### [Criar PDF a partir de HTML em Java – Guia Completo Passo a Passo](./create-pdf-from-html-in-java-complete-step-by-step-guide/)
 Aprenda a gerar PDFs a partir de HTML em Java com um guia detalhado, cobrindo configuração, opções de layout e melhores práticas.

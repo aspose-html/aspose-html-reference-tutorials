@@ -65,6 +65,8 @@ Erfahren Sie, wie Sie mit Aspose.HTML für Java den berechneten Stil eines Eleme
 Lernen Sie, wie Sie mit Aspose.HTML für Java den berechneten CSS‑Stil eines Elements ermitteln und nutzen – ein vollständiger Leitfaden.
 ### [Wie man getComputedStyle in Java verwendet – Hintergrundfarbe und weitere CSS-Eigenschaften extrahieren](./how-to-use-getcomputedstyle-in-java-extract-background-color/)
 Lernen Sie, wie Sie mit Aspose.HTML für Java getComputedStyle nutzen, um Hintergrundfarbe und weitere CSS‑Eigenschaften programmgesteuert zu ermitteln.
+### [HTML in Java abfragen – Elemente auswählen, nach Attribut filtern und Textinhalt erhalten](./how-to-query-html-in-java-select-elements-filter-by-attribut/)
+Erfahren Sie, wie Sie mit Aspose.HTML für Java HTML‑Dokumente abfragen, Elemente nach Attribut filtern und deren Textinhalt extrahieren.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -121,11 +121,13 @@ R: No. Una singola licenza di Aspose.HTML for Java copre tutti i formati di outp
 ### [Automatizza il riempimento di moduli HTML con Aspose.HTML per Java](./html-form-editor-filling-submitting-forms/)
 ### [Regola le dimensioni della pagina PDF con Aspose.HTML per Java](./adjust-pdf-page-size/)
 ### [Regola le dimensioni della pagina XPS con Aspose.HTML per Java](./adjust-xps-page-size/)
+### [Come eseguire JavaScript in modo asincrono usando CompletableFuture](./how-to-run-javascript-asynchronously-using-completablefuture/)
 ### [Come eseguire JavaScript in Java – Guida completa](./how-to-run-javascript-in-java-complete-guide/)
 ### [Imposta il rapporto di pixel del dispositivo in Java – Tutorial Sandbox Mobile](./set-device-pixel-ratio-in-java-mobile-sandbox-tutorial/)
 ### [Come abilitare JavaScript in Aspose HTML – Carica HTML e ottieni testo](./how-to-enable-javascript-in-aspose-html-load-html-get-text/)
 ### [Come eseguire script in Java – Guida completa per eseguire JavaScript e estrarre dati](./how-to-run-scripts-in-java-complete-guide-to-execute-javascr/)
 ### [Come usare Aspose per convertire EPUB in DOCX – Guida passo‑passo](./how-to-use-aspose-to-convert-epub-to-docx-step-by-step-guide/)
+### [Come caricare HTML, impostare DPI del dispositivo e leggere il colore di sfondo](./how-to-load-html-set-device-dpi-read-background-color/)
 
 ---
 

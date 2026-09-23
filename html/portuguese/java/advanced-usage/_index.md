@@ -149,6 +149,11 @@ Aprenda a executar scripts JavaScript dentro de aplicações Java e a extrair da
 ### [Como usar Aspose para converter EPUB para DOCX – Guia passo a passo](./how-to-use-aspose-to-convert-epub-to-docx-step-by-step-guide/)
 Aprenda a converter arquivos EPUB para DOCX usando Aspose.HTML for Java em um guia detalhado passo a passo.
 
+### [Como Executar JavaScript Assincronamente Usando CompletableFuture](./how-to-run-javascript-asynchronously-using-completablefuture/)
+
+### [Como Carregar HTML, Definir DPI do Dispositivo e Ler a Cor de Fundo](./how-to-load-html-set-device-dpi-read-background-color/)
+Aprenda a carregar HTML, definir o DPI do dispositivo e ler a cor de fundo com Aspose.HTML for Java.
+
 ---
 
 **Última atualização:** 2025-11-29  

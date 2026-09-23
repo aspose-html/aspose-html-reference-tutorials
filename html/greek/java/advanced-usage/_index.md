@@ -136,6 +136,10 @@ weight: 20
 Μάθετε πώς να ενεργοποιήσετε τη JavaScript στο Aspose.HTML, να φορτώσετε HTML και να εξάγετε το κείμενο.
 ### [Πώς να Εκτελέσετε Σενάρια σε Java – Πλήρης Οδηγός για Εκτέλεση JavaScript & Εξαγωγή Δεδομένων](./how-to-run-scripts-in-java-complete-guide-to-execute-javascr/)
 ### [Πώς να χρησιμοποιήσετε το Aspose για μετατροπή EPUB σε DOCX – Οδηγός βήμα‑βήμα](./how-to-use-aspose-to-convert-epub-to-docx-step-by-step-guide/)
+### [Πώς να Εκτελέσετε JavaScript Ασύγχρονα Χρησιμοποιώντας CompletableFuture](./how-to-run-javascript-asynchronously-using-completablefuture/)
+Μάθετε πώς να εκτελείτε κώδικα JavaScript ασύγχρονα σε Java με CompletableFuture για βέλτιστη απόδοση.
+### [Πώς να φορτώσετε HTML, ορίσετε DPI συσκευής & διαβάσετε το χρώμα φόντου](./how-to-load-html-set-device-dpi-read-background-color/)
+Μάθετε πώς να φορτώσετε HTML, ορίσετε το DPI της συσκευής και διαβάσετε το χρώμα φόντου με Aspose.HTML for Java.
 
 ---
 

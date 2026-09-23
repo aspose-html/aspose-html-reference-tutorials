@@ -138,6 +138,10 @@ Aspose.HTML में JavaScript सक्रिय करके HTML लोड 
 Java एप्लिकेशन में JavaScript चलाने, स्क्रिप्ट निष्पादन और डेटा निष्कर्षण के चरण‑दर‑चरण निर्देश।
 ### [Aspose का उपयोग करके EPUB को DOCX में बदलना – चरण‑दर‑चरण गाइड](./how-to-use-aspose-to-convert-epub-to-docx-step-by-step-guide/)
 Aspose लाइब्रेरी से EPUB फ़ाइल को DOCX में परिवर्तित करने के सभी चरणों को सीखें।
+### [CompletableFuture का उपयोग करके JavaScript को असिंक्रोनस रूप से चलाना कैसे करें](./how-to-run-javascript-asynchronously-using-completablefuture/)
+Java में CompletableFuture के साथ JavaScript को असिंक्रोनस रूप से निष्पादित करने के चरण‑दर‑चरण निर्देश।  
+### [HTML को लोड करना, डिवाइस DPI सेट करना और बैकग्राउंड रंग पढ़ना कैसे करें](./how-to-load-html-set-device-dpi-read-background-color/)
+Aspose.HTML for Java का उपयोग करके HTML लोड करें, डिवाइस DPI सेट करें और बैकग्राउंड रंग पढ़ें।
 
 ---
 

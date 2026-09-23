@@ -138,6 +138,7 @@ weight: 24
 ### [Преобразование HTML в WebP](./convert-html-to-webp-java-guide-to-save-html-as-webp/)
 ### [Как захватить скриншот веб-страницы с Aspose HTML – руководство для Java](./how-to-capture-screenshot-of-a-webpage-with-aspose-html-java/)
 ### [Как установить DPI при конвертации SVG в PNG с Java](./how-to-set-dpi-when-converting-svg-to-png-with-java/)
+### [Как преобразовать HTML в WebP в Java – Полное пошаговое руководство](./how-to-convert-html-to-webp-in-java-complete-step-by-step-gu/)
 
 ## Часто задаваемые вопросы
 

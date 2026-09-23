@@ -63,6 +63,9 @@ url: /el/java/css-html-form-editing/
 Μάθετε πώς να χρησιμοποιήσετε τη μέθοδο getComputedStyle στη Java για να εξάγετε το χρώμα φόντου και άλλες ιδιότητες CSS.
 ### [Εξαγωγή CSS από HTML σε Java – Οδηγός βήμα προς βήμα](./extract-css-from-html-in-java-step-by-step-guide/)
 Μάθετε πώς να εξάγετε CSS από έγγραφα HTML χρησιμοποιώντας Aspose.HTML για Java σε έναν λεπτομερή οδηγό βήμα προς βήμα.
+### [Πώς να ερωτήσετε HTML σε Java – Επιλέξτε στοιχεία, φιλτράρετε κατά χαρακτηριστικό και λάβετε το κείμενο](./how-to-query-html-in-java-select-elements-filter-by-attribut/)
+Μάθετε πώς να ερωτήσετε HTML σε Java, επιλέγοντας στοιχεία, φιλτράροντας κατά χαρακτηριστικό και λαμβάνοντας το κείμενο, με πρακτικά παραδείγματα.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

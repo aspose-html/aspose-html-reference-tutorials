@@ -45,6 +45,8 @@ Impara a estrarre proprietà CSS da un documento HTML e a determinare la dimensi
 Impara a caricare un documento HTML, utilizzare selettori CSS e estrarre i titoli con Java.
 ### [Estrai CSS da HTML in Java – Guida passo‑passo](./extract-css-from-html-in-java-step-by-step-guide/)
 Scopri come estrarre i CSS da un documento HTML usando Aspose.HTML per Java in questa guida dettagliata passo dopo passo.
+### [Come interrogare HTML in Java – Selezionare elementi, filtrare per attributo e ottenere il contenuto testuale](./how-to-query-html-in-java-select-elements-filter-by-attribut/)
+Scopri come eseguire query su documenti HTML in Java, selezionare elementi, filtrare per attributi e recuperare il testo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

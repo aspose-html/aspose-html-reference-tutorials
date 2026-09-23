@@ -138,6 +138,10 @@ Naučte se povolit JavaScript při načítání HTML v Aspose.HTML a získat tex
 Naučte se spouštět JavaScript v Javě a extrahovat data pomocí Aspose.HTML pro Java.
 ### [Jak použít Aspose k převodu EPUB do DOCX – krok za krokem](./how-to-use-aspose-to-convert-epub-to-docx-step-by-step-guide/)
 Naučte se převádět soubory EPUB do DOCX pomocí Aspose.HTML pro Java v podrobném krok‑za‑krokem průvodci.
+### [Jak spustit JavaScript asynchronně pomocí CompletableFuture](./how-to-run-javascript-asynchronously-using-completablefuture/)
+Naučte se spouštět JavaScript asynchronně v Javě s CompletableFuture a Aspose.HTML pro efektivní zpracování.
+### [Jak načíst HTML, nastavit DPI zařízení a přečíst barvu pozadí](./how-to-load-html-set-device-dpi-read-background-color/)
+Naučte se načíst HTML, nastavit DPI zařízení a získat barvu pozadí pomocí Aspose.HTML pro Java.
 
 ---
 

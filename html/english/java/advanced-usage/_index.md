@@ -170,6 +170,10 @@ Step‑by‑step guide on using the Aspose.HTML sandbox to convert HTML to PDF i
 Learn how to enable JavaScript execution in Java using Aspose.HTML, covering setup, security, and practical examples.
 ### [How to Enable JavaScript in Aspose HTML – Load HTML & Get Text](./how-to-enable-javascript-in-aspose-html-load-html-get-text/)
 Learn how to enable JavaScript when loading HTML with Aspose.HTML for Java and extract text from the page.
+### [How to Run JavaScript Asynchronously Using CompletableFuture](./how-to-run-javascript-asynchronously-using-completablefuture/)
+Learn how to execute JavaScript asynchronously in Java using CompletableFuture with Aspose.HTML.
+### [How to Load HTML, Set Device DPI & Read Background Color](./how-to-load-html-set-device-dpi-read-background-color/)
+Learn how to load HTML, configure device DPI, and retrieve the background color using Aspose.HTML for Java.
 
 ---
 

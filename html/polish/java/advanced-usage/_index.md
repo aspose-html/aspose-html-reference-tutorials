@@ -137,6 +137,10 @@ Dowiedz się, jak ustawić współczynnik pikseli urządzenia w środowisku Mobi
 Poznaj, jak uruchamiać skrypty JavaScript w Javie i wyodrębniać potrzebne dane przy pomocy Aspose.HTML.
 ### [Jak używać Aspose do konwersji EPUB na DOCX – przewodnik krok po kroku](./how-to-use-aspose-to-convert-epub-to-docx-step-by-step-guide/)
 Dowiedz się, jak konwertować pliki EPUB do DOCX przy użyciu Aspose, krok po kroku.
+### [Jak uruchomić JavaScript asynchronicznie przy użyciu CompletableFuture](./how-to-run-javascript-asynchronously-using-completablefuture/)
+Poznaj, jak wykonać kod JavaScript w tle w Javie, wykorzystując CompletableFuture i Aspose.HTML.
+### [Jak załadować HTML, ustawić DPI urządzenia i odczytać kolor tła](./how-to-load-html-set-device-dpi-read-background-color/)
+Dowiedz się, jak wczytać dokument HTML, ustawić DPI urządzenia oraz odczytać kolor tła przy użyciu Aspose.HTML dla Javy.
 
 ---
 

@@ -138,6 +138,9 @@ Aspose.HTML ให้คุณแนบ `DomMutationObserver` ไปยังโ
 เรียนรู้วิธีรันสคริปต์ JavaScript ใน Java เพื่อดึงข้อมูลและประมวลผลอย่างครบถ้วน
 ### [วิธีใช้ Aspose แปลง EPUB เป็น DOCX – คู่มือขั้นตอนโดยละเอียด](./how-to-use-aspose-to-convert-epub-to-docx-step-by-step-guide/)
 เรียนรู้วิธีแปลงไฟล์ EPUB เป็น DOCX ด้วย Aspose อย่างละเอียดและง่ายดาย  
+### [วิธีรัน JavaScript แบบอะซิงโครนัสโดยใช้ CompletableFuture](./how-to-run-javascript-asynchronously-using-completablefuture/)
+เรียนรู้การรันโค้ด JavaScript อย่างไม่บล็อกโดยใช้ CompletableFuture ใน Java ด้วย Aspose.HTML  
+### [วิธีโหลด HTML ตั้งค่า DPI ของอุปกรณ์และอ่านสีพื้นหลัง](./how-to-load-html-set-device-dpi-read-background-color/)
 
 ---
 

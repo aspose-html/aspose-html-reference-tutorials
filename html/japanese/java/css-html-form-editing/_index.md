@@ -37,6 +37,9 @@ Aspose.HTML for Java を使用して、要素の計算済み CSS スタイルを
 JavaでHTMLをロードし、クエリセレクタでスタイル情報を取得する手順を解説します。
 ### [Javaでクラスによる要素選択 – 完全ハウツーガイド](./select-element-by-class-in-java-complete-how-to-guide/)
 Javaコードでクラス属性を持つ要素を取得し操作する方法をステップバイステップで解説します。
+### [JavaでHTMLをクエリする方法 – 要素を選択し、属性でフィルタリングし、テキストコンテンツを取得する](./how-to-query-html-in-java-select-elements-filter-by-attribut/)
+JavaコードでHTMLを検索し、要素を選択、属性で絞り込み、テキストを取得する手順を解説します。
+
 ### [Aspose.HTML for Java を使用した CSS の読み取り方法 – 完全ガイド](./how-to-read-css-in-java-complete-guide-with-aspose-html/)
 Aspose.HTML for Java を活用し、Java で CSS をプログラム的に読み取る手順とベストプラクティスを詳しく解説します。
 

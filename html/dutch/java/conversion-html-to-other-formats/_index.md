@@ -88,6 +88,8 @@ Leer hoe u HTML naar PDF kunt converteren in Java met Aspose.HTML. Maak moeitelo
 Leer stap voor stap hoe u HTML naar PDF converteert in Java en paginagrootte‑instellingen configureert voor optimale resultaten.
 ### [HTML naar PDF converteren in Java – Complete stapsgewijze gids](./convert-html-to-pdf-in-java-complete-step-by-step-guide/)
 Volledige stap‑voor‑stap handleiding om HTML naar PDF te converteren in Java met Aspose.HTML, inclusief alle configuratie‑opties.
+### [Hoe HTML naar PDF converteren met Aspose HTML – Async Java‑gids](./how-to-convert-html-to-pdf-with-aspose-html-async-java-guide/)
+Leer hoe u asynchrone conversie van HTML naar PDF implementeert in Java met Aspose HTML voor betere prestaties.
 ### [HTML naar MHTML converteren](./convert-html-to-mhtml/)
 Converteer HTML moeiteloos naar MHTML met Aspose.HTML for Java. Volg onze stap‑voor‑stap gids voor efficiënte HTML‑naar‑MHTML conversie.
 ### [HTML naar XPS converteren](./convert-html-to-xps/)
@@ -108,6 +110,10 @@ Leer hoe u PDF‑bestanden kunt verkleinen met Aspose HTML naar PDF in Java, inc
 Leer hoe u dynamische HTML-inhoud naar PDF kunt converteren met Aspose HTML for Java, inclusief JavaScript en CSS rendering.
 ### [Hoe Aspose te gebruiken – Batch HTML naar PDF converteren in Java](./how-to-use-aspose-batch-convert-html-to-pdf-in-java/)
 Leer hoe u Aspose gebruikt om HTML batch‑gewijs naar PDF te converteren in Java.
+### [Aspose HTML PDF/A Tutorial: HTML naar PDF/A‑2b converteren met Java](./aspose-html-pdf-a-tutorial-convert-html-to-pdf-a-2b-with-jav/)
+Leer hoe u met Aspose.HTML for Java HTML‑documenten omzet naar PDF/A‑2b, een ISO‑gestandaardiseerd archiefformaat.
+### [Audio extraheren uit HTML – Hoe media en video te extraheren](./extract-audio-from-html-how-to-extract-media-and-video/)
+Ontdek hoe u audio‑ en videobestanden uit HTML‑inhoud kunt halen met Aspose.HTML for Java.
 
 ### [PDF maken van HTML in Java – Complete stapsgewijze gids](./create-pdf-from-html-in-java-complete-step-by-step-guide/)
 Leer hoe u stap‑voor‑stap een PDF maakt van HTML in Java met Aspose.HTML, inclusief volledige configuratie‑opties.

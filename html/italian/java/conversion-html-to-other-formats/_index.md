@@ -126,6 +126,9 @@ Impara a convertire pagine web in PDF usando Aspose.HTML per Java con esempi pas
 
 ### [Imposta le dimensioni della pagina PDF in Java – Guida completa HTML a PDF](./set-pdf-page-size-in-java-complete-html-to-pdf-guide/)
 Imposta le dimensioni della pagina PDF durante la conversione da HTML a PDF in Java con Aspose.HTML.
+### [Tutorial Aspose HTML PDF/A: Converti HTML in PDF/A‑2b con Java](./aspose-html-pdf-a-tutorial-convert-html-to-pdf-a-2b-with-jav/)
+### [Come convertire HTML in PDF con Aspose HTML – Guida Java asincrona](./how-to-convert-html-to-pdf-with-aspose-html-async-java-guide/)
+### [Estrai audio da HTML – Come estrarre media e video](./extract-audio-from-html-how-to-extract-media-and-video/)
 
 ## Domande frequenti
 

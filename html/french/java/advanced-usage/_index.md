@@ -130,6 +130,12 @@ Apprenez à ajuster la taille de page PDF avec Aspose.HTML for Java. Créez des 
 Apprenez à ajuster la taille de page XPS avec Aspose.HTML for Java. Contrôlez facilement les dimensions de sortie de vos documents XPS.  
 ### [Comment exécuter du JavaScript en Java – Guide complet](./how-to-run-javascript-in-java-complete-guide/)
 Apprenez à exécuter du code JavaScript depuis Java en utilisant Aspose.HTML, avec des exemples complets et des meilleures pratiques.  
+### [Comment exécuter du JavaScript de manière asynchrone avec CompletableFuture](./how-to-run-javascript-asynchronously-using-completablefuture/)
+Apprenez à exécuter du JavaScript de façon asynchrone depuis Java en utilisant CompletableFuture pour améliorer les performances.  
+
+### [Comment charger du HTML, définir le DPI de l'appareil et lire la couleur d'arrière-plan](./how-to-load-html-set-device-dpi-read-background-color/)
+Apprenez à charger du HTML, définir le DPI de l'appareil et lire la couleur d'arrière-plan avec Aspose.HTML for Java.  
+
 ### [Comment utiliser Aspose pour convertir EPUB en DOCX – Guide étape par étape](./how-to-use-aspose-to-convert-epub-to-docx-step-by-step-guide/)
 Apprenez à convertir des fichiers EPUB en DOCX avec Aspose, étape par étape, pour obtenir des documents Word de haute qualité.  
 

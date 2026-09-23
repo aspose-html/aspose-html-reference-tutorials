@@ -136,6 +136,10 @@ Ismerje meg, hogyan kapcsolhatja be a JavaScript-et az Aspose HTML-ben, tölthet
 ### [Hogyan futtassunk szkripteket Java-ban – Teljes útmutató a JavaScript végrehajtásához és adatok kinyeréséhez](./how-to-run-scripts-in-java-complete-guide-to-execute-javascr/)
 Ismerje meg, hogyan hajthatja végre a JavaScriptet Java környezetben, és hogyan nyerhet ki adatokat a szkriptekből.
 ### [Hogyan használja az Aspose-t EPUB‑ból DOCX‑be konvertáláshoz – Lépésről‑lépésre útmutató](./how-to-use-aspose-to-convert-epub-to-docx-step-by-step-guide/)
+### [Hogyan futtassunk JavaScript-et aszinkron módon CompletableFuture használatával](./how-to-run-javascript-asynchronously-using-completablefuture/)
+Ismerje meg, hogyan futtathat JavaScript kódot aszinkron módon a CompletableFuture segítségével Java alkalmazásokban.
+### [HTML betöltése, eszköz DPI beállítása és háttérszín olvasása](./how-to-load-html-set-device-dpi-read-background-color/)
+Ismerje meg, hogyan töltsön be HTML-t, állítson be DPI-t és olvassa ki a háttérszínt az Aspose.HTML for Java segítségével.
 
 ---
 

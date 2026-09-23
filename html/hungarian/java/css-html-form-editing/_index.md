@@ -64,6 +64,8 @@ Ismerje meg, hogyan kérheti le egy HTML elem számított CSS‑stílusát Java�
 Ismerje meg, hogyan nyerheti ki a háttérszínt és más CSS tulajdonságokat a getComputedStyle segítségével Java-ban.
 ### [CSS kinyerése HTML-ből Java-ban – Lépésről‑lépésre útmutató](./extract-css-from-html-in-java-step-by-step-guide/)
 Ismerje meg, hogyan nyerhet ki CSS‑stílusokat HTML‑dokumentumból Java‑val, részletes, gyakorlati példákkal.
+### [Hogyan kérdezzen le HTML-t Java-ban – Elemek kiválasztása, szűrés attribútum szerint, és szövegtartalom lekérése](./how-to-query-html-in-java-select-elements-filter-by-attribut/)
+Fedezze fel, hogyan kérdezhet le HTML-t Java-ban, elemeket választhat ki, attribútumok alapján szűrhet, és kinyerheti a szövegtartalmat az Aspose.HTML használatával.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -136,6 +136,9 @@ Java 환경에서 디바이스 픽셀 비율을 설정하고 모바일 샌드박
 Java 환경에서 JavaScript를 실행하고 데이터를 추출하는 방법을 단계별로 안내합니다.
 ### [Aspose를 사용하여 EPUB을 DOCX로 변환하는 방법 – 단계별 가이드](./how-to-use-aspose-to-convert-epub-to-docx-step-by-step-guide/)
 Aspose 라이브러리를 활용해 EPUB 파일을 DOCX 형식으로 변환하는 과정을 단계별로 안내합니다.
+### [CompletableFuture를 사용하여 JavaScript를 비동기적으로 실행하는 방법](./how-to-run-javascript-asynchronously-using-completablefuture/)
+CompletableFuture와 Aspose.HTML을 활용해 Java에서 JavaScript를 비동기 실행하고 결과를 처리하는 방법을 단계별로 안내합니다.
+### [HTML 로드, 디바이스 DPI 설정 및 배경 색상 읽기](./how-to-load-html-set-device-dpi-read-background-color/)
 
 ---
 

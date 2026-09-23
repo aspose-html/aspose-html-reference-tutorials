@@ -64,6 +64,8 @@ Lär dig hur du med getComputedStyle i Java kan hämta bakgrundsfärg och andra 
 ### [Extrahera CSS från HTML i Java – Steg‑för‑steg‑guide](./extract-css-from-html-in-java-step-by-step-guide/)
 Lär dig hur du programatiskt extraherar CSS från HTML-dokument med Aspose.HTML för Java i en tydlig steg‑för‑steg‑guide.
 
+### [Hur man frågar HTML i Java – Välj element, filtrera efter attribut och hämta textinnehåll](./how-to-query-html-in-java-select-elements-filter-by-attribut/)
+Lär dig hur du programatiskt söker i HTML med Aspose.HTML för Java: välj element, filtrera på attribut och hämta textinnehåll.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

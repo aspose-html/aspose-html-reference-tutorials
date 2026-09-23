@@ -144,6 +144,11 @@ A: 不需要。單一的 Aspose.HTML for Java 授權即涵蓋所有輸出格式�
 
 ### [如何使用 Aspose 將 EPUB 轉換為 DOCX – 步驟說明指南](./how-to-use-aspose-to-convert-epub-to-docx-step-by-step-guide/)
 
+### [如何使用 CompletableFuture 以非同步方式執行 JavaScript](./how-to-run-javascript-asynchronously-using-completablefuture/)
+學習如何在 Java 中利用 CompletableFuture 以非同步方式執行 JavaScript 程式碼，提高效能。
+
+### [如何載入 HTML、設定裝置 DPI 並讀取背景顏色](./how-to-load-html-set-device-dpi-read-background-color/)
+
 ---
 
 **最後更新日期：** 2025-11-29  

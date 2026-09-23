@@ -89,6 +89,8 @@ HTML içeriğinizden sorunsuz bir şekilde yüksek kaliteli PDF'ler oluşturun.
 Java’da HTML'yi PDF'ye dönüştürürken sayfa boyutu ayarlarını nasıl yapılandıracağınızı adım adım gösterir.
 ### [HTML'yi PDF'ye Dönüştürme Java’da – Tam Adım‑Adım Kılavuz](./convert-html-to-pdf-in-java-complete-step-by-step-guide/)
 Java’da HTML'yi PDF'ye dönüştürmek için eksiksiz adım adım rehber. Tüm ayarları ve örnek kodları keşfedin.
+### [Aspose HTML ile HTML'yi PDF'ye Dönüştürme – Asenkron Java Kılavuzu](./how-to-convert-html-to-pdf-with-aspose-html-async-java-guide/)
+Aspose.HTML kullanarak Java'da asenkron şekilde HTML'den PDF oluşturmayı adım adım gösteren rehber.
 ### [HTML'yi MHTML'ye Dönüştürme](./convert-html-to-mhtml/)
 Aspose.HTML for Java ile HTML'yi MHTML'ye kolayca dönüştürün. Verimli HTML‑to‑MHTML dönüşümü için adım adım rehberimizi izleyin.
 ### [HTML'yi XPS'ye Dönüştürme](./convert-html-to-xps/)
@@ -109,6 +111,10 @@ Aspose.HTML for Java kullanarak PDF dosyalarını sıkıştırmayı ve dosya boy
 Aspose.HTML for Java kullanarak dinamik HTML içeriğini PDF'ye dönüştürmeyi adım adım öğrenin.
 ### [Aspose Nasıl Kullanılır – Java’da HTML'yi Toplu Olarak PDF'ye Dönüştürme](./how-to-use-aspose-batch-convert-html-to-pdf-in-java/)
 Aspose.HTML for Java kullanarak birden çok HTML dosyasını tek seferde PDF’ye dönüştürmeyi adım adım öğrenin.
+### [Aspose HTML PDF/A Öğreticisi: Java ile HTML'yi PDF/A‑2b'ye Dönüştürme](./aspose-html-pdf-a-tutorial-convert-html-to-pdf-a-2b-with-jav/)
+Java kullanarak HTML dosyalarını PDF/A‑2b formatına dönüştürmeyi adım adım gösteren kapsamlı bir rehber.
+### [HTML'den ses çıkarma – Medya ve videoyu nasıl çıkarabilirsiniz](./extract-audio-from-html-how-to-extract-media-and-video/)
+HTML belgelerinden ses ve video dosyalarını ayıklamayı adım adım gösteren rehber.
 
 ### [Aspose HTML ile PDF Sayfa Boyutunu Ayarlama – Tam Java Kılavuzu](./set-pdf-page-size-with-aspose-html-full-java-guide/)
 Aspose.HTML kullanarak Java'da PDF sayfa boyutunu nasıl ayarlayacağınızı adım adım gösteren kapsamlı rehber.
