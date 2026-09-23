@@ -41,6 +41,8 @@ url: /el/net/html-extensions-and-conversions/
 
 ### [Μετατροπή HTML σε PDF στο .NET με το Aspose.HTML](./convert-html-to-pdf/)
 Μετατρέψτε HTML σε PDF χωρίς κόπο με το Aspose.HTML για .NET. Ακολουθήστε τον οδηγό βήμα προς βήμα και απελευθερώστε τη δύναμη της μετατροπής HTML σε PDF.
+### [Πώς να μετατρέψετε HTML σε PDF σε C# χρησιμοποιώντας το Aspose.HTML](./how-to-convert-html-to-pdf-in-c-using-aspose-html/)
+Μάθετε βήμα‑βήμα πώς να μετατρέψετε HTML σε PDF με C# και Aspose.HTML.
 ### [Δημιουργία PDF από HTML – Οδηγός βήμα‑βήμα C#](./create-pdf-from-html-c-step-by-step-guide/)
 Δημιουργήστε PDF από HTML με C# χρησιμοποιώντας το Aspose.HTML. Οδηγός βήμα‑βήμα για γρήγορη και εύκολη υλοποίηση.
 ### [Μετατρέψτε το EPUB σε Εικόνα στο .NET με το Aspose.HTML](./convert-epub-to-image/)
@@ -79,14 +81,14 @@ url: /el/net/html-extensions-and-conversions/
 Μάθετε πώς να αποθηκεύετε HTML σε αρχείο ZIP με C# και Aspose.HTML.
 ### [Αποθήκευση HTML σε ZIP σε C# – Πλήρες Παράδειγμα Εντός Μνήμης](./save-html-to-zip-in-c-complete-in-memory-example/)
 Μάθετε πώς να αποθηκεύετε HTML σε αρχείο ZIP με C# χρησιμοποιώντας πλήρες παράδειγμα εντός μνήμης.
+### [Πώς να αποθηκεύσετε HTML ως ZIP με Aspose.HTML σε C#](./how-to-save-html-as-zip-with-aspose-html-in-c/)
+Μάθετε πώς να αποθηκεύσετε HTML σε αρχείο ZIP χρησιμοποιώντας Aspose.HTML με C#.
 ### [Προσαρμοσμένος Διαχειριστής Πόρων σε C# – Μετατροπή HTML σε Αρχείο ZIP από Μνήμη](./custom-resource-handler-in-c-convert-html-to-zip-archive-fro/)
 Μάθετε πώς να δημιουργήσετε προσαρμοσμένο διαχειριστή πόρων σε C# για μετατροπή HTML σε αρχείο ZIP απευθείας από τη μνήμη.
 ### [Προσαρμοσμένος Διαχειριστής Πόρων σε C# – Οδηγός Μετατροπής HTML σε ZIP](./custom-resource-handler-in-c-convert-html-to-zip-tutorial/)
 Μάθετε πώς να δημιουργήσετε έναν προσαρμοσμένο διαχειριστή πόρων σε C# για μετατροπή HTML σε αρχείο ZIP.
 ### [Δημιουργία αρχείου zip C# – Οδηγός βήμα‑βήμα για συμπίεση HTML στη μνήμη](./create-zip-file-c-step-by-step-guide-to-zip-html-in-memory/)
 Μάθετε πώς να δημιουργήσετε αρχείο zip σε C# και να συμπιέσετε HTML απευθείας στη μνήμη με το Aspose.HTML.
-### [Μετατροπή HTML σε PDF με το Aspose.HTML – Πλήρης Οδηγός Βήμα‑βήμα](./convert-html-to-pdf-with-aspose-html-full-step-by-step-guide/)
-Μετατρέψτε HTML σε PDF με πλήρη οδηγίες βήμα‑βήμα χρησιμοποιώντας το Aspose.HTML για .NET.
 ### [Μετατροπή HTML σε ZIP σε C# – Πλήρης Οδηγός](./convert-html-to-zip-in-c-complete-guide/)
 Μάθετε πώς να μετατρέπετε HTML σε αρχείο ZIP χρησιμοποιώντας C# και το Aspose.HTML, βήμα προς βήμα οδηγίες.
 ### [Πώς να συμπιέσετε HTML σε C# – Πλήρης Οδηγός Βήμα‑βήμα](./how-to-zip-html-in-c-complete-step-by-step-guide/)

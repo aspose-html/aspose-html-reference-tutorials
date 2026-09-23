@@ -41,6 +41,8 @@ Aspose.HTML para .NET não é apenas uma biblioteca; é um divisor de águas no 
 
 ### [Converter HTML para PDF no .NET com Aspose.HTML](./convert-html-to-pdf/)
 Converta HTML para PDF sem esforço com Aspose.HTML para .NET. Siga nosso guia passo a passo e libere o poder da conversão de HTML para PDF.
+### [Como converter HTML para PDF em C# usando Aspose.HTML](./how-to-convert-html-to-pdf-in-c-using-aspose-html/)
+Aprenda a converter HTML para PDF em C# usando Aspose.HTML com um guia passo a passo.
 ### [Criar PDF a partir de HTML – Guia passo a passo em C#](./create-pdf-from-html-c-step-by-step-guide/)
 Aprenda a criar um PDF a partir de HTML usando C# com Aspose.HTML, seguindo um guia passo a passo.
 ### [Criar documento HTML com texto estilizado e exportar para PDF – Guia completo](./create-html-document-with-styled-text-and-export-to-pdf-full/)
@@ -74,6 +76,8 @@ Descubra o poder do Aspose.HTML para .NET: Converta HTML para XPS sem esforço. 
 ### [Criar PDF a partir de URL – Guia Completo em C#](./create-pdf-from-url-complete-c-guide/)
 ### [Salvar HTML como ZIP – Tutorial Completo em C#](./save-html-as-zip-complete-c-tutorial/)
 Aprenda a salvar documentos HTML em arquivos ZIP usando Aspose.HTML para .NET com um tutorial passo a passo em C#.
+### [Como salvar HTML como ZIP com Aspose.HTML em C#](./how-to-save-html-as-zip-with-aspose-html-in-c/)
+Aprenda a salvar HTML como ZIP usando Aspose.HTML para .NET em C#.
 ### [Manipulador de Recurso Personalizado em C# – Tutorial de Conversão de HTML para ZIP](./custom-resource-handler-in-c-convert-html-to-zip-tutorial/)
 Aprenda a usar um manipulador de recurso personalizado em C# para converter HTML em arquivos ZIP com Aspose.HTML.
 ### [Como compactar HTML em C# – Salvar HTML em ZIP](./how-to-zip-html-in-c-save-html-to-zip/)
@@ -89,7 +93,7 @@ Aprenda a converter arquivos HTML em arquivos ZIP usando C# e Aspose.HTML. Guia 
 ### [Como Compactar HTML em C# – Guia Completo Passo a Passo](./how-to-zip-html-in-c-complete-step-by-step-guide/)
 Aprenda a compactar arquivos HTML em um ZIP usando C# com Aspose.HTML, passo a passo e exemplos de código.
 ### [Salvar HTML como ZIP em C# – Guia Completo Passo a Passo](./save-html-as-zip-in-c-complete-step-by-step-guide/)
-Aprenda a salvar arquivos HTML em um arquivo ZIP usando C# com Aspose.HTML. Guia passo a passo com exemplos de código.
+Aprenda a salvar arquivos HTML em um ZIP usando C# com Aspose.HTML. Guia passo a passo com exemplos de código.
 
 ### [Manipulador de Recurso Personalizado em C# – Converter HTML para Arquivo ZIP a partir da Memória](./custom-resource-handler-in-c-convert-html-to-zip-archive-fro/)
 Aprenda a usar um manipulador de recursos personalizado em C# para converter HTML em um arquivo ZIP totalmente em memória.
