@@ -24,11 +24,7 @@ title: 'บทเรียน Aspose HTML PDF/A: แปลง HTML เป็น 
 url: /th/java/conversion-html-to-other-formats/aspose-html-pdf-a-tutorial-convert-html-to-pdf-a-2b-with-jav/
 ---
 
-didn't translate any code placeholders or shortcodes.
-
-Make sure to keep markdown formatting.
-
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

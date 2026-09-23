@@ -22,20 +22,6 @@ title: استخراج الصوت من HTML – كيفية استخراج الو�
 url: /ar/java/conversion-html-to-other-formats/extract-audio-from-html-how-to-extract-media-and-video/
 ---
 
-they need the raw files for offline processing." Translate.
-
-Continue.
-
-Will translate each paragraph.
-
-Make sure to keep markdown formatting like **bold**.
-
-Also keep code snippets like `<video>` unchanged.
-
-Tables: translate column headers and content.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

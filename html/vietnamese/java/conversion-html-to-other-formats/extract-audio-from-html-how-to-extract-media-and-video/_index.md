@@ -24,8 +24,6 @@ title: Trích xuất âm thanh từ HTML – Cách trích xuất phương tiện
 url: /vi/java/conversion-html-to-other-formats/extract-audio-from-html-how-to-extract-media-and-video/
 ---
 
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -23,31 +23,7 @@ title: Estrai l'audio da HTML – Come estrarre media e video
 url: /it/java/conversion-html-to-other-formats/extract-audio-from-html-how-to-extract-media-and-video/
 ---
 
-## Common Pitfalls & How to Avoid Them" translate.
-
-Table: translate headers and cells.
-
-Proceed.
-
-Then "## Extending the Solution" translate.
-
-Paragraph.
-
-Bullet list translate.
-
-Proceed.
-
-Then "## Conclusion" translate.
-
-Paragraph.
-
-Then final call to action.
-
-Proceed.
-
-Then closing shortcodes.
-
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

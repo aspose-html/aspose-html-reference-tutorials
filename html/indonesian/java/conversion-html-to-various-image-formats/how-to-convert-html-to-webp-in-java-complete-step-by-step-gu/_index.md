@@ -26,14 +26,6 @@ title: Cara Mengonversi HTML ke WebP di Java – Panduan Lengkap Langkah demi La
 url: /id/java/conversion-html-to-various-image-formats/how-to-convert-html-to-webp-in-java-complete-step-by-step-gu/
 ---
 
-`Aspose.HTML for Java`, `com.aspose:aspose-html`, `input.html`, etc. Those are code or file names; we can keep them as is, but the surrounding text can be translated.
-
-Proceed step by step.
-
-Also note the "Pro tip:" line. Keep colon.
-
-Now produce final output.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -25,7 +25,7 @@ title: Cómo consultar HTML en Java – Seleccionar elementos, filtrar por atrib
 url: /es/java/css-html-form-editing/how-to-query-html-in-java-select-elements-filter-by-attribut/
 ---
 
-all translations.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

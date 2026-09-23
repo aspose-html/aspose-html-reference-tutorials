@@ -23,9 +23,7 @@ title: Aspose HTML PDF/A 教學：使用 Java 將 HTML 轉換為 PDF/A‑2b
 url: /zh-hant/java/conversion-html-to-other-formats/aspose-html-pdf-a-tutorial-convert-html-to-pdf-a-2b-with-jav/
 ---
 
-keep code block placeholders unchanged.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

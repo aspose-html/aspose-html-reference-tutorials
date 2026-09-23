@@ -24,11 +24,7 @@ title: Jak spustit JavaScript asynchronně pomocí CompletableFuture
 url: /cs/java/advanced-usage/how-to-run-javascript-asynchronously-using-completablefuture/
 ---
 
-part.
-
-Now produce final content with all markdown.
-
-Let's assemble.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

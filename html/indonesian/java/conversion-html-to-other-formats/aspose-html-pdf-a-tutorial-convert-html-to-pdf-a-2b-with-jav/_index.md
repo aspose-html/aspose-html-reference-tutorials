@@ -26,13 +26,7 @@ title: 'Tutorial Aspose HTML PDF/A: Mengonversi HTML ke PDF/A‑2b dengan Java'
 url: /id/java/conversion-html-to-other-formats/aspose-html-pdf-a-tutorial-convert-html-to-pdf-a-2b-with-jav/
 ---
 
-them unchanged.
-
-Now produce final content with all translations.
-
-Be careful to preserve markdown formatting exactly.
-
-Let's construct final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

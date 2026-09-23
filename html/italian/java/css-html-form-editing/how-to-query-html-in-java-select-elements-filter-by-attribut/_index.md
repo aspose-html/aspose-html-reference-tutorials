@@ -25,20 +25,6 @@ title: Come interrogare l'HTML in Java – Selezionare gli elementi, filtrare pe
 url: /it/java/css-html-form-editing/how-to-query-html-in-java-select-elements-filter-by-attribut/
 ---
 
-zioni". etc.
-
-Translate bullet points.
-
-Translate "Step 7: Next steps – what else can you do?" -> "Passo 7: Prossimi passi – cos'altro puoi fare?". etc.
-
-Translate "Conclusion" -> "Conclusione". etc.
-
-Translate image alt text: "how to query html example" -> "esempio di come interrogare html". Also title attribute.
-
-Now produce final content with same shortcodes.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

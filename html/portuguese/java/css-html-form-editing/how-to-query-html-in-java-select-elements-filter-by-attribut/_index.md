@@ -25,13 +25,7 @@ title: Como consultar HTML em Java – Selecionar elementos, filtrar por atribut
 url: /pt/java/css-html-form-editing/how-to-query-html-in-java-select-elements-filter-by-attribut/
 ---
 
-extracted product titles and prices.*" translate.
-
-Then closing shortcodes.
-
-Also final button shortcode unchanged.
-
-Let's produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

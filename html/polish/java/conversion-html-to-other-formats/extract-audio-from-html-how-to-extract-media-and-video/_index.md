@@ -24,9 +24,7 @@ title: Wyodrębnij dźwięk z HTML – Jak wyodrębnić media i wideo
 url: /pl/java/conversion-html-to-other-formats/extract-audio-from-html-how-to-extract-media-and-video/
 ---
 
-them unchanged.
-
-Now produce final output with all translations and placeholders unchanged.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

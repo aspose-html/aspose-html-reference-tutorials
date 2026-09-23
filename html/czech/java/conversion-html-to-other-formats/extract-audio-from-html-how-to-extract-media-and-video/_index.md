@@ -22,14 +22,6 @@ title: Extrahovat audio z HTML – Jak extrahovat média a video
 url: /cs/java/conversion-html-to-other-formats/extract-audio-from-html-how-to-extract-media-and-video/
 ---
 
-ously. | Pre‑download assets or increase JVM heap if dealing with large files. |
-
-We translated.
-
-Make sure to keep same number of hyphens in separator row.
-
-Now produce final content with all translations.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

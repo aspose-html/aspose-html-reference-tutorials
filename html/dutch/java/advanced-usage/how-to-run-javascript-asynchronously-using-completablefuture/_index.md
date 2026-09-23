@@ -24,24 +24,6 @@ title: Hoe JavaScript Asynchroon Uitvoeren met CompletableFuture
 url: /nl/java/advanced-usage/how-to-run-javascript-asynchronously-using-completablefuture/
 ---
 
-translate them but keep code terms unchanged.
-
-Let's produce translation.
-
-We must keep code block placeholders unchanged.
-
-Also tables: translate column headers and content.
-
-Let's translate step by step.
-
-I'll produce final markdown.
-
-Be careful with alt text and image caption.
-
-Also the "Alt text:" line.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

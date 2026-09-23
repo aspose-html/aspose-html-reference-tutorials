@@ -26,16 +26,6 @@ title: Jak przekonwertować HTML na WebP w Javie – Kompletny przewodnik krok p
 url: /pl/java/conversion-html-to-various-image-formats/how-to-convert-html-to-webp-in-java-complete-step-by-step-gu/
 ---
 
-0}} etc. Keep them.
-
-Also there is a table with "Situation" and "What to Do". Translate those headings and rows.
-
-Also bullet points.
-
-Let's translate.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

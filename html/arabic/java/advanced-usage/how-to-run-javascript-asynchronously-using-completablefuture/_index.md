@@ -23,11 +23,7 @@ title: كيفية تشغيل جافا سكريبت بشكل غير متزامن 
 url: /ar/java/advanced-usage/how-to-run-javascript-asynchronously-using-completablefuture/
 ---
 
-.
-
-Proceed.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

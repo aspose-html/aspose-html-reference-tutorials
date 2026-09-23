@@ -25,9 +25,7 @@ title: Cara melakukan query HTML di Java – Pilih elemen, filter berdasarkan at
 url: /id/java/css-html-form-editing/how-to-query-html-in-java-select-elements-filter-by-attribut/
 ---
 
-kept same number of #.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

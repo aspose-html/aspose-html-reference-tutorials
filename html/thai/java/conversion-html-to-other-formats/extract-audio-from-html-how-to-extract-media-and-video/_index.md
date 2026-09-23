@@ -22,12 +22,6 @@ title: สกัดเสียงจาก HTML – วิธีสกัดส
 url: /th/java/conversion-html-to-other-formats/extract-audio-from-html-how-to-extract-media-and-video/
 ---
 
-.
-
-Tables: translate column headers and content.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

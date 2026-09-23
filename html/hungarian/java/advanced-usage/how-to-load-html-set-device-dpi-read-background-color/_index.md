@@ -22,15 +22,7 @@ title: Hogyan töltsünk be HTML-t, állítsuk be az eszköz DPI-jét és olvass
 url: /hu/java/advanced-usage/how-to-load-html-set-device-dpi-read-background-color/
 ---
 
-image URL, we left unchanged.
-
-Check any shortcodes: we left unchanged.
-
-Check any other markdown: headings, lists.
-
-Make sure we didn't translate the placeholder {{CODE_BLOCK_X}}. Good.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

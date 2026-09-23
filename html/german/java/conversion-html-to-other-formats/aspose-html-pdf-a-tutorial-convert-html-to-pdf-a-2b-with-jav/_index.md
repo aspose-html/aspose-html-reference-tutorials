@@ -25,34 +25,6 @@ title: 'Aspose HTML PDF/A Tutorial: HTML in PDF/A‑2b mit Java konvertieren'
 url: /de/java/conversion-html-to-other-formats/aspose-html-pdf-a-tutorial-convert-html-to-pdf-a-2b-with-jav/
 ---
 
-profiles; let Aspose handle conversion. |
-
-Translate.
-
-## Bonus: Adding a Custom Footer
-
-Heading: "## Bonus: Einen benutzerdefinierten Footer hinzufügen"
-
-Translate.
-
-## Full Working Example
-
-Heading: "## Vollständiges funktionierendes Beispiel"
-
-Translate.
-
-Run the class... translate.
-
-## Conclusion
-
-Heading: "## Fazit"
-
-Translate final paragraph.
-
-We need to keep the closing shortcodes.
-
-Now produce final output.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

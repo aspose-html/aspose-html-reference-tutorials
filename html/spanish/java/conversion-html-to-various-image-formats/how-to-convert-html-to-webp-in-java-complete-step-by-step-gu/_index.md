@@ -25,10 +25,6 @@ title: Cómo convertir HTML a WebP en Java – Guía completa paso a paso
 url: /es/java/conversion-html-to-various-image-formats/how-to-convert-html-to-webp-in-java-complete-step-by-step-gu/
 ---
 
-attribute.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

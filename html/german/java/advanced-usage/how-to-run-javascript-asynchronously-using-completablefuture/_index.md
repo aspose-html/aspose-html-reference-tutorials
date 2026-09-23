@@ -24,11 +24,7 @@ title: Wie man JavaScript asynchron mit CompletableFuture ausführt
 url: /de/java/advanced-usage/how-to-run-javascript-asynchronously-using-completablefuture/
 ---
 
-the Aspose HTML for Java JAR, which you can drop into your classpath. Let’s dive in." => translate.
-
-Now produce final content with same shortcodes.
-
-Let's craft.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

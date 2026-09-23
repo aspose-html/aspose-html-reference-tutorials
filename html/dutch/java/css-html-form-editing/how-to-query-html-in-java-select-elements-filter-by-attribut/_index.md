@@ -25,8 +25,6 @@ title: Hoe HTML te queryen in Java – Selecteer elementen, filter op attribuut 
 url: /nl/java/css-html-form-editing/how-to-query-html-in-java-select-elements-filter-by-attribut/
 ---
 
-.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -25,16 +25,6 @@ title: Jak dotazovat HTML v Javě – Vybrat prvky, filtrovat podle atributu a z
 url: /cs/java/css-html-form-editing/how-to-query-html-in-java-select-elements-filter-by-attribut/
 ---
 
-.
-
-Also there are markdown blockquotes with >. Keep them and translate inside.
-
-Also there are lists.
-
-Make sure to keep markdown formatting.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

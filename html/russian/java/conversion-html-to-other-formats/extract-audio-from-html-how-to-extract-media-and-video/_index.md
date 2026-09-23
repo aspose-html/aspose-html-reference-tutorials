@@ -23,12 +23,6 @@ title: Извлечение аудио из HTML – Как извлекать �
 url: /ru/java/conversion-html-to-other-formats/extract-audio-from-html-how-to-extract-media-and-video/
 ---
 
-Совет профессионала". But it's inside blockquote with **Pro tip:**. Keep formatting.
-
-Also need to translate "Step 1 – Set Up the Aspose.HTML Dependency" etc.
-
-Let's produce.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

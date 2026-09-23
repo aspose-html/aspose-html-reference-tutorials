@@ -21,8 +21,6 @@ title: Cómo cargar HTML, establecer DPI del dispositivo y leer el color de fond
 url: /es/java/advanced-usage/how-to-load-html-set-device-dpi-read-background-color/
 ---
 
-final content with translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

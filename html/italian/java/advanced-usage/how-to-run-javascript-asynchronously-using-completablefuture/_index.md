@@ -24,9 +24,7 @@ title: Come eseguire JavaScript in modo asincrono usando CompletableFuture
 url: /it/java/advanced-usage/how-to-run-javascript-asynchronously-using-completablefuture/
 ---
 
-content.
-
-Let's produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

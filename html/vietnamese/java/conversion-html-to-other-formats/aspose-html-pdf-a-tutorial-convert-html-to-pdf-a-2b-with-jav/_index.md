@@ -25,7 +25,7 @@ title: 'Hướng dẫn Aspose HTML PDF/A: Chuyển đổi HTML sang PDF/A‑2b b
 url: /vi/java/conversion-html-to-other-formats/aspose-html-pdf-a-tutorial-convert-html-to-pdf-a-2b-with-jav/
 ---
 
-.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

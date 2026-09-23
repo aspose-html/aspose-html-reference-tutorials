@@ -22,8 +22,6 @@ title: 如何使用 CompletableFuture 异步运行 JavaScript
 url: /zh/java/advanced-usage/how-to-run-javascript-asynchronously-using-completablefuture/
 ---
 
-craft final output.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -19,7 +19,7 @@ title: 如何加载HTML、设置设备DPI并读取背景颜色
 url: /zh/java/advanced-usage/how-to-load-html-set-device-dpi-read-background-color/
 ---
 
-final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

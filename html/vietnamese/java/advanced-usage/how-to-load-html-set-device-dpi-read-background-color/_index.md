@@ -21,8 +21,6 @@ title: Cách tải HTML, thiết lập DPI thiết bị và đọc màu nền
 url: /vi/java/advanced-usage/how-to-load-html-set-device-dpi-read-background-color/
 ---
 
-markdown.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

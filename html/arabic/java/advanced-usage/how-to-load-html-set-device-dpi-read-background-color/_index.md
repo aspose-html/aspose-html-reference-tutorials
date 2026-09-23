@@ -21,9 +21,7 @@ title: كيفية تحميل HTML، ضبط DPI للجهاز وقراءة لون 
 url: /ar/java/advanced-usage/how-to-load-html-set-device-dpi-read-background-color/
 ---
 
-.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -24,8 +24,6 @@ title: Comment charger du HTML, définir le DPI de l’appareil et lire la coule
 url: /fr/java/advanced-usage/how-to-load-html-set-device-dpi-read-background-color/
 ---
 
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -22,9 +22,7 @@ title: HTML에서 오디오 추출 – 미디어와 비디오를 추출하는 �
 url: /ko/java/conversion-html-to-other-formats/extract-audio-from-html-how-to-extract-media-and-video/
 ---
 
-text not URL. Title is inside quotes, it's text. Good.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

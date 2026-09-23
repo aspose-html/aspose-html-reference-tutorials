@@ -22,16 +22,6 @@ title: Jak převést HTML na PDF pomocí Aspose HTML – Asynchronní průvodce 
 url: /cs/java/conversion-html-to-other-formats/how-to-convert-html-to-pdf-with-aspose-html-async-java-guide/
 ---
 
-=> translate (maybe incomplete sentence; we keep as is but translate).
-
-- Then closing shortcodes.
-
-Also there is a line: "{{< /blocks/products/pf/tutorial-page-section >}}" etc.
-
-We must keep them unchanged.
-
-Now produce final output.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

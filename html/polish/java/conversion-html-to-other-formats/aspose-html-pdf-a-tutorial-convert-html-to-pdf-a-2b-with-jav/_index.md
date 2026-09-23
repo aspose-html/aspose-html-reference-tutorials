@@ -25,7 +25,7 @@ title: 'Samouczek Aspose HTML PDF/A: Konwersja HTML do PDF/A‑2b w Javie'
 url: /pl/java/conversion-html-to-other-formats/aspose-html-pdf-a-tutorial-convert-html-to-pdf-a-2b-with-jav/
 ---
 
-final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

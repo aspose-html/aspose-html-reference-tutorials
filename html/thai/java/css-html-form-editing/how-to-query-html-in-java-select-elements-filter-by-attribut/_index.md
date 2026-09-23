@@ -22,16 +22,6 @@ title: วิธีสืบค้น HTML ด้วย Java – เลือก
 url: /th/java/css-html-form-editing/how-to-query-html-in-java-select-elements-filter-by-attribut/
 ---
 
-Java". Keep "query" maybe keep English? The phrase "query HTML" maybe keep as is. Could translate "วิธีการ query HTML". Good.
-
-Proceed.
-
-Paragraphs.
-
-Let's translate each.
-
-I'll produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
