@@ -1,0 +1,7 @@
+Title: Convert HTML to PDF with Aspose HTML for Java – Full Guide
+Slug: convert-html-to-pdf-with-aspose-html-for-java-full-guide
+Category: conversion-html-to-other-formats
+ProcessedDate: 2026-06-16T19:14:53.250288
+SourceRepo: AI Search API
+Keywords: convert html to pdf, activate smart shrinking, how to add white background pdf, set pdf background color
+PRNumber: 183

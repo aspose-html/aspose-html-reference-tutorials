@@ -1,0 +1,7 @@
+Title: How to search HTML with Aspose Java – Complete Programming Guide
+Slug: how-to-search-html-with-aspose-java-complete-programming-gui
+Category: creating-managing-html-documents
+ProcessedDate: 2026-05-25T20:44:52.019157
+SourceRepo: AI Search API
+Keywords: how to search html, search text in html, find word in html, how to count matches, how to get ranges
+PRNumber: 161

@@ -1,37 +1,55 @@
 ---
-title: EPUB'dan XPS'e Özel Akış Sağlayıcısını Belirleme
-linktitle: EPUB'dan XPS'e Özel Akış Sağlayıcısını Belirleme
-second_title: Aspose.HTML ile Java HTML İşleme
-description: Aspose.HTML for Java kullanarak EPUB'ı XPS'e zahmetsizce dönüştürün. Sorunsuz bir dönüştürme süreci için bu adım adım kılavuzu izleyin.
-weight: 11
+date: 2026-01-07
+description: Aspose.HTML for Java kullanarak EPUB'u XPS'ye zahmetsizce dönüştürün.
+  Sorunsuz bir dönüşüm süreci için bu adım adım kılavuzu izleyin.
+linktitle: How to Convert EPUB to XPS with a Custom Stream Provider
+second_title: Java HTML Processing with Aspose.HTML
+title: Özel Bir Akış Sağlayıcı ile EPUB'u XPS'e Nasıl Dönüştürülür
 url: /tr/java/converting-epub-to-xps/convert-epub-to-xps-specify-custom-stream-provider/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# EPUB'dan XPS'e Özel Akış Sağlayıcısını Belirleme
+# Özel Bir Akış Sağlayıcı ile EPUB'u XPS'ye Dönüştürme
 
-Günümüzün dijital çağında, EPUB dosyalarını XPS gibi diğer biçimlere dönüştürme ihtiyacı her zamankinden daha yaygındır. Java için Aspose.HTML, bunu zahmetsizce başarmanıza yardımcı olabilecek güçlü bir araçtır. Bu adım adım kılavuzda, Java için Aspose.HTML kullanarak bir EPUB dosyasını XPS'e nasıl dönüştüreceğinizi inceleyeceğiz. Ayrıntılara dalmadan önce, bu işlem için ihtiyaç duyacağınız ön koşulları gözden geçirelim.
+Günümüz dijital yayıncılık dünyasında **convert EPUB to XPS** yaygın bir gereksinimdir—ister baskı, arşivleme ya da Windows cihazları arasında paylaşım için sabit‑düzen bir temsil ihtiyacınız olsun. Aspose.HTML for Java bu dönüşümü sorunsuz bir şekilde gerçekleştirir ve özel bir bellek akışı sağlayıcı kullanarak tüm süreci bellekte tutabilirsiniz; bu, bulut‑tabanlı veya yüksek‑performanslı senaryolar için mükemmeldir. Aşağıda, ön koşullardan tam çalışan bir örneğe kadar ihtiyacınız olan her şeyi bulacaksınız.
 
-## Ön koşullar
+## Hızlı Yanıtlar
+- **Dönüşüm ne üretir?** Düzeni ve yazı tiplerini koruyan bir XPS belgesi.  
+- **Lisans gerekli mi?** Test için ücretsiz deneme yeterlidir; üretim için ticari lisans gerekir.  
+- **Bunu bir konteyner içinde çalıştırabilir miyim?** Evet—her şeyi bellekte tutarsanız dosya sistemi yazımı gerekmez.  
+- **Hangi Java sürümü destekleniyor?** Java 8 ve üzeri.  
+- **Özel bir akış sağlayıcı zorunlu mu?** Hayır, ancak bellek kullanımı ve çıktı yönetimi üzerinde tam kontrol sağlar.
 
-EPUB'ı XPS'e başarıyla dönüştürmek için aşağıdaki ön koşulların mevcut olduğundan emin olun:
+## “convert EPUB to XPS” nedir?
+Bir EPUB dosyasını XPS'ye dönüştürmek, yeniden akışlanabilir e‑kitap formatını sabit‑düzen, cihaz‑bağımsız bir belgeye çevirir. XPS (XML Paper Specification), Microsoft'un PDF'e karşılığıdır ve platformlar arasında değişmeyen görsel bir temsil gerektiğinde idealdir.
 
-### 1. Java Kütüphanesi için Aspose.HTML
+## Neden özel bir akış sağlayıcı kullanmalı?
+Özel bir `MemoryStreamProvider`, dönüşüm sonucunu geçici bir dosyaya yazmak yerine RAM'de tutmanıza olanak tanır. Bu yaklaşım:
+- G/Ç yükünü azaltır.
+- Sunucusuz veya mikro‑servis mimarilerinde performansı artırır.
+- Sonucu doğrudan bir istemciye, bulut depolamaya veya başka bir API'ye akıtma esnekliği sağlar.
 
- Java ortamınızda Aspose.HTML for Java kütüphanesinin yüklü ve yapılandırılmış olması gerekir. Henüz yüklemediyseniz, kütüphaneyi şu adresten indirebilirsiniz:[indirme bağlantısı](https://releases.aspose.com/html/java/).
+## Ön Koşullar
 
-### 2. EPUB Dosyasını Girin
+**convert EPUB to XPS** işlemini sorunsuz bir şekilde gerçekleştirmek için aşağıdaki ön koşulları sağlayın:
 
-XPS'e dönüştürmek istediğiniz mevcut bir EPUB dosyasına ihtiyacınız var. Bu dosyanın dönüştürme işlemi için hazır olduğundan emin olun.
+### 1. Aspose.HTML for Java Kütüphanesi  
 
-Artık tüm ön koşullara sahip olduğunuza göre, Aspose.HTML for Java kullanarak EPUB dosyanızı XPS'e nasıl dönüştüreceğinizi adım adım açıklayan kılavuza geçelim.
+Aspose.HTML for Java kütüphanesinin Java ortamınıza kurulu ve yapılandırılmış olması gerekir. Henüz indirmediyseniz, kütüphaneyi [download link](https://releases.aspose.com/html/java/) adresinden edinebilirsiniz.
 
-## Paketleri İçe Aktar
+### 2. Giriş EPUB Dosyası  
 
-Başlamadan önce, Aspose.HTML for Java'nın fonksiyonlarını kullanabilmek için gerekli paketleri içe aktardığınızdan emin olun.
+Dönüştürmek istediğiniz mevcut bir EPUB dosyasına ihtiyacınız var. Dönüşüm sürecine başlamadan bu dosyanın hazır olduğundan emin olun.
+
+Tüm ön koşulları tamamladığınıza göre, dönüşüm adımlarını adım adım inceleyelim.
+
+## Paketleri İçe Aktarma
+
+Başlamadan önce, Aspose.HTML for Java işlevlerini kullanabilmek için gerekli paketleri içe aktarın.
 
 ```java
 import com.aspose.html.converters.Converter;
@@ -42,29 +60,29 @@ import java.io.FileOutputStream;
 import java.io.InputStream;
 ```
 
-## EPUB Dosyasını Aç
+## EPUB Dosyasını Açma
 
- İlk olarak, mevcut EPUB dosyasını okumak için açmanız gerekir. Bu adımda, bir`FileInputStream` EPUB dosyasına erişmek için.
+Mevcut EPUB dosyasını okuma amaçlı açmanız gerekir. Bu adımda `FileInputStream` kullanarak EPUB dosyasına erişiyoruz.
 
 ```java
 try (FileInputStream fileInputStream = new FileInputStream("path/to/your/input.epub")) {
-    // 1. Adım için kodunuz
+    // Your code for Step 1
 }
 ```
 
-## MemoryStreamProvider'ı Oluştur
+## MemoryStreamProvider Oluşturma
 
- Daha sonra, bir örnek oluşturmalısınız`MemoryStreamProvider`. Bu EPUB'dan XPS'e dönüştürme işlemi için kullanılacaktır.
+Sonra bir `MemoryStreamProvider` örneği oluşturun. Bu nesne dönüşüm çıktısını bellek içinde tutacaktır.
 
 ```java
 try (MemoryStreamProvider streamProvider = new MemoryStreamProvider()) {
-    // 2. Adım için kodunuz
+    // Your code for Step 2
 }
 ```
 
-## EPUB'ı XPS'e dönüştür
+## EPUB'u XPS'ye Dönüştürme
 
- Şimdi EPUB dosyasını XPS'e dönüştürelim`Converter.convertEPUB` yöntem.
+Şimdi `Converter.convertEPUB` metodunu kullanarak EPUB dosyasını XPS'ye dönüştürün. `MemoryStreamProvider` hedef akışı sağlar.
 
 ```java
 Converter.convertEPUB(
@@ -74,17 +92,17 @@ Converter.convertEPUB(
 );
 ```
 
-## Sonuç Verilerini Alın
+## Sonuç Verisini Alma
 
-Dönüştürme tamamlandıktan sonra, ortaya çıkan XPS verilerini içeren bellek akışına erişebilirsiniz.
+Dönüşüm tamamlandıktan sonra XPS verisini içeren bellek akışını alın.
 
 ```java
 InputStream inputStream = streamProvider.getStream().findFirst().get();
 ```
 
-## Çıktıyı Kaydet
+## Çıktıyı Kaydetme (İsteğe Bağlı)
 
-Dönüştürmeyi tamamlamak için sonuç verilerini bir çıktı dosyasına aktarmalısınız. Bu örnekte, bunu "output.xps" olarak kaydediyoruz.
+Fiziksel bir dosyaya ihtiyaç duyarsanız—örneğin hata ayıklama veya çevrimdışı inceleme için—bellek akışını diske yazabilirsiniz. Çoğu üretim senaryosunda bu adımı atlayıp veriyi doğrudan istemciye akıtabilirsiniz.
 
 ```java
 try (FileOutputStream fileOutputStream = new FileOutputStream("path/to/your/output.xps")) {
@@ -94,23 +112,24 @@ try (FileOutputStream fileOutputStream = new FileOutputStream("path/to/your/outp
 }
 ```
 
-Bu beş adımla, Aspose.HTML for Java'yı kullanarak EPUB dosyanızı başarıyla XPS'e dönüştürmüş oldunuz.
-
 ## Tam Kaynak Kodu
+
+Aşağıda tüm parçaları bir araya getiren, çalıştırılabilir tam örnek yer almaktadır. Kopyalayıp projenize uyarlamaktan çekinmeyin.
+
 ```java
-        // Mevcut bir EPUB dosyasını okumak için açın.
+        // Open an existing EPUB file for reading.
         try (java.io.FileInputStream fileInputStream = new java.io.FileInputStream(Resources.input("input.epub"))) {
-            // MemoryStreamProvider'ın bir örneğini oluşturun
+            // Create an instance of MemoryStreamProvider
             try (MemoryStreamProvider streamProvider = new MemoryStreamProvider()) {
-                // MemoryStreamProvider'ı kullanarak EPUB'ı XPS'e dönüştürün
+                // Convert EPUB to XPS by using the MemoryStreamProvider
                 com.aspose.html.converters.Converter.convertEPUB(
                         fileInputStream,
                         new com.aspose.html.saving.XpsSaveOptions(),
                         streamProvider.lStream
                 );
-                // Sonuçlanan verileri içeren bellek akışına erişin
+                // Get access to the memory stream that contains the resulted data
                 java.io.InputStream inputStream = streamProvider.lStream.stream().findFirst().get();
-                // Sonuç verilerini çıktı dosyasına aktarın
+                // Flush the result data to the output file
                 try (java.io.FileOutputStream fileOutputStream = new java.io.FileOutputStream(Resources.output("output.xps"))) {
                     byte[] buffer = new byte[inputStream.available()];
                     inputStream.read(buffer);
@@ -120,35 +139,41 @@ Bu beş adımla, Aspose.HTML for Java'yı kullanarak EPUB dosyanızı başarıyl
         }
 ```
 
-## Çözüm
+## Yaygın Sorunlar ve Çözümler
 
-EPUB'ı XPS'e dönüştürmek günümüzün dijital ortamında değerli bir beceridir. Java için Aspose.HTML süreci basitleştirir, verimli ve güvenilir hale getirir. Bu kılavuzda özetlenen adımları izleyerek bu dönüşümü kolayca gerçekleştirebilirsiniz.
+| Sorun | Neden Oluşur | Çözüm |
+|-------|--------------|------|
+| **`java.lang.OutOfMemoryError`** | Büyük EPUB dosyaları, tamamen bellek içinde tutulduğunda varsayılan yığın boyutunu aşabilir. | JVM yığın boyutunu (`-Xmx`) artırın veya mümkünse EPUB'u parçalara bölerek işleyin. |
+| **XPS'te eksik yazı tipleri** | EPUB içinde gömülü olmayan yazı tipleri dönüşüm makinesinde mevcut değildir. | Gerekli yazı tiplerinin sunucuda kurulu olduğundan emin olun veya EPUB'a gömün. |
+| **`MemoryStreamProvider`'dan `UnsupportedOperationException`** | Eski bir Aspose.HTML sürümü kullanılıyor. | Aspose.HTML for Java'nın en son sürümüne güncelleyin. |
 
-Şimdi konuyu daha da netleştirmek için sıkça sorulan sorulara bir göz atalım.
-
-## SSS
+## Sık Sorulan Sorular
 
 ### 1. EPUB nedir?
 
-EPUB, Elektronik Yayın anlamına gelen kısaltmasıyla, eKitaplar için yaygın olarak kullanılan bir dosya biçimidir. eOkuyucular, tabletler ve akıllı telefonlar gibi çeşitli cihazlarda kolayca okunabilecek şekilde tasarlanmıştır.
+EPUB, Electronic Publication (Elektronik Yayın) kısaltmasıdır ve e‑kitaplar için yaygın olarak kullanılan bir dosya formatıdır. Çeşitli cihazlarda—e‑okuyucular, tabletler, akıllı telefonlar—kolayca okunacak şekilde tasarlanmıştır.
 
-### 2. XPS Nedir?
+### 2. XPS nedir?
 
-XPS, Microsoft tarafından oluşturulan bir belge biçimi olan XML Paper Specification'ın kısaltmasıdır. Belgeleri tutarlı bir görünüm ve düzen ile paylaşmak ve arşivlemek için kullanılır.
+XPS, XML Paper Specification (XML Kağıt Spesifikasyonu) anlamına gelir ve Microsoft tarafından oluşturulmuş bir belge formatıdır. Tutarlı görünüm ve düzenle belge paylaşımı ve arşivleme için kullanılır.
 
-### 3. Java için Aspose.HTML neden kullanılır?
+### 3. Neden Aspose.HTML for Java kullanılmalı?
 
-Java için Aspose.HTML, belge düzenleme, dönüştürme ve işleme görevlerini basitleştiren güçlü bir kütüphanedir. Çeşitli belge biçimleri için kapsamlı özellikler ve destek sağlar ve bu da onu geliştiriciler için değerli bir araç haline getirir.
+Aspose.HTML for Java, belge manipülasyonu, dönüşüm ve render işlemlerini basitleştiren güçlü bir kütüphanedir. Çok çeşitli belge formatları için kapsamlı özellikler ve destek sunar; bu da geliştiriciler için değerli bir araçtır.
 
-### 4. Aspose.HTML for Java'yı kullanarak diğer belge biçimlerini dönüştürebilir miyim?
+### 4. Aspose.HTML for Java ile başka belge formatları da dönüştürülebilir mi?
 
-Evet, Aspose.HTML for Java, HTML, EPUB, XPS ve daha fazlası dahil olmak üzere çeşitli belge biçimlerinin dönüştürülmesini destekler. Belge yönetimi için çok yönlü bir araçtır.
+Evet, Aspose.HTML for Java HTML, EPUB, XPS ve daha fazlası dahil olmak üzere çeşitli belge formatlarının dönüşümünü destekler. Belgelerin yönetimi için çok yönlü bir araçtır.
 
-### 5. Ek kaynakları ve desteği nerede bulabilirim?
+### 5. Ek kaynaklar ve destek nereden bulunabilir?
 
- Belgeler ve destek için şu adresi ziyaret edin:[Java için Aspose.HTML belgeleri](https://reference.aspose.com/html/java/) Ve[destek forumu](https://forum.aspose.com/).
+Dokümantasyon ve destek için [Aspose.HTML for Java documentation](https://reference.aspose.com/html/java/) ve [support forum](https://forum.aspose.com/) adreslerini ziyaret edin.
 
+---
 
+**Son Güncelleme:** 2026-01-07  
+**Test Edilen Sürüm:** Aspose.HTML for Java 24.12 (yazım anındaki en yeni sürüm)  
+**Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

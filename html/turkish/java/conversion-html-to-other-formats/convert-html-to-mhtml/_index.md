@@ -1,8 +1,8 @@
 ---
-date: 2025-12-17
+date: 2026-02-28
 description: Aspose.HTML for Java kullanarak HTML'yi MHTML'ye nasıl dönüştüreceğinizi
-  öğrenin – HTML'yi dönüştürme, HTML'yi MHTML olarak kaydetme ve Java'da HTML belgesi
-  yükleme konularını kapsayan adım adım bir rehber.
+  öğrenin – HTML'yi nasıl dönüştüreceğinizi, HTML'yi MHTML olarak nasıl kaydedeceğinizi
+  ve Java'da HTML belgesini nasıl yükleyeceğinizi kapsayan adım adım bir rehber.
 linktitle: Converting HTML to MHTML
 second_title: Java HTML Processing with Aspose.HTML
 title: Aspose.HTML for Java ile HTML'yi MHTML'ye Nasıl Dönüştürülür
@@ -14,32 +14,32 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.HTML for Java ile HTML'yi MHTML'ye Nasıl Dönüştürülür
+# HTML'yi MHTML'ye Aspose.HTML for Java ile Nasıl Dönüştürülür
 
-HTML'yi MHTML'ye dönüştürmek, bir HTML sayfasını ve tüm kaynaklarını (görseller, CSS, betikler) içeren tek, taşınabilir bir dosyaya ihtiyacınız olduğunda yaygın bir gereksinimdir. Bu öğreticide **HTML'yi MHTML'ye nasıl dönüştüreceğinizi** Aspose.HTML for Java kullanarak öğrenecek, **HTML'yi MHTML olarak nasıl kaydedeceğinizi** görecek ve **HTML belgesini Java tarzında nasıl yükleyeceğinizi** keşfedeceksiniz. Web sayfalarını arşivliyor, e‑posta için hazır içerik üretiyor ya da bir raporlama hattı oluşturuyorsanız, aşağıdaki adımlar sizi hızlıca hedefe ulaştıracak.
+HTML'yi MHTML'ye dönüştürmek, bir HTML sayfasını tüm kaynakları (görseller, CSS, betikler) ile birlikte tek, taşınabilir bir dosyada tutmanız gerektiğinde yaygın bir gereksinimdir. Bu öğreticide **HTML'yi MHTML'ye nasıl dönüştüreceğinizi** Aspose.HTML for Java kullanarak öğrenecek, **HTML'yi MHTML olarak kaydetmeyi** görecek ve **HTML belge Java**‑tarzı yüklemenin en iyi yolunu keşfedeceksiniz. Web sayfalarını arşivlemek, e‑posta‑hazır içerik üretmek veya bir raporlama hattı oluşturmak isterken, aşağıdaki adımlar sizi hızlıca hedefe ulaştıracak.
 
 ## Hızlı Yanıtlar
-- **Birincil kütüphane nedir?** Aspose.HTML for Java
-- **Uygulama ne kadar sürer?** Temel bir dönüşüm için yaklaşık 10‑15 dakika
-- **Lisans gerekli mi?** Test için geçici bir lisans yeterlidir; üretim için tam lisans gerekir
-- **Dosyaları toplu işleyebilir miyim?** Evet – kodu bir döngü içinde sarın ve aynı seçenekleri yeniden kullanın
+- **Birincil kütüphane nedir?** Aspose.HTML for Java  
+- **Uygulama ne kadar sürer?** Temel bir dönüşüm için yaklaşık 10‑15 dakika  
+- **Lisans gerekiyor mu?** Test için geçici bir lisans yeterlidir; üretim için tam lisans gerekir  
+- **Dosyaları toplu‑işlem yapabilir miyim?** Evet – kodu bir döngü içinde sarın ve aynı seçenekleri yeniden kullanın  
 - **Desteklenen çıktı?** MHTML (`.mht`), ayrıca PDF, PNG vb. diğer formatlar
 
 ## HTML'den MHTML'ye Dönüşüm Nedir?
-MHTML (MHT olarak da bilinir), bir HTML sayfasını ve tüm dış kaynaklarını tek bir MIME‑kodlu dosyada birleştirir. Bu, belgeyi kendi içinde tutarlı hâle getirir; çevrim dışı görüntüleme veya e‑posta ekleri için mükemmeldir.
+MHTML (MHT olarak da bilinir), bir HTML sayfasını ve tüm dış kaynaklarını tek bir MIME‑kodlu dosyada birleştirir. Bu, belgeyi kendi içinde tutarlı hâle getirir; çevrimdışı görüntüleme veya e‑posta ekleri için mükemmeldir.
 
 ## Neden Aspose.HTML for Java Kullanmalı?
-- **Kaynak yönetimi üzerinde tam kontrol** (dönüştürücünün ne kadar derine gideceğini siz belirlersiniz)
-- **Harici tarayıcı gerektirmez** – dönüşüm tamamen JVM üzerinde çalışır
-- **Yüksek doğruluk** – oluşan MHTML, tarayıcıdaki orijinal sayfa ile birebir aynı görünür
-- **Ölçeklenebilir** – tek sayfalardan büyük toplu işlere kadar uygundur
+- **Kaynak yönetimi üzerinde tam kontrol** (dönüştürücünün ne kadar derine linkleri takip edeceğini siz belirlersiniz)  
+- **Harici tarayıcı gerektirmez** – dönüşüm tamamen JVM üzerinde çalışır  
+- **Yüksek doğruluk** – ortaya çıkan MHTML, tarayıcıdaki orijinal sayfa ile aynı görünür  
+- **Ölçeklenebilir** – tek sayfalardan büyük toplu işlere kadar uygundur  
 
-## Ön Koşullar
+## Önkoşullar
 
 Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
-1. **Java Geliştirme Ortamı** – yüklü bir JDK. İndirmek için [Oracle'ın web sitesini](https://www.oracle.com/java/technologies/javase-downloads.html) ziyaret edin.
-2. **Aspose.HTML for Java** – kütüphaneyi [Aspose.HTML for Java belgelerinden](https://reference.aspose.com/html/java/) edinin.
+1. **Java Geliştirme Ortamı** – yüklü bir JDK. İndirmek için [Oracle'ın web sitesini](https://www.oracle.com/java/technologies/javase-downloads.html) ziyaret edin.  
+2. **Aspose.HTML for Java** – kütüphaneyi [Aspose.HTML for Java belgelerinden](https://reference.aspose.com/html/java/) edinin.  
 3. **HTML Belgesi** – **HTML'yi MHTML olarak kaydetmek** istediğiniz dosya. Yerel bir `.html` dosyası ya da çalışma zamanında ürettiğiniz bir sayfa olabilir.
 
 Temel bilgiler tamam, şimdi koda dalalım.
@@ -63,7 +63,7 @@ import com.aspose.html.saving.MHTMLResourceHandlingOptions;
 HTMLDocument htmlDocument = new HTMLDocument("path_to_your_html_file.html");
 ```
 
-Burada **HTML belgesini Java tarzında** dosya yolunu vererek yüklüyoruz. `HTMLDocument` sınıfı işaretlemi ayrıştırır ve dönüşüm için hazır hâle getirir.
+Burada **HTML belge Java**‑tarzı dosya yolunu vererek **HTML belgesini yükler**iz. `HTMLDocument` sınıfı işaretlemi ayrıştırır ve dönüşüm için hazırlar.
 
 ### Adım 2: MHTML Kaydetme Seçeneklerini Başlatın
 
@@ -80,15 +80,15 @@ MHTMLResourceHandlingOptions resourceHandlingOptions = options.getResourceHandli
 resourceHandlingOptions.setMaxHandlingDepth(1);
 ```
 
-Dönüştürücünün bağlantılı kaynakları ne kadar derine izleyeceğini kontrol edebilirsiniz. Derinliği `1` olarak ayarlamak, yalnızca doğrudan kaynakları (görseller, CSS) ekler ve çıktı boyutunu makul tutar.
+Dönüştürücünün linkli kaynakları ne kadar derine takip edeceğini kontrol edebilirsiniz. Derinliği `1` olarak ayarlamak, yalnızca doğrudan kaynakları (görseller, CSS) gömmeyi sağlar ve çıktı boyutunu makul tutar.
 
-### Adım 4: Çıktı Yolunu Belirleyin
+### Adım 4: Çıktı Yolunu Belirtin
 
 ```java
 String outputMHTML = "path_to_output_mhtml_file.mht";
 ```
 
-Oluşturulan **MHTML** dosyasının kaydedileceği yeri seçin.
+Oluşturulan **MHTML** dosyasının nereye kaydedileceğini seçin.
 
 ### Adım 5: Dönüşümü Gerçekleştirin
 
@@ -96,62 +96,59 @@ Oluşturulan **MHTML** dosyasının kaydedileceği yeri seçin.
 Converter.convertHTML(htmlDocument, options, outputMHTML);
 ```
 
-Statik `convertHTML` metodu işi halleder: `HTMLDocument`i okur, `options`ı uygular ve MHTML dosyasını `outputMHTML`e yazar.
+Statik `convertHTML` metodu işi halleder: `HTMLDocument`i okur, `options`ı uygular ve MHTML dosyasını `outputMHTML` konumuna yazar.
 
-> **İpucu:** Birden çok dosyayı dönüştürmeniz gerekiyorsa, `MHTMLSaveOptions` nesnesini bir kez oluşturup bir döngü içinde yeniden kullanarak performansı artırın.
+> **Pro ipucu:** Birden çok dosya dönüştürmeniz gerekiyorsa, `MHTMLSaveOptions` nesnesini bir kez oluşturup bir döngü içinde yeniden kullanarak performansı artırın.
 
-Tebrikler! Aspose.HTML for Java kullanarak **HTML'yi MHTML'ye başarıyla dönüştürdünüz**.
+## HTML'yi PDF'ye Dönüştürme (java html to pdf) – Kısa Bir Not
+
+Aspose.HTML for Java sadece MHTML ile sınırlı değildir. PDF üretmeniz gerekiyorsa, `MHTMLSaveOptions` yerine `PdfSaveOptions` kullanın ve aynı `Converter.convertHTML` metodunu çağırın. Bu esneklik, **java html to pdf** dönüşümlerini ekstra kütüphane eklemeden yapmanızı sağlar.
 
 ## Yaygın Sorunlar ve Çözümler
 
 | Sorun | Çözüm |
 |-------|----------|
-| **MHTML dosyasında eksik görseller** | `setMaxHandlingDepth` değerini yeterince yüksek tutun ya da `resourceHandlingOptions.getAdditionalResources()` ile manuel ekleme yapın |
+| **MHTML dosyasında eksik görseller** | `setMaxHandlingDepth` değerini yeterince yüksek tutun ya da `resourceHandlingOptions.getAdditionalResources()` ile manuel ekleyin |
 | **Desteklenmeyen CSS özellikleri** | Aspose.HTML HTML5/CSS3 standartlarını izler; eski ya da özel CSS göz ardı edilebilir. Stil sayfasını sadeleştirin veya stilleri doğrudan HTML içine gömün |
-| **LicenseException çalışma zamanında** | Geliştirme sırasında geçici bir lisans uygulayın: `License license = new License(); license.setLicense("Aspose.HTML.Java.lic");` |
+| **Çalışma zamanında LicenseException** | Geliştirme sırasında geçici bir lisans uygulayın: `License license = new License(); license.setLicense("Aspose.HTML.Java.lic");` |
 
-## SSS'ler
+## Sıkça Sorulan Sorular
 
-### S1: MHTML nedir ve neden kullanılır?
+**S1: MHTML nedir ve neden kullanılır?**  
+C1: MHTML (MIME HTML), bir HTML sayfasını ve tüm kaynaklarını (görseller, stiller, betikler) tek bir dosyada birleştiren bir formattır. Web sayfalarını arşivlemek veya kendine yeten içerikleri e‑posta ile göndermek için idealdir.
 
-MHTML (MIME HTML), bir HTML sayfasını ve tüm kaynaklarını (görseller, stiller, betikler) tek bir dosyada birleştiren bir formattır. Web sayfalarını arşivlemek ya da kendine yeterli içerikleri e‑posta ile göndermek için idealdir.
+**S2: Aspose.HTML for Java'da kaynak yönetimi kurallarını özelleştirebilir miyim?**  
+C2: Evet, Aspose.HTML for Java, dönüşüm sırasında kaynakların nasıl ele alınacağını kontrol etmenize izin verir.
 
-### S2: Aspose.HTML for Java'da kaynak yönetimi kurallarını özelleştirebilir miyim?
+**S3: Aspose.HTML for Java toplu dönüşümler için uygun mu?**  
+C3: Evet, Aspose.HTML for Java toplu dönüşümler için kullanılabilir; bu da birden çok HTML‑den‑MHTML dönüşümünü yönetmek için çok yönlü bir araçtır.
 
-Evet, Aspose.HTML for Java kaynak yönetimi kurallarını özelleştirmenize izin verir; böylece dönüşüm sırasında kaynakların nasıl ele alınacağını kontrol edebilirsiniz.
+**S4: Aspose.HTML for Java’yı diğer dönüşüm araçlarına göre tercih etmemin avantajları nelerdir?**  
+C4: Aspose.HTML for Java, gelişmiş özellikler, kaynak yönetimi ve özelleştirme seçenekleri sunar; bu da HTML'den MHTML dönüşümleri için sağlam bir seçim yapar.
 
-### S3: Aspose.HTML for Java toplu dönüşümler için uygun mu?
+**S5: Aspose.HTML for Java için geçici bir lisans nasıl alınır?**  
+C5: Geçici lisansı [buradan](https://purchase.aspose.com/temporary-license/) edinebilirsiniz.
 
-Evet, Aspose.HTML for Java toplu dönüşümler için kullanılabilir; bu da birden çok HTML‑den‑MHTML dönüşümünü yönetmek için çok yönlü bir araçtır.
-
-### S4: Aspose.HTML for Java diğer dönüşüm araçlarına göre ne avantajlar sağlar?
-
-Aspose.HTML for Java gelişmiş özellikler, kaynak yönetimi ve özelleştirme seçenekleri sunar; bu da HTML'den MHTML'ye dönüşüm için sağlam bir tercih yapar.
-
-### S5: Aspose.HTML for Java için geçici bir lisans nasıl alınır?
-
-Geçici bir lisansı [buradan](https://purchase.aspose.com/temporary-license/) edinebilirsiniz.
-
-**Ek Sık Sorulan Sorular**
+**Ek Sıkça Sorulan Sorular**
 
 **S: Uzaktaki bir URL'yi doğrudan, kaydetmeden dönüştürebilir miyim?**  
 C: Evet – URL'yi `HTMLDocument` yapıcısına (ör. `new HTMLDocument("https://example.com")`) geçirirsiniz, kütüphane sayfayı otomatik olarak çeker.
 
 **S: Dönüştürücü JavaScript çalıştırmasını korur mu?**  
-C: Hayır. Dönüşüm statik işaretleme ve kaynakları yakalar; çalışma zamanında JavaScript ile oluşturulan dinamik içerik yürütülmez.
+C: Hayır. Dönüşüm statik işaretleme ve kaynakları yakalar; çalışma zamanında JavaScript ile oluşturulan dinamik içerik çalıştırılmaz.
 
 **S: Hangi Java sürümleri destekleniyor?**  
-C: Aspose.HTML for Java, Java 8 ve sonraki sürümleri destekler.
+C: Aspose.HTML for Java, Java 8 ve üzeri sürümleri destekler.
 
 ## Sonuç
 
-Artık Aspose.HTML for Java ile **HTML'yi MHTML'ye nasıl dönüştüreceğinize** dair eksiksiz, üretim‑hazır bir tarifiniz var. Yukarıdaki adımları uygulayarak dönüşümü uygulamalarınıza entegre edebilir, toplu işleri otomatikleştirebilir veya basit bir arşiv aracı oluşturabilirsiniz. Daha derin özelleştirmeler için tam API referansına göz atın ve PDF ya da PNG gibi diğer çıktı formatlarını da deneyin.
+Artık Aspose.HTML for Java ile **html'yi mhtml'ye nasıl dönüştüreceğiniz** konusunda eksiksiz, üretim‑hazır bir tarifiniz var. Yukarıdaki adımları uygulayarak dönüşümü uygulamalarınıza entegre edebilir, toplu işleri otomatikleştirebilir veya basit bir arşiv aracı oluşturabilirsiniz. Daha derin özelleştirmeler için tam API referansına göz atın ve PDF ya da PNG gibi diğer çıktı formatlarını deneyin.
 
-**İlgili Kaynaklar:** [Aspose.HTML for Java belgeleri](https://reference.aspose.com/html/java/) | [Aspose topluluk forumları](https://forum.aspose.com/)
+**İlgili Kaynaklar:** [Aspose.HTML for Java documentation](https://reference.aspose.com/html/java/) | [Aspose community forums](https://forum.aspose.com/)
 
 ---
 
-**Son Güncelleme:** 2025-12-17  
+**Son Güncelleme:** 2026-02-28  
 **Test Edilen Sürüm:** Aspose.HTML for Java 24.10  
 **Yazar:** Aspose  
 
