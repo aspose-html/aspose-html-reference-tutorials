@@ -1,11 +1,59 @@
 ---
-date: 2026-03-18
-description: Tanulja meg, hogyan állíthatja be a PDF oldal méretét, hogyan renderelhet
-  HTML-t PDF-be, és hogyan generálhat PDF-et HTML-ből az Aspose.HTML for Java használatával.
-  Könnyedén szabályozhatja az oldal méreteit.
-linktitle: Adjusting PDF Page Size
+date: 2026-08-28
+description: Állítsa be a pdf oldalméretet az Aspose.HTML for Java segítségével, hogy
+  a PDF méreteket szabályozhassa HTML renderelésekor, egyedi pdf méreteket állítson
+  be, és hatékonyan generáljon PDF-et HTML-ből.
+keywords:
+- adjust pdf page size
+- custom pdf dimensions
+- render html to pdf
+- generate pdf from html
+- pdf page size a4
+lastmod: 2026-08-28
+linktitle: PDF oldalméret beállítása
+og_description: Állítsa be a pdf oldalméretet az Aspose.HTML for Java segítségével,
+  hogy a PDF méreteket szabályozhassa HTML renderelésekor. Ismerje meg, hogyan állíthat
+  be egyedi pdf méreteket, használhatja a render html to pdf funkciót, és hatékonyan
+  generálhat pdf-et html-ből.
+og_image_alt: Developer guide showing how to adjust PDF page size using Aspose.HTML
+  for Java
+og_title: pdf oldalméret beállítása az Aspose.HTML for Java segítségével
+schemas:
+- author: Aspose
+  dateModified: '2026-08-28'
+  description: Adjust pdf page size with Aspose.HTML for Java to control PDF dimensions
+    when rendering HTML, set custom pdf dimensions, and generate PDF from HTML efficiently.
+  headline: Adjust pdf page size with Aspose.HTML for Java
+  type: TechArticle
+- questions:
+  - answer: It is a Java library that lets you create, edit, and render HTML documents,
+      including conversion to PDF, PNG, and other formats.
+    question: What is Aspose.HTML for Java?
+  - answer: Use the `PageSetup` class and set `AdjustToWidestPage` to `true` (auto‑size)
+      or `false` (fixed size). Then assign the desired `Size` via `new Page(new Size(width,
+      height))`.
+    question: How can I adjust the pdf page size when converting HTML to PDF with
+      Aspose.HTML for Java?
+  - answer: Yes – you can inject CSS, modify the DOM, or reference external style
+      sheets. The tutorial demonstrates inline CSS injection, but any valid stylesheet
+      works.
+    question: Can I customize the styling of HTML content before converting it to
+      PDF?
+  - answer: Comprehensive docs are available [Aspose.HTML for Java documentation](https://reference.aspose.com/html/java/).
+      See the [API Reference](https://reference.aspose.com/html/java/) for detailed
+      class info.
+    question: Where can I find the documentation for Aspose.HTML for Java?
+  - answer: Absolutely – download a trial from the [Download Free Trial](https://releases.aspose.com/html/java/).
+    question: Is there a free trial available for Aspose.HTML for Java?
+  type: FAQPage
 second_title: Java HTML Processing with Aspose.HTML
-title: PDF oldalméret beállítása az Aspose.HTML for Java segítségével
+tags:
+- adjust pdf page size
+- custom pdf dimensions
+- render html to pdf
+- generate pdf from html
+- Aspose.HTML Java
+title: pdf oldalméret beállítása az Aspose.HTML for Java segítségével
 url: /hu/java/advanced-usage/adjust-pdf-page-size/
 weight: 15
 ---
@@ -14,38 +62,34 @@ weight: 15
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# PDF oldalméret módosítása Aspose.HTML for Java segítségével
+# PDF oldalméret beállítása Aspose.HTML for Java használatával
 
-A HTML‑ből PDF‑t generálni gyakori igény jelentések, számlák és e‑könyvek esetén. Amikor **PDF oldalméretet módosítasz**, biztosítod, hogy a végső dokumentum megegyezzen a HTML‑ben megtervezett elrendezéssel. Ebben az útmutatóban megtanulod, hogyan rendereld a HTML‑t PDF‑be, állíts be egyedi méreteket, és szabályozd, hogy az oldal automatikusan szélesebb legyen a legszélesebb tartalomhoz. Egy komplett, gyakorlati példán keresztül mutatjuk be az Aspose.HTML for Java használatát, hogy magabiztosan **megváltoztathasd a PDF oldalméreteket** saját projektjeidben.
+A HTML‑ből PDF‑eket generálni gyakori igény számlák, jelentések, e‑könyvek és megfelelőségi dokumentumok esetén. Amikor **adjust pdf page size**‑t alkalmazol, biztosítod, hogy a végleges PDF megegyezzen a HTML‑ben megtervezett elrendezéssel, elkerülve a levágott tartalmat vagy a nem kívánt üres helyeket. Ebben az oktatóanyagban megtanulod, hogyan renderelj HTML‑t PDF‑be, állíts be egyedi PDF‑dimenziókat, és szabályozd, hogy az oldal automatikusan a legszélesebb elemhez nyúljon-e. Egy komplett, gyakorlati példán keresztül mutatjuk be az Aspose.HTML for Java használatát, hogy magabiztosan módosíthasd a PDF oldalméreteket saját projektjeidben.
 
 ## Gyors válaszok
-- **Mit jelent a „PDF oldalméret módosítása”?** Lehetővé teszi, hogy meghatározd minden PDF oldal szélességét és magasságát, vagy hogy a renderelő automatikusan a legszélesebb elemet illessze.
-- **Melyik könyvtárat használjuk?** Aspose.HTML for Java (legújabb verzió).
-- **Szükségem van licencre?** Fejlesztéshez egy ingyenes próba verzió működik; termeléshez kereskedelmi licenc szükséges.
-- **Programozottan változtathatom a méreteket?** Igen – használd a `PageSetup`‑ot és az `AdjustToWidestPage` tulajdonságot.
-- **Kompatibilis Java 8+ verzióval?** Teljesen – az API bármely JDK 8 vagy újabb verzióval működik.
+- **Mi jelentése a „adjust pdf page size” kifejezésnek?** Lehetővé teszi, hogy meghatározd minden PDF oldal szélességét és magasságát, vagy hogy a renderelő automatikusan a legszélesebb elemhez igazítsa.  
+- **Melyik könyvtár használatos?** Aspose.HTML for Java (legújabb verzió).  
+- **Szükségem van licencre?** Egy ingyenes próba verzió fejlesztéshez megfelelő; a termeléshez kereskedelmi licenc szükséges.  
+- **Módosíthatom a méreteket programozottan?** Igen – használd a `PageSetup` és az `AdjustToWidestPage` tulajdonságot.  
+- **Kompatibilis-e a Java 8+ verzióval?** Teljesen – az API minden JDK 8 vagy újabb verzióval működik.
 
-## Mi az a „PDF oldalméret módosítása”?
-A PDF oldalméret módosítása azt jelenti, hogy beállítod a HTML renderelő által létrehozott minden oldal méretét. Beállíthatsz fix méretet (pl. A4, Letter), vagy hagyhatod, hogy a renderelő a tartalom alapján számolja ki az optimális szélességet. Ez pontos kontrollt biztosít az elrendezés, a lapozás és a vizuális hűség felett.
+## Mi a „adjust pdf page size”?
+A PDF oldalméret beállítása azt jelenti, hogy konfigurálod az egyes oldalak méreteit, amelyeket a HTML renderelő létrehoz. Beállíthatsz fix méretet (pl. A4, Letter), vagy hagyhatod, hogy a renderelő a tartalom alapján számolja ki az optimális szélességet. Ez pontos irányítást ad az elrendezés, a lapozás és a vizuális hűség felett.
 
-## Miért érdemes PDF oldalméretet módosítani HTML‑ról PDF‑re konvertáláskor?
-- **A tervezési szándék megőrzése:** Megakadályozza, hogy a tartalom levágódjon vagy nyúljon.
-- **Nyomtatásra optimalizálás:** Illeszkedik a downstream folyamatok által megkövetelt papírmérethez.
-- **Olvashatóság javítása:** Elkerüli a túlzott fehér helyet vagy a zsúfolt szöveget.
-- **Dinamikus dokumentumok:** Automatikusan illeszkedik a széles táblázatokhoz vagy képekhez manuális számítások nélkül.
+## Miért érdemes pdf oldalméretet beállítani HTML‑ről PDF‑re konvertáláskor?
+A PDF oldalméret beállítása biztosítja, hogy a PDF kimenet tiszteletben tartsa az eredeti tervezési szándékot, helyesen nyomtatható legyen a célpapíron, és olvasható maradjon a képernyőn. A fix méretű oldalak megakadályozzák a széles táblázatok véletlen levágását, míg a dinamikus méretezés megszünteti a felesleges üres helyet a rövid szakaszoknál. Az eredmény egy professzionális megjelenésű dokumentum, amely megfelel a márka- és szabályozási követelményeknek is.
 
-## Mikor használjuk a „render HTML to PDF” kifejezést a „generate PDF from HTML” helyett
-Mindkét kifejezés ugyanazt a konverziós folyamatot írja le, de a megfogalmazás számít a keresőoptimalizálás szempontjából. Használd a **render HTML to PDF**‑t, ha a renderelő motorra helyezed a hangsúlyt, és a **generate PDF from HTML**‑t, ha a végeredményre fókuszálsz. Ebben az útmutatóban mindkét forgatókönyvet bemutatjuk.
+## Mikor használjuk a „render html to pdf” kifejezést a „generate pdf from html” helyett?
+Használd a **render html to pdf** kifejezést, ha a renderelő motor szerepét szeretnéd hangsúlyozni a CSS, JavaScript és elrendezési szabályok értelmezésében. Válaszd a **generate pdf from html** kifejezést, ha a végtermék – a PDF fájl – a fókusz. Mindkét kifejezés ugyanazt a konverziós folyamatot írja le, de a megfogalmazás befolyásolhatja, hogyan találják meg a fejlesztők az oktatóanyagot a keresés során.
 
 ## Előfeltételek
-Mielőtt elkezdenéd, győződj meg róla, hogy:
-
-- **Java Development Kit (JDK) 8 vagy újabb** telepítve van a gépeden.  
-- **Aspose.HTML for Java** – töltsd le a legújabb JAR‑t a [hivatalos kiadási oldalról](https://releases.aspose.com/html/java/).  
-- **Egy HTML fájl**, amelyet konvertálni szeretnél (a példában a `FirstFile.html`‑t használjuk).  
+- **Java Development Kit (JDK) 8 vagy újabb** telepítve a gépeden.  
+- **Aspose.HTML for Java** – töltsd le a legújabb JAR fájlt a [hivatalos kiadási oldalról](https://releases.aspose.com/html/java/).  
+- Megtekintheted a [kiadási oldalt](https://releases.aspose.com/html/java/) a verziótörténethez.  
+- **Egy HTML fájl**, amelyet konvertálni szeretnél (a példában a `FirstFile.html`-t használjuk).  
 
 ## Csomagok importálása
-Először importáljuk a szükséges osztályokat. Az alábbi kódrészlet változatlan az eredeti útmutatóból.
+Az `import` utasítások a szükséges osztályokat a láthatóságba hozzák. Az alábbi kódrészlet változatlanul marad az eredeti oktatóanyagból.
 
 ```java
 import com.aspose.html.HTMLDocument;
@@ -56,15 +100,15 @@ import com.aspose.html.drawing.Size;
 import com.aspose.html.rendering.PageSetup;
 ```
 
-## 1. lépés: HTML tartalom beolvasása
-A forrás HTML fájlt egy `FileInputStream`‑el olvassuk be. Ez a lépés előkészíti a nyers markupot a későbbi manipulációhoz.
+## 1. lépés: a HTML tartalom beolvasása
+Beolvassuk a forrás HTML fájlt egy `FileInputStream` segítségével. Ez a lépés előkészíti a nyers markupot a későbbi manipulációra, és biztosítja, hogy a renderelő tiszta bemeneti árammal dolgozzon.
 
 ```java
 try (java.io.FileInputStream fileInputStream = new java.io.FileInputStream(Resources.input("FirstFile.html"))) {
 ```
 
-## 2. lépés: HTML írása (és opcionális bővítése)
-Itt a eredeti HTML‑t egy új fájlba másoljuk, és néhány beágyazott stílust injektálunk, hogy bemutassuk, a stílus hogyan befolyásolja a PDF kimenetet. Nyugodtan cseréld le a minta CSS‑t a sajátodra.
+## 2. lépés: a HTML írása (és opcionális bővítése)
+Itt átmásoljuk az eredeti HTML‑t egy új fájlba, és néhány beágyazott stílust injektálunk, hogy bemutassuk, a stílus hogyan befolyásolja a PDF kimenetet. Nyugodtan cseréld le a minta CSS‑t a sajátodra; bármely érvényes CSS‑t a renderelő figyelembe veszi.
 
 ```java
 try (java.io.FileOutputStream fileOutputStream = new java.io.FileOutputStream(Resources.output("FirstFileOut.html"))) {
@@ -89,10 +133,10 @@ try (java.io.FileOutputStream fileOutputStream = new java.io.FileOutputStream(Re
 ```
 
 ## 3. lépés: HTML renderelése PDF‑be – két forgatókönyv
-Most megmutatjuk, hogyan **generáljunk PDF‑t HTML‑ből** két különböző oldalméret‑stratégiával.
+Most megmutatjuk, hogyan **generate pdf from html** két különböző oldalméret‑stratégiával.
 
-### 3.1 Az oldalméret NINCS módosítva a tartalom szélességére
-Ebben az esetben fix méretet állítunk be (100 × 100 pont). Ha bármely elem túllépi ezeket a határokat, levágódik.
+### 3.1 oldalméret nincs beállítva a tartalom szélességéhez
+Ebben az esetben fix méretet állítunk be (100 × 100 pont). Ha bármely elem meghaladja ezeket a határokat, levágódik. Ez a megközelítés hasznos, ha szigorú papírméretnek (például nyugtavonal) kell megfelelni.
 
 ```java
 String pdf_output;
@@ -115,8 +159,8 @@ com.aspose.html.rendering.pdf.PdfDevice device = new com.aspose.html.rendering.p
 pdf_renderer.render(device, html_document);
 ```
 
-### 3.2 Az oldalméret MÓDOSÍTVA a tartalom szélességére
-Itt engedélyezzük az `AdjustToWidestPage`‑t, így a renderelő automatikusan kibővíti az oldal szélességét, hogy befogadja a legszélesebb elemet, miközben a magasság rögzített marad.
+### 3.2 oldalméret beállítva a tartalom szélességéhez
+Itt engedélyezzük az `AdjustToWidestPage`‑t, így a renderelő automatikusan kibővíti az oldal szélességét, hogy befogadja a legszélesebb elemet, miközben a magasság rögzített marad. Ideális jelentésekhez, amelyek széles táblázatokat vagy nagy képeket tartalmaznak.
 
 ```java
 com.aspose.html.rendering.pdf.PdfRenderingOptions pdf_options = new com.aspose.html.rendering.pdf.PdfRenderingOptions();
@@ -133,53 +177,64 @@ pdf_renderer.render(device, html_document);
 ```
 
 ## Hogyan állítsuk be a PDF méreteket (hogyan változtassuk meg a PDF oldalméretet) kódban
-A `PageSetup` objektum a kulcs:
+A `PageSetup` objektum a kulcs a oldalméret szabályozásához.
+
+A `PageSetup` az Aspose.HTML konfigurációs osztálya, amely oldal‑szintű tulajdonságokat definiál, például méretet, margókat és automatikus szélesítést. A `setAnyPage(Page page)` hívással adsz meg egy alap szélesség × magasság értéket, a `setAdjustToWidestPage(boolean)` pedig be‑ vagy kikapcsolja, hogy a renderelő a legszélesebb elemhez nyújtsa ki a szélességet.
 
 - `setAnyPage(Page page)`: meghatározza az alap szélesség × magasság értéket.  
-- `setAdjustToWidestPage(boolean)`: automatikus szélesítés be‑ vagy kikapcsolása.  
+- `setAdjustToWidestPage(boolean)`: be‑ vagy kikapcsolja az automatikus szélesítést.  
 
-Ezeknek a két tulajdonságnak a módosításával **megváltoztathatod a PDF oldalméreteket** bármely forgatókönyvben, legyen szó statikus A4‑ről vagy dinamikus szélességről, amely követi a HTML elrendezését.
+Ezeknek a két tulajdonságnak a beállításával **change pdf page dimensions**‑t tudsz végrehajtani bármilyen szituációban, legyen szó statikus A4‑ről vagy dinamikus szélességről, amely követi a HTML elrendezésedet.
 
-## Common Issues & Tips
-| Issue | Why it Happens | Fix |
-|-------|----------------|-----|
-| A tartalom levágódik | A rögzített méret túl kicsi | Növelje a `Size` értékeket, vagy engedélyezze az `AdjustToWidestPage`-t. |
-| A szöveg elmosódott | Az alapértelmezett renderelési DPI alacsony | Használja a `PdfRenderingOptions.setResolution(int dpi)` metódust a minőség növeléséhez. |
-| A stílusok hiányoznak | Külső CSS nem töltődik be | Ágyazza be a CSS‑t inline módon, vagy használja a `HTMLDocument.setBaseUrl()`‑t a stíluslap mappájára mutatáshoz. |
-| Nagy HTML fájlok OutOfMemoryError‑t okoznak | A renderelő az egész dokumentumot memóriába tölti | Dolgoztassa fel a dokumentumot darabokban, vagy növelje a JVM heap méretét (`-Xmx`). |
+## Gyakori problémák és tippek
+A `PdfRenderingOptions.setResolution(int dpi)` metódus a renderelés DPI‑ját állítja be a magasabb minőségű PDF kimenet érdekében.
 
-## További tippek a PDF oldalméret módosításához
-- **Használjon szabványos oldalméreteket** (A4, Letter) a `com.aspose.html.drawing.PaperSize` előre definiált `Size` objektumainak átadásával.  
-- **Kombinálja a szélesség módosítást a magasság skálázásával** az arányok megőrzéséhez képeknél.  
-- **Állítson be DPI‑t**, ha nagy felbontású kimenetre van szükség, különösen nyomtatásra kész PDF‑ek esetén.  
-- **Tesztelje különböző tartalmakkal** (táblázatok, képek, hosszú bekezdések), hogy ellenőrizze a `AdjustToWidestPage` megfelelő működését.  
+| Probléma | Miért fordul elő | Megoldás |
+|----------|------------------|----------|
+| A tartalom levágódik | A rögzített méret túl kicsi | Növeld a `Size` értékeket vagy engedélyezd az `AdjustToWidestPage`‑t. |
+| A szöveg elmosódott | Alapértelmezett render DPI alacsony | Használd a `PdfRenderingOptions.setResolution(int dpi)`‑t a minőség növeléséhez. |
+| A stílusok hiányoznak | Külső CSS nem töltődött be | Ágyazz be CSS‑t inline módon vagy használd a `HTMLDocument.setBaseUrl()`‑t a stíluslap mappájára mutatva. |
+| Nagy HTML fájlok OutOfMemoryError‑t okoznak | A renderelő az egész dokumentumot memóriába tölti | Dolgozd fel a dokumentumot darabokban vagy növeld a JVM heap méretét (`-Xmx`). |
+
+## További tippek a PDF oldalméret beállításához
+- **Használj szabványos oldalméreteket** (A4, Letter) előre definiált `Size` objektumok átadásával a `com.aspose.html.drawing.PaperSize`‑ből. Az Aspose.HTML több mint 30 beépített papírméretet támogat, amelyek lefedik a legtöbb regionális szabványt.  
+- **Kombináld a szélesség beállítását a magasság skálázásával**, hogy megőrizd a képek képarányát. Ez megakadályozza a torzulást, amikor a renderelő kibővíti a vásznat.  
+- **Állíts be DPI‑t**, ha nagy felbontású kimenet szükséges, különösen nyomtatásra kész PDF‑ek esetén. A 300 DPI gyakori alapérték a éles nyomtatási minőséghez.  
+- **Tesztelj változatos tartalommal** (táblázatok, képek, hosszú bekezdések), hogy ellenőrizd, hogy az `AdjustToWidestPage` a várt módon működik‑e különböző esetekben.  
 
 ## Gyakran ismételt kérdések
 
-**Q: Mi az Aspose.HTML for Java?**  
-A: Ez egy Java könyvtár, amely lehetővé teszi HTML dokumentumok létrehozását, szerkesztését és renderelését, beleértve a PDF, PNG és más formátumokba való konvertálást.
+**K: Mi az Aspose.HTML for Java?**  
+V: Ez egy Java könyvtár, amely lehetővé teszi HTML dokumentumok létrehozását, szerkesztését és renderelését, beleértve a PDF, PNG és egyéb formátumokra való konvertálást.
 
-**Q: Hogyan módosíthatom a PDF oldalméretet HTML‑ról PDF‑re konvertáláskor az Aspose.HTML for Java‑val?**  
-A: Használja a `PageSetup` osztályt, és állítsa az `AdjustToWidestPage`‑t `true`‑ra (automatikus méretezés) vagy `false`‑ra (fix méret). Ezután adja meg a kívánt `Size`‑t a `new Page(new Size(width, height))` segítségével.
+**K: Hogyan állíthatom be a pdf oldalméretet HTML‑ről PDF‑re konvertáláskor Aspose.HTML for Java‑val?**  
+V: Használd a `PageSetup` osztályt, és állítsd az `AdjustToWidestPage`‑t `true`‑ra (auto‑size) vagy `false`‑ra (fix méret). Ezután add meg a kívánt `Size`‑t a `new Page(new Size(width, height))` segítségével.
 
-**Q: Testreszabhatom a HTML tartalom stílusát a PDF‑re konvertálás előtt?**  
-A: Igen – beágyazhat CSS‑t, módosíthatja a DOM‑ot, vagy használhat külső stíluslapokat. Az útmutató bemutatja az inline CSS injektálását.
+**K: Testreszabhatom-e a HTML tartalom stílusát a PDF‑re konvertálás előtt?**  
+V: Igen – injektálhatsz CSS‑t, módosíthatod a DOM‑ot, vagy hivatkozhatsz külső stíluslapokra. Az oktatóanyag inline CSS‑injekciót mutat be, de bármely érvényes stíluslap működik.
 
-**Q: Hol találom az Aspose.HTML for Java dokumentációját?**  
-A: A teljes dokumentáció [itt](https://reference.aspose.com/html/java/) érhető el.
+**K: Hol találom meg az Aspose.HTML for Java dokumentációját?**  
+V: Átfogó dokumentáció elérhető az [Aspose.HTML for Java documentation](https://reference.aspose.com/html/java/) oldalon. Tekintsd meg az [API Reference](https://reference.aspose.com/html/java/)‑t a részletes osztályinformációkért.
 
-**Q: Elérhető ingyenes próba verzió az Aspose.HTML for Java‑hoz?**  
-A: Természetesen – töltsd le a próbaverziót a [kiadási oldalról](https://releases.aspose.com/html/java/).
+**K: Van ingyenes próba verzió az Aspose.HTML for Java‑hoz?**  
+V: Természetesen – tölts le egy próbaverziót a [Download Free Trial](https://releases.aspose.com/html/java/) oldalról.
 
 ## Következtetés
-Most már tudod, hogyan **módosítsd a PDF oldalméretet**, **rendereld a HTML‑t PDF‑be**, és **állíts be egyedi PDF méreteket** az Aspose.HTML for Java segítségével. Kísérletezz különböző oldalméretekkel, DPI beállításokkal és CSS finomításokkal, hogy tökéletesítsd a kimenetet a saját felhasználási esetedhez. Ha problémába ütközöl, nézd meg a hivatalos dokumentációt vagy az Aspose támogatói fórumokat.
+Most már tudod, hogyan **adjust pdf page size**, **render html to pdf**, és **set custom pdf dimensions** használatával Aspose.HTML for Java‑val. Kísérletezz különböző oldalméretekkel, DPI beállításokkal és CSS módosításokkal, hogy tökéletesítsd a kimenetet a saját felhasználási esetedhez. Ha problémába ütközöl, nézd meg a hivatalos dokumentációt vagy az Aspose támogatási fórumait a mélyebb útmutatásért.
 
 ---
 
-**Last Updated:** 2026-03-18  
+**Last Updated:** 2026-08-28  
 **Tested With:** Aspose.HTML for Java (latest)  
 **Author:** Aspose  
-**Related Resources:** [API Reference](https://reference.aspose.com/html/java/) | [Download Free Trial](https://releases.aspose.com/html/java/)
+**Related resources:** [API Reference](https://reference.aspose.com/html/java/) | [Download Free Trial](https://releases.aspose.com/html/java/)
+
+## Kapcsolódó oktatóanyagok
+
+- [PDF oldalméret beállítása Aspose HTML teljes Java útmutatóval](/html/java/conversion-html-to-other-formats/set-pdf-page-size-with-aspose-html-full-java-guide/)
+- [HTML konvertálása PDF-be Java-ban – PDF oldalméret, felbontás és](/html/java/conversion-html-to-other-formats/convert-html-to-pdf-in-java-set-pdf-page-size-resolution-and/)
+- [HTML konvertálása XPS-be és XPS oldalméret beállítása Aspose.HTML for Java használatával](/html/java/advanced-usage/adjust-xps-page-size/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
