@@ -23,12 +23,6 @@ title: HTML opslaan in ZIP in C# – Complete gids
 url: /nl/net/html-extensions-and-conversions/save-html-to-zip-in-c-complete-guide/
 ---
 
-** keep bold.
-
-Also keep inline code formatting.
-
-Let's produce.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

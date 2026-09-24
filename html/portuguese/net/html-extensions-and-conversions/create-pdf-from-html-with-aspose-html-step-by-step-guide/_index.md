@@ -22,14 +22,6 @@ title: Criar PDF a partir de HTML com Aspose.HTML – Guia passo a passo
 url: /pt/net/html-extensions-and-conversions/create-pdf-from-html-with-aspose-html-step-by-step-guide/
 ---
 
-pdf from html")
-
-Then closing shortcodes.
-
-All done.
-
-Now produce final output with same shortcodes and placeholders.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

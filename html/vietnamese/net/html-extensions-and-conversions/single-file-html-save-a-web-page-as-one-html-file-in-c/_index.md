@@ -22,18 +22,6 @@ title: HTML một tệp duy nhất – Lưu một trang web dưới dạng một
 url: /vi/net/html-extensions-and-conversions/single-file-html-save-a-web-page-as-one-html-file-in-c/
 ---
 
-must translate the text inside blockquotes, etc.
-
-We must not translate URLs, but there are none except maybe in code placeholders? Not needed.
-
-We need to translate step titles, paragraphs.
-
-Let's produce final content.
-
-Be careful with markdown formatting.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -23,17 +23,7 @@ title: Spara HTML till ZIP i C# – Komplett guide
 url: /sv/net/html-extensions-and-conversions/save-html-to-zip-in-c-complete-guide/
 ---
 
-Spara HTML till ZIP – Komplett guide"
-
-"Ever needed to **save HTML to ZIP** but weren’t sure which classes to use? You’re not alone. In many web‑automation projects you’ll end up with an HTML file plus images, CSS, and scripts that all need to travel together. The good news is that with a few lines of C# you can stream every resource straight into a ZIP file—no temporary folders required."
-
-Translate accordingly.
-
-Proceed section by section.
-
-Make sure to keep markdown formatting.
-
-Let's write final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

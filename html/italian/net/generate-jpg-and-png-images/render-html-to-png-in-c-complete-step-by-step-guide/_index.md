@@ -24,7 +24,7 @@ title: Renderizzare HTML in PNG con C# – Guida completa passo passo
 url: /it/net/generate-jpg-and-png-images/render-html-to-png-in-c-complete-step-by-step-guide/
 ---
 
-produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -22,9 +22,7 @@ title: 단일 파일 HTML – C#에서 웹 페이지를 하나의 HTML 파일로
 url: /ko/net/html-extensions-and-conversions/single-file-html-save-a-web-page-as-one-html-file-in-c/
 ---
 
-them unchanged.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -23,14 +23,6 @@ title: Crear PDF a partir de HTML con Aspose.HTML – Guía paso a paso
 url: /es/net/html-extensions-and-conversions/create-pdf-from-html-with-aspose-html-step-by-step-guide/
 ---
 
-you intended!" translate.
-
-- Image line keep same alt text maybe translate alt? The alt text is "Create PDF from HTML example". Should translate alt text but keep image path unchanged. So alt becomes "Ejemplo de crear PDF a partir de HTML". Title attribute also translate.
-
-- Closing shortcodes remain.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -24,32 +24,6 @@ title: Render HTML ke PNG di C# – Panduan Lengkap Langkah demi Langkah
 url: /id/net/generate-jpg-and-png-images/render-html-to-png-in-c-complete-step-by-step-guide/
 ---
 
-? That's within quotes after image URL; it's a title attribute. Should translate as well. Keep URL unchanged.
-
-Also translate blockquote content, notes, etc.
-
-Proceed section by section.
-
-Start with shortcodes unchanged.
-
-Then heading "# Render HTML to PNG in C# – Complete Step‑by‑Step Guide" translate: "# Render HTML ke PNG di C# – Panduan Lengkap Langkah‑per‑Langkah"
-
-Then paragraph.
-
-Translate accordingly.
-
-Be careful with bold text **...** keep same but translate inner text.
-
-Also code block placeholders remain unchanged.
-
-Translate bullet points.
-
-Translate table.
-
-Translate alt text and title.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

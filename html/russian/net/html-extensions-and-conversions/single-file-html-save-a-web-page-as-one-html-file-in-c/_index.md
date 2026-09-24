@@ -23,10 +23,6 @@ title: single file html – Сохранить веб‑страницу как 
 url: /ru/net/html-extensions-and-conversions/single-file-html-save-a-web-page-as-one-html-file-in-c/
 ---
 
-keep English term but can translate surrounding words. Keep as "single file html". Keep "Aspose.Html" unchanged.
-
-Let's produce.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

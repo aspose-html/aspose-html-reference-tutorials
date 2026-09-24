@@ -24,7 +24,7 @@ title: Menyimpan HTML ke ZIP di C# – Panduan Lengkap
 url: /id/net/html-extensions-and-conversions/save-html-to-zip-in-c-complete-guide/
 ---
 
-.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

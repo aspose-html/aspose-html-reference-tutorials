@@ -22,16 +22,6 @@ title: 在 C# 中将 HTML 保存为 ZIP – 完整指南
 url: /zh/net/html-extensions-and-conversions/save-html-to-zip-in-c-complete-guide/
 ---
 
-alt text but keep URL unchanged. Title attribute also should be translated? The instruction says preserve URLs, but title is part of markdown, not a URL. Probably translate the title as well. But to be safe, translate alt text and title.
-
-Also the table content.
-
-Let's produce final Chinese markdown.
-
-Be careful to keep all shortcodes exactly.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

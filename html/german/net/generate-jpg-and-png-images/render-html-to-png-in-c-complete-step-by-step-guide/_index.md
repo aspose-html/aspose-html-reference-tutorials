@@ -24,19 +24,7 @@ title: HTML zu PNG rendern in C# – Vollständige Schritt‑für‑Schritt‑An
 url: /de/net/generate-jpg-and-png-images/render-html-to-png-in-c-complete-step-by-step-guide/
 ---
 
-**set background color image** für transparente Seiten festzulegen."
-
-- Tips to **configure image size** for high‑resolution output. => "Tipps, um **configure image size** für hochauflösende Ausgaben zu konfigurieren."
-
-- Common pitfalls and pro tips that keep your renders looking sharp. => "Häufige Stolperfallen und Profi‑Tipps, die Ihre Renderings scharf halten."
-
-Now ensure all markdown formatting preserved.
-
-Also translate "## Common Pitfalls & Pro Tips" table rows.
-
-Make sure to keep code block placeholders unchanged.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

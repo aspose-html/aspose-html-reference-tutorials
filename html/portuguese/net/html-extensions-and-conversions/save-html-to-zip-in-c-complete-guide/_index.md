@@ -23,14 +23,6 @@ title: Salvar HTML em ZIP em C# – Guia Completo
 url: /pt/net/html-extensions-and-conversions/save-html-to-zip-in-c-complete-guide/
 ---
 
-produce final content.
-
-Let's translate.
-
-Start with shortcodes unchanged.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

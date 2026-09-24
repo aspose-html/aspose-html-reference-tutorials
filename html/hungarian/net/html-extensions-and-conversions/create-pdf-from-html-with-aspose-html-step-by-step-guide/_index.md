@@ -24,9 +24,7 @@ title: PDF létrehozása HTML‑ből az Aspose.HTML‑el – Lépésről‑lép�
 url: /hu/net/html-extensions-and-conversions/create-pdf-from-html-with-aspose-html-step-by-step-guide/
 ---
 
-pdf" remain English as per rule (technical terms in English). We kept them unchanged. Good.
-
-Now output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

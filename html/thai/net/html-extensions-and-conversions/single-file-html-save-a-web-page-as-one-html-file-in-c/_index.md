@@ -22,8 +22,6 @@ title: HTML ไฟล์เดียว – บันทึกหน้าเว
 url: /th/net/html-extensions-and-conversions/single-file-html-save-a-web-page-as-one-html-file-in-c/
 ---
 
-.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

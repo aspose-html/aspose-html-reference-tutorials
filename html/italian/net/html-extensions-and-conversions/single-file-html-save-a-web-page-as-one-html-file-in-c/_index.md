@@ -22,9 +22,7 @@ title: HTML a file unico – Salva una pagina web come un unico file HTML in C#
 url: /it/net/html-extensions-and-conversions/single-file-html-save-a-web-page-as-one-html-file-in-c/
 ---
 
-formatting.
-
-Let's produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

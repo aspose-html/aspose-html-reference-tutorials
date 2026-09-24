@@ -23,7 +23,7 @@ title: PDF aus HTML mit Aspose.HTML erstellen – Schritt‑für‑Schritt‑Anl
 url: /de/net/html-extensions-and-conversions/create-pdf-from-html-with-aspose-html-step-by-step-guide/
 ---
 
-everything.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

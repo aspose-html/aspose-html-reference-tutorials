@@ -22,9 +22,7 @@ title: Tạo PDF từ HTML với Aspose.HTML – Hướng dẫn từng bước
 url: /vi/net/html-extensions-and-conversions/create-pdf-from-html-with-aspose-html-step-by-step-guide/
 ---
 
-from html". Keep the part after dash maybe keep original phrase? The requirement: translate all text content. So translate.
-
-Let's produce final.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

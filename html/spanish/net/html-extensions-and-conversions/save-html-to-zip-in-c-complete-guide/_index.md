@@ -23,15 +23,7 @@ title: Guardar HTML en ZIP con C# – Guía completa
 url: /es/net/html-extensions-and-conversions/save-html-to-zip-in-c-complete-guide/
 ---
 
-shortcodes, then heading, then paragraphs. Ensure we keep them.
-
-Let's translate.
-
-Will produce Spanish version.
-
-Be careful with bullet points, maintain same markdown.
-
-Proceed.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

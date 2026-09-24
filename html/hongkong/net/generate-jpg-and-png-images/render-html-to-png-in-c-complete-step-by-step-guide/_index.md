@@ -20,10 +20,6 @@ title: 在 C# 中將 HTML 渲染為 PNG – 完整逐步指南
 url: /zh-hant/net/generate-jpg-and-png-images/render-html-to-png-in-c-complete-step-by-step-guide/
 ---
 
-content with translations.
-
-Let's write.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
