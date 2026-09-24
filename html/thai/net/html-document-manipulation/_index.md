@@ -69,8 +69,16 @@ Aspose.HTML สำหรับ .NET โดดเด่นด้วยควา�
 เรียนรู้การใช้ Aspose.HTML สำหรับ .NET นำเข้าเนมสเปซ รวม HTML กับ XML และเพิ่มทักษะการพัฒนาเว็บของคุณด้วยคู่มือที่ครอบคลุมนี้
 ### [สร้างเอกสาร XPS โดย XpsDevice ใน .NET ด้วย Aspose.HTML](./generate-xps-documents-by-xpsdevice/)
 ปลดล็อกศักยภาพของการพัฒนาเว็บด้วย Aspose.HTML สำหรับ .NET สร้าง แปลง และจัดการเอกสาร HTML ได้อย่างง่ายดาย
+### [สร้างเอกสาร HTML ด้วย Aspose.HTML – คู่มือขั้นตอนต่อขั้นตอน](./create-html-document-with-aspose-html-step-by-step-guide/)
+เรียนรู้วิธีสร้างเอกสาร HTML ด้วย Aspose.HTML ผ่านขั้นตอนที่ชัดเจนและตัวอย่างโค้ด
 ### [สร้าง HTML จากสตริงใน C# – คู่มือ Custom Resource Handler](./create-html-from-string-in-c-custom-resource-handler-guide/)
 เรียนรู้วิธีสร้าง HTML จากสตริงใน C# ด้วยตัวจัดการทรัพยากรแบบกำหนดเองใน Aspose.HTML สำหรับ .NET
+### [ทำข้อความเป็นตัวหนาและตัวเอียงใน C# – คู่มือเร็วสำหรับการจัดรูปแบบ HTML](./make-text-bold-italic-in-c-quick-guide-to-styling-html/)
+เรียนรู้วิธีทำให้ข้อความใน HTML เป็นตัวหนาและตัวเอียงด้วย C# อย่างรวดเร็วด้วย Aspose.HTML
+### [เพิ่ม Element ลงใน Body – คู่มือ C# ฉบับสมบูรณ์กับ Aspose.HTML](./append-element-to-body-complete-c-guide-with-aspose-html/)
+เรียนรู้วิธีเพิ่ม Element ลงใน Body ของ HTML ด้วย C# และ Aspose.HTML อย่างครบถ้วน
+### [วิธีสร้าง HTML ด้วย Aspose – ค้นหาองค์ประกอบ, ทำให้ตัวหนา](./how-to-create-html-with-aspose-find-element-apply-bold/)
+เรียนรู้วิธีค้นหาองค์ประกอบในเอกสาร HTML และทำให้ข้อความเป็นตัวหนาโดยใช้ Aspose.HTML สำหรับ .NET
 
 ## บทสรุป
 

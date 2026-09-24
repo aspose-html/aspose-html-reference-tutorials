@@ -59,6 +59,7 @@ Pelajari cara mengelola properti HTML dalam dan luar di Aspose.HTML untuk Java d
 ### [Menerapkan CSS Internal dalam Dokumen HTML dengan Aspose.HTML untuk Java](./implement-internal-css-html-documents/)
 Pelajari cara menerapkan CSS internal dalam dokumen HTML menggunakan Aspose.HTML untuk Java dengan tutorial langkah demi langkah yang mudah.
 ### [Fixed thread pool Java – Pembersihan HTML Paralel dengan ExecutorService](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
+### [Menambahkan Child ke Body di Java – Tutorial Lengkap Aspose.HTML](./append-child-to-body-in-java-full-aspose-html-tutorial/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,20 +1,20 @@
 ---
-title: How to Set HTML Page Margins Java with Aspose.HTML
+title: How to Convert HTML to PDF Java - Set Page Margins with Aspose.HTML
 linktitle: CSS Extensions - Adding Title and Page Number
 second_title: Java HTML Processing with Aspose.HTML
-description: Learn how to set HTML page margins Java using Aspose.HTML, and add page numbers and titles to your documents.
+description: Learn how to convert HTML to PDF Java with Aspose.HTML, set page margins, add page numbers and headers/footers efficiently.
 weight: 10
 url: /java/advanced-usage/css-extensions-adding-title-page-number/
-date: 2025-12-05
+date: 2026-02-10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# How to Set HTML Page Margins Java with Aspose.HTML
+# How to Convert HTML to PDF Java: Set Page Margins with Aspose.HTML
 
-In this tutorial you’ll discover **how to set HTML page margins Java**‑style using Aspose.HTML for Java. We’ll walk through creating custom page margins, inserting page numbers, and adding a document title—all with clear, step‑by‑step code you can copy into your own project.
+In this tutorial you’ll discover **how to convert HTML to PDF Java**‑style using Aspose.HTML for Java while also learning how to set custom page margins, insert page numbers, and add a document title. We’ll walk through clear, step‑by‑step code you can copy into your own project, so you can produce professional‑looking PDFs directly from HTML.
 
 ## Quick Answers
 - **What library is needed?** Aspose.HTML for Java  
@@ -22,6 +22,7 @@ In this tutorial you’ll discover **how to set HTML page margins Java**‑style
 - **Which output formats support margins?** XPS, PDF, and other raster formats  
 - **Do I need a license for production?** A valid Aspose.HTML license is required for non‑trial use  
 - **Is this compatible with Java 11+?** Absolutely – the library works with modern Java versions  
+- **Can I add page numbers java?** Yes, using the `@bottom-right` rule in the CSS `@page` definition  
 
 ## What Is “Setting HTML Page Margins Java”?
 Setting HTML page margins in Java means configuring the rendering engine (provided by Aspose.HTML) to apply CSS page‑box properties before the document is converted to a printable format like XPS or PDF. By defining a custom `@page` rule you control the printable area, page numbers, and header/footer content.
@@ -50,7 +51,9 @@ import com.aspose.html.HTMLDocument;
 import com.aspose.html.rendering.xps.XpsDevice;
 ```
 
-## How to Set HTML Page Margins Java – Step‑by‑Step Guide
+## How to Convert HTML to PDF Java with Custom Page Margins
+
+When you need to add a header or footer in addition to margins, you can use the `@top-center` and `@bottom-right` boxes. This approach covers the **java add header footer** scenario without extra code.
 
 ### Step 1: Initialize Configuration and Define Custom Page Margins
 
@@ -151,9 +154,17 @@ This step creates an `XpsDevice` that writes the rendered pages to `output.xps`.
 
 ## Conclusion
 
-You’ve now mastered **how to set HTML page margins Java** using Aspose.HTML, and you know how to add page numbers and a title to make your documents look professional. Feel free to experiment with additional `@page` boxes, custom fonts, or different output formats to suit your project’s needs.
+You’ve now mastered **how to convert HTML to PDF Java** using Aspose.HTML, and you know how to set custom page margins, add page numbers, and insert a document title or header/footer. Feel free to experiment with additional `@page` boxes, custom fonts, or different output formats to suit your project’s needs.
 
 If you run into any challenges, the official [Aspose.HTML for Java documentation](https://reference.aspose.com/html/java/) and the [Aspose support forum](https://forum.aspose.com/) are excellent places to get help.
+
+---
+
+**Last Updated:** 2026-02-10  
+**Tested With:** Aspose.HTML for Java 23.12  
+**Author:** Aspose  
+
+---
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -161,11 +172,3 @@ If you run into any challenges, the official [Aspose.HTML for Java documentation
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-05  
-**Tested With:** Aspose.HTML for Java 23.12  
-**Author:** Aspose  
-
----

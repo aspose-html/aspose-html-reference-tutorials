@@ -26,6 +26,9 @@ url: /ar/java/data-handling-stream-management/
 ## دروس التعامل مع البيانات وإدارة التدفقات في Aspose.HTML لـ Java
 ### [تحويل تدفق الذاكرة إلى ملف باستخدام Aspose.HTML لـ Java](./memory-stream-to-file/)
 تحويل HTML إلى JPEG باستخدام Aspose.HTML for Java باستخدام تدفقات الذاكرة. اتبع هذا الدليل خطوة بخطوة لتحويل HTML إلى صورة بسلاسة.
+### [مجموعة مؤشرات ثابتة في Java: عد الصور في ملفات متوازية](./java-fixed-thread-pool-count-images-in-parallel-files/)
+استخدام مجموعة مؤشرات ثابتة في Java لعد الصور عبر ملفات متعددة بشكل متوازي.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,0 +1,253 @@
+---
+category: general
+date: 2026-02-14
+description: เรียนรู้วิธีแปลง HTML แบบไดนามิกเป็น PDF ด้วย Aspose HTML for Java, โหลด
+  HTML พร้อมสคริปต์, รอการทำงานของ JavaScript, และดึงแถวของตารางด้วย query selector
+  ในกระบวนการทำงานเดียว.
+draft: false
+keywords:
+- convert dynamic html pdf
+- load html with scripts
+- wait for javascript execution
+- query selector table rows
+- aspose html pdf java
+language: th
+og_description: คู่มือแบบขั้นตอนต่อขั้นตอนในการแปลง HTML แบบไดนามิกเป็น PDF, โหลด
+  HTML พร้อมสคริปต์, รอการทำงานของ JavaScript, และใช้ query selector เพื่อดึงแถวของตารางโดยใช้
+  Aspose HTML PDF Java.
+og_title: แปลง HTML PDF แบบไดนามิกด้วย Aspose HTML for Java
+tags:
+- Aspose
+- Java
+- HTML-to-PDF
+title: แปลง HTML PDF แบบไดนามิกด้วย Aspose HTML สำหรับ Java
+url: /th/java/conversion-html-to-other-formats/convert-dynamic-html-pdf-with-aspose-html-for-java/
+---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# แปลง HTML แบบไดนามิกเป็น PDF ด้วย Aspose HTML for Java
+
+เคยต้อง **แปลง HTML แบบไดนามิกเป็น PDF** แต่หน้าที่คุณทำงานอยู่ต้องพึ่งพา JavaScript เพื่อสร้างตาราง, แผนภูมิ หรือเมนูหรือไม่? คุณไม่ได้อยู่คนเดียว ในหลายโครงการจริง ๆ HTML ที่คุณได้รับไม่ได้เป็นแบบคงที่ – สคริปต์ทำงาน, โหนด DOM ปรากฏ, และเพียงเท่านั้นหน้าก็จะดูตามที่คุณคาดหวัง  
+
+ในบทเรียนนี้เราจะเดินผ่านตัวอย่างที่ทำงานได้เต็มรูปแบบ ซึ่ง **โหลด HTML พร้อมสคริปต์**, **รอการทำงานของ JavaScript**, ตรวจสอบ DOM สุดท้ายด้วย **query selector table rows**, และสุดท้าย **แปลง HTML แบบไดนามิกเป็น PDF** ด้วยไลบรารี Aspose HTML for Java หลังจากอ่านจบคุณจะได้คลาส Java เดียวที่สามารถใส่ลงในโปรเจกต์ Maven หรือ Gradle ใด ๆ แล้วรันได้ทันที
+
+> **ทำไมต้องสนใจ?**  
+> การแปลงหน้าเว็บก่อนสคริปต์ทำงานเสร็จมักทำให้ได้ PDF ว่างเปล่าหรือขาดตาราง วิธีที่แสดงในที่นี้รับประกันว่า PDF จะสะท้อนสิ่งที่ผู้ใช้เห็นในเบราว์เซอร์อย่างแม่นยำ
+
+---
+
+## สิ่งที่คุณต้องเตรียม
+
+- **Java 17** (หรือ JDK รุ่นใหม่ใดก็ได้; API ทำงานกับ Java 8+ แต่ JDK ใหม่ให้ประสิทธิภาพดีกว่า)  
+- **Aspose.HTML for Java** 23.10 (หรือใหม่กว่า) – สามารถดึงจาก Maven Central  
+- ไฟล์ **HTML แบบไดนามิก** (เราจะใช้ `dynamic.html` ที่มีสคริปต์สร้างตาราง)  
+- ความคุ้นเคยพื้นฐานกับ Java I/O และ Maven/Gradle (ไม่จำเป็นต้องเชี่ยวชาญ)
+
+หากคุณมีไฟล์ `pom.xml` ของ Maven อยู่แล้ว ให้เพิ่ม dependency ของ Aspose:
+
+```xml
+<dependency>
+    <groupId>com.aspose</groupId>
+    <artifactId>aspose-html</artifactId>
+    <version>23.10</version>
+</dependency>
+```
+
+---
+
+## ขั้นตอนที่ 1: โหลด HTML พร้อมเปิดใช้งานสคริปต์
+
+สิ่งแรกที่ต้องทำคือบอก Aspose ว่า HTML ที่กำลังโหลดอาจมี JavaScript ที่ต้องทำงาน ซึ่งทำได้โดยใช้ `HTMLLoadOptions` – ตั้งค่า **enableScripts** เป็น `true`.
+
+```java
+import com.aspose.html.*;
+import com.aspose.html.dom.*;
+import java.nio.file.Paths;
+
+/**
+ * Demonstrates loading an HTML file that contains JavaScript.
+ */
+public class RunJsBeforeConversion {
+
+    public static void main(String[] args) throws Exception {
+
+        // --------------------------------------------------------------------
+        // 1️⃣ Load the HTML document with JavaScript execution enabled
+        // --------------------------------------------------------------------
+        // The `true` argument tells Aspose to enable script execution.
+        HTMLLoadOptions loadOptions = new HTMLLoadOptions(true);
+
+        // Adjust the path to point at your own dynamic.html file.
+        HTMLDocument htmlDocument = new HTMLDocument(
+                Paths.get("YOUR_DIRECTORY/dynamic.html").toUri(),
+                loadOptions);
+```
+
+> **เคล็ดลับ:** เก็บไฟล์ HTML ไว้ใกล้โฟลเดอร์ซอร์สหรือใช้เส้นทางแบบ absolute; ไม่เช่นนั้นคำสั่ง `toUri()` จะโยน `FileNotFoundException`
+
+---
+
+## ขั้นตอนที่ 2: รอการทำงานของ JavaScript
+
+Aspose รันสคริปต์บนเอนจินเบา ๆ แต่คุณยังต้องให้หน้าเว็บมีเวลาสำหรับทำงานให้เสร็จ ในระบบจริงคุณอาจเชื่อมต่อกับเหตุการณ์ DOM‑ready, แต่สำหรับการสาธิตเร็ว ๆ การหยุดพักแบบง่ายก็เพียงพอ
+
+```java
+        // --------------------------------------------------------------------
+        // 2️⃣ Wait for JavaScript execution (simple pause for demo purposes)
+        // --------------------------------------------------------------------
+        // 2 seconds is usually enough for tiny demos; increase if your script
+        // does heavy work or makes async network calls.
+        Thread.sleep(2000);
+```
+
+> **ทำไมต้องหยุดพัก?** ไลบรารีทำงานสคริปต์แบบ synchronous, แต่บางการทำงาน (เช่น `setTimeout`) จะถูกจัดคิวไว้ การหยุดพักทำให้คิวเหล่านั้นถูกประมวลผลก่อนที่เราจะตรวจสอบ DOM
+
+---
+
+## ขั้นตอนที่ 3: Query Selector Table Rows – ตรวจสอบ DOM
+
+เมื่อสคริปต์ทำงานเสร็จแล้ว เราสามารถจัดการเอกสารเหมือนในคอนโซลของเบราว์เซอร์: ใช้ CSS selector เพื่อดึงเอิลิเมนต์ เราจะหาตารางที่มี `id="report"` และพิมพ์จำนวนแถวที่มี
+
+```java
+        // --------------------------------------------------------------------
+        // 3️⃣ Inspect the DOM after script execution
+        // --------------------------------------------------------------------
+        // Using a CSS selector to find the table generated by JavaScript.
+        Element reportTable = htmlDocument.querySelector("table#report");
+
+        // Guard against a missing table – helpful when the script fails.
+        if (reportTable == null) {
+            System.out.println("⚠️ No table with id='report' found.");
+            return;
+        }
+
+        // The Element API gives us direct access to rows collection.
+        int rowCount = reportTable.getRows().getLength();
+        System.out.println("Rows after script execution: " + rowCount);
+```
+
+ผลลัพธ์ที่คาดหวังสำหรับ `dynamic.html` ตัวอย่างจะเป็นประมาณนี้:
+
+```
+Rows after script execution: 5
+```
+
+หากคุณเห็นจำนวนที่ต่างออกไป ให้ตรวจสอบสคริปต์ใน HTML ของคุณ – บางทีอาจสร้างแถวแบบมีเงื่อนไข
+
+---
+
+## ขั้นตอนที่ 4: แปลงสถานะ DOM สุดท้ายเป็น PDF
+
+เมื่อ DOM ผ่านการตรวจสอบแล้ว ขั้นตอนสุดท้ายคือบรรทัดเดียว: ส่ง `HTMLDocument` ให้กับ `Converter.convert` ผลลัพธ์คือ PDF ที่ตรงกับสิ่งที่เบราว์เซอร์แสดงหลังสคริปต์ทำงานเสร็จ
+
+```java
+        // --------------------------------------------------------------------
+        // 4️⃣ Convert the final DOM state to a PDF file
+        // --------------------------------------------------------------------
+        Converter.convert(htmlDocument,
+                Paths.get("YOUR_DIRECTORY/dynamic.pdf").toUri());
+
+        System.out.println("✅ PDF generated at YOUR_DIRECTORY/dynamic.pdf");
+    }
+}
+```
+
+เปิด `dynamic.pdf` ด้วยโปรแกรมอ่านใดก็ได้ – คุณควรเห็นตารางที่เต็มไปด้วยข้อมูล, สไตล์, และรูปภาพที่สคริปต์แทรกเข้ามา
+
+---
+
+## ตัวอย่างทำงานเต็มรูปแบบ (รวมทุกขั้นตอน)
+
+ด้านล่างเป็นไฟล์ซอร์สเต็มที่คุณสามารถคัดลอก‑วางลงใน `src/main/java/RunJsBeforeConversion.java` อย่าลืมเปลี่ยน `YOUR_DIRECTORY` ให้เป็นพาธจริงที่มี `dynamic.html`
+
+```java
+import com.aspose.html.*;
+import com.aspose.html.dom.*;
+import java.nio.file.Paths;
+
+/**
+ * End‑to‑end demo: load a dynamic HTML page, let its JavaScript run,
+ * query the generated table, and convert the result to PDF.
+ *
+ * Requires Aspose.HTML for Java 23.10+ on the classpath.
+ */
+public class RunJsBeforeConversion {
+    public static void main(String[] args) throws Exception {
+
+        // 1️⃣ Load HTML with scripts enabled
+        HTMLLoadOptions loadOptions = new HTMLLoadOptions(true);
+        HTMLDocument htmlDocument = new HTMLDocument(
+                Paths.get("YOUR_DIRECTORY/dynamic.html").toUri(),
+                loadOptions);
+
+        // 2️⃣ Wait for JavaScript execution (2 seconds)
+        Thread.sleep(2000);
+
+        // 3️⃣ Query selector table rows – verify script output
+        Element reportTable = htmlDocument.querySelector("table#report");
+        if (reportTable == null) {
+            System.out.println("⚠️ No table with id='report' found.");
+            return;
+        }
+        int rowCount = reportTable.getRows().getLength();
+        System.out.println("Rows after script execution: " + rowCount);
+
+        // 4️⃣ Convert the final DOM to PDF
+        Converter.convert(htmlDocument,
+                Paths.get("YOUR_DIRECTORY/dynamic.pdf").toUri());
+
+        System.out.println("✅ PDF generated at YOUR_DIRECTORY/dynamic.pdf");
+    }
+}
+```
+
+รันด้วยคำสั่ง:
+
+```bash
+mvn compile exec:java -Dexec.mainClass=RunJsBeforeConversion
+```
+
+หรือใช้คำสั่ง Gradle ที่เทียบเท่า
+
+---
+
+## ข้อผิดพลาดที่พบบ่อย & วิธีหลีกเลี่ยง
+
+| ปัญหา | สาเหตุ | วิธีแก้ |
+|-------|--------|--------|
+| **PDF ว่างเปล่า** | สคริปต์ถูกปิด (`HTMLLoadOptions(false)`) หรือการหยุดพักสั้นเกินไป | ตั้ง `true` สำหรับสคริปต์และเพิ่มค่า `Thread.sleep` หากหน้าของคุณใช้การเรียกแบบ async |
+| **`reportTable` เป็น null** | ตัวเลือก selector ผิดหรือสคริปต์ไม่สร้างเอิลิเมนต์ | ตรวจสอบว่า `<script>` ใน HTML ของคุณจริง ๆ เพิ่ม `<table id="report">`. ใช้ Chrome DevTools เพื่อตรวจสอบ DOM สุดท้าย |
+| **ฟอนต์หรือ CSS หาย** | HTML อ้างอิง stylesheet ภายนอกที่ไม่สามารถเข้าถึงได้ | ให้ URL เป็นแบบ absolute หรือคัดลอกไฟล์ CSS มาที่เครื่องและอ้างอิงด้วยเส้นทาง `file://` |
+| **หน้าใหญ่ทำให้ใช้หน่วยความจำสูง** | Aspose โหลด DOM ทั้งหมดเข้าหน่วยความจำ | ใช้ `HTMLLoadOptions.setMaxMemoryUsage` เพื่อลดการใช้หน่วยความจำ, หรือแบ่งการแปลงเป็นหลายส่วน |
+
+---
+
+## การขยายโซลูชัน
+
+- **หลายหน้า** – หากหน้าที่ไดนามิกของคุณมีการแบ่งหน้า, เรียก `Converter.convert` ภายในลูปหลังจากอัปเดต fragment ของ URL (`#page=2` เป็นต้น)  
+- **ทางเลือก Headless Browser** – สำหรับสคริปต์ที่ซับซ้อนมาก (เช่น WebGL) ให้พิจารณาเชื่อมต่อกับ headless browser จริงอย่าง **Playwright** แล้วส่ง HTML ที่เรนเดอร์แล้วให้ Aspose  
+- **ตัวเลือกการเรนเดอร์แบบกำหนดเอง** – `PdfSaveOptions` ให้คุณตั้งขนาดหน้า, ระยะขอบ, และคุณภาพภาพ ตัวอย่าง: `new PdfSaveOptions(PdfPageSize.A4, PdfPageOrientation.Portrait)`
+
+---
+
+## สรุป
+
+เราได้แสดงวิธี **แปลง HTML แบบไดนามิกเป็น PDF** อย่างมั่นใจโดย **โหลด HTML พร้อมสคริปต์**, ให้เวลาหน้า **รอการทำงานของ JavaScript**, ตรวจสอบผลลัพธ์ด้วย **query selector table rows**, และสุดท้ายใช้ **aspose html pdf java** เพื่อสร้าง PDF ที่สมบูรณ์แบบ  
+
+รูปแบบนี้สามารถขยายได้: เปลี่ยน selector, ปรับตรรกะการรอ, แล้วคุณก็จัดการกับเนื้อหาไดนามิกใด ๆ – ตั้งแต่แผนภูมิที่สร้างด้วย Chart.js จนถึงตารางที่เติมข้อมูลผ่าน AJAX  
+
+พร้อมรับความท้าทายต่อไปหรือยัง? ลองแปลงหน้าที่ดึงข้อมูลจาก REST endpoint, หรือทดลองฝังฟอนต์แบบกำหนดเองให้ตรงกับสไตล์แบรนด์ของคุณ  
+
+หากคุณเจออุปสรรคหรือมีไอเดียปรับปรุง, แสดงความคิดเห็นด้านล่างได้เลย. Happy coding, และสนุกกับ PDF ที่เรนเดอร์อย่างสมบูรณ์!  
+
+---  
+
+![แปลง HTML แบบไดนามิกเป็น PDF ตัวอย่าง](/images/convert-dynamic-html-pdf.png "ภาพหน้าจอแสดง PDF ที่สร้างจาก HTML แบบไดนามิกโดยใช้ Aspose HTML for Java")
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

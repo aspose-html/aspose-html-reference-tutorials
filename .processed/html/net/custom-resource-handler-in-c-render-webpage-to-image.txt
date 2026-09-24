@@ -1,0 +1,7 @@
+Title: Custom Resource Handler in C# – Render Webpage to Image
+Slug: custom-resource-handler-in-c-render-webpage-to-image
+Category: generate-jpg-and-png-images
+ProcessedDate: 2026-05-28T23:23:07.453751
+SourceRepo: AI Search API
+Keywords: custom resource handler, render webpage to image, capture webpage screenshot, render html to png, save webpage as png
+PRNumber: 163

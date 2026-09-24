@@ -112,6 +112,8 @@ Aprende cómo configurar el Servicio de Tiempo de Ejecución en Aspose.HTML para
 Aprende cómo implementar sandboxing en Aspose.HTML para Java para controlar de forma segura la ejecución de scripts en tus documentos HTML y convertirlos a PDF.
 ### [Establecer Hoja de Estilo de Usuario en Aspose.HTML para Java](./set-user-style-sheet/)
 Aprende cómo establecer una hoja de estilo de usuario personalizada en Aspose.HTML para Java, mejorando el estilo de tus documentos y convirtiendo HTML a PDF con facilidad.
+### [Crear Sandbox de Aspose HTML – Guía Completa Java](./create-aspose-html-sandbox-complete-java-guide/)
+Aprende a crear y configurar un sandbox de Aspose.HTML en Java para ejecutar conversiones de HTML a PDF de forma segura.
 
 ---
 
