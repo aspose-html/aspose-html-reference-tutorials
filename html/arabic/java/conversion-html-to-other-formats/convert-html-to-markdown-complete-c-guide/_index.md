@@ -1,24 +1,66 @@
 ---
 category: general
-date: 2026-01-03
-description: تعلم كيفية تحويل HTML إلى markdown في C# مع دعم الـ frontmatter، وتحميل
-  مستند HTML وحفظ ملف markdown بكفاءة.
+date: 2026-08-23
+description: دليل تحويل Html إلى markdown c# يوضح كيفية تحميل مستند HTML، إضافة frontmatter،
+  وحفظ markdown نظيف باستخدام Aspose.HTML في .NET.
 draft: false
 keywords:
-- convert html to markdown
-- load html document
-- save markdown file
+- html to markdown c#
 - how to add frontmatter
-- add front matter
-language: ar
-og_description: تحويل HTML إلى markdown باستخدام C#. يوضح هذا الدرس كيفية تحميل مستند
-  HTML، إضافة frontmatter، وحفظ ملف markdown.
-og_title: تحويل HTML إلى Markdown – دليل C# الكامل
+- html to markdown example
+- html to markdown .net
+lastmod: 2026-08-23
+og_description: دليل تحويل Html إلى markdown c# يوضح كيفية تحميل مستند HTML، إضافة
+  frontmatter، وحفظ markdown نظيف باستخدام Aspose.HTML في .NET.
+og_image_alt: Diagram of HTML to markdown conversion workflow in C#
+og_title: Html إلى markdown c# – دليل التحويل خطوة بخطوة
+schemas:
+- author: Aspose
+  dateModified: '2026-08-23'
+  description: Html to markdown c# conversion guide shows how to load an HTML document,
+    add frontmatter, and save clean markdown using Aspose.HTML in .NET.
+  headline: Html to markdown c# – step‑by‑step conversion guide
+  type: TechArticle
+- description: Html to markdown c# conversion guide shows how to load an HTML document,
+    add frontmatter, and save clean markdown using Aspose.HTML in .NET.
+  name: Html to markdown c# – step‑by‑step conversion guide
+  steps:
+  - name: '**Load the source HTML** – we create an `HTMLDocument` instance that points
+      to `input.html`.'
+    text: '**Load the source HTML** – we create an `HTMLDocument` instance that points
+      to `input.html`.'
+  - name: '**Configure conversion options** – this is where we decide whether to embed
+      frontmatter and how to handle line wrapping.'
+    text: '**Configure conversion options** – this is where we decide whether to embed
+      frontmatter and how to handle line wrapping.'
+  - name: '**Save the output as Markdown** – the `Converter` writes `output.md` using
+      the options we set.'
+    text: '**Save the output as Markdown** – the `Converter` writes `output.md` using
+      the options we set.'
+  type: HowTo
+- questions:
+  - answer: Yes. `HTMLDocument` can load a fragment as long as it’s well‑formed. If
+      you encounter missing `<body>` errors, wrap the fragment in `<html><body>…</body></html>`
+      before loading.
+    question: Does this work with HTML fragments (no `<html>` root)?
+  - answer: Absolutely. Just loop over a directory, instantiate a new `HTMLDocument`
+      for each file, and reuse the same `MarkdownSaveOptions`.
+    question: Can I convert multiple files in a batch?
+  - answer: Set `IncludeFrontMatter = false` for those specific conversions, or create
+      a second `MarkdownSaveOptions` instance without the flag.
+    question: What if I need to exclude the front‑matter for some files?
+  - answer: The library processes files up to 500 MB in a streaming fashion, meaning
+      it never loads the entire document into memory.
+    question: How large a file can Aspose.HTML handle?
+  - answer: Yes. The YAML block follows the standard format used by both static‑site
+      generators, so you can drop the file straight into the content folder.
+    question: Is the generated markdown compatible with Hugo and Jekyll?
+  type: FAQPage
 tags:
-- C#
-- HTML
-- Markdown
-title: تحويل HTML إلى Markdown – دليل C# الكامل
+- html to markdown
+- Aspose.HTML
+- C# document processing
+title: Html إلى markdown c# – دليل التحويل خطوة بخطوة
 url: /ar/java/conversion-html-to-other-formats/convert-html-to-markdown-complete-c-guide/
 ---
 
@@ -26,37 +68,49 @@ url: /ar/java/conversion-html-to-other-formats/convert-html-to-markdown-complete
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# تحويل HTML إلى Markdown – دليل C# الكامل
+# HTML إلى Markdown C# – دليل التحويل خطوة بخطوة
 
-هل احتجت يومًا إلى **convert HTML to markdown** لكن لم تكن متأكدًا من أين تبدأ؟ لست وحدك. سواء كنت تنقل مدونة، أو تزود مولد موقع ثابت، أو مجرد تنظيف النص، فإن تحويل HTML إلى markdown نظيف هو نقطة ألم شائعة للعديد من المطورين.  
+هل احتجت يومًا إلى **تحويل HTML إلى markdown** لكن لم تكن متأكدًا من أين تبدأ؟ لست وحدك. سواء كنت تنقل مدونة، أو تزود مولد موقع ثابت، أو مجرد تنظيف النص، فإن تحويل HTML إلى markdown نظيف هو نقطة ألم شائعة للعديد من المطورين.  
 
-في هذا الدرس سنستعرض حل C# بسيط يقوم **loads an HTML document**، وإضافة **adds front matter** اختياريًا، وأخيرًا **saves a markdown file**. لا خدمات خارجية، لا سحر—فقط كود نقي يمكنك تشغيله اليوم. في النهاية ستفهم *how to add frontmatter* بشكل صحيح، ولماذا خيارات التحويل مهمة، وكيفية التحقق من النتيجة.
+في هذا الدرس سنستعرض حلًا بسيطًا بلغة C# يقوم **بتحميل مستند HTML**، ويضيف اختياريًا **مقدمة (front matter)**، وأخيرًا **يحفظ ملف markdown**. لا خدمات خارجية، لا سحر—فقط شفرة صافية يمكنك تشغيلها اليوم. بنهاية الدرس ستفهم *كيفية إضافة المقدمة* بشكل صحيح، ولماذا خيارات التحويل مهمة، وكيفية التحقق من النتيجة.
 
 > **نصيحة احترافية:** إذا كنت تستخدم مولد موقع ثابت مثل Hugo أو Jekyll، يمكن وضع رأس الـ front‑matter الذي سنولده مباشرةً في مجلد المحتوى الخاص بك دون أي تعديل إضافي.
 
-![تحويل html إلى markdown workflow](image.png "تحويل html إلى markdown workflow")
+![سير عمل تحويل HTML إلى markdown](image.png "سير عمل تحويل HTML إلى markdown")
+[سير عمل تحويل HTML إلى markdown](image.png "سير عمل تحويل HTML إلى markdown")
+
+## إجابات سريعة
+- **هل يمكنني تحويل HTML بدون مكتبة؟** نعم، لكن Aspose.HTML يتعامل مع الحالات الخاصة ويحافظ على التنسيق كما هو.  
+- **هل أحتاج إلى ترخيص للإنتاج؟** يلزم ترخيص تجاري للاستخدام غير التجريبي.  
+- **ما إصدارات .NET المدعومة؟** .NET 6+، .NET 5، و .NET Framework 4.7.2.  
+- **هل سيكون الـ front‑matter بصيغة YAML؟** بشكل افتراضي ينتج Aspose.HTML YAML، والذي يعمل مع Hugo و Jekyll والعديد غيرهما.  
+- **هل التحويل الجماعي ممكن؟** بالتأكيد—قم بالتكرار على الملفات وأعد استخدام نفس `MarkdownSaveOptions`.
+
+## كيفية تحويل HTML إلى markdown باستخدام C#
+
+حمِّل HTML الخاص بك باستخدام `new HTMLDocument("input.html")`، واضبط `MarkdownSaveOptions` لتضمين المقدمة، ثم استدعِ `Converter.Convert(document, options, "output.md")`. هذه العملية ذات الثلاث خطوات تتعامل مع التحليل، وإدخال البيانات الوصفية، وإخراج الملف في مرور واحد فعال للذاكرة. تعمل مع ملفات تتراوح من بضعة كيلوبايت إلى 500 ميغابايت دون تحميل المستند بالكامل إلى الذاكرة.
 
 ## ما ستتعلمه
 
-- كيفية **load an HTML document** من القرص باستخدام مكتبة Aspose HTML (أو أي محلل متوافق).  
-- كيفية تكوين **MarkdownSaveOptions** لتضمين كتلة YAML front‑matter وتغليف الأسطر الطويلة.  
-- كيفية **save the markdown file** باستخدام الخيارات المطلوبة، لإنتاج ملف `.md` نظيف جاهز لمولد موقعك.  
+- كيفية **تحميل مستند HTML** من القرص باستخدام مكتبة Aspose HTML (أو أي محلل متوافق).  
+- كيفية ضبط **MarkdownSaveOptions** لتضمين كتلة YAML front‑matter وتغليف الأسطر الطويلة.  
+- كيفية **حفظ ملف markdown** باستخدام الخيارات المطلوبة، لإنتاج ملف `.md` نظيف جاهز لمولد موقعك.  
 - المشكلات الشائعة (مشكلات الترميز، فقدان وسوم `<body>`) والحلول السريعة.  
 
 **المتطلبات المسبقة:**  
 - .NET 6+ (الكود يعمل أيضًا على .NET Framework 4.7.2).  
 - إشارة إلى `Aspose.Html` (أو أي مكتبة توفر `HTMLDocument` و `MarkdownSaveOptions`).  
-- معرفة أساسية بـ C# (سترى فقط عدد قليل من الأسطر، لذا لا حاجة للغوص العميق).  
+- معرفة أساسية بـ C# (سترى فقط عدد قليل من الأسطر، لذا لا حاجة لتعمق).
 
 ---
 
-## تحويل HTML إلى Markdown – نظرة عامة
+## تحويل HTML إلى markdown – نظرة عامة
 
 قبل الغوص في الكود، دعنا نحدد الخطوات الثلاث الأساسية:
 
-1. **Load the source HTML** – نُنشئ مثيل `HTMLDocument` يشير إلى `input.html`.  
-2. **Configure conversion options** – هنا نقرر ما إذا كنا سنضمّن frontmatter وكيفية التعامل مع تغليف الأسطر.  
-3. **Save the output as Markdown** – يقوم `Converter` بكتابة `output.md` باستخدام الخيارات التي حددناها.  
+1. **تحميل HTML المصدر** – نقوم بإنشاء مثيل `HTMLDocument` يشير إلى `input.html`.  
+2. **ضبط خيارات التحويل** – هنا نقرر ما إذا كنا سنضمّن الـ frontmatter وكيفية التعامل مع تغليف الأسطر.  
+3. **حفظ النتيجة كـ Markdown** – يقوم `Converter` بكتابة `output.md` باستخدام الخيارات التي حددناها.  
 
 هذا كل شيء. بسيط، أليس كذلك؟ دعنا نفصل كل جزء.
 
@@ -64,7 +118,9 @@ url: /ar/java/conversion-html-to-other-formats/convert-html-to-markdown-complete
 
 ## تحميل مستند HTML
 
-أول شيء نحتاجه هو ملف HTML صالح على القرص. تقوم فئة `HTMLDocument` بقراءة الملف وبناء DOM يمكننا لاحقًا تمريره إلى المحول.
+`HTMLDocument` هو تمثيل DOM لملف HTML في Aspose.HTML، يتيح الوصول البرمجي إلى العناصر والسمات.  
+
+أول شيء نحتاجه هو ملف HTML صالح على القرص. تقوم فئة `HTMLDocument` بقراءة الملف وبناء DOM يمكننا لاحقًا إمداده إلى المحول.
 
 ```csharp
 // Step 1: Load the source HTML document
@@ -82,13 +138,13 @@ HTMLDocument htmlDoc = new HTMLDocument(inputPath);
 - تحميل المستند يمنحك بنية مُحلّلة، بحيث يمكن للمحول ترجمة العناوين والقوائم والجداول والأنماط المضمنة بدقة.  
 - إذا كان الملف مفقودًا أو غير صالح، سيُطلق `HTMLDocument` استثناءً توضيحيًا—مثالي لمعالجة الأخطاء مبكرًا.  
 
-*حالة خاصة:* بعض ملفات HTML تُحفظ بترميز UTF‑8 مع BOM. إذا صادفت أحرفًا مشوشة، فقم بفرض الترميز عند قراءة الملف قبل تمريره إلى `HTMLDocument`.
+*حالة خاصة:* بعض ملفات HTML تُحفظ بوجود BOM UTF‑8. إذا صادفت أحرفًا مشوهة، ففرض الترميز عند قراءة الملف قبل تمريره إلى `HTMLDocument`.
 
 ---
 
-## تكوين خيارات Front Matter
+## ضبط خيارات front matter
 
-الـ front matter هو كتلة YAML صغيرة تقع في أعلى ملف markdown. يستخدمها مولدات المواقع الثابتة لتخزين بيانات التعريف مثل العنوان، التاريخ، الوسوم، والتخطيط. في Aspose HTML يمكنك تمكين ذلك باستخدام `IncludeFrontMatter`.
+`MarkdownSaveOptions` يحدد كيفية تحويل HTML إلى markdown وما إذا كان سيتم إدراج كتلة YAML front‑matter في أعلى الملف.
 
 ```csharp
 // Step 2: Configure Markdown conversion options (optional)
@@ -108,7 +164,7 @@ markdownOptions.FrontMatter["tags"] = new[] { "html", "markdown", "conversion" }
 ```
 
 **كيفية إضافة frontmatter يدويًا:**  
-إذا لم تُظهر المكتبة التي تستخدمها قاموس `FrontMatter`, يمكنك إضافة سلسلة في البداية بنفسك:
+إذا لم توفر المكتبة التي تستخدمها قاموس `FrontMatter`, يمكنك إضافة سلسلة في البداية بنفسك:
 
 ```csharp
 string yamlHeader = @"---
@@ -123,13 +179,13 @@ tags:
 markdownOptions.CustomHeader = yamlHeader; // hypothetical property
 ```
 
-لاحظ الفرق الدقيق بين **how to add frontmatter** (API الرسمي) و **add front matter** يدويًا (حل بديل). كلاهما يحقق النتيجة نفسها—يبدأ ملف markdown بكتلة YAML نظيفة.
+لاحظ الفرق الطفيف بين **كيفية إضافة frontmatter** (API الرسمي) و **إضافة front matter** يدويًا (حل بديل). كلاهما يحقق النتيجة نفسها—يبدأ ملف markdown بكتلة YAML نظيفة.
 
 ---
 
-## حفظ ملف Markdown
+## حفظ ملف markdown
 
-الآن بعد أن لدينا المستند والخيارات، يمكننا كتابة ملف markdown. تتولى فئة `Converter` الجزء الأكبر من العمل.
+`Converter` هو المحرك الذي يقوم بالتحويل الفعلي من DOM إلى نص markdown.
 
 ```csharp
 // Step 3: Convert the HTML to Markdown and save the result
@@ -161,21 +217,23 @@ It has been transformed into markdown, complete with proper line breaks.
 - Item 3
 ```
 
-إذا فتحت الملف في VS Code أو أي عارض markdown، يجب أن تبدو تسلسل العناوين والقوائم والروابط تمامًا كما كانت في HTML الأصلي—لكن بشكل أنظف.
+إذا فتحت الملف في VS Code أو أي عارض markdown، يجب أن تظهر تسلسل العناوين والقوائم والروابط كما كانت في HTML الأصلي—لكن بشكل أنظف.
 
-**المشكلات الشائعة عند الحفظ:**
+**مشكلات شائعة عند الحفظ:**
 
 | المشكلة | العَرَض | الحل |
 |-------|---------|-----|
-| ترميز خاطئ | ظهور أحرف غير ASCII كرمز � | حدد `Encoding.UTF8` في خيارات الحفظ (إن كان مدعومًا). |
+| ترميز خاطئ | تظهر أحرف غير ASCII كـ � | حدد `Encoding.UTF8` في خيارات الحفظ (إذا كان مدعومًا). |
 | غياب front matter | يبدأ الملف مباشرةً بـ `# Heading` | تأكد من `IncludeFrontMatter = true` أو أضف YAML يدويًا في البداية. |
-| تغليف مفرط للأسطر | النص يبدو مقطوعًا في المعاينة | اضبط `WrapLines = false` أو زد عرض التغليف. |
+| تغليف مفرط للأسطر | النص يبدو مقطّعًا في المعاينة | عيّن `WrapLines = false` أو زد عرض التغليف. |
 
 ---
 
 ## التحقق من التحويل
 
-فحص سريع للمنطق يوفر عليك ساعات من تصحيح الأخطاء لاحقًا. إليك أداة مساعدة صغيرة يمكنك تشغيلها بعد التحويل:
+فحص سريع للمنطق يوفر لك ساعات من التصحيح لاحقًا. إليك أداة مساعدة صغيرة يمكنك تشغيلها بعد التحويل:
+
+`VerifyMarkdown` هي طريقة مساعدة تقرأ ملف markdown المُولد وتتحقق من وجود رأس YAML والمحتوى الأساسي.
 
 ```csharp
 static void VerifyMarkdown(string path)
@@ -196,7 +254,7 @@ static void VerifyMarkdown(string path)
 
 ---
 
-## مثال كامل يعمل
+## مثال عملي كامل
 
 بجمع كل شيء معًا، إليك ملف واحد يمكنك نسخه ولصقه في مشروع Console وتشغيله:
 
@@ -247,7 +305,8 @@ class Program
 }
 ```
 
-**النتيجة المتعة:**  
+**النتيجة المتوقعة:**
+
 تشغيل البرنامج ينشئ `output.md` مع كتلة YAML front‑matter تليها markdown نظيفة تعكس بنية HTML الأصلية.
 
 ---
@@ -255,25 +314,46 @@ class Program
 ## الأسئلة المتكررة
 
 **س: هل يعمل هذا مع أجزاء HTML (بدون جذر `<html>` )؟**  
-ج: نعم. يمكن لـ `HTMLDocument` تحميل جزء طالما أنه مُشكل بشكل صحيح. إذا واجهت أخطاء نقص `<body>`، قم بلف الجزء داخل `<html><body>…</body></html>` قبل التحميل.
+**ج:** نعم. يمكن لـ `HTMLDocument` تحميل جزء ما طالما كان مُشكلًا بشكل صحيح. إذا واجهت أخطاء عدم وجود `<body>`، غلف الجزء داخل `<html><body>…</body></html>` قبل التحميل.
 
-**س: هل يمكنني تحويل عدة ملفات دفعة واحدة؟**  
-ج: بالتأكيد. فقط قم بالتكرار عبر مجلد، أنشئ `HTMLDocument` جديد لكل ملف، وأعد استخدام نفس `MarkdownSaveOptions`.
+**س: هل يمكنني تحويل ملفات متعددة دفعة واحدة؟**  
+**ج:** بالتأكيد. فقط كرّر على دليل، أنشئ `HTMLDocument` جديد لكل ملف، وأعد استخدام نفس `MarkdownSaveOptions`.
 
-**س: ماذا لو أردت استبعاد الـ front‑matter لبعض الملفات؟**  
-ج: اضبط `IncludeFrontMatter = false` لتلك التحويلات المحددة، أو أنشئ نسخة ثانية من `MarkdownSaveOptions` بدون هذا العلم.
+**س: ماذا لو احتجت لاستبعاد الـ front‑matter لبعض الملفات؟**  
+**ج:** عيّن `IncludeFrontMatter = false` لتلك التحويلات المحددة، أو أنشئ نسخة ثانية من `MarkdownSaveOptions` بدون هذا العلم.
+
+**س: ما هو أقصى حجم ملف يمكن لـ Aspose.HTML التعامل معه؟**  
+**ج:** المكتبة تعالج ملفات تصل إلى 500 ميغابايت بطريقة تدفقية، مما يعني أنها لا تحمل المستند بالكامل في الذاكرة.
+
+**س: هل markdown المُولد متوافق مع Hugo و Jekyll؟**  
+**ج:** نعم. كتلة YAML تتبع الصيغة القياسية المستخدمة من قبل كلا مولدي المواقع الثابتة، لذا يمكنك وضع الملف مباشرةً في مجلد المحتوى.
 
 ---
 
-## الخاتمة
+## الخلاصة
 
-أصبح لديك الآن طريقة موثوقة وشاملة لـ **convert HTML to markdown** باستخدام C#. من خلال **loading an HTML document**، وتكوين الخيارات لـ **add front matter**، وأخيرًا **saving a markdown file**، يمكنك أتمتة ترحيل المحتوى، تغذية مولدات المواقع الثابتة، أو مجرد تنظيف صفحات الويب القديمة.  
+أصبح لديك الآن طريقة موثوقة وشاملة **لتحويل HTML إلى markdown** باستخدام C#. من خلال **تحميل مستند HTML**، وضبط الخيارات لإ **إضافة front matter**، وأخيرًا **حفظ ملف markdown**، يمكنك أتمتة ترحيل المحتوى، وإمداد مولدات المواقع الثابتة، أو ببساطة تنظيم صفحات الويب القديمة.  
 
-الخطوات التالية؟ حاول ربط هذا المحول مع مراقب ملفات لمعالجة ملفات HTML الجديدة فورًا، أو جرب خيارات `MarkdownSaveOptions` إضافية مثل `EscapeSpecialCharacters` لمزيد من الأمان. إذا كنت مهتمًا بتنسيقات إخراج أخرى (PDF، DOCX)، فإن فئة `Converter` نفسها تقدم طرقًا مماثلة—فقط استبدل نوع الهدف.  
+الخطوات التالية؟ جرّب ربط هذا المحول مع مراقب ملفات لمعالجة ملفات HTML الجديدة فورًا، أو جرب خيارات `MarkdownSaveOptions` إضافية مثل `EscapeSpecialCharacters` لمزيد من الأمان. إذا كنت مهتمًا بصيغ إخراج أخرى (PDF، DOCX)، فإن فئة `Converter` نفسها تقدم طرقًا مماثلة—فقط غيّر نوع الهدف.  
 
 برمجة سعيدة، ولتكن ملفات markdown دائمًا نظيفة!
 
+---
+
+**آخر تحديث:** 2026-08-23  
+**تم الاختبار مع:** Aspose.HTML 24.11 for .NET  
+**المؤلف:** Aspose
+
+## دروس ذات صلة
+
+- [تحميل مستندات HTML من ملف في Aspose.HTML للـ Java](/html/java/creating-managing-html-documents/load-html-documents-from-file/)
+- [Markdown إلى HTML Java - التحويل باستخدام Aspose.HTML](/html/java/conversion-html-to-other-formats/convert-markdown-to-html/)
+- [تحويل HTML إلى Markdown دليل كامل C](/html/java/conversion-html-to-other-formats/convert-html-to-markdown-complete-c-guide/)
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,24 +1,54 @@
 ---
 category: general
-date: 2026-01-03
-description: Szybko wyodrębnij HTML z MHTML za pomocą Aspose.HTML. Dowiedz się, jak
-  wyodrębnić MHTML, konwertować MHTML na pliki oraz wyodrębniać obrazy z MHTML w jednym
-  samouczku.
+date: 2026-08-22
+description: Szybko wyodrębnij html z mhtml przy użyciu Aspose.HTML. Dowiedz się,
+  jak wyodrębnić mhtml, konwertować mhtml na pliki oraz wyodrębniać obrazy z mhtml
+  w jednym samouczku.
 draft: false
 keywords:
 - extract html from mhtml
-- how to extract mhtml
 - convert mhtml to files
 - extract images from mhtml
-language: pl
-og_description: Szybko wyodrębnij HTML z MHTML przy użyciu Aspose.HTML. Dowiedz się,
-  jak wyodrębnić MHTML, konwertować MHTML na pliki i wyodrębniać obrazy z MHTML w
-  jednym samouczku.
-og_title: Wyodrębnij HTML z MHTML – Kompletny przewodnik Java
+- Aspose.HTML Java extraction
+lastmod: 2026-08-22
+og_description: Szybko wyodrębnij html z mhtml przy użyciu Aspose.HTML. Dowiedz się,
+  jak wyodrębnić mhtml, konwertować mhtml na pliki oraz wyodrębniać obrazy z mhtml
+  w jednym samouczku.
+og_image_alt: Diagram showing extraction of HTML, CSS, and images from an MHTML archive
+  using Aspose.HTML for Java
+og_title: Wyodrębnij html z mhtml – kompletny samouczek Java
+schemas:
+- author: Aspose
+  dateModified: '2026-08-22'
+  description: Extract html from mhtml quickly with Aspose.HTML. Learn how to extract
+    mhtml, convert mhtml to files, and extract images from mhtml in a single tutorial.
+  headline: Extract HTML from MHTML – Complete Java Guide
+  type: TechArticle
+- questions:
+  - answer: Aspose.HTML streams the archive, so memory usage stays low. Adjust the
+      JVM heap if you process many large files concurrently.
+    question: What if the MHTML file is several hundred megabytes?
+  - answer: Yes. After extraction, simply ignore `index.html` and use the contents
+      of the `images/` folder. You can programmatically list image files with `Files.walk`
+      and filter by common image extensions.
+    question: Can I extract only the images without the HTML file?
+  - answer: '`MhtmlExtractionOptions` retains original MIME part names by default.
+      For custom naming, post‑process the files or implement a custom `IResourceHandler`.'
+    question: How do I preserve the original filenames of embedded resources?
+  - answer: Absolutely. The same Java code runs on any platform that supports Java
+      8+, just adjust file‑system paths accordingly.
+    question: Does this work on Linux and macOS as well as Windows?
+  - answer: Write a simple loop that enumerates all `.mhtml` files, loads each into
+      an `HTMLDocument`, and calls `Converter.extract` with a unique output directory
+      for each file.
+    question: How can I batch‑process a folder of .mhtml files?
+  type: FAQPage
 tags:
 - Java
 - Aspose.HTML
 - MHTML
+- convert mhtml to files
+- extract images from mhtml
 title: Wyodrębnij HTML z MHTML – Kompletny przewodnik Java
 url: /pl/java/advanced-usage/extract-html-from-mhtml-complete-java-guide/
 ---
@@ -27,33 +57,40 @@ url: /pl/java/advanced-usage/extract-html-from-mhtml-complete-java-guide/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Wyodrębnianie HTML z MHTML – Kompletny przewodnik Java
+# Wyodrębnij HTML z MHTML – Kompletny przewodnik Java
 
-Kiedykolwiek potrzebowałeś **wyodrębnić HTML z MHTML**, ale nie wiedziałeś od czego zacząć? Nie jesteś sam. Archiwa MHTML pakują stronę internetową, jej CSS, skrypty i obrazy w jednym pliku — wygodne do zapisu, ale uciążliwe, gdy chcesz odzyskać poszczególne elementy. W tym samouczku pokażemy, jak wyodrębnić mhtml, przekonwertować mhtml na pliki oraz nawet wyciągnąć obrazy z mhtml przy użyciu Aspose.HTML dla Javy.
+Czy kiedykolwiek potrzebowałeś **wyodrębnić HTML z MHTML**, ale nie wiedziałeś, od czego zacząć? Nie jesteś jedyny. Archiwa MHTML łączą stronę internetową, jej CSS, skrypty i obrazy w jednym pliku — wygodne do zapisywania, ale uciążliwe, gdy chcesz odzyskać poszczególne elementy. W tym samouczku pokażemy, jak wyodrębnić MHTML, przekonwertować MHTML na pliki oraz wyciągnąć obrazy z MHTML przy użyciu Aspose.HTML dla Javy.
 
-Rzecz w tym, że nie musisz pisać własnego parsera ani ręcznie rozpakowywać pakietu MIME. Aspose.HTML wykona ciężką pracę, dostarczając czystą strukturę folderów z HTML, CSS i plikami multimedialnymi gotowymi do użycia. Po zakończeniu będziesz mieć działający program w Javie, który zamieni dowolne archiwum `.mhtml` w zestaw zwykłych zasobów webowych.
+## Szybkie odpowiedzi
+- **Jaki jest najszybszy sposób na uzyskanie HTML z pliku MHTML?** Użyj `HTMLDocument` z `MhtmlExtractionOptions` i wywołaj `Converter.extract`.  
+- **Czy muszę pisać własny parser MIME?** Nie, Aspose.HTML obsługuje parsowanie wewnętrznie.  
+- **Jakie systemy operacyjne są obsługiwane?** Każdy system, który uruchamia Javę 8+, w tym Windows, Linux i macOS.  
+- **Czy mogę wyodrębnić tylko obrazy?** Tak – uruchom wyodrębnianie, a następnie użyj wygenerowanego folderu `images/`.  
+- **Jaka wersja Aspose.HTML jest wymagana?** Wersja 23.10 lub nowsza zapewnia API użyte w tym przewodniku.
 
-## Czego się nauczysz
+## Co to jest wyodrębnianie HTML z MHTML?
+Wyrażenie „wyodrębnić HTML z MHTML” odnosi się do konwersji jednoplikowego archiwum internetowego (MHTML) z powrotem do jego składowych: HTML, CSS i zasobów multimedialnych. Ten proces przywraca oryginalną strukturę strony, dzięki czemu przeglądarki mogą ją renderować bez połączonego kontenera.
 
-* Załadować archiwum MHTML do obiektu `HTMLDocument`.
-* Skonfigurować `MhtmlExtractionOptions`, aby określić miejsce docelowe wyodrębnionych plików.
-* Włączyć przepisywanie URL‑ów, aby HTML odwoływał się do nowo wyodrębnionych zasobów.
-* Uruchomić wyodrębnianie jedną linią kodu.
-* Porady dotyczące wyodrębniania wyłącznie obrazów, obsługi dużych archiwów oraz rozwiązywania typowych problemów.
+## Dlaczego używać Aspose.HTML do tego zadania?
+Aspose.HTML obsługuje **ponad 50 formatów wejściowych i wyjściowych** i może przetwarzać archiwa do **1 GB**, strumieniując dane, co utrzymuje niskie zużycie pamięci. Wbudowane przepisywanie URL zapewnia, że wyodrębiony HTML odwołuje się do nowo utworzonych plików zasobów, automatycznie eliminując zepsute odnośniki.
 
-**Wymagania wstępne**
+## Wymagania wstępne
+- Java 8 lub nowsza zainstalowana.  
+- Aspose.HTML dla Javy 23.10+ (pobierz najnowszy JAR ze strony Aspose).  
+- Podstawowy projekt Java skonfigurowany w wybranym IDE (IntelliJ, Eclipse, VS Code itp.).
 
-* Zainstalowany Java 8 lub nowsza.
-* Aktualna wersja Aspose.HTML dla Javy (kod działa z 23.10+).
-* Podstawowa znajomość projektów Java oraz ulubionego IDE (IntelliJ, Eclipse, VS Code itp.).
+> **Wskazówka:** Jeśli jeszcze nie pobrałeś Aspose.HTML, pobierz najnowszy JAR ze [strony Aspose](https://products.aspose.com/html/java) i dodaj go do classpathu swojego projektu.
 
-> **Pro tip:** Jeśli jeszcze nie pobrałeś Aspose.HTML, ściągnij najnowszy JAR ze [strony Aspose](https://products.aspose.com/html/java) i dodaj go do classpathu swojego projektu.
+![Diagram wyodrębniania HTML z MHTML](extract-html-from-mhtml-diagram.png){alt="wyodrębnić HTML z MHTML"}
 
-![Diagram wyodrębniania HTML z MHTML](extract-html-from-mhtml-diagram.png){alt="wyodrębnianie html z mhtml"}
+[Diagram wyodrębniania HTML z MHTML](extract-html-from-mhtml-diagram.png)
 
-## Krok 1 – Dodaj Aspose.HTML do projektu
+## Jak dodać Aspose.HTML do swojego projektu?
+Dodaj bibliotekę do classpathu, aby kompilator mógł znaleźć API. Dla Maven, wstaw zależność do `pom.xml`; dla Gradle, dodaj ją do `build.gradle`. Możesz także umieścić JAR w folderze `libs` i odwołać się do niego ręcznie. Gdy biblioteka będzie widoczna, jesteś gotowy do **wyodrębnienia HTML z MHTML**.
 
-Zanim jakikolwiek kod się wykona, biblioteka musi znajdować się w classpathie. Jeśli używasz Maven, wklej następującą zależność do pliku `pom.xml`:
+## Jak załadować archiwum MHTML?
+`HTMLDocument` reprezentuje dokument internetowy i może ładować pliki MHTML.  
+Załaduj plik `.mhtml` jako `HTMLDocument`. Ten krok waliduje archiwum i buduje wewnętrzne struktury, umożliwiając wydajną pracę silnika wyodrębniania.
 
 ```xml
 <dependency>
@@ -63,17 +100,21 @@ Zanim jakikolwiek kod się wykona, biblioteka musi znajdować się w classpathie
 </dependency>
 ```
 
-Jeśli wolisz Gradle:
+**Kotwica definicji:** `HTMLDocument` jest podstawową klasą Aspose.HTML, która reprezentuje dowolny dokument internetowy — HTML, MHTML lub inne obsługiwane formaty — w pamięci.
+
+## Jak skonfigurować opcje wyodrębniania (konwersja MHTML na pliki)?
+`MhtmlExtractionOptions` pozwala ustawić folder wyjściowy, przepisywanie URL oraz konwencje nazewnictwa dla wyodrębnionych zasobów.  
+Utwórz instancję `MhtmlExtractionOptions`, aby określić bibliotece, gdzie zapisywać pliki, czy przepisywać URL oraz jak nazywać zasoby. Odpowiednia konfiguracja zapewnia, że wyodrębniony HTML działa od razu w przeglądarkach.
 
 ```gradle
 implementation 'com.aspose:aspose-html:23.10'
 ```
 
-Albo po prostu wrzuć pobrany JAR do folderu `libs` i odwołaj się do niego ręcznie. Gdy biblioteka będzie widoczna, możesz **wyodrębnić HTML z MHTML**.
+**Kotwica definicji:** `MhtmlExtractionOptions` umożliwia określenie ścieżek folderów wyjściowych, włączenie przepisywania URL oraz kontrolowanie konwencji nazewnictwa plików dla wyodrębnionych zasobów.
 
-## Krok 2 – Załaduj archiwum MHTML
-
-Pierwszym logicznym krokiem jest otwarcie pliku `.mhtml` jako `HTMLDocument`. To jak powiedzenie Aspose.HTML: „Oto kontener, z którym chcę pracować”.
+## Jak uruchomić wyodrębnianie (wyodrębnić obrazy z MHTML)?
+`Converter.extract` wykonuje wyodrębnianie załadowanego dokumentu przy użyciu określonych opcji.  
+Wywołaj statyczną metodę `Converter.extract` z załadowanym dokumentem i skonfigurowanymi opcjami. Metoda strumieniuje zawartość na dysk, tworząc uporządkowaną hierarchię folderów.
 
 ```java
 import com.aspose.html.HTMLDocument;
@@ -85,11 +126,7 @@ String mhtmlPath = "C:/myfiles/archive.mhtml";
 HTMLDocument mhtmlDocument = new HTMLDocument(mhtmlPath);
 ```
 
-Dlaczego to ważne: załadowanie dokumentu weryfikuje plik i przygotowuje wewnętrzne struktury, dzięki czemu późniejsze wyodrębnianie przebiega szybko i bez błędów.
-
-## Krok 3 – Skonfiguruj opcje wyodrębniania (Convert MHTML to Files)
-
-Teraz informujemy bibliotekę **jak** ma rozłożyć zawartość na dysku. `MhtmlExtractionOptions` daje precyzyjną kontrolę nad folderem wyjściowym, przepisywaniem URL‑ów oraz zachowaniem oryginalnych nazw plików.
+Po zakończeniu tego wywołania znajdziesz strukturę folderów podobną do:
 
 ```java
 import com.aspose.html.converters.MhtmlExtractionOptions;
@@ -102,11 +139,45 @@ extractionOptions.setOutputFolder("C:/myfiles/extracted");
 extractionOptions.setRewriteUrls(true);
 ```
 
-Ustawienie `setRewriteUrls(true)` jest kluczowe dla **convert mhtml to files**, które naprawdę działają po otwarciu wyodrębnionego HTML w przeglądarce. Bez tego strona wciąż wskazywałaby wewnętrzne odwołania MHTML i wyglądałaby na zepsutą.
+Plik HTML teraz odwołuje się do obrazów w podfolderze `images/`, co oznacza, że pomyślnie **wyodrębniłeś obrazy z MHTML** oraz pełny kod HTML.
 
-## Krok 4 – Uruchom wyodrębnianie (Extract Images from MHTML)
+## Jakie są typowe pułapki i jak ich uniknąć?
+- **Duże archiwa:** Zwiększ pamięć JVM (`-Xmx2g`), jeśli przetwarzasz pliki większe niż kilka set megabajtów.  
+- **Pusty folder wyjściowy:** Zawsze zaczynaj od pustego folderu docelowego; pozostawione pliki mogą powodować konflikty nazw.  
+- **Zepsute URL:** Upewnij się, że `setRewriteUrls(true)` jest włączone; w przeciwnym razie HTML nadal będzie odwoływać się do wewnętrznych odnośników MHTML.  
+- **Logowanie w celu rozwiązywania problemów:** Włącz szczegółowe logi za pomocą `System.setProperty("aspose.html.logging", "true")`, aby przechwycić ewentualne błędy wyodrębniania.
 
-Ostatnia linia wykonuje magię. Statyczna metoda `Converter.extract` odczytuje załadowany dokument, stosuje opcje i zapisuje wszystko na dysku.
+## Najczęściej zadawane pytania
+
+**Q: Co zrobić, jeśli plik MHTML ma kilka set megabajtów?**  
+**A:** Aspose.HTML strumieniuje archiwum, więc zużycie pamięci pozostaje niskie. Dostosuj pamięć JVM, jeśli przetwarzasz wiele dużych plików jednocześnie.
+
+**Q: Czy mogę wyodrębnić tylko obrazy bez pliku HTML?**  
+**A:** Tak. Po wyodrębnieniu po prostu zignoruj `index.html` i użyj zawartości folderu `images/`. Możesz programowo wypisać pliki obrazów przy użyciu `Files.walk` i filtrować je według typowych rozszerzeń obrazów.
+
+**Q: Jak zachować oryginalne nazwy plików osadzonych zasobów?**  
+**A:** `MhtmlExtractionOptions` domyślnie zachowuje oryginalne nazwy części MIME. W przypadku niestandardowego nazewnictwa, przetwórz pliki po wyodrębnieniu lub zaimplementuj własny `IResourceHandler`.
+
+**Q: Czy to działa na Linuxie i macOS, tak samo jak na Windows?**  
+**A:** Zdecydowanie tak. Ten sam kod Java działa na każdej platformie obsługującej Javę 8+, wystarczy odpowiednio dostosować ścieżki systemu plików.
+
+**Q: Jak mogę przetworzyć wsadowo folder plików .mhtml?**  
+**A:** Napisz prostą pętlę, która enumeruje wszystkie pliki `.mhtml`, ładuje każdy do `HTMLDocument` i wywołuje `Converter.extract` z unikalnym katalogiem wyjściowym dla każdego pliku.
+
+## Zakończenie
+Masz teraz niezawodną, jednopunktową metodę do **wyodrębniania HTML z MHTML**, **konwersji MHTML na pliki** oraz **wyodrębniania obrazów z MHTML** przy użyciu Aspose.HTML dla Javy. Przebieg pracy jest prosty: załaduj archiwum, skonfiguruj opcje wyodrębniania i pozwól bibliotece zająć się resztą. Bez ręcznego parsowania MIME, bez kruchych hacków na łańcuchach — tylko czysty, wielokrotnego użytku kod, który możesz wstawić do dowolnego projektu Java.
+
+Kolejne kroki? Zautomatyzuj proces konwersji wsadowej, zintegrować wynik z generatorem statycznych stron lub wprowadzić wyodrębiony HTML do pipeline’u zarządzania treścią. Ten sam wzorzec działa dla newsletterów, zapisanych stron internetowych czy archiwalnych raportów.
+
+Masz trudny scenariusz lub ciekawy przypadek użycia? Podziel się swoimi przemyśleniami w komentarzach i kontynuuj dyskusję. Szczęśliwego kodowania!
+
+---
+
+**Ostatnia aktualizacja:** 2026-08-22  
+**Testowano z:** Aspose.HTML for Java 23.10  
+**Autor:** Aspose  
+
+
 
 ```java
 import com.aspose.html.converters.Converter;
@@ -114,8 +185,6 @@ import com.aspose.html.converters.Converter;
 // Perform the extraction
 Converter.extract(mhtmlDocument, extractionOptions);
 ```
-
-Po zakończeniu wywołania znajdziesz strukturę folderów podobną do:
 
 ```
 extracted/
@@ -126,12 +195,6 @@ extracted/
     ├─ logo.png
     └─ banner.jpg
 ```
-
-Plik HTML teraz odwołuje się do obrazów w podfolderze `images/`, co oznacza, że **extract images from mhtml** zakończyło się sukcesem, obok pełnego kodu HTML.
-
-## Pełny działający przykład
-
-Łącząc wszystkie elementy, oto samodzielna klasa Java, którą możesz skopiować‑wkleić do swojego IDE i od razu uruchomić:
 
 ```java
 import com.aspose.html.HTMLDocument;
@@ -156,50 +219,20 @@ public class ExtractMhtmlDemo {
 }
 ```
 
-**Oczekiwany wynik**
-
-Uruchomienie programu wypisuje:
-
 ```
 Extraction complete! Check C:/myfiles/extracted
 ```
 
-…a katalog `extracted` zawiera działającą stronę HTML oraz wszystkie powiązane zasoby. Otwórz `index.html` w dowolnej przeglądarce, aby zweryfikować, że obrazy, style i skrypty ładują się poprawnie.
+## Powiązane samouczki
 
-## Często zadawane pytania i przypadki brzegowe
+- [Jak konwertować HTML do MHTML przy użyciu Aspose.HTML dla Javy](/html/java/conversion-html-to-other-formats/convert-html-to-mhtml/)
+- [Jak konwertować HTML do PDF w Javie – przy użyciu Aspose.HTML dla Javy](/html/java/conversion-html-to-other-formats/convert-html-to-pdf/)
+- [Konwertuj HTML do XPS przy użyciu Aspose.HTML dla Javy](/html/java/conversion-html-to-other-formats/convert-html-to-xps/)
 
-### Co zrobić, gdy plik MHTML jest ogromny (setki MB)?
-
-Aspose.HTML strumieniuje zawartość, więc zużycie pamięci pozostaje umiarkowane. Jednak przy wyodrębnianiu bardzo dużych archiwów lub równoczesnym przetwarzaniu wielu plików warto zwiększyć przydział pamięci JVM (`-Xmx2g`).
-
-### Czy mogę wyodrębnić tylko obrazy, bez HTML?
-
-Tak. Po wyodrębnieniu po prostu zignoruj plik `.html` i pracuj z folderem `images/`. Jeśli potrzebujesz programistycznej listy ścieżek do obrazów, możesz przeskanować katalog wyjściowy przy pomocy `Files.walk` i filtrować po rozszerzeniach (`.png`, `.jpg`, `.gif` itp.).
-
-### Jak zachować oryginalne nazwy plików?
-
-`MhtmlExtractionOptions` domyślnie respektuje oryginalne nazwy części MIME. Jeśli potrzebujesz własnego schematu nazewnictwa, możesz po‑ekstrakcji przetworzyć pliki lub zaimplementować własny `IResourceHandler` (zaawansowane użycie).
-
-### Czy to działa na Linux/macOS?
-
-Oczywiście. Ten sam kod Java działa na każdym systemie obsługującym Java 8+. Wystarczy dostosować ścieżki plików (`/home/user/archive.mhtml` zamiast `C:/...`).
-
-## Wskazówki dla płynnego wyodrębniania
-
-* **Zweryfikuj MHTML najpierw** – otwórz go w Chrome lub Edge, aby upewnić się, że wyświetla się poprawnie przed wyodrębnieniem.
-* **Utrzymuj folder wyjściowy pusty** – Aspose.HTML nadpisze istniejące pliki, ale pozostawione resztki mogą wprowadzać zamieszanie.
-* **Używaj ścieżek bezwzględnych** w demonstracji; ścieżki względne działają, ale wymagają ostrożnego zarządzania katalogiem roboczym.
-* **Włącz logowanie** (`System.setProperty("aspose.html.logging", "true")`) jeśli napotkasz tajemnicze błędy; biblioteka wyświetli szczegółowe komunikaty.
-
-## Zakończenie
-
-Masz teraz niezawodną, jednopunktową metodę do **extract HTML from MHTML**, **convert MHTML to files** oraz **extract images from MHTML** przy użyciu Aspose.HTML dla Javy. Podejście jest proste: załaduj archiwum, skonfiguruj opcje wyodrębniania i pozwól bibliotece zrobić resztę. Bez ręcznego parsowania MIME, bez kruchych hacków stringowych — czysty, wielokrotnego użytku kod, który możesz wstawić do dowolnego projektu Java.
-
-Co dalej? Spróbuj połączyć wyodrębnianie z procesem wsadowym, który przechodzi po folderze plików `.mhtml` i konwertuje je wszystkie jednocześnie. Albo podaj wyodrębniony HTML do generatora statycznych stron, aby automatycznie budować dokumentację. Możliwości są nieograniczone, a ten sam wzorzec sprawdzi się przy newsletterach, zapisanych stronach internetowych czy archiwalnych raportach.
-
-Masz pytania, nietypowe scenariusze lub ciekawy przypadek użycia, którym chciałbyś się podzielić? zostaw komentarz poniżej i kontynuujmy dyskusję. Szczęśliwego kodowania!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

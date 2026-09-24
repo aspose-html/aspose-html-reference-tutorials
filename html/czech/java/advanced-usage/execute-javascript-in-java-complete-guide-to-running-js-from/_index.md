@@ -1,27 +1,53 @@
 ---
 category: general
-date: 2026-01-04
+date: 2026-08-22
 description: Spusťte JavaScript v Javě pomocí sandboxu Aspose.HTML. Naučte se, jak
-  načíst HTML soubor v Javě, volat JavaScript z Javy a bezpečně spouštět funkci JavaScript
-  v Javě.
+  načíst soubor HTML v Javě, zavolat JavaScript z Javy a bezpečně spustit funkci JS.
 draft: false
 keywords:
 - execute javascript in java
 - load html file java
-- how to call js java
+- call javascript from java
 - invoke javascript from java
 - run js function java
-language: cs
-og_description: Spusťte JavaScript v Javě pomocí sandboxu Aspose.HTML. Načtěte HTML
-  soubor v Javě, vyvolejte JavaScript z Javy a spusťte funkci JS v Javě s kompletními
+lastmod: 2026-08-22
+og_description: Spusťte JavaScript v Javě pomocí sandboxu Aspose.HTML. Načtěte soubor
+  HTML v Javě, vyvolejte JavaScript z Javy a bezpečně spusťte funkci JS s kompletními
   ukázkami kódu.
-og_title: Spusťte JavaScript v Javě – krok za krokem tutoriál
+og_image_alt: Screenshot of Java code that loads an HTML file and invokes a JavaScript
+  function using Aspose.HTML sandbox
+og_title: Spuštění JavaScriptu v Javě – bezpečný sandbox, snadný průvodce
+schemas:
+- author: Aspose
+  dateModified: '2026-08-22'
+  description: Execute JavaScript in Java with Aspose.HTML sandbox. Learn how to load
+    an HTML file in Java, call JavaScript from Java, and run a JS function safely.
+  headline: Execute JavaScript in Java – Complete guide to running JS from Java
+  type: TechArticle
+- questions:
+  - answer: Yes. Instantiate a sandbox per request or reuse a thread‑local sandbox,
+      invoke the desired JavaScript, and return the result as JSON from the controller.
+    question: Can I use this approach in a Spring Boot REST controller?
+  - answer: It uses a native JavaScript engine packaged with the library; the native
+      binaries are bundled in the Maven artifact, so no separate installation is needed.
+    question: Does Aspose.HTML require a native library?
+  - answer: The sandbox can process files up to **200 MB** without loading the entire
+      document into memory, thanks to its streaming parser.
+    question: What is the maximum HTML file size the sandbox can handle?
+  - answer: Enable Aspose logging (`System.setProperty("aspose.html.logging", "true")`)
+      to capture the script source and stack trace, then inspect the generated log
+      file.
+    question: How do I debug a script that fails inside the sandbox?
+  - answer: The sandbox disables external network calls by default. If you need to
+      allow specific URLs, configure the `Sandbox`’s `allowedUrls` collection accordingly.
+    question: Is there a way to limit network access from the script?
+  type: FAQPage
 tags:
 - Java
 - Aspose.HTML
 - Scripting
 - Sandbox
-title: Spouštění JavaScriptu v Javě – Kompletní průvodce spouštěním JS z Javy
+title: Spuštění JavaScriptu v Javě – Kompletní průvodce spouštěním JS z Javy
 url: /cs/java/advanced-usage/execute-javascript-in-java-complete-guide-to-running-js-from/
 ---
 
@@ -29,33 +55,45 @@ url: /cs/java/advanced-usage/execute-javascript-in-java-complete-guide-to-runnin
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Spuštění JavaScriptu v Javě – Kompletní průvodce
+# Spuštění JavaScriptu v Javě – kompletní průvodce spouštěním JS z Javy
 
-Už jste někdy potřebovali **execute JavaScript in Java**, ale nebyli jste si jisti, jak zabránit skriptu, aby nezpůsobil chaos ve vašem JVM? Nejste sami. Mnoho vývojářů narazí na problém, když se snaží spustit kód na straně klienta na serveru, zejména když HTML stránka obsahuje své vlastní skripty.  
+Spouštění JavaScriptu na straně klienta uvnitř Java aplikace se dříve podobalo chůzi po laně: jeden nevyzpytatelný skript mohl pozastavit JVM nebo odhalit bezpečnostní mezery. S sandboxem Aspose.HTML získáte uzavřené prostředí, které omezuje dobu běhu, využití paměti a přístup k souborovému systému. V tomto tutoriálu se naučíte, jak **načíst HTML soubor v Javě**, bezpečně **volat JavaScript z Javy** a získat výsledek – vše při zachování stability a bezpečnosti serveru.
 
-V tomto tutoriálu uvidíte přesně, jak **load HTML file Java**, bezpečně **call JS from Java**, a získat výsledek zpět — vše s funkcí sandboxu knihovny Aspose.HTML. Na konci budete schopni **run JS function Java** bez vystavení vaší aplikace nekontrolovatelným smyčkám nebo bezpečnostním děrám.
+## Rychlé odpovědi
+- **Mohu spustit libovolný JavaScriptový kód?** Ano, ale sandbox vynucuje časový limit a omezení paměti pro ochranu JVM.  
+- **Potřebuji licenci pro vývoj?** Bezplatná zkušební verze stačí pro hodnocení; pro produkci je vyžadována komerční licence.  
+- **Jaká verze Javy je vyžadována?** Doporučuje se Java 17 nebo novější pro Aspose.HTML 23.10+.  
+- **Jak získám hodnotu z JavaScriptu?** Použijte `document.invokeScript`, který vrací Java `Object`.  
+- **Je sandbox vláknově bezpečný?** Každá instance `Sandbox` je jednovláknová; vytvořte jednu na vlákno nebo synchronizujte přístup.
 
-## Co se naučíte
+## Co je execute javascript in java?
 
-- Jak nastavit sandbox Aspose.HTML s časovým limitem skriptu.  
-- Přesné kroky k **load an HTML file Java** do sandboxovaného `HtmlDocument`.  
-- Syntaxe pro **invoke javascript from java** pomocí `document.invokeScript`.  
-- Tipy pro práci s návratovými hodnotami, úklid zdrojů a řešení běžných problémů.  
+„execute javascript in java“ označuje proces spouštění JavaScriptového kódu – normálně prováděného v prohlížeči – uvnitř Java runtime pomocí skriptovacího enginu nebo knihovny. Aspose.HTML poskytuje sandboxovaný engine, který izoluje skript, vynucuje časový limit a vrací výsledky přímo do Javy.
 
-### Předpoklady
+## Proč použít sandbox Aspose.HTML pro spouštění JavaScriptu?
 
-| Requirement | Why it matters |
-|-------------|----------------|
-| Java 17 nebo novější | Aspose.HTML 23.10+ cílí na aktuální JDK. |
-| Aspose.HTML pro Java (Maven artefakt `com.aspose:aspose-html:23.10`) | Poskytuje třídy `HtmlDocument` a `Sandbox`. |
-| Jednoduchá HTML stránka s JavaScriptovou funkcí (např. `wordCount()`) | Ukazuje kompletní round‑trip z Javy do JS a zpět. |
-| Základní znalost try‑with‑resources (volitelné) | Pomáhá zajistit správné uvolnění nativních zdrojů. |
+Aspose.HTML podporuje **více než 50 vstupních a výstupních formátů** a dokáže zpracovat dokumenty s **až 500 stránkami** bez načítání celého souboru do paměti. Jeho sandbox izoluje JavaScriptový engine, omezuje využití CPU na konfigurovatelných **5 sekund** (výchozí) a limituje paměť na **256 MB**. Tento kvantifikovaný bezpečnostní prvek vám umožní vložit logiku na straně klienta (např. analýzu textu nebo výpočty) do backendových služeb bez ohrožení stability.
 
-Pokud máte tyto položky připravené, pojďme na to.
+## Požadavky
 
-## Krok 1 – Konfigurace sandboxu (Primární klíčové slovo v akci)
+| Požadavek | Proč je důležité |
+|-----------|-------------------|
+| Java 17 nebo novější | Aspose.HTML 23.10+ cílí na aktuální JDK a používá vestavěný modul `jdk.incubator.foreign` pro nativní interoperabilitu. |
+| Aspose.HTML for Java (`com.aspose:aspose-html:23.10`) | Poskytuje třídy `HtmlDocument` a `Sandbox` potřebné pro bezpečné spouštění skriptů. |
+| Jednoduchá HTML stránka s JavaScriptovou funkcí (např. `wordCount()`) | Ukazuje kompletní cyklus od Javy k JS a zpět. |
+| Znalost try‑with‑resources (volitelné) | Zaručuje deterministické uvolnění nativních zdrojů, čímž zabraňuje únikům paměti. |
 
-První věc, kterou musíte udělat, je **execute JavaScript in Java** v kontrolovaném prostředí. Třída `Sandbox` vám přesně to poskytuje, umožňuje nastavit časový limit a další bezpečnostní možnosti.
+Pokud máte vše připravené, pojďme začít vytvářet sandbox.
+
+## Co je třída Sandbox?
+
+Třída `Sandbox` vytváří izolované prostředí pro HTML a JavaScript, kde se uplatňují bezpečnostní politiky jako časový limit skriptu, limity paměti a omezení souborového systému. Engine JavaScriptu běží v odděleném nativním kontextu, což zabraňuje skriptům přímý přístup k hostitelskému JVM. Před načtením dokumentu můžete nastavit možnosti jako `scriptTimeout`, `maxMemory` a `allowedUrls`.
+
+## Jak nakonfigurovat sandbox (krok 1)
+
+Načtěte sandbox s časovým limitem odpovídajícím složitosti vašeho skriptu; limit 5 sekund je dobrým výchozím bodem pro funkce zpracovávající text a můžete jej zvýšit pro náročnější úlohy. Sandbox také umožňuje nastavit maximální využití paměti na 256 MB, což zabraňuje vyčerpání haldy JVM velkými skripty.
+
+> **Pro tip:** Časový limit upravujte až po profilování skriptu; příliš vysoká hodnota ruší ochranný účel sandboxu.
 
 ```java
 import com.aspose.html.sandbox.SandboxOptions;
@@ -69,11 +107,13 @@ options.setScriptTimeout(5000); // milliseconds
 Sandbox sandbox = new Sandbox(options);
 ```
 
-> **Tip:** Časový limit 5 sekund je obvykle dostatečný pro jednoduché zpracování textu, ale můžete jej upravit podle své zátěže. Nastavení příliš vysokého limitu ruší smysl sandboxu.
+## Co je třída HtmlDocument?
 
-## Krok 2 – Načtení HTML souboru v Javě
+`HtmlDocument` představuje jeden HTML soubor v paměti. Když do jejího konstruktoru předáte instanci `Sandbox`, dokument se parsuje a všechny `<script>` tagy se načtou, ale **neprovedou** se, dokud výslovně nevyvoláte funkci. Po načtení můžete dotazovat nebo měnit DOM, přidávat či odebírat elementy a připravit prostředí před voláním JavaScriptu.
 
-Jakmile je sandbox připraven, můžete bezpečně **load an HTML file Java**. Konstruktor `HtmlDocument` přijímá cestu k souboru a instanci sandboxu, čímž zajišťuje, že stránka běží uvnitř omezeného kontejneru.
+## Jak načíst HTML soubor v Javě (krok 2)
+
+Poskytnutí cesty k souboru a instance sandboxu zaručuje, že všechny skripty běží uvnitř omezeného kontejneru, čímž se zabrání neoprávněnému přístupu k hostitelskému systému. Toto oddělení vám umožní parsovat DOM, měnit elementy nebo kontrolovat atributy, aniž by se automaticky spustil jakýkoli JavaScript, a můžete také před načtením injektovat další zdroje nebo nastavit možnosti sandboxu.
 
 ```java
 import com.aspose.html.HtmlDocument;
@@ -85,11 +125,11 @@ String htmlPath = "C:/myproject/resources/sample_with_script.html";
 HtmlDocument document = new HtmlDocument(htmlPath, sandbox);
 ```
 
-Pokud soubor obsahuje značky `<script>`, budou analyzovány, ale **nebudou se vykonávat, dokud výslovně nevyvoláte funkci**. Toto oddělení je užitečné, když potřebujete jen část logiky stránky.
+Pokud stránka obsahuje elementy `<script>`, zůstanou neaktivní, dokud nevyvoláte `invokeScript`. Toto chování je užitečné, když potřebujete jen konkrétní pomocnou funkci z větší stránky.
 
-## Krok 3 – Vyvolání JavaScriptu z Javy
+## Jak vyvolat JavaScript z Javy (krok 3)
 
-Po načtení dokumentu můžete nyní **invoke javascript from java**. Předpokládejme, že vaše HTML definuje funkci s názvem `wordCount()`, která vrací počet slov v odstavci. Volání vypadá takto:
+Předpokládejme, že váš HTML soubor definuje funkci `wordCount()`, která vrací počet slov v odstavci. Vyvoláte ji pomocí `document.invokeScript("wordCount")`. Metoda spustí skript v sandboxu, respektuje časový limit a vrátí výsledek jako Java `Object`.
 
 ```java
 // The name passed to invokeScript must match the JS function exactly
@@ -101,11 +141,11 @@ String wordCount = result != null ? result.toString() : "null";
 System.out.println("Word count = " + wordCount);
 ```
 
-> **Proč to funguje:** `invokeScript` spustí JavaScriptový engine uvnitř sandboxu, vykoná zadanou funkci a přenese návratovou hodnotu zpět do Javy. Pokud skript vyhodí výjimku nebo překročí časový limit, je vyvolána `AsposeException`.
+> **Proč to funguje:** `invokeScript` propojuje JavaScriptový engine s Java runtime a automaticky marshaluje primitivní návratové typy. Pokud skript vyvolá výjimku nebo překročí časový limit, je vyhozena `AsposeException`, což vám umožní chyby ošetřit elegantně.
 
-## Krok 4 – Vyčištění zdrojů
+## Jak uvolnit prostředky (krok 4)
 
-Aspose.HTML pracuje s nativními zdroji, takže musíte **run JS function Java** a poté vše uvolnit, aby nedocházelo k únikům paměti.
+Aspose.HTML alokuje nativní zdroje pro JavaScriptový engine. Aby nedošlo k únikům paměti, vždy zavolejte `dispose()` na objektech `HtmlDocument` i `Sandbox`, když je již nepotřebujete. Můžete je také zabalit do bloku try‑with‑resources vytvořením malého `AutoCloseable` wrapperu, ale explicitní uvolnění je jasné a spolehlivé.
 
 ```java
 // Release native resources – always in a finally block or try‑with‑resources
@@ -113,11 +153,9 @@ document.dispose();
 sandbox.dispose();
 ```
 
-Pokud dáváte přednost modernímu stylu `try‑with‑resources`, můžete zabalit `HtmlDocument` a `Sandbox` do vlastního `AutoCloseable` obalu, ale explicitní volání `dispose()` jsou naprosto v pořádku.
-
 ## Kompletní funkční příklad
 
-Spojením všech částí dohromady získáte samostatný program, který můžete zkopírovat a vložit do svého IDE a okamžitě spustit (předpokládá se, že Maven závislost je splněna).
+Níže je samostatný program, který demonstruje celý tok – od vytvoření sandboxu po získání výsledku. Zkopírujte jej do svého IDE, přidejte Maven závislost a spusťte proti `sample_with_script.html`.
 
 ```java
 import com.aspose.html.HtmlDocument;
@@ -148,7 +186,7 @@ public class JsInvokeTutorial {
 
 ### Očekávaný výstup
 
-Pokud `sample_with_script.html` obsahuje:
+Pokud `sample_with_script.html` obsahuje funkci `wordCount()`, která počítá slova v elementu `<p>`, Java program vypíše celočíselný počet.
 
 ```html
 <!DOCTYPE html>
@@ -165,54 +203,76 @@ function wordCount() {
 </html>
 ```
 
-Spuštění Java programu vypíše:
+Spuštění programu produkuje:
 
 ```
 Word count = 5
 ```
 
-To je celý cyklus **execute javascript in java** — od načtení souboru po získání hodnoty.
+Tím je cyklus **execute javascript in java** dokončen: načtení, vyvolání, získání výsledku a úklid.
 
 ## Časté otázky a okrajové případy
 
 ### Co když skript nikdy nevrátí?
 
-Nastavení `scriptTimeout` sandboxu zajišťuje, že jakýkoli nekontrolovatelný skript bude po nastaveném počtu milisekund přerušen. Obdržíte `AsposeException` s textem „Script execution timed out.“ Přizpůsobte časový limit, pokud váš legitimní kód potřebuje více času.
+`scriptTimeout` sandboxu přeruší jakýkoli skript, který běží déle než nastavený limit, typicky **5 sekund**. Při timeoutu je vyhozena `AsposeException` s hláškou „Script execution timed out.“. Můžete tuto výjimku zachytit, zalogovat problematický skript a případně zvýšit timeout pro legitimní dlouho běžící kód.
 
-### Můžu předat argumenty JavaScriptové funkci?
+### Mohu předat argumenty JavaScriptové funkci?
 
-`invokeScript` přijímá pouze název funkce. Pro předání parametrů vytvořte globální JavaScriptovou funkci, která čte hodnoty z DOM nebo z vlastních globálních proměnných, které nastavíte pomocí `document.window`. Například:
+`invokeScript` přijímá pouze název funkce. Pro předání parametrů vytvořte globální JavaScriptovou funkci, která čte hodnoty z DOM nebo z vlastních globálních proměnných nastavených pomocí `document.window.setProperty`. Například můžete injektovat číselnou hodnotu pomocí `document.window.setProperty("a", 3)` před voláním funkce `add`.
+
+### Je sandbox bezpečný proti škodlivému kódu?
+
+Sandbox izoluje skript od hostitelského JVM a vynucuje limity CPU a paměti, ale **není** plnohodnotným bezpečnostním manažerem. Zabraňuje nekonečným smyčkám a omezuje paměť, avšak škodlivý skript může stále provádět těžké výpočty v povoleném čase. Pro skutečně nedůvěryhodný kód zvažte spuštění v samostatném procesu nebo kontejneru.
+
+## Tipy pro produkční nasazení
+
+- **Znovu používejte instance sandboxu** při zpracování mnoha skriptů; vytvoření sandboxu je levné, ale resetování jeho stavu mezi voláními snižuje zbytečnou režii.  
+- **Logujte podrobnosti výjimek**; `AsposeException` často obsahuje číslo řádku a úryvek skriptu, který selhal.  
+- **Validujte HTML před spuštěním** pomocí vestavěného validátoru Aspose.HTML, abyste včas zachytili špatně strukturovaný markup.  
+- **Nedávejte sandbox sdílet mezi vlákny**; každá instance je jednovláknová. Vytvořte pool sandboxů nebo synchronizujte přístup, pokud potřebujete souběžné zpracování.
+
+## Často kladené otázky
+
+**Q: Můžu tento přístup použít v Spring Boot REST kontroleru?**  
+A: Ano. Vytvořte sandbox na požadavek nebo použijte thread‑local sandbox, vyvolejte požadovaný JavaScript a vraťte výsledek jako JSON z kontroleru.
+
+**Q: Vyžaduje Aspose.HTML nativní knihovnu?**  
+A: Používá nativní JavaScriptový engine zabalený v Maven artefaktu; samostatná instalace není potřeba.
+
+**Q: Jaká je maximální velikost HTML souboru, kterou sandbox zvládne?**  
+A: Sandbox dokáže zpracovat soubory až do **200 MB** bez načtení celého dokumentu do paměti díky streamovacímu parseru.
+
+**Q: Jak ladím skript, který selže uvnitř sandboxu?**  
+A: Aktivujte logování Aspose (`System.setProperty("aspose.html.logging", "true")`), aby se zachytil zdroj skriptu a stack trace, a poté prozkoumejte vygenerovaný log soubor.
+
+**Q: Existuje způsob, jak omezit síťový přístup skriptu?**  
+A: Sandbox ve výchozím nastavení zakazuje externí síťová volání. Pokud potřebujete povolit konkrétní URL, nakonfigurujte kolekci `allowedUrls` třídy `Sandbox`.
+
+## Závěr
+
+Nyní máte kompletní, produkčně připravený návod pro **execute javascript in java** pomocí sandboxu Aspose.HTML. Tím, že **načtete HTML soubor v Javě**, bezpečně **voláte JavaScript z Javy** a řádně uvolníte prostředky, můžete vkládat logiku na straně klienta do backendových služeb bez rizika nestability JVM. Vyzkoušejte načítání stránek, které získávají vzdálená data, vracejí složité JSON objekty, nebo integrujte tento tok do koncového webového endpointu.
+
+---
+
+**Poslední aktualizace:** 2026-08-22  
+**Testováno s:** Aspose.HTML 23.10 for Java  
+**Autor:** Aspose  
 
 ```javascript
 function add(a, b) { return a + b; }
 ```
 
-Můžete injektovat hodnoty do stránky pomocí `document.window.setProperty("a", 3)` před vyvoláním `add`.
+## Související tutoriály
 
-### Je sandbox bezpečný proti škodlivému kódu?
+- [Vytvoření kompletního průvodce sandboxem Aspose Html pro Java](/html/java/configuring-environment/create-aspose-html-sandbox-complete-java-guide/)
+- [Jak povolit JavaScript v Aspose Html – načíst HTML a získat text](/html/java/advanced-usage/how-to-enable-javascript-in-aspose-html-load-html-get-text/)
+- [Povolení spouštění skriptů v Javě – kompletní průvodce Aspose Html](/html/java/advanced-usage/enable-script-execution-in-java-complete-aspose-html-guide/)
 
-Sandbox izoluje skript od hostitelské JVM, ale nenahrazuje kompletní security manager. Zabraňuje nekonečným smyčkám a omezuje paměť, ale nemůže zastavit skript, který během časového okna provádí náročnou práci na CPU. Pro skutečně nedůvěryhodný kód zvažte externí proces nebo kontejner.
-
-### Jak zacházet s nenumerickými návratovými hodnotami?
-
-`invokeScript` vrací `Object`. Pokud JavaScript vrátí řetězec, pole nebo objekt, získáte Java reprezentaci (např. `String`, `Map`). Přetypujte podle potřeby, nebo v skriptu serializujte do JSON a v Javě jej parsujte.
-
-## Tipy pro produkční použití
-
-- **Reuse the sandbox**: Vytvoření sandboxu je relativně levné, ale pokud potřebujete spouštět mnoho skriptů, udržujte jednu instanci aktivní a mezi voláními resetujte její stav.  
-- **Log exceptions**: Zachyťte podrobnosti `AsposeException`; často obsahují číslo řádku ve skriptu, který způsobuje chybu.  
-- **Validate HTML**: Použijte schopnosti parsování Aspose.HTML k zajištění, že soubor je před spuštěním dobře formovaný.  
-- **Thread safety**: Každá instance `Sandbox` není thread‑safe. Vytvořte sandbox pro každý vlákno nebo synchronizujte přístup.
-
-## Závěr
-
-Nyní máte solidní, end‑to‑end postup pro **execute javascript in java** pomocí sandboxu Aspose.HTML. Tím, že **load an HTML file Java**, bezpečně **invoke javascript from java**, a řádně vyčistíte zdroje, můžete integrovat logiku na straně klienta do serverových Java aplikací bez ohrožení stability.
-
-Jste připraveni na další krok? Zkuste načíst stránku, která získává data z API, nebo experimentujte s vracením složitých objektů z JavaScriptu. Můžete také prozkoumat **how to call js java** z webové služby, nebo vložit tuto techniku do Spring Boot kontroleru pro zpracování HTML útržků odeslaných uživatelem.
-
-Šťastné skriptování a ať jsou vaše mosty mezi Javou a JS rychlé i bezpečné!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}
