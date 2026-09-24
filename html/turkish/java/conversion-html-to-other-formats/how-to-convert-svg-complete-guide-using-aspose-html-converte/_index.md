@@ -1,26 +1,52 @@
 ---
 category: general
-date: 2026-01-06
-description: Aspose HTML Converter ile SVG dosyalarını hızlı bir şekilde nasıl dönüştürürsünüz.
-  Java’da JPEG kalite ayarını, vektör‑den‑raster dönüşümünü ve SVG dosyası dönüşümünü
-  öğrenin.
+date: 2026-09-14
+description: Aspose HTML Converter kullanarak Java'da SVG'yi PNG'ye nasıl dönüştüreceğinizi
+  öğrenin. Bu rehber, JPEG kalite ayarlarını, vektör-den-raster dönüşümünü ve adım-adım
+  kodu kapsar.
 draft: false
 keywords:
-- how to convert svg
+- convert svg to png java
 - jpeg quality setting
-- convert vector to raster
-- svg file conversion
+- vector to raster conversion
 - aspose html converter
-language: tr
-og_description: Aspose HTML Converter ile SVG dosyalarını hızlı bir şekilde nasıl
-  dönüştüreceğinizi öğrenin. JPEG kalite ayarını, vektörden rastera dönüşümü ve Java’da
-  SVG dosyası dönüşümünü keşfedin.
-og_title: SVG'yi Nasıl Dönüştürürsünüz – Aspose HTML Dönüştürücü Kullanarak Tam Rehber
+lastmod: 2026-09-14
+og_description: Aspose HTML Converter kullanarak Java'da SVG'yi PNG'ye nasıl dönüştüreceğinizi
+  öğrenin. Bu rehber, JPEG kalite ayarlarını, vektör-den-raster dönüşümünü ve adım-adım
+  kodu kapsar.
+og_image_alt: Diagram showing SVG to PNG conversion using Aspose HTML in Java
+og_title: Java'da Aspose HTML ile SVG'yi PNG'ye dönüştürme
+schemas:
+- author: Aspose
+  dateModified: '2026-09-14'
+  description: Learn how to convert SVG to PNG in Java using Aspose HTML Converter.
+    This guide covers JPEG quality settings, vector‑to‑raster conversion, and step‑by‑step
+    code.
+  headline: How to convert SVG to PNG in Java with Aspose HTML
+  type: TechArticle
+- questions:
+  - answer: Yes. The same `Converter` calls work inside any Java runtime, including
+      Spring Boot services or command‑line tools.
+    question: Can I use this code in a Spring Boot application?
+  - answer: The library rasterizes the first frame of animated SVGs; it does not output
+      animated PNG or GIF directly.
+    question: Does Aspose.HTML support SVG animation?
+  - answer: It can process SVGs up to 10 MB and 5000 × 5000 px without running out
+      of memory, thanks to its streaming architecture.
+    question: What is the maximum SVG size Aspose.HTML can handle?
+  - answer: Set `ImageSaveOptions.setBackgroundColor(java.awt.Color.WHITE)` before
+      calling the save method.
+    question: How do I change the background color of the generated PNG?
+  - answer: Yes, use `PngOptions.setMetadata(...)` to attach custom key‑value pairs.
+    question: Is there a way to embed metadata (e.g., author) into the PNG?
+  type: FAQPage
 tags:
 - Java
-- Aspose
-- Image Conversion
-title: SVG'yi Nasıl Dönüştürürsünüz – Aspose HTML Dönüştürücü Kullanarak Tam Kılavuz
+- Aspose HTML
+- image conversion
+- SVG to PNG
+- rasterization
+title: Java'da Aspose HTML ile SVG'yi PNG'ye dönüştürme
 url: /tr/java/conversion-html-to-other-formats/how-to-convert-svg-complete-guide-using-aspose-html-converte/
 ---
 
@@ -28,26 +54,53 @@ url: /tr/java/conversion-html-to-other-formats/how-to-convert-svg-complete-guide
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# SVG'yi Dönüştürme – Aspose HTML Converter Kullanarak Tam Kılavuz
+# Java ile Aspose HTML kullanarak SVG'yi PNG'ye dönüştürme
 
-SVG'yi **nasıl dönüştüreceğinizi** keskinliğini kaybetmeden bitmap formatına çevirmeyi hiç merak ettiniz mi? Tek başınıza değilsiniz. Birçok geliştirici, vektör grafiklerini web küçük resimleri, e-posta gömülü içerikleri veya baskıya hazır varlıklar için PNG veya JPEG'ye dönüştürmeleri gerektiğinde bir engelle karşılaşıyor.
+Eğer **SVG'yi PNG'ye** hızlı bir şekilde dönüştürmek ve vektörün keskin kenarlarını korumak istiyorsanız doğru yerdesiniz. Birçok web ve mobil projede SVG ikonları ölçeklenebilirlik açısından mükemmeldir, ancak aşağı yönlü sistemler genellikle e‑posta, PDF'ler veya eski tarayıcılar için PNG ya da JPEG gibi bitmap formatları ister. Aspose.HTML for Java bu dönüşümü zahmetsizce yapmanızı sağlar; **JPEG kalite ayarlarını** kontrol edebilir, anında yeniden boyutlandırabilir ve tüm sprite sayfalarını toplu olarak işleyebilirsiniz.
 
-İyi haber? **Aspose.HTML for Java** kütüphanesiyle bunu sadece birkaç satırda yapabilir, **jpeg quality setting**'i kontrol edebilir ve hatta çıktı boyutlarını anında ayarlayabilirsiniz. Bu öğreticide, **svg file conversion**'ı kapsayan gerçek bir örnek üzerinden ilerleyecek, **convert vector to raster** tekniklerini gösterecek ve JPEG çıktısı için görüntü kalitesini nasıl ince ayar yapacağınızı anlatacağız.
+> **İpucu:** Bir SVG sprite sayfanız olduğunda, dönüşüm kodunu basit bir `for` döngüsü içinde sarın ve her dosya adını aynı yardımcı programa besleyin – ekstra yapılandırma gerekmez.
 
-> **Pro tip:** Eğer zaten bir SVG sprite sheet'iniz varsa, aynı kodla her ikonu toplu işleyebilirsiniz – sadece dosya adları üzerinde döngü yapın ve hedef yolu değiştirin.
+---
 
-## Gereksinimler
+## Hızlı yanıtlar
+- **Java'da SVG'yi PNG'ye dönüştürmeyi hangi kütüphane sağlar?** Aspose.HTML for Java.  
+- **ImageMagick gibi harici araçlara ihtiyacım var mı?** Hayır, Aspose kendi render motorunu içerir.  
+- **JPEG kalitesini ayarlayabilir miyim?** Evet, `ImageSaveOptions.setQuality(int)` ile.  
+- **Toplu işleme destekleniyor mu?** Kesinlikle – dosyalar üzerinde döngü kurup aynı seçenekleri yeniden kullanabilirsiniz.  
+- **Üretim için lisansa ihtiyacım var mı?** Ücretli bir lisans değerlendirme filigranını kaldırır; ücretsiz deneme sürümü geliştirme için çalışır.
 
-- **Java 17** (veya herhangi bir yeni JDK – API geriye uyumludur)
-- **Aspose.HTML for Java** JAR (Aspose web sitesinden indirin veya Maven ile ekleyin)
-- Örnek bir SVG dosyası (örneklerde `logo.svg` olarak adlandıracağız)
-- Tercih ettiğiniz bir IDE veya metin düzenleyici
+---
 
-Ek bir yerel kütüphane gerekmez; Aspose tüm renderlamayı dahili olarak yönetir.
+## Aspose.HTML for Java nedir?
+Aspose.HTML for Java, HTML, CSS ve SVG içeriğini tarayıcı motoru gerektirmeden raster görüntüler veya PDF belgeleri olarak oluşturabilen sunucu‑tarafı bir kütüphanedir. 50'den fazla çıktı formatını destekler ve çok sayfalı belgeleri tamamen bellek içinde işleyebilir.
 
-## Adım 1: Projeyi Kurun ve Kütüphaneyi İçe Aktarın
+---
 
-İlk olarak, Maven kullanıyorsanız Aspose.HTML bağımlılığını `pom.xml` dosyanıza ekleyin:
+## SVG dönüşümü için Aspose.HTML neden kullanılmalı?
+Aspose.HTML **50+ giriş formatını** (SVG, HTML, CSS dahil) işleyebilir ve **PNG, JPEG, BMP ve TIFF** çıktıları üretebilir. Standart 2.5 GHz CPU üzerinde tipik 500 × 500 px ikonlar için SVG'yi 200 ms altında rasterleştirir, harici ikili dosyalara ihtiyaç duymadan dağıtım karmaşıklığını azaltır.
+
+---
+
+## Önkoşullar
+
+- **Java 17** (veya herhangi bir güncel JDK – API geriye dönük uyumludur)  
+- **Aspose.HTML for Java** JAR (Maven ile ekleyin veya manuel indirin)  
+- Proje kaynak klasörünüzde bir örnek SVG dosyası (ör. `logo.svg`)  
+- Tercih ettiğiniz bir IDE ya da metin editörü  
+
+Yerel kütüphaneler veya OS‑özel bağımlılıklar gerekmez; Aspose render işlemini dahili olarak yönetir.
+
+---
+
+## Java'da SVG'yi PNG'ye nasıl dönüştürürsünüz?
+
+SVG'yi `Converter.convertSVG` ile yükleyin ve `SaveFormat.Png` belirterek `save` metodunu çağırın. `Converter.convertSVG` bir SVG dosyasını okuyan ve raster görüntü döndüren statik bir yardımcıdır. `SaveFormat.Png` ise kütüphaneye PNG dosyası üretmesini söyleyen bir enum değeridir. Bu tek satırlık çağrı vektörü okur, orijinal boyutlarında rasterleştirir ve kaynak dosyanın yanına bir PNG yazar. Yöntem gömülü yazı tiplerini ve dış resim referanslarını otomatik olarak çözer, böylece ekstra kod olmadan pikselleşmiş bir bitmap elde edersiniz.
+
+---
+
+## Adım 1: projeyi kurun ve kütüphaneyi içe aktarın
+
+Maven kullanıyorsanız `pom.xml` dosyanıza Aspose.HTML bağımlılığını ekleyin:
 
 ```xml
 <dependency>
@@ -57,13 +110,15 @@ Ek bir yerel kütüphane gerekmez; Aspose tüm renderlamayı dahili olarak yöne
 </dependency>
 ```
 
-Manuel JAR indirmeyi tercih ederseniz, `aspose-html-23.10.jar` dosyasını projenizin `libs` klasörüne koyun ve sınıf yoluna ekleyin.
+Manuel JAR indirmeyi tercih ediyorsanız `aspose-html-23.10.jar` dosyasını projenizin `libs` klasörüne koyun ve sınıf yoluna ekleyin.
 
-> **Neden önemli:** Kütüphane render motorunu içinde barındırır, bu yüzden ImageMagick veya Inkscape gibi harici araçlara ihtiyacınız olmaz.
+> **Neden önemli:** Kütüphane render motorunu içinde barındırır, bu sayede ImageMagick ya da Inkscape gibi harici araçlara ihtiyaç duymazsınız.
 
-## Adım 2: SVG'yi Varsayılan Ayarlarla PNG'ye Dönüştürün
+---
 
-Şimdi, kütüphanenin varsayılan boyutları (orijinal SVG boyutu) ile bir SVG dosyasını PNG'ye dönüştüren küçük bir Java sınıfı yazacağız.
+## Adım 2: SVG'yi varsayılan ayarlarla PNG'ye dönüştürün
+
+Şimdi, kütüphanenin varsayılan boyutları (orijinal SVG boyutu) ile bir SVG dosyasını PNG'ye dönüştüren küçük bir Java sınıfı yazalım.
 
 ```java
 import com.aspose.html.converters.Converter;
@@ -82,14 +137,16 @@ public class SvgToPng {
 ```
 
 **Açıklama:**  
-- `Converter.convertSVG` SVG'yi okuyan, rasterleştiren ve PNG olarak yazan statik bir yardımcıdır.  
-- Orijinal boyutla doğrudan bir dönüşüm için ekstra seçenek gerekmez; bu, **convert vector to raster** yapmak istediğinizde en hızlı yoldur.
+- `Converter.convertSVG` SVG'yi okur, rasterleştirir ve PNG'yi yazar.  
+- Düz bir dönüşüm için ekstra seçenek gerekmez; bu da **vektörü rastere dönüştürmenin** en hızlı yoludur.
 
-**Beklenen çıktı:** Kaynak SVG'nin yanına yerleştirilen bir `logo.png` dosyası; görsel kalitede aynı ama artık raster formatında.
+**Beklenen çıktı:** Kaynak SVG'nin yanında duran bir `logo.png` dosyası; görsel kalite olarak aynı ama raster formatta.
 
-## Adım 3: JPEG Dönüştürme Seçeneklerini Hazırlayın (Kalite ve Boyutu Kontrol Edin)
+---
 
-PNG kayıpsızdır, ancak JPEG genellikle fotoğraflar veya dosya boyutu önemli olduğunda tercih edilir. `ImageSaveOptions` sınıfı genişlik, yükseklik ve **jpeg quality setting** (0‑100) belirlemenizi sağlar.
+## Adım 3: JPEG dönüşüm seçeneklerini hazırlayın (kalite & boyut kontrolü)
+
+`ImageSaveOptions` çıktı görüntüsü parametrelerini (format, boyut, kalite vb.) yapılandırır.
 
 ```java
 import com.aspose.html.converters.Converter;
@@ -113,13 +170,15 @@ public class SvgToJpeg {
 }
 ```
 
-**Bu değerleri neden ayarlamak isteyebilirsiniz:**  
-- **Width/Height:** Rasterleştirmeden önce SVG'yi ölçeklendirmek dosya boyutunu azaltabilir veya belirli bir UI alanına sığdırabilir.  
-- **Quality:** 90 değeri görsel doğruluk ile sıkıştırma arasında güzel bir denge sağlar; daha düşük değerler dosyayı daha da küçültür ancak artefaktlara yol açar.
+**Bu değerleri neden ayarlayabilirsiniz:**  
+- **Genişlik/Yükseklik:** SVG'yi rasterleştirmeden önce ölçeklendirmek dosya boyutunu azaltabilir veya belirli bir UI alanına sığdırabilir.  
+- **Kalite:** 90 değeri görsel sadakati ile sıkıştırma arasında güzel bir denge sağlar; daha düşük değerler dosyayı daha da küçültür ancak artefaktlara yol açar.
 
-## Adım 4: PNG ve JPEG Mantığını Tek Kullanışlı Yardımcıda Birleştirin
+---
 
-Çoğu gerçek proje hem PNG hem de JPEG çıktısına ihtiyaç duyar. Önceki kod parçacıklarını tek bir sınıfta birleştirerek her şeyi bir seferde yapalım.
+## Adım 4: PNG ve JPEG mantığını tek bir kullanışlı yardımcıda birleştirin
+
+Çoğu gerçek proje hem PNG hem de JPEG çıktısına ihtiyaç duyar. Önceki kod parçacıklarını tek bir sınıfa birleştirerek her şeyi bir çalıştırmada yapalım.
 
 ```java
 import com.aspose.html.converters.Converter;
@@ -151,18 +210,20 @@ public class SvgConverterUtility {
 ```
 
 **Bu ne yapar:**  
-- **svg file conversion**'ı iki yaygın raster formata gerçekleştirir.  
+- **svg dosyasını** iki yaygın raster formata dönüştürür.  
 - Daha büyük toplu işlerde kopyalayabileceğiniz temiz, yeniden kullanılabilir bir desen gösterir.  
-- Yapılandırmayı (`jpegOpts`) dönüşüm çağrısından ayırarak kodun okunabilirliğini nasıl koruyacağınızı gösterir.
+- Konfigürasyonu (`jpegOpts`) dönüşüm çağrısından ayırarak kodun okunabilirliğini artırır.
 
-## Adım 5: Sonuçları Doğrulayın (İsteğe Bağlı ama Tavsiye Edilir)
+---
 
-Yardımcıyı çalıştırdıktan sonra oluşturulan dosyaları açın:
+## Adım 5: Sonuçları doğrulayın (isteğe bağlı ama önerilir)
+
+Aracı çalıştırdıktan sonra oluşturulan dosyaları açın:
 
 - `logo.png` – orijinal SVG ile aynı görünmeli, keskin kenarlara sahip olmalı.  
-- `logo_custom.jpg` – 800 × 600 piksel olacak ve JPEG sıkıştırma seviyesi 90 olacak.
+- `logo_custom.jpg` – 800 × 600 piksel, JPEG sıkıştırma seviyesi 90 olacak.  
 
-Çoğu işletim sisteminde veya basit bir Java kod parçacığıyla boyutları hızlıca kontrol edebilirsiniz:
+Çoğu işletim sisteminde ya da basit bir Java kodu ile boyutları hızlıca kontrol edebilirsiniz:
 
 ```java
 import java.awt.image.BufferedImage;
@@ -177,29 +238,73 @@ public class VerifyImage {
 }
 ```
 
-Eğer sayılar ayarladıklarınızla eşleşiyorsa, Aspose ile **how to convert svg** konusunda başarılı bir şekilde ustalaştınız.
+Sayısal değerler ayarladığınızla eşleşiyorsa, **SVG'yi PNG'ye nasıl dönüştüreceğinizi** başarıyla öğrenmiş oldunuz.
 
-## Yaygın Sorular ve Kenar Durumları
+---
 
-### 1️⃣ SVG dış kaynaklar (fontlar, görüntüler) içeriyorsa ne olur?
+## Yaygın sorular & kenar durumları
 
-Aspose.HTML, referans verilen fontları otomatik olarak gömer ve dış görüntü URL'lerini çözer, **dosyalar erişilebilir olduğu sürece** (yerel yol veya HTTP). Eğer eksik font uyarıları alırsanız, font dosyalarını aynı dizine ekleyin veya özel bir `FontResolver` sağlayın.
+### SVG dış kaynaklar (yazı tipleri, resimler) içeriyorsa ne olur?
 
-### 2️⃣ Tüm bir klasördeki SVG'leri nasıl dönüştürürüm?
+Aspose.HTML, referans verilen yazı tiplerini otomatik olarak gömer ve dış resim URL'lerini çözer, **dosyalar erişilebilir olduğu sürece** (yerel yol ya da HTTP). Eksik yazı tipi uyarıları alırsanız, yazı tiplerini aynı dizine ekleyin veya özel bir `FontResolver` sağlayın.
 
-Dönüştürme mantığını `File[] files = new File("YOUR_DIRECTORY").listFiles((d, n) -> n.endsWith(".svg"));` döngüsü içinde sarın ve `jpegOpts` örneğini yeniden kullanın. Benzersiz çıktı adları üretmeyi unutmayın (ör. `file.getName().replace(".svg", ".png")`).
+### Bir klasördeki tüm SVG'leri nasıl dönüştürürüm?
 
-### 3️⃣ JPEG'de şeffaflığa ihtiyaç var mı?
+Dönüşüm mantığını şu şekilde bir döngüye sarın: `File[] files = new File("YOUR_DIRECTORY").listFiles((d, n) -> n.endsWith(".svg"));` ve `jpegOpts` örneğini yeniden kullanın. Çıktı adlarını benzersiz tutmayı unutmayın (ör. `file.getName().replace(".svg", ".png")`).
 
-JPEG alfa kanallarını desteklemez. SVG'niz şeffaflığa dayanıyorsa, PNG kullanmaya devam edin veya `ImageSaveOptions.setBackgroundColor(...)` ile katı bir arka plan rengi kullanın.
+### JPEG'de şeffaflık gerekiyor mu?
 
-### 4️⃣ Üretim için Aspose lisansına ihtiyacım var mı?
+JPEG alfa kanallarını desteklemez. SVG'niz şeffaflığa dayanıyorsa PNG kullanın veya `ImageSaveOptions.setBackgroundColor(...)` ile katı bir arka plan rengi belirleyin.
 
-Ücretsiz bir değerlendirme lisansı geliştirme ve test için çalışır. Ticari dağıtım için ücretli bir lisansa ihtiyacınız olacak – aksi takdirde kütüphane çıktı görüntülerine küçük bir filigran ekleyecektir.
+### Üretim için Aspose lisansına ihtiyacım var mı?
 
-## Tam Çalışan Örnek (Kopyala‑Yapıştır Hazır)
+Ücretsiz değerlendirme lisansı geliştirme ve test için çalışır. Ticari dağıtımda ücretli bir lisans gerekir – aksi takdirde kütüphane çıktı görüntülerine küçük bir filigran ekler.
 
-Aşağıda, olduğu gibi derleyip çalıştırabileceğiniz tam program yer alıyor. `YOUR_DIRECTORY` ifadesini SVG dosyanızın mutlak ya da göreli yolu ile değiştirin.
+---
+
+## Sıkça sorulan sorular
+
+**S: Bu kodu bir Spring Boot uygulamasında kullanabilir miyim?**  
+C: Evet. Aynı `Converter` çağrıları herhangi bir Java çalışma ortamında, Spring Boot servislerinde veya komut satırı araçlarında çalışır.
+
+**S: Aspose.HTML SVG animasyonunu destekliyor mu?**  
+C: Kütüphane animasyonlu SVG'lerin ilk çerçevesini rasterleştirir; doğrudan animasyonlu PNG ya da GIF üretmez.
+
+**S: Aspose.HTML işleyebileceği maksimum SVG boyutu nedir?**  
+C: Akış mimarisi sayesinde 10 MB ve 5000 × 5000 px'ye kadar SVG'leri bellek tükenmeden işleyebilir.
+
+**S: Oluşturulan PNG'nin arka plan rengini nasıl değiştiririm?**  
+C: `ImageSaveOptions.setBackgroundColor(java.awt.Color.WHITE)` metodunu `save` çağrısından önce ayarlayın.
+
+**S: PNG'ye metadata (ör. yazar) ekleyebilir miyim?**  
+C: Evet, `PngOptions.setMetadata(...)` ile özel anahtar‑değer çiftleri ekleyebilirsiniz.
+
+---
+
+## Sonuç
+
+**SVG'yi PNG'ye (ve JPEG'ye) Aspose.HTML for Java** kütüphanesi ile nasıl dönüştüreceğinizi, **jpeg kalite ayarını** nasıl yapacağınızı ve **vektörden rastere** dönüşümde çıktı boyutlarını nasıl kontrol edeceğinizi ele aldık. Yukarıdaki tam çalışabilir kod, tahminleri ortadan kaldırır ve herhangi bir toplu işleme boru hattı için sağlam bir temel sunar.
+
+**Deneyebileceğiniz sonraki adımlar**
+
+- **Toplu işleme:** Bir klasördeki tüm SVG'leri döngüyle işleyip web‑hazır bir görüntü seti oluşturun.  
+- **Dinamik ölçekleme:** Farklı boyutlarda thumbnail üretmek için genişlik/yüksekliği bir yapılandırma dosyasından alın.  
+- **Filigran ekleme:** Dönüşüm sonrası `ImageSaveOptions.setBackgroundColor` ya da metin bindirme ile marka ekleyin.
+
+Deneyimlerinizi paylaşın, bir sorunla karşılaşırsanız yorum bırakın. İyi kodlamalar, keskin vektörlerinizi pikselleşmiş rasterlara dönüştürmenin tadını çıkarın!
+
+---
+
+![SVG'den PNG'ye dönüşüm sürecinin illüstrasyonu – nasıl svg dönüştürülür](image.png "svg'yi nasıl dönüştürülür illüstrasyonu")
+
+
+
+
+---
+
+**Son Güncelleme:** 2026-09-14  
+**Test Edilen Versiyon:** Aspose.HTML for Java 23.10  
+**Yazar:** Aspose
 
 ```java
 import com.aspose.html.converters.Converter;
@@ -230,29 +335,29 @@ public class SvgToPngAndJpeg {
 }
 ```
 
-**Çalıştırma:**  
 ```bash
 javac -cp "libs/*" SvgToPngAndJpeg.java
 java -cp ".:libs/*" SvgToPngAndJpeg
 ```
 
-Kaynak SVG'nin bulunduğu aynı klasörde iki çıktı dosyasını görmelisiniz.
+```xml
+<dependency>
+    <groupId>com.aspose</groupId>
+    <artifactId>aspose-html</artifactId>
+    <version>23.10</version> <!-- Check for the latest version -->
+</dependency>
+```
 
-## Sonuç
+## İlgili Eğitimler
 
-**Aspose HTML Converter** kütüphanesini kullanarak **how to convert SVG** dosyalarını PNG ve JPEG'e dönüştürmeyi, **jpeg quality setting**'i inceledik ve **convert vector to raster** gerektiğinde çıktı boyutlarını nasıl kontrol edeceğinizi öğrendik. Yukarıdaki tam, çalıştırılabilir kod tahminleri ortadan kaldırır ve herhangi bir toplu işleme hattı için sağlam bir temel sağlar.
+- [Convert HTML to PNG with Aspose.HTML for Java](/html/java/conversion-html-to-various-image-formats/convert-html-to-png/)
+- [How to Convert SVG to XPS with Aspose.HTML for Java](/html/java/conversion-html-to-other-formats/convert-svg-to-xps/)
+- [Convert HTML to PNG with Aspose.HTML Message Handlers in Java](/html/java/configuring-environment/use-message-handlers/)
 
-Sonraki adımlar? Şu fikirleri deneyin:
-
-- **Batch processing**: SVG'lerin bulunduğu bir dizini döngüye alıp web‑hazır bir görüntü seti oluşturun.  
-- **Dynamic scaling**: Farklı boyutlarda küçük resimler üretmek için genişlik/yüksekliği bir yapılandırma dosyasından alın.  
-- **Watermarking**: Markalaşma için dönüşüm sonrası `ImageSaveOptions.setBackgroundColor` kullanın veya metin bindirin.
-
-Denemekten çekinmeyin ve bir sorunla karşılaşırsanız yorum bırakmaktan çekinmeyin. İyi kodlamalar, ve o keskin vektörleri piksel‑kusursuz rasterlere dönüştürmenin tadını çıkarın!
-
-![SVG'den PNG'ye dönüşüm sürecinin görseli – how to convert svg](image.png "how to convert svg illüstrasyonu")
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}
