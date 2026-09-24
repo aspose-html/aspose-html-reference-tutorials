@@ -70,6 +70,8 @@ Aspose.HTML สำหรับ .NET นำเสนอวิธีการง�
 ### [สร้าง PNG จาก HTML ด้วย C# – คู่มือขั้นตอนโดยขั้นตอน](./create-png-from-html-in-c-step-by-step-guide/)
 ### [สร้าง PNG จาก HTML ด้วย C# – คู่มือการเขียนโปรแกรมเต็มรูปแบบ](./create-png-from-html-in-c-complete-programming-guide/)
 เรียนรู้วิธีแปลง HTML เป็นไฟล์ PNG อย่างละเอียดด้วย C# พร้อมขั้นตอนและตัวอย่างโค้ดครบถ้วน
+### [เรนเดอร์ HTML เป็น PNG ด้วย C# – คู่มือเต็มขั้นตอน](./render-html-to-png-in-c-complete-step-by-step-guide/)
+เรียนรู้วิธีแปลง HTML เป็นไฟล์ PNG อย่างละเอียดด้วย C# ผ่านขั้นตอนที่ชัดเจนและตัวอย่างโค้ด
 
 ## บทสรุป
 

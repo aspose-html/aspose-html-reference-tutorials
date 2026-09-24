@@ -41,6 +41,8 @@ Aspose.HTML for .NET은 단순한 라이브러리가 아니라 웹 개발의 세
 Aspose.HTML for .NET을 사용해 C#에서 HTML을 PDF로 변환하는 방법을 단계별로 안내합니다.
 ### [Aspose.HTML을 사용하여 .NET에서 HTML을 PDF로 변환](./convert-html-to-pdf/)
 Aspose.HTML for .NET으로 HTML을 PDF로 손쉽게 변환하세요. 단계별 가이드를 따라 HTML-PDF 변환의 힘을 활용하세요.
+### [Aspose.HTML을 사용하여 HTML에서 PDF 만들기 – 단계별 가이드](./create-pdf-from-html-with-aspose-html-step-by-step-guide/)
+Aspose.HTML for .NET을 사용하여 HTML을 PDF로 변환하는 단계별 가이드를 제공합니다.
 ### [HTML에서 PDF 만들기 – C# 단계별 가이드](./create-pdf-from-html-c-step-by-step-guide/)
 Aspose.HTML for .NET을 사용하여 C#에서 HTML을 PDF로 변환하는 단계별 가이드입니다.
 ### [C#에서 Aspose HTML을 사용해 PDF로 변환 – ZIP 아카이브 포함 전체 가이드](./aspose-html-to-pdf-in-c-complete-guide-with-zip-archive/)
@@ -95,6 +97,10 @@ Aspose.HTML for .NET을 활용해 HTML을 ZIP 파일로 압축하는 방법을 �
 Aspose.HTML for .NET을 사용하여 C#에서 HTML 파일을 ZIP으로 압축하는 방법을 단계별로 안내합니다.
 ### [C#에서 HTML을 ZIP으로 저장 – 완전 단계별 가이드](./save-html-as-zip-in-c-complete-step-by-step-guide/)
 Aspose.HTML for .NET을 사용하여 C#에서 HTML을 ZIP 파일로 저장하는 방법을 단계별로 안내합니다.
+### [C#에서 HTML을 ZIP으로 저장 – 완전 가이드](./save-html-to-zip-in-c-complete-guide/)
+Aspose.HTML for .NET을 사용하여 C#에서 HTML을 ZIP 파일로 저장하는 전체 단계별 가이드.
+### [단일 파일 HTML – C#에서 웹 페이지를 하나의 HTML 파일로 저장](./single-file-html-save-a-web-page-as-one-html-file-in-c/)
+Aspose.HTML for .NET을 사용하여 C#에서 웹 페이지를 단일 HTML 파일로 저장하는 단계별 가이드.
 
 ## 결론
 

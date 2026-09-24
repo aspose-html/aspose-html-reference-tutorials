@@ -91,7 +91,6 @@ Aspose.HTML for .NET 不仅仅是一个库；它是 Web 开发领域的变革者
 
 ### [使用 Aspose.HTML 在 C# 中将 HTML 创建为 PDF – 完整指南](./create-pdf-from-html-c-step-by-step-guide/)
 使用 Aspose.HTML for .NET 在 C# 中将 HTML 转换为 PDF 的完整分步指南，涵盖代码示例和最佳实践。
-
 ### [使用 Aspose.HTML 在 .NET 中将 HTML 保存为 ZIP – 完整的 C# 教程](./save-html-as-zip-complete-c-tutorial/)
 使用 Aspose.HTML for .NET 将 HTML 内容打包为 ZIP 文件的完整 C# 示例，包含代码演示和关键步骤。
 ### [在 C# 中的自定义资源处理程序 – 将 HTML 转换为 ZIP 教程](./custom-resource-handler-in-c-convert-html-to-zip-tutorial/)
@@ -114,6 +113,12 @@ Aspose.HTML for .NET 不仅仅是一个库；它是 Web 开发领域的变革者
 
 ### [如何在 C# 中将 HTML 打包为 ZIP – 加载 HTML 并使用自定义处理程序](./how-to-zip-html-in-c-load-html-use-custom-handler/)
 演示如何在 C# 中加载 HTML 并使用自定义资源处理程序将其压缩为 ZIP 文件的完整示例。
+### [使用 Aspose.HTML 将 HTML 创建为 PDF – 完整指南](./create-pdf-from-html-with-aspose-html-step-by-step-guide/)
+使用 Aspose.HTML for .NET 将 HTML 创建为 PDF 的完整分步指南，提供代码示例和实用技巧。
+### [单文件 HTML – 在 C# 中将网页保存为一个 HTML 文件](./single-file-html-save-a-web-page-as-one-html-file-in-c/)
+使用 Aspose.HTML for .NET 在 C# 中将网页保存为单个 HTML 文件，提供完整代码示例和步骤指南。
+### [使用 Aspose.HTML 在 C# 中将 HTML 保存为 ZIP – 完整指南](./save-html-to-zip-in-c-complete-guide/)
+使用 Aspose.HTML for .NET 在 C# 中完整演示如何将 HTML 保存为 ZIP 文件的步骤。
 
 ## 结论
 

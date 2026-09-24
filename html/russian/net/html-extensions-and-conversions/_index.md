@@ -43,6 +43,8 @@ Aspose.HTML для .NET — это не просто библиотека; эт�
 Конвертируйте HTML в PDF без усилий с Aspose.HTML для .NET. Следуйте нашему пошаговому руководству и раскройте всю мощь преобразования HTML в PDF.
 ### [Создайте PDF из HTML – пошаговое руководство C#](./create-pdf-from-html-c-step-by-step-guide/)
 Пошаговое руководство по созданию PDF из HTML с помощью Aspose.HTML в C#.
+### [Создайте PDF из HTML с Aspose.HTML – пошаговое руководство](./create-pdf-from-html-with-aspose-html-step-by-step-guide/)
+Пошаговое руководство по созданию PDF из HTML с помощью Aspose.HTML в .NET.
 ### [Конвертируйте EPUB в изображение в .NET с помощью Aspose.HTML](./convert-epub-to-image/)
 Узнайте, как конвертировать EPUB в изображения с помощью Aspose.HTML для .NET. Пошаговое руководство с примерами кода и настраиваемыми параметрами.
 ### [Конвертируйте EPUB в PDF в .NET с помощью Aspose.HTML](./convert-epub-to-pdf/)
@@ -99,6 +101,10 @@ Aspose.HTML для .NET — это не просто библиотека; эт�
 Узнайте, как с помощью Aspose.HTML создать PDF из HTML в C# шаг за шагом.
 ### [Сохраните HTML в ZIP в C# – Полное пошаговое руководство](./save-html-as-zip-in-c-complete-step-by-step-guide/)
 Сохраните HTML в ZIP в C# с помощью Aspose.HTML для .NET. Пошаговое руководство с примерами кода и настройками.
+### [Сохранить HTML в ZIP в C# – Полное руководство](./save-html-to-zip-in-c-complete-guide/)
+Полное руководство по сохранению HTML в ZIP‑архив с помощью Aspose.HTML для .NET и C#.
+### [single file html – Сохранить веб-страницу как один HTML‑файл в C#](./single-file-html-save-a-web-page-as-one-html-file-in-c/)
+Узнайте, как сохранить всю веб‑страницу в один HTML‑файл с помощью Aspose.HTML для .NET и C#.
 
 ## Заключение
 

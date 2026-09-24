@@ -56,6 +56,9 @@ C# ve Aspose.HTML kullanarak HTML'den PDF'ye nasıl dönüştüreceğinizi adım
 ### [Aspose.HTML ile .NET'te HTML'yi TIFF'e dönüştürün](./convert-html-to-tiff/)
 ### [Aspose.HTML ile .NET'te HTML'yi XPS'e dönüştürün](./convert-html-to-xps/)
 ### [HTML'den PDF Oluşturma – C# Adım Adım Kılavuz](./create-pdf-from-html-c-step-by-step-guide/)
+Aspose.HTML for .NET kullanarak HTML'den PDF'ye nasıl dönüştüreceğinizi adım adım öğrenin.
+### [Aspose.HTML ile HTML'den PDF Oluşturma – Adım Adım Kılavuz](./create-pdf-from-html-with-aspose-html-step-by-step-guide/)
+Aspose.HTML for .NET kullanarak HTML'den PDF'ye dönüşümü ayrıntılı şekilde öğrenin.
 ### [C#'ta HTML'i Zip Dosyasına Sıkıştırma](./how-to-zip-html-in-c-save-html-to-zip/)
 ### [Stil Verilmiş Metinle HTML Belgesi Oluşturma ve PDF'ye Dışa Aktarma – Tam Kılavuz](./create-html-document-with-styled-text-and-export-to-pdf-full/)
 ### [HTML'yi ZIP Olarak Kaydet – Tam C# Öğreticisi](./save-html-as-zip-complete-c-tutorial/)
@@ -73,6 +76,10 @@ C# ve Aspose.HTML kullanarak HTML dosyalarını zip arşivine dönüştürmeyi a
 ### [Aspose.HTML ile .NET'te HTML'yi ZIP olarak kaydedin](./save-html-as-zip-in-c-complete-step-by-step-guide/)
 ### [C#'ta Aspose.HTML ile PDF'ye Dönüştürme – ZIP Arşiviyle Tam Kılavuz](./aspose-html-to-pdf-in-c-complete-guide-with-zip-archive/)
 C# ve Aspose.HTML kullanarak HTML'yi PDF'ye dönüştürün ve ZIP arşiviyle kaydedin. Adım adım tam kılavuz.
+### [C# ile HTML'yi ZIP'e Kaydet – Tam Kılavuz](./save-html-to-zip-in-c-complete-guide/)
+Aspose.HTML for .NET kullanarak HTML dosyasını ZIP arşivine kaydetmeyi adım adım öğrenin.
+### [Tek dosya HTML – Web sayfasını C#'ta tek HTML dosyası olarak kaydet](./single-file-html-save-a-web-page-as-one-html-file-in-c/)
+Aspose.HTML for .NET ile C#'ta bir web sayfasını tek HTML dosyası olarak kaydedin. Adım adım kılavuz ve örnek kodlar.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

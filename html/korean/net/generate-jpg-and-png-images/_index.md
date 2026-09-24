@@ -71,6 +71,8 @@ C#을 사용해 HTML을 PNG 이미지로 변환하는 방법을 단계별로 안
 C# 코드로 HTML을 PNG 이미지로 변환하는 방법을 단계별로 안내합니다.
 ### [C#에서 HTML을 PNG로 생성하기 – 완전 프로그래밍 가이드](./create-png-from-html-in-c-complete-programming-guide/)
 HTML을 C# 코드로 PNG 이미지로 변환하는 전체 단계별 가이드를 제공합니다.
+### [C#에서 HTML을 PNG로 렌더링하는 완전 단계별 가이드](./render-html-to-png-in-c-complete-step-by-step-guide/)
+C#을 사용해 HTML을 PNG 이미지로 변환하는 방법을 단계별로 자세히 설명합니다.
 
 ## 결론
 

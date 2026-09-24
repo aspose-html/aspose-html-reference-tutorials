@@ -45,6 +45,9 @@ Aspose.HTML for .NET सिर्फ़ एक लाइब्रेरी न�
 C# में URL से PDF बनाने की पूरी प्रक्रिया सीखें, चरण-दर-चरण मार्गदर्शिका।
 ### [HTML से PDF बनाएं – C# चरण‑दर‑चरण गाइड](./create-pdf-from-html-c-step-by-step-guide/)
 C# में Aspose.HTML का उपयोग करके HTML को PDF में बदलने का चरण‑दर‑चरण मार्गदर्शन।
+### [Aspose.HTML के साथ HTML से PDF बनाएं – चरण‑दर‑चरण गाइड](./create-pdf-from-html-with-aspose-html-step-by-step-guide/)
+C# में Aspose.HTML का उपयोग करके HTML को PDF में बदलने की विस्तृत चरण‑दर‑चरण मार्गदर्शिका।
+
 ### [C# में HTML से PDF बनाएं – पूर्ण चरण‑दर‑चरण गाइड](./create-pdf-from-html-in-c-complete-step-by-step-guide/)
 C# में Aspose.HTML का उपयोग करके HTML को PDF में बदलने के चरण‑दर‑चरण निर्देश। सहज रूपांतरण के लिए हमारा गाइड देखें।
 
@@ -94,6 +97,11 @@ Aspose.HTML for .NET का उपयोग करके स्टाइल्�
 .NET के लिए Aspose.HTML की शक्ति का पता लगाएं: HTML को XPS में आसानी से बदलें। पूर्वापेक्षाएँ, चरण-दर-स्टेप मार्गदर्शिका और FAQ शामिल हैं।
 ### [C# में HTML को ZIP में सहेजें – पूर्ण इन‑मेमोरी उदाहरण](./save-html-to-zip-in-c-complete-in-memory-example/)
 C# में इन‑मेमोरी में HTML को ZIP फ़ाइल में सहेजने का पूरा उदाहरण देखें।
+### [C# में HTML को ZIP में सहेजें – पूर्ण गाइड](./save-html-to-zip-in-c-complete-guide/)
+
+### [सिंगल फ़ाइल HTML – C# में वेब पेज को एक HTML फ़ाइल के रूप में सहेजें](./single-file-html-save-a-web-page-as-one-html-file-in-c/)
+C# का उपयोग करके वेब पेज को एकल HTML फ़ाइल में सहेजने के चरण‑दर‑स्टेप मार्गदर्शन।
+
 ### [C# में कस्टम रिसोर्स हैंडलर – HTML को ZIP में बदलें ट्यूटोरियल](./custom-resource-handler-in-c-convert-html-to-zip-tutorial/)
 C# में कस्टम रिसोर्स हैंडलर का उपयोग करके HTML को ZIP फ़ाइल में बदलने के चरण‑दर‑चरण मार्गदर्शन।
 ### [Aspose.HTML के साथ HTML को PDF में बदलें – पूर्ण चरण‑दर‑चरण गाइड](./convert-html-to-pdf-with-aspose-html-full-step-by-step-guide/)
