@@ -20,9 +20,7 @@ title: 批量将 HTML 转换为 PDF – Java NIO 并行处理指南
 url: /zh/java/conversion-html-to-other-formats/convert-html-to-pdf-in-bulk-java-nio-guide-with-parallel-pro/
 ---
 
-punctuation.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

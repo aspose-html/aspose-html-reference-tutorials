@@ -25,9 +25,7 @@ title: Hoe CSS in Java te verkrijgen – Berekende stijl ophalen met Aspose.HTML
 url: /nl/java/css-html-form-editing/how-to-get-css-in-java-retrieve-computed-style-with-aspose-h/
 ---
 
-formatting.
-
-Proceed to final.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

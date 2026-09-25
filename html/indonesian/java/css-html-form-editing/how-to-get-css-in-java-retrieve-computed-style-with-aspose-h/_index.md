@@ -25,15 +25,7 @@ title: Cara Mendapatkan CSS di Java – Mengambil Gaya yang Dihitung dengan Aspo
 url: /id/java/css-html-form-editing/how-to-get-css-in-java-retrieve-computed-style-with-aspose-h/
 ---
 
-... translate.
-
-Final sentence.
-
-Then closing shortcodes.
-
-Make sure to keep all shortcodes unchanged.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

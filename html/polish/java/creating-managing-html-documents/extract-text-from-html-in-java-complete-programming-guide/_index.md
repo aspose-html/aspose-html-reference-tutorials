@@ -21,8 +21,6 @@ title: Wyodrębnianie tekstu z HTML w Javie – Kompletny przewodnik programisty
 url: /pl/java/creating-managing-html-documents/extract-text-from-html-in-java-complete-programming-guide/
 ---
 
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

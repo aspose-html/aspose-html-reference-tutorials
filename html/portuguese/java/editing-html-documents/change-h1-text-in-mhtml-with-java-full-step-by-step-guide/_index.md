@@ -24,18 +24,6 @@ title: Alterar o texto h1 em MHTML com Java – Guia completo passo a passo
 url: /pt/java/editing-html-documents/change-h1-text-in-mhtml-with-java-full-step-by-step-guide/
 ---
 
-"Edge case", etc.
-
-Translate "Expected Result" etc.
-
-Translate "Visual Overview" etc.
-
-Translate "Wrap‑Up".
-
-Make sure to keep image markdown unchanged.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

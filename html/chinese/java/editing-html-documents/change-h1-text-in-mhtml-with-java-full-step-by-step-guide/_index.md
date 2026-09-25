@@ -23,16 +23,6 @@ title: 使用 Java 更改 MHTML 中的 h1 文本 – 完整分步指南
 url: /zh/java/editing-html-documents/change-h1-text-in-mhtml-with-java-full-step-by-step-guide/
 ---
 
-– 完整分步指南"
-
-Proceed.
-
-Paragraphs translate accordingly.
-
-Make sure to keep markdown links unchanged.
-
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -24,13 +24,7 @@ title: Ubah Teks h1 di MHTML dengan Java – Panduan Lengkap Langkah demi Langka
 url: /id/java/editing-html-documents/change-h1-text-in-mhtml-with-java-full-step-by-step-guide/
 ---
 
-.
-
-Now produce final output with translation.
-
-Check for any missed items: code block placeholders remain unchanged. Ensure no translation of URLs, file paths, variable names. Ensure bold formatting preserved.
-
-Now craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

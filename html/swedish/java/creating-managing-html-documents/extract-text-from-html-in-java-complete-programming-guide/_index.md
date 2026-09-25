@@ -20,9 +20,7 @@ title: Extrahera text från HTML i Java – Komplett programmeringsguide
 url: /sv/java/creating-managing-html-documents/extract-text-from-html-in-java-complete-programming-guide/
 ---
 
-: kept "load HTML document Java", "HTMLDocument", "XPath", etc.
-
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

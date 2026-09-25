@@ -25,9 +25,7 @@ title: Comment obtenir le CSS en Java – Récupérer le style calculé avec Asp
 url: /fr/java/css-html-form-editing/how-to-get-css-in-java-retrieve-computed-style-with-aspose-h/
 ---
 
-unchanged.
-
-Now produce final output with all translations. Ensure no extra explanation.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

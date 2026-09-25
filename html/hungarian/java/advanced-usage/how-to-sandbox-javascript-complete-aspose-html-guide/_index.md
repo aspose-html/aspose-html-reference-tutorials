@@ -22,18 +22,6 @@ title: Hogyan szandbox-oljuk a JavaScriptet – Teljes Aspose.HTML útmutató
 url: /hu/java/advanced-usage/how-to-sandbox-javascript-complete-aspose-html-guide/
 ---
 
-.
-
-Now ensure we didn't miss any markdown formatting like code blocks placeholders. Also need to keep the "---" separators as they are.
-
-Check for any other bold text: "**Pro tip:**" we translated to "**Pro tipp:**". Keep bold.
-
-Also bullet list items have bold at start; we kept.
-
-Check for any other bold: "**Keep the sandbox lean.**" etc. We kept.
-
-Now produce final content with all translations.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

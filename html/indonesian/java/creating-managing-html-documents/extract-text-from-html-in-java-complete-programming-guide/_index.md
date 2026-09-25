@@ -21,13 +21,7 @@ title: Ekstrak Teks dari HTML di Java – Panduan Pemrograman Lengkap
 url: /id/java/creating-managing-html-documents/extract-text-from-html-in-java-complete-programming-guide/
 ---
 
-to enterprise‑level data extraction. Give it a try, tweak the XPath to fit your own markup, and you’ll see how quickly you can turn messy web pages into clean, usable data." translate: "Mengekstrak teks dari HTML tidak harus menjadi pekerjaan yang melelahkan. Dengan **loading the HTML document Java** menggunakan Aspose.HTML dan memanfaatkan XPath, Anda mendapatkan solusi yang ringkas dan dapat dipelihara yang dapat diskalakan dari potongan kecil hingga ekstraksi data tingkat perusahaan. Cobalah, sesuaikan XPath agar cocok dengan markup Anda, dan Anda akan melihat betapa cepatnya Anda dapat mengubah halaman web yang berantakan menjadi data yang bersih dan dapat digunakan."
-
-Paragraph: "Happy coding!" translate: "Selamat coding!"
-
-Then closing shortcodes.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -22,14 +22,6 @@ title: 如何在 Java 中取得 CSS – 使用 Aspose.HTML 取得計算樣式
 url: /zh-hant/java/css-html-form-editing/how-to-get-css-in-java-retrieve-computed-style-with-aspose-h/
 ---
 
-.HTML 取得計算後的樣式"
-
-Then paragraph.
-
-Let's translate.
-
-I'll produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -25,7 +25,7 @@ title: जावा के साथ MHTML में h1 टेक्स्ट �
 url: /hi/java/editing-html-documents/change-h1-text-in-mhtml-with-java-full-step-by-step-guide/
 ---
 
-answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

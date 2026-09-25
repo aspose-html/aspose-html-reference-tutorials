@@ -24,26 +24,6 @@ title: Ändra h1‑text i MHTML med Java – Fullständig steg‑för‑steg‑g
 url: /sv/java/editing-html-documents/change-h1-text-in-mhtml-with-java-full-step-by-step-guide/
 ---
 
-.
-
-Continue.
-
-We need to translate all bullet lists, etc.
-
-Make sure to keep code block placeholders.
-
-Also translate blockquote "Pro tip" etc.
-
-Translate "Why this matters:" etc.
-
-Translate "Edge case", "Pro tip", "Expected Result", etc.
-
-Translate image alt text and caption.
-
-Make sure not to translate URLs.
-
-Let's write.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

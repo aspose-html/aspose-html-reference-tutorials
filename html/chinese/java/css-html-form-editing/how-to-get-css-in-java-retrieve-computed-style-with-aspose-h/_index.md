@@ -22,9 +22,7 @@ title: 如何在 Java 中获取 CSS —— 使用 Aspose.HTML 检索计算样式
 url: /zh/java/css-html-form-editing/how-to-get-css-in-java-retrieve-computed-style-with-aspose-h/
 ---
 
-besides maybe code blocks placeholders. Ensure we keep all code block placeholders unchanged.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

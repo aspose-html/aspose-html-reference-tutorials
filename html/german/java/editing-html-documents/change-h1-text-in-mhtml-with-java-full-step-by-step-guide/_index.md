@@ -25,10 +25,6 @@ title: Ändern des h1-Textes in MHTML mit Java – Vollständige Schritt‑für�
 url: /de/java/editing-html-documents/change-h1-text-in-mhtml-with-java-full-step-by-step-guide/
 ---
 
-.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -22,38 +22,6 @@ title: การแปลง SVG เป็น GIF ใน Java – คู่ม�
 url: /th/java/conversion-html-to-various-image-formats/svg-to-gif-conversion-in-java-complete-step-by-step-guide/
 ---
 
-table formatting. So we need to translate the header row and separator row accordingly.
-
-E.g.:
-
-| Step | What Happens | Why It Matters |
-|------|--------------|----------------|
-
-Will become Thai:
-
-| ขั้นตอน | สิ่งที่เกิดขึ้น | ทำไมจึงสำคัญ |
-|------|--------------|----------------|
-
-But the separator row must match column count; we can keep same dashes.
-
-But the alignment may not be perfect but okay.
-
-Similarly other tables.
-
-Proceed.
-
-Also need to translate blockquote "Why bother?" etc.
-
-Now produce final content.
-
-Let's craft translation.
-
-Be careful with "## svg to gif conversion Overview" heading: translate.
-
-Proceed.
-
-Will produce final answer with only translated content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -25,8 +25,6 @@ title: Αλλαγή κειμένου h1 σε MHTML με Java – Πλήρης ο
 url: /el/java/editing-html-documents/change-h1-text-in-mhtml-with-java-full-step-by-step-guide/
 ---
 
-.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

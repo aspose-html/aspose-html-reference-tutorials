@@ -23,10 +23,6 @@ title: Vytvořte PDF z Markdownu v Javě – krok za krokem
 url: /cs/java/conversion-html-to-other-formats/create-pdf-from-markdown-in-java-step-by-step-guide/
 ---
 
-bullet points, etc.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

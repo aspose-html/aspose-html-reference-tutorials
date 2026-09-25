@@ -24,8 +24,6 @@ title: SVG‑zu‑GIF-Konvertierung in Java – Vollständige Schritt‑für‑S
 url: /de/java/conversion-html-to-various-image-formats/svg-to-gif-conversion-in-java-complete-step-by-step-guide/
 ---
 
-produce final output.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

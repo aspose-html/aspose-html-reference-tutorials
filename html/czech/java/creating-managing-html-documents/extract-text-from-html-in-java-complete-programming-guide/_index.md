@@ -20,28 +20,6 @@ title: Extrahování textu z HTML v Javě – kompletní programovací průvodce
 url: /cs/java/creating-managing-html-documents/extract-text-from-html-in-java-complete-programming-guide/
 ---
 
-string; but it's part of markdown, we should translate it as well, but keep the syntax. So change alt to Czech: maybe "extrahovat text z html". Keep same case? We'll translate.
-
-Also the table content and bullet points.
-
-We must keep code block placeholders unchanged.
-
-Let's produce final translation.
-
-We'll go through line by line.
-
-Start with shortcodes unchanged.
-
-Then heading "# Extract Text from HTML in Java – Complete Programming Guide" translate to Czech: "# Extrahování textu z HTML v Javě – Kompletní programovací průvodce". Keep same heading level.
-
-Paragraphs translate.
-
-Need to keep **bold** formatting.
-
-Let's translate.
-
-I'll produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

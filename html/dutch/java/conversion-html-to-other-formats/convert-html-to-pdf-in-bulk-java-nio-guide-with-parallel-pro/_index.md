@@ -23,16 +23,6 @@ title: HTML in bulk converteren naar PDF – Java NIO-gids met parallelle verwer
 url: /nl/java/conversion-html-to-other-formats/convert-html-to-pdf-in-bulk-java-nio-guide-with-parallel-pro/
 ---
 
-Let's produce the translated version.
-
-We'll translate each paragraph.
-
-Be careful with technical terms: keep them in English as per rule.
-
-Let's start.
-
-We'll produce final answer with same structure.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

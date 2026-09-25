@@ -23,11 +23,7 @@ title: Java'da SVG'den GIF'e Dönüştürme – Tam Adım Adım Rehber
 url: /tr/java/conversion-html-to-various-image-formats/svg-to-gif-conversion-in-java-complete-step-by-step-guide/
 ---
 
-}}
-
-Make sure no extra spaces.
-
-Now produce final content with all translations.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

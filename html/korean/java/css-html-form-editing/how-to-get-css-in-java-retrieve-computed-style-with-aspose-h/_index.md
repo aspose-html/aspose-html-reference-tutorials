@@ -23,28 +23,6 @@ title: Java에서 CSS 가져오기 – Aspose.HTML로 계산된 스타일 가져
 url: /ko/java/css-html-form-editing/how-to-get-css-in-java-retrieve-computed-style-with-aspose-h/
 ---
 
-stays same.
-
-Alt text translate: "Java에서 CSS를 가져오는 방법 – HTML 로드, window 접근, 요소 검색, 스타일 추출 과정을 나타낸 다이어그램"
-
-Title attribute also translate.
-
-Next: "## Conclusion" heading.
-
-Paragraph: translate.
-
-List of next steps bullet points translate.
-
-Finally closing shortcodes.
-
-Let's produce final Korean markdown.
-
-Be careful to preserve code block placeholders and shortcodes exactly.
-
-Also keep bold formatting.
-
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

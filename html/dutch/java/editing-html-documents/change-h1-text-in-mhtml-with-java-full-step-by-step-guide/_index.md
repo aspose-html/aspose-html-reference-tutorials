@@ -24,10 +24,6 @@ title: Wijzig h1-tekst in MHTML met Java – Volledige stapsgewijze handleiding
 url: /nl/java/editing-html-documents/change-h1-text-in-mhtml-with-java-full-step-by-step-guide/
 ---
 
-dash.
-
-Let's write.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

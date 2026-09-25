@@ -23,12 +23,6 @@ title: Konwertuj HTML na PDF masowo – przewodnik po Java NIO z równoległym p
 url: /pl/java/conversion-html-to-other-formats/convert-html-to-pdf-in-bulk-java-nio-guide-with-parallel-pro/
 ---
 
-produce final content with translations.
-
-Be careful to preserve markdown formatting, code block placeholders unchanged.
-
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

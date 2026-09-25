@@ -25,9 +25,7 @@ title: Modifier le texte h1 dans un MHTML avec Java – Guide complet étape par
 url: /fr/java/editing-html-documents/change-h1-text-in-mhtml-with-java-full-step-by-step-guide/
 ---
 
-Make sure no extra spaces.
-
-Let's produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

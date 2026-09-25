@@ -20,9 +20,7 @@ title: Извлечение текста из HTML в Java – Полное 
 url: /ru/java/creating-managing-html-documents/extract-text-from-html-in-java-complete-programming-guide/
 ---
 
-}}.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

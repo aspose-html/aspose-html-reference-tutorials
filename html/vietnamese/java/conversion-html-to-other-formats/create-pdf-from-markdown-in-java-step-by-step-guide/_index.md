@@ -23,14 +23,6 @@ title: Tạo PDF từ Markdown trong Java – Hướng dẫn từng bước
 url: /vi/java/conversion-html-to-other-formats/create-pdf-from-markdown-in-java-step-by-step-guide/
 ---
 
-Will translate each paragraph.
-
-Make sure to keep markdown formatting like **...**, `code`, tables, etc.
-
-Also keep code block placeholders unchanged.
-
-Proceed to produce final output.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -21,19 +21,7 @@ title: Εξαγωγή κειμένου από HTML σε Java – Πλήρης ο
 url: /el/java/creating-managing-html-documents/extract-text-from-html-in-java-complete-programming-guide/
 ---
 
-ωγή Κειμένου από HTML σε Java – Πλήρης Οδηγός Προγραμματισμού"
-
-Then paragraph.
-
-Translate sentences.
-
-Be careful to keep bold **text**.
-
-Also keep code block placeholders.
-
-Proceed.
-
-Will produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

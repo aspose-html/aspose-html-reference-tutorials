@@ -23,10 +23,6 @@ title: Tworzenie PDF z Markdown w Javie – Przewodnik krok po kroku
 url: /pl/java/conversion-html-to-other-formats/create-pdf-from-markdown-in-java-step-by-step-guide/
 ---
 
-bullet points, table headers, etc.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

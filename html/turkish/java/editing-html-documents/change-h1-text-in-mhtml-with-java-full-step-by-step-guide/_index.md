@@ -25,11 +25,7 @@ title: Java ile MHTML'de h1 Metnini Değiştir – Tam Adım Adım Kılavuz
 url: /tr/java/editing-html-documents/change-h1-text-in-mhtml-with-java-full-step-by-step-guide/
 ---
 
-. We kept them.
-
-Make sure markdown formatting preserved.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

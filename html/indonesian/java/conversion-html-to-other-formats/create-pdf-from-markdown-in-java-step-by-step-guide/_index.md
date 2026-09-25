@@ -23,7 +23,7 @@ title: Buat PDF dari Markdown di Java – Panduan Langkah demi Langkah
 url: /id/java/conversion-html-to-other-formats/create-pdf-from-markdown-in-java-step-by-step-guide/
 ---
 
-Provide only translated content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

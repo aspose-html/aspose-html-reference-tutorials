@@ -26,18 +26,6 @@ title: Hogyan kapjuk meg a CSS-t Java-ban – Számított stílus lekérése az 
 url: /hu/java/css-html-form-editing/how-to-get-css-in-java-retrieve-computed-style-with-aspose-h/
 ---
 
-**get computed style java**, and **retrieve element by id**—all with the Aspose.HTML library. By the end you’ll have a ready‑to‑run program and a clear mental model of why each step matters."
-
-Translate.
-
-Proceed similarly for all sections.
-
-Need to translate bullet lists.
-
-Make sure to keep code block placeholders unchanged.
-
-Let's craft final output.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
