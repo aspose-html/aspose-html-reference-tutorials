@@ -24,18 +24,6 @@ title: Tutoriel HTML vers image – Rendre le HTML en PNG avec Aspose.HTML en C#
 url: /fr/net/generate-jpg-and-png-images/html-to-image-tutorial-render-html-to-png-with-aspose-html-i/
 ---
 
-`FileNotFoundException`, etc. Keep.
-
-Also there are bold text **html to image tutorial**, etc. Keep bold but translate text inside.
-
-Also there are list items.
-
-Let's produce.
-
-Start with shortcodes.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

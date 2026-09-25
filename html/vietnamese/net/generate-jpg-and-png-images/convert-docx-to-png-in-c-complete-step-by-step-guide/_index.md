@@ -24,14 +24,6 @@ title: Chuyển đổi docx sang png trong C# – Hướng dẫn chi tiết từ
 url: /vi/net/generate-jpg-and-png-images/convert-docx-to-png-in-c-complete-step-by-step-guide/
 ---
 
-points under Tips.
-
-Also final call to action.
-
-Now produce final content with same shortcodes and markdown.
-
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

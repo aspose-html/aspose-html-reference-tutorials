@@ -22,14 +22,6 @@ title: Chuyển Đổi Tài Liệu Sang PNG – Hướng Dẫn C# Đầy Đủ
 url: /vi/net/generate-jpg-and-png-images/convert-document-to-png-complete-c-guide/
 ---
 
-to keep **bold**.
-
-Also code block placeholders remain.
-
-Let's translate step by step.
-
-I'll write final output.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

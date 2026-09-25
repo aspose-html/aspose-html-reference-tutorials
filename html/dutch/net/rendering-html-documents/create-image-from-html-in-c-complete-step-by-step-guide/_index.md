@@ -24,9 +24,7 @@ title: Afbeelding maken van HTML in C# – Complete stap‑voor‑stap gids
 url: /nl/net/rendering-html-documents/create-image-from-html-in-c-complete-step-by-step-guide/
 ---
 
-RTL formatting if needed" not needed.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

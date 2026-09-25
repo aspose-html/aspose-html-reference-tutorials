@@ -24,10 +24,6 @@ title: Converter docx para png em C# – Guia completo passo a passo
 url: /pt/net/generate-jpg-and-png-images/convert-docx-to-png-in-c-complete-step-by-step-guide/
 ---
 
-codes at top and bottom.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

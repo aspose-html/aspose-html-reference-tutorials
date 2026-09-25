@@ -24,12 +24,6 @@ title: HTML'den görüntüye öğretici – Aspose.HTML ile C#'ta HTML'yi PNG ol
 url: /tr/net/generate-jpg-and-png-images/html-to-image-tutorial-render-html-to-png-with-aspose-html-i/
 ---
 
-Image markdown unchanged except alt text maybe translate? The alt text is part of markdown, should translate. The URL remains same. Title also part of markdown, translate? Title is "html to image tutorial diagram". Should translate. So alt text and title translate.
-
-Also shortcodes at end.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

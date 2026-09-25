@@ -22,12 +22,6 @@ title: Конвертировать документ в PNG – Полное р�
 url: /ru/net/generate-jpg-and-png-images/convert-document-to-png-complete-c-guide/
 ---
 
-English phrase? It's not a technical term, can translate.
-
-But we must preserve the markdown formatting.
-
-Let's write.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

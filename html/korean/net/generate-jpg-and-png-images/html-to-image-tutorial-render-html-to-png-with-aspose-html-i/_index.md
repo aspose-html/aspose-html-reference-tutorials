@@ -22,8 +22,6 @@ title: HTML을 이미지로 변환 튜토리얼 – C#에서 Aspose.HTML로 HTML
 url: /ko/net/generate-jpg-and-png-images/html-to-image-tutorial-render-html-to-png-with-aspose-html-i/
 ---
 
-Korean translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

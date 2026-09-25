@@ -23,21 +23,7 @@ title: Tutorial de HTML a imagen – Renderizar HTML a PNG con Aspose.HTML en C#
 url: /es/net/generate-jpg-and-png-images/html-to-image-tutorial-render-html-to-png-with-aspose-html-i/
 ---
 
-, and save PNG". Translate to Spanish.
-
-Also title attribute "html to image tutorial diagram". Translate.
-
-Now go through step by step.
-
-I'll produce final content with same structure.
-
-Let's craft translation.
-
-Be careful with inline code like `HTMLDocument`, keep same.
-
-Also keep code block placeholders unchanged.
-
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

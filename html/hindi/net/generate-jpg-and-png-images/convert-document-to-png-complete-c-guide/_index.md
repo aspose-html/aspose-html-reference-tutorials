@@ -22,18 +22,6 @@ title: दस्तावेज़ को PNG में बदलें – प�
 url: /hi/net/generate-jpg-and-png-images/convert-document-to-png-complete-c-guide/
 ---
 
-translation.
-
-Be careful with tables: translate column headers and content but keep markdown table syntax.
-
-Also blockquote >.
-
-Let's translate.
-
-Proceed step by step.
-
-I'll write final answer with all content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

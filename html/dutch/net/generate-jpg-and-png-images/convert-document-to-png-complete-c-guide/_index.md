@@ -23,17 +23,7 @@ title: Document converteren naar PNG – Complete C#‑gids
 url: /nl/net/generate-jpg-and-png-images/convert-document-to-png-complete-c-guide/
 ---
 
-convert document to PNG" as is because it's a phrase. But we can translate surrounding words.
-
-Let's translate:
-
-Title: "# Convert Document to PNG – Complete C# Guide" => "# Document naar PNG converteren – Complete C# gids"
-
-But maybe keep "Convert Document to PNG" as phrase? Could be "# Convert Document to PNG – Complete C# Guide" but translate to Dutch: "# Document naar PNG converteren – Complete C# gids". We'll translate.
-
-Now go through each paragraph.
-
-I'll produce final.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

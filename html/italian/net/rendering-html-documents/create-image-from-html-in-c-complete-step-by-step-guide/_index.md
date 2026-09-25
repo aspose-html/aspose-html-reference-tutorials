@@ -23,7 +23,7 @@ title: Crea immagine da HTML in C# – Guida completa passo‑passo
 url: /it/net/rendering-html-documents/create-image-from-html-in-c-complete-step-by-step-guide/
 ---
 
-.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

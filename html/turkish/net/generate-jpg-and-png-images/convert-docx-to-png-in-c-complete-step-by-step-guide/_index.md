@@ -24,22 +24,6 @@ title: C#'te docx'i png'ye dönüştür – Tam Adım Adım Rehber
 url: /tr/net/generate-jpg-and-png-images/convert-docx-to-png-in-c-complete-step-by-step-guide/
 ---
 
-** and **generate png from word** with just a handful of lines."
-
-Translate.
-
-Next paragraph: "From here you might explore converting to other formats (JPEG, BMP) or integrating the PNGs into an ASP.NET Core API that serves them on‑the‑fly. The sky’s the limit—experiment with different `Width`/`Height` combos, play with `TextOptions` like `UseHinting`, and watch your Word content come alive as crisp images."
-
-Translate.
-
-Final: "Got more questions about Word‑to‑image conversion? Drop a comment, and happy coding!" translate.
-
-Then closing shortcodes.
-
-Now produce final content with same shortcodes.
-
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -24,11 +24,7 @@ title: Bild aus HTML in C# erstellen – Vollständige Schritt‑für‑Schritt�
 url: /de/net/rendering-html-documents/create-image-from-html-in-c-complete-step-by-step-guide/
 ---
 
-Check for any URLs: none.
-
-Make sure to preserve markdown formatting: headings, lists, tables, blockquotes.
-
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

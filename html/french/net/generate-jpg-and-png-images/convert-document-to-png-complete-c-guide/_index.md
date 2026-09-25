@@ -24,30 +24,6 @@ title: Convertir le document en PNG – Guide complet C#
 url: /fr/net/generate-jpg-and-png-images/convert-document-to-png-complete-c-guide/
 ---
 
-CODE_BLOCK_0}} etc. Keep them.
-
-Translate headings, paragraphs, list items, table contents, blockquotes, etc.
-
-Be careful with markdown formatting.
-
-Let's produce the translated version.
-
-Check for any URLs: none present except maybe in code? No.
-
-Make sure to keep the shortcodes exactly as they are.
-
-Let's translate:
-
-Title: "# Convert Document to PNG – Complete C# Guide" => "# Convertir un document en PNG – Guide complet C#"
-
-Similarly other headings.
-
-Translate sentences.
-
-Also note "RTL formatting if needed" but French is LTR, ignore.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

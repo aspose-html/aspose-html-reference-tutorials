@@ -21,11 +21,7 @@ title: HTMLから画像へのチュートリアル – C#でAspose.HTMLを使用
 url: /ja/net/generate-jpg-and-png-images/html-to-image-tutorial-render-html-to-png-with-aspose-html-i/
 ---
 
->.
-
-Also lists.
-
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

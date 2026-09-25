@@ -23,8 +23,6 @@ title: Tworzenie obrazu z HTML w C# – Kompletny przewodnik krok po kroku
 url: /pl/net/rendering-html-documents/create-image-from-html-in-c-complete-step-by-step-guide/
 ---
 
-.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -22,26 +22,6 @@ title: Belgeyi PNG'ye Dönüştür – Tam C# Rehberi
 url: /tr/net/generate-jpg-and-png-images/convert-document-to-png-complete-c-guide/
 ---
 
-C# Guide
-
-Translate: "Belgeyi PNG'ye Dönüştür – Tam C# Kılavuzu"
-
-But keep the heading marker.
-
-Proceed.
-
-Paragraphs.
-
-Let's translate.
-
-Make sure to keep **bold** formatting.
-
-Also keep code block placeholders as they are.
-
-Proceed step by step.
-
-Will produce final answer with only translated content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

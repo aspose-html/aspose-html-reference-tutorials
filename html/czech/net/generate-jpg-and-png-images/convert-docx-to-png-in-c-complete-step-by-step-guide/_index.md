@@ -23,11 +23,7 @@ title: Převod docx na png v C# – Kompletní průvodce krok za krokem
 url: /cs/net/generate-jpg-and-png-images/convert-docx-to-png-in-c-complete-step-by-step-guide/
 ---
 
-must keep the shortcodes at end: {{< /blocks/products/pf/tutorial-page-section >}} etc.
-
-Also include back the first three opening shortcodes.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

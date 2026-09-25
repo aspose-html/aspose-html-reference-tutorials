@@ -23,16 +23,6 @@ title: Hướng dẫn chuyển HTML sang hình ảnh – Render HTML thành PNG 
 url: /vi/net/generate-jpg-and-png-images/html-to-image-tutorial-render-html-to-png-with-aspose-html-i/
 ---
 
-)" etc.
-
-Translate headings and text.
-
-Make sure placeholders remain.
-
-Proceed step by step.
-
-Let's craft final output.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

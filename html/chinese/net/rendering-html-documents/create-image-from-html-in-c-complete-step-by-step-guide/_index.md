@@ -21,7 +21,7 @@ title: 在 C# 中从 HTML 创建图像 – 完整分步指南
 url: /zh/net/rendering-html-documents/create-image-from-html-in-c-complete-step-by-step-guide/
 ---
 
-content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
