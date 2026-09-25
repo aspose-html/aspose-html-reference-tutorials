@@ -1,21 +1,21 @@
 ---
 category: general
-date: 2026-02-19
-description: Crea una imagen a partir de HTML rápidamente con Aspose.HTML en C#. Aprende
-  cómo renderizar HTML a imagen, convertir HTML a PNG, establecer dimensiones de la
-  imagen y definir un tamaño de fuente personalizado.
+date: 2026-02-10
+description: Crear una imagen a partir de HTML y renderizar HTML a imagen con Aspose.HTML.
+  Aprende cómo establecer el tamaño de la imagen, convertir HTML a PNG y definir el
+  ancho y la altura en minutos.
 draft: false
 keywords:
 - create image from html
 - render html to image
+- set image size
 - convert html to png
-- set image dimensions
-- set custom font size
+- set width height
 language: es
-og_description: Crear imagen a partir de HTML usando Aspose.HTML. Esta guía muestra
-  cómo renderizar HTML a imagen, convertir HTML a PNG y establecer las dimensiones
-  de la imagen con un tamaño de fuente personalizado.
-og_title: Crear imagen a partir de HTML en C# – Tutorial completo
+og_description: Crear imagen a partir de HTML con Aspose.HTML. Esta guía muestra cómo
+  renderizar HTML a imagen, establecer el tamaño de la imagen, convertir HTML a PNG
+  y ajustar el ancho y la altura.
+og_title: Crear imagen a partir de HTML en C# – Tutorial completo de renderizado
 tags:
 - Aspose.HTML
 - C#
@@ -24,243 +24,200 @@ title: Crear imagen a partir de HTML en C# – Guía paso a paso
 url: /es/net/generate-jpg-and-png-images/create-image-from-html-in-c-step-by-step-guide/
 ---
 
-.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Crear Imagen a partir de HTML en C# – Guía Paso a Paso
+# Crear imagen a partir de HTML – Tutorial completo en C#
 
-¿Alguna vez necesitaste **crear imagen a partir de HTML** pero no estabas seguro de qué biblioteca te daría resultados píxel‑perfectos? No estás solo. En el mundo .NET, Aspose.HTML lo hace muy fácil para **renderizar HTML a imagen**, permitiéndote convertir cualquier marcado en PNG, JPEG o incluso BMP con solo unas pocas líneas de código.
+¿Alguna vez necesitaste **crear imagen a partir de HTML** pero no estabas seguro de qué biblioteca podía hacerlo sin complicaciones? No estás solo. Muchos desarrolladores se topan con un muro cuando intentan renderizar texto diminuto o diseños precisos en un PNG, solo para obtener resultados borrosos. La buena noticia es que con Aspose.HTML puedes **renderizar HTML a imagen** en una única llamada limpia, sin ajustes extra.
 
-En este tutorial recorreremos un ejemplo completo y ejecutable que muestra cómo **convertir HTML a PNG**, cómo **establecer dimensiones de la imagen**, y cómo **definir un tamaño de fuente personalizado** para un control tipográfico perfecto. Al final tendrás un programa autónomo que podrás insertar en cualquier proyecto C#.
+En este tutorial recorreremos todo el proceso: desde preparar un fragmento HTML mínimo, habilitar el hinting de texto para fuentes pequeñas nítidas, hasta **establecer el tamaño de la imagen**, **convertir HTML a PNG** y finalmente **definir ancho y alto** en la salida. Al final tendrás un programa C# listo para ejecutar que produce un archivo de imagen nítido con exactamente las dimensiones que especifiques.
 
-## Lo que Necesitarás
+## Lo que aprenderás
 
-- **.NET 6+** (el código funciona también con .NET Framework 4.6+)
-- **Aspose.HTML for .NET** – puedes obtenerlo de NuGet (`Install-Package Aspose.HTML`)
-- Un archivo HTML simple (`input.html`) que deseas convertir en una imagen
-- Un IDE o editor con el que te sientas cómodo (Visual Studio, Rider, VS Code…)
+- Cómo instanciar un `HTMLDocument` a partir de una cadena.
+- Por qué habilitar `UseHinting` es importante para fuentes pequeñas.
+- El papel de `ImageRenderingOptions` en el control de **establecer tamaño de imagen** y formato.
+- Cómo guardar el bitmap renderizado como archivo PNG.
+- Trampas comunes (p. ej., desajustes de DPI) y soluciones rápidas.
 
-No se requieren otras herramientas de terceros. La biblioteca incluye su propio motor de renderizado, por lo que no necesitarás un navegador sin cabeza ni servicios externos.
+Sin herramientas externas, sin archivos de configuración oscuros, solo C# puro y Aspose.HTML.
 
----
+## Requisitos previos
 
-## Paso 1: Cargar el Documento HTML que Deseas Renderizar
+- .NET 6.0 o posterior (la API funciona tanto con .NET Core como con .NET Framework).
+- Una licencia válida de Aspose.HTML para .NET (puedes comenzar con una prueba gratuita).
+- Visual Studio 2022 o cualquier IDE que prefieras.
+- Familiaridad básica con la sintaxis de C#.
 
-Lo primero que hacemos es leer el HTML de origen. La clase `HTMLDocument` de Aspose.HTML puede cargar un archivo, una URL o incluso una cadena sin procesar.
+Si ya cuentas con eso, genial—¡vamos al grano!
+
+## Paso 1: Preparar el contenido HTML
+
+Lo primero que necesitamos es una cadena HTML. En escenarios reales podrías cargarla desde un archivo o una base de datos, pero para mayor claridad la mantendremos en línea.
 
 ```csharp
 using Aspose.Html;
-using Aspose.Html.Drawing;
 using Aspose.Html.Rendering.Image;
+using Aspose.Html.Rendering.Image.Options;
 
-// Load the HTML file from disk
-HTMLDocument htmlDoc = new HTMLDocument("YOUR_DIRECTORY/input.html");
-
-// Verify that the document is loaded (optional sanity check)
-if (htmlDoc == null)
-{
-    throw new InvalidOperationException("Failed to load the HTML document.");
-}
+// Tiny HTML with a 9‑point paragraph
+string htmlContent = @"
+<html>
+  <body>
+    <p style='font-size:9pt;'>Tiny text</p>
+  </body>
+</html>";
+// Create the HTMLDocument object from the string
+HTMLDocument document = new HTMLDocument(htmlContent);
 ```
 
-**Por qué es importante:** Cargar el documento le brinda al renderizador un DOM con el que trabajar. Si omites este paso, no habrá nada que pintar en el lienzo y la salida será en blanco.
+**Por qué es importante:**  
+Incluso un simple `<p>` puede revelar peculiaridades de renderizado cuando el tamaño de fuente es diminuto. Al comenzar con un ejemplo mínimo podemos observar cómo el hinting y las opciones de tamaño afectan al PNG final.
 
----
+## Paso 2: Habilitar el hinting de texto para fuentes pequeñas
 
-## Paso 2: Definir el Estilo de Fuente con la Nueva API `WebFontStyle`
-
-Si necesitas un peso o estilo de fuente específico—por ejemplo **negrita cursiva**—puedes usar `WebFontStyle`. Aquí también abordamos el requisito de **definir un tamaño de fuente personalizado** más adelante.
-
-```csharp
-// Create a WebFontStyle object to control weight and style
-WebFontStyle webFontStyle = new WebFontStyle
-{
-    Weight = FontWeight.Bold,          // Makes the text bold
-    Style  = FontStyleEnum.Italic      // Makes the text italic
-};
-```
-
-**Consejo profesional:** La API `WebFontStyle` funciona con cualquier fuente web‑segura o con una fuente que incrustes mediante `@font-face`. Si necesitas una tipografía no estándar, simplemente haz referencia a ella en tu HTML y Aspose.HTML la obtendrá automáticamente.
-
----
-
-## Paso 3: Configurar Opciones de Renderizado de Texto (Incluyendo Tamaño de Fuente Personalizado)
-
-Ahora indicamos al renderizador cómo dibujar el texto. Este es el punto donde **definimos un tamaño de fuente personalizado** y aplicamos el estilo que acabamos de crear.
+Al renderizar texto muy pequeño, los rasterizadores suelen producir bordes difusos. Aspose.HTML ofrece la clase `TextOptions` donde `UseHinting` indica al motor que aplique ajustes subpíxel, obteniendo glifos más nítidos.
 
 ```csharp
-// Configure text rendering options
+// Enable text hinting to improve readability of tiny fonts
 TextOptions textRenderOptions = new TextOptions
 {
-    FontFamily = "Arial",          // Fallback generic font
-    FontSize   = 14,               // Custom font size in points
-    FontStyle  = webFontStyle      // Apply bold‑italic style
+    UseHinting = true   // Turn on hinting – essential for 9pt text
 };
 ```
 
-**Por qué este paso es crucial:** Sin establecer explícitamente `FontSize`, el renderizador recurre al tamaño definido en el HTML o CSS. Sobrescribirlo garantiza una salida consistente sin importar el marcado de origen.
+**Consejo profesional:** Si estás renderizando encabezados grandes, puedes establecer `UseHinting = false` para acelerar el proceso. Para elementos UI diminutos, siempre mantenlo activado.
 
----
+## Paso 3: Definir opciones de renderizado de imagen (Establecer tamaño de imagen)
 
-## Paso 4: Configurar Opciones de Renderizado de Imagen – Tamaño, Formato y Configuraciones de Texto
-
-Aquí respondemos a la pregunta de **establecer dimensiones de la imagen** y también decidimos el formato de salida (`PNG` en este caso). La clase `ImageRenderingOptions` une todo.
+Ahora le decimos a Aspose cuán grande debe ser la imagen de salida. Aquí es donde convergen los conceptos de **establecer tamaño de imagen**, **definir ancho y alto** y **convertir HTML a PNG**.
 
 ```csharp
-// Define the overall image rendering options
 ImageRenderingOptions imageRenderOptions = new ImageRenderingOptions
 {
-    TextOptions   = textRenderOptions, // Attach the text options we built
-    Width         = 800,               // Desired image width in pixels
-    Height        = 600,               // Desired image height in pixels
-    OutputFormat  = ImageFormat.Png    // Convert HTML to PNG
+    TextOptions = textRenderOptions, // Apply our hinting settings
+    Width  = 400,   // Desired width in pixels
+    Height = 200,   // Desired height in pixels
+    // Optional: set background color, DPI, etc.
 };
 ```
 
-**Nota sobre casos límite:** Si tu HTML contiene elementos que superan el ancho/alto especificado, Aspose.HTML los recortará o escalará automáticamente según las propiedades CSS `Background` y `Overflow`. También puedes habilitar `PreserveAspectRatio` si prefieres un escalado proporcional.
+- `Width` y `Height` son las dimensiones exactas en píxeles que deseas—perfectas para generar miniaturas.
+- Si los omites, Aspose calculará el tamaño basándose en el diseño del HTML, lo que puede no coincidir con tus restricciones de UI.
 
----
+## Paso 4: Renderizar el documento HTML a un archivo PNG
 
-## Paso 5: Renderizar el Documento HTML a un Archivo de Imagen
-
-Finalmente, llamamos a `RenderToImage`. Esta única línea realiza todo el trabajo pesado—disposición, rasterización y escritura del archivo.
+Con el documento y las opciones listos, el paso final es una única línea que escribe el PNG en disco.
 
 ```csharp
-// Render the document and save it as a PNG file
-htmlDoc.RenderToImage("YOUR_DIRECTORY/output.png", imageRenderOptions);
+// Initialize the renderer with the document and our options
+ImageRenderer renderer = new ImageRenderer(document, imageRenderOptions);
 
-// Quick verification: open the file (optional, works on Windows)
-System.Diagnostics.Process.Start(new System.Diagnostics.ProcessStartInfo
-{
-    FileName = "YOUR_DIRECTORY/output.png",
-    UseShellExecute = true
-});
+// Render and save as PNG (default format is PNG when the file extension is .png)
+renderer.RenderToFile(@"C:\Temp\tiny_text_hinting.png");
 ```
 
-Después de ejecutar el programa, deberías ver `output.png` con las dimensiones exactas (800 × 600) y el texto renderizado en **Arial 14 pt negrita cursiva**. La imagen representará fielmente el HTML original, incluidos colores CSS, bordes e imágenes incrustadas.
+**Lo que verás:**  
+Abre `tiny_text_hinting.png` y deberías obtener una imagen nítida de 400 × 200 donde el párrafo “Tiny text” es claramente legible, a pesar de su tamaño de 9 pt.
 
----
+## Ejemplo completo y funcional
 
-## Ejemplo Completo Funcional (Todos los Pasos Combinados)
-
-A continuación tienes el programa completo listo para copiar y pegar. Sustituye `YOUR_DIRECTORY` por la ruta real donde se encuentra tu `input.html`.
+A continuación tienes el programa completo, listo para copiar y pegar. Incluye todas las sentencias `using`, comentarios y manejo de errores para una sensación de producción.
 
 ```csharp
+using System;
 using Aspose.Html;
-using Aspose.Html.Drawing;
 using Aspose.Html.Rendering.Image;
+using Aspose.Html.Rendering.Image.Options;
 
-namespace HtmlToImageDemo
+class Program
 {
-    class Program
+    static void Main()
     {
-        static void Main(string[] args)
+        // 1️⃣ Create the HTML source
+        string htmlContent = @"
+        <html>
+          <body>
+            <p style='font-size:9pt;'>Tiny text</p>
+          </body>
+        </html>";
+
+        // Load the HTML into an Aspose.HTML document
+        HTMLDocument document = new HTMLDocument(htmlContent);
+
+        // 2️⃣ Enable text hinting for sharper small fonts
+        TextOptions textRenderOptions = new TextOptions
         {
-            // 1️⃣ Load the HTML document
-            HTMLDocument htmlDoc = new HTMLDocument("YOUR_DIRECTORY/input.html");
-            if (htmlDoc == null)
-                throw new InvalidOperationException("Unable to load HTML document.");
+            UseHinting = true
+        };
 
-            // 2️⃣ Define font style (bold + italic)
-            WebFontStyle webFontStyle = new WebFontStyle
-            {
-                Weight = FontWeight.Bold,
-                Style  = FontStyleEnum.Italic
-            };
+        // 3️⃣ Set the desired image dimensions (set image size)
+        ImageRenderingOptions imageRenderOptions = new ImageRenderingOptions
+        {
+            TextOptions = textRenderOptions,
+            Width  = 400,   // set width
+            Height = 200,   // set height
+        };
 
-            // 3️⃣ Set custom font size and family
-            TextOptions textRenderOptions = new TextOptions
-            {
-                FontFamily = "Arial",
-                FontSize   = 14,
-                FontStyle  = webFontStyle
-            };
-
-            // 4️⃣ Configure image size, format, and attach text options
-            ImageRenderingOptions imageRenderOptions = new ImageRenderingOptions
-            {
-                TextOptions   = textRenderOptions,
-                Width         = 800,
-                Height        = 600,
-                OutputFormat  = ImageFormat.Png
-            };
-
-            // 5️⃣ Render to PNG
-            htmlDoc.RenderToImage("YOUR_DIRECTORY/output.png", imageRenderOptions);
-
-            // Optional: open the generated image automatically
-            System.Diagnostics.Process.Start(new System.Diagnostics.ProcessStartInfo
-            {
-                FileName = "YOUR_DIRECTORY/output.png",
-                UseShellExecute = true
-            });
+        // 4️⃣ Render the document to a PNG file (convert HTML to PNG)
+        try
+        {
+            ImageRenderer renderer = new ImageRenderer(document, imageRenderOptions);
+            string outputPath = @"C:\Temp\tiny_text_hinting.png";
+            renderer.RenderToFile(outputPath);
+            Console.WriteLine($"✅ Image successfully created at: {outputPath}");
+        }
+        catch (Exception ex)
+        {
+            Console.Error.WriteLine($"❌ Rendering failed: {ex.Message}");
         }
     }
 }
 ```
 
-**Salida esperada:** Un archivo PNG llamado `output.png` que coincide con el diseño visual de `input.html`, con un tamaño exacto de 800 × 600 px y todo el texto mostrado en Arial 14 pt negrita cursiva.
+**Salida esperada:**  
 
----
+- La consola muestra *“✅ Image successfully created at: C:\Temp\tiny_text_hinting.png”*.
+- El archivo PNG muestra una imagen de 400 × 200 píxeles con la frase **“Tiny text”** renderizada limpiamente.
 
-## Preguntas Frecuentes y Casos Límite
+## Variaciones comunes y casos límite
 
-### ¿Qué pasa si mi HTML hace referencia a CSS o imágenes externas?
+| Situación | Qué cambiar | Por qué |
+|-----------|-------------|---------|
+| **Formato de salida diferente** (p. ej., JPEG) | Cambia la extensión del archivo en `RenderToFile` a `.jpg` o establece `imageRenderOptions.Format = ImageFormat.Jpeg` | Aspose decide el codificador según la extensión. |
+| **DPI más alto para impresión** | `imageRenderOptions.DpiX = 300; imageRenderOptions.DpiY = 300;` | Aumenta la densidad de píxeles sin cambiar el tamaño lógico. |
+| **HTML dinámico desde una URL** | Usa `new HTMLDocument("https://example.com")` en lugar de una cadena | Útil para capturas de pantalla de páginas web. |
+| **Fondo transparente** | `imageRenderOptions.BackgroundColor = System.Drawing.Color.Transparent;` | Necesario para superposiciones gráficas. |
+| **Documentos grandes** | Incrementa `imageRenderOptions.Width` y `Height` proporcionalmente, o habilita paginación mediante opciones `PageBreaking` | Evita que el contenido se recorte. |
 
-Aspose.HTML sigue las mismas reglas que un navegador. Mientras las rutas sean accesibles (URL absolutas o rutas relativas correctas), el renderizador las descargará automáticamente. Si ejecutas el código en una máquina sin acceso a internet, asegúrate de que todos los recursos estén almacenados localmente.
+### Consejos profesionales
 
-### ¿Puedo renderizar a JPEG o BMP en lugar de PNG?
+- **Cachea el `HTMLDocument`** si renderizas el mismo marcado repetidamente; ahorra tiempo de análisis.
+- **Reutiliza `TextOptions`** en múltiples renderizados para mantener una apariencia consistente.
+- **Valida la ruta de salida** antes de llamar a `RenderToFile`; la ausencia de directorios genera una excepción.
 
-Absolutamente. Solo cambia `OutputFormat`:
+## Preguntas frecuentes
 
-```csharp
-OutputFormat = ImageFormat.Jpeg   // For JPEG
-// or
-OutputFormat = ImageFormat.Bmp    // For BMP
-```
+**P: ¿Esto funciona en Linux?**  
+R: Absolutamente. Aspose.HTML es multiplataforma; solo asegúrate de que las dependencias nativas (como libgdiplus para .NET Core) estén instaladas.
 
-Recuerda que JPEG es con pérdida, por lo que el texto puede aparecer ligeramente borroso—PNG es la opción más segura para tipografía nítida.
+**P: ¿Qué pasa si necesito renderizar SVG dentro del HTML?**  
+R: Aspose.HTML soporta SVG de forma nativa. Simplemente inserta la etiqueta `<svg>` y el motor la rasterizará junto con el resto de la página.
 
-### ¿Cómo preservo la relación de aspecto original cuando el ancho del HTML es desconocido?
+**P: ¿Puedo renderizar varias páginas en una sola imagen?**  
+R: Sí. Usa `ImageRenderingOptions` con `PageNumber` y `PageCount` para combinar páginas manualmente, o renderiza cada página a su propio PNG y luego únelas.
 
-Establece solo una dimensión (por ejemplo, `Width = 800`) y deja la otra en `0`. Aspose.HTML calculará la altura automáticamente según el diseño renderizado.
+## Conclusión
 
-```csharp
-Width = 800,
-Height = 0, // Auto‑calculate height
-```
+Acabamos de demostrar cómo **crear imagen a partir de HTML** usando Aspose.HTML para .NET, cubriendo todo desde **renderizar HTML a imagen**, **establecer tamaño de imagen**, **convertir HTML a PNG** y **definir ancho y alto**. El código es breve, la API intuitiva y el resultado es un PNG nítido que respeta las dimensiones que especificas.
 
-### ¿Qué pasa si necesito un DPI (puntos por pulgada) diferente?
+¿Listo para el siguiente paso? Prueba cambiar el pequeño párrafo por una hoja de estilo completa, experimenta con diferentes configuraciones de DPI o procesa por lotes una carpeta de archivos HTML en miniaturas. El mismo patrón se aplica: solo ajusta la fuente HTML y las opciones de renderizado.
 
-Utiliza la propiedad `Resolution` dentro de `ImageRenderingOptions`:
+¡Feliz codificación, y que tus capturas siempre sean pixel‑perfectas!
 
-```csharp
-Resolution = new Resolution(300) // 300 DPI for high‑quality prints
-```
-
-Un DPI más alto produce archivos más grandes pero una salida más nítida—útil cuando planeas imprimir la imagen.
-
----
-
-## 🎉 Conclusión
-
-Ahora sabes cómo **crear imagen a partir de HTML** usando Aspose.HTML para .NET, cubriendo todo desde la carga del marcado hasta **renderizar HTML a imagen**, **convertir HTML a PNG**, **establecer dimensiones de la imagen** y **definir un tamaño de fuente personalizado**. El código completo está listo para ejecutarse, y las explicaciones te brindan el “por qué” detrás de cada línea, asegurando que puedas adaptar la solución a escenarios más complejos.
-
-### ¿Qué sigue?
-
-- Experimenta con **diferentes formatos de salida** (JPEG, BMP, GIF) para ver cómo afecta la compresión a la calidad.
-- Prueba **incrustar fuentes web personalizadas** mediante `@font-face` en tu HTML y observa cómo Aspose.HTML las respeta.
-- Combina esta técnica con **generación de PDF** para incrustar imágenes renderizadas directamente en informes.
-- Profundiza en **opciones avanzadas de renderizado** como anti‑aliasing, colores de fondo o soporte SVG.
-
-Si encontraste algún inconveniente, no dudes en dejar un comentario—¡feliz codificación!
-
----
-
-![Crear imagen a partir de HTML ejemplo](example-output.png "Crear imagen a partir de HTML – salida PNG renderizada")
+![Ejemplo de crear imagen a partir de HTML](C:/Temp/tiny_text_hinting.png "Salida de crear imagen a partir de HTML")
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

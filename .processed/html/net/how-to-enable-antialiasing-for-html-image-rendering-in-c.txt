@@ -1,0 +1,7 @@
+Title: How to enable antialiasing for HTML image rendering in C#
+Slug: how-to-enable-antialiasing-for-html-image-rendering-in-c
+Category: rendering-html-documents
+ProcessedDate: 2026-09-10T18:40:55.117589
+SourceRepo: AI Search API
+Keywords: how to enable antialiasing, render html to image, high quality image rendering, how to render html image
+PRNumber: 259

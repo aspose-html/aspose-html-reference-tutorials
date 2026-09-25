@@ -1,26 +1,26 @@
 ---
 category: general
-date: 2026-02-19
-description: Buat gambar dari HTML dengan cepat menggunakan Aspose.HTML di C#. Pelajari
-  cara merender HTML menjadi gambar, mengonversi HTML ke PNG, mengatur dimensi gambar,
-  dan mengatur ukuran font khusus.
+date: 2026-02-10
+description: Buat gambar dari HTML dan render HTML menjadi gambar dengan Aspose.HTML.
+  Pelajari cara mengatur ukuran gambar, mengonversi HTML ke PNG, dan mengatur lebar
+  serta tinggi dalam hitungan menit.
 draft: false
 keywords:
 - create image from html
 - render html to image
+- set image size
 - convert html to png
-- set image dimensions
-- set custom font size
+- set width height
 language: id
-og_description: Buat gambar dari HTML menggunakan Aspose.HTML. Panduan ini menunjukkan
-  cara merender HTML menjadi gambar, mengonversi HTML ke PNG, dan mengatur dimensi
-  gambar dengan ukuran font khusus.
-og_title: Buat Gambar dari HTML di C# – Tutorial Lengkap
+og_description: Buat gambar dari HTML dengan Aspose.HTML. Panduan ini menunjukkan
+  cara merender HTML menjadi gambar, mengatur ukuran gambar, mengonversi HTML ke PNG,
+  dan menyesuaikan lebar serta tinggi.
+og_title: Buat gambar dari HTML di C# – Tutorial Rendering Lengkap
 tags:
 - Aspose.HTML
 - C#
 - Image Rendering
-title: Buat Gambar dari HTML di C# – Panduan Langkah demi Langkah
+title: Buat gambar dari HTML di C# – Panduan Langkah demi Langkah
 url: /id/net/generate-jpg-and-png-images/create-image-from-html-in-c-step-by-step-guide/
 ---
 
@@ -28,237 +28,196 @@ url: /id/net/generate-jpg-and-png-images/create-image-from-html-in-c-step-by-ste
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Membuat Gambar dari HTML di C# – Panduan Langkah‑per‑Langkah
+# Membuat gambar dari HTML – Tutorial Lengkap C#
 
-Pernah perlu **create image from HTML** tetapi tidak yakin perpustakaan mana yang memberikan hasil pixel‑perfect? Anda tidak sendirian. Di dunia .NET, Aspose.HTML memudahkan **render HTML to image**, memungkinkan Anda mengubah markup apa pun menjadi PNG, JPEG, atau bahkan BMP hanya dengan beberapa baris kode.
+Pernahkah Anda perlu **create image from HTML** tetapi tidak yakin pustaka mana yang dapat melakukannya tanpa ribet? Anda tidak sendirian. Banyak pengembang menemui kendala ketika mencoba merender teks kecil atau tata letak presisi ke dalam PNG, hanya untuk mendapatkan hasil yang buram. Kabar baiknya, dengan Aspose.HTML Anda dapat **render HTML to image** dalam satu panggilan bersih—tanpa perlu mengutak‑atik tambahan.
 
-Dalam tutorial ini kami akan membahas contoh lengkap yang dapat dijalankan yang menunjukkan cara **convert HTML to PNG**, cara **set image dimensions**, dan cara **set custom font size** untuk kontrol tipografi yang sempurna. Pada akhir tutorial Anda akan memiliki program mandiri yang dapat Anda masukkan ke proyek C# mana pun.
+Dalam tutorial ini kami akan membahas seluruh proses: mulai dari menyiapkan potongan HTML minimal, mengaktifkan text hinting untuk font kecil yang tajam, hingga **setting image size**, **convert HTML to PNG**, dan akhirnya **setting width height** pada output. Pada akhir tutorial Anda akan memiliki program C# siap‑jalankan yang menghasilkan file gambar tajam dengan dimensi yang Anda tentukan.
 
-## Apa yang Anda Butuhkan
+## Apa yang Akan Anda Pelajari
 
-- **.NET 6+** (kode ini juga bekerja dengan .NET Framework 4.6+)
-- **Aspose.HTML for .NET** – Anda dapat mengunduhnya dari NuGet (`Install-Package Aspose.HTML`)
-- File HTML sederhana (`input.html`) yang ingin Anda ubah menjadi gambar
-- IDE atau editor yang Anda nyaman gunakan (Visual Studio, Rider, VS Code…)
+- Cara menginstansiasi `HTMLDocument` dari sebuah string.
+- Mengapa mengaktifkan `UseHinting` penting untuk font kecil.
+- Peran `ImageRenderingOptions` dalam mengontrol **set image size** dan format.
+- Cara menyimpan bitmap yang dirender sebagai file PNG.
+- Jebakan umum (mis., ketidaksesuaian DPI) dan solusi cepat.
 
-Tidak diperlukan alat pihak ketiga lainnya. Perpustakaan ini menyertakan mesin renderingnya sendiri, jadi Anda tidak memerlukan browser headless atau layanan eksternal.
+Tidak ada alat eksternal, tidak ada file konfigurasi yang rumit—hanya C# murni dan Aspose.HTML.
 
----
+## Prasyarat
 
-## Langkah 1: Muat Dokumen HTML yang Ingin Anda Render
+- .NET 6.0 atau yang lebih baru (API ini bekerja dengan .NET Core dan .NET Framework).
+- Lisensi Aspose.HTML untuk .NET yang valid (Anda dapat memulai dengan percobaan gratis).
+- Visual Studio 2022 atau IDE apa pun yang Anda sukai.
+- Familiaritas dasar dengan sintaks C#.
 
-Hal pertama yang kita lakukan adalah membaca HTML sumber. Kelas `HTMLDocument` milik Aspose.HTML dapat memuat file, URL, atau bahkan string mentah.
+Jika Anda sudah memiliki semuanya, bagus—mari kita mulai.
+
+## Langkah 1: Siapkan Konten HTML
+
+Hal pertama yang kita butuhkan adalah string HTML. Dalam skenario dunia nyata Anda mungkin memuatnya dari file atau basis data, tetapi demi kejelasan kami akan menyimpannya secara inline.
 
 ```csharp
 using Aspose.Html;
-using Aspose.Html.Drawing;
 using Aspose.Html.Rendering.Image;
+using Aspose.Html.Rendering.Image.Options;
 
-// Load the HTML file from disk
-HTMLDocument htmlDoc = new HTMLDocument("YOUR_DIRECTORY/input.html");
-
-// Verify that the document is loaded (optional sanity check)
-if (htmlDoc == null)
-{
-    throw new InvalidOperationException("Failed to load the HTML document.");
-}
+// Tiny HTML with a 9‑point paragraph
+string htmlContent = @"
+<html>
+  <body>
+    <p style='font-size:9pt;'>Tiny text</p>
+  </body>
+</html>";
+// Create the HTMLDocument object from the string
+HTMLDocument document = new HTMLDocument(htmlContent);
 ```
 
-**Mengapa ini penting:** Memuat dokumen memberi renderer DOM untuk diproses. Jika Anda melewatkan langkah ini, tidak ada yang dapat digambar ke kanvas, dan output akan kosong.
+**Mengapa ini penting:**  
+Bahkan elemen `<p>` sederhana dapat memperlihatkan keanehan rendering ketika ukuran font sangat kecil. Dengan memulai contoh minimal kita dapat melihat bagaimana hinting dan opsi ukuran memengaruhi PNG akhir.
 
----
+## Langkah 2: Aktifkan Text Hinting untuk Font Kecil
 
-## Langkah 2: Tentukan Gaya Font dengan API `WebFontStyle` Baru
-
-Jika Anda memerlukan berat atau gaya font tertentu—misalnya **bold italic**—Anda dapat menggunakan `WebFontStyle`. Di sini juga kami menangani kebutuhan **set custom font size** nanti.
-
-```csharp
-// Create a WebFontStyle object to control weight and style
-WebFontStyle webFontStyle = new WebFontStyle
-{
-    Weight = FontWeight.Bold,          // Makes the text bold
-    Style  = FontStyleEnum.Italic      // Makes the text italic
-};
-```
-
-**Pro tip:** API `WebFontStyle` bekerja dengan font web‑safe apa pun atau font yang Anda sematkan melalui `@font-face`. Jika Anda memerlukan tipe huruf non‑standar, cukup referensikan dalam HTML Anda dan Aspose.HTML akan mengambilnya secara otomatis.
-
----
-
-## Langkah 3: Siapkan Opsi Rendering Teks (Termasuk Custom Font Size)
-
-Sekarang kami memberi tahu renderer cara menggambar teks. Ini adalah tempat di mana kami **set custom font size** dan menerapkan gaya yang baru saja kami buat.
+Saat Anda merender teks yang sangat kecil, rasterizer sering menghasilkan tepi yang kabur. Aspose.HTML menyediakan kelas `TextOptions` dimana `UseHinting` memberi tahu mesin untuk menerapkan penyesuaian sub‑pixel, menghasilkan glyph yang lebih tajam.
 
 ```csharp
-// Configure text rendering options
+// Enable text hinting to improve readability of tiny fonts
 TextOptions textRenderOptions = new TextOptions
 {
-    FontFamily = "Arial",          // Fallback generic font
-    FontSize   = 14,               // Custom font size in points
-    FontStyle  = webFontStyle      // Apply bold‑italic style
+    UseHinting = true   // Turn on hinting – essential for 9pt text
 };
 ```
 
-**Mengapa langkah ini krusial:** Tanpa secara eksplisit mengatur `FontSize`, renderer akan kembali ke ukuran yang didefinisikan dalam HTML atau CSS. Menimpanya memastikan output yang konsisten terlepas dari markup sumber.
+**Tips pro:** Jika Anda merender heading besar, Anda dapat dengan aman mengatur `UseHinting = false` untuk mempercepat proses. Untuk elemen UI kecil, selalu biarkan tetap aktif.
 
----
+## Langkah 3: Definisikan Image Rendering Options (Set Image Size)
 
-## Langkah 4: Konfigurasikan Opsi Rendering Gambar – Ukuran, Format, dan Pengaturan Teks
-
-Di sini kami menjawab pertanyaan **set image dimensions** dan juga menentukan format output (`PNG` dalam kasus ini). Kelas `ImageRenderingOptions` mengikat semuanya bersama.
+Sekarang kita memberi tahu Aspose seberapa besar gambar output yang diinginkan. Di sinilah konsep **set image size**, **set width height**, dan **convert HTML to PNG** bersatu.
 
 ```csharp
-// Define the overall image rendering options
 ImageRenderingOptions imageRenderOptions = new ImageRenderingOptions
 {
-    TextOptions   = textRenderOptions, // Attach the text options we built
-    Width         = 800,               // Desired image width in pixels
-    Height        = 600,               // Desired image height in pixels
-    OutputFormat  = ImageFormat.Png    // Convert HTML to PNG
+    TextOptions = textRenderOptions, // Apply our hinting settings
+    Width  = 400,   // Desired width in pixels
+    Height = 200,   // Desired height in pixels
+    // Optional: set background color, DPI, etc.
 };
 ```
 
-**Catatan kasus tepi:** Jika HTML Anda berisi elemen yang melebihi lebar/tinggi yang ditentukan, Aspose.HTML secara otomatis akan memotong atau menskalakan mereka berdasarkan properti CSS `Background` dan `Overflow`. Anda juga dapat mengaktifkan `PreserveAspectRatio` jika lebih suka skala proporsional.
+- `Width` dan `Height` adalah dimensi piksel tepat yang Anda inginkan—sempurna untuk pembuatan thumbnail.
+- Jika Anda tidak menyertakannya, Aspose akan menghitung ukuran berdasarkan tata letak HTML, yang mungkin tidak cocok dengan batasan UI Anda.
 
----
+## Langkah 4: Render Dokumen HTML ke File PNG
 
-## Langkah 5: Render Dokumen HTML ke File Gambar
-
-Akhirnya, kami memanggil `RenderToImage`. Baris tunggal ini melakukan semua pekerjaan berat—penataan, rasterisasi, dan penulisan file.
+Dengan dokumen dan opsi siap, langkah terakhir adalah satu baris kode yang menulis PNG ke disk.
 
 ```csharp
-// Render the document and save it as a PNG file
-htmlDoc.RenderToImage("YOUR_DIRECTORY/output.png", imageRenderOptions);
+// Initialize the renderer with the document and our options
+ImageRenderer renderer = new ImageRenderer(document, imageRenderOptions);
 
-// Quick verification: open the file (optional, works on Windows)
-System.Diagnostics.Process.Start(new System.Diagnostics.ProcessStartInfo
-{
-    FileName = "YOUR_DIRECTORY/output.png",
-    UseShellExecute = true
-});
+// Render and save as PNG (default format is PNG when the file extension is .png)
+renderer.RenderToFile(@"C:\Temp\tiny_text_hinting.png");
 ```
 
-Setelah menjalankan program, Anda akan melihat `output.png` dengan dimensi tepat (800 × 600) dan teks yang dirender dalam **14‑point bold italic Arial**. Gambar akan secara akurat merepresentasikan HTML asli, termasuk warna CSS, border, dan gambar yang disematkan.
+**Apa yang akan Anda lihat:**  
+Buka `tiny_text_hinting.png` dan Anda akan mendapatkan gambar 400×200 yang tajam dimana paragraf “Tiny text” dapat dibaca dengan jelas, meskipun ukurannya 9‑pt.
 
----
+## Contoh Lengkap yang Berfungsi
 
-## Contoh Lengkap yang Berfungsi (Semua Langkah Digabungkan)
-
-Berikut adalah program lengkap yang siap disalin‑tempel. Ganti `YOUR_DIRECTORY` dengan jalur sebenarnya tempat `input.html` Anda berada.
+Berikut adalah program lengkap yang siap disalin‑tempel. Program ini mencakup semua pernyataan `using`, komentar, dan penanganan error untuk kesan siap produksi.
 
 ```csharp
+using System;
 using Aspose.Html;
-using Aspose.Html.Drawing;
 using Aspose.Html.Rendering.Image;
+using Aspose.Html.Rendering.Image.Options;
 
-namespace HtmlToImageDemo
+class Program
 {
-    class Program
+    static void Main()
     {
-        static void Main(string[] args)
+        // 1️⃣ Create the HTML source
+        string htmlContent = @"
+        <html>
+          <body>
+            <p style='font-size:9pt;'>Tiny text</p>
+          </body>
+        </html>";
+
+        // Load the HTML into an Aspose.HTML document
+        HTMLDocument document = new HTMLDocument(htmlContent);
+
+        // 2️⃣ Enable text hinting for sharper small fonts
+        TextOptions textRenderOptions = new TextOptions
         {
-            // 1️⃣ Load the HTML document
-            HTMLDocument htmlDoc = new HTMLDocument("YOUR_DIRECTORY/input.html");
-            if (htmlDoc == null)
-                throw new InvalidOperationException("Unable to load HTML document.");
+            UseHinting = true
+        };
 
-            // 2️⃣ Define font style (bold + italic)
-            WebFontStyle webFontStyle = new WebFontStyle
-            {
-                Weight = FontWeight.Bold,
-                Style  = FontStyleEnum.Italic
-            };
+        // 3️⃣ Set the desired image dimensions (set image size)
+        ImageRenderingOptions imageRenderOptions = new ImageRenderingOptions
+        {
+            TextOptions = textRenderOptions,
+            Width  = 400,   // set width
+            Height = 200,   // set height
+        };
 
-            // 3️⃣ Set custom font size and family
-            TextOptions textRenderOptions = new TextOptions
-            {
-                FontFamily = "Arial",
-                FontSize   = 14,
-                FontStyle  = webFontStyle
-            };
-
-            // 4️⃣ Configure image size, format, and attach text options
-            ImageRenderingOptions imageRenderOptions = new ImageRenderingOptions
-            {
-                TextOptions   = textRenderOptions,
-                Width         = 800,
-                Height        = 600,
-                OutputFormat  = ImageFormat.Png
-            };
-
-            // 5️⃣ Render to PNG
-            htmlDoc.RenderToImage("YOUR_DIRECTORY/output.png", imageRenderOptions);
-
-            // Optional: open the generated image automatically
-            System.Diagnostics.Process.Start(new System.Diagnostics.ProcessStartInfo
-            {
-                FileName = "YOUR_DIRECTORY/output.png",
-                UseShellExecute = true
-            });
+        // 4️⃣ Render the document to a PNG file (convert HTML to PNG)
+        try
+        {
+            ImageRenderer renderer = new ImageRenderer(document, imageRenderOptions);
+            string outputPath = @"C:\Temp\tiny_text_hinting.png";
+            renderer.RenderToFile(outputPath);
+            Console.WriteLine($"✅ Image successfully created at: {outputPath}");
+        }
+        catch (Exception ex)
+        {
+            Console.Error.WriteLine($"❌ Rendering failed: {ex.Message}");
         }
     }
 }
 ```
 
-**Output yang diharapkan:** File PNG bernama `output.png` yang cocok dengan tata letak visual `input.html`, berukuran tepat 800 × 600 px, dengan semua teks ditampilkan dalam 14‑pt bold italic Arial.
+**Output yang Diharapkan:**  
 
----
+- Konsol mencetak *“✅ Image successfully created at: C:\Temp\tiny_text_hinting.png”*.
+- File PNG menampilkan gambar 400 × 200 piksel dengan frasa **“Tiny text”** yang dirender bersih.
 
-## Pertanyaan yang Sering Diajukan & Kasus Tepi
+## Variasi Umum & Kasus Edge
 
-### Bagaimana jika HTML saya merujuk ke CSS atau gambar eksternal?
+| Situasi | Apa yang diubah | Mengapa |
+|-----------|----------------|-----|
+| **Berbeda format output** (mis., JPEG) | Ubah ekstensi file di `RenderToFile` menjadi `.jpg` atau atur `imageRenderOptions.Format = ImageFormat.Jpeg` | Aspose menentukan encoder berdasarkan ekstensi. |
+| **DPI lebih tinggi untuk cetak** | Atur `imageRenderOptions.DpiX = 300; imageRenderOptions.DpiY = 300;` | Meningkatkan kepadatan piksel tanpa mengubah ukuran logis. |
+| **HTML dinamis dari URL** | Gunakan `new HTMLDocument("https://example.com")` alih-alih string | Berguna untuk screenshot halaman web. |
+| **Latar belakang transparan** | `imageRenderOptions.BackgroundColor = System.Drawing.Color.Transparent;` | Diperlukan untuk grafik overlay. |
+| **Dokumen besar** | Tingkatkan `imageRenderOptions.Width` dan `Height` secara proporsional, atau aktifkan paging melalui opsi `PageBreaking` | Mencegah pemotongan konten. |
 
-Aspose.HTML mengikuti aturan yang sama seperti browser. Selama jalur dapat dijangkau (URL absolut atau jalur relatif yang benar), renderer akan mengunduhnya secara otomatis. Jika Anda menjalankan kode pada mesin tanpa akses internet, pastikan semua aset disimpan secara lokal.
+### Tips Pro
 
-### Bisakah saya merender ke JPEG atau BMP alih-alih PNG?
+- **Cache `HTMLDocument`** jika Anda merender markup yang sama berulang kali; ini menghemat waktu parsing.
+- **Reuse `TextOptions`** di beberapa rendering untuk menjaga tampilan konsisten.
+- **Validate the output path** sebelum memanggil `RenderToFile`—direktori yang hilang akan menyebabkan pengecualian.
 
-Ingat bahwa JPEG bersifat lossy, sehingga teks mungkin terlihat sedikit buram—PNG adalah pilihan paling aman untuk tipografi yang tajam.
+## Pertanyaan yang Sering Diajukan
 
-Absolutely. Just change `OutputFormat`:
+**Q: Apakah ini bekerja di Linux?**  
+A: Tentu saja. Aspose.HTML bersifat lintas‑platform; pastikan dependensi native (seperti libgdiplus untuk .NET Core) terpasang.
 
-```csharp
-OutputFormat = ImageFormat.Jpeg   // For JPEG
-// or
-OutputFormat = ImageFormat.Bmp    // For BMP
-```
+**Q: Bagaimana jika saya perlu merender SVG di dalam HTML?**  
+A: Aspose.HTML mendukung SVG secara langsung. Cukup sisipkan tag `<svg>` dan renderer akan merasternya bersama sisa halaman.
 
-### Bagaimana saya mempertahankan rasio aspek asli ketika lebar HTML tidak diketahui?
+**Q: Bisakah saya merender beberapa halaman menjadi satu gambar?**  
+A: Ya. Gunakan `ImageRenderingOptions` dengan `PageNumber` dan `PageCount` untuk menyatukan halaman secara manual, atau render tiap halaman ke PNG masing‑masing lalu gabungkan nanti.
 
-Set only one dimension (e.g., `Width = 800`) and leave the other as `0`. Aspose.HTML will calculate the height automatically based on the rendered layout.
+## Kesimpulan
 
-```csharp
-Width = 800,
-Height = 0, // Auto‑calculate height
-```
+Kami baru saja mendemonstrasikan cara **create image from HTML** menggunakan Aspose.HTML untuk .NET, mencakup semua hal mulai dari **render html to image**, **set image size**, **convert html to png**, dan **set width height**. Kode singkat, API intuitif, dan hasilnya adalah PNG tajam yang menghormati dimensi yang Anda tentukan.
 
-### Bagaimana jika saya membutuhkan DPI (dots per inch) yang berbeda?
+Siap untuk langkah selanjutnya? Coba ganti paragraf kecil dengan stylesheet lengkap, bereksperimen dengan pengaturan DPI berbeda, atau proses batch folder berisi file HTML menjadi thumbnail. Pola yang sama berlaku—hanya ubah sumber HTML dan opsi rendering.
 
-Use `Resolution` property inside `ImageRenderingOptions`:
+Selamat coding, semoga screenshot Anda selalu pixel‑perfect! 
 
-```csharp
-Resolution = new Resolution(300) // 300 DPI for high‑quality prints
-```
-
-DPI yang lebih tinggi menghasilkan file lebih besar tetapi output lebih tajam—gunakan ketika Anda berencana mencetak gambar.
-
----
-
-## 🎉 Kesimpulan
-
-Anda sekarang tahu cara **create image from HTML** menggunakan Aspose.HTML untuk .NET, mencakup semua hal mulai dari memuat markup hingga **render html to image**, **convert html to PNG**, **set image dimensions**, dan **set custom font size**. Contoh kode lengkap siap dijalankan, dan penjelasannya memberi Anda “mengapa” di balik setiap baris, memastikan Anda dapat menyesuaikan solusi untuk skenario yang lebih kompleks.
-
-### Apa Selanjutnya?
-
-- Bereksperimen dengan **different output formats** (JPEG, BMP, GIF) untuk melihat bagaimana kompresi memengaruhi kualitas.
-- Coba **embedding custom web fonts** melalui `@font-face` di HTML Anda dan amati bagaimana Aspose.HTML menghormatinya.
-- Gabungkan teknik ini dengan **PDF generation** untuk menyematkan gambar yang dirender langsung ke dalam laporan.
-- Selami **advanced rendering options** seperti anti‑aliasing, warna latar belakang, atau dukungan SVG.
-
-Jika Anda mengalami kendala, silakan tinggalkan komentar—selamat coding!
-
----
-
-![Contoh membuat gambar dari HTML](example-output.png "Membuat gambar dari HTML – output PNG yang dirender")
+![Create image from HTML example](C:/Temp/tiny_text_hinting.png "Create image from HTML output")
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

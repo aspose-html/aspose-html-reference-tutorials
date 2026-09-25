@@ -51,14 +51,18 @@ url: /ar/net/html-document-manipulation/
 ## دروس تعليمية حول التعامل مع مستندات HTML
 ### [تحميل مستندات HTML بشكل غير متزامن في .NET باستخدام Aspose.HTML](./load-html-doc-asynchronously/)
 تعرف على كيفية استخدام Aspose.HTML for .NET للعمل مع مستندات HTML. دليل خطوة بخطوة مع أمثلة وأسئلة شائعة للمطورين.
-### [تحميل مستندات HTML باستخدام بيانات الاعتماد في .NET باستخدام Aspose.HTML](./load-html-doc-with-credentials/)
+### [تحميل مستندات HTML باستخدام بيانات الاعتماد في .NET باستخدام Aspose.HTML](./load-html-with-credentials/)
 تعرف على كيفية تعزيز تحسين محرك البحث الخاص بك باستخدام Aspose.HTML لـ .NET. قم بتعزيز التصنيفات وتحليل محتوى الويب وتحسينه لمحركات البحث.
+### [تحميل مستندات HTML باستخدام بيانات الاعتماد في .NET باستخدام Aspose.HTML](./load-html-doc-with-credentials/)
+تعرف على كيفية تعزيز تحسين محرك البحث الخاص بك باستخدام Aspose.HTML لـ .NET. قم بتحسين التصنيفات وتحليل محتوى الويب وتحسينه لمحركات البحث.
 ### [تحميل HTML باستخدام خادم بعيد في .NET مع Aspose.HTML](./load-html-using-remote-server/)
 اكتشف إمكانات Aspose.HTML لـ .NET من خلال دليلنا الشامل. تعرّف على كيفية استيراد مساحات الأسماء والوصول إلى مستندات HTML عن بُعد والمزيد.
 ### [تحميل HTML باستخدام URL في .NET مع Aspose.HTML](./load-html-using-url/)
 تعرف على كيفية الاستفادة من قوة Aspose.HTML لـ .NET. عزز تطوير الويب لديك باستخدام معالجة HTML وتقديمها.
 ### [إنشاء مستند في .NET باستخدام Aspose.HTML](./creating-a-document/)
 أطلق العنان لقوة Aspose.HTML لـ .NET. تعلم كيفية إنشاء مستندات HTML وSVG ومعالجتها وتحسينها بسهولة. استكشف الأمثلة والأسئلة الشائعة خطوة بخطوة.
+### [كيفية إنشاء HTML باستخدام Aspose – العثور على عنصر وتطبيق غامق](./how-to-create-html-with-aspose-find-element-apply-bold/)
+تعلم كيفية إنشاء مستند HTML وتحديد عنصر معين وتطبيق تنسيق غامق باستخدام Aspose.HTML.
 ### [تحرير مستند في .NET باستخدام Aspose.HTML](./editing-a-document/)
 أنشئ محتوى ويب جذابًا باستخدام Aspose.HTML for .NET. تعرّف على كيفية التعامل مع HTML وCSS والمزيد.
 ### [حفظ مستند في .NET باستخدام Aspose.HTML](./saving-a-document/)
@@ -69,8 +73,14 @@ url: /ar/net/html-document-manipulation/
 تعلم كيفية استخدام Aspose.HTML لـ .NET. قم باستيراد مساحة الأسماء ودمج HTML مع XML وتعزيز مهارات تطوير الويب لديك باستخدام هذا الدليل الشامل.
 ### [إنشاء مستندات XPS بواسطة XpsDevice في .NET باستخدام Aspose.HTML](./generate-xps-documents-by-xpsdevice/)
 أطلق العنان لإمكانات تطوير الويب باستخدام Aspose.HTML for .NET. أنشئ مستندات HTML وحولها وتعامل معها بسهولة.
+### [إنشاء مستند HTML باستخدام Aspose.HTML – دليل خطوة بخطوة](./create-html-document-with-aspose-html-step-by-step-guide/)
+تعلم كيفية إنشاء مستند HTML من الصفر باستخدام Aspose.HTML خطوة بخطوة مع أمثلة عملية.
 ### [إنشاء HTML من سلسلة في C# – دليل معالج الموارد المخصص](./create-html-from-string-in-c-custom-resource-handler-guide/)
 تعرف على كيفية إنشاء مستند HTML من سلسلة نصية في C# باستخدام معالج موارد مخصص.
+### [اجعل النص غامقًا ومائلًا في C# – دليل سريع لتنسيق HTML](./make-text-bold-italic-in-c-quick-guide-to-styling-html/)
+دليل سريع لتطبيق تنسيق النص الغامق والمائل في HTML باستخدام C# و Aspose.HTML.
+### [إضافة عنصر إلى الجسم – دليل C# كامل مع Aspose.HTML](./append-element-to-body-complete-c-guide-with-aspose-html/)
+تعلم كيفية إضافة عنصر إلى جسم مستند HTML باستخدام Aspose.HTML في C# خطوة بخطوة.
 
 ## خاتمة
 

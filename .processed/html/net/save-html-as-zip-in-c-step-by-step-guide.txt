@@ -1,0 +1,7 @@
+Title: Save HTML as ZIP in C# – step‑by‑step guide
+Slug: save-html-as-zip-in-c-step-by-step-guide
+Category: html-extensions-and-conversions
+ProcessedDate: 2026-08-13T02:14:33.175458
+SourceRepo: AI Search API
+Keywords: save html as zip, load html string, custom resource handler
+PRNumber: 238

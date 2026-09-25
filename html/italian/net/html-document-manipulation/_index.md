@@ -51,6 +51,9 @@ Aspose.HTML per .NET si distingue per la sua semplicità e potenza. Ti consente 
 ## Tutorial sulla manipolazione dei documenti HTML
 ### [Caricare documenti HTML in modo asincrono in .NET con Aspose.HTML](./load-html-doc-asynchronously/)
 Scopri come usare Aspose.HTML per .NET per lavorare con documenti HTML. Guida passo passo con esempi e FAQ per sviluppatori.
+### [Caricare documenti HTML con credenziali in .NET con Aspose.HTML](./load-html-with-credentials/)
+Scopri come potenziare la tua SEO con Aspose.HTML per .NET. Aumenta le classifiche, analizza i contenuti web e ottimizzali per i motori di ricerca.
+
 ### [Caricare documenti HTML con credenziali in .NET con Aspose.HTML](./load-html-doc-with-credentials/)
 Scopri come potenziare la tua SEO con Aspose.HTML per .NET. Aumenta le classifiche, analizza i contenuti web e ottimizzali per i motori di ricerca.
 ### [Carica HTML utilizzando un server remoto in .NET con Aspose.HTML](./load-html-using-remote-server/)
@@ -69,8 +72,17 @@ Impara a creare contenuti dinamici e web utilizzando Aspose.HTML per .NET. Raffo
 Impara a usare Aspose.HTML per .NET. Importa namespace, unisci HTML con XML e migliora le tue competenze di sviluppo web con questa guida completa.
 ### [Genera documenti XPS tramite XpsDevice in .NET con Aspose.HTML](./generate-xps-documents-by-xpsdevice/)
 Sfrutta il potenziale dello sviluppo web con Aspose.HTML per .NET. Crea, converti e manipola documenti HTML con facilità.
+### [Creare documento HTML con Aspose.HTML – Guida passo‑a‑passo](./create-html-document-with-aspose-html-step-by-step-guide/)
+Scopri come creare un documento HTML con Aspose.HTML passo dopo passo. Esempi pratici e consigli per sviluppatori.
 ### [Creare HTML da stringa in C# – Guida al gestore di risorse personalizzato](./create-html-from-string-in-c-custom-resource-handler-guide/)
 Impara a generare documenti HTML da stringhe C# usando un gestore di risorse personalizzato con Aspose.HTML.
+### [Come creare HTML con Aspose – Trova elemento, applica grassetto](./how-to-create-html-with-aspose-find-element-apply-bold/)
+Scopri come individuare un elemento HTML e applicare il grassetto usando Aspose.HTML in .NET.
+
+### [Rendere il testo grassetto e corsivo in C# – Guida rapida allo styling HTML](./make-text-bold-italic-in-c-quick-guide-to-styling-html/)
+Scopri come applicare grassetto e corsivo al testo HTML usando C# con Aspose.HTML in pochi passaggi.
+### [Aggiungere elemento al body – Guida completa C# con Aspose.HTML](./append-element-to-body-complete-c-guide-with-aspose-html/)
+Scopri come aggiungere dinamicamente elementi al body di un documento HTML usando C# e Aspose.HTML.
 
 ## Conclusione
 

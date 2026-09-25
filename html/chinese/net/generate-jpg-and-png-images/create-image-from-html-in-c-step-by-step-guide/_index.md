@@ -1,258 +1,220 @@
 ---
 category: general
-date: 2026-02-19
-description: 使用 Aspose.HTML 在 C# 中快速将 HTML 创建为图像。了解如何将 HTML 渲染为图像、将 HTML 转换为 PNG、设置图像尺寸以及自定义字体大小。
+date: 2026-02-10
+description: 使用 Aspose.HTML 从 HTML 创建图像并将 HTML 渲染为图像。了解如何设置图像大小、将 HTML 转换为 PNG，以及在几分钟内设置宽度和高度。
 draft: false
 keywords:
 - create image from html
 - render html to image
+- set image size
 - convert html to png
-- set image dimensions
-- set custom font size
+- set width height
 language: zh
-og_description: 使用 Aspose.HTML 将 HTML 生成图像。本指南展示了如何将 HTML 渲染为图像、转换为 PNG，以及使用自定义字体大小设置图像尺寸。
-og_title: 在 C# 中从 HTML 创建图像 – 完整教程
+og_description: 使用 Aspose.HTML 将 HTML 创建为图像。本指南展示了如何将 HTML 渲染为图像、设置图像尺寸、将 HTML 转换为
+  PNG，以及调整宽度和高度。
+og_title: 使用 C# 从 HTML 创建图像 – 完整渲染教程
 tags:
 - Aspose.HTML
 - C#
 - Image Rendering
-title: 使用 C# 从 HTML 创建图像 – 步骤指南
+title: 在 C# 中从 HTML 创建图像 – 步骤指南
 url: /zh/net/generate-jpg-and-png-images/create-image-from-html-in-c-step-by-step-guide/
 ---
 
-craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 在 C# 中从 HTML 创建图像 – 步骤指南
+# 从 HTML 创建图像 – 完整 C# 教程
 
-是否曾经需要**从 HTML 创建图像**但不确定哪个库能提供像素级完美的效果？你并不孤单。在 .NET 世界中，Aspose.HTML 让**将 HTML 渲染为图像**变得轻而易举，只需几行代码即可将任何标记转换为 PNG、JPEG，甚至 BMP。
+是否曾需要 **从 HTML 创建图像**，却不确定哪个库既能实现又不麻烦？你并不孤单。许多开发者在尝试将细小文字或精确布局渲染为 PNG 时，常会得到模糊的结果。好消息是，使用 Aspose.HTML，你可以 **将 HTML 渲染为图像**，只需一次简洁调用——无需额外操作。
 
-在本教程中，我们将逐步演示一个完整且可运行的示例，展示如何**将 HTML 转换为 PNG**、如何**设置图像尺寸**以及如何**设置自定义字体大小**以实现完美的排版控制。完成后，你将拥有一个可以直接放入任何 C# 项目的独立程序。
+在本教程中，我们将完整演示整个过程：从准备最小的 HTML 片段、为细小字体开启文字 hinting、**设置图像尺寸**、**将 HTML 转换为 PNG**，到最后 **在输出上设置宽高**。完成后，你将拥有一个可直接运行的 C# 程序，生成符合指定尺寸的清晰图像文件。
 
-## 您需要的环境
+## 你将学到
 
-- **.NET 6+**（代码同样适用于 .NET Framework 4.6+）
-- **Aspose.HTML for .NET** – 可通过 NuGet 获取（`Install-Package Aspose.HTML`）
-- 一个简单的 HTML 文件（`input.html`），用于转换为图像
-- 你熟悉的 IDE 或编辑器（Visual Studio、Rider、VS Code 等）
+- 如何从字符串实例化 `HTMLDocument`。
+- 为什么为小字体启用 `UseHinting` 很重要。
+- `ImageRenderingOptions` 在控制 **设置图像尺寸** 与格式中的作用。
+- 如何将渲染后的位图保存为 PNG 文件。
+- 常见陷阱（如 DPI 不匹配）及快速解决方案。
 
-无需其他第三方工具。该库自带渲染引擎，无需使用无头浏览器或外部服务。
+无需外部工具，无需晦涩配置文件——纯 C# 与 Aspose.HTML 即可。
 
----
+## 前置条件
 
-## Step 1: Load the HTML Document You Want to Render
+- .NET 6.0 或更高版本（API 同时支持 .NET Core 与 .NET Framework）。
+- 有效的 Aspose.HTML for .NET 许可证（可先使用免费试用版）。
+- Visual Studio 2022 或任意你喜欢的 IDE。
+- 对 C# 语法有基本了解。
 
-首先读取源 HTML。Aspose.HTML 的 `HTMLDocument` 类可以加载文件、URL，甚至原始字符串。
+如果这些都已准备好，太好了——让我们开始吧。
+
+## 步骤 1：准备 HTML 内容
+
+首先我们需要一个 HTML 字符串。在实际项目中，你可能会从文件或数据库加载它，但为保持清晰，这里直接写在代码中。
 
 ```csharp
 using Aspose.Html;
-using Aspose.Html.Drawing;
 using Aspose.Html.Rendering.Image;
+using Aspose.Html.Rendering.Image.Options;
 
-// Load the HTML file from disk
-HTMLDocument htmlDoc = new HTMLDocument("YOUR_DIRECTORY/input.html");
-
-// Verify that the document is loaded (optional sanity check)
-if (htmlDoc == null)
-{
-    throw new InvalidOperationException("Failed to load the HTML document.");
-}
+// Tiny HTML with a 9‑point paragraph
+string htmlContent = @"
+<html>
+  <body>
+    <p style='font-size:9pt;'>Tiny text</p>
+  </body>
+</html>";
+// Create the HTMLDocument object from the string
+HTMLDocument document = new HTMLDocument(htmlContent);
 ```
 
-**为什么这很重要：** 加载文档后渲染器才拥有可操作的 DOM。如果跳过此步骤，画布上将没有任何内容，输出将是空白的。
+**为什么这很重要：**  
+即使是一个简单的 `<p>`，在字体尺寸极小的情况下也会暴露渲染怪异。通过最小示例，我们可以观察 hinting 与尺寸选项对最终 PNG 的影响。
 
----
+## 步骤 2：为小字体启用文字 Hinting
 
-## Step 2: Define the Font Style with the New `WebFontStyle` API
-
-如果需要特定的字体粗细或样式——比如 **bold italic**——可以使用 `WebFontStyle`。这里我们也会在后面处理 **设置自定义字体大小** 的需求。
-
-```csharp
-// Create a WebFontStyle object to control weight and style
-WebFontStyle webFontStyle = new WebFontStyle
-{
-    Weight = FontWeight.Bold,          // Makes the text bold
-    Style  = FontStyleEnum.Italic      // Makes the text italic
-};
-```
-
-**小技巧：** `WebFontStyle` API 可与任何 Web 安全字体或通过 `@font-face` 嵌入的字体一起使用。如果需要非标准字体，只需在 HTML 中引用，Aspose.HTML 会自动获取。
-
----
-
-## Step 3: Set Up Text Rendering Options (Including Custom Font Size)
-
-现在告诉渲染器如何绘制文字。这正是我们**设置自定义字体大小**并应用刚才创建的样式的地方。
+渲染极小文字时，光栅化器常会产生模糊边缘。Aspose.HTML 提供了 `TextOptions` 类，其中的 `UseHinting` 让引擎进行子像素调整，从而得到更锐利的字形。
 
 ```csharp
-// Configure text rendering options
+// Enable text hinting to improve readability of tiny fonts
 TextOptions textRenderOptions = new TextOptions
 {
-    FontFamily = "Arial",          // Fallback generic font
-    FontSize   = 14,               // Custom font size in points
-    FontStyle  = webFontStyle      // Apply bold‑italic style
+    UseHinting = true   // Turn on hinting – essential for 9pt text
 };
 ```
 
-**为何此步骤至关重要：** 若未显式设置 `FontSize`，渲染器会回退到 HTML 或 CSS 中定义的大小。覆盖它可以确保无论源标记如何，输出都保持一致。
+**专业提示：** 若渲染的是大标题，可安全地将 `UseHinting = false` 以提升处理速度。对于细小的 UI 元素，则始终保持开启。
 
----
+## 步骤 3：定义图像渲染选项（设置图像尺寸）
 
-## Step 4: Configure Image Rendering Options – Size, Format, and Text Settings
-
-在这里我们回答 **设置图像尺寸** 的问题，并决定输出格式（本例为 `PNG`）。`ImageRenderingOptions` 类将所有设置串联起来。
+现在告诉 Aspose 输出图像的大小。这一步正是 **设置图像尺寸**、**设置宽高** 与 **将 HTML 转换为 PNG** 概念交汇的地方。
 
 ```csharp
-// Define the overall image rendering options
 ImageRenderingOptions imageRenderOptions = new ImageRenderingOptions
 {
-    TextOptions   = textRenderOptions, // Attach the text options we built
-    Width         = 800,               // Desired image width in pixels
-    Height        = 600,               // Desired image height in pixels
-    OutputFormat  = ImageFormat.Png    // Convert HTML to PNG
+    TextOptions = textRenderOptions, // Apply our hinting settings
+    Width  = 400,   // Desired width in pixels
+    Height = 200,   // Desired height in pixels
+    // Optional: set background color, DPI, etc.
 };
 ```
 
-**边缘情况说明：** 如果 HTML 中的元素超出指定的宽度/高度，Aspose.HTML 会根据 `Background` 和 `Overflow` CSS 属性自动裁剪或缩放。若希望等比例缩放，还可以启用 `PreserveAspectRatio`。
+- `Width` 与 `Height` 为你希望得到的精确像素尺寸——非常适合生成缩略图。
+- 若省略这两个属性，Aspose 将依据 HTML 布局自动计算尺寸，但可能不符合你的 UI 约束。
 
----
+## 步骤 4：将 HTML 文档渲染为 PNG 文件
 
-## Step 5: Render the HTML Document to an Image File
-
-最后，调用 `RenderToImage`。这一行代码完成所有繁重工作——布局、光栅化以及文件写入。
+文档和选项准备就绪后，最后一步只需一行代码即可将 PNG 写入磁盘。
 
 ```csharp
-// Render the document and save it as a PNG file
-htmlDoc.RenderToImage("YOUR_DIRECTORY/output.png", imageRenderOptions);
+// Initialize the renderer with the document and our options
+ImageRenderer renderer = new ImageRenderer(document, imageRenderOptions);
 
-// Quick verification: open the file (optional, works on Windows)
-System.Diagnostics.Process.Start(new System.Diagnostics.ProcessStartInfo
-{
-    FileName = "YOUR_DIRECTORY/output.png",
-    UseShellExecute = true
-});
+// Render and save as PNG (default format is PNG when the file extension is .png)
+renderer.RenderToFile(@"C:\Temp\tiny_text_hinting.png");
 ```
 
-运行程序后，你应该会看到 `output.png`，尺寸恰为 800 × 600，文字以 **14‑point bold italic Arial** 渲染。图像将忠实呈现原始 HTML，包括 CSS 颜色、边框和嵌入的图片。
+**运行后你会看到：**  
+打开 `tiny_text_hinting.png`，应能看到一张 400×200 的清晰图像，其中 “Tiny text” 段落即使在 9 pt 大小下也能清晰可读。
 
----
+## 完整可运行示例
 
-## Full Working Example (All Steps Combined)
-
-下面是完整的可直接复制粘贴的程序。将 `YOUR_DIRECTORY` 替换为实际存放 `input.html` 的路径。
+下面是完整的、可直接复制粘贴的程序示例。它包含所有 `using` 语句、注释以及面向生产环境的错误处理。
 
 ```csharp
+using System;
 using Aspose.Html;
-using Aspose.Html.Drawing;
 using Aspose.Html.Rendering.Image;
+using Aspose.Html.Rendering.Image.Options;
 
-namespace HtmlToImageDemo
+class Program
 {
-    class Program
+    static void Main()
     {
-        static void Main(string[] args)
+        // 1️⃣ Create the HTML source
+        string htmlContent = @"
+        <html>
+          <body>
+            <p style='font-size:9pt;'>Tiny text</p>
+          </body>
+        </html>";
+
+        // Load the HTML into an Aspose.HTML document
+        HTMLDocument document = new HTMLDocument(htmlContent);
+
+        // 2️⃣ Enable text hinting for sharper small fonts
+        TextOptions textRenderOptions = new TextOptions
         {
-            // 1️⃣ Load the HTML document
-            HTMLDocument htmlDoc = new HTMLDocument("YOUR_DIRECTORY/input.html");
-            if (htmlDoc == null)
-                throw new InvalidOperationException("Unable to load HTML document.");
+            UseHinting = true
+        };
 
-            // 2️⃣ Define font style (bold + italic)
-            WebFontStyle webFontStyle = new WebFontStyle
-            {
-                Weight = FontWeight.Bold,
-                Style  = FontStyleEnum.Italic
-            };
+        // 3️⃣ Set the desired image dimensions (set image size)
+        ImageRenderingOptions imageRenderOptions = new ImageRenderingOptions
+        {
+            TextOptions = textRenderOptions,
+            Width  = 400,   // set width
+            Height = 200,   // set height
+        };
 
-            // 3️⃣ Set custom font size and family
-            TextOptions textRenderOptions = new TextOptions
-            {
-                FontFamily = "Arial",
-                FontSize   = 14,
-                FontStyle  = webFontStyle
-            };
-
-            // 4️⃣ Configure image size, format, and attach text options
-            ImageRenderingOptions imageRenderOptions = new ImageRenderingOptions
-            {
-                TextOptions   = textRenderOptions,
-                Width         = 800,
-                Height        = 600,
-                OutputFormat  = ImageFormat.Png
-            };
-
-            // 5️⃣ Render to PNG
-            htmlDoc.RenderToImage("YOUR_DIRECTORY/output.png", imageRenderOptions);
-
-            // Optional: open the generated image automatically
-            System.Diagnostics.Process.Start(new System.Diagnostics.ProcessStartInfo
-            {
-                FileName = "YOUR_DIRECTORY/output.png",
-                UseShellExecute = true
-            });
+        // 4️⃣ Render the document to a PNG file (convert HTML to PNG)
+        try
+        {
+            ImageRenderer renderer = new ImageRenderer(document, imageRenderOptions);
+            string outputPath = @"C:\Temp\tiny_text_hinting.png";
+            renderer.RenderToFile(outputPath);
+            Console.WriteLine($"✅ Image successfully created at: {outputPath}");
+        }
+        catch (Exception ex)
+        {
+            Console.Error.WriteLine($"❌ Rendering failed: {ex.Message}");
         }
     }
 }
 ```
 
-**预期输出：** 一个名为 `output.png` 的 PNG 文件，视觉布局与 `input.html` 完全一致，尺寸正好为 800 × 600 px，所有文字均以 14‑pt bold italic Arial 显示。
+**预期输出：**  
 
----
+- 控制台打印 *“✅ Image successfully created at: C:\Temp\tiny_text_hinting.png”*。
+- PNG 文件显示 400 × 200 像素的图像，文字 **“Tiny text”** 渲染清晰。
 
-## Frequently Asked Questions & Edge Cases
+## 常见变体与边缘情况
 
-### 如果我的 HTML 引用了外部 CSS 或图片怎么办？
+| 场景 | 需要更改的内容 | 原因 |
+|------|----------------|------|
+| **不同的输出格式**（如 JPEG） | 将 `RenderToFile` 的文件扩展名改为 `.jpg`，或设置 `imageRenderOptions.Format = ImageFormat.Jpeg` | Aspose 根据扩展名决定使用的编码器。 |
+| **更高的 DPI 用于打印** | 设置 `imageRenderOptions.DpiX = 300; imageRenderOptions.DpiY = 300;` | 在不改变逻辑尺寸的前提下提升像素密度。 |
+| **从 URL 动态获取 HTML** | 使用 `new HTMLDocument("https://example.com")` 替代字符串构造 | 适用于网页截图。 |
+| **透明背景** | `imageRenderOptions.BackgroundColor = System.Drawing.Color.Transparent;` | 用于叠加图形时需要透明。 |
+| **大型文档** | 成比例增大 `imageRenderOptions.Width` 与 `Height`，或通过 `PageBreaking` 选项启用分页 | 防止内容被截断。 |
 
-Aspose.HTML 遵循浏览器相同的规则。只要路径可访问（绝对 URL 或正确的相对路径），渲染器会自动下载它们。如果在没有网络的机器上运行代码，请确保所有资源均已本地存放。
+### 专业技巧
 
-### 能否渲染为 JPEG 或 BMP 而不是 PNG？
+- 若频繁渲染相同的标记，**缓存 `HTMLDocument`** 可节省解析时间。
+- 在多次渲染中 **复用 `TextOptions`**，保持视觉统一。
+- 在调用 `RenderToFile` 前 **验证输出路径**——缺失的目录会抛出异常。
 
-完全可以。只需更改 `OutputFormat`：
+## 常见问答
 
-```csharp
-OutputFormat = ImageFormat.Jpeg   // For JPEG
-// or
-OutputFormat = ImageFormat.Bmp    // For BMP
-```
+**问：这在 Linux 上能运行吗？**  
+答：完全可以。Aspose.HTML 跨平台，只需确保已安装原生依赖（如 .NET Core 的 libgdiplus）。
 
-请记住 JPEG 为有损压缩，文字可能会稍显模糊——PNG 是保证文字锐利的最安全选择。
+**问：如果需要在 HTML 中渲染 SVG，怎么办？**  
+答：Aspose.HTML 原生支持 SVG。只需嵌入 `<svg>` 标签，渲染器会将其与页面其他内容一起栅格化。
 
-### 当 HTML 宽度未知时，如何保持原始宽高比？
+**问：能否将多页内容渲染为单张图像？**  
+答：可以。使用 `ImageRenderingOptions` 的 `PageNumber` 与 `PageCount` 手动拼接页面，或分别渲染每页为 PNG 再后期合并。
 
-只设置一个维度（例如 `Width = 800`），另一个保持为 `0`。Aspose.HTML 会根据渲染后的布局自动计算高度。
+## 结论
 
-```csharp
-Width = 800,
-Height = 0, // Auto‑calculate height
-```
+我们已经演示了如何使用 Aspose.HTML for .NET **从 HTML 创建图像**，涵盖了 **将 HTML 渲染为图像**、**设置图像尺寸**、**将 HTML 转换为 PNG** 与 **设置宽高** 的全部要点。代码简洁，API 直观，生成的 PNG 清晰且严格遵循你指定的尺寸。
 
-### 如果需要不同的 DPI（每英寸点数）怎么办？
+准备好下一步了吗？尝试将小段落替换为完整的样式表，实验不同的 DPI 设置，或批量将文件夹中的 HTML 转换为缩略图。使用相同的模式——只需调整 HTML 源和渲染选项即可。
 
-在 `ImageRenderingOptions` 中使用 `Resolution` 属性：
+祝编码愉快，愿你的截图永远像素完美！
 
-```csharp
-Resolution = new Resolution(300) // 300 DPI for high‑quality prints
-```
-
-更高的 DPI 会生成更大的文件，但输出更清晰——在需要打印图像时使用此设置。
-
----
-
-## 🎉 Wrap‑Up
-
-现在你已经掌握了使用 Aspose.HTML for .NET **从 HTML 创建图像**的完整流程，涵盖了从加载标记到 **render html to image**、**convert html to PNG**、**set image dimensions**、以及 **set custom font size** 的所有关键步骤。完整代码示例已可直接运行，解释部分帮助你理解每行代码背后的“为什么”，从而能够将该方案扩展到更复杂的场景。
-
-### 接下来可以做什么？
-
-- 试验 **不同的输出格式**（JPEG、BMP、GIF），观察压缩对质量的影响。  
-- 在 HTML 中通过 `@font-face` **嵌入自定义网页字体**，观察 Aspose.HTML 如何尊重这些字体。  
-- 将此技术与 **PDF 生成** 结合，将渲染后的图像直接嵌入报告中。  
-- 深入探索 **高级渲染选项**，如抗锯齿、背景颜色或 SVG 支持。
-
-如果在使用过程中遇到任何问题，欢迎留言——祝编码愉快！
-
-![从 HTML 创建图像示例](example-output.png "从 HTML 创建图像 – 渲染的 PNG 输出")
+![Create image from HTML example](C:/Temp/tiny_text_hinting.png "Create image from HTML output")
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
