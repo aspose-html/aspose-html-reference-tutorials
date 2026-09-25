@@ -91,6 +91,9 @@ Pelajari cara merender HTML menjadi PNG menggunakan C# dengan panduan langkah de
 ### [Render HTML ke PNG dan Simpan ke ZIP dengan C# – Panduan Lengkap](./render-html-to-png-and-save-to-zip-with-c-complete-guide/)
 Pelajari cara merender HTML menjadi PNG dan menyimpannya ke dalam file ZIP menggunakan C# dengan panduan lengkap Aspose.HTML.
 
+### [Buat gambar dari HTML di C# – Panduan Lengkap Langkah‑demi‑Langkah](./create-image-from-html-in-c-complete-step-by-step-guide/)
+Pelajari cara membuat gambar dari HTML menggunakan C# dengan Aspose.HTML melalui panduan langkah demi langkah yang lengkap.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

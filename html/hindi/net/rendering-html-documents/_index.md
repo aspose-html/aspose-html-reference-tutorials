@@ -93,6 +93,9 @@ C# में Aspose.HTML का उपयोग करके HTML को PNG म
 ### [C# के साथ HTML को PNG में रेंडर करें और ZIP में सहेजें – पूर्ण गाइड](./render-html-to-png-and-save-to-zip-with-c-complete-guide/)
 C# में Aspose.HTML का उपयोग करके HTML को PNG में बदलें और उसे ZIP फ़ाइल में सहेजने की पूरी प्रक्रिया सीखें।
 
+### [C# में HTML से इमेज बनाएं – पूर्ण चरण‑दर‑चरण गाइड](./create-image-from-html-in-c-complete-step-by-step-guide/)
+C# में Aspose.HTML का उपयोग करके HTML को इमेज में बदलने के विस्तृत चरणों को सीखें।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -80,6 +80,8 @@ C# ile HTML belgesi oluşturup, kalın ve italik yazı tipinde PNG olarak nasıl
 C# ile Aspose.HTML kullanarak HTML içeriğini PNG formatına dönüştürmeyi öğrenin.
 ### [C# ile HTML'yi Görüntü Olarak Render Etme – Tam Kılavuz](./how-to-render-html-to-an-image-with-c-complete-guide/)
 C# ve Aspose.HTML kullanarak HTML içeriğini görüntü formatına dönüştürmeyi adım adım öğrenin.
+### [C# ile HTML'den Görüntü Oluşturma – Tam Adım Adım Kılavuz](./create-image-from-html-in-c-complete-step-by-step-guide/)
+Aspose.HTML for .NET ile C# kullanarak HTML'den görüntü oluşturmayı adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

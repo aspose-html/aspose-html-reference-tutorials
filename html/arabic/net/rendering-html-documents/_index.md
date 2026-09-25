@@ -89,6 +89,9 @@ url: /ar/net/rendering-html-documents/
 ### [تحويل HTML إلى PNG وحفظه في ملف ZIP باستخدام C# – دليل كامل](./render-html-to-png-and-save-to-zip-with-c-complete-guide/)
 تعلم خطوة بخطوة كيفية تحويل مستندات HTML إلى صور PNG وحفظها في ملف ZIP باستخدام Aspose.HTML وC#.
 
+### [إنشاء صورة من HTML في C# – دليل كامل خطوة بخطوة](./create-image-from-html-in-c-complete-step-by-step-guide/)
+تعلم كيفية تحويل مستندات HTML إلى صور باستخدام Aspose.HTML في C# خطوة بخطوة في هذا الدليل الشامل.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

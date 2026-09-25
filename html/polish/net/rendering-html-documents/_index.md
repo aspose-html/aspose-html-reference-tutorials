@@ -92,6 +92,8 @@ Naucz się tworzyć dokument HTML w C# i renderować go do PNG z użyciem czcion
 Poznaj krok po kroku, jak przy użyciu Aspose.HTML renderować dokumenty HTML do formatu PNG w języku C#.
 ### [Jak renderować HTML do obrazu w C# – Kompletny przewodnik](./how-to-render-html-to-an-image-with-c-complete-guide/)
 Pełny przewodnik, jak przy użyciu Aspose.HTML w C# renderować HTML do obrazu, krok po kroku.
+### [Utwórz obraz z HTML w C# – Kompletny przewodnik krok po kroku](./create-image-from-html-in-c-complete-step-by-step-guide/)
+Dowiedz się, jak przy użyciu Aspose.HTML w C# konwertować HTML na obrazy w pełnym, krok po kroku przewodniku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

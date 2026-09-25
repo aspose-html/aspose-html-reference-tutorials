@@ -65,6 +65,12 @@ Ismerje meg, hogyan konvertálhat HTML-t PNG képpé az Aspose.HTML könyvtár s
 Ismerje meg, hogyan konvertálhat HTML-t PNG képpé az Aspose.HTML segítségével részletes, lépésről‑lépésre útmutatóval.
 ### [Kép létrehozása HTML-ből C#‑ban – Lépésről‑lépésre útmutató](./create-image-from-html-in-c-step-by-step-guide/)
 Ismerje meg, hogyan konvertálhat HTML-t képpé C#‑ban az Aspose.HTML segítségével részletes, lépésről‑lépésre útmutatóval.
+### [Dokumentum konvertálása PNG‑re – Teljes C# útmutató](./convert-document-to-png-complete-c-guide/)
+
+### [DOCX konvertálása PNG-re C#‑ban – Teljes lépésről‑lépésre útmutató](./convert-docx-to-png-in-c-complete-step-by-step-guide/)
+
+### [HTML‑ről képre oktatóanyag – HTML renderelése PNG‑be az Aspose.HTML‑el C#‑ban](./html-to-image-tutorial-render-html-to-png-with-aspose-html-i/)
+
 ### [HTML renderelése PNG-be C#‑ban – Lépésről‑lépésre útmutató](./render-html-to-png-in-c-step-by-step-guide/)
 Ismerje meg, hogyan renderelhet HTML-t PNG formátumba C#‑ban az Aspose.HTML segítségével, részletes lépésekkel.
 ### [PNG létrehozása HTML-ből C#‑ban – lépésről‑lépésre útmutató](./create-png-from-html-in-c-step-by-step-guide/)

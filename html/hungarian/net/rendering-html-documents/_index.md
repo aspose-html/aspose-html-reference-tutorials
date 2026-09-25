@@ -80,6 +80,8 @@ Tanulja meg, hogyan renderelhet HTML-t PNG formátumba C#-ban az Aspose segíts�
 Ismerje meg, hogyan konvertálhat HTML-t képfájlba C#-ban az Aspose.HTML segítségével, részletes lépésekkel és példákkal.
 ### [HTML renderelése PNG-be és mentése ZIP-be C#-al – Teljes útmutató](./render-html-to-png-and-save-to-zip-with-c-complete-guide/)
 Tanulja meg, hogyan renderelhet HTML-t PNG-be, majd ZIP-fájlba mentheti C#-ban az Aspose.HTML segítségével.
+### [Kép létrehozása HTML-ből C#‑ban – Teljes lépésről‑lépésre útmutató](./create-image-from-html-in-c-complete-step-by-step-guide/)
+Tanulja meg, hogyan hozhat létre képet HTML-ből C#-ban az Aspose.HTML segítségével, részletes, lépésről‑lépésre útmutató.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
