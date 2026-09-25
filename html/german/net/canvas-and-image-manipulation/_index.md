@@ -45,6 +45,8 @@ Erfahren Sie, wie Sie mit Aspose.HTML für .NET SVG in PDF konvertieren. Hochwer
 Erfahren Sie, wie Sie mit Aspose.HTML für .NET SVG in XPS konvertieren. Optimieren Sie Ihre Webentwicklung mit dieser leistungsstarken Bibliothek.
 ### [Antialiasing in C# aktivieren – Glatte Kanten](./how-to-enable-antialiasing-in-c-smooth-edges/)
 Erfahren Sie, wie Sie Antialiasing in C# aktivieren, um glatte Kanten in Ihren Grafiken zu erzielen.
+### [Canvas-Text erstellen – Vollständige Anleitung zum Rendern von Text auf Bildern](./create-canvas-text-full-guide-to-rendering-text-on-images/)
+Erfahren Sie, wie Sie Text auf Canvas-Bildern rendern, Schriftarten anpassen und professionelle Grafiken erzeugen.
 
 ## Abschluss
 

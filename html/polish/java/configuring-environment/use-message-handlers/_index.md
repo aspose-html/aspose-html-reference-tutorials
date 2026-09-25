@@ -1,11 +1,11 @@
 ---
-date: 2025-12-10
+date: 2026-02-10
 description: Dowiedz się, jak używać Aspose do obsługi uszkodzonych linków w Javie,
-  konwertować HTML na PNG oraz ładować dokument HTML w Javie przy użyciu Aspose.HTML
-  dla Javy.
+  konwertować HTML na PNG i ładować dokument HTML w Javie przy użyciu Aspose.HTML
+  for Java.
 linktitle: Use Message Handlers in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
-title: Jak używać obsługi wiadomości Aspose.HTML w Javie
+title: Konwertuj HTML do PNG przy użyciu obsługiwaczy komunikatów Aspose.HTML w Javie
 url: /pl/java/configuring-environment/use-message-handlers/
 weight: 12
 ---
@@ -14,51 +14,53 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Jak używać Aspose.HTML Message Handlers w Javie
+# Konwertowanie HTML do PNG przy użyciu obsługi wiadomości Aspose.HTML w Javie
 
 ## Wstęp
-W tym samouczku, **jak używać aspose** do obsługi hamulców zasobów w HTML jest demonstrowane krok po kroku. Tworzymy prosty dokument HTML, który jest dostępny do brakującego obrazu, dołączymy niestandardowy moduł obsługi wiadomości i udostępniamy, jak **load html document java** przy uruchamianiu końcowych zepsutych linków. Na koniec zobacz także, jak **konwertuj html na png** przy użyciu Aspose.HTML, podczas pełnego użycia HTML‑do‑obrazu w Javie.
+W tym samouczku dowiesz się, **jak konwertować HTML do PNG** przy zachowaniu eleganckiej obsługi hamulców przy użyciu Aspose.HTML dla Javy. Przejdziemy przez tworzenie strony HTML, która jest udostępniana do nieistniejącego obrazu, **niestandardowego obsługi wiadomości** do **przechwytywania sieciowych**, dostępna **Usługi sieciowej**, dostępnie do dokumentu oraz ostateczne wykonanie **conwerssji HTML do obrazu**. Aby mieć solidną stronę internetową, możesz pobrać ją z łącza Java, a następnie użyć PNG - idealnego raportu, miniatury i adresu e-mail.
 
 ## Szybkie odpowiedzi
-- **Jaki jest podstawowy cel obsługi wiadomości?** Aby przechwycić operacje sieciowe i reagować na kody wystąpienia, takie jak brakujące zasoby.
-- **Czy Aspose.HTML może konwertować HTML do PNG?** Tak, używając `Converter.convertHTML`, możesz zakończyć konwersję HTML na obraz.
-- **Czy licencja jest dostępna na tym przykładzie?** Tymczasowa licencja na wersję próbną; licencjat jest wymagany w produkcji.
-- **Która wersja Javy jest wspierana?** Każdy JDK 8+ (samouczek używa JDK11).
-- **Czy można obsłużyć wiele zepsutych linków?** Oczywiście – można połączyć kilka modułów obsługi, aby zakończyć zestawami scenariuszy.
+- **Co robi obsługiwacz wiadomości?** Przechwytuje operacje sieciowe (np. wyzwalanie) i pozwala na reagowanie na kody stanu, takie jak 404.
+- **Czy Aspose.HTML jak przekonwertować HTML na PNG?** Również — `Converter.convertHTML` to jak to przekonwertować.
+- **Czy licencja jest do tego przykładu?** Tymczasowa wersja licencji ewaluacyjnej; Licencja stała jest wymagana w środowisku produktu.
+- **Jaką wersję Javy obsługuje?** Dowolny JDK8+ (przykład ziała na JDK11).
+- **Czy mogę korzystać z połączenia sieciowego?** Oczywiście — `configuration.getService(INetworkService.class)`, aby uzyskać dostęp do obsługiwacza.
 
 ## Warunki wstępne
-Zanim przejdziemy do przewodnika krok po kroku, sterujemy się, że masz wszystko, czego potrzebujesz:
-1. Java Development Kit (JDK): atak się, że masz podłączony JDK w swoim systemie. Możesz go otrzymać ze [strony Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
-2. Aspose.HTML dla Java: Trzeba mieć dostęp do Aspose.HTML dla Java. Możesz je otrzymać ze [strony z wydaniem Aspose](https://releases.aspose.com/html/java/).
-3. IDE: ulubionego ulubionego środowiska programistycznego (IDE) dla Javy, takiego jak IntelliJ IDEA, Eclipse lub NetBeans.
-4. Podstawowa przyjemność Javy: oprogramowanie w Javie jest równe, aby skutecznie podążać za tym samouczkiem.
-5. Tymczasowa licencja: Jeśli znajdziesz wersję próbną Aspose.HTML, rozwiązanie alternatywne [tymczasowej licencji](https://purchase.aspose.com/temporary-license/), aby przejść do ograniczenia podczas rozwoju.
+Zanim zaczniemy, wykonaj się, że możemy uruchomić następujące elementy:
+
+1. **Java Development Kit (JDK)** – pobierz ze [strony Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
+2. **Aspose.HTML dla Java** – dostępna biblioteka dla Aspose](https://releases.aspose.com/html/java/).
+3. **IDE** – obsługiwane są IntelliJ IDEA, Eclipse i NetBeans.
+4. **Podstawowa przyjemność Javy** – być zaznajomiony z klasami, try-with-resources oraz obsługi wyjątków.
+5. **Licencja tymczasowa** – dostępna z wersji próbnej, zdobądź [tymczasową dostęp](https://purchase.aspose.com/temporary-license/), aby uzyskać dostęp do znaków wodnych.
 
 ## Importuj pakiety
-Zanim zaczniemy, upewnij się, że niezbędne pakiety zostały zaimportowane do Twojego projektu Java. Poniżej znajdują się niezbędne importy, które będą Ci potrzebne:
+Najpierw zaimportuj klasę Java I/O, której będziemy potrzebować do obsługi plików. Reszta klas Aspose jest odwoływana pełnymi nazwami później, co utrzymuje listę importów schludną.
+
 ```java
 import java.io.IOException;
 ```
-Te importy zapewnią dostęp do klas i metod potrzebnych do obsługi operacji sieciowych, tworzenia dokumentów HTML oraz wykonywania konwersji HTML‑do‑PNG.
 
-## Krok 1: Przygotuj kod HTML
-Pierwszą rzeczą, której potrzebujemy, jest prosty fragment HTML odwołujący się do pliku obrazu. Celowo odwołamy się do obrazu, który nie istnieje, aby wywołać mechanizm obsługi błędów.
+## Krok 1: Przygotuj kod HTML  
+Tworzymy minimalny fragment HTML, który celowo odwołuje się do brakującego obrazu. To spowoduje wywołanie naszego obsługiwacza, gdy silnik spróbuje pobrać zasób.
+
 ```java
 String code = "<img src='missing.jpg'>";
 ```
-Ten kod tworzy znacznik `<img>`, który wskazuje na `missing.jpg`. Ponieważ obraz jest brakujący, usługa sieciowa zwróci kod statusu różny od 200, który nasz niestandardowy handler przechwyci.
 
-## Krok 2: Zapisz kod HTML do pliku
-Następnie musimy zapisać fragment HTML, aby Aspose.HTML mógł go wczytać jako dokument.
+## Krok 2: Zapisz kod HTML do pliku  
+Następnie zapisujemy fragment do *document.html*. Użycie bloku try‑with‑resources zapewnia, że `FileWriter` zostanie prawidłowo zamknięty.
+
 ```java
 try (java.io.FileWriter fileWriter = new java.io.FileWriter("document.html")) {
     fileWriter.write(code);
 }
 ```
-Używając `FileWriter` zapisujemy HTML do **document.html**. Ten plik staje się źródłem dla kroku **load html document java** później.
 
-## Krok 3: Utwórz niestandardowy Message Handler
-Teraz zbudujmy niestandardowy handler wiadomości, który reaguje, gdy obraz nie może zostać znaleziony. Handler sprawdza kod statusu HTTP i wypisuje przyjazny komunikat.
+## Krok 3: Napisz własny obsługiwacz wiadomości  
+Teraz tworzymy **niestandardowy obsługiwacz wiadomości**, który sprawdza kod statusu HTTP każdego żądania sieciowego. Jeśli odpowiedź nie jest `200`, logujemy przyjazne ostrzeżenie. Zwróć uwagę na wywołanie `invoke(context);` na końcu — przekazuje ono żądanie do kolejnego obsługiwacza w łańcuchu, zapobiegając rekurencji.
+
 ```java
 com.aspose.html.net.MessageHandler handler = new com.aspose.html.net.MessageHandler() {
     @Override
@@ -70,20 +72,20 @@ com.aspose.html.net.MessageHandler handler = new com.aspose.html.net.MessageHand
     }
 };
 ```
-Metoda `invoke` analizuje `context.getResponse().getStatusCode()`. Jeśli nie jest **200**, wypisujemy wyraźne ostrzeżenie, że plik jest brakujący. Ostateczne wywołanie `invoke(context);` przekazuje kontrolę do kolejnego handlera w łańcuchu.
 
-## Krok 4: Skonfiguruj usługę sieciową
-Aby Aspose.HTML był świadomy naszego handlera, rejestrujemy go w usłudze sieciowej za pomocą klasy `Configuration`.
+## Krok 4: Skonfiguruj usługę sieciową  
+Aby Aspose.HTML był świadomy naszego obsługiwacza, pobieramy **usługę sieciową** z instancji `Configuration` i dodajemy obsługiwacz do jej kolekcji. To jest krok, w którym **konfigurujemy usługę sieciową** dla niestandardowego zachowania.
+
 ```java
 com.aspose.html.Configuration configuration = new com.aspose.html.Configuration();
 try {
     com.aspose.html.services.INetworkService network = configuration.getService(com.aspose.html.services.INetworkService.class);
     network.getMessageHandlers().addItem(handler);
 ```
-Tutaj tworzymy instancję `Configuration`, pobieramy `INetworkService` i dodajemy nasz niestandardowy handler do jego kolekcji. To zapewnia, że handler będzie uruchamiany przy każdym żądaniu sieciowym, takim jak ładowanie obrazów.
 
-## Krok 5: Wczytaj dokument HTML
-Po przygotowaniu konfiguracji możemy teraz wczytać plik HTML, który utworzyliśmy wcześniej. Ten krok demonstruje **load html document java**, podczas gdy brakujący obraz wywołuje nasz handler.
+## Krok 5: Załaduj dokument HTML  
+Po przygotowaniu konfiguracji ładujemy *document.html*. Silnik teraz używa naszej usługi sieciowej, więc żądanie brakującego obrazu jest przechwytywane przez właśnie dodany obsługiwacz.
+
 ```java
 com.aspose.html.HTMLDocument document = new com.aspose.html.HTMLDocument("document.html", configuration);
 try {
@@ -94,10 +96,10 @@ try {
     }
 }
 ```
-Konstruktor `HTMLDocument` otrzymuje zarówno ścieżkę do pliku, jak i niestandardową `configuration`. Gdy dokument analizuje znacznik `<img>`, usługa sieciowa próbuje pobrać `missing.jpg`, otrzymuje 404 i nasz handler wypisuje ostrzeżenie.
 
-## Krok 6: Konwertuj HTML do PNG
-Aby zilustrować szersze możliwości Aspose.HTML, przekonwertujemy wczytany dokument na obraz PNG. To klasyczny scenariusz **convert html to png**.
+## Krok 6: Konwertuj HTML do PNG  
+Oto serce procesu **konwersji HTML do obrazu**. Metoda `Converter.convertHTML` przyjmuje załadowany `HTMLDocument`, opcjonalne `ImageSaveOptions` (gdzie możesz dostosować DPI lub jakość) oraz nazwę pliku wyjściowego.
+
 ```java
 com.aspose.html.converters.Converter.convertHTML(
     document,
@@ -105,10 +107,10 @@ com.aspose.html.converters.Converter.convertHTML(
     "output.png"
 );
 ```
-`Converter.convertHTML` przyjmuje `HTMLDocument`, opcjonalne `ImageSaveOptions` (gdzie możesz ustawić DPI, jakość itp.) oraz nazwę pliku wyjściowego. Wynikiem jest obraz rastrowy renderowanego HTML.
 
-## Krok 7: Oczyść zasoby
-Właściwe zarządzanie zasobami jest niezbędne w każdej aplikacji Java. Usuwamy zarówno `Configuration`, jak i `HTMLDocument`, aby uniknąć wycieków pamięci.
+## Krok 7: Posprzątaj zasoby  
+Dobre praktyki Javy nakazują zwolnienie wszystkich zasobów natywnych. Blok `finally` zapewnia, że `Configuration` zostanie zwolniona, nawet jeśli wyjątek zostanie wyrzucony.
+
 ```java
 } finally {
     if (configuration != null) {
@@ -116,43 +118,40 @@ Właściwe zarządzanie zasobami jest niezbędne w każdej aplikacji Java. Usuwa
     }
 }
 ```
-Umieszczenie czyszczenia w bloku `finally` zapewnia jego wykonanie, nawet jeśli wcześniej wystąpi wyjątek.
 
-## Dlaczego warto używać programów obsługi wiadomości?
-Dlaczego legalne moduły obsługi wiadomości?
-Programy obsługi wiadomości zapewniają precyzyjną kontrolę nad operacjami sieciowymi, aplikatorem jak **obsługa uszkodzonych linków java**. Zamiast tego biblioteka pozwala na ciche niepowodzenie, może logować, ponawiać próbę, dostarczyć dostawę lub dostarczyć treść awaryjną — co sprawia, że ​​HTML jest solidny i gotowy do produkcji.
+## Dlaczego używać obsługiwaczy wiadomości?  
+Obsługiwacze wiadomości dają **precyzyjną kontrolę** nad każdym żądaniem sieciowym — czy to obraz, CSS, JavaScript, czy plik czcionki. Zamiast pozwalać bibliotece na ciche niepowodzenie, możesz logować brakujące zasoby, dostarczać treść zastępczą lub nawet ponowić żądanie. Dzięki temu Twój potok przetwarzania HTML staje się **solidny**, **gotowy do produkcji** i łatwiejszy w debugowaniu.
 
 ## Typowe problemy i rozwiązania
-Typowe problemy i rozwiązania
-- **Rekursja obsługi** – obciążenie się, że następstwsz `invoke(context);` tylko raz, aby zakończyć nieskończone.
-- **Brak licencji** – Bez ważnej licencji konwersja może generować obraz z znakami wodnymi.
-- **Błędy ścieżki pliku** – Używanie parametrów bezwzględnych lub prawidłowy katalog roboczy przy ładowaniu `document.html`.
+- **Rekurencja obsługiwacza** — wywołaj `invoke(context);` tylko raz, aby uniknąć nieskończonych pętli.  
+- **Brak licencji** — bez ważnej licencji wygenerowany PNG będzie zawierał znak wodny.  
+- **Nieprawidłowe ścieżki plików** — używaj ścieżek bezwzględnych lub poprawnie ustaw katalog roboczy przy ładowaniu `document.html`.  
+- **Nieobsługiwane typy zasobów** — upewnij się, że zasób, który chcesz przechwycić (obraz, CSS itp.) jest rzeczywiście żądany przez silnik HTML.
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
-**P: Czy mogę połączyć wiele programów obsługi wiadomości?**
-A: Tak, możesz poprosić kilka handlerów do kolekcji `network.getMessageHandlers()`; Będzie następować w kolejności dodania.
+**P: Czy mogę łączyć wiele obsługiwaczy wiadomości?**  
+O: Tak, możesz dodać kilka obsługiwaczy do kolekcji `network.getMessageHandlers()`; zostaną one wykonane w kolejności dodania.
 
-**P: Czy handler działa również dla zasobów CSS lub skryptów?**
-A: Absolutnie — każde żądanie sieciowe przez silnik HTML (obrazy, CSS, JS, przejście) przez moduł obsługi.
+**P: Czy obsługiwacz działa również dla zasobów CSS lub skryptów?**  
+O: Absolutnie — każde żądanie sieciowe wykonywane przez silnik HTML (obrazy, CSS, JS, czcionki) przechodzi przez obsługiwacz.
 
-**Q: Jak włączyć HTTP przed jego wydaniem?**
-A: Zaimplementuj procedurę obsługi, która modyfikuje `context.getRequest()` przed wywołaniem `invoke(context)`.
+**P: Jak zmienić żądanie HTTP przed jego wysłaniem?**  
+O: Zaimplementuj obsługiwacz, który modyfikuje `context.getRequest()` przed wywołaniem `invoke(context)`.
 
-**P: Czy istnieje sposób, aby wyciszyć ostrzeżenie dla kolejnego adresu URL-i?**
-A: Wewnętrzna obsługa sprawdzania `context.getRequest().getRequestUri()` i warunkowo pomiń logowanie.
+**P: Czy istnieje sposób, aby wyciszyć ostrzeżenie dla konkretnych URL-i?**  
+O: W obsługiwaczu sprawdź `context.getRequest().getRequestUri()` i warunkowo pomiń logowanie.
 
-**P: Jaka wersja Aspose.HTML jest wymagana dla tych API?**
-O: Kod działa z Aspose.HTML dla Java 22.10 i terazmi.
+**P: Jakiej wersji Aspose.HTML wymaga ten kod?**  
+O: Kod działa z Aspose.HTML for Java 22.10 i nowszymi.
 
-## Wniosek
-Podsumowanie
-I oto masz — kompleksowy przewodnik o **jak korzystać z modułów obsługi wiadomości aspose** w Javie. Oświadczenie o utworzeniu pliku HTML, podłączonego do uchwytu do **obsługa uszkodzonych linków java**, wczytanie dokumentu oraz **convert html to png**. Dzięki temu możliwe jest bezpieczne wyłączenie zasilania, egzekwowanie własnych zasad i rozszerzanie możliwości sieciowych Aspose.HTML w dostępnej aplikacji Java.
+## Podsumowanie  
+Masz teraz kompletny, end‑to‑end przykład **jak konwertować HTML do PNG** przy użyciu **niestandardowego obsługiwacza wiadomości**, aby **przechwytywać żądania sieciowe** i **obsługiwać zepsute linki java**. Konfigurując usługę sieciową, ładując dokument i wywołując konwerter, możesz niezawodnie generować miniatury PNG lub pełno‑stronne zrzuty ekranu w dowolnej aplikacji Java.
 
 ---
 
-**Ostatnia aktualizacja:** 10.12.2025 r
-**Testowano z:** Aspose.HTML dla Java 24.11
+**Ostatnia aktualizacja:** 2026-02-10  
+**Testowano z:** Aspose.HTML for Java 24.11  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

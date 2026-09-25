@@ -61,7 +61,8 @@ CSS ภายนอกคือจุดที่พลังที่แท้�
 ### [เปลี่ยนข้อความ h1 ใน MHTML ด้วย Java – คู่มือเต็มขั้นตอน](./change-h1-text-in-mhtml-with-java-full-step-by-step-guide/)
 เรียนรู้วิธีแก้ไขข้อความ h1 ในไฟล์ MHTML ด้วย Aspose.HTML สำหรับ Java ผ่านขั้นตอนละเอียดและตัวอย่างโค้ด
 ### [Fixed thread pool Java – การทำความสะอาด HTML แบบขนานด้วย ExecutorService](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
-
+### [เพิ่ม child ไปยัง body ใน Java – บทช่วยสอนเต็ม Aspose.HTML](./append-child-to-body-in-java-full-aspose-html-tutorial/)
+เรียนรู้วิธีเพิ่ม child element ลงใน body ของเอกสาร HTML ด้วย Aspose.HTML สำหรับ Java อย่างละเอียด
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

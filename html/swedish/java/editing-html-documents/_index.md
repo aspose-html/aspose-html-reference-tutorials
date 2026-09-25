@@ -61,6 +61,7 @@ Lär dig att implementera intern CSS i HTML-dokument med Aspose.HTML för Java m
 ### [Ändra h1‑text i MHTML med Java – Fullständig steg‑för‑steg‑guide](./change-h1-text-in-mhtml-with-java-full-step-by-step-guide/)
 Lär dig hur du ändrar h1‑text i MHTML-filer med Java i en komplett steg‑för‑steg‑guide.
 ### [Fast trådpool i Java – parallell HTML‑rengöring med ExecutorService](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
+### [Lägg till ett barn till body i Java – Fullständig Aspose.HTML-handledning](./append-child-to-body-in-java-full-aspose-html-tutorial/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

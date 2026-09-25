@@ -52,6 +52,8 @@ Exploitez la puissance de la manipulation HTML avec Aspose.HTML pour Java. Appre
 Découvrez comment charger, manipuler et enregistrer des documents HTML à l'aide d'Aspose.HTML pour Java dans ce guide étape par étape. Débloquez le traitement HTML avancé dans vos projets Java.
 ### [Charger des documents HTML à partir d'un flux avec Aspose.HTML pour Java](./load-html-documents-from-stream/)
 Découvrez comment charger des documents HTML à partir de flux à l'aide d'Aspose.HTML pour Java. Ce guide fournit un didacticiel étape par étape pour une manipulation HTML transparente.
+### [Charger un document HTML Java – Guide complet avec XPath et CSS dans Aspose.HTML pour Java](./load-html-document-java-complete-guide-with-xpath-css/)
+Apprenez à charger des documents HTML en Java avec Aspose.HTML, en utilisant XPath et CSS pour extraire et styliser le contenu.
 ### [Créer des documents HTML à partir d'une chaîne dans Aspose.HTML pour Java](./create-html-documents-from-string/)
 Apprenez à créer des documents HTML à partir de chaînes dans Aspose.HTML pour Java avec ce guide étape par étape.
 ### [Charger des documents HTML à partir d'une URL dans Aspose.HTML pour Java](./load-html-documents-from-url/)
@@ -66,6 +68,10 @@ Apprenez à créer et à gérer des documents SVG à l'aide d'Aspose.HTML pour J
 Apprenez à créer un environnement sécurisé pour manipuler du HTML en Java avec Aspose.HTML, guide complet pas à pas.
 ### [Comment interroger le HTML en Java – Tutoriel complet](./how-to-query-html-in-java-complete-tutorial/)
 Apprenez à interroger et extraire des données HTML en Java avec Aspose.HTML grâce à ce guide complet étape par étape.
+### [Créer un document HTML avec Java – Récupérer JSON et générer du contenu](./create-html-document-with-java-fetch-json-and-generate-conte/)
+Apprenez à récupérer des données JSON et à générer dynamiquement du contenu HTML en Java avec Aspose.HTML.
+### [Compter les caractères HTML en Java – Guide complet avec Aspose.HTML](./count-html-characters-in-java-full-guide-with-aspose-html/)
+Apprenez à compter le nombre de caractères dans un document HTML en Java à l'aide d'Aspose.HTML, avec un guide détaillé pas à pas.
 ### [Extraire du texte à partir de HTML en Java – Guide complet de programmation](./extract-text-from-html-in-java-complete-programming-guide/)
 Apprenez à extraire du texte d'un document HTML en Java avec Aspose.HTML grâce à ce guide complet étape par étape.
 
@@ -75,3 +81,36 @@ Apprenez à extraire du texte d'un document HTML en Java avec Aspose.HTML grâce
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Générer du HTML à partir de JavaScript en Java – Guide complet étape par étape](./generate-html-from-javascript-in-java-complete-step-by-step/)
+Apprenez à générer du HTML à partir de code JavaScript en Java avec ce guide complet étape par étape.
+### [Comment analyser le HTML en Java – Charger, interroger et compter les éléments](./how-to-parse-html-java-load-query-count-elements/)
+Apprenez à charger, interroger et compter les éléments HTML en Java avec Aspose.HTML grâce à ce guide complet.
+### [Exécuter du JavaScript asynchrone en Java – Guide complet étape par étape](./execute-async-javascript-in-java-complete-step-by-step-guide/)
+Apprenez à exécuter du JavaScript de façon asynchrone dans vos applications Java avec Aspose.HTML, guide complet pas à pas.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Itérer NodeList Java – Lire le HTML et obtenir le src de l'image](./iterate-nodelist-java-read-html-get-image-src/)
+Apprenez à parcourir un NodeList en Java pour lire le HTML et extraire les attributs src des images.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Itérer sur NodeList en Java – Guide complet](./iterate-over-nodelist-java-complete-guide/)
+Apprenez à parcourir un NodeList en Java avec Aspose.HTML grâce à ce guide complet étape par étape.
+### [Extraire du texte à partir de HTML avec Java – Guide complet étape par étape](./extract-text-from-html-with-java-complete-step-by-step-guide/)
+Apprenez à extraire du texte d'un document HTML en Java avec Aspose.HTML grâce à ce guide complet étape par étape.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+

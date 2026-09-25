@@ -1,0 +1,7 @@
+Title: Select HTML Element by Class in Java – Complete Guide
+Slug: select-html-element-by-class-in-java-complete-guide
+Category: css-html-form-editing
+ProcessedDate: 2026-06-04T08:27:42.134425
+SourceRepo: AI Search API
+Keywords: select html element by class, load html file java, how to get element color, parse html document java, extract css property value
+PRNumber: 172

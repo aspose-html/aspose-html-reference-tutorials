@@ -61,6 +61,7 @@ Pelajari cara menerapkan CSS internal dalam dokumen HTML menggunakan Aspose.HTML
 ### [Ubah Teks h1 dalam MHTML dengan Java – Panduan Langkah‑Demi‑Langkah Lengkap](./change-h1-text-in-mhtml-with-java-full-step-by-step-guide/)
 Pelajari cara mengubah teks h1 dalam file MHTML menggunakan Aspose.HTML untuk Java dengan panduan lengkap langkah demi langkah.
 ### [Fixed thread pool Java – Pembersihan HTML Paralel dengan ExecutorService](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
+### [Menambahkan Child ke Body di Java – Tutorial Lengkap Aspose.HTML](./append-child-to-body-in-java-full-aspose-html-tutorial/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

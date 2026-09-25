@@ -1,0 +1,7 @@
+Title: Aspose HTML Python: load HTML document while limiting resources
+Slug: aspose-html-python-load-html-document-while-limiting-resourc
+Category: general
+ProcessedDate: 2026-09-23T10:41:05.928630
+SourceRepo: AI Search API
+Keywords: aspose html python, how to limit resources, python load html, load html document, prevent infinite recursion
+PRNumber: 273

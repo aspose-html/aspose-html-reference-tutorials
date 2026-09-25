@@ -61,6 +61,8 @@ Aspose.HTML for Java を使用して HTML ドキュメントにインライン C
 ### [Java で MHTML の h1 テキストを変更する – 完全ステップバイステップガイド](./change-h1-text-in-mhtml-with-java-full-step-by-step-guide/)
 Java を使用して MHTML ファイル内の h1 テキストを変更する手順を詳しく解説します。
 ### [Fixed Thread Pool Java – ExecutorService を使用した並列 HTML クリーンアップ](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
+### [Java で body に子要素を追加 – 完全 Aspose.HTML チュートリアル](./append-child-to-body-in-java-full-aspose-html-tutorial/)
+Aspose.HTML for Java を使用して、HTML ドキュメントの body に子要素を追加する方法をステップバイステップで学びます。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
