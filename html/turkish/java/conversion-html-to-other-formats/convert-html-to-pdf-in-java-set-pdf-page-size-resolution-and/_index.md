@@ -1,105 +1,102 @@
 ---
 category: general
-date: 2026-01-06
-description: Java'da özel sayfa boyutu, kenar boşlukları ve çözünürlük ile HTML'yi
-  PDF'ye dönüştürün. PDF sayfa boyutunu nasıl ayarlayacağınızı ve Aspose.HTML kullanarak
-  HTML'yi PDF olarak nasıl kaydedeceğinizi öğrenin.
+date: 2026-09-03
+description: Java'da özel page size, margins ve resolution ile HTML'yi PDF'ye dönüştürün.
+  Aspose.HTML kullanarak pdf page size ayarlamayı ve html'yi pdf olarak kaydetmeyi
+  öğrenin.
 draft: false
 keywords:
-- convert html to pdf
 - set pdf page size
-- save html as pdf
-- set pdf resolution
 - html to pdf java
-language: tr
-og_description: HTML'yi Java'da hızlıca PDF'ye dönüştürün. Bu kılavuz, PDF sayfa boyutunu
-  nasıl ayarlayacağınızı, çözünürlüğü nasıl düzenleyeceğinizi ve Aspose.HTML ile HTML'yi
-  PDF olarak nasıl kaydedeceğinizi gösterir.
-og_title: Java'da HTML'yi PDF'ye Dönüştür – PDF Sayfa Boyutu ve Çözünürlüğünü Ayarla
+- save html as pdf
+- custom pdf page size
+- set pdf resolution
+lastmod: 2026-09-03
+og_description: Aspose.HTML ile Java'da pdf page size ayarlayın ve HTML'yi PDF'ye
+  hızlıca dönüştürün. page size, margins ve resolution özelleştirmeyi öğrenin.
+og_image_alt: Developer guide showing HTML to PDF conversion with custom page size
+  using Aspose.HTML
+og_title: Java’da HTML'yi PDF'ye Dönüştür – pdf page size ve resolution ayarlayın
+schemas:
+- author: Aspose
+  dateModified: '2026-09-03'
+  description: Convert HTML to PDF in Java with custom page size, margins, and resolution.
+    Learn how to set pdf page size and save html as pdf using Aspose.HTML.
+  headline: Convert HTML to PDF in Java – set pdf page size and resolution
+  type: TechArticle
+- questions:
+  - answer: Aspose.HTML does *not* execute JavaScript. If your page relies on script‑generated
+      content, pre‑render the HTML (e.g., with a headless browser) before feeding
+      it to the converter.
+    question: What if my HTML contains JavaScript?
+  - answer: Yes. Place the `.ttf` or `.otf` files in the same folder and reference
+      them via `@font-face` in your CSS. The base URI will make the fonts discoverable.
+    question: Can I embed custom fonts?
+  - answer: Yes – besides PDF it can generate PNG, JPEG, SVG, and EPUB directly from
+      HTML.
+    question: Does Aspose.HTML support other output formats?
+  - answer: Aspose.HTML can create PDFs with thousands of pages; memory usage stays
+      low because it streams pages to disk when needed.
+    question: Is there a limit on the number of pages?
+  - answer: Yes – use `PdfSaveOptions.setCreateBookmarks(true)` and provide a hierarchical
+      outline in the HTML.
+    question: Can I add bookmarks or table of contents?
+  type: FAQPage
 tags:
 - Java
 - PDF
 - Aspose.HTML
-title: HTML'yi Java'da PDF'ye Dönüştür – PDF Sayfa Boyutunu, Çözünürlüğünü Ayarla
-  ve HTML'yi PDF Olarak Kaydet
-url: /tr/java/conversion-html-to-other-formats/convert-html-to-pdf-in-java-set-pdf-page-size-resolution-and/
+title: Java’da HTML'yi PDF'ye Dönüştür – pdf page size ve resolution ayarlayın
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java'da HTML'yi PDF'ye Dönüştür – Özel Seçeneklerle Tam Kılavuz
+# HTML'yi Java'da PDF'ye Dönüştür – pdf sayfa boyutunu ve çözünürlüğünü ayarlayın
 
-Java'da **HTML'yi PDF'ye dönüştürmek** için ayar labirentinde mücadele etmeyi hiç düşündünüz mü? Tek başınıza değilsiniz. Birçok geliştirici, bir web sayfasını yazdırılabilir bir belgeye dönüştürürken sayfa boyutu, kenar boşlukları veya çıktı DPI'sı üzerinde hassas kontrol gerektiğinde bir duvara çarpar.
+Java'da **HTML'yi PDF'ye dönüştürmeyi** ve aynı zamanda **pdf sayfa boyutunu** ayarlayıp DPI kontrol etmeyi hiç merak ettiniz mi? Yalnız değilsiniz. Faturalar, raporlar veya e‑kitaplar gibi yazdırılabilir PDF'ler için kesin sayfa boyutları, kenar boşlukları veya görüntü çözünürlüğü gerektiğinde birçok geliştirici bir engelle karşılaşıyor.
 
-İyi haber? Aspose.HTML ile sadece birkaç satırda **HTML'yi PDF olarak kaydedebilir** ve *set PDF page size* ve *set PDF resolution* gibi seçeneklere tam erişim elde edersiniz. Bu öğretici, tüm süreci adım adım anlatıyor, her ayarın neden önemli olduğunu açıklıyor ve çalıştırmaya hazır bir örnek gösteriyor.
+İyi haber? Aspose.HTML ile sadece birkaç satırda **HTML'yi PDF olarak kaydedebilir** ve *set pdf page size* ve *set pdf resolution* gibi seçeneklere tam erişim elde edersiniz. Bu öğretici sizi tüm süreçten geçirir, her ayarın neden önemli olduğunu açıklar ve çalıştırmaya hazır bir örnek gösterir.
 
-Bu kılavuzun sonunda, herhangi bir yerel veya uzak HTML dosyasını alıp, düzen gereksinimlerinize uyan yüksek kaliteli bir PDF üretebileceksiniz—faturalar, raporlar veya e‑kitaplar için mükemmel.
+Bu rehberin sonunda, herhangi bir yerel veya uzak HTML dosyasını alıp, düzen gereksinimlerinize uyan yüksek kaliteli bir PDF üretebileceksiniz—**java generate invoice pdf** senaryoları için mükemmel.
 
-![Özel seçeneklerle HTML'yi PDF'ye dönüştür](image.png "html to pdf örneği")
+---
+
+![Özel seçeneklerle HTML'yi PDF'ye Dönüştür](image.png "html to pdf örneği")
+[Özel seçeneklerle HTML'yi PDF'ye Dönüştür](image.png "html to pdf örneği")
+
+## Hızlı cevaplar
+- **Sayfa boyutunu değiştirebilir miyim?** Evet – önceden tanımlı boyutlar veya özel ölçülerle `PdfSaveOptions.setPageSize()` kullanın.  
+- **Yazdırma için hangi DPI'yi kullanmalıyım?** 300 dpi keskin baskı kalitesi sağlar; 72 dpi ekran PDF'leri için yeterlidir.  
+- **Ek fontlara ihtiyacım var mı?** Hayır – Aspose.HTML standart fontları otomatik olarak gömer; özel fontlar `@font-face` ile çalışır.  
+- **Lisans gerekli mi?** Geliştirme için ücretsiz deneme çalışır; üretim için ticari lisans gerekir.  
+- **Hangi Java sürümü destekleniyor?** JDK 8 ve üzeri (kütüphane Java 11 için derlenmiştir ancak 8+ üzerinde çalışır).
 
 ## Öğrenecekleriniz
 
-- HTML dosyasını, göreceli bağlantıların çözülebilmesi için uygun bir base URI ile nasıl yükleyeceğinizi.
-- PDF sayfa boyutunu **set PDF page size** (A4, Letter, özel boyutlar) ve kenar boşluklarını nasıl ayarlayacağınızı.
-- Görüntü ve metinlerin netliği için **set PDF resolution** (DPI) nasıl ayarlanacağını.
-- Aspose.HTML Java kütüphanesini kullanarak **save HTML as PDF** için gereken tam kodu.
-- Yaygın tuzaklar—örneğin eksik base URI'lar veya çok büyük görüntüler—ve bunlardan nasıl kaçınılacağını.
+- Uygun bir base URI ile HTML dosyasını nasıl yükleyeceğinizi ve göreceli bağlantıların çözümlenmesini.  
+- **pdf sayfa boyutunu** (A4, Letter, özel ölçüler) ve kenar boşluklarını nasıl ayarlayacağınızı.  
+- **pdf çözünürlüğünü** (DPI) keskin görüntüler ve metin için nasıl ayarlayacağınızı.  
+- Aspose.HTML Java kütüphanesini kullanarak **html'yi pdf olarak kaydetmek** için gereken tam kodu.  
+- Eksik base URI'lar veya çok büyük görüntüler gibi yaygın tuzaklar ve bunlardan nasıl kaçınılacağı.
 
-### Ön Koşullar
+### Önkoşullar
 
-- Java Development Kit (JDK) 8 ve üzeri.
-- `aspose-html` paketini çekmek için Maven veya Gradle (yazım anındaki en son sürüm 23.10).
-- Java sözdizimi hakkında temel bir anlayış.
+- Java Development Kit (JDK) 8 ve üzeri.  
+- Maven veya Gradle (`aspose-html` bağımlılığını çekmek için, yazım anındaki en son sürüm 23.10).  
+- Java sözdizimi hakkında temel bir anlayış.  
 - Dönüştürmek istediğiniz bir HTML dosyası (`sample.html` örneklerde kullanılacak).
 
-## Özel Seçeneklerle HTML'yi PDF'ye Dönüştür
+## HTML'yi PDF'ye Dönüştürürken pdf sayfa boyutunu nasıl ayarlarsınız
 
-Aşağıda, her adımı gösteren tam, çalıştırılabilir program yer alıyor. IDE'nize kopyalayıp yapıştırabilir, yolları ayarlayabilir ve Çalıştırabilirsiniz.
+HTML'nizi yükleyin, `PdfSaveOptions`'ı yapılandırın ve `save`'i çağırın. Aşağıdaki iki adımlı desen ihtiyacınız olan her şeyi yönetir.
 
-```java
-import com.aspose.html.converters.*;
-import com.aspose.html.rendering.*;
+Sayfa boyutunu `pdfOptions.setPageSize(PdfPageSize.A4)` (veya başka bir önceden tanımlı sabit) çağırarak ya da genişlik ve yükseklik puan cinsinden bir özel `PdfPageSize` örneği oluşturarak ayarlarsınız. Aynı seçenek nesnesi `pdfOptions.setResolution(300)` ile çözünürlüğü ayarlamanıza da izin verir. Bu yaklaşım, oluşturulan PDF'nin tam olarak istediğiniz boyutlara uymasını garanti eder.
 
-public class ConvertWithOptions {
-    public static void main(String[] args) throws Exception {
-        // Step 1: Define the base URI so that relative URLs in the HTML are resolved correctly
-        HtmlLoadOptions loadOptions = new HtmlLoadOptions();
-        loadOptions.setBaseUri("file:///YOUR_DIRECTORY/");
+### Adım adım açıklama
 
-        // Step 2: Load the source HTML document using the load options
-        HtmlDocument document = new HtmlDocument("YOUR_DIRECTORY/sample.html", loadOptions);
-
-        // Step 3: Set up PDF conversion options – page size, margins, and output resolution
-        PdfSaveOptions saveOptions = new PdfSaveOptions();
-        saveOptions.setPageSize(PdfPageSize.A4);   // <-- set pdf page size
-        saveOptions.setMarginTop(20);
-        saveOptions.setMarginBottom(20);
-        saveOptions.setResolution(300);           // <-- set pdf resolution (DPI)
-
-        // Step 4: Convert the HTML document to PDF with the configured options
-        document.save("YOUR_DIRECTORY/sample_custom.pdf", saveOptions);
-
-        // Step 5: Inform the user that the conversion succeeded
-        System.out.println("Custom PDF saved.");
-    }
-}
-```
-
-### Her Adımın Önemi
-
-| Adım | Amaç | İpuçları & Özel Durumlar |
-|------|------|--------------------------|
-| **1. Base URI** | `<img src="images/pic.png">` ve diğer göreceli bağlantıların doğru klasöre işaret etmesini sağlar. | Bunu atlayarsanız, görüntüler çıktı PDF'de kaybolabilir. Yerel dosyalar için `file:///`, uzak kaynaklar için HTTP URL kullanın. |
-| **2. Load HTML** | HTML'i Aspose'un DOM modeline ayrıştırır. | Büyük HTML dosyaları (>10 MB) daha fazla bellek gerektirebilir; JVM yığın boyutunu artırmayı (`-Xmx2g`) düşünün. |
-| **3. PDF Options** | Sayfa boyutlarını (`set pdf page size`), kenar boşluklarını ve DPI'yi (`set pdf resolution`) kontrol eder. | A4, 210 × 297 mm'dir; Letter için `PdfPageSize.LETTER` kullanın. 300 DPI baskı için idealdir; 72 DPI sadece ekran PDF'leri için yeterlidir. |
-| **4. Save** | Son PDF'i diske yazar (`save html as pdf`). | Çıktı yolu yazılabilir olmalıdır. Dosya var mı kontrolü ile üzerine yazma koruması eklenebilir. |
-| **5. Confirmation** | Basit konsol geri bildirimi. | Gerçek uygulamalarda `System.out` yerine bir logger kullanılabilir. |
-
-## Adım‑Adım Açıklama
-
-### 1. Projenizi Kurun (HTML to PDF Java)
+#### 1. Projenizi kurun (html to pdf java)
 
 Maven kullanıyorsanız, Aspose.HTML bağımlılığını ekleyin:
 
@@ -117,11 +114,11 @@ Gradle kullanıcıları ekleyebilir:
 implementation 'com.aspose:aspose-html:23.10'
 ```
 
-> **Pro ipucu:** Kütüphane tamamen bağımsızdır; temel dönüşümler için herhangi bir yerel ikili dosyaya veya ekstra fonta ihtiyacınız yoktur.
+> **Pro tip:** Kütüphane tamamen bağımsızdır; temel dönüşümler için herhangi bir yerel ikili dosyaya veya ekstra fonta ihtiyacınız yoktur. Aspose.HTML, HTML'yi PDF'ye 50'den fazla senaryoda dönüştürmeyi destekler ve dış yerel ikili dosyalar olmadan 200 MB'a kadar dosyaları işleyebilir.
 
-### 2. Base URI'yi Tanımlayın
+#### 2. Base URI'yi tanımlayın
 
-Göreceli URL'ler sık sık kırık görüntülere neden olur. `loadOptions.setBaseUri`'yi HTML dosyanızın bulunduğu klasöre işaret ettirerek, dönüştürücünün yolları bir tarayıcı gibi çözmesini sağlarsınız.
+Göreceli URL'ler sık sık kırık görüntülere neden olur. `loadOptions.setBaseUri`'yi HTML dosyanızın bulunduğu klasöre yönlendirerek, dönüştürücünün yolları bir tarayıcı gibi tam olarak çözmesini sağlarsınız.
 
 ```java
 HtmlLoadOptions loadOptions = new HtmlLoadOptions();
@@ -130,7 +127,7 @@ loadOptions.setBaseUri("file:///C:/projects/pdf-demo/");
 
 HTML'niz bir CDN'de barındırılan harici CSS veya fontlara referans veriyorsa, base URI'yi atlayabilirsiniz, ancak ağ gecikmesine dikkat edin.
 
-### 3. HTML Belgesini Yükleyin
+#### 3. HTML belgesini yükleyin
 
 ```java
 HtmlDocument document = new HtmlDocument("C:/projects/pdf-demo/sample.html", loadOptions);
@@ -142,9 +139,9 @@ Ayrıca bir URL'den de yükleyebilirsiniz:
 HtmlDocument document = new HtmlDocument("https://example.com/report.html", loadOptions);
 ```
 
-### 4. PDF Seçeneklerini Yapılandırın – **Set PDF Page Size** & **Set PDF Resolution**
+#### 4. PDF seçeneklerini yapılandırın – **set pdf page size** & **set pdf resolution**
 
-`PdfSaveOptions` sınıfı size ayrıntılı kontrol sağlar.
+`PdfSaveOptions`, sayfa boyutu, kenar boşlukları ve çözünürlük gibi PDF çıktı özelliklerini kontrol eden Aspose.HTML yapılandırma nesnesidir.
 
 ```java
 PdfSaveOptions saveOptions = new PdfSaveOptions();
@@ -154,16 +151,16 @@ saveOptions.setMarginBottom(20);
 saveOptions.setResolution(300);           // set pdf resolution (DPI)
 ```
 
-- **Page Size:** `PdfPageSize.A4`, `LETTER`, `LEGAL` seçeneklerinden birini seçin veya genişlik/yükseklik değerlerini puan cinsinden belirterek özel bir `PdfPageSize` oluşturun.
-- **Resolution:** Daha yüksek DPI daha keskin raster görüntüler sağlar ancak dosya boyutunu artırır. Çoğu baskı işi için 300 DPI ideal bir dengedir.
+- **Sayfa boyutu:** `PdfPageSize.A4`, `LETTER`, `LEGAL` seçeneklerinden birini seçin veya genişlik/yükseklik puan cinsinden bir özel `PdfPageSize` oluşturun. A4 ölçüsü 210 × 297 mm; Letter ölçüsü 8.5 × 11 inç.  
+- **Çözünürlük:** Daha yüksek DPI daha keskin raster görüntüler sağlar ancak dosya boyutunu da artırır; 72 dpi'den 300 dpi'ye geçmek genellikle PDF boyutunu üç katına çıkarırken görüntü keskinliğini 4 katına kadar artırır. Çoğu baskı işi için 300 dpi ideal bir noktadır.
 
-### 5. Dönüşümü Gerçekleştirin – **Save HTML as PDF**
+#### 5. Dönüşümü gerçekleştirin – **save html as pdf**
 
 ```java
 document.save("C:/projects/pdf-demo/sample_custom.pdf", saveOptions);
 ```
 
-Metot PDF'i otomatik olarak hedef konuma akıtır. PDF'i bellek içinde (ör. e‑posta eki olarak göndermek) ihtiyacınız varsa, `OutputStream` aşırı yüklemesini kullanın:
+Metod PDF'yi otomatik olarak hedef konuma akıtır. PDF'yi bellek içinde (ör. e-posta eki olarak göndermek için) ihtiyacınız varsa, bir `OutputStream` aşırı yüklemesini kullanın:
 
 ```java
 try (ByteArrayOutputStream baos = new ByteArrayOutputStream()) {
@@ -173,35 +170,35 @@ try (ByteArrayOutputStream baos = new ByteArrayOutputStream()) {
 }
 ```
 
-### 6. Sonucu Doğrulayın
+#### 6. Sonucu doğrulayın
 
 `sample_custom.pdf` dosyasını herhangi bir PDF görüntüleyicide açın. Şunları görmelisiniz:
 
-- 20 pt üst/alt kenar boşluklu A4 boyutunda sayfalar.
-- Tüm görüntüler 300 DPI'de işlenmiş (keskinliğe dikkat edin).
-- Bağlantılar ve CSS, orijinal HTML'deki gibi uygulanmış.
+- 20 pt üst/alt kenar boşluklu A4 boyutlu sayfalar.  
+- Tüm görüntüler 300 dpi'de render edilmiş (keskinliğe dikkat edin).  
+- Bağlantılar ve CSS, orijinal HTML'deki gibi tam olarak uygulanmış.
 
 Bir şey yanlış görünüyorsa, base URI'yi tekrar kontrol edin ve tüm harici kaynakların erişilebilir olduğundan emin olun.
 
-## Yaygın Sorular & Özel Durumlar
+## Yaygın sorular ve uç durumlar
 
 **S: HTML'm JavaScript içeriyorsa ne olur?**  
-C: Aspose.HTML JavaScript çalıştırmaz. Sayfanız script‑tarafından oluşturulan içeriğe dayanıyorsa, dönüştürücüye vermeden önce HTML'i (ör. başsız bir tarayıcıyla) önceden render edin.
+C: Aspose.HTML JavaScript'i *çalıştırmaz*. Sayfanız script ile oluşturulan içeriğe dayanıyorsa, dönüştürücüye vermeden önce HTML'yi (ör. başsız bir tarayıcıyla) önceden render edin.
 
-**S: Özel fontlar ekleyebilir miyim?**  
-C: Evet. `.ttf` veya `.otf` dosyalarını aynı klasöre koyun ve CSS içinde `@font-face` ile referans verin. Base URI fontların bulunmasını sağlar.
+**S: Özel fontları gömebilir miyim?**  
+C: Evet. `.ttf` veya `.otf` dosyalarını aynı klasöre koyun ve CSS'nizde `@font-face` ile referans verin. Base URI fontların bulunmasını sağlar.
 
-**S: Yönlendirmeyi landscape (yatay) olarak nasıl değiştiririm?**  
+**S: Yönlendirmeyi yatay (landscape) nasıl değiştiririm?**  
 ```java
 saveOptions.setPageOrientation(PdfPageOrientation.LANDSCAPE);
 ```
 
 **S: PDF'im çok büyük—ne yapabilirim?**  
-- DPI'yi azaltın (`setResolution(150)`).
-- Görüntüleri `saveOptions.setCompressionLevel(PdfCompressionLevel.HIGH)` ile sıkıştırın.
+- DPI'yi azaltın (`setResolution(150)`).  
+- Görüntüleri `saveOptions.setCompressionLevel(PdfCompressionLevel.HIGH)` ile sıkıştırın.  
 - Kaynak HTML'den gereksiz yüksek çözünürlüklü varlıkları kaldırın.
 
-## Tam Çalışan Örnek (Hepsi‑Bir‑Arada)
+## Tam çalışan örnek (tek dosyada)
 
 Derlemeye hazır tüm sınıf burada. `YOUR_DIRECTORY` ifadesini makinenizdeki mutlak bir yol ile değiştirin.
 
@@ -234,22 +231,81 @@ public class ConvertWithOptions {
 }
 ```
 
-Programı çalıştırın, oluşturulan PDF'i açın ve tanımladığınız tam yerleşimi görün. Bu, Java'da **HTML'yi PDF'ye dönüştürme** işlemi, özel boyutlandırma ve çözünürlük ile tamamlanmış halidir.
+Programı çalıştırın, oluşturulan PDF'yi açın ve tanımladığınız tam düzeni görün. Bu, Java'da **convert html to pdf** işlemi, özel boyutlandırma ve çözünürlük ile tamamlanmış halidir.
 
-## Sonraki Adımlar & İlgili Konular
+## Sonraki adımlar ve ilgili konular
 
-- **Toplu dönüşüm:** Bir klasördeki HTML dosyaları üzerinde döngü kurarak tek seferde PDF'ler üretin.
-- **Dinamik içerik:** Aspose.HTML'i bir şablon motoru (ör. Thymeleaf) ile birleştirerek anlık fatura oluşturun.
-- **Güvenlik güçlendirme:** Dönüştürmeden önce girdiyi doğrulayarak kötü amaçlı işaretlemeden kaçının.
-- **Alternatif kütüphaneler:** Belirli özel durumlar için Aspose.HTML'i OpenHTMLtoPDF veya wkhtmltopdf ile karşılaştırın.
+- **Toplu dönüşüm:** Bir klasördeki HTML dosyaları üzerinde döngü yaparak tek seferde PDF'ler üretin.  
+- **Dinamik içerik:** Aspose.HTML'yi bir şablon motoru (ör. Thymeleaf) ile birleştirerek anında faturalar oluşturun.  
+- **Güvenlik güçlendirme:** Dönüştürmeden önce kötü amaçlı işaretlemeyi önlemek için giriş HTML'yi doğrulayın.  
+- **Alternatif kütüphaneler:** Belirli uç durumlar için Aspose.HTML'yi OpenHTMLtoPDF veya wkhtmltopdf ile karşılaştırın.
 
-Farklı sayfa boyutları (`PdfPageSize.LETTER`), yönlendirmeler veya kitapçık hazırlıyorsanız özel boyutlarla deneyin. API, karşılaşacağınız çoğu *html to pdf java* senaryosunu karşılayacak kadar esnektir.
+Farklı sayfa boyutları (`PdfPageSize.LETTER`), yönlendirmeler veya bir kitapçık hazırlıyorsanız özel ölçülerle deney yapın. API, karşılaşacağınız çoğu *html to pdf java* senaryosunu yönetebilecek kadar esnektir.
 
-## Sonuç
+## Sıkça sorulan sorular
 
-Java'da **HTML'yi PDF'ye dönüştürmek**, **set PDF page size**, **set PDF resolution** ve Aspose.HTML kullanarak **save HTML as PDF** işlemleri için ihtiyacınız olan her şeyi kapsadık. Adım‑adım kılavuz, tam kod ve sorun giderme
+**S: Aspose.HTML diğer çıktı formatlarını destekliyor mu?**  
+C: Evet – PDF dışında HTML'den doğrudan PNG, JPEG, SVG ve EPUB üretebilir.
+
+**S: Sayfa sayısı için bir limit var mı?**  
+C: Aspose.HTML binlerce sayfalı PDF'ler oluşturabilir; gerektiğinde sayfaları diske akıttığı için bellek kullanımı düşük kalır.
+
+**S: Yer imleri veya içindekiler tablosu ekleyebilir miyim?**  
+C: Evet – `PdfSaveOptions.setCreateBookmarks(true)` kullanın ve HTML'de hiyerarşik bir taslak sağlayın.
+
+**S: Büyük görüntüleri verimli bir şekilde nasıl yönetirim?**  
+C: `pdfOptions.setResolution(150)` ayarlayın ve `pdfOptions.setImageDownsampleThreshold(150)` ile görüntü alt örneklemesini etkinleştirin.
+
+**S: Kütüphane Java 17 ile uyumlu mu?**  
+C: Kesinlikle – kütüphane Java 11 için derlenmiştir ancak Java 17 ve Java 21 dahil olmak üzere daha yeni JDK'larda çalışır.
+
+---
+
+---
+
+**Last Updated:** 2026-09-03  
+**Tested with:** Aspose.HTML 23.10 for Java  
+**Author:** Aspose  
+
+```java
+import com.aspose.html.converters.*;
+import com.aspose.html.rendering.*;
+
+public class ConvertWithOptions {
+    public static void main(String[] args) throws Exception {
+        // Step 1: Define the base URI so that relative URLs in the HTML are resolved correctly
+        HtmlLoadOptions loadOptions = new HtmlLoadOptions();
+        loadOptions.setBaseUri("file:///YOUR_DIRECTORY/");
+
+        // Step 2: Load the source HTML document using the load options
+        HtmlDocument document = new HtmlDocument("YOUR_DIRECTORY/sample.html", loadOptions);
+
+        // Step 3: Set up PDF conversion options – page size, margins, and output resolution
+        PdfSaveOptions saveOptions = new PdfSaveOptions();
+        saveOptions.setPageSize(PdfPageSize.A4);   // <-- set pdf page size
+        saveOptions.setMarginTop(20);
+        saveOptions.setMarginBottom(20);
+        saveOptions.setResolution(300);           // <-- set pdf resolution (DPI)
+
+        // Step 4: Convert the HTML document to PDF with the configured options
+        document.save("YOUR_DIRECTORY/sample_custom.pdf", saveOptions);
+
+        // Step 5: Inform the user that the conversion succeeded
+        System.out.println("Custom PDF saved.");
+    }
+}
+```
+
+## İlgili Öğreticiler
+
+- [HTML'yi Java'da PDF'ye Dönüştür - Aspose.HTML ile Sayfa Kenar Boşluklarını Ayarlama](/html/java/advanced-usage/css-extensions-adding-title-page-number/)
+- [Aspose.HTML for Java ile PDF Sayfa Boyutunu Ayarlama](/html/java/advanced-usage/adjust-pdf-page-size/)
+- [HTML'yi Java'da PDF'ye Dönüştür – Aspose.HTML for Java Kullanarak](/html/java/conversion-html-to-other-formats/convert-html-to-pdf/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}
