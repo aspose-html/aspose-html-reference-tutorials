@@ -85,6 +85,8 @@ SVG グラフィックを XPS フォーマットに変換し、デバイス間�
 Aspose.HTML を使用して Java で HTML を PDF に変換する方法を学びます。HTML コンテンツから高品質な PDF を手軽に作成できます。
 ### [Aspose の使用方法 – Java で HTML をバッチ変換して PDF にする](./how-to-use-aspose-batch-convert-html-to-pdf-in-java/)
 Aspose.HTML を利用して、Java で複数の HTML ファイルを一括で PDF に変換する手順を解説します。
+### [HTML を一括で PDF に変換 – Java NIO と並列処理ガイド](./convert-html-to-pdf-in-bulk-java-nio-guide-with-parallel-pro/)
+Java NIO と並列処理を活用し、複数の HTML ファイルを高速に PDF へ一括変換する手順を解説します。
 ### [Converting HTML to MHTML](./convert-html-to-mhtml/)
 Aspose.HTML for Java で HTML を MHTML に簡単に変換します。効率的な HTML‑to‑MHTML 変換の手順をご覧ください。
 ### [Converting HTML to XPS](./convert-html-to-xps/)
@@ -110,6 +112,8 @@ Aspose.HTML を使って Java で HTML を PDF に変換する、完全なステ
 ### [Aspose HTML PDF/A チュートリアル: Java で HTML を PDF/A‑2b に変換](./aspose-html-pdf-a-tutorial-convert-html-to-pdf-a-2b-with-jav/)
 Aspose.HTML を使用して Java で HTML を PDF/A‑2b 形式に変換する手順を解説します。長期保存に適した PDF を簡単に作成できます。
 ### [HTML から音声を抽出 – メディアとビデオの抽出方法](./extract-audio-from-html-how-to-extract-media-and-video/)
+### [JavaでMarkdownからPDFを作成 – ステップバイステップガイド](./create-pdf-from-markdown-in-java-step-by-step-guide/)
+Markdown を PDF に変換し、ページ設定やスタイルをカスタマイズする手順を詳しく解説します。
 
 ### [Java で HTML を PDF に変換 – PDF ページサイズ、解像度を設定し、HTML を PDF として保存](./convert-html-to-pdf-in-java-set-pdf-page-size-resolution-and/)
 PDF のページサイズや解像度を指定しながら、HTML を PDF に変換する手順を解説します。

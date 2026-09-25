@@ -65,6 +65,8 @@ url: /th/java/css-html-form-editing/
 เรียนรู้วิธีสกัด CSS จากไฟล์ HTML ด้วย Aspose.HTML สำหรับ Java ในคู่มือทีละขั้นตอนนี้
 ### [วิธีสืบค้น HTML ใน Java – เลือกองค์ประกอบ, กรองตามแอตทริบิวต์, และดึงข้อความ](./how-to-query-html-in-java-select-elements-filter-by-attribut/)
 เรียนรู้วิธีสืบค้น HTML ใน Java โดยเลือกองค์ประกอบ กรองตามแอตทริบิวต์ และดึงข้อความจากโหนดต่างๆ อย่างง่ายดาย
+### [วิธีดึง CSS ใน Java – ดึงสไตล์ที่คำนวณแล้วด้วย Aspose.HTML](./how-to-get-css-in-java-retrieve-computed-style-with-aspose-h/)
+เรียนรู้วิธีดึงสไตล์ที่คำนวณแล้วขององค์ประกอบ HTML ด้วย Aspose.HTML ใน Java อย่างง่ายดาย
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

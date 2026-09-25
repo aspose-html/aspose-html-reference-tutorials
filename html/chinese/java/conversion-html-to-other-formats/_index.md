@@ -87,6 +87,8 @@ Aspose.HTML for Java 简化了 HTML 转 PDF 的工作流。请参阅专门的教
 学习使用 Aspose.HTML 在 Java 中批量将多个 HTML 文件转换为 PDF，提高转换效率。
 ### [使用 Aspose HTML 将 HTML 转换为 PDF – 异步 Java 指南](./how-to-convert-html-to-pdf-with-aspose-html-async-java-guide/)
 了解如何在 Java 中使用 Aspose.HTML 的异步 API 将 HTML 转换为 PDF，实现高效非阻塞文档生成。
+### [批量将 HTML 转换为 PDF – 使用 Java NIO 并行处理指南](./convert-html-to-pdf-in-bulk-java-nio-guide-with-parallel-pro/)
+使用 Aspose.HTML for Java，结合 Java NIO 与并行处理，实现批量 HTML 到 PDF 的高效转换。
 ### [将 HTML 转换为 MHTML](./convert-html-to-mhtml/)
 使用 Aspose.HTML for Java 轻松将 HTML 转换为 MHTML。按照我们的分步指南高效完成 HTML 到 MHTML 的转换。
 ### [将 HTML 转换为 XPS](./convert-html-to-xps/)
@@ -112,6 +114,8 @@ Aspose.HTML for Java 简化了 HTML 转 PDF 的工作流。请参阅专门的教
 ### [Aspose HTML PDF/A 教程：使用 Java 将 HTML 转换为 PDF/A‑2b](./aspose-html-pdf-a-tutorial-convert-html-to-pdf-a-2b-with-jav/)
 使用 Aspose.HTML for Java 将 HTML 转换为符合 PDF/A‑2b 标准的文档，满足长期存档需求。
 ### [从 HTML 中提取音频 – 如何提取媒体和视频](./extract-audio-from-html-how-to-extract-media-and-video/)
+### [在 Java 中将 Markdown 转换为 PDF – 分步指南](./create-pdf-from-markdown-in-java-step-by-step-guide/)
+使用 Aspose.HTML for Java 将 Markdown 文档转换为高质量 PDF，提供详细的分步操作指南。
 
 ### [在 Java 中将 HTML 转换为 PDF – 设置 PDF 页面大小和分辨率](./convert-html-to-pdf-in-java-set-pdf-page-size-resolution-and/)
 演示如何使用 Aspose.HTML for Java 设置 PDF 页面尺寸和分辨率，将 HTML 内容保存为 PDF。

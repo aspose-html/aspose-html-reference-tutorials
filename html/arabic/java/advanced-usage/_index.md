@@ -127,6 +127,8 @@ weight: 20
 تعلم كيفية ضبط حجم صفحة XPS باستخدام Aspose.HTML for Java. سيطر على أبعاد مخرجات مستندات XPS بسهولة.
 ### [كيفية تشغيل JavaScript في Java – دليل كامل](./how-to-run-javascript-in-java-complete-guide/)
 تعلم كيفية تشغيل كود JavaScript داخل تطبيقات Java باستخدام Aspose.HTML for Java.
+### [كيفية عزل JavaScript – دليل كامل Aspose.HTML](./how-to-sandbox-javascript-complete-aspose-html-guide/)
+
 ### [ضبط نسبة بكسل الجهاز في Java – دليل صندوق الرمل للهواتف المحمولة](./set-device-pixel-ratio-in-java-mobile-sandbox-tutorial/)
 تعلم كيفية ضبط نسبة بكسل الجهاز في بيئة Java باستخدام صندوق الرمل للهواتف المحمولة للحصول على رسومات دقيقة.
 

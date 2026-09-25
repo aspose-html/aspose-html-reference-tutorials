@@ -140,6 +140,8 @@ Aprende a convertir archivos EPUB a DOCX usando Aspose en Java con una guía pas
 Aprende a cargar documentos HTML, configurar la DPI del dispositivo y obtener el color de fondo usando Aspose.HTML para Java.
 ### [Cómo ejecutar JavaScript de forma asíncrona usando CompletableFuture](./how-to-run-javascript-asynchronously-using-completablefuture/)
 Aprende a ejecutar código JavaScript de manera asíncrona en Java mediante CompletableFuture para mejorar el rendimiento de tus aplicaciones.
+### [Cómo crear un sandbox de JavaScript – Guía completa de Aspose.HTML](./how-to-sandbox-javascript-complete-aspose-html-guide/)
+Aprende a ejecutar JavaScript de forma segura en un entorno aislado usando Aspose.HTML para Java.
 
 ---
 

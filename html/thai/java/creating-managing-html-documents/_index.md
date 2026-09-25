@@ -80,6 +80,8 @@ Aspose.HTML สำหรับ Java นำเสนอชุดเครื่�
 เรียนรู้วิธีดำเนินการ JavaScript แบบอะซิงโครนัสใน Java ด้วย Aspose.HTML ผ่านคู่มือขั้นตอนเต็มที่เข้าใจง่าย
 ### [นับอักขระ HTML ใน Java – คู่มือฉบับสมบูรณ์ด้วย Aspose HTML](./count-html-characters-in-java-full-guide-with-aspose-html/)
 เรียนรู้วิธีนับอักขระทั้งหมดในเอกสาร HTML ด้วย Aspose.HTML สำหรับ Java ผ่านคู่มือฉบับสมบูรณ์
+### [สกัดข้อความจาก HTML ใน Java – คู่มือการเขียนโปรแกรมฉบับสมบูรณ์](./extract-text-from-html-in-java-complete-programming-guide/)
+เรียนรู้วิธีสกัดข้อความจากเอกสาร HTML ด้วย Aspose.HTML สำหรับ Java อย่างละเอียดในคู่มือฉบับสมบูรณ์
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

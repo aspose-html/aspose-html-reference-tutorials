@@ -62,6 +62,8 @@ Naučte se implementovat interní CSS do HTML dokumentů pomocí Aspose.HTML for
 Naučte se, jak využít fixní pool vláken v Javě k paralelnímu čištění HTML pomocí ExecutorService.
 ### [Přidání potomka do těla v Javě – kompletní tutoriál Aspose.HTML](./append-child-to-body-in-java-full-aspose-html-tutorial/)
 Objevte, jak přidat prvek jako potomka do těla HTML dokumentu v Javě pomocí Aspose.HTML. Kompletní průvodce krok za krokem.
+### [Změna textu h1 v MHTML pomocí Javy – Kompletní krok‑za‑krokem průvodce](./change-h1-text-in-mhtml-with-java-full-step-by-step-guide/)
+Naučte se, jak změnit text h1 v souboru MHTML pomocí Aspose.HTML pro Javu v podrobném průvodci.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

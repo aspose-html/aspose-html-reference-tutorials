@@ -138,6 +138,8 @@ Pelajari cara memuat file HTML, mengatur DPI perangkat, dan mendapatkan warna la
 
 ### [Cara Menjalankan JavaScript Secara Asinkron Menggunakan CompletableFuture](./how-to-run-javascript-asynchronously-using-completablefuture/)
 
+### [Cara Menyandikan JavaScript – Panduan Lengkap Aspose.HTML](./how-to-sandbox-javascript-complete-aspose-html-guide/)
+
 ---
 
 **Terakhir Diperbarui:** 2025-11-29  

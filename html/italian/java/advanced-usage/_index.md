@@ -128,6 +128,7 @@ R: No. Una singola licenza di Aspose.HTML for Java copre tutti i formati di outp
 ### [Come eseguire script in Java – Guida completa per eseguire JavaScript e estrarre dati](./how-to-run-scripts-in-java-complete-guide-to-execute-javascr/)
 ### [Come usare Aspose per convertire EPUB in DOCX – Guida passo‑passo](./how-to-use-aspose-to-convert-epub-to-docx-step-by-step-guide/)
 ### [Come caricare HTML, impostare DPI del dispositivo e leggere il colore di sfondo](./how-to-load-html-set-device-dpi-read-background-color/)
+### [Come eseguire JavaScript in sandbox – Guida completa Aspose.HTML](./how-to-sandbox-javascript-complete-aspose-html-guide/)
 
 ---
 

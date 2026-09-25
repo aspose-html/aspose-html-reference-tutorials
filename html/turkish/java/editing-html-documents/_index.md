@@ -62,6 +62,8 @@ Kolay adım adım eğitimimiz ile Java için Aspose.HTML'i kullanarak HTML belge
 ExecutorService kullanarak sabit iş parçacığı havuzu ile HTML belgelerini paralel olarak temizlemeyi öğrenin.
 ### [Java'da gövdeye çocuk ekleme – Tam Aspose.HTML Öğreticisi](./append-child-to-body-in-java-full-aspose-html-tutorial/)
 Java için Aspose.HTML kullanarak gövdeye yeni bir öğe eklemeyi adım adım öğrenin.
+### [Java ile MHTML'de h1 Metnini Değiştirme – Tam Adım‑Adım Kılavuz](./change-h1-text-in-mhtml-with-java-full-step-by-step-guide/)
+Java kullanarak MHTML dosyalarındaki h1 etiketinin metnini nasıl değiştireceğinizi adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

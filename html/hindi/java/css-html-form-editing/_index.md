@@ -37,6 +37,9 @@ Java में Aspose.HTML का उपयोग करके HTML दस्त
 Java में Aspose.HTML का उपयोग करके गणना किए गए CSS मानों को प्राप्त करने की पूरी प्रक्रिया सीखें।
 ### [Java में क्लास द्वारा एलिमेंट चयन – पूर्ण गाइड](./select-element-by-class-in-java-complete-how-to-guide/)
 Java में Aspose.HTML का उपयोग करके क्लास द्वारा HTML एलिमेंट को चुनने और प्रोसेस करने की पूरी प्रक्रिया सीखें।
+### [Java में CSS कैसे प्राप्त करें – Aspose.HTML के साथ गणना किया गया स्टाइल प्राप्त करें](./how-to-get-css-in-java-retrieve-computed-style-with-aspose-h/)
+Aspose.HTML for Java का उपयोग करके किसी तत्व का गणना किया गया CSS स्टाइल कैसे प्राप्त करें, सीखें।
+
 ### [Java में CSS पढ़ना – Aspose.HTML के साथ पूर्ण गाइड](./how-to-read-css-in-java-complete-guide-with-aspose-html/)
 Aspose.HTML का उपयोग करके Java में CSS फ़ाइलों को पढ़ने और पार्स करने की पूरी प्रक्रिया सीखें।
 ### [Java के साथ HTML पार्स करें: CSS प्रॉपर्टी निकालें और फ़ॉन्ट आकार प्राप्त करें](./parse-html-with-java-extract-css-property-and-get-font-size/)

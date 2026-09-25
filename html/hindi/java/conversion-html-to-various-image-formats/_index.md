@@ -141,6 +141,8 @@ Aspose.HTML for Java के साथ HTML को WebP में कैसे �
 Aspose.HTML for Java का उपयोग करके वेबपेज का स्क्रीनशॉट कैसे कैप्चर करें, इस गाइड में सीखें।
 ### [Java के साथ SVG को PNG में बदलते समय DPI सेट करना](./how-to-set-dpi-when-converting-svg-to-png-with-java/)
 Aspose.HTML for Java का उपयोग करके SVG को PNG में बदलते समय DPI को नियंत्रित करने के चरण‑दर‑चरण निर्देश।
+### [Java में SVG को GIF में बदलना – पूर्ण चरण‑दर‑चरण गाइड](./svg-to-gif-conversion-in-java-complete-step-by-step-guide/)
+Aspose.HTML for Java का उपयोग करके SVG को GIF में बदलने की पूरी प्रक्रिया सीखें। विस्तृत चरण‑दर‑चरण गाइड।
 
 ## अक्सर पूछे जाने वाले प्रश्न
 

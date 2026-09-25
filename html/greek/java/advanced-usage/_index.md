@@ -140,6 +140,8 @@ weight: 20
 Μάθετε πώς να εκτελείτε κώδικα JavaScript ασύγχρονα σε Java με CompletableFuture για βέλτιστη απόδοση.
 ### [Πώς να φορτώσετε HTML, ορίσετε DPI συσκευής & διαβάσετε το χρώμα φόντου](./how-to-load-html-set-device-dpi-read-background-color/)
 Μάθετε πώς να φορτώσετε HTML, ορίσετε το DPI της συσκευής και διαβάσετε το χρώμα φόντου με Aspose.HTML for Java.
+### [Πώς να Απομονώσετε JavaScript – Πλήρης Οδηγός Aspose.HTML](./how-to-sandbox-javascript-complete-aspose-html-guide/)
+Μάθετε πώς να εκτελείτε JavaScript σε ασφαλές sandbox περιβάλλον με το Aspose.HTML for Java, εξασφαλίζοντας απομόνωση και έλεγχο.
 
 ---
 

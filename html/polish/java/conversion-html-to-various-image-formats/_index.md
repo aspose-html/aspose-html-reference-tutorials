@@ -139,6 +139,8 @@ Dowiedz się, jak konwertować HTML do formatu WebP w Javie przy użyciu Aspose.
 ### [Jak przechwycić zrzut ekranu strony internetowej przy użyciu Aspose HTML – przewodnik Java](./how-to-capture-screenshot-of-a-webpage-with-aspose-html-java/)
 ### [Jak przekonwertować HTML do WebP w Javie – Kompletny przewodnik krok po kroku](./how-to-convert-html-to-webp-in-java-complete-step-by-step-gu/)
 Dowiedz się, jak konwertować HTML do formatu WebP w Javie przy użyciu Aspose.HTML. Szczegółowy przewodnik krok po kroku.
+### [Konwersja SVG do GIF w Javie – Kompletny przewodnik krok po kroku](./svg-to-gif-conversion-in-java-complete-step-by-step-guide/)
+Dowiedz się, jak przekształcić pliki SVG w animowane GIFy w Javie przy użyciu Aspose.HTML, krok po kroku.
 
 ## Najczęściej zadawane pytania
 

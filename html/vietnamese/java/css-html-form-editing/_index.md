@@ -65,6 +65,8 @@ Hướng dẫn cách dùng getComputedStyle trong Java để lấy màu nền v�
 Hướng dẫn chi tiết cách trích xuất CSS từ tài liệu HTML bằng Aspose.HTML cho Java.
 ### [Cách truy vấn HTML trong Java – Chọn phần tử, lọc theo thuộc tính và lấy nội dung văn bản](./how-to-query-html-in-java-select-elements-filter-by-attribut/)
 Hướng dẫn chi tiết cách truy vấn HTML trong Java, chọn phần tử, lọc theo thuộc tính và lấy nội dung văn bản bằng Aspose.HTML.
+### [Cách lấy CSS trong Java – Truy xuất kiểu đã tính toán với Aspose.HTML](./how-to-get-css-in-java-retrieve-computed-style-with-aspose-h/)
+Hướng dẫn cách lấy CSS đã tính toán trong Java bằng Aspose.HTML, giúp bạn truy cập và sử dụng các thuộc tính kiểu một cách dễ dàng.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

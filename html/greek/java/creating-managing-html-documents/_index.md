@@ -81,6 +81,8 @@ url: /el/java/creating-managing-html-documents/
 
 ### [Πώς να ερωτήσετε HTML σε Java – Πλήρης οδηγός](./how-to-query-html-in-java-complete-tutorial/)
 Μάθετε πώς να εκτελείτε ερωτήματα σε έγγραφα HTML με Java χρησιμοποιώντας το Aspose.HTML, βήμα‑βήμα οδηγίες και παραδείγματα.
+### [Εξαγωγή κειμένου από HTML σε Java – Πλήρης οδηγός](./extract-text-from-html-in-java-complete-programming-guide/)
+Μάθετε πώς να εξάγετε κείμενο από έγγραφα HTML σε Java με το Aspose.HTML, βήμα‑βήμα οδηγίες και παραδείγματα.
 
 ### [Καταμέτρηση χαρακτήρων HTML σε Java – Πλήρης οδηγός με Aspose HTML](./count-html-characters-in-java-full-guide-with-aspose-html/)
 Μάθετε πώς να μετράτε τους χαρακτήρες HTML σε εφαρμογές Java χρησιμοποιώντας το Aspose.HTML, βήμα‑βήμα οδηγός.

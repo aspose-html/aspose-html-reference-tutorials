@@ -142,6 +142,8 @@ Aspose लाइब्रेरी से EPUB फ़ाइल को DOCX म�
 Java में CompletableFuture के साथ JavaScript को असिंक्रोनस रूप से निष्पादित करने के चरण‑दर‑चरण निर्देश।  
 ### [HTML को लोड करना, डिवाइस DPI सेट करना और बैकग्राउंड रंग पढ़ना कैसे करें](./how-to-load-html-set-device-dpi-read-background-color/)
 Aspose.HTML for Java का उपयोग करके HTML लोड करें, डिवाइस DPI सेट करें और बैकग्राउंड रंग पढ़ें।
+### [JavaScript को सैंडबॉक्स कैसे करें – Aspose.HTML पूर्ण गाइड](./how-to-sandbox-javascript-complete-aspose-html-guide/)
+Aspose.HTML में JavaScript को सुरक्षित रूप से चलाने के लिए सैंडबॉक्स सेटअप और उपयोग के चरण‑दर‑चरण निर्देश।  
 
 ---
 

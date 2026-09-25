@@ -78,6 +78,8 @@ url: /ar/java/creating-managing-html-documents/
 تعلم كيفية تنفيذ جافا سكريبت غير متزامن في Java باستخدام Aspose.HTML من خلال دليل خطوة بخطوة شامل.
 ### [عد أحرف HTML في Java – دليل كامل مع Aspose HTML](./count-html-characters-in-java-full-guide-with-aspose-html/)
 تعلم كيفية حساب عدد أحرف HTML في مستندات Java باستخدام Aspose.HTML من خلال دليل شامل خطوة بخطوة.
+### [استخراج النص من HTML في Java – دليل برمجة كامل](./extract-text-from-html-in-java-complete-programming-guide/)
+تعلم كيفية استخراج النص من مستندات HTML باستخدام Aspose.HTML لـ Java من خلال دليل شامل خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

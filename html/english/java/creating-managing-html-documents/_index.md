@@ -80,6 +80,8 @@ Learn to load HTML, query elements, and count them using Aspose.HTML for Java in
 Learn how to load HTML documents in Java using Aspose.HTML, with comprehensive XPath and CSS selectors guide.
 ### [count html characters in Java – Full Guide with Aspose HTML](./count-html-characters-in-java-full-guide-with-aspose-html/)
 Learn how to count HTML characters in Java using Aspose.HTML with this comprehensive step‑by‑step guide.
+### [Extract Text from HTML in Java – Complete Programming Guide](./extract-text-from-html-in-java-complete-programming-guide/)
+Learn how to extract text from HTML using Aspose.HTML for Java with this comprehensive step-by-step programming guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

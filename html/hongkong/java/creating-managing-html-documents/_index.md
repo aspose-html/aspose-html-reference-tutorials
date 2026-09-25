@@ -72,6 +72,8 @@ Aspose.HTML for Java 為旨在在 Java 應用程式中無縫處理 HTML 文件�
 學習使用 Aspose.HTML for Java 在 Java 中載入 HTML 文檔，並使用 XPath 與 CSS 進行查詢的完整指南。
 ### [在 Java 中計算 HTML 字元 – Aspose HTML 完整指南](./count-html-characters-in-java-full-guide-with-aspose-html/)
 了解如何使用 Aspose.HTML for Java 計算 HTML 文檔中的字元數，提供完整步驟與範例。
+### [在 Java 中從 HTML 提取文字 – 完整程式設計指南](./extract-text-from-html-in-java-complete-programming-guide/)
+使用 Aspose.HTML for Java 從 HTML 中提取文字的完整步驟指南，涵蓋示例與最佳實踐。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

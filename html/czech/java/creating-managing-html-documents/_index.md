@@ -80,6 +80,8 @@ Naučte se načíst HTML, dotazovat jej a počítat elementy v Javě pomocí Asp
 Kompletní návod, jak načíst HTML dokument v Javě pomocí Aspose.HTML, včetně použití XPath a CSS selektorů.
 ### [Počítání znaků HTML v Javě – Kompletní průvodce s Aspose HTML](./count-html-characters-in-java-full-guide-with-aspose-html/)
 Naučte se, jak pomocí Aspose.HTML v Javě spočítat počet znaků v HTML dokumentu, včetně praktických příkladů a tipů.
+### [Extrahujte text z HTML v Javě – Kompletní programovací průvodce](./extract-text-from-html-in-java-complete-programming-guide/)
+Naučte se extrahovat text z HTML v Javě pomocí Aspose.HTML s podrobným krok‑za‑krokem průvodcem.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

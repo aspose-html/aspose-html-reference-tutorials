@@ -140,6 +140,8 @@ Ismerje meg, hogyan hajthatja végre a JavaScriptet Java környezetben, és hogy
 Ismerje meg, hogyan futtathat JavaScript kódot aszinkron módon a CompletableFuture segítségével Java alkalmazásokban.
 ### [HTML betöltése, eszköz DPI beállítása és háttérszín olvasása](./how-to-load-html-set-device-dpi-read-background-color/)
 Ismerje meg, hogyan töltsön be HTML-t, állítson be DPI-t és olvassa ki a háttérszínt az Aspose.HTML for Java segítségével.
+### [JavaScript szandbox használata – Teljes Aspose.HTML útmutató](./how-to-sandbox-javascript-complete-aspose-html-guide/)
+Ismerje meg, hogyan futtathat biztonságosan JavaScript kódot egy elszigetelt környezetben az Aspose.HTML for Java segítségével.
 
 ---
 

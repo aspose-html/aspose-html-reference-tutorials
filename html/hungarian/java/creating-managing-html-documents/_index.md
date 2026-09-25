@@ -66,6 +66,8 @@ Ismerje meg, hogyan kérdezhet le HTML-t Java használatával, lépésről lép�
 Ismerje meg, hogyan tölthet be, kérdezhet le és számolhat meg HTML elemeket Java nyelven az Aspose.HTML segítségével.
 ### [HTML-dokumentum betöltése Java-ban – Teljes útmutató XPath és CSS használatával](./load-html-document-java-complete-guide-with-xpath-css/)
 Fedezze fel, hogyan tölthet be HTML-dokumentumokat Java-ban, és használhatja az XPath és CSS szelektorokat a tartalom lekérdezéséhez.
+### [HTML szöveg kinyerése Java-ban – Teljes programozási útmutató](./extract-text-from-html-in-java-complete-programming-guide/)
+Ismerje meg, hogyan nyerhet ki szöveget HTML-ből Java használatával, lépésről lépésre útmutató a hatékony adatkinyeréshez.
 ### [Új HTML-dokumentumok létrehozása az Aspose.HTML for Java használatával](./generate-new-html-documents/)
 Ebből az egyszerű, lépésenkénti útmutatóból megtudhatja, hogyan hozhat létre új HTML-dokumentumokat az Aspose.HTML for Java használatával. Kezdje el a dinamikus HTML-tartalom generálását.
 ### [Kezelje a dokumentumbetöltési eseményeket az Aspose.HTML for Java-ban](./handle-document-load-events/)

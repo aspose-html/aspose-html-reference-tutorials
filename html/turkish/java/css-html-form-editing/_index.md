@@ -64,6 +64,8 @@ Java'da getComputedStyle kullanarak arka plan rengini ve diğer CSS özellikleri
 Aspose.HTML for Java kullanarak bir HTML belgesinden CSS stillerini nasıl çıkaracağınızı adım adım öğrenin.
 ### [Java’da HTML sorgulama – Öğeleri seçme, öznitelik ile filtreleme ve metin içeriğini alma](./how-to-query-html-in-java-select-elements-filter-by-attribut/)
 Bu eğitimde, Aspose.HTML for Java kullanarak HTML öğelerini seçmeyi, özniteliklerine göre filtrelemeyi ve metin içeriklerini almayı öğrenin.
+### [Java’da CSS Nasıl Alınır – Aspose.HTML ile Hesaplanmış Stil Getirme](./how-to-get-css-in-java-retrieve-computed-style-with-aspose-h/)
+Aspose.HTML for Java kullanarak bir öğenin hesaplanmış stilini elde etmeyi ve CSS değerlerini programatik olarak okumayı öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -62,6 +62,9 @@ Lernen Sie mit unserem einfachen Schritt-für-Schritt-Tutorial, mit Aspose.HTML 
 Erfahren Sie, wie Sie mit einem Fixed Thread Pool und ExecutorService HTML-Dokumente parallel bereinigen und die Leistung steigern.
 ### [Kind-Element an den Body anhängen in Java – Vollständiges Aspose.HTML-Tutorial](./append-child-to-body-in-java-full-aspose-html-tutorial/)
 Erfahren Sie, wie Sie mit Aspose.HTML für Java ein Kind-Element zum Body hinzufügen und das Dokument weiter verarbeiten.
+### [Ändern Sie den h1-Text in MHTML mit Java – Vollständige Schritt‑für‑Schritt‑Anleitung](./change-h1-text-in-mhtml-with-java-full-step-by-step-guide/)
+Erfahren Sie, wie Sie den h1-Text in MHTML-Dateien mit Aspose.HTML für Java ändern – detaillierte Schritt‑für‑Schritt‑Anleitung.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -131,6 +131,9 @@ Apprenez à transformer des fichiers Markdown en PDF de haute qualité en Java a
 Apprenez à définir le décalage lors de la conversion de HTML en Markdown avec Aspose.HTML for Java.
 ### [Convertir le markdown en HTML – Guide Java avec sortie PDF](./convert-markdown-to-html-java-guide-with-pdf-output/)
 Apprenez à convertir du Markdown en HTML puis en PDF en Java avec Aspose.HTML. Guide complet étape par étape.
+### [Créer un PDF à partir de Markdown en Java – Guide étape par étape](./create-pdf-from-markdown-in-java-step-by-step-guide/)
+Apprenez à générer un PDF à partir de fichiers Markdown en Java avec Aspose.HTML, étape par étape.
+
 ### [Converting SVG to Image](./convert-svg-to-image/)
 Apprenez à convertir SVG en images en Java avec Aspose.HTML. Guide complet pour une sortie de haute qualité.
 ### [Converting SVG to PDF](./convert-svg-to-pdf/)
@@ -175,6 +178,9 @@ Apprenez à réduire la taille des PDF en Java en utilisant Aspose HTML to PDF.
 Apprenez à générer des fichiers PDF/A‑2b conformes aux normes d'archivage à partir de HTML en Java avec Aspose.HTML.
 
 ### [Extraire l'audio du HTML – Comment extraire les médias et la vidéo](./extract-audio-from-html-how-to-extract-media-and-video/)
+
+### [Convertir HTML en PDF en masse – Guide Java NIO avec traitement parallèle](./convert-html-to-pdf-in-bulk-java-nio-guide-with-parallel-pro/)
+Apprenez à convertir de nombreux fichiers HTML en PDF simultanément en Java en utilisant NIO et le traitement parallèle.
 
 ## Foire aux questions
 

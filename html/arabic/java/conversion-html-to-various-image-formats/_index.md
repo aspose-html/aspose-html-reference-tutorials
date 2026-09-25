@@ -143,6 +143,8 @@ Learn how to easily convert HTML to TIFF using Aspose.HTML for Java. Step-by-ste
 تعلم كيفية تحويل HTML إلى WebP باستخدام Aspose.HTML for Java. دليل خطوة بخطوة لتحويل الصور بكفاءة.
 ### [كيفية التقاط لقطة شاشة لصفحة ويب باستخدام Aspose HTML – دليل Java](./how-to-capture-screenshot-of-a-webpage-with-aspose-html-java/)
 تعلم كيفية التقاط لقطة شاشة لصفحة ويب باستخدام Aspose.HTML for Java. دليل خطوة بخطوة لالتقاط الصور بسهولة.
+### [تحويل SVG إلى GIF في Java – دليل شامل خطوة بخطوة](./svg-to-gif-conversion-in-java-complete-step-by-step-guide/)
+تعلم كيفية تحويل ملفات SVG إلى صور GIF باستخدام Aspose.HTML for Java من خلال دليل خطوة بخطوة شامل.
 
 ## الأسئلة المتكررة
 

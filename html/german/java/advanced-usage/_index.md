@@ -145,6 +145,8 @@ Erfahren Sie, wie Sie EPUB‑Dateien mit Aspose in DOCX‑Dokumente konvertieren
 Erfahren Sie, wie Sie JavaScript-Code in Java asynchron ausführen, indem Sie CompletableFuture einsetzen, für nicht blockierende Abläufe.
 ### [Wie man HTML lädt, DPI des Geräts festlegt und Hintergrundfarbe ausliest](./how-to-load-html-set-device-dpi-read-background-color/)
 Lernen Sie, wie Sie HTML mit Aspose.HTML für Java laden, die GerätedPI einstellen und die Hintergrundfarbe aus dem Dokument auslesen.
+### [Wie man JavaScript sandboxed – Komplett‑Anleitung für Aspose.HTML](./how-to-sandbox-javascript-complete-aspose-html-guide/)
+Erfahren Sie, wie Sie JavaScript sicher in einer Sandbox ausführen und dabei Aspose.HTML für Java nutzen.
 
 ---
 

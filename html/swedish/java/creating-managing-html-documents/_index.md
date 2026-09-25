@@ -68,6 +68,9 @@ Lär dig att hantera dokumentladdningshändelser i Aspose.HTML för Java med den
 Lär dig att skapa och hantera SVG-dokument med Aspose.HTML för Java! Den här omfattande guiden täcker allt från grundläggande skapande till avancerad manipulation.
 ### [Skapa sandlåda för HTML i Java – Steg‑för‑steg‑guide](./create-sandbox-for-html-in-java-step-by-step-guide/)
 Lär dig hur du skapar en säker sandlåda för HTML i Java med vår detaljerade steg-för-steg‑guide.
+### [Extrahera text från HTML i Java – Komplett programmeringsguide](./extract-text-from-html-in-java-complete-programming-guide/)
+Lär dig hur du extraherar text från HTML-dokument i Java med en komplett steg‑för‑steg‑guide.
+
 ### [Skapa HTML-dokument med Java – Hämta JSON och generera innehåll](./create-html-document-with-java-fetch-json-and-generate-conte/)
 Lär dig hur du hämtar JSON-data i Java och genererar dynamiskt HTML-innehåll med Aspose.HTML.
 ### [Ladda HTML-dokument i Java – Komplett guide med XPath och CSS](./load-html-document-java-complete-guide-with-xpath-css/)

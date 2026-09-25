@@ -80,6 +80,9 @@ Aspose.HTML for Java를 활용해 Java에서 비동기 JavaScript를 실행하�
 
 ### [Java에서 HTML 문자 수 세기 – Aspose HTML을 활용한 전체 가이드](./count-html-characters-in-java-full-guide-with-aspose-html/)
 Aspose.HTML for Java를 사용하여 HTML 문자열의 문자 수를 정확히 계산하는 방법을 단계별로 안내합니다.
+### [Java에서 HTML 텍스트 추출 – 완전 프로그래밍 가이드](./extract-text-from-html-in-java-complete-programming-guide/)
+Aspose.HTML for Java를 활용해 Java에서 HTML 텍스트를 추출하는 완전 가이드를 제공합니다.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

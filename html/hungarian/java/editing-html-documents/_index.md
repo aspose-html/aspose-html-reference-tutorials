@@ -62,6 +62,8 @@ Ismerje meg a belső CSS-t HTML-dokumentumokban az Aspose.HTML for Java használ
 Ismerje meg, hogyan használhatja a FixedThreadPool-t a HTML dokumentumok párhuzamos tisztításához az ExecutorService segítségével.
 ### [Gyermek elem hozzáadása a body-hoz Java-ban – Teljes Aspose.HTML oktatóanyag](./append-child-to-body-in-java-full-aspose-html-tutorial/)
 Ismerje meg, hogyan adhat hozzá új elemet a HTML body részéhez Java-ban az Aspose.HTML segítségével, lépésről lépésre.
+### [h1 szöveg módosítása MHTML-ben Java-val – Teljes lépésről‑lépésre útmutató](./change-h1-text-in-mhtml-with-java-full-step-by-step-guide/)
+Ismerje meg, hogyan módosíthatja az MHTML fájlok h1 címkéjének szövegét Java segítségével részletes, lépésről‑lépésre útmutatóval.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -140,6 +140,7 @@ weight: 24
 學習使用 Aspose.HTML for Java 將 HTML 轉換為 WebP 圖像，提供完整步驟與範例程式碼。
 
 ### [如何使用 Aspose HTML 捕獲網頁截圖 – Java 指南](./how-to-capture-screenshot-of-a-webpage-with-aspose-html-java/)
+### [將 SVG 轉換為 GIF – 完整步驟指南](./svg-to-gif-conversion-in-java-complete-step-by-step-guide/)
 
 ## 常見問題集
 

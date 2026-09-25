@@ -72,6 +72,8 @@ Apprenez à interroger et extraire des données HTML en Java avec Aspose.HTML gr
 Apprenez à récupérer des données JSON et à générer dynamiquement du contenu HTML en Java avec Aspose.HTML.
 ### [Compter les caractères HTML en Java – Guide complet avec Aspose.HTML](./count-html-characters-in-java-full-guide-with-aspose-html/)
 Apprenez à compter le nombre de caractères dans un document HTML en Java à l'aide d'Aspose.HTML, avec un guide détaillé pas à pas.
+### [Extraire du texte à partir de HTML en Java – Guide complet de programmation](./extract-text-from-html-in-java-complete-programming-guide/)
+Apprenez à extraire du texte d'un document HTML en Java avec Aspose.HTML grâce à ce guide complet étape par étape.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

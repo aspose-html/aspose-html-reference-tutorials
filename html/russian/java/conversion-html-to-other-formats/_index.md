@@ -164,6 +164,11 @@ Aspose.HTML for Java упрощает процесс конвертации HTML
 
 ### [Извлечение аудио из HTML – Как извлечь медиа и видео](./extract-audio-from-html-how-to-extract-media-and-video/)
 
+### [Создание PDF из Markdown в Java – Пошаговое руководство](./create-pdf-from-markdown-in-java-step-by-step-guide/)
+
+### [Конвертация HTML в PDF пакетно – Руководство Java NIO с параллельной обработкой](./convert-html-to-pdf-in-bulk-java-nio-guide-with-parallel-pro/)
+Узнайте, как массово конвертировать HTML в PDF с помощью Java NIO и параллельной обработки.
+
 ## Часто задаваемые вопросы
 
 **Q: Можно ли использовать Aspose.HTML for Java в коммерческом приложении?**  

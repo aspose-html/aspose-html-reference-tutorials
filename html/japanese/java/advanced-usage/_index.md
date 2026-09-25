@@ -134,6 +134,7 @@ Aspose.HTML for Java のモバイルサンドボックスでデバイス ピク�
 Aspose.HTML for Java で CompletableFuture を活用し、Java から JavaScript を非同期に実行する手順を解説します。
 ### [HTML を読み込み、デバイス DPI を設定し、背景色を取得する方法](./how-to-load-html-set-device-dpi-read-background-color/)
 Aspose.HTML for Java を使用して、HTML のロード、デバイス DPI の設定、背景色取得の手順を学びます。
+### [JavaScript をサンドボックス化する方法 – 完全 Aspose.HTML ガイド](./how-to-sandbox-javascript-complete-aspose-html-guide/)
 
 ---
 

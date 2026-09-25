@@ -141,6 +141,7 @@ Aspose.HTML ให้คุณแนบ `DomMutationObserver` ไปยังโ
 ### [วิธีรัน JavaScript แบบอะซิงโครนัสโดยใช้ CompletableFuture](./how-to-run-javascript-asynchronously-using-completablefuture/)
 เรียนรู้การรันโค้ด JavaScript อย่างไม่บล็อกโดยใช้ CompletableFuture ใน Java ด้วย Aspose.HTML  
 ### [วิธีโหลด HTML ตั้งค่า DPI ของอุปกรณ์และอ่านสีพื้นหลัง](./how-to-load-html-set-device-dpi-read-background-color/)
+### [วิธีแซนด์บ็อกซ์ JavaScript – คู่มือ Aspose.HTML ฉบับสมบูรณ์](./how-to-sandbox-javascript-complete-aspose-html-guide/)
 
 ---
 

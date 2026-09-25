@@ -141,6 +141,8 @@ Dowiedz się, jak konwertować pliki EPUB do DOCX przy użyciu Aspose, krok po k
 Poznaj, jak wykonać kod JavaScript w tle w Javie, wykorzystując CompletableFuture i Aspose.HTML.
 ### [Jak załadować HTML, ustawić DPI urządzenia i odczytać kolor tła](./how-to-load-html-set-device-dpi-read-background-color/)
 Dowiedz się, jak wczytać dokument HTML, ustawić DPI urządzenia oraz odczytać kolor tła przy użyciu Aspose.HTML dla Javy.
+### [Jak sandboxować JavaScript – Kompletny przewodnik Aspose.HTML](./how-to-sandbox-javascript-complete-aspose-html-guide/)
+Dowiedz się, jak bezpiecznie uruchamiać i izolować kod JavaScript w aplikacjach Java przy użyciu Aspose.HTML, krok po kroku.
 
 ---
 

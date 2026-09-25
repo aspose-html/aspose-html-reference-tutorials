@@ -142,6 +142,8 @@ Aspose.HTML позволяет прикрепить `DomMutationObserver` к л�
 Узнайте, как запускать JavaScript‑код асинхронно в Java с помощью CompletableFuture и Aspose.HTML.
 ### [Как загрузить HTML, установить DPI устройства и прочитать цвет фона](./how-to-load-html-set-device-dpi-read-background-color/)
 Узнайте, как загрузить HTML, установить DPI устройства и прочитать цвет фона с помощью Aspose.HTML for Java.
+### [Как изолировать JavaScript – Полное руководство Aspose.HTML](./how-to-sandbox-javascript-complete-aspose-html-guide/)
+Узнайте, как безопасно выполнять JavaScript в изолированной среде с помощью Aspose.HTML for Java.
 
 ---
 

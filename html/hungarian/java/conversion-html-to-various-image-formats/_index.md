@@ -94,6 +94,8 @@ HTML átalakítása BMP‑be az Aspose.HTML for Java segítségével. Átfogó o
 Ismerje meg, hogyan konvertálhat HTML‑t GIF‑be Java‑ban az Aspose.HTML használatával. Részletes, lépésről‑lépésre útmutató a hatékony HTML‑to‑GIF konverzióhoz.
 ### [Hogyan készítsünk GIF-et SVG‑ből – Lépésről‑lépésre Java útmutató](./how-to-create-gif-from-svg-step-by-step-java-guide/)
 Ismerje meg, hogyan alakíthatja SVG fájlokat GIF animációvá Java‑ban az Aspose.HTML segítségével.
+### [SVG‑t GIF‑be konvertálás Java‑ban – Teljes lépésről‑lépésre útmutató](./svg-to-gif-conversion-in-java-complete-step-by-step-guide/)
+Ismerje meg, hogyan konvertálhat SVG‑t GIF‑be Java‑ban az Aspose.HTML használatával. Részletes, lépésről‑lépésre útmutató.
 ### [HTML átalakítása JPEG‑be](./convert-html-to-jpeg/)
 Tanulja meg, hogyan konvertálhat HTML‑t JPEG‑be az Aspose.HTML for Java segítségével. Lépésről‑lépésre útmutató a zökkenőmentes dokumentumfeldolgozáshoz.
 ### [HTML átalakítása PNG‑be](./convert-html-to-png/)

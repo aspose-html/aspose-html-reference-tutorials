@@ -71,6 +71,8 @@ Aspose.HTML для Java предлагает мощный набор инстр�
 Научитесь создавать и управлять документами SVG с помощью Aspose.HTML для Java! Это всеобъемлющее руководство охватывает все: от базового создания до продвинутой манипуляции.
 ### [Как парсить HTML в Java – загрузка, запрос и подсчет элементов](./how-to-parse-html-java-load-query-count-elements/)
 Узнайте, как загружать HTML, выполнять запросы и подсчитывать элементы в Java с помощью Aspose.HTML.
+### [Извлечение текста из HTML в Java — полное руководство по программированию](./extract-text-from-html-in-java-complete-programming-guide/)
+Узнайте, как извлекать текстовое содержимое из HTML‑документов в Java с помощью Aspose.HTML, пошаговое полное руководство.
 ### [Создание песочницы для HTML в Aspose.HTML для Java – пошаговое руководство](./create-sandbox-for-html-in-java-step-by-step-guide/)
 ### [Как выполнять запросы к HTML в Java – полное руководство](./how-to-query-html-in-java-complete-tutorial/)
 ### [Выполнение асинхронного JavaScript в Java – Полное пошаговое руководство](./execute-async-javascript-in-java-complete-step-by-step-guide/)

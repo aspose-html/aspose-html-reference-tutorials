@@ -103,6 +103,8 @@ XPS هو صيغة الطباعة الخاصة بمايكروسوفت. باستخ
 ### [دروس Aspose HTML PDF/A: تحويل HTML إلى PDF/A‑2b باستخدام Java](./aspose-html-pdf-a-tutorial-convert-html-to-pdf-a-2b-with-jav/)
 ### [كيفية تحويل HTML إلى PDF باستخدام Aspose HTML – دليل Java غير المتزامن](./how-to-convert-html-to-pdf-with-aspose-html-async-java-guide/)
 ### [استخراج الصوت من HTML – كيفية استخراج الوسائط والفيديو](./extract-audio-from-html-how-to-extract-media-and-video/)
+### [تحويل HTML إلى PDF بالجملة – دليل Java NIO مع المعالجة المتوازية](./convert-html-to-pdf-in-bulk-java-nio-guide-with-parallel-pro/)
+تعلم كيفية تحويل ملفات HTML إلى PDF دفعة واحدة باستخدام Java NIO ومعالجة متوازية لزيادة الأداء.
 
 ### [تحويل HTML إلى PDF في Java – دليل شامل خطوة بخطوة](./convert-html-to-pdf-in-java-complete-step-by-step-guide/)
 

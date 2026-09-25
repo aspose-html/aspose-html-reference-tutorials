@@ -80,6 +80,8 @@ Leer hoe u asynchrone JavaScript-code in Java kunt uitvoeren met Aspose.HTML, in
 Leer stap‑voor‑stap hoe u HTML‑documenten laadt in Java met XPath‑ en CSS‑selectoren.
 ### [HTML-tekens tellen in Java – Volledige gids met Aspose HTML](./count-html-characters-in-java-full-guide-with-aspose-html/)
 Leer hoe u het aantal HTML‑tekens in een document kunt tellen met Aspose.HTML voor Java in deze stapsgewijze volledige gids.
+### [Tekst extraheren uit HTML in Java – Complete programmeergids](./extract-text-from-html-in-java-complete-programming-guide/)
+Leer hoe u tekst uit HTML-documenten kunt extraheren in Java met deze volledige stap‑voor‑stap handleiding.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

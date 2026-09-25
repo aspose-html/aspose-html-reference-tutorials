@@ -67,6 +67,8 @@ Dowiedz się, jak za pomocą Aspose.HTML w Javie odczytać właściwości CSS, w
 Dowiedz się, jak programowo wyodrębnić arkusze stylów CSS z dokumentów HTML w Javie, korzystając z Aspose.HTML, w prostym przewodniku krok po kroku.
 ### [Jak zapytać HTML w Javie – wybieranie elementów, filtrowanie po atrybucie i pobieranie treści tekstowej](./how-to-query-html-in-java-select-elements-filter-by-attribut/)
 Dowiedz się, jak w Javie zapytać HTML, wybierać elementy, filtrować po atrybutach i uzyskiwać zawartość tekstową.
+### [Jak pobrać CSS w Javie – pobieranie stylu obliczonego za pomocą Aspose.HTML](./how-to-get-css-in-java-retrieve-computed-style-with-aspose-h/)
+Dowiedz się, jak uzyskać obliczone style CSS elementów w Javie przy użyciu Aspose.HTML, krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

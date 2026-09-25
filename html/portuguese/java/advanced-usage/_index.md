@@ -154,6 +154,9 @@ Aprenda a converter arquivos EPUB para DOCX usando Aspose.HTML for Java em um gu
 ### [Como Carregar HTML, Definir DPI do Dispositivo e Ler a Cor de Fundo](./how-to-load-html-set-device-dpi-read-background-color/)
 Aprenda a carregar HTML, definir o DPI do dispositivo e ler a cor de fundo com Aspose.HTML for Java.
 
+### [Como isolar JavaScript – Guia completo do Aspose.HTML](./how-to-sandbox-javascript-complete-aspose-html-guide/)
+Aprenda a executar JavaScript em um sandbox seguro usando Aspose.HTML for Java, garantindo isolamento e segurança.
+
 ---
 
 **Última atualização:** 2025-11-29  

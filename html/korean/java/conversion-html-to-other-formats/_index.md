@@ -100,6 +100,8 @@ Aspose.HTML for Java를 사용하여 HTML을 MHTML로 손쉽게 변환합니다.
 Aspose.HTML for Java를 사용하여 HTML을 XPS로 손쉽게 변환하는 방법을 배우세요. 크로스‑플랫폼 문서를 쉽게 생성합니다.
 ### [Markdown을 HTML로 변환](./convert-markdown-to-html/)
 Aspose.HTML for Java를 사용하여 Java에서 Markdown을 HTML로 원활하게 변환합니다. 문서 변환 요구를 간소화하기 위한 단계별 가이드를 따라 주세요.
+### [Java에서 Markdown을 PDF로 변환 – 단계별 가이드](./create-pdf-from-markdown-in-java-step-by-step-guide/)
+Aspose.HTML를 사용하여 Java에서 Markdown을 PDF로 변환하는 방법을 단계별로 안내합니다.
 ### [SVG를 이미지로 변환](./convert-svg-to-image/)
 Aspose.HTML를 사용하여 Java에서 SVG를 이미지로 변환하는 방법을 배우세요. 고품질 출력에 대한 포괄적인 가이드입니다.
 ### [SVG를 PDF로 변환](./convert-svg-to-pdf/)
@@ -114,6 +116,8 @@ Aspose.HTML를 사용하여 Java에서 HTML을 PDF/A‑2b 형식으로 변환하
 Aspose.HTML를 활용해 Java에서 비동기 방식으로 HTML을 PDF로 변환하는 단계별 가이드를 제공합니다.
 ### [HTML에서 오디오 추출 – 미디어 및 비디오 추출 방법](./extract-audio-from-html-how-to-extract-media-and-video/)
 Aspose.HTML를 사용하여 HTML 파일에서 오디오와 비디오를 추출하는 방법을 단계별로 안내합니다.
+### [대량 HTML을 PDF로 변환 – Java NIO 및 병렬 처리 가이드](./convert-html-to-pdf-in-bulk-java-nio-guide-with-parallel-pro/)
+Java NIO와 병렬 처리를 활용해 여러 HTML 파일을 한 번에 PDF로 변환하는 방법을 단계별로 안내합니다.
 
 ### [Aspose HTML을 사용하여 PDF 페이지 크기 설정 – 전체 Java 가이드](./set-pdf-page-size-with-aspose-html-full-java-guide/)
 Aspose.HTML를 사용하여 Java에서 PDF 페이지 크기를 설정하는 전체 단계별 가이드를 제공합니다.

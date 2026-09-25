@@ -72,6 +72,8 @@ Java için Aspose.HTML ile JSON verilerini çekip dinamik HTML içeriği oluştu
 Java için Aspose.HTML kullanarak XPath ve CSS ile HTML belgelerini nasıl yükleyeceğinizi ve sorgulayacağınızı öğrenin.
 ### [Java için Aspose.HTML'de HTML karakterlerini sayma – Tam Kılavuz](./count-html-characters-in-java-full-guide-with-aspose-html/)
 Java uygulamalarında Aspose.HTML kullanarak HTML belgelerindeki karakter sayısını adım adım öğrenin.
+### [Java için Aspose.HTML'de HTML'den Metin Çıkarma – Tam Programlama Kılavuzu](./extract-text-from-html-in-java-complete-programming-guide/)
+Java için Aspose.HTML kullanarak HTML belgelerinden metin çıkarma konusunda adım adım rehber.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

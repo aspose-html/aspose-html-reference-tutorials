@@ -174,6 +174,8 @@ Learn how to enable JavaScript when loading HTML with Aspose.HTML for Java and e
 Learn how to execute JavaScript asynchronously in Java using CompletableFuture with Aspose.HTML.
 ### [How to Load HTML, Set Device DPI & Read Background Color](./how-to-load-html-set-device-dpi-read-background-color/)
 Learn how to load HTML, configure device DPI, and retrieve the background color using Aspose.HTML for Java.
+### [How to Sandbox JavaScript – Complete Aspose.HTML Guide](./how-to-sandbox-javascript-complete-aspose-html-guide/)
+Learn how to safely sandbox JavaScript execution using Aspose.HTML for Java, preventing unsafe code from affecting your application.
 
 ---
 

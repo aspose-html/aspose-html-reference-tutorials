@@ -78,6 +78,8 @@ Dowiedz się, jak ładować dokumenty HTML, wykonywać zapytania i liczyć eleme
 Poznaj pełny przewodnik, jak ładować dokumenty HTML w Javie, wykorzystując XPath i selektory CSS w Aspose.HTML.
 ### [Policz znaki HTML w Javie – Kompletny przewodnik z Aspose HTML](./count-html-characters-in-java-full-guide-with-aspose-html/)
 Dowiedz się, jak liczyć znaki w dokumentach HTML przy użyciu Aspose.HTML w Javie. Praktyczny przewodnik krok po kroku.
+### [Wyodrębnianie tekstu z HTML w Javie – Kompletny przewodnik programistyczny](./extract-text-from-html-in-java-complete-programming-guide/)
+Dowiedz się, jak skutecznie wyodrębniać tekst z dokumentów HTML w Javie przy użyciu Aspose.HTML, krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

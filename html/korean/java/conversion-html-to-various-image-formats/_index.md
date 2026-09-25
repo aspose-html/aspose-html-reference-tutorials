@@ -111,6 +111,7 @@ Aspose.HTML for Java를 사용해 HTML 페이지에서 썸네일 이미지를 �
 Java와 Aspose.HTML을 사용해 SVG를 PNG로 변환하면서 DPI를 지정하는 방법을 단계별로 안내합니다.
 ### [HTML을 WebP로 변환하는 방법 – Java 완전 단계별 가이드](./how-to-convert-html-to-webp-in-java-complete-step-by-step-gu/)
 Aspose.HTML for Java를 사용해 HTML을 WebP 이미지로 변환하는 전체 과정을 단계별로 안내합니다.
+### [Java에서 SVG를 GIF로 변환 – 완전한 단계별 가이드](./svg-to-gif-conversion-in-java-complete-step-by-step-guide/)
 
 ### [Java에서 HTML을 PNG로 생성 – 전체 단계별 가이드](./create-png-from-html-in-java-full-step-by-step-guide/)
 Java에서 Aspose.HTML를 활용해 HTML을 PNG 파일로 변환하는 전체 과정을 단계별로 안내합니다.

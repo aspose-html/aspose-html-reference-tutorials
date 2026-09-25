@@ -90,6 +90,8 @@ Leer stap voor stap hoe u HTML naar PDF converteert in Java en paginagrootte‑i
 Volledige stap‑voor‑stap handleiding om HTML naar PDF te converteren in Java met Aspose.HTML, inclusief alle configuratie‑opties.
 ### [Hoe HTML naar PDF converteren met Aspose HTML – Async Java‑gids](./how-to-convert-html-to-pdf-with-aspose-html-async-java-guide/)
 Leer hoe u asynchrone conversie van HTML naar PDF implementeert in Java met Aspose HTML voor betere prestaties.
+### [HTML in bulk naar PDF converteren – Java NIO-gids met parallelle verwerking](./convert-html-to-pdf-in-bulk-java-nio-guide-with-parallel-pro/)
+Leer hoe u met Java NIO en parallelle verwerking grote aantallen HTML‑bestanden efficiënt naar PDF converteert.
 ### [HTML naar MHTML converteren](./convert-html-to-mhtml/)
 Converteer HTML moeiteloos naar MHTML met Aspose.HTML for Java. Volg onze stap‑voor‑stap gids voor efficiënte HTML‑naar‑MHTML conversie.
 ### [HTML naar XPS converteren](./convert-html-to-xps/)
@@ -114,6 +116,7 @@ Leer hoe u Aspose gebruikt om HTML batch‑gewijs naar PDF te converteren in Jav
 Leer hoe u met Aspose.HTML for Java HTML‑documenten omzet naar PDF/A‑2b, een ISO‑gestandaardiseerd archiefformaat.
 ### [Audio extraheren uit HTML – Hoe media en video te extraheren](./extract-audio-from-html-how-to-extract-media-and-video/)
 Ontdek hoe u audio‑ en videobestanden uit HTML‑inhoud kunt halen met Aspose.HTML for Java.
+### [PDF maken vanuit Markdown in Java – Stapsgewijze gids](./create-pdf-from-markdown-in-java-step-by-step-guide/)
 
 ### [PDF maken van HTML in Java – Complete stapsgewijze gids](./create-pdf-from-html-in-java-complete-step-by-step-guide/)
 Leer hoe u stap‑voor‑stap een PDF maakt van HTML in Java met Aspose.HTML, inclusief volledige configuratie‑opties.

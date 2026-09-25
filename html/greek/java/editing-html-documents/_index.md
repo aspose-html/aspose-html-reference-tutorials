@@ -62,6 +62,9 @@ url: /el/java/editing-html-documents/
 Μάθετε πώς να χρησιμοποιήσετε ένα σταθερό thread pool σε Java για να εκτελείτε παράλληλο καθαρισμό HTML με την κλάση ExecutorService.
 ### [Προσθήκη στοιχείου child στο σώμα σε Java – Πλήρες σεμινάριο Aspose.HTML](./append-child-to-body-in-java-full-aspose-html-tutorial/)
 Μάθετε πώς να προσθέσετε ένα στοιχείο child στο σώμα ενός εγγράφου HTML χρησιμοποιώντας Aspose.HTML για Java.
+### [Αλλαγή κειμένου h1 σε MHTML με Java – Πλήρης Οδηγός Βήμα‑Βήμα](./change-h1-text-in-mhtml-with-java-full-step-by-step-guide/)
+Μάθετε πώς να αλλάξετε το κείμενο h1 σε αρχεία MHTML χρησιμοποιώντας το Aspose.HTML για Java με αυτόν τον πλήρη οδηγό βήμα‑βήμα.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

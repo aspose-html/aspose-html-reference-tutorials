@@ -62,6 +62,8 @@ Aprenda a implementar CSS interno em documentos HTML usando Aspose.HTML para Jav
 Aprenda a usar um pool de threads fixo em Java para limpar HTML em paralelo usando ExecutorService.
 ### [Adicionar filho ao corpo em Java – Tutorial completo do Aspose.HTML](./append-child-to-body-in-java-full-aspose-html-tutorial/)
 Aprenda como adicionar um elemento filho ao corpo de um documento HTML usando Aspose.HTML para Java.
+### [Alterar texto h1 em MHTML com Java – Guia completo passo a passo](./change-h1-text-in-mhtml-with-java-full-step-by-step-guide/)
+Aprenda a modificar o texto h1 em arquivos MHTML usando Java com este guia detalhado passo a passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

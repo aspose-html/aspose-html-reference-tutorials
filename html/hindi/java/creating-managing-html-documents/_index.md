@@ -72,6 +72,8 @@ Aspose.HTML for Java का उपयोग करके HTML दस्ताव
 ### [HTML दस्तावेज़ लोड करें जावा – XPath और CSS के साथ पूर्ण गाइड](./load-html-document-java-complete-guide-with-xpath-css/)
 
 ### [Java के लिए Aspose.HTML में JSON प्राप्त करके सामग्री उत्पन्न करके HTML दस्तावेज़ बनाएं](./create-html-document-with-java-fetch-json-and-generate-conte/)
+### [Java में HTML से टेक्स्ट निकालें – पूर्ण प्रोग्रामिंग गाइड](./extract-text-from-html-in-java-complete-programming-guide/)
+Aspose.HTML for Java का उपयोग करके HTML से टेक्स्ट निकालने की पूरी मार्गदर्शिका, चरण‑दर‑चरण उदाहरण और सर्वोत्तम प्रथाएँ।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

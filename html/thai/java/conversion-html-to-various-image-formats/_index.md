@@ -128,6 +128,8 @@ weight: 24
 เรียนรู้วิธีตั้งค่า DPI ขณะแปลงไฟล์ SVG เป็น PNG ด้วย Java โดยใช้ Aspose.HTML เพื่อควบคุมความละเอียดของภาพ
 ### [วิธีแปลง HTML เป็น WebP ใน Java – คู่มือขั้นตอนเต็ม](./how-to-convert-html-to-webp-in-java-complete-step-by-step-gu/)
 เรียนรู้วิธีแปลง HTML เป็น WebP ใน Java อย่างละเอียดด้วยขั้นตอนที่ชัดเจนและตัวอย่างโค้ด
+### [การแปลง SVG เป็น GIF ใน Java – คู่มือขั้นตอนเต็ม](./svg-to-gif-conversion-in-java-complete-step-by-step-guide/)
+เรียนรู้วิธีการแปลง SVG เป็น GIF ใน Java ด้วย Aspose.HTML คู่มือทีละขั้นตอนสำหรับการแปลงที่มีประสิทธิภาพ
 
 ## คำถามที่พบบ่อย
 

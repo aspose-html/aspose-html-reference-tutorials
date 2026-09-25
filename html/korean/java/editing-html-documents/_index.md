@@ -62,6 +62,8 @@ Aspose.HTML for Java를 사용하여 HTML 문서에 인라인 CSS를 추가하�
 ExecutorService와 고정 스레드 풀을 활용해 HTML 문서를 병렬로 정리하는 방법을 단계별로 안내합니다.
 ### [Java용 Aspose.HTML에서 본문에 자식 요소 추가 – 전체 튜토리얼](./append-child-to-body-in-java-full-aspose-html-tutorial/)
 Aspose.HTML for Java를 사용하여 본문에 자식 요소를 추가하는 방법을 단계별로 안내합니다.
+### [Java용 Aspose.HTML에서 MHTML의 h1 텍스트 변경 – 전체 단계별 가이드](./change-h1-text-in-mhtml-with-java-full-step-by-step-guide/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

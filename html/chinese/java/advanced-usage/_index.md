@@ -125,6 +125,10 @@ Aspose.HTML 允许您将 `DomMutationObserver` 附加到任意节点。这对于
 学习如何使用 Aspose.HTML for Java 调整 PDF 页面尺寸。轻松从 HTML 创建高质量 PDF，并有效控制页面尺寸。
 ### [使用 Aspose.HTML for Java 调整 XPS 页面尺寸](./adjust-xps-page-size/)
 学习如何使用 Aspose.HTML for Java 调整 XPS 页面尺寸。轻松控制 XPS 文档的输出尺寸。
+
+### [如何在 Aspose.HTML 中沙箱运行 JavaScript – 完整指南](./how-to-sandbox-javascript-complete-aspose-html-guide/)
+学习在 Aspose.HTML 中使用沙箱安全执行 JavaScript，防止潜在风险并保持页面渲染完整。
+
 ### [如何在 Java 中运行 JavaScript – 完整指南](./how-to-run-javascript-in-java-complete-guide/)
 学习如何在 Java 环境中执行 JavaScript 代码，涵盖 Rhino、Nashorn 和 GraalVM 等实现。
 ### [在 Java 中设置设备像素比 – 移动沙盒教程](./set-device-pixel-ratio-in-java-mobile-sandbox-tutorial/)

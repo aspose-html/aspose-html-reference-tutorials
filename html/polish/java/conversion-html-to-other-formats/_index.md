@@ -96,6 +96,8 @@ Kompletny przewodnik krok po kroku, jak konwertować HTML do PDF w Javie przy u�
 ### [Jak skompresować PDF przy użyciu Aspose HTML to PDF – przewodnik Java](./how-to-compress-pdf-with-aspose-html-to-pdf-java-guide/)
 Dowiedz się, jak zmniejszyć rozmiar plików PDF przy użyciu Aspose.HTML for Java, zachowując wysoką jakość dokumentu.
 
+### [Konwertowanie HTML do PDF w trybie wsadowym – przewodnik Java NIO z przetwarzaniem równoległym](./convert-html-to-pdf-in-bulk-java-nio-guide-with-parallel-pro/)
+Dowiedz się, jak konwertować wiele plików HTML do PDF jednocześnie przy użyciu Java NIO i przetwarzania równoległego.
 ### [Konwertowanie HTML do PDF w Javie – Przewodnik krok po kroku z ustawieniami rozmiaru strony](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Dowiedz się, jak konwertować HTML do PDF w Javie, ustawiając rozmiar strony krok po kroku.
 ### [Konwertowanie HTML do PDF w Javie – Kompletny przewodnik z osadzaniem czcionek](./convert-html-to-pdf-in-java-complete-guide-with-font-embeddi/)
@@ -118,6 +120,8 @@ Dowiedz się, jak asynchronicznie konwertować HTML do PDF w Javie przy użyciu 
 Dowiedz się, jak przekształcić dokument HTML w zgodny z PDF/A‑2b format przy użyciu Aspose.HTML w Javie.
 ### [Wyodrębnianie dźwięku z HTML – Jak wyodrębnić multimedia i wideo](./extract-audio-from-html-how-to-extract-media-and-video/)
 Dowiedz się, jak wyodrębnić dźwięk i wideo z dokumentów HTML przy użyciu Aspose.HTML w Javie.
+### [Utwórz PDF z Markdown w Javie – Przewodnik krok po kroku](./create-pdf-from-markdown-in-java-step-by-step-guide/)
+Dowiedz się, jak przekształcić plik Markdown w wysokiej jakości PDF w Javie, korzystając z Aspose.HTML w prostych krokach.
 
 ### [Jak używać Aspose – wsadowa konwersja HTML do PDF w Javie](./how-to-use-aspose-batch-convert-html-to-pdf-in-java/)
 Dowiedz się, jak przetwarzać wiele plików HTML jednocześnie i generować PDF w Javie przy użyciu Aspose.HTML.

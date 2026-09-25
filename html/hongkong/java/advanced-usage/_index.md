@@ -149,6 +149,9 @@ A: 不需要。單一的 Aspose.HTML for Java 授權即涵蓋所有輸出格式�
 
 ### [如何載入 HTML、設定裝置 DPI 並讀取背景顏色](./how-to-load-html-set-device-dpi-read-background-color/)
 
+### [如何在 JavaScript 中使用沙盒 – 完整 Aspose.HTML 指南](./how-to-sandbox-javascript-complete-aspose-html-guide/)
+了解如何在 Aspose.HTML for Java 中使用沙盒執行 JavaScript，確保程式碼安全且不影響主應用。
+
 ---
 
 **最後更新日期：** 2025-11-29  

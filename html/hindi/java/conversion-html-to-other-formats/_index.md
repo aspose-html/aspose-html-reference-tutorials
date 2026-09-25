@@ -102,6 +102,9 @@ Aspose.HTML for Java का उपयोग करके HTML को XPS मे�
 ### [Markdown को HTML में बदलना](./convert-markdown-to-html/)
 Aspose.HTML for Java के साथ Java में Markdown को HTML में सहजता से बदलें। अपने दस्तावेज़ रूपांतरण आवश्यकताओं को सुव्यवस्थित करने के लिए हमारे चरण‑दर‑चरण गाइड का पालन करें।
 
+### [Java में Markdown से PDF बनाएं – चरण‑दर‑चरण गाइड](./create-pdf-from-markdown-in-java-step-by-step-guide/)
+Aspose.HTML for Java का उपयोग करके Markdown फ़ाइल को PDF में बदलने की पूरी प्रक्रिया सीखें।
+
 ### [SVG को इमेज में बदलना](./convert-svg-to-image/)
 Aspose.HTML के साथ Java में SVG को इमेज में कैसे बदलें सीखें। उच्च‑गुणवत्ता आउटपुट के लिए व्यापक गाइड।
 
@@ -162,6 +165,8 @@ Java में Aspose.HTML का उपयोग करके HTML को PDF/A
 
 ### [HTML से ऑडियो निकालें – मीडिया और वीडियो कैसे निकालें](./extract-audio-from-html-how-to-extract-media-and-video/)
 Aspose.HTML for Java का उपयोग करके HTML फ़ाइलों से ऑडियो, मीडिया और वीडियो को निकालने की प्रक्रिया सीखें।
+### [बड़े पैमाने पर HTML को PDF में बदलें – Java NIO गाइड साथ समानांतर प्रोसेसिंग](./convert-html-to-pdf-in-bulk-java-nio-guide-with-parallel-pro/)
+Java NIO और समानांतर प्रोसेसिंग का उपयोग करके कई HTML फ़ाइलों को एक साथ PDF में बदलने का चरण‑दर‑गाइड।
 
 ## अक्सर पूछे जाने वाले प्रश्न
 

@@ -63,6 +63,8 @@ Khám phá cách dễ dàng tải tài liệu HTML từ URL trong Java bằng As
 Học cách duyệt NodeList trong Java để đọc HTML và trích xuất thuộc tính src của ảnh trong hướng dẫn chi tiết.
 ### [Tải tài liệu HTML Java – Hướng dẫn đầy đủ với XPath & CSS](./load-html-document-java-complete-guide-with-xpath-css/)
 Hướng dẫn chi tiết cách tải tài liệu HTML trong Java, sử dụng XPath và CSS để truy vấn và thao tác nội dung.
+### [Trích xuất văn bản từ HTML trong Java – Hướng dẫn lập trình đầy đủ](./extract-text-from-html-in-java-complete-programming-guide/)
+Khám phá cách trích xuất nội dung văn bản từ tài liệu HTML trong Java bằng Aspose.HTML qua hướng dẫn chi tiết từng bước.
 ### [Tạo tài liệu HTML mới bằng Aspose.HTML cho Java](./generate-new-html-documents/)
 Tìm hiểu cách tạo tài liệu HTML mới bằng Aspose.HTML cho Java với hướng dẫn từng bước dễ dàng này. Bắt đầu tạo nội dung HTML động.
 ### [Xử lý sự kiện tải tài liệu trong Aspose.HTML cho Java](./handle-document-load-events/)

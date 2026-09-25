@@ -141,6 +141,8 @@ Leer hoe je met Aspose EPUB-bestanden naar DOCX converteert in een eenvoudige st
 Leer hoe je JavaScript asynchroon kunt uitvoeren met CompletableFuture in Java via Aspose.HTML.
 ### [Hoe HTML te laden, apparaat‑DPI in te stellen en achtergrondkleur te lezen](./how-to-load-html-set-device-dpi-read-background-color/)
 Leer hoe je HTML laadt, de apparaat‑DPI instelt en de achtergrondkleur uitleest met Aspose.HTML for Java.
+### [Hoe JavaScript te sandboxen – Complete Aspose.HTML-gids](./how-to-sandbox-javascript-complete-aspose-html-guide/)
+Leer hoe je JavaScript veilig kunt uitvoeren in een sandbox-omgeving met Aspose.HTML, stap voor stap.
 
 ---
 
