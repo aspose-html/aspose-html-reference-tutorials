@@ -109,7 +109,9 @@ Aprenda a converter HTML para PDF em C# usando Aspose.HTML e salvar o resultado 
 Aprenda a salvar arquivos HTML em um arquivo ZIP usando C# com um guia passo a passo completo.
 
 ### [HTML de arquivo único – Salvar uma página da Web como um único arquivo HTML em C#](./single-file-html-save-a-web-page-as-one-html-file-in-c/)
-Aprenda a salvar uma página da Web como um único arquivo HTML usando Aspose.HTML para .NET em C# com este tutorial passo a passo.
+
+### [Como salvar HTML como ZIP em C# usando Aspose.HTML](./how-to-save-html-as-zip-in-c-using-aspose-html/)
+Aprenda a salvar arquivos HTML em um arquivo ZIP usando C# e Aspose.HTML com este tutorial passo a passo.
 
 ## Conclusão
 

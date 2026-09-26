@@ -105,6 +105,8 @@ Aspose.HTML для .NET — это не просто библиотека; эт�
 Полное руководство по сохранению HTML в ZIP‑архив с помощью Aspose.HTML для .NET и C#.
 ### [single file html – Сохранить веб-страницу как один HTML‑файл в C#](./single-file-html-save-a-web-page-as-one-html-file-in-c/)
 Узнайте, как сохранить всю веб‑страницу в один HTML‑файл с помощью Aspose.HTML для .NET и C#.
+### [Как сохранить HTML в ZIP в C# с помощью Aspose.HTML](./how-to-save-html-as-zip-in-c-using-aspose-html/)
+Сохраните HTML в ZIP‑архив в C# с помощью Aspose.HTML.
 
 ## Заключение
 

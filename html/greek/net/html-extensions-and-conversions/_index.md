@@ -102,6 +102,9 @@ url: /el/net/html-extensions-and-conversions/
 ### [single file html – Αποθήκευση ιστοσελίδας ως ένα αρχείο HTML σε C#](./single-file-html-save-a-web-page-as-one-html-file-in-c/)
 Μάθετε πώς να αποθηκεύσετε μια ιστοσελίδα ως ένα ενιαίο αρχείο HTML χρησιμοποιώντας C# και Aspose.HTML.
 
+### [Πώς να αποθηκεύσετε HTML ως ZIP σε C# χρησιμοποιώντας Aspose.HTML](./how-to-save-html-as-zip-in-c-using-aspose-html/)
+Μάθετε πώς να αποθηκεύσετε αρχεία HTML σε αρχείο ZIP με C# και Aspose.HTML, βήμα‑βήμα οδηγός.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
