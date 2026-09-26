@@ -149,6 +149,8 @@ Dowiedz się, jak ustawić niestandardowy rozmiar strony PDF w Javie przy użyci
 Dowiedz się, jak ustawić offset podczas konwersji HTML do Markdown w Javie przy użyciu Aspose.HTML.
 ### [Konwertowanie HTML do Markdown – Kompletny przewodnik C#](./convert-html-to-markdown-complete-c-guide/)
 Dowiedz się, jak konwertować HTML do Markdown w C# przy użyciu Aspose.HTML. Przejdź krok po kroku przez proces konwersji.
+### [Jak konwertować HTML do PDF w C# – przewodnik krok po kroku](./how-to-convert-html-to-pdf-in-c-step-by-step-guide/)
+Dowiedz się, jak krok po kroku konwertować HTML do PDF w C# przy użyciu Aspose.HTML.
 ### [Utwórz stałą pulę wątków do równoległej konwersji HTML na PDF](./create-fixed-thread-pool-for-parallel-html-to-pdf-conversion/)
 Dowiedz się, jak skonfigurować stałą pulę wątków w Javie, aby równolegle konwertować wiele plików HTML do PDF przy użyciu Aspose.HTML.
 ### [Samouczek HTML do PDF: konwertuj HTML do PDF w Javie w jednej linii](./html-to-pdf-tutorial-convert-html-to-pdf-in-java-in-one-line/)

@@ -150,6 +150,9 @@ Aprenda a gerar PDFs com dimensões personalizadas a partir de HTML em Java usan
 ### [Converter HTML para PDF em Java – Guia de Pool de Threads Fixas Paralelo](./convert-html-to-pdf-in-java-parallel-fixed-thread-pool-guide/)
 ### [Como Converter SVG – Guia Completo Usando o Conversor Aspose HTML](./how-to-convert-svg-complete-guide-using-aspose-html-converte/)
 Aprenda passo a passo como converter arquivos SVG para diversos formatos usando o Aspose HTML Converter.
+### [Como converter HTML para PDF em C# – guia passo a passo](./how-to-convert-html-to-pdf-in-c-step-by-step-guide/)
+Aprenda a converter HTML para PDF em C# com instruções detalhadas passo a passo usando Aspose.HTML.
+
 ## Perguntas Frequentes
 
 **Q: Posso usar o Aspose.HTML for Java em uma aplicação comercial?**  

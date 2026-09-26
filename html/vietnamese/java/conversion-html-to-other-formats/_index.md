@@ -154,7 +154,7 @@ Hướng dẫn tạo Fixed Thread Pool trong Java để thực hiện chuyển �
 ### [Chuyển đổi HTML sang Markdown – Hướng dẫn đầy đủ C#](./convert-html-to-markdown-complete-c-guide/)
 ### [Tạo PDF Kích Thước Tùy Chỉnh từ HTML trong Java – Hướng Dẫn Đầy Đủ](./create-pdf-custom-size-from-html-in-java-full-guide/)
 Hướng dẫn chi tiết cách tạo file PDF với kích thước tùy chỉnh từ HTML trong Java bằng Aspose.HTML.
-### [Chuyển đổi HTML sang PDF trong Java chỉ một dòng](./html-to-pdf-tutorial-convert-html-to-pdf-in-java-in-one-line/)
+### [Chuyển đổi HTML sang PDF trong Java chỉ một dòng](./html-to-pdf-tutorial-convert-html-to-pdf-in-one-line/)
 Hướng dẫn nhanh cách chuyển đổi HTML sang PDF trong Java chỉ với một dòng mã, đơn giản và hiệu quả.
 ### [Tạo PDF từ HTML trong Java – Hướng dẫn từng bước](./create-pdf-from-html-in-java-step-by-step-guide/)
 Hướng dẫn chi tiết cách tạo PDF từ HTML trong Java bằng Aspose.HTML, bao gồm các bước cấu hình và tùy chỉnh.
@@ -168,9 +168,10 @@ Hướng dẫn chi tiết cách chuyển đổi SVG sang các định dạng kh�
 Hướng dẫn sử dụng Fixed Thread Pool trong Java để chuyển đổi HTML sang PDF hiệu quả với Aspose.HTML, bao gồm cấu hình và ví dụ thực tế.
 ### [Hướng dẫn HTML sang PDF: Chuyển đổi trang web sang PDF với Java](./html-to-pdf-tutorial-convert-web-pages-to-pdf-with-java/)
 Hướng dẫn chi tiết cách chuyển đổi các trang web HTML sang PDF trong Java bằng Aspose.HTML, với các bước thực hành dễ hiểu.
-
 ### [Trích xuất âm thanh từ HTML – Cách trích xuất phương tiện và video](./extract-audio-from-html-how-to-extract-media-and-video/)
 Hướng dẫn cách trích xuất âm thanh và video từ tệp HTML bằng Aspose.HTML cho Java.
+### [Cách chuyển đổi HTML sang PDF trong C# – hướng dẫn từng bước](./how-to-convert-html-to-pdf-in-c-step-by-step-guide/)
+Hướng dẫn chi tiết cách chuyển đổi HTML sang PDF trong C# bằng Aspose.HTML, từng bước một.
 
 ## Câu hỏi thường gặp
 

@@ -156,6 +156,8 @@ Aprende a convertir varios archivos HTML a PDF simultáneamente con Aspose.HTML 
 ### [Convertir HTML a PDF en lote – Guía Java NIO con procesamiento paralelo](./convert-html-to-pdf-in-bulk-java-nio-guide-with-parallel-pro/)
 Aprende a convertir múltiples archivos HTML a PDF simultáneamente usando Java NIO y procesamiento paralelo para mayor rendimiento.
 
+### [Cómo convertir HTML a PDF en C# – guía paso a paso](./how-to-convert-html-to-pdf-in-c-step-by-step-guide/)
+
 ## Preguntas Frecuentes
 
 **Q:** ¿Puedo usar Aspose.HTML para Java en una aplicación comercial?  

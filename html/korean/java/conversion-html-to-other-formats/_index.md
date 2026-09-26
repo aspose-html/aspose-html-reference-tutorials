@@ -139,6 +139,10 @@ Aspose.HTML를 사용하여 Java에서 웹 페이지를 PDF 파일로 변환하�
 
 ### [Java에서 HTML을 PDF로 만들기 – 완전 단계별 가이드](./create-pdf-from-html-in-java-complete-step-by-step-guide/)
 Aspose.HTML를 사용하여 Java에서 HTML을 PDF로 변환하는 전체 단계별 가이드를 제공합니다.
+### [HTML을 PDF로 변환 – 완전한 C# 가이드](./convert-html-to-pdf-complete-c-guide/)
+Aspose.HTML를 사용하여 C#에서 HTML을 PDF로 변환하는 전체 단계별 가이드를 제공합니다.
+### [C#에서 HTML을 PDF로 변환하는 방법 – 단계별 가이드](./how-to-convert-html-to-pdf-in-c-step-by-step-guide/)
+Aspose.HTML를 사용하여 C#에서 HTML을 PDF로 변환하는 전체 단계별 과정을 안내합니다.
 ### [HTML을 Markdown으로 변환 – 완전한 C# 가이드](./convert-html-to-markdown-complete-c-guide/)
 Aspose.HTML를 사용하여 C#에서 HTML을 Markdown으로 변환하는 전체 단계별 가이드를 제공합니다.
 ### [병렬 HTML to PDF 변환을 위한 고정 스레드 풀 생성](./create-fixed-thread-pool-for-parallel-html-to-pdf-conversion/)
