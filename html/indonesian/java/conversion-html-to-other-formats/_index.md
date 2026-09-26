@@ -168,6 +168,9 @@ Pelajari cara mengonversi banyak file HTML menjadi PDF secara batch dengan Aspos
 Pelajari cara mengekstrak audio, media, dan video dari file HTML menggunakan Aspose.HTML untuk Java.
 ### [Mengonversi HTML ke PDF secara Massal – Panduan Java NIO dengan Pemrosesan Paralel](./convert-html-to-pdf-in-bulk-java-nio-guide-with-parallel-pro/)
 
+### [Cara mengonversi HTML ke PDF di C# – panduan langkah‑demi‑langkah](./how-to-convert-html-to-pdf-in-c-step-by-step-guide/)
+Pelajari cara mengonversi HTML ke PDF di C# menggunakan Aspose.HTML dengan panduan langkah demi langkah yang mudah diikuti.
+
 ## Pertanyaan yang Sering Diajukan
 
 **Q: Bisakah saya menggunakan Aspose.HTML untuk Java dalam aplikasi komersial?**  

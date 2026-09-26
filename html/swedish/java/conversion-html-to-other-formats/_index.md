@@ -121,7 +121,7 @@ Lär dig hur du anger sidstorlek och upplösning samt sparar HTML som PDF med As
 ### [Hur du genererar PDF från Markdown i Java – Steg‑för‑steg‑guide](./how-to-generate-pdf-from-markdown-in-java-step-by-step-guide/)
 Lär dig att omvandla Markdown‑dokument till PDF i Java med Aspose.HTML i en tydlig steg‑för‑steg‑guide.
 ### [Hur man anger förskjutning vid konvertering av HTML till Markdown i Java](./how-to-set-offset-when-converting-html-to-markdown-in-java/)
-Lär dig hur du justerar offset‑värdet när du konverterar HTML till Markdown med Aspose.HTML för Java.
+Lär dig hur du justerar offset‑värdet när du konverterar HTML till Markdown med Aspose.HTML for Java.
 ### [Konvertera markdown till HTML – Java‑guide med PDF‑utdata](./convert-markdown-to-html-java-guide-with-pdf-output/)
 Lär dig hur du konverterar markdown till HTML i Java och sparar resultatet som PDF med Aspose.HTML.
 ### [Spara HTML som PDF med Java – Komplett guide med trådpool och mallar](./save-html-as-pdf-with-java-complete-guide-using-thread-pool/)
@@ -148,6 +148,9 @@ Lär dig hur du steg för steg skapar PDF från HTML i Java med Aspose.HTML.
 Lär dig steg‑för‑steg hur du konverterar SVG‑filer till olika format med Aspose HTML Converter.
 ### [Konvertera HTML till PDF med Fast Trådpool Java – Steg‑för‑Steg‑guide](./convert-html-to-pdf-with-fixed-thread-pool-java-step-by-step/)
 Lär dig hur du konverterar HTML till PDF i Java med en fast trådpool för effektiv parallell bearbetning.
+### [Hur du konverterar HTML till PDF i C# – steg‑för‑steg‑guide](./how-to-convert-html-to-pdf-in-c-step-by-step-guide/)
+Lär dig konvertera HTML till PDF i C# med en detaljerad steg‑för‑steg‑guide.
+
 ## Vanliga frågor
 
 **Q: Kan jag använda Aspose.HTML for Java i en kommersiell applikation?**  

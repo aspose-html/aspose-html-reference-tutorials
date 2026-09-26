@@ -182,22 +182,8 @@ Apprenez à générer des fichiers PDF/A‑2b conformes aux normes d'archivage �
 ### [Convertir HTML en PDF en masse – Guide Java NIO avec traitement parallèle](./convert-html-to-pdf-in-bulk-java-nio-guide-with-parallel-pro/)
 Apprenez à convertir de nombreux fichiers HTML en PDF simultanément en Java en utilisant NIO et le traitement parallèle.
 
-## Foire aux questions
-
-**Q : Puis-je utiliser Aspose.HTML for Java dans une application commerciale ?**  
-R : Oui. Une licence commerciale valide est requise pour une utilisation en production ; un essai gratuit est disponible pour l'évaluation.
-
-**Q : Quelles versions de Java sont prises en charge ?**  
-R : Aspose.HTML for Java prend en charge Java 8, 11 et les versions ultérieures.
-
-**Q : La bibliothèque gère‑t‑elle le CSS et le JavaScript externes ?**  
-R : Absolument. Le moteur traite les fichiers CSS liés et exécute le JavaScript pour garantir que le PDF correspond à la mise en page originale de la page.
-
-**Q : Quelle taille maximale peuvent avoir les fichiers HTML pour la conversion ?**  
-R : La bibliothèque est optimisée pour les documents volumineux ; cependant, la consommation de mémoire augmente avec la taille de la page, il faut donc envisager le streaming des gros fichiers d'entrée.
-
-**Q : Est‑il possible de personnaliser les métadonnées PDF lors de la conversion ?**  
-R : Oui. Vous pouvez définir le titre, l’auteur, le sujet et les mots‑clés via l’objet `PdfSaveOptions` avant l’enregistrement.
+### [Comment convertir HTML en PDF en C# – guide étape par étape](./how-to-convert-html-to-pdf-in-c-step-by-step-guide/)
+Apprenez à convertir HTML en PDF en C# avec Aspose.HTML, étape par étape.
 
 ---
 

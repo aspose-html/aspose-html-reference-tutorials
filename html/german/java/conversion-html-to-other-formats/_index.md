@@ -144,7 +144,7 @@ Erfahren Sie, wie Sie mit einem Fixed Thread Pool mehrere HTML‑zu‑PDF‑Konv
 ### [PDF mit benutzerdefinierter Größe aus HTML in Java erstellen – Vollständige Anleitung](./create-pdf-custom-size-from-html-in-java-full-guide/)
 Erfahren Sie, wie Sie PDFs mit individuellen Abmessungen aus HTML in Java generieren.
 ### [HTML‑zu‑PDF‑Tutorial: HTML in Java mit einem einzigen Aufruf in PDF konvertieren](./html-to-pdf-tutorial-convert-html-to-pdf-in-java-in-one-line/)
-Erfahren Sie, wie Sie HTML in Java mit Aspose.HTML in nur einer Zeile in PDF umwandeln.
+Erfahren Sie, wie Sie HTML in Java mit Aspose.HTML in nur einer Zeile in PDF konvertieren.
 ### [Konvertierung von Markdown zu PDF in Java – Komplettanleitung](./convert-markdown-to-pdf-in-java-complete-guide/)
 ### [HTML zu PDF in Java – Parallel Fixed Thread Pool Leitfaden](./convert-html-to-pdf-in-java-parallel-fixed-thread-pool-guide/)
 Erfahren Sie, wie Sie HTML in Java parallel mit einem Fixed Thread Pool zu PDF konvertieren.
@@ -163,6 +163,9 @@ Erfahren Sie, wie Sie mit Aspose.HTML mehrere HTML‑Dateien in Java gleichzeiti
 Erfahren Sie, wie Sie HTML‑Dokumente mit Aspose.HTML für Java in das PDF/A‑2b‑Format konvertieren, um langfristige Archivierung zu gewährleisten.
 
 ### [Audio aus HTML extrahieren – So extrahieren Sie Medien und Video](./extract-audio-from-html-how-to-extract-media-and-video/)
+
+### [HTML zu PDF in C# – Schritt‑für‑Schritt‑Anleitung](./how-to-convert-html-to-pdf-in-c-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.HTML HTML in C# zu PDF konvertieren – detaillierte Schritt‑für‑Schritt‑Anleitung.
 
 ## Häufig gestellte Fragen
 

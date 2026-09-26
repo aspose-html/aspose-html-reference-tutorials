@@ -152,6 +152,25 @@ Leer hoe u PDF-paginaformaat en resolutie instelt bij het converteren van HTML n
 Leer hoe u Markdown naar HTML converteert en direct een PDF genereert met Aspose.HTML for Java.
 ### [HTML naar PDF converteren met vaste thread‑pool Java – Stapsgewijze gids](./convert-html-to-pdf-with-fixed-thread-pool-java-step-by-step/)
 Leer hoe u met een vaste thread‑pool HTML‑bestanden efficiënt naar PDF converteert in Java met Aspose.HTML.
+### [HTML naar PDF converteren – Complete C#-gids](./convert-html-to-pdf-complete-c-guide/)
+Leer hoe u HTML naar PDF converteert in C# met Aspose.HTML, inclusief geavanceerde instellingen en voorbeelden.
+### [Hoe PDF comprimeren met Aspose HTML naar PDF – Java‑gids](./how-to-compress-pdf-with-aspose-html-to-pdf-java-guide/)
+Leer hoe u PDF‑bestanden kunt verkleinen met Aspose HTML naar PDF in Java, inclusief compressie‑opties en voorbeeldcode.
+### [Dynamische HTML naar PDF converteren met Aspose HTML voor Java](./convert-dynamic-html-pdf-with-aspose-html-for-java/)
+Leer hoe u dynamische HTML-inhoud naar PDF kunt converteren met Aspose HTML for Java, inclusief JavaScript en CSS rendering.
+### [Hoe Aspose te gebruiken – Batch HTML naar PDF converteren in Java](./how-to-use-aspose-batch-convert-html-to-pdf-in-java/)
+Leer hoe u Aspose gebruikt om HTML batch‑gewijs naar PDF te converteren in Java.
+### [Aspose HTML PDF/A Tutorial: HTML naar PDF/A‑2b converteren met Java](./aspose-html-pdf-a-tutorial-convert-html-to-pdf-a-2b-with-jav/)
+Leer hoe u met Aspose.HTML for Java HTML‑documenten omzet naar PDF/A‑2b, een ISO‑gestandaardiseerd archiefformaat.
+### [Audio extraheren uit HTML – Hoe media en video te extraheren](./extract-audio-from-html-how-to-extract-media-and-video/)
+Ontdek hoe u audio‑ en videobestanden uit HTML‑inhoud kunt halen met Aspose.HTML for Java.
+### [PDF maken vanuit Markdown in Java – Stapsgewijze gids](./create-pdf-from-markdown-in-java-step-by-step-guide/)
+
+### [HTML naar PDF converteren – Complete C#-gids](./convert-html-to-pdf-complete-c-guide/)
+Leer hoe u HTML naar PDF converteert in C# met Aspose.HTML, inclusief geavanceerde instellingen en voorbeelden.
+### [Hoe HTML naar PDF converteren in C# – stap‑voor‑stap gids](./how-to-convert-html-to-pdf-in-c-step-by-step-guide/)
+Leer hoe u HTML naar PDF converteert in C# met een gedetailleerde stap‑voor‑stap handleiding.
+
 ## Veelgestelde Vragen
 
 **V: Kan ik Aspose.HTML for Java gebruiken in een commerciële applicatie?**  

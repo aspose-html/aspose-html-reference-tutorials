@@ -132,6 +132,8 @@ Imposta le dimensioni della pagina PDF durante la conversione da HTML a PDF in J
 ### [Estrai audio da HTML – Come estrarre media e video](./extract-audio-from-html-how-to-extract-media-and-video/)
 ### [Converti HTML in PDF in blocco – Guida Java NIO con elaborazione parallela](./convert-html-to-pdf-in-bulk-java-nio-guide-with-parallel-pro/)
 
+### [Come convertire HTML in PDF in C# – guida passo‑passo](./how-to-convert-html-to-pdf-in-c-step-by-step-guide/)
+
 ## Domande frequenti
 
 **Q: Posso usare Aspose.HTML for Java in un'applicazione commerciale?**  

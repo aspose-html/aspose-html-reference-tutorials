@@ -140,22 +140,25 @@ Aspose.HTML for Java 簡化了 HTML‑to‑PDF 工作流程。請參考專屬教
 使用 Aspose.HTML for Java 在將 HTML 轉換為 Markdown 時設定偏移量的完整指南。
 ### [將 HTML 轉換為 Markdown – 完整 C# 指南](./convert-html-to-markdown-complete-c-guide/)
 了解如何使用 Aspose.HTML 在 C# 中將 HTML 轉換為 Markdown，提供完整步驟與最佳實踐。
-### [建立固定執行緒池以平行 HTML 轉 PDF 轉換](./create-fixed-thread-pool-for-parallel-html-to-pdf-conversion/)
-了解如何使用 Aspose.HTML 在 Java 中建立固定執行緒池，以平行執行 HTML 轉 PDF 的轉換。
-### [HTML 轉 PDF 教學：在 Java 中一行程式碼完成 HTML 轉 PDF](./html-to-pdf-tutorial-convert-html-to-pdf-in-java-in-one-line/)
-只需一行程式碼，即可使用 Aspose.HTML 在 Java 中將 HTML 轉換為 PDF，簡化開發流程。
-### [從 HTML 建立自訂尺寸 PDF（Java）完整指南](./create-pdf-custom-size-from-html-in-java-full-guide/)
-說明如何使用 Aspose.HTML 在 Java 中將 HTML 轉換為自訂尺寸的 PDF，提供完整步驟與範例。
-### [在 Java 中使用平行固定執行緒池將 HTML 轉換為 PDF 的指南](./convert-html-to-pdf-in-java-parallel-fixed-thread-pool-guide/)
-說明如何在 Java 中使用固定執行緒池平行化 HTML 轉 PDF 的流程，提高轉換效能。
-### [在 Java 中從 HTML 建立 PDF – 逐步指南](./create-pdf-from-html-in-java-step-by-step-guide/)
-提供使用 Aspose.HTML 在 Java 中逐步將 HTML 轉換為 PDF 的完整教學。
-### [在 Java 中將 Markdown 轉換為 PDF – 完整指南](./convert-markdown-to-pdf-in-java-complete-guide/)
-使用 Aspose.HTML for Java 將 Markdown 文件完整轉換為 PDF，提供步驟說明與最佳實踐。
-### [如何轉換 SVG – 使用 Aspose HTML 轉換器的完整指南](./how-to-convert-svg-complete-guide-using-aspose-html-converte/)
-深入說明如何使用 Aspose.HTML 將 SVG 轉換為多種格式，提供完整步驟與最佳實踐。
-### [使用固定執行緒池的 Java 將 HTML 轉換為 PDF – 步驟指南](./convert-html-to-pdf-with-fixed-thread-pool-java-step-by-step/)
-說明如何在 Java 中使用固定執行緒池進行 HTML 到 PDF 的批次轉換，提高效能與資源利用。
+### [如何在 C# 中將 HTML 轉換為 PDF – 逐步指南與字型嵌入](./convert-html-to-pdf-in-c-with-font-embeddi/)
+說明在 C# 使用 Aspose.HTML 轉換 HTML 為 PDF，並嵌入自訂字型以確保文件顯示正確。
+### [如何在 C# 中將 HTML 轉換為 PDF – 完整指南](./convert-html-to-pdf-in-c-complete-guide/)
+提供在 C# 中使用 Aspose.HTML 完整的 HTML 轉 PDF 教學，涵蓋設定與最佳實踐。
+### [如何在 C# 中將 HTML 轉換為 PDF – 非同步範例](./convert-html-to-pdf-async-c-guide/)
+說明在 C# 中使用 Aspose.HTML 以非同步方式將 HTML 轉換為 PDF 的步驟與範例。
+### [如何在 C# 中將 HTML 轉換為 PDF – 壓縮 PDF 範例](./compress-pdf-in-c-with-aspose-html/)
+展示如何在 C# 中使用 Aspose.HTML 壓縮 PDF，減少檔案大小並保持品質。
+### [如何在 C# 中將 HTML 轉換為 PDF – 批次處理指南](./batch-convert-html-to-pdf-c-guide/)
+說明在 C# 中使用 Aspose.HTML 進行批次 HTML 轉 PDF 的最佳實踐與效能優化。
+### [如何在 C# 中將 HTML 轉換為 PDF – 使用執行緒池](./convert-html-to-pdf-with-thread-pool-c/)
+說明在 C# 中使用執行緒池將 HTML 轉換為 PDF，以提升轉換效能。
+### [如何在 C# 中將 HTML 轉換為 PDF – 設定頁面大小](./set-pdf-page-size-in-c/)
+說明在 C# 中使用 Aspose.HTML 設定 PDF 頁面尺寸的完整步驟與範例。
+### [如何在 C# 中將 HTML 轉換為 PDF – 完整範例代碼](./full-sample-code-convert-html-to-pdf-c/)
+提供完整的 C# 範例代碼，示範如何使用 Aspose.HTML 將 HTML 轉換為 PDF。
+### [如何在 C# 中將 HTML 轉換為 PDF – 逐步指南](./how-to-convert-html-to-pdf-in-c-step-by-step-guide/)
+使用 Aspose.HTML 在 C# 中逐步將 HTML 轉換為 PDF，提供完整教學與範例代碼。
+
 ## 常見問題
 
 **Q: Can I use Aspose.HTML for Java in a commercial application?**  
