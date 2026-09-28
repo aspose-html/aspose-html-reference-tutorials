@@ -64,6 +64,9 @@ Ismerje meg, hogyan használhatja a FixedThreadPool-t a HTML dokumentumok párhu
 Ismerje meg, hogyan adhat hozzá új elemet a HTML body részéhez Java-ban az Aspose.HTML segítségével, lépésről lépésre.
 ### [h1 szöveg módosítása MHTML-ben Java-val – Teljes lépésről‑lépésre útmutató](./change-h1-text-in-mhtml-with-java-full-step-by-step-guide/)
 Ismerje meg, hogyan módosíthatja az MHTML fájlok h1 címkéjének szövegét Java segítségével részletes, lépésről‑lépésre útmutatóval.
+### [Új HTML elem létrehozása Java-val – Teljes Aspose.HTML útmutató](./create-new-html-element-with-java-full-aspose-html-guide/)
+Ismerje meg, hogyan hozhat létre új HTML elemet Java segítségével az Aspose.HTML teljes útmutatójában.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

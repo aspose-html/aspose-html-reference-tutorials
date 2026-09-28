@@ -67,6 +67,8 @@ Bu eğitimde, Aspose.HTML for Java kullanarak HTML öğelerini seçmeyi, öznite
 ### [Java’da CSS Nasıl Alınır – Aspose.HTML ile Hesaplanmış Stil Getirme](./how-to-get-css-in-java-retrieve-computed-style-with-aspose-h/)
 Aspose.HTML for Java kullanarak bir öğenin hesaplanmış stilini elde etmeyi ve CSS değerlerini programatik olarak okumayı öğrenin.
 
+### [Java’da CSS Nasıl Alınır – Aspose.HTML ile Stil Çıkarma Tam Kılavuzu](./how-to-get-css-in-java-complete-guide-to-extract-styles-with/)
+Aspose.HTML for Java kullanarak bir web sayfasından CSS stillerini nasıl çıkaracağınızı adım adım öğrenin.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

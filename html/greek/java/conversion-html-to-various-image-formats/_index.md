@@ -111,6 +111,8 @@ weight: 24
 ### [Πώς να ορίσετε DPI κατά τη μετατροπή SVG σε PNG με Java](./how-to-set-dpi-when-converting-svg-to-png-with-java/)
 Μάθετε πώς να ρυθμίσετε την ανάλυση DPI κατά τη μετατροπή αρχείων SVG σε PNG χρησιμοποιώντας το Aspose.HTML for Java.
 ### [Πώς να Μετατρέψετε HTML σε WebP σε Java – Πλήρης Οδηγός Βήμα‑βήμα](./how-to-convert-html-to-webp-in-java-complete-step-by-step-gu/)
+### [Πώς να Χρησιμοποιήσετε το ExecutorService για Παράλληλη Μετατροπή HTML‑σε‑PNG σε Παρτίδες](./how-to-use-executorservice-for-parallel-html-to-png-batch-co/)
+### [Πώς να χρησιμοποιήσετε το Aspose για μετατροπή SVG σε WebP – Οδηγός Java](./how-to-use-aspose-to-convert-svg-to-webp-java-guide/)
 
 ### [Πώς να αποδώσετε HTML σε PNG – Πλήρης Οδηγός για Προγραμματιστές Java](./how-to-render-html-to-png-complete-guide-for-java-developers/)
 Μάθετε πώς να αποδώσετε HTML σε PNG με Aspose.HTML for Java, βήμα‑βήμα οδηγός για προγραμματιστές Java.

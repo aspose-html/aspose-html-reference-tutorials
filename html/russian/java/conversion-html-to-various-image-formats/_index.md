@@ -107,6 +107,8 @@ weight: 24
 Подробный пошаговый гайд по рендерингу HTML‑страниц в PNG‑изображения с помощью Aspose.HTML for Java.
 
 ### [Преобразование HTML в PNG – Руководство по пакетному преобразованию](./convert-html-to-png-batch-conversion-guide/)
+### [Как использовать ExecutorService для параллельного пакетного преобразования HTML в PNG](./how-to-use-executorservice-for-parallel-html-to-png-batch-co/)
+Пошаговое руководство по использованию ExecutorService в Java для ускорения пакетного конвертирования HTML в PNG.
 
 ### [Преобразование HTML в TIFF](./convert-html-to-tiff/)
 Узнайте, как легко преобразовывать HTML в TIFF с помощью Aspose.HTML для Java. Пошаговое руководство по эффективной обработке документов.
@@ -140,6 +142,8 @@ weight: 24
 ### [Как установить DPI при конвертации SVG в PNG с Java](./how-to-set-dpi-when-converting-svg-to-png-with-java/)
 ### [Как преобразовать HTML в WebP в Java – Полное пошаговое руководство](./how-to-convert-html-to-webp-in-java-complete-step-by-step-gu/)
 ### [Преобразование SVG в GIF в Java – Полное пошаговое руководство](./svg-to-gif-conversion-in-java-complete-step-by-step-guide/)
+### [Преобразование SVG в WebP – Полное руководство Java с Aspose.HTML](./how-to-use-aspose-to-convert-svg-to-webp-java-guide/)
+Узнайте, как преобразовать SVG в WebP в Java с помощью Aspose.HTML. Полное пошаговое руководство.
 
 ## Часто задаваемые вопросы
 

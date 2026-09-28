@@ -103,6 +103,10 @@ Aspose.HTML for Java を使用して SVG を XPS に変換する方法を学び�
 Aspose.HTML for Java を使用して PDF を圧縮し、ファイルサイズを削減する手順を解説します。
 ### [JavaでHTMLをPDFに変換 – ページサイズ設定付きステップバイステップガイド](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 JavaでHTMLをPDFに変換し、ページサイズをカスタマイズする手順を詳しく解説します。
+### [JavaでHTMLをPDFに変換 – クイック Aspose.HTML ガイド](./convert-html-to-pdf-in-java-quick-aspose-html-guide/)
+
+### [JavaでHTMLをPDFに変換 – ページサイズと DPI の完全ガイド](./convert-html-to-pdf-in-java-full-guide-with-paper-size-dpi/)
+
 ### [JavaでHTMLをPDFに変換 – フォント埋め込み完全ガイド](./convert-html-to-pdf-in-java-complete-guide-with-font-embeddi/)
 フォント埋め込みを含む、Java で HTML を PDF に変換するための包括的な手順とベストプラクティスを解説します。
 ### [JavaでHTMLをPDFに変換 – 完全ステップバイステップガイド](./convert-html-to-pdf-in-java-complete-step-by-step-guide/)

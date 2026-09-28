@@ -64,6 +64,8 @@ Aprenda a usar um pool de threads fixo em Java para limpar HTML em paralelo usan
 Aprenda como adicionar um elemento filho ao corpo de um documento HTML usando Aspose.HTML para Java.
 ### [Alterar texto h1 em MHTML com Java – Guia completo passo a passo](./change-h1-text-in-mhtml-with-java-full-step-by-step-guide/)
 Aprenda a modificar o texto h1 em arquivos MHTML usando Java com este guia detalhado passo a passo.
+### [Criar novo elemento HTML com Java – Guia completo do Aspose.HTML](./create-new-html-element-with-java-full-aspose-html-guide/)
+Aprenda a criar novos elementos HTML usando Aspose.HTML para Java neste guia completo passo a passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -46,6 +46,9 @@ Soms moet u stijlen rechtstreeks in het HTML-document zelf toepassen. Dat is waa
 ## HTML-documenten bewerken in Aspose.HTML voor Java-zelfstudies
 ### [Bewerk HTML-documentboom in Aspose.HTML voor Java](./edit-html-document-tree/)
 Ontdek hoe u HTML-documenten kunt manipuleren met Aspose.HTML voor Java. Een stapsgewijze handleiding voor efficiënt contentbeheer.
+### [Nieuw HTML-element maken met Java – Volledige Aspose.HTML-gids](./create-new-html-element-with-java-full-aspose-html-guide/)
+Leer hoe u een nieuw HTML-element maakt met Java in Aspose.HTML. Een stapsgewijze handleiding voor volledige controle.
+
 ### [Geavanceerde HTML-documentboombewerking in Aspose.HTML voor Java](./advanced-html-document-tree-editing/)
 Ontdek hoe u HTML-documenten kunt bewerken met Aspose.HTML voor Java met deze stapsgewijze handleiding. Deze handleiding omvat het maken van stijlen, alinea's en het converteren naar PDF.
 ### [Externe CSS toepassen op HTML-documenten in Aspose.HTML voor Java](./apply-external-css-html-documents/)

@@ -68,6 +68,8 @@ Ismerje meg, hogyan nyerhet ki CSS‑stílusokat HTML‑dokumentumból Java‑va
 Fedezze fel, hogyan kérdezhet le HTML-t Java-ban, elemeket választhat ki, attribútumok alapján szűrhet, és kinyerheti a szövegtartalmat az Aspose.HTML használatával.
 ### [Hogyan szerezzen CSS-t Java-ban – Számított stílus lekérése az Aspose.HTML segítségével](./how-to-get-css-in-java-retrieve-computed-style-with-aspose-h/)
 Ismerje meg, hogyan kérheti le a számított CSS-stílusokat Java-ban az Aspose.HTML segítségével.
+### [Hogyan szerezzen CSS-t Java-ban – Teljes útmutató a stílusok kinyeréséhez az Aspose.HTML segítségével](./how-to-get-css-in-java-complete-guide-to-extract-styles-with/)
+Ismerje meg, hogyan nyerheti ki a CSS-stílusokat Java alkalmazásából az Aspose.HTML használatával, lépésről lépésre útmutató.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

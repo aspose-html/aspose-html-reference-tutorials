@@ -64,6 +64,8 @@ url: /el/java/editing-html-documents/
 Μάθετε πώς να προσθέσετε ένα στοιχείο child στο σώμα ενός εγγράφου HTML χρησιμοποιώντας Aspose.HTML για Java.
 ### [Αλλαγή κειμένου h1 σε MHTML με Java – Πλήρης Οδηγός Βήμα‑Βήμα](./change-h1-text-in-mhtml-with-java-full-step-by-step-guide/)
 Μάθετε πώς να αλλάξετε το κείμενο h1 σε αρχεία MHTML χρησιμοποιώντας το Aspose.HTML για Java με αυτόν τον πλήρη οδηγό βήμα‑βήμα.
+### [Δημιουργία νέου στοιχείου HTML με Java – Πλήρης οδηγός Aspose.HTML](./create-new-html-element-with-java-full-aspose-html-guide/)
+Μάθετε πώς να δημιουργήσετε ένα νέο στοιχείο HTML χρησιμοποιώντας το Aspose.HTML για Java σε έναν πλήρη βήμα-βήμα οδηγό.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

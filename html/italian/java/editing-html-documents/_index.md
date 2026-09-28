@@ -64,6 +64,8 @@ Scopri come cambiare il contenuto dell'elemento h1 in un file MHTML usando Aspos
 Scopri come utilizzare un pool di thread fisso per pulire documenti HTML in parallelo con ExecutorService in Aspose.HTML per Java.
 ### [Aggiungere un figlio al body in Java – Tutorial completo Aspose.HTML](./append-child-to-body-in-java-full-aspose-html-tutorial/)
 Scopri come aggiungere un elemento figlio al body usando Aspose.HTML per Java. Guida passo passo per manipolare il DOM.
+### [Creare un nuovo elemento HTML con Java – Guida completa Aspose.HTML](./create-new-html-element-with-java-full-aspose-html-guide/)
+Scopri come creare un nuovo elemento HTML usando Aspose.HTML per Java con questa guida completa passo passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -68,6 +68,7 @@ url: /ar/java/css-html-form-editing/
 تعلم كيفية استعلام مستندات HTML في Java باستخدام Aspose.HTML، اختيار العناصر، تصفية حسب السمة واستخراج النص.
 ### [كيفية الحصول على CSS في Java – استرجاع النمط المحسوب باستخدام Aspose.HTML](./how-to-get-css-in-java-retrieve-computed-style-with-aspose-h/)
 تعلم كيفية استخراج أنماط CSS المحسوبة لعناصر HTML في Java باستخدام مكتبة Aspose.HTML خطوة بخطوة.
+### [كيفية الحصول على CSS في Java – دليل شامل لاستخراج الأنماط باستخدام Aspose.HTML](./how-to-get-css-in-java-complete-guide-to-extract-styles-with/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

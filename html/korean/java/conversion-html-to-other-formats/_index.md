@@ -94,6 +94,10 @@ Aspose.HTML를 사용하여 Java에서 폰트를 임베드하여 HTML을 PDF로 
 Aspose.HTML를 사용하여 Java에서 HTML을 PDF로 변환하는 전체 단계별 가이드를 제공합니다.
 ### [Aspose 사용 방법 – Java에서 HTML을 배치 변환하여 PDF로 만들기](./how-to-use-aspose-batch-convert-html-to-pdf-in-java/)
 Aspose.HTML를 활용해 Java에서 여러 HTML 파일을 한 번에 PDF로 변환하는 배치 처리 방법을 안내합니다.
+### [Java에서 HTML을 PDF로 변환 – 빠른 Aspose.HTML 가이드](./convert-html-to-pdf-in-java-quick-aspose-html-guide/)
+Aspose.HTML를 사용하여 Java에서 HTML을 PDF로 빠르게 변환하는 간단 가이드입니다.
+### [Java에서 HTML을 PDF로 변환 – 페이지 크기 및 DPI 전체 가이드](./convert-html-to-pdf-in-java-full-guide-with-paper-size-dpi/)
+Aspose.HTML를 사용하여 Java에서 페이지 크기와 DPI를 지정해 HTML을 PDF로 변환하는 전체 가이드를 제공합니다.
 ### [HTML을 MHTML로 변환](./convert-html-to-mhtml/)
 Aspose.HTML for Java를 사용하여 HTML을 MHTML로 손쉽게 변환합니다. 효율적인 HTML‑to‑MHTML 변환을 위한 단계별 가이드를 따라 주세요.
 ### [HTML을 XPS로 변환](./convert-html-to-xps/)

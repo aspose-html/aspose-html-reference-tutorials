@@ -141,6 +141,11 @@ Aspose.HTML for Java を使用して SVG を PNG に変換し、DPI を設定す
 
 ### [SVG を GIF に変換 – 完全ステップバイステップガイド](./svg-to-gif-conversion-in-java-complete-step-by-step-guide/)
 
+### [SVG を WebP に変換 – Aspose を使用した Java ガイド](./how-to-use-aspose-to-convert-svg-to-webp-java-guide/)
+Aspose.HTML for Java を使用して SVG を WebP に変換します。完全な Java ガイドでステップバイステップの手順を紹介します。
+
+### [ExecutorService を使用した並列 HTML‑to‑PNG バッチ変換](./how-to-use-executorservice-for-parallel-html-to-png-batch-co/)
+
 ## よくある質問
 
 **Q: 追加の画像ライブラリなしで Java で HTML を PNG に変換できますか？**  

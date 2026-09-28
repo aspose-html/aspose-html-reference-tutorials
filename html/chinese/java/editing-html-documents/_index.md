@@ -46,6 +46,8 @@ url: /zh/java/editing-html-documents/
 ## 在 Aspose.HTML for Java 教程中编辑 HTML 文档
 ### [在 Aspose.HTML for Java 中编辑 HTML 文档树](./edit-html-document-tree/)
 了解如何使用 Aspose.HTML for Java 操作 HTML 文档。高效内容管理的分步指南。
+### [使用 Java 创建新 HTML 元素 – 完整 Aspose.HTML 指南](./create-new-html-element-with-java-full-aspose-html-guide/)
+本完整指南演示如何使用 Aspose.HTML for Java 在 HTML 文档中创建并插入新元素，实现灵活的结构编辑。
 ### [Aspose.HTML for Java 中的高级 HTML 文档树编辑](./advanced-html-document-tree-editing/)
 通过本分步指南了解如何使用 Aspose.HTML for Java 编辑 HTML 文档，包括创建样式、段落和转换为 PDF。
 ### [在 Aspose.HTML for Java 中将外部 CSS 应用于 HTML 文档](./apply-external-css-html-documents/)

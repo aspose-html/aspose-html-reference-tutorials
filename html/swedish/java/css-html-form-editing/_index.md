@@ -68,6 +68,8 @@ Lär dig hur du programatiskt extraherar CSS från HTML-dokument med Aspose.HTML
 Lär dig hur du programatiskt söker i HTML med Aspose.HTML för Java: välj element, filtrera på attribut och hämta textinnehåll.
 ### [Hur du får CSS i Java – Hämta beräknad stil med Aspose.HTML](./how-to-get-css-in-java-retrieve-computed-style-with-aspose-h/)
 Lär dig hur du programatiskt hämtar beräknade CSS‑stilar i Java med Aspose.HTML för att analysera och manipulera sidlayout.
+### [Hur man hämtar CSS i Java – Komplett guide för att extrahera stilar med Aspose.HTML](./how-to-get-css-in-java-complete-guide-to-extract-styles-with/)
+Lär dig hur du extraherar CSS‑stilar från HTML‑dokument i Java med Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

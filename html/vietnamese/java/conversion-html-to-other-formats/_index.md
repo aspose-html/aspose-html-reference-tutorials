@@ -121,6 +121,9 @@ Hướng dẫn chi tiết cách chuyển đổi tài liệu HTML sang định d�
 ### [Chuyển đổi HTML sang PDF hàng loạt – Hướng dẫn Java NIO với xử lý song song](./convert-html-to-pdf-in-bulk-java-nio-guide-with-parallel-pro/)
 Hướng dẫn cách chuyển đổi nhiều tệp HTML sang PDF đồng thời bằng Java NIO và xử lý song song để tăng hiệu suất.
 
+### [Chuyển đổi HTML sang PDF trong Java – Hướng dẫn đầy đủ với kích thước giấy & DPI](./convert-html-to-pdf-in-java-full-guide-with-paper-size-dpi/)
+Hướng dẫn toàn diện cách chuyển HTML sang PDF trong Java, bao gồm thiết lập kích thước giấy và DPI để đạt chất lượng tối ưu.
+
 ### [Chuyển đổi HTML sang MHTML](./convert-html-to-mhtml/)
 Chuyển đổi HTML sang MHTML một cách dễ dàng bằng Aspose.HTML for Java. Thực hiện theo hướng dẫn từng bước để chuyển đổi HTML‑to‑MHTML hiệu quả.
 ### [Chuyển đổi HTML sang XPS](./convert-html-to-xps/)
@@ -171,6 +174,9 @@ Hướng dẫn chi tiết cách chuyển đổi các trang web HTML sang PDF tro
 
 ### [Trích xuất âm thanh từ HTML – Cách trích xuất phương tiện và video](./extract-audio-from-html-how-to-extract-media-and-video/)
 Hướng dẫn cách trích xuất âm thanh và video từ tệp HTML bằng Aspose.HTML cho Java.
+
+### [Chuyển đổi HTML sang PDF trong Java – Hướng dẫn nhanh Aspose.HTML](./convert-html-to-pdf-in-java-quick-aspose-html-guide/)
+Hướng dẫn nhanh cách chuyển đổi HTML sang PDF trong Java bằng Aspose.HTML.
 
 ## Câu hỏi thường gặp
 

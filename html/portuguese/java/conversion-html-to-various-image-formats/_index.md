@@ -127,6 +127,10 @@ Aprenda a converter HTML para WebP em Java usando Aspose.HTML. Guia passo a pass
 Aprenda a converter HTML para WebP em Java usando Aspose.HTML. Guia completo passo a passo para gerar imagens WebP de alta qualidade.
 ### [Conversão de SVG para GIF em Java – Guia Completo Passo a Passo](./svg-to-gif-conversion-in-java-complete-step-by-step-guide/)
 Aprenda a converter SVG para GIF em Java usando Aspose.HTML. Guia passo a passo completo para conversão eficiente de SVG para GIF.
+### [Como usar Aspose para converter SVG para WebP – Guia Java](./how-to-use-aspose-to-convert-svg-to-webp-java-guide/)
+Aprenda a converter SVG para WebP em Java usando Aspose.HTML. Guia passo a passo para gerar imagens WebP de alta qualidade a partir de SVG.
+### [Como Usar ExecutorService para Conversão em Lote Paralela de HTML para PNG](./how-to-use-executorservice-for-parallel-html-to-png-batch-co/)
+Aprenda a usar ExecutorService para converter HTML em PNG em lote de forma paralela com Aspose.HTML for Java.
 
 ## Perguntas Frequentes
 

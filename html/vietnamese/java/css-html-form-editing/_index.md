@@ -67,6 +67,8 @@ Hướng dẫn chi tiết cách trích xuất CSS từ tài liệu HTML bằng A
 Hướng dẫn chi tiết cách truy vấn HTML trong Java, chọn phần tử, lọc theo thuộc tính và lấy nội dung văn bản bằng Aspose.HTML.
 ### [Cách lấy CSS trong Java – Truy xuất kiểu đã tính toán với Aspose.HTML](./how-to-get-css-in-java-retrieve-computed-style-with-aspose-h/)
 Hướng dẫn cách lấy CSS đã tính toán trong Java bằng Aspose.HTML, giúp bạn truy cập và sử dụng các thuộc tính kiểu một cách dễ dàng.
+### [Cách lấy CSS trong Java – Hướng dẫn đầy đủ để trích xuất kiểu dáng với Aspose.HTML](./how-to-get-css-in-java-complete-guide-to-extract-styles-with/)
+Hướng dẫn chi tiết cách trích xuất CSS từ tài liệu HTML trong Java bằng Aspose.HTML, bao gồm các ví dụ thực tế.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

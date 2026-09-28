@@ -64,6 +64,9 @@ Learn how to change the h1 text in MHTML files using Aspose.HTML for Java with t
 Learn how to use a fixed thread pool and ExecutorService in Java to clean HTML content in parallel efficiently.
 ### [append child to body in Java – Full Aspose.HTML Tutorial](./append-child-to-body-in-java-full-aspose-html-tutorial/)
 Learn how to append a child element to the body using Aspose.HTML for Java in this comprehensive tutorial.
+### [Create new html element with Java – Full Aspose.HTML Guide](./create-new-html-element-with-java-full-aspose-html-guide/)
+Learn how to create new HTML elements using Aspose.HTML for Java in this comprehensive step-by-step guide.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

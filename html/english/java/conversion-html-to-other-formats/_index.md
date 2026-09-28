@@ -94,6 +94,10 @@ Learn how to compress PDF files using Aspose.HTML for Java, reducing size while 
 Async guide for converting HTML to PDF in Java using Aspose.HTML, enabling non‑blocking operations and improved performance.
 ### [Convert HTML to PDF in Bulk – Java NIO Guide with Parallel Processing](./convert-html-to-pdf-in-bulk-java-nio-guide-with-parallel-pro/)
 Learn how to batch convert HTML files to PDF using Java NIO and parallel processing for fast, efficient bulk conversions.
+### [Convert HTML to PDF in Java – Quick Aspose.HTML Guide](./convert-html-to-pdf-in-java-quick-aspose-html-guide/)
+A fast‑track guide to converting HTML to PDF in Java using Aspose.HTML, covering essential steps for quick implementation.
+### [Convert HTML to PDF in Java – Full Guide with Paper Size & DPI](./convert-html-to-pdf-in-java-full-guide-with-paper-size-dpi/)
+Comprehensive guide covering PDF conversion with custom paper sizes and DPI settings using Aspose.HTML for Java.
 ### [Converting HTML to MHTML](./convert-html-to-mhtml/)
 Effortlessly convert HTML to MHTML using Aspose.HTML for Java. Follow our step-by-step guide for efficient HTML-to-MHTML conversion.
 

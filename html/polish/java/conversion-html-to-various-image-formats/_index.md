@@ -109,6 +109,8 @@ Dowiedz się, jak przy użyciu Aspose.HTML for Java wygenerować miniaturkę str
 Dowiedz się, jak ustawić własny rozmiar viewportu przy renderowaniu HTML do PNG w Javie przy użyciu Aspose.HTML.
 ### [Jak ustawić DPI przy konwertowaniu SVG do PNG w Javie](./how-to-set-dpi-when-converting-svg-to-png-with-java/)
 Dowiedz się, jak ustawić DPI podczas konwersji SVG do PNG w Javie przy użyciu Aspose.HTML.
+### [Jak używać ExecutorService do równoległej konwersji wsadowej HTML‑do‑PNG](./how-to-use-executorservice-for-parallel-html-to-png-batch-co/)
+Dowiedz się, jak przyspieszyć konwersję wielu plików HTML do PNG przy użyciu ExecutorService w Javie.
 
 ### [Converting HTML to TIFF](./convert-html-to-tiff/)
 Dowiedz się, jak łatwo konwertować HTML do TIFF przy użyciu Aspose.HTML for Java. Przewodnik krok po kroku dla efektywnego zarządzania dokumentami.
@@ -141,6 +143,8 @@ Dowiedz się, jak konwertować HTML do formatu WebP w Javie przy użyciu Aspose.
 Dowiedz się, jak konwertować HTML do formatu WebP w Javie przy użyciu Aspose.HTML. Szczegółowy przewodnik krok po kroku.
 ### [Konwersja SVG do GIF w Javie – Kompletny przewodnik krok po kroku](./svg-to-gif-conversion-in-java-complete-step-by-step-guide/)
 Dowiedz się, jak przekształcić pliki SVG w animowane GIFy w Javie przy użyciu Aspose.HTML, krok po kroku.
+### [Jak używać Aspose do konwersji SVG na WebP – przewodnik Java](./how-to-use-aspose-to-convert-svg-to-webp-java-guide/)
+Dowiedz się, jak konwertować pliki SVG do formatu WebP w Javie przy użyciu Aspose.HTML.
 
 ## Najczęściej zadawane pytania
 

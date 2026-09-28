@@ -64,6 +64,8 @@ Naučte se, jak využít fixní pool vláken v Javě k paralelnímu čištění 
 Objevte, jak přidat prvek jako potomka do těla HTML dokumentu v Javě pomocí Aspose.HTML. Kompletní průvodce krok za krokem.
 ### [Změna textu h1 v MHTML pomocí Javy – Kompletní krok‑za‑krokem průvodce](./change-h1-text-in-mhtml-with-java-full-step-by-step-guide/)
 Naučte se, jak změnit text h1 v souboru MHTML pomocí Aspose.HTML pro Javu v podrobném průvodci.
+### [Vytvořte nový HTML prvek v Javě – Kompletní průvodce Aspose.HTML](./create-new-html-element-with-java-full-aspose-html-guide/)
+Naučte se, jak vytvořit nový HTML element pomocí Aspose.HTML v Javě s podrobným návodem krok za krokem.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

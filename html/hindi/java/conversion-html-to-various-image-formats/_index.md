@@ -104,6 +104,9 @@ Aspose.HTML for Java का उपयोग करके HTML को TIFF मे
 ### [HTML को WebP में बदलना](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
 Aspose.HTML for Java का उपयोग करके HTML को WebP इमेज में बदलने के चरण‑दर‑चरण निर्देश।
 
+### [Aspose का उपयोग करके SVG को WebP में बदलना – Java गाइड](./how-to-use-aspose-to-convert-svg-to-webp-java-guide/)
+Aspose.HTML for Java के साथ SVG को WebP इमेज में बदलने के चरण‑दर‑चरण निर्देश।
+
 ### [Java में HTML को WebP में कैसे बदलें – पूरी चरण‑दर‑स्टेप गाइड](./how-to-convert-html-to-webp-in-java-complete-step-by-step-gu/)
 Aspose.HTML for Java का उपयोग करके HTML को WebP इमेज में बदलने के विस्तृत चरण‑दर‑स्टेप निर्देश।
 

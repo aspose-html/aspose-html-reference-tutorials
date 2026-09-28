@@ -92,6 +92,8 @@ Java में Aspose.HTML का उपयोग करके HTML को PDF �
 Aspose.HTML for Java के साथ फ़ॉन्ट एम्बेडिंग सहित HTML को PDF में बदलने की पूरी प्रक्रिया सीखें।
 ### [Aspose HTML के साथ HTML को PDF में कैसे बदलें – असिंक्रोनस जावा गाइड](./how-to-convert-html-to-pdf-with-aspose-html-async-java-guide/)
 Aspose HTML का उपयोग करके असिंक्रोनस जावा में HTML को PDF में बदलने के चरण‑दर‑चरण निर्देश।
+### [Java में HTML को PDF में बदलना – त्वरित Aspose.HTML गाइड](./convert-html-to-pdf-in-java-quick-aspose-html-guide/)
+Aspose.HTML का उपयोग करके Java में तेज़ी से HTML को PDF में बदलने के चरण‑दर‑चरण निर्देश।
 
 ### [HTML को MHTML में बदलना](./convert-html-to-mhtml/)
 Aspose.HTML for Java का उपयोग करके HTML को MHTML में आसानी से बदलें। कुशल HTML‑to‑MHTML रूपांतरण के लिए हमारे चरण‑दर‑चरण गाइड का पालन करें।
@@ -167,6 +169,8 @@ Java में Aspose.HTML का उपयोग करके HTML को PDF/A
 Aspose.HTML for Java का उपयोग करके HTML फ़ाइलों से ऑडियो, मीडिया और वीडियो को निकालने की प्रक्रिया सीखें।
 ### [बड़े पैमाने पर HTML को PDF में बदलें – Java NIO गाइड साथ समानांतर प्रोसेसिंग](./convert-html-to-pdf-in-bulk-java-nio-guide-with-parallel-pro/)
 Java NIO और समानांतर प्रोसेसिंग का उपयोग करके कई HTML फ़ाइलों को एक साथ PDF में बदलने का चरण‑दर‑गाइड।
+### [Java में HTML को PDF में बदलें – पेज आकार और DPI के साथ पूर्ण गाइड](./convert-html-to-pdf-in-java-full-guide-with-paper-size-dpi/)
+Aspose.HTML का उपयोग करके Java में पेज आकार और DPI सेटिंग्स के साथ HTML को PDF में बदलने का विस्तृत चरण‑दर‑चरण गाइड।
 
 ## अक्सर पूछे जाने वाले प्रश्न
 

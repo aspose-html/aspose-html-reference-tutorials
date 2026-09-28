@@ -60,6 +60,8 @@ url: /zh-hant/java/editing-html-documents/
 透過我們簡單的逐步教程，學習使用 Aspose.HTML for Java 在 HTML 文件中實現內部 CSS。
 ### [使用 Java 在 MHTML 中更改 h1 文本 – 完整步驟指南](./change-h1-text-in-mhtml-with-java-full-step-by-step-guide/)
 本指南逐步說明如何使用 Aspose.HTML for Java 在 MHTML 文件中修改 h1 標題文字。
+### [使用 Java 建立新 HTML 元素 – 完整 Aspose.HTML 指南](./create-new-html-element-with-java-full-aspose-html-guide/)
+了解如何使用 Aspose.HTML for Java 在 HTML 文件中建立新元素，並將其轉換為 PDF 的完整步驟指南。
 ### [固定執行緒池 Java – 使用 ExecutorService 進行平行 HTML 清理](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 ### [在 Java 中向 body 附加子節點 – 完整 Aspose.HTML 教程](./append-child-to-body-in-java-full-aspose-html-tutorial/)
 了解如何在 Java 中使用 Aspose.HTML 向 HTML 文檔的 body 添加子元素的完整步驟。

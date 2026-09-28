@@ -67,6 +67,7 @@ Leer hoe u CSS‑stijlen uit HTML‑documenten kunt extraheren met Aspose.HTML v
 Leer hoe u HTML kunt doorzoeken in Java, elementen selecteert, filtert op attributen en tekstinhoud verkrijgt met Aspose.HTML.
 ### [Hoe CSS in Java op te halen – Computed Style ophalen met Aspose.HTML](./how-to-get-css-in-java-retrieve-computed-style-with-aspose-h/)
 Leer hoe u met Aspose.HTML voor Java de berekende CSS‑stijlen van een element kunt ophalen en gebruiken in uw applicatie.
+### [Hoe CSS op te halen in Java – Complete gids om stijlen te extraheren met Aspose.HTML](./how-to-get-css-in-java-complete-guide-to-extract-styles-with/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -69,6 +69,8 @@ Java와 Aspose.HTML을 사용하여 HTML 문서에서 CSS를 추출하는 방법
 Java용 Aspose.HTML을 사용해 HTML을 쿼리하고, 요소를 선택하고, 속성으로 필터링하며, 텍스트 내용을 추출하는 방법을 단계별로 안내합니다.
 ### [Java에서 CSS 가져오기 – Aspose.HTML을 사용한 계산된 스타일 검색](./how-to-get-css-in-java-retrieve-computed-style-with-aspose-h/)
 Aspose.HTML for Java를 사용해 현재 적용된 CSS 스타일을 프로그래밍 방식으로 가져오는 방법을 단계별로 안내합니다.
+### [Java에서 CSS 가져오기 – Aspose.HTML을 사용한 스타일 추출 완전 가이드](./how-to-get-css-in-java-complete-guide-to-extract-styles-with/)
+Aspose.HTML을 활용해 Java에서 웹 페이지의 CSS 스타일을 추출하고 활용하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -69,6 +69,8 @@ Pelajari cara mengekstrak CSS dari dokumen HTML menggunakan Java dengan panduan 
 Pelajari cara mengeksekusi query HTML di Java, memilih elemen, memfilter berdasarkan atribut, dan mengambil teks konten secara efisien.
 ### [Cara Mendapatkan CSS di Java – Mengambil Gaya Terhitung dengan Aspose.HTML](./how-to-get-css-in-java-retrieve-computed-style-with-aspose-h/)
 Pelajari cara mengambil CSS terhitung pada elemen HTML di Java menggunakan Aspose.HTML dalam panduan praktis ini.
+### [Cara Mendapatkan CSS di Java – Panduan Lengkap untuk Mengekstrak Gaya dengan Aspose.HTML](./how-to-get-css-in-java-complete-guide-to-extract-styles-with/)
+Pelajari cara mengekstrak CSS dari dokumen HTML di Java menggunakan Aspose.HTML dalam panduan lengkap ini.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

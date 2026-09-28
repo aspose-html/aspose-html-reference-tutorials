@@ -64,6 +64,8 @@ Erfahren Sie, wie Sie mit einem Fixed Thread Pool und ExecutorService HTML-Dokum
 Erfahren Sie, wie Sie mit Aspose.HTML für Java ein Kind-Element zum Body hinzufügen und das Dokument weiter verarbeiten.
 ### [Ändern Sie den h1-Text in MHTML mit Java – Vollständige Schritt‑für‑Schritt‑Anleitung](./change-h1-text-in-mhtml-with-java-full-step-by-step-guide/)
 Erfahren Sie, wie Sie den h1-Text in MHTML-Dateien mit Aspose.HTML für Java ändern – detaillierte Schritt‑für‑Schritt‑Anleitung.
+### [Neues HTML-Element mit Java erstellen – Vollständige Aspose.HTML-Anleitung](./create-new-html-element-with-java-full-aspose-html-guide/)
+Erfahren Sie, wie Sie mit Aspose.HTML für Java ein neues HTML-Element erstellen – Schritt-für-Schritt-Anleitung.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

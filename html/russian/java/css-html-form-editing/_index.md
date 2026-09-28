@@ -48,6 +48,7 @@ url: /ru/java/css-html-form-editing/
 Узнайте, как выполнять запросы к HTML в Java, выбирать элементы, фильтровать их по атрибутам и получать текстовое содержимое.
 ### [Как получить CSS в Java – извлечение вычисленного стиля с Aspose.HTML](./how-to-get-css-in-java-retrieve-computed-style-with-aspose-h/)
 Узнайте, как программно получить вычисленные стили CSS элементов в Java с помощью Aspose.HTML.
+### [Как получить CSS в Java – Полное руководство по извлечению стилей с Aspose.HTML](./how-to-get-css-in-java-complete-guide-to-extract-styles-with/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

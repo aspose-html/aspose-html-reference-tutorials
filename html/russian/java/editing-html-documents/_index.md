@@ -64,6 +64,8 @@ url: /ru/java/editing-html-documents/
 Узнайте, как изменить текст h1 в MHTML с помощью Java, следуя полному пошаговому руководству.
 ### [Фиксированный пул потоков Java – Параллельная очистка HTML с помощью ExecutorService](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 Узнайте, как использовать фиксированный пул потоков и ExecutorService для параллельной очистки HTML в Java.
+### [Создание нового HTML-элемента с Java – Полное руководство Aspose.HTML](./create-new-html-element-with-java-full-aspose-html-guide/)
+Узнайте, как создавать новые HTML-элементы в Java с помощью Aspose.HTML. Пошаговое полное руководство.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

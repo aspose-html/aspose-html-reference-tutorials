@@ -96,6 +96,8 @@ Erfahren Sie, wie Sie mit Aspose.HTML for Java HTML in hochwertige PNG‑Bilder 
 Erfahren Sie, wie Sie mit Aspose.HTML for Java HTML in PNG rendern und dabei einen benutzerdefinierten Viewport festlegen.
 ### [HTML in PNG konvertieren – Batch‑Konvertierungs‑Leitfaden](./convert-html-to-png-batch-conversion-guide/)
 Erfahren Sie, wie Sie mehrere HTML‑Dateien effizient in PNG‑Bilder umwandeln – Schritt‑für‑Schritt‑Anleitung für Batch‑Verarbeitung.
+### [Wie man ExecutorService für parallele HTML‑zu‑PNG‑Batch‑Konvertierung verwendet](./how-to-use-executorservice-for-parallel-html-to-png-batch-co/)
+Erfahren Sie, wie Sie mit ExecutorService mehrere HTML‑Dateien gleichzeitig in PNG‑Bilder konvertieren, um die Verarbeitungsgeschwindigkeit zu erhöhen.
 ### [HTML in TIFF konvertieren](./convert-html-to-tiff/)
 Erfahren Sie, wie Sie HTML einfach mit Aspose.HTML for Java in TIFF konvertieren. Schritt‑für‑Schritt‑Leitfaden für effiziente Dokumentenverarbeitung.
 ### [HTML in WebP konvertieren](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
@@ -129,6 +131,8 @@ Erfahren Sie, wie Sie die DPI‑Einstellung beim Rendern von SVG zu PNG mit Aspo
 Erfahren Sie, wie Sie HTML mit Aspose.HTML for Java in das WebP‑Format konvertieren – vollständige Schritt‑für‑Schritt‑Anleitung.
 ### [SVG in GIF konvertieren in Java – Vollständige Schritt‑für‑Schritt‑Anleitung](./svg-to-gif-conversion-in-java-complete-step-by-step-guide/)
 Erfahren Sie, wie Sie SVG mit Aspose.HTML for Java in GIF konvertieren – ein umfassender Schritt‑für‑Schritt‑Leitfaden.
+### [Wie man Aspose verwendet, um SVG in WebP zu konvertieren – Java‑Guide](./how-to-use-aspose-to-convert-svg-to-webp-java-guide/)
+Erfahren Sie, wie Sie mit Aspose.HTML for Java SVG‑Grafiken in das moderne WebP‑Format konvertieren – Schritt‑für‑Schritt‑Anleitung.
 
 ## Häufig gestellte Fragen
 

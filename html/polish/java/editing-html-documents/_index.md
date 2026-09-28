@@ -63,6 +63,9 @@ Dowiedz się, jak zmienić tekst elementu h1 w pliku MHTML przy użyciu Aspose.H
 
 ### [Fixed thread pool Java – równoległe czyszczenie HTML przy użyciu ExecutorService](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 Dowiedz się, jak używać Fixed Thread Pool w Javie do równoległego czyszczenia HTML przy pomocy ExecutorService.
+### [Utwórz nowy element HTML w Javie – Pełny przewodnik Aspose.HTML](./create-new-html-element-with-java-full-aspose-html-guide/)
+Dowiedz się, jak w Javie utworzyć nowy element HTML przy użyciu Aspose.HTML, krok po kroku, z przykładami i konwersją do PDF.
+
 ### [Dodaj element potomny do body w Javie – pełny samouczek Aspose.HTML](./append-child-to-body-in-java-full-aspose-html-tutorial/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 

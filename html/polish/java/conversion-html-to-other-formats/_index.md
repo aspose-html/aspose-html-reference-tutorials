@@ -102,6 +102,10 @@ Dowiedz się, jak konwertować wiele plików HTML do PDF jednocześnie przy uży
 Dowiedz się, jak konwertować HTML do PDF w Javie, ustawiając rozmiar strony krok po kroku.
 ### [Konwertowanie HTML do PDF w Javie – Kompletny przewodnik z osadzaniem czcionek](./convert-html-to-pdf-in-java-complete-guide-with-font-embeddi/)
 Dowiedz się, jak osadzać własne czcionki przy konwersji HTML do PDF w Javie przy użyciu Aspose.HTML, aby zapewnić prawidłowe renderowanie tekstu.
+### [Konwertowanie HTML do PDF w Javie – Szybki przewodnik Aspose.HTML](./convert-html-to-pdf-in-java-quick-aspose-html-guide/)
+Szybki przewodnik, jak w kilku krokach przekształcić HTML w PDF w Javie przy użyciu Aspose.HTML.
+### [Konwertowanie HTML do PDF w Javie – Pełny przewodnik z rozmiarem papieru i DPI](./convert-html-to-pdf-in-java-full-guide-with-paper-size-dpi/)
+Kompletny przewodnik konwersji HTML do PDF w Javie, obejmujący ustawienia rozmiaru strony i DPI dla wysokiej jakości wyników.
 ### [Converting HTML to MHTML](./convert-html-to-mhtml/)
 Effortlessly convert HTML to MHTML using Aspose.HTML for Java. Follow our step-by-step guide for efficient HTML-to-MHTML conversion.
 ### [Converting HTML to XPS](./convert-html-to-xps/)

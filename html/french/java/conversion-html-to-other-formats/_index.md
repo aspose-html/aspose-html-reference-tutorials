@@ -118,6 +118,12 @@ Apprenez à définir la taille de page, la résolution et à enregistrer du HTML
 ### [Convertir HTML en PDF en Java – Guide complet étape par étape](./convert-html-to-pdf-in-java-complete-step-by-step-guide/)
 Suivez ce guide complet pour convertir HTML en PDF en Java, avec toutes les étapes détaillées pour une conversion précise.
 
+### [Convertir HTML en PDF en Java – Guide rapide Aspose.HTML](./convert-html-to-pdf-in-java-quick-aspose-html-guide/)
+Guide rapide pour convertir HTML en PDF en Java avec Aspose.HTML, incluant les étapes essentielles.
+
+### [Convertir HTML en PDF en Java – Guide complet avec taille de papier et DPI](./convert-html-to-pdf-in-java-full-guide-with-paper-size-dpi/)
+Guide complet pour convertir HTML en PDF en Java, incluant la configuration de la taille de page et du DPI pour un rendu optimal.
+
 ### [Converting HTML to MHTML](./convert-html-to-mhtml/)
 Convertissez facilement HTML en MHTML avec Aspose.HTML for Java. Suivez notre guide étape par étape pour une conversion HTML‑vers‑MHTML efficace.
 ### [Converting HTML to XPS](./convert-html-to-xps/)
