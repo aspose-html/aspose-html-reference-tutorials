@@ -23,7 +23,7 @@ title: Cómo comprimir HTML en C# – Tutorial de manejador de recursos personal
 url: /es/net/html-extensions-and-conversions/how-to-zip-html-in-c-custom-resource-handler-tutorial/
 ---
 
-Now produce final answer with only translated content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

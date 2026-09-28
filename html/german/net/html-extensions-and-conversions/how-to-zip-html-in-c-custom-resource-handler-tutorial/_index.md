@@ -24,10 +24,6 @@ title: Wie man HTML in C# zippt â€“ Tutorial zum benutzerdefinierten Ressourcenâ
 url: /de/net/html-extensions-and-conversions/how-to-zip-html-in-c-custom-resource-handler-tutorial/
 ---
 
-.
-
-Let's write.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

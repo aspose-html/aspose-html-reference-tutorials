@@ -22,14 +22,6 @@ title: C#でHTMLをZIPする方法 – カスタムリソースハンドラチ�
 url: /ja/net/html-extensions-and-conversions/how-to-zip-html-in-c-custom-resource-handler-tutorial/
 ---
 
-.
-
-Make sure code block placeholders remain unchanged.
-
-Also preserve blockquotes >.
-
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

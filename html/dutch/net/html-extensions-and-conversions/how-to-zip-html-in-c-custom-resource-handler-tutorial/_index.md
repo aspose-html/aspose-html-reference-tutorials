@@ -23,14 +23,6 @@ title: Hoe HTML te zippen in C# – Tutorial voor aangepaste resourcehandler
 url: /nl/net/html-extensions-and-conversions/how-to-zip-html-in-c-custom-resource-handler-tutorial/
 ---
 
-". "Step 1 – Create the HTML Document (How to Zip HTML)" -> "Stap 1 – Maak het HTML-document (Hoe HTML te zippen)". etc.
-
-Make sure to keep code block placeholders unchanged.
-
-Also blockquote > lines need translation.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

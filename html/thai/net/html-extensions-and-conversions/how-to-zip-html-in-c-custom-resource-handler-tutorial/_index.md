@@ -23,15 +23,7 @@ title: วิธีบีบอัด HTML ด้วย C# – บทแนะ�
 url: /th/net/html-extensions-and-conversions/how-to-zip-html-in-c-custom-resource-handler-tutorial/
 ---
 
-- "Conclusion" etc.
-
-- final paragraph.
-
-Make sure to keep markdown formatting: headings (#, ##, ###), blockquote >, bullet lists *, etc.
-
-Also keep code block placeholders unchanged.
-
-Let's produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

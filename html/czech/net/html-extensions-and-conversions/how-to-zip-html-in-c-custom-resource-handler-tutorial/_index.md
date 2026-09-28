@@ -23,10 +23,6 @@ title: Jak zipovat HTML v C# – Tutoriál o vlastním handleru zdrojů
 url: /cs/net/html-extensions-and-conversions/how-to-zip-html-in-c-custom-resource-handler-tutorial/
 ---
 
-.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

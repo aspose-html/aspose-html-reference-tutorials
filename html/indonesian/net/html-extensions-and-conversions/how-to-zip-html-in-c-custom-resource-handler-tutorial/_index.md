@@ -23,16 +23,6 @@ title: Cara Meng-zip HTML di C# – Tutorial Penangan Sumber Daya Kustom
 url: /id/net/html-extensions-and-conversions/how-to-zip-html-in-c-custom-resource-handler-tutorial/
 ---
 
-.
-
-Make sure not to translate code inside code blocks (they are placeholders). So only translate surrounding text.
-
-Also keep markdown links unchanged (none present except maybe none). There is a link? No.
-
-Now produce final translation.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

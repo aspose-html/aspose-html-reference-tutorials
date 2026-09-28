@@ -23,18 +23,6 @@ title: Come comprimere HTML in C# – Tutorial sul gestore di risorse personaliz
 url: /it/net/html-extensions-and-conversions/how-to-zip-html-in-c-custom-resource-handler-tutorial/
 ---
 
-the shortcodes at top and bottom unchanged. Also keep code block placeholders unchanged.
-
-We need to translate headings, paragraphs, list items, blockquotes, etc.
-
-Let's produce the translated version.
-
-Be careful with markdown links: there are none except maybe in the text? There's no markdown link. There's a code block placeholder, not actual code. Keep them.
-
-Also note "⚠️" etc not needed.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

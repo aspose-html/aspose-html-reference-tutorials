@@ -23,9 +23,7 @@ title: C#'ta HTML Nasıl Sıkıştırılır – Özel Kaynak İşleyici Öğreti
 url: /tr/net/html-extensions-and-conversions/how-to-zip-html-in-c-custom-resource-handler-tutorial/
 ---
 
-exactly.
-
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
