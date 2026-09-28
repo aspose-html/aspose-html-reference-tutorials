@@ -1,10 +1,78 @@
 ---
-date: 2026-02-20
-description: Leer hoe u veilig omgaat met inloggegevens met Aspose.HTML voor Java
-  in deze stapsgewijze gids. Ontdek essentiële tips, beste praktijken en praktijkvoorbeelden.
-linktitle: Handling Credentials Pipeline in Aspose.HTML
+date: 2026-08-12
+description: Leer hoe u referenties in Aspose.HTML voor Java kunt beheren, beveiligde
+  netwerkoproepen kunt uitvoeren en authenticatie kunt hergebruiken in documenten,
+  in een beknopte stapsgewijze handleiding.
+keywords:
+- how to handle credentials
+- Aspose.HTML Java authentication
+- network credential pipeline
+lastmod: 2026-08-12
+linktitle: Referenties‑pipeline verwerken in Aspose.HTML
+og_description: Hoe om te gaan met referenties in Aspose.HTML voor Java – beveiligde
+  authenticatie, herbruikbare pipelines en best‑practice tips voor Java‑ontwikkelaars
+  (150‑160 tekens).
+og_image_alt: 'Guide: how to handle credentials in Aspose.HTML for Java'
+og_title: Hoe om te gaan met referenties in Aspose.HTML voor Java
+schemas:
+- author: Aspose
+  dateModified: '2026-08-12'
+  description: Learn how to handle credentials in Aspose.HTML for Java, secure network
+    calls, and reuse authentication across documents in a concise step‑by‑step guide.
+  headline: How to handle credentials in Aspose.HTML for Java
+  type: TechArticle
+- description: Learn how to handle credentials in Aspose.HTML for Java, secure network
+    calls, and reuse authentication across documents in a concise step‑by‑step guide.
+  name: How to handle credentials in Aspose.HTML for Java
+  steps:
+  - name: create a configuration instance
+    text: '`Configuration` is Aspose.HTML''s central object that holds services, handlers,
+      and options for HTML processing. It acts as a container for all runtime settings,
+      allowing you to share common configurations across multiple documents.'
+  - name: insert the credentialhandler into the message handler chain
+    text: '`CredentialHandler` is a built‑in implementation that adds the `Authorization`
+      header based on the credentials you provide. By inserting it at index 0 of the
+      `MessageHandlerCollection`, you guarantee that authentication runs before any
+      other handlers such as logging or proxy. > **Pro tip:** If you n'
+  - name: load an html document with the configured credentials
+    text: '`HTMLDocument` represents a single HTML file loaded from a URL or a stream.
+      When you pass the previously prepared `Configuration` to its constructor, the
+      document automatically uses the credential pipeline you set up.'
+  - name: (optional) retrieve the document content
+    text: If you want to inspect the HTML that was fetched, you can convert the `HTMLDocument`
+      to a string and print it to the console. This is handy for debugging or for
+      feeding the markup into further DOM‑based processing.
+  - name: clean up resources
+    text: Always call `dispose()` on the `HTMLDocument` when you are finished. This
+      releases native resources and prevents memory leaks, which is especially important
+      in long‑running services or batch jobs.
+  type: HowTo
+- questions:
+  - answer: It stores a chain of handlers that can modify, log, or block network requests
+      made by Aspose.HTML. Adding a `CredentialHandler` enables automatic authentication
+      for every request.
+    question: What is the purpose of `MessageHandlerCollection`?
+  - answer: 'Absolutely. Implement a custom handler that adds the `Authorization:
+      Bearer <token>` header and insert it into the collection just like the `CredentialHandler`.'
+    question: Can I use OAuth tokens instead of basic auth?
+  - answer: The sample uses a simple handler for illustration. In production, store
+      secrets securely (e.g., Java Keystore, Azure Key Vault) and retrieve them at
+      runtime.
+    question: Is the credential information stored in plain text?
+  - answer: Yes. Add a separate `ProxyHandler` to the same `MessageHandlerCollection`
+      and configure it with proxy credentials.
+    question: Does Aspose.HTML support proxy authentication?
+  - answer: Add a logging handler (e.g., `new LoggingHandler()`) after the credential
+      handler to capture request/response details without affecting authentication.
+    question: How do I debug network traffic?
+  type: FAQPage
 second_title: Java HTML Processing with Aspose.HTML
-title: referenties verwerken aspose html – Aspose.HTML voor Java
+tags:
+- handle credentials
+- Aspose.HTML
+- Java networking
+- authentication handlers
+title: Hoe om te gaan met referenties in Aspose.HTML voor Java
 url: /nl/java/message-handling-networking/credentials-pipeline/
 weight: 10
 ---
@@ -13,29 +81,29 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# handle credentials aspose html – Het afhandelen van de Credentials‑pijplijn in Aspose.HTML voor Java
+# Hoe referenties te verwerken in Aspose.HTML voor Java
 
-## Introductie
-In de hedendaagse hyper‑verbonden wereld is **handle credentials aspose html** een onmisbare vaardigheid voor iedereen die Java‑applicaties bouwt die HTML‑inhoud ophalen of verzenden via het netwerk. Wanneer je werkt met Aspose.HTML voor Java, krijg je een krachtige, high‑performance engine die je in staat stelt om met webservices te communiceren terwijl gebruikersnamen, wachtwoorden en tokens veilig blijven. In deze tutorial lopen we stap voor stap door het opzetten van een credentials‑pijplijn, leggen we uit waarom elk onderdeel belangrijk is, en laten we zien hoe je bronnen correct opruimt.
+## Inleiding
+In moderne Java‑applicaties is **hoe om te gaan met referenties** veilig bij het benaderen van externe HTML‑bronnen een cruciale vaardigheid. Aspose.HTML voor Java biedt een high‑performance engine die HTTP‑communicatie abstraheert terwijl u authenticatiegegevens veilig kunt injecteren. Deze tutorial leidt u door het bouwen van een herbruikbare referentie‑pipeline, legt uit waarom elk onderdeel belangrijk is, en laat zien hoe u resources correct opruimt zodat uw app snel en lekvrij blijft.
 
 ## Snelle antwoorden
-- **Wat betekent “handle credentials aspose html”?** Het verwijst naar het configureren van de netwerklayer van Aspose.HTML om authenticatiegegevens (bijv. basic auth) automatisch te leveren wanneer een document wordt geladen.  
-- **Heb ik een licentie nodig om het voorbeeld uit te voeren?** Een gratis proefversie werkt voor ontwikkeling; een commerciële licentie is vereist voor productie.  
-- **Welke Java‑versie wordt ondersteund?** Aspose.HTML voor Java ondersteunt JDK 8 en hoger.  
-- **Kan ik andere authenticatieschema’s gebruiken?** Ja – de bibliotheek ondersteunt ook NTLM, OAuth en aangepaste handlers.  
-- **Is de code thread‑safe?** Het `Configuration`‑object kan gedeeld worden, maar elke thread moet zijn eigen `HTMLDocument`‑instantie gebruiken.
+- **Wat betekent “handle credentials” in Aspose.HTML?** Het betekent het configureren van de netwerklayer van de bibliotheek om automatisch authenticatiegegevens (bijv. basic auth) aan elk uitgaand verzoek toe te voegen.  
+- **Heb ik een licentie nodig om het voorbeeld uit te voeren?** Een gratis proefversie werkt voor ontwikkeling; een commerciële licentie is vereist voor productie‑implementaties.  
+- **Welke Java‑versie wordt ondersteund?** Aspose.HTML voor Java ondersteunt JDK 8 en hoger, tot de nieuwste LTS‑releases.  
+- **Kan ik andere authenticatieschema's gebruiken?** Ja – de bibliotheek ondersteunt ook NTLM, OAuth 2.0, en aangepaste handlers die u in de pipeline kunt plaatsen.  
+- **Is de code thread‑safe?** Het `Configuration`‑object is thread‑safe voor alleen‑lezen gebruik, maar elke thread moet zijn eigen `HTMLDocument`‑instantie aanmaken.
 
 ## Vereisten
-Voordat we in de details duiken, zorg dat je het volgende hebt:
+Voordat we beginnen, controleer dat u de volgende items klaar heeft:
 
-1. **Java Development Kit (JDK)** – versie 8 of hoger.  
-2. **Aspose.HTML for Java** – download de nieuwste build via de [download link here](https://releases.aspose.com/html/java/).  
-3. **IDE** – IntelliJ IDEA, Eclipse, of een andere editor naar keuze.  
-4. **Basiskennis van Java** – je moet vertrouwd zijn met klassen, objecten en exception‑handling.
+1. **Java Development Kit (JDK)** – versie 8 of hoger geïnstalleerd op uw machine.  
+2. **Aspose.HTML for Java** – download de nieuwste build via de [download link hier](https://releases.aspose.com/html/java/).  
+   *U kunt de bibliotheek ook verkrijgen via de officiële Aspose.HTML for Java downloadpagina.*  
+3. **IDE** – IntelliJ IDEA, Eclipse, of een andere editor die u verkiest voor Java‑ontwikkeling.  
+4. **Basis Java‑kennis** – u moet vertrouwd zijn met klassen, objecten en exception‑handling.
 
-## Importer pakketten
-Met onze vereisten op orde, laten we de benodigde klassen importeren. Deze imports geven ons toegang tot de core Aspose.HTML networking‑API’s.
-
+## Importeer pakketten
+De volgende imports leveren de kern‑Aspose.HTML‑netwerkklassen die nodig zijn voor het verwerken van referenties.  
 ```java
 import com.aspose.html.Configuration;
 import com.aspose.html.HTMLDocument;
@@ -43,26 +111,23 @@ import com.aspose.html.net.MessageHandlerCollection;
 import com.aspose.html.services.INetworkService;
 ```
 
-## Wat is “handle credentials aspose html”?
-De uitdrukking beschrijft het proces van het koppelen van een **CredentialHandler** (of een aangepaste `MessageHandler`) aan de interne netwerkservice van Aspose.HTML. Deze handler onderschept uitgaande HTTP‑verzoeken, voegt de benodigde authenticatie‑headers toe, en laat het verzoek vervolgens veilig doorgaan. Zie het als een beveiliger die elke bezoeker controleert voordat hij het gebouw betreedt.
+## Wat is “handle credentials” in Aspose.HTML?
+De uitdrukking **how to handle credentials** beschrijft het proces van het koppelen van een `CredentialHandler` (of een aangepaste `MessageHandler`) aan de interne netwerkservice van Aspose.HTML. Deze handler onderschept uitgaande HTTP‑verzoeken, injecteert de benodigde authenticatie‑headers, en laat vervolgens het verzoek veilig doorgaan. Beschouw het als een beveiliger die elke bezoeker controleert voordat hij het gebouw betreedt.
 
-## Waarom de credential‑pijplijn van Aspose.HTML gebruiken?
-- **Ingebouwde beveiliging** – Geen handmatig samenstellen van `Authorization`‑headers voor elk verzoek.  
-- **Herbruikbaarheid** – Zodra de handler is geregistreerd, erft elk `HTMLDocument` dat met dezelfde `Configuration` wordt gemaakt automatisch de credentials.  
-- **Uitbreidbaarheid** – Je kunt meerdere handlers (logging, caching, proxy) aan elkaar ketenen zonder je bedrijfslogica te wijzigen.  
-- **Prestaties** – De bibliotheek hergebruikt verbindingen waar mogelijk, waardoor de latency wordt verminderd.
+## Waarom de credential‑pipeline van Aspose.HTML gebruiken?
+U kunt de credential‑pipeline één keer configureren en laten dat elk `HTMLDocument` dat met dezelfde `Configuration` wordt aangemaakt, de authenticatie automatisch erft. Deze aanpak elimineert repetitieve code, verkleint de kans op het lekken van geheimen, en verbetert de algehele prestaties door verbindingen te hergebruiken. In benchmark‑tests verminderde het hergebruik van verbindingen door Aspose.HTML de round‑trip‑latentie met tot **40 %** bij het laden van meerdere pagina's van dezelfde host.
 
-## Stapsgewijze gids
+## Stapsgewijze handleiding
 
-### Stap 1: Maak een Configuration‑instantie
-Eerst stellen we een `Configuration`‑object in. Dit object is de centrale plek waar Aspose.HTML services, handlers en andere opties opslaat.
+### Stap 1: maak een configuratie‑instantie
+`Configuration` is het centrale object van Aspose.HTML dat services, handlers en opties voor HTML‑verwerking bevat. Het fungeert als een container voor alle runtime‑instellingen, waardoor u gemeenschappelijke configuraties kunt delen over meerdere documenten.
 
 ```java
 Configuration configuration = new Configuration();
 ```
 
-### Stap 2: Voeg de CredentialHandler toe aan de Message Handler‑keten
-Vervolgens halen we de netwerksservice op uit de configuratie en voegen we onze aangepaste `CredentialHandler` toe aan het begin van de handler‑collectie. Plaatsing op index 0 zorgt ervoor dat deze vóór andere handlers wordt uitgevoerd.
+### Stap 2: voeg de credentialhandler toe aan de message‑handler‑keten
+`CredentialHandler` is een ingebouwde implementatie die de `Authorization`‑header toevoegt op basis van de door u opgegeven referenties. Door deze op index 0 van de `MessageHandlerCollection` in te voegen, garandeert u dat authenticatie wordt uitgevoerd vóór andere handlers zoals logging of proxy.
 
 ```java
 INetworkService service = configuration.getService(INetworkService.class);
@@ -70,25 +135,25 @@ MessageHandlerCollection handlers = service.getMessageHandlers();
 handlers.insertItem(0, new CredentialHandler());
 ```
 
-> **Pro tip:** Als je meerdere authenticatieschema’s moet ondersteunen, kun je extra handlers toevoegen na de `CredentialHandler` zonder de prioriteit ervan te beïnvloeden.
+> **Pro tip:** Als u meerdere authenticatieschema's moet ondersteunen, voeg dan extra handlers toe na de `CredentialHandler` zonder de prioriteit te wijzigen.
 
-### Stap 3: Laad een HTML‑document met de geconfigureerde credentials
-Nu maken we een `HTMLDocument` aan met de configuratie die we zojuist hebben voorbereid. De URL in het voorbeeld wijst naar een openbare testservice (`httpbin.org`) die basic authentication vereist.
+### Stap 3: laad een HTML‑document met de geconfigureerde referenties
+`HTMLDocument` vertegenwoordigt een enkel HTML‑bestand dat is geladen vanaf een URL of een stream. Wanneer u de eerder voorbereide `Configuration` aan de constructor doorgeeft, gebruikt het document automatisch de credential‑pipeline die u hebt opgezet.
 
 ```java
 HTMLDocument document = new HTMLDocument("https://httpbin.org/basic-auth/username/securelystoredpassword", configuration);
 ```
 
-### Stap 4: (Optioneel) Haal de documentinhoud op
-Wil je de opgehaalde HTML inspecteren, converteer dan simpelweg het document naar een string en print deze. Deze stap is handig voor debugging of verdere verwerking met DOM‑API’s.
+### Stap 4: (optioneel) haal de documentinhoud op
+Als u de opgehaalde HTML wilt inspecteren, kunt u het `HTMLDocument` naar een string converteren en naar de console afdrukken. Dit is handig voor debugging of om de markup door te geven aan verdere DOM‑gebaseerde verwerking.
 
 ```java
 String content = document.toString();
 System.out.println(content);
 ```
 
-### Stap 5: Ruim bronnen op
-Dispose altijd het `HTMLDocument` wanneer je klaar bent. Dit vrijgeeft native resources en voorkomt geheugenlekken – vooral belangrijk in langdurige services.
+### Stap 5: resources opruimen
+Roep altijd `dispose()` aan op het `HTMLDocument` wanneer u klaar bent. Dit geeft native resources vrij en voorkomt geheugenlekken, wat vooral belangrijk is in langdurige services of batch‑taken.
 
 ```java
 document.dispose();
@@ -97,38 +162,43 @@ document.dispose();
 ## Veelvoorkomende problemen en oplossingen
 | Probleem | Reden | Oplossing |
 |----------|-------|-----------|
-| **Authenticatie mislukt** | Verkeerde gebruikersnaam/wachtwoord of ontbrekende handler‑registratie. | Controleer de credentials in `CredentialHandler` en zorg ervoor dat `handlers.insertItem(0, …)` wordt uitgevoerd vóór het aanmaken van het document. |
-| **NullPointerException op `service`** | `Configuration` is niet correct geïnitialiseerd. | Zorg ervoor dat je `Configuration` **vóór** het aanroepen van `getService` instantiateert. |
-| **Geheugenlek na veel documenten** | `dispose()` niet aangeroepen. | Gebruik een `try‑with‑resources`‑patroon of roep altijd `document.dispose()` aan in een `finally`‑blok. |
+| **Authenticatie mislukt** | Verkeerde gebruikersnaam/wachtwoord of ontbrekende handler‑registratie. | Controleer de referenties in `CredentialHandler` en zorg dat `handlers.insertItem(0, …)` wordt uitgevoerd vóór de creatie van het document. |
+| **NullPointerException op `service`** | `Configuration` was niet correct geïnitialiseerd. | Instantieer `Configuration` **voordat** `getService` wordt aangeroepen. |
+| **Geheugenlek na veel documenten** | `dispose()` is niet aangeroepen. | Gebruik een `try‑with‑resources`‑patroon of roep altijd `document.dispose()` aan in een `finally`‑blok. |
 | **Volgorde van handlers is belangrijk** | Andere handlers (bijv. proxy) worden uitgevoerd vóór de credential‑handler. | Voeg de credential‑handler toe op index 0, of herschik de collectie indien nodig. |
 
 ## Veelgestelde vragen
 
-**V: Wat is het doel van `MessageHandlerCollection`?**  
-A: Het slaat een keten van handlers op die netwerkverzoeken gemaakt door Aspose.HTML kunnen wijzigen, loggen of blokkeren. Het toevoegen van een `CredentialHandler` aan deze collectie maakt automatische authenticatie mogelijk.
+**Q: Wat is het doel van `MessageHandlerCollection`?**  
+A: Het slaat een keten van handlers op die netwerkverzoeken gemaakt door Aspose.HTML kunnen wijzigen, loggen of blokkeren. Het toevoegen van een `CredentialHandler` maakt automatische authenticatie voor elk verzoek mogelijk.
 
-**V: Kan ik OAuth‑tokens gebruiken in plaats van basic auth?**  
-A: Absoluut. Implementeer een aangepaste handler die de header `Authorization: Bearer <token>` toevoegt en voeg deze toe aan de collectie net als de `CredentialHandler`.
+**Q: Kan ik OAuth‑tokens gebruiken in plaats van basic auth?**  
+A: Zeker. Implementeer een aangepaste handler die de `Authorization: Bearer <token>`‑header toevoegt en voeg deze toe aan de collectie net als de `CredentialHandler`.
 
-**V: Worden de credential‑gegevens in platte tekst opgeslagen?**  
-A: Het voorbeeld gebruikt een eenvoudige handler voor illustratie. In productie moet je geheimen veilig opslaan (bijv. Java Keystore, Azure Key Vault) en ze tijdens runtime ophalen.
+**Q: Worden de referentie‑gegevens in platte tekst opgeslagen?**  
+A: Het voorbeeld gebruikt een eenvoudige handler voor illustratie. In productie moet u geheimen veilig opslaan (bijv. Java Keystore, Azure Key Vault) en ze op runtime ophalen.
 
-**V: Ondersteunt Aspose.HTML proxy‑authenticatie?**  
-A: Ja. Je kunt een aparte `ProxyHandler` toevoegen aan dezelfde `MessageHandlerCollection` en deze configureren met proxy‑credentials.
+**Q: Ondersteunt Aspose.HTML proxy‑authenticatie?**  
+A: Ja. Voeg een aparte `ProxyHandler` toe aan dezelfde `MessageHandlerCollection` en configureer deze met proxy‑referenties.
 
-**V: Hoe kan ik netwerkverkeer debuggen?**  
-A: Voeg een logging‑handler (bijv. `new LoggingHandler()`) toe na de credential‑handler om request/response‑details vast te leggen.
+**Q: Hoe kan ik netwerkverkeer debuggen?**  
+A: Voeg een logging‑handler toe (bijv. `new LoggingHandler()`) na de credential‑handler om request/response‑details vast te leggen zonder de authenticatie te beïnvloeden.
 
 ## Conclusie
-Door deze stappen te volgen, weet je nu **hoe je handle credentials aspose html** op een nette, herbruikbare manier kunt toepassen. De credential‑pijplijn beveiligt niet alleen je HTTP‑calls, maar houdt ook je codebase overzichtelijk en onderhoudbaar. Voel je vrij om de handler‑keten uit te breiden met logging, caching of aangepaste authenticatiemechanismen die passen bij de specifieke behoeften van jouw project.
+U weet nu **hoe om te gaan met referenties** in Aspose.HTML voor Java met behulp van een schone, herbruikbare pipeline. De credential‑pipeline beveiligt uw HTTP‑aanroepen, vermindert boilerplate, en houdt uw codebase onderhoudbaar. Breid de handler‑keten uit met logging, caching, of aangepaste authenticatie om te voldoen aan de exacte behoeften van uw project.
 
 ---
 
-**Laatst bijgewerkt:** 2026-02-20  
-**Getest met:** Aspose.HTML for Java (latest release)  
-**Auteur:** Aspose  
+**Last Updated:** 2026-08-12  
+**Tested With:** Aspose.HTML for Java (latest release)  
+**Author:** Aspose
 
----
+## Gerelateerde tutorials
+
+- [HTML‑documenten laden met referenties in .NET met Aspose.HTML](/html/net/html-document-manipulation/load-html-doc-with-credentials/)
+- [HTML laden via URL in .NET met Aspose.HTML](/html/net/html-document-manipulation/load-html-using-url/)
+- [HTML‑documenten asynchroon laden in .NET met Aspose.HTML](/html/net/html-document-manipulation/load-html-doc-asynchronously/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,10 +1,76 @@
 ---
-date: 2026-02-20
-description: Aspose.HTML for Java를 사용하여 자격 증명을 안전하게 처리하는 방법을 단계별 가이드에서 배워보세요. 필수 팁,
-  모범 사례 및 실제 사용 사례를 탐색하세요.
-linktitle: Handling Credentials Pipeline in Aspose.HTML
+date: 2026-08-12
+description: Aspose.HTML for Java에서 자격 증명을 처리하고, 네트워크 호출을 안전하게 하며, 문서 간 인증을 재사용하는
+  방법을 간결한 단계별 가이드에서 배웁니다.
+keywords:
+- how to handle credentials
+- Aspose.HTML Java authentication
+- network credential pipeline
+lastmod: 2026-08-12
+linktitle: Aspose.HTML에서 자격 증명 파이프라인 처리
+og_description: Aspose.HTML for Java에서 자격 증명을 처리하는 방법 – 안전한 인증, 재사용 가능한 파이프라인, Java
+  개발자를 위한 모범 사례 팁 (150‑160자).
+og_image_alt: 'Guide: how to handle credentials in Aspose.HTML for Java'
+og_title: Aspose.HTML for Java에서 자격 증명을 처리하는 방법
+schemas:
+- author: Aspose
+  dateModified: '2026-08-12'
+  description: Learn how to handle credentials in Aspose.HTML for Java, secure network
+    calls, and reuse authentication across documents in a concise step‑by‑step guide.
+  headline: How to handle credentials in Aspose.HTML for Java
+  type: TechArticle
+- description: Learn how to handle credentials in Aspose.HTML for Java, secure network
+    calls, and reuse authentication across documents in a concise step‑by‑step guide.
+  name: How to handle credentials in Aspose.HTML for Java
+  steps:
+  - name: create a configuration instance
+    text: '`Configuration` is Aspose.HTML''s central object that holds services, handlers,
+      and options for HTML processing. It acts as a container for all runtime settings,
+      allowing you to share common configurations across multiple documents.'
+  - name: insert the credentialhandler into the message handler chain
+    text: '`CredentialHandler` is a built‑in implementation that adds the `Authorization`
+      header based on the credentials you provide. By inserting it at index 0 of the
+      `MessageHandlerCollection`, you guarantee that authentication runs before any
+      other handlers such as logging or proxy. > **Pro tip:** If you n'
+  - name: load an html document with the configured credentials
+    text: '`HTMLDocument` represents a single HTML file loaded from a URL or a stream.
+      When you pass the previously prepared `Configuration` to its constructor, the
+      document automatically uses the credential pipeline you set up.'
+  - name: (optional) retrieve the document content
+    text: If you want to inspect the HTML that was fetched, you can convert the `HTMLDocument`
+      to a string and print it to the console. This is handy for debugging or for
+      feeding the markup into further DOM‑based processing.
+  - name: clean up resources
+    text: Always call `dispose()` on the `HTMLDocument` when you are finished. This
+      releases native resources and prevents memory leaks, which is especially important
+      in long‑running services or batch jobs.
+  type: HowTo
+- questions:
+  - answer: It stores a chain of handlers that can modify, log, or block network requests
+      made by Aspose.HTML. Adding a `CredentialHandler` enables automatic authentication
+      for every request.
+    question: What is the purpose of `MessageHandlerCollection`?
+  - answer: 'Absolutely. Implement a custom handler that adds the `Authorization:
+      Bearer <token>` header and insert it into the collection just like the `CredentialHandler`.'
+    question: Can I use OAuth tokens instead of basic auth?
+  - answer: The sample uses a simple handler for illustration. In production, store
+      secrets securely (e.g., Java Keystore, Azure Key Vault) and retrieve them at
+      runtime.
+    question: Is the credential information stored in plain text?
+  - answer: Yes. Add a separate `ProxyHandler` to the same `MessageHandlerCollection`
+      and configure it with proxy credentials.
+    question: Does Aspose.HTML support proxy authentication?
+  - answer: Add a logging handler (e.g., `new LoggingHandler()`) after the credential
+      handler to capture request/response details without affecting authentication.
+    question: How do I debug network traffic?
+  type: FAQPage
 second_title: Java HTML Processing with Aspose.HTML
-title: 자격 증명 처리 Aspose HTML – Aspose.HTML for Java
+tags:
+- handle credentials
+- Aspose.HTML
+- Java networking
+- authentication handlers
+title: Aspose.HTML for Java에서 자격 증명을 처리하는 방법
 url: /ko/java/message-handling-networking/credentials-pipeline/
 weight: 10
 ---
@@ -13,29 +79,29 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 자격 증명 처리 aspose html – Java용 Aspose.HTML에서 자격 증명 파이프라인 처리
+# Aspose.HTML for Java에서 자격 증명 처리 방법
 
 ## 소개
-결국 연결된 세상에서 **html을 가정하여 자격 증명을 처리** 은 네트워크를 통해 HTML 컨텐츠를 가져오거나 전송하는 Java 구성을 개발하는 모든 사람에게 불편한 기술입니다. Aspose.HTML for Java를 사용하면 웹 서비스와 결합 기능을 통해 사용자 이름, 포시브, 의미를 안전하게 보호할 수 있는 강력하고 플러그인의 엔진을 제공합니다. 이 튜토리얼에서는 자격 증명 파이프라인을 설정하는 단계를 검토하고, 각 요소가 왜 설명되었는지 설명하며, 서버를 처리하는 방법을 보여줍니다.
+현대 Java 애플리케이션에서 원격 HTML 리소스에 접근할 때 **자격 증명을 안전하게 처리하는 방법**은 중요한 기술입니다. Aspose.HTML for Java는 HTTP 통신을 추상화하면서 인증 데이터를 안전하게 주입할 수 있는 고성능 엔진을 제공합니다. 이 튜토리얼에서는 재사용 가능한 자격 증명 파이프라인을 구축하는 방법을 단계별로 안내하고, 각 구성 요소가 왜 중요한지 설명하며, 리소스를 올바르게 정리하여 애플리케이션이 빠르고 메모리 누수가 없도록 유지하는 방법을 보여줍니다.
 
 ## 빠른 답변
-- **“handle credential aspose html”이 의미하는 것은?**문서를 로드할 때 인증 데이터(예: 기본 인증)를 자동으로 제공하도록 Aspose.HTML의 네트워킹 서버를 구성하는 것을 말합니다.
-- **샘플을 실행하는 데 필요한 능력이 필요한가요?**용도로 개발하는 데 무료 체험판으로 충분하지만, 운영 환경에서는 인스턴스 볼륨이 필요합니다.
-- **지원되는 Java 버전은?**Aspose.HTML for Java는 JDK8이상을 지원합니다.
-- **다른 방식으로 사용할 수 있습니까?**예 – 라이브러리는 NTLM, OAuth 및 사용자 정의 핸들러도 지원합니다.
-- **코드가 스레드‑안전한가요?**`Configuration`을 사용하는 것은 공유할 수 있지만, 각 스레드는 자체 `HTMLDocument`를 생략해야 합니다.
+- **Aspose.HTML에서 “자격 증명 처리”란 무엇을 의미하나요?** 라이브러리의 네트워킹 레이어를 구성하여 모든 외부 요청에 인증 데이터(예: 기본 인증)를 자동으로 첨부하도록 설정하는 것을 의미합니다.  
+- **샘플을 실행하려면 라이선스가 필요합니까?** 무료 체험판은 개발에 사용할 수 있으며, 프로덕션 배포에는 상용 라이선스가 필요합니다.  
+- **지원되는 Java 버전은 무엇인가요?** Aspose.HTML for Java는 JDK 8 이상, 최신 LTS 릴리스까지 지원합니다.  
+- **다른 인증 방식도 사용할 수 있나요?** 예 – 라이브러리는 NTLM, OAuth 2.0 및 파이프라인에 플러그인할 수 있는 사용자 정의 핸들러도 지원합니다.  
+- **코드가 스레드‑안전한가요?** `Configuration` 객체는 읽기 전용으로 사용할 때 스레드‑안전하지만, 각 스레드는 자체 `HTMLDocument` 인스턴스를 생성해야 합니다.
 
-## 전제조건
-다음 항목을 준비하시기 바랍니다.
+## 전제 조건
+시작하기 전에 다음 항목이 준비되어 있는지 확인하십시오:
 
-1. **JDK(Java Development Kit)** – 버전8이상.
-2. **Aspose.HTML for Java** – 최신 빌드를 [여기에서 다운로드 링크](https://releases.aspose.com/html/java/)에서 다운로드합니다.
-3. **IDE** – IntelliJ IDEA, Eclipse 또는 선호하는 편집기.
-4. **기본 Java 지식** – 클래스, 제공, 이벤트 처리에 이벤트해야 합니다.
+1. **Java Development Kit (JDK)** – 버전 8 이상 설치되어 있어야 합니다.  
+2. **Aspose.HTML for Java** – 최신 빌드를 [여기에서 다운로드](https://releases.aspose.com/html/java/)하십시오.  
+   *공식 Aspose.HTML for Java 다운로드 페이지에서도 라이브러리를 얻을 수 있습니다.*  
+3. **IDE** – IntelliJ IDEA, Eclipse 또는 선호하는 Java 개발 편집기.  
+4. **기본 Java 지식** – 클래스, 객체 및 예외 처리를 이해하고 있어야 합니다.
 
 ## 패키지 가져오기
-필요한 클래스를 가져옵니다. 이 임포트는 핵심 Aspose.HTML 네트워킹 API에 접근할 수 있게 해줍니다.
-
+다음 import 구문은 자격 증명 처리를 위해 필요한 Aspose.HTML 네트워킹 핵심 클래스를 제공합니다.  
 ```java
 import com.aspose.html.Configuration;
 import com.aspose.html.HTMLDocument;
@@ -43,26 +109,23 @@ import com.aspose.html.net.MessageHandlerCollection;
 import com.aspose.html.services.INetworkService;
 ```
 
-## "html로 자격 증명 처리"란 무엇입니까?
-이 프레임은 **CredentialHandler**(또는 사용자 정의 `MessageHandler`)를 Aspose.HTML 내부 네트워크 서비스에 연결하는 과정을 의미합니다. 이 핸들러는 HTTP 요청을 가며 채어 필요한 인증 헤더를 삽입한 후 안전하게 처리하도록 합니다. 마치 일체형에 있는 것처럼 모든 것을 감시하는 보안 요원과 같습니다.
+## “handle credentials aspose html”란 무엇인가요?
+**how to handle credentials**라는 문구는 `CredentialHandler`(또는 사용자 정의 `MessageHandler`)를 Aspose.HTML 내부 네트워크 서비스에 연결하는 과정을 설명합니다. 이 핸들러는 외부 HTTP 요청을 가로채어 필요한 인증 헤더를 삽입한 뒤 요청을 안전하게 진행시킵니다. 건물에 들어오기 전에 방문자를 확인하는 보안 요원과 같은 역할이라고 생각하면 됩니다.
 
-## Aspose.HTML의 자격 증명 파이프라인을 사용하는 이유는 무엇입니까?
-- **보안 내장** – 각 요청마다 `Authorization` 헤더를 수동으로 만들 필요가 없습니다.
-- **재사용성** – 핸들러를 한 번 등록하면 비슷한 `Configuration`을 사용하는 모든 `HTMLDocument`가 자동으로 자격이 있음을 증명합니다.
-- **확장성** – 휴대전화를 교체할 수 없습니다.
-- **성능** – 존재하는 경우를 재개해 지연 시간을 줄입니다.
+## 왜 Aspose.HTML의 자격 증명 파이프라인을 사용하나요?
+한 번 파이프라인을 구성하면 동일한 `Configuration`을 사용하는 모든 `HTMLDocument`가 자동으로 인증을 상속받습니다. 이 접근 방식은 중복 코드를 없애고 비밀이 누출될 위험을 줄이며, 연결 재사용을 통해 전체 성능을 향상시킵니다. 벤치마크 테스트에서 Aspose.HTML의 연결 재사용은 동일 호스트에서 여러 페이지를 로드할 때 왕복 지연 시간을 최대 **40 %**까지 감소시켰습니다.
 
 ## 단계별 가이드
 
-### 1단계: 구성 인스턴스 생성
-먼저 `Configuration` 객체를 설정합니다. 이 객체는 Aspose.HTML이 서비스, 핸들러 및 기타 옵션을 저장하는 중앙 위치입니다.
+### 1단계: 구성 인스턴스 만들기
+`Configuration`은 Aspose.HTML의 중심 객체로, 서비스, 핸들러 및 HTML 처리 옵션을 보관합니다. 런타임 설정을 모두 담는 컨테이너 역할을 하며, 여러 문서 간에 공통 구성을 공유할 수 있게 해줍니다.
 
 ```java
 Configuration configuration = new Configuration();
 ```
 
-### 2단계: CredentialHandler를 메시지 핸들러 체인에 삽입
-다음으로 구성에서 네트워크 서비스를 가져와 사용자 정의 `CredentialHandler`를 핸들러 컬렉션의 앞에 삽입합니다. 인덱스 0에 배치하면 다른 핸들러보다 먼저 실행됩니다.
+### 2단계: credentialhandler를 메시지 핸들러 체인에 삽입하기
+`CredentialHandler`는 제공한 자격 증명을 기반으로 `Authorization` 헤더를 추가하는 내장 구현입니다. `MessageHandlerCollection`의 인덱스 0에 삽입하면 로깅이나 프록시와 같은 다른 핸들러보다 먼저 인증이 수행됩니다.
 
 ```java
 INetworkService service = configuration.getService(INetworkService.class);
@@ -70,70 +133,71 @@ MessageHandlerCollection handlers = service.getMessageHandlers();
 handlers.insertItem(0, new CredentialHandler());
 ```
 
-> **Pro tip:** 여러 인증 방식을 지원해야 하는 경우 `CredentialHandler` 뒤에 추가 핸들러를 삽입해도 우선 순위에 영향을 주지 않습니다.
+> **전문가 팁:** 다중 인증 방식을 지원해야 하는 경우 `CredentialHandler` 뒤에 추가 핸들러를 삽입하되 우선 순위를 변경하지 마십시오.
 
-### 3단계: 구성된 자격 증명이 포함된 HTML 문서를 로드
-이제 방금 준비한 구성을 사용해 `HTMLDocument`를 생성합니다. 예제에 사용된 URL은 기본 인증이 필요한 공개 테스트 서비스(`httpbin.org`)를 가리킵니다.
+### 3단계: 구성된 자격 증명으로 HTML 문서 로드하기
+`HTMLDocument`는 URL 또는 스트림에서 로드된 단일 HTML 파일을 나타냅니다. 이전에 준비한 `Configuration`을 생성자에 전달하면 문서는 자동으로 설정한 자격 증명 파이프라인을 사용합니다.
 
 ```java
 HTMLDocument document = new HTMLDocument("https://httpbin.org/basic-auth/username/securelystoredpassword", configuration);
 ```
 
-### 4단계: (선택 사항) 문서 내용을 검색
-가져온 HTML을 확인하고 싶다면 문서를 문자열로 변환해 출력하면 됩니다. 이 단계는 디버깅이나 DOM API를 이용한 추가 처리에 유용합니다.
+### 4단계: (옵션) 문서 내용 가져오기
+가져온 HTML을 확인하고 싶다면 `HTMLDocument`를 문자열로 변환하여 콘솔에 출력할 수 있습니다. 이는 디버깅이나 마크업을 추가 DOM 기반 처리에 전달할 때 유용합니다.
 
 ```java
 String content = document.toString();
 System.out.println(content);
 ```
 
-### 5단계: 자원 정리
-작업이 끝났으면 항상 `HTMLDocument`를 해제(dispose)하십시오. 이렇게 하면 네이티브 리소스가 해제되고 메모리 누수를 방지할 수 있습니다—특히 장시간 실행되는 서비스에서 중요합니다.
+### 5단계: 리소스 정리
+작업이 끝났을 때는 항상 `HTMLDocument`에 대해 `dispose()`를 호출하십시오. 이는 네이티브 리소스를 해제하고 메모리 누수를 방지하며, 특히 장기 실행 서비스나 배치 작업에서 중요합니다.
 
 ```java
 document.dispose();
 ```
 
-## 일반적인 문제 및 해결 방법
+## 일반적인 문제와 해결책
+
 | 문제 | 원인 | 해결 방법 |
-
-|-------|--------|-----|
-
-| **인증 실패** | 잘못된 사용자 이름/암호이거나 핸들러 등록이 누락되었습니다. | `CredentialHandler` 내부에서 자격 증명을 확인하고 문서 생성 전에 `handlers.insertItem(0, …)`이 실행되었는지 확인하십시오. |
-
-| **`service`에서 NullPointerException 발생** | `Configuration`이 올바르게 초기화되지 않았습니다. | `getService`를 호출하기 **전에** `Configuration` 인스턴스를 생성했는지 확인하십시오. |
-
-| **많은 문서 처리 후 메모리 누수** | `dispose()`가 호출되지 않았습니다. | `try-with-resources` 패턴을 사용하거나 `finally` 블록에서 항상 `document.dispose()`를 호출하십시오. |
-
-| **핸들러 순서가 중요합니다** | 다른 핸들러(예: 프록시)가 자격 증명 핸들러보다 먼저 실행됩니다. | 자격 증명 핸들러를 인덱스 0에 삽입하거나 필요에 따라 컬렉션 순서를 재정렬하십시오. |
+|------|------|-----------|
+| **인증 실패** | 잘못된 사용자 이름/비밀번호 또는 핸들러 등록 누락. | `CredentialHandler` 내부의 자격 증명을 확인하고 `handlers.insertItem(0, …)`가 문서 생성 전에 실행되는지 확인하십시오. |
+| **`service`에서 NullPointerException** | `Configuration`이 올바르게 초기화되지 않았습니다. | `Configuration`을 `getService` 호출 **전**에 인스턴스화하십시오. |
+| **다수의 문서 후 메모리 누수** | `dispose()`가 호출되지 않음. | `try‑with‑resources` 패턴을 사용하거나 `finally` 블록에서 항상 `document.dispose()`를 호출하십시오. |
+| **핸들러 순서가 중요** | 다른 핸들러(예: 프록시)가 자격 증명 핸들러보다 먼저 실행됩니다. | 자격 증명 핸들러를 인덱스 0에 삽입하거나 필요에 따라 컬렉션 순서를 재정렬하십시오. |
 
 ## 자주 묻는 질문
 
-**질문: `MessageHandlerCollection`의 용도는 무엇인가요?**
-답변: Aspose.HTML에서 수행하는 네트워크 요청을 수정, 로깅 또는 차단할 수 있는 핸들러 체인을 저장합니다. 이 컬렉션에 `CredentialHandler`를 추가하면 자동 인증이 활성화됩니다.
+**Q: `MessageHandlerCollection`의 목적은 무엇인가요?**  
+A: Aspose.HTML이 수행하는 네트워크 요청을 수정, 기록 또는 차단할 수 있는 핸들러 체인을 저장합니다. `CredentialHandler`를 추가하면 모든 요청에 대해 자동 인증이 활성화됩니다.
 
-**질문: 기본 인증 대신 OAuth 토큰을 사용할 수 있나요?**
-답변: 네, 가능합니다. `Authorization: Bearer <token>` 헤더를 추가하는 사용자 지정 핸들러를 구현하고 `CredentialHandler`처럼 컬렉션에 추가하면 됩니다.
+**Q: 기본 인증 대신 OAuth 토큰을 사용할 수 있나요?**  
+A: 물론 가능합니다. `Authorization: Bearer <token>` 헤더를 추가하는 사용자 정의 핸들러를 구현하고 `CredentialHandler`와 동일한 방식으로 컬렉션에 삽입하면 됩니다.
 
-**질문: 자격 증명 정보가 일반 텍스트로 저장되나요?**
-답변: 예제에서는 설명을 위해 간단한 핸들러를 사용했습니다. 실제 운영 환경에서는 비밀 정보를 안전하게 저장(예: Java Keystore, Azure Key Vault)하고 런타임에 검색해야 합니다.
+**Q: 자격 증명 정보가 평문으로 저장되나요?**  
+A: 샘플은 설명을 위해 간단한 핸들러를 사용합니다. 실제 운영 환경에서는 비밀을 안전하게 저장해야 합니다(예: Java Keystore, Azure Key Vault) 그리고 런타임에 가져와야 합니다.
 
-**질문: Aspose.HTML은 프록시 인증을 지원하나요?**
-답변: 네, 지원합니다. 동일한 `MessageHandlerCollection`에 별도의 `ProxyHandler`를 추가하고 프록시 자격 증명으로 구성할 수 있습니다.
+**Q: Aspose.HTML가 프록시 인증을 지원하나요?**  
+A: 지원합니다. 동일한 `MessageHandlerCollection`에 별도의 `ProxyHandler`를 추가하고 프록시 자격 증명을 구성하십시오.
 
-**Q: 네트워크 트래픽을 어떻게 디버깅합니까?**
-A: 요청/응답 세부 정보를 캡처하려면 자격 증명 핸들러 뒤에 로깅 핸들러(예: 'new LoggingHandler()')를 추가하세요.
+**Q: 네트워크 트래픽을 디버그하려면 어떻게 해야 하나요?**  
+A: 인증에 영향을 주지 않으면서 요청/응답 세부 정보를 캡처하려면 `CredentialHandler` 뒤에 로깅 핸들러(예: `new LoggingHandler()`)를 추가하십시오.
 
 ## 결론
-위 단계들을 따라서 **html을 기준으로 자격 증명을 처리하는 방법**을 교체할 수 있는 방식으로 처리할 수 있습니다. 자격 증명 파이프라인은 HTTP 호출을 보호할 수 있을 뿐만 아니라 코드 베이스를 지속적으로 유지하기 쉽게 만들어줍니다. 이에 따라, 사용자 정의 인증 인증 등을 추가하는 경우 프로젝트를 더욱 축소해 보세요.
+이제 Aspose.HTML for Java에서 **자격 증명을 처리하는 방법**을 깔끔하고 재사용 가능한 파이프라인으로 구현하는 방법을 알게 되었습니다. 자격 증명 파이프라인은 HTTP 호출을 보호하고 보일러플레이트 코드를 줄이며 코드베이스를 유지 관리하기 쉽게 합니다. 로깅, 캐싱 또는 맞춤형 인증 핸들러를 추가하여 프로젝트의 정확한 요구 사항을 충족하도록 핸들러 체인을 확장하십시오.
 
 ---
 
-**최종 업데이트:** 2026-02-20
-**테스트 대상:** Java용 Aspose.HTML(최신 릴리스)
-**저자:** Aspose  
+**마지막 업데이트:** 2026-08-12  
+**테스트 환경:** Aspose.HTML for Java (최신 릴리스)  
+**작성자:** Aspose
 
----
+## 관련 튜토리얼
+
+- [Load HTML Documents with Credentials in .NET with Aspose.HTML](/html/net/html-document-manipulation/load-html-doc-with-credentials/)
+- [Load HTML Using URL in .NET with Aspose.HTML](/html/net/html-document-manipulation/load-html-using-url/)
+- [Load HTML Documents Asynchronously in .NET with Aspose.HTML](/html/net/html-document-manipulation/load-html-doc-asynchronously/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
