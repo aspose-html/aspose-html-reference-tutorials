@@ -24,7 +24,7 @@ title: Cómo obtener CSS en Java – Guía completa para extraer estilos con Asp
 url: /es/java/css-html-form-editing/how-to-get-css-in-java-complete-guide-to-extract-styles-with/
 ---
 
-/products-backtop-button >}}{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

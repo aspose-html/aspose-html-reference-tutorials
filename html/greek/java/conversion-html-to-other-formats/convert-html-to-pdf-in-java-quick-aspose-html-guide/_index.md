@@ -25,7 +25,7 @@ title: Μετατροπή HTML σε PDF σε Java – Γρήγορος οδηγ�
 url: /el/java/conversion-html-to-other-formats/convert-html-to-pdf-in-java-quick-aspose-html-guide/
 ---
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -22,21 +22,7 @@ title: Převod HTML do PDF v Javě – Kompletní průvodce s velikostí papíru
 url: /cs/java/conversion-html-to-other-formats/convert-html-to-pdf-in-java-full-guide-with-paper-size-dpi/
 ---
 
-Next steps? Try swapping `PaperSize.A4` for a custom dimension, experiment with `options.setMarginLeft/Right`, or integrate the converter into a Spring Boot REST endpoint so users can upload HTML and receive a PDF on the fly. You might also explore the companion Aspose.HTML features like **HTML to image** or **PDF to HTML** for a truly round‑trip document pipeline."
-
-Translate.
-
-Final line: "Happy coding, and may your PDFs always render exactly as you intended! 🚀"
-
-Translate.
-
-Then closing shortcodes.
-
-Also include {{< /blocks/... >}} unchanged.
-
-Make sure to keep markdown formatting.
-
-Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

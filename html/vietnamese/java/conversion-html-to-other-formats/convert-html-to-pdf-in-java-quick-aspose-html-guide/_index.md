@@ -23,10 +23,6 @@ title: Chuyển đổi HTML sang PDF trong Java – Hướng dẫn nhanh Aspose.
 url: /vi/java/conversion-html-to-other-formats/convert-html-to-pdf-in-java-quick-aspose-html-guide/
 ---
 
-top shortcodes as is.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -24,23 +24,7 @@ title: Criar novo elemento HTML com Java – Guia Completo do Aspose.HTML
 url: /pt/java/editing-html-documents/create-new-html-element-with-java-full-aspose-html-guide/
 ---
 
-de Borda". Items translate.
-
-Bullet items: translate each.
-
-Bonus: Adding Attributes and Styling -> "## Bônus: Adicionando Atributos e Estilização". Paragraph.
-
-Placeholder CODE_BLOCK_7.
-
-Conclusion heading: "## Conclusão". Paragraph.
-
-At end image alt and title translation.
-
-Now produce final content.
-
-Make sure to keep all shortcodes and placeholders exactly.
-
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

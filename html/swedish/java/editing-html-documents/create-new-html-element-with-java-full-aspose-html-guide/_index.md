@@ -24,12 +24,6 @@ title: Skapa nytt HTML-element med Java – Fullständig Aspose.HTML-guide
 url: /sv/java/editing-html-documents/create-new-html-element-with-java-full-aspose-html-guide/
 ---
 
-them unchanged.
-
-Proceed to translate.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

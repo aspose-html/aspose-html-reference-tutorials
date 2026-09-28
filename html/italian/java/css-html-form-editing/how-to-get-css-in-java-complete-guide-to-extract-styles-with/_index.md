@@ -24,16 +24,6 @@ title: Come ottenere CSS in Java – Guida completa per estrarre gli stili con A
 url: /it/java/css-html-form-editing/how-to-get-css-in-java-complete-guide-to-extract-styles-with/
 ---
 
-s.
-
-We'll translate.
-
-Make sure to keep **bold** formatting.
-
-Also keep code block placeholders.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

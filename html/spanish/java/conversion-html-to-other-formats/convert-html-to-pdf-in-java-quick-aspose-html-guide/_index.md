@@ -24,17 +24,7 @@ title: Convertir HTML a PDF en Java – Guía rápida de Aspose.HTML
 url: /es/java/conversion-html-to-other-formats/convert-html-to-pdf-in-java-quick-aspose-html-guide/
 ---
 
-"Screenshot showing the PDF output after converting HTML to PDF". Translate title: "Captura de pantalla que muestra la salida PDF después de convertir HTML a PDF". Keep URL unchanged.
-
-Also translate table content.
-
-Check for any bold/italic formatting: keep same.
-
-Proceed.
-
-We must keep shortcodes exactly as they are.
-
-Let's produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

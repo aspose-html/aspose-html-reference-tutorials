@@ -22,19 +22,7 @@ title: كيفية استخدام Aspose لتحويل SVG إلى WebP – دلي�
 url: /ar/java/conversion-html-to-various-image-formats/how-to-use-aspose-to-convert-svg-to-webp-java-guide/
 ---
 
-Arabic but kept code formatting.
-
-Check code block placeholders: they remain unchanged.
-
-Check any other bold text: we preserved.
-
-Check any inline code: we kept.
-
-Check any links: none besides image.
-
-Check any table: we translated.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -24,17 +24,7 @@ title: Cách sử dụng ExecutorService để chuyển đổi HTML sang PNG hà
 url: /vi/java/conversion-html-to-various-image-formats/how-to-use-executorservice-for-parallel-html-to-png-batch-co/
 ---
 
-sections.
-
-Make sure to keep code block placeholders unchanged.
-
-Also blockquote > lines.
-
-List items.
-
-Ok.
-
-Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

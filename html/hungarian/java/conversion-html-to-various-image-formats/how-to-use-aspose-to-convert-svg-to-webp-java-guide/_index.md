@@ -24,18 +24,6 @@ title: Hogyan használjuk az Aspose-t SVG WebP formátumba konvertáláshoz – 
 url: /hu/java/conversion-html-to-various-image-formats/how-to-use-aspose-to-convert-svg-to-webp-java-guide/
 ---
 
-.
-
-Proceed through all sections, preserving tables, code block placeholders.
-
-We must translate table content.
-
-Let's do it.
-
-Will keep code block placeholders unchanged.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

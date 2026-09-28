@@ -23,7 +23,7 @@ title: Převod HTML na PDF v Javě – Rychlý průvodce Aspose.HTML
 url: /cs/java/conversion-html-to-other-formats/convert-html-to-pdf-in-java-quick-aspose-html-guide/
 ---
 
-content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

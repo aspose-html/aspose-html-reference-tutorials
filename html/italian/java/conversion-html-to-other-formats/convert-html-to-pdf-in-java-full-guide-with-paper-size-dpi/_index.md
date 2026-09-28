@@ -23,7 +23,7 @@ title: Converti HTML in PDF in Java – Guida completa con dimensione della cart
 url: /it/java/conversion-html-to-other-formats/convert-html-to-pdf-in-java-full-guide-with-paper-size-dpi/
 ---
 
-output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

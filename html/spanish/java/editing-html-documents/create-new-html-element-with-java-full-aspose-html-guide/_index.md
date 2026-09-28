@@ -24,11 +24,7 @@ title: Crear un nuevo elemento HTML con Java – Guía completa de Aspose.HTML
 url: /es/java/editing-html-documents/create-new-html-element-with-java-full-aspose-html-guide/
 ---
 
-present. Ensure we didn't translate code placeholders. Keep them.
-
-Also ensure we didn't translate URLs (none). Keep file names unchanged.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

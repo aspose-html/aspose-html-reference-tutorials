@@ -22,8 +22,6 @@ title: Konvertera HTML till PDF i Java – Fullständig guide med papperstorlek 
 url: /sv/java/conversion-html-to-other-formats/convert-html-to-pdf-in-java-full-guide-with-paper-size-dpi/
 ---
 
-formatting.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

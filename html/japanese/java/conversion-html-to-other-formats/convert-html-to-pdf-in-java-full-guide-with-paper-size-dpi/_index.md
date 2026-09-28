@@ -20,10 +20,6 @@ title: JavaでHTMLをPDFに変換 – 用紙サイズとDPIを含む完全ガイ
 url: /ja/java/conversion-html-to-other-formats/convert-html-to-pdf-in-java-full-guide-with-paper-size-dpi/
 ---
 
-placeholders remain.
-
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

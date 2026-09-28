@@ -23,10 +23,6 @@ title: Cara Menggunakan ExecutorService untuk Konversi Batch HTML ke PNG secara 
 url: /id/java/conversion-html-to-various-image-formats/how-to-use-executorservice-for-parallel-html-to-png-batch-co/
 ---
 
-placeholders.
-
-Now produce final output with all content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

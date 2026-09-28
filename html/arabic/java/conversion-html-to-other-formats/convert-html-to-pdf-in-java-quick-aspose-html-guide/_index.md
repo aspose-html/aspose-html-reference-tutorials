@@ -23,10 +23,6 @@ title: تحويل HTML إلى PDF في Java – دليل Aspose.HTML السري�
 url: /ar/java/conversion-html-to-other-formats/convert-html-to-pdf-in-java-quick-aspose-html-guide/
 ---
 
-: translate column headers and content but keep pipe formatting.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

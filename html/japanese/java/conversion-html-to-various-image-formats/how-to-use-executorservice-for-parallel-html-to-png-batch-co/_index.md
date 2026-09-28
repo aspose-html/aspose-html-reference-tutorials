@@ -21,8 +21,6 @@ title: ExecutorService を使用した並列 HTML から PNG へのバッチ変�
 url: /ja/java/conversion-html-to-various-image-formats/how-to-use-executorservice-for-parallel-html-to-png-batch-co/
 ---
 
-produce final content with all translations.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

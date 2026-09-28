@@ -22,20 +22,6 @@ title: วิธีใช้ Aspose แปลง SVG เป็น WebP – ค�
 url: /th/java/conversion-html-to-various-image-formats/how-to-use-aspose-to-convert-svg-to-webp-java-guide/
 ---
 
-Java Guide" translate: "# วิธีใช้ Aspose แปลง SVG เป็น WebP – คำแนะนำสำหรับ Java"
-
-Proceed paragraph.
-
-Let's translate.
-
-Be careful to keep bold **text** unchanged? The bold markers remain, but translate inside. Eg **how to use aspose** translate to **วิธีใช้ Aspose** (keep bold). Also **convert SVG to WebP** etc.
-
-Proceed.
-
-Also code block placeholders remain.
-
-Let's craft final output.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

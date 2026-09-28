@@ -22,9 +22,7 @@ title: HTML konvertálása PDF-be Java-ban – Teljes útmutató papírmérettel
 url: /hu/java/conversion-html-to-other-formats/convert-html-to-pdf-in-java-full-guide-with-paper-size-dpi/
 ---
 
-headings, lists, blockquotes, bold.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

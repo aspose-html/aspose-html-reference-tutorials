@@ -24,7 +24,7 @@ title: Java’da CSS Nasıl Alınır – Aspose.HTML ile Stilleri Çıkarma Tam 
 url: /tr/java/css-html-form-editing/how-to-get-css-in-java-complete-guide-to-extract-styles-with/
 ---
 
-final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

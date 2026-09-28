@@ -24,10 +24,6 @@ title: Créer un nouvel élément HTML avec Java – Guide complet d’Aspose.HT
 url: /fr/java/editing-html-documents/create-new-html-element-with-java-full-aspose-html-guide/
 ---
 
-keep technical terms in English. "create new html element" is a phrase but maybe considered technical. Could keep as is. We'll translate title accordingly but keep the phrase.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

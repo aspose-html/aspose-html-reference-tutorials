@@ -23,10 +23,6 @@ title: Jak získat CSS v Javě – Kompletní průvodce extrakcí stylů pomocí
 url: /cs/java/css-html-form-editing/how-to-get-css-in-java-complete-guide-to-extract-styles-with/
 ---
 
-exactly as they appear.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

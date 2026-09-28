@@ -25,28 +25,6 @@ title: जावा में CSS कैसे प्राप्त करे�
 url: /hi/java/css-html-form-editing/how-to-get-css-in-java-complete-guide-to-extract-styles-with/
 ---
 
-maybe keep as is? It's a phrase that includes English words; maybe keep as is. But it's inside bold. Could keep as **how to get CSS** unchanged. We'll keep it.
-
-We'll translate rest.
-
-Proceed.
-
-We'll need to translate all paragraphs, bullet points, etc.
-
-Also code block placeholders remain.
-
-Let's produce final content.
-
-Be careful with markdown formatting.
-
-Also there are blockquotes > lines.
-
-Make sure to keep them.
-
-Also there are list items.
-
-Let's start constructing.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

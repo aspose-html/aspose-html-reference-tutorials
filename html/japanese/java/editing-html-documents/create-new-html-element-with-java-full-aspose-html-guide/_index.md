@@ -21,13 +21,7 @@ title: Javaで新しいHTML要素を作成する – 完全なAspose.HTMLガイ�
 url: /ja/java/editing-html-documents/create-new-html-element-with-java-full-aspose-html-guide/
 ---
 
-Keep quotes.
-
-Now close shortcodes.
-
-Make sure to keep all shortcodes exactly.
-
-Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

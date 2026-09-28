@@ -24,7 +24,7 @@ title: Создание нового HTML‑элемента на Java – По�
 url: /ru/java/editing-html-documents/create-new-html-element-with-java-full-aspose-html-guide/
 ---
 
-produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

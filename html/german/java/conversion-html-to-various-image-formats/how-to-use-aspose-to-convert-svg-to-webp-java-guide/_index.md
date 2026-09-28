@@ -24,7 +24,7 @@ title: how to use aspose to convert SVG to WebP – Java Guide
 url: /de/java/conversion-html-to-various-image-formats/how-to-use-aspose-to-convert-svg-to-webp-java-guide/
 ---
 
-final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
