@@ -1,0 +1,7 @@
+Title: Create ResourceHandlingOptions Instance for HTML Loading
+Slug: create-resourcehandlingoptions-instance-for-html-loading
+Category: general
+ProcessedDate: 2026-06-01T05:33:57.215020
+SourceRepo: AI Search API
+Keywords: create resourcehandlingoptions instance
+PRNumber: 169

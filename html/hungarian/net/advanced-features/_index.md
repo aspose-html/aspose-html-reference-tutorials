@@ -25,6 +25,7 @@ Az Aspose.HTML for .NET egy hatékony eszköz, amely lehetővé teszi a fejleszt
 Mielőtt belevágnánk az oktatóanyagokba, értsük meg, miért az Aspose.HTML for .NET a preferált választás a fejlesztők számára. Az Aspose.HTML segítségével könnyedén kezelheti és kezelheti a HTML dokumentumokat. Kiterjedt szolgáltatáskészletével olyan feladatokat hajthat végre, mint például a HTML-dokumentumok elemzése, renderelése és konvertálása. Akár tapasztalt fejlesztő, akár csak kezdő, az Aspose.HTML leegyszerűsíti a munkafolyamatot, időt és erőfeszítést takarít meg.
 
 ## Speciális funkciók oktatóanyagok
+
 A .NET fejlesztés területén a fejlett funkciók elsajátítása végtelen lehetőségek előtt nyithat ajtót. Az Aspose.HTML felvértezi Önt azokkal az eszközökkel, amelyekkel kiaknázhatja a HTML-kezelésben rejlő lehetőségeket. Ez a cikk végigvezeti Önt az oktatóanyagokon, és bemutatja, hogyan használhatja fel az Aspose.HTML-t különféle feladatokhoz.
 ### [Környezetkonfiguráció .NET-ben Aspose.HTML-lel](./environment-configuration/)
 Tanulja meg, hogyan dolgozhat HTML-dokumentumokkal .NET-ben az Aspose.HTML használatával olyan feladatokhoz, mint a szkriptkezelés, az egyéni stílusok, a JavaScript-végrehajtás vezérlése stb. Ez az átfogó oktatóanyag lépésről lépésre bemutatja a példákat és a GYIK-et a kezdéshez.
@@ -44,8 +45,10 @@ Ismerje meg, hogyan konvertálhat HTML-t PDF-be, XPS-be és képekké az Aspose.
 Ismerje meg, hogyan használhatja az Aspose.HTML for .NET-et HTML-dokumentumok dinamikus generálására JSON-adatokból. Használja ki a HTML-kezelés erejét .NET-alkalmazásaiban.
 ### [Memóriafolyam létrehozása C# – Egyéni stream létrehozási útmutató](./create-memory-stream-c-custom-stream-creation-guide/)
 Tanulja meg, hogyan hozhat létre egyedi memóriafolyamot C#-ban az Aspose.HTML használatával.
-
-
+### [Betűtípusok programozott egyesítése C#‑ban – Lépésről‑lépésre útmutató](./how-to-combine-fonts-programmatically-in-c-step-by-step-guid/)
+Ismerje meg, hogyan kombinálhat több betűtípust C#‑ban az Aspose.HTML segítségével, részletes lépésekkel.
+### [Assembly verzió lekérése C#‑ban – Gyors útmutató a könyvtár verziójának meghatározásához](./get-assembly-version-in-c-quick-guide-to-retrieve-library-ve/)
+Ismerje meg, hogyan kérheti le egy .NET könyvtár verziószámát C#‑ban egyszerű kóddal.
 ## Következtetés
 
 Az Aspose.HTML for .NET a lehetőségek világa előtt nyitja meg az ajtót, amikor HTML-dokumentumokkal kell dolgozni a .NET-alkalmazásokban. Ezek a speciális oktatóanyagok felvértezik Önt az Aspose.HTML-ben rejlő lehetőségek teljes kihasználásához szükséges ismeretekkel és készségekkel. Emelje fel fejlesztési projektjeit, takarítson meg időt, és készítsen figyelemre méltó megoldásokat az Aspose.HTML for .NET segítségével. Kezdje el oktatóanyagainkat még ma, és emelje webfejlesztését a következő szintre.

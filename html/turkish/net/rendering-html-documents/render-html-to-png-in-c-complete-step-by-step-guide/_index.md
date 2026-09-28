@@ -1,26 +1,26 @@
 ---
 category: general
-date: 2026-02-21
-description: Aspose.HTML ile HTML'yi hızlıca PNG'ye dönüştürün. HTML'yi görüntüye
-  nasıl çevireceğinizi, görüntünün genişlik ve yüksekliğini nasıl ayarlayacağınızı
-  ve C#'ın birkaç satırıyla HTML'yi PNG olarak nasıl kaydedeceğinizi öğrenin.
+date: 2026-01-14
+description: Aspose.HTML ile C#'da HTML'yi PNG'ye dönüştürün. Özel bir kaynak işleyiciyi
+  öğrenin, HTML'yi ZIP olarak kaydedin ve HTML'yi bitmap'e dönüştürün—hepsi tek bir
+  öğreticide.
 draft: false
 keywords:
 - render html to png
-- convert html to image
-- save html as png
-- set image width height
-- generate png from html
+- custom resource handler
+- save html as zip
+- convert html to bitmap
+- how to render png
 language: tr
-og_description: Aspose.HTML ile HTML'yi PNG'ye dönüştürün. Bu öğreticide HTML'yi görüntüye
-  nasıl dönüştüreceğiniz, görüntünün genişlik ve yüksekliğini nasıl ayarlayacağınız
-  ve C#'ta HTML'yi PNG olarak nasıl kaydedeceğiniz gösterilmektedir.
-og_title: C#'ta HTML'yi PNG'ye Render Etme – Tam Kılavuz
+og_description: Aspose.HTML ile C#'ta HTML'yi PNG'ye dönüştürün. Özel bir kaynak işleyicisini
+  öğrenin, HTML'yi ZIP olarak kaydedin ve HTML'yi bitmap'e dönüştürün—hepsi tek bir
+  öğreticide.
+og_title: C# ile HTML'yi PNG'ye Dönüştür – Tam Adım Adım Rehber
 tags:
 - Aspose.HTML
 - C#
 - Image Rendering
-title: C#'de HTML'yi PNG'ye Render Et – Tam Adım Adım Rehber
+title: C#'ta HTML'yi PNG'ye Dönüştür – Tam Adım Adım Rehber
 url: /tr/net/rendering-html-documents/render-html-to-png-in-c-complete-step-by-step-guide/
 ---
 
@@ -28,187 +28,246 @@ url: /tr/net/rendering-html-documents/render-html-to-png-in-c-complete-step-by-s
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# HTML'yi PNG'ye Dönüştür – Tam Adım‑Adım Kılavuz
+# C#'ta HTML'yi PNG'ye Dönüştür – Tam Adım Adım Kılavuz
 
-Hiç **render HTML to PNG** yapmanız gerekti, ancak hangi kütüphaneyi seçeceğinizi ya da çıktıyı nasıl yapılandıracağınızı bilmiyor muydunuz? Yalnız değilsiniz. Birçok geliştirici, e-posta küçük resimleri, rapor anlık görüntüleri veya otomatik UI testleri için *convert HTML to image* yapmak istediğinde aynı duvara çarpar.
+Hiç **render HTML to PNG** yapmanız gerektiğinde .NET projesinde nereden başlayacağınızı bilemediniz mi? Yalnız değilsiniz. Birçok geliştirici, tam bir tarayıcı açmadan bir web sayfasının piksel‑kusursuz anlık görüntüsünü almak istediğinde bir engelle karşılaşıyor.  
 
-Bu öğreticide, Aspose.HTML for .NET kullanarak bir avuç satırla **save HTML as PNG** nasıl yapılır, görüntü boyutları nasıl kontrol edilir ve render kalitesi nasıl ayarlanır gösteren pratik, çalıştırmaya hazır bir örnek üzerinden ilerleyeceğiz. Sonunda, herhangi bir C# projesine ekleyebileceğiniz yeniden kullanılabilir bir kod parçacığına sahip olacaksınız.
+Bu öğreticide, sadece **renders HTML to PNG** yapan bir el‑üstü çözüm üzerinden geçeceğiz, aynı zamanda tüm dış kaynakları **custom resource handler** ile bir ZIP dosyasına nasıl paketleyeceğinizi ve son olarak **convert HTML to bitmap** işlemini nasıl yapacağınızı göstereceğiz. Sonunda Aspose.HTML kullanarak herhangi bir HTML kaynağından *how to render png* nasıl yapılacağını tam olarak bileceksiniz.
 
-## İhtiyacınız Olanlar
+## Öğrenecekleriniz
 
-- **.NET 6.0 veya üzeri** (API, .NET Framework, .NET Core ve .NET 5+ ile çalışır)
-- **Aspose.HTML for .NET** NuGet paketi (`Aspose.Html`) projenize kurulu.
-- C# sözdizimi hakkında temel bir anlayış — ekstra bir şey gerekmez.
-- Oluşturulan PNG'nin yazılacağı bir çıktı klasörü.
+- Diskten bir HTML belgesi yükleme.
+- Görüntüler, CSS, fontlar vb. dış kaynakları doğrudan bir ZIP arşivine akıtacak **custom resource handler** uygulama.
+- Tüm sayfanın birlikte gitmesi için **save HTML as ZIP** seçeneklerini kullanma.
+- **Image rendering options** (boyut, antialiasing, text hinting) tanımlama ve öğeleri anında stillendirme.
+- Sayfayı bir **bitmap** olarak render edip PNG dosyası olarak kaydetme.
+- Güvenilir sonuçlar için yaygın tuzaklar ve profesyonel ipuçları.
 
-Hepsi bu. Ek SDK yok, harici ikili dosya yok, sadece tek bir NuGet referansı.
+> **Prerequisites:** .NET 6+ (or .NET Framework 4.6+), Visual Studio 2022 or any C# IDE, and an Aspose.HTML for .NET license (the free trial works for this demo).
 
-## Render HTML to PNG – Belgeyi Oluşturma
+---
 
-İlk olarak, rasterleştirmek istediğimiz işaretlemeyi tutan bir `HTMLDocument` nesnesi oluşturuyoruz. HTML'yi bir dizeden, bir dosyadan ya da hatta bir URL'den yükleyebilirsiniz. Açıklık getirmek için basit bir satır içi dizeyle başlayacağız.
+## Adım 1: HTML Belgesini Yükleyin
+
+İlk iş olarak HTML dosyasını belleğe almamız gerekiyor. Aspose.HTML’in `Document` sınıfı tüm ağır işleri halleder.
 
 ```csharp
+using System.IO;
 using Aspose.Html;
+using Aspose.Html.Saving;
 using Aspose.Html.Rendering.Image;
-using Aspose.Html.Drawing;
-using System.Drawing;   // for Color
 
-// Step 1: Create an HTML document with sample content
-HTMLDocument htmlDoc = new HTMLDocument(
-    "<html><body><p style='font-family:Arial; font-size:24px;'>Sample text</p></body></html>");
+// Load the source HTML file (adjust the path to your project)
+Document document = new Document("YOUR_DIRECTORY/input.html");
 ```
 
-> **Neden önemli:** `HTMLDocument` kullanarak Aspose.HTML'in CSS ayrıştırmasını, yerleşimini ve yazı tipi çözümlemesini bir tarayıcının yaptığı gibi yapmasını sağlarız. Bu, elde ettiğiniz PNG'nin Chrome veya Edge'de bir kullanıcının gördüğüyle aynı görünmesini garantiler.
+*Why this matters:* Belgeyi yüklemek, Aspose’ın dolaşabileceği, stiller uygulayabileceği ve daha sonra render edebileceği bir DOM oluşturur. Dosya dış kaynaklar (görseller, CSS) içeriyorsa, bunlar bir sonraki adımda ekleyeceğimiz resource handler tarafından çözümlenecek.
 
-## Convert HTML to Image – Render Seçeneklerini Yapılandırma
+---
 
-Sonra motorun işaretlemeyi nasıl rasterleştireceğini tanımlıyoruz. İşte **set image width height** ayarladığınız, antialiasing'i etkinleştirdiğiniz ve bir arka plan rengi seçtiğiniz yer.
+## Adım 2: Varlıkları Paketlemek İçin **Custom Resource Handler** Oluşturun
+
+Bir sayfayı render ederken kütüphane her bağlı kaynağa ihtiyaç duyar. Diskte yazmak yerine, her akışı bir ZIP arşivine yakalayacağız. Bu, klasik **save HTML as zip** desenidir.
 
 ```csharp
-// Step 2: Set up image rendering options (antialiasing, hinting, background, size)
-ImageRenderingOptions renderingOptions = new ImageRenderingOptions
+/// <summary>
+/// Streams each external resource (images, CSS, fonts) into a ZipSaveOptions archive.
+/// </summary>
+class ZipPacker : ResourceHandler
 {
-    UseAntialiasing = true,                 // smoother edges for shapes and text
-    TextOptions = { UseHinting = true },    // clearer glyph shapes on high‑DPI
-    BackColor = Color.White,                // solid white background (transparent also works)
-    Width = 800,                            // set image width
-    Height = 600                            // set image height
-};
-```
+    private readonly ZipSaveOptions _zipOptions;
 
-> **Pro tip:** `Width` ve `Height` değerlerini atlamanız durumunda Aspose.HTML sayfanın içsel boyutunu kullanır, bu da küçük resimler için çok küçük olabilir. Bu değerleri açıkça ayarlamak, nihai PNG boyutları üzerinde tam kontrol sağlar.
+    public ZipPacker(ZipSaveOptions zipOptions) => _zipOptions = zipOptions;
 
-## Generate PNG from HTML – Yazı Tipi Stillerini Uygula (İsteğe Bağlı)
-
-Bazen kalın, italik veya bir kombinasyon stiline ihtiyaç duyarsınız. `WebFontStyle` enum'ı, bayrakları bit düzeyinde OR operatörü (`|`) ile birleştirmenize izin verir. Bu adım isteğe bağlıdır ancak özel stil ile **generate PNG from HTML** nasıl yapılır gösterir.
-
-```csharp
-// Step 3: Combine desired font styles using the WebFontStyle enum
-WebFontStyle combinedFontStyle = WebFontStyle.Bold | WebFontStyle.Italic;
-
-// Step 4: Apply the combined font style to the document via CSS
-htmlDoc.Body.Style.FontStyle = combinedFontStyle.ToString(); // enum → CSS string
-```
-
-> **What’s happening:** `combinedFontStyle.ToString()` `"Bold, Italic"` döndürür ve motor bunu geçerli bir CSS `font-style` değerine çevirir. Sonuç, metnin hem kalın hem de italik göründüğü bir PNG'dir.
-
-## Save HTML as PNG – Son Render Çağrısı
-
-Şimdi her şeyi birleştiriyoruz. `Image` renderlayıcı rasterleştirilmiş içeriği diskte bir dosyaya yazar.
-
-```csharp
-// Step 5: Render the HTML document to a PNG image file
-using (Image renderer = new Image())
-{
-    renderer.Save(htmlDoc, renderingOptions, "output.png");
-}
-```
-
-Programı çalıştırdığınızda çalışma dizininde `output.png` oluşturulur. Açın ve **render html to png** sonucunu göreceksiniz – beyaz bir kanvas üzerinde keskin, antialiaslı metin, tam olarak 800 × 600 piksel.
-
-![render html to png çıktı örneği](output.png)
-
-> **Expected output:** 24‑px Arial, kalın ve italik “Sample text” metnini gösteren bir PNG dosyası, görüntünün ortasında. HTML dizesini veya `Width`/`Height` değerlerini değiştirirseniz PNG buna göre güncellenir.
-
-## Convert HTML to Image – Yaygın Varyasyonlar ve Kenar Durumları
-
-### 1. Uzaktaki Web Sayfasını Render Etme
-
-Eğer canlı bir URL'den **convert HTML to image** yapmanız gerekiyorsa, sadece URL'yi `HTMLDocument`'e geçirin:
-
-```csharp
-HTMLDocument remoteDoc = new HTMLDocument("https://example.com");
-renderer.Save(remoteDoc, renderingOptions, "remote.png");
-```
-
-Hedef sitenin programatik erişime (CORS, kimlik doğrulama vb.) izin verdiğinden emin olun.
-
-### 2. Şeffaf Arka Planlar
-
-`BackColor = Color.Transparent` ayarlayın ve alfa kanallarını destekleyen bir PNG formatı seçin. Bu, görüntüyü diğer UI öğelerinin üzerine yerleştirmek için kullanışlıdır.
-
-### 3. Yüksek Çözünürlüklü Çıktı
-
-Yazdırmaya hazır grafikler için `Width` ve `Height` değerlerini artırın ve aynı zamanda `DPI` ayarlayın:
-
-```csharp
-renderingOptions.DpiX = 300;
-renderingOptions.DpiY = 300;
-renderingOptions.Width = 2400;   // 8 × 300 dpi
-renderingOptions.Height = 1800;  // 6 × 300 dpi
-```
-
-### 4. Büyük Stil Sayfalarını İşleme
-
-Aspose.HTML, bağlı CSS dosyalarını otomatik olarak indirir. Ağ çağrılarını sınırlamak istiyorsanız, kritik CSS'i doğrudan HTML dizesine gömün veya kaynakları önbelleğe almak için `ResourceLoadingOptions` kullanın.
-
-## Tam, Çalıştırılabilir Örnek
-
-Aşağıda, bir konsol uygulamasına kopyalayıp‑yapıştırabileceğiniz tam program yer alıyor. Yukarıda tartışılan tüm adımları, yorumları ve isteğe bağlı ayarlamaları içerir.
-
-```csharp
-using Aspose.Html;
-using Aspose.Html.Rendering.Image;
-using Aspose.Html.Drawing;
-using System.Drawing;   // for Color
-
-namespace HtmlToPngDemo
-{
-    class Program
+    public override Stream HandleResource(ResourceInfo info)
     {
-        static void Main(string[] args)
-        {
-            // 1️⃣ Create the HTML document (inline string for demo)
-            HTMLDocument htmlDoc = new HTMLDocument(
-                "<html><body>" +
-                "<h1 style='font-family:Arial; color:#2E86C1;'>Aspose.HTML Demo</h1>" +
-                "<p style='font-family:Arial; font-size:24px;'>Sample text</p>" +
-                "</body></html>");
-
-            // 2️⃣ Configure rendering options – this is where we **set image width height**
-            ImageRenderingOptions renderingOptions = new ImageRenderingOptions
-            {
-                UseAntialiasing = true,
-                TextOptions = { UseHinting = true },
-                BackColor = Color.White,
-                Width = 800,
-                Height = 600
-            };
-
-            // 3️⃣ (Optional) Apply combined font style – bold + italic
-            WebFontStyle combinedStyle = WebFontStyle.Bold | WebFontStyle.Italic;
-            htmlDoc.Body.Style.FontStyle = combinedStyle.ToString();
-
-            // 4️⃣ Render and **save HTML as PNG**
-            using (Image renderer = new Image())
-            {
-                renderer.Save(htmlDoc, renderingOptions, "output.png");
-            }
-
-            // 5️⃣ Let the user know we’re done
-            System.Console.WriteLine("✅ PNG generated: output.png");
-        }
+        // Aspose calls this for every external resource.
+        // Returning the stream from ZipSaveOptions tells the library to write the data into the ZIP.
+        return _zipOptions.GetOutputStream(info);
     }
 }
 ```
 
-Derleyin ve çalıştırın (`dotnet run` .NET CLI kullanıyorsanız). Konsol dosya oluşturulmasını onaylayacak ve yürütülebilir dosyanın yanında `output.png` bulacaksınız.
+**Pro tip:** `ResourceInfo` nesnesi size orijinal URL’yi verir, böylece istenmeyen kaynakları (ör. analiz scriptleri) filtreleyebilir ve daha hafif bir ZIP elde edebilirsiniz.
 
-## Özet
+Şimdi handler’ı kaydetme seçeneklerine bağlayalım:
 
-Aspose.HTML'i C# içinde kullanarak **render HTML to PNG** yapmak için ihtiyacınız olan her şeyi yeni kapsadık. Belge oluşturma, render seçeneklerini ayarlama, özel yazı tipi stilleri uygulama ve sonunda görüntüyü kaydetme—her adım **why** (neden) önemli olduğu, sadece **how** (nasıl) yazılacağı değil, açıklanmıştır.
+```csharp
+// Prepare ZIP options and attach our custom handler
+var zipOptions = new ZipSaveOptions();
+var resourceHandler = new ZipPacker(zipOptions);
+```
 
-Eğer diğer formatlar için **convert HTML to image** yapmak istiyorsanız, `renderer.Save` içindeki dosya uzantısını `.jpeg` ya da `.bmp` olarak değiştirin ve `ImageSaveOptions`'ı buna göre ayarlayın. Yüzlerce sayfayı toplu işlemek mi istiyorsunuz? Render bloğunu bir `foreach` döngüsü içinde sarın ve her HTML dizesini veya URL'yi besleyin.
+`document.Save` çağrısını yaptığımızda, tüm dış dosyalar `packed_output.zip` içinde yer alacak.
 
-### Sıradaki Adımlar?
+---
 
-- **Explore PDF generation** – Aspose.HTML benzer seçeneklerle PDF'ye de dışa aktarabilir.
-- **Combine multiple pages** – Çok sayfalı bir HTML belgesinin her sayfasını ayrı PNG'lere render edin.
-- **Integrate with ASP.NET Core** – PNG'yi doğrudan bir `FileResult` olarak döndürerek anlık ekran görüntüleri alın.
+## Adım 3: HTML + Varlıkları ZIP Arşivi Olarak Kaydedin
 
-Ayarlarla denemeler yapmaktan, HTML içeriğini değiştirmekten veya bu kodu bir web servisine entegre etmekten çekinmeyin. Anında **generate PNG from HTML** yapabildiğinizde sınır yoktur.
+```csharp
+// This writes the HTML file and every linked resource into a single ZIP.
+document.Save("YOUR_DIRECTORY/packed_output.zip", zipOptions);
+```
 
-Sorularınız veya zor bir kullanım senaryonuz mu var? Aşağıya yorum bırakın, iyi kodlamalar!
+*What you get:* Başka bir makinede açabileceğiniz, unzip yapabileceğiniz veya indirilebilir bir paket olarak sunabileceğiniz, tüm dosyaları içinde barındıran bir paket. Bu, **save HTML as zip** işlemini eksik dosya endişesi olmadan yapmanın en temiz yoludur.
+
+---
+
+## Adım 4: Görüntü Render Seçeneklerini Tanımlayın (Convert HTML to Bitmap)
+
+Şimdi arşivlemeden rasterleştirmeye geçiyoruz. `ImageRenderingOptions` sınıfı çıktı boyutunu, antialiasing’i ve text hinting’i kontrol etmemizi sağlar – yüksek kaliteli bir PNG için temel bileşenler.
+
+```csharp
+ImageRenderingOptions imageOptions = new ImageRenderingOptions
+{
+    Width = 1024,               // Desired pixel width
+    Height = 768,               // Desired pixel height
+    UseAntialiasing = true,     // Smooth edges for shapes and text
+    TextOptions = new TextOptions
+    {
+        UseHinting = true       // Improves readability of small fonts
+    }
+};
+```
+
+**Why these settings?** 1024×768 tuvali, çoğu web sayfası için güvenli bir varsayılandır. Antialiasing keskin kenarları ortadan kaldırırken, text hinting daha küçük font boyutlarında bile net harfler sağlar.
+
+---
+
+## Adım 5: DOM’u Düzenleyin – Render Öncesi Kalın‑Eğik Stil Uygulayın
+
+Bazen bir başlığı vurgulamak ya da sadece PNG çıktısı için görünümünü değiştirmek gerekir. İşte ilk `<h1>` öğesini hedef alıp kalın‑eğik yapmanın yolu.
+
+```csharp
+var titleElement = document.QuerySelector("h1");
+if (titleElement != null)
+{
+    titleElement.Style.FontWeight = WebFontStyle.Bold;
+    titleElement.Style.FontStyle  = WebFontStyle.Italic;
+}
+```
+
+*Edge case:* Sayfada `<h1>` yoksa, kod stil adımını güvenli bir şekilde atlar. Bu mantığı herhangi bir seçici (`.class`, `#id` vb.) için genişleterek render sırasında özelleştirme yapabilirsiniz.
+
+---
+
+## Adım 6: Bitmap’e Render Edin ve PNG Olarak Kaydedin – **Render HTML to PNG**’in Çekirdeği
+
+Son olarak DOM’u bir bitmap’e dönüştürüp PNG dosyası olarak yazıyoruz.
+
+```csharp
+using (var bitmap = document.RenderToBitmap(imageOptions))
+{
+    // The bitmap is an in‑memory representation of the rendered page.
+    bitmap.Save("YOUR_DIRECTORY/rendered.png");
+}
+```
+
+**Result:** `rendered.png`, HTML’nizin piksel‑kusursuz bir anlık görüntüsünü, kalın‑eğik `<h1>` ve ZIP içinde paketlenmiş tüm dış varlıklarla birlikte içerir.
+
+---
+
+## Tam Çalışan Örnek
+
+Aşağıda bir konsol uygulamasına kopyalayıp yapıştırabileceğiniz tam program yer alıyor. `YOUR_DIRECTORY` kısmını makinenizdeki gerçek klasör yolu ile değiştirin.
+
+```csharp
+using System.IO;
+using Aspose.Html;
+using Aspose.Html.Saving;
+using Aspose.Html.Rendering.Image;
+
+class Program
+{
+    static void Main()
+    {
+        // Step 1: Load HTML
+        Document document = new Document("YOUR_DIRECTORY/input.html");
+
+        // Step 2: Custom resource handler for ZIP packing
+        var zipOptions = new ZipSaveOptions();
+        var resourceHandler = new ZipPacker(zipOptions);
+        document.Save("YOUR_DIRECTORY/packed_output.zip", zipOptions); // Save as ZIP
+
+        // Step 4: Rendering options (convert HTML to bitmap)
+        ImageRenderingOptions imageOptions = new ImageRenderingOptions
+        {
+            Width = 1024,
+            Height = 768,
+            UseAntialiasing = true,
+            TextOptions = new TextOptions { UseHinting = true }
+        };
+
+        // Step 5: Bold‑italic the first <h1>
+        var titleElement = document.QuerySelector("h1");
+        if (titleElement != null)
+        {
+            titleElement.Style.FontWeight = WebFontStyle.Bold;
+            titleElement.Style.FontStyle  = WebFontStyle.Italic;
+        }
+
+        // Step 6: Render and save PNG
+        using (var bitmap = document.RenderToBitmap(imageOptions))
+        {
+            bitmap.Save("YOUR_DIRECTORY/rendered.png");
+        }
+    }
+}
+
+// ---------- Custom Resource Handler ----------
+class ZipPacker : ResourceHandler
+{
+    private readonly ZipSaveOptions _zipOptions;
+    public ZipPacker(ZipSaveOptions zipOptions) => _zipOptions = zipOptions;
+
+    public override Stream HandleResource(ResourceInfo info)
+    {
+        // Stream each resource into the ZIP archive
+        return _zipOptions.GetOutputStream(info);
+    }
+}
+```
+
+### Beklenen Çıktı
+
+- **packed_output.zip** – `input.html` ve tüm görseller, CSS, fontlar vb. içerir.
+- **rendered.png** – Orijinal sayfaya görsel olarak eşdeğer, 1024×768 boyutunda bir PNG; ilk başlık kalın‑eğik olarak render edilmiştir.
+
+---
+
+## Sık Sorulan Sorular & Kenar Durumları
+
+| Soru | Cevap |
+|----------|--------|
+| *HTML uzaktan HTTPS üzerinden resim referansları içeriyorsa ne olur?* | Resource handler, Aspose.HTML tarafından desteklenen herhangi bir URI şemasıyla çalışır. Makinenin internet erişimi olduğundan emin olun veya ağ gecikmesini önlemek için varlıkları önceden indirin. |
+| *PNG sıkıştırma seviyesini değiştirebilir miyim?* | Evet. Render sonrası bitmap’i `PngSaveOptions` ile yeniden kaydedebilir ve `CompressionLevel` (0‑9) ayarlayabilirsiniz. |
+| *Bellek sınırlarını aşan büyük sayfalar nasıl yönetilir?* | `document.RenderToBitmap` ile `PageRenderingOptions` kullanarak sayfayı tek tek render edebilir veya işlem belleği limitini artırabilirsiniz. |
+| *Ticari bir lisansa ihtiyacım var mı?* | Değerlendirme için bir deneme sürümü yeterlidir, ancak üretim ortamında değerlendirme filigranlarını kaldırmak için geçerli bir Aspose.HTML lisansı gerekir. |
+| *Sadece belirli bir öğeyi (ör. bir grafik) PNG olarak render etmek mümkün mü?* | Evet. Öğeyi çıkarıp yeni bir `Document` içine klonlayabilir ve o belgeyi render edebilirsiniz. Bu, tüm sayfayı render etmekten kaçınmanızı sağlar. |
+
+---
+
+## Pro İpuçları & En İyi Uygulamalar
+
+- **ZIP akışlarını önbellekle**; bir döngü içinde birçok PDF üretirken aynı `ZipSaveOptions` nesnesini yeniden kullanmak GC baskısını azaltır.
+- **UseAntialiasing** değerini yalnızca piksel‑tam, bulanık olmayan çıktı gerektiğinde (`false`) ayarlayın (ör. pixel art).
+- **HTML’i render etmeden önce doğrula**. Bozuk markup, eksik kaynaklar veya layout kaymalarına yol açabilir.
+- **HandleResource** içinde `ResourceInfo.Uri`’yi logla; kırık linkleri hızlıca tespit etmenin pratik bir yoludur.
+- **CSS medya sorgularını** (`@media print`) PNG görünümünü orijinal sayfayı değiştirmeden özelleştirmek için kullan.
+
+---
+
+## Sonuç
+
+Artık C# içinde **render HTML to PNG** için eksiksiz, üretime hazır bir tarifiniz var. İş akışı, **custom resource handler** ile **save HTML as ZIP** yapmayı, **convert HTML to bitmap** işlemini ve son olarak cilalı bir PNG dosyası üretmeyi gösteriyor.  
+
+Bu temelle thumbnail üretimi otomatikleştirebilir, e‑posta ön izlemeleri oluşturabilir veya PDF‑to‑image boru hatları kurabilirsiniz – tüm dış varlıklar düzenli bir paket içinde tutulur.  
+
+Bir sonraki adıma hazır mısınız? Birden fazla sayfayı tek bir çok‑sayfalı PDF’e render etmeyi deneyin, retina‑hazır varlıklar için farklı `ImageRenderingOptions` ayarları keşfedin veya bu kodu bir ASP.NET Core API’ye entegre ederek kullanıcıların HTML yükleyip anında PNG almasını sağlayın.  
+
+Keyifli kodlamalar, ve ekran görüntüleriniz her zaman kristal‑net olsun!  
+
+![Rendered PNG preview showing the bold‑italic heading](/images/rendered-preview.png "render html to png example")
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

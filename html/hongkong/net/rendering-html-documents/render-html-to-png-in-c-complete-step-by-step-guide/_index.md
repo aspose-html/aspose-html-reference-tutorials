@@ -1,19 +1,19 @@
 ---
 category: general
-date: 2026-02-21
-description: 使用 Aspose.HTML 快速將 HTML 渲染為 PNG。了解如何將 HTML 轉換為圖像、設定圖像寬度與高度，以及在 C# 中僅用幾行程式碼將
-  HTML 儲存為 PNG。
+date: 2026-01-14
+description: 使用 Aspose.HTML 於 C# 將 HTML 渲染為 PNG。學習自訂資源處理程式、將 HTML 儲存為 ZIP，並將 HTML
+  轉換為位圖——一次完整教學。
 draft: false
 keywords:
 - render html to png
-- convert html to image
-- save html as png
-- set image width height
-- generate png from html
+- custom resource handler
+- save html as zip
+- convert html to bitmap
+- how to render png
 language: zh-hant
-og_description: 使用 Aspose.HTML 將 HTML 渲染為 PNG。本教學示範如何將 HTML 轉換為圖像、設定圖像寬度與高度，並在 C#
-  中將 HTML 儲存為 PNG。
-og_title: 在 C# 中將 HTML 渲染為 PNG – 完整指南
+og_description: 使用 Aspose.HTML 在 C# 中將 HTML 渲染為 PNG。學習自訂資源處理程式、將 HTML 儲存為 ZIP，並將 HTML
+  轉換為位圖——一次教學搞掂。
+og_title: 在 C# 中將 HTML 渲染為 PNG – 完整逐步指南
 tags:
 - Aspose.HTML
 - C#
@@ -26,189 +26,246 @@ url: /zh-hant/net/rendering-html-documents/render-html-to-png-in-c-complete-step
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Render HTML to PNG – 完整逐步指南
+# 在 C# 中將 HTML 渲染為 PNG – 完整逐步指南
 
-是否曾需要 **將 HTML 轉換為 PNG**，卻不確定該選哪個函式庫或如何設定輸出？你並不孤單。許多開發者在嘗試 *將 HTML 轉成影像* 用於電郵縮圖、報告快照或自動化 UI 測試時，都會卡在同一個問題上。  
+是否曾需要 **render HTML to PNG**，卻不知該從哪裡開始於 .NET 專案中？你並不孤單。許多開發者在想要取得網頁的像素完美快照卻不想啟動完整瀏覽器時，常會卡住。  
 
-在本教學中，我們將示範一個實用、可直接執行的範例，說明如何 **將 HTML 儲存為 PNG**、控制影像尺寸，並微調渲染品質——全部只需幾行程式碼，使用 Aspose.HTML for .NET。完成後，你將得到一段可重複使用的程式碼，隨時可以放入任何 C# 專案。
+在本教學中，我們將手把手示範一個解決方案，不僅 **renders HTML to PNG**，還會告訴你如何使用 **custom resource handler** 將所有外部資源打包成 ZIP 檔，最後說明如何 **convert HTML to bitmap** 以供後續處理。完成後，你將能夠使用 Aspose.HTML 從任何 HTML 來源 *how to render png*。
 
-## 需要的環境
+## 你將學會
 
-在開始之前，請先確認你已具備：
+- 從磁碟載入 HTML 文件。
+- 實作 **custom resource handler**，將圖片、CSS、字型等直接串流至 ZIP 壓縮檔。
+- 使用 **save HTML as ZIP** 選項，讓整個頁面一起搬運。
+- 定義 **image rendering options**（尺寸、抗鋸齒、文字微調）並即時套用樣式。
+- 將頁面渲染為 **bitmap**，並儲存為 PNG 檔。
+- 常見陷阱與專業提示，確保結果可靠。
 
-- **.NET 6.0 或更新版本**（此 API 同時支援 .NET Framework、.NET Core 與 .NET 5+）
-- 已在專案中安裝 **Aspose.HTML for .NET** NuGet 套件（`Aspose.Html`）
-- 基本的 C# 語法概念——不需要任何進階知識
-- 一個可寫入的輸出資料夾，用來放產生的 PNG
+> **先決條件：** .NET 6+（或 .NET Framework 4.6+）、Visual Studio 2022 或任意 C# IDE，以及 Aspose.HTML for .NET 授權（免費試用版即可完成本示範）。
 
-就這些。無需額外 SDK、外部二進位檔，只要一個 NuGet 參考即可。
+---
 
-## Render HTML to PNG – 設定文件
+## Step 1: Load the HTML Document
 
-首先，我們建立一個 `HTMLDocument` 物件，裡面放入要 rasterize 的標記。HTML 可以從字串、檔案，甚至 URL 載入。為了說明，我們先以簡單的內嵌字串為例。
+首先，我們需要將 HTML 檔案載入記憶體。Aspose.HTML 的 `Document` 類別會處理所有繁重的工作。
 
 ```csharp
+using System.IO;
 using Aspose.Html;
+using Aspose.Html.Saving;
 using Aspose.Html.Rendering.Image;
-using Aspose.Html.Drawing;
-using System.Drawing;   // for Color
 
-// Step 1: Create an HTML document with sample content
-HTMLDocument htmlDoc = new HTMLDocument(
-    "<html><body><p style='font-family:Arial; font-size:24px;'>Sample text</p></body></html>");
+// Load the source HTML file (adjust the path to your project)
+Document document = new Document("YOUR_DIRECTORY/input.html");
 ```
 
-> **為什麼這很重要：** 使用 `HTMLDocument` 後，Aspose.HTML 會像瀏覽器一樣處理 CSS 解析、版面配置與字型解析。這保證了產出的 PNG 與使用 Chrome 或 Edge 時看到的畫面完全相同。
+*為什麼這很重要：* 載入文件會建立一個 DOM，Aspose 可以遍歷、套用樣式，之後再進行渲染。如果檔案包含外部資源（圖片、CSS），稍後會由我們即將加入的資源處理程式解析。
 
-## Convert HTML to Image – 設定渲染選項
+---
 
-接著，我們定義引擎如何 rasterize 標記。這裡可以 **設定影像寬度與高度**、啟用抗鋸齒，並選擇背景顏色。
+## Step 2: Create a **Custom Resource Handler** to Pack Assets
+
+在渲染頁面時，函式庫需要每一個被連結的資源。與其讓它寫入磁碟，我們改為捕獲每個串流，並將其推入 ZIP 壓縮檔。這就是經典的 **save HTML as zip** 模式。
 
 ```csharp
-// Step 2: Set up image rendering options (antialiasing, hinting, background, size)
-ImageRenderingOptions renderingOptions = new ImageRenderingOptions
+/// <summary>
+/// Streams each external resource (images, CSS, fonts) into a ZipSaveOptions archive.
+/// </summary>
+class ZipPacker : ResourceHandler
 {
-    UseAntialiasing = true,                 // smoother edges for shapes and text
-    TextOptions = { UseHinting = true },    // clearer glyph shapes on high‑DPI
-    BackColor = Color.White,                // solid white background (transparent also works)
-    Width = 800,                            // set image width
-    Height = 600                            // set image height
-};
-```
+    private readonly ZipSaveOptions _zipOptions;
 
-> **小技巧：** 若省略 `Width` 與 `Height`，Aspose.HTML 會使用頁面的內在尺寸，可能會太小而不適合作為縮圖。明確設定這兩個值即可完整掌控最終 PNG 的尺寸。
+    public ZipPacker(ZipSaveOptions zipOptions) => _zipOptions = zipOptions;
 
-## Generate PNG from HTML – 套用字型樣式（可選）
-
-有時你需要粗體、斜體或兩者同時使用。`WebFontStyle` 列舉允許使用位元 OR 運算子 (`|`) 合併旗標。此步驟為可選，但可示範如何 **從 HTML 產生 PNG** 並自訂樣式。
-
-```csharp
-// Step 3: Combine desired font styles using the WebFontStyle enum
-WebFontStyle combinedFontStyle = WebFontStyle.Bold | WebFontStyle.Italic;
-
-// Step 4: Apply the combined font style to the document via CSS
-htmlDoc.Body.Style.FontStyle = combinedFontStyle.ToString(); // enum → CSS string
-```
-
-> **發生了什麼事：** `combinedFontStyle.ToString()` 會回傳 `"Bold, Italic"`，引擎會將其轉換為有效的 CSS `font-style` 值。最終產出的 PNG 文字同時呈現粗體與斜體。
-
-## Save HTML as PNG – 最終渲染呼叫
-
-現在把所有步驟串起來。`Image` 渲染器會把 rasterized 內容寫入磁碟檔案。
-
-```csharp
-// Step 5: Render the HTML document to a PNG image file
-using (Image renderer = new Image())
-{
-    renderer.Save(htmlDoc, renderingOptions, "output.png");
-}
-```
-
-執行程式後，會在工作目錄產生 `output.png`。開啟它，你會看到 **render html to png** 的結果——文字清晰、抗鋸齒，白色畫布，尺寸正好為 800 × 600 像素。
-
-![render html to png output example](output.png)
-
-> **預期輸出：** 一個 PNG 檔案，顯示「Sample text」字樣，使用 24 px Arial、粗體與斜體，置中於影像內。若更改 HTML 字串或 `Width`/`Height`，PNG 會相應更新。
-
-## Convert HTML to Image – 常見變形與例外情況
-
-### 1. 渲染遠端網頁
-
-若要 **將 HTML 轉換為影像**，來源是線上 URL，只需把 URL 傳給 `HTMLDocument`：
-
-```csharp
-HTMLDocument remoteDoc = new HTMLDocument("https://example.com");
-renderer.Save(remoteDoc, renderingOptions, "remote.png");
-```
-
-請確保目標網站允許程式化存取（CORS、驗證等）。
-
-### 2. 透明背景
-
-將 `BackColor = Color.Transparent`，並選擇支援 alpha 通道的 PNG 格式。這在要把影像疊加到其他 UI 元素上時非常實用。
-
-### 3. 高解析度輸出
-
-若需列印品質的圖形，可同時提升 `Width`、`Height`，並設定 `DPI`：
-
-```csharp
-renderingOptions.DpiX = 300;
-renderingOptions.DpiY = 300;
-renderingOptions.Width = 2400;   // 8 × 300 dpi
-renderingOptions.Height = 1800;  // 6 × 300 dpi
-```
-
-### 4. 處理大型樣式表
-
-Aspose.HTML 會自動下載連結的 CSS 檔案。若想減少網路請求，可直接在 HTML 字串中嵌入關鍵 CSS，或使用 `ResourceLoadingOptions` 進行資源快取。
-
-## 完整可執行範例
-
-以下程式碼可直接貼到 Console 應用程式中。它包含前述所有步驟、註解與可選調整。
-
-```csharp
-using Aspose.Html;
-using Aspose.Html.Rendering.Image;
-using Aspose.Html.Drawing;
-using System.Drawing;   // for Color
-
-namespace HtmlToPngDemo
-{
-    class Program
+    public override Stream HandleResource(ResourceInfo info)
     {
-        static void Main(string[] args)
-        {
-            // 1️⃣ Create the HTML document (inline string for demo)
-            HTMLDocument htmlDoc = new HTMLDocument(
-                "<html><body>" +
-                "<h1 style='font-family:Arial; color:#2E86C1;'>Aspose.HTML Demo</h1>" +
-                "<p style='font-family:Arial; font-size:24px;'>Sample text</p>" +
-                "</body></html>");
-
-            // 2️⃣ Configure rendering options – this is where we **set image width height**
-            ImageRenderingOptions renderingOptions = new ImageRenderingOptions
-            {
-                UseAntialiasing = true,
-                TextOptions = { UseHinting = true },
-                BackColor = Color.White,
-                Width = 800,
-                Height = 600
-            };
-
-            // 3️⃣ (Optional) Apply combined font style – bold + italic
-            WebFontStyle combinedStyle = WebFontStyle.Bold | WebFontStyle.Italic;
-            htmlDoc.Body.Style.FontStyle = combinedStyle.ToString();
-
-            // 4️⃣ Render and **save HTML as PNG**
-            using (Image renderer = new Image())
-            {
-                renderer.Save(htmlDoc, renderingOptions, "output.png");
-            }
-
-            // 5️⃣ Let the user know we’re done
-            System.Console.WriteLine("✅ PNG generated: output.png");
-        }
+        // Aspose calls this for every external resource.
+        // Returning the stream from ZipSaveOptions tells the library to write the data into the ZIP.
+        return _zipOptions.GetOutputStream(info);
     }
 }
 ```
 
-編譯並執行（若使用 .NET CLI，執行 `dotnet run`）。主控台會顯示檔案建立成功訊息，`output.png` 會出現在執行檔旁邊。
+**專業提示：** `ResourceInfo` 物件會提供原始 URL，若想要更精簡的 ZIP，可過濾掉不需要的資源（例如分析腳本）。
 
-## 總結
+現在把處理程式繫結到儲存選項：
 
-我們已完整說明如何使用 Aspose.HTML 在 C# 中 **將 HTML 渲染為 PNG**。從建立文件、調整渲染選項、套用自訂字型樣式，到最終儲存影像——每一步都說明了 **為什麼** 這麼做，而不只是 **怎麼寫**。  
+```csharp
+// Prepare ZIP options and attach our custom handler
+var zipOptions = new ZipSaveOptions();
+var resourceHandler = new ZipPacker(zipOptions);
+```
 
-若想 **將 HTML 轉換為其他影像格式**，只需把 `renderer.Save` 的副檔名改成 `.jpeg` 或 `.bmp`，並相應調整 `ImageSaveOptions`。需要批次處理多頁？將渲染區塊包在 `foreach` 迴圈中，逐一傳入 HTML 字串或 URL 即可。
+當最終呼叫 `document.Save` 時，所有外部檔案都會寫入 `packed_output.zip`。
 
-### 接下來可以做什麼？
+---
 
-- **探索 PDF 產生** – Aspose.HTML 也能以類似方式匯出 PDF。
-- **合併多頁** – 把多頁 HTML 文件的每一頁分別渲染成 PNG。
-- **整合至 ASP.NET Core** – 直接以 `FileResult` 回傳 PNG，實現即時截圖。
+## Step 3: Save HTML + Resources as a ZIP Archive
 
-歡迎自行嘗試不同設定、替換 HTML 內容，或將此程式碼嵌入 Web 服務。只要能 **即時從 HTML 產生 PNG**，創意無限。
+```csharp
+// This writes the HTML file and every linked resource into a single ZIP.
+document.Save("YOUR_DIRECTORY/packed_output.zip", zipOptions);
+```
 
-有任何問題或特殊需求嗎？在下方留言，我們一起討論，祝開發順利！
+*你會得到什麼：* 一個自包含的套件，可在其他機器上解壓、傳輸，或作為可下載的捆綁檔。這是 **save HTML as zip** 最乾淨的做法，無需擔心遺失檔案。
+
+---
+
+## Step 4: Define Image Rendering Options (Convert HTML to Bitmap)
+
+現在從封存切換到光柵化。`ImageRenderingOptions` 類別讓我們能控制輸出尺寸、抗鋸齒與文字微調——高品質 PNG 的關鍵要素。
+
+```csharp
+ImageRenderingOptions imageOptions = new ImageRenderingOptions
+{
+    Width = 1024,               // Desired pixel width
+    Height = 768,               // Desired pixel height
+    UseAntialiasing = true,     // Smooth edges for shapes and text
+    TextOptions = new TextOptions
+    {
+        UseHinting = true       // Improves readability of small fonts
+    }
+};
+```
+
+**為什麼要這樣設定？** 1024×768 的畫布是大多數網頁的安全預設值。抗鋸齒可去除鋸齒邊緣，文字微調則確保即使在較小字型下也能保持字體清晰。
+
+---
+
+## Step 5: Tweak the DOM – Apply a Bold‑Italic Style Before Rendering
+
+有時需要在 PNG 輸出前突顯標題或變更外觀。以下示範如何定位第一個 `<h1>` 元素並套用粗斜體樣式。
+
+```csharp
+var titleElement = document.QuerySelector("h1");
+if (titleElement != null)
+{
+    titleElement.Style.FontWeight = WebFontStyle.Bold;
+    titleElement.Style.FontStyle  = WebFontStyle.Italic;
+}
+```
+
+*邊緣情況：* 若頁面沒有 `<h1>`，程式碼會安全跳過樣式步驟。你也可以將此邏輯擴充至任何選擇器（`.class`、`#id` 等），即時自訂渲染結果。
+
+---
+
+## Step 6: Render to Bitmap and Save as PNG – The Core of **Render HTML to PNG**
+
+最後，我們將 DOM 轉換為 bitmap，並寫入 PNG 檔案。
+
+```csharp
+using (var bitmap = document.RenderToBitmap(imageOptions))
+{
+    // The bitmap is an in‑memory representation of the rendered page.
+    bitmap.Save("YOUR_DIRECTORY/rendered.png");
+}
+```
+
+**結果：** `rendered.png` 包含了 HTML 的像素完美快照，並帶有粗斜體的 `<h1>` 以及先前打包進 ZIP 的所有外部資產。
+
+---
+
+## Full Working Example
+
+以下是完整程式碼，可直接貼到 Console 應用程式中。別忘了將 `YOUR_DIRECTORY` 替換為實際的資料夾路徑。
+
+```csharp
+using System.IO;
+using Aspose.Html;
+using Aspose.Html.Saving;
+using Aspose.Html.Rendering.Image;
+
+class Program
+{
+    static void Main()
+    {
+        // Step 1: Load HTML
+        Document document = new Document("YOUR_DIRECTORY/input.html");
+
+        // Step 2: Custom resource handler for ZIP packing
+        var zipOptions = new ZipSaveOptions();
+        var resourceHandler = new ZipPacker(zipOptions);
+        document.Save("YOUR_DIRECTORY/packed_output.zip", zipOptions); // Save as ZIP
+
+        // Step 4: Rendering options (convert HTML to bitmap)
+        ImageRenderingOptions imageOptions = new ImageRenderingOptions
+        {
+            Width = 1024,
+            Height = 768,
+            UseAntialiasing = true,
+            TextOptions = new TextOptions { UseHinting = true }
+        };
+
+        // Step 5: Bold‑italic the first <h1>
+        var titleElement = document.QuerySelector("h1");
+        if (titleElement != null)
+        {
+            titleElement.Style.FontWeight = WebFontStyle.Bold;
+            titleElement.Style.FontStyle  = WebFontStyle.Italic;
+        }
+
+        // Step 6: Render and save PNG
+        using (var bitmap = document.RenderToBitmap(imageOptions))
+        {
+            bitmap.Save("YOUR_DIRECTORY/rendered.png");
+        }
+    }
+}
+
+// ---------- Custom Resource Handler ----------
+class ZipPacker : ResourceHandler
+{
+    private readonly ZipSaveOptions _zipOptions;
+    public ZipPacker(ZipSaveOptions zipOptions) => _zipOptions = zipOptions;
+
+    public override Stream HandleResource(ResourceInfo info)
+    {
+        // Stream each resource into the ZIP archive
+        return _zipOptions.GetOutputStream(info);
+    }
+}
+```
+
+### 預期輸出
+
+- **packed_output.zip** – 包含 `input.html` 以及所有圖片、CSS、字型等。
+- **rendered.png** – 1024×768 的 PNG，視覺上與原始頁面相符，且第一個標題已套用粗斜體。
+
+---
+
+## Common Questions & Edge Cases
+
+| Question | Answer |
+|----------|--------|
+| *What if the HTML references remote images over HTTPS?* | 資源處理程式支援 Aspose.HTML 所支援的任何 URI 協定。請確保執行環境具備網路連線，或事先下載資產以避免網路延遲。 |
+| *Can I change the PNG compression level?* | 可以。渲染完成後，可使用 `PngSaveOptions` 重新儲存 bitmap，並設定 `CompressionLevel`（0‑9）。 |
+| *What about large pages that exceed memory limits?* | 使用 `document.RenderToBitmap` 搭配 `PageRenderingOptions` 逐頁渲染，或提升程式的記憶體上限。 |
+| *Do I need a commercial license?* | 試用版可用於評估，但正式上線時需購買有效的 Aspose.HTML 授權，以移除評估水印。 |
+| *Is it possible to render only a specific element (e.g., a chart) as PNG?* | 可以。先抽取目標元素，將其克隆到新的 `Document`，再對該文件渲染。這樣即可避免渲染整個頁面。 |
+
+---
+
+## Pro Tips & Best Practices
+
+- **Cache ZIP streams** 若在迴圈中產生多個 PDF，重複使用同一個 `ZipSaveOptions` 可減少 GC 壓力。
+- **Set `UseAntialiasing` to `false`** 僅在需要像素完美、非模糊輸出（例如像素藝術）時使用。
+- **Validate the HTML** 在渲染前先驗證 HTML。格式錯誤可能導致資源遺失或版面移位。
+- **Log the `ResourceInfo.Uri`** 於 `HandleResource` 內除錯時記錄，快速找出斷掉的連結。
+- **Combine with CSS media queries**（`@media print`）在不改變原始頁面的前提下，調整 PNG 的外觀。
+
+---
+
+## Conclusion
+
+現在你已掌握在 C# 中 **render HTML to PNG** 的完整、可投入生產的作法。整個流程示範了如何使用 **custom resource handler** **save HTML as ZIP**、如何 **convert HTML to bitmap**，以及最終輸出精緻 PNG。  
+
+有了這個基礎，你可以自動產生縮圖、建立 Email 預覽，或建構 PDF‑to‑image 流程，同時保持所有外部資產整齊封存。  
+
+想挑戰下一步嗎？試著將多頁渲染成單一多頁 PDF、調整 `ImageRenderingOptions` 以產出 Retina 級資產，或將此程式碼整合至 ASP.NET Core API，讓使用者上傳 HTML 後即時取得 PNG。  
+
+祝開發順利，願你的螢幕截圖永遠清晰無比！  
+
+![已渲染的 PNG 預覽，顯示粗斜體標題](/images/rendered-preview.png "render html to png example")
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
