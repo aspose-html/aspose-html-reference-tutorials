@@ -67,7 +67,6 @@ Erfahren Sie, wie Sie mit Aspose.HTML für .NET ein HTML-Dokument in C# erstelle
 Erfahren Sie, wie Sie mit Aspose.HTML für .NET HTML in PNG konvertieren und die Ergebnisse in einer ZIP‑Datei speichern – vollständige Anleitung.
 ### [Bild aus HTML in C# erstellen – Vollständiger Schritt‑für‑Schritt‑Leitfaden](./create-image-from-html-in-c-complete-step-by-step-guide/)
 Erfahren Sie, wie Sie mit Aspose.HTML für .NET HTML in ein Bild konvertieren – detaillierte Schritt‑für‑Schritt‑Anleitung.
-
 ### [Rendern Sie EPUB als XPS in .NET mit Aspose.HTML](./render-epub-as-xps/)
 Erfahren Sie in diesem umfassenden Tutorial, wie Sie mit Aspose.HTML für .NET HTML‑Dokumente erstellen und rendern. Tauchen Sie ein in die Welt der HTML‑Manipulation, des Web Scraping und mehr.
 

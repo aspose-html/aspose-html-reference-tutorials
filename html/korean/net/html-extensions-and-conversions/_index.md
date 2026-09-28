@@ -101,6 +101,8 @@ Aspose.HTML for .NET을 사용하여 C#에서 HTML을 ZIP 파일로 저장하는
 Aspose.HTML for .NET을 사용하여 C#에서 HTML을 ZIP 파일로 저장하는 전체 단계별 가이드.
 ### [단일 파일 HTML – C#에서 웹 페이지를 하나의 HTML 파일로 저장](./single-file-html-save-a-web-page-as-one-html-file-in-c/)
 Aspose.HTML for .NET을 사용하여 C#에서 웹 페이지를 단일 HTML 파일로 저장하는 단계별 가이드.
+### [C#에서 HTML을 Zip으로 압축하는 방법 – 사용자 정의 리소스 핸들러 튜토리얼](./how-to-zip-html-in-c-custom-resource-handler-tutorial/)
+C#와 Aspose.HTML을 사용해 사용자 정의 리소스 핸들러로 HTML을 ZIP 파일로 압축하는 단계별 가이드.
 
 ## 결론
 

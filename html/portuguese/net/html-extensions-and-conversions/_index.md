@@ -111,6 +111,9 @@ Aprenda a salvar arquivos HTML em um arquivo ZIP usando C# com um guia passo a p
 ### [HTML de arquivo único – Salvar uma página da Web como um único arquivo HTML em C#](./single-file-html-save-a-web-page-as-one-html-file-in-c/)
 Aprenda a salvar uma página da Web como um único arquivo HTML usando Aspose.HTML para .NET em C# com este tutorial passo a passo.
 
+### [Como compactar HTML em C# – Tutorial de Manipulador de Recursos Personalizado](./how-to-zip-html-in-c-custom-resource-handler-tutorial/)
+Aprenda a compactar HTML em C# usando um manipulador de recursos personalizado com Aspose.HTML para .NET.
+
 ## Conclusão
 
 Concluindo, extensões e conversões HTML são elementos essenciais do desenvolvimento web moderno. O Aspose.HTML para .NET simplifica o processo e o torna acessível a desenvolvedores de todos os níveis. Ao seguir nossos tutoriais, você estará no caminho certo para se tornar um desenvolvedor web proficiente com um amplo conjunto de habilidades.

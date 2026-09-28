@@ -79,6 +79,8 @@ Temukan kekuatan Aspose.HTML untuk .NET: Ubah HTML menjadi XPS dengan mudah. Pra
 Pelajari cara mengompres file HTML menjadi arsip ZIP menggunakan C# dan Aspose.HTML.
 ### [Penangan Sumber Daya Kustom di C# – Tutorial Konversi HTML ke ZIP](./custom-resource-handler-in-c-convert-html-to-zip-tutorial/)
 Pelajari cara menggunakan Custom Resource Handler di C# untuk mengonversi HTML menjadi arsip ZIP dengan Aspose.HTML.
+### [Cara Mengompres HTML menjadi Zip di C# – Tutorial Penangan Sumber Daya Kustom](./how-to-zip-html-in-c-custom-resource-handler-tutorial/)
+Pelajari cara mengompres HTML menjadi ZIP dengan menggunakan Custom Resource Handler di C#.
 ### [Buat Dokumen HTML dengan Teks Bergaya dan Ekspor ke PDF – Panduan Lengkap](./create-html-document-with-styled-text-and-export-to-pdf-full/)
 Pelajari cara membuat dokumen HTML dengan teks berformat dan mengekspornya ke PDF menggunakan Aspose.HTML untuk .NET.
 ### [Simpan HTML sebagai ZIP – Tutorial Lengkap C#](./save-html-as-zip-complete-c-tutorial/)

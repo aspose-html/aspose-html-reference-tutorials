@@ -86,6 +86,8 @@ Ismerje meg, hogyan lehet HTML-fájlokat ZIP-archívumba csomagolni C#-ban az As
 Ismerje meg, hogyan hozhat létre PDF-et HTML-ből C#-ban az Aspose.HTML for .NET használatával. Részletes, lépésről‑lépésre útmutató.
 ### [HTML mentése ZIP-be C#-ban – Teljes lépésről‑lépésre útmutató](./save-html-as-zip-in-c-complete-step-by-step-guide/)
 Ismerje meg, hogyan menthet HTML-fájlt ZIP-archívumba C#-ban az Aspose.HTML for .NET segítségével.
+### [HTML zip-elése C#-ban – Egyéni erőforráskezelő oktatóanyag](./how-to-zip-html-in-c-custom-resource-handler-tutorial/)
+Ismerje meg, hogyan használhat egyéni erőforráskezelőt a HTML zip-eléséhez C#-ban az Aspose.HTML for .NET segítségével.
 
 ## Következtetés
 

@@ -77,6 +77,8 @@ Scopri la potenza di Aspose.HTML per .NET: converti HTML in XPS senza sforzo. Pr
 Scopri come comprimere un documento HTML in un file ZIP usando Aspose.HTML per .NET in C#.
 ### [Come comprimere HTML in C# – Carica HTML e usa gestore personalizzato](./how-to-zip-html-in-c-load-html-use-custom-handler/)
 Scopri come caricare HTML e comprimere in ZIP usando un gestore delle risorse personalizzato in C# con Aspose.HTML.
+### [Come comprimere HTML in C# – Tutorial Gestore di Risorse Personalizzato](./how-to-zip-html-in-c-custom-resource-handler-tutorial/)
+Impara a comprimere HTML in un archivio ZIP usando un gestore di risorse personalizzato con Aspose.HTML per .NET in C#.
 ### [Creare PDF da HTML – Guida passo‑a‑passo C#](./create-pdf-from-html-c-step-by-step-guide/)
 Crea un PDF da HTML in C# con Aspose.HTML per .NET. Segui la nostra guida passo passo per una conversione semplice ed efficace.
 ### [Crea PDF da HTML con Aspose.HTML – Guida passo‑a‑passo](./create-pdf-from-html-with-aspose-html-step-by-step-guide/)

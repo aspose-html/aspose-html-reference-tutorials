@@ -103,6 +103,8 @@ url: /ar/net/html-extensions-and-conversions/
 تعلم كيفية حفظ صفحة ويب كملف HTML واحد باستخدام Aspose.HTML في C#.
 ### [حفظ HTML كملف ZIP – دليل C# كامل](./save-html-to-zip-in-c-complete-guide/)
 تعلم كيفية حفظ مستند HTML كملف ZIP في C# باستخدام Aspose.HTML خطوة بخطوة.
+### [كيفية ضغط HTML في C# – دليل معالج الموارد المخصص](./how-to-zip-html-in-c-custom-resource-handler-tutorial/)
+تعلم كيفية ضغط ملفات HTML باستخدام معالج موارد مخصص في C# مع Aspose.HTML.
 
 ## خاتمة
 

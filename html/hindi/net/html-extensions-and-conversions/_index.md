@@ -97,6 +97,9 @@ Aspose.HTML for .NET का उपयोग करके स्टाइल्�
 .NET के लिए Aspose.HTML की शक्ति का पता लगाएं: HTML को XPS में आसानी से बदलें। पूर्वापेक्षाएँ, चरण-दर-स्टेप मार्गदर्शिका और FAQ शामिल हैं।
 ### [C# में HTML को ZIP में सहेजें – पूर्ण इन‑मेमोरी उदाहरण](./save-html-to-zip-in-c-complete-in-memory-example/)
 C# में इन‑मेमोरी में HTML को ZIP फ़ाइल में सहेजने का पूरा उदाहरण देखें।
+### [C# में HTML को ज़िप कैसे करें – कस्टम रिसोर्स हैंडलर ट्यूटोरियल](./how-to-zip-html-in-c-custom-resource-handler-tutorial/)
+C# में Aspose.HTML का उपयोग करके कस्टम रिसोर्स हैंडलर के साथ HTML को ZIP फ़ाइल में सहेजने का चरण‑दर‑चरण मार्गदर्शन।
+
 ### [C# में HTML को ZIP में सहेजें – पूर्ण गाइड](./save-html-to-zip-in-c-complete-guide/)
 
 ### [सिंगल फ़ाइल HTML – C# में वेब पेज को एक HTML फ़ाइल के रूप में सहेजें](./single-file-html-save-a-web-page-as-one-html-file-in-c/)

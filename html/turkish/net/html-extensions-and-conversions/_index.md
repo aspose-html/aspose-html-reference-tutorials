@@ -60,6 +60,7 @@ Aspose.HTML for .NET kullanarak HTML'den PDF'ye nasıl dönüştüreceğinizi ad
 ### [Aspose.HTML ile HTML'den PDF Oluşturma – Adım Adım Kılavuz](./create-pdf-from-html-with-aspose-html-step-by-step-guide/)
 Aspose.HTML for .NET kullanarak HTML'den PDF'ye dönüşümü ayrıntılı şekilde öğrenin.
 ### [C#'ta HTML'i Zip Dosyasına Sıkıştırma](./how-to-zip-html-in-c-save-html-to-zip/)
+### [C#'ta HTML'i Zip Dosyasına Sıkıştırma – Özel Kaynak İşleyicisi Öğreticisi](./how-to-zip-html-in-c-custom-resource-handler-tutorial/)
 ### [Stil Verilmiş Metinle HTML Belgesi Oluşturma ve PDF'ye Dışa Aktarma – Tam Kılavuz](./create-html-document-with-styled-text-and-export-to-pdf-full/)
 ### [HTML'yi ZIP Olarak Kaydet – Tam C# Öğreticisi](./save-html-as-zip-complete-c-tutorial/)
 Aspose.HTML for .NET kullanarak HTML dosyalarını ZIP arşivine kaydetmeyi adım adım öğrenin.
