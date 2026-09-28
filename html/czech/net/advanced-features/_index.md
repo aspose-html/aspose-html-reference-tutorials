@@ -25,6 +25,7 @@ Aspose.HTML for .NET je výkonný nástroj, který umožňuje vývojářům prac
 Než se ponoříme do výukových programů, pojďme pochopit, proč je Aspose.HTML pro .NET preferovanou volbou pro vývojáře. Aspose.HTML vám dává možnost snadno manipulovat a spravovat HTML dokumenty. Díky rozsáhlé sadě funkcí můžete efektivně provádět úkoly, jako je analýza, vykreslování a převod dokumentů HTML. Ať už jste zkušený vývojář nebo teprve začínáte, Aspose.HTML zjednoduší váš pracovní postup a ušetří vám čas a námahu.
 
 ## Výukové programy pro pokročilé funkce
+
 V oblasti vývoje .NET může zvládnutí pokročilých funkcí otevřít dveře nekonečným možnostem. Aspose.HTML vás vybaví nástroji pro využití plného potenciálu manipulace s HTML. Tento článek vás provede výběrem výukových programů a odhalí, jak využít Aspose.HTML pro různé úkoly.
 ### [Konfigurace prostředí v .NET s Aspose.HTML](./environment-configuration/)
 Naučte se pracovat s dokumenty HTML v .NET pomocí Aspose.HTML pro úkoly, jako je správa skriptů, vlastní styly, řízení spouštění JavaScriptu a další. Tento komplexní výukový program poskytuje podrobné příklady a často kladené dotazy, které vám pomohou začít.
@@ -44,8 +45,10 @@ Naučte se převádět HTML do PDF, XPS a obrázků pomocí Aspose.HTML pro .NET
 Naučte se používat Aspose.HTML pro .NET k dynamickému generování HTML dokumentů z dat JSON. Využijte sílu manipulace s HTML ve svých aplikacích .NET.
 ### [Vytvořte paměťový stream v C# – Průvodce tvorbou vlastního streamu](./create-memory-stream-c-custom-stream-creation-guide/)
 Naučte se, jak vytvořit vlastní paměťový stream v C# pomocí Aspose.HTML a efektivně manipulovat s HTML dokumenty.
-
-
+### [Jak kombinovat písma programově v C# – krok za krokem](./how-to-combine-fonts-programmatically-in-c-step-by-step-guid/)
+Naučte se, jak v C# programově spojovat více písem do jednoho souboru pomocí Aspose.HTML, s podrobnými ukázkami a tipy.
+### [Získání verze sestavení v C# – Rychlý průvodce získáním verze knihovny](./get-assembly-version-in-c-quick-guide-to-retrieve-library-ve/)
+Naučte se, jak v C# získat verzi sestavení knihovny pomocí reflexe.
 ## Závěr
 
 Aspose.HTML for .NET otevírá dveře do světa možností, pokud jde o práci s dokumenty HTML ve vašich aplikacích .NET. Tyto pokročilé výukové programy vás vybaví znalostmi a dovednostmi potřebnými k využití plného potenciálu Aspose.HTML. Zvyšte své vývojové projekty, ušetřete čas a vytvářejte pozoruhodná řešení s Aspose.HTML for .NET. Začněte s našimi výukovými programy ještě dnes a posuňte svůj vývoj webu na další úroveň.

@@ -1,0 +1,7 @@
+Title: How to Download Icons with Python – Complete Guide
+Slug: how-to-download-icons-with-python-complete-guide
+Category: general
+ProcessedDate: 2026-06-01T05:34:00.123349
+SourceRepo: AI Search API
+Keywords: how to download icons, how to extract favicon, write binary file python, read html document python, load html python
+PRNumber: 169

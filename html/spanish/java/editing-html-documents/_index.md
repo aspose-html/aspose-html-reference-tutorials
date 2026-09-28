@@ -62,6 +62,10 @@ Aprenda a implementar CSS interno en documentos HTML usando Aspose.HTML para Jav
 Aprenda a crear nuevos elementos HTML en Java usando Aspose.HTML con una guía paso a paso.
 ### [Pool de hilos fijo en Java – Limpieza paralela de HTML con ExecutorService](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 Aprenda a usar un pool de hilos fijo y ExecutorService para limpiar HTML en paralelo con Aspose.HTML para Java.
+### [Agregar un hijo al cuerpo en Java – Tutorial completo de Aspose.HTML](./append-child-to-body-in-java-full-aspose-html-tutorial/)
+Aprenda a agregar un elemento hijo al cuerpo del documento HTML usando Aspose.HTML para Java en este tutorial paso a paso.
+### [Cambiar texto h1 en MHTML con Java – Guía completa paso a paso](./change-h1-text-in-mhtml-with-java-full-step-by-step-guide/)
+Aprenda a modificar el texto del encabezado h1 en archivos MHTML usando Aspose.HTML para Java con esta guía paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
