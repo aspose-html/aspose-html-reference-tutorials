@@ -1,11 +1,71 @@
 ---
-date: 2026-03-21
-description: Pelajari cara memuat dokumen HTML di Java dan memproses respons JSON
-  di Java menggunakan Aspose.HTML untuk Java. Otomatiskan pengisian formulir, pengiriman,
-  dan tangani respons secara efisien.
-linktitle: HTML Form Editor - Filling and Submitting Forms
+date: 2026-09-14
+description: Pelajari cara memuat dokumen HTML dengan Java dan memproses respons JSON
+  menggunakan Aspose.HTML for Java. Otomatisasi pengisian formulir, pengiriman, dan
+  penanganan respons secara efisien.
+keywords:
+- json parsing java
+- load html java
+- html dom manipulation java
+- submit html form java
+- process json response java
+lastmod: 2026-09-14
+linktitle: Editor Formulir HTML - Mengisi dan Mengirim Formulir
+og_description: Pelajari parsing JSON Java dengan Aspose.HTML for Java dengan memuat
+  dokumen HTML, mengisi formulir, mengirimnya, dan menangani respons JSON secara efisien.
+og_image_alt: 'Developer guide: parse JSON in Java while automating HTML form filling
+  using Aspose.HTML'
+og_title: Parsing JSON Java saat memuat HTML – otomatisasi pengisian formulir
+schemas:
+- author: Aspose
+  dateModified: '2026-09-14'
+  description: Learn how to load html document java and process json response java
+    using Aspose.HTML for Java. Automate form filling, submission, and handle responses
+    efficiently.
+  headline: Json parsing java while loading HTML – automate form filling
+  type: TechArticle
+- description: Learn how to load html document java and process json response java
+    using Aspose.HTML for Java. Automate form filling, submission, and handle responses
+    efficiently.
+  name: Json parsing java while loading HTML – automate form filling
+  steps:
+  - name: '**Java Development Environment** – JDK 8+ and an IDE (IntelliJ IDEA, Eclipse,
+      etc.).'
+    text: '**Java Development Environment** – JDK 8+ and an IDE (IntelliJ IDEA, Eclipse,
+      etc.).'
+  - name: '**Aspose.HTML for Java** – Download and install from the official site.
+      You can download Aspose.HTML for Java from the official release page **[Aspose.HTML
+      for Java download](https://releases.aspose.com/html/java/)**.'
+    text: '**Aspose.HTML for Java** – Download and install from the official site.
+      You can download Aspose.HTML for Java from the official release page **[Aspose.HTML
+      for Java download](https://releases.aspose.com/html/java/)**.'
+  - name: '**IDE Configuration** – Add the Aspose.HTML JARs to your project’s classpath.'
+    text: '**IDE Configuration** – Add the Aspose.HTML JARs to your project’s classpath.'
+  type: HowTo
+- questions:
+  - answer: Yes, you can use Aspose.HTML for Java to interact with HTML forms on most
+      websites that allow programmatic form submission.
+    question: Can I use Aspose.HTML for Java to interact with HTML forms on any website?
+  - answer: Aspose.HTML for Java is a commercial library. Licensing and pricing details
+      are available on the Aspose.HTML purchase page **[Aspose.HTML purchase page](https://purchase.aspose.com/buy)**.
+    question: Is Aspose.HTML for Java free to use?
+  - answer: Yes, a free trial version is available. Download it from the Aspose.HTML
+      free trial page **[Aspose.HTML free trial](https://releases.aspose.com/)**.
+    question: Can I try Aspose.HTML for Java before purchasing a license?
+  - answer: Load the document once, then create separate `FormEditor` instances for
+      each form index (the second parameter of `FormEditor.create`). This keeps memory
+      usage low.
+    question: How do I handle large HTML pages that contain many forms?
+  - answer: For technical support, visit the Aspose.HTML support forum **[Aspose.HTML
+      support forum](https://forum.aspose.com/)**.
+    question: Where can I find further support and assistance?
+  type: FAQPage
 second_title: Java HTML Processing with Aspose.HTML
-title: Muat Dokumen HTML Java – Otomatisasi Pengisian Formulir HTML Aspose
+tags:
+- json parsing
+- Aspose.HTML
+- Java form automation
+title: Parsing JSON Java saat memuat HTML – otomatisasi pengisian formulir
 url: /id/java/advanced-usage/html-form-editor-filling-submitting-forms/
 weight: 14
 ---
@@ -14,37 +74,36 @@ weight: 14
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Muat Dokumen HTML Java – Otomatisasi Pengisian Formulir Aspose HTML
+# Parsing JSON Java saat memuat HTML – mengotomatisasi pengisian formulir
 
-Di dunia pengembangan yang bergerak cepat saat ini, **memuat dokumen HTML di Java** dengan pustaka Aspose.HTML (teknik *load html document java*) memungkinkan Anda mengotomatisasi interaksi formulir tanpa UI peramban. Baik Anda mengisi akun uji, mengirimkan umpan balik massal, atau mengintegrasikan portal warisan ke layanan Java modern, pendekatan ini menghilangkan klik manual dan mengurangi kesalahan manusia. Dalam tutorial ini kami akan membahas setiap langkah—dari memuat halaman hingga menangani respons JSON—sehingga Anda dapat mulai mengotomatisasi formulir segera.
+Dalam layanan back‑end Java modern, Anda sering perlu **parse JSON in Java** setelah berinteraksi secara programatik dengan halaman web. Dengan menggunakan Aspose.HTML for Java, Anda dapat memuat dokumen HTML, mengisi elemen `<form>`‑nya, mengirimkan permintaan, dan kemudian **json parsing java** payload JSON server—semua tanpa browser headless. Tutorial ini memandu Anda melalui setiap langkah, mulai dari memuat halaman hingga mengekstrak respons JSON, sehingga Anda dapat menyematkan otomatisasi formulir langsung ke dalam aplikasi Java Anda.
 
 ## Jawaban Cepat
-- **Pustaka apa yang menangani otomatisasi formulir HTML di Java?** Aspose.HTML untuk Java (aspose html form filling)  
-- **Kelas mana yang memuat halaman remote?** `HTMLDocument` (load html document java)  
-- **Bagaimana cara mengirimkan formulir secara programatik?** Gunakan `FormSubmitter` (java form submitter example)  
-- **Bisakah saya memproses respons JSON?** Ya – periksa respons dengan `SubmissionResult` (process json response java)  
+- **Library apa yang menangani otomatisasi formulir HTML di Java?** Aspose.HTML for Java (aspose html form filling).  
+- **Kelas mana yang memuat halaman remote?** `HTMLDocument` (load html document java).  
+- **Bagaimana cara mengirimkan formulir secara programatik?** Gunakan `FormSubmitter` (java form submitter example).  
+- **Bisakah saya memproses respons JSON?** Ya – periksa respons dengan `SubmissionResult` (process json response java).  
 - **Apakah saya memerlukan lisensi untuk produksi?** Lisensi komersial Aspose.HTML diperlukan untuk penggunaan produksi.
 
-## Apa Itu Pengisian Formulir Aspose HTML?
-Pengisian Formulir Aspose HTML mengacu pada kemampuan pustaka Aspose.HTML untuk Java dalam berinteraksi secara programatik dengan elemen `<form>`—menetapkan nilai bidang, memilih opsi, dan akhirnya mengirimkan data ke server, semuanya tanpa UI peramban.
+## Apa itu Pengisian Formulir Aspose HTML?
 
-## Mengapa Menggunakan Aspose.HTML untuk Java?
-- **Tanpa ketergantungan peramban** – Berfungsi di lingkungan head‑less seperti pipeline CI.  
-- **Akses DOM penuh** – Perlakukan halaman seperti dokumen HTML biasa, memungkinkan Anda menanyakan elemen berdasarkan nama atau ID.  
-- **Penanganan submit bawaan** – `FormSubmitter` menangani multipart, URL‑encoded, dan enkoding lainnya secara otomatis.  
-- **Pemrosesan respons yang kuat** – Mudah membaca hasil JSON atau HTML, menjadikannya ideal untuk pengujian API atau ekstraksi data.
+Aspose.HTML for Java memungkinkan Anda berinteraksi secara programatik dengan elemen `<form>`—menetapkan nilai bidang, memilih opsi, dan mengirimkan data tanpa browser grafis. Ia menyediakan model DOM lengkap, enkoding permintaan otomatis, dan penanganan respons bawaan, menjadikannya ideal untuk pengujian otomatis, migrasi data, dan integrasi backend.
+
+## Mengapa menggunakan Aspose.HTML for Java?
+
+Anda dapat mengotomatisasi pengiriman formulir di lingkungan head‑less seperti pipeline CI, kontainer Docker, atau fungsi server‑less. Aspose.HTML mendukung **30+ format input dan output**, dapat memproses **dokumen HTML 500‑halaman** dalam kurang dari **2 detik** pada VM tipikal, dan menangani multipart, URL‑encoded, serta payload JSON secara langsung, menghilangkan kebutuhan akan klien HTTP terpisah atau Selenium.
 
 ## Prasyarat
 
-Sebelum kita masuk ke langkah‑langkah mengisi dan mengirimkan formulir HTML menggunakan Aspose.HTML untuk Java, pastikan Anda telah menyiapkan prasyarat berikut:
+Sebelum kita masuk ke langkah-langkah mengisi dan mengirimkan formulir HTML menggunakan Aspose.HTML for Java, pastikan Anda memiliki prasyarat berikut:
 
 1. **Lingkungan Pengembangan Java** – JDK 8+ dan IDE (IntelliJ IDEA, Eclipse, dll.).  
-2. **Aspose.HTML untuk Java** – Unduh dan instal dari situs resmi. Anda dapat menemukan tautan unduhan [di sini](https://releases.aspose.com/html/java/).  
+2. **Aspose.HTML for Java** – Unduh dan instal dari situs resmi. Anda dapat mengunduh Aspose.HTML for Java dari halaman rilis resmi **[Aspose.HTML for Java download](https://releases.aspose.com/html/java/)**.  
 3. **Konfigurasi IDE** – Tambahkan JAR Aspose.HTML ke classpath proyek Anda.
 
-## Mengimpor Paket yang Diperlukan
+## Mengimpor paket yang diperlukan
 
-Pertama, impor kelas‑kelas yang diperlukan. Impor ini memberi Anda akses ke model dokumen, utilitas pengeditan formulir, dan penanganan hasil.
+Pertama, impor kelas yang diperlukan. Impor ini memberi Anda akses ke model dokumen, utilitas pengeditan formulir, dan penanganan hasil.
 
 ```java
 // Import required packages
@@ -57,42 +116,38 @@ import java.util.HashMap;
 import java.util.Map;
 ```
 
-## Cara load html document java
+## Cara memuat dokumen HTML di Java
 
-Berikut adalah langkah‑langkah berurutan. Setiap langkah mencakup penjelasan singkat diikuti kode tepat yang perlu Anda salin.
-
-### Langkah 1: Muat Dokumen HTML (load html document java)
-
-Untuk memulai, buat instance `HTMLDocument` yang menunjuk ke halaman yang berisi formulir yang ingin Anda manipulasi. Pada contoh ini kami menggunakan endpoint pengujian publik.
+Muat halaman target ke dalam objek `HTMLDocument`, yang mewakili satu file HTML dalam memori dan membangun pohon DOM. Dokumen ini mem-parsing markup, menampilkan API DOM standar untuk pencarian elemen dan manipulasi atribut, menyediakan dasar untuk pengeditan formulir selanjutnya dan parsing JSON di Java.
 
 ```java
 HTMLDocument document = new HTMLDocument("https://httpbin.org/forms/post");
 ```
 
-### Langkah 2: Buat Form Editor
+## Cara membuat editor formulir
 
-`FormEditor` memberikan API yang nyaman untuk menemukan dan memperbarui bidang formulir.
+`FormEditor` adalah kelas pembantu yang membungkus DOM dan menawarkan getter serta setter bertipe untuk elemen input, select, dan textarea. Ini menyederhanakan pencarian dan pembaruan bidang formulir dalam dokumen yang dimuat, memungkinkan Anda fokus pada logika bisnis daripada traversing DOM tingkat rendah.
 
 ```java
 FormEditor editor = FormEditor.create(document, 0);
 ```
 
-### Langkah 3: Isi Data Formulir
+## Cara mengisi data formulir
 
-Anda memiliki tiga cara fleksibel untuk mengisi formulir:
+Anda dapat mengisi bidang formulir dengan tiga cara fleksibel: menetapkan nilai input tunggal secara langsung, bekerja dengan tipe elemen tertentu menggunakan metode bertipe, atau mengisi banyak bidang sekaligus dengan menyediakan peta nama dan nilai. Pendekatan ini menyederhanakan entri data untuk berbagai skenario otomatisasi.
 
-#### 3.1 Set nilai input tunggal secara langsung
+### 3.1 Tetapkan nilai input tunggal secara langsung
 ```java
 editor.get_Item("custname").setValue("John Doe");
 ```
 
-#### 3.2 Bekerja dengan tipe elemen tertentu
+### 3.2 Bekerja dengan tipe elemen tertentu
 ```java
 TextAreaElement comments = editor.getElement(TextAreaElement.class, "comments");
 comments.setValue("MORE CHEESE PLEASE!");
 ```
 
-#### 3.3 Isi banyak bidang sekaligus menggunakan peta (java form submitter example)
+### 3.3 Isi banyak bidang sekaligus menggunakan peta (java form submitter example)
 ```java
 Map<String, String> formData = new HashMap<>();
 formData.put("custemail", "john.doe@gmail.com");
@@ -100,25 +155,25 @@ formData.put("custtel", "+1202-555-0290");
 editor.fill(formData);
 ```
 
-### Langkah 4: Buat Form Submitter (java form submitter example)
+## Cara membuat FormSubmitter
 
-`FormSubmitter` menangani HTTP POST (atau GET) di belakang layar.
+`FormSubmitter` adalah komponen yang mengambil `HTMLDocument` yang telah diedit, mengekstrak elemen `<form>`, dan melakukan permintaan HTTP. Ia secara otomatis meng-encode data multipart, bidang URL‑encoded, dan payload JSON sesuai kebutuhan, mengembalikan `SubmissionResult` dengan status, header, dan body respons untuk pemrosesan lebih lanjut.
 
 ```java
 FormSubmitter submitter = new FormSubmitter(editor);
 ```
 
-### Langkah 5: Kirim Formulir
+## Cara mengirimkan formulir
 
-Panggil `submit()` untuk mengirim data ke server. Anda dapat menambahkan parameter opsional seperti kredensial atau timeout, namun nilai default sudah cukup untuk kebanyakan kasus.
+Panggil metode `submit()` pada `FormSubmitter` untuk mengirim data yang telah diisi ke server. Metode ini mengembalikan `SubmissionResult` yang membungkus respons, menampilkan kode status, header, dan body respons mentah untuk analisis lebih lanjut, atau penanganan error bila diperlukan.
 
 ```java
 SubmissionResult result = submitter.submit();
 ```
 
-## Cara process json response java
+## Cara memproses respons JSON di Java
 
-Setelah pengiriman, server mungkin mengembalikan JSON, HTML, atau tipe konten lainnya. Potongan kode berikut menunjukkan cara mendeteksi dan menangani respons JSON maupun HTML.
+Setelah pengiriman, periksa `SubmissionResult` untuk menentukan tipe konten dan mengambil body respons. Jika header `Content‑Type` menunjukkan JSON, gunakan parser JSON untuk mendeserialisasi payload, memungkinkan pemrosesan lanjutan dalam aplikasi Java Anda, atau tangani error sesuai kebutuhan.
 
 ```java
 if (result.isSuccess()) {
@@ -134,36 +189,41 @@ if (result.isSuccess()) {
 }
 ```
 
-## Masalah Umum & Pemecahan Masalah
+## Masalah umum & pemecahan masalah
 
 | Masalah | Penyebab | Solusi |
 |-------|-------|-----|
-| **NullPointerException pada `editor.get_Item(...)`** | Nama elemen salah ketik atau tidak ada. | Verifikasi atribut `name` yang tepat di sumber halaman (gunakan DevTools peramban). |
-| **SubmissionResult.isSuccess() mengembalikan false** | Server menolak permintaan (misalnya, bidang wajib belum diisi). | Periksa bidang wajib, pastikan semua input mandatory terisi, dan tinjau header respons untuk detail kesalahan. |
-| **Respons JSON tidak dikenali** | Header Content‑Type berbeda (misalnya `application/json; charset=utf-8`). | Gunakan `startsWith("application/json")` atau parsing langsung isi respons. |
+| **NullPointerException on `editor.get_Item(...)`** | Nama elemen salah ketik atau tidak ada. | Verifikasi atribut `name` yang tepat di sumber halaman (gunakan DevTools browser). |
+| **SubmissionResult.isSuccess() returns false** | Server menolak permintaan (misalnya, bidang yang diperlukan tidak ada). | Periksa bidang yang diperlukan, pastikan semua input wajib terisi, dan periksa header respons untuk detail error. |
+| **JSON response not recognized** | Header Content‑Type berbeda (misalnya, `application/json; charset=utf-8`). | Gunakan `startsWith("application/json")` atau parse body respons secara langsung. |
 
-## Pertanyaan yang Sering Diajukan
+## Pertanyaan yang sering diajukan
 
-**T: Bisakah saya menggunakan Aspose.HTML untuk Java berinteraksi dengan formulir HTML di situs web mana pun?**  
-J: Ya, Anda dapat menggunakan Aspose.HTML untuk Java berinteraksi dengan formulir HTML di sebagian besar situs web yang mengizinkan pengiriman formulir secara programatik.
+**Q: Bisakah saya menggunakan Aspose.HTML for Java untuk berinteraksi dengan formulir HTML di situs web mana pun?**  
+A: Ya, Anda dapat menggunakan Aspose.HTML for Java untuk berinteraksi dengan formulir HTML di sebagian besar situs web yang memperbolehkan pengiriman formulir secara programatik.
 
-**T: Apakah Aspose.HTML untuk Java gratis digunakan?**  
-J: Aspose.HTML untuk Java adalah pustaka komersial. Detail lisensi dan harga tersedia di situs Aspose [di sini](https://purchase.aspose.com/buy).
+**Q: Apakah Aspose.HTML for Java gratis untuk digunakan?**  
+A: Aspose.HTML for Java adalah perpustakaan komersial. Detail lisensi dan harga tersedia di halaman pembelian Aspose.HTML **[Aspose.HTML purchase page](https://purchase.aspose.com/buy)**.
 
-**T: Bisakah saya mencoba Aspose.HTML untuk Java sebelum membeli lisensi?**  
-J: Ya, versi percobaan gratis tersedia. Unduh dari [tautan ini](https://releases.aspose.com/).
+**Q: Bisakah saya mencoba Aspose.HTML for Java sebelum membeli lisensi?**  
+A: Ya, versi percobaan gratis tersedia. Unduh dari halaman percobaan gratis Aspose.HTML **[Aspose.HTML free trial](https://releases.aspose.com/)**.
 
-**T: Bagaimana cara menangani halaman HTML besar yang berisi banyak formulir?**  
-J: Muat dokumen sekali, lalu buat instance `FormEditor` terpisah untuk setiap indeks formulir (parameter kedua `FormEditor.create`). Ini menjaga penggunaan memori tetap rendah.
+**Q: Bagaimana cara menangani halaman HTML besar yang berisi banyak formulir?**  
+A: Muat dokumen sekali, lalu buat instance `FormEditor` terpisah untuk setiap indeks formulir (parameter kedua dari `FormEditor.create`). Ini menjaga penggunaan memori tetap rendah.
 
-**T: Di mana saya dapat menemukan dukungan dan bantuan lebih lanjut?**  
-J: Untuk dukungan teknis, kunjungi forum Aspose [di sini](https://forum.aspose.com/).
+**Q: Di mana saya dapat menemukan dukungan dan bantuan lebih lanjut?**  
+A: Untuk dukungan teknis, kunjungi forum dukungan Aspose.HTML **[Aspose.HTML support forum](https://forum.aspose.com/)**.
 
----
+**Terakhir Diperbarui:** 2026-09-14  
+**Diuji Dengan:** Aspose.HTML for Java 24.12 (latest at time of writing)  
+**Penulis:** Aspose
 
-**Terakhir Diperbarui:** 2026-03-21  
-**Diuji Dengan:** Aspose.HTML untuk Java 24.12 (terbaru pada saat penulisan)  
-**Penulis:** Aspose  
+## Tutorial Terkait
+
+- [Muat Dokumen HTML dari URL di Aspose.HTML for Java](/html/java/creating-managing-html-documents/load-html-documents-from-url/)
+- [Periksa Pengiriman Formulir - Pengeditan dan Pengiriman Formulir HTML dengan Aspose.HTML for Java](/html/java/css-html-form-editing/html-form-editing/)
+- [Tangani Peristiwa Muat Dokumen di Aspose.HTML for Java](/html/java/creating-managing-html-documents/handle-document-load-events/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

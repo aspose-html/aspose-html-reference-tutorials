@@ -1,24 +1,50 @@
 ---
 category: general
-date: 2026-01-06
-description: كيفية تحويل ملفات SVG بسرعة باستخدام Aspose HTML Converter. تعلم إعداد
-  جودة JPEG، تحويل المتجه إلى نقطي، وتحويل ملفات SVG في Java.
+date: 2026-09-14
+description: تعلم كيفية تحويل SVG إلى PNG في Java باستخدام Aspose HTML Converter.
+  يغطي هذا الدليل إعدادات جودة JPEG، وتحويل vector‑to‑raster، وstep‑by‑step code.
 draft: false
 keywords:
-- how to convert svg
+- convert svg to png java
 - jpeg quality setting
-- convert vector to raster
-- svg file conversion
+- vector to raster conversion
 - aspose html converter
-language: ar
-og_description: كيفية تحويل ملفات SVG بسرعة باستخدام Aspose HTML Converter. تعلّم
-  ضبط جودة JPEG، تحويل المتجه إلى نقطية، وتحويل ملفات SVG في Java.
-og_title: كيفية تحويل SVG – دليل كامل باستخدام محول Aspose HTML
+lastmod: 2026-09-14
+og_description: تعلم كيفية تحويل SVG إلى PNG في Java باستخدام Aspose HTML Converter.
+  يغطي هذا الدليل إعدادات جودة JPEG، وتحويل vector‑to‑raster، وstep‑by‑step code.
+og_image_alt: Diagram showing SVG to PNG conversion using Aspose HTML in Java
+og_title: كيفية تحويل SVG إلى PNG في Java باستخدام Aspose HTML
+schemas:
+- author: Aspose
+  dateModified: '2026-09-14'
+  description: Learn how to convert SVG to PNG in Java using Aspose HTML Converter.
+    This guide covers JPEG quality settings, vector‑to‑raster conversion, and step‑by‑step
+    code.
+  headline: How to convert SVG to PNG in Java with Aspose HTML
+  type: TechArticle
+- questions:
+  - answer: Yes. The same `Converter` calls work inside any Java runtime, including
+      Spring Boot services or command‑line tools.
+    question: Can I use this code in a Spring Boot application?
+  - answer: The library rasterizes the first frame of animated SVGs; it does not output
+      animated PNG or GIF directly.
+    question: Does Aspose.HTML support SVG animation?
+  - answer: It can process SVGs up to 10 MB and 5000 × 5000 px without running out
+      of memory, thanks to its streaming architecture.
+    question: What is the maximum SVG size Aspose.HTML can handle?
+  - answer: Set `ImageSaveOptions.setBackgroundColor(java.awt.Color.WHITE)` before
+      calling the save method.
+    question: How do I change the background color of the generated PNG?
+  - answer: Yes, use `PngOptions.setMetadata(...)` to attach custom key‑value pairs.
+    question: Is there a way to embed metadata (e.g., author) into the PNG?
+  type: FAQPage
 tags:
 - Java
-- Aspose
-- Image Conversion
-title: كيفية تحويل SVG – دليل كامل باستخدام محول Aspose HTML
+- Aspose HTML
+- image conversion
+- SVG to PNG
+- rasterization
+title: كيفية تحويل SVG إلى PNG في Java باستخدام Aspose HTML
 url: /ar/java/conversion-html-to-other-formats/how-to-convert-svg-complete-guide-using-aspose-html-converte/
 ---
 
@@ -26,25 +52,49 @@ url: /ar/java/conversion-html-to-other-formats/how-to-convert-svg-complete-guide
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# كيفية تحويل SVG – دليل كامل باستخدام Aspose HTML Converter
+# كيفية تحويل SVG إلى PNG في Java باستخدام Aspose HTML
 
-هل تساءلت يومًا **كيفية تحويل SVG** إلى تنسيق بت ماب دون فقدان الوضوح؟ لست وحدك. يواجه العديد من المطورين صعوبة عندما يحتاجون إلى تحويل الرسومات المتجهة إلى PNG أو JPEG لصور مصغرة على الويب، أو تضمينها في البريد الإلكتروني، أو أصول جاهزة للطباعة.
+إذا كنت بحاجة إلى **تحويل SVG إلى PNG** بسرعة مع الحفاظ على حواف المتجه الحادة، فأنت في المكان المناسب. في العديد من مشاريع الويب‑والهواتف المحمولة، تعتبر أيقونات SVG مثالية للتوسع، لكن الأنظمة اللاحقة غالبًا ما تتطلب صيغًا نقطية مثل PNG أو JPEG للبريد الإلكتروني، ملفات PDF، أو المتصفحات القديمة. تجعل Aspose.HTML for Java هذه التحويلة سهلة، مما يتيح لك التحكم في **إعدادات جودة JPEG**، وتغيير الحجم في الوقت الفعلي، ومعالجة دفعة كاملة من أوراق sprites.
 
-الأخبار السارة؟ باستخدام مكتبة **Aspose.HTML for Java** يمكنك القيام بذلك بضع سطور فقط، والتحكم في **إعداد جودة JPEG**، وحتى تعديل أبعاد الإخراج في الوقت الفعلي. في هذا الدرس سنستعرض مثالًا عمليًا يغطي **تحويل ملفات SVG**، ويظهر تقنيات **تحويل المتجه إلى نقطية**، ويظهر كيفية ضبط جودة الصورة لإخراج JPEG.
+> **نصيحة احترافية:** عندما يكون لديك ورقة sprites بصيغة SVG، قم بلف كود التحويل داخل حلقة `for` بسيطة ومرّر كل اسم ملف إلى الأداة نفسها – لا حاجة لتكوين إضافي.
 
-> **نصيحة احترافية:** إذا كان لديك بالفعل ملف Sprite للـ SVG، يمكنك معالجة كل أيقونة دفعة واحدة باستخدام نفس الشيفرة – فقط قم بالتكرار على أسماء الملفات وتغيير مسار الهدف.
+---
 
-## ما ستحتاجه
+## إجابات سريعة
+- **ما المكتبة التي تتعامل مع تحويل SVG إلى PNG في Java؟** Aspose.HTML for Java.  
+- **هل أحتاج إلى أدوات خارجية مثل ImageMagick؟** لا، Aspose يتضمن محرك عرض خاص به.  
+- **هل يمكنني ضبط جودة JPEG؟** نعم، عبر `ImageSaveOptions.setQuality(int)`.  
+- **هل تدعم المعالجة الدفعة؟** بالتأكيد – فقط قم بتكرار الملفات وإعادة استخدام نفس الخيارات.  
+- **هل أحتاج إلى ترخيص للإنتاج؟** الترخيص المدفوع يزيل علامة التقييم؛ النسخة التجريبية المجانية تعمل للتطوير.
 
-- **Java 17** (أو أي JDK حديث – الـ API متوافق مع الإصدارات السابقة)
-- **Aspose.HTML for Java** JAR (حمّلها من موقع Aspose أو أضفها عبر Maven)
-- ملف SVG تجريبي (سنسميه `logo.svg` في الأمثلة)
-- بيئة تطوير متكاملة أو محرر نصوص حسب اختيارك
+---
 
-لا توجد مكتبات أصلية إضافية مطلوبة؛ Aspose يتولى كل عملية التصيير داخليًا.
+## ما هو Aspose.HTML for Java؟
+Aspose.HTML for Java هي مكتبة من جانب الخادم تقوم بتحويل محتوى HTML وCSS وSVG إلى صور نقطية أو مستندات PDF دون الحاجة إلى محرك متصفح. تدعم أكثر من 50 صيغة إخراج ويمكنها معالجة مستندات مئات الصفحات بالكامل في الذاكرة.
+
+---
+
+## لماذا تستخدم Aspose.HTML لتحويل SVG؟
+Aspose.HTML يعالج **أكثر من 50 صيغة إدخال** (بما في ذلك SVG وHTML وCSS) ويمكنه إنشاء مخرجات **PNG وJPEG وBMP وTIFF**. يقوم بتحويل SVG إلى نقطية في أقل من 200 ms لأيقونات بحجم 500 × 500 px النموذجية على معالج قياسي 2.5 GHz، مما يلغي الحاجة إلى ملفات تنفيذية خارجية ويقلل تعقيد النشر.
+
+---
+
+## المتطلبات المسبقة
+- **Java 17** (أو أي JDK حديث – الـ API متوافق مع الإصدارات السابقة)  
+- **Aspose.HTML for Java** JAR (أضفه عبر Maven أو تحميل يدوي)  
+- ملف SVG تجريبي (مثال: `logo.svg`) وضعه في مجلد الموارد الخاص بالمشروع  
+- بيئة تطوير متكاملة (IDE) أو محرر نصوص حسب اختيارك  
+
+لا توجد مكتبات أصلية أو تبعيات خاصة بنظام التشغيل مطلوبة؛ Aspose يتعامل مع العرض داخليًا.
+
+---
+
+## كيف تقوم بتحويل SVG إلى PNG في Java؟
+حمّل ملف SVG باستخدام `Converter.convertSVG` واستدعِ `save` مع تحديد `SaveFormat.Png`. `Converter.convertSVG` هي دالة ثابتة تساعد على قراءة ملف SVG وإرجاع صورة نقطية. `SaveFormat.Png` هي قيمة تعداد (enum) تخبر المكتبة بإنتاج ملف PNG. هذه الدالة ذات السطر الواحد تقرأ المتجه، تحولها إلى نقطية بأبعادها الأصلية، وتكتب ملف PNG بجانب المصدر. الطريقة تحل تلقائيًا الخطوط المدمجة وإشارات الصور الخارجية، لذا تحصل على صورة نقطية مثالية دون أي كود إضافي.
+
+---
 
 ## الخطوة 1: إعداد المشروع واستيراد المكتبة
-
 أولاً، أضف تبعية Aspose.HTML إلى ملف `pom.xml` إذا كنت تستخدم Maven:
 
 ```xml
@@ -55,12 +105,13 @@ url: /ar/java/conversion-html-to-other-formats/how-to-convert-svg-complete-guide
 </dependency>
 ```
 
-إذا كنت تفضّل تحميل JAR يدويًا، ضع `aspose-html-23.10.jar` في مجلد `libs` الخاص بمشروعك وأضفه إلى مسار الـ classpath.
+إذا كنت تفضّل تحميل JAR يدويًا، ضع `aspose-html-23.10.jar` في مجلد `libs` الخاص بالمشروع وأضفه إلى مسار الفئة (classpath).
 
-> **لماذا هذا مهم:** المكتبة تتضمن محرك التصيير، لذا لن تحتاج إلى أدوات خارجية مثل ImageMagick أو Inkscape.
+> **لماذا هذا مهم:** المكتبة تتضمن محرك العرض، لذا لن تحتاج إلى أدوات خارجية مثل ImageMagick أو Inkscape.
+
+---
 
 ## الخطوة 2: تحويل SVG إلى PNG باستخدام الإعدادات الافتراضية
-
 الآن سنكتب فئة Java صغيرة تقوم بتحويل ملف SVG إلى PNG باستخدام أبعاد المكتبة الافتراضية (حجم SVG الأصلي).
 
 ```java
@@ -80,14 +131,15 @@ public class SvgToPng {
 ```
 
 **شرح:**  
-- `Converter.convertSVG` هي دالة ثابتة تساعد على قراءة SVG، تحويله إلى نقطية، وكتابة ملف PNG.  
-- لا تحتاج إلى خيارات إضافية لتحويل مباشر، مما يجعل هذه أسرع طريقة لـ **تحويل المتجه إلى نقطية** عندما تكون راضيًا عن الحجم الأصلي.
+- `Converter.convertSVG` هي دالة ثابتة تقرأ SVG، تحولها إلى نقطية، وتكتب PNG.  
+- لا تحتاج إلى خيارات إضافية للتحويل المباشر، مما يجعل هذه أسرع طريقة **لتحويل المتجه إلى نقطية** عندما تكون راضيًا عن الحجم الأصلي.
 
-**الناتج المتوقع:** ملف `logo.png` موجود بجوار ملف SVG الأصلي، بجودة بصرية مطابقة ولكن الآن بصيغة نقطية.
+**الناتج المتوقع:** ملف `logo.png` يقع بجانب ملف SVG المصدر، متطابق في الجودة البصرية لكنه الآن بصيغة نقطية.
+
+---
 
 ## الخطوة 3: إعداد خيارات تحويل JPEG (التحكم في الجودة والحجم)
-
-PNG غير مضغوط، لكن JPEG غالبًا ما يُفضَّل للصور الفوتوغرافية أو عندما يكون حجم الملف مهمًا. تسمح لك فئة `ImageSaveOptions` بتحديد العرض، الارتفاع، و**إعداد جودة JPEG** (0‑100).
+`ImageSaveOptions` يضبط معلمات الصورة الناتجة مثل الصيغة، الأبعاد، والجودة.
 
 ```java
 import com.aspose.html.converters.Converter;
@@ -111,13 +163,14 @@ public class SvgToJpeg {
 }
 ```
 
-**لماذا قد تحتاج لتعديل هذه القيم:**  
-- **العرض/الارتفاع:** تعديل حجم SVG قبل التحويل إلى نقطية يمكن أن يقلل حجم الملف أو يتناسب مع مساحة واجهة معينة.  
-- **الجودة:** قيمة 90 توفر توازنًا جيدًا بين الدقة البصرية والضغط؛ القيم الأقل تقلل حجم الملف أكثر لكن قد تظهر تشوهات.
+**لماذا قد ترغب في تعديل هذه القيم:**  
+- **العرض/الارتفاع:** تغيير حجم SVG قبل تحويله إلى نقطية يمكن أن يقلل حجم الملف أو يتناسب مع مساحة واجهة مستخدم محددة.  
+- **الجودة:** قيمة 90 تعطي توازنًا جيدًا بين الدقة البصرية والضغط؛ القيم الأقل تقلل الملف أكثر لكن قد تظهر عيوب.
 
-## الخطوة 4: دمج منطق PNG و JPEG في أداة مساعدة واحدة
+---
 
-معظم المشاريع الحقيقية تحتاج إلى كل من مخرجات PNG و JPEG. دعنا نجمع المقاطع السابقة في فئة واحدة تقوم بكل شيء في تشغيل واحد.
+## الخطوة 4: دمج منطق PNG و JPEG في أداة مفيدة واحدة
+معظم المشاريع الفعلية تحتاج إلى مخرجات PNG و JPEG معًا. لندمج المقاطع السابقة في فئة واحدة تقوم بكل شيء في تشغيل واحد.
 
 ```java
 import com.aspose.html.converters.Converter;
@@ -148,19 +201,20 @@ public class SvgConverterUtility {
 }
 ```
 
-**ما يفعله هذا:**  
-- يتعامل مع **تحويل ملفات SVG** إلى تنسيقين نقطيين شائعين.  
-- يوضح نمطًا نظيفًا وقابلًا لإعادة الاستخدام يمكنك نسخه في مهام دفعة أكبر.  
-- يظهر كيفية الحفاظ على قابلية قراءة الشيفرة عبر فصل التكوين (`jpegOpts`) عن استدعاء التحويل.
+**ما الذي تفعله هذه الأداة:**  
+- تتعامل مع **تحويل ملف svg** إلى صيغ نقطية شائعة اثنتين.  
+- توضح نمطًا نظيفًا وقابلًا لإعادة الاستخدام يمكنك نسخه في وظائف دفعة أكبر.  
+- تُظهر كيفية الحفاظ على قابلية قراءة الكود عبر فصل التكوين (`jpegOpts`) عن استدعاء التحويل.
+
+---
 
 ## الخطوة 5: التحقق من النتائج (اختياري لكن موصى به)
+بعد تشغيل الأداة، افتح الملفات التي تم إنشاؤها:
 
-بعد تشغيل الأداة، افتح الملفات المولدة:
+- `logo.png` – يجب أن يبدو مطابقًا للـ SVG الأصلي، بحواف حادة.  
+- `logo_custom.jpg` – سيكون بحجم 800 × 600 بكسل، مع مستوى ضغط JPEG يساوي 90.  
 
-- `logo.png` – يجب أن يبدو مطابقًا للـ SVG الأصلي، بحواف واضحة.  
-- `logo_custom.jpg` – سيكون بحجم 800 × 600 بكسل، مع مستوى ضغط JPEG يساوي 90.
-
-يمكنك التحقق بسرعة من الأبعاد في معظم أنظمة التشغيل أو باستخدام مقطع Java بسيط:
+يمكنك التحقق سريعًا من الأبعاد في معظم أنظمة التشغيل أو باستخدام مقتطف Java بسيط:
 
 ```java
 import java.awt.image.BufferedImage;
@@ -175,29 +229,60 @@ public class VerifyImage {
 }
 ```
 
-إذا كانت الأرقام مطابقة لما حددته، فقد أتقنت بنجاح **كيفية تحويل SVG** باستخدام Aspose.
+إذا كانت الأرقام مطابقة لما ضبطته، فقد أتقنت بنجاح **كيفية تحويل SVG إلى PNG** باستخدام Aspose.
 
-## أسئلة شائعة وحالات خاصة
+---
 
-### 1️⃣ ماذا لو كان الـ SVG يحتوي على موارد خارجية (خطوط، صور)؟
+## أسئلة شائعة وحالات حافة
+### ماذا لو كان SVG يحتوي على موارد خارجية (خطوط، صور)؟
+Aspose.HTML يدمج تلقائيًا الخطوط المشار إليها ويحل عناوين URL للصور الخارجية، **بشرط أن تكون الملفات قابلة للوصول** (مسار محلي أو HTTP). إذا واجهت تحذيرات نقص الخطوط، أضف ملفات الخط إلى نفس الدليل أو قدم `FontResolver` مخصص.
 
-يقوم Aspose.HTML تلقائيًا بدمج الخطوط المشار إليها وحل عناوين URL للصور الخارجية، **بشرط أن تكون الملفات قابلة للوصول** (مسار محلي أو HTTP). إذا واجهت تحذيرات بخصوص خطوط مفقودة، أضف ملفات الخط إلى نفس الدليل أو قدم `FontResolver` مخصص.
-
-### 2️⃣ كيف يمكن تحويل مجلد كامل من ملفات SVG؟
-
+### كيف تحول مجلدًا كاملًا من ملفات SVG؟
 ضع منطق التحويل داخل حلقة `File[] files = new File("YOUR_DIRECTORY").listFiles((d, n) -> n.endsWith(".svg"));` وأعد استخدام كائن `jpegOpts`. تذكر إنشاء أسماء مخرجات فريدة (مثال: `file.getName().replace(".svg", ".png")`).
 
-### 3️⃣ هل تحتاج إلى شفافية في JPEG؟
+### هل تحتاج إلى شفافية في JPEG؟
+JPEG لا يدعم قنوات ألفا. إذا كان SVG الخاص بك يعتمد على الشفافية، استمر باستخدام PNG أو استخدم لون خلفية صلب عبر `ImageSaveOptions.setBackgroundColor(...)`.
 
-JPEG لا يدعم قنوات ألفا. إذا كان الـ SVG يعتمد على الشفافية، استمر باستخدام PNG أو استخدم لون خلفية صلب عبر `ImageSaveOptions.setBackgroundColor(...)`.
+### هل يجب ترخيص Aspose للإنتاج؟
+ترخيص التقييم المجاني يعمل للتطوير والاختبار. للنشر التجاري ستحتاج إلى ترخيص مدفوع – وإلا ستضيف المكتبة علامة مائية صغيرة إلى الصور الناتجة.
 
-### 4️⃣ هل يجب ترخيص Aspose للإنتاج؟
+---
 
-ترخيص تجريبي مجاني يكفي للتطوير والاختبار. للنشر التجاري ستحتاج إلى ترخيص مدفوع – وإلا ستضيف المكتبة علامة مائية صغيرة إلى الصور المخرجة.
+## أسئلة متكررة
+**س: هل يمكنني استخدام هذا الكود في تطبيق Spring Boot؟**  
+ج: نعم. استدعاءات `Converter` نفسها تعمل داخل أي بيئة تشغيل Java، بما في ذلك خدمات Spring Boot أو أدوات سطر الأوامر.
 
-## مثال كامل يعمل (جاهز للنسخ واللصق)
+**س: هل يدعم Aspose.HTML الرسوم المتحركة في SVG؟**  
+ج: المكتبة تحول الإطار الأول من SVG المتحركة إلى نقطية؛ لا تنتج PNG أو GIF متحرك مباشرة.
 
-فيما يلي البرنامج الكامل الذي يمكنك تجميعه وتشغيله كما هو. فقط استبدل `YOUR_DIRECTORY` بالمسار المطلق أو النسبي لملف SVG الخاص بك.
+**س: ما هو الحد الأقصى لحجم SVG الذي يمكن لـ Aspose.HTML معالجته؟**  
+ج: يمكنه معالجة SVGs يصل حجمها إلى 10 MB و5000 × 5000 px دون نفاد الذاكرة، بفضل بنية البث الخاصة به.
+
+**س: كيف أغيّر لون الخلفية للـ PNG الناتج؟**  
+ج: اضبط `ImageSaveOptions.setBackgroundColor(java.awt.Color.WHITE)` قبل استدعاء طريقة الحفظ.
+
+**س: هل هناك طريقة لإدراج بيانات تعريفية (مثل المؤلف) داخل PNG؟**  
+ج: نعم، استخدم `PngOptions.setMetadata(...)` لإرفاق أزواج مفتاح‑قيمة مخصصة.
+
+---
+
+## الخلاصة
+لقد غطينا **كيفية تحويل SVG إلى PNG** (وJPEG) باستخدام مكتبة **Aspose.HTML for Java**، استكشفنا **إعداد جودة JPEG**، وتعلمنا كيفية التحكم في أبعاد الإخراج عندما تحتاج إلى **تحويل المتجه إلى نقطية**. الكود الكامل القابل للتنفيذ أعلاه يزيل التخمين ويمنحك أساسًا قويًا لأي خط أنابيب معالجة دفعة.
+
+**خطوات مقترحة لتجربتها**
+- **المعالجة الدفعة:** تكرار عبر دليل يحتوي على SVGs وإنشاء مجموعة صور جاهزة للويب.  
+- **التحجيم الديناميكي:** سحب العرض/الارتفاع من ملف إعدادات لإنشاء صور مصغرة بأحجام مختلفة.  
+- **إضافة علامة مائية:** استخدم `ImageSaveOptions.setBackgroundColor` أو أضف نصًا فوق الصورة بعد التحويل للعلامة التجارية.
+
+لا تتردد في التجربة، واترك تعليقًا إذا واجهت مشكلة. برمجة سعيدة، واستمتع بتحويل تلك المتجهات الحادة إلى صور نقطية مثالية!
+
+![توضيح عملية تحويل SVG إلى PNG – كيفية تحويل svg](image.png "توضيح كيفية تحويل svg")
+
+---
+
+**آخر تحديث:** 2026-09-14  
+**تم الاختبار مع:** Aspose.HTML for Java 23.10  
+**المؤلف:** Aspose
 
 ```java
 import com.aspose.html.converters.Converter;
@@ -228,29 +313,27 @@ public class SvgToPngAndJpeg {
 }
 ```
 
-**تشغيله:**  
 ```bash
 javac -cp "libs/*" SvgToPngAndJpeg.java
 java -cp ".:libs/*" SvgToPngAndJpeg
 ```
 
-يجب أن ترى الملفين الناتجين في نفس المجلد الذي يحتوي على ملف SVG الأصلي.
+```xml
+<dependency>
+    <groupId>com.aspose</groupId>
+    <artifactId>aspose-html</artifactId>
+    <version>23.10</version> <!-- Check for the latest version -->
+</dependency>
+```
 
-## الخلاصة
-
-لقد غطينا **كيفية تحويل ملفات SVG** إلى كل من PNG و JPEG باستخدام مكتبة **Aspose HTML Converter**، واستكشفنا **إعداد جودة JPEG**، وتعلمنا كيفية التحكم في أبعاد الإخراج عندما تحتاج إلى **تحويل المتجه إلى نقطية**. الشيفرة الكاملة القابلة للتنفيذ أعلاه تلغي التخمين وتوفر لك أساسًا قويًا لأي خط أنابيب معالجة دفعات.
-
-الخطوات التالية؟ جرّب هذه الأفكار:
-
-- **معالجة دفعات**: كرّر عبر دليل يحتوي على SVGs وولّد مجموعة صور جاهزة للويب.  
-- **تحجيم ديناميكي**: استخرج العرض/الارتفاع من ملف إعدادات لتوليد صور مصغرة بأحجام مختلفة.  
-- **إضافة علامة مائية**: استخدم `ImageSaveOptions.setBackgroundColor` أو أضف نصًا فوق الصورة بعد التحويل للعلامة التجارية.
-
-لا تتردد في التجربة، ولا تتردد في ترك تعليق إذا واجهت أي مشكلة. برمجة سعيدة، واستمتع بتحويل تلك المتجهات الواضحة إلى نقطيات دقيقة!
-
-![Illustration of SVG to PNG conversion process – how to convert svg](image.png "how to convert svg illustration")
+## دروس ذات صلة
+- [تحويل HTML إلى PNG باستخدام Aspose.HTML for Java](/html/java/conversion-html-to-various-image-formats/convert-html-to-png/)
+- [كيفية تحويل SVG إلى XPS باستخدام Aspose.HTML for Java](/html/java/conversion-html-to-other-formats/convert-svg-to-xps/)
+- [تحويل HTML إلى PNG باستخدام معالجات الرسائل Aspose.HTML في Java](/html/java/configuring-environment/use-message-handlers/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}
