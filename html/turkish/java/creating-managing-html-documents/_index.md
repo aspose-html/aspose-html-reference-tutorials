@@ -33,6 +33,10 @@ Sıfırdan mı başlıyorsunuz? Endişelenmeyin. Boş HTML belgelerinin nasıl o
 
 Kullanıcı girdisine veya web'den alınan verilere dayanarak anında HTML içeriği oluşturmanız gerektiğini düşünün. İşte bu noktada dizelerden HTML belgeleri oluşturmak veya bunları doğrudan URL'lerden yüklemek paha biçilmez hale gelir. Java için Aspose.HTML, ham HTML dizelerini kullanarak sorunsuz bir şekilde HTML belgeleri oluşturmanıza veya bunları herhangi bir web adresinden yüklemenize olanak tanır. Bu eğitimler, web içeriğini dinamik olarak oluşturmanız ve düzenlemeniz için araçlar sağlar ve Java uygulamalarınızı daha esnek ve duyarlı hale getirir.[Devamını oku](./create-html-documents-from-string/)
 
+### [Java için Aspose.HTML kullanarak HTML öğesi oluşturma](./how-to-create-html-element-in-java-using-aspose-html/)
+
+### [Java için Aspose.HTML'de URL'den HTML Belgelerini Yükle](./load-html-documents-from-url/)
+
 ## Yeni HTML Belgeleri Oluşturun ve Gelişmiş Dosya Yüklemeyi Yönetin
 
 Yeni HTML belgeleri oluşturmaya gelince, Java için Aspose.HTML, sıfırdan zengin web içeriği oluşturmanızı sağlayan sağlam bir çözüm sunar. İster bir içerik yönetim sistemi üzerinde çalışıyor olun, ister HTML formatında raporlar oluşturmanız gereksin, yeni HTML belgelerinin nasıl oluşturulacağını ve yönetileceğini anlamak çok önemlidir. Ayrıca, gelişmiş dosya yükleme teknikleri, karmaşık HTML belgeleriyle çalışmanıza olanak tanır ve büyük ölçekli projeleri kolaylıkla halledebilmenizi sağlar. Bu eğitimler, her adımda size rehberlik ederek HTML ile ilgili herhangi bir zorluğun üstesinden gelebilecek şekilde donanımlı olmanızı sağlar.[Devamını oku](./generate-new-html-documents/)
@@ -72,8 +76,11 @@ Java için Aspose.HTML ile JSON verilerini çekip dinamik HTML içeriği oluştu
 Java için Aspose.HTML kullanarak XPath ve CSS ile HTML belgelerini nasıl yükleyeceğinizi ve sorgulayacağınızı öğrenin.
 ### [Java için Aspose.HTML'de HTML karakterlerini sayma – Tam Kılavuz](./count-html-characters-in-java-full-guide-with-aspose-html/)
 Java uygulamalarında Aspose.HTML kullanarak HTML belgelerindeki karakter sayısını adım adım öğrenin.
+### [Java için Aspose.HTML'de XPath ile HTML öğelerini sayma](./how-to-count-html-elements-in-java-with-xpath/)
+XPath kullanarak Java'da HTML öğelerini saymayı adım adım öğrenin.
 ### [Java için Aspose.HTML'de HTML'den Metin Çıkarma – Tam Programlama Kılavuzu](./extract-text-from-html-in-java-complete-programming-guide/)
 Java için Aspose.HTML kullanarak HTML belgelerinden metin çıkarma konusunda adım adım rehber.
+### [Java’da querySelectorAll kullanarak sınıf adıyla öğeleri seçme](./how-to-select-elements-by-class-in-java-using-queryselectora/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -119,4 +126,3 @@ Java için Aspose.HTML kullanarak HTML'den metin çıkarma konusunda adım adım
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

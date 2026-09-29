@@ -66,6 +66,8 @@ Aprenda a usar un pool de hilos fijo y ExecutorService para limpiar HTML en para
 Aprenda a agregar un elemento hijo al cuerpo del documento HTML usando Aspose.HTML para Java en este tutorial paso a paso.
 ### [Cambiar texto h1 en MHTML con Java – Guía completa paso a paso](./change-h1-text-in-mhtml-with-java-full-step-by-step-guide/)
 Aprenda a modificar el texto del encabezado h1 en archivos MHTML usando Aspose.HTML para Java con esta guía paso a paso.
+### [Cómo cambiar el color de fondo con JavaScript usando Java](./how-to-change-background-color-javascript-using-java/)
+Aprenda a cambiar el color de fondo de una página usando JavaScript dentro de una aplicación Java con Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

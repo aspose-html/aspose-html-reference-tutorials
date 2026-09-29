@@ -138,6 +138,10 @@ Ismerd meg, hogyan állítható be egy egyedi felhasználói stíluslap az Aspos
 **Aspose HTML Sandbox létrehozása Java-ban**  
 Ismerd meg, hogyan hozhatsz létre biztonságos sandboxot az Aspose.HTML for Java-ban, részletes lépésekkel és példakóddal.
 
+### [Egyéni felhasználói ügynök és képernyőméretek beállítása az Aspose.HTML for Java-ban](./set-custom-user-agent-and-screen-dimensions-in-aspose-html-f/)
+
+**Ismerd meg, hogyan állítható be egyedi felhasználói ügynök és a képernyő mérete az Aspose.HTML for Java-ban a pontos rendereléshez.**
+
 ---
 
 **Last Updated:** 2025-12-03  

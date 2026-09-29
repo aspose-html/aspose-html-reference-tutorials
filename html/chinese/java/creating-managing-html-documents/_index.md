@@ -58,6 +58,8 @@ Aspose.HTML for Java 为开发人员提供了功能强大的工具包，旨在�
 了解如何使用 Aspose.HTML for Java 从流中加载 HTML 文档。本指南提供了无缝 HTML 操作的分步教程。
 ### [在 Aspose.HTML for Java 中从字符串创建 HTML 文档](./create-html-documents-from-string/)
 通过本分步指南了解如何在 Aspose.HTML for Java 中从字符串创建 HTML 文档。
+### [如何在 Java 中使用 Aspose.HTML 创建 HTML 元素](./how-to-create-html-element-in-java-using-aspose-html/)
+学习如何使用 Aspose.HTML 在 Java 中创建 HTML 元素的分步指南。
 ### [在 Aspose.HTML for Java 中从 URL 加载 HTML 文档](./load-html-documents-from-url/)
 了解如何使用 Aspose.HTML 轻松地从 Java 中的 URL 加载 HTML 文档。内含分步教程。
 ### [使用 Aspose.HTML for Java 生成新的 HTML 文档](./generate-new-html-documents/)
@@ -74,11 +76,14 @@ Aspose.HTML for Java 为开发人员提供了功能强大的工具包，旨在�
 本教程详细讲解如何使用 Aspose.HTML for Java 加载 HTML、执行查询并统计元素数量，帮助您高效解析网页。
 ### [在 Java 中加载 HTML 文档 – 完整指南，包含 XPath 与 CSS](./load-html-document-java-complete-guide-with-xpath-css/)
 本完整指南详细讲解如何在 Java 中使用 Aspose.HTML 加载 HTML 文档，并使用 XPath 与 CSS 进行查询。
+### [如何在 Java 中使用 XPath 统计 HTML 元素](./how-to-count-html-elements-in-java-with-xpath/)
 ### [在 Java 中提取 HTML 文本 – 完整编程指南](./extract-text-from-html-in-java-complete-programming-guide/)
 本完整指南详细讲解如何使用 Aspose.HTML for Java 在 Java 中提取 HTML 文本，包括 API 使用、示例代码和最佳实践。
 ### [在 Aspose.HTML for Java 中创建 HTML 沙盒 – 步骤指南](./create-sandbox-for-html-in-java-step-by-step-guide/)
 ### [在 Java 中统计 HTML 字符 – 使用 Aspose HTML 的完整指南](./count-html-characters-in-java-full-guide-with-aspose-html/)
-本完整指南教您如何使用 Aspose.HTML for Java 统计 HTML 文本字符数，涵盖示例代码和最佳实践。
+本完整指南教您如何使用 Aspose.HTML for Java 统计 HTML 文本字符，涵盖示例代码和最佳实践。
+### [如何在 Java 中使用 querySelectorAll 按类选择元素](./how-to-select-elements-by-class-in-java-using-queryselectora/)
+本教程演示如何在 Java 使用 Aspose.HTML 的 querySelectorAll 按类名选择 HTML 元素。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

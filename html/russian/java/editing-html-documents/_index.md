@@ -67,6 +67,9 @@ url: /ru/java/editing-html-documents/
 ### [Создание нового HTML-элемента с Java – Полное руководство Aspose.HTML](./create-new-html-element-with-java-full-aspose-html-guide/)
 Узнайте, как создавать новые HTML-элементы в Java с помощью Aspose.HTML. Пошаговое полное руководство.
 
+### [Как изменить цвет фона JavaScript с помощью Java](./how-to-change-background-color-javascript-using-java/)
+Узнайте, как изменить цвет фона в JavaScript с помощью кода на Java, используя Aspose.HTML.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

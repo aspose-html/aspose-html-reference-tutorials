@@ -106,6 +106,8 @@ Saiba como configurar fontes no Aspose.HTML para Java com este guia detalhado, p
 Saiba como usar manipuladores de mensagens no Aspose.HTML para Java para lidar com imagens ausentes e outras operações de rede de forma eficaz.
 ### [Configurar Serviço de Rede no Aspose.HTML para Java](./setup-network-service/)
 Saiba como configurar um serviço de rede no Aspose.HTML para Java, gerenciar recursos de rede e converter HTML para PNG com tratamento de erros personalizado.
+### [Definir agente de usuário personalizado e dimensões de tela no Aspose.HTML para Java](./set-custom-user-agent-and-screen-dimensions-in-aspose-html-f/)
+Saiba como definir um agente de usuário personalizado e as dimensões da tela ao usar Aspose.HTML para Java, garantindo renderização correta.
 ### [Configurar Runtime Service no Aspose.HTML para Java](./configure-runtime-service/)
 Saiba como configurar o Runtime Service no Aspose.HTML para Java para otimizar a execução de scripts, prevenir loops infinitos e melhorar o desempenho da aplicação.
 ### [Implementar Sandbox no Aspose.HTML para Java](./implement-sandboxing/)

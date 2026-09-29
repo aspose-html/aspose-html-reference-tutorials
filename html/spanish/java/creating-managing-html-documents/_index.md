@@ -74,6 +74,12 @@ Aprenda a crear y gestionar documentos SVG con Aspose.HTML para Java. Esta guía
 Aprenda a obtener datos JSON y generar contenido HTML dinámico en Java usando Aspose.HTML.
 ### [Contar caracteres HTML en Java – Guía completa con Aspose HTML](./count-html-characters-in-java-full-guide-with-aspose-html/)
 Aprenda a contar caracteres en documentos HTML usando Aspose.HTML para Java con esta guía paso a paso.
+### [Cómo contar elementos HTML en Java con XPath](./how-to-count-html-elements-in-java-with-xpath/)
+Aprenda a contar elementos HTML en Java usando expresiones XPath con Aspose.HTML, paso a paso.
+### [Cómo crear un elemento HTML en Java usando Aspose.HTML](./how-to-create-html-element-in-java-using-aspose-html/)
+
+### [Cómo seleccionar elementos por clase en Java usando querySelectorAll](./how-to-select-elements-by-class-in-java-using-queryselectora/)
+Aprenda a seleccionar elementos HTML por su clase en Java mediante querySelectorAll con Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -107,4 +113,4 @@ Aprenda a iterar un NodeList en Java para leer HTML y extraer la ruta src de las
 Aprenda a extraer texto de documentos HTML en Java con Aspose.HTML mediante esta guía paso a paso completa.
 ### [Iterar sobre NodeList Java – Guía completa](./iterate-over-nodelist-java-complete-guide/)
 Aprenda a iterar sobre NodeList en Java con Aspose.HTML mediante esta guía paso a paso completa.
-
+{{< /blocks/products/pf/tutorial-page-section >}}

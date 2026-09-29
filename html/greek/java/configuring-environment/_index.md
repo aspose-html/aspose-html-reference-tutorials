@@ -122,6 +122,9 @@ weight: 29
 ### [Δημιουργία Sandbox Aspose HTML – Πλήρης Οδηγός Java](./create-aspose-html-sandbox-complete-java-guide/)
 Μάθετε πώς να δημιουργήσετε και να διαχειριστείτε ένα sandbox Aspose HTML σε Java για ασφαλείς μετατροπές HTML σε PDF.
 
+### [Ορισμός προσαρμοσμένου user agent και διαστάσεων οθόνης στο Aspose.HTML για Java](./set-custom-user-agent-and-screen-dimensions-in-aspose-html-f/)
+Μάθετε πώς να ορίσετε προσαρμοσμένο user agent και διαστάσεις οθόνης για ακριβή απόδοση HTML κατά τη μετατροπή σε PDF ή PNG.
+
 ---
 
 **Τελευταία Ενημέρωση:** 2025-12-03  

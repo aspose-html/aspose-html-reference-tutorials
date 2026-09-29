@@ -122,6 +122,8 @@ Aspose.HTML for Java में कस्टम यूज़र स्टाइ�
 ### [Aspose HTML सैंडबॉक्स बनाएं – पूर्ण जावा गाइड](./create-aspose-html-sandbox-complete-java-guide/)
 Aspose.HTML में सैंडबॉक्स सेटअप करने की पूरी प्रक्रिया, कोड उदाहरण और सर्वोत्तम प्रथाओं के साथ।
 
+### [Aspose.HTML for Java में कस्टम उपयोगकर्ता एजेंट और स्क्रीन आयाम सेट करें](./set-custom-user-agent-and-screen-dimensions-in-aspose-html-f/)
+
 ---
 
 **Last Updated:** 2025-12-03  

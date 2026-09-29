@@ -66,6 +66,8 @@ Aprenda como adicionar um elemento filho ao corpo de um documento HTML usando As
 Aprenda a modificar o texto h1 em arquivos MHTML usando Java com este guia detalhado passo a passo.
 ### [Criar novo elemento HTML com Java – Guia completo do Aspose.HTML](./create-new-html-element-with-java-full-aspose-html-guide/)
 Aprenda a criar novos elementos HTML usando Aspose.HTML para Java neste guia completo passo a passo.
+### [Como mudar a cor de fundo em JavaScript usando Java](./how-to-change-background-color-javascript-using-java/)
+Aprenda a alterar a cor de fundo usando JavaScript em projetos Java com Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

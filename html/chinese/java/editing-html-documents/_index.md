@@ -56,6 +56,8 @@ url: /zh/java/editing-html-documents/
 掌握使用 Aspose.HTML for Java 编辑外部 CSS 的技巧。这份详细的分步指南将指导您创建动态、样式化的 HTML 文档。
 ### [在 Aspose.HTML for Java 中将内联 CSS 添加到 HTML 文档](./add-inline-css-html-documents/)
 了解如何使用 Aspose.HTML for Java 将内联 CSS 添加到 HTML 文档。本分步指南可帮助您轻松设置 HTML 样式并将其转换为 PDF。
+### [如何使用 Java 更改 JavaScript 背景颜色](./how-to-change-background-color-javascript-using-java/)
+了解如何使用 Java 在 Aspose.HTML for Java 中通过 JavaScript 更改背景颜色的完整步骤。
 ### [在 Aspose.HTML for Java 中管理内部和外部 HTML 属性](./manage-inner-outer-html-properties/)
 通过本分步指南学习如何管理 Aspose.HTML for Java 中的内部和外部 HTML 属性，非常适合 Web 开发人员和内容创建者。
 ### [使用 Aspose.HTML for Java 在 HTML 文档中实现内部 CSS](./implement-internal-css-html-documents/)

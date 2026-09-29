@@ -55,6 +55,8 @@ Aspose.HTML для Java предлагает мощный набор инстр�
 Узнайте, как загружать HTML документы из потоков с помощью Aspose.HTML для Java. Это руководство содержит пошаговое руководство по бесшовной обработке HTML.
 ### [Создание HTML-документов из строки в Aspose.HTML для Java](./create-html-documents-from-string/)
 Узнайте, как создавать HTML документы из строк в Aspose.HTML для Java с помощью этого пошагового руководства.
+### [Как создать HTML‑элемент в Java с помощью Aspose.HTML](./how-to-create-html-element-in-java-using-aspose-html/)
+Узнайте, как создавать HTML‑элементы в Java с помощью Aspose.HTML, используя пошаговое руководство.
 ### [Создание HTML-документа с Java – получение JSON и генерация контента](./create-html-document-with-java-fetch-json-and-generate-conte/)
 Узнайте, как получать JSON в Java и генерировать HTML‑контент с помощью Aspose.HTML, пошаговое руководство.
 ### [Загрузка HTML-документов из URL в Aspose.HTML для Java](./load-html-documents-from-url/)
@@ -64,7 +66,7 @@ Aspose.HTML для Java предлагает мощный набор инстр�
 ### [Загрузка HTML-документа Java – Полное руководство с XPath и CSS](./load-html-document-java-complete-guide-with-xpath-css/)
 Узнайте, как загружать HTML-документы в Java с помощью Aspose.HTML, используя XPath и CSS для точного выбора и стилизации.
 ### [Создание новых HTML-документов с помощью Aspose.HTML для Java](./generate-new-html-documents/)
-Узнайте, как создавать новые HTML документы с помощью Aspose.HTML для Java с помощью этого простого пошагового руководства. Начните создавать динамический HTML-контент.
+Узнайте, как создавать новые HTML документы с помощью Aspose.HTML для Java с помощью этого простого пошагового руководства. Начните создавать динамический HTML‑контент.
 ### [Обработка событий загрузки документа в Aspose.HTML для Java](./handle-document-load-events/)
 Изучите обработку событий загрузки документов в Aspose.HTML для Java с помощью этого пошагового руководства. Улучшите свои веб-приложения.
 ### [Создание и управление документами SVG в Aspose.HTML для Java](./create-manage-svg-documents/)
@@ -75,10 +77,14 @@ Aspose.HTML для Java предлагает мощный набор инстр�
 Узнайте, как извлекать текстовое содержимое из HTML‑документов в Java с помощью Aspose.HTML, пошаговое полное руководство.
 ### [Создание песочницы для HTML в Aspose.HTML для Java – пошаговое руководство](./create-sandbox-for-html-in-java-step-by-step-guide/)
 ### [Как выполнять запросы к HTML в Java – полное руководство](./how-to-query-html-in-java-complete-tutorial/)
+Узнайте, как выполнять запросы к HTML в Java с помощью Aspose.HTML, следуя подробному пошаговому руководству.
+### [Как выбрать элементы по классу в Java с помощью querySelectorAll](./how-to-select-elements-by-class-in-java-using-queryselectora/)
+Узнайте, как использовать querySelectorAll для выбора элементов по классу в HTML‑документах Java с Aspose.HTML.
 ### [Выполнение асинхронного JavaScript в Java – Полное пошаговое руководство](./execute-async-javascript-in-java-complete-step-by-step-guide/)
 Узнайте, как выполнять асинхронный JavaScript в Java с помощью Aspose.HTML, следуя подробному пошаговому руководству.
 ### [Подсчет символов HTML в Java – Полное руководство с Aspose HTML](./count-html-characters-in-java-full-guide-with-aspose-html/)
 Узнайте, как подсчитать количество символов HTML в Java с помощью Aspose.HTML, следуя пошаговому полному руководству.
+### [Как подсчитать HTML‑элементы в Java с помощью XPath](./how-to-count-html-elements-in-java-with-xpath/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

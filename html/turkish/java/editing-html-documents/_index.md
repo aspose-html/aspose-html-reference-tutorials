@@ -60,6 +60,8 @@ Java için Aspose.HTML kullanarak yeni bir HTML öğesi eklemeyi ve yapılandır
 Web geliştiricileri ve içerik oluşturucuları için mükemmel olan bu adım adım kılavuzla Aspose.HTML for Java'da iç ve dış HTML özelliklerinin nasıl yönetileceğini öğrenin.
 ### [Java için Aspose.HTML ile HTML Belgelerinde Dahili CSS'yi Uygulayın](./implement-internal-css-html-documents/)
 Kolay adım adım eğitimimiz ile Java için Aspose.HTML'i kullanarak HTML belgelerinde dahili CSS'yi uygulamayı öğrenin.
+### [Java kullanarak JavaScript'te arka plan rengini değiştirme](./how-to-change-background-color-javascript-using-java/)
+Java kullanarak JavaScript kodu ile HTML belgesinin arka plan rengini nasıl değiştireceğinizi adım adım öğrenin.
 ### [Sabit iş parçacığı havuzu java – ExecutorService ile Paralel HTML Temizleme](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 ExecutorService kullanarak sabit iş parçacığı havuzu ile HTML belgelerini paralel olarak temizlemeyi öğrenin.
 ### [Java'da gövdeye çocuk ekleme – Tam Aspose.HTML Öğreticisi](./append-child-to-body-in-java-full-aspose-html-tutorial/)

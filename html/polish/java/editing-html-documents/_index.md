@@ -67,6 +67,10 @@ Dowiedz się, jak używać Fixed Thread Pool w Javie do równoległego czyszczen
 Dowiedz się, jak w Javie utworzyć nowy element HTML przy użyciu Aspose.HTML, krok po kroku, z przykładami i konwersją do PDF.
 
 ### [Dodaj element potomny do body w Javie – pełny samouczek Aspose.HTML](./append-child-to-body-in-java-full-aspose-html-tutorial/)
+
+### [Jak zmienić kolor tła w JavaScript przy użyciu Javy](./how-to-change-background-color-javascript-using-java/)
+Dowiedz się, jak przy użyciu Aspose.HTML dla Java zmienić kolor tła w kodzie JavaScript w dokumencie HTML.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -114,6 +114,8 @@ Erfahren Sie, wie Sie Sandbox‑Einrichtung in Aspose.HTML für Java implementie
 Erfahren Sie, wie Sie ein benutzerdefiniertes Benutzer‑Stylesheet in Aspose.HTML für Java festlegen, um das Dokumentstyling zu verbessern und HTML mühelos zu PDF zu konvertieren.
 ### [Aspose HTML Sandbox erstellen – Vollständiger Java‑Leitfaden](./create-aspose-html-sandbox-complete-java-guide/)
 Erfahren Sie, wie Sie eine vollständige Sandbox für Aspose.HTML in Java einrichten, um sichere HTML‑zu‑PDF‑Konvertierungen zu gewährleisten.
+### [Benutzerdefinierten User-Agent und Bildschirmabmessungen in Aspose.HTML für Java festlegen](./set-custom-user-agent-and-screen-dimensions-in-aspose-html-f/)
+Erfahren Sie, wie Sie einen benutzerdefinierten User-Agent und die Bildschirmgröße festlegen, um HTML‑zu‑PDF‑Konvertierungen zu steuern.
 
 ---
 

@@ -119,6 +119,8 @@ A: 沙盒會限制某些 API（例如 `window.open`），但一般的 DOM 操作
 
 ### [建立 Aspose HTML 沙盒 – 完整 Java 指南](./create-aspose-html-sandbox-complete-java-guide/)
 
+### [在 Aspose.HTML for Java 中設定自訂使用者代理和螢幕尺寸](./set-custom-user-agent-and-screen-dimensions-in-aspose-html-f/)
+
 ---
 
 **最後更新：** 2025-12-03  

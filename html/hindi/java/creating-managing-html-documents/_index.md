@@ -56,6 +56,8 @@ Java में Aspose.HTML का उपयोग करके HTML दस्त
 स्ट्रिंग्स से HTML दस्तावेज़ बनाना सीखें। चरण‑दर‑चरण मार्गदर्शिका।
 ### [Java के लिए Aspose.HTML में URL से HTML दस्तावेज़ लोड करें](./load-html-documents-from-url/)
 URL से HTML दस्तावेज़ लोड करना आसान बनाएं। चरण‑दर‑चरण ट्यूटोरियल।
+### [Java के लिए Aspose.HTML में HTML तत्व कैसे बनाएं](./how-to-create-html-element-in-java-using-aspose-html/)
+HTML तत्वों को Java में Aspose.HTML का उपयोग करके बनाने की प्रक्रिया सीखें।
 ### [Java के लिए Aspose.HTML का उपयोग करके नए HTML दस्तावेज़ बनाएं](./generate-new-html-documents/)
 नए HTML दस्तावेज़ बनाना सीखें। गतिशील सामग्री बनाना शुरू करें।
 ### [Java के लिए Aspose.HTML में दस्तावेज़ लोड इवेंट को संभालें](./handle-document-load-events/)
@@ -65,11 +67,14 @@ SVG दस्तावेज़ बनाना और प्रबंधित 
 ### [Java में HTML के लिए सैंडबॉक्स बनाएं – चरण‑दर‑चरण गाइड](./create-sandbox-for-html-in-java-step-by-step-guide/)
 Java में HTML सैंडबॉक्स बनाने की प्रक्रिया सीखें, सुरक्षित परीक्षण और विकास के लिए चरण‑दर‑चरण मार्गदर्शिका।
 ### [Java में HTML क्वेरी कैसे करें – पूर्ण ट्यूटोरियल](./how-to-query-html-in-java-complete-tutorial/)
-Java में Aspose.HTML का उपयोग करके HTML क्वेरी करने के चरण‑दर‑चरण मार्गदर्शिका, टिप्स और सर्वोत्तम प्रथाएँ।
+Java में Aspose.HTML का उपयोग करके HTML क्वेरी करने की चरण‑दर‑चरण मार्गदर्शिका, टिप्स और सर्वोत्तम प्रथाएँ।
+### [Java में querySelectorAll का उपयोग करके क्लास द्वारा तत्व चुनें](./how-to-select-elements-by-class-in-java-using-queryselectora/)
+Java में querySelectorAll का उपयोग करके क्लास द्वारा HTML तत्वों को चुनने की सरल गाइड।
 ### [Java में HTML अक्षरों की गिनती – Aspose HTML के साथ पूर्ण गाइड](./count-html-characters-in-java-full-guide-with-aspose-html/)
 Aspose.HTML for Java का उपयोग करके HTML दस्तावेज़ में अक्षरों की संख्या कैसे गिनें, चरण‑दर‑चरण पूर्ण मार्गदर्शिका।
-
 ### [HTML दस्तावेज़ लोड करें जावा – XPath और CSS के साथ पूर्ण गाइड](./load-html-document-java-complete-guide-with-xpath-css/)
+
+### [Java में XPath के साथ HTML तत्वों की गिनती कैसे करें](./how-to-count-html-elements-in-java-with-xpath/)
 
 ### [Java के लिए Aspose.HTML में JSON प्राप्त करके सामग्री उत्पन्न करके HTML दस्तावेज़ बनाएं](./create-html-document-with-java-fetch-json-and-generate-conte/)
 ### [Java में HTML से टेक्स्ट निकालें – पूर्ण प्रोग्रामिंग गाइड](./extract-text-from-html-in-java-complete-programming-guide/)
@@ -114,4 +119,3 @@ Aspose.HTML for Java का उपयोग करके HTML दस्ताव
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

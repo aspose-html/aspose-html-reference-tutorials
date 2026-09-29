@@ -65,7 +65,9 @@ Erfahren Sie, wie Sie mit Aspose.HTML für Java ein Kind-Element zum Body hinzuf
 ### [Ändern Sie den h1-Text in MHTML mit Java – Vollständige Schritt‑für‑Schritt‑Anleitung](./change-h1-text-in-mhtml-with-java-full-step-by-step-guide/)
 Erfahren Sie, wie Sie den h1-Text in MHTML-Dateien mit Aspose.HTML für Java ändern – detaillierte Schritt‑für‑Schritt‑Anleitung.
 ### [Neues HTML-Element mit Java erstellen – Vollständige Aspose.HTML-Anleitung](./create-new-html-element-with-java-full-aspose-html-guide/)
-Erfahren Sie, wie Sie mit Aspose.HTML für Java ein neues HTML-Element erstellen – Schritt-für-Schritt-Anleitung.
+Erfahren Sie, wie Sie mit Aspose.HTML für Java ein neues HTML-Element erstellen – Schritt‑für‑Schritt‑Anleitung.
+### [Wie man die Hintergrundfarbe mit JavaScript in Java ändert](./how-to-change-background-color-javascript-using-java/)
+Erfahren Sie, wie Sie mit Aspose.HTML für Java die Hintergrundfarbe per JavaScript ändern.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

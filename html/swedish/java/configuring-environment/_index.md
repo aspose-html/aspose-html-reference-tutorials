@@ -106,6 +106,7 @@ Att konfigurera din miljö är grunden för framgångsrika **convert HTML to PDF
 ### [Implement Sandboxing in Aspose.HTML for Java](./implement-sandboxing/)
 ### [Set User Style Sheet in Aspose.HTML for Java](./set-user-style-sheet/)
 ### [Skapa Aspose HTML Sandbox – Komplett Java‑guide](./create-aspose-html-sandbox-complete-java-guide/)
+### [Ställ in anpassad användaragent och skärmstorlekar i Aspose.HTML för Java](./set-custom-user-agent-and-screen-dimensions-in-aspose-html-f/)
 
 ---
 

@@ -114,6 +114,8 @@ Aspose.HTML for Java’da sandboxing nasıl uygulanır öğrenin; HTML belgeleri
 Aspose.HTML for Java’da özel bir kullanıcı stil sayfası nasıl ayarlanır öğrenin; belge stilinizi geliştirin ve HTML'yi PDF'ye sorunsuz bir şekilde dönüştürün.
 ### [Aspose HTML Sandbox Oluşturma – Tam Java Rehberi](./create-aspose-html-sandbox-complete-java-guide/)
 Aspose.HTML için güvenli bir sandbox ortamı kurun, izole edin ve Java’da HTML‑to‑PDF dönüşümünü güvenle gerçekleştirin.
+### [Aspose.HTML for Java’da Özel Kullanıcı Aracısı ve Ekran Boyutları Nasıl Ayarlanır](./set-custom-user-agent-and-screen-dimensions-in-aspose-html-f/)
+Aspose.HTML for Java’da özel bir kullanıcı aracısı ve ekran boyutları ayarlayarak HTML dönüşümünü kontrol edin.
 
 ---
 

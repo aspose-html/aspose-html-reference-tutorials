@@ -121,6 +121,9 @@ A: การแซนด์บ็อกซ์จำกัด API บางอย
 ### [สร้าง Aspose HTML Sandbox – คู่มือฉบับสมบูรณ์สำหรับ Java](./create-aspose-html-sandbox-complete-java-guide/)
 เรียนรู้วิธีสร้าง sandbox สำหรับ Aspose.HTML ด้วย Java อย่างละเอียด ตั้งค่าความปลอดภัยและแปลง HTML เป็น PDF อย่างมั่นใจ
 
+### [ตั้งค่า user agent แบบกำหนดเองและขนาดหน้าจอใน Aspose.HTML สำหรับ Java](./set-custom-user-agent-and-screen-dimensions-in-aspose-html-f/)
+เรียนรู้วิธีตั้งค่า user agent แบบกำหนดเองและกำหนดขนาดหน้าจอใน Aspose.HTML for Java เพื่อควบคุมการแสดงผลและการดึงข้อมูล
+
 ---
 
 **Last Updated:** 2025-12-03  

@@ -110,6 +110,9 @@ Scopri come usare i gestori di messaggi in Aspose.HTML per Java per gestire imma
 ### [Configura il servizio di rete in Aspose.HTML per Java](./setup-network-service/)
 Scopri come configurare un servizio di rete in Aspose.HTML per Java, gestire le risorse di rete e convertire HTML in PNG con gestione personalizzata degli errori.
 
+### [Imposta user agent personalizzato e dimensioni dello schermo in Aspose.HTML per Java](./set-custom-user-agent-and-screen-dimensions-in-aspose-html-f/)
+Scopri come impostare un user agent personalizzato e definire le dimensioni dello schermo per le conversioni HTML in PDF con Aspose.HTML per Java.
+
 ### [Configura il servizio di runtime in Aspose.HTML per Java](./configure-runtime-service/)
 Scopri come configurare il Runtime Service in Aspose.HTML per Java per ottimizzare l'esecuzione degli script, prevenire loop infiniti e migliorare le prestazioni dell'applicazione.
 

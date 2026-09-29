@@ -66,6 +66,7 @@ Leer hoe u de h1-tekst in een MHTML-bestand kunt aanpassen met Aspose.HTML voor 
 ### [Fixed thread pool Java – Parallelle HTML-reiniging met ExecutorService](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 ### [Kind toevoegen aan body in Java – volledige Aspose.HTML-tutorial](./append-child-to-body-in-java-full-aspose-html-tutorial/)
 Leer hoe u een kind-element aan de body van een HTML-document toevoegt met Aspose.HTML voor Java.
+### [Hoe de achtergrondkleur te wijzigen met JavaScript in Java](./how-to-change-background-color-javascript-using-java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

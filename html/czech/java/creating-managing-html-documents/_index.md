@@ -58,6 +58,8 @@ V tomto podrobném průvodci se dozvíte, jak načítat, manipulovat a ukládat 
 Naučte se načítat HTML dokumenty ze streamů pomocí Aspose.HTML for Java. Tato příručka poskytuje podrobný návod pro bezproblémovou manipulaci s HTML.
 ### [Vytvořte HTML dokumenty z String v Aspose.HTML pro Java](./create-html-documents-from-string/)
 Naučte se vytvářet HTML dokumenty z řetězců v Aspose.HTML pro Java pomocí tohoto podrobného průvodce.
+### [Jak vytvořit HTML prvek v Javě pomocí Aspose.HTML](./how-to-create-html-element-in-java-using-aspose-html/)
+Naučte se vytvářet HTML elementy v Javě s Aspose.HTML pomocí praktického průvodce.
 ### [Vytvořte HTML dokument v Javě – načtěte JSON a generujte obsah](./create-html-document-with-java-fetch-json-and-generate-conte/)
 Naučte se v Javě načíst JSON a generovat dynamický HTML obsah pomocí Aspose.HTML.
 ### [Načtěte HTML dokumenty z URL v Aspose.HTML pro Java](./load-html-documents-from-url/)
@@ -74,10 +76,14 @@ Naučte se, jak vytvořit sandboxové prostředí pro bezpečnou manipulaci s HT
 Naučte se vytvářet a spravovat dokumenty SVG pomocí Aspose.HTML pro Javu! Tento komplexní průvodce pokrývá vše od základní tvorby až po pokročilou manipulaci.
 ### [Jak dotazovat HTML v Javě – Kompletní tutoriál](./how-to-query-html-in-java-complete-tutorial/)
 Kompletní průvodce, jak v Javě dotazovat a získávat data z HTML pomocí Aspose.HTML, včetně příkladů a tipů.
+### [Jak vybrat prvky podle třídy v Javě pomocí querySelectorAll](./how-to-select-elements-by-class-in-java-using-queryselectora/)
+Naučte se vybrat HTML prvky podle třídy v Javě pomocí querySelectorAll v Aspose.HTML.
 ### [Jak parsovat HTML v Javě – načíst, dotazovat a počítat prvky](./how-to-parse-html-java-load-query-count-elements/)
 Naučte se načíst HTML, dotazovat jej a počítat elementy v Javě pomocí Aspose.HTML v tomto podrobném průvodci.
 ### [Načtení HTML dokumentu v Javě – Kompletní průvodce s XPath a CSS](./load-html-document-java-complete-guide-with-xpath-css/)
 Kompletní návod, jak načíst HTML dokument v Javě pomocí Aspose.HTML, včetně použití XPath a CSS selektorů.
+### [Jak počítat HTML elementy v Javě pomocí XPath](./how-to-count-html-elements-in-java-with-xpath/)
+Naučte se pomocí XPath v Aspose.HTML pro Java počítat počet HTML elementů v dokumentu.
 ### [Počítání znaků HTML v Javě – Kompletní průvodce s Aspose HTML](./count-html-characters-in-java-full-guide-with-aspose-html/)
 Naučte se, jak pomocí Aspose.HTML v Javě spočítat počet znaků v HTML dokumentu, včetně praktických příkladů a tipů.
 ### [Extrahujte text z HTML v Javě – Kompletní programovací průvodce](./extract-text-from-html-in-java-complete-programming-guide/)

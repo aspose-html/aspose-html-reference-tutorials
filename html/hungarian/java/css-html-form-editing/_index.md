@@ -39,7 +39,8 @@ Ismerje meg, hogyan tölthet be HTML-t Java-ban, és használhatja a query selec
 Ismerje meg, hogyan válassza ki a kívánt elemet osztály alapján Java-ban az Aspose.HTML segítségével.
 ### [CSS olvasása Java-ban – Teljes útmutató az Aspose.HTML segítségével](./how-to-read-css-in-java-complete-guide-with-aspose-html/)
 Ismerje meg, hogyan olvashat és elemezhet CSS-fájlokat Java-ban az Aspose.HTML segítségével, részletes példákkal és tippekkel.
-
+### [CSS olvasása HTML-ből Java-ban – Aspose.HTML használatával](./how-to-read-css-from-html-with-aspose-html-in-java/)
+Ismerje meg, hogyan olvashat CSS‑stílusokat HTML‑dokumentumból Java‑ban az Aspose.HTML segítségével.
 ### [HTML elemzése Java-val: CSS tulajdonság kinyerése és betűméret lekérése](./parse-html-with-java-extract-css-property-and-get-font-size/)
 Ismerje meg, hogyan lehet Java-val HTML-t elemezni, CSS‑tulajdonságokat kinyerni és a betűméretet meghatározni.
 ### [HTML lekérdezése Java-val – HTML betöltése, CSS szelektor, és címsorok kinyerése](./how-to-query-html-in-java-load-html-css-selector-and-extract/)

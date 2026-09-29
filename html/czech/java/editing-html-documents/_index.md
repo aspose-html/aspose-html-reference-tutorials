@@ -66,6 +66,8 @@ Objevte, jak přidat prvek jako potomka do těla HTML dokumentu v Javě pomocí 
 Naučte se, jak změnit text h1 v souboru MHTML pomocí Aspose.HTML pro Javu v podrobném průvodci.
 ### [Vytvořte nový HTML prvek v Javě – Kompletní průvodce Aspose.HTML](./create-new-html-element-with-java-full-aspose-html-guide/)
 Naučte se, jak vytvořit nový HTML element pomocí Aspose.HTML v Javě s podrobným návodem krok za krokem.
+### [Jak změnit barvu pozadí JavaScriptu pomocí Javy](./how-to-change-background-color-javascript-using-java/)
+Naučte se, jak pomocí Aspose.HTML pro Javu změnit barvu pozadí v JavaScriptu v HTML dokumentu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
