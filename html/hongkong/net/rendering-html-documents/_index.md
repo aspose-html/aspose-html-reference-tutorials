@@ -99,6 +99,9 @@ Aspose.HTML for .NET 因其豐富的功能、優秀的文件和活躍的社群�
 ### [在 C# 中從 HTML 建立圖像 – 完整步驟指南](./create-image-from-html-in-c-complete-step-by-step-guide/)
 一步步教您使用 Aspose.HTML for .NET 在 C# 中將 HTML 轉換為圖像，涵蓋完整設定與最佳實踐。
 
+### [如何使用 Aspose 將 HTML 渲染為 PDF – 步驟指南](./render-html-to-pdf-with-aspose-html-step-by-step-guide/)
+一步步教您使用 Aspose.HTML for .NET 將 HTML 轉換為 PDF，掌握渲染技巧與設定。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

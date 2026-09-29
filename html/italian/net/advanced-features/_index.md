@@ -49,6 +49,9 @@ Scopri come creare uno stream di memoria personalizzato in C# usando Aspose.HTML
 Scopri come unire più font in C# usando Aspose.HTML, con esempi pratici e istruzioni dettagliate passo‑passo.
 ### [Recupera la versione dell'assembly in C# – Guida rapida per ottenere la versione della libreria](./get-assembly-version-in-c-quick-guide-to-retrieve-library-ve/)
 Scopri come ottenere la versione di un assembly C# in modo rapido, usando Aspose.HTML per identificare la versione della libreria.
+### [Gestore di risorse personalizzato in Aspose HTML – Guida al salvataggio su stream](./custom-resource-handler-in-aspose-html-save-to-stream-guide/)
+Scopri come implementare un gestore di risorse personalizzato in Aspose HTML per salvare contenuti direttamente su stream.
+
 ## Conclusione
 
 Aspose.HTML per .NET apre le porte a un mondo di possibilità quando si tratta di lavorare con documenti HTML nelle tue applicazioni .NET. Questi tutorial sulle funzionalità avanzate ti forniranno le conoscenze e le competenze necessarie per sfruttare appieno il potenziale di Aspose.HTML. Porta i tuoi progetti di sviluppo, risparmia tempo e crea soluzioni straordinarie con Aspose.HTML per .NET. Inizia subito con i nostri tutorial e porta il tuo sviluppo web al livello successivo.

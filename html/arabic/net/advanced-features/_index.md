@@ -48,6 +48,8 @@ Aspose.HTML for .NET هي أداة قوية تتيح للمطورين العمل
 تعلم كيفية دمج خطوط متعددة برمجيًا في C# باستخدام Aspose.HTML لإنشاء مستندات HTML غنية ومتنوعة.
 ### [الحصول على نسخة التجميع في C# – دليل سريع لاسترجاع نسخة المكتبة](./get-assembly-version-in-c-quick-guide-to-retrieve-library-ve/)
 تعلم كيفية استخراج نسخة التجميع (Assembly Version) في C# بسهولة باستخدام دليل خطوة بخطوة.
+### [معالج موارد مخصص في Aspose HTML – دليل حفظ إلى تدفق](./custom-resource-handler-in-aspose-html-save-to-stream-guide/)
+تعلم كيفية إنشاء معالج موارد مخصص في Aspose HTML وحفظ المحتوى إلى تدفق.
 
 ## خاتمة
 

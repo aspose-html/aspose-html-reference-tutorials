@@ -49,6 +49,8 @@ Hướng dẫn chi tiết cách tạo memory stream trong C# bằng Aspose.HTML,
 Hướng dẫn chi tiết cách kết hợp nhiều phông chữ trong C# bằng Aspose.HTML, bao gồm mã mẫu và các lưu ý quan trọng.
 ### [Lấy Phiên Bản Assembly trong C# – Hướng Dẫn Nhanh Để Lấy Phiên Bản Thư Viện](./get-assembly-version-in-c-quick-guide-to-retrieve-library-ve/)
 Hướng dẫn nhanh cách lấy phiên bản của một assembly trong C# để xác định phiên bản thư viện đang sử dụng.
+### [Trình xử lý tài nguyên tùy chỉnh trong Aspose HTML – Hướng dẫn lưu vào stream](./custom-resource-handler-in-aspose-html-save-to-stream-guide/)
+Hướng dẫn cách tạo trình xử lý tài nguyên tùy chỉnh trong Aspose HTML và lưu nội dung vào stream một cách hiệu quả.
 ## Phần kết luận
 
 Aspose.HTML cho .NET mở ra cánh cửa đến một thế giới khả năng khi làm việc với các tài liệu HTML trong các ứng dụng .NET của bạn. Các hướng dẫn tính năng nâng cao này sẽ trang bị cho bạn kiến thức và kỹ năng cần thiết để khai thác toàn bộ tiềm năng của Aspose.HTML. Nâng cao các dự án phát triển của bạn, tiết kiệm thời gian và tạo ra các giải pháp đáng chú ý với Aspose.HTML cho .NET. Bắt đầu với các hướng dẫn của chúng tôi ngay hôm nay và đưa phát triển web của bạn lên một tầm cao mới.

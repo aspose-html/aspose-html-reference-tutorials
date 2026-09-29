@@ -79,6 +79,8 @@ Naučte se převést dokumenty do PNG pomocí podrobného průvodce v C# s Aspos
 Naučte se převést soubory DOCX na PNG v C# pomocí podrobného průvodce krok za krokem.
 ### [Tutoriál html na obrázek – Vykreslete HTML do PNG pomocí Aspose.HTML v C#](./html-to-image-tutorial-render-html-to-png-with-aspose-html-i/)
 Naučte se, jak pomocí Aspose.HTML v C# převést HTML na PNG obrázek krok za krokem.
+### [Jak renderovat HTML do PNG v C# – Kompletní průvodce](./how-to-render-html-to-png-in-c-complete-guide/)
+Kompletní návod, jak pomocí Aspose.HTML v C# převést HTML na PNG, včetně nastavení kvality a rozměrů.
 
 ## Závěr
 

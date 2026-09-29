@@ -48,6 +48,8 @@ Aspose.HTML for .NET 是一個功能強大的工具，可讓開發人員以程�
 本指南逐步說明如何在 C# 中使用程式碼合併多個字型檔案，打造自訂字型資源。
 ### [在 C# 中取得組件版本 – 快速指南取得程式庫版本](./get-assembly-version-in-c-quick-guide-to-retrieve-library-ve/)
 了解如何在 C# 中使用程式碼取得組件的版本資訊，快速掌握庫版本檢查方法。
+### [Aspose HTML 中的自訂資源處理程式 – 儲存至串流指南](./custom-resource-handler-in-aspose-html-save-to-stream-guide/)
+說明如何在 Aspose HTML 中實作自訂資源處理程式，將資源直接儲存至串流。
 
 ## 結論
 

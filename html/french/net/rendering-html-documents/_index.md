@@ -93,6 +93,9 @@ Apprenez à convertir du HTML en images PNG puis à les compresser dans un fichi
 ### [Créer une image à partir de HTML en C# – Guide complet étape par étape](./create-image-from-html-in-c-complete-step-by-step-guide/)
 Apprenez à générer des images à partir de HTML en C# avec Aspose.HTML grâce à ce guide complet et détaillé.
 
+### [Rendre HTML au format PDF avec Aspose.HTML – Guide étape par étape](./render-html-to-pdf-with-aspose-html-step-by-step-guide/)
+Apprenez à convertir du HTML en PDF avec Aspose.HTML pour .NET grâce à ce guide complet étape par étape.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

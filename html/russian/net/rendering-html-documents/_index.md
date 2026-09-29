@@ -95,6 +95,9 @@ Aspose.HTML для .NET выделяется как лучший выбор дл
 ### [Создание изображения из HTML на C# – Полное пошаговое руководство](./create-image-from-html-in-c-complete-step-by-step-guide/)
 Подробный пошаговый учебник по созданию изображений из HTML с помощью Aspose.HTML в C#.
 
+### [Рендеринг HTML в PDF с Aspose.HTML – пошаговое руководство](./render-html-to-pdf-with-aspose-html-step-by-step-guide/)
+Подробный пошаговый учебник по конвертации HTML в PDF с использованием Aspose.HTML для .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

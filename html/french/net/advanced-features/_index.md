@@ -48,6 +48,8 @@ Découvrez comment utiliser Aspose.HTML pour .NET pour générer dynamiquement d
 Apprenez à combiner plusieurs polices en C# avec Aspose.HTML, étape par étape, incluant des exemples de code et des FAQ.
 ### [Obtenir la version de l'assembly en C# – Guide rapide pour récupérer la version d'une bibliothèque](./get-assembly-version-in-c-quick-guide-to-retrieve-library-ve/)
 Apprenez à récupérer la version d'un assembly C# rapidement, avec des exemples de code simples.
+### [Gestionnaire de ressources personnalisé dans Aspose HTML – Guide d’enregistrement dans un flux](./custom-resource-handler-in-aspose-html-save-to-stream-guide/)
+Apprenez à implémenter un gestionnaire de ressources personnalisé avec Aspose HTML pour enregistrer le contenu directement dans un flux.
 
 ## Conclusion
 

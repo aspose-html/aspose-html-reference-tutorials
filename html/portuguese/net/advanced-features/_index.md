@@ -48,6 +48,8 @@ Aprenda a usar Aspose.HTML para .NET para gerar dinamicamente documentos HTML a 
 Aprenda a combinar várias fontes em um documento usando C# e Aspose.HTML, com exemplos detalhados e instruções passo a passo.
 ### [Obter versão do assembly em C# – Guia rápido para recuperar a versão da biblioteca](./get-assembly-version-in-c-quick-guide-to-retrieve-library-ve/)
 Aprenda a obter a versão de um assembly em C# de forma simples e rápida, usando código nativo.
+### [Manipulador de recurso personalizado no Aspose HTML – Guia de salvamento em fluxo](./custom-resource-handler-in-aspose-html-save-to-stream-guide/)
+Aprenda a criar um manipulador de recursos personalizado no Aspose HTML e salvar o conteúdo diretamente em um fluxo.
 
 ## Conclusão
 

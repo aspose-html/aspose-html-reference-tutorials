@@ -48,6 +48,9 @@ Aspose.HTML을 사용하여 .NET에서 메모리 스트림을 직접 생성하�
 ### [C#에서 프로그래밍 방식으로 글꼴 결합하기 – 단계별 가이드](./how-to-combine-fonts-programmatically-in-c-step-by-step-guid/)
 ### [C#에서 어셈블리 버전 가져오기 – 라이브러리 버전 조회 빠른 가이드](./get-assembly-version-in-c-quick-guide-to-retrieve-library-ve/)
 C# 코드를 사용해 어셈블리의 버전 정보를 간단히 추출하는 방법을 단계별로 안내합니다.
+### [Aspose HTML에서 사용자 지정 리소스 핸들러 – 스트림 저장 가이드](./custom-resource-handler-in-aspose-html-save-to-stream-guide/)
+Aspose HTML에서 사용자 지정 리소스 핸들러를 구현하고, HTML 콘텐츠를 스트림에 저장하는 방법을 단계별로 안내합니다.
+
 ## 결론
 
 Aspose.HTML for .NET은 .NET 애플리케이션에서 HTML 문서를 작업할 때 가능성의 세계로의 문을 열어줍니다. 이러한 고급 기능 튜토리얼은 Aspose.HTML의 모든 잠재력을 활용하는 데 필요한 지식과 기술을 제공합니다. Aspose.HTML for .NET으로 개발 프로젝트를 향상시키고, 시간을 절약하고, 놀라운 솔루션을 만드세요. 오늘 튜토리얼을 시작하고 웹 개발을 한 단계 업그레이드하세요.

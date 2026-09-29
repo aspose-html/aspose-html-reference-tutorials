@@ -48,6 +48,8 @@ Lär dig hur du använder Aspose.HTML för .NET för att dynamiskt generera HTML
 Lär dig att kombinera flera teckensnitt i ett HTML-dokument med C# och Aspose.HTML i en enkel steg‑för‑steg‑guide.
 ### [Hämta Assembly-version i C# – Snabbguide för att hämta biblioteksversion](./get-assembly-version-in-c-quick-guide-to-retrieve-library-ve/)
 Lär dig hur du snabbt får fram versionen av ett .NET‑assembly i C# med enkla kodexempel.
+### [Anpassad resurs‑hanterare i Aspose HTML – Guide för att spara till ström](./custom-resource-handler-in-aspose-html-save-to-stream-guide/)
+Lär dig hur du implementerar en anpassad resurs‑hanterare i Aspose HTML för att spara HTML‑innehåll till en ström.
 
 ## Slutsats
 

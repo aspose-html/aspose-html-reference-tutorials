@@ -48,6 +48,9 @@ C# でカスタム メモリ ストリームを作成し、Aspose.HTML での HT
 ### [C# でフォントをプログラム的に結合する方法 – ステップバイステップガイド](./how-to-combine-fonts-programmatically-in-c-step-by-step-guid/)
 ### [C# でアセンブリ バージョンを取得 – ライブラリ バージョン取得のクイック ガイド](./get-assembly-version-in-c-quick-guide-to-retrieve-library-ve/)
 C# でアセンブリのバージョン情報を取得し、ライブラリのバージョンを確認する手順をステップバイステップで解説します。
+### [Aspose HTML のカスタム リソース ハンドラ – ストリームへの保存ガイド](./custom-resource-handler-in-aspose-html-save-to-stream-guide/)
+Aspose.HTML でカスタム リソース ハンドラを実装し、HTML コンテンツをストリームに保存する方法をステップバイステップで解説します。
+
 ## 結論
 
 Aspose.HTML for .NET は、.NET アプリケーションで HTML ドキュメントを操作する際に、可能性の世界への扉を開きます。これらの高度な機能のチュートリアルでは、Aspose.HTML の潜在能力を最大限に活用するために必要な知識とスキルを身に付けることができます。Aspose.HTML for .NET を使用すると、開発プロジェクトを向上させ、時間を節約し、優れたソリューションを作成できます。今すぐチュートリアルを始めて、Web 開発を次のレベルに引き上げましょう。

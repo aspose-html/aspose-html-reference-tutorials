@@ -89,6 +89,8 @@ Lär dig steg för steg hur du med Aspose.HTML renderar HTML till en bild i C# m
 Lär dig steg för steg hur du renderar HTML till PNG i C# med Aspose.HTML för .NET.
 ### [Rendera HTML till PNG och spara i ZIP med C# – Komplett guide](./render-html-to-png-and-save-to-zip-with-c-complete-guide/)
 Lär dig hur du med Aspose.HTML för .NET konverterar HTML till PNG och packar dem i en ZIP‑fil i en komplett C#‑guide.
+### [Rendera HTML till PDF med Aspose.HTML – Steg‑för‑steg‑guide](./render-html-to-pdf-with-aspose-html-step-by-step-guide/)
+Lär dig hur du med Aspose.HTML för .NET konverterar HTML till PDF i en detaljerad steg‑för‑steg‑handledning.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

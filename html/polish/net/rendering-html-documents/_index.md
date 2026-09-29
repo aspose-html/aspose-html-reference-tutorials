@@ -94,6 +94,8 @@ Poznaj krok po kroku, jak przy użyciu Aspose.HTML renderować dokumenty HTML do
 Pełny przewodnik, jak przy użyciu Aspose.HTML w C# renderować HTML do obrazu, krok po kroku.
 ### [Utwórz obraz z HTML w C# – Kompletny przewodnik krok po kroku](./create-image-from-html-in-c-complete-step-by-step-guide/)
 Dowiedz się, jak przy użyciu Aspose.HTML w C# konwertować HTML na obrazy w pełnym, krok po kroku przewodniku.
+### [Renderuj HTML do PDF przy użyciu Aspose.HTML – przewodnik krok po kroku](./render-html-to-pdf-with-aspose-html-step-by-step-guide/)
+Pełny przewodnik pokazujący, jak przy użyciu Aspose.HTML konwertować HTML do PDF w kilku prostych krokach.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

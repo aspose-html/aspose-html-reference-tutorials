@@ -79,6 +79,8 @@ C#을 사용해 HTML을 PNG 이미지로 변환하는 방법을 단계별로 자
 C#을 사용해 DOCX 파일을 PNG 이미지로 변환하는 전체 과정을 단계별로 안내합니다.
 ### [HTML을 이미지로 변환 튜토리얼 – C#에서 Aspose.HTML으로 HTML을 PNG로 렌더링](./html-to-image-tutorial-render-html-to-png-with-aspose-html-i/)
 C#와 Aspose.HTML을 사용해 HTML을 PNG 이미지로 변환하는 단계별 가이드.
+### [C#에서 HTML을 PNG로 렌더링하는 방법 – 완전 가이드](./how-to-render-html-to-png-in-c-complete-guide/)
+C#을 사용해 HTML을 PNG 이미지로 변환하는 전체 과정과 주요 설정을 단계별로 안내합니다.
 
 ## 결론
 

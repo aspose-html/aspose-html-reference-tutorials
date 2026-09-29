@@ -48,6 +48,8 @@ Aprenda a utilizar Aspose.HTML para .NET para generar documentos HTML de forma d
 Aprenda a combinar fuentes en C# de forma programática con ejemplos claros y paso a paso.
 ### [Obtener la versión del ensamblado en C# – Guía rápida para recuperar la versión de la biblioteca](./get-assembly-version-in-c-quick-guide-to-retrieve-library-ve/)
 Aprenda a obtener la versión del ensamblado en C# de forma sencilla y rápida.
+### [Controlador de recursos personalizado en Aspose HTML – Guía para guardar en flujo](./custom-resource-handler-in-aspose-html-save-to-stream-guide/)
+Aprenda a crear un controlador de recursos personalizado en Aspose HTML y guardar contenido directamente en un flujo de datos.
 
 ## Conclusión
 
