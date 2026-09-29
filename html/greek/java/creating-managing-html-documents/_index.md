@@ -58,9 +58,11 @@ url: /el/java/creating-managing-html-documents/
 Μάθετε πώς να φορτώνετε έγγραφα HTML από ροές χρησιμοποιώντας το Aspose.HTML για Java. Αυτός ο οδηγός παρέχει έναν οδηγό βήμα προς βήμα για απρόσκοπτη επεξεργασία HTML.
 
 ### [Δημιουργήστε έγγραφα HTML από το String στο Aspose.HTML για Java](./create-html-documents-from-string/)
-Μάθετε πώς να δημιουργείτε έγγραφα HTML από συμβολοσειρές στο Aspose.HTML για Java με αυτόν τον οδηγό βήμα προς βήμα.
+Μάθετε πώς να δημιουργείτε έγγραφα HTML από συμβολοσειρές στο Aspose.HTML για Java με αυτόν τον οδηγό βήμα‑βήμα.
+
 ### [Δημιουργία εγγράφου HTML με Java – Λήψη JSON και δημιουργία περιεχομένου](./create-html-document-with-java-fetch-json-and-generate-conte/)
 Μάθετε πώς να δημιουργήσετε ένα έγγραφο HTML σε Java, λαμβάνοντας δεδομένα JSON και δημιουργώντας δυναμικό περιεχόμενο HTML με οδηγίες βήμα‑βήμα.
+
 ### [Φόρτωση εγγράφων HTML από τη διεύθυνση URL στο Aspose.HTML για Java](./load-html-documents-from-url/)
 Ανακαλύψτε πώς να φορτώνετε εύκολα έγγραφα HTML από μια διεύθυνση URL σε Java με το Aspose.HTML. Περιλαμβάνεται σεμινάριο βήμα προς βήμα.
 
@@ -79,13 +81,23 @@ url: /el/java/creating-managing-html-documents/
 ### [Δημιουργία και διαχείριση εγγράφων SVG στο Aspose.HTML για Java](./create-manage-svg-documents/)
 Μάθετε να δημιουργείτε και να διαχειρίζεστε έγγραφα SVG χρησιμοποιώντας το Aspose.HTML για Java! Αυτός ο περιεκτικός οδηγός καλύπτει τα πάντα, από τη βασική δημιουργία έως την προηγμένη χειραγώγηση.
 
+### [Πώς να δημιουργήσετε στοιχείο HTML σε Java χρησιμοποιώντας το Aspose.HTML](./how-to-create-html-element-in-java-using-aspose-html/)
+Μάθετε πώς να δημιουργήσετε ένα στοιχείο HTML σε Java με το Aspose.HTML, βήμα‑βήμα οδηγίες για αρχάριους και προχωρημένους.
+
 ### [Πώς να ερωτήσετε HTML σε Java – Πλήρης οδηγός](./how-to-query-html-in-java-complete-tutorial/)
 Μάθετε πώς να εκτελείτε ερωτήματα σε έγγραφα HTML με Java χρησιμοποιώντας το Aspose.HTML, βήμα‑βήμα οδηγίες και παραδείγματα.
+
+### [Πώς να μετρήσετε στοιχεία HTML σε Java με XPath](./how-to-count-html-elements-in-java-with-xpath/)
+Μάθετε πώς να μετράτε στοιχεία HTML σε Java χρησιμοποιώντας XPath με βήμα‑βήμα οδηγίες.
+
 ### [Εξαγωγή κειμένου από HTML σε Java – Πλήρης οδηγός](./extract-text-from-html-in-java-complete-programming-guide/)
 Μάθετε πώς να εξάγετε κείμενο από έγγραφα HTML σε Java με το Aspose.HTML, βήμα‑βήμα οδηγίες και παραδείγματα.
 
 ### [Καταμέτρηση χαρακτήρων HTML σε Java – Πλήρης οδηγός με Aspose HTML](./count-html-characters-in-java-full-guide-with-aspose-html/)
 Μάθετε πώς να μετράτε τους χαρακτήρες HTML σε εφαρμογές Java χρησιμοποιώντας το Aspose.HTML, βήμα‑βήμα οδηγός.
+
+### [Πώς να επιλέξετε στοιχεία κατά κλάση σε Java χρησιμοποιώντας querySelectorAll](./how-to-select-elements-by-class-in-java-using-queryselectora/)
+Μάθετε πώς να επιλέγετε στοιχεία HTML με συγκεκριμένη κλάση σε Java μέσω querySelectorAll, βήμα‑βήμα οδηγός.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -119,4 +131,3 @@ url: /el/java/creating-managing-html-documents/
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

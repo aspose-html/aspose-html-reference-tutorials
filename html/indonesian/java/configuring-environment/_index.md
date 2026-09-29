@@ -122,6 +122,9 @@ Pelajari cara membuat sandbox Aspose HTML secara menyeluruh di Java untuk mengam
 ### [Set User Style Sheet in Aspose.HTML for Java](./set-user-style-sheet/)
 Pelajari cara mengatur stylesheet pengguna khusus di Aspose.HTML untuk Java, meningkatkan gaya dokumen Anda dan mengonversi HTML ke PDF dengan mudah.
 
+### [Atur agen pengguna khusus dan dimensi layar di Aspose.HTML untuk Java](./set-custom-user-agent-and-screen-dimensions-in-aspose-html-f/)
+Pelajari cara mengatur user agent khusus dan ukuran layar untuk konversi HTML yang akurat.
+
 ---
 
 **Terakhir Diperbarui:** 2025-12-03  

@@ -42,6 +42,8 @@ Learn how to query HTML in Java using Aspose.HTML, select elements, filter by at
 
 ### [how to read css in Java – Complete Guide with Aspose.HTML](./how-to-read-css-in-java-complete-guide-with-aspose-html/)
 Learn how to read and parse CSS files in Java using Aspose.HTML in this complete step-by-step guide.
+### [How to read CSS from HTML with Aspose.HTML in Java](./how-to-read-css-from-html-with-aspose-html-in-java/)
+Learn how to extract CSS rules from HTML documents using Aspose.HTML for Java in this step-by-step guide.
 ### [Parse HTML with Java: Extract CSS Property and Get Font Size](./parse-html-with-java-extract-css-property-and-get-font-size/)
 Learn how to parse HTML using Aspose.HTML for Java to extract CSS properties and retrieve font size values programmatically.
 ### [How to Query HTML in Java – Load HTML, CSS Selector, and Extract Headings](./how-to-query-html-in-java-load-html-css-selector-and-extract/)

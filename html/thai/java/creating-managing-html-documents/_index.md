@@ -27,7 +27,7 @@ Aspose.HTML สำหรับ Java นำเสนอชุดเครื่�
 
 ## การโหลด HTML จากไฟล์และสตรีม
 
- เมื่อคุณคุ้นเคยกับการสร้างเอกสารแล้ว ก็ถึงเวลาที่จะยกระดับการทำงานของคุณด้วยการเรียนรู้วิธีโหลดเอกสาร HTML จากไฟล์และสตรีม บทช่วยสอนเหล่านี้จะช่วยให้คุณมีความรู้ในการดึงเนื้อหา HTML จากแหล่งต่างๆ ทำให้คุณมีความยืดหยุ่นมากขึ้นในการทำโครงการของคุณ ไม่ว่าคุณจะจัดการกับไฟล์ในเครื่องหรือสตรีมข้อมูล Aspose.HTML สำหรับ Java ก็ช่วยคุณได้[อ่านเพิ่มเติม](./load-html-documents-from-file/) [อ่านเพิ่มเติม](./load-html-documents-from-stream/)
+ เมื่อคุณคุ้นเคยกับการสร้างเอกสารแล้วก็ถึงเวลาที่จะยกระดับการทำงานของคุณด้วยการเรียนรู้วิธีโหลดเอกสาร HTML จากไฟล์และสตรีม บทช่วยสอนเหล่านี้จะช่วยให้คุณมีความรู้ในการดึงเนื้อหา HTML จากแหล่งต่างๆ ทำให้คุณมีความยืดหยุ่นมากขึ้นในการทำโครงการของคุณ ไม่ว่าคุณจะจัดการกับไฟล์ในเครื่องหรือสตรีมข้อมูล Aspose.HTML สำหรับ Java ก็ช่วยคุณได้[อ่านเพิ่มเติม](./load-html-documents-from-file/) [อ่านเพิ่มเติม](./load-html-documents-from-stream/)
 
 ## การสร้างเอกสาร HTML จากสตริงและ URL
 
@@ -56,6 +56,8 @@ Aspose.HTML สำหรับ Java นำเสนอชุดเครื่�
 เรียนรู้วิธีโหลดเอกสาร HTML จากสตรีมโดยใช้ Aspose.HTML สำหรับ Java คู่มือนี้ประกอบด้วยบทช่วยสอนทีละขั้นตอนสำหรับการจัดการ HTML ได้อย่างราบรื่น
 ### [สร้างเอกสาร HTML จากสตริงใน Aspose.HTML สำหรับ Java](./create-html-documents-from-string/)
 เรียนรู้วิธีสร้างเอกสาร HTML จากสตริงใน Aspose.HTML สำหรับ Java ด้วยคู่มือทีละขั้นตอนนี้
+### [สร้างองค์ประกอบ HTML ใน Java ด้วย Aspose.HTML](./how-to-create-html-element-in-java-using-aspose-html/)
+เรียนรู้วิธีสร้างองค์ประกอบ HTML ใน Java ด้วย Aspose.HTML ผ่านคู่มือขั้นตอนเต็มที่เข้าใจง่าย
 ### [สร้าง HTML จาก JavaScript ใน Java – คู่มือเต็มแบบทีละขั้นตอน](./generate-html-from-javascript-in-java-complete-step-by-step/)
 เรียนรู้วิธีสร้าง HTML จากโค้ด JavaScript ใน Java ด้วยคู่มือขั้นตอนเต็มที่อธิบายอย่างละเอียด
 ### [โหลดเอกสาร HTML จาก URL ใน Aspose.HTML สำหรับ Java](./load-html-documents-from-url/)
@@ -73,9 +75,13 @@ Aspose.HTML สำหรับ Java นำเสนอชุดเครื่�
 ### [สร้าง sandbox สำหรับ HTML ใน Java – คู่มือทีละขั้นตอน](./create-sandbox-for-html-in-java-step-by-step-guide/)
 เรียนรู้วิธีสร้าง sandbox สำหรับ HTML ใน Java ด้วย Aspose.HTML ผ่านคู่มือทีละขั้นตอนที่เข้าใจง่าย
 ### [วิธีการสืบค้น HTML ใน Java – คู่มือฉบับสมบูรณ์](./how-to-query-html-in-java-complete-tutorial/)
-เรียนรู้วิธีสืบค้นและดึงข้อมูลจากเอกสาร HTML ใน Java ด้วย Aspose.HTML อย่างละเอียดในคู่มือฉบับสมบูรณ์
+เรียนรู้วิธีโหลดเอกสาร HTML ใน Java พร้อมการใช้ XPath และ CSS อย่างละเอียดในคู่มือฉบับสมบูรณ์
 ### [วิธีสืบค้น HTML ใน Java – โหลด, คิวรีและนับองค์ประกอบ](./how-to-parse-html-java-load-query-count-elements/)
 เรียนรู้วิธีโหลดเอกสาร HTML, คิวรีข้อมูลและนับจำนวนองค์ประกอบใน Java ด้วย Aspose.HTML อย่างละเอียด
+### [วิธีนับองค์ประกอบ HTML ใน Java ด้วย XPath](./how-to-count-html-elements-in-java-with-xpath/)
+เรียนรู้วิธีนับองค์ประกอบ HTML ใน Java ด้วย XPath อย่างละเอียด
+### [วิธีเลือกองค์ประกอบตามคลาสใน Java ด้วย querySelectorAll](./how-to-select-elements-by-class-in-java-using-queryselectora/)
+เรียนรู้วิธีใช้ querySelectorAll เพื่อเลือกองค์ประกอบ HTML ตามคลาสใน Java ด้วย Aspose.HTML
 ### [ดำเนินการ JavaScript แบบอะซิงโครนัสใน Java – คู่มือขั้นตอนเต็ม](./execute-async-javascript-in-java-complete-step-by-step-guide/)
 เรียนรู้วิธีดำเนินการ JavaScript แบบอะซิงโครนัสใน Java ด้วย Aspose.HTML ผ่านคู่มือขั้นตอนเต็มที่เข้าใจง่าย
 ### [นับอักขระ HTML ใน Java – คู่มือฉบับสมบูรณ์ด้วย Aspose HTML](./count-html-characters-in-java-full-guide-with-aspose-html/)

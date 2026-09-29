@@ -66,6 +66,8 @@ Ismerje meg, hogyan adhat hozzá új elemet a HTML body részéhez Java-ban az A
 Ismerje meg, hogyan módosíthatja az MHTML fájlok h1 címkéjének szövegét Java segítségével részletes, lépésről‑lépésre útmutatóval.
 ### [Új HTML elem létrehozása Java-val – Teljes Aspose.HTML útmutató](./create-new-html-element-with-java-full-aspose-html-guide/)
 Ismerje meg, hogyan hozhat létre új HTML elemet Java segítségével az Aspose.HTML teljes útmutatójában.
+### [Hogyan változtassuk meg a háttérszínt JavaScript-ben Java-val](./how-to-change-background-color-javascript-using-java/)
+Ismerje meg, hogyan módosíthatja a HTML elemek háttérszínét JavaScript kóddal Java környezetben.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -54,10 +54,10 @@ Aspose.HTML for Java를 사용하여 외부 CSS를 HTML 문서에 적용하는 �
 Aspose.HTML for Java로 외부 CSS 편집 기술을 마스터하세요. 이 자세한 단계별 가이드는 동적이고 스타일이 적용된 HTML 문서를 만드는 방법을 안내합니다.
 ### [Java용 Aspose.HTML에서 HTML 문서에 인라인 CSS 추가](./add-inline-css-html-documents/)
 Aspose.HTML for Java를 사용하여 HTML 문서에 인라인 CSS를 추가하는 방법을 알아보세요. 이 단계별 가이드는 HTML을 스타일링하고 쉽게 PDF로 변환하는 데 도움이 됩니다.
-### [Java용 Aspose.HTML에서 내부 및 외부 HTML 속성 관리](./manage-inner-outer-html-properties/)
-이 단계별 가이드를 통해 웹 개발자와 콘텐츠 제작자에게 적합한 Aspose.HTML for Java에서 내부 및 외부 HTML 속성을 관리하는 방법을 알아보세요.
 ### [Aspose.HTML for Java를 사용하여 HTML 문서에 내부 CSS 구현](./implement-internal-css-html-documents/)
 간단한 단계별 튜토리얼을 통해 Java용 Aspose.HTML을 사용하여 HTML 문서에서 내부 CSS를 구현하는 방법을 알아보세요.
+### [Java를 사용하여 JavaScript 배경색을 변경하는 방법](./how-to-change-background-color-javascript-using-java/)
+Java를 사용해 JavaScript로 HTML 문서의 배경색을 변경하는 단계별 가이드를 제공합니다.
 ### [고정 스레드 풀 Java – ExecutorService를 이용한 병렬 HTML 정리](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 ExecutorService와 고정 스레드 풀을 활용해 HTML 문서를 병렬로 정리하는 방법을 단계별로 안내합니다.
 ### [Java용 Aspose.HTML에서 본문에 자식 요소 추가 – 전체 튜토리얼](./append-child-to-body-in-java-full-aspose-html-tutorial/)

@@ -33,6 +33,8 @@ Aspose.HTML for Java 為旨在在 Java 應用程式中無縫處理 HTML 文件�
 
 想像一下，您需要根據使用者輸入或從 Web 檢索的資料動態產生 HTML 內容。這就是從字串建立 HTML 文件或直接從 URL 載入它們變得非常有價值的地方。 Aspose.HTML for Java 允許您使用原始 HTML 字串無縫建立 HTML 文件或從任何網址載入它們。這些教學課程為您提供了動態產生和操作 Web 內容的工具，讓您的 Java 應用程式更加靈活且反應迅速。[閱讀更多](./create-html-documents-from-string/)
 
+### [如何在 Java 中使用 Aspose.HTML 建立 HTML 元素](./how-to-create-html-element-in-java-using-aspose-html/)
+
 ## 產生新的 HTML 文件並處理高級文件加載
 
 在產生新的 HTML 文件時，Aspose.HTML for Java 提供了強大的解決方案，讓您能夠從頭開始建立豐富的 Web 內容。無論您是在開發內容管理系統還是需要產生 HTML 格式的報告，了解如何建立和管理新的 HTML 文件都至關重要。此外，先進的文件載入技術可讓您處理複雜的 HTML 文檔，確保您可以輕鬆處理大型專案。這些教學將引導您完成每一步，確保您有能力應對任何與 HTML 相關的挑戰。[閱讀更多](./generate-new-html-documents/)
@@ -74,6 +76,10 @@ Aspose.HTML for Java 為旨在在 Java 應用程式中無縫處理 HTML 文件�
 了解如何使用 Aspose.HTML for Java 計算 HTML 文檔中的字元數，提供完整步驟與範例。
 ### [在 Java 中從 HTML 提取文字 – 完整程式設計指南](./extract-text-from-html-in-java-complete-programming-guide/)
 使用 Aspose.HTML for Java 從 HTML 中提取文字的完整步驟指南，涵蓋示例與最佳實踐。
+### [如何在 Java 中使用 querySelectorAll 按類別選取元素](./how-to-select-elements-by-class-in-java-using-queryselectora/)
+
+### [如何使用 XPath 在 Java 中計算 HTML 元素](./how-to-count-html-elements-in-java-with-xpath/)
+使用 Aspose.HTML for Java 透過 XPath 計算 HTML 元素數量的完整步驟指南。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -114,4 +120,3 @@ Aspose.HTML for Java 為旨在在 Java 應用程式中無縫處理 HTML 文件�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

@@ -54,6 +54,8 @@ CSS ภายนอกคือจุดที่พลังที่แท้�
 เรียนรู้ศิลปะการแก้ไข CSS ภายนอกด้วย Aspose.HTML สำหรับ Java คำแนะนำทีละขั้นตอนโดยละเอียดนี้จะแนะนำคุณตลอดกระบวนการสร้างเอกสาร HTML แบบไดนามิก
 ### [เพิ่ม CSS แบบอินไลน์ลงในเอกสาร HTML ใน Aspose.HTML สำหรับ Java](./add-inline-css-html-documents/)
 เรียนรู้วิธีการเพิ่ม CSS แบบอินไลน์ลงในเอกสาร HTML โดยใช้ Aspose.HTML สำหรับ Java คำแนะนำทีละขั้นตอนนี้จะช่วยให้คุณกำหนดรูปแบบ HTML และแปลงเป็น PDF ได้อย่างง่ายดาย
+### [วิธีเปลี่ยนสีพื้นหลังของ JavaScript ด้วย Java](./how-to-change-background-color-javascript-using-java/)
+เรียนรู้วิธีเปลี่ยนสีพื้นหลังของสคริปต์ JavaScript ผ่านโค้ด Java ด้วย Aspose.HTML อย่างง่ายและรวดเร็ว
 ### [จัดการคุณสมบัติ HTML ภายในและภายนอกใน Aspose.HTML สำหรับ Java](./manage-inner-outer-html-properties/)
 เรียนรู้วิธีจัดการคุณสมบัติ HTML ภายในและภายนอกใน Aspose.HTML สำหรับ Java ด้วยคู่มือทีละขั้นตอนนี้ ซึ่งเหมาะสำหรับนักพัฒนาเว็บและผู้สร้างเนื้อหา
 ### [นำ CSS ภายในไปใช้ในเอกสาร HTML ด้วย Aspose.HTML สำหรับ Java](./implement-internal-css-html-documents/)

@@ -121,6 +121,8 @@ Tìm hiểu cách thiết lập stylesheet người dùng tùy chỉnh trong Asp
 
 ### [Tạo Sandbox Aspose HTML – Hướng dẫn Java toàn diện](./create-aspose-html-sandbox-complete-java-guide/)
 
+### [Thiết lập user agent tùy chỉnh và kích thước màn hình trong Aspose.HTML cho Java](./set-custom-user-agent-and-screen-dimensions-in-aspose-html-f/)
+
 ---
 
 **Last Updated:** 2025-12-03  

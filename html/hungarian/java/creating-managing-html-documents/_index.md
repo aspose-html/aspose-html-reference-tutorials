@@ -62,6 +62,8 @@ Ebből a lépésről lépésre szóló útmutatóból megtudhatja, hogyan hozhat
 Fedezze fel, hogyan tölthet be egyszerűen HTML dokumentumokat egy URL-ről Java nyelven az Aspose.HTML segítségével. Lépésről lépésre bemutató oktatóanyag.
 ### [HTML lekérdezése Java-ban – Teljes útmutató](./how-to-query-html-in-java-complete-tutorial/)
 Ismerje meg, hogyan kérdezhet le HTML-t Java használatával, lépésről lépésre útmutató a hatékony adatkinyeréshez.
+### [Hogyan válasszon ki elemeket osztály szerint Java-ban a querySelectorAll használatával](./how-to-select-elements-by-class-in-java-using-queryselectora/)
+Ismerje meg, hogyan használhatja a querySelectorAll metódust osztályok alapján elemek kiválasztására Java-ban az Aspose.HTML segítségével.
 ### [HTML elem betöltése, lekérdezése és számlálása Java-ban](./how-to-parse-html-java-load-query-count-elements/)
 Ismerje meg, hogyan tölthet be, kérdezhet le és számolhat meg HTML elemeket Java nyelven az Aspose.HTML segítségével.
 ### [HTML-dokumentum betöltése Java-ban – Teljes útmutató XPath és CSS használatával](./load-html-document-java-complete-guide-with-xpath-css/)
@@ -78,8 +80,11 @@ Ismerje meg az SVG dokumentumok létrehozását és kezelését az Aspose.HTML f
 Ismerje meg, hogyan számolhatja meg a HTML karaktereket Java-ban az Aspose.HTML segítségével, részletes, lépésről‑lépésre útmutatóval.
 ### [HTML sandbox létrehozása Java-ban – Lépésről‑lépésre útmutató](./create-sandbox-for-html-in-java-step-by-step-guide/)
 Ismerje meg, hogyan hozhat létre biztonságos sandbox környezetet HTML feldolgozáshoz Java-ban, részletes lépésekkel.
-### [HTML-dokumentum létrehozása Java-val – JSON lekérése és tartalom generálása](./create-html-document-with-java-fetch-json-and-generate-conte/)
+### [HTML-dokumentum létrehozása Java-val – JSON lekérése és tartalom generálása](./create-html-document-with-java-fetch-json-and-conte/)
 Ismerje meg, hogyan hozhat létre HTML-dokumentumot Java-ban JSON adatok lekérésével és dinamikus tartalom generálásával.
+### [HTML elem létrehozása Java-ban az Aspose.HTML használatával](./how-to-create-html-element-in-java-using-aspose-html/)
+### [HTML elemek számlálása Java-ban XPath használatával](./how-to-count-html-elements-in-java-with-xpath/)
+Ismerje meg, hogyan számolhatja meg a HTML elemeket Java-ban XPath használatával.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -102,3 +107,10 @@ Tanulja meg, hogyan járhatja be a NodeList-et Java-ban, olvashat HTML-t és sze
 Fedezze fel, hogyan nyerhet ki szöveget HTML-ből Java használatával, részletes, lépésről‑lépésre útmutató.
 ### [NodeList bejárása Java-ban – Teljes útmutató](./iterate-over-nodelist-java-complete-guide/)
 Ismerje meg, hogyan iterálhat a NodeList elemein Java-ban az Aspose.HTML segítségével, részletes, lépésről‑lépésre útmutató.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -54,6 +54,8 @@ Upptäck hur du applicerar extern CSS på HTML-dokument med Aspose.HTML för Jav
 Bemästra konsten att redigera extern CSS med Aspose.HTML för Java. Denna detaljerade, steg-för-steg-guide leder dig genom att skapa dynamiska, formaterade HTML-dokument.
 ### [Lägg till Inline CSS till HTML-dokument i Aspose.HTML för Java](./add-inline-css-html-documents/)
 Lär dig hur du lägger till inline CSS till HTML-dokument med Aspose.HTML för Java. Den här steg-för-steg-guiden hjälper dig att utforma HTML och konvertera den till PDF med lätthet.
+### [Hur du ändrar bakgrundsfärg med JavaScript i Java](./how-to-change-background-color-javascript-using-java/)
+Lär dig hur du ändrar bakgrundsfärgen med JavaScript i ett HTML-dokument med Aspose.HTML för Java.
 ### [Hantera inre och yttre HTML-egenskaper i Aspose.HTML för Java](./manage-inner-outer-html-properties/)
 Lär dig hur du hanterar inre och yttre HTML-egenskaper i Aspose.HTML för Java med denna steg-för-steg-guide, perfekt för webbutvecklare och innehållsskapare.
 ### [Implementera intern CSS i HTML-dokument med Aspose.HTML för Java](./implement-internal-css-html-documents/)
@@ -61,7 +63,7 @@ Lär dig att implementera intern CSS i HTML-dokument med Aspose.HTML för Java m
 ### [Ändra h1‑text i MHTML med Java – Fullständig steg‑för‑steg‑guide](./change-h1-text-in-mhtml-with-java-full-step-by-step-guide/)
 Lär dig hur du ändrar h1‑text i MHTML-filer med Java i en komplett steg‑för‑steg‑guide.
 ### [Skapa nytt HTML-element med Java – Fullständig Aspose.HTML-guide](./create-new-html-element-with-java-full-aspose-html-guide/)
-Lär dig hur du skapar ett nytt HTML-element i Java med Aspose.HTML i en komplett steg-för-steg-guide.
+Lär dig hur du skapar ett nytt HTML-element i Java med Aspose.HTML i en komplett steg‑för‑steg‑guide.
 ### [Fast trådpool i Java – parallell HTML‑rengöring med ExecutorService](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 ### [Lägg till ett barn till body i Java – Fullständig Aspose.HTML-handledning](./append-child-to-body-in-java-full-aspose-html-tutorial/)
 

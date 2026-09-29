@@ -62,6 +62,8 @@ url: /ar/java/creating-managing-html-documents/
 اكتشف كيفية تحميل مستندات HTML بسهولة من عنوان URL في Java باستخدام Aspose.HTML. يتضمن البرنامج التعليمي خطوة بخطوة.
 ### [تحميل مستند HTML في Java – دليل كامل مع XPath و CSS](./load-html-document-java-complete-guide-with-xpath-css/)
 تعلم كيفية تحميل ومعالجة مستندات HTML في Java باستخدام Aspose.HTML مع دعم XPath و CSS في دليل شامل خطوة بخطوة.
+### [عد عناصر HTML في Java باستخدام XPath](./how-to-count-html-elements-in-java-with-xpath/)
+تعلم كيفية عد عناصر HTML في مستندات Java باستخدام XPath من خلال دليل خطوة بخطوة.
 ### [إنشاء مستندات HTML جديدة باستخدام Aspose.HTML لـ Java](./generate-new-html-documents/)
 تعرف على كيفية إنشاء مستندات HTML جديدة باستخدام Aspose.HTML for Java من خلال هذا الدليل السهل خطوة بخطوة. ابدأ في إنشاء محتوى HTML ديناميكي.
 ### [التعامل مع أحداث تحميل المستندات في Aspose.HTML لـ Java](./handle-document-load-events/)
@@ -80,6 +82,10 @@ url: /ar/java/creating-managing-html-documents/
 تعلم كيفية حساب عدد أحرف HTML في مستندات Java باستخدام Aspose.HTML من خلال دليل شامل خطوة بخطوة.
 ### [استخراج النص من HTML في Java – دليل برمجة كامل](./extract-text-from-html-in-java-complete-programming-guide/)
 تعلم كيفية استخراج النص من مستندات HTML باستخدام Aspose.HTML لـ Java من خلال دليل شامل خطوة بخطوة.
+### [كيفية إنشاء عنصر HTML في Java باستخدام Aspose.HTML](./how-to-create-html-element-in-java-using-aspose-html/)
+تعلم كيفية إنشاء عنصر HTML في Java باستخدام مكتبة Aspose.HTML خطوة بخطوة.
+### [كيفية اختيار العناصر حسب الفئة في Java باستخدام querySelectorAll](./how-to-select-elements-by-class-in-java-using-queryselectora/)
+تعلم كيفية اختيار عناصر HTML حسب الفئة في Java باستخدام querySelectorAll خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

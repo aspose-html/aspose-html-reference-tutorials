@@ -74,6 +74,12 @@ Apprenez à récupérer des données JSON et à générer dynamiquement du conte
 Apprenez à compter le nombre de caractères dans un document HTML en Java à l'aide d'Aspose.HTML, avec un guide détaillé pas à pas.
 ### [Extraire du texte à partir de HTML en Java – Guide complet de programmation](./extract-text-from-html-in-java-complete-programming-guide/)
 Apprenez à extraire du texte d'un document HTML en Java avec Aspose.HTML grâce à ce guide complet étape par étape.
+### [Comment créer un élément HTML en Java avec Aspose.HTML](./how-to-create-html-element-in-java-using-aspose-html/)
+Apprenez à créer un élément HTML en Java à l'aide d'Aspose.HTML grâce à ce guide étape par étape.
+### [Comment compter les éléments HTML en Java avec XPath](./how-to-count-html-elements-in-java-with-xpath/)
+Apprenez à compter les éléments HTML en Java en utilisant XPath avec Aspose.HTML.
+### [Comment sélectionner des éléments par classe en Java avec querySelectorAll](./how-to-select-elements-by-class-in-java-using-queryselectora/)
+Apprenez à sélectionner des éléments HTML par classe en Java à l'aide de querySelectorAll avec Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -113,4 +119,3 @@ Apprenez à extraire du texte d'un document HTML en Java avec Aspose.HTML grâce
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

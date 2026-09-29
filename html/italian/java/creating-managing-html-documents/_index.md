@@ -70,10 +70,16 @@ Impara a gestire gli eventi di caricamento dei documenti in Aspose.HTML per Java
 Impara a creare e gestire documenti SVG usando Aspose.HTML per Java! Questa guida completa copre tutto, dalla creazione di base alla manipolazione avanzata.
 ### [Come interrogare HTML in Java – Tutorial completo](./how-to-query-html-in-java-complete-tutorial/)
 Impara a eseguire query su documenti HTML in Java usando Aspose.HTML con questa guida passo‑passo completa.
+### [Come contare gli elementi HTML in Java con XPath](./how-to-count-html-elements-in-java-with-xpath/)
+Scopri come contare gli elementi HTML in Java usando XPath con Aspose.HTML.
 ### [Crea documento HTML con Java – Recupera JSON e genera contenuto](./create-html-document-with-java-fetch-json-and-generate-conte/)
 Impara a recuperare dati JSON e generare dinamicamente contenuti HTML in Java usando Aspose.HTML.
 ### [Conta i caratteri HTML in Java – Guida completa con Aspose HTML](./count-html-characters-in-java-full-guide-with-aspose-html/)
 Scopri come contare i caratteri HTML in Java usando Aspose.HTML con questa guida passo‑passo completa.
+### [Come creare un elemento HTML in Java usando Aspose.HTML](./how-to-create-html-element-in-java-using-aspose-html/)
+Scopri come creare e manipolare elementi HTML in Java con Aspose.HTML attraverso una guida passo‑passo.
+### [Come selezionare gli elementi per classe in Java usando querySelectorAll](./how-to-select-elements-by-class-in-java-using-queryselectora/)
+Impara a selezionare elementi HTML per classe in Java con Aspose.HTML usando querySelectorAll.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -114,4 +120,3 @@ Scopri come estrarre testo da documenti HTML in Java usando Aspose.HTML con ques
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

@@ -42,6 +42,8 @@ Aspose.HTML for Java का उपयोग करके किसी तत्�
 
 ### [Java में CSS पढ़ना – Aspose.HTML के साथ पूर्ण गाइड](./how-to-read-css-in-java-complete-guide-with-aspose-html/)
 Aspose.HTML का उपयोग करके Java में CSS फ़ाइलों को पढ़ने और पार्स करने की पूरी प्रक्रिया सीखें।
+### [Java में Aspose.HTML के साथ HTML से CSS पढ़ें](./how-to-read-css-from-html-with-aspose-html-in-java/)
+Java में Aspose.HTML का उपयोग करके HTML दस्तावेज़ से CSS पढ़ने की प्रक्रिया सीखें।
 ### [Java के साथ HTML पार्स करें: CSS प्रॉपर्टी निकालें और फ़ॉन्ट आकार प्राप्त करें](./parse-html-with-java-extract-css-property-and-get-font-size/)
 इस ट्यूटोरियल में Java का उपयोग करके HTML से CSS प्रॉपर्टी निकालना और फ़ॉन्ट साइज प्राप्त करना सीखें।
 ### [Java में HTML क्वेरी कैसे करें – HTML लोड करें, CSS सेलेक्टर, और हेडिंग्स निकालें](./how-to-query-html-in-java-load-html-css-selector-and-extract/)

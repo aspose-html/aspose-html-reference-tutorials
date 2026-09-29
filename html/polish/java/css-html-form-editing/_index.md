@@ -39,6 +39,8 @@ Dowiedz się, jak w Javie pobrać style z dokumentu HTML, używając selektora z
 Dowiedz się, jak w Javie wybrać elementy HTML po klasie, używając Aspose.HTML, krok po kroku.
 ### [Jak odczytać CSS w Javie – Kompletny przewodnik z Aspose.HTML](./how-to-read-css-in-java-complete-guide-with-aspose-html/)
 Dowiedz się, jak odczytywać i analizować pliki CSS w Javie przy użyciu Aspose.HTML – kompletny przewodnik krok po kroku.
+### [Jak odczytać CSS z HTML przy użyciu Aspose.HTML w Javie](./how-to-read-css-from-html-with-aspose-html-in-java/)
+Dowiedz się, jak odczytywać i analizować arkusze CSS z dokumentów HTML w Javie przy użyciu Aspose.HTML.
 ### [Parsowanie HTML w Javie: wyodrębnij właściwość CSS i uzyskaj rozmiar czcionki](./parse-html-with-java-extract-css-property-and-get-font-size/)
 Naucz się, jak w Javie analizować HTML, wyciągać właściwości CSS i określać rozmiar czcionki w prosty sposób.
 ### [Jak zapytać HTML w Javie – wczytaj HTML, selektor CSS i wyodrębnij nagłówki](./how-to-query-html-in-java-load-html-css-selector-and-extract/)

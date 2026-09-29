@@ -49,6 +49,8 @@ JavaコードでHTMLを検索し、要素を選択、属性で絞り込み、テ
 ### [Aspose.HTML for Java を使用した CSS の読み取り方法 – 完全ガイド](./how-to-read-css-in-java-complete-guide-with-aspose-html/)
 Aspose.HTML for Java を活用し、Java で CSS をプログラム的に読み取る手順とベストプラクティスを詳しく解説します。
 
+### [Aspose.HTML for Java を使用して HTML から CSS を読み取る方法](./how-to-read-css-from-html-with-aspose-html-in-java/)
+
 ### [JavaでHTMLを解析し、CSSプロパティを抽出してフォントサイズを取得](./parse-html-with-java-extract-css-property-and-get-font-size/)
 Javaを使用してHTMLを解析し、CSSプロパティからフォントサイズを取得する方法を学びます。
 ### [JavaでHTMLをクエリする方法 – HTMLのロード、CSSセレクタ、見出しの抽出](./how-to-query-html-in-java-load-html-css-selector-and-extract/)

@@ -35,11 +35,11 @@ Stel je voor dat je HTML-inhoud on-the-fly moet genereren op basis van gebruiker
 
 ## Genereer nieuwe HTML-documenten en verwerk geavanceerd laden van bestanden
 
-Als het gaat om het genereren van nieuwe HTML-documenten, biedt Aspose.HTML voor Java een robuuste oplossing waarmee u rijke webcontent vanaf nul kunt bouwen. Of u nu werkt met een contentmanagementsysteem of rapporten in HTML-formaat moet genereren, het is cruciaal om te begrijpen hoe u nieuwe HTML-documenten kunt maken en beheren. Bovendien kunt u met geavanceerde technieken voor het laden van bestanden werken met complexe HTML-documenten, zodat u grootschalige projecten met gemak kunt verwerken. Deze tutorials begeleiden u door elke stap, zodat u bent uitgerust om elke HTML-gerelateerde uitdaging aan te gaan.[Lees meer](./generate-new-html-documents/)
+Als het gaat om het genereren van nieuwe HTML-documenten, biedt Aspose.HTML voor Java een robuuste oplossing waarmee u rijke webcontent vanaf nul kunt bouwen. Of u nu werkt met een contentmanagementsysteem of rapporten in HTML-formaat moet genereren, is het cruciaal om te begrijpen hoe u nieuwe HTML-documenten kunt maken en beheren. Bovendien kunt u met geavanceerde technieken voor het laden van bestanden werken met complexe HTML-documenten, zodat u grootschalige projecten met gemak kunt verwerken. Deze tutorials begeleiden u door elke stap, zodat u bent uitgerust om elke HTML‑gerelateerde uitdaging aan te gaan.[Lees meer](./generate-new-html-documents/)
 
 ## SVG-documenten beheren en gebeurtenissen verwerken
 
- Tot slot, voor degenen die hun vaardigheden nog verder willen uitbreiden, is er een schat aan geavanceerde onderwerpen om te verkennen. Leer hoe u SVG-documenten beheert of documentlaadgebeurtenissen verwerkt om responsieve en dynamische webapplicaties te maken. Deze tutorials nemen u mee voorbij HTML en duiken in de complexiteit van Scalable Vector Graphics (SVG) en event-driven programmeren.[Lees meer](./create-manage-svg-documents/)
+ Tot slot, voor degenen die hun vaardigheden nog verder willen uitbreiden, is er een schat aan geavanceerde onderwerpen om te verkennen. Leer hoe u SVG-documenten beheert of documentlaadgebeurtenissen verwerkt om responsieve en dynamische webapplicaties te maken. Deze tutorials nemen u mee voorbij HTML en duiken in de complexiteit van Scalable Vector Graphics (SVG) en event‑driven programmeren.[Lees meer](./create-manage-svg-documents/)
 
 ## HTML-documenten maken en beheren in Aspose.HTML voor Java-zelfstudies
 
@@ -51,14 +51,16 @@ Leer hoe u lege HTML-documenten in Java kunt maken met Aspose.HTML met onze gede
 ### [HTML-documenten laden vanuit een bestand in Aspose.HTML voor Java](./load-html-documents-from-file/)
 Ontgrendel de kracht van HTML-manipulatie met Aspose.HTML voor Java. Leer HTML-documenten laden vanuit bestanden met stapsgewijze tutorials.
 ### [Geavanceerd laden van bestanden voor HTML-documenten in Aspose.HTML voor Java](./advanced-file-loading-html-documents/)
-Leer hoe u HTML-documenten laadt, bewerkt en opslaat met Aspose.HTML voor Java in deze stapsgewijze handleiding. Ontgrendel geavanceerde HTML-verwerking in uw Java-projecten.
+Leer hoe u HTML-documenten laadt, bewerkt en opslaat met Aspose.HTML voor Java in deze stapsgewijze handleiding. Ontgrendel geavanceerde HTML-verwerking in uw Java‑projecten.
 ### [Laad HTML-documenten uit de stream met Aspose.HTML voor Java](./load-html-documents-from-stream/)
 Leer hoe u HTML-documenten laadt uit streams met Aspose.HTML voor Java. Deze gids biedt een stapsgewijze tutorial voor naadloze HTML-manipulatie.
 ### [HTML-documenten maken van strings in Aspose.HTML voor Java](./create-html-documents-from-string/)
 Leer hoe u HTML-documenten van strings maakt in Aspose.HTML voor Java met deze stapsgewijze handleiding.
+### [Hoe een HTML-element maken in Java met Aspose.HTML](./how-to-create-html-element-in-java-using-aspose-html/)
+Leer hoe u met Aspose.HTML voor Java HTML-elementen kunt maken en manipuleren via eenvoudige codevoorbeelden.
 ### [HTML-documenten laden vanaf URL in Aspose.HTML voor Java](./load-html-documents-from-url/)
 Ontdek hoe u eenvoudig HTML-documenten kunt laden vanaf een URL in Java met Aspose.HTML. Inclusief stapsgewijze tutorial.
-### [HTML-document maken met Java – JSON ophalen en inhoud genereren](./create-html-document-with-java-fetch-json-and-generate-conte/)
+### [HTML document maken met Java – JSON ophalen en inhoud genereren](./create-html-document-with-java-fetch-json-and-generate-conte/)
 Leer hoe u met Java JSON-gegevens ophaalt en dynamisch een HTML-document genereert met Aspose.HTML.
 ### [Genereer nieuwe HTML-documenten met Aspose.HTML voor Java](./generate-new-html-documents/)
 Leer hoe u nieuwe HTML-documenten maakt met Aspose.HTML voor Java met deze eenvoudige stapsgewijze handleiding. Begin met het genereren van dynamische HTML-inhoud.
@@ -80,8 +82,10 @@ Leer hoe u asynchrone JavaScript-code in Java kunt uitvoeren met Aspose.HTML, in
 Leer stap‑voor‑stap hoe u HTML‑documenten laadt in Java met XPath‑ en CSS‑selectoren.
 ### [HTML-tekens tellen in Java – Volledige gids met Aspose HTML](./count-html-characters-in-java-full-guide-with-aspose-html/)
 Leer hoe u het aantal HTML‑tekens in een document kunt tellen met Aspose.HTML voor Java in deze stapsgewijze volledige gids.
-### [Tekst extraheren uit HTML in Java – Complete programmeergids](./extract-text-from-html-in-java-complete-programming-guide/)
-Leer hoe u tekst uit HTML-documenten kunt extraheren in Java met deze volledige stap‑voor‑stap handleiding.
+### [Hoe HTML-elementen tellen in Java met XPath](./how-to-count-html-elements-in-java-with-xpath/)
+Leer hoe u HTML‑elementen kunt tellen in Java met behulp van XPath via Aspose.HTML, inclusief voorbeeldcode en stapsgewijze uitleg.
+### [Hoe elementen selecteren op class in Java met querySelectorAll](./how-to-select-elements-by-class-in-java-using-queryselectora/)
+Leer hoe u met querySelectorAll elementen op basis van class selecteert in Java met Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

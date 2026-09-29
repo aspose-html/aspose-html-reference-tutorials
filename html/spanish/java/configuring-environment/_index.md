@@ -114,6 +114,8 @@ Aprende cómo implementar sandboxing en Aspose.HTML para Java para controlar de 
 Aprende cómo establecer una hoja de estilo de usuario personalizada en Aspose.HTML para Java, mejorando el estilo de tus documentos y convirtiendo HTML a PDF con facilidad.
 ### [Crear Sandbox de Aspose HTML – Guía Completa Java](./create-aspose-html-sandbox-complete-java-guide/)
 Aprende a crear y configurar un sandbox de Aspose.HTML en Java para ejecutar conversiones de HTML a PDF de forma segura.
+### [Establecer agente de usuario personalizado y dimensiones de pantalla en Aspose.HTML para Java](./set-custom-user-agent-and-screen-dimensions-in-aspose-html-f/)
+Aprende a configurar un agente de usuario personalizado y definir dimensiones de pantalla en Aspose.HTML para Java, mejorando la renderización de páginas web.
 
 ---
 

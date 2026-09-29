@@ -37,6 +37,8 @@ Lär dig hur du programatiskt hämtar beräknad CSS för element i Java med Aspo
 Lär dig hur du programatiskt väljer HTML‑element baserat på deras klass i Java med Aspose.HTML.
 ### [Hur man läser CSS i Java – Komplett guide med Aspose.HTML](./how-to-read-css-in-java-complete-guide-with-aspose-html/)
 Lär dig hur du läser och analyserar CSS i Java med Aspose.HTML i denna kompletta guide.
+### [Hur man läser CSS från HTML med Aspose.HTML i Java](./how-to-read-css-from-html-with-aspose-html-in-java/)
+Lär dig hur du läser CSS från ett HTML-dokument med Aspose.HTML i Java.
 ### [Analysera HTML med Java: Extrahera CSS‑egenskap och hämta teckenstorlek](./parse-html-with-java-extract-css-property-and-get-font-size/)
 Lär dig hur du med Aspose.HTML för Java kan analysera HTML, extrahera CSS‑egenskaper och bestämma teckenstorlek programatiskt.
 ### [Hur man frågar HTML i Java – ladda HTML, CSS‑väljare och extrahera rubriker](./how-to-query-html-in-java-load-html-css-selector-and-extract/)
@@ -60,7 +62,7 @@ Lär dig hur du använder Aspose.HTML för Java för att hämta beräknad stil o
 ### [Hämta elementets beräknade stil i Java – Fullständig steg‑för‑steg‑guide](./get-element-computed-style-in-java-full-step-by-step-guide/)
 Lär dig hur du programatiskt får tag på ett elements beräknade CSS‑stil med Aspose.HTML för Java i en detaljerad guide.
 ### [Hur man använder getComputedStyle i Java – extrahera bakgrundsfärg och andra CSS-egenskaper](./how-to-use-getcomputedstyle-in-java-extract-background-color/)
-Lär dig hur du med getComputedStyle i Java kan hämta bakgrundsfärg och andra CSS-egenskaper från ett HTML-dokument.
+Lär dig hur du med getComputedStyle i Java kan hämta bakgrundsfärg och andra CSS‑egenskaper från ett HTML-dokument.
 ### [Extrahera CSS från HTML i Java – Steg‑för‑steg‑guide](./extract-css-from-html-in-java-step-by-step-guide/)
 Lär dig hur du programatiskt extraherar CSS från HTML-dokument med Aspose.HTML för Java i en tydlig steg‑för‑steg‑guide.
 

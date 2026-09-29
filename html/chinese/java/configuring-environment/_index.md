@@ -53,6 +53,9 @@ weight: 29
 
 [了解如何在 Aspose.HTML for Java 中设置网络服务。](./setup-network-service/)
 
+### [在 Aspose.HTML for Java 中设置自定义用户代理和屏幕尺寸](./set-custom-user-agent-and-screen-dimensions-in-aspose-html-f/)
+了解如何在 Aspose.HTML for Java 中设置自定义用户代理和屏幕尺寸，以控制渲染行为。
+
 ## 如何配置运行时服务
 
 动态 HTML 通常包含在渲染前必须运行的脚本。运行时服务控制脚本执行，允许您限制 CPU 使用率、设置超时并防止无限循环——这对于实现稳定、高性能的转换至关重要。
@@ -107,6 +110,9 @@ A: 沙箱会限制某些 API（例如 `window.open`），但普通的 DOM 操作
 
 ### [在 Aspose.HTML for Java 中设置网络服务](./setup-network-service/)
 了解如何在 Aspose.HTML for Java 中设置网络服务，管理网络资源，并使用自定义错误处理将 HTML 转换为 PNG。
+
+### [在 Aspose.HTML for Java 中设置自定义用户代理和屏幕尺寸](./set-custom-user-agent-and-screen-dimensions-in-aspose-html-f/)
+了解如何在 Aspose.HTML for Java 中设置自定义用户代理和屏幕尺寸，以控制渲染行为。
 
 ### [在 Aspose.HTML for Java 中配置运行时服务](./configure-runtime-service/)
 了解如何在 Aspose.HTML for Java 中配置 Runtime Service，以优化脚本执行，防止无限循环并提升应用性能。

@@ -55,6 +55,9 @@ Si votre HTML fait référence à des ressources externes (CSS, JavaScript, imag
 
 [Apprenez comment configurer un service réseau dans Aspose.HTML for Java.](./setup-network-service/)
 
+### [Définir un agent utilisateur personnalisé et les dimensions d'écran dans Aspose.HTML for Java](./set-custom-user-agent-and-screen-dimensions-in-aspose-html-f/)
+Apprenez comment définir un agent utilisateur personnalisé et spécifier les dimensions d'écran pour les rendus HTML avec Aspose.HTML for Java.
+
 ## Comment configurer le service d'exécution
 
 Le HTML dynamique contient souvent des scripts qui doivent s’exécuter avant le rendu. Le service d’exécution contrôle l’exécution des scripts, vous permettant de limiter l’utilisation du CPU, de définir des délais d’attente et d’éviter les boucles infinies—crucial pour des conversions stables et performantes.
@@ -110,6 +113,9 @@ Apprenez comment utiliser les gestionnaires de messages dans Aspose.HTML for Jav
 
 ### [Configurer le service réseau dans Aspose.HTML for Java](./setup-network-service/)
 Apprenez comment configurer un service réseau dans Aspose.HTML for Java, gérer les ressources réseau et convertir HTML en PNG avec une gestion d’erreurs personnalisée.
+
+### [Définir un agent utilisateur personnalisé et les dimensions d'écran dans Aspose.HTML for Java](./set-custom-user-agent-and-screen-dimensions-in-aspose-html-f/)
+Apprenez comment définir un agent utilisateur personnalisé et spécifier les dimensions d'écran pour les rendus HTML avec Aspose.HTML for Java.
 
 ### [Configurer le Runtime Service dans Aspose.HTML for Java](./configure-runtime-service/)
 Apprenez comment configurer le Runtime Service dans Aspose.HTML for Java pour optimiser l’exécution des scripts, prévenir les boucles infinies et améliorer les performances de l’application.

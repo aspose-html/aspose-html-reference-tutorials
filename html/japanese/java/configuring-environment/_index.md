@@ -121,6 +121,9 @@ Learn how to set a custom user stylesheet in Aspose.HTML for Java, enhancing you
 ### [Aspose HTML サンドボックスの作成 – 完全な Java ガイド](./create-aspose-html-sandbox-complete-java-guide/)
 Aspose.HTML のサンドボックスを Java で構築し、セキュアに HTML を PDF や PNG に変換する手順を詳しく解説します。
 
+### [Aspose.HTML for Java でカスタムユーザーエージェントと画面サイズを設定する](./set-custom-user-agent-and-screen-dimensions-in-aspose-html-f/)
+Aspose.HTML for Java でカスタムユーザーエージェントと画面寸法を設定し、変換結果を最適化する方法を学びます。
+
 ---
 
 **最終更新日:** 2025-12-03  

@@ -62,6 +62,8 @@ Pelajari cara mengambil data JSON dan menghasilkan konten HTML secara dinamis me
 Temukan cara mudah memuat dokumen HTML dari URL di Java dengan Aspose.HTML. Tutorial langkah demi langkah disertakan.
 ### [Memuat Dokumen HTML Java – Panduan Lengkap dengan XPath & CSS](./load-html-document-java-complete-guide-with-xpath-css/)
 Pelajari cara memuat dokumen HTML di Java dengan Aspose.HTML, lengkap dengan contoh penggunaan XPath dan CSS untuk manipulasi yang kuat.
+### [Cara menghitung elemen HTML di Java dengan XPath](./how-to-count-html-elements-in-java-with-xpath/)
+Pelajari cara menghitung elemen HTML di Java menggunakan XPath dengan Aspose.HTML dalam panduan langkah demi langkah.
 ### [Hasilkan Dokumen HTML Baru menggunakan Aspose.HTML untuk Java](./generate-new-html-documents/)
 Pelajari cara membuat dokumen HTML baru menggunakan Aspose.HTML untuk Java dengan panduan langkah demi langkah yang mudah ini. Mulai buat konten HTML yang dinamis.
 ### [Menangani Peristiwa Pemuatan Dokumen di Aspose.HTML untuk Java](./handle-document-load-events/)
@@ -72,11 +74,16 @@ Pelajari cara membuat dan mengelola dokumen SVG menggunakan Aspose.HTML untuk Ja
 Pelajari cara membuat sandbox HTML di Java dengan panduan langkah demi langkah untuk pengujian dan pengembangan yang aman.
 ### [Ekstrak Teks dari HTML di Java – Panduan Pemrograman Lengkap](./extract-text-from-html-in-java-complete-programming-guide/)
 Pelajari cara mengekstrak teks dari dokumen HTML menggunakan Aspose.HTML untuk Java dengan panduan langkah demi langkah yang lengkap.
+### [Cara membuat elemen HTML di Java menggunakan Aspose.HTML](./how-to-create-html-element-in-java-using-aspose-html/)
+Pelajari cara membuat elemen HTML di Java menggunakan Aspose.HTML dengan panduan langkah demi langkah yang jelas.
 ### [Cara Menanyakan HTML di Java – Tutorial Lengkap](./how-to-query-html-in-java-complete-tutorial/)
 ### [Cara Mengurai HTML di Java – Memuat, Menanyakan & Menghitung Elemen](./how-to-parse-html-java-load-query-count-elements/)
 ### [Jalankan JavaScript Asinkron di Java – Panduan Lengkap Langkah‑per‑Langkah](./execute-async-javascript-in-java-complete-step-by-step-guide/)
 ### [Menghitung Karakter HTML di Java – Panduan Lengkap dengan Aspose HTML](./count-html-characters-in-java-full-guide-with-aspose-html/)
 Pelajari cara menghitung jumlah karakter HTML dalam dokumen menggunakan Aspose.HTML untuk Java dengan panduan langkah demi langkah.
+
+### [Cara memilih elemen berdasarkan kelas di Java menggunakan querySelectorAll](./how-to-select-elements-by-class-in-java-using-queryselectora/)
+Pelajari cara memilih elemen HTML berdasarkan kelas di Java menggunakan querySelectorAll dengan Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

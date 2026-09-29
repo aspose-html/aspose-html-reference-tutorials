@@ -39,7 +39,7 @@ When it comes to generating new HTML documents, Aspose.HTML for Java offers a ro
 
 ## Managing SVG Documents and Handling Events
 
-Finally, for those looking to push their skills even further, there’s a wealth of advanced topics to explore. Learn how to manage SVG documents or handle document load events to create responsive and dynamic web applications. These tutorials take you beyond HTML, diving into the intricacies of Scalable Vector Graphics (SVG) and event-driven programming. [Read more](./create-manage-svg-documents/)
+Finally, for those looking to push their skills even further, there’s a wealth of advanced topics to explore. Learn how to manage SVG documents or handle document load events to create responsive and dynamic web applications. These tutorials take you beyond HTML, diving into the intricacies of Scalable Vector Graphics (SVG) and event‑driven programming. [Read more](./create-manage-svg-documents/)
 
 ## Creating and Managing HTML Documents in Aspose.HTML for Java Tutorials
 
@@ -56,6 +56,8 @@ Learn how to load, manipulate, and save HTML documents using Aspose.HTML for Jav
 Learn how to load HTML documents from streams using Aspose.HTML for Java. This guide provides a step-by-step tutorial for seamless HTML manipulation.
 ### [Create HTML Documents from String in Aspose.HTML for Java](./create-html-documents-from-string/)
 Learn how to create HTML documents from strings in Aspose.HTML for Java with this step-by-step guide.
+### [How to create HTML element in Java using Aspose.HTML](./how-to-create-html-element-in-java-using-aspose-html/)
+Learn how to create HTML elements in Java using Aspose.HTML with a step-by-step guide.
 ### [Create HTML Document with Java – Fetch JSON and Generate Content](./create-html-document-with-java-fetch-json-and-generate-conte/)
 Learn how to fetch JSON in Java and generate HTML content using Aspose.HTML with this step-by-step guide.
 ### [How to Query HTML in Java – Complete Tutorial](./how-to-query-html-in-java-complete-tutorial/)
@@ -76,12 +78,16 @@ Learn how to execute asynchronous JavaScript in Java using Aspose.HTML with this
 Learn to create and manage SVG documents using Aspose.HTML for Java! This comprehensive guide covers everything from basic creation to advanced manipulation.
 ### [How to Parse HTML Java – Load, Query & Count Elements](./how-to-parse-html-java-load-query-count-elements/)
 Learn to load HTML, query elements, and count them using Aspose.HTML for Java in this comprehensive step-by-step guide.
+### [How to count HTML elements in Java with XPath](./how-to-count-html-elements-in-java-with-xpath/)
+Learn how to count HTML elements using XPath queries in Java with Aspose.HTML. Step-by-step guide for precise element counting.
 ### [Load HTML Document Java – Complete Guide with XPath & CSS](./load-html-document-java-complete-guide-with-xpath-css/)
 Learn how to load HTML documents in Java using Aspose.HTML, with comprehensive XPath and CSS selectors guide.
-### [count html characters in Java – Full Guide with Aspose HTML](./count-html-characters-in-java-full-guide-with-aspose-html/)
+### [count html characters in Java – Full Guide](./count-html-characters-in-java-full-guide-with-aspose-html/)
 Learn how to count HTML characters in Java using Aspose.HTML with this comprehensive step‑by‑step guide.
 ### [Extract Text from HTML in Java – Complete Programming Guide](./extract-text-from-html-in-java-complete-programming-guide/)
-Learn how to extract text from HTML using Aspose.HTML for Java with this comprehensive step-by-step programming guide.
+Learn how to extract text from HTML using Aspose.HTML for Java with this comprehensive step‑by‑step programming guide.
+### [How to select elements by class in Java using querySelectorAll](./how-to-select-elements-by-class-in-java-using-queryselectora/)
+Learn how to select HTML elements by class in Java using Aspose.HTML's querySelectorAll method.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -101,7 +107,7 @@ Learn how to iterate a NodeList in Java to read HTML and extract image src attri
 ### [Iterate over NodeList Java – Complete Guide](./iterate-over-nodelist-java-complete-guide/)
 Learn how to iterate over a NodeList in Java using Aspose.HTML with this comprehensive step-by-step guide.
 ### [Extract text from HTML with Java – Complete Step‑by‑Step Guide](./extract-text-from-html-with-java-complete-step-by-step-guide/)
-Learn how to extract text from HTML using Aspose.HTML for Java with this comprehensive step-by-step tutorial.
+Learn how to extract text from HTML using Aspose.HTML for Java with this comprehensive step‑by‑step tutorial.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

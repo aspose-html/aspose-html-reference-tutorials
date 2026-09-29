@@ -53,6 +53,9 @@ If your HTML references external resources (CSS, JavaScript, images), you need a
 
 [Learn how to set up a network service in Aspose.HTML for Java.](./setup-network-service/)
 
+### [Set custom user agent and screen dimensions in Aspose.HTML for Java](./set-custom-user-agent-and-screen-dimensions-in-aspose-html-f/)
+Learn how to set a custom user agent and define screen dimensions in Aspose.HTML for Java to control rendering and resource loading.
+
 ## How to Configure the Runtime Service
 
 Dynamic HTML often contains scripts that must run before rendering. The runtime service controls script execution, letting you limit CPU usage, set timeouts, and prevent infinite loops—crucial for stable, high‑performance conversions.
@@ -104,6 +107,8 @@ Learn how to configure fonts in Aspose.HTML for Java with this detailed, step-by
 Learn how to use message handlers in Aspose.HTML for Java to handle missing images and other network operations effectively.
 ### [Set Up Network Service in Aspose.HTML for Java](./setup-network-service/)
 Learn how to set up a network service in Aspose.HTML for Java, manage network resources, and convert HTML to PNG with custom error handling.
+### [Set custom user agent and screen dimensions in Aspose.HTML for Java](./set-custom-user-agent-and-screen-dimensions-in-aspose-html-f/)
+Learn how to set a custom user agent and define screen dimensions in Aspose.HTML for Java to control rendering and resource loading.
 ### [Configure Runtime Service in Aspose.HTML for Java](./configure-runtime-service/)
 Learn how to configure the Runtime Service in Aspose.HTML for Java to optimize script execution, preventing infinite loops, and improving application performance.
 ### [Implement Sandboxing in Aspose.HTML for Java](./implement-sandboxing/)

@@ -55,6 +55,8 @@ Aspose.HTML for Java로 HTML 조작의 힘을 잠금 해제하세요. 단계별 
 Aspose.HTML for Java를 사용하여 스트림에서 HTML 문서를 로드하는 방법을 알아보세요. 이 가이드는 원활한 HTML 조작을 위한 단계별 튜토리얼을 제공합니다.
 ### [Java용 Aspose.HTML에서 문자열로부터 HTML 문서 만들기](./create-html-documents-from-string/)
 이 단계별 가이드를 통해 Java용 Aspose.HTML에서 문자열로 HTML 문서를 만드는 방법을 알아보세요.
+### [Java용 Aspose.HTML에서 HTML 요소 만들기](./how-to-create-html-element-in-java-using-aspose-html/)
+Aspose.HTML for Java를 사용하여 Java에서 HTML 요소를 생성하는 방법을 단계별로 안내합니다.
 ### [Java용 Aspose.HTML에서 NodeList 반복 – HTML 읽고 이미지 src 가져오기](./iterate-nodelist-java-read-html-get-image-src/)
 Aspose.HTML for Java를 사용해 NodeList를 순회하며 HTML을 읽고 이미지 src 속성을 추출하는 방법을 단계별로 안내합니다.
 ### [Java용 Aspose.HTML에서 URL에서 HTML 문서 로드](./load-html-documents-from-url/)
@@ -63,6 +65,7 @@ Aspose.HTML을 사용하여 Java에서 URL에서 HTML 문서를 쉽게 로드하
 JSON 데이터를 가져와 동적으로 HTML 콘텐츠를 생성하는 방법을 단계별로 안내합니다.
 ### [Java에서 HTML을 쿼리하는 방법 – 완전 튜토리얼](./how-to-query-html-in-java-complete-tutorial/)
 Java용 Aspose.HTML을 사용하여 HTML을 효율적으로 쿼리하는 방법을 단계별로 안내합니다.
+### [Java에서 querySelectorAll을 사용해 클래스별 요소 선택하기](./how-to-select-elements-by-class-in-java-using-queryselectora/)
 ### [Java용 HTML 파싱 방법 – 로드, 쿼리 및 요소 개수 세기](./how-to-parse-html-java-load-query-count-elements/)
 Aspose.HTML for Java를 사용하여 HTML을 로드하고, 쿼리하고, 요소 개수를 세는 방법을 단계별로 안내합니다.
 ### [Java용 HTML 문서 로드 – XPath 및 CSS 완전 가이드](./load-html-document-java-complete-guide-with-xpath-css/)
@@ -77,9 +80,10 @@ Java용 Aspose.HTML을 사용하여 SVG 문서를 만들고 관리하는 방법�
 Aspose.HTML for Java를 사용하여 안전한 HTML 샌드박스를 설정하고 테스트하는 방법을 단계별로 안내합니다.
 ### [Java용 Aspose.HTML에서 비동기 JavaScript 실행 – 완전 단계별 가이드](./execute-async-javascript-in-java-complete-step-by-step-guide/)
 Aspose.HTML for Java를 활용해 Java에서 비동기 JavaScript를 실행하는 방법을 단계별로 배워보세요.
-
 ### [Java에서 HTML 문자 수 세기 – Aspose HTML을 활용한 전체 가이드](./count-html-characters-in-java-full-guide-with-aspose-html/)
 Aspose.HTML for Java를 사용하여 HTML 문자열의 문자 수를 정확히 계산하는 방법을 단계별로 안내합니다.
+### [Java에서 XPath를 사용해 HTML 요소 개수 세기](./how-to-count-html-elements-in-java-with-xpath/)
+XPath를 활용하여 Java에서 HTML 문서의 요소 수를 정확히 계산하는 방법을 단계별로 안내합니다.
 ### [Java에서 HTML 텍스트 추출 – 완전 프로그래밍 가이드](./extract-text-from-html-in-java-complete-programming-guide/)
 Aspose.HTML for Java를 활용해 Java에서 HTML 텍스트를 추출하는 완전 가이드를 제공합니다.
 

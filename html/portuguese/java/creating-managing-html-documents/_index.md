@@ -54,10 +54,14 @@ Aprenda como carregar, manipular e salvar documentos HTML usando Aspose.HTML par
 Aprenda como carregar documentos HTML de streams usando Aspose.HTML para Java. Este guia fornece um tutorial passo a passo para manipulação HTML sem interrupções.
 ### [Crie documentos HTML a partir de strings em Aspose.HTML para Java](./create-html-documents-from-string/)
 Aprenda a criar documentos HTML a partir de strings no Aspose.HTML para Java com este guia passo a passo.
+### [Como criar elemento HTML em Java usando Aspose.HTML](./how-to-create-html-element-in-java-using-aspose-html/)
+Aprenda a criar elementos HTML dinamicamente em Java com Aspose.HTML. Guia passo a passo com exemplos práticos.
 ### [Carregar documentos HTML de URL em Aspose.HTML para Java](./load-html-documents-from-url/)
 Descubra como carregar facilmente documentos HTML de uma URL em Java com Aspose.HTML. Tutorial passo a passo incluso.
 ### [Como consultar HTML em Java – Tutorial completo](./how-to-query-html-in-java-complete-tutorial/)
 Aprenda a consultar e extrair dados de documentos HTML em Java usando Aspose.HTML com este tutorial passo a passo.
+### [Como selecionar elementos por classe em Java usando querySelectorAll](./how-to-select-elements-by-class-in-java-using-queryselectora/)
+Aprenda a selecionar elementos HTML por classe em Java usando querySelectorAll com Aspose.HTML.
 ### [Carregar documento HTML Java – Guia completo com XPath e CSS](./load-html-document-java-complete-guide-with-xpath-css/)
 Aprenda a carregar documentos HTML em Java usando Aspose.HTML, com suporte completo a consultas XPath e seletores CSS.
 ### [Extrair texto de HTML em Java – Guia de programação completo](./extract-text-from-html-in-java-complete-programming-guide/)
@@ -74,6 +78,8 @@ Aprenda a criar um sandbox para HTML em Java usando Aspose.HTML com este guia pa
 Aprenda a buscar dados JSON e gerar dinamicamente conteúdo HTML em Java usando Aspose.HTML. Guia passo a passo.
 ### [Conte caracteres HTML em Java – Guia completo com Aspose.HTML](./count-html-characters-in-java-full-guide-with-aspose-html/)
 Aprenda a contar caracteres em documentos HTML usando Aspose.HTML para Java com este guia passo a passo.
+### [Como contar elementos HTML em Java com XPath](./how-to-count-html-elements-in-java-with-xpath/)
+Aprenda a contar elementos HTML usando XPath em Java com Aspose.HTML. Guia passo a passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -107,4 +113,3 @@ Aprenda a percorrer um NodeList em Java para ler HTML e extrair o atributo src d
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

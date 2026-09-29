@@ -65,6 +65,8 @@ Java を使用して新しい HTML 要素を作成し、Aspose.HTML の機能を
 ### [Fixed Thread Pool Java – ExecutorService を使用した並列 HTML クリーンアップ](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 ### [Java で body に子要素を追加 – 完全 Aspose.HTML チュートリアル](./append-child-to-body-in-java-full-aspose-html-tutorial/)
 Aspose.HTML for Java を使用して、HTML ドキュメントの body に子要素を追加する方法をステップバイステップで学びます。
+### [Java で JavaScript の背景色を変更する方法](./how-to-change-background-color-javascript-using-java/)
+Java を使用して JavaScript の背景色を変更する手順をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

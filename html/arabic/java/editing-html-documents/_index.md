@@ -63,6 +63,8 @@ url: /ar/java/editing-html-documents/
 تعلم كيفية إنشاء عنصر HTML جديد في Java باستخدام Aspose.HTML خطوة بخطوة.
 ### [مجموعة مؤشرات ثابتة Java – تنظيف HTML متوازي باستخدام ExecutorService](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 ### [إضافة عنصر فرعي إلى الجسم في Java – دليل Aspose.HTML الكامل](./append-child-to-body-in-java-full-aspose-html-tutorial/)
+### [كيفية تغيير لون الخلفية باستخدام JavaScript في Java](./how-to-change-background-color-javascript-using-java/)
+دليل خطوة بخطوة لتغيير لون خلفية صفحة الويب باستخدام JavaScript داخل تطبيق Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -54,6 +54,8 @@ Lär dig hur du laddar, manipulerar och sparar HTML-dokument med Aspose.HTML fö
 Lär dig hur du laddar HTML-dokument från strömmar med Aspose.HTML för Java. Den här guiden ger en steg-för-steg handledning för sömlös HTML-manipulation.
 ### [Skapa HTML-dokument från String i Aspose.HTML för Java](./create-html-documents-from-string/)
 Lär dig hur du skapar HTML-dokument från strängar i Aspose.HTML för Java med denna steg-för-steg-guide.
+### [Hur man skapar HTML-element i Java med Aspose.HTML](./how-to-create-html-element-in-java-using-aspose-html/)
+Lär dig att skapa HTML-element i Java med Aspose.HTML i en steg‑för‑steg‑guide.
 ### [Ladda HTML-dokument från URL i Aspose.HTML för Java](./load-html-documents-from-url/)
 Upptäck hur du enkelt laddar HTML-dokument från en URL i Java med Aspose.HTML. Steg-för-steg handledning ingår.
 ### [Räkna HTML-tecken i Java – Fullständig guide med Aspose HTML](./count-html-characters-in-java-full-guide-with-aspose-html/)
@@ -67,14 +69,17 @@ Lär dig att hantera dokumentladdningshändelser i Aspose.HTML för Java med den
 ### [Skapa och hantera SVG-dokument i Aspose.HTML för Java](./create-manage-svg-documents/)
 Lär dig att skapa och hantera SVG-dokument med Aspose.HTML för Java! Den här omfattande guiden täcker allt från grundläggande skapande till avancerad manipulation.
 ### [Skapa sandlåda för HTML i Java – Steg‑för‑steg‑guide](./create-sandbox-for-html-in-java-step-by-step-guide/)
-Lär dig hur du skapar en säker sandlåda för HTML i Java med vår detaljerade steg-för-steg‑guide.
+Lär dig hur du skapar en säker sandlåda för HTML i Java med vår detaljerade steg‑för‑steg‑guide.
 ### [Extrahera text från HTML i Java – Komplett programmeringsguide](./extract-text-from-html-in-java-complete-programming-guide/)
 Lär dig hur du extraherar text från HTML-dokument i Java med en komplett steg‑för‑steg‑guide.
-
 ### [Skapa HTML-dokument med Java – Hämta JSON och generera innehåll](./create-html-document-with-java-fetch-json-and-generate-conte/)
 Lär dig hur du hämtar JSON-data i Java och genererar dynamiskt HTML-innehåll med Aspose.HTML.
 ### [Ladda HTML-dokument i Java – Komplett guide med XPath och CSS](./load-html-document-java-complete-guide-with-xpath-css/)
 Lär dig hur du laddar HTML-dokument i Java och använder XPath och CSS för att extrahera och manipulera innehåll.
+### [Räkna HTML-element i Java med XPath](./how-to-count-html-elements-in-java-with-xpath/)
+Lär dig hur du räknar HTML-element i Java med XPath i en steg‑för‑steg‑guide.
+### [Hur man väljer element efter klass i Java med querySelectorAll](./how-to-select-elements-by-class-in-java-using-queryselectora/)
+Lär dig att välja HTML‑element efter klass i Java med querySelectorAll‑metoden i Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -108,4 +113,4 @@ Lär dig hur du kör JavaScript för att generera HTML i Java med vår detaljera
 {{< blocks/products/products-backtop-button >}}
 ### [Iterera NodeList i Java – Läs HTML och hämta bild‑src](./iterate-nodelist-java-read-html-get-image-src/)
 Lär dig hur du itererar en NodeList i Java för att läsa HTML och extrahera bild‑src‑attributen.
-
+{{< /blocks/products/pf/tutorial-page-section >}}

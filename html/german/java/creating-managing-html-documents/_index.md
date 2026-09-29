@@ -45,9 +45,9 @@ Wenn es um die Generierung neuer HTML-Dokumente geht, bietet Aspose.HTML für Ja
 ### [Erstellen Sie asynchron HTML-Dokumente in Aspose.HTML für Java](./create-html-documents-async/)
 Meistern Sie die asynchrone Erstellung von HTML-Dokumenten mit Aspose.HTML für Java. Schritt‑für‑Schritt‑Anleitung, Tipps und FAQs für schnelles Lernen enthalten.
 ### [Erstellen Sie leere HTML-Dokumente in Aspose.HTML für Java](./create-empty-html-documents/)
-Erfahren Sie mit unserem ausführlichen Schritt-für-Schritt-Tutorial, wie Sie mit Aspose.HTML leere HTML-Dokumente in Java erstellen. Es ist ideal für Entwickler aller Niveaus.
+Erfahren Sie mit unserem ausführlichen Schritt-für-Schritt‑Tutorial, wie Sie mit Aspose.HTML leere HTML-Dokumente in Java erstellen. Es ist ideal für Entwickler aller Niveaus.
 ### [Laden Sie HTML-Dokumente aus einer Datei in Aspose.HTML für Java](./load-html-documents-from-file/)
-Entfesseln Sie die Möglichkeiten der HTML-Manipulation mit Aspose.HTML für Java. Lernen Sie mit Schritt-für-Schritt-Tutorials, HTML-Dokumente aus Dateien zu laden.
+Entfesseln Sie die Möglichkeiten der HTML-Manipulation mit Aspose.HTML für Java. Lernen Sie mit Schritt‑für‑Schritt‑Tutorials, HTML-Dokumente aus Dateien zu laden.
 ### [Erweitertes Laden von Dateien für HTML-Dokumente in Aspose.HTML für Java](./advanced-file-loading-html-documents/)
 Erfahren Sie in dieser Schritt‑für‑Schritt‑Anleitung, wie Sie HTML-Dokumente mit Aspose.HTML für Java laden, bearbeiten und speichern. Schalten Sie die erweiterte HTML-Verarbeitung in Ihren Java-Projekten frei.
 ### [Laden Sie HTML-Dokumente aus dem Stream mit Aspose.HTML für Java](./load-html-documents-from-stream/)
@@ -70,12 +70,16 @@ Erfahren Sie, wie Sie in Aspose.HTML für Java eine sichere Sandbox für HTML er
 Erfahren Sie, wie Sie HTML-Inhalte in Java abfragen und verarbeiten – Schritt‑für‑Schritt‑Anleitung für vollständiges Verständnis.
 ### [Text aus HTML in Java extrahieren – Vollständiger Programmierleitfaden](./extract-text-from-html-in-java-complete-programming-guide/)
 Erfahren Sie in dieser Schritt‑für‑Schritt‑Anleitung, wie Sie mit Aspose.HTML für Java Text aus HTML extrahieren.
-
 ### [HTML-Dokument in Java laden – Komplett‑Leitfaden mit XPath & CSS](./load-html-document-java-complete-guide-with-xpath-css/)
 Lernen Sie, HTML-Dokumente in Java zu laden und mit XPath und CSS zu analysieren – Schritt‑für‑Schritt‑Anleitung.
-
 ### [HTML‑Zeichen in Java zählen – Vollständiger Leitfaden mit Aspose HTML](./count-html-characters-in-java-full-guide-with-aspose-html/)
 Erfahren Sie, wie Sie mit Aspose.HTML für Java die Anzahl von HTML‑Zeichen ermitteln – Schritt‑für‑Schritt‑Anleitung.
+### [HTML‑Element in Java mit Aspose.HTML erstellen](./how-to-create-html-element-in-java-using-aspose-html/)
+Erfahren Sie, wie Sie mit Aspose.HTML für Java HTML‑Elemente programmatisch erzeugen und in Ihre Anwendung integrieren.
+### [HTML-Elemente in Java mit XPath zählen](./how-to-count-html-elements-in-java-with-xpath/)
+Erfahren Sie, wie Sie mit XPath HTML‑Elemente in Java zählen können – kompakte Schritt‑für‑Schritt‑Anleitung.
+### [Wie man Elemente nach Klasse in Java mit querySelectorAll auswählt](./how-to-select-elements-by-class-in-java-using-queryselectora/)
+Erfahren Sie, wie Sie mit querySelectorAll Elemente anhand ihrer CSS‑Klasse in Java auswählen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -115,4 +119,3 @@ Erfahren Sie in dieser Schritt‑für‑Schritt‑Anleitung, wie Sie Text aus HT
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

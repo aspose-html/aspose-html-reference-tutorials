@@ -38,6 +38,7 @@ url: /ru/java/css-html-form-editing/
 ### [Выбор элемента по классу в Java – Полное руководство](./select-element-by-class-in-java-complete-how-to-guide/)
 Узнайте, как выбрать элементы по классу в Java с помощью Aspose.HTML, пошаговое руководство от начала до конца.
 ### [Как прочитать CSS в Java – Полное руководство с Aspose.HTML](./how-to-read-css-in-java-complete-guide-with-aspose-html/)
+### [Как прочитать CSS из HTML с Aspose.HTML в Java](./how-to-read-css-from-html-with-aspose-html-in-java/)
 ### [Разбор HTML с Java: извлечение свойства CSS и получение размера шрифта](./parse-html-with-java-extract-css-property-and-get-font-size/)
 Узнайте, как с помощью Aspose.HTML для Java извлекать свойства CSS из HTML и определять размер шрифта элементов.
 ### [Как выполнить запрос HTML в Java – загрузка HTML, CSS‑селектор и извлечение заголовков](./how-to-query-html-in-java-load-html-css-selector-and-extract/)

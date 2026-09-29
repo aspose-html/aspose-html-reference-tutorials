@@ -72,14 +72,22 @@ Naucz się tworzyć i zarządzać dokumentami SVG za pomocą Aspose.HTML dla Jav
 Dowiedz się, jak skonfigurować bezpieczną piaskownicę HTML w Javie, aby testować i uruchamiać kod w izolowanym środowisku.
 ### [Jak zapytać HTML w Javie – Kompletny samouczek](./how-to-query-html-in-java-complete-tutorial/)
 Dowiedz się, jak efektywnie zapytać i przetwarzać dokumenty HTML w Javie przy użyciu Aspose.HTML.
+### [Jak wybrać elementy po klasie w Javie przy użyciu querySelectorAll](./how-to-select-elements-by-class-in-java-using-queryselectora/)
+Dowiedz się, jak wybierać elementy HTML po klasie w Javie przy użyciu metody querySelectorAll w Aspose.HTML.
 ### [Jak parsować HTML w Javie – ładowanie, zapytania i liczenie elementów](./how-to-parse-html-java-load-query-count-elements/)
 Dowiedz się, jak ładować dokumenty HTML, wykonywać zapytania i liczyć elementy przy użyciu Aspose.HTML dla Java.
 ### [Ładowanie dokumentu HTML w Javie – Kompletny przewodnik z XPath i CSS](./load-html-document-java-complete-guide-with-xpath-css/)
 Poznaj pełny przewodnik, jak ładować dokumenty HTML w Javie, wykorzystując XPath i selektory CSS w Aspose.HTML.
+
+### [Jak liczyć elementy HTML w Javie przy użyciu XPath](./how-to-count-html-elements-in-java-with-xpath/)
+Dowiedz się, jak liczyć elementy HTML w Javie przy użyciu XPath, korzystając z tego przewodnika krok po kroku.
+
 ### [Policz znaki HTML w Javie – Kompletny przewodnik z Aspose HTML](./count-html-characters-in-java-full-guide-with-aspose-html/)
 Dowiedz się, jak liczyć znaki w dokumentach HTML przy użyciu Aspose.HTML w Javie. Praktyczny przewodnik krok po kroku.
 ### [Wyodrębnianie tekstu z HTML w Javie – Kompletny przewodnik programistyczny](./extract-text-from-html-in-java-complete-programming-guide/)
 Dowiedz się, jak skutecznie wyodrębniać tekst z dokumentów HTML w Javie przy użyciu Aspose.HTML, krok po kroku.
+### [Jak utworzyć element HTML w Javie przy użyciu Aspose.HTML](./how-to-create-html-element-in-java-using-aspose-html/)
+Dowiedz się, jak w Javie tworzyć elementy HTML przy użyciu biblioteki Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -108,7 +116,6 @@ Dowiedz się, jak iterować NodeList w Javie, odczytywać HTML i wyodrębniać a
 Poznaj, jak iterować po NodeList w Javie przy użyciu Aspose.HTML, krok po kroku, z praktycznymi przykładami.
 ### [Wyodrębnianie tekstu z HTML w Javie – Kompletny przewodnik krok po kroku](./extract-text-from-html-with-java-complete-step-by-step-guide/)
 Dowiedz się, jak wyodrębnić tekst z dokumentów HTML w Javie przy użyciu Aspose.HTML, krok po kroku, z praktycznymi przykładami.
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -55,6 +55,8 @@ Tìm hiểu cách tải, thao tác và lưu tài liệu HTML bằng Aspose.HTML 
 Tìm hiểu cách tải tài liệu HTML từ luồng bằng Aspose.HTML cho Java. Hướng dẫn này cung cấp hướng dẫn từng bước để thao tác HTML liền mạch.
 ### [Tạo tài liệu HTML từ chuỗi trong Aspose.HTML cho Java](./create-html-documents-from-string/)
 Tìm hiểu cách tạo tài liệu HTML từ chuỗi trong Aspose.HTML cho Java với hướng dẫn từng bước này.
+### [Cách tạo phần tử HTML trong Java bằng Aspose.HTML](./how-to-create-html-element-in-java-using-aspose-html/)
+Hướng dẫn tạo phần tử HTML trong Java bằng Aspose.HTML một cách nhanh chóng và chi tiết.
 ### [Tạo tài liệu HTML với Java – Lấy JSON và tạo nội dung](./create-html-document-with-java-fetch-json-and-generate-conte/)
 Hướng dẫn cách lấy dữ liệu JSON và tạo nội dung HTML động trong Java bằng Aspose.HTML.
 ### [Tải tài liệu HTML từ URL trong Aspose.HTML cho Java](./load-html-documents-from-url/)
@@ -81,6 +83,10 @@ Tìm hiểu cách tải tài liệu HTML, truy vấn và đếm các phần tử
 Học cách thực thi JavaScript bất đồng bộ trong Java bằng Aspose.HTML với hướng dẫn chi tiết từng bước.
 ### [đếm ký tự HTML trong Java – Hướng dẫn đầy đủ với Aspose HTML](./count-html-characters-in-java-full-guide-with-aspose-html/)
 Tìm hiểu cách đếm số ký tự HTML trong Java bằng Aspose.HTML qua hướng dẫn chi tiết từng bước.
+### [Cách chọn các phần tử theo lớp trong Java bằng querySelectorAll](./how-to-select-elements-by-class-in-java-using-queryselectora/)
+Hướng dẫn cách sử dụng querySelectorAll để chọn phần tử HTML theo lớp trong Java với Aspose.HTML.
+### [Cách đếm phần tử HTML trong Java bằng XPath](./how-to-count-html-elements-in-java-with-xpath/)
+Hướng dẫn chi tiết cách đếm các phần tử HTML trong tài liệu bằng XPath trong Java sử dụng Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
