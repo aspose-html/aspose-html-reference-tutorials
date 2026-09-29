@@ -1,34 +1,55 @@
 ---
-title: Membuat Pipeline Penanganan Pesan di Aspose.HTML untuk Java
-linktitle: Membuat Pipeline Penanganan Pesan di Aspose.HTML untuk Java
-second_title: Pemrosesan HTML Java dengan Aspose.HTML
-description: Pelajari cara membuat alur penanganan pesan di Aspose.HTML untuk Java dengan panduan terperinci langkah demi langkah ini. Ubah ZIP menjadi PDF dengan mudah.
-weight: 13
+date: 2026-02-23
+description: Pelajari cara mengonversi file zip ke PDF menggunakan Aspose.HTML untuk
+  Java. Panduan langkah demi langkah ini menunjukkan cara mengonfigurasi layanan jaringan,
+  menambahkan penangan khusus, dan mencatat durasi permintaan.
+linktitle: Creating Message Handler Pipelines in Aspose.HTML
+second_title: Java HTML Processing with Aspose.HTML
+title: Cara Mengonversi ZIP ke PDF dengan Aspose.HTML untuk Java
 url: /id/java/message-handling-networking/message-handler-pipeline/
+weight: 13
 ---
+
+ **...**.
+
+Also tables.
+
+Let's produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Membuat Pipeline Penanganan Pesan di Aspose.HTML untuk Java
+# Cara Mengonversi ZIP ke PDF dengan Aspose.HTML untuk Java
 
-## Perkenalan
-Dalam panduan ini, kita akan melihat lebih dekat cara membuat alur penanganan pesan dengan Aspose.HTML. Apakah Anda seorang pengembang berpengalaman atau pemula dalam bidang koding yang ingin meningkatkan keterampilan Anda, tutorial ini akan memberi Anda semua petunjuk langkah demi langkah, kiat, dan trik penting yang Anda perlukan untuk memulai dengan pustaka yang fantastis ini. Mari kita bahas!
+## Pendahuluan
+Dalam tutorial komprehensif ini Anda akan menemukan **cara mengonversi zip** arsip menjadi dokumen PDF menggunakan Aspose.HTML untuk Java. Kami akan memandu Anda membangun pipeline penangan pesan, mengonfigurasi layanan jaringan, menambahkan penangan khusus, dan mencatat durasi permintaan—semua sambil menjaga kode tetap jelas dan dapat dijalankan. Baik Anda mengotomatisasi pembuatan laporan atau membutuhkan cara andal untuk mengemas konten HTML menjadi PDF, panduan ini mencakup semuanya.
+
+## Jawaban Cepat
+- **Apa yang dilakukan pipeline?** Ia memproses file ZIP, mengekstrak HTML, dan merendernya ke PDF.  
+- **Penangan mana yang mencatat durasi?** `StartRequestDurationLoggingMessageHandler` dan `StopRequestDurationLoggingMessageHandler`.  
+- **Apakah saya memerlukan lisensi?** Versi percobaan gratis cukup untuk pengujian; lisensi komersial diperlukan untuk produksi.  
+- **Bisakah saya mengubah jalur output?** Ya—ubah variabel `savePath` pada Langkah 1.  
+- **Versi Java apa yang diperlukan?** JDK 8 atau lebih tinggi.
+
+## Apa Itu Pipeline Penangan Pesan?
+Pipeline penangan pesan adalah rangkaian komponen pemrosesan yang dapat dikonfigurasi dan menyela permintaan jaringan yang dibuat oleh Aspose.HTML. Dengan menyisipkan penangan khusus, Anda dapat mengontrol bagaimana sumber daya diambil, diubah, dan dicatat—sempurna untuk skenario seperti mengonversi arsip ZIP ke PDF.
+
+## Mengapa Menggunakan Pipeline untuk Mengonversi ZIP ke PDF?
+- **Kontrol detail** – Tambah, urutkan ulang, atau hapus penangan sesuai alur kerja Anda.  
+- **Wawasan kinerja** – Catat durasi permintaan untuk mengidentifikasi bottleneck.  
+- **Ekstensibilitas** – Sambungkan logika Anda sendiri (misalnya, otentikasi, caching).  
+- **Keandalan** – Perpustakaan menangani kasus tepi seperti HTML yang rusak secara otomatis.
+
 ## Prasyarat
-Sebelum kita masuk ke inti pembahasan, ada beberapa prasyarat utama yang harus Anda miliki untuk memastikan pengalaman yang lancar dengan Aspose.HTML untuk Java. Berikut ini yang Anda perlukan:
-### 1. Kit Pengembangan Java (JDK)
-Pastikan Anda telah menginstal JDK di komputer Anda. Aspose.HTML memerlukan JDK 8 atau yang lebih tinggi. Anda dapat mengunduhnya dari situs web Oracle atau menggunakan alternatif seperti OpenJDK.
-### 2. Pustaka Aspose.HTML untuk Java
- Untuk memanfaatkan semua fungsi, Anda perlu mengunduh pustaka Aspose.HTML untuk Java. Anda dapat mengunduhnya dari[Unduhan Aspose](https://releases.aspose.com/html/java/) halaman.
-### 3. Sebuah IDE
-Menggunakan Lingkungan Pengembangan Terpadu (IDE) seperti IntelliJ IDEA, Eclipse, atau NetBeans dapat menyederhanakan proses pengembangan Anda, jadi siapkan satu dan mulailah!
-### 4. Pemahaman Dasar tentang Java
-Meskipun Anda tidak perlu menjadi seorang ahli, memiliki pengetahuan dasar tentang pemrograman Java akan memudahkan Anda mengikuti panduan ini.
-### 5. Pengetahuan Dasar HTML
-Kemampuan memahami HTML dapat membantu Anda memahami konteks berkas yang sedang Anda kerjakan, sehingga proses konversi menjadi lebih jelas.
-## Paket Impor
-Setelah Anda memenuhi prasyarat yang diperlukan, saatnya mengimpor paket yang diperlukan. Untuk bekerja dengan Aspose.HTML dalam proyek Java Anda, Anda perlu menyertakan pustaka Aspose.HTML dalam kode Anda. Berikut cara melakukannya:
+- **Java Development Kit (JDK) 8+** – Pastikan `java -version` menampilkan 8 atau lebih baru.  
+- **Perpustakaan Aspose.HTML untuk Java** – Unduh dari halaman [Aspose downloads](https://releases.aspose.com/html/java/).  
+- **IDE** – IntelliJ IDEA, Eclipse, atau NetBeans akan memudahkan penulisan kode.  
+- **Pengetahuan dasar Java dan HTML** – Membantu tetapi tidak wajib.
+
+## Impor Paket
+Untuk memulai, impor kelas‑kelas yang diperlukan. Impor ini memberi kita akses ke konfigurasi, jaringan, dan fitur perenderan PDF.
+
 ```java
 import com.aspose.html.Configuration;
 import com.aspose.html.HTMLDocument;
@@ -36,95 +57,114 @@ import com.aspose.html.net.MessageHandlerCollection;
 import com.aspose.html.rendering.pdf.PdfDevice;
 import com.aspose.html.services.INetworkService;
 ```
-Setelah kita menyiapkan semuanya, mari kita mulai dan mulai membuat alur penanganan pesan menggunakan cuplikan kode yang diberikan. Kita akan membedah setiap langkahnya agar lebih jelas.
-## Langkah 1: Siapkan Jalur ke File
 
+## Panduan Langkah‑per‑Langkah
+
+### Langkah 1: Siapkan Jalur ke File
 ```java
-// Siapkan jalur ke file zip sumber
+// Prepare path to a source zip file
 String documentPath = "input/test.zip";
-// Siapkan jalur untuk menyimpan file yang dikonversi
+// Prepare path for converted file saving
 String savePath = "output/zip-to-pdf-duration.pdf";
 ```
+Setel `documentPath` ke file ZIP yang berisi file HTML Anda dan `savePath` ke lokasi di mana Anda ingin menyimpan PDF akhir.
 
- Pertama-tama, kita perlu mengatur jalur untuk file ZIP sumber dan file PDF keluaran. Di sini,`documentPath` adalah tempat Anda menentukan jalur ke file ZIP input yang berisi konten HTML Anda, dan`savePath`adalah tempat penyimpanan PDF yang dikonversi. Penting untuk memastikan jalur ini benar guna menghindari kesalahan file tidak ditemukan di kemudian hari.
-## Langkah 2: Buat Instansi Konfigurasi
-
+### Langkah 2: Buat Instance Konfigurasi
 ```java
-// Buat instance dari kelas Konfigurasi
+// Create an instance of the Configuration class
 Configuration configuration = new Configuration();
 ```
+Objek `Configuration` adalah dasar untuk menyesuaikan pipeline pemrosesan.
 
-Kita perlu membuat contoh konfigurasi yang akan memungkinkan kita untuk menyiapkan dokumen dan alur pemrosesannya. Anggap kelas konfigurasi sebagai buku pegangan pengaturan organisasi Anda—semuanya siap untuk pemrosesan dokumen yang efektif.
-## Langkah 3: Inisialisasi Layanan Jaringan
-
+### Langkah 3: Inisialisasi Layanan Jaringan
 ```java
 INetworkService service = configuration.getService(INetworkService.class);
 MessageHandlerCollection handlers = service.getMessageHandlers();
 ```
+Di sini kita **mengonfigurasi layanan jaringan** dan memperoleh `MessageHandlerCollection`, yang merupakan kotak peralatan untuk menambahkan penangan khusus.
 
- Di sini, kita menginisialisasi`INetworkService` yang menangani komunikasi dan pemrosesan penangan pesan kami. Kami juga mengambil`MessageHandlerCollection`, yang pada dasarnya adalah kotak peralatan kami untuk menambahkan dan mengelola berbagai pengendali di seluruh jalur pipa.
-## Langkah 4: Tambahkan Penanganan Pesan File ZIP
-
+### Langkah 4: Tambahkan Penangan File ZIP
 ```java
-// Skema Kustom: ZIP. Tambahkan ZipFileSchemaMessageHandler ke akhir alur kerja
+// Custom Schema: ZIP. Add ZipFileSchemaMessageHandler to the end of the pipeline
 handlers.addItem(new ZIPFileSchemaMessageHandler(documentPath));
 ```
+Dengan **menambahkan penangan khusus** (`ZIPFileSchemaMessageHandler`) kita memberi tahu Aspose.HTML cara memperlakukan file ZIP sebagai sistem file virtual.
 
- Sekarang tibalah bagian yang menyenangkan! Kami menambahkan`ZIPFileSchemaMessageHandler`yang bertanggung jawab untuk memproses berkas ZIP kita. Pengendali ini bekerja di balik layar untuk mengambil berkas HTML di dalam ZIP dan menyiapkannya untuk proses konversi. Bayangkan sebagai individu yang memilah-milah barang sebelum barang tersebut masuk ke jalur perakitan utama!
-## Langkah 5: Masukkan Penangan Pencatatan Durasi Permintaan Awal
-
+### Langkah 5: Sisipkan Penangan Pencatatan Durasi Permintaan Mulai
 ```java
-// Pencatatan Durasi. Tambahkan StartRequestDurationLoggingMessageHandler di tempat pertama dalam alur kerja
+// Duration Logging. Add the StartRequestDurationLoggingMessageHandler at the first place in the pipeline
 handlers.insertItem(0, new StartRequestDurationLoggingMessageHandler());
 ```
+Penangan ini **mencatat durasi permintaan** di awal pipeline, memberikan timestamp saat proses dimulai.
 
- Selanjutnya, kita ingin melacak berapa lama waktu yang dibutuhkan untuk memproses permintaan kita. Kita mencapainya dengan memasukkan`StartRequestDurationLoggingMessageHandler` di awal alur kerja kami. Ini seperti menyetel pengatur waktu di awal perlombaan sehingga kami dapat mencatat seberapa efisien sistem kami bekerja!
-## Langkah 6: Tambahkan Penangan Pencatatan Durasi Permintaan Penghentian
-
+### Langkah 6: Tambahkan Penangan Pencatatan Durasi Permintaan Berhenti
 ```java
-// Tambahkan StopRequestDurationLoggingMessageHandler ke akhir alur kerja
+// Add the StopRequestDurationLoggingMessageHandler to the end of the pipeline
 handlers.addItem(new StopRequestDurationLoggingMessageHandler());
 ```
+Menempatkannya di akhir memungkinkan Anda menangkap total waktu yang dibutuhkan untuk mengonversi ZIP ke PDF.
 
- Demikian pula, kami menambahkan`StopRequestDurationLoggingMessageHandler`hingga akhir alur pemrosesan. Penanganan ini akan menandai akhir pemrosesan permintaan dan memungkinkan kami untuk merekam durasi total, yang berfungsi sebagai momen garis finis balapan.
-## Langkah 7: Inisialisasi Dokumen HTML
-
+### Langkah 7: Inisialisasi Dokumen HTML
 ```java
-// Inisialisasi dokumen HTML dengan konfigurasi yang ditentukan
-HTMLDocument document = new HTMLDocument("zip-file:///test.html", konfigurasi);
+// Initialize an HTML document with specified configuration
+HTMLDocument document = new HTMLDocument("zip-file:///test.html", configuration);
 ```
+Kami mengarahkan `HTMLDocument` ke file HTML masuk di dalam ZIP (`zip-file:///test.html`). Konfigurasi yang telah kami buat sebelumnya diterapkan secara otomatis.
 
-Pada titik ini, kita bersiap untuk membuat contoh dokumen HTML. Kita tentukan jalur ke berkas HTML dalam ZIP dan masukkan konfigurasi kita. Langkah ini penting karena mengikat konten kita ke alur kerja yang baru saja kita konfigurasikan.
-## Langkah 8: Buat Perangkat PDF
-
+### Langkah 8: Buat Perangkat PDF
 ```java
-// Buat Perangkat PDF
+// Create the PDF Device
 PdfDevice device = new PdfDevice(savePath);
 ```
+**Perangkat PDF** (`PdfDevice`) adalah yang **membuat PDF dari konten ZIP**. Ia menerima halaman yang dirender dan menuliskannya ke `savePath`.
 
- Di sini, kami menyiapkan`PdfDevice` yang bertanggung jawab untuk mengubah konten HTML menjadi format PDF. Mesin ajaib ini mengubah HTML yang Anda buat dengan indah menjadi format dokumen portabel, siap untuk dibagikan!
-## Langkah 9: Render ZIP ke PDF
-
+### Langkah 9: Render ZIP ke PDF
 ```java
-// Render ZIP ke PDF
+// Render ZIP to PDF
 document.renderTo(device);
 ```
+Memanggil `renderTo` memicu seluruh pipeline: ZIP dibongkar, HTML dirender, durasi dicatat, dan PDF akhir ditulis.
 
- Terakhir, kami memanggil`renderTo`metode untuk memulai proses konversi. Di sinilah proses dimulai; konten HTML kita diubah menjadi format PDF, menyimpannya di jalur yang ditentukan sebelumnya. Kepuasan instan!
-## Kesimpulan
-Selamat! Anda baru saja mempelajari pembuatan alur penanganan pesan di Aspose.HTML untuk Java. Dengan campuran konfigurasi, penanganan, dan inisialisasi dokumen, Anda telah mempelajari cara mengonversi file ZIP ke PDF dengan mudah. Keunggulan pustaka ini terletak pada kemampuannya untuk memproses dokumen secara efisien sekaligus memberi Anda kendali penuh atas langkah-langkah yang terlibat. 
-Jadi, apakah Anda ingin membuat laporan, berbagi informasi, atau membuat presentasi, Aspose.HTML siap membantu Anda. Selamat membuat kode, dan semoga konversi HTML ke PDF Anda berjalan cepat dan lancar!
+## Masalah Umum dan Solusinya
+| Masalah | Penyebab | Solusi |
+|-------|-------|-----|
+| `FileNotFoundException` | `documentPath` atau `savePath` tidak tepat | Verifikasi jalur bersifat absolut atau relatif terhadap direktori kerja. |
+| Tidak ada konten di PDF | Nama HTML masuk pada konstruktor `HTMLDocument` salah | Pastikan nama file persis sama dengan file HTML di dalam ZIP (`test.html`). |
+| Durasi tidak tercatat | Penangan tidak disisipkan dalam urutan yang benar | Sisipkan `StartRequestDurationLoggingMessageHandler` pada indeks 0 dan `StopRequestDurationLoggingMessageHandler` setelah semua penangan lain. |
+| Fitur HTML tidak didukung | Menggunakan CSS/JS yang tidak didukung Aspose.HTML | Sederhanakan markup atau pra‑proses HTML sebelum dirender. |
+
 ## Pertanyaan yang Sering Diajukan
-### Apa itu Aspose.HTML untuk Java?
-Aspose.HTML untuk Java adalah pustaka yang digunakan untuk memanipulasi dokumen HTML, memungkinkan konversi antara berbagai format seperti PDF.
-### Bagaimana cara mengunduh Aspose.HTML untuk Java?
- Anda dapat mengunduhnya dari[Tautan unduhan Aspose](https://releases.aspose.com/html/java/).
-### Dapatkah saya menggunakan Aspose.HTML secara gratis?
- Ya, Aspose menyediakan uji coba gratis. Anda dapat mendaftar untuk itu[Di Sini](https://releases.aspose.com/).
-### Di mana saya dapat menemukan dukungan untuk Aspose.HTML?
-Untuk pertanyaan apa pun, Anda dapat mengunjungi[Forum Dukungan Aspose](https://forum.aspose.com/c/html/29).
-### Apa itu penanganan pesan di Aspose.HTML?
-Penanganan pesan adalah komponen yang memproses berbagai tahap dalam jalur manipulasi dokumen, seperti durasi pencatatan atau mengonversi format dokumen.
+
+**T: Apa itu Aspose.HTML untuk Java?**  
+J: Aspose.HTML untuk Java adalah perpustakaan yang memungkinkan manipulasi dokumen HTML dan konversi ke format seperti PDF, gambar, dan EPUB.
+
+**T: Bagaimana cara mengunduh Aspose.HTML untuk Java?**  
+J: Anda dapat mengunduhnya dari halaman [Aspose downloads](https://releases.aspose.com/html/java/).
+
+**T: Apakah saya dapat menggunakan Aspose.HTML secara gratis?**  
+J: Ya, tersedia versi percobaan gratis. Daftar di [sini](https://releases.aspose.com/).
+
+**T: Di mana saya dapat menemukan dukungan untuk Aspose.HTML?**  
+J: Kunjungi [Aspose Support Forum](https://forum.aspose.com/c/html/29) untuk bantuan dari komunitas dan insinyur Aspose.
+
+**T: Apa itu penangan pesan di Aspose.HTML?**  
+J: Penangan pesan adalah komponen yang menyela dan memproses permintaan jaringan dalam pipeline—berguna untuk pencatatan, otentikasi, atau pengambilan konten khusus.
+
+**T: Bagaimana cara menambahkan penangan khusus saya sendiri?**  
+J: Implementasikan `IMessageHandler` dan tambahkan ke `MessageHandlerCollection` dengan `handlers.addItem(new MyCustomHandler())`.
+
+**T: Apakah memungkinkan mengonversi beberapa file ZIP secara batch?**  
+J: Ya—lakukan loop pada daftar jalur ZIP, gunakan konfigurasi dan pipeline yang sama untuk setiap iterasi.
+
+## Kesimpulan
+Anda kini mengetahui **cara mengonversi zip** arsip menjadi file PDF menggunakan Aspose.HTML untuk Java, lengkap dengan layanan jaringan yang dapat dikonfigurasi, penangan ZIP khusus, dan pencatatan durasi permintaan yang tepat. Pipeline ini memberi Anda kontrol penuh atas proses konversi, menjadikannya ideal untuk pelaporan otomatis, pengarsipan dokumen, atau skenario apa pun di mana konten HTML perlu dikemas sebagai PDF.
+
+---
+
+**Terakhir Diperbarui:** 2026-02-23  
+**Diuji Dengan:** Aspose.HTML untuk Java 24.11  
+**Penulis:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

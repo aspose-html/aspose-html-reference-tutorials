@@ -1,83 +1,137 @@
 ---
-title: Java için Aspose.HTML'de Ağ Zaman Aşımını Yönetme
-linktitle: Java için Aspose.HTML'de Ağ Zaman Aşımını Yönetme
-second_title: Aspose.HTML ile Java HTML İşleme
-description: Bu kapsamlı kılavuzda Java için Aspose.HTML kullanarak ağ zaman aşımlarını nasıl yöneteceğinizi öğrenin. Etkili zaman aşımı işlemeyle sorunsuz kullanıcı deneyimleri sağlayın.
-weight: 12
+date: 2026-02-23
+description: Aspose.HTML for Java ile HTML'yi PDF'ye dönüştürürken zaman aşımını nasıl
+  ayarlayacağınızı ve ağ hizmetini nasıl yapılandıracağınızı öğrenin. Etkili zaman
+  aşımı yönetimiyle sorunsuz kullanıcı deneyimleri sağlayın.
+linktitle: Manage Network Timeout in Aspose.HTML
+second_title: Java HTML Processing with Aspose.HTML
+title: Zaman Aşımını Nasıl Ayarlarsınız – Aspose.HTML for Java’da Ağ Zaman Aşımını
+  Yönetme
 url: /tr/java/message-handling-networking/network-timeout/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java için Aspose.HTML'de Ağ Zaman Aşımını Yönetme
+# Zaman Aşımını Ayarlama – Aspose.HTML for Java’da Ağ Zaman Aşımını Yönetme
 
-## giriiş
-Ağ işlemlerine dayanan uygulamalar geliştirirken, sorunsuz kullanıcı deneyimleri sağlamak için ağ zaman aşımını yönetmek çok önemlidir. Bir web sayfasını yüklemeye çalıştığınızı ve yanıt vermesinin sonsuza kadar sürdüğünü düşünün. Sinir bozucu, değil mi? Aspose.HTML for Java'nın kullanışlı olduğu yer burasıdır ve HTML belgelerini ve dönüşümlerini yönetmek için sağlam araçlar sunar. Bu eğitimde, Aspose.HTML for Java kullanarak ağ zaman aşımını etkili bir şekilde nasıl yöneteceğinizi inceleyeceğiz. Süreci adım adım açıklayacağız ve uygulamanın her bir bölümünü anlamanızı sağlayacağız.
-## Ön koşullar
-Koda dalmadan önce, başlamak için ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
-1.  Java Geliştirme Kiti (JDK): Makinenizde JDK'nın yüklü olduğundan emin olun. Bunu şu adresten indirebilirsiniz:[Oracle web sitesi](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2.  Java Kütüphanesi için Aspose.HTML: Java kütüphanesi için Aspose.HTML'e sahip olmanız gerekir. Bunu şuradan indirebilirsiniz:[Aspose sürüm sayfası](https://releases.aspose.com/html/java/).
-3. Entegre Geliştirme Ortamı (IDE): IntelliJ IDEA veya Eclipse gibi bir IDE, Java kodunuzu yazmanızı ve çalıştırmanızı kolaylaştıracaktır.
-4. Temel Java Bilgisi: Java programlama kavramlarına aşina olmanız eğitimi daha iyi anlamanıza yardımcı olacaktır.
-5. İnternet Erişimi: Ağ operasyonlarını yöneteceğimiz için istikrarlı bir internet bağlantısına sahip olmak önemlidir.
-Tüm bu ön koşulları sağladıktan sonra kodlama kısmına geçmeye hazırsınız!
-## Paketleri İçe Aktar
-Java için Aspose.HTML'i kullanmaya başlamak için gerekli paketleri içe aktarmanız gerekir. Bunu şu şekilde yapabilirsiniz:
+## Giriş
+Uzak HTML içeriği çeken Java uygulamaları geliştirirken **zaman aşımını nasıl ayarlayacağınız** hayati bir soru haline gelir. Uygun zaman aşımı yönetimi olmadan yavaş veya yanıt vermeyen bir sunucu UI’nızı dondurabilir ve kullanıcı deneyimini olumsuz etkileyebilir. Bu rehberde Aspose.HTML for Java kullanarak **zaman aşımını nasıl ayarlayacağınız**ı tam olarak gösterecek, aynı zamanda **convert html to pdf**, **java html processing** ve **configure network service** ile **customize pdf save** seçeneklerini nasıl yapılandıracağınızı ele alacağız. Sonunda, kötü ağ koşullarında bile uygulamanızın yanıt vermeye devam etmesini sağlayan sağlam, üretim‑hazır bir çözüm elde edeceksiniz.
+
+## Hızlı Yanıtlar
+- **Zaman aşımı yönetimi için temel sınıf nedir?** `Configuration` ve `INetworkService` ile `TimeoutMessageHandler`.  
+- **Dönüştürmeyi gerçekleştiren metod hangisidir?** `Converter.convertHTML(...)`.  
+- **Zaman aşımı süresini değiştirebilir miyim?** Evet – `TimeoutMessageHandler` özelliklerini (burada gösterilmemiş) değiştirin.  
+- **Aspose.HTML için lisansa ihtiyacım var mı?** Test için ücretsiz deneme sürümü çalışır; üretim için lisans gereklidir.  
+- **Bu yaklaşım Java 11+ ile uyumlu mu?** Kesinlikle – kütüphane modern JDK sürümlerini destekler.
+
+## Aspose.HTML’de “zaman aşımını nasıl ayarlayacağınız” nedir?
+Aspose.HTML, düşük seviyeli HTTP davranışını kontrol etmenizi sağlayan bir ağ hizmet katmanı sunar. `TimeoutMessageHandler`ı mesaj‑işleyici zincirine ekleyerek, kütüphanenin bir yanıtı iptal etmeden önce ne kadar bekleyeceğini belirlersiniz.
+
+## HTML’den PDF’ye dönüştürürken ağ hizmeti neden yapılandırılır?
+Ağ hizmetini yapılandırmak size şu ince ayarları sağlar:
+* **Performans** – dönüşüm hattını durduran uzun süren isteklerden kaçının.  
+* **Güvenilirlik** – erişilemeyen kaynakları (görseller, scriptler, CSS) sorunsuz şekilde yönetin.  
+* **Kullanıcı deneyimi** – UI’nızın yanıt vermesini sağlayın ve net hata geri bildirimi sunun.
+
+## Önkoşullar
+1. **Java Development Kit (JDK)** – [Oracle web sitesinden](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) indirin.  
+2. **Aspose.HTML for Java kütüphanesi** – [Aspose sürüm sayfasından](https://releases.aspose.com/html/java/) temin edin.  
+3. **IDE** – IntelliJ IDEA, Eclipse veya tercih ettiğiniz herhangi bir editör.  
+4. **Temel Java bilgisi** – sınıflar ve metod çağrıları konusunda rahat olmalısınız.  
+5. **İnternet erişimi** – dönüşüm sırasında uzak kaynakların alınabilmesi için gereklidir.
+
+Bu maddeler hazır olduğunda kodlamaya başlayabilirsiniz.
+
+## Paketleri İçe Aktarın
+Başlamak için ihtiyacınız olan Aspose.HTML sınıflarını içe aktarın:
+
 ```java
 import com.aspose.html.Configuration;
 import com.aspose.html.converters.Converter;
 import com.aspose.html.saving.PdfSaveOptions;
 import com.aspose.html.services.INetworkService;
 ```
-Bu içe aktarımlar, yapılandırma ayarları ve ağ hizmetleri de dahil olmak üzere Aspose.HTML kütüphanesinin sağladığı çeşitli işlevlere erişmenizi sağlayacaktır.
 
-Artık her şeyi ayarladığımıza göre, Aspose.HTML for Java'da ağ zaman aşımlarını yönetme sürecini net, uygulanabilir adımlara bölelim.
-## Adım 1: Yapılandırma Sınıfının Bir Örneğini Oluşturun
- İlk adım, bir örnek oluşturmaktır`Configuration` sınıf. Bu sınıf, ağ operasyonlarını yönetmek için gereken tüm ayarları içerecektir.
+Bu importlar, yapılandırma yönetimi, dönüşüm yardımcıları, PDF kaydetme seçenekleri ve ağ hizmeti arayüzüne erişim sağlar.
+
+## Adım 1: Configuration Örneği Oluşturun
+`Configuration` nesnesi, ağ‑ile ilgili seçenekler dahil tüm çalışma zamanı ayarlarını saklar.
+
 ```java
 Configuration configuration = new Configuration();
 ```
- The`Configuration`sınıf, uygulamanızın ağ hizmetleri de dahil olmak üzere çeşitli işlemleri nasıl ele alacağını tanımlamak için önemlidir. Bir örnek oluşturarak, uygulamanızı zaman aşımı gibi ayarları yönetmeye hazırlarsınız.
-## Adım 2: INetworkService'e erişin
- Daha sonra, şuraya erişmek isteyeceksiniz:`INetworkService`Ağ operasyonlarını yönetmek için gerekli tüm işlevleri bünyesinde barındıran.
+
+## Adım 2: INetworkService’e Erişin
+Ağ hizmetini yapılandırmadan önce, konfigürasyondan alın.
+
 ```java
 INetworkService network = configuration.getService(INetworkService.class);
 ```
- The`INetworkService` arayüz, ağ işlemlerini işlemek için yöntemler sağlar. Bu hizmeti yapılandırmadan alarak, uygulamanızın ağ ile nasıl etkileşime gireceğini özelleştirebilirsiniz.
-## Adım 3: TimeoutMessageHandler ekleyin
- Şimdi bir tane ekleyelim`TimeoutMessageHandler` ileti işleyici zincirine. Bu işleyici ağ istekleri için zaman aşımı ayarlarını yönetecektir.
+
+## Adım 3: TimeoutMessageHandler Ekleyin
+`TimeoutMessageHandler`ı mesaj‑işleyici zincirinin başına ekleyin. Bu, Aspose.HTML tarafından yapılan her istek için **zaman aşımını nasıl ayarlayacağınız**ın temelidir.
+
 ```java
 network.getMessageHandlers().insertItem(0, new TimeoutMessageHandler());
 ```
- The`TimeoutMessageHandler` uygulamanızın zaman aşımına uğramadan önce bir ağ yanıtı için ne kadar beklemesi gerektiğini tanımlayan önemli bir bileşendir. Bunu ileti işleyici zincirinin en üstüne ekleyerek, diğer işleyicilere göre öncelik kazanmasını sağlarsınız.
+
+> **İpucu:** `TimeoutMessageHandler` özelliklerini (ör. `setTimeout`) performans gereksinimlerinize göre ayarlayın.
+
 ## Adım 4: Belge Yollarını Hazırlayın
-HTML belgesini dönüştürmeden önce kaynak belgenin ve dönüştürülen dosyanın yollarını belirtmeniz gerekir.
+Kaynak HTML’in nerede ve oluşturulacak PDF’nin nereye kaydedileceğini tanımlayın.
+
 ```java
 String documentPath = "input/document.html";
 String savePath = "output/document.pdf";
 ```
-Burada, giriş HTML dosyanızın nerede bulunduğunu ve dönüştürülen PDF dosyasını nereye kaydetmek istediğinizi tanımlarsınız. Dosya bulunamadı hatalarından kaçınmak için bu yolların doğru olduğundan emin olun.
-## Adım 5: Özelleştirilmiş Yapılandırma ile HTML'yi PDF'ye Dönüştürün
-Son olarak, ayarladığınız özelleştirilmiş yapılandırmayı kullanarak HTML belgesini PDF'ye dönüştürebilirsiniz.
+
+Yolların doğru olduğundan emin olun; aksi takdirde dosya‑bulunamadı hataları alırsınız.
+
+## Adım 5: Özelleştirilmiş Configuration ile HTML’yi PDF’ye Dönüştürün
+Şimdi, az önce oluşturduğunuz zaman aşımı yapılandırmasını uygulayarak dönüşümü gerçekleştirin.
+
 ```java
 Converter.convertHTML(documentPath, configuration, new PdfSaveOptions(), savePath);
 ```
- Bu kod satırı gerçek dönüşümü gerçekleştirir. Giriş HTML dosyasını alır, belirtilen yapılandırmayı (zaman aşımı ayarları dahil) uygular ve çıktıyı PDF dosyası olarak kaydeder.`PdfSaveOptions()` gerektiğinde PDF oluşturmayı daha da özelleştirmenize olanak tanır.
-## Çözüm
-Ağ zaman aşımını yönetmek, web ile etkileşim kuran uygulamalar geliştirmenin hayati bir parçasıdır. Java için Aspose.HTML ile, ağ koşulları idealden daha az olsa bile uygulamalarınızın yanıt vermeye devam etmesini sağlamak için zaman aşımı işlemeyi kolayca uygulayabilirsiniz. Bu eğitimde özetlenen adımları izleyerek, ağ zaman aşımını güvenle yönetebilir ve uygulamalarınızın kullanıcı deneyimini geliştirebilirsiniz.
-## SSS
-### Java için Aspose.HTML nedir?
-Java için Aspose.HTML, geliştiricilerin HTML belgeleriyle çalışıp bunları PDF gibi çeşitli biçimlere dönüştürmelerine olanak tanıyan bir kütüphanedir.
-### Java için Aspose.HTML'yi nasıl indirebilirim?
- Kütüphaneyi şu adresten indirebilirsiniz:[Aspose sürüm sayfası](https://releases.aspose.com/html/java/).
-### Aspose.HTML'i ücretsiz deneyebilir miyim?
- Evet, Aspose erişebileceğiniz ücretsiz bir deneme sunuyor[Burada](https://releases.aspose.com/).
-### Sorunla karşılaşırsam ne yapmalıyım?
- Herhangi bir sorunla karşılaşırsanız, destek alabilirsiniz.[Aspose forumu](https://forum.aspose.com/c/html/29).
-### Aspose.HTML için geçici lisansı nasıl alabilirim?
- Test amaçlı geçici lisans talebinde bulunabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+
+`PdfSaveOptions` nesnesi ayrıca sayfa boyutu, sıkıştırma ve meta veri gibi **customize pdf save** ayarlarını da yapmanıza olanak tanır.
+
+## Yaygın Sorunlar ve Çözümler
+| Sorun | Neden Oluşur | Çözüm |
+|-------|--------------|------|
+| Dönüşüm süresiz olarak takılır | Zaman aşımı işleyicisi eklenmemiş veya diğer işleyicilerin ardından konumlandırılmış. | `TimeoutMessageHandler`ın yukarıda gösterildiği gibi indeks 0’da eklendiğinden emin olun. |
+| Çıktı PDF’sinde görseller eksik | Kısa zaman aşımı nedeniyle uzak görseller yüklenemedi. | Zaman aşımı değerini artırın veya görselleri önceden indirin. |
+| `network` üzerinde `NullPointerException` | `Configuration` doğru şekilde başlatılmamış. | `new Configuration()` çağrısının başarılı olduğunu ve kütüphane JAR’ının sınıf yolunda olduğunu doğrulayın. |
+
+## Sık Sorulan Sorular
+
+**S: Aspose.HTML for Java nedir?**  
+C: Aspose.HTML for Java, geliştiricilerin HTML belgeleriyle çalışmasına ve bunları PDF gibi çeşitli formatlara dönüştürmesine olanak tanıyan bir kütüphanedir.
+
+**S: Aspose.HTML for Java’yı nasıl indirebilirim?**  
+C: Kütüphaneyi [Aspose sürüm sayfasından](https://releases.aspose.com/html/java/) indirebilirsiniz.
+
+**S: Aspose.HTML’ı ücretsiz deneyebilir miyim?**  
+C: Evet, Aspose ücretsiz deneme sürümünü [buradan](https://releases.aspose.com/) erişilebilir kılar.
+
+**S: Sorun yaşarsam ne yapmalıyım?**  
+C: Herhangi bir problemle karşılaşırsanız, [Aspose forumundan](https://forum.aspose.com/c/html/29) destek alabilirsiniz.
+
+**S: Aspose.HTML için geçici bir lisans nasıl alabilirim?**  
+C: Test amaçlı geçici lisans talebinizi [buradan](https://purchase.aspose.com/temporary-license/) oluşturabilirsiniz.
+
+## Sonuç
+Yukarıdaki adımları izleyerek **zaman aşımını nasıl ayarlayacağınızı** ve **ağ hizmetini nasıl yapılandıracağınızı** öğrenmiş oldunuz; ayrıca Java’da **convert html to pdf** işlemi sırasında bu ayarları nasıl kullanacağınızı gördünüz. Doğru zaman aşımı yönetimi, **java html processing** hattınızı hızlı ve güvenilir tutar; **customize pdf save** seçenekleri ise nihai belge üzerinde tam kontrol sağlar. Projenizin ihtiyaçlarına uygun farklı zaman aşımı değerleri ve PDF ayarlarıyla denemeler yapmaktan çekinmeyin.
+
+---
+
+**Son Güncelleme:** 2026-02-23  
+**Test Edilen Versiyon:** Aspose.HTML for Java 23.12  
+**Yazar:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

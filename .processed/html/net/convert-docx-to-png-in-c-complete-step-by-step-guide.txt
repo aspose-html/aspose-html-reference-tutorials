@@ -1,0 +1,7 @@
+Title: Convert docx to png in C# – Complete Step‑by‑Step Guide
+Slug: convert-docx-to-png-in-c-complete-step-by-step-guide
+Category: generate-jpg-and-png-images
+ProcessedDate: 2026-05-25T18:58:05.857711
+SourceRepo: AI Search API
+Keywords: convert docx to png, convert word to image, export word as png, set custom font, export docx as png
+PRNumber: 160
