@@ -25,12 +25,6 @@ title: Aspose HTML में कस्टम रिसोर्स हैं�
 url: /hi/net/advanced-features/custom-resource-handler-in-aspose-html-save-to-stream-guide/
 ---
 
-etc.
-
-Also note the blockquote with > lines.
-
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

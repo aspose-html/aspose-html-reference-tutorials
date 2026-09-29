@@ -22,9 +22,7 @@ title: Aspose.HTML ile HTML'yi PDF'ye Dönüştürme – Adım Adım Rehber
 url: /tr/net/rendering-html-documents/render-html-to-pdf-with-aspose-html-step-by-step-guide/
 ---
 
-.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

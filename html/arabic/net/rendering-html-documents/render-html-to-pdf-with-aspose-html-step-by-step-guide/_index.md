@@ -22,14 +22,6 @@ title: تحويل HTML إلى PDF باستخدام Aspose.HTML – دليل خط
 url: /ar/net/rendering-html-documents/render-html-to-pdf-with-aspose-html-step-by-step-guide/
 ---
 
-Let's translate.
-
-We need to keep technical terms like "Aspose.HTML", "HTMLDocument", "PdfSaveOptions", "C#" etc.
-
-Also keep URLs unchanged.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

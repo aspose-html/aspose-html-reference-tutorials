@@ -27,11 +27,7 @@ title: Benutzerdefinierter Ressourcen‑Handler in Aspose HTML – Leitfaden z
 url: /de/net/advanced-features/custom-resource-handler-in-aspose-html-save-to-stream-guide/
 ---
 
-". Fine.
-
-Make sure to keep code block placeholders exactly as they are.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -22,24 +22,6 @@ title: Aspose.HTMLでHTMLをPDFにレンダリングする – ステップバ�
 url: /ja/net/rendering-html-documents/render-html-to-pdf-with-aspose-html-step-by-step-guide/
 ---
 
-dash? We'll translate naturally.
-
-Now the paragraph.
-
-We'll translate each sentence.
-
-Also note bold text **render HTML to PDF** etc. Keep bold markers.
-
-We need to keep code placeholders unchanged.
-
-Let's produce final content.
-
-Be careful with quotes inside blockquote.
-
-Also translate list items.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

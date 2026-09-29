@@ -23,18 +23,6 @@ title: معالج الموارد المخصص في Aspose HTML – دليل ح
 url: /ar/net/advanced-features/custom-resource-handler-in-aspose-html-save-to-stream-guide/
 ---
 
-.
-
-Now produce final content with Arabic translation.
-
-Make sure to keep markdown formatting exactly.
-
-Let's craft Arabic translations.
-
-Be careful with punctuation and line breaks.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

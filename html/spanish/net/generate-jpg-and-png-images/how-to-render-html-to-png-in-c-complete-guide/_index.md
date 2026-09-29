@@ -24,18 +24,6 @@ title: Cómo renderizar HTML a PNG en C# – Guía completa
 url: /es/net/generate-jpg-and-png-images/how-to-render-html-to-png-in-c-complete-guide/
 ---
 
-the alt text? It's part of content, so translate.
-
-Now produce final content.
-
-Let's write Spanish translation.
-
-Be careful to keep bold formatting **...**.
-
-Also keep code block placeholders.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -23,20 +23,6 @@ title: كيفية تحويل HTML إلى PNG في C# – دليل كامل
 url: /ar/net/generate-jpg-and-png-images/how-to-render-html-to-png-in-c-complete-guide/
 ---
 
-translated.
-
-Check bullet list in "What You'll Need" we translated.
-
-Check "Full Working Example" we translated.
-
-Check "Performance Tips" bullet list.
-
-Check "Conclusion" paragraphs.
-
-All good.
-
-Now produce final output with same markdown and placeholders.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

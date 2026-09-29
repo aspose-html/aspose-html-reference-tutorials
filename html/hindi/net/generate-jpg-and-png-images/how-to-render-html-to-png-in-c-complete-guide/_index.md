@@ -24,12 +24,6 @@ title: C# में HTML को PNG में रेंडर करने क�
 url: /hi/net/generate-jpg-and-png-images/how-to-render-html-to-png-in-c-complete-guide/
 ---
 
-HTML को रेंडर करने का उदाहरण आउटपुट". Also title attribute inside quotes should be translated: "HTML को रेंडर करने का उदाहरण आउटपुट". But need to keep same format.
-
-Now produce final content.
-
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

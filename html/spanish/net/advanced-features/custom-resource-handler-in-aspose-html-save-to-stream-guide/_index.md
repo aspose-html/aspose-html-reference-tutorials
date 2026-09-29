@@ -27,10 +27,6 @@ title: Controlador de recursos personalizado en Aspose HTML – Guía para gua
 url: /es/net/advanced-features/custom-resource-handler-in-aspose-html-save-to-stream-guide/
 ---
 
-code block placeholders unchanged.
-
-Now produce final content with translations.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

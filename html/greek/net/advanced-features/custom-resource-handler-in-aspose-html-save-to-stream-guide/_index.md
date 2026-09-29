@@ -27,17 +27,7 @@ title: Προσαρμοσμένος Διαχειριστής Πόρων στο A
 url: /el/net/advanced-features/custom-resource-handler-in-aspose-html-save-to-stream-guide/
 ---
 
-under "What You’ll Need" etc.
-
-Make sure to keep URLs unchanged. There are no URLs besides maybe none.
-
-There are markdown links? Not in this content.
-
-There are images? None.
-
-Thus translation straightforward.
-
-Let's produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

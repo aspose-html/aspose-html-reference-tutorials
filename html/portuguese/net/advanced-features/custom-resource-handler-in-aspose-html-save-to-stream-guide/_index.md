@@ -27,12 +27,6 @@ title: Manipulador de Recursos Personalizado no Aspose HTML – Guia de Salvam
 url: /pt/net/advanced-features/custom-resource-handler-in-aspose-html-save-to-stream-guide/
 ---
 
-.
-
-Make sure to keep markdown formatting, code placeholders unchanged.
-
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

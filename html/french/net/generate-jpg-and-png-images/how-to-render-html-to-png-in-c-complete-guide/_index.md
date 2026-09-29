@@ -24,14 +24,6 @@ title: Comment rendre du HTML en PNG en C# – Guide complet
 url: /fr/net/generate-jpg-and-png-images/how-to-render-html-to-png-in-c-complete-guide/
 ---
 
-.
-
-Maybe "Exemple de rendu html". Title same.
-
-After that close shortcodes.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

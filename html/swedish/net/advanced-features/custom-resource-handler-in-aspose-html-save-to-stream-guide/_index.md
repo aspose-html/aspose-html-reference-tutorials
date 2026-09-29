@@ -24,9 +24,7 @@ title: Anpassad resurs‑hanterare i Aspose HTML – Guide för att spara till
 url: /sv/net/advanced-features/custom-resource-handler-in-aspose-html-save-to-stream-guide/
 ---
 
-Dictionary<string, MemoryStream>` etc.
-
-Now produce final output with all content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

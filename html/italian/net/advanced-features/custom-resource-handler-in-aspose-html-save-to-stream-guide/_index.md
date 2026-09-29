@@ -27,11 +27,7 @@ title: Gestore di risorse personalizzato in Aspose HTML – Guida al salvatagg
 url: /it/net/advanced-features/custom-resource-handler-in-aspose-html-save-to-stream-guide/
 ---
 
-shortcodes and placeholders unchanged.
-
-Also note rule 5: "For Italian, ensure proper RTL formatting if needed" Not needed.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

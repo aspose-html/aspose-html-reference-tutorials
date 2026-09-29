@@ -24,12 +24,6 @@ title: C#'ta HTML'yi PNG'ye Nasıl Render'layabilirsiniz – Tam Rehber
 url: /tr/net/generate-jpg-and-png-images/how-to-render-html-to-png-in-c-complete-guide/
 ---
 
-me örnek çıktısı". But we must preserve the image link unchanged. So we can translate alt text and title.
-
-Let's translate.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
