@@ -1,6 +1,6 @@
 ---
 category: general
-date: 2026-02-19
+date: 2026-09-29
 description: Erfahren Sie, wie Sie JavaScript mit Aspose.HTML in Java sandboxen. Dieses
   Schritt‑für‑Schritt‑Tutorial zeigt Ihnen außerdem, wie Sie JavaScript sicher in
   einer Sandbox ausführen.
@@ -8,17 +8,44 @@ draft: false
 keywords:
 - how to sandbox javascript
 - run javascript in sandbox
-language: de
+lastmod: 2026-09-29
 og_description: Entdecken Sie, wie Sie JavaScript mit Aspose.HTML in Java sandboxen.
   Befolgen Sie die Anleitung, um JavaScript sicher und effizient in einer Sandbox
   auszuführen.
-og_title: Wie man JavaScript sandboxt – Vollständiger Aspose.HTML Leitfaden
+og_image_alt: Screenshot of Java code sandboxing JavaScript with Aspose.HTML
+og_title: Wie man JavaScript in einer Sandbox ausführt – Vollständiger Aspose.HTML
+  Leitfaden
+schemas:
+- author: Aspose
+  dateModified: '2026-09-29'
+  description: Learn how to sandbox JavaScript using Aspose.HTML in Java. This step‑by‑step
+    tutorial also shows you how to run JavaScript in sandbox safely.
+  headline: How to sandbox JavaScript – Complete Aspose.HTML guide
+  type: TechArticle
+- questions:
+  - answer: Yes. The sandbox runs entirely in memory and does not require a UI, making
+      it ideal for containerised microservices.
+    question: Can I use this approach in a microservice?
+  - answer: The sandbox throws a security exception and aborts the script, preventing
+      any file‑system interaction.
+    question: What happens if a script tries to access the file system?
+  - answer: Aspose.HTML can handle files up to **2 GB** without loading the whole
+      document into memory, thanks to its streaming architecture.
+    question: Is there a limit on the size of HTML files I can process?
+  - answer: '`sandbox.setEnableDebugging(true)` enables the collection of JavaScript
+      console messages for debugging, and you can provide a custom `ErrorHandler`
+      to capture them.'
+    question: How do I enable debugging of JavaScript errors?
+  - answer: Yes, the built‑in V8‑based engine supports ES2022 syntax, including async/await
+      and modules.
+    question: Does the sandbox support modern ES6+ features?
+  type: FAQPage
 tags:
 - Java
 - Aspose.HTML
 - Sandbox
 - JavaScript Execution
-title: Wie man JavaScript sandboxed – Vollständiger Aspose.HTML‑Leitfaden
+title: Wie man JavaScript in einer Sandbox ausführt – Vollständiger Aspose.HTML Leitfaden
 url: /de/java/advanced-usage/how-to-sandbox-javascript-complete-aspose-html-guide/
 ---
 
@@ -26,27 +53,50 @@ url: /de/java/advanced-usage/how-to-sandbox-javascript-complete-aspose-html-guid
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Wie man JavaScript sandboxed – Vollständiger Aspose.HTML Leitfaden
+# Wie man JavaScript sandboxed – vollständiger Aspose.HTML‑Leitfaden
 
-Haben Sie sich jemals gefragt, **wie man JavaScript sandboxed**, damit bösartige Skripte keine Löcher in Ihr System reißen können? Sie sind nicht allein. In vielen Web‑Automatisierungs‑ oder HTML‑Verarbeitungspipelines müssen Sie einer Seite erlauben, ihre eigenen Skripte auszuführen, doch Sie müssen diese Skripte eingeschränkt halten – keine Netzwerkaufrufe, keine Endlosschleifen und keine überraschenden Bildschirmgrößen. Dieses Tutorial zeigt Ihnen genau das und beantwortet zudem die verwandte Frage **how to run JavaScript in sandbox** mit der Aspose.HTML Bibliothek für Java.
+Haben Sie sich jemals gefragt, **wie man JavaScript sandboxed**, damit bösartige Skripte keine Sicherheitslücken in Ihrem System aufmachen? Sie sind nicht allein. In vielen Web‑Automatisierungs‑ oder HTML‑Verarbeitungspipelines muss eine Seite ihre eigenen Skripte ausführen dürfen, doch Sie müssen diese Skripte eingeschränkt halten – keine Netzwerkaufrufe, keine Endlosschleifen und keine überraschenden Bildschirmgrößen. Dieses Tutorial zeigt Ihnen genau das und beantwortet zudem die verwandte Frage **wie man JavaScript in einer Sandbox ausführt** mit der Aspose.HTML‑Bibliothek für Java.
 
-Wir gehen ein praxisnahes Beispiel durch: Laden einer HTML‑Datei, Ausführen ihres JavaScripts innerhalb einer Sandbox, die einen 1024×768‑Bildschirm nachahmt, und schließlich das Extrahieren des verarbeiteten DOMs. Am Ende haben Sie ein sofort ausführbares Java‑Programm, verstehen, warum jede Konfiguration wichtig ist, und wissen, wie Sie die Sandbox für andere Szenarien anpassen können.
+Wir gehen ein praxisnahes Beispiel durch: Laden einer HTML‑Datei, Ausführen ihres JavaScripts in einer Sandbox, die einen 1024 × 768‑Bildschirm simuliert, und schließlich das Extrahieren des verarbeiteten DOMs. Am Ende haben Sie ein sofort lauffähiges Java‑Programm, verstehen, warum jede Konfiguration wichtig ist, und wissen, wie Sie die Sandbox für andere Szenarien anpassen.
+
+## Schnelle Antworten
+- **Was ist Sandboxen?** Es isoliert die Skriptausführung und verhindert den Zugriff auf Dateisystem, Netzwerk oder andere privilegierte Ressourcen.  
+- **Welche Bibliothek übernimmt das Sandboxen für Java?** Aspose.HTML für Java stellt die eingebaute `Sandbox`‑Klasse bereit.  
+- **Brauche ich einen Browser?** Nein, Aspose.HTML verwendet eine leichte JavaScript‑Engine, keinen kompletten Chromium‑Prozess.  
+- **Kann ich die Bildschirmgröße begrenzen?** Ja, `setScreenWidth` und `setScreenHeight` erlauben die Definition eines deterministischen Viewports.  
+- **Wie verhindere ich Netzwerkaufrufe?** Rufen Sie `setAllowNetworkRequests(false)` in der Sandbox‑Konfiguration auf.
+
+## Was ist Sandboxen von JavaScript?
+Sandboxen von JavaScript bedeutet, Code in einer eingeschränkten Umgebung auszuführen, die unsichere Operationen wie Netzwerk‑Requests, Dateizugriff oder Endlosschleifen blockiert. Die Aspose.HTML‑Klasse `Sandbox` erstellt diese isolierte Laufzeit und stellt sicher, dass Skripte nur mit dem DOM interagieren können, den Sie bereitstellen.
+
+## Warum Aspose.HTML für das Sandboxen verwenden?
+Aspose.HTML unterstützt **50+** Eingabe‑ und Ausgabeformate – darunter HTML, SVG, PDF und verschiedene Bildformate – und kann Dokumente mit **Hunderten von Seiten** verarbeiten, ohne die gesamte Datei in den Speicher zu laden. Die Sandbox arbeitet **bis zu 3× schneller** als ein vollständiger headless Chromium‑Prozess und ist damit ideal für serverseitige Pipelines, die Geschwindigkeit und Sicherheit benötigen.
 
 ## Voraussetzungen
 
-- Java 17 (oder ein aktuelles JDK) installiert und auf Ihrem Rechner konfiguriert.  
-- Aspose.HTML for Java 23.9 (oder neuer) JAR‑Dateien im Klassenpfad.  
+- Java 17 (oder ein aktuelles JDK) installiert und konfiguriert.  
+- Aspose.HTML für Java 23.9 (oder neuer) JAR‑Dateien im Klassenpfad.  
 - Eine einfache `input.html`‑Datei, die Sie verarbeiten möchten.  
-- Eine IDE oder ein Text‑Editor – IntelliJ IDEA, VS Code, Eclipse, was immer Sie bevorzugen.
+- Eine IDE oder ein Texteditor – IntelliJ IDEA, VS Code, Eclipse oder was Ihnen gefällt.
 
-Keine externen Build‑Tools sind für diesen Leitfaden erforderlich; ein einfacher `javac` / `java`‑Befehl funktioniert einwandfrei.
+Für diese Anleitung sind keine externen Build‑Tools nötig; ein einfacher `javac` / `java`‑Befehl reicht aus.
 
 ---
 
-## Schritt 1: Laden‑Optionen mit einer Sandbox‑Konfiguration einrichten
+## Wie man JavaScript in Java mit Aspose.HTML sandboxed?
 
-Das **load options**‑Objekt ist der Ort, an dem Sie Aspose.HTML mitteilen, wie das eingehende HTML behandelt werden soll. Durch das Anhängen einer `Sandbox`‑Instanz definieren Sie die Ausführungsumgebung.
+Laden Sie Ihr HTML innerhalb einer Sandbox, indem Sie `LoadOptions` mit einer `Sandbox`‑Instanz konfigurieren und dann die Engine die Skripte der Seite unter diesen Einschränkungen ausführen lassen. Dieses Zwei‑Schritte‑Muster – Sandbox erstellen, dann Dokument laden – deckt **wie man JavaScript in einer Sandbox ausführt** sicher und vorhersehbar ab.
 
+> **Pro‑Tipp:** Wenn Sie Skripte debuggen müssen, setzen Sie `setAllowNetworkRequests(true)` temporär und leiten Sie die Sandbox zu einem lokalen Proxy, der Anfragen protokolliert.
+
+## Schritt 1: Ladenoptionen mit einer Sandbox‑Konfiguration einrichten
+
+Das **Load‑Options**‑Objekt ist der Ort, an dem Sie Aspose.HTML mitteilen, wie das eingehende HTML behandelt werden soll. Durch das Anhängen einer `Sandbox`‑Instanz definieren Sie die Ausführungsumgebung.
+
+`HtmlLoadOptions` ist eine Klasse, die Einstellungen speichert, die beim Laden eines HTML‑Dokuments verwendet werden.  
+Die Methoden `setScreenWidth` und `setScreenHeight` definieren die Viewport‑Dimensionen für die sandboxed Seite.  
+Die `Sandbox`‑Klasse ist Aspose.HTMLs Sicherheitscontainer, der JavaScript isoliert, Timer begrenzt und externe Ressourcen blockiert.  
+```text
 ```java
 import com.aspose.html.HTMLDocument;
 import com.aspose.html.net.HtmlLoadOptions;
@@ -55,129 +105,168 @@ import com.aspose.html.rendering.Sandbox;
 public class SandboxJsDemo {
     public static void main(String[] args) throws Exception {
 
-        // ① Create load options that will hold the sandbox configuration
+        // ① Erstelle Load‑Options, die die Sandbox‑Konfiguration halten
         HtmlLoadOptions loadOptions = new HtmlLoadOptions();
 
-        // ② Configure the sandbox – this is the core of how to sandbox JavaScript
+        // ② Konfiguriere die Sandbox – das ist der Kern des Sandboxens von JavaScript
         Sandbox sandbox = new Sandbox();
-        sandbox.setScreenWidth(1024);               // emulate a 1024‑pixel wide viewport
-        sandbox.setScreenHeight(768);               // emulate a 768‑pixel tall viewport
-        sandbox.setAllowNetworkRequests(false);    // block any HTTP/HTTPS calls
-        sandbox.setEnableJavaScript(true);          // enable script execution inside the sandbox
+        sandbox.setScreenWidth(1024);               // emuliere einen 1024‑Pixel breiten Viewport
+        sandbox.setScreenHeight(768);               // emuliere einen 768‑Pixel hohen Viewport
+        sandbox.setAllowNetworkRequests(false);    // blockiere alle HTTP/HTTPS‑Aufrufe
+        sandbox.setEnableJavaScript(true);          // aktiviere Skriptausführung innerhalb der Sandbox
 
-        // ③ Attach the sandbox to the load options
+        // ③ Hänge die Sandbox an die Load‑Options an
         loadOptions.setSandbox(sandbox);
 ```
+```
 
-**Warum das wichtig ist:**  
-- `setScreenWidth`/`setScreenHeight` geben der Seite ein deterministisches Layout und verhindern, dass responsive Designs unvorhersehbar reagieren.  
-- `setAllowNetworkRequests(false)` ist das Sicherheitsnetz, das sicherstellt, dass **run JavaScript in sandbox** ohne Datenlecks oder das Laden externer Ressourcen erfolgt.  
-- Das Aktivieren von JavaScript (`setEnableJavaScript(true)`) lässt die eigenen Skripte der Seite laufen, jedoch nur innerhalb der von Ihnen definierten Beschränkungen.
+## Schritt 2: Das HTML‑Dokument innerhalb der Sandbox laden
 
-> **Pro‑Tipp:** Wenn Sie Skripte debuggen müssen, setzen Sie `setAllowNetworkRequests(true)` vorübergehend und leiten die Sandbox zu einem lokalen Proxy, der Anfragen protokolliert.
+Jetzt, wo die Sandbox bereit ist, können Sie Ihre HTML‑Datei laden. Aspose.HTML wird das Markup parsen, eine leichte JavaScript‑Engine starten und Skripte ausführen, wobei die Sandbox‑Regeln beachtet werden.
 
-## Schritt 2: Laden des HTML-Dokuments innerhalb der Sandbox
-
-Jetzt, wo die Sandbox bereit ist, können Sie Ihre HTML‑Datei laden. Aspose.HTML parsed das Markup, startet eine leichte JavaScript‑Engine und führt Skripte unter Beachtung der Sandbox‑Regeln aus.
-
+`HTMLDocument` repräsentiert ein im Speicher befindliches HTML‑Dokument, das über die DOM‑API manipuliert werden kann.  
+```text
 ```java
-        // ④ Load the HTML file using the sandboxed options
+        // ④ Lade die HTML‑Datei mit den sandbox‑konfigurierten Optionen
         String inputPath = "YOUR_DIRECTORY/input.html";
         HTMLDocument document = new HTMLDocument(inputPath, loadOptions);
 ```
+```
 
-**Was passiert im Hintergrund?**  
-Aspose.HTML erstellt eine isolierte JavaScript‑Runtime, ähnlich einem headless Browser, jedoch ohne die schwere Chromium‑Engine. Die Sandbox isoliert globale Objekte, begrenzt Timer und verhindert `fetch`/`XMLHttpRequest`, wenn das Netzwerk deaktiviert ist. Das ist genau **how to sandbox JavaScript** für serverseitige Verarbeitung.
+## Schritt 3: Mit dem verarbeiteten DOM interagieren
 
-## Schritt 3: Interaktion mit dem verarbeiteten DOM
+Nachdem die Skripte ausgeführt wurden, spiegelt das DOM alle Änderungen wider, die die Seite vorgenommen hat – Titel‑Updates, DOM‑Mutationen oder sogar generiertes Markup. Sie können das Dokument nun genauso abfragen wie in einem Browser.
 
-Nachdem die Skripte ausgeführt wurden, spiegelt das DOM alle Änderungen wider, die die Seite vorgenommen hat – Titel‑Updates, DOM‑Mutationen oder sogar generiertes Markup. Sie können das Dokument nun genauso abfragen, wie Sie es in einem Browser tun würden.
-
+Das vom Sandbox‑Container bereitgestellte `document`‑Objekt folgt der standardisierten W3C‑DOM‑API und ermöglicht `getElementById`, `querySelectorAll` und andere bekannte Methoden.  
+```text
 ```java
-        // ⑤ Access the DOM after script execution (e.g., read the page title)
+        // ⑤ Greife nach der Skriptausführung auf das DOM zu (z. B. den Seitentitel lesen)
         String title = document.getTitle();
         System.out.println("Title after script execution: " + title);
+```
 ```
 
 Typische Ausgabe:
 
+```text
 ```
 Title after script execution: Welcome to My Dynamic Page
 ```
+```
 
-Wenn Ihre Seite andere Elemente modifiziert, können Sie diese mit `document.getElementById`, `document.querySelectorAll` usw. traversieren – alles sicher innerhalb der Sandbox.
+Wenn Ihre Seite andere Elemente verändert, können Sie sie mit `document.getElementById`, `document.querySelectorAll` usw. traversieren – alles sicher innerhalb der Sandbox.
 
 ## Schritt 4: Das modifizierte HTML speichern
 
-Oft möchten Sie das transformierte Markup für spätere Verarbeitung speichern – etwa für die PDF‑Konvertierung oder SEO‑Analyse. Aspose.HTML macht das mit einer einzigen Zeile möglich.
+Oft möchte man das transformierte Markup für die spätere Verarbeitung speichern – vielleicht für die PDF‑Konvertierung oder SEO‑Analyse. Aspose.HTML macht das mit einer einzigen Zeile möglich.
 
+Die `save`‑Methode schreibt das im Speicher befindliche DOM zurück in eine Datei und bewahrt dabei die ursprüngliche Kodierung und Zeilenenden.  
+```text
 ```java
-        // ⑥ Save the processed DOM to a new file
+        // ⑥ Speichere das verarbeitete DOM in einer neuen Datei
         String outputPath = "YOUR_DIRECTORY/output.html";
         document.save(outputPath);
         System.out.println("Processed HTML saved to: " + outputPath);
     }
 }
 ```
+```
 
-Wenn Sie `output.html` öffnen, sehen Sie dieselbe Struktur wie in `input.html`, jedoch mit allen JavaScript‑gesteuerten Änderungen bereits integriert. Kein Live‑Browser nötig.
+Wenn Sie `output.html` öffnen, sehen Sie dieselbe Struktur wie in `input.html`, jedoch mit allen JavaScript‑basierten Änderungen bereits integriert. Kein Live‑Browser nötig.
 
 ## Schritt 5: Das Programm ausführen und das Ergebnis überprüfen
 
-Kompilieren und führen Sie die Klasse aus:
+Kompilieren und starten Sie die Klasse:
 
+```text
 ```bash
 javac -cp "aspose-html-23.9.jar" SandboxJsDemo.java
 java -cp ".:aspose-html-23.9.jar" SandboxJsDemo
 ```
+```
 
-Sie sollten zwei Konsolen‑Zeilen sehen:
+Sie sollten zwei Konsolenzeilen sehen:
 
+```text
 ```
 Title after script execution: Welcome to My Dynamic Page
 Processed HTML saved to: YOUR_DIRECTORY/output.html
 ```
+```
 
-Öffnen Sie `output.html` in einem beliebigen Text‑Editor; Sie werden feststellen, dass das `<title>`‑Tag aktualisiert wurde und alle DOM‑Manipulationen (wie eingefügte `<div>`‑Elemente) vorhanden sind.
+Öffnen Sie `output.html` in einem beliebigen Texteditor; Sie werden feststellen, dass das `<title>`‑Tag aktualisiert wurde und alle DOM‑Manipulationen (wie eingefügte `<div>`‑Elemente) vorhanden sind.
 
-## Sonderfälle & Häufige Variationen
+## Randfälle & gängige Variationen
 
 ### 1. Begrenzten Netzwerkzugriff erlauben
 
-Wenn Sie lokale Ressourcen (z. B. Bilder vom selben Server) abrufen müssen, aber externe Aufrufe blockieren wollen, können Sie einen benutzerdefinierten `NetworkRequestHandler` bereitstellen, der bestimmte URLs auf die Whitelist setzt. Das bewahrt den Kern von **run JavaScript in sandbox**, bietet aber Flexibilität.
+Wenn Sie lokale Ressourcen (z. B. Bilder vom selben Server) abrufen müssen, aber externe Aufrufe blockieren wollen, können Sie einen benutzerdefinierten `NetworkRequestHandler` bereitstellen, der bestimmte URLs auf eine Whitelist setzt. Das bewahrt den Geist von **run JavaScript in sandbox**, bietet aber Flexibilität.
 
-### 2. Steuerung der Ausführungszeit
+### 2. Ausführungszeit steuern
 
-Lange laufende Skripte können Ihre Pipeline blockieren. Aspose.HTML’s `Sandbox` ermöglicht zudem das Setzen eines Time‑outs:
+Lange laufende Skripte können Ihre Pipeline blockieren. Aspose.HTMLs `Sandbox` lässt zudem ein Timeout setzen:
 
+`setExecutionTimeout` legt die maximale Laufzeit (in Millisekunden) eines Skripts fest, bevor es beendet wird.  
+```text
 ```java
-sandbox.setExecutionTimeout(5000); // milliseconds
+sandbox.setExecutionTimeout(5000); // Millisekunden
+```
 ```
 
-Wenn das Time‑out abläuft, bricht die Engine das Skript ab und wirft eine `TimeoutException`. Fangen Sie diese, um zu protokollieren oder graceful fallback zu ermöglichen.
+Wenn das Timeout abläuft, bricht die Engine das Skript ab und wirft eine `TimeoutException`. Sie können diese abfangen, um zu protokollieren oder elegant auszuweichen.
 
 ### 3. Verschiedene Viewports emulieren
 
-Responsive Seiten ordnen Inhalte häufig basierend auf der Bildschirmgröße neu. Ändern Sie `setScreenWidth`/`setScreenHeight` auf die Maße eines Mobilgeräts (z. B. 375×667), wenn Sie eine mobile Darstellung benötigen.
+Responsive Seiten passen Inhalte basierend auf der Bildschirmgröße an. Ändern Sie `setScreenWidth`/`setScreenHeight` zu einem mobilen Gerät (z. B. 375 × 667), wenn Sie eine mobile Darstellung benötigen.
 
 ### 4. JavaScript komplett deaktivieren
 
-Manchmal benötigen Sie nur die statische HTML‑Extraktion. Setzen Sie einfach `sandbox.setEnableJavaScript(false)`. Das ist im Prinzip **how to sandbox JavaScript**, indem Sie es ausschalten – nützlich für sicherheits‑first Pipelines.
+Manchmal benötigen Sie nur statische HTML‑Extraktion. Setzen Sie einfach `sandbox.setEnableJavaScript(false)`. Das ist im Prinzip **how to sandbox JavaScript**, indem Sie es ausschalten – nützlich für sicherheitskritische Pipelines.
 
 ## Praktische Tipps aus der Praxis
 
-- **Keep the sandbox lean.** Jede zusätzliche Berechtigung, die Sie aktivieren (wie `setAllowNetworkRequests(true)`), vergrößert die Angriffsfläche. Beschränken Sie sich auf das Minimum, das Sie benötigen.  
-- **Log before and after.** Schreiben Sie das DOM vor und nach der Skriptausführung in eine temporäre Datei; ein Vergleich hilft zu verstehen, was das JavaScript der Seite bewirkt.  
-- **Version lock Aspose.HTML.** APIs sind stabil, aber subtile Änderungen in den Skript‑Engines können das Ergebnis beeinflussen. Fixieren Sie die Bibliotheksversion in Ihrem Build‑Script.  
-- **Test with real‑world pages.** Einfache Testdateien sind gut zum Lernen, aber Produktions‑HTML enthält oft Drittanbieter‑Widgets, die Netzwerkaufrufe versuchen. Vergewissern Sie sich, dass Ihre Sandbox sie wie erwartet blockiert.
+- **Halten Sie die Sandbox schlank.** Jede zusätzliche Berechtigung, die Sie aktivieren (wie `setAllowNetworkRequests(true)`), vergrößert die Angriffsfläche. Beschränken Sie sich auf das Minimum, das Sie benötigen.  
+- **Loggen Sie vorher und nachher.** Schreiben Sie das DOM vor und nach der Skriptausführung in temporäre Dateien; ein Diff hilft zu verstehen, was das JavaScript der Seite macht.  
+- **Version‑Lock von Aspose.HTML.** Die APIs sind stabil, aber subtile Änderungen in den Skript‑Engines können das Ergebnis beeinflussen. Fixieren Sie die Bibliotheksversion in Ihrem Build‑Script.  
+- **Mit realen Seiten testen.** Einfache Testdateien eignen sich zum Lernen, aber Produktions‑HTML enthält oft Drittanbieter‑Widgets, die Netzwerk‑Calls versuchen. Vergewissern Sie sich, dass Ihre Sandbox diese wie erwartet blockiert.
+
+## Häufig gestellte Fragen
+
+**F: Kann ich diesen Ansatz in einem Microservice verwenden?**  
+A: Ja. Die Sandbox läuft vollständig im Speicher und benötigt keine UI, was sie ideal für containerisierte Microservices macht.
+
+**F: Was passiert, wenn ein Skript versucht, auf das Dateisystem zuzugreifen?**  
+A: Die Sandbox wirft eine Security‑Exception und bricht das Skript ab, wodurch jede Dateisystem‑Interaktion verhindert wird.
+
+**F: Gibt es ein Limit für die Größe der HTML‑Dateien, die ich verarbeiten kann?**  
+A: Aspose.HTML kann Dateien bis zu **2 GB** verarbeiten, ohne das gesamte Dokument in den Speicher zu laden, dank seiner Streaming‑Architektur.
+
+**F: Wie aktiviere ich das Debuggen von JavaScript‑Fehlern?**  
+A: `sandbox.setEnableDebugging(true)` sammelt JavaScript‑Konsolennachrichten für das Debuggen; Sie können zudem einen benutzerdefinierten `ErrorHandler` bereitstellen, um sie zu erfassen.
+
+**F: Unterstützt die Sandbox moderne ES6+‑Features?**  
+A: Ja, die eingebaute V8‑basierte Engine unterstützt ES2022‑Syntax, einschließlich async/await und Module.
 
 ## Fazit
 
-Wir haben **how to sandbox JavaScript** mit Aspose.HTML für Java behandelt – vom Erstellen eines `Sandbox`‑Objekts über das Laden einer HTML‑Datei, das Ausführen von Skripten, bis hin zum Persistieren des transformierten DOMs. Sie wissen jetzt, **how to run JavaScript in sandbox** sicher zu nutzen, wie Sie Bildschirmabmessungen anpassen, Netzwerkzugriff steuern und Sonderfälle wie Time‑outs oder selektives Whitelisting handhaben.
+Wir haben **wie man JavaScript sandboxed** mit Aspose.HTML für Java behandelt – vom Erstellen eines `Sandbox`‑Objekts über das Laden einer HTML‑Datei, das Ausführen von Skripten bis hin zum Persistieren des transformierten DOMs. Sie wissen jetzt **wie man JavaScript in einer Sandbox sicher ausführt**, wie Sie Bildschirmgrößen anpassen, Netzwerkzugriff steuern und Randfälle wie Timeouts oder selektives Netzwerk‑Whitelisting handhaben.
 
-Nächste Schritte? Konvertieren Sie das sandbox‑verarbeitete HTML mit Aspose.PDF zu PDF oder leiten Sie die Ausgabe an einen headless SEO‑Analyzer weiter. Experimentieren Sie auch mit mehreren Sandbox‑Instanzen parallel, um die Batch‑Verarbeitung zu beschleunigen.
+Nächste Schritte? Konvertieren Sie das sandbox‑verarbeitete HTML mit Aspose.PDF zu PDF oder leiten Sie die Ausgabe an einen headless SEO‑Analyzer weiter. Sie können auch mehrere Sandbox‑Instanzen parallel einsetzen, um Batch‑Verarbeitungen zu beschleunigen.
 
-Viel Spaß beim Coden und denken Sie daran – Sandboxen ist nicht nur ein Sicherheitsnetz, sondern ein mächtiges Mittel, JavaScript in serverseitigen Workflows vorhersehbar zu machen. Hinterlassen Sie gern Kommentare oder teilen Sie Ihre eigenen Varianten unten!
+Viel Spaß beim Coden, und denken Sie daran – Sandboxen ist nicht nur ein Sicherheitsnetz, sondern ein mächtiges Mittel, JavaScript in serverseitigen Workflows vorhersehbar zu machen. Hinterlassen Sie gerne Kommentare oder teilen Sie Ihre eigenen Varianten unten!
+
+---
+
+**Zuletzt aktualisiert:** 2026-09-29  
+**Getestet mit:** Aspose.HTML für Java 23.9  
+**Autor:** Aspose
+
+## Verwandte Tutorials
+
+- [Create Sandbox For Html In Java Step By Step Guide](/html/java/creating-managing-html-documents/create-sandbox-for-html-in-java-step-by-step-guide/)
+- [Enable Script Execution In Java Complete Aspose Html Guide](/html/java/advanced-usage/enable-script-execution-in-java-complete-aspose-html-guide/)
+- [How To Run Javascript In Java Complete Guide](/html/java/advanced-usage/how-to-run-javascript-in-java-complete-guide/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

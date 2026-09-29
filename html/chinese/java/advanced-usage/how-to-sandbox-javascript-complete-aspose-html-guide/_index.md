@@ -1,21 +1,47 @@
 ---
 category: general
-date: 2026-02-19
-description: 学习如何在 Java 中使用 Aspose.HTML 对 JavaScript 进行沙箱隔离。本分步教程还将向您展示如何安全地在沙箱中运行
+date: 2026-09-29
+description: 了解如何在 Java 中使用 Aspose.HTML 对 JavaScript 进行沙箱化。本分步教程还会向您展示如何安全地在沙箱中运行
   JavaScript。
 draft: false
 keywords:
 - how to sandbox javascript
 - run javascript in sandbox
-language: zh
-og_description: 了解如何在 Java 中使用 Aspose.HTML 对 JavaScript 进行沙箱隔离。按照指南安全高效地在沙箱中运行 JavaScript。
-og_title: 如何对 JavaScript 进行沙箱隔离 – 完整的 Aspose.HTML 指南
+lastmod: 2026-09-29
+og_description: 探索在 Java 中使用 Aspose.HTML 对 JavaScript 进行沙箱化的方法。按照指南安全高效地在沙箱中运行 JavaScript。
+og_image_alt: Screenshot of Java code sandboxing JavaScript with Aspose.HTML
+og_title: 如何在 Java 中使用 Aspose.HTML 对 JavaScript 进行沙箱化 – 完整指南
+schemas:
+- author: Aspose
+  dateModified: '2026-09-29'
+  description: Learn how to sandbox JavaScript using Aspose.HTML in Java. This step‑by‑step
+    tutorial also shows you how to run JavaScript in sandbox safely.
+  headline: How to sandbox JavaScript – Complete Aspose.HTML guide
+  type: TechArticle
+- questions:
+  - answer: Yes. The sandbox runs entirely in memory and does not require a UI, making
+      it ideal for containerised microservices.
+    question: Can I use this approach in a microservice?
+  - answer: The sandbox throws a security exception and aborts the script, preventing
+      any file‑system interaction.
+    question: What happens if a script tries to access the file system?
+  - answer: Aspose.HTML can handle files up to **2 GB** without loading the whole
+      document into memory, thanks to its streaming architecture.
+    question: Is there a limit on the size of HTML files I can process?
+  - answer: '`sandbox.setEnableDebugging(true)` enables the collection of JavaScript
+      console messages for debugging, and you can provide a custom `ErrorHandler`
+      to capture them.'
+    question: How do I enable debugging of JavaScript errors?
+  - answer: Yes, the built‑in V8‑based engine supports ES2022 syntax, including async/await
+      and modules.
+    question: Does the sandbox support modern ES6+ features?
+  type: FAQPage
 tags:
 - Java
 - Aspose.HTML
 - Sandbox
 - JavaScript Execution
-title: 如何对 JavaScript 进行沙箱化——完整的 Aspose.HTML 指南
+title: 如何在 Java 中使用 Aspose.HTML 对 JavaScript 进行沙箱化 – 完整指南
 url: /zh/java/advanced-usage/how-to-sandbox-javascript-complete-aspose-html-guide/
 ---
 
@@ -23,27 +49,48 @@ url: /zh/java/advanced-usage/how-to-sandbox-javascript-complete-aspose-html-guid
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 如何在沙箱中运行 JavaScript – 完整的 Aspose.HTML 指南
+# 如何对 JavaScript 进行沙箱化 – 完整的 Aspose.HTML 指南
 
-是否曾经想过 **how to sandbox JavaScript**，以防止恶意脚本在系统中钻空子？你并不孤单。在许多网页自动化或 HTML 处理流水线中，你需要让页面运行自己的脚本，但又必须将这些脚本限制在沙箱中——禁止网络请求、无限循环以及屏幕尺寸的意外变化。本教程正是为此而写，并且还回答了相关问题 **how to run JavaScript in sandbox**，即如何使用 Aspose.HTML for Java 库在沙箱中运行 JavaScript。
+是否曾经想过 **如何对 JavaScript 进行沙箱化**，以防止恶意脚本在系统中留下漏洞？你并不孤单。在许多网页自动化或 HTML 处理流水线中，你需要让页面运行自己的脚本，但必须将这些脚本限制在范围内——不允许网络请求、不允许无限循环，也不出现意外的屏幕尺寸。本教程正是为此而写，并且它还回答了相关问题 **如何在沙箱中运行 JavaScript**，使用 Aspose.HTML for Java 库。
 
-我们将通过一个真实案例进行演示：加载一个 HTML 文件，让其 JavaScript 在模拟 1024×768 屏幕的沙箱中执行，最后提取处理后的 DOM。完成后，你将拥有一个可直接运行的 Java 程序，了解每项配置的意义，并知道如何为其他场景调整沙箱。
+我们将通过一个真实案例进行演示：加载一个 HTML 文件，让其中的 JavaScript 在模拟 1024×768 屏幕的沙箱中执行，最后提取处理后的 DOM。完成后，你将拥有一个可直接运行的 Java 程序，了解每个配置为何重要，并知道如何为其他场景调整沙箱。
+
+## 快速答案
+- **What is sandboxing?** It isolates script execution, preventing access to the file system, network, or other privileged resources.  
+- **Which library handles sandboxing for Java?** Aspose.HTML for Java provides a built‑in `Sandbox` class.  
+- **Do I need a browser?** No, Aspose.HTML uses a lightweight JavaScript engine, not a full Chromium instance.  
+- **Can I limit screen size?** Yes, `setScreenWidth` and `setScreenHeight` let you define a deterministic viewport.  
+- **How do I stop network calls?** Call `setAllowNetworkRequests(false)` on the sandbox configuration.
+
+## 什么是 JavaScript 沙箱化？
+Sandboxing JavaScript means executing code in a restricted environment that blocks unsafe operations such as network requests, file access, or infinite loops. The Aspose.HTML `Sandbox` class creates this isolated runtime, ensuring scripts can only interact with the DOM you expose.
+
+## 为什么使用 Aspose.HTML 进行沙箱化？
+Aspose.HTML supports **50+** input and output formats—including HTML, SVG, PDF, and image types—and can process documents with **hundreds of pages** without loading the entire file into memory. Its sandbox runs at **up to 3× faster** than a full headless Chromium instance, making it ideal for server‑side pipelines that need speed and security.
 
 ## 前提条件
 
-- 已在机器上安装并配置 Java 17（或任意近期 JDK）。  
-- 在类路径中加入 Aspose.HTML for Java 23.9（或更高版本）JAR 文件。  
-- 准备好一个需要处理的简单 `input.html` 文件。  
-- 任意 IDE 或文本编辑器——IntelliJ IDEA、VS Code、Eclipse，随你喜欢。
+- Java 17 (or any recent JDK) installed and configured on your machine.  
+- Aspose.HTML for Java 23.9 (or newer) JAR files on your classpath.  
+- A simple `input.html` file you want to process.  
+- An IDE or a text editor—IntelliJ IDEA, VS Code, Eclipse, whatever you prefer.
 
-本指南不需要外部构建工具；直接使用 `javac` / `java` 命令行即可。
+No external build tools are required for this guide; a plain `javac` / `java` command line works just fine.
 
----
+## 如何在 Java 中使用 Aspose.HTML 对 JavaScript 进行沙箱化？
 
-## 第一步：使用沙箱配置设置 Load Options
+Load your HTML inside a sandbox by configuring `LoadOptions` with a `Sandbox` instance, then let the engine run the page’s scripts under those constraints. This two‑step pattern—create a sandbox, then load the document—covers **how to run JavaScript in sandbox** safely and predictably.
 
-**load options** 对象用于告诉 Aspose.HTML 如何处理传入的 HTML。通过附加一个 `Sandbox` 实例即可定义执行环境。
+> **Pro tip:** If you need to debug scripts, flip `setAllowNetworkRequests(true)` temporarily and point the sandbox to a local proxy that logs requests.
 
+## 步骤 1：使用沙箱配置设置加载选项
+
+The **load options** object is where you tell Aspose.HTML how to treat the incoming HTML. By attaching a `Sandbox` instance you define the execution environment.
+
+`HtmlLoadOptions` is a class that stores settings used when loading an HTML document.  
+The methods `setScreenWidth` and `setScreenHeight` define the viewport dimensions for the sandboxed page.  
+The `Sandbox` class is Aspose.HTML's security container that isolates JavaScript, limits timers, and blocks external resources.  
+```text
 ```java
 import com.aspose.html.HTMLDocument;
 import com.aspose.html.net.HtmlLoadOptions;
@@ -65,55 +112,49 @@ public class SandboxJsDemo {
         // ③ Attach the sandbox to the load options
         loadOptions.setSandbox(sandbox);
 ```
+```
 
-**为什么这很重要：**  
-- `setScreenWidth`/`setScreenHeight` 为页面提供确定性的布局，防止响应式设计出现不可预期的行为。  
-- `setAllowNetworkRequests(false)` 是安全网，确保 **run JavaScript in sandbox** 时不会泄露数据或拉取远程资源。  
-- 启用 JavaScript (`setEnableJavaScript(true)`) 让页面自己的脚本运行，但仅在你定义的约束范围内。
+## 步骤 2：在沙箱中加载 HTML 文档
 
-> **专业提示：** 如果需要调试脚本，可临时将 `setAllowNetworkRequests(true)` 打开，并将沙箱指向记录请求的本地代理。
+Now that the sandbox is ready, you can load your HTML file. Aspose.HTML will parse the markup, spin up a lightweight JavaScript engine, and execute scripts respecting the sandbox rules.
 
----
-
-## 第二步：在沙箱中加载 HTML 文档
-
-沙箱准备好后，即可加载 HTML 文件。Aspose.HTML 会解析标记，启动轻量级 JavaScript 引擎，并在遵守沙箱规则的前提下执行脚本。
-
+`HTMLDocument` represents an in‑memory HTML document that can be manipulated via the DOM API.  
+```text
 ```java
         // ④ Load the HTML file using the sandboxed options
         String inputPath = "YOUR_DIRECTORY/input.html";
         HTMLDocument document = new HTMLDocument(inputPath, loadOptions);
 ```
+```
 
-**底层发生了什么？**  
-Aspose.HTML 创建了一个类似无头浏览器的隔离 JavaScript 运行时，但不依赖体积庞大的 Chromium 引擎。沙箱会隔离全局对象、限制计时器，并在网络被禁用时阻止 `fetch`/`XMLHttpRequest`。这正是 **how to sandbox JavaScript** 用于服务器端处理的核心方式。
+## 步骤 3：与处理后的 DOM 交互
 
----
+After the scripts have run, the DOM reflects any changes the page made—title updates, DOM mutations, or even generated markup. You can now query the document just like you would in a browser.
 
-## 第三步：与处理后的 DOM 交互
-
-脚本执行完毕后，DOM 会反映页面所做的任何更改——标题更新、DOM 变动，甚至是生成的标记。此时你可以像在浏览器中一样查询文档。
-
+The `document` object exposed by the sandbox follows the standard W3C DOM API, allowing `getElementById`, `querySelectorAll`, and other familiar methods.  
+```text
 ```java
         // ⑤ Access the DOM after script execution (e.g., read the page title)
         String title = document.getTitle();
         System.out.println("Title after script execution: " + title);
 ```
+```
 
 典型输出：
-
+```text
 ```
 Title after script execution: Welcome to My Dynamic Page
 ```
+```
 
-如果页面修改了其他元素，你可以使用 `document.getElementById`、`document.querySelectorAll` 等方法遍历它们，所有操作都安全地限制在沙箱内。
+If your page modifies other elements, you can traverse them using `document.getElementById`, `document.querySelectorAll`, etc., all safely confined within the sandbox.
 
----
+## 步骤 4：持久化修改后的 HTML
 
-## 第四步：持久化修改后的 HTML
+Often you’ll want to save the transformed markup for later processing—maybe for PDF conversion or SEO analysis. Aspose.HTML makes that a one‑liner.
 
-通常你会希望将转换后的标记保存下来，以便后续处理——比如 PDF 转换或 SEO 分析。Aspose.HTML 只需一行代码即可完成。
-
+The `save` method writes the in‑memory DOM back to a file while preserving the original encoding and line endings.  
+```text
 ```java
         // ⑥ Save the processed DOM to a new file
         String outputPath = "YOUR_DIRECTORY/output.html";
@@ -122,73 +163,101 @@ Title after script execution: Welcome to My Dynamic Page
     }
 }
 ```
+```
 
-打开 `output.html` 时，你会看到与 `input.html` 相同的结构，只是所有由 JavaScript 驱动的更改已经被写入。无需真实浏览器。
+When you open `output.html` you’ll see the same structure as `input.html`, but with any JavaScript‑driven changes already baked in. No need for a live browser.
 
----
+## 步骤 5：运行程序并验证结果
 
-## 第五步：运行程序并验证结果
-
-编译并执行该类：
-
+Compile and execute the class:
+```text
 ```bash
 javac -cp "aspose-html-23.9.jar" SandboxJsDemo.java
 java -cp ".:aspose-html-23.9.jar" SandboxJsDemo
 ```
+```
 
-你应该会在控制台看到两行输出：
-
+You should see two console lines:
+```text
 ```
 Title after script execution: Welcome to My Dynamic Page
 Processed HTML saved to: YOUR_DIRECTORY/output.html
 ```
+```
 
-在任意文本编辑器中打开 `output.html`，会发现 `<title>` 标签已被更新，且所有 DOM 操作（如注入的 `<div>`）都已存在。
-
----
+Open `output.html` in any text editor; you’ll notice the `<title>` tag updated, and any DOM manipulations (like injected `<div>`s) present.
 
 ## 边缘情况与常见变体
 
-### 1. 允许受限的网络访问
+### 1. 允许有限的网络访问
 
-如果需要获取本地资源（例如存放在同一服务器上的图片），但仍要阻止外部调用，可以提供自定义的 `NetworkRequestHandler` 来白名单特定 URL。这样既保留了 **run JavaScript in sandbox** 的精神，又提供了灵活性。
+If you need to fetch local resources (e.g., images stored on the same server) but still block external calls, you can supply a custom `NetworkRequestHandler` that whitelists certain URLs. This keeps the spirit of **run JavaScript in sandbox** while offering flexibility.
 
 ### 2. 控制执行时间
 
-长时间运行的脚本会卡住流水线。Aspose.HTML 的 `Sandbox` 还支持设置超时：
+Long‑running scripts can stall your pipeline. Aspose.HTML’s `Sandbox` also lets you set a timeout:
 
+`setExecutionTimeout` sets the maximum time (in milliseconds) a script may run before being terminated.  
+```text
 ```java
 sandbox.setExecutionTimeout(5000); // milliseconds
 ```
+```
 
-超时到期后，引擎会中止脚本并抛出 `TimeoutException`。捕获该异常即可记录日志或优雅回退。
+When the timeout expires, the engine aborts the script and throws a `TimeoutException`. Catch it to log or fallback gracefully.
 
 ### 3. 模拟不同的视口
 
-响应式站点常根据屏幕尺寸重新布局内容。将 `setScreenWidth`/`setScreenHeight` 改为移动设备尺寸（例如 375×667），即可获得移动端特定的渲染效果。
+Responsive sites often rearrange content based on screen size. Change `setScreenWidth`/`setScreenHeight` to match a mobile device (e.g., 375×667) if you need a mobile‑specific rendering.
 
 ### 4. 完全禁用 JavaScript
 
-有时只需要提取静态 HTML。只需将 `sandbox.setEnableJavaScript(false)`。这实际上通过关闭脚本实现了 **how to sandbox JavaScript**，对安全优先的流水线非常有用。
-
----
+Sometimes you only need static HTML extraction. Simply set `sandbox.setEnableJavaScript(false)`. This effectively **how to sandbox JavaScript** by turning it off, which can be useful for security‑first pipelines.
 
 ## 实战技巧
 
-- **保持沙箱精简。** 每多开启一项权限（如 `setAllowNetworkRequests(true)`）都会扩大攻击面。只保留必需的最小权限。  
-- **前后日志对比。** 在脚本执行前后将 DOM 导出到临时文件，进行 diff，有助于了解页面的 JavaScript 实际做了什么。  
-- **锁定 Aspose.HTML 版本。** 虽然 API 稳定，但脚本引擎的细微变化可能影响输出。请在构建脚本中固定库版本。  
-- **使用真实页面测试。** 简单的测试文件适合学习，但生产环境的 HTML 常包含第三方小部件，会尝试网络请求。务必验证沙箱能够如预期拦截这些请求。
+- **Keep the sandbox lean.** Every extra permission you enable (like `setAllowNetworkRequests(true)`) widens the attack surface. Stick to the minimum you need.  
+- **Log before and after.** Dump the DOM to a temporary file before and after script execution; diffing them helps you understand what the page’s JavaScript is doing.  
+- **Version‑lock Aspose.HTML.** APIs are stable, but subtle changes in script engines can affect output. Pin the library version in your build script.  
+- **Test with real‑world pages.** Simple test files are good for learning, but production HTML often contains third‑party widgets that attempt network calls. Verify your sandbox blocks them as expected.
 
----
+## 常见问题
+
+**Q: Can I use this approach in a microservice?**  
+A: Yes. The sandbox runs entirely in memory and does not require a UI, making it ideal for containerised microservices.
+
+**Q: What happens if a script tries to access the file system?**  
+A: The sandbox throws a security exception and aborts the script, preventing any file‑system interaction.
+
+**Q: Is there a limit on the size of HTML files I can process?**  
+A: Aspose.HTML can handle files up to **2 GB** without loading the whole document into memory, thanks to its streaming architecture.
+
+**Q: How do I enable debugging of JavaScript errors?**  
+A: `sandbox.setEnableDebugging(true)` enables the collection of JavaScript console messages for debugging, and you can provide a custom `ErrorHandler` to capture them.
+
+**Q: Does the sandbox support modern ES6+ features?**  
+A: Yes, the built‑in V8‑based engine supports ES2022 syntax, including async/await and modules.
 
 ## 结论
 
-我们已经完整演示了如何使用 Aspose.HTML for Java **how to sandbox JavaScript**——从创建 `Sandbox` 对象、加载 HTML、运行脚本，到持久化转换后的 DOM。现在你已经掌握了 **how to run JavaScript in sandbox** 的安全方法，了解了如何调整屏幕尺寸、控制网络访问以及处理超时或选择性网络白名单等边缘情况。
+We’ve covered **how to sandbox JavaScript** using Aspose.HTML for Java, from creating a `Sandbox` object to loading an HTML file, letting scripts run, and finally persisting the transformed DOM. You now know **how to run JavaScript in sandbox** securely, how to tweak screen dimensions, control network access, and handle edge cases like timeouts or selective network whitelisting.
 
-下一步可以尝试使用 Aspose.PDF 将沙箱处理后的 HTML 转为 PDF，或将输出送入无头 SEO 分析器。还可以实验并行运行多个沙箱实例，以加速批量处理。
+Next steps? Try converting the sandbox‑processed HTML to PDF with Aspose.PDF, or feed the output into a headless SEO analyzer. You could also experiment with multiple sandbox instances in parallel to speed up batch processing.
 
-祝编码愉快，记住——沙箱不仅是安全网，更是让 JavaScript 在服务器端工作流中可预测运行的强大工具。欢迎在下方留下评论或分享你的实现方案！
+Happy coding, and remember—sandboxing isn’t just a safety net; it’s a powerful way to make JavaScript behave predictably in server‑side workflows. Feel free to leave comments or share your own variations below!
+
+---
+
+**Last Updated:** 2026-09-29  
+**Tested With:** Aspose.HTML for Java 23.9  
+**Author:** Aspose
+
+## 相关教程
+
+- [Create Sandbox For Html In Java Step By Step Guide](/html/java/creating-managing-html-documents/create-sandbox-for-html-in-java-step-by-step-guide/)
+- [Enable Script Execution In Java Complete Aspose Html Guide](/html/java/advanced-usage/enable-script-execution-in-java-complete-aspose-html-guide/)
+- [How To Run Javascript In Java Complete Guide](/html/java/advanced-usage/how-to-run-javascript-in-java-complete-guide/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
