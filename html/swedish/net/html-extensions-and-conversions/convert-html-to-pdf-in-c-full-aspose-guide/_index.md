@@ -23,15 +23,7 @@ title: Konvertera HTML till PDF i C# – Fullständig Aspose‑guide
 url: /sv/net/html-extensions-and-conversions/convert-html-to-pdf-in-c-full-aspose-guide/
 ---
 
-we keep the final shortcodes and back button.
-
-Now produce final content with translations.
-
-Check that we didn't translate any URLs, file paths, variable names, function names. We kept code unchanged.
-
-We must ensure we didn't translate inside code comments (they are part of code block, we left untouched). Good.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
@@ -203,83 +195,6 @@ Om du stöter på problem, prova:
 - Aktivera `htmlDoc.IsJavaScriptEnabled = true` om din HTML förlitar sig på skriptgenererat innehåll (använd med försiktighet).
 
 ---
-
-## Fullt fungerande exempel
-
-Nedan är hela programmet som du kan kopiera‑och‑klistra in i ett nytt konsolprojekt. Det innehåller alla steg, kommentarer och felhantering du behöver för att **konvertera HTML till PDF** i ett svep.
-
-```csharp
-using System;
-using System.IO;
-using Aspose.Html;
-using Aspose.Html.Drawing;
-using Aspose.Html.Rendering.Pdf;
-
-class Program
-{
-    static void Main()
-    {
-        try
-        {
-            // ---------------------------------------------------
-            // 1️⃣ Load the HTML document you want to convert
-            // ---------------------------------------------------
-            string htmlPath = Path.Combine(Environment.CurrentDirectory, "sample.html");
-            HTMLDocument htmlDoc = new HTMLDocument(htmlPath);
-
-            // ---------------------------------------------------
-            // 2️⃣ Create a Font that combines bold and italic
-            // ---------------------------------------------------
-            Font titleFont = new Font(
-                family: "Arial",
-                size: 12,
-                style: WebFontStyle.Bold | WebFontStyle.Italic,
-                color: Color.Black);
-
-            // Apply the font to all <h1> elements
-            foreach (var heading in htmlDoc.QuerySelectorAll("h1"))
-            {
-                heading.Style.FontFamily = titleFont.Family;
-                heading.Style.FontSize = $"{titleFont.Size}pt";
-                heading.Style.FontWeight = "bold";
-                heading.Style.FontStyle = "italic";
-                heading.Style.Color = titleFont.Color.ToString();
-            }
-
-            // ---------------------------------------------------
-            // 3️⃣ Inject a CSS rule via a <style> element (optional)
-            // ---------------------------------------------------
-            var styleElement = htmlDoc.CreateElement("style");
-            styleElement.InnerHtml = @"
-                .title {
-                    font-family: Arial;
-                    font-size: 12pt;
-                    font-weight: bold;
-                    font-style: italic;
-                    color: #000000;
-                }";
-            htmlDoc.Head.AppendChild(styleElement);
-
-            // Example usage of the injected class
-            var para = htmlDoc.CreateElement("p");
-            para.ClassName = "title";
-            para.InnerHtml = "This paragraph uses the injected .title style.";
-            htmlDoc.Body.AppendChild(para);
-
-            // ---------------------------------------------------
-            // 4️⃣ Render the HTML document to PDF
-            // ---------------------------------------------------
-            string outputPath = Path.Combine(Environment.CurrentDirectory, "output.pdf");
-            using (var pdfDevice = new PdfDevice(outputPath))
-            {
-                pdfDevice.Render(htmlDoc);
-            }
-
-            Console.WriteLine($"✅ Success! PDF saved to: {outputPath}");
-        }
-        catch (Exception ex)
-        {
-            Console.Error.WriteLine($"❌ Conversion failed: {ex.Message}");
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

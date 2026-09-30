@@ -22,16 +22,6 @@ title: แปลง HTML เป็น PDF ด้วย C# – คู่มือ
 url: /th/net/html-extensions-and-conversions/convert-html-to-pdf-in-c-full-aspose-guide/
 ---
 
-Those are placeholders, not code fences; we keep them unchanged.
-
-Now produce final output with all translated content.
-
-Let's write the translation.
-
-Be careful with Thai punctuation and spacing.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
@@ -204,83 +194,6 @@ using (var pdfDevice = new PdfDevice(outputPath))
 - เปิด `htmlDoc.IsJavaScriptEnabled = true` หาก HTML ของคุณพึ่งพาเนื้อหาที่สร้างโดยสคริปต์ (ใช้ด้วยความระมัดระวัง)
 
 ---
-
-## ตัวอย่างการทำงานเต็มรูปแบบ
-
-ด้านล่างเป็นโปรแกรมทั้งหมดที่คุณสามารถคัดลอก‑วางลงในโปรเจกต์คอนโซลใหม่. มันรวมทุกขั้นตอน, คอมเมนต์, และการจัดการข้อผิดพลาดที่คุณต้องการเพื่อ **แปลง HTML เป็น PDF** ในหนึ่งขั้นตอน
-
-```csharp
-using System;
-using System.IO;
-using Aspose.Html;
-using Aspose.Html.Drawing;
-using Aspose.Html.Rendering.Pdf;
-
-class Program
-{
-    static void Main()
-    {
-        try
-        {
-            // ---------------------------------------------------
-            // 1️⃣ Load the HTML document you want to convert
-            // ---------------------------------------------------
-            string htmlPath = Path.Combine(Environment.CurrentDirectory, "sample.html");
-            HTMLDocument htmlDoc = new HTMLDocument(htmlPath);
-
-            // ---------------------------------------------------
-            // 2️⃣ Create a Font that combines bold and italic
-            // ---------------------------------------------------
-            Font titleFont = new Font(
-                family: "Arial",
-                size: 12,
-                style: WebFontStyle.Bold | WebFontStyle.Italic,
-                color: Color.Black);
-
-            // Apply the font to all <h1> elements
-            foreach (var heading in htmlDoc.QuerySelectorAll("h1"))
-            {
-                heading.Style.FontFamily = titleFont.Family;
-                heading.Style.FontSize = $"{titleFont.Size}pt";
-                heading.Style.FontWeight = "bold";
-                heading.Style.FontStyle = "italic";
-                heading.Style.Color = titleFont.Color.ToString();
-            }
-
-            // ---------------------------------------------------
-            // 3️⃣ Inject a CSS rule via a <style> element (optional)
-            // ---------------------------------------------------
-            var styleElement = htmlDoc.CreateElement("style");
-            styleElement.InnerHtml = @"
-                .title {
-                    font-family: Arial;
-                    font-size: 12pt;
-                    font-weight: bold;
-                    font-style: italic;
-                    color: #000000;
-                }";
-            htmlDoc.Head.AppendChild(styleElement);
-
-            // Example usage of the injected class
-            var para = htmlDoc.CreateElement("p");
-            para.ClassName = "title";
-            para.InnerHtml = "This paragraph uses the injected .title style.";
-            htmlDoc.Body.AppendChild(para);
-
-            // ---------------------------------------------------
-            // 4️⃣ Render the HTML document to PDF
-            // ---------------------------------------------------
-            string outputPath = Path.Combine(Environment.CurrentDirectory, "output.pdf");
-            using (var pdfDevice = new PdfDevice(outputPath))
-            {
-                pdfDevice.Render(htmlDoc);
-            }
-
-            Console.WriteLine($"✅ Success! PDF saved to: {outputPath}");
-        }
-        catch (Exception ex)
-        {
-            Console.Error.WriteLine($"❌ Conversion failed: {ex.Message}");
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
