@@ -1,0 +1,7 @@
+Title: Render HTML to Image in C# – Complete Programming Guide
+Slug: render-html-to-image-in-c-complete-programming-guide
+Category: rendering-html-documents
+ProcessedDate: 2026-06-16T18:22:04.985942
+SourceRepo: AI Search API
+Keywords: render html to image, save html as png, set font style programmatically, create html document c#, how to set bold italic font
+PRNumber: 182

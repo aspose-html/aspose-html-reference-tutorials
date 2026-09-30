@@ -1,225 +1,192 @@
 ---
 category: general
-date: 2026-02-27
-description: إنشاء PNG من HTML بسرعة باستخدام Aspose.HTML في C#. تعلم كيفية تحويل
-  HTML إلى صورة، وتحديد عرض وارتفاع الصورة، وتحويل HTML إلى PNG في دقائق.
+date: 2026-02-11
+description: إنشاء PNG من HTML باستخدام Aspose.HTML في C#. تعلم كيفية تحويل HTML إلى
+  PNG، وتحويل HTML إلى صورة، وحفظ HTML كملف PNG مع تحسين النص.
 draft: false
 keywords:
 - create png from html
-- render html to image
-- convert html to png
+- render html to png
+- convert html to image
+- render html as png
 - save html as png
-- set image width height
 language: ar
-og_description: إنشاء PNG من HTML باستخدام Aspose.HTML. يوضح هذا الدليل كيفية تحويل
-  HTML إلى صورة، وتحديد عرض وارتفاع الصورة، وتحويل HTML إلى PNG بكفاءة.
+og_description: إنشاء PNG من HTML بسرعة. يوضح هذا الدرس كيفية تحويل HTML إلى PNG،
+  وتحويل HTML إلى صورة، وحفظ HTML كملف PNG مع الكود الكامل.
 og_title: إنشاء PNG من HTML في C# – دليل كامل
 tags:
 - Aspose.HTML
 - C#
 - Image Rendering
-title: إنشاء صورة PNG من HTML في C# – دليل خطوة بخطوة
+title: إنشاء PNG من HTML في C# – دليل خطوة بخطوة
 url: /ar/net/generate-jpg-and-png-images/create-png-from-html-in-c-step-by-step-guide/
 ---
 
-Ok.
-
-Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# إنشاء PNG من HTML في C# – دليل كامل
+# إنشاء PNG من HTML في C# – دليل برمجة كامل
 
-هل احتجت يوماً إلى **إنشاء PNG من HTML** لكنك لم تكن متأكدًا أي مكتبة ستعطيك نتائج دقيقة إلى البكسل؟ لست وحدك—العديد من المطورين يواجهون نفس المشكلة عندما يحاولون تحويل صفحة ويب إلى صورة ثابتة للبريد الإلكتروني، التقارير، أو المصغرات.
+هل احتجت يوماً إلى **create PNG from HTML** في تطبيق .NET لكن لم تكن متأكدًا من أين تبدأ؟ لست وحدك—العديد من المطورين يواجهون هذه المشكلة عندما يحاولون تحويل صفحة ويب إلى صورة bitmap للبريد الإلكتروني، التقارير، أو الصور المصغرة. الخبر السار هو أنه باستخدام Aspose.HTML يمكنك تصيير HTML إلى PNG في بضع أسطر من الشيفرة، وستحصل أيضًا على القدرة على **convert HTML to image** مع تمويه عالي الجودة وتلميحات النص.
 
-الخبر السار؟ باستخدام Aspose.HTML يمكنك **تحويل HTML إلى صورة**، التحكم بالأبعاد الدقيقة، و**حفظ HTML كـ PNG** ببضع أسطر من C#. في هذا الدرس سنستعرض العملية بالكامل، من تحميل ملف HTML إلى تعديل تحسين النص وأخيرًا كتابة PNG على القرص. في النهاية ستعرف كيف **تضبط عرض وارتفاع الصورة** برمجياً وستحصل على مقطع شفرة يمكن استخدامه في أي مشروع .NET.
+في هذا الدليل سنستعرض العملية بالكامل: تحميل ملف HTML، تكوين خيارات التصيير، تمكين تلميحات النص، وأخيرًا **saving HTML as PNG**. في النهاية ستحصل على مقتطف قابل لإعادة الاستخدام يعمل على .NET 6+ ويمكن دمجه في أي تطبيق كونسول، خدمة ويب، أو مهمة خلفية. لا أدوات خارجية، لا حركات سطر أوامر—فقط C# نظيفة.
 
-## ما ستتعلمه
+## ما ستحتاجه
 
-- كيفية تحميل مستند HTML باستخدام Aspose.HTML.
-- الفرق بين `ImageRenderingOptions` و `TextOptions` ولماذا هما مهمان.
-- كيفية **تحويل HTML إلى PNG** مع الحفاظ على الخطوط، التنعيم، وأنماط الخط السفلي.
-- نصائح لتجاوز المشكلات الشائعة مثل الخطوط المفقودة أو الأحجام غير المتوقعة للصور.
-- عينة شفرة كاملة جاهزة للتنفيذ يمكنك نسخها ولصقها في Visual Studio.
+قبل أن نبدأ، تأكد من تثبيت المتطلبات التالية:
 
-> **المتطلبات المسبقة:** .NET 6+ (أو .NET Framework 4.6.2+)، Aspose.HTML for .NET مثبت عبر NuGet، وفهم أساسي للغة C#. لا توجد أدوات خارجية أخرى مطلوبة.
+| المتطلبات | السبب |
+|--------------|--------|
+| **.NET 6 SDK** (أو أحدث) | يستهدف الكود .NET 6، لكن الإصدارات الأقدم تعمل مع تعديلات بسيطة. |
+| حزمة **Aspose.HTML for .NET** عبر NuGet | توفر `HTMLDocument`، `ImageRenderingOptions`، ومحرك التصيير. |
+| **ملف HTML تجريبي** (مثال: `sample.html`) | المصدر الذي تريد تحويله إلى PNG. |
+| بيئة تطوير أو محرر (Visual Studio، VS Code، Rider…) | لكتابة وتشغيل الشيفرة. |
 
----
+يمكنك سحب المكتبة بالأمر المألوف:
 
-## الخطوة 1: تحميل مستند HTML – بدء إنشاء PNG
+```bash
+dotnet add package Aspose.HTML
+```
 
-أولاً، نحتاج إلى كائن `HTMLDocument` يشير إلى ملف المصدر. هذا هو الأساس لأي عملية **إنشاء PNG من HTML**.
+هذا كل شيء—لا حاجة إلى ملفات تنفيذية أصلية إضافية أو تثبيتات على مستوى النظام.
+
+![صورة PNG الناتجة التي تم إنشاؤها من HTML – create png from html](placeholder.png "صورة PNG الناتجة التي تم إنشاؤها من HTML – create png from html")
+
+*(alt text: “صورة PNG الناتجة التي تم إنشاؤها من HTML – create png from html”)*
+
+## الخطوة 1 – تحميل مستند HTML (create PNG from HTML)
+
+أول شيء عليك فعله هو إعطاء Aspose.HTML ما يحتاج لتصيره. تقبل فئة `HTMLDocument` مسار ملف، عنوان URL، أو حتى سلسلة تحتوي على التعليمات البرمجية الخام. في معظم السيناريوهات يعمل الملف المحلي بشكل أفضل لأنك تستطيع إبقاء الأصول (CSS، الصور) بجانبه.
 
 ```csharp
 using Aspose.Html;
 using Aspose.Html.Rendering.Image;
-using Aspose.Html.Drawing;
 
-// Load the HTML file you want to convert
+// Load the HTML file you want to turn into a PNG
 HTMLDocument htmlDoc = new HTMLDocument("YOUR_DIRECTORY/sample.html");
 ```
 
-*لماذا هذه الخطوة مهمة:* فئة `HTMLDocument` تحلل العلامات، تحل CSS، وتبني DOM يمكن لمحرك العرض لاحقًا رسمه على bitmap. إذا كان المسار غير صحيح، ستظهر استثناء `FileNotFoundException` في خطوة **render html to image** التالية.
+> **لماذا هذا مهم:** تحميل المستند يقوم بتحليل DOM، حل عناوين URL النسبية، وتطبيق تسلسل CSS. إذا تخطيت هذه الخطوة وأدخلت التعليمات البرمجية الخام مباشرة، قد لا يتم العثور على الموارد الخارجية مثل الصور أو الخطوط، مما يؤدي إلى PNG فارغ أو غير مكتمل.
 
----
+## الخطوة 2 – تكوين خيارات التصيير (render html to png)
 
-## الخطوة 2: ضبط عرض وارتفاع الصورة – التحكم في حجم الناتج
-
-عند **تحويل HTML إلى صورة**، غالبًا ما تحتاج إلى دقة محددة—مثل مصغرة يجب أن تكون بالضبط 1200 × 800 بكسل. هنا يأتي دور `ImageRenderingOptions`.
+الآن نخبر المحرك بحجم الناتج وما إذا كنا نريد تمويهًا. كائن `ImageRenderingOptions` هو المكان الذي تحدد فيه العرض، الارتفاع، DPI، وبعض علامات الجودة.
 
 ```csharp
-// Define image rendering settings (size and antialiasing for smoother graphics)
-ImageRenderingOptions imageOpts = new ImageRenderingOptions
+// Create rendering options and specify the desired size
+ImageRenderingOptions renderingOptions = new ImageRenderingOptions
 {
-    Width = 1200,               // <-- set image width
-    Height = 800,               // <-- set image height
-    UseAntialiasing = true      // smoother edges
+    Width = 800,               // Target width in pixels
+    Height = 600,              // Target height in pixels
+    UseAntialiasing = true,    // Smooth edges for vector graphics
+    // You can also set DpiX/DpiY if you need higher resolution
 };
 ```
 
-*نصيحة محترف:* إذا حذفت `Width` و `Height`، سيستخدم Aspose.HTML الحجم الطبيعي للصفحة، والذي قد يكون كبيرًا جدًا لتضمينه في البريد الإلكتروني.
+> **نصيحة احترافية:** إذا كنت بحاجة إلى صورة جاهزة لشاشات Retina، اضرب العرض/الارتفاع في 2 وضع `DpiX = 300` و `DpiY = 300`. ستظهر صورة PNG الناتجة حادة على الشاشات عالية الكثافة.
 
----
+## الخطوة 3 – تمكين تحسين النص (improve readability)
 
-## الخطوة 3: تحسين عرض النص – جعل النص واضحًا
-
-النص على Linux غالبًا ما يبدو غير واضح ما لم تقم بتمكين الـ hinting. كائن `TextOptions` يتيح لك التحكم بذلك، مما يضمن أن تكون PNG النهائية حادة على كل منصة.
+عند تصغير النص إلى حجم بكسل صغير، قد تصبح الحروف غير واضحة. يوفر Aspose.HTML خاصية `TextOptions` التي تسمح لك بتفعيل التلميحات، مما يطابق الأحرف مع شبكة البكسل.
 
 ```csharp
-// Define text rendering settings (hinting improves clarity on Linux)
-TextOptions textOpts = new TextOptions
-{
-    UseHinting = true   // improves glyph rendering
-};
+// Turn on text hinting for sharper small‑size fonts
+renderingOptions.TextOptions = new TextOptions { UseHinting = true };
 ```
 
-*لماذا الـ hinting؟* الـ hinting يضبط شكل كل حرف ليتماشى مع شبكة البكسل، وهو أمر حاسم عندما **تحول HTML إلى PNG** لشاشات منخفضة الدقة.
+> **لماذا التلميحات؟** تقلل التلميحات الضوضاء البصرية التي تظهر عندما يتم تحويل الخط إلى نقط على دقة منخفضة. إنها مفيدة بشكل خاص للوحة معلومات أو صور مصغرة في البريد الإلكتروني حيث كل بكسل مهم.
 
----
+## الخطوة 4 – تصيير وحفظ الصورة (save html as png)
 
-## الخطوة 4: دمج الخيارات وإضافة الأنماط – تكوين العرض الكامل
-
-الآن ندمج إعدادات الصورة والنص، ونوضح أيضًا كيفية تطبيق نمط خط عالمي، مثل وضع خط سفلي على كل النص. هذه الخطوة هي التي تقوم فعليًا بـ **حفظ HTML كـ PNG** مع أنماط مخصصة.
+مع وجود المستند والخيارات جاهزة، الخطوة الأخيرة هي سطر واحد فقط: استدعِ `Save` على `HTMLDocument` وحدد مسار ملف ينتهي بـ `.png`. يختار Aspose.HTML تلقائيًا مشفر PNG بناءً على الامتداد.
 
 ```csharp
-// Combine image and text options, and set additional rendering preferences (e.g., underline text)
-ImageRenderingOptions renderOpts = new ImageRenderingOptions
-{
-    ImageOptions = imageOpts,
-    TextOptions = textOpts,
-    FontStyle = WebFontStyle.Underline   // optional: underline all text
-};
+// Render the HTML and write it out as a PNG file
+htmlDoc.Save("YOUR_DIRECTORY/hinted.png", renderingOptions);
 ```
 
-*ملاحظة:* `WebFontStyle` يدعم العديد من العلامات (Bold, Italic, إلخ). يمكنك دمجها باستخدام عملية OR البتية إذا احتجت إلى عدة أنماط.
+بعد تنفيذ هذا السطر، ستجد `hinted.png` في المجلد الذي حددته. افتحه بأي عارض صور—يجب أن ترى التمثيل البصري الدقيق لـ `sample.html`، بما في ذلك تنسيقات CSS، الصور المدمجة، والنص الحاد.
 
----
+### مثال عملي كامل
 
-## الخطوة 5: العرض والحفظ – اللحظة التي **تنشئ فيها PNG من HTML**
-
-بعد تكوين كل شيء، المكالمة النهائية هي سطر واحد يرسم الـ DOM على bitmap ويكتبها على القرص.
+نجمع كل ما سبق في برنامج كونسول بسيط يمكنك نسخه ولصقه ثم تشغيله:
 
 ```csharp
-// Render the HTML to a PNG file using the configured options
-htmlDoc.Save("YOUR_DIRECTORY/output.png", renderOpts);
-```
-
-بعد تنفيذ هذا السطر، ستجد `output.png` في المجلد المحدد، بدقة 1200 × 800 بكسل، مع رسومات مضادة للتنعيم ونص محسّن بالـ hinting.
-
----
-
-## مثال كامل يعمل – الصق، شغّل، وتحقق
-
-فيما يلي البرنامج الكامل الذي يمكنك تجميعه كتطبيق console. يتضمن جميع عبارات `using`، معالجة الأخطاء، وتعليقات تحتاجها.
-
-```csharp
-// Program.cs
 using System;
 using Aspose.Html;
 using Aspose.Html.Rendering.Image;
-using Aspose.Html.Drawing;
 
 class Program
 {
     static void Main()
     {
-        try
+        // 1️⃣ Load the source HTML
+        HTMLDocument htmlDoc = new HTMLDocument("sample.html");
+
+        // 2️⃣ Set rendering size and quality
+        ImageRenderingOptions opts = new ImageRenderingOptions
         {
-            // 1️⃣ Load the HTML file
-            HTMLDocument htmlDoc = new HTMLDocument("sample.html");
+            Width = 800,
+            Height = 600,
+            UseAntialiasing = true
+        };
 
-            // 2️⃣ Set image dimensions (set image width height)
-            ImageRenderingOptions imageOpts = new ImageRenderingOptions
-            {
-                Width = 1200,
-                Height = 800,
-                UseAntialiasing = true
-            };
+        // 3️⃣ Enable text hinting for sharper fonts
+        opts.TextOptions = new TextOptions { UseHinting = true };
 
-            // 3️⃣ Enable text hinting for sharper output
-            TextOptions textOpts = new TextOptions
-            {
-                UseHinting = true
-            };
+        // 4️⃣ Render and save as PNG
+        htmlDoc.Save("hinted.png", opts);
 
-            // 4️⃣ Merge options and apply underline style
-            ImageRenderingOptions renderOpts = new ImageRenderingOptions
-            {
-                ImageOptions = imageOpts,
-                TextOptions = textOpts,
-                FontStyle = WebFontStyle.Underline
-            };
-
-            // 5️⃣ Render and save as PNG (convert HTML to PNG)
-            htmlDoc.Save("output.png", renderOpts);
-
-            Console.WriteLine("✅ PNG created successfully! Check output.png");
-        }
-        catch (Exception ex)
-        {
-            Console.WriteLine($"❌ Error: {ex.Message}");
-        }
+        Console.WriteLine("✅ PNG created successfully – check hinted.png");
     }
 }
 ```
 
-**النتيجة المتوقعة:** ملف باسم `output.png` يظهر بجانب الملف التنفيذي، يعرض النسخة المرسومة من `sample.html`. افتحه بأي عارض صور لتتأكد من الأبعاد والأنماط.
+شغّل البرنامج باستخدام `dotnet run`. إذا تم إعداد كل شيء بشكل صحيح، ستظهر رسالة التأكيد وستجد ملف PNG جديد بجوار الملف التنفيذي.
 
----
+## الاختلافات الشائعة وحالات الحافة
 
-## المشكلات الشائعة وكيفية تجنبها
+فيما يلي بعض السيناريوهات التي قد تواجهها عند **render HTML as PNG** في العالم الحقيقي.
 
-| المشكلة | العرض | الحل |
-|-------|----------|-----|
-| الخطوط مفقودة | يظهر النص كخط sans‑serif عام | ثبّت الخطوط المطلوبة على الجهاز أو أدمج خطوط الويب في HTML. |
-| أبعاد غير صحيحة | PNG أكبر أو أصغر من المتوقع | راجع قيم `Width` و `Height` في `ImageRenderingOptions`. |
-| حواف غير واضحة | لا يوجد antialiasing | تأكد من `UseAntialiasing = true`. |
-| تشوهات في العرض على Linux | النص يبدو غير واضح | عيّن `UseHinting = true` في `TextOptions`. |
+| الحالة | طريقة التعامل |
+|-----------|-----------------|
+| **ملفات CSS/JS الخارجية محجوبة** | مرّر `ResourceLoadingOptions` مخصص إلى `HTMLDocument` يسمح بعناوين URL عن بُعد، أو دمج CSS مباشرة في HTML. |
+| **تحتاج إلى خلفية شفافة** | ضع `renderingOptions.BackgroundColor = Color.Transparent;` قبل الحفظ. |
+| **المحتوى الديناميكي (مثل JavaScript) يجب تقييمه** | استخدم `htmlDoc.RenderToBitmap` بعد استدعاء `htmlDoc.WaitForReadyState()`؛ Aspose.HTML يتضمن محرك JavaScript مدمج. |
+| **صفحات متعددة → PNG طويل واحد** | كرّر عبر `htmlDoc.Pages` وادمج الصور المخرجة معًا، أو زد `Height` لتستوعب كل المحتوى. |
+| **ضغط الذاكرة على الصفحات الكبيرة** | صِرّ إلى تدفق (`MemoryStream`) وتخلص من الكائنات فورًا، أو قسّم التصيير إلى بلاطات. |
 
-*نصيحة محترف:* عند **تحويل HTML إلى صورة** على خادم بدون واجهة (headless)، تأكد من أن الخادم يحتوي على المكتبات النظامية اللازمة (مثل `libgdiplus` على Linux) وإلا قد يلجأ Aspose.HTML إلى مُعالج برمجي بجودة أقل.
+هذه التعديلات تسمح لك **convert HTML to image** بطريقة تتناسب مع متطلبات الأداء أو المظهر الخاصة بك.
 
----
+## نصائح الأداء (render html to png faster)
 
-## توسيع الحل – الخطوات التالية
+1. **أعد استخدام كائنات `HTMLDocument`** عندما تحتاج إلى تصيير صفحات متعددة بنفس التخطيط—تحليل DOM مرة واحدة فقط يوفر CPU.  
+2. **خزن الخطوط المصدرة** عبر تعيين `renderingOptions.FontSettings` إلى مجموعة خطوط محملة مسبقًا؛ هذا يتجنب إعادة تحميل خطوط النظام في كل استدعاء.  
+3. **تجنّب DPI عالي** ما لم تكن بحاجة فعلًا إليه؛ صورة بدقة 300 DPI قد تكون أكبر بأربع مرات في الذاكرة وتستغرق وقتًا أطول للكتابة على القرص.  
 
-- **تحويل دفعي:** كرّر العملية على قائمة من ملفات HTML لإنتاج معرض من PNGs.
-- **صيغ مختلفة:** استبدل `output.png` بـ `output.jpg` أو `output.bmp` بتغيير امتداد الملف؛ Aspose.HTML يختار الترميز المناسب تلقائيًا.
-- **تحديد حجم ديناميكي:** احسب `Width` و `Height` بناءً على وسمة viewport في HTML لتصاميم متجاوبة.
-- **إضافة علامة مائية:** استخدم `Aspose.Html.Drawing` لإدراج شعار قبل الحفظ.
+## التحقق – هل نجح؟
 
-هذه الأفكار تسمح لك بالانتقال من مقطع **إنشاء PNG من HTML** بسيط إلى خدمة توليد صور متكاملة.
+بعد انتهاء البرنامج، افتح `hinted.png` وتحقق من المؤشرات البصرية التالية:
 
----
+- جميع أنماط CSS (الخطوط، الألوان، الهوامش) تظهر تمامًا كما في المتصفح.  
+- الصور المشار إليها في HTML موجودة؛ عادةً ما تُظهر الصور المفقودة عنصرًا نائبًا.  
+- النص يبدو حادًا، خاصةً في الأحجام الصغيرة، بفضل التلميحات المفعلة.  
 
-## الخلاصة
+إذا لاحظت أي شيء غير صحيح، تحقق من المسارات في HTML وتأكد من أن `YOUR_DIRECTORY` التي مررتها إلى `Save` قابلة للكتابة.
 
-استعرضنا كل ما تحتاجه لت **إنشاء PNG من HTML** باستخدام Aspose.HTML لـ .NET: تحميل المستند، ضبط **عرض وارتفاع الصورة**، تحسين النص بالـ hinting، وأخيرًا **حفظ HTML كـ PNG**. مثال الشفرة الكامل جاهز للإدراج في مشروعك، والنصائح أعلاه ستساعدك على تجنب المشكلات الشائعة.
+## الخاتمة
 
-الآن بعد أن أصبحت قادرًا على **تحويل HTML إلى صورة** بثقة، لماذا لا تجرب أنماط مختلفة، معالجة دفعات، أو حتى التحويل إلى PDF في نفس السلسلة؟ السماء هي الحد، والشفرة بين يديك.
+أنت الآن تعرف كيف **create PNG from HTML** باستخدام Aspose.HTML في C#. غطى الدليل تحميل HTML، تكوين خيارات التصيير، تمكين تلميحات النص، وأخيرًا **saving HTML as PNG** باستدعاء `Save` واحد. مع المثال القابل للتنفيذ بالكامل يمكنك دمج هذا المقتطف في خدمات ويب، مهام خلفية، أو أدوات سطح مكتب دون الحاجة إلى متصفحات ثقيلة.
 
-برمجة سعيدة، ولا تتردد في مشاركة نتائجك أو طرح أسئلتك في التعليقات!
+ما الخطوة التالية؟ جرّب التجارب مع الكلمات المفتاحية الثانوية التي قدمناها:
 
-![Create PNG from HTML example](/images/create-png-from-html.png "Create PNG from HTML using Aspose.HTML")
+- **Render HTML to PNG** بأبعاد مختلفة للصور المصغرة.  
+- **Convert HTML to image** دفعيًا لكاتالوغ منتجات.  
+- **Render HTML as PNG** بألوان خلفية مخصصة للعلامة التجارية.  
+- **Save HTML as PNG** مع الحفاظ على الشفافية للرسومات المتراكبة.
+
+كل من هذه التغييرات يبني على نفس الكود الأساسي، لذا ستتمكن من التكيف بسرعة. إذا واجهت مشاكل—مثل عدم تحميل الموارد الخارجية أو ارتفاع استهلاك الذاكرة—ارجع إلى جدول حالات الحافة أعلاه. نتمنى لك تصييرًا موفقًا، ولتكون صور PNG دائمًا ذات جودة بكسل‑مثالية!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

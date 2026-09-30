@@ -1,0 +1,7 @@
+Title: How to Zip HTML – Complete Guide to Exporting Web Pages as ZIP
+Slug: how-to-zip-html-complete-guide-to-exporting-web-pages-as-zip
+Category: html-extensions-and-conversions
+ProcessedDate: 2026-05-28T23:22:48.381526
+SourceRepo: AI Search API
+Keywords: how to zip html, archive web page, save html as zip, export webpage to zip, convert webpage to zip
+PRNumber: 163

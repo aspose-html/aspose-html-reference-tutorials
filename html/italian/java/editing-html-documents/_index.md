@@ -58,8 +58,16 @@ Scopri come aggiungere CSS inline ai documenti HTML usando Aspose.HTML per Java.
 Scopri come gestire le proprietà HTML interne ed esterne in Aspose.HTML per Java con questa guida dettagliata, perfetta per sviluppatori web e creatori di contenuti.
 ### [Implementare CSS interno nei documenti HTML con Aspose.HTML per Java](./implement-internal-css-html-documents/)
 Impara a implementare CSS interni nei documenti HTML utilizzando Aspose.HTML per Java con il nostro semplice tutorial passo dopo passo.
+### [Modifica il testo h1 in MHTML con Java – Guida completa passo‑passo](./change-h1-text-in-mhtml-with-java-full-step-by-step-guide/)
+Scopri come cambiare il contenuto dell'elemento h1 in un file MHTML usando Aspose.HTML per Java, con istruzioni dettagliate passo dopo passo.
 ### [Pool di thread fisso Java – Pulizia HTML parallela con ExecutorService](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 Scopri come utilizzare un pool di thread fisso per pulire documenti HTML in parallelo con ExecutorService in Aspose.HTML per Java.
+### [Aggiungere un figlio al body in Java – Tutorial completo Aspose.HTML](./append-child-to-body-in-java-full-aspose-html-tutorial/)
+Scopri come aggiungere un elemento figlio al body usando Aspose.HTML per Java. Guida passo passo per manipolare il DOM.
+### [Creare un nuovo elemento HTML con Java – Guida completa Aspose.HTML](./create-new-html-element-with-java-full-aspose-html-guide/)
+Scopri come creare un nuovo elemento HTML usando Aspose.HTML per Java con questa guida completa passo passo.
+### [Come aggiungere un nodo figlio in Java DOM – Guida completa Aspose.HTML](./how-to-append-child-in-java-dom-complete-aspose-html-guide/)
+Scopri come aggiungere un nodo figlio al DOM in Java usando Aspose.HTML. Una guida passo passo per manipolare gli elementi HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

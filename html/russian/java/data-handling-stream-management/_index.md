@@ -26,6 +26,8 @@ url: /ru/java/data-handling-stream-management/
 ## Обработка данных и управление потоками в Aspose.HTML для Java Tutorials
 ### [Преобразование потока памяти в файл с помощью Aspose.HTML для Java](./memory-stream-to-file/)
 Конвертируйте HTML в JPEG с помощью Aspose.HTML для Java, используя потоки памяти. Следуйте этому пошаговому руководству для бесшовного преобразования HTML в изображение.
+### [java фиксированный пул потоков: подсчет изображений в параллельных файлах](./java-fixed-thread-pool-count-images-in-parallel-files/)
+Подсчитайте количество изображений в нескольких файлах одновременно, используя фиксированный пул потоков в Java.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
