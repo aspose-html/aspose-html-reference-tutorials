@@ -46,6 +46,7 @@ C# kullanarak HTML dosyalarını özel kaynak işleyicileri ve ZIP arşivleriyle
 ### [C#'ta HTML Sıkıştırma – Tam Adım Adım Kılavuz](./how-to-zip-html-in-c-complete-step-by-step-guide/)
 
 ### [C#'ta HTML Kaydetme – Özel Kaynak İşleyicisi Kullanarak](./how-to-save-html-in-c-with-custom-resource-handler/)
+### [C#'ta HTML'yi ZIP Olarak Kaydetme – Özel Kaynak İşleyicisi Kullanarak Tam Kılavuz](./save-html-as-zip-in-c-complete-guide-with-custom-resource-ha/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -46,6 +46,7 @@ Részletes lépésről‑lépésre útmutató a HTML PDF-be konvertálásához C
 
 ### [Aspose HTML PDF-re C#‑ban – Teljes útmutató ZIP-archívummal](./aspose-html-to-pdf-in-c-complete-guide-with-zip-archive/)
 Lépésről‑lépésre útmutató a HTML PDF‑re konvertálásához C#‑ban, ZIP‑archívumba csomagolva az Aspose.HTML for .NET segítségével.
+### [HTML mentése PDF-be C#‑ban – Teljes útmutató betűtípusokkal](./save-html-as-pdf-in-c-complete-guide-with-fonts/)
 ### [Az Aspose.HTML segítségével EPUB-t konvertáljon képpé .NET-ben](./convert-epub-to-image/)
 ### [Konvertálja az EPUB-t PDF-be .NET-ben az Aspose.HTML segítségével](./convert-epub-to-pdf/)
 ### [Konvertálja az EPUB-t XPS-re .NET-ben az Aspose.HTML segítségével](./convert-epub-to-xps/)
@@ -69,6 +70,8 @@ Lépésről‑lépésre útmutató a HTML-ből PDF létrehozásához C#‑ban az
 
 ### [PDF létrehozása HTML-ből – Aspose.HTML lépésről‑lépésre útmutató](./create-pdf-from-html-with-aspose-html-step-by-step-guide/)
 
+### [PDF létrehozása HTML‑ből – Lépésről‑lépésre útmutató fejlesztőknek](./create-pdf-from-html-step-by-step-guide-for-developers/)
+Ismerje meg, hogyan hozhat PDF-et HTML‑ből C#‑ban az Aspose.HTML for .NET segítségével, részletes fejlesztői útmutatóval.
 ### [HTML mentése ZIP-ként – Teljes C# oktatóanyag](./save-html-as-zip-complete-c-tutorial/)
 ### [HTML mentése ZIP-be C#‑ban – Teljes útmutató](./save-html-to-zip-in-c-complete-guide/)
 
@@ -99,6 +102,8 @@ Ismerje meg, hogyan menthet HTML-fájlt ZIP-archívumba C#-ban az Aspose.HTML fo
 Ismerje meg, hogyan használhat egyéni erőforráskezelőt a HTML zip-eléséhez C#-ban az Aspose.HTML for .NET segítségével.
 ### [Hogyan használjon handlert az Aspose.HTML-ben – HTML betöltése, mentés ZIP-be](./how-to-use-handler-in-aspose-html-load-html-save-as-zip/)
 Ismerje meg, hogyan használhat handlert az Aspose.HTML-ben HTML betöltéséhez és ZIP-archívumba mentéséhez C#-ban.
+### [HTML mentése ZIP-be C#‑ban – Teljes útmutató](./save-html-as-zip-in-c-complete-guide/)
+Tanulja meg, hogyan menthet HTML-fájlokat ZIP-archívumba C#‑ban az Aspose.HTML for .NET használatával, lépésről‑lépésre útmutatóval.
 
 ## Következtetés
 

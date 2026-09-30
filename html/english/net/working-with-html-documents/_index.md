@@ -39,6 +39,7 @@ Now, let's take your skills to the next level. Editing HTML documents is a commo
 ### [How to Save HTML in C# – Complete Guide Using a Custom Resource Handler](./how-to-save-html-in-c-complete-guide-using-a-custom-resource/)
 
 ### [How to Save HTML in C# with Custom Resource Handler](./how-to-save-html-in-c-with-custom-resource-handler/)
+### [Save HTML as ZIP in C# – Complete Guide with Custom Resource Handler](./save-html-as-zip-in-c-complete-guide-with-custom-resource-ha/)
 
 ### [How to Bold Heading with CSS & C# – Complete Step‑by‑Step Guide](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
 ### [How to Save HTML in C# – Custom Resource Handlers & ZIP](./how-to-save-html-in-c-custom-resource-handlers-zip/)

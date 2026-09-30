@@ -44,6 +44,9 @@ Hướng dẫn chi tiết cách sử dụng CSS và C# để làm tiêu đề in
 ### [Cách zip HTML trong C# – Hướng dẫn chi tiết từng bước](./how-to-zip-html-in-c-complete-step-by-step-guide/)
 
 Hướng dẫn chi tiết cách nén tài liệu HTML trong C# bằng Aspose.HTML, bao gồm các bước và ví dụ thực tế.
+### [Lưu HTML dưới dạng ZIP trong C# – Hướng dẫn đầy đủ với Trình xử lý tài nguyên tùy chỉnh](./save-html-as-zip-in-c-complete-guide-with-custom-resource-ha/)
+
+Hướng dẫn chi tiết cách lưu tài liệu HTML dưới dạng file ZIP bằng C# và trình xử lý tài nguyên tùy chỉnh.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -38,6 +38,8 @@ Agora, vamos levar suas habilidades para o próximo nível. Editar documentos HT
 
 ### [Como salvar HTML em C# – Guia completo usando um manipulador de recursos personalizado](./how-to-save-html-in-c-complete-guide-using-a-custom-resource/)
 
+### [Como salvar HTML como ZIP em C# – Guia completo usando um manipulador de recursos personalizado](./save-html-as-zip-in-c-complete-guide-with-custom-resource-ha/)
+
 ### [Como deixar o título em negrito com CSS e C# – Guia completo passo a passo](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
 ### [Como salvar HTML em C# – Manipuladores de recursos personalizados e ZIP](./how-to-save-html-in-c-custom-resource-handlers-zip/)
 ### [Como salvar HTML com Aspose.Html – Guia completo em C#](./how-to-save-html-with-aspose-html-complete-c-guide/)

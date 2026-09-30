@@ -47,6 +47,8 @@ Sekarang, mari tingkatkan keterampilan Anda ke tingkat berikutnya. Mengedit doku
 
 ### [Cara Menyimpan HTML di C# dengan Penangan Sumber Daya Kustom](./how-to-save-html-in-c-with-custom-resource-handler/)
 
+### [Cara Menyimpan HTML sebagai ZIP di C# – Panduan Lengkap dengan Penangan Sumber Daya Kustom](./save-html-as-zip-in-c-complete-guide-with-custom-resource-ha/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

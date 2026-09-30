@@ -60,6 +60,9 @@ C# में Aspose.HTML का उपयोग करके HTML को PDF म
 ### [C# में Aspose HTML को PDF में बदलें – ZIP आर्काइव के साथ पूर्ण गाइड](./aspose-html-to-pdf-in-c-complete-guide-with-zip-archive/)
 C# में Aspose.HTML का उपयोग करके HTML को PDF में बदलें और परिणाम को ZIP आर्काइव में सहेजें। चरण‑दर‑चरण मार्गदर्शिका।
 
+### [HTML से PDF बनाएं – डेवलपर्स के लिए चरण‑दर‑चरण गाइड](./create-pdf-from-html-step-by-step-guide-for-developers/)
+C# में Aspose.HTML का उपयोग करके HTML को PDF में बदलने के लिए विस्तृत चरण‑दर‑चरण गाइड।
+
 ### [Aspose.HTML के साथ .NET में EPUB को छवि में बदलें](./convert-epub-to-image/)
 .NET के लिए Aspose.HTML का उपयोग करके EPUB को छवियों में परिवर्तित करना सीखें। कोड उदाहरणों और अनुकूलन योग्य विकल्पों के साथ चरण‑दर‑चरण ट्यूटोरियल।
 
@@ -135,6 +138,12 @@ C# में कस्टम रिसोर्स हैंडलर का उ
 
 ### [C# में HTML को ZIP करने का तरीका – HTML लोड करें और कस्टम हैंडलर का उपयोग करें](./how-to-zip-html-in-c-load-html-use-custom-handler/)
 C# में कस्टम रिसोर्स हैंडलर का उपयोग करके HTML को लोड करके ZIP फ़ाइल में सहेजने की चरण‑दर‑स्टेप गाइड।
+
+### [C# में HTML को ZIP के रूप में सहेजें – पूर्ण गाइड](./save-html-as-zip-in-c-complete-guide/)
+C# में Aspose.HTML का उपयोग करके HTML को ZIP फ़ाइल में सहेजने की पूरी मार्गदर्शिका। चरण‑दर‑चरण कोड उदाहरण और सेटिंग्स।
+
+### [C# में HTML को PDF के रूप में सहेजें – फ़ॉन्ट्स के साथ पूर्ण गाइड](./save-html-as-pdf-in-c-complete-guide-with-fonts/)
+C# में Aspose.HTML का उपयोग करके फ़ॉन्ट्स को नियंत्रित करते हुए HTML को PDF में बदलने की पूरी मार्गदर्शिका।
 
 ## निष्कर्ष
 

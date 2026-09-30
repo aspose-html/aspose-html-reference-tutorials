@@ -42,6 +42,7 @@ Ora, portiamo le tue competenze al livello successivo. La modifica di documenti 
 ### [Come salvare HTML in C# – Gestori di risorse personalizzati e ZIP](./how-to-save-html-in-c-custom-resource-handlers-zip/)
 ### [Come salvare HTML con Aspose.Html – Guida completa C#](./how-to-save-html-with-aspose-html-complete-c-guide/)
 ### [Come comprimere HTML in C# – Guida completa passo‑passo](./how-to-zip-html-in-c-complete-step-by-step-guide/)
+### [Come salvare HTML come ZIP in C# – Guida completa con un gestore di risorse personalizzato](./save-html-as-zip-in-c-complete-guide-with-custom-resource-ha/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

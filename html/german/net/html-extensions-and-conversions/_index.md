@@ -116,6 +116,12 @@ Erfahren Sie, wie Sie HTML‑Inhalte mit Aspose.HTML für .NET in ein ZIP‑Arch
 Erfahren Sie, wie Sie mit Aspose.HTML für .NET eine komplette Webseite in einer einzigen HTML‑Datei speichern.
 ### [Aspose HTML Speicheroptionen: HTML in Stream speichern in C#](./aspose-html-save-options-save-html-to-stream-in-c/)
 Erfahren Sie, wie Sie HTML mit Aspose.HTML für .NET in einen Stream speichern. Schritt‑für‑Schritt‑Anleitung und Codebeispiele.
+### [PDF aus HTML erstellen – Schritt‑für‑Schritt‑Anleitung für Entwickler](./create-pdf-from-html-step-by-step-guide-for-developers/)
+Erfahren Sie, wie Sie mit Aspose.HTML für .NET HTML in PDF konvertieren – eine detaillierte Schritt‑für‑Schritt‑Anleitung für Entwickler.
+### [HTML in ZIP speichern in C# – Vollständige Anleitung](./save-html-as-zip-in-c-complete-guide/)
+Erfahren Sie, wie Sie HTML‑Inhalte mit Aspose.HTML für .NET in ein ZIP‑Archiv speichern – vollständige Schritt‑für‑Schritt‑Anleitung in C#.
+### [HTML in PDF speichern in C# – Vollständige Anleitung mit Schriftarten](./save-html-as-pdf-in-c-complete-guide-with-fonts/)
+Erfahren Sie, wie Sie HTML mit Aspose.HTML für .NET in PDF konvertieren und Schriftarten einbetten. Schritt‑für‑Schritt‑Beispiel.
 
 ## Abschluss
 

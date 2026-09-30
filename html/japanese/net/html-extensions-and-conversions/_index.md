@@ -45,12 +45,16 @@ Aspose.HTML for .NET を使い、C# で HTML を PDF に変換する完全ガイ
 
 ### [C# で Aspose を使用して HTML から PDF を作成する – 完全ガイド](./create-pdf-from-html-with-aspose-in-c-full-guide/)
 Aspose.HTML for .NET を利用し、C# で HTML を PDF に変換する手順を詳細に解説した完全ガイドです。
+### [C# で HTML を PDF に保存 – フォント付き 完全ガイド](./save-html-as-pdf-in-c-complete-guide-with-fonts/)
+Aspose.HTML for .NET を使用して、フォントを埋め込んだ状態で C# から HTML を PDF に変換する手順をステップバイステップで解説します。
 
 ### [HTML から PDF を作成する – C# ステップバイステップ ガイド](./create-pdf-from-html-c-step-by-step-guide/)
 Aspose.HTML for .NET を使用して、C# で HTML から PDF を作成する手順をステップバイステップで解説します。
 
 ### [Aspose.HTML を使用して HTML から PDF を作成する – ステップバイステップ ガイド](./create-pdf-from-html-with-aspose-html-step-by-step-guide/)
 Aspose.HTML for .NET を利用し、C# で HTML から PDF を作成する手順を詳しく解説します。
+### [HTML から PDF を作成 – 開発者向けステップバイステップガイド](./create-pdf-from-html-step-by-step-guide-for-developers/)
+Aspose.HTML for .NET を使用して、開発者向けに HTML から PDF を作成する手順をステップバイステップで解説します。
 
 ### [スタイル付きテキストで HTML ドキュメントを作成し、PDF にエクスポートする – 完全ガイド](./create-html-document-with-styled-text-and-export-to-pdf-full/)
 Aspose.HTML for .NET を使用して、スタイル付きテキストを含む HTML ドキュメントを作成し、PDF にエクスポートする手順を詳しく解説します。
@@ -112,6 +116,9 @@ Aspose.HTML for .NET を使用して、C# で Web ページを単一の HTML フ
 
 ### [Aspose.HTML のハンドラを使用する方法 – HTML を読み込み、ZIP に保存](./how-to-use-handler-in-aspose-html-load-html-save-as-zip/)
 Aspose.HTML のハンドラを利用して HTML をロードし、ZIP アーカイブとして保存する手順をステップバイステップで解説します。
+
+### [C# で HTML を ZIP に保存 – 完全ガイド](./save-html-as-zip-in-c-complete-guide/)
+Aspose.HTML for .NET を使用して、HTML コンテンツを ZIP アーカイブとして保存する完全ガイドをステップバイステップで紹介します。
 
 ## 結論
 

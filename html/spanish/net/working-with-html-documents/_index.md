@@ -54,6 +54,10 @@ Aprenda a guardar documentos HTML en C# usando controladores de recursos persona
 
 Aprenda a comprimir archivos HTML en C# usando Aspose.HTML con esta guía paso a paso.
 
+### [Guardar HTML como ZIP en C# – Guía completa con controlador de recursos personalizado](./save-html-as-zip-in-c-complete-guide-with-custom-resource-ha/)
+
+Aprenda a comprimir documentos HTML en archivos ZIP y guardarlos usando un controlador de recursos personalizado en C#.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

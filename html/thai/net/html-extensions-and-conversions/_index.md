@@ -116,6 +116,12 @@ Aspose.HTML สำหรับ .NET ไม่ใช่แค่ไลบรา�
 เรียนรู้วิธีบันทึก HTML ไปยังสตรีมใน C# ด้วย Aspose.HTML สำหรับ .NET อย่างละเอียดและง่ายดาย
 ### [วิธีใช้ handler ใน Aspose.HTML – โหลด HTML, บันทึกเป็น ZIP](./how-to-use-handler-in-aspose-html-load-html-save-as-zip/)
 เรียนรู้วิธีใช้ handler เพื่อโหลดไฟล์ HTML และบันทึกเป็นไฟล์ ZIP ด้วย Aspose.HTML สำหรับ .NET
+### [บันทึก HTML เป็น ZIP ใน C# – คู่มือเต็ม](./save-html-as-zip-in-c-complete-guide/)
+บันทึกไฟล์ HTML เป็น ZIP อย่างครบถ้วนด้วย C# ตามขั้นตอนของเรา
+### [บันทึก HTML เป็น PDF ใน C# – คู่มือเต็มพร้อมฟอนต์](./save-html-as-pdf-in-c-complete-guide-with-fonts/)
+เรียนรู้วิธีบันทึก HTML เป็น PDF ใน C# พร้อมการจัดการฟอนต์อย่างครบถ้วนด้วย Aspose.HTML สำหรับ .NET
+### [สร้าง PDF จาก HTML – คู่มือขั้นตอนต่อขั้นตอนสำหรับนักพัฒนา](./create-pdf-from-html-step-by-step-guide-for-developers/)
+สร้าง PDF จาก HTML อย่างง่ายดายด้วย Aspose.HTML สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อผลลัพธ์ที่แม่นยำ
 
 ## บทสรุป
 
