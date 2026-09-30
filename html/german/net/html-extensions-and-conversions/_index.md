@@ -88,6 +88,10 @@ Erfahren Sie, wie Sie mit Aspose in C# PDFs aus HTML generieren – vollständig
 ### [HTML als ZIP speichern – Komplettes C#‑Tutorial](./save-html-as-zip-complete-c-tutorial/)
 Erfahren Sie, wie Sie HTML‑Inhalte mit Aspose.HTML für .NET in ein ZIP‑Archiv speichern – vollständige Schritt‑für‑Schritt‑Anleitung in C#.
 ### [HTML in ZIP speichern in C# – Komplettes In‑Memory‑Beispiel](./save-html-to-zip-in-c-complete-in-memory-example/)
+Speichern Sie HTML‑Inhalte in ein ZIP‑Archiv komplett im Speicher mit Aspose.HTML für .NET. Schritt‑für‑Schritt‑Anleitung.
+### [Wie man Handler in Aspose.HTML verwendet – HTML laden, als ZIP speichern](./how-to-use-handler-in-aspose-html-load-html-save-as-zip/)
+Erfahren Sie, wie Sie mit Aspose.HTML einen Handler nutzen, HTML laden und das Ergebnis als ZIP‑Archiv speichern.
+
 ### [Benutzerdefinierter Ressourcen-Handler in C# – HTML in ZIP-Archiv aus dem Speicher konvertieren](./custom-resource-handler-in-c-convert-html-to-zip-archive-fro/)
 Erfahren Sie, wie Sie mit einem benutzerdefinierten Ressourcen-Handler HTML‑Inhalte im Speicher zu einem ZIP‑Archiv komprimieren.
 ### [HTML in C# zippen – HTML laden und benutzerdefinierten Handler verwenden](./how-to-zip-html-in-c-load-html-use-custom-handler/)
@@ -112,8 +116,6 @@ Erfahren Sie, wie Sie HTML‑Inhalte mit Aspose.HTML für .NET in ein ZIP‑Arch
 Erfahren Sie, wie Sie mit Aspose.HTML für .NET eine komplette Webseite in einer einzigen HTML‑Datei speichern.
 ### [Aspose HTML Speicheroptionen: HTML in Stream speichern in C#](./aspose-html-save-options-save-html-to-stream-in-c/)
 Erfahren Sie, wie Sie HTML mit Aspose.HTML für .NET in einen Stream speichern. Schritt‑für‑Schritt‑Anleitung und Codebeispiele.
-### [Wie man Handler in Aspose.HTML verwendet – HTML laden, als ZIP speichern](./how-to-use-handler-in-aspose-html-load-html-save-as-zip/)
-Erfahren Sie, wie Sie mit Aspose.HTML einen Handler nutzen, HTML laden und das Ergebnis als ZIP‑Archiv speichern.
 
 ## Abschluss
 

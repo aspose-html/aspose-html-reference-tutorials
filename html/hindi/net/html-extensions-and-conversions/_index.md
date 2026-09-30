@@ -94,14 +94,18 @@ Aspose.HTML के साथ .NET में HTML को MHTML में बद�
 .NET के लिए Aspose.HTML के साथ HTML को TIFF में कैसे बदलें, यह जानें। कुशल वेब सामग्री अनुकूलन के लिए हमारे चरण‑दर‑चरण मार्गदर्शिका का पालन करें।
 
 ### [Aspose.HTML के साथ .NET में HTML को XPS में बदलें](./convert-html-to-xps/)
+.NET के लिए Aspose.HTML की शक्ति का पता लगाएं: HTML को XPS में आसानी से बदलें। पूर्वापेक्षाएँ, चरण‑दर‑स्टेप मार्गदर्शिका और FAQ शामिल हैं।
 ### [HTML को ZIP के रूप में सहेजें – पूर्ण C# ट्यूटोरियल](./save-html-as-zip-complete-c-tutorial/)
 ### [C# में HTML को ज़िप कैसे करें – HTML को ज़िप में सहेजें](./how-to-zip-html-in-c-save-html-to-zip/)
 .NET के लिए Aspose.HTML का उपयोग करके C# में HTML को ज़िप फ़ाइल में सहेजने का तरीका सीखें।
 ### [स्टाइल्ड टेक्स्ट के साथ HTML दस्तावेज़ बनाएं और PDF में निर्यात करें – पूर्ण गाइड](./create-html-document-with-styled-text-and-export-to-pdf-full/)
 Aspose.HTML for .NET का उपयोग करके स्टाइल्ड टेक्ट वाले HTML दस्तावेज़ को बनाएं और उसे PDF में निर्यात करने की पूरी गाइड।
-.NET के लिए Aspose.HTML की शक्ति का पता लगाएं: HTML को XPS में आसानी से बदलें। पूर्वापेक्षाएँ, चरण‑दर‑स्टेप मार्गदर्शिका और FAQ शामिल हैं।
+.NET के लिए Aspose.HTML की शक्ति का पता लगाएं: HTML को XPS में आसानी से बदलें। पूर्वापेक्षाएँ, चरण-दर-स्टेप मार्गदर्शिका और FAQ शामिल हैं।
 ### [C# में HTML को ZIP में सहेजें – पूर्ण इन‑मेमोरी उदाहरण](./save-html-to-zip-in-c-complete-in-memory-example/)
 C# में इन‑मेमोरी में HTML को ZIP फ़ाइल में सहेजने का पूरा उदाहरण देखें।
+### [Aspose.HTML में हैंडलर का उपयोग कैसे करें – HTML लोड करें, ZIP के रूप में सहेजें](./how-to-use-handler-in-aspose-html-load-html-save-as-zip/)
+Aspose.HTML के हैंडलर का उपयोग करके HTML लोड करें और उसे ZIP फ़ाइल में सहेजने के चरण‑दर‑चरण मार्गदर्शन।
+
 ### [Aspose HTML सेव विकल्प: C# में HTML को स्ट्रीम में सहेजें](./aspose-html-save-options-save-html-to-stream-in-c/)
 C# में Aspose.HTML का उपयोग करके HTML को स्ट्रीम में सहेजने के चरण‑दर‑स्टेप गाइड।
 
@@ -131,9 +135,6 @@ C# में कस्टम रिसोर्स हैंडलर का उ
 
 ### [C# में HTML को ZIP करने का तरीका – HTML लोड करें और कस्टम हैंडलर का उपयोग करें](./how-to-zip-html-in-c-load-html-use-custom-handler/)
 C# में कस्टम रिसोर्स हैंडलर का उपयोग करके HTML को लोड करके ZIP फ़ाइल में सहेजने की चरण‑दर‑स्टेप गाइड।
-
-### [Aspose.HTML में हैंडलर का उपयोग कैसे करें – HTML लोड करें, ZIP के रूप में सहेजें](./how-to-use-handler-in-aspose-html-load-html-save-as-zip/)
-Aspose.HTML के हैंडलर का उपयोग करके HTML लोड करें और उसे ZIP फ़ाइल में सहेजने के चरण‑दर‑चरण मार्गदर्शन।
 
 ## निष्कर्ष
 
