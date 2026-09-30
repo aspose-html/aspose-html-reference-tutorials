@@ -22,14 +22,6 @@ title: حفظ HTML كملف PDF في C# – دليل كامل مع الخطوط
 url: /ar/net/html-extensions-and-conversions/save-html-as-pdf-in-c-complete-guide-with-fonts/
 ---
 
-marker.
-
-Proceed paragraphs.
-
-Will translate.
-
-Let's craft final output.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

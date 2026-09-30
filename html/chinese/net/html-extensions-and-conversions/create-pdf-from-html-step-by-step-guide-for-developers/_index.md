@@ -22,11 +22,7 @@ title: 从HTML创建PDF – 开发者分步指南
 url: /zh/net/html-extensions-and-conversions/create-pdf-from-html-step-by-step-guide-for-developers/
 ---
 
-HTML 示例". Title "Screenshot of the generated PDF – create pdf from html" -> "生成的 PDF 截图 – 创建 PDF 从 HTML". The caption sentence also translate.
-
-Proceed.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

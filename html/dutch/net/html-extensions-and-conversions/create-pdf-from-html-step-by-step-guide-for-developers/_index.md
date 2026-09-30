@@ -24,10 +24,6 @@ title: PDF maken van HTML – Stapsgewijze gids voor ontwikkelaars
 url: /nl/net/html-extensions-and-conversions/create-pdf-from-html-step-by-step-guide-for-developers/
 ---
 
-page? Not present.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

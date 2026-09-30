@@ -22,11 +22,7 @@ title: HTML mentése ZIP-fájlba C#-ban – Teljes útmutató egyedi erőforrás
 url: /hu/net/working-with-html-documents/save-html-as-zip-in-c-complete-guide-with-custom-resource-ha/
 ---
 
-code block placeholders. Ensure we kept them.
-
-Also ensure we didn't translate URLs inside image alt text? We changed alt text but URL unchanged.
-
-Now output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

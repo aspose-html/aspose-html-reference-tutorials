@@ -24,7 +24,7 @@ title: Zapisz HTML jako PDF w C# – Kompletny przewodnik z czcionkami
 url: /pl/net/html-extensions-and-conversions/save-html-as-pdf-in-c-complete-guide-with-fonts/
 ---
 
-craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

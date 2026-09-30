@@ -24,15 +24,7 @@ title: C#'de HTML'yi ZIP olarak kaydet – Tam Kılavuz
 url: /tr/net/html-extensions-and-conversions/save-html-as-zip-in-c-complete-guide/
 ---
 
-..." translate.
-
-We'll translate while preserving **save HTML as ZIP** bold.
-
-Proceed.
-
-Will keep code block placeholders.
-
-Let's write final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

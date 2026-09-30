@@ -24,14 +24,6 @@ title: HTML in PDF in C# speichern – Vollständiger Leitfaden mit Schriftarten
 url: /de/net/html-extensions-and-conversions/save-html-as-pdf-in-c-complete-guide-with-fonts/
 ---
 
-? You’re not alone. Many developers hit this snag when they want to ship invoices, reports, or printable receipts directly from web content." => German.
-
-Proceed.
-
-Make sure to keep markdown formatting.
-
-Let's write.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

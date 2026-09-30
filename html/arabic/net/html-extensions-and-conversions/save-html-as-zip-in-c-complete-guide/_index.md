@@ -23,24 +23,6 @@ title: حفظ HTML كملف ZIP في C# – دليل شامل
 url: /ar/net/html-extensions-and-conversions/save-html-as-zip-in-c-complete-guide/
 ---
 
-Translate: "حفظ HTML كملف ZIP في C# – دليل كامل"
-
-Then paragraph.
-
-We'll translate.
-
-Make sure to keep **bold** formatting.
-
-Proceed.
-
-Also blockquote > **Prerequisites** – You’ll need .NET 6+ ... translate.
-
-Lists: bullet points.
-
-Tables: keep pipe structure but translate cells.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

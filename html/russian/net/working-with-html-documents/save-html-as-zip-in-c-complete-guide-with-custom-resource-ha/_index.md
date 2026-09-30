@@ -22,9 +22,7 @@ title: Сохранение HTML в ZIP в C# – Полное руково�
 url: /ru/net/working-with-html-documents/save-html-as-zip-in-c-complete-guide-with-custom-resource-ha/
 ---
 
-sure to keep code block placeholders unchanged.
-
-Let's produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

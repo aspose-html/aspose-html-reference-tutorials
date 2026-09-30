@@ -21,8 +21,6 @@ title: Αποθήκευση HTML ως ZIP σε C# – Πλήρης Οδηγός 
 url: /el/net/working-with-html-documents/save-html-as-zip-in-c-complete-guide-with-custom-resource-ha/
 ---
 
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

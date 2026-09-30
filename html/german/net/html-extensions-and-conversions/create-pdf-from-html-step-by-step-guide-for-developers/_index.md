@@ -24,9 +24,7 @@ title: PDF aus HTML erstellen – Schritt‑für‑Schritt‑Anleitung für Entw
 url: /de/net/html-extensions-and-conversions/create-pdf-from-html-step-by-step-guide-for-developers/
 ---
 
-quote with > **Why this matters:** etc. Keep.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -24,14 +24,6 @@ title: Crea PDF da HTML – Guida passo‑passo per sviluppatori
 url: /it/net/html-extensions-and-conversions/create-pdf-from-html-step-by-step-guide-for-developers/
 ---
 
-, etc.
-
-Let's translate step by step.
-
-Will keep code block placeholders unchanged.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

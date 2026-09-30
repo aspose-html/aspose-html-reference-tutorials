@@ -24,20 +24,6 @@ title: Simpan HTML sebagai PDF di C# – Panduan Lengkap dengan Font
 url: /id/net/html-extensions-and-conversions/save-html-as-pdf-in-c-complete-guide-with-fonts/
 ---
 
-_0}} etc.
-
-We need to translate headings, bullet points, paragraphs, etc.
-
-Let's proceed.
-
-Start with shortcodes unchanged.
-
-Then heading "# Save HTML as PDF in C# – Complete Guide with Fonts" translate to Indonesian: "# Simpan HTML sebagai PDF di C# – Panduan Lengkap dengan Font". Keep same heading level.
-
-Proceed.
-
-I'll produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

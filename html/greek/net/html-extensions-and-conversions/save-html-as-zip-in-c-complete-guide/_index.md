@@ -24,12 +24,6 @@ title: Αποθήκευση HTML ως ZIP σε C# – Πλήρης Οδηγός
 url: /el/net/html-extensions-and-conversions/save-html-as-zip-in-c-complete-guide/
 ---
 
-Greek punctuation and preserve markdown.
-
-Let's translate.
-
-I'll produce Greek translations.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -21,14 +21,6 @@ title: Salva HTML come ZIP in C# – Guida completa con gestore di risorse perso
 url: /it/net/working-with-html-documents/save-html-as-zip-in-c-complete-guide-with-custom-resource-ha/
 ---
 
-#.
-
-Proceed.
-
-Let's translate each paragraph.
-
-Will produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

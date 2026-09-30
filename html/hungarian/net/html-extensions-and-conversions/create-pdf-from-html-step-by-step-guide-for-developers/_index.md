@@ -24,25 +24,7 @@ title: PDF létrehozása HTML‑ből – Lépésről‑lépésre útmutató fejl
 url: /hu/net/html-extensions-and-conversions/create-pdf-from-html-step-by-step-guide-for-developers/
 ---
 
-zpontú alkalmazásokban."
-
-Continue.
-
-"In this tutorial we’ll walk through a **complete, runnable C# example** that shows you how to **convert HTML to PDF**, configure rendering options for crisp output, and finally **save HTML as PDF** on disk. By the end you’ll have a solid, production‑ready pattern for **export HTML to PDF** that you can drop into any .NET project."
-
-Translate.
-
-Proceed similarly.
-
-Make sure to keep markdown formatting like **bold**.
-
-Lists: keep bullet points.
-
-Code block placeholders remain.
-
-Image alt and title translate.
-
-Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

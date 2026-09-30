@@ -23,16 +23,6 @@ title: Salvar HTML como ZIP em C# – Guia Completo
 url: /pt/net/html-extensions-and-conversions/save-html-as-zip-in-c-complete-guide/
 ---
 
-Pro Tips for Production‑Ready **Save HTML as ZIP** Implementations" translate.
-
-List items translate.
-
-The last bullet ends with "Security – If the ZIP" incomplete; keep as is.
-
-We must keep shortcodes at end.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

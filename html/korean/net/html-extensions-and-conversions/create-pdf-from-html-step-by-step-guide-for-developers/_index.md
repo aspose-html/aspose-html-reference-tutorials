@@ -22,18 +22,6 @@ title: HTML에서 PDF 만들기 – 개발자를 위한 단계별 가이드
 url: /ko/net/html-extensions-and-conversions/create-pdf-from-html-step-by-step-guide-for-developers/
 ---
 
-Tutorial" => Korean: "# HTML에서 PDF 생성 – 완전한 C# 튜토리얼"
-
-Paragraph: "Ever needed to **create PDF from HTML** but weren’t sure which API calls to use? ..." translate.
-
-We'll translate each paragraph.
-
-Make sure to keep **bold** formatting.
-
-Also keep list items.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

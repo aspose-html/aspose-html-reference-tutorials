@@ -24,20 +24,7 @@ title: C# में HTML को PDF के रूप में सहेजे�
 url: /hi/net/html-extensions-and-conversions/save-html-as-pdf-in-c-complete-guide-with-fonts/
 ---
 
-.  
-- Integrate this workflow into an ASP.NET Core API so your web service can return PDFs on demand.  
-
-Translate.
-
-Got questions... translate.
-
-Finally closing shortcodes.
-
-Now produce final content.
-
-Be careful to keep code block placeholders unchanged. Also preserve markdown formatting.
-
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

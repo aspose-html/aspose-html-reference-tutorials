@@ -24,8 +24,6 @@ title: Vytvořit PDF z HTML – krok za krokem průvodce pro vývojáře
 url: /cs/net/html-extensions-and-conversions/create-pdf-from-html-step-by-step-guide-for-developers/
 ---
 
-.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

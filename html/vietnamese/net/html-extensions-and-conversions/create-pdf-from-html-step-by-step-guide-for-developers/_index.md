@@ -24,13 +24,7 @@ title: Tạo PDF từ HTML – Hướng dẫn từng bước cho nhà phát tri�
 url: /vi/net/html-extensions-and-conversions/create-pdf-from-html-step-by-step-guide-for-developers/
 ---
 
-; maybe keep as is. Safer to keep unchanged to avoid mismatch. We'll translate surrounding text but keep the quoted alt text unchanged.
-
-Also need to keep code block placeholders unchanged.
-
-Proceed to translate.
-
-Let's produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

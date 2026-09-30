@@ -18,11 +18,7 @@ title: 在 C# 中将 HTML 保存为 ZIP – 包含自定义资源处理程序的
 url: /zh/net/working-with-html-documents/save-html-as-zip-in-c-complete-guide-with-custom-resource-ha/
 ---
 
-all shortcodes unchanged.
-
-Also note there is a placeholder {{< /blocks/products/pf/tutorial-page-section >}} etc.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

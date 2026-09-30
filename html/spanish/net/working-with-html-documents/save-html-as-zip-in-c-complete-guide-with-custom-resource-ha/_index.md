@@ -21,8 +21,6 @@ title: Guardar HTML como ZIP en C# – Guía completa con manejador de recursos 
 url: /es/net/working-with-html-documents/save-html-as-zip-in-c-complete-guide-with-custom-resource-ha/
 ---
 
-same structure.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -22,18 +22,6 @@ title: 在 C# 中将 HTML 保存为 ZIP – 完整指南
 url: /zh/net/html-extensions-and-conversions/save-html-as-zip-in-c-complete-guide/
 ---
 
-in C# – Complete Guide". Translate: "# 在 C# 中将 HTML 保存为 ZIP – 完整指南". Keep the #.
-
-Then paragraph: "Ever needed to **save HTML as ZIP** but weren't sure which .NET classes to reach for? ..." translate.
-
-Proceed.
-
-Make sure to keep bold formatting **.
-
-Proceed step by step.
-
-Let's write translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

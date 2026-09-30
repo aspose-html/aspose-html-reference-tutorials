@@ -24,7 +24,7 @@ title: HTML als ZIP in C# speichern – Vollständiger Leitfaden
 url: /de/net/html-extensions-and-conversions/save-html-as-zip-in-c-complete-guide/
 ---
 
-.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
