@@ -1,0 +1,7 @@
+Title: How to Use CSS in Java – Load HTML, Count Links & Evaluate XPath
+Slug: how-to-use-css-in-java-load-html-count-links-evaluate-xpath
+Category: css-html-form-editing
+ProcessedDate: 2026-06-16T19:14:59.529016
+SourceRepo: AI Search API
+Keywords: how to use css, load html file, how to count links, count html elements, evaluate xpath java
+PRNumber: 183

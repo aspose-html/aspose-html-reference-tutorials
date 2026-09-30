@@ -46,6 +46,8 @@ url: /zh/java/editing-html-documents/
 ## 在 Aspose.HTML for Java 教程中编辑 HTML 文档
 ### [在 Aspose.HTML for Java 中编辑 HTML 文档树](./edit-html-document-tree/)
 了解如何使用 Aspose.HTML for Java 操作 HTML 文档。高效内容管理的分步指南。
+### [使用 Java 创建新 HTML 元素 – 完整 Aspose.HTML 指南](./create-new-html-element-with-java-full-aspose-html-guide/)
+本完整指南演示如何使用 Aspose.HTML for Java 在 HTML 文档中创建并插入新元素，实现灵活的结构编辑。
 ### [Aspose.HTML for Java 中的高级 HTML 文档树编辑](./advanced-html-document-tree-editing/)
 通过本分步指南了解如何使用 Aspose.HTML for Java 编辑 HTML 文档，包括创建样式、段落和转换为 PDF。
 ### [在 Aspose.HTML for Java 中将外部 CSS 应用于 HTML 文档](./apply-external-css-html-documents/)
@@ -60,6 +62,10 @@ url: /zh/java/editing-html-documents/
 通过我们简单的分步教程学习使用 Aspose.HTML for Java 在 HTML 文档中实现内部 CSS。
 ### [固定线程池 Java – 使用 ExecutorService 并行 HTML 清理](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 了解如何使用 Java 固定线程池和 ExecutorService 实现并行 HTML 清理，提高处理效率。
+### [在 Java 中向 body 追加子元素 – 完整 Aspose.HTML 教程](./append-child-to-body-in-java-full-aspose-html-tutorial/)
+了解如何在 Java 中使用 Aspose.HTML 将子元素追加到 body，实现完整的文档操作。
+### [使用 Java 更改 MHTML 中的 h1 文本 – 完整分步指南](./change-h1-text-in-mhtml-with-java-full-step-by-step-guide/)
+了解如何使用 Aspose.HTML for Java 在 MHTML 文件中更改 h1 文本，完整分步指南帮助您轻松实现。
 ### [如何在 Java DOM 中追加子节点 – 完整 Aspose.HTML 指南](./how-to-append-child-in-java-dom-complete-aspose-html-guide/)
 了解如何使用 Aspose.HTML for Java 在 Java DOM 中追加子节点，完整的分步指南。
 

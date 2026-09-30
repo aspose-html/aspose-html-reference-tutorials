@@ -1,0 +1,7 @@
+Title: html table data binding tutorial – create a dynamic HTML table
+Slug: html-table-data-binding-tutorial-create-a-dynamic-html-table
+Category: creating-managing-html-documents
+ProcessedDate: 2026-08-13T02:30:33.855710
+SourceRepo: AI Search API
+Keywords: html table data binding, how to merge data, loop through collection, show first name, dynamic html table
+PRNumber: 239
