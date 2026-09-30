@@ -97,6 +97,9 @@ Pelajari cara membuat gambar dari HTML menggunakan C# dengan Aspose.HTML melalui
 ### [Render HTML ke PDF dengan Aspose.HTML – Panduan Langkah‑demi‑Langkah](./render-html-to-pdf-with-aspose-html-step-by-step-guide/)
 Pelajari cara merender HTML menjadi PDF menggunakan Aspose.HTML dengan panduan langkah demi langkah yang lengkap.
 
+### [Cara Merender HTML sebagai PNG di C# – Panduan Langkah‑demi‑Langkah](./how-to-render-html-as-png-in-c-step-by-step-guide/)
+Pelajari cara merender HTML menjadi PNG menggunakan Aspose.HTML untuk .NET dengan panduan langkah demi langkah dalam C#.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

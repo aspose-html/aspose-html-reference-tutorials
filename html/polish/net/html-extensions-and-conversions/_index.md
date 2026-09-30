@@ -111,6 +111,8 @@ Pełny przewodnik, jak konwertować HTML do PDF w C# przy użyciu Aspose.HTML i 
 Dowiedz się, jak zapisać całą stronę internetową jako jeden plik HTML przy użyciu Aspose.HTML w C#.
 ### [Opcje zapisu Aspose HTML: Zapisz HTML do strumienia w C#](./aspose-html-save-options-save-html-to-stream-in-c/)
 Dowiedz się, jak zapisać dokument HTML bezpośrednio do strumienia w C# przy użyciu Aspose.HTML.
+### [Jak używać handlera w Aspose.HTML – wczytaj HTML i zapisz jako ZIP](./how-to-use-handler-in-aspose-html-load-html-save-as-zip/)
+Dowiedz się, jak używać handlera w Aspose.HTML do wczytywania HTML i zapisywania go jako pliku ZIP.
 
 ## Wniosek
 

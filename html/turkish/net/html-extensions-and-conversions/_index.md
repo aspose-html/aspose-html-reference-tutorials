@@ -87,6 +87,8 @@ Aspose.HTML for .NET kullanarak HTML dosyasını ZIP arşivine kaydetmeyi adım 
 Aspose.HTML for .NET ile C#'ta bir web sayfasını tek HTML dosyası olarak kaydedin. Adım adım kılavuz ve örnek kodlar.
 ### [Aspose HTML Kaydetme Seçenekleri: C#'ta HTML'yi Akışa Kaydet](./aspose-html-save-options-save-html-to-stream-in-c/)
 Aspose.HTML for .NET kullanarak C# ile HTML'yi akışa kaydetmeyi adım adım öğrenin.
+### [Aspose.HTML'de Handler Kullanımı – HTML Yükle ve ZIP Olarak Kaydet](./how-to-use-handler-in-aspose-html-load-html-save-as-zip/)
+Aspose.HTML for .NET ile bir handler aracılığıyla HTML dosyasını yükleyin ve ZIP arşivine kaydedin. Adım adım rehber.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

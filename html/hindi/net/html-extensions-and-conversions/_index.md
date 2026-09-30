@@ -103,6 +103,9 @@ Aspose.HTML for .NET का उपयोग करके स्टाइल्�
 .NET के लिए Aspose.HTML की शक्ति का पता लगाएं: HTML को XPS में आसानी से बदलें। पूर्वापेक्षाएँ, चरण-दर-स्टेप मार्गदर्शिका और FAQ शामिल हैं।
 ### [C# में HTML को ZIP में सहेजें – पूर्ण इन‑मेमोरी उदाहरण](./save-html-to-zip-in-c-complete-in-memory-example/)
 C# में इन‑मेमोरी में HTML को ZIP फ़ाइल में सहेजने का पूरा उदाहरण देखें।
+### [Aspose.HTML में हैंडलर का उपयोग कैसे करें – HTML लोड करें, ZIP के रूप में सहेजें](./how-to-use-handler-in-aspose-html-load-html-save-as-zip/)
+Aspose.HTML के हैंडलर का उपयोग करके HTML लोड करें और उसे ZIP फ़ाइल में सहेजने के चरण‑दर‑चरण मार्गदर्शन।
+
 ### [Aspose HTML सेव विकल्प: C# में HTML को स्ट्रीम में सहेजें](./aspose-html-save-options-save-html-to-stream-in-c/)
 C# में Aspose.HTML का उपयोग करके HTML को स्ट्रीम में सहेजने के चरण‑दर‑स्टेप गाइड।
 

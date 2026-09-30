@@ -111,6 +111,8 @@ Learn how to save HTML content into a ZIP archive using C# and Aspose.HTML for .
 Learn how to save HTML content into a ZIP archive in memory using C# and Aspose.HTML for .NET in this step-by-step tutorial.
 ### [Aspose HTML Save Options: Save HTML to Stream in C#](./aspose-html-save-options-save-html-to-stream-in-c/)
 Learn how to save an HTML document directly to a stream using Aspose.HTML in C# with a clear, step-by-step tutorial.
+### [how to use handler in Aspose.HTML – Load HTML, Save as ZIP](./how-to-use-handler-in-aspose-html-load-html-save-as-zip/)
+Learn how to use a handler in Aspose.HTML to load HTML content and save it as a ZIP archive with step-by-step C# examples.
 
 ## Conclusion
 

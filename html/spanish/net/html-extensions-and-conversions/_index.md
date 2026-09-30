@@ -112,6 +112,8 @@ Aprenda a guardar documentos HTML en un archivo ZIP usando C# con Aspose.HTML, s
 Aprenda a guardar archivos HTML en un archivo ZIP usando C# y Aspose.HTML con una guía paso a paso completa.
 ### [Archivo HTML único – Guardar una página web como un solo archivo HTML en C#](./single-file-html-save-a-web-page-as-one-html-file-in-c/)
 Aprenda a guardar una página web completa en un solo archivo HTML usando Aspose.HTML y C# paso a paso.
+### [Cómo usar el controlador en Aspose.HTML – Cargar HTML, Guardar como ZIP](./how-to-use-handler-in-aspose-html-load-html-save-as-zip/)
+Aprenda a cargar HTML y guardarlo como archivo ZIP usando un handler en Aspose.HTML para .NET.
 
 ## Conclusión
 

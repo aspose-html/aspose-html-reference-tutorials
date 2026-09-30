@@ -109,6 +109,8 @@ C#와 Aspose.HTML을 사용해 사용자 정의 리소스 핸들러로 HTML을 Z
 Aspose.HTML for .NET을 활용해 C#에서 HTML을 PDF로 변환하는 전체 단계별 가이드입니다.
 ### [Aspose HTML 저장 옵션: C#에서 HTML을 스트림으로 저장](./aspose-html-save-options-save-html-to-stream-in-c/)
 Aspose.HTML for .NET을 사용해 C#에서 HTML을 메모리 스트림으로 저장하는 방법을 단계별로 안내합니다.
+### [Aspose.HTML에서 핸들러 사용 방법 – HTML 로드 및 ZIP으로 저장](./how-to-use-handler-in-aspose-html-load-html-save-as-zip/)
+Aspose.HTML의 핸들러를 활용해 HTML을 로드하고 ZIP 파일로 저장하는 단계별 가이드를 제공합니다.
 
 ## 결론
 

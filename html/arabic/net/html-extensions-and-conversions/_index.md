@@ -111,6 +111,8 @@ url: /ar/net/html-extensions-and-conversions/
 تعلم كيفية ضغط ملفات HTML باستخدام معالج موارد مخصص في C# مع Aspose.HTML.
 ### [خيارات حفظ Aspose HTML: حفظ HTML إلى تدفق في C#](./aspose-html-save-options-save-html-to-stream-in-c/)
 تعلم كيفية حفظ مستند HTML إلى تدفق باستخدام Aspose.HTML في C# خطوة بخطوة.
+### [كيفية استخدام المعالج في Aspose.HTML – تحميل HTML، حفظ كملف ZIP](./how-to-use-handler-in-aspose-html-load-html-save-as-zip/)
+تعلم كيفية تحميل مستند HTML واستخدام المعالج لحفظه كملف ZIP باستخدام Aspose.HTML.
 
 ## خاتمة
 

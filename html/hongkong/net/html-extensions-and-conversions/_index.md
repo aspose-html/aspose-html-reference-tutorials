@@ -115,6 +115,8 @@ Aspose.HTML for .NET 不只是一個函式庫；它還是一個函式庫。它�
 使用 Aspose.HTML for .NET 在 C# 中將整個網頁保存為單一 HTML 檔案，方便部署與分享。
 ### [Aspose HTML 儲存選項：在 C# 中將 HTML 儲存至串流](./aspose-html-save-options-save-html-to-stream-in-c/)
 示範使用 Aspose.HTML Save Options 將 HTML 輸出為記憶體串流的步驟與範例程式碼。
+### [如何在 Aspose.HTML 中使用處理程序 – 載入 HTML，儲存為 ZIP](./how-to-use-handler-in-aspose-html-load-html-save-as-zip/)
+使用 Aspose.HTML for .NET 透過處理程序載入 HTML 並將其壓縮為 ZIP 檔案的完整步驟指南。
 
 ## 結論
 

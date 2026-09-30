@@ -52,6 +52,9 @@ Kompletní návod v C#, jak pomocí Aspose.HTML převést HTML soubory do formá
 Naučte se, jak pomocí Aspose.HTML v C# převést HTML do obrázku. Kompletní průvodce krok za krokem.
 ### [Jak použít Aspose k vykreslení HTML do PNG v C#](./how-to-use-aspose-to-render-html-to-png-in-c/)
 Naučte se, jak pomocí Aspose.HTML v C# převést HTML soubory do PNG formátu. Praktické ukázky a tipy pro rychlé vykreslení.
+### [Jak vykreslit HTML jako PNG v C# – krok za krokem](./how-to-render-html-as-png-in-c-step-by-step-guide/)
+Kompletní průvodce v C#, který ukazuje, jak převést HTML do PNG pomocí Aspose.HTML krok po kroku.
+
 ### [Renderujte EPUB jako XPS v .NET pomocí Aspose.HTML](./render-epub-as-xps/)
 V tomto komplexním kurzu se dozvíte, jak vytvářet a vykreslovat dokumenty HTML pomocí Aspose.HTML for .NET. Ponořte se do světa HTML manipulace, web scraping a další.
 

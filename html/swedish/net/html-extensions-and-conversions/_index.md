@@ -111,6 +111,8 @@ Lär dig hur du sparar en hel webbsida som en enda HTML-fil med C# och Aspose.HT
 En komplett steg‑för‑steg‑guide för att konvertera HTML till PDF i C# med Aspose.HTML.
 ### [Aspose HTML-sparalternativ: Spara HTML till ström i C#](./aspose-html-save-options-save-html-to-stream-in-c/)
 Lär dig hur du sparar HTML direkt till en ström med Aspose.HTML för .NET i C# med hjälp av sparalternativ.
+### [Hur man använder handler i Aspose.HTML – Ladda HTML, spara som ZIP](./how-to-use-handler-in-aspose-html-load-html-save-as-zip/)
+Lär dig hur du använder en handler i Aspose.HTML för att ladda HTML och spara den som en ZIP-fil med C#.
 
 ## Slutsats
 

@@ -113,6 +113,8 @@ Aspose.HTML для .NET — это не просто библиотека; эт�
 Узнайте, как сохранить всю веб‑страницу в один HTML‑файл с помощью Aspose.HTML для .NET и C#.
 ### [Aspose HTML Параметры сохранения: Сохранить HTML в поток в C#](./aspose-html-save-options-save-html-to-stream-in-c/)
 Узнайте, как сохранить HTML в поток с помощью Aspose.HTML в C# с использованием параметров сохранения.
+### [Как использовать обработчик в Aspose.HTML – загрузить HTML и сохранить в ZIP](./how-to-use-handler-in-aspose-html-load-html-save-as-zip/)
+Узнайте, как загрузить HTML‑документ с помощью обработчика Aspose.HTML и сохранить его в архив ZIP в .NET.
 
 ## Заключение
 

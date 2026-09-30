@@ -112,6 +112,8 @@ Scopri come salvare una pagina web intera in un unico file HTML usando Aspose.HT
 Scopri come salvare un documento HTML in un archivio ZIP completo usando Aspose.HTML per .NET in C#.
 ### [Opzioni di salvataggio Aspose HTML: salva HTML su stream in C#](./aspose-html-save-options-save-html-to-stream-in-c/)
 Scopri come salvare un documento HTML direttamente in uno stream usando le opzioni di salvataggio di Aspose.HTML in C#.
+### [Come usare il gestore in Aspose.HTML – Carica HTML, salva come ZIP](./how-to-use-handler-in-aspose-html-load-html-save-as-zip/)
+Scopri come utilizzare il gestore di Aspose.HTML per caricare un documento HTML e salvarlo in un archivio ZIP in C#.
 
 ## Conclusione
 
