@@ -59,6 +59,8 @@ Schöpfen Sie das Potenzial von Aspose.HTML für .NET mit unserem umfassenden Ha
 Erfahren Sie, wie Sie die Leistung von Aspose.HTML für .NET nutzen. Optimieren Sie Ihre Webentwicklung mit HTML-Manipulation und -Rendering.
 ### [Erstellen eines Dokuments in .NET mit Aspose.HTML](./creating-a-document/)
 Entfesseln Sie die Leistungsfähigkeit von Aspose.HTML für .NET. Lernen Sie, HTML- und SVG-Dokumente mühelos zu erstellen, zu bearbeiten und zu optimieren. Entdecken Sie Schritt-für-Schritt-Beispiele und FAQs.
+### [HTML mit Aspose erstellen – Element finden, fett formatieren](./how-to-create-html-with-aspose-find-element-apply-bold/)
+Erfahren Sie, wie Sie mit Aspose.HTML ein HTML-Dokument erstellen, ein bestimmtes Element finden und den Text fett formatieren.
 ### [Bearbeiten eines Dokuments in .NET mit Aspose.HTML](./editing-a-document/)
 Erstellen Sie fesselnde Webinhalte mit Aspose.HTML für .NET. Erfahren Sie, wie Sie HTML, CSS und mehr bearbeiten.
 ### [Speichern eines Dokuments in .NET mit Aspose.HTML](./saving-a-document/)
@@ -69,8 +71,14 @@ Erfahren Sie, wie Sie mit Aspose.HTML für .NET dynamische Webinhalte erstellen.
 Erfahren Sie, wie Sie Aspose.HTML für .NET verwenden. Importieren Sie Namespaces, führen Sie HTML mit XML zusammen und verbessern Sie Ihre Webentwicklungsfähigkeiten mit diesem umfassenden Handbuch.
 ### [Generieren Sie XPS-Dokumente mit XpsDevice in .NET mit Aspose.HTML](./generate-xps-documents-by-xpsdevice/)
 Schöpfen Sie das Potenzial der Webentwicklung mit Aspose.HTML für .NET. Erstellen, konvertieren und bearbeiten Sie HTML-Dokumente ganz einfach.
+### [HTML-Dokument mit Aspose.HTML erstellen – Schritt‑für‑Schritt‑Anleitung](./create-html-document-with-aspose-html-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.HTML ein HTML-Dokument von Grund auf erstellen – detaillierte Schritt‑für‑Schritt‑Anleitung.
 ### [HTML aus String in C# erstellen – Leitfaden für benutzerdefinierten Ressourcen-Handler](./create-html-from-string-in-c-custom-resource-handler-guide/)
 Erfahren Sie, wie Sie mit einem benutzerdefinierten Ressourcen-Handler HTML aus einem String in C# generieren und rendern.
+### [Text fett und kursiv in C# – Schnellleitfaden zur HTML-Stilformatierung](./make-text-bold-italic-in-c-quick-guide-to-styling-html/)
+Erfahren Sie, wie Sie Text in HTML fett und kursiv formatieren, indem Sie Aspose.HTML für .NET in C# verwenden.
+### [Element zum Body hinzufügen – Vollständiger C#-Leitfaden mit Aspose.HTML](./append-element-to-body-complete-c-guide-with-aspose-html/)
+Erfahren Sie, wie Sie mit Aspose.HTML in C# ein Element zum Body einer HTML-Datei hinzufügen.
 
 ## Abschluss
 

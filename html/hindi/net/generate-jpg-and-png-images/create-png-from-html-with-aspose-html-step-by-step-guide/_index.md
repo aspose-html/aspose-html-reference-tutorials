@@ -1,27 +1,26 @@
 ---
 category: general
-date: 2026-02-25
-description: C# में Aspose.HTML का उपयोग करके HTML से जल्दी PNG बनाएं। HTML को PNG
-  में रेंडर करना, इमेज की चौड़ाई और ऊँचाई समायोजित करना, और HTML को PNG के रूप में
-  सहेजना सीखें।
+date: 2026-02-10
+description: Aspose.Html का उपयोग करके HTML से जल्दी PNG बनाएं। जानें कि HTML को PNG
+  में कैसे रेंडर करें, HTML को PNG में कैसे बदलें, HTML को PNG के रूप में कैसे सहेजें
+  और C# में इमेज के आयाम कैसे सेट करें।
 draft: false
 keywords:
 - create png from html
 - render html to png
-- convert html to image
-- adjust image width height
+- convert html to png
 - save html as png
+- set image dimensions
 language: hi
-og_description: C# में HTML से PNG बनाएं। यह ट्यूटोरियल दिखाता है कि कैसे HTML को
-  PNG में रेंडर करें, छवि की चौड़ाई और ऊँचाई समायोजित करें, और Aspose.HTML का उपयोग
-  करके HTML को PNG के रूप में सहेजें।
-og_title: Aspose.HTML के साथ HTML से PNG बनाएं – पूर्ण मार्गदर्शिका
+og_description: C# में Aspose.Html का उपयोग करके HTML से PNG बनाएं। यह ट्यूटोरियल
+  दिखाता है कि HTML को PNG में कैसे रेंडर करें, HTML को PNG में कैसे बदलें, HTML को
+  PNG के रूप में सहेजें और छवि के आयाम सेट करें।
+og_title: Aspose.Html के साथ HTML से PNG बनाएं – पूर्ण गाइड
 tags:
-- Aspose.HTML
 - C#
+- Aspose.Html
 - Image Rendering
-- .NET
-title: Aspose.HTML के साथ HTML से PNG बनाएं – चरण‑दर‑चरण गाइड
+title: Aspose.Html के साथ HTML से PNG बनाएं – चरण‑दर‑चरण मार्गदर्शिका
 url: /hi/net/generate-jpg-and-png-images/create-png-from-html-with-aspose-html-step-by-step-guide/
 ---
 
@@ -29,184 +28,180 @@ url: /hi/net/generate-jpg-and-png-images/create-png-from-html-with-aspose-html-s
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# HTML से PNG बनाएं – पूर्ण C# ट्यूटोरियल
+# HTML से PNG बनाएं Aspose.Html के साथ – पूर्ण गाइड
 
-क्या आपने कभी सोचा है कि **HTML से PNG कैसे बनाएं** बिना किसी भारी ब्राउज़र इंजन को शामिल किए? आप अकेले नहीं हैं। कई वेब‑से‑इमेज पाइपलाइनों में बाधा यह है कि एक छोटा मार्कअप स्निपेट को एक स्पष्ट PNG फ़ाइल में बदला जाए जिसे ईमेल किया जा सके, रिपोर्ट में एम्बेड किया जा सके, या बाद में उपयोग के लिए कैश किया जा सके।  
+क्या आपको कभी **HTML से PNG बनाना** पड़ा है लेकिन यह नहीं पता था कि कौन-सी लाइब्रेरी वेक्टर ग्राफ़िक्स, एंटीएलियासिंग और कस्टम साइज को संभाल सके? आप अकेले नहीं हैं। कई डेवलपर्स को वेब पेज को ईमेल थंबनेल, रिपोर्ट या सोशल‑मीडिया प्रीव्यू के लिए बिटमैप में बदलते समय रुकावट आती है।  
 
-अच्छी खबर? Aspose.HTML for .NET के साथ आप केवल कुछ कोड लाइनों में **HTML को PNG में रेंडर** कर सकते हैं, आउटपुट आकार को समायोजित कर सकते हैं, और डिस्क पर **HTML को PNG के रूप में सहेज** सकते हैं। इस गाइड में हम पूरी प्रक्रिया को चरण‑दर‑चरण देखेंगे, प्रत्येक सेटिंग क्यों महत्वपूर्ण है समझाएंगे, और आपको दिखाएंगे कि **इमेज की चौड़ाई और ऊँचाई कैसे समायोजित करें** ताकि परिपूर्ण परिणाम मिलें।
+अच्छी खबर? Aspose.Html के साथ आप **HTML को PNG में रेंडर** कर सकते हैं सिर्फ कुछ ही C# लाइनों में। इस गाइड में हम सब कुछ कवर करेंगे—कैसे **HTML को PNG में बदलें**, कैसे **HTML को PNG के रूप में सहेजें**, और कैसे **इमेज डाइमेंशन सेट करें** ताकि आउटपुट आपके डिज़ाइन स्पेसिफ़िकेशन से मेल खाए। अंत तक आपके पास एक पुन: उपयोग योग्य स्निपेट होगा जो .NET 6+ और .NET Framework दोनों में काम करेगा।
 
 ## आपको क्या चाहिए
 
-- **.NET 6.0 या बाद का** (API .NET Framework 4.6.2+ पर भी काम करता है)
-- **Aspose.HTML for .NET** NuGet पैकेज (`Aspose.HTML`) आपके प्रोजेक्ट में स्थापित होना चाहिए
-- एक बुनियादी C# विकास पर्यावरण (Visual Studio, Rider, या VS Code)
-- उस फ़ोल्डर में लिखने की अनुमति जहाँ PNG सहेजा जाएगा
+- **Aspose.Html for .NET** (NuGet पैकेज `Aspose.Html`)।  
+- एक .NET प्रोजेक्ट (Console, ASP.NET Core, या कोई भी C# प्रोजेक्ट)।  
+- एक HTML फ़ाइल (`input.html`) जिसमें SVG, CSS, या बाहरी फ़ॉन्ट हो सकते हैं।  
+- Visual Studio 2022 या VS Code—कोई भी IDE जो आपको पसंद हो।
 
-कोई अतिरिक्त लाइब्रेरी नहीं, कोई बाहरी ब्राउज़र नहीं—सिर्फ Aspose.HTML और कुछ ही C# लाइनों की जरूरत है।
+कोई अतिरिक्त टूल नहीं, कोई हेडलेस ब्राउज़र नहीं, और बिल्कुल भी जटिल कमांड‑लाइन ट्रिक्स नहीं। चलिए शुरू करते हैं।
 
-## चरण 1: टेक्स्ट रेंडरिंग विकल्प सेट करें (हिंटिंग क्यों मदद करता है)
+## चरण 1: Aspose.Html स्थापित करें और नेमस्पेसेस जोड़ें
 
-जब आप मार्कअप को इमेज में बदलते हैं, तो टेक्स्ट का रास्टराइज़ेशन पढ़ने की क्षमता को बहुत प्रभावित कर सकता है। **हिंटिंग** सक्षम करने से रेंडरर ग्लीफ़्स को पिक्सेल सीमाओं के साथ संरेखित करता है, जिससे आमतौर पर तेज़ अक्षर मिलते हैं।
+शुरू करने के लिए, लाइब्रेरी को NuGet से प्राप्त करें। प्रोजेक्ट फ़ोल्डर में अपना टर्मिनल खोलें और चलाएँ:
+
+```bash
+dotnet add package Aspose.Html
+```
+
+पैकेज स्थापित होने के बाद, आवश्यक नेमस्पेसेस को अपने कोड फ़ाइल में जोड़ें:
 
 ```csharp
-using Aspose.Html.Rendering;
+using Aspose.Html;
 using Aspose.Html.Rendering.Image;
+```
 
-// Configure text rendering to use hinting – improves glyph quality
-TextOptions textOptions = new TextOptions
+> **प्रो टिप:** यदि आप .NET Framework को टार्गेट कर रहे हैं, तो क्लासिक `packages.config` या Visual Studio में NuGet UI का उपयोग करें—परिणाम समान रहेगा।
+
+## चरण 2: वह HTML पेज लोड करें जिसे आप कन्वर्ट करना चाहते हैं
+
+**HTML से PNG बनाने** का पहला वास्तविक कदम स्रोत दस्तावेज़ को लोड करना है। Aspose.Html स्थानीय फ़ाइल, URL, या मार्कअप वाली स्ट्रिंग को पढ़ सकता है।
+
+```csharp
+// Step 2: Load the HTML page that contains vector graphics
+string inputPath = Path.Combine(Environment.CurrentDirectory, "input.html");
+HTMLDocument htmlDoc = new HTMLDocument(inputPath);
+```
+
+ऐसे लोड करने का कारण? `HTMLDocument` मार्कअप को पार्स करता है, रिलेटिव लिंक को रिजॉल्व करता है, और एक DOM बनाता है जिस पर रेंडरर काम कर सकता है। इसका मतलब है कि कोई भी एम्बेडेड SVG या CSS बाद में **HTML को PNG में रेंडर** करते समय सम्मानित रहेगा।
+
+## चरण 3: इमेज रेंडरिंग विकल्प कॉन्फ़िगर करें (इमेज डाइमेंशन सेट करें)
+
+अब हम Aspose को बताते हैं कि अंतिम PNG कितना बड़ा होना चाहिए। यही वह जगह है जहाँ **set image dimensions** कीवर्ड काम आती है।
+
+```csharp
+// Step 3: Set up image rendering options (enable antialiasing and define size)
+ImageRenderingOptions renderingOptions = new ImageRenderingOptions
 {
-    UseHinting = true   // Turns on sub‑pixel hinting for clearer text
+    // Smooth edges for vector graphics and text
+    UseAntialiasing = true,
+    
+    // Desired width and height in pixels – adjust to your needs
+    Width  = 1024,   // <-- set image dimensions here
+    Height = 768
 };
 ```
 
-> **Pro tip:** यदि आप बड़े पैमाने पर टेक्स्ट रेंडर कर रहे हैं, तो आप `TextRenderingMode` के साथ प्रयोग कर सकते हैं ताकि गति और गुणवत्ता के बीच संतुलन बना रहे।
+आप DPI, बैकग्राउंड कलर, और पेज को कंटेंट के अनुसार क्रॉप करने का विकल्प भी नियंत्रित कर सकते हैं। अधिकांश वेब‑पेज स्क्रीनशॉट्स के लिए, 72 DPI कैनवास के साथ एंटीएलियासिंग एक साफ़ परिणाम देता है।
 
-## चरण 2: इमेज रेंडरिंग सेटिंग्स परिभाषित करें (इमेज की चौड़ाई और ऊँचाई समायोजित करें)
+## चरण 4: पेज रेंडर करें और **HTML को PNG के रूप में सहेजें**
 
-अब हम एक `ImageRenderingOptions` ऑब्जेक्ट बनाते हैं। यहाँ आप अपने लेआउट की जरूरतों के अनुसार **इमेज की चौड़ाई और ऊँचाई समायोजित** कर सकते हैं। नीचे दिया गया उदाहरण 800 × 600 कैनवास को मजबूर करता है, लेकिन आप अपनी डिज़ाइन के अनुसार कोई भी आयाम सेट कर सकते हैं।
+दस्तावेज़ और विकल्प तैयार होने के बाद, हम एक `ImageRenderer` बनाते हैं। यह ऑब्जेक्ट **HTML को PNG में बदलने** का भारी काम करता है।
 
 ```csharp
-// Set up image rendering options and attach the text options
-ImageRenderingOptions imageOptions = new ImageRenderingOptions
+// Step 4: Create the renderer with the document and options
+using (ImageRenderer imageRenderer = new ImageRenderer(htmlDoc, renderingOptions))
 {
-    Width = 800,               // Desired output width in pixels
-    Height = 600,              // Desired output height in pixels
-    TextOptions = textOptions // Apply the hinting settings from Step 1
-};
-```
+    // Render the page to a PNG file
+    string outputPath = Path.Combine(Environment.CurrentDirectory, "output.png");
+    imageRenderer.RenderToFile(outputPath);
 
-> **यह क्यों महत्वपूर्ण है:** यदि आप `Width`/`Height` को छोड़ देते हैं, तो Aspose.HTML HTML के लेआउट से आकार का अनुमान लगाएगा, जिससे बड़ी इमेज या कटे हुए कंटेंट हो सकते हैं।
-
-## चरण 3: अपना HTML कंटेंट लोड करें (HTML को इमेज में बदलें)
-
-आप कच्चा मार्कअप, स्थानीय फ़ाइल, या यहाँ तक कि URL भी दे सकते हैं। एक त्वरित डेमो के लिए हम एक साधारण स्ट्रिंग खोलेंगे जिसमें एक हेडिंग होगी।
-
-```csharp
-// Create an HTML document and load simple markup
-HtmlDocument htmlDoc = new HtmlDocument();
-htmlDoc.Open("<h1>Sharp Text</h1>"); // You could also load from a file or URL
-```
-
-> **एज केस:** जब आपका HTML बाहरी CSS या इमेजेज़ को संदर्भित करता है, तो सुनिश्चित करें कि ये संसाधन प्रोसेस वातावरण से पहुँच योग्य हों। अनुपलब्ध एसेट्स से बचने के लिए एब्सोल्यूट URL का उपयोग करें या डेटा‑URIs के साथ एम्बेड करें।
-
-## चरण 4: PNG रेंडर और सहेजें (HTML को PNG के रूप में सहेजें)
-
-अब जादू होता है। हम `RenderToStream` को कॉल करते हैं और इसे एक `FileStream` की ओर इंगित करते हैं। रेंडरर पहले सेट किए गए सभी विकल्पों का सम्मान करता है, और एक PNG उत्पन्न करता है जिसे आप किसी भी इमेज व्यूअर में खोल सकते हैं।
-
-```csharp
-// Render the HTML document to a PNG file using the configured options
-using (FileStream outputFile = File.OpenWrite("YOUR_DIRECTORY/text.png"))
-{
-    htmlDoc.RenderToStream(outputFile, imageOptions);
+    Console.WriteLine($"✅ PNG saved to: {outputPath}");
 }
 ```
 
-यदि सब कुछ सुचारू रूप से चलता है, तो आपको `YOUR_DIRECTORY` में `text.png` मिलेगा, जिसमें एक स्पष्ट “Sharp Text” हेडिंग होगी, जो ठीक 800 × 600 आकार में रेंडर की गई है जैसा आपने अनुरोध किया था।
+`using` ब्लॉक यह सुनिश्चित करता है कि रेंडरर नेटिव रिसोर्सेज़ को तुरंत रिलीज़ कर दे—सर्वर‑साइड परिदृश्यों में महत्वपूर्ण जहाँ आप प्रति मिनट दर्जनों इमेज जेनरेट कर सकते हैं।
 
-![HTML से PNG बनाने का उदाहरण](/images/create-png-from-html.png "Aspose.HTML का उपयोग करके HTML से बनाया गया PNG का उदाहरण")
+### अपेक्षित आउटपुट
 
-## पूर्ण कार्यशील उदाहरण (सभी चरण एक जगह)
+यदि `input.html` में एक साधारण SVG लोगो है, तो परिणामी `output.png` 1024 × 768 बिटमैप होगा जिसमें लोगो स्पष्ट और केंद्रित रहेगा। फ़ाइल को किसी भी इमेज व्यूअर में खोलकर सत्यापित करें।
 
-सब कुछ मिलाकर, यहाँ एक एकल, कॉपी‑पेस्ट‑तैयार प्रोग्राम है जिसे आप तुरंत चला सकते हैं।
+## चरण 5: सत्यापित करें, ट्यून करें, और एज केस संभालें
+
+### सामान्य प्रश्न
+
+**यदि मेरा HTML बाहरी CSS या फ़ॉन्ट्स को रेफ़र करता है तो क्या होगा?**  
+Aspose.Html स्वचालित रूप से उन रिसोर्सेज़ को डाउनलोड करता है जो आप द्वारा प्रदान किए गए बेस पाथ (`inputPath`) के सापेक्ष होते हैं। रिमोट URLs के लिए, सुनिश्चित करें कि सर्वर कोड चलाने वाली मशीन से पहुँच योग्य हो।
+
+**मेरे पेज की ऊँचाई 768 px से अधिक है—क्या यह कट जाएगा?**  
+हाँ, रेंडरर आपके द्वारा सेट किए गए `Height` का सम्मान करता है। पूरी पेज को कैप्चर करने के लिए, `Height` बढ़ाएँ या इसे `0` (ज़ीरो) सेट करें जिससे इंजन पेज की प्राकृतिक ऊँचाई का उपयोग करेगा।
 
 ```csharp
+renderingOptions.Height = 0; // Auto‑size height based on content
+```
+
+**बैकग्राउंड को सफ़ेद से ट्रांसपेरेंट कैसे बदलें?**  
+
+```csharp
+renderingOptions.BackgroundColor = System.Drawing.Color.Transparent;
+```
+
+### प्रदर्शन टिप्स
+
+- **रेंडरर को पुन: उपयोग करें** यदि आपको समान बेस HTML से विभिन्न डाइमेंशन के साथ कई PNG बनानी हों। कॉल्स के बीच `Width`/`Height` बदलें।  
+- **बैच प्रोसेसिंग**: यदि सभी इमेज के लिए मार्कअप समान है, तो पूरे लूप को एक ही `HTMLDocument` लोड में रैप करें—यह पार्सिंग टाइम बचाता है।
+
+## पूर्ण कार्यशील उदाहरण
+
+नीचे एक स्व-निहित प्रोग्राम है जिसे आप नई Console App (`dotnet new console`) में कॉपी‑पेस्ट कर सकते हैं। यह पैकेज इंस्टॉल करने से लेकर PNG फ़ाइल लिखने तक सब कुछ दर्शाता है।
+
+```csharp
+// Program.cs
 using System;
 using System.IO;
 using Aspose.Html;
-using Aspose.Html.Rendering;
 using Aspose.Html.Rendering.Image;
 
 class Program
 {
     static void Main()
     {
-        // Step 1: Text options – enable hinting for sharper glyphs
-        TextOptions textOptions = new TextOptions
+        // ----- 1️⃣ Install Aspose.Html via NuGet before running this code -----
+        // dotnet add package Aspose.Html
+
+        // ----- 2️⃣ Define input and output paths -----
+        string inputFile = Path.Combine(Directory.GetCurrentDirectory(), "input.html");
+        string outputFile = Path.Combine(Directory.GetCurrentDirectory(), "output.png");
+
+        // ----- 3️⃣ Load the HTML document -----
+        HTMLDocument htmlDoc = new HTMLDocument(inputFile);
+
+        // ----- 4️⃣ Configure rendering options (set image dimensions) -----
+        ImageRenderingOptions options = new ImageRenderingOptions
         {
-            UseHinting = true
+            UseAntialiasing = true,
+            Width  = 1024,   // Desired width
+            Height = 768,    // Desired height (0 = auto)
+            BackgroundColor = System.Drawing.Color.White
         };
 
-        // Step 2: Image options – set canvas size and attach text options
-        ImageRenderingOptions imageOptions = new ImageRenderingOptions
+        // ----- 5️⃣ Render and save as PNG (render html to png) -----
+        using (ImageRenderer renderer = new ImageRenderer(htmlDoc, options))
         {
-            Width = 800,
-            Height = 600,
-            TextOptions = textOptions
-        };
-
-        // Step 3: Load HTML markup (you could also use htmlDoc.Load("file.html"))
-        HtmlDocument htmlDoc = new HtmlDocument();
-        htmlDoc.Open("<h1>Sharp Text</h1>");
-
-        // Step 4: Render to PNG and save to disk
-        string outputPath = Path.Combine(
-            Environment.CurrentDirectory, "text.png");
-
-        using (FileStream outputFile = File.OpenWrite(outputPath))
-        {
-            htmlDoc.RenderToStream(outputFile, imageOptions);
+            renderer.RenderToFile(outputFile);
         }
 
-        Console.WriteLine($"PNG created at: {outputPath}");
+        Console.WriteLine($"✅ Finished! PNG created at: {outputFile}");
     }
 }
 ```
 
-### अपेक्षित परिणाम
+प्रोग्राम को `dotnet run` के साथ चलाएँ। यदि सब कुछ सही ढंग से सेट है, तो आपको पुष्टि संदेश और स्रोत फ़ाइल के बगल में एक नई `output.png` दिखाई देगी।
 
-प्रोग्राम चलाने पर `text.png` बनता है जो इस प्रकार दिखता है:
+## निष्कर्ष
 
-```
-+---------------------------------------------------+
-|                                                   |
-|               Sharp Text (centered)              |
-|                                                   |
-+---------------------------------------------------+
-```
+अब आप बिल्कुल जानते हैं कि Aspose.Html का उपयोग करके **HTML से PNG कैसे बनाएं**, मार्कअप लोड करने से लेकर **HTML को PNG में रेंडर**, **HTML को PNG में बदलें**, और **HTML को PNG के रूप में सहेजें** तक, साथ ही **इमेज डाइमेंशन सेट करके** अपने डिज़ाइन से मेल खाने वाला आउटपुट प्राप्त करें।  
 
-इमेज बिल्कुल 800 × 600 पिक्सेल की है, और हेडिंग टेक्स्ट हिंटिंग के कारण स्पष्ट दिखती है।
+यह स्निपेट प्रोडक्शन‑रेडी है, SVG और CSS को बॉक्स से बाहर संभालता है, और आपको साइज और एंटीएलियासिंग पर फाइन‑ग्रेन कंट्रोल देता है।  
 
-## अक्सर पूछे जाने वाले प्रश्न (FAQ)
+### आगे क्या?
 
-### क्या मैं CSS स्टाइल्स के साथ **HTML को PNG में रेंडर** कर सकता हूँ?
+- **बैच कन्वर्ज़न**: HTML फ़ाइलों की सूची पर लूप चलाएँ और प्रत्येक के लिए थंबनेल जेनरेट करें।  
+- **डायनामिक साइजिंग**: पेज की प्राकृतिक चौड़ाई/ऊँचाई का पता लगाएँ और Aspose को ऑटो‑स्केल करने दें।  
+- **वैकल्पिक फॉर्मैट**: `RenderToFile` को `RenderToStream` से बदलें और JPEG, BMP, या यहाँ तक कि PDF आउटपुट करें।  
 
-बिल्कुल। Aspose.HTML बाहरी स्टाइलशीट्स, इनलाइन स्टाइल्स, और यहाँ तक कि मीडिया क्वेरीज़ को पूरी तरह सपोर्ट करता है। बस यह सुनिश्चित करें कि CSS फ़ाइलें पहुँच योग्य हों (एब्सोल्यूट URL का उपयोग करें या उन्हें एम्बेड करें)।
+बिना हिचकिचाए प्रयोग करें—शायद वॉटरमार्क जोड़ें, या कई पेज को एक ही स्प्राइट शीट में मिलाएँ। यदि आपको कोई अजीब व्यवहार मिलता है, तो Aspose.Html API डॉक्यूमेंटेशन एक भरोसेमंद साथी है, लेकिन कोर वर्कफ़्लो वही रहता है।
 
-### अगर मुझे एक **विभिन्न इमेज फ़ॉर्मेट** चाहिए तो क्या करें?
+कोडिंग का आनंद लें, और अपनी वेब पेजेज़ को कुरकुरे PNG में बदलने का मज़ा उठाएँ!  
 
-`ImageRenderingOptions` को PDF के लिए `PdfRenderingOptions` से बदलें, या यदि आप JPEG पसंद करते हैं तो `ImageFormat` को `ImageFormat.Jpeg` सेट करें। API लचीला है—बस `RenderToStream` ओवरलोड को बदल दें।
-
-### कई पृष्ठों के लिए मैं **HTML को इमेज में कैसे बदलूँ**?
-
-HTML स्ट्रिंग्स या URL के संग्रह पर लूप करें, वही `ImageRenderingOptions` ऑब्जेक्ट पुन: उपयोग करें। प्रत्येक इटरेशन अपना PNG फ़ाइल उत्पन्न करेगा।
-
-### क्या सामग्री के आधार पर **इमेज की चौड़ाई और ऊँचाई** को डायनामिकली समायोजित करने का कोई तरीका है?
-
-हाँ। दस्तावेज़ लोड करने के बाद, आप `htmlDoc.GetDocumentSize()` (एक काल्पनिक हेल्पर) को कॉल कर सकते हैं या DOM का निरीक्षण करके आवश्यक आयामों की गणना कर सकते हैं, फिर रेंडर करने से पहले उन मानों को `imageOptions.Width`/`Height` को असाइन कर दें।
-
-### ASP.NET Core वेब ऐप में **HTML को PNG के रूप में सहेजना** कैसे करें?
-
-सिर्फ वही रेंडरिंग लॉजिक एक कंट्रोलर एक्शन में इन्जेक्ट करें और PNG को `FileResult` के रूप में रिटर्न करें। प्रतिक्रिया हेडर (`Content-Type: image/png`) सेट करना याद रखें और स्ट्रीम्स को सही ढंग से डिस्पोज़ करें।
-
-## ट्रेंच से टिप्स और ट्रिक्स
-
-- **रेंडर की गई इमेजेस को कैश करें** जब एक ही HTML बार‑बार अनुरोध किया जाता है; रेंडरिंग CPU‑गहन हो सकती है।
-- **एंटी‑एलियासिंग को निष्क्रिय करें** (`imageOptions.AntiAliasing = false`) यदि आपको पिक्सेल आर्ट के लिए पिक्सेल‑परफेक्ट प्रतिनिधित्व चाहिए।
-- **`MemoryStream` का उपयोग करें** फ़ाइल की बजाय जब आप PNG को सीधे HTTP पर भेजना चाहते हैं।
-- **बड़ी HTML से सावधान रहें**—रेंडरर कैनवास आकार के अनुपात में मेमोरी आवंटित करता है। आयामों को उचित रखें या सामग्री को कई इमेजेज़ में विभाजित करें।
-
-## अगले कदम
-
-अब जब आप जानते हैं कि **HTML से PNG कैसे बनाएं**, आप आगे खोज सकते हैं:
-
-- **छोटी फ़ाइल आकार के लिए HTML को JPEG में रेंडर करें** (`ImageFormat.Jpeg`)।
-- **HTML फ़ाइलों के फ़ोल्डर को एक साधारण कंसोल लूप से PNG में बैच रूप में बदलें**।
-- **रेंडरिंग के बाद `Bitmap` पर ड्रॉ करके वॉटरमार्क जोड़ें**।
-- **Aspose.PDF का उपयोग करके कई PNG को एकल PDF में संयोजित करें**।
-
-इनमें से प्रत्येक समान मूल अवधारणाओं—रेंडरिंग विकल्प, टेक्स्ट हैंडलिंग, और स्ट्रीम मैनेजमेंट—पर आधारित है, इसलिए आप अपने इमेज‑जनरेशन टूलबॉक्स को विस्तारित करने के लिए अच्छी स्थिति में हैं।
-
-*कोडिंग का आनंद लें! यदि आपको कोई समस्या आती है या आपके पास कोई शानदार उपयोग‑केस है जिसे आप साझा करना चाहते हैं, तो नीचे टिप्पणी करें। समुदाय (और मैं) यह सुनना पसंद करता है कि आप इन स्निपेट्स को कैसे उपयोग में लाते हैं।*
+![HTML से PNG बनाने का उदाहरण](/images/create-png-from-html.png "HTML से PNG बनाने का उदाहरण")
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

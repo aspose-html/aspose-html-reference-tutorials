@@ -1,0 +1,7 @@
+Title: convert html to markdown with Python – html to markdown lib
+Slug: convert-html-to-markdown-with-python-html-to-markdown-lib
+Category: general
+ProcessedDate: 2026-05-25T21:17:33.130030
+SourceRepo: AI Search API
+Keywords: convert html to markdown, html to markdown library, save markdown file html
+PRNumber: 162

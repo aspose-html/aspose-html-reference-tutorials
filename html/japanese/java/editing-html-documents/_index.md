@@ -46,6 +46,10 @@ HTML ドキュメント編集の基本を習得したら、次はレベルアッ
 ## Aspose.HTML for Java チュートリアルで HTML ドキュメントを編集する
 ### [Aspose.HTML for Java で HTML ドキュメント ツリーを編集する](./edit-html-document-tree/)
 Aspose.HTML for Java を使用して HTML ドキュメントを操作する方法を学びます。効率的なコンテンツ管理のためのステップバイステップ ガイドです。
+
+### [Java DOM で子要素を追加する方法 – 完全 Aspose.HTML ガイド](./how-to-append-child-in-java-dom-complete-aspose-html-guide/)
+Aspose.HTML for Java を使用して、DOM ツリーに子要素を追加する手順をステップバイステップで解説します。
+
 ### [Aspose.HTML for Java での高度な HTML ドキュメント ツリー編集](./advanced-html-document-tree-editing/)
 このステップバイステップ ガイドでは、スタイルや段落の作成、PDF への変換など、Aspose.HTML for Java を使用して HTML ドキュメントを編集する方法を説明します。
 ### [Aspose.HTML for Java で HTML ドキュメントに外部 CSS を適用する](./apply-external-css-html-documents/)
@@ -58,7 +62,13 @@ Aspose.HTML for Java を使用して HTML ドキュメントにインライン C
 このステップバイステップ ガイドでは、Web 開発者やコンテンツ作成者に最適な、Aspose.HTML for Java で内部および外部の HTML プロパティを管理する方法を学習します。
 ### [Aspose.HTML for Java を使用して HTML ドキュメントに内部 CSS を実装する](./implement-internal-css-html-documents/)
 簡単なステップバイステップのチュートリアルで、Aspose.HTML for Java を使用して HTML ドキュメントに内部 CSS を実装する方法を学びます。
+### [Java で MHTML の h1 テキストを変更する – 完全ステップバイステップガイド](./change-h1-text-in-mhtml-with-java-full-step-by-step-guide/)
+Java を使用して MHTML ファイル内の h1 テキストを変更する手順を詳しく解説します。
+### [Java で新しい HTML 要素を作成 – 完全 Aspose.HTML ガイド](./create-new-html-element-with-java-full-aspose-html-guide/)
+Java を使用して新しい HTML 要素を作成し、Aspose.HTML の機能を活用する方法を学びます。
 ### [Fixed Thread Pool Java – ExecutorService を使用した並列 HTML クリーンアップ](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
+### [Java で body に子要素を追加 – 完全 Aspose.HTML チュートリアル](./append-child-to-body-in-java-full-aspose-html-tutorial/)
+Aspose.HTML for Java を使用して、HTML ドキュメントの body に子要素を追加する方法をステップバイステップで学びます。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

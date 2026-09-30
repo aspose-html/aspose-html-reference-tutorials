@@ -45,7 +45,10 @@ Pelajari cara mengonversi HTML ke PDF, XPS, dan gambar dengan Aspose.HTML untuk 
 ### [Menggunakan Template HTML di .NET dengan Aspose.HTML](./using-html-templates/)
 Pelajari cara menggunakan Aspose.HTML untuk .NET guna membuat dokumen HTML secara dinamis dari data JSON. Manfaatkan kekuatan manipulasi HTML dalam aplikasi .NET Anda.
 ### [Cara Menggabungkan Font Secara Programatis di C# – Panduan Langkah‑demi‑Langkah](./how-to-combine-fonts-programmatically-in-c-step-by-step-guid/)
-Pelajari cara menggabungkan beberapa font menjadi satu file menggunakan C# dengan Aspose.HTML, lengkap dengan contoh kode langkah demi langkah.
+### [Dapatkan Versi Assembly di C# – Panduan Cepat untuk Mengambil Versi Perpustakaan](./get-assembly-version-in-c-quick-guide-to-retrieve-library-ve/)
+Pelajari cara mengambil versi assembly di C# secara cepat untuk mengetahui versi perpustakaan yang digunakan dalam proyek Anda.
+### [Penangan Sumber Daya Kustom di Aspose HTML – Panduan Simpan ke Stream](./custom-resource-handler-in-aspose-html-save-to-stream-guide/)
+Pelajari cara membuat penangan sumber daya kustom di Aspose.HTML dan menyimpan output ke stream dengan contoh kode langkah demi langkah.
 
 ## Kesimpulan
 

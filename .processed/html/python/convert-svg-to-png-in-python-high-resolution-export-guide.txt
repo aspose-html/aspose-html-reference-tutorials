@@ -1,0 +1,7 @@
+Title: Convert SVG to PNG in Python – High‑Resolution Export Guide
+Slug: convert-svg-to-png-in-python-high-resolution-export-guide
+Category: general
+ProcessedDate: 2026-05-29T01:37:21.887007
+SourceRepo: AI Search API
+Keywords: convert svg to png, export svg as high resolution png
+PRNumber: 165

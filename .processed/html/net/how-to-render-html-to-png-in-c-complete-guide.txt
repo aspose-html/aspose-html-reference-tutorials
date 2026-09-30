@@ -1,0 +1,7 @@
+Title: How to render HTML to PNG in C# – Complete Guide
+Slug: how-to-render-html-to-png-in-c-complete-guide
+Category: rendering-html-documents
+ProcessedDate: 2026-06-01T03:06:04.541048
+SourceRepo: AI Search API
+Keywords: how to render html, convert webpage to png, save html as image, set image size, load html from url
+PRNumber: 167
