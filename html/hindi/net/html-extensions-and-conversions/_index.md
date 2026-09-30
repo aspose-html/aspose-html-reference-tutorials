@@ -41,10 +41,16 @@ Aspose.HTML for .NET सिर्फ़ एक लाइब्रेरी न�
 
 ### [Aspose.HTML के साथ .NET में HTML को PDF में बदलें](./convert-html-to-pdf/)
 .NET के लिए Aspose.HTML के साथ HTML को PDF में आसानी से बदलें। हमारे चरण-दर-चरण गाइड का पालन करें और HTML-से-PDF रूपांतरण की शक्ति को प्राप्त करें।
+### [C# में HTML को PDF में बदलें – पूर्ण Aspose गाइड](./convert-html-to-pdf-in-c-full-aspose-guide/)
+.NET के लिए Aspose.HTML का उपयोग करके C# में HTML को PDF में बदलने की पूरी गाइड। चरण‑दर‑स्टेप निर्देश और कोड उदाहरण।
+
 ### [URL से PDF बनाएं – पूर्ण C# गाइड](./create-pdf-from-url-complete-c-guide/)
 C# में URL से PDF बनाने की पूरी प्रक्रिया सीखें, चरण-दर-चरण मार्गदर्शिका।
 ### [HTML से PDF बनाएं – C# चरण‑दर‑चरण गाइड](./create-pdf-from-html-c-step-by-step-guide/)
 C# में Aspose.HTML का उपयोग करके HTML को PDF में बदलने का चरण‑दर‑चरण मार्गदर्शन।
+### [C# में Aspose के साथ HTML से PDF बनाएं – पूर्ण गाइड](./create-pdf-from-html-with-aspose-in-c-full-guide/)
+.NET के लिए Aspose.HTML का उपयोग करके C# में HTML से PDF बनाने की विस्तृत चरण‑दर‑स्टेप गाइड। कोड उदाहरण और अनुकूलन विकल्प।
+
 ### [Aspose.HTML के साथ HTML से PDF बनाएं – चरण‑दर‑चरण गाइड](./create-pdf-from-html-with-aspose-html-step-by-step-guide/)
 C# में Aspose.HTML का उपयोग करके HTML को PDF में बदलने की विस्तृत चरण‑दर‑चरण मार्गदर्शिका।
 
@@ -97,6 +103,9 @@ Aspose.HTML for .NET का उपयोग करके स्टाइल्�
 .NET के लिए Aspose.HTML की शक्ति का पता लगाएं: HTML को XPS में आसानी से बदलें। पूर्वापेक्षाएँ, चरण-दर-स्टेप मार्गदर्शिका और FAQ शामिल हैं।
 ### [C# में HTML को ZIP में सहेजें – पूर्ण इन‑मेमोरी उदाहरण](./save-html-to-zip-in-c-complete-in-memory-example/)
 C# में इन‑मेमोरी में HTML को ZIP फ़ाइल में सहेजने का पूरा उदाहरण देखें।
+### [Aspose HTML सेव विकल्प: C# में HTML को स्ट्रीम में सहेजें](./aspose-html-save-options-save-html-to-stream-in-c/)
+C# में Aspose.HTML का उपयोग करके HTML को स्ट्रीम में सहेजने के चरण‑दर‑स्टेप गाइड।
+
 ### [C# में HTML को ज़िप कैसे करें – कस्टम रिसोर्स हैंडलर ट्यूटोरियल](./how-to-zip-html-in-c-custom-resource-handler-tutorial/)
 C# में Aspose.HTML का उपयोग करके कस्टम रिसोर्स हैंडलर के साथ HTML को ZIP फ़ाइल में सहेजने का चरण‑दर‑चरण मार्गदर्शन।
 

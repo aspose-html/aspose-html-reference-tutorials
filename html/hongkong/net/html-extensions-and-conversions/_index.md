@@ -47,6 +47,12 @@ Aspose.HTML for .NET 不只是一個函式庫；它還是一個函式庫。它�
 使用 Aspose.HTML for .NET，透過 C# 將 HTML 轉換為 PDF 的完整步驟說明與範例。
 ### [使用 Aspose.HTML 從 HTML 建立 PDF – 完整步驟指南](./create-pdf-from-html-with-aspose-html-step-by-step-guide/)
 使用 Aspose.HTML for .NET，透過完整步驟將 HTML 轉換為 PDF，快速生成高品質文件。
+### [在 C# 中將 HTML 轉換為 PDF – 完整 Aspose 指南](./convert-html-to-pdf-in-c-full-aspose-guide/)
+使用 Aspose.HTML for .NET 於 C# 完整步驟將 HTML 轉換為 PDF，掌握所有設定與最佳化技巧。
+
+### [使用 Aspose.HTML 在 C# 中將 HTML 轉換為 PDF – 完整指南](./create-pdf-from-html-with-aspose-in-c-full-guide/)
+使用 Aspose.HTML for .NET 於 C# 完整步驟將 HTML 轉換為 PDF，涵蓋設定、最佳化與範例程式碼。
+
 ### [使用 Aspose.HTML 將 EPUB 轉換為 .NET 中的映像](./convert-epub-to-image/)
 了解如何使用 Aspose.HTML for .NET 將 EPUB 轉換為映像。包含程式碼範例和可自訂選項的逐步教學。
 ### [使用 Aspose.HTML 將 EPUB 轉換為 .NET 中的 PDF](./convert-epub-to-pdf/)
@@ -107,6 +113,8 @@ Aspose.HTML for .NET 不只是一個函式庫；它還是一個函式庫。它�
 使用 Aspose.HTML for .NET 在 C# 中將 HTML 轉換並壓縮為 ZIP，遵循我們的逐步指南，輕鬆完成存檔。
 ### [單檔 HTML – 使用 C# 將網頁儲存為單一 HTML 檔案](./single-file-html-save-a-web-page-as-one-html-file-in-c/)
 使用 Aspose.HTML for .NET 在 C# 中將整個網頁保存為單一 HTML 檔案，方便部署與分享。
+### [Aspose HTML 儲存選項：在 C# 中將 HTML 儲存至串流](./aspose-html-save-options-save-html-to-stream-in-c/)
+示範使用 Aspose.HTML Save Options 將 HTML 輸出為記憶體串流的步驟與範例程式碼。
 
 ## 結論
 

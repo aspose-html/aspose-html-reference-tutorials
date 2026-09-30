@@ -72,7 +72,6 @@ Erfahren Sie in diesem umfassenden Tutorial, wie Sie mit Aspose.HTML für .NET H
 
 ### [Rendering-Timeout in .NET mit Aspose.HTML](./rendering-timeout/)
 Erfahren Sie, wie Sie Rendering-Timeouts in Aspose.HTML für .NET effektiv steuern. Erkunden Sie Rendering-Optionen und sorgen Sie für ein reibungsloses Rendering von HTML‑Dokumenten.
-
 ### [Rendern Sie MHTML als XPS in .NET mit Aspose.HTML](./render-mhtml-as-xps/)
  Lernen Sie, MHTML mit Aspose.HTML in .NET als XPS zu rendern. Verbessern Sie Ihre HTML‑Manipulationsfähigkeiten und steigern Sie Ihre Webentwicklungsprojekte!
 

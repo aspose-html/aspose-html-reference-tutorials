@@ -41,6 +41,9 @@ Aspose.HTML pour .NET n'est pas seulement une bibliothèque ; c'est un outil ré
 
 ### [Convertir HTML en PDF dans .NET avec Aspose.HTML](./convert-html-to-pdf/)
 Convertissez facilement du HTML en PDF avec Aspose.HTML pour .NET. Suivez notre guide étape par étape et exploitez la puissance de la conversion HTML en PDF.
+### [Convertir HTML en PDF en C# – Guide complet Aspose](./convert-html-to-pdf-in-c-full-aspose-guide/)
+Guide complet pour convertir du HTML en PDF en C# avec Aspose.HTML, incluant exemples de code et meilleures pratiques.
+
 ### [Aspose HTML vers PDF en C# – Guide complet avec archive ZIP](./aspose-html-to-pdf-in-c-complete-guide-with-zip-archive/)
 Apprenez à convertir du HTML en PDF en C# et à créer une archive ZIP avec Aspose.HTML, guide complet pas à pas.
 
@@ -84,6 +87,12 @@ Apprenez à compresser du HTML en un fichier zip avec C# grâce à notre guide d
 Apprenez à enregistrer un document HTML dans un fichier ZIP en C# avec Aspose.HTML pour .NET. Guide complet étape par étape.
 ### [Enregistrer HTML en ZIP en C# – Exemple complet en mémoire](./save-html-to-zip-in-c-complete-in-memory-example/)
 Enregistrez du HTML dans un fichier ZIP en mémoire avec Aspose.HTML pour .NET.
+### [Aspose HTML Options d’enregistrement : Enregistrer le HTML dans un flux en C#](./aspose-html-save-options-save-html-to-stream-in-c/)
+Apprenez à enregistrer du HTML directement dans un flux en C# en utilisant les options d’enregistrement d’Aspose.HTML.
+
+### [Créer un PDF à partir de HTML avec Aspose en C# – Guide complet](./create-pdf-from-html-with-aspose-in-c-full-guide/)
+Apprenez à créer un PDF à partir de HTML en C# avec Aspose, guide complet pas à pas.
+
 ### [Enregistrer le HTML en ZIP en C# – Guide complet](./save-html-to-zip-in-c-complete-guide/)
 Apprenez à enregistrer un document HTML dans un fichier ZIP en C# avec Aspose.HTML, guide complet étape par étape.
 

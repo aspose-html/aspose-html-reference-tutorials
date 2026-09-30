@@ -41,10 +41,14 @@ Aspose.HTML для .NET — это не просто библиотека; эт�
 
 ### [Конвертируйте HTML в PDF в .NET с помощью Aspose.HTML](./convert-html-to-pdf/)
 Конвертируйте HTML в PDF без усилий с Aspose.HTML для .NET. Следуйте нашему пошаговому руководству и раскройте всю мощь преобразования HTML в PDF.
+### [Конвертировать HTML в PDF на C# – Полное руководство Aspose](./convert-html-to-pdf-in-c-full-aspose-guide/)
+Полное руководство по конвертации HTML в PDF с помощью Aspose.HTML в C#. Следуйте пошаговым инструкциям и используйте весь потенциал библиотеки.
 ### [Создайте PDF из HTML – пошаговое руководство C#](./create-pdf-from-html-c-step-by-step-guide/)
 Пошаговое руководство по созданию PDF из HTML с помощью Aspose.HTML в C#.
 ### [Создайте PDF из HTML с Aspose.HTML – пошаговое руководство](./create-pdf-from-html-with-aspose-html-step-by-step-guide/)
 Пошаговое руководство по созданию PDF из HTML с помощью Aspose.HTML в .NET.
+### [Создайте PDF из HTML с Aspose в C# – Полное руководство](./create-pdf-from-html-with-aspose-in-c-full-guide/)
+Полное руководство по созданию PDF из HTML с помощью Aspose.HTML в C#. Подробные шаги и примеры кода.
 ### [Конвертируйте EPUB в изображение в .NET с помощью Aspose.HTML](./convert-epub-to-image/)
 Узнайте, как конвертировать EPUB в изображения с помощью Aspose.HTML для .NET. Пошаговое руководство с примерами кода и настраиваемыми параметрами.
 ### [Конвертируйте EPUB в PDF в .NET с помощью Aspose.HTML](./convert-epub-to-pdf/)
@@ -107,6 +111,8 @@ Aspose.HTML для .NET — это не просто библиотека; эт�
 Полное руководство по сохранению HTML в ZIP‑архив с помощью Aspose.HTML для .NET и C#.
 ### [single file html – Сохранить веб-страницу как один HTML‑файл в C#](./single-file-html-save-a-web-page-as-one-html-file-in-c/)
 Узнайте, как сохранить всю веб‑страницу в один HTML‑файл с помощью Aspose.HTML для .NET и C#.
+### [Aspose HTML Параметры сохранения: Сохранить HTML в поток в C#](./aspose-html-save-options-save-html-to-stream-in-c/)
+Узнайте, как сохранить HTML в поток с помощью Aspose.HTML в C# с использованием параметров сохранения.
 
 ## Заключение
 
