@@ -24,17 +24,7 @@ title: HTML से DOCX बनाएं – HTML को DOCX में बदल
 url: /hi/java/conversion-html-to-other-formats/create-docx-from-html-java-guide-to-convert-html-to-docx/
 ---
 
--button >}}
-
-We must keep them unchanged.
-
-Now produce final content with all translations.
-
-Check that we didn't miss any text.
-
-Also note the note about "For Hindi, ensure proper RTL formatting if needed" but Hindi is LTR, fine.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

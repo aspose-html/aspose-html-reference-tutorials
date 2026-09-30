@@ -25,16 +25,6 @@ title: Ενσωμάτωση γραμματοσειρών PDF – Πλήρης Ο
 url: /el/java/conversion-html-to-other-formats/embed-fonts-pdf-complete-aspose-html-to-pdf-guide-java/
 ---
 
-Then "## Conclusion" translate.
-
-Paragraph.
-
-Then final call to action.
-
-Now ensure we keep all markdown formatting.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

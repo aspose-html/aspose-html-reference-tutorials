@@ -23,16 +23,6 @@ title: Convertir SVG en WebP en Java – Guide complet Aspose HTML
 url: /fr/java/conversion-html-to-various-image-formats/convert-svg-to-webp-in-java-complete-aspose-html-guide/
 ---
 
-image "*The image above illustrates..." to French.
-
-Also translate table content, list items, etc.
-
-Make sure not to translate code block placeholders. They are not actual code but placeholders; we keep them as is.
-
-Also keep shortcodes unchanged.
-
-Let's produce final output.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

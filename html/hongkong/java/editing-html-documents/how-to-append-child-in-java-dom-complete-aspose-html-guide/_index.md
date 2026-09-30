@@ -23,9 +23,7 @@ title: 在 Java DOM 中如何附加子節點 – 完整的 Aspose.HTML 指南
 url: /zh-hant/java/editing-html-documents/how-to-append-child-in-java-dom-complete-aspose-html-guide/
 ---
 
-.
-
-Let's assemble.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

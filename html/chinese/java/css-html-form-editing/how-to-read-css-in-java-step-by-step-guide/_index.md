@@ -22,13 +22,7 @@ title: 如何在 Java 中读取 CSS – 步骤指南
 url: /zh/java/css-html-form-editing/how-to-read-css-in-java-step-by-step-guide/
 ---
 
-" translate, keep **how to read css**.
-
-Then closing shortcodes.
-
-Make sure to preserve all shortcodes at start and end.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -22,7 +22,7 @@ title: 从HTML创建docx – Java指南：将HTML转换为DOCX
 url: /zh/java/conversion-html-to-other-formats/create-docx-from-html-java-guide-to-convert-html-to-docx/
 ---
 
-content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -25,14 +25,6 @@ title: Inbädda teckensnitt i PDF – Komplett Aspose HTML till PDF-guide (Java)
 url: /sv/java/conversion-html-to-other-formats/embed-fonts-pdf-complete-aspose-html-to-pdf-guide-java/
 ---
 
-_BLOCK_6, 7. All preserved.
-
-Check any other markdown elements: blockquote > etc.
-
-We have a blockquote > **Pro tip:** and > **Note:** and > **Obs:** etc. Keep formatting.
-
-Now produce final output with all content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -23,8 +23,6 @@ title: วิธีเปิดใช้งาน JavaScript ใน Java – ค
 url: /th/java/advanced-usage/how-to-enable-javascript-in-java-complete-aspose-html-guide/
 ---
 
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

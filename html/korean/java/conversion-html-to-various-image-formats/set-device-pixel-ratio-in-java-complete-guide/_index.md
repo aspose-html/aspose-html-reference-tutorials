@@ -22,7 +22,7 @@ title: Java에서 디바이스 픽셀 비율 설정 – 완전 가이드
 url: /ko/java/conversion-html-to-various-image-formats/set-device-pixel-ratio-in-java-complete-guide/
 ---
 
-. Ensure no extra explanation.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

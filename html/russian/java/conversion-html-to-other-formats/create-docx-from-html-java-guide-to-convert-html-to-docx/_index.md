@@ -24,9 +24,7 @@ title: Создание docx из html – руководство Java по к�
 url: /ru/java/conversion-html-to-other-formats/create-docx-from-html-java-guide-to-convert-html-to-docx/
 ---
 
-code block placeholders unchanged.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

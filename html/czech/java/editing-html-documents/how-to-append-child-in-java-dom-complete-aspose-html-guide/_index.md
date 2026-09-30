@@ -25,10 +25,6 @@ title: Jak přidat potomka v Java DOM – Kompletní průvodce Aspose.HTML
 url: /cs/java/editing-html-documents/how-to-append-child-in-java-dom-complete-aspose-html-guide/
 ---
 
-shortcodes unchanged.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

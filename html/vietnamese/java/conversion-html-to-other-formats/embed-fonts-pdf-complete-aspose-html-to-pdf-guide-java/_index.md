@@ -25,20 +25,6 @@ title: Nhúng phông chữ PDF – Hướng dẫn đầy đủ Aspose HTML sang 
 url: /vi/java/conversion-html-to-other-formats/embed-fonts-pdf-complete-aspose-html-to-pdf-guide-java/
 ---
 
-)". That likely means keep the whole line unchanged, not translate alt. So we should not modify alt text. Keep exactly.
-
-Similarly code block placeholders we keep.
-
-Also blockquote > **Pro tip:** etc. Should translate "Pro tip" maybe keep? It's inside blockquote but not code. It's text; we can translate "Pro tip" to "Mẹo chuyên nghiệp". But the blockquote includes markdown **Pro tip:**. We can translate the phrase but keep formatting. So:
-
-> **Mẹo chuyên nghiệp:** Nếu bạn đang sử dụng Maven, thêm phụ thuộc Aspose.HTML như sau:
-
-Ok.
-
-Now go through each section.
-
-Let's produce final output.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

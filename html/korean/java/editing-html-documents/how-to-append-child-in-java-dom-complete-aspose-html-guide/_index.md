@@ -23,9 +23,7 @@ title: Java DOM에서 자식 요소 추가 방법 – 완전한 Aspose.HTML 가�
 url: /ko/java/editing-html-documents/how-to-append-child-in-java-dom-complete-aspose-html-guide/
 ---
 
-formatting like bold.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

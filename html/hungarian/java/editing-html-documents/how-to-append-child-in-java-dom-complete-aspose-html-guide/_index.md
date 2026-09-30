@@ -25,22 +25,6 @@ title: Gyermek elem hozzáadása a Java DOM-hoz – Teljes Aspose.HTML útmutat�
 url: /hu/java/editing-html-documents/how-to-append-child-in-java-dom-complete-aspose-html-guide/
 ---
 
-**Why this matters:** ... translate after colon.
-
-Also there is a blockquote > **Why this matters:** ... same.
-
-Also there are bullet lists; translate bullet items.
-
-Also there are headings.
-
-Let's translate.
-
-I'll write Hungarian translation.
-
-Start with shortcodes unchanged.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

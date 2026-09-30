@@ -23,9 +23,7 @@ title: تضمين الخطوط في PDF – دليل Aspose الكامل لتح�
 url: /ar/java/conversion-html-to-other-formats/embed-fonts-pdf-complete-aspose-html-to-pdf-guide-java/
 ---
 
-.
-
-Now produce final output with all translated content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

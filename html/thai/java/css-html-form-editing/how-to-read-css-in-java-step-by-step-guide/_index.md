@@ -22,7 +22,7 @@ title: วิธีอ่าน CSS ใน Java – คู่มือแบบ�
 url: /th/java/css-html-form-editing/how-to-read-css-in-java-step-by-step-guide/
 ---
 
-.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -24,10 +24,6 @@ title: Définir le ratio de pixels de l’appareil en Java – Guide complet
 url: /fr/java/conversion-html-to-various-image-formats/set-device-pixel-ratio-in-java-complete-guide/
 ---
 
-. Should keep as is.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

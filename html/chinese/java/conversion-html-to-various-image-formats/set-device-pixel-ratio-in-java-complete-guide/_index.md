@@ -22,11 +22,7 @@ title: 在 Java 中设置设备像素比 – 完整指南
 url: /zh/java/conversion-html-to-various-image-formats/set-device-pixel-ratio-in-java-complete-guide/
 ---
 
-bullet list under prerequisites, the blockquote, the code placeholders, the tables, the image alt.
-
-Make sure to preserve markdown formatting exactly.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -24,7 +24,7 @@ title: Cara Mengaktifkan JavaScript di Java – Panduan Lengkap Aspose.HTML
 url: /id/java/advanced-usage/how-to-enable-javascript-in-java-complete-aspose-html-guide/
 ---
 
-codes.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

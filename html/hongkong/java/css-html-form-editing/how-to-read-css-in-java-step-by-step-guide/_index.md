@@ -22,24 +22,6 @@ title: 如何在 Java 中讀取 CSS – 步驟指南
 url: /zh-hant/java/css-html-form-editing/how-to-read-css-in-java-step-by-step-guide/
 ---
 
-paragraphs.
-
-We must keep code placeholders unchanged.
-
-We need to translate blockquote content.
-
-We need to translate table content.
-
-We must keep markdown formatting.
-
-Let's produce translation.
-
-Be careful: keep **bold** formatting.
-
-Also keep inline code formatting.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

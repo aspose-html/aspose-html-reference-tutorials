@@ -22,15 +22,7 @@ title: hur man läser css i Java – Steg‑för‑steg guide
 url: /sv/java/css-html-form-editing/how-to-read-css-in-java-step-by-step-guide/
 ---
 
-.
-
-Check for "That demonstrates the difference between what you wrote and what the browser finally renders—exactly what **how to read css** is all about." translated.
-
-Check for "## Troubleshooting Checklist" table headings.
-
-Now produce final content with all translations and unchanged code blocks placeholders.
-
-Let's assemble.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

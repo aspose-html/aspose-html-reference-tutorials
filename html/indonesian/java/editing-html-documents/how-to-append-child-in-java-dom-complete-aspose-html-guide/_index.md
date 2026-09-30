@@ -25,13 +25,7 @@ title: Cara Menambahkan Elemen Anak di Java DOM – Panduan Lengkap Aspose.HTML
 url: /id/java/editing-html-documents/how-to-append-child-in-java-dom-complete-aspose-html-guide/
 ---
 
-coding! Jangan ragu untuk meninggalkan komentar jika Anda mengalami kendala, atau bagikan bagaimana Anda menyesuaikan contoh ini untuk proyek Anda sendiri."
-
-Then closing shortcodes.
-
-Make sure to keep all shortcodes exactly.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

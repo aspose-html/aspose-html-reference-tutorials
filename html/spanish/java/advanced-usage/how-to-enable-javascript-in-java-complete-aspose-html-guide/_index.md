@@ -24,11 +24,7 @@ title: Cómo habilitar JavaScript en Java – Guía completa de Aspose.HTML
 url: /es/java/advanced-usage/how-to-enable-javascript-in-java-complete-aspose-html-guide/
 ---
 
-codes and final ones are fine.
-
-Make sure we didn't translate any code placeholders.
-
-Now produce final output with all translations and unchanged placeholders.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

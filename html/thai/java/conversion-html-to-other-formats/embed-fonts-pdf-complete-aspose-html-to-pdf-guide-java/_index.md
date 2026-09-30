@@ -23,15 +23,7 @@ title: ฝังฟอนต์ใน PDF – คู่มือ Aspose HTML ไ
 url: /th/java/conversion-html-to-other-formats/embed-fonts-pdf-complete-aspose-html-to-pdf-guide-java/
 ---
 
-เขียนโค้ด!"
-
-Then closing shortcodes.
-
-Now ensure we keep all placeholders unchanged.
-
-Also ensure we didn't translate any code block fences; there are none.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

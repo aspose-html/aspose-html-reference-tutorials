@@ -23,9 +23,7 @@ title: Cómo leer CSS en Java – Guía paso a paso
 url: /es/java/css-html-form-editing/how-to-read-css-in-java-step-by-step-guide/
 ---
 
-.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

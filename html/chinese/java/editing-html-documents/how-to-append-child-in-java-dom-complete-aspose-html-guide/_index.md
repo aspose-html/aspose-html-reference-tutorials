@@ -23,15 +23,7 @@ title: 在 Java DOM 中如何追加子节点 – 完整的 Aspose.HTML 指南
 url: /zh/java/editing-html-documents/how-to-append-child-in-java-dom-complete-aspose-html-guide/
 ---
 
-.com/append-child-diagram.png "展示新 div 如何追加到 body 并替换旧元素的示意图"){: alt="如何追加子节点示例"}
-
-Now produce final content.
-
-Check for any other markdown links: none.
-
-Check for any code fences: none, only placeholders.
-
-Thus final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

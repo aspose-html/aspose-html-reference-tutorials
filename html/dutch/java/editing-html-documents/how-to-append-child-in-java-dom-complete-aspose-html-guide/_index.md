@@ -25,14 +25,6 @@ title: Hoe een kind toevoegen in Java DOM – Complete Aspose.HTML-gids
 url: /nl/java/editing-html-documents/how-to-append-child-in-java-dom-complete-aspose-html-guide/
 ---
 
-is "Diagram showing how a new div is appended to the body and replaces an old element". Should translate that too.
-
-But need to keep the URL unchanged.
-
-Now translate.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

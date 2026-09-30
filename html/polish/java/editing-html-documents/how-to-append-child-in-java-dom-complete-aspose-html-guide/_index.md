@@ -25,13 +25,7 @@ title: Jak dodać element potomny w Java DOM – Kompletny przewodnik Aspose.HTM
 url: /pl/java/editing-html-documents/how-to-append-child-in-java-dom-complete-aspose-html-guide/
 ---
 
-final content with all translations and unchanged placeholders.
-
-Check for any other text: At top there are three opening shortcodes, then content, then closing shortcodes, then a backtop button shortcode. Keep them.
-
-Make sure to preserve spacing and line breaks.
-
-Let's construct final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

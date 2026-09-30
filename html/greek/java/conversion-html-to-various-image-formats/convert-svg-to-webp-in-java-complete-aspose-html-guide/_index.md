@@ -23,10 +23,6 @@ title: Μετατροπή SVG σε WebP σε Java – Πλήρης Οδηγός 
 url: /el/java/conversion-html-to-various-image-formats/convert-svg-to-webp-in-java-complete-aspose-html-guide/
 ---
 
-Make sure to keep code block placeholders unchanged.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

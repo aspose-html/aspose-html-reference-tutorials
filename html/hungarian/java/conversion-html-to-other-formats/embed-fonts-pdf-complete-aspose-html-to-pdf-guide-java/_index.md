@@ -25,17 +25,7 @@ title: Betűtípusok beágyazása PDF-be – Teljes Aspose HTML‑PDF útmutató
 url: /hu/java/conversion-html-to-other-formats/embed-fonts-pdf-complete-aspose-html-to-pdf-guide-java/
 ---
 
-/products/products-backtop-button >}}
-
-Make sure we keep them unchanged.
-
-Check any other markdown elements: there are blockquotes, code block placeholders, image.
-
-Also there is a blockquote earlier with **Pro tip** we translated.
-
-Need to ensure we kept markdown formatting: headings with same number of #, lists with hyphens, etc.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

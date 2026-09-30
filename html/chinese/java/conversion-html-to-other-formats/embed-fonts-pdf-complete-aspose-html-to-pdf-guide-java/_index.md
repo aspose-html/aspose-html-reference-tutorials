@@ -23,12 +23,6 @@ title: 嵌入字体 PDF – 完整的 Aspose HTML 转 PDF 指南（Java）
 url: /zh/java/conversion-html-to-other-formats/embed-fonts-pdf-complete-aspose-html-to-pdf-guide-java/
 ---
 
-them as is.
-
-Also ensure we keep markdown formatting.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

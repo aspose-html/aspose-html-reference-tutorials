@@ -22,19 +22,6 @@ title: 如何在 Java 中啟用 JavaScript – 完整的 Aspose.HTML 指南
 url: /zh-hant/java/advanced-usage/how-to-enable-javascript-in-java-complete-aspose-html-guide/
 ---
 
-Window().eval("...")`);
-- **Combining Aspose.HTML with PDF conversion** to generate PDFs from script‑enhanced pages.
-
-Translate each bullet, keep code parts unchanged.
-
-"Give it a try, tinker with the script, and let the DOM do the heavy lifting. Happy coding!" translate.
-
-Then closing shortcodes.
-
-Make sure to preserve markdown formatting.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

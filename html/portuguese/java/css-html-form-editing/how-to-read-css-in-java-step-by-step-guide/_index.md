@@ -22,18 +22,6 @@ title: Como ler CSS em Java – Guia passo a passo
 url: /pt/java/css-html-form-editing/how-to-read-css-in-java-step-by-step-guide/
 ---
 
-mix and match as your project demands." translate.
-
-Next horizontal line.
-
-Next "*Happy coding! If you ran into any quirks while figuring out **how to read css**, drop a comment below and we’ll troubleshoot together.*" translate.
-
-Then closing shortcodes.
-
-Make sure to preserve all markdown formatting.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

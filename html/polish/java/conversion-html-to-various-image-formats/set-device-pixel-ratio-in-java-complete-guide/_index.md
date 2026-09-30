@@ -24,9 +24,7 @@ title: Ustaw współczynnik pikseli urządzenia w Javie – kompletny przewodnik
 url: /pl/java/conversion-html-to-various-image-formats/set-device-pixel-ratio-in-java-complete-guide/
 ---
 
-no markdown links.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

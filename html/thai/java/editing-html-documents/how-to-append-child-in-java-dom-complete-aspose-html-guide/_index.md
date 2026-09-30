@@ -23,20 +23,6 @@ title: วิธีเพิ่มโหนดลูกใน Java DOM – ค�
 url: /th/java/editing-html-documents/how-to-append-child-in-java-dom-complete-aspose-html-guide/
 ---
 
-CODE_BLOCK_0}} etc unchanged.
-
-Now translate.
-
-Let's produce final content.
-
-Start with the three opening shortcodes, then the heading, etc.
-
-We'll translate each paragraph.
-
-Make sure to keep markdown syntax.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
