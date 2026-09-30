@@ -21,11 +21,7 @@ title: 使用 Aspose 在 C# 中將 HTML 轉換為 PDF – 完整指南
 url: /zh-hant/net/html-extensions-and-conversions/create-pdf-from-html-with-aspose-in-c-full-guide/
 ---
 
-for any leftover English text: In headings we kept parentheses English; that's okay. In bullet list we used English code names; fine.
-
-Make sure we didn't translate URLs inside code placeholders; they are not there.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

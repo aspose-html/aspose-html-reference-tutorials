@@ -25,16 +25,6 @@ title: Aspose ile C#'ta HTML'den PDF Oluşturma – Tam Rehber
 url: /tr/net/html-extensions-and-conversions/create-pdf-from-html-with-aspose-in-c-full-guide/
 ---
 
-translate the alt text? The instruction: translate ALL text content naturally to Turkish, but keep technical terms in English. Alt text is natural language, so translate. The title attribute also should be translated. Keep URL unchanged.
-
-Also translate table content.
-
-Let's produce final content.
-
-We must keep the same headings.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

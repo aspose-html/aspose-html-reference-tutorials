@@ -24,20 +24,6 @@ title: 'Opzioni di salvataggio HTML di Aspose: Salva HTML in stream in C#'
 url: /it/net/html-extensions-and-conversions/aspose-html-save-options-save-html-to-stream-in-c/
 ---
 
-. By the end you’ll have a complete, runnable program that prints the saved markup to the console, and you’ll understand why each piece matters.
-
-Translate.
-
-Next headings etc.
-
-Proceed.
-
-Need to translate tables, list items.
-
-Make sure code block placeholders remain unchanged.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

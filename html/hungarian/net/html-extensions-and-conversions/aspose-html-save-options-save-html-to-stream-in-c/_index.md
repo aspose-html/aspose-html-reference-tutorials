@@ -23,12 +23,6 @@ title: 'Aspose HTML mentési beállítások: HTML mentése adatfolyamba C#‑ban
 url: /hu/net/html-extensions-and-conversions/aspose-html-save-options-save-html-to-stream-in-c/
 ---
 
-block placeholders unchanged.
-
-Also translate table content.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -24,9 +24,7 @@ title: 'Các tùy chọn lưu HTML của Aspose: Lưu HTML vào Stream trong C#'
 url: /vi/net/html-extensions-and-conversions/aspose-html-save-options-save-html-to-stream-in-c/
 ---
 
-Also ensure markdown formatting preserved.
-
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

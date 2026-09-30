@@ -23,15 +23,7 @@ title: 'Параметры сохранения Aspose HTML: Сохранить 
 url: /ru/net/html-extensions-and-conversions/aspose-html-save-options-save-html-to-stream-in-c/
 ---
 
-HTML to Stream in C#" translate to Russian: "# Параметры сохранения Aspose HTML: Сохранить HTML в поток в C#". Keep same.
-
-Proceed.
-
-Paragraphs.
-
-Will translate.
-
-Let's produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

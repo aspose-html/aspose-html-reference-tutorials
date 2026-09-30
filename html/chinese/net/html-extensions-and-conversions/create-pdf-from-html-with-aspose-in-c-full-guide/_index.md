@@ -21,9 +21,7 @@ title: 使用 Aspose 在 C# 中从 HTML 创建 PDF – 完整指南
 url: /zh/net/html-extensions-and-conversions/create-pdf-from-html-with-aspose-in-c-full-guide/
 ---
 
-placeholders unchanged.
-
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

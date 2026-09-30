@@ -25,12 +25,6 @@ title: Créer un PDF à partir de HTML avec Aspose en C# – Guide complet
 url: /fr/net/html-extensions-and-conversions/create-pdf-from-html-with-aspose-in-c-full-guide/
 ---
 
-.
-
-Be careful with markdown formatting.
-
-Let's write.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

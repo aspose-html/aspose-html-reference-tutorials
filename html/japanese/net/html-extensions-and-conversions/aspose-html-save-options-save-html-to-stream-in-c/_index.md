@@ -21,7 +21,7 @@ title: 'Aspose HTML 保存オプション: C# で HTML をストリームに保�
 url: /ja/net/html-extensions-and-conversions/aspose-html-save-options-save-html-to-stream-in-c/
 ---
 
-Let's assemble.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

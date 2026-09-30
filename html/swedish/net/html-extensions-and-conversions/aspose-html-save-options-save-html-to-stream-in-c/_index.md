@@ -22,21 +22,7 @@ title: 'Aspose HTML-sparalternativ: Spara HTML till ström i C#'
 url: /sv/net/html-extensions-and-conversions/aspose-html-save-options-save-html-to-stream-in-c/
 ---
 
-top-button >}}
-
-All unchanged.
-
-Now ensure we didn't miss any markdown formatting.
-
-Check bullet list under "What You’ll Learn": we used bullet dash lines.
-
-Check table formatting: keep pipe lines.
-
-Check code block placeholders: they are separate lines; we keep them.
-
-Check image alt and title translation.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -22,10 +22,6 @@ title: 'خيارات حفظ Aspose HTML: حفظ HTML إلى تدفق في C#'
 url: /ar/net/html-extensions-and-conversions/aspose-html-save-options-save-html-to-stream-in-c/
 ---
 
-.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

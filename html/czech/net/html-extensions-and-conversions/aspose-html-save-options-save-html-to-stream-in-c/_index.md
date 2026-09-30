@@ -23,10 +23,6 @@ title: 'Aspose HTML možnosti uložení: Uložit HTML do proudu v C#'
 url: /cs/net/html-extensions-and-conversions/aspose-html-save-options-save-html-to-stream-in-c/
 ---
 
-content.
-
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

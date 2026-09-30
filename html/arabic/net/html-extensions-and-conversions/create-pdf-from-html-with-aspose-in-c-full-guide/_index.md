@@ -23,12 +23,6 @@ title: إنشاء PDF من HTML باستخدام Aspose في C# – دليل ك�
 url: /ar/net/html-extensions-and-conversions/create-pdf-from-html-with-aspose-in-c-full-guide/
 ---
 
-0}}. The original had them as separate lines. Keep them.
-
-Also there were blockquotes with >. Keep them.
-
-Now produce final content with Arabic translations.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
