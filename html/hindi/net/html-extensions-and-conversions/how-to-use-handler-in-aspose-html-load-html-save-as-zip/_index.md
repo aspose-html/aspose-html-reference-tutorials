@@ -23,15 +23,7 @@ title: Aspose.HTML में हैंडलर का उपयोग कैस
 url: /hi/net/html-extensions-and-conversions/how-to-use-handler-in-aspose-html-load-html-save-as-zip/
 ---
 
-`, `SaveToZipArchive`, `OutputStorage`, `HandleResource`, `ResourceInfo`, `FileName`, `Path`, `FileSystemStorage`, `MemoryStream`, `FileStream`, `ZipSaveOptions`, `FileResult`. All unchanged.
-
-Check for any markdown links: none.
-
-Check for any images: we translated alt and title.
-
-Check for any shortcodes: unchanged.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -24,13 +24,7 @@ title: Comment rendre du HTML en PNG en C# – Guide étape par étape
 url: /fr/net/rendering-html-documents/how-to-render-html-as-png-in-c-step-by-step-guide/
 ---
 
-_0}}. The original had them as separate lines, not inside fences. Keep same.
-
-Check any bold formatting: keep **.
-
-Check any inline code: keep backticks.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

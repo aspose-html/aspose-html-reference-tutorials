@@ -23,11 +23,7 @@ title: Jak używać handlera w Aspose.HTML – Ładowanie HTML, zapis jako ZIP
 url: /pl/net/html-extensions-and-conversions/how-to-use-handler-in-aspose-html-load-html-save-as-zip/
 ---
 
-Then closing shortcodes.
-
-Make sure to keep all placeholders unchanged.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

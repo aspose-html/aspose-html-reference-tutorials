@@ -22,9 +22,7 @@ title: Aspose.HTML에서 핸들러 사용 방법 – HTML 로드, ZIP으로 저�
 url: /ko/net/html-extensions-and-conversions/how-to-use-handler-in-aspose-html-load-html-save-as-zip/
 ---
 
-Make sure to keep code block placeholders unchanged.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

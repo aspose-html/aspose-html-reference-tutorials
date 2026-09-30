@@ -22,13 +22,7 @@ title: Hur man renderar HTML till PNG i C# – Steg‑för‑steg‑guide
 url: /sv/net/rendering-html-documents/how-to-render-html-as-png-in-c-step-by-step-guide/
 ---
 
-code block placeholders: CODE_BLOCK_0 through CODE_BLOCK_6. Keep them.
-
-Check bullet lists formatting: keep hyphens.
-
-Make sure we preserve markdown formatting.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

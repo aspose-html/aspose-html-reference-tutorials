@@ -24,17 +24,7 @@ title: Как использовать обработчик в Aspose.HTML – �
 url: /ru/net/html-extensions-and-conversions/how-to-use-handler-in-aspose-html-load-html-save-as-zip/
 ---
 
-обработчика". We'll translate.
-
-Now the blockquotes: > **Why this matters:** ... translate.
-
-Also > **Pro tip:** ... etc.
-
-Now code block placeholders remain unchanged.
-
-Now final.
-
-Let's write the final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
