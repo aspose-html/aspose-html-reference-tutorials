@@ -1,0 +1,7 @@
+Title: Edit SVG with Python – Complete Guide to Changing Fill Colors
+Slug: edit-svg-with-python-complete-guide-to-changing-fill-colors
+Category: general
+ProcessedDate: 2026-06-26T07:51:19.494783
+SourceRepo: AI Search API
+Keywords: edit svg with python, change svg fill programmatically, load svg document python, set svg fill attribute
+PRNumber: 193

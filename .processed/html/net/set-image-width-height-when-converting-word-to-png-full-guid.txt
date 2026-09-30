@@ -1,0 +1,7 @@
+Title: Set Image Width Height When Converting Word to PNG – Full Guide
+Slug: set-image-width-height-when-converting-word-to-png-full-guid
+Category: generate-jpg-and-png-images
+ProcessedDate: 2026-05-22T15:19:06.256122
+SourceRepo: AI Search API
+Keywords: set image width height, convert word to png, save docx as png, export docx as image, how to render word
+PRNumber: 159

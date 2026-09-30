@@ -37,12 +37,19 @@ To get you started, we have a comprehensive list of tutorials. These step-by-ste
 ## Canvas and Image Manipulation Tutorials
 ### [Manipulating Canvas in .NET with Aspose.HTML](./manipulating-canvas/)
 Learn how to manipulate HTML documents with Aspose.HTML for .NET. This comprehensive tutorial covers the basics, prerequisites, and step-by-step examples.
+
+### [Create canvas text – Full Guide to Rendering Text on Images](./create-canvas-text-full-guide-to-rendering-text-on-images/)
+Learn how to render text onto images using canvas with Aspose.HTML for .NET in this comprehensive step-by-step guide.
+
 ### [Convert SVG to Image in .NET with Aspose.HTML](./convert-svg-to-image/)
 Convert SVG to Images in .NET with Aspose.HTML. A Comprehensive Tutorial for Developers. Easily transform SVG documents into JPEG, PNG, BMP, and GIF formats.
+
 ### [Convert SVG to PDF in .NET with Aspose.HTML](./convert-svg-to-pdf/)
 Learn how to convert SVG to PDF with Aspose.HTML for .NET. High-quality, step-by-step tutorial for efficient document processing.
+
 ### [Convert SVG to XPS in .NET with Aspose.HTML](./convert-svg-to-xps/)
 Learn how to convert SVG to XPS using Aspose.HTML for .NET. Boost your web development with this powerful library.
+
 ### [How to Enable Antialiasing in C# – Smooth Edges](./how-to-enable-antialiasing-in-c-smooth-edges/)
 Learn how to enable antialiasing in C# to achieve smooth edges in graphics rendering using Aspose.HTML for .NET.
 
