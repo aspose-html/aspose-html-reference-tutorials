@@ -89,14 +89,16 @@ Een beknopte gids voor het snel converteren van HTML naar PDF in Java met Aspose
 ### [HTML naar PDF converteren in Java – Stapsgewijze gids met paginagrootte‑instellingen](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Leer stap voor stap hoe u HTML naar PDF converteert in Java en paginagrootte‑instellingen configureert voor optimale resultaten.
 ### [HTML naar PDF converteren in Java – Complete stapsgewijze gids](./convert-html-to-pdf-in-java-complete-step-by-step-guide/)
+Volledige stap‑voor‑stap handleiding om HTML naar PDF te converteren in Java met Aspose.HTML, inclusief alle configuratie‑opties.
+### [Lettertypen insluiten in PDF – Complete Aspose HTML naar PDF-gids (Java)](./embed-fonts-pdf-complete-aspose-html-to-pdf-guide-java/)
+Leer hoe u lettertypen insluit bij het converteren van HTML naar PDF met Aspose.HTML for Java voor consistente weergave.
+
 ### [Hoe HTML naar PDF converteren met Aspose HTML – Async Java‑gids](./how-to-convert-html-to-pdf-with-aspose-html-async-java-guide/)
 Leer hoe u asynchrone conversie van HTML naar PDF implementeert in Java met Aspose HTML voor betere prestaties.
 ### [HTML in bulk naar PDF converteren – Java NIO-gids met parallelle verwerking](./convert-html-to-pdf-in-bulk-java-nio-guide-with-parallel-pro/)
 Leer hoe u met Java NIO en parallelle verwerking grote aantallen HTML‑bestanden efficiënt naar PDF converteert.
 ### [HTML naar PDF converteren in Java – Volledige gids met papierformaat en DPI](./convert-html-to-pdf-in-java-full-guide-with-paper-size-dpi/)
 Leer stap‑voor‑stap hoe u HTML naar PDF converteert in Java, inclusief instellingen voor papierformaat en DPI voor optimale kwaliteit.
-### [Lettertypen insluiten in PDF – Complete Aspose HTML naar PDF-gids (Java)](./embed-fonts-pdf-complete-aspose-html-to-pdf-guide-java/)
-Leer hoe u lettertypen insluit bij het converteren van HTML naar PDF met Aspose.HTML for Java voor consistente weergave.
 ### [HTML naar MHTML converteren](./convert-html-to-mhtml/)
 Converteer HTML moeiteloos naar MHTML met Aspose.HTML for Java. Volg onze stap‑voor‑stap gids voor efficiënte HTML‑naar‑MHTML conversie.
 ### [HTML naar XPS converteren](./convert-html-to-xps/)
@@ -109,6 +111,9 @@ Leer hoe u SVG naar afbeeldingen kunt converteren in Java met Aspose.HTML. Uitge
 Converteer SVG naar PDF in Java met Aspose.HTML. Een naadloze oplossing voor documentconversie van hoge kwaliteit.
 ### [SVG naar XPS converteren](./convert-svg-to-xps/)
 Leer hoe u SVG naar XPS kunt converteren met Aspose.HTML for Java. Eenvoudige, stap‑voor‑stap gids voor naadloze conversies.
+### [DOCX maken van HTML – Java-gids om HTML naar DOCX te converteren](./create-docx-from-html-java-guide-to-convert-html-to-docx/)
+Leer hoe u HTML naar DOCX converteert in Java met Aspose.HTML. Maak eenvoudig DOCX‑documenten van uw webinhoud.
+
 ### [HTML naar PDF converteren in Java – Complete gids met lettertype‑inbedding](./convert-html-to-pdf-in-java-complete-guide-with-font-embeddi/)
 Leer hoe u HTML naar PDF converteert in Java met volledige lettertype‑inbedding voor nauwkeurige weergave.
 ### [Hoe PDF comprimeren met Aspose HTML naar PDF – Java‑gids](./how-to-compress-pdf-with-aspose-html-to-pdf-java-guide/)
@@ -122,8 +127,6 @@ Leer hoe u met Aspose.HTML for Java HTML‑documenten omzet naar PDF/A‑2b, een
 ### [Audio extraheren uit HTML – Hoe media en video te extraheren](./extract-audio-from-html-how-to-extract-media-and-video/)
 Ontdek hoe u audio‑ en videobestanden uit HTML‑inhoud kunt halen met Aspose.HTML for Java.
 ### [PDF maken vanuit Markdown in Java – Stapsgewijze gids](./create-pdf-from-markdown-in-java-step-by-step-guide/)
-### [DOCX maken van HTML – Java-gids om HTML naar DOCX te converteren](./create-docx-from-html-java-guide-to-convert-html-to-docx/)
-Leer hoe u HTML naar DOCX converteert in Java met Aspose.HTML. Maak eenvoudig DOCX‑documenten van uw webinhoud.
 
 ### [PDF maken van HTML in Java – Complete stapsgewijze gids](./create-pdf-from-html-in-java-complete-step-by-step-guide/)
 Leer hoe u stap‑voor‑stap een PDF maakt van HTML in Java met Aspose.HTML, inclusief volledige configuratie‑opties.

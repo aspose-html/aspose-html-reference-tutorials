@@ -88,18 +88,22 @@ Aspose.HTML を利用して、Java で複数の HTML ファイルを一括で PD
 ### [HTML を一括で PDF に変換 – Java NIO と並列処理ガイド](./convert-html-to-pdf-in-bulk-java-nio-guide-with-parallel-pro/)
 Java NIO と並列処理を活用し、複数の HTML ファイルを高速に PDF へ一括変換する手順を解説します。
 ### [Converting HTML to MHTML](./convert-html-to-mhtml/)
+Aspose.HTML for Java で HTML を MHTML に簡単に変換します。効率的な HTML‑to‑MHTML 変換の手順をご覧ください。
 ### [Converting HTML to XPS](./convert-html-to-xps/)
+Aspose.HTML for Java を使用して HTML を XPS にシームレスに変換する方法を学びます。クロスプラットフォーム文書を簡単に作成できます。
 ### [Converting Markdown to HTML](./convert-markdown-to-html/)
+Aspose.HTML for Java で Java の Markdown を HTML にシームレスに変換します。文書変換のニーズを効率化する手順をご確認ください。
 ### [Converting SVG to Image](./convert-svg-to-image/)
+Aspose.HTML を使用して Java で SVG を画像に変換する方法を学びます。高品質出力のための包括的ガイドです。
 ### [Converting SVG to PDF](./convert-svg-to-pdf/)
+Aspose.HTML で Java の SVG を PDF に変換します。高品質文書変換のシームレスなソリューションです。
 ### [Converting SVG to XPS](./convert-svg-to-xps/)
+Aspose.HTML for Java を使用して SVG を XPS に変換する方法を学びます。シンプルでステップバイステップのガイドでシームレスに変換できます。
 ### [Aspose HTML to PDF で PDF を圧縮する方法 – Java ガイド](./how-to-compress-pdf-with-aspose-html-to-pdf-java-guide/)
 Aspose.HTML for Java を使用して PDF を圧縮し、ファイルサイズを削減する手順を解説します。
 ### [JavaでHTMLをPDFに変換 – ページサイズ設定付きステップバイステップガイド](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 JavaでHTMLをPDFに変換し、ページサイズをカスタマイズする手順を詳しく解説します。
 ### [JavaでHTMLをPDFに変換 – クイック Aspose.HTML ガイド](./convert-html-to-pdf-in-java-quick-aspose-html-guide/)
-### [フォント埋め込み PDF – 完全 Aspose HTML to PDF ガイド (Java)](./embed-fonts-pdf-complete-aspose-html-to-pdf-guide-java/)
-### [HTML から DOCX を作成 – Java ガイド (HTML を DOCX に変換)](./create-docx-from-html-java-guide-to-convert-html-to-docx/)
 
 ### [JavaでHTMLをPDFに変換 – ページサイズと DPI の完全ガイド](./convert-html-to-pdf-in-java-full-guide-with-paper-size-dpi/)
 
@@ -107,6 +111,10 @@ JavaでHTMLをPDFに変換し、ページサイズをカスタマイズする手
 フォント埋め込みを含む、Java で HTML を PDF に変換するための包括的な手順とベストプラクティスを解説します。
 ### [JavaでHTMLをPDFに変換 – 完全ステップバイステップガイド](./convert-html-to-pdf-in-java-complete-step-by-step-guide/)
 Aspose.HTML を使って Java で HTML を PDF に変換する、完全なステップバイステップガイドです。
+### [フォント埋め込み PDF – 完全 Aspose HTML to PDF ガイド (Java)](./embed-fonts-pdf-complete-aspose-html-to-pdf-guide-java/)
+
+### [HTML から DOCX を作成 – Java ガイド (HTML を DOCX に変換)](./create-docx-from-html-java-guide-to-convert-html-to-docx/)
+
 ### [Aspose HTML for Java を使用した動的 HTML の PDF 変換](./convert-dynamic-html-pdf-with-aspose-html-for-java/)
 動的に生成された HTML コンテンツを高品質な PDF に変換する手順とベストプラクティスを解説します。
 ### [Aspose HTML PDF/A チュートリアル: Java で HTML を PDF/A‑2b に変換](./aspose-html-pdf-a-tutorial-convert-html-to-pdf-a-2b-with-jav/)

@@ -87,6 +87,10 @@ Learn how to convert HTML to PDF in Java using Aspose.HTML. Create high-quality 
 ### [Convert HTML to PDF in Java – Step‑by‑Step Guide with Page Size Settings](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Step-by-step guide to convert HTML to PDF in Java, including how to set custom page sizes using Aspose.HTML.
 ### [Convert HTML to PDF in Java – Complete Step‑by‑Step Guide](./convert-html-to-pdf-in-java-complete-step-by-step-guide/)
+Complete step‑by‑step guide to convert HTML to PDF in Java with Aspose.HTML, covering all settings, options, and best practices.
+### [embed fonts pdf – Complete Aspose HTML to PDF Guide (Java)](./embed-fonts-pdf-complete-aspose-html-to-pdf-guide-java/)
+Learn how to embed custom fonts into PDFs using Aspose.HTML for Java, ensuring accurate text rendering across all devices.
+
 ### [How to compress PDF with Aspose HTML to PDF – Java guide](./how-to-compress-pdf-with-aspose-html-to-pdf-java-guide/)
 Learn how to compress PDF files using Aspose.HTML for Java, reducing size while preserving quality.
 ### [How to Convert HTML to PDF with Aspose HTML – Async Java Guide](./how-to-convert-html-to-pdf-with-aspose-html-async-java-guide/)
@@ -97,8 +101,6 @@ Learn how to batch convert HTML files to PDF using Java NIO and parallel process
 A fast‑track guide to converting HTML to PDF in Java using Aspose.HTML, covering essential steps for quick implementation.
 ### [Convert HTML to PDF in Java – Full Guide with Paper Size & DPI](./convert-html-to-pdf-in-java-full-guide-with-paper-size-dpi/)
 Comprehensive guide covering PDF conversion with custom paper sizes and DPI settings using Aspose.HTML for Java.
-### [embed fonts pdf – Complete Aspose HTML to PDF Guide (Java)](./embed-fonts-pdf-complete-aspose-html-to-pdf-guide-java/)
-Learn how to embed custom fonts into PDFs using Aspose.HTML for Java, ensuring accurate text rendering across all devices.
 ### [Converting HTML to MHTML](./convert-html-to-mhtml/)
 Effortlessly convert HTML to MHTML using Aspose.HTML for Java. Follow our step-by-step guide for efficient HTML-to-MHTML conversion.
 
@@ -117,6 +119,11 @@ Convert SVG to PDF in Java with Aspose.HTML. A seamless solution for high-qualit
 
 ### [Converting SVG to XPS](./convert-svg-to-xps/)
 Learn how to convert SVG to XPS with Aspose.HTML for Java. Simple, step-by-step guide for seamless conversions.
+### [Create docx from html – Java guide to convert HTML to DOCX](./create-docx-from-html-java-guide-to-convert-html-to-docx/)
+
+### [Create Fixed Thread Pool for Batch HTML to PDF Conversion](./create-fixed-thread-pool-for-batch-html-to-pdf-conversion/)
+Learn how to set up a fixed thread pool in Java to efficiently process batch HTML to PDF conversions using Aspose.HTML.
+
 ### [Convert Dynamic HTML PDF with Aspose HTML for Java](./convert-dynamic-html-pdf-with-aspose-html-for-java/)
 Learn how to convert dynamic HTML content to PDF using Aspose.HTML for Java, handling scripts and interactive elements.
 ### [How to Use Aspose – Batch Convert HTML to PDF in Java](./how-to-use-aspose-batch-convert-html-to-pdf-in-java/)
@@ -124,9 +131,6 @@ Learn how to batch convert multiple HTML files to PDF in Java using Aspose.HTML,
 ### [Aspose HTML PDF/A Tutorial: Convert HTML to PDF/A‑2b with Java](./aspose-html-pdf-a-tutorial-convert-html-to-pdf-a-2b-with-jav/)
 Learn how to convert HTML to PDF/A‑2b in Java using Aspose.HTML, ensuring long‑term archival compliance with a simple API.
 ### [Extract audio from HTML – How to extract media and video](./extract-audio-from-html-how-to-extract-media-and-video/)
-### [Create docx from html – Java guide to convert HTML to DOCX](./create-docx-from-html-java-guide-to-convert-html-to-docx/)
-### [Create Fixed Thread Pool for Batch HTML to PDF Conversion](./create-fixed-thread-pool-for-batch-html-to-pdf-conversion/)
-Learn how to set up a fixed thread pool in Java to efficiently process batch HTML to PDF conversions using Aspose.HTML.
 
 ### [Convert HTML to PDF in Java – Complete Guide with Font Embedding](./convert-html-to-pdf-in-java-complete-guide-with-font-embeddi/)
 Comprehensive guide on converting HTML to PDF in Java with font embedding for accurate text rendering.

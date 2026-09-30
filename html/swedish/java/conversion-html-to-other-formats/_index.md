@@ -98,6 +98,9 @@ Lär dig hur du konverterar SVG till bilder i Java med Aspose.HTML. Omfattande g
 Konvertera SVG till PDF i Java med Aspose.HTML. En sömlös lösning för högkvalitativ dokumentkonvertering.
 ### [Konvertera SVG till XPS](./convert-svg-to-xps/)
 Lär dig hur du konverterar SVG till XPS med Aspose.HTML for Java. Enkel, steg‑för‑steg‑guide för smidiga konverteringar.
+### [Skapa DOCX från HTML – Java‑guide för att konvertera HTML till DOCX](./create-docx-from-html-java-guide-to-convert-html-to-docx/)
+Lär dig hur du med Aspose.HTML for Java omvandlar HTML‑innehåll till DOCX‑dokument i några enkla steg.
+
 ### [Skapa PDF från Markdown i Java – Steg‑för‑steg‑guide](./create-pdf-from-markdown-in-java-step-by-step-guide/)
 
 ### [Konvertera dynamisk HTML till PDF med Aspose HTML för Java](./convert-dynamic-html-pdf-with-aspose-html-for-java/)
@@ -107,18 +110,17 @@ Lär dig hur du minskar PDF‑filstorlek med Aspose HTML till PDF i Java för ef
 Lär dig konvertera HTML till PDF i Java med detaljerade steg och anpassa sidstorlek för optimal utskrift.
 ### [Konvertera HTML till PDF i Java – Snabb Aspose.HTML‑guide](./convert-html-to-pdf-in-java-quick-aspose-html-guide/)
 Snabb guide för att konvertera HTML till PDF i Java med Aspose.HTML, med enkla steg‑för‑steg‑instruktioner.
-### [Skapa DOCX från HTML – Java‑guide för att konvertera HTML till DOCX](./create-docx-from-html-java-guide-to-convert-html-to-docx/)
-Lär dig hur du med Aspose.HTML for Java omvandlar HTML‑innehåll till DOCX‑dokument i några enkla steg.
-### [Konvertera HTML till PDF i Java – Komplett steg‑för‑steg‑guide](./convert-html-to-pdf-in-java-complete-step-by-step-guide/)
-Lär dig konvertera HTML till PDF i Java med en komplett steg‑för‑steg‑guide för optimal utskrift och anpassning.
-### [Bädda in typsnitt i PDF – Komplett Aspose HTML till PDF-guide (Java)](./embed-fonts-pdf-complete-aspose-html-to-pdf-guide-java/)
-Lär dig hur du bäddar in anpassade typsnitt i PDF‑dokument med Aspose.HTML för Java för konsekvent rendering.
 
 ### [Konvertera HTML till PDF i Java – Fullständig guide med papperstorlek och DPI](./convert-html-to-pdf-in-java-full-guide-with-paper-size-dpi/)
 Omfattande guide för att konvertera HTML till PDF i Java med anpassning av papperstorlek och DPI för bästa utskriftskvalitet.
 
 ### [Konvertera HTML till PDF i Java – Komplett guide med inbäddning av teckensnitt](./convert-html-to-pdf-in-java-complete-guide-with-font-embeddi/)
 Lär dig hur du konverterar HTML till PDF i Java med fullständig guide och inbäddning av teckensnitt för korrekt rendering.
+### [Konvertera HTML till PDF i Java – Komplett steg‑för‑steg‑guide](./convert-html-to-pdf-in-java-complete-step-by-step-guide/)
+En fullständig guide som visar hur du steg för steg konverterar HTML till PDF i Java med Aspose.HTML.
+### [Bädda in typsnitt i PDF – Komplett Aspose HTML till PDF-guide (Java)](./embed-fonts-pdf-complete-aspose-html-to-pdf-guide-java/)
+Lär dig hur du bäddar in anpassade typsnitt i PDF‑dokument med Aspose.HTML för Java för konsekvent rendering.
+
 ### [Hur du använder Aspose – Batchkonvertera HTML till PDF i Java](./how-to-use-aspose-batch-convert-html-to-pdf-in-java/)
 Lär dig hur du batch‑konverterar flera HTML‑filer till PDF med Aspose.HTML i Java för effektiv massbearbetning.
 ### [Aspose HTML PDF/A‑handledning: Konvertera HTML till PDF/A‑2b med Java](./aspose-html-pdf-a-tutorial-convert-html-to-pdf-a-2b-with-jav/)
