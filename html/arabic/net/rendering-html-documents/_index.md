@@ -79,6 +79,8 @@ url: /ar/net/rendering-html-documents/
 ### [كيفية عرض HTML في C# – دليل كامل لتنسيق الفقرات](./how-to-render-html-in-c-complete-guide-to-styling-paragraphs/)
 ### [كيفية عرض HTML – دليل كامل مع معالج موارد مخصص](./how-to-render-html-complete-guide-with-custom-resource-handl/)
 تعلم كيفية عرض HTML باستخدام Aspose.HTML لـ .NET مع معالج موارد مخصص لتخصيص تحميل المحتوى وتحسين الأداء.
+### [كيفية عرض HTML كـ PNG – دليل كامل خطوة بخطوة](./how-to-render-html-to-png-complete-step-by-step-guide/)
+تعلم كيفية تحويل مستندات HTML إلى صور PNG خطوة بخطوة باستخدام Aspose.HTML لـ .NET.
 ### [كيفية تحويل HTML إلى PNG باستخدام Aspose – دليل كامل](./how-to-render-html-to-png-with-aspose-complete-guide/)
 تعلم خطوة بخطوة كيفية تحويل مستندات HTML إلى صور PNG باستخدام Aspose.HTML في .NET.
 ### [كيفية تحويل HTML إلى صورة باستخدام C# – دليل كامل](./how-to-render-html-to-an-image-with-c-complete-guide/)
@@ -92,9 +94,6 @@ url: /ar/net/rendering-html-documents/
 
 ### [تحويل HTML إلى PDF باستخدام Aspose.HTML – دليل خطوة بخطوة](./render-html-to-pdf-with-aspose-html-step-by-step-guide/)
 تعلم كيفية تحويل مستندات HTML إلى ملفات PDF باستخدام Aspose.HTML في .NET خطوة بخطوة.
-
-### [كيفية تصيير HTML إلى PNG – دليل خطوة بخطوة كامل](./how-to-render-html-to-png-complete-step-by-step-guide/)
-تعلم خطوة بخطوة كيفية تصيير مستندات HTML إلى صور PNG باستخدام Aspose.HTML في .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

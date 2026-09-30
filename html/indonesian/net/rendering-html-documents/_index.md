@@ -42,6 +42,8 @@ Setelah Anda menyiapkan Aspose.HTML untuk .NET, saatnya menjelajahi tutorial yan
 
 ### [Render HTML sebagai PNG di .NET dengan Aspose.HTML](./render-html-as-png/)
 Pelajari cara bekerja dengan Aspose.HTML untuk .NET: Memanipulasi HTML, mengonversi ke berbagai format, dan banyak lagi. Pelajari tutorial lengkap ini!
+### [Cara Merender HTML ke PNG – Panduan Lengkap Langkah demi Langkah](./how-to-render-html-to-png-complete-step-by-step-guide/)
+Pelajari cara merender HTML menjadi PNG dengan panduan lengkap langkah demi langkah menggunakan Aspose.HTML untuk .NET.
 ### [Cara Merender HTML sebagai PNG – Panduan Lengkap C#](./how-to-render-html-as-png-complete-c-guide/)
 Pelajari cara merender HTML menjadi PNG menggunakan Aspose.HTML untuk .NET dengan contoh kode C# lengkap.
 
@@ -94,9 +96,6 @@ Pelajari cara membuat gambar dari HTML menggunakan C# dengan Aspose.HTML melalui
 
 ### [Render HTML ke PDF dengan Aspose.HTML – Panduan Langkah‑demi‑Langkah](./render-html-to-pdf-with-aspose-html-step-by-step-guide/)
 Pelajari cara merender HTML menjadi PDF menggunakan Aspose.HTML dengan panduan langkah demi langkah yang lengkap.
-
-### [Cara Merender HTML ke PNG – Panduan Lengkap Langkah‑demi‑Langkah](./how-to-render-html-to-png-complete-step-by-step-guide/)
-Pelajari cara merender HTML ke PNG dengan panduan lengkap langkah demi langkah.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
