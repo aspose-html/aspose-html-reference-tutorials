@@ -156,44 +156,6 @@ try {
 
 Herhangi bir dönüşüm başarısız olursa, fırlattığımız `RuntimeException` executor'a yayılır ve varsayılan olarak konsola kaydedilir. Üretimde, `afterExecute` yöntemi geçersiz kılınmış özel bir `ThreadPoolExecutor` ekleyerek hataları bir dosyaya ya da izleme sistemine kaydedebilirsiniz.
 
-## Tam Çalışan Örnek
-
-Her şeyi bir araya getirdiğimizde, `src/main/java/com/example/BatchPdfConverter.java` içine kopyalayıp yapıştırabileceğiniz bağımsız bir Java sınıfı elde edersiniz. OpenHTMLtoPDF bağımlılığının sınıf yolunuzda olduğundan emin olun.
-
-```java
-package com.example;
-
-import java.io.*;
-import java.nio.charset.StandardCharsets;
-import java.nio.file.*;
-import java.util.concurrent.*;
-
-import com.openhtmltopdf.pdfboxout.PdfRendererBuilder;
-
-/**
- * Demonstrates how to create a fixed thread pool to batch HTML to PDF conversion.
- * Adjust POOL_SIZE and DIRECTORY constants to fit your environment.
- */
-public class BatchPdfConverter {
-
-    private static final int POOL_SIZE = 4;                     // Number of parallel workers
-    private static final Path DIRECTORY = Paths.get("YOUR_DIRECTORY"); // Change to your folder
-
-    public static void main(String[] args) {
-        ExecutorService threadPool = Executors.newFixedThreadPool(POOL_SIZE);
-
-        // Discover all *.html files in the target directory
-        try (DirectoryStream<Path> stream = Files.newDirectoryStream(DIRECTORY, "*.html")) {
-            for (Path htmlPath : stream) {
-                threadPool.submit(() -> processFile(htmlPath));
-            }
-        } catch (IOException e) {
-            System.err.println("Failed to list HTML files: " + e.getMessage());
-        }
-
-        // Graceful shutdown
-        thread
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

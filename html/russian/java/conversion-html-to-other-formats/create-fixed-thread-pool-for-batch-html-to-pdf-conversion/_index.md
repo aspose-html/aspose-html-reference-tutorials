@@ -24,14 +24,6 @@ title: Создать фиксированный пул потоков для п
 url: /ru/java/conversion-html-to-other-formats/create-fixed-thread-pool-for-batch-html-to-pdf-conversion/
 ---
 
-must keep them.
-
-Now produce final output with translated Russian text.
-
-Be careful with markdown formatting.
-
-Let's write translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
@@ -163,44 +155,6 @@ try {
 - `shutdownNow()` пытается отменить запущенные задачи — полезно для принудительной остановки.
 
 Если какая‑то конвертация завершится с ошибкой, `RuntimeException`, который мы бросаем, поднимается до исполнителя и по умолчанию выводится в консоль. В продакшене стоит подключить собственный `ThreadPoolExecutor` с переопределённым методом `afterExecute` для записи в файл или систему мониторинга.
-
-## Полный рабочий пример
-
-Собрав всё вместе, представляем автономный Java‑класс, который можно скопировать‑вставить в `src/main/java/com/example/BatchPdfConverter.java`. Убедитесь, что зависимость OpenHTMLtoPDF находится в вашем classpath.
-
-```java
-package com.example;
-
-import java.io.*;
-import java.nio.charset.StandardCharsets;
-import java.nio.file.*;
-import java.util.concurrent.*;
-
-import com.openhtmltopdf.pdfboxout.PdfRendererBuilder;
-
-/**
- * Demonstrates how to create a fixed thread pool to batch HTML to PDF conversion.
- * Adjust POOL_SIZE and DIRECTORY constants to fit your environment.
- */
-public class BatchPdfConverter {
-
-    private static final int POOL_SIZE = 4;                     // Number of parallel workers
-    private static final Path DIRECTORY = Paths.get("YOUR_DIRECTORY"); // Change to your folder
-
-    public static void main(String[] args) {
-        ExecutorService threadPool = Executors.newFixedThreadPool(POOL_SIZE);
-
-        // Discover all *.html files in the target directory
-        try (DirectoryStream<Path> stream = Files.newDirectoryStream(DIRECTORY, "*.html")) {
-            for (Path htmlPath : stream) {
-                threadPool.submit(() -> processFile(htmlPath));
-            }
-        } catch (IOException e) {
-            System.err.println("Failed to list HTML files: " + e.getMessage());
-        }
-
-        // Graceful shutdown
-        thread
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

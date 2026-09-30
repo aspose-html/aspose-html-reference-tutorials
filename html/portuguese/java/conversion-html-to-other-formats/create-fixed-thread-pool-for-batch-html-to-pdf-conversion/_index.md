@@ -24,20 +24,6 @@ title: Criar pool de threads fixa para conversão em lote de HTML para PDF
 url: /pt/java/conversion-html-to-other-formats/create-fixed-thread-pool-for-batch-html-to-pdf-conversion/
 ---
 
-blocks unchanged.
-
-At the end there is an incomplete code snippet: after "thread" truncated. We must preserve as is (the original content). Keep the truncated line.
-
-Also there are closing shortcodes.
-
-Let's produce final output.
-
-Be careful with markdown tables: translate headers and content.
-
-Also translate "Pro tip:" etc.
-
-Let's write translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
@@ -169,44 +155,6 @@ try {
 - `shutdownNow()` tenta cancelar tarefas em execução — útil para uma parada forçada.
 
 Se alguma conversão falhar, a `RuntimeException` que lançamos sobe até o executor, que a registra no console por padrão. Em produção você poderia anexar um `ThreadPoolExecutor` customizado com o método `afterExecute` sobrescrito para registrar em arquivo ou sistema de monitoramento.
-
-## Exemplo Completo e Funcional
-
-Juntando tudo, aqui está uma classe Java autônoma que você pode copiar‑colar em `src/main/java/com/example/BatchPdfConverter.java`. Certifique‑se de que a dependência OpenHTMLtoPDF esteja no seu classpath.
-
-```java
-package com.example;
-
-import java.io.*;
-import java.nio.charset.StandardCharsets;
-import java.nio.file.*;
-import java.util.concurrent.*;
-
-import com.openhtmltopdf.pdfboxout.PdfRendererBuilder;
-
-/**
- * Demonstrates how to create a fixed thread pool to batch HTML to PDF conversion.
- * Adjust POOL_SIZE and DIRECTORY constants to fit your environment.
- */
-public class BatchPdfConverter {
-
-    private static final int POOL_SIZE = 4;                     // Number of parallel workers
-    private static final Path DIRECTORY = Paths.get("YOUR_DIRECTORY"); // Change to your folder
-
-    public static void main(String[] args) {
-        ExecutorService threadPool = Executors.newFixedThreadPool(POOL_SIZE);
-
-        // Discover all *.html files in the target directory
-        try (DirectoryStream<Path> stream = Files.newDirectoryStream(DIRECTORY, "*.html")) {
-            for (Path htmlPath : stream) {
-                threadPool.submit(() -> processFile(htmlPath));
-            }
-        } catch (IOException e) {
-            System.err.println("Failed to list HTML files: " + e.getMessage());
-        }
-
-        // Graceful shutdown
-        thread
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
