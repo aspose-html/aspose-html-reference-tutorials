@@ -144,6 +144,8 @@ Tìm hiểu cách bật JavaScript khi tải HTML và trích xuất văn bản b
 Hướng dẫn chi tiết cách chuyển đổi tệp EPUB sang DOCX bằng Aspose, bao gồm các bước cấu hình và lưu trữ kết quả.
 ### [Cách sandbox JavaScript – Hướng dẫn toàn diện Aspose.HTML](./how-to-sandbox-javascript-complete-aspose-html-guide/)
 Hướng dẫn chi tiết cách sandbox JavaScript trong Aspose.HTML, bảo vệ môi trường thực thi và tăng cường bảo mật.
+### [Cách bật JavaScript trong Java – Hướng dẫn toàn diện Aspose.HTML](./how-to-enable-javascript-in-java-complete-aspose-html-guide/)
+Hướng dẫn chi tiết cách kích hoạt JavaScript trong ứng dụng Java bằng Aspose.HTML, bao gồm cấu hình và ví dụ thực tế.
 
 ---
 

@@ -153,6 +153,9 @@ weight: 20
 ### [كيفية تحميل HTML، ضبط DPI للجهاز وقراءة لون الخلفية](./how-to-load-html-set-device-dpi-read-background-color/)
 تعلم كيفية تحميل HTML، ضبط DPI للجهاز، وقراءة لون الخلفية باستخدام Aspose.HTML for Java.
 
+### [كيفية تمكين JavaScript في Java – دليل Aspose.HTML الكامل](./how-to-enable-javascript-in-java-complete-aspose-html-guide/)
+اكتشف طريقة تمكين JavaScript في تطبيقات Java باستخدام Aspose.HTML for Java بسهولة.
+
 ---
 
 **آخر تحديث:** 2025-11-29  

@@ -139,6 +139,12 @@ Naučte se převést HTML na WebP pomocí Aspose.HTML for Java. Jednoduchý krok
 ### [Vytvořit PNG z HTML – Rychlá dávková konverze pomocí thread poolu](./create-png-from-html-fast-batch-conversion-using-a-thread-po/)
 ### [Převod HTML na PNG s nastavením maximálního využití paměti v Javě](./convert-html-to-png-with-set-max-memory-usage-in-java/)
 Naučte se, jak omezit paměť při převodu HTML na PNG v Javě pomocí Aspose.HTML.
+### [Převod SVG do WebP v Javě – Kompletní průvodce Aspose HTML](./convert-svg-to-webp-in-java-complete-aspose-html-guide/)
+Naučte se převést SVG soubory do formátu WebP v Javě pomocí Aspose.HTML. Kompletní krok‑za‑krokem průvodce.
+
+### [Nastavení poměru pixelů zařízení v Javě – Kompletní průvodce](./set-device-pixel-ratio-in-java-complete-guide/)
+Naučte se, jak nastavit Device Pixel Ratio v Javě pomocí Aspose.HTML, aby výstupní obrázky měly požadované rozlišení a ostrost.
+
 ## Často kladené otázky
 
 **Q: Mohu převést HTML na PNG pomocí Javy bez dalších knihoven pro obrázky?**  

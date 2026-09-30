@@ -88,6 +88,8 @@ Pelajari cara mengonversi HTML ke PDF di Java menggunakan Aspose.HTML. Buat PDF 
 
 ### [Mengonversi HTML Dinamis ke PDF dengan Aspose HTML untuk Java](./convert-dynamic-html-pdf-with-aspose-html-for-java/)
 Pelajari cara mengonversi HTML dinamis menjadi PDF menggunakan Aspose.HTML for Java dengan contoh kode lengkap.
+### [Buat Fixed Thread Pool untuk Konversi Batch HTML ke PDF](./create-fixed-thread-pool-for-batch-html-to-pdf-conversion/)
+Panduan membuat thread pool tetap untuk mengonversi banyak file HTML ke PDF secara paralel menggunakan Aspose.HTML for Java.
 
 ### [Mengonversi HTML ke PDF di Java – Panduan Langkah‑demi‑Langkah dengan Pengaturan Ukuran Halaman](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Panduan lengkap mengonversi HTML ke PDF di Java dengan pengaturan ukuran halaman yang dapat disesuaikan.
@@ -102,6 +104,8 @@ Panduan singkat untuk mengonversi HTML ke PDF di Java menggunakan Aspose.HTML de
 
 ### [Mengonversi HTML ke PDF di Java – Panduan Lengkap dengan Ukuran Kertas & DPI](./convert-html-to-pdf-in-java-full-guide-with-paper-size-dpi/)
 Panduan lengkap mengonversi HTML ke PDF di Java dengan pengaturan ukuran kertas dan DPI untuk hasil cetak optimal.
+### [Menyematkan Font ke PDF – Panduan Lengkap Aspose HTML ke PDF (Java)](./embed-fonts-pdf-complete-aspose-html-to-pdf-guide-java/)
+Pelajari cara menyematkan font ke dalam PDF menggunakan Aspose.HTML for Java untuk menghasilkan dokumen dengan tampilan tepat.
 
 ### [Mengonversi HTML ke MHTML](./convert-html-to-mhtml/)
 Konversi HTML ke MHTML dengan mudah menggunakan Aspose.HTML untuk Java. Ikuti panduan langkah‑demi‑langkah kami untuk konversi HTML‑ke‑MHTML yang efisien.
@@ -172,6 +176,8 @@ Pelajari cara mengonversi banyak file HTML menjadi PDF secara batch dengan Aspos
 ### [Ekstrak audio dari HTML – Cara mengekstrak media dan video](./extract-audio-from-html-how-to-extract-media-and-video/)
 Pelajari cara mengekstrak audio, media, dan video dari file HTML menggunakan Aspose.HTML untuk Java.
 ### [Mengonversi HTML ke PDF secara Massal – Panduan Java NIO dengan Pemrosesan Paralel](./convert-html-to-pdf-in-bulk-java-nio-guide-with-parallel-pro/)
+### [Buat docx dari html – Panduan Java untuk mengonversi HTML ke DOCX](./create-docx-from-html-java-guide-to-convert-html-to-docx/)
+Pelajari cara mengonversi HTML menjadi file DOCX di Java menggunakan Aspose.HTML.
 
 ## Pertanyaan yang Sering Diajukan
 

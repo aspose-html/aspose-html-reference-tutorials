@@ -133,6 +133,10 @@ Erfahren Sie, wie Sie HTML mit Aspose.HTML for Java in das WebP‑Format konvert
 Erfahren Sie, wie Sie SVG mit Aspose.HTML for Java in GIF konvertieren – ein umfassender Schritt‑für‑Schritt‑Leitfaden.
 ### [Wie man Aspose verwendet, um SVG in WebP zu konvertieren – Java‑Guide](./how-to-use-aspose-to-convert-svg-to-webp-java-guide/)
 Erfahren Sie, wie Sie mit Aspose.HTML for Java SVG‑Grafiken in das moderne WebP‑Format konvertieren – Schritt‑für‑Schritt‑Anleitung.
+### [SVG in WebP konvertieren – Vollständiger Aspose HTML Leitfaden](./convert-svg-to-webp-in-java-complete-aspose-html-guide/)
+Erfahren Sie, wie Sie SVG mit Aspose.HTML for Java in das moderne WebP‑Format konvertieren – Schritt‑für‑Schritt‑Anleitung für optimale Bildqualität.
+### [Geräte-Pixel-Verhältnis in Java festlegen – Vollständiger Leitfaden](./set-device-pixel-ratio-in-java-complete-guide/)
+Erfahren Sie, wie Sie das Device Pixel Ratio in Aspose.HTML for Java einstellen, um hochauflösende Renderings zu erzielen.
 
 ## Häufig gestellte Fragen
 

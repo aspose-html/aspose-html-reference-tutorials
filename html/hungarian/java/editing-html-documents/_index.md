@@ -66,6 +66,8 @@ Ismerje meg, hogyan adhat hozzá új elemet a HTML body részéhez Java-ban az A
 Ismerje meg, hogyan módosíthatja az MHTML fájlok h1 címkéjének szövegét Java segítségével részletes, lépésről‑lépésre útmutatóval.
 ### [Új HTML elem létrehozása Java-val – Teljes Aspose.HTML útmutató](./create-new-html-element-with-java-full-aspose-html-guide/)
 Ismerje meg, hogyan hozhat létre új HTML elemet Java segítségével az Aspose.HTML teljes útmutatójában.
+### [Gyermek elem hozzáadása a Java DOM-ban – Teljes Aspose.HTML útmutató](./how-to-append-child-in-java-dom-complete-aspose-html-guide/)
+Fedezze fel, hogyan adhat hozzá gyermek elemet a Java DOM-hoz az Aspose.HTML használatával, részletes, lépésről lépésre útmutató.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

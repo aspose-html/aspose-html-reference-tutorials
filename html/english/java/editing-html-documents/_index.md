@@ -46,6 +46,8 @@ Sometimes, you need to apply styles directly within the HTML document itself. Th
 ## Editing HTML Documents in Aspose.HTML for Java Tutorials
 ### [Edit HTML Document Tree in Aspose.HTML for Java](./edit-html-document-tree/)
 Discover how to manipulate HTML documents using Aspose.HTML for Java. A step-by-step guide for efficient content management.
+### [How to Append Child in Java DOM – Complete Aspose.HTML Guide](./how-to-append-child-in-java-dom-complete-aspose-html-guide/)
+Learn how to append child nodes to the DOM using Aspose.HTML for Java with this step‑by‑step guide.
 ### [Advanced HTML Document Tree Editing in Aspose.HTML for Java](./advanced-html-document-tree-editing/)
 Discover how to edit HTML documents using Aspose.HTML for Java with this step-by-step guide, including creating styles, paragraphs, and converting to PDF.
 ### [Apply External CSS to HTML Documents in Aspose.HTML for Java](./apply-external-css-html-documents/)

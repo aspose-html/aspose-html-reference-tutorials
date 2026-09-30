@@ -66,6 +66,7 @@ url: /ru/java/editing-html-documents/
 Узнайте, как использовать фиксированный пул потоков и ExecutorService для параллельной очистки HTML в Java.
 ### [Создание нового HTML-элемента с Java – Полное руководство Aspose.HTML](./create-new-html-element-with-java-full-aspose-html-guide/)
 Узнайте, как создавать новые HTML-элементы в Java с помощью Aspose.HTML. Пошаговое полное руководство.
+### [Как добавить дочерний элемент в Java DOM – Полное руководство Aspose.HTML](./how-to-append-child-in-java-dom-complete-aspose-html-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

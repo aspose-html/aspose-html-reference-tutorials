@@ -143,6 +143,8 @@ Leer hoe je JavaScript asynchroon kunt uitvoeren met CompletableFuture in Java v
 Leer hoe je HTML laadt, de apparaat‑DPI instelt en de achtergrondkleur uitleest met Aspose.HTML for Java.
 ### [Hoe JavaScript te sandboxen – Complete Aspose.HTML-gids](./how-to-sandbox-javascript-complete-aspose-html-guide/)
 Leer hoe je JavaScript veilig kunt uitvoeren in een sandbox-omgeving met Aspose.HTML, stap voor stap.
+### [Hoe JavaScript in Java inschakelen – Complete Aspose.HTML-gids](./how-to-enable-javascript-in-java-complete-aspose-html-guide/)
+Leer hoe je JavaScript in Java kunt inschakelen met Aspose.HTML, inclusief configuratie en voorbeelden.
 
 ---
 

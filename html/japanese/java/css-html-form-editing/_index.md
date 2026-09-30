@@ -73,6 +73,8 @@ Java で Aspose.HTML を使用し、HTML 要素の計算済みスタイルから
 このチュートリアルでは、Aspose.HTML for Java を使って getComputedStyle を呼び出し、要素の背景色や他の CSS プロパティを抽出する手順を解説します。
 ### [JavaでHTMLからCSSを抽出する – ステップバイステップガイド](./extract-css-from-html-in-java-step-by-step-guide/)
 このチュートリアルでは、Javaを使用してHTMLからCSSを抽出する方法をステップバイステップで学びます。
+### [Javaで CSS を読む方法 – ステップバイステップ ガイド](./how-to-read-css-in-java-step-by-step-guide/)
+このステップバイステップ ガイドでは、JavaでCSSファイルを読み取り解析する方法を学びます。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

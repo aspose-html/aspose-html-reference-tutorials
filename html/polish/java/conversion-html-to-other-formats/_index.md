@@ -126,6 +126,10 @@ Dowiedz się, jak przekształcić dokument HTML w zgodny z PDF/A‑2b format prz
 Dowiedz się, jak wyodrębnić dźwięk i wideo z dokumentów HTML przy użyciu Aspose.HTML w Javie.
 ### [Utwórz PDF z Markdown w Javie – Przewodnik krok po kroku](./create-pdf-from-markdown-in-java-step-by-step-guide/)
 Dowiedz się, jak przekształcić plik Markdown w wysokiej jakości PDF w Javie, korzystając z Aspose.HTML w prostych krokach.
+### [Utworzenie pliku DOCX z HTML – przewodnik Java konwertujący HTML do DOCX](./create-docx-from-html-java-guide-to-convert-html-to-docx/)
+Dowiedz się, jak konwertować HTML do DOCX w Javie przy użyciu Aspose.HTML. Twórz wysokiej jakości pliki DOCX z treści HTML bez wysiłku.
+### [Osadzanie czcionek w PDF – Kompletny przewodnik Aspose HTML do PDF (Java)](./embed-fonts-pdf-complete-aspose-html-to-pdf-guide-java/)
+Dowiedz się, jak osadzić czcionki w plikach PDF przy użyciu Aspose.HTML for Java, aby zapewnić prawidłowe wyświetlanie tekstu.
 
 ### [Jak używać Aspose – wsadowa konwersja HTML do PDF w Javie](./how-to-use-aspose-batch-convert-html-to-pdf-in-java/)
 Dowiedz się, jak przetwarzać wiele plików HTML jednocześnie i generować PDF w Javie przy użyciu Aspose.HTML.

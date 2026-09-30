@@ -118,6 +118,9 @@ Ismerje meg, hogyan állíthatja be a DPI értéket SVG‑k PNG‑re konvertál�
 Tanulja meg, hogyan konvertálhat HTML‑t WebP‑be Java‑ban az Aspose.HTML segítségével, részletes, lépésről‑lépésre útmutatóval.
 ### [SVG konvertálása WebP‑be – Teljes Java útmutató az Aspose.HTML‑el](./how-to-use-aspose-to-convert-svg-to-webp-java-guide/)
 ### [Hogyan használja az ExecutorService‑t párhuzamos HTML‑to‑PNG kötegelt konverzióhoz](./how-to-use-executorservice-for-parallel-html-to-png-batch-co/)
+### [SVG konvertálása WebP‑be Java‑ban – Teljes Aspose HTML útmutató](./convert-svg-to-webp-in-java-complete-aspose-html-guide/)
+### [Eszköz pixelarány beállítása Java‑ban – Teljes útmutató](./set-device-pixel-ratio-in-java-complete-guide/)
+Ismerje meg, hogyan állíthatja be az eszköz pixelarányát Java‑ban az Aspose.HTML segítségével a pontos képrendereléshez.
 
 ### [HTML renderelése PNG-be – Teljes útmutató Java fejlesztőknek](./how-to-render-html-to-png-complete-guide-for-java-developers/)
 Ismerje meg, hogyan renderelhet HTML-t PNG képpé Java‑ban az Aspose.HTML segítségével, részletes, lépésről‑lépésre útmutatóval.

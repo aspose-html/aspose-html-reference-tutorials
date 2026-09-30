@@ -146,6 +146,11 @@ Aspose.HTML for Java を使用して SVG を WebP に変換します。完全な
 
 ### [ExecutorService を使用した並列 HTML‑to‑PNG バッチ変換](./how-to-use-executorservice-for-parallel-html-to-png-batch-co/)
 
+### [SVG を WebP に変換 – Aspose.HTML を使用した完全な Java ガイド](./convert-svg-to-webp-in-java-complete-aspose-html-guide/)
+Aspose.HTML for Java を使用して SVG を WebP に変換します。完全な Java ガイドで手順を詳しく解説します。
+
+### [Java でデバイス ピクセル比を設定する – 完全ガイド](./set-device-pixel-ratio-in-java-complete-guide/)
+
 ## よくある質問
 
 **Q: 追加の画像ライブラリなしで Java で HTML を PNG に変換できますか？**  

@@ -152,6 +152,9 @@ A: 不需要。單一的 Aspose.HTML for Java 授權即涵蓋所有輸出格式�
 ### [如何在 JavaScript 中使用沙盒 – 完整 Aspose.HTML 指南](./how-to-sandbox-javascript-complete-aspose-html-guide/)
 了解如何在 Aspose.HTML for Java 中使用沙盒執行 JavaScript，確保程式碼安全且不影響主應用。
 
+### [如何在 Java 中啟用 JavaScript – 完整 Aspose.HTML 指南](./how-to-enable-javascript-in-java-complete-aspose-html-guide/)
+學習在 Java 中啟用 JavaScript，結合 Aspose.HTML 完整操作步驟與範例。
+
 ---
 
 **最後更新日期：** 2025-11-29  

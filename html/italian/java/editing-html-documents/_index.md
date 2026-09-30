@@ -66,6 +66,8 @@ Scopri come utilizzare un pool di thread fisso per pulire documenti HTML in para
 Scopri come aggiungere un elemento figlio al body usando Aspose.HTML per Java. Guida passo passo per manipolare il DOM.
 ### [Creare un nuovo elemento HTML con Java – Guida completa Aspose.HTML](./create-new-html-element-with-java-full-aspose-html-guide/)
 Scopri come creare un nuovo elemento HTML usando Aspose.HTML per Java con questa guida completa passo passo.
+### [Come aggiungere un nodo figlio in Java DOM – Guida completa Aspose.HTML](./how-to-append-child-in-java-dom-complete-aspose-html-guide/)
+Scopri come aggiungere un nodo figlio al DOM in Java usando Aspose.HTML. Una guida passo passo per manipolare gli elementi HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

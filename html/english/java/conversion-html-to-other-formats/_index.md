@@ -88,6 +88,9 @@ Learn how to convert HTML to PDF in Java using Aspose.HTML. Create high-quality 
 Step-by-step guide to convert HTML to PDF in Java, including how to set custom page sizes using Aspose.HTML.
 ### [Convert HTML to PDF in Java – Complete Step‑by‑Step Guide](./convert-html-to-pdf-in-java-complete-step-by-step-guide/)
 Complete step‑by‑step guide to convert HTML to PDF in Java with Aspose.HTML, covering all settings, options, and best practices.
+### [embed fonts pdf – Complete Aspose HTML to PDF Guide (Java)](./embed-fonts-pdf-complete-aspose-html-to-pdf-guide-java/)
+Learn how to embed custom fonts into PDFs using Aspose.HTML for Java, ensuring accurate text rendering across all devices.
+
 ### [How to compress PDF with Aspose HTML to PDF – Java guide](./how-to-compress-pdf-with-aspose-html-to-pdf-java-guide/)
 Learn how to compress PDF files using Aspose.HTML for Java, reducing size while preserving quality.
 ### [How to Convert HTML to PDF with Aspose HTML – Async Java Guide](./how-to-convert-html-to-pdf-with-aspose-html-async-java-guide/)
@@ -116,6 +119,11 @@ Convert SVG to PDF in Java with Aspose.HTML. A seamless solution for high-qualit
 
 ### [Converting SVG to XPS](./convert-svg-to-xps/)
 Learn how to convert SVG to XPS with Aspose.HTML for Java. Simple, step-by-step guide for seamless conversions.
+### [Create docx from html – Java guide to convert HTML to DOCX](./create-docx-from-html-java-guide-to-convert-html-to-docx/)
+
+### [Create Fixed Thread Pool for Batch HTML to PDF Conversion](./create-fixed-thread-pool-for-batch-html-to-pdf-conversion/)
+Learn how to set up a fixed thread pool in Java to efficiently process batch HTML to PDF conversions using Aspose.HTML.
+
 ### [Convert Dynamic HTML PDF with Aspose HTML for Java](./convert-dynamic-html-pdf-with-aspose-html-for-java/)
 Learn how to convert dynamic HTML content to PDF using Aspose.HTML for Java, handling scripts and interactive elements.
 ### [How to Use Aspose – Batch Convert HTML to PDF in Java](./how-to-use-aspose-batch-convert-html-to-pdf-in-java/)

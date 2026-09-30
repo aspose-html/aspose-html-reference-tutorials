@@ -115,6 +115,10 @@ Aspose.HTML for Java kullanarak HTML'yi WebP formatına yüksek kaliteyle dönü
 ### [Aspose kullanarak SVG'yi WebP'ye Dönüştürme – Java Rehberi](./how-to-use-aspose-to-convert-svg-to-webp-java-guide/)
 Aspose.HTML for Java ile SVG dosyalarını yüksek kalitede WebP formatına dönüştürmeyi adım adım öğrenin.
 ### [ExecutorService Kullanarak Paralel HTML‑to‑PNG Toplu Dönüşüm](./how-to-use-executorservice-for-parallel-html-to-png-batch-co/)
+### [SVG'yi WebP'ye Dönüştür – Aspose.HTML ile Tam Java Rehberi](./convert-svg-to-webp-in-java-complete-aspose-html-guide/)
+Aspose.HTML for Java kullanarak SVG dosyalarını yüksek kaliteyle WebP formatına dönüştürmeyi adım adım öğrenin.
+### [Java'da Cihaz Piksel Oranını Ayarlama – Tam Kılavuz](./set-device-pixel-ratio-in-java-complete-guide/)
+Aspose.HTML for Java kullanarak cihaz piksel oranını nasıl ayarlayacağınızı adım adım öğrenin.
 
 ### [HTML'yi PNG'ye Render Etme – Java Geliştiricileri için Tam Kılavuz](./how-to-render-html-to-png-complete-guide-for-java-developers/)
 Aspose.HTML for Java ile HTML'yi yüksek kaliteli PNG görüntüsüne dönüştürmeyi adım adım öğrenin.

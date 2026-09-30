@@ -66,6 +66,8 @@ ExecutorService kullanarak sabit iş parçacığı havuzu ile HTML belgelerini p
 Java için Aspose.HTML kullanarak gövdeye yeni bir öğe eklemeyi adım adım öğrenin.
 ### [Java ile MHTML'de h1 Metnini Değiştirme – Tam Adım‑Adım Kılavuz](./change-h1-text-in-mhtml-with-java-full-step-by-step-guide/)
 Java kullanarak MHTML dosyalarındaki h1 etiketinin metnini nasıl değiştireceğinizi adım adım öğrenin.
+### [Java DOM'da Çocuk Düğümünü Ekleme – Tam Aspose.HTML Rehberi](./how-to-append-child-in-java-dom-complete-aspose-html-guide/)
+Java DOM'da bir çocuk düğümünü nasıl ekleyeceğinizi adım adım öğrenin ve Aspose.HTML ile belge manipülasyonunu geliştirin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

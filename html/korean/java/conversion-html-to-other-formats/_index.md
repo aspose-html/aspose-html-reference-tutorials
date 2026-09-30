@@ -98,6 +98,8 @@ Aspose.HTML를 활용해 Java에서 여러 HTML 파일을 한 번에 PDF로 변�
 Aspose.HTML를 사용하여 Java에서 HTML을 PDF로 빠르게 변환하는 간단 가이드입니다.
 ### [Java에서 HTML을 PDF로 변환 – 페이지 크기 및 DPI 전체 가이드](./convert-html-to-pdf-in-java-full-guide-with-paper-size-dpi/)
 Aspose.HTML를 사용하여 Java에서 페이지 크기와 DPI를 지정해 HTML을 PDF로 변환하는 전체 가이드를 제공합니다.
+### [PDF에 폰트 포함 – Aspose HTML to PDF 완전 가이드 (Java)](./embed-fonts-pdf-complete-aspose-html-to-pdf-guide-java/)
+Aspose.HTML for Java를 사용하여 PDF에 폰트를 포함하는 전체 과정을 단계별로 안내합니다.
 ### [HTML을 MHTML로 변환](./convert-html-to-mhtml/)
 Aspose.HTML for Java를 사용하여 HTML을 MHTML로 손쉽게 변환합니다. 효율적인 HTML‑to‑MHTML 변환을 위한 단계별 가이드를 따라 주세요.
 ### [HTML을 XPS로 변환](./convert-html-to-xps/)
@@ -122,6 +124,8 @@ Aspose.HTML를 활용해 Java에서 비동기 방식으로 HTML을 PDF로 변환
 Aspose.HTML를 사용하여 HTML 파일에서 오디오와 비디오를 추출하는 방법을 단계별로 안내합니다.
 ### [대량 HTML을 PDF로 변환 – Java NIO 및 병렬 처리 가이드](./convert-html-to-pdf-in-bulk-java-nio-guide-with-parallel-pro/)
 Java NIO와 병렬 처리를 활용해 여러 HTML 파일을 한 번에 PDF로 변환하는 방법을 단계별로 안내합니다.
+### [HTML에서 DOCX 만들기 – Java 가이드: HTML을 DOCX로 변환](./create-docx-from-html-java-guide-to-convert-html-to-docx/)
+Aspose.HTML를 사용하여 Java에서 HTML을 DOCX 파일로 변환하는 방법을 단계별로 안내합니다.
 
 ### [Aspose HTML을 사용하여 PDF 페이지 크기 설정 – 전체 Java 가이드](./set-pdf-page-size-with-aspose-html-full-java-guide/)
 Aspose.HTML를 사용하여 Java에서 PDF 페이지 크기를 설정하는 전체 단계별 가이드를 제공합니다.

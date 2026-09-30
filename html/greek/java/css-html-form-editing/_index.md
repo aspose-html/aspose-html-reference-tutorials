@@ -70,6 +70,8 @@ url: /el/java/css-html-form-editing/
 ### [Πώς να Λάβετε CSS σε Java – Πλήρης Οδηγός Εξαγωγής Στυλ με Aspose.HTML](./how-to-get-css-in-java-complete-guide-to-extract-styles-with/)
 Μάθετε πώς να εξάγετε τα CSS στυλ από έγγραφα HTML χρησιμοποιώντας το Aspose.HTML για Java σε αυτόν τον πλήρη οδηγό.
 
+### [πώς να διαβάσετε CSS σε Java – Οδηγός βήμα‑βήμα](./how-to-read-css-in-java-step-by-step-guide/)
+Μάθετε πώς να διαβάζετε CSS σε Java με βήμα‑βήμα οδηγίες χρησιμοποιώντας Aspose.HTML για Java.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

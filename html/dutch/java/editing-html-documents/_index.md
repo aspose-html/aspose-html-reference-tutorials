@@ -63,6 +63,8 @@ Leer hoe u interne en externe HTML-eigenschappen in Aspose.HTML voor Java beheer
 Leer hoe u interne CSS in HTML-documenten implementeert met Aspose.HTML voor Java met onze eenvoudige stapsgewijze tutorial.
 ### [Wijzig h1-tekst in MHTML met Java – Volledige stapsgewijze handleiding](./change-h1-text-in-mhtml-with-java-full-step-by-step-guide/)
 Leer hoe u de h1-tekst in een MHTML-bestand kunt aanpassen met Aspose.HTML voor Java, stap voor stap.
+### [Hoe een kind toevoegen in Java DOM – Complete Aspose.HTML-gids](./how-to-append-child-in-java-dom-complete-aspose-html-guide/)
+Leer hoe u een child-element toevoegt aan de DOM in Java met Aspose.HTML in deze volledige stap‑voor‑stap gids.
 ### [Fixed thread pool Java – Parallelle HTML-reiniging met ExecutorService](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 ### [Kind toevoegen aan body in Java – volledige Aspose.HTML-tutorial](./append-child-to-body-in-java-full-aspose-html-tutorial/)
 Leer hoe u een kind-element aan de body van een HTML-document toevoegt met Aspose.HTML voor Java.

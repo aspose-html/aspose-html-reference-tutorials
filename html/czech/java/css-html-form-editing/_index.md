@@ -68,6 +68,8 @@ Naučte se, jak pomocí Aspose.HTML pro Javu dotazovat HTML, vybírat elementy, 
 Naučte se, jak pomocí Aspose.HTML v Javě získat vypočtené CSS styly prvků a využít je ve své aplikaci.
 ### [Jak získat CSS v Javě – Kompletní průvodce extrakcí stylů pomocí Aspose.HTML](./how-to-get-css-in-java-complete-guide-to-extract-styles-with/)
 Kompletní průvodce, jak v Javě získat CSS a extrahovat styly pomocí Aspose.HTML.
+### [Jak číst CSS v Javě – krok‑za‑krokem průvodce](./how-to-read-css-in-java-step-by-step-guide/)
+Naučte se, jak pomocí Aspose.HTML pro Java načíst a analyzovat CSS soubory v několika jednoduchých krocích.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

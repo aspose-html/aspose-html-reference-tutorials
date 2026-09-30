@@ -142,6 +142,8 @@ Aprende a cargar documentos HTML, configurar la DPI del dispositivo y obtener el
 Aprende a ejecutar código JavaScript de manera asíncrona en Java mediante CompletableFuture para mejorar el rendimiento de tus aplicaciones.
 ### [Cómo crear un sandbox de JavaScript – Guía completa de Aspose.HTML](./how-to-sandbox-javascript-complete-aspose-html-guide/)
 Aprende a ejecutar JavaScript de forma segura en un entorno aislado usando Aspose.HTML para Java.
+### [Cómo habilitar JavaScript en Java – Guía completa de Aspose.HTML](./how-to-enable-javascript-in-java-complete-aspose-html-guide/)
+Aprende a habilitar la ejecución de JavaScript dentro de aplicaciones Java usando Aspose.HTML, paso a paso y con ejemplos completos.
 
 ---
 

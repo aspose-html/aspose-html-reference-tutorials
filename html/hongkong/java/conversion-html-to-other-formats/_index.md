@@ -107,6 +107,8 @@ Aspose.HTML for Java 簡化了 HTML‑to‑PDF 工作流程。請參考專屬教
 快速了解如何使用 Aspose.HTML 在 Java 中將 HTML 轉換為 PDF，提供簡明步驟與關鍵設定。
 ### [在 Java 中將 HTML 轉換為 PDF – 完整指南（含紙張大小與 DPI）](./convert-html-to-pdf-in-java-full-guide-with-paper-size-dpi/)
 完整說明如何在 Java 使用 Aspose.HTML 轉換 HTML 為 PDF，並設定紙張尺寸與解析度（DPI）。
+### [嵌入字體 PDF – 完整 Aspose HTML 轉 PDF 指南（Java）](./embed-fonts-pdf-complete-aspose-html-to-pdf-guide-java/)
+說明如何在使用 Aspose.HTML for Java 產生 PDF 時嵌入字體，確保跨平台顯示一致。
 ### [Converting HTML to MHTML](./convert-html-to-mhtml/)
 使用 Aspose.HTML for Java 輕鬆將 HTML 轉換為 MHTML，依照步驟指南完成高效的 HTML‑to‑MHTML 轉換。
 ### [Converting HTML to XPS](./convert-html-to-xps/)
@@ -137,6 +139,8 @@ Aspose.HTML for Java 簡化了 HTML‑to‑PDF 工作流程。請參考專屬教
 說明如何在 Java 中使用 Aspose.HTML 進行批次 HTML 轉 PDF，提升大量文件的轉換效率。
 ### [Extract audio from HTML – How to extract media and video](./extract-audio-from-html-how-to-extract-media-and-video/)
 使用 Aspose.HTML for Java 從 HTML 頁面提取音訊與影片，提供簡易步驟與範例代碼。
+### [從 HTML 建立 DOCX – Java 轉換 HTML 為 DOCX 教學](./create-docx-from-html-java-guide-to-convert-html-to-docx/)
+使用 Aspose.HTML for Java 將 HTML 轉換為 DOCX，提供完整步驟與範例。
 
 ### [在 Java 中從 HTML 建立 PDF – 完整步驟指南](./create-pdf-from-html-in-java-complete-step-by-step-guide/)
 提供在 Java 中使用 Aspose.HTML 從 HTML 完整生成 PDF 的逐步教學，涵蓋設定、樣式與最佳化技巧。

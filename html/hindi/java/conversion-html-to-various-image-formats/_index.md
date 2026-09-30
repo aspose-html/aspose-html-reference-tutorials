@@ -146,6 +146,11 @@ Aspose.HTML for Java का उपयोग करके वेबपेज क�
 Aspose.HTML for Java का उपयोग करके SVG को PNG में बदलते समय DPI को नियंत्रित करने के चरण‑दर‑चरण निर्देश।
 ### [Java में SVG को GIF में बदलना – पूर्ण चरण‑दर‑चरण गाइड](./svg-to-gif-conversion-in-java-complete-step-by-step-guide/)
 Aspose.HTML for Java का उपयोग करके SVG को GIF में बदलने की पूरी प्रक्रिया सीखें। विस्तृत चरण‑दर‑चरण गाइड।
+### [Java में SVG को WebP में बदलें – Aspose HTML पूर्ण गाइड](./convert-svg-to-webp-in-java-complete-aspose-html-guide/)
+Aspose.HTML for Java का उपयोग करके SVG को WebP इमेज में बदलने के चरण‑दर‑चरण निर्देश।
+
+### [Java में डिवाइस पिक्सेल रेशियो सेट करना – पूर्ण गाइड](./set-device-pixel-ratio-in-java-complete-guide/)
+Aspose.HTML for Java का उपयोग करके डिवाइस पिक्सेल रेशियो कैसे सेट करें और उच्च‑रिज़ॉल्यूशन इमेज रेंडरिंग प्राप्त करें।
 
 ## अक्सर पूछे जाने वाले प्रश्न
 

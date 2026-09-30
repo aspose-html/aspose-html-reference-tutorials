@@ -150,6 +150,10 @@ Aprenda a convertir HTML a WebP con Aspose.HTML for Java. Guía paso a paso para
 Aprenda a capturar una captura de pantalla de una página web usando Aspose.HTML for Java. Guía paso a paso para obtener imágenes precisas.
 ### [Conversión de SVG a GIF en Java – Guía completa paso a paso](./svg-to-gif-conversion-in-java-complete-step-by-step-guide/)
 Aprenda a convertir SVG a GIF en Java usando Aspose.HTML. Guía paso a paso para una conversión eficiente y de alta calidad.
+### [Convertir SVG a WebP en Java – Guía completa de Aspose HTML](./convert-svg-to-webp-in-java-complete-aspose-html-guide/)
+Aprenda a convertir SVG a WebP en Java usando Aspose.HTML. Guía paso a paso para una conversión eficiente y de alta calidad.
+### [Establecer la relación de píxeles del dispositivo en Java – Guía completa](./set-device-pixel-ratio-in-java-complete-guide/)
+Aprenda a establecer la relación de píxeles del dispositivo en Java usando Aspose.HTML. Guía paso a paso para un renderizado preciso.
 
 ## Preguntas frecuentes
 

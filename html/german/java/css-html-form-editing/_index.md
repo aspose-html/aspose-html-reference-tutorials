@@ -71,6 +71,8 @@ Erfahren Sie, wie Sie mit Aspose.HTML für Java HTML‑Dokumente abfragen, Eleme
 Lernen Sie, wie Sie mit Aspose.HTML den berechneten CSS‑Stil eines Elements in Java ermitteln und nutzen können.
 ### [Wie man CSS in Java erhält – Komplett‑Anleitung zum Extrahieren von Stilen mit Aspose.HTML](./how-to-get-css-in-java-complete-guide-to-extract-styles-with/)
 Erfahren Sie, wie Sie mit Aspose.HTML für Java CSS‑Stile aus HTML‑Dokumenten extrahieren und weiterverwenden.
+### [CSS in Java lesen – Schritt‑für‑Schritt‑Anleitung](./how-to-read-css-in-java-step-by-step-guide/)
+Erfahren Sie, wie Sie CSS-Dateien in Java einlesen und verarbeiten – eine detaillierte Schritt‑für‑Schritt‑Anleitung.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

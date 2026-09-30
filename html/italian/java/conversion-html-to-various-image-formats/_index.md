@@ -112,6 +112,10 @@ Scopri come convertire facilmente HTML in TIFF usando Aspose.HTML for Java. Guid
 ### [Converti HTML in WebP](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
 Scopri come convertire HTML in WebP in Java usando Aspose.HTML. Una guida completa passo‑passo per una conversione efficiente.
 ### [Conversione di SVG in WebP – Guida Java](./how-to-use-aspose-to-convert-svg-to-webp-java-guide/)
+### [Converti SVG in WebP in Java – Guida completa Aspose.HTML](./convert-svg-to-webp-in-java-complete-aspose-html-guide/)
+Scopri come convertire file SVG in immagini WebP usando Aspose.HTML for Java. Una guida passo‑passo completa.
+### [Imposta il rapporto di pixel del dispositivo in Java – Guida completa](./set-device-pixel-ratio-in-java-complete-guide/)
+Scopri come impostare il Device Pixel Ratio in Java con Aspose.HTML per un rendering ad alta risoluzione. Guida passo‑passo completa.
 
 ### [Come usare ExecutorService per la conversione batch parallela da HTML a PNG](./how-to-use-executorservice-for-parallel-html-to-png-batch-co/)
 Guida passo‑passo per convertire in batch HTML in PNG usando ExecutorService per l'elaborazione parallela.

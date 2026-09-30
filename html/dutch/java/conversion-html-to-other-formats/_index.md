@@ -90,6 +90,9 @@ Een beknopte gids voor het snel converteren van HTML naar PDF in Java met Aspose
 Leer stap voor stap hoe u HTML naar PDF converteert in Java en paginagrootte‑instellingen configureert voor optimale resultaten.
 ### [HTML naar PDF converteren in Java – Complete stapsgewijze gids](./convert-html-to-pdf-in-java-complete-step-by-step-guide/)
 Volledige stap‑voor‑stap handleiding om HTML naar PDF te converteren in Java met Aspose.HTML, inclusief alle configuratie‑opties.
+### [Lettertypen insluiten in PDF – Complete Aspose HTML naar PDF-gids (Java)](./embed-fonts-pdf-complete-aspose-html-to-pdf-guide-java/)
+Leer hoe u lettertypen insluit bij het converteren van HTML naar PDF met Aspose.HTML for Java voor consistente weergave.
+
 ### [Hoe HTML naar PDF converteren met Aspose HTML – Async Java‑gids](./how-to-convert-html-to-pdf-with-aspose-html-async-java-guide/)
 Leer hoe u asynchrone conversie van HTML naar PDF implementeert in Java met Aspose HTML voor betere prestaties.
 ### [HTML in bulk naar PDF converteren – Java NIO-gids met parallelle verwerking](./convert-html-to-pdf-in-bulk-java-nio-guide-with-parallel-pro/)
@@ -108,6 +111,9 @@ Leer hoe u SVG naar afbeeldingen kunt converteren in Java met Aspose.HTML. Uitge
 Converteer SVG naar PDF in Java met Aspose.HTML. Een naadloze oplossing voor documentconversie van hoge kwaliteit.
 ### [SVG naar XPS converteren](./convert-svg-to-xps/)
 Leer hoe u SVG naar XPS kunt converteren met Aspose.HTML for Java. Eenvoudige, stap‑voor‑stap gids voor naadloze conversies.
+### [DOCX maken van HTML – Java-gids om HTML naar DOCX te converteren](./create-docx-from-html-java-guide-to-convert-html-to-docx/)
+Leer hoe u HTML naar DOCX converteert in Java met Aspose.HTML. Maak eenvoudig DOCX‑documenten van uw webinhoud.
+
 ### [HTML naar PDF converteren in Java – Complete gids met lettertype‑inbedding](./convert-html-to-pdf-in-java-complete-guide-with-font-embeddi/)
 Leer hoe u HTML naar PDF converteert in Java met volledige lettertype‑inbedding voor nauwkeurige weergave.
 ### [Hoe PDF comprimeren met Aspose HTML naar PDF – Java‑gids](./how-to-compress-pdf-with-aspose-html-to-pdf-java-guide/)

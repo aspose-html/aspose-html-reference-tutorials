@@ -142,6 +142,7 @@ weight: 20
 Μάθετε πώς να φορτώσετε HTML, ορίσετε το DPI της συσκευής και διαβάσετε το χρώμα φόντου με Aspose.HTML for Java.
 ### [Πώς να Απομονώσετε JavaScript – Πλήρης Οδηγός Aspose.HTML](./how-to-sandbox-javascript-complete-aspose-html-guide/)
 Μάθετε πώς να εκτελείτε JavaScript σε ασφαλές sandbox περιβάλλον με το Aspose.HTML for Java, εξασφαλίζοντας απομόνωση και έλεγχο.
+### [Πώς να ενεργοποιήσετε τη JavaScript σε Java – Πλήρης οδηγός Aspose.HTML](./how-to-enable-javascript-in-java-complete-aspose-html-guide/)
 
 ---
 

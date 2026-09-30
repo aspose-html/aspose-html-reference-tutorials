@@ -141,6 +141,8 @@ CompletableFuture와 Aspose.HTML을 활용해 Java에서 JavaScript를 비동기
 ### [HTML 로드, 디바이스 DPI 설정 및 배경 색상 읽기](./how-to-load-html-set-device-dpi-read-background-color/)
 ### [JavaScript 샌드박스 구현 방법 – Aspose.HTML 완전 가이드](./how-to-sandbox-javascript-complete-aspose-html-guide/)
 Aspose.HTML를 사용해 Java 애플리케이션 내에서 JavaScript를 안전하게 격리하고 실행하는 방법을 단계별로 안내합니다.
+### [Java에서 JavaScript 활성화하기 – 완전 Aspose.HTML 가이드](./how-to-enable-javascript-in-java-complete-aspose-html-guide/)
+Aspose.HTML를 사용해 Java 환경에서 JavaScript를 활성화하고, 스크립트 실행 및 엔진 구성 방법을 자세히 안내합니다.
 
 ---
 

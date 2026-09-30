@@ -144,6 +144,8 @@ Lär dig konvertera EPUB‑filer till DOCX med Aspose i Java, steg för steg.
 Lär dig hur du exekverar JavaScript‑kod asynkront i Java‑applikationer med CompletableFuture och Aspose.HTML.
 ### [Hur du laddar HTML, anger enhetens DPI och läser bakgrundsfärg](./how-to-load-html-set-device-dpi-read-background-color/)
 Lär dig hur du laddar ett HTML‑dokument, ställer in DPI för enheten och läser bakgrundsfärgen med Aspose.HTML för Java.
+### [Hur du aktiverar JavaScript i Java – Komplett Aspose.HTML‑guide](./how-to-enable-javascript-in-java-complete-aspose-html-guide/)
+Lär dig hur du aktiverar JavaScript‑stöd i Java‑applikationer med Aspose.HTML, inklusive konfiguration och exempel.
 
 ---
 

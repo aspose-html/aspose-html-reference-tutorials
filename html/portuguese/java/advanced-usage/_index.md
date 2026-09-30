@@ -157,6 +157,9 @@ Aprenda a carregar HTML, definir o DPI do dispositivo e ler a cor de fundo com A
 ### [Como isolar JavaScript – Guia completo do Aspose.HTML](./how-to-sandbox-javascript-complete-aspose-html-guide/)
 Aprenda a executar JavaScript em um sandbox seguro usando Aspose.HTML for Java, garantindo isolamento e segurança.
 
+### [Como habilitar JavaScript em Java – Guia completo Aspose.HTML](./how-to-enable-javascript-in-java-complete-aspose-html-guide/)
+Aprenda a habilitar a execução de JavaScript em aplicações Java usando Aspose.HTML for Java.
+
 ---
 
 **Última atualização:** 2025-11-29  

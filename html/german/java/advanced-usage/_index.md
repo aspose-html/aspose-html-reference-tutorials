@@ -147,6 +147,8 @@ Erfahren Sie, wie Sie JavaScript-Code in Java asynchron ausführen, indem Sie Co
 Lernen Sie, wie Sie HTML mit Aspose.HTML für Java laden, die GerätedPI einstellen und die Hintergrundfarbe aus dem Dokument auslesen.
 ### [Wie man JavaScript sandboxed – Komplett‑Anleitung für Aspose.HTML](./how-to-sandbox-javascript-complete-aspose-html-guide/)
 Erfahren Sie, wie Sie JavaScript sicher in einer Sandbox ausführen und dabei Aspose.HTML für Java nutzen.
+### [Wie man JavaScript in Java aktiviert – Komplettanleitung](./how-to-enable-javascript-in-java-complete-aspose-html-guide/)
+Erfahren Sie, wie Sie JavaScript in Java aktivieren und mit Aspose.HTML vollständig nutzen können.
 
 ---
 

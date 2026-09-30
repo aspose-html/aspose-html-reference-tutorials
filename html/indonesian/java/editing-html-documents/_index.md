@@ -63,6 +63,8 @@ Pelajari cara mengubah teks h1 dalam file MHTML menggunakan Aspose.HTML untuk Ja
 ### [Fixed thread pool Java – Pembersihan HTML Paralel dengan ExecutorService](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 ### [Menambahkan Child ke Body di Java – Tutorial Lengkap Aspose.HTML](./append-child-to-body-in-java-full-aspose-html-tutorial/)
 ### [Buat elemen HTML baru dengan Java – Panduan Lengkap Aspose.HTML](./create-new-html-element-with-java-full-aspose-html-guide/)
+### [Cara Menambahkan Child di Java DOM – Panduan Lengkap Aspose.HTML](./how-to-append-child-in-java-dom-complete-aspose-html-guide/)
+Pelajari cara menambahkan elemen child ke DOM Java menggunakan Aspose.HTML dengan panduan langkah demi langkah.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

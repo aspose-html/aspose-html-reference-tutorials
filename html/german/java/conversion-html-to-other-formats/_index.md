@@ -170,6 +170,12 @@ Erfahren Sie, wie Sie HTML‑Dokumente mit Aspose.HTML für Java in das PDF/A‑
 
 ### [Audio aus HTML extrahieren – So extrahieren Sie Medien und Video](./extract-audio-from-html-how-to-extract-media-and-video/)
 
+### [Einbetten von Schriftarten in PDF – Vollständiger Aspose HTML zu PDF Leitfaden (Java)](./embed-fonts-pdf-complete-aspose-html-to-pdf-guide-java/)
+Erfahren Sie, wie Sie Schriftarten beim HTML‑zu‑PDF‑Export in Java einbetten, um konsistente Darstellung in allen PDF‑Betrachtern sicherzustellen.
+
+### [DOCX aus HTML erstellen – Java‑Leitfaden zur Konvertierung von HTML in DOCX](./create-docx-from-html-java-guide-to-convert-html-to-docx/)
+Erfahren Sie, wie Sie HTML in Java mit Aspose.HTML in DOCX konvertieren und hochwertige Word‑Dokumente erzeugen.
+
 ## Häufig gestellte Fragen
 
 **Q: Kann ich Aspose.HTML für Java in einer kommerziellen Anwendung verwenden?**  

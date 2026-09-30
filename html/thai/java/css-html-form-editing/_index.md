@@ -70,6 +70,8 @@ url: /th/java/css-html-form-editing/
 ### [วิธีดึง CSS ใน Java – คู่มือฉบับสมบูรณ์เพื่อสกัดสไตล์ด้วย Aspose.HTML](./how-to-get-css-in-java-complete-guide-to-extract-styles-with/)
 เรียนรู้วิธีดึงและสกัดสไตล์ CSS จากไฟล์ HTML ด้วย Aspose.HTML สำหรับ Java อย่างละเอียดในคู่มือฉบับสมบูรณ์นี้
 
+### [วิธีอ่าน CSS ใน Java – คู่มือทีละขั้นตอน](./how-to-read-css-in-java-step-by-step-guide/)
+เรียนรู้วิธีอ่านไฟล์ CSS ใน Java อย่างละเอียดด้วยขั้นตอนที่ชัดเจนในคู่มือนี้
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

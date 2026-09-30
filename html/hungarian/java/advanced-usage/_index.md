@@ -142,6 +142,8 @@ Ismerje meg, hogyan futtathat JavaScript kódot aszinkron módon a CompletableFu
 Ismerje meg, hogyan töltsön be HTML-t, állítson be DPI-t és olvassa ki a háttérszínt az Aspose.HTML for Java segítségével.
 ### [JavaScript szandbox használata – Teljes Aspose.HTML útmutató](./how-to-sandbox-javascript-complete-aspose-html-guide/)
 Ismerje meg, hogyan futtathat biztonságosan JavaScript kódot egy elszigetelt környezetben az Aspose.HTML for Java segítségével.
+### [JavaScript engedélyezése Java-ban – Teljes Aspose.HTML útmutató](./how-to-enable-javascript-in-java-complete-aspose-html-guide/)
+Ismerje meg, hogyan engedélyezheti a JavaScript futtatását Java alkalmazásokban az Aspose.HTML segítségével.
 
 ---
 

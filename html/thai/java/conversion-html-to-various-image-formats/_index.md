@@ -89,12 +89,14 @@ weight: 24
 ## การแปลง - บทช่วยสอนการแปลง HTML เป็นรูปแบบภาพต่างๆ
 ### [การแปลง HTML เป็น BMP](./convert-html-to-bmp/)
 แปลง HTML เป็น BMP ด้วย Aspose.HTML สำหรับ Java บทช่วยสอนที่ครอบคลุมสำหรับการแปลงเอกสาร HTML เป็นภาพ BMP อย่างราบรื่นโดยใช้ Aspose.HTML สำหรับ Java
+
 ### [การแปลง HTML เป็น GIF](./convert-html-to-gif/)
 เรียนรู้วิธีการแปลง HTML เป็น GIF ใน Java โดยใช้ Aspose.HTML คู่มือทีละขั้นตอนที่ครอบคลุมสำหรับการแปลง HTML เป็น GIF อย่างมีประสิทธิภาพ
 ### [วิธีสร้าง GIF จาก SVG – คู่มือ Java ขั้นตอนต่อขั้นตอน](./how-to-create-gif-from-svg-step-by-step-java-guide/)
 เรียนรู้วิธีสร้างไฟล์ GIF จาก SVG ด้วย Aspose.HTML for Java อย่างละเอียดขั้นตอนต่อขั้นตอน
 ### [การแปลง HTML เป็น JPEG](./convert-html-to-jpeg/)
 เรียนรู้วิธีการแปลง HTML เป็น JPEG ด้วย Aspose.HTML สำหรับ Java คู่มือทีละขั้นตอนสำหรับการประมวลผลเอกสารอย่างราบรื่น
+
 ### [การแปลง HTML เป็น PNG](./convert-html-to-png/)
 เรียนรู้วิธีการแปลง HTML เป็นภาพ PNG ใน Java ด้วย Aspose.HTML คู่มือฉบับสมบูรณ์พร้อมคำแนะนำทีละขั้นตอน
 ### [วิธีเรนเดอร์ HTML เป็น PNG ใน Java – คู่มือฉบับสมบูรณ์](./how-to-render-html-to-png-in-java-complete-guide/)
@@ -133,6 +135,11 @@ weight: 24
 เรียนรู้วิธีการแปลง SVG เป็น GIF ใน Java ด้วย Aspose.HTML คู่มือทีละขั้นตอนสำหรับการแปลงที่มีประสิทธิภาพ
 ### [แปลง SVG เป็น WebP – คู่มือ Java ด้วย Aspose.HTML](./how-to-use-aspose-to-convert-svg-to-webp-java-guide/)
 เรียนรู้วิธีแปลงไฟล์ SVG เป็นรูปแบบ WebP ใน Java ด้วย Aspose.HTML พร้อมขั้นตอนและตัวอย่างโค้ด
+
+### [แปลง SVG เป็น WebP – คู่มือ Java ฉบับสมบูรณ์ด้วย Aspose.HTML](./convert-svg-to-webp-in-java-complete-aspose-html-guide/)
+เรียนรู้วิธีแปลงไฟล์ SVG เป็นรูปแบบ WebP ใน Java ด้วย Aspose.HTML คู่มือขั้นตอนเต็มสำหรับการแปลงที่รวดเร็วและมีคุณภาพ
+
+### [ตั้งค่าอัตราพิกเซลของอุปกรณ์ใน Java – คู่มือ Java ฉบับสมบูรณ์](./set-device-pixel-ratio-in-java-complete-guide/)
 
 ## คำถามที่พบบ่อย
 

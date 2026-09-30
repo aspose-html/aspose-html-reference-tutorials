@@ -65,6 +65,8 @@ Apprenez à modifier le texte h1 d'un fichier MHTML en Java grâce à un guide d
 ### [Ajouter un enfant au corps en Java – Tutoriel complet Aspose.HTML](./append-child-to-body-in-java-full-aspose-html-tutorial/)
 ### [Créer un nouvel élément HTML avec Java – Guide complet Aspose.HTML](./create-new-html-element-with-java-full-aspose-html-guide/)
 Apprenez à créer et insérer de nouveaux éléments HTML en Java avec Aspose.HTML grâce à ce guide complet étape par étape.
+### [Comment ajouter un nœud enfant dans le DOM Java – Guide complet Aspose.HTML](./how-to-append-child-in-java-dom-complete-aspose-html-guide/)
+Apprenez à ajouter un nœud enfant au DOM Java avec Aspose.HTML grâce à ce guide complet étape par étape.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

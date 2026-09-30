@@ -131,6 +131,9 @@ Apprenez à définir le DPI lors de la conversion de SVG en PNG avec Aspose.HTML
 Apprenez à convertir HTML en WebP en Java avec Aspose.HTML. Guide complet étape par étape pour une conversion efficace et optimisée.
 ### [Conversion de SVG en GIF en Java – Guide complet étape par étape](./svg-to-gif-conversion-in-java-complete-step-by-step-guide/)
 Apprenez à convertir des fichiers SVG en GIF avec Aspose.HTML for Java. Guide complet avec instructions détaillées.
+### [Convertir SVG en WebP en Java – Guide complet Aspose HTML](./convert-svg-to-webp-in-java-complete-aspose-html-guide/)
+Apprenez à convertir SVG en WebP en Java avec Aspose.HTML. Guide complet étape par étape pour une conversion efficace et optimisée.
+### [Définir le ratio de pixels de l'appareil en Java – Guide complet](./set-device-pixel-ratio-in-java-complete-guide/)
 
 ## Questions fréquemment posées
 

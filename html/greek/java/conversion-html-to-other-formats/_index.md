@@ -112,6 +112,9 @@ weight: 25
 ### [Aspose HTML PDF/A Tutorial: Μετατροπή HTML σε PDF/A‑2b με Java](./aspose-html-pdf-a-tutorial-convert-html-to-pdf-a-2b-with-jav/)
 ### [Μετατροπή HTML σε PDF σε Java – Γρήγορος Οδηγός Aspose.HTML](./convert-html-to-pdf-in-java-quick-aspose-html-guide/)
 Ένας σύντομος οδηγός για γρήγορη μετατροπή HTML σε PDF σε Java με Aspose.HTML, βήμα‑βήμα και βασικές ρυθμίσεις.
+### [Ενσωμάτωση γραμματοσειρών PDF – Πλήρης Οδηγός Aspose HTML σε PDF (Java)](./embed-fonts-pdf-complete-aspose-html-to-pdf-guide-java/)
+### [Δημιουργία docx από html – Οδηγός Java για μετατροπή HTML σε DOCX](./create-docx-from-html-java-guide-to-convert-html-to-docx/)
+Μάθετε πώς να μετατρέψετε HTML σε έγγραφα DOCX σε Java με το Aspose.HTML, βήμα‑βήμα οδηγίες και παραδείγματα.
 
 ### [Πώς να μετατρέψετε HTML σε PDF με Aspose HTML – Ασύγχρονος οδηγός Java](./how-to-convert-html-to-pdf-with-aspose-html-async-java-guide/)
 

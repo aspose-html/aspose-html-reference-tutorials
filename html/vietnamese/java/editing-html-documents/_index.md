@@ -66,6 +66,8 @@ Sử dụng Fixed thread pool trong Java để thực hiện làm sạch HTML so
 Khám phá cách thêm phần tử con vào thẻ body trong tài liệu HTML bằng Aspose.HTML cho Java qua hướng dẫn chi tiết.
 ### [Tạo phần tử HTML mới bằng Java – Hướng dẫn đầy đủ Aspose.HTML](./create-new-html-element-with-java-full-aspose-html-guide/)
 Hướng dẫn chi tiết cách tạo phần tử HTML mới bằng Java sử dụng Aspose.HTML, bao gồm các bước thực hiện và ví dụ thực tế.
+### [Cách Thêm Child trong Java DOM – Hướng Dẫn Toàn Diện Aspose.HTML](./how-to-append-child-in-java-dom-complete-aspose-html-guide/)
+Tìm hiểu cách thêm phần tử con vào DOM trong Java bằng Aspose.HTML với hướng dẫn chi tiết từng bước.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

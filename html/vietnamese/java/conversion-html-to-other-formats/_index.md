@@ -91,6 +91,8 @@ Tìm hiểu cách chuyển đổi HTML sang PDF trong Java bằng Aspose.HTML. T
 
 ### [Cách chuyển đổi HTML sang PDF với Aspose HTML – Hướng dẫn Java bất đồng bộ](./how-to-convert-html-to-pdf-with-aspose-html-async-java-guide/)
 Tìm hiểu cách chuyển đổi HTML sang PDF một cách bất đồng bộ trong Java bằng Aspose.HTML.
+### [Tạo Fixed Thread Pool cho chuyển đổi HTML sang PDF hàng loạt](./create-fixed-thread-pool-for-batch-html-to-pdf-conversion/)
+Hướng dẫn tạo Fixed Thread Pool trong Java để thực hiện chuyển đổi HTML sang PDF hàng loạt một cách hiệu quả.
 
 ### [Chuyển đổi HTML sang PDF trong Java – Hướng dẫn chi tiết với cài đặt kích thước trang](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Hướng dẫn từng bước chuyển HTML sang PDF trong Java, bao gồm cách thiết lập kích thước trang cho PDF.
@@ -177,6 +179,12 @@ Hướng dẫn cách trích xuất âm thanh và video từ tệp HTML bằng As
 
 ### [Chuyển đổi HTML sang PDF trong Java – Hướng dẫn nhanh Aspose.HTML](./convert-html-to-pdf-in-java-quick-aspose-html-guide/)
 Hướng dẫn nhanh cách chuyển đổi HTML sang PDF trong Java bằng Aspose.HTML.
+
+### [Nhúng phông chữ vào PDF – Hướng dẫn đầy đủ Aspose HTML sang PDF (Java)](./embed-fonts-pdf-complete-aspose-html-to-pdf-guide-java/)
+Hướng dẫn chi tiết cách nhúng phông chữ vào PDF khi chuyển đổi HTML sang PDF bằng Aspose.HTML cho Java.
+
+### [Tạo DOCX từ HTML – Hướng dẫn Java chuyển đổi HTML sang DOCX](./create-docx-from-html-java-guide-to-convert-html-to-docx/)
+Hướng dẫn cách chuyển đổi HTML sang DOCX trong Java bằng Aspose.HTML, tạo tài liệu Word chất lượng cao.
 
 ## Câu hỏi thường gặp
 

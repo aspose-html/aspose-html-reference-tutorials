@@ -135,6 +135,8 @@ Aspose.HTML for Java で CompletableFuture を活用し、Java から JavaScript
 ### [HTML を読み込み、デバイス DPI を設定し、背景色を取得する方法](./how-to-load-html-set-device-dpi-read-background-color/)
 Aspose.HTML for Java を使用して、HTML のロード、デバイス DPI の設定、背景色取得の手順を学びます。
 ### [JavaScript をサンドボックス化する方法 – 完全 Aspose.HTML ガイド](./how-to-sandbox-javascript-complete-aspose-html-guide/)
+### [Java で JavaScript を有効にする方法 – 完全 Aspose.HTML ガイド](./how-to-enable-javascript-in-java-complete-aspose-html-guide/)
+Aspose.HTML for Java を使い、Java 環境で JavaScript を有効化し、動的ページ処理を実現する手順を解説します。
 
 ---
 

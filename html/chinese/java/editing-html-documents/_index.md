@@ -66,6 +66,8 @@ url: /zh/java/editing-html-documents/
 了解如何在 Java 中使用 Aspose.HTML 将子元素追加到 body，实现完整的文档操作。
 ### [使用 Java 更改 MHTML 中的 h1 文本 – 完整分步指南](./change-h1-text-in-mhtml-with-java-full-step-by-step-guide/)
 了解如何使用 Aspose.HTML for Java 在 MHTML 文件中更改 h1 文本，完整分步指南帮助您轻松实现。
+### [如何在 Java DOM 中追加子节点 – 完整 Aspose.HTML 指南](./how-to-append-child-in-java-dom-complete-aspose-html-guide/)
+了解如何使用 Aspose.HTML for Java 在 Java DOM 中追加子节点，完整的分步指南。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

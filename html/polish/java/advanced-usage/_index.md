@@ -143,6 +143,8 @@ Poznaj, jak wykonać kod JavaScript w tle w Javie, wykorzystując CompletableFut
 Dowiedz się, jak wczytać dokument HTML, ustawić DPI urządzenia oraz odczytać kolor tła przy użyciu Aspose.HTML dla Javy.
 ### [Jak sandboxować JavaScript – Kompletny przewodnik Aspose.HTML](./how-to-sandbox-javascript-complete-aspose-html-guide/)
 Dowiedz się, jak bezpiecznie uruchamiać i izolować kod JavaScript w aplikacjach Java przy użyciu Aspose.HTML, krok po kroku.
+### [Jak włączyć JavaScript w Javie – Kompletny przewodnik Aspose.HTML](./how-to-enable-javascript-in-java-complete-aspose-html-guide/)
+Poznaj, jak włączyć i uruchomić kod JavaScript w aplikacji Java przy użyciu Aspose.HTML, krok po kroku od konfiguracji po wykonanie.
 
 ---
 

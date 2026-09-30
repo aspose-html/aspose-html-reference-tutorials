@@ -147,6 +147,8 @@ Apprenez à activer JavaScript lors du chargement d’un document HTML avec Aspo
 Apprenez à exécuter du JavaScript depuis Java, récupérer des données et automatiser vos processus avec Aspose.HTML.  
 ### [Comment mettre en sandbox le JavaScript – Guide complet Aspose.HTML](./how-to-sandbox-javascript-complete-aspose-html-guide/)
 Apprenez à exécuter du JavaScript en toute sécurité dans un environnement isolé avec Aspose.HTML, grâce à ce guide complet.  
+### [Comment activer JavaScript en Java – Guide complet Aspose.HTML](./how-to-enable-javascript-in-java-complete-aspose-html-guide/)
+Apprenez à activer et exécuter du JavaScript depuis Java avec Aspose.HTML, incluant des exemples détaillés et les meilleures pratiques.  
 
 ---
 

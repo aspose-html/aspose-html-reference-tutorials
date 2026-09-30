@@ -66,6 +66,8 @@ Objevte, jak přidat prvek jako potomka do těla HTML dokumentu v Javě pomocí 
 Naučte se, jak změnit text h1 v souboru MHTML pomocí Aspose.HTML pro Javu v podrobném průvodci.
 ### [Vytvořte nový HTML prvek v Javě – Kompletní průvodce Aspose.HTML](./create-new-html-element-with-java-full-aspose-html-guide/)
 Naučte se, jak vytvořit nový HTML element pomocí Aspose.HTML v Javě s podrobným návodem krok za krokem.
+### [Jak přidat podřízený prvek v Java DOM – Kompletní průvodce Aspose.HTML](./how-to-append-child-in-java-dom-complete-aspose-html-guide/)
+Naučte se, jak pomocí Aspose.HTML v Javě přidat nový uzel do DOM stromu. Kompletní krok za krokem průvodce.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

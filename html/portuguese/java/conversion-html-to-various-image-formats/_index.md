@@ -131,6 +131,10 @@ Aprenda a converter SVG para GIF em Java usando Aspose.HTML. Guia passo a passo 
 Aprenda a converter SVG para WebP em Java usando Aspose.HTML. Guia passo a passo para gerar imagens WebP de alta qualidade a partir de SVG.
 ### [Como Usar ExecutorService para Conversão em Lote Paralela de HTML para PNG](./how-to-use-executorservice-for-parallel-html-to-png-batch-co/)
 Aprenda a usar ExecutorService para converter HTML em PNG em lote de forma paralela com Aspose.HTML for Java.
+### [Convertendo SVG para WebP – Guia Completo em Java com Aspose.HTML](./convert-svg-to-webp-in-java-complete-aspose-html-guide/)
+Aprenda a converter SVG para WebP em Java usando Aspose.HTML. Guia passo a passo para gerar imagens WebP de alta qualidade a partir de SVG.
+### [Definir a proporção de pixels do dispositivo em Java – Guia completo](./set-device-pixel-ratio-in-java-complete-guide/)
+Aprenda a configurar o Device Pixel Ratio ao renderizar HTML com Aspose.HTML for Java. Guia passo a passo.
 
 ## Perguntas Frequentes
 

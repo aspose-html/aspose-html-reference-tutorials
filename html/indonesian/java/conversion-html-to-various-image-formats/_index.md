@@ -114,6 +114,9 @@ Pelajari cara mengatur DPI saat mengonversi SVG ke PNG dengan Java menggunakan A
 ### [Mengonversi SVG ke GIF di Java – Panduan Lengkap Langkah-demi-Langkah](./svg-to-gif-conversion-in-java-complete-step-by-step-guide/)
 ### [Cara Menggunakan Aspose untuk Mengonversi SVG ke WebP – Panduan Java](./how-to-use-aspose-to-convert-svg-to-webp-java-guide/)
 ### [Cara Menggunakan ExecutorService untuk Konversi Batch HTML‑ke‑PNG Paralel](./how-to-use-executorservice-for-parallel-html-to-png-batch-co/)
+### [Mengonversi SVG ke WebP di Java – Panduan Lengkap Aspose HTML](./convert-svg-to-webp-in-java-complete-aspose-html-guide/)
+Pelajari cara mengonversi file SVG menjadi gambar WebP menggunakan Aspose.HTML untuk Java dalam panduan lengkap langkah demi langkah.
+### [Mengatur Rasio Piksel Perangkat di Java – Panduan Lengkap](./set-device-pixel-ratio-in-java-complete-guide/)
 
 ### [Buat PNG dari HTML di Java – Panduan Lengkap Langkah‑per‑Langkah](./create-png-from-html-in-java-full-step-by-step-guide/)
 Panduan lengkap membuat file PNG dari HTML menggunakan Aspose.HTML for Java, dengan langkah‑langkah detail dan contoh kode siap pakai.

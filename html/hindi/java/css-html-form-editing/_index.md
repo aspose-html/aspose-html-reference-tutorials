@@ -50,6 +50,8 @@ Java का उपयोग करके HTML लोड करना, CSS से
 Java में Aspose.HTML का उपयोग करके HTML को क्वेरी करना, एलिमेंट चुनना, एट्रिब्यूट से फ़िल्टर करना और टेक्स्ट प्राप्त करना सीखें।
 ### [Java में CSS प्राप्त करने का तरीका – Aspose.HTML के साथ स्टाइल्स निकालने की पूर्ण गाइड](./how-to-get-css-in-java-complete-guide-to-extract-styles-with/)
 Java में Aspose.HTML का उपयोग करके CSS स्टाइल्स को निकालने की पूरी प्रक्रिया सीखें।
+### [Java में CSS पढ़ने का तरीका – चरण‑दर‑चरण गाइड](./how-to-read-css-in-java-step-by-step-guide/)
+Java में Aspose.HTML का उपयोग करके CSS फ़ाइलों को पढ़ने और विश्लेषण करने की चरण‑दर‑चरण प्रक्रिया सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

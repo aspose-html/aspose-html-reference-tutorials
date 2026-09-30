@@ -144,6 +144,8 @@ Aspose.HTML for Java kullanarak EPUB dosyalarını DOCX formatına nasıl dönü
 HTML dosyasını yükleyip cihaz DPI'sını ayarlayarak arka plan rengini nasıl okuyacağınızı öğrenin.
 ### [JavaScript'i Sandbox Ortamında Çalıştırma – Tam Aspose.HTML Kılavuzu](./how-to-sandbox-javascript-complete-aspose-html-guide/)
 Aspose.HTML for Java kullanarak JavaScript kodunu güvenli bir sandbox ortamında çalıştırmayı öğrenin.
+### [Java’da JavaScript’i Etkinleştirme – Tam Aspose.HTML Kılavuzu](./how-to-enable-javascript-in-java-complete-aspose-html-guide/)
+Aspose.HTML for Java kullanarak Java içinde JavaScript’i nasıl etkinleştireceğinizi ve tam entegrasyonu öğrenin.
 
 ---
 

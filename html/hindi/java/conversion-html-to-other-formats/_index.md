@@ -122,7 +122,6 @@ Aspose.HTML for Java के साथ SVG को XPS में कैसे ब�
 Aspose.HTML for Java के साथ पेज आकार सेटिंग्स को नियंत्रित करते हुए HTML को PDF में बदलने का विस्तृत गाइड।
 
 ### [Java में HTML को PDF में बदलें – पूर्ण चरण‑दर‑चरण गाइड](./convert-html-to-pdf-in-java-complete-step-by-step-guide/)
-
 ### [Aspose HTML to PDF के साथ PDF को संपीड़ित कैसे करें – Java गाइड](./how-to-compress-pdf-with-aspose-html-to-pdf-java-guide/)
 
 ### [Java में HTML को PDF में बदलें – PDF पेज आकार, रिज़ॉल्यूशन सेट करें, और HTML को PDF के रूप में सहेजें](./convert-html-to-pdf-in-java-set-pdf-page-size-resolution-and/)
@@ -171,6 +170,11 @@ Aspose.HTML for Java का उपयोग करके HTML फ़ाइलो
 Java NIO और समानांतर प्रोसेसिंग का उपयोग करके कई HTML फ़ाइलों को एक साथ PDF में बदलने का चरण‑दर‑गाइड।
 ### [Java में HTML को PDF में बदलें – पेज आकार और DPI के साथ पूर्ण गाइड](./convert-html-to-pdf-in-java-full-guide-with-paper-size-dpi/)
 Aspose.HTML का उपयोग करके Java में पेज आकार और DPI सेटिंग्स के साथ HTML को PDF में बदलने का विस्तृत चरण‑दर‑चरण गाइड।
+### [फ़ॉन्ट एम्बेड PDF – पूर्ण Aspose HTML से PDF गाइड (Java)](./embed-fonts-pdf-complete-aspose-html-to-pdf-guide-java/)
+Aspose.HTML for Java के साथ PDF में फ़ॉन्ट एम्बेड करने की पूरी प्रक्रिया सीखें, जिससे दस्तावेज़ सभी सिस्टम पर सही दिखे।
+
+### [HTML से DOCX बनाएं – Java गाइड HTML को DOCX में बदलने के लिए](./create-docx-from-html-java-guide-to-convert-html-to-docx/)
+Aspose.HTML for Java का उपयोग करके HTML को DOCX में बदलें। उच्च‑गुणवत्ता वाले वर्ड दस्तावेज़ बनाने के चरण‑दर‑चरण गाइड।
 
 ## अक्सर पूछे जाने वाले प्रश्न
 

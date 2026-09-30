@@ -106,6 +106,8 @@ Hướng dẫn chi tiết cách tạo thumbnail từ HTML bằng Aspose.HTML for
 ### [Cách sử dụng ExecutorService để chuyển đổi HTML sang PNG hàng loạt song song](./how-to-use-executorservice-for-parallel-html-to-png-batch-co/)
 Hướng dẫn chi tiết cách dùng ExecutorService trong Java để thực hiện chuyển đổi HTML sang PNG đồng thời, tăng tốc quy trình batch.
 ### [Cách sử dụng Aspose để chuyển đổi SVG sang WebP – Hướng dẫn Java](./how-to-use-aspose-to-convert-svg-to-webp-java-guide/)
+### [Thiết lập tỷ lệ pixel thiết bị trong Java – Hướng dẫn đầy đủ](./set-device-pixel-ratio-in-java-complete-guide/)
+### [Chuyển đổi SVG sang WebP – Hướng dẫn Java đầy đủ với Aspose.HTML](./convert-svg-to-webp-in-java-complete-aspose-html-guide/)
 
 ### [Cách Render HTML thành PNG – Hướng Dẫn Đầy Đủ cho Các Nhà Phát Triển Java](./how-to-render-html-to-png-complete-guide-for-java-developers/)
 Hướng dẫn chi tiết cách chuyển đổi HTML sang PNG trong Java bằng Aspose.HTML, bao gồm các bước cài đặt và mã mẫu.

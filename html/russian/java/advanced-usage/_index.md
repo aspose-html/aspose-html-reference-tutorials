@@ -144,6 +144,8 @@ Aspose.HTML позволяет прикрепить `DomMutationObserver` к л�
 Узнайте, как загрузить HTML, установить DPI устройства и прочитать цвет фона с помощью Aspose.HTML for Java.
 ### [Как изолировать JavaScript – Полное руководство Aspose.HTML](./how-to-sandbox-javascript-complete-aspose-html-guide/)
 Узнайте, как безопасно выполнять JavaScript в изолированной среде с помощью Aspose.HTML for Java.
+### [Как включить JavaScript в Java – Полное руководство](./how-to-enable-javascript-in-java-complete-aspose-html-guide/)
+Узнайте, как включить выполнение JavaScript в Java‑приложениях с помощью Aspose.HTML.
 
 ---
 
