@@ -50,6 +50,8 @@ Dowiedz się, jak programowo łączyć czcionki w C# przy użyciu Aspose.HTML, k
 Dowiedz się, jak w C# odczytać wersję biblioteki z atrybutu AssemblyVersion, używając prostego kodu.
 ### [Niestandardowy obsługiwacz zasobów w Aspose HTML – przewodnik zapisu do strumienia](./custom-resource-handler-in-aspose-html-save-to-stream-guide/)
 Dowiedz się, jak utworzyć własny obsługiwacz zasobów w Aspose HTML i zapisywać zawartość bezpośrednio do strumienia.
+### [Jak spakować HTML przy użyciu Aspose HTML – kompletny przewodnik](./how-to-zip-html-with-aspose-html-complete-guide/)
+Dowiedz się, jak kompresować pliki HTML do formatu ZIP przy użyciu Aspose HTML, krok po kroku, z przykładami kodu.
 
 ## Wniosek
 

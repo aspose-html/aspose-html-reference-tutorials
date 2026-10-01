@@ -81,6 +81,8 @@ Pelajari cara mengonversi file DOCX menjadi PNG menggunakan C# dengan panduan la
 Pelajari cara merender HTML menjadi gambar PNG menggunakan Aspose.HTML dalam bahasa C# dengan contoh langkah demi langkah.
 ### [Cara Merender HTML ke PNG di C# – Panduan Lengkap](./how-to-render-html-to-png-in-c-complete-guide/)
 Panduan lengkap untuk merender HTML menjadi gambar PNG menggunakan C# dan Aspose.HTML.
+### [Buat PNG dari SVG di C# – Panduan Lengkap Langkah demi Langkah](./create-png-from-svg-in-c-full-step-by-step-guide/)
+Pelajari cara mengonversi file SVG menjadi gambar PNG menggunakan C# dengan Aspose.HTML dalam panduan lengkap langkah demi langkah.
 
 ## Kesimpulan
 

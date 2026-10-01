@@ -54,6 +54,9 @@ Erfahren Sie, wie Sie in C# die Versionsnummer einer Assembly ermitteln und in I
 ### [Benutzerdefinierter Ressourcen-Handler in Aspose HTML – Leitfaden zum Speichern in Stream](./custom-resource-handler-in-aspose-html-save-to-stream-guide/)
 Erfahren Sie, wie Sie mit Aspose.HTML benutzerdefinierte Ressourcen-Handler implementieren und HTML-Inhalte direkt in Streams speichern.
 
+### [HTML mit Aspose HTML zippen – Vollständige Anleitung](./how-to-zip-html-with-aspose-html-complete-guide/)
+Erfahren Sie, wie Sie HTML-Dateien mit Aspose HTML komprimieren und zippen – Schritt‑für‑Schritt‑Anleitung für .NET‑Entwickler.
+
 ## Abschluss
 
 Aspose.HTML für .NET öffnet Ihnen die Tür zu einer Welt voller Möglichkeiten, wenn es um die Arbeit mit HTML-Dokumenten in Ihren .NET-Anwendungen geht. Diese Tutorials zu erweiterten Funktionen vermitteln Ihnen das Wissen und die Fähigkeiten, die Sie benötigen, um das volle Potenzial von Aspose.HTML auszuschöpfen. Verbessern Sie Ihre Entwicklungsprojekte, sparen Sie Zeit und erstellen Sie bemerkenswerte Lösungen mit Aspose.HTML für .NET. Beginnen Sie noch heute mit unseren Tutorials und bringen Sie Ihre Webentwicklung auf die nächste Stufe.

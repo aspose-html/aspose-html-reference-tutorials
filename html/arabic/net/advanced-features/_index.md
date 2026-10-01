@@ -50,6 +50,8 @@ Aspose.HTML for .NET هي أداة قوية تتيح للمطورين العمل
 تعلم كيفية استخراج نسخة التجميع (Assembly Version) في C# بسهولة باستخدام دليل خطوة بخطوة.
 ### [معالج موارد مخصص في Aspose HTML – دليل حفظ إلى تدفق](./custom-resource-handler-in-aspose-html-save-to-stream-guide/)
 تعلم كيفية إنشاء معالج موارد مخصص في Aspose HTML وحفظ المحتوى إلى تدفق.
+### [كيفية ضغط ملفات HTML باستخدام Aspose HTML – دليل كامل](./how-to-zip-html-with-aspose-html-complete-guide/)
+تعلم كيفية ضغط ملفات HTML إلى أرشيف ZIP باستخدام Aspose.HTML خطوة بخطوة في دليل شامل.
 
 ## خاتمة
 

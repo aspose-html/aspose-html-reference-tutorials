@@ -51,6 +51,8 @@ Learn how to combine multiple fonts programmatically in C# using Aspose.HTML, wi
 Learn how to retrieve the version of a .NET assembly programmatically using C#. Step-by-step guide with code examples.
 ### [Custom Resource Handler in Aspose HTML – Save to Stream Guide](./custom-resource-handler-in-aspose-html-save-to-stream-guide/)
 Learn how to implement a custom resource handler in Aspose.HTML to save resources directly to a stream with step-by-step examples.
+### [How to Zip HTML with Aspose HTML – Complete Guide](./how-to-zip-html-with-aspose-html-complete-guide/)
+Learn how to compress HTML files into ZIP archives using Aspose.HTML, with step-by-step examples and best practices.
 
 ## Conclusion
 

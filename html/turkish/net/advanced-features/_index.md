@@ -49,6 +49,7 @@ JSON verilerinden HTML belgelerini dinamik olarak oluşturmak için Aspose.HTML 
 C# ile bir derlemenin sürüm numarasını almayı ve kütüphane sürümünü hızlıca öğrenmeyi gösteren adım adım rehber.
 ### [Aspose HTML'de Özel Kaynak İşleyicisi – Akışa Kaydetme Kılavuzu](./custom-resource-handler-in-aspose-html-save-to-stream-guide/)
 Aspose HTML'de özel kaynak işleyicisi oluşturarak HTML içeriğini akışa kaydetmeyi adım adım öğrenin.
+### [Aspose HTML ile HTML'yi Zipleme – Tam Kılavuz](./how-to-zip-html-with-aspose-html-complete-guide/)
 
 ## Çözüm
 

@@ -49,6 +49,8 @@ Apprenez à convertir du HTML en PDF en C# et à créer une archive ZIP avec Asp
 
 ### [Créer un PDF à partir d’une URL – Guide complet C#](./create-pdf-from-url-complete-c-guide/)
 Apprenez à générer un PDF à partir d’une URL en C# avec Aspose.HTML, étape par étape, avec options de personnalisation.
+### [Définir la taille de page PDF en C# – Convertir HTML en PDF](./set-pdf-page-size-in-c-convert-html-to-pdf/)
+Apprenez à définir la taille de page PDF lors de la conversion de HTML en PDF avec Aspose.HTML en C#.
 ### [Créer un PDF à partir de HTML – Guide étape par étape en C#](./create-pdf-from-html-c-step-by-step-guide/)
 Apprenez à créer un PDF à partir de HTML en C# avec Aspose.HTML, guide complet pas à pas.
 ### [Créer un PDF à partir de HTML – Guide étape par étape pour les développeurs](./create-pdf-from-html-step-by-step-guide-for-developers/)
@@ -63,6 +65,8 @@ Convertisez facilement du HTML en PDF avec Aspose.HTML pour .NET. Suivez notre g
 ### [Enregistrer le HTML en PDF en C# – Guide complet avec polices](./save-html-as-pdf-in-c-complete-guide-with-fonts/)
 Apprenez à enregistrer du HTML en PDF en C# en incluant les polices, guide complet pas à pas.
 
+### [Créer un document HTML – Guide étape par étape en C#](./create-html-document-c-step-by-step-guide/)
+Apprenez à créer un document HTML en C# avec Aspose.HTML, guide complet pas à pas.
 ### [Convertir EPUB en image dans .NET avec Aspose.HTML](./convert-epub-to-image/)
 Découvrez comment convertir un EPUB en images à l'aide d'Aspose.HTML pour .NET. Tutoriel étape par étape avec des exemples de code et des options personnalisables.
 ### [Convertir EPUB en PDF dans .NET avec Aspose.HTML](./convert-epub-to-pdf/)

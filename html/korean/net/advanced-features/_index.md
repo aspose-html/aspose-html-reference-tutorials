@@ -45,6 +45,9 @@ Aspose.HTML for .NET을 사용하여 HTML을 PDF, XPS 및 이미지로 변환하
 .NET용 Aspose.HTML을 사용하여 JSON 데이터에서 HTML 문서를 동적으로 생성하는 방법을 알아보세요. .NET 애플리케이션에서 HTML 조작의 힘을 활용하세요.
 ### [c# 메모리 스트림 만들기 – 맞춤 스트림 생성 가이드](./create-memory-stream-c-custom-stream-creation-guide/)
 Aspose.HTML을 사용하여 .NET에서 메모리 스트림을 직접 생성하고 활용하는 방법을 단계별로 안내합니다.
+### [Aspose.HTML을 사용하여 HTML 압축하기 – 완전 가이드](./how-to-zip-html-with-aspose-html-complete-guide/)
+Aspose.HTML을 사용해 HTML 파일을 ZIP 압축하는 방법을 단계별 예제로 안내합니다.
+
 ### [C#에서 프로그래밍 방식으로 글꼴 결합하기 – 단계별 가이드](./how-to-combine-fonts-programmatically-in-c-step-by-step-guid/)
 ### [C#에서 어셈블리 버전 가져오기 – 라이브러리 버전 조회 빠른 가이드](./get-assembly-version-in-c-quick-guide-to-retrieve-library-ve/)
 C# 코드를 사용해 어셈블리의 버전 정보를 간단히 추출하는 방법을 단계별로 안내합니다.

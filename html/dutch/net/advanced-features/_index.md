@@ -50,6 +50,8 @@ Leer hoe u Aspose.HTML voor .NET kunt gebruiken om dynamisch HTML-documenten te 
 Leer hoe u lettertypen programmatically combineert in C# met Aspose.HTML, inclusief voorbeeldcode en stapsgewijze instructies.
 ### [Assemblyversie ophalen in C# – Snelle gids om bibliotheekversie te achterhalen](./get-assembly-version-in-c-quick-guide-to-retrieve-library-ve/)
 Leer hoe u de versie van een assembly in C# kunt ophalen met een eenvoudig codevoorbeeld.
+### [HTML zippen met Aspose HTML – Complete gids](./how-to-zip-html-with-aspose-html-complete-guide/)
+Leer hoe u HTML-bestanden comprimeert met Aspose HTML, inclusief stapsgewijze instructies en voorbeeldcode.
 
 ## Conclusie
 

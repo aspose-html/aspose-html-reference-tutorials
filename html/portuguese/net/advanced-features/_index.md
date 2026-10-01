@@ -50,6 +50,8 @@ Aprenda a combinar várias fontes em um documento usando C# e Aspose.HTML, com e
 Aprenda a obter a versão de um assembly em C# de forma simples e rápida, usando código nativo.
 ### [Manipulador de recurso personalizado no Aspose HTML – Guia de salvamento em fluxo](./custom-resource-handler-in-aspose-html-save-to-stream-guide/)
 Aprenda a criar um manipulador de recursos personalizado no Aspose HTML e salvar o conteúdo diretamente em um fluxo.
+### [Como compactar HTML com Aspose HTML – Guia completo](./how-to-zip-html-with-aspose-html-complete-guide/)
+Aprenda a compactar arquivos HTML em um arquivo ZIP usando Aspose HTML, com exemplos passo a passo e dicas práticas.
 
 ## Conclusão
 

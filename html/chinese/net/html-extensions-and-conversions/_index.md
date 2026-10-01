@@ -135,6 +135,10 @@ Aspose.HTML for .NET 不仅仅是一个库；它是 Web 开发领域的变革者
 了解如何使用 Aspose.HTML for .NET 在 C# 中将 HTML 保存到流，提供代码示例和关键步骤。
 ### [如何在 Aspose.HTML 中使用处理程序 – 加载 HTML 并保存为 ZIP](./how-to-use-handler-in-aspose-html-load-html-save-as-zip/)
 演示如何使用 Aspose.HTML 的处理程序加载 HTML 并将其压缩保存为 ZIP 文件的完整步骤。
+### [使用 Aspose.HTML 在 C# 中创建 HTML 文档 – 步骤指南](./create-html-document-c-step-by-step-guide/)
+使用 Aspose.HTML for .NET 在 C# 中创建 HTML 文档的完整分步指南，包含代码示例和关键步骤。
+### [在 C# 中设置 PDF 页面大小 – 将 HTML 转换为 PDF](./set-pdf-page-size-in-c-convert-html-to-pdf/)
+了解如何在 C# 中使用 Aspose.HTML for .NET 设置 PDF 页面尺寸并将 HTML 转换为 PDF 的分步指南。
 
 ## 结论
 

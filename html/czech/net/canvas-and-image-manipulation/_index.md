@@ -47,6 +47,8 @@ Přečtěte si, jak převést SVG na XPS pomocí Aspose.HTML pro .NET. Podpořte
 Naučte se, jak v C# povolit antialiasing pro vyhlazení hran a zlepšení kvality vykreslovaných grafických prvků.
 ### [Vytvoření textu na plátně – Kompletní průvodce vykreslováním textu na obrázcích](./create-canvas-text-full-guide-to-rendering-text-on-images/)
 Naučte se, jak pomocí Aspose.HTML pro .NET přidávat a stylovat text na obrázcích pomocí plátna.
+### [Jak povolit antialiasing v C# – Kompletní průvodce stylováním písma](./how-to-enable-antialiasing-in-c-complete-font-style-guide/)
+Naučte se, jak v C# povolit antialiasing a kompletně nastavit styly písma pro vysoce kvalitní vykreslování textu.
 
 ## Závěr
 

@@ -48,6 +48,8 @@ Lär dig skapa PDF från HTML i C# med Aspose.HTML. En komplett steg‑för‑st
 
 ### [Aspose HTML till PDF i C# – Komplett guide med ZIP-arkiv](./aspose-html-to-pdf-in-c-complete-guide-with-zip-archive/)
 Lär dig konvertera HTML till PDF i C# med Aspose.HTML och packa resultatet i ett ZIP‑arkiv – komplett steg‑för‑steg‑guide.
+### [Ange PDF-sidstorlek i C# – Konvertera HTML till PDF](./set-pdf-page-size-in-c-convert-html-to-pdf/)
+Lär dig hur du ställer in sidstorlek för PDF när du konverterar HTML till PDF med Aspose.HTML i C#.
 ### [Konvertera EPUB till bild i .NET med Aspose.HTML](./convert-epub-to-image/)
 Lär dig hur du konverterar EPUB till bilder med Aspose.HTML för .NET. Steg-för-steg handledning med kodexempel och anpassningsbara alternativ.
 ### [Konvertera EPUB till PDF i .NET med Aspose.HTML](./convert-epub-to-pdf/)
@@ -78,6 +80,8 @@ Lär dig hur du packar HTML-filer i en zip-arkiv med C# och Aspose.HTML för .NE
 Lär dig hur du zippar HTML-filer med en anpassad resurs‑hanterare i C# med Aspose.HTML för .NET.
 ### [Skapa HTML-dokument med formaterad text och exportera till PDF – Fullständig guide](./create-html-document-with-styled-text-and-export-to-pdf-full/)
 Lär dig skapa ett HTML-dokument med stiliserad text och konvertera det till PDF med Aspose.HTML för .NET i en komplett steg-för-steg-guide.
+### [Skapa HTML-dokument C# – Steg‑för‑steg‑guide](./create-html-document-c-step-by-step-guide/)
+Lär dig skapa ett HTML‑dokument med C# i en detaljerad steg‑för‑steg‑guide med Aspose.HTML för .NET.
 ### [Skapa PDF från HTML – C# steg‑för‑steg‑guide](./create-pdf-from-html-c-step-by-step-guide/)
 Skapa PDF från HTML med C# och Aspose.HTML för .NET. Följ vår steg‑för‑steg‑guide för enkel PDF‑generering.
 ### [Skapa PDF från HTML med Aspose.HTML – Steg‑för‑steg‑guide](./create-pdf-from-html-with-aspose-html-step-by-step-guide/)

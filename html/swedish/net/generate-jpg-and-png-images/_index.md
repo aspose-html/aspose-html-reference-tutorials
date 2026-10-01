@@ -80,6 +80,8 @@ Lär dig hur du konverterar DOCX-filer till PNG-bilder i C# med en komplett steg
 Lär dig hur du renderar HTML till PNG‑bilder med Aspose.HTML i C# i en steg‑för‑steg‑guide.
 ### [Hur man renderar HTML till PNG i C# – Komplett guide](./how-to-render-html-to-png-in-c-complete-guide/)
 Lär dig steg-för-steg hur du konverterar HTML till PNG med C# och Aspose.HTML.
+### [Skapa PNG från SVG i C# – Fullständig steg‑för‑steg‑guide](./create-png-from-svg-in-c-full-step-by-step-guide/)
+Lär dig hur du konverterar SVG-filer till PNG-bilder i C# med en detaljerad steg‑för‑steg‑handledning.
 
 ## Slutsats
 

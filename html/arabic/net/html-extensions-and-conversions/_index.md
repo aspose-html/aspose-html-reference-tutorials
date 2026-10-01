@@ -53,6 +53,10 @@ url: /ar/net/html-extensions-and-conversions/
 دليل شامل خطوة بخطوة لإنشاء ملفات PDF من HTML باستخدام Aspose في C#.
 ### [إنشاء PDF من HTML – دليل خطوة بخطوة للمطورين](./create-pdf-from-html-step-by-step-guide-for-developers/)
 دليل خطوة بخطوة لإنشاء ملف PDF من HTML للمطورين باستخدام Aspose.HTML.
+### [تعيين حجم صفحة PDF في C# – تحويل HTML إلى PDF](./set-pdf-page-size-in-c-convert-html-to-pdf/)
+تعلم كيفية ضبط حجم صفحة PDF أثناء تحويل HTML إلى PDF باستخدام C# ومكتبة Aspose.HTML.
+### [إنشاء مستند HTML باستخدام C# – دليل خطوة بخطوة](./create-html-document-c-step-by-step-guide/)
+دليل خطوة بخطوة لإنشاء مستند HTML باستخدام C# ومكتبة Aspose.HTML.
 ### [إنشاء مستند HTML بنص منسق وتصديره إلى PDF – دليل كامل](./create-html-document-with-styled-text-and-export-to-pdf-full/)
 دليل شامل لإنشاء مستند HTML بنص منسق وتصديره إلى PDF باستخدام Aspose.HTML.
 ### [تحويل EPUB إلى صورة في .NET باستخدام Aspose.HTML](./convert-epub-to-image/)

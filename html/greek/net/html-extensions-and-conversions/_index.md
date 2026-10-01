@@ -109,6 +109,10 @@ url: /el/net/html-extensions-and-conversions/
 Μάθετε πώς να φορτώνετε HTML με handler και να το αποθηκεύετε σε αρχείο ZIP χρησιμοποιώντας το Aspose.HTML για .NET.
 ### [Αποθήκευση HTML σε PDF σε C# – Πλήρης Οδηγός με Γραμματοσειρές](./save-html-as-pdf-in-c-complete-guide-with-fonts/)
 Μάθετε πώς να αποθηκεύετε HTML ως PDF σε C# με πλήρη υποστήριξη γραμματοσειρών, βήμα‑βήμα οδηγίες και παραδείγματα κώδικα.
+### [Δημιουργία εγγράφου HTML C# – Οδηγός βήμα‑βήμα](./create-html-document-c-step-by-step-guide/)
+Μάθετε πώς να δημιουργήσετε ένα έγγραφο HTML χρησιμοποιώντας C# βήμα‑βήμα με το Aspose.HTML.
+### [Ορισμός μεγέθους σελίδας PDF σε C# – Μετατροπή HTML σε PDF](./set-pdf-page-size-in-c-convert-html-to-pdf/)
+Ορίστε το μέγεθος της σελίδας PDF σε C# κατά τη μετατροπή HTML σε PDF με το Aspose.HTML.
 
 ### [Αποθήκευση HTML ως ZIP σε C# – Πλήρης Οδηγός](./save-html-as-zip-in-c-complete-guide/)
 Μάθετε πώς να αποθηκεύετε HTML σε αρχείο ZIP με C# χρησιμοποιώντας πλήρη οδηγό βήμα‑βήμα.

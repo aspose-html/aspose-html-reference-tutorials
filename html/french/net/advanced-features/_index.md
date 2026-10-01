@@ -50,6 +50,8 @@ Apprenez à combiner plusieurs polices en C# avec Aspose.HTML, étape par étape
 Apprenez à récupérer la version d'un assembly C# rapidement, avec des exemples de code simples.
 ### [Gestionnaire de ressources personnalisé dans Aspose HTML – Guide d’enregistrement dans un flux](./custom-resource-handler-in-aspose-html-save-to-stream-guide/)
 Apprenez à implémenter un gestionnaire de ressources personnalisé avec Aspose HTML pour enregistrer le contenu directement dans un flux.
+### [Comment compresser du HTML avec Aspose HTML – Guide complet](./how-to-zip-html-with-aspose-html-complete-guide/)
+Apprenez à compresser des fichiers HTML en archive ZIP avec Aspose HTML, étape par étape, incluant exemples de code et meilleures pratiques.
 
 ## Conclusion
 

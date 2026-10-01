@@ -47,6 +47,8 @@ Apprenez à convertir SVG en XPS à l'aide d'Aspose.HTML pour .NET. Boostez votr
 Apprenez à activer l'anticrénelage en C# pour obtenir des bords d'images lisses avec Aspose.HTML.
 ### [Créer du texte sur canvas – Guide complet pour rendre du texte sur des images](./create-canvas-text-full-guide-to-rendering-text-on-images/)
 Apprenez à ajouter et styliser du texte sur des images en utilisant le canvas avec Aspose.HTML pour .NET.
+### [Comment activer l'anticrénelage en C# – Guide complet du style de police](./how-to-enable-antialiasing-in-c-complete-font-style-guide/)
+Apprenez à activer l'anticrénelage en C# et à maîtriser les styles de police pour des rendus texte nets avec Aspose.HTML.
 
 ## Conclusion
 

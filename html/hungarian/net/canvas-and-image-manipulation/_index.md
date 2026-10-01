@@ -47,6 +47,8 @@ Ismerje meg, hogyan konvertálhat SVG-t XPS-re az Aspose.HTML for .NET használa
 Ismerje meg, hogyan aktiválhatja az antialiasingot C#-ban a simább grafikai elemek érdekében.
 ### [Canvas szöveg létrehozása – Teljes útmutató a szöveg képeken való megjelenítéséhez](./create-canvas-text-full-guide-to-rendering-text-on-images/)
 Lépésről lépésre bemutatja, hogyan adhat szöveget vászonra, és jelenítheti meg képeken az Aspose.HTML for .NET segítségével.
+### [Hogyan engedélyezzük az antialiasingot C#-ban – Teljes betűstílus útmutató](./how-to-enable-antialiasing-in-c-complete-font-style-guide/)
+Ismerje meg, hogyan használhatja az antialiasingot C#-ban a betűstílusok teljes körű beállításához.
 
 ## Következtetés
 

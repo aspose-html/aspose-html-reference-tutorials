@@ -51,6 +51,8 @@ Scopri come unire più font in C# usando Aspose.HTML, con esempi pratici e istru
 Scopri come ottenere la versione di un assembly C# in modo rapido, usando Aspose.HTML per identificare la versione della libreria.
 ### [Gestore di risorse personalizzato in Aspose HTML – Guida al salvataggio su stream](./custom-resource-handler-in-aspose-html-save-to-stream-guide/)
 Scopri come implementare un gestore di risorse personalizzato in Aspose HTML per salvare contenuti direttamente su stream.
+### [Come comprimere HTML con Aspose HTML – Guida completa](./how-to-zip-html-with-aspose-html-complete-guide/)
+Impara a comprimere file HTML in archivi ZIP usando Aspose HTML, con esempi passo passo e consigli pratici.
 
 ## Conclusione
 

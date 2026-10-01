@@ -47,6 +47,8 @@ Scopri come convertire SVG in XPS utilizzando Aspose.HTML per .NET. Potenzia il 
 Scopri come attivare l'antialiasing in C# per ottenere bordi più lisci nelle immagini e nei canvas con Aspose.HTML.
 ### [Creare testo su canvas – Guida completa al rendering del testo su immagini](./create-canvas-text-full-guide-to-rendering-text-on-images/)
 Impara a disegnare testo su immagini usando Aspose.HTML per .NET con esempi pratici passo passo.
+### [Come abilitare l'Antialiasing in C# – Guida completa allo stile dei caratteri](./how-to-enable-antialiasing-in-c-complete-font-style-guide/)
+Scopri come abilitare l'antialiasing in C# e gestire gli stili dei font per ottenere testi nitidi e di alta qualità.
 
 ## Conclusione
 

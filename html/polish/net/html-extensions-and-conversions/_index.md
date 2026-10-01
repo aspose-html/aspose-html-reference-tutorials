@@ -83,6 +83,8 @@ Dowiedz się, jak spakować plik HTML do archiwum ZIP w C# przy użyciu niestand
 Dowiedz się, jak spakować plik HTML do archiwum ZIP w C# przy użyciu Aspose.HTML.
 ### [Utwórz dokument HTML ze stylowanym tekstem i wyeksportuj do PDF – Pełny przewodnik](./create-html-document-with-styled-text-and-export-to-pdf-full/)
 Dowiedz się, jak stworzyć dokument HTML z formatowanym tekstem i wyeksportować go do PDF przy użyciu Aspose.HTML dla .NET.
+### [Utwórz dokument HTML w C# – przewodnik krok po kroku](./create-html-document-c-step-by-step-guide/)
+Dowiedz się, jak w C# stworzyć dokument HTML krok po kroku przy użyciu Aspose.HTML.
 ### [Zapisz HTML jako ZIP – Kompletny samouczek C#](./save-html-as-zip-complete-c-tutorial/)
 Zapisz dokument HTML jako archiwum ZIP w C# przy użyciu Aspose.HTML – kompletny przewodnik krok po kroku.
 ### [Zapisz HTML do ZIP w C# – Kompletny przewodnik](./save-html-to-zip-in-c-complete-guide/)
@@ -119,6 +121,8 @@ Dowiedz się, jak używać handlera w Aspose.HTML do wczytywania HTML i zapisywa
 Dowiedz się, jak w C# zapisać HTML jako PDF, uwzględniając czcionki, korzystając z Aspose.HTML – kompletny przewodnik krok po kroku.
 ### [Zapisz HTML jako ZIP w C# – Kompletny przewodnik](./save-html-as-zip-in-c-complete-guide/)
 Dowiedz się, jak w C# zapisać dokument HTML jako archiwum ZIP, korzystając z Aspose.HTML – pełny przewodnik krok po kroku.
+### [Ustaw rozmiar strony PDF w C# – konwertuj HTML do PDF](./set-pdf-page-size-in-c-convert-html-to-pdf/)
+Dowiedz się, jak ustawić rozmiar strony PDF w C# podczas konwersji HTML do PDF przy użyciu Aspose.HTML.
 
 ## Wniosek
 

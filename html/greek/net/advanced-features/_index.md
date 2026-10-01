@@ -50,6 +50,7 @@ url: /el/net/advanced-features/
 
 ### [Προσαρμοσμένος Διαχειριστής Πόρων στο Aspose HTML – Οδηγός Αποθήκευσης σε Ροή](./custom-resource-handler-in-aspose-html-save-to-stream-guide/)
 Μάθετε πώς να υλοποιήσετε προσαρμοσμένο διαχειριστή πόρων στο Aspose.HTML και να αποθηκεύσετε το HTML σε ροή.
+### [Πώς να συμπιέσετε HTML με Aspose HTML – Πλήρης Οδηγός](./how-to-zip-html-with-aspose-html-complete-guide/)
 
 ## Σύναψη
 

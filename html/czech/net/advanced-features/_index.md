@@ -51,6 +51,9 @@ Naučte se, jak vytvořit vlastní paměťový stream v C# pomocí Aspose.HTML a
 Naučte se, jak v C# programově spojovat více písem do jednoho souboru pomocí Aspose.HTML, s podrobnými ukázkami a tipy.
 ### [Získání verze sestavení v C# – Rychlý průvodce získáním verze knihovny](./get-assembly-version-in-c-quick-guide-to-retrieve-library-ve/)
 Naučte se, jak v C# získat verzi sestavení knihovny pomocí reflexe.
+### [Jak zipovat HTML pomocí Aspose HTML – Kompletní průvodce](./how-to-zip-html-with-aspose-html-complete-guide/)
+Naučte se, jak pomocí Aspose.HTML zkomprimovat HTML soubory do ZIP archivu v kompletním průvodci.
+
 ## Závěr
 
 Aspose.HTML for .NET otevírá dveře do světa možností, pokud jde o práci s dokumenty HTML ve vašich aplikacích .NET. Tyto pokročilé výukové programy vás vybaví znalostmi a dovednostmi potřebnými k využití plného potenciálu Aspose.HTML. Zvyšte své vývojové projekty, ušetřete čas a vytvářejte pozoruhodná řešení s Aspose.HTML for .NET. Začněte s našimi výukovými programy ještě dnes a posuňte svůj vývoj webu na další úroveň.

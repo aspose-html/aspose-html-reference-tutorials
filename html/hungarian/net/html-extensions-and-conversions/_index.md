@@ -72,6 +72,8 @@ Lépésről‑lépésre útmutató a HTML-ből PDF létrehozásához C#‑ban az
 
 ### [PDF létrehozása HTML‑ből – Lépésről‑lépésre útmutató fejlesztőknek](./create-pdf-from-html-step-by-step-guide-for-developers/)
 Ismerje meg, hogyan hozhat PDF-et HTML‑ből C#‑ban az Aspose.HTML for .NET segítségével, részletes fejlesztői útmutatóval.
+### [HTML-dokumentum létrehozása C# – Lépésről‑lépésre útmutató](./create-html-document-c-step-by-step-guide/)
+Ismerje meg, hogyan hozhat létre HTML-dokumentumot C#‑ban az Aspose.HTML for .NET segítségével, részletes lépésről‑lépésre útmutatóval.
 ### [HTML mentése ZIP-ként – Teljes C# oktatóanyag](./save-html-as-zip-complete-c-tutorial/)
 ### [HTML mentése ZIP-be C#‑ban – Teljes útmutató](./save-html-to-zip-in-c-complete-guide/)
 
@@ -104,6 +106,7 @@ Ismerje meg, hogyan használhat egyéni erőforráskezelőt a HTML zip-eléséhe
 Ismerje meg, hogyan használhat handlert az Aspose.HTML-ben HTML betöltéséhez és ZIP-archívumba mentéséhez C#-ban.
 ### [HTML mentése ZIP-be C#‑ban – Teljes útmutató](./save-html-as-zip-in-c-complete-guide/)
 Tanulja meg, hogyan menthet HTML-fájlokat ZIP-archívumba C#‑ban az Aspose.HTML for .NET használatával, lépésről‑lépésre útmutatóval.
+### [PDF oldalméret beállítása C#‑ban – HTML konvertálása PDF‑be](./set-pdf-page-size-in-c-convert-html-to-pdf/)
 
 ## Következtetés
 

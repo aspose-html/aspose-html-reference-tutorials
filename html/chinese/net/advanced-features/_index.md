@@ -50,6 +50,8 @@ Aspose.HTML for .NET 是一款功能强大的工具，允许开发人员以编�
 了解如何在 C# 中使用反射获取程序集的版本信息，快速获取库的版本号并在代码中使用。
 ### [Aspose HTML 中的自定义资源处理程序 – 保存到流指南](./custom-resource-handler-in-aspose-html-save-to-stream-guide/)
 了解如何在 Aspose HTML 中实现自定义资源处理程序，将内容保存到流中。提供分步示例和常见问题解答，帮助您快速上手。
+### [使用 Aspose.HTML 将 HTML 压缩为 ZIP – 完整指南](./how-to-zip-html-with-aspose-html-complete-guide/)
+了解如何使用 Aspose.HTML 将 HTML 文件打包为 ZIP，提供完整步骤、示例代码和常见问题解答。
 
 ## 结论
 

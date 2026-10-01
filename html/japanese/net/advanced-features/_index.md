@@ -50,6 +50,8 @@ C# でカスタム メモリ ストリームを作成し、Aspose.HTML での HT
 C# でアセンブリのバージョン情報を取得し、ライブラリのバージョンを確認する手順をステップバイステップで解説します。
 ### [Aspose HTML のカスタム リソース ハンドラ – ストリームへの保存ガイド](./custom-resource-handler-in-aspose-html-save-to-stream-guide/)
 Aspose.HTML でカスタム リソース ハンドラを実装し、HTML コンテンツをストリームに保存する方法をステップバイステップで解説します。
+### [Aspose HTML で HTML を Zip 圧縮する完全ガイド](./how-to-zip-html-with-aspose-html-complete-guide/)
+Aspose HTML を利用して HTML ファイルを Zip アーカイブに圧縮する手順をステップバイステップで解説します。
 
 ## 結論
 

@@ -47,6 +47,8 @@ Aspose.HTML สำหรับ .NET ไม่ใช่แค่ไลบรา�
 เรียนรู้วิธีสร้างไฟล์ PDF จาก HTML ด้วย C# โดยใช้ Aspose.HTML ขั้นตอนเต็มพร้อมตัวอย่างโค้ด
 ### [แปลง HTML เป็น PDF ใน C# – คู่มือเต็ม Aspose](./convert-html-to-pdf-in-c-full-aspose-guide/)
 เรียนรู้วิธีแปลง HTML เป็น PDF ใน C# อย่างละเอียดด้วยคู่มือเต็มของ Aspose.HTML สำหรับ .NET
+### [ตั้งขนาดหน้า PDF ใน C# – แปลง HTML เป็น PDF](./set-pdf-page-size-in-c-convert-html-to-pdf/)
+กำหนดขนาดหน้ากระดาษ PDF ใน C# ขณะแปลง HTML เป็น PDF ด้วย Aspose.HTML สำหรับ .NET ตามขั้นตอนง่ายๆ
 ### [แปลง EPUB เป็นรูปภาพใน .NET ด้วย Aspose.HTML](./convert-epub-to-image/)
 เรียนรู้วิธีการแปลง EPUB เป็นรูปภาพโดยใช้ Aspose.HTML สำหรับ .NET บทช่วยสอนแบบทีละขั้นตอนพร้อมตัวอย่างโค้ดและตัวเลือกที่ปรับแต่งได้
 ### [แปลง EPUB เป็น PDF ใน .NET ด้วย Aspose.HTML](./convert-epub-to-pdf/)
@@ -81,6 +83,8 @@ Aspose.HTML สำหรับ .NET ไม่ใช่แค่ไลบรา�
 
 ### [สร้าง PDF จาก HTML ด้วย Aspose ใน C# – คู่มือเต็ม](./create-pdf-from-html-with-aspose-in-c-full-guide/)
 เรียนรู้วิธีสร้าง PDF จาก HTML ด้วย Aspose ใน C# อย่างละเอียดด้วยคู่มือเต็ม
+### [สร้างเอกสาร HTML ด้วย C# – คำแนะนำทีละขั้นตอน](./create-html-document-c-step-by-step-guide/)
+เรียนรู้วิธีสร้างเอกสาร HTML ด้วย C# อย่างละเอียดด้วยคำแนะนำทีละขั้นตอนจาก Aspose.HTML สำหรับ .NET
 ### [บันทึก HTML เป็น ZIP – คอร์สเต็ม C#](./save-html-as-zip-complete-c-tutorial/)
 บันทึกไฟล์ HTML เป็น ZIP อย่างครบถ้วนด้วย C# ตามขั้นตอนของเรา
 ### [บันทึก HTML เป็น ZIP ใน C# – ตัวอย่างทำงานในหน่วยความจำเต็มรูปแบบ](./save-html-to-zip-in-c-complete-in-memory-example/)

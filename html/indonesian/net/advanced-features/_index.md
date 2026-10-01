@@ -49,6 +49,8 @@ Pelajari cara menggunakan Aspose.HTML untuk .NET guna membuat dokumen HTML secar
 Pelajari cara mengambil versi assembly di C# secara cepat untuk mengetahui versi perpustakaan yang digunakan dalam proyek Anda.
 ### [Penangan Sumber Daya Kustom di Aspose HTML – Panduan Simpan ke Stream](./custom-resource-handler-in-aspose-html-save-to-stream-guide/)
 Pelajari cara membuat penangan sumber daya kustom di Aspose.HTML dan menyimpan output ke stream dengan contoh kode langkah demi langkah.
+### [Cara Mengompres HTML dengan Aspose HTML – Panduan Lengkap](./how-to-zip-html-with-aspose-html-complete-guide/)
+Pelajari cara mengompres file HTML menjadi arsip ZIP menggunakan Aspose HTML dengan contoh langkah demi langkah.
 
 ## Kesimpulan
 
