@@ -50,6 +50,9 @@ Aprenda a ejecutar solicitudes web con Aspose.HTML para Java con esta guía comp
 Aprenda a convertir archivos ZIP a imágenes JPG usando Aspose.HTML para Java con esta guía paso a paso.
 ### [Convierte ZIP a PDF con Aspose.HTML para Java](./zip-to-pdf/)
 Convierta fácilmente sus archivos ZIP a PDF usando Aspose.HTML para Java con esta guía paso a paso.
+### [java 11 httpclient authenticator – Guía completa para solicitudes seguras](./java-11-httpclient-authenticator-complete-guide-to-secure-re/)
+Aprenda a usar HttpClient de Java 11 con autenticador para realizar solicitudes HTTP seguras y proteger sus datos.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

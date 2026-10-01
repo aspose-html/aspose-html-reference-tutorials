@@ -1,0 +1,7 @@
+Title: Convert HTML to PDF in Java – Parallel Batch Guide
+Slug: convert-html-to-pdf-in-java-parallel-batch-guide
+Category: conversion-html-to-other-formats
+ProcessedDate: 2026-06-26T07:26:22.775013
+SourceRepo: AI Search API
+Keywords: convert html to pdf, convert multiple html files to pdf, how to convert html to pdf in java, batch convert html to pdf, java html to pdf conversion
+PRNumber: 192

@@ -25,6 +25,7 @@ Aspose.HTML for .NET is a powerful tool that allows developers to work with HTML
 Before we dive into the tutorials, let's understand why Aspose.HTML for .NET is the preferred choice for developers. Aspose.HTML empowers you with the ability to manipulate and manage HTML documents effortlessly. With its extensive set of features, you can perform tasks like parsing, rendering, and converting HTML documents efficiently. Whether you are a seasoned developer or just starting, Aspose.HTML streamlines your workflow, saving you time and effort.
 
 ## Advanced Features Tutorials
+
 In the realm of .NET development, mastering advanced features can open doors to endless possibilities. Aspose.HTML equips you with the tools to harness the full potential of HTML manipulation. This article will guide you through a selection of tutorials, unveiling how to leverage Aspose.HTML for diverse tasks.
 ### [Environment Configuration in .NET with Aspose.HTML](./environment-configuration/)
 Learn how to work with HTML documents in .NET using Aspose.HTML for tasks like script management, custom styles, JavaScript execution control, and more. This comprehensive tutorial provides step-by-step examples and FAQs to get you started.
@@ -44,6 +45,12 @@ Learn how to convert HTML to PDF, XPS, and images with Aspose.HTML for .NET. Ste
 Learn how to use Aspose.HTML for .NET to dynamically generate HTML documents from JSON data. Harness the power of HTML manipulation in your .NET applications.
 ### [Create memory stream c# – Custom stream creation guide](./create-memory-stream-c-custom-stream-creation-guide/)
 Learn how to create a memory stream in C# using Aspose.HTML for .NET, with step-by-step examples and best practices.
+### [How to Combine Fonts Programmatically in C# – Step‑by‑Step Guide](./how-to-combine-fonts-programmatically-in-c-step-by-step-guid/)
+Learn how to combine multiple fonts programmatically in C# using Aspose.HTML, with step‑by‑step examples and best practices.
+### [Get Assembly Version in C# – Quick Guide to Retrieve Library Version](./get-assembly-version-in-c-quick-guide-to-retrieve-library-ve/)
+Learn how to retrieve the version of a .NET assembly programmatically using C#. Step-by-step guide with code examples.
+### [Custom Resource Handler in Aspose HTML – Save to Stream Guide](./custom-resource-handler-in-aspose-html-save-to-stream-guide/)
+Learn how to implement a custom resource handler in Aspose.HTML to save resources directly to a stream with step-by-step examples.
 ### [How to Zip HTML with Aspose HTML – Complete Guide](./how-to-zip-html-with-aspose-html-complete-guide/)
 Learn how to compress HTML files into ZIP archives using Aspose.HTML, with step-by-step examples and best practices.
 
