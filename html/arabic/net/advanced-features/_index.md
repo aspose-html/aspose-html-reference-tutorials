@@ -46,6 +46,12 @@ Aspose.HTML for .NET هي أداة قوية تتيح للمطورين العمل
 تعرف على كيفية استخدام Aspose.HTML لـ .NET لإنشاء مستندات HTML بشكل ديناميكي من بيانات JSON. استغل قوة معالجة HTML في تطبيقات .NET الخاصة بك.
 ### [كيفية دمج الخطوط برمجيًا في C# – دليل خطوة بخطوة](./how-to-combine-fonts-programmatically-in-c-step-by-step-guid/)
 تعلم كيفية دمج خطوط متعددة برمجيًا في C# باستخدام Aspose.HTML لإنشاء مستندات HTML غنية ومتنوعة.
+### [الحصول على نسخة التجميع في C# – دليل سريع لاسترجاع نسخة المكتبة](./get-assembly-version-in-c-quick-guide-to-retrieve-library-ve/)
+تعلم كيفية استخراج نسخة التجميع (Assembly Version) في C# بسهولة باستخدام دليل خطوة بخطوة.
+### [معالج موارد مخصص في Aspose HTML – دليل حفظ إلى تدفق](./custom-resource-handler-in-aspose-html-save-to-stream-guide/)
+تعلم كيفية إنشاء معالج موارد مخصص في Aspose HTML وحفظ المحتوى إلى تدفق.
+### [كيفية ضغط ملفات HTML باستخدام Aspose HTML – دليل كامل](./how-to-zip-html-with-aspose-html-complete-guide/)
+تعلم كيفية ضغط ملفات HTML إلى أرشيف ZIP باستخدام Aspose.HTML خطوة بخطوة في دليل شامل.
 
 ## خاتمة
 
