@@ -43,6 +43,12 @@ url: /el/net/html-extensions-and-conversions/
 Μετατρέψτε HTML σε PDF χωρίς κόπο με το Aspose.HTML για .NET. Ακολουθήστε τον οδηγό βήμα προς βήμα και απελευθερώστε τη δύναμη της μετατροπής HTML σε PDF.
 ### [Δημιουργία PDF από HTML – Οδηγός βήμα‑βήμα C#](./create-pdf-from-html-c-step-by-step-guide/)
 Δημιουργήστε PDF από HTML με C# χρησιμοποιώντας το Aspose.HTML. Οδηγός βήμα‑βήμα για γρήγορη και εύκολη υλοποίηση.
+### [Δημιουργία PDF από HTML με Aspose – Οδηγός βήμα‑βήμα](./create-pdf-from-html-with-aspose-step-by-step-guide/)
+Μάθετε πώς να δημιουργήσετε PDF από HTML χρησιμοποιώντας το Aspose.HTML σε C# με αναλυτικό οδηγό βήμα‑βήμα.
+
+### [Δημιουργία PDF από HTML – Πλήρης Οδηγός με Aspose.Html](./create-pdf-from-html-complete-guide-with-aspose-html/)
+Μάθετε πώς να δημιουργήσετε PDF από HTML χρησιμοποιώντας το Aspose.Html σε έναν ολοκληρωμένο οδηγό βήμα‑βήμα.
+
 ### [Δημιουργία PDF από HTML με Aspose.HTML – Οδηγός βήμα‑βήμα](./create-pdf-from-html-with-aspose-html-step-by-step-guide/)
 Δημιουργήστε PDF από HTML με το Aspose.HTML ακολουθώντας έναν πλήρη οδηγό βήμα‑βήμα για γρήγορη υλοποίηση.
 ### [Δημιουργία PDF από HTML – Οδηγός βήμα‑βήμα για προγραμματιστές](./create-pdf-from-html-step-by-step-guide-for-developers/)
@@ -83,6 +89,9 @@ url: /el/net/html-extensions-and-conversions/
 Μάθετε πώς να δημιουργήσετε ένα έγγραφο HTML με μορφοποιμένο κείμενο και να το εξάγετε σε PDF χρησιμοποιώντας το Aspose.HTML για .NET.
 ### [Αποθήκευση HTML ως ZIP – Πλήρης Εκπαιδευτικό C#](./save-html-as-zip-complete-c-tutorial/)
 Μάθετε πώς να αποθηκεύετε HTML σε αρχείο ZIP με C# και Aspose.HTML.
+### [Δημιουργία εγγράφου HTML και αποθήκευση ως zip – Πλήρης οδηγός C#](./create-html-document-and-save-as-zip-complete-c-guide/)
+Μάθετε πώς να δημιουργήσετε έγγραφο HTML και να το αποθηκεύσετε σε αρχείο ZIP με C# χρησιμοποιώντας Aspose.HTML.
+
 ### [Αποθήκευση HTML σε ZIP σε C# – Πλήρες Παράδειγμα Εντός Μνήμης](./save-html-to-zip-in-c-complete-in-memory-example/)
 Μάθετε πώς να αποθηκεύετε HTML σε αρχείο ZIP με C# χρησιμοποιώντας πλήρες παράδειγμα εντός μνήμης.
 ### [Προσαρμοσμένος Διαχειριστής Πόρων σε C# – Μετατροπή HTML σε Αρχείο ZIP από Μνήμη](./custom-resource-handler-in-c-convert-html-to-zip-archive-fro/)

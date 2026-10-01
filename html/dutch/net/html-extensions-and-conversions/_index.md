@@ -100,6 +100,8 @@ Volledige gids voor het genereren van PDF's uit HTML in C# met Aspose.HTML, incl
 Leer hoe u PDF's genereert vanuit HTML met Aspose.HTML voor .NET in een duidelijke C# stap‑voor‑stap handleiding.
 ### [Maak HTML-document C# – Stapsgewijze handleiding](./create-html-document-c-step-by-step-guide/)
 Leer hoe u een HTML-document maakt in C# met een duidelijke stap‑voor‑stap handleiding.
+### [PDF maken van HTML met Aspose – Stapsgewijze handleiding](./create-pdf-from-html-with-aspose-step-by-step-guide/)
+Leer hoe u PDF's genereert vanuit HTML met Aspose in een duidelijke stap‑voor‑stap C#‑handleiding.
 ### [HTML opslaan als ZIP – Complete C#-tutorial](./save-html-as-zip-complete-c-tutorial/)
 ### [HTML opslaan als ZIP – Complete gids](./save-html-as-zip-in-c-complete-guide/)
 
@@ -127,6 +129,10 @@ Leer hoe u HTML naar een ZIP-bestand opslaat met een volledige C#-handleiding en
 ### [Enkel bestand HTML – Een webpagina opslaan als één HTML-bestand in C#](./single-file-html-save-a-web-page-as-one-html-file-in-c/)
 ### [Hoe handler te gebruiken in Aspose.HTML – HTML laden, opslaan als ZIP](./how-to-use-handler-in-aspose-html-load-html-save-as-zip/)
 Leer hoe u een handler gebruikt om HTML te laden en vervolgens op te slaan als ZIP-bestand met Aspose.HTML voor .NET.
+### [HTML-document maken en opslaan als zip – Complete C#-gids](./create-html-document-and-save-as-zip-complete-c-guide/)
+Leer hoe u een HTML-document maakt en dit als zip‑bestand opslaat met een volledige C#‑stappenplan.
+### [PDF maken van HTML – Complete gids met Aspose.HTML](./create-pdf-from-html-complete-guide-with-aspose-html/)
+Leer hoe u PDF's genereert vanuit HTML met Aspose.HTML in een volledige stap‑voor‑stap gids.
 
 ## Conclusie
 

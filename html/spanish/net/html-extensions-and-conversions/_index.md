@@ -59,6 +59,10 @@ Aprenda a guardar HTML como PDF en C# con fuentes integradas, siguiendo una guí
 ### [Crear PDF a partir de HTML – Guía paso a paso para desarrolladores](./create-pdf-from-html-step-by-step-guide-for-developers/)
 Aprenda a generar un PDF desde HTML usando C# y Aspose.HTML con esta guía paso a paso para desarrolladores.
 
+### [Crear PDF a partir de HTML con Aspose – Guía paso a paso](./create-pdf-from-html-with-aspose-step-by-step-guide/)
+Aprenda a generar un PDF desde HTML usando Aspose con esta guía paso a paso en C#.
+### [Crear PDF a partir de HTML – Guía completa con Aspose.Html](./create-pdf-from-html-complete-guide-with-aspose-html/)
+Aprenda a generar un PDF desde HTML usando Aspose.HTML con una guía completa paso a paso.
 ### [Crear documento HTML con texto con estilo y exportarlo a PDF – Guía completa](./create-html-document-with-styled-text-and-export-to-pdf-full/)
 Aprenda a generar un documento HTML con texto formateado y convertirlo a PDF usando Aspose.HTML para .NET paso a paso.
 ### [Crear PDF a partir de HTML en C# – Guía completa paso a paso](./create-pdf-from-html-in-c-complete-step-by-step-guide/)
@@ -126,6 +130,8 @@ Aprenda a guardar archivos HTML en un archivo ZIP usando C# y Aspose.HTML con un
 Aprenda a guardar una página web completa en un solo archivo HTML usando Aspose.HTML y C# paso a paso.
 ### [Cómo usar el controlador en Aspose.HTML – Cargar HTML, Guardar como ZIP](./how-to-use-handler-in-aspose-html-load-html-save-as-zip/)
 Aprenda a cargar HTML y guardarlo como archivo ZIP usando un handler en Aspose.HTML para .NET.
+### [Crear documento HTML y guardarlo como ZIP – Guía completa en C#](./create-html-document-and-save-as-zip-complete-c-guide/)
+Aprenda a crear un documento HTML y guardarlo como archivo ZIP usando C# y Aspose.HTML paso a paso.
 
 ## Conclusión
 

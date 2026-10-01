@@ -53,6 +53,10 @@ Dowiedz się, jak w C# wygenerować plik PDF z kodu HTML, korzystając z Aspose.
 Dowiedz się, jak w C# wygenerować PDF z HTML przy użyciu Aspose.HTML – kompletny przewodnik krok po kroku.
 ### [Utwórz PDF z HTML – Przewodnik krok po kroku dla programistów](./create-pdf-from-html-step-by-step-guide-for-developers/)
 Kompletny przewodnik dla deweloperów, jak przekształcić HTML w PDF przy użyciu Aspose.HTML w .NET.
+### [Utwórz PDF z HTML przy użyciu Aspose – przewodnik krok po kroku](./create-pdf-from-html-with-aspose-step-by-step-guide/)
+Dowiedz się, jak w prosty sposób wygenerować plik PDF z kodu HTML przy użyciu Aspose.HTML w .NET – kompletny przewodnik krok po kroku.
+### [Utwórz PDF z HTML – Kompletny przewodnik z Aspose.HTML](./create-pdf-from-html-complete-guide-with-aspose-html/)
+Dowiedz się, jak w pełni wykorzystać Aspose.HTML do generowania PDF z kodu HTML – kompletny przewodnik krok po kroku.
 ### [Konwersja EPUB do obrazu w .NET za pomocą Aspose.HTML](./convert-epub-to-image/)
 Dowiedz się, jak konwertować EPUB na obrazy za pomocą Aspose.HTML dla .NET. Samouczek krok po kroku z przykładami kodu i opcjami dostosowywania.
 ### [Konwertuj EPUB do PDF w .NET za pomocą Aspose.HTML](./convert-epub-to-pdf/)
@@ -81,6 +85,8 @@ Odkryj moc Aspose.HTML dla .NET: Konwertuj HTML na XPS bez wysiłku. Zawiera wym
 Dowiedz się, jak spakować plik HTML do archiwum ZIP w C# przy użyciu niestandardowego obsługiwacza zasobów w Aspose.HTML.
 ### [Jak spakować HTML w C# – Zapisz HTML do pliku ZIP](./how-to-zip-html-in-c-save-html-to-zip/)
 Dowiedz się, jak spakować plik HTML do archiwum ZIP w C# przy użyciu Aspose.HTML.
+### [Utwórz dokument HTML i zapisz jako ZIP – Kompletny przewodnik C#](./create-html-document-and-save-as-zip-complete-c-guide/)
+Utwórz dokument HTML i zapisz go jako plik ZIP w C# przy użyciu Aspose.HTML – kompletny przewodnik krok po kroku.
 ### [Utwórz dokument HTML ze stylowanym tekstem i wyeksportuj do PDF – Pełny przewodnik](./create-html-document-with-styled-text-and-export-to-pdf-full/)
 Dowiedz się, jak stworzyć dokument HTML z formatowanym tekstem i wyeksportować go do PDF przy użyciu Aspose.HTML dla .NET.
 ### [Utwórz dokument HTML w C# – przewodnik krok po kroku](./create-html-document-c-step-by-step-guide/)

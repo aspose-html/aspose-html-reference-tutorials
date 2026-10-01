@@ -85,6 +85,8 @@ Aspose.HTML สำหรับ .NET ไม่ใช่แค่ไลบรา�
 เรียนรู้วิธีสร้าง PDF จาก HTML ด้วย Aspose ใน C# อย่างละเอียดด้วยคู่มือเต็ม
 ### [สร้างเอกสาร HTML ด้วย C# – คำแนะนำทีละขั้นตอน](./create-html-document-c-step-by-step-guide/)
 เรียนรู้วิธีสร้างเอกสาร HTML ด้วย C# อย่างละเอียดด้วยคำแนะนำทีละขั้นตอนจาก Aspose.HTML สำหรับ .NET
+### [สร้างเอกสาร HTML และบันทึกเป็น ZIP – คู่มือเต็ม C#](./create-html-document-and-save-as-zip-complete-c-guide/)
+เรียนรู้วิธีสร้างเอกสาร HTML และบันทึกเป็นไฟล์ ZIP อย่างละเอียดด้วย C#
 ### [บันทึก HTML เป็น ZIP – คอร์สเต็ม C#](./save-html-as-zip-complete-c-tutorial/)
 บันทึกไฟล์ HTML เป็น ZIP อย่างครบถ้วนด้วย C# ตามขั้นตอนของเรา
 ### [บันทึก HTML เป็น ZIP ใน C# – ตัวอย่างทำงานในหน่วยความจำเต็มรูปแบบ](./save-html-to-zip-in-c-complete-in-memory-example/)
@@ -126,6 +128,10 @@ Aspose.HTML สำหรับ .NET ไม่ใช่แค่ไลบรา�
 เรียนรู้วิธีบันทึก HTML เป็น PDF ใน C# พร้อมการจัดการฟอนต์อย่างครบถ้วนด้วย Aspose.HTML สำหรับ .NET
 ### [สร้าง PDF จาก HTML – คู่มือขั้นตอนต่อขั้นตอนสำหรับนักพัฒนา](./create-pdf-from-html-step-by-step-guide-for-developers/)
 สร้าง PDF จาก HTML อย่างง่ายดายด้วย Aspose.HTML สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อผลลัพธ์ที่แม่นยำ
+### [สร้าง PDF จาก HTML ด้วย Aspose – คำแนะนำขั้นตอนโดยขั้นตอน](./create-pdf-from-html-with-aspose-step-by-step-guide/)
+เรียนรู้วิธีสร้าง PDF จากไฟล์ HTML ด้วย Aspose.HTML สำหรับ .NET ตามขั้นตอนที่ชัดเจน
+### [สร้าง PDF จาก HTML – คู่มือเต็มด้วย Aspose.HTML](./create-pdf-from-html-complete-guide-with-aspose-html/)
+เรียนรู้วิธีสร้าง PDF จากไฟล์ HTML อย่างละเอียดด้วย Aspose.HTML สำหรับ .NET ตามขั้นตอนครบถ้วน
 
 ## บทสรุป
 
