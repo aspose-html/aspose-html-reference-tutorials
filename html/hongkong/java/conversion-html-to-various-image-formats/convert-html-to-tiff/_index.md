@@ -9,17 +9,12 @@ url: /zh-hant/java/conversion-html-to-various-image-formats/convert-html-to-tiff
 weight: 14
 ---
 
- variable names: "HTMLDocument", "ImageFormat.Tiff", etc. Those are inside code placeholders but also in text. We kept them unchanged.
 
-Check for "html to png java" bold. Keep unchanged.
 
-Check for "html to image java" bold. Keep unchanged.
 
-Check for "render html tiff" parentheses. Keep unchanged.
 
-Now produce final content with translations.
 
-Let's construct final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

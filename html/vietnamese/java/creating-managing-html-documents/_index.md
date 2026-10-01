@@ -82,21 +82,21 @@ Học cách thực thi JavaScript bất đồng bộ trong Java bằng Aspose.HT
 ### [đếm ký tự HTML trong Java – Hướng dẫn đầy đủ với Aspose HTML](./count-html-characters-in-java-full-guide-with-aspose-html/)
 Tìm hiểu cách đếm số ký tự HTML trong Java bằng Aspose.HTML qua hướng dẫn chi tiết từng bước.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Tạo HTML từ JavaScript trong Java – Hướng dẫn chi tiết từng bước](./generate-html-from-javascript-in-java-complete-step-by-step/)
 Tìm hiểu cách tạo HTML từ JavaScript trong Java bằng Aspose.HTML với hướng dẫn chi tiết từng bước.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Lặp qua NodeList trong Java – Hướng dẫn đầy đủ](./iterate-over-nodelist-java-complete-guide/)
 Tìm hiểu cách lặp qua NodeList trong Java bằng Aspose.HTML với hướng dẫn chi tiết và ví dụ thực tế.
 ### [Trích xuất văn bản từ HTML bằng Java – Hướng dẫn đầy đủ từng bước](./extract-text-from-html-with-java-complete-step-by-step-guide/)

@@ -42,20 +42,20 @@ Aspose.HTML for Java kullanarak CSS dosyalarını nasıl okuyacağınızı ve an
 Bu eğitimde, Java kullanarak HTML dosyasını yükleyip CSS seçicileriyle başlıkları nasıl çıkaracağınızı öğrenin.
 ### [Java ile HTML Ayrıştırma: CSS Özelliğini Çıkar ve Yazı Boyutunu Al](./parse-html-with-java-extract-css-property-and-get-font-size/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Get Computed Style Java – HTML'den Arka Plan Rengini Çıkar](./get-computed-style-java-extract-background-color-from-html/)
 Aspose.HTML for Java kullanarak bir HTML öğesinin hesaplanmış stilinden arka plan rengini nasıl alacağınızı öğrenin.
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Java'da Elementin Hesaplanmış Stilini Al – Tam Adım‑Adım Kılavuz](./get-element-computed-style-in-java-full-step-by-step-guide/)
 Aspose.HTML for Java kullanarak bir elementin hesaplanmış stilini nasıl alacağınızı adım adım öğrenin.
 ### [Java'da getComputedStyle Kullanımı – Arka Plan Rengini ve Diğer CSS Özelliklerini Çıkarma](./how-to-use-getcomputedstyle-in-java-extract-background-color/)

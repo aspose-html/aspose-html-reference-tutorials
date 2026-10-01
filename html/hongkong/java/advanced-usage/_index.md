@@ -161,12 +161,12 @@ A: 不需要。單一的 Aspose.HTML for Java 授權即涵蓋所有輸出格式�
 **測試環境：** Aspose.HTML for Java 24.11  
 **作者：** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [從 MHTML 提取 HTML – 完整 Java 指南](./extract-html-from-mhtml-complete-java-guide/)
 學習如何使用 Aspose.HTML for Java 從 MHTML 檔案中提取原始 HTML 內容，完整步驟與範例代碼。
 
@@ -174,7 +174,7 @@ A: 不需要。單一的 Aspose.HTML for Java 授權即涵蓋所有輸出格式�
 
 **最後更新日期：** 2025-11-29  
 **測試環境：** Aspose.HTML for Java 24.11  
-**作者：** Aspose  
+**作者：** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

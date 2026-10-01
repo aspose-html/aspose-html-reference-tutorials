@@ -10,9 +10,8 @@ url: /fr/java/conversion-html-to-various-image-formats/convert-html-to-tiff/
 weight: 14
 ---
 
-codes exactly.
 
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

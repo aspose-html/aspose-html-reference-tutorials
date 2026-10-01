@@ -151,12 +151,12 @@ Ismerje meg, hogyan engedélyezheti a JavaScript futtatását Java alkalmazások
 **Tesztelve a következővel:** Aspose.HTML for Java 24.11  
 **Szerző:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [HTML kinyerése MHTML‑ből – Teljes Java útmutató](./extract-html-from-mhtml-complete-java-guide/)
 Ismerje meg, hogyan nyerhet ki HTML‑t MHTML fájlokból Java‑val az Aspose.HTML segítségével.
 
@@ -166,12 +166,12 @@ Ismerje meg, hogyan nyerhet ki HTML‑t MHTML fájlokból Java‑val az Aspose.H
 **Tesztelve a következővel:** Aspose.HTML for Java 24.11  
 **Szerző:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Java-ban JavaScript végrehajtása – Teljes útmutató a Java-ból történő JS futtatáshoz](./execute-javascript-in-java-complete-guide-to-running-js-from/)
 Tanulja meg, hogyan hívhat meg és futtathat JavaScript kódot közvetlenül Java alkalmazásból az Aspose.HTML for Java segítségével.
 
@@ -181,12 +181,12 @@ Tanulja meg, hogyan hívhat meg és futtathat JavaScript kódot közvetlenül Ja
 **Tesztelve a következővel:** Aspose.HTML for Java 24.11  
 **Szerző:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Java-ban a szkript végrehajtás engedélyezése – Teljes Aspose.HTML útmutató](./enable-script-execution-in-java-complete-aspose-html-guide/)
 Ismerje meg, hogyan engedélyezheti a Java-ban a JavaScript futtatását az Aspose.HTML segítségével, és használja ki a teljes funkcionalitást.
 ### [Hogyan használja a Sandbox-ot HTML‑ről PDF‑re Java‑ban – Lépésről‑lépésre útmutató](./how-to-use-sandbox-for-html-to-pdf-java-step-by-step-guide/)
@@ -196,7 +196,7 @@ Ismerje meg, hogyan használhatja a Sandbox‑ot HTML‑ből PDF‑re konvertál
 
 **Legutóbb frissítve:** 2025-11-29  
 **Tesztelve a következővel:** Aspose.HTML for Java 24.11  
-**Szerző:** Aspose  
+**Szerző:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

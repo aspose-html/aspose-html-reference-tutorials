@@ -83,21 +83,21 @@ Learn how to count HTML characters in Java using Aspose.HTML with this comprehen
 ### [Extract Text from HTML in Java – Complete Programming Guide](./extract-text-from-html-in-java-complete-programming-guide/)
 Learn how to extract text from HTML using Aspose.HTML for Java with this comprehensive step-by-step programming guide.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Iterate NodeList Java – Read HTML & Get Image src](./iterate-nodelist-java-read-html-get-image-src/)
 Learn how to iterate a NodeList in Java to read HTML and extract image src attributes using Aspose.HTML.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Iterate over NodeList Java – Complete Guide](./iterate-over-nodelist-java-complete-guide/)
 Learn how to iterate over a NodeList in Java using Aspose.HTML with this comprehensive step-by-step guide.
 ### [Extract text from HTML with Java – Complete Step‑by‑Step Guide](./extract-text-from-html-with-java-complete-step-by-step-guide/)

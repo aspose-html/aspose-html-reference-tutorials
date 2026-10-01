@@ -25,15 +25,11 @@ title: HTML konvertálása PNG-re a maximális memóriahasználat beállításá
 url: /hu/java/conversion-html-to-various-image-formats/convert-html-to-png-with-set-max-memory-usage-in-java/
 ---
 
-No other links.
 
-We must keep code block placeholders unchanged.
 
-Now produce final content with translations.
 
-Check for any stray formatting: Ensure headings have same number of #.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

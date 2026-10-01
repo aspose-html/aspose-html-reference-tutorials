@@ -152,12 +152,12 @@ Poznaj, jak włączyć i uruchomić kod JavaScript w aplikacji Java przy użyciu
 **Testowano z:** Aspose.HTML dla Javy 24.11  
 **Autor:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Wyodrębnij HTML z MHTML – Kompletny przewodnik Java](./extract-html-from-mhtml-complete-java-guide/)
 Dowiedz się, jak wyodrębnić kod HTML z plików MHTML przy użyciu Aspose.HTML dla Javy, krok po kroku.
 
@@ -167,12 +167,12 @@ Dowiedz się, jak wyodrębnić kod HTML z plików MHTML przy użyciu Aspose.HTML
 **Testowano z:** Aspose.HTML dla Javy 24.11  
 **Autor:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Wykonaj JavaScript w Javie – Kompletny przewodnik po uruchamianiu JS z Java](./execute-javascript-in-java-complete-guide-to-running-js-from/)
 Dowiedz się, jak uruchamiać kod JavaScript z poziomu aplikacji Java przy użyciu Aspose.HTML, w pełnym przewodniku krok po kroku.
 
@@ -182,12 +182,12 @@ Dowiedz się, jak uruchamiać kod JavaScript z poziomu aplikacji Java przy użyc
 **Testowano z:** Aspose.HTML dla Javy 24.11  
 **Autor:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Jak korzystać z Sandbox w konwersji HTML do PDF w Javie – Przewodnik krok po kroku](./how-to-use-sandbox-for-html-to-pdf-java-step-by-step-guide/)
 Poznaj, jak używać środowiska Sandbox Aspose.HTML w Javie do bezpiecznej konwersji HTML na PDF, krok po kroku.
 ### [Włącz wykonywanie skryptów w Javie – Kompletny przewodnik Aspose.HTML](./enable-script-execution-in-java-complete-aspose-html-guide/)
@@ -197,7 +197,7 @@ Dowiedz się, jak włączyć i konfigurować wykonywanie JavaScript w aplikacjac
 
 **Ostatnia aktualizacja:** 2025-11-29  
 **Testowano z:** Aspose.HTML dla Javy 24.11  
-**Autor:** Aspose  
+**Autor:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

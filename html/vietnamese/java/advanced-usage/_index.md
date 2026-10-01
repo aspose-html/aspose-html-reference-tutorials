@@ -153,12 +153,12 @@ Hướng dẫn chi tiết cách kích hoạt JavaScript trong ứng dụng Java 
 **Đã kiểm tra với:** Aspose.HTML for Java 24.11  
 **Tác giả:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Trích xuất HTML từ MHTML – Hướng dẫn Java toàn diện](./extract-html-from-mhtml-complete-java-guide/)
 Học cách trích xuất nội dung HTML từ tệp MHTML bằng Aspose.HTML for Java trong hướng dẫn chi tiết này.
 
@@ -168,12 +168,12 @@ Học cách trích xuất nội dung HTML từ tệp MHTML bằng Aspose.HTML fo
 **Đã kiểm tra với:** Aspose.HTML for Java 24.11  
 **Tác giả:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Thực thi JavaScript trong Java – Hướng dẫn đầy đủ về chạy JS từ Java](./execute-javascript-in-java-complete-guide-to-running-js-from/)
 Học cách nhúng và thực thi mã JavaScript trong ứng dụng Java bằng Aspose.HTML, bao gồm các ví dụ thực tế và cấu hình.
 
@@ -183,12 +183,12 @@ Học cách nhúng và thực thi mã JavaScript trong ứng dụng Java bằng 
 **Đã kiểm tra với:** Aspose.HTML for Java 24.11  
 **Tác giả:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Kích hoạt thực thi script trong Java – Hướng dẫn toàn diện Aspose.HTML](./enable-script-execution-in-java-complete-aspose-html-guide/)
 Hướng dẫn chi tiết cách bật và chạy mã JavaScript trong ứng dụng Java bằng Aspose.HTML, bao gồm cấu hình môi trường và ví dụ thực tế.
 ### [Cách sử dụng Sandbox để chuyển HTML sang PDF Java – Hướng dẫn từng bước](./how-to-use-sandbox-for-html-to-pdf-java-step-by-step-guide/)
@@ -197,7 +197,7 @@ Hướng dẫn chi tiết cách bật và chạy mã JavaScript trong ứng dụ
 
 **Cập nhật lần cuối:** 2025-11-29  
 **Đã kiểm tra với:** Aspose.HTML for Java 24.11  
-**Tác giả:** Aspose  
+**Tác giả:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

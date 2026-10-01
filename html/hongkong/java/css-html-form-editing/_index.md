@@ -42,21 +42,21 @@ url: /zh-hant/java/css-html-form-editing/
 ### [如何在 Java 中查詢 HTML – 載入 HTML、CSS 選擇器，並提取標題](./how-to-query-html-in-java-load-html-css-selector-and-extract/)
 本教程示範如何在 Java 中載入 HTML，使用 CSS 選擇器查詢，並提取標題元素。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [取得計算樣式（Java） – 從 HTML 提取背景顏色](./get-computed-style-java-extract-background-color-from-html/)
 了解如何使用 Aspose.HTML for Java 取得計算樣式，並從 HTML 中提取背景顏色。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [在 Java 中取得元素計算樣式 – 完整步驟指南](./get-element-computed-style-in-java-full-step-by-step-guide/)
 本指南逐步說明如何在 Java 中使用 Aspose.HTML 取得元素的計算樣式，涵蓋完整示例與最佳實踐。
 ### [如何在 Java 中使用 getComputedStyle – 提取背景顏色及其他 CSS 屬性](./how-to-use-getcomputedstyle-in-java-extract-background-color/)

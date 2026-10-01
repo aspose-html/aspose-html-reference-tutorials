@@ -9,11 +9,9 @@ url: /ru/java/converting-between-epub-and-image-formats/convert-epub-to-gif/
 weight: 11
 ---
 
- content with all translations.
 
-Be careful to keep markdown formatting exactly.
 
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

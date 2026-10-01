@@ -166,12 +166,12 @@ Aprenda a habilitar a execução de JavaScript em aplicações Java usando Aspos
 **Testado com:** Aspose.HTML for Java 24.11  
 **Autor:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Extrair HTML de MHTML – Guia Completo em Java](./extract-html-from-mhtml-complete-java-guide/)
 Aprenda a extrair HTML de arquivos MHTML usando Aspose.HTML for Java, com exemplos completos.
 
@@ -179,7 +179,7 @@ Aprenda a extrair HTML de arquivos MHTML usando Aspose.HTML for Java, com exempl
 
 **Última atualização:** 2025-11-29  
 **Testado com:** Aspose.HTML for Java 24.11  
-**Autor:** Aspose  
+**Autor:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -42,21 +42,21 @@ url: /el/java/css-html-form-editing/
 ### [Πώς να ερωτήσετε HTML σε Java – φόρτωση HTML, CSS selector και εξαγωγή επικεφαλίδων](./how-to-query-html-in-java-load-html-css-selector-and-extract/)
 Μάθετε πώς να φορτώνετε HTML, να χρησιμοποιείτε CSS selectors και να εξάγετε επικεφαλίδες σε Java με Aspose.HTML.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Λήψη Υπολογιζόμενου Στυλ Java – Εξαγωγή Χρώματος Φόντου από HTML](./get-computed-style-java-extract-background-color-from-html/)
 Μάθετε πώς να χρησιμοποιείτε το Aspose.HTML για Java για να εξάγετε το υπολογιζόμενο χρώμα φόντου ενός στοιχείου HTML.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Λήψη Υπολογιζόμενου Στυλ Στοιχείου σε Java – Πλήρης Οδηγός Βήμα‑βήμα](./get-element-computed-style-in-java-full-step-by-step-guide/)
 Μάθετε πώς να αποκτήσετε το υπολογιζόμενο στυλ ενός στοιχείου HTML χρησιμοποιώντας το Aspose.HTML για Java σε αναλυτικό βήμα‑βήμα οδηγό.
 ### [Πώς να χρησιμοποιήσετε το getComputedStyle στη Java – Εξαγωγή χρώματος φόντου και άλλων ιδιοτήτων CSS](./how-to-use-getcomputedstyle-in-java-extract-background-color/)
@@ -72,6 +72,7 @@ url: /el/java/css-html-form-editing/
 
 ### [πώς να διαβάσετε CSS σε Java – Οδηγός βήμα‑βήμα](./how-to-read-css-in-java-step-by-step-guide/)
 Μάθετε πώς να διαβάζετε CSS σε Java με βήμα‑βήμα οδηγίες χρησιμοποιώντας Aspose.HTML για Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

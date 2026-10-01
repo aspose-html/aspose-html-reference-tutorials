@@ -25,13 +25,10 @@ title: วิธีเรนเดอร์ HTML เป็น PNG ด้วย v
 url: /th/java/conversion-html-to-various-image-formats/how-to-render-html-to-png-with-custom-viewport/
 ---
 
-codes.
 
-Also need to preserve markdown formatting like bold, code formatting.
 
-Check for any URLs: none besides image src mobileView.png. Keep unchanged.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

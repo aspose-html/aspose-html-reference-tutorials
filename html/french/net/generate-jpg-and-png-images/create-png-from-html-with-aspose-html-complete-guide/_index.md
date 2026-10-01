@@ -23,9 +23,8 @@ title: Créer un PNG à partir de HTML avec Aspose.HTML – Guide complet
 url: /fr/net/generate-jpg-and-png-images/create-png-from-html-with-aspose-html-complete-guide/
 ---
 
-preserved.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

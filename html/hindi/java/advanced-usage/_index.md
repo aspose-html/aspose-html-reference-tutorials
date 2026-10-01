@@ -154,12 +154,12 @@ Java एप्लिकेशन में JavaScript को एम्बेड 
 **Tested With:** Aspose.HTML for Java 24.11  
 **Author:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [MHTML से HTML निकालें – पूर्ण Java गाइड](./extract-html-from-mhtml-complete-java-guide/)
 MHTML फ़ाइल से HTML सामग्री निकालने और प्रोसेस करने के लिए Aspose.HTML for Java का उपयोग कैसे करें, सीखें।  
 
@@ -169,12 +169,12 @@ MHTML फ़ाइल से HTML सामग्री निकालने �
 **Tested With:** Aspose.HTML for Java 24.11  
 **Author:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Java में JavaScript निष्पादित करें – Java से JS चलाने की पूर्ण गाइड](./execute-javascript-in-java-complete-guide-to-running-js-from/)
 Java से JavaScript को कैसे चलाएँ, Aspose.HTML for Java का उपयोग करके पूर्ण मार्गदर्शिका।  
 
@@ -184,12 +184,12 @@ Java से JavaScript को कैसे चलाएँ, Aspose.HTML for Java
 **Tested With:** Aspose.HTML for Java 24.11  
 **Author:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [HTML से PDF Java के लिए सैंडबॉक्स का उपयोग कैसे करें – चरण‑दर‑चरण गाइड](./how-to-use-sandbox-for-html-to-pdf-java-step-by-step-guide/)
 HTML को PDF में बदलने के लिए सैंडबॉक्स सेटअप, कॉन्फ़िगरेशन और उपयोग के चरणों को सीखें।  
 ### [Java में स्क्रिप्ट निष्पादन सक्षम करें – पूर्ण Aspose.HTML गाइड](./enable-script-execution-in-java-complete-aspose-html-guide/)
@@ -199,7 +199,7 @@ Java एप्लिकेशन में Aspose.HTML का उपयोग �
 
 **Last Updated:** 2025-11-29  
 **Tested With:** Aspose.HTML for Java 24.11  
-**Author:** Aspose  
+**Author:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

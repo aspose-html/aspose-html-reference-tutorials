@@ -23,9 +23,8 @@ title: Konwertuj HTML do PDF w Javie – Kompletny przewodnik z osadzaniem czcio
 url: /pl/java/conversion-html-to-other-formats/convert-html-to-pdf-in-java-complete-guide-with-font-embeddi/
 ---
 
-, headings, blockquotes.
 
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

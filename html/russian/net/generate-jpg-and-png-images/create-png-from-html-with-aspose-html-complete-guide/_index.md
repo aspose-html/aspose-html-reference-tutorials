@@ -23,21 +23,13 @@ title: Создание PNG из HTML с помощью Aspose.HTML – По
 url: /ru/net/generate-jpg-and-png-images/create-png-from-html-with-aspose-html-complete-guide/
 ---
 
-Purpose | How it Helps You **render html to png** |
-|------|---------|----------------------------------------|
 
-We need to keep the dashes line same length? Not required but keep same number of columns. We'll translate header row but keep dashes line unchanged.
 
-We'll produce:
 
-| Шаг | Цель | Как это помогает вам **render html to png** |
-|------|---------|----------------------------------------|
 
-Now rows.
 
-Make sure to keep emojis like 1️⃣ etc unchanged.
 
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

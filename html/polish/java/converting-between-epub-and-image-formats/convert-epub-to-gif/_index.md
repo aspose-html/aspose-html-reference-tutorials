@@ -9,7 +9,7 @@ url: /pl/java/converting-between-epub-and-image-formats/convert-epub-to-gif/
 weight: 11
 ---
 
- content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

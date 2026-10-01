@@ -25,9 +25,8 @@ title: Hoe lettertypen in PDF inbedden met Aspose HTML – gids voor het convert
 url: /nl/java/converting-epub-to-pdf/how-to-embed-fonts-in-pdf-using-aspose-html-convert-epub-to/
 ---
 
-.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

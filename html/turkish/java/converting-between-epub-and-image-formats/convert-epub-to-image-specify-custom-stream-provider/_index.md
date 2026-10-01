@@ -10,9 +10,8 @@ url: /tr/java/converting-between-epub-and-image-formats/convert-epub-to-image-sp
 weight: 15
 ---
 
- placeholders remain unchanged.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

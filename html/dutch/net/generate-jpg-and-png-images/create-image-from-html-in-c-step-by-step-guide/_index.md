@@ -24,17 +24,12 @@ title: Afbeelding maken van HTML in C# – Stapsgewijze handleiding
 url: /nl/net/generate-jpg-and-png-images/create-image-from-html-in-c-step-by-step-guide/
 ---
 
-.
 
-Let's craft translation.
 
-Be careful with bullet points.
 
-Also "✅ Image successfully created at: C:\Temp\tiny_text_hinting.png" keep path unchanged but translate the rest.
 
-Also alt text and title.
 
-Let's produce final.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

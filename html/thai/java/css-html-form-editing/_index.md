@@ -42,21 +42,21 @@ url: /th/java/css-html-form-editing/
 ### [วิธีสืบค้น HTML ใน Java – โหลด HTML, ตัวเลือก CSS, และดึงหัวเรื่อง](./how-to-query-html-in-java-load-html-css-selector-and-extract/)
 เรียนรู้วิธีโหลดไฟล์ HTML, ใช้ตัวเลือก CSS เพื่อดึงหัวข้อใน Java อย่างง่ายดาย
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [รับ Computed Style ด้วย Java – ดึงสีพื้นหลังจาก HTML](./get-computed-style-java-extract-background-color-from-html/)
 เรียนรู้วิธีดึงสีพื้นหลังจาก HTML ด้วยการใช้ Computed Style ของ Aspose.HTML สำหรับ Java
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [รับสไตล์ที่คำนวณขององค์ประกอบใน Java – คู่มือเต็มขั้นตอน](./get-element-computed-style-in-java-full-step-by-step-guide/)
 เรียนรู้วิธีดึงสไตล์ที่คำนวณขององค์ประกอบ HTML ด้วย Aspose.HTML สำหรับ Java ผ่านคู่มือขั้นตอนเต็มรูปแบบ
 ### [วิธีใช้ getcomputedstyle ใน Java – ดึงสีพื้นหลังและคุณสมบัติ CSS อื่น ๆ](./how-to-use-getcomputedstyle-in-java-extract-background-color/)
@@ -72,6 +72,7 @@ url: /th/java/css-html-form-editing/
 
 ### [วิธีอ่าน CSS ใน Java – คู่มือทีละขั้นตอน](./how-to-read-css-in-java-step-by-step-guide/)
 เรียนรู้วิธีอ่านไฟล์ CSS ใน Java อย่างละเอียดด้วยขั้นตอนที่ชัดเจนในคู่มือนี้
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -156,12 +156,12 @@ Erfahren Sie, wie Sie JavaScript in Java aktivieren und mit Aspose.HTML vollstä
 **Getestet mit:** Aspose.HTML für Java 24.11  
 **Autor:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [HTML aus MHTML extrahieren – Vollständiger Java-Leitfaden](./extract-html-from-mhtml-complete-java-guide/)
 Erfahren Sie, wie Sie HTML‑Inhalte aus MHTML‑Dateien extrahieren und weiterverarbeiten mit Aspose.HTML für Java.
 
@@ -171,12 +171,12 @@ Erfahren Sie, wie Sie HTML‑Inhalte aus MHTML‑Dateien extrahieren und weiterv
 **Getestet mit:** Aspose.HTML für Java 24.11  
 **Autor:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [JavaScript in Java ausführen – Komplett‑Guide zum Ausführen von JS aus Java](./execute-javascript-in-java-complete-guide-to-running-js-from/)
 Erfahren Sie, wie Sie JavaScript‑Code aus Java heraus ausführen, Skripte einbinden und Ergebnisse verarbeiten – Schritt für Schritt.
 
@@ -184,7 +184,7 @@ Erfahren Sie, wie Sie JavaScript‑Code aus Java heraus ausführen, Skripte einb
 
 **Zuletzt aktualisiert:** 2025-11-29  
 **Getestet mit:** Aspose.HTML für Java 24.11  
-**Autor:** Aspose  
+**Autor:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

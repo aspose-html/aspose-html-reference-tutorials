@@ -9,11 +9,9 @@ url: /es/java/editing-html-documents/manage-inner-outer-html-properties/
 weight: 15
 ---
 
- with translations.
 
-Be careful to keep markdown formatting exactly.
 
-Let's construct final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

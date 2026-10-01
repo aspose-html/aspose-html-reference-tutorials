@@ -22,21 +22,14 @@ title: 要素をbodyに追加 – Aspose.HTMLを使用した完全なC#ガイド
 url: /ja/net/html-document-manipulation/append-element-to-body-complete-c-guide-with-aspose-html/
 ---
 
--body.png" alt="append element to body example" width="600">`
 
-Yes it's HTML img tag, not markdown. We need to translate alt attribute inside HTML tag. So change alt to Japanese. Keep src and width unchanged.
 
-Thus: `<img src="append-element-to-body.png" alt="append element to body の例" width="600">`
 
-Now after that there is a closing blockquote? No.
 
-Then the closing shortcodes.
 
-Now ensure we didn't miss any markdown links. There are none.
 
-Now produce final content with all shortcodes unchanged.
 
-Let's assemble.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

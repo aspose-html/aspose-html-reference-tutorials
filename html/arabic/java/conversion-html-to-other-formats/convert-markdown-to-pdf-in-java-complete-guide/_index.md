@@ -24,15 +24,11 @@ title: تحويل ماركداون إلى PDF في جافا – دليل كام�
 url: /ar/java/conversion-html-to-other-formats/convert-markdown-to-pdf-in-java-complete-guide/
 ---
 
-تعديلات ساعدتك أكثر. برمجة سعيدة!"
 
-Then closing shortcodes: keep.
 
-Also final backtop button shortcode.
 
-Now produce final content with all translations, preserving markdown.
 
-Let's construct final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

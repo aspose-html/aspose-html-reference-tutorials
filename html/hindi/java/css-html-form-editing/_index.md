@@ -53,25 +53,26 @@ Java में Aspose.HTML का उपयोग करके CSS स्टा�
 ### [Java में CSS पढ़ने का तरीका – चरण‑दर‑चरण गाइड](./how-to-read-css-in-java-step-by-step-guide/)
 Java में Aspose.HTML का उपयोग करके CSS फ़ाइलों को पढ़ने और विश्लेषण करने की चरण‑दर‑चरण प्रक्रिया सीखें।
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Java के लिए Aspose.HTML के साथ Computed Style प्राप्त करें – HTML से बैकग्राउंड रंग निकालें](./get-computed-style-java-extract-background-color-from-html/)
 Java में Aspose.HTML का उपयोग करके HTML तत्व की गणना की गई शैली से बैकग्राउंड रंग कैसे निकालें, सीखें।
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Java में तत्व का गणना किया गया शैली प्राप्त करें – पूर्ण चरण-दर-चरण गाइड](./get-element-computed-style-in-java-full-step-by-step-guide/)
 इस गाइड में Java के साथ Aspose.HTML का उपयोग करके किसी तत्व की गणना की गई शैली कैसे प्राप्त करें, सीखें।
 ### [Java में getComputedStyle का उपयोग कैसे करें – बैकग्राउंड रंग और अन्य CSS गुण निकालें](./how-to-use-getcomputedstyle-in-java-extract-background-color/)
 Java में getComputedStyle का उपयोग करके बैकग्राउंड रंग और अन्य CSS प्रॉपर्टीज़ को प्राप्त करने की विधि सीखें।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

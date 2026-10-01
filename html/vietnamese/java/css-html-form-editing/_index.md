@@ -42,21 +42,21 @@ Hướng dẫn cách phân tích HTML bằng Java để trích xuất thuộc t�
 ### [cách truy vấn HTML trong Java – tải HTML, CSS selector và trích xuất các tiêu đề](./how-to-query-html-in-java-load-html-css-selector-and-extract/)
 Hướng dẫn cách tải HTML, sử dụng CSS selector và trích xuất các tiêu đề trong Java.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Lấy Kiểu Tính Toán Java – Trích xuất màu nền từ HTML](./get-computed-style-java-extract-background-color-from-html/)
 Hướng dẫn cách sử dụng Aspose.HTML cho Java để lấy kiểu tính toán và trích xuất màu nền từ tài liệu HTML.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Lấy Kiểu Tính Toán của Phần Tử trong Java – Hướng Dẫn Chi Tiết Từng Bước](./get-element-computed-style-in-java-full-step-by-step-guide/)
 Hướng dẫn chi tiết cách lấy kiểu tính toán của phần tử trong Java bằng Aspose.HTML, bao gồm các ví dụ thực tế và mã nguồn mẫu.
 ### [Cách sử dụng getComputedStyle trong Java – Trích xuất màu nền và các thuộc tính CSS khác](./how-to-use-getcomputedstyle-in-java-extract-background-color/)

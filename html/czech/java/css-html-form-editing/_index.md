@@ -42,20 +42,20 @@ Naučte se pomocí Aspose.HTML v Javě extrahovat CSS vlastnosti a zjistit velik
 ### [Jak dotazovat HTML v Javě – načíst HTML, CSS selektor a extrahovat nadpisy](./how-to-query-html-in-java-load-html-css-selector-and-extract/)
 Naučte se načíst HTML, použít CSS selektory a získat nadpisy pomocí Aspose.HTML pro Javu.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Získání vypočítaného stylu Java – Extrakce barvy pozadí z HTML](./get-computed-style-java-extract-background-color-from-html/)
 Naučte se pomocí Aspose.HTML pro Java získat vypočítané styly a extrahovat barvu pozadí z HTML dokumentu.
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Získání vypočteného stylu prvku v Javě – Kompletní krok‑za‑krokem průvodce](./get-element-computed-style-in-java-full-step-by-step-guide/)
 Naučte se, jak pomocí Aspose.HTML pro Javu získat vypočtené CSS styly konkrétního HTML elementu krok po kroku.
 ### [Jak použít getComputedStyle v Javě – Extrahovat barvu pozadí a další CSS vlastnosti](./how-to-use-getcomputedstyle-in-java-extract-background-color/)

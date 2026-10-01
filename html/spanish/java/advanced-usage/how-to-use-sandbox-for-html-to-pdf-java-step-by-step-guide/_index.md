@@ -23,9 +23,8 @@ title: Cómo usar Sandbox para HTML a PDF en Java – Guía paso a paso
 url: /es/java/advanced-usage/how-to-use-sandbox-for-html-to-pdf-java-step-by-step-guide/
 ---
 
-placeholders unchanged.
 
-Let's write final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

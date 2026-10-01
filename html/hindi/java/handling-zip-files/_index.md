@@ -9,17 +9,12 @@ url: /hi/java/handling-zip-files/
 weight: 31
 ---
 
- अद्यतन:** 2026-02-15"
 
-**Tested With:** Aspose.HTML for Java 24.12 => "**परीक्षण किया गया:** Aspose.HTML for Java 24.12"
 
-**Author:** Aspose => "**लेखक:** Aspose"
 
-Now close shortcodes.
 
-All good.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

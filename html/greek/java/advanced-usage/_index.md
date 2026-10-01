@@ -150,12 +150,12 @@ weight: 20
 **Δοκιμή με:** Aspose.HTML for Java 24.11  
 **Συγγραφέας:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Εξαγωγή HTML από MHTML – Πλήρης Οδηγός Java](./extract-html-from-mhtml-complete-java-guide/)
 Μάθετε πώς να εξάγετε HTML από αρχεία MHTML με το Aspose.HTML for Java σε πλήρη οδηγό.
 
@@ -165,12 +165,12 @@ weight: 20
 **Δοκιμή με:** Aspose.HTML for Java 24.11  
 **Συγγραφέας:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Εκτέλεση JavaScript σε Java – Πλήρης Οδηγός για Εκτέλεση JS από Java](./execute-javascript-in-java-complete-guide-to-running-js-from/)
 
 ---
@@ -179,19 +179,19 @@ weight: 20
 **Δοκιμή με:** Aspose.HTML for Java 24.11  
 **Συγγραφέας:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Ενεργοποίηση Εκτέλεσης Script σε Java – Πλήρης Οδηγός Aspose.HTML](./enable-script-execution-in-java-complete-aspose-html-guide/)
 
 ---
 
 **Τελευταία ενημέρωση:** 2025-11-29  
 **Δοκιμή με:** Aspose.HTML for Java 24.11  
-**Συγγραφέας:** Aspose  
+**Συγγραφέας:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

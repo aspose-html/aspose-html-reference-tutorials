@@ -22,7 +22,7 @@ title: Définir le ratio de pixels de l’appareil en Java – Tutoriel Mobile S
 url: /fr/java/advanced-usage/set-device-pixel-ratio-in-java-mobile-sandbox-tutorial/
 ---
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

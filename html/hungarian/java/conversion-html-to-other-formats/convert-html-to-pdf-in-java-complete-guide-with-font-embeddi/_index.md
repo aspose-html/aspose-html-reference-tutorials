@@ -24,13 +24,10 @@ title: HTML konvertálása PDF-re Java-ban – Teljes útmutató betűtípus be�
 url: /hu/java/conversion-html-to-other-formats/convert-html-to-pdf-in-java-complete-guide-with-font-embeddi/
 ---
 
-top-button >}}
 
-Make sure we keep all shortcodes unchanged.
 
-Now produce final output with all translated content. Ensure code block placeholders remain unchanged.
 
-Let's assemble.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

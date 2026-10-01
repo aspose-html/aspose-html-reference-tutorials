@@ -22,20 +22,13 @@ title: Docx naar png converteren in C# – Volledige stapsgewijze handleiding
 url: /nl/net/generate-jpg-and-png-images/convert-docx-to-png-in-c-full-step-by-step-guide/
 ---
 
-ialiasing en hinting samen?**  
-  Het zijn onafhankelijke flags. Je kunt beide inschakelen door `UseAntialiasing = true` **en** een `TextOptions` met `UseHinting = true` te leveren in dezelfde `ImageRenderingOptions`‑instantie."
 
-Now "## Conclusion" translate: "## Conclusie"
 
-Then closing shortcodes remain.
 
-Now ensure we keep all shortcodes at top and bottom exactly.
 
-The content starts with three opening shortcodes, then the title etc, then closing shortcodes, then backtop button shortcode.
 
-We must keep them unchanged.
 
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

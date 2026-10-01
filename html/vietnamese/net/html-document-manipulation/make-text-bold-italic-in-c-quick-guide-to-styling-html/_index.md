@@ -24,23 +24,15 @@ title: Tạo văn bản đậm nghiêng trong C# – Hướng dẫn nhanh về �
 url: /vi/net/html-document-manipulation/make-text-bold-italic-in-c-quick-guide-to-styling-html/
 ---
 
-as is? The instruction says translate all text content naturally to Vietnamese, keep technical terms in English. "Make Text Bold Italic" is a phrase describing styling; could translate as "đặt văn bản in đậm và nghiêng". Let's translate.
 
-We'll produce:
 
-# Tạo Văn Bản Đậm Nghiêng trong C# – Hướng Dẫn Nhanh về Định Dạng HTML
 
-Continue.
 
-Now translate paragraphs.
 
-Let's craft translation.
 
-Be careful to keep markdown formatting.
 
-Also keep code block placeholders.
 
-Let's produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

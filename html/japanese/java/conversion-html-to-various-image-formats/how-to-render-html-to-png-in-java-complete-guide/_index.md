@@ -23,21 +23,14 @@ title: JavaでHTMLをPNGにレンダリングする方法 – 完全ガイド
 url: /ja/java/conversion-html-to-various-image-formats/how-to-render-html-to-png-in-java-complete-guide/
 ---
 
-重要か**. For **Edge case**, we translated as **エッジケース**. For **Alt text**, we translated as "*Alt text:*" maybe keep "Alt text" as English? It's a label. Could translate to "代替テキスト". But it's within markdown "*Alt text:*". Should we translate? Probably yes. So change "*Alt text:*" to "*代替テキスト:*". Keep bold inside? The original "*Alt text:* **how to render html** example..." So we need to translate "*Alt text:*" to "*代替テキスト:*". Keep bold phrase inside bold: **how to render html** we translate to **HTML をレンダリングする方法**.
 
-Similarly **Expected output** we translated to "**期待される出力**". Good.
 
-Check **Pro tip** we already changed.
 
-Check **Why this matters** we changed.
 
-Check **Edge case** we changed.
 
-Check **Pro tip:** we used > **プロのコツ:**.
 
-Now ensure all markdown formatting preserved.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -137,12 +137,12 @@ R: No. Una singola licenza di Aspose.HTML for Java copre tutti i formati di outp
 **Tested With:** Aspose.HTML for Java 24.11  
 **Author:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Estrai HTML da MHTML – Guida completa per Java](./extract-html-from-mhtml-complete-java-guide/)
 
 ---
@@ -151,12 +151,12 @@ R: No. Una singola licenza di Aspose.HTML for Java copre tutti i formati di outp
 **Tested With:** Aspose.HTML for Java 24.11  
 **Author:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Esegui JavaScript in Java – Guida completa all'esecuzione di JS da Java](./execute-javascript-in-java-complete-guide-to-running-js-from/)
 
 ---
@@ -165,12 +165,12 @@ R: No. Una singola licenza di Aspose.HTML for Java copre tutti i formati di outp
 **Tested With:** Aspose.HTML for Java 24.11  
 **Author:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Come utilizzare Sandbox per HTML‑to‑PDF Java – Guida passo‑passo](./how-to-use-sandbox-for-html-to-pdf-java-step-by-step-guide/)
 ### [Abilita l'esecuzione di script in Java – Guida completa Aspose.HTML](./enable-script-execution-in-java-complete-aspose-html-guide/)
 
@@ -178,7 +178,7 @@ R: No. Una singola licenza di Aspose.HTML for Java copre tutti i formati di outp
 
 **Last Updated:** 2025-11-29  
 **Tested With:** Aspose.HTML for Java 24.11  
-**Author:** Aspose  
+**Author:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

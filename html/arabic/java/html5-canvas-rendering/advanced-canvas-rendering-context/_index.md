@@ -9,7 +9,7 @@ url: /ar/java/html5-canvas-rendering/advanced-canvas-rendering-context/
 weight: 10
 ---
 
- produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

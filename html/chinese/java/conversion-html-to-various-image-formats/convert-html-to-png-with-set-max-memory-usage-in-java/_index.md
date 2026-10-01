@@ -22,13 +22,10 @@ title: 在 Java 中将 HTML 转换为 PNG 并设置最大内存使用
 url: /zh/java/conversion-html-to-various-image-formats/convert-html-to-png-with-set-max-memory-usage-in-java/
 ---
 
-.
 
-Check for any missed text: At top there are three opening shortcodes, then content, then three closing shortcodes, then backtop button shortcode. Keep them.
 
-Make sure to preserve code block placeholders exactly.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

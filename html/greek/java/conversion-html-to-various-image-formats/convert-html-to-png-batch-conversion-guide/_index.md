@@ -23,11 +23,9 @@ title: Μετατροπή HTML σε PNG – Οδηγός μαζικής μετα
 url: /el/java/conversion-html-to-various-image-formats/convert-html-to-png-batch-conversion-guide/
 ---
 
--button >}}
 
-Make sure to keep them unchanged.
 
-Now produce final output with all translated content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

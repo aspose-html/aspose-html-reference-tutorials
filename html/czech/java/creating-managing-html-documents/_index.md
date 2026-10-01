@@ -83,12 +83,12 @@ Naučte se, jak pomocí Aspose.HTML v Javě spočítat počet znaků v HTML doku
 ### [Extrahujte text z HTML v Javě – Kompletní programovací průvodce](./extract-text-from-html-in-java-complete-programming-guide/)
 Naučte se extrahovat text z HTML v Javě pomocí Aspose.HTML s podrobným krok‑za‑krokem průvodcem.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Iterace NodeList v Javě – čtení HTML a získání src obrázku](./iterate-nodelist-java-read-html-get-image-src/)
 Naučte se, jak iterovat přes NodeList v Javě, číst HTML a získat atribut src obrázku pomocí Aspose.HTML.
 ### [Iterace přes NodeList v Javě – Kompletní průvodce](./iterate-over-nodelist-java-complete-guide/)

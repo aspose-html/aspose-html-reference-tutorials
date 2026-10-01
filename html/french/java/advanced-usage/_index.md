@@ -156,12 +156,12 @@ Apprenez à activer et exécuter du JavaScript depuis Java avec Aspose.HTML, inc
 **Testé avec :** Aspose.HTML for Java 24.11  
 **Auteur :** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Extraire le HTML à partir de MHTML – Guide complet Java](./extract-html-from-mhtml-complete-java-guide/)
 Apprenez à extraire le contenu HTML d’un fichier MHTML en Java avec Aspose.HTML, étape par étape.  
 
@@ -171,12 +171,12 @@ Apprenez à extraire le contenu HTML d’un fichier MHTML en Java avec Aspose.HT
 **Testé avec :** Aspose.HTML for Java 24.11  
 **Auteur :** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Exécuter du JavaScript en Java – Guide complet pour exécuter du JS depuis Java](./execute-javascript-in-java-complete-guide-to-running-js-from/)
 Apprenez à exécuter du JavaScript depuis Java en utilisant Aspose.HTML for Java, avec des exemples complets et des meilleures pratiques.  
 
@@ -186,12 +186,12 @@ Apprenez à exécuter du JavaScript depuis Java en utilisant Aspose.HTML for Jav
 **Testé avec :** Aspose.HTML for Java 24.11  
 **Auteur :** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Comment utiliser le bac à sable pour HTML vers PDF Java – Guide étape par étape](./how-to-use-sandbox-for-html-to-pdf-java-step-by-step-guide/)
 Apprenez à exploiter le bac à sable d’Aspose.HTML pour convertir du HTML en PDF avec Java, étape par étape.  
 ### [Activer l'exécution de scripts en Java – Guide complet Aspose.HTML](./enable-script-execution-in-java-complete-aspose-html-guide/)
@@ -201,7 +201,7 @@ Apprenez à activer l'exécution de scripts JavaScript dans Java avec Aspose.HTM
 
 **Dernière mise à jour :** 2025-11-29  
 **Testé avec :** Aspose.HTML for Java 24.11  
-**Auteur :** Aspose  
+**Auteur :** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

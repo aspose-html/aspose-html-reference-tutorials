@@ -10,7 +10,7 @@ url: /pt/java/conversion-html-to-various-image-formats/convert-html-to-bmp/
 weight: 10
 ---
 
- craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -25,21 +25,14 @@ title: Cách Nén HTML trong C# – Tải HTML và Sử dụng Trình Xử lý T
 url: /vi/net/html-extensions-and-conversions/how-to-zip-html-in-c-load-html-use-custom-handler/
 ---
 
-archive. Either way, you’ve landed in the right spot." to Vietnamese.
 
-Proceed for all sections.
 
-Also translate blockquote "Why care?" etc.
 
-Make sure to keep markdown.
 
-Also translate list items.
 
-Also translate "Pro tip:" etc.
 
-Also translate "Custom Resource Handler (Custom Resource Handler)" maybe keep the term but translate surrounding.
 
-Let's produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

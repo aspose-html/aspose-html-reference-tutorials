@@ -44,21 +44,21 @@ Naucz się, jak w Javie analizować HTML, wyciągać właściwości CSS i okreś
 ### [Jak zapytać HTML w Javie – wczytaj HTML, selektor CSS i wyodrębnij nagłówki](./how-to-query-html-in-java-load-html-css-selector-and-extract/)
 Dowiedz się, jak w Javie wczytywać dokumenty HTML, używać selektorów CSS i wyciągać nagłówki w prosty sposób.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Pobierz obliczony styl w Javie – wyodrębnij kolor tła z HTML](./get-computed-style-java-extract-background-color-from-html/)
 Dowiedz się, jak w Javie uzyskać obliczone style elementu i wyodrębnić kolor tła z kodu HTML przy użyciu Aspose.HTML.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Pobieranie obliczonego stylu elementu w Javie – Kompletny przewodnik krok po kroku](./get-element-computed-style-in-java-full-step-by-step-guide/)
 Dowiedz się, jak w Javie uzyskać obliczony styl elementu przy użyciu Aspose.HTML, krok po kroku.
 ### [Jak używać getComputedStyle w Javie – Pobieranie koloru tła i innych właściwości CSS](./how-to-use-getcomputedstyle-in-java-extract-background-color/)
