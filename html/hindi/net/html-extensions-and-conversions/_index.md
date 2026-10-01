@@ -41,14 +41,14 @@ Aspose.HTML for .NET सिर्फ़ एक लाइब्रेरी न�
 
 ### [Aspose.HTML के साथ .NET में HTML को PDF में बदलें](./convert-html-to-pdf/)
 .NET के लिए Aspose.HTML के साथ HTML को PDF में आसानी से बदलें। हमारे चरण-दर-चरण गाइड का पालन करें और HTML-से-PDF रूपांतरण की शक्ति को प्राप्त करें।
+### [C# में PDF पेज आकार सेट करें – HTML को PDF में बदलें](./set-pdf-page-size-in-c-convert-html-to-pdf/)
+HTML को PDF में बदलते समय PDF पेज आकार को कस्टमाइज़ करने के लिए चरण‑दर‑चरण मार्गदर्शन।
+
 ### [C# में HTML को PDF में बदलें – पूर्ण Aspose गाइड](./convert-html-to-pdf-in-c-full-aspose-guide/)
 .NET के लिए Aspose.HTML का उपयोग करके C# में HTML को PDF में बदलने की पूरी गाइड। चरण‑दर‑स्टेप निर्देश और कोड उदाहरण।
 
 ### [URL से PDF बनाएं – पूर्ण C# गाइड](./create-pdf-from-url-complete-c-guide/)
 C# में URL से PDF बनाने की पूरी प्रक्रिया सीखें, चरण-दर-चरण मार्गदर्शिका।
-### [C# में PDF पेज आकार सेट करें – HTML को PDF में बदलें](./set-pdf-page-size-in-c-convert-html-to-pdf/)
-HTML को PDF में बदलते समय PDF पेज आकार को कस्टमाइज़ करने के लिए चरण‑दर‑चरण मार्गदर्शन।
-
 ### [HTML से PDF बनाएं – C# चरण‑दर‑चरण गाइड](./create-pdf-from-html-c-step-by-step-guide/)
 C# में Aspose.HTML का उपयोग करके HTML को PDF में बदलने का चरण‑दर‑चरण मार्गदर्शन।
 ### [C# में Aspose के साथ HTML से PDF बनाएं – पूर्ण गाइड](./create-pdf-from-html-with-aspose-in-c-full-guide/)
@@ -94,6 +94,8 @@ C# में Aspose.HTML का उपयोग करके HTML को PDF म
 Aspose.HTML के साथ .NET में HTML को MHTML में बदलें - कुशल वेब सामग्री संग्रह के लिए चरण‑दर‑चरण मार्गदर्शिका। MHTML संग्रह बनाने के लिए .NET के लिए Aspose.HTML का उपयोग करना सीखें।
 
 ### [Aspose.HTML के साथ .NET में HTML को PNG में बदलें](./convert-html-to-png/)
+जानें कि HTML दस्तावेज़ों में हेरफेर करने और उन्हें परिवर्तित करने के लिए .NET के लिए Aspose.HTML का उपयोग कैसे करें। प्रभावी .NET विकास के लिए चरण‑दर‑चरण मार्गदर्शिका।
+
 ### [Aspose.HTML के साथ .NET में HTML को TIFF में बदलें](./convert-html-to-tiff/)
 .NET के लिए Aspose.HTML के साथ HTML को TIFF में कैसे बदलें, यह जानें। कुशल वेब सामग्री अनुकूलन के लिए हमारे चरण‑दर‑चरण मार्गदर्शिका का पालन करें।
 
@@ -105,9 +107,11 @@ Aspose.HTML के साथ .NET में HTML को MHTML में बद�
 ### [स्टाइल्ड टेक्स्ट के साथ HTML दस्तावेज़ बनाएं और PDF में निर्यात करें – पूर्ण गाइड](./create-html-document-with-styled-text-and-export-to-pdf-full/)
 Aspose.HTML for .NET का उपयोग करके स्टाइल्ड टेक्ट वाले HTML दस्तावेज़ को बनाएं और उसे PDF में निर्यात करने की पूरी गाइड।
 .NET के लिए Aspose.HTML की शक्ति का पता लगाएं: HTML को XPS में आसानी से बदलें। पूर्वापेक्षाएँ, चरण-दर-स्टेप मार्गदर्शिका और FAQ शामिल हैं।
-
 ### [C# में HTML को ZIP में सहेजें – पूर्ण इन‑मेमोरी उदाहरण](./save-html-to-zip-in-c-complete-in-memory-example/)
 C# में इन‑मेमोरी में HTML को ZIP फ़ाइल में सहेजने का पूरा उदाहरण देखें।
+### [C# में HTML दस्तावेज़ बनाएं – चरण‑दर‑चरण गाइड](./create-html-document-c-step-by-step-guide/)
+C# का उपयोग करके Aspose.HTML के साथ HTML दस्तावेज़ बनाने के चरण‑दर‑चरण मार्गदर्शन।
+
 ### [Aspose.HTML में हैंडलर का उपयोग कैसे करें – HTML लोड करें, ZIP के रूप में सहेजें](./how-to-use-handler-in-aspose-html-load-html-save-as-zip/)
 Aspose.HTML के हैंडलर का उपयोग करके HTML लोड करें और उसे ZIP फ़ाइल में सहेजने के चरण‑दर‑चरण मार्गदर्शन।
 
@@ -146,9 +150,6 @@ C# में Aspose.HTML का उपयोग करके HTML को ZIP फ
 
 ### [C# में HTML को PDF के रूप में सहेजें – फ़ॉन्ट्स के साथ पूर्ण गाइड](./save-html-as-pdf-in-c-complete-guide-with-fonts/)
 C# में Aspose.HTML का उपयोग करके फ़ॉन्ट्स को नियंत्रित करते हुए HTML को PDF में बदलने की पूरी मार्गदर्शिका।
-
-### [C# में HTML दस्तावेज़ बनाएं – चरण‑दर‑चरण गाइड](./create-html-document-c-step-by-step-guide/)
-C# का उपयोग करके Aspose.HTML के साथ HTML दस्तावेज़ बनाने के चरण‑दर‑चरण मार्गदर्शन।
 
 ## निष्कर्ष
 
