@@ -53,20 +53,20 @@ Aspose.HTML for Java を活用し、Java で CSS をプログラム的に読み�
 Javaを使用してHTMLを解析し、CSSプロパティからフォントサイズを取得する方法を学びます。
 ### [JavaでHTMLをクエリする方法 – HTMLのロード、CSSセレクタ、見出しの抽出](./how-to-query-html-in-java-load-html-css-selector-and-extract/)
 JavaでHTMLを読み込み、CSSセレクタを使用して見出し要素を抽出する手順を解説します。
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Java で計算済みスタイルを取得 – HTML から背景色を抽出](./get-computed-style-java-extract-background-color-from-html/)
 Java で Aspose.HTML を使用し、HTML 要素の計算済みスタイルから背景色を取得する方法を学びます。
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Java で要素の計算済みスタイルを取得 – 完全ステップバイステップガイド](./get-element-computed-style-in-java-full-step-by-step-guide/)
 このチュートリアルでは、Aspose.HTML for Java を使用して要素の計算済みスタイルを取得する方法をステップバイステップで解説します。
 ### [Java で getComputedStyle を使用する方法 – 背景色やその他の CSS プロパティを取得](./how-to-use-getcomputedstyle-in-java-extract-background-color/)

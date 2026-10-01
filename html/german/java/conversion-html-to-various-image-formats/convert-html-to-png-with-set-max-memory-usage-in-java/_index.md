@@ -24,11 +24,9 @@ title: HTML zu PNG konvertieren mit festgelegter maximaler Speichernutzung in Ja
 url: /de/java/conversion-html-to-various-image-formats/convert-html-to-png-with-set-max-memory-usage-in-java/
 ---
 
-. The shortcodes at top and bottom remain.
 
-Make sure to preserve any markdown formatting like code fences? There are no actual fenced code blocks, only placeholders. So fine.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

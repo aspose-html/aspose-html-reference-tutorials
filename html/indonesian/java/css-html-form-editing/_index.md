@@ -44,21 +44,21 @@ Pelajari cara mem-parsing HTML menggunakan Java untuk mengekstrak properti CSS d
 ### [Cara Menanyakan HTML di Java – Memuat HTML, Selektor CSS, dan Mengekstrak Heading](./how-to-query-html-in-java-load-html-css-selector-and-extract/)
 Pelajari cara memuat dokumen HTML, menggunakan selektor CSS, dan mengekstrak heading secara programatis dengan Java.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Dapatkan Gaya Terhitung Java – Ekstrak Warna Latar Belakang dari HTML](./get-computed-style-java-extract-background-color-from-html/)
 Pelajari cara menggunakan Aspose.HTML untuk Java guna mengambil gaya terhitung dan mengekstrak warna latar belakang dari elemen HTML.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Dapatkan Gaya Terhitung Elemen di Java – Panduan Langkah‑per‑Langkah Lengkap](./get-element-computed-style-in-java-full-step-by-step-guide/)
 Pelajari cara memperoleh gaya terhitung elemen HTML menggunakan Aspose.HTML untuk Java dalam panduan lengkap langkah demi langkah.
 ### [Cara menggunakan getComputedStyle di Java – Ekstrak warna latar belakang dan properti CSS lainnya](./how-to-use-getcomputedstyle-in-java-extract-background-color/)

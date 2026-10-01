@@ -42,21 +42,21 @@ Leer hoe u HTML kunt parseren met Java, CSS‑eigenschappen kunt extraheren en d
 ### [HTML opvragen in Java – HTML laden, CSS-selectors gebruiken en koppen extraheren](./how-to-query-html-in-java-load-html-css-selector-and-extract/)
 Leer hoe u HTML kunt laden, CSS-selectors kunt toepassen en kopteksten kunt extraheren met Java.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Computed Style ophalen in Java – Achtergrondkleur uit HTML extraheren](./get-computed-style-java-extract-background-color-from-html/)
 Leer hoe u met Aspose.HTML voor Java de berekende stijl van een element kunt ophalen en de achtergrondkleur uit HTML kunt extraheren.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Element berekende stijl ophalen in Java – Volledige stap‑voor‑stap gids](./get-element-computed-style-in-java-full-step-by-step-guide/)
 Leer hoe u met Aspose.HTML voor Java de berekende stijl van een element kunt ophalen in een gedetailleerde stap‑voor‑stap gids.
 ### [Hoe getComputedStyle te gebruiken in Java – Achtergrondkleur en andere CSS-eigenschappen extraheren](./how-to-use-getcomputedstyle-in-java-extract-background-color/)
@@ -71,6 +71,7 @@ Leer hoe u met Aspose.HTML voor Java de berekende CSS‑stijlen van een element 
 
 ### [Hoe CSS lezen in Java – Stapsgewijze handleiding](./how-to-read-css-in-java-step-by-step-guide/)
 Leer hoe u CSS in Java kunt lezen met een duidelijke stap‑voor‑stap handleiding.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

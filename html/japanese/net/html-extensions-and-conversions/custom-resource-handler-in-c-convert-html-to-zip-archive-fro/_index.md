@@ -22,13 +22,10 @@ title: C# のカスタムリソースハンドラ – メモリ上の HTML を Z
 url: /ja/net/html-extensions-and-conversions/custom-resource-handler-in-c-convert-html-to-zip-archive-fro/
 ---
 
-< blocks/products/products-backtop-button >}}
 
-All preserved.
 
-Make sure we keep markdown formatting, code block placeholders unchanged.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

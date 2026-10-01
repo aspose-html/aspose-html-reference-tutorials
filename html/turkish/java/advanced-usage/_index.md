@@ -153,12 +153,12 @@ Aspose.HTML for Java kullanarak Java içinde JavaScript’i nasıl etkinleştire
 **Test Edilen Versiyon:** Aspose.HTML for Java 24.11  
 **Yazar:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [MHTML'den HTML Çıkarma – Tam Java Kılavuzu](./extract-html-from-mhtml-complete-java-guide/)
 Aspose.HTML for Java kullanarak MHTML dosyalarından HTML içeriğini nasıl çıkaracağınızı öğrenin.
 
@@ -168,12 +168,12 @@ Aspose.HTML for Java kullanarak MHTML dosyalarından HTML içeriğini nasıl ç�
 **Test Edilen Versiyon:** Aspose.HTML for Java 24.11  
 **Yazar:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Java'da JavaScript Çalıştırma – Java'dan JS Çalıştırma Tam Rehberi](./execute-javascript-in-java-complete-guide-to-running-js-from/)
 Aspose.HTML for Java ile Java uygulamalarında JavaScript çalıştırmayı ve entegrasyonu adım adım öğrenin.
 
@@ -183,12 +183,12 @@ Aspose.HTML for Java ile Java uygulamalarında JavaScript çalıştırmayı ve e
 **Test Edilen Versiyon:** Aspose.HTML for Java 24.11  
 **Yazar:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [HTML'den PDF'ye Java Sandbox Kullanımı – Adım Adım Kılavuz](./how-to-use-sandbox-for-html-to-pdf-java-step-by-step-guide/)
 Aspose.HTML for Java Sandbox ortamını kullanarak HTML dosyalarını güvenli bir şekilde PDF'ye dönüştürmeyi öğrenin.
 ### [Java’da Betik Çalıştırmayı Etkinleştirme – Tam Aspose.HTML Rehberi](./enable-script-execution-in-java-complete-aspose-html-guide/)
@@ -198,7 +198,7 @@ Aspose.HTML for Java kullanarak Java ortamında betik yürütmeyi nasıl etkinle
 
 **Son Güncelleme:** 2025-11-29  
 **Test Edilen Versiyon:** Aspose.HTML for Java 24.11  
-**Yazar:** Aspose  
+**Yazar:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

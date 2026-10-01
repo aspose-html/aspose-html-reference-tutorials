@@ -151,12 +151,12 @@ Aspose.HTML ให้คุณแนบ `DomMutationObserver` ไปยังโ
 **ทดสอบด้วย:** Aspose.HTML for Java 24.11  
 **ผู้เขียน:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [สกัด HTML จาก MHTML – คู่มือ Java ฉบับสมบูรณ์](./extract-html-from-mhtml-complete-java-guide/)
 เรียนรู้วิธีดึง HTML จากไฟล์ MHTML ด้วย Aspose.HTML for Java อย่างละเอียดและครบถ้วน  
 
@@ -166,12 +166,12 @@ Aspose.HTML ให้คุณแนบ `DomMutationObserver` ไปยังโ
 **ทดสอบด้วย:** Aspose.HTML for Java 24.11  
 **ผู้เขียน:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [เรียกใช้ JavaScript ใน Java – คู่มือฉบับสมบูรณ์สำหรับการรัน JS จาก Java](./execute-javascript-in-java-complete-guide-to-running-js-from/)
 เรียนรู้วิธีรันโค้ด JavaScript ภายในแอปพลิเคชัน Java อย่างเต็มที่ด้วย Aspose.HTML for Java  
 
@@ -181,12 +181,12 @@ Aspose.HTML ให้คุณแนบ `DomMutationObserver` ไปยังโ
 **ทดสอบด้วย:** Aspose.HTML for Java 24.11  
 **ผู้เขียน:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [เปิดใช้งานการรันสคริปต์ใน Java – คู่มือ Aspose.HTML ฉบับสมบูรณ์](./enable-script-execution-in-java-complete-aspose-html-guide/)
 เรียนรู้วิธีเปิดใช้งานการดำเนินการสคริปต์ JavaScript ในแอปพลิเคชัน Java ด้วย Aspose.HTML อย่างละเอียด  
 ### [วิธีใช้ Sandbox สำหรับแปลง HTML เป็น PDF ด้วย Java – คู่มือขั้นตอนต่อขั้นตอน](./how-to-use-sandbox-for-html-to-pdf-java-step-by-step-guide/)
@@ -196,7 +196,7 @@ Aspose.HTML ให้คุณแนบ `DomMutationObserver` ไปยังโ
 
 **อัปเดตล่าสุด:** 2025-11-29  
 **ทดสอบด้วย:** Aspose.HTML for Java 24.11  
-**ผู้เขียน:** Aspose  
+**ผู้เขียน:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

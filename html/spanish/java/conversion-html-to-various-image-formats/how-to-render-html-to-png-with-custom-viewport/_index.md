@@ -25,17 +25,12 @@ title: Cómo renderizar HTML a PNG con un viewport personalizado
 url: /es/java/conversion-html-to-various-image-formats/how-to-render-html-to-png-with-custom-viewport/
 ---
 
-" lower case. Keep "convert html to png" etc.
 
-Let's do.
 
-Also code block placeholders remain.
 
-Tables: translate column headers and content.
 
-Let's translate.
 
-Proceed to produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -52,25 +52,26 @@ url: /ru/java/css-html-form-editing/
 ### [Как читать CSS в Java – пошаговое руководство](./how-to-read-css-in-java-step-by-step-guide/)
 Узнайте, как программно считывать CSS‑файлы в Java с помощью Aspose.HTML, следуя пошаговым инструкциям.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Получить вычисленный стиль Java – извлечь цвет фона из HTML](./get-computed-style-java-extract-background-color-from-html/)
 Узнайте, как с помощью Aspose.HTML для Java получить вычисленный стиль и извлечь цвет фона из HTML‑страницы.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Получить вычисленный стиль элемента в Java – Полное пошаговое руководство](./get-element-computed-style-in-java-full-step-by-step-guide/)
 Узнайте, как получить вычисленный стиль HTML‑элемента в Java с помощью Aspose.HTML, следуя полному пошаговому руководству.
 ### [Как использовать getComputedStyle в Java – извлечение цвета фона и других свойств CSS](./how-to-use-getcomputedstyle-in-java-extract-background-color/)
 Узнайте, как получить вычисленные стили элементов, включая цвет фона и другие свойства CSS, используя Aspose.HTML для Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

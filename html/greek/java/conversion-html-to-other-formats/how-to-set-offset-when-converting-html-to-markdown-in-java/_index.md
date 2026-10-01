@@ -23,9 +23,8 @@ title: Πώς να ορίσετε τη μετατόπιση κατά τη μετ
 url: /el/java/conversion-html-to-other-formats/how-to-set-offset-when-converting-html-to-markdown-in-java/
 ---
 
-exactly.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

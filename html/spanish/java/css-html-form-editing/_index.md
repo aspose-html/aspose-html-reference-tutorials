@@ -44,21 +44,21 @@ Aprenda a analizar HTML con Java, extraer propiedades CSS y obtener el tamaño d
 ### [Cómo consultar HTML en Java – cargar HTML, selector CSS y extraer encabezados](./how-to-query-html-in-java-load-html-css-selector-and-extract/)
 Aprenda a cargar HTML, usar selectores CSS y extraer encabezados con Java de forma sencilla.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Obtener estilo computado Java – Extraer color de fondo de HTML](./get-computed-style-java-extract-background-color-from-html/)
 Aprenda a obtener el estilo computado de un elemento y extraer su color de fondo usando Aspose.HTML para Java.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Obtener el estilo computado del elemento en Java – Guía completa paso a paso](./get-element-computed-style-in-java-full-step-by-step-guide/)
 Aprenda a obtener el estilo computado de un elemento usando Aspose.HTML para Java en esta guía paso a paso.
 ### [Cómo usar getComputedStyle en Java – Extraer el color de fondo y otras propiedades CSS](./how-to-use-getcomputedstyle-in-java-extract-background-color/)

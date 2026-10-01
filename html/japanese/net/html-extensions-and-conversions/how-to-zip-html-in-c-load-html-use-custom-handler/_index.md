@@ -21,29 +21,18 @@ title: C#でHTMLをZIPする方法 – HTMLを読み込み、カスタムハン�
 url: /ja/net/html-extensions-and-conversions/how-to-zip-html-in-c-load-html-use-custom-handler/
 ---
 
-to translate the "Pro tip:" etc.
 
-We need to translate "Note:" etc.
 
-We need to translate "Common Questions & Edge Cases" and subheadings.
 
-We need to translate "Conclusion".
 
-We need to translate "Happy coding, and enjoy the simplicity of bundling web content with C#!"
 
-We need to keep markdown formatting.
 
-Let's produce final output.
 
-Be careful with markdown blockquotes: they start with >. Keep them.
 
-Also need to translate "Why care?" etc.
 
-Let's start.
 
-We'll keep the shortcodes exactly as given.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -23,7 +23,7 @@ title: Hoe HTML in Java te parseren – Laden, opvragen en elementen tellen
 url: /nl/java/creating-managing-html-documents/how-to-parse-html-java-load-query-count-elements/
 ---
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

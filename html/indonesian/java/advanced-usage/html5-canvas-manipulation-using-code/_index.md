@@ -10,7 +10,7 @@ url: /id/java/advanced-usage/html5-canvas-manipulation-using-code/
 weight: 12
 ---
 
- produce final answer with only translated content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

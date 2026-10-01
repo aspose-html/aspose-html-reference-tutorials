@@ -10,29 +10,18 @@ url: /fr/java/converting-between-epub-and-image-formats/convert-epub-to-image-sp
 weight: 15
 ---
 
- images?" heading.
 
-- Content.
 
-- "Common Pitfalls & Tips" heading.
 
-- bullet points.
 
-- "Conclusion" heading.
 
-- Content.
 
-- "Frequently Asked Questions" heading.
 
-- Q&A.
 
-- At end: "Last Updated:", "Tested With:", "Author:".
 
-All these need translation.
 
-Make sure to keep markdown syntax.
 
-Let's produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

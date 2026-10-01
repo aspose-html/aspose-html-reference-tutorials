@@ -8,19 +8,13 @@ url: /zh-hant/java/conversion-epub-to-image-and-pdf/convert-epub-to-pdf/
 weight: 11
 ---
 
- to translate "Last Updated:" etc.
 
-Make sure to keep markdown formatting.
 
-Now produce final content.
 
-Let's craft translation.
 
-Be careful with technical terms: keep API names etc.
 
-Also keep "PDF", "EPUB", "Java", "Aspose.HTML", "PdfSaveOptions", etc.
 
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

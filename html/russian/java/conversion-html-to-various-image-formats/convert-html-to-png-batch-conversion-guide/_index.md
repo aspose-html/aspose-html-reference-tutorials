@@ -23,17 +23,12 @@ title: Конвертировать HTML в PNG — Руководство по
 url: /ru/java/conversion-html-to-various-image-formats/convert-html-to-png-batch-conversion-guide/
 ---
 
-}}
 
-We must keep them unchanged.
 
-Now produce final output with all translated content.
 
-Check that we kept all shortcodes, code block placeholders, image markdown, links, etc.
 
-Make sure we didn't translate URLs.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

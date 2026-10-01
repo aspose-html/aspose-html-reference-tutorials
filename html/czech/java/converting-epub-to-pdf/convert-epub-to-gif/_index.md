@@ -9,11 +9,9 @@ url: /cs/java/converting-epub-to-pdf/convert-epub-to-gif/
 weight: 11
 ---
 
- formatting: **text** keep but translate inside.
 
-Also maintain code placeholders.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

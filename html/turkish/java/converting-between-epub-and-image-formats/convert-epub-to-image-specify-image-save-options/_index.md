@@ -11,13 +11,10 @@ url: /tr/java/converting-between-epub-and-image-formats/convert-epub-to-image-sp
 weight: 16
 ---
 
- necessarily UI strings. I'd translate but keep phrase maybe. However earlier we translated bold phrase "set custom page size" to "özel sayfa boyutu ayarlama". That's okay.
 
-Also "convert epub to image" phrase appears; we translated to "epub'yi görüntüye dönüştür". Might be okay.
 
-Make sure code block placeholders remain unchanged.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

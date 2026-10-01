@@ -46,20 +46,20 @@ Ismerje meg, hogyan olvashat és elemezhet CSS-fájlokat Java-ban az Aspose.HTML
 Ismerje meg, hogyan lehet Java-val HTML-t elemezni, CSS‑tulajdonságokat kinyerni és a betűméretet meghatározni.
 ### [HTML lekérdezése Java-val – HTML betöltése, CSS szelektor, és címsorok kinyerése](./how-to-query-html-in-java-load-html-css-selector-and-extract/)
 Ismerje meg, hogyan tölthet be HTML-t Java-ban, használhat CSS szelektorokat, és nyerheti ki a címsorokat.
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Számított stílus Java – Háttérszín kinyerése HTML-ből](./get-computed-style-java-extract-background-color-from-html/)
 Ismerje meg, hogyan nyerheti ki a háttérszínt egy HTML-elemből a Java GetComputedStyle metódusával.
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Elem számított stílusának lekérése Java‑ban – Teljes lépésről‑lépésre útmutató](./get-element-computed-style-in-java-full-step-by-step-guide/)
 Ismerje meg, hogyan kérheti le egy HTML elem számított CSS‑stílusát Java‑ban az Aspose.HTML segítségével, részletes példákkal.
 ### [Hogyan használja a getComputedStyle-t Java-ban – Háttérszín és egyéb CSS tulajdonságok kinyerése](./how-to-use-getcomputedstyle-in-java-extract-background-color/)

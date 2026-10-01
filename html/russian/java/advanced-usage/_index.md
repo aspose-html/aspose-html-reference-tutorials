@@ -153,12 +153,12 @@ Aspose.HTML позволяет прикрепить `DomMutationObserver` к л�
 **Тестировано с:** Aspose.HTML for Java 24.11  
 **Автор:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Извлечение HTML из MHTML – Полное руководство по Java](./extract-html-from-mhtml-complete-java-guide/)
 Узнайте, как извлечь HTML‑контент из MHTML‑файлов с помощью Aspose.HTML for Java.
 
@@ -168,12 +168,12 @@ Aspose.HTML позволяет прикрепить `DomMutationObserver` к л�
 **Тестировано с:** Aspose.HTML for Java 24.11  
 **Автор:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Выполнение JavaScript в Java – Полное руководство по запуску JS из Java](./execute-javascript-in-java-complete-guide-to-running-js-from/)
 Узнайте, как выполнять JavaScript из Java с помощью Aspose.HTML for Java, включая настройку среды и примеры кода.
 
@@ -183,12 +183,12 @@ Aspose.HTML позволяет прикрепить `DomMutationObserver` к л�
 **Тестировано с:** Aspose.HTML for Java 24.11  
 **Автор:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Как использовать Sandbox для конвертации HTML в PDF Java – пошаговое руководство](./how-to-use-sandbox-for-html-to-pdf-java-step-by-step-guide/)
 Подробное руководство по использованию Sandbox в Aspose.HTML for Java для безопасного преобразования HTML в PDF.
 ### [Включение выполнения скриптов в Java – Полное руководство Aspose.HTML](./enable-script-execution-in-java-complete-aspose-html-guide/)
@@ -197,7 +197,7 @@ Aspose.HTML позволяет прикрепить `DomMutationObserver` к л�
 
 **Последнее обновление:** 2025-11-29  
 **Тестировано с:** Aspose.HTML for Java 24.11  
-**Автор:** Aspose  
+**Автор:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

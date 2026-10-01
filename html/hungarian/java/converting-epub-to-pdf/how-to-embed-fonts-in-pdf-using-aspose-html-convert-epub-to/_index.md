@@ -26,9 +26,8 @@ title: Hogyan ágyazzunk be betűtípusokat PDF-be az Aspose HTML használatáva
 url: /hu/java/converting-epub-to-pdf/how-to-embed-fonts-in-pdf-using-aspose-html-convert-epub-to/
 ---
 
-unchanged (none present). No URLs.
 
-Ok produce final.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

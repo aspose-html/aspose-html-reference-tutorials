@@ -87,12 +87,12 @@ url: /el/java/creating-managing-html-documents/
 ### [Καταμέτρηση χαρακτήρων HTML σε Java – Πλήρης οδηγός με Aspose HTML](./count-html-characters-in-java-full-guide-with-aspose-html/)
 Μάθετε πώς να μετράτε τους χαρακτήρες HTML σε εφαρμογές Java χρησιμοποιώντας το Aspose.HTML, βήμα‑βήμα οδηγός.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Δημιουργία HTML από JavaScript σε Java – Πλήρης Οδηγός Βήμα‑βήμα](./generate-html-from-javascript-in-java-complete-step-by-step/)
 Μάθετε πώς να δημιουργείτε HTML από κώδικα JavaScript σε εφαρμογές Java χρησιμοποιώντας το Aspose.HTML, με αναλυτικό βήμα‑βήμα οδηγό.
 ### [Επανάληψη NodeList σε Java – Ανάγνωση HTML & Λήψη src εικόνας](./iterate-nodelist-java-read-html-get-image-src/)
@@ -102,12 +102,12 @@ url: /el/java/creating-managing-html-documents/
 ### [Εκτέλεση ασύγχρονης JavaScript σε Java – Πλήρης οδηγός βήμα‑βήμα](./execute-async-javascript-in-java-complete-step-by-step-guide/)
 Μάθετε πώς να εκτελείτε κώδικα JavaScript ασύγχρονα σε εφαρμογές Java με το Aspose.HTML, βήμα‑βήμα οδηγίες.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Επανάληψη NodeList σε Java – Πλήρης Οδηγός](./iterate-over-nodelist-java-complete-guide/)
 Μάθετε πώς να επαναλαμβάνετε NodeList σε Java χρησιμοποιώντας το Aspose.HTML με αυτόν τον πλήρη οδηγό βήμα‑βήμα.
 ### [Εξαγωγή κειμένου από HTML με Java – Πλήρης οδηγός βήμα‑βήμα](./extract-text-from-html-with-java-complete-step-by-step-guide/)
@@ -119,4 +119,3 @@ url: /el/java/creating-managing-html-documents/
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

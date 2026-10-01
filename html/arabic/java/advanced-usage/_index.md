@@ -162,12 +162,12 @@ weight: 20
 **تم الاختبار مع:** Aspose.HTML for Java 24.11  
 **المؤلف:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [استخراج HTML من MHTML – دليل Java الكامل](./extract-html-from-mhtml-complete-java-guide/)
 تعلم كيفية استخراج محتوى HTML من ملفات MHTML باستخدام Aspose.HTML for Java خطوة بخطوة.
 
@@ -175,7 +175,7 @@ weight: 20
 
 **آخر تحديث:** 2025-11-29  
 **تم الاختبار مع:** Aspose.HTML for Java 24.11  
-**المؤلف:** Aspose  
+**المؤلف:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

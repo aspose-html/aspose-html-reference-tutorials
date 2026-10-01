@@ -24,11 +24,9 @@ title: Cara Menggunakan Sandbox untuk HTML ke PDF Java – Panduan Langkah demi 
 url: /id/java/advanced-usage/how-to-use-sandbox-for-html-to-pdf-java-step-by-step-guide/
 ---
 
->}}
 
-Make sure to keep them unchanged.
 
-Now produce final output with all translations.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

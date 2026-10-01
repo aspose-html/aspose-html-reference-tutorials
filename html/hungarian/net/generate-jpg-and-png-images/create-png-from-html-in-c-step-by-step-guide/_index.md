@@ -24,9 +24,8 @@ title: PNG létrehozása HTML‑ből C#‑ban – Lépésről‑lépésre útmut
 url: /hu/net/generate-jpg-and-png-images/create-png-from-html-in-c-step-by-step-guide/
 ---
 
-placeholders. So fine.
 
-Now craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

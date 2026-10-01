@@ -23,11 +23,9 @@ title: Jak parsować HTML w Javie – wczytywanie, zapytania i liczenie element�
 url: /pl/java/creating-managing-html-documents/how-to-parse-html-java-load-query-count-elements/
 ---
 
-Javie". That's okay.
 
-Make sure code block placeholders unchanged.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

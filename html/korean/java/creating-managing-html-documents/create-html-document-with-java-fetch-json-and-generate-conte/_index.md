@@ -22,11 +22,9 @@ title: Java로 HTML 문서 만들기 – JSON을 가져와 콘텐츠 생성
 url: /ko/java/creating-managing-html-documents/create-html-document-with-java-fetch-json-and-generate-conte/
 ---
 
->}}
 
-All preserved.
 
-Now produce final output with all translations. Ensure no extra explanation.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

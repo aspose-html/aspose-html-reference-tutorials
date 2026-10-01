@@ -10,19 +10,13 @@ url: /it/java/conversion-html-to-various-image-formats/convert-html-to-tiff/
 weight: 14
 ---
 
--02-23 -> same format, translate "Last Updated" to "Ultimo aggiornamento". Keep date.
 
-**Tested With:** Aspose.HTML for Java (latest) -> translate "Testato con:" maybe.
 
-**Author:** Aspose -> "Autore: Aspose"
 
-Then closing shortcodes unchanged.
 
-Also include backtop button shortcode unchanged.
 
-Make sure to keep all markdown formatting.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

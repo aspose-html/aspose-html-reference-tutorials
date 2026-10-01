@@ -22,13 +22,10 @@ title: Chuyển đổi HTML sang PNG – Hướng dẫn chuyển đổi hàng lo
 url: /vi/java/conversion-html-to-various-image-formats/convert-html-to-png-batch-conversion-guide/
 ---
 
-need to ensure we don't translate URLs, file paths, variable names, function names. In code placeholders we don't have actual code, but placeholders. So fine.
 
-Translate "Convert HTML to PNG – Batch Conversion Guide" to Vietnamese: "Chuyển đổi HTML sang PNG – Hướng dẫn chuyển đổi hàng loạt". Keep dash.
 
-Proceed.
 
-Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

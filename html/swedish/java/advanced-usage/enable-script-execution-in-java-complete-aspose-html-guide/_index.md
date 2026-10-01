@@ -24,15 +24,11 @@ title: Aktivera skriptkörning i Java – Komplett Aspose.HTML-guide
 url: /sv/java/advanced-usage/enable-script-execution-in-java-complete-aspose-html-guide/
 ---
 
-top-button >}}
 
-All preserved.
 
-Check for any other markdown elements: code block placeholders are fine.
 
-Make sure we didn't translate any code placeholders.
 
-Now produce final output with all content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

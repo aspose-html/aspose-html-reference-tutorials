@@ -23,11 +23,9 @@ title: Создание PDF из HTML в Java – пошаговое руков
 url: /ru/java/conversion-html-to-other-formats/create-pdf-from-html-in-java-step-by-step-guide/
 ---
 
-Check for any other markdown like blockquote > etc.
 
-We have blockquote with Pro tip and Why bother? Keep them.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

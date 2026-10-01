@@ -10,7 +10,7 @@ url: /pt/java/message-handling-networking/message-handler-pipeline/
 weight: 13
 ---
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

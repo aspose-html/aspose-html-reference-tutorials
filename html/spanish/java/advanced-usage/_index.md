@@ -151,12 +151,12 @@ Aprende a habilitar la ejecución de JavaScript dentro de aplicaciones Java usan
 **Probado con:** Aspose.HTML para Java 24.11  
 **Autor:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Extraer HTML de MHTML – Guía completa de Java](./extract-html-from-mhtml-complete-java-guide/)
 Aprende a extraer contenido HTML a partir de archivos MHTML usando Aspose.HTML para Java, con ejemplos paso a paso.
 
@@ -166,12 +166,12 @@ Aprende a extraer contenido HTML a partir de archivos MHTML usando Aspose.HTML p
 **Probado con:** Aspose.HTML para Java 24.11  
 **Autor:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Ejecutar JavaScript en Java – Guía completa para ejecutar JS desde Java](./execute-javascript-in-java-complete-guide-to-running-js-from/)
 
 ---
@@ -180,12 +180,12 @@ Aprende a extraer contenido HTML a partir de archivos MHTML usando Aspose.HTML p
 **Probado con:** Aspose.HTML para Java 24.11  
 **Autor:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Cómo usar Sandbox para HTML a PDF Java – Guía paso a paso](./how-to-use-sandbox-for-html-to-pdf-java-step-by-step-guide/)
 Aprende a utilizar el entorno Sandbox de Aspose.HTML para convertir HTML a PDF en Java con una guía paso a paso.
 ### [Habilitar la ejecución de scripts en Java – Guía completa de Aspose.HTML](./enable-script-execution-in-java-complete-aspose-html-guide/)
@@ -195,7 +195,7 @@ Aprende a ejecutar JavaScript dentro de aplicaciones Java usando Aspose.HTML, co
 
 **Última actualización:** 2025-11-29  
 **Probado con:** Aspose.HTML para Java 24.11  
-**Autor:** Aspose  
+**Autor:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
