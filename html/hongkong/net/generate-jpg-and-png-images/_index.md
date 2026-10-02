@@ -83,6 +83,8 @@ Aspose.HTML for .NET 提供了一種將 HTML 轉換為映像的簡單方法。�
 本完整指南說明如何使用 Aspose.HTML for .NET 在 C# 中將 HTML 轉換為高品質 PNG 圖像，涵蓋設定與最佳實踐。
 ### [在 C# 中從 SVG 建立 PNG – 完整逐步指南](./create-png-from-svg-in-c-full-step-by-step-guide/)
 學習如何使用 Aspose.HTML for .NET 在 C# 中將 SVG 轉換為 PNG，提供完整的步驟說明與範例。
+### [在 C# 中渲染 HTML 圖像 – 完整 Aspose.HTML 指南](./render-html-image-in-c-complete-aspose-html-guide/)
+本完整指南說明如何使用 Aspose.HTML 在 C# 中渲染 HTML 為圖像，涵蓋設定、程式碼示例與最佳實踐。
 
 ## 結論
 

@@ -83,6 +83,8 @@ Naučte se, jak vytvořit HTML dokument z řetězce v C# pomocí vlastního Reso
 Naučte se, jak pomocí Aspose.HTML v C# aplikacích aplikovat tučný a kurzívní styl na text v HTML.
 ### [Přidání elementu do těla – Kompletní C# průvodce s Aspose.HTML](./append-element-to-body-complete-c-guide-with-aspose-html/)
 Naučte se, jak pomocí Aspose.HTML v C# přidat element do těla HTML dokumentu.
+### [Jak vytvořit HTML a přidat CSS stylový prvek – krok za krokem](./how-to-create-html-and-add-css-style-element-step-by-step-gu/)
+Naučte se vytvořit HTML dokument a přidat do něj CSS stylový prvek pomocí podrobného krok‑za‑krokem průvodce.
 
 ## Závěr
 

@@ -83,6 +83,8 @@ Scopri come individuare un elemento HTML e applicare il grassetto usando Aspose.
 Scopri come applicare grassetto e corsivo al testo HTML usando C# con Aspose.HTML in pochi passaggi.
 ### [Aggiungere elemento al body – Guida completa C# con Aspose.HTML](./append-element-to-body-complete-c-guide-with-aspose-html/)
 Scopri come aggiungere dinamicamente elementi al body di un documento HTML usando C# e Aspose.HTML.
+### [Come creare HTML e aggiungere l'elemento di stile CSS – Guida passo‑passo](./how-to-create-html-and-add-css-style-element-step-by-step-gu/)
+Scopri come generare un documento HTML e includere stili CSS direttamente nel codice, passo dopo passo con esempi chiari.
 
 ## Conclusione
 

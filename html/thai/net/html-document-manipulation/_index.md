@@ -73,6 +73,9 @@ Aspose.HTML สำหรับ .NET โดดเด่นด้วยควา�
 เรียนรู้วิธีสร้างเอกสาร HTML ด้วย Aspose.HTML ผ่านขั้นตอนที่ชัดเจนและตัวอย่างโค้ด
 ### [สร้าง HTML จากสตริงใน C# – คู่มือ Custom Resource Handler](./create-html-from-string-in-c-custom-resource-handler-guide/)
 เรียนรู้วิธีสร้าง HTML จากสตริงใน C# ด้วยตัวจัดการทรัพยากรแบบกำหนดเองใน Aspose.HTML สำหรับ .NET
+### [วิธีสร้าง HTML และเพิ่มองค์ประกอบสไตล์ CSS – คู่มือทีละขั้นตอน](./how-to-create-html-and-add-css-style-element-step-by-step-gu/)
+เรียนรู้วิธีสร้างไฟล์ HTML พร้อมเพิ่มสไตล์ CSS ด้วยโค้ด C# อย่างละเอียดและเป็นขั้นตอน
+
 ### [ทำข้อความเป็นตัวหนาและตัวเอียงใน C# – คู่มือเร็วสำหรับการจัดรูปแบบ HTML](./make-text-bold-italic-in-c-quick-guide-to-styling-html/)
 เรียนรู้วิธีทำให้ข้อความใน HTML เป็นตัวหนาและตัวเอียงด้วย C# อย่างรวดเร็วด้วย Aspose.HTML
 ### [เพิ่ม Element ลงใน Body – คู่มือ C# ฉบับสมบูรณ์กับ Aspose.HTML](./append-element-to-body-complete-c-guide-with-aspose-html/)

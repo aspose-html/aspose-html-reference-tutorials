@@ -83,6 +83,8 @@ Pelajari cara merender HTML menjadi gambar PNG menggunakan Aspose.HTML dalam bah
 Panduan lengkap untuk merender HTML menjadi gambar PNG menggunakan C# dan Aspose.HTML.
 ### [Buat PNG dari SVG di C# – Panduan Lengkap Langkah demi Langkah](./create-png-from-svg-in-c-full-step-by-step-guide/)
 Pelajari cara mengonversi file SVG menjadi gambar PNG menggunakan C# dengan Aspose.HTML dalam panduan lengkap langkah demi langkah.
+### [Render Gambar HTML di C# – Panduan Lengkap Aspose.HTML](./render-html-image-in-c-complete-aspose-html-guide/)
+Pelajari cara merender gambar HTML di C# menggunakan Aspose.HTML dengan panduan lengkap langkah demi langkah.
 
 ## Kesimpulan
 

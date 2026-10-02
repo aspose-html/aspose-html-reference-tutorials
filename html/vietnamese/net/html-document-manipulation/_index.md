@@ -79,6 +79,8 @@ Học cách áp dụng kiểu chữ đậm và nghiêng cho nội dung HTML bằ
 Hướng dẫn chi tiết cách thêm phần tử vào phần thân HTML bằng C# và Aspose.HTML.
 ### [Cách tạo HTML với Aspose – Tìm phần tử, áp dụng in đậm](./how-to-create-html-with-aspose-find-element-apply-bold/)
 Hướng dẫn cách sử dụng Aspose.HTML để tìm một phần tử trong tài liệu HTML và áp dụng định dạng in đậm.
+### [Cách tạo HTML và thêm phần tử CSS Style – Hướng dẫn từng bước](./how-to-create-html-and-add-css-style-element-step-by-step-gu/)
+Hướng dẫn chi tiết cách tạo tài liệu HTML và chèn phần tử CSS Style bằng Aspose.HTML cho .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

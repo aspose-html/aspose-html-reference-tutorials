@@ -79,6 +79,8 @@ Aspose.HTML을 활용해 HTML 문서를 처음부터 만들고 저장하는 방�
 Aspose.HTML for .NET을 활용해 HTML 문서의 Body에 새 요소를 삽입하는 방법을 단계별로 설명합니다.
 ### [Aspose를 사용하여 HTML 만들기 – 요소 찾기, 굵게 적용](./how-to-create-html-with-aspose-find-element-apply-bold/)
 Aspose.HTML을 사용해 특정 요소를 찾아 굵게 적용하는 방법을 단계별로 안내합니다.
+### [HTML을 만들고 CSS 스타일 요소를 추가하는 단계별 가이드](./how-to-create-html-and-add-css-style-element-step-by-step-gu/)
+HTML 문서를 생성하고 CSS 스타일 요소를 삽입하는 방법을 단계별로 안내합니다.
 
 ## 결론
 

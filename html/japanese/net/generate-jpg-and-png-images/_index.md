@@ -80,6 +80,8 @@ C# を使用して DOCX ファイルを PNG 画像に変換する方法を、詳
 ### [HTML を画像に変換するチュートリアル – C# で Aspose.HTML を使用して HTML を PNG にレンダリング](./html-to-image-tutorial-render-html-to-png-with-aspose-html-i/)
 ### [C# で HTML を PNG にレンダリングする完全ガイド](./how-to-render-html-to-png-in-c-complete-guide/)
 Aspose.HTML for .NET を使用して、C# で HTML を PNG 画像に変換する手順をステップバイステップで解説します。
+### [C# で HTML 画像をレンダリング – 完全 Aspose.HTML ガイド](./render-html-image-in-c-complete-aspose-html-guide/)
+Aspose.HTML を使用して C# で HTML 画像をレンダリングする方法をステップバイステップで解説します。
 
 ## 結論
 

@@ -77,6 +77,8 @@ C# içinde dizeden HTML oluşturmayı ve özel kaynak işleyicisiyle nasıl kull
 C# kullanarak HTML içinde metni kalın ve italik olarak biçimlendirmeyi hızlı bir şekilde öğrenin.
 ### [Aspose ile HTML Oluşturma – Öğeyi Bul ve Kalın Uygula](./how-to-create-html-with-aspose-find-element-apply-bold/)
 Aspose.HTML kullanarak HTML içinde belirli bir öğeyi bulup, ona kalın biçimlendirme uygulamayı öğrenin.
+### [HTML Oluşturma ve CSS Stil Öğesi Ekleme – Adım Adım Kılavuz](./how-to-create-html-and-add-css-style-element-step-by-step-gu/)
+HTML ve CSS stil öğesini nasıl oluşturup ekleyeceğinizi adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

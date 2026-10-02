@@ -82,6 +82,8 @@ Aspose.HTML สำหรับ .NET นำเสนอวิธีการง�
 เรียนรู้วิธีเรนเดอร์ HTML เป็นไฟล์ PNG ด้วย C# อย่างละเอียดครบทุกขั้นตอน
 ### [สร้าง PNG จาก SVG ด้วย C# – คู่มือเต็มขั้นตอน](./create-png-from-svg-in-c-full-step-by-step-guide/)
 เรียนรู้วิธีแปลงไฟล์ SVG เป็น PNG ด้วย C# อย่างละเอียด พร้อมขั้นตอนและตัวอย่างโค้ด
+### [เรนเดอร์รูปภาพ HTML ด้วย C# – คู่มือ Aspose.HTML ฉบับสมบูรณ์](./render-html-image-in-c-complete-aspose-html-guide/)
+เรียนรู้วิธีเรนเดอร์รูปภาพจาก HTML ด้วย C# อย่างเต็มขั้นโดยใช้ Aspose.HTML
 
 ## บทสรุป
 

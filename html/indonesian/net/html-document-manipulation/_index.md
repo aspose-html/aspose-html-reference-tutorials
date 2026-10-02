@@ -79,6 +79,8 @@ Pelajari cara menambahkan gaya teks tebal dan miring pada HTML menggunakan C# de
 Pelajari cara menambahkan elemen ke body dokumen HTML menggunakan Aspose.HTML dengan panduan lengkap C#.
 ### [Cara Membuat HTML dengan Aspose – Temukan Elemen, Terapkan Tebal](./how-to-create-html-with-aspose-find-element-apply-bold/)
 Pelajari cara menemukan elemen dalam dokumen HTML dan menerapkan format tebal menggunakan Aspose.HTML untuk .NET.
+### [Cara Membuat HTML dan Menambahkan Elemen Gaya CSS – Panduan Langkah‑per‑Langkah](./how-to-create-html-and-add-css-style-element-step-by-step-gu/)
+Pelajari cara membuat dokumen HTML dari awal dan menambahkan elemen CSS secara dinamis dengan contoh kode lengkap.
 
 ## Kesimpulan
 

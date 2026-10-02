@@ -77,6 +77,8 @@ Aprenda a gerar documentos HTML a partir de strings usando um manipulador de rec
 Aprenda a aplicar estilos de negrito e itálico em elementos HTML usando C# com Aspose.HTML. Guia rápido e prático.
 ### [Criar HTML com Aspose – Encontrar elemento e aplicar negrito](./how-to-create-html-with-aspose-find-element-apply-bold/)
 Aprenda a localizar um elemento no HTML e aplicar formatação em negrito usando Aspose.HTML para .NET.
+### [Como criar HTML e adicionar elemento de estilo CSS – Guia passo a passo](./how-to-create-html-and-add-css-style-element-step-by-step-gu/)
+Aprenda a gerar documentos HTML e inserir estilos CSS de forma programática com Aspose.HTML para .NET. Guia detalhado passo a passo.
 
 ## Conclusão
 

@@ -83,6 +83,8 @@ C#와 Aspose.HTML을 사용해 HTML을 PNG 이미지로 변환하는 단계별 �
 C#을 사용해 HTML을 PNG 이미지로 변환하는 전체 과정과 주요 설정을 단계별로 안내합니다.
 ### [C#에서 SVG를 PNG로 변환하기 – 전체 단계별 가이드](./create-png-from-svg-in-c-full-step-by-step-guide/)
 C#과 Aspose.HTML을 활용해 SVG 파일을 PNG 이미지로 변환하는 방법을 단계별로 안내합니다.
+### [C#에서 HTML 이미지를 렌더링하는 완전한 Aspose.HTML 가이드](./render-html-image-in-c-complete-aspose-html-guide/)
+C#에서 Aspose.HTML을 사용해 HTML을 이미지로 변환하는 전체 단계별 가이드를 제공합니다.
 
 ## 결론
 

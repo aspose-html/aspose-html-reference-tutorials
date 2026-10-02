@@ -61,6 +61,8 @@ Erfahren Sie, wie Sie die Leistung von Aspose.HTML für .NET nutzen. Optimieren 
 Entfesseln Sie die Leistungsfähigkeit von Aspose.HTML für .NET. Lernen Sie, HTML- und SVG-Dokumente mühelos zu erstellen, zu bearbeiten und zu optimieren. Entdecken Sie Schritt-für-Schritt-Beispiele und FAQs.
 ### [HTML mit Aspose erstellen – Element finden, fett formatieren](./how-to-create-html-with-aspose-find-element-apply-bold/)
 Erfahren Sie, wie Sie mit Aspose.HTML ein HTML-Dokument erstellen, ein bestimmtes Element finden und den Text fett formatieren.
+### [Wie man HTML erstellt und ein CSS‑Style‑Element hinzufügt – Schritt‑für‑Schritt‑Anleitung](./how-to-create-html-and-add-css-style-element-step-by-step-gu/)
+Erfahren Sie, wie Sie HTML-Dokumente erstellen und ein CSS‑Style‑Element hinzufügen – eine detaillierte Schritt‑für‑Schritt‑Anleitung.
 ### [Bearbeiten eines Dokuments in .NET mit Aspose.HTML](./editing-a-document/)
 Erstellen Sie fesselnde Webinhalte mit Aspose.HTML für .NET. Erfahren Sie, wie Sie HTML, CSS und mehr bearbeiten.
 ### [Speichern eines Dokuments in .NET mit Aspose.HTML](./saving-a-document/)

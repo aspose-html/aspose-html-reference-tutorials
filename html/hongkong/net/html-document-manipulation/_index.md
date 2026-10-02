@@ -79,6 +79,8 @@ Aspose.HTML for .NET 因其簡單性和強大功能而脫穎而出。它使您�
 了解如何使用 Aspose.HTML for .NET 在 C# 中將 HTML 元素動態附加到 body，完整步驟與範例說明。
 ### [使用 Aspose 建立 HTML – 找到元素並套用粗體](./how-to-create-html-with-aspose-find-element-apply-bold/)
 了解如何使用 Aspose.HTML for .NET 在 HTML 中搜尋元素並將文字設定為粗體。
+### [如何建立 HTML 並加入 CSS 樣式元素 – 步驟指南](./how-to-create-html-and-add-css-style-element-step-by-step-gu/)
+了解如何使用 Aspose.HTML for .NET 從頭建立 HTML 文件，並加入 CSS 樣式元素，完整步驟說明。
 
 ## 結論
 

@@ -80,6 +80,8 @@ url: /el/net/html-document-manipulation/
 
 ### [Πώς να δημιουργήσετε HTML με Aspose – Εύρεση στοιχείου, Εφαρμογή έντονου](./how-to-create-html-with-aspose-find-element-apply-bold/)
 Μάθετε πώς να εντοπίζετε ένα στοιχείο HTML και να το κάνετε έντονο χρησιμοποιώντας το Aspose.HTML για .NET.
+### [Πώς να δημιουργήσετε HTML και να προσθέσετε στοιχείο CSS Style – Οδηγός βήμα‑βήμα](./how-to-create-html-and-add-css-style-element-step-by-step-gu/)
+Μάθετε πώς να δημιουργήσετε ένα έγγραφο HTML και να ενσωματώσετε ένα στοιχείο CSS Style με οδηγίες βήμα‑βήμα.
 
 ## Σύναψη
 
