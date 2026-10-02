@@ -43,6 +43,9 @@ Nachdem Sie Aspose.HTML für .NET eingerichtet haben, ist es an der Zeit, die Tu
 ### [Rendern Sie HTML als PNG in .NET mit Aspose.HTML](./render-html-as-png/)
 Erfahren Sie, wie Sie mit Aspose.HTML für .NET arbeiten: HTML bearbeiten, in verschiedene Formate konvertieren und mehr. Tauchen Sie ein in dieses umfassende Tutorial!
 
+### [Rendern Sie HTML in C# zu PNG – Vollständiger Schritt‑für‑Schritt‑Leitfaden](./render-html-to-png-in-c-complete-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.HTML für .NET HTML in C# in PNG-Bilder umwandeln – ein vollständiger, leicht nachvollziehbarer Leitfaden.
+
 ### [HTML zu PNG rendern – Vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-render-html-to-png-complete-step-by-step-guide/)
 Erfahren Sie, wie Sie HTML mit Aspose.HTML in .NET Schritt für Schritt in PNG konvertieren und dabei alle wichtigen Einstellungen nutzen.
 ### [HTML als PNG rendern – Vollständiger C#-Leitfaden](./how-to-render-html-as-png-complete-c-guide/)
@@ -66,9 +69,6 @@ Erfahren Sie, wie Sie mit Aspose.HTML für .NET ein HTML-Dokument in C# erstelle
 Erfahren Sie, wie Sie mit Aspose.HTML für .NET HTML in PNG konvertieren und die Ergebnisse in einer ZIP‑Datei speichern – vollständige Anleitung.
 ### [Bild aus HTML in C# erstellen – Vollständiger Schritt‑für‑Schritt‑Leitfaden](./create-image-from-html-in-c-complete-step-by-step-guide/)
 Erfahren Sie, wie Sie mit Aspose.HTML für .NET HTML in ein Bild konvertieren – detaillierte Schritt‑für‑Schritt‑Anleitung.
-### [HTML in PNG rendern in C# – Vollständiger Schritt‑für‑Schritt‑Leitfaden](./render-html-to-png-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie mit Aspose.HTML für .NET HTML in PNG konvertieren, inklusive vollständigem C#‑Beispiel und detaillierter Schritt‑für‑Schritt‑Anleitung.
-
 ### [Rendern Sie EPUB als XPS in .NET mit Aspose.HTML](./render-epub-as-xps/)
 Erfahren Sie in diesem umfassenden Tutorial, wie Sie mit Aspose.HTML für .NET HTML‑Dokumente erstellen und rendern. Tauchen Sie ein in die Welt der HTML‑Manipulation, des Web Scraping und mehr.
 
