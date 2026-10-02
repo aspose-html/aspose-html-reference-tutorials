@@ -102,6 +102,8 @@ Aspose.HTML for Java ile HTML'yi toplu olarak PNG dosyalarına dönüştürmeyi 
 Aspose.HTML for Java ile HTML'den PNG'ye dönüştürürken DPI ayarlamayı öğrenin. Görüntü kalitesini kontrol edin.
 ### [HTML'yi TIFF'ye Dönüştürme](./convert-html-to-tiff/)
 Aspose.HTML for Java kullanarak HTML'yi TIFF'ye kolayca dönüştürmeyi öğrenin. Verimli belge işleme için adım‑adım bir rehber.
+### [HTML'yi WebP'ye Dönüştür – Aspose.HTML ile Tam Java Rehberi](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
+Aspose.HTML for Java kullanarak HTML'yi WebP formatına yüksek kaliteyle dönüştürmeyi adım adım öğrenin.
 ### [HTML'yi WebP'ye Dönüştür – Aspose.HTML ile Tam Java Rehberi](./convert-html-to-webp-complete-java-guide/)
 Aspose.HTML for Java kullanarak HTML'yi WebP formatına yüksek kaliteyle dönüştürmeyi adım adım öğrenin.
 ### [HTML'yi PNG'ye Render Etme – Java Tam Kılavuzu](./how-to-render-html-to-png-in-java-complete-guide/)
