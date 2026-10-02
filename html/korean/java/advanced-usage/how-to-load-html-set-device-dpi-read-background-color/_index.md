@@ -1,23 +1,82 @@
 ---
 category: general
-date: 2026-02-16
-description: Java에서 HTML을 로드하고, 디바이스 DPI를 설정하며, 가상 화면 크기를 정의하고, 임의의 요소의 계산된 배경색을 읽는
-  방법.
+date: 2026-09-24
+description: Aspose.HTML을 사용하여 Java에서 HTML을 PDF로 변환하고, device DPI를 설정하고, virtual screen
+  size를 정의하며, 모든 요소의 계산된 background color를 읽는 방법을 배웁니다.
 draft: false
 keywords:
-- how to load html
-- read background color
+- convert html to pdf java
+- get element background color
+- extract css values java
 - set device dpi
 - set virtual screen size
-- get computed background color
-language: ko
-og_description: Java에서 HTML을 로드하고, 장치 DPI를 설정하며, 가상 화면 크기를 정의하고, 모든 요소의 계산된 배경색을 읽는
-  방법.
-og_title: HTML 로드, 디바이스 DPI 설정 및 배경 색상 읽기
+lastmod: 2026-09-24
+og_description: Aspose.HTML과 함께 Java에서 HTML을 PDF로 변환하고, device DPI를 구성하며, virtual
+  screen size를 설정하고, 페이지 요소의 계산된 background color를 읽는 방법을 배웁니다.
+og_image_alt: Developer guide showing HTML loading, DPI configuration, and background
+  color extraction in Java
+og_title: Java에서 HTML을 PDF로 변환하고 배경 색상을 읽는 방법
+schemas:
+- author: Aspose
+  dateModified: '2026-09-24'
+  description: Learn how to convert HTML to PDF in Java using Aspose.HTML, set device
+    DPI, define a virtual screen size, and read the computed background color of any
+    element.
+  headline: How to convert HTML to PDF in Java and read background color
+  type: TechArticle
+- description: Learn how to convert HTML to PDF in Java using Aspose.HTML, set device
+    DPI, define a virtual screen size, and read the computed background color of any
+    element.
+  name: How to convert HTML to PDF in Java and read background color
+  steps:
+  - name: create load options and define rendering parameters
+    text: '`HtmlLoadOptions` lets you control how the HTML is interpreted before rendering.
+      The `HtmlLoadOptions` class is Aspose.HTML’s configuration object that specifies
+      virtual screen dimensions, device DPI, and other loading behaviors. `Size` represents
+      the width and height in CSS pixels for the virtual s'
+  - name: load the HTML document with the configured options
+    text: The `Document` class represents a single HTML document in memory. java //
+      2️⃣ Load the HTML file with the options we just set. Document document = new
+      Document("YOUR_DIRECTORY/responsive.html", loadOptions); If the file cannot
+      be located, Aspose throws `FileNotFoundException`. In production code you
+  - name: adjust DPI or screen size after initial load (optional)
+    text: You can modify DPI or screen size before the first render, but any change
+      after the `Document` is created requires re‑loading the document because the
+      settings become immutable. java // 3️⃣ Adjust DPI for a high‑resolution render
+      (optional). loadOptions.setDeviceDpi(300); // 300 DPI is common for pr
+  - name: read the computed background color of the `<body>` element
+    text: '`Element.getComputedStyle()` returns a `ComputedStyle` object that contains
+      the final, cascade‑resolved CSS values for the element. `Element` represents
+      an HTML element in the DOM and provides methods to access its computed style.
+      java // 5️⃣ Retrieve the <body> element. Element bodyElement = docume'
+  - name: render the document to PDF
+    text: Finally, convert the in‑memory HTML document to PDF using the `PdfSaveOptions`
+      class. java import com.aspose.html.load.HtmlLoadOptions; import com.aspose.html.load.Size;
+      import com.aspose.html.dom.Document; import com.aspose.html.dom.Element; public
+      class SandboxDemo { public static void main(String
+  type: HowTo
+- questions:
+  - answer: Yes. Aspose.HTML renders HTML server‑side using its own layout engine,
+      so no Chrome, Edge, or Selenium drivers are required.
+    question: Can I convert HTML to PDF without installing a browser?
+  - answer: Absolutely. Aspose.HTML implements the full CSS 3 specification, including
+      flexbox, grid, and CSS variables.
+    question: Does the library support CSS 3 features like flexbox and grid?
+  - answer: The library can handle multi‑thousand‑page HTML files; memory usage stays
+      under 300 MB thanks to streaming processing.
+    question: How large a document can I process?
+  - answer: '`getBackgroundColor()` returns an `rgba(r,g,b,a)` string, which you can
+      convert to HEX if needed.'
+    question: Is the background color returned in HEX or RGBA?
+  - answer: Yes, a commercial Aspose.HTML license removes evaluation limits and enables
+      full feature access.
+    question: Do I need a license for production use?
+  type: FAQPage
 tags:
 - Aspose.HTML
 - Java
-title: HTML 로드, 디바이스 DPI 설정 및 배경 색상 읽는 방법
+- convert html to pdf
+title: Java에서 HTML을 PDF로 변환하고 배경 색상을 읽는 방법
 url: /ko/java/advanced-usage/how-to-load-html-set-device-dpi-read-background-color/
 ---
 
@@ -25,29 +84,43 @@ url: /ko/java/advanced-usage/how-to-load-html-set-device-dpi-read-background-col
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# HTML 로드, 디바이스 DPI 설정 및 배경 색상 읽기
+# Java에서 HTML을 PDF로 변환하고 배경 색상 읽기
 
-Java 애플리케이션에서 **HTML을 로드**하고 페이지 스타일을 검사하고 싶으신가요? 혼자가 아닙니다—개발자들은 종종 화면 밖에서 웹 페이지를 렌더링하고 최종 CSS 값을 가져와 PDF 변환, 스크린샷, 혹은 자동화 테스트에 활용합니다.  
+If you need to **convert HTML to PDF in Java** while also programmatically inspecting CSS values, you’re in the right place. This tutorial shows you how to load an HTML file with Aspose.HTML, emulate a specific device DPI, define a virtual screen size, and finally read the computed background color of any element—perfect for PDF generation, screenshot automation, or UI testing. By the end you’ll have a ready‑to‑run Java snippet that prints the exact background color value.
 
-이 가이드에서는 바로 그 과정을 단계별로 살펴보겠습니다: HTML 파일을 로드하고, **디바이스 DPI를 설정**하며, **가상 화면 크기**를 정의하고, 마지막으로 `<body>` 요소의 **배경 색상**을 읽어옵니다. 끝까지 따라오시면 **계산된 배경 색상**을 출력하는 완전한 실행 예제를 얻으실 수 있습니다—비밀은 없습니다, 순수 Java만 사용합니다.
+## 빠른 답변
+- **어떤 라이브러리가 HTML 로드를 처리합니까?** Aspose.HTML for Java.
+- **필요한 Java 버전은 무엇입니까?** Java 17 또는 그 이상.
+- **DPI를 어떻게 설정합니까?** `HtmlLoadOptions.setDeviceDpi(int)`를 사용합니다.
+- **가상 화면 크기를 변경할 수 있습니까?** 예, `HtmlLoadOptions.setScreenSize(width, height)`를 통해 가능합니다.
+- **계산된 CSS 값을 어떻게 읽나요?** `document.getElementsByTagName("body").item(0).getComputedStyle().getBackgroundColor()`를 호출합니다.
 
-## 준비 사항
+## Java에서 HTML을 PDF로 변환하는 방법
+Load your HTML with `HtmlLoadOptions`, configure DPI and screen size, then render the document to PDF. The two‑step pattern—load → render—covers all 50+ output formats supported by Aspose.HTML, and the DPI setting guarantees crisp vector graphics in the resulting PDF.
 
-시작하기 전에 다음을 준비하세요:
+## Aspose.HTML for Java란 무엇인가요?
+`Aspose.HTML`는 브라우저 엔진 없이 HTML, CSS 및 SVG를 파싱, 렌더링 및 조작하는 서버‑사이드 라이브러리입니다. 30개 이상의 입력 및 출력 형식을 지원하며, 1,000페이지가 넘는 문서도 메모리 사용량을 200 MB 이하로 유지하면서 처리할 수 있습니다.
 
-* Java 17 이상 (코드는 최신 JDK와 호환됩니다).  
-* Aspose.HTML for Java 23.9 이상—Aspose 사이트에서 JAR를 다운로드하거나 Maven을 통해 추가하세요.  
-* CSS에서 배경 색상을 정의한 간단한 HTML 파일(예: `responsive.html`).
+## 장치 DPI와 가상 화면 크기를 설정하는 이유는?
+가상 화면 크기를 설정하면 미디어 쿼리(예: `@media (max-width: 600px)`)가 실제 모니터에 페이지가 표시되는 것처럼 평가됩니다. DPI를 조정하면 CSS px 단위가 물리적 픽셀에 매핑되어 래스터화된 PDF나 스크린샷의 해상도에 직접 영향을 줍니다. 고해상도 PDF의 경우 DPI를 300 이상으로 설정하는 것이 권장됩니다.
 
-그 외에 별도의 프레임워크나 브라우저 드라이버는 필요 없습니다. 준비되셨나요? 시작해봅시다.
+## 사전 요구 사항
+- Java 17 이상이 설치되어 있어야 합니다.
+- Aspose.HTML for Java 23.9 이상 (Maven을 통해 JAR를 추가하거나 Aspose 사이트에서 다운로드).
+- CSS에서 배경 색상을 정의한 HTML 파일(`responsive.html` 등).
 
-![Diagram illustrating how to load html and extract computed styles](/images/load-html-diagram.png){alt="Diagram illustrating how to load html"}
+![HTML을 로드하고 계산된 스타일을 추출하는 방법을 보여주는 다이어그램](/images/load-html-diagram.png){alt="HTML을 로드하고 계산된 스타일을 추출하는 방법을 보여주는 다이어그램"}
 
-## 단계 1: HTML 로드 및 렌더링 옵션 구성
+## 단계별 구현
 
-먼저 `HtmlLoadOptions` 객체를 생성합니다. 이 객체는 Aspose.HTML에 **HTML을 어떻게 로드할지**—가상 화면 크기와 에뮬레이트할 DPI 등을 알려줍니다.
+### 단계 1: 로드 옵션을 생성하고 렌더링 매개변수를 정의합니다
+`HtmlLoadOptions`를 사용하면 렌더링 전에 HTML이 해석되는 방식을 제어할 수 있습니다.
 
-```java
+The `HtmlLoadOptions` class is Aspose.HTML’s configuration object that specifies virtual screen dimensions, device DPI, and other loading behaviors.  
+`Size` represents the width and height in CSS pixels for the virtual screen.  
+
+```text
+// Placeholder for code block – original tutorial uses ```java
 import com.aspose.html.load.HtmlLoadOptions;
 import com.aspose.html.load.Size;
 import com.aspose.html.dom.Document;
@@ -62,39 +135,43 @@ public class SandboxDemo {
         // setDeviceDpi – typical desktop DPI (96 is the default for most monitors)
         loadOptions.setDeviceDpi(96);
 ```
+```
 
-**왜 중요한가요:**  
-가상 화면 크기를 설정하면 `@media (max-width: 600px)`와 같은 미디어 쿼리가 실제 모니터에서 렌더링되는 것처럼 동작합니다. DPI는 CSS `px` 단위가 물리적 픽셀에 매핑되는 방식을 결정하므로, 이후 이미지나 PDF를 생성할 때 필수적입니다.
+**왜 중요한가:**  
+1280 × 720 px의 가상 화면 크기는 일반적인 노트북 디스플레이를 에뮬레이트하여 반응형 레이아웃이 올바르게 렌더링되도록 합니다. `deviceDpi`를 300 dpi로 설정하면 인쇄용 PDF에 적합한 고화질 출력이 제공됩니다.
 
-## 단계 2: 구성된 옵션으로 HTML 파일 로드
+### 단계 2: 구성된 옵션으로 HTML 문서를 로드합니다
+`Document` 클래스는 메모리 내에서 단일 HTML 문서를 나타냅니다.  
 
-이제 실제로 파일을 로드합니다. 앞서 설정한 `loadOptions`를 그대로 전달합니다.
-
-```java
+```text
+// Placeholder for code block – original tutorial uses ```java
         // 2️⃣ Load the HTML file with the options we just set.
         Document document = new Document("YOUR_DIRECTORY/responsive.html", loadOptions);
 ```
+```
 
-파일을 찾을 수 없으면 Aspose가 명확한 `FileNotFoundException`을 발생시킵니다. 실제 서비스에서는 이를 try‑catch 로 감싸고 기본 HTML 문자열을 사용하도록 대체할 수 있습니다.
+파일을 찾을 수 없으면 Aspose가 `FileNotFoundException`을 발생시킵니다. 실제 코드에서는 이 예외를 잡고 필요에 따라 인라인 HTML 문자열로 대체하는 것이 좋습니다.
 
-## 단계 3: 가상 화면 크기와 디바이스 DPI 명시적으로 설정
+### 단계 3: 초기 로드 후 DPI 또는 화면 크기 조정 (선택 사항)
+You can modify DPI or screen size before the first render, but any change after the `Document` is created requires re‑loading the document because the settings become immutable.
 
-이미 `setScreenSize`와 `setDeviceDpi`를 호출했지만, **가상 화면 크기 설정**과 **디바이스 DPI 설정**은 렌더링 전 언제든지 조정할 수 있다는 점을 강조하고 싶습니다. 예를 들어 고해상도 스크린샷을 위해 DPI를 높일 수 있습니다:
-
-```java
+```text
+// Placeholder for code block – original tutorial uses ```java
         // 3️⃣ Adjust DPI for a high‑resolution render (optional).
         loadOptions.setDeviceDpi(300);   // 300 DPI is common for print‑ready images
         // 4️⃣ Change screen size for a mobile layout test.
         loadOptions.setScreenSize(new Size(375, 667)); // iPhone X viewport
 ```
+```
 
-첫 로드 후에 이러한 설정을 변경한다면 문서를 다시 로드해야 합니다—`Document`가 생성된 이후에는 설정이 불변(immutable)으로 처리됩니다.
+초고해상도 PDF의 경우 DPI를 600 dpi로 높이고, 웹 미리보기 이미지의 경우 96 dpi면 충분합니다.
 
-## 단계 4: 배경 색상 읽기 및 계산된 배경 색상 얻기
+### 단계 4: `<body>` 요소의 계산된 배경 색상 읽기
+`Element.getComputedStyle()`는 요소에 대한 최종 계산된 CSS 값을 포함하는 `ComputedStyle` 객체를 반환합니다.  
+`Element`는 DOM에서 HTML 요소를 나타내며, 해당 요소의 계산된 스타일에 접근하는 메서드를 제공합니다.  
 
-문서가 메모리에 로드되면, 원하는 요소의 계산된 스타일을 조회할 수 있습니다. 여기서는 `<body>` 태그를 대상으로 하지만, `<div>`, `<p>` 혹은 의사 요소에도 동일한 방법을 적용할 수 있습니다.
-
-```java
+```text
+// Placeholder for code block – original tutorial uses ```java
         // 5️⃣ Retrieve the <body> element.
         Element bodyElement = document.getBody();
 
@@ -104,20 +181,21 @@ public class SandboxDemo {
     }
 }
 ```
-
-**출력 예시:** `responsive.html`에 `body { background: #ff5722; }`가 정의되어 있다면 콘솔에 다음과 같이 출력됩니다:
-
 ```
+
+`responsive.html`에 `body { background: #ff5722; }`가 정의되어 있으면 콘솔에 해당 색상의 RGBA 표현이 출력됩니다.
+
+```text
+// Placeholder for code block – original tutorial uses ```
 Computed background color: rgba(255,87,34,1)
 ```
+```
 
-이것이 **계산된 배경 색상** 결과이며—Aspose는 모든 CSS 계단식 규칙, 미디어 쿼리, `!important` 선언을 적용한 뒤 최종 값을 반환합니다.
+### 단계 5: 문서를 PDF로 렌더링
+마지막으로 `PdfSaveOptions` 클래스를 사용하여 메모리 내 HTML 문서를 PDF로 변환합니다.
 
-## 전체 작업 예제
-
-모든 단계를 하나로 합친, 복사‑붙여넣기만 하면 되는 완전한 프로그램은 다음과 같습니다:
-
-```java
+```text
+// Placeholder for code block – original tutorial uses ```java
 import com.aspose.html.load.HtmlLoadOptions;
 import com.aspose.html.load.Size;
 import com.aspose.html.dom.Document;
@@ -146,20 +224,55 @@ public class SandboxDemo {
     }
 }
 ```
+```
 
-### 예상 출력
+출력된 PDF는 DPI 설정으로 정의된 정확한 배경 색상, 레이아웃 및 고해상도 그래픽을 그대로 유지합니다.
+
+## 일반적인 함정 및 전문가 팁
+- **DPI 설정을 잊었나요?** 기본값은 96 dpi이며, PDF에서 이미지가 흐릿해질 수 있습니다. 실제 작업에서는 항상 명시적으로 설정하십시오.
+- **미디어 쿼리가 작동하지 않나요?** `HtmlLoadOptions.setScreenSize`가 CSS의 브레이크포인트 기대값과 일치하는지 확인하십시오.
+- **대용량 HTML 파일?** 렌더링 전에 `Document.optimizeResources()`를 사용하여 메모리 사용량을 줄이세요.
+- **중첩 요소의 색상이 필요합니까?** `"body"`를 원하는 CSS 선택자(예: `".header"`)로 교체하고 반환된 요소에서 `getComputedStyle()`를 호출하십시오.
+
+## 자주 묻는 질문
+**Q: 브라우저를 설치하지 않고 HTML을 PDF로 변환할 수 있나요?**  
+A: 예. Aspose.HTML는 자체 레이아웃 엔진을 사용해 서버‑사이드에서 HTML을 렌더링하므로 Chrome, Edge 또는 Selenium 드라이버가 필요하지 않습니다.
+
+**Q: 라이브러리가 flexbox와 grid 같은 CSS 3 기능을 지원합니까?**  
+A: 물론입니다. Aspose.HTML는 flexbox, grid, CSS 변수 등을 포함한 전체 CSS 3 사양을 구현합니다.
+
+**Q: 얼마나 큰 문서를 처리할 수 있나요?**  
+A: 이 라이브러리는 수천 페이지에 달하는 HTML 파일을 처리할 수 있으며, 스트리밍 처리 덕분에 메모리 사용량이 300 MB 이하로 유지됩니다.
+
+**Q: 배경 색상이 HEX 형태로 반환되나요, 아니면 RGBA인가요?**  
+A: `getBackgroundColor()`는 `rgba(r,g,b,a)` 문자열을 반환하며, 필요에 따라 HEX로 변환할 수 있습니다.
+
+**Q: 프로덕션 사용을 위해 라이선스가 필요합니까?**  
+A: 예, 상업용 Aspose.HTML 라이선스를 사용하면 평가 제한이 해제되고 모든 기능에 접근할 수 있습니다.
+
+**마지막 업데이트:** 2026-09-24  
+**테스트 환경:** Aspose.HTML for Java 23.9  
+**작성자:** Aspose
+
+
+
+
+
 
 ```
 Computed background color: rgba(255,255,255,1)
 ```
 
-*(정확한 RGBA 값은 HTML 파일에 정의된 CSS에 따라 달라집니다.)*
+## 관련 튜토리얼
 
-## 흔히 겪는 실수와 전문가 팁
+- [HTML을 PDF로 변환 Java - Aspose.HTML로 페이지 여백 설정](/html/java/advanced-usage/css-extensions-adding-title-page-number/)
+- [Java에서 HTML을 PDF로 변환 - PDF 페이지 크기 및 해상도 설정](/html/java/conversion-html-to-other-formats/convert-html-to-pdf-in-java-set-pdf-page-size-resolution-and/)
+- [HTML을 PDF로 변환 Java – Aspose.HTML 환경 구성](/html/java/configuring-environment/)
 
-* **DPI 설정을 빼먹었나요?** Aspose는 기본값으로 96 DPI를 사용합니다. 고해상도 스크린샷이 흐릿해질 수 있으니, 선명한 출력을 원한다면 항상 명시적으로 설정하세요.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

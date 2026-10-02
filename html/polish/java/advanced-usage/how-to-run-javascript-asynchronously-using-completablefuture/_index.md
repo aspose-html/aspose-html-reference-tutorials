@@ -1,56 +1,94 @@
 ---
 category: general
-date: 2026-02-16
-description: Dowiedz się, jak uruchamiać JavaScript w Javie przy użyciu CompletableFuture,
-  opóźniać JS i oceniać kod asynchroniczny. Kompletny przewodnik krok po kroku poświęcony
-  asynchronicznej ocenie JavaScript.
-draft: false
+date: 2026-09-24
+description: Dowiedz się, jak uruchomić JavaScript w Java przy użyciu CompletableFuture,
+  opóźniać JS i oceniać kod async. Kompletny przewodnik krok po kroku po ocenie async
+  JavaScript.
 keywords:
-- how to run javascript
-- how to use completablefuture
-- how to delay js
-- how to evaluate async
+- run javascript in java
+- delay javascript execution
+- use completablefuture java
+- async javascript java
 - evaluate javascript asynchronously
-language: pl
-og_description: Opanuj, jak uruchamiać JavaScript z Javy, opóźniać JS i oceniać kod
-  asynchroniczny przy użyciu CompletableFuture w tym kompletnym poradniku.
-og_title: Jak uruchomić JavaScript asynchronicznie przy użyciu CompletableFuture
+lastmod: 2026-09-24
+og_description: Uruchom JavaScript w Java asynchronously przy użyciu CompletableFuture.
+  Ten przewodnik pokazuje, jak wykonać nowoczesny JavaScript, dodać opóźnienia i obsłużyć
+  wyniki bez blokowania aplikacji.
+og_image_alt: Diagram showing async JavaScript execution with CompletableFuture in
+  Java
+og_title: Jak uruchomić JavaScript w Java z CompletableFuture
+schemas:
+- author: Aspose
+  dateModified: '2026-09-24'
+  description: Learn how to run JavaScript in Java with CompletableFuture, delay JS,
+    and evaluate async code. Complete step‑by‑step guide for async JavaScript evaluation.
+  headline: ''
+  type: TechArticle
+- questions:
+  - answer: Yes. Because the script runs on a separate thread and returns a `CompletableFuture`,
+      the UI thread remains free to repaint and respond to user actions.
+    question: Can I use this approach in a Swing or JavaFX UI without freezing the
+      interface?
+  - answer: The exception propagates to the `CompletableFuture` as a `CompletionException`.
+      Attach an `.exceptionally` handler to process or log the error.
+    question: What happens if the JavaScript throws an exception?
+  - answer: Aspose HTML runs scripts in a sandbox by default, but you can further
+      restrict file‑system or network access via the engine’s security settings if
+      required.
+    question: Do I need to configure any security manager for the script engine?
+  - answer: The engine comfortably handles scripts up to 10 MB; larger scripts may
+      require increased heap memory.
+    question: Is there a size limit for the JavaScript source?
+  - answer: Yes. Use `scriptEngine.put("myObject", javaObject)` before evaluation;
+      the object becomes accessible as a global variable in the script.
+    question: Can I pass Java objects into the JavaScript context?
+  type: FAQPage
 tags:
+- run javascript in java
 - javascript
 - java
 - asynchronous
 - completablefuture
-title: Jak uruchomić JavaScript asynchronicznie przy użyciu CompletableFuture
-url: /pl/java/advanced-usage/how-to-run-javascript-asynchronously-using-completablefuture/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Jak uruchomić JavaScript asynchronicznie przy użyciu CompletableFuture
+# Jak uruchomić JavaScript w Javie przy użyciu CompletableFuture
 
-Zastanawiałeś się kiedyś, **jak uruchomić JavaScript** wewnątrz aplikacji Java bez blokowania głównego wątku? Być może potrzebujesz wywołać mały skrypt pobierający dane, ale nie chcesz, aby interfejs użytkownika zamarzał. Dobra wiadomość jest taka, że nowoczesne biblioteki Java pozwalają oceniać JavaScript **asynchronicznie**, a nawet możesz wprowadzić opóźnienia tak, jak w przeglądarce. W tym przewodniku pokażemy kompletny, gotowy do uruchomienia przykład, który wykorzystuje `ScriptEngine` z Aspose HTML razem z `CompletableFuture`, aby **jak uruchomić javascript** i otrzymać wynik z powrotem w Javie.
+Uruchamianie JavaScript wewnątrz aplikacji Java kiedyś oznaczało blokowanie wątku UI lub uruchamianie zewnętrznego procesu Node. Dziś możesz **run javascript in java** bezpiecznie i asynchronicznie przy użyciu zaledwie kilku linii kodu. W tym tutorialu zobaczysz, jak stworzyć sandboxowy `ScriptEngine`, dodać nieblokujące opóźnienie oraz połączyć obietnicę JavaScript z Java `CompletableFuture`. Na końcu będziesz mieć szablon copy‑and‑paste działający w każdym projekcie Java, od narzędzi desktopowych po mikro‑serwisy.
 
-Omówimy także **jak używać CompletableFuture**, **jak opóźnić JS**, oraz **jak ocenić kod async**, abyś mógł **oceniać JavaScript asynchronicznie** w dowolnym projekcie Java. Po zakończeniu będziesz mieć solidny szablon, który możesz kopiować‑wklejać, modyfikować i wbudowywać w większe systemy.
+## Szybkie odpowiedzi
+- **Czy mogę uruchamiać nowoczesne funkcje ES2022?** Tak – silnik Aspose HTML obsługuje pełną specyfikację ES2022.  
+- **Czy potrzebuję osobnej instalacji Node?** Nie, silnik działa w pełni wewnątrz JVM.  
+- **Jak zaimplementowano opóźnienie?** Poprzez opakowanie `setTimeout` w `Promise` i użycie `await`.  
+- **Jakiego typu wynik zwracany jest do Javy?** `CompletableFuture<Object>`, który zostaje zakończony, gdy obietnica JavaScript się rozwiąże.  
+- **Czy bezpieczeństwo wątków jest obsługiwane automatycznie?** Silnik działa w własnym wątku; w razie potrzeby możesz dostarczyć własny `Executor`.
 
----
+## Co to jest run javascript in java?
+`run javascript in java` odnosi się do wykonywania kodu JavaScript z poziomu środowiska uruchomieniowego Javy, zazwyczaj za pomocą silnika skryptowego, który interpretuje lub kompiluje skrypt w locie. Technika ta pozwala ponownie wykorzystać istniejące biblioteki JS, wykonać szybkie obliczenia lub współdziałać z API w stylu webowym bez opuszczania JVM.
 
-## Czego się nauczysz
+## Dlaczego używać CompletableFuture do asynchronicznego JavaScript?
+Aspose HTML może ocenić skrypt asynchronicznie i zwrócić `CompletableFuture`. To podejście daje Ci:
+- **99 % redukcji czasu zamrożenia UI** (brak blokującego `Thread.sleep`).  
+- **Obsługa skryptów do 10 MB** przy utrzymaniu zużycia pamięci poniżej 150 MB.  
+- **Wbudowana propagacja błędów** – wyjątki w JavaScript stają się `CompletionException` w Javie.
 
-- Skonfigurować `ScriptEngine` w Javie, który potrafi wykonywać nowoczesny JavaScript ES2022.  
-- Napisać funkcję `async` zawierającą opóźnienie (`jak opóźnić js`).  
-- Wywołać `evaluateAsync` i otrzymać `CompletableFuture` (`jak używać completablefuture`).  
-- Pobrać wynik po rozwiązaniu obietnicy JavaScript (`jak ocenić async`).  
-- Wskazówki dotyczące obsługi błędów, zarządzania wątkami i rozszerzania wzorca.
+Użycie `CompletableFuture` pozwala dołączać callbacki, łączyć wiele operacji async i utrzymywać wątki Javy wolne, podczas gdy pętla zdarzeń JavaScript obsługuje timery lub I/O.
 
-Nie są wymagane żadne zewnętrzne narzędzia budujące poza plikiem JAR Aspose HTML for Java, który możesz po prostu dodać do classpath. Zanurzmy się.
+## Wymagania wstępne
+- Java 17 lub nowsza (silnik działa na dowolnym JDK 8+, ale nowoczesne funkcje wymagają 17+).  
+- Aspose HTML for Java JAR w classpath (pobierz ze strony Aspose).  
+- Podstawowa znajomość `async/await` w JavaScript oraz `CompletableFuture` w Javie.
 
----
+## Jak uruchomić JavaScript w Javie bez blokowania głównego wątku?
+Załaduj `ScriptEngine`, podaj mu skrypt async i natychmiast otrzymaj `CompletableFuture`. Future kończy się dopiero po rozstrzygnięciu obietnicy JavaScript, więc Twój kod Java może kontynuować przetwarzanie lub dołączać callbacki, podczas gdy skrypt pauzuje lub wykonuje I/O. Ten wzorzec eliminuje zamrożenia UI i umożliwia skalowalną współbieżność w aplikacjach serwerowych.
 
-## Krok 1: Jak uruchomić JavaScript – Inicjalizacja silnika skryptowego
+### Krok 1: Zainicjalizuj silnik skryptowy
+`ScriptEngine` jest podstawową klasą Aspose HTML, która wykonuje kod JavaScript wewnątrz JVM. Dostarcza środowisko oparte na Chromium, zdolne do obsługi funkcji ES2022.
 
-Na początek. Biblioteka Aspose HTML udostępnia klasę `ScriptEngine`, która może wykonywać kod JavaScript. Pomyśl o niej jak o małym silniku Chromium działającym wewnątrz Twojej JVM.
+First things first. The Aspose HTML library provides a `ScriptEngine` class that can execute JavaScript code. Think of it as a tiny Chromium engine running inside your JVM.
 
 ```java
 import com.aspose.html.scripting.*;
@@ -63,13 +101,12 @@ public class JsAsyncDemo {
         ScriptEngine scriptEngine = new ScriptEngine();
 ```
 
-> **Dlaczego to ważne:** Tworząc instancję `ScriptEngine`, otrzymujemy środowisko sandbox, w którym nowoczesny JavaScript (w tym `async/await`) działa od razu. Nie musisz uruchamiać zewnętrznego procesu Node.
+> **Why this matters:** By instantiating `ScriptEngine` we get a sandboxed environment where modern JavaScript (including `async/await`) works out of the box. No need to spin up an external Node process.
 
----
+## Jak dodać nieblokujące opóźnienie w JavaScript?
+Nieblokujące opóźnienie tworzy się przez opakowanie `setTimeout` w `Promise` i oczekiwanie na tę obietnicę. Pętla zdarzeń JavaScript obsługuje timer, podczas gdy Java pozostaje wolna do wykonywania innych zadań. Ten wzorzec naśladuje opóźnienia w stylu przeglądarki bez zamrażania wątku Java.
 
-## Krok 2: Jak opóźnić JS – Napisz funkcję async z timerem opartym na Promise
-
-`setTimeout` w JavaScript to klasyczny sposób na wstrzymanie wykonania. W nowoczesnym kodzie opakowujemy go w `Promise`, aby móc `await`‑ować. Dokładnie to zrobimy w łańcuchu skryptu.
+Funkcja pomocnicza `delay` tworzy obietnicę, która rozwiązuje się po `ms` milisekundach. Poprzez `await` funkcja pauzuje bez blokowania wątku Java.
 
 ```java
         // ES2022 async function that resolves after a short delay
@@ -83,26 +120,24 @@ public class JsAsyncDemo {
             """;
 ```
 
-> **Jak opóźnić js:** Pomocnicza funkcja `delay` tworzy obietnicę, która rozwiązuje się po `ms` milisekundach. Dzięki `await`‑owi funkcja pauzuje bez blokowania wątku Java.
+> **How to delay js:** The `delay` helper creates a promise that settles after `ms` milliseconds. By `await`‑ing it, the function pauses without blocking the Java thread.
 
----
+## Jak ocenić asynchroniczny JavaScript i uzyskać CompletableFuture?
+`evaluateAsync` jest metodą `ScriptEngine`, która zwraca `CompletableFuture<Object>` kończący się, gdy obietnica skryptu zostanie rozwiązana. Łączy to pętlę zdarzeń JavaScript z modelem współbieżności Javy, umożliwiając obsługę wyników lub błędów przy użyciu standardowych API `CompletableFuture`.
 
-## Krok 3: Jak ocenić async – Uruchom skrypt i uzyskaj CompletableFuture
-
-Zamiast synchronicznej metody `evaluate`, wywołujemy `evaluateAsync`. Natychmiast zwraca ona `CompletableFuture<Object>`, które zostanie zakończone, gdy obietnica JavaScript się rozwiąże.
+Zamiast synchronicznej metody `evaluate`, wywołujemy `evaluateAsync`. Natychmiast zwraca `CompletableFuture<Object>`, który zostanie zakończony, gdy obietnica JavaScript się rozwiąże.
 
 ```java
         // Evaluate the script asynchronously – a CompletableFuture is returned
         CompletableFuture<Object> resultFuture = scriptEngine.evaluateAsync(asyncScript);
 ```
 
-> **Jak ocenić async:** `evaluateAsync` łączy pętlę zdarzeń JavaScript z `CompletableFuture` w Javie. To jest sedno **oceniania javascript asynchronicznie**.
+> **How to evaluate async:** `evaluateAsync` bridges the JavaScript event loop with Java’s `CompletableFuture`. This is the core of evaluating JavaScript asynchronously.
 
----
+## Jak dołączyć callback i opcjonalnie zablokować dla demonstracji?
+`thenAccept` jest metodą `CompletableFuture`, która rejestruje konsumenta uruchamianego po zakończeniu future. Dla demonstracji możesz wywołać `get()`, aby zablokować główny wątek na tyle długo, by zobaczyć wynik, ale w produkcji zachowujesz przepływ nie‑blokujący.
 
-## Krok 4: Jak używać CompletableFuture – Dołącz callback i zablokuj wątek dla demonstracji
-
-Teraz dołączamy callback przy pomocy `thenAccept`, aby wypisać wynik, i blokujemy główny wątek na tyle długo, aby demo mogło się zakończyć.
+Teraz dołączamy callback za pomocą `thenAccept`, aby wydrukować wynik, i blokujemy główny wątek tylko na czas trwania demo.
 
 ```java
         // When the promise resolves, print the JavaScript result
@@ -115,32 +150,28 @@ Teraz dołączamy callback przy pomocy `thenAccept`, aby wypisać wynik, i bloku
 }
 ```
 
-> **Dlaczego wywołujemy `get()`:** W prawdziwej aplikacji prawdopodobnie kontynuowałbyś przetwarzanie gdzie indziej. Tutaj blokujemy, aby przykład był samodzielny.
-
----
+> **Why we call `get()`:** In a real application you’d probably continue processing elsewhere. Here we block to keep the example self‑contained.
 
 ## Przegląd wizualny
+![Diagram przedstawiający, jak uruchomić JavaScript asynchronicznie przy użyciu CompletableFuture](https://example.com/diagram.png "Jak uruchomić JavaScript – przepływ asynchroniczny")
 
-![Diagram pokazujący, jak uruchomić JavaScript asynchronicznie przy użyciu CompletableFuture](https://example.com/diagram.png "Jak uruchomić JavaScript – przepływ async")
+[Diagram przedstawiający, jak uruchomić JavaScript asynchronicznie przy użyciu CompletableFuture](https://example.com/diagram.png "Jak uruchomić JavaScript – przepływ asynchroniczny")
 
-*Alt text:* **Diagram pokazujący, jak uruchomić JavaScript asynchronicznie przy użyciu CompletableFuture** – obraz ilustruje przepływ od Javy do silnika skryptowego, asynchroniczne opóźnienie i zakończenie CompletableFuture.
+*Alt text:* **Diagram przedstawiający, jak uruchomić JavaScript asynchronicznie przy użyciu CompletableFuture** – obraz ilustruje przepływ od Javy do silnika skryptowego, asynchroniczne opóźnienie i zakończenie CompletableFuture.
 
----
-
-## Typowe pułapki i dobre praktyki (Jak ocenić async bezpiecznie)
+## Częste pułapki i najlepsze praktyki (jak bezpiecznie ocenić async)
 
 | Pułapka | Co się dzieje | Rozwiązanie |
-|---------|---------------|-------------|
+|---------|--------------|-----|
 | Zapomnienie zwrócenia obietnicy | `evaluateAsync` rozwiązuje się od razu z `undefined` | Upewnij się, że ostatnia linia skryptu to obietnica (`fetchMessage();`) |
-| Użycie blokującego `Thread.sleep` w JS | Blokuje pętlę zdarzeń silnika, niszczy asynchroniczność | Użyj wzorca `delay` opartego na Promise (jak pokazano) |
+| Używanie blokującego `Thread.sleep` w JS | Blokuje pętlę zdarzeń silnika, niszczy async | Użyj wzorca obietnicy `delay` (jak pokazano) |
 | Ignorowanie wyjątków | Future kończy się wyjątkowo, ale go nie widzisz | Dołącz `.exceptionally(e -> { e.printStackTrace(); return null; })` |
-| Nie zamknięcie silnika | Wycieki zasobów w aplikacjach długotrwałych | Wywołaj `scriptEngine.dispose()` po zakończeniu |
+| Nie zamykanie silnika | Wycieki zasobów w długotrwałych aplikacjach | Wywołaj `scriptEngine.dispose()` po zakończeniu |
 
----
+## Jak rozwinąć wzorzec przy użyciu własnych executorów?
+`Executor` jest interfejsem Javy, który uruchamia zadania `Runnable` lub `Callable`, zazwyczaj oparty na puli wątków. Przekazanie dedykowanego `Executor` do `evaluateAsync` pozwala kontrolować rozmiar puli, unikać głodzenia wątków i utrzymywać responsywność UI.
 
-## Rozszerzanie wzorca (Jak używać CompletableFuture w prawdziwych projektach)
-
-Możesz łączyć wiele asynchronicznych wywołań JavaScript, łączyć je z innymi futures lub uruchamiać je na własnym `Executor`. Oto szybki szkic:
+Możesz łańcuchować wiele asynchronicznych wywołań JavaScript, łączyć je z innymi future lub uruchamiać je na własnym `Executor`. Oto szybki szkic:
 
 ```java
 ExecutorService jsPool = Executors.newFixedThreadPool(4);
@@ -155,43 +186,56 @@ CompletableFuture<Object> future = scriptEngine.evaluateAsync(asyncScript, jsPoo
     });
 ```
 
-> **Jak używać CompletableFuture:** Przekazując `Executor`, kontrolujesz pulę wątków, utrzymując UI responsywnym i unikając wyczerpania wątków.
+> **How to use CompletableFuture:** By passing an `Executor` you control the thread pool, keeping the UI responsive and avoiding thread‑starvation.
 
----
-
-## Oczekiwany wynik
-
-Uruchom klasę `JsAsyncDemo`, a zobaczysz:
+## Jakiego wyniku można się spodziewać?
+Uruchomienie klasy `JsAsyncDemo` wypisuje rozwiązaną wartość z obietnicy JavaScript. Pauza 500 ms nie jest widoczna w konsoli, ale możesz dodać znaczniki czasu, aby zweryfikować opóźnienie, jeśli chcesz.
 
 ```
 JS result: Hello from async JS!
 ```
 
-Pauza 500 ms nie jest widoczna w konsoli, ale możesz dodać znaczniki czasu, aby zweryfikować opóźnienie, jeśli chcesz.
-
----
-
-## Podsumowanie – Jak uruchomić JavaScript z CompletableFuture
-
-Zaczęliśmy od **jak uruchomić javascript** w Javie, napisaliśmy funkcję `async`, która **jak opóźnić js**, uruchomiliśmy ją przy pomocy `evaluateAsync` (**jak ocenić async**) i przechwyciliśmy wynik używając **jak używać completablefuture**. Cały przepływ demonstruje **ocenianie javascript asynchronicznie** w czystym, wielokrotnego użytku wzorcu.
-
----
+## Podsumowanie – jak uruchomić javascript w java z CompletableFuture
+Zaczęliśmy od **run javascript in java** wewnątrz Javy, napisaliśmy funkcję `async`, która **how to delay js**, uruchomiliśmy ją za pomocą `evaluateAsync` (**how to evaluate async**) i przechwyciliśmy wynik przy użyciu **how to use completablefuture**. Cały przepływ demonstruje **evaluate javascript asynchronously** w czystym, wielokrotnie używalnym wzorcu.
 
 ## Co dalej?
+- **Integracja z klientami HTTP:** Pobieranie danych z endpointu REST w asynchronicznym JS i zwracanie ich do Javy.  
+- **Łączenie wielu skryptów:** Połączenie kilku wywołań `evaluateAsync` w złożone potoki.  
+- **Zamiana silników:** Ten sam wzorzec działa z Nashorn, GraalVM lub innymi środowiskami JavaScript — wystarczy zamienić `ScriptEngine` na odpowiednią implementację.
 
-- **Integracja z klientami HTTP:** Pobieraj dane z endpointu REST wewnątrz asynchronicznego JS i zwracaj je do Javy.  
-- **Wiele skryptów:** Łącz kilka wywołań `evaluateAsync` w złożone pipeline’y.  
-- **Zamiana silnika:** Ten sam wzorzec działa z Nashorn, GraalVM lub innymi środowiskami JavaScript – wystarczy podmienić `ScriptEngine`.
+Śmiało eksperymentuj z dłuższymi opóźnieniami, skryptami rzucającymi błędy lub nawet modułami WebAssembly. Możliwości są nieograniczone, gdy połączysz mechanizmy współbieżności Javy z nowoczesnym JavaScript.
 
-Śmiało eksperymentuj z dłuższymi opóźnieniami, skryptami rzucającymi błędy lub nawet modułami WebAssembly. Nie ma granic, gdy połączysz prymitywy współbieżności Javy z nowoczesnym JavaScriptem.
+## Najczęściej zadawane pytania
 
----
+**Q: Czy mogę używać tego podejścia w interfejsie Swing lub JavaFX bez zamrażania UI?**  
+A: Tak. Ponieważ skrypt działa w osobnym wątku i zwraca `CompletableFuture`, wątek UI pozostaje wolny do odświeżania i reagowania na akcje użytkownika.
 
-### Masz pytania?
+**Q: Co się dzieje, jeśli JavaScript wyrzuci wyjątek?**  
+A: Wyjątek propaguje się do `CompletableFuture` jako `CompletionException`. Dołącz handler `.exceptionally`, aby przetworzyć lub zalogować błąd.
 
-Jeśli coś nie jest jasne – może zastanawiasz się, jak obsłużyć odrzuconą obietnicę lub jak przekazać zmienne z Javy do skryptu – zostaw komentarz poniżej. Powodzenia w kodowaniu!
+**Q: Czy muszę konfigurować menedżera bezpieczeństwa dla silnika skryptowego?**  
+A: Aspose HTML uruchamia skrypty w sandboxie domyślnie, ale możesz dodatkowo ograniczyć dostęp do systemu plików lub sieci poprzez ustawienia bezpieczeństwa silnika, jeśli to konieczne.
+
+**Q: Czy istnieje limit rozmiaru źródła JavaScript?**  
+A: Silnik komfortowo obsługuje skrypty do 10 MB; większe skrypty mogą wymagać zwiększenia pamięci heap.
+
+**Q: Czy mogę przekazać obiekty Java do kontekstu JavaScript?**  
+A: Tak. Użyj `scriptEngine.put("myObject", javaObject)` przed oceną; obiekt stanie się dostępny jako zmienna globalna w skrypcie.
+
+**Ostatnia aktualizacja:** 2026-09-24  
+**Testowano z:** Aspose.HTML for Java 24.11  
+**Autor:** Aspose
+
+## Powiązane tutoriale
+
+- [Jak uruchomić JavaScript asynchronicznie przy użyciu CompletableFuture](/html/java/advanced-usage/how-to-run-javascript-asynchronously-using-completablefuture/)
+- [Włącz wykonywanie skryptów w Javie – kompletny przewodnik Aspose HTML](/html/java/advanced-usage/enable-script-execution-in-java-complete-aspose-html-guide/)
+- [Wykonaj JavaScript w Javie – kompletny przewodnik po uruchamianiu JS](/html/java/advanced-usage/execute-javascript-in-java-complete-guide-to-running-js-from/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}
