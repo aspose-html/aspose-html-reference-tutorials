@@ -1,0 +1,7 @@
+Title: Create HTML Document in C# – Complete Programming Guide
+Slug: create-html-document-in-c-complete-programming-guide
+Category: html-document-manipulation
+ProcessedDate: 2026-07-05T18:34:43.764039
+SourceRepo: AI Search API
+Keywords: create html document, load html string, get element by id, set font style, modify paragraph style
+PRNumber: 202

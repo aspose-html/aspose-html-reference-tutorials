@@ -1,0 +1,7 @@
+Title: How to bind data to a dynamic HTML table with first and last name columns
+Slug: how-to-bind-data-to-a-dynamic-html-table-with-first-and-last
+Category: creating-managing-html-documents
+ProcessedDate: 2026-09-07T14:23:43.329958
+SourceRepo: AI Search API
+Keywords: how to bind data, dynamic html table, first and last name, how to generate table, populate table rows
+PRNumber: 256

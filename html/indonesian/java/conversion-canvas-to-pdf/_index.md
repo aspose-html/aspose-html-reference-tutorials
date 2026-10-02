@@ -25,7 +25,7 @@ Apakah Anda siap menjelajahi dunia menarik **create pdf from canvas** menggunaka
 - **Versi Java apa yang diperlukan?** Java 8 atau yang lebih tinggi didukung.  
 - **Bisakah saya menyesuaikan ukuran atau orientasi halaman?** Ya—Aspose.HTML memungkinkan Anda mengatur opsi halaman PDF secara programatik.
 
-## Apa itu “create PDF from canvas”?
+## Apa itu “create PDF from canvas”
 
 Membuat PDF dari canvas berarti mengambil output visual yang dihasilkan oleh elemen HTML `<canvas>`—baik itu diagram, grafik, atau gambar tangan bebas—dan mengekspornya ke dalam dokumen PDF yang dapat dipindahkan. PDF mempertahankan tata letak, font, dan grafik di semua perangkat, menjadikannya ideal untuk pelaporan, pencetakan, dan arsip.
 
@@ -81,6 +81,9 @@ Setelah mengikuti panduan ini, Anda kini tahu cara **create PDF from canvas** me
 
 ### [Mengonversi HTML Canvas ke PDF dengan Aspose.HTML untuk Java](./canvas-to-pdf/)
 Pelajari cara mengonversi HTML Canvas ke PDF dengan Aspose.HTML untuk Java dalam panduan langkah demi langkah ini.
+
+### [Cara Mengonversi SVG ke PDF/A‑2b dengan Java – Panduan Lengkap](./how-to-convert-svg-to-pdf-a-2b-with-java-complete-guide/)
+Panduan lengkap untuk mengonversi file SVG menjadi PDF/A‑2b menggunakan Java dengan Aspose.HTML.
 
 ## Pertanyaan yang Sering Diajukan
 

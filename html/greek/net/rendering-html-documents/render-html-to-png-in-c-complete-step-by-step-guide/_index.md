@@ -1,26 +1,26 @@
 ---
 category: general
-date: 2026-03-05
-description: Αποδώστε HTML σε PNG γρήγορα χρησιμοποιώντας το Aspose.HTML σε C#. Μάθετε
-  πώς να μετατρέπετε HTML σε εικόνα, να ρυθμίζετε την απόδοση του χρώματος φόντου
-  και να αποθηκεύετε το bitmap ως PNG σε C#.
+date: 2026-01-14
+description: Απόδοση HTML σε PNG με το Aspose.HTML σε C#. Μάθετε έναν προσαρμοσμένο
+  διαχειριστή πόρων, αποθηκεύστε το HTML ως ZIP και μετατρέψτε το HTML σε bitmap—όλα
+  σε ένα σεμινάριο.
 draft: false
 keywords:
 - render html to png
-- convert html to image
-- save bitmap as png c#
-- configure background color rendering
-- output png from html
+- custom resource handler
+- save html as zip
+- convert html to bitmap
+- how to render png
 language: el
-og_description: Αποδώστε HTML σε PNG γρήγορα χρησιμοποιώντας το Aspose.HTML. Αυτό
-  το σεμινάριο δείχνει πώς να μετατρέψετε το HTML σε εικόνα, να ρυθμίσετε την απόδοση
-  του χρώματος φόντου και να αποθηκεύσετε το bitmap ως PNG με C#.
-og_title: Απόδοση HTML σε PNG με C# – Πλήρης Οδηγός Βήμα‑βήμα
+og_description: Απόδοση HTML σε PNG με το Aspose.HTML σε C#. Μάθετε έναν προσαρμοσμένο
+  διαχειριστή πόρων, αποθηκεύστε το HTML ως ZIP και μετατρέψτε το HTML σε bitmap—όλα
+  σε έναν οδηγό.
+og_title: Απόδοση HTML σε PNG σε C# – Πλήρης Οδηγός Βήμα‑βήμα
 tags:
 - Aspose.HTML
 - C#
 - Image Rendering
-title: Απόδοση HTML σε PNG σε C# – Πλήρης Οδηγός Βήμα‑Βήμα
+title: Μετατροπή HTML σε PNG σε C# – Πλήρης Οδηγός Βήμα‑βήμα
 url: /el/net/rendering-html-documents/render-html-to-png-in-c-complete-step-by-step-guide/
 ---
 
@@ -30,208 +30,244 @@ url: /el/net/rendering-html-documents/render-html-to-png-in-c-complete-step-by-s
 
 # Απόδοση HTML σε PNG με C# – Πλήρης Οδηγός Βήμα‑βήμα
 
-Έχετε ποτέ χρειαστεί να **render HTML to PNG** αλλά δεν ήσασταν σίγουροι ποια βιβλιοθήκη να επιλέξετε ή πώς να πετύχετε καθαρό αποτέλεσμα; Δεν είστε μόνοι. Πολλοί προγραμματιστές αντιμετωπίζουν αυτό το πρόβλημα όταν προσπαθούν να μετατρέψουν ένα απόσπασμα ιστού σε στατική εικόνα για αναφορές, μικρογραφίες email ή προεπισκοπήσεις κοινωνικών μέσων. Τα καλά νέα; Με το Aspose.HTML μπορείτε να **convert HTML to image** με λίγες γραμμές κώδικα, να ελέγξετε το φόντο και να **save bitmap as PNG C#** χωρίς να ασχοληθείτε με headless browsers.
+Έχετε ποτέ χρειαστεί να **αποδώσετε HTML σε PNG** αλλά δεν ήξερες από πού να ξεκινήσεις σε ένα έργο .NET; Δεν είσαι μόνος. Πολλοί προγραμματιστές συναντούν εμπόδια όταν θέλουν ένα pixel‑perfect στιγμιότυπο μιας ιστοσελίδας χωρίς να ανοίξουν έναν πλήρη περιηγητή.  
 
-Σε αυτό το tutorial θα περάσουμε από όλα όσα χρειάζεται να γνωρίζετε: από την εγκατάσταση του πακέτου NuGet μέχρι τη ρύθμιση των επιλογών απόδοσης, τη δημιουργία PNG πλάτους 1024 pixel και τη διαχείριση ειδικών περιπτώσεων όπως διαφανές φόντο. Στο τέλος θα έχετε ένα επαναχρησιμοποιήσιμο snippet που μπορείτε να ενσωματώσετε σε οποιοδήποτε έργο .NET. Χωρίς εξωτερικά εργαλεία, χωρίς gymnastics γραμμής εντολών—απλώς καθαρό C#.
+Σε αυτό το tutorial θα περάσουμε από μια πρακτική λύση που όχι μόνο **αποδίδει HTML σε PNG**, αλλά επίσης δείχνει πώς να πακετάρετε όλους τους εξωτερικούς πόρους σε ένα αρχείο ZIP με έναν **προσαρμοσμένο διαχειριστή πόρων**, και τέλος πώς να **μετατρέψετε HTML σε bitmap** για οποιαδήποτε επόμενη επεξεργασία. Στο τέλος θα ξέρετε ακριβώς *πώς να αποδώσετε png* από οποιαδήποτε πηγή HTML χρησιμοποιώντας το Aspose.HTML.
 
-## Τι Θα Χρειαστείτε
+## Τι Θα Μάθετε
 
-- **.NET 6+** (or .NET Framework 4.6+; Aspose.HTML supports both)
-- **Visual Studio 2022** ή οποιοδήποτε IDE προτιμάτε
-- **Aspose.HTML for .NET** πακέτο NuGet  
-  ```bash
-  dotnet add package Aspose.HTML
-  ```
-- Ένα αρχείο HTML που θέλετε να μετατρέψετε σε PNG (π.χ., `input.html`)
+- Φόρτωση ενός εγγράφου HTML από δίσκο.
+- Υλοποίηση ενός **προσαρμοσμένου διαχειριστή πόρων** που ρέει εικόνες, CSS, γραμματοσειρές κ.λπ., απευθείας σε ένα αρχείο ZIP.
+- Χρήση των επιλογών **save HTML as ZIP** ώστε η ολόκληρη σελίδα να μεταφέρεται μαζί.
+- Ορισμός **επιλογών απόδοσης εικόνας** (μέγεθος, antialiasing, text hinting) και στυλιζάρισμα στοιχείων εν κινήσει.
+- Απόδοση της σελίδας σε **bitmap** και αποθήκευση του ως αρχείο PNG.
+- Συνηθισμένα προβλήματα και επαγγελματικές συμβουλές για αξιόπιστα αποτελέσματα.
 
-Αυτό είναι όλο. Αν έχετε αυτά τα βασικά, μπορούμε να περάσουμε κατευθείαν στον κώδικα.
+> **Προαπαιτούμενα:** .NET 6+ (ή .NET Framework 4.6+), Visual Studio 2022 ή οποιοδήποτε IDE C#, και άδεια Aspose.HTML for .NET (η δωρεάν δοκιμή λειτουργεί για αυτήν την επίδειξη).
 
-![Render HTML to PNG example](render-html-to-png.png "Screenshot showing the rendered PNG output – render html to png")
+---
 
 ## Βήμα 1: Φόρτωση του Εγγράφου HTML
 
-Το πρώτο πράγμα που πρέπει να κάνετε είναι να φορτώσετε το πηγαίο HTML σε ένα αντικείμενο `HTMLDocument`. Αυτό το αντικείμενο αντιπροσωπεύει το DOM που το Aspose.HTML θα ζωγραφίσει αργότερα σε ένα bitmap.
+Πρώτο πράγμα—πρέπει να φέρουμε το αρχείο HTML στη μνήμη. Η κλάση `Document` του Aspose.HTML κάνει όλη τη βαριά δουλειά.
 
 ```csharp
+using System.IO;
 using Aspose.Html;
+using Aspose.Html.Saving;
 using Aspose.Html.Rendering.Image;
-using Aspose.Html.Drawing;
-using System.Drawing; // only for Color
 
-// Load the HTML file from disk
-var htmlDocument = new HTMLDocument(@"C:\MyProject\input.html");
+// Load the source HTML file (adjust the path to your project)
+Document document = new Document("YOUR_DIRECTORY/input.html");
 ```
 
-**Γιατί είναι σημαντικό:**  
-Η φόρτωση του εγγράφου διαχωρίζει την ανάλυση από την απόδοση, πράγμα που σημαίνει ότι μπορείτε να επιθεωρήσετε ή να τροποποιήσετε το DOM πριν το σχεδιάσετε. Επιτρέπει επίσης την επαναχρησιμοποίηση του ίδιου `HTMLDocument` για πολλαπλές διεργασίες απόδοσης εάν χρειάζεστε διαφορετικά μεγέθη εικόνας.
+*Γιατί είναι σημαντικό:* Η φόρτωση του εγγράφου δημιουργεί ένα DOM που το Aspose μπορεί να διασχίσει, να εφαρμόσει στυλ και, στη συνέχεια, να αποδώσει. Αν το αρχείο περιέχει εξωτερικούς πόρους (εικόνες, CSS), θα επιλυθούν αργότερα από τον διαχειριστή πόρων που θα προσθέσουμε στη συνέχεια.
 
-## Βήμα 2: Ρύθμιση Επιλογών Απόδοσης Εικόνας (Διαμόρφωση Απόδοσης Χρώματος Φόντου)
+---
 
-Το Aspose.HTML σας παρέχει λεπτομερή έλεγχο του τελικού εμφανίσιμου εικόνας. Η κλάση `ImageRenderingOptions` σας επιτρέπει να ενεργοποιήσετε/απενεργοποιήσετε το antialiasing, να ορίσετε φόντο και άλλα.
+## Βήμα 2: Δημιουργία **Προσαρμοσμένου Διαχειριστή Πόρων** για Συσκευασία Περιουσιακών Στοιχείων
+
+Όταν αποδίδετε μια σελίδα, η βιβλιοθήκη χρειάζεται κάθε συνδεδεμένο πόρο. Αντί να την αφήσουμε να γράφει στο δίσκο, θα συλλάβουμε κάθε ροή και θα την τοποθετήσουμε σε ένα αρχείο ZIP. Αυτό είναι το κλασικό μοτίβο **save HTML as zip**.
 
 ```csharp
-var imageOptions = new ImageRenderingOptions
+/// <summary>
+/// Streams each external resource (images, CSS, fonts) into a ZipSaveOptions archive.
+/// </summary>
+class ZipPacker : ResourceHandler
 {
-    UseAntialiasing = true,          // smoother edges for vector graphics
-    BackgroundColor = Color.White   // change to Color.Transparent for no background
-};
-```
+    private readonly ZipSaveOptions _zipOptions;
 
-**Γιατί μπορεί να θέλετε να διαμορφώσετε την απόδοση χρώματος φόντου:**  
-Αν το HTML σας περιέχει διαφανή PNG ή διαβαθμίσεις CSS, το προεπιλεγμένο φόντο μπορεί να είναι μαύρο, κάτι που φαίνεται περίεργο σε αναφορές. Ορίζοντας ρητά το `BackgroundColor`, εξασφαλίζετε συνεπή εμφάνιση σε όλες τις πλατφόρμες.
+    public ZipPacker(ZipSaveOptions zipOptions) => _zipOptions = zipOptions;
 
-## Βήμα 3: Ρύθμιση Απόδοσης Κειμένου (Convert HTML to Image with Clear Text)
-
-Το κείμενο μπορεί να εμφανίζεται θολό αν δεν είναι ενεργοποιημένο το hinting, ειδικά σε μικρά μεγέθη γραμματοσειράς. Η κλάση `TextOptions` σας επιτρέπει να ενεργοποιήσετε το hinting για πιο ευκρινή γλυφά.
-
-```csharp
-var textOptions = new TextOptions
-{
-    UseHinting = true
-};
-```
-
-**Η λογική:**  
-Το hinting ευθυγραμμίζει τους χαρακτήρες στα όρια των pixel, μειώνοντας τη θολότητα. Αυτό είναι κρίσιμο όταν αργότερα **output PNG from HTML** για τεκμηρίωση όπου η ευανάγνωστη είναι βασική.
-
-## Βήμα 4: Δημιουργία του ImageRenderer με Συνδυασμένες Επιλογές
-
-Τώρα συνδυάζουμε τις ρυθμίσεις εικόνας και κειμένου σε ένα ενιαίο `ImageRenderer`. Σκεφτείτε το ως τη μηχανή που θα ζωγραφίσει το DOM σε ένα bitmap.
-
-```csharp
-var imageRenderer = new ImageRenderer(imageOptions, textOptions);
-```
-
-**Τι συμβαίνει στο παρασκήνιο;**  
-Το `ImageRenderer` εσωτερικά δημιουργεί ένα δέντρο διάταξης, επιλύει το CSS και στη συνέχεια rasterizes κάθε στοιχείο χρησιμοποιώντας τις επιλογές που δώσατε. Είναι η καρδιά της διαδικασίας **convert html to image**.
-
-## Βήμα 5: Απόδοση και Αποθήκευση – Το Τελικό Βήμα “Save Bitmap as PNG C#”
-
-Τελικά καλούμε το `Render`, περνώντας το επιθυμητό πλάτος (1024 px σε αυτό το παράδειγμα). Το ύψος ορίζεται σε `0` ώστε το Aspose να το υπολογίσει αυτόματα βάσει της αναλογίας διαστάσεων.
-
-```csharp
-using (var bitmap = imageRenderer.Render(htmlDocument, 1024, 0))
-{
-    // Save the rendered bitmap as a PNG file
-    bitmap.Save(@"C:\MyProject\output.png",
-                System.Drawing.Imaging.ImageFormat.Png);
+    public override Stream HandleResource(ResourceInfo info)
+    {
+        // Aspose calls this for every external resource.
+        // Returning the stream from ZipSaveOptions tells the library to write the data into the ZIP.
+        return _zipOptions.GetOutputStream(info);
+    }
 }
 ```
 
-**Γιατί αποθηκεύουμε ως PNG;**  
-Το PNG διατηρεί την απώλεια ποιότητας και υποστηρίζει διαφάνεια, καθιστώντας το ιδανικό για μικρογραφίες UI ή ενσωματώσεις email. Εάν χρειάζεστε μικρότερο αρχείο, μπορείτε να μεταβείτε σε JPEG, αλλά θα χάσετε αυτήν την ευκρίνεια.
+**Συμβουλή επαγγελματία:** Το αντικείμενο `ResourceInfo` σας δίνει το αρχικό URL, ώστε να μπορείτε να φιλτράρετε ανεπιθύμητους πόρους (π.χ. scripts ανάλυσης) αν θέλετε ένα πιο ελαφρύ ZIP.
 
-### Πλήρες Παράδειγμα Εργασίας
-
-Παρακάτω είναι το πλήρες, αυτόνομο πρόγραμμα που μπορείτε να αντιγράψετε‑επικολλήσετε σε ένα έργο κονσόλας. Περιλαμβάνει όλες τις δηλώσεις `using`, τα αντικείμενα επιλογών και τη διαχείριση σφαλμάτων.
+Τώρα συνδέστε τον διαχειριστή στις επιλογές αποθήκευσης:
 
 ```csharp
+// Prepare ZIP options and attach our custom handler
+var zipOptions = new ZipSaveOptions();
+var resourceHandler = new ZipPacker(zipOptions);
+```
+
+Όταν τελικά καλέσουμε `document.Save`, όλα τα εξωτερικά αρχεία θα καταλήξουν μέσα στο `packed_output.zip`.
+
+---
+
+## Βήμα 3: Αποθήκευση HTML + Πόρων ως Αρχείο ZIP
+
+```csharp
+// This writes the HTML file and every linked resource into a single ZIP.
+document.Save("YOUR_DIRECTORY/packed_output.zip", zipOptions);
+```
+
+*Τι παίρνετε:* Ένα αυτόνομο πακέτο που μπορείτε να μεταφέρετε, να αποσυμπιέσετε σε άλλο μηχάνημα ή να προσφέρετε ως λήψη. Αυτός είναι ο πιο καθαρός τρόπος να **save HTML as zip** χωρίς να ανησυχείτε για ελλιπή αρχεία.
+
+---
+
+## Βήμα 4: Ορισμός Επιλογών Απόδοσης Εικόνας (Convert HTML to Bitmap)
+
+Τώρα αλλάζουμε εστίαση από την αρχειοθέτηση στη ραστεροποίηση. Η κλάση `ImageRenderingOptions` μας επιτρέπει να ελέγξουμε το μέγεθος εξόδου, το antialiasing και το text hinting—βασικά συστατικά για ένα υψηλής ποιότητας PNG.
+
+```csharp
+ImageRenderingOptions imageOptions = new ImageRenderingOptions
+{
+    Width = 1024,               // Desired pixel width
+    Height = 768,               // Desired pixel height
+    UseAntialiasing = true,     // Smooth edges for shapes and text
+    TextOptions = new TextOptions
+    {
+        UseHinting = true       // Improves readability of small fonts
+    }
+};
+```
+
+**Γιατί αυτές οι ρυθμίσεις;** Ένας καμβάς 1024×768 είναι μια ασφαλής προεπιλογή για τις περισσότερες ιστοσελίδες. Το antialiasing αφαιρεί τα σκαλισμένα άκρα, ενώ το text hinting εξασφαλίζει καθαρά γράμματα ακόμη και σε μικρότερες γραμματοσειρές.
+
+---
+
+## Βήμα 5: Τροποποίηση του DOM – Εφαρμογή Στυλ Bold‑Italic Πριν την Απόδοση
+
+Μερικές φορές χρειάζεται να τονίσετε έναν τίτλο ή να αλλάξετε την εμφάνισή του μόνο για την έξοδο PNG. Ακολουθεί πώς να στοχεύσετε το πρώτο στοιχείο `<h1>` και να το κάνετε bold‑italic.
+
+```csharp
+var titleElement = document.QuerySelector("h1");
+if (titleElement != null)
+{
+    titleElement.Style.FontWeight = WebFontStyle.Bold;
+    titleElement.Style.FontStyle  = WebFontStyle.Italic;
+}
+```
+
+*Περίπτωση άκρης:* Αν η σελίδα δεν έχει `<h1>`, ο κώδικας παραλείπει με ασφάλεια το βήμα στυλιζαρίσματος. Μπορείτε να επεκτείνετε αυτή τη λογική σε οποιονδήποτε selector (`.class`, `#id`, κ.λπ.) για να προσαρμόσετε την απόδοση εν κινήσει.
+
+---
+
+## Βήμα 6: Απόδοση σε Bitmap και Αποθήκευση ως PNG – Ο Πυρήνας του **Render HTML to PNG**
+
+Τέλος, μετατρέπουμε το DOM σε bitmap και το γράφουμε ως αρχείο PNG.
+
+```csharp
+using (var bitmap = document.RenderToBitmap(imageOptions))
+{
+    // The bitmap is an in‑memory representation of the rendered page.
+    bitmap.Save("YOUR_DIRECTORY/rendered.png");
+}
+```
+
+**Αποτέλεσμα:** Το `rendered.png` περιέχει ένα pixel‑perfect στιγμιότυπο του HTML σας, με το bold‑italic `<h1>` και όλους τους εξωτερικούς πόρους που είχαν συμπεριληφθεί στο ZIP.
+
+---
+
+## Πλήρες Παράδειγμα Εργασίας
+
+Παρακάτω είναι το πλήρες πρόγραμμα που μπορείτε να αντιγράψετε‑και‑επικολλήσετε σε μια εφαρμογή console. Θυμηθείτε να αντικαταστήσετε το `YOUR_DIRECTORY` με ένα πραγματικό μονοπάτι στον υπολογιστή σας.
+
+```csharp
+using System.IO;
 using Aspose.Html;
+using Aspose.Html.Saving;
 using Aspose.Html.Rendering.Image;
-using Aspose.Html.Drawing;
-using System.Drawing; // only for Color
-using System;
 
 class Program
 {
     static void Main()
     {
-        try
+        // Step 1: Load HTML
+        Document document = new Document("YOUR_DIRECTORY/input.html");
+
+        // Step 2: Custom resource handler for ZIP packing
+        var zipOptions = new ZipSaveOptions();
+        var resourceHandler = new ZipPacker(zipOptions);
+        document.Save("YOUR_DIRECTORY/packed_output.zip", zipOptions); // Save as ZIP
+
+        // Step 4: Rendering options (convert HTML to bitmap)
+        ImageRenderingOptions imageOptions = new ImageRenderingOptions
         {
-            // 1️⃣ Load HTML
-            var htmlDocument = new HTMLDocument(@"C:\MyProject\input.html");
+            Width = 1024,
+            Height = 768,
+            UseAntialiasing = true,
+            TextOptions = new TextOptions { UseHinting = true }
+        };
 
-            // 2️⃣ Image options – background, antialiasing
-            var imageOptions = new ImageRenderingOptions
-            {
-                UseAntialiasing = true,
-                BackgroundColor = Color.White // set to Transparent if you prefer
-            };
-
-            // 3️⃣ Text options – hinting for sharper fonts
-            var textOptions = new TextOptions
-            {
-                UseHinting = true
-            };
-
-            // 4️⃣ Renderer with combined settings
-            var imageRenderer = new ImageRenderer(imageOptions, textOptions);
-
-            // 5️⃣ Render at 1024 px width; height auto‑calculates
-            using (var bitmap = imageRenderer.Render(htmlDocument, 1024, 0))
-            {
-                // Save as PNG – the “save bitmap as PNG C#” part
-                bitmap.Save(@"C:\MyProject\output.png",
-                            System.Drawing.Imaging.ImageFormat.Png);
-                Console.WriteLine("✅ PNG generated successfully!");
-            }
-        }
-        catch (Exception ex)
+        // Step 5: Bold‑italic the first <h1>
+        var titleElement = document.QuerySelector("h1");
+        if (titleElement != null)
         {
-            Console.Error.WriteLine($"❌ Rendering failed: {ex.Message}");
+            titleElement.Style.FontWeight = WebFontStyle.Bold;
+            titleElement.Style.FontStyle  = WebFontStyle.Italic;
         }
+
+        // Step 6: Render and save PNG
+        using (var bitmap = document.RenderToBitmap(imageOptions))
+        {
+            bitmap.Save("YOUR_DIRECTORY/rendered.png");
+        }
+    }
+}
+
+// ---------- Custom Resource Handler ----------
+class ZipPacker : ResourceHandler
+{
+    private readonly ZipSaveOptions _zipOptions;
+    public ZipPacker(ZipSaveOptions zipOptions) => _zipOptions = zipOptions;
+
+    public override Stream HandleResource(ResourceInfo info)
+    {
+        // Stream each resource into the ZIP archive
+        return _zipOptions.GetOutputStream(info);
     }
 }
 ```
 
-Εκτελέστε το πρόγραμμα, ανοίξτε το `output.png` και θα δείτε μια pixel‑perfect λήψη του `input.html`. Αυτή είναι η ουσία του **render html to png** με το Aspose.HTML.
+### Αναμενόμενη Έξοδος
 
-## Κοινές Παραλλαγές & Ακραίες Περιπτώσεις
+- **packed_output.zip** – περιέχει το `input.html` συν όλες τις εικόνες, CSS, γραμματοσειρές κ.λπ.
+- **rendered.png** – ένα PNG 1024×768 που ταιριάζει οπτικά με την αρχική σελίδα, με τον πρώτο τίτλο να εμφανίζεται bold‑italic.
 
-### Διαφανές Φόντο
+---
 
-Αν χρειάζεστε ένα διαφανές καμβά (π.χ., για επικάλυψη του PNG πάνω σε χρωματιστό UI αργότερα), ορίστε το `BackgroundColor` σε `Color.Transparent`:
+## Συχνές Ερωτήσεις & Περιπτώσεις Άκρης
 
-```csharp
-BackgroundColor = Color.Transparent
-```
+| Ερώτηση | Απάντηση |
+|----------|--------|
+| *Τι γίνεται αν το HTML αναφέρεται σε απομακρυσμένες εικόνες μέσω HTTPS;* | Ο διαχειριστής πόρων λειτουργεί με οποιοδήποτε σχήμα URI υποστηρίζεται από το Aspose.HTML. Βεβαιωθείτε ότι το μηχάνημα έχει πρόσβαση στο διαδίκτυο ή προ‑κατεβάστε τα στοιχεία για να αποφύγετε καθυστέρηση δικτύου. |
+| *Μπορώ να αλλάξω το επίπεδο συμπίεσης PNG;* | Ναι. Μετά την απόδοση, μπορείτε να ξανα‑αποθηκεύσετε το bitmap χρησιμοποιώντας `PngSaveOptions` και να ορίσετε `CompressionLevel` (0‑9). |
+| *Τι γίνεται με μεγάλες σελίδες που υπερβαίνουν τα όρια μνήμης;* | Χρησιμοποιήστε `document.RenderToBitmap` με `PageRenderingOptions` για να αποδίδετε μία σελίδα τη φορά, ή αυξήστε το όριο μνήμης της διεργασίας. |
+| *Χρειάζομαι εμπορική άδεια;* | Μια δοκιμαστική έκδοση λειτουργεί για αξιολόγηση, αλλά για παραγωγή θα χρειαστεί έγκυρη άδεια Aspose.HTML ώστε να αφαιρεθούν τα υδατογραφήματα αξιολόγησης. |
+| *Μπορεί να αποδοθεί μόνο ένα συγκεκριμένο στοιχείο (π.χ. ένα γράφημα) ως PNG;* | Ναι. Εξάγετε το στοιχείο, κλωνοποιήστε το σε ένα νέο `Document`, και αποδώστε αυτό το έγγραφο. Αυτό αποφεύγει την απόδοση ολόκληρης της σελίδας. |
 
-Θυμηθείτε ότι ορισμένα προγράμματα περιήγησης αγνοούν τη διαφάνεια στο CSS `background-color`, οπότε ελέγξτε ξανά το HTML σας.
+---
 
-### Διαφορετικά Μεγέθη Εικόνας
+## Συμβουλές & Καλές Πρακτικές
 
-Δεν περιορίζεστε στο πλάτος 1024 px. Περνάτε οποιοδήποτε πλάτος θέλετε· το ύψος θα υπολογίζεται πάντα ώστε να διατηρεί τη διάταξη. Για σταθερό ύψος, δώστε και τις τιμές πλάτους και ύψους:
+- **Cache ZIP streams** αν δημιουργείτε πολλά PDF σε βρόχο· η επαναχρησιμοποίηση του ίδιου `ZipSaveOptions` μειώνει την πίεση στο GC.
+- **Ορίστε `UseAntialiasing` σε `false`** μόνο όταν χρειάζεστε έξοδο pixel‑perfect, χωρίς θολότητα (π.χ. για pixel art).
+- **Επικυρώστε το HTML** πριν την απόδοση. Κακοσχηματισμένο markup μπορεί να οδηγήσει σε χαμένα στοιχεία ή μετατοπίσεις διάταξης.
+- **Καταγράψτε το `ResourceInfo.Uri`** μέσα στο `HandleResource` κατά τον εντοπισμό σφαλμάτων· είναι ένας γρήγορος τρόπος να εντοπίσετε σπασμένους συνδέσμους.
+- **Συνδυάστε με media queries CSS** (`@media print`) για να προσαρμόσετε την εμφάνιση του PNG χωρίς να αλλάξετε την αρχική σελίδα.
 
-```csharp
-var bitmap = imageRenderer.Render(htmlDocument, 800, 600);
-```
+---
 
-### Έξοδος Υψηλής DPI
+## Συμπέρασμα
 
-Αν χρειάζεστε PNG υψηλής ανάλυσης για εκτύπωση, αυξήστε το πλάτος (π.χ., 3000 px) και αφήστε το Aspose να διαχειριστεί την κλιμάκωση. Το antialiasing θα διατηρήσει τις άκρες ομαλές.
+Τώρα έχετε μια πλήρη, έτοιμη για παραγωγή συνταγή για **render HTML to PNG** σε C#. Η ροή εργασίας δείχνει πώς να **save HTML as ZIP** χρησιμοποιώντας έναν **προσαρμοσμένο διαχειριστή πόρων**, πώς να **convert HTML to bitmap**, και τέλος πώς να παραγάγετε ένα επεξεργασμένο αρχείο PNG.  
 
-### Διαχείριση Εξωτερικών Πόρων
+Με αυτή τη βάση μπορείτε να αυτοματοποιήσετε τη δημιουργία μικρογραφιών, να δημιουργήσετε προεπισκοπήσεις email, ή να χτίσετε pipelines HTML‑to‑image—all while keeping all external assets neatly packaged.  
 
-Το Aspose.HTML μπορεί να επιλύσει εξωτερικά CSS, JS και εικόνες εάν του δώσετε μια βασική URL ή ρυθμίσετε ένα `ResourceResolver`. Για εκτός σύνδεσης απόδοση, ενσωματώστε όλα τα assets απευθείας στο HTML (data URIs) για να αποφύγετε κλήσεις δικτύου.
+Έτοιμοι για το επόμενο βήμα; Δοκιμάστε να αποδώσετε πολλαπλές σελίδες σε ένα ενιαίο PDF πολλαπλών σελίδων, πειραματιστείτε με διαφορετικές `ImageRenderingOptions` για assets έτοιμα για retina, ή ενσωματώστε αυτόν τον κώδικα σε ένα API ASP.NET Core ώστε οι χρήστες να μπορούν να ανεβάζουν HTML και να λαμβάνουν PNG άμεσα.  
 
-## Επαγγελματικές Συμβουλές & Πιθανά Προβλήματα
+Καλή προγραμματιστική δουλειά, και οι στιγμιότυπές σας να είναι πάντα κρυστάλλινα!  
 
-- **Pro tip:** Τυλίξτε το μπλοκ απόδοσης σε μια δήλωση `using` (όπως φαίνεται) για να ελευθερώσετε άμεσα τους εγγενείς πόρους. Η μη χρήση μπορεί να οδηγήσει σε αυξήσεις μνήμης όταν αποδίδετε πολλές εικόνες σε βρόχο.
-- **Watch out for:** Πολύ μεγάλα αρχεία HTML μπορούν να καταναλώσουν σημαντική μνήμη RAM. Εάν αντιμετωπίσετε `OutOfMemoryException`, σκεφτείτε την απόδοση σε τμήματα ή την απλοποίηση του markup.
-- **Typical mistake:** Η παράλειψη του `UseAntialiasing = true` οδηγεί σε ακανόνιστες άκρες, ειδικά για εικονίδια SVG. Πάντα ενεργοποιήστε το εκτός εάν έχετε συγκεκριμένο λόγο να μην το κάνετε.
-- **Performance hint:** Η επαναχρησιμοποίηση του ίδιου `ImageRenderer` για πολλά έγγραφα (διαφορετικά αρχεία HTML αλλά ίδιες επιλογές) μειώνει το κόστος κατανομής.
-
-## Ανακεφαλαίωση – Τι Καλύψαμε
-
-- Φορτώθηκε ένα αρχείο HTML με `HTMLDocument`.
-- Διαμορφώθηκαν **image rendering options** για έλεγχο του χρώματος φόντου και antialiasing.
-- Ενεργοποιήθηκε **text hinting** για πιο ευκρινή γραφή.
-- Δημιουργήθηκε ένα `ImageRenderer` που συνδυάζει αυτές τις ρυθμίσεις.
-- Αποδόθηκε το DOM σε bitmap με προσαρμοσμένο πλάτος και αποθηκεύτηκε ως PNG, ικανοποιώντας την απαίτηση **save bitmap as PNG C#**.
-- Συζητήθηκαν παραλλαγές όπως διαφανές φόντο, προσαρμοσμένες διαστάσεις, έξοδος υψηλής DPI και διαχείριση εξωτερικών πόρων.
-
-Όλα αυτά σας παρέχουν έναν αξιόπιστο τρόπο για **render html to png** και, κατά συνέπεια, **convert html to image** για οποιαδήποτε εφαρμογή .NET.
-
-## Τι Να Δοκιμάσετε Στη Σύντομη Μελλοντική;
-
-- **Batch rendering:** Επανάληψη πάνω σε λίστα αρχείων HTML και δημιουργία PNG σε μία εκτέλεση.
-- **Dynamic sizing:** Υπολογισμός του βέλτιστου πλάτους βάσει της μεγαλύτερης γραμμής κειμένου ή διαστάσεων εικόνας.
-- **Watermarking:** Μετά την απόδοση, σχεδιάστε ένα λογότυπο πάνω στο bitmap χρησιμοποιώντας `System.Drawing.Graphics`.
-- **Alternative formats:** Αντικαταστήστε το `ImageFormat.Png` με `ImageFormat.Jpeg` ή `ImageFormat.Bmp` εάν χρειάζεστε διαφορετικό τύπο αρχείου.
-
-Αισθανθείτε ελεύθεροι να πειραματιστείτε—τα περισσότερα βαριά έργα έχουν ήδη γίνει από το Aspose.HTML, ώστε να μπορείτε να εστιάσετε στη λογική της επιχείρησης.
-
-Καλή προγραμματιστική, και οι στιγμιότυπές σας να είναι πάντα pixel‑perfect!
+![Rendered PNG preview showing the bold‑italic heading](/images/rendered-preview.png "παράδειγμα render html to png")
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
