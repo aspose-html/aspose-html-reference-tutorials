@@ -45,6 +45,10 @@ Tìm hiểu cách chuyển đổi SVG sang PDF bằng Aspose.HTML cho .NET. Hư�
 Tìm hiểu cách chuyển đổi SVG sang XPS bằng Aspose.HTML cho .NET. Tăng cường phát triển web của bạn với thư viện mạnh mẽ này.
 ### [Cách bật khử răng cưa trong C# – Đường viền mượt](./how-to-enable-antialiasing-in-c-smooth-edges/)
 Hướng dẫn bật khử răng cưa trong C# để tạo các cạnh mượt, cải thiện chất lượng hình ảnh và đồ họa.
+### [Tạo văn bản trên canvas – Hướng dẫn đầy đủ về việc hiển thị văn bản trên hình ảnh](./create-canvas-text-full-guide-to-rendering-text-on-images/)
+Hướng dẫn chi tiết cách tạo và hiển thị văn bản trên canvas trong Aspose.HTML cho .NET.
+### [Cách bật khử răng cưa trong C# – Hướng dẫn đầy đủ về Kiểu chữ](./how-to-enable-antialiasing-in-c-complete-font-style-guide/)
+Hướng dẫn chi tiết cách bật khử răng cưa và tùy chỉnh kiểu chữ trong C# để cải thiện chất lượng hiển thị văn bản.
 
 ## Phần kết luận
 

@@ -58,11 +58,17 @@ Pelajari cara menambahkan CSS sebaris ke dokumen HTML menggunakan Aspose.HTML un
 Pelajari cara mengelola properti HTML dalam dan luar di Aspose.HTML untuk Java dengan panduan langkah demi langkah ini, cocok untuk pengembang web dan pembuat konten.
 ### [Menerapkan CSS Internal dalam Dokumen HTML dengan Aspose.HTML untuk Java](./implement-internal-css-html-documents/)
 Pelajari cara menerapkan CSS internal dalam dokumen HTML menggunakan Aspose.HTML untuk Java dengan tutorial langkah demi langkah yang mudah.
+### [Ubah Teks h1 dalam MHTML dengan Java – Panduan Langkah‑Demi‑Langkah Lengkap](./change-h1-text-in-mhtml-with-java-full-step-by-step-guide/)
+Pelajari cara mengubah teks h1 dalam file MHTML menggunakan Aspose.HTML untuk Java dengan panduan lengkap langkah demi langkah.
 ### [Cara Menghapus Skrip dari HTML di Java – Panduan Lengkap](./how-to-remove-scripts-from-html-in-java-complete-guide/)
 Pelajari cara menghapus skrip berbahaya dari dokumen HTML menggunakan Aspose.HTML untuk Java dengan panduan langkah demi langkah.
 ### [Cara Menyorot HTML – Cari Teks & Ganti dengan <mark>](./how-to-highlight-html-search-text-replace-with-mark/)
 Pelajari cara menyorot teks dalam dokumen HTML dengan mencari dan mengganti menggunakan tag <mark> menggunakan Aspose.HTML untuk Java.
 ### [Fixed thread pool Java – Pembersihan HTML Paralel dengan ExecutorService](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
+### [Menambahkan Child ke Body di Java – Tutorial Lengkap Aspose.HTML](./append-child-to-body-in-java-full-aspose-html-tutorial/)
+### [Buat elemen HTML baru dengan Java – Panduan Lengkap Aspose.HTML](./create-new-html-element-with-java-full-aspose-html-guide/)
+### [Cara Menambahkan Child di Java DOM – Panduan Lengkap Aspose.HTML](./how-to-append-child-in-java-dom-complete-aspose-html-guide/)
+Pelajari cara menambahkan elemen child ke DOM Java menggunakan Aspose.HTML dengan panduan langkah demi langkah.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

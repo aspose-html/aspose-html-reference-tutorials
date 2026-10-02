@@ -58,10 +58,18 @@ Tìm hiểu cách thêm CSS nội tuyến vào tài liệu HTML bằng Aspose.HT
 Tìm hiểu cách quản lý các thuộc tính HTML bên trong và bên ngoài trong Aspose.HTML cho Java với hướng dẫn từng bước này, hoàn hảo cho các nhà phát triển web và người sáng tạo nội dung.
 ### [Triển khai CSS nội bộ trong tài liệu HTML với Aspose.HTML cho Java](./implement-internal-css-html-documents/)
 Học cách triển khai CSS nội bộ trong tài liệu HTML bằng Aspose.HTML cho Java với hướng dẫn từng bước dễ dàng của chúng tôi.
-### [Cách làm nổi bật HTML – Tìm kiếm văn bản & Thay thế bằng <mark>](./how-to-highlight-html-search-text-replace-with-mark/)
-Hướng dẫn tìm và thay thế văn bản trong HTML bằng thẻ <mark> để làm nổi bật nội dung.
+### [Thay đổi văn bản h1 trong MHTML với Java – Hướng dẫn chi tiết từng bước](./change-h1-text-in-mhtml-with-java-full-step-by-step-guide/)
+Hướng dẫn chi tiết cách thay đổi nội dung thẻ h1 trong tệp MHTML bằng Java.
 ### [Fixed thread pool Java – Làm sạch HTML song song với ExecutorService](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 Sử dụng Fixed thread pool trong Java để thực hiện làm sạch HTML song song bằng ExecutorService.
+### [Thêm phần tử con vào body trong Java – Hướng dẫn đầy đủ Aspose.HTML](./append-child-to-body-in-java-full-aspose-html-tutorial/)
+Khám phá cách thêm phần tử con vào thẻ body trong tài liệu HTML bằng Aspose.HTML cho Java qua hướng dẫn chi tiết.
+### [Tạo phần tử HTML mới bằng Java – Hướng dẫn đầy đủ Aspose.HTML](./create-new-html-element-with-java-full-aspose-html-guide/)
+Hướng dẫn chi tiết cách tạo phần tử HTML mới bằng Java sử dụng Aspose.HTML, bao gồm các bước thực hiện và ví dụ thực tế.
+### [Cách Thêm Child trong Java DOM – Hướng Dẫn Toàn Diện Aspose.HTML](./how-to-append-child-in-java-dom-complete-aspose-html-guide/)
+Tìm hiểu cách thêm phần tử con vào DOM trong Java bằng Aspose.HTML với hướng dẫn chi tiết từng bước.
+### [Cách làm nổi bật HTML – Tìm kiếm văn bản & Thay thế bằng <mark>](./how-to-highlight-html-search-text-replace-with-mark/)
+Hướng dẫn tìm và thay thế văn bản trong HTML bằng thẻ <mark> để làm nổi bật nội dung.
 ### [Cách loại bỏ script khỏi HTML trong Java – Hướng dẫn toàn diện](./how-to-remove-scripts-from-html-in-java-complete-guide/)
 Hướng dẫn chi tiết cách xóa các thẻ script khỏi tài liệu HTML bằng Java, bảo vệ bảo mật và tối ưu hiệu suất.
 

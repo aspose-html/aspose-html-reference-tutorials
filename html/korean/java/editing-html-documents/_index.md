@@ -60,6 +60,12 @@ Aspose.HTML for Java를 사용하여 HTML 문서에 인라인 CSS를 추가하�
 간단한 단계별 튜토리얼을 통해 Java용 Aspose.HTML을 사용하여 HTML 문서에서 내부 CSS를 구현하는 방법을 알아보세요.
 ### [고정 스레드 풀 Java – ExecutorService를 이용한 병렬 HTML 정리](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 ExecutorService와 고정 스레드 풀을 활용해 HTML 문서를 병렬로 정리하는 방법을 단계별로 안내합니다.
+### [Java용 Aspose.HTML에서 본문에 자식 요소 추가 – 전체 튜토리얼](./append-child-to-body-in-java-full-aspose-html-tutorial/)
+Aspose.HTML for Java를 사용하여 본문에 자식 요소를 추가하는 방법을 단계별로 안내합니다.
+### [Java용 Aspose.HTML에서 MHTML의 h1 텍스트 변경 – 전체 단계별 가이드](./change-h1-text-in-mhtml-with-java-full-step-by-step-guide/)
+### [Java용 Aspose.HTML에서 새 HTML 요소 만들기 – 전체 가이드](./create-new-html-element-with-java-full-aspose-html-guide/)
+### [Java DOM에서 자식 요소 추가하는 방법 – 완전한 Aspose.HTML 가이드](./how-to-append-child-in-java-dom-complete-aspose-html-guide/)
+Aspose.HTML for Java를 사용해 DOM에 자식 노드를 추가하는 방법을 단계별로 안내합니다.
 ### [Java에서 HTML에서 스크립트를 제거하는 방법 – 완전 가이드](./how-to-remove-scripts-from-html-in-java-complete-guide/)
 Aspose.HTML for Java를 사용해 HTML 문서에서 스크립트를 안전하게 제거하고, 깨끗한 콘텐츠를 유지하는 단계별 가이드입니다.
 ### [HTML 강조하기 – 텍스트 검색 및 <mark>로 교체](./how-to-highlight-html-search-text-replace-with-mark/)
