@@ -31,7 +31,7 @@ Java पर्यावरण में HTML को PDF में बदलन�
 - **उच्च सटीकता रेंडरिंग** – CSS3, JavaScript, और आधुनिक वेब फ़ॉन्ट सटीक रूप से रेंडर होते हैं.  
 - **कोई बाहरी निर्भरताएँ नहीं** – शुद्ध Java API, कोई नेटिव बाइनरी आवश्यक नहीं.  
 - **व्यापक फ़ॉर्मेट समर्थन** – PDF के अलावा, आप MHTML, XPS, SVG, PNG, JPEG, आदि आउटपुट कर सकते हैं.  
-- **एंटरप्राइज़ के लिए स्केलेबल** – बड़े दस्तावेज़ और बैच प्रोसेसिंग को आसानी से संभालता है।
+- **एंटरप्राइज़ के लिए स्केलेबल** – बड़े दस्तावेज़ और बैच प्रोसेसिंग को आसानी से संभालता है.
 
 ## मुख्य रूपांतरण विषय
 
@@ -121,6 +121,12 @@ Aspose.HTML for Java के साथ SVG को XPS में कैसे ब�
 ### [Java में HTML को PDF में बदलें – पेज आकार सेटिंग्स के साथ चरण‑दर‑चरण गाइड](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Aspose.HTML for Java के साथ पेज आकार सेटिंग्स को नियंत्रित करते हुए HTML को PDF में बदलने का विस्तृत गाइड।
 
+### [Java में HTML से PDF बनाएं – एक‑लाइन Aspose गाइड](./create-pdf-from-html-in-java-one-line-aspose-guide/)
+Aspose.HTML का उपयोग करके केवल एक लाइन कोड से Java में HTML को PDF में बदलें।
+
+### [जावा में डिवाइस पिक्सेल अनुपात सेट करें – मोबाइल के लिए HTML रूपांतरण](./set-device-pixel-ratio-in-java-convert-html-to-mobile/)
+Aspose.HTML for Java में डिवाइस पिक्सेल रेशियो सेट करके HTML को मोबाइल‑फ्रेंडली फ़ॉर्मेट में बदलें।
+
 ### [Java में HTML को PDF में बदलें – पूर्ण चरण‑दर‑चरण गाइड](./convert-html-to-pdf-in-java-complete-step-by-step-guide/)
 ### [Aspose HTML to PDF के साथ PDF को संपीड़ित कैसे करें – Java गाइड](./how-to-compress-pdf-with-aspose-html-to-pdf-java-guide/)
 
@@ -175,11 +181,6 @@ Aspose.HTML for Java के साथ PDF में फ़ॉन्ट एम्
 
 ### [HTML से DOCX बनाएं – Java गाइड HTML को DOCX में बदलने के लिए](./create-docx-from-html-java-guide-to-convert-html-to-docx/)
 Aspose.HTML for Java का उपयोग करके HTML को DOCX में बदलें। उच्च‑गुणवत्ता वाले वर्ड दस्तावेज़ बनाने के चरण‑दर‑चरण गाइड।
-### [Java में HTML से PDF बनाएं – एक‑लाइन Aspose गाइड](./create-pdf-from-html-in-java-one-line-aspose-guide/)
-Aspose.HTML का उपयोग करके केवल एक लाइन कोड से Java में HTML को PDF में बदलें।
-
-### [जावा में डिवाइस पिक्सेल अनुपात सेट करें – मोबाइल के लिए HTML रूपांतरण](./set-device-pixel-ratio-in-java-convert-html-to-mobile/)
-Aspose.HTML for Java में डिवाइस पिक्सेल रेशियो सेट करके HTML को मोबाइल‑फ्रेंडली फ़ॉर्मेट में बदलें।
 
 ## अक्सर पूछे जाने वाले प्रश्न
 

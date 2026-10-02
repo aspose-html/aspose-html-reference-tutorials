@@ -59,7 +59,11 @@ Ezzel a lépésről lépésre szóló útmutatóval megtudhatja, hogyan kezelhet
 ### [Valósítsa meg a belső CSS-t HTML-dokumentumokban az Aspose.HTML for Java segítségével](./implement-internal-css-html-documents/)
 Ismerje meg a belső CSS-t HTML-dokumentumokban az Aspose.HTML for Java használatával az egyszerű, lépésről lépésre oktatóanyagunk segítségével.
 ### [Hogyan emeljük ki a HTML-t – Szöveg keresése és <mark> cseréje](./how-to-highlight-html-search-text-replace-with-mark/)
+
 ### [Fixed thread pool Java – Párhuzamos HTML tisztítás ExecutorService használatával](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
+Ismerje meg, hogyan használhatja a FixedThreadPool-t a HTML dokumentumok párhuzamos tisztításához az ExecutorService segítségével.
+### [Hogyan távolítsa el a szkripteket a HTML-ből Java-ban – Teljes útmutató](./how-to-remove-scripts-from-html-in-java-complete-guide/)
+
 ### [Gyermek elem hozzáadása a body-hoz Java-ban – Teljes Aspose.HTML oktatóanyag](./append-child-to-body-in-java-full-aspose-html-tutorial/)
 Ismerje meg, hogyan adhat hozzá új elemet a HTML body részéhez Java-ban az Aspose.HTML segítségével, lépésről lépésre.
 ### [h1 szöveg módosítása MHTML-ben Java-val – Teljes lépésről‑lépésre útmutató](./change-h1-text-in-mhtml-with-java-full-step-by-step-guide/)
@@ -68,7 +72,6 @@ Ismerje meg, hogyan módosíthatja az MHTML fájlok h1 címkéjének szövegét 
 Ismerje meg, hogyan hozhat létre új HTML elemet Java segítségével az Aspose.HTML teljes útmutatójában.
 ### [Gyermek elem hozzáadása a Java DOM-ban – Teljes Aspose.HTML útmutató](./how-to-append-child-in-java-dom-complete-aspose-html-guide/)
 Fedezze fel, hogyan adhat hozzá gyermek elemet a Java DOM-hoz az Aspose.HTML használatával, részletes, lépésről lépésre útmutató.
-### [Hogyan távolítsa el a szkripteket a HTML-ből Java-ban – Teljes útmutató](./how-to-remove-scripts-from-html-in-java-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

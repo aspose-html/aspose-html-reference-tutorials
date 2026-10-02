@@ -129,6 +129,10 @@ Apprenez à ajuster la taille de page PDF avec Aspose.HTML for Java. Créez des 
 ### [Ajuster la taille de page XPS avec Aspose.HTML for Java](./adjust-xps-page-size/)
 Apprenez à ajuster la taille de page XPS avec Aspose.HTML for Java. Contrôlez facilement les dimensions de sortie de vos documents XPS.  
 ### [Comment exécuter du JavaScript en Java – Guide complet](./how-to-run-javascript-in-java-complete-guide/)
+Apprenez à exécuter du code JavaScript depuis Java en utilisant Aspose.HTML, avec des exemples complets et des meilleures pratiques.  
+### [Appeler Java depuis JavaScript – Guide complet sur l’appel asynchrone et l’exécution du moteur JS](./call-java-from-javascript-complete-guide-to-async-fetch-js-e/)
+Apprenez à appeler du code Java depuis JavaScript, gérer les appels asynchrones avec fetch et exploiter le moteur JavaScript d’Aspose.HTML.
+
 ### [Comment exécuter du JavaScript de manière asynchrone avec CompletableFuture](./how-to-run-javascript-asynchronously-using-completablefuture/)
 Apprenez à exécuter du JavaScript de façon asynchrone depuis Java en utilisant CompletableFuture pour améliorer les performances.  
 
@@ -148,8 +152,6 @@ Apprenez à exécuter du JavaScript depuis Java, récupérer des données et aut
 Apprenez à exécuter du JavaScript en toute sécurité dans un environnement isolé avec Aspose.HTML, grâce à ce guide complet.  
 ### [Comment activer JavaScript en Java – Guide complet Aspose.HTML](./how-to-enable-javascript-in-java-complete-aspose-html-guide/)
 Apprenez à activer et exécuter du JavaScript depuis Java avec Aspose.HTML, incluant des exemples détaillés et les meilleures pratiques.  
-### [Appeler Java depuis JavaScript – Guide complet sur l’appel asynchrone et l’exécution du moteur JS](./call-java-from-javascript-complete-guide-to-async-fetch-js-e/)
-Apprenez à appeler du code Java depuis JavaScript, gérer les appels asynchrones avec fetch et exploiter le moteur JavaScript d’Aspose.HTML.
 
 ---
 

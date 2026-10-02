@@ -47,8 +47,9 @@ Meistern Sie die asynchrone Erstellung von HTML-Dokumenten mit Aspose.HTML für 
 ### [Erstellen Sie leere HTML-Dokumente in Aspose.HTML für Java](./create-empty-html-documents/)
 Erfahren Sie mit unserem ausführlichen Schritt-für-Schritt-Tutorial, wie Sie mit Aspose.HTML leere HTML-Dokumente in Java erstellen. Es ist ideal für Entwickler aller Niveaus.
 ### [Laden Sie HTML-Dokumente aus einer Datei in Aspose.HTML für Java](./load-html-documents-from-file/)
-Entfesseln Sie die Möglichkeiten der HTML-Manipulation mit Aspose.HTML für Java. Lernen Sie mit Schritt‑für‑Schritt‑Tutorials, HTML-Dokumente aus Dateien zu laden.
+Entfesseln Sie die Möglichkeiten der HTML-Manipulation mit Aspose.HTML für Java. Lernen Sie mit Schritt-für-Schritt-Tutorials, HTML-Dokumente aus Dateien zu laden.
 ### [Erweitertes Laden von Dateien für HTML-Dokumente in Aspose.HTML für Java](./advanced-file-loading-html-documents/)
+Erfahren Sie in dieser Schritt‑für‑Schritt‑Anleitung, wie Sie HTML-Dokumente mit Aspose.HTML für Java laden, bearbeiten und speichern. Schalten Sie die erweiterte HTML-Verarbeitung in Ihren Java-Projekten frei.
 ### [Laden Sie HTML-Dokumente aus dem Stream mit Aspose.HTML für Java](./load-html-documents-from-stream/)
 Erfahren Sie, wie Sie mit Aspose.HTML für Java HTML-Dokumente aus Streams laden. Diese Anleitung bietet eine Schritt‑für‑Schritt‑Anleitung zur nahtlosen HTML-Bearbeitung.
 ### [Erstellen Sie HTML-Dokumente aus Zeichenfolgen in Aspose.HTML für Java](./create-html-documents-from-string/)
@@ -67,6 +68,9 @@ Erfahren Sie, wie Sie SVG-Dokumente mit Aspose.HTML für Java erstellen und verw
 Erfahren Sie, wie Sie in Aspose.HTML für Java eine sichere Sandbox für HTML erstellen und verwalten – Schritt‑für‑Schritt‑Anleitung.
 ### [Wie man HTML in Java abfragt – Komplettes Tutorial](./how-to-query-html-in-java-complete-tutorial/)
 Erfahren Sie, wie Sie HTML-Inhalte in Java abfragen und verarbeiten – Schritt‑für‑Schritt‑Anleitung für vollständiges Verständnis.
+### [Wie man XPath in Java verwendet – HTML lesen und Text extrahieren](./how-to-use-xpath-in-java-read-html-and-extract-text/)
+Lernen Sie, wie Sie mit Aspose.HTML für Java XPath einsetzen, um HTML zu lesen und gezielt Textinhalte zu extrahieren.
+
 ### [Text aus HTML in Java extrahieren – Vollständiger Programmierleitfaden](./extract-text-from-html-in-java-complete-programming-guide/)
 Erfahren Sie in dieser Schritt‑für‑Schritt‑Anleitung, wie Sie mit Aspose.HTML für Java Text aus HTML extrahieren.
 
@@ -107,8 +111,6 @@ Lernen Sie, wie Sie mit Aspose.HTML für Java eine NodeList durchlaufen, HTML-In
 Erfahren Sie, wie Sie mit Aspose.HTML für Java NodeList‑Objekte durchlaufen und HTML‑Elemente effizient verarbeiten.
 ### [HTML-Text mit Java extrahieren – Komplett‑Leitfaden](./extract-text-from-html-with-java-complete-step-by-step-guide/)
 Erfahren Sie in dieser Schritt‑für‑Schritt‑Anleitung, wie Sie Text aus HTML‑Dokumenten mit Aspose.HTML für Java extrahieren.
-### [Wie man XPath in Java verwendet – HTML lesen und Text extrahieren](./how-to-use-xpath-in-java-read-html-and-extract-text/)
-Lernen Sie, wie Sie mit Aspose.HTML für Java XPath einsetzen, um HTML zu lesen und gezielt Textinhalte zu extrahieren.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

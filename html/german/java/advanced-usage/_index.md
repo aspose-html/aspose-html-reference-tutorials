@@ -130,6 +130,10 @@ Erfahren Sie, wie Sie die PDF‑Seitengröße mit Aspose.HTML für Java anpassen
 ### [XPS‑Seitengröße mit Aspose.HTML für Java anpassen](./adjust-xps-page-size/)
 Erfahren Sie, wie Sie die XPS‑Seitengröße mit Aspose.HTML für Java anpassen. Steuern Sie die Ausgabedimensionen Ihrer XPS‑Dokumente einfach.
 ### [Wie man JavaScript in Java ausführt – Komplettanleitung](./how-to-run-javascript-in-java-complete-guide/)
+Erfahren Sie, wie Sie JavaScript-Code innerhalb von Java-Anwendungen ausführen und integrieren können.
+### [Java aus JavaScript aufrufen – Komplettanleitung zu Async Fetch & JS‑Engine‑Ausführung](./call-java-from-javascript-complete-guide-to-async-fetch-js-e/)
+Erfahren Sie, wie Sie Java‑Methoden aus JavaScript asynchron aufrufen und die Java‑Script‑Engine in Aspose.HTML für Java nutzen.
+
 ### [Wie man die Sandbox für HTML‑zu‑PDF in Java verwendet – Schritt‑für‑Schritt‑Anleitung](./how-to-use-sandbox-for-html-to-pdf-java-step-by-step-guide/)
 Erfahren Sie, wie Sie die Aspose.HTML Sandbox nutzen, um HTML‑Dokumente sicher in PDF zu konvertieren – Schritt für Schritt erklärt.
 ### [Java‑Skriptausführung aktivieren – Komplett‑Guide für Aspose.HTML](./enable-script-execution-in-java-complete-aspose-html-guide/)
@@ -148,8 +152,6 @@ Lernen Sie, wie Sie HTML mit Aspose.HTML für Java laden, die GerätedPI einstel
 Erfahren Sie, wie Sie JavaScript sicher in einer Sandbox ausführen und dabei Aspose.HTML für Java nutzen.
 ### [Wie man JavaScript in Java aktiviert – Komplettanleitung](./how-to-enable-javascript-in-java-complete-aspose-html-guide/)
 Erfahren Sie, wie Sie JavaScript in Java aktivieren und mit Aspose.HTML vollständig nutzen können.
-### [Java aus JavaScript aufrufen – Komplettanleitung zu Async Fetch & JS‑Engine‑Ausführung](./call-java-from-javascript-complete-guide-to-async-fetch-js-e/)
-Erfahren Sie, wie Sie Java‑Methoden aus JavaScript asynchron aufrufen und die Java‑Script‑Engine in Aspose.HTML für Java nutzen.
 
 ---
 
