@@ -112,6 +112,8 @@ Java’da NodeList’i dolaşarak HTML içeriğinden görsel kaynaklarını (src
 Java’da NodeList nesnelerini nasıl yineleyeceğinizi adım adım öğrenin, örnek kodlarla pratik yapın.
 ### [Java için Aspose.HTML'de HTML'den Metin Çıkarma – Tam Adım‑Adım Kılavuz](./extract-text-from-html-with-java-complete-step-by-step-guide/)
 Java için Aspose.HTML kullanarak HTML'den metin çıkarma konusunda adım adım rehber, örnek kodlar ve ipuçları içerir.
+### [Java için Aspose.HTML'de XPath Kullanımı – HTML Okuma ve Metin Çıkarma](./how-to-use-xpath-in-java-read-html-and-extract-text/)
+Java için Aspose.HTML kullanarak XPath ile HTML'den metin nasıl çıkarılacağını adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

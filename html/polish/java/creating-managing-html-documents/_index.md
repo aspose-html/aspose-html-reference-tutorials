@@ -108,6 +108,8 @@ Dowiedz się, jak iterować NodeList w Javie, odczytywać HTML i wyodrębniać a
 Poznaj, jak iterować po NodeList w Javie przy użyciu Aspose.HTML, krok po kroku, z praktycznymi przykładami.
 ### [Wyodrębnianie tekstu z HTML w Javie – Kompletny przewodnik krok po kroku](./extract-text-from-html-with-java-complete-step-by-step-guide/)
 Dowiedz się, jak wyodrębnić tekst z dokumentów HTML w Javie przy użyciu Aspose.HTML, krok po kroku, z praktycznymi przykładami.
+### [Jak używać XPath w Javie – odczyt HTML i wyodrębnianie tekstu](./how-to-use-xpath-in-java-read-html-and-extract-text/)
+Naucz się, jak wykorzystać XPath w Javie do odczytu dokumentów HTML i wyciągania potrzebnego tekstu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

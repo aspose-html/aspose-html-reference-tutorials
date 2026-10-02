@@ -146,6 +146,7 @@ Aspose.HTML позволяет прикрепить `DomMutationObserver` к л�
 Узнайте, как безопасно выполнять JavaScript в изолированной среде с помощью Aspose.HTML for Java.
 ### [Как включить JavaScript в Java – Полное руководство](./how-to-enable-javascript-in-java-complete-aspose-html-guide/)
 Узнайте, как включить выполнение JavaScript в Java‑приложениях с помощью Aspose.HTML.
+### [Вызов Java из JavaScript – Полное руководство по асинхронному fetch и выполнению кода в JS‑движке](./call-java-from-javascript-complete-guide-to-async-fetch-js-e/)
 
 ---
 

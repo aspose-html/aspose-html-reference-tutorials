@@ -174,6 +174,10 @@ Kompletní průvodce převodem HTML do PDF v Javě s nastavením velikosti papí
 Naučte se, jak vložit vlastní fonty do PDF při konverzi HTML pomocí Aspose.HTML for Java.
 ### [Vytvoření DOCX z HTML – Java průvodce konverzí HTML do DOCX](./create-docx-from-html-java-guide-to-convert-html-to-docx/)
 Naučte se převést HTML do formátu DOCX v Javě pomocí Aspose.HTML a generovat editovatelné dokumenty.
+### [Vytvořte PDF z HTML v Javě – Jednořádkový průvodce Aspose](./create-pdf-from-html-in-java-one-line-aspose-guide/)
+Rychle vytvořte PDF z HTML v Javě pomocí jediného řádku kódu s Aspose.HTML.
+### [Nastavte poměr pixelů zařízení v Javě – převod HTML na mobil](./set-device-pixel-ratio-in-java-convert-html-to-mobile/)
+Naučte se nastavit Device Pixel Ratio při konverzi HTML do mobilního formátu v Javě pomocí Aspose.HTML.
 
 ## Často kladené otázky
 

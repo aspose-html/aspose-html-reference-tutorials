@@ -69,6 +69,9 @@ Dowiedz się, jak w Javie utworzyć nowy element HTML przy użyciu Aspose.HTML, 
 ### [Dodaj element potomny do body w Javie – pełny samouczek Aspose.HTML](./append-child-to-body-in-java-full-aspose-html-tutorial/)
 ### [Jak dodać element potomny w Java DOM – kompletny przewodnik Aspose.HTML](./how-to-append-child-in-java-dom-complete-aspose-html-guide/)
 Poznaj, jak dodać element potomny do drzewa DOM w Javie przy użyciu Aspose.HTML, krok po kroku, z przykładami kodu.
+### [Jak usunąć skrypty z HTML w Javie – kompletny przewodnik](./how-to-remove-scripts-from-html-in-java-complete-guide/)
+### [Jak podświetlić HTML – wyszukiwanie tekstu i zamiana na <mark>](./how-to-highlight-html-search-text-replace-with-mark/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

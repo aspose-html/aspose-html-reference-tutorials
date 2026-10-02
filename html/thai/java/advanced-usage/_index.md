@@ -144,6 +144,8 @@ Aspose.HTML ให้คุณแนบ `DomMutationObserver` ไปยังโ
 ### [วิธีแซนด์บ็อกซ์ JavaScript – คู่มือ Aspose.HTML ฉบับสมบูรณ์](./how-to-sandbox-javascript-complete-aspose-html-guide/)
 ### [วิธีเปิดใช้งาน JavaScript ใน Java – คู่มือ Aspose.HTML ฉบับสมบูรณ์](./how-to-enable-javascript-in-java-complete-aspose-html-guide/)
 เรียนรู้วิธีเปิดใช้งาน JavaScript ในแอปพลิเคชัน Java ด้วย Aspose.HTML อย่างละเอียด  
+### [เรียก Java จาก JavaScript – คู่มือฉบับสมบูรณ์สำหรับการดึงข้อมูลแบบ Async และการทำงานของเครื่องยนต์ JS](./call-java-from-javascript-complete-guide-to-async-fetch-js-e/)
+เรียนรู้วิธีเรียกใช้โค้ด Java จาก JavaScript ด้วย Aspose.HTML รวมถึงการทำ Async Fetch และการจัดการเครื่องยนต์ JavaScript  
 
 ---
 

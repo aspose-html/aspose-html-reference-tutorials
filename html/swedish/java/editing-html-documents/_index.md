@@ -66,6 +66,9 @@ Lär dig hur du skapar ett nytt HTML-element i Java med Aspose.HTML i en komplet
 Lär dig hur du lägger till ett barn-element i ett Java DOM‑träd med Aspose.HTML i en komplett steg‑för‑steg‑guide.
 ### [Fast trådpool i Java – parallell HTML‑rengöring med ExecutorService](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 ### [Lägg till ett barn till body i Java – Fullständig Aspose.HTML-handledning](./append-child-to-body-in-java-full-aspose-html-tutorial/)
+### [Hur man markerar HTML – sök text och ersätt med <mark>](./how-to-highlight-html-search-text-replace-with-mark/)
+Lär dig hur du markerar HTML genom att söka efter text och ersätta den med <mark>-taggen i Aspose.HTML för Java.
+### [Hur man tar bort skript från HTML i Java – Komplett guide](./how-to-remove-scripts-from-html-in-java-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

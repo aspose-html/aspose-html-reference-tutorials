@@ -60,6 +60,8 @@ Upptäck hur du enkelt laddar HTML-dokument från en URL i Java med Aspose.HTML.
 Lär dig hur du räknar antalet HTML-tecken i Java med Aspose.HTML i en komplett steg-för-steg-guide.
 ### [Hur du frågar HTML i Java – Komplett handledning](./how-to-query-html-in-java-complete-tutorial/)
 Lär dig hur du söker och extraherar data från HTML-dokument i Java med en komplett steg-för-steg-guide.
+### [Hur du använder XPath i Java – Läs HTML och extrahera text](./how-to-use-xpath-in-java-read-html-and-extract-text/)
+Lär dig hur du använder XPath i Java för att läsa HTML‑dokument och extrahera text med Aspose.HTML. Steg‑för‑steg‑guide.
 ### [Generera nya HTML-dokument med Aspose.HTML för Java](./generate-new-html-documents/)
 Lär dig hur du skapar nya HTML-dokument med Aspose.HTML för Java med denna enkla steg-för-steg-guide. Börja generera dynamiskt HTML-innehåll.
 ### [Hantera dokumentladdningshändelser i Aspose.HTML för Java](./handle-document-load-events/)

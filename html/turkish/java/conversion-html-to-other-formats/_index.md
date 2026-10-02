@@ -109,6 +109,10 @@ Aspose.HTML ile Java'da SVG'yi PDF'ye dönüştürün. Yüksek kaliteli belge d�
 Aspose.HTML for Java ile SVG'yi XPS'ye dönüştürmeyi öğrenin. Sorunsuz dönüşümler için basit, adım adım rehber.
 ### [PDF'ye Yazı Tipi Gömme – Aspose HTML'den PDF'ye Tam Kılavuz (Java)](./embed-fonts-pdf-complete-aspose-html-to-pdf-guide-java/)
 Aspose.HTML for Java kullanarak PDF dosyalarına gömülü yazı tipleri eklemeyi adım adım öğrenin.
+### [Java’da HTML’den PDF Oluşturma – Tek Satır Aspose Kılavuzu](./create-pdf-from-html-in-java-one-line-aspose-guide/)
+Aspose.HTML kullanarak tek satır kodla Java’da HTML’den PDF oluşturmayı öğrenin.
+### [Java’da Cihaz Piksel Oranını Ayarlama – HTML'yi Mobil'e Dönüştürme](./set-device-pixel-ratio-in-java-convert-html-to-mobile/)
+Aspose.HTML ile Java’da cihaz piksel oranını ayarlayarak HTML'yi mobil cihazlar için optimize edin.
 
 ### [HTML'den DOCX Oluşturma – Java Kılavuzu: HTML'yi DOCX'e Dönüştürme](./create-docx-from-html-java-guide-to-convert-html-to-docx/)
 Aspose.HTML for Java kullanarak HTML dosyalarını DOCX belgelerine dönüştürmeyi adım adım öğrenin.

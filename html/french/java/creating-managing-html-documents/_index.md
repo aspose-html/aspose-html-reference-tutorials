@@ -106,6 +106,8 @@ Apprenez à parcourir un NodeList en Java pour lire le HTML et extraire les attr
 Apprenez à parcourir un NodeList en Java avec Aspose.HTML grâce à ce guide complet étape par étape.
 ### [Extraire du texte à partir de HTML avec Java – Guide complet étape par étape](./extract-text-from-html-with-java-complete-step-by-step-guide/)
 Apprenez à extraire du texte d'un document HTML en Java avec Aspose.HTML grâce à ce guide complet étape par étape.
+### [Comment utiliser XPath en Java – Lire le HTML et extraire le texte](./how-to-use-xpath-in-java-read-html-and-extract-text/)
+Apprenez à utiliser XPath en Java pour lire le HTML et extraire du texte avec Aspose.HTML, guide étape par étape.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

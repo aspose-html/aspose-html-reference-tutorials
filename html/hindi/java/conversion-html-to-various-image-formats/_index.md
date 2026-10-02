@@ -77,6 +77,9 @@ HTML को BMP में बदलना वेब पेजों को स�
 
 HTML को PNG इमेज में बदलना लॉसलेस ग्राफिक्स, स्क्रीनशॉट, या ट्रांसपैरेंसी की आवश्यकता वाले मामलों के लिए आदर्श है। हमारा व्यापक गाइड स्पष्ट निर्देश प्रदान करता है जिससे रूपांतरण सुगम हो।
 
+### [HTML को PNG में बदलते समय DPI कैसे सेट करें](./how-to-set-dpi-when-converting-html-to-png/)
+Aspose.HTML for Java का उपयोग करके HTML को PNG में बदलते समय DPI सेट करने की प्रक्रिया सीखें।
+
 ### [HTML को BMP में बदलना](./convert-html-to-bmp/)
 Aspose.HTML for Java के साथ HTML को BMP में बदलें। एक व्यापक ट्यूटोरियल जो Aspose.HTML for Java का उपयोग करके HTML दस्तावेज़ों को BMP इमेज में सहजता से बदलने की प्रक्रिया बताता है।
 
@@ -100,6 +103,9 @@ Aspose.HTML for Java का उपयोग करके कई HTML फ़ा�
 
 ### [HTML को TIFF में बदलना](./convert-html-to-tiff/)
 Aspose.HTML for Java का उपयोग करके HTML को TIFF में आसानी से कैसे बदलें सीखें। प्रभावी दस्तावेज़ हैंडलिंग के लिए चरण‑दर‑चरण गाइड।
+
+### [HTML को WebP में बदलना](./convert-html-to-webp-complete-java-guide/)
+Aspose.HTML for Java का उपयोग करके HTML को WebP इमेज में बदलने के चरण‑दर‑स्टेप निर्देश।
 
 ### [HTML को WebP में बदलना](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
 Aspose.HTML for Java का उपयोग करके HTML को WebP इमेज में बदलने के चरण‑दर‑चरण निर्देश।

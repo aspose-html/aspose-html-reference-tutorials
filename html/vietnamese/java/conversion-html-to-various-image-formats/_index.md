@@ -108,6 +108,9 @@ Hướng dẫn chi tiết cách dùng ExecutorService trong Java để thực hi
 ### [Cách sử dụng Aspose để chuyển đổi SVG sang WebP – Hướng dẫn Java](./how-to-use-aspose-to-convert-svg-to-webp-java-guide/)
 ### [Thiết lập tỷ lệ pixel thiết bị trong Java – Hướng dẫn đầy đủ](./set-device-pixel-ratio-in-java-complete-guide/)
 ### [Chuyển đổi SVG sang WebP – Hướng dẫn Java đầy đủ với Aspose.HTML](./convert-svg-to-webp-in-java-complete-aspose-html-guide/)
+### [Cách Đặt DPI Khi Chuyển Đổi HTML sang PNG](./how-to-set-dpi-when-converting-html-to-png/)
+### [Chuyển đổi HTML sang WebP – Hướng dẫn Java đầy đủ](./convert-html-to-webp-complete-java-guide/)
+Hướng dẫn chi tiết cách convert HTML sang WebP bằng Aspose.HTML for Java, bao gồm các tùy chọn nén và thiết lập chất lượng.
 
 ### [Cách Render HTML thành PNG – Hướng Dẫn Đầy Đủ cho Các Nhà Phát Triển Java](./how-to-render-html-to-png-complete-guide-for-java-developers/)
 Hướng dẫn chi tiết cách chuyển đổi HTML sang PNG trong Java bằng Aspose.HTML, bao gồm các bước cài đặt và mã mẫu.

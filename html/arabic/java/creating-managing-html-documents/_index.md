@@ -108,6 +108,8 @@ url: /ar/java/creating-managing-html-documents/
 ### [التكرار على NodeList في Java – دليل كامل](./iterate-over-nodelist-java-complete-guide/)
 ### [استخراج النص من HTML باستخدام Java – دليل خطوة بخطوة كامل](./extract-text-from-html-with-java-complete-step-by-step-guide/)
 تعلم كيفية استخراج النص من مستندات HTML باستخدام Aspose.HTML for Java من خلال دليل شامل خطوة بخطوة.
+### [كيفية استخدام XPath في Java – قراءة HTML واستخراج النص](./how-to-use-xpath-in-java-read-html-and-extract-text/)
+تعلم كيفية استخدام XPath في Java لقراءة مستندات HTML واستخراج النصوص بسهولة من خلال دليل خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

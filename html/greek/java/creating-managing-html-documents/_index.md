@@ -112,6 +112,8 @@ url: /el/java/creating-managing-html-documents/
 Μάθετε πώς να επαναλαμβάνετε NodeList σε Java χρησιμοποιώντας το Aspose.HTML με αυτόν τον πλήρη οδηγό βήμα‑βήμα.
 ### [Εξαγωγή κειμένου από HTML με Java – Πλήρης οδηγός βήμα‑βήμα](./extract-text-from-html-with-java-complete-step-by-step-guide/)
 Μάθετε πώς να εξάγετε κείμενο από έγγραφα HTML σε Java χρησιμοποιώντας το Aspose.HTML με αυτόν τον πλήρη οδηγό βήμα‑βήμα.
+### [Πώς να χρησιμοποιήσετε XPath σε Java – Διαβάστε HTML και εξάγετε κείμενο](./how-to-use-xpath-in-java-read-html-and-extract-text/)
+Μάθετε πώς να χρησιμοποιείτε XPath σε Java για ανάγνωση HTML και εξαγωγή κειμένου με οδηγίες βήμα‑βήμα.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -156,6 +156,8 @@ weight: 20
 ### [كيفية تمكين JavaScript في Java – دليل Aspose.HTML الكامل](./how-to-enable-javascript-in-java-complete-aspose-html-guide/)
 اكتشف طريقة تمكين JavaScript في تطبيقات Java باستخدام Aspose.HTML for Java بسهولة.
 
+### [استدعاء Java من JavaScript – دليل كامل للـ Async Fetch وتنفيذ محرك JS](./call-java-from-javascript-complete-guide-to-async-fetch-js-e/)
+
 ---
 
 **آخر تحديث:** 2025-11-29  

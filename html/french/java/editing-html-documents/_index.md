@@ -67,6 +67,8 @@ Apprenez à modifier le texte h1 d'un fichier MHTML en Java grâce à un guide d
 Apprenez à créer et insérer de nouveaux éléments HTML en Java avec Aspose.HTML grâce à ce guide complet étape par étape.
 ### [Comment ajouter un nœud enfant dans le DOM Java – Guide complet Aspose.HTML](./how-to-append-child-in-java-dom-complete-aspose-html-guide/)
 Apprenez à ajouter un nœud enfant au DOM Java avec Aspose.HTML grâce à ce guide complet étape par étape.
+### [Comment mettre en évidence le HTML – Rechercher du texte et le remplacer par &lt;mark&gt;](./how-to-highlight-html-search-text-replace-with-mark/)
+### [Comment supprimer les scripts du HTML en Java – Guide complet](./how-to-remove-scripts-from-html-in-java-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

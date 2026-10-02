@@ -66,6 +66,10 @@ Aspose.HTML for Java を使用して HTML ドキュメントにインライン C
 Java を使用して MHTML ファイル内の h1 テキストを変更する手順を詳しく解説します。
 ### [Java で新しい HTML 要素を作成 – 完全 Aspose.HTML ガイド](./create-new-html-element-with-java-full-aspose-html-guide/)
 Java を使用して新しい HTML 要素を作成し、Aspose.HTML の機能を活用する方法を学びます。
+### [HTML をハイライトする方法 – テキスト検索と <mark> で置換](./how-to-highlight-html-search-text-replace-with-mark/)
+Aspose.HTML for Java を使用して、テキストを検索し <mark> タグでハイライトする手順を解説します。
+### [Java で HTML からスクリプトを削除する方法 – 完全ガイド](./how-to-remove-scripts-from-html-in-java-complete-guide/)
+Aspose.HTML for Java を使用して HTML ドキュメントから不要なスクリプトを安全に除去する手順を解説します。
 ### [Fixed Thread Pool Java – ExecutorService を使用した並列 HTML クリーンアップ](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 ### [Java で body に子要素を追加 – 完全 Aspose.HTML チュートリアル](./append-child-to-body-in-java-full-aspose-html-tutorial/)
 Aspose.HTML for Java を使用して、HTML ドキュメントの body に子要素を追加する方法をステップバイステップで学びます。

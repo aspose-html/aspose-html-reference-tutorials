@@ -105,6 +105,8 @@ Pelajari cara menghasilkan HTML dari JavaScript dalam aplikasi Java menggunakan 
 Pelajari cara mengiterasi NodeList di Java dengan panduan lengkap, termasuk contoh kode dan teknik terbaik.
 ### [Ekstrak teks dari HTML dengan Java – Panduan Lengkap Langkah‑per‑Langkah](./extract-text-from-html-with-java-complete-step-by-step-guide/)
 Pelajari cara mengekstrak teks dari dokumen HTML menggunakan Aspose.HTML untuk Java dengan panduan langkah demi langkah yang lengkap.
+### [Cara Menggunakan XPath di Java – Membaca HTML dan Mengekstrak Teks](./how-to-use-xpath-in-java-read-html-and-extract-text/)
+Pelajari cara menggunakan XPath di Java untuk membaca HTML dan mengekstrak teks dengan mudah.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

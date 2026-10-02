@@ -136,6 +136,8 @@ Learn how to execute JavaScript code within Java applications using Aspose.HTML,
 Learn how to set the device pixel ratio in Java using Aspose.HTML's mobile sandbox for accurate rendering on high‑DPI devices.
 ### [How to Run Scripts in Java – Complete Guide to Execute JavaScript & Extract Data](./how-to-run-scripts-in-java-complete-guide-to-execute-javascr/)
 Learn how to execute JavaScript in Java, run scripts, and extract data using Aspose.HTML for Java.
+### [Call Java from JavaScript – Complete Guide to Async Fetch & JS Engine Execution](./call-java-from-javascript-complete-guide-to-async-fetch-js-e/)
+Learn how to invoke Java methods from JavaScript, handle async fetch calls, and execute code using Aspose.HTML's JavaScript engine.
 
 ---
 

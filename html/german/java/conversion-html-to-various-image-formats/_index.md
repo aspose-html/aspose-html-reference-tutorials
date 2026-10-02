@@ -100,8 +100,6 @@ Erfahren Sie, wie Sie mehrere HTML‑Dateien effizient in PNG‑Bilder umwandeln
 Erfahren Sie, wie Sie mit ExecutorService mehrere HTML‑Dateien gleichzeitig in PNG‑Bilder konvertieren, um die Verarbeitungsgeschwindigkeit zu erhöhen.
 ### [HTML in TIFF konvertieren](./convert-html-to-tiff/)
 Erfahren Sie, wie Sie HTML einfach mit Aspose.HTML for Java in TIFF konvertieren. Schritt‑für‑Schritt‑Leitfaden für effiziente Dokumentenverarbeitung.
-### [HTML in WebP konvertieren](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
-Erfahren Sie, wie Sie HTML mit Aspose.HTML for Java in das moderne WebP‑Format konvertieren – Schritt‑für‑Schritt‑Anleitung für optimale Bildqualität.
 ### [Thumbnail aus HTML generieren – Java‑Leitfaden](./how-to-generate-thumbnail-from-html-java-guide/)
 ### [Wie man aus SVG ein GIF erstellt – Schritt‑für‑Schritt Java‑Leitfaden](./how-to-create-gif-from-svg-step-by-step-java-guide/)
 
@@ -137,6 +135,12 @@ Erfahren Sie, wie Sie mit Aspose.HTML for Java SVG‑Grafiken in das moderne Web
 Erfahren Sie, wie Sie SVG mit Aspose.HTML for Java in das moderne WebP‑Format konvertieren – Schritt‑für‑Schritt‑Anleitung für optimale Bildqualität.
 ### [Geräte-Pixel-Verhältnis in Java festlegen – Vollständiger Leitfaden](./set-device-pixel-ratio-in-java-complete-guide/)
 Erfahren Sie, wie Sie das Device Pixel Ratio in Aspose.HTML for Java einstellen, um hochauflösende Renderings zu erzielen.
+### [HTML in WebP konvertieren](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
+Erfahren Sie, wie Sie HTML mit Aspose.HTML for Java in das moderne WebP‑Format konvertieren – Schritt‑für‑Schritt‑Anleitung für optimale Bildqualität.
+### [HTML in WebP konvertieren – Vollständiger Java‑Leitfaden](./convert-html-to-webp-complete-java-guide/)
+Kompletter Leitfaden, um HTML mit Aspose.HTML for Java in das WebP‑Format zu konvertieren.
+### [Wie man beim Konvertieren von HTML zu PNG die DPI festlegt](./how-to-set-dpi-when-converting-html-to-png/)
+Erfahren Sie, wie Sie die DPI für PNG‑Ausgaben mit Aspose.HTML for Java einstellen, um die Bildqualität zu optimieren.
 
 ## Häufig gestellte Fragen
 

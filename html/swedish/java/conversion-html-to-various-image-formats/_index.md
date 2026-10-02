@@ -105,6 +105,8 @@ Att använda Aspose.HTML for Java förenklar konverteringen av HTML‑dokument t
 ### [Hur man använder ExecutorService för parallell HTML‑till‑PNG batchkonvertering](./how-to-use-executorservice-for-parallel-html-to-png-batch-co/)
 ### [Konvertera SVG till WebP – Komplett Java‑guide med Aspose.HTML](./convert-svg-to-webp-in-java-complete-aspose-html-guide/)
 ### [Ställ in enhetens pixelratio i Java – Komplett guide](./set-device-pixel-ratio-in-java-complete-guide/)
+### [Hur man ställer in DPI vid konvertering av HTML till PNG](./how-to-set-dpi-when-converting-html-to-png/)
+### [Konvertera HTML till WebP – Komplett Java‑guide](./convert-html-to-webp-complete-java-guide/)
 
 ### [Hur man renderar HTML till PNG – Komplett guide för Java‑utvecklare](./how-to-render-html-to-png-complete-guide-for-java-developers/)
 ### [Skapa PNG från HTML i Java – Fullständig steg‑för‑steg‑guide](./create-png-from-html-in-java-full-step-by-step-guide/)

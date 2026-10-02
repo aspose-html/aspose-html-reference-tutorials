@@ -178,6 +178,9 @@ Pelajari cara mengekstrak audio, media, dan video dari file HTML menggunakan Asp
 ### [Mengonversi HTML ke PDF secara Massal – Panduan Java NIO dengan Pemrosesan Paralel](./convert-html-to-pdf-in-bulk-java-nio-guide-with-parallel-pro/)
 ### [Buat docx dari html – Panduan Java untuk mengonversi HTML ke DOCX](./create-docx-from-html-java-guide-to-convert-html-to-docx/)
 Pelajari cara mengonversi HTML menjadi file DOCX di Java menggunakan Aspose.HTML.
+### [Buat PDF dari HTML di Java – Panduan Aspose Satu Baris](./create-pdf-from-html-in-java-one-line-aspose-guide/)
+
+### [Atur Rasio Piksel Perangkat di Java – Konversi HTML ke Mobile](./set-device-pixel-ratio-in-java-convert-html-to-mobile/)
 
 ## Pertanyaan yang Sering Diajukan
 

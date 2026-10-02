@@ -93,6 +93,9 @@ Aspose.HTML for Java ทำให้กระบวนการแปลง HTML
 ## Conversion - HTML to Other Formats Tutorials
 ### [Converting HTML to PDF](./convert-html-to-pdf/)
 เรียนรู้วิธีแปลง HTML เป็น PDF ใน Java ด้วย Aspose.HTML สร้าง PDF คุณภาพสูงจากเนื้อหา HTML ของคุณได้อย่างง่ายดาย
+### [สร้าง PDF จาก HTML ใน Java – คู่มือ Aspose บรรทัดเดียว](./create-pdf-from-html-in-java-one-line-aspose-guide/)
+เรียนรู้วิธีสร้าง PDF จาก HTML ด้วยเพียงบรรทัดเดียวของโค้ด Aspose.HTML for Java
+
 ### [แปลง HTML เป็น PDF แบบกลุ่ม – คู่มือ Java NIO พร้อมการประมวลผลขนาน](./convert-html-to-pdf-in-bulk-java-nio-guide-with-parallel-pro/)
 เรียนรู้วิธีแปลงไฟล์ HTML เป็น PDF จำนวนมากพร้อมใช้ Java NIO และการประมวลผลแบบขนานเพื่อเพิ่มประสิทธิภาพ
 ### [Convert HTML to PDF in Java – Step‑by‑Step Guide with Page Size Settings](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
@@ -113,6 +116,9 @@ Aspose.HTML for Java ทำให้กระบวนการแปลง HTML
 แปลง SVG เป็น PDF ใน Java ด้วย Aspose.HTML โซลูชันที่ไร้รอยต่อสำหรับการแปลงเอกสารคุณภาพสูง
 ### [Converting SVG to XPS](./convert-svg-to-xps/)
 เรียนรู้วิธีแปลง SVG เป็น XPS ด้วย Aspose.HTML for Java คู่มือขั้นตอน‑ต่อ‑ขั้นตอนที่ง่ายสำหรับการแปลงที่ไร้รอยต่อ
+### [ตั้งค่าอัตราพิกเซลของอุปกรณ์ใน Java – แปลง HTML ไปยังมือถือ](./set-device-pixel-ratio-in-java-convert-html-to-mobile/)
+เรียนรู้วิธีตั้งค่า Device Pixel Ratio ใน Aspose.HTML for Java เพื่อแปลง HTML ให้แสดงผลเหมาะกับอุปกรณ์มือถือ
+
 ### [ฝังฟอนต์ PDF – คู่มือ Aspose HTML to PDF อย่างสมบูรณ์ (Java)](./embed-fonts-pdf-complete-aspose-html-to-pdf-guide-java/)
 เรียนรู้วิธีฝังฟอนต์ในไฟล์ PDF ด้วย Aspose.HTML for Java เพื่อให้เอกสารแสดงผลอย่างถูกต้องบนทุกอุปกรณ์
 

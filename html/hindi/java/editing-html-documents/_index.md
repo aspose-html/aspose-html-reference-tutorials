@@ -60,6 +60,12 @@ Java के लिए Aspose.HTML का उपयोग करके HTML द�
 हमारे आसान चरण-दर-चरण ट्यूटोरियल के साथ Java के लिए Aspose.HTML का उपयोग करके HTML दस्तावेज़ों में आंतरिक CSS को लागू करना सीखें।
 ### [Fixed thread pool java – ExecutorService के साथ समानांतर HTML सफाई](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 ExecutorService के साथ Fixed Thread Pool का उपयोग करके समानांतर रूप से HTML को साफ़ करने की प्रक्रिया सीखें।
+### [Java के लिए Aspose.HTML में HTML से स्क्रिप्ट हटाने की पूरी गाइड](./how-to-remove-scripts-from-html-in-java-complete-guide/)
+Java में Aspose.HTML का उपयोग करके HTML दस्तावेज़ों से सभी स्क्रिप्ट टैग को सुरक्षित रूप से हटाने के चरण-दर-स्टेप मार्गदर्शन।
+
+### [HTML को हाइलाइट कैसे करें – टेक्स्ट खोजें और <mark> से बदलें](./how-to-highlight-html-search-text-replace-with-mark/)
+Java के लिए Aspose.HTML का उपयोग करके HTML में टेक्स्ट खोजें और <mark> टैग से हाइलाइट करने की चरण-दर-चरण गाइड।
+
 ### [Java DOM में चाइल्ड जोड़ना – पूर्ण Aspose.HTML गाइड](./how-to-append-child-in-java-dom-complete-aspose-html-guide/)
 Java DOM में नया चाइल्ड नोड जोड़ने की चरण-दर-चरण प्रक्रिया सीखें, Aspose.HTML का उपयोग करके।
 

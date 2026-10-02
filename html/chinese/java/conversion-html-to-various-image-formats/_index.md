@@ -96,6 +96,9 @@ weight: 24
 
 ### [如何使用自定义视口渲染 HTML 为 PNG](./how-to-render-html-to-png-with-custom-viewport/)
 
+### [在将 HTML 转换为 PNG 时设置 DPI](./how-to-set-dpi-when-converting-html-to-png/)
+了解如何在使用 Aspose.HTML for Java 将 HTML 转换为 PNG 时设置 DPI，以获得所需的分辨率和图像质量。
+
 ### [Converting HTML to TIFF](./convert-html-to-tiff/)
 
 ### [将 HTML 转换为 WebP](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
@@ -141,6 +144,9 @@ weight: 24
 
 ### [在 Java 中设置设备像素比率 – 完整指南](./set-device-pixel-ratio-in-java-complete-guide/)
 学习如何在 Java 中使用 Aspose.HTML 设置设备像素比率，以实现高分辨率渲染并精确控制输出图像尺寸。
+
+### [将 HTML 转换为 WebP – 完整 Java 指南](./convert-html-to-webp-complete-java-guide/)
+使用 Aspose.HTML for Java 将 HTML 转换为 WebP。详细完整的指南，涵盖所有关键步骤和最佳实践。
 
 ## 常见问题解答
 

@@ -147,6 +147,8 @@ Aspose.HTML में JavaScript को सुरक्षित रूप स�
 
 ### [Java में JavaScript को सक्षम करने का तरीका – पूर्ण Aspose.HTML गाइड](./how-to-enable-javascript-in-java-complete-aspose-html-guide/)
 Java एप्लिकेशन में JavaScript को एम्बेड और चलाने के चरण‑दर‑चरण निर्देश, Aspose.HTML के साथ पूर्ण गाइड।
+### [JavaScript से Java को कॉल करें – असिंक्रोनस फ़ेच और JS इंजन निष्पादन की पूर्ण गाइड](./call-java-from-javascript-complete-guide-to-async-fetch-js-e/)
+JavaScript से Java मेथड कॉल करना, असिंक्रोनस फ़ेच उपयोग करना और JS इंजन में निष्पादन के चरण‑दर‑चरण निर्देश।  
 
 ---
 

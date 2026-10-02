@@ -160,6 +160,9 @@ Aprenda a executar JavaScript em um sandbox seguro usando Aspose.HTML for Java, 
 ### [Como habilitar JavaScript em Java – Guia completo Aspose.HTML](./how-to-enable-javascript-in-java-complete-aspose-html-guide/)
 Aprenda a habilitar a execução de JavaScript em aplicações Java usando Aspose.HTML for Java.
 
+### [Chamar Java a partir de JavaScript – Guia Completo de Fetch Assíncrono e Execução do Motor JS](./call-java-from-javascript-complete-guide-to-async-fetch-js-e/)
+Aprenda a invocar código Java a partir de JavaScript, executar chamadas assíncronas e utilizar o motor JavaScript integrado ao Aspose.HTML.
+
 ---
 
 **Última atualização:** 2025-11-29  

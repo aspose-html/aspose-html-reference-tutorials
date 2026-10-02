@@ -60,6 +60,8 @@ Learn how to create HTML documents from strings in Aspose.HTML for Java with thi
 Learn how to fetch JSON in Java and generate HTML content using Aspose.HTML with this step-by-step guide.
 ### [How to Query HTML in Java – Complete Tutorial](./how-to-query-html-in-java-complete-tutorial/)
 Learn how to query HTML in Java using Aspose.HTML with this comprehensive step-by-step guide.
+### [How to Use XPath in Java – Read HTML and Extract Text](./how-to-use-xpath-in-java-read-html-and-extract-text/)
+Learn how to use XPath in Java with Aspose.HTML to read HTML and extract text efficiently.
 ### [Create sandbox for HTML in Java – Step‑by‑Step Guide](./create-sandbox-for-html-in-java-step-by-step-guide/)
 Learn how to set up a secure HTML sandbox in Java using Aspose.HTML with this detailed step-by-step guide.
 ### [Load HTML Documents from URL in Aspose.HTML for Java](./load-html-documents-from-url/)

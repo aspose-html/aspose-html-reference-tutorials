@@ -145,6 +145,8 @@ Dowiedz się, jak wczytać dokument HTML, ustawić DPI urządzenia oraz odczyta�
 Dowiedz się, jak bezpiecznie uruchamiać i izolować kod JavaScript w aplikacjach Java przy użyciu Aspose.HTML, krok po kroku.
 ### [Jak włączyć JavaScript w Javie – Kompletny przewodnik Aspose.HTML](./how-to-enable-javascript-in-java-complete-aspose-html-guide/)
 Poznaj, jak włączyć i uruchomić kod JavaScript w aplikacji Java przy użyciu Aspose.HTML, krok po kroku od konfiguracji po wykonanie.
+### [Wywoływanie Javy z JavaScript – Kompletny przewodnik po asynchronicznym fetch i wykonaniu silnika JS](./call-java-from-javascript-complete-guide-to-async-fetch-js-e/)
+Dowiedz się, jak wywoływać kod Javy z JavaScript przy użyciu Aspose.HTML, obsługiwać asynchroniczne żądania fetch i kontrolować silnik JS.
 
 ---
 

@@ -107,6 +107,8 @@ Aspose.HTML for Java 為旨在在 Java 應用程式中無縫處理 HTML 文件�
 透過此完整指南，了解如何在 Aspose.HTML for Java 中遍歷 NodeList，掌握節點操作技巧。
 ### [使用 Java 從 HTML 提取文字 – 完整逐步指南](./extract-text-from-html-with-java-complete-step-by-step-guide/)
 使用 Aspose.HTML for Java 從 HTML 中提取文字的完整逐步指南，涵蓋關鍵技巧與範例。
+### [在 Java 中使用 XPath – 讀取 HTML 並提取文字](./how-to-use-xpath-in-java-read-html-and-extract-text/)
+學習如何在 Java 中利用 Aspose.HTML 的 XPath 功能讀取 HTML 並提取所需文字內容。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

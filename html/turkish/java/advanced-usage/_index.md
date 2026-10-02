@@ -146,6 +146,8 @@ HTML dosyasını yükleyip cihaz DPI'sını ayarlayarak arka plan rengini nasıl
 Aspose.HTML for Java kullanarak JavaScript kodunu güvenli bir sandbox ortamında çalıştırmayı öğrenin.
 ### [Java’da JavaScript’i Etkinleştirme – Tam Aspose.HTML Kılavuzu](./how-to-enable-javascript-in-java-complete-aspose-html-guide/)
 Aspose.HTML for Java kullanarak Java içinde JavaScript’i nasıl etkinleştireceğinizi ve tam entegrasyonu öğrenin.
+### [JavaScript'ten Java'ya Çağrı – Asenkron Fetch ve JS Motoru Çalıştırma Tam Kılavuzu](./call-java-from-javascript-complete-guide-to-async-fetch-js-e/)
+JavaScript içinde Java metodlarını asenkron fetch ile çağırmayı ve JS motoru üzerinden yürütmeyi adım adım öğrenin.
 
 ---
 

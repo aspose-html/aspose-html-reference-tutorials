@@ -135,6 +135,8 @@ Imposta le dimensioni della pagina PDF durante la conversione da HTML a PDF in J
 ### [Converti HTML in PDF in blocco – Guida Java NIO con elaborazione parallela](./convert-html-to-pdf-in-bulk-java-nio-guide-with-parallel-pro/)
 ### [Incorporare i font PDF – Guida completa Aspose HTML to PDF (Java)](./embed-fonts-pdf-complete-aspose-html-to-pdf-guide-java/)
 ### [Creare DOCX da HTML – Guida Java per convertire HTML in DOCX](./create-docx-from-html-java-guide-to-convert-html-to-docx/)
+### [Crea PDF da HTML in Java – Guida Aspose in una riga](./create-pdf-from-html-in-java-one-line-aspose-guide/)
+### [Imposta il rapporto pixel del dispositivo in Java – Converti HTML per dispositivi mobili](./set-device-pixel-ratio-in-java-convert-html-to-mobile/)
 
 ## Domande frequenti
 

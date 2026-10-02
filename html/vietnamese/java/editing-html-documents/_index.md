@@ -68,6 +68,10 @@ Khám phá cách thêm phần tử con vào thẻ body trong tài liệu HTML b�
 Hướng dẫn chi tiết cách tạo phần tử HTML mới bằng Java sử dụng Aspose.HTML, bao gồm các bước thực hiện và ví dụ thực tế.
 ### [Cách Thêm Child trong Java DOM – Hướng Dẫn Toàn Diện Aspose.HTML](./how-to-append-child-in-java-dom-complete-aspose-html-guide/)
 Tìm hiểu cách thêm phần tử con vào DOM trong Java bằng Aspose.HTML với hướng dẫn chi tiết từng bước.
+### [Cách làm nổi bật HTML – Tìm kiếm văn bản & Thay thế bằng <mark>](./how-to-highlight-html-search-text-replace-with-mark/)
+Hướng dẫn tìm và thay thế văn bản trong HTML bằng thẻ <mark> để làm nổi bật nội dung.
+### [Cách loại bỏ script khỏi HTML trong Java – Hướng dẫn toàn diện](./how-to-remove-scripts-from-html-in-java-complete-guide/)
+Hướng dẫn chi tiết cách xóa các thẻ script khỏi tài liệu HTML bằng Java, bảo vệ bảo mật và tối ưu hiệu suất.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

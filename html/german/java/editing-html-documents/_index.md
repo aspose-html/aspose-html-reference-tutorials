@@ -69,6 +69,10 @@ Erfahren Sie, wie Sie mit Aspose.HTML für Java ein Kind-Element zum Body hinzuf
 Erfahren Sie, wie Sie den h1-Text in MHTML-Dateien mit Aspose.HTML für Java ändern – detaillierte Schritt‑für‑Schritt‑Anleitung.
 ### [Neues HTML-Element mit Java erstellen – Vollständige Aspose.HTML-Anleitung](./create-new-html-element-with-java-full-aspose-html-guide/)
 Erfahren Sie, wie Sie mit Aspose.HTML für Java ein neues HTML-Element erstellen – Schritt-für-Schritt-Anleitung.
+### [Entfernen Sie Skripte aus HTML in Java – Komplettanleitung](./how-to-remove-scripts-from-html-in-java-complete-guide/)
+Erfahren Sie, wie Sie mit Aspose.HTML für Java alle Skripte aus HTML-Dateien entfernen – Schritt-für-Schritt-Anleitung.
+### [Wie man HTML hervorhebt – Text suchen & mit <mark> ersetzen](./how-to-highlight-html-search-text-replace-with-mark/)
+Erfahren Sie, wie Sie mit Aspose.HTML für Java Text in HTML markieren, indem Sie das <mark>-Tag verwenden – Schritt-für-Schritt-Anleitung.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

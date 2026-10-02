@@ -102,6 +102,8 @@ Leer hoe u met Aspose.HTML voor Java een NodeList doorloopt, HTML-inhoud leest e
 Leer hoe u tekst uit HTML haalt met Java in Aspose.HTML. Volledige stap‑voor‑stap handleiding.
 ### [NodeList itereren in Java – Complete gids](./iterate-over-nodelist-java-complete-guide/)
 Leer hoe u door een NodeList in Java kunt itereren met een stapsgewijze handleiding en praktische voorbeelden.
+### [Hoe XPath te gebruiken in Java – HTML lezen en tekst extraheren](./how-to-use-xpath-in-java-read-html-and-extract-text/)
+Leer hoe u met XPath HTML-inhoud kunt lezen en specifieke tekst kunt extraheren in Java met Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

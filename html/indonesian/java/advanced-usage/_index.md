@@ -143,6 +143,8 @@ Pelajari cara memuat file HTML, mengatur DPI perangkat, dan mendapatkan warna la
 ### [Cara Mengaktifkan JavaScript di Java – Panduan Lengkap Aspose.HTML](./how-to-enable-javascript-in-java-complete-aspose-html-guide/)
 Pelajari cara mengaktifkan eksekusi JavaScript dalam aplikasi Java menggunakan Aspose.HTML secara lengkap.
 
+### [Panggil Java dari JavaScript – Panduan Lengkap untuk Async Fetch & Eksekusi Mesin JS](./call-java-from-javascript-complete-guide-to-async-fetch-js-e/)
+
 ---
 
 **Terakhir Diperbarui:** 2025-11-29  

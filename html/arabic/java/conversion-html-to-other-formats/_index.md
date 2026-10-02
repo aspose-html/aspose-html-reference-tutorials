@@ -86,6 +86,8 @@ XPS هو صيغة الطباعة الخاصة بمايكروسوفت. باستخ
 تعلم كيفية تحويل HTML إلى PDF في Java باستخدام Aspose.HTML. أنشئ ملفات PDF عالية الجودة من محتوى HTML بسهولة.
 ### [تحويل HTML إلى PDF في Java – دليل كامل مع تضمين الخطوط](./convert-html-to-pdf-in-java-complete-guide-with-font-embeddi/)
 دليل شامل لتحويل HTML إلى PDF في Java مع تضمين الخطوط لضمان عرض النصوص بشكل صحيح.
+### [إنشاء PDF من HTML في Java – دليل Aspose في سطر واحد](./create-pdf-from-html-in-java-one-line-aspose-guide/)
+تعلم كيفية إنشاء ملف PDF من HTML في Java باستخدام سطر واحد فقط من كود Aspose.HTML.
 ### [تحويل HTML إلى MHTML](./convert-html-to-mhtml/)
 حوّل HTML إلى MHTML بسهولة باستخدام Aspose.HTML for Java. اتبع دليلنا خطوة بخطوة لتحويل HTML إلى MHTML بكفاءة.
 ### [تحويل HTML إلى XPS](./convert-html-to-xps/)
@@ -113,6 +115,8 @@ XPS هو صيغة الطباعة الخاصة بمايكروسوفت. باستخ
 ### [تضمين الخطوط في PDF – دليل Aspose HTML إلى PDF الكامل (Java)](./embed-fonts-pdf-complete-aspose-html-to-pdf-guide-java/)
 تعلم كيفية تضمين الخطوط في ملفات PDF باستخدام Aspose.HTML for Java لضمان عرض النصوص بشكل صحيح.
 ### [إنشاء ملف docx من html – دليل Java لتحويل HTML إلى DOCX](./create-docx-from-html-java-guide-to-convert-html-to-docx/)
+### [تعيين نسبة بكسل الجهاز في Java – تحويل HTML إلى الجوال](./set-device-pixel-ratio-in-java-convert-html-to-mobile/)
+تعلم كيفية ضبط نسبة بكسل الجهاز عند تحويل HTML إلى تنسيق مناسب للهواتف المحمولة باستخدام Aspose.HTML في Java.
 
 ### [كيفية ضغط PDF باستخدام Aspose HTML إلى PDF – دليل Java](./how-to-compress-pdf-with-aspose-html-to-pdf-java-guide/)
 تعلم كيفية تقليل حجم ملف PDF باستخدام Aspose.HTML إلى PDF في Java مع إرشادات خطوة بخطوة.

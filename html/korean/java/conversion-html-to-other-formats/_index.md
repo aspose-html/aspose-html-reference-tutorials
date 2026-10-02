@@ -126,6 +126,10 @@ Aspose.HTML를 사용하여 HTML 파일에서 오디오와 비디오를 추출�
 Java NIO와 병렬 처리를 활용해 여러 HTML 파일을 한 번에 PDF로 변환하는 방법을 단계별로 안내합니다.
 ### [HTML에서 DOCX 만들기 – Java 가이드: HTML을 DOCX로 변환](./create-docx-from-html-java-guide-to-convert-html-to-docx/)
 Aspose.HTML를 사용하여 Java에서 HTML을 DOCX 파일로 변환하는 방법을 단계별로 안내합니다.
+### [Java에서 HTML을 PDF로 생성 – 한 줄 Aspose 가이드](./create-pdf-from-html-in-java-one-line-aspose-guide/)
+Aspose.HTML를 사용해 단 한 줄 코드로 Java에서 HTML을 PDF로 변환하는 방법을 빠르게 배웁니다.
+### [Java에서 디바이스 픽셀 비율 설정 – HTML을 모바일용으로 변환](./set-device-pixel-ratio-in-java-convert-html-to-mobile/)
+Aspose.HTML를 사용하여 Java에서 디바이스 픽셀 비율을 설정하고 HTML을 모바일 친화적으로 변환하는 방법을 배웁니다.
 
 ### [Aspose HTML을 사용하여 PDF 페이지 크기 설정 – 전체 Java 가이드](./set-pdf-page-size-with-aspose-html-full-java-guide/)
 Aspose.HTML를 사용하여 Java에서 PDF 페이지 크기를 설정하는 전체 단계별 가이드를 제공합니다.

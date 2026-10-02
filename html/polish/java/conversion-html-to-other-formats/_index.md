@@ -130,6 +130,10 @@ Dowiedz się, jak przekształcić plik Markdown w wysokiej jakości PDF w Javie,
 Dowiedz się, jak konwertować HTML do DOCX w Javie przy użyciu Aspose.HTML. Twórz wysokiej jakości pliki DOCX z treści HTML bez wysiłku.
 ### [Osadzanie czcionek w PDF – Kompletny przewodnik Aspose HTML do PDF (Java)](./embed-fonts-pdf-complete-aspose-html-to-pdf-guide-java/)
 Dowiedz się, jak osadzić czcionki w plikach PDF przy użyciu Aspose.HTML for Java, aby zapewnić prawidłowe wyświetlanie tekstu.
+### [Utwórz PDF z HTML w Javie – Jednolinijkowy przewodnik Aspose](./create-pdf-from-html-in-java-one-line-aspose-guide/)
+Szybki przewodnik, jak w jednej linii kodu wygenerować PDF z HTML przy użyciu Aspose.HTML w Javie.
+### [Ustaw współczynnik pikseli urządzenia w Javie – konwertuj HTML na urządzenia mobilne](./set-device-pixel-ratio-in-java-convert-html-to-mobile/)
+Dowiedz się, jak ustawić Device Pixel Ratio w Aspose.HTML for Java, aby generować wersje mobilne stron HTML.
 
 ### [Jak używać Aspose – wsadowa konwersja HTML do PDF w Javie](./how-to-use-aspose-batch-convert-html-to-pdf-in-java/)
 Dowiedz się, jak przetwarzać wiele plików HTML jednocześnie i generować PDF w Javie przy użyciu Aspose.HTML.

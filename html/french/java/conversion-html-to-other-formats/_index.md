@@ -197,6 +197,11 @@ Apprenez à générer des fichiers DOCX à partir de HTML en Java avec Aspose.HT
 ### [Intégrer des polices PDF – Guide complet Aspose HTML vers PDF (Java)](./embed-fonts-pdf-complete-aspose-html-to-pdf-guide-java/)
 Apprenez à incorporer des polices dans les PDF générés avec Aspose.HTML for Java, assurant une affichage correct sur tous les appareils.
 
+### [Définir le ratio de pixel de l’appareil en Java – Convertir HTML pour mobile](./set-device-pixel-ratio-in-java-convert-html-to-mobile/)
+Apprenez à ajuster le Device Pixel Ratio lors de la conversion HTML en PDF mobile avec Aspose.HTML for Java.
+
+### [Créer un PDF à partir de HTML en Java – Guide Aspose en une ligne](./create-pdf-from-html-in-java-one-line-aspose-guide/)
+
 ## Foire aux questions
 
 **Q : Puis-je utiliser Aspose.HTML for Java dans une application commerciale ?**  

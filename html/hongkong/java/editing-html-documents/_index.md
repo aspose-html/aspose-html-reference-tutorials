@@ -67,6 +67,10 @@ url: /zh-hant/java/editing-html-documents/
 ### [固定執行緒池 Java – 使用 ExecutorService 進行平行 HTML 清理](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 ### [在 Java 中向 body 附加子節點 – 完整 Aspose.HTML 教程](./append-child-to-body-in-java-full-aspose-html-tutorial/)
 了解如何在 Java 中使用 Aspose.HTML 向 HTML 文檔的 body 添加子元素的完整步驟。
+### [如何在 Java 中從 HTML 移除腳本 – 完整指南](./how-to-remove-scripts-from-html-in-java-complete-guide/)
+本完整指南教您使用 Aspose.HTML for Java 移除 HTML 中的腳本標籤，提升安全性與效能。
+### [如何在 HTML 中加亮 – 搜尋文字並以 <mark> 標籤取代](./how-to-highlight-html-search-text-replace-with-mark/)
+本教學說明如何在 HTML 中搜尋特定文字，並使用 <mark> 標籤將其高亮顯示，提升可讀性。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

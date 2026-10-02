@@ -87,6 +87,8 @@ Ismerje meg, hogyan konvertálhatja a HTML‑t PDF‑re Java‑ban az Aspose.HTM
 
 ### [HTML PDF-re konvertálása Java‑ban – Teljes útmutató betűtípus beágyazással](./convert-html-to-pdf-in-java-complete-guide-with-font-embeddi/)
 Fedezze fel, hogyan ágyazhat be egyedi betűtípusokat a PDF‑be Java‑ban az Aspose.HTML segítségével, lépésről‑lépésre útmutatóval.
+### [PDF létrehozása HTML‑ből Java‑ban – Egysoros Aspose útmutató](./create-pdf-from-html-in-java-one-line-aspose-guide/)
+Ismerje meg, hogyan hozhat létre PDF‑et HTML‑ből Java‑ban egyetlen kódsorral az Aspose.HTML segítségével.
 ### [HTML átalakítása PDF-re – Lépésről‑lépésre útmutató oldalméret beállításokkal](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Ismerje meg, hogyan konvertálhatja a HTML‑t PDF‑re Java‑ban részletesen, oldalméret beállításokkal.
 ### [HTML átalakítása PDF-re Java‑ban – Teljes útmutató papírmérettel és DPI‑val](./convert-html-to-pdf-in-java-full-guide-with-paper-size-dpi/)
@@ -119,6 +121,8 @@ Konvertálja az SVG‑t PDF‑re Java‑ban az Aspose.HTML‑el. Zökkenőmentes
 ### [SVG átalakítása XPS-re](./convert-svg-to-xps/)
 Ismerje meg, hogyan konvertálhatja az SVG‑t XPS‑re az Aspose.HTML for Java segítségével. Egyszerű, lépésről‑lépésre útmutató a zökkenőmentes átalakításokhoz.
 ### [Betűtípusok beágyazása PDF-be – Teljes Aspose HTML to PDF útmutató (Java)](./embed-fonts-pdf-complete-aspose-html-to-pdf-guide-java/)
+### [Eszköz pixelarány beállítása Java‑ban – HTML mobilra konvertálása](./set-device-pixel-ratio-in-java-convert-html-to-mobile/)
+Állítsa be a device pixel ratio értékét Java‑ban, hogy a HTML mobil eszközökön megfelelően jelenjen meg.
 
 ### [HTML-ből DOCX létrehozása – Java útmutató a HTML DOCX‑re konvertálásához](./create-docx-from-html-java-guide-to-convert-html-to-docx/)
 

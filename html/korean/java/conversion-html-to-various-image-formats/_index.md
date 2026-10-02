@@ -100,6 +100,8 @@ Aspose.HTML for Java를 활용해 Java에서 HTML을 PNG 이미지로 렌더링�
 Aspose.HTML for Java를 사용해 HTML을 PNG로 배치 변환하는 방법을 단계별로 안내합니다.
 ### [ExecutorService를 사용한 병렬 HTML‑to‑PNG 배치 변환](./how-to-use-executorservice-for-parallel-html-to-png-batch-co/)
 Aspose.HTML for Java를 활용해 HTML을 PNG로 병렬 일괄 변환하는 방법을 단계별로 안내합니다.
+### [HTML을 PNG로 변환할 때 DPI 설정 방법](./how-to-set-dpi-when-converting-html-to-png/)
+HTML을 PNG로 변환하면서 DPI를 설정하는 단계별 가이드를 제공합니다.
 ### [HTML을 TIFF로 변환](./convert-html-to-tiff/)
 Aspose.HTML for Java를 사용해 HTML을 TIFF로 쉽게 변환하는 방법을 배웁니다. 효율적인 문서 처리를 위한 단계별 가이드입니다.
 ### [HTML을 WebP로 변환 – Aspose.HTML와 함께하는 완전한 Java 가이드](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
@@ -120,6 +122,7 @@ Aspose.HTML for Java를 사용해 SVG 파일을 WebP 이미지로 변환하는 �
 Aspose.HTML for Java를 사용해 SVG를 WebP 이미지로 변환하는 방법을 단계별로 안내합니다.
 ### [Java에서 디바이스 픽셀 비율 설정 – 완전 가이드](./set-device-pixel-ratio-in-java-complete-guide/)
 Aspose.HTML for Java를 사용해 디바이스 픽셀 비율을 설정하고 고품질 이미지를 얻는 방법을 단계별로 안내합니다.
+### [HTML을 WebP로 변환 – 완전한 Java 가이드](./convert-html-to-webp-complete-java-guide/)
 
 ### [Java에서 HTML을 PNG로 생성 – 전체 단계별 가이드](./create-png-from-html-in-java-full-step-by-step-guide/)
 Java에서 Aspose.HTML를 활용해 HTML을 PNG 파일로 변환하는 전체 과정을 단계별로 안내합니다.

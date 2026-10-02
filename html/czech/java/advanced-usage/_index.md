@@ -147,6 +147,8 @@ Naučte se spouštět JavaScript asynchronně v Javě s CompletableFuture a Aspo
 Naučte se načíst HTML, nastavit DPI zařízení a získat barvu pozadí pomocí Aspose.HTML pro Java.
 ### [Jak povolit JavaScript v Javě – Kompletní průvodce Aspose.HTML](./how-to-enable-javascript-in-java-complete-aspose-html-guide/)
 Naučte se, jak povolit JavaScript v Javě pomocí Aspose.HTML, včetně nastavení a praktických ukázek.
+### [Volání Javy z JavaScriptu – Kompletní průvodce asynchronním fetch a vykonáváním JS enginu](./call-java-from-javascript-complete-guide-to-async-fetch-js-e/)
+Naučte se volat Java metody z JavaScriptu, používat asynchronní fetch a spravovat vykonávání skriptů v JS enginu pomocí Aspose.HTML pro Java.
 
 ---
 

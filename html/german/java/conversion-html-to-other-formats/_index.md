@@ -124,6 +124,10 @@ Erfahren Sie, wie Sie HTML in Java zu PDF konvertieren und dabei Papiergröße u
 Konvertieren Sie HTML mühelos zu MHTML mit Aspose.HTML für Java. Folgen Sie unserer Schritt‑für‑Schritt‑Anleitung für eine effiziente HTML‑zu‑MHTML‑Konvertierung.
 ### [Konvertierung von HTML zu XPS](./convert-html-to-xps/)
 Erfahren Sie, wie Sie HTML mühelos zu XPS mit Aspose.HTML für Java konvertieren. Erstellen Sie plattformübergreifende Dokumente mit Leichtigkeit.
+
+### [Device-Pixel-Verhältnis in Java festlegen – HTML für mobile Geräte konvertieren](./set-device-pixel-ratio-in-java-convert-html-to-mobile/)
+Erfahren Sie, wie Sie das Device-Pixel-Verhältnis in Java einstellen, um HTML für mobile Geräte zu rendern und zu konvertieren.
+
 ### [Konvertierung von Markdown zu HTML](./convert-markdown-to-html/)
 Konvertieren Sie Markdown in Java nahtlos zu HTML mit Aspose.HTML für Java. Folgen Sie unserer Schritt‑für‑Schritt‑Anleitung, um Ihre Dokumentenkonvertierungs‑Bedürfnisse zu optimieren.
 
@@ -175,6 +179,9 @@ Erfahren Sie, wie Sie Schriftarten beim HTML‑zu‑PDF‑Export in Java einbett
 
 ### [DOCX aus HTML erstellen – Java‑Leitfaden zur Konvertierung von HTML in DOCX](./create-docx-from-html-java-guide-to-convert-html-to-docx/)
 Erfahren Sie, wie Sie HTML in Java mit Aspose.HTML in DOCX konvertieren und hochwertige Word‑Dokumente erzeugen.
+
+### [PDF aus HTML in Java erstellen – Einzeilige Aspose‑Anleitung](./create-pdf-from-html-in-java-one-line-aspose-guide/)
+Erstellen Sie ein PDF aus HTML in Java mit nur einer Zeile Code mithilfe von Aspose.HTML.
 
 ## Häufig gestellte Fragen
 

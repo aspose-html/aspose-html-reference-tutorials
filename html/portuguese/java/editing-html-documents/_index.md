@@ -68,6 +68,10 @@ Aprenda como adicionar um elemento filho ao corpo de um documento HTML usando As
 Aprenda a modificar o texto h1 em arquivos MHTML usando Java com este guia detalhado passo a passo.
 ### [Criar novo elemento HTML com Java – Guia completo do Aspose.HTML](./create-new-html-element-with-java-full-aspose-html-guide/)
 Aprenda a criar novos elementos HTML usando Aspose.HTML para Java neste guia completo passo a passo.
+### [Como remover scripts de HTML em Java – Guia completo](./how-to-remove-scripts-from-html-in-java-complete-guide/)
+Aprenda a remover scripts de documentos HTML em Java com Aspose.HTML. Guia passo a passo para limpar seu conteúdo de forma segura.
+### [Como destacar HTML – Buscar texto e substituir por <mark>](./how-to-highlight-html-search-text-replace-with-mark/)
+Aprenda a realçar trechos de HTML substituindo texto por tags <mark> usando Aspose.HTML para Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -111,11 +111,15 @@ Dowiedz się, jak ustawić własny rozmiar viewportu przy renderowaniu HTML do P
 Dowiedz się, jak ustawić DPI podczas konwersji SVG do PNG w Javie przy użyciu Aspose.HTML.
 ### [Jak używać ExecutorService do równoległej konwersji wsadowej HTML‑do‑PNG](./how-to-use-executorservice-for-parallel-html-to-png-batch-co/)
 Dowiedz się, jak przyspieszyć konwersję wielu plików HTML do PNG przy użyciu ExecutorService w Javie.
+### [Jak ustawić DPI przy konwertowaniu HTML do PNG](./how-to-set-dpi-when-converting-html-to-png/)
+Dowiedz się, jak ustawić DPI podczas konwersji HTML do PNG przy użyciu Aspose.HTML for Java.
 
 ### [Converting HTML to TIFF](./convert-html-to-tiff/)
 Dowiedz się, jak łatwo konwertować HTML do TIFF przy użyciu Aspose.HTML for Java. Przewodnik krok po kroku dla efektywnego zarządzania dokumentami.
 
 ### [Konwertowanie HTML do WebP – Kompletny przewodnik Java z Aspose.HTML](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
+### [Konwertowanie HTML do WebP – Kompletny przewodnik Java z Aspose.HTML](./convert-html-to-webp-complete-java-guide/)
+Dowiedz się, jak konwertować HTML do formatu WebP w Javie przy użyciu Aspose.HTML. Kompletny przewodnik krok po kroku.
 
 ### [Jak ustawić DPI – renderowanie HTML do PNG przy użyciu AsposeHTML](./how-to-set-dpi-render-html-to-png-with-asposehtml/)
 

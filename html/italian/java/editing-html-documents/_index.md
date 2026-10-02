@@ -68,6 +68,10 @@ Scopri come aggiungere un elemento figlio al body usando Aspose.HTML per Java. G
 Scopri come creare un nuovo elemento HTML usando Aspose.HTML per Java con questa guida completa passo passo.
 ### [Come aggiungere un nodo figlio in Java DOM – Guida completa Aspose.HTML](./how-to-append-child-in-java-dom-complete-aspose-html-guide/)
 Scopri come aggiungere un nodo figlio al DOM in Java usando Aspose.HTML. Una guida passo passo per manipolare gli elementi HTML.
+### [Come rimuovere gli script da HTML in Java – Guida completa](./how-to-remove-scripts-from-html-in-java-complete-guide/)
+Scopri come rimuovere gli script da documenti HTML con Aspose.HTML per Java. Una guida completa passo passo per una pulizia sicura.
+### [Come evidenziare HTML – Cerca testo e sostituisci con <mark>](./how-to-highlight-html-search-text-replace-with-mark/)
+Scopri come evidenziare parti di HTML cercando testo e sostituendolo con il tag <mark> usando Aspose.HTML per Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -157,6 +157,9 @@ Aspose.HTML 允许您将 `DomMutationObserver` 附加到任意节点。这对于
 ### [在 Java 中启用 JavaScript – 完整 Aspose.HTML 指南](./how-to-enable-javascript-in-java-complete-aspose-html-guide/)
 掌握在 Java 中启用并运行 JavaScript 的完整步骤，适用于 Aspose.HTML 场景。
 
+### [在 JavaScript 中调用 Java – 异步 Fetch 与 JS 引擎执行完整指南](./call-java-from-javascript-complete-guide-to-async-fetch-js-e/)
+学习如何在 Java 环境中使用 JavaScript 调用 Java 方法，实现异步 fetch 并掌握 JS 引擎的执行细节。
+
 ---
 **最后更新：** 2025-11-29  
 **测试环境：** Aspose.HTML for Java 24.11  

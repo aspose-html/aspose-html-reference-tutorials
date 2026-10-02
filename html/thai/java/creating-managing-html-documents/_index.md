@@ -102,6 +102,8 @@ Aspose.HTML สำหรับ Java นำเสนอชุดเครื่�
 ### [สกัดข้อความจาก HTML ด้วย Java – คู่มือขั้นตอนเต็ม](./extract-text-from-html-with-java-complete-step-by-step-guide/)
 เรียนรู้วิธีสกัดข้อความจากเอกสาร HTML ด้วย Java อย่างละเอียดด้วย Aspose.HTML ผ่านคู่มือขั้นตอนเต็ม
 
+### [วิธีใช้ XPath ใน Java – อ่าน HTML และสกัดข้อความ](./how-to-use-xpath-in-java-read-html-and-extract-text/)
+เรียนรู้วิธีใช้ XPath ใน Java เพื่ออ่านเอกสาร HTML และดึงข้อความออกอย่างละเอียด
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

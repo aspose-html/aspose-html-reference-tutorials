@@ -68,6 +68,10 @@ Learn how to use a fixed thread pool and ExecutorService in Java to clean HTML c
 Learn how to append a child element to the body using Aspose.HTML for Java in this comprehensive tutorial.
 ### [Create new html element with Java – Full Aspose.HTML Guide](./create-new-html-element-with-java-full-aspose-html-guide/)
 Learn how to create new HTML elements using Aspose.HTML for Java in this comprehensive step-by-step guide.
+### [How to Remove Scripts from HTML in Java – Complete Guide](./how-to-remove-scripts-from-html-in-java-complete-guide/)
+Learn how to remove script tags from HTML using Aspose.HTML for Java. This step-by-step guide ensures clean, safe HTML content.
+### [How to Highlight HTML – Search Text & Replace with &lt;mark&gt;](./how-to-highlight-html-search-text-replace-with-mark/)
+Learn how to search for text and replace it with the &lt;mark&gt; tag to highlight HTML using Aspose.HTML for Java. Step-by-step guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

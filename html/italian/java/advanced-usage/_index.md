@@ -130,6 +130,7 @@ R: No. Una singola licenza di Aspose.HTML for Java copre tutti i formati di outp
 ### [Come caricare HTML, impostare DPI del dispositivo e leggere il colore di sfondo](./how-to-load-html-set-device-dpi-read-background-color/)
 ### [Come eseguire JavaScript in sandbox – Guida completa Aspose.HTML](./how-to-sandbox-javascript-complete-aspose-html-guide/)
 ### [Come abilitare JavaScript in Java – Guida completa](./how-to-enable-javascript-in-java-complete-aspose-html-guide/)
+### [Chiamare Java da JavaScript – Guida completa a Async Fetch e all'esecuzione del motore JS](./call-java-from-javascript-complete-guide-to-async-fetch-js-e/)
 
 ---
 

@@ -67,6 +67,11 @@ CSS ภายนอกคือจุดที่พลังที่แท้�
 ### [Fixed thread pool Java – การทำความสะอาด HTML แบบขนานด้วย ExecutorService](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 ### [เพิ่ม child ไปยัง body ใน Java – บทช่วยสอนเต็ม Aspose.HTML](./append-child-to-body-in-java-full-aspose-html-tutorial/)
 เรียนรู้วิธีเพิ่ม child element ลงใน body ของเอกสาร HTML ด้วย Aspose.HTML สำหรับ Java อย่างละเอียด
+### [วิธีลบสคริปต์จาก HTML ใน Java – คู่มือฉบับสมบูรณ์](./how-to-remove-scripts-from-html-in-java-complete-guide/)
+เรียนรู้วิธีลบสคริปต์ที่ไม่ต้องการจากไฟล์ HTML ด้วย Aspose.HTML สำหรับ Java อย่างละเอียดและปลอดภัย
+### [วิธีไฮไลท์ HTML – ค้นหาข้อความและแทนที่ด้วย <mark>](./how-to-highlight-html-search-text-replace-with-mark/)
+เรียนรู้วิธีค้นหาข้อความในไฟล์ HTML และเน้นด้วยแท็ก <mark> โดยใช้ Aspose.HTML สำหรับ Java
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

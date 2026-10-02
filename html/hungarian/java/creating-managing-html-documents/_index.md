@@ -102,6 +102,8 @@ Tanulja meg, hogyan járhatja be a NodeList-et Java-ban, olvashat HTML-t és sze
 Fedezze fel, hogyan nyerhet ki szöveget HTML-ből Java használatával, részletes, lépésről‑lépésre útmutató.
 ### [NodeList bejárása Java-ban – Teljes útmutató](./iterate-over-nodelist-java-complete-guide/)
 Ismerje meg, hogyan iterálhat a NodeList elemein Java-ban az Aspose.HTML segítségével, részletes, lépésről‑lépésre útmutató.
+### [Hogyan használja az XPath-et Java-ban – HTML olvasása és szöveg kinyerése](./how-to-use-xpath-in-java-read-html-and-extract-text/)
+Ismerje meg, hogyan olvashat be HTML-t Java-ban, és használhatja az XPath-et a kívánt szövegek kinyeréséhez lépésről‑lépésre.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

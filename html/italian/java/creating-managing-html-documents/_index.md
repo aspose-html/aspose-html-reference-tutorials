@@ -107,6 +107,8 @@ Scopri come generare HTML da codice JavaScript in Java usando Aspose.HTML per Ja
 Scopri come iterare su NodeList in Java con Aspose.HTML, passo dopo passo, con esempi pratici e consigli utili.
 ### [Estrai testo da HTML con Java – Guida completa passo‑a‑passo](./extract-text-from-html-with-java-complete-step-by-step-guide/)
 Scopri come estrarre testo da documenti HTML in Java usando Aspose.HTML con questa guida dettagliata passo dopo passo.
+### [Come usare XPath in Java – Leggi HTML ed estrai testo](./how-to-use-xpath-in-java-read-html-and-extract-text/)
+Scopri come utilizzare XPath in Java con Aspose.HTML per leggere documenti HTML ed estrarre testo in modo semplice e veloce.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

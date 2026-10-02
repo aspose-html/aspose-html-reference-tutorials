@@ -155,6 +155,8 @@ A: 不需要。單一的 Aspose.HTML for Java 授權即涵蓋所有輸出格式�
 ### [如何在 Java 中啟用 JavaScript – 完整 Aspose.HTML 指南](./how-to-enable-javascript-in-java-complete-aspose-html-guide/)
 學習在 Java 中啟用 JavaScript，結合 Aspose.HTML 完整操作步驟與範例。
 
+### [從 JavaScript 呼叫 Java – 非同步 Fetch 與 JS 引擎執行完整指南](./call-java-from-javascript-complete-guide-to-async-fetch-js-e/)
+
 ---
 
 **最後更新日期：** 2025-11-29  

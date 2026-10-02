@@ -109,11 +109,15 @@ weight: 24
 ### [Преобразование HTML в PNG – Руководство по пакетному преобразованию](./convert-html-to-png-batch-conversion-guide/)
 ### [Как использовать ExecutorService для параллельного пакетного преобразования HTML в PNG](./how-to-use-executorservice-for-parallel-html-to-png-batch-co/)
 Пошаговое руководство по использованию ExecutorService в Java для ускорения пакетного конвертирования HTML в PNG.
+### [Как установить DPI при конвертации HTML в PNG](./how-to-set-dpi-when-converting-html-to-png/)
+Узнайте, как задать разрешение DPI при преобразовании HTML в PNG с помощью Aspose.HTML for Java.
 
 ### [Преобразование HTML в TIFF](./convert-html-to-tiff/)
 Узнайте, как легко преобразовывать HTML в TIFF с помощью Aspose.HTML для Java. Пошаговое руководство по эффективной обработке документов.
 
 ### [Преобразование HTML в WebP – Полное руководство Java с Aspose.HTML](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
+Узнайте, как преобразовать HTML в WebP в Java с помощью Aspose.HTML. Полное пошаговое руководство.
+### [Преобразование HTML в WebP – Полное руководство Java](./convert-html-to-webp-complete-java-guide/)
 Узнайте, как преобразовать HTML в WebP в Java с помощью Aspose.HTML. Полное пошаговое руководство.
 
 ### [Как создать GIF из SVG – пошаговое руководство Java](./how-to-create-gif-from-svg-step-by-step-java-guide/)

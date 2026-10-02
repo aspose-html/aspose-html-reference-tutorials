@@ -106,9 +106,13 @@ Ismerje meg, hogyan renderelhet HTML‑t PNG képpé Java‑ban az Aspose.HTML s
 Ismerje meg, hogyan állíthat be egyedi nézetablakot a HTML PNG rendereléshez Java‑ban az Aspose.HTML‑el.
 ### [HTML átalakítása PNG‑be – Kötetes konverziós útmutató](./convert-html-to-png-batch-conversion-guide/)
 Ismerje meg, hogyan végezhet kötegelt HTML‑t PNG‑képekké konvertálást Aspose.HTML for Java‑val, hatékony és automatizált módon.
+### [Hogyan állítsuk be a DPI-t HTML PNG konvertálásakor](./how-to-set-dpi-when-converting-html-to-png/)
+Ismerje meg, hogyan állíthatja be a DPI értéket HTML PNG konvertálásakor az Aspose.HTML for Java segítségével.
 ### [HTML átalakítása TIFF‑be](./convert-html-to-tiff/)
 Tanulja meg, hogyan konvertálhat HTML‑t TIFF‑be az Aspose.HTML for Java segítségével. Lépésről‑lépésre útmutató a hatékony dokumentumkezeléshez.
 ### [HTML konvertálása WebP‑be – Teljes Java útmutató az Aspose.HTML‑el](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
+Ismerje meg, hogyan konvertálhat HTML‑t WebP‑be Java‑ban az Aspose.HTML használatával. Részletes, lépésről‑lépésre útmutató a WebP konverzióhoz.
+### [HTML konvertálása WebP‑be – Teljes Java útmutató az Aspose.HTML‑el](./convert-html-to-webp-complete-java-guide/)
 Ismerje meg, hogyan konvertálhat HTML‑t WebP‑be Java‑ban az Aspose.HTML használatával. Részletes, lépésről‑lépésre útmutató a WebP konverzióhoz.
 ### [Hogyan generáljunk bélyegképet HTML‑ből – Java útmutató](./how-to-generate-thumbnail-from-html-java-guide/)
 Ismerje meg, hogyan hozhat létre bélyegképeket HTML‑ből Java‑ban az Aspose.HTML segítségével, egyszerű, lépésről‑lépésre útmutatóval.

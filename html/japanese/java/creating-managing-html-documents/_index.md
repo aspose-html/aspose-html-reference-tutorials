@@ -102,6 +102,8 @@ Java で NodeList を走査し、HTML から画像の src 属性を取得する�
 Aspose.HTML for Java を使用して、NodeList を反復処理する方法をステップバイステップで学びます。
 ### [Java で HTML からテキストを抽出する – 完全ステップバイステップガイド](./extract-text-from-html-with-java-complete-step-by-step-guide/)
 Aspose.HTML for Java を使用して、HTML からテキストを抽出する方法を詳細に解説します。ステップバイステップのガイドで初心者も安心です。
+### [Java で XPath を使用する方法 – HTML を読み取りテキストを抽出する](./how-to-use-xpath-in-java-read-html-and-extract-text/)
+Aspose.HTML for Java を活用し、XPath を使って HTML からテキストを抽出する手順をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

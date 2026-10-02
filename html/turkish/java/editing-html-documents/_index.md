@@ -68,6 +68,10 @@ Java için Aspose.HTML kullanarak gövdeye yeni bir öğe eklemeyi adım adım �
 Java kullanarak MHTML dosyalarındaki h1 etiketinin metnini nasıl değiştireceğinizi adım adım öğrenin.
 ### [Java DOM'da Çocuk Düğümünü Ekleme – Tam Aspose.HTML Rehberi](./how-to-append-child-in-java-dom-complete-aspose-html-guide/)
 Java DOM'da bir çocuk düğümünü nasıl ekleyeceğinizi adım adım öğrenin ve Aspose.HTML ile belge manipülasyonunu geliştirin.
+### [Java'da HTML'den Script'leri Kaldırma – Tam Kılavuz](./how-to-remove-scripts-from-html-in-java-complete-guide/)
+Java için Aspose.HTML kullanarak HTML belgelerinden scriptleri güvenli bir şekilde kaldırmayı öğrenin.
+### [HTML'yi Vurgulama – Metni Ara ve <mark> ile Değiştir](./how-to-highlight-html-search-text-replace-with-mark/)
+HTML belgelerinde belirli metinleri <mark> etiketiyle vurgulamayı öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
