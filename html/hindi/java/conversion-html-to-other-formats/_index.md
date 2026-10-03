@@ -168,7 +168,6 @@ Java में Aspose.HTML का उपयोग करके Markdown को H
 ### [Java में PDF पेज आकार सेट करें – पूर्ण HTML से PDF गाइड](./set-pdf-page-size-in-java-complete-html-to-pdf-guide/)
 Java में Aspose.HTML का उपयोग करके PDF पेज का आकार कैसे सेट करें, इस पूर्ण गाइड में जानें।
 ### [Aspose HTML PDF/A ट्यूटोरियल: Java के साथ HTML को PDF/A‑2b में बदलें](./aspose-html-pdf-a-tutorial-convert-html-to-pdf-a-2b-with-jav/)
-Java में Aspose.HTML का उपयोग करके HTML को PDF/A‑2b फ़ॉर्मेट में कैसे बदलें सीखें।
 
 ### [HTML से ऑडियो निकालें – मीडिया और वीडियो कैसे निकालें](./extract-audio-from-html-how-to-extract-media-and-video/)
 Aspose.HTML for Java का उपयोग करके HTML फ़ाइलों से ऑडियो, मीडिया और वीडियो को निकालने की प्रक्रिया सीखें।
@@ -181,6 +180,9 @@ Aspose.HTML for Java के साथ PDF में फ़ॉन्ट एम्
 
 ### [HTML से DOCX बनाएं – Java गाइड HTML को DOCX में बदलने के लिए](./create-docx-from-html-java-guide-to-convert-html-to-docx/)
 Aspose.HTML for Java का उपयोग करके HTML को DOCX में बदलें। उच्च‑गुणवत्ता वाले वर्ड दस्तावेज़ बनाने के चरण‑दर‑चरण गाइड।
+
+### [जावा में HTML से PDF बनाना – चरण‑दर‑चरण गाइड](./how-to-create-pdf-from-html-in-java-step-by-step-guide/)
+जावा में HTML से PDF बनाने की विस्तृत प्रक्रिया, चरण‑दर‑चरण निर्देशों के साथ।
 
 ## अक्सर पूछे जाने वाले प्रश्न
 

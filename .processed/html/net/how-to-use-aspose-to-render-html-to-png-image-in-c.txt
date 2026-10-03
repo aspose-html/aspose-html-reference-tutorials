@@ -1,0 +1,7 @@
+Title: How to use Aspose to render HTML to PNG image in C#
+Slug: how-to-use-aspose-to-render-html-to-png-image-in-c
+Category: rendering-html-documents
+ProcessedDate: 2026-10-03T02:15:33.804209
+SourceRepo: AI Search API
+Keywords: how to use aspose, render html to image, convert html to png, render html as image, save html as png
+PRNumber: 285

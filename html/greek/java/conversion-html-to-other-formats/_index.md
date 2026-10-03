@@ -169,6 +169,8 @@ weight: 25
 ### [Ορισμός Αναλογίας Συσκευής Pixel σε Java – Μετατροπή HTML σε Κινητό](./set-device-pixel-ratio-in-java-convert-html-to-mobile/)
 Μάθετε πώς να ρυθμίσετε το Device Pixel Ratio κατά τη μετατροπή HTML για βέλτιστη εμφάνιση σε κινητές συσκευές.
 
+### [Πώς να δημιουργήσετε PDF από HTML σε Java – βήμα‑βήμα οδηγός](./how-to-create-pdf-from-html-in-java-step-by-step-guide/)
+
 ## Συχνές Ερωτήσεις
 
 **Q: Μπορώ να χρησιμοποιήσω το Aspose.HTML for Java σε εμπορική εφαρμογή;**  

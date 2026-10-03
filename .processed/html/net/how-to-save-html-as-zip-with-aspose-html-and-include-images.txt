@@ -1,0 +1,7 @@
+Title: How to save HTML as zip with Aspose.HTML and include images
+Slug: how-to-save-html-as-zip-with-aspose-html-and-include-images
+Category: html-extensions-and-conversions
+ProcessedDate: 2026-10-03T02:15:29.796159
+SourceRepo: AI Search API
+Keywords: save html as zip, how to save html with images
+PRNumber: 285

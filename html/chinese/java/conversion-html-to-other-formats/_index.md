@@ -169,6 +169,9 @@ Aspose.HTML for Java 简化了 HTML 转 PDF 的工作流。请参阅专门的教
 使用 Aspose.HTML 在 Java 中将 SVG 转换为多种格式的完整步骤指南，涵盖 PNG、JPEG、PDF 等输出。
 ### [使用固定线程池的 Java 将 HTML 转换为 PDF – 步骤指南](./convert-html-to-pdf-with-fixed-thread-pool-java-step-by-step/)
 演示如何在 Java 中使用固定线程池并行转换 HTML 为 PDF，提高批量处理性能。
+### [在 Java 中将 HTML 转换为 PDF – 步骤‑逐步指南](./how-to-create-pdf-from-html-in-java-step-by-step-guide/)
+一步一步指导如何在 Java 中使用 Aspose.HTML 将 HTML 转换为 PDF。
+
 ## 常见问题
 
 **问：我可以在商业应用中使用 Aspose.HTML for Java 吗？**  

@@ -166,6 +166,15 @@ Aprenda a gerar PDFs com dimensões personalizadas a partir de HTML em Java usan
 ### [Converter HTML para PDF em Java – Guia de Pool de Threads Fixas Paralelo](./convert-html-to-pdf-in-java-parallel-fixed-thread-pool-guide/)
 ### [Como Converter SVG – Guia Completo Usando o Conversor Aspose HTML](./how-to-convert-svg-complete-guide-using-aspose-html-converte/)
 Aprenda passo a passo como converter arquivos SVG para diversos formatos usando o Aspose HTML Converter.
+
+### [Criar PDF a partir de HTML em Java – Guia passo a passo](./create-pdf-from-html-in-java-step-by-step-guide/)
+Aprenda a gerar PDFs a partir de HTML em Java com um guia detalhado, cobrindo configuração, opções de layout e melhores práticas.
+### [Como criar PDF a partir de HTML em Java – Guia passo a passo](./how-to-create-pdf-from-html-in-java-step-by-step-guide/)
+Aprenda passo a passo a gerar PDFs a partir de arquivos HTML em Java usando Aspose.HTML.
+
+### [Definir Tamanho da Página PDF em Java – Guia Completo de HTML para PDF](./set-pdf-page-size-in-java-complete-html-to-pdf-guide/)
+Aprenda a definir o tamanho da página ao gerar PDFs a partir de HTML em Java usando Aspose.HTML.
+
 ## Perguntas Frequentes
 
 **Q: Posso usar o Aspose.HTML for Java em uma aplicação comercial?**  

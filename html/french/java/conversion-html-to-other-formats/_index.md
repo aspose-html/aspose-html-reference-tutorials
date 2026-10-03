@@ -202,6 +202,8 @@ Apprenez à ajuster le Device Pixel Ratio lors de la conversion HTML en PDF mobi
 
 ### [Créer un PDF à partir de HTML en Java – Guide Aspose en une ligne](./create-pdf-from-html-in-java-one-line-aspose-guide/)
 
+### [Comment créer un PDF à partir de HTML en Java – guide étape par étape](./how-to-create-pdf-from-html-in-java-step-by-step-guide/)
+
 ## Foire aux questions
 
 **Q : Puis-je utiliser Aspose.HTML for Java dans une application commerciale ?**  
