@@ -141,6 +141,9 @@ Comprehensive guide on converting HTML to PDF in Java with font embedding for ac
 
 ### [Create PDF from HTML in Java – Step‑by‑Step Guide](./create-pdf-from-html-in-java-step-by-step-guide/)
 Learn how to create a PDF from HTML in Java using Aspose.HTML with a detailed step‑by‑step guide.
+### [How to create pdf from html in Java – step‑by‑step guide](./how-to-create-pdf-from-html-in-java-step-by-step-guide/)
+Step‑by‑step tutorial to generate a PDF from HTML in Java using Aspose.HTML, covering setup, options, and best practices.
+
 ### [HTML to PDF Tutorial: Convert Web Pages to PDF with Java](./html-to-pdf-tutorial-convert-web-pages-to-pdf-with-java/)
 Learn how to convert web pages to PDF using Aspose.HTML for Java with simple code examples.
 ### [How to Generate PDF from Markdown in Java – Step‑by‑Step Guide](./how-to-generate-pdf-from-markdown-in-java-step-by-step-guide/)

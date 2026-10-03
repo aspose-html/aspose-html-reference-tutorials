@@ -138,6 +138,8 @@ Imposta le dimensioni della pagina PDF durante la conversione da HTML a PDF in J
 ### [Crea PDF da HTML in Java – Guida Aspose in una riga](./create-pdf-from-html-in-java-one-line-aspose-guide/)
 ### [Imposta il rapporto pixel del dispositivo in Java – Converti HTML per dispositivi mobili](./set-device-pixel-ratio-in-java-convert-html-to-mobile/)
 
+### [Come creare PDF da HTML in Java – Guida passo‑a‑passo](./how-to-create-pdf-from-html-in-java-step-by-step-guide/)
+
 ## Domande frequenti
 
 **Q: Posso usare Aspose.HTML for Java in un'applicazione commerciale?**  

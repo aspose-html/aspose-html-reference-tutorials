@@ -186,11 +186,14 @@ Hướng dẫn chi tiết cách nhúng phông chữ vào PDF khi chuyển đổi
 ### [Tạo DOCX từ HTML – Hướng dẫn Java chuyển đổi HTML sang DOCX](./create-docx-from-html-java-guide-to-convert-html-to-docx/)
 Hướng dẫn cách chuyển đổi HTML sang DOCX trong Java bằng Aspose.HTML, tạo tài liệu Word chất lượng cao.
 
-### [Tạo PDF từ HTML trong Java – Hướng dẫn một dòng Aspose](./create-pdf-from-html-in-java-one-line-aspose-guide/)
+### [Tạo PDF từ HTML trong Java – Hướng dẫn một dòng Aspose](./create-pdf-from-html-in-java-one-line-aspose/)
 Hướng dẫn nhanh tạo PDF từ HTML chỉ với một dòng mã bằng Aspose.HTML for Java.
 
 ### [Thiết lập tỷ lệ pixel thiết bị trong Java – Chuyển đổi HTML sang di động](./set-device-pixel-ratio-in-java-convert-html-to-mobile/)
 Hướng dẫn cách thiết lập tỷ lệ pixel thiết bị trong Java để chuyển đổi HTML sang định dạng di động, tối ưu hiển thị trên thiết bị.
+
+### [Cách tạo PDF từ HTML trong Java – hướng dẫn từng bước](./how-to-create-pdf-from-html-in-java-step-by-step-guide/)
+Hướng dẫn chi tiết từng bước để tạo PDF từ HTML trong Java bằng Aspose.HTML, bao gồm cấu hình và tối ưu chất lượng.
 
 ## Câu hỏi thường gặp
 
