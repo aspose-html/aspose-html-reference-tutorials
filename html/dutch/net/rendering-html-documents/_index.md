@@ -89,7 +89,10 @@ Leer hoe u HTML naar PNG kunt renderen in C# met Aspose.HTML voor .NET in deze s
 Leer hoe u een HTML-document in C# maakt en rendert naar PNG met vet en cursief lettertype.
 
 ### [Hoe Aspose te gebruiken om HTML naar PNG te renderen in C#](./how-to-use-aspose-to-render-html-to-png-in-c/)
-Leer hoe u Aspose gebruikt om HTML naar PNG te renderen in C# met een stapsgewijze tutorial.
+Leer hoe u met Aspose.HTML HTML naar PNG kunt renderen in C# met een duidelijke stap‑voor‑stap handleiding.
+
+### [Hoe Aspose te gebruiken om HTML naar PNG‑afbeelding te renderen in C#](./how-to-use-aspose-to-render-html-to-png-image-in-c/)
+Leer stap voor stap hoe u met Aspose.HTML HTML rendert naar een PNG‑afbeelding in C#.
 
 ### [HTML renderen naar PNG en opslaan in ZIP met C# – Complete gids](./render-html-to-png-and-save-to-zip-with-c-complete-guide/)
 Leer stap voor stap hoe u HTML naar PNG converteert en de resultaten in een ZIP‑archief opslaat met C# en Aspose.HTML.

@@ -133,6 +133,8 @@ Scopri come salvare un documento HTML direttamente in uno stream usando le opzio
 Scopri come utilizzare il gestore di Aspose.HTML per caricare un documento HTML e salvarlo in un archivio ZIP in C#.
 ### [Creare documento HTML e salvarlo come ZIP – Guida completa C#](./create-html-document-and-save-as-zip-complete-c-guide/)
 Scopri come creare un documento HTML e comprimerlo in un archivio ZIP usando Aspose.HTML per .NET in C#.
+### [Come salvare HTML come zip con Aspose.HTML e includere le immagini](./how-to-save-html-as-zip-with-aspose-html-and-include-images/)
+Scopri come salvare un documento HTML in un archivio ZIP includendo le immagini con Aspose.HTML per .NET.
 
 ## Conclusione
 

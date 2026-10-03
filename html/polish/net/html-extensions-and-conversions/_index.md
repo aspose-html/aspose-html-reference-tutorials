@@ -70,7 +70,7 @@ Dowiedz się, jak wykorzystać moc Aspose.HTML dla .NET w tym przewodniku krok p
 ### [Konwertuj HTML na GIF w .NET za pomocą Aspose.HTML](./convert-html-to-gif/)
 Odkryj moc Aspose.HTML dla .NET: przewodnik krok po kroku po konwersji HTML na GIF. Wymagania wstępne, przykłady kodu, FAQ i więcej! Zoptymalizuj manipulację HTML za pomocą Aspose.HTML.
 ### [Konwersja HTML do JPEG w .NET za pomocą Aspose.HTML](./convert-html-to-jpeg/)
-Dowiedz się, jak konwertować HTML na JPEG w .NET za pomocą Aspose.HTML dla .NET. Przewodnik krok po kroku, jak wykorzystać moc Aspose.HTML dla .NET. Zoptymalizuj swoje zadania związane z tworzeniem stron internetowych bez wysiłku.
+Dowiedz się, jak konwertować HTML na JPEG w .NET przy użyciu Aspose.HTML dla .NET. Przewodnik krok po kroku, jak wykorzystać moc Aspose.HTML dla .NET. Zoptymalizuj swoje zadania związane z tworzeniem stron internetowych bez wysiłku.
 ### [Konwersja HTML do Markdown w .NET za pomocą Aspose.HTML](./convert-html-to-markdown/)
 Dowiedz się, jak konwertować HTML na Markdown w .NET przy użyciu Aspose.HTML w celu wydajnej manipulacji treścią. Uzyskaj wskazówki krok po kroku dotyczące płynnego procesu konwersji.
 ### [Konwersja HTML do MHTML w .NET za pomocą Aspose.HTML](./convert-html-to-mhtml/)
@@ -129,6 +129,8 @@ Dowiedz się, jak w C# zapisać HTML jako PDF, uwzględniając czcionki, korzyst
 Dowiedz się, jak w C# zapisać dokument HTML jako archiwum ZIP, korzystając z Aspose.HTML – pełny przewodnik krok po kroku.
 ### [Ustaw rozmiar strony PDF w C# – konwertuj HTML do PDF](./set-pdf-page-size-in-c-convert-html-to-pdf/)
 Dowiedz się, jak ustawić rozmiar strony PDF w C# podczas konwersji HTML do PDF przy użyciu Aspose.HTML.
+
+### [Jak zapisać HTML jako zip przy użyciu Aspose.HTML i uwzględnić obrazy](./how-to-save-html-as-zip-with-aspose-html-and-include-images/)
 
 ## Wniosek
 
