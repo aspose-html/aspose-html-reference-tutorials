@@ -1,0 +1,7 @@
+Title: How to create pdf from html in Java – step‑by‑step guide
+Slug: how-to-create-pdf-from-html-in-java-step-by-step-guide
+Category: conversion-html-to-other-formats
+ProcessedDate: 2026-10-03T02:21:34.205674
+SourceRepo: AI Search API
+Keywords: create pdf from html, convert html to pdf, how to convert html to pdf, html to pdf conversion java, convert html file to pdf
+PRNumber: 286
