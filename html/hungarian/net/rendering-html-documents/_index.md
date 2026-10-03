@@ -50,7 +50,7 @@ Tanulja meg, hogyan renderelhet HTML-t PNG formátumba az Aspose.HTML for .NET s
 Ismerje meg, hogyan renderelhet HTML-t PNG formátumba C#-ban az Aspose.HTML segítségével, lépésről lépésre útmutató.
 ### [HTML renderelése PNG-ként C#-ban – Lépésről‑lépésre útmutató](./how-to-render-html-to-png-in-c-step-by-step-guide/)
 Tanulja meg, hogyan renderelhet HTML-t PNG formátumba C#-ban az Aspose.HTML for .NET használatával.
-### [HTML renderelése PNG-ként C#-ban – Lépésről lépésre útmutató](./how-to-render-html-as-png-in-c-step-by-step-guide/)
+### [HTML renderelése PNG‑ként C#-ban – Lépésről lépésre útmutató](./how-to-render-html-as-png-in-c-step-by-step-guide/)
 Tanulja meg, hogyan renderelhet HTML-t PNG formátumba C#-ban az Aspose segítségével, részletes lépésről lépésre útmutató.
 ### [Az EPUB megjelenítése XPS-ként .NET-ben az Aspose.HTML segítségével](./render-epub-as-xps/)
 Ebben az átfogó oktatóanyagban megtudhatja, hogyan hozhat létre és jeleníthet meg HTML-dokumentumokat az Aspose.HTML for .NET segítségével. Merüljön el a webkaparás és egyebek világában.
@@ -86,6 +86,8 @@ Tanulja meg, hogyan renderelhet HTML-t PNG-be, majd ZIP-fájlba mentheti C#-ban 
 Tanulja meg, hogyan hozhat létre képet HTML-ből C#-ban az Aspose.HTML segítségével, részletes, lépésről‑lépésre útmutató.
 ### [HTML renderelése PDF-be az Aspose.HTML segítségével – Lépésről‑lépésre útmutató](./render-html-to-pdf-with-aspose-html-step-by-step-guide/)
 Ismerje meg, hogyan konvertálhat HTML-t PDF-be az Aspose.HTML segítségével .NET környezetben, részletes lépésről‑lépésre útmutatóval.
+### [Hogyan használja az Aspose-ot HTML PNG képként renderelni C#-ban](./how-to-use-aspose-to-render-html-to-png-image-in-c/)
+Tanulja meg, hogyan renderelhet HTML-t PNG képként C#-ban az Aspose segítségével, részletes lépésről‑lépésre útmutatóval.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

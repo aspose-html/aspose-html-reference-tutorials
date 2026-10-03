@@ -59,6 +59,9 @@ url: /ar/net/rendering-html-documents/
 ### [كيفية استخدام Aspose لعرض HTML كـ PNG في C#](./how-to-use-aspose-to-render-html-to-png-in-c/)
 تعلم خطوة بخطوة كيفية تحويل HTML إلى PNG باستخدام Aspose في C#.
 
+### [كيفية استخدام Aspose لتصيير HTML إلى صورة PNG في C#](./how-to-use-aspose-to-render-html-to-png-image-in-c/)
+تعلم خطوة بخطوة كيفية تحويل مستندات HTML إلى صور PNG باستخدام Aspose.HTML في C#.
+
 ### [إنشاء مستند HTML C# – تحويل إلى PNG بخط عريض مائل](./create-html-document-c-render-to-png-with-bold-italic-font/)
 تعلم كيفية إنشاء مستند HTML في C# وعرضه كصورة PNG باستخدام خطوط عريضة ومائلة.
 

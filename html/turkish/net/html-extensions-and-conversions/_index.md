@@ -89,7 +89,7 @@ Aspose.HTML for .NET kullanarak özel kaynak işleyiciyle bellek içinden HTML'y
 ### [C#'ta HTML'yi ZIP'e Sıkıştırma – HTML'yi Yükle ve Özel İşleyici Kullan](./how-to-zip-html-in-c-load-html-use-custom-handler/)
 Aspose.HTML for .NET kullanarak HTML'yi yükleyip özel bir işleyiciyle ZIP arşivine dönüştürün.
 ### [C#'ta Özel Kaynak İşleyicisi – HTML'yi ZIP'e Dönüştürme Öğreticisi](./custom-resource-handler-in-c-convert-html-to-zip-tutorial/)
-Aspose.HTML for .NET kullanarak C#'ta özel bir kaynak işleyicisi ile HTML dosyalarını ZIP arşivine dönüştürün. Adım adım kılavuz.
+Aspose.HTML for .NET kullanarak C#'ta özel bir kaynak işleyicisi ile HTML dosalarını ZIP arşivine dönüştürün. Adım adım kılavuz.
 ### [C#'ta HTML'yi Zip'leme – Tam Adım‑Adım Kılavuz](./how-to-zip-html-in-c-complete-step-by-step-guide/)
 C# ve Aspose.HTML kullanarak HTML dosyalarını zip arşivine dönüştürmeyi adım adım öğrenin.
 ### [Aspose.HTML ile .NET'te HTML'yi ZIP olarak kaydedin](./save-html-as-zip-in-c-complete-step-by-step-guide/)
@@ -104,7 +104,10 @@ Aspose.HTML for .NET kullanarak C# ile HTML'yi akışa kaydetmeyi adım adım ö
 ### [Aspose.HTML'de Handler Kullanımı – HTML Yükle ve ZIP Olarak Kaydet](./how-to-use-handler-in-aspose-html-load-html-save-as-zip/)
 Aspose.HTML for .NET ile bir handler aracılığıyla HTML dosyasını yükleyin ve ZIP arşivine kaydedin. Adım adım rehber.
 ### [C# ile HTML'yi ZIP Olarak Kaydet – Tam Kılavuz](./save-html-as-zip-in-c-complete-guide/)
-Aspose.HTML for .NET ile C# içinde HTML dosyalarını ZIP arşivine kaydetmeyi adım adım öğrenin.
+Aspose.HTML for .NET ile C# içinde HTML dosalarını ZIP arşivine kaydetmeyi adım adım öğrenin.
+### [Aspose.HTML ile .NET'te HTML'yi ZIP'e dönüştürün](./convert-html-to-zip-in-c-complete-guide/)
+### [Aspose.HTML ile HTML'yi zip olarak kaydedip resimleri dahil edin](./how-to-save-html-as-zip-with-aspose-html-and-include-images/)
+Aspose.HTML kullanarak HTML'yi zip arşivine kaydedip içinde resimleri de dahil etmeyi adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
