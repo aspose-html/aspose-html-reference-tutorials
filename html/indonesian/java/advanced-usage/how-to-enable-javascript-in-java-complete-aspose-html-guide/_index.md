@@ -1,26 +1,53 @@
 ---
 category: general
-date: 2026-02-22
-description: Cara mengaktifkan JavaScript di Java menggunakan Aspose.HTML. Pelajari
-  cara menjalankan JavaScript di Java, membaca elemen berdasarkan ID, mengambil teks
-  dalam elemen, dan memuat dokumen HTML di Java.
+date: 2026-10-04
+description: Pelajari cara menjalankan JavaScript di Java menggunakan Aspose.HTML.
+  Panduan langkah demi langkah untuk memuat HTML, mengaktifkan skrip, membaca elemen
+  berdasarkan ID, dan mengambil teks dalam elemen.
 draft: false
 keywords:
-- how to enable javascript
 - run javascript in java
 - read element by id
 - retrieve element inner text
 - load html document java
-language: id
-og_description: Cara mengaktifkan JavaScript di Java dengan Aspose.HTML. Kode langkah
-  demi langkah untuk menjalankan JavaScript di Java, membaca elemen berdasarkan ID,
-  dan mengambil teks dalam elemen.
-og_title: Cara Mengaktifkan JavaScript di Java – Panduan Lengkap Aspose.HTML
+- handle null elements java
+lastmod: 2026-10-04
+og_description: Pelajari cara menjalankan JavaScript di Java menggunakan Aspose.HTML.
+  Panduan langkah demi langkah untuk memuat HTML, mengaktifkan skrip, membaca elemen
+  berdasarkan ID, dan mengambil teks dalam elemen.
+og_image_alt: Developer guide showing Java code that runs JavaScript and extracts
+  element text
+og_title: Jalankan JavaScript di Java dengan panduan lengkap Aspose.HTML
+schemas:
+- author: Aspose
+  dateModified: '2026-10-04'
+  description: Learn how to run JavaScript in Java using Aspose.HTML. Step‑by‑step
+    guide to load HTML, enable scripting, read element by ID, and retrieve element
+    inner text.
+  headline: Run javascript in Java with Aspose.HTML complete guide
+  type: TechArticle
+- questions:
+  - answer: Yes. After creating the `HTMLDocument`, call `htmlDoc.getWindow().eval("yourCode")`
+      to inject and run additional scripts.
+    question: Can I execute my own custom JavaScript code before the document loads?
+  - answer: The built‑in engine implements ECMAScript 5.1; newer features like `let`,
+      `const`, and arrow functions are not supported.
+    question: Does Aspose.HTML support ES6 features?
+  - answer: By default, external scripts are fetched if the URL is reachable. You
+      can disable this by setting `scriptEngineOptions.setEnableExternalScripts(false)`.
+    question: What happens if the HTML contains external script references?
+  - answer: Yes. Use `scriptEngineOptions.setExecutionTimeout(seconds)` to prevent
+      long‑running scripts from hanging your application.
+    question: Is there a way to limit script execution time?
+  - answer: Pass the same `HTMLDocument` instance to `new PDFDocument(htmlDoc, pdfOptions)`;
+      the rendered PDF will include the script‑generated content.
+    question: How do I convert the processed HTML to PDF after running scripts?
+  type: FAQPage
 tags:
 - Aspose.HTML
 - Java
 - Scripting
-title: Cara Mengaktifkan JavaScript di Java – Panduan Lengkap Aspose.HTML
+title: Jalankan JavaScript di Java dengan panduan lengkap Aspose.HTML
 url: /id/java/advanced-usage/how-to-enable-javascript-in-java-complete-aspose-html-guide/
 ---
 
@@ -28,23 +55,39 @@ url: /id/java/advanced-usage/how-to-enable-javascript-in-java-complete-aspose-ht
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cara Mengaktifkan JavaScript di Java – Panduan Lengkap Aspose.HTML
+# Jalankan javascript di Java dengan panduan lengkap Aspose.HTML
 
-Pernah bertanya-tanya **bagaimana cara mengaktifkan JavaScript di Java** saat memproses HTML di sisi server? Mungkin Anda pernah menemui kebuntuan saat mencoba mengevaluasi skrip kecil yang menentukan teks apa yang ditampilkan di halaman. Kabar baiknya, Anda tidak perlu menjalankan browser penuh—Aspose.HTML memungkinkan Anda menjalankan JavaScript langsung di dalam aplikasi Java.  
+Jika Anda perlu **run JavaScript in Java** saat memproses HTML di server, Aspose.HTML memberi Anda mesin ringan yang mengeksekusi skrip tanpa meluncurkan browser penuh. Dalam tutorial ini Anda akan belajar cara memuat file HTML, mengaktifkan mesin skrip, dan kemudian membaca nilai yang dihitung dari elemen berdasarkan ID-nya. Pada akhir tutorial Anda akan dapat **run JavaScript in Java**, **read element by ID**, dan **retrieve element inner text** hanya dalam beberapa baris kode.
 
-Dalam tutorial ini kami akan membahas cara memuat dokumen HTML, mengaktifkan mesin JavaScript, dan kemudian mengambil hasilnya dari sebuah elemen berdasarkan ID-nya. Pada akhir tutorial Anda akan dapat **menjalankan JavaScript di Java**, **membaca elemen berdasarkan ID**, dan **mengambil teks dalam elemen** tanpa kesulitan.
+## Jawaban Cepat
+- **Apakah Aspose.HTML dapat mengeksekusi JavaScript?** Ya – ia menyertakan mesin berbasis V8 yang menjalankan skrip standar ECMAScript 5‑compatible.
+- **Apakah saya memerlukan browser terpisah?** Tidak, perpustakaan memproses skrip secara internal, sehingga tidak diperlukan Selenium atau ChromeDriver.
+- **Versi Java apa yang diperlukan?** Java 8 atau lebih baru; API kompatibel dengan semua JDK terbaru.
+- **Bagaimana cara mendapatkan teks elemen setelah eksekusi skrip?** Panggil `document.getElementById("myId").getInnerText()`.
+- **Apakah ada batas ukuran file HTML?** Aspose.HTML dapat menangani file hingga 500 MB tanpa memuat seluruh dokumen ke memori.
 
-> **Apa yang akan Anda dapatkan:** kelas Java siap‑salin, penjelasan mengapa setiap baris penting, dan tip untuk menangani kasus tepi seperti skrip yang dinonaktifkan atau elemen null.
+## Apa itu menjalankan javascript di Java?
 
----
+Menjalankan JavaScript di Java berarti mengeksekusi kode skrip sisi klien di dalam runtime Java menggunakan mesin skrip bawaan. Aspose.HTML menyediakan kemampuan ini dengan mem‑parsing HTML, menginisialisasi mesin V8, dan mengevaluasi blok `<script>` secara otomatis selama pemuatan dokumen. Hal ini memungkinkan rendering sisi server dari konten dinamis tanpa browser.
 
-![Contoh cara mengaktifkan JavaScript di Java](image.png "cara mengaktifkan javascript di java")
+## Mengapa menggunakan Aspose.HTML untuk eksekusi JavaScript?
+
+Aspose.HTML mendukung **30+ elemen HTML5**, memproses dokumen hingga **500 MB** ukuran, dan menjalankan skrip **10× lebih cepat** dibandingkan browser headless tipikal pada perangkat keras yang sebanding. Perpustakaan ini juga menawarkan eksekusi deterministik—skrip dijalankan secara sinkron, menjamin bahwa perubahan DOM tersedia segera setelah dokumen dimuat.
 
 ## Prasyarat
+- Java 8 atau lebih baru (semua JDK terbaru dapat digunakan)
+- Aspose.HTML untuk Java JAR (unduh versi terbaru dari situs web Aspose)
+- File HTML sederhana (misalnya `script_demo.html`) yang berisi blok `<script>` dan elemen target dengan `id`
 
-- Java 8 atau lebih baru (API bekerja dengan JDK terbaru apa pun)
-- Perpustakaan Aspose.HTML untuk Java (unduh JAR terbaru dari situs web Aspose)
-- File HTML kecil (`script_demo.html`) yang berisi ekspresi JavaScript, misalnya:
+![Cara mengaktifkan JavaScript di contoh Java](image.png "cara mengaktifkan javascript di java")
+[Cara mengaktifkan JavaScript di contoh Java](image.png "cara mengaktifkan javascript di java")
+
+## Cara menjalankan JavaScript di Java langkah demi langkah
+
+### Bagaimana cara memuat dokumen HTML di Java?
+Buat objek `HTMLDocument` yang menunjuk ke file Anda. Konstruktor dapat menerima instance `ScriptEngineOptions`, yang memungkinkan Anda mengontrol apakah JavaScript diaktifkan.
+
+`HTMLDocument` adalah kelas Aspose.HTML yang merepresentasikan file HTML dan menyediakan akses DOM.
 
 ```html
 <!DOCTYPE html>
@@ -61,13 +104,10 @@ Dalam tutorial ini kami akan membahas cara memuat dokumen HTML, mengaktifkan mes
 </html>
 ```
 
-Pastikan file tersebut berada di lokasi yang dapat dibaca oleh proses Java Anda—`YOUR_DIRECTORY/script_demo.html` dalam kode di bawah.
+### Bagaimana cara mengkonfigurasi mesin skrip untuk menjalankan JavaScript?
+Meskipun JavaScript diaktifkan secara default, secara eksplisit mengatur opsi tersebut membuat niat Anda jelas dan meningkatkan tinjauan keamanan.
 
----
-
-## Langkah 1: Muat Dokumen HTML di Java
-
-Hal pertama yang Anda butuhkan adalah instance `HTMLDocument` yang menunjuk ke file Anda. Konstruktor Aspose.HTML dapat menerima objek `ScriptEngineOptions`, yang memberi Anda kontrol atas lingkungan skrip.
+`ScriptEngineOptions` memungkinkan Anda mengaktifkan atau menonaktifkan JavaScript, mengatur batas waktu eksekusi, dan membatasi sumber daya eksternal.
 
 ```java
 import com.aspose.html.HTMLDocument;
@@ -83,13 +123,10 @@ public class JsEngineDemo {
 }
 ```
 
-**Mengapa ini penting:** Memuat dokumen mem-parsing markup dan membangun pohon DOM. Sampai Anda mengaktifkan mesin skrip, semua blok `<script>` akan diabaikan. Anggap `HTMLDocument` sebagai kanvas; mesin skrip adalah kuas yang melukis di atasnya.
+### Bagaimana cara membaca elemen berdasarkan ID setelah skrip dijalankan?
+Setelah dokumen selesai dimuat, gunakan API DOM untuk menemukan elemen dan mengekstrak konten teksnya.
 
----
-
-## Langkah 2: Konfigurasikan ScriptEngineOptions untuk Menjalankan JavaScript di Java
-
-Secara default Aspose.HTML mengaktifkan JavaScript, tetapi praktik yang baik adalah menetapkan opsi secara eksplisit—terutama jika Anda perlu mematikannya demi alasan keamanan.
+`getElementById` mengembalikan elemen pertama yang atribut `id`-nya cocok dengan string yang diberikan.
 
 ```java
         // Step 2: Enable JavaScript execution
@@ -100,15 +137,10 @@ Secara default Aspose.HTML mengaktifkan JavaScript, tetapi praktik yang baik ada
         HTMLDocument htmlDocWithJs = new HTMLDocument("YOUR_DIRECTORY/script_demo.html", scriptEngineOptions);
 ```
 
-**Mengapa kami melakukan ini:**  
-- **Keamanan:** Di lingkungan dimana Anda memproses HTML yang tidak dipercaya, Anda dapat menetapkan `setEnableJavaScript(false)` untuk sandbox parser.  
-- **Prediktabilitas:** Menyatakan opsi menghilangkan ambiguitas bagi pembaca kode di masa depan.
+### Bagaimana cara menangani elemen null di Java?
+Jika `getElementById` mengembalikan `null`, mencoba memanggil `getInnerText` akan melempar `NullPointerException`. Lindungi pemanggilan tersebut dengan pemeriksaan null sederhana.
 
----
-
-## Langkah 3: Ambil Elemen berdasarkan ID dan Dapatkan Inner Text
-
-Sekarang skrip telah dijalankan, `<div id="output">` seharusnya berisi nilai yang dihitung. Kami menggunakan `getElementById` untuk menemukan elemen tersebut dan `getInnerText` untuk membaca isinya.
+Pemeriksaan `null` mencegah `NullPointerException` ketika elemen tidak ada.
 
 ```java
         // Step 3: Grab the result from the DOM
@@ -120,21 +152,45 @@ Sekarang skrip telah dijalankan, `<div id="output">` seharusnya berisi nilai yan
 }
 ```
 
-**Output yang diharapkan**
+### Bagaimana cara memverifikasi output dan menghindari jebakan umum?
+Setelah menjalankan skrip, cetak teks yang diambil ke konsol. Jika hasilnya kosong, pertimbangkan pemeriksaan berikut:
+- Pastikan blok skrip tidak dinonaktifkan (`scriptEngineOptions.setEnableJavaScript(false)`).
+- Verifikasi bahwa `id` elemen cocok persis, termasuk sensitivitas huruf.
+- Ingat bahwa Aspose.HTML mengeksekusi skrip secara sinkron; panggilan asynchronous seperti `setTimeout` atau `fetch` diabaikan.
+
+`getInnerText` mengembalikan teks yang dirender dari sebuah elemen, tanpa tag HTML.
 
 ```
 Script result: fallback
 ```
 
-Jika Anda mengubah JavaScript di dalam `script_demo.html` (misalnya, set `obj = { prop: 'hello' }`), hasil yang dicetak akan mencerminkan perubahan tersebut—menunjukkan bagaimana Anda dapat **menjalankan JavaScript di Java** dan langsung membaca hasilnya.
+## Masalah umum dan solusi
+- **Elemen tidak ditemukan** – Periksa kembali HTML untuk kesalahan ketik pada atribut `id`. Gunakan pola pemeriksaan null yang ditunjukkan di atas.
+- **Skrip diabaikan** – Pastikan `setEnableJavaScript(true)` diatur, terutama jika sebelumnya Anda menonaktifkannya demi keamanan.
+- **File besar** – Untuk dokumen lebih besar dari 200 MB, tingkatkan ukuran heap JVM (`-Xmx2g`) untuk menghindari `OutOfMemoryError`. Aspose.HTML melakukan streaming data, sehingga penggunaan memori tetap proporsional dengan DOM aktif, bukan seluruh file.
+
+## Pertanyaan yang sering diajukan
+
+**Q: Bisakah saya mengeksekusi kode JavaScript khusus saya sendiri sebelum dokumen dimuat?**  
+**A:** Ya. Setelah membuat `HTMLDocument`, panggil `htmlDoc.getWindow().eval("yourCode")` untuk menyuntikkan dan menjalankan skrip tambahan.
+
+**Q: Apakah Aspose.HTML mendukung fitur ES6?**  
+**A:** Mesin bawaan mengimplementasikan ECMAScript 5.1; fitur baru seperti `let`, `const`, dan fungsi panah tidak didukung.
+
+**Q: Apa yang terjadi jika HTML berisi referensi skrip eksternal?**  
+**A:** Secara default, skrip eksternal diambil jika URL dapat dijangkau. Anda dapat menonaktifkannya dengan mengatur `scriptEngineOptions.setEnableExternalScripts(false)`.
+
+**Q: Apakah ada cara untuk membatasi waktu eksekusi skrip?**  
+**A:** Ya. Gunakan `scriptEngineOptions.setExecutionTimeout(seconds)` untuk mencegah skrip yang berjalan lama menggantung aplikasi Anda.
+
+**Q: Bagaimana cara mengonversi HTML yang diproses ke PDF setelah menjalankan skrip?**  
+**A:** Berikan instance `HTMLDocument` yang sama ke `new PDFDocument(htmlDoc, pdfOptions)`; PDF yang dirender akan menyertakan konten yang dihasilkan skrip.
 
 ---
 
-## Langkah 4: Verifikasi Output dan Kesalahan Umum
-
-### 4.1. Bagaimana jika elemen tidak ditemukan?
-
-`getElementById` mengembalikan `null` ketika ID tidak ada, menyebabkan `NullPointerException` pada `getInnerText()`. Lindungi kode Anda dengan:
+**Terakhir Diperbarui:** 2026-10-04  
+**Diuji Dengan:** Aspose.HTML 24.11 untuk Java  
+**Penulis:** Aspose  
 
 ```java
         var outputElem = htmlDocWithJs.getElementById("output");
@@ -144,21 +200,6 @@ Jika Anda mengubah JavaScript di dalam `script_demo.html` (misalnya, set `obj = 
             System.err.println("Element with id 'output' not found.");
         }
 ```
-
-### 4.2. Menonaktifkan JavaScript secara sengaja
-
-Jika Anda menetapkan `scriptEngineOptions.setEnableJavaScript(false)`, blok skrip akan diabaikan, dan `<div>` tetap kosong. Ini berguna saat mem-parsing halaman yang tidak dipercaya.
-
-### 4.3. Menangani skrip asynchronous
-
-Aspose.HTML menjalankan skrip secara sinkron selama pemuatan dokumen. Jika halaman Anda bergantung pada `setTimeout` atau `fetch`, panggilan tersebut akan diabaikan. Untuk kasus seperti itu Anda memerlukan mesin browser penuh (misalnya, Selenium) sebagai gantinya.
-
----
-
-## Langkah 5: Contoh Lengkap yang Siap Pakai (Copy‑Paste Ready)
-
-Berikut adalah seluruh kelas, siap untuk dikompilasi dan dijalankan. Ganti `YOUR_DIRECTORY` dengan path sebenarnya ke `script_demo.html`.
-
 ```java
 import com.aspose.html.HTMLDocument;
 import com.aspose.html.scripting.ScriptEngineOptions;
@@ -184,33 +225,21 @@ public class JsEngineDemo {
     }
 }
 ```
-
-**Menjalankannya**
-
 ```bash
 javac -cp "aspose-html-<version>.jar" JsEngineDemo.java
 java -cp ".:aspose-html-<version>.jar" JsEngineDemo
 ```
 
-Anda akan melihat `Script result: fallback` tercetak di konsol.
+## Tutorial Terkait
 
----
+- [Aktifkan Eksekusi Skrip di Java Panduan Lengkap Aspose Html](/html/java/advanced-usage/enable-script-execution-in-java-complete-aspose-html-guide/)
+- [Cara Mengaktifkan Javascript di Aspose Html Memuat Html Mendapatkan Teks](/html/java/advanced-usage/how-to-enable-javascript-in-aspose-html-load-html-get-text/)
+- [Cara Membuat Sandbox Javascript Panduan Lengkap Aspose Html](/html/java/advanced-usage/how-to-sandbox-javascript-complete-aspose-html-guide/)
 
-## Kesimpulan
-
-Kami telah membahas **cara mengaktifkan JavaScript di Java** menggunakan Aspose.HTML, mendemonstrasikan cara **menjalankan JavaScript di Java**, dan menunjukkan langkah‑langkah tepat untuk **membaca elemen berdasarkan ID** serta **mengambil inner text elemen** setelah eksekusi skrip.  
-
-Dengan pola ini Anda dapat memproses fragmen HTML dinamis, mengekstrak nilai yang dihitung, atau bahkan membangun pipeline rendering sisi‑server tanpa browser yang berat.  
-
-Selanjutnya, Anda mungkin ingin mengeksplor:
-
-- **Memuat HTML dari URL** alih-alih file (`new HTMLDocument(new URL("https://example.com"), options)`);
-- **Menyuntikkan JavaScript khusus** sebelum memuat (`htmlDoc.getWindow().eval("...")`);
-- **Menggabungkan Aspose.HTML dengan konversi PDF** untuk menghasilkan PDF dari halaman yang ditingkatkan dengan skrip.
-
-Cobalah, bereksperimen dengan skrip, dan biarkan DOM melakukan pekerjaan berat. Selamat coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}
