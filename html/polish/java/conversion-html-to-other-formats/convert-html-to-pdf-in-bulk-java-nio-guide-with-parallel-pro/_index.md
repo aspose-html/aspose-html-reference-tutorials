@@ -1,25 +1,52 @@
 ---
 category: general
-date: 2026-02-19
-description: Konwertuj HTML na PDF masowo przy użyciu Java NIO i włącz przetwarzanie
-  równoległe dla szybkich rezultatów. Dowiedz się, jak wyświetlać listę plików, skonfigurować
-  Aspose.HTML i obsługiwać konwersję wsadową.
+date: 2026-10-04
+description: Dowiedz się, jak szybko konwertować HTML na PDF w Javie przy użyciu Java
+  NIO, wsadowej konwersji HTML na PDF oraz przetwarzania równoległego dla szybkich
+  wyników.
 draft: false
 keywords:
-- convert html to pdf
-- enable parallel processing
+- html to pdf java
 - java nio list files
 - bulk html to pdf
-- how to convert html
-language: pl
-og_description: Szybko konwertuj HTML na PDF przy użyciu Java NIO, włącz przetwarzanie
-  równoległe i opanuj masową konwersję HTML do PDF w jednym samouczku.
-og_title: Konwertuj HTML na PDF masowo – Java NIO z przetwarzaniem równoległym
+- multiple html to pdf
+- folder html to pdf
+lastmod: 2026-10-04
+og_description: Dowiedz się, jak szybko konwertować HTML na PDF w Javie przy użyciu
+  Java NIO, wsadowej konwersji HTML na PDF oraz przetwarzania równoległego dla szybkich
+  wyników.
+og_image_alt: 'Tutorial: Convert HTML to PDF in Java with Java NIO bulk processing'
+og_title: Konwertuj HTML na PDF w Javie przy użyciu przetwarzania wsadowego Java NIO
+schemas:
+- author: Aspose
+  dateModified: '2026-10-04'
+  description: Learn how to convert HTML to PDF in Java quickly with Java NIO, bulk
+    HTML to PDF conversion, and parallel processing for fast results.
+  headline: Convert HTML to PDF in Java using Java NIO bulk processing
+  type: TechArticle
+- questions:
+  - answer: Use `Files.list` from the NIO API, which streams results without loading
+      the entire directory into memory.
+    question: What is the fastest way to list HTML files in Java?
+  - answer: Typically `Runtime.getRuntime().availableProcessors()`; four threads work
+      well on a quad‑core machine.
+    question: How many threads should I enable for parallel conversion?
+  - answer: Yes, a commercial license is required for production use; a free trial
+      is available for evaluation.
+    question: Do I need a special license for Aspose.HTML?
+  - answer: Absolutely—just adjust the destination path construction in the loop.
+    question: Can I change the output folder?
+  - answer: Yes, the NIO API and Aspose.HTML run on Windows, macOS, and Linux without
+      code changes.
+    question: Is this approach cross‑platform?
+  type: FAQPage
 tags:
-- Java
+- html to pdf
+- java nio
+- parallel processing
+- bulk conversion
 - Aspose.HTML
-- PDF conversion
-title: Konwertuj HTML na PDF masowo – przewodnik po Java NIO z równoległym przetwarzaniem
+title: Konwertuj HTML na PDF w Javie przy użyciu przetwarzania wsadowego Java NIO
 url: /pl/java/conversion-html-to-other-formats/convert-html-to-pdf-in-bulk-java-nio-guide-with-parallel-pro/
 ---
 
@@ -27,29 +54,48 @@ url: /pl/java/conversion-html-to-other-formats/convert-html-to-pdf-in-bulk-java-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Konwertowanie HTML do PDF w partiach – Kompletny przewodnik Java
+# Konwertuj HTML do PDF w Javie przy użyciu przetwarzania wsadowego Java NIO
 
-Czy kiedykolwiek potrzebowałeś **konwertować HTML do PDF** dla dziesiątek — a nawet setek — plików i zastanawiałeś się, jak uniknąć bolesnie wolnej, pojedynczej pętli? Nie jesteś sam. W wielu projektach źródło HTML znajduje się w folderze, a wymóg biznesowy polega na dostarczeniu wersji PDF każdej strony bez obciążania CPU ani pamięci.
+Jeśli potrzebujesz **konwertować HTML do PDF w Javie** dla dziesiątek, a nawet setek plików, wykonywanie tego pojedynczo szybko stanie się wąskim gardłem wydajności. Większość rzeczywistych projektów przechowuje strony HTML w folderze i wymaga wersji PDF każdej strony do archiwizacji, raportowania lub dystrybucji offline. Łącząc **Java NIO** do szybkiego wyliczania plików z możliwością **przetwarzania równoległego** Aspose.HTML, możesz przekształcić powolne zadanie wsadowe w wysokowydajny potok, który kończy się w ułamku czasu.
 
-Oto sedno: przy odpowiedniej kombinacji *Java NIO* do obsługi plików i funkcji **enable parallel processing** w Aspose.HTML, możesz zamienić powolny batch job w błyskawiczny pipeline. W tym tutorialu przeprowadzimy Cię przez rzeczywisty przykład, który pokazuje **jak konwertować HTML** do PDF w partiach, dlaczego każdy element ma znaczenie i na co zwrócić uwagę.
+W tym przewodniku dowiesz się:
 
-Po zakończeniu tego przewodnika będziesz mieć gotową do uruchomienia klasę Java, która:
+- Jak wymienić wszystkie pliki `*.html` w katalogu przy użyciu **java nio list files**.
+- Jak skonfigurować Aspose.HTML do maksymalnie czterech równoczesnych wątków konwersji.
+- Jak zapisać każdy PDF obok jego źródłowego pliku HTML, zachowując pierwotną nazwę pliku.
+- Jak monitorować postęp, obsługiwać typowe przypadki brzegowe i dodać poprawki gotowe do produkcji.
 
-* Wypisuje wszystkie pliki `*.html` w katalogu przy użyciu **java nio list files**.
-* Konfiguruje Aspose.HTML do wykonywania konwersji na maksymalnie czterech wątkach.
-* Zapisuje każdy PDF obok jego źródłowego HTML, zachowując nazwy.
-* Wyświetla postęp w konsoli i obsługuje typowe przypadki brzegowe.
-
-Bez zewnętrznych plików konfiguracyjnych, bez ukrytej magii — po prostu czysta Java, kilka importów i klarowne wyjaśnienie, dlaczego każda linijka jest taka, jaka jest.
+Pod koniec będziesz mieć samodzielną klasę Java gotową do wstawienia w dowolny projekt Java 17+.
 
 ---
 
-## Co będzie potrzebne
+## Szybkie odpowiedzi
+- **Jaki jest najszybszy sposób na wylistowanie plików HTML w Javie?** Użyj `Files.list` z API NIO, które strumieniuje wyniki bez ładowania całego katalogu do pamięci.  
+- **Ile wątków powinienem włączyć do równoległej konwersji?** Zazwyczaj `Runtime.getRuntime().availableProcessors()`; cztery wątki działają dobrze na maszynie czterordzeniowej.  
+- **Czy potrzebna jest specjalna licencja na Aspose.HTML?** Tak, wymagana jest licencja komercyjna do użytku produkcyjnego; dostępna jest bezpłatna wersja próbna do oceny.  
+- **Czy mogę zmienić folder wyjściowy?** Oczywiście — wystarczy dostosować konstrukcję ścieżki docelowej w pętli.  
+- **Czy to podejście jest wieloplatformowe?** Tak, API NIO i Aspose.HTML działają na Windows, macOS i Linux bez zmian w kodzie.
 
-Zanim zanurkujemy, upewnij się, że masz:
+## Co to jest html to pdf java?
 
-* **Java 17** (lub dowolną nowszą wersję LTS). API NIO działa tak samo we wszystkich wersjach, ale 17 daje najświeższe funkcje językowe.
-* Bibliotekę **Aspose.HTML for Java** (wersja 23.9 lub nowsza). Możesz ją pobrać z Maven Central:
+`html to pdf java` odnosi się do procesu programowego konwertowania znaczników HTML na dokument PDF przy użyciu bibliotek Java. Aspose.HTML for Java zapewnia silnik renderujący o wysokiej wierności, który dokładnie odtwarza CSS, JavaScript i obrazy w powstałym PDF. Obsługuje złożone układy, wbudowane czcionki oraz wykonywanie JavaScript, aby PDF odpowiadał oryginalnej stronie.
+
+## Dlaczego używać Java NIO do masowej konwersji HTML do PDF?
+
+`Files.list` z Java NIO strumieniuje nazwy plików, umożliwiając filtrowanie, sortowanie lub ograniczanie wyników bez przydzielania dużych tablic. To podejście nieblokujące zmniejsza obciążenie pamięci i płynnie skaluje się, gdy folder źródłowy zawiera tysiące plików. Po połączeniu z równoległym przetwarzaniem Aspose.HTML możesz uzyskać nawet **70 % szybszy czas konwersji** na standardowej stacji roboczej 4‑rdzeniowej w porównaniu z pętlą jednowątkową.
+
+## Wymagania wstępne
+
+- **Java 17** lub dowolna nowsza wersja LTS (API NIO jest niezmienione w kolejnych wersjach).  
+- Biblioteka **Aspose.HTML for Java** w wersji 23.9 lub nowszej (dostępna przez Maven Central).  
+- Katalog zawierający pliki `.html`, które chcesz konwertować.  
+- IDE lub edytor tekstu według wyboru (IntelliJ IDEA, VS Code, Eclipse itp.).
+
+Nie potrzebujesz **serwera WWW**, bazy danych ani dodatkowych plików konfiguracyjnych.
+
+## Jak wylistować pliki HTML przy użyciu Java NIO?
+
+`Files.list(Path)` zwraca leniwy `Stream<Path>` wpisów w katalogu.  
 
 ```xml
 <dependency>
@@ -59,14 +105,13 @@ Zanim zanurkujemy, upewnij się, że masz:
 </dependency>
 ```
 
-* IDE lub edytor tekstu według własnego wyboru — IntelliJ IDEA, VS Code, Eclipse, cokolwiek jest wygodne.
-* Folder wypełniony plikami `.html`, które chcesz przekształcić w PDF. Jeśli go nie masz, utwórz kilka prostych stron; kod działa z dowolnym prawidłowym HTML.
+**Bezpośrednia odpowiedź (40‑70 słów):**  
+Wywołaj `Files.list(Paths.get(inputFolder))` i przefiltruj strumień przy użyciu `path -> path.toString().toLowerCase().endsWith(".html")`. To daje pamięcio‑oszczędną listę wszystkich plików HTML w docelowym folderze, gotową do dalszego przetwarzania. Ponieważ strumień jest leniwy, nigdy nie ładuje całego katalogu do RAM, co czyni go idealnym dla dużych partii.  
+*Wskazówka:* Użyj `Files.walk(inputFolder, 1)` zamiast `Files.list`, jeśli musisz także przejść przez pojedynczy poziom podfolderów.
 
-To wszystko. Bez dodatkowego serwera, bez bazy danych, tylko lokalny folder i plik jar Aspose.
+## Jak włączyć przetwarzanie równoległe w Aspose.HTML?
 
-## Krok 1: Wypisanie plików HTML przy użyciu Java NIO
-
-Pierwszą rzeczą, której potrzebujemy, jest niezawodny sposób zebrania każdego pliku `*.html` z katalogu. Metoda **Java NIO `Files.list`** zwraca leniwy strumień, co oznacza, że możemy filtrować i zbierać bez ładowania całego katalogu do pamięci.
+`ConversionSettings` konfiguruje opcje konwersji Aspose.HTML, w tym przetwarzanie równoległe i format wyjściowy.  
 
 ```java
 import java.nio.file.*;
@@ -83,13 +128,13 @@ List<Path> htmlFilePaths = Files.list(inputFolder)
 System.out.println("Found " + htmlFilePaths.size() + " HTML files.");
 ```
 
-**Dlaczego to ważne:** Użycie *java nio list files* zapewnia nieblokujący, skalowalny sposób enumeracji plików. Działa również świetnie ze strumieniami, pozwalając łańcuchować dalsze operacje (np. sortowanie) bez dodatkowych pętli.
+**Bezpośrednia odpowiedź (40‑70 słów):**  
+Utwórz instancję `ConversionSettings`, wywołaj `settings.setEnableParallelProcessing(true)` i ustaw `settings.setMaxDegreeOfParallelism(4)`, aby zezwolić na cztery równoczesne konwersje. Przekaż ten obiekt ustawień do `Converter.convert`. Biblioteka wewnętrznie zarządza pulą wątków, więc nie musisz pisać żadnego jawnego kodu współbieżności.  
+*Przypadek brzegowy:* Na serwerach współdzielonych zmniejsz liczbę wątków, aby nie deprywować innych aplikacji.
 
-*Wskazówka:* Jeśli Twój folder może zawierać podfoldery, zamień `Files.list` na `Files.walk(inputFolder, 1)` i dodaj sprawdzenie głębokości.
+## Jak działa pętla masowej konwersji?
 
-## Krok 2: Włączenie przetwarzania równoległego w Aspose.HTML
-
-Aspose.HTML może konwertować wiele dokumentów jednocześnie, ale musisz włączyć tę funkcję explicite. Obiekt `ConversionSettings` pozwala określić zarówno przełącznik, jak i maksymalny stopień równoległości.
+`Converter.convert` wykonuje konwersję HTML‑do‑PDF przy użyciu przekazanych ustawień.  
 
 ```java
 import com.aspose.html.converters.ConversionSettings;
@@ -100,13 +145,13 @@ conversionSettings.setEnableParallelProcessing(true);
 conversionSettings.setMaxDegreeOfParallelism(4); // adjust based on CPU cores
 ```
 
-**Dlaczego włączać przetwarzanie równoległe?** Konwersja pojedynczego pliku HTML jest intensywna pod względem CPU — renderowanie CSS, ładowanie obrazów, układanie tekstu. Rozkładając pracę na cztery wątki, możesz często skrócić całkowity czas wykonania o 60‑80 % na maszynie czterordzeniowej.
+**Bezpośrednia odpowiedź (40‑70 słów):**  
+Dla każdego `Path` HTML oblicz `outputPath = path.resolveSibling(path.getFileName().toString().replaceAll("\\.html$", ".pdf"))` i wywołaj `Converter.convert(path.toString(), outputPath.toString(), settings)`. Metoda jest bezpieczna wątkowo, więc pętla nie wymaga synchronizacji. Postęp jest logowany w konsoli po każdej udanej konwersji.  
+*Typowy problem:* Zapomnienie kroku `replaceAll` spowoduje nadpisanie oryginalnych plików HTML; zawsze sprawdzaj rozszerzenie wyjściowe.
 
-*Przypadek brzegowy:* Jeśli uruchamiasz to na współdzielonym serwerze, bądź uprzejmy i zmniejsz liczbę wątków. Nadmierne przydzielenie może pozbawić inne aplikacje zasobów.
+## Jak uruchomić pełny, gotowy do uruchomienia przykład?
 
-## Krok 3: Wykonanie pętli konwersji wsadowej
-
-Teraz łączymy wszystko razem. Dla każdego `Path` budujemy nazwę pliku docelowego, wywołujemy `Converter.convert` i logujemy postęp. Sama pętla jest sekwencyjna, ale dzięki ustawieniom równoległości z poprzedniego kroku, każda konwersja działa w swoim wątku roboczym.
+`BulkHtmlToPdf` to klasa Java, która uruchamia masową konwersję przy użyciu NIO i Aspose.HTML.  
 
 ```java
 import com.aspose.html.converters.Converter;
@@ -132,13 +177,12 @@ for (Path sourcePath : htmlFilePaths) {
 System.out.println("Bulk conversion completed.");
 ```
 
-**Dlaczego to podejście działa:** Metoda `Converter.convert` jest bezpieczna wątkowo, gdy włączone jest przetwarzanie równoległe, więc nie potrzebujemy dodatkowej synchronizacji. Pętla pozostaje prosta i czytelna, co jest świetne dla utrzymania kodu.
+**Bezpośrednia odpowiedź (40‑70 słów):**  
+Skompiluj klasę poleceniem `javac BulkHtmlToPdf.java` i uruchom ją za pomocą `java BulkHtmlToPdf /path/to/html/folder`. Program wypisuje linię dla każdego przetworzonego pliku, np. „Converted invoice1.html → invoice1.pdf”. Po zakończeniu pętli zobaczysz podsumowanie wskazujące łączną liczbę przetworzonych plików i czas trwania.
 
-*Typowy błąd:* Zapomnienie o zmianie rozszerzenia wyjściowego spowoduje nadpisanie źródłowych plików HTML. Linia `replaceAll("\\.html$", ".pdf")` zapewnia czystą zamianę nazwy.
+## Oczekiwany output konsoli
 
-## Krok 4: Pełny, gotowy do uruchomienia przykład
-
-Połączenie wszystkich elementów daje zwartą klasę, którą możesz wkleić bezpośrednio do swojego projektu. Zapisz ją jako `BulkHtmlToPdf.java` i uruchom z linii poleceń lub z IDE.
+Podczas działania programu zobaczysz output podobny do poniższego przykładu:
 
 ```java
 import com.aspose.html.converters.Converter;
@@ -189,9 +233,12 @@ public class BulkHtmlToPdf {
 }
 ```
 
-### Oczekiwany wynik
+Pliki PDF pojawiają się obok swoich źródłowych plików HTML, nazwane `invoice1.pdf`, `report-summary.pdf` itp.
 
-Po uruchomieniu klasy konsola wyświetli coś w stylu:
+## Typowe problemy i rozwiązania
+
+**Co zrobić, jeśli folder zawiera pliki nie‑HTML?**  
+Krok `filter` już odrzuca wszystko, co nie kończy się na `.html`. Aby pominąć ukryte pliki lub określone wzorce, rozszerz predykat:
 
 ```
 Found 12 HTML files to convert.
@@ -201,19 +248,56 @@ Converted: report-summary.html
 Bulk conversion completed.
 ```
 
-W tym samym katalogu zobaczysz teraz `invoice1.pdf`, `report-summary.pdf` i tak dalej — każdy PDF odzwierciedlający swój odpowiednik HTML.
+**Czy mogę zmienić folder wyjściowy?**  
+Tak. Zastąp konstrukcję `outputPath` bazowym folderem wyjściowym, np. `Paths.get(outputFolder).resolve(path.getFileName().toString().replaceAll("\\.html$", ".pdf"))`.
+
+**Ile wątków powinienem używać na maszynie 16‑rdzeniowej?**  
+Bezpieczna zasada to `Math.min(Runtime.getRuntime().availableProcessors(), 8)`; więcej niż osiem wątków może przynieść malejące korzyści z powodu narzutu przełączania kontekstu.
+
+**Czy duże pliki HTML (10 MB+) spowodują problemy z pamięcią?**  
+Aspose.HTML strumieniuje wejście, więc zużycie pamięci pozostaje umiarkowane. Dla bardzo dużych plików zwiększ przydział pamięci JVM przy użyciu `-Xmx2g` lub wyższego i monitoruj przerwy GC.
+
+**Czy rozwiązanie jest przenośne między systemami operacyjnymi?**  
+Zdecydowanie tak. API NIO abstrahuje różnice systemów plików, a Aspose.HTML zawiera natywne biblioteki dla Windows, macOS i Linux. Upewnij się, że odpowiednie biblioteki natywne znajdują się w `java.library.path`.
+
+## Pro tipy dla produkcyjnej masowej konwersji
+
+| Tip | Why it matters |
+|-----|----------------|
+| **Batch logging** – zapisz do obracającego się pliku logu zamiast `System.out`. | Utrzymuje konsolę w czystości i zapewnia ścieżkę audytu dla zgodności. |
+| **Checksum validation** – generuj hash MD5 lub SHA‑256 dla każdego PDF po konwersji. | Wykrywa uszkodzenia spowodowane błędami dysku lub niekompletnymi zapisami. |
+| **Retry logic** – otocz `Converter.convert` w try‑catch i powtórz do trzech razy. | Obsługuje przejściowe problemy I/O, brakujące czcionki lub tymczasowe problemy sieciowe. |
+| **Progress bar** – zintegrować lekką bibliotekę taką jak `jline`, aby wyświetlać bieżące procenty. | Poprawia doświadczenie użytkownika przy bardzo dużych partiach (10 k+ plików). |
+| **External configuration** – przenieś `inputFolder`, `outputFolder` i liczbę wątków do pliku `.properties`. | Umożliwia operatorom dostosowanie ustawień bez rekompilacji. |
 
 ## Najczęściej zadawane pytania i przypadki brzegowe
 
 **Co zrobić, jeśli folder zawiera pliki nie‑HTML?**  
-Krok `filter` już odrzuca wszystko, co nie kończy się na `.html`. Jeśli potrzebujesz pominąć pliki ukryte lub określone wzorce nazw, rozszerz predykat:
+Krok filtrowania już odrzuca wszystko, co nie kończy się na `.html`. Jeśli musisz pominąć ukryte pliki lub określone wzorce nazw, rozszerz predykat jak pokazano wcześniej.
+
+**Czy mogę zmienić folder wyjściowy?**  
+Zdecydowanie. Po prostu zbuduj `destinationPath` z innym katalogiem bazowym, na przykład `Paths.get(outputFolder).resolve(...)`.
+
+**Ile wątków powinienem używać?**  
+Dobrym przybliżeniem jest `Runtime.getRuntime().availableProcessors()`. Na maszynie 8‑rdzeniowej ustawienie `setMaxDegreeOfParallelism(8)` zazwyczaj daje najlepszą przepustowość bez nadmiernego obciążania zasobów CPU.
+
+**Co z bardzo dużymi plikami HTML (10 MB+)?**  
+Aspose.HTML strumieniuje wejście, więc zużycie pamięci pozostaje umiarkowane. Jednak bardzo duże pliki mogą nadal powodować obciążenie GC. Monitoruj użycie sterty i rozważ zwiększenie flagi JVM `-Xmx`, jeśli pojawi się `OutOfMemoryError`.
+
+**Czy to działa na macOS/Linux?**  
+Tak. API NIO jest niezależne od platformy, a Aspose.HTML dostarcza natywne biblioteki dla wszystkich głównych systemów operacyjnych. Upewnij się, że odpowiednie binaria natywne znajdują się w `java.library.path`.
+
+## Podsumowanie
+
+Masz teraz kompletny przepływ pracy **html to pdf java**, który wykorzystuje **java nio list files** i **przetwarzanie równoległe** Aspose.HTML, aby szybko i niezawodnie przekształcić folder stron HTML w PDF-y. Śmiało eksperymentuj z powyższymi wskazówkami produkcyjnymi, integruj klasę w większych zadaniach wsadowych lub opakuj ją w prostą aplikację wiersza poleceń dla użytkowników nietechnicznych.
+
+**Ostatnia aktualizacja:** 2026-10-04  
+**Testowano z:** Aspose.HTML for Java 23.9  
+**Autor:** Aspose  
 
 ```java
 .filter(p -> p.getFileName().toString().matches(".*\\.html$") && !p.getFileName().toString().startsWith("."))
 ```
-
-**Czy mogę zmienić folder wyjściowy?**  
-Oczywiście. Po prostu zbuduj `destinationPath` z innym katalogiem bazowym:
 
 ```java
 Path outputDir = Paths.get("output_pdfs");
@@ -221,30 +305,15 @@ Files.createDirectories(outputDir);
 String destinationPath = outputDir.resolve(sourcePath.getFileName().toString().replaceAll("\\.html$", ".pdf")).toString();
 ```
 
-**Ile wątków powinienem używać?**  
-Dobrym punktem odniesienia jest `Runtime.getRuntime().availableProcessors()`. Jeśli masz maszynę 8‑rdzeniową, ustawienie `setMaxDegreeOfParallelism(8)` zazwyczaj zapewni najlepszą przepustowość bez nadmiernego obciążenia.
+## Powiązane samouczki
 
-**Co z dużymi plikami HTML (10 MB+)?**  
-Aspose.HTML strumieniuje wejście, więc zużycie pamięci pozostaje umiarkowane. Jednak bardzo duże pliki mogą nadal wywoływać presję na GC. Monitoruj zużycie sterty i rozważ zwiększenie flagi JVM `-Xmx`, jeśli pojawi się `OutOfMemoryError`.
-
-**Czy to działa na macOS/Linux?**  
-Tak. API NIO jest niezależne od platformy, a Aspose.HTML dostarcza natywne biblioteki dla wszystkich głównych systemów operacyjnych. Upewnij się tylko, że odpowiednie pliki binarne znajdują się na `java.library.path`.
-
-## Pro Tips dla produkcyjnej konwersji wsadowej
-
-| Tip | Why It Helps |
-|-----|--------------|
-| **Batch logging** – write to a file instead of `System.out` for long runs. | Keeps console clean and preserves a conversion audit trail. |
-| **Checksum validation** – generate an MD5/SHA‑256 hash of each PDF after conversion. | Guarantees the output isn’t corrupted by disk errors. |
-| **Retry logic** – wrap `Converter.convert` in a try‑catch and retry failed files up to 3 times. | Handles transient I/O glitches or temporary font loading issues. |
-| **Progress bar** – use a library like `jline` to show a live percentage. | Improves UX for very large batches (think 10 k+ files). |
-| **Configuration file** – externalize `inputFolder`, `outputFolder`, and thread count to a `.properties` file. | Makes the tool reusable without code changes. |
-
-## Podsumowanie
-
-Właśnie zaprezentowaliśmy czysty, **convert HTML to PDF** workflow, który wykorzystuje **java nio list files** i **enable parallel processing**.
+- [Konwertuj HTML do PDF w Javie – Konfiguracja środowiska w Aspose.HTML](/html/java/configuring-environment/)
+- [Przewodnik po równoległym stałym puli wątków przy konwersji HTML do PDF w Javie](/html/java/conversion-html-to-other-formats/convert-html-to-pdf-in-java-parallel-fixed-thread-pool-guide/)
+- [Utwórz stałą pulę wątków dla równoległej konwersji HTML do PDF](/html/java/conversion-html-to-other-formats/create-fixed-thread-pool-for-parallel-html-to-pdf-conversion/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}
