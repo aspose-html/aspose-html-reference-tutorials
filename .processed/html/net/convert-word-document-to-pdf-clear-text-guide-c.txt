@@ -1,0 +1,7 @@
+Title: Convert Word Document to PDF – Clear Text Guide (C#)
+Slug: convert-word-document-to-pdf-clear-text-guide-c
+Category: advanced-features
+ProcessedDate: 2026-07-02T14:27:42.940588
+SourceRepo: AI Search API
+Keywords: convert word document to pdf, improve pdf text clarity
+PRNumber: 198

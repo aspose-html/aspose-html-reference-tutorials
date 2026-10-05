@@ -1,0 +1,7 @@
+Title: Create SVG Document in Python – Convert SVG to PNG Guide
+Slug: create-svg-document-in-python-convert-svg-to-png-guide
+Category: general
+ProcessedDate: 2026-07-05T20:44:09.402174
+SourceRepo: AI Search API
+Keywords: create svg document, convert svg to png, svg to png python, save svg file, export svg as png
+PRNumber: 204

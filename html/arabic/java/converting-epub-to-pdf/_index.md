@@ -58,6 +58,9 @@ weight: 27
 ### [كيفية تضمين الخطوط عند تحويل EPUB إلى PDF في Java](./how-to-embed-fonts-when-converting-epub-to-pdf-in-java/)
 تعلم كيفية تضمين الخطوط أثناء تحويل EPUB إلى PDF باستخدام Aspose.HTML for Java.
 
+### [كيفية تضمين الخطوط في PDF باستخدام Aspose HTML – دليل تحويل EPUB إلى PDF](./how-to-embed-fonts-in-pdf-using-aspose-html-convert-epub-to/)
+تعلم كيفية تضمين الخطوط في ملفات PDF أثناء تحويل EPUB باستخدام Aspose.HTML for Java.
+
 ### [تحويل EPUB إلى BMP](./convert-epub-to-bmp/)
 تعلم كيفية تحويل EPUB إلى BMP باستخدام Aspose.HTML for Java. دليل خطوة بخطوة لتحويل المحتوى بكفاءة.
 
@@ -82,6 +85,12 @@ weight: 27
 ### [تحويل EPUB إلى صورة](./convert-epub-to-image/)
 تعلم كيفية تحويل EPUB إلى صور باستخدام Aspose.HTML for Java. حول محتواك الرقمي بسهولة. دليل خطوة بخطوة مرفق.
 
+### [تحويل EPUB إلى PDF باستخدام Java – دليل خطوة بخطوة](./convert-epub-to-pdf-with-java-step-by-step-guide/)
+دليل شامل خطوة بخطوة لتحويل ملفات EPUB إلى PDF باستخدام Aspose.HTML for Java بسهولة.
+
+### [كيفية تضمين الخطوط عند تحويل EPUB إلى PDF – دليل Java](./how-to-embed-fonts-when-converting-epub-to-pdf-java-guide/)
+### [دليل تحويل EPUB إلى PDF: تحويل الكتاب الإلكتروني إلى PDF باستخدام Aspose](./epub-to-pdf-tutorial-convert-ebook-to-pdf-with-aspose/)
+تعلم كيفية تحويل ملفات EPUB إلى PDF بسهولة باستخدام Aspose.HTML for Java في هذا الدليل الشامل.
 ## الأسئلة المتكررة
 
 **Q:** *هل يمكنني تحويل ملفات EPUB المحمية إلى PDF؟*  

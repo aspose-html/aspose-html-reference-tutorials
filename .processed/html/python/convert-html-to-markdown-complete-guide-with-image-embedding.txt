@@ -1,0 +1,7 @@
+Title: Convert HTML to Markdown – Complete Guide with Image Embedding
+Slug: convert-html-to-markdown-complete-guide-with-image-embedding
+Category: general
+ProcessedDate: 2026-06-19T23:18:53.575161
+SourceRepo: AI Search API
+Keywords: convert html to markdown, how to embed images in markdown
+PRNumber: 188
