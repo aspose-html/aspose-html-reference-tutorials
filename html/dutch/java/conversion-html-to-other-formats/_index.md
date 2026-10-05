@@ -83,10 +83,15 @@ Kortom, het beheersen van **html to pdf java** en de bredere reeks conversies on
 
 ## Conversie - HTML naar Andere Formaten Tutorials
 ### [HTML naar PDF converteren](./convert-html-to-pdf/)
+Leer hoe u HTML naar PDF kunt converteren in Java met Aspose.HTML. Maak moeiteloos hoogwaardige PDF's van uw HTML‑inhoud.
 ### [HTML naar PDF converteren in Java – Snelle Aspose.HTML‑gids](./convert-html-to-pdf-in-java-quick-aspose-html-guide/)
 Een beknopte gids voor het snel converteren van HTML naar PDF in Java met Aspose.HTML.
 ### [HTML naar PDF converteren in Java – Stapsgewijze gids met paginagrootte‑instellingen](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Leer stap voor stap hoe u HTML naar PDF converteert in Java en paginagrootte‑instellingen configureert voor optimale resultaten.
+### [Hoe een webpagina naar PDF converteren in Java – Stapsgewijze gids](./how-to-convert-webpage-to-pdf-in-java-step-by-step-guide/)
+
+### [HTML naar PDF converteren in Java – Eén‑regel code‑voorbeeld](./convert-html-to-pdf-in-java-one-line-code-example/)
+
 ### [HTML naar PDF converteren in Java – Complete stapsgewijze gids](./convert-html-to-pdf-in-java-complete-step-by-step-guide/)
 Volledige stap‑voor‑stap handleiding om HTML naar PDF te converteren in Java met Aspose.HTML, inclusief alle configuratie‑opties.
 ### [Lettertypen insluiten in PDF – Complete Aspose HTML naar PDF-gids (Java)](./embed-fonts-pdf-complete-aspose-html-to-pdf-guide-java/)
@@ -98,21 +103,27 @@ Leer hoe u asynchrone conversie van HTML naar PDF implementeert in Java met Aspo
 Leer hoe u met Java NIO en parallelle verwerking grote aantallen HTML‑bestanden efficiënt naar PDF converteert.
 ### [HTML naar PDF converteren in Java – Volledige gids met papierformaat en DPI](./convert-html-to-pdf-in-java-full-guide-with-paper-size-dpi/)
 Leer stap‑voor‑stap hoe u HTML naar PDF converteert in Java, inclusief instellingen voor papierformaat en DPI voor optimale kwaliteit.
-### [Hoe een webpagina naar PDF converteren in Java – Stapsgewijze gids](./how-to-convert-webpage-to-pdf-in-java-step-by-step-guide/)
-### [HTML naar PDF converteren in Java – Eén‑regel code‑voorbeeld](./convert-html-to-pdf-in-java-one-line-code-example/)
 ### [HTML naar MHTML converteren](./convert-html-to-mhtml/)
+Converteer HTML moeiteloos naar MHTML met Aspose.HTML for Java. Volg onze stap‑voor‑stap gids voor efficiënte HTML‑naar‑MHTML conversie.
 ### [HTML naar XPS converteren](./convert-html-to-xps/)
+Leer hoe u HTML moeiteloos naar XPS kunt converteren met Aspose.HTML for Java. Maak cross‑platform documenten met gemak.
 ### [Markdown naar HTML converteren](./convert-markdown-to-html/)
+Converteer Markdown naar HTML in Java naadloos met Aspose.HTML for Java. Volg onze stap‑voor‑stap gids om uw documentconversiebehoeften te stroomlijnen.
 ### [SVG naar afbeelding converteren](./convert-svg-to-image/)
+Leer hoe u SVG naar afbeeldingen kunt converteren in Java met Aspose.HTML. Uitgebreide gids voor output van hoge kwaliteit.
 ### [SVG naar PDF converteren](./convert-svg-to-pdf/)
+Converteer SVG naar PDF in Java met Aspose.HTML. Een naadloze oplossing voor documentconversie van hoge kwaliteit.
 ### [SVG naar XPS converteren](./convert-svg-to-xps/)
+Leer hoe u SVG naar XPS kunt converteren met Aspose.HTML for Java. Eenvoudige, stap‑voor‑stap gids voor naadloze conversies.
+### [PDF maken van HTML met aangepaste paginagrootte en ingesloten lettertypen](./create-pdf-from-html-with-custom-page-size-and-embedded-font/)
+
+### [HTML naar PDF converteren met Java – hoe een thread‑pool te maken](./convert-html-to-pdf-with-java-how-to-create-thread-pool/)
+
 ### [DOCX maken van HTML – Java-gids om HTML naar DOCX te converteren](./create-docx-from-html-java-guide-to-convert-html-to-docx/)
 Leer hoe u HTML naar DOCX converteert in Java met Aspose.HTML. Maak eenvoudig DOCX‑documenten van uw webinhoud.
 ### [PDF maken van HTML in Java – Eén‑regel Aspose‑gids](./create-pdf-from-html-in-java-one-line-aspose-guide/)
 Genereer een PDF uit HTML met één regel code via Aspose.HTML for Java.
 ### [Device Pixel Ratio instellen in Java – HTML naar mobiel converteren](./set-device-pixel-ratio-in-java-convert-html-to-mobile/)
-### [PDF maken van HTML met aangepaste paginagrootte en ingesloten lettertypen](./create-pdf-from-html-with-custom-page-size-and-embedded-font/)
-### [HTML naar PDF converteren met Java – hoe een thread‑pool te maken](./convert-html-to-pdf-with-java-how-to-create-thread-pool/)
 
 ### [HTML naar PDF converteren in Java – Complete gids met lettertype‑inbedding](./convert-html-to-pdf-in-java-complete-guide-with-font-embeddi/)
 Leer hoe u HTML naar PDF converteert in Java met volledige lettertype‑inbedding voor nauwkeurige weergave.

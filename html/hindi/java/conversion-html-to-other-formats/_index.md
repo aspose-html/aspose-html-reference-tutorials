@@ -96,7 +96,11 @@ Aspose HTML का उपयोग करके असिंक्रोनस �
 Aspose.HTML का उपयोग करके Java में तेज़ी से HTML को PDF में बदलने के चरण‑दर‑चरण निर्देश।
 
 ### [HTML को MHTML में बदलना](./convert-html-to-mhtml/)
+Aspose.HTML for Java का उपयोग करके HTML को MHTML में आसानी से बदलें। कुशल HTML‑to‑MHTML रूपांतरण के लिए हमारे चरण‑दर‑चरण गाइड का पालन करें।
+
 ### [HTML को XPS में बदलना](./convert-html-to-xps/)
+Aspose.HTML for Java का उपयोग करके HTML को XPS में आसानी से कैसे बदलें सीखें। आसानी से क्रॉस‑प्लेटफ़ॉर्म दस्तावेज़ बनाएं।
+
 ### [Markdown को HTML में बदलना](./convert-markdown-to-html/)
 Aspose.HTML for Java के साथ Java में Markdown को HTML में सहजता से बदलें। अपने दस्तावेज़ रूपांतरण आवश्यकताओं को सुव्यवस्थित करने के लिए हमारे चरण‑दर‑चरण गाइड का पालन करें।
 
@@ -104,16 +108,25 @@ Aspose.HTML for Java के साथ Java में Markdown को HTML मे
 Aspose.HTML for Java का उपयोग करके Markdown फ़ाइल को PDF में बदलने की पूरी प्रक्रिया सीखें।
 
 ### [SVG को इमेज में बदलना](./convert-svg-to-image/)
+Aspose.HTML के साथ Java में SVG को इमेज में कैसे बदलें सीखें। उच्च‑गुणवत्ता आउटपुट के लिए व्यापक गाइड।
+
 ### [SVG को PDF में बदलना](./convert-svg-to-pdf/)
+Aspose.HTML के साथ Java में SVG को PDF में बदलें। उच्च‑गुणवत्ता दस्तावेज़ रूपांतरण के लिए एक सहज समाधान।
+
 ### [SVG को XPS में बदलना](./convert-svg-to-xps/)
 Aspose.HTML for Java के साथ SVG को XPS में कैसे बदलें सीखें। सहज रूपांतरण के लिए सरल, चरण‑दर‑चरण गाइड।
 
 ### [Aspose HTML for Java के साथ डायनेमिक HTML को PDF में बदलना](./convert-dynamic-html-pdf-with-aspose-html-for-java/)
 
 ### [Java में HTML को PDF में बदलें – पेज आकार सेटिंग्स के साथ चरण‑दर‑चरण गाइड](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
+Aspose.HTML for Java के साथ पेज आकार सेटिंग्स को नियंत्रित करते हुए HTML को PDF में बदलने का विस्तृत गाइड।
+
 ### [जावा में वेबपेज को PDF में बदलने का चरण‑दर‑चरण गाइड](./how-to-convert-webpage-to-pdf-in-java-step-by-step-guide/)
+
 ### [कस्टम पेज साइज और एम्बेडेड फ़ॉन्ट्स के साथ HTML को PDF में बदलना](./create-pdf-from-html-with-custom-page-size-and-embedded-font/)
+
 ### [Java में HTML को PDF में बदलें – एक‑लाइन कोड उदाहरण](./convert-html-to-pdf-in-java-one-line-code-example/)
+
 ### [Java के साथ HTML को PDF में बदलें – थ्रेड पूल कैसे बनाएं](./convert-html-to-pdf-with-java-how-to-create-thread-pool/)
 
 ### [Java में HTML से PDF बनाएं – एक‑लाइन Aspose गाइड](./create-pdf-from-html-in-java-one-line-aspose-guide/)

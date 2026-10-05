@@ -67,6 +67,13 @@ Apprenez à créer et à gérer des documents SVG à l'aide d'Aspose.HTML pour J
 ### [Créer un bac à sable pour HTML en Java – Guide étape par étape](./create-sandbox-for-html-in-java-step-by-step-guide/)
 Apprenez à créer un environnement sécurisé pour manipuler du HTML en Java avec Aspose.HTML, guide complet pas à pas.
 ### [Comment interroger le HTML en Java – Tutoriel complet](./how-to-query-html-in-java-complete-tutorial/)
+Apprenez à interroger et extraire des données HTML en Java avec Aspose.HTML grâce à ce guide complet étape par étape.
+### [Comment interroger le HTML en Java – Extraire les URL d'images](./how-to-query-html-in-java-extract-image-urls/)
+Apprenez à extraire les URL d'images depuis du HTML en Java avec Aspose.HTML grâce à ce guide étape par étape.
+
+### [Comment analyser le HTML en Java – Extraire le texte des articles HTML](./how-to-parse-html-in-java-extract-text-from-html-articles/)
+Apprenez à analyser le HTML en Java et à extraire le texte des articles HTML grâce à ce guide étape par étape.
+
 ### [Créer un document HTML avec Java – Récupérer JSON et générer du contenu](./create-html-document-with-java-fetch-json-and-generate-conte/)
 Apprenez à récupérer des données JSON et à générer dynamiquement du contenu HTML en Java avec Aspose.HTML.
 ### [Compter les caractères HTML en Java – Guide complet avec Aspose.HTML](./count-html-characters-in-java-full-guide-with-aspose-html/)
@@ -107,10 +114,6 @@ Apprenez à parcourir un NodeList en Java avec Aspose.HTML grâce à ce guide co
 Apprenez à extraire du texte d'un document HTML en Java avec Aspose.HTML grâce à ce guide complet étape par étape.
 ### [Comment utiliser XPath en Java – Lire le HTML et extraire le texte](./how-to-use-xpath-in-java-read-html-and-extract-text/)
 Apprenez à utiliser XPath en Java pour lire le HTML et extraire du texte avec Aspose.HTML, guide étape par étape.
-### [Comment interroger le HTML en Java – Extraire les URL d'images](./how-to-query-html-in-java-extract-image-urls/)
-Apprenez à extraire les URL d'images depuis du HTML en Java avec Aspose.HTML grâce à ce guide étape par étape.
-### [Comment analyser le HTML en Java – Extraire le texte des articles HTML](./how-to-parse-html-in-java-extract-text-from-html-articles/)
-Apprenez à analyser le HTML en Java et à extraire le texte des articles HTML grâce à ce guide étape par étape.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
