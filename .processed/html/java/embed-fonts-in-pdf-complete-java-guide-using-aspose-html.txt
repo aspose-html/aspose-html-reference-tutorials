@@ -1,0 +1,7 @@
+Title: embed fonts in pdf – Complete Java Guide Using Aspose HTML
+Slug: embed-fonts-in-pdf-complete-java-guide-using-aspose-html
+Category: conversion-html-to-other-formats
+ProcessedDate: 2026-05-29T00:49:39.613930
+SourceRepo: AI Search API
+Keywords: embed fonts in pdf, aspose convert html to pdf, java html to pdf conversion, aspose html conversion, how to embed fonts pdf
+PRNumber: 164

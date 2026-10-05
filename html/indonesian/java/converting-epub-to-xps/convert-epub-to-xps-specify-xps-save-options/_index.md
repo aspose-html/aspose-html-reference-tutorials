@@ -1,35 +1,51 @@
 ---
-title: Menentukan Opsi Penyimpanan XPS untuk EPUB ke XPS
-linktitle: Menentukan Opsi Penyimpanan XPS untuk EPUB ke XPS
-second_title: Pemrosesan HTML Java dengan Aspose.HTML
-description: Pelajari cara menggunakan Aspose.HTML untuk Java guna menentukan opsi penyimpanan XPS untuk EPUB ke XPS dalam tutorial langkah demi langkah ini. Konversi file EPUB dengan mudah.
-weight: 12
+date: 2026-01-09
+description: Pelajari cara menggunakan Aspose.HTML untuk Java untuk menentukan opsi
+  penyimpanan XPS dan mengonversi EPUB ke XPS secara efisien.
+linktitle: Specifying XPS Save Options for EPUB to XPS
+second_title: Java HTML Processing with Aspose.HTML
+title: Menentukan Opsi Penyimpanan Aspose HTML untuk Konversi EPUB ke XPS
 url: /id/java/converting-epub-to-xps/convert-epub-to-xps-specify-xps-save-options/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Menentukan Opsi Penyimpanan XPS untuk EPUB ke XPS
+# Menentukan Opsi Penyimpanan Aspose HTML untuk EPUB ke XPS
 
-Dalam dunia pengembangan web, kemampuan mengonversi file EPUB ke format XPS merupakan alat yang sangat berguna. Aspose.HTML untuk Java merupakan pustaka canggih yang menawarkan kemampuan untuk melakukan konversi ini dengan mudah. Dalam tutorial lengkap ini, kami akan memandu Anda melalui proses menentukan opsi penyimpanan XPS untuk EPUB ke XPS menggunakan Aspose.HTML untuk Java.
+Mengonversi dokumen EPUB ke XPS dapat menjadi bagian yang berguna dalam alur kerja penerbitan, dan **Aspose HTML Save Options** memberi Anda kontrol yang sangat detail atas output. Pada tutorial ini kami akan menjelaskan langkah‑langkah tepat yang diperlukan untuk mengonfigurasi opsi penyimpanan tersebut dengan Aspose.HTML untuk Java dan menghasilkan file XPS berkualitas tinggi.
+
+## Jawaban Cepat
+- **Apa yang dilakukan Aspose HTML Save Options?** Ini memungkinkan Anda menyesuaikan ukuran halaman, warna latar belakang, dan pengaturan rendering lainnya saat menyimpan ke format seperti XPS.  
+- **Perpustakaan apa yang diperlukan?** Aspose.HTML untuk Java (versi terbaru).  
+- **Apakah saya memerlukan lisensi?** Versi percobaan gratis dapat digunakan untuk evaluasi; lisensi komersial diperlukan untuk produksi.  
+- **Bisakah saya mengubah dimensi halaman?** Ya – Anda dapat mengatur lebar dan tinggi apa pun melalui `PageSetup`.  
+- **Apakah konversi cepat?** Untuk file EPUB tipikal, konversi selesai dalam hitungan detik pada JVM modern.
+
+## Apa Itu Aspose HTML Save Options?
+Aspose HTML Save Options adalah sekumpulan properti yang mengontrol bagaimana HTML, EPUB, atau dokumen berbasis web lainnya dirender dan disimpan ke format target seperti XPS, PDF, atau file gambar. Mereka memungkinkan Anda menentukan tata letak halaman, warna latar belakang, margin, dan lainnya, memastikan file yang dihasilkan sesuai dengan kebutuhan desain Anda.
+
+## Mengapa Menggunakan Aspose.HTML untuk Java untuk Mengonversi EPUB ke XPS?
+- **Fidelity tinggi** – mempertahankan tata letak kompleks, font, dan grafik vektor.  
+- **Kontrol programatik** – mengotomatisasi konversi batch dalam aplikasi Java.  
+- **Tanpa dependensi eksternal** – perpustakaan Java murni, tanpa komponen native.  
+- **Output yang dapat disesuaikan** – berkat opsi penyimpanan Anda dapat menyesuaikan XPS sesuai kebutuhan tepat Anda.
 
 ## Prasyarat
 
-Sebelum kita menyelami tutorialnya, ada beberapa prasyarat yang perlu Anda siapkan:
+Sebelum kita masuk ke kode, pastikan Anda memiliki hal‑hal berikut:
 
-1. Lingkungan Pengembangan Java: Pastikan Anda telah menginstal Java Development Kit (JDK) di sistem Anda.
+1. **Lingkungan Pengembangan Java** – JDK 8 atau lebih tinggi terpasang.  
+2. **Perpustakaan Aspose.HTML untuk Java** – unduh dari [tautan unduhan](https://releases.aspose.com/html/java/).  
+3. **File EPUB** – EPUB sumber yang ingin Anda konversi.  
 
-2.  Pustaka Aspose.HTML untuk Java: Unduh dan instal Aspose.HTML untuk Java dari[tautan unduhan](https://releases.aspose.com/html/java/).
+Menyiapkan hal‑hal ini akan memungkinkan Anda mengikuti langkah‑langkah tanpa gangguan.
 
-3. Berkas EPUB: Anda memerlukan berkas EPUB yang ingin dikonversi ke XPS.
+## Mengimpor Paket
 
-Setelah prasyarat kita terpenuhi, mari kita lanjut ke langkah-langkah yang diperlukan untuk menentukan opsi penyimpanan XPS untuk EPUB ke XPS.
-
-## Paket Impor
-
-Pertama, Anda perlu mengimpor paket yang diperlukan untuk bekerja dengan Aspose.HTML untuk Java. Anda dapat melakukannya dengan menambahkan kode berikut di awal berkas Java Anda:
+Pertama, impor kelas yang diperlukan. Letakkan pernyataan impor di bagian atas file sumber Java Anda:
 
 ```java
 import java.io.FileInputStream;
@@ -43,19 +59,23 @@ import com.aspose.html.converters.Converter;
 import com.aspose.html.system.io.resources.Resources;
 ```
 
-## Buka File EPUB
+Impor ini memberi Anda akses ke mesin konversi dan **Aspose HTML Save Options** yang diperlukan untuk penyetelan detail.
 
-Mulailah dengan membuka file EPUB yang sudah ada untuk dibaca. Anda dapat menggunakan potongan kode berikut:
+## Membuka File EPUB
+
+Selanjutnya, buka EPUB yang ingin Anda konversi. Pembantu `Resources.input` memuat file dari folder sumber daya demo:
 
 ```java
 try (FileInputStream fileInputStream = new FileInputStream(Resources.input("input.epub"))) {
-    //Kode Anda untuk penanganan berkas EPUB ada di sini.
+    // Your code for the EPUB file handling goes here.
 }
 ```
 
-## Buat Opsi Penyimpanan XPS
+Menggunakan blok try‑with‑resources memastikan aliran ditutup secara otomatis.
 
-Selanjutnya, buat contoh XpsSaveOptions dengan ukuran halaman dan warna latar belakang khusus. Ini dilakukan dengan mengonfigurasi PageSetup dan opsi. Berikut cara melakukannya:
+## Membuat XPS Save Options (Mengonfigurasi Ukuran Halaman & Latar Belakang)
+
+Sekarang kita membuat instance `XpsSaveOptions` dan menyesuaikannya. Di sinilah **opsi penyimpanan** benar‑benar bersinar:
 
 ```java
 XpsSaveOptions options = new XpsSaveOptions();
@@ -67,9 +87,14 @@ options.setPageSetup(pageSetup);
 options.setBackgroundColor(Color.getAliceBlue());
 ```
 
-## Konversi EPUB ke XPS
+- **Ukuran halaman** – diatur menjadi 3000 × 1000 piksel dalam contoh ini; sesuaikan dengan ukuran kertas target Anda.  
+- **Warna latar belakang** – `AliceBlue` menunjukkan cara mengubah latar belakang kanvas; Anda dapat memilih warna `Color` apa pun.  
 
- Terakhir, Anda perlu menelepon`convertEPUB` metode untuk melakukan konversi EPUB ke XPS. Berikut kodenya:
+Pengaturan ini merupakan bagian dari **Aspose HTML Save Options** yang memengaruhi dokumen XPS akhir.
+
+## Mengonversi EPUB ke XPS
+
+Akhirnya, panggil konverter dengan aliran, opsi yang telah dikonfigurasi, dan jalur output:
 
 ```java
 Converter.convertEPUB(
@@ -79,28 +104,39 @@ Converter.convertEPUB(
 );
 ```
 
-Dengan langkah-langkah ini, Anda sekarang dapat dengan mudah menentukan opsi penyimpanan XPS untuk konversi EPUB ke XPS menggunakan Aspose.HTML untuk Java. Tutorial ini telah memberi Anda panduan yang komprehensif, dan dengan mengikuti langkah-langkah ini, Anda dapat bekerja dengan lancar dengan file EPUB dan mengubahnya ke dalam format XPS.
+Saat baris ini dijalankan, Aspose.HTML membaca EPUB, menerapkan pengaturan halaman dan warna latar belakang yang Anda definisikan, dan menulis file XPS yang sepenuhnya sesuai.
+
+## Masalah Umum & Tips
+
+- **Dimensi halaman tidak tepat** – pastikan dimensi dinyatakan dalam piksel (atau gunakan `Length.fromInches`).  
+- **Font hilang** – sematkan font yang diperlukan dalam EPUB atau instal di host JVM untuk menghindari fallback.  
+- **File besar** – untuk EPUB yang sangat besar, tingkatkan heap JVM (`-Xmx`) untuk mencegah `OutOfMemoryError`.  
 
 ## Kesimpulan
 
-Dalam tutorial ini, kami telah memandu Anda melalui proses penentuan opsi penyimpanan XPS untuk konversi EPUB ke XPS menggunakan Aspose.HTML untuk Java. Dengan prasyarat yang tepat dan panduan langkah demi langkah, Anda dapat memanfaatkan kekuatan pustaka ini secara efisien untuk proyek pengembangan web Anda.
+Dengan memanfaatkan **Aspose HTML Save Options**, Anda mendapatkan kontrol yang tepat atas cara EPUB dirender menjadi XPS. Langkah‑langkah di atas menunjukkan cara mengatur ukuran halaman, warna latar belakang, dan melakukan konversi dengan hanya beberapa baris kode Java. Integrasikan pola ini ke dalam pipeline pemrosesan batch Anda untuk mengotomatisasi tugas penerbitan secara efisien.
 
-## Tanya Jawab Umum
+## Pertanyaan yang Sering Diajukan
 
-### 1. Apa itu Aspose.HTML untuk Java?
-Aspose.HTML untuk Java adalah pustaka yang hebat untuk bekerja dengan berkas HTML dan EPUB, yang memungkinkan pengembang untuk melakukan berbagai operasi, termasuk konversi ke berbagai format.
+**Q: Apa itu Aspose.HTML untuk Java?**  
+A: Itu adalah perpustakaan Java yang memungkinkan pengembang membuat, mengedit, merender, dan mengonversi HTML, EPUB, dan dokumen berbasis web lainnya tanpa memerlukan peramban.
 
-### 2. Dapatkah saya menggunakan Aspose.HTML untuk Java dalam proyek komersial saya?
- Ya, Anda dapat menggunakan Aspose.HTML untuk Java dalam proyek komersial. Untuk detail lisensi, Anda dapat mengunjungi[halaman pembelian](https://purchase.aspose.com/buy).
+**Q: Bisakah saya menggunakan ini dalam proyek komersial?**  
+A: Ya. Untuk penggunaan produksi Anda memerlukan lisensi yang valid. Anda dapat membeli satu pada [halaman pembelian](https://purchase.aspose.com/buy).
 
-### 3. Apakah ada uji coba gratis yang tersedia untuk Aspose.HTML untuk Java?
- Ya, Anda dapat menjelajahi perpustakaan dengan uji coba gratis. Unduh dari[Di Sini](https://releases.aspose.com/).
+**Q: Apakah ada versi percobaan gratis?**  
+A: Tentu saja. Unduh versi percobaan dari [di sini](https://releases.aspose.com/).
 
-### 4. Di mana saya bisa mendapatkan dukungan atau mengajukan pertanyaan tentang Aspose.HTML untuk Java?
- Anda dapat mengunjungi forum Aspose untuk dukungan dan diskusi di[https://forum.aspose.com/](https://forum.aspose.com/).
+**Q: Di mana saya dapat mendapatkan dukungan?**  
+A: Dukungan komunitas dan bantuan resmi tersedia melalui forum Aspose di [https://forum.aspose.com/](https://forum.aspose.com/).
 
-### 5. Apa persyaratan sistem untuk Aspose.HTML untuk Java?
-Aspose.HTML untuk Java memerlukan Java Development Kit (JDK) dan sistem operasi yang kompatibel. Pastikan Anda memenuhi prasyarat seperti yang disebutkan dalam tutorial ini.
+**Q: Apa saja persyaratan sistem?**  
+A: Java Development Kit (JDK) 8+ dan sistem operasi yang didukung oleh runtime Aspose. Pastikan lingkungan Anda memenuhi prasyarat yang tercantum sebelumnya.
+
+**Last Updated:** 2026-01-09  
+**Tested With:** Aspose.HTML for Java 24.12  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

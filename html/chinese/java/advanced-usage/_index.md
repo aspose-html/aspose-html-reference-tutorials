@@ -113,32 +113,70 @@ Aspose.HTML 允许您将 `DomMutationObserver` 附加到任意节点。这对于
 ## Aspose.HTML Java 教程的高级用法
 ### [使用 Aspose.HTML 自定义 HTML 页面边距](./css-extensions-adding-title-page-number/)
 了解如何使用 Aspose.HTML for Java 自定义页面边距、添加页码和标题到 HTML 文档。
-
 ### [使用 Aspose.HTML for Java 的 DOM Mutation Observer](./dom-mutation-observer-observing-node-additions/)
 学习如何使用 Aspose.HTML for Java 实现 DOM Mutation Observer 的分步指南。有效监控并响应 DOM 变化。
-
 ### [使用 Aspose.HTML for Java 的 HTML5 Canvas 操作（代码示例）](./html5-canvas-manipulation-using-code/)
 学习使用 Aspose.HTML for Java 操作 HTML5 Canvas。通过分步指导创建交互式图形。
-
 ### [使用 Aspose.HTML for Java 的 HTML5 Canvas 操作（JavaScript）](./html5-canvas-manipulation-using-javascript/)
 学习如何使用 Aspose.HTML for Java 通过 JavaScript 操作 HTML5 Canvas。创建动态图形并转换为 PDF。
-
 ### [使用 Aspose.HTML for Java 自动化 HTML 表单填写](./html-form-editor-filling-submitting-forms/)
 学习如何使用 Aspose.HTML for Java 自动化 HTML 表单填写和提交。通过本教程简化 Web 交互。
-
 ### [使用 Aspose.HTML for Java 调整 PDF 页面尺寸](./adjust-pdf-page-size/)
 学习如何使用 Aspose.HTML for Java 调整 PDF 页面尺寸。轻松从 HTML 创建高质量 PDF，并有效控制页面尺寸。
-
 ### [使用 Aspose.HTML for Java 调整 XPS 页面尺寸](./adjust-xps-page-size/)
 学习如何使用 Aspose.HTML for Java 调整 XPS 页面尺寸。轻松控制 XPS 文档的输出尺寸。
 
+### [如何在 Aspose.HTML 中沙箱运行 JavaScript – 完整指南](./how-to-sandbox-javascript-complete-aspose-html-guide/)
+学习在 Aspose.HTML 中使用沙箱安全执行 JavaScript，防止潜在风险并保持页面渲染完整。
+
 ### [如何在 Java 中运行 JavaScript – 完整指南](./how-to-run-javascript-in-java-complete-guide/)
 学习如何在 Java 环境中执行 JavaScript 代码，涵盖 Rhino、Nashorn 和 GraalVM 等实现。
+### [在 Java 中设置设备像素比 – 移动沙盒教程](./set-device-pixel-ratio-in-java-mobile-sandbox-tutorial/)
+了解如何在 Java 移动沙盒环境中设置设备像素比，以确保不同 DPI 屏幕的渲染效果一致。
+
+### [在 Java 中执行 JavaScript – 完整运行指南](./execute-javascript-in-java-complete-guide-to-running-js-from/)
+学习如何在 Java 中调用并运行 JavaScript 代码，涵盖 ScriptEngine、Nashorn、Graals 等实现。
+
+### [如何在 Java 中使用沙盒将 HTML 转换为 PDF – 分步指南](./how-to-use-sandbox-for-html-to-pdf-java-step-by-step-guide/)
+学习如何在 Java 环境中使用 Aspose.HTML 沙盒将 HTML 转换为 PDF，提供完整的步骤和示例。
+
+### [在 Java 中启用脚本执行 – 完整的 Aspose.HTML 指南](./enable-script-execution-in-java-complete-aspose-html-guide/)
+学习如何在 Aspose.HTML for Java 中启用脚本执行，包括配置、沙盒设置和安全注意事项。
+
+### [如何在 Aspose HTML 中启用 JavaScript – 加载 HTML 并获取文本](./how-to-enable-javascript-in-aspose-html-load-html-get-text/)
+
+### [如何在 Java 中运行脚本 – 完整指南：执行 JavaScript 并提取数据](./how-to-run-scripts-in-java-complete-guide-to-execute-javascr/)
+
+### [如何使用 Aspose 将 EPUB 转换为 DOCX – 步骤指南](./how-to-use-aspose-to-convert-epub-to-docx-step-by-step-guide/)
+学习如何使用 Aspose 将 EPUB 电子书转换为 DOCX 文档的完整步骤，适用于 Java 环境。
+
+### [如何使用 CompletableFuture 异步运行 JavaScript](./how-to-run-javascript-asynchronously-using-completablefuture/)
+
+### [如何加载 HTML、设置设备 DPI 并读取背景颜色](./how-to-load-html-set-device-dpi-read-background-color/)
+
+### [在 Java 中启用 JavaScript – 完整 Aspose.HTML 指南](./how-to-enable-javascript-in-java-complete-aspose-html-guide/)
+掌握在 Java 中启用并运行 JavaScript 的完整步骤，适用于 Aspose.HTML 场景。
+
+### [在 JavaScript 中调用 Java – 异步 Fetch 与 JS 引擎执行完整指南](./call-java-from-javascript-complete-guide-to-async-fetch-js-e/)
+学习如何在 Java 环境中使用 JavaScript 调用 Java 方法，实现异步 fetch 并掌握 JS 引擎的执行细节。
 
 ---
 **最后更新：** 2025-11-29  
 **测试环境：** Aspose.HTML for Java 24.11  
 **作者：** Aspose  
+
+
+
+
+
+
+
+### [从 MHTML 提取 HTML – 完整 Java 指南](./extract-html-from-mhtml-complete-java-guide/)
+
+---
+**最后更新：** 2025-11-29  
+**测试环境：** Aspose.HTML for Java 24.11  
+**作者：** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

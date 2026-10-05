@@ -1,0 +1,7 @@
+Title: How to Extract SVG from HTML – Step‑by‑Step Python Guide
+Slug: how-to-extract-svg-from-html-step-by-step-python-guide
+Category: general
+ProcessedDate: 2026-06-07T11:55:11.928123
+SourceRepo: AI Search API
+Keywords: how to extract svg, save svg to file, convert html to svg, save svg files, extract svg from html
+PRNumber: 176

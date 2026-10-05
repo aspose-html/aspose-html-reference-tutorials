@@ -1,0 +1,7 @@
+Title: Read HTML document in Python – complete step‑by‑step guide
+Slug: read-html-document-in-python-complete-step-by-step-guide
+Category: general
+ProcessedDate: 2026-08-09T22:38:40.669901
+SourceRepo: AI Search API
+Keywords: read html document python, parse html file python, how to read html file python, how to load html in python, fetch html from website python
+PRNumber: 236

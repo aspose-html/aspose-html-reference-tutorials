@@ -1,0 +1,7 @@
+Title: how to render html in C# – step‑by‑step guide
+Slug: how-to-render-html-in-c-step-by-step-guide
+Category: generate-jpg-and-png-images
+ProcessedDate: 2026-06-10T10:52:53.184852
+SourceRepo: AI Search API
+Keywords: how to render html, convert html to image, how to apply bold, how to use handler, set html element style
+PRNumber: 178

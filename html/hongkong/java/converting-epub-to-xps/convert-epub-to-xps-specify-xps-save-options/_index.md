@@ -1,35 +1,50 @@
 ---
-title: 指定 EPUB 到 XPS 的 XPS 儲存選項
-linktitle: 指定 EPUB 到 XPS 的 XPS 儲存選項
-second_title: 使用 Aspose.HTML 進行 Java HTML 處理
-description: 在此逐步教學中，了解如何使用 Aspose.HTML for Java 指定 EPUB 到 XPS 的 XPS 儲存選項。無縫轉換 EPUB 檔案。
-weight: 12
+date: 2026-01-09
+description: 學習如何使用 Aspose.HTML for Java 指定 XPS 儲存選項，並高效地將 EPUB 轉換為 XPS。
+linktitle: Specifying XPS Save Options for EPUB to XPS
+second_title: Java HTML Processing with Aspose.HTML
+title: 指定 Aspose HTML 儲存選項以將 EPUB 轉換為 XPS
 url: /zh-hant/java/converting-epub-to-xps/convert-epub-to-xps-specify-xps-save-options/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 指定 EPUB 到 XPS 的 XPS 儲存選項
+# 指定 Aspose HTML 儲存選項以將 EPUB 轉換為 XPS
 
-在 Web 開發領域，將 EPUB 檔案轉換為 XPS 格式的能力是一個很有價值的工具。 Aspose.HTML for Java 是一個功能強大的函式庫，可以輕鬆執行此轉換。在這個綜合教程中，我們將引導您完成使用 Aspose.HTML for Java 指定 EPUB 到 XPS 的 XPS 儲存選項的過程。
+將 EPUB 文件轉換為 XPS 可以成為出版工作流程中的一個便利步驟，而 **Aspose HTML Save Options** 能讓您對輸出進行精細控制。在本教學中，我們將逐步說明如何使用 Aspose.HTML for Java 設定這些儲存選項，並產生高品質的 XPS 檔案。
 
-## 先決條件
+## 快速解答
+- **What does Aspose HTML Save Options do?** 它讓您在儲存為 XPS 等格式時，自訂頁面尺寸、背景顏色以及其他渲染設定。  
+- **Which library is required?** 需要的程式庫是 Aspose.HTML for Java（最新版本）。  
+- **Do I need a license?** 免費試用版可用於評估；正式環境需購買商業授權。  
+- **Can I change page dimensions?** 可以——您可以透過 `PageSetup` 設定任意寬度與高度。  
+- **Is the conversion fast?** 對於一般的 EPUB 檔案，轉換在現代 JVM 上可於數秒內完成。
 
-在我們深入學習本教程之前，您需要滿足一些先決條件：
+## Aspose HTML 儲存選項是什麼？
+Aspose HTML 儲存選項是一組屬性，用於控制 HTML、EPUB 或其他基於 Web 的文件在渲染並儲存為目標格式（如 XPS、PDF 或影像檔）時的行為。它們讓您定義頁面版面、背景顏色、邊距等，確保最終檔案符合您的設計需求。
 
-1. Java 開發環境：確保您的系統上安裝了 Java 開發工具包 (JDK)。
+## 為什麼使用 Aspose.HTML for Java 來將 EPUB 轉換為 XPS？
+- **High fidelity** – 保持複雜的版面配置、字型與向量圖形。  
+- **Programmatic control** – 在 Java 應用程式中自動化批次轉換。  
+- **No external dependencies** – 純 Java 程式庫，無需本機元件。  
+- **Customizable output** – 透過儲存選項，您可依需求自訂 XPS 輸出。  
 
-2.  Aspose.HTML for Java 函式庫：從下列位置下載並安裝 Aspose.HTML for Java：[下載連結](https://releases.aspose.com/html/java/).
+## 前置條件
 
-3. EPUB 檔案：您將需要一個要轉換為 XPS 的 EPUB 檔案。
+在深入程式碼之前，請確保您已具備以下條件：
 
-現在我們已經具備了先決條件，讓我們繼續執行指定 EPUB 到 XPS 的 XPS 儲存選項所需的步驟。
+1. **Java Development Environment** – 已安裝 JDK 8 或更高版本。  
+2. **Aspose.HTML for Java Library** – 從 [download link](https://releases.aspose.com/html/java/) 下載。  
+3. **EPUB File** – 您欲轉換的來源 EPUB 檔案。  
 
-## 導入包
+備妥上述項目後，即可順利依照步驟操作，無需中斷。
 
-首先，您需要匯入必要的套件才能使用 Aspose.HTML for Java。您可以透過在 Java 檔案的開頭新增以下程式碼來完成此操作：
+## 匯入套件
+
+First, import the required classes. Place the imports at the top of your Java source file:
 
 ```java
 import java.io.FileInputStream;
@@ -43,19 +58,23 @@ import com.aspose.html.converters.Converter;
 import com.aspose.html.system.io.resources.Resources;
 ```
 
-## 開啟 EPUB 文件
+這些匯入讓您取得轉換引擎以及用於精細調整的 **Aspose HTML Save Options**。
 
-首先開啟現有的 EPUB 檔案進行閱讀。您可以使用以下程式碼片段：
+## 開啟 EPUB 檔案
+
+Next, open the EPUB you want to convert. The `Resources.input` helper loads a file from the demo resources folder:
 
 ```java
 try (FileInputStream fileInputStream = new FileInputStream(Resources.input("input.epub"))) {
-    //您的 EPUB 檔案處理程式碼位於此處。
+    // Your code for the EPUB file handling goes here.
 }
 ```
 
-## 建立 XPS 儲存選項
+使用 try‑with‑resources 區塊可確保串流自動關閉。
 
-接下來，建立具有自訂頁面大小和背景顏色的 XpsSaveOptions 實例。這是透過配置 PageSetup 和選項來完成的。以下是實現這一目標的方法：
+## 建立 XPS 儲存選項（設定頁面大小與背景）
+
+Now we create an `XpsSaveOptions` instance and customize it. This is where the **save options** really shine:
 
 ```java
 XpsSaveOptions options = new XpsSaveOptions();
@@ -67,9 +86,14 @@ options.setPageSetup(pageSetup);
 options.setBackgroundColor(Color.getAliceBlue());
 ```
 
-## 將 EPUB 轉換為 XPS
+- **Page size** – 本範例設定為 3000 × 1000 像素；請依目標紙張大小調整。  
+- **Background color** – 以 `AliceBlue` 示範如何變更畫布背景；您可以選擇任意 `Color`。  
 
-最後，您需要調用`convertEPUB`執行 EPUB 到 XPS 轉換的方法。這是代碼：
+這些設定屬於 **Aspose HTML Save Options**，會影響最終的 XPS 文件。
+
+## 轉換 EPUB 為 XPS
+
+Finally, invoke the converter with the stream, the configured options, and an output path:
 
 ```java
 Converter.convertEPUB(
@@ -79,28 +103,41 @@ Converter.convertEPUB(
 );
 ```
 
-完成這些步驟後，現在可以使用 Aspose.HTML for Java 輕鬆指定用於 EPUB 到 XPS 轉換的 XPS 儲存選項。本教學為您提供了全面的指南，透過遵循這些步驟，您可以無縫地處理 EPUB 檔案並將其轉換為 XPS 格式。
+當此行程式碼執行時，Aspose.HTML 會讀取 EPUB，套用您設定的頁面配置與背景顏色，並寫入符合規範的 XPS 檔案。
+
+## 常見問題與技巧
+
+- **Incorrect page dimensions** – 請確保尺寸以像素表示（或使用 `Length.fromInches`）。  
+- **Missing fonts** – 請在 EPUB 中嵌入所需字型，或在 JVM 主機上安裝，以避免回退。  
+- **Large files** – 對於非常大的 EPUB，請增大 JVM 堆積大小（`-Xmx`），以防止 `OutOfMemoryError`。  
 
 ## 結論
 
-在本教學中，我們引導您完成使用 Aspose.HTML for Java 為 EPUB 到 XPS 轉換指定 XPS 儲存選項的過程。有了正確的先決條件和逐步指南，您就可以有效地利用該程式庫的強大功能來完成您的 Web 開發專案。
+透過 **Aspose HTML Save Options**，您可精確控制 EPUB 轉換為 XPS 的渲染方式。上述步驟示範了如何設定頁面大小、背景顏色，並僅以少量 Java 程式碼完成轉換。將此模式整合至批次處理流程，可有效自動化出版任務。
 
-## 常見問題解答
+## 常見問答
 
-### 1. 什麼是 Java 版 Aspose.HTML？
-Aspose.HTML for Java 是一個功能強大的程式庫，用於處理 HTML 和 EPUB 文件，允許開發人員執行各種操作，包括轉換為不同的格式。
+**Q: What is Aspose.HTML for Java?**  
+A: 它是一個 Java 程式庫，讓開發者能在不需要瀏覽器的情況下，建立、編輯、渲染與轉換 HTML、EPUB 以及其他基於 Web 的文件。
 
-### 2. 我可以在我的商業專案中使用Aspose.HTML for Java嗎？
-是的，您可以在商業專案中使用 Aspose.HTML for Java。有關許可詳細信息，您可以訪問[購買頁面](https://purchase.aspose.com/buy).
+**Q: Can I use this in a commercial project?**  
+A: 可以。正式環境使用時需購買有效授權。您可於 [purchase page](https://purchase.aspose.com/buy) 購買。
 
-### 3. Aspose.HTML for Java 是否有免費試用版？
-是的，您可以透過免費試用來探索該庫。從以下位置下載[這裡](https://releases.aspose.com/).
+**Q: Is there a free trial available?**  
+A: 當然有。可從 [here](https://releases.aspose.com/) 下載試用版。
 
-### 4. 我可以在哪裡可以獲得有關 Aspose.HTML for Java 的支援或提出問題？
-您可以造訪 Aspose 論壇以獲得支援和討論：[https://forum.aspose.com/](https://forum.aspose.com/).
+**Q: Where can I get support?**  
+A: 社群支援與官方協助皆可透過 Aspose 論壇取得，網址為 [https://forum.aspose.com/](https://forum.aspose.com/)。
 
-### 5. Aspose.HTML for Java 有哪些系統需求？
-Aspose.HTML for Java 需要 Java 開發工具包 (JDK) 和相容的作業系統。確保您滿足本教程中提到的先決條件。
+**Q: What are the system requirements?**  
+A: 需要 Java Development Kit (JDK) 8 以上，且作業系統須受 Aspose 執行環境支援。請確保您的環境符合前述前置條件。
+
+---
+
+**最後更新：** 2026-01-09  
+**測試環境：** Aspose.HTML for Java 24.12  
+**作者：** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
