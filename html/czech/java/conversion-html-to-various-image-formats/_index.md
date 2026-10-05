@@ -149,6 +149,8 @@ Naučte se převést SVG soubory do formátu WebP v Javě pomocí Aspose.HTML. K
 Naučte se, jak nastavit Device Pixel Ratio v Javě pomocí Aspose.HTML, aby výstupní obrázky měly požadované rozlišení a ostrost.
 ### [Převod HTML do WebP – Kompletní průvodce pro Javu](./convert-html-to-webp-complete-java-guide/)
 Kompletní průvodce převodem HTML do formátu WebP v Javě pomocí Aspose.HTML.
+### [Vytvoření HTML banneru a renderování do PNG – Kompletní průvodce v Javě](./create-html-banner-and-render-to-png-full-java-guide/)
+Naučte se vytvořit HTML banner a převést jej do PNG pomocí Aspose.HTML for Java v několika krocích.
 
 ## Často kladené otázky
 

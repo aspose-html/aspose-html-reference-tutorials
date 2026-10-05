@@ -95,6 +95,10 @@ Aprenda a reduzir o tamanho de arquivos PDF usando Aspose.HTML for Java, otimiza
 Aprenda a converter HTML para PDF rapidamente em Java usando Aspose.HTML com este guia rápido.
 ### [Converter HTML para PDF em Java – Guia Completo com Tamanho de Papel e DPI](./convert-html-to-pdf-in-java-full-guide-with-paper-size-dpi/)
 Aprenda a converter HTML para PDF em Java com controle total de tamanho de papel e DPI, seguindo um guia completo passo a passo.
+### [Como Converter Página da Web em PDF em Java – Guia Passo a Passo](./how-to-convert-webpage-to-pdf-in-java-step-by-step-guide/)
+Aprenda a converter páginas da web em PDF usando Aspose.HTML for Java com instruções detalhadas passo a passo.
+### [Converter HTML para PDF em Java – Exemplo de Código em Uma Linha](./convert-html-to-pdf-in-java-one-line-code-example/)
+Veja como converter HTML para PDF em Java com apenas uma linha de código usando Aspose.HTML.
 ### [Convertendo HTML para MHTML](./convert-html-to-mhtml/)
 Converta HTML para MHTML facilmente usando Aspose.HTML for Java. Siga nosso guia passo a passo para uma conversão eficiente de HTML‑para‑MHTML.
 ### [Convertendo HTML para XPS](./convert-html-to-xps/)
@@ -115,6 +119,9 @@ Aprenda como converter SVG para XPS com Aspose.HTML for Java. Guia simples, pass
 Aprenda a converter HTML em documentos DOCX usando Aspose.HTML for Java. Guia passo a passo para gerar arquivos DOCX de alta qualidade.
 ### [Criar PDF a partir de HTML em Java – Guia Aspose de uma linha](./create-pdf-from-html-in-java-one-line-aspose-guide/)
 Aprenda a gerar um PDF a partir de HTML em Java com apenas uma linha de código usando Aspose.HTML.
+### [Criar PDF a partir de HTML com Tamanho de Página Personalizado e Fontes Incorporadas](./create-pdf-from-html-with-custom-page-size-and-embedded-font/)
+### [Converter HTML para PDF com Java – como criar pool de threads](./convert-html-to-pdf-with-java-how-to-create-thread-pool/)
+Aprenda a usar um pool de threads em Java para converter HTML em PDF de forma eficiente com Aspose.HTML.
 
 ### [Incorporar fontes PDF – Guia Completo Aspose HTML para PDF (Java)](./embed-fonts-pdf-complete-aspose-html-to-pdf-guide-java/)
 

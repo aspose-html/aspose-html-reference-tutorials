@@ -74,6 +74,8 @@ Apprenez à récupérer le style CSS calculé d'un élément en Java à l'aide d
 Apprenez à extraire les styles CSS d'une page HTML en Java à l'aide d'Aspose.HTML dans ce guide complet.
 ### [Comment lire le CSS en Java – Guide étape par étape](./how-to-read-css-in-java-step-by-step-guide/)
 Apprenez à lire et analyser les fichiers CSS en Java avec Aspose.HTML grâce à ce guide complet étape par étape.
+### [Comment obtenir le CSS en Java – Utilisation de querySelector et du style calculé](./how-to-get-css-in-java-using-queryselector-and-computed-styl/)
+Apprenez à récupérer les styles CSS d'un élément en Java avec querySelector et la propriété ComputedStyle d'Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

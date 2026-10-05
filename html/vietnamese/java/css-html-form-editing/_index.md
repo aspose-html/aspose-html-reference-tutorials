@@ -71,6 +71,8 @@ Hướng dẫn cách lấy CSS đã tính toán trong Java bằng Aspose.HTML, g
 Hướng dẫn chi tiết cách trích xuất CSS từ tài liệu HTML trong Java bằng Aspose.HTML, bao gồm các ví dụ thực tế.
 ### [Cách đọc CSS trong Java – Hướng dẫn từng bước](./how-to-read-css-in-java-step-by-step-guide/)
 Hướng dẫn chi tiết cách đọc và phân tích tệp CSS trong Java bằng Aspose.HTML, bao gồm các ví dụ thực tế và mẹo tối ưu.
+### [Cách lấy CSS trong Java – Sử dụng querySelector và Computed Style](./how-to-get-css-in-java-using-queryselector-and-computed-styl/)
+Hướng dẫn cách lấy CSS của phần tử trong Java bằng Aspose.HTML sử dụng querySelector và Computed Style.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

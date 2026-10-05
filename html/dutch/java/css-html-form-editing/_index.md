@@ -71,6 +71,8 @@ Leer hoe u met Aspose.HTML voor Java de berekende CSS‑stijlen van een element 
 
 ### [Hoe CSS lezen in Java – Stapsgewijze handleiding](./how-to-read-css-in-java-step-by-step-guide/)
 Leer hoe u CSS in Java kunt lezen met een duidelijke stap‑voor‑stap handleiding.
+### [Hoe CSS in Java op te halen – Met querySelector en Computed Style](./how-to-get-css-in-java-using-queryselector-and-computed-styl/)
+Leer hoe u met querySelector en de berekende stijl CSS‑eigenschappen van elementen in Java kunt ophalen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

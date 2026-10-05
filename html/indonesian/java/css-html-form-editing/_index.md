@@ -73,6 +73,8 @@ Pelajari cara mengambil CSS terhitung pada elemen HTML di Java menggunakan Aspos
 Pelajari cara mengekstrak CSS dari dokumen HTML di Java menggunakan Aspose.HTML dalam panduan lengkap ini.
 ### [Cara Membaca CSS di Java – Panduan Langkah-demi-Langkah](./how-to-read-css-in-java-step-by-step-guide/)
 Pelajari cara membaca file CSS dalam aplikasi Java secara terprogram dengan contoh langkah demi langkah yang mudah diikuti.
+### [Cara Mendapatkan CSS di Java – Menggunakan querySelector dan Computed Style](./how-to-get-css-in-java-using-queryselector-and-computed-styl/)
+Pelajari cara mengambil properti CSS elemen di Java menggunakan querySelector dan computed style secara terprogram.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

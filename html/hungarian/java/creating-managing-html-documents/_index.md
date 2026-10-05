@@ -68,6 +68,10 @@ Ismerje meg, hogyan tölthet be, kérdezhet le és számolhat meg HTML elemeket 
 Fedezze fel, hogyan tölthet be HTML-dokumentumokat Java-ban, és használhatja az XPath és CSS szelektorokat a tartalom lekérdezéséhez.
 ### [HTML szöveg kinyerése Java-ban – Teljes programozási útmutató](./extract-text-from-html-in-java-complete-programming-guide/)
 Ismerje meg, hogyan nyerhet ki szöveget HTML-ből Java használatával, lépésről lépésre útmutató a hatékony adatkinyeréshez.
+### [HTML lekérdezése Java-ban – Képek URL-jeinek kinyerése](./how-to-query-html-in-java-extract-image-urls/)
+Ismerje meg, hogyan nyerheti ki a képek URL-jeit HTML-ből Java használatával, lépésről lépésre útmutató.
+### [HTML elemzése Java-ban – Szöveg kinyerése HTML cikkekből](./how-to-parse-html-in-java-extract-text-from-html-articles/)
+Ismerje meg, hogyan nyerhet ki szöveget HTML cikkekből Java használatával, lépésről lépésre útmutató.
 ### [Új HTML-dokumentumok létrehozása az Aspose.HTML for Java használatával](./generate-new-html-documents/)
 Ebből az egyszerű, lépésenkénti útmutatóból megtudhatja, hogyan hozhat létre új HTML-dokumentumokat az Aspose.HTML for Java használatával. Kezdje el a dinamikus HTML-tartalom generálását.
 ### [Kezelje a dokumentumbetöltési eseményeket az Aspose.HTML for Java-ban](./handle-document-load-events/)

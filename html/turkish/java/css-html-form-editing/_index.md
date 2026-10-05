@@ -71,6 +71,8 @@ Aspose.HTML for Java kullanarak bir öğenin hesaplanmış stilini elde etmeyi v
 Aspose.HTML for Java kullanarak bir web sayfasından CSS stillerini nasıl çıkaracağınızı adım adım öğrenin.
 ### [Java’da CSS okuma – Adım Adım Kılavuz](./how-to-read-css-in-java-step-by-step-guide/)
 Aspose.HTML for Java kullanarak CSS dosyalarını nasıl okuyacağınızı ve analiz edeceğinizi adım adım öğrenin.
+### [Java’da CSS Nasıl Alınır – querySelector ve Computed Style Kullanarak](./how-to-get-css-in-java-using-queryselector-and-computed-styl/)
+querySelector ve computed style kullanarak bir öğenin CSS özelliklerini Java’da programatik olarak elde etmeyi öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

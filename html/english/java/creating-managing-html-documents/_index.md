@@ -62,6 +62,10 @@ Learn how to fetch JSON in Java and generate HTML content using Aspose.HTML with
 Learn how to query HTML in Java using Aspose.HTML with this comprehensive step-by-step guide.
 ### [How to Use XPath in Java – Read HTML and Extract Text](./how-to-use-xpath-in-java-read-html-and-extract-text/)
 Learn how to use XPath in Java with Aspose.HTML to read HTML and extract text efficiently.
+### [How to Query HTML in Java – Extract Image URLs](./how-to-query-html-in-java-extract-image-urls/)
+Learn how to query HTML in Java using Aspose.HTML to extract image URLs with a clear step-by-step guide.
+### [How to Parse HTML in Java – Extract Text from HTML Articles](./how-to-parse-html-in-java-extract-text-from-html-articles/)
+Learn how to parse HTML in Java with Aspose.HTML to extract article text using a concise step-by-step guide.
 ### [Create sandbox for HTML in Java – Step‑by‑Step Guide](./create-sandbox-for-html-in-java-step-by-step-guide/)
 Learn how to set up a secure HTML sandbox in Java using Aspose.HTML with this detailed step-by-step guide.
 ### [Load HTML Documents from URL in Aspose.HTML for Java](./load-html-documents-from-url/)

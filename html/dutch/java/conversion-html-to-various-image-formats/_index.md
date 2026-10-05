@@ -127,6 +127,8 @@ Leer hoe je de device pixel ratio kunt configureren in Aspose.HTML for Java voor
 Leer hoe je SVG-afbeeldingen naar WebP converteert met Aspose.HTML for Java. Een stap‑voor‑stap gids voor optimale kwaliteit.
 ### [HTML naar WebP – Complete Java-gids](./convert-html-to-webp-complete-java-guide/)
 Ontdek hoe je HTML naar WebP converteert met Aspose.HTML for Java in een volledige stap‑voor‑stap gids.
+### [HTML‑banner maken en renderen naar PNG – volledige Java‑gids](./create-html-banner-and-render-to-png-full-java-guide/)
+Leer hoe je een HTML‑banner maakt en deze naar PNG rendert met Aspose.HTML for Java. Een stapsgewijze handleiding.
 
 ### [Hoe HTML naar PNG renderen – Complete gids voor Java‑ontwikkelaars](./how-to-render-html-to-png-complete-guide-for-java-developers/)
 Leer stap‑voor‑stap hoe je met Aspose.HTML for Java HTML rendert naar PNG‑afbeeldingen van hoge kwaliteit.

@@ -88,6 +88,7 @@ In conclusione, padroneggiare **html to pdf java** e l'insieme più ampio di con
 ### [Converti HTML in PDF in Java – Guida completa passo‑step](./convert-html-to-pdf-in-java-complete-step-by-step-guide/)
 ### [Converti HTML in PDF in Java – Guida rapida Aspose.HTML](./convert-html-to-pdf-in-java-quick-aspose-html-guide/)
 ### [Converti HTML in PDF in Java – Guida completa con dimensione della pagina e DPI](./convert-html-to-pdf-in-java-full-guide-with-paper-size-dpi/)
+### [Come Convertire una Pagina Web in PDF in Java – Guida passo‑passo](./how-to-convert-webpage-to-pdf-in-java-step-by-step-guide/)
 ### [Conversione da HTML a MHTML](./convert-html-to-mhtml/)
 ### [Conversione da HTML a XPS](./convert-html-to-xps/)
 ### [Conversione da Markdown a HTML](./convert-markdown-to-html/)
@@ -137,6 +138,9 @@ Imposta le dimensioni della pagina PDF durante la conversione da HTML a PDF in J
 ### [Creare DOCX da HTML – Guida Java per convertire HTML in DOCX](./create-docx-from-html-java-guide-to-convert-html-to-docx/)
 ### [Crea PDF da HTML in Java – Guida Aspose in una riga](./create-pdf-from-html-in-java-one-line-aspose-guide/)
 ### [Imposta il rapporto pixel del dispositivo in Java – Converti HTML per dispositivi mobili](./set-device-pixel-ratio-in-java-convert-html-to-mobile/)
+### [Converti HTML in PDF in Java – Esempio di codice a una riga](./convert-html-to-pdf-in-java-one-line-code-example/)
+### [Crea PDF da HTML con dimensioni personalizzate della pagina e font incorporati](./create-pdf-from-html-with-custom-page-size-and-embedded-font/)
+### [Converti HTML in PDF con Java – Come creare un pool di thread](./convert-html-to-pdf-with-java-how-to-create-thread-pool/)
 
 ## Domande frequenti
 

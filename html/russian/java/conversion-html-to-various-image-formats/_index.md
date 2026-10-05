@@ -111,6 +111,8 @@ weight: 24
 Пошаговое руководство по использованию ExecutorService в Java для ускорения пакетного конвертирования HTML в PNG.
 ### [Как установить DPI при конвертации HTML в PNG](./how-to-set-dpi-when-converting-html-to-png/)
 Узнайте, как задать разрешение DPI при преобразовании HTML в PNG с помощью Aspose.HTML for Java.
+### [Создание HTML‑баннера и рендеринг в PNG – Полное руководство Java](./create-html-banner-and-render-to-png-full-java-guide/)
+Узнайте, как создать HTML‑баннер и экспортировать его в PNG с помощью Aspose.HTML для Java. Полное пошаговое руководство.
 
 ### [Преобразование HTML в TIFF](./convert-html-to-tiff/)
 Узнайте, как легко преобразовывать HTML в TIFF с помощью Aspose.HTML для Java. Пошаговое руководство по эффективной обработке документов.

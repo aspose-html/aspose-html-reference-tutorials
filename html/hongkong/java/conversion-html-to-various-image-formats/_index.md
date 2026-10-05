@@ -148,6 +148,7 @@ weight: 24
 ### [將 SVG 轉換為 GIF – 完整步驟指南](./svg-to-gif-conversion-in-java-complete-step-by-step-guide/)
 ### [將 SVG 轉換為 WebP（Java 完整 Aspose HTML 指南）](./convert-svg-to-webp-in-java-complete-aspose-html-guide/)
 ### [在 Java 中設定裝置像素比率 – 完整指南](./set-device-pixel-ratio-in-java-complete-guide/)
+### [建立 HTML 橫幅並渲染為 PNG – 完整 Java 指南](./create-html-banner-and-render-to-png-full-java-guide/)
 
 ## 常見問題集
 

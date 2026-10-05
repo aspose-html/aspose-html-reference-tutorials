@@ -157,6 +157,8 @@ Aspose.HTML for Java का उपयोग करके SVG को WebP इम�
 
 ### [Java में डिवाइस पिक्सेल रेशियो सेट करना – पूर्ण गाइड](./set-device-pixel-ratio-in-java-complete-guide/)
 Aspose.HTML for Java का उपयोग करके डिवाइस पिक्सेल रेशियो कैसे सेट करें और उच्च‑रिज़ॉल्यूशन इमेज रेंडरिंग प्राप्त करें।
+### [HTML बैनर बनाएं और PNG में रेंडर करें – पूर्ण Java गाइड](./create-html-banner-and-render-to-png-full-java-guide/)
+Aspose.HTML for Java का उपयोग करके HTML बैनर बनाकर उसे PNG इमेज में रेंडर करने की पूरी प्रक्रिया सीखें।
 
 ## अक्सर पूछे जाने वाले प्रश्न
 

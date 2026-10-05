@@ -141,6 +141,8 @@ Erfahren Sie, wie Sie HTML mit Aspose.HTML for Java in das moderne WebP‑Format
 Kompletter Leitfaden, um HTML mit Aspose.HTML for Java in das WebP‑Format zu konvertieren.
 ### [Wie man beim Konvertieren von HTML zu PNG die DPI festlegt](./how-to-set-dpi-when-converting-html-to-png/)
 Erfahren Sie, wie Sie die DPI für PNG‑Ausgaben mit Aspose.HTML for Java einstellen, um die Bildqualität zu optimieren.
+### [HTML‑Banner erstellen und in PNG rendern – Vollständige Java‑Anleitung](./create-html-banner-and-render-to-png-full-java-guide/)
+Erfahren Sie, wie Sie mit Aspose.HTML for Java ein HTML‑Banner erstellen und es als PNG‑Bild rendern – Schritt‑für‑Schritt‑Leitfaden.
 
 ## Häufig gestellte Fragen
 

@@ -64,6 +64,10 @@ Aprenda a carregar documentos HTML em Java usando Aspose.HTML, com suporte compl
 Aprenda a extrair texto de documentos HTML em Java usando Aspose.HTML com este guia completo passo a passo.
 ### [Como usar XPath em Java – Ler HTML e extrair texto](./how-to-use-xpath-in-java-read-html-and-extract-text/)
 Aprenda a usar XPath em Java para ler documentos HTML e extrair texto de forma eficiente com Aspose.HTML.
+### [Como consultar HTML em Java – Extrair URLs de imagens](./how-to-query-html-in-java-extract-image-urls/)
+Aprenda a extrair URLs de imagens de documentos HTML em Java usando Aspose.HTML com este tutorial passo a passo.
+### [Como analisar HTML em Java – Extrair texto de artigos HTML](./how-to-parse-html-in-java-extract-text-from-html-articles/)
+Aprenda a analisar documentos HTML em Java e extrair texto de artigos usando Aspose.HTML com este guia passo a passo.
 ### [Gerar novos documentos HTML usando Aspose.HTML para Java](./generate-new-html-documents/)
 Aprenda como criar novos documentos HTML usando Aspose.HTML para Java com este guia passo a passo fácil. Comece a gerar conteúdo HTML dinâmico.
 ### [Manipular eventos de carregamento de documentos em Aspose.HTML para Java](./handle-document-load-events/)

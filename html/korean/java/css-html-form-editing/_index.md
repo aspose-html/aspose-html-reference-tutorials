@@ -73,6 +73,8 @@ Aspose.HTML for Java를 사용해 현재 적용된 CSS 스타일을 프로그래
 Aspose.HTML을 활용해 Java에서 웹 페이지의 CSS 스타일을 추출하고 활용하는 방법을 단계별로 안내합니다.
 ### [Java에서 CSS를 읽는 방법 – 단계별 가이드](./how-to-read-css-in-java-step-by-step-guide/)
 Java에서 CSS 파일을 읽고 파싱하는 방법을 단계별로 자세히 설명합니다.
+### [Java에서 CSS 가져오기 – querySelector와 Computed Style 사용](./how-to-get-css-in-java-using-queryselector-and-computed-styl/)
+Java에서 querySelector와 Computed Style를 활용해 CSS 속성을 추출하고 활용하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

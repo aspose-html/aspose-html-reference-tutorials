@@ -109,6 +109,10 @@ Scopri come iterare su NodeList in Java con Aspose.HTML, passo dopo passo, con e
 Scopri come estrarre testo da documenti HTML in Java usando Aspose.HTML con questa guida dettagliata passo dopo passo.
 ### [Come usare XPath in Java – Leggi HTML ed estrai testo](./how-to-use-xpath-in-java-read-html-and-extract-text/)
 Scopri come utilizzare XPath in Java con Aspose.HTML per leggere documenti HTML ed estrarre testo in modo semplice e veloce.
+### [Come interrogare HTML in Java – Estrarre URL delle immagini](./how-to-query-html-in-java-extract-image-urls/)
+Scopri come estrarre gli URL delle immagini da documenti HTML in Java con Aspose.HTML, passo dopo passo.
+### [Come analizzare HTML in Java – Estrarre testo da articoli HTML](./how-to-parse-html-in-java-extract-text-from-html-articles/)
+Scopri come estrarre il testo da articoli HTML in Java con Aspose.HTML, guida passo passo per analizzare e ottenere contenuti testuali.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

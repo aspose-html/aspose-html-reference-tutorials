@@ -71,6 +71,8 @@ url: /zh-hant/java/css-html-form-editing/
 本完整指南說明如何使用 Aspose.HTML 在 Java 中提取網頁的 CSS 樣式，涵蓋步驟與範例。
 ### [在 Java 中讀取 CSS – 逐步指南](./how-to-read-css-in-java-step-by-step-guide/)
 本指南說明如何在 Java 中使用 Aspose.HTML 讀取 CSS 樣式表，提供完整的程式碼範例與操作步驟。
+### [如何在 Java 中取得 CSS – 使用 querySelector 與 Computed Style](./how-to-get-css-in-java-using-queryselector-and-computed-styl/)
+本教學說明如何使用 Aspose.HTML for Java 透過 querySelector 取得元素，並使用 Computed Style 讀取 CSS 屬性。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -105,6 +105,10 @@ Tanulja meg, hogyan állíthatja be a PDF oldalméretét Java‑ban az Aspose.HT
 Tanulja meg, hogyan alakíthatja át a weboldalakat PDF‑dokumentummá Java‑val az Aspose.HTML segítségével.
 ### [HTML tömeges PDF konvertálás – Java NIO útmutató párhuzamos feldolgozással](./convert-html-to-pdf-in-bulk-java-nio-guide-with-parallel-pro/)
 Tanulja meg, hogyan konvertáljon nagy mennyiségű HTML‑t PDF‑re Java NIO és párhuzamos feldolgozás segítségével.
+### [HTML átalakítása PDF-re – Egysoros kódpélda](./convert-html-to-pdf-in-java-one-line-code-example/)
+Ismerje meg, hogyan konvertálhat HTML‑t PDF‑re Java‑ban egyetlen kódsorral az Aspose.HTML segítségével.
+### [Weboldal PDF‑re konvertálása Java‑ban – Lépésről‑lépésre útmutató](./how-to-convert-webpage-to-pdf-in-java-step-by-step-guide/)
+Ismerje meg, hogyan konvertálhatja a weboldalt PDF‑re Java‑ban részletes, lépésről‑lépésre útmutatóval.
 ### [HTML átalakítása MHTML-re](./convert-html-to-mhtml/)
 Könnyedén konvertálja a HTML‑t MHTML‑re az Aspose.HTML for Java segítségével. Kövesse lépésről‑lépésre útmutatónkat a hatékony HTML‑MHTML átalakításhoz.
 ### [HTML átalakítása XPS-re](./convert-html-to-xps/)
@@ -123,6 +127,11 @@ Ismerje meg, hogyan konvertálhatja az SVG‑t XPS‑re az Aspose.HTML for Java 
 ### [Betűtípusok beágyazása PDF-be – Teljes Aspose HTML to PDF útmutató (Java)](./embed-fonts-pdf-complete-aspose-html-to-pdf-guide-java/)
 ### [Eszköz pixelarány beállítása Java‑ban – HTML mobilra konvertálása](./set-device-pixel-ratio-in-java-convert-html-to-mobile/)
 Állítsa be a device pixel ratio értékét Java‑ban, hogy a HTML mobil eszközökön megfelelően jelenjen meg.
+### [PDF létrehozása HTML‑ből egyedi oldalmérettel és beágyazott betűtípusokkal](./create-pdf-from-html-with-custom-page-size-and-embedded-font/)
+Ismerje meg, hogyan állíthat be egyedi oldalméretet és ágyazhat be betűtípusokat a PDF‑generálás során HTML‑ből Java‑ban.
+
+### [HTML átalakítása PDF-re Java-val – hogyan hozzunk létre szálkészletet](./convert-html-to-pdf-with-java-how-to-create-thread-pool/)
+Ismerje meg, hogyan használhat szálkészletet a HTML‑PDF konvertáláshoz Java‑ban, a teljesítmény növelése érdekében.
 
 ### [HTML-ből DOCX létrehozása – Java útmutató a HTML DOCX‑re konvertálásához](./create-docx-from-html-java-guide-to-convert-html-to-docx/)
 

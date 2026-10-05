@@ -100,6 +100,8 @@ XPS هو صيغة الطباعة الخاصة بمايكروسوفت. باستخ
 حوّل SVG إلى PDF في Java باستخدام Aspose.HTML. حل سلس لتحويل المستندات بجودة عالية.
 ### [تحويل SVG إلى XPS](./convert-svg-to-xps/)
 تعلم كيفية تحويل SVG إلى XPS باستخدام Aspose.HTML for Java. دليل بسيط خطوة بخطوة لتحويلات سلسة.
+### [إنشاء PDF من HTML بحجم صفحة مخصص وخطوط مدمجة](./create-pdf-from-html-with-custom-page-size-and-embedded-font/)
+تعلم كيفية إنشاء ملفات PDF بحجم صفحة مخصص وتضمين الخطوط باستخدام Aspose.HTML for Java.
 ### [تحويل HTML إلى PDF في Java – دليل خطوة بخطوة مع إعدادات حجم الصفحة](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 تعلم تحويل HTML إلى PDF في Java مع إعدادات حجم الصفحة خطوة بخطوة باستخدام Aspose.HTML.
 ### [دروس Aspose HTML PDF/A: تحويل HTML إلى PDF/A‑2b باستخدام Java](./aspose-html-pdf-a-tutorial-convert-html-to-pdf-a-2b-with-jav/)
@@ -117,6 +119,12 @@ XPS هو صيغة الطباعة الخاصة بمايكروسوفت. باستخ
 ### [إنشاء ملف docx من html – دليل Java لتحويل HTML إلى DOCX](./create-docx-from-html-java-guide-to-convert-html-to-docx/)
 ### [تعيين نسبة بكسل الجهاز في Java – تحويل HTML إلى الجوال](./set-device-pixel-ratio-in-java-convert-html-to-mobile/)
 تعلم كيفية ضبط نسبة بكسل الجهاز عند تحويل HTML إلى تنسيق مناسب للهواتف المحمولة باستخدام Aspose.HTML في Java.
+### [تحويل HTML إلى PDF في Java – مثال كود سطر واحد](./convert-html-to-pdf-in-java-one-line-code-example/)
+تعلم تحويل HTML إلى PDF في Java باستخدام سطر كود واحد بسيط مع Aspose.HTML.
+### [كيفية تحويل صفحة ويب إلى PDF في Java – دليل خطوة بخطوة](./how-to-convert-webpage-to-pdf-in-java-step-by-step-guide/)
+تعلم تحويل صفحة ويب إلى PDF في Java باستخدام Aspose.HTML باتباع دليل خطوة بخطوة سهل.
+### [تحويل HTML إلى PDF مع Java – كيفية إنشاء مجموعة خيوط](./convert-html-to-pdf-with-java-how-to-create-thread-pool/)
+تعلم كيفية تحسين أداء التحويل عبر إنشاء مجموعة خيوط لمعالجة ملفات HTML المتعددة في وقت واحد.
 
 ### [كيفية ضغط PDF باستخدام Aspose HTML إلى PDF – دليل Java](./how-to-compress-pdf-with-aspose-html-to-pdf-java-guide/)
 تعلم كيفية تقليل حجم ملف PDF باستخدام Aspose.HTML إلى PDF في Java مع إرشادات خطوة بخطوة.

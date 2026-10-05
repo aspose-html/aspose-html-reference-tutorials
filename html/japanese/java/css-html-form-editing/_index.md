@@ -75,6 +75,8 @@ Java で Aspose.HTML を使用し、HTML 要素の計算済みスタイルから
 このチュートリアルでは、Javaを使用してHTMLからCSSを抽出する方法をステップバイステップで学びます。
 ### [Javaで CSS を読む方法 – ステップバイステップ ガイド](./how-to-read-css-in-java-step-by-step-guide/)
 このステップバイステップ ガイドでは、JavaでCSSファイルを読み取り解析する方法を学びます。
+### [JavaでCSSを取得する方法 – querySelector と Computed Style を使用](./how-to-get-css-in-java-using-queryselector-and-computed-styl/)
+querySelector と Computed Style を活用し、Java で要素の CSS プロパティを取得する手順を解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

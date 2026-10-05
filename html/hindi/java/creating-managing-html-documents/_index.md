@@ -110,6 +110,10 @@ Java में NodeList को इटररेट करके HTML से इ�
 Aspose.HTML for Java का उपयोग करके NodeList को इटरेट करने की पूरी प्रक्रिया सीखें, कोड उदाहरण और सर्वोत्तम प्रथाएँ।
 ### [Java के साथ HTML से टेक्स्ट निकालें – पूर्ण चरण‑दर‑चरण गाइड](./extract-text-from-html-with-java-complete-step-by-step-guide/)
 Aspose.HTML for Java का उपयोग करके HTML दस्तावेज़ से टेक्स्ट निकालना सीखें। विस्तृत चरण‑दर‑चरण मार्गदर्शिका।
+### [Java में HTML क्वेरी कैसे करें – इमेज URL निकालें](./how-to-query-html-in-java-extract-image-urls/)
+Java में Aspose.HTML का उपयोग करके HTML से इमेज URL निकालने की चरण‑दर‑चरण मार्गदर्शिका।
+### [Java में HTML पार्स कैसे करें – HTML लेखों से टेक्स्ट निकालें](./how-to-parse-html-in-java-extract-text-from-html-articles/)
+Aspose.HTML for Java का उपयोग करके HTML लेखों से टेक्स्ट निकालने की चरण‑दर‑चरण मार्गदर्शिका।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

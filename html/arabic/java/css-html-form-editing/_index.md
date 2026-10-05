@@ -71,6 +71,8 @@ url: /ar/java/css-html-form-editing/
 ### [كيفية الحصول على CSS في Java – دليل شامل لاستخراج الأنماط باستخدام Aspose.HTML](./how-to-get-css-in-java-complete-guide-to-extract-styles-with/)
 ### [كيفية قراءة CSS في Java – دليل خطوة بخطوة](./how-to-read-css-in-java-step-by-step-guide/)
 تعلم كيفية قراءة ملفات CSS في Java باستخدام Aspose.HTML خطوة بخطوة لتطبيق الأنماط وتحليلها بسهولة.
+### [كيفية الحصول على CSS في Java – باستخدام querySelector وComputed Style](./how-to-get-css-in-java-using-queryselector-and-computed-styl/)
+تعلم كيفية استخراج أنماط CSS في Java باستخدام querySelector وComputed Style خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

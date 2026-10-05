@@ -101,6 +101,10 @@ Aspose.HTML для Java предлагает мощный набор инстр�
 Узнайте, как эффективно перебрать элементы NodeList в Java с помощью Aspose.HTML, шаг за шагом.
 ### [Извлечение текста из HTML с помощью Java – Полное пошаговое руководство](./extract-text-from-html-with-java-complete-step-by-step-guide/)
 Узнайте, как извлекать текст из HTML‑документов в Java с помощью Aspose.HTML, следуя подробному пошаговому руководству.
+### [Как выполнять запросы к HTML в Java – извлечение URL изображений](./how-to-query-html-in-java-extract-image-urls/)
+Узнайте, как извлекать URL изображений из HTML с помощью Aspose.HTML для Java. Пошаговое руководство.
+### [Как парсить HTML в Java – извлечение текста из HTML‑статей](./how-to-parse-html-in-java-extract-text-from-html-articles/)
+Узнайте, как с помощью Aspose.HTML для Java извлекать текст из HTML‑статей, используя парсинг и обработку контента.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

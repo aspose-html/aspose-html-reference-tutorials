@@ -106,6 +106,12 @@ Dowiedz się, jak osadzać własne czcionki przy konwersji HTML do PDF w Javie p
 Szybki przewodnik, jak w kilku krokach przekształcić HTML w PDF w Javie przy użyciu Aspose.HTML.
 ### [Konwertowanie HTML do PDF w Javie – Pełny przewodnik z rozmiarem papieru i DPI](./convert-html-to-pdf-in-java-full-guide-with-paper-size-dpi/)
 Kompletny przewodnik konwersji HTML do PDF w Javie, obejmujący ustawienia rozmiaru strony i DPI dla wysokiej jakości wyników.
+### [Konwertowanie HTML do PDF w Javie – jak utworzyć pulę wątków](./convert-html-to-pdf-with-java-how-to-create-thread-pool/)
+Dowiedz się, jak wykorzystać pulę wątków w Javie przy konwersji HTML do PDF przy użyciu Aspose.HTML.
+### [Jak przekonwertować stronę internetową na PDF w Javie – Przewodnik krok po kroku](./how-to-convert-webpage-to-pdf-in-java-step-by-step-guide/)
+Dowiedz się, jak w prostych krokach przekształcić stronę internetową w plik PDF przy użyciu Aspose.HTML for Java.
+### [Utwórz PDF z HTML z niestandardowym rozmiarem strony i osadzonymi czcionkami](./create-pdf-from-html-with-custom-page-size-and-embedded-font/)
+Dowiedz się, jak generować PDF z HTML, ustawiając własny rozmiar strony i osadzając czcionki, aby zapewnić spójny wygląd dokumentu.
 ### [Converting HTML to MHTML](./convert-html-to-mhtml/)
 Effortlessly convert HTML to MHTML using Aspose.HTML for Java. Follow our step-by-step guide for efficient HTML-to-MHTML conversion.
 ### [Converting HTML to XPS](./convert-html-to-xps/)
@@ -134,6 +140,8 @@ Dowiedz się, jak osadzić czcionki w plikach PDF przy użyciu Aspose.HTML for J
 Szybki przewodnik, jak w jednej linii kodu wygenerować PDF z HTML przy użyciu Aspose.HTML w Javie.
 ### [Ustaw współczynnik pikseli urządzenia w Javie – konwertuj HTML na urządzenia mobilne](./set-device-pixel-ratio-in-java-convert-html-to-mobile/)
 Dowiedz się, jak ustawić Device Pixel Ratio w Aspose.HTML for Java, aby generować wersje mobilne stron HTML.
+### [Konwertowanie HTML do PDF w Javie – Przykład jednolinijkowego kodu](./convert-html-to-pdf-in-java-one-line-code-example/)
+Zobacz, jak w jednej linii kodu przekształcić HTML w PDF przy użyciu Aspose.HTML for Java.
 
 ### [Jak używać Aspose – wsadowa konwersja HTML do PDF w Javie](./how-to-use-aspose-batch-convert-html-to-pdf-in-java/)
 Dowiedz się, jak przetwarzać wiele plików HTML jednocześnie i generować PDF w Javie przy użyciu Aspose.HTML.

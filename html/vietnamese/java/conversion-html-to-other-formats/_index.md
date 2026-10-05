@@ -93,6 +93,8 @@ Tìm hiểu cách chuyển đổi HTML sang PDF trong Java bằng Aspose.HTML. T
 Tìm hiểu cách chuyển đổi HTML sang PDF một cách bất đồng bộ trong Java bằng Aspose.HTML.
 ### [Tạo Fixed Thread Pool cho chuyển đổi HTML sang PDF hàng loạt](./create-fixed-thread-pool-for-batch-html-to-pdf-conversion/)
 Hướng dẫn tạo Fixed Thread Pool trong Java để thực hiện chuyển đổi HTML sang PDF hàng loạt một cách hiệu quả.
+### [Chuyển đổi HTML sang PDF trong Java – Ví dụ mã một dòng](./convert-html-to-pdf-in-java-one-line-code-example/)
+Hướng dẫn nhanh cách chuyển đổi HTML sang PDF trong Java chỉ với một dòng mã, sử dụng Aspose.HTML.
 
 ### [Chuyển đổi HTML sang PDF trong Java – Hướng dẫn chi tiết với cài đặt kích thước trang](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Hướng dẫn từng bước chuyển HTML sang PDF trong Java, bao gồm cách thiết lập kích thước trang cho PDF.
@@ -125,6 +127,15 @@ Hướng dẫn cách chuyển đổi nhiều tệp HTML sang PDF đồng thời 
 
 ### [Chuyển đổi HTML sang PDF trong Java – Hướng dẫn đầy đủ với kích thước giấy & DPI](./convert-html-to-pdf-in-java-full-guide-with-paper-size-dpi/)
 Hướng dẫn toàn diện cách chuyển HTML sang PDF trong Java, bao gồm thiết lập kích thước giấy và DPI để đạt chất lượng tối ưu.
+
+### [Chuyển đổi HTML sang PDF với Java – cách tạo thread pool](./convert-html-to-pdf-with-java-how-to-create-thread-pool/)
+Hướng dẫn cách sử dụng thread pool trong Java để chuyển đổi HTML sang PDF hiệu quả với Aspose.HTML.
+
+### [Cách chuyển đổi trang web sang PDF trong Java – Hướng dẫn từng bước](./how-to-convert-webpage-to-pdf-in-java-step-by-step-guide/)
+Hướng dẫn chi tiết cách chuyển đổi trang web sang PDF trong Java bằng Aspose.HTML.
+
+### [Tạo PDF từ HTML với kích thước trang tùy chỉnh và phông chữ nhúng](./create-pdf-from-html-with-custom-page-size-and-embedded-font/)
+Hướng dẫn tạo PDF từ HTML trong Java, thiết lập kích thước trang tùy chỉnh và nhúng phông chữ để đảm bảo hiển thị chính xác.
 
 ### [Chuyển đổi HTML sang MHTML](./convert-html-to-mhtml/)
 Chuyển đổi HTML sang MHTML một cách dễ dàng bằng Aspose.HTML for Java. Thực hiện theo hướng dẫn từng bước để chuyển đổi HTML‑to‑MHTML hiệu quả.

@@ -97,6 +97,10 @@ Naučte se, jak iterovat přes NodeList v Javě pomocí Aspose.HTML v tomto podr
 Kompletní návod, jak pomocí Aspose.HTML pro Java extrahovat text z HTML dokumentů, včetně příkladů a tipů.
 ### [Jak používat XPath v Javě – číst HTML a extrahovat text](./how-to-use-xpath-in-java-read-html-and-extract-text/)
 Naučte se, jak pomocí XPath v Javě načíst HTML a extrahovat požadovaný text.
+### [Jak dotazovat HTML v Javě – Extrahovat URL obrázků](./how-to-query-html-in-java-extract-image-urls/)
+Naučte se, jak pomocí Aspose.HTML v Javě dotazovat HTML a získávat URL obrázků.
+### [Jak parsovat HTML v Javě – Extrahovat text z HTML článků](./how-to-parse-html-in-java-extract-text-from-html-articles/)
+Naučte se pomocí Aspose.HTML v Javě parsovat HTML a extrahovat čistý text z článků pro další zpracování.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -73,6 +73,8 @@ url: /el/java/css-html-form-editing/
 ### [πώς να διαβάσετε CSS σε Java – Οδηγός βήμα‑βήμα](./how-to-read-css-in-java-step-by-step-guide/)
 Μάθετε πώς να διαβάζετε CSS σε Java με βήμα‑βήμα οδηγίες χρησιμοποιώντας Aspose.HTML για Java.
 
+### [Πώς να Λάβετε CSS σε Java – Χρησιμοποιώντας querySelector και Computed Style](./how-to-get-css-in-java-using-queryselector-and-computed-styl/)
+Μάθετε πώς να εξάγετε στυλ CSS από στοιχεία HTML σε Java χρησιμοποιώντας querySelector και υπολογιζόμενο στυλ.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

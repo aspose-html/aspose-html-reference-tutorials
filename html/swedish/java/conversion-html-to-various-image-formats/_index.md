@@ -107,6 +107,7 @@ Att använda Aspose.HTML for Java förenklar konverteringen av HTML‑dokument t
 ### [Ställ in enhetens pixelratio i Java – Komplett guide](./set-device-pixel-ratio-in-java-complete-guide/)
 ### [Hur man ställer in DPI vid konvertering av HTML till PNG](./how-to-set-dpi-when-converting-html-to-png/)
 ### [Konvertera HTML till WebP – Komplett Java‑guide](./convert-html-to-webp-complete-java-guide/)
+### [Skapa HTML‑banner och rendera till PNG – Fullständig Java‑guide](./create-html-banner-and-render-to-png-full-java-guide/)
 
 ### [Hur man renderar HTML till PNG – Komplett guide för Java‑utvecklare](./how-to-render-html-to-png-complete-guide-for-java-developers/)
 ### [Skapa PNG från HTML i Java – Fullständig steg‑för‑steg‑guide](./create-png-from-html-in-java-full-step-by-step-guide/)

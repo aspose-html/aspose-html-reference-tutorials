@@ -160,6 +160,8 @@ Aprenda a convertir SVG a GIF en Java usando Aspose.HTML. Guía paso a paso para
 Aprenda a convertir SVG a WebP en Java usando Aspose.HTML. Guía paso a paso para una conversión eficiente y de alta calidad.
 ### [Establecer la relación de píxeles del dispositivo en Java – Guía completa](./set-device-pixel-ratio-in-java-complete-guide/)
 Aprenda a establecer la relación de píxeles del dispositivo en Java usando Aspose.HTML. Guía paso a paso para un renderizado preciso.
+### [Crear banner HTML y renderizar a PNG – Guía completa en Java](./create-html-banner-and-render-to-png-full-java-guide/)
+Aprenda a crear un banner HTML y renderizarlo a PNG usando Aspose.HTML for Java. Guía paso a paso completa.
 
 ## Preguntas frecuentes
 

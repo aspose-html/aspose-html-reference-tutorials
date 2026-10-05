@@ -123,6 +123,8 @@ Aspose.HTML for Java ile SVG dosyalarını yüksek kalitede WebP formatına dön
 Aspose.HTML for Java kullanarak SVG dosyalarını yüksek kaliteyle WebP formatına dönüştürmeyi adım adım öğrenin.
 ### [Java'da Cihaz Piksel Oranını Ayarlama – Tam Kılavuz](./set-device-pixel-ratio-in-java-complete-guide/)
 Aspose.HTML for Java kullanarak cihaz piksel oranını nasıl ayarlayacağınızı adım adım öğrenin.
+### [HTML Banner Oluştur ve PNG Olarak Renderla – Tam Java Rehberi](./create-html-banner-and-render-to-png-full-java-guide/)
+Aspose.HTML for Java kullanarak HTML banner oluşturup PNG olarak renderlamayı adım adım öğrenin.
 
 ### [HTML'yi PNG'ye Render Etme – Java Geliştiricileri için Tam Kılavuz](./how-to-render-html-to-png-complete-guide-for-java-developers/)
 Aspose.HTML for Java ile HTML'yi yüksek kaliteli PNG görüntüsüne dönüştürmeyi adım adım öğrenin.

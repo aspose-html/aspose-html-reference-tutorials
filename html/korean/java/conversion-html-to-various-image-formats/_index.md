@@ -123,6 +123,8 @@ Aspose.HTML for Java를 사용해 SVG를 WebP 이미지로 변환하는 방법�
 ### [Java에서 디바이스 픽셀 비율 설정 – 완전 가이드](./set-device-pixel-ratio-in-java-complete-guide/)
 Aspose.HTML for Java를 사용해 디바이스 픽셀 비율을 설정하고 고품질 이미지를 얻는 방법을 단계별로 안내합니다.
 ### [HTML을 WebP로 변환 – 완전한 Java 가이드](./convert-html-to-webp-complete-java-guide/)
+### [HTML 배너 만들기 및 PNG로 렌더링 – 전체 Java 가이드](./create-html-banner-and-render-to-png-full-java-guide/)
+Aspose.HTML for Java를 사용해 HTML 배너를 생성하고 PNG 이미지로 렌더링하는 전체 단계별 가이드입니다.
 
 ### [Java에서 HTML을 PNG로 생성 – 전체 단계별 가이드](./create-png-from-html-in-java-full-step-by-step-guide/)
 Java에서 Aspose.HTML를 활용해 HTML을 PNG 파일로 변환하는 전체 과정을 단계별로 안내합니다.

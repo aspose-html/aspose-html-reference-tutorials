@@ -101,6 +101,12 @@ Learn how to batch convert HTML files to PDF using Java NIO and parallel process
 A fast‑track guide to converting HTML to PDF in Java using Aspose.HTML, covering essential steps for quick implementation.
 ### [Convert HTML to PDF in Java – Full Guide with Paper Size & DPI](./convert-html-to-pdf-in-java-full-guide-with-paper-size-dpi/)
 Comprehensive guide covering PDF conversion with custom paper sizes and DPI settings using Aspose.HTML for Java.
+### [How to Convert Webpage to PDF in Java – Step‑by‑Step Guide](./how-to-convert-webpage-to-pdf-in-java-step-by-step-guide/)
+Step-by-step guide to convert a webpage to PDF in Java using Aspose.HTML, covering setup and basic conversion options.
+### [Create PDF from HTML with Custom Page Size and Embedded Fonts](./create-pdf-from-html-with-custom-page-size-and-embedded-font/)
+Generate PDFs with custom page dimensions and embedded fonts using Aspose.HTML for Java.
+### [Convert HTML to PDF in Java – One‑Line Code Example](./convert-html-to-pdf-in-java-one-line-code-example/)
+Generate a PDF from HTML in Java with a single line of Aspose.HTML code.
 ### [Converting HTML to MHTML](./convert-html-to-mhtml/)
 Effortlessly convert HTML to MHTML using Aspose.HTML for Java. Follow our step-by-step guide for efficient HTML-to-MHTML conversion.
 
@@ -124,6 +130,7 @@ Learn how to convert SVG to XPS with Aspose.HTML for Java. Simple, step-by-step 
 Generate a PDF from HTML in a single line of Java code using Aspose.HTML.
 ### [Set Device Pixel Ratio in Java – Convert HTML to Mobile](./set-device-pixel-ratio-in-java-convert-html-to-mobile/)
 Learn how to set device pixel ratio in Java for mobile‑optimized HTML conversion with Aspose.HTML.
+### [convert html to pdf with Java – how to create thread pool](./convert-html-to-pdf-with-java-how-to-create-thread-pool/)
 
 ### [Create Fixed Thread Pool for Batch HTML to PDF Conversion](./create-fixed-thread-pool-for-batch-html-to-pdf-conversion/)
 Learn how to set up a fixed thread pool in Java to efficiently process batch HTML to PDF conversions using Aspose.HTML.

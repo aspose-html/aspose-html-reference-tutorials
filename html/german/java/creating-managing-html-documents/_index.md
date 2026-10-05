@@ -68,6 +68,12 @@ Erfahren Sie, wie Sie SVG-Dokumente mit Aspose.HTML für Java erstellen und verw
 Erfahren Sie, wie Sie in Aspose.HTML für Java eine sichere Sandbox für HTML erstellen und verwalten – Schritt‑für‑Schritt‑Anleitung.
 ### [Wie man HTML in Java abfragt – Komplettes Tutorial](./how-to-query-html-in-java-complete-tutorial/)
 Erfahren Sie, wie Sie HTML-Inhalte in Java abfragen und verarbeiten – Schritt‑für‑Schritt‑Anleitung für vollständiges Verständnis.
+### [Wie man HTML in Java abfragt – Bild‑URLs extrahieren](./how-to-query-html-in-java-extract-image-urls/)
+Erfahren Sie, wie Sie Bild‑URLs aus HTML in Java extrahieren – Schritt‑für‑Schritt‑Anleitung mit praktischen Beispielen.
+
+### [HTML in Java parsen – Text aus HTML‑Artikeln extrahieren](./how-to-parse-html-in-java-extract-text-from-html-articles/)
+Erfahren Sie, wie Sie HTML in Java analysieren und Text aus HTML‑Artikeln extrahieren – Schritt‑für‑Schritt‑Anleitung.
+
 ### [Wie man XPath in Java verwendet – HTML lesen und Text extrahieren](./how-to-use-xpath-in-java-read-html-and-extract-text/)
 Lernen Sie, wie Sie mit Aspose.HTML für Java XPath einsetzen, um HTML zu lesen und gezielt Textinhalte zu extrahieren.
 

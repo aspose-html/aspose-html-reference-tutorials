@@ -88,6 +88,10 @@ Leer hoe u HTML naar PDF kunt converteren in Java met Aspose.HTML. Maak moeitelo
 Een beknopte gids voor het snel converteren van HTML naar PDF in Java met Aspose.HTML.
 ### [HTML naar PDF converteren in Java – Stapsgewijze gids met paginagrootte‑instellingen](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Leer stap voor stap hoe u HTML naar PDF converteert in Java en paginagrootte‑instellingen configureert voor optimale resultaten.
+### [Hoe een webpagina naar PDF converteren in Java – Stapsgewijze gids](./how-to-convert-webpage-to-pdf-in-java-step-by-step-guide/)
+
+### [HTML naar PDF converteren in Java – Eén‑regel code‑voorbeeld](./convert-html-to-pdf-in-java-one-line-code-example/)
+
 ### [HTML naar PDF converteren in Java – Complete stapsgewijze gids](./convert-html-to-pdf-in-java-complete-step-by-step-guide/)
 Volledige stap‑voor‑stap handleiding om HTML naar PDF te converteren in Java met Aspose.HTML, inclusief alle configuratie‑opties.
 ### [Lettertypen insluiten in PDF – Complete Aspose HTML naar PDF-gids (Java)](./embed-fonts-pdf-complete-aspose-html-to-pdf-guide-java/)
@@ -111,6 +115,10 @@ Leer hoe u SVG naar afbeeldingen kunt converteren in Java met Aspose.HTML. Uitge
 Converteer SVG naar PDF in Java met Aspose.HTML. Een naadloze oplossing voor documentconversie van hoge kwaliteit.
 ### [SVG naar XPS converteren](./convert-svg-to-xps/)
 Leer hoe u SVG naar XPS kunt converteren met Aspose.HTML for Java. Eenvoudige, stap‑voor‑stap gids voor naadloze conversies.
+### [PDF maken van HTML met aangepaste paginagrootte en ingesloten lettertypen](./create-pdf-from-html-with-custom-page-size-and-embedded-font/)
+
+### [HTML naar PDF converteren met Java – hoe een thread‑pool te maken](./convert-html-to-pdf-with-java-how-to-create-thread-pool/)
+
 ### [DOCX maken van HTML – Java-gids om HTML naar DOCX te converteren](./create-docx-from-html-java-guide-to-convert-html-to-docx/)
 Leer hoe u HTML naar DOCX converteert in Java met Aspose.HTML. Maak eenvoudig DOCX‑documenten van uw webinhoud.
 ### [PDF maken van HTML in Java – Eén‑regel Aspose‑gids](./create-pdf-from-html-in-java-one-line-aspose-guide/)

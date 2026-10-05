@@ -103,6 +103,10 @@ Tìm hiểu cách lặp qua NodeList trong Java bằng Aspose.HTML với hướn
 Học cách trích xuất nội dung văn bản từ tài liệu HTML trong Java bằng Aspose.HTML qua hướng dẫn chi tiết từng bước.
 ### [Cách sử dụng XPath trong Java – Đọc HTML và Trích xuất Văn bản](./how-to-use-xpath-in-java-read-html-and-extract-text/)
 Hướng dẫn chi tiết cách sử dụng XPath trong Java để đọc HTML và trích xuất nội dung văn bản một cách hiệu quả.
+### [Cách truy vấn HTML trong Java – Trích xuất URL hình ảnh](./how-to-query-html-in-java-extract-image-urls/)
+Khám phá cách trích xuất URL hình ảnh từ tài liệu HTML trong Java bằng Aspose.HTML với hướng dẫn từng bước.
+### [Cách phân tích HTML trong Java – Trích xuất văn bản từ các bài viết HTML](./how-to-parse-html-in-java-extract-text-from-html-articles/)
+Hướng dẫn chi tiết cách phân tích HTML trong Java để trích xuất nội dung văn bản từ các bài viết HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

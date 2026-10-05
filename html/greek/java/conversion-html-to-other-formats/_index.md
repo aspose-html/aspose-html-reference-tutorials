@@ -95,6 +95,12 @@ weight: 25
 Αναλυτικός οδηγός για τη μετατροπή HTML σε PDF σε Java, καλύπτοντας όλες τις ρυθμίσεις και βέλτιστες πρακτικές.
 ### [Μετατροπή HTML σε PDF σε Java – Πλήρης Οδηγός με Μέγεθος Σελίδας και DPI](./convert-html-to-pdf-in-java-full-guide-with-paper-size-dpi/)
 Αναλυτικός οδηγός για μετατροπή HTML σε PDF σε Java, με ρυθμίσεις μεγέθους σελίδας και DPI για ακριβή εκτύπωση.
+### [Μετατροπή HTML σε PDF σε Java – Παράδειγμα κώδικα μίας γραμμής](./convert-html-to-pdf-in-java-one-line-code-example/)
+Δείτε πώς να μετατρέψετε HTML σε PDF με μία μόνο γραμμή κώδικα χρησιμοποιώντας το Aspose.HTML for Java.
+
+### [Δημιουργία PDF από HTML με Προσαρμοσμένο Μέγεθος Σελίδας και Ενσωματωμένες Γραμματοσειρές](./create-pdf-from-html-with-custom-page-size-and-embedded-font/)
+Μάθετε πώς να δημιουργήσετε PDF με προσαρμοσμένο μέγεθος σελίδας και ενσωματωμένες γραμματοσειρές από HTML χρησιμοποιώντας Aspose.HTML for Java.
+
 ### [Μετατροπή HTML σε MHTML](./convert-html-to-mhtml/)
 Μετατρέψτε εύκολα HTML σε MHTML χρησιμοποιώντας το Aspose.HTML for Java. Ακολουθήστε τον βήμα‑βήμα οδηγό μας για αποδοτική μετατροπή HTML‑σε‑MHTML.
 
@@ -168,6 +174,12 @@ weight: 25
 
 ### [Ορισμός Αναλογίας Συσκευής Pixel σε Java – Μετατροπή HTML σε Κινητό](./set-device-pixel-ratio-in-java-convert-html-to-mobile/)
 Μάθετε πώς να ρυθμίσετε το Device Pixel Ratio κατά τη μετατροπή HTML για βέλτιστη εμφάνιση σε κινητές συσκευές.
+
+### [Πώς να μετατρέψετε ιστοσελίδα σε PDF σε Java – Οδηγός βήμα‑βήμα](./how-to-convert-webpage-to-pdf-in-java-step-by-step-guide/)
+Ακολουθήστε τον πλήρη οδηγό για μετατροπή ιστοσελίδας σε PDF σε Java, με παραδείγματα κώδικα και ρυθμίσεις εξόδου.
+
+### [Μετατροπή HTML σε PDF με Java – πώς να δημιουργήσετε ομάδα νημάτων](./convert-html-to-pdf-with-java-how-to-create-thread-pool/)
+Μάθετε πώς να βελτιώσετε την απόδοση της μετατροπής HTML σε PDF χρησιμοποιώντας thread pool στην Java με Aspose.HTML.
 
 ## Συχνές Ερωτήσεις
 
