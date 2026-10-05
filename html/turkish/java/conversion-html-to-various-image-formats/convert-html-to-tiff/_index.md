@@ -10,11 +10,8 @@ url: /tr/java/conversion-html-to-various-image-formats/convert-html-to-tiff/
 weight: 14
 ---
 
- translations.
 
-Make sure to keep code block placeholders unchanged.
 
-Let's craft translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

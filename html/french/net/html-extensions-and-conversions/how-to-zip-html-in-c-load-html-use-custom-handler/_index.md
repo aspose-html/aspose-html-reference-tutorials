@@ -27,17 +27,11 @@ title: Comment compresser du HTML en C# – Charger le HTML et utiliser un gesti
 url: /fr/net/html-extensions-and-conversions/how-to-zip-html-in-c-load-html-use-custom-handler/
 ---
 
-URL, so we can translate alt text but keep URL same. Title attribute is "how to zip html example diagram". Should translate that too.
 
-Also need to translate the blockquote "Why care?" etc.
 
-The shortcodes at top and bottom must stay.
 
-Let's produce final content.
 
-Be careful to keep code block placeholders unchanged.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

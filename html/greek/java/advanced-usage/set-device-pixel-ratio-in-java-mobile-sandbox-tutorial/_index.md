@@ -22,13 +22,9 @@ title: Ορισμός του λόγου εικονοστοιχείων της σ
 url: /el/java/advanced-usage/set-device-pixel-ratio-in-java-mobile-sandbox-tutorial/
 ---
 
-preserve all code blocks fenced. There are none besides placeholders. So fine.
 
-Check any other markdown like blockquote, lists, tables.
 
-All good.
 
-Now produce final content with Greek translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

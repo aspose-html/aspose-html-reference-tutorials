@@ -22,15 +22,10 @@ title: जावा में HTML को मार्कडाउन में 
 url: /hi/java/conversion-html-to-other-formats/how-to-set-offset-when-converting-html-to-markdown-in-java/
 ---
 
-items: need translate.
 
-Now produce final output.
 
-Let's craft translation.
 
-Be careful with markdown syntax.
 
-Proceed step by step.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

@@ -22,11 +22,8 @@ title: Hur man ställer in offset när man konverterar HTML till Markdown i Java
 url: /sv/java/conversion-html-to-other-formats/how-to-set-offset-when-converting-html-to-markdown-in-java/
 ---
 
-.
 
-Also keep markdown formatting.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

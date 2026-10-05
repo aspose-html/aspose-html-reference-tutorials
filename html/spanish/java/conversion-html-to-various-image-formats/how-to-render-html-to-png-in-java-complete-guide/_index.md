@@ -24,7 +24,6 @@ title: Cómo renderizar HTML a PNG en Java – Guía completa
 url: /es/java/conversion-html-to-various-image-formats/how-to-render-html-to-png-in-java-complete-guide/
 ---
 
-Now produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

@@ -9,9 +9,7 @@ url: /zh-hant/java/handling-zip-files/zip-file-schema-handler/
 weight: 11
 ---
 
- to translate the bullet list under Quick Answers.
 
-Let's produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

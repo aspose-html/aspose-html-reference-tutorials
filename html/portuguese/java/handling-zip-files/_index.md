@@ -10,19 +10,12 @@ url: /pt/java/handling-zip-files/
 weight: 31
 ---
 
-.
 
-Also keep code snippets like `add` method.
 
-Need to keep links unchanged but translate surrounding text.
 
-Let's produce final content.
 
-Check for any URLs: ./zip-archive-message-handler/ etc. Keep same.
 
-Also "Aspose.HTML for Java 24.12" keep.
 
-Now produce final markdown.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

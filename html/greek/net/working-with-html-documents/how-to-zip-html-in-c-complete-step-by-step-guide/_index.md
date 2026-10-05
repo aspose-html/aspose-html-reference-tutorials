@@ -25,9 +25,7 @@ title: πώς να συμπιέσετε HTML σε C# – Πλήρης Οδηγό
 url: /el/net/working-with-html-documents/how-to-zip-html-in-c-complete-step-by-step-guide/
 ---
 
-formatting.
 
-Let's write.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

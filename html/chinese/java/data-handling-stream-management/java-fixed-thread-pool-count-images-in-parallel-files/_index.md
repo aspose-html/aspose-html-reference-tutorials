@@ -20,11 +20,8 @@ title: Java 固定线程池：并行文件中的图像计数
 url: /zh/java/data-handling-stream-management/java-fixed-thread-pool-count-images-in-parallel-files/
 ---
 
-inside braces. Should translate alt text? The instruction: translate all text content. So alt text should be translated. But keep the URL unchanged. So change alt="java fixed thread pool diagram" to Chinese translation, maybe "java 固定线程池示意图". Keep the rest.
 
-Now go through.
 
-I'll produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

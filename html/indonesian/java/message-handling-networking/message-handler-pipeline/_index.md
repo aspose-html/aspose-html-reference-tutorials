@@ -10,11 +10,8 @@ url: /id/java/message-handling-networking/message-handler-pipeline/
 weight: 13
 ---
 
- **...**.
 
-Also tables.
 
-Let's produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

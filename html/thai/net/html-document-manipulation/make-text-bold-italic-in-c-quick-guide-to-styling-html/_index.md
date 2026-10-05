@@ -22,11 +22,8 @@ title: ทำให้ข้อความเป็นตัวหนาแล�
 url: /th/net/html-document-manipulation/make-text-bold-italic-in-c-quick-guide-to-styling-html/
 ---
 
-อย่างการทำข้อความเป็นตัวหนาและตัวเอียง". Title: "Screenshot showing a paragraph rendered bold and italic after applying the style" => "ภาพหน้าจอแสดงย่อหน้าที่แสดงเป็นตัวหนาและตัวเอียงหลังจากใช้สไตล์". Keep quotes.
 
-Now translate bullet lists.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

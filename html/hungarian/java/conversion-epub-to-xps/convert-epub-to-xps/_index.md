@@ -11,17 +11,11 @@ url: /hu/java/conversion-epub-to-xps/convert-epub-to-xps/
 weight: 10
 ---
 
-Tested With:** Aspose.HTML for Java 24.12 (latest at time of writing) => same.
 
-**Author:** Aspose => same.
 
-Then closing shortcodes.
 
-Also need to translate "Provide ONLY the translated content, no explanations." That's instruction, not part of content.
 
-Now produce final output with all translated content, preserving shortcodes.
 
-Let's assemble.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

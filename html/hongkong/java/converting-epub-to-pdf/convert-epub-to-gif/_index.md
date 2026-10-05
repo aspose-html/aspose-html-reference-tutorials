@@ -8,11 +8,8 @@ url: /zh-hant/java/converting-epub-to-pdf/convert-epub-to-gif/
 weight: 11
 ---
 
-.
 
-Also note "ASP" etc keep English.
 
-Now produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

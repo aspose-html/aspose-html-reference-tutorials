@@ -22,15 +22,10 @@ title: Como gerar miniatura a partir de HTML – Guia Java
 url: /pt/java/conversion-html-to-various-image-formats/how-to-generate-thumbnail-from-html-java-guide/
 ---
 
-, ensure proper RTL formatting if needed" - not needed.
 
-We must keep technical terms in English.
 
-Let's produce translation.
 
-We need to keep the shortcodes at top and bottom unchanged.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

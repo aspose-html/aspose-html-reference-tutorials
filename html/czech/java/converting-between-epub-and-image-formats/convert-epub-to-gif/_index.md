@@ -9,21 +9,13 @@ url: /cs/java/converting-between-epub-and-image-formats/convert-epub-to-gif/
 weight: 11
 ---
 
- unchanged.
 
-Also need to translate "Last Updated", "Tested With", "Author". Keep them.
 
-Let's produce the translation.
 
-Be careful with markdown tables: translate column headers and cell content.
 
-Also translate "Quick Answers" etc.
 
-Let's do it.
 
-We'll keep shortcodes at top and bottom unchanged.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

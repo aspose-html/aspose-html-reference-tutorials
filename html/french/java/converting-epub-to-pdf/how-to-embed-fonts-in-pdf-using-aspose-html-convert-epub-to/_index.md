@@ -25,15 +25,10 @@ title: Comment intégrer des polices dans un PDF avec Aspose HTML – guide de c
 url: /fr/java/converting-epub-to-pdf/how-to-embed-fonts-in-pdf-using-aspose-html-convert-epub-to/
 ---
 
-the rows content. Keep the markdown table format.
 
-Also blockquote > Pro tip: translate.
 
-Also bullet lists.
 
-Make sure to keep markdown formatting.
 
-Let's produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

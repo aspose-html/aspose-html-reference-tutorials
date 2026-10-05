@@ -22,11 +22,8 @@ title: Установка коэффициента пикселей устрой
 url: /ru/java/advanced-usage/set-device-pixel-ratio-in-java-mobile-sandbox-tutorial/
 ---
 
-alt text? It's part of markdown image. The instruction: translate all text content. Alt text is text, so translate it. But the URL remains same. Also title attribute "set device pixel ratio diagram" should be translated? Title attribute is inside quotes after URL. That's text, should translate. So alt and title become Russian.
 
-Ok.
 
-Now produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

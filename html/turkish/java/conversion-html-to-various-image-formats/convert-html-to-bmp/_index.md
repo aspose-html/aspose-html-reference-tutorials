@@ -10,15 +10,10 @@ url: /tr/java/conversion-html-to-various-image-formats/convert-html-to-bmp/
 weight: 10
 ---
 
-'yi BMP'ye Dönüştürme". We'll translate.
 
-Then paragraph.
 
-Proceed step by step.
 
-Make sure to keep markdown formatting.
 
-Let's write.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

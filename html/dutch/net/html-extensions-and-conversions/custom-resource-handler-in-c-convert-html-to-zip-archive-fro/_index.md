@@ -26,7 +26,6 @@ title: Aangepaste resourcehandler in C# – HTML naar ZIP-archief vanuit het geh
 url: /nl/net/html-extensions-and-conversions/custom-resource-handler-in-c-convert-html-to-zip-archive-fro/
 ---
 
-.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
