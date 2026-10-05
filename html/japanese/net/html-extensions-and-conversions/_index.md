@@ -49,6 +49,8 @@ Aspose.HTML for .NET を利用し、C# で HTML を PDF に変換する手順を
 Aspose.HTML for .NET を使用して、フォントを埋め込んだ状態で C# から HTML を PDF に変換する手順をステップバイステップで解説します。
 ### [C# で PDF ページサイズを設定 – HTML を PDF に変換](./set-pdf-page-size-in-c-convert-html-to-pdf/)
 Aspose.HTML for .NET を使用して、C# で HTML を PDF に変換する際に PDF のページサイズをカスタマイズする方法をステップバイステップで解説します。
+### [HTML を PDF に変換するチュートリアル – C#](./html-to-pdf-tutorial-convert-html-to-pdf-in-c/)
+Aspose.HTML for .NET を使用して、C# で HTML を PDF に変換する手順をステップバイステップで解説します。
 
 ### [HTML から PDF を作成する – C# ステップバイステップ ガイド](./create-pdf-from-html-c-step-by-step-guide/)
 Aspose.HTML for .NET を使用して、C# で HTML から PDF を作成する手順をステップバイステップで解説します。
@@ -73,6 +75,7 @@ Aspose.HTML for .NET を使用して、スタイル付きテキストを含む H
 ### [Aspose.HTML を使用して .NET で HTML を GIF に変換する](./convert-html-to-gif/)
 ### [Aspose.HTML を使用して .NET で HTML を JPEG に変換する](./convert-html-to-jpeg/)
 ### [Aspose.HTML を使用して .NET で HTML を Markdown に変換する](./convert-html-to-markdown/)
+効率的なコンテンツ操作のために、Aspose.HTML を使用して、.NET で HTML を Markdown に変換する方法を学びます。シームレスな変換プロセスのためのステップバイステップのガイダンスを入手します。
 ### [Aspose.HTML を使用して .NET で HTML を MHTML に変換する](./convert-html-to-mhtml/)
 ### [Aspose.HTML を使用して .NET で HTML を PNG に変換する](./convert-html-to-png/)
 ### [Aspose.HTML を使用して .NET で HTML を TIFF に変換する](./convert-html-to-tiff/)

@@ -49,6 +49,9 @@ HTML को PDF में बदलते समय PDF पेज आकार �
 
 ### [URL से PDF बनाएं – पूर्ण C# गाइड](./create-pdf-from-url-complete-c-guide/)
 C# में URL से PDF बनाने की पूरी प्रक्रिया सीखें, चरण-दर-चरण मार्गदर्शिका।
+### [HTML को PDF ट्यूटोरियल – C# में HTML को PDF में बदलें](./html-to-pdf-tutorial-convert-html-to-pdf-in-c/)
+C# में Aspose.HTML का उपयोग करके HTML को PDF में बदलने के चरण‑दर‑चरण मार्गदर्शन।
+
 ### [HTML से PDF बनाएं – C# चरण‑दर‑चरण गाइड](./create-pdf-from-html-c-step-by-step-guide/)
 C# में Aspose.HTML का उपयोग करके HTML को PDF में बदलने का चरण‑दर‑चरण मार्गदर्शन।
 ### [Aspose के साथ HTML से PDF बनाएं – चरण‑दर‑चरण गाइड](./create-pdf-from-html-with-aspose-step-by-step-guide/)

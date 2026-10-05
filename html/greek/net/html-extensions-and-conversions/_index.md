@@ -41,6 +41,8 @@ url: /el/net/html-extensions-and-conversions/
 
 ### [Μετατροπή HTML σε PDF στο .NET με το Aspose.HTML](./convert-html-to-pdf/)
 Μετατρέψτε HTML σε PDF χωρίς κόπο με το Aspose.HTML για .NET. Ακολουθήστε τον οδηγό βήμα προς βήμα και απελευθερώστε τη δύναμη της μετατροπής HTML σε PDF.
+### [Οδηγός HTML σε PDF – Μετατροπή HTML σε PDF με C#](./html-to-pdf-tutorial-convert-html-to-pdf-in-c/)
+Μετατρέψτε HTML σε PDF χρησιμοποιώντας C# και Aspose.HTML. Ακολουθήστε τον βήμα‑βήμα οδηγό για γρήγορη ενσωμάτωση.
 ### [Δημιουργία PDF από HTML – Οδηγός βήμα‑βήμα C#](./create-pdf-from-html-c-step-by-step-guide/)
 Δημιουργήστε PDF από HTML με C# χρησιμοποιώντας το Aspose.HTML. Οδηγός βήμα‑βήμα για γρήγορη και εύκολη υλοποίηση.
 ### [Δημιουργία PDF από HTML με Aspose – Οδηγός βήμα‑βήμα](./create-pdf-from-html-with-aspose-step-by-step-guide/)

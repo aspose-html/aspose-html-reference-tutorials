@@ -54,6 +54,10 @@ Dowiedz się, jak zapisać dokument HTML jako archiwum ZIP w C# przy użyciu wł
 
 ### [Jak zapisać HTML w C# przy użyciu własnego obsługiwacza zasobów](./how-to-save-html-in-c-with-custom-resource-handler/)
 
+### [Jak zapisać HTML przy użyciu Aspose – Kompletny przewodnik C#](./how-to-save-html-with-aspose-complete-c-guide/)
+
+### [Jak spakować HTML w C# – Kompletny przewodnik tworzenia archiwum ZIP](./how-to-zip-html-in-c-complete-guide-to-create-zip-archive/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

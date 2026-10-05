@@ -43,6 +43,8 @@ HTML ドキュメントは Web のバックボーンであり、それを効果�
 ### [Aspose.HTML を使用した C# での HTML 保存完全ガイド](./how-to-save-html-with-aspose-html-complete-c-guide/)
 ### [C# で HTML を zip する方法 – 完全ステップバイステップガイド](./how-to-zip-html-in-c-complete-step-by-step-guide/)
 ### [C# で HTML を ZIP として保存する完全ガイド – カスタムリソースハンドラ](./save-html-as-zip-in-c-complete-guide-with-custom-resource-ha/)
+### [Aspose を使用して HTML を保存する完全 C# ガイド](./how-to-save-html-with-aspose-complete-c-guide/)
+### [C# で HTML を ZIP 圧縮する方法 – ZIP アーカイブ作成完全ガイド](./how-to-zip-html-in-c-complete-guide-to-create-zip-archive/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -85,6 +85,8 @@ Poznaj krok po kroku, jak przy użyciu Aspose.HTML przekształcić HTML w obraz 
 Dowiedz się, jak przekształcić pliki SVG w obrazy PNG przy użyciu C# i Aspose.HTML, krok po kroku.
 ### [Renderowanie obrazu HTML w C# – Kompletny przewodnik Aspose.HTML](./render-html-image-in-c-complete-aspose-html-guide/)
 Pełny przewodnik, jak renderować obrazy HTML w C# przy użyciu biblioteki Aspose.HTML, krok po kroku.
+### [Utwórz obraz z HTML – przewodnik krok po kroku w C#](./create-image-from-html-step-by-step-c-guide/)
+Poznaj, jak w prosty sposób wygenerować obraz z kodu HTML przy użyciu Aspose.HTML w C#.
 
 ## Wniosek
 

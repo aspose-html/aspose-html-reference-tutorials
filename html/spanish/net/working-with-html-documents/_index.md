@@ -40,6 +40,8 @@ Ahora, llevemos tus habilidades al siguiente nivel. Editar documentos HTML es un
 ### [Cómo guardar HTML en C# con controlador de recursos personalizado](./how-to-save-html-in-c-with-custom-resource-handler/)
 
 Aprenda a guardar HTML en C# utilizando un controlador de recursos personalizado de forma sencilla y eficaz.
+### [Cómo guardar HTML con Aspose – Guía completa de C#](./how-to-save-html-with-aspose-complete-c-guide/)
+Aprenda a guardar archivos HTML usando Aspose en C# con esta guía paso a paso.
 
 ### [Cómo poner en negrita un encabezado con CSS y C# – Guía completa paso a paso](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
 
@@ -57,6 +59,9 @@ Aprenda a comprimir archivos HTML en C# usando Aspose.HTML con esta guía paso a
 ### [Guardar HTML como ZIP en C# – Guía completa con controlador de recursos personalizado](./save-html-as-zip-in-c-complete-guide-with-custom-resource-ha/)
 
 Aprenda a comprimir documentos HTML en archivos ZIP y guardarlos usando un controlador de recursos personalizado en C#.
+
+### [Cómo comprimir HTML en C# – Guía completa para crear archivo ZIP](./how-to-zip-html-in-c-complete-guide-to-create-zip-archive/)
+Aprenda a crear archivos ZIP de contenido HTML usando C# con esta guía paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

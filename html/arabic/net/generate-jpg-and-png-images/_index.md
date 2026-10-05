@@ -85,6 +85,8 @@ Aspose.HTML for .NET هي مكتبة قوية تتيح للمطورين إنشا
 تعلم كيفية تحويل ملفات SVG إلى صور PNG باستخدام C# و Aspose.HTML من خلال دليل شامل خطوة بخطوة.
 ### [عرض صورة HTML في C# – دليل Aspose.HTML الكامل](./render-html-image-in-c-complete-aspose-html-guide/)
 تعلم كيفية عرض صورة HTML في تطبيق C# باستخدام Aspose.HTML خطوة بخطوة مع شرح شامل للميزات.
+### [إنشاء صورة من HTML – دليل خطوة بخطوة بلغة C#](./create-image-from-html-step-by-step-c-guide/)
+تعلم كيفية تحويل HTML إلى صورة باستخدام Aspose.HTML في C# من خلال دليل شامل خطوة بخطوة.
 
 ## خاتمة
 

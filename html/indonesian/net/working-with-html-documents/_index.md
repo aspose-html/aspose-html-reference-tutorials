@@ -49,6 +49,10 @@ Sekarang, mari tingkatkan keterampilan Anda ke tingkat berikutnya. Mengedit doku
 
 ### [Cara Menyimpan HTML sebagai ZIP di C# – Panduan Lengkap dengan Penangan Sumber Daya Kustom](./save-html-as-zip-in-c-complete-guide-with-custom-resource-ha/)
 
+### [Cara Menyimpan HTML dengan Aspose – Panduan Lengkap C#](./how-to-save-html-with-aspose-complete-c-guide/)
+
+### [Cara Membuat ZIP HTML di C# – Panduan Lengkap Membuat Arsip ZIP](./how-to-zip-html-in-c-complete-guide-to-create-zip-archive/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

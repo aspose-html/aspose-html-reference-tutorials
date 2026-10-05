@@ -42,6 +42,8 @@ Laten we nu uw vaardigheden naar een hoger niveau tillen. Het bewerken van HTML-
 ### [HTML opslaan in C# – Aangepaste resourcehandlers & ZIP](./how-to-save-html-in-c-custom-resource-handlers-zip/)
 ### [HTML opslaan met Aspose.Html – Complete C#‑gids](./how-to-save-html-with-aspose-html-complete-c-guide/)
 ### [HTML zippen in C# – Complete stapsgewijze handleiding](./how-to-zip-html-in-c-complete-step-by-step-guide/)
+### [HTML opslaan met Aspose – Complete C#-gids](./how-to-save-html-with-aspose-complete-c-guide/)
+### [HTML zippen in C# – Complete gids voor het maken van een ZIP-archief](./how-to-zip-html-in-c-complete-guide-to-create-zip-archive/)
 
 ### [HTML opslaan als ZIP in C# – Complete gids met aangepaste resourcehandler](./save-html-as-zip-in-c-complete-guide-with-custom-resource-ha/)
 

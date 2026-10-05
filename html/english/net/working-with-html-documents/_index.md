@@ -45,6 +45,8 @@ Now, let's take your skills to the next level. Editing HTML documents is a commo
 ### [How to Save HTML in C# – Custom Resource Handlers & ZIP](./how-to-save-html-in-c-custom-resource-handlers-zip/)
 ### [How to Save HTML with Aspose.Html – Complete C# Guide](./how-to-save-html-with-aspose-html-complete-c-guide/)
 ### [how to zip html in C# – Complete Step‑by‑Step Guide](./how-to-zip-html-in-c-complete-step-by-step-guide/)
+### [How to Save HTML with Aspose – Complete C# Guide](./how-to-save-html-with-aspose-complete-c-guide/)
+### [How to Zip HTML in C# – Complete Guide to Create ZIP Archive](./how-to-zip-html-in-c-complete-guide-to-create-zip-archive/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

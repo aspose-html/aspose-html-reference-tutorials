@@ -48,6 +48,9 @@ Ismerje meg, hogyan menthet HTML-fájlokat Aspose.Html könyvtárral C#-ban, lé
 ### [HTML mentése ZIP‑ként C#‑ban – Teljes útmutató egy egyéni erőforráskezelővel](./save-html-as-zip-in-c-complete-guide-with-custom-resource-ha/)
 
 Ismerje meg, hogyan formázhatja félkövérre a HTML‑címeket CSS‑sel és C#‑kóddal, részletes példákkal.
+### [HTML mentése Aspose‑szal – Teljes C# útmutató](./how-to-save-html-with-aspose-complete-c-guide/)
+
+### [HTML ZIP-olása C#-ban – Teljes útmutató ZIP archívum létrehozásához](./how-to-zip-html-in-c-complete-guide-to-create-zip-archive/)
 
 ### [HTML mentése C#-ban – Egyedi erőforráskezelők és ZIP](./how-to-save-html-in-c-custom-resource-handlers-zip/)
 

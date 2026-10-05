@@ -85,6 +85,8 @@ Scopri come convertire HTML in immagini PNG usando C# con Aspose.HTML, passo dop
 Impara a convertire file SVG in immagini PNG usando C# e Aspose.HTML con istruzioni dettagliate passo dopo passo.
 ### [Renderizza immagine HTML in C# – Guida completa Aspose.HTML](./render-html-image-in-c-complete-aspose-html-guide/)
 Scopri come rendere immagini HTML in C# usando Aspose.HTML, con esempi passo passo e consigli pratici per una conversione efficace.
+### [Crea immagine da HTML – Guida passo‑a‑passo C#](./create-image-from-html-step-by-step-c-guide/)
+Impara a generare immagini da HTML con C# usando Aspose.HTML, seguendo una guida dettagliata passo‑a‑passo.
 
 ## Conclusione
 

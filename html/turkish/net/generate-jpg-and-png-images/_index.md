@@ -85,6 +85,8 @@ C# kullanarak HTML içeriğini PNG formatına dönüştürmek için adım adım 
 C# kullanarak SVG dosyalarını PNG formatına dönüştürmeyi adım adım öğrenin.
 ### [C#'ta HTML Görüntüsü Oluşturma – Tam Aspose.HTML Rehberi](./render-html-image-in-c-complete-aspose-html-guide/)
 C# ile Aspose.HTML kullanarak HTML'den görüntü oluşturmayı adım adım öğrenin.
+### [HTML'den Görüntü Oluşturma – Adım Adım C# Rehberi](./create-image-from-html-step-by-step-c-guide/)
+HTML içeriğinden C# kullanarak adım adım görüntü oluşturmayı öğrenin.
 
 ## Çözüm
 

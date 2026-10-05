@@ -56,6 +56,10 @@ url: /el/net/working-with-html-documents/
 
 Μάθετε πώς να συμπιέζετε αρχεία HTML σε αρχείο ZIP χρησιμοποιώντας C# βήμα‑βήμα.
 
+### [Πώς να αποθηκεύσετε HTML με Aspose – Πλήρης οδηγός C#](./how-to-save-html-with-aspose-complete-c-guide/)
+
+### [Πώς να συμπιέσετε HTML σε C# – Πλήρης οδηγός δημιουργίας αρχείου ZIP](./how-to-zip-html-in-c-complete-guide-to-create-zip-archive/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
