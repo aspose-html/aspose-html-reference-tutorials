@@ -9,17 +9,11 @@ url: /vi/java/editing-html-documents/edit-html-document-tree/
 weight: 10
 ---
 
- table structure. Ensure not to translate code snippets.
 
-Also translate FAQ sections.
 
-Let's produce final content.
 
-Be careful with bullet lists: translate bullet text.
 
-Also keep URLs unchanged.
 
-Let's produce.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

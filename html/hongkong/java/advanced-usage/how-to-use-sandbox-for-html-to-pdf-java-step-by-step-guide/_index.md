@@ -21,25 +21,15 @@ title: 如何在 Java 中使用 Sandbox 進行 HTML 轉 PDF – 步驟指南
 url: /zh-hant/java/advanced-usage/how-to-use-sandbox-for-html-to-pdf-java-step-by-step-guide/
 ---
 
-HTML 轉 PDF – 完整指南"
 
-Proceed.
 
-Paragraphs translate.
 
-Need to keep **bold** formatting.
 
-Let's translate.
 
-Will produce final markdown.
 
-Let's craft translation.
 
-Be careful with bullet lists.
 
-Ok.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

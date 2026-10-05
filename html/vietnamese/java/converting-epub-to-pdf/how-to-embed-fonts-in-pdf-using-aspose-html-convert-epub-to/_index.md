@@ -24,13 +24,9 @@ title: cách nhúng phông chữ vào PDF bằng Aspose HTML – hướng dẫn 
 url: /vi/java/converting-epub-to-pdf/how-to-embed-fonts-in-pdf-using-aspose-html-convert-epub-to/
 ---
 
-There's no markdown links. So fine.
 
-Check for any images: none.
 
-Check for any shortcodes: top and bottom.
 
-Now produce final output with translated content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

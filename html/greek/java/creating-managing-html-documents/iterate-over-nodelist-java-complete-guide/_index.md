@@ -25,9 +25,7 @@ title: Επανάληψη σε NodeList Java – Πλήρης Οδηγός
 url: /el/java/creating-managing-html-documents/iterate-over-nodelist-java-complete-guide/
 ---
 
-markdown syntax.
 
-Let's craft final output.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

@@ -10,9 +10,7 @@ url: /hi/java/conversion-html-to-other-formats/convert-html-to-pdf/
 weight: 10
 ---
 
-Will keep markdown headings.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

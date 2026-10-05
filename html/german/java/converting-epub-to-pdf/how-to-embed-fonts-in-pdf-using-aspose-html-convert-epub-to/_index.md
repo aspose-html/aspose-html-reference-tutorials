@@ -25,9 +25,7 @@ title: Wie man Schriftarten in PDF mit Aspose HTML einbettet – Leitfaden zum K
 url: /de/java/converting-epub-to-pdf/how-to-embed-fonts-in-pdf-using-aspose-html-convert-epub-to/
 ---
 
-to keep markdown formatting.
 
-Let's write.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

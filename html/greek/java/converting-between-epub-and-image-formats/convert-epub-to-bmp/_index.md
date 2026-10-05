@@ -9,15 +9,10 @@ url: /el/java/converting-between-epub-and-image-formats/convert-epub-to-bmp/
 weight: 10
 ---
 
-Let's produce Greek translation.
 
-Be careful with bullet points, keep same dash style.
 
-Let's translate.
 
-Start with shortcodes unchanged.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

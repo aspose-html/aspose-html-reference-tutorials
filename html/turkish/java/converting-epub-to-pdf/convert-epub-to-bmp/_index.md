@@ -10,21 +10,13 @@ url: /tr/java/converting-epub-to-pdf/convert-epub-to-bmp/
 weight: 10
 ---
 
- file paths, variable names, etc. Also keep technical terms English. Let's go through content.
 
-Start with shortcodes lines unchanged.
 
-Then heading "# How to Convert EPUB to BMP with Aspose.HTML for Java" translate to Turkish: "##"? Actually heading level stays same. So "# EPUB'yi BMP'ye Dönüştürme Aspose.HTML for Java ile". We'll translate naturally.
 
-Proceed.
 
-We'll need to translate all paragraphs, list items, etc.
 
-Be careful with bullet points containing code snippets, keep them unchanged.
 
-Also code block placeholders remain unchanged.
 
-Let's produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

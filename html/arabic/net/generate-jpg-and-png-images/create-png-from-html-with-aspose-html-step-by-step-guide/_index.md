@@ -22,7 +22,6 @@ title: إنشاء PNG من HTML باستخدام Aspose.Html – دليل خطو
 url: /ar/net/generate-jpg-and-png-images/create-png-from-html-with-aspose-html-step-by-step-guide/
 ---
 
-content with Arabic translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

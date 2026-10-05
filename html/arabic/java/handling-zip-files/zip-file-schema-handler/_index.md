@@ -9,17 +9,11 @@ url: /ar/java/handling-zip-files/zip-file-schema-handler/
 weight: 11
 ---
 
-Be careful with bullet points.
 
-Translate table content.
 
-Translate FAQ.
 
-Make sure not to translate URLs inside markdown links.
 
-Also keep code block placeholders.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

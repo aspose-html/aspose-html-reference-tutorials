@@ -25,23 +25,14 @@ title: कस्टम व्यूपोर्ट के साथ HTML को 
 url: /hi/java/conversion-html-to-various-image-formats/how-to-render-html-to-png-with-custom-viewport/
 ---
 
-कैसे करें"
 
-Then paragraph.
 
-We need to translate "Ever wondered **how to render html** and get a pixel‑perfect PNG for a mobile‑first design? You're not the only one. Whether you’re building automated visual regression tests, generating thumbnails for a CMS, or just need a quick snapshot of a responsive page, the ability to **convert html to png** on the fly is a real productivity booster."
 
-Translate accordingly.
 
-Proceed through sections.
 
-Make sure to preserve bold formatting.
 
-Also preserve code block placeholders.
 
-Tables: translate column headers and content.
 
-Let's craft.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

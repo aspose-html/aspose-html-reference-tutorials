@@ -27,15 +27,10 @@ title: Manipulador de Recurso Personalizado em C# – Converter HTML para Arquiv
 url: /pt/net/html-extensions-and-conversions/custom-resource-handler-in-c-convert-html-to-zip-archive-fro/
 ---
 
-#. Feliz codificação!"
 
-Then closing shortcodes: {{< /blocks/products/pf/tutorial-page-section >}} etc remain unchanged.
 
-Also there is a backtop button shortcode after that.
 
-Now produce final content with all translations, preserving placeholders.
 
-Let's assemble.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

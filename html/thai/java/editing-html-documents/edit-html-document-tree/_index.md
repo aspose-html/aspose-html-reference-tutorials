@@ -9,13 +9,9 @@ url: /th/java/editing-html-documents/edit-html-document-tree/
 weight: 10
 ---
 
- translate.
 
-Also "here" link text translate.
 
-Ok.
 
-Now produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

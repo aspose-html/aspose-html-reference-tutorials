@@ -26,9 +26,7 @@ title: Установка размера страницы PDF с помощью 
 url: /ru/java/conversion-html-to-other-formats/set-pdf-page-size-with-aspose-html-full-java-guide/
 ---
 
-.
 
-Now produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

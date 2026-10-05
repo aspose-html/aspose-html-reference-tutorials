@@ -22,7 +22,6 @@ title: Создание PDF из HTML в Java – Полное пошагово
 url: /ru/java/conversion-html-to-other-formats/create-pdf-from-html-in-java-complete-step-by-step-guide/
 ---
 
-Now produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

@@ -24,7 +24,6 @@ title: Comment analyser le HTML en Java â€“ Charger, interroger et compter les Ã
 url: /fr/java/creating-managing-html-documents/how-to-parse-html-java-load-query-count-elements/
 ---
 
-Let's produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

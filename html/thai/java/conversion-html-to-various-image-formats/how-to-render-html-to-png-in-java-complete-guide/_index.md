@@ -23,11 +23,8 @@ title: วิธีแปลง HTML เป็น PNG ใน Java – คู่�
 url: /th/java/conversion-html-to-various-image-formats/how-to-render-html-to-png-in-java-complete-guide/
 ---
 
-shortcodes closing.
 
-All good.
 
-Now produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

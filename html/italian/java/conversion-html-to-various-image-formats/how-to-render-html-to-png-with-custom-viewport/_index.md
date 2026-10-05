@@ -25,13 +25,9 @@ title: Come convertire HTML in PNG con viewport personalizzato
 url: /it/java/conversion-html-to-various-image-formats/how-to-render-html-to-png-with-custom-viewport/
 ---
 
-Should translate that too.
 
-But need to keep the alt text inside [] and title after space in quotes. So translate them.
 
-Let's translate.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

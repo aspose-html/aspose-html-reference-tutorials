@@ -23,11 +23,8 @@ title: Μετατροπή docx σε png σε C# – Πλήρης Οδηγός Β
 url: /el/net/generate-jpg-and-png-images/convert-docx-to-png-in-c-full-step-by-step-guide/
 ---
 
-.
 
-Make sure to keep all shortcodes exactly.
 
-Now produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

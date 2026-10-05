@@ -23,7 +23,6 @@ title: Thực thi JavaScript bất đồng bộ trong Java – Hướng dẫn ch
 url: /vi/java/creating-managing-html-documents/execute-async-javascript-in-java-complete-step-by-step-guide/
 ---
 
-.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

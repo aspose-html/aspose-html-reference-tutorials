@@ -22,19 +22,12 @@ title: HTML से थंबनेल कैसे बनाएं – जाव
 url: /hi/java/conversion-html-to-various-image-formats/how-to-generate-thumbnail-from-html-java-guide/
 ---
 
-raw HTML and returns a thumbnail on the fly. The sky’s the limit once you’ve mastered the basics."
 
-Translate.
 
-Paragraph: "Happy coding, and may your thumbnails always be crisp!" translate.
 
-Then closing shortcodes.
 
-Now produce final content with all translations.
 
-Be careful to preserve markdown formatting, code block placeholders, shortcodes.
 
-Let's craft translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

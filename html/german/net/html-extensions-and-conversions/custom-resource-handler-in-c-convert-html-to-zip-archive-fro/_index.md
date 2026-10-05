@@ -26,9 +26,7 @@ title: Benutzerdefinierter Ressourcen‑Handler in C# – HTML aus dem Speicher 
 url: /de/net/html-extensions-and-conversions/custom-resource-handler-in-c-convert-html-to-zip-archive-fro/
 ---
 
-code block placeholders unchanged.
 
-Now produce final content exactly with same formatting.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

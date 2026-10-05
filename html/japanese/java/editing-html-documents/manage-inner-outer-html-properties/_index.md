@@ -8,21 +8,13 @@ url: /ja/java/editing-html-documents/manage-inner-outer-html-properties/
 weight: 15
 ---
 
-. Should translate the bullet text but keep bold formatting.
 
-Let's go section by section.
 
-Start with shortcodes.
 
-Then heading "# Convert HTML to String using Aspose.HTML for Java" => Japanese: "# Aspose.HTML for Java を使用した HTML の文字列への変換"
 
-Second heading "## Introduction" => "## はじめに"
 
-Paragraph: translate.
 
-Let's translate step by step.
 
-I'll produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

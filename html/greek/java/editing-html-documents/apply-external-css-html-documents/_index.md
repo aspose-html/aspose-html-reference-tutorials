@@ -10,27 +10,16 @@ url: /el/java/editing-html-documents/apply-external-css-html-documents/
 weight: 12
 ---
 
- translate headings, bullet points, etc.
 
-Let's produce Greek translation.
 
-Be careful with bullet list formatting: keep hyphens.
 
-Also maintain markdown links.
 
-Let's translate.
 
-Start with shortcodes lines unchanged.
 
-Proceed.
 
-We'll translate each paragraph.
 
-Let's craft Greek translation.
 
-Note: Keep "Aspose.HTML for Java" unchanged.
 
-Let's do.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
