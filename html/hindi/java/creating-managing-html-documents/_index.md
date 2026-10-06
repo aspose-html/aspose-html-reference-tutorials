@@ -114,6 +114,9 @@ Aspose.HTML for Java का उपयोग करके HTML दस्ताव
 Java में Aspose.HTML का उपयोग करके HTML से इमेज URL निकालने की चरण‑दर‑चरण मार्गदर्शिका।
 ### [Java में HTML पार्स कैसे करें – HTML लेखों से टेक्स्ट निकालें](./how-to-parse-html-in-java-extract-text-from-html-articles/)
 Aspose.HTML for Java का उपयोग करके HTML लेखों से टेक्स्ट निकालने की चरण‑दर‑चरण मार्गदर्शिका।
+### [Java के लिए Aspose.HTML में जावास्क्रिप्ट सेटटाइमआउट एसिंक्रोनस: जावा में जावास्क्रिप्ट चलाएँ और HTML अपडेट करें](./javascript-settimeout-async-run-javascript-in-java-and-updat/)
+### [Java में मार्कडाउन से HTML बनाएं – पूर्ण चरण‑दर‑चरण गाइड](./create-html-from-markdown-in-java-full-step-by-step-guide/)
+Java में मार्कडाउन को HTML में परिवर्तित करने की पूरी प्रक्रिया सीखें, चरण‑दर‑चरण मार्गदर्शिका के साथ।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -118,6 +118,9 @@ Scopri come convertire HTML in WebP in Java usando Aspose.HTML. Una guida comple
 Scopri come convertire HTML in WebP con Aspose.HTML per Java. Una guida dettagliata passo‑passo per ottenere immagini WebP ottimizzate.
 ### [Crea banner HTML e rendi in PNG – Guida completa Java](./create-html-banner-and-render-to-png-full-java-guide/)
 Impara a creare un banner HTML dinamico e renderizzarlo in PNG usando Aspose.HTML for Java. Guida passo‑passo completa.
+### [Render HTML Java: Converti pagina lunga in PNG](./render-html-java-convert-long-page-to-png/)
+Scopri come convertire pagine HTML molto lunghe in immagini PNG usando Aspose.HTML for Java, gestendo altezza e dimensioni.
+### [Renderizzare HTML in PNG – Guida completa Java](./how-to-render-html-to-png-complete-java-guide/)
 
 ### [Conversione di SVG in WebP – Guida Java](./how-to-use-aspose-to-convert-svg-to-webp-java-guide/)
 ### [Converti SVG in WebP in Java – Guida completa Aspose.HTML](./convert-svg-to-webp-in-java-complete-aspose-html-guide/)

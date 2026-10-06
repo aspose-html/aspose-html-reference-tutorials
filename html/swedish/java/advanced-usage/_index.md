@@ -149,6 +149,8 @@ Lär dig hur du exekverar JavaScript‑kod asynkront i Java‑applikationer med 
 Lär dig hur du laddar ett HTML‑dokument, ställer in DPI för enheten och läser bakgrundsfärgen med Aspose.HTML för Java.
 ### [Hur du aktiverar JavaScript i Java – Komplett Aspose.HTML‑guide](./how-to-enable-javascript-in-java-complete-aspose-html-guide/)
 Lär dig hur du aktiverar JavaScript‑stöd i Java‑applikationer med Aspose.HTML, inklusive konfiguration och exempel.
+### [Hur man använder Aspose HTML i Java – Fullständig XPath‑filtreringsguide](./how-to-use-aspose-html-in-java-full-xpath-filtering-guide/)
+Lär dig hur du använder XPath‑filter för att exakt välja element i HTML‑dokument med Aspose.HTML för Java.
 
 ---
 

@@ -116,6 +116,10 @@ Aspose.HTML を使って、1 行のコードで HTML を PDF に変換するシ�
 Java でウェブページを PDF に変換する手順を詳しく解説します。シンプルなコード例と設定方法を紹介。
 ### [JavaでHTMLをPDFに変換 – スレッドプールの作成方法](./convert-html-to-pdf-with-java-how-to-create-thread-pool/)
 Java のスレッドプールを活用して、HTML から PDF への大量変換を効率的に実行する方法を解説します。
+### [Java HTML to PDF – PDF/A‑2b 変換ガイド](./java-html-to-pdf-pdf-a-2b-conversion-guide/)
+Aspose.HTML を使用して Java で HTML を PDF/A‑2b に変換する手順を解説します。法的要件を満たす高品質な PDF を作成できます。
+### [HTML to PDF 変換 – Aspose.HTML を使用したバッチ変換の完全ガイド](./html-to-pdf-conversion-complete-guide-to-batch-convert-files/)
+Aspose.HTML を使って複数の HTML ファイルを一括で PDF に変換する手順とベストプラクティスを解説します。
 
 ### [JavaでHTMLをPDFに変換 – ページサイズと DPI の完全ガイド](./convert-html-to-pdf-in-java-full-guide-with-paper-size-dpi/)
 

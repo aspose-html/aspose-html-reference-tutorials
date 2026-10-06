@@ -108,6 +108,10 @@ Leer hoe u met XPath HTML-inhoud kunt lezen en specifieke tekst kunt extraheren 
 Leer hoe u met Aspose.HTML voor Java afbeeldings‑URL's uit HTML kunt extraheren in een stapsgewijze handleiding.
 ### [HTML parseren in Java – Tekst uit HTML‑artikelen extraheren](./how-to-parse-html-in-java-extract-text-from-html-articles/)
 Leer hoe u HTML in Java kunt parseren en tekst uit HTML‑artikelen extraheren met een duidelijke stap‑voor‑stap gids.
+### [Javascript settimeout async: JavaScript uitvoeren in Java en HTML bijwerken](./javascript-settimeout-async-run-javascript-in-java-and-updat/)
+Leer hoe u JavaScript met setTimeout asynchroon vanuit Java kunt uitvoeren en de HTML-inhoud dynamisch bijwerkt.
+### [HTML maken vanuit Markdown in Java – Volledige stapsgewijze handleiding](./create-html-from-markdown-in-java-full-step-by-step-guide/)
+Leer hoe u Markdown naar HTML converteert in Java met een gedetailleerde stap‑voor‑stap handleiding.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -74,6 +74,8 @@ Aspose.HTML for Java kullanarak CSS dosyalarını nasıl okuyacağınızı ve an
 ### [Java’da CSS Nasıl Alınır – querySelector ve Computed Style Kullanarak](./how-to-get-css-in-java-using-queryselector-and-computed-styl/)
 querySelector ve computed style kullanarak bir öğenin CSS özelliklerini Java’da programatik olarak elde etmeyi öğrenin.
 
+### [Java’da ID ile öğe al – Hesaplanmış Stillerin Tam Kılavuzu](./get-element-by-id-java-complete-guide-to-computed-styles/)
+Java’da ID ile bir öğenin hesaplanmış stillerini nasıl alacağınızı adım adım öğrenin.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

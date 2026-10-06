@@ -108,6 +108,10 @@ Fedezze fel, hogyan nyerhet ki szöveget HTML-ből Java használatával, részle
 Ismerje meg, hogyan iterálhat a NodeList elemein Java-ban az Aspose.HTML segítségével, részletes, lépésről‑lépésre útmutató.
 ### [Hogyan használja az XPath-et Java-ban – HTML olvasása és szöveg kinyerése](./how-to-use-xpath-in-java-read-html-and-extract-text/)
 Ismerje meg, hogyan olvashat be HTML-t Java-ban, és használhatja az XPath-et a kívánt szövegek kinyeréséhez lépésről‑lépésre.
+### [javascript setTimeout aszinkron: JavaScript futtatása Java-ban és HTML frissítése](./javascript-settimeout-async-run-javascript-in-java-and-updat/)
+Ismerje meg, hogyan futtathat JavaScript kódot Java alkalmazásban setTimeout segítségével, és frissítheti a HTML-t dinamikusan.
+### [HTML létrehozása Markdownból Java-ban – Teljes lépésről‑lépésre útmutató](./create-html-from-markdown-in-java-full-step-by-step-guide/)
+Ismerje meg, hogyan konvertálhat Markdown fájlokat HTML-re Java nyelven az Aspose.HTML segítségével, részletes, lépésről‑lépésre útmutatóval.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

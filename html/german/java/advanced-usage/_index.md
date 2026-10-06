@@ -125,6 +125,8 @@ Erfahren Sie, wie Sie HTML5‑Canvas mit JavaScript und Aspose.HTML für Java ma
 Erfahren Sie, wie Sie das Geräte‑Pixel‑Verhältnis in Java festlegen, um mobile Sandbox‑Renderings zu optimieren.
 ### [Automatisches Ausfüllen von HTML‑Formularen mit Aspose.HTML für Java](./html-form-editor-filling-submitting-forms/)
 Erfahren Sie, wie Sie das automatische Ausfüllen und Absenden von HTML‑Formularen mit Aspose.HTML für Java automatisieren. Vereinfachen Sie die Web‑Interaktion mit diesem Tutorial.
+### [Wie man Aspose HTML in Java verwendet – Vollständiger XPath-Filterleitfaden](./how-to-use-aspose-html-in-java-full-xpath-filtering-guide/)
+Erfahren Sie, wie Sie mit Aspose HTML für Java XPath‑Ausdrücke nutzen, um gezielt Inhalte zu filtern und zu extrahieren.
 ### [PDF‑Seitengröße mit Aspose.HTML für Java anpassen](./adjust-pdf-page-size/)
 Erfahren Sie, wie Sie die PDF‑Seitengröße mit Aspose.HTML für Java anpassen. Erstellen Sie mühelos hochwertige PDFs aus HTML und steuern Sie die Seitenabmessungen effektiv.
 ### [XPS‑Seitengröße mit Aspose.HTML für Java anpassen](./adjust-xps-page-size/)

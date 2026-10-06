@@ -61,6 +61,8 @@ url: /el/java/creating-managing-html-documents/
 Μάθετε πώς να δημιουργείτε έγγραφα HTML από συμβολοσειρές στο Aspose.HTML για Java με αυτόν τον οδηγό βήμα προς βήμα.
 ### [Δημιουργία εγγράφου HTML με Java – Λήψη JSON και δημιουργία περιεχομένου](./create-html-document-with-java-fetch-json-and-generate-conte/)
 Μάθετε πώς να δημιουργήσετε ένα έγγραφο HTML σε Java, λαμβάνοντας δεδομένα JSON και δημιουργώντας δυναμικό περιεχόμενο HTML με οδηγίες βήμα‑βήμα.
+### [Δημιουργία HTML από Markdown σε Java – Πλήρης οδηγός βήμα‑βήμα](./create-html-from-markdown-in-java-full-step-by-step-guide/)
+Μάθετε πώς να μετατρέψετε αρχεία Markdown σε HTML σε Java με αναλυτικές οδηγίες βήμα‑βήμα.
 ### [Φόρτωση εγγράφων HTML από τη διεύθυνση URL στο Aspose.HTML για Java](./load-html-documents-from-url/)
 Ανακαλύψτε πώς να φορτώνετε εύκολα έγγραφα HTML από μια διεύθυνση URL σε Java με το Aspose.HTML. Περιλαμβάνεται σεμινάριο βήμα προς βήμα.
 
@@ -75,7 +77,8 @@ url: /el/java/creating-managing-html-documents/
 
 ### [Χειριστείτε συμβάντα φόρτωσης εγγράφου στο Aspose.HTML για Java](./handle-document-load-events/)
 Μάθετε να χειρίζεστε συμβάντα φόρτωσης εγγράφων στο Aspose.HTML για Java με αυτόν τον οδηγό βήμα προς βήμα. Βελτιώστε τις διαδικτυακές εφαρμογές σας.
-
+### [javascript settimeout async: Εκτέλεση JavaScript σε Java και ενημέρωση HTML](./javascript-settimeout-async-run-javascript-in-java-and-updat/)
+Μάθετε πώς να χρησιμοποιήσετε setTimeout ασύγχρονα για να εκτελέσετε κώδικα JavaScript σε Java και να ενημερώσετε το HTML.
 ### [Δημιουργία και διαχείριση εγγράφων SVG στο Aspose.HTML για Java](./create-manage-svg-documents/)
 Μάθετε να δημιουργείτε και να διαχειρίζεστε έγγραφα SVG χρησιμοποιώντας το Aspose.HTML για Java! Αυτός ο περιεκτικός οδηγός καλύπτει τα πάντα, από τη βασική δημιουργία έως την προηγμένη χειραγώγηση.
 

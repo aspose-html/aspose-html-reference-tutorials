@@ -58,6 +58,8 @@ Pelajari cara memuat dokumen HTML dari aliran menggunakan Aspose.HTML untuk Java
 Pelajari cara membuat dokumen HTML dari string di Aspose.HTML untuk Java dengan panduan langkah demi langkah ini.
 ### [Buat Dokumen HTML dengan Java – Ambil JSON dan Hasilkan Konten](./create-html-document-with-java-fetch-json-and-generate-conte/)
 Pelajari cara mengambil data JSON dan menghasilkan konten HTML secara dinamis menggunakan Aspose.HTML untuk Java dalam panduan langkah demi langkah.
+### [Buat HTML dari Markdown di Java – Panduan Lengkap Langkah‑per‑Langkah](./create-html-from-markdown-in-java-full-step-by-step-guide/)
+Pelajari cara mengonversi file Markdown menjadi dokumen HTML di Java menggunakan Aspose.HTML dengan panduan langkah demi langkah yang mudah diikuti.
 ### [Memuat Dokumen HTML dari URL di Aspose.HTML untuk Java](./load-html-documents-from-url/)
 Temukan cara mudah memuat dokumen HTML dari URL di Java dengan Aspose.HTML. Tutorial langkah demi langkah disertakan.
 ### [Memuat Dokumen HTML Java – Panduan Lengkap dengan XPath & CSS](./load-html-document-java-complete-guide-with-xpath-css/)
@@ -109,6 +111,7 @@ Pelajari cara mengekstrak teks dari dokumen HTML menggunakan Aspose.HTML untuk J
 Pelajari cara menggunakan XPath di Java untuk membaca HTML dan mengekstrak teks dengan mudah.
 ### [Cara Menanyakan HTML di Java – Ekstrak URL Gambar](./how-to-query-html-in-java-extract-image-urls/)
 ### [Cara Mengurai HTML di Java – Ekstrak Teks dari Artikel HTML](./how-to-parse-html-in-java-extract-text-from-html-articles/)
+### [javascript settimeout async: Jalankan JavaScript di Java dan Perbarui HTML](./javascript-settimeout-async-run-javascript-in-java-and-updat/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

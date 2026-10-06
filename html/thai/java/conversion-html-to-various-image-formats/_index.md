@@ -144,6 +144,10 @@ weight: 24
 เรียนรู้วิธีแปลงไฟล์ SVG เป็นรูปแบบ WebP ใน Java ด้วย Aspose.HTML คู่มือขั้นตอนเต็มสำหรับการแปลงที่รวดเร็วและมีคุณภาพ
 
 ### [ตั้งค่าอัตราพิกเซลของอุปกรณ์ใน Java – คู่มือ Java ฉบับสมบูรณ์](./set-device-pixel-ratio-in-java-complete-guide/)
+### [วิธีเรนเดอร์ HTML เป็น PNG – คู่มือ Java ฉบับสมบูรณ์](./how-to-render-html-to-png-complete-java-guide/)
+เรียนรู้วิธีการเรนเดอร์ HTML เป็น PNG ใน Java ด้วย Aspose.HTML คู่มือขั้นตอนเต็มที่ช่วยให้คุณสร้างภาพ PNG คุณภาพสูงได้ง่าย
+### [เรนเดอร์ HTML ด้วย Java: แปลงหน้ายาวเป็น PNG](./render-html-java-convert-long-page-to-png/)
+เรียนรู้วิธีแปลงหน้า HTML ยาวเป็นไฟล์ PNG ด้วย Aspose.HTML for Java อย่างมีประสิทธิภาพและง่ายดาย
 
 ## คำถามที่พบบ่อย
 

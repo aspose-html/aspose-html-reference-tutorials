@@ -109,6 +109,10 @@ Aspose.HTML สำหรับ Java นำเสนอชุดเครื่�
 ### [วิธีแยกวิเคราะห์ HTML ใน Java – ดึงข้อความจากบทความ HTML](./how-to-parse-html-in-java-extract-text-from-html-articles/)
 เรียนรู้วิธีแยกวิเคราะห์ HTML ใน Java เพื่อดึงข้อความจากบทความ HTML อย่างละเอียดด้วย Aspose.HTML
 
+### [javascript settimeout async: รัน JavaScript ใน Java และอัปเดต HTML](./javascript-settimeout-async-run-javascript-in-java-and-updat/)
+เรียนรู้วิธีใช้ setTimeout แบบอะซิงโครนัสเพื่อรัน JavaScript ใน Java และอัปเดตเนื้อหา HTML อย่างมีประสิทธิภาพ
+### [สร้าง HTML จาก Markdown ใน Java – คู่มือเต็มขั้นตอนแบบทีละขั้นตอน](./create-html-from-markdown-in-java-full-step-by-step-guide/)
+เรียนรู้วิธีแปลงไฟล์ Markdown เป็นเอกสาร HTML ใน Java ด้วย Aspose.HTML ผ่านขั้นตอนละเอียดครบถ้วน
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

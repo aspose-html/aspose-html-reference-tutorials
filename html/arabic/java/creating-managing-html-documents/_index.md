@@ -68,6 +68,8 @@ url: /ar/java/creating-managing-html-documents/
 تعلم كيفية التعامل مع أحداث تحميل المستندات في Aspose.HTML for Java باستخدام هذا الدليل خطوة بخطوة. قم بتحسين تطبيقات الويب الخاصة بك.
 ### [إنشاء وإدارة مستندات SVG في Aspose.HTML لـ Java](./create-manage-svg-documents/)
 تعلم كيفية إنشاء مستندات SVG وإدارتها باستخدام Aspose.HTML لـ Java! يغطي هذا الدليل الشامل كل شيء بدءًا من الإنشاء الأساسي وحتى المعالجة المتقدمة.
+### [إنشاء HTML من Markdown في Java – دليل خطوة بخطوة كامل](./create-html-from-markdown-in-java-full-step-by-step-guide/)
+تعلم كيفية تحويل ملفات Markdown إلى مستندات HTML في Java باستخدام Aspose.HTML من خلال دليل شامل خطوة بخطوة.
 ### [إنشاء بيئة تجريبية لـ HTML في Java – دليل خطوة بخطوة](./create-sandbox-for-html-in-java-step-by-step-guide/)
 تعلم كيفية إنشاء بيئة تجريبية لمعالجة HTML في Java باستخدام Aspose.HTML من خلال دليل خطوة بخطوة.
 ### [كيفية الاستعلام عن HTML في Java – دليل كامل](./how-to-query-html-in-java-complete-tutorial/)
@@ -114,6 +116,8 @@ url: /ar/java/creating-managing-html-documents/
 تعلم كيفية استخراج عناوين صور HTML باستخدام Aspose.HTML for Java عبر دليل خطوة بخطوة.
 ### [كيفية تحليل HTML في Java – استخراج النص من مقالات HTML](./how-to-parse-html-in-java-extract-text-from-html-articles/)
 تعلم كيفية استخراج النص من مقالات HTML باستخدام Aspose.HTML for Java عبر دليل خطوة بخطوة.
+### [javascript settimeout async: تشغيل JavaScript في Java وتحديث HTML](./javascript-settimeout-async-run-javascript-in-java-and-updat/)
+تعلم كيفية تشغيل كود JavaScript باستخدام setTimeout داخل تطبيق Java وتحديث محتوى HTML بشكل غير متزامن.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

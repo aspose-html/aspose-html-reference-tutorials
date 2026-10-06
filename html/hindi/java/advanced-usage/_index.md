@@ -149,6 +149,8 @@ Aspose.HTML में JavaScript को सुरक्षित रूप स�
 Java एप्लिकेशन में JavaScript को एम्बेड और चलाने के चरण‑दर‑चरण निर्देश, Aspose.HTML के साथ पूर्ण गाइड।
 ### [JavaScript से Java को कॉल करें – असिंक्रोनस फ़ेच और JS इंजन निष्पादन की पूर्ण गाइड](./call-java-from-javascript-complete-guide-to-async-fetch-js-e/)
 JavaScript से Java मेथड कॉल करना, असिंक्रोनस फ़ेच उपयोग करना और JS इंजन में निष्पादन के चरण‑दर‑चरण निर्देश।  
+### [Java में Aspose HTML का उपयोग कैसे करें – पूर्ण XPath फ़िल्टरिंग गाइड](./how-to-use-aspose-html-in-java-full-xpath-filtering-guide/)
+Java में Aspose HTML का उपयोग करके पूर्ण XPath फ़िल्टरिंग कैसे लागू करें, इस गाइड में सीखें।  
 
 ---
 

@@ -147,6 +147,8 @@ Aspose.HTML позволяет прикрепить `DomMutationObserver` к л�
 ### [Как включить JavaScript в Java – Полное руководство](./how-to-enable-javascript-in-java-complete-aspose-html-guide/)
 Узнайте, как включить выполнение JavaScript в Java‑приложениях с помощью Aspose.HTML.
 ### [Вызов Java из JavaScript – Полное руководство по асинхронному fetch и выполнению кода в JS‑движке](./call-java-from-javascript-complete-guide-to-async-fetch-js-e/)
+### [Как использовать Aspose HTML в Java – Полное руководство по фильтрации XPath](./how-to-use-aspose-html-in-java-full-xpath-filtering-guide/)
+Узнайте, как применять XPath‑фильтры в Aspose HTML for Java для точного выбора элементов при обработке HTML.
 
 ---
 

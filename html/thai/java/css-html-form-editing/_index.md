@@ -75,6 +75,8 @@ url: /th/java/css-html-form-editing/
 
 ### [วิธีอ่าน CSS ใน Java – คู่มือทีละขั้นตอน](./how-to-read-css-in-java-step-by-step-guide/)
 เรียนรู้วิธีอ่านไฟล์ CSS ใน Java อย่างละเอียดด้วยขั้นตอนที่ชัดเจนในคู่มือนี้
+### [การดึงองค์ประกอบโดย id ใน Java – คู่มือฉบับสมบูรณ์เกี่ยวกับสไตล์ที่คำนวณได้](./get-element-by-id-java-complete-guide-to-computed-styles/)
+เรียนรู้วิธีดึงองค์ประกอบ HTML ตาม id ใน Java พร้อมทำความเข้าใจสไตล์ที่คำนวณได้อย่างละเอียด
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -172,6 +172,10 @@ Aprende a convertir múltiples archivos HTML a PDF simultáneamente usando Java 
 Aprende a generar documentos DOCX desde HTML usando Aspose.HTML para Java, con ejemplos paso a paso.
 ### [Establecer la relación de píxeles del dispositivo en Java – Convertir HTML a móvil](./set-device-pixel-ratio-in-java-convert-html-to-mobile/)
 Aprende a ajustar la relación de píxeles del dispositivo para generar PDFs móviles precisos al convertir HTML con Aspose.HTML para Java.
+### [Conversión de HTML a PDF en Java – Guía PDF/A‑2b](./java-html-to-pdf-pdf-a-2b-conversion-guide/)
+Aprende a generar PDFs compatibles con PDF/A‑2b desde HTML usando Aspose.HTML para Java, garantizando archivado a largo plazo.
+### [Conversión de HTML a PDF – Guía completa para la conversión por lotes de archivos con Aspose.HTML](./html-to-pdf-conversion-complete-guide-to-batch-convert-files/)
+Aprende a convertir múltiples archivos HTML a PDF de forma masiva usando Aspose.HTML en Java, con ejemplos paso a paso.
 
 ## Preguntas Frecuentes
 

@@ -142,6 +142,10 @@ Szybki przewodnik, jak w jednej linii kodu wygenerować PDF z HTML przy użyciu 
 Dowiedz się, jak ustawić Device Pixel Ratio w Aspose.HTML for Java, aby generować wersje mobilne stron HTML.
 ### [Konwertowanie HTML do PDF w Javie – Przykład jednolinijkowego kodu](./convert-html-to-pdf-in-java-one-line-code-example/)
 Zobacz, jak w jednej linii kodu przekształcić HTML w PDF przy użyciu Aspose.HTML for Java.
+### [Java HTML do PDF – przewodnik konwersji PDF/A‑2b](./java-html-to-pdf-pdf-a-2b-conversion-guide/)
+Dowiedz się, jak konwertować HTML do PDF w formacie PDF/A‑2b w Javie, spełniając wymogi archiwizacji.
+### [Konwersja HTML do PDF – Kompletny przewodnik po konwersji wsadowej plików z Aspose.HTML](./html-to-pdf-conversion-complete-guide-to-batch-convert-files/)
+Dowiedz się, jak wsadowo konwertować wiele plików HTML do PDF w Javie przy użyciu Aspose.HTML.
 
 ### [Jak używać Aspose – wsadowa konwersja HTML do PDF w Javie](./how-to-use-aspose-batch-convert-html-to-pdf-in-java/)
 Dowiedz się, jak przetwarzać wiele plików HTML jednocześnie i generować PDF w Javie przy użyciu Aspose.HTML.

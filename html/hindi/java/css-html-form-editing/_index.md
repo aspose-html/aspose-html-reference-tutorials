@@ -74,6 +74,8 @@ Java में Aspose.HTML का उपयोग करके HTML तत्व
 Java में getComputedStyle का उपयोग करके बैकग्राउंड रंग और अन्य CSS प्रॉपर्टीज़ को प्राप्त करने की विधि सीखें।
 ### [Java में CSS कैसे प्राप्त करें – querySelector और Computed Style का उपयोग](./how-to-get-css-in-java-using-queryselector-and-computed-styl/)
 Java में querySelector और Computed Style का उपयोग करके CSS मान प्राप्त करने की प्रक्रिया सीखें।
+### [Java में ID द्वारा एलिमेंट प्राप्त करें – कम्प्यूटेड स्टाइल्स का पूर्ण गाइड](./get-element-by-id-java-complete-guide-to-computed-styles/)
+Java में Aspose.HTML का उपयोग करके ID द्वारा एलिमेंट चुनें और उसके कम्प्यूटेड स्टाइल्स को समझें। विस्तृत चरण-दर-चरण गाइड।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

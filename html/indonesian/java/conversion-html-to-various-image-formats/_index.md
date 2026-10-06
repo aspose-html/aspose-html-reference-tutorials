@@ -104,6 +104,9 @@ Panduan lengkap untuk mengonversi banyak file HTML menjadi PNG secara batch meng
 Pelajari cara mudah mengkonversi HTML ke TIFF menggunakan Aspose.HTML untuk Java. Panduan langkah demi langkah untuk penanganan dokumen yang efisien.
 ### [Mengonversi HTML ke WebP – Panduan Lengkap Java dengan Aspose.HTML](./convert-html-to-webp-complete-java-guide/)
 ### [Buat Banner HTML dan Render ke PNG – Panduan Lengkap Java](./create-html-banner-and-render-to-png-full-java-guide/)
+### [Cara Merender HTML ke PNG – Panduan Lengkap Java](./how-to-render-html-to-png-complete-java-guide/)
+Panduan lengkap cara merender HTML menjadi gambar PNG menggunakan Aspose.HTML untuk Java, dengan contoh kode langkah demi langkah.
+### [Render HTML Java: Mengonversi Halaman Panjang ke PNG](./render-html-java-convert-long-page-to-png/)
 
 ### [Mengonversi HTML ke WebP – Panduan Lengkap Java dengan Aspose.HTML](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
 ### [Cara merender HTML ke PNG di Java – Pandaan Lengkap](./how-to-render-html-to-png-in-java-complete-guide/)

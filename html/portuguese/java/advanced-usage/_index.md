@@ -163,6 +163,9 @@ Aprenda a habilitar a execução de JavaScript em aplicações Java usando Aspos
 ### [Chamar Java a partir de JavaScript – Guia Completo de Fetch Assíncrono e Execução do Motor JS](./call-java-from-javascript-complete-guide-to-async-fetch-js-e/)
 Aprenda a invocar código Java a partir de JavaScript, executar chamadas assíncronas e utilizar o motor JavaScript integrado ao Aspose.HTML.
 
+### [Como usar Aspose HTML em Java – Guia completo de filtragem XPath](./how-to-use-aspose-html-in-java-full-xpath-filtering-guide/)
+Aprenda a usar filtros XPath avançados com Aspose.HTML for Java para selecionar e manipular elementos HTML de forma precisa.
+
 ---
 
 **Última atualização:** 2025-11-29  

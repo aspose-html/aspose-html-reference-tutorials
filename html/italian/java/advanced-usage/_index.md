@@ -131,6 +131,7 @@ R: No. Una singola licenza di Aspose.HTML for Java copre tutti i formati di outp
 ### [Come eseguire JavaScript in sandbox – Guida completa Aspose.HTML](./how-to-sandbox-javascript-complete-aspose-html-guide/)
 ### [Come abilitare JavaScript in Java – Guida completa](./how-to-enable-javascript-in-java-complete-aspose-html-guide/)
 ### [Chiamare Java da JavaScript – Guida completa a Async Fetch e all'esecuzione del motore JS](./call-java-from-javascript-complete-guide-to-async-fetch-js-e/)
+### [Come utilizzare Aspose HTML in Java – Guida completa al filtraggio XPath](./how-to-use-aspose-html-in-java-full-xpath-filtering-guide/)
 
 ---
 

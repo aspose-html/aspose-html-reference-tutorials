@@ -145,6 +145,7 @@ Ismerje meg, hogyan futtathat biztonságosan JavaScript kódot egy elszigetelt k
 ### [JavaScript engedélyezése Java-ban – Teljes Aspose.HTML útmutató](./how-to-enable-javascript-in-java-complete-aspose-html-guide/)
 Ismerje meg, hogyan engedélyezheti a JavaScript futtatását Java alkalmazásokban az Aspose.HTML segítségével.
 ### [Java hívása JavaScript‑ből – Teljes útmutató az aszinkron fetch és a JS motor végrehajtásához](./call-java-from-javascript-complete-guide-to-async-fetch-js-e/)
+### [Hogyan használjuk az Aspose HTML-t Java‑ban – Teljes XPath szűrési útmutató](./how-to-use-aspose-html-in-java-full-xpath-filtering-guide/)
 
 ---
 

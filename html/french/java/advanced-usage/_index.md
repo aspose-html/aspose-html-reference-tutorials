@@ -152,6 +152,8 @@ Apprenez à exécuter du JavaScript depuis Java, récupérer des données et aut
 Apprenez à exécuter du JavaScript en toute sécurité dans un environnement isolé avec Aspose.HTML, grâce à ce guide complet.  
 ### [Comment activer JavaScript en Java – Guide complet Aspose.HTML](./how-to-enable-javascript-in-java-complete-aspose-html-guide/)
 Apprenez à activer et exécuter du JavaScript depuis Java avec Aspose.HTML, incluant des exemples détaillés et les meilleures pratiques.  
+### [Comment utiliser Aspose HTML en Java – Guide complet du filtrage XPath](./how-to-use-aspose-html-in-java-full-xpath-filtering-guide/)
+Apprenez à appliquer des filtres XPath avancés avec Aspose.HTML for Java pour extraire précisément le contenu HTML.  
 
 ---
 

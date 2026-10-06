@@ -147,6 +147,8 @@ Dowiedz się, jak bezpiecznie uruchamiać i izolować kod JavaScript w aplikacja
 Poznaj, jak włączyć i uruchomić kod JavaScript w aplikacji Java przy użyciu Aspose.HTML, krok po kroku od konfiguracji po wykonanie.
 ### [Wywoływanie Javy z JavaScript – Kompletny przewodnik po asynchronicznym fetch i wykonaniu silnika JS](./call-java-from-javascript-complete-guide-to-async-fetch-js-e/)
 Dowiedz się, jak wywoływać kod Javy z JavaScript przy użyciu Aspose.HTML, obsługiwać asynchroniczne żądania fetch i kontrolować silnik JS.
+### [Jak używać Aspose HTML w Javie – Pełny przewodnik filtrowania XPath](./how-to-use-aspose-html-in-java-full-xpath-filtering-guide/)
+Poznaj, jak stosować pełne wyrażenia XPath w Aspose HTML dla Javy, aby precyzyjnie wybierać i przetwarzać elementy HTML.
 
 ---
 

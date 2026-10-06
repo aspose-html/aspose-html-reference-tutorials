@@ -149,6 +149,8 @@ Naučte se načíst HTML, nastavit DPI zařízení a získat barvu pozadí pomoc
 Naučte se, jak povolit JavaScript v Javě pomocí Aspose.HTML, včetně nastavení a praktických ukázek.
 ### [Volání Javy z JavaScriptu – Kompletní průvodce asynchronním fetch a vykonáváním JS enginu](./call-java-from-javascript-complete-guide-to-async-fetch-js-e/)
 Naučte se volat Java metody z JavaScriptu, používat asynchronní fetch a spravovat vykonávání skriptů v JS enginu pomocí Aspose.HTML pro Java.
+### [Jak používat Aspose HTML v Javě – Kompletní průvodce filtrováním pomocí XPath](./how-to-use-aspose-html-in-java-full-xpath-filtering-guide/)
+Naučte se, jak pomocí Aspose.HTML v Javě aplikovat kompletní filtrování XML/HTML pomocí XPath výrazů.
 
 ---
 

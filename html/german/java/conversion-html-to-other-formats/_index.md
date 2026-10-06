@@ -195,6 +195,12 @@ Erfahren Sie, wie Sie HTML in Java mit Aspose.HTML in DOCX konvertieren und hoch
 ### [PDF aus HTML in Java erstellen – Einzeilige Aspose‑Anleitung](./create-pdf-from-html-in-java-one-line-aspose-guide/)
 Erstellen Sie ein PDF aus HTML in Java mit nur einer Zeile Code mithilfe von Aspose.HTML.
 
+### [Java HTML zu PDF – PDF/A‑2b‑Konvertierungsleitfaden](./java-html-to-pdf-pdf-a-2b-conversion-guide/)
+Erfahren Sie, wie Sie mit Aspose.HTML für Java HTML in das PDF/A‑2b‑Format konvertieren, um archivierungsfähige PDFs zu erzeugen.
+
+### [HTML-zu-PDF-Konvertierung – Vollständiger Leitfaden zur Batch-Konvertierung von Dateien mit Aspose.HTML](./html-to-pdf-conversion-complete-guide-to-batch-convert-files/)
+Erfahren Sie, wie Sie mit Aspose.HTML mehrere HTML‑Dateien stapelweise in PDFs konvertieren.
+
 ## Häufig gestellte Fragen
 
 **Q: Kann ich Aspose.HTML für Java in einer kommerziellen Anwendung verwenden?**  

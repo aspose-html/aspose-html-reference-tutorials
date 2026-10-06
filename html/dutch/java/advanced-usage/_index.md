@@ -147,6 +147,7 @@ Leer hoe je JavaScript veilig kunt uitvoeren in een sandbox-omgeving met Aspose.
 Leer hoe je JavaScript in Java kunt inschakelen met Aspose.HTML, inclusief configuratie en voorbeelden.
 ### [Java aanroepen vanuit JavaScript – Complete gids voor async fetch & JS‑engine uitvoering](./call-java-from-javascript-complete-guide-to-async-fetch-js-e/)
 Leer hoe je Java vanuit JavaScript kunt aanroepen, async fetch gebruikt en de JS‑engine uitvoert met Aspose.HTML for Java.
+### [Hoe Aspose HTML in Java te gebruiken – volledige XPath-filtergids](./how-to-use-aspose-html-in-java-full-xpath-filtering-guide/)
 
 ---
 

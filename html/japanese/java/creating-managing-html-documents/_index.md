@@ -110,6 +110,9 @@ Aspose.HTML for Java を使用して、NodeList を反復処理する方法を�
 Aspose.HTML for Java を使用して、HTML からテキストを抽出する方法を詳細に解説します。ステップバイステップのガイドで初心者も安心です。
 ### [Java で XPath を使用する方法 – HTML を読み取りテキストを抽出する](./how-to-use-xpath-in-java-read-html-and-extract-text/)
 Aspose.HTML for Java を活用し、XPath を使って HTML からテキストを抽出する手順をステップバイステップで解説します。
+### [Java で Markdown から HTML を作成する – 完全ステップバイステップガイド](./create-html-from-markdown-in-java-full-step-by-step-guide/)
+Java アプリケーションで Markdown テキストを HTML に変換し、動的コンテンツを生成する手順を解説します。
+### [javascript settimeout async: Java で JavaScript を実行し HTML を更新する](./javascript-settimeout-async-run-javascript-in-java-and-updat/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

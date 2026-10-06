@@ -127,6 +127,10 @@ Tanulja meg, hogyan konvertálhat HTML‑t WebP‑be Java‑ban az Aspose.HTML s
 Ismerje meg, hogyan állíthatja be az eszköz pixelarányát Java‑ban az Aspose.HTML segítségével a pontos képrendereléshez.
 ### [HTML banner létrehozása és PNG-re renderelése – Teljes Java útmutató](./create-html-banner-and-render-to-png-full-java-guide/)
 Ismerje meg, hogyan hozhat létre HTML bannert, majd renderelheti PNG képként Java‑ban az Aspose.HTML segítségével.
+### [HTML renderelése PNG-be – Teljes Java útmutató](./how-to-render-html-to-png-complete-java-guide/)
+Ismerje meg, hogyan renderelhet HTML‑t PNG‑be Java‑ban az Aspose.HTML segítségével. Részletes, lépésről‑lépésre útmutató a PNG konverzióhoz.
+### [HTML renderelése Java‑ban: Hosszú oldal konvertálása PNG‑be](./render-html-java-convert-long-page-to-png/)
+Ismerje meg, hogyan renderelhet hosszú HTML oldalakat PNG képként Java‑ban az Aspose.HTML segítségével, részletes lépésekkel.
 
 ### [HTML renderelése PNG-be – Teljes útmutató Java fejlesztőknek](./how-to-render-html-to-png-complete-guide-for-java-developers/)
 Ismerje meg, hogyan renderelhet HTML-t PNG képpé Java‑ban az Aspose.HTML segítségével, részletes, lépésről‑lépésre útmutatóval.

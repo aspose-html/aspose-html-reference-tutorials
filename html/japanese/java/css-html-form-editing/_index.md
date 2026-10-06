@@ -78,6 +78,8 @@ Java で Aspose.HTML を使用し、HTML 要素の計算済みスタイルから
 ### [JavaでCSSを取得する方法 – querySelector と Computed Style を使用](./how-to-get-css-in-java-using-queryselector-and-computed-styl/)
 querySelector と Computed Style を活用し、Java で要素の CSS プロパティを取得する手順を解説します。
 
+### [JavaでIDによる要素取得 – 計算スタイルの完全ガイド](./get-element-by-id-java-complete-guide-to-computed-styles/)
+Javaコードで要素のIDを取得し、計算されたスタイル情報を取得する方法をステップバイステップで解説します。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

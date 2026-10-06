@@ -74,6 +74,8 @@ Lär dig hur du extraherar CSS‑stilar från HTML‑dokument i Java med Aspose.
 Lär dig hur du läser CSS-filer i Java steg för steg med Aspose.HTML.
 ### [Hämta CSS i Java – med querySelector och beräknad stil](./how-to-get-css-in-java-using-queryselector-and-computed-styl/)
 Lär dig hur du med querySelector och beräknad stil extraherar CSS‑värden i Java med Aspose.HTML.
+### [Hämta element efter ID i Java – Komplett guide till beräknade stilar](./get-element-by-id-java-complete-guide-to-computed-styles/)
+Lär dig hur du programatiskt hämtar ett element med dess ID och får tillgång till beräknade CSS‑stilar i Aspose.HTML för Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

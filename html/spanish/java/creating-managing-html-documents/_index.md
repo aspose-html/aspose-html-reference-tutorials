@@ -56,6 +56,8 @@ Aprenda a cargar, manipular y guardar documentos HTML con Aspose.HTML para Java 
 Aprenda a cargar documentos HTML desde secuencias de comandos con Aspose.HTML para Java. Esta guía ofrece un tutorial paso a paso para manipular HTML sin problemas.
 ### [Crear documentos HTML a partir de cadenas en Aspose.HTML para Java](./create-html-documents-from-string/)
 Aprenda a crear documentos HTML a partir de cadenas en Aspose.HTML para Java con esta guía paso a paso.
+### [Crear HTML a partir de Markdown en Java – Guía completa paso a paso](./create-html-from-markdown-in-java-full-step-by-step-guide/)
+Aprenda a convertir documentos Markdown a HTML en Java usando Aspose.HTML con esta guía paso a paso.
 ### [Cargar documentos HTML desde una URL en Aspose.HTML para Java](./load-html-documents-from-url/)
 Descubra cómo cargar fácilmente documentos HTML desde una URL en Java con Aspose.HTML. Incluye tutorial paso a paso.
 ### [Cómo consultar HTML en Java – Tutorial completo](./how-to-query-html-in-java-complete-tutorial/)
@@ -116,6 +118,8 @@ Aprenda a extraer texto de documentos HTML en Java con Aspose.HTML mediante esta
 ### [Iterar sobre NodeList Java – Guía completa](./iterate-over-nodelist-java-complete-guide/)
 Aprenda a iterar sobre NodeList en Java con Aspose.HTML mediante esta guía paso a paso completa.
 
+### [javascript setTimeout async: Ejecutar JavaScript en Java y actualizar HTML](./javascript-settimeout-async-run-javascript-in-java-and-updat/)
+Aprenda a ejecutar código JavaScript asincrónico desde Java y actualizar el HTML dinámicamente.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

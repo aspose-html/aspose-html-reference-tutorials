@@ -113,6 +113,11 @@ Dowiedz się, jak ustawić DPI podczas konwersji SVG do PNG w Javie przy użyciu
 Dowiedz się, jak przyspieszyć konwersję wielu plików HTML do PNG przy użyciu ExecutorService w Javie.
 ### [Jak ustawić DPI przy konwertowaniu HTML do PNG](./how-to-set-dpi-when-converting-html-to-png/)
 Dowiedz się, jak ustawić DPI podczas konwersji HTML do PNG przy użyciu Aspose.HTML for Java.
+### [Renderowanie HTML do PNG – Kompletny przewodnik Java](./how-to-render-html-to-png-complete-java-guide/)
+Dowiedz się, jak renderować HTML do PNG w Javie przy użyciu Aspose.HTML. Kompletny przewodnik krok po kroku.
+
+### [Renderowanie HTML w Javie: konwersja długiej strony do PNG](./render-html-java-convert-long-page-to-png/)
+Dowiedz się, jak przy użyciu Aspose.HTML w Javie konwertować długie strony HTML na obrazy PNG.
 
 ### [Converting HTML to TIFF](./convert-html-to-tiff/)
 Dowiedz się, jak łatwo konwertować HTML do TIFF przy użyciu Aspose.HTML for Java. Przewodnik krok po kroku dla efektywnego zarządzania dokumentami.

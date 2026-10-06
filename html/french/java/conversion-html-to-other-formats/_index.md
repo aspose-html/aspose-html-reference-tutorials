@@ -214,6 +214,12 @@ Apprenez à ajuster le Device Pixel Ratio lors de la conversion HTML en PDF mobi
 
 ### [Créer un PDF à partir de HTML en Java – Guide Aspose en une ligne](./create-pdf-from-html-in-java-one-line-aspose-guide/)
 
+### [Java HTML vers PDF – Guide de conversion PDF/A‑2b](./java-html-to-pdf-pdf-a-2b-conversion-guide/)
+Apprenez à convertir du HTML en PDF/A‑2b en Java avec Aspose.HTML, garantissant la conformité archivistique des documents.
+
+### [Conversion HTML vers PDF – Guide complet pour la conversion par lots de fichiers avec Aspose.HTML](./html-to-pdf-conversion-complete-guide-to-batch-convert-files/)
+Apprenez à convertir plusieurs fichiers HTML en PDF en une seule opération avec Aspose.HTML, optimisé pour le traitement par lots.
+
 ## Foire aux questions
 
 **Q : Puis-je utiliser Aspose.HTML for Java dans une application commerciale ?**  

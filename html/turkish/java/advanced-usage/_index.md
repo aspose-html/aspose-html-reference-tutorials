@@ -148,6 +148,8 @@ Aspose.HTML for Java kullanarak JavaScript kodunu güvenli bir sandbox ortamınd
 Aspose.HTML for Java kullanarak Java içinde JavaScript’i nasıl etkinleştireceğinizi ve tam entegrasyonu öğrenin.
 ### [JavaScript'ten Java'ya Çağrı – Asenkron Fetch ve JS Motoru Çalıştırma Tam Kılavuzu](./call-java-from-javascript-complete-guide-to-async-fetch-js-e/)
 JavaScript içinde Java metodlarını asenkron fetch ile çağırmayı ve JS motoru üzerinden yürütmeyi adım adım öğrenin.
+### [Aspose HTML'i Java'da Kullanma – Tam XPath Filtreleme Rehberi](./how-to-use-aspose-html-in-java-full-xpath-filtering-guide/)
+Aspose.HTML for Java ile tam XPath filtreleme yaparak belge öğelerini seçmeyi ve işlemeyi öğrenin.
 
 ---
 

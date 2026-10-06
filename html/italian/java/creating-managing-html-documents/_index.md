@@ -113,6 +113,10 @@ Scopri come utilizzare XPath in Java con Aspose.HTML per leggere documenti HTML 
 Scopri come estrarre gli URL delle immagini da documenti HTML in Java con Aspose.HTML, passo dopo passo.
 ### [Come analizzare HTML in Java – Estrarre testo da articoli HTML](./how-to-parse-html-in-java-extract-text-from-html-articles/)
 Scopri come estrarre il testo da articoli HTML in Java con Aspose.HTML, guida passo passo per analizzare e ottenere contenuti testuali.
+### [javascript settimeout async: Esegui JavaScript in Java e aggiorna HTML](./javascript-settimeout-async-run-javascript-in-java-and-updat/)
+Scopri come eseguire script JavaScript asincroni con setTimeout in Java e aggiornare dinamicamente il contenuto HTML.
+### [Crea HTML da Markdown in Java – Guida completa passo‑a‑passo](./create-html-from-markdown-in-java-full-step-by-step-guide/)
+Impara a convertire file Markdown in documenti HTML usando Aspose.HTML per Java con questa guida dettagliata passo dopo passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

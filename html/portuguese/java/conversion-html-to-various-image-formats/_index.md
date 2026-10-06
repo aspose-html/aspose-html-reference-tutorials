@@ -93,6 +93,10 @@ Aprenda a gerar miniaturas de páginas HTML em Java usando Aspose.HTML. Guia pas
 Aprenda a definir o DPI ao converter HTML em PNG usando Aspose.HTML for Java, garantindo qualidade de impressão adequada.
 ### [Criar Banner HTML e Renderizar para PNG – Guia Completo em Java](./create-html-banner-and-render-to-png-full-java-guide/)
 Aprenda a criar um banner HTML e convertê‑lo em PNG usando Aspose.HTML for Java com exemplos passo a passo.
+### [Renderizar HTML Java: Converter Página Longa para PNG](./render-html-java-convert-long-page-to-png/)
+Aprenda a renderizar páginas HTML extensas em PNG usando Aspose.HTML for Java, mantendo qualidade e desempenho.
+### [Como Renderizar HTML para PNG – Guia Completo em Java](./how-to-render-html-to-png-complete-java-guide/)
+Aprenda a renderizar HTML para PNG em Java usando Aspose.HTML. Guia passo a passo completo para gerar imagens PNG de alta qualidade.
 ### [Convertendo HTML para TIFF](./convert-html-to-tiff/)
 Aprenda a converter HTML para TIFF usando Aspose.HTML for Java de forma fácil. Guia passo a passo para manipulação eficiente de documentos.
 

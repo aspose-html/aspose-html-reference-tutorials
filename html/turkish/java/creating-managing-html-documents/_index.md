@@ -118,6 +118,10 @@ Java için Aspose.HTML kullanarak XPath ile HTML'den metin nasıl çıkarılaca�
 Java için Aspose.HTML ile HTML içeriğinden resim URL'lerini nasıl çıkaracağınızı adım adım öğrenin.
 ### [Java için Aspose.HTML'de HTML Ayrıştırma – HTML Makalelerinden Metin Çıkarma](./how-to-parse-html-in-java-extract-text-from-html-articles/)
 Aspose.HTML for Java kullanarak HTML makalelerinden metin çıkarma ve ayrıştırma adımlarını öğrenin.
+### [javascript settimeout async: Java içinde JavaScript çalıştırma ve HTML'yi Güncelleme](./javascript-settimeout-async-run-javascript-in-java-and-updat/)
+Java içinde setTimeout kullanarak asenkron JavaScript çalıştırın ve HTML içeriğini güncelleyin.
+### [Java için Aspose.HTML'de Markdown'tan HTML Oluşturma – Tam Adım‑Adım Kılavuz](./create-html-from-markdown-in-java-full-step-by-step-guide/)
+Java için Aspose.HTML kullanarak Markdown içeriğini tam adım adım HTML'e dönüştürmeyi öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

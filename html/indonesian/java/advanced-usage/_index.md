@@ -145,6 +145,9 @@ Pelajari cara mengaktifkan eksekusi JavaScript dalam aplikasi Java menggunakan A
 
 ### [Panggil Java dari JavaScript – Panduan Lengkap untuk Async Fetch & Eksekusi Mesin JS](./call-java-from-javascript-complete-guide-to-async-fetch-js-e/)
 
+### [Cara Menggunakan Aspose HTML di Java – Panduan Penyaringan XPath Lengkap](./how-to-use-aspose-html-in-java-full-xpath-filtering-guide/)
+Pelajari cara menerapkan filter XPath lengkap dengan Aspose HTML untuk Java dalam memproses dokumen HTML secara efisien.
+
 ---
 
 **Terakhir Diperbarui:** 2025-11-29  

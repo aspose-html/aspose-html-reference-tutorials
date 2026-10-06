@@ -101,6 +101,10 @@ Naučte se, jak pomocí XPath v Javě načíst HTML a extrahovat požadovaný te
 Naučte se, jak pomocí Aspose.HTML v Javě dotazovat HTML a získávat URL obrázků.
 ### [Jak parsovat HTML v Javě – Extrahovat text z HTML článků](./how-to-parse-html-in-java-extract-text-from-html-articles/)
 Naučte se pomocí Aspose.HTML v Javě parsovat HTML a extrahovat čistý text z článků pro další zpracování.
+### [Vytvořte HTML z Markdownu v Javě – Kompletní průvodce krok za krokem](./create-html-from-markdown-in-java-full-step-by-step-guide/)
+Naučte se převádět Markdown na HTML v Javě pomocí Aspose.HTML s podrobným návodem krok za krokem.
+### [JavaScript setTimeout async: Spusťte JavaScript v Javě a aktualizujte HTML](./javascript-settimeout-async-run-javascript-in-java-and-updat/)
+Naučte se spouštět JavaScript pomocí setTimeout asynchronně v Javě a dynamicky aktualizovat HTML obsah.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

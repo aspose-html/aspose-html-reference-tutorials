@@ -54,6 +54,8 @@ Aspose.HTML for Java 為旨在在 Java 應用程式中無縫處理 HTML 文件�
 了解如何使用 Aspose.HTML for Java 從流中載入 HTML 文件。本指南提供了無縫 HTML 操作的逐步教學。
 ### [在 Aspose.HTML for Java 中從字串建立 HTML 文檔](./create-html-documents-from-string/)
 透過此逐步指南，了解如何從 Aspose.HTML for Java 中的字串建立 HTML 文件。
+### [在 Java 中從 Markdown 建立 HTML – 完整逐步指南](./create-html-from-markdown-in-java-full-step-by-step-guide/)
+使用 Aspose.HTML for Java 從 Markdown 轉換為 HTML，提供完整的逐步教學，幫助您快速上手。
 ### [從 Aspose.HTML for Java 中的 URL 載入 HTML 文檔](./load-html-documents-from-url/)
 了解如何使用 Aspose.HTML 從 Java 中的 URL 輕鬆載入 HTML 文件。包括逐步教程。
 ### [使用 Aspose.HTML for Java 產生新的 HTML 文檔](./generate-new-html-documents/)
@@ -113,6 +115,8 @@ Aspose.HTML for Java 為旨在在 Java 應用程式中無縫處理 HTML 文件�
 了解如何使用 Aspose.HTML for Java 在 Java 中抽取 HTML 中的圖片 URL，提供逐步指南。
 ### [在 Java 中解析 HTML – 從 HTML 文章提取文字](./how-to-parse-html-in-java-extract-text-from-html-articles/)
 使用 Aspose.HTML for Java 解析 HTML，從文章中提取純文字內容的完整步驟與範例。
+### [JavaScript setTimeout 非同步：在 Java 中執行 JavaScript 並更新 HTML](./javascript-settimeout-async-run-javascript-in-java-and-updat/)
+說明如何在 Java 應用程式中使用 setTimeout 以非同步方式執行 JavaScript，並即時更新 HTML 內容。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

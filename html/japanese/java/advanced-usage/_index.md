@@ -113,6 +113,8 @@ A: いいえ。単一の Aspose.HTML for Java ライセンスで、PDF や XPS �
 Aspose.HTML for Java を使用して、HTML ドキュメントのページ余白、ページ番号、タイトルをカスタマイズする方法を学びます。
 ### [Aspose.HTML for Java を使用した DOM Mutation Observer を使用する](./dom-mutation-observer-observing-node-additions/)
 このステップバイステップガイドで、Aspose.HTML for Java を使用して DOM Mutation Observer を実装する方法を学びます。DOM の変更を効果的に監視・対応できます。
+### [Aspose HTML を Java で使用する方法 – 完全 XPath フィルタリングガイド](./how-to-use-aspose-html-in-java-full-xpath-filtering-guide/)
+Aspose.HTML for Java で XPath を活用し、HTML 要素を高度にフィルタリングする方法を学びます。
 ### [Aspose.HTML for Java を使用した HTML5 Canvas 操作（コード使用）](./html5-canvas-manipulation-using-code/)
 Aspose.HTML for Java を使用した HTML5 Canvas の操作方法を学びます。ステップバイステップのガイダンスでインタラクティブなグラフィックを作成します。
 ### [Aspose.HTML for Java を使用した HTML5 Canvas 操作（JavaScript 使用）](./html5-canvas-manipulation-using-javascript/)

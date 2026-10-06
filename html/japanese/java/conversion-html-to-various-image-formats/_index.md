@@ -110,6 +110,8 @@ Aspose.HTML for Java を使用して HTML を PNG にバッチ変換する方法
 Aspose.HTML for Java を使用して HTML からサムネイル画像を生成する方法を学びます。シンプルな手順で高品質なサムネイルを作成できます。
 ### [HTML を PNG に変換する際の DPI 設定方法](./how-to-set-dpi-when-converting-html-to-png/)
 Aspose.HTML for Java を使用して HTML を PNG に変換する際に DPI を設定する方法を解説します。高品質な画像出力のための手順を紹介します。
+### [HTML を PNG にレンダリング – 完全な Java ガイド](./how-to-render-html-to-png-complete-java-guide/)
+Aspose.HTML for Java を使用して HTML を PNG にレンダリングする完全な手順を紹介します。ステップバイステップで高品質画像を生成します。
 
 ### [HTML を TIFF に変換](./convert-html-to-tiff/)
 Aspose.HTML for Java を使用して HTML を TIFF に簡単に変換する方法を学びます。効率的なドキュメント処理のためのステップバイステップガイドです。
@@ -157,6 +159,8 @@ Aspose.HTML for Java を使用して SVG を WebP に変換します。完全な
 ### [Java でデバイス ピクセル比を設定する – 完全ガイド](./set-device-pixel-ratio-in-java-complete-guide/)
 ### [HTML を WebP に変換 – Aspose.HTML を使用した完全な Java ガイド](./convert-html-to-webp-complete-java-guide/)
 Aspose.HTML for Java を使用して HTML を WebP に変換します。完全な Java ガイドでステップバイステップの手順を紹介します。
+
+### [HTML をレンダリング（Java）: 長ページを PNG に変換](./render-html-java-convert-long-page-to-png/)
 
 ## よくある質問
 

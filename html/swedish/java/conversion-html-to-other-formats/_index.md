@@ -118,6 +118,9 @@ Lär dig hur du minskar PDF‑filstorlek med Aspose HTML till PDF i Java för ef
 Lär dig konvertera HTML till PDF i Java med detaljerade steg och anpassa sidstorlek för optimal utskrift.
 ### [Hur man konverterar en webbsida till PDF i Java – Steg‑för‑steg‑guide](./how-to-convert-webpage-to-pdf-in-java-step-by-step-guide/)
 Lär dig hur du konverterar en webbsida till PDF i Java med en tydlig steg‑för‑steg‑guide.
+### [Java HTML till PDF – PDF/A‑2b konverteringsguide](./java-html-to-pdf-pdf-a-2b-conversion-guide/)
+Lär dig hur du konverterar HTML till PDF/A‑2b i Java med Aspose.HTML för långsiktig arkivering och kompatibilitet.
+### [HTML till PDF-konvertering – Komplett guide för batchkonvertering av filer med Aspose.HTML](./html-to-pdf-conversion-complete-guide-to-batch-convert-files/)
 
 ### [Skapa PDF från HTML med anpassad sidstorlek och inbäddade teckensnitt](./create-pdf-from-html-with-custom-page-size-and-embedded-font/)
 Lär dig att skapa PDF‑filer med specifik sidstorlek och inbäddade teckensnitt från HTML i Java med Aspose.HTML.

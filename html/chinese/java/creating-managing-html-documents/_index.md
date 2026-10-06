@@ -123,6 +123,10 @@ Aspose.HTML for Java 为开发人员提供了功能强大的工具包，旨在�
 
 ### [在 Java 中使用 XPath – 读取 HTML 并提取文本](./how-to-use-xpath-in-java-read-html-and-extract-text/)
 本教程详细演示如何在 Java 中使用 XPath 读取 HTML 并提取所需文本，包含代码示例和步骤说明。
+### [javascript settimeout 异步：在 Java 中运行 JavaScript 并更新 HTML](./javascript-settimeout-async-run-javascript-in-java-and-updat/)
+学习如何在 Java 环境中使用 setTimeout 实现异步执行 JavaScript，并动态更新 HTML 内容。
+### [在 Java 中从 Markdown 创建 HTML – 完整分步指南](./create-html-from-markdown-in-java-full-step-by-step-guide/)
+通过本教程学习如何在 Java 中将 Markdown 转换为 HTML，提供完整的分步操作指南。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

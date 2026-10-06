@@ -102,6 +102,9 @@ weight: 24
 ### [创建 HTML 横幅并渲染为 PNG – 完整 Java 指南](./create-html-banner-and-render-to-png-full-java-guide/)
 使用 Aspose.HTML for Java 创建 HTML 横幅并渲染为 PNG 图像的完整步骤指南。
 
+### [如何将 HTML 渲染为 PNG – 完整 Java 指南](./how-to-render-html-to-png-complete-java-guide/)
+使用 Aspose.HTML for Java 将 HTML 渲染为 PNG 图像的完整指南，提供详细步骤和示例代码。
+
 ### [Converting HTML to TIFF](./convert-html-to-tiff/)
 
 ### [将 HTML 转换为 WebP](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
@@ -150,6 +153,8 @@ weight: 24
 
 ### [将 HTML 转换为 WebP – 完整 Java 指南](./convert-html-to-webp-complete-java-guide/)
 使用 Aspose.HTML for Java 将 HTML 转换为 WebP。详细完整的指南，涵盖所有关键步骤和最佳实践。
+
+### [渲染 HTML Java：将长页面转换为 PNG](./render-html-java-convert-long-page-to-png/)
 
 ## 常见问题解答
 

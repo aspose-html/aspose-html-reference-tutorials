@@ -31,7 +31,7 @@ Java पर्यावरण में HTML को PDF में बदलन�
 - **उच्च सटीकता रेंडरिंग** – CSS3, JavaScript, और आधुनिक वेब फ़ॉन्ट सटीक रूप से रेंडर होते हैं.  
 - **कोई बाहरी निर्भरताएँ नहीं** – शुद्ध Java API, कोई नेटिव बाइनरी आवश्यक नहीं.  
 - **व्यापक फ़ॉर्मेट समर्थन** – PDF के अलावा, आप MHTML, XPS, SVG, PNG, JPEG, आदि आउटपुट कर सकते हैं.  
-- **एंटरप्राइज़ के लिए स्केलेबल** – बड़े दस्तावेज़ और बैच प्रोसेसिंग को आसानी से संभालता है.
+- **एंटरप्राइज़ के लिए स्केलेबल** – बड़े दस्तावेज़ और बैच प्रोसेसिंग को आसानी से संभालता है।
 
 ## मुख्य रूपांतरण विषय
 
@@ -117,9 +117,13 @@ Aspose.HTML के साथ Java में SVG को PDF में बदल�
 Aspose.HTML for Java के साथ SVG को XPS में कैसे बदलें सीखें। सहज रूपांतरण के लिए सरल, चरण‑दर‑चरण गाइड।
 
 ### [Aspose HTML for Java के साथ डायनेमिक HTML को PDF में बदलना](./convert-dynamic-html-pdf-with-aspose-html-for-java/)
+### [HTML को PDF रूपांतरण – Aspose.HTML के साथ बैच फ़ाइलों को बदलने की पूर्ण गाइड](./html-to-pdf-conversion-complete-guide-to-batch-convert-files/)
+Aspose.HTML का उपयोग करके कई HTML फ़ाइलों को एक साथ PDF में बदलने की विस्तृत चरण‑दर‑चरण प्रक्रिया सीखें।
 
 ### [Java में HTML को PDF में बदलें – पेज आकार सेटिंग्स के साथ चरण‑दर‑चरण गाइड](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Aspose.HTML for Java के साथ पेज आकार सेटिंग्स को नियंत्रित करते हुए HTML को PDF में बदलने का विस्तृत गाइड।
+
+### [Java HTML को PDF – PDF/A‑2b रूपांतरण गाइड](./java-html-to-pdf-pdf-a-2b-conversion-guide/)
 
 ### [जावा में वेबपेज को PDF में बदलने का चरण‑दर‑चरण गाइड](./how-to-convert-webpage-to-pdf-in-java-step-by-step-guide/)
 

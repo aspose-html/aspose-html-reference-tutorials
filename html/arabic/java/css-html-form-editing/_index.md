@@ -73,6 +73,8 @@ url: /ar/java/css-html-form-editing/
 تعلم كيفية قراءة ملفات CSS في Java باستخدام Aspose.HTML خطوة بخطوة لتطبيق الأنماط وتحليلها بسهولة.
 ### [كيفية الحصول على CSS في Java – باستخدام querySelector وComputed Style](./how-to-get-css-in-java-using-queryselector-and-computed-styl/)
 تعلم كيفية استخراج أنماط CSS في Java باستخدام querySelector وComputed Style خطوة بخطوة.
+### [تحديد العنصر حسب المعرف في Java – دليل شامل للأنماط المحسوبة](./get-element-by-id-java-complete-guide-to-computed-styles/)
+تعلم كيفية الحصول على عنصر HTML باستخدام المعرف في Java وتطبيق الأنماط المحسوبة خطوة بخطوة باستخدام Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

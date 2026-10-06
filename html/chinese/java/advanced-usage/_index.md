@@ -160,6 +160,9 @@ Aspose.HTML 允许您将 `DomMutationObserver` 附加到任意节点。这对于
 ### [在 JavaScript 中调用 Java – 异步 Fetch 与 JS 引擎执行完整指南](./call-java-from-javascript-complete-guide-to-async-fetch-js-e/)
 学习如何在 Java 环境中使用 JavaScript 调用 Java 方法，实现异步 fetch 并掌握 JS 引擎的执行细节。
 
+### [如何在 Java 中使用 Aspose HTML – 完整 XPath 过滤指南](./how-to-use-aspose-html-in-java-full-xpath-filtering-guide/)
+学习使用 Aspose.HTML for Java 实现完整的 XPath 过滤，精准提取和操作 HTML 内容的高级技巧。
+
 ---
 **最后更新：** 2025-11-29  
 **测试环境：** Aspose.HTML for Java 24.11  

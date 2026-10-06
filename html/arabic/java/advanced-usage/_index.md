@@ -158,6 +158,9 @@ weight: 20
 
 ### [استدعاء Java من JavaScript – دليل كامل للـ Async Fetch وتنفيذ محرك JS](./call-java-from-javascript-complete-guide-to-async-fetch-js-e/)
 
+### [كيفية استخدام Aspose HTML في Java – دليل تصفية XPath الكامل](./how-to-use-aspose-html-in-java-full-xpath-filtering-guide/)
+تعلم كيفية تطبيق فلاتر XPath المتقدمة على مستندات HTML باستخدام Aspose.HTML for Java خطوة بخطوة.
+
 ---
 
 **آخر تحديث:** 2025-11-29  

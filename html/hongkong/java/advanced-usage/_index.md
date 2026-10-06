@@ -157,6 +157,9 @@ A: 不需要。單一的 Aspose.HTML for Java 授權即涵蓋所有輸出格式�
 
 ### [從 JavaScript 呼叫 Java – 非同步 Fetch 與 JS 引擎執行完整指南](./call-java-from-javascript-complete-guide-to-async-fetch-js-e/)
 
+### [使用 Aspose.HTML for Java – 完整 XPath 篩選指南](./how-to-use-aspose-html-in-java-full-xpath-filtering-guide/)
+說明如何在 Aspose.HTML for Java 中使用 XPath 進行完整的節點篩選與資料提取。
+
 ---
 
 **最後更新日期：** 2025-11-29  

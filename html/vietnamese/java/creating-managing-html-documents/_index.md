@@ -107,6 +107,10 @@ Hướng dẫn chi tiết cách sử dụng XPath trong Java để đọc HTML v
 Khám phá cách trích xuất URL hình ảnh từ tài liệu HTML trong Java bằng Aspose.HTML với hướng dẫn từng bước.
 ### [Cách phân tích HTML trong Java – Trích xuất văn bản từ các bài viết HTML](./how-to-parse-html-in-java-extract-text-from-html-articles/)
 Hướng dẫn chi tiết cách phân tích HTML trong Java để trích xuất nội dung văn bản từ các bài viết HTML.
+### [Tạo HTML từ Markdown trong Java – Hướng dẫn đầy đủ từng bước](./create-html-from-markdown-in-java-full-step-by-step-guide/)
+Hướng dẫn chi tiết cách chuyển đổi nội dung Markdown thành tài liệu HTML trong Java bằng Aspose.HTML, từng bước một.
+### [javascript settimeout async: Chạy JavaScript trong Java và Cập nhật HTML](./javascript-settimeout-async-run-javascript-in-java-and-updat/)
+Hướng dẫn cách sử dụng setTimeout bất đồng bộ để chạy mã JavaScript trong môi trường Java và cập nhật nội dung HTML một cách hiệu quả.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

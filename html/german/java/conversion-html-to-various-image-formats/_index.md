@@ -98,6 +98,8 @@ Erfahren Sie, wie Sie mit Aspose.HTML for Java HTML in PNG rendern und dabei ein
 Erfahren Sie, wie Sie mehrere HTML‑Dateien effizient in PNG‑Bilder umwandeln – Schritt‑für‑Schritt‑Anleitung für Batch‑Verarbeitung.
 ### [Wie man ExecutorService für parallele HTML‑zu‑PNG‑Batch‑Konvertierung verwendet](./how-to-use-executorservice-for-parallel-html-to-png-batch-co/)
 Erfahren Sie, wie Sie mit ExecutorService mehrere HTML‑Dateien gleichzeitig in PNG‑Bilder konvertieren, um die Verarbeitungsgeschwindigkeit zu erhöhen.
+### [HTML zu PNG rendern – Vollständiger Java‑Leitfaden](./how-to-render-html-to-png-complete-java-guide/)
+Erfahren Sie, wie Sie mit Aspose.HTML for Java HTML‑Inhalte in hochwertige PNG‑Bilder rendern – Schritt‑für‑Schritt‑Anleitung.
 ### [HTML in TIFF konvertieren](./convert-html-to-tiff/)
 Erfahren Sie, wie Sie HTML einfach mit Aspose.HTML for Java in TIFF konvertieren. Schritt‑für‑Schritt‑Leitfaden für effiziente Dokumentenverarbeitung.
 ### [Thumbnail aus HTML generieren – Java‑Leitfaden](./how-to-generate-thumbnail-from-html-java-guide/)
@@ -143,6 +145,8 @@ Kompletter Leitfaden, um HTML mit Aspose.HTML for Java in das WebP‑Format zu k
 Erfahren Sie, wie Sie die DPI für PNG‑Ausgaben mit Aspose.HTML for Java einstellen, um die Bildqualität zu optimieren.
 ### [HTML‑Banner erstellen und in PNG rendern – Vollständige Java‑Anleitung](./create-html-banner-and-render-to-png-full-java-guide/)
 Erfahren Sie, wie Sie mit Aspose.HTML for Java ein HTML‑Banner erstellen und es als PNG‑Bild rendern – Schritt‑für‑Schritt‑Leitfaden.
+### [HTML mit Java rendern: Lange Seite in PNG konvertieren](./render-html-java-convert-long-page-to-png/)
+Erfahren Sie, wie Sie mit Aspose.HTML for Java lange HTML‑Seiten in PNG‑Bilder konvertieren – Schritt‑für‑Schritt‑Anleitung.
 
 ## Häufig gestellte Fragen
 

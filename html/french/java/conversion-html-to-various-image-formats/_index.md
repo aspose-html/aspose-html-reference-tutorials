@@ -104,8 +104,11 @@ Apprenez à convertir HTML en PNG par lots avec Aspose.HTML for Java. Guide comp
 Apprenez à définir le DPI lors de la conversion d'HTML en PNG avec Aspose.HTML for Java.
 ### [Créer une bannière HTML et rendre en PNG – Guide complet Java](./create-html-banner-and-render-to-png-full-java-guide/)
 Apprenez à créer une bannière HTML et à la rendre en image PNG avec Aspose.HTML for Java. Guide complet étape par étape.
+### [Comment rendre HTML en PNG – Guide complet Java](./how-to-render-html-to-png-complete-java-guide/)
+Apprenez à rendre HTML en PNG en Java avec Aspose.HTML. Guide complet étape par étape pour une conversion efficace.
 ### [Conversion d'HTML en TIFF](./convert-html-to-tiff/)
 Apprenez à convertir facilement HTML en TIFF avec Aspose.HTML for Java. Guide étape par étape pour une gestion efficace des documents.
+### [Rendu HTML Java : Convertir une page longue en PNG](./render-html-java-convert-long-page-to-png/)
 ### [Conversion d'HTML en WebP](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
 Apprenez à convertir HTML en WebP en Java avec Aspose.HTML. Guide complet étape par étape pour une conversion efficace et optimisée.
 ### [Convertir HTML en WebP – Guide complet Java](./convert-html-to-webp-complete-java-guide/)

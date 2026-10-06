@@ -180,6 +180,9 @@ weight: 25
 
 ### [Μετατροπή HTML σε PDF με Java – πώς να δημιουργήσετε ομάδα νημάτων](./convert-html-to-pdf-with-java-how-to-create-thread-pool/)
 Μάθετε πώς να βελτιώσετε την απόδοση της μετατροπής HTML σε PDF χρησιμοποιώντας thread pool στην Java με Aspose.HTML.
+### [java html σε pdf – Οδηγός μετατροπής PDF/A‑2b](./java-html-to-pdf-pdf-a-2b-conversion-guide/)
+Μάθετε πώς να μετατρέψετε HTML σε PDF/A‑2b σε Java με το Aspose.HTML, εξασφαλίζοντας συμβατότητα με πρότυπα αρχειοθέτησης.
+### [Μετατροπή html σε pdf – Πλήρης Οδηγός για Μαζική Μετατροπή Αρχείων με Aspose.HTML](./html-to-pdf-conversion-complete-guide-to-batch-convert-files/)
 
 ## Συχνές Ερωτήσεις
 

@@ -57,6 +57,8 @@ Aspose.HTML для Java предлагает мощный набор инстр�
 Узнайте, как создавать HTML документы из строк в Aspose.HTML для Java с помощью этого пошагового руководства.
 ### [Создание HTML-документа с Java – получение JSON и генерация контента](./create-html-document-with-java-fetch-json-and-generate-conte/)
 Узнайте, как получать JSON в Java и генерировать HTML‑контент с помощью Aspose.HTML, пошаговое руководство.
+### [Создание HTML из Markdown в Java – Полное пошаговое руководство](./create-html-from-markdown-in-java-full-step-by-step-guide/)
+Узнайте, как преобразовать Markdown в HTML в Java с помощью Aspose.HTML, следуя полному пошаговому руководству.
 ### [Загрузка HTML-документов из URL в Aspose.HTML для Java](./load-html-documents-from-url/)
 Узнайте, как легко загружать HTML-документы из URL в Java с помощью Aspose.HTML. Пошаговое руководство включено.
 ### [Итерация NodeList Java – чтение HTML и получение src изображения](./iterate-nodelist-java-read-html-get-image-src/)
@@ -105,6 +107,8 @@ Aspose.HTML для Java предлагает мощный набор инстр�
 Узнайте, как извлекать URL изображений из HTML с помощью Aspose.HTML для Java. Пошаговое руководство.
 ### [Как парсить HTML в Java – извлечение текста из HTML‑статей](./how-to-parse-html-in-java-extract-text-from-html-articles/)
 Узнайте, как с помощью Aspose.HTML для Java извлекать текст из HTML‑статей, используя парсинг и обработку контента.
+### [JavaScript setTimeout async: запуск JavaScript в Java и обновление HTML](./javascript-settimeout-async-run-javascript-in-java-and-updat/)
+Узнайте, как выполнять асинхронный JavaScript с помощью setTimeout в Java и динамически обновлять HTML‑страницы.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

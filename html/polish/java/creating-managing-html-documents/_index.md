@@ -114,6 +114,10 @@ Naucz się, jak wykorzystać XPath w Javie do odczytu dokumentów HTML i wyciąg
 Naucz się wyodrębniać adresy URL obrazów z dokumentów HTML w Javie przy użyciu Aspose.HTML – prosty przewodnik krok po kroku.
 ### [Jak parsować HTML w Javie – wyodrębnić tekst z artykułów HTML](./how-to-parse-html-in-java-extract-text-from-html-articles/)
 Dowiedz się, jak wyodrębnić tekst z artykułów HTML w Javie przy użyciu Aspose.HTML – prosty przewodnik krok po kroku.
+### [javascript settimeout async: Uruchom JavaScript w Javie i zaktualizuj HTML](./javascript-settimeout-async-run-javascript-in-java-and-updat/)
+Dowiedz się, jak uruchomić kod JavaScript w Javie przy użyciu setTimeout i dynamicznie aktualizować dokument HTML.
+### [Utwórz HTML z Markdown w Javie – Pełny przewodnik krok po kroku](./create-html-from-markdown-in-java-full-step-by-step-guide/)
+Dowiedz się, jak konwertować pliki Markdown na HTML w Javie przy użyciu Aspose.HTML, krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

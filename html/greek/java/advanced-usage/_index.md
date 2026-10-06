@@ -144,6 +144,8 @@ weight: 20
 Μάθετε πώς να εκτελείτε JavaScript σε ασφαλές sandbox περιβάλλον με το Aspose.HTML for Java, εξασφαλίζοντας απομόνωση και έλεγχο.
 ### [Πώς να ενεργοποιήσετε τη JavaScript σε Java – Πλήρης οδηγός Aspose.HTML](./how-to-enable-javascript-in-java-complete-aspose-html-guide/)
 ### [Κλήση Java από JavaScript – Πλήρης Οδηγός για Ασύγχρονη Ανάκτηση & Εκτέλεση Μηχανής JS](./call-java-from-javascript-complete-guide-to-async-fetch-js-e/)
+### [Πώς να Χρησιμοποιήσετε το Aspose HTML σε Java – Πλήρης Οδηγός Φιλτραρίσματος XPath](./how-to-use-aspose-html-in-java-full-xpath-filtering-guide/)
+Μάθετε πώς να εφαρμόζετε πλήρη φιλτράρισμα με XPath χρησιμοποιώντας το Aspose.HTML for Java για ακριβή εξαγωγή δεδομένων από HTML.
 
 ---
 
