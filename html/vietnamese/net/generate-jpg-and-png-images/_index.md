@@ -87,6 +87,8 @@ Hướng dẫn chi tiết cách chuyển đổi HTML thành hình ảnh PNG bằ
 Hướng dẫn chi tiết cách chuyển đổi tệp SVG thành PNG trong C# bằng Aspose.HTML, bao gồm các bước cài đặt và mã mẫu.
 ### [Tạo hình ảnh từ HTML – Hướng dẫn C# chi tiết](./create-image-from-html-step-by-step-c-guide/)
 Hướng dẫn chi tiết cách chuyển đổi HTML thành hình ảnh bằng C# sử dụng Aspose.HTML, bao gồm các bước cài đặt và ví dụ thực tế.
+### [Tạo PNG từ HTML trong C# – Hướng dẫn đầy đủ Aspose.HTML](./create-png-from-html-in-c-full-aspose-html-guide/)
+Hướng dẫn chi tiết cách tạo tệp PNG từ HTML bằng C# sử dụng Aspose.HTML, bao gồm các bước cấu hình và ví dụ thực tế.
 
 ## Phần kết luận
 
