@@ -50,6 +50,8 @@ url: /ar/java/message-handling-networking/
 تعرف على كيفية تحويل ملفات ZIP إلى صور JPG باستخدام Aspose.HTML لـ Java من خلال هذا الدليل خطوة بخطوة.
 ### [تحويل ZIP إلى PDF باستخدام Aspose.HTML لـ Java](./zip-to-pdf/)
 يمكنك بسهولة تحويل ملفات ZIP إلى PDF باستخدام Aspose.HTML لـ Java باستخدام هذا الدليل خطوة بخطوة.
+### [java 11 httpclient authenticator – دليل كامل للطلبات الآمنة](./java-11-httpclient-authenticator-complete-guide-to-secure-re/)
+تعلم كيفية استخدام HttpClient Authenticator في Java 11 لإجراء طلبات آمنة ومصادقة موثوقة.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

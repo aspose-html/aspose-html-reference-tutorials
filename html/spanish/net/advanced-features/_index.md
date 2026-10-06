@@ -36,6 +36,8 @@ Aprenda a crear documentos HTML impresionantes en .NET con Aspose.HTML. Siga nue
 Aprenda a crear y gestionar flujos de memoria personalizados en C# para usar con Aspose.HTML, con ejemplos paso a paso.
 ### [Web Scraping en .NET con Aspose.HTML](./web-scraping/)
 Aprenda a manipular documentos HTML en .NET con Aspose.HTML. Navegue, filtre, consulte y seleccione elementos de manera eficaz para mejorar el desarrollo web.
+### [Cómo comprimir HTML con Aspose HTML – Guía completa](./how-to-zip-html-with-aspose-html-complete-guide/)
+Aprenda a comprimir archivos HTML en .NET usando Aspose HTML, con ejemplos paso a paso y mejores prácticas.
 ### [Utilizar la propiedad de contenido extendido en .NET con Aspose.HTML](./use-extended-content-property/)
 Aprenda a crear contenido web dinámico con Aspose.HTML para .NET. Nuestro tutorial cubre los requisitos previos, las instrucciones paso a paso y las preguntas frecuentes para principiantes.
 ### [Generar PDF cifrados mediante PdfDevice en .NET con Aspose.HTML](./generate-encrypted-pdf-by-pdfdevice/)
@@ -46,6 +48,10 @@ Aprenda a convertir HTML a PDF, XPS e imágenes con Aspose.HTML para .NET. Tutor
 Aprenda a utilizar Aspose.HTML para .NET para generar documentos HTML de forma dinámica a partir de datos JSON. Aproveche el poder de la manipulación de HTML en sus aplicaciones .NET.
 ### [Cómo combinar fuentes programáticamente en C# – Guía paso a paso](./how-to-combine-fonts-programmatically-in-c-step-by-step-guid/)
 Aprenda a combinar fuentes en C# de forma programática con ejemplos claros y paso a paso.
+### [Obtener la versión del ensamblado en C# – Guía rápida para recuperar la versión de la biblioteca](./get-assembly-version-in-c-quick-guide-to-retrieve-library-ve/)
+Aprenda a obtener la versión del ensamblado en C# de forma sencilla y rápida.
+### [Controlador de recursos personalizado en Aspose HTML – Guía para guardar en flujo](./custom-resource-handler-in-aspose-html-save-to-stream-guide/)
+Aprenda a crear un controlador de recursos personalizado en Aspose HTML y guardar contenido directamente en un flujo de datos.
 
 ## Conclusión
 

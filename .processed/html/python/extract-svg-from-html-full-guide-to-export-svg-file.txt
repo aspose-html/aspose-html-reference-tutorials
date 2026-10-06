@@ -1,0 +1,7 @@
+Title: Extract SVG from HTML – Full Guide to Export SVG File
+Slug: extract-svg-from-html-full-guide-to-export-svg-file
+Category: general
+ProcessedDate: 2026-06-04T08:54:50.150685
+SourceRepo: AI Search API
+Keywords: extract svg from html, export svg file, svg save options, svg external css, inline svg markup
+PRNumber: 173
