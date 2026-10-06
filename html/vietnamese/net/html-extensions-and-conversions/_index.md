@@ -128,9 +128,8 @@ Hướng dẫn chi tiết cách lưu tài liệu HTML vào tệp ZIP trong C# b�
 ### [Aspose HTML Save Options: Lưu HTML vào Stream trong C#](./aspose-html-save-options-save-html-to-stream-in-c/)
 Hướng dẫn cách sử dụng Aspose.HTML để lưu HTML trực tiếp vào stream trong C#.
 ### [Cách sử dụng handler trong Aspose.HTML – Tải HTML, Lưu dưới dạng ZIP](./how-to-use-handler-in-aspose-html-load-html-save-as-zip/)
-Hướng dẫn chi tiết cách sử dụng handler trong Aspose.HTML để tải tài liệu HTML và lưu lại dưới dạng tệp ZIP.
-### [Tạo tài liệu HTML và lưu dưới dạng zip – Hướng dẫn C# hoàn chỉnh](./create-html-document-and-save-as-zip-complete-c-guide/)
-Hướng dẫn chi tiết cách tạo tài liệu HTML và lưu nó dưới dạng tệp ZIP bằng C# và Aspose.HTML cho .NET.
+### [Chuyển đổi HTML sang PDF với phông chữ in đậm‑nghiêng bằng Aspose.HTML](./convert-html-to-pdf-with-bold-italic-font-using-aspose-html/)
+Chuyển đổi HTML sang PDF với phông chữ in đậm và nghiêng bằng Aspose.HTML.
 
 ## Phần kết luận
 

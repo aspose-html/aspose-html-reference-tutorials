@@ -50,7 +50,7 @@ Aspose.HTML for .NET을 사용해 C#에서 PDF 페이지 크기를 지정하고 
 ### [C#에서 HTML을 PDF로 변환하는 튜토리얼](./html-to-pdf-tutorial-convert-html-to-pdf-in-c/)
 C#에서 Aspose.HTML을 사용해 HTML을 PDF로 변환하는 단계별 가이드입니다.
 ### [HTML에서 PDF 만들기 – C# 단계별 가이드](./create-pdf-from-html-c-step-by-step-guide/)
-Aspose.HTML for .NET을 사용하여 C#에서 HTML을 PDF로 변환하는 단계별 가이드입니다.
+Aspose.HTML for .NET을 사용하여 C#에서 HTML을 PDF로 변환하는 단계별 가이드를 확인하세요.
 ### [C#에서 Aspose HTML을 사용해 PDF로 변환 – ZIP 아카이브 포함 전체 가이드](./aspose-html-to-pdf-in-c-complete-guide-with-zip-archive/)
 C#와 Aspose.HTML을 활용해 HTML을 PDF로 변환하고 ZIP 아카이브로 저장하는 전체 단계별 가이드.
 ### [Aspose를 사용하여 HTML에서 PDF 만들기 – 단계별 가이드](./create-pdf-from-html-with-aspose-step-by-step-guide/)
@@ -82,7 +82,7 @@ Aspose.HTML for .NET을 사용하여 HTML을 TIFF로 변환하는 방법을 알�
 ### [Aspose.HTML을 사용하여 .NET에서 HTML을 XPS로 변환](./convert-html-to-xps/)
 .NET용 Aspose.HTML의 힘을 알아보세요: HTML을 XPS로 손쉽게 변환하세요. 필수 조건, 단계별 가이드, FAQ가 포함되어 있습니다.
 ### [URL에서 PDF 만들기 – 완전한 C# 가이드](./create-pdf-from-url-complete-c-guide/)
-Aspose.HTML for .NET을 사용해 URL을 PDF로 변환하는 전체 C# 단계별 가이드.
+Aspose.HTML for .NET을 사용해 URL을 PDF로 변환하는 전체 C# 단계별 가이드를 제공합니다.
 ### [C#에서 HTML을 Zip으로 압축하는 방법 – HTML을 Zip으로 저장](./how-to-zip-html-in-c-save-html-to-zip/)
 C#와 Aspose.HTML을 사용해 HTML 파일을 ZIP 압축 파일로 저장하는 단계별 가이드를 제공합니다.
 ### [스타일이 적용된 텍스트로 HTML 문서 만들기 및 PDF로 내보내기 – 전체 가이드](./create-html-document-with-styled-text-and-export-to-pdf-full/)
@@ -123,12 +123,16 @@ Aspose.HTML for .NET을 활용해 C#에서 HTML을 PDF로 변환하는 전체 �
 Aspose.HTML for .NET을 사용해 C#에서 HTML을 메모리 스트림으로 저장하는 방법을 단계별로 안내합니다.
 ### [Aspose.HTML에서 핸들러 사용 방법 – HTML 로드 및 ZIP으로 저장](./how-to-use-handler-in-aspose-html-load-html-save-as-zip/)
 Aspose.HTML의 핸들러를 활용해 HTML을 로드하고 ZIP 파일로 저장하는 단계별 가이드를 제공합니다.
+### [C#에서 HTML을 스트림으로 변환하는 방법 – 사용자 정의 핸들러 사용](./how-to-convert-html-to-stream-with-a-custom-handler-in-c/)
+Aspose.HTML for .NET을 사용해 C#에서 사용자 정의 핸들러로 HTML을 스트림에 저장하는 방법을 단계별로 안내합니다.
 ### [C#에서 HTML을 ZIP으로 저장 – 전체 가이드](./save-html-as-zip-in-c-complete-guide/)
 Aspose.HTML for .NET을 사용해 C#에서 HTML을 ZIP 파일로 저장하는 전체 단계별 가이드를 확인하세요.
 ### [C#에서 HTML을 PDF로 저장하기 – 글꼴 포함 전체 가이드](./save-html-as-pdf-in-c-complete-guide-with-fonts/)
 Aspose.HTML for .NET을 사용해 C#에서 글꼴을 포함한 HTML을 PDF로 저장하는 전체 단계별 가이드를 확인하세요.
 ### [HTML에서 PDF 만들기 – 개발자를 위한 단계별 가이드](./create-pdf-from-html-step-by-step-guide-for-developers/)
 Aspose.HTML for .NET을 활용해 HTML을 PDF로 변환하는 개발자용 단계별 가이드입니다.
+### [Aspose.HTML을 사용하여 굵은‑기울임꼴 글꼴로 HTML을 PDF로 변환](./convert-html-to-pdf-with-bold-italic-font-using-aspose-html/)
+Aspose.HTML을 사용해 굵은‑기울임꼴 글꼴로 HTML을 PDF로 변환하는 방법을 단계별로 안내합니다.
 
 ## 결론
 

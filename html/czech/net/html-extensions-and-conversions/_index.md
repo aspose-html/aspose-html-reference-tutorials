@@ -127,11 +127,19 @@ Naučte se pomocí Aspose.HTML v C# uložit celou webovou stránku do jediného 
 ### [Jak zkomprimovat HTML v C# – Vlastní handler zdrojů](./how-to-zip-html-in-c-custom-resource-handler-tutorial/)
 Naučte se pomocí Aspose.HTML pro .NET vytvořit vlastní handler zdrojů pro kompresi HTML do ZIP v C#.
 ### [Aspose HTML možnosti uložení: Uložení HTML do streamu v C#](./aspose-html-save-options-save-html-to-stream-in-c/)
-Naučte se, jak pomocí Aspose.HTML pro .NET uložit HTML do streamu v C# s podrobným průvodcem a ukázkami kódu.
+Naučte se, jak pomocí Aspose.HTML pro .NET uložit HTML do streamu v C#.
+
+### [Jak převést HTML do streamu pomocí vlastního handleru v C#](./how-to-convert-html-to-stream-with-a-custom-handler-in-c/)
+Naučte se převést HTML do streamu pomocí vlastního handleru v C# s Aspose.HTML.
+
 ### [Jak použít handler v Aspose.HTML – načíst HTML a uložit jako ZIP](./how-to-use-handler-in-aspose-html-load-html-save-as-zip/)
 Naučte se pomocí Aspose.HTML načíst HTML dokument a uložit jej do ZIP archivu pomocí handleru v C#.
+
 ### [Vytvořte HTML dokument a uložte jako ZIP – Kompletní C# průvodce](./create-html-document-and-save-as-zip-complete-c-guide/)
 Naučte se vytvořit HTML dokument a uložit jej jako ZIP archiv v kompletním C# průvodci s Aspose.HTML pro .NET.
+
+### [Převod HTML do PDF s tučným‑kurzívním písmem pomocí Aspose.HTML](./convert-html-to-pdf-with-bold-italic-font-using-aspose-html/)
+Naučte se převádět HTML do PDF s podporou tučného a kurzívního písma pomocí Aspose.HTML.
 
 ## Závěr
 
