@@ -1,0 +1,7 @@
+Title: How to save SVG as PNG with Python – complete guide
+Slug: how-to-save-svg-as-png-with-python-complete-guide
+Category: general
+ProcessedDate: 2026-09-29T18:54:18.167309
+SourceRepo: AI Search API
+Keywords: how to save svg, convert svg to png, save svg as png, export svg to png, vector svg to png
+PRNumber: 280

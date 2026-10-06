@@ -5,7 +5,7 @@ second_title: Java HTML Processing with Aspose.HTML
 description: Learn how to create PDF from HTML by setting a custom user stylesheet in Aspose.HTML for Java, and easily convert HTML to PDF with the User Agent Service.
 weight: 16
 url: /java/configuring-environment/set-user-style-sheet/
-date: 2025-12-05
+date: 2026-02-04
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -61,6 +61,9 @@ Create a `Configuration` object. This object acts as a container for all service
 ```java
 com.aspose.html.Configuration configuration = new com.aspose.html.Configuration();
 ```
+
+## Why Use the User Agent Service?
+The **User Agent Service** gives you low‑level control over rendering options such as the default character set, language, fonts, and—most importantly for this tutorial—a custom user stylesheet. By applying styles at this level, you guarantee consistent visual output even when the original HTML lacks its own CSS.
 
 ## Step 3: Access the User Agent Service  
 The **User Agent Service** lets you inject a custom stylesheet, set the default character set, and control other rendering options.
@@ -140,7 +143,7 @@ You’ve now seen how to **create PDF from HTML** by setting a custom user style
 
 ---
 
-**Last Updated:** 2025-12-05  
+**Last Updated:** 2026-02-04  
 **Tested With:** Aspose.HTML for Java 24.11 (latest at time of writing)  
 **Author:** Aspose  
 

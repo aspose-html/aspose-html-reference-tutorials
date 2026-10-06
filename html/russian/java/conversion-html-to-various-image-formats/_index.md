@@ -90,21 +90,71 @@ weight: 24
 ## Преобразование — HTML в различные форматы изображений: инструкции материалов
 ### [Преобразование HTML в BMP](./convert-html-to-bmp/)
 Преобразование HTML в BMP с помощью Aspose.HTML для Java. Подробное руководство по легкому преобразованию HTML-документов в изображения BMP с помощью Aspose.HTML для Java.
-
 ### [Преобразование HTML в GIF](./convert-html-to-gif/)
 Узнайте, как преобразовать HTML в GIF в Java с помощью Aspose.HTML. Подробное пошаговое руководство по эффективному преобразованию HTML в GIF.
-
 ### [Преобразование HTML в JPEG](./convert-html-to-jpeg/)
 Узнайте, как преобразовать HTML в JPEG с помощью Aspose.HTML для Java. Пошаговое руководство по легкому преобразованию документов.
-
 ### [Преобразование HTML в PNG](./convert-html-to-png/)
 Узнайте, как преобразовывать изображения HTML в PNG в Java с помощью Aspose.HTML. Подробное руководство с пошаговыми инструкциями.
+### [Как отрендерить HTML в PNG с пользовательским viewport](./how-to-render-html-to-png-with-custom-viewport/)
+Подробное руководство по рендерингу HTML в PNG с заданным размером области просмотра, используя Aspose.HTML for Java.
 
+### [Как отрендерить HTML в PNG в Java – Полное руководство](./how-to-render-html-to-png-in-java-complete-guide/)
+Подробный пошаговый гайд по рендерингу HTML‑страниц в PNG‑изображения с помощью Aspose.HTML for Java.
+
+### [Преобразование HTML в PNG – Руководство по пакетному преобразованию](./convert-html-to-png-batch-conversion-guide/)
+### [Как использовать ExecutorService для параллельного пакетного преобразования HTML в PNG](./how-to-use-executorservice-for-parallel-html-to-png-batch-co/)
+Пошаговое руководство по использованию ExecutorService в Java для ускорения пакетного конвертирования HTML в PNG.
+### [Как установить DPI при конвертации HTML в PNG](./how-to-set-dpi-when-converting-html-to-png/)
+Узнайте, как задать разрешение DPI при преобразовании HTML в PNG с помощью Aspose.HTML for Java.
+### [Создание HTML‑баннера и рендеринг в PNG – Полное руководство Java](./create-html-banner-and-render-to-png-full-java-guide/)
+Узнайте, как создать HTML‑баннер и экспортировать его в PNG с помощью Aspose.HTML для Java. Полное пошаговое руководство.
+
+### [Как отрендерить HTML в PNG – Полное руководство Java](./how-to-render-html-to-png-complete-java-guide/)
 ### [Преобразование HTML в TIFF](./convert-html-to-tiff/)
 Узнайте, как легко преобразовывать HTML в TIFF с помощью Aspose.HTML для Java. Пошаговое руководство по эффективной обработке документов.
-
 ### [Преобразование HTML в WebP – Полное руководство Java с Aspose.HTML](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
 Узнайте, как преобразовать HTML в WebP в Java с помощью Aspose.HTML. Полное пошаговое руководство.
+### [Преобразование HTML в WebP – Полное руководство Java](./convert-html-to-webp-complete-java-guide/)
+Узнайте, как преобразовать HTML в WebP в Java с помощью Aspose.HTML. Полное пошаговое руководство.
+
+### [Как создать GIF из SVG – пошаговое руководство Java](./how-to-create-gif-from-svg-step-by-step-java-guide/)
+Подробное руководство по созданию анимированных GIF из SVG в Java с использованием Aspose.HTML.
+
+### [Как сгенерировать миниатюру из HTML – руководство Java](./how-to-generate-thumbnail-from-html-java-guide/)
+
+### [Как отрендерить HTML в PNG – Полное руководство для Java-разработчиков](./how-to-render-html-to-png-complete-guide-for-java-developers/)
+Полное руководство по рендерингу HTML в PNG для Java‑разработчиков с использованием Aspose.HTML, включая примеры кода и настройки.
+
+### [Создание PNG из HTML в Java – Полное пошаговое руководство](./create-png-from-html-in-java-full-step-by-step-guide/)
+
+### [Создание PNG из HTML – экспорт SVG с высоким DPI в Java](./create-png-from-html-high-dpi-svg-export-in-java/)
+Узнайте, как экспортировать SVG с высоким DPI и преобразовать его в PNG в Java с помощью Aspose.HTML.
+
+### [Создание PNG из SVG в Java – Полное пошаговое руководство](./create-png-from-svg-in-java-complete-step-by-step-guide/)
+Узнайте, как преобразовать SVG‑файлы в PNG в Java с помощью Aspose.HTML. Подробное пошаговое руководство.
+### [Как установить DPI при конвертации HTML в PNG – Полное руководство](./how-to-set-dpi-when-converting-html-to-png-complete-guide/)
+Подробное руководство по настройке DPI при конвертации HTML в PNG с помощью Aspose.HTML for Java, включая примеры кода и рекомендации.
+### [Визуализация с высоким DPI в Java – Захват скриншотов веб‑страниц с пользовательским User Agent](./high-dpi-rendering-in-java-capture-webpage-screenshots-with/)
+### [Создание PNG из HTML – Быстрая пакетная конверсия с использованием пула потоков](./create-png-from-html-fast-batch-conversion-using-a-thread-po/)
+Узнайте, как эффективно генерировать PNG‑изображения из HTML, используя пул потоков для быстрой пакетной конверсии.
+### [Преобразование HTML в PNG с ограничением памяти в Java](./convert-html-to-png-with-set-max-memory-usage-in-java/)
+### [Преобразование HTML в WebP](./convert-html-to-webp-java-guide-to-save-html-as-webp/)
+### [Как захватить скриншот веб-страницы с Aspose HTML – руководство для Java](./how-to-capture-screenshot-of-a-webpage-with-aspose-html-java/)
+### [Как установить DPI при конвертации SVG в PNG с Java](./how-to-set-dpi-when-converting-svg-to-png-with-java/)
+### [Как преобразовать HTML в WebP в Java – Полное пошаговое руководство](./how-to-convert-html-to-webp-in-java-complete-step-by-step-gu/)
+### [Преобразование SVG в GIF в Java – Полное пошаговое руководство](./svg-to-gif-conversion-in-java-complete-step-by-step-guide/)
+### [Преобразование SVG в WebP – Полное руководство Java с Aspose.HTML](./how-to-use-aspose-to-convert-svg-to-webp-java-guide/)
+Узнайте, как преобразовать SVG в WebP в Java с помощью Aspose.HTML. Полное пошаговое руководство.
+
+### [Преобразование SVG в WebP – Полное руководство Java с Aspose.HTML](./convert-svg-to-webp-in-java-complete-aspose-html-guide/)
+Узнайте, как преобразовать SVG в WebP в Java с помощью Aspose.HTML. Полное пошаговое руководство.
+
+### [Установка коэффициента пикселей устройства в Java – Полное руководство](./set-device-pixel-ratio-in-java-complete-guide/)
+Узнайте, как установить коэффициент пикселей устройства в Java с помощью Aspose.HTML. Полное пошаговое руководство.
+
+### [Рендеринг HTML в Java: Преобразование длинной страницы в PNG](./render-html-java-convert-long-page-to-png/)
+Узнайте, как с помощью Aspose.HTML for Java преобразовать длинную HTML‑страницу в PNG‑изображение, сохранив качество и масштабирование.
 
 ## Часто задаваемые вопросы
 
