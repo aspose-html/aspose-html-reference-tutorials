@@ -41,6 +41,8 @@ Aspose.HTML สำหรับ .NET ไม่ใช่แค่ไลบรา�
 
 ### [แปลง HTML เป็น PDF ใน .NET ด้วย Aspose.HTML](./convert-html-to-pdf/)
 แปลง HTML เป็น PDF ได้อย่างง่ายดายด้วย Aspose.HTML สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราและปลดปล่อยพลังแห่งการแปลง HTML เป็น PDF
+### [แปลง HTML เป็น PDF พร้อมฟอนต์หนา‑เอียงโดยใช้ Aspose.HTML](./convert-html-to-pdf-with-bold-italic-font-using-aspose-html/)
+แปลง HTML เป็น PDF พร้อมใช้ฟอนต์หนาและเอียงด้วย Aspose.HTML สำหรับ .NET
 ### [สร้าง PDF จาก URL – คู่มือ C# ฉบับสมบูรณ์](./create-pdf-from-url-complete-c-guide/)
 สร้าง PDF จาก URL ด้วย Aspose.HTML สำหรับ .NET ตามขั้นตอนครบถ้วนในคู่มือ C# นี้
 ### [สร้าง PDF จาก HTML ใน C# – คู่มือขั้นตอนเต็ม](./create-pdf-from-html-in-c-complete-step-by-step-guide/)
@@ -70,7 +72,7 @@ Aspose.HTML สำหรับ .NET ไม่ใช่แค่ไลบรา�
 ### [แปลง HTML เป็น MHTML ใน .NET ด้วย Aspose.HTML](./convert-html-to-mhtml/)
 แปลง HTML เป็น MHTML ใน .NET ด้วย Aspose.HTML - คำแนะนำทีละขั้นตอนสำหรับการเก็บถาวรเนื้อหาเว็บอย่างมีประสิทธิภาพ เรียนรู้วิธีใช้ Aspose.HTML สำหรับ .NET เพื่อสร้างไฟล์เก็บถาวร MHTML
 ### [แปลง HTML เป็น PNG ใน .NET ด้วย Aspose.HTML](./convert-html-to-png/)
-ค้นพบวิธีใช้ Aspose.HTML สำหรับ .NET เพื่อจัดการและแปลงเอกสาร HTML คำแนะนำทีละขั้นตอนสำหรับการพัฒนา .NET ที่มีประสิทธิภาพ
+ค้นพบวิธีใช้ Aspose.HTML สำหรับ .NET เพื่อจัดการและแปลงเอกสาร HTML คำแนะนำทีละขั้นตอนสำหรับการแปลง HTML เป็น PNG
 ### [แปลง HTML เป็น TIFF ใน .NET ด้วย Aspose.HTML](./convert-html-to-tiff/)
 เรียนรู้วิธีแปลง HTML เป็น TIFF ด้วย Aspose.HTML สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อเพิ่มประสิทธิภาพเนื้อหาเว็บอย่างมีประสิทธิภาพ
 ### [แปลง HTML เป็น XPS ใน .NET ด้วย Aspose.HTML](./convert-html-to-xps/)
@@ -134,6 +136,8 @@ Aspose.HTML สำหรับ .NET ไม่ใช่แค่ไลบรา�
 เรียนรู้วิธีสร้าง PDF จากไฟล์ HTML ด้วย Aspose.HTML สำหรับ .NET ตามขั้นตอนที่ชัดเจน
 ### [สร้าง PDF จาก HTML – คู่มือเต็มด้วย Aspose.HTML](./create-pdf-from-html-complete-guide-with-aspose-html/)
 เรียนรู้วิธีสร้าง PDF จากไฟล์ HTML อย่างละเอียดด้วย Aspose.HTML สำหรับ .NET ตามขั้นตอนครบถ้วน
+
+### [วิธีแปลง HTML เป็นสตรีมด้วยตัวจัดการแบบกำหนดเองใน C#](./how-to-convert-html-to-stream-with-a-custom-handler-in-c/)
 
 ## บทสรุป
 

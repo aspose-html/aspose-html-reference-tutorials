@@ -129,15 +129,20 @@ Aspose.HTML for .NET 不只是一個函式庫；它還是一個函式庫。它�
 示範使用 Aspose.HTML Save Options 將 HTML 輸出為記憶體串流的步驟與範例程式碼。
 ### [如何在 Aspose.HTML 中使用處理程序 – 載入 HTML，儲存為 ZIP](./how-to-use-handler-in-aspose-html-load-html-save-as-zip/)
 使用 Aspose.HTML for .NET 透過處理程序載入 HTML 並將其壓縮為 ZIP 檔案的完整步驟指南。
-### [在 C# 中將 HTML 儲存為 ZIP – 完整指南](./save-html-as-zip-in-c-complete-guide/)
-使用 Aspose.HTML for .NET 在 C# 中將 HTML 儲存為 ZIP，提供完整步驟與範例說明。
 
-### [在 C# 中將 HTML 儲存為 PDF – 完整指南（含字型）](./save-html-as-pdf-in-c-complete-guide-with-fonts/)
-使用 Aspose.HTML for .NET，在 C# 中將 HTML 轉換為 PDF，並嵌入自訂字型的完整步驟說明。
+### [如何在 C# 中使用自訂處理程序將 HTML 轉換為串流](./how-to-convert-html-to-stream-with-a-custom-handler-in-c/)
+了解如何在 C# 中使用自訂處理程序將 HTML 轉換為串流，並取得記憶體中的資料。
+
+### [在 C# 中將 HTML 儲存為 ZIP – 完整指南](./save-html-as-zip-in-c-complete-guide/)
+使用 Aspose.HTML for .NET 在 C# 中將 HTML 轉換為 ZIP，提供完整步驟與範例說明。
+
 ### [在 C# 中設定 PDF 頁面大小 – 轉換 HTML 為 PDF](./set-pdf-page-size-in-c-convert-html-to-pdf/)
 使用 Aspose.HTML for .NET 在 C# 中設定 PDF 頁面尺寸，將 HTML 轉換為 PDF 的完整步驟指南。
 ### [HTML 轉 PDF 教程 – 在 C# 中將 HTML 轉換為 PDF](./html-to-pdf-tutorial-convert-html-to-pdf-in-c/)
 使用 Aspose.HTML for .NET，在 C# 中將 HTML 轉換為 PDF 的完整步驟指南。
+
+### [使用 Aspose.HTML 將 HTML 轉換為 PDF（粗斜體字型）](./convert-html-to-pdf-with-bold-italic-font-using-aspose-html/)
+說明如何在 Aspose.HTML for .NET 中設定粗體與斜體字型，將 HTML 轉換為 PDF。
 
 ## 結論
 

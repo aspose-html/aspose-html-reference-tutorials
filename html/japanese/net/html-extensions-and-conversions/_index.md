@@ -37,6 +37,9 @@ Web 開発では、HTML ドキュメントをさまざまな形式に変換す�
 Aspose.HTML for .NET は単なるライブラリではありません。Web 開発の世界に革命をもたらすものです。HTML 関連のタスクを効率化する幅広い機能とツールを提供します。これらのチュートリアルを完了すると、Aspose.HTML for .NET の可能性を最大限に引き出すための知識とスキルが身に付きます。
 
 ## HTML 拡張と変換のチュートリアル
+### [Convert HTML to PDF with bold‑italic font using Aspose.HTML](./convert-html-to-pdf-with-bold-italic-font-using-aspose-html/)
+
+
 ### [Aspose.HTML を使用して .NET で HTML を PDF に変換する](./convert-html-to-pdf/)
 Aspose.HTML for .NET を使用すると、HTML を PDF に簡単に変換できます。ステップ バイ ステップ ガイドに従って、HTML から PDF への変換のパワーを解放しましょう。
 
@@ -135,6 +138,8 @@ Aspose.HTML for .NET を使用して、C# で HTML ドキュメントを作成�
 
 ### [HTML ドキュメントを作成して ZIP に保存 – 完全 C# ガイド](./create-html-document-and-save-as-zip-complete-c-guide/)
 Aspose.HTML for .NET を使用して、HTML ドキュメントを作成し、ZIP アーカイブとして保存する完全な C# 手順を解説します。
+
+### [C# のカスタム ハンドラで HTML をストリームに変換する方法](./how-to-convert-html-to-stream-with-a-custom-handler-in-c/)
 
 ## 結論
 

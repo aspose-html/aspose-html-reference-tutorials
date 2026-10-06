@@ -146,8 +146,14 @@ Aprenda a compactar HTML em C# usando um manipulador de recursos personalizado c
 ### [Aspose HTML Opções de Salvamento: Salvar HTML em Stream no C#](./aspose-html-save-options-save-html-to-stream-in-c/)
 Aprenda a salvar documentos HTML em um fluxo usando Aspose.HTML para .NET com C#. Guia passo a passo com exemplos de código.
 
+### [Como converter HTML para stream com um manipulador personalizado em C#](./how-to-convert-html-to-stream-with-a-custom-handler-in-c/)
+Aprenda a converter HTML para stream usando um manipulador personalizado em C# com Aspose.HTML.
+
 ### [Como usar handler no Aspose.HTML – Carregar HTML, Salvar como ZIP](./how-to-use-handler-in-aspose-html-load-html-save-as-zip/)
 Aprenda a usar o handler do Aspose.HTML para carregar documentos HTML e salvá-los como arquivos ZIP em C#.
+
+### [Converter HTML para PDF com fonte negrito‑itálico usando Aspose.HTML](./convert-html-to-pdf-with-bold-italic-font-using-aspose-html/)
+Aprenda a converter HTML para PDF preservando estilos de fonte negrito e itálico usando Aspose.HTML para .NET.
 
 ## Conclusão
 

@@ -128,6 +128,10 @@ url: /ar/net/html-extensions-and-conversions/
 تعلم كيفية إنشاء مستند HTML وحفظه كملف ZIP باستخدام C# ومكتبة Aspose.HTML خطوة بخطوة.
 ### [إنشاء PDF من HTML – دليل كامل مع Aspose.Html](./create-pdf-from-html-complete-guide-with-aspose-html/)
 
+### [كيفية تحويل HTML إلى تدفق باستخدام معالج مخصص في C#](./how-to-convert-html-to-stream-with-a-custom-handler-in-c/)
+
+### [تحويل HTML إلى PDF بخط عريض ومائل باستخدام Aspose.HTML](./convert-html-to-pdf-with-bold-italic-font-using-aspose-html/)
+
 ## خاتمة
 
 في الختام، تعد امتدادات HTML وتحويلاتها عناصر أساسية لتطوير الويب الحديث. يعمل Aspose.HTML for .NET على تبسيط العملية وجعلها في متناول المطورين من جميع المستويات. باتباع دروسنا التعليمية، ستكون على الطريق الصحيح لتصبح مطور ويب ماهرًا يتمتع بمجموعة واسعة من المهارات.

@@ -138,6 +138,10 @@ Aspose.HTML for .NET 不仅仅是一个库；它是 Web 开发领域的变革者
 了解如何使用 Aspose.HTML for .NET 在 C# 中将 HTML 保存到流，提供代码示例和关键步骤。
 ### [如何在 Aspose.HTML 中使用处理程序 – 加载 HTML 并保存为 ZIP](./how-to-use-handler-in-aspose-html-load-html-save-as-zip/)
 演示如何使用 Aspose.HTML 的处理程序加载 HTML 并将其压缩保存为 ZIP 文件的完整步骤。
+
+### [如何在 C# 中使用自定义处理程序将 HTML 转换为流](./how-to-convert-html-to-stream-with-a-custom-handler-in-c/)
+演示如何使用自定义处理程序将 HTML 内容转换为流，以便在 C# 中进行进一步处理。
+
 ### [使用 Aspose.HTML 在 C# 中创建 HTML 文档 – 步骤指南](./create-html-document-c-step-by-step-guide/)
 使用 Aspose.HTML for .NET 在 C# 中创建 HTML 文档的完整分步指南，包含代码示例和关键步骤。
 ### [在 C# 中设置 PDF 页面大小 – 将 HTML 转换为 PDF](./set-pdf-page-size-in-c-convert-html-to-pdf/)
@@ -148,6 +152,9 @@ Aspose.HTML for .NET 不仅仅是一个库；它是 Web 开发领域的变革者
 使用 Aspose 在 .NET 中将 HTML 转换为 PDF 的完整分步教程，涵盖代码示例和最佳实践。
 ### [使用 Aspose.HTML 将 HTML 创建为 PDF – 完整指南](./create-pdf-from-html-complete-guide-with-aspose-html/)
 使用 Aspose.HTML for .NET 将 HTML 转换为 PDF 的完整指南，提供详细步骤和代码示例。
+
+### [使用 Aspose.HTML 将 HTML 转换为带粗斜体字体的 PDF](./convert-html-to-pdf-with-bold-italic-font-using-aspose-html/)
+使用 Aspose.HTML for .NET 将 HTML 转换为包含粗斜体字体的 PDF，提供完整步骤和代码示例。
 
 ## 结论
 
