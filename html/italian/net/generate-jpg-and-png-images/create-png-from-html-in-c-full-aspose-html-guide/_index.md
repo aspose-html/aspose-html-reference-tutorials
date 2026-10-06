@@ -22,11 +22,7 @@ title: Crea PNG da HTML in C# – Guida completa ad Aspose.HTML
 url: /it/net/generate-jpg-and-png-images/create-png-from-html-in-c-full-aspose-html-guide/
 ---
 
-.
-
-Make sure we keep markdown formatting.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

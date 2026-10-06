@@ -23,20 +23,6 @@ title: Maak PNG van HTML in C# – Volledige Aspose.HTML-gids
 url: /nl/net/generate-jpg-and-png-images/create-png-from-html-in-c-full-aspose-html-guide/
 ---
 
-locally |
-| Transparent background where you expect white | PNG appears invisible on dark pages | Set `BackgroundColor = System.Drawing.Color.White` in `ImageRenderingOptions` |
-| Large HTML → Out‑of‑memory | Process crashes | Render page by page using `ImageRenderer.Render(pageIndex)` |
-
-Translate Pitfall, Symptom, Fix, and cell contents. Keep code snippets unchanged.
-
-Also bullet lists later.
-
-Let's translate the rest.
-
-Now produce final content with same shortcodes.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

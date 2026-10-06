@@ -22,19 +22,7 @@ title: Criar PNG a partir de HTML em C# – Guia Completo do Aspose.HTML
 url: /pt/net/generate-jpg-and-png-images/create-png-from-html-in-c-full-aspose-html-guide/
 ---
 
-## Converter HTML para Imagem – Resumo rápido"
-
-Then list items.
-
-Then "## Conclusion" => "## Conclusão"
-
-Then final paragraphs.
-
-Make sure to keep code block placeholders unchanged.
-
-Also keep the final shortcodes.
-
-Let's produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

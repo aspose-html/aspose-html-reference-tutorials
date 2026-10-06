@@ -22,13 +22,7 @@ title: สร้าง PNG จาก HTML ด้วย C# – คู่มือ
 url: /th/net/generate-jpg-and-png-images/create-png-from-html-in-c-full-aspose-html-guide/
 ---
 
-: none.
-
-Check code block placeholders: keep as is.
-
-Make sure to preserve markdown formatting.
-
-Now craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
