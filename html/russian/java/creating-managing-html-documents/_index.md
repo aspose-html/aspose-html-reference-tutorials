@@ -54,6 +54,7 @@ Aspose.HTML для Java предлагает мощный набор инстр�
 ### [Загрузка HTML-документов из потока с помощью Aspose.HTML для Java](./load-html-documents-from-stream/)
 Узнайте, как загружать HTML документы из потоков с помощью Aspose.HTML для Java. Это руководство содержит пошаговое руководство по бесшовной обработке HTML.
 ### [Создание HTML-документов из строки в Aspose.HTML для Java](./create-html-documents-from-string/)
+Узнайте, как создавать HTML документы из строк в Aspose.HTML для Java с помощью этого пошагового руководства.
 ### [Создание HTML-документа с Java – получение JSON и генерация контента](./create-html-document-with-java-fetch-json-and-generate-conte/)
 Узнайте, как получать JSON в Java и генерировать HTML‑контент с помощью Aspose.HTML, пошаговое руководство.
 ### [Создание HTML из Markdown в Java – Полное пошаговое руководство](./create-html-from-markdown-in-java-full-step-by-step-guide/)
