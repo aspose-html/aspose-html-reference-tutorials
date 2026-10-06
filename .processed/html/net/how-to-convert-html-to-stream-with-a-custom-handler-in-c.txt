@@ -1,0 +1,7 @@
+Title: How to convert HTML to stream with a custom handler in C#
+Slug: how-to-convert-html-to-stream-with-a-custom-handler-in-c
+Category: html-extensions-and-conversions
+ProcessedDate: 2026-10-06T06:21:37.143168
+SourceRepo: AI Search API
+Keywords: convert html to stream
+PRNumber: 290

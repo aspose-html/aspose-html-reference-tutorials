@@ -1,0 +1,7 @@
+Title: Convert HTML to PDF with bold‑italic font using Aspose.HTML
+Slug: convert-html-to-pdf-with-bold-italic-font-using-aspose-html
+Category: html-extensions-and-conversions
+ProcessedDate: 2026-10-06T06:21:38.919275
+SourceRepo: AI Search API
+Keywords: convert html to pdf, save html as pdf, add font style pdf, set bold italic font, aspose html pdf conversion
+PRNumber: 290
