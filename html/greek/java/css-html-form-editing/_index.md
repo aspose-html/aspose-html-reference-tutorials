@@ -77,6 +77,8 @@ url: /el/java/css-html-form-editing/
 Μάθετε πώς να εξάγετε στυλ CSS από στοιχεία HTML σε Java χρησιμοποιώντας querySelector και υπολογιζόμενο στυλ.
 ### [Λήψη στοιχείου με id σε Java – Πλήρης Οδηγός για Υπολογισμένα Στυλ](./get-element-by-id-java-complete-guide-to-computed-styles/)
 Μάθετε πώς να εντοπίζετε στοιχεία HTML με το id τους και να αποκτάτε υπολογισμένα στυλ χρησιμοποιώντας το Aspose.HTML για Java σε αυτόν τον πλήρη οδηγό.
+### [Πώς να Λάβετε Στυλ σε Java – Εντοπισμός Στοιχείου & Ανάγνωση Φόντου](./how-to-get-style-in-java-find-element-read-background/)
+Μάθετε πώς να εντοπίζετε στοιχεία HTML και να διαβάζετε το στυλ φόντου τους χρησιμοποιώντας Aspose.HTML για Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

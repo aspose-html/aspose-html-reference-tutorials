@@ -208,6 +208,12 @@ Hướng dẫn cách thiết lập tỷ lệ pixel thiết bị trong Java để
 ### [Chuyển đổi HTML sang PDF – Hướng dẫn toàn diện để chuyển đổi hàng loạt tệp với Aspose.HTML](./html-to-pdf-conversion-complete-guide-to-batch-convert-files/)
 Hướng dẫn chi tiết cách sử dụng Aspose.HTML để chuyển đổi đồng thời nhiều tệp HTML thành PDF một cách nhanh chóng và hiệu quả.
 
+### [Hướng dẫn html to pdf – Chuyển đổi HTML sang PDF với Aspose.HTML Java](./html-to-pdf-tutorial-convert-html-to-pdf-with-aspose-html-ja/)
+Hướng dẫn chi tiết cách chuyển đổi HTML sang PDF trong Java bằng Aspose.HTML, bao gồm các tùy chọn cấu hình và ví dụ thực tế.
+
+### [Tạo PDF từ HTML trong Java – Hướng dẫn chuyển đổi hàng loạt song song](./create-pdf-from-html-in-java-parallel-batch-conversion-guide/)
+Hướng dẫn cách chuyển đổi nhiều tệp HTML sang PDF đồng thời trong Java bằng Aspose.HTML, tối ưu hiệu suất và tài nguyên.
+
 ## Câu hỏi thường gặp
 
 **Q: Tôi có thể sử dụng Aspose.HTML cho Java trong một ứng dụng thương mại không?**  

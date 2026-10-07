@@ -108,6 +108,8 @@ Ismerje meg, hogyan állíthat be egyedi nézetablakot a HTML PNG rendereléshez
 Ismerje meg, hogyan végezhet kötegelt HTML‑t PNG‑képekké konvertálást Aspose.HTML for Java‑val, hatékony és automatizált módon.
 ### [Hogyan állítsuk be a DPI-t HTML PNG konvertálásakor](./how-to-set-dpi-when-converting-html-to-png/)
 Ismerje meg, hogyan állíthatja be a DPI értéket HTML PNG konvertálásakor az Aspose.HTML for Java segítségével.
+### [HTML konvertálása PNG‑re DPI beállítással – Teljes Java útmutató](./how-to-set-dpi-when-converting-html-to-png-complete-java-gui/)
+Ismerje meg, hogyan állíthatja be a DPI‑t a PNG képekhez HTML konvertálásakor az Aspose.HTML for Java használatával.
 ### [HTML átalakítása TIFF‑be](./convert-html-to-tiff/)
 Tanulja meg, hogyan konvertálhat HTML‑t TIFF‑be az Aspose.HTML for Java segítségével. Lépésről‑lépésre útmutató a hatékony dokumentumkezeléshez.
 ### [HTML konvertálása WebP‑be – Teljes Java útmutató az Aspose.HTML‑el](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
@@ -131,6 +133,8 @@ Ismerje meg, hogyan hozhat létre HTML bannert, majd renderelheti PNG képként 
 Ismerje meg, hogyan renderelhet HTML‑t PNG‑be Java‑ban az Aspose.HTML segítségével. Részletes, lépésről‑lépésre útmutató a PNG konverzióhoz.
 ### [HTML renderelése Java‑ban: Hosszú oldal konvertálása PNG‑be](./render-html-java-convert-long-page-to-png/)
 Ismerje meg, hogyan renderelhet hosszú HTML oldalakat PNG képként Java‑ban az Aspose.HTML segítségével, részletes lépésekkel.
+### [Eszköz pixelarány beállítása Java‑ban – HTML renderelése PNG‑be](./set-device-pixel-ratio-in-java-render-html-to-png/)
+Ismerje meg, hogyan állíthatja be a device pixel ratio értékét Java‑ban az Aspose.HTML használatával a PNG képek minőségének optimalizálásához.
 
 ### [HTML renderelése PNG-be – Teljes útmutató Java fejlesztőknek](./how-to-render-html-to-png-complete-guide-for-java-developers/)
 Ismerje meg, hogyan renderelhet HTML-t PNG képpé Java‑ban az Aspose.HTML segítségével, részletes, lépésről‑lépésre útmutatóval.

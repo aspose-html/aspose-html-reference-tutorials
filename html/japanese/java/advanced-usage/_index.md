@@ -141,6 +141,8 @@ Aspose.HTML for Java を使用して、HTML のロード、デバイス DPI の�
 Aspose.HTML for Java を使い、Java 環境で JavaScript を有効化し、動的ページ処理を実現する手順を解説します。
 ### [JavaScript から Java を呼び出す – 非同期フェッチと JS エンジン実行の完全ガイド](./call-java-from-javascript-complete-guide-to-async-fetch-js-e/)
 Aspose.HTML for Java を使用し、JavaScript から Java メソッドを非同期に呼び出し、JS エンジンで実行する方法をステップバイステップで解説します。
+### [JavaScript から Java を呼び出す – ホストオブジェクトを追加し Java で JavaScript を実行](./call-java-from-javascript-add-host-object-and-run-javascript/)
+Aspose.HTML for Java を使用し、ホストオブジェクトを追加して Java から JavaScript を実行し、相互呼び出しを実装する方法を学びます。
 
 ---
 

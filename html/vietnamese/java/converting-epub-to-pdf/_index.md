@@ -83,6 +83,9 @@ Tìm hiểu cách chuyển đổi EPUB sang hình ảnh với Aspose.HTML for Ja
 Tìm hiểu cách nhúng phông chữ trong quá trình chuyển đổi EPUB sang PDF bằng Aspose.HTML for Java.
 ### [epub to pdf tutorial: Convert eBook to PDF with Aspose](./epub-to-pdf-tutorial-convert-ebook-to-pdf-with-aspose/)
 Hướng dẫn chi tiết cách chuyển đổi eBook sang PDF bằng Aspose.HTML for Java, nhanh chóng và dễ dàng.
+### [Tạo PDF từ EPUB – Hướng dẫn từng bước Java](./create-pdf-from-epub-step-by-step-java-guide/)
+Hướng dẫn chi tiết cách tạo PDF từ tệp EPUB bằng Aspose.HTML for Java, bao gồm các bước cấu hình và tùy chỉnh.
+
 ## Câu hỏi thường gặp
 
 **Q:** *Tôi có thể chuyển đổi các tệp EPUB được bảo vệ sang PDF không?*  

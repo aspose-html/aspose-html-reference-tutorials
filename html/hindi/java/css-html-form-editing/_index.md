@@ -76,6 +76,8 @@ Java में getComputedStyle का उपयोग करके बैकग
 Java में querySelector और Computed Style का उपयोग करके CSS मान प्राप्त करने की प्रक्रिया सीखें।
 ### [Java में ID द्वारा एलिमेंट प्राप्त करें – कम्प्यूटेड स्टाइल्स का पूर्ण गाइड](./get-element-by-id-java-complete-guide-to-computed-styles/)
 Java में Aspose.HTML का उपयोग करके ID द्वारा एलिमेंट चुनें और उसके कम्प्यूटेड स्टाइल्स को समझें। विस्तृत चरण-दर-चरण गाइड।
+### [Java में स्टाइल प्राप्त करना – एलिमेंट खोजें और बैकग्राउंड पढ़ें](./how-to-get-style-in-java-find-element-read-background/)
+Java में Aspose.HTML का उपयोग करके किसी एलिमेंट की स्टाइल प्राप्त करें और उसके बैकग्राउंड प्रॉपर्टी को पढ़ें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

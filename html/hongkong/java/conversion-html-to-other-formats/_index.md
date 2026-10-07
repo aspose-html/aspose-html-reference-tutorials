@@ -93,6 +93,8 @@ Aspose.HTML for Java 簡化了 HTML‑to‑PDF 工作流程。請參考專屬教
 說明如何使用 Aspose.HTML for Java 將 HTML 轉換為符合 PDF/A‑2b 標準的 PDF 文件。
 ### [批量將 HTML 轉換為 PDF – Java NIO 並行處理指南](./convert-html-to-pdf-in-bulk-java-nio-guide-with-parallel-pro/)
 使用 Java NIO 與平行處理一次批量轉換多個 HTML 為 PDF，提高效能與效率。
+### [HTML 轉 PDF 教學 – 使用 Aspose.HTML Java 轉換 HTML 為 PDF](./html-to-pdf-tutorial-convert-html-to-pdf-with-aspose-html-ja/)
+說明如何使用 Aspose.HTML for Java 將 HTML 檔案轉換為 PDF，提供完整步驟與範例程式碼。
 ### [在 Java 中將 HTML 轉換為 PDF – 逐步指南與頁面大小設定](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 提供在 Java 中使用 Aspose.HTML 逐步將 HTML 轉換為 PDF，並設定頁面尺寸的完整教學。
 ### [使用 Aspose HTML 設定 PDF 頁面大小 – 完整 Java 指南](./set-pdf-page-size-with-aspose-html-full-java-guide/)
@@ -156,6 +158,8 @@ Aspose.HTML for Java 簡化了 HTML‑to‑PDF 工作流程。請參考專屬教
 ### [java html to pdf – PDF/A‑2b 轉換指南](./java-html-to-pdf-pdf-a-2b-conversion-guide/)
 ### [HTML 轉 PDF 完整指南 – 使用 Aspose.HTML 批次轉換檔案](./html-to-pdf-conversion-complete-guide-to-batch-convert-files/)
 深入說明如何使用 Aspose.HTML 在 Java 中批量將多個 HTML 檔案轉換為 PDF，提升工作效率。
+### [在 Java 中從 HTML 建立 PDF – 平行批次轉換指南](./create-pdf-from-html-in-java-parallel-batch-conversion-guide/)
+說明如何使用 Aspose.HTML 在 Java 中平行批次將多個 HTML 檔案轉換為 PDF，提高效率與效能。
 
 ### [在 Java 中從 HTML 建立 PDF – 完整步驟指南](./create-pdf-from-html-in-java-complete-step-by-step-guide/)
 提供在 Java 中使用 Aspose.HTML 從 HTML 完整生成 PDF 的逐步教學，涵蓋設定、樣式與最佳化技巧。

@@ -75,6 +75,8 @@ url: /ru/java/css-html-form-editing/
 Узнайте, как извлечь стили CSS из элементов с помощью querySelector и свойства Computed Style в Aspose.HTML для Java.
 ### [Получить элемент по id в Java – Полное руководство по вычисленным стилям](./get-element-by-id-java-complete-guide-to-computed-styles/)
 Узнайте, как получить элемент по id в Java с помощью Aspose.HTML и работать с вычисленными стилями, полное руководство.
+### [Как получить стиль в Java – найти элемент и прочитать фон](./how-to-get-style-in-java-find-element-read-background/)
+Узнайте, как с помощью Aspose.HTML в Java получить стили элемента и считать значение фонового цвета.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

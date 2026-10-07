@@ -77,6 +77,8 @@ url: /zh/java/css-html-form-editing/
 本教程演示如何使用 querySelector 获取元素并通过 Computed Style 读取其 CSS 属性，实现动态样式分析。
 ### [在 Java 中通过 ID 获取元素 – 完整计算样式指南](./get-element-by-id-java-complete-guide-to-computed-styles/)
 本指南详细讲解如何在 Java 中使用 Aspose.HTML 根据元素 ID 获取并计算其样式属性。
+### [在 Java 中获取样式 – 查找元素并读取背景](./how-to-get-style-in-java-find-element-read-background/)
+本教程演示如何使用 Aspose.HTML for Java 查找元素并读取其背景样式，实现页面外观的动态获取。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -96,6 +96,8 @@ Contoh singkat kode satu baris untuk mengonversi HTML ke PDF menggunakan Aspose.
 Pelajari cara mengonversi HTML dinamis menjadi PDF menggunakan Aspose.HTML for Java dengan contoh kode lengkap.
 ### [Buat Fixed Thread Pool untuk Konversi Batch HTML ke PDF](./create-fixed-thread-pool-for-batch-html-to-pdf-conversion/)
 Panduan membuat thread pool tetap untuk mengonversi banyak file HTML ke PDF secara paralel menggunakan Aspose.HTML for Java.
+### [Tutorial html ke pdf – Mengonversi HTML ke PDF dengan Aspose.HTML Java](./html-to-pdf-tutorial-convert-html-to-pdf-with-aspose-html-ja/)
+Panduan lengkap mengonversi HTML menjadi PDF menggunakan Aspose.HTML untuk Java dengan contoh kode praktis.
 
 ### [Mengonversi HTML ke PDF di Java – Panduan Langkah‑demi‑Langkah dengan Pengaturan Ukuran Halaman](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Panduan lengkap mengonversi HTML ke PDF di Java dengan pengaturan ukuran halaman yang dapat disesuaikan.
@@ -198,6 +200,8 @@ Pelajari cara mengonversi HTML ke PDF/A‑2b di Java menggunakan Aspose.HTML unt
 
 ### [Konversi HTML ke PDF – Panduan Lengkap untuk Mengonversi File Secara Batch dengan Aspose.HTML](./html-to-pdf-conversion-complete-guide-to-batch-convert-files/)
 Pelajari cara mengonversi banyak file HTML ke PDF secara batch menggunakan Aspose.HTML dalam Java.
+### [Buat PDF dari HTML di Java – Panduan Konversi Batch Paralel](./create-pdf-from-html-in-java-parallel-batch-conversion-guide/)
+Panduan langkah demi langkah untuk mengonversi banyak file HTML menjadi PDF secara paralel menggunakan Aspose.HTML for Java.
 
 ## Pertanyaan yang Sering Diajukan
 

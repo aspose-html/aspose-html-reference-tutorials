@@ -166,6 +166,9 @@ Aprenda a invocar código Java a partir de JavaScript, executar chamadas assínc
 ### [Como usar Aspose HTML em Java – Guia completo de filtragem XPath](./how-to-use-aspose-html-in-java-full-xpath-filtering-guide/)
 Aprenda a usar filtros XPath avançados com Aspose.HTML for Java para selecionar e manipular elementos HTML de forma precisa.
 
+### [Chamar Java a partir de JavaScript – Adicionar Objeto Host e Executar JavaScript em Java](./call-java-from-javascript-add-host-object-and-run-javascript/)
+Aprenda a chamar código Java a partir de JavaScript, adicionando objetos host e executando scripts JavaScript em aplicações Java.
+
 ---
 
 **Última atualização:** 2025-11-29  

@@ -146,6 +146,7 @@ weight: 20
 ### [Κλήση Java από JavaScript – Πλήρης Οδηγός για Ασύγχρονη Ανάκτηση & Εκτέλεση Μηχανής JS](./call-java-from-javascript-complete-guide-to-async-fetch-js-e/)
 ### [Πώς να Χρησιμοποιήσετε το Aspose HTML σε Java – Πλήρης Οδηγός Φιλτραρίσματος XPath](./how-to-use-aspose-html-in-java-full-xpath-filtering-guide/)
 Μάθετε πώς να εφαρμόζετε πλήρη φιλτράρισμα με XPath χρησιμοποιώντας το Aspose.HTML for Java για ακριβή εξαγωγή δεδομένων από HTML.
+### [Κλήση Java από JavaScript – Προσθήκη Host Object και Εκτέλεση JavaScript σε Java](./call-java-from-javascript-add-host-object-and-run-javascript/)
 
 ---
 

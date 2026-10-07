@@ -77,6 +77,8 @@ Java에서 CSS 파일을 읽고 파싱하는 방법을 단계별로 자세히 �
 Java에서 querySelector와 Computed Style를 활용해 CSS 속성을 추출하고 활용하는 방법을 단계별로 안내합니다.
 ### [Java에서 ID로 요소 가져오기 – 계산된 스타일 완전 가이드](./get-element-by-id-java-complete-guide-to-computed-styles/)
 Java에서 요소를 ID로 선택하고, 계산된 스타일을 확인하는 방법을 단계별로 안내합니다.
+### [Java에서 스타일 가져오기 – 요소 찾기 및 배경 읽기](./how-to-get-style-in-java-find-element-read-background/)
+Java용 Aspose.HTML을 사용하여 요소의 스타일을 가져오고 배경 색상을 읽는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

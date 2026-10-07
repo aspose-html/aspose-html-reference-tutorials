@@ -193,6 +193,9 @@ Aspose.HTML for Java के साथ PDF में फ़ॉन्ट एम्
 
 ### [HTML से DOCX बनाएं – Java गाइड HTML को DOCX में बदलने के लिए](./create-docx-from-html-java-guide-to-convert-html-to-docx/)
 Aspose.HTML for Java का उपयोग करके HTML को DOCX में बदलें। उच्च‑गुणवत्ता वाले वर्ड दस्तावेज़ बनाने के चरण‑दर‑चरण गाइड।
+### [HTML को PDF ट्यूटोरियल – Aspose.HTML Java के साथ HTML को PDF में बदलें](./html-to-pdf-tutorial-convert-html-to-pdf-with-aspose-html-ja/)
+
+### [जावा में HTML से PDF बनाएं – समानांतर बैच रूपांतरण गाइड](./create-pdf-from-html-in-java-parallel-batch-conversion-guide/)
 
 ## अक्सर पूछे जाने वाले प्रश्न
 

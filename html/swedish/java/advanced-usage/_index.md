@@ -151,6 +151,8 @@ Lär dig hur du laddar ett HTML‑dokument, ställer in DPI för enheten och lä
 Lär dig hur du aktiverar JavaScript‑stöd i Java‑applikationer med Aspose.HTML, inklusive konfiguration och exempel.
 ### [Hur man använder Aspose HTML i Java – Fullständig XPath‑filtreringsguide](./how-to-use-aspose-html-in-java-full-xpath-filtering-guide/)
 Lär dig hur du använder XPath‑filter för att exakt välja element i HTML‑dokument med Aspose.HTML för Java.
+### [Anropa Java från JavaScript – Lägg till värdobjekt och kör JavaScript i Java](./call-java-from-javascript-add-host-object-and-run-javascript/)
+Lär dig hur du exponerar Java‑klasser som värdobjekt för JavaScript och kör skript i Java‑miljön med Aspose.HTML.
 
 ---
 

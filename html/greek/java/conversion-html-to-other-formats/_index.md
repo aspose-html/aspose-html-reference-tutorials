@@ -183,6 +183,9 @@ weight: 25
 ### [java html σε pdf – Οδηγός μετατροπής PDF/A‑2b](./java-html-to-pdf-pdf-a-2b-conversion-guide/)
 Μάθετε πώς να μετατρέψετε HTML σε PDF/A‑2b σε Java με το Aspose.HTML, εξασφαλίζοντας συμβατότητα με πρότυπα αρχειοθέτησης.
 ### [Μετατροπή html σε pdf – Πλήρης Οδηγός για Μαζική Μετατροπή Αρχείων με Aspose.HTML](./html-to-pdf-conversion-complete-guide-to-batch-convert-files/)
+### [Μαθήματα HTML σε PDF – Μετατροπή HTML σε PDF με Aspose.HTML Java](./html-to-pdf-tutorial-convert-html-to-pdf-with-aspose-html-ja/)
+### [Δημιουργία PDF από HTML σε Java – Οδηγός Παράλληλης Μαζικής Μετατροπής](./create-pdf-from-html-in-java-parallel-batch-conversion-guide/)
+Μάθετε πώς να εκτελείτε μαζική παράλληλη μετατροπή HTML σε PDF σε Java για γρήγορη επεξεργασία μεγάλου όγκου εγγράφων.
 
 ## Συχνές Ερωτήσεις
 

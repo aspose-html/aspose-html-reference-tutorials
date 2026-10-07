@@ -77,6 +77,8 @@ Pelajari cara membaca file CSS dalam aplikasi Java secara terprogram dengan cont
 Pelajari cara mengambil properti CSS elemen di Java menggunakan querySelector dan computed style secara terprogram.
 ### [Mendapatkan elemen berdasarkan id di Java – Panduan Lengkap Gaya yang Dihitung](./get-element-by-id-java-complete-guide-to-computed-styles/)
 Pelajari cara mengambil elemen HTML berdasarkan ID menggunakan Java dan mengakses gaya terhitungnya dalam panduan langkah demi langkah.
+### [Cara Mendapatkan Style di Java – Temukan Elemen & Baca Latar Belakang](./how-to-get-style-in-java-find-element-read-background/)
+Pelajari cara mengambil properti style elemen di Java, termasuk menemukan elemen dan membaca nilai latar belakangnya.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

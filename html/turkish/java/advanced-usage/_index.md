@@ -150,6 +150,8 @@ Aspose.HTML for Java kullanarak Java içinde JavaScript’i nasıl etkinleştire
 JavaScript içinde Java metodlarını asenkron fetch ile çağırmayı ve JS motoru üzerinden yürütmeyi adım adım öğrenin.
 ### [Aspose HTML'i Java'da Kullanma – Tam XPath Filtreleme Rehberi](./how-to-use-aspose-html-in-java-full-xpath-filtering-guide/)
 Aspose.HTML for Java ile tam XPath filtreleme yaparak belge öğelerini seçmeyi ve işlemeyi öğrenin.
+### [JavaScript'ten Java'ya Çağrı – Host Nesnesi Ekle ve Java'da JavaScript Çalıştır](./call-java-from-javascript-add-host-object-and-run-javascript/)
+Aspose.HTML for Java kullanarak JavaScript'ten Java metodlarını çağırmayı, host nesnesi eklemeyi ve Java içinde JavaScript çalıştırmayı öğrenin.
 
 ---
 

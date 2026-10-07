@@ -83,6 +83,9 @@ Erfahren Sie, wie Sie EPUB mit Aspose.HTML for Java in Bilder konvertieren. Tran
 Erfahren Sie, wie Sie beim EPUB‑zu‑PDF‑Export mit Aspose.HTML for Java Schriftarten einbetten, um die Dokumentqualität zu sichern.
 ### [epub‑zu‑pdf‑Tutorial: eBook mit Aspose in PDF konvertieren](./epub-to-pdf-tutorial-convert-ebook-to-pdf-with-aspose/)
 Erfahren Sie, wie Sie eBooks mit Aspose.HTML for Java in PDF umwandeln und dabei optimale Ergebnisse erzielen.
+### [PDF aus EPUB erstellen – Schritt‑für‑Schritt Java‑Leitfaden](./create-pdf-from-epub-step-by-step-java-guide/)
+Erfahren Sie, wie Sie mit Aspose.HTML for Java EPUB‑Dateien in PDFs umwandeln – detaillierte Schritt‑für‑Schritt‑Anleitung.
+
 ## Häufig gestellte Fragen
 
 **Q:** *Kann ich geschützte EPUB‑Dateien in PDF konvertieren?*  

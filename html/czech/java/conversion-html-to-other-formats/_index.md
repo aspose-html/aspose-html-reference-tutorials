@@ -189,6 +189,9 @@ Naučte se, jak pomocí Aspose.HTML v Javě vytvořit thread pool pro paralelní
 Naučte se hromadně převádět HTML soubory do PDF pomocí Aspose.HTML v podrobném průvodci.
 ### [Java HTML do PDF – průvodce konverzí PDF/A‑2b](./java-html-to-pdf-pdf-a-2b-conversion-guide/)
 Naučte se převést HTML do PDF/A‑2b v Javě pomocí Aspose.HTML a zajistěte dlouhodobou archivaci dokumentů.
+### [Vytvoření PDF z HTML v Javě – Průvodce paralelní dávkovou konverzí](./create-pdf-from-html-in-java-parallel-batch-conversion-guide/)
+Naučte se, jak pomocí Aspose.HTML provádět paralelní dávkovou konverzi HTML na PDF v Javě pro rychlé zpracování velkého množství souborů.
+### [html to pdf tutoriál – Převod HTML do PDF pomocí Aspose.HTML Java](./html-to-pdf-tutorial-convert-html-to-pdf-with-aspose-html-ja/)
 
 ## Často kladené otázky
 

@@ -156,6 +156,12 @@ weight: 24
 ### [Рендеринг HTML в Java: Преобразование длинной страницы в PNG](./render-html-java-convert-long-page-to-png/)
 Узнайте, как с помощью Aspose.HTML for Java преобразовать длинную HTML‑страницу в PNG‑изображение, сохранив качество и масштабирование.
 
+### [Как установить DPI при конвертации HTML в PNG – Полное руководство Java](./how-to-set-dpi-when-converting-html-to-png-complete-java-gui/)
+Узнайте, как задать DPI при конвертации HTML в PNG с помощью Aspose.HTML для Java. Подробные шаги и примеры кода.
+
+### [Установка device pixel ratio в Java – рендер HTML в PNG](./set-device-pixel-ratio-in-java-render-html-to-png/)
+Узнайте, как установить device pixel ratio при рендеринге HTML в PNG в Java с помощью Aspose.HTML. Подробное руководство.
+
 ## Часто задаваемые вопросы
 
 **В: Можно ли конвертировать HTML в PNG с помощью Java без дополнительных библиотек для работы с изображениями?**  

@@ -114,6 +114,12 @@ weight: 24
 ### [如何將 HTML 渲染為 PNG – 完整 Java 指南](./how-to-render-html-to-png-complete-java-guide/)
 完整教學說明如何在 Java 中使用 Aspose.HTML 將 HTML 渲染為 PNG 圖像，提供步驟與範例代碼。
 
+### [如何在將 HTML 轉換為 PNG 時設定 DPI – 完整 Java 指南](./how-to-set-dpi-when-converting-html-to-png-complete-java-gui/)
+說明如何在使用 Aspose.HTML for Java 將 HTML 轉換為 PNG 時設定 DPI，以獲得所需解析度。
+
+### [在 Java 中設定裝置像素比率 – 渲染 HTML 為 PNG](./set-device-pixel-ratio-in-java-render-html-to-png/)
+說明如何在 Java 中設定裝置像素比率，以正確渲染 HTML 為 PNG 圖像。
+
 ### [將 HTML 轉換為 WebP](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
 ### [將 HTML 轉換為 WebP（完整步驟指南）](./how-to-convert-html-to-webp-in-java-complete-step-by-step-gu/)
 完整的 Java 教學，說明如何使用 Aspose.HTML 將 HTML 轉換為 WebP 圖像，提供程式碼範例與最佳化技巧。

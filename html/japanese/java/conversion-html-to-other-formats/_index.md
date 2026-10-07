@@ -89,6 +89,10 @@ Aspose.HTML を利用して、Java で複数の HTML ファイルを一括で PD
 Java NIO と並列処理を活用し、複数の HTML ファイルを高速に PDF へ一括変換する手順を解説します。
 ### [JavaでHTMLをPDFに変換 – ワンラインコード例](./convert-html-to-pdf-in-java-one-line-code-example/)
 1 行のコードだけで Java から HTML を PDF に変換するシンプルな方法を紹介します。
+### [JavaでHTMLからPDFを作成 – 並列バッチ変換ガイド](./create-pdf-from-html-in-java-parallel-batch-conversion-guide/)
+Aspose.HTML を使用して Java で HTML を並列バッチ処理し、複数の PDF を高速に生成する方法を解説します。
+### [HTML to PDF チュートリアル – Aspose.HTML Java で HTML を PDF に変換](./html-to-pdf-tutorial-convert-html-to-pdf-with-aspose-html-ja/)
+Aspose.HTML を使用して Java で HTML を PDF に変換する手順を詳しく解説します。
 ### [Converting HTML to MHTML](./convert-html-to-mhtml/)
 Aspose.HTML for Java で HTML を MHTML に簡単に変換します。効率的な HTML‑to‑MHTML 変換の手順をご覧ください。
 ### [Converting HTML to XPS](./convert-html-to-xps/)

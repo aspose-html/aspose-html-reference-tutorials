@@ -121,6 +121,8 @@ Aspose.HTML for Java में कस्टम यूज़र स्टाइ�
 
 ### [Aspose HTML सैंडबॉक्स बनाएं – पूर्ण जावा गाइड](./create-aspose-html-sandbox-complete-java-guide/)
 Aspose.HTML में सैंडबॉक्स सेटअप करने की पूरी प्रक्रिया, कोड उदाहरण और सर्वोत्तम प्रथाओं के साथ।
+### [Java में लाइब्रेरी संस्करण प्राप्त करें – लाइब्रेरी संस्करण दिखाने के लिए त्वरित गाइड](./get-library-version-in-java-quick-guide-to-show-library-vers/)
+Aspose.HTML for Java में लाइब्रेरी का संस्करण प्राप्त करने और प्रदर्शित करने का सरल तरीका।
 
 ---
 

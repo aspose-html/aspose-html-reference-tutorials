@@ -91,6 +91,9 @@ weight: 27
 ### [كيفية تضمين الخطوط عند تحويل EPUB إلى PDF – دليل Java](./how-to-embed-fonts-when-converting-epub-to-pdf-java-guide/)
 ### [دليل تحويل EPUB إلى PDF: تحويل الكتاب الإلكتروني إلى PDF باستخدام Aspose](./epub-to-pdf-tutorial-convert-ebook-to-pdf-with-aspose/)
 تعلم كيفية تحويل ملفات EPUB إلى PDF بسهولة باستخدام Aspose.HTML for Java في هذا الدليل الشامل.
+### [إنشاء PDF من EPUB – دليل Java خطوة بخطوة](./create-pdf-from-epub-step-by-step-java-guide/)
+دليل خطوة بخطوة لإنشاء ملف PDF من EPUB باستخدام Aspose.HTML for Java.
+
 ## الأسئلة المتكررة
 
 **Q:** *هل يمكنني تحويل ملفات EPUB المحمية إلى PDF؟*  

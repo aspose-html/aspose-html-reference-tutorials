@@ -77,6 +77,8 @@ url: /th/java/css-html-form-editing/
 เรียนรู้วิธีอ่านไฟล์ CSS ใน Java อย่างละเอียดด้วยขั้นตอนที่ชัดเจนในคู่มือนี้
 ### [การดึงองค์ประกอบโดย id ใน Java – คู่มือฉบับสมบูรณ์เกี่ยวกับสไตล์ที่คำนวณได้](./get-element-by-id-java-complete-guide-to-computed-styles/)
 เรียนรู้วิธีดึงองค์ประกอบ HTML ตาม id ใน Java พร้อมทำความเข้าใจสไตล์ที่คำนวณได้อย่างละเอียด
+### [วิธีดึงสไตล์ใน Java – ค้นหาองค์ประกอบและอ่านพื้นหลัง](./how-to-get-style-in-java-find-element-read-background/)
+เรียนรู้วิธีค้นหาองค์ประกอบ HTML และอ่านค่าพื้นหลังโดยใช้ Aspose.HTML สำหรับ Java
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

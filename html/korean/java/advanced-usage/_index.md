@@ -147,6 +147,8 @@ Aspose.HTML를 사용해 Java 애플리케이션 내에서 JavaScript를 안전�
 Aspose.HTML를 사용해 Java 환경에서 JavaScript를 활성화하고, 스크립트 실행 및 엔진 구성 방법을 자세히 안내합니다.
 ### [JavaScript에서 Java 호출 – 비동기 Fetch 및 JS 엔진 실행 완전 가이드](./call-java-from-javascript-complete-guide-to-async-fetch-js-e/)
 Java 애플리케이션에서 JavaScript를 실행하고, 비동기 fetch 호출을 통해 Java 메서드를 호출하는 방법을 단계별로 안내합니다.
+### [JavaScript에서 Java 호출 – 호스트 객체 추가 및 Java에서 JavaScript 실행](./call-java-from-javascript-add-host-object-and-run-javascript/)
+Java 애플리케이션에서 JavaScript를 실행하고, 호스트 객체를 추가해 Java 코드를 호출하는 방법을 단계별로 안내합니다.
 
 ---
 

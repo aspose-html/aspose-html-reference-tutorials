@@ -118,6 +118,11 @@ Dowiedz się, jak renderować HTML do PNG w Javie przy użyciu Aspose.HTML. Komp
 
 ### [Renderowanie HTML w Javie: konwersja długiej strony do PNG](./render-html-java-convert-long-page-to-png/)
 Dowiedz się, jak przy użyciu Aspose.HTML w Javie konwertować długie strony HTML na obrazy PNG.
+### [Ustaw współczynnik pikseli urządzenia w Javie – renderowanie HTML do PNG](./set-device-pixel-ratio-in-java-render-html-to-png/)
+Dowiedz się, jak ustawić współczynnik pikseli urządzenia w Javie, aby renderować HTML jako obrazy PNG o wysokiej rozdzielczości.
+
+### [Jak ustawić DPI przy konwertowaniu HTML do PNG – Kompletny przewodnik Java](./how-to-set-dpi-when-converting-html-to-png-complete-java-gui/)
+Poznaj, jak ustawić DPI przy konwersji HTML do PNG w Javie przy użyciu Aspose.HTML, aby uzyskać obrazy o żądanej rozdzielczości.
 
 ### [Converting HTML to TIFF](./convert-html-to-tiff/)
 Dowiedz się, jak łatwo konwertować HTML do TIFF przy użyciu Aspose.HTML for Java. Przewodnik krok po kroku dla efektywnego zarządzania dokumentami.

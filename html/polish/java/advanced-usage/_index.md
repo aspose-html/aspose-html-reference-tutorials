@@ -149,6 +149,8 @@ Poznaj, jak włączyć i uruchomić kod JavaScript w aplikacji Java przy użyciu
 Dowiedz się, jak wywoływać kod Javy z JavaScript przy użyciu Aspose.HTML, obsługiwać asynchroniczne żądania fetch i kontrolować silnik JS.
 ### [Jak używać Aspose HTML w Javie – Pełny przewodnik filtrowania XPath](./how-to-use-aspose-html-in-java-full-xpath-filtering-guide/)
 Poznaj, jak stosować pełne wyrażenia XPath w Aspose HTML dla Javy, aby precyzyjnie wybierać i przetwarzać elementy HTML.
+### [Wywołaj Javę z JavaScript – Dodaj obiekt hosta i uruchom JavaScript w Javie](./call-java-from-javascript-add-host-object-and-run-javascript/)
+Dowiedz się, jak dodać obiekt hosta w JavaScript i uruchamiać skrypty JavaScript bezpośrednio w aplikacji Java przy użyciu Aspose.HTML.
 
 ---
 

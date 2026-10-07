@@ -148,6 +148,8 @@ Hướng dẫn chi tiết cách sandbox JavaScript trong Aspose.HTML, bảo vệ
 Hướng dẫn chi tiết cách kích hoạt JavaScript trong ứng dụng Java bằng Aspose.HTML, bao gồm cấu hình và ví dụ thực tế.
 ### [Gọi Java từ JavaScript – Hướng dẫn toàn diện về Async Fetch & Thực thi Engine JavaScript](./call-java-from-javascript-complete-guide-to-async-fetch-js-e/)
 ### [Cách sử dụng Aspose HTML trong Java – Hướng dẫn đầy đủ về lọc XPath](./how-to-use-aspose-html-in-java-full-xpath-filtering-guide/)
+### [Gọi Java từ JavaScript – Thêm Đối tượng Host và Thực thi JavaScript trong Java](./call-java-from-javascript-add-host-object-and-run-javascript/)
+Học cách gọi mã Java từ JavaScript bằng cách thêm đối tượng host và thực thi JavaScript trong môi trường Java.
 
 ---
 

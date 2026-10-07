@@ -148,6 +148,8 @@ Leer hoe je JavaScript in Java kunt inschakelen met Aspose.HTML, inclusief confi
 ### [Java aanroepen vanuit JavaScript – Complete gids voor async fetch & JS‑engine uitvoering](./call-java-from-javascript-complete-guide-to-async-fetch-js-e/)
 Leer hoe je Java vanuit JavaScript kunt aanroepen, async fetch gebruikt en de JS‑engine uitvoert met Aspose.HTML for Java.
 ### [Hoe Aspose HTML in Java te gebruiken – volledige XPath-filtergids](./how-to-use-aspose-html-in-java-full-xpath-filtering-guide/)
+### [Java aanroepen vanuit JavaScript – Host‑object toevoegen en JavaScript uitvoeren in Java](./call-java-from-javascript-add-host-object-and-run-javascript/)
+Leer hoe je een host‑object toevoegt en JavaScript vanuit Java kunt uitvoeren met Aspose.HTML for Java.
 
 ---
 

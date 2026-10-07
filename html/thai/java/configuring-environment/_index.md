@@ -120,6 +120,8 @@ A: การแซนด์บ็อกซ์จำกัด API บางอย
 
 ### [สร้าง Aspose HTML Sandbox – คู่มือฉบับสมบูรณ์สำหรับ Java](./create-aspose-html-sandbox-complete-java-guide/)
 เรียนรู้วิธีสร้าง sandbox สำหรับ Aspose.HTML ด้วย Java อย่างละเอียด ตั้งค่าความปลอดภัยและแปลง HTML เป็น PDF อย่างมั่นใจ
+### [Get Library Version in Java – Quick Guide to Show Library Version](./get-library-version-in-java-quick-guide-to-show-library-vers/)
+เรียนรู้วิธีดึงและแสดงเวอร์ชันของ Aspose.HTML for Java อย่างรวดเร็ว
 
 ---
 

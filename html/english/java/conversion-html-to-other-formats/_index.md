@@ -188,6 +188,10 @@ Guide to convert HTML to PDF/A‑2b compliant PDFs in Java using Aspose.HTML, en
 
 ### [html to pdf conversion – Complete Guide to Batch Convert Files with Aspose.HTML](./html-to-pdf-conversion-complete-guide-to-batch-convert-files/)
 Step-by-step guide to batch converting multiple HTML files to PDF using Aspose.HTML for Java.
+### [html to pdf tutorial – Convert HTML to PDF with Aspose.HTML Java](./html-to-pdf-tutorial-convert-html-to-pdf-with-aspose-html-ja/)
+Step-by-step tutorial to convert HTML to PDF using Aspose.HTML for Java, covering setup, options, and best practices.
+### [Create PDF from HTML in Java – Parallel Batch Conversion Guide](./create-pdf-from-html-in-java-parallel-batch-conversion-guide/)
+Learn how to convert multiple HTML files to PDF simultaneously in Java using Aspose.HTML for efficient batch processing.
 
 ## Frequently Asked Questions
 

@@ -148,6 +148,9 @@ Pelajari cara mengaktifkan eksekusi JavaScript dalam aplikasi Java menggunakan A
 ### [Cara Menggunakan Aspose HTML di Java – Panduan Penyaringan XPath Lengkap](./how-to-use-aspose-html-in-java-full-xpath-filtering-guide/)
 Pelajari cara menerapkan filter XPath lengkap dengan Aspose HTML untuk Java dalam memproses dokumen HTML secara efisien.
 
+### [Panggil Java dari JavaScript – Tambahkan Host Object dan Jalankan JavaScript di Java](./call-java-from-javascript-add-host-object-and-run-javascript/)
+Pelajari cara memanggil Java dari JavaScript dengan menambahkan host object dan menjalankan skrip JavaScript di dalam aplikasi Java menggunakan Aspose.HTML.
+
 ---
 
 **Terakhir Diperbarui:** 2025-11-29  

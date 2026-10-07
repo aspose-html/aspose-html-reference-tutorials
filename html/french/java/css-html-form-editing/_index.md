@@ -79,6 +79,8 @@ Apprenez à récupérer les styles CSS d'un élément en Java avec querySelector
 ### [Obtenir un élément par ID en Java – Guide complet des styles calculés](./get-element-by-id-java-complete-guide-to-computed-styles/)
 Apprenez à récupérer un élément par son ID en Java et à accéder aux styles calculés avec Aspose.HTML, grâce à ce guide complet pas à pas.
 
+### [Comment obtenir le style en Java – Trouver un élément et lire l'arrière‑plan](./how-to-get-style-in-java-find-element-read-background/)
+Apprenez à récupérer les propriétés de style d'un élément HTML, notamment la couleur d'arrière‑plan, en utilisant Aspose.HTML pour Java.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

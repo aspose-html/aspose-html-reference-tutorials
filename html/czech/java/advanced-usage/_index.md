@@ -151,6 +151,8 @@ Naučte se, jak povolit JavaScript v Javě pomocí Aspose.HTML, včetně nastave
 Naučte se volat Java metody z JavaScriptu, používat asynchronní fetch a spravovat vykonávání skriptů v JS enginu pomocí Aspose.HTML pro Java.
 ### [Jak používat Aspose HTML v Javě – Kompletní průvodce filtrováním pomocí XPath](./how-to-use-aspose-html-in-java-full-xpath-filtering-guide/)
 Naučte se, jak pomocí Aspose.HTML v Javě aplikovat kompletní filtrování XML/HTML pomocí XPath výrazů.
+### [Volání Javy z JavaScriptu – Přidání host objektu a spuštění JavaScriptu v Javě](./call-java-from-javascript-add-host-object-and-run-javascript/)
+Naučte se volat Java metody z JavaScriptu pomocí host objektu a spouštět JavaScript v Javě s Aspose.HTML.
 
 ---
 

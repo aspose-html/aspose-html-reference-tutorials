@@ -161,6 +161,9 @@ weight: 20
 ### [كيفية استخدام Aspose HTML في Java – دليل تصفية XPath الكامل](./how-to-use-aspose-html-in-java-full-xpath-filtering-guide/)
 تعلم كيفية تطبيق فلاتر XPath المتقدمة على مستندات HTML باستخدام Aspose.HTML for Java خطوة بخطوة.
 
+### [استدعاء Java من JavaScript – إضافة كائن مضيف وتشغيل JavaScript في Java](./call-java-from-javascript-add-host-object-and-run-javascript/)
+تعلم كيفية استدعاء كود Java من JavaScript بإضافة كائن مضيف وتشغيل سكريبتات JavaScript داخل تطبيق Java.
+
 ---
 
 **آخر تحديث:** 2025-11-29  

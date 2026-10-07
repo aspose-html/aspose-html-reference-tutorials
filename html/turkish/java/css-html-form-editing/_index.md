@@ -76,6 +76,8 @@ querySelector ve computed style kullanarak bir öğenin CSS özelliklerini Java�
 
 ### [Java’da ID ile öğe al – Hesaplanmış Stillerin Tam Kılavuzu](./get-element-by-id-java-complete-guide-to-computed-styles/)
 Java’da ID ile bir öğenin hesaplanmış stillerini nasıl alacağınızı adım adım öğrenin.
+### [Java’da Stil Almak – Öğeyi Bul ve Arka Planı Oku](./how-to-get-style-in-java-find-element-read-background/)
+Aspose.HTML for Java kullanarak bir öğenin stilini bulup arka plan rengini nasıl okuyacağınızı öğrenin.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

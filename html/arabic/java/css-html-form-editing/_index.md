@@ -75,6 +75,7 @@ url: /ar/java/css-html-form-editing/
 تعلم كيفية استخراج أنماط CSS في Java باستخدام querySelector وComputed Style خطوة بخطوة.
 ### [تحديد العنصر حسب المعرف في Java – دليل شامل للأنماط المحسوبة](./get-element-by-id-java-complete-guide-to-computed-styles/)
 تعلم كيفية الحصول على عنصر HTML باستخدام المعرف في Java وتطبيق الأنماط المحسوبة خطوة بخطوة باستخدام Aspose.HTML.
+### [كيفية الحصول على النمط في Java – العثور على العنصر وقراءة الخلفية](./how-to-get-style-in-java-find-element-read-background/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

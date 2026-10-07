@@ -161,6 +161,8 @@ Aspose.HTML for Java を使用して SVG を WebP に変換します。完全な
 Aspose.HTML for Java を使用して HTML を WebP に変換します。完全な Java ガイドでステップバイステップの手順を紹介します。
 
 ### [HTML をレンダリング（Java）: 長ページを PNG に変換](./render-html-java-convert-long-page-to-png/)
+### [HTML を PNG に変換する際の DPI 設定 – 完全な Java ガイド](./how-to-set-dpi-when-converting-html-to-png-complete-java-gui/)
+Aspose.HTML for Java を使用して、HTML を PNG に変換する際に DPI を設定する方法をステップバイステップで解説します。
 
 ## よくある質問
 

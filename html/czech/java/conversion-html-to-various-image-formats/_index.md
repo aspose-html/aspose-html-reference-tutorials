@@ -110,6 +110,8 @@ Naučte se nastavit vlastní velikost viewportu při renderování HTML do PNG p
 
 ### [Převod HTML do PNG – Průvodce hromadným převodem](./convert-html-to-png-batch-conversion-guide/)
 Naučte se provádět hromadný převod HTML souborů na PNG pomocí Aspose.HTML for Java s podrobným krok‑za‑krokem návodem.
+### [Nastavte poměr pixelů zařízení v Javě – renderování HTML do PNG](./set-device-pixel-ratio-in-java-render-html-to-png/)
+Naučte se nastavit Device Pixel Ratio při renderování HTML do PNG v Javě pomocí Aspose.HTML.
 
 ### [Převod HTML do TIFF](./convert-html-to-tiff/)
 Naučte se snadno převést HTML do TIFF pomocí Aspose.HTML for Java. Krok‑za‑krokem průvodce pro efektivní zpracování dokumentů.
@@ -156,6 +158,9 @@ Naučte se, jak nastavit Device Pixel Ratio v Javě pomocí Aspose.HTML, aby vý
 Kompletní průvodce převodem HTML do formátu WebP v Javě pomocí Aspose.HTML.
 ### [Vytvoření HTML banneru a renderování do PNG – Kompletní průvodce v Javě](./create-html-banner-and-render-to-png-full-java-guide/)
 Naučte se vytvořit HTML banner a převést jej do PNG pomocí Aspose.HTML for Java v několika krocích.
+
+### [Jak nastavit DPI při převodu HTML na PNG – Kompletní průvodce v Javě](./how-to-set-dpi-when-converting-html-to-png-complete-java-gui/)
+Naučte se nastavit DPI při převodu HTML na PNG pomocí Aspose.HTML for Java. Kompletní krok‑za‑krokem průvodce.
 
 ## Často kladené otázky
 

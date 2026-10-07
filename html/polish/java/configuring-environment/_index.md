@@ -63,7 +63,7 @@ Dynamiczny HTML często zawiera skrypty, które muszą zostać uruchomione przed
 
 ## Jak wdrożyć sandboxing dla bezpiecznych konwersji
 
-Podczas przetwarzania HTML z niezweryfikowanych źródeł sandboxing izoluje wykonywanie skryptów, chroniąc aplikację przed złośliwym kodem. Jest to szczególnie ważne przy konwersji do PDF, gdzie niebezpieczny skrypt mógłby inaczej zagrozić środowisku hosta.
+Podczas przetwarzania HTML z niezweryfikowanych źródeł sandboxing izoluje wykonywanie skryptów, chroniąc aplikację przed złośliwym kodem. Jest to szczególnie ważne przy konwersji do PDF, gdzie niebezpieczny skrypt mógłby zagrozić środowisku hosta.
 
 [Dowiedz się, jak wdrożyć sandboxing w Aspose.HTML for Java.](./implement-sandboxing/)
 
@@ -113,6 +113,8 @@ Dowiedz się, jak wdrożyć sandboxing w Aspose.HTML for Java, aby bezpiecznie k
 ### [Ustaw własny arkusz stylów w Aspose.HTML for Java](./set-user-style-sheet/)
 Dowiedz się, jak ustawić własny arkusz stylów użytkownika w Aspose.HTML for Java, ulepszając stylizację dokumentów i konwertując HTML do PDF z łatwością.
 ### [Utwórz sandbox Aspose HTML – Kompletny przewodnik Java](./create-aspose-html-sandbox-complete-java-guide/)
+### [Pobierz wersję biblioteki w Javie – szybki przewodnik wyświetlania wersji](./get-library-version-in-java-quick-guide-to-show-library-vers/)
+Dowiedz się, jak szybko uzyskać i wyświetlić wersję biblioteki Aspose.HTML w Javie.
 
 ---
 

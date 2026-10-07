@@ -77,6 +77,8 @@ Erfahren Sie, wie Sie CSS-Dateien in Java einlesen und verarbeiten – eine deta
 Erfahren Sie, wie Sie mit Aspose.HTML für Java CSS-Eigenschaften eines Elements über querySelector und computedStyle auslesen können.
 ### [Element per ID in Java – Komplett‑Anleitung zu berechneten Stilen](./get-element-by-id-java-complete-guide-to-computed-styles/)
 Erfahren Sie, wie Sie mit Aspose.HTML für Java ein Element per ID auswählen und dessen berechnete Stile ermitteln – Schritt‑für‑Schritt‑Anleitung.
+### [Wie man Stil in Java abruft – Element finden und Hintergrund auslesen](./how-to-get-style-in-java-find-element-read-background/)
+Erfahren Sie, wie Sie mit Aspose.HTML für Java das CSS‑Styling eines Elements ermitteln und den Hintergrundwert auslesen können.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

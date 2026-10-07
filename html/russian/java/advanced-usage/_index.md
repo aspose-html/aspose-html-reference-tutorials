@@ -149,6 +149,8 @@ Aspose.HTML позволяет прикрепить `DomMutationObserver` к л�
 ### [Вызов Java из JavaScript – Полное руководство по асинхронному fetch и выполнению кода в JS‑движке](./call-java-from-javascript-complete-guide-to-async-fetch-js-e/)
 ### [Как использовать Aspose HTML в Java – Полное руководство по фильтрации XPath](./how-to-use-aspose-html-in-java-full-xpath-filtering-guide/)
 Узнайте, как применять XPath‑фильтры в Aspose HTML for Java для точного выбора элементов при обработке HTML.
+### [Вызов Java из JavaScript – Добавление хост‑объекта и выполнение JavaScript в Java](./call-java-from-javascript-add-host-object-and-run-javascript/)
+Узнайте, как добавить хост‑объект Java и запускать JavaScript‑код из Java с помощью Aspose.HTML.
 
 ---
 

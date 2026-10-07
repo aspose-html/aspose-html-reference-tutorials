@@ -92,7 +92,6 @@ Aprenda cómo convertir HTML a GIF en Java usando Aspose.HTML. Una guía paso a 
 Aprenda a convertir HTML a JPEG con Aspose.HTML for Java. Guía paso a paso para un procesamiento de documentos sin interrupciones.
 
 ### [Converting HTML to PNG](./convert-html-to-png/)
-Aprenda cómo convertir HTML a PNG en Java con Aspose.HTML. Una guía completa con instrucciones paso a paso.
 ### [Cómo establecer DPI al convertir HTML a PNG](./how-to-set-dpi-when-converting-html-to-png/)
 Aprenda a configurar la resolución DPI al generar imágenes PNG desde HTML usando Aspose.HTML for Java.
 
@@ -111,6 +110,8 @@ Aprenda a convertir HTML a PNG en lotes usando Aspose.HTML for Java. Guía paso 
 ### [Renderizar HTML en Java: Convertir página larga a PNG](./render-html-java-convert-long-page-to-png/)
 Aprenda a convertir páginas HTML extensas a imágenes PNG usando Aspose.HTML for Java, con pasos claros y manejo de alto rendimiento.
 ### [Cómo renderizar HTML a PNG – Guía completa de Java](./how-to-render-html-to-png-complete-java-guide/)
+### [Cómo establecer DPI al convertir HTML a PNG – Guía completa de Java](./how-to-set-dpi-when-converting-html-to-png-complete-java-gui/)
+Aprenda a configurar la resolución DPI al convertir HTML a PNG usando Aspose.HTML for Java.
 ### [Converting HTML to TIFF](./convert-html-to-tiff/)
 Aprenda a convertir HTML a TIFF fácilmente usando Aspose.HTML for Java. Guía paso a paso para un manejo eficiente de documentos.
 
@@ -164,6 +165,8 @@ Aprenda a convertir SVG a WebP en Java usando Aspose.HTML. Guía paso a paso par
 Aprenda a establecer la relación de píxeles del dispositivo en Java usando Aspose.HTML. Guía paso a paso para un renderizado preciso.
 ### [Crear banner HTML y renderizar a PNG – Guía completa en Java](./create-html-banner-and-render-to-png-full-java-guide/)
 Aprenda a crear un banner HTML y renderizarlo a PNG usando Aspose.HTML for Java. Guía paso a paso completa.
+### [Cómo establecer la relación de píxeles del dispositivo en Java – Renderizar HTML a PNG](./set-device-pixel-ratio-in-java-render-html-to-png/)
+Aprenda a establecer la relación de píxeles del dispositivo al renderizar HTML a PNG en Java con Aspose.HTML.
 
 ## Preguntas frecuentes
 

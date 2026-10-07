@@ -110,6 +110,8 @@ Tanulja meg, hogyan konvertálja az e‑könyveket PDF‑be az Aspose.HTML for J
 
 **Q:** *Mely Java verziók támogatottak?*  
 **A:** A könyvtár támogatja a Java 8‑at és újabbakat, beleértve a Java 11‑et, Java 17‑et és a későbbi LTS kiadásokat.
+### [PDF létrehozása EPUB‑ból – Lépésről‑lépésre Java útmutató](./create-pdf-from-epub-step-by-step-java-guide/)
+Tanuld meg, hogyan hozhatsz létre PDF-et EPUB-ból Java-ban az Aspose.HTML segítségével, részletes útmutatóval.
 
 ---
 

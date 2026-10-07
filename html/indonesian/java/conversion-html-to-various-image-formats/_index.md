@@ -107,6 +107,9 @@ Pelajari cara mudah mengkonversi HTML ke TIFF menggunakan Aspose.HTML untuk Java
 ### [Cara Merender HTML ke PNG – Panduan Lengkap Java](./how-to-render-html-to-png-complete-java-guide/)
 Panduan lengkap cara merender HTML menjadi gambar PNG menggunakan Aspose.HTML untuk Java, dengan contoh kode langkah demi langkah.
 ### [Render HTML Java: Mengonversi Halaman Panjang ke PNG](./render-html-java-convert-long-page-to-png/)
+### [Cara Mengatur DPI Saat Mengonversi HTML ke PNG – Panduan Lengkap Java](./how-to-set-dpi-when-converting-html-to-png-complete-java-gui/)
+Panduan langkah demi langkah mengatur DPI pada konversi HTML ke PNG menggunakan Aspose.HTML for Java untuk hasil gambar berkualitas tinggi.
+### [Mengatur Rasio Piksel Perangkat di Java – Render HTML ke PNG](./set-device-pixel-ratio-in-java-render-html-to-png/)
 
 ### [Mengonversi HTML ke WebP – Panduan Lengkap Java dengan Aspose.HTML](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
 ### [Cara merender HTML ke PNG di Java – Pandaan Lengkap](./how-to-render-html-to-png-in-java-complete-guide/)

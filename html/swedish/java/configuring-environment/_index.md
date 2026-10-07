@@ -107,6 +107,9 @@ Att konfigurera din miljö är grunden för framgångsrika **convert HTML to PDF
 ### [Set User Style Sheet in Aspose.HTML for Java](./set-user-style-sheet/)
 ### [Skapa Aspose HTML Sandbox – Komplett Java‑guide](./create-aspose-html-sandbox-complete-java-guide/)
 
+### [Hämta biblioteksversion i Java – Snabbguide för att visa biblioteksversion](./get-library-version-in-java-quick-guide-to-show-library-vers/)
+Lär dig hur du snabbt visar Aspose.HTML‑bibliotekets version i Java med en enkel kodexempel.
+
 ---
 
 **Senast uppdaterad:** 2025-12-03  

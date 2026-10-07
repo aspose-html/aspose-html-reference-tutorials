@@ -77,6 +77,8 @@ Scopri come utilizzare getComputedStyle in Java per estrarre il colore di sfondo
 Scopri come recuperare gli stili CSS in Java usando querySelector e le proprietà di stile calcolato.
 ### [Ottenere elemento per ID in Java – Guida completa agli stili calcolati](./get-element-by-id-java-complete-guide-to-computed-styles/)
 Scopri come individuare e ottenere gli stili calcolati di un elemento per ID usando Aspose.HTML per Java in questa guida dettagliata.
+### [Come ottenere lo stile in Java – Trova elemento e leggi lo sfondo](./how-to-get-style-in-java-find-element-read-background/)
+Scopri come individuare un elemento HTML in Java e leggere il valore di background usando Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -119,7 +119,10 @@ Naučte se, jak implementovat sandboxing v Aspose.HTML pro Java pro bezpečné �
 ### [Vytvořte Aspose HTML Sandbox – Kompletní průvodce pro Javu](./create-aspose-html-sandbox-complete-java-guide/)
 
 ### [Nastavte uživatelský stylový list v Aspose.HTML pro Java](./set-user-style-sheet/)
-Naučte se, jak nastavit vlastní uživatelský stylový list v Aspose.HTML pro Java, vylepšit stylování dokumentu a snadno převést HTML do PDF.
+Naučte se, jak nastavit vlastní uživat
+
+### [Získání verze knihovny v Javě – Rychlý průvodce zobrazením verze knihovny](./get-library-version-in-java-quick-guide-to-show-library-vers/)
+Naučte se, jak v Javě získat a zobrazit aktuální verzi knihovny Aspose.HTML pomocí několika řádků kódu.
 
 ---
 

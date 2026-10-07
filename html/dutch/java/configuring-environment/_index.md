@@ -114,6 +114,8 @@ Learn how to implement sandboxing in Aspose.HTML for Java to securely control sc
 Learn how to set a custom user stylesheet in Aspose.HTML for Java, enhancing your document styling and converting HTML to PDF with ease.
 ### [Maak Aspose HTML Sandbox – Complete Java-gids](./create-aspose-html-sandbox-complete-java-guide/)
 Leer hoe je een Aspose HTML‑sandbox maakt in Java, zodat scripts veilig worden uitgevoerd en HTML‑conversies veilig zijn.
+### [Bibliotheekversie ophalen in Java – Snelle gids om de bibliotheekversie weer te geven](./get-library-version-in-java-quick-guide-to-show-library-vers/)
+Leer hoe je de Aspose.HTML bibliotheekversie in Java kunt ophalen met deze snelle gids.
 
 ---
 

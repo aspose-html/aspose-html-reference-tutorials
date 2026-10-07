@@ -74,6 +74,8 @@ Naučte se, jak pomocí Aspose.HTML pro Java načíst a analyzovat CSS soubory v
 Naučte se pomocí querySelector a vypočtených stylů získat CSS vlastnosti v dokumentu s Aspose.HTML pro Javu.
 ### [Získání elementu podle ID v Javě – kompletní průvodce výpočtem stylů](./get-element-by-id-java-complete-guide-to-computed-styles/)
 Naučte se pomocí Aspose.HTML pro Javu získat element podle ID a získat jeho vypočtené styly.
+### [Jak získat styl v Javě – najít prvek a přečíst pozadí](./how-to-get-style-in-java-find-element-read-background/)
+Naučte se pomocí Aspose.HTML pro Javu získat styl prvku a číst jeho pozadí v HTML dokumentu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

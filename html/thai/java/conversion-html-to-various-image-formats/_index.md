@@ -105,6 +105,8 @@ weight: 24
 ### [แปลง HTML เป็น PNG – คู่มือการแปลงแบบชุด](./convert-html-to-png-batch-conversion-guide/)
 เรียนรู้วิธีแปลงหลายไฟล์ HTML เป็น PNG พร้อมขั้นตอนและตัวอย่างโค้ดใน Java
 ### [สร้างแบนเนอร์ HTML และเรนเดอร์เป็น PNG – คู่มือ Java ฉบับสมบูรณ์](./create-html-banner-and-render-to-png-full-java-guide/)
+### [วิธีตั้งค่า DPI เมื่อแปลง HTML เป็น PNG – คู่มือ Java ฉบับสมบูรณ์](./how-to-set-dpi-when-converting-html-to-png-complete-java-gui/)
+### [ตั้งค่าอัตราพิกเซลอุปกรณ์ใน Java – เรนเดอร์ HTML เป็น PNG](./set-device-pixel-ratio-in-java-render-html-to-png/)
 ### [การแปลง HTML เป็น TIFF](./convert-html-to-tiff/)
 เรียนรู้วิธีการแปลง HTML เป็น TIFF ได้อย่างง่ายดายโดยใช้ Aspose.HTML สำหรับ Java คู่มือทีละขั้นตอนเพื่อการจัดการเอกสารอย่างมีประสิทธิภาพ
 ### [วิธีใช้ ExecutorService เพื่อแปลง HTML เป็น PNG แบบแบตช์ขนาน](./how-to-use-executorservice-for-parallel-html-to-png-batch-co/)

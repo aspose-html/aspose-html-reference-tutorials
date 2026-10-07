@@ -36,7 +36,6 @@ Aspose.HTML for Java を使用して、要素の計算済み CSS スタイルを
 ### [Javaでスタイルを取得する方法 – HTMLのロードとクエリセレクタ](./how-to-get-style-in-java-load-html-query-selector/)
 JavaでHTMLをロードし、クエリセレクタでスタイル情報を取得する手順を解説します。
 ### [Javaでクラスによる要素選択 – 完全ハウツーガイド](./select-element-by-class-in-java-complete-how-to-guide/)
-Javaコードでクラス属性を持つ要素を取得し操作する方法をステップバイステップで解説します。
 ### [JavaでCSSを取得する方法 – Aspose.HTMLでスタイルを抽出する完全ガイド](./how-to-get-css-in-java-complete-guide-to-extract-styles-with/)
 Aspose.HTML を使用して、Java で Web ページから CSS スタイルを抽出し、解析する手順を詳しく解説します。
 
@@ -80,6 +79,9 @@ querySelector と Computed Style を活用し、Java で要素の CSS プロパ�
 
 ### [JavaでIDによる要素取得 – 計算スタイルの完全ガイド](./get-element-by-id-java-complete-guide-to-computed-styles/)
 Javaコードで要素のIDを取得し、計算されたスタイル情報を取得する方法をステップバイステップで解説します。
+### [Javaでスタイルを取得する方法 – 要素の取得と背景の読み取り](./how-to-get-style-in-java-find-element-read-background/)
+Javaコードで要素のスタイル情報を取得し、背景色や画像を読み取る手順をステップバイステップで解説します。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

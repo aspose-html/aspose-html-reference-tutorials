@@ -160,6 +160,8 @@ A: 不需要。單一的 Aspose.HTML for Java 授權即涵蓋所有輸出格式�
 ### [使用 Aspose.HTML for Java – 完整 XPath 篩選指南](./how-to-use-aspose-html-in-java-full-xpath-filtering-guide/)
 說明如何在 Aspose.HTML for Java 中使用 XPath 進行完整的節點篩選與資料提取。
 
+### [從 JavaScript 呼叫 Java – 新增 Host 物件並在 Java 中執行 JavaScript](./call-java-from-javascript-add-host-object-and-run-javascript/)
+
 ---
 
 **最後更新日期：** 2025-11-29  

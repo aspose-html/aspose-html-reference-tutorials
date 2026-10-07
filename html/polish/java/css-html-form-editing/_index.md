@@ -77,6 +77,8 @@ Dowiedz się, jak programowo odczytywać i analizować arkusze stylów CSS w Jav
 Dowiedz się, jak programowo pobierać style CSS elementów w Javie przy użyciu querySelector i właściwości Computed Style w Aspose.HTML.
 ### [Pobieranie elementu po ID w Javie – Kompletny przewodnik po stylach obliczonych](./get-element-by-id-java-complete-guide-to-computed-styles/)
 Dowiedz się, jak w Javie pobrać element po ID i uzyskać jego obliczone style, krok po kroku.
+### [Jak uzyskać styl w Javie – Znajdź element i odczytaj tło](./how-to-get-style-in-java-find-element-read-background/)
+Dowiedz się, jak w Javie znaleźć element i odczytać jego tło przy użyciu Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

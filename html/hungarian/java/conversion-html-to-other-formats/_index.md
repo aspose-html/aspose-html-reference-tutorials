@@ -132,6 +132,9 @@ Ismerje meg, hogyan konvertálhatja az SVG‑t XPS‑re az Aspose.HTML for Java 
 ### [PDF létrehozása HTML‑ből egyedi oldalmérettel és beágyazott betűtípusokkal](./create-pdf-from-html-with-custom-page-size-and-embedded-font/)
 Ismerje meg, hogyan állíthat be egyedi oldalméretet és ágyazhat be betűtípusokat a PDF‑generálás során HTML‑ből Java‑ban.
 ### [HTML PDF konvertálás – Teljes útmutató kötegelt fájlok átalakításához az Aspose.HTML‑el](./html-to-pdf-conversion-complete-guide-to-batch-convert-files/)
+### [PDF létrehozása HTML‑ből Java‑ban – Párhuzamos kötegelt konverzió útmutató](./create-pdf-from-html-in-java-parallel-batch-conversion-guide/)
+Tanulja meg, hogyan konvertáljon több HTML‑fájlt egyszerre PDF‑re Java‑ban párhuzamosan az Aspose.HTML segítségével.
+### [HTML to PDF oktatóanyag – HTML PDF-re konvertálás Aspose.HTML Java-val](./html-to-pdf-tutorial-convert-html-to-pdf-with-aspose-html-ja/)
 
 ### [HTML átalakítása PDF-re Java-val – hogyan hozzunk létre szálkészletet](./convert-html-to-pdf-with-java-how-to-create-thread-pool/)
 Ismerje meg, hogyan használhat szálkészletet a HTML‑PDF konvertáláshoz Java‑ban, a teljesítmény növelése érdekében.

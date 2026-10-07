@@ -100,6 +100,10 @@ Erfahren Sie, wie Sie mehrere HTML‑Dateien effizient in PNG‑Bilder umwandeln
 Erfahren Sie, wie Sie mit ExecutorService mehrere HTML‑Dateien gleichzeitig in PNG‑Bilder konvertieren, um die Verarbeitungsgeschwindigkeit zu erhöhen.
 ### [HTML zu PNG rendern – Vollständiger Java‑Leitfaden](./how-to-render-html-to-png-complete-java-guide/)
 Erfahren Sie, wie Sie mit Aspose.HTML for Java HTML‑Inhalte in hochwertige PNG‑Bilder rendern – Schritt‑für‑Schritt‑Anleitung.
+### [Wie man DPI beim Konvertieren von HTML zu PNG festlegt – Vollständige Java‑Anleitung](./how-to-set-dpi-when-converting-html-to-png-complete-java-gui/)
+Erfahren Sie, wie Sie DPI beim Konvertieren von HTML zu PNG mit Aspose.HTML for Java einstellen. Schritt‑für‑Schritt‑Leitfaden.
+### [Geräte-Pixelverhältnis in Java festlegen – HTML zu PNG rendern](./set-device-pixel-ratio-in-java-render-html-to-png/)
+Erfahren Sie, wie Sie das Geräte‑Pixelverhältnis in Aspose.HTML for Java einstellen, um HTML mit hoher Auflösung als PNG zu rendern.
 ### [HTML in TIFF konvertieren](./convert-html-to-tiff/)
 Erfahren Sie, wie Sie HTML einfach mit Aspose.HTML for Java in TIFF konvertieren. Schritt‑für‑Schritt‑Leitfaden für effiziente Dokumentenverarbeitung.
 ### [Thumbnail aus HTML generieren – Java‑Leitfaden](./how-to-generate-thumbnail-from-html-java-guide/)

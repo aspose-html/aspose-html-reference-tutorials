@@ -60,7 +60,7 @@ Convertire HTML in BMP è una necessità comune per l'archiviazione di pagine we
 Vuoi **convertire HTML in GIF** per anteprime animate o grafiche leggere? Aspose.HTML for Java lo rende semplice. Questo tutorial ti guida attraverso il processo, garantendo un output di alta qualità con un codice minimo.
 
 ## Conversione di HTML in JPEG
-Se hai bisogno di **convertire HTML in JPEG** per rappresentazioni simili a foto o per compatibilità con sistemi legacy, questa guida passo‑passo semplifica il flusso di lavoro mantenendo la fedeltà visiva.
+Se hai bisogno di **convertire HTML in JPEG** per rappresentazioni simili a foto o per compatibilità con sistemi legacy, questa guida passo‑step semplifica il flusso di lavoro mantenendo la fedeltà visiva.
 
 ## Conversione di HTML in PNG
 Trasformare HTML in immagini PNG è ideale per grafiche lossless, screenshot o quando è necessaria la trasparenza. La nostra guida completa fornisce istruzioni chiare per un'esperienza di conversione fluida.
@@ -96,7 +96,6 @@ Impara a convertire HTML in JPEG con Aspose.HTML for Java. Guida passo‑passo p
 
 ### [Conversione di HTML in PNG](./convert-html-to-png/)
 Scopri come convertire HTML in immagini PNG in Java con Aspose.HTML. Una guida completa con istruzioni passo‑passo.
-
 ### [Come impostare DPI durante la conversione di HTML in PNG](./how-to-set-dpi-when-converting-html-to-png/)
 Scopri come impostare il DPI durante la conversione di HTML in PNG con Aspose.HTML for Java. Guida passo‑passo.
 
@@ -109,6 +108,9 @@ Scopri come rendere HTML in PNG con un viewport personalizzato usando Aspose.HTM
 ### [Come impostare DPI durante la conversione da SVG a PNG con Java](./how-to-set-dpi-when-converting-svg-to-png-with-java/)
 Impara a configurare il DPI per ottenere PNG di alta qualità dalla conversione di SVG usando Aspose.HTML for Java.
 
+### [Come impostare i DPI quando si converte HTML in PNG – Guida completa Java](./how-to-set-dpi-when-converting-html-to-png-complete-java-gui/)
+Impara a configurare i DPI per la conversione da HTML a PNG usando Aspose.HTML for Java, con esempi pratici passo‑passo.
+### [Imposta il rapporto di pixel del dispositivo in Java – Render HTML in PNG](./set-device-pixel-ratio-in-java-render-html-to-png/)
 ### [Conversione di HTML in TIFF](./convert-html-to-tiff/)
 Scopri come convertire facilmente HTML in TIFF usando Aspose.HTML for Java. Guida passo‑passo per una gestione efficiente dei documenti.
 
