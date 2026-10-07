@@ -105,6 +105,12 @@ Apprenez à convertir du HTML en images PNG en C# grâce à ce guide détaillé 
 ### [Comment rendre le HTML au format PNG en C# – Guide complet](./how-to-render-html-to-png-in-c-complete-guide/)
 Apprenez à convertir du HTML en images PNG en C# grâce à ce guide complet et pratique.
 
+### [Rendre le HTML en image en C# – Guide complet étape par étape](./render-html-to-image-in-c-complete-step-by-step-guide/)
+Apprenez à convertir du HTML en images avec C# grâce à ce guide complet et détaillé.
+
+### [Rendre le HTML au format PNG en C# – Guide étape par étape](./render-html-to-png-in-c-step-by-step-guide/)
+Apprenez à convertir du HTML en PNG avec C# grâce à ce guide complet étape par étape.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

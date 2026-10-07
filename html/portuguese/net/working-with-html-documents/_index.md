@@ -47,6 +47,7 @@ Agora, vamos levar suas habilidades para o próximo nível. Editar documentos HT
 ### [Como salvar HTML em C# com manipulador de recursos personalizado](./how-to-save-html-in-c-with-custom-resource-handler/)
 ### [Como salvar HTML com Aspose – Guia completo C#](./how-to-save-html-with-aspose-complete-c-guide/)
 ### [Como compactar HTML em C# – Guia completo para criar arquivo ZIP](./how-to-zip-html-in-c-complete-guide-to-create-zip-archive/)
+### [Criar documento HTML em C# – Guia completo usando um manipulador de recursos personalizado](./create-html-document-c-complete-guide-with-custom-resource-h/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

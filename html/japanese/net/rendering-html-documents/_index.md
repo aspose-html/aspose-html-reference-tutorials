@@ -108,6 +108,12 @@ Aspose.HTML for .NET を使い、HTML を高品質な PDF に変換する手順�
 ### [C# で HTML を PNG にレンダリングする完全ガイド](./how-to-render-html-to-png-in-c-complete-guide/)
 C# を使用して HTML を PNG 画像に変換する手順をステップバイステップで完全解説します。
 
+### [C# で HTML を画像にレンダリングする – 完全ステップバイステップガイド](./render-html-to-image-in-c-complete-step-by-step-guide/)
+Aspose.HTML for .NET を使い、C# で HTML を画像に変換する手順を完全に解説します。
+
+### [C# で HTML を PNG にレンダリングする – ステップバイステップ ガイド](./render-html-to-png-in-c-step-by-step-guide/)
+Aspose.HTML for .NET を使用して、C# で HTML を PNG 画像に変換する手順を詳しく解説します。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

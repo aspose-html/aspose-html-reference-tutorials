@@ -43,6 +43,8 @@ HTML 文档是 Web 的支柱，能够有效地创建和操作 HTML 文档是任�
 ### [如何使用 Aspose 保存 HTML – 完整 C# 指南](./how-to-save-html-with-aspose-complete-c-guide/)
 ### [如何在 C# 中压缩 HTML – 完整创建 ZIP 档案指南](./how-to-zip-html-in-c-complete-guide-to-create-zip-archive/)
 
+### [使用 C# 创建 HTML 文档 – 使用自定义资源处理程序的完整指南](./create-html-document-c-complete-guide-with-custom-resource-h/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

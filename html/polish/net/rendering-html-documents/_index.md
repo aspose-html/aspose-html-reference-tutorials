@@ -47,11 +47,16 @@ Naucz się renderować HTML do PNG w C# w pełnym przewodniku krok po kroku.
 ### [Renderuj HTML do PNG i zapisz do ZIP w C# – Kompletny przewodnik](./render-html-to-png-and-save-to-zip-with-c-complete-guide/)
 Naucz się, jak przy użyciu Aspose.HTML w C# renderować HTML do PNG i zapisywać wyniki w archiwum ZIP.
 
+### [Renderowanie HTML do obrazu w C# – Kompletny przewodnik krok po kroku](./render-html-to-image-in-c-complete-step-by-step-guide/)
+Pełny przewodnik w C# pokazujący, jak przy użyciu Aspose.HTML renderować HTML do obrazu, krok po kroku.
+
 ### [Jak renderować HTML jako PNG – Kompletny przewodnik C#](./how-to-render-html-as-png-complete-c-guide/)
 Pełny przewodnik C# pokazujący, jak przy użyciu Aspose.HTML renderować HTML jako PNG, krok po kroku.
 
 ### [Jak renderować HTML do PNG w C# – Kompletny przewodnik](./how-to-render-html-to-png-in-c-complete-guide/)
 Pełny przewodnik w C# pokazujący, jak przy użyciu Aspose.HTML renderować HTML jako PNG krok po kroku.
+### [Renderuj HTML do PNG w C# – Przewodnik krok po kroku](./render-html-to-png-in-c-step-by-step-guide/)
+Pełny przewodnik w C# pokazujący, jak przy użyciu Aspose.HTML renderować HTML do PNG, krok po kroku.
 
 ### [Jak używać Aspose do renderowania HTML do PNG – przewodnik krok po kroku](./how-to-use-aspose-to-render-html-to-png-step-by-step-guide/)
 Naucz się, jak przy użyciu Aspose renderować HTML do formatu PNG w kilku prostych krokach.

@@ -47,6 +47,7 @@ Nyní posuňte vaše dovednosti na další úroveň. Úpravy HTML dokumentů jso
 ### [Uložení HTML jako ZIP v C# – Kompletní průvodce s vlastním resource handlerem](./save-html-as-zip-in-c-complete-guide-with-custom-resource-ha/)
 ### [Jak uložit HTML s Aspose – Kompletní průvodce v C#](./how-to-save-html-with-aspose-complete-c-guide/)
 ### [Jak zkomprimovat HTML v C# – Kompletní průvodce vytvořením ZIP archivu](./how-to-zip-html-in-c-complete-guide-to-create-zip-archive/)
+### [Vytvořit HTML dokument v C# – Kompletní průvodce s vlastním resource handlerem](./create-html-document-c-complete-guide-with-custom-resource-h/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

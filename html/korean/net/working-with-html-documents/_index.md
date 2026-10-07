@@ -57,6 +57,10 @@ Aspose.Html을 사용해 C#에서 HTML을 저장하는 방법을 단계별로 �
 
 ### [C#에서 HTML 압축하기 – ZIP 아카이브 생성 완전 가이드](./how-to-zip-html-in-c-complete-guide-to-create-zip-archive/)
 
+### [C#로 HTML 문서 만들기 – 사용자 정의 리소스 핸들러 완전 가이드](./create-html-document-c-complete-guide-with-custom-resource-h/)
+
+사용자 정의 리소스 핸들러를 활용해 C#에서 HTML 문서를 만드는 방법을 단계별로 안내합니다.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

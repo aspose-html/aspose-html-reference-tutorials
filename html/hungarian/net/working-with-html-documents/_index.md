@@ -57,6 +57,10 @@ Ismerje meg, hogyan formázhatja félkövérre a HTML‑címeket CSS‑sel és C
 Megmutatjuk, hogyan menthet HTML-t C#-ban egyedi erőforráskezelőkkel és ZIP-archívummal.
 ### [HTML tömörítése C#-ban – Teljes lépésről‑lépésre útmutató](./how-to-zip-html-in-c-complete-step-by-step-guide/)
 
+### [HTML dokumentum létrehozása C#‑ban – Teljes útmutató egy egyéni erőforráskezelő használatával](./create-html-document-c-complete-guide-with-custom-resource-h/)
+
+Ismerje meg, hogyan hozhat létre HTML‑dokumentumot C#‑ban egy egyéni erőforráskezelő segítségével, részletes példákkal.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

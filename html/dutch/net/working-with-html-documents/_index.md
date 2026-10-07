@@ -48,6 +48,9 @@ Laten we nu uw vaardigheden naar een hoger niveau tillen. Het bewerken van HTML-
 ### [HTML opslaan als ZIP in C# – Complete gids met aangepaste resourcehandler](./save-html-as-zip-in-c-complete-guide-with-custom-resource-ha/)
 
 Leer hoe u HTML-bestanden opslaat als ZIP‑archief in C# met een aangepaste resourcehandler.
+### [HTML-document maken in C# – Complete gids met een aangepaste resourcehandler](./create-html-document-c-complete-guide-with-custom-resource-h/)
+
+Leer hoe u met CSS en C# kopteksten vet maakt in een .NET‑applicatie, stap voor stap met voorbeeldcode.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

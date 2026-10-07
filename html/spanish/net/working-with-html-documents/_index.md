@@ -63,6 +63,9 @@ Aprenda a comprimir documentos HTML en archivos ZIP y guardarlos usando un contr
 ### [Cómo comprimir HTML en C# – Guía completa para crear archivo ZIP](./how-to-zip-html-in-c-complete-guide-to-create-zip-archive/)
 Aprenda a crear archivos ZIP de contenido HTML usando C# con esta guía paso a paso.
 
+### [Crear documento HTML en C# – Guía completa con controlador de recursos personalizado](./create-html-document-c-complete-guide-with-custom-resource-h/)
+Aprenda a crear documentos HTML en C# usando un controlador de recursos personalizado en esta guía completa.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

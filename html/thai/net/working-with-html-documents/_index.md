@@ -57,6 +57,9 @@ url: /th/net/working-with-html-documents/
 ### [วิธีบีบอัด HTML ใน C# – คู่มือฉบับสมบูรณ์เพื่อสร้างไฟล์ ZIP](./how-to-zip-html-in-c-complete-guide-to-create-zip-archive/)
 เรียนรู้วิธีบีบอัดไฟล์ HTML เป็น ZIP ด้วย C# อย่างละเอียดครบถ้วน
 
+### [วิธีสร้างเอกสาร HTML ใน C# – คู่มือฉบับสมบูรณ์ด้วย Custom Resource Handler](./create-html-document-c-complete-guide-with-custom-resource-h/)
+เรียนรู้วิธีสร้างเอกสาร HTML ด้วย C# อย่างละเอียด พร้อมการใช้ Custom Resource Handler เพื่อจัดการทรัพยากร
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
