@@ -22,18 +22,6 @@ title: Java에서 스타일 가져오기 – 요소 찾기 및 배경 읽기
 url: /ko/java/css-html-form-editing/how-to-get-style-in-java-find-element-read-background/
 ---
 
-인라인 `style` 속성이 더 높은 우선순위를 가지지만, 계산된 스타일은 이미 계단식을 고려하므로 추가 로직이 필요 없습니다."
-
-- "**Transparency handling** – If the" (incomplete) keep as is.
-
-Now after that we have closing shortcodes.
-
-We must preserve them exactly.
-
-Thus final output includes all shortcodes and translated text.
-
-Let's assemble.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

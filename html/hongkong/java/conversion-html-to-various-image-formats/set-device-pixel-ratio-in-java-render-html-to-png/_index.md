@@ -20,9 +20,7 @@ title: 在 Java 中設定裝置像素比 – 將 HTML 渲染為 PNG
 url: /zh-hant/java/conversion-html-to-various-image-formats/set-device-pixel-ratio-in-java-render-html-to-png/
 ---
 
-missed items: code block placeholders remain. Ensure markdown formatting preserved.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

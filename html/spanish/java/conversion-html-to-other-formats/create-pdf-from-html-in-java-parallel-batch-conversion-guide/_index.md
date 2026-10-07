@@ -23,12 +23,6 @@ title: Crear PDF a partir de HTML en Java – Guía de conversión por lotes en 
 url: /es/java/conversion-html-to-other-formats/create-pdf-from-html-in-java-parallel-batch-conversion-guide/
 ---
 
-content.
-
-Be careful with markdown formatting: keep headings with #.
-
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

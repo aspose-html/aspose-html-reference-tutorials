@@ -23,10 +23,6 @@ title: 从 EPUB 创建 PDF – 步骤详解 Java 指南
 url: /zh/java/converting-epub-to-pdf/create-pdf-from-epub-step-by-step-java-guide/
 ---
 
-LTR, ignore.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

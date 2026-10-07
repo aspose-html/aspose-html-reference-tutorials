@@ -23,10 +23,6 @@ title: Gọi Java từ JavaScript – Thêm Đối tượng Host và Chạy Java
 url: /vi/java/advanced-usage/call-java-from-javascript-add-host-object-and-run-javascript/
 ---
 
-sure to keep markdown formatting.
-
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

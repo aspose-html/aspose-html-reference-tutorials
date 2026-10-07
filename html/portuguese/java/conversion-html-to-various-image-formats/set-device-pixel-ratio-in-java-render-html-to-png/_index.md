@@ -25,10 +25,6 @@ title: Definir proporção de pixels do dispositivo em Java – Renderizar HTML 
 url: /pt/java/conversion-html-to-various-image-formats/set-device-pixel-ratio-in-java-render-html-to-png/
 ---
 
-.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

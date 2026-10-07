@@ -23,14 +23,6 @@ title: जावा में HTML से PDF बनाएं – समान�
 url: /hi/java/conversion-html-to-other-formats/create-pdf-from-html-in-java-parallel-batch-conversion-guide/
 ---
 
-some ellipses "..." in the original due to maybe formatting errors. Should we keep them? Probably keep as is. But we can translate the surrounding text.
-
-Let's translate.
-
-Will keep shortcodes at top and bottom unchanged.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

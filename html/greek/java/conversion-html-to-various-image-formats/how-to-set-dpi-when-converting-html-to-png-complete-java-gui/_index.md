@@ -24,7 +24,7 @@ title: Πώς να ορίσετε DPI κατά τη μετατροπή HTML σε
 url: /el/java/conversion-html-to-various-image-formats/how-to-set-dpi-when-converting-html-to-png-complete-java-gui/
 ---
 
-construct final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

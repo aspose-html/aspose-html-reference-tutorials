@@ -23,11 +23,7 @@ title: Java'da Stili Nasıl Alırsınız – Öğeyi Bul ve Arka Planı Oku
 url: /tr/java/css-html-form-editing/how-to-get-style-in-java-find-element-read-background/
 ---
 
-bold formatting.
-
-Make sure we didn't translate code placeholders or shortcodes.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -26,8 +26,6 @@ title: Java aus JavaScript aufrufen – Host‑Objekt hinzufügen und JavaScript
 url: /de/java/advanced-usage/call-java-from-javascript-add-host-object-and-run-javascript/
 ---
 
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

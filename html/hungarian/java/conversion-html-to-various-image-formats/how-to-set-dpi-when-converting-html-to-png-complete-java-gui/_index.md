@@ -24,17 +24,7 @@ title: Hogyan állítsuk be a DPI-t HTML PNG-re konvertálásakor – Teljes Jav
 url: /hu/java/conversion-html-to-various-image-formats/how-to-set-dpi-when-converting-html-to-png-complete-java-gui/
 ---
 
-final content with all translations.
-
-Check for any leftover English text: "Pro tip", "Pro tipp" okay. "Pro tip" maybe keep as "Pro tipp". The blockquote label can be translated.
-
-Also "Pro tip:" we translated.
-
-Check code block placeholders: they remain unchanged.
-
-Make sure we didn't translate any URLs or file paths: we kept pom.xml, src/main/java etc. Good.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

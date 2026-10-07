@@ -22,24 +22,6 @@ title: 在将HTML转换为PNG时如何设置DPI——完整的Java指南
 url: /zh/java/conversion-html-to-various-image-formats/how-to-set-dpi-when-converting-html-to-png-complete-java-gui/
 ---
 
-}} etc. They are placeholders for actual code blocks; we keep them unchanged.
-
-We need to translate all other text, headings, bullet points, blockquotes, etc.
-
-Let's produce the translated markdown.
-
-Be careful with list items: keep dash and spacing.
-
-Also keep blockquote > lines.
-
-Also keep the "Pro tip:" etc.
-
-Let's translate.
-
-Will produce Chinese text.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

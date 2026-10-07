@@ -22,7 +22,7 @@ title: Ange enhetens pixelförhållande i Java – Rendera HTML till PNG
 url: /sv/java/conversion-html-to-various-image-formats/set-device-pixel-ratio-in-java-render-html-to-png/
 ---
 
-final output with all content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

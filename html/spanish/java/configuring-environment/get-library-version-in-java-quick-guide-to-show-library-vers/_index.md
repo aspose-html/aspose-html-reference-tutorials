@@ -26,12 +26,6 @@ title: Obtener la versión de la biblioteca en Java – Guía rápida para mostr
 url: /es/java/configuring-environment/get-library-version-in-java-quick-guide-to-show-library-vers/
 ---
 
-la versión de la biblioteca en Java". Title similarly.
-
-Also translate bullet list items.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

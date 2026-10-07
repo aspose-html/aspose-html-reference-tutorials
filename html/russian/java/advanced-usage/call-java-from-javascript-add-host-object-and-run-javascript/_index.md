@@ -25,11 +25,7 @@ title: Вызов Java из JavaScript – добавление хост‑об
 url: /ru/java/advanced-usage/call-java-from-javascript-add-host-object-and-run-javascript/
 ---
 
-block placeholders unchanged.
-
-Also keep markdown formatting.
-
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

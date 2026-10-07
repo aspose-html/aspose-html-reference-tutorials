@@ -23,10 +23,6 @@ title: Jak pobrać styl w Javie – znajdź element i odczytaj tło
 url: /pl/java/css-html-form-editing/how-to-get-style-in-java-find-element-read-background/
 ---
 
-keep markdown formatting.
-
-Let's write translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

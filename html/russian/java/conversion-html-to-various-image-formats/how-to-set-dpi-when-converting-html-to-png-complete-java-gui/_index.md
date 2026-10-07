@@ -23,16 +23,6 @@ title: Как установить DPI при конвертации HTML в PNG
 url: /ru/java/conversion-html-to-various-image-formats/how-to-set-dpi-when-converting-html-to-png-complete-java-gui/
 ---
 
-Let's produce final Russian translation.
-
-Be careful with markdown formatting.
-
-Let's rewrite.
-
-Start with shortcodes unchanged.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

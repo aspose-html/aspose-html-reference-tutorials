@@ -23,16 +23,6 @@ title: HTML 转 PDF 教程 – 使用 Aspose.HTML Java 将 HTML 转换为 PDF
 url: /zh/java/conversion-html-to-other-formats/html-to-pdf-tutorial-convert-html-to-pdf-with-aspose-html-ja/
 ---
 
-bold parts unchanged.
-
-Continue.
-
-We must translate all text.
-
-Proceed.
-
-Will produce final answer with all content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

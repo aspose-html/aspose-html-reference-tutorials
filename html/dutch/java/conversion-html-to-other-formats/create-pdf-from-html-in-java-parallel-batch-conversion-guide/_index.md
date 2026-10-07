@@ -23,11 +23,7 @@ title: PDF maken van HTML in Java – Gids voor parallelle batchconversie
 url: /nl/java/conversion-html-to-other-formats/create-pdf-from-html-in-java-parallel-batch-conversion-guide/
 ---
 
-other markdown like blockquote >.
-
-Check image alt text line.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

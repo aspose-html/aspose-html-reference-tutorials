@@ -25,15 +25,7 @@ title: html naar pdf tutorial – Converteer HTML naar PDF met Aspose.HTML Java
 url: /nl/java/conversion-html-to-other-formats/html-to-pdf-tutorial-convert-html-to-pdf-with-aspose-html-ja/
 ---
 
-as you expect!"
-
-Translate.
-
-Image markdown: keep same.
-
-Then closing shortcodes.
-
-Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

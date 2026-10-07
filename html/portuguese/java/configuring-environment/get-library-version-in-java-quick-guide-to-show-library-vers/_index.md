@@ -25,14 +25,6 @@ title: Obter a Versão da Biblioteca em Java – Guia Rápido para Exibir a Vers
 url: /pt/java/configuring-environment/get-library-version-in-java-quick-guide-to-show-library-vers/
 ---
 
-alt text and title are not URLs, they can be translated. So we can translate alt text and title.
-
-Similarly code block placeholders are not actual code; they are placeholders. Keep them unchanged.
-
-Now produce translation.
-
-Let's write.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

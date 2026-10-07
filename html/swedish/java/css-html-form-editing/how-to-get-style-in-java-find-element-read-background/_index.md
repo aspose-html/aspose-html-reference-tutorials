@@ -23,10 +23,6 @@ title: Hur man får stil i Java – Hitta element och läs bakgrund
 url: /sv/java/css-html-form-editing/how-to-get-style-in-java-find-element-read-background/
 ---
 
-we didn't translate that.
-
-Now produce final content with same structure.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

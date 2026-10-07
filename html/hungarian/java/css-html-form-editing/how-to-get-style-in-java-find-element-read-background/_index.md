@@ -24,22 +24,6 @@ title: Hogyan kapjunk stílust Java-ban – Elem megtalálása és háttér olva
 url: /hu/java/css-html-form-editing/how-to-get-style-in-java-find-element-read-background/
 ---
 
-Why this matters", "Common pitfall", "Expected Output", "Edge Cases & Tips", etc.
-
-- Keep code block placeholders unchanged.
-
-- Keep shortcodes unchanged.
-
-- Keep any URLs unchanged (none present except maybe Maven Central but not in text). There's no markdown link in the content.
-
-- Keep backticks for code references.
-
-- Keep the placeholders for code blocks.
-
-- At the end there is an incomplete sentence: "- **Transparency handling** – If the". That is truncated; we keep as is.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

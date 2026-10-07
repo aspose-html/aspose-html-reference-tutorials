@@ -23,18 +23,6 @@ title: Geräte‑Pixelverhältnis in Java festlegen – HTML zu PNG rendern
 url: /de/java/conversion-html-to-various-image-formats/set-device-pixel-ratio-in-java-render-html-to-png/
 ---
 
-Grenze, und mit den Grundlagen im Griff wird es Ihnen ein Kinderspiel sein, diese Lösung zu erweitern."
-
-Last line: "Happy coding, and feel free to drop a comment". Translate: "Viel Spaß beim Coden und fühlen Sie sich frei, einen Kommentar zu hinterlassen"
-
-Then closing shortcodes.
-
-Now ensure we preserve all shortcodes and placeholders exactly.
-
-Also note the instruction "For German, ensure proper RTL formatting if needed" - not needed.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

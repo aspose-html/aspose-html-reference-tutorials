@@ -25,8 +25,6 @@ title: Panggil Java dari JavaScript – Tambahkan Objek Host dan Jalankan JavaSc
 url: /id/java/advanced-usage/call-java-from-javascript-add-host-object-and-run-javascript/
 ---
 
-content with same structure.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

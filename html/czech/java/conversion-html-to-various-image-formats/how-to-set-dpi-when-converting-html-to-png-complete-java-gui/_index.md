@@ -23,12 +23,6 @@ title: Jak nastavit DPI při převodu HTML na PNG – Kompletní průvodce pro J
 url: /cs/java/conversion-html-to-various-image-formats/how-to-set-dpi-when-converting-html-to-png-complete-java-gui/
 ---
 
-produce translation.
-
-We'll keep headings same but translate text.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

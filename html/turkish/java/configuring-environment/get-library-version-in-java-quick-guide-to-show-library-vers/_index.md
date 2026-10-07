@@ -22,10 +22,6 @@ title: Java'da Kütüphane Sürümünü Al – Kütüphane Sürümünü Gösterm
 url: /tr/java/configuring-environment/get-library-version-in-java-quick-guide-to-show-library-vers/
 ---
 
-** remains bold; translate to **tam**? Keep bold.
-
-Now produce.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

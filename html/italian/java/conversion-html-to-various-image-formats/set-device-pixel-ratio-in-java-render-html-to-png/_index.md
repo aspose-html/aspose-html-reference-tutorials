@@ -24,11 +24,7 @@ title: Imposta il rapporto di pixel del dispositivo in Java – Renderizza HTML 
 url: /it/java/conversion-html-to-various-image-formats/set-device-pixel-ratio-in-java-render-html-to-png/
 ---
 
-html to image** capabilities." We translated correctly.
-
-Make sure we didn't translate any code block placeholders or URLs.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

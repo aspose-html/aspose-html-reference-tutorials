@@ -25,9 +25,7 @@ title: Créer un PDF à partir d'EPUB – Guide Java étape par étape
 url: /fr/java/converting-epub-to-pdf/create-pdf-from-epub-step-by-step-java-guide/
 ---
 
-translations. Ensure we keep code block placeholders unchanged. Also keep any markdown formatting.
-
-Let's construct final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

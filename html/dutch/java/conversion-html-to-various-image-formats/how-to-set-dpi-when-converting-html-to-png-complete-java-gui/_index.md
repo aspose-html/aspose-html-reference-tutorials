@@ -24,10 +24,6 @@ title: Hoe DPI in te stellen bij het converteren van HTML naar PNG – Complete 
 url: /nl/java/conversion-html-to-various-image-formats/how-to-set-dpi-when-converting-html-to-png-complete-java-gui/
 ---
 
-need to keep the same structure.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

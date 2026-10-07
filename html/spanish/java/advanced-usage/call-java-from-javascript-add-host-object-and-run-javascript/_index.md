@@ -25,11 +25,7 @@ title: Llamar a Java desde JavaScript – Añadir objeto host y ejecutar JavaScr
 url: /es/java/advanced-usage/call-java-from-javascript-add-host-object-and-run-javascript/
 ---
 
-/products/products-backtop-button >}}
-
-Make sure to keep them unchanged.
-
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

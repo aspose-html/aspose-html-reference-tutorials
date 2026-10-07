@@ -24,29 +24,7 @@ title: Volání Javy z JavaScriptu – Přidání host objektu a spuštění Jav
 url: /cs/java/advanced-usage/call-java-from-javascript-add-host-object-and-run-javascript/
 ---
 
-.
-
-Start with shortcodes at top: keep as is.
-
-Then heading "# Call Java from JavaScript – Add Host Object and Run JavaScript in Java" translate.
-
-Probably "# Volání Java z JavaScriptu – Přidání host objektu a spuštění JavaScriptu v Javě"
-
-Proceed.
-
-Paragraphs.
-
-We need to translate but keep technical terms in English.
-
-Let's produce final markdown.
-
-Be careful with blockquotes >.
-
-Also lists.
-
-Let's translate.
-
-Will produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

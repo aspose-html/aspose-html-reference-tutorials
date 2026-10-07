@@ -25,7 +25,7 @@ title: Vytvořte PDF z EPUB – krok za krokem Java průvodce
 url: /cs/java/converting-epub-to-pdf/create-pdf-from-epub-step-by-step-java-guide/
 ---
 
-answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

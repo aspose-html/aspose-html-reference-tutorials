@@ -23,18 +23,6 @@ title: PDF létrehozása HTML-ből Java‑ban – Párhuzamos kötegelt konverzi
 url: /hu/java/conversion-html-to-other-formats/create-pdf-from-html-in-java-parallel-batch-conversion-guide/
 ---
 
-must keep them.
-
-Now produce final content with translations.
-
-Let's craft Hungarian translations.
-
-I'll write them.
-
-Be careful with markdown formatting.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

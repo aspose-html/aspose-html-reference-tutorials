@@ -23,11 +23,7 @@ title: जावा में स्टाइल कैसे प्राप्
 url: /hi/java/css-html-form-editing/how-to-get-style-in-java-find-element-read-background/
 ---
 
-fine.
-
-Make sure we didn't translate any code or file names.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

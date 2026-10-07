@@ -23,14 +23,6 @@ title: Cách Đặt DPI Khi Chuyển Đổi HTML Sang PNG – Hướng Dẫn Jav
 url: /vi/java/conversion-html-to-various-image-formats/how-to-set-dpi-when-converting-html-to-png-complete-java-gui/
 ---
 
-to Vietnamese: "Sơ đồ hiển thị luồng chuyển đổi DPI – cách đặt DPI khi chuyển đổi HTML sang PNG". Keep DPI, HTML, PNG.
-
-Now translate the rest.
-
-We must keep code block placeholders unchanged.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

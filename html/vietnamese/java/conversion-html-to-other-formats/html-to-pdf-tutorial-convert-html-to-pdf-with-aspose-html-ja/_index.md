@@ -27,18 +27,6 @@ title: Hướng dẫn chuyển đổi HTML sang PDF – Chuyển đổi HTML san
 url: /vi/java/conversion-html-to-other-formats/html-to-pdf-tutorial-convert-html-to-pdf-with-aspose-html-ja/
 ---
 
-unchanged as they are technical terms. The instruction: "Keep technical terms in English (e.g., API, SDK, class names)". The phrase "html to pdf tutorial" maybe considered phrase, but we can keep as is. So keep bold unchanged.
-
-Proceed.
-
-Continue translation.
-
-Make sure code block placeholders remain.
-
-Also bullet lists: translate bullet items.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

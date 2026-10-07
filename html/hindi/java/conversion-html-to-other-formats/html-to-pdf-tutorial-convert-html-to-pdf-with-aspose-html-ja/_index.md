@@ -25,18 +25,6 @@ title: HTML से PDF ट्यूटोरियल – Aspose.HTML Java क�
 url: /hi/java/conversion-html-to-other-formats/html-to-pdf-tutorial-convert-html-to-pdf-with-aspose-html-ja/
 ---
 
-the fly, and doing it correctly saves time and headaches later."
-
-Translate: "क्या आपको कभी **html to pdf ट्यूटोरियल** की ज़रूरत पड़ी है क्योंकि क्लाइंट ने डाउनलोडेबल इनवॉइस माँगा, या आप वेब पेज को PDF के रूप में आर्काइव करना चाहते थे? आप अकेले नहीं हैं। कई वास्तविक‑दुनिया प्रोजेक्ट्स में हमें **generate pdf from html** तुरंत करना पड़ता है, और इसे सही तरीके से करने से बाद में समय और सिरदर्द दोनों बचते हैं।"
-
-Need to keep bold markup.
-
-Proceed similarly for rest.
-
-We must keep markdown formatting.
-
-Let's write full translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

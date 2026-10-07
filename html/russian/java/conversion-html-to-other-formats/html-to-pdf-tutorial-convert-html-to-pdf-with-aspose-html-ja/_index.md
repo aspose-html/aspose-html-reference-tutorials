@@ -27,8 +27,6 @@ title: Учебник по преобразованию HTML в PDF – Кон�
 url: /ru/java/conversion-html-to-other-formats/html-to-pdf-tutorial-convert-html-to-pdf-with-aspose-html-ja/
 ---
 
-Now produce final content with all unchanged shortcodes and placeholders.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

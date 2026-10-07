@@ -25,15 +25,7 @@ title: Come impostare i DPI durante la conversione da HTML a PNG – Guida compl
 url: /it/java/conversion-html-to-various-image-formats/how-to-set-dpi-when-converting-html-to-png-complete-java-gui/
 ---
 
-.
-
-Conclusion: translate.
-
-Image alt translation.
-
-Make sure to keep markdown formatting.
-
-Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

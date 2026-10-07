@@ -25,12 +25,6 @@ title: Tutorial de HTML a PDF – Convertir HTML a PDF con Aspose.HTML Java
 url: /es/java/conversion-html-to-other-formats/html-to-pdf-tutorial-convert-html-to-pdf-with-aspose-html-ja/
 ---
 
-link in "Pro tip:"? Not.
-
-Ok.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

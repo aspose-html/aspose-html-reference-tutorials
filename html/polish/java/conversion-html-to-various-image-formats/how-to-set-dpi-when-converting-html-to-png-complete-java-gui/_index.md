@@ -24,18 +24,6 @@ title: Jak ustawić DPI przy konwertowaniu HTML na PNG – Kompletny przewodnik 
 url: /pl/java/conversion-html-to-various-image-formats/how-to-set-dpi-when-converting-html-to-png-complete-java-gui/
 ---
 
-PNG". And attribute alt: "jak ustawić dpi przy konwertowaniu html do png". Keep lower case maybe.
-
-Now after image, there is "---" horizontal rule.
-
-Then closing shortcodes.
-
-We must keep final shortcodes unchanged.
-
-Now produce final content.
-
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

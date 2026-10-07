@@ -22,8 +22,6 @@ title: วิธีดึงสไตล์ใน Java – ค้นหาอง
 url: /th/java/css-html-form-editing/how-to-get-style-in-java-find-element-read-background/
 ---
 
-produce final output with all translated content and original shortcodes.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -25,17 +25,7 @@ title: PDF készítése EPUB‑ból – Lépésről lépésre Java útmutató
 url: /hu/java/converting-epub-to-pdf/create-pdf-from-epub-step-by-step-java-guide/
 ---
 
-original meaning; it's incomplete but we can translate "és turn". Might be okay to translate "és folytasd". However we must not add extra content not present. The original ends with "and turn". We'll translate "és folytasd". Might be acceptable. But maybe keep "and turn" unchanged? The instruction: translate all text content naturally. So we can translate to Hungarian, even if incomplete. We'll translate to "és folytasd". Good.
-
-Now after that we have closing shortcodes.
-
-Let's assemble final markdown.
-
-Be careful to keep blank lines.
-
-Also ensure we keep code block placeholders unchanged.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

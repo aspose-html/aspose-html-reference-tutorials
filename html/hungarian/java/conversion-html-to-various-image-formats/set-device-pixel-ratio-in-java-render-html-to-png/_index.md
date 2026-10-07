@@ -24,11 +24,7 @@ title: Készülék pixelarány beállítása Java-ban – HTML renderelése PNG-
 url: /hu/java/conversion-html-to-various-image-formats/set-device-pixel-ratio-in-java-render-html-to-png/
 ---
 
-/products-backtop-button >}}
-
-We must keep them unchanged.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -23,15 +23,7 @@ title: Skapa PDF från EPUB – Steg‑för‑steg Java‑guide
 url: /sv/java/converting-epub-to-pdf/create-pdf-from-epub-step-by-step-java-guide/
 ---
 
-keep them.
-
-Now produce final content with all translations.
-
-Check for any missed items: The blockquote at start: we translated.
-
-Make sure to keep code block placeholders unchanged.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

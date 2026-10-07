@@ -23,23 +23,7 @@ title: Cómo obtener estilo en Java – Encontrar elemento y leer fondo
 url: /es/java/css-html-form-editing/how-to-get-style-in-java-find-element-read-background/
 ---
 
-tener estilo computado java**? Keep technical terms maybe "id" stays same, "background" maybe "fondo". We'll translate.
-
-Make sure to keep markdown formatting.
-
-Proceed.
-
-Also bullet list.
-
-Also code block placeholders remain.
-
-Let's craft translation.
-
-Be careful not to translate URLs, file paths like `page.html`, `src`, `javac`, `java`. Keep them.
-
-Also keep code block placeholders unchanged.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

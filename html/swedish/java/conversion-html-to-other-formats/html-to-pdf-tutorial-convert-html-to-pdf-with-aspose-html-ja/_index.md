@@ -25,11 +25,7 @@ title: html till pdf handledning – Konvertera HTML till PDF med Aspose.HTML Ja
 url: /sv/java/conversion-html-to-other-formats/html-to-pdf-tutorial-convert-html-to-pdf-with-aspose-html-ja/
 ---
 
-.
-
-Make sure blockquotes start with > and keep bold.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

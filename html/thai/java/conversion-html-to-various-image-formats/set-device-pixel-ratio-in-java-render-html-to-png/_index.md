@@ -22,11 +22,7 @@ title: ตั้งค่าอัตราพิกเซลของอุป�
 url: /th/java/conversion-html-to-various-image-formats/set-device-pixel-ratio-in-java-render-html-to-png/
 ---
 
-< blocks/products/products-backtop-button >}}
-
-Make sure to keep them.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -25,21 +25,7 @@ title: Buat PDF dari EPUB – Panduan Java Langkah demi Langkah
 url: /id/java/converting-epub-to-pdf/create-pdf-from-epub-step-by-step-java-guide/
 ---
 
-Fix" => "Solusi".
-
-Translate rows.
-
-Translate "Next Steps – Extending Your PDF Generation Pipeline" => "Langkah Selanjutnya – Memperluas Pipeline Generasi PDF Anda".
-
-Translate bullet points.
-
-Translate "Conclusion" => "Kesimpulan".
-
-Translate final paragraph.
-
-Make sure to keep shortcodes at start and end.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

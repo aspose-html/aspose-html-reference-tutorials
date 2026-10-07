@@ -23,7 +23,7 @@ title: Jak získat styl v Javě – najít prvek a přečíst pozadí
 url: /cs/java/css-html-form-editing/how-to-get-style-in-java-find-element-read-background/
 ---
 
-final answer with only translated content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

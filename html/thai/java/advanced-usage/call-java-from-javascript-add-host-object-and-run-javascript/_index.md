@@ -23,7 +23,7 @@ title: เรียก Java จาก JavaScript – เพิ่ม Host Object
 url: /th/java/advanced-usage/call-java-from-javascript-add-host-object-and-run-javascript/
 ---
 
-content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

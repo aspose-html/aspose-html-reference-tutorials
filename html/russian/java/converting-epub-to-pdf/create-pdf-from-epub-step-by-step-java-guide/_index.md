@@ -25,22 +25,6 @@ title: Создание PDF из EPUB – Пошаговое руководст
 url: /ru/java/converting-epub-to-pdf/create-pdf-from-epub-step-by-step-java-guide/
 ---
 
-:
-
-- Title: "Create PDF from EPUB – Complete Java Tutorial" => "Создание PDF из EPUB – Полный Java‑урок"
-
-- The paragraph etc.
-
-We need to translate tables: the headers and cells.
-
-But keep code block placeholders unchanged.
-
-Also translate bullet points.
-
-Make sure to keep markdown formatting.
-
-Let's produce.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

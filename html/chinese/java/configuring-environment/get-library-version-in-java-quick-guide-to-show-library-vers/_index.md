@@ -20,15 +20,7 @@ title: 在 Java 中获取库版本 – 快速指南展示库版本
 url: /zh/java/configuring-environment/get-library-version-in-java-quick-guide-to-show-library-vers/
 ---
 
-and title.
-
-- The "Common Questions" Q&A.
-
-- The "Conclusion".
-
-Make sure to keep shortcodes at beginning and end.
-
-Let's produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

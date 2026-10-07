@@ -25,16 +25,6 @@ title: html na pdf tutoriál – Převod HTML do PDF pomocí Aspose.HTML Java
 url: /cs/java/conversion-html-to-other-formats/html-to-pdf-tutorial-convert-html-to-pdf-with-aspose-html-ja/
 ---
 
-and title remain? The alt text "Diagram of the html to pdf conversion flow" should be translated? The instruction says translate all text content. Alt text is part of markdown image. So translate alt text and title. Keep URL unchanged.
-
-Also translate the block shortcodes at top and bottom unchanged.
-
-Let's craft translation.
-
-We'll translate sentences.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
