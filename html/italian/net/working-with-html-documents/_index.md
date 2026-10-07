@@ -37,8 +37,17 @@ Una volta apprese le basi, approfondiremo il processo di creazione. In questa se
 Ora, portiamo le tue competenze al livello successivo. La modifica di documenti HTML è un compito comune per gli sviluppatori web e Aspose.HTML semplifica notevolmente questo processo. In questa sezione, parleremo della creazione, manipolazione e stile dei documenti. Scoprirai come migliorare l'aspetto e la funzionalità dei tuoi contenuti web, rendendoli accattivanti e facili da usare.
 
 ### [Come salvare HTML in C# – Guida completa con un gestore di risorse personalizzato](./how-to-save-html-in-c-complete-guide-using-a-custom-resource/)
+### [Come salvare HTML in C# con gestore di risorse personalizzato](./how-to-save-html-in-c-with-custom-resource-handler/)
+### [Come salvare HTML con Aspose – Guida completa C#](./how-to-save-html-with-aspose-complete-c-guide/)
+
 ### [Creare documento HTML C# – Guida completa con gestore di risorse personalizzato](./create-html-document-c-complete-guide-with-custom-resource-h/)
 ### [Come rendere grassetto un'intestazione con CSS e C# – Guida completa passo‑passo](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
+### [Come salvare HTML in C# – Gestori di risorse personalizzati e ZIP](./how-to-save-html-in-c-custom-resource-handlers-zip/)
+### [Come salvare HTML con Aspose.Html – Guida completa C#](./how-to-save-html-with-aspose-html-complete-c-guide/)
+### [Come comprimere HTML in C# – Guida completa passo‑passo](./how-to-zip-html-in-c-complete-step-by-step-guide/)
+### [Come salvare HTML come ZIP in C# – Guida completa con un gestore di risorse personalizzato](./save-html-as-zip-in-c-complete-guide-with-custom-resource-ha/)
+
+### [Come comprimere HTML in C# – Guida completa per creare archivio ZIP](./how-to-zip-html-in-c-complete-guide-to-create-zip-archive/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

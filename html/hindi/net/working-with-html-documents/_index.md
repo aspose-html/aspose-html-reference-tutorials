@@ -31,10 +31,19 @@ HTML दस्तावेज़ वेब की रीढ़ हैं, और
 ### [Aspose.HTML के साथ .NET में दस्तावेज़ संपादित करना](./editing-a-document/)
 
 ### [C# में HTML को सहेजना – कस्टम रिसोर्स हैंडलर का उपयोग करके पूर्ण गाइड](./how-to-save-html-in-c-complete-guide-using-a-custom-resource/)
-
+### [Aspose.Html के साथ HTML को सहेजना – पूर्ण C# गाइड](./how-to-save-html-with-aspose-html-complete-c-guide/)
+### [C# में HTML को सहेजना – कस्टम रिसोर्स हैंडलर के साथ](./how-to-save-html-in-c-with-custom-resource-handler/)
 ### [C# में HTML दस्तावेज़ बनाना – कस्टम रिसोर्स हैंडलर के साथ पूर्ण गाइड](./create-html-document-c-complete-guide-with-custom-resource-h/)
 
 ### [CSS और C# के साथ हेडिंग को बोल्ड कैसे बनाएं – पूर्ण चरण-दर-चरण गाइड](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
+### [Aspose के साथ HTML को सहेजना – पूर्ण C# गाइड](./how-to-save-html-with-aspose-complete-c-guide/)
+
+### [C# में HTML को ज़िप करना – ज़िप आर्काइव बनाने की पूर्ण गाइड](./how-to-zip-html-in-c-complete-guide-to-create-zip-archive/)
+
+### [C# में HTML को सहेजना – कस्टम रिसोर्स हैंडलर्स और ZIP](./how-to-save-html-in-c-custom-resource-handlers-zip/)
+### [C# में HTML को ज़िप करना – पूर्ण चरण‑दर‑चरण गाइड](./how-to-zip-html-in-c-complete-step-by-step-guide/)
+
+### [C# में HTML को ZIP के रूप में सहेजना – कस्टम रिसोर्स हैंडलर के साथ पूर्ण गाइड](./save-html-as-zip-in-c-complete-guide-with-custom-resource-ha/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

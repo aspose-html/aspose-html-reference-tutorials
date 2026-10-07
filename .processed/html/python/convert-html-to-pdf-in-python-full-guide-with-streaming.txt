@@ -1,0 +1,7 @@
+Title: Convert HTML to PDF in Python – Full Guide with Streaming
+Slug: convert-html-to-pdf-in-python-full-guide-with-streaming
+Category: general
+ProcessedDate: 2026-07-22T02:42:37.402343
+SourceRepo: AI Search API
+Keywords: convert html to pdf, pdf save options, how to enable streaming, pdf conversion python, html to pdf conversion
+PRNumber: 218
