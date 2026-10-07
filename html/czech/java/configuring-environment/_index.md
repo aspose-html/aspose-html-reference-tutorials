@@ -116,6 +116,8 @@ Naučte se, jak konfigurovat Runtime Service v Aspose.HTML pro Java pro optimali
 ### [Implementujte sandboxing v Aspose.HTML pro Java](./implement-sandboxing/)
 Naučte se, jak implementovat sandboxing v Aspose.HTML pro Java pro bezpečné řízení vykonávání skriptů ve vašich HTML dokumentech a jejich konverzi do PDF.
 
+### [Vytvořte Aspose HTML Sandbox – Kompletní průvodce pro Javu](./create-aspose-html-sandbox-complete-java-guide/)
+
 ### [Nastavte uživatelský stylový list v Aspose.HTML pro Java](./set-user-style-sheet/)
 Naučte se, jak nastavit vlastní uživat
 

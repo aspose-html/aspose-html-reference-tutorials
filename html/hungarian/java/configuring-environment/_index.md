@@ -77,6 +77,11 @@ Ismerd meg, hogyan jelenítheted meg az Aspose.HTML for Java könyvtár verziój
 **Felhasználói stíluslap beállítása az Aspose.HTML for Java-ban**  
 Ismerd meg, hogyan állítható be egy egyedi felhasználói stíluslap az Aspose.HTML for Java-ban, javítva a dokumentum stílusát és könnyedén konvertálva a HTML-t PDF-re.
 
+### [Aspose HTML Sandbox létrehozása – Teljes Java útmutató](./create-aspose-html-sandbox-complete-java-guide/)
+
+**Aspose HTML Sandbox létrehozása Java-ban**  
+Ismerd meg, hogyan hozhatsz létre biztonságos sandboxot az Aspose.HTML for Java-ban, részletes lépésekkel és példakóddal.
+
 ---
 
 **Last Updated:** 2025-12-03  

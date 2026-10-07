@@ -112,10 +112,14 @@ Aspose.HTML ให้คุณแนบ `DomMutationObserver` ไปยังโ
 ตอบ: ไม่จำเป็น ไลเซนส์เดียวของ Aspose.HTML for Java ครอบคลุมรูปแบบผลลัพธ์ทั้งหมดรวมถึง PDF และ XPS
 
 ## การใช้งานขั้นสูงของบทแนะนำ Aspose.HTML Java
+
+
 ### [ปรับขอบกระดาษ HTML ด้วย Aspose.HTML](./css-extensions-adding-title-page-number/)
 เรียนรู้วิธีปรับขอบกระดาษ เพิ่มหมายเลขหน้า และหัวเรื่องให้กับเอกสาร HTML ด้วย Aspose.HTML for Java  
 ### [DOM Mutation Observer กับ Aspose.HTML for Java](./dom-mutation-observer-observing-node-additions/)
 เรียนรู้วิธีใช้ Aspose.HTML for Java เพื่อทำ DOM Mutation Observer ในคู่มือขั้นตอนต่อขั้นตอนนี้ ตรวจสอบและตอบสนองต่อการเปลี่ยนแปลงของ DOM อย่างมีประสิทธิภาพ  
+### [วิธีใช้ Aspose HTML ใน Java – คู่มือการกรอง XPath เต็มรูปแบบ](./how-to-use-aspose-html-in-java-full-xpath-filtering-guide/)
+เรียนรู้วิธีใช้ Aspose.HTML ใน Java เพื่อกรองเนื้อหา HTML ด้วย XPath อย่างละเอียด  
 ### [การจัดการ HTML5 Canvas ด้วย Aspose.HTML for Java](./html5-canvas-manipulation-using-code/)
 เรียนรู้การจัดการ HTML5 Canvas ด้วย Aspose.HTML for Java สร้างกราฟิกเชิงโต้ตอบด้วยคำแนะนำทีละขั้นตอน  
 ### [การจัดการ HTML5 Canvas ด้วย Aspose.HTML for Java](./html5-canvas-manipulation-using-javascript/)
@@ -128,6 +132,22 @@ Aspose.HTML ให้คุณแนบ `DomMutationObserver` ไปยังโ
 เรียนรู้วิธีปรับขนาดหน้า XPS ด้วย Aspose.HTML for Java ควบคุมขนาดผลลัพธ์ของเอกสาร XPS ของคุณได้อย่างง่ายดาย  
 ### [วิธีรัน JavaScript ใน Java – คู่มือฉบับสมบูรณ์](./how-to-run-javascript-in-java-complete-guide/)
 เรียนรู้วิธีฝังและรันโค้ด JavaScript ภายในแอปพลิเคชัน Java ด้วย Aspose.HTML อย่างละเอียด  
+### [ตั้งค่าอัตรา pixel ของอุปกรณ์ใน Java – Mobile Sandbox Tutorial](./set-device-pixel-ratio-in-java-mobile-sandbox-tutorial/)
+เรียนรู้วิธีกำหนดอัตรา pixel ของอุปกรณ์ใน Java เพื่อจำลองหน้าจอมือถือใน Sandbox อย่างละเอียด  
+### [วิธีเปิดใช้งาน JavaScript ใน Aspose HTML – โหลด HTML และดึงข้อความ](./how-to-enable-javascript-in-aspose-html-load-html-get-text/)
+เรียนรู้วิธีเปิดใช้งาน JavaScript ใน Aspose.HTML เพื่อโหลด HTML และดึงข้อความจากเอกสาร  
+### [วิธีรันสคริปต์ใน Java – คู่มือเต็มสำหรับการดำเนินการ JavaScript & ดึงข้อมูล](./how-to-run-scripts-in-java-complete-guide-to-execute-javascr/)
+เรียนรู้วิธีรันสคริปต์ JavaScript ใน Java เพื่อดึงข้อมูลและประมวลผลอย่างครบถ้วน
+### [วิธีใช้ Aspose แปลง EPUB เป็น DOCX – คู่มือขั้นตอนโดยละเอียด](./how-to-use-aspose-to-convert-epub-to-docx-step-by-step-guide/)
+เรียนรู้วิธีแปลงไฟล์ EPUB เป็น DOCX ด้วย Aspose อย่างละเอียดและง่ายดาย  
+### [วิธีรัน JavaScript แบบอะซิงโครนัสโดยใช้ CompletableFuture](./how-to-run-javascript-asynchronously-using-completablefuture/)
+เรียนรู้การรันโค้ด JavaScript อย่างไม่บล็อกโดยใช้ CompletableFuture ใน Java ด้วย Aspose.HTML  
+### [วิธีโหลด HTML ตั้งค่า DPI ของอุปกรณ์และอ่านสีพื้นหลัง](./how-to-load-html-set-device-dpi-read-background-color/)
+### [วิธีแซนด์บ็อกซ์ JavaScript – คู่มือ Aspose.HTML ฉบับสมบูรณ์](./how-to-sandbox-javascript-complete-aspose-html-guide/)
+### [วิธีเปิดใช้งาน JavaScript ใน Java – คู่มือ Aspose.HTML ฉบับสมบูรณ์](./how-to-enable-javascript-in-java-complete-aspose-html-guide/)
+เรียนรู้วิธีเปิดใช้งาน JavaScript ในแอปพลิเคชัน Java ด้วย Aspose.HTML อย่างละเอียด  
+### [เรียก Java จาก JavaScript – คู่มือฉบับสมบูรณ์สำหรับการดึงข้อมูลแบบ Async และการทำงานของเครื่องยนต์ JS](./call-java-from-javascript-complete-guide-to-async-fetch-js-e/)
+เรียนรู้วิธีเรียกใช้โค้ด Java จาก JavaScript ด้วย Aspose.HTML รวมถึงการทำ Async Fetch และการจัดการเครื่องยนต์ JavaScript  
 ### [เรียกใช้ Java จาก JavaScript – เพิ่ม Host Object และรัน JavaScript ใน Java](./call-java-from-javascript-add-host-object-and-run-javascript/)
 เรียนรู้วิธีเพิ่มอ็อบเจกต์โฮสต์ใน JavaScript แล้วเรียกเมธอด Java จากโค้ด JavaScript ภายในแอปพลิเคชัน Java  
 
@@ -136,6 +156,53 @@ Aspose.HTML ให้คุณแนบ `DomMutationObserver` ไปยังโ
 **อัปเดตล่าสุด:** 2025-11-29  
 **ทดสอบด้วย:** Aspose.HTML for Java 24.11  
 **ผู้เขียน:** Aspose  
+
+
+
+
+
+
+
+### [สกัด HTML จาก MHTML – คู่มือ Java ฉบับสมบูรณ์](./extract-html-from-mhtml-complete-java-guide/)
+เรียนรู้วิธีดึง HTML จากไฟล์ MHTML ด้วย Aspose.HTML for Java อย่างละเอียดและครบถ้วน  
+
+---
+
+**อัปเดตล่าสุด:** 2025-11-29  
+**ทดสอบด้วย:** Aspose.HTML for Java 24.11  
+**ผู้เขียน:** Aspose  
+
+
+
+
+
+
+
+### [เรียกใช้ JavaScript ใน Java – คู่มือฉบับสมบูรณ์สำหรับการรัน JS จาก Java](./execute-javascript-in-java-complete-guide-to-running-js-from/)
+เรียนรู้วิธีรันโค้ด JavaScript ภายในแอปพลิเคชัน Java อย่างเต็มที่ด้วย Aspose.HTML for Java  
+
+---
+
+**อัปเดตล่าสุด:** 2025-11-29  
+**ทดสอบด้วย:** Aspose.HTML for Java 24.11  
+**ผู้เขียน:** Aspose  
+
+
+
+
+
+
+
+### [เปิดใช้งานการรันสคริปต์ใน Java – คู่มือ Aspose.HTML ฉบับสมบูรณ์](./enable-script-execution-in-java-complete-aspose-html-guide/)
+เรียนรู้วิธีเปิดใช้งานการดำเนินการสคริปต์ JavaScript ในแอปพลิเคชัน Java ด้วย Aspose.HTML อย่างละเอียด  
+### [วิธีใช้ Sandbox สำหรับแปลง HTML เป็น PDF ด้วย Java – คู่มือขั้นตอนต่อขั้นตอน](./how-to-use-sandbox-for-html-to-pdf-java-step-by-step-guide/)
+เรียนรู้วิธีใช้ Sandbox เพื่อแปลง HTML เป็น PDF ด้วย Java อย่างละเอียดและปลอดภัย  
+
+---
+
+**อัปเดตล่าสุด:** 2025-11-29  
+**ทดสอบด้วย:** Aspose.HTML for Java 24.11  
+**ผู้เขียน:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

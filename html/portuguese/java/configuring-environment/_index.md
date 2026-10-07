@@ -118,6 +118,8 @@ Saiba como implementar sandbox no Aspose.HTML para Java para controlar com segur
 
 ### [Definir Folha de Estilo do Usuário no Aspose.HTML para Java](./set-user-style-sheet/)
 Saiba como definir uma folha de estilo personalizada no Aspose.HTML para Java, aprimorando a estilização de documentos e convertendo HTML para PDF com facilidade.
+### [Criar Sandbox Aspose HTML – Guia Completo Java](./create-aspose-html-sandbox-complete-java-guide/)
+Saiba como criar um sandbox no Aspose.HTML para Java, garantindo execução segura de scripts ao converter HTML para PDF.
 
 ### [Obter Versão da Biblioteca em Java – Guia Rápido para Exibir a Versão da Biblioteca](./get-library-version-in-java-quick-guide-to-show-library-vers/)
 Saiba como obter a versão da biblioteca Aspose.HTML em Java e exibi‑la rapidamente em sua aplicação.

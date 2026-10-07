@@ -1,10 +1,10 @@
 ---
-date: 2025-11-30
-description: Aspose.HTML の Mutation Observer を使用して、Java で要素を body に追加し、DOM の変更を監視する方法を学びます。HTML
-  ドキュメントを Java で作成し、Mutation Observer を切断する手順が含まれています。
+date: 2026-03-18
+description: Aspose.HTML の Mutation Observer を使用して、Java で要素を body に追加し、DOM の変化を監視する方法を学びます。HTML
+  ドキュメントを Java で作成する手順と、Mutation Observer の切断方法が含まれています。
 linktitle: Append Element to Body - Observing Node Additions
 second_title: Java HTML Processing with Aspose.HTML
-title: DOMミューテーションオブザーバーを使用したAspose.HTML for Javaで要素をBodyに追加する
+title: DOMミューテーションオブザーバーを使用して、Aspose.HTML for Javaで要素をBodyに追加する
 url: /ja/java/advanced-usage/dom-mutation-observer-observing-node-additions/
 weight: 11
 ---
@@ -13,35 +13,37 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# DOM Mutation Observer を使用した Aspose.HTML for Java における Body への要素追加
+# Aspose.HTML for Java と DOM Mutation Observer を使用した Body への要素追加
 
 If you’re a Java developer who needs to **append element to body** while keeping an eye on every change that happens in the DOM, you’ve come to the right place. Aspose.HTML for Java makes it straightforward to **create HTML document Java** objects, attach a Mutation Observer, and react instantly when nodes are added, removed, or altered. In this step‑by‑step tutorial we’ll walk through the entire process—from setting up the document to cleanly **disconnect mutation observer**—so you can confidently monitor DOM changes in your Java applications.
 
 ## クイック回答
-- **What does a Mutation Observer do?** DOM ツリーを監視し、ノードの追加、削除、属性変更があると通知します。  
-- **Which library provides this in Java?** Aspose.HTML for Java はフル機能の Mutation Observer API を提供します。  
-- **Do I need a license for production?** はい、商用利用には有効な Aspose.HTML ライセンスが必要です。  
-- **Can I observe changes to text nodes?** もちろんです。オブザーバー設定で `characterData` を `true` に設定します。  
-- **How do I stop the observer?** 監視が完了したら `observer.disconnect()` を呼び出します。
+- **What does a Mutation Observer do?** Mutation Observer は何をしますか？ It watches the DOM tree and notifies you of node additions, removals, or attribute changes.  
+- **Which library provides this in Java?** Java でこれを提供するライブラリはどれですか？ Aspose.HTML for Java includes a full‑featured Mutation Observer API.  
+- **Do I need a license for production?** 本番環境でライセンスが必要ですか？ Yes, a valid Aspose.HTML license is required for commercial use.  
+- **Can I observe changes to text nodes?** テキストノードの変更を監視できますか？ Absolutely—set `characterData` to `true` in the observer configuration.  
+- **How do I stop the observer?** Observer を停止するにはどうすればよいですか？ Call `observer.disconnect()` once you’re done monitoring.
 
-## Aspose.HTML のコンテキストでの “append element to body” とは？
-`<body>` タグに要素を追加することは、プログラム上で新しいノード（例: `<p>` や `<div>`）をドキュメントのメインコンテンツ領域に挿入することを意味します。Mutation Observer と組み合わせることで、その追加を即座に検知し、カスタムロジックをトリガーできます。動的な HTML 生成、テスト、サーバーサイドレンダリングのシナリオに最適です。
+## Aspose.HTML のコンテキストで「append element to body」とは何ですか？
+
+Appending an element to the `<body>` tag means programmatically adding a new node (like a `<p>` or `<div>`) to the document’s main content area. When combined with a Mutation Observer, you can instantly detect that addition and trigger custom logic—perfect for dynamic HTML generation, testing, or server‑side rendering scenarios.
 
 ## Java で Mutation Observer を使用する理由
+
 - **Real‑time monitoring:** DOM の変更が発生した瞬間にリアルタイムで反応します。  
-- **Cleaner code:** 手動でのポーリングや複雑なイベント処理が不要です。  
-- **Cross‑platform consistency:** ブラウザーでもサーバーでも同様に動作し、プラットフォーム間で一貫性があります。  
-- **Performance:** オブザーバーは効率的で非同期に実行され、メインスレッドを解放します。
+- **Cleaner code:** 手動ポーリングや複雑なイベント処理が不要です。  
+- **Cross‑platform consistency:** ブラウザでもサーバーでも同じように動作します。  
+- **Performance:** Observer は効率的で非同期に実行され、メインスレッドを解放します。
 
 ## 前提条件
-1. **Java Development Kit (JDK)** – 8 以上。  
-2. **Aspose.HTML for Java** – 公式サイトから最新バージョンをダウンロードしてください。  
-3. **IDE** – IntelliJ IDEA、Eclipse、または任意の Java 対応エディタ。  
+1. **Java Development Kit (JDK)** – 8 or higher.  
+2. **Aspose.HTML for Java** – download the latest version from the official site.  
+3. **IDE** – IntelliJ IDEA, Eclipse, or any Java‑compatible editor.  
 
-Aspose.HTML for Java はダウンロードページ [こちら](https://releases.aspose.com/html/java/) から入手できます。
+You can obtain Aspose.HTML for Java from the download page [こちら](https://releases.aspose.com/html/java/).
 
 ## パッケージのインポート
-まず、必要なクラスをインポートします。これにより、後で内容を追加する空の HTML ドキュメントも作成されます。
+First, import the classes you’ll need. This also creates an empty HTML document that we’ll later populate.
 
 ```java
 // Import necessary packages
@@ -58,8 +60,9 @@ import com.aspose.html.generic.IGenericList;
 HTMLDocument document = new HTMLDocument();
 ```
 
-## 手順 1: Mutation Observer インスタンスの作成 (mutation observer java)
-**Mutation Observer** には、変異が発生するたびに呼び出されるコールバックが必要です。コールバック内では、追加された各ノードに対してメッセージを出力するだけです。
+## ステップ 1: Mutation Observer インスタンスの作成 (mutation observer java)
+
+A **Mutation Observer** needs a callback that will be invoked whenever a mutation occurs. In our callback we simply print a message for each added node.
 
 ```java
 MutationObserver observer = new MutationObserver(new MutationCallback() {
@@ -77,8 +80,9 @@ MutationObserver observer = new MutationObserver(new MutationCallback() {
 });
 ```
 
-## 手順 2: オブザーバーの設定 (monitor dom changes java)
-オブザーバーに **何** を監視するかを指示します—子リストの変更、サブツリーの変更、文字データの更新です。
+## ステップ 2: Observer の設定 (monitor dom changes java)
+
+We tell the observer **what** to watch for—child list changes, subtree modifications, and character data updates.
 
 ```java
 MutationObserverInit config = new MutationObserverInit();
@@ -90,8 +94,9 @@ config.setCharacterData(true);
 observer.observe(document.getBody(), config);
 ```
 
-## 手順 3: Body に要素を追加しオブザーバーをトリガーする
-ここで実際に **append element to body** を行います。テキストノードを持つ `<p>` 要素を追加すると、先ほど設定したオブザーバーが発火します。
+## ステップ 3: Body に要素を追加し Observer をトリガーする
+
+Now we actually **append element to body**. Adding a `<p>` element with a text node will fire the observer we set up earlier.
 
 ```java
 // Create a paragraph element and append it to the document body
@@ -103,8 +108,9 @@ Text text = document.createTextNode("Hello World");
 p.appendChild(text);
 ```
 
-## 手順 4: 観測結果を待つ (asynchronous handling)
-変異は非同期で報告されるため、オブザーバーが変更を処理する時間を確保するために短時間待機します。
+## ステップ 4: 観測結果を待つ (asynchronous handling)
+
+Mutations are reported asynchronously, so we pause briefly to give the observer time to process the change.
 
 ```java
 // Since mutations are working in async mode, wait for a few seconds
@@ -113,45 +119,55 @@ synchronized (this) {
 }
 ```
 
-## 手順 5: オブザーバーの切断 (disconnect mutation observer)
-監視が終了したら、常に **disconnect mutation observer** を実行してリソースを解放してください。
+## ステップ 5: Observer の切断 (disconnect mutation observer)
+
+When you’re finished monitoring, always **disconnect mutation observer** to free resources.
 
 ```java
 // Stop observing
 observer.disconnect();
 ```
 
+## Body に段落を追加する方法
+
+In many real‑world scenarios you’ll want to insert a paragraph that contains dynamic content, such as user‑generated text or server‑side messages. By creating a `<p>` element, appending it to the `<body>`, and then adding a text node, you achieve exactly that. This approach works seamlessly with the Mutation Observer we set up, so the addition is logged instantly.
+
+## Java で DOM の変更を監視する方法
+
+The observer configuration we used (`childList`, `subtree`, `characterData`) covers the most common change types. If you also need to track attribute modifications, simply enable `config.setAttributes(true)`. The observer runs on a background thread, so your main application flow remains uninterrupted while you receive detailed mutation records.
+
 ## よくある落とし穴とヒント
-- **Never forget to disconnect** – オブザーバーを走らせたままにするとメモリリークの原因になります。  
-- **Thread safety:** コールバックはバックグラウンドスレッドで実行されるため、共有データを変更する場合は適切な同期を行ってください。  
-- **Observe the right node:** `document.getBody()` を観測すると多くの UI 変更を捕捉できますが、より細かい監視が必要な場合は任意の要素を対象にできます。  
-- **Pro tip:** 属性変更も監視したい場合は `config.setAttributes(true)` を使用してください。
+- **Never forget to disconnect** – leaving observers running can lead to memory leaks.  
+- **Thread safety:** The callback runs on a background thread; use proper synchronization if you modify shared data.  
+- **Observe the right node:** Observing `document.getBody()` captures most UI changes, but you can target any element for finer‑grained monitoring.  
+- **Pro tip:** Use `config.setAttributes(true)` if you also need to watch attribute changes.
 
 ## よくある質問
 
 **Q: What is a DOM Mutation Observer?**  
-A: ノードの追加、削除、属性更新など、DOM ツリーの変更を監視し、コールバックでイベントを通知する API です。
+A: DOM ツリーのノード追加、削除、属性更新などの変更を監視し、コールバックでそれらのイベントを通知する API です。
 
 **Q: Can I use Aspose.HTML for Java in commercial projects?**  
-A: はい、有効な Aspose.HTML ライセンスがあれば商用プロジェクトで使用できます。購入情報は [こちら](https://purchase.aspose.com/buy) にあります。
+A: Yes, with a valid Aspose.HTML license. Purchase details are available [こちら](https://purchase.aspose.com/buy)。
 
 **Q: Is there a free trial for Aspose.HTML for Java?**  
-A: もちろんです。トライアルは [リリースページ](https://releases.aspose.com/) からダウンロードできます。
+A: Absolutely—download a trial from the [release page](https://releases.aspose.com/)。
 
 **Q: How do I monitor character data changes?**  
-A: Step 2 の例のように、オブザーバー設定で `config.setCharacterData(true)` を設定します。
+A: Set `config.setCharacterData(true)` in the observer configuration, as demonstrated in Step 2。
 
 **Q: What should I do after finishing the observation?**  
-A: `observer.disconnect()`（Step 5）を呼び出し、`HTMLDocument` を作成した場合は `document.dispose()` でネイティブリソースを解放してください。
+A: Call `observer.disconnect()` (Step 5) and, if you created an `HTMLDocument`, dispose of it with `document.dispose()` to release native resources。
 
 ## 結論
-これで **append element to body** の方法、**mutation observer java** の設定、そして Aspose.HTML for Java を使用した **monitor DOM changes java** の手順を学びました。これらの手順に従うことで、サーバーサイド Java アプリケーションにおける任意の DOM 変異を確実に検出し、リアクションできるようになります。さまざまなノードタイプや属性の監視、あるいは複数のオブザーバーを組み合わせて、より複雑なシナリオにも挑戦してみてください。
 
-問題が発生した場合は、[Aspose.HTML フォーラム](https://forum.aspose.com/) でコミュニティがサポートします。詳細な API 情報は公式の [Aspose.HTML for Java ドキュメント](https://reference.aspose.com/html/java/) を参照してください。
+You’ve now learned how to **append element to body**, set up a **mutation observer java**, and **monitor DOM changes java** using Aspose.HTML for Java. By following these steps you can reliably detect and react to any DOM mutation in your server‑side Java applications. Feel free to experiment with different node types, attribute observations, or even multiple observers to suit more complex scenarios.
+
+If you run into any issues, the community is ready to help in the [Aspose.HTML forum](https://forum.aspose.com/). For deeper API details, consult the official [Aspose.HTML for Java documentation](https://reference.aspose.com/html/java/)。
 
 ---
 
-**最終更新日:** 2025-11-30  
+**最終更新日:** 2026-03-18  
 **テスト環境:** Aspose.HTML for Java 24.11  
 **作者:** Aspose
 
