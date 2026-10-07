@@ -24,14 +24,6 @@ title: Renderowanie HTML do obrazu w C# – Kompletny przewodnik krok po kroku
 url: /pl/net/rendering-html-documents/render-html-to-image-in-c-complete-step-by-step-guide/
 ---
 
-przyczyna | Rozwiązanie". Keep rows translated.
-
-Also list items under "Variations & Edge Cases" etc.
-
-Let's translate.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

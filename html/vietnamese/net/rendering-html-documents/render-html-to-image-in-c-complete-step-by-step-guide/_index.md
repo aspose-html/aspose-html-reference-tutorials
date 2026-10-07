@@ -24,14 +24,6 @@ title: Chuyển đổi HTML thành hình ảnh trong C# – Hướng dẫn chi t
 url: /vi/net/rendering-html-documents/render-html-to-image-in-c-complete-step-by-step-guide/
 ---
 
-Also bullet list items.
-
-Also "Got questions..." translate.
-
-Also "Screenshot of a rendered page showing the result of render html to image" alt translate.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

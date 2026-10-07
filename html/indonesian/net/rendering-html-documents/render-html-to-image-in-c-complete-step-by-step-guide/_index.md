@@ -24,7 +24,7 @@ title: Render HTML ke Gambar di C# – Panduan Lengkap Langkah demi Langkah
 url: /id/net/rendering-html-documents/render-html-to-image-in-c-complete-step-by-step-guide/
 ---
 
-.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -24,13 +24,7 @@ title: Rendu du HTML en image en C# – Guide complet étape par étape
 url: /fr/net/rendering-html-documents/render-html-to-image-in-c-complete-step-by-step-guide/
 ---
 
-Now produce final content with same shortcodes and placeholders.
-
-Check for any other text: At top there are three opening shortcodes, then content, then closing shortcodes and a backtop button shortcode.
-
-We must keep them unchanged.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

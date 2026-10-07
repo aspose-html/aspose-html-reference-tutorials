@@ -22,7 +22,7 @@ title: แปลง HTML เป็น PNG ใน C# – คู่มือขั
 url: /th/net/rendering-html-documents/render-html-to-png-in-c-step-by-step-guide/
 ---
 
-final output with all translated content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

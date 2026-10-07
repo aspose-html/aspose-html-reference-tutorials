@@ -23,11 +23,7 @@ title: HTML-Dokument in C# – Vollständige Anleitung mit benutzerdefiniertem R
 url: /de/net/working-with-html-documents/create-html-document-c-complete-guide-with-custom-resource-h/
 ---
 
-: placeholders remain.
-
-Make sure we didn't translate any code placeholders.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

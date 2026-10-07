@@ -24,14 +24,6 @@ title: Απόδοση HTML σε εικόνα με C# – Πλήρης οδηγό
 url: /el/net/rendering-html-documents/render-html-to-image-in-c-complete-step-by-step-guide/
 ---
 
-, tables, etc.
-
-Let's craft translation.
-
-Be careful with Greek characters and punctuation.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -18,16 +18,6 @@ title: 使用 C# 创建 HTML 文档 – 包含自定义资源处理程序的完�
 url: /zh/net/working-with-html-documents/create-html-document-c-complete-guide-with-custom-resource-h/
 ---
 
-HTML document C#" which is English. The rule: keep technical terms in English, but this phrase is not a technical term but a description. Could translate. I think okay to translate.
-
-But we must preserve the exact markdown formatting, including bold markers. So we can replace the inner text.
-
-Proceed.
-
-Also code block placeholders remain.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

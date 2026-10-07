@@ -24,17 +24,7 @@ title: Renderizar HTML a PNG en C# – Guía paso a paso
 url: /es/net/rendering-html-documents/render-html-to-png-in-c-step-by-step-guide/
 ---
 
-límite".
-
-"Recap" translate to "Resumen".
-
-"What’s Next?" translate to "¿Qué sigue?".
-
-Also bullet lists.
-
-Make sure to keep markdown formatting.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

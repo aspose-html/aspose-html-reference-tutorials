@@ -21,16 +21,6 @@ title: HTML दस्तावेज़ C# बनाएं – कस्टम �
 url: /hi/net/working-with-html-documents/create-html-document-c-complete-guide-with-custom-resource-h/
 ---
 
-alt](url)" - we must preserve alt text but can translate? It says translate all text content. So we can translate alt text. However we must not translate URLs. So alt text can be Hindi. Let's translate alt to Hindi: "Create HTML document C# memory flow" maybe "HTML दस्तावेज़ C# मेमोरी प्रवाह". We'll translate.
-
-Also headings and list items etc.
-
-We must keep code block placeholders unchanged.
-
-We need to keep shortcodes unchanged.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

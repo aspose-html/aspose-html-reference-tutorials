@@ -23,15 +23,7 @@ title: C# ile HTML'yi PNG'ye Dönüştür – Adım Adım Rehber
 url: /tr/net/rendering-html-documents/render-html-to-png-in-c-step-by-step-guide/
 ---
 
-: none else.
-
-Check variable names: we didn't translate.
-
-Check markdown links: none.
-
-Check shortcodes: preserved.
-
-Now produce final output with all content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

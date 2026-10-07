@@ -20,9 +20,7 @@ title: Creare documento HTML C# – Guida completa con gestore di risorse person
 url: /it/net/working-with-html-documents/create-html-document-c-complete-guide-with-custom-resource-h/
 ---
 
-code block placeholders unchanged.
-
-Now produce final answer with only translated content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

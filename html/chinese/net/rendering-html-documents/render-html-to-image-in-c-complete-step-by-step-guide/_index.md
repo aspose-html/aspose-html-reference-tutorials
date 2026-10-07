@@ -20,16 +20,6 @@ title: 在 C# 中将 HTML 渲染为图像 – 完整的逐步指南
 url: /zh/net/rendering-html-documents/render-html-to-image-in-c-complete-step-by-step-guide/
 ---
 
-. They should be left unchanged.
-
-We must translate tables content.
-
-Let's produce translation.
-
-We need to keep bullet lists, etc.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -24,13 +24,7 @@ title: HTML in ein Bild rendern in C# – Vollständige Schritt‑für‑Schritt
 url: /de/net/rendering-html-documents/render-html-to-image-in-c-complete-step-by-step-guide/
 ---
 
-blocks/products/products-backtop-button >}}
-
-All preserved.
-
-Now ensure we didn't miss any markdown links. There are none besides maybe none. So final output is the translated content.
-
-Let's assemble.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

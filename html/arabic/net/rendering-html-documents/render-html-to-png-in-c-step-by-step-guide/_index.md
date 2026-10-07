@@ -22,9 +22,7 @@ title: تحويل HTML إلى PNG في C# – دليل خطوة بخطوة
 url: /ar/net/rendering-html-documents/render-html-to-png-in-c-step-by-step-guide/
 ---
 
-keep all markdown formatting, code block placeholders unchanged.
-
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

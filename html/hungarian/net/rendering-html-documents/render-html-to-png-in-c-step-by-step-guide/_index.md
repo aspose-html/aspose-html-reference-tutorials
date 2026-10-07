@@ -24,8 +24,6 @@ title: HTML renderelése PNG‑be C#‑ban – Lépésről‑lépésre útmutat�
 url: /hu/net/rendering-html-documents/render-html-to-png-in-c-step-by-step-guide/
 ---
 
-output.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

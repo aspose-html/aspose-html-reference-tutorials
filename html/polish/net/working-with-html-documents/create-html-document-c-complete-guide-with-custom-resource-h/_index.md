@@ -21,18 +21,6 @@ title: Tworzenie dokumentu HTML w C# – Kompletny przewodnik z niestandardowym 
 url: /pl/net/working-with-html-documents/create-html-document-c-complete-guide-with-custom-resource-h/
 ---
 
-#" appears many times; keep as is.
-
-Ok.
-
-Now produce final translated markdown with same structure.
-
-Let's translate.
-
-Start with shortcodes unchanged.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

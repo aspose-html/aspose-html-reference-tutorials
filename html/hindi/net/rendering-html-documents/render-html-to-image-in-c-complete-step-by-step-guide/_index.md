@@ -24,10 +24,6 @@ title: C# में HTML को इमेज में रेंडर करे
 url: /hi/net/rendering-html-documents/render-html-to-image-in-c-complete-step-by-step-guide/
 ---
 
-markdown with translations.
-
-Let's assemble.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -22,18 +22,6 @@ title: Chuyển đổi HTML sang PNG trong C# – Hướng dẫn từng bước
 url: /vi/net/rendering-html-documents/render-html-to-png-in-c-step-by-step-guide/
 ---
 
-unchanged.
-
-Also there is a markdown table with description and screenshot. Translate description but keep screenshot URL unchanged. Alt text also.
-
-Also there are blockquotes with **...** etc. Keep formatting.
-
-Let's produce final translation.
-
-We'll start with the same shortcodes lines.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

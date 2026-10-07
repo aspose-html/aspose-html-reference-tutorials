@@ -20,8 +20,6 @@ title: 在 C# 中將 HTML 渲染為圖像 – 完整逐步指南
 url: /zh-hant/net/rendering-html-documents/render-html-to-image-in-c-complete-step-by-step-guide/
 ---
 
-content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

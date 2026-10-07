@@ -20,9 +20,7 @@ title: Criar Documento HTML C# – Guia Completo com Manipulador de Recursos Per
 url: /pt/net/working-with-html-documents/create-html-document-c-complete-guide-with-custom-resource-h/
 ---
 
-preserve any markdown formatting.
-
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

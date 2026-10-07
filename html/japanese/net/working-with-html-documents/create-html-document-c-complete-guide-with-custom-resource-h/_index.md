@@ -20,12 +20,6 @@ title: HTMLドキュメント作成（C#） – カスタムリソースハン�
 url: /ja/net/working-with-html-documents/create-html-document-c-complete-guide-with-custom-resource-h/
 ---
 
-Let's produce final content.
-
-Be careful to keep markdown formatting exactly.
-
-Let's write.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

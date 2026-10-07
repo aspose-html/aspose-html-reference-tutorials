@@ -20,11 +20,7 @@ title: สร้างเอกสาร HTML ด้วย C# – คู่ม�
 url: /th/net/working-with-html-documents/create-html-document-c-complete-guide-with-custom-resource-h/
 ---
 
-shortcodes. Keep them.
-
-Proceed to translate.
-
-Let's produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

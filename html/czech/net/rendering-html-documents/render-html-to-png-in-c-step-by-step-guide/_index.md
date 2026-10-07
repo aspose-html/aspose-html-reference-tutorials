@@ -22,7 +22,7 @@ title: Vykreslení HTML do PNG v C# – průvodce krok za krokem
 url: /cs/net/rendering-html-documents/render-html-to-png-in-c-step-by-step-guide/
 ---
 
-produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

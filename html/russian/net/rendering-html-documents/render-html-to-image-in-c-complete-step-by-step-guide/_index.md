@@ -24,19 +24,7 @@ title: Рендеринг HTML в изображение на C# – Полн�
 url: /ru/net/rendering-html-documents/render-html-to-image-in-c-complete-step-by-step-guide/
 ---
 
-4 etc. All present.
-
-Check headings: we kept same number of #.
-
-Check tables: we translated content but kept pipes.
-
-Check blockquote formatting: we kept >.
-
-Check bullet list: we used dash.
-
-Check emojis: 🎉 kept.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
