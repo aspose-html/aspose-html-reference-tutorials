@@ -119,6 +119,11 @@ weight: 29
 ### [Ορισμός Προσαρμοσμένου User Style Sheet στο Aspose.HTML για Java](./set-user-style-sheet/)
 Μάθετε πώς να ορίσετε ένα προσαρμοσμένο φύλλο στυλ χρήστη στο Aspose.HTML για Java, βελτιώνοντας το στυλ του εγγράφου σας και μετατρέποντας HTML σε PDF με ευκολία.
 
+### [Δημιουργία Sandbox Aspose HTML – Πλήρης Οδηγός Java](./create-aspose-html-sandbox-complete-java-guide/)
+Μάθετε πώς να δημιουργήσετε και να διαχειριστείτε ένα sandbox Aspose HTML σε Java για ασφαλείς μετατροπές HTML σε PDF.
+### [Απόκτηση Έκδοσης Βιβλιοθήκης σε Java – Γρήγορος Οδηγός για Εμφάνιση Έκδοσης](./get-library-version-in-java-quick-guide-to-show-library-vers/)
+Μάθετε πώς να εμφανίσετε την έκδοση της βιβλιοθήκης Aspose.HTML σε Java με αυτόν τον σύντομο οδηγό.
+
 ---
 
 **Τελευταία Ενημέρωση:** 2025-12-03  

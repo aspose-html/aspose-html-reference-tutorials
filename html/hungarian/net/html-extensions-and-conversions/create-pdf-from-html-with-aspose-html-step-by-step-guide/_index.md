@@ -1,21 +1,21 @@
 ---
 category: general
-date: 2026-03-15
-description: Készítsen PDF-et HTML-ből gyorsan az Aspose.HTML használatával. Tanulja
-  meg, hogyan konvertáljon HTML-t PDF-re, hogyan renderelje a HTML-t PDF-be, és sajátítsa
-  el az Aspose HTML PDF-re konvertálását C#-ban.
+date: 2026-02-17
+description: Készíts PDF-et HTML-ből gyorsan az Aspose.HTML használatával. Ismerd
+  meg, hogyan konvertálhatod a HTML-t PDF-re, állíthatod be a PDF oldalméretét, és
+  adhatod hozzá a stílust a fejhez.
 draft: false
 keywords:
 - create pdf from html
 - convert html to pdf
-- render html to pdf
-- html to pdf conversion
-- aspose html to pdf
+- render html as pdf
+- set pdf page size
+- append style to head
 language: hu
-og_description: PDF létrehozása HTML-ből az Aspose.HTML használatával C#-ban. Ez az
-  útmutató bemutatja, hogyan konvertáljunk HTML-t PDF-re, hogyan rendereljük a HTML-t
-  PDF-be, és hogyan kezeljük a gyakori buktatókat.
-og_title: PDF létrehozása HTML‑ből az Aspose.HTML segítségével – Teljes útmutató
+og_description: PDF létrehozása HTML-ből az Aspose.HTML segítségével. Ez az útmutató
+  bemutatja, hogyan konvertálhatja a HTML-t PDF-be, állíthatja be a PDF oldalméretét,
+  és adhat hozzá stílust a fejhez.
+og_title: PDF létrehozása HTML-ből – Teljes Aspose.HTML útmutató
 tags:
 - Aspose.HTML
 - C#
@@ -24,256 +24,201 @@ title: PDF létrehozása HTML‑ből az Aspose.HTML‑el – Lépésről‑lép�
 url: /hu/net/html-extensions-and-conversions/create-pdf-from-html-with-aspose-html-step-by-step-guide/
 ---
 
-by‑Step Guide" => "PDF létrehozása HTML-ből az Aspose.HTML segítségével – Lépésről‑lépésre útmutató"
-
-- etc.
-
-Let's go through line by line.
-
-First three shortcodes remain.
-
-Then heading.
-
-Then paragraph.
-
-We'll translate.
-
-Make sure to keep **bold** formatting.
-
-Also blockquote >.
-
-Also tables.
-
-Also list items.
-
-Make sure to keep code block placeholders unchanged.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# PDF létrehozása HTML-ből az Aspose.HTML segítségével – Lépésről‑lépésre útmutató
+# PDF létrehozása HTML‑ből – Teljes Aspose.HTML útmutató
 
-Valaha is szükséged volt **PDF létrehozására HTML‑ből**, de nem tudtad, melyik könyvtár adja a pixel‑pontos eredményt? Nem vagy egyedül. Akár jelentéskészítő irányítópultot, számlagenerátort építesz, vagy csak archiválni szeretnéd a weboldalakat, a HTML PDF‑vé alakítása gyakori igény a .NET fejlesztők számára.
+Valaha szükséged volt **create pdf from html**-re, de nem tudtad, melyik könyvtár biztosítja a finomhangolt vezérlést a betűtípusok, az oldalméret és a stílusok felett? Nem vagy egyedül. Ebben az útmutatóban egy valós példán keresztül mutatjuk be, hogyan **convert html to pdf** az Aspose.HTML for .NET könyvtárral, miközben megmutatjuk, hogyan **set pdf page size** és **append style to head** egyedi betűtípusokhoz.
 
-Ebben a bemutatóban végigvezetünk a teljes **Aspose.HTML to PDF** munkafolyamaton: a csomag telepítésétől, a forrásfájl betöltésén, a renderelési beállítások finomhangolásán, egészen a végső PDF előállításáig, amely pontosan úgy néz ki, ahogy a böngésző renderelné. Útközben érintjük a **convert HTML to PDF** finomságait, megvitatjuk a **render HTML to PDF** lehetőségeket, és bemutatunk néhány trükköt a zökkenőmentes **HTML to PDF conversion** gyakorlati projektekben.
+Először betöltünk egy egyszerű HTML fájlt, beillesztünk egy apró CSS blokkot, amely a `WebFontStyle` enumot használja, beállítjuk a PDF renderelőt, és végül kiírjuk a kimenetet a lemezre. A végére egy teljesen működő, termelésre kész kódrészletet kapsz, amelyet bármely C# konzol vagy ASP.NET projektbe beilleszthetsz.
 
-> **Mit kapsz a végén:** egy azonnal futtatható C# konzolalkalmazás, amely PDF‑et hoz létre bármely HTML‑fájlból, valamint gyakorlati tippek a leggyakoribb buktatók elkerüléséhez.
+> **Mit fogsz megtanulni:** egy futtatható program, amely a `input.html`-t `output.pdf`-vé alakítja, félkövér‑dőlt Arial szöveggel és A4‑méretű oldallal, mindezt külső CSS fájlok érintése nélkül.
 
----
+## Előfeltételek
 
-## Amire szükséged lesz
+- .NET 6.0 (vagy bármely friss .NET verzió) telepítve van a gépeden.  
+- Érvényes Aspose.HTML for .NET licenc (vagy ingyenes próba).  
+- Alapvető ismeretek C#-ban és Visual Studio-ban (vagy kedvenc IDE-dben).  
 
-- **.NET 6+** (vagy .NET Framework 4.7.2+). Az Aspose.HTML mindkettőt támogatja, de a példák .NET 6‑ot használnak a rövidség kedvéért.  
-- **Visual Studio 2022** vagy bármely kedvenc szerkesztőd.  
-- Egy **érvényes HTML‑fájl**, amelyet PDF‑vé szeretnél alakítani (a továbbiakban `input.html`).  
-- **Aspose.HTML for .NET** NuGet csomag – a próbaverzió kulcsát az Aspose weboldaláról szerezheted be.
-
-Más harmadik féltől származó könyvtárra nincs szükség.
+Nem szükséges más harmadik féltől származó könyvtár; az Aspose.HTML mindent tartalmaz, amire a rendereléshez szükséged van.
 
 ---
 
-## 1. lépés – Az Aspose.HTML NuGet csomag telepítése  
+## PDF létrehozása HTML‑ből – Alaplépések
 
-Először add hozzá a könyvtárat a projekthez. Nyiss egy terminált a megoldás mappájában, és futtasd:
+Az alábbiakban egy **step‑by‑step** áttekintést találsz. Minden szakasz elmagyarázza, *miért* csinálunk valamit, nem csak *mit* mutat a kód.
 
-```bash
-dotnet add package Aspose.HTML
-```
+### 1. lépés: HTML dokumentum betöltése (HTML konvertálása PDF‑be)
 
-Vagy, ha a Visual Studio beépített Package Manager Console‑ját részesíted előnyben:
-
-```powershell
-Install-Package Aspose.HTML
-```
-
-> **Pro tipp:** A próbaverzió kulcs regisztrálása után hívd meg a `Aspose.Html.License.SetLicense("Aspose.Html.lic")` metódust a programod elején, hogy eltávolítsd a kiértékelési vízjelet.
-
----
-
-## 2. lépés – A konvertálni kívánt HTML‑dokumentum betöltése  
-
-A csomag telepítése után már be tudsz olvasni bármely helyi HTML‑fájlt. A `HTMLDocument` osztály absztrahálja a DOM‑ot, így az Aspose a CSS‑t, képeket és szkripteket ugyanúgy kezeli, mint egy böngésző.
+Először meg kell mondanunk az Aspose.HTML-nek, hol található a forrásfájlunk. A `HTMLDocument` osztály feldolgozza a jelölőnyelvet és felépít egy DOM‑ot, amelyet a renderelő később felhasznál.
 
 ```csharp
 using Aspose.Html;
-using Aspose.Html.Drawing;
+using Aspose.Html.Rendering.Pdf;
 
-// Path to your source HTML – adjust as needed
-string inputPath = Path.Combine(Environment.CurrentDirectory, "input.html");
+// Load the HTML file from disk
+HTMLDocument htmlDoc = new HTMLDocument("YOUR_DIRECTORY/input.html");
 
-// Load the HTML document
-HTMLDocument htmlDoc = new HTMLDocument(inputPath);
+// Quick sanity check – make sure the document actually loaded
+if (htmlDoc == null)
+{
+    throw new InvalidOperationException("Failed to load the HTML file. Check the path and permissions.");
+}
 ```
 
-**Miért fontos:**  
-A dokumentum `HTMLDocument`‑on keresztüli betöltése biztosítja, hogy a relatív erőforrások (képek, stíluslapok) a fájl mappájához képest helyesen legyenek feloldva. Ennek kihagyása és nyers HTML‑szöveg átadása hiányzó elemekhez vezethet a **HTML to PDF conversion** során.
+**Miért fontos:** A HTML betöltése bármely **render html as pdf** munkafolyamat alapja. Ha a fájlt nem lehet beolvasni, az egész folyamat megszakad, és egy üres PDF-et kapsz.
 
----
+### 2. lépés: Stílus hozzáadása a fejhez – Egyedi CSS a WebFontStyle‑al
 
-## 3. lépés – Szöveg renderelési beállítások konfigurálása (opcionális, de ajánlott)  
-
-Az Aspose.HTML lehetővé teszi a szöveg rasterizálásának finomhangolását. Linux rendszereken a hinting engedélyezése gyakran élesebb glifeket eredményez. DPI‑t, antialias‑t vagy betűkészletek beágyazását is beállíthatod.
+A külső stíluslap helyett egy `<style>` elemet injektálunk közvetlenül a `<head>`-be. Ez bemutatja, hogyan lehet programozottan **append style to head**.
 
 ```csharp
-// Create rendering options – we only set hinting here
-TextOptions renderOptions = new TextOptions
-{
-    // Improves text clarity on Linux and low‑resolution displays
-    UseHinting = true,
+// Create a <style> element
+var cssStyle = htmlDoc.CreateElement("style");
 
-    // Optional: set higher DPI for a crisper PDF (default is 96)
-    // DpiX = 150,
-    // DpiY = 150
+// Use the WebFontStyle enum to set bold and italic values dynamically
+cssStyle.TextContent = $@"
+    body {{
+        font-family: 'Arial';
+        font-weight: {WebFontStyle.Bold.ToString().ToLower()};
+        font-style: {WebFontStyle.Italic.ToString().ToLower()};
+    }}";
+
+// Append the style block to the document head
+htmlDoc.Head.AppendChild(cssStyle);
+```
+
+**Miért így csináljuk:**
+- **Self‑contained** – Nincs külső CSS fájl, ami kevesebb mozgó alkatrészt jelent.
+- **Dynamic** – A `WebFontStyle` használatával futásidőben válthatsz a `Normal`, `Bold`, `Italic` vagy `BoldItalic` között anélkül, hogy karakterláncokat kódolnál be.
+
+> *Pro tip:* Ha több betűtípust kell támogatnod, ismételd meg a `CreateElement` blokkot minden családhoz, és ennek megfelelően állítsd be a `font-family` szelektort.
+
+### 3. lépés: PDF oldalméret beállítása – Renderelési beállítások konfigurálása
+
+Az Aspose.HTML lehetővé teszi a kimeneti méretek vezérlését a `PdfRenderingOptions` segítségével. Itt kifejezetten A4-re állítjuk az oldalt, ami megfelel a **set pdf page size** követelménynek.
+
+```csharp
+var pdfOptions = new PdfRenderingOptions
+{
+    // A4 size is 210 mm × 297 mm; Aspose uses points internally (1 pt = 1/72 in)
+    PageSize = PageSize.A4
 };
 ```
 
-> **Mi van, ha nem szükséges egyedi beállítás?** Átadhatsz `null` értéket a `RenderToFile`‑nak, ekkor az Aspose az alapértelmezéseket használja, amelyek a legtöbb Windows környezetben tökéletesen megfelelnek.
+**Miért fontos az oldalméret:** Különböző felhasználási esetek—nyugták, szerződések, prospektusok—különböző méreteket igényelnek. Az A4 kódolása biztosítja a konzisztenciát a nyomtatók és a megjelenítők között.
 
----
+### 4. lépés: HTML renderelése PDF‑ként – Az alap konverzió
 
-## 4. lépés – A HTML‑dokumentum PDF‑fájlba renderelése  
-
-Most jön a varázslat. A `RenderToFile` megkapja a kimeneti útvonalat és a most előkészített `TextOptions`‑t.
+Most átadjuk a előkészített `HTMLDocument`-ot és a `PdfRenderingOptions`-t a `PdfRenderer`-nek. Ez a **render html as pdf** művelet szíve.
 
 ```csharp
-// Destination PDF path
-string outputPath = Path.Combine(Environment.CurrentDirectory, "output.pdf");
-
-// Render HTML to PDF using the configured options
-htmlDoc.RenderToFile(outputPath, renderOptions);
-```
-
-Amikor a metódus befejeződik, az `output.pdf` a futtatható állományod mellett helyezkedik el. Nyisd meg bármely PDF‑olvasóval, és egy pontos vizuális egyezést kell látnod az eredeti `input.html`‑lel.
-
----
-
-## 5. lépés – Az eredmény ellenőrzése (és mire számíthatsz)  
-
-Egy gyors szanitás ellenőrzés mindig jó szokás. Programból is ellenőrizheted, hogy a fájl létezik, és opcionálisan megnézheted a méretét:
-
-```csharp
-if (File.Exists(outputPath))
+using (var pdfRenderer = new PdfRenderer(htmlDoc, pdfOptions))
 {
-    Console.WriteLine($"✅ PDF created successfully! Size: {new FileInfo(outputPath).Length / 1024} KB");
-}
-else
-{
-    Console.WriteLine("❌ Something went wrong – PDF not found.");
+    // Perform the rendering; this may take a moment for large documents
+    pdfRenderer.Render();
+
+    // Save the PDF to the desired location
+    pdfRenderer.Save("YOUR_DIRECTORY/output.pdf");
 }
 ```
 
-A konzolon várható kimenet így néz ki:
+**Mi történik a háttérben:**
+- A renderelő bejárja a DOM-ot, minden elemet egy virtuális vászonra fest, majd végül a vásznat PDF‑folyamra írja.
+- Minden CSS szabály—beleértve a hozzáadottat is—tartásra kerül, így a végső PDF pontosan a HTML‑ben meghatározott félkövér‑dőlt Arial szöveget jeleníti meg.
 
-```
-✅ PDF created successfully! Size: 342 KB
-```
+### 5. lépés: Az eredmény ellenőrzése (Mit várhatsz)
 
-Ha a fájl szokatlanul kicsi vagy hiányoznak a képek, ellenőrizd, hogy az `input.html`‑ben hivatkozott összes erőforrás elérhető‑e a fájlrendszeren keresztül.
+Program futtatása után nyisd meg a `output.pdf`-et bármely PDF‑nézővel. A következőket kell látnod:
 
----
+- Egyetlen A4 oldal.  
+- A törzsszöveg **Arial** betűtípussal, **félkövér** és **dőlt** formában jelenik meg.  
+- Nincs szükség külső CSS vagy betűtípus fájlokra.
 
-## 6. lépés – Gyakori buktatók és megoldások  
-
-| Probléma | Miért fordul elő | Megoldás |
-|----------|------------------|----------|
-| **Hiányzó CSS‑stílusok** | Relatív útvonalak a `<link>` elemekben kívül esnek a HTML mappáján. | Használd a `htmlDoc.BaseUrl = new Uri(Path.GetDirectoryName(inputPath));` beállítást renderelés előtt. |
-| **Betűkészletek nincsenek beágyazva** | A rendszerbetűtípus nem érhető el a célgépen. | Állítsd be a `renderOptions.FontEmbeddingMode = FontEmbeddingMode.EmbedAll;` értéket. |
-| **Linuxon a szöveg elmosódott** | A hinting alapértelmezés szerint ki van kapcsolva nem‑Windows platformokon. | Hagyd beállítva a `UseHinting = true`‑t (ahogy a példában látható). |
-| **Nagy PDF‑méret** | Magas DPI vagy minden betűkészlet beágyazása. | Csökkentsd a DPI‑t vagy csak a használt glifeket ágyazd be a `FontEmbeddingMode.Subset` használatával. |
-
-Ezeknek a pontoknak a kezelése biztosítja a zökkenőmentes **convert HTML to PDF** élményt különböző környezetekben.
+Ha a szöveg egyszerűnek tűnik, ellenőrizd, hogy a `WebFontStyle` értékek helyesen kisbetűsek-e; az Aspose CSS‑kompatibilis értékeket vár.
 
 ---
 
-## Teljes működő példa  
+## Gyakori variációk és szélhelyzetek
 
-Az alábbi kódrészlet egy önálló konzolalkalmazás, amelyet egyszerűen másolj, illessz be és futtass. Cseréld le az `input.html` útvonalát a saját fájlodra.
+| Helyzet | Mit kell módosítani | Miért |
+|-----------|----------------|-----|
+| **Másik oldalméret** | `PageSize = PageSize.Letter` vagy egyedi `new SizeF(width, height)` | Egyes régiók a Letter méretet használják az A4 helyett. |
+| **Több betűtípus** | Adj hozzá további `<style>` blokkokat különböző `font-family` szelektorokkal. | Lehetővé teszi a szekciónkénti stílusozást külső fájlok nélkül. |
+| **Nagy HTML fájlok** | Növeld a `pdfRenderer.Render()` időkorlátot vagy streameld a HTML‑t `MemoryStream`‑en keresztül. | Megakadályozza a memória‑kimerüléses összeomlásokat nagy dokumentumok esetén. |
+| **Képek beágyazása** | Győződj meg róla, hogy a kép‑URL-ek abszolútak, vagy ágyazd be őket Base64‑ként a HTML‑be. | A PDF renderelőnek elérhető képforrásokra van szüksége. |
+
+---
+
+## Teljes működő példa (másolás‑beillesztés kész)
 
 ```csharp
-// Program.cs
-using System;
-using System.IO;
 using Aspose.Html;
-using Aspose.Html.Drawing;
+using Aspose.Html.Rendering.Pdf;
 
 class Program
 {
     static void Main()
     {
-        // 1️⃣ Register license (optional, removes evaluation watermark)
-        // var license = new Aspose.Html.License();
-        // license.SetLicense("Aspose.Html.lic");
+        // 1️⃣ Load the HTML document
+        HTMLDocument htmlDoc = new HTMLDocument("YOUR_DIRECTORY/input.html");
 
-        // 2️⃣ Define input and output paths
-        string inputPath = Path.Combine(Environment.CurrentDirectory, "input.html");
-        string outputPath = Path.Combine(Environment.CurrentDirectory, "output.pdf");
+        // 2️⃣ Append custom CSS to the <head>
+        var cssStyle = htmlDoc.CreateElement("style");
+        cssStyle.TextContent = $@"
+            body {{
+                font-family: 'Arial';
+                font-weight: {WebFontStyle.Bold.ToString().ToLower()};
+                font-style: {WebFontStyle.Italic.ToString().ToLower()};
+            }}";
+        htmlDoc.Head.AppendChild(cssStyle);
 
-        // 3️⃣ Load the HTML document
-        HTMLDocument htmlDoc = new HTMLDocument(inputPath);
-
-        // 4️⃣ (Optional) Set base URL if your HTML uses relative resources
-        htmlDoc.BaseUrl = new Uri(Path.GetDirectoryName(inputPath) + Path.DirectorySeparatorChar);
-
-        // 5️⃣ Configure rendering options – enable hinting for sharper text
-        TextOptions renderOptions = new TextOptions
+        // 3️⃣ Configure PDF rendering (set pdf page size)
+        var pdfOptions = new PdfRenderingOptions
         {
-            UseHinting = true,
-            // Uncomment to increase DPI for higher quality
-            // DpiX = 150,
-            // DpiY = 150,
-            // FontEmbeddingMode = FontEmbeddingMode.Subset
+            PageSize = PageSize.A4
         };
 
-        // 6️⃣ Render to PDF
-        htmlDoc.RenderToFile(outputPath, renderOptions);
+        // 4️⃣ Render and save the PDF
+        using (var pdfRenderer = new PdfRenderer(htmlDoc, pdfOptions))
+        {
+            pdfRenderer.Render();
+            pdfRenderer.Save("YOUR_DIRECTORY/output.pdf");
+        }
 
-        // 7️⃣ Verify output
-        if (File.Exists(outputPath))
-        {
-            Console.WriteLine($"✅ PDF created at: {outputPath}");
-            Console.WriteLine($"   Size: {new FileInfo(outputPath).Length / 1024} KB");
-        }
-        else
-        {
-            Console.WriteLine("❌ Failed to generate PDF.");
-        }
+        System.Console.WriteLine("✅ PDF created successfully at YOUR_DIRECTORY/output.pdf");
     }
 }
 ```
 
-**Várható eredmény:** A `dotnet run` futtatása után megtalálod az `output.pdf`‑t a futtatható állomány mellett. Nyisd meg – a HTML‑ednek azonosnak kell lennie, beleértve a CSS‑stílusokat és a beágyazott képeket.
+> **Várható kimenet:** Egy A4‑méretű PDF `output.pdf` néven, amely a stílusos HTML tartalmat tartalmazza.
 
 ---
 
-## Gyakran ismételt kérdések  
+## Gyakran ismételt kérdések
 
-**K: Működik ez dinamikusan futásidőben generált HTML‑lel is?**  
-V: Természetesen. A fájlútvonal helyett betöltheted a HTML‑t egy stringből: `new HTMLDocument("<html>…</html>", new Uri("about:blank"))`. Ügyelj arra, hogy a külső erőforrások abszolút URL‑ek legyenek.
+**K: Működik ez .NET Core‑dal?**  
+Természetesen. Az Aspose.HTML a .NET Standard 2.0‑t célozza, így ugyanazt a kódot futtathatod .NET 5/6/7 konzolalkalmazásokban, ASP.NET Core‑ban vagy akár Xamarin‑ban.
 
-**K: Konvertálhatok több HTML‑fájlt egyszerre?**  
-V: Igen. Csomagold a renderelési logikát egy `foreach (var file in Directory.GetFiles(folder, "*.html"))` ciklusba, és a kimeneti fájlnevet ennek megfelelően állítsd be.
+**K: Mi van, ha jelszóval kell védeni a PDF‑et?**  
+Renderelés után megnyithatod a generált fájlt `Aspose.Pdf`‑vel és alkalmazhatsz titkosítást. Ez egy kétlépéses folyamat, de teljesen támogatott.
 
-**K: Lehet jelszóval védeni a PDF‑et?**  
-V: Az Aspose.HTML közvetlenül nem kezeli a PDF‑biztonságot, de a generált PDF‑et utólag feldolgozhatod az Aspose.PDF‑vel: `PdfDocument pdf = new PdfDocument(outputPath); pdf.Encrypt("ownerPwd", "userPwd", EncryptionAlgorithms.AES256); pdf.Save(outputPath);`.
-
----
-
-## Összegzés  
-
-Most már egy stabil, termelés‑kész módszerrel rendelkezel a **create PDF from HTML** feladatra az Aspose.HTML C#‑ben. A hat lépés – telepítés, betöltés, konfigurálás, renderelés, ellenőrzés és hibakeresés – segítségével megbízhatóan **convert HTML to PDF**, **render HTML to PDF**, és kezelheted a szélesebb körű **HTML to PDF conversion** kihívásokat a mindennapi fejlesztés során.  
-
-Készen állsz a következő szintre? Próbálj meg oldalfejléceket/lábléceket hozzáadni, több PDF‑et egyesíteni, vagy a végeredményt közvetlenül egy webes válaszba streamelni a valós‑idő letöltésekhez. A lehetőségek végtelenek, és az Aspose API minden kiterjesztést egyszerűvé tesz.
-
-Ha elakadtál, vagy van ötleted további fejlesztésekre, írj egy megjegyzést alul. Jó kódolást, és élvezd a weboldalak elegáns PDF‑vé alakítását!  
+**K: Közvetlenül streamelhetem a PDF‑et egy webválaszba?**  
+Igen—cseréld le a `pdfRenderer.Save(path)`-t `pdfRenderer.Save(stream)`-re, ahol a `stream` a `HttpResponse.Body` stream.
 
 ---
 
-<img src="https://example.com/assets/create-pdf-from-html.png" alt="create pdf from html sample output" style="max-width:100%; height:auto;">
+## Következtetés
 
----
+Most már tudod, **hogyan kell create pdf from html**-t készíteni az Aspose.HTML segítségével, lefedve mindent a jelölőnyelv betöltésétől a **append style to head**, **set pdf page size**, és végül a **render html as pdf** folyamatig. A fenti teljes, másolás‑beillesztés kódnak azonnal működnie kell, és szilárd alapot nyújt bármely dokumentum‑generálási feladathoz.
+
+Készen állsz a következő kihívásra? Próbáld ki a **convert html to pdf**-t összetettebb elrendezésekkel, kísérletezz oldalfejlécekkel/láblécekkel, vagy fedezd fel a PDF titkosítást. Ezek a témák közvetlenül a most elsajátított lépésekre épülnek, és ugyanazok az elvek érvényesek.
+
+Boldog kódolást, és legyenek a PDF‑jeid mindig pontosan úgy, ahogy elképzelted! 
+
+![PDF létrehozása HTML‑ből példa](/images/create-pdf-from-html.png "Képernyőkép, amely a generált PDF‑et mutatja – create pdf from html")
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

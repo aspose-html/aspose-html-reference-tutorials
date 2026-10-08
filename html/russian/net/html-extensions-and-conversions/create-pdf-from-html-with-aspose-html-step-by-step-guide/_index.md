@@ -1,25 +1,24 @@
 ---
 category: general
-date: 2026-03-15
-description: Создавайте PDF из HTML быстро с помощью Aspose.HTML. Узнайте, как конвертировать
-  HTML в PDF, рендерить HTML в PDF и освоить Aspose HTML в PDF на C#.
+date: 2026-02-17
+description: Быстро создавайте PDF из HTML с помощью Aspose.HTML. Узнайте, как конвертировать
+  HTML в PDF, установить размер страницы PDF и добавить стиль в head.
 draft: false
 keywords:
 - create pdf from html
 - convert html to pdf
-- render html to pdf
-- html to pdf conversion
-- aspose html to pdf
+- render html as pdf
+- set pdf page size
+- append style to head
 language: ru
-og_description: Создайте PDF из HTML с помощью Aspose.HTML в C#. Этот учебник показывает,
-  как преобразовать HTML в PDF, отобразить HTML в PDF и справиться с распространёнными
-  проблемами.
-og_title: Создание PDF из HTML с помощью Aspose.HTML – Полное руководство
+og_description: Создайте PDF из HTML с помощью Aspose.HTML. Это руководство показывает,
+  как преобразовать HTML в PDF, установить размер страницы PDF и добавить стиль в head.
+og_title: Создание PDF из HTML – Полный учебник по Aspose.HTML
 tags:
 - Aspose.HTML
 - C#
 - PDF generation
-title: Создание PDF из HTML с помощью Aspose.HTML – пошаговое руководство
+title: Создание PDF из HTML с помощью Aspose.HTML – пошаговое руководство
 url: /ru/net/html-extensions-and-conversions/create-pdf-from-html-with-aspose-html-step-by-step-guide/
 ---
 
@@ -27,226 +26,189 @@ url: /ru/net/html-extensions-and-conversions/create-pdf-from-html-with-aspose-ht
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Создание PDF из HTML с помощью Aspose.HTML – пошаговое руководство
+# Создание PDF из HTML – Полный учебник Aspose.HTML
 
-Когда‑нибудь вам нужно было **create PDF from HTML**, но вы не были уверены, какая библиотека даст вам пиксель‑совершенные результаты? Вы не одиноки. Независимо от того, создаёте ли вы панель отчётов, генератор счетов‑фактур или просто хотите архивировать веб‑страницы, преобразование HTML в аккуратный PDF часто требуется разработчикам .NET.
+Когда‑нибудь вам нужно было **create pdf from html**, но вы не были уверены, какая библиотека предоставит тонкий контроль над шрифтами, размером страницы и стилями? Вы не одиноки. В этом руководстве мы пройдем реальный пример, который **convert html to pdf** с использованием библиотеки Aspose.HTML for .NET, одновременно показывая, как **set pdf page size** и **append style to head** для пользовательских шрифтов.
 
-В этом руководстве мы пройдём весь рабочий процесс **Aspose.HTML to PDF**: от установки пакета, загрузки исходного файла, настройки параметров рендеринга до окончательного создания PDF, который выглядит точно так же, как в браузере. По пути мы также коснёмся нюансов **convert HTML to PDF**, обсудим варианты **render HTML to PDF** и покажем несколько приёмов для плавного **HTML to PDF conversion** в реальных проектах.
+Мы начнём с загрузки простого HTML‑файла, внедрим небольшой блок CSS, использующий перечисление `WebFontStyle`, настроим PDF‑рендерер и, наконец, запишем результат на диск. К концу у вас будет полностью рабочий, готовый к продакшену фрагмент кода, который можно вставить в любой проект C# console или ASP.NET.
 
-> **Что вы получите:** готовое к запуску консольное приложение C#, которое создаёт PDF из любого HTML‑файла, а также практические советы, помогающие избежать самых распространённых подводных камней.
+> **What you’ll walk away with:** runnable program that turns `input.html` into `output.pdf`, with bold‑italic Arial text and an A4‑sized page, all without touching external CSS files.
 
----
+## Prerequisites
 
-## Что понадобится
+- .NET 6.0 (или любая современная версия .NET), установленная на вашем компьютере.  
+- Действительная лицензия Aspose.HTML for .NET (или бесплатная trial‑версия).  
+- Базовые знания C# и Visual Studio (или вашей любимой IDE).  
 
-- **.NET 6+** (или .NET Framework 4.7.2+). Aspose.HTML поддерживает обе версии, но примеры используют .NET 6 для краткости.  
-- **Visual Studio 2022** или любой другой предпочитаемый редактор.  
-- **valid HTML file**, который вы хотите превратить в PDF (мы будем называть его `input.html`).  
-- **Aspose.HTML for .NET** NuGet‑пакет — получить бесплатный пробный ключ можно на сайте Aspose.
-
-Никакие другие сторонние библиотеки не требуются.
+Никакие другие сторонние библиотеки не требуются; Aspose.HTML включает всё необходимое для рендеринга.
 
 ---
 
-## Шаг 1 – Установите пакет Aspose.HTML NuGet  
+## Create PDF from HTML – Core Steps
 
-Сначала добавьте библиотеку в ваш проект. Откройте терминал в папке решения и выполните:
+Ниже представлена **step‑by‑step** пошаговая инструкция. Каждый раздел объясняет *почему* мы делаем то или иное, а не только *что* делает код.
 
-```bash
-dotnet add package Aspose.HTML
-```
+### Step 1: Load the HTML Document (Convert HTML to PDF)
 
-Или, если вам удобнее использовать Package Manager Console внутри Visual Studio:
-
-```powershell
-Install-Package Aspose.HTML
-```
-
-> **Pro tip:** При регистрации пробного ключа вызовите `Aspose.Html.License.SetLicense("Aspose.Html.lic")` в начале программы, чтобы убрать водяной знак оценки.
-
----
-
-## Шаг 2 – Загрузите HTML‑документ, который хотите конвертировать  
-
-После установки пакета вы можете читать любой локальный HTML‑файл. Класс `HTMLDocument` абстрагирует DOM, позволяя Aspose обрабатывать CSS, изображения и скрипты так же, как браузер.
+Сначала нам нужно указать Aspose.HTML, где находится исходный файл. Класс `HTMLDocument` разбирает разметку и строит DOM, который затем использует рендерер.
 
 ```csharp
 using Aspose.Html;
-using Aspose.Html.Drawing;
+using Aspose.Html.Rendering.Pdf;
 
-// Path to your source HTML – adjust as needed
-string inputPath = Path.Combine(Environment.CurrentDirectory, "input.html");
+// Load the HTML file from disk
+HTMLDocument htmlDoc = new HTMLDocument("YOUR_DIRECTORY/input.html");
 
-// Load the HTML document
-HTMLDocument htmlDoc = new HTMLDocument(inputPath);
+// Quick sanity check – make sure the document actually loaded
+if (htmlDoc == null)
+{
+    throw new InvalidOperationException("Failed to load the HTML file. Check the path and permissions.");
+}
 ```
 
-**Почему это важно:**  
-Загрузка документа через `HTMLDocument` гарантирует корректное разрешение относительных ресурсов (изображений, таблиц стилей) на основе папки файла. Пропуск этого шага и передача «сырой» строки HTML может привести к отсутствию ресурсов во время **HTML to PDF conversion**.
+**Why this matters:** Loading the HTML is the foundation of any **render html as pdf** workflow. If the file can’t be read, the whole pipeline aborts, and you’ll end up with an empty PDF.
 
----
+### Step 2: Append Style to Head – Custom CSS with WebFontStyle
 
-## Шаг 3 – Настройте параметры рендеринга текста (необязательно, но рекомендуется)  
-
-Aspose.HTML позволяет точно настроить, как растеризуется текст. На Linux‑системах включение хинтинга часто даёт более чёткие глифы. Также можно задать DPI, сглаживание или встраивание шрифтов.
+Вместо подключения внешней таблицы стилей мы внедряем элемент `<style>` непосредственно в `<head>`. Это демонстрирует, как **append style to head** программно.
 
 ```csharp
-// Create rendering options – we only set hinting here
-TextOptions renderOptions = new TextOptions
-{
-    // Improves text clarity on Linux and low‑resolution displays
-    UseHinting = true,
+// Create a <style> element
+var cssStyle = htmlDoc.CreateElement("style");
 
-    // Optional: set higher DPI for a crisper PDF (default is 96)
-    // DpiX = 150,
-    // DpiY = 150
+// Use the WebFontStyle enum to set bold and italic values dynamically
+cssStyle.TextContent = $@"
+    body {{
+        font-family: 'Arial';
+        font-weight: {WebFontStyle.Bold.ToString().ToLower()};
+        font-style: {WebFontStyle.Italic.ToString().ToLower()};
+    }}";
+
+// Append the style block to the document head
+htmlDoc.Head.AppendChild(cssStyle);
+```
+
+**Why we do it this way:**  
+- **Self‑contained** – No external CSS files means fewer moving parts.  
+- **Dynamic** – By using `WebFontStyle`, you can switch between `Normal`, `Bold`, `Italic`, or `BoldItalic` at runtime without hard‑coding strings.  
+
+> *Pro tip:* If you need to support multiple fonts, repeat the `CreateElement` block for each family and adjust the `font-family` selector accordingly.
+
+### Step 3: Set PDF Page Size – Configuring Rendering Options
+
+Aspose.HTML позволяет управлять размерами вывода через `PdfRenderingOptions`. Здесь мы явно задаём страницу формата A4, что удовлетворяет требованию **set pdf page size**.
+
+```csharp
+var pdfOptions = new PdfRenderingOptions
+{
+    // A4 size is 210 mm × 297 mm; Aspose uses points internally (1 pt = 1/72 in)
+    PageSize = PageSize.A4
 };
 ```
 
-> **What if you don’t need custom options?** Вы можете передать `null` в `RenderToFile`, и Aspose вернётся к значениям по умолчанию, которые полностью подходят для большинства Windows‑окружений.
+**Why page size matters:** Different use cases—receipts, contracts, brochures—need different dimensions. Hard‑coding A4 ensures consistency across printers and viewers.
 
----
+### Step 4: Render HTML as PDF – The Core Conversion
 
-## Шаг 4 – Отрендерьте HTML‑документ в PDF‑файл  
-
-Теперь происходит магия. `RenderToFile` принимает путь вывода и `TextOptions`, которые мы только что подготовили.
+Теперь мы передаём подготовленный `HTMLDocument` и наши `PdfRenderingOptions` в `PdfRenderer`. Это сердце операции **render html as pdf**.
 
 ```csharp
-// Destination PDF path
-string outputPath = Path.Combine(Environment.CurrentDirectory, "output.pdf");
-
-// Render HTML to PDF using the configured options
-htmlDoc.RenderToFile(outputPath, renderOptions);
-```
-
-Когда метод завершится, `output.pdf` окажется рядом с вашим исполняемым файлом. Откройте его в любом PDF‑просмотрщике, и вы увидите точное визуальное соответствие оригинальному `input.html`.
-
----
-
-## Шаг 5 – Проверьте результат (и чего ожидать)  
-
-Быстрая проверка всегда полезна. Вы можете программно убедиться, что файл существует, и при желании проверить его размер:
-
-```csharp
-if (File.Exists(outputPath))
+using (var pdfRenderer = new PdfRenderer(htmlDoc, pdfOptions))
 {
-    Console.WriteLine($"✅ PDF created successfully! Size: {new FileInfo(outputPath).Length / 1024} KB");
-}
-else
-{
-    Console.WriteLine("❌ Something went wrong – PDF not found.");
+    // Perform the rendering; this may take a moment for large documents
+    pdfRenderer.Render();
+
+    // Save the PDF to the desired location
+    pdfRenderer.Save("YOUR_DIRECTORY/output.pdf");
 }
 ```
 
-Ожидаемый вывод в консоли выглядит так:
+**What happens under the hood:**  
+- The renderer walks the DOM, paints each element onto a virtual canvas, and finally writes the canvas to a PDF stream.  
+- All CSS rules—including the one we appended—are respected, so the final PDF shows bold‑italic Arial text exactly as the HTML intended.
 
-```
-✅ PDF created successfully! Size: 342 KB
-```
+### Step 5: Verify the Result (What to Expect)
 
-Если файл подозрительно маленький или в нём отсутствуют изображения, проверьте, что все ресурсы, указанные в `input.html`, доступны в файловой системе.
+После запуска программы откройте `output.pdf` в любом PDF‑просмотрщике. Вы должны увидеть:
 
----
+- Одна страница формата A4.  
+- Текст тела, отрендеренный шрифтом **Arial**, как **жирный**, так и **курсивный**.  
+- Нет необходимости в внешних CSS‑файлах или файлах шрифтов.
 
-## Шаг 6 – Распространённые подводные камни и как их избежать  
+Если текст выглядит обычным, проверьте, что значения `WebFontStyle` были правильно приведены к нижнему регистру; Aspose ожидает CSS‑совместимые значения.
 
-| Проблема | Почему происходит | Как исправить |
-|----------|-------------------|---------------|
-| **Missing CSS styles** | Относительные пути в тегах `<link>` указывают за пределы папки HTML. | Используйте `htmlDoc.BaseUrl = new Uri(Path.GetDirectoryName(inputPath));` перед рендерингом. |
-| **Fonts not embedded** | Системный шрифт недоступен на целевой машине. | Установите `renderOptions.FontEmbeddingMode = FontEmbeddingMode.EmbedAll;`. |
-| **Linux text looks blurry** | Хинтинг отключён по умолчанию на платформах, отличных от Windows. | Оставьте `UseHinting = true` (как показано). |
-| **Large PDF size** | Высокое DPI или встраивание всех шрифтов. | Снизьте DPI или встраивайте только используемые глифы через `FontEmbeddingMode.Subset`. |
+## Common Variations & Edge Cases
 
-Устранение этих моментов обеспечивает гладкий опыт **convert HTML to PDF** в разных окружениях.
+| Situation | What to Change | Why |
+|-----------|----------------|-----|
+| **Different page size** | `PageSize = PageSize.Letter` or custom `new SizeF(width, height)` | Некоторые регионы используют Letter вместо A4. |
+| **Multiple fonts** | Append additional `<style>` blocks with different `font-family` selectors. | Позволяет стилизовать отдельные секции без внешних файлов. |
+| **Large HTML files** | Increase `pdfRenderer.Render()` timeout or stream the HTML via `MemoryStream`. | Предотвращает падения из‑за нехватки памяти при работе с огромными документами. |
+| **Embedding images** | Ensure image URLs are absolute or embed them as Base64 in the HTML. | PDF‑рендереру нужны доступные источники изображений. |
 
----
-
-## Полный рабочий пример  
-
-Ниже представлено полностью самодостаточное консольное приложение, которое можно скопировать, вставить и запустить. Замените путь к `input.html` на свой собственный файл.
+## Full Working Example (Copy‑Paste Ready)
 
 ```csharp
-// Program.cs
-using System;
-using System.IO;
 using Aspose.Html;
-using Aspose.Html.Drawing;
+using Aspose.Html.Rendering.Pdf;
 
 class Program
 {
     static void Main()
     {
-        // 1️⃣ Register license (optional, removes evaluation watermark)
-        // var license = new Aspose.Html.License();
-        // license.SetLicense("Aspose.Html.lic");
+        // 1️⃣ Load the HTML document
+        HTMLDocument htmlDoc = new HTMLDocument("YOUR_DIRECTORY/input.html");
 
-        // 2️⃣ Define input and output paths
-        string inputPath = Path.Combine(Environment.CurrentDirectory, "input.html");
-        string outputPath = Path.Combine(Environment.CurrentDirectory, "output.pdf");
+        // 2️⃣ Append custom CSS to the <head>
+        var cssStyle = htmlDoc.CreateElement("style");
+        cssStyle.TextContent = $@"
+            body {{
+                font-family: 'Arial';
+                font-weight: {WebFontStyle.Bold.ToString().ToLower()};
+                font-style: {WebFontStyle.Italic.ToString().ToLower()};
+            }}";
+        htmlDoc.Head.AppendChild(cssStyle);
 
-        // 3️⃣ Load the HTML document
-        HTMLDocument htmlDoc = new HTMLDocument(inputPath);
-
-        // 4️⃣ (Optional) Set base URL if your HTML uses relative resources
-        htmlDoc.BaseUrl = new Uri(Path.GetDirectoryName(inputPath) + Path.DirectorySeparatorChar);
-
-        // 5️⃣ Configure rendering options – enable hinting for sharper text
-        TextOptions renderOptions = new TextOptions
+        // 3️⃣ Configure PDF rendering (set pdf page size)
+        var pdfOptions = new PdfRenderingOptions
         {
-            UseHinting = true,
-            // Uncomment to increase DPI for higher quality
-            // DpiX = 150,
-            // DpiY = 150,
-            // FontEmbeddingMode = FontEmbeddingMode.Subset
+            PageSize = PageSize.A4
         };
 
-        // 6️⃣ Render to PDF
-        htmlDoc.RenderToFile(outputPath, renderOptions);
+        // 4️⃣ Render and save the PDF
+        using (var pdfRenderer = new PdfRenderer(htmlDoc, pdfOptions))
+        {
+            pdfRenderer.Render();
+            pdfRenderer.Save("YOUR_DIRECTORY/output.pdf");
+        }
 
-        // 7️⃣ Verify output
-        if (File.Exists(outputPath))
-        {
-            Console.WriteLine($"✅ PDF created at: {outputPath}");
-            Console.WriteLine($"   Size: {new FileInfo(outputPath).Length / 1024} KB");
-        }
-        else
-        {
-            Console.WriteLine("❌ Failed to generate PDF.");
-        }
+        System.Console.WriteLine("✅ PDF created successfully at YOUR_DIRECTORY/output.pdf");
     }
 }
 ```
 
-**Expected Result:** После выполнения `dotnet run` вы найдёте `output.pdf` рядом с исполняемым файлом. Откройте его — ваш HTML будет выглядеть идентично, включая CSS‑оформление и встроенные изображения.
+> **Expected output:** An A4‑sized PDF named `output.pdf` containing the styled HTML content.
 
----
+## Frequently Asked Questions
 
-## Часто задаваемые вопросы  
+**Q: Does this work with .NET Core?**  
+Absolutely. Aspose.HTML targets .NET Standard 2.0, so you can run the same code in .NET 5/6/7 console apps, ASP.NET Core, or even Xamarin.
 
-**Q: Does this work with dynamic HTML generated at runtime?**  
-A: Absolutely. Вместо передачи пути к файлу вы можете загрузить HTML из строки: `new HTMLDocument("<html>…</html>", new Uri("about:blank"))`. Просто убедитесь, что все внешние ресурсы имеют абсолютные URL.
+**Q: What if I need to protect the PDF with a password?**  
+After rendering, you can open the generated file with `Aspose.Pdf` and apply encryption. It’s a two‑step process but fully supported.
 
-**Q: Can I convert multiple HTML files in a batch?**  
-A: Yes. Оберните логику рендеринга в цикл `foreach (var file in Directory.GetFiles(folder, "*.html"))` и изменяйте имя выходного файла соответственно.
+**Q: Can I stream the PDF directly to a web response?**  
+Yes—replace `pdfRenderer.Save(path)` with `pdfRenderer.Save(stream)` where `stream` is the `HttpResponse.Body` stream.
 
-**Q: What about password‑protecting the PDF?**  
-A: Aspose.HTML не обрабатывает безопасность PDF напрямую, но вы можете пост‑обработать сгенерированный PDF с помощью Aspose.PDF: `PdfDocument pdf = new PdfDocument(outputPath); pdf.Encrypt("ownerPwd", "userPwd", EncryptionAlgorithms.AES256); pdf.Save(outputPath);`.
+## Conclusion
 
----
+You now know **how to create pdf from html** using Aspose.HTML, covering everything from loading the markup to **append style to head**, **set pdf page size**, and finally **render html as pdf**. The complete, copy‑and‑paste code above should work out of the box, giving you a solid foundation for any document‑generation task.
 
-## Заключение  
+Ready for the next challenge? Try **convert html to pdf** with more complex layouts, experiment with page headers/footers, or explore PDF encryption. Each of those topics builds directly on the steps you just mastered, and the same principles apply.
 
-Теперь у вас есть надёжный, готовый к продакшену способ **create PDF from HTML** с помощью Aspose.HTML в C#. Следуя шести шагам — install, load, configure, render, verify и troubleshoot — вы сможете надёжно **convert HTML to PDF**, **render HTML to PDF** и решать более широкие задачи **HTML to PDF conversion**, возникающие в повседневной разработке.  
+Happy coding, and may your PDFs always look exactly as you intended! 
 
-Готовы к следующему уровню? Попробуйте добавить колонтитулы, объединить несколько PDF‑файлов или передавать результат напрямую в веб‑ответ для мгновенных загрузок. Возможностей бесконечно много, а API Aspose делает каждое расширение простым.
-
-Если вы столкнулись с проблемами или у вас есть идеи для дальнейших улучшений, оставьте комментарий ниже. Приятного кодинга и наслаждайтесь превращением веб‑страниц в стильные PDF!
-
----
-
-<img src="https://example.com/assets/create-pdf-from-html.png" alt="пример вывода create pdf from html" style="max-width:100%; height:auto;">
-
----
+![Пример создания PDF из HTML](/images/create-pdf-from-html.png "Скриншот, показывающий сгенерированный PDF – create pdf from html")
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -1,0 +1,7 @@
+Title: Create High Resolution PNG from HTML – Complete Java Guide
+Slug: create-high-resolution-png-from-html-complete-java-guide
+Category: conversion-html-to-various-image-formats
+ProcessedDate: 2026-05-25T20:44:48.244015
+SourceRepo: AI Search API
+Keywords: create high resolution png, convert html to png, export html as png, how to set png resolution
+PRNumber: 161
