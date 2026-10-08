@@ -54,7 +54,7 @@ Aspose.HTML for .NET kullanarak HTML'yi yazı tiplerini koruyarak PDF'ye nasıl 
 ### [Aspose.HTML ile .NET'te C#'ta PDF Sayfa Boyutunu Ayarlama – HTML'yi PDF'ye Dönüştürün](./set-pdf-page-size-in-c-convert-html-to-pdf/)
 Aspose.HTML for .NET kullanarak C# içinde PDF sayfa boyutunu ayarlayın ve HTML'yi PDF'ye dönüştürün. Adım adım kılavuz.
 ### [Aspose.HTML ile HTML'den PDF Oluşturma – Adım Adım Kılavuz](./create-pdf-from-html-with-aspose-html-step-by-step-guide/)
-Aspose.HTML for .NET kullanarak HTML'den PDF'ye nasıl dönüştüreceğinizi adım adım öğrenin.
+Aspose.HTML for .NET kullanarak HTML'den PDF'ye dönüşümü ayrıntılı şekilde öğrenin.
 ### [Aspose.HTML ile .NET'te EPUB'ı Görüntüye Dönüştürme](./convert-epub-to-image/)
 ### [Aspose.HTML ile .NET'te EPUB'ı PDF'ye dönüştürün](./convert-epub-to-pdf/)
 ### [Aspose.HTML ile .NET'te EPUB'ı XPS'e dönüştürün](./convert-epub-to-xps/)
