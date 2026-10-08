@@ -24,14 +24,6 @@ title: Jak převést HTML na PNG – Kompletní průvodce C#
 url: /cs/net/generate-jpg-and-png-images/how-to-render-html-to-png-complete-c-guide/
 ---
 
-"Proč". Keep table formatting.
-
-Check checkboxes: keep same.
-
-Make sure to keep code block placeholders unchanged.
-
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -23,15 +23,7 @@ title: 如何将HTML渲染为PNG – 完整C#指南
 url: /zh/net/generate-jpg-and-png-images/how-to-render-html-to-png-complete-c-guide/
 ---
 
-sure to keep markdown formatting.
-
-Now produce final output with all translations.
-
-Check for any other markdown elements: blockquote > lines, bullet lists, headings, table, checkboxes.
-
-Make sure to keep code placeholders unchanged.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -23,9 +23,7 @@ title: 如何將 HTML 轉換為 PNG – 完整 C# 教學
 url: /zh-hant/net/generate-jpg-and-png-images/how-to-render-html-to-png-complete-c-guide/
 ---
 
-, code block placeholders, blockquotes, tables.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

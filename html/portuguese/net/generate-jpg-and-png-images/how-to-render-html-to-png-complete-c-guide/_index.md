@@ -25,20 +25,6 @@ title: Como Renderizar HTML para PNG – Guia Completo de C#
 url: /pt/net/generate-jpg-and-png-images/how-to-render-html-to-png-complete-c-guide/
 ---
 
-we should not translate those.
-
-Also need to translate the checklist items but keep the markdown syntax.
-
-Also need to translate the FAQ Q/A.
-
-Make sure to keep the markdown formatting.
-
-Let's produce the translated content.
-
-We need to keep the shortcodes exactly as they appear.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -25,15 +25,7 @@ title: Comment rendre du HTML en PNG – Guide complet C#
 url: /fr/net/generate-jpg-and-png-images/how-to-render-html-to-png-complete-c-guide/
 ---
 
-keep them unchanged.
-
-Now produce final output with all translated content.
-
-Check we kept all code block placeholders and shortcodes.
-
-Also note the table formatting: need to keep markdown table syntax.
-
-Let's construct final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

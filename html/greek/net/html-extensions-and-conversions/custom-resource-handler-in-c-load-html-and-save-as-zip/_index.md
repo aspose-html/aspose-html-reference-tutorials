@@ -25,9 +25,7 @@ title: Προσαρμοσμένος Διαχειριστής Πόρων σε C# 
 url: /el/net/html-extensions-and-conversions/custom-resource-handler-in-c-load-html-and-save-as-zip/
 ---
 
-we keep headings with same number of #.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

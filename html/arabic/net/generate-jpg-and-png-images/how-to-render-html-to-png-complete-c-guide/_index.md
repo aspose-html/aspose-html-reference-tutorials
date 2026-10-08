@@ -23,13 +23,7 @@ title: كيفية تحويل HTML إلى PNG – دليل C# الكامل
 url: /ar/net/generate-jpg-and-png-images/how-to-render-html-to-png-complete-c-guide/
 ---
 
-🚀"
-
-Then closing shortcodes.
-
-Make sure to keep all shortcodes unchanged.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

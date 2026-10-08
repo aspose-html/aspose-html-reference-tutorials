@@ -24,14 +24,6 @@ title: Gestore di risorse personalizzato in C# – Carica HTML e salva come ZIP
 url: /it/net/html-extensions-and-conversions/custom-resource-handler-in-c-load-html-and-save-as-zip/
 ---
 
--button >}}
-
-Make sure not to translate shortcodes.
-
-Also preserve markdown formatting.
-
-Let's produce final translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -24,17 +24,7 @@ title: Benutzerdefinierter Ressourcen‑Handler in C# – HTML laden und als ZIP
 url: /de/net/html-extensions-and-conversions/custom-resource-handler-in-c-load-html-and-save-as-zip/
 ---
 
-images. Ensure we didn't translate any code placeholders.
-
-Check bullet list formatting: keep hyphens and spaces.
-
-Check bold formatting: keep **.
-
-Check blockquote: keep >.
-
-Check headings: same number of #.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

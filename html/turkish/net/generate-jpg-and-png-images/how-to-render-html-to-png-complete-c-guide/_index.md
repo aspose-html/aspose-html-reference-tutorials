@@ -25,13 +25,7 @@ title: HTML'yi PNG'ye Dönüştürme – Tam C# Rehberi
 url: /tr/net/generate-jpg-and-png-images/how-to-render-html-to-png-complete-c-guide/
 ---
 
-fini çıkarın! 🚀"
-
-Now ensure we preserve all markdown formatting, code block placeholders, tables, checkboxes.
-
-Also need to keep shortcodes at top and bottom unchanged.
-
-Let's produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

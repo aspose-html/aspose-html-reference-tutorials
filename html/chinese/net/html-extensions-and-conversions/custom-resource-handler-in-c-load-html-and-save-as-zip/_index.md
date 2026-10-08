@@ -21,18 +21,6 @@ title: C# 中的自定义资源处理程序 – 加载 HTML 并保存为 ZIP
 url: /zh/net/html-extensions-and-conversions/custom-resource-handler-in-c-load-html-and-save-as-zip/
 ---
 
-Save HTML as ZIP" heading.
-
-Proceed.
-
-Make sure to keep markdown formatting.
-
-Let's write Chinese translation.
-
-Be careful with "✅" etc not present.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

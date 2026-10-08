@@ -22,10 +22,6 @@ title: معالج الموارد المخصص في C# – تحميل HTML وحف
 url: /ar/net/html-extensions-and-conversions/custom-resource-handler-in-c-load-html-and-save-as-zip/
 ---
 
-Arabic content.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

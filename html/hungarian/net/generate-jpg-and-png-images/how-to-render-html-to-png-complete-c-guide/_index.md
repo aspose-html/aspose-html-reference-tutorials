@@ -25,14 +25,6 @@ title: HTML PNG-re renderelése – Teljes C# útmutató
 url: /hu/net/generate-jpg-and-png-images/how-to-render-html-to-png-complete-c-guide/
 ---
 
-.
-
-Check for any images: none.
-
-All good.
-
-Now produce final content with same structure.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

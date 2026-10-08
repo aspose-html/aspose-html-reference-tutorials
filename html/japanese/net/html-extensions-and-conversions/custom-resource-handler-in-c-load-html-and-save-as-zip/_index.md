@@ -21,14 +21,6 @@ title: C# のカスタムリソースハンドラ – HTML を読み込み ZIP �
 url: /ja/net/html-extensions-and-conversions/custom-resource-handler-in-c-load-html-and-save-as-zip/
 ---
 
-final content with Japanese translation.
-
-Be careful to preserve markdown formatting, code block placeholders, shortcodes, links, URLs.
-
-Also note "For Japanese, ensure proper RTL formatting if needed" - not needed.
-
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

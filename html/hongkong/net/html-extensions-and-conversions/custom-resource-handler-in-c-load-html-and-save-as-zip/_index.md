@@ -21,10 +21,6 @@ title: C# 自訂資源處理程式 – 載入 HTML 並儲存為 ZIP
 url: /zh-hant/net/html-extensions-and-conversions/custom-resource-handler-in-c-load-html-and-save-as-zip/
 ---
 
-? Keep dash.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

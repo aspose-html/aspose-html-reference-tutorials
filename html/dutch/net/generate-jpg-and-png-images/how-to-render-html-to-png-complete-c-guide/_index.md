@@ -24,15 +24,7 @@ title: Hoe HTML naar PNG te renderen – Complete C#-gids
 url: /nl/net/generate-jpg-and-png-images/how-to-render-html-to-png-complete-c-guide/
 ---
 
-🚀" => "Veel plezier met coderen! 🚀"
-
-Then closing shortcodes unchanged.
-
-Also there is a shortcode at end: {{< /blocks/products/pf/tutorial-page-section >}} etc.
-
-Make sure to keep them.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

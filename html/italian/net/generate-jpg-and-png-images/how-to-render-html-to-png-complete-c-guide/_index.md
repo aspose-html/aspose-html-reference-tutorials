@@ -24,14 +24,6 @@ title: Come convertire HTML in PNG – Guida completa C#
 url: /it/net/generate-jpg-and-png-images/how-to-render-html-to-png-complete-c-guide/
 ---
 
-is.
-
-Also "ASP.NET" etc remain.
-
-Translate sentences.
-
-Let's produce.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -25,12 +25,6 @@ title: Cách chuyển đổi HTML sang PNG – Hướng dẫn C# đầy đủ
 url: /vi/net/generate-jpg-and-png-images/how-to-render-html-to-png-complete-c-guide/
 ---
 
-.
-
-Be careful to keep markdown formatting exactly.
-
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

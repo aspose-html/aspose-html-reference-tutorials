@@ -23,11 +23,7 @@ title: Vlastní obsluha zdrojů v C# – Načíst HTML a uložit jako ZIP
 url: /cs/net/html-extensions-and-conversions/custom-resource-handler-in-c-load-html-and-save-as-zip/
 ---
 
-uklizené!"
-
-Now ensure all shortcodes and code placeholders remain unchanged.
-
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
