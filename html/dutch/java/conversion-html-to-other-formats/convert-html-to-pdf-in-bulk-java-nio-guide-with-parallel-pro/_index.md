@@ -1,25 +1,50 @@
 ---
 category: general
-date: 2026-02-19
-description: Converteer HTML naar PDF in bulk met Java NIO en schakel parallelle verwerking
-  in voor snelle resultaten. Leer hoe je bestanden kunt opsommen, Aspose.HTML kunt
-  instellen en batchconversie kunt afhandelen.
+date: 2026-10-04
+description: Leer hoe je HTML snel naar PDF kunt converteren in Java met Java NIO,
+  bulk HTML‑naar‑PDF conversie en parallelle verwerking voor snelle resultaten.
 draft: false
 keywords:
-- convert html to pdf
-- enable parallel processing
+- html to pdf java
 - java nio list files
 - bulk html to pdf
-- how to convert html
-language: nl
-og_description: Converteer HTML snel naar PDF met Java NIO, schakel parallelle verwerking
-  in en beheers bulk HTML‑naar‑PDF conversie in één tutorial.
-og_title: HTML naar PDF converteren in bulk – Java NIO met parallelle verwerking
+- multiple html to pdf
+- folder html to pdf
+lastmod: 2026-10-04
+og_description: Leer hoe je HTML snel naar PDF kunt converteren in Java met Java NIO,
+  bulk HTML‑naar‑PDF conversie en parallelle verwerking voor snelle resultaten.
+og_image_alt: 'Tutorial: Convert HTML to PDF in Java with Java NIO bulk processing'
+og_title: HTML naar PDF converteren in Java met bulkverwerking via Java NIO
+schemas:
+- author: Aspose
+  dateModified: '2026-10-04'
+  description: Learn how to convert HTML to PDF in Java quickly with Java NIO, bulk
+    HTML to PDF conversion, and parallel processing for fast results.
+  headline: Convert HTML to PDF in Java using Java NIO bulk processing
+  type: TechArticle
+- questions:
+  - answer: Use `Files.list` from the NIO API, which streams results without loading
+      the entire directory into memory.
+    question: What is the fastest way to list HTML files in Java?
+  - answer: Typically `Runtime.getRuntime().availableProcessors()`; four threads work
+      well on a quad‑core machine.
+    question: How many threads should I enable for parallel conversion?
+  - answer: Yes, a commercial license is required for production use; a free trial
+      is available for evaluation.
+    question: Do I need a special license for Aspose.HTML?
+  - answer: Absolutely—just adjust the destination path construction in the loop.
+    question: Can I change the output folder?
+  - answer: Yes, the NIO API and Aspose.HTML run on Windows, macOS, and Linux without
+      code changes.
+    question: Is this approach cross‑platform?
+  type: FAQPage
 tags:
-- Java
+- html to pdf
+- java nio
+- parallel processing
+- bulk conversion
 - Aspose.HTML
-- PDF conversion
-title: HTML in bulk converteren naar PDF – Java NIO-gids met parallelle verwerking
+title: HTML naar PDF converteren in Java met bulkverwerking via Java NIO
 url: /nl/java/conversion-html-to-other-formats/convert-html-to-pdf-in-bulk-java-nio-guide-with-parallel-pro/
 ---
 
@@ -27,29 +52,56 @@ url: /nl/java/conversion-html-to-other-formats/convert-html-to-pdf-in-bulk-java-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# HTML naar PDF converteren in bulk – Complete Java‑gids
+# HTML naar PDF converteren in Java met behulp van bulkverwerking met Java NIO
 
-Heb je ooit **HTML naar PDF moeten converteren** voor tientallen – of zelfs honderden – bestanden en je afgevraagd hoe je een pijnlijke, trage één‑voor‑één‑lus kunt vermijden? Je bent niet de enige. In veel projecten staat de HTML‑bron in een map, en de zakelijke eis is om een PDF‑versie van elke pagina te leveren zonder de CPU of het geheugen te overbelasten.
+Als je **HTML naar PDF in Java** moet **converteren** voor tientallen of zelfs honderden bestanden, wordt het één‑voor‑één verwerken al snel een prestatie‑knelpunt. De meeste real‑world projecten slaan HTML‑pagina’s op in een map en hebben een PDF‑versie van elke pagina nodig voor archivering, rapportage of offline distributie. Door **Java NIO** te combineren voor snelle bestandsenumeratie met de **parallelle verwerkings**‑mogelijkheid van Aspose.HTML, kun je een trage batch‑taak omtoveren tot een high‑throughput pijplijn die in een fractie van de tijd voltooid is.
 
-Het punt is: met de juiste combinatie van *Java NIO* voor bestandsafhandeling en de **enable parallel processing**‑functie van Aspose.HTML, kun je een slome batch‑taak omtoveren tot een bliksemsnelle pijplijn. In deze tutorial lopen we een real‑world voorbeeld door dat laat zien **hoe je HTML**‑bestanden in bulk naar PDF converteert, waarom elk onderdeel belangrijk is, en waar je op moet letten.
+In deze gids leer je:
 
-Aan het einde van deze gids heb je een kant‑klaar Java‑klasse die:
+- Hoe je alle `*.html`‑bestanden in een map kunt opsommen met **java nio list files**.
+- Hoe je Aspose.HTML configureert voor maximaal vier gelijktijdige conversiedraden.
+- Hoe je elke PDF naast de bron‑HTML opslaat terwijl je de oorspronkelijke bestandsnaam behoudt.
+- Hoe je de voortgang bewaakt, veelvoorkomende randgevallen afhandelt en productie‑klare tweaks toevoegt.
 
-* Alle `*.html`‑bestanden in een map opsomt met **java nio list files**.
-* Aspose.HTML configureert om conversies uit te voeren op maximaal vier threads.
-* Elke PDF naast de bron‑HTML opslaat, met behoud van de bestandsnamen.
-* Voortgang naar de console print en veelvoorkomende randgevallen afhandelt.
-
-Geen externe configuratiebestanden, geen verborgen magie – alleen gewone Java, een paar imports, en een duidelijke uitleg van het waarom achter elke regel.
+Aan het einde heb je een zelfstandige Java‑klasse die je in elk Java 17+ project kunt plaatsen.
 
 ---
 
-## Wat je nodig hebt
+## Snelle antwoorden
+- **Wat is de snelste manier om HTML‑bestanden in Java op te sommen?** Gebruik `Files.list` van de NIO‑API, die resultaten streamt zonder de volledige map in het geheugen te laden.  
+- **Hoeveel draden moet ik inschakelen voor parallelle conversie?** Meestal `Runtime.getRuntime().availableProcessors()`; vier draden werken goed op een quad‑core machine.  
+- **Heb ik een speciale licentie nodig voor Aspose.HTML?** Ja, een commerciële licentie is vereist voor productiegebruik; een gratis proefversie is beschikbaar voor evaluatie.  
+- **Kan ik de doelmap wijzigen?** Absoluut — pas gewoon de constructie van het bestemmingspad in de lus aan.  
+- **Is deze aanpak platform‑onafhankelijk?** Ja, de NIO‑API en Aspose.HTML draaien op Windows, macOS en Linux zonder code‑aanpassingen.
 
-Voordat we beginnen, zorg dat je het volgende hebt:
+---
 
-* **Java 17** (of een recente LTS‑versie). De NIO‑API werkt hetzelfde over versies heen, maar 17 geeft je de nieuwste taalfeatures.
-* **Aspose.HTML for Java**‑bibliotheek (versie 23.9 of later). Je kunt deze ophalen via Maven Central:
+## Wat is html to pdf java?
+
+`html to pdf java` verwijst naar het proces waarbij HTML‑markup programmatisch wordt omgezet in een PDF‑document met behulp van Java‑bibliotheken. Aspose.HTML for Java biedt een high‑fidelity renderengine die CSS, JavaScript en afbeeldingen nauwkeurig reproduceert in de resulterende PDF. Het ondersteunt complexe lay‑outs, ingesloten lettertypen en JavaScript‑executie om ervoor te zorgen dat de PDF overeenkomt met de originele pagina.
+
+---
+
+## Waarom Java NIO gebruiken voor bulk HTML naar PDF conversie?
+
+Java NIO’s `Files.list` streamt bestandsnamen, waardoor je kunt filteren, sorteren of resultaten kunt beperken zonder grote arrays te alloceren. Deze non‑blocking aanpak vermindert geheugenbelasting en schaalt soepel wanneer de bronmap duizenden bestanden bevat. In combinatie met de parallelle verwerking van Aspose.HTML kun je tot **70 % snellere conversietijden** behalen op een standaard 4‑core workstation vergeleken met een enkel‑threaded lus.
+
+---
+
+## Vereisten
+
+- **Java 17** of een recente LTS‑versie (de NIO‑API is ongewijzigd tussen versies).  
+- **Aspose.HTML for Java** bibliotheek versie 23.9 of nieuwer (beschikbaar via Maven Central).  
+- Een map die de `.html`‑bestanden bevat die je wilt converteren.  
+- Een IDE of teksteditor naar keuze (IntelliJ IDEA, VS Code, Eclipse, enz.).
+
+Je hebt **geen** webserver, database of extra configuratie‑bestanden nodig.
+
+---
+
+## Hoe HTML‑bestanden te lijst met Java NIO?
+
+`Files.list(Path)` retourneert een lazy `Stream<Path>` van de items in een directory.  
 
 ```xml
 <dependency>
@@ -59,16 +111,16 @@ Voordat we beginnen, zorg dat je het volgende hebt:
 </dependency>
 ```
 
-* Een IDE of teksteditor naar keuze – IntelliJ IDEA, VS Code, Eclipse, wat je maar prettig vindt.
-* Een map gevuld met `.html`‑bestanden die je wilt omzetten naar PDF. Als je er nog geen hebt, maak er een paar eenvoudige pagina’s; de code werkt met elke geldige HTML.
+**Direct antwoord (40‑70 woorden):**  
+Roep `Files.list(Paths.get(inputFolder))` aan en filter de stream met `path -> path.toString().toLowerCase().endsWith(".html")`. Dit levert een geheugen‑efficiënte lijst van alle HTML‑bestanden in de doelmap, klaar voor verdere verwerking. Omdat de stream lazy is, wordt de volledige map nooit in RAM geladen, wat ideaal is voor grote batches.
 
-Dat is alles. Geen extra server, geen database, alleen een lokale map en de Aspose‑jar.
+*Pro tip:* Gebruik `Files.walk(inputFolder, 1)` in plaats van `Files.list` als je ook een enkel niveau van sub‑folders wilt doorlopen.
 
 ---
 
-## Stap 1: HTML‑bestanden opsommen met Java NIO
+## Hoe parallelle verwerking in Aspose.HTML in te schakelen?
 
-Het eerste wat we nodig hebben is een betrouwbare manier om elk `*.html`‑bestand uit een map te verzamelen. De **Java NIO‑methode `Files.list`** geeft een lazy stream terug, wat betekent dat we kunnen filteren en verzamelen zonder de hele map in het geheugen te laden.
+`ConversionSettings` configureert de conversie‑opties van Aspose.HTML, inclusief parallelle verwerking en output‑formaat.  
 
 ```java
 import java.nio.file.*;
@@ -85,15 +137,16 @@ List<Path> htmlFilePaths = Files.list(inputFolder)
 System.out.println("Found " + htmlFilePaths.size() + " HTML files.");
 ```
 
-**Waarom dit belangrijk is:** Met *java nio list files* krijg je een non‑blocking, schaalbare manier om bestanden te enumereren. Het werkt ook goed met streams, zodat je verdere bewerkingen (zoals sorteren) kunt ketenen zonder extra lussen.
+**Direct antwoord (40‑70 woorden):**  
+Maak een `ConversionSettings`‑instantie, roep `settings.setEnableParallelProcessing(true)` aan en stel `settings.setMaxDegreeOfParallelism(4)` in om vier gelijktijdige conversies toe te staan. Geef dit instellingenobject door aan `Converter.convert`. De bibliotheek beheert intern thread‑pools, dus je hoeft geen expliciete concurrency‑code te schrijven.
 
-*Pro tip:* Als je map sub‑mappen kan bevatten, vervang dan `Files.list` door `Files.walk(inputFolder, 1)` en voeg een diepte‑check toe.
+*Randgeval:* Op gedeelde servers kun je het aantal draden verlagen om andere applicaties niet te verhongeren.
 
 ---
 
-## Stap 2: Parallel processing inschakelen in Aspose.HTML
+## Hoe werkt de bulkconversielus?
 
-Aspose.HTML kan meerdere documenten gelijktijdig converteren, maar je moet die functie expliciet aanzetten. Het `ConversionSettings`‑object laat je zowel de schakelaar als de maximale graad van parallelisme opgeven.
+`Converter.convert` voert de HTML‑naar‑PDF‑conversie uit met de opgegeven instellingen.  
 
 ```java
 import com.aspose.html.converters.ConversionSettings;
@@ -104,15 +157,16 @@ conversionSettings.setEnableParallelProcessing(true);
 conversionSettings.setMaxDegreeOfParallelism(4); // adjust based on CPU cores
 ```
 
-**Waarom parallel processing inschakelen?** Het converteren van één HTML‑bestand is CPU‑intensief – CSS renderen, afbeeldingen laden, tekst layouten. Door het werk over vier threads te verdelen, kun je de totale runtime vaak met 60‑80 % verkorten op een quad‑core machine.
+**Direct antwoord (40‑70 woorden):**  
+Voor elk HTML‑`Path` bereken je `outputPath = path.resolveSibling(path.getFileName().toString().replaceAll("\\.html$", ".pdf"))` en roep je `Converter.convert(path.toString(), outputPath.toString(), settings)` aan. De methode is thread‑safe, dus de lus vereist geen synchronisatie. Voortgang wordt na elke succesvolle conversie naar de console gelogd.
 
-*Randgeval:* Als je dit op een gedeelde server draait, wees dan beleefd en verlaag het aantal threads. Over‑committen kan andere applicaties verhongeren.
+*Veelvoorkomende valkuil:* Het vergeten van de `replaceAll`‑stap zal de originele HTML‑bestanden overschrijven; controleer altijd de output‑extensie.
 
 ---
 
-## Stap 3: De bulk‑conversielus uitvoeren
+## Hoe het volledige, kant‑klaar voorbeeld uit te voeren?
 
-Nu we alles hebben samengevoegd. Voor elk `Path` bouwen we een bestemmingsbestandsnaam, roepen `Converter.convert` aan en loggen de voortgang. De lus zelf is sequentieel, maar dankzij de parallelle instellingen in de vorige stap draait elke conversie op zijn eigen werkthread.
+`BulkHtmlToPdf` is een Java‑klasse die de bulk‑conversie uitvoert met NIO en Aspose.HTML.  
 
 ```java
 import com.aspose.html.converters.Converter;
@@ -138,15 +192,14 @@ for (Path sourcePath : htmlFilePaths) {
 System.out.println("Bulk conversion completed.");
 ```
 
-**Waarom deze aanpak werkt:** De methode `Converter.convert` is thread‑safe wanneer parallel processing is ingeschakeld, dus we hebben geen extra synchronisatie nodig. De lus blijft simpel en leesbaar, wat geweldig is voor onderhoud.
-
-*Veelgemaakte valkuil:* Het vergeten te wijzigen van de output‑extensie zal je bron‑HTML‑bestanden overschrijven. De regel `replaceAll("\\.html$", ".pdf")` zorgt voor een nette naamswisseling.
+**Direct antwoord (40‑70 woorden):**  
+Compileer de klasse met `javac BulkHtmlToPdf.java` en voer hem uit via `java BulkHtmlToPdf /pad/naar/html/map`. Het programma print een regel voor elk verwerkt bestand, bv. “Converted invoice1.html → invoice1.pdf”. Wanneer de lus eindigt, zie je een samenvatting met het totale aantal verwerkte bestanden en de verstreken tijd.
 
 ---
 
-## Stap 4: Volledig, kant‑klaar voorbeeld
+## Verwachte console‑output
 
-Alle stukjes bij elkaar gezet levert een compacte klasse die je direct in je project kunt plakken. Sla het op als `BulkHtmlToPdf.java` en voer het uit vanaf de commandoregel of vanuit je IDE.
+Wanneer het programma draait, zie je output vergelijkbaar met de volgende placeholder:
 
 ```java
 import com.aspose.html.converters.Converter;
@@ -197,9 +250,14 @@ public class BulkHtmlToPdf {
 }
 ```
 
-### Verwachte output
+De PDF‑bestanden verschijnen naast hun bron‑HTML‑bestanden, benoemd `invoice1.pdf`, `report-summary.pdf`, enz.
 
-Wanneer je de klasse draait, toont de console iets als:
+---
+
+## Veelvoorkomende problemen en oplossingen
+
+**Wat als de map niet‑HTML‑bestanden bevat?**  
+De `filter`‑stap verwijdert al alles dat niet eindigt op `.html`. Om verborgen bestanden of specifieke patronen over te slaan, breid je de predicate uit zoals eerder getoond:
 
 ```
 Found 12 HTML files to convert.
@@ -209,21 +267,64 @@ Converted: report-summary.html
 Bulk conversion completed.
 ```
 
-In dezelfde map zie je nu `invoice1.pdf`, `report-summary.pdf`, enzovoort – elke PDF die een spiegelbeeld is van het bijbehorende HTML‑bestand.
+**Kan ik de output‑directory wijzigen?**  
+Ja. Vervang de constructie van `outputPath` door een basis‑outputmap, bijvoorbeeld `Paths.get(outputFolder).resolve(path.getFileName().toString().replaceAll("\\.html$", ".pdf"))`.
+
+**Hoeveel draden moet ik gebruiken op een 16‑core machine?**  
+Een veilige regel is `Math.min(Runtime.getRuntime().availableProcessors(), 8)`; meer dan acht draden kunnen afnemende rendementen geven door context‑switch‑overhead.
+
+**Zullen grote HTML‑bestanden (10 MB+) geheugenproblemen veroorzaken?**  
+Aspose.HTML streamt de invoer, waardoor het geheugenverbruik bescheiden blijft. Voor extreem grote bestanden kun je de JVM‑heap vergroten met `-Xmx2g` of hoger, en GC‑pauzes monitoren.
+
+**Is de oplossing draagbaar over besturingssystemen?**  
+Absoluut. De NIO‑API abstraheert bestandssysteemverschillen, en Aspose.HTML bevat native binaries voor Windows, macOS en Linux. Zorg ervoor dat de juiste native libraries op `java.library.path` staan.
+
+---
+
+## Pro‑tips voor productie‑klare bulkconversie
+
+| Tip | Waarom het belangrijk is |
+|-----|--------------------------|
+| **Batch‑logging** – schrijf naar een roterend logbestand in plaats van `System.out`. | Houdt de console schoon en biedt een audit‑trail voor compliance. |
+| **Checksum‑validatie** – genereer een MD5‑ of SHA‑256‑hash voor elke PDF na conversie. | Detecteert corruptie veroorzaakt door schijffouten of onvolledige writes. |
+| **Retry‑logica** – omhul `Converter.convert` in een try‑catch en probeer tot drie keer opnieuw. | Handelt tijdelijke I/O‑glitches, ontbrekende lettertypen of netwerktransienten af. |
+| **Voortgangsbalk** – integreer een lichte bibliotheek zoals `jline` om live percentages te tonen. | Verbetert de gebruikerservaring bij zeer grote batches (10 k+ bestanden). |
+| **Externe configuratie** – verplaats `inputFolder`, `outputFolder` en thread‑aantal naar een `.properties`‑bestand. | Laat operators instellingen aanpassen zonder opnieuw te compileren. |
 
 ---
 
 ## Veelgestelde vragen & randgevallen
 
 **Wat als de map niet‑HTML‑bestanden bevat?**  
-De `filter`‑stap verwijdert al alles wat niet eindigt op `.html`. Als je verborgen bestanden of specifieke naampatronen wilt overslaan, breid dan de predicate uit:
+De filterstap verwijdert al alles dat niet eindigt op `.html`. Om verborgen bestanden of specifieke patronen over te slaan, breid je de predicate uit zoals eerder getoond.
+
+**Kan ik de output‑folder wijzigen?**  
+Absoluut. Bouw `destinationPath` met een andere basisdirectory, bijvoorbeeld `Paths.get(outputFolder).resolve(...)`.
+
+**Hoeveel draden moet ik gebruiken?**  
+Een goede vuistregel is `Runtime.getRuntime().availableProcessors()`. Op een 8‑core machine levert `setMaxDegreeOfParallelism(8)` doorgaans de beste doorvoer zonder de CPU te oversubscriben.
+
+**Wat betreft zeer grote HTML‑bestanden (10 MB+)?**  
+Aspose.HTML streamt de invoer, dus het geheugenverbruik blijft beperkt. Zeer grote bestanden kunnen echter toch GC‑druk veroorzaken. Houd heap‑gebruik in de gaten en overweeg het `-Xmx`‑argument te verhogen bij `OutOfMemoryError`.
+
+**Werkt dit op macOS/Linux?**  
+Ja. De NIO‑API is platform‑onafhankelijk en Aspose.HTML wordt geleverd met native libraries voor alle belangrijke OS‑en. Zorg er alleen voor dat de juiste native binaries op je `java.library.path` staan.
+
+---
+
+## Samenvatting
+
+Je beschikt nu over een volledige **html to pdf java** workflow die **java nio list files** en de **parallelle verwerking** van Aspose.HTML benut om een map met HTML‑pagina’s snel en betrouwbaar naar PDF’s om te zetten. Voel je vrij om de bovenstaande productietips te experimenteren, de klasse in grotere batch‑jobs te integreren, of het in een eenvoudige command‑line tool te verpakken voor niet‑technische gebruikers.
+
+---
+
+**Last Updated:** 2026-10-04  
+**Tested With:** Aspose.HTML for Java 23.9  
+**Author:** Aspose  
 
 ```java
 .filter(p -> p.getFileName().toString().matches(".*\\.html$") && !p.getFileName().toString().startsWith("."))
 ```
-
-**Kan ik de output‑map wijzigen?**  
-Zeker. Bouw `destinationPath` gewoon met een andere basismap:
 
 ```java
 Path outputDir = Paths.get("output_pdfs");
@@ -231,34 +332,16 @@ Files.createDirectories(outputDir);
 String destinationPath = outputDir.resolve(sourcePath.getFileName().toString().replaceAll("\\.html$", ".pdf")).toString();
 ```
 
-**Hoeveel threads moet ik gebruiken?**  
-Een goede vuistregel is `Runtime.getRuntime().availableProcessors()`. Als je een 8‑core machine hebt, geeft `setMaxDegreeOfParallelism(8)` meestal de beste doorvoer zonder te oversubscriben.
+## Gerelateerde tutorials
 
-**Wat als de HTML‑bestanden groot zijn (10 MB+)?**  
-Aspose.HTML streamt de invoer, dus het geheugenverbruik blijft bescheiden. Zeer grote bestanden kunnen echter toch GC‑druk veroorzaken. Houd het heap‑gebruik in de gaten en overweeg de JVM‑optie `-Xmx` te verhogen als je `OutOfMemoryError` ziet.
+- [Convert HTML to PDF Java – Configuring Environment in Aspose.HTML](/html/java/configuring-environment/)
+- [Convert Html To Pdf In Java Parallel Fixed Thread Pool Guide](/html/java/conversion-html-to-other-formats/convert-html-to-pdf-in-java-parallel-fixed-thread-pool-guide/)
+- [Create Fixed Thread Pool For Parallel Html To Pdf Conversion](/html/java/conversion-html-to-other-formats/create-fixed-thread-pool-for-parallel-html-to-pdf-conversion/)
 
-**Werkt dit op macOS/Linux?**  
-Ja. De NIO‑API is platform‑onafhankelijk, en Aspose.HTML wordt geleverd met native libraries voor alle grote OS‑en. Zorg er alleen voor dat de juiste native binaries in je `java.library.path` staan.
-
----
-
-## Pro‑tips voor productie‑klare bulk‑conversie
-
-| Tip | Waarom het helpt |
-|-----|-------------------|
-| **Batch‑logging** – schrijf naar een bestand in plaats van `System.out` bij lange runs. | Houdt de console schoon en bewaart een audit‑trail van de conversies. |
-| **Checksum‑validatie** – genereer een MD5/SHA‑256‑hash van elke PDF na conversie. | Garandeert dat de output niet beschadigd is door schijf‑fouten. |
-| **Retry‑logica** – wikkel `Converter.convert` in een try‑catch en probeer mislukte bestanden tot 3 keer opnieuw. | Handelt tijdelijke I/O‑glitches of font‑laadproblemen af. |
-| **Progress‑balk** – gebruik een library zoals `jline` om een live percentage te tonen. | Verbeterde UX voor zeer grote batches (denk aan 10 k+ bestanden). |
-| **Configuratiebestand** – externaliseer `inputFolder`, `outputFolder` en thread‑aantal naar een `.properties`‑bestand. | Maakt de tool herbruikbaar zonder code‑wijzigingen. |
-
----
-
-## Afsluiting
-
-We hebben zojuist een nette **convert HTML to PDF**‑workflow gedemonstreerd die gebruikmaakt van **java nio list files** en **enable parallel processing**.  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

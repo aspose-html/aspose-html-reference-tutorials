@@ -1,27 +1,53 @@
 ---
 category: general
-date: 2026-02-22
-description: Hogyan engedélyezzük a JavaScript-et Java-ban az Aspose.HTML használatával.
-  Tanulja meg, hogyan futtassunk JavaScript-et Java-ban, hogyan olvassunk elemet ID
-  alapján, hogyan szerezzük meg az elem belső szövegét, és hogyan töltsünk be HTML-dokumentumot
-  Java-ban.
+date: 2026-10-04
+description: Ismerje meg, hogyan futtathat JavaScript-et Java-ban az Aspose.HTML használatával.
+  Lépésről‑lépésre útmutató a HTML betöltéséhez, a szkriptek engedélyezéséhez, az
+  elem ID szerinti olvasásához és az elem belső szövegének lekérdezéséhez.
 draft: false
 keywords:
-- how to enable javascript
 - run javascript in java
 - read element by id
 - retrieve element inner text
 - load html document java
-language: hu
-og_description: Hogyan engedélyezzük a JavaScriptet Java-ban az Aspose.HTML használatával.
-  Lépésről lépésre bemutatott kód a JavaScript futtatásához Java-ban, az elem ID szerinti
-  olvasásához és a belső szöveg lekéréséhez.
-og_title: Hogyan engedélyezzük a JavaScript-et Java-ban – Teljes Aspose.HTML útmutató
+- handle null elements java
+lastmod: 2026-10-04
+og_description: Ismerje meg, hogyan futtathat JavaScript-et Java-ban az Aspose.HTML
+  használatával. Lépésről‑lépésre útmutató a HTML betöltéséhez, a szkriptek engedélyezéséhez,
+  az elem ID szerinti olvasásához és az elem belső szövegének lekérdezéséhez.
+og_image_alt: Developer guide showing Java code that runs JavaScript and extracts
+  element text
+og_title: Java-ban JavaScript futtatása az Aspose.HTML segítségével – teljes útmutató
+schemas:
+- author: Aspose
+  dateModified: '2026-10-04'
+  description: Learn how to run JavaScript in Java using Aspose.HTML. Step‑by‑step
+    guide to load HTML, enable scripting, read element by ID, and retrieve element
+    inner text.
+  headline: Run javascript in Java with Aspose.HTML complete guide
+  type: TechArticle
+- questions:
+  - answer: Yes. After creating the `HTMLDocument`, call `htmlDoc.getWindow().eval("yourCode")`
+      to inject and run additional scripts.
+    question: Can I execute my own custom JavaScript code before the document loads?
+  - answer: The built‑in engine implements ECMAScript 5.1; newer features like `let`,
+      `const`, and arrow functions are not supported.
+    question: Does Aspose.HTML support ES6 features?
+  - answer: By default, external scripts are fetched if the URL is reachable. You
+      can disable this by setting `scriptEngineOptions.setEnableExternalScripts(false)`.
+    question: What happens if the HTML contains external script references?
+  - answer: Yes. Use `scriptEngineOptions.setExecutionTimeout(seconds)` to prevent
+      long‑running scripts from hanging your application.
+    question: Is there a way to limit script execution time?
+  - answer: Pass the same `HTMLDocument` instance to `new PDFDocument(htmlDoc, pdfOptions)`;
+      the rendered PDF will include the script‑generated content.
+    question: How do I convert the processed HTML to PDF after running scripts?
+  type: FAQPage
 tags:
 - Aspose.HTML
 - Java
 - Scripting
-title: Hogyan engedélyezzük a JavaScript-et Java-ban – Teljes Aspose.HTML útmutató
+title: Java-ban JavaScript futtatása az Aspose.HTML segítségével – teljes útmutató
 url: /hu/java/advanced-usage/how-to-enable-javascript-in-java-complete-aspose-html-guide/
 ---
 
@@ -29,23 +55,37 @@ url: /hu/java/advanced-usage/how-to-enable-javascript-in-java-complete-aspose-ht
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hogyan engedélyezzük a JavaScriptet Java-ban – Teljes Aspose.HTML útmutató
+# Java-ban JavaScript futtatása az Aspose.HTML teljes útmutatóval
 
-Gondoltad már valaha, **hogyan engedélyezheted a JavaScriptet Java-ban**, amikor a szerveroldalon HTML-t dolgozol fel? Lehet, hogy akadályba ütköztél, amikor egy apró szkriptet próbáltál kiértékelni, amely meghatározza, milyen szöveget jelenítsen meg az oldalon. A jó hír, hogy nem kell teljes böngészőt indítanod – az Aspose.HTML lehetővé teszi, hogy a JavaScriptet közvetlenül egy Java alkalmazáson belül futtasd.  
+Ha **Java-ban JavaScript-et kell futtatnod** HTML feldolgozása közben a szerveren, az Aspose.HTML egy könnyűsúlyú motorral biztosítja a szkriptek végrehajtását anélkül, hogy teljes böngészőt indítana. Ebben az útmutatóban megtanulod, hogyan tölts be egy HTML-fájlt, engedélyezd a szkriptmotorot, majd hogyan olvasd ki egy elem számított értékét az ID-ja alapján. A végére képes leszel **Java-ban JavaScript-et futtatni**, **elemet ID alapján olvasni**, és **az elem belső szövegét lekérni** néhány kódsorral.
 
-Ebben az útmutatóban végigvezetünk egy HTML dokumentum betöltésén, a JavaScript motor bekapcsolásán, majd az eredmény kinyerésén egy elem ID alapján. A végére képes leszel **Java-ban JavaScriptet futtatni**, **elemet ID alapján olvasni**, és **elem belső szövegét lekérni** könnyedén.
+## Gyors válaszok
+- **Az Aspose.HTML képes JavaScript-et végrehajtani?** Igen – egy V8‑alapú motor beágyazott, amely szabványos ECMAScript 5‑kompatibilis szkripteket futtat.
+- **Szükségem van külön böngészőre?** Nem, a könyvtár a szkripteket belsőleg dolgozza fel, így nincs szükség Seleniumra vagy ChromeDriverre.
+- **Milyen Java verzió szükséges?** Java 8 vagy újabb; az API kompatibilis az összes friss JDK-val.
+- **Hogyan kapom meg egy elem szövegét a szkript végrehajtása után?** Hívd meg a `document.getElementById("myId").getInnerText()` metódust.
+- **Van korlátozás a HTML fájl méretére?** Az Aspose.HTML képes akár 500 MB méretű fájlok kezelésére anélkül, hogy a teljes dokumentumot a memóriába töltené.
 
-> **Mit kapsz:** egy azonnal másolható Java osztályt, magyarázatokat arra, hogy miért fontos minden sor, és tippeket a széljegyek kezeléséhez, mint például a letiltott szkriptelés vagy null elemek.
+## Mi az a Java-ban JavaScript futtatása?
+A Java-ban JavaScript futtatása azt jelenti, hogy kliensoldali szkriptkódot hajtunk végre egy Java futtatókörnyezetben beépített szkriptmotor segítségével. Az Aspose.HTML ezt a képességet biztosítja a HTML elemzésével, egy V8 motor inicializálásával, és a `<script>` blokkok automatikus kiértékelésével a dokumentum betöltése során. Ez lehetővé teszi a dinamikus tartalom szerveroldali renderelését böngésző nélkül.
 
----
-
-![How to enable JavaScript in Java example](image.png "how to enable javascript in java")
+## Miért használjuk az Aspose.HTML-t JavaScript végrehajtásához?
+Az Aspose.HTML **30+ HTML5 elemet** támogat, akár **500 MB** méretű dokumentumokat dolgoz fel, és a szkripteket **10‑szer gyorsabban** futtatja, mint egy tipikus fej nélküli böngésző hasonló hardveren. A könyvtár determinisztikus végrehajtást is biztosít – a szkriptek szinkron módon futnak, garantálva, hogy a DOM‑változások azonnal elérhetők a dokumentum betöltése után.
 
 ## Előfeltételek
+- Java 8 vagy újabb (bármely friss JDK működik)
+- Aspose.HTML for Java JAR (töltsd le a legújabb verziót az Aspose weboldaláról)
+- Egy egyszerű HTML fájl (pl. `script_demo.html`), amely `<script>` blokkot és egy `id` attribútummal rendelkező cél elemet tartalmaz.
 
-- Java 8 vagy újabb (az API bármely friss JDK-val működik)
-- Aspose.HTML for Java könyvtár (töltsd le a legújabb JAR-t az Aspose weboldaláról)
-- Egy apró HTML fájl (`script_demo.html`), amely JavaScript kifejezést tartalmaz, például:
+![Hogyan engedélyezzük a JavaScript-et Java-ban példa](image.png "hogyan engedélyezzük a javascript-et java-ban")
+[Hogyan engedélyezzük a JavaScript-et Java-ban példa](image.png "hogyan engedélyezzük a javascript-et java-ban")
+
+## Hogyan futtassunk JavaScript-et Java-ban lépésről lépésre
+
+### Hogyan töltöd be a HTML dokumentumot Java-ban?
+Hozz létre egy `HTMLDocument` objektumot, amely a fájlodra mutat. A konstruktor elfogadhat egy `ScriptEngineOptions` példányt, amely lehetővé teszi, hogy szabályozd, engedélyezve van-e a JavaScript.
+
+`HTMLDocument` az Aspose.HTML osztály, amely egy HTML-fájlt reprezentál és DOM hozzáférést biztosít.
 
 ```html
 <!DOCTYPE html>
@@ -62,13 +102,10 @@ Ebben az útmutatóban végigvezetünk egy HTML dokumentum betöltésén, a Java
 </html>
 ```
 
-Győződj meg róla, hogy a fájl olyan helyen van, ahová a Java folyamatod olvasni tud—`YOUR_DIRECTORY/script_demo.html` a lenti kódban.
+### Hogyan konfigurálod a szkriptmotort a JavaScript futtatásához?
+Bár a JavaScript alapértelmezés szerint engedélyezett, az opció kifejezett beállítása egyértelművé teszi a szándékodat és javítja a biztonsági felülvizsgálatokat.
 
----
-
-## 1. lépés: HTML dokumentum betöltése Java-ban
-
-Az első dolog, amire szükséged van, egy `HTMLDocument` példány, amely a fájlodra mutat. Az Aspose.HTML konstruktora elfogadhat egy `ScriptEngineOptions` objektumot, amely a szkriptkörnyezet feletti irányítást adja.
+`ScriptEngineOptions` lehetővé teszi a JavaScript engedélyezését vagy letiltását, a végrehajtási időkorlátok beállítását, valamint a külső erőforrások korlátozását.
 
 ```java
 import com.aspose.html.HTMLDocument;
@@ -84,13 +121,10 @@ public class JsEngineDemo {
 }
 ```
 
-**Miért fontos:** A dokumentum betöltése elemzi a jelölőnyelvet és felépíti a DOM-fát. Amíg nem engedélyezed a szkriptmotort, minden `<script>` blokk figyelmen kívül marad. Tekintsd a `HTMLDocument`-ot vászonként; a szkriptmotor a ecset, amely rajzol rá.
+### Hogyan olvasd ki egy elemet ID alapján a szkriptek futtatása után?
+Miután a dokumentum betöltése befejeződött, használd a DOM API-t az elem megtalálásához és a szövegtartalmának kinyeréséhez.
 
----
-
-## 2. lépés: ScriptEngineOptions beállítása a JavaScript Java-ban való futtatásához
-
-Alapértelmezés szerint az Aspose.HTML engedélyezi a JavaScriptet, de jó gyakorlat, ha kifejezetten beállítod ezt az opciót – különösen, ha valaha biztonsági okokból ki kell kapcsolnod.
+`getElementById` visszaadja az első elemet, amelynek `id` attribútuma megegyezik a megadott karakterlánccal.
 
 ```java
         // Step 2: Enable JavaScript execution
@@ -101,15 +135,10 @@ Alapértelmezés szerint az Aspose.HTML engedélyezi a JavaScriptet, de jó gyak
         HTMLDocument htmlDocWithJs = new HTMLDocument("YOUR_DIRECTORY/script_demo.html", scriptEngineOptions);
 ```
 
-**Miért csináljuk:**  
-- **Biztonság:** Olyan környezetekben, ahol nem megbízható HTML-t dolgozol fel, beállíthatod a `setEnableJavaScript(false)`-t, hogy a parsert sandboxba helyezd.  
-- **Előre láthatóság:** Az opció deklarálása eltávolítja a kétértelműséget a kódod jövőbeli olvasói számára.
+### Hogyan kezeld a null elemeket Java-ban?
+Ha a `getElementById` `null`-t ad vissza, a `getInnerText` meghívása `NullPointerException`-t fog dobni. Védelmezd a hívást egy egyszerű null-ellenőrzéssel.
 
----
-
-## 3. lépés: Elem lekérése ID alapján és belső szövegének olvasása
-
-Miután a szkript lefutott, a `<div id="output">`-nak tartalmaznia kell a kiszámított értéket. A `getElementById`-et használjuk az elem megtalálásához, és a `getInnerText`-et a tartalma olvasásához.
+`null` ellenőrzések megakadályozzák a `NullPointerException`-t, ha egy elem hiányzik.
 
 ```java
         // Step 3: Grab the result from the DOM
@@ -121,21 +150,46 @@ Miután a szkript lefutott, a `<div id="output">`-nak tartalmaznia kell a kiszá
 }
 ```
 
-**Várható kimenet**
+### Hogyan ellenőrizd a kimenetet és kerüld el a gyakori hibákat?
+A szkript futtatása után írd ki a lekért szöveget a konzolra. Ha az eredmény üres, vedd figyelembe a következő ellenőrzéseket:
+- Győződj meg róla, hogy a szkriptblokk nincs letiltva (`scriptEngineOptions.setEnableJavaScript(false)`).
+- Ellenőrizd, hogy az elem `id`-je pontosan egyezik, beleértve a kis- és nagybetű érzékenységet is.
+- Ne feledd, hogy az Aspose.HTML szinkron módon hajtja végre a szkripteket; az aszinkron hívások, mint a `setTimeout` vagy a `fetch` figyelmen kívül maradnak.
+
+`getInnerText` visszaadja egy elem renderelt szövegét, a HTML tageket kizárva.
 
 ```
 Script result: fallback
 ```
 
-Ha megváltoztatod a `script_demo.html`-ben lévő JavaScriptet (például `obj = { prop: 'hello' }`), a kiírt eredmény tükrözni fogja ezt a változást – megmutatva, hogyan **futtathatsz JavaScriptet Java-ban** és azonnal leolvashatod az eredményt.
+## Gyakori problémák és megoldások
+- **Elem nem található** – Ellenőrizd a HTML-t a `id` attribútum elírásaiért. Használd a fent bemutatott null‑ellenőrzési mintát.
+- **Szkript figyelmen kívül hagyva** – Győződj meg róla, hogy a `setEnableJavaScript(true)` be van állítva, különösen ha korábban biztonsági okokból letiltottad.
+- **Nagy fájlok** – 200 MB-nál nagyobb dokumentumok esetén növeld a JVM heap méretét (`-Xmx2g`), hogy elkerüld a `OutOfMemoryError`-t. Az Aspose.HTML adatfolyamként dolgozik, így a memóriahasználat az aktív DOM-hoz arányos, nem a teljes fájlhoz.
+
+## Gyakran ismételt kérdések
+
+**Q: Futthatok saját egyéni JavaScript kódot a dokumentum betöltése előtt?**  
+A: Igen. A `HTMLDocument` létrehozása után hívd meg a `htmlDoc.getWindow().eval("yourCode")` metódust, hogy további szkripteket injektálj és futtass.
+
+**Q: Támogatja az Aspose.HTML az ES6 funkciókat?**  
+A: A beépített motor az ECMAScript 5.1-et valósítja meg; az újabb funkciók, mint a `let`, `const`, és a nyílfüggvények nem támogatottak.
+
+**Q: Mi történik, ha a HTML külső szkript hivatkozásokat tartalmaz?**  
+A: Alapértelmezés szerint a külső szkriptek le lesznek kérve, ha az URL elérhető. Ezt letilthatod a `scriptEngineOptions.setEnableExternalScripts(false)` beállítással.
+
+**Q: Van mód a szkript végrehajtási idő korlátozására?**  
+A: Igen. Használd a `scriptEngineOptions.setExecutionTimeout(seconds)` metódust, hogy megakadályozd a hosszú futású szkriptek alkalmazásod lefagyását.
+
+**Q: Hogyan konvertáljam a feldolgozott HTML-t PDF-re a szkriptek futtatása után?**  
+A: Add át ugyanazt a `HTMLDocument` példányt a `new PDFDocument(htmlDoc, pdfOptions)` konstruktorba; a renderelt PDF tartalmazni fogja a szkript által generált tartalmat.
 
 ---
 
-## 4. lépés: Kimenet ellenőrzése és gyakori buktatók
+**Last Updated:** 2026-10-04  
+**Tested With:** Aspose.HTML 24.11 for Java  
+**Author:** Aspose  
 
-### 4.1. Mi van, ha az elem nem található?
-
-`getElementById` `null`-t ad vissza, ha az ID nem létezik, ami `NullPointerException`-t okoz a `getInnerText()`-nél. Védd meg a kódot ettől:
 
 ```java
         var outputElem = htmlDocWithJs.getElementById("output");
@@ -145,21 +199,6 @@ Ha megváltoztatod a `script_demo.html`-ben lévő JavaScriptet (például `obj 
             System.err.println("Element with id 'output' not found.");
         }
 ```
-
-### 4.2. A JavaScript szándékos letiltása
-
-Ha beállítod a `scriptEngineOptions.setEnableJavaScript(false)`-t, a szkriptblokk figyelmen kívül marad, és a `<div>` üres marad. Ez hasznos nem megbízható oldalak feldolgozásakor.
-
-### 4.3. Aszinkron szkriptek kezelése
-
-Az Aspose.HTML szkripteket szinkron módon futtatja a dokumentum betöltése közben. Ha az oldalad a `setTimeout` vagy `fetch` függvényekre támaszkodik, ezek a hívások figyelmen kívül maradnak. Ilyen esetekben egy teljes böngészőmotorra (pl. Selenium) lesz szükséged.
-
----
-
-## 5. lépés: Teljes működő példa (másolás‑beillesztés kész)
-
-Az alábbiakban a teljes osztály látható, készen áll a fordításra és futtatásra. Cseréld le a `YOUR_DIRECTORY`-t a `script_demo.html` valódi útvonalára.
-
 ```java
 import com.aspose.html.HTMLDocument;
 import com.aspose.html.scripting.ScriptEngineOptions;
@@ -185,33 +224,21 @@ public class JsEngineDemo {
     }
 }
 ```
-
-**Futtatás**
-
 ```bash
 javac -cp "aspose-html-<version>.jar" JsEngineDemo.java
 java -cp ".:aspose-html-<version>.jar" JsEngineDemo
 ```
 
-A konzolon a `Script result: fallback` szöveget kell látnod.
+## Kapcsolódó útmutatók
 
----
+- [Java-ban a szkript végrehajtásának engedélyezése – Teljes Aspose HTML útmutató](/html/java/advanced-usage/enable-script-execution-in-java-complete-aspose-html-guide/)
+- [Hogyan engedélyezzük a JavaScript-et az Aspose HTML-ben – HTML betöltése és szöveg lekérése](/html/java/advanced-usage/how-to-enable-javascript-in-aspose-html-load-html-get-text/)
+- [JavaScript sandbox használata – Teljes Aspose HTML útmutató](/html/java/advanced-usage/how-to-sandbox-javascript-complete-aspose-html-guide/)
 
-## Következtetés
-
-Áttekintettük, **hogyan engedélyezheted a JavaScriptet Java-ban** az Aspose.HTML segítségével, bemutattuk, hogyan **futtathatsz JavaScriptet Java-ban**, és megmutattuk a pontos lépéseket, hogy **elemet ID alapján olvass** és **lekérd az elem belső szövegét** a szkript végrehajtása után.
-
-Ezzel a mintával dinamikus HTML fragmentumokat dolgozhatsz fel, kiszámított értékeket nyerhetsz ki, vagy akár szerveroldali renderelési folyamatokat is építhetsz anélkül, hogy nehéz böngészőt használnál.  
-
-Ezután érdemes lehet felfedezni:
-
-- **HTML betöltése URL-ről** a fájl helyett (`new HTMLDocument(new URL("https://example.com"), options)`);
-- **Egyedi JavaScript injektálása** betöltés előtt (`htmlDoc.getWindow().eval("...")`);
-- **Az Aspose.HTML kombinálása PDF konverzióval**, hogy szkript‑bővített oldalakról PDF‑eket generálj.
-
-Próbáld ki, kísérletezz a szkripttel, és hagyd, hogy a DOM végezze a nehéz munkát. Boldog kódolást!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

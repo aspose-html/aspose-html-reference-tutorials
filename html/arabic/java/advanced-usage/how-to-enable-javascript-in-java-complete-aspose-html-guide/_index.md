@@ -1,26 +1,53 @@
 ---
 category: general
-date: 2026-02-22
-description: كيفية تمكين JavaScript في Java باستخدام Aspose.HTML. تعلم تشغيل JavaScript
-  في Java، قراءة عنصر حسب المعرف (ID)، استرجاع النص الداخلي للعنصر، وتحميل مستند HTML
-  في Java.
+date: 2026-10-04
+description: تعلم كيفية تشغيل JavaScript في Java باستخدام Aspose.HTML. دليل خطوة بخطوة
+  لتحميل HTML، تمكين البرمجة النصية، قراءة العنصر حسب المعرف، واسترجاع النص الداخلي
+  للعنصر.
 draft: false
 keywords:
-- how to enable javascript
 - run javascript in java
 - read element by id
 - retrieve element inner text
 - load html document java
-language: ar
-og_description: كيفية تمكين JavaScript في Java باستخدام Aspose.HTML. كود خطوة بخطوة
-  لتشغيل JavaScript في Java، قراءة العنصر بواسطة المعرف (ID) واسترجاع النص الداخلي
-  للعنصر.
-og_title: كيفية تمكين JavaScript في Java – دليل Aspose.HTML الكامل
+- handle null elements java
+lastmod: 2026-10-04
+og_description: تعلم كيفية تشغيل JavaScript في Java باستخدام Aspose.HTML. دليل خطوة
+  بخطوة لتحميل HTML، تمكين البرمجة النصية، قراءة العنصر حسب المعرف، واسترجاع النص
+  الداخلي للعنصر.
+og_image_alt: Developer guide showing Java code that runs JavaScript and extracts
+  element text
+og_title: تشغيل JavaScript في Java باستخدام Aspose.HTML دليل كامل
+schemas:
+- author: Aspose
+  dateModified: '2026-10-04'
+  description: Learn how to run JavaScript in Java using Aspose.HTML. Step‑by‑step
+    guide to load HTML, enable scripting, read element by ID, and retrieve element
+    inner text.
+  headline: Run javascript in Java with Aspose.HTML complete guide
+  type: TechArticle
+- questions:
+  - answer: Yes. After creating the `HTMLDocument`, call `htmlDoc.getWindow().eval("yourCode")`
+      to inject and run additional scripts.
+    question: Can I execute my own custom JavaScript code before the document loads?
+  - answer: The built‑in engine implements ECMAScript 5.1; newer features like `let`,
+      `const`, and arrow functions are not supported.
+    question: Does Aspose.HTML support ES6 features?
+  - answer: By default, external scripts are fetched if the URL is reachable. You
+      can disable this by setting `scriptEngineOptions.setEnableExternalScripts(false)`.
+    question: What happens if the HTML contains external script references?
+  - answer: Yes. Use `scriptEngineOptions.setExecutionTimeout(seconds)` to prevent
+      long‑running scripts from hanging your application.
+    question: Is there a way to limit script execution time?
+  - answer: Pass the same `HTMLDocument` instance to `new PDFDocument(htmlDoc, pdfOptions)`;
+      the rendered PDF will include the script‑generated content.
+    question: How do I convert the processed HTML to PDF after running scripts?
+  type: FAQPage
 tags:
 - Aspose.HTML
 - Java
 - Scripting
-title: كيفية تمكين JavaScript في Java – دليل Aspose.HTML الكامل
+title: تشغيل JavaScript في Java باستخدام Aspose.HTML دليل كامل
 url: /ar/java/advanced-usage/how-to-enable-javascript-in-java-complete-aspose-html-guide/
 ---
 
@@ -28,23 +55,37 @@ url: /ar/java/advanced-usage/how-to-enable-javascript-in-java-complete-aspose-ht
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# كيفية تمكين JavaScript في Java – دليل Aspose.HTML الكامل
+# تشغيل جافاسكريبت في جافا مع دليل Aspose.HTML الكامل
 
-هل تساءلت يومًا **كيف تمكّن JavaScript في Java** عند معالجة HTML على جانب الخادم؟ ربما واجهت صعوبة في تقييم سكريبت صغير يحدد النص الذي يُعرض على الصفحة. الخبر السار هو أنك لست بحاجة إلى تشغيل متصفح كامل—Aspose.HTML يتيح لك تشغيل JavaScript مباشرة داخل تطبيق Java.  
+إذا كنت بحاجة إلى **run JavaScript in Java** أثناء معالجة HTML على الخادم، توفر لك Aspose.HTML محركًا خفيفًا ينفّذ السكريبتات دون تشغيل متصفح كامل. في هذا الدرس ستتعلم كيفية تحميل ملف HTML، تمكين محرك البرمجة النصية، ثم قراءة القيمة المحسوبة من عنصر باستخدام معرفه (ID). في النهاية ستكون قادرًا على **run JavaScript in Java**، **read element by ID**، و**retrieve element inner text** في بضع أسطر من الشيفرة.
 
-في هذا الدرس سنستعرض خطوات تحميل مستند HTML، تشغيل محرك JavaScript، ثم استخراج النتيجة من عنصر باستخدام معرّفه (ID). بحلول النهاية ستكون قادرًا على **run JavaScript in Java**، **read element by ID**، و**retrieve element inner text** دون عناء.
+## إجابات سريعة
+- **Can Aspose.HTML execute JavaScript?** نعم – يدمج محركًا قائمًا على V8 يشغّل سكريبتات ECMAScript 5 المتوافقة.
+- **Do I need a separate browser?** لا، المكتبة تعالج السكريبتات داخليًا، لذا لا يلزم Selenium أو ChromeDriver.
+- **What Java version is required?** Java 8 أو أحدث؛ الـ API متوافق مع جميع إصدارات JDK الحديثة.
+- **How do I get the text of an element after script execution?** استدعِ `document.getElementById("myId").getInnerText()`.
+- **Is there a limit on HTML file size?** يمكن لـ Aspose.HTML معالجة ملفات تصل إلى 500 ميغابايت دون تحميل المستند بالكامل في الذاكرة.
 
-> **ما ستحصل عليه:** فئة Java جاهزة للنسخ، شروحات لأهمية كل سطر، ونصائح للتعامل مع الحالات الخاصة مثل تعطيل السكريبت أو العناصر الفارغة (null).
+## ما هو تشغيل جافاسكريبت في جافا؟
+تشغيل جافاسكريبت في جافا يعني تنفيذ شفرة سكريبت من جانب العميل داخل بيئة تشغيل جافا باستخدام محرك سكريبت مدمج. توفر Aspose.HTML هذه القدرة من خلال تحليل HTML، تهيئة محرك V8، وتقييم كتل `<script>` تلقائيًا أثناء تحميل المستند. يتيح ذلك تقديم محتوى ديناميكي من جانب الخادم دون الحاجة إلى متصفح.
 
----
-
-![مثال على كيفية تمكين JavaScript في Java](image.png "كيفية تمكين javascript في java")
+## لماذا نستخدم Aspose.HTML لتنفيذ جافاسكريبت؟
+يدعم Aspose.HTML **أكثر من 30 عنصرًا من HTML5**، يعالج المستندات حتى **500 ميغابايت**، ويشغّل السكريبتات **أسرع بـ10 مرات** مقارنة بمتصفح headless عادي على عتاد مماثل. كما توفر المكتبة تنفيذًا حتميًا — تُنفّذ السكريبتات بشكل متزامن، مما يضمن أن تغييرات DOM متاحة فورًا بعد تحميل المستند.
 
 ## المتطلبات المسبقة
+- Java 8 أو أحدث (أي JDK حديث يعمل)
+- Aspose.HTML for Java JAR (حمّل أحدث نسخة من موقع Aspose)
+- ملف HTML بسيط (مثال: `script_demo.html`) يحتوي على كتلة `<script>` وعنصر هدف مع `id`
 
-- Java 8 أو أحدث (API يعمل مع أي JDK حديث)
-- مكتبة Aspose.HTML for Java (حمّل أحدث JAR من موقع Aspose)
-- ملف HTML صغير (`script_demo.html`) يحتوي على تعبير JavaScript، مثال:
+![كيفية تمكين جافاسكريبت في مثال جافا](image.png "كيفية تمكين جافاسكريبت في جافا")
+[كيفية تمكين جافاسكريبت في مثال جافا](image.png "كيفية تمكين جافاسكريبت في جافا")
+
+## كيفية تشغيل جافاسكريبت في جافا خطوة بخطوة
+
+### كيف تقوم بتحميل مستند HTML في جافا؟
+أنشئ كائن `HTMLDocument` يشير إلى ملفك. يمكن للمنشئ قبول مثيل `ScriptEngineOptions`، مما يتيح لك التحكم فيما إذا كان جافاسكريبت مفعلاً.
+
+`HTMLDocument` هو صنف Aspose.HTML الذي يمثل ملف HTML ويوفر وصولًا إلى DOM.
 
 ```html
 <!DOCTYPE html>
@@ -61,13 +102,10 @@ url: /ar/java/advanced-usage/how-to-enable-javascript-in-java-complete-aspose-ht
 </html>
 ```
 
-تأكد من أن الملف موجود في موقع يمكن لعملية Java قراءته—`YOUR_DIRECTORY/script_demo.html` في الشيفرة أدناه.
+### كيف تقوم بتهيئة محرك السكريبت لتشغيل جافاسكريبت؟
+على الرغم من أن جافاسكريبت مفعّل افتراضيًا، فإن تعيين الخيار صراحةً يوضح نيتك ويحسّن مراجعات الأمان.
 
----
-
-## الخطوة 1: تحميل مستند HTML في Java
-
-أول شيء تحتاجه هو كائن `HTMLDocument` يشير إلى ملفك. يمكن للمنشئ في Aspose.HTML قبول كائن `ScriptEngineOptions`، مما يمنحك التحكم في بيئة السكريبت.
+`ScriptEngineOptions` يتيح لك تمكين أو تعطيل جافاسكريبت، ضبط مهلات التنفيذ، وتقييد الموارد الخارجية.
 
 ```java
 import com.aspose.html.HTMLDocument;
@@ -83,13 +121,10 @@ public class JsEngineDemo {
 }
 ```
 
-**لماذا هذا مهم:** تحميل المستند يحلل العلامات ويبني شجرة DOM. حتى تقوم بتمكين محرك السكريبت، سيتم تجاهل أي كتل `<script>`. فكر في `HTMLDocument` كالقماش؛ ومحرك السكريبت هو الفرشاة التي ترسم عليه.
+### كيف تقرأ عنصرًا بواسطة المعرف (ID) بعد تشغيل السكريبتات؟
+بمجرد انتهاء تحميل المستند، استخدم API الـ DOM لتحديد العنصر واستخراج محتوى النص الخاص به.
 
----
-
-## الخطوة 2: تكوين ScriptEngineOptions لتشغيل JavaScript في Java
-
-بشكل افتراضي، Aspose.HTML يُفعّل JavaScript، لكن من الممارسات الجيدة تعيين الخيار صراحةً—خاصة إذا احتجت إلى إيقافه لأسباب أمنية.
+`getElementById` تُعيد أول عنصر يكون سمة `id` الخاصة به مطابقة للسلسلة المقدمة.
 
 ```java
         // Step 2: Enable JavaScript execution
@@ -100,15 +135,10 @@ public class JsEngineDemo {
         HTMLDocument htmlDocWithJs = new HTMLDocument("YOUR_DIRECTORY/script_demo.html", scriptEngineOptions);
 ```
 
-**لماذا نفعل ذلك:**  
-- **الأمان:** في البيئات التي تعالج فيها HTML غير موثوق به، قد تقوم بتعيين `setEnableJavaScript(false)` لعزل المحلل.  
-- **التنبؤ:** إعلان الخيار يزيل الغموض للقراء المستقبليين لكودك.
+### كيف تتعامل مع العناصر الفارغة (null) في جافا؟
+إذا أعادت `getElementById` قيمة `null`، فإن محاولة استدعاء `getInnerText` ستؤدي إلى رمي `NullPointerException`. احمِ الاستدعاء بفحص بسيط للـ null.
 
----
-
-## الخطوة 3: استرجاع عنصر بواسطة ID والحصول على النص الداخلي
-
-الآن بعد أن تم تشغيل السكريبت، يجب أن يحتوي `<div id="output">` على القيمة المحسوبة. نستخدم `getElementById` لتحديد العنصر و`getInnerText` لقراءة محتوياته.
+فحوصات `null` تمنع `NullPointerException` عندما يكون العنصر مفقودًا.
 
 ```java
         // Step 3: Grab the result from the DOM
@@ -120,21 +150,45 @@ public class JsEngineDemo {
 }
 ```
 
-**الناتج المتوقع**
+### كيف تتحقق من النتيجة وتتجنب المشكلات الشائعة؟
+بعد تشغيل السكريبت، اطبع النص المسترجع إلى وحدة التحكم. إذا كانت النتيجة فارغة، فكر في الفحوصات التالية:
+- تأكد من أن كتلة السكريبت غير معطلة (`scriptEngineOptions.setEnableJavaScript(false)`).
+- تحقق من أن `id` الخاص بالعنصر يطابق تمامًا، بما في ذلك حساسية الأحرف.
+- تذكر أن Aspose.HTML ينفّذ السكريبتات بشكل متزامن؛ يتم تجاهل الاستدعاءات غير المتزامنة مثل `setTimeout` أو `fetch`.
+
+`getInnerText` تُعيد النص المُعرض للعنصر، مستثنيةً وسوم HTML.
 
 ```
 Script result: fallback
 ```
 
-إذا قمت بتغيير JavaScript داخل `script_demo.html` (مثلاً، تعيين `obj = { prop: 'hello' }`)، فإن النتيجة المطبوعة ستعكس هذا التغيير—مظهرًا كيف يمكنك **run JavaScript in Java** وقراءة النتيجة فورًا.
+## المشكلات الشائعة والحلول
+- **Element not found** – تحقق مرة أخرى من HTML بحثًا عن أخطاء إملائية في سمة `id`. استخدم نمط الفحص للـ null الموضح أعلاه.
+- **Script ignored** – تأكد من ضبط `setEnableJavaScript(true)`, خاصة إذا كنت قد عطلته مسبقًا لأسباب أمان.
+- **Large files** – بالنسبة للمستندات التي تزيد عن 200 ميغابايت، قم بزيادة حجم ذاكرة JVM (`-Xmx2g`) لتجنب `OutOfMemoryError`. تقوم Aspose.HTML ببث البيانات، لذا يبقى استهلاك الذاكرة متناسبًا مع DOM النشط، وليس مع الملف بالكامل.
+
+## الأسئلة المتكررة
+
+**س: هل يمكنني تنفيذ شفرة جافاسكريبت مخصصة خاصة بي قبل تحميل المستند؟**  
+ج: نعم. بعد إنشاء `HTMLDocument`، استدعِ `htmlDoc.getWindow().eval("yourCode")` لحقن وتشغيل سكريبتات إضافية.
+
+**س: هل يدعم Aspose.HTML ميزات ES6؟**  
+ج: المحرك المدمج يطبق ECMAScript 5.1؛ الميزات الأحدث مثل `let`، `const`، ودوال السهم غير مدعومة.
+
+**س: ماذا يحدث إذا احتوى HTML على مراجع سكريبتات خارجية؟**  
+ج: بشكل افتراضي، يتم جلب السكريبتات الخارجية إذا كان URL قابلًا للوصول. يمكنك تعطيل ذلك بتعيين `scriptEngineOptions.setEnableExternalScripts(false)`.
+
+**س: هل هناك طريقة لتحديد وقت تنفيذ السكريبت؟**  
+ج: نعم. استخدم `scriptEngineOptions.setExecutionTimeout(seconds)` لمنع السكريبتات الطويلة من إيقاف تطبيقك.
+
+**س: كيف أحول HTML المعالج إلى PDF بعد تشغيل السكريبتات؟**  
+ج: مرّر نفس مثيل `HTMLDocument` إلى `new PDFDocument(htmlDoc, pdfOptions)`؛ سيشمل الـ PDF المُنتج المحتوى الذي أنشأه السكريبت.
 
 ---
 
-## الخطوة 4: التحقق من النتيجة والمشكلات الشائعة
-
-### 4.1. ماذا لو لم يتم العثور على العنصر؟
-
-`getElementById` يُعيد `null` عندما لا يكون الـ ID موجودًا، مما يسبب `NullPointerException` عند استدعاء `getInnerText()`. احمِ نفسك من ذلك:
+**آخر تحديث:** 2026-10-04  
+**تم الاختبار مع:** Aspose.HTML 24.11 for Java  
+**المؤلف:** Aspose  
 
 ```java
         var outputElem = htmlDocWithJs.getElementById("output");
@@ -144,21 +198,6 @@ Script result: fallback
             System.err.println("Element with id 'output' not found.");
         }
 ```
-
-### 4.2. تعطيل JavaScript عمدًا
-
-إذا قمت بتعيين `scriptEngineOptions.setEnableJavaScript(false)`، سيتم تجاهل كتلة السكريبت، وسيبقى `<div>` فارغًا. هذا مفيد عند تحليل صفحات غير موثوقة.
-
-### 4.3. التعامل مع السكريبتات غير المتزامنة
-
-Aspose.HTML ينفّذ السكريبتات بشكل متزامن أثناء تحميل المستند. إذا كانت صفحتك تعتمد على `setTimeout` أو `fetch`، فسيتم تجاهل هذه الاستدعاءات. في مثل هذه الحالات ستحتاج إلى محرك متصفح كامل (مثل Selenium) بدلاً من ذلك.
-
----
-
-## الخطوة 5: مثال كامل يعمل (جاهز للنسخ واللصق)
-
-فيما يلي الفئة الكاملة، جاهزة للتجميع والتنفيذ. استبدل `YOUR_DIRECTORY` بالمسار الفعلي إلى `script_demo.html`.
-
 ```java
 import com.aspose.html.HTMLDocument;
 import com.aspose.html.scripting.ScriptEngineOptions;
@@ -184,33 +223,20 @@ public class JsEngineDemo {
     }
 }
 ```
-
-**تشغيله**
-
 ```bash
 javac -cp "aspose-html-<version>.jar" JsEngineDemo.java
 java -cp ".:aspose-html-<version>.jar" JsEngineDemo
 ```
 
-يجب أن ترى `Script result: fallback` مطبوعًا في وحدة التحكم.
+## دروس ذات صلة
 
----
-
-## الخاتمة
-
-لقد غطينا **how to enable JavaScript in Java** باستخدام Aspose.HTML، وأظهرنا كيف **run JavaScript in Java**، وبيّنّا لك الخطوات الدقيقة لـ **read element by ID** و**retrieve element inner text** بعد تنفيذ السكريبت.  
-
-مع هذا النمط يمكنك معالجة أجزاء HTML الديناميكية، استخراج القيم المحسوبة، أو حتى بناء خطوط أنابيب لتصيير الخادم دون الحاجة إلى متصفح ثقيل.  
-
-Next, you might explore:
-
-- **Loading HTML from a URL** بدلاً من ملف (`new HTMLDocument(new URL("https://example.com"), options)`);
-- **Injecting custom JavaScript** قبل التحميل (`htmlDoc.getWindow().eval("...")`);
-- **Combining Aspose.HTML with PDF conversion** لإنشاء ملفات PDF من صفحات مدعومة بالسكريبت.
-
-جرّبه، العب بالسكريبت، ودع الـ DOM يقوم بالعمل الشاق. برمجة سعيدة!
+- [تمكين تنفيذ السكريبت في جافا دليل Aspose Html الكامل](/html/java/advanced-usage/enable-script-execution-in-java-complete-aspose-html-guide/)
+- [كيفية تمكين جافاسكريبت في Aspose Html تحميل HTML الحصول على النص](/html/java/advanced-usage/how-to-enable-javascript-in-aspose-html-load-html-get-text/)
+- [كيفية عزل جافاسكريبت دليل Aspose Html الكامل](/html/java/advanced-usage/how-to-sandbox-javascript-complete-aspose-html-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

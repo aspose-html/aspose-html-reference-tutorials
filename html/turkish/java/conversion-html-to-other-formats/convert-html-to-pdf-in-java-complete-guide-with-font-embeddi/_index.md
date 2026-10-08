@@ -1,25 +1,59 @@
 ---
 category: general
-date: 2026-02-11
-description: Java ve Aspose.HTML kullanarak HTML'yi PDF'ye dönüştürün. PDF'ye yazı
-  tiplerini nasıl gömeceğinizi, PDF/A‑2b uyumluluğunu nasıl sağlayacağınızı ve yaygın
-  kenar durumlarını birkaç kolay adımda nasıl ele alacağınızı öğrenin.
+date: 2026-10-04
+description: Aspose'ı Java'da HTML'yi PDF'ye dönüştürmek, fontları gömmek ve sadece
+  birkaç kod satırıyla PDF/A‑2b uyumlu dosyalar oluşturmak için nasıl kullanacağınızı
+  öğrenin.
 draft: false
 keywords:
-- convert html to pdf
-- embed fonts in pdf
-- java html to pdf
+- how to use aspose
+- html to pdf java
+- generate pdf from html
 - convert html file pdf
-language: tr
-og_description: Java kullanarak Aspose.HTML ile HTML'yi PDF'ye dönüştürün. Bu öğreticide
-  PDF'ye font ekleme ve PDF/A‑2b uyumlu dosyalar üretme gösterilmektedir.
-og_title: Java'da HTML'yi PDF'ye Dönüştür – Adım Adım Kılavuz
+- add font embedding pdf
+lastmod: 2026-10-04
+og_description: Aspose'ı Java'da HTML'yi PDF'ye dönüştürmek, fontları gömmek ve sadece
+  birkaç kod satırıyla PDF/A‑2b uyumlu dosyalar oluşturmak için nasıl kullanacağınızı
+  öğrenin. Bu kılavuz, kurulum, dönüşüm ve sorun giderme konularını kapsar.
+og_image_alt: Developer guide showing Java code that converts HTML to PDF with font
+  embedding using Aspose.HTML
+og_title: Java'da HTML'yi PDF'ye dönüştürmek için Aspose nasıl kullanılır
+schemas:
+- author: Aspose
+  dateModified: '2026-10-04'
+  description: Learn how to use Aspose to convert HTML to PDF in Java, embed fonts,
+    and generate PDF/A‑2b compliant files in just a few lines of code.
+  headline: How to use Aspose to convert HTML to PDF in Java
+  type: TechArticle
+- questions:
+  - answer: Yes. Pass the URL string (e.g., `"https://example.com/report.html"`) to
+      `Converter.convertHTML`. The library will download the content, resolve relative
+      resources, and produce a PDF.
+    question: Can I convert a remote URL instead of a local file?
+  - answer: Aspose.HTML follows relative links based on the HTML file’s location.
+      Keep the CSS and image assets in the same folder hierarchy, or use absolute
+      URLs to a CDN.
+    question: What if my HTML references external CSS or images?
+  - answer: Absolutely. Replace `PdfACompliance.PdfA2b` with `PdfACompliance.PdfA1a`,
+      `PdfACompliance.PdfA1b`, `PdfACompliance.PdfA3b`, etc., depending on your archival
+      needs.
+    question: Does the library support other PDF/A levels?
+  - answer: Stream the HTML via an `InputStream` and increase the JVM heap size (`-Xmx2g`
+      or higher). The conversion remains a single call, but memory pressure is mitigated
+      with proper tuning.
+    question: How do I handle large HTML files (>10 MB)?
+  - answer: Yes. A free trial is sufficient for evaluation, but production deployments
+      need a valid Aspose.HTML for Java license to remove evaluation watermarks and
+      access full features.
+    question: Is a commercial license required for production?
+  type: FAQPage
 tags:
-- Java
-- PDF
+- convert html to pdf
 - Aspose.HTML
-- Document Conversion
-title: Java’da HTML’yi PDF’ye Dönüştür – Yazı Tipi Gömme ile Tam Rehber
+- Java PDF conversion
+- font embedding
+- PDF/A-2b
+title: Java'da HTML'yi PDF'ye dönüştürmek için Aspose nasıl kullanılır
 url: /tr/java/conversion-html-to-other-formats/convert-html-to-pdf-in-java-complete-guide-with-font-embeddi/
 ---
 
@@ -27,26 +61,24 @@ url: /tr/java/conversion-html-to-other-formats/convert-html-to-pdf-in-java-compl
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java’da HTML’yi PDF’e Dönüştürme – Font Gömme ile Tam Rehber
+# Aspose'ı Java'da HTML'yi PDF'ye dönüştürmek için nasıl kullanılır
 
-Bir Java uygulamasında **HTML’yi PDF’e dönüştürme** ihtiyacı duydunuz ama nereden başlayacağınızı bilemediniz mi? HTML’yi PDF’e dönüştürmek, web sayfalarını, faturaları veya raporları yazdırılabilir, arşivlenebilir belgelere çevirmek istediğinizde rutin bir gereksinimdir.  
+Bir Java uygulamasında **HTML'yi PDF'ye dönüştürmek** gerektiğinde nereden başlayacağınızı bilemediniz mi? **Aspose'ı nasıl kullanacağınız** basittir: kütüphane HTML, CSS ve SVG render'ını yönetir, fontları gömmenizi sağlar ve sadece birkaç satır kodla PDF/A‑2b uyumlu dosyalar üretebilir. Bu rehberin sonunda çalıştırmaya hazır bir program ve herhangi bir Java projesinde yeniden kullanabileceğiniz en iyi uygulama ipuçları setine sahip olacaksınız.
 
-Bu öğreticide, sadece **convert html to pdf** yapmakla kalmayıp **embed fonts in pdf** nasıl yapılır ve PDF/A‑2b uyumlu dosyalar nasıl üretilir gösteren uygulamalı bir çözümü adım adım inceleyeceğiz – birkaç satır kodla. Sonunda çalıştırmaya hazır bir program ve kendi projelerinizde yeniden kullanabileceğiniz bazı en iyi uygulama ipuçları elde edeceksiniz.
+## Hızlı yanıtlar
+- **Dönüşümü hangi kütüphane yapar?** Aspose.HTML for Java.
+- **Kaç satır kod gerekir?** Temel bir dönüşüm için yaklaşık beş satır.
+- **Özel fontları gömebilir miyim?** Evet – PDF seçeneklerinde `setEmbedFonts(true)` ayarlayın.
+- **PDF/A‑2b destekleniyor mu?** Kesinlikle; `PdfACompliance.PdfA2b` kullanın.
+- **Test için lisansa ihtiyacım var mı?** Geliştirme ve değerlendirme için ücretsiz deneme sürümü yeterlidir.
 
-## Neler Öğreneceksiniz
+## Öğrenecekleriniz
 
-- Aspose.HTML for Java’ı nasıl kuracağınızı ve gerekli Maven/Gradle bağımlılığını ekleyeceğinizi.  
-- **java html to pdf** dönüşümü için gereken tam kodu, font gömme dahil.  
-- PDF/A‑2b uyumluluğunun neden önemli olduğunu ve nasıl etkinleştirileceğini.  
-- Yaygın tuzaklar (eksik fontlar, yanlış dosya yolları) ve bunlardan nasıl kaçınılacağını.  
+Aspose.HTML bağımlılığını nasıl ekleyeceğinizi, bir HTML kaynağını nasıl hazırlayacağınızı, font gömme ile PDF/A‑2b seçeneklerini nasıl yapılandıracağınızı, dönüşümü tek bir çağrıyla nasıl çalıştıracağınızı ve her fontun gerçekten gömülü olduğunu nasıl doğrulayacağınızı öğreneceksiniz. Bu bilgi, faturalar, raporlar veya korumanız gereken herhangi bir web tabanlı belge için arşiv‑kalitesinde PDF'ler oluşturmanızı sağlar.
 
-**Önkoşullar:** Java 17 veya daha yeni bir sürüm, temel bir IDE (IntelliJ IDEA, Eclipse, VS Code) ve geçerli bir Aspose.HTML for Java lisansı (ücretsiz deneme sürümü test için yeterlidir). Başka bir kütüphane gerekmez.
+## Adım 1 – projenize aspose.html ekleyin
 
----
-
-## 1. Adım – Aspose.HTML’yi Projeye Ekleyin
-
-İlk işiniz: Aspose.HTML kütüphanesini sınıf yolunuza eklemek. Maven kullanıyorsanız, aşağıdakileri `pom.xml` dosyanıza yapıştırın:
+Aspose.HTML for Java, HTML, CSS ve SVG içeriğini PDF, XPS veya görüntü formatlarına dönüştüren bir kütüphanedir. İlk iş: Aspose.HTML kütüphanesinin sınıf yolunuzda (classpath) olduğundan emin olun. Maven kullanıyorsanız, aşağıdakileri `pom.xml` dosyanıza yapıştırın:
 
 ```xml
 <!-- Maven dependency for Aspose.HTML -->
@@ -63,31 +95,26 @@ Gradle kullanıcıları için eşdeğeri:
 implementation 'com.aspose:aspose-html:24.9'
 ```
 
-> **Pro tip:** Resmi Aspose sitesindeki sürüm numarasını her zaman kontrol edin; yeni sürümler font işleme ile ilgili hata düzeltmeleri içerebilir.
+> **Pro tip:** Resmi Aspose web sitesindeki sürüm numarasını her zaman kontrol edin; yeni sürümler font işleme hatalarını düzeltebilir ve 50 + giriş formatını destekleyebilir.
 
-Bağımlılık çözüldükten sonra projenizi yenileyin, böylece JAR dosyaları `External Libraries` altında görünecektir.
+Bağımlılık çözüldükten sonra projenizi yenileyin, böylece JAR dosyaları `External Libraries` altında görünür.
 
----
+## Adım 2 – kaynak html dosyasını hazırlayın
 
-## 2. Adım – Kaynak HTML Dosyasını Hazırlayın
-
-Dönüştürme, yerel bir HTML dosyası üzerinde çalışır; bu yüzden kaynak belgenizi Java programınızın okuyabileceği bir konuma koyun. Bu örnek için dosyanın `C:/mydocs/sample.html` konumunda olduğunu varsayalım.  
+Dönüşüm yerel bir HTML dosyası üzerinde çalışır, bu yüzden kaynak belgenizi Java programınızın okuyabileceği bir konuma koyun. Bu örnek için dosyanın `C:/mydocs/sample.html` konumunda olduğunu varsayalım.
 
 ```java
 // Path to the HTML you want to convert
 String htmlPath = "C:/mydocs/sample.html";
 ```
 
-> **Yolun önemi nedir?**  
-> Mutlak bir yol kullanmak, özellikle programı bir IDE’den mi yoksa komut satırından mı çalıştırdığınıza bakılmaksızın çalışma dizini karışıklığını ortadan kaldırır.
+> **Yolun önemi nedir?** Mutlak bir yol kullanmak, çalışma diziniyle ilgili karışıklıkları ortadan kaldırır; özellikle programı bir IDE'den ya da komut satırından çalıştırdığınızda faydalıdır.
 
-HTML’i bir dize olarak gömmek isterseniz, Aspose.HTML bir `InputStream` de kabul eder; bu başka bir öğretinin konusudur.
+HTML'yi bir dize olarak gömmek isterseniz, Aspose.HTML bir `InputStream` de kabul eder; bu konu başka bir öğreticide ele alınacaktır.
 
----
+## Adım 3 – pdf/a‑2b seçeneklerini yapılandırın (ve fontları gömün)
 
-## 3. Adım – PDF/A‑2b Seçeneklerini Yapılandırın (ve Fontları Gömün)
-
-PDF/A‑2b, uzun vadede görsel bütünlüğü garanti eden “arşiv” PDF çeşididir. Bu standarda uymak için belgede kullanılan **her** fontu gömmeniz gerekir. Aspose.HTML’ye bunu söylemenin yolu:
+`PdfACompliance.PdfA2b`, PDF/A‑2b arşiv standardını belirtir ve oluşturulan PDF'nin uzun vadeli görsel bütünlüğünü garanti eder. PDF/A‑2b, uzun vadeli görsel bütünlüğü sağlayan “arşiv” PDF çeşididir. Bu standarda uymak için belgede kullanılan her fontu gömmelisiniz. Aspose.HTML'e bunu söylemenin yolu:
 
 ```java
 // Configure PDF/A‑2b compliance and font embedding
@@ -97,16 +124,13 @@ saveOptions.setEmbedFonts(true);                     // embed all used fonts
 saveOptions.setDocumentInfo(new PdfDocumentInfo());  // optional metadata
 ```
 
-> **`setEmbedFonts(true)` gerçekte ne yapar?**  
-> Dönüştürücünün, kaynak font dosyalarındaki her bir glifi çıktı PDF’e kopyalamasını zorlar. Bu bayrak olmadan PDF, başka bir makinede bulunmayan sistem fontlarına referans verebilir ve eksik karakter sorunları ortaya çıkabilir.
+> **`setEmbedFonts(true)` ne yapar?** Dönüştürücünün kaynak font dosyalarından her glifi çıktı PDF'sine kopyalamasını zorlar. Bu bayrak olmadan PDF, başka bir makinede bulunmayan sistem fontlarına referans verebilir ve eksik karakter sorunlarına yol açabilir.
 
-Yalnızca belirli fontları gömmek isterseniz, özel bir `FontSettings` nesnesi sağlayabilirsiniz – gelişmiş senaryolar için Aspose belgelerine bakın.
+Gömmeyi belirli fontlarla sınırlamak isterseniz, özel bir `FontSettings` nesnesi sağlayabilirsiniz—gelişmiş senaryolar için Aspose belgelerine bakın.
 
----
+## Adım 4 – dönüşümü tek bir çağrıda gerçekleştirin
 
-## 4. Adım – Dönüşümü Tek Çağrıyla Gerçekleştirin
-
-Aspose.HTML ağır işi basitleştirir. Statik `Converter.convertHTML` metodu HTML’i okur, tanımladığınız seçenekleri uygular ve ortaya çıkan PDF dosyasını yazar.
+`Converter.convertHTML`, Aspose.HTML'in statik metodudur ve sağlanan seçeneklerle bir HTML kaynağını PDF dosyasına dönüştürür. Aspose.HTML ağır işi basitleştirir. Statik `Converter.convertHTML` metodu HTML'yi okur, tanımladığınız seçenekleri uygular ve ortaya çıkan PDF dosyasını yazar.
 
 ```java
 // Destination PDF/A‑2b file
@@ -119,28 +143,24 @@ Converter.convertHTML(htmlPath, pdfPath, saveOptions);
 System.out.println("Conversion completed: " + pdfPath);
 ```
 
-Hepsi bu kadar—HTML’niz artık tüm fontları gömülü, tam uyumlu bir PDF/A‑2b belgesi.  
+Hepsi bu—HTML'niz artık tüm fontları gömülü, tam uyumlu bir PDF/A‑2b belgesi.
 
-> **Hızlı kontrol:** Oluşturulan PDF’i Adobe Acrobat’ta açın ve *File → Properties → Fonts* bölümüne bakın. Her font adının yanında “Embedded Subset” görmelisiniz.
+> **Hızlı kontrol:** Oluşturulan PDF'yi Adobe Acrobat'ta açın ve *File → Properties → Fonts* bölümüne bakın. Her font adının yanında “Embedded Subset” görmelisiniz.
 
----
+## Adım 5 – çıktıyı doğrulayın (isteğe bağlı ama önerilir)
 
-## 5. Adım – Çıktıyı Doğrulayın (Opsiyonel ama Tavsiye Edilir)
-
-Kod çoğu kenar durumunu hallederken, PDF’in beklendiği gibi göründüğünden emin olmak iyi bir pratiktir.
+Kod çoğu kenar durumunu ele alsa da, PDF'nin beklendiği gibi göründüğünden emin olmak iyi bir uygulamadır.
 
 ```java
 // Simple verification – open the file with the default PDF viewer
 java.awt.Desktop.getDesktop().open(new java.io.File(pdfPath));
 ```
 
-PDF sorunsuz açılıyor ve düzen orijinal HTML ile eşleşiyorsa, **convert html file pdf** tarzı dönüşümü başarıyla tamamlamış oldunuz.
+PDF hatasız açılıyor ve düzen orijinal HTML ile eşleşiyorsa, **convert html file pdf** tarzı bir dönüşümü başarıyla gerçekleştirmiş oldunuz.
 
----
+## Tam çalışan örnek
 
-## Tam Çalışan Örnek
-
-Aşağıda, tamamen çalıştırılabilir Java sınıfı yer alıyor. `ConvertHtmlToPdfA2b.java` adlı bir dosyaya kopyalayıp yapıştırın, yolları ayarlayın ve IDE’nizden ya da komut satırından çalıştırın.
+Aşağıda tamamen çalıştırılabilir bir Java sınıfı bulunmaktadır. `ConvertHtmlToPdfA2b.java` adlı bir dosyaya kopyalayıp yapıştırın, yolları ayarlayın ve IDE'nizden ya da komut satırından çalıştırın.
 
 ```java
 import com.aspose.html.converters.*;
@@ -174,42 +194,56 @@ public class ConvertHtmlToPdfA2b {
 Conversion completed: C:/mydocs/sample-pdfa2b.pdf
 ```
 
-Oluşturulan PDF’i açtığınızda, `sample.html` dosyasının tam görsel temsilini, tüm fontların güvenli bir şekilde gömülmüş olduğunu göreceksiniz.
+Oluşturulan PDF'yi açtığınızda, `sample.html` dosyasının tam görsel temsili, tüm fontlar güvenli bir şekilde gömülmüş olarak görünecektir.
 
----
+## Aspose.HTML kullanarak PDF'de fontları nasıl gömerim?
 
-## Sıkça Sorulan Sorular (H3)
+Fontları, `PdfSaveOptions` nesnesinde `setEmbedFonts(true)` bayrağını etkinleştirerek gömersiniz; Aspose.HTML ardından her referans verilen fontu PDF akışına kopyalar ve belgenin herhangi bir cihazda doğru şekilde render edilmesini garanti eder. Bu tek ayar, son‑işlem adımlarını ya da harici font paketleme araçlarını ortadan kaldırır.
 
-### Uzaktan bir URL'yi yerel dosya yerine dönüştürebilir miyim?
-Evet. URL dizesini (ör. `"https://example.com/report.html"`) `Converter.convertHTML` metoduna geçirin. Sunucunun genel erişime izin verdiğinden emin olun; aksi takdirde `404` ya da kimlik doğrulama hatası alırsınız.
+## Yaygın sorunlar ve çözümler
 
-### HTML’im dış CSS veya resimlere referans veriyorsa ne olur?
-Aspose.HTML, HTML dosyasının konumuna göre göreli bağlantıları izler. CSS ve resim varlıklarını aynı klasör hiyerarşisinde tutun veya bir CDN’ye mutlak URL’ler kullanın.
+- **Eksik fontlar:** Font dosyalarının sunucuda erişilebilir olduğundan emin olun veya özel bir `FontSettings` koleksiyonu ile gömün.
+- **Yanlış dosya yolları:** Geliştirme sırasında mutlak yollar kullanın; üretim dağıtımlarında göreli yollar veya sınıf‑yolu kaynaklarına geçin.
+- **Büyük HTML dosyaları:** JVM yığın boyutunu artırın (`-Xmx2g` veya daha yüksek) veya `InputStream` kullanarak HTML'yi akıtın, böylece `OutOfMemoryError` önlenir.
+- **PDF/A doğrulama hataları:** Tüm görsellerin desteklenen formatlarda (JPEG, PNG) olduğundan ve renk profillerinin gömülü olduğundan emin olun.
 
-### Kütüphane diğer PDF/A seviyelerini destekliyor mu?
-Kesinlikle. `PdfACompliance.PdfA2b` yerine `PdfACompliance.PdfA1a`, `PdfA1b`, `PdfA3b` vb. değerleri kullanarak arşivleme ihtiyacınıza göre değiştirebilirsiniz.
+## Sık sorulan sorular
 
-### Büyük HTML dosyaları (>10 MB) nasıl ele alınır?
-Devasa belgeler için HTML’i bir `InputStream` üzerinden akıtmayı ve JVM heap boyutunu artırmayı (`-Xmx2g` veya daha yüksek) düşünün. Dönüşüm hâlâ tek bir çağrı olarak kalır, ancak bellek baskısını uygun JVM ayarlarıyla hafifletebilirsiniz.
+**S: Yerel dosya yerine uzak bir URL'yi dönüştürebilir miyim?**  
+C: Evet. URL dizesini (ör. `"https://example.com/report.html"`) `Converter.convertHTML`'e gönderin. Kütüphane içeriği indirir, göreli kaynakları çözer ve bir PDF üretir.
 
----
+**S: HTML'm dış CSS veya görseller referans veriyorsa ne olur?**  
+C: Aspose.HTML, HTML dosyasının konumuna göre göreli bağlantıları izler. CSS ve görsel varlıkları aynı klasör hiyerarşisinde tutun veya bir CDN'ye mutlak URL'ler kullanın.
 
-## Sonraki Keşfedebileceğiniz İlgili Konular
+**S: Kütüphane diğer PDF/A seviyelerini destekliyor mu?**  
+C: Kesinlikle. `PdfACompliance.PdfA2b` yerine `PdfACompliance.PdfA1a`, `PdfACompliance.PdfA1b`, `PdfACompliance.PdfA3b` vb. seviyeleri ihtiyacınıza göre kullanabilirsiniz.
 
-- **Özel fontları gömme** – Host makinede yüklü olmayan fontları da dönüştürücünün gömebilmesi için özel bir font koleksiyonu nasıl kaydedilir öğrenin.  
-- **HTML’i anlık olarak PDF’e dönüştürme** – Üretilen HTML dizgileriyle geçici dosyalara ihtiyaç duymadan `ByteArrayInputStream` kullanın.  
-- **Toplu dönüşüm** – Bir klasördeki HTML dosyaları üzerinde döngü kurarak PDF/A‑2b belgelerinin bir zip arşivini oluşturun.  
-- **Filigran ekleme** – PDF’i Aspose.PDF ile işleyerek gizli işaretler ekleyin.
+**S: Büyük HTML dosyaları (>10 MB) nasıl ele alınır?**  
+C: HTML'yi bir `InputStream` üzerinden akıtın ve JVM yığın boyutunu artırın (`-Xmx2g` veya daha yüksek). Dönüşüm tek bir çağrı olarak kalır, ancak bellek baskısı uygun ayarlamalarla hafifletilir.
 
----
+**S: Üretim için ticari lisans gerekli mi?**  
+C: Evet. Değerlendirme için ücretsiz deneme yeterlidir, ancak üretim dağıtımları için değerlendirme filigranlarını kaldırmak ve tam özelliklere erişmek amacıyla geçerli bir Aspose.HTML for Java lisansı gerekir.
 
 ## Sonuç
 
-Artık **convert html to pdf** işlemini Java ile, **embed fonts in pdf** ayarları ve PDF/A‑2b uyumluluğu ile birlikte kullanabileceğiniz sağlam, üretim‑hazır bir deseniniz var. Tüm akış tek bir metod çağrısına sığsa da arşivleme standartları üzerinde ince ayar yapma imkanı sunar.  
+Artık Java kullanarak **html'yi pdf'ye dönüştürmek** için sağlam, üretim‑hazır bir deseniniz var; **pdf'de fontları gömme** ayarları ve PDF/A‑2b uyumluluğu da dahil. Tüm akış tek bir metod çağrısına sığar, ancak arşivleme standartları üzerinde ince ayar yapma imkanı sunar. Bir deneme yapın, seçenekleri özelleştirin ve Aspose.HTML'in herhangi bir belge‑oluşturma hattı için ne kadar esnek olduğunu hızlıca görün. Sorularınız mı var ya da kendi varyasyonlarınızı paylaşmak mı istiyorsunuz? Aşağıya yorum bırakın—mutlu kodlamalar!
 
-Deneyin, seçenekleri özelleştirin ve Aspose.HTML’in herhangi bir belge‑oluşturma hattı için ne kadar esnek olduğunu hızlıca görün. Sorularınız mı var ya da kendi varyasyonlarınızı paylaşmak mı istiyorsunuz? Aşağıya yorum bırakın—mutlu kodlamalar!
+---
+
+**Son güncelleme:** 2026-10-04  
+**Test edilen sürüm:** Aspose.HTML for Java 24.11  
+**Yazar:** Aspose
+
+## İlgili Öğreticiler
+
+- [Convert HTML to PDF Java – Configuring Environment in Aspose.HTML](/html/java/configuring-environment/)
+- [How to Use Aspose.HTML to Configure Fonts for HTML‑to‑PDF Java](/html/java/configuring-environment/configure-fonts/)
+- [How to Convert HTML to PDF Java – Using Aspose.HTML for Java](/html/java/conversion-html-to-other-formats/convert-html-to-pdf/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}
