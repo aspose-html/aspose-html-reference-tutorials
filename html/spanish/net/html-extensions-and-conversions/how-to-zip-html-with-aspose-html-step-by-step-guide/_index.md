@@ -202,47 +202,6 @@ Si falta algún recurso, verifica que el HTML original use rutas relativas corre
 
 ---
 
-## Ejemplo completo – *Crear ZIP a partir de HTML* en un solo archivo
-
-A continuación tienes el programa completo que puedes copiar y pegar en `Program.cs`. Incluye todo, desde los `using` hasta el paso de verificación.
-
-```csharp
-using Aspose.Html;
-using Aspose.Html.Converters;
-using System;
-using System.IO;
-using System.IO.Compression;
-
-class ZipHandler : ResourceHandler
-{
-    private readonly ZipArchive _zipArchive;
-
-    public ZipHandler(Stream zipFileStream)
-    {
-        _zipArchive = new ZipArchive(zipFileStream, ZipArchiveMode.Update, leaveOpen: true);
-    }
-
-    public override Stream HandleResource(ResourceInfo info)
-    {
-        string entryName = info.Url.AbsolutePath.TrimStart('/');
-        var entry = _zipArchive.CreateEntry(entryName);
-        return entry.Open();
-    }
-}
-
-class Program
-{
-    static void Main()
-    {
-        // 1️⃣ Load the HTML document.
-        string htmlPath = Path.Combine("Resources", "sample.html");
-        var htmlDoc = new HTMLDocument(htmlPath);
-
-        // 2️⃣ Prepare the output ZIP file.
-        string zipPath = Path.Combine("Resources", "output.zip");
-        using (var zipFileStream = new FileStream(zipPath, FileMode.Create))
-        using (
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

@@ -178,47 +178,6 @@ Files inside the generated ZIP:
 | **الملفات الكبيرة تسبب ضغطًا على الذاكرة** | يتم فتح الـ Streams بشكل متسلسل، لكن الـ ZIP يبقى في وضع التحديث. | للتعامل مع الأصول الضخمة، فكر في البث مباشرة إلى `FileStream` خارج الـ ZIP، ثم إضافتها لاحقًا باستخدام `CreateEntryFromFile`. |
 | **أسماء الملفات Unicode تتعطل** | الأحرف غير ASCII لا تُشفّر بشكل صحيح. | تأكد من أن المشروع يستخدم UTF-8 واضبط `entry.NameEncoding = Encoding.UTF8`. |
 
-## مثال كامل يعمل – *Create ZIP from HTML* في ملف واحد
-
-فيما يلي البرنامج الكامل الذي يمكنك نسخه‑ولصقه في `Program.cs`. يتضمن كل شيء من توجيهات using إلى خطوة التحقق.
-
-```csharp
-using Aspose.Html;
-using Aspose.Html.Converters;
-using System;
-using System.IO;
-using System.IO.Compression;
-
-class ZipHandler : ResourceHandler
-{
-    private readonly ZipArchive _zipArchive;
-
-    public ZipHandler(Stream zipFileStream)
-    {
-        _zipArchive = new ZipArchive(zipFileStream, ZipArchiveMode.Update, leaveOpen: true);
-    }
-
-    public override Stream HandleResource(ResourceInfo info)
-    {
-        string entryName = info.Url.AbsolutePath.TrimStart('/');
-        var entry = _zipArchive.CreateEntry(entryName);
-        return entry.Open();
-    }
-}
-
-class Program
-{
-    static void Main()
-    {
-        // 1️⃣ Load the HTML document.
-        string htmlPath = Path.Combine("Resources", "sample.html");
-        var htmlDoc = new HTMLDocument(htmlPath);
-
-        // 2️⃣ Prepare the output ZIP file.
-        string zipPath = Path.Combine("Resources", "output.zip");
-        using (var zipFileStream = new FileStream(zipPath, FileMode.Create))
-        using (
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

@@ -23,13 +23,7 @@ title: Come zippare HTML con Aspose.HTML – Guida passo passo
 url: /it/net/html-extensions-and-conversions/how-to-zip-html-with-aspose-html-step-by-step-guide/
 ---
 
-.
-
-After code block, there is incomplete code snippet with "using (" and then closing shortcodes. We leave as is.
-
-Now ensure we preserve all shortcodes at top and bottom.
-
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
@@ -205,47 +199,6 @@ Se manca qualche risorsa, assicurati che l'HTML originale utilizzi percorsi rela
 | **I nomi file Unicode si rompono** | I caratteri non ASCII non vengono codificati correttamente. | Assicurati che il progetto usi UTF‑8 e imposta `entry.NameEncoding = Encoding.UTF8`. |
 
 ---
-
-## Esempio completo – *Crea ZIP da HTML* in un unico file
-
-Di seguito trovi l'intero programma che puoi copiare‑incollare in `Program.cs`. Include tutto, dalle direttive `using` al passaggio di verifica.
-
-```csharp
-using Aspose.Html;
-using Aspose.Html.Converters;
-using System;
-using System.IO;
-using System.IO.Compression;
-
-class ZipHandler : ResourceHandler
-{
-    private readonly ZipArchive _zipArchive;
-
-    public ZipHandler(Stream zipFileStream)
-    {
-        _zipArchive = new ZipArchive(zipFileStream, ZipArchiveMode.Update, leaveOpen: true);
-    }
-
-    public override Stream HandleResource(ResourceInfo info)
-    {
-        string entryName = info.Url.AbsolutePath.TrimStart('/');
-        var entry = _zipArchive.CreateEntry(entryName);
-        return entry.Open();
-    }
-}
-
-class Program
-{
-    static void Main()
-    {
-        // 1️⃣ Load the HTML document.
-        string htmlPath = Path.Combine("Resources", "sample.html");
-        var htmlDoc = new HTMLDocument(htmlPath);
-
-        // 2️⃣ Prepare the output ZIP file.
-        string zipPath = Path.Combine("Resources", "output.zip");
-        using (var zipFileStream = new FileStream(zipPath, FileMode.Create))
-        using (
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

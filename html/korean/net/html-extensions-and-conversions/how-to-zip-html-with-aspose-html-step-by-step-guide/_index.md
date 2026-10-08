@@ -201,47 +201,6 @@ Files inside the generated ZIP:
 
 ---
 
-## 전체 작업 예제 – *HTML에서 ZIP 생성* (단일 파일)
-
-`Program.cs`에 복사·붙여넣기 할 수 있는 전체 프로그램입니다. using 구문부터 검증 단계까지 모두 포함되어 있습니다.
-
-```csharp
-using Aspose.Html;
-using Aspose.Html.Converters;
-using System;
-using System.IO;
-using System.IO.Compression;
-
-class ZipHandler : ResourceHandler
-{
-    private readonly ZipArchive _zipArchive;
-
-    public ZipHandler(Stream zipFileStream)
-    {
-        _zipArchive = new ZipArchive(zipFileStream, ZipArchiveMode.Update, leaveOpen: true);
-    }
-
-    public override Stream HandleResource(ResourceInfo info)
-    {
-        string entryName = info.Url.AbsolutePath.TrimStart('/');
-        var entry = _zipArchive.CreateEntry(entryName);
-        return entry.Open();
-    }
-}
-
-class Program
-{
-    static void Main()
-    {
-        // 1️⃣ Load the HTML document.
-        string htmlPath = Path.Combine("Resources", "sample.html");
-        var htmlDoc = new HTMLDocument(htmlPath);
-
-        // 2️⃣ Prepare the output ZIP file.
-        string zipPath = Path.Combine("Resources", "output.zip");
-        using (var zipFileStream = new FileStream(zipPath, FileMode.Create))
-        using (
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

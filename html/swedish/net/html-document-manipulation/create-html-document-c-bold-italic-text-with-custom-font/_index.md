@@ -24,17 +24,7 @@ title: Skapa HTML-dokument C# – Fet kursiv text med anpassat teckensnitt
 url: /sv/net/html-document-manipulation/create-html-document-c-bold-italic-text-with-custom-font/
 ---
 
-Rows translate.
-
-"Full Working Example Recap" => "Fullt fungerande exempel – Sammanfattning"
-
-Code block remains unchanged.
-
-At the end, there is a code block that seems incomplete: `HTMLStyleElement styleTag = doc.CreateElement("style` and then truncated. Keep as is.
-
-Now produce final content with shortcodes unchanged.
-
-Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
@@ -174,36 +164,6 @@ Att använda en klass håller din HTML renare, särskilt när du har dussintals 
 | Antar att `FirstChild` alltid är ett `<p>` | Validera med `if (htmlDoc.Body.FirstChild is HTMLParagraphElement paragraph) { … }` |
 
 ---
-
-## Fullt fungerande exempel – Sammanfattning
-
-```csharp
-using System;
-using Aspose.Html;
-using Aspose.Html.Drawing;
-
-namespace HtmlBoldItalicDemo
-{
-    class Program
-    {
-        static void Main()
-        {
-            // 1️⃣  Create document
-            HTMLDocument doc = new HTMLDocument("<p>Hello, world!</p>");
-
-            // 2️⃣  Define style (bold + italic)
-            FontStyle style = new FontStyle
-            {
-                WebFontStyle = WebFontStyle.Bold | WebFontStyle.Italic,
-                FontFamily = "Arial",
-                FontSize = 16
-            };
-
-            // 3️⃣  Apply inline style
-            doc.Body.FirstChild.Attributes["style"] = style.ToString();
-
-            // 4️⃣  Optional: add a heading using a CSS class
-            HTMLStyleElement styleTag = doc.CreateElement("style
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

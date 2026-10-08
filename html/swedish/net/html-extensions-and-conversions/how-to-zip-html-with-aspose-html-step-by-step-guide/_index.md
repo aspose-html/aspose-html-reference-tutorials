@@ -23,11 +23,7 @@ title: Hur man zippar HTML med Aspose.HTML – Steg‑för‑steg‑guide
 url: /sv/net/html-extensions-and-conversions/how-to-zip-html-with-aspose-html-step-by-step-guide/
 ---
 
-. Keep as is.
-
-Make sure we preserve all markdown formatting.
-
-Let's assemble final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
@@ -185,47 +181,6 @@ Om någon resurs saknas, kontrollera att den ursprungliga HTML‑filen använder
 | **Filnamnskollisioner** | Två resurser har samma namn i olika mappar, men ZIP‑posten använder bara filnamnet. | Bevara hela den relativa sökvägen (`info.Url.AbsolutePath`) när du skapar posten (som vi gör). |
 | **Stora filer ger minnesbelastning** | Strömmar öppnas sekventiellt, men ZIP‑filen hålls i uppdateringsläge. | För enorma tillgångar, överväg att streama direkt till en `FileStream` utanför ZIP‑filen, och lägg sedan till den senare med `CreateEntryFromFile`. |
 | **Unicode‑filnamn går sönder** | Icke‑ASCII‑tecken kodas inte korrekt. | Säkerställ att projektet använder UTF‑8 och sätt `entry.NameEncoding = Encoding.UTF8`. |
-
-## Fullt fungerande exempel – *Skapa ZIP från HTML* i en fil
-
-Nedan är hela programmet som du kan kopiera‑och‑klistra in i `Program.cs`. Det innehåller allt från using‑satser till verifieringssteget.
-
-```csharp
-using Aspose.Html;
-using Aspose.Html.Converters;
-using System;
-using System.IO;
-using System.IO.Compression;
-
-class ZipHandler : ResourceHandler
-{
-    private readonly ZipArchive _zipArchive;
-
-    public ZipHandler(Stream zipFileStream)
-    {
-        _zipArchive = new ZipArchive(zipFileStream, ZipArchiveMode.Update, leaveOpen: true);
-    }
-
-    public override Stream HandleResource(ResourceInfo info)
-    {
-        string entryName = info.Url.AbsolutePath.TrimStart('/');
-        var entry = _zipArchive.CreateEntry(entryName);
-        return entry.Open();
-    }
-}
-
-class Program
-{
-    static void Main()
-    {
-        // 1️⃣ Load the HTML document.
-        string htmlPath = Path.Combine("Resources", "sample.html");
-        var htmlDoc = new HTMLDocument(htmlPath);
-
-        // 2️⃣ Prepare the output ZIP file.
-        string zipPath = Path.Combine("Resources", "output.zip");
-        using (var zipFileStream = new FileStream(zipPath, FileMode.Create))
-        using (
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

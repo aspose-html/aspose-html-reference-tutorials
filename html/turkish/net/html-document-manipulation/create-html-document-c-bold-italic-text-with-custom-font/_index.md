@@ -24,9 +24,7 @@ title: HTML Belgesi Oluştur C# – Özel Yazı Tipiyle Kalın ve İtalik Metin
 url: /tr/net/html-document-manipulation/create-html-document-c-bold-italic-text-with-custom-font/
 ---
 
-sure to keep all shortcodes exactly.
-
-Let's construct final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
@@ -166,36 +164,6 @@ Using a class keeps your HTML cleaner, especially when you have dozens of elemen
 | Assuming `FirstChild` is always a `<p>` | Validate with `if (htmlDoc.Body.FirstChild is HTMLParagraphElement paragraph) { … }` |
 
 ---
-
-## Tam Çalışan Örnek Özeti
-
-```csharp
-using System;
-using Aspose.Html;
-using Aspose.Html.Drawing;
-
-namespace HtmlBoldItalicDemo
-{
-    class Program
-    {
-        static void Main()
-        {
-            // 1️⃣  Create document
-            HTMLDocument doc = new HTMLDocument("<p>Hello, world!</p>");
-
-            // 2️⃣  Define style (bold + italic)
-            FontStyle style = new FontStyle
-            {
-                WebFontStyle = WebFontStyle.Bold | WebFontStyle.Italic,
-                FontFamily = "Arial",
-                FontSize = 16
-            };
-
-            // 3️⃣  Apply inline style
-            doc.Body.FirstChild.Attributes["style"] = style.ToString();
-
-            // 4️⃣  Optional: add a heading using a CSS class
-            HTMLStyleElement styleTag = doc.CreateElement("style
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
