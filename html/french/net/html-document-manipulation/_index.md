@@ -84,6 +84,8 @@ Apprenez à ajouter dynamiquement un élément au corps d'une page HTML en C# av
 
 ### [Comment créer du HTML et ajouter un élément de style CSS – Guide étape par étape](./how-to-create-html-and-add-css-style-element-step-by-step-gu/)
 Apprenez à générer du HTML et à intégrer un style CSS via un élément <style>. Guide complet pas à pas avec exemples de code.
+### [Créer un document HTML C# – Texte gras et italique avec police personnalisée](./create-html-document-c-bold-italic-text-with-custom-font/)
+Apprenez à créer un document HTML en C# avec du texte en gras et italique en utilisant une police personnalisée via Aspose.HTML.
 
 ## Conclusion
 

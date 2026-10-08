@@ -133,6 +133,8 @@ url: /el/net/html-extensions-and-conversions/
 
 
 
+### [Προσαρμοσμένος Διαχειριστής Πόρων σε C# – Φόρτωση HTML και Αποθήκευση ως ZIP](./custom-resource-handler-in-c-load-html-and-save-as-zip/)
+Μάθετε πώς να δημιουργήσετε έναν προσαρμοσμένο διαχειριστή πόρων σε C# για φόρτωση αρχείων HTML και αποθήκευση τους σε αρχείο ZIP.
 
 ## Σύναψη
 

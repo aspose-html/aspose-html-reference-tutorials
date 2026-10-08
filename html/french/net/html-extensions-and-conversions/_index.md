@@ -141,6 +141,8 @@ Apprenez à zipper du HTML en C# en utilisant un gestionnaire de ressources pers
 Apprenez à charger un document HTML et à l’enregistrer dans un fichier ZIP en utilisant le gestionnaire d’Aspose.HTML.
 ### [Créer un document HTML et l’enregistrer en zip – Guide complet C#](./create-html-document-and-save-as-zip-complete-c-guide/)
 Apprenez à créer un document HTML et à le compresser dans un fichier ZIP avec C# grâce à Aspose.HTML, guide complet pas à pas.
+### [Gestionnaire de ressources personnalisé en C# – Charger le HTML et l’enregistrer en ZIP](./custom-resource-handler-in-c-load-html-and-save-as-zip/)
+Apprenez à créer un gestionnaire de ressources personnalisé en C# pour charger du HTML et le sauvegarder dans un fichier ZIP.
 
 ## Conclusion
 

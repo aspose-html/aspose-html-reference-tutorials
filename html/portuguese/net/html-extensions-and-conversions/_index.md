@@ -149,6 +149,11 @@ Aprenda a salvar documentos HTML em um fluxo usando Aspose.HTML para .NET com C#
 ### [Como usar handler no Aspose.HTML – Carregar HTML, Salvar como ZIP](./how-to-use-handler-in-aspose-html-load-html-save-as-zip/)
 Aprenda a usar o handler do Aspose.HTML para carregar documentos HTML e salvá-los como arquivos ZIP em C#.
 
+### [Manipulador de Recursos Personalizado em C# – Carregar HTML e Salvar como ZIP](./custom-resource-handler-in-c-load-html-and-save-as-zip/)
+Aprenda a criar um manipulador de recursos personalizado em C# para carregar documentos HTML e salvá‑los em arquivos ZIP usando Aspose.HTML.
+
+### [Como compactar HTML com Aspose.HTML – Guia passo a passo](./how-to-zip-html-with-aspose-html-step-by-step-guide/)
+
 ## Conclusão
 
 Concluindo, extensões e conversões HTML são elementos essenciais do desenvolvimento web moderno. O Aspose.HTML para .NET simplifica o processo e o torna acessível a desenvolvedores de todos os níveis. Ao seguir nossos tutoriais, você estará no caminho certo para se tornar um desenvolvedor web proficiente com um amplo conjunto de habilidades.

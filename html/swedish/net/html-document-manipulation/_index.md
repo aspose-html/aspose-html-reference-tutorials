@@ -85,6 +85,8 @@ Lär dig hur du gör text fet och kursiv i HTML med C#. En snabbguide med kodexe
 Lär dig hur du lägger till ett element i body med Aspose.HTML för .NET i en komplett C#-guide.
 ### [Skapa HTML med Aspose – Hitta element, applicera fetstil](./how-to-create-html-with-aspose-find-element-apply-bold/)
 Lär dig hur du hittar ett element i ett HTML-dokument och gör texten fet med Aspose.HTML för .NET.
+### [Skapa HTML-dokument i C# – Fet kursiv text med anpassat teckensnitt](./create-html-document-c-bold-italic-text-with-custom-font/)
+Lär dig hur du skapar ett HTML-dokument i C# med fet och kursiv text samt ett anpassat teckensnitt.
 
 ## Slutsats
 

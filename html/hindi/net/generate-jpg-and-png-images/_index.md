@@ -91,6 +91,8 @@ C# में Aspose.HTML का उपयोग करके HTML इमेज �
 HTML को इमेज में बदलने के लिए C# में चरण‑दर‑चरण मार्गदर्शन। सेटअप, कोड और सर्वोत्तम प्रथाएँ सीखें।
 ### [C# में HTML से PNG बनाएं – पूर्ण Aspose.HTML गाइड](./create-png-from-html-in-c-full-aspose-html-guide/)
 C# में Aspose.HTML का उपयोग करके HTML को PNG में बदलने की पूरी प्रक्रिया सीखें। चरण-दर-चरण मार्गदर्शिका।
+### [HTML को PNG में रेंडर कैसे करें – पूर्ण C# गाइड](./how-to-render-html-to-png-complete-c-guide/)
+C# में Aspose.HTML का उपयोग करके HTML को PNG इमेज में बदलने की पूरी प्रक्रिया सीखें। चरण-दर-चरण मार्गदर्शिका।
 
 ## निष्कर्ष
 

@@ -94,6 +94,8 @@ Aspose.HTML for .NET 不仅仅是一个库；它是 Web 开发领域的变革者
 使用 Aspose.HTML for .NET 在 C# 中通过自定义资源处理程序将 HTML 打包为 ZIP 的完整指南。
 ### [在 C# 中将 HTML 保存为 ZIP – 完整指南](./save-html-as-zip-in-c-complete-guide/)
 使用 Aspose.HTML for .NET 在 C# 中将 HTML 打包为 ZIP 的完整分步指南。
+### [使用 Aspose.HTML 将 HTML 压缩为 ZIP – 步骤指南](./how-to-zip-html-with-aspose-html-step-by-step-guide/)
+使用 Aspose.HTML for .NET 将 HTML 打包并压缩为 ZIP 的分步指南。
 ### [使用 Aspose.HTML 在 .NET 中创建带样式文本的 HTML 文档并导出为 PDF – 完整指南](./create-html-document-with-styled-text-and-export-to-pdf-full/)
 本完整指南展示如何使用 Aspose.HTML for .NET 创建带样式的 HTML 文档并将其导出为 PDF，包含详细步骤和代码示例。
 
@@ -148,6 +150,8 @@ Aspose.HTML for .NET 不仅仅是一个库；它是 Web 开发领域的变革者
 使用 Aspose 在 .NET 中将 HTML 转换为 PDF 的完整分步教程，涵盖代码示例和最佳实践。
 ### [使用 Aspose.HTML 将 HTML 创建为 PDF – 完整指南](./create-pdf-from-html-complete-guide-with-aspose-html/)
 使用 Aspose.HTML for .NET 将 HTML 转换为 PDF 的完整指南，提供详细步骤和代码示例。
+### [C# 中的自定义资源处理程序 – 加载 HTML 并保存为 ZIP](./custom-resource-handler-in-c-load-html-and-save-as-zip/)
+使用 Aspose.HTML for .NET 在 C# 中实现自定义资源处理程序，将 HTML 加载并压缩为 ZIP 文件的完整示例。
 
 ## 结论
 

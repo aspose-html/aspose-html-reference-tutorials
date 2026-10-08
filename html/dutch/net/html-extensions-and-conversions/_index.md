@@ -135,6 +135,8 @@ Leer hoe u een handler gebruikt om HTML te laden en vervolgens op te slaan als Z
 Leer hoe u een HTML-document maakt en dit als zip‑bestand opslaat met een volledige C#‑stappenplan.
 ### [PDF maken van HTML – Complete gids met Aspose.HTML](./create-pdf-from-html-complete-guide-with-aspose-html/)
 Leer hoe u PDF's genereert vanuit HTML met Aspose.HTML in een volledige stap‑voor‑stap gids.
+### [Aangepaste resourcehandler in C# – HTML laden en opslaan als ZIP](./custom-resource-handler-in-c-load-html-and-save-as-zip/)
+Leer hoe u een aangepaste resourcehandler implementeert in C# om HTML te laden en als ZIP-bestand op te slaan met Aspose.HTML voor .NET.
 
 ## Conclusie
 

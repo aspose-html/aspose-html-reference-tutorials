@@ -85,6 +85,8 @@ Hướng dẫn chi tiết cách nén HTML thành Zip trong C# bằng cách tải
 Hướng dẫn chi tiết cách nén HTML thành ZIP trong C# bằng trình xử lý tài nguyên tùy chỉnh với Aspose.HTML.
 ### [Lưu HTML thành ZIP trong C# – Hướng dẫn đầy đủ](./save-html-as-zip-in-c-complete-guide/)
 Hướng dẫn chi tiết cách nén tài liệu HTML thành tệp ZIP trong C# bằng Aspose.HTML cho .NET.
+### [Cách Nén HTML thành Zip với Aspose.HTML – Hướng dẫn từng bước](./how-to-zip-html-with-aspose-html-step-by-step-guide/)
+Hướng dẫn chi tiết cách nén tệp HTML thành file Zip bằng Aspose.HTML, kèm ví dụ mã và các tùy chọn cấu hình.
 ### [Tạo tài liệu HTML với văn bản có kiểu dáng và xuất ra PDF – Hướng dẫn đầy đủ](./create-html-document-with-styled-text-and-export-to-pdf-full/)
 Hướng dẫn chi tiết cách tạo tài liệu HTML có văn bản định dạng và xuất ra PDF bằng Aspose.HTML cho .NET.
 ### [Tạo PDF từ HTML – Hướng dẫn từng bước C#](./create-pdf-from-html-c-step-by-step-guide/)
@@ -131,6 +133,8 @@ Hướng dẫn cách sử dụng Aspose.HTML để lưu HTML trực tiếp vào 
 Hướng dẫn chi tiết cách sử dụng handler trong Aspose.HTML để tải tài liệu HTML và lưu lại dưới dạng tệp ZIP.
 ### [Tạo tài liệu HTML và lưu dưới dạng zip – Hướng dẫn C# hoàn chỉnh](./create-html-document-and-save-as-zip-complete-c-guide/)
 Hướng dẫn chi tiết cách tạo tài liệu HTML và lưu nó dưới dạng tệp ZIP bằng C# và Aspose.HTML cho .NET.
+### [Trình xử lý tài nguyên tùy chỉnh trong C# – Tải HTML và Lưu dưới dạng ZIP](./custom-resource-handler-in-c-load-html-and-save-as-zip/)
+Hướng dẫn tạo trình xử lý tài nguyên tùy chỉnh trong C# để tải HTML và lưu dưới dạng tệp ZIP.
 
 ## Phần kết luận
 

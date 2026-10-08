@@ -89,6 +89,8 @@ Pełny przewodnik, jak renderować obrazy HTML w C# przy użyciu biblioteki Aspo
 Poznaj, jak w prosty sposób wygenerować obraz z kodu HTML przy użyciu Aspose.HTML w C#.
 ### [Utwórz PNG z HTML w C# – Pełny przewodnik Aspose.HTML](./create-png-from-html-in-c-full-aspose-html-guide/)
 Kompletny przewodnik, jak wygenerować plik PNG z kodu HTML w C# przy użyciu biblioteki Aspose.HTML.
+### [Jak renderować HTML do PNG – Kompletny przewodnik C#](./how-to-render-html-to-png-complete-c-guide/)
+Pełny przewodnik po renderowaniu HTML do formatu PNG w C#, krok po kroku, z przykładami kodu i najlepszymi praktykami.
 
 ## Wniosek
 

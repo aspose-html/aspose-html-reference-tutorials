@@ -89,6 +89,8 @@ Konwertuj HTML do PDF w C# przy użyciu Aspose.HTML – prosty przewodnik krok p
 Dowiedz się, jak spakować plik HTML do archiwum ZIP w C# przy użyciu Aspose.HTML.
 ### [Utwórz dokument HTML i zapisz jako ZIP – Kompletny przewodnik C#](./create-html-document-and-save-as-zip-complete-c-guide/)
 Utwórz dokument HTML i zapisz go jako plik ZIP w C# przy użyciu Aspose.HTML – kompletny przewodnik krok po kroku.
+### [Jak spakować HTML przy użyciu Aspose.HTML – przewodnik krok po kroku](./how-to-zip-html-with-aspose-html-step-by-step-guide/)
+Dowiedz się, jak spakować HTML przy użyciu Aspose.HTML – kompletny przewodnik krok po kroku.
 ### [Utwórz dokument HTML ze stylowanym tekstem i wyeksportuj do PDF – Pełny przewodnik](./create-html-document-with-styled-text-and-export-to-pdf-full/)
 Dowiedz się, jak stworzyć dokument HTML z formatowanym tekstem i wyeksportować go do PDF przy użyciu Aspose.HTML dla .NET.
 ### [Utwórz dokument HTML w C# – przewodnik krok po kroku](./create-html-document-c-step-by-step-guide/)
@@ -131,6 +133,8 @@ Dowiedz się, jak w C# zapisać HTML jako PDF, uwzględniając czcionki, korzyst
 Dowiedz się, jak w C# zapisać dokument HTML jako archiwum ZIP, korzystając z Aspose.HTML – pełny przewodnik krok po kroku.
 ### [Ustaw rozmiar strony PDF w C# – konwertuj HTML do PDF](./set-pdf-page-size-in-c-convert-html-to-pdf/)
 Dowiedz się, jak ustawić rozmiar strony PDF w C# podczas konwersji HTML do PDF przy użyciu Aspose.HTML.
+### [Niestandardowy obsługiwacz zasobów w C# – wczytaj HTML i zapisz jako ZIP](./custom-resource-handler-in-c-load-html-and-save-as-zip/)
+Dowiedz się, jak stworzyć własny obsługiwacz zasobów w C#, wczytać plik HTML i zapisać go w archiwum ZIP przy użyciu Aspose.HTML.
 
 ## Wniosek
 

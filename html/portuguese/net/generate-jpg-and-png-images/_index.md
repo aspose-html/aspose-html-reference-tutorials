@@ -89,6 +89,8 @@ Aprenda a renderizar imagens HTML em C# usando Aspose.HTML com este guia complet
 Aprenda a gerar imagens a partir de HTML usando Aspose.HTML em C#, com instruções detalhadas passo a passo.
 ### [Criar PNG a partir de HTML em C# – Guia Completo do Aspose.HTML](./create-png-from-html-in-c-full-aspose-html-guide/)
 Aprenda passo a passo como gerar arquivos PNG a partir de HTML usando C# e Aspose.HTML, cobrindo configuração, renderização e otimizações.
+### [Como renderizar HTML para PNG – Guia completo em C#](./how-to-render-html-to-png-complete-c-guide/)
+Aprenda a renderizar HTML em PNG usando C# com Aspose.HTML, passo a passo com exemplos completos.
 
 ## Conclusão
 

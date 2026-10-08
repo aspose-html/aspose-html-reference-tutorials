@@ -79,6 +79,8 @@ C# kullanarak HTML içinde metni kalın ve italik olarak biçimlendirmeyi hızl�
 Aspose.HTML kullanarak HTML içinde belirli bir öğeyi bulup, ona kalın biçimlendirme uygulamayı öğrenin.
 ### [HTML Oluşturma ve CSS Stil Öğesi Ekleme – Adım Adım Kılavuz](./how-to-create-html-and-add-css-style-element-step-by-step-gu/)
 HTML ve CSS stil öğesini nasıl oluşturup ekleyeceğinizi adım adım öğrenin.
+### [C# ile HTML Belgesi Oluşturma – Özel Yazı Tipiyle Kalın İtalik Metin](./create-html-document-c-bold-italic-text-with-custom-font/)
+C# kullanarak özel bir yazı tipiyle kalın ve italik metin içeren HTML belgesi oluşturmayı öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

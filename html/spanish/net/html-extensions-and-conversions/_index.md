@@ -34,7 +34,7 @@ El desarrollo web suele implicar la conversión de documentos HTML a distintos f
 
 ## ¿Por qué Aspose.HTML para .NET?
 
-Aspose.HTML para .NET no es solo una biblioteca, es un punto de inflexión en el mundo del desarrollo web. Ofrece una amplia gama de funciones y herramientas que agilizan las tareas relacionadas con HTML. Al finalizar estos tutoriales, contará con los conocimientos y las habilidades necesarios para maximizar el potencial de Aspose.HTML para .NET.
+Aspose.HTML para .NET no es solo una biblioteca, es un punto de inflexión en el mundo del desarrollo web. Ofrece una amplia gama de funciones y herramientas que agilizan las tareas relacionadas con HTML. Al finalizar estos tutoriales, contará con los conocimientos y las habilidades necesarias para maximizar el potencial de Aspose.HTML para .NET.
 
 ## Tutoriales de extensiones y conversiones de HTML
 
@@ -134,6 +134,10 @@ Aprenda a guardar una página web completa en un solo archivo HTML usando Aspose
 Aprenda a cargar HTML y guardarlo como archivo ZIP usando un handler en Aspose.HTML para .NET.
 ### [Crear documento HTML y guardarlo como ZIP – Guía completa en C#](./create-html-document-and-save-as-zip-complete-c-guide/)
 Aprenda a crear un documento HTML y guardarlo como archivo ZIP usando C# y Aspose.HTML paso a paso.
+### [Cómo comprimir HTML con Aspose.HTML – Guía paso a paso](./how-to-zip-html-with-aspose-html-step-by-step-guide/)
+Aprenda a comprimir HTML en un archivo ZIP usando Aspose.HTML con esta guía paso a paso en C#.
+### [Controlador de recursos personalizado en C# – Cargar HTML y guardar como ZIP](./custom-resource-handler-in-c-load-html-and-save-as-zip/)
+Aprenda a crear un controlador de recursos personalizado en C# para cargar HTML y guardarlo comprimido en un archivo ZIP usando Aspose.HTML.
 
 ## Conclusión
 

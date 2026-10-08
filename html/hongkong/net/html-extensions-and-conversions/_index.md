@@ -138,6 +138,8 @@ Aspose.HTML for .NET 不只是一個函式庫；它還是一個函式庫。它�
 使用 Aspose.HTML for .NET 在 C# 中設定 PDF 頁面尺寸，將 HTML 轉換為 PDF 的完整步驟指南。
 ### [HTML 轉 PDF 教程 – 在 C# 中將 HTML 轉換為 PDF](./html-to-pdf-tutorial-convert-html-to-pdf-in-c/)
 使用 Aspose.HTML for .NET，在 C# 中將 HTML 轉換為 PDF 的完整步驟指南。
+### [在 C# 中的自訂資源處理程式 – 載入 HTML 並儲存為 ZIP](./custom-resource-handler-in-c-load-html-and-save-as-zip/)
+使用 Aspose.HTML for .NET 在 C# 中建立自訂資源處理程式，載入 HTML 並將其保存為 ZIP 檔案。
 
 ## 結論
 
