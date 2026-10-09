@@ -49,6 +49,8 @@ Leer hoe u antialiasing inschakelt in C# om vloeiende randen te krijgen in uw ca
 Leer hoe u tekst op een canvas kunt plaatsen en renderen op afbeeldingen met Aspose.HTML voor .NET.
 ### [Hoe antialiasing in C# inschakelen – Complete gids voor lettertype‑stijlen](./how-to-enable-antialiasing-in-c-complete-font-style-guide/)
 Leer hoe u antialiasing inschakelt in C# en lettertype‑stijlen volledig beheert voor vloeiende tekstweergave.
+### [Maak ImagerenderingOptions‑instantie voor hoogwaardige grafische weergave](./create-imagerenderingoptions-instance-for-high-quality-graph/)
+Leer hoe u een ImagerenderingOptions‑object configureert voor optimale grafische kwaliteit met Aspose.HTML voor .NET.
 
 ## Conclusie
 

@@ -49,6 +49,8 @@ Aspose.HTML for .NET 简化了图像编辑。您可以加载图像、应用滤�
 本完整指南展示如何在图像上使用 Aspose.HTML for .NET 渲染文本，包括字体、颜色和位置设置。
 ### [在 C# 中启用抗锯齿 – 完整字体样式指南](./how-to-enable-antialiasing-in-c-complete-font-style-guide/)
 了解如何在 C# 中使用 Aspose.HTML 启用抗锯齿并完整控制字体样式，实现更平滑的文字渲染。
+### [创建 ImageRenderingOptions 实例以实现高质量图形渲染](./create-imagerenderingoptions-instance-for-high-quality-graph/)
+了解如何在 Aspose.HTML for .NET 中创建 ImageRenderingOptions 实例，以获得高质量的图形渲染效果。
 
 ## 结论
 

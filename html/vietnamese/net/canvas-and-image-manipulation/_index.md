@@ -49,6 +49,8 @@ Hướng dẫn bật khử răng cưa trong C# để tạo các cạnh mượt, 
 Hướng dẫn chi tiết cách tạo và hiển thị văn bản trên canvas trong Aspose.HTML cho .NET.
 ### [Cách bật khử răng cưa trong C# – Hướng dẫn đầy đủ về Kiểu chữ](./how-to-enable-antialiasing-in-c-complete-font-style-guide/)
 Hướng dẫn chi tiết cách bật khử răng cưa và tùy chỉnh kiểu chữ trong C# để cải thiện chất lượng hiển thị văn bản.
+### [Tạo ImageRenderingOptions cho việc render đồ họa chất lượng cao](./create-imagerenderingoptions-instance-for-high-quality-graph/)
+Hướng dẫn tạo và cấu hình ImageRenderingOptions để render đồ họa với chất lượng cao trong Aspose.HTML cho .NET.
 
 ## Phần kết luận
 

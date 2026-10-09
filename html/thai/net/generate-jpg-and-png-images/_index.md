@@ -90,6 +90,8 @@ Aspose.HTML สำหรับ .NET นำเสนอวิธีการง�
 เรียนรู้วิธีแปลง HTML เป็นไฟล์ PNG ด้วย C# โดยใช้ Aspose.HTML อย่างละเอียดและครบถ้วน
 ### [วิธีแปลง HTML เป็น PNG – คู่มือ C# ฉบับสมบูรณ์](./how-to-render-html-to-png-complete-c-guide/)
 เรียนรู้วิธีแปลง HTML เป็น PNG อย่างละเอียดด้วย C# ด้วยคำแนะนำเต็มรูปแบบจาก Aspose.HTML
+### [วิธีสร้าง PNG จาก HTML ด้วย Aspose.HTML – คู่มือทีละขั้นตอน](./how-to-create-png-from-html-with-aspose-html-step-by-step-gu/)
+เรียนรู้วิธีสร้างไฟล์ PNG จาก HTML ด้วย Aspose.HTML อย่างละเอียดตามขั้นตอน
 
 ## บทสรุป
 

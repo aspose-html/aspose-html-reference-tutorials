@@ -49,6 +49,8 @@ C# でアンチエイリアシングを有効にし、描画エッジを滑ら�
 Aspose.HTML for .NET を使用して、キャンバス上にテキストを描画し、画像に文字をレンダリングする方法をステップバイステップで解説します。
 ### [C# でアンチエイリアシングを有効にする – 完全フォントスタイルガイド](./how-to-enable-antialiasing-in-c-complete-font-style-guide/)
 フォントのスタイル設定とアンチエイリアシングの適用方法を詳しく解説し、テキスト描画を滑らかにします。
+### [高品質グラフィックレンダリングのための ImageRenderingOptions インスタンス作成](./create-imagerenderingoptions-instance-for-high-quality-graph/)
+ImageRenderingOptions を使用して、最高品質のグラフィック描画を実現する方法を学びます。
 
 ## 結論
 

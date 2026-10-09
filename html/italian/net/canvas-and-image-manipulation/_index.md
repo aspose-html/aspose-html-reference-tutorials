@@ -49,6 +49,8 @@ Scopri come attivare l'antialiasing in C# per ottenere bordi più lisci nelle im
 Impara a disegnare testo su immagini usando Aspose.HTML per .NET con esempi pratici passo passo.
 ### [Come abilitare l'Antialiasing in C# – Guida completa allo stile dei caratteri](./how-to-enable-antialiasing-in-c-complete-font-style-guide/)
 Scopri come abilitare l'antialiasing in C# e gestire gli stili dei font per ottenere testi nitidi e di alta qualità.
+### [Crea un'istanza di ImageRenderingOptions per il rendering grafico ad alta qualità](./create-imagerenderingoptions-instance-for-high-quality-graph/)
+Scopri come creare un'istanza di ImageRenderingOptions per ottenere rendering grafico di alta qualità con Aspose.HTML per .NET.
 
 ## Conclusione
 

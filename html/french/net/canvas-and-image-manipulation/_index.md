@@ -49,6 +49,8 @@ Apprenez à activer l'anticrénelage en C# pour obtenir des bords d'images lisse
 Apprenez à ajouter et styliser du texte sur des images en utilisant le canvas avec Aspose.HTML pour .NET.
 ### [Comment activer l'anticrénelage en C# – Guide complet du style de police](./how-to-enable-antialiasing-in-c-complete-font-style-guide/)
 Apprenez à activer l'anticrénelage en C# et à maîtriser les styles de police pour des rendus texte nets avec Aspose.HTML.
+### [Créer une instance d'ImageRenderingOptions pour un rendu graphique haute qualité](./create-imagerenderingoptions-instance-for-high-quality-graph/)
+Apprenez à créer une instance d'ImageRenderingOptions afin d'obtenir un rendu graphique de haute qualité avec Aspose.HTML pour .NET.
 
 ## Conclusion
 

@@ -49,6 +49,7 @@ Aprenda a activar el antialiasing en C# para obtener bordes suaves en sus gráfi
 Aprenda a dibujar texto sobre imágenes usando canvas con Aspose.HTML para .NET, paso a paso y con ejemplos claros.
 ### [Cómo habilitar el antialiasing en C# – Guía completa de estilo de fuente](./how-to-enable-antialiasing-in-c-complete-font-style-guide/)
 Aprenda a habilitar el antialiasing en C# y aplicar estilos de fuente completos para mejorar la calidad visual de sus textos.
+### [Crear instancia de ImageRenderingOptions para renderizado de gráficos de alta calidad](./create-imagerenderingoptions-instance-for-high-quality-graph/)
 
 ## Conclusión
 

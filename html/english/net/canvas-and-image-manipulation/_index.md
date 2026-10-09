@@ -55,6 +55,9 @@ Learn how to enable antialiasing in C# to achieve smooth edges in graphics rende
 ### [how to enable antialiasing in C# – Complete Font‑Style Guide](./how-to-enable-antialiasing-in-c-complete-font-style-guide/)
 Learn how to enable antialiasing in C# and apply comprehensive font‑style settings for smoother text rendering using Aspose.HTML for .NET.
 
+### [Create imagerenderingoptions instance for high‑quality graphics rendering](./create-imagerenderingoptions-instance-for-high-quality-graph/)
+Learn how to create an ImageRenderingOptions instance for high‑quality graphics rendering using Aspose.HTML for .NET.
+
 ## Conclusion
 
 In the world of web development, canvas and image manipulation are skills that can set your projects apart. With Aspose.HTML for .NET, you have a powerful ally to create visually stunning and interactive content. Dive into our tutorials, unlock the potential of canvas and image editing, and watch as your web projects come to life. Embrace the art of image manipulation with Aspose.HTML for .NET and leave a lasting impression on your audience.
