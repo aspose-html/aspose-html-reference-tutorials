@@ -64,10 +64,10 @@ url: /ar/java/editing-html-documents/
 ### [مجموعة مؤشرات ثابتة Java – تنظيف HTML متوازي باستخدام ExecutorService](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 ### [إضافة عنصر فرعي إلى الجسم في Java – دليل Aspose.HTML الكامل](./append-child-to-body-in-java-full-aspose-html-tutorial/)
 ### [كيفية إلحاق عنصر فرعي في DOM Java – دليل Aspose.HTML الكامل](./how-to-append-child-in-java-dom-complete-aspose-html-guide/)
-### [كيفية تمييز HTML – البحث عن نص واستبداله بـ <mark>](./how-to-highlight-html-search-text-replace-with-mark/)
-تعلم كيفية البحث عن نص داخل مستند HTML واستبداله بعلامة <mark> لتسليط الضوء عليه باستخدام Aspose.HTML for Java.
+### [كيفية تمييز HTML – البحث عن نص واستبداله بـ `<mark>`](./how-to-highlight-html-search-text-replace-with-mark/)
+تعلم كيفية البحث عن نص داخل مستند HTML واستبداله بعلامة `<mark>` لتسليط الضوء عليه باستخدام Aspose.HTML for Java.
 ### [كيفية إزالة السكريبتات من HTML في Java – دليل شامل](./how-to-remove-scripts-from-html-in-java-complete-guide/)
-تعلم كيفية حذف جميع عناصر <script> من مستندات HTML باستخدام Aspose.HTML for Java خطوة بخطوة.
+تعلم كيفية حذف جميع عناصر `<script>` من مستندات HTML باستخدام Aspose.HTML for Java خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
