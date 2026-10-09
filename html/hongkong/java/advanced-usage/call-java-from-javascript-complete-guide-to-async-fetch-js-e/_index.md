@@ -1,60 +1,100 @@
 ---
 category: general
-date: 2026-03-04
-description: 使用 Aspose.HTML 從 JavaScript 呼叫 Java，執行非同步 JavaScript，並在 Java 中抓取 JSON，示範簡單範例。學習高效執行
-  JavaScript 引擎。
-draft: false
+date: 2026-10-09
+description: 學習如何使用 Aspose.HTML 從 JavaScript 呼叫 Java，執行非同步 JavaScript，並在 Java 中取得
+  JSON，提供完整範例與實用技巧。
 keywords:
-- call java from javascript
-- run async javascript
-- fetch json in java
-- asynchronous fetch api
-- execute javascript engine
-language: zh-hant
-og_description: 使用 Aspose.HTML 從 JavaScript 呼叫 Java，執行非同步 JavaScript，並在 Java 中取得 JSON。完整程式碼、說明與技巧皆已提供。
-og_title: 從 JavaScript 呼叫 Java – 逐步非同步 Fetch 教學
+- how to call java from javascript
+- async fetch api java
+- asynchronous javascript fetch example
+- call java method from javascript
+lastmod: 2026-10-09
+og_description: 學習如何使用 Aspose.HTML 從 JavaScript 呼叫 Java，使用 fetch API 執行非同步 JavaScript，並在
+  Java 中處理 JSON 回呼。提供完整範例與除錯技巧。
+og_image_alt: Diagram showing Java invoking JavaScript, async fetch returning JSON,
+  and Java callback handling
+og_title: 如何從 JavaScript 呼叫 Java、使用非同步 fetch 與 JS 引擎
+schemas:
+- author: Aspose
+  dateModified: '2026-10-09'
+  description: Learn how to call Java from JavaScript using Aspose.HTML, run async
+    JavaScript, and fetch JSON in Java with a complete example and practical tips.
+  headline: ''
+  type: TechArticle
+- description: Learn how to call Java from JavaScript using Aspose.HTML, run async
+    JavaScript, and fetch JSON in Java with a complete example and practical tips.
+  name: ''
+  steps:
+  - name: The **asynchronous fetch API** successfully retrieved data.
+    text: The **asynchronous fetch API** successfully retrieved data.
+  - name: The JSON was serialized and handed over to Java.
+    text: The JSON was serialized and handed over to Java.
+  - name: Our **execute javascript engine** call completed without deadlocks.
+    text: Our **execute javascript engine** call completed without deadlocks.
+  type: HowTo
+- questions:
+  - answer: Yes. Any engine that supports host objects (e.g., Nashorn, GraalVM) can
+      work, but Aspose.HTML provides a full browser‑like environment with built‑in
+      `fetch`.
+    question: Can I use this approach with other JavaScript engines?
+  - answer: Serialize the object to JSON on the Java side and let JavaScript parse
+      it, or expose multiple simple methods on the host object to pass individual
+      fields.
+    question: What if I need to return a complex Java object instead of a string?
+  - answer: Aspose.HTML follows the WHATWG Fetch Standard, handling redirects, CORS,
+      and streaming exactly as modern browsers do.
+    question: Is the `fetch` implementation fully standards‑compliant?
+  - answer: No. The `execute` call returns immediately; the internal engine processes
+      the promise asynchronously. The main thread stays alive until the script finishes
+      or you shut down the engine.
+    question: Does this block the Java thread while waiting for the network?
+  - answer: Use the `JavaScriptEngine.setDebugMode(true)` method to output console
+      messages to the Java logger.
+    question: How can I debug the JavaScript code inside the engine?
+  type: FAQPage
 tags:
-- Java
-- JavaScript
-- Aspose.HTML
-- Async Programming
-title: 從 JavaScript 呼叫 Java – 完整指南：非同步 Fetch 與 JS 引擎執行
-url: /zh-hant/java/advanced-usage/call-java-from-javascript-complete-guide-to-async-fetch-js-e/
+- java
+- javascript
+- aspose.html
+- async programming
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 從 JavaScript 呼叫 Java – 完整教學與非同步 Fetch API
+# 如何從 JavaScript async fetch 與 JS 引擎呼叫 Java
 
-有沒有想過如何 **在不離開 Java 應用程式的情況下呼叫 Java from JavaScript**？也許你正在建構一個伺服器端的 HTML 渲染器，或是需要將某些 Java 邏輯暴露給文件內執行的腳本。好消息是 Aspose.HTML 讓這件事變得非常簡單。在本指南中，我們不僅會示範如何在 Java 支援的文件中 *執行非同步 JavaScript*，還會說明如何使用現代 **非同步 fetch API** 在 Java 中 **取得 JSON**，最後安全地 **執行 JavaScript 引擎** 呼叫。
+在本教學中，您將學習如何使用 Aspose.HTML 從 JavaScript 呼叫 Java，使用現代的 **fetch API** 執行非同步 JavaScript，並將 JSON 資料取回至 Java。此範例完全在 Java 支援的 HTML 文件內執行——不需要外部 Web 伺服器或額外函式庫。完成後，您將擁有一段可直接執行的程式碼，展示 Java 與 JavaScript 之間的乾淨橋接，適用於伺服器端渲染或自訂腳本情境。
 
-簡而言之，你將得到一個完整、可執行的範例，從公開端點取得 JSON 資料，將其交給 Java 主機物件，並在主控台印出結果。無需外部 Web 伺服器、無需額外函式庫——只要純 Java 加上 Aspose.HTML。
+## 快速解答
+- **本教學教什麼？** 從 JavaScript 呼叫 Java、使用 async fetch，以及在 Java 中處理 JSON 回呼。  
+- **需要哪個函式庫？** Aspose.HTML for Java（版本 23.7 或更新）。  
+- **需要 Web 伺服器嗎？** 不需要，所有操作皆在 Java 程序本機執行。  
+- **fetch API 是否受支援？** 支援，Aspose.HTML 實作 WHATWG Fetch 標準。  
+- **可以重複使用 host 物件嗎？** 當然可以——您可以公開任何需要的 Java 方法。
 
-## 你將學會
+## 如何使用 Aspose.HTML 從 JavaScript 呼叫 Java？
 
-- 如何使用 Aspose.HTML 建立空的 HTML 文件。
-- 如何從 Java 取得並 **執行 JavaScript 引擎**。
-- 如何註冊一個 Java 主機物件讓 JavaScript 能呼叫回來。
-- 如何撰寫使用 **非同步 fetch API** 的 **非同步 JavaScript** 函式。
-- 如何在 Java 端以乾淨的回呼處理取得的資料。
-- 預期輸出與除錯技巧。
+載入您的 HTML 文件，公開一個 Java host 物件，編寫使用 `fetch` 的 `async` 函式，然後執行腳本。引擎會解析 Promise，呼叫 Java 回呼，並返回 JSON 結果——全部過程不會阻塞主執行緒。此方式讓 Java 端保持回應性，同時 JavaScript 進行網路 I/O，且行為與瀏覽器環境相同。
 
-### 前置條件
+## Java 中的 async fetch API 是什麼？
 
-- Java 17 或更新版本（程式碼在 JDK 11 亦可編譯）。
-- Aspose.HTML for Java 23.7（或撰寫時的最新版本）。
-- 基本的 Java 與 JavaScript Promise 概念。
-- 需要網路連線以執行 `jsonplaceholder` 示範請求。
+非同步 fetch API 是一種相容於瀏覽器的方式，會回傳 `Promise`。使用 `await` 可讓您以同步程式碼的寫法撰寫非同步程式，提升可讀性與錯誤處理。在 Aspose.HTML 中，fetch 的實作遵循完整的 WHATWG 規範，因而支援重新導向、CORS、串流回應以及正確的錯誤傳遞，與現代瀏覽器相同。
 
-如果上述任一項你不熟悉，也別擔心——每一步都以淺顯的英文說明，並會說明背後的原因。
+## 為什麼使用 Aspose.HTML 的 JavaScript 引擎？
 
----
+Aspose.HTML 支援 **60 多種輸入與輸出格式**，且可在不將整個檔案載入記憶體的情況下處理高達 **500 MB** 的文件。內建的 `JavaScriptEngine` 完全遵循 WHATWG Fetch 標準，提供可靠的網路處理、重新導向與 CORS 支援。
+
+## 前置條件
+- 已在機器上安裝並設定 Java 17（或 Java 11）。  
+- 在 classpath 中加入 Aspose.HTML for Java 23.7（或最新版本）。  
+- 需要網際網路連線以存取示範 JSON 端點。  
+- 具備 Java 方法與 JavaScript Promise 的基本概念。
 
 ## 步驟 1 – 建立空的 HTML 文件並取得其 JavaScript 引擎
 
-我們首先需要一個空白文件，提供一個受限的 JavaScript 環境。Aspose.HTML 的 `Document` 類別正好能做到這點。
+`Document` 類別代表記憶體中的 HTML 文件，並提供一個沙盒式的 JavaScript 引擎。
 
 ```java
 import com.aspose.html.*;
@@ -69,13 +109,11 @@ public class AsyncJsTutorial {
         JavaScriptEngine jsEngine = document.getWindow().getJavaScriptEngine();
 ```
 
-**為什麼這很重要：** `Document` 物件模擬瀏覽器視窗，而其 `JavaScriptEngine` 讓我們能像瀏覽器一樣執行腳本。這是 **call java from javascript** 的基礎——引擎即是橋樑。
+**為何重要：** `Document` 物件模擬瀏覽器視窗，其 `JavaScriptEngine` 讓您如同在瀏覽器中執行腳本。這是 **如何從 JavaScript 呼叫 Java** 的基礎——引擎充當橋樑。
 
----
+## 步驟 2 – 註冊 host 物件，使 JavaScript 能回呼 Java
 
-## 步驟 2 – 註冊主機物件讓 JavaScript 能回呼 Java
-
-Aspose.HTML 允許你將任意 Java 物件暴露給腳本世界。我們會建立一個匿名類別，內含單一 `onResult` 方法，負責印出收到的 JSON。
+`JavaCallback` host 物件公開單一的 `onResult` 方法，用於列印從 JavaScript 接收到的 JSON 資料。
 
 ```java
         // Register a Java host object that the script can invoke
@@ -88,17 +126,15 @@ Aspose.HTML 允許你將任意 Java 物件暴露給腳本世界。我們會建�
 ```
 
 **說明：**  
-- `addHostObject` 將名稱 `javaCallback` 綁定到匿名的 Java 物件。  
-- 在 JavaScript 中，我們會呼叫 `javaCallback.onResult(...)`。  
-- 這正是 **call java from javascript** 的核心——腳本進入 Java 領域，Java 再回應。
+- `addHostObject` 將名稱 `javaCallback` 綁定至匿名的 Java 物件。  
+- 在 JavaScript 中您會呼叫 `javaCallback.onResult(...)`。  
+- 這是 **從 JavaScript 呼叫 Java** 的核心機制——腳本進入 Java 世界，Java 隨之回應。
 
-> **小技巧：** 保持主機物件的方法 `public` 且簡潔；過於複雜的物件會導致序列化問題。
+> **小技巧：** 保持 host 物件的方法為 `public`，且回傳簡單類型（String、int、boolean），以避免序列化開銷。
 
----
+## 步驟 3 – 使用 async fetch API 撰寫非同步 JavaScript 函式
 
-## 步驟 3 – 使用非同步 Fetch API 撰寫非同步 JavaScript 函式
-
-接下來是有趣的部分：一段從遠端端點取得 JSON 的小腳本。我們會使用 `async/await`，這是 **run async JavaScript** 的現代寫法。
+`fetchJson` 函式示範了使用標準 fetch API 的 `async/await`。
 
 ```java
         // Asynchronous script that fetches JSON and passes it to the Java host object
@@ -111,16 +147,14 @@ Aspose.HTML 允許你將任意 Java 物件暴露給腳本世界。我們會建�
             "fetchData();";
 ```
 
-**為什麼選擇 `fetch` 而非舊式 XHR：**  
-- `fetch` 會回傳 `Promise`，讓程式碼更簡潔。  
-- 它原生支援 `await`，因此流程自上而下閱讀——非常適合 **asynchronous fetch api** 示範。  
-- 此 API 前瞻性佳；大多數瀏覽器與引擎（包括 Aspose 的）皆內建支援。
-
----
+**為何選擇 `fetch` 而非舊式 XHR：**  
+- `fetch` 回傳 `Promise`，使程式碼更簡潔。  
+- 它原生支援 `await`，流程自上而下閱讀，完美呈現 **非同步 JavaScript fetch 範例**。  
+- 此 API 前瞻性佳；大多數瀏覽器與引擎（包括 Aspose）皆即時支援。
 
 ## 步驟 4 – 在文件的 JavaScript 引擎中執行腳本
 
-最後，我們把腳本交給引擎。引擎會啟動一個小型事件迴圈，解析 `fetch` 的 Promise，完成後回呼 Java。
+執行腳本會觸發事件迴圈，解析網路請求，並回呼 Java。
 
 ```java
         // Execute the async script
@@ -129,27 +163,25 @@ Aspose.HTML 允許你將任意 Java 物件暴露給腳本世界。我們會建�
 }
 ```
 
-執行 `AsyncJsTutorial` 類別時，你應該會看到類似以下的輸出：
+執行 `AsyncJsTutorial` 類別時，您應該會看到類似以下的輸出：
 
 ```
 Fetched data: {"userId":1,"id":1,"title":"delectus aut autem","completed":false}
 ```
 
-此輸出證實了三件事：
+該輸出證實了三件事：
 
 1. **非同步 fetch API** 成功取得資料。  
-2. JSON 已序列化並交給 Java。  
-3. 我們的 **execute javascript engine** 呼叫在沒有死結的情況下完成。
+2. JSON 已序列化並傳遞給 Java。  
+3. 我們的 **execute javascript engine** 呼叫順利完成，未發生死結。
 
----
+## 步驟 5 – 處理錯誤與邊緣情況（可選增強）
 
-## 步驟 5 – 錯誤處理與邊緣案例（可選加強）
-
-實務程式碼很少每次都能完美執行。以下列出常見的陷阱與防範方式。
+實務程式碼很少能每次都完美執行。以下列出幾個常見陷阱及其防範方式。
 
 ### 5.1 網路失敗
 
-若遠端伺服器宕機，`fetch` 會拋出例外。將呼叫包在 `try/catch` 中：
+若遠端伺服器無法連線，`fetch` 會拋出例外。請將呼叫包在 `try/catch` 區塊中：
 
 ```java
 String asyncScript =
@@ -166,11 +198,11 @@ String asyncScript =
     "fetchData();";
 ```
 
-如此一來，Java 端會收到錯誤訊息而不會卡住。
+如此一來，Java 端會收到錯誤訊息，而不會卡住。
 
 ### 5.2 超時
 
-Aspose 的引擎未提供原生的 `fetch` 超時機制，但你可以在 JavaScript 中自行實作：
+Aspose 的引擎未提供 `fetch` 的原生超時機制，但您可以在 JavaScript 中自行實作：
 
 ```javascript
 const controller = new AbortController();
@@ -180,13 +212,11 @@ const response = await fetch(url, { signal: controller.signal });
 
 ### 5.3 多次呼叫
 
-若需要同時取得多筆資源，只要在 URL 陣列上迴圈或使用 `map` 即可。主機物件可擴充接受識別碼，以便對應回應。
-
----
+若需取得多個資源，只需對 URL 陣列進行迴圈或映射。host 物件可擴充以接受識別碼，讓您對應回應。
 
 ## 完整可執行範例
 
-以下是 **完整原始檔**，直接複製貼上到 IDE 即可。沒有隱藏的相依性，只要在 classpath 加入 Aspose.HTML JAR。
+以下為完整的來源檔案，您可直接複製貼上至 IDE。沒有隱藏的相依性，只需在 classpath 中加入 Aspose.HTML JAR。
 
 ```java
 import com.aspose.html.*;
@@ -231,45 +261,53 @@ public class AsyncJsTutorial {
 Fetched data: {"userId":1,"id":1,"title":"delectus aut autem","completed":false}
 ```
 
-如果看到以 `Error:` 開頭的行，代表發生錯誤——多半是網路暫時中斷。
-
----
+如果您看到以 `Error:` 開頭的錯誤行，表示發生問題——很可能是網路暫時中斷。
 
 ## 視覺概覽
 
-![Diagram illustrating how Java calls JavaScript and receives async fetch results – call java from javascript](/images/java-js-async.png)
+![說明 Java 呼叫 JavaScript 並接收 async fetch 結果的圖示](/images/java-js-async.png)
 
-*圖示說明流程：Java → JavaScriptEngine → async fetch → JavaCallback。*
+*圖示顯示流程：Java → JavaScriptEngine → async fetch → JavaCallback。*
 
----
+## 常見問題
 
-## 常見問答
+**Q: 我可以將此方法與其他 JavaScript 引擎一起使用嗎？**  
+A: 可以。任何支援 host 物件的引擎（例如 Nashorn、GraalVM）皆可使用，但 Aspose.HTML 提供完整的類瀏覽器環境，內建 `fetch`。
 
-**這個方法能套用在其他 JavaScript 引擎嗎？**  
-可以，任何提供主機物件機制的引擎（例如 Nashorn、GraalVM）皆可使用，但 Aspose.HTML 為你提供完整的類瀏覽器環境，且內建 `fetch`。
+**Q: 如果需要返回複雜的 Java 物件而非字串該怎麼辦？**  
+A: 可在 Java 端將物件序列化為 JSON，讓 JavaScript 解析；或在 host 物件上公開多個簡單方法以傳遞各個欄位。
 
-**如果要回傳複雜的 Java 物件而不是字串該怎麼辦？**  
-可以先在 Java 端將物件序列化為 JSON，讓 JavaScript 解析；或是在主機物件上暴露多個方法，分別接收不同欄位。
+**Q: `fetch` 的實作是否完全符合標準？**  
+A: Aspose.HTML 遵循 WHATWG Fetch 標準，處理重新導向、CORS 與串流，與現代瀏覽器相同。
 
-**`fetch` 的實作是否完全符合標準？**  
-Aspose.HTML 依照 WHATWG Fetch 標準實作，支援重新導向、CORS 與串流等功能。
+**Q: 這會在等待網路時阻塞 Java 執行緒嗎？**  
+A: 不會。`execute` 呼叫會立即返回，內部引擎會非同步處理 Promise。主執行緒會持續存活，直到腳本結束或您關閉引擎。
 
-**這會阻塞 Java 執行緒嗎？**  
-不會。`execute` 呼叫會立即返回，內部引擎會非同步處理 Promise。但主執行緒會持續存活，直到腳本結束或你手動關閉引擎。
-
----
+**Q: 如何除錯引擎內的 JavaScript 程式碼？**  
+A: 使用 `JavaScriptEngine.setDebugMode(true)` 方法，將 console 訊息輸出至 Java 日誌。
 
 ## 結論
 
-我們已完整示範如何 **call Java from JavaScript**、**run async JavaScript**，以及使用 **asynchronous fetch API** 在 Java 中 **取得 JSON**。透過建立主機物件、編寫整潔的 `async` 函式，並以 Aspose.HTML 的 **JavaScript engine** 執行，你即可在兩個執行環境之間建立乾淨、非阻塞的橋樑。
+我們已示範一個實務情境，使您能 **從 JavaScript 呼叫 Java**、**執行非同步 JavaScript**，以及使用 **非同步 fetch API** 在 Java 中 **取得 JSON**。透過建立 host 物件、編寫整潔的 `async` 函式，並以 Aspose.HTML 的 **JavaScript engine** 執行，您即可得到兩個執行環境之間的乾淨、非阻塞橋接。
 
-快試試看，改變 URL，或加入更多回呼——你的想像力就是唯一的限制。接下來可以探索：
+隨意更改端點 URL、加入更多回呼，或平行執行多個腳本。您可以探索的下一步包括：
 
-- **Executing JavaScript engine** 同時執行多個腳本。  
-- 使用 **run async javascript** 平行處理大量資料。  
-- 將此模式整合到即時產生動態 HTML 的 Web 服務中。
+- 使用獨立的 `JavaScriptEngine` 實例，同時執行多個腳本。  
+- 利用 async fetch 模式平行處理大型資料集。  
+- 將此橋接整合至伺服器端 HTML 渲染器，在渲染前取得即時資料。
 
-歡迎實驗，若遇到意外問題，別忘了留下評論。祝開發順利！
+祝開發順利！
+
+**最後更新：** 2026-10-09  
+**測試環境：** Aspose.HTML for Java 23.7  
+**作者：** Aspose
+
+## 相關教學
+
+- [從 JavaScript 呼叫 Java 並新增 Host 物件與執行 Javascript](/html/java/advanced-usage/call-java-from-javascript-add-host-object-and-run-javascript/)
+- [在 Java 中執行 Javascript 完整指南](/html/java/advanced-usage/how-to-run-javascript-in-java-complete-guide/)
+- [在 Java 中啟用腳本執行 完整 Aspose Html 指南](/html/java/advanced-usage/enable-script-execution-in-java-complete-aspose-html-guide/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
