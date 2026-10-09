@@ -54,6 +54,8 @@ Sekarang, mari tingkatkan keterampilan Anda ke tingkat berikutnya. Mengedit doku
 ### [Cara Membuat ZIP HTML di C# – Panduan Lengkap Membuat Arsip ZIP](./how-to-zip-html-in-c-complete-guide-to-create-zip-archive/)
 ### [Cara Membuat Dokumen HTML di C# – Panduan Lengkap Menggunakan Penangan Sumber Daya Kustom](./create-html-document-c-complete-guide-with-custom-resource-h/)
 
+### [Membuat HTML dari String di C# – Panduan Langkah demi Langkah](./create-html-from-string-in-c-step-by-step-guide/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

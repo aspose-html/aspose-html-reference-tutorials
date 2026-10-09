@@ -49,6 +49,8 @@ Agora, vamos levar suas habilidades para o próximo nível. Editar documentos HT
 ### [Como compactar HTML em C# – Guia completo para criar arquivo ZIP](./how-to-zip-html-in-c-complete-guide-to-create-zip-archive/)
 ### [Criar documento HTML em C# – Guia completo usando um manipulador de recursos personalizado](./create-html-document-c-complete-guide-with-custom-resource-h/)
 
+### [Criar HTML a partir de string em C# – Guia passo a passo](./create-html-from-string-in-c-step-by-step-guide/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

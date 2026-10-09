@@ -48,6 +48,7 @@ Ora, portiamo le tue competenze al livello successivo. La modifica di documenti 
 ### [Come salvare HTML come ZIP in C# – Guida completa con un gestore di risorse personalizzato](./save-html-as-zip-in-c-complete-guide-with-custom-resource-ha/)
 
 ### [Come comprimere HTML in C# – Guida completa per creare archivio ZIP](./how-to-zip-html-in-c-complete-guide-to-create-zip-archive/)
+### [Creare HTML da stringa in C# – Guida passo‑passo](./create-html-from-string-in-c-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

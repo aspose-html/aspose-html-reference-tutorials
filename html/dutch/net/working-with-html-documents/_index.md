@@ -52,6 +52,8 @@ Leer hoe u HTML-bestanden opslaat als ZIP‑archief in C# met een aangepaste res
 
 Leer hoe u met CSS en C# kopteksten vet maakt in een .NET‑applicatie, stap voor stap met voorbeeldcode.
 
+### [HTML maken vanuit string in C# – Stapsgewijze handleiding](./create-html-from-string-in-c-step-by-step-guide/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

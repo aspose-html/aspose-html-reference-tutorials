@@ -57,6 +57,9 @@ Hướng dẫn chi tiết cách lưu tài liệu HTML bằng Aspose trong C#, ba
 ### [Cách nén HTML trong C# – Hướng dẫn đầy đủ tạo tệp ZIP](./how-to-zip-html-in-c-complete-guide-to-create-zip-archive/)
 
 Hướng dẫn chi tiết cách nén tài liệu HTML thành tệp ZIP bằng C#, bao gồm các bước thực hiện và ví dụ mã.
+### [Tạo HTML từ chuỗi trong C# – Hướng dẫn từng bước](./create-html-from-string-in-c-step-by-step-guide/)
+
+Hướng dẫn chi tiết cách tạo tài liệu HTML từ một chuỗi văn bản trong C# bằng Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

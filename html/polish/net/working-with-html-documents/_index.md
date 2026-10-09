@@ -59,6 +59,10 @@ Dowiedz się, jak zapisać dokument HTML jako archiwum ZIP w C# przy użyciu wł
 
 ### [Jak spakować HTML w C# – Kompletny przewodnik tworzenia archiwum ZIP](./how-to-zip-html-in-c-complete-guide-to-create-zip-archive/)
 
+### [Tworzenie HTML z ciągu znaków w C# – Przewodnik krok po kroku](./create-html-from-string-in-c-step-by-step-guide/)
+
+Dowiedz się, jak w C# wygenerować dokument HTML bezpośrednio z łańcucha znaków, krok po kroku, z praktycznymi przykładami.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

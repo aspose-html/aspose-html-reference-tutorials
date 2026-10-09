@@ -57,6 +57,8 @@ HTML-документы являются основой Интернета, и �
 
 ### [Создание HTML-документа C# – Полное руководство с пользовательским обработчиком ресурсов](./create-html-document-c-complete-guide-with-custom-resource-h/)
 
+### [Создание HTML из строки в C# – Пошаговое руководство](./create-html-from-string-in-c-step-by-step-guide/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

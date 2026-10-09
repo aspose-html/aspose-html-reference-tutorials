@@ -48,6 +48,7 @@ url: /ar/net/working-with-html-documents/
 ### [كيفية ضغط HTML في C# – دليل خطوة بخطوة كامل](./how-to-zip-html-in-c-complete-step-by-step-guide/)
 ### [كيفية حفظ HTML باستخدام Aspose – دليل كامل C#](./how-to-save-html-with-aspose-complete-c-guide/)
 ### [كيفية ضغط HTML في C# – دليل كامل لإنشاء أرشيف ZIP](./how-to-zip-html-in-c-complete-guide-to-create-zip-archive/)
+### [إنشاء HTML من سلسلة في C# – دليل خطوة بخطوة](./create-html-from-string-in-c-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -44,6 +44,7 @@ HTML दस्तावेज़ वेब की रीढ़ हैं, और
 ### [C# में HTML को ज़िप करना – पूर्ण चरण‑दर‑चरण गाइड](./how-to-zip-html-in-c-complete-step-by-step-guide/)
 
 ### [C# में HTML को ZIP के रूप में सहेजना – कस्टम रिसोर्स हैंडलर के साथ पूर्ण गाइड](./save-html-as-zip-in-c-complete-guide-with-custom-resource-ha/)
+### [C# में स्ट्रिंग से HTML बनाना – चरण-दर-चरण गाइड](./create-html-from-string-in-c-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

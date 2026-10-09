@@ -66,6 +66,10 @@ Aprenda a crear archivos ZIP de contenido HTML usando C# con esta guía paso a p
 ### [Crear documento HTML en C# – Guía completa con controlador de recursos personalizado](./create-html-document-c-complete-guide-with-custom-resource-h/)
 Aprenda a crear documentos HTML en C# usando un controlador de recursos personalizado en esta guía completa.
 
+### [Crear HTML a partir de una cadena en C# – Guía paso a paso](./create-html-from-string-in-c-step-by-step-guide/)
+
+Aprenda a generar documentos HTML directamente desde una cadena en C# con este tutorial detallado.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

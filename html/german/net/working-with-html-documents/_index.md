@@ -67,6 +67,8 @@ Erfahren Sie, wie Sie HTML-Dateien in C# zu einer ZIP-Datei komprimieren können
 
 Erfahren Sie, wie Sie HTML-Dateien in C# zu einem ZIP-Archiv komprimieren und speichern.
 
+### [HTML aus Zeichenfolge in C# erstellen – Schritt‑für‑Schritt‑Anleitung](./create-html-from-string-in-c-step-by-step-guide/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

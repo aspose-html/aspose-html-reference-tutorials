@@ -60,6 +60,9 @@ url: /th/net/working-with-html-documents/
 ### [วิธีสร้างเอกสาร HTML ใน C# – คู่มือฉบับสมบูรณ์ด้วย Custom Resource Handler](./create-html-document-c-complete-guide-with-custom-resource-h/)
 เรียนรู้วิธีสร้างเอกสาร HTML ด้วย C# อย่างละเอียด พร้อมการใช้ Custom Resource Handler เพื่อจัดการทรัพยากร
 
+### [สร้าง HTML จากสตริงใน C# – คู่มือขั้นตอนเต็ม](./create-html-from-string-in-c-step-by-step-guide/)
+เรียนรู้วิธีสร้าง HTML จากสตริงใน C# อย่างละเอียด ด้วยขั้นตอนที่ชัดเจนและตัวอย่างโค้ด
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -52,6 +52,8 @@ C# kullanarak HTML dosyalarını özel kaynak işleyicileri ve ZIP arşivleriyle
 
 ### [C#'ta HTML Belgesi Oluşturma – Özel Kaynak İşleyicisi Kullanarak Tam Kılavuz](./create-html-document-c-complete-guide-with-custom-resource-h/)
 
+### [C#'ta Dizeden HTML Oluşturma – Adım Adım Kılavuz](./create-html-from-string-in-c-step-by-step-guide/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

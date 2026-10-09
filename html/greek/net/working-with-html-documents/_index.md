@@ -63,6 +63,10 @@ url: /el/net/working-with-html-documents/
 
 ### [Πώς να συμπιέσετε HTML σε C# – Πλήρης οδηγός δημιουργίας αρχείου ZIP](./how-to-zip-html-in-c-complete-guide-to-create-zip-archive/)
 
+### [Δημιουργία HTML από συμβολοσειρά σε C# – Οδηγός βήμα‑βήμα](./create-html-from-string-in-c-step-by-step-guide/)
+
+Μάθετε πώς να δημιουργήσετε HTML από συμβολοσειρά σε C# με οδηγίες βήμα‑βήμα.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
