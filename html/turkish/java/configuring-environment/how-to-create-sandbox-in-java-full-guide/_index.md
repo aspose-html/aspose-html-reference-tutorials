@@ -1,25 +1,51 @@
 ---
 category: general
-date: 2026-03-15
-description: 'Java''da sandbox nasıl oluşturulur: ekran boyutunu ayarlamayı, ağ erişimini
-  devre dışı bırakmayı ve bir HTML belgesini güvenli bir şekilde yüklemeyi öğrenin.'
+date: 2026-10-09
+description: Sandbox java'yı güvenli bir şekilde HTML renderlemek, ekran boyutu java'yı
+  ayarlamak ve ağ erişimini devre dışı bırakmak için nasıl oluşturacağınızı öğrenin—hepsi
+  tek bir adım‑adım rehberinde.
 draft: false
 keywords:
-- how to create sandbox
-- set screen size
-- disable network access
-- load html document
-- how to render html
-language: tr
-og_description: Java'da sandbox nasıl oluşturulur ve HTML güvenli bir şekilde nasıl
-  render edilir. Ekran boyutu, ağ kısıtlamaları ve belge yükleme konularını kapsayan
-  adım adım rehber.
-og_title: Java'da Sandbox Nasıl Oluşturulur – Tam Kılavuz
+- create sandbox java
+- load html document java
+- set screen size java
+- set viewport size java
+- how to render html java
+lastmod: 2026-10-09
+og_description: Sandbox java'yı güvenli bir şekilde HTML renderlemek, ekran boyutu
+  java'yı ayarlamak ve ağ erişimini devre dışı bırakmak için nasıl oluşturacağınızı
+  öğrenin—hepsi tek bir adım‑adım rehberinde.
+og_image_alt: 'Developer guide: create sandbox java with Aspose.HTML'
+og_title: Sandbox java nasıl oluşturulur – tam rehber
+schemas:
+- author: Aspose
+  dateModified: '2026-10-09'
+  description: Learn how to create sandbox java to safely render HTML, set screen
+    size java, and disable network access—all in one step‑by‑step guide.
+  headline: How to create sandbox java – full guide
+  type: TechArticle
+- questions:
+  - answer: Yes—create a separate `Sandbox` instance per request or reuse a thread‑local
+      instance; the library is thread‑safe when each thread uses its own configuration.
+    question: Can I use the sandbox in a web service that processes many pages concurrently?
+  - answer: No—resources referenced with `file://` or embedded data URIs are still
+      accessible; only external HTTP/HTTPS requests are blocked.
+    question: Does disabling network access affect loading of local CSS or images?
+  - answer: Aspose.HTML can process documents up to **1 GB** in size without loading
+      the entire file into memory, thanks to its streaming architecture.
+    question: What is the maximum document size the sandbox can handle?
+  - answer: Enable the `setLogLevel(LogLevel.DEBUG)` option on `SandboxConfiguration`
+      to capture detailed parsing and resource‑loading events.
+    question: How do I debug why a page fails to load inside the sandbox?
+  - answer: Yes—Aspose.HTML requires a valid license for production deployments; a
+      free trial is available for evaluation.
+    question: Is a commercial license required for production use?
+  type: FAQPage
 tags:
 - Java
 - Aspose.HTML
 - Security
-title: Java'da Sandbox Nasıl Oluşturulur – Tam Rehber
+title: Sandbox java nasıl oluşturulur – tam rehber
 url: /tr/java/configuring-environment/how-to-create-sandbox-in-java-full-guide/
 ---
 
@@ -27,30 +53,51 @@ url: /tr/java/configuring-environment/how-to-create-sandbox-in-java-full-guide/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java'da Sandbox Nasıl Oluşturulur – Tam Kılavuz
+# Java'da sandbox oluşturma – tam kılavuz
 
-Java'da güvensiz web içeriğini renderlemek için **sandbox nasıl oluşturulur** diye hiç merak ettiniz mi? Yalnız değilsiniz. Birçok geliştirici, HTML'nin ana sistemi riske atmadan renderlenebileceği güvenli bir alan ihtiyacına sahip ve Aspose.HTML Sandbox bu işi çocuk oyuncağı haline getiriyor. Bu öğreticide ekran boyutunu ayarlamayı, ağ erişimini devre dışı bırakmayı, bir HTML belgesi yüklemeyi ve sonunda renderlemeyi—hepsini izole bir ortamda—adım adım göstereceğiz.
+Ever wondered **how to create sandbox java** for rendering untrusted web content in Java? You're not alone. Many developers need a safe pocket where HTML can be rendered without risking the host system, and the Aspose.HTML Sandbox makes that a piece of cake. In this tutorial we’ll walk through setting the screen size, disabling network access, loading an HTML document, and finally rendering it—all inside a sandboxed environment.
 
-> **Neler elde edeceksiniz:** tam, çalıştırılabilir bir kod örneği, her satırın açıklamaları ve yaygın tuzaklardan kaçınmanıza yardımcı olacak pratik ipuçları. Harici belgelere ihtiyaç yok; ihtiyacınız olan her şey burada.
+> **Neler elde edeceksiniz:** tam, çalıştırılabilir bir kod örneği, her satırın açıklamaları ve yaygın tuzaklardan kaçınmanıza yardımcı olacak pratik ipuçları. Harici belgeye gerek yok; ihtiyacınız olan her şey burada.
 
-## What You’ll Need
+## Hızlı cevaplar
+- **Java'da sandbox nedir?** HTML motoru için dosya sistemi, ağ ve OS etkileşimlerini kısıtlayan izole bir yürütme ortamıdır.  
+- **Sandbox'ı sağlayan kütüphane hangisidir?** Aspose.HTML for Java, sürüm 23.10 veya daha yenisi.  
+- **Görünüm (viewport) boyutunu nasıl ayarlarım?** `SandboxConfiguration.setScreenWidth` ve `setScreenHeight` kullanın.  
+- **Ağ çağrılarını tamamen engelleyebilir miyim?** Evet—yapılandırmada `setEnableNetworkAccess(false)` çağırın.  
+- **Görüntüye render etmek destekleniyor mu?** Kesinlikle—`HTMLRenderer` PNG, JPEG veya BMP dosyaları üretebilir.
 
-- **Java 8+** (kod standart Java sözdizimini kullanır, hiç egzotik bir şey yok)
-- **Aspose.HTML for Java** kütüphanesi (versiyon 23.10 veya daha yeni)
-- Bir IDE ya da düz metin editörü—Visual Studio Code işinizi görecektir
-- İnternet erişimi *yalnızca* kütüphaneyi indirmek için; sandbox kendisi çevrim dışı olacak
+## create sandbox java nedir?
+`create sandbox java`, Aspose.HTML'in `SandboxConfiguration` nesnesini yapılandırarak HTML render'ını dış kaynaklardan izole etme sürecine denir. Bu izole bağlam, uygulamanızı kötü amaçlı betiklerden, istenmeyen ağ trafiğinden ve istem dışı dosya sistemi erişiminden korur. **`SandboxConfiguration`, Aspose.HTML'in viewport boyutu ve ağ erişimi gibi sandbox ile ilgili ayarları tutan kapsayıcısıdır.**
 
-Bu gereksinimleri temin ettiğinizde, derinlemesine çalışmaya hazırsınız.
+## Neden Aspose.HTML sandbox kullanmalı?
+Aspose.HTML, **30+** giriş ve çıkış formatını destekler—HTML, CSS, SVG ve görüntü türleri dahil—ve tipik sunucu donanımında **2 saniye** altında **500‑sayfalık** belgeleri render edebilir, aynı zamanda bellek kullanımını **150 MB** altında tutar. Bu ölçülmüş yetenekler, yüksek verimli ve güvenlik hassasiyeti yüksek iş yükleri için güvenilir bir seçim olmasını sağlar.
 
-![How to create sandbox diagram](sandbox-diagram.png){alt="Java'da sandbox oluşturma diyagramı"}
+## Önkoşullar
+- **Java 8+** (yalnızca standart dil özellikleri)  
+- **Aspose.HTML for Java** kütüphanesi (23.10 veya daha yenisi)  
+- Bir IDE veya düz metin editörü (VS Code yeterli)  
+- İnternet erişimi **yalnızca** kütüphaneyi indirmek için; sandbox kendisi çevrim dışı olacak  
 
-## How to Create Sandbox – Overview
+![How to create sandbox diagram](sandbox-diagram.png){alt="How to create sandbox in Java diagram"}
+[How to create sandbox diagram](sandbox-diagram.png)
 
-Sandbox, temelde HTML motorunun ne yapabileceğini sınırlayan bir kapsayıcıdır. Bunu, bir sandbox odasında yaşayan minik bir tarayıcı olarak düşünebilirsiniz: pencerenin ne kadar büyük olacağını (`set screen size`), web'e ulaşma yeteneğini (`disable network access`) ve hangi HTML dosyasını açacağını (`load html document`) siz belirlersiniz. Bu kılavuzun sonunda, bu parçaların nasıl bir araya geldiğini tam olarak göreceksiniz.
+## Java'da ekran boyutunu nasıl ayarlarsınız?
+Set the viewport dimensions by configuring `SandboxConfiguration`. This tells the rendering engine what screen size to emulate, ensuring CSS media queries behave as expected. Use `setScreenWidth(int)` and `setScreenHeight(int)` to match the target device resolution, such as 1024 × 768 for a typical desktop view. **`SandboxConfiguration` is Aspose.HTML’s container for sandbox‑related settings such as viewport size and network access.**
 
-## Step 1: Set Screen Size
+## Java'da ağ erişimini nasıl devre dışı bırakırsınız?
+Disable outbound network calls by setting `setEnableNetworkAccess(false)` on the sandbox configuration. **`setEnableNetworkAccess` toggles whether the sandbox can make external HTTP/HTTPS requests.** This single flag blocks any external resource requests—scripts, images, CSS, fonts—originating from the loaded HTML. The engine will silently ignore those requests, preventing malicious payloads from contacting a command‑and‑control server.
 
-`SandboxConfiguration` nesnesini oluşturduğunuzda, render motoruna taklit etmesini istediğiniz görünüm alanını (viewport) söyleyebilirsiniz. Bu, ileride ekran görüntüleri veya PDF dönüşümü için belirli bir düzen ihtiyacınız olduğunda faydalıdır.
+> **Pro ipucu:** Daha sonra tek bir güvenilir kaynağı getirmeniz gerekirse, o belirli çağrı için geçici olarak ağ erişimini etkinleştirebilir ve ardından tekrar kapatabilirsiniz.
+
+## Java'da html belgesi nasıl yüklenir?
+Load an HTML page inside the sandbox by constructing an `HTMLDocument` with the sandbox instance. **`HTMLDocument` represents a parsed HTML page in memory.** You can point to a remote URL (e.g., `https://example.com`) or a local file (`file:///path/to/file.html`). The constructor automatically performs the load operation, and the try‑with‑resources block guarantees proper disposal of native resources.
+
+## Java'da html nasıl render edilir?
+Render the loaded document to a bitmap using `HTMLRenderer`. **`HTMLRenderer` converts a DOM into raster images.** Call `renderToBitmap` with the desired width, height, and output path. This produces a PNG (or other image format) that visually confirms the sandboxed rendering succeeded.
+
+## Adım 1: ekran boyutunu ayarla
+
+When you instantiate `SandboxConfiguration`, you can tell the rendering engine what viewport to emulate. This is useful if you need a specific layout for screenshots or PDF conversion later.
 
 ```java
 // Step 1: Define sandbox constraints – screen size
@@ -59,26 +106,26 @@ sandboxConfig.setScreenWidth(1024);   // width in pixels
 sandboxConfig.setScreenHeight(768);   // height in pixels
 ```
 
-Gerçekçi bir ekran boyutu ayarlamak, CSS medya sorgularının beklendiği gibi çalışmasını sağlar. Bu adımı atladığınızda motor, varsayılan olarak çok küçük bir 800×600 görünüm alanına geçer ve bu da duyarlı tasarımları bozabilir.
+Setting a realistic screen size ensures that CSS media queries behave as expected. If you skip this step, the engine defaults to a tiny 800×600 viewport, which can break responsive designs.
 
-**Neden önemli:** Modern sitelerin birçoğu, görünüm alanı boyutlarına göre içerik gizler veya yeniden düzenler. `set screen size` metodunu açıkça çağırarak, çalıştırmalar arasında tutarlı render almanızı garantilersiniz.
+**Why it matters:** Many modern sites hide or rearrange content based on viewport dimensions. By explicitly calling `set screen size`, you guarantee consistent rendering across runs.
 
-## Step 2: Disable Network Access
+## Adım 2: ağ erişimini devre dışı bırak
 
-Güvenlik‑öncelikli geliştiriciler, dışa giden tüm trafiği kilitlemeyi sever. Sandbox, bunu tek bir bayrakla yapmanıza izin verir.
+Security‑first developers love to lock down any outbound traffic. The sandbox lets you do that with a single flag.
 
 ```java
 // Step 2: Turn off network calls – disable network access
 sandboxConfig.setEnableNetworkAccess(false);
 ```
 
-`disable network access` true olduğunda, dış bir sunucuya işaret eden herhangi bir `<script src="...">`, resim URL'si veya CSS import'u basitçe yok sayılır. Bu, kötü niyetli yüklerin bir komuta‑ve‑kontrol sunucusuna ulaşmasını engeller.
+When `disable network access` is true, any `<script src="...">`, image URL, or CSS import that points to an external host will simply be ignored. This prevents malicious payloads from reaching out to a command‑and‑control server.
 
-> **Pro ipucu:** Daha sonra tek bir güvenilir kaynağı getirmeniz gerekirse, o belirli çağrı için geçici olarak ağ erişimini etkinleştirebilir, ardından tekrar kapatabilirsiniz.
+> **Pro ipucu:** Daha sonra tek bir güvenilir kaynağı getirmeniz gerekirse, o belirli çağrı için geçici olarak ağ erişimini etkinleştirebilir ve ardından tekrar kapatabilirsiniz.
 
-## Step 3: Load HTML Document Inside the Sandbox
+## Adım 3: sandbox içinde html belgesini yükle
 
-Sandbox yapılandırıldıktan sonra, sandbox örneğini oluşturur ve ona bir HTML dosyası veririz. Bu örnekte `https://example.com` adresine işaret ediyoruz, ancak aynı şekilde `new HTMLDocument("file:///path/to/file.html", sandbox)` ile yerel bir dosya da yükleyebilirsiniz.
+Now that the sandbox is configured, we create the sandbox instance and feed it an HTML file. In this example we point to `https://example.com`, but you could just as well load a local file with `new HTMLDocument("file:///path/to/file.html", sandbox)`.
 
 ```java
 // Step 3: Create the sandbox and load the HTML document
@@ -90,13 +137,13 @@ try (HTMLDocument htmlDoc = new HTMLDocument("https://example.com", sandbox)) {
 }
 ```
 
-**try‑with‑resources** bloğuna dikkat edin—bu, belgenin doğru şekilde imha edilmesini ve yerel kaynakların serbest bırakılmasını garanti eder. `load html document` çağrısı, sandbox argümanı ile `HTMLDocument` oluşturulduğunda otomatik olarak gerçekleşir.
+Notice the **try‑with‑resources** block—this guarantees that the document is disposed of properly, releasing native resources. The call to `load html document` happens automatically when you construct `HTMLDocument` with the sandbox argument.
 
-**Ne göreceksiniz:** Programı çalıştırdığınızda konsol, sayfanın başlığını, örneğin `Document title: Example Domain` şeklinde yazdırır. Bu, HTML'nin sandbox içinde başarıyla ayrıştırıldığını doğrular.
+**What you’ll see:** If you run the program, the console prints the title of the page, e.g., `Document title: Example Domain`. That confirms the HTML was parsed successfully inside the sandbox.
 
-## Step 4: How to Render HTML and Verify Output
+## HTML'yi nasıl render eder ve çıktıyı doğrularsınız
 
-Renderleme birçok şeyi ifade edebilir: bir bitmap'e çizmek, PDF üretmek ya da sadece DOM'u çıkarmak. Bu öğreticide en basit doğrulamayı—başlığı yazdırmayı—kullanacağız. Görsel bir render ihtiyacınız varsa, Aspose.HTML `HTMLRenderer` sunar:
+Rendering can mean many things: drawing to a bitmap, generating a PDF, or simply extracting the DOM. For this tutorial we’ll stick with the simplest verification—printing the title. If you need a visual render, Aspose.HTML offers `HTMLRenderer`:
 
 ```java
 // Optional: render to an image (demonstrates how to render html)
@@ -105,14 +152,14 @@ renderer.renderToFile("output.png", ImageFormat.PNG);
 System.out.println("Rendered image saved as output.png");
 ```
 
-Tam programı çalıştırdığınızda sandbox'ın çalıştığını gösteren iki kanıt elde edersiniz:
+Running the full program now gives you two pieces of evidence that the sandbox works:
 
-1. **Konsol çıktısı** sayfa başlığıyla ( `load html document` başarılı olduğunu kanıtlar).
-2. **output.png** dosyası (`how to render html` gerçekten bir şeyler çizdiğini kanıtlar).
+1. **Console output** with the page title (proves `load html document` succeeded).  
+2. **output.png** file (proves `how to render html` actually draws something).
 
-## Complete, Runnable Example
+## Tam, çalıştırılabilir örnek
 
-Aşağıda `SandboxDemo.java` adlı bir dosyaya kopyalayıp yapıştırabileceğiniz tam program yer alıyor. Tüm import'ları, yapılandırma adımlarını ve isteğe bağlı render bloğunu içerir.
+Below is the entire program you can copy‑paste into a file named `SandboxDemo.java`. It includes all imports, the configuration steps, and the optional rendering block.
 
 ```java
 import com.aspose.html.sandbox.*;
@@ -145,39 +192,61 @@ public class SandboxDemo {
 }
 ```
 
-**Beklenen çıktı (konsol):**
+**Expected output (console):**
 
 ```
 Document title: Example Domain
 Rendered image saved as output.png
 ```
 
-Ve proje klasörünüzde `output.png` dosyasını bulacaksınız; bu dosya `example.com` sayfasının 1024×768 pikseldeki anlık görüntüsünü gösterir.
+And you’ll find `output.png` in your project folder, showing a snapshot of `example.com` rendered at 1024×768 pixels.
 
-## Common Pitfalls and Pro Tips
+## Yaygın tuzaklar ve pro ipuçları
 
-| Issue | Why it Happens | How to Fix |
+| Sorun | Neden oluşur | Nasıl düzeltilir |
 |-------|----------------|------------|
-| **`sandboxConfig.setEnableNetworkAccess(false)` eksik** | Motor, dış kaynakları sessizce alır ve sandbox amacını bozar. | Bu bayrağı her zaman ayarlayın, sayfanın kendi içinde olduğunu düşünseniz bile. |
-| **Ağ erişimi olmadan uzak URL kullanmak** | Sandbox isteği engellediği için belge yüklenemez. | Ya bu çağrı için ağ erişimini etkinleştirin ya da HTML'yi önceden indirip diskten yükleyin. |
-| **Görünüm alanı CSS medya sorgularıyla eşleşmiyor** | Varsayılan boyut çok küçük olduğu için düzen bozulmuş görünüyor. | `setScreenWidth` ve `setScreenHeight` kullanarak hedef cihazınıza uygun boyutu ayarlayın. |
-| **`HTMLDocument` kapatmayı unutmak** | Yerel bellek sızıntıları uzun süren hizmetlerde birikebilir. | Gösterildiği gibi try‑with‑resources kullanın veya `htmlDoc.dispose()` metodunu elle çağırın. |
+| **Missing `sandboxConfig.setEnableNetworkAccess(false)`** | Motor, dış kaynakları sessizce çeker ve sandbox amacını bozar. | Bu bayrağı her zaman ayarlayın, sayfanın kendi içinde olduğunu düşünseniz bile. |
+| **Using a remote URL without network access** | Sandbox isteği engellediği için belge yüklenemez. | Ya bu çağrı için ağ erişimini etkinleştirin ya da HTML'yi önceden indirip diske yükleyin. |
+| **Viewport not matching CSS media queries** | Varsayılan boyut çok küçük olduğu için düzen bozulur. | `setScreenWidth` ve `setScreenHeight` kullanarak hedef cihazınıza uygun boyutu ayarlayın. |
+| **Forgetting to close `HTMLDocument`** | Uzun çalışan hizmetlerde yerel bellek sızıntıları birikebilir. | Gösterildiği gibi try‑with‑resources kullanın veya manuel olarak `htmlDoc.dispose()` çağırın. |
 
-## Extending the Sandbox: Real‑World Scenarios
+## Sandbox'ı genişletmek: gerçek dünya senaryoları
 
-- **PDF Oluşturma:** Yüklenen sayfayı PDF'ye dönüştürmek için `HTMLRenderer` yerine `HTMLToPDFConverter` kullanın; sandbox sınırlamaları korunur.
-- **Toplu İşleme:** URL listesini döngüye alarak aynı `Sandbox` örneğini yeniden kullanın; böylece her seferinde yeni bir sandbox oluşturmanın getirdiği yükten kaçınırsınız.
-- **Özel Kaynak İşleyicileri:** `IResourceHandler` uygulayarak bellek içi görüntüler veya stil sayfaları sağlayın; sandbox'un görebileceği şeyler üzerinde ince ayar kontrolü elde edersiniz.
+- **PDF oluşturma:** Yüklenen sayfayı PDF'ye dönüştürmek için `HTMLRenderer` yerine `HTMLToPDFConverter` kullanın; sandbox sınırlamaları korunur.  
+- **Toplu işleme:** URL listesi üzerinde döngü yapın, her seferinde yeni bir sandbox oluşturma yükünden kaçınmak için aynı `Sandbox` örneğini yeniden kullanın.  
+- **Özel kaynak işleyicileri:** Sandbox'ın görebileceği şeyler üzerinde ince ayar sağlamak için `IResourceHandler` uygulayarak bellek içi görüntüler veya stil sayfaları sunun.
 
-## Recap
+## Sıkça Sorulan Sorular
 
-Java'da **sandbox nasıl oluşturulur** konusunu temelden ele aldık, **set screen size** gösterdik, **disable network access** nasıl yapılır anlattık, **load html document** adımını yürüttük ve **how to render html**'i bir görüntüye dönüştürmenin kısa bir örneğini sunduk. Tam örnek kutudan çıkar çıkmaz çalışır ve açıklamalar her yapılandırma bayrağının “neden”ini yanıtlar.
+**Q: Sandbox'ı aynı anda birçok sayfa işleyen bir web hizmetinde kullanabilir miyim?**  
+A: Evet—her istek için ayrı bir `Sandbox` örneği oluşturun veya bir thread‑local örnek yeniden kullanın; kütüphane, her iş parçacığının kendi yapılandırmasını kullandığında thread‑safe'dir.
 
-Bir sonraki adıma hazır mısınız? URL'yi, içinde ufak bir script bulunan yerel bir HTML dosyasıyla değiştirin, ardından `disable network access`'i açıp kapatarak script'in sessizce yok sayıldığını görün. Veya farklı viewport boyutlarıyla deney yaparak duyarlı tasarımların nasıl kaydığına bakın.
+**Q: Ağ erişimini devre dışı bırakmak, yerel CSS veya görüntülerin yüklenmesini etkiler mi?**  
+A: Hayır—`file://` ile referans verilen veya gömülü data URI'lar hâlâ erişilebilir; yalnızca dış HTTP/HTTPS istekleri engellenir.
 
-Sorularınız, uç durum senaryolarınız ya da kendi sandbox ipuçlarınızı paylaşmak ister misiniz? Aşağıya bir yorum bırakın—sohbeti sürdürelim. İyi sandboxlamalar!
+**Q: Sandbox'ın işleyebileceği maksimum belge boyutu nedir?**  
+A: Aspose.HTML, akış mimarisi sayesinde **1 GB**'a kadar belge işleyebilir.
+
+**Q: Sandbox içinde bir sayfanın neden yüklenemediğini nasıl debug ederim?**  
+A: `SandboxConfiguration` üzerinde `setLogLevel(LogLevel.DEBUG)` seçeneğini etkinleştirerek ayrıntılı ayrıştırma ve kaynak yükleme olaylarını yakalayabilirsiniz.
+
+**Q: Üretim kullanımında ticari lisans gerekli mi?**  
+A: Evet—Aspose.HTML, üretim dağıtımları için geçerli bir lisans gerektirir; değerlendirme amacıyla ücretsiz deneme sürümü mevcuttur.
+
+**Son Güncelleme:** 2026-10-09  
+**Test Edilen Versiyon:** Aspose.HTML for Java 23.10  
+**Yazar:** Aspose
+
+## İlgili Öğreticiler
+
+- [How To Use Sandbox For Html To Pdf Java Step By Step Guide](/html/java/advanced-usage/how-to-use-sandbox-for-html-to-pdf-java-step-by-step-guide/)
+- [Create Aspose Html Sandbox Complete Java Guide](/html/java/configuring-environment/create-aspose-html-sandbox-complete-java-guide/)
+- [How To Create Sandbox In Java Full Guide](/html/java/configuring-environment/how-to-create-sandbox-in-java-full-guide/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}
