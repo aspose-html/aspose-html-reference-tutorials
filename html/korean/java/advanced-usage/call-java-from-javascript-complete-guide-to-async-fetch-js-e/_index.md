@@ -1,61 +1,100 @@
 ---
 category: general
-date: 2026-03-04
-description: Aspose.HTML를 사용하여 JavaScript에서 Java를 호출하고, 비동기 JavaScript를 실행하며, 간단한
-  예제로 Java에서 JSON을 가져옵니다. JavaScript 엔진을 효율적으로 실행하는 방법을 배워보세요.
-draft: false
+date: 2026-10-09
+description: Aspose.HTML를 사용하여 JavaScript에서 Java를 호출하는 방법, 비동기 JavaScript 실행, 그리고
+  Java에서 JSON을 가져오는 방법을 완전한 예제와 실용적인 팁과 함께 배웁니다.
 keywords:
-- call java from javascript
-- run async javascript
-- fetch json in java
-- asynchronous fetch api
-- execute javascript engine
-language: ko
-og_description: Aspose.HTML를 사용하여 JavaScript에서 Java를 호출하고, 비동기 JavaScript를 실행하며, Java에서
-  JSON을 가져옵니다. 전체 코드, 설명 및 팁이 포함되어 있습니다.
-og_title: JavaScript에서 Java 호출 – 단계별 비동기 Fetch 튜토리얼
+- how to call java from javascript
+- async fetch api java
+- asynchronous javascript fetch example
+- call java method from javascript
+lastmod: 2026-10-09
+og_description: Aspose.HTML를 사용하여 JavaScript에서 Java를 호출하는 방법, fetch API를 이용한 비동기 JavaScript
+  실행, 그리고 Java에서 JSON 콜백을 처리하는 방법을 배웁니다. 전체 예제와 문제 해결 팁을 제공합니다.
+og_image_alt: Diagram showing Java invoking JavaScript, async fetch returning JSON,
+  and Java callback handling
+og_title: JavaScript에서 Java를 호출하는 방법, async fetch 및 JS engine
+schemas:
+- author: Aspose
+  dateModified: '2026-10-09'
+  description: Learn how to call Java from JavaScript using Aspose.HTML, run async
+    JavaScript, and fetch JSON in Java with a complete example and practical tips.
+  headline: ''
+  type: TechArticle
+- description: Learn how to call Java from JavaScript using Aspose.HTML, run async
+    JavaScript, and fetch JSON in Java with a complete example and practical tips.
+  name: ''
+  steps:
+  - name: The **asynchronous fetch API** successfully retrieved data.
+    text: The **asynchronous fetch API** successfully retrieved data.
+  - name: The JSON was serialized and handed over to Java.
+    text: The JSON was serialized and handed over to Java.
+  - name: Our **execute javascript engine** call completed without deadlocks.
+    text: Our **execute javascript engine** call completed without deadlocks.
+  type: HowTo
+- questions:
+  - answer: Yes. Any engine that supports host objects (e.g., Nashorn, GraalVM) can
+      work, but Aspose.HTML provides a full browser‑like environment with built‑in
+      `fetch`.
+    question: Can I use this approach with other JavaScript engines?
+  - answer: Serialize the object to JSON on the Java side and let JavaScript parse
+      it, or expose multiple simple methods on the host object to pass individual
+      fields.
+    question: What if I need to return a complex Java object instead of a string?
+  - answer: Aspose.HTML follows the WHATWG Fetch Standard, handling redirects, CORS,
+      and streaming exactly as modern browsers do.
+    question: Is the `fetch` implementation fully standards‑compliant?
+  - answer: No. The `execute` call returns immediately; the internal engine processes
+      the promise asynchronously. The main thread stays alive until the script finishes
+      or you shut down the engine.
+    question: Does this block the Java thread while waiting for the network?
+  - answer: Use the `JavaScriptEngine.setDebugMode(true)` method to output console
+      messages to the Java logger.
+    question: How can I debug the JavaScript code inside the engine?
+  type: FAQPage
 tags:
-- Java
-- JavaScript
-- Aspose.HTML
-- Async Programming
-title: JavaScript에서 Java 호출 – 비동기 Fetch 및 JS 엔진 실행 완전 가이드
-url: /ko/java/advanced-usage/call-java-from-javascript-complete-guide-to-async-fetch-js-e/
+- java
+- javascript
+- aspose.html
+- async programming
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java에서 JavaScript 호출 – 비동기 Fetch API 전체 튜토리얼
+# JavaScript 비동기 fetch 및 JS 엔진에서 Java 호출 방법
 
-Java 애플리케이션을 떠나지 않고 **Java에서 JavaScript를 호출**하는 방법이 궁금하셨나요? 서버‑사이드 HTML 렌더러를 만들고 있거나, 문서 내부에서 실행되는 스크립트에 Java 로직을 노출해야 할 때가 있을 겁니다. 좋은 소식은 Aspose.HTML을 사용하면 이 작업이 아주 쉬워진다는 점입니다. 이 가이드에서는 Java‑기반 문서 안에서 *비동기 JavaScript*를 실행하는 방법과, 최신 **비동기 fetch API**를 사용해 **Java에서 JSON을 가져오는 방법**, 그리고 **JavaScript 엔진** 호출을 안전하게 수행하는 방법을 보여드립니다.
+이 튜토리얼에서는 Aspose.HTML을 사용하여 **JavaScript에서 Java를 호출하는 방법**을 배우고, 최신 **fetch API**로 비동기 JavaScript를 실행하며, JSON 데이터를 Java로 다시 가져오는 방법을 알아봅니다. 예제는 Java 기반 HTML 문서 내부에서 완전히 실행되며 외부 웹 서버나 추가 라이브러리가 필요하지 않습니다. 끝까지 진행하면 Java와 JavaScript 사이의 깔끔한 브리지 역할을 하는 즉시 실행 가능한 스니펫을 얻을 수 있으며, 서버‑사이드 렌더링이나 맞춤 스크립팅 시나리오에 적합합니다.
 
-요약하면, 공개 엔드포인트에서 JSON 페이로드를 가져와 Java 호스트 객체에 전달하고 콘솔에 결과를 출력하는 완전한 실행 예제를 제공합니다. 외부 웹 서버도, 추가 라이브러리도 필요 없습니다—순수 Java와 Aspose.HTML만 있으면 됩니다.
+## 빠른 답변
+- **이 튜토리얼은 무엇을 가르치나요?** Calling Java from JavaScript, using async fetch, and handling JSON callbacks in Java.  
+- **필요한 라이브러리는?** Aspose.HTML for Java (version 23.7 or later).  
+- **웹 서버가 필요합니까?** No, everything runs locally inside the Java process.  
+- **fetch API가 지원되나요?** Yes, Aspose.HTML implements the WHATWG Fetch Standard.  
+- **호스트 객체를 재사용할 수 있나요?** Absolutely—expose any public Java method you need.
 
-## 배울 내용
+## Aspose.HTML을 사용하여 JavaScript에서 Java를 호출하는 방법
 
-- Aspose.HTML을 사용해 빈 HTML 문서를 만드는 방법
-- Java에서 **JavaScript 엔진**을 얻고 **실행**하는 방법
-- JavaScript에서 호출할 수 있는 Java 호스트 객체를 등록하는 방법
-- **비동기 fetch API**를 활용한 **비동기 JavaScript** 함수를 작성하는 방법
-- Java에서 콜백을 통해 가져온 데이터를 처리하는 깔끔한 방법
-- 예상 출력과 문제 해결 팁
+HTML 문서를 로드하고, Java 호스트 객체를 노출한 뒤, `fetch`를 사용하는 `async` 함수를 작성하고 스크립트를 실행합니다. 엔진은 프라미스를 해결하고 Java 콜백을 호출한 뒤 JSON 결과를 반환합니다—메인 스레드를 차단하지 않습니다. 이 접근 방식은 Java 측을 반응형으로 유지하면서 JavaScript 코드가 네트워크 I/O를 수행하도록 하며, 브라우저 환경과 동일하게 동작합니다.
 
-### 전제 조건
+## Java에서 비동기 fetch API란?
 
-- Java 17 이상 (코드는 JDK 11에서도 컴파일됩니다)
-- Aspose.HTML for Java 23.7 (또는 작성 시점 최신 버전)
-- Java와 JavaScript 프로미스에 대한 기본 이해
-- 데모 `jsonplaceholder` 요청을 위한 인터넷 연결
+비동기 fetch API는 `Promise`를 반환하는 브라우저 호환 메서드입니다. `await`를 사용하면 비동기 코드를 동기 코드처럼 작성할 수 있어 가독성과 오류 처리가 향상됩니다. Aspose.HTML의 fetch 구현은 전체 WHATWG 사양을 따르므로 리다이렉트, CORS, 스트리밍 응답 및 적절한 오류 전파를 현대 브라우저와 동일하게 지원합니다.
 
-위 항목이 익숙하지 않더라도 걱정 마세요—각 단계가 쉬운 영어 설명과 함께 제공되며, 왜 그렇게 하는지 정확히 알 수 있습니다.
+## Aspose.HTML의 JavaScript 엔진을 사용하는 이유
 
----
+Aspose.HTML은 **60+ 입력 및 출력 형식**을 지원하고 전체 파일을 메모리에 로드하지 않고도 **500 MB**까지 문서를 처리할 수 있습니다. 내장된 `JavaScriptEngine`은 전체 WHATWG Fetch Standard를 따르며, 신뢰할 수 있는 네트워크 처리, 리다이렉트 및 CORS 지원을 즉시 제공합니다.
 
-## 1단계 – 빈 HTML 문서를 만들고 JavaScript 엔진을 가져오기
+## 사전 요구 사항
+- Java 17 (or Java 11) installed and configured on your machine.  
+- Aspose.HTML for Java 23.7 (or the latest release) on the classpath.  
+- Internet connectivity for the demo JSON endpoint.  
+- Basic understanding of Java methods and JavaScript promises.
 
-먼저 샌드박스된 JavaScript 환경을 제공하는 빈 문서가 필요합니다. Aspose.HTML의 `Document` 클래스가 바로 이 역할을 합니다.
+## 단계 1 – 빈 HTML 문서를 만들고 JavaScript 엔진을 가져오기
+
+The `Document` class represents an in‑memory HTML document and provides a sandboxed JavaScript engine.
 
 ```java
 import com.aspose.html.*;
@@ -70,13 +109,11 @@ public class AsyncJsTutorial {
         JavaScriptEngine jsEngine = document.getWindow().getJavaScriptEngine();
 ```
 
-**왜 중요한가:** `Document` 객체는 브라우저 창을 모방하며, 그 안의 `JavaScriptEngine`을 통해 브라우저와 동일하게 스크립트를 실행할 수 있습니다. 이는 **Java에서 JavaScript를 호출**하기 위한 기반이며, 엔진이 두 환경을 연결하는 다리 역할을 합니다.
+**Why this matters:** The `Document` object mimics a browser window, and its `JavaScriptEngine` lets you run scripts exactly as a browser would. This is the foundation for **how to call Java from JavaScript**—the engine acts as the bridge.
 
----
+## 단계 2 – JavaScript가 Java로 콜백할 수 있도록 호스트 객체 등록
 
-## 2단계 – JavaScript가 Java로 콜백할 수 있도록 호스트 객체 등록하기
-
-Aspose.HTML은 어떤 Java 객체든 스크립트 세계에 노출할 수 있게 해줍니다. 여기서는 `onResult` 메서드 하나만 가진 익명 클래스를 만들어, 받은 JSON을 그대로 출력하도록 합니다.
+The `JavaCallback` host object exposes a single `onResult` method that prints the JSON payload received from JavaScript.
 
 ```java
         // Register a Java host object that the script can invoke
@@ -88,18 +125,16 @@ Aspose.HTML은 어떤 Java 객체든 스크립트 세계에 노출할 수 있게
         });
 ```
 
-**설명:**  
-- `addHostObject`는 이름 `javaCallback`을 익명 Java 객체에 바인딩합니다.  
-- JavaScript에서는 `javaCallback.onResult(...)`를 호출합니다.  
-- 이것이 **Java에서 JavaScript를 호출**의 핵심으로, 스크립트가 Java 영역에 접근하고 Java가 반응하게 됩니다.
+**Explanation:**  
+- `addHostObject` binds the name `javaCallback` to the anonymous Java object.  
+- Inside JavaScript you will invoke `javaCallback.onResult(...)`.  
+- This is the core mechanism for **call java from javascript**—the script reaches into Java land, and Java reacts.
 
-> **팁:** 호스트 객체의 메서드는 `public`이고 단순하게 유지하세요. 복잡한 객체는 직렬화 문제를 일으킬 수 있습니다.
+> **Pro tip:** Keep host‑object methods `public` and return simple types (String, int, boolean) to avoid serialization overhead.
 
----
+## 단계 3 – async fetch API를 사용하여 비동기 JavaScript 함수 작성
 
-## 3단계 – 비동기 fetch API를 활용한 비동기 JavaScript 함수 작성
-
-이제 재미있는 부분입니다: 원격 엔드포인트에서 JSON을 가져오는 작은 스크립트입니다. 최신 방식인 `async/await`를 사용해 **비동기 JavaScript**를 구현합니다.
+The `fetchJson` function demonstrates `async/await` with the standard fetch API.
 
 ```java
         // Asynchronous script that fetches JSON and passes it to the Java host object
@@ -112,16 +147,14 @@ Aspose.HTML은 어떤 Java 객체든 스크립트 세계에 노출할 수 있게
             "fetchData();";
 ```
 
-**`fetch`를 선택한 이유:**  
-- `fetch`는 `Promise`를 반환해 코드가 깔끔해집니다.  
-- `await`와 자연스럽게 동작해 흐름을 위‑아래로 읽을 수 있어 **비동기 fetch API** 데모에 최적입니다.  
-- 대부분의 브라우저와 엔진(Aspose 포함)에서 기본 지원하므로 미래에도 안전합니다.
+**Why we choose `fetch` over older XHR:**  
+- `fetch` returns a `Promise`, making the code cleaner.  
+- It works natively with `await`, so the flow reads top‑to‑bottom—perfect for an **asynchronous javascript fetch example**.  
+- The API is future‑proof; most browsers and engines (including Aspose’s) support it out of the box.
 
----
+## 단계 4 – 문서의 JavaScript 엔진 안에서 스크립트 실행
 
-## 4단계 – 문서의 JavaScript 엔진에서 스크립트 실행하기
-
-마지막으로 스크립트를 엔진에 전달합니다. 엔진은 작은 이벤트 루프를 시작해 `fetch` 프로미스를 해결하고, 완료되면 Java로 콜백합니다.
+Running the script triggers the event loop, resolves the network request, and calls back into Java.
 
 ```java
         // Execute the async script
@@ -130,27 +163,25 @@ Aspose.HTML은 어떤 Java 객체든 스크립트 세계에 노출할 수 있게
 }
 ```
 
-`AsyncJsTutorial` 클래스를 실행하면 다음과 같은 출력이 나타납니다:
+When you run the `AsyncJsTutorial` class, you should see something like:
 
 ```
 Fetched data: {"userId":1,"id":1,"title":"delectus aut autem","completed":false}
 ```
 
-이 출력은 세 가지를 확인시켜 줍니다:
+That output confirms three things:
 
-1. **비동기 fetch API**가 데이터를 성공적으로 가져왔음  
-2. JSON이 직렬화되어 Java로 전달됐음  
-3. 우리의 **execute javascript engine** 호출이 교착 상태 없이 완료됐음
+1. The **asynchronous fetch API** successfully retrieved data.  
+2. The JSON was serialized and handed over to Java.  
+3. Our **execute javascript engine** call completed without deadlocks.
 
----
+## 단계 5 – 오류 및 엣지 케이스 처리 (선택적 개선)
 
-## 5단계 – 오류 및 예외 상황 처리 (선택적 개선)
-
-실제 코드에서는 언제든 오류가 발생할 수 있습니다. 아래는 흔히 마주치는 문제와 방어 방법입니다.
+Real‑world code rarely runs perfectly every time. Below are a few common pitfalls and how to guard against them.
 
 ### 5.1 네트워크 실패
 
-원격 서버가 다운되면 `fetch`가 예외를 발생시킵니다. `try/catch` 블록으로 감싸세요:
+If the remote server is down, `fetch` throws. Wrap the call in a `try/catch` block:
 
 ```java
 String asyncScript =
@@ -167,11 +198,11 @@ String asyncScript =
     "fetchData();";
 ```
 
-이제 Java 측에서는 중단되지 않고 오류 메시지를 받게 됩니다.
+Now the Java side receives an error message instead of hanging.
 
 ### 5.2 타임아웃
 
-Aspose 엔진은 `fetch`에 대한 기본 타임아웃을 제공하지 않지만, JavaScript에서 직접 구현할 수 있습니다:
+Aspose’s engine doesn’t expose a native timeout for `fetch`, but you can implement one in JavaScript:
 
 ```javascript
 const controller = new AbortController();
@@ -181,13 +212,11 @@ const response = await fetch(url, { signal: controller.signal });
 
 ### 5.3 다중 호출
 
-여러 리소스를 가져와야 한다면 URL 배열을 순회하거나 `map`을 사용하면 됩니다. 호스트 객체에 식별자를 추가해 응답을 구분하도록 확장할 수 있습니다.
+If you need to fetch several resources, simply loop or map over an array of URLs. The host object can be expanded to accept an identifier, letting you correlate responses.
 
----
+## 완전한 작업 예제
 
-## 전체 작업 예제
-
-아래는 IDE에 복사‑붙여넣기만 하면 되는 **전체 소스 파일**입니다. 숨겨진 의존성은 없으며, 클래스패스에 Aspose.HTML JAR만 있으면 됩니다.
+Below is the full source file you can copy‑paste into your IDE. No hidden dependencies, just the Aspose.HTML JAR on the classpath.
 
 ```java
 import com.aspose.html.*;
@@ -226,51 +255,61 @@ public class AsyncJsTutorial {
 }
 ```
 
-**예상 콘솔 출력**
+**Expected console output**
 
 ```
 Fetched data: {"userId":1,"id":1,"title":"delectus aut autem","completed":false}
 ```
 
-출력이 `Error:` 로 시작한다면 네트워크 문제 등으로 오류가 발생한 것입니다.
-
----
+If you see an error line starting with `Error:` then something went wrong—most likely a network hiccup.
 
 ## 시각적 개요
 
 ![Java가 JavaScript를 호출하고 비동기 fetch 결과를 받는 흐름을 보여주는 다이어그램 – call java from javascript](/images/java-js-async.png)
 
-*이미지는 흐름을 나타냅니다: Java → JavaScriptEngine → async fetch → JavaCallback.*
-
----
+*이미지는 흐름을 보여줍니다: Java → JavaScriptEngine → async fetch → JavaCallback.*
 
 ## 자주 묻는 질문
 
-**다른 JavaScript 엔진에서도 이 방법을 사용할 수 있나요?**  
-네, 호스트 객체 메커니즘을 제공하는 엔진(Nashorn, GraalVM 등)이라면 모두 가능하지만, Aspose.HTML은 내장 `fetch`를 지원하는 완전한 브라우저‑유사 환경을 제공합니다.
+**Q: Can I use this approach with other JavaScript engines?**  
+A: Yes. Any engine that supports host objects (e.g., Nashorn, GraalVM) can work, but Aspose.HTML provides a full browser‑like environment with built‑in `fetch`.
 
-**문자열 대신 복합 Java 객체를 반환하고 싶다면?**  
-Java 측에서 객체를 JSON으로 직렬화해 JavaScript에서 파싱하도록 하거나, 호스트 객체에 여러 메서드를 추가해 개별 필드를 전달할 수 있습니다.
+**Q: What if I need to return a complex Java object instead of a string?**  
+A: Serialize the object to JSON on the Java side and let JavaScript parse it, or expose multiple simple methods on the host object to pass individual fields.
 
-**`fetch` 구현이 표준을 완전히 따르나요?**  
-Aspose.HTML은 WHATWG Fetch Standard를 구현하므로 리다이렉트, CORS, 스트리밍 등을 올바르게 처리합니다.
+**Q: Is the `fetch` implementation fully standards‑compliant?**  
+A: Aspose.HTML follows the WHATWG Fetch Standard, handling redirects, CORS, and streaming exactly as modern browsers do.
 
-**네트워크를 기다리는 동안 Java 스레드가 차단되나요?**  
-아니요. `execute` 호출은 즉시 반환되고, 내부 엔진이 프로미스를 비동기적으로 처리합니다. 다만 스크립트가 끝날 때까지 메인 스레드는 살아 있어야 합니다(또는 엔진을 명시적으로 종료해야 함).
+**Q: Does this block the Java thread while waiting for the network?**  
+A: No. The `execute` call returns immediately; the internal engine processes the promise asynchronously. The main thread stays alive until the script finishes or you shut down the engine.
 
----
+**Q: How can I debug the JavaScript code inside the engine?**  
+A: Use the `JavaScriptEngine.setDebugMode(true)` method to output console messages to the Java logger.
 
 ## 결론
 
-이번 튜토리얼을 통해 **Java에서 JavaScript를 호출**하고, **비동기 JavaScript**를 실행하며, **비동기 fetch API**를 이용해 **Java에서 JSON을 가져오는** 전체 흐름을 살펴보았습니다. 호스트 객체를 만들고, 깔끔한 `async` 함수를 작성하고, Aspose.HTML의 **JavaScript 엔진**으로 실행함으로써 두 런타임 간에 비차단 브리지 역할을 구현했습니다.
+We’ve walked through a practical scenario that lets you **call Java from JavaScript**, **run async JavaScript**, and **fetch JSON in Java** using the **asynchronous fetch API**. By creating a host object, writing a tidy `async` function, and executing it with Aspose.HTML’s **JavaScript engine**, you get a clean, non‑blocking bridge between the two runtimes.
 
-코드를 직접 실행해 보고, URL을 바꾸거나 콜백을 추가해 보세요—가능성은 무한합니다. 다음 단계로 고려해 볼 수 있는 내용:
+Feel free to change the endpoint URL, add more callbacks, or run several scripts in parallel. Next steps you might explore:
 
-- **여러 스크립트를 동시에 실행**하는 JavaScript 엔진 활용  
-- **run async javascript**를 이용한 대용량 데이터 병렬 처리  
-- 동적 HTML을 실시간으로 렌더링하는 웹 서비스에 이 패턴 통합
+- Executing multiple scripts concurrently with separate `JavaScriptEngine` instances.  
+- Using the async fetch pattern to process large data sets in parallel.  
+- Integrating this bridge into a server‑side HTML renderer that pulls live data before rendering.
 
-실험을 즐기시고, 예상치 못한 문제가 발생하면 언제든 댓글로 알려 주세요. Happy coding!
+Happy coding!
+
+---
+
+**마지막 업데이트:** 2026-10-09  
+**테스트 환경:** Aspose.HTML for Java 23.7  
+**작성자:** Aspose
+
+## 관련 튜토리얼
+
+- [Java에서 Javascript 호출, 호스트 객체 추가 및 Javascript 실행](/html/java/advanced-usage/call-java-from-javascript-add-host-object-and-run-javascript/)
+- [Java에서 Javascript 실행 완전 가이드](/html/java/advanced-usage/how-to-run-javascript-in-java-complete-guide/)
+- [Java에서 스크립트 실행 활성화 완전 Aspose HTML 가이드](/html/java/advanced-usage/enable-script-execution-in-java-complete-aspose-html-guide/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

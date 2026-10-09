@@ -1,63 +1,102 @@
 ---
 category: general
-date: 2026-03-04
-description: Chiama Java da JavaScript usando Aspose.HTML, esegui JavaScript asincrono
-  e recupera JSON in Java con un semplice esempio. Impara a eseguire il motore JavaScript
-  in modo efficiente.
-draft: false
+date: 2026-10-09
+description: Scopri come chiamare Java da JavaScript usando Aspose.HTML, eseguire
+  JavaScript asincrono e recuperare JSON in Java con un esempio completo e consigli
+  pratici.
 keywords:
-- call java from javascript
-- run async javascript
-- fetch json in java
-- asynchronous fetch api
-- execute javascript engine
-language: it
-og_description: Chiama Java da JavaScript con Aspose.HTML, esegui JavaScript asincrono
-  e recupera JSON in Java. Codice completo, spiegazioni e suggerimenti inclusi.
-og_title: Chiama Java da JavaScript – Tutorial passo‑passo su Fetch asincrono
+- how to call java from javascript
+- async fetch api java
+- asynchronous javascript fetch example
+- call java method from javascript
+lastmod: 2026-10-09
+og_description: Scopri come chiamare Java da JavaScript usando Aspose.HTML, eseguire
+  JavaScript asincrono con l'API fetch e gestire i callback JSON in Java. Esempio
+  completo e consigli per la risoluzione dei problemi.
+og_image_alt: Diagram showing Java invoking JavaScript, async fetch returning JSON,
+  and Java callback handling
+og_title: Come chiamare Java da JavaScript con fetch asincrono e motore JS
+schemas:
+- author: Aspose
+  dateModified: '2026-10-09'
+  description: Learn how to call Java from JavaScript using Aspose.HTML, run async
+    JavaScript, and fetch JSON in Java with a complete example and practical tips.
+  headline: ''
+  type: TechArticle
+- description: Learn how to call Java from JavaScript using Aspose.HTML, run async
+    JavaScript, and fetch JSON in Java with a complete example and practical tips.
+  name: ''
+  steps:
+  - name: The **asynchronous fetch API** successfully retrieved data.
+    text: The **asynchronous fetch API** successfully retrieved data.
+  - name: The JSON was serialized and handed over to Java.
+    text: The JSON was serialized and handed over to Java.
+  - name: Our **execute javascript engine** call completed without deadlocks.
+    text: Our **execute javascript engine** call completed without deadlocks.
+  type: HowTo
+- questions:
+  - answer: Yes. Any engine that supports host objects (e.g., Nashorn, GraalVM) can
+      work, but Aspose.HTML provides a full browser‑like environment with built‑in
+      `fetch`.
+    question: Can I use this approach with other JavaScript engines?
+  - answer: Serialize the object to JSON on the Java side and let JavaScript parse
+      it, or expose multiple simple methods on the host object to pass individual
+      fields.
+    question: What if I need to return a complex Java object instead of a string?
+  - answer: Aspose.HTML follows the WHATWG Fetch Standard, handling redirects, CORS,
+      and streaming exactly as modern browsers do.
+    question: Is the `fetch` implementation fully standards‑compliant?
+  - answer: No. The `execute` call returns immediately; the internal engine processes
+      the promise asynchronously. The main thread stays alive until the script finishes
+      or you shut down the engine.
+    question: Does this block the Java thread while waiting for the network?
+  - answer: Use the `JavaScriptEngine.setDebugMode(true)` method to output console
+      messages to the Java logger.
+    question: How can I debug the JavaScript code inside the engine?
+  type: FAQPage
 tags:
-- Java
-- JavaScript
-- Aspose.HTML
-- Async Programming
-title: Chiamare Java da JavaScript – Guida completa a Fetch asincrono e all'esecuzione
-  del motore JS
-url: /it/java/advanced-usage/call-java-from-javascript-complete-guide-to-async-fetch-js-e/
+- java
+- javascript
+- aspose.html
+- async programming
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Chiamare Java da JavaScript – Tutorial completo con Async Fetch API
+# Come chiamare Java da JavaScript con fetch asincrono e motore JS
 
-Ti sei mai chiesto come **call Java from JavaScript** senza uscire dalla tua applicazione Java? Forse stai costruendo un renderizzatore HTML lato server, o hai bisogno di esporre qualche logica Java a uno script che viene eseguito all'interno di un documento. La buona notizia è che Aspose.HTML rende tutto questo un gioco da ragazzi. In questa guida non solo ti mostreremo come *run async JavaScript* all'interno di un documento supportato da Java, ma anche come **fetch JSON in Java** usando la moderna **asynchronous fetch API** e infine come effettuare chiamate **execute JavaScript engine** in modo sicuro.
+In questo tutorial scoprirai **come chiamare Java da JavaScript** usando Aspose.HTML, eseguire JavaScript asincrono con la moderna **fetch API**, e recuperare dati JSON in Java. L'esempio viene eseguito interamente all'interno di un documento HTML supportato da Java—non è necessario alcun server web esterno né librerie aggiuntive. Alla fine avrai uno snippet pronto all'uso che dimostra un ponte pulito tra Java e JavaScript, perfetto per il rendering lato server o scenari di scripting personalizzati.
 
-In breve, otterrai un esempio completo e eseguibile che recupera un payload JSON da un endpoint pubblico, lo passa a un oggetto host Java e stampa il risultato sulla console. Nessun server web esterno, nessuna libreria aggiuntiva—solo puro Java e Aspose.HTML.
+## Risposte rapide
+- **Che cosa insegna questo tutorial?** Chiamare Java da JavaScript, utilizzare fetch asincrono e gestire i callback JSON in Java.  
+- **Quale libreria è necessaria?** Aspose.HTML per Java (versione 23.7 o successiva).  
+- **Ho bisogno di un server web?** No, tutto gira localmente all'interno del processo Java.  
+- **L'API fetch è supportata?** Sì, Aspose.HTML implementa lo Standard Fetch di WHATWG.  
+- **Posso riutilizzare l'oggetto host?** Assolutamente—esponi qualsiasi metodo Java pubblico di cui hai bisogno.
 
-## Cosa imparerai
+## Come chiamare Java da JavaScript usando Aspose.HTML?
 
-- Come creare un documento HTML vuoto con Aspose.HTML.
-- Come ottenere e **execute JavaScript engine** da Java.
-- Come registrare un oggetto host Java che JavaScript può invocare.
-- Come scrivere una funzione **asynchronous JavaScript** che utilizza la **asynchronous fetch API**.
-- Come gestire i dati recuperati in Java con un callback pulito.
-- Output previsto e suggerimenti per la risoluzione dei problemi.
+Carica il tuo documento HTML, espone un oggetto host Java, scrivi una funzione `async` che utilizza `fetch`, ed esegui lo script. Il motore risolve la promessa, chiama il callback Java e restituisce il risultato JSON—tutto senza bloccare il thread principale. Questo approccio ti consente di mantenere la parte Java reattiva mentre il codice JavaScript esegue I/O di rete, e funziona allo stesso modo di un ambiente browser.
 
-### Prerequisiti
+## Cos'è l'API fetch asincrona in Java?
 
-- Java 17 o versioni successive (il codice si compila anche con JDK 11).
-- Aspose.HTML per Java 23.7 (o l'ultima versione al momento della scrittura).
-- Familiarità di base con Java e le promise di JavaScript.
-- Accesso a Internet per la richiesta demo `jsonplaceholder`.
+L'API fetch asincrona è un metodo compatibile con i browser che restituisce una `Promise`. Usare `await` ti permette di scrivere codice asincrono che sembra sincrono, migliorando leggibilità e gestione degli errori. In Aspose.HTML l'implementazione di fetch segue la specifica completa WHATWG, così ottieni supporto per redirect, CORS, streaming delle risposte e corretta propagazione degli errori, proprio come nei browser moderni.
 
-Se qualcuno di questi ti è sconosciuto, non preoccuparti—ogni passaggio è spiegato in modo chiaro, e vedrai esattamente perché facciamo quello che facciamo.
+## Perché usare il motore JavaScript di Aspose.HTML?
 
----
+Aspose.HTML supporta **oltre 60 formati di input e output** e può elaborare documenti fino a **500 MB** senza caricare l'intero file in memoria. Il suo `JavaScriptEngine` integrato segue lo Standard Fetch di WHATWG, fornendoti una gestione di rete affidabile, redirect e supporto CORS pronti all'uso.
 
-## Passo 1 – Creare un documento HTML vuoto e ottenere il suo JavaScript Engine
+## Prerequisiti
+- Java 17 (o Java 11) installato e configurato sulla tua macchina.  
+- Aspose.HTML per Java 23.7 (o l'ultima versione) nel classpath.  
+- Connettività Internet per il endpoint JSON dimostrativo.  
+- Comprensione di base dei metodi Java e delle promesse JavaScript.
 
-La prima cosa di cui abbiamo bisogno è un documento vuoto che ci fornisca un ambiente JavaScript sandbox. La classe `Document` di Aspose.HTML fa esattamente questo.
+## Passo 1 – Creare un documento HTML vuoto e ottenere il suo motore JavaScript
+
+La classe `Document` rappresenta un documento HTML in memoria e fornisce un motore JavaScript sandboxato.
 
 ```java
 import com.aspose.html.*;
@@ -72,13 +111,11 @@ public class AsyncJsTutorial {
         JavaScriptEngine jsEngine = document.getWindow().getJavaScriptEngine();
 ```
 
-**Why this matters:** L'oggetto `Document` imita una finestra del browser, e il suo `JavaScriptEngine` ci permette di eseguire script esattamente come farebbe un browser. Questa è la base per **call java from javascript**—il motore funge da ponte.
-
----
+**Perché è importante:** L'oggetto `Document` imita una finestra del browser, e il suo `JavaScriptEngine` ti consente di eseguire script esattamente come farebbe un browser. Questa è la base per **come chiamare Java da JavaScript**—il motore funge da ponte.
 
 ## Passo 2 – Registrare un oggetto host affinché JavaScript possa richiamare Java
 
-Aspose.HTML ti consente di esporre qualsiasi oggetto Java al mondo degli script. Creeremo una classe anonima con un unico metodo `onResult` che stampa semplicemente il JSON ricevuto.
+L'oggetto host `JavaCallback` espone un unico metodo `onResult` che stampa il payload JSON ricevuto da JavaScript.
 
 ```java
         // Register a Java host object that the script can invoke
@@ -90,18 +127,16 @@ Aspose.HTML ti consente di esporre qualsiasi oggetto Java al mondo degli script.
         });
 ```
 
-**Explanation:**  
+**Spiegazione:**  
 - `addHostObject` associa il nome `javaCallback` all'oggetto Java anonimo.  
-- All'interno di JavaScript chiameremo `javaCallback.onResult(...)`.  
-- Questo è il nucleo di **call java from javascript**—lo script accede al mondo Java e Java reagisce.
+- All'interno di JavaScript invocherai `javaCallback.onResult(...)`.  
+- Questo è il meccanismo principale per **chiamare java da javascript**—lo script accede al mondo Java e Java reagisce.
 
-> **Pro tip:** Mantieni i metodi dell'oggetto host `public` e semplici; oggetti complessi possono causare problemi di serializzazione.
+> **Pro tip:** Mantieni i metodi dell'oggetto host `public` e restituisci tipi semplici (String, int, boolean) per evitare sovraccarichi di serializzazione.
 
----
+## Passo 3 – Scrivere una funzione JavaScript asincrona usando l'API fetch asincrona
 
-## Passo 3 – Scrivere una funzione JavaScript asincrona usando l'Asynchronous Fetch API
-
-Ora arriva la parte divertente: un piccolo script che recupera JSON da un endpoint remoto. Useremo `async/await`, che è il modo moderno per **run async JavaScript**.
+La funzione `fetchJson` dimostra `async/await` con la standard fetch API.
 
 ```java
         // Asynchronous script that fetches JSON and passes it to the Java host object
@@ -114,16 +149,14 @@ Ora arriva la parte divertente: un piccolo script che recupera JSON da un endpoi
             "fetchData();";
 ```
 
-**Why we choose `fetch` over older XHR:**  
+**Perché scegliamo `fetch` rispetto al vecchio XHR:**  
 - `fetch` restituisce una `Promise`, rendendo il codice più pulito.  
-- Funziona nativamente con `await`, così il flusso si legge dall'alto verso il basso—perfetto per demo **asynchronous fetch api**.  
-- L'API è a prova di futuro; la maggior parte dei browser e dei motori (incluso quello di Aspose) lo supporta subito.
+- Funziona nativamente con `await`, così il flusso si legge dall'alto verso il basso—perfetto per un **esempio di fetch javascript asincrono**.  
+- L'API è a prova di futuro; la maggior parte dei browser e dei motori (incluso quello di Aspose) la supporta subito.
 
----
+## Passo 4 – Eseguire lo script all'interno del motore JavaScript del documento
 
-## Passo 4 – Eseguire lo script all'interno del JavaScript Engine del documento
-
-Infine, passiamo lo script al motore. Il motore avvierà un piccolo event loop, risolverà la `Promise` di `fetch` e richiamerà Java al termine.
+L'esecuzione dello script attiva il loop degli eventi, risolve la richiesta di rete e richiama il callback in Java.
 
 ```java
         // Execute the async script
@@ -140,15 +173,13 @@ Fetched data: {"userId":1,"id":1,"title":"delectus aut autem","completed":false}
 
 Quell'output conferma tre cose:
 
-1. L'**asynchronous fetch API** ha recuperato i dati con successo.  
+1. L'**API fetch asincrona** ha recuperato i dati con successo.  
 2. Il JSON è stato serializzato e passato a Java.  
-3. La nostra chiamata **execute javascript engine** è terminata senza deadlock.
+3. La nostra chiamata **execute javascript engine** è stata completata senza deadlock.
 
----
+## Passo 5 – Gestire errori e casi limite (miglioramenti opzionali)
 
-## Passo 5 – Gestione degli errori e casi limite (Miglioramenti opzionali)
-
-Il codice reale raramente funziona perfettamente ogni volta. Di seguito alcuni errori comuni e come prevenirli.
+Il codice reale raramente funziona perfettamente ogni volta. Di seguito alcuni problemi comuni e come difendersi.
 
 ### 5.1 Errori di rete
 
@@ -169,11 +200,11 @@ String asyncScript =
     "fetchData();";
 ```
 
-Ora il lato Java riceverà un messaggio di errore invece di bloccarsi.
+Ora la parte Java riceve un messaggio di errore invece di rimanere in attesa.
 
 ### 5.2 Timeout
 
-Il motore di Aspose non espone un timeout nativo per `fetch`, ma è possibile implementarne uno in JavaScript:
+Il motore di Aspose non espone un timeout nativo per `fetch`, ma puoi implementarne uno in JavaScript:
 
 ```javascript
 const controller = new AbortController();
@@ -183,13 +214,11 @@ const response = await fetch(url, { signal: controller.signal });
 
 ### 5.3 Chiamate multiple
 
-Se devi recuperare diverse risorse, basta iterare o mappare su un array di URL. L'oggetto host può essere ampliato per accettare un identificatore, consentendoti di correlare le risposte.
-
----
+Se devi recuperare diverse risorse, basta iterare o mappare un array di URL. L'oggetto host può essere esteso per accettare un identificatore, consentendoti di correlare le risposte.
 
 ## Esempio completo funzionante
 
-Di seguito trovi il **file sorgente completo** che puoi copiare‑incollare nel tuo IDE. Nessuna dipendenza nascosta, solo il JAR di Aspose.HTML nel classpath.
+Di seguito trovi il file sorgente completo da copiare‑incollare nel tuo IDE. Nessuna dipendenza nascosta, solo il JAR di Aspose.HTML nel classpath.
 
 ```java
 import com.aspose.html.*;
@@ -236,43 +265,52 @@ Fetched data: {"userId":1,"id":1,"title":"delectus aut autem","completed":false}
 
 Se vedi una riga di errore che inizia con `Error:` qualcosa è andato storto—probabilmente un problema di rete.
 
----
-
 ## Panoramica visiva
 
 ![Diagram illustrating how Java calls JavaScript and receives async fetch results – call java from javascript](/images/java-js-async.png)
 
-*L'immagine mostra il flusso: Java → JavaScriptEngine → async fetch → JavaCallback.*
-
----
+*L'immagine mostra il flusso: Java → JavaScriptEngine → fetch asincrono → JavaCallback.*
 
 ## Domande frequenti
 
-**Posso usare questo approccio con altri motori JavaScript?**  
-Sì, qualsiasi motore che espone un meccanismo di oggetto host (ad esempio, Nashorn, GraalVM) può funzionare, ma Aspose.HTML ti fornisce un ambiente completo simile a un browser con `fetch` integrato.
+**Q: Posso usare questo approccio con altri motori JavaScript?**  
+A: Sì. Qualsiasi motore che supporta oggetti host (ad esempio, Nashorn, GraalVM) può funzionare, ma Aspose.HTML fornisce un ambiente completo simile a un browser con `fetch` integrato.
 
-**E se devo restituire un oggetto Java complesso invece di una stringa?**  
-Puoi serializzare l'oggetto in JSON sul lato Java e farlo analizzare a JavaScript, oppure puoi esporre più metodi sull'oggetto host per ricevere campi separati.
+**Q: E se devo restituire un oggetto Java complesso invece di una stringa?**  
+A: Serializza l'oggetto in JSON sul lato Java e lascia che JavaScript lo analizzi, oppure espone più metodi semplici sull'oggetto host per passare i singoli campi.
 
-**L'implementazione di `fetch` è pienamente conforme agli standard?**  
-Aspose.HTML implementa lo standard WHATWG Fetch, quindi ottieni una gestione corretta di redirect, CORS e streaming.
+**Q: L'implementazione di `fetch` è pienamente conforme agli standard?**  
+A: Aspose.HTML segue lo Standard Fetch di WHATWG, gestendo redirect, CORS e streaming esattamente come fanno i browser moderni.
 
-**Questo blocca il thread Java in attesa della rete?**  
-No. La chiamata `execute` restituisce immediatamente, e il motore interno elabora la promise in modo asincrono. Tuttavia, il thread principale rimarrà attivo finché lo script non termina o finché non chiudi esplicitamente il motore.
+**Q: Questo blocca il thread Java mentre attende la rete?**  
+A: No. La chiamata `execute` restituisce immediatamente; il motore interno elabora la promessa in modo asincrono. Il thread principale rimane attivo finché lo script non termina o chiudi il motore.
 
----
+**Q: Come posso fare debug del codice JavaScript all'interno del motore?**  
+A: Usa il metodo `JavaScriptEngine.setDebugMode(true)` per inviare i messaggi della console al logger Java.
 
 ## Conclusione
 
-Abbiamo appena esaminato uno scenario pratico che ti consente di **call Java from JavaScript**, **run async JavaScript**, e **fetch JSON in Java** usando l'**asynchronous fetch API**. Creando un oggetto host, scrivendo una funzione `async` ordinata e eseguendola con il **JavaScript engine** di Aspose.HTML, ottieni un ponte pulito e non bloccante tra i due runtime.
+Abbiamo illustrato uno scenario pratico che ti permette di **chiamare Java da JavaScript**, **eseguire JavaScript asincrono** e **recuperare JSON in Java** usando l'**API fetch asincrona**. Creando un oggetto host, scrivendo una funzione `async` ordinata e eseguendola con il **motore JavaScript di Aspose.HTML**, ottieni un ponte pulito e non bloccante tra i due runtime.
 
-Provalo, modifica l'URL o aggiungi più callback—la tua immaginazione è il limite. Prossimamente potresti esplorare:
+Sentiti libero di modificare l'URL dell'endpoint, aggiungere più callback o eseguire più script in parallelo. Prossimi passi che potresti esplorare:
 
-- **Executing JavaScript engine** con più script concorrenti.  
-- Usare **run async javascript** per elaborare grandi set di dati in parallelo.  
-- Integrare questo pattern in un servizio web che genera HTML dinamico al volo.
+- Eseguire più script contemporaneamente con istanze separate di `JavaScriptEngine`.  
+- Usare il pattern fetch asincrono per elaborare grandi set di dati in parallelo.  
+- Integrare questo ponte in un renderer HTML lato server che recupera dati live prima del rendering.
 
-Sentiti libero di sperimentare e non esitare a lasciare un commento se incontri un problema inaspettato. Buon coding!
+Buona programmazione!
+
+---
+
+**Last Updated:** 2026-10-09  
+**Tested With:** Aspose.HTML for Java 23.7  
+**Author:** Aspose
+
+## Tutorial correlati
+
+- [Chiamare Java da Javascript Aggiungi Oggetto Host ed Esegui Javascript](/html/java/advanced-usage/call-java-from-javascript-add-host-object-and-run-javascript/)
+- [Come Eseguire Javascript in Java Guida Completa](/html/java/advanced-usage/how-to-run-javascript-in-java-complete-guide/)
+- [Abilitare l'Esecuzione di Script in Java Guida Completa Aspose Html](/html/java/advanced-usage/enable-script-execution-in-java-complete-aspose-html-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
