@@ -37,8 +37,17 @@ Depois que você tiver compreendido o básico, vamos nos aprofundar no processo 
 Agora, vamos levar suas habilidades para o próximo nível. Editar documentos HTML é uma tarefa comum para desenvolvedores web, e o Aspose.HTML simplifica esse processo significativamente. Nesta seção, abordaremos a criação, manipulação e estilo de documentos. Você descobrirá como aprimorar a aparência e a funcionalidade do seu conteúdo web, tornando-o envolvente e amigável ao usuário.
 
 ### [Como salvar HTML em C# – Guia completo usando um manipulador de recursos personalizado](./how-to-save-html-in-c-complete-guide-using-a-custom-resource/)
+### [Como salvar HTML como ZIP em C# – Guia completo usando um manipulador de recursos personalizado](./save-html-as-zip-in-c-complete-guide-with-custom-resource-ha/)
 
 ### [Como deixar o título em negrito com CSS e C# – Guia completo passo a passo](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
+### [Como salvar HTML em C# – Manipuladores de recursos personalizados e ZIP](./how-to-save-html-in-c-custom-resource-handlers-zip/)
+### [Como salvar HTML com Aspose.Html – Guia completo em C#](./how-to-save-html-with-aspose-html-complete-c-guide/)
+### [Como compactar HTML em C# – Guia completo passo a passo](./how-to-zip-html-in-c-complete-step-by-step-guide/)
+
+### [Como salvar HTML em C# com manipulador de recursos personalizado](./how-to-save-html-in-c-with-custom-resource-handler/)
+### [Como salvar HTML com Aspose – Guia completo C#](./how-to-save-html-with-aspose-complete-c-guide/)
+### [Como compactar HTML em C# – Guia completo para criar arquivo ZIP](./how-to-zip-html-in-c-complete-guide-to-create-zip-archive/)
+### [Criar documento HTML em C# – Guia completo usando um manipulador de recursos personalizado](./create-html-document-c-complete-guide-with-custom-resource-h/)
 
 ### [Criar HTML a partir de string em C# – Guia passo a passo](./create-html-from-string-in-c-step-by-step-guide/)
 

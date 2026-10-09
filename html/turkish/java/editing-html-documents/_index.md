@@ -54,12 +54,24 @@ Java için Aspose.HTML kullanarak harici CSS'yi HTML belgelerine nasıl uygulaya
 Java için Aspose.HTML ile harici CSS düzenleme sanatında ustalaşın. Bu ayrıntılı, adım adım kılavuz, dinamik, biçimlendirilmiş HTML belgeleri oluşturmanızda size yol gösterir.
 ### [Java için Aspose.HTML'de HTML Belgelerine Satır İçi CSS Ekleme](./add-inline-css-html-documents/)
 Java için Aspose.HTML kullanarak HTML belgelerine satır içi CSS eklemeyi öğrenin. Bu adım adım kılavuz, HTML'yi biçimlendirmenize ve onu kolaylıkla PDF'ye dönüştürmenize yardımcı olur.
+### [Java için Aspose.HTML'de yeni HTML öğesi oluşturma – Tam Aspose.HTML Kılavuzu](./create-new-html-element-with-java-full-aspose-html-guide/)
+Java için Aspose.HTML kullanarak yeni bir HTML öğesi eklemeyi ve yapılandırmayı adım adım öğrenin.
 ### [Java için Aspose.HTML'de İç ve Dış HTML Özelliklerini Yönetin](./manage-inner-outer-html-properties/)
 Web geliştiricileri ve içerik oluşturucuları için mükemmel olan bu adım adım kılavuzla Aspose.HTML for Java'da iç ve dış HTML özelliklerinin nasıl yönetileceğini öğrenin.
 ### [Java için Aspose.HTML ile HTML Belgelerinde Dahili CSS'yi Uygulayın](./implement-internal-css-html-documents/)
 Kolay adım adım eğitimimiz ile Java için Aspose.HTML'i kullanarak HTML belgelerinde dahili CSS'yi uygulamayı öğrenin.
 ### [Sabit iş parçacığı havuzu java – ExecutorService ile Paralel HTML Temizleme](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 ExecutorService kullanarak sabit iş parçacığı havuzu ile HTML belgelerini paralel olarak temizlemeyi öğrenin.
+### [Java'da gövdeye çocuk ekleme – Tam Aspose.HTML Öğreticisi](./append-child-to-body-in-java-full-aspose-html-tutorial/)
+Java için Aspose.HTML kullanarak gövdeye yeni bir öğe eklemeyi adım adım öğrenin.
+### [Java ile MHTML'de h1 Metnini Değiştirme – Tam Adım‑Adım Kılavuz](./change-h1-text-in-mhtml-with-java-full-step-by-step-guide/)
+Java kullanarak MHTML dosyalarındaki h1 etiketinin metnini nasıl değiştireceğinizi adım adım öğrenin.
+### [Java DOM'da Çocuk Düğümünü Ekleme – Tam Aspose.HTML Rehberi](./how-to-append-child-in-java-dom-complete-aspose-html-guide/)
+Java DOM'da bir çocuk düğümünü nasıl ekleyeceğinizi adım adım öğrenin ve Aspose.HTML ile belge manipülasyonunu geliştirin.
+### [Java'da HTML'den Script'leri Kaldırma – Tam Kılavuz](./how-to-remove-scripts-from-html-in-java-complete-guide/)
+Java için Aspose.HTML kullanarak HTML belgelerinden scriptleri güvenli bir şekilde kaldırmayı öğrenin.
+### [HTML'yi Vurgulama – Metni Ara ve <mark> ile Değiştir](./how-to-highlight-html-search-text-replace-with-mark/)
+HTML belgelerinde belirli metinleri <mark> etiketiyle vurgulamayı öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

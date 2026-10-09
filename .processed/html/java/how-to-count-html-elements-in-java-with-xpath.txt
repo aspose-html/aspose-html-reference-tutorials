@@ -1,0 +1,7 @@
+Title: How to count HTML elements in Java with XPath
+Slug: how-to-count-html-elements-in-java-with-xpath
+Category: creating-managing-html-documents
+ProcessedDate: 2026-09-29T18:36:09.548402
+SourceRepo: AI Search API
+Keywords: how to count html elements, select nodes with xpath, get node list java, load html document java, evaluate xpath in java
+PRNumber: 279

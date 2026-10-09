@@ -1,24 +1,24 @@
 ---
 category: general
-date: 2026-03-17
-description: 如何在 C# 中渲染 HTML 並將網頁轉換為圖像。學習將 HTML 保存為 PNG、設定 body 字體，以及使用 Aspose.HTML
-  從 URL 載入 HTML。
+date: 2026-03-15
+description: 學習如何使用 Aspose.Html 在 C# 中將 HTML 渲染為 PNG。將 HTML 轉換為 PNG、將 HTML 渲染成圖片，並以逐步程式碼將
+  HTML 儲存為 PNG。
 draft: false
 keywords:
 - how to render html
-- convert webpage to image
+- convert html to png
+- render html as image
 - save html as png
-- set body font
-- load html from url
+- convert webpage to image
 language: zh-hant
-og_description: 如何在 C# 中渲染 HTML 並將網頁轉換為圖像。本指南將示範如何將 HTML 儲存為 PNG、設定正文字體，以及從 URL 載入
-  HTML。
-og_title: 如何將 HTML 轉換為 PNG – 完整 C# 指南
+og_description: 掌握在 C# 中將 HTML 渲染為 PNG 的技巧。本教學將一步步帶您完成 HTML 轉 PNG、將 HTML 渲染成圖像，以及將
+  HTML 儲存為 PNG 的過程。
+og_title: 如何將 HTML 轉換為 PNG – 完整 C# 教學
 tags:
 - C#
-- Aspose.HTML
-- Image Rendering
-- Web Development
+- Aspose.Html
+- image rendering
+- web automation
 title: 如何將 HTML 轉換為 PNG – 完整 C# 教學
 url: /zh-hant/net/generate-jpg-and-png-images/how-to-render-html-to-png-complete-c-guide/
 ---
@@ -29,248 +29,183 @@ url: /zh-hant/net/generate-jpg-and-png-images/how-to-render-html-to-png-complete
 
 # 如何將 HTML 渲染為 PNG – 完整 C# 指南
 
-有沒有想過 **如何將 HTML** 直接渲染成圖片檔案，而不需要開啟瀏覽器？也許你需要為儀表板製作縮圖，或想將網頁存檔為 PNG 以符合法律合規要求。無論是哪種情況，你都來對地方了。在本教學中，我們將一步步示範一個實用的端到端解決方案，**將網頁轉換為圖片**、**將 HTML 儲存為 PNG**，甚至展示如何在使用 Aspose.HTML for .NET 時 **設定 body 字體** 以及 **從 URL 載入 HTML**。
+有沒有想過 **如何將 html 渲染** 成圖片檔而不需要開啟瀏覽器？你並不是唯一的——開發人員經常需要 *convert html to png* 來製作電郵縮圖、PDF 預覽或自動化測試。好消息是？使用 Aspose.Html，你只需幾行程式碼就能 **render HTML to PNG**，而且稍後你還會學習如何 *render html as image* 以支援其他格式。
 
-我們會涵蓋所有必備資訊：所需的 NuGet 套件、完整程式碼（不會遺漏任何部份）、每個設定為何重要，以及在實作過程中可能遇到的幾個坑。完成後，你將擁有一個可重複使用的方法，能直接嵌入任何 C# 專案，即時渲染 HTML。
+在本教學中，我們將逐步說明你需要了解的所有內容：從安裝函式庫、載入 HTML 檔案、設定渲染選項，到最後在磁碟上 **save html as png**。完成後，你將擁有一個即時可執行的程式，能以可靠、產業級的方式 *converts webpage to image*。
 
-## 前置條件
+## 你需要的環境
 
-- .NET 6+（此程式碼同樣適用於 .NET Core 與 .NET Framework）
-- Visual Studio 2022 或任何相容 C# 的 IDE
-- Aspose.HTML for .NET NuGet 套件（`Aspose.HTML.NET`）– 提供免費試用版
-- 基本的 C# 語法概念（只要寫過「Hello World」就足夠）
+- **.NET 6+**（此程式碼同樣適用於 .NET Framework 4.7+）
+- **Aspose.Html for .NET** – 你可以從 NuGet (`Aspose.Html`) 或官方下載頁面取得。
+- 一個簡單的 HTML 檔案（我們稱之為 `input.html`），放置於你可控制的資料夾中。
+- 任意你喜歡的 IDE——Visual Studio、Rider 或 VS Code 都能勝任。
 
-> **專業小技巧：** 請保持專案的目標框架為最新版本；較新的執行階段會為影像渲染帶來效能提升。
+不需要額外的瀏覽器，也不需要 headless Chrome，僅使用純 C# 與 Aspose 引擎。
 
----
+## 步驟 1：安裝 Aspose.Html
 
-## Step 1 – Load HTML from a URL
+首先，將套件加入你的專案中。
 
-第一步需要取得一個線上的 HTML 文件。Aspose.HTML 的 `HTMLDocument` 類別可以直接從網路抓取頁面，並自動處理重新導向與 HTTPS。
+```bash
+dotnet add package Aspose.Html
+```
+
+> **專業提示：** 如果你使用 Visual Studio，右鍵點擊專案 → *Manage NuGet Packages* → 搜尋 **Aspose.Html** 並點擊 *Install*。這會將核心渲染引擎與稍後需要的影像模組一起下載。
+
+## 步驟 2：載入要轉換的 HTML 文件
+
+現在我們建立一個指向來源檔案的 `HTMLDocument` 物件。可以把它想像成在編輯前先開啟 Word 文件。
 
 ```csharp
 using Aspose.Html;
-
-// Load the HTML document from a remote address
-HTMLDocument htmlDoc = new HTMLDocument("https://example.com");
-```
-
-**為什麼這很重要：** 從 URL 載入可避免先將頁面儲存至本機，從而節省 I/O 時間並讓程式碼更簡潔。若網站需要驗證，你可以自行傳入 `HttpWebRequest`，但簡易版已足以應付大多數公開網站。
-
----
-
-## Step 2 – Set Body Font (Custom CSS)
-
-有時預設字體無法滿足精緻影像的需求。你可以直接在文件的 `<body>` 元素中注入樣式規則。
-
-```csharp
-using Aspose.Html.Drawing;
-
-// Create a CSS style declaration
-CSSStyleDeclaration bodyStyle = new CSSStyleDeclaration
-{
-    FontFamily = "Arial",
-    FontSize = "14px",
-    FontStyle = WebFontStyle.Normal,   // replaces FontStyle.Regular
-    FontWeight = WebFontStyle.Bold    // replaces FontStyle.Bold
-};
-
-// Apply the style to the <body>
-htmlDoc.Body.SetAttribute("style", bodyStyle.CssText);
-```
-
-**為什麼這很重要：** 字體選擇會極大影響可讀性，尤其在輸出尺寸較小時。使用 `WebFontStyle` 可確保渲染引擎正確套用字重與樣式，無需額外設定。
-
----
-
-## Step 3 – Configure Image Rendering Options
-
-接著告訴 Aspose 圖片的尺寸以及是否需要抗鋸齒（平滑邊緣）。
-
-```csharp
 using Aspose.Html.Rendering.Image;
 
-// Set up rendering dimensions and quality
-ImageRenderingOptions imageOptions = new ImageRenderingOptions
+// Replace with the actual folder where your HTML lives
+string inputPath = Path.Combine(Environment.CurrentDirectory, "input.html");
+
+// Load the HTML document
+HTMLDocument htmlDoc = new HTMLDocument(inputPath);
+```
+
+> **為什麼這很重要：** 事先載入文件可讓 Aspose 解析 CSS、外部資源，甚至 JavaScript（若你啟用的話）。解析器會建立 DOM 樹，稍後渲染器會將其轉換為像素。
+
+## 步驟 3：設定影像渲染選項（寬度、高度、抗鋸齒）
+
+如果跳過此步驟，將會得到預設的 800 × 600 影像，可能會顯得擁擠。此處我們定義精確的尺寸，並開啟抗鋸齒以獲得更平滑的邊緣。
+
+```csharp
+ImageRenderingOptions renderingOptions = new ImageRenderingOptions
 {
-    Width = 1024,               // Desired width in pixels
-    Height = 768,               // Desired height in pixels
-    UseAntialiasing = true      // Smoothing for crisp edges
+    Width = 1024,          // Desired width in pixels
+    Height = 768,          // Desired height in pixels
+    UseAntialiasing = true // Makes curves and text look less jagged
 };
 ```
 
-**為什麼這很重要：** 若未啟用抗鋸齒，對角線與文字會顯得鋸齒狀。調整寬度/高度則可依需求產生縮圖或全尺寸截圖。
+> **如果需要不同尺寸該怎麼辦？** 只要修改 `Width` 和 `Height`。Aspose 會相應調整版面，保留基於 CSS 的回應式行為。
 
----
+## 步驟 4：將 HTML 文件渲染為 PNG 檔案
 
-## Step 4 – Fine‑Tune Text Rendering (Hinting)
-
-文字 hinting 會將字形對齊至像素邊界，使低解析度影像的文字更銳利。
+這就是魔法發生的時刻。`RenderToFile` 方法負責所有繁重工作——版面配置、光柵化以及檔案寫入。
 
 ```csharp
-using Aspose.Html.Rendering;
+string outputPath = Path.Combine(Environment.CurrentDirectory, "output.png");
 
-// Enable hinting for clearer text
-TextOptions textOptions = new TextOptions
-{
-    UseHinting = true   // Replaces TextRenderingHint.ClearTypeGridFit
-};
+// Render the HTML as a PNG image
+htmlDoc.RenderToFile(outputPath, renderingOptions);
 ```
 
-**為什麼這很重要：** 在渲染小字體時特別有用；它能防止字元模糊，確保影像保持可讀。
+執行此行程式碼後，你會在可執行檔旁看到 `output.png`。打開它，你應該會看到 `input.html` 的完整視覺呈現。
 
----
+## 步驟 5：驗證結果（可選但建議）
 
-## Step 5 – Render and Save as PNG
-
-現在把所有步驟串起來。`Save` 方法會將渲染好的影像寫入串流，我們將其導向磁碟上的檔案。
+快速的合理性檢查有助於及早發現路徑問題。
 
 ```csharp
-using System.IO;
-using System.Drawing.Imaging;
-using Aspose.Html.Rendering.Image;
-
-// Define output path (replace with your own directory)
-string outputPath = Path.Combine("YOUR_DIRECTORY", "output.png");
-
-// Render the HTML and write to PNG
-using (FileStream outputStream = new FileStream(outputPath, FileMode.Create))
+if (File.Exists(outputPath))
 {
-    htmlDoc.Save(outputStream, new ImageSaveOptions(ImageFormat.Png)
-    {
-        RenderingOptions = imageOptions,
-        TextOptions = textOptions
-    });
+    Console.WriteLine($"✅ Success! PNG saved at: {outputPath}");
+}
+else
+{
+    Console.WriteLine("❌ Something went wrong – PNG not found.");
 }
 ```
 
-> **預期結果：** 產生一個 `output.png` 檔案，尺寸 1024 × 768 像素，內容為 `https://example.com` 的頁面，以 Arial 14 px 粗體、平滑邊緣與清晰文字呈現。
+執行程式應會印出成功訊息。若出現錯誤，請再次確認 `input.html` 是否存在，以及資料夾是否具有寫入權限。
 
----
+## 完整可執行範例
 
-## 完整範例程式
-
-以下是可直接複製貼上的完整程式碼，包含所有 `using` 陳述式、註解與最小化的 `Main` 方法。
+將所有步驟整合起來，以下是一個可自行複製貼上至新 C# 專案的完整主控台應用程式。
 
 ```csharp
-// ------------------------------------------------------------
-// How to Render HTML to PNG – Complete Example (C#)
-// ------------------------------------------------------------
+// Program.cs
 using System;
 using System.IO;
-using System.Drawing.Imaging;
 using Aspose.Html;
-using Aspose.Html.Drawing;
-using Aspose.Html.Rendering;
 using Aspose.Html.Rendering.Image;
 
 class Program
 {
     static void Main()
     {
-        // 1️⃣ Load HTML from the web
-        HTMLDocument htmlDoc = new HTMLDocument("https://example.com");
+        // 1️⃣ Define paths
+        string inputPath = Path.Combine(Environment.CurrentDirectory, "input.html");
+        string outputPath = Path.Combine(Environment.CurrentDirectory, "output.png");
 
-        // 2️⃣ Apply custom body font
-        CSSStyleDeclaration bodyStyle = new CSSStyleDeclaration
-        {
-            FontFamily = "Arial",
-            FontSize = "14px",
-            FontStyle = WebFontStyle.Normal,
-            FontWeight = WebFontStyle.Bold
-        };
-        htmlDoc.Body.SetAttribute("style", bodyStyle.CssText);
+        // 2️⃣ Load the HTML document
+        HTMLDocument htmlDoc = new HTMLDocument(inputPath);
 
-        // 3️⃣ Define image size and smoothing
-        ImageRenderingOptions imageOptions = new ImageRenderingOptions
+        // 3️⃣ Configure rendering options
+        ImageRenderingOptions renderingOptions = new ImageRenderingOptions
         {
             Width = 1024,
             Height = 768,
             UseAntialiasing = true
         };
 
-        // 4️⃣ Enable text hinting for sharp glyphs
-        TextOptions textOptions = new TextOptions
-        {
-            UseHinting = true
-        };
+        // 4️⃣ Render to PNG
+        htmlDoc.RenderToFile(outputPath, renderingOptions);
 
-        // 5️⃣ Render to PNG
-        string outputFile = Path.Combine("YOUR_DIRECTORY", "output.png");
-        using (FileStream stream = new FileStream(outputFile, FileMode.Create))
-        {
-            htmlDoc.Save(stream, new ImageSaveOptions(ImageFormat.Png)
-            {
-                RenderingOptions = imageOptions,
-                TextOptions = textOptions
-            });
-        }
-
-        Console.WriteLine($"✅ Rendering complete – see {outputFile}");
+        // 5️⃣ Verify output
+        Console.WriteLine(File.Exists(outputPath)
+            ? $"✅ PNG created at {outputPath}"
+            : "❌ Failed to create PNG");
     }
 }
 ```
 
-執行程式後，應會在主控台看到確認訊息，表示檔案已寫入。使用任意影像檢視器開啟 `output.png` 以驗證結果。
+將檔案儲存為 `Program.cs`，在同一目錄放入 `input.html`，然後執行 `dotnet run`。Voilà——*convert html to png*，完全不需外部瀏覽器。
 
----
+## 邊緣情況與常見變化
 
-## 常見問題與特殊情況
+| 情況 | 調整方式 | 原因 |
+|-----------|----------------|-----|
+| **大型頁面**（例如 >2000 px 高度） | 將 `Height` 增加，或設定 `Height = 0` 讓 Aspose 自動調整大小 | 防止內容被裁切 |
+| **透明背景** | 使用 `renderingOptions.BackgroundColor = Color.Transparent;` | 在其他圖形上疊加 PNG 時很有用 |
+| **不同的影像格式** | 呼叫 `RenderToFile("output.jpg", renderingOptions);` | Aspose 支援 JPEG、BMP、GIF 等格式 |
+| **嵌入字型** | 確保字型已安裝於伺服器，或使用 `FontSettings` | 確保跨機器的視覺一致性 |
+| **無頭 CI 流程** | 在還原套件後使用 `dotnet run --no-build` 執行應用程式 | 保持建置快速且可預測 |
 
-### 若頁面使用外部 CSS 或 JavaScript 會怎樣？
+## 超越 PNG 的 HTML 影像渲染
 
-Aspose.HTML 會自動下載連結的 CSS 檔案，但 **不會執行 JavaScript**。如果你的頁面高度依賴客戶端腳本（例如動態內容），需要先使用無頭瀏覽器（如 Playwright）預先渲染，然後再將最終的 HTML 傳給 Aspose。
-
-### 如何處理不受信任的 HTTPS 憑證？
-
-你可以提供自訂的 `HttpWebRequest`，並設定寬鬆的憑證驗證回呼。但請注意——這會削弱安全性，僅應在受信任的環境中使用。
-
-```csharp
-// Example: ignore SSL errors (not for production)
-ServicePointManager.ServerCertificateValidationCallback = (sender, cert, chain, sslPolicyErrors) => true;
-```
-
-### 能否渲染成其他格式（JPEG、BMP）？
-
-當然可以。只要在 `ImageSaveOptions` 中將 `ImageFormat.Png` 換成 `ImageFormat.Jpeg` 或 `ImageFormat.Bmp` 即可。JPEG 適合照片類型，PNG 則保留透明度與銳利文字。
-
-### 印刷品質的 DPI 設定該怎麼做？
-
-在 `ImageRenderingOptions` 中加入 `ResolutionX` 與 `ResolutionY`：
+如果之後需要以 JPEG 或 BMP 等格式 *render html as image*，只要在 `RenderToFile` 中更改檔案副檔名即可。同一個 `ImageRenderingOptions` 物件適用於所有支援的點陣格式。
 
 ```csharp
-imageOptions.ResolutionX = 300; // DPI horizontally
-imageOptions.ResolutionY = 300; // DPI vertically
+htmlDoc.RenderToFile("output.jpg", renderingOptions); // JPEG
+htmlDoc.RenderToFile("output.bmp", renderingOptions); // BMP
 ```
 
-這樣即可產出符合印刷需求的高解析度影像。
+函式庫會根據副檔名自動選擇相應的編碼器。
 
----
+## 將 HTML 儲存為 PNG – 檢查清單
 
-## 專業小技巧與常見坑點
+- [x] 透過 NuGet 安裝 `Aspose.Html`  
+- [x] 載入 HTML 文件 (`HTMLDocument`)  
+- [x] 設定 `ImageRenderingOptions`（尺寸、抗鋸齒）  
+- [x] 使用 `.png` 路徑呼叫 `RenderToFile`  
+- [x] 驗證檔案是否存在  
 
-- **目錄權限：** 確認 `YOUR_DIRECTORY` 已存在且程式有寫入權限，否則會拋出 `UnauthorizedAccessException`。
-- **記憶體使用量：** 渲染極大頁面（例如 5000 × 4000）會佔用大量 RAM。若遇到 `OutOfMemoryException`，請縮小尺寸或分塊渲染。
-- **快取機制：** 若需頻繁渲染同一頁面，可在首次載入後快取 `HTMLDocument` 物件，以減少網路延遲。
-- **字體嵌入：** 若目標字體未安裝於伺服器，可在注入的 CSS 中使用 `@font-face` 進行嵌入。Aspose 會遵循此設定。
+有了這份檢查清單，你可以輕鬆將轉換功能整合至更大的自動化腳本或 Web 服務中。
 
----
+## 常見問題
 
-## 🎉 結論
+**Q: 這能夠使用遠端 URL 而非本機檔案嗎？**  
+A: 絕對可以。將 URL 字串傳給 `HTMLDocument`（例如 `new HTMLDocument("https://example.com")`）。Aspose 會在渲染前下載該頁面及其資源。
 
-我們剛剛完整說明了 **如何將 HTML 渲染為 PNG 影像**，使用 Aspose.HTML 於 C# 中實作。從 URL 載入 HTML、設定 body 字體、配置影像與文字選項，最後儲存為 PNG，這一系列步驟構成了可應用於產生縮圖、網頁存檔等多種情境的堅實基礎。
+**Q: 那 JavaScript 驅動的頁面呢？**  
+A: Aspose.Html 內建 JavaScript 引擎，但相較於完整瀏覽器功能有限。對於簡單的 DOM 操作足以應付；若是使用大型 SPA 框架，可能需要改用 headless Chromium 解決方案。
 
-歡迎自行實驗：調整 `Width`/`Height`、切換輸出格式，或加入更多 CSS 規則。若需要 **定時將網頁轉換為影像**，可將此程式碼封裝於 Windows Service 或 Azure Function 中。
+**Q: 我可以將多個頁面渲染成單一影像嗎？**  
+A: 可以。先分別渲染每個頁面，然後使用任意影像處理函式庫（例如 ImageSharp）將它們拼接起來。
 
-**下一步：** 探索 Aspose.HTML 的 PDF 渲染功能，或結合無頭瀏覽器捕捉完整腳本化頁面。
+## 結論
 
-祝渲染順利，別忘了在下方留言分享你的最佳使用案例！
+現在你已了解如何使用 C# 與 Aspose.Html **render html** 成 PNG 檔案，並且已看到如何 *convert html to png*、*render html as image*、*save html as png*，甚至在其他格式中 *convert webpage to image*。核心概念很簡單：載入標記、設定渲染選項，然後呼叫 `RenderToFile`。從此你可以建立縮圖產生器、PDF 預覽服務或自動化 UI 測試——任何你的專案需求。
 
-![如何渲染 html 範例輸出](example.png)  
+準備好進一步了嗎？嘗試不同的 `Width`/`Height` 組合、加入透明背景，或將此邏輯包裝成 Web API，讓其他應用程式可隨時請求螢幕截圖。沒有極限，而你已擁有堅實的基礎可供構建。
 
----  
-
-*關鍵字自然分布於全文：how to render html, convert webpage to image, save html as png, set body font, load html from url.*
+祝開發愉快！ 🚀
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

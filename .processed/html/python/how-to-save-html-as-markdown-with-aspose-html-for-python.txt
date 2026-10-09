@@ -1,0 +1,7 @@
+Title: How to save HTML as Markdown with Aspose.HTML for Python
+Slug: how-to-save-html-as-markdown-with-aspose-html-for-python
+Category: general
+ProcessedDate: 2026-08-26T00:21:59.822674
+SourceRepo: AI Search API
+Keywords: save html as markdown, convert html to markdown, python html to markdown, aspose html to markdown
+PRNumber: 252

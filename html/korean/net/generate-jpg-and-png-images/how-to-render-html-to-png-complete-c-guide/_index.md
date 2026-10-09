@@ -1,278 +1,209 @@
 ---
 category: general
-date: 2026-03-17
-description: C#에서 HTML을 렌더링하고 웹 페이지를 이미지로 변환하는 방법. HTML을 PNG로 저장하고, 본문 폰트를 설정하며, Aspose.HTML을
-  사용해 URL에서 HTML을 로드하는 방법을 배웁니다.
+date: 2026-03-15
+description: C#에서 Aspose.Html을 사용하여 HTML을 PNG로 렌더링하는 방법을 배워보세요. HTML을 PNG로 변환하고, HTML을
+  이미지로 렌더링하며, 단계별 코드로 HTML을 PNG로 저장합니다.
 draft: false
 keywords:
 - how to render html
-- convert webpage to image
+- convert html to png
+- render html as image
 - save html as png
-- set body font
-- load html from url
+- convert webpage to image
 language: ko
-og_description: C#에서 HTML을 렌더링하고 웹 페이지를 이미지로 변환하는 방법. 이 가이드는 HTML을 PNG로 저장하고, 본문 폰트를
-  설정하며, URL에서 HTML을 로드하는 방법을 보여줍니다.
+og_description: C#에서 HTML을 PNG로 렌더링하는 방법을 마스터하세요. 이 튜토리얼은 HTML을 PNG로 변환하고, HTML을 이미지로
+  렌더링하며, HTML을 PNG로 저장하는 과정을 단계별로 안내합니다.
 og_title: HTML을 PNG로 렌더링하는 방법 – 완전한 C# 가이드
 tags:
 - C#
-- Aspose.HTML
-- Image Rendering
-- Web Development
+- Aspose.Html
+- image rendering
+- web automation
 title: HTML을 PNG로 렌더링하는 방법 – 완전한 C# 가이드
 url: /ko/net/generate-jpg-and-png-images/how-to-render-html-to-png-complete-c-guide/
 ---
 
-any shortcodes: at start and end.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # HTML을 PNG로 렌더링하는 방법 – 완전한 C# 가이드
 
-브라우저를 실행하지 않고 **HTML을 렌더링**하여 이미지 파일로 바로 저장하는 방법이 궁금하셨나요? 대시보드용 썸네일이 필요하거나, 법적 준수를 위해 페이지를 PNG로 보관하고 싶을 수도 있습니다. 어떤 경우든, 여기서 정답을 찾으실 수 있습니다. 이 튜토리얼에서는 **웹 페이지를 이미지로 변환**하고, **HTML을 PNG로 저장**하며, Aspose.HTML for .NET을 사용해 **URL에서 HTML을 로드**하면서 **본문 폰트 설정**까지 하는 실용적인 엔드‑투‑엔드 솔루션을 단계별로 안내합니다.
+브라우저를 열지 않고 **HTML을 렌더링**하여 이미지 파일로 만들고 싶었던 적 있나요? 당신만 그런 것이 아닙니다—개발자들은 이메일 썸네일, PDF 미리보기, 자동화 테스트 등을 위해 지속적으로 *HTML을 PNG로 변환*해야 합니다. 좋은 소식은? Aspose.Html을 사용하면 몇 줄의 코드만으로 **HTML을 PNG로 렌더링**할 수 있으며, 나중에 다른 포맷을 위해 *HTML을 이미지로 렌더링*하는 방법도 배울 수 있습니다.
 
-필요한 NuGet 패키지, 정확한 코드(빠진 부분 없이), 각 설정이 중요한 이유, 그리고 진행 중 마주칠 수 있는 몇 가지 주의사항을 모두 다룹니다. 끝까지 따라오시면 언제든지 C# 프로젝트에 삽입해 바로 HTML을 렌더링할 수 있는 재사용 가능한 메서드를 얻으실 수 있습니다.
+이 튜토리얼에서는 라이브러리 설치, HTML 파일 로드, 렌더링 옵션 구성, 최종적으로 디스크에 **HTML을 PNG로 저장**하는 전체 과정을 단계별로 안내합니다. 끝까지 따라오면 신뢰할 수 있는 프로덕션 수준으로 *웹페이지를 이미지로 변환*하는 실행 가능한 프로그램을 얻게 됩니다.
 
-## 사전 요구 사항
+## 필요 사항
 
-- .NET 6+ (코드는 .NET Core 및 .NET Framework에서도 동작합니다)
-- Visual Studio 2022 또는 C# 호환 IDE
-- Aspose.HTML for .NET NuGet 패키지 (`Aspose.HTML.NET`) – 무료 체험 제공
-- C# 구문에 대한 기본 지식(“Hello World”를 작성해 본 적이면 충분합니다)
+- **.NET 6+** (코드는 .NET Framework 4.7+에서도 작동합니다)
+- **Aspose.Html for .NET** – NuGet(`Aspose.Html`) 또는 공식 다운로드 페이지에서 가져올 수 있습니다.
+- 간단한 HTML 파일(`input.html`)을 직접 관리하는 폴더에 배치합니다.
+- 원하는 IDE—Visual Studio, Rider, VS Code 모두 사용 가능합니다.
 
-> **Pro tip:** 프로젝트의 대상 프레임워크를 최신 상태로 유지하세요; 최신 런타임은 이미지 렌더링 성능을 향상시킵니다.
+추가 브라우저나 headless Chrome이 필요 없습니다. 순수 C#와 Aspose 엔진만 있으면 됩니다.
 
----
+## 단계 1: Aspose.Html 설치
 
-## Step 1 – URL에서 HTML 로드
+먼저, 패키지를 프로젝트에 추가합니다.
 
-먼저 필요한 것은 실시간 HTML 문서입니다. Aspose.HTML의 `HTMLDocument` 클래스를 사용하면 페이지를 인터넷에서 직접 가져올 수 있으며, 리다이렉트와 HTTPS를 자동으로 처리합니다.
+```bash
+dotnet add package Aspose.Html
+```
+
+> **팁:** Visual Studio를 사용 중이라면 프로젝트를 오른쪽 클릭 → *Manage NuGet Packages* → **Aspose.Html**을 검색하고 *Install*을 클릭합니다. 이렇게 하면 나중에 필요할 핵심 렌더링 엔진과 이미지 모듈이 함께 가져와집니다.
+
+## 단계 2: 변환하려는 HTML 문서 로드
+
+이제 소스 파일을 가리키는 `HTMLDocument` 객체를 생성합니다. 마치 편집을 시작하기 전에 Word 문서를 여는 것과 같습니다.
 
 ```csharp
 using Aspose.Html;
-
-// Load the HTML document from a remote address
-HTMLDocument htmlDoc = new HTMLDocument("https://example.com");
-```
-
-**Why this matters:** URL에서 직접 로드하면 페이지를 로컬에 저장할 필요가 없어 I/O 시간을 절약하고 코드가 깔끔해집니다. 사이트에 인증이 필요하면 사용자 정의 `HttpWebRequest`를 전달할 수 있지만, 간단한 버전은 대부분의 공개 사이트에서 동작합니다.
-
----
-
-## Step 2 – 본문 폰트 설정 (Custom CSS)
-
-때때로 기본 폰트는 깔끔한 이미지에 적합하지 않을 수 있습니다. 문서의 `<body>` 요소에 스타일 규칙을 직접 삽입할 수 있습니다.
-
-```csharp
-using Aspose.Html.Drawing;
-
-// Create a CSS style declaration
-CSSStyleDeclaration bodyStyle = new CSSStyleDeclaration
-{
-    FontFamily = "Arial",
-    FontSize = "14px",
-    FontStyle = WebFontStyle.Normal,   // replaces FontStyle.Regular
-    FontWeight = WebFontStyle.Bold    // replaces FontStyle.Bold
-};
-
-// Apply the style to the <body>
-htmlDoc.Body.SetAttribute("style", bodyStyle.CssText);
-```
-
-**Why this matters:** 폰트 선택은 가독성에 큰 영향을 미치며, 특히 출력 크기가 작을 때 더욱 중요합니다. `WebFontStyle`을 사용하면 렌더링 엔진이 굵기와 스타일을 추가 설정 없이도 올바르게 적용합니다.
-
----
-
-## Step 3 – 이미지 렌더링 옵션 구성
-
-다음으로 Aspose에 이미지 크기를 지정하고, 안티앨리어싱(부드러운 가장자리) 여부를 설정합니다.
-
-```csharp
 using Aspose.Html.Rendering.Image;
 
-// Set up rendering dimensions and quality
-ImageRenderingOptions imageOptions = new ImageRenderingOptions
+// Replace with the actual folder where your HTML lives
+string inputPath = Path.Combine(Environment.CurrentDirectory, "input.html");
+
+// Load the HTML document
+HTMLDocument htmlDoc = new HTMLDocument(inputPath);
+```
+
+> **왜 중요한가:** 문서를 미리 로드하면 Aspose가 CSS, 외부 리소스, 그리고 (활성화한다면) JavaScript까지 파싱할 수 있습니다. 파서는 DOM 트리를 구축하고, 렌더러는 이를 픽셀로 변환합니다.
+
+## 단계 3: 이미지 렌더링 옵션 설정 (Width, Height, Antialiasing)
+
+이 단계를 건너뛰면 기본 800 × 600 이미지가 생성되어 다소 좁게 보일 수 있습니다. 여기서는 정확한 크기를 지정하고 부드러운 가장자리를 위해 안티앨리어싱을 활성화합니다.
+
+```csharp
+ImageRenderingOptions renderingOptions = new ImageRenderingOptions
 {
-    Width = 1024,               // Desired width in pixels
-    Height = 768,               // Desired height in pixels
-    UseAntialiasing = true      // Smoothing for crisp edges
+    Width = 1024,          // Desired width in pixels
+    Height = 768,          // Desired height in pixels
+    UseAntialiasing = true // Makes curves and text look less jagged
 };
 ```
 
-**Why this matters:** 안티앨리어싱이 없으면 대각선 선과 텍스트가 들쭉날쭉하게 보일 수 있습니다. 너비/높이를 조정하면 필요에 따라 썸네일이나 전체 크기의 스크린샷을 생성할 수 있습니다.
+> **다른 크기가 필요하면?** `Width`와 `Height`만 변경하면 됩니다. Aspose가 레이아웃을 자동으로 조정하여 CSS 기반 반응형 동작을 유지합니다.
 
----
+## 단계 4: HTML 문서를 PNG 파일로 렌더링
 
-## Step 4 – 텍스트 렌더링 미세 조정 (Hinting)
-
-텍스트 힌팅은 글리프를 픽셀 경계에 맞추어 저해상도 이미지에서도 출력이 더 선명하게 보이도록 합니다.
+이 순간이 바로 마법이 일어나는 단계입니다. `RenderToFile` 메서드가 레이아웃, 래스터화, 파일 쓰기 등 모든 작업을 수행합니다.
 
 ```csharp
-using Aspose.Html.Rendering;
+string outputPath = Path.Combine(Environment.CurrentDirectory, "output.png");
 
-// Enable hinting for clearer text
-TextOptions textOptions = new TextOptions
-{
-    UseHinting = true   // Replaces TextRenderingHint.ClearTypeGridFit
-};
+// Render the HTML as a PNG image
+htmlDoc.RenderToFile(outputPath, renderingOptions);
 ```
 
-**Why this matters:** 힌팅은 작은 폰트를 렌더링할 때 특히 유용하며, 흐릿한 문자 발생을 방지하고 이미지 가독성을 유지합니다.
+이 코드를 실행하면 실행 파일 옆에 `output.png`가 생성됩니다. 파일을 열면 `input.html`과 동일한 시각적 표현을 확인할 수 있습니다.
 
----
+## 단계 5: 결과 확인 (선택 사항이지만 권장)
 
-## Step 5 – 렌더링 및 PNG 저장
-
-이제 모든 과정을 하나로 묶습니다. `Save` 메서드는 렌더링된 이미지를 스트림에 기록하고, 이를 디스크의 파일로 저장합니다.
+간단한 확인 절차를 통해 경로 문제를 초기에 발견할 수 있습니다.
 
 ```csharp
-using System.IO;
-using System.Drawing.Imaging;
-using Aspose.Html.Rendering.Image;
-
-// Define output path (replace with your own directory)
-string outputPath = Path.Combine("YOUR_DIRECTORY", "output.png");
-
-// Render the HTML and write to PNG
-using (FileStream outputStream = new FileStream(outputPath, FileMode.Create))
+if (File.Exists(outputPath))
 {
-    htmlDoc.Save(outputStream, new ImageSaveOptions(ImageFormat.Png)
-    {
-        RenderingOptions = imageOptions,
-        TextOptions = textOptions
-    });
+    Console.WriteLine($"✅ Success! PNG saved at: {outputPath}");
+}
+else
+{
+    Console.WriteLine("❌ Something went wrong – PNG not found.");
 }
 ```
 
-> **Expected result:** `output.png` 파일이 생성되며, 1024 × 768 픽셀 크기에 `https://example.com` 페이지가 Arial 14 px 볼드체로, 부드러운 가장자리와 선명한 텍스트로 렌더링됩니다.
+프로그램을 실행하면 성공 메시지가 출력됩니다. 오류가 발생하면 `input.html`이 존재하는지와 폴더에 쓰기 권한이 있는지 다시 확인하세요.
 
----
+## 전체 작동 예제
 
-## 전체 작업 예제
-
-아래는 완전한 복사‑붙여넣기 가능한 프로그램입니다. 모든 `using` 문, 주석, 최소한의 `Main` 메서드가 포함되어 있습니다.
+모든 단계를 합치면, 새 C# 프로젝트에 복사·붙여넣기 할 수 있는 독립 실행형 콘솔 앱 예제가 아래에 있습니다.
 
 ```csharp
-// ------------------------------------------------------------
-// How to Render HTML to PNG – Complete Example (C#)
-// ------------------------------------------------------------
+// Program.cs
 using System;
 using System.IO;
-using System.Drawing.Imaging;
 using Aspose.Html;
-using Aspose.Html.Drawing;
-using Aspose.Html.Rendering;
 using Aspose.Html.Rendering.Image;
 
 class Program
 {
     static void Main()
     {
-        // 1️⃣ Load HTML from the web
-        HTMLDocument htmlDoc = new HTMLDocument("https://example.com");
+        // 1️⃣ Define paths
+        string inputPath = Path.Combine(Environment.CurrentDirectory, "input.html");
+        string outputPath = Path.Combine(Environment.CurrentDirectory, "output.png");
 
-        // 2️⃣ Apply custom body font
-        CSSStyleDeclaration bodyStyle = new CSSStyleDeclaration
-        {
-            FontFamily = "Arial",
-            FontSize = "14px",
-            FontStyle = WebFontStyle.Normal,
-            FontWeight = WebFontStyle.Bold
-        };
-        htmlDoc.Body.SetAttribute("style", bodyStyle.CssText);
+        // 2️⃣ Load the HTML document
+        HTMLDocument htmlDoc = new HTMLDocument(inputPath);
 
-        // 3️⃣ Define image size and smoothing
-        ImageRenderingOptions imageOptions = new ImageRenderingOptions
+        // 3️⃣ Configure rendering options
+        ImageRenderingOptions renderingOptions = new ImageRenderingOptions
         {
             Width = 1024,
             Height = 768,
             UseAntialiasing = true
         };
 
-        // 4️⃣ Enable text hinting for sharp glyphs
-        TextOptions textOptions = new TextOptions
-        {
-            UseHinting = true
-        };
+        // 4️⃣ Render to PNG
+        htmlDoc.RenderToFile(outputPath, renderingOptions);
 
-        // 5️⃣ Render to PNG
-        string outputFile = Path.Combine("YOUR_DIRECTORY", "output.png");
-        using (FileStream stream = new FileStream(outputFile, FileMode.Create))
-        {
-            htmlDoc.Save(stream, new ImageSaveOptions(ImageFormat.Png)
-            {
-                RenderingOptions = imageOptions,
-                TextOptions = textOptions
-            });
-        }
-
-        Console.WriteLine($"✅ Rendering complete – see {outputFile}");
+        // 5️⃣ Verify output
+        Console.WriteLine(File.Exists(outputPath)
+            ? $"✅ PNG created at {outputPath}"
+            : "❌ Failed to create PNG");
     }
 }
 ```
 
-프로그램을 실행하면 파일이 작성되었음을 확인하는 콘솔 메시지가 표시됩니다. `output.png`를 이미지 뷰어로 열어 결과를 확인하세요.
+`Program.cs`로 저장하고, 같은 디렉터리에 `input.html`을 배치한 뒤 `dotnet run`을 실행하세요. Voilà—*HTML을 PNG로 변환*이 외부 브라우저 없이 수행됩니다.
 
----
+## 엣지 케이스 및 일반적인 변형
 
-## 일반적인 질문 및 엣지 케이스
+| Situation | What to Adjust | Why |
+|-----------|----------------|-----|
+| **대형 페이지** (예: 높이 >2000 px) | `Height`를 늘리거나 `Height = 0`으로 설정하여 Aspose가 자동 크기 조정하도록 합니다 | 콘텐츠가 잘리는 것을 방지합니다 |
+| **투명 배경** | `renderingOptions.BackgroundColor = Color.Transparent;` | 다른 그래픽 위에 PNG를 오버레이할 때 유용합니다 |
+| **다른 이미지 포맷** | `RenderToFile("output.jpg", renderingOptions);` | Aspose는 JPEG, BMP, GIF 등 다양한 포맷을 지원합니다 |
+| **폰트 임베드** | 서버에 폰트가 설치되어 있거나 `FontSettings`를 사용하도록 합니다 | 다양한 머신에서 시각적 일관성을 보장합니다 |
+| **헤드리스 CI 파이프라인** | 패키지를 복원한 후 `dotnet run --no-build`로 앱을 실행합니다 | 빌드를 빠르고 결정적으로 유지합니다 |
 
-### 페이지가 외부 CSS 또는 JavaScript를 사용하는 경우는?
+## PNG 외 이미지로 HTML 렌더링
 
-Aspose.HTML은 연결된 CSS 파일을 자동으로 다운로드하지만 **JavaScript는 실행하지 않습니다**. 페이지가 클라이언트‑사이드 스크립트(예: 동적 콘텐츠)에 크게 의존한다면, 최종 HTML을 Aspose에 전달하기 전에 헤드리스 브라우저(예: Playwright)로 미리 렌더링해야 합니다.
-
-### 신뢰할 수 없는 HTTPS 인증서를 어떻게 처리하나요?
-
-완화된 인증서 검증 콜백을 가진 사용자 정의 `HttpWebRequest`를 제공할 수 있습니다. 다만, 이는 보안을 약화시키므로 신뢰할 수 있는 환경에서만 사용해야 합니다.
-
-```csharp
-// Example: ignore SSL errors (not for production)
-ServicePointManager.ServerCertificateValidationCallback = (sender, cert, chain, sslPolicyErrors) => true;
-```
-
-### 다른 포맷(JPEG, BMP)으로 렌더링할 수 있나요?
-
-물론 가능합니다. `ImageSaveOptions`에서 `ImageFormat.Png`를 `ImageFormat.Jpeg` 또는 `ImageFormat.Bmp`로 교체하면 됩니다. JPEG은 사진에 적합하고, PNG는 투명도와 선명한 텍스트를 유지합니다.
-
-### 인쇄 품질 이미지용 DPI 설정은 어떻게 하나요?
-
-`ImageRenderingOptions`에 `ResolutionX`와 `ResolutionY`를 추가합니다:
+나중에 JPEG나 BMP와 같은 포맷으로 *HTML을 이미지로 렌더링*해야 한다면, `RenderToFile`의 파일 확장자를 바꾸기만 하면 됩니다. 동일한 `ImageRenderingOptions` 객체가 지원되는 모든 래스터 포맷에서 동작합니다.
 
 ```csharp
-imageOptions.ResolutionX = 300; // DPI horizontally
-imageOptions.ResolutionY = 300; // DPI vertically
+htmlDoc.RenderToFile("output.jpg", renderingOptions); // JPEG
+htmlDoc.RenderToFile("output.bmp", renderingOptions); // BMP
 ```
 
-이렇게 하면 출력이 프린터용 고품질로 상승합니다.
+라이브러리는 확장자를 기반으로 적절한 인코더를 자동으로 선택합니다.
 
----
+## HTML을 PNG로 저장 – 체크리스트
 
-## 전문가 팁 및 주의사항
+- [x] NuGet을 통해 `Aspose.Html` 설치
+- [x] HTML 문서(`HTMLDocument`) 로드
+- [x] `ImageRenderingOptions` 구성 (크기, 안티앨리어싱)
+- [x] `.png` 경로로 `RenderToFile` 호출
+- [x] 파일 존재 여부 확인
 
-- **Directory permissions:** `YOUR_DIRECTORY`가 존재하고 프로세스에 쓰기 권한이 있는지 확인하세요. 그렇지 않으면 `UnauthorizedAccessException`이 발생합니다.
-- **Memory usage:** 매우 큰 페이지(예: 5000 × 4000)를 렌더링하면 많은 RAM을 사용할 수 있습니다. `OutOfMemoryException`이 발생하면 차원을 줄이거나 타일 방식으로 렌더링하세요.
-- **Caching:** 동일한 페이지를 반복해서 렌더링해야 한다면 첫 로드 후 `HTMLDocument` 객체를 캐시하세요. 네트워크 지연을 줄일 수 있습니다.
-- **Font embedding:** 대상 폰트가 서버에 설치되지 않은 경우, 삽입된 CSS의 `@font-face`를 통해 폰트를 임베드하세요. Aspose가 이를 인식합니다.
+## 자주 묻는 질문
 
----
+**Q: 로컬 파일 대신 원격 URL에서도 동작하나요?**  
+A: 물론입니다. URL 문자열을 `HTMLDocument`에 전달하면 됩니다(예: `new HTMLDocument("https://example.com")`). Aspose가 페이지와 리소스를 다운로드한 뒤 렌더링합니다.
 
-## 🎉 결론
+**Q: JavaScript 기반 페이지는 어떻게 처리하나요?**  
+A: Aspose.Html에 JavaScript 엔진이 포함되어 있지만 전체 브라우저에 비해 제한적입니다. 간단한 DOM 조작에는 충분히 동작하지만, 복잡한 SPA 프레임워크의 경우에는 headless Chromium 솔루션이 필요할 수 있습니다.
 
-우리는 이제 Aspose.HTML을 사용해 C#에서 **HTML을 PNG 이미지**로 렌더링하는 방법을 다루었습니다. URL에서 HTML을 로드하고, 본문 폰트를 설정하고, 이미지 및 텍스트 옵션을 구성한 뒤 PNG로 저장하는 단계는 썸네일 생성부터 웹 페이지 보관까지 다양한 시나리오에 적용할 수 있는 탄탄한 기반을 제공합니다.
+**Q: 여러 페이지를 하나의 이미지로 렌더링할 수 있나요?**  
+A: 가능합니다. 각 페이지를 개별적으로 렌더링한 뒤, ImageSharp와 같은 이미지 처리 라이브러리를 사용해 하나로 합치면 됩니다.
 
-자유롭게 실험해 보세요: `Width`/`Height`를 변경하거나 출력 포맷을 바꾸거나 CSS 규칙을 추가하세요. 일정에 따라 **웹 페이지를 이미지로 변환**해야 한다면 이 코드를 Windows Service나 Azure Function에 래핑하면 됩니다.
+## 결론
 
-**다음 단계:** Aspose.HTML의 PDF 렌더링 기능을 살펴보거나, 이 방법을 헤드리스 브라우저와 결합해 완전한 스크립트 페이지를 캡처하세요.
+이제 C#와 Aspose.Html을 사용해 **HTML을 PNG 파일로 렌더링**하는 방법을 알게 되었으며, *HTML을 PNG로 변환*, *HTML을 이미지로 렌더링*, *HTML을 PNG로 저장*, 그리고 다른 포맷으로 *웹페이지를 이미지로 변환*하는 방법도 확인했습니다. 핵심 아이디어는 간단합니다: 마크업을 로드하고, 렌더링 옵션을 설정한 뒤 `RenderToFile`을 호출하면 됩니다. 이를 기반으로 썸네일 생성기, PDF 미리보기 서비스, 자동 UI 테스트 등 프로젝트 요구에 맞는 다양한 솔루션을 구축할 수 있습니다.
 
-즐거운 렌더링 되세요, 그리고 아래 댓글에 여러분이 가장 좋아하는 활용 사례를 공유하는 것을 잊지 마세요!
+다음 단계가 준비되셨나요? 다양한 `Width`/`Height` 조합을 실험해보고, 투명 배경을 추가하거나 로직을 웹 API로 감싸서 다른 애플리케이션이 필요할 때마다 스크린샷을 요청하도록 해보세요. 가능성은 무한하며, 이제 튼튼한 기반이 마련되었습니다.
 
-![how to render html example output](example.png)  
-
----  
-
-*키워드: how to render html, convert webpage to image, save html as png, set body font, load html from url.*
+코딩 즐겁게! 🚀
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -26,22 +26,37 @@ Trước khi đi sâu vào chi tiết về việc tạo và chỉnh sửa tài l
 
 ### [Tạo một tài liệu trong .NET với Aspose.HTML](./creating-a-document/)
 
-Bước đầu tiên trong hành trình của chúng tôi là học cách tạo tài liệu HTML từ đầu hoặc từ URL bằng Aspose.HTML. Chúng tôi sẽ hướng dẫn bạn trong suốt quá trình, đảm bảo rằng ngay cả người mới bắt đầu cũng có thể làm theo. Đến cuối phần này, bạn sẽ có kỹ năng tạo tài liệu HTML một cách dễ dàng.
-
 ### [Tạo một tài liệu đơn giản trong .NET với Aspose.HTML](./creating-a-simple-document/)
-
-Sau khi nắm được những điều cơ bản, chúng ta sẽ đi sâu hơn vào quá trình tạo. Trong phần này, bạn sẽ học cách tạo tài liệu HTML đơn giản bằng Aspose.HTML và chúng ta sẽ khám phá nhiều tính năng khác nhau cho phép thao tác dễ dàng. Cho dù bạn đang xây dựng trang web, tạo nội dung hay chuyển đổi dữ liệu sang HTML, hướng dẫn này sẽ trang bị cho bạn kiến thức cần thiết.
 
 ### [Chỉnh sửa tài liệu trong .NET với Aspose.HTML](./editing-a-document/)
 
-Bây giờ, hãy đưa kỹ năng của bạn lên một tầm cao mới. Chỉnh sửa tài liệu HTML là một nhiệm vụ phổ biến đối với các nhà phát triển web và Aspose.HTML đơn giản hóa đáng kể quy trình này. Trong phần này, chúng tôi sẽ đề cập đến việc tạo, thao tác và định dạng tài liệu. Bạn sẽ khám phá cách nâng cao giao diện và chức năng của nội dung web, khiến nội dung đó hấp dẫn và thân thiện với người dùng.
-
 ### [Cách lưu HTML trong C# – Hướng dẫn đầy đủ sử dụng Trình xử lý tài nguyên tùy chỉnh](./how-to-save-html-in-c-complete-guide-using-a-custom-resource/)
+
+### [Cách lưu HTML với Aspose.Html – Hướng dẫn C# đầy đủ](./how-to-save-html-with-aspose-html-complete-c-guide/)
+
+Hướng dẫn chi tiết cách lưu tài liệu HTML bằng Aspose.Html trong C#, bao gồm các bước và ví dụ thực tế.
+### [Cách lưu HTML trong C# với Trình xử lý tài nguyên tùy chỉnh](./how-to-save-html-in-c-with-custom-resource-handler/)
+### [Tạo tài liệu HTML trong C# – Hướng dẫn đầy đủ sử dụng Trình xử lý tài nguyên tùy chỉnh](./create-html-document-c-complete-guide-with-custom-resource-h/)
+
+Hướng dẫn chi tiết cách tạo tài liệu HTML trong C# sử dụng Trình xử lý tài nguyên tùy chỉnh, bao gồm ví dụ thực tế.
 
 ### [Cách làm tiêu đề đậm bằng CSS & C# – Hướng dẫn chi tiết từng bước](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
 
 Hướng dẫn chi tiết cách sử dụng CSS và C# để làm tiêu đề in đậm, kèm ví dụ mã và các bước thực hiện cụ thể.
+### [Cách lưu HTML trong C# – Trình xử lý tài nguyên tùy chỉnh & ZIP](./how-to-save-html-in-c-custom-resource-handlers-zip/)
+### [Cách zip HTML trong C# – Hướng dẫn chi tiết từng bước](./how-to-zip-html-in-c-complete-step-by-step-guide/)
 
+Hướng dẫn chi tiết cách nén tài liệu HTML trong C# bằng Aspose.HTML, bao gồm các bước và ví dụ thực tế.
+### [Lưu HTML dưới dạng ZIP trong C# – Hướng dẫn đầy đủ với Trình xử lý tài nguyên tùy chỉnh](./save-html-as-zip-in-c-complete-guide-with-custom-resource-ha/)
+
+Hướng dẫn chi tiết cách lưu tài liệu HTML dưới dạng file ZIP bằng C# và trình xử lý tài nguyên tùy chỉnh.
+### [Cách lưu HTML với Aspose – Hướng dẫn C# đầy đủ](./how-to-save-html-with-aspose-complete-c-guide/)
+
+Hướng dẫn chi tiết cách lưu tài liệu HTML bằng Aspose trong C#, bao gồm các bước cấu hình và ví dụ thực tế.
+
+### [Cách nén HTML trong C# – Hướng dẫn đầy đủ tạo tệp ZIP](./how-to-zip-html-in-c-complete-guide-to-create-zip-archive/)
+
+Hướng dẫn chi tiết cách nén tài liệu HTML thành tệp ZIP bằng C#, bao gồm các bước thực hiện và ví dụ mã.
 ### [Tạo HTML từ chuỗi trong C# – Hướng dẫn từng bước](./create-html-from-string-in-c-step-by-step-guide/)
 
 Hướng dẫn chi tiết cách tạo tài liệu HTML từ một chuỗi văn bản trong C# bằng Aspose.HTML.

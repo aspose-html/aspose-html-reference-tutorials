@@ -39,7 +39,33 @@ Lassen Sie uns nun Ihre Fähigkeiten auf die nächste Ebene bringen. Das Bearbei
 ### [HTML in C# speichern – Vollständige Anleitung mit benutzerdefiniertem Ressourcen-Handler](./how-to-save-html-in-c-complete-guide-using-a-custom-resource/)
 
 Erfahren Sie, wie Sie HTML in C# mit einem benutzerdefinierten Ressourcen-Handler speichern können.
+### [HTML in C# speichern – Anleitung mit benutzerdefiniertem Ressourcen-Handler](./how-to-save-html-in-c-with-custom-resource-handler/)
+
+Erfahren Sie, wie Sie HTML in C# mithilfe eines benutzerdefinierten Ressourcen-Handlers speichern.
+
+### [HTML als ZIP in C# speichern – Vollständige Anleitung mit benutzerdefiniertem Ressourcen-Handler](./save-html-as-zip-in-c-complete-guide-with-custom-resource-ha/)
+
+Erfahren Sie, wie Sie HTML in C# als ZIP-Datei mit einem benutzerdefinierten Ressourcen‑Handler speichern können.
+### [HTML-Dokument in C# erstellen – Vollständige Anleitung mit benutzerdefiniertem Ressourcen-Handler](./create-html-document-c-complete-guide-with-custom-resource-h/)
+
+Erfahren Sie, wie Sie ein HTML-Dokument in C# mit einem benutzerdefinierten Ressourcen-Handler erstellen.
+
 ### [Überschrift mit CSS & C# fett formatieren – Komplett‑Schritt‑für‑Schritt‑Anleitung](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
+### [HTML in C# speichern – benutzerdefinierte Ressourcen-Handler & ZIP](./how-to-save-html-in-c-custom-resource-handlers-zip/)
+
+### [HTML mit Aspose.HTML speichern – Vollständige C#‑Anleitung](./how-to-save-html-with-aspose-html-complete-c-guide/)
+
+Erfahren Sie, wie Sie HTML mit Aspose.HTML in C# vollständig speichern können.
+
+### [HTML in C# zippen – Vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-zip-html-in-c-complete-step-by-step-guide/)
+
+Erfahren Sie, wie Sie HTML-Dateien in C# zu einer ZIP-Datei komprimieren können.
+
+### [HTML mit Aspose speichern – Vollständige C#‑Anleitung](./how-to-save-html-with-aspose-complete-c-guide/)
+
+### [HTML in C# zippen – Vollständige Anleitung zum Erstellen eines ZIP-Archivs](./how-to-zip-html-in-c-complete-guide-to-create-zip-archive/)
+
+Erfahren Sie, wie Sie HTML-Dateien in C# zu einem ZIP-Archiv komprimieren und speichern.
 
 ### [HTML aus Zeichenfolge in C# erstellen – Schritt‑für‑Schritt‑Anleitung](./create-html-from-string-in-c-step-by-step-guide/)
 

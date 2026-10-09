@@ -36,9 +36,26 @@ HTML-документы являются основой Интернета, и �
 
 Теперь давайте поднимем ваши навыки на новый уровень. Редактирование HTML-документов — обычная задача для веб-разработчиков, и Aspose.HTML значительно упрощает этот процесс. В этом разделе мы рассмотрим создание, обработку и стилизацию документов. Вы узнаете, как улучшить внешний вид и функциональность вашего веб-контента, сделав его привлекательным и удобным для пользователя.
 
+### [Как сохранить HTML с Aspose – Полное руководство на C#](./how-to-save-html-with-aspose-complete-c-guide/)
+
+Подробное руководство по сохранению HTML-файлов с помощью Aspose.HTML в C#, включая настройку обработчиков ресурсов.
+
 ### [Как сохранить HTML в C# – Полное руководство с использованием пользовательского обработчика ресурсов](./how-to-save-html-in-c-complete-guide-using-a-custom-resource/)
 
+### [Как сохранить HTML в C# с пользовательским обработчиком ресурсов](./how-to-save-html-in-c-with-custom-resource-handler/)
+
 ### [Как сделать заголовок жирным с помощью CSS и C# – Полное пошаговое руководство](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
+### [Как сохранить HTML в C# – Пользовательские обработчики ресурсов и ZIP](./how-to-save-html-in-c-custom-resource-handlers-zip/)
+
+### [Как сохранить HTML с Aspose.Html – Полное руководство C#](./how-to-save-html-with-aspose-html-complete-c-guide/)
+
+### [Как заархивировать HTML в C# – Полное пошаговое руководство](./how-to-zip-html-in-c-complete-step-by-step-guide/)
+
+### [Сохранить HTML в виде ZIP в C# – Полное руководство с пользовательским обработчиком ресурсов](./save-html-as-zip-in-c-complete-guide-with-custom-resource-ha/)
+
+### [Как заархивировать HTML в C# – Полное руководство по созданию ZIP-архива](./how-to-zip-html-in-c-complete-guide-to-create-zip-archive/)
+
+### [Создание HTML-документа C# – Полное руководство с пользовательским обработчиком ресурсов](./create-html-document-c-complete-guide-with-custom-resource-h/)
 
 ### [Создание HTML из строки в C# – Пошаговое руководство](./create-html-from-string-in-c-step-by-step-guide/)
 

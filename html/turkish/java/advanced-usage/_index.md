@@ -112,6 +112,8 @@ C: `HtmlLoadOptions` ile `PageSetup` kenar boşluklarını ayarlayın ve CSS‑t
 C: Hayır. Tek bir Aspose.HTML for Java lisansı, PDF ve XPS dahil tüm çıktı formatlarını kapsar.
 
 ## Aspose.HTML Java Eğitimlerinin İleri Düzey Kullanımı
+
+
 ### [Aspose.HTML ile HTML Sayfa Kenar Boşluklarını Özelleştirme](./css-extensions-adding-title-page-number/)
 Aspose.HTML for Java kullanarak HTML belgelerine sayfa kenar boşlukları, sayfa numaraları ve başlıklar eklemeyi öğrenin.
 ### [Aspose.HTML for Java ile DOM Mutation Observer](./dom-mutation-observer-observing-node-additions/)
@@ -126,14 +128,83 @@ Aspose.HTML for Java ile HTML form doldurmayı ve göndermeyi otomatikleştirmey
 Aspose.HTML for Java kullanarak PDF sayfa boyutunu nasıl ayarlayacağınızı öğrenin. HTML’den yüksek kaliteli PDF’ler oluşturun ve sayfa boyutlarını etkili bir şekilde kontrol edin.
 ### [Aspose.HTML for Java ile XPS Sayfa Boyutunu Ayarlama](./adjust-xps-page-size/)
 Aspose.HTML for Java ile XPS sayfa boyutunu nasıl ayarlayacağınızı öğrenin. XPS belgelerinizin çıktı boyutlarını kolayca kontrol edin.
+### [CompletableFuture ile JavaScript'i Asenkron Çalıştırma](./how-to-run-javascript-asynchronously-using-completablefuture/)
+Aspose.HTML for Java kullanarak JavaScript'i CompletableFuture ile asenkron olarak çalıştırmayı öğrenin.
 ### [Java’da JavaScript Çalıştırma – Tam Kılavuz](./how-to-run-javascript-in-java-complete-guide/)
 Aspose.HTML for Java kullanarak Java içinde JavaScript kodu çalıştırmayı ve entegrasyonu öğrenin.
+### [Java’da cihaz piksel oranını ayarlama – Mobil Sandbox Eğitimi](./set-device-pixel-ratio-in-java-mobile-sandbox-tutorial/)
+Java’da Mobil Sandbox ortamında cihaz piksel oranını nasıl ayarlayacağınızı öğrenin.
+### [Aspose.HTML'de JavaScript'i Etkinleştirme – HTML Yükleme ve Metin Alma](./how-to-enable-javascript-in-aspose-html-load-html-get-text/)
+Aspose.HTML ile JavaScript'i etkinleştirerek HTML yükleyin ve metni çıkarın.
+### [Java’da Script Çalıştırma – JavaScript Çalıştırma ve Veri Çıkarma İçin Tam Kılavuz](./how-to-run-scripts-in-java-complete-guide-to-execute-javascr/)
+Java’da JavaScript çalıştırmayı, scriptleri yürütmeyi ve veri çıkarmayı adım adım öğrenin.
+### [Aspose ile EPUB’u DOCX’e Dönüştürme – Adım Adım Kılavuz](./how-to-use-aspose-to-convert-epub-to-docx-step-by-step-guide/)
+Aspose.HTML for Java kullanarak EPUB dosyalarını DOCX formatına nasıl dönüştüreceğinizi adım adım öğrenin.
+### [HTML'yi Yükleme, Cihaz DPI'sını Ayarlama ve Arka Plan Rengini Okuma](./how-to-load-html-set-device-dpi-read-background-color/)
+HTML dosyasını yükleyip cihaz DPI'sını ayarlayarak arka plan rengini nasıl okuyacağınızı öğrenin.
+### [JavaScript'i Sandbox Ortamında Çalıştırma – Tam Aspose.HTML Kılavuzu](./how-to-sandbox-javascript-complete-aspose-html-guide/)
+Aspose.HTML for Java kullanarak JavaScript kodunu güvenli bir sandbox ortamında çalıştırmayı öğrenin.
+### [Java’da JavaScript’i Etkinleştirme – Tam Aspose.HTML Kılavuzu](./how-to-enable-javascript-in-java-complete-aspose-html-guide/)
+Aspose.HTML for Java kullanarak Java içinde JavaScript’i nasıl etkinleştireceğinizi ve tam entegrasyonu öğrenin.
+### [JavaScript'ten Java'ya Çağrı – Asenkron Fetch ve JS Motoru Çalıştırma Tam Kılavuzu](./call-java-from-javascript-complete-guide-to-async-fetch-js-e/)
+JavaScript içinde Java metodlarını asenkron fetch ile çağırmayı ve JS motoru üzerinden yürütmeyi adım adım öğrenin.
+### [Aspose HTML'i Java'da Kullanma – Tam XPath Filtreleme Rehberi](./how-to-use-aspose-html-in-java-full-xpath-filtering-guide/)
+Aspose.HTML for Java ile tam XPath filtreleme yaparak belge öğelerini seçmeyi ve işlemeyi öğrenin.
+### [JavaScript'ten Java'ya Çağrı – Host Nesnesi Ekle ve Java'da JavaScript Çalıştır](./call-java-from-javascript-add-host-object-and-run-javascript/)
+Aspose.HTML for Java kullanarak JavaScript'ten Java metodlarını çağırmayı, host nesnesi eklemeyi ve Java içinde JavaScript çalıştırmayı öğrenin.
 
 ---
 
 **Son Güncelleme:** 2025-11-29  
 **Test Edilen Versiyon:** Aspose.HTML for Java 24.11  
 **Yazar:** Aspose  
+
+
+
+
+
+
+
+### [MHTML'den HTML Çıkarma – Tam Java Kılavuzu](./extract-html-from-mhtml-complete-java-guide/)
+Aspose.HTML for Java kullanarak MHTML dosyalarından HTML içeriğini nasıl çıkaracağınızı öğrenin.
+
+---
+
+**Son Güncelleme:** 2025-11-29  
+**Test Edilen Versiyon:** Aspose.HTML for Java 24.11  
+**Yazar:** Aspose  
+
+
+
+
+
+
+
+### [Java'da JavaScript Çalıştırma – Java'dan JS Çalıştırma Tam Rehberi](./execute-javascript-in-java-complete-guide-to-running-js-from/)
+Aspose.HTML for Java ile Java uygulamalarında JavaScript çalıştırmayı ve entegrasyonu adım adım öğrenin.
+
+---
+
+**Son Güncelleme:** 2025-11-29  
+**Test Edilen Versiyon:** Aspose.HTML for Java 24.11  
+**Yazar:** Aspose  
+
+
+
+
+
+
+
+### [HTML'den PDF'ye Java Sandbox Kullanımı – Adım Adım Kılavuz](./how-to-use-sandbox-for-html-to-pdf-java-step-by-step-guide/)
+Aspose.HTML for Java Sandbox ortamını kullanarak HTML dosyalarını güvenli bir şekilde PDF'ye dönüştürmeyi öğrenin.
+### [Java’da Betik Çalıştırmayı Etkinleştirme – Tam Aspose.HTML Rehberi](./enable-script-execution-in-java-complete-aspose-html-guide/)
+Aspose.HTML for Java kullanarak Java ortamında betik yürütmeyi nasıl etkinleştireceğinizi ve güvenli bir şekilde çalıştıracağınızı öğrenin.
+
+---
+
+**Son Güncelleme:** 2025-11-29  
+**Test Edilen Versiyon:** Aspose.HTML for Java 24.11  
+**Yazar:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

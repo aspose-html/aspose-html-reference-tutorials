@@ -1,8 +1,8 @@
 ---
-date: 2025-12-30
-description: Pelajari cara mengonversi epub menjadi gambar jpg dengan Aspose.HTML
-  untuk Java. Ikuti panduan langkah demi langkah kami untuk konversi yang mulus menggunakan
-  opsi penyimpanan gambar.
+date: 2026-03-24
+description: Pelajari cara mengonversi epub ke gambar JPG dan cara mengonversi epub
+  menggunakan Aspose.HTML untuk Java. Ikuti panduan langkah demi langkah kami untuk
+  konversi yang mulus menggunakan opsi penyimpanan gambar.
 linktitle: Converting EPUB to JPG
 second_title: Java HTML Processing with Aspose.HTML
 title: Konversi EPUB ke JPG dengan Aspose.HTML untuk Java
@@ -14,35 +14,38 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Konversi EPUB ke JPG dengan Aspose.HTML untuk Java
+# Mengonversi EPUB ke JPG dengan Aspose.HTML untuk Java
 
 ## Jawaban Cepat
-- **Perpustakaan apa yang dapat saya gunakan?** Aspose.HTML for Java menyediakan dukungan bawaan untuk konversi EPUB‑ke‑gambar.
-- **Metode mana yang melakukan konversi?** `Converter.convertEPUB` bersama dengan `ImageSaveOptions`.
-- **Apakah saya memerlukan lisensi?** Lisensi sementara atau penuh diperlukan untuk penggunaan produksi; percobaan gratis tersedia.
-- ** meminta saya memilih format gambar?** Ya – `ImageSaveOptions` memungkinkan Anda memilih JPEG, PNG, BMP, dll.
-- **Apakah ini cocok untuk EPUB besar?** API mem‑stream halaman, sehingga dapat bekerja dengan baik pada buku multi-bab.
+- **Perpustakaan apa yang dapat saya gunakan?** Aspose.HTML untuk Java menyediakan dukungan bawaan untuk konversi EPUB‑ke‑gambar.  
+- **Metode mana yang melakukan konversi?** `Converter.convertEPUB` bersama dengan `ImageSaveOptions`.  
+- **Apakah saya memerlukan lisensi?** Lisensi sementara atau penuh diperlukan untuk penggunaan produksi; versi percobaan gratis tersedia.  
+- **Bisakah saya memilih format gambar?** Ya – `ImageSaveOptions` memungkinkan Anda memilih JPEG, PNG, BMP, dll.  
+- **Apakah ini cocok untuk EPUB berukuran besar?** API melakukan streaming halaman, sehingga bekerja dengan baik pada buku multi‑bab.
 
-## Apa itu “konversi epub ke jpg”?
-Mengonversi file EPUB ke JPG berarti merender setiap halaman (atau setiap segmen HTML) dari e‑book menjadi gambar raster. Ini berguna untuk membuat kesan, thumbnail, atau untuk platform yang hanya mendukung format gambar.
+## Apa itu “convert epub to jpg”?
+Mengonversi file EPUB ke JPG berarti merender setiap halaman (atau setiap segmen HTML) dari e‑book menjadi gambar raster. Ini berguna untuk membuat pratinjau, thumbnail, atau untuk platform yang hanya mendukung format gambar.
 
-## Mengapa menggunakan Aspose.HTML for Java untuk mengkonversi gambar EPUB?
-- **Rendering berfidelity tinggi** – mesin menghormati CSS, font, dan grafik SVG.
-- **API sederhana** – satu pemanggilan metode menangani seluruh konversi pipeline.
-- **Lintas‑platform** – bekerja pada semua OS yang mendukung Java SE 8+.
-- **Dapat diisi** – Anda dapat menyesuaikan ukuran output, kualitas, dan format melalui `ImageSaveOptions`.
+## Cara mengonversi epub ke JPG menggunakan Aspose.HTML untuk Java
+Jika Anda bertanya-tanya **bagaimana cara mengonversi epub**, jawabannya terletak pada beberapa pemanggilan API yang sederhana. Di bawah ini kami menjabarkan prosesnya, menjelaskan setiap pengaturan, dan menunjukkan di mana Anda dapat menyesuaikan output agar sesuai dengan kebutuhan proyek Anda.
+
+## Mengapa menggunakan Aspose.HTML untuk Java untuk konversi gambar EPUB?
+- **Rendering dengan fidelitas tinggi** – mesin menghormati CSS, font, dan grafik SVG.  
+- **API sederhana** – satu pemanggilan metode menangani seluruh alur konversi.  
+- **Lintas‑platform** – berfungsi pada sistem operasi apa pun yang mendukung Java SE 8+.  
+- **Dapat diperluas** – Anda dapat menyesuaikan ukuran output, kualitas, dan format melalui `ImageSaveOptions`.
 
 ## Prasyarat
 
-Sebelum memulai proses konversi, pastikan Anda telah menyiapkan hal‑hal berikut:
+Sebelum memulai proses konversi, pastikan Anda telah menyiapkan prasyarat berikut:
 
-1. **Java Development Kit (JDK)** – Java SE8 atau yang lebih baru terpasang di sistem Anda.
-2. **Aspose.HTML untuk Java Library** – Unduh dan instal pustaka Aspose.HTML untuk Java dari [di sini](https://releases.aspose.com/html/java/).
+1. **Java Development Kit (JDK)** – Java SE 8 atau yang lebih baru terpasang di sistem Anda.  
+2. **Perpustakaan Aspose.HTML untuk Java** – Unduh dan instal perpustakaan Aspose.HTML untuk Java dari [here](https://releases.aspose.com/html/java/).  
 3. **File EPUB** – Siapkan file EPUB yang ingin Anda konversi menjadi gambar JPG.
 
-## Impor Paket
+## Mengimpor Paket
 
-Untuk memulai, Anda perlu mengimpor paket‑paket yang diperlukan dari Aspose.HTML untuk Java. Impor ini memberi Anda akses ke mesin konversi dan opsi penyimpanan gambar.
+Untuk memulai, Anda perlu mengimpor paket yang diperlukan dari Aspose.HTML untuk Java. Impor ini memberi Anda akses ke mesin konversi dan opsi penyimpanan gambar.
 
 ```java
 // Import the required Aspose.HTML for Java packages
@@ -54,10 +57,10 @@ import java.io.FileInputStream;
 
 Sekarang, mari kita uraikan proses konversi menjadi beberapa langkah.
 
-## Panduan Langkah demi Langkah
+## Panduan Langkah‑per‑Langkah
 
-### Langkah 1: Buka File EPUB
-Pertama, kita membuka file EPUB menggunakan `FileInputStream`. Ganti `'input.epub'` dengan path aktual ke dokumen EPUB Anda.
+### Langkah 1: Membuka File EPUB
+Pertama, kita membuka file EPUB menggunakan `FileInputStream`. Ganti `'input.epub'` dengan jalur sebenarnya ke dokumen EPUB Anda.
 
 ```java
 try (FileInputStream fileInputStream = new FileInputStream("input.epub")) {
@@ -67,8 +70,8 @@ try (FileInputStream fileInputStream = new FileInputStream("input.epub")) {
 
 > **Tips profesional:** Menggunakan blok try‑with‑resources memastikan aliran ditutup secara otomatis, mencegah kebocoran handle file.
 
-### Langkah 2: Inisialisasi ImageSaveOptions  
-Selanjutnya, kita membuat instance `ImageSaveOptions` untuk menentukan bagaimana gambar output harus disimpan. Di sini kami memilih JPEG sebagai format target, yang ideal untuk thumbnail siap‑web.
+### Langkah 2: Menginisialisasi ImageSaveOptions  
+Selanjutnya, kita membuat instance `ImageSaveOptions` untuk menentukan bagaimana gambar output disimpan. Di sini kami memilih JPEG sebagai format target, yang ideal untuk thumbnail siap‑web.
 
 ```java
 ImageSaveOptions options = new ImageSaveOptions(ImageFormat.Jpeg);
@@ -76,59 +79,66 @@ ImageSaveOptions options = new ImageSaveOptions(ImageFormat.Jpeg);
 
 Anda juga dapat menyesuaikan kualitas, DPI, dan dimensi halaman melalui objek `options` jika memerlukan kontrol yang lebih halus.
 
-### Langkah 3: Konversi EPUB ke JPG  
-Akhirnya, panggil metode konversi. `Converter.convertEPUB` membaca aliran EPUB, merender setiap halaman, dan menulis hasilnya ke file JPG yang ditentukan.
+### Langkah 3: Mengonversi EPUB ke JPG  
+Terakhir, panggil metode konversi. `Converter.convertEPUB` membaca aliran EPUB, merender setiap halaman, dan menulis hasilnya ke file JPG yang ditentukan.
 
 ```java
 Converter.convertEPUB(fileInputStream, options, "output.jpg");
 ```
 
-> **Kesalahan umum:** Pastikan path file output berakhiran “.jpg”. Jika Anda memerlukan gambar terpisah per halaman, berikan pola seperti `"output_page_{0}.jpg"`.
+> **Kesalahan umum:** Pastikan jalur file output diakhiri dengan “.jpg”. Jika Anda memerlukan gambar terpisah per halaman, berikan pola seperti `"output_page_{0}.jpg"`.
 
-Itu saja! Anda telah berhasil melakukan **konversi gambar epub** dari EPUB ke JPG menggunakan Aspose.HTML for Java.
+Selesai! Anda telah berhasil melakukan **konversi gambar epub** dari EPUB ke JPG menggunakan Aspose.HTML untuk Java.
 
-## Kesimpulan
-
-Dalam tutorial ini, kami membahas semua yang Anda perlukan untuk **convert epub to jpg**—dari menyiapkan lingkungan hingga konversi konversi dengan `ImageSaveOptions`. Aspose.HTML untuk Java menyembunyikan detail rendering tingkat rendah, memungkinkan Anda fokus pada integrasi output ke dalam aplikasi, baik itu layanan web, alat desktop, atau backend seluler.
-
-Jika Anda mengalami masalah atau memiliki pertanyaan lebih lanjut, jangan ragu untuk mencari bantuan dari komunitas Aspose di [Aspose Forums](https://forum.aspose.com/).
+## Masalah Umum dan Solusinya
+- **Kesalahan out‑of‑memory pada EPUB sangat besar** – Tingkatkan ukuran heap JVM (`-Xmx`) atau proses buku halaman‑per‑halaman menggunakan `options.setPageIndex()` dan `options.setPageCount()`.  
+- **Font tidak ditemukan** – Pastikan font yang disematkan dapat diakses; Aspose.HTML secara otomatis mengekstraknya, tetapi font khusus mungkin perlu ditambahkan ke classpath.  
+- **Orientasi gambar tidak tepat** – Periksa CSS EPUB sumber; Anda dapat memutar gambar setelah konversi dengan perpustakaan gambar Java standar jika diperlukan.
 
 ## Pertanyaan yang Sering Diajukan (FAQ)
 
 ### Apakah Aspose.HTML untuk Java gratis untuk digunakan?
-Aspose.HTML untuk Java adalah pustaka komersial, tetapi Anda dapat mencobanya dengan [uji coba gratis](https://releases.aspose.com/).
+Aspose.HTML untuk Java adalah perpustakaan komersial, tetapi Anda dapat mencobanya dengan [free trial](https://releases.aspose.com/).
 
-### Bisakah saya mengonversi file format lain dengan Aspose.HTML untuk Java?
-Ya. Aspose.HTML for Java mendukung konversi berbagai format, termasuk HTML, EPUB, dan lainnya.
+### Bisakah saya mengonversi format file lain dengan Aspose.HTML untuk Java?
+Ya, Aspose.HTML untuk Java mendukung konversi berbagai format, termasuk HTML, EPUB, dan lainnya.
 
 ### Bagaimana cara mendapatkan lisensi sementara untuk Aspose.HTML untuk Java?
-Anda dapat memperoleh lisensi sementara dari [di sini](https://purchase.aspose.com/temporary-license/).
+Anda dapat memperoleh lisensi sementara dari [here](https://purchase.aspose.com/temporary-license/).
 
-### Apakah ada sumber dokumentasi komprehensif untuk Aspose.HTML untuk Java?
-Ya, Anda dapat menemukan detail dokumentasi di [Aspose.HTML untuk Dokumentasi Java](https://reference.aspose.com/html/java/).
+### Apakah ada sumber dokumentasi lengkap untuk Aspose.HTML untuk Java?
+Ya, Anda dapat menemukan dokumentasi detail di [Aspose.HTML for Java Documentation](https://reference.aspose.com/html/java/).
 
-### Di mana saya dapat membeli lisensi penuh untuk Aspose.HTML for Java?
-Anda dapat membeli lisensi penuh dari [di sini](https://purchase.aspose.com/buy).
+### Di mana saya dapat membeli lisensi penuh untuk Aspose.HTML untuk Java?
+Anda dapat membeli lisensi penuh dari [here](https://purchase.aspose.com/buy).
 
-## Pertanyaan Umum Tambahan
+## Pertanyaan Tambahan yang Sering Diajukan
 
-**Q: Bisakah saya menentukan ukuran gambar khusus untuk setiap halaman?**
+**T: Bisakah saya menentukan ukuran gambar khusus untuk setiap halaman?**  
 J: Ya. Sesuaikan metode `options.setPageSize(width, height)` sebelum memanggil `convertEPUB`.
 
-**Q: Bagaimana cara menangani EPUB dengan font tertanam?**
-A: Aspose.HTML secara otomatis mengekstrak dan menggunakan font yang tertanam, memastikan rendering yang akurat.
+**T: Bagaimana cara menangani EPUB dengan font yang disematkan?**  
+J: Aspose.HTML secara otomatis mengekstrak dan menggunakan font yang disematkan, memastikan rendering yang akurat.
 
-**Q: Apakah memungkinkan menghasilkan PNG alih‑alih JPG?**
+**T: Apakah memungkinkan menghasilkan PNG alih‑alih JPG?**  
 J: Tentu saja. Gunakan `ImageFormat.Png` saat membuat `ImageSaveOptions`.
 
-**Q: Apakah API mendukung konversi hanya pada halaman tertentu?**
-A: Anda dapat mengatur `options.setPageIndex(startIndex)` dan `options.setPageCount(count)` untuk membatasi konversi.
+**T: Apakah API mendukung konversi hanya pada halaman tertentu?**  
+J: Anda dapat mengatur `options.setPageIndex(startIndex)` dan `options.setPageCount(count)` untuk membatasi konversi.
 
 ---
 
-**Terakhir Diperbarui:** 30-12-2025
-**Diuji Dengan:** Aspose.HTML untuk Java 23.12
-**Penulis:** Beranggapan  
+**Kesimpulan**
+
+Dalam tutorial ini, kami membahas semua yang Anda perlukan untuk **mengonversi epub ke jpg**—dari menyiapkan lingkungan hingga mengeksekusi konversi dengan `ImageSaveOptions`. Aspose.HTML untuk Java menyederhanakan detail rendering tingkat rendah, memungkinkan Anda fokus pada integrasi output ke dalam aplikasi, baik itu layanan web, alat desktop, atau backend seluler.
+
+Jika Anda menemui masalah atau memiliki pertanyaan lebih lanjut, jangan ragu untuk mencari bantuan di komunitas Aspose melalui [Aspose Forums](https://forum.aspose.com/).
+
+---
+
+**Terakhir Diperbarui:** 2026-03-24  
+**Diuji Dengan:** Aspose.HTML untuk Java 23.12  
+**Penulis:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

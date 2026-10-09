@@ -1,0 +1,7 @@
+Title: Render HTML to PDF in C# – Improve PDF Text Quality
+Slug: render-html-to-pdf-in-c-improve-pdf-text-quality
+Category: html-extensions-and-conversions
+ProcessedDate: 2026-07-05T18:34:46.810660
+SourceRepo: AI Search API
+Keywords: render html to pdf, improve pdf text quality, save html as pdf, enable subpixel rendering, html to pdf c#
+PRNumber: 202

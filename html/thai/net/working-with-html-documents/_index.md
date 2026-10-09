@@ -37,9 +37,28 @@ url: /th/net/working-with-html-documents/
 ตอนนี้ มาพัฒนาทักษะของคุณไปอีกขั้น การแก้ไขเอกสาร HTML เป็นงานทั่วไปสำหรับนักพัฒนาเว็บ และ Aspose.HTML ช่วยลดความยุ่งยากของกระบวนการนี้ได้อย่างมาก ในส่วนนี้ เราจะพูดถึงการสร้าง การจัดการ และการจัดรูปแบบเอกสาร คุณจะค้นพบวิธีปรับปรุงรูปลักษณ์และฟังก์ชันการทำงานของเนื้อหาเว็บของคุณ ให้ดึงดูดและใช้งานง่าย
 
 ### [วิธีบันทึก HTML ใน C# – คู่มือฉบับสมบูรณ์โดยใช้ Custom Resource Handler](./how-to-save-html-in-c-complete-guide-using-a-custom-resource/)
-
+### [วิธีบันทึก HTML ใน C# ด้วย Custom Resource Handler](./how-to-save-html-in-c-with-custom-resource-handler/)
 ### [วิธีทำให้หัวเรื่องเป็นตัวหนาด้วย CSS & C# – คู่มือขั้นตอนเต็ม](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
 เรียนรู้วิธีทำให้หัวเรื่องเป็นตัวหนาด้วย CSS ใน C# อย่างละเอียด พร้อมขั้นตอนครบถ้วนเพื่อปรับปรุงการออกแบบเว็บของคุณ
+### [วิธีบันทึก HTML ใน C# – ตัวจัดการทรัพยากรแบบกำหนดเอง & ZIP](./how-to-save-html-in-c-custom-resource-handlers-zip/)
+
+### [วิธีบันทึก HTML ด้วย Aspose.Html – คู่มือ C# ฉบับสมบูรณ์](./how-to-save-html-with-aspose-html-complete-c-guide/)
+เรียนรู้วิธีบันทึก HTML ด้วย Aspose.HTML ด้วยคู่มือฉบับสมบูรณ์สำหรับ C#
+
+### [วิธีบีบอัด HTML ใน C# – คู่มือขั้นตอนเต็ม](./how-to-zip-html-in-c-complete-step-by-step-guide/)
+เรียนรู้วิธีบีบอัดไฟล์ HTML ด้วย C# อย่างละเอียด พร้อมขั้นตอนครบถ้วนเพื่อเพิ่มประสิทธิภาพการจัดเก็บ
+
+### [บันทึก HTML เป็น ZIP ใน C# – คู่มือฉบับสมบูรณ์โดยใช้ Custom Resource Handler](./save-html-as-zip-in-c-complete-guide-with-custom-resource-ha/)
+เรียนรู้วิธีบันทึกไฟล์ HTML เป็นไฟล์ ZIP ด้วย C# และ Custom Resource Handler อย่างละเอียด
+
+### [วิธีบันทึก HTML ด้วย Aspose – คู่มือ C# ฉบับสมบูรณ์](./how-to-save-html-with-aspose-complete-c-guide/)
+เรียนรู้วิธีบันทึกไฟล์ HTML ด้วย Aspose ใน C# อย่างละเอียดครบถ้วนตั้งแต่การตั้งค่าไปจนถึงการใช้งานจริง
+
+### [วิธีบีบอัด HTML ใน C# – คู่มือฉบับสมบูรณ์เพื่อสร้างไฟล์ ZIP](./how-to-zip-html-in-c-complete-guide-to-create-zip-archive/)
+เรียนรู้วิธีบีบอัดไฟล์ HTML เป็น ZIP ด้วย C# อย่างละเอียดครบถ้วน
+
+### [วิธีสร้างเอกสาร HTML ใน C# – คู่มือฉบับสมบูรณ์ด้วย Custom Resource Handler](./create-html-document-c-complete-guide-with-custom-resource-h/)
+เรียนรู้วิธีสร้างเอกสาร HTML ด้วย C# อย่างละเอียด พร้อมการใช้ Custom Resource Handler เพื่อจัดการทรัพยากร
 
 ### [สร้าง HTML จากสตริงใน C# – คู่มือขั้นตอนเต็ม](./create-html-from-string-in-c-step-by-step-guide/)
 เรียนรู้วิธีสร้าง HTML จากสตริงใน C# อย่างละเอียด ด้วยขั้นตอนที่ชัดเจนและตัวอย่างโค้ด

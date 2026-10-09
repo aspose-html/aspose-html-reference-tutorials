@@ -10,7 +10,6 @@ url: /vi/java/configuring-environment/set-user-style-sheet/
 weight: 16
 ---
 
-Now produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

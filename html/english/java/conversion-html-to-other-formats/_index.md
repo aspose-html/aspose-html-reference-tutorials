@@ -82,21 +82,116 @@ In conclusion, mastering **html to pdf java** and the broader set of conversions
 
 ## Conversion - HTML to Other Formats Tutorials
 ### [Converting HTML to PDF](./convert-html-to-pdf/)
-Learn how to convert HTML to PDF in Java using Aspose.HTML. Create high-quality PDFs from your HTML content effortlessly.
 ### [Convert HTML to PDF in Java – Step‑by‑Step Guide with Page Size Settings](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Step-by-step guide to convert HTML to PDF in Java, including how to set custom page sizes using Aspose.HTML.
+### [Convert HTML to PDF in Java – Complete Step‑by‑Step Guide](./convert-html-to-pdf-in-java-complete-step-by-step-guide/)
+Complete step‑by‑step guide to convert HTML to PDF in Java with Aspose.HTML, covering all settings, options, and best practices.
+### [embed fonts pdf – Complete Aspose HTML to PDF Guide (Java)](./embed-fonts-pdf-complete-aspose-html-to-pdf-guide-java/)
+Learn how to embed custom fonts into PDFs using Aspose.HTML for Java, ensuring accurate text rendering across all devices.
+
+### [How to compress PDF with Aspose HTML to PDF – Java guide](./how-to-compress-pdf-with-aspose-html-to-pdf-java-guide/)
+Learn how to compress PDF files using Aspose.HTML for Java, reducing size while preserving quality.
+### [How to Convert HTML to PDF with Aspose HTML – Async Java Guide](./how-to-convert-html-to-pdf-with-aspose-html-async-java-guide/)
+Async guide for converting HTML to PDF in Java using Aspose.HTML, enabling non‑blocking operations and improved performance.
+### [Convert HTML to PDF in Bulk – Java NIO Guide with Parallel Processing](./convert-html-to-pdf-in-bulk-java-nio-guide-with-parallel-pro/)
+Learn how to batch convert HTML files to PDF using Java NIO and parallel processing for fast, efficient bulk conversions.
+### [Convert HTML to PDF in Java – Quick Aspose.HTML Guide](./convert-html-to-pdf-in-java-quick-aspose-html-guide/)
+A fast‑track guide to converting HTML to PDF in Java using Aspose.HTML, covering essential steps for quick implementation.
+### [Convert HTML to PDF in Java – Full Guide with Paper Size & DPI](./convert-html-to-pdf-in-java-full-guide-with-paper-size-dpi/)
+Comprehensive guide covering PDF conversion with custom paper sizes and DPI settings using Aspose.HTML for Java.
+### [How to Convert Webpage to PDF in Java – Step‑by‑Step Guide](./how-to-convert-webpage-to-pdf-in-java-step-by-step-guide/)
+Step-by-step guide to convert a webpage to PDF in Java using Aspose.HTML, covering setup and basic conversion options.
+### [Create PDF from HTML with Custom Page Size and Embedded Fonts](./create-pdf-from-html-with-custom-page-size-and-embedded-font/)
+Generate PDFs with custom page dimensions and embedded fonts using Aspose.HTML for Java.
+### [Convert HTML to PDF in Java – One‑Line Code Example](./convert-html-to-pdf-in-java-one-line-code-example/)
+Generate a PDF from HTML in Java with a single line of Aspose.HTML code.
 ### [Converting HTML to MHTML](./convert-html-to-mhtml/)
 Effortlessly convert HTML to MHTML using Aspose.HTML for Java. Follow our step-by-step guide for efficient HTML-to-MHTML conversion.
+
 ### [Converting HTML to XPS](./convert-html-to-xps/)
 Learn how to effortlessly convert HTML to XPS using Aspose.HTML for Java. Create cross-platform documents with ease.
+
 ### [Converting Markdown to HTML](./convert-markdown-to-html/)
 Convert Markdown to HTML in Java seamlessly with Aspose.HTML for Java. Follow our step-by-step guide to streamline your document conversion needs.
+### [Create PDF from Markdown in Java – Step‑by‑Step Guide](./create-pdf-from-markdown-in-java-step-by-step-guide/)
+Step-by-step tutorial to generate PDF documents from Markdown files in Java using Aspose.HTML.
 ### [Converting SVG to Image](./convert-svg-to-image/)
 Learn how to convert SVG to images in Java with Aspose.HTML. Comprehensive guide for high-quality output.
+
 ### [Converting SVG to PDF](./convert-svg-to-pdf/)
 Convert SVG to PDF in Java with Aspose.HTML. A seamless solution for high-quality document conversion.
+
 ### [Converting SVG to XPS](./convert-svg-to-xps/)
 Learn how to convert SVG to XPS with Aspose.HTML for Java. Simple, step-by-step guide for seamless conversions.
+### [Create docx from html – Java guide to convert HTML to DOCX](./create-docx-from-html-java-guide-to-convert-html-to-docx/)
+### [Create PDF from HTML in Java – One‑Line Aspose Guide](./create-pdf-from-html-in-java-one-line-aspose-guide/)
+Generate a PDF from HTML in a single line of Java code using Aspose.HTML.
+### [Set Device Pixel Ratio in Java – Convert HTML to Mobile](./set-device-pixel-ratio-in-java-convert-html-to-mobile/)
+Learn how to set device pixel ratio in Java for mobile‑optimized HTML conversion with Aspose.HTML.
+### [convert html to pdf with Java – how to create thread pool](./convert-html-to-pdf-with-java-how-to-create-thread-pool/)
+
+### [Create Fixed Thread Pool for Batch HTML to PDF Conversion](./create-fixed-thread-pool-for-batch-html-to-pdf-conversion/)
+Learn how to set up a fixed thread pool in Java to efficiently process batch HTML to PDF conversions using Aspose.HTML.
+
+### [Convert Dynamic HTML PDF with Aspose HTML for Java](./convert-dynamic-html-pdf-with-aspose-html-for-java/)
+Learn how to convert dynamic HTML content to PDF using Aspose.HTML for Java, handling scripts and interactive elements.
+### [How to Use Aspose – Batch Convert HTML to PDF in Java](./how-to-use-aspose-batch-convert-html-to-pdf-in-java/)
+Learn how to batch convert multiple HTML files to PDF in Java using Aspose.HTML, improving efficiency for large-scale document processing.
+### [Aspose HTML PDF/A Tutorial: Convert HTML to PDF/A‑2b with Java](./aspose-html-pdf-a-tutorial-convert-html-to-pdf-a-2b-with-jav/)
+Learn how to convert HTML to PDF/A‑2b in Java using Aspose.HTML, ensuring long‑term archival compliance with a simple API.
+### [Extract audio from HTML – How to extract media and video](./extract-audio-from-html-how-to-extract-media-and-video/)
+
+### [Convert HTML to PDF in Java – Complete Guide with Font Embedding](./convert-html-to-pdf-in-java-complete-guide-with-font-embeddi/)
+Comprehensive guide on converting HTML to PDF in Java with font embedding for accurate text rendering.
+
+### [Create PDF from HTML in Java – Step‑by‑Step Guide](./create-pdf-from-html-in-java-step-by-step-guide/)
+Learn how to create a PDF from HTML in Java using Aspose.HTML with a detailed step‑by‑step guide.
+### [HTML to PDF Tutorial: Convert Web Pages to PDF with Java](./html-to-pdf-tutorial-convert-web-pages-to-pdf-with-java/)
+Learn how to convert web pages to PDF using Aspose.HTML for Java with simple code examples.
+### [How to Generate PDF from Markdown in Java – Step‑by‑Step Guide](./how-to-generate-pdf-from-markdown-in-java-step-by-step-guide/)
+Learn how to generate PDF from Markdown in Java using Aspose.HTML. Follow our step‑by‑step guide for seamless conversion.
+### [Create PDF from Markdown in Java – Simple One‑Liner Guide](./create-pdf-from-markdown-in-java-simple-one-liner-guide/)
+Generate a PDF directly from Markdown in Java with a single line of code using Aspose.HTML.
+### [How to Set Offset When Converting HTML to Markdown in Java](./how-to-set-offset-when-converting-html-to-markdown-in-java/)
+Learn how to set an offset during HTML to Markdown conversion in Java using Aspose.HTML.
+### [Convert markdown to html – Java guide with PDF output](./convert-markdown-to-html-java-guide-with-pdf-output/)
+Learn how to convert Markdown to HTML in Java and generate a PDF using Aspose.HTML, with step‑by‑step instructions.
+### [Save HTML as PDF with Java – Complete Guide Using Thread Pool and Templates](./save-html-as-pdf-with-java-complete-guide-using-thread-pool/)
+Learn how to efficiently save HTML as PDF in Java using thread pools and templates for high‑performance batch processing.
+### [Set PDF Page Size in Java – Complete HTML to PDF Guide](./set-pdf-page-size-in-java-complete-html-to-pdf-guide/)
+
+### [Create PDF from HTML in Java – Complete Step‑by‑Step Guide](./create-pdf-from-html-in-java-complete-step-by-step-guide/)
+A comprehensive step‑by‑step tutorial to generate PDFs from HTML in Java using Aspose.HTML, covering setup, options, and best practices.
+### [Set PDF Page Size with Aspose HTML – Full Java Guide](./set-pdf-page-size-with-aspose-html-full-java-guide/)
+Learn how to set custom PDF page sizes in Java using Aspose.HTML, with step‑by‑step code examples.
+### [Convert HTML to Markdown – Complete C# Guide](./convert-html-to-markdown-complete-c-guide/)
+Learn how to convert HTML to Markdown in C# using Aspose.HTML. Follow our step-by-step guide for accurate and efficient conversion.
+### [Create Fixed Thread Pool for Parallel HTML to PDF Conversion](./create-fixed-thread-pool-for-parallel-html-to-pdf-conversion/)
+Learn how to use a fixed thread pool to run multiple HTML‑to‑PDF conversions in parallel with Aspose.HTML for Java.
+### [html to pdf tutorial: Convert HTML to PDF in Java in One Line](./html-to-pdf-tutorial-convert-html-to-pdf-in-java-in-one-line/)
+Convert HTML to PDF in Java with a single line of code using Aspose.HTML.
+### [Create PDF Custom Size from HTML in Java – Full Guide](./create-pdf-custom-size-from-html-in-java-full-guide/)
+Learn how to generate PDFs with custom page dimensions from HTML using Aspose.HTML for Java in this comprehensive guide.
+### [Convert HTML to PDF in Java – Parallel Fixed Thread Pool Guide](./convert-html-to-pdf-in-java-parallel-fixed-thread-pool-guide/)
+Learn how to convert HTML to PDF in Java using a parallel fixed thread pool for faster batch processing.
+### [Convert Markdown to PDF in Java – Complete Guide](./convert-markdown-to-pdf-in-java-complete-guide/)
+Learn how to convert Markdown to PDF in Java with Aspose.HTML. Follow the complete guide for high‑quality PDF generation from Markdown files.
+### [Convert HTML to PDF in Java – Set PDF Page Size, Resolution, and Save HTML as PDF](./convert-html-to-pdf-in-java-set-pdf-page-size-resolution-and/)
+Learn how to set PDF page size and resolution when converting HTML to PDF in Java using Aspose.HTML.
+### [Convert HTML to PDF with Fixed Thread Pool Java – Step‑by‑Step Guide](./convert-html-to-pdf-with-fixed-thread-pool-java-step-by-step/)
+Learn how to convert HTML to PDF using a fixed thread pool in Java for efficient parallel processing with Aspose.HTML.
+### [How to Convert SVG – Complete Guide Using Aspose HTML Converter](./how-to-convert-svg-complete-guide-using-aspose-html-converte/)
+### [java html to pdf – PDF/A‑2b Conversion Guide](./java-html-to-pdf-pdf-a-2b-conversion-guide/)
+Guide to convert HTML to PDF/A‑2b compliant PDFs in Java using Aspose.HTML, ensuring long‑term archival quality.
+
+### [html to pdf conversion – Complete Guide to Batch Convert Files with Aspose.HTML](./html-to-pdf-conversion-complete-guide-to-batch-convert-files/)
+Step-by-step guide to batch converting multiple HTML files to PDF using Aspose.HTML for Java.
+### [html to pdf tutorial – Convert HTML to PDF with Aspose.HTML Java](./html-to-pdf-tutorial-convert-html-to-pdf-with-aspose-html-ja/)
+Step-by-step tutorial to convert HTML to PDF using Aspose.HTML for Java, covering setup, options, and best practices.
+### [Create PDF from HTML in Java – Parallel Batch Conversion Guide](./create-pdf-from-html-in-java-parallel-batch-conversion-guide/)
+Learn how to convert multiple HTML files to PDF simultaneously in Java using Aspose.HTML for efficient batch processing.
+### [Set PDF Page Size in Java – Java HTML to PDF Guide](./set-pdf-page-size-in-java-java-html-to-pdf-guide/)
+### [Create PDF from Markdown using Aspose HTML Converter (Java)](./create-pdf-from-markdown-using-aspose-html-converter-java/)
 
 ## Frequently Asked Questions
 
