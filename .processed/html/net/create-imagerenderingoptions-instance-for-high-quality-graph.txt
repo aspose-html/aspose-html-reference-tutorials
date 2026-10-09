@@ -1,0 +1,7 @@
+Title: Create imagerenderingoptions instance for high‑quality graphics rendering
+Slug: create-imagerenderingoptions-instance-for-high-quality-graph
+Category: canvas-and-image-manipulation
+ProcessedDate: 2026-10-09T10:53:26.233012
+SourceRepo: AI Search API
+Keywords: create imagerenderingoptions instance
+PRNumber: 297
