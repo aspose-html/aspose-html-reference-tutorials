@@ -49,6 +49,8 @@ Dowiedz się, jak w C# włączyć antyaliasing, aby uzyskać płynne krawędzie 
 Poznaj, jak renderować tekst na obrazach przy użyciu płótna w Aspose.HTML dla .NET – krok po kroku od podstaw do zaawansowanych technik.
 ### [Jak włączyć antyaliasing w C# – Kompletny przewodnik po stylach czcionek](./how-to-enable-antialiasing-in-c-complete-font-style-guide/)
 Dowiedz się, jak w C# włączyć antyaliasing i kontrolować style czcionek, aby uzyskać wyraźny i płynny tekst w renderowanych grafikach.
+### [Utwórz instancję ImageRenderingOptions dla wysokiej jakości renderowania grafiki](./create-imagerenderingoptions-instance-for-high-quality-graph/)
+Dowiedz się, jak skonfigurować ImageRenderingOptions, aby uzyskać najwyższą jakość renderowania grafik w Aspose.HTML dla .NET.
 
 ## Wniosek
 

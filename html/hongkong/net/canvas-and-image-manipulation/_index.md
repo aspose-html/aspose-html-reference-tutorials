@@ -49,6 +49,8 @@ Aspose.HTML for .NET 簡化了影像編輯。您可以載入影像、套用濾�
 學習如何在圖像上使用 Aspose.HTML for .NET 添加文字，涵蓋字型、顏色、位置與樣式的完整步驟。
 ### [如何在 C# 中啟用抗鋸齒 – 完整字體樣式指南](./how-to-enable-antialiasing-in-c-complete-font-style-guide/)
 了解如何在 C# 中使用 Aspose.HTML 啟用抗鋸齒並完整設定字體樣式，以提升圖形品質。
+### [為高品質圖形渲染建立 ImageRenderingOptions 實例](./create-imagerenderingoptions-instance-for-high-quality-graph/)
+說明如何在 .NET 中使用 Aspose.HTML 建立 ImageRenderingOptions 以實現高品質圖形渲染。
 
 ## 結論
 

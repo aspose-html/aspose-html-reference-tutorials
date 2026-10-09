@@ -49,6 +49,8 @@ Pelajari cara mengaktifkan antialiasing di C# untuk menghasilkan tepi gambar yan
 Panduan menyeluruh tentang cara menambahkan teks ke kanvas dan merendernya pada gambar menggunakan Aspose.HTML untuk .NET.
 ### [Cara Mengaktifkan Antialiasing di C# – Panduan Lengkap Gaya Font](./how-to-enable-antialiasing-in-c-complete-font-style-guide/)
 Pelajari cara mengaktifkan antialiasing di C# serta mengatur gaya font secara lengkap untuk tampilan teks yang halus.
+### [Buat instance ImageRenderingOptions untuk rendering grafis berkualitas tinggi](./create-imagerenderingoptions-instance-for-high-quality-graph/)
+Pelajari cara membuat objek ImageRenderingOptions guna menghasilkan grafik dengan kualitas tinggi menggunakan Aspose.HTML untuk .NET.
 
 ## Kesimpulan
 

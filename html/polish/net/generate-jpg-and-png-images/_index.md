@@ -30,7 +30,7 @@ Aspose.HTML dla .NET oferuje prostą metodę konwersji HTML na obrazy. Możesz o
 
 ## Optymalizacja obrazów
 
-Tworzenie obrazów to tylko pierwszy krok. Aspose.HTML dla .NET pozwala na dalszą optymalizację obrazów. Możesz dostosować ustawienia kompresji, ustawić rozdzielczość i dopasować dane wyjściowe, aby spełnić swoje specyficzne wymagania. Ta elastyczność zapewnia, że powstałe obrazy są zarówno przyjemne dla oka, jak i lekkie, co pozwala na wydajną dostawę do sieci.
+Tworzenie obrazów to tylko pierwszy krok. Aspose.HTML dla .NET pozwala na dalszą optymalizację obrazów. Możesz dostosować ustawienia kompresji, ustawić rozdzielczość i dopasować dane wyjściowe, aby spełnić swoje specyficzne wymagania. Ta elastyczność zapewnia, że powstałe obrazy są zarówno przyjemne dla oka i lekkie, co pozwala na wydajną dostawę do sieci.
 
 ## Integracja z projektami .NET
 
@@ -55,6 +55,8 @@ Dowiedz się, jak przekształcić kod HTML w obraz PNG przy użyciu Aspose.HTML 
 
 ### [Jak włączyć antyaliasing przy konwertowaniu DOCX do PNG/JPG](./how-to-enable-antialiasing-when-converting-docx-to-png-jpg/)
 Dowiedz się, jak włączyć antyaliasing przy konwersji dokumentów DOCX do formatów PNG i JPG przy użyciu Aspose.HTML.
+### [Jak utworzyć PNG z HTML przy użyciu Aspose.HTML – przewodnik krok po kroku](./how-to-create-png-from-html-with-aspose-html-step-by-step-gu/)
+Dowiedz się, jak przy użyciu Aspose.HTML przekształcić kod HTML w plik PNG krok po kroku.
 ### [Konwertuj docx do png – utwórz archiwum zip w C# – samouczek](./convert-docx-to-png-create-zip-archive-c-tutorial/)
 Dowiedz się, jak konwertować pliki DOCX na obrazy PNG i spakować je do archiwum ZIP przy użyciu C# i Aspose.HTML.
 ### [Konwertuj docx do png w C# – Kompletny przewodnik krok po kroku](./convert-docx-to-png-in-c-full-step-by-step-guide/)

@@ -49,6 +49,8 @@ Lär dig hur du aktiverar kantutjämning i C# för att få mjuka kanter i dina g
 Lär dig hur du lägger till och formaterar text på canvas-bilder med Aspose.HTML för .NET i en steg-för-steg guide.
 ### [Hur du aktiverar kantutjämning i C# – Komplett guide för teckensnittsstil](./how-to-enable-antialiasing-in-c-complete-font-style-guide/)
 Lär dig hur du aktiverar kantutjämning i C# och hanterar teckensnittsstilar för skarpa och jämna renderingar.
+### [Skapa ImageRenderingOptions-instans för högkvalitativ grafikrendering](./create-imagerenderingoptions-instance-for-high-quality-graph/)
+Lär dig hur du skapar en ImageRenderingOptions-instans för att rendera grafik med hög kvalitet i Aspose.HTML för .NET.
 
 ## Slutsats
 

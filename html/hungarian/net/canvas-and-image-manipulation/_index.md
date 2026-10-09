@@ -49,6 +49,7 @@ Ismerje meg, hogyan aktiválhatja az antialiasingot C#-ban a simább grafikai el
 Lépésről lépésre bemutatja, hogyan adhat szöveget vászonra, és jelenítheti meg képeken az Aspose.HTML for .NET segítségével.
 ### [Hogyan engedélyezzük az antialiasingot C#-ban – Teljes betűstílus útmutató](./how-to-enable-antialiasing-in-c-complete-font-style-guide/)
 Ismerje meg, hogyan használhatja az antialiasingot C#-ban a betűstílusok teljes körű beállításához.
+### [ImagerenderingOptions példány létrehozása a magas minőségű grafikai megjelenítéshez](./create-imagerenderingoptions-instance-for-high-quality-graph/)
 
 ## Következtetés
 
