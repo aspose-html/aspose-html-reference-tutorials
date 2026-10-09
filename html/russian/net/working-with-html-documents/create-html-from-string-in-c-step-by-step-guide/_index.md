@@ -24,8 +24,6 @@ title: Создание HTML из строки в C# – пошаговое р�
 url: /ru/net/working-with-html-documents/create-html-from-string-in-c-step-by-step-guide/
 ---
 
-.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

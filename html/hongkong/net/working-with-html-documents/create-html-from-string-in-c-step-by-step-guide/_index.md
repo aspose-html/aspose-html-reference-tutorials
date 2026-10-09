@@ -22,9 +22,7 @@ title: 在 C# 中從字串產生 HTML – 逐步指南
 url: /zh-hant/net/working-with-html-documents/create-html-from-string-in-c-step-by-step-guide/
 ---
 
-block placeholders unchanged.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

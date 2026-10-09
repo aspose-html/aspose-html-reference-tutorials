@@ -22,13 +22,7 @@ title: Tạo HTML từ Chuỗi trong C# – Hướng Dẫn Từng Bước
 url: /vi/net/working-with-html-documents/create-html-from-string-in-c-step-by-step-guide/
 ---
 
-output with all translations.
-
-Check for any missed items: The blockquote markers > should stay. Ensure we preserve code block placeholders.
-
-Also note "For Vietnamese, ensure proper RTL formatting if needed" but Vietnamese is LTR, ignore.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

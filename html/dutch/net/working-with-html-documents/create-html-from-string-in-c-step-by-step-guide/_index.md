@@ -24,9 +24,7 @@ title: HTML maken vanuit string in C# – Stapsgewijze handleiding
 url: /nl/net/working-with-html-documents/create-html-from-string-in-c-step-by-step-guide/
 ---
 
-Make sure we didn't translate any code block placeholders. Keep them unchanged.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

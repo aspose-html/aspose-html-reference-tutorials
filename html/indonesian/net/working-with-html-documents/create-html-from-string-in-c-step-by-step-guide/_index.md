@@ -24,7 +24,7 @@ title: Buat HTML dari String di C# – Panduan Langkah demi Langkah
 url: /id/net/working-with-html-documents/create-html-from-string-in-c-step-by-step-guide/
 ---
 
-no extra spaces that break formatting. Provide only translated content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -24,8 +24,6 @@ title: Créer du HTML à partir d’une chaîne en C# – Guide étape par étap
 url: /fr/net/working-with-html-documents/create-html-from-string-in-c-step-by-step-guide/
 ---
 
-.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

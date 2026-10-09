@@ -24,14 +24,6 @@ title: Crear HTML a partir de una cadena en C# – Guía paso a paso
 url: /es/net/working-with-html-documents/create-html-from-string-in-c-step-by-step-guide/
 ---
 
-formatting.
-
-Let's produce the translated content.
-
-Start with the shortcodes unchanged.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
