@@ -116,9 +116,13 @@ Pelajari cara mengonfigurasi Runtime Service di Aspose.HTML untuk Java untuk men
 ### [Implement Sandboxing in Aspose.HTML for Java](./implement-sandboxing/)
 Pelajari cara menerapkan sandboxing di Aspose.HTML untuk Java untuk mengontrol eksekusi skrip secara aman dalam dokumen HTML Anda dan mengonversinya ke PDF.
 
+### [Membuat Sandbox Aspose HTML – Panduan Lengkap Java](./create-aspose-html-sandbox-complete-java-guide/)
+Pelajari cara membuat sandbox Aspose HTML secara menyeluruh di Java untuk mengamankan proses konversi HTML ke PDF.
+
 ### [Set User Style Sheet in Aspose.HTML for Java](./set-user-style-sheet/)
 Pelajari cara mengatur stylesheet pengguna khusus di Aspose.HTML untuk Java, meningkatkan gaya dokumen Anda dan mengonversi HTML ke PDF dengan mudah.
 
+### [Dapatkan Versi Library di Java – Panduan Cepat Menampilkan Versi Library](./get-library-version-in-java-quick-guide-to-show-library-vers/)
 ### [Cara Membuat Sandbox di Java – Panduan Lengkap](./how-to-create-sandbox-in-java-full-guide/)
 Pelajari cara membuat sandbox di Java dengan Aspose.HTML, mengamankan eksekusi skrip dan melindungi aplikasi saat mengonversi HTML ke PDF.
 

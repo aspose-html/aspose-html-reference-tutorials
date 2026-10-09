@@ -114,6 +114,10 @@ Erfahren Sie, wie Sie Sandbox‑Einrichtung in Aspose.HTML für Java implementie
 Erfahren Sie, wie Sie eine Sandbox in Java erstellen, um die Skriptausführung sicher zu steuern und HTML‑zu‑PDF‑Konvertierungen zu schützen.
 ### [Benutzer‑Stylesheet in Aspose.HTML für Java festlegen](./set-user-style-sheet/)
 Erfahren Sie, wie Sie ein benutzerdefiniertes Benutzer‑Stylesheet in Aspose.HTML für Java festlegen, um das Dokumentstyling zu verbessern und HTML mühelos zu PDF zu konvertieren.
+### [Aspose HTML Sandbox erstellen – Vollständiger Java‑Leitfaden](./create-aspose-html-sandbox-complete-java-guide/)
+Erfahren Sie, wie Sie eine vollständige Sandbox für Aspose.HTML in Java einrichten, um sichere HTML‑zu‑PDF‑Konvertierungen zu gewährleisten.
+### [Bibliotheksversion in Java abrufen – Schnellleitfaden zur Anzeige der Bibliotheksversion](./get-library-version-in-java-quick-guide-to-show-library-vers/)
+Erfahren Sie, wie Sie die aktuelle Version von Aspose.HTML für Java programmgesteuert ermitteln und anzeigen.
 
 ---
 

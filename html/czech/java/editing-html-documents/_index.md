@@ -58,8 +58,20 @@ Naučte se, jak přidat inline CSS do HTML dokumentů pomocí Aspose.HTML for Ja
 Naučte se, jak spravovat vnitřní a vnější vlastnosti HTML v Aspose.HTML for Java, pomocí tohoto podrobného průvodce, který je ideální pro webové vývojáře a tvůrce obsahu.
 ### [Implementujte interní CSS v HTML dokumentech pomocí Aspose.HTML pro Javu](./implement-internal-css-html-documents/)
 Naučte se implementovat interní CSS do HTML dokumentů pomocí Aspose.HTML for Java s naším jednoduchým návodem krok za krokem.
+### [Jak zvýraznit HTML – Vyhledat text a nahradit <mark>](./how-to-highlight-html-search-text-replace-with-mark/)
+Naučte se, jak pomocí Aspose.HTML pro Javu vyhledat text v HTML a nahradit jej značkou <mark> pro zvýraznění.
 ### [Fixní vlákno pool v Javě – paralelní čištění HTML pomocí ExecutorService](./fixed-thread-pool-java-parallel-html-cleaning-with-executors/)
 Naučte se, jak využít fixní pool vláken v Javě k paralelnímu čištění HTML pomocí ExecutorService.
+### [Přidání potomka do těla v Javě – kompletní tutoriál Aspose.HTML](./append-child-to-body-in-java-full-aspose-html-tutorial/)
+Objevte, jak přidat prvek jako potomka do těla HTML dokumentu v Javě pomocí Aspose.HTML. Kompletní průvodce krok za krokem.
+### [Změna textu h1 v MHTML pomocí Javy – Kompletní krok‑za‑krokem průvodce](./change-h1-text-in-mhtml-with-java-full-step-by-step-guide/)
+Naučte se, jak změnit text h1 v souboru MHTML pomocí Aspose.HTML pro Javu v podrobném průvodci.
+### [Vytvořte nový HTML prvek v Javě – Kompletní průvodce Aspose.HTML](./create-new-html-element-with-java-full-aspose-html-guide/)
+Naučte se, jak vytvořit nový HTML element pomocí Aspose.HTML v Javě s podrobným návodem krok za krokem.
+### [Jak přidat podřízený prvek v Java DOM – Kompletní průvodce Aspose.HTML](./how-to-append-child-in-java-dom-complete-aspose-html-guide/)
+Naučte se, jak pomocí Aspose.HTML v Javě přidat nový uzel do DOM stromu. Kompletní krok za krokem průvodce.
+### [Jak odstranit skripty z HTML v Javě – Kompletní průvodce](./how-to-remove-scripts-from-html-in-java-complete-guide/)
+Naučte se, jak bezpečně odstranit skripty z HTML dokumentů v Javě pomocí Aspose.HTML. Kompletní krok za krokem průvodce.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -37,7 +37,20 @@ Temelleri kavradığınızda, oluşturma sürecine daha derinlemesine dalacağı
 Şimdi becerilerinizi bir üst seviyeye taşıyalım. HTML belgelerini düzenlemek web geliştiricileri için yaygın bir görevdir ve Aspose.HTML bu süreci önemli ölçüde basitleştirir. Bu bölümde, belge oluşturma, düzenleme ve biçimlendirmeyi ele alacağız. Web içeriğinizin görünümünü ve işlevselliğini nasıl geliştireceğinizi, onu ilgi çekici ve kullanıcı dostu hale getireceğinizi keşfedeceksiniz.
 
 ### [C#'ta HTML Kaydetme – Özel Kaynak İşleyicisi Kullanarak Tam Kılavuz](./how-to-save-html-in-c-complete-guide-using-a-custom-resource/)
+
 ### [CSS ve C# ile Başlığı Kalınlaştırma – Tam Adım Adım Kılavuz](./how-to-bold-heading-with-css-c-complete-step-by-step-guide/)
+### [C# ile HTML Kaydetme – Özel Kaynak İşleyicileri ve ZIP](./how-to-save-html-in-c-custom-resource-handlers-zip/)
+
+C# kullanarak HTML dosyalarını özel kaynak işleyicileri ve ZIP arşivleriyle kaydetmeyi öğrenin.
+### [Aspose.Html ile HTML Kaydetme – Tam C# Kılavuzu](./how-to-save-html-with-aspose-html-complete-c-guide/)
+### [C#'ta HTML Sıkıştırma – Tam Adım Adım Kılavuz](./how-to-zip-html-in-c-complete-step-by-step-guide/)
+
+### [C#'ta HTML Kaydetme – Özel Kaynak İşleyicisi Kullanarak](./how-to-save-html-in-c-with-custom-resource-handler/)
+### [C#'ta HTML'yi ZIP Olarak Kaydetme – Özel Kaynak İşleyicisi Kullanarak Tam Kılavuz](./save-html-as-zip-in-c-complete-guide-with-custom-resource-ha/)
+### [Aspose ile HTML Kaydetme – Tam C# Kılavuzu](./how-to-save-html-with-aspose-complete-c-guide/)
+### [C#'ta HTML Zipleme – ZIP Arşivi Oluşturma Tam Kılavuzu](./how-to-zip-html-in-c-complete-guide-to-create-zip-archive/)
+
+### [C#'ta HTML Belgesi Oluşturma – Özel Kaynak İşleyicisi Kullanarak Tam Kılavuz](./create-html-document-c-complete-guide-with-custom-resource-h/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

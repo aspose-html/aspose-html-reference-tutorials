@@ -119,7 +119,12 @@ Learn how to implement sandboxing in Aspose.HTML for Java to securely control sc
 Java でサンドボックスを作成する方法を完全ガイドで学び、HTML の安全な処理と変換を実現します。
 
 ### [Aspose.HTML for Java でユーザースタイルシートを設定する](./set-user-style-sheet/)
-Learn how to set a custom user stylesheet in Aspose.HTML for Java, enhancing your document styling and converting HTML to PDF with ease.
+Learn how to set a custom user stylesheet in Aspose.HTML for Java, enhancing your document styling and converting HTML to PDF with ease。
+
+### [Aspose HTML サンドボックスの作成 – 完全な Java ガイド](./create-aspose-html-sandbox-complete-java-guide/)
+Aspose.HTML のサンドボックスを Java で構築し、セキュアに HTML を PDF や PNG に変換する手順を詳しく解説します。
+### [Aspose.HTML for Java でライブラリバージョンを取得する](./get-library-version-in-java-quick-guide-to-show-library-vers/)
+Aspose.HTML for Java のライブラリバージョンを取得し、表示する方法を簡潔に解説します。
 
 ---
 

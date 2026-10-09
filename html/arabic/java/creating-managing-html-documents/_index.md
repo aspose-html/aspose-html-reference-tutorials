@@ -42,6 +42,8 @@ url: /ar/java/creating-managing-html-documents/
  أخيرًا، بالنسبة لأولئك الذين يتطلعون إلى تطوير مهاراتهم إلى أبعد من ذلك، هناك مجموعة كبيرة من الموضوعات المتقدمة التي يمكن استكشافها. تعرّف على كيفية إدارة مستندات SVG أو التعامل مع أحداث تحميل المستندات لإنشاء تطبيقات ويب سريعة الاستجابة وديناميكية. تأخذك هذه الدروس التعليمية إلى ما هو أبعد من HTML، وتتعمق في تعقيدات الرسومات المتجهة القابلة للتطوير (SVG) والبرمجة القائمة على الأحداث.[اقرأ المزيد](./create-manage-svg-documents/)
 
 ## إنشاء وإدارة مستندات HTML في Aspose.HTML لـ Java - دروس تعليمية
+
+
 ### [إنشاء مستندات HTML بشكل غير متزامن في Aspose.HTML لـ Java](./create-html-documents-async/)
 إتقان إنشاء مستندات HTML بشكل غير متزامن باستخدام Aspose.HTML لـ Java. دليل خطوة بخطوة ونصائح وأسئلة شائعة متضمنة للتعلم السريع.
 ### [إنشاء مستندات HTML فارغة في Aspose.HTML لـ Java](./create-empty-html-documents/)
@@ -54,8 +56,12 @@ url: /ar/java/creating-managing-html-documents/
 تعرف على كيفية تحميل مستندات HTML من التدفقات باستخدام Aspose.HTML for Java. يوفر هذا الدليل برنامجًا تعليميًا خطوة بخطوة للتعامل بسلاسة مع HTML.
 ### [إنشاء مستندات HTML من سلسلة نصية في Aspose.HTML لـ Java](./create-html-documents-from-string/)
 تعرف على كيفية إنشاء مستندات HTML من السلاسل في Aspose.HTML لـ Java باستخدام هذا الدليل خطوة بخطوة.
+### [إنشاء مستند HTML باستخدام Java – جلب JSON وإنشاء المحتوى](./create-html-document-with-java-fetch-json-and-generate-conte/)
+تعلم كيفية جلب بيانات JSON وإنشاء محتوى HTML ديناميكي باستخدام Aspose.HTML for Java في دليل خطوة بخطوة.
 ### [تحميل مستندات HTML من URL في Aspose.HTML لـ Java](./load-html-documents-from-url/)
 اكتشف كيفية تحميل مستندات HTML بسهولة من عنوان URL في Java باستخدام Aspose.HTML. يتضمن البرنامج التعليمي خطوة بخطوة.
+### [تحميل مستند HTML في Java – دليل كامل مع XPath و CSS](./load-html-document-java-complete-guide-with-xpath-css/)
+تعلم كيفية تحميل ومعالجة مستندات HTML في Java باستخدام Aspose.HTML مع دعم XPath و CSS في دليل شامل خطوة بخطوة.
 ### [تحميل مستند HTML باستخدام Aspose – دليل Java سريع لاسترجاع عنوان الصفحة](./load-html-document-aspose-quick-java-guide-to-retrieve-page/)
 تعلم كيفية تحميل مستند HTML واستخراج عنوان الصفحة باستخدام Aspose.HTML في Java من خلال دليل سريع خطوة بخطوة.
 ### [كيفية تحميل HTML في Java – دليل خطوة بخطوة](./how-to-load-html-in-java-step-by-step-guide/)
@@ -66,10 +72,56 @@ url: /ar/java/creating-managing-html-documents/
 تعلم كيفية التعامل مع أحداث تحميل المستندات في Aspose.HTML for Java باستخدام هذا الدليل خطوة بخطوة. قم بتحسين تطبيقات الويب الخاصة بك.
 ### [إنشاء وإدارة مستندات SVG في Aspose.HTML لـ Java](./create-manage-svg-documents/)
 تعلم كيفية إنشاء مستندات SVG وإدارتها باستخدام Aspose.HTML لـ Java! يغطي هذا الدليل الشامل كل شيء بدءًا من الإنشاء الأساسي وحتى المعالجة المتقدمة.
+### [إنشاء HTML من Markdown في Java – دليل خطوة بخطوة كامل](./create-html-from-markdown-in-java-full-step-by-step-guide/)
+تعلم كيفية تحويل ملفات Markdown إلى مستندات HTML في Java باستخدام Aspose.HTML من خلال دليل شامل خطوة بخطوة.
 ### [إنشاء بيئة تجريبية لـ HTML في Java – دليل خطوة بخطوة](./create-sandbox-for-html-in-java-step-by-step-guide/)
 تعلم كيفية إنشاء بيئة تجريبية لمعالجة HTML في Java باستخدام Aspose.HTML من خلال دليل خطوة بخطوة.
 ### [كيفية الاستعلام عن HTML في Java – دليل كامل](./how-to-query-html-in-java-complete-tutorial/)
 تعلم كيفية استعلام ومعالجة مستندات HTML في Java باستخدام Aspose.HTML من خلال دليل شامل خطوة بخطوة.
+### [كيفية تحليل HTML في Java – التحميل، الاستعلام وعدّ العناصر](./how-to-parse-html-java-load-query-count-elements/)
+تعلم كيفية تحميل مستندات HTML، استعلامها وعدّ العناصر باستخدام Aspose.HTML for Java في دليل خطوة بخطوة.
+### [تنفيذ JavaScript غير متزامن في Java – دليل شامل خطوة بخطوة](./execute-async-javascript-in-java-complete-step-by-step-guide/)
+تعلم كيفية تنفيذ جافا سكريبت غير متزامن في Java باستخدام Aspose.HTML من خلال دليل خطوة بخطوة شامل.
+### [عد أحرف HTML في Java – دليل كامل مع Aspose HTML](./count-html-characters-in-java-full-guide-with-aspose-html/)
+تعلم كيفية حساب عدد أحرف HTML في مستندات Java باستخدام Aspose.HTML من خلال دليل شامل خطوة بخطوة.
+### [استخراج النص من HTML في Java – دليل برمجة كامل](./extract-text-from-html-in-java-complete-programming-guide/)
+تعلم كيفية استخراج النص من مستندات HTML باستخدام Aspose.HTML لـ Java من خلال دليل شامل خطوة بخطوة.
+
+
+
+
+
+
+
+### [إنشاء HTML من JavaScript في Java – دليل شامل خطوة بخطوة](./generate-html-from-javascript-in-java-complete-step-by-step/)
+تعلم كيفية توليد مستندات HTML من كود JavaScript داخل تطبيق Java باستخدام دليل خطوة بخطوة شامل.
+
+
+
+
+
+
+
+### [تكرار NodeList في Java – قراءة HTML واستخراج مسار الصورة](./iterate-nodelist-java-read-html-get-image-src/)
+تعلم كيفية تكرار قائمة العقد (NodeList) في Java لقراءة ملفات HTML واستخراج مسار الصور بسهولة.
+
+
+
+
+
+
+
+### [التكرار على NodeList في Java – دليل كامل](./iterate-over-nodelist-java-complete-guide/)
+### [استخراج النص من HTML باستخدام Java – دليل خطوة بخطوة كامل](./extract-text-from-html-with-java-complete-step-by-step-guide/)
+تعلم كيفية استخراج النص من مستندات HTML باستخدام Aspose.HTML for Java من خلال دليل شامل خطوة بخطوة.
+### [كيفية استخدام XPath في Java – قراءة HTML واستخراج النص](./how-to-use-xpath-in-java-read-html-and-extract-text/)
+تعلم كيفية استخدام XPath في Java لقراءة مستندات HTML واستخراج النصوص بسهولة من خلال دليل خطوة بخطوة.
+### [كيفية الاستعلام عن HTML في Java – استخراج عناوين URL للصور](./how-to-query-html-in-java-extract-image-urls/)
+تعلم كيفية استخراج عناوين صور HTML باستخدام Aspose.HTML for Java عبر دليل خطوة بخطوة.
+### [كيفية تحليل HTML في Java – استخراج النص من مقالات HTML](./how-to-parse-html-in-java-extract-text-from-html-articles/)
+تعلم كيفية استخراج النص من مقالات HTML باستخدام Aspose.HTML for Java عبر دليل خطوة بخطوة.
+### [javascript settimeout async: تشغيل JavaScript في Java وتحديث HTML](./javascript-settimeout-async-run-javascript-in-java-and-updat/)
+تعلم كيفية تشغيل كود JavaScript باستخدام setTimeout داخل تطبيق Java وتحديث محتوى HTML بشكل غير متزامن.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

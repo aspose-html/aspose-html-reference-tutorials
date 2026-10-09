@@ -1,215 +1,173 @@
 ---
 category: general
-date: 2026-03-15
-description: Aspose HTML for Java を使用して HTML を PDF に素早く変換 – ワンラインのコードで HTML から PDF
-  を生成します。PDF 変換の完全な Java サンプル。
+date: 2026-03-05
+description: Aspose HTML for Java を使用して、1 行で HTML を PDF に変換します。HTML から PDF を生成する方法、Java
+  で PDF ドキュメントを作成する方法、PDF のページ数を取得する方法を学びましょう。
 draft: false
 keywords:
 - convert html to pdf
 - generate pdf from html
-- save html as pdf
-- pdf conversion java code
+- create pdf document java
+- pdf page count java
 - html to pdf java
 language: ja
-og_description: Aspose HTML for Java を使用して HTML を PDF に高速変換 - 1 行のコードで HTML から PDF
-  を生成します。PDF 変換の完全な Java サンプル。
+og_description: Aspose HTML for Java を使用して、1 行で HTML を PDF に変換します。このガイドでは、HTML から
+  PDF を生成し、Java で PDF ドキュメントを作成し、PDF のページ数を確認する手順を案内します。
 og_title: JavaでHTMLをPDFに変換 – ワンラインコード例
 tags:
 - Java
 - PDF
 - Aspose
-- HTML conversion
 title: JavaでHTMLをPDFに変換 – ワンラインコード例
 url: /ja/java/conversion-html-to-other-formats/convert-html-to-pdf-in-java-one-line-code-example/
 ---
 
-with all translated content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # JavaでHTMLをPDFに変換 – ワンラインコード例
 
-Ever needed to **convert HTML to PDF** but kept hitting roadblocks with bulky libraries? You're not alone. In many projects we end up writing dozens of lines just to get a simple PDF out of a web page, when a single‑line solution exists. In this tutorial we’ll show you exactly how to *generate PDF from HTML* using Aspose HTML for Java, and why that approach often beats the alternatives.
+**HTMLをPDFに変換**したいと思ったことはありませんか？しかし API が重すぎると感じたことはありませんか？あなたは一人ではありません。多くのプロジェクト—たとえば請求書、レポート、または静的サイトのスナップショット—では、PDF を取得する最速の方法は HTML をライブラリに渡して、重い処理を任せることです。  
 
-**convert HTML to PDF**したいと思ったことはありますか？しかし、かさばるライブラリで壁にぶつかっていませんか？あなたは一人ではありません。多くのプロジェクトでは、シングルラインの解決策があるにもかかわらず、シンプルなPDFをウェブページから取得するだけで数十行のコードを書いてしまいます。このチュートリアルでは、Aspose HTML for Java を使用して *generate PDF from HTML* する方法と、そのアプローチが他の代替手段より優れている理由を正確に示します。
+このチュートリアルでは、Aspose HTML for Java を使用して、たった一行のコードで **convert HTML to PDF** を正確に示します。また、**generate PDF from HTML**、**create PDF document Java**、そして **PDF page count Java** を読み取って結果を検証する方法もカバーします。余計な説明はなく、すぐにプロジェクトに組み込める実行可能なサンプルです。
 
-We'll walk through everything you need: the Maven dependency, the minimal Java code, and a few practical tips you might not find in the official docs. By the end you’ll be able to **save HTML as PDF** with just two lines of code, and you’ll understand how to adapt the snippet for more complex scenarios.
+## このガイドでカバーする内容
 
-必要なものすべてをご紹介します：Maven の依存関係、最小限の Java コード、そして公式ドキュメントには載っていない実用的なヒントをいくつか。最後まで読むと、**save HTML as PDF** をたった2行のコードで実行でき、より複雑なシナリオに合わせてスニペットを適応させる方法が理解できるようになります。
+- 前提条件と、ビルドに Aspose HTML ライブラリを追加する方法。
+- HTML ファイル（または URL）を PDF に変換する、完全な自己完結型 Java プログラム。
+- 変換後にページ数を取得する方法。ログ記録や条件分岐に便利です。
+- ストリームやカスタム変換オプション、大きなドキュメントなどのエッジケースを扱うためのヒント。
 
-## 学べること
-
-- Maven プロジェクトで Aspose HTML for Java を設定する方法。  
-- 完全な **PDF conversion Java code** を実行するワンラインメソッド。  
-- ファイルパス、文字エンコーディング、一般的な落とし穴の扱い方。  
-- 基本例を拡張してマルチページ文書やカスタムページ設定に対応させる方法。  
-
-Aspose の事前経験は不要です—動作する Java 8+ 環境とお好みの IDE があれば始められます。
+このページの最後までに、任意の Java ベースのバックエンドに適用できる、堅牢で本番環境向けのスニペットが手に入ります。
 
 ---
 
-## ステップ 1: Aspose HTML for Java をプロジェクトに追加 (generate pdf from html)
+## 手順 1: Aspose HTML for Java のセットアップ
 
-First things first, you need the library that does the heavy lifting. If you’re using Maven, drop the following dependency into your `pom.xml`:
-
-まず最初に、重い処理を担うライブラリが必要です。Maven を使用している場合は、次の依存関係を `pom.xml` に追加してください：
+コードを書く前に、クラスパスに Aspose HTML ライブラリを配置する必要があります。最も簡単な方法は Maven Central から取得することです。
 
 ```xml
-<!-- Aspose.HTML for Java -->
+<!-- pom.xml -->
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-html</artifactId>
-    <version>23.9</version> <!-- Check for the latest version on Maven Central -->
+    <version>23.12</version> <!-- Use the latest stable version -->
 </dependency>
 ```
 
-> **Pro tip:** The free **evaluation** version works out‑of‑the‑box, but it adds a watermark. For production, grab a license from the Aspose portal and call `License license = new License(); license.setLicense("Aspose.Total.Java.lic");`.
+Maven を使用していない場合は、[Aspose HTML for Java ダウンロードページ](https://downloads.aspose.com/html/java) から JAR をダウンロードし、IDE のライブラリに追加してください。
 
-> **Pro tip:** 無料の **evaluation** バージョンはすぐに使えますが、透かしが入ります。本番環境では Aspose ポータルからライセンスを取得し、`License license = new License(); license.setLicense("Aspose.Total.Java.lic");` を呼び出してください。
+> **プロのコツ:** このライブラリは Java 8 以降で動作しますが、最高のパフォーマンスを得るには Java 11 以降を対象にしてください。
 
-If you prefer Gradle, the equivalent is:
+## 手順 2: ワンライン変換の準備
 
-Gradle を好む場合は、同等の記述は次のとおりです：
-
-```gradle
-implementation 'com.aspose:aspose-html:23.9'
-```
-
-Once the dependency resolves, your IDE will download the JARs and you’re ready to write code.
-
-依存関係が解決されると、IDE が JAR をダウンロードし、コードを書く準備が整います。
-
-## ステップ 2: ワンライン変換を書いてみる (save html as pdf)
-
-Now for the fun part. Create a new Java class—let’s call it `OneLineConvert`. The entire conversion can be performed with a single static call to `Converter.convert`. Here’s the full, ready‑to‑run source file:
-
-さあ、楽しいパートです。新しい Java クラスを作成します—名前は `OneLineConvert` としましょう。変換は `Converter.convert` の単一の静的呼び出しで実行できます。以下が完全な、すぐに実行可能なソースファイルです：
+依存関係が整ったので、実際に **convert html to pdf** を行う Java クラスを書きましょう。操作の核心は `Converter.convertHTML` にあり、ソース（ファイルパス、URL、または `InputStream`）、出力先パス、そしてオプションの `PdfConversionOptions` オブジェクトを受け取ります。`null` を渡すと、API は適切なデフォルト設定を使用します。
 
 ```java
 import com.aspose.html.converters.Converter;
+import com.aspose.html.converters.pdf.PdfConversionResult;
 
-public class OneLineConvert {
+/**
+ * Simple demo that converts an HTML file to PDF in a single line.
+ *
+ * You can point htmlFilePath at a local file, a remote URL, or even an InputStream.
+ * The resulting PDF is written to pdfFilePath, and we print the page count.
+ */
+public class ConvertHtmlToPdfOneLine {
     public static void main(String[] args) throws Exception {
 
-        // Step 2.1: Specify the input HTML file and the desired output PDF file
-        String sourceHtml = "YOUR_DIRECTORY/input.html";
-        String targetPdf  = "YOUR_DIRECTORY/output.pdf";
+        // 1️⃣  Specify the HTML source – change this to your actual file or URL
+        String htmlFilePath = "YOUR_DIRECTORY/input.html";
 
-        // Step 2.2: Perform the conversion in a single statement
-        // This line does the entire HTML → PDF transformation.
-        Converter.convert(sourceHtml, targetPdf);
+        // 2️⃣  Destination PDF path – where the generated file will live
+        String pdfFilePath = "YOUR_DIRECTORY/output.pdf";
+
+        // 3️⃣  One‑line conversion – null means “use default options”
+        PdfConversionResult conversionResult = Converter.convertHTML(
+                htmlFilePath,   // source (file, URL, or stream)
+                pdfFilePath,    // destination PDF
+                null);          // default conversion settings
+
+        // 4️⃣  Show the PDF page count – useful for validation or logging
+        System.out.println("PDF generated, page count: " + conversionResult.getPageCount());
     }
 }
 ```
 
-### これが機能する理由
+### なぜこれが機能するのか
 
-`Converter.convert` は内部で HTML を解析し、デフォルトの CSS を適用し、画像を解決し、結果を PDF ドキュメントへストリームします。`Document` オブジェクトをインスタンス化したり、ページサイズを設定したり、ストリームを管理したりする必要はありません—Aspose がそれらを抽象化しています。そのため多くの開発者にとってこのメソッドは **html to pdf java** の定番ショートカットとなっています。
+- **`Converter.convertHTML`** はパース、レイアウト、レンダリングのステップを抽象化します。内部では DOM を構築し、CSS エンジンを実行し、各ページを PDF にラスタライズします。
+- オプションオブジェクトに **`null`** を渡すと、Aspose は組み込みのデフォルト設定を使用します。これらはほとんどのウェブページに最適化されています。カスタムの余白、フォント、DPI が必要な場合は、`null` を設定済みの `PdfConversionOptions` インスタンスに置き換えることができます。
+- 返される **`PdfConversionResult`** は、ページ数（`getPageCount()`）などの即時フィードバックを提供します。これにより、ファイルを開かずに **pdf page count java** の要件を満たすことができます。
 
-## ステップ 3: プログラムを実行し出力を確認する (pdf conversion java code)
+## 手順 3: プログラムを実行し、出力を検証する
 
-Compile and execute the class:
-
-クラスをコンパイルして実行します：
+IDE またはコマンドラインからクラスをコンパイルして実行します：
 
 ```bash
-mvn compile exec:java -Dexec.mainClass=OneLineConvert
+javac -cp "path/to/aspose-html-23.12.jar" ConvertHtmlToPdfOneLine.java
+java -cp ".:path/to/aspose-html-23.12.jar" ConvertHtmlToPdfOneLine
 ```
 
-If everything is set up correctly, you’ll find `output.pdf` in the folder you specified. Open it with any PDF viewer; you should see the rendered HTML page, complete with styles and images.
+すべて正しく設定されていれば、次のような出力が表示されます：
 
-すべてが正しく設定されていれば、指定したフォルダーに `output.pdf` が生成されます。任意の PDF ビューアで開くと、スタイルと画像を含むレンダリングされた HTML ページが表示されます。
+```
+PDF generated, page count: 3
+```
 
-> **Common question:** *What if my HTML references external resources (CSS, JS, images) hosted on the web?*  
-> Aspose automatically follows HTTP/HTTPS URLs, but you must ensure the machine running the conversion has internet access. For offline builds, copy those assets locally and adjust the `<base href>` tag in your HTML.
+`output.pdf` を任意の PDF ビューアで開くと、`input.html` のレンダリング結果が表示されます。出力されたページ数は実際のページ数と一致し、**pdf page count java** 呼び出しが成功したことが確認できます。
 
-> **Common question:** *HTML がウェブ上の外部リソース（CSS、JS、画像）を参照している場合はどうしますか？*  
-> Aspose は HTTP/HTTPS の URL を自動的にたどりますが、変換を実行するマシンがインターネットにアクセスできることを確認してください。オフラインビルドの場合は、これらのアセットをローカルにコピーし、HTML の `<base href>` タグを調整してください。
+> **ファイルではなく URL を変換したい場合は？**  
+> `htmlFilePath` を URL 文字列に置き換えるだけです。例: `"https://example.com/report.html"`。同じワンラインメソッドがリモートリソースでも機能します。
 
-## ステップ 4: エッジケースの処理 (save html as pdf)
+## 手順 4: 拡張 – カスタムオプション（任意）
 
-### 4.1 Unicode 文字の扱い
-
-If your source HTML contains non‑ASCII characters (e.g., Japanese or emoji), make sure the file is saved in UTF‑8. You can also force the encoding when reading the file:
-
-ソース HTML に非 ASCII 文字（例: 日本語や絵文字）が含まれる場合、ファイルが UTF‑8 で保存されていることを確認してください。読み込む際にエンコーディングを強制指定することもできます：
+シングルラインのアプローチは迅速なタスクに最適ですが、特定のフォントを埋め込む、PDF バージョンを変更するなど、より細かい制御が必要になることもあります。以下は `PdfConversionOptions` オブジェクトを作成する小さなコードスニペットです：
 
 ```java
-java.nio.file.Path htmlPath = java.nio.file.Paths.get(sourceHtml);
-String htmlContent = java.nio.file.Files.readString(htmlPath, java.nio.charset.StandardCharsets.UTF_8);
-Converter.convert(htmlContent, targetPdf);
+import com.aspose.html.converters.pdf.PdfConversionOptions;
+import com.aspose.html.drawing.Color;
+
+// Create options with a custom page size and margin
+PdfConversionOptions options = new PdfConversionOptions();
+options.setPageSize(PdfConversionOptions.PageSize.A4);
+options.getMargin().setTop(20);
+options.getMargin().setBottom(20);
+options.getMargin().setLeft(15);
+options.getMargin().setRight(15);
+
+// Use the same one‑line call but pass the options
+PdfConversionResult result = Converter.convertHTML(htmlFilePath, pdfFilePath, options);
+System.out.println("Created PDF with " + result.getPageCount() + " pages using custom options.");
 ```
 
-### 4.2 マルチページ文書
+これで、必要なレイアウトを正確に指定した **create PDF document Java** の柔軟性を持ちつつ、コードは簡潔に保てます。
 
-The one‑line method respects the natural flow of the HTML. If your page is long enough, Aspose automatically adds new PDF pages. However, you can control page size via `ConverterOptions` (still a single call, just an overload):
+## 手順 5: よくある落とし穴と回避策
 
-ワンラインメソッドは HTML の自然なフローを尊重します。ページが長ければ、Aspose は自動的に新しい PDF ページを追加します。ただし、`ConverterOptions` を使用してページサイズを制御できます（依然として単一呼び出し、オーバーロードだけです）：
+| Issue | Symptom | Fix |
+|-------|----------|-----|
+| **フォントが見つからない** | テキストが四角形やデフォルトフォントで表示される | サーバーに必要なフォントがインストールされていることを確認するか、`PdfConversionOptions.setEmbeddedFonts(true)` で埋め込んでください。 |
+| **大きなHTMLファイルでOutOfMemoryErrorが発生** | 変換中にJVMがクラッシュする | ヒープサイズを増やす（`-Xmx2g`）か、ファイルパスの代わりに `InputStream` でHTMLをストリームしてください。 |
+| **相対画像パスが壊れる** | PDF内の画像が表示されなくなる | 絶対URLを使用するか、`PdfConversionOptions.setBaseUrl("file:///path/to/resources/")` でベースURLを設定してください。 |
+| **ページ数が正しくない** | `getPageCount()` が 0 を返す | 出力先パスが書き込み可能であること、変換が例外なく完了したことを確認してください。 |
 
-```java
-import com.aspose.html.converters.Converter;
-import com.aspose.html.converters.ConverterOptions;
-import com.aspose.html.rendering.pdf.PdfPageSize;
+これらに早めに対処することで、後々のバグ追跡を防げます。
 
-ConverterOptions options = new ConverterOptions();
-options.setPdfPageSize(PdfPageSize.A4);
-Converter.convert(sourceHtml, targetPdf, options);
-```
+## ビジュアルサマリー
 
-### 4.3 セキュリティ上の考慮点
+![HTMLをPDFに変換するワークフローダイアグラム](placeholder.png){alt="HTMLをPDFに変換するワークフローダイアグラム"}
 
-When converting untrusted HTML, consider disabling JavaScript execution:
+上記の図（alt テキストには主要キーワードが含まれています）は、シンプルなフローを示しています：**HTML source → Aspose HTML converter → PDF output + page count**。
 
-信頼できない HTML を変換する場合は、JavaScript の実行を無効にすることを検討してください：
+## 結論
 
-```java
-options.getHtmlLoadOptions().setEnableJavaScript(false);
-```
+Java で **convert HTML to PDF** を単一のメソッド呼び出しで行う方法、**generate PDF from HTML** の方法、オプションのカスタム設定で **create PDF document Java** を作成する方法、そして検証のために **PDF page count Java** を読み取る方法を学びました。全体のソリューションは数行に収まりますが、本番環境で使用できるだけの堅牢さがあります。
 
-This prevents malicious scripts from running during the conversion process.
+次は何をしますか？動的に生成された HTML 文字列を渡してみたり、カスタムページ余白を試したり、このスニペットを Spring Boot の REST エンドポイントに統合してオンデマンドで PDF を返すようにしたりしてください。可能性は無限で、今手に入れたコードは堅実な基盤です。
 
-これにより、変換プロセス中に悪意のあるスクリプトが実行されるのを防げます。
-
-## ステップ 5: ビジュアルで確認 (convert html to pdf)
-
-Below is a quick screenshot of the resulting PDF. It illustrates how the original HTML layout is preserved.
-
-以下は生成された PDF の簡単なスクリーンショットです。元の HTML レイアウトがどのように保持されているかが分かります。
-
-![Convert HTML to PDF example](/images/convert-html-to-pdf.png "convert html to pdf")
-
-*(If you’re reading this offline, imagine a clean PDF page with a heading, paragraph, and an image—exactly what the HTML described.)*
-
-*(オフラインで閲覧している場合は、見出し、段落、画像が配置されたきれいな PDF ページを想像してください—HTML が記述していた通りです。)*
-
----
-
-## よくある質問
-
-**Q: これは Java 11 以降でも動作しますか？**  
-A: もちろんです。Aspose HTML は Java 8+ を対象としているので、最新の JVM でも問題なく動作します。
-
-**Q: ローカルファイルではなく URL を直接変換できますか？**  
-A: はい。URL 文字列を `Converter.convert` に渡すだけです。例: `Converter.convert("https://example.com", "page.pdf");`.
-
-**Q: パスワード保護された PDF はどうですか？**  
-A: 変換後に Aspose PDF for Java を使用して PDF を暗号化できますが、これは基本的な **convert html to pdf** 呼び出しとは別のステップです。
-
----
-
-## まとめ (html to pdf java)
-
-We’ve covered everything you need to **convert HTML to PDF** in Java with a single line of code, from setting up the Maven dependency to handling Unicode and security concerns. This minimal **pdf conversion java code** is perfect for micro‑services, batch jobs, or any situation where you want to *generate PDF from HTML* without pulling in a heavyweight framework.
-
-Java で **convert HTML to PDF** をワンラインのコードで実現するために必要なすべてをカバーしました。Maven 依存関係の設定から Unicode とセキュリティの取り扱いまで。この最小限の **pdf conversion java code** は、マイクロサービス、バッチジョブ、または重厚なフレームワークを導入せずに *generate PDF from HTML* したいあらゆる状況に最適です。
-
-### 次にやること
-
-- `ConverterOptions` を使ってページ余白、ヘッダー、フッターを調整してみましょう。  
-- この手法をテンプレートエンジン（例: Thymeleaf）と組み合わせて、動的レポートをリアルタイムで生成します。  
-- デジタル署名の追加や複数 PDF の結合など、ポストプロセス作業のために Aspose PDF を探求してください。
-
-問題が発生したり、便利な工夫を見つけたら遠慮なくコメントしてください。ハッピーコーディング！
+問題が発生した場合は、下にコメントを残してください。ハッピーコーディング！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

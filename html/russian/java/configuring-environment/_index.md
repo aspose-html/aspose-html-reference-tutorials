@@ -118,6 +118,10 @@ Learn how to implement sandboxing in Aspose.HTML for Java to securely control sc
 
 ### [Set User Style Sheet in Aspose.HTML for Java](./set-user-style-sheet/)
 Learn how to set a custom user stylesheet in Aspose.HTML for Java, enhancing your document styling and converting HTML to PDF with ease.
+### [Создание песочницы Aspose HTML – Полное руководство Java](./create-aspose-html-sandbox-complete-java-guide/)
+Подробный пошаговый гид по созданию безопасной песочницы Aspose HTML в Java для изоляции выполнения скриптов.
+### [Получить версию библиотеки в Java – Быстрое руководство по отображению версии библиотеки](./get-library-version-in-java-quick-guide-to-show-library-vers/)
+Узнайте, как получить версию библиотеки Aspose.HTML для Java и отобразить её в вашем приложении.
 
 ### [Как создать песочницу в Java – Полное руководство](./how-to-create-sandbox-in-java-full-guide/)
 Узнайте, как настроить песочницу в Aspose.HTML для Java, обеспечивая безопасное выполнение скриптов и безопасные преобразования HTML.

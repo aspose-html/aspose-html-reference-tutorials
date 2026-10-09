@@ -1,0 +1,7 @@
+Title: Create SVG Document – Add a Circle and Save as SVG
+Slug: create-svg-document-add-a-circle-and-save-as-svg
+Category: general
+ProcessedDate: 2026-07-31T10:43:06.515160
+SourceRepo: AI Search API
+Keywords: create svg document, save svg file, export graphic as svg, add circle to svg
+PRNumber: 227

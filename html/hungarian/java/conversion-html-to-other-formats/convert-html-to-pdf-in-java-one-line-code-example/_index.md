@@ -1,25 +1,26 @@
 ---
 category: general
-date: 2026-03-15
-description: Konvertálja gyorsan a HTML-t PDF-re az Aspose HTML for Java segítségével
-  – generáljon PDF-et HTML-ből egyetlen kódsorral. Teljes Java példa a PDF konvertáláshoz.
+date: 2026-03-05
+description: Konvertálja a HTML-t PDF-re az Aspose HTML for Java segítségével egyetlen
+  sorban. Tanulja meg, hogyan generáljon PDF-et HTML‑ből, hogyan hozzon létre PDF‑dokumentumot
+  Java‑ban, és hogyan olvassa ki a PDF oldalszámát.
 draft: false
 keywords:
 - convert html to pdf
 - generate pdf from html
-- save html as pdf
-- pdf conversion java code
+- create pdf document java
+- pdf page count java
 - html to pdf java
 language: hu
-og_description: Konvertálja gyorsan a HTML-t PDF-re az Aspose HTML for Java segítségével
-  – generáljon PDF-et HTML-ből egyetlen kódsorral. Teljes Java példa a PDF konvertáláshoz.
-og_title: HTML konvertálása PDF-be Java-ban – Egy soros kódpélda
+og_description: Konvertálja a HTML-t PDF-re az Aspose HTML for Java segítségével egyetlen
+  sorban. Ez az útmutató végigvezeti Önt a HTML-ből PDF generálásán, a PDF dokumentum
+  Java-ban történő létrehozásán és a PDF oldalszámának ellenőrzésén.
+og_title: HTML konvertálása PDF-be Java-ban – Egysoros kódpélda
 tags:
 - Java
 - PDF
 - Aspose
-- HTML conversion
-title: HTML konvertálása PDF-re Java-ban – Egy soros kódpélda
+title: HTML konvertálása PDF-re Java-ban – Egysoros kódpélda
 url: /hu/java/conversion-html-to-other-formats/convert-html-to-pdf-in-java-one-line-code-example/
 ---
 
@@ -29,152 +30,148 @@ url: /hu/java/conversion-html-to-other-formats/convert-html-to-pdf-in-java-one-l
 
 # HTML konvertálása PDF-re Java‑ban – Egy‑soros kódpélda
 
-Valaha szükséged volt **HTML PDF‑re konvertálásra**, de nehézkes, nagy könyvtárak miatt akadályokba ütköztél? Nem vagy egyedül. Sok projektben tucatnyi sort írunk csak azért, hogy egy egyszerű PDF‑et kapjunk egy weboldalból, miközben létezik egy egy‑soros megoldás. Ebben az útmutatóban pontosan megmutatjuk, hogyan *generáljunk PDF‑et HTML‑ből* az Aspose HTML for Java segítségével, és miért gyakran felülmúlja a többi megoldást.
+Valaha szükséged volt **HTML PDF‑re konvertálásra**, de úgy érezted, hogy az API túl nehézkes? Nem vagy egyedül. Sok projektben – gondolj számlákra, jelentésekre vagy statikus weboldal pillanatképekre – a leggyorsabb módja a PDF‑nek, ha átadod a HTML‑t egy könyvtárnak, és hagyod, hogy elvégezze a nehéz munkát.
 
-Áttekintjük mindazt, amire szükséged lesz: a Maven függőséget, a minimális Java kódot, és néhány gyakorlati tippet, amit a hivatalos dokumentációban nem biztos, hogy megtalálsz. A végére **HTML-t PDF‑ként mentheted** mindössze két kódsorral, és megérted, hogyan alakíthatod a kódrészletet összetettebb helyzetekhez.
+Ebben az útmutatóban pontosan megmutatjuk, hogyan **konvertálhatod a HTML‑t PDF‑re** az Aspose HTML for Java segítségével egyetlen kódsorral. Emellett bemutatjuk, hogyan **generálhatsz PDF‑et HTML‑ből**, **hozhatsz létre PDF dokumentumot Java‑ban**, és hogyan olvashatod a **PDF oldal számát Java‑ban**, hogy ellenőrizhesd az eredményt. Felesleges szó nélkül, csak egy futtatható példa, amelyet ma beilleszthetsz a projektedbe.
 
-## Mit fogsz megtanulni
+## Amit ez az útmutató lefed
 
-- Hogyan állítsd be az Aspose HTML for Java‑t egy Maven projektben.  
-- Az egy‑soros módszer, amely elvégzi a teljes **PDF konverzió Java kódot**.  
-- Hogyan kezeld a fájlutakat, karakterkódolásokat és a gyakori buktatókat.  
-- Módszerek az alap példát kiterjeszteni többoldalas dokumentumokra vagy egyedi oldalméretek beállítására.  
+- Előkövetelmények és a Aspose HTML könyvtár hozzáadása a buildhez.
+- Egy teljes, önálló Java program, amely egy HTML fájlt (vagy URL‑t) PDF‑re konvertál.
+- Hogyan lehet lekérni az oldal számát a konverzió után, ami hasznos naplózáshoz vagy feltételes logikához.
+- Tippek a szélhelyzetek kezeléséhez, például stream‑ek, egyéni konverziós beállítások és nagy dokumentumok.
 
-Nem szükséges előzetes Aspose tapasztalat – csak egy működő Java 8+ környezet és a kedvenc IDE‑d.
+Az oldal végére egy stabil, termelés‑kész kódrészletet kapsz, amelyet bármilyen Java‑alapú háttérszolgáltatáshoz adaptálhatsz.
 
 ---
 
-## 1. lépés: Aspose HTML for Java hozzáadása a projekthez (generate pdf from html)
+## 1. lépés: Aspose HTML for Java beállítása
 
-Először is szükséged van a nehéz munkát végző könyvtárra. Ha Maven‑t használsz, helyezd el a következő függőséget a `pom.xml`‑be:
+Mielőtt kódot írnál, szükséged van az Aspose HTML könyvtárra a classpath‑on. A legegyszerűbb módja, ha a Maven Central‑ból húzod be.
 
 ```xml
-<!-- Aspose.HTML for Java -->
+<!-- pom.xml -->
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-html</artifactId>
-    <version>23.9</version> <!-- Check for the latest version on Maven Central -->
+    <version>23.12</version> <!-- Use the latest stable version -->
 </dependency>
 ```
 
-> **Pro tipp:** Az ingyenes **evaluation** verzió azonnal működik, de vízjelet ad hozzá. Produkcióban szerezz licencet az Aspose portálról, és hívd a `License license = new License(); license.setLicense("Aspose.Total.Java.lic");` kódot.
+Ha nem Maven‑t használsz, töltsd le a JAR‑t az [Aspose HTML for Java letöltési oldaláról](https://downloads.aspose.com/html/java), és add hozzá az IDE‑d könyvtáraihoz.
 
-Ha inkább Gradle‑t használsz, az ekvivalens a következő:
+> **Pro tipp:** A könyvtár Java 8‑on és újabb verziókon működik, de a legjobb teljesítmény érdekében célozd a Java 11‑et vagy későbbit.
 
-```gradle
-implementation 'com.aspose:aspose-html:23.9'
-```
+## 2. lépés: Az egy‑soros konverzió előkészítése
 
-Miután a függőség feloldódik, az IDE letölti a JAR‑okat, és készen állsz a kód írására.
-
-## 2. lépés: Az egy‑soros konverzió megírása (save html as pdf)
-
-Most jön a szórakoztató rész. Hozz létre egy új Java osztályt – nevezzük `OneLineConvert`‑nek. A teljes konverzió egyetlen statikus hívással a `Converter.convert` segítségével végezhető el. Íme a teljes, azonnal futtatható forrásfájl:
+Most, hogy a függőség megvan, írjuk meg a Java osztályt, amely ténylegesen elvégzi a **HTML PDF‑re konvertálást**. A művelet központja a `Converter.convertHTML`, amely egy forrást (fájlútvonal, URL vagy `InputStream`), egy célútvonalat és egy opcionális `PdfConversionOptions` objektumot fogad. A `null` átadása azt mondja az API‑nak, hogy használjon értelmes alapértelmezéseket.
 
 ```java
 import com.aspose.html.converters.Converter;
+import com.aspose.html.converters.pdf.PdfConversionResult;
 
-public class OneLineConvert {
+/**
+ * Simple demo that converts an HTML file to PDF in a single line.
+ *
+ * You can point htmlFilePath at a local file, a remote URL, or even an InputStream.
+ * The resulting PDF is written to pdfFilePath, and we print the page count.
+ */
+public class ConvertHtmlToPdfOneLine {
     public static void main(String[] args) throws Exception {
 
-        // Step 2.1: Specify the input HTML file and the desired output PDF file
-        String sourceHtml = "YOUR_DIRECTORY/input.html";
-        String targetPdf  = "YOUR_DIRECTORY/output.pdf";
+        // 1️⃣  Specify the HTML source – change this to your actual file or URL
+        String htmlFilePath = "YOUR_DIRECTORY/input.html";
 
-        // Step 2.2: Perform the conversion in a single statement
-        // This line does the entire HTML → PDF transformation.
-        Converter.convert(sourceHtml, targetPdf);
+        // 2️⃣  Destination PDF path – where the generated file will live
+        String pdfFilePath = "YOUR_DIRECTORY/output.pdf";
+
+        // 3️⃣  One‑line conversion – null means “use default options”
+        PdfConversionResult conversionResult = Converter.convertHTML(
+                htmlFilePath,   // source (file, URL, or stream)
+                pdfFilePath,    // destination PDF
+                null);          // default conversion settings
+
+        // 4️⃣  Show the PDF page count – useful for validation or logging
+        System.out.println("PDF generated, page count: " + conversionResult.getPageCount());
     }
 }
 ```
 
 ### Miért működik ez
 
-`Converter.convert` belsőleg elemzi a HTML‑t, alkalmazza az alapértelmezett CSS‑t, feloldja a képeket, és az eredményt egy PDF dokumentumba streameli. Nem kell `Document` objektumot példányosítanod, oldalméretet beállítanod vagy stream‑eket kezelned – az Aspose mindezt elrejti. Ezért ez a módszer a sok fejlesztő számára a kedvenc **html to pdf java** gyorsbillentyűje.
+- **`Converter.convertHTML`** elrejti a parsing, layout és renderelés lépéseit. Belsőleg felépít egy DOM‑ot, futtatja a CSS motorját, és minden oldalt rasterizál PDF‑be.
+- A **`null`** átadása az opciós objektumnak azt mondja az Aspose‑nak, hogy használja a beépített alapértelmezéseket, amelyek már optimalizáltak a legtöbb weboldalhoz. Ha valaha egyedi margókra, betűtípusokra vagy DPI‑ra van szükséged, a `null` helyett egy konfigurált `PdfConversionOptions` példányt adhatod meg.
+- A visszaadott **`PdfConversionResult`** azonnali visszajelzést nyújt, például az oldalak számát (`getPageCount()`). Ez teljesíti a **pdf page count java** követelményt a fájl megnyitása nélkül.
 
-## 3. lépés: A program futtatása és a kimenet ellenőrzése (pdf conversion java code)
+## 3. lépés: A program futtatása és a kimenet ellenőrzése
 
-Compile and execute the class:
+Fordítsd le és futtasd az osztályt az IDE‑dből vagy a parancssorból:
 
 ```bash
-mvn compile exec:java -Dexec.mainClass=OneLineConvert
+javac -cp "path/to/aspose-html-23.12.jar" ConvertHtmlToPdfOneLine.java
+java -cp ".:path/to/aspose-html-23.12.jar" ConvertHtmlToPdfOneLine
 ```
 
-Ha minden helyesen van beállítva, megtalálod az `output.pdf` fájlt a megadott mappában. Nyisd meg bármely PDF‑nézővel; látnod kell a renderelt HTML oldalt, a stílusokkal és képekkel együtt.
+Ha minden helyesen van beállítva, valami ilyesmit látsz:
 
-> **Gyakori kérdés:** *Mi van, ha a HTML‑em külső erőforrásokra (CSS, JS, képek) hivatkozik, amelyek a weben vannak?*  
-> Az Aspose automatikusan követi a HTTP/HTTPS URL‑eket, de biztosítanod kell, hogy a konverziót futtató gép internetkapcsolattal rendelkezzen. Offline build esetén másold le ezeket az eszközöket helyihez, és állítsd be a `<base href>` címkét a HTML‑edben.
+```
+PDF generated, page count: 3
+```
 
-## 4. lépés: Szélsőséges esetek kezelése (save html as pdf)
+Nyisd meg az `output.pdf`-et bármely PDF‑megtekintővel, és látni fogod az `input.html` megjelenített változatát. A kiírt oldal szám megegyezik a tényleges oldalak számával, ami megerősíti, hogy a **pdf page count java** hívás sikeres volt.
 
-### 4.1 Unicode karakterek kezelése
+> **Mi van, ha egy URL‑t kell konvertálni fájl helyett?**  
+> Csak cseréld le a `htmlFilePath`‑t az URL‑stringre, például `"https://example.com/report.html"`. Ugyanaz az egy‑soros módszer működik távoli erőforrásoknál is.
 
-If your source HTML contains non‑ASCII characters (e.g., Japanese or emoji), make sure the file is saved in UTF‑8. You can also force the encoding when reading the file:
+## 4. lépés: Bővítés – Egyéni beállítások (opcionális)
+
+Bár az egy‑soros megközelítés tökéletes gyors feladatokhoz, néha finomabb vezérlésre van szükség – például egy adott betűtípus beágyazására vagy a PDF verzió módosítására. Íme egy apró kódrészlet, amely megmutatja, hogyan hozhatsz létre egy `PdfConversionOptions` objektumot:
 
 ```java
-java.nio.file.Path htmlPath = java.nio.file.Paths.get(sourceHtml);
-String htmlContent = java.nio.file.Files.readString(htmlPath, java.nio.charset.StandardCharsets.UTF_8);
-Converter.convert(htmlContent, targetPdf);
+import com.aspose.html.converters.pdf.PdfConversionOptions;
+import com.aspose.html.drawing.Color;
+
+// Create options with a custom page size and margin
+PdfConversionOptions options = new PdfConversionOptions();
+options.setPageSize(PdfConversionOptions.PageSize.A4);
+options.getMargin().setTop(20);
+options.getMargin().setBottom(20);
+options.getMargin().setLeft(15);
+options.getMargin().setRight(15);
+
+// Use the same one‑line call but pass the options
+PdfConversionResult result = Converter.convertHTML(htmlFilePath, pdfFilePath, options);
+System.out.println("Created PDF with " + result.getPageCount() + " pages using custom options.");
 ```
 
-### 4.2 Többoldalas dokumentumok
+Most már van a rugalmasságod, hogy **PDF dokumentumot Java‑ban** hozz létre a pontos elrendezéssel, miközben a kód továbbra is tömör marad.
 
-The one‑line method respects the natural flow of the HTML. If your page is long enough, Aspose automatically adds new PDF pages. However, you can control page size via `ConverterOptions` (still a single call, just an overload):
+## 5. lépés: Gyakori buktatók és hogyan kerüld el őket
 
-```java
-import com.aspose.html.converters.Converter;
-import com.aspose.html.converters.ConverterOptions;
-import com.aspose.html.rendering.pdf.PdfPageSize;
+| Probléma | Tünet | Megoldás |
+|----------|-------|----------|
+| **Hiányzó betűtípusok** | A szöveg négyzetekként vagy alapértelmezett betűtípusként jelenik meg | Győződj meg róla, hogy a szükséges betűtípusok telepítve vannak a szerveren, vagy ágyazd be őket a `PdfConversionOptions.setEmbeddedFonts(true)` segítségével. |
+| **Nagy HTML fájlok OutOfMemoryError‑t okoznak** | A JVM összeomlik a konverzió során | Növeld a heap méretét (`-Xmx2g`), vagy stream‑eld a HTML‑t `InputStream`‑ként a fájlútvonal helyett. |
+| **Relatív képelérési utak hibásak** | A képek eltűnnek a PDF‑ben | Használj abszolút URL‑eket, vagy állítsd be az alap URL‑t a `PdfConversionOptions.setBaseUrl("file:///path/to/resources/")`‑ben. |
+| **Helytelen oldal szám** | `getPageCount()` 0‑t ad vissza | Ellenőrizd, hogy a célútvonal írható‑e, és hogy a konverzió kivétel nélkül befejeződött‑e. |
 
-ConverterOptions options = new ConverterOptions();
-options.setPdfPageSize(PdfPageSize.A4);
-Converter.convert(sourceHtml, targetPdf, options);
-```
+Ezek korai kezelése megakadályozza, hogy később hibákat keress.
 
-### 4.3 Biztonsági megfontolások
+## Vizualizált összefoglaló
 
-When converting untrusted HTML, consider disabling JavaScript execution:
+![convert html to pdf workflow diagram](placeholder.png){alt="HTML PDF konvertálási munkafolyamat diagram"}
 
-```java
-options.getHtmlLoadOptions().setEnableJavaScript(false);
-```
-
-Ez megakadályozza, hogy rosszindulatú szkriptek fussonak a konverziós folyamat során.
-
-## 5. lépés: Vizuális ellenőrzés (convert html to pdf)
-
-Alább egy gyors képernyőkép a létrejött PDF‑ről. Bemutatja, hogyan őrzi meg az eredeti HTML elrendezését.
-
-![Convert HTML to PDF example](/images/convert-html-to-pdf.png "convert html to pdf")
-
-*(Ha offline olvasod, képzeld el egy tiszta PDF oldalt egy címmel, bekezdéssel és egy képpel – pontosan úgy, ahogy a HTML leírta.)*
+A fenti diagram (az alt szöveg tartalmazza a fő kulcsszót) egyszerű folyamatot ábrázol: **HTML forrás → Aspose HTML konverter → PDF kimenet + oldal szám**.
 
 ---
 
-## Gyakran Ismételt Kérdések
+## Következtetés
 
-**Q: Működik ez Java 11‑en és újabb verziókon?**  
-A: Teljesen. Az Aspose HTML Java 8+ célpont, így minden újabb JVM‑en biztonságosan fut.
+Most megtanultad, hogyan **konvertálj HTML‑t PDF‑re** Java‑ban egyetlen metódushívással, hogyan **generálj PDF‑et HTML‑ből**, hogyan **hozz létre PDF dokumentumot Java‑ban** opcionális egyéni beállításokkal, és hogyan olvasd a **PDF oldal számot Java‑ban** az ellenőrzéshez. Az egész megoldás néhány sorba fér, mégis elég robusztus a termelésben való használathoz.
 
-**Q: Tudok URL‑t közvetlenül konvertálni a helyi fájl helyett?**  
-A: Igen. Csak add át az URL‑stringet a `Converter.convert`‑nek, pl. `Converter.convert("https://example.com", "page.pdf");`.
+Mi a következő? Próbálj meg egy dinamikusan generált HTML‑stringet átadni, kísérletezz egyéni oldal margókkal, vagy integráld ezt a kódrészletet egy Spring Boot REST végpontra, amely igény szerint PDF‑eket ad vissza. A lehetőségek végtelenek, és a most birtokolt kód egy szilárd alap.
 
-**Q: Mi van a jelszóval védett PDF‑ekkel?**  
-A: A konverzió után titkosíthatod a PDF‑et az Aspose PDF for Java segítségével, de ez egy külön lépés a alap **convert html to pdf** híváson túl.
-
----
-
-## Összegzés (html to pdf java)
-
-Átbeszéltük mindent, ami szükséges a **HTML PDF‑re konvertálásához** Java‑ban egyetlen kódsorral, a Maven függőség beállításától a Unicode és biztonsági kérdések kezeléséig. Ez a minimális **pdf conversion java code** tökéletes mikro‑szolgáltatásokhoz, kötegelt feladatokhoz vagy bármely helyzethez, ahol *HTML‑ből PDF‑et szeretnél generálni* anélkül, hogy nehézkes keretrendszert húznál be.
-
-### Mi a következő?
-
-- Kísérletezz a `ConverterOptions`‑szel, hogy finomhangold az oldalmargókat, fejléceket vagy lábléceket.  
-- Kombináld ezt a megközelítést egy sablonmotorral (pl. Thymeleaf), hogy helyben generálj dinamikus jelentéseket.  
-- Fedezd fel az Aspose PDF‑et utófeldolgozási feladatokhoz, mint digitális aláírások hozzáadása vagy több PDF egyesítése.
-
-Nyugodtan hagyj megjegyzést, ha bármilyen problémába ütközöl vagy találsz egy okos trükköt – jó kódolást!
+Ha bármilyen problémába ütköztél, hagyj megjegyzést alább – jó kódolást!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
