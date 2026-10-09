@@ -85,6 +85,8 @@ Pelajari cara menyematkan font saat mengonversi EPUB ke PDF menggunakan Aspose.H
 Panduan langkah demi langkah mengonversi eBook EPUB menjadi PDF menggunakan Aspose.HTML for Java.
 ### [Buat PDF dari EPUB – Panduan Langkah‑demi‑Langkah Java](./create-pdf-from-epub-step-by-step-java-guide/)
 Pelajari cara membuat PDF dari EPUB menggunakan Java dengan Aspose.HTML dalam panduan langkah demi langkah.
+### [Tutorial epub ke pdf – Konversi eBook Anda dengan Java dalam Hitungan Menit](./epub-to-pdf-tutorial-convert-your-ebooks-with-java-in-minute/)
+Pelajari cara cepat mengonversi eBook EPUB ke PDF menggunakan Aspose.HTML for Java dalam beberapa menit.
 
 ## Pertanyaan yang Sering Diajukan
 

@@ -116,6 +116,9 @@ weight: 29
 ### [Εφαρμογή Sandboxing στο Aspose.HTML για Java](./implement-sandboxing/)
 Μάθετε πώς να εφαρμόσετε sandboxing στο Aspose.HTML για Java για ασφαλή έλεγχο της εκτέλεσης σεναρίων στα HTML έγγραφά σας και τη μετατροπή τους σε PDF.
 
+### [Πώς να δημιουργήσετε sandbox σε Java – Πλήρης οδηγός](./how-to-create-sandbox-in-java-full-guide/)
+Μάθετε πώς να δημιουργήσετε sandbox σε Java με αυτόν τον πλήρη οδηγό, εξασφαλίζοντας ασφαλή εκτέλεση κώδικα κατά τη μετατροπή HTML.
+
 ### [Ορισμός Προσαρμοσμένου User Style Sheet στο Aspose.HTML για Java](./set-user-style-sheet/)
 Μάθετε πώς να ορίσετε ένα προσαρμοσμένο φύλλο στυλ χρήστη στο Aspose.HTML για Java, βελτιώνοντας το στυλ του εγγράφου σας και μετατρέποντας HTML σε PDF με ευκολία.
 

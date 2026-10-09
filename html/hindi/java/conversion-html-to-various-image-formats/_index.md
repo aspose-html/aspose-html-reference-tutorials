@@ -81,6 +81,8 @@ HTML को PNG इमेज में बदलना लॉसलेस ग्
 Aspose.HTML for Java का उपयोग करके HTML को PNG में बदलते समय DPI सेट करने की प्रक्रिया सीखें।
 ### [HTML को PNG में DPI सेट करना – पूर्ण Java गाइड](./how-to-set-dpi-when-converting-html-to-png-complete-java-gui/)
 Aspose.HTML for Java का उपयोग करके HTML को PNG में बदलते समय DPI सेट करने के चरण‑दर‑चरण निर्देश।
+### [HTML को PNG में DPI सेट करना – Java गाइड](./how-to-set-dpi-when-converting-html-to-png-java-guide/)
+Aspose.HTML for Java का उपयोग करके HTML को PNG में बदलते समय DPI सेट करने की प्रक्रिया सीखें।
 
 ## HTML को TIFF में बदलना
 

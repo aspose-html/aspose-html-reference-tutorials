@@ -101,7 +101,6 @@ Naučte se převést HTML do JPEG pomocí Aspose.HTML for Java. Krok‑za‑krok
 
 ### [Převod HTML do PNG](./convert-html-to-png/)
 Naučte se převést HTML na PNG obrázky v Javě pomocí Aspose.HTML. Komplexní průvodce s krok‑za‑krokem instrukcemi.
-
 ### [Jak renderovat HTML do PNG v Javě – Kompletní průvodce](./how-to-render-html-to-png-in-java-complete-guide/)
 Kompletní průvodce renderováním HTML do PNG v Javě pomocí Aspose.HTML.
 
@@ -113,6 +112,8 @@ Naučte se provádět hromadný převod HTML souborů na PNG pomocí Aspose.HTML
 ### [Nastavte poměr pixelů zařízení v Javě – renderování HTML do PNG](./set-device-pixel-ratio-in-java-render-html-to-png/)
 Naučte se nastavit Device Pixel Ratio při renderování HTML do PNG v Javě pomocí Aspose.HTML.
 
+### [Jak nastavit DPI při převodu HTML do PNG – Průvodce pro Javu](./how-to-set-dpi-when-converting-html-to-png-java-guide/)
+Naučte se nastavit DPI při konverzi HTML na PNG pomocí Aspose.HTML for Java pro lepší kvalitu výstupu.
 ### [Převod HTML do TIFF](./convert-html-to-tiff/)
 Naučte se snadno převést HTML do TIFF pomocí Aspose.HTML for Java. Krok‑za‑krokem průvodce pro efektivní zpracování dokumentů.
 

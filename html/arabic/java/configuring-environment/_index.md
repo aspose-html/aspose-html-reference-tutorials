@@ -122,6 +122,8 @@ HTML الديناميكي غالبًا ما يحتوي على سكريبتات �
 ### [إنشاء رملية Aspose HTML – دليل Java كامل](./create-aspose-html-sandbox-complete-java-guide/)
 تعلم خطوة بخطوة كيفية إنشاء رملية Aspose HTML في Java لضمان تحويلات آمنة ومحمية.
 ### [الحصول على إصدار المكتبة في Java – دليل سريع لإظهار إصدار المكتبة](./get-library-version-in-java-quick-guide-to-show-library-vers/)
+### [كيفية إنشاء بيئة عزل في Java – دليل كامل](./how-to-create-sandbox-in-java-full-guide/)
+تعلم خطوة بخطوة كيفية إنشاء بيئة عزل (Sandbox) في Java لضمان أمان تنفيذ الكود أثناء تحويل HTML إلى PDF.
 
 ---
 

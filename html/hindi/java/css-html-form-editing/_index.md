@@ -32,7 +32,6 @@ url: /hi/java/css-html-form-editing/
 ### [Java में HTML से CSS निकालें – चरण‑दर‑चरण गाइड](./extract-css-from-html-in-java-step-by-step-guide/)
 Java में Aspose.HTML का उपयोग करके HTML दस्तावेज़ से CSS निकालने की प्रक्रिया को चरण‑दर‑चरण सीखें।
 ### [Java के लिए Aspose.HTML के साथ HTML फॉर्म संपादन और सबमिशन](./html-form-editing/)
-इस व्यापक चरण-दर-चरण मार्गदर्शिका में Java के लिए Aspose.HTML का उपयोग करके HTML फ़ॉर्म को प्रोग्रामेटिक रूप से संपादित और सबमिट करना सीखें।
 ### [Java में गणना किया गया CSS प्राप्त करें – पूर्ण Aspose HTML गाइड](./get-computed-css-in-java-complete-aspose-html-guide/)
 Java में Aspose.HTML का उपयोग करके गणना किए गए CSS मानों को प्राप्त करने की पूरी प्रक्रिया सीखें।
 ### [Java में क्लास द्वारा एलिमेंट चयन – पूर्ण गाइड](./select-element-by-class-in-java-complete-how-to-guide/)
@@ -78,6 +77,8 @@ Java में querySelector और Computed Style का उपयोग कर
 Java में Aspose.HTML का उपयोग करके ID द्वारा एलिमेंट चुनें और उसके कम्प्यूटेड स्टाइल्स को समझें। विस्तृत चरण-दर-चरण गाइड।
 ### [Java में स्टाइल प्राप्त करना – एलिमेंट खोजें और बैकग्राउंड पढ़ें](./how-to-get-style-in-java-find-element-read-background/)
 Java में Aspose.HTML का उपयोग करके किसी एलिमेंट की स्टाइल प्राप्त करें और उसके बैकग्राउंड प्रॉपर्टी को पढ़ें।
+### [Java में Computed Style कैसे प्राप्त करें – पूर्ण Aspose.HTML उदाहरण](./how-to-get-computed-style-in-java-full-aspose-html-example/)
+Java के लिए Aspose.HTML का उपयोग करके Computed Style प्राप्त करने की पूरी प्रक्रिया सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

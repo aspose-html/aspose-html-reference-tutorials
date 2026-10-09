@@ -123,6 +123,8 @@ Aspose.HTML için güvenli bir sandbox ortamı kurun, izole edin ve Java’da HT
 
 ### [Java’da Kütüphane Sürümünü Al – Sürümü Gösteren Hızlı Rehber](./get-library-version-in-java-quick-guide-to-show-library-vers/)
 Java’da Aspose.HTML kütüphanesinin sürümünü nasıl alıp ekranda göstereceğinizi öğrenin.
+### [Java’da Sandbox Nasıl Oluşturulur – Tam Kılavuz](./how-to-create-sandbox-in-java-full-guide/)
+Java’da sandbox oluşturmayı adım adım öğrenin ve güvenli HTML dönüşümleri için ortamı yapılandırın.
 
 ---
 

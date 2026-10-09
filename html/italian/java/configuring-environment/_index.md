@@ -124,6 +124,8 @@ Scopri come impostare un foglio di stile utente personalizzato in Aspose.HTML pe
 
 ### [Ottieni la versione della libreria in Java – Guida rapida per mostrare la versione della libreria](./get-library-version-in-java-quick-guide-to-show-library-vers/)
 Scopri come recuperare e visualizzare la versione corrente di Aspose.HTML per Java con una semplice chiamata API.
+### [Come creare un sandbox in Java – Guida completa](./how-to-create-sandbox-in-java-full-guide/)
+Scopri come creare un sandbox in Java con questa guida completa passo‑passo, garantendo esecuzioni sicure dei tuoi script HTML.
 
 ---
 

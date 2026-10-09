@@ -84,6 +84,8 @@ Learn how to embed fonts during EPUB to PDF conversion using Aspose.HTML for Jav
 Learn how to convert eBooks to PDF using Aspose.HTML for Java with a simple step‑by‑step guide.
 ### [Create PDF from EPUB – Step‑by‑Step Java Guide](./create-pdf-from-epub-step-by-step-java-guide/)
 Step‑by‑step guide to create PDF from EPUB using Aspose.HTML for Java, covering setup, conversion code, and customization options.
+### [epub to pdf tutorial – Convert Your eBooks with Java in Minutes](./epub-to-pdf-tutorial-convert-your-ebooks-with-java-in-minute/)
+Convert your eBooks to PDF quickly using Aspose.HTML for Java in just minutes.
 
 ## Frequently Asked Questions
 

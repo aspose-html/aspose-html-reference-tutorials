@@ -122,6 +122,8 @@ A: 沙箱会限制某些 API（例如 `window.open`），但普通的 DOM 操作
 
 ### [在 Java 中获取库版本 – 快速指南展示库版本](./get-library-version-in-java-quick-guide-to-show-library-vers/)
 了解如何在 Aspose.HTML for Java 中获取库的版本信息，快速显示当前使用的版本号。
+### [在 Java 中创建沙箱 – 完整指南](./how-to-create-sandbox-in-java-full-guide/)
+本完整指南详细说明了在 Java 环境中使用 Aspose.HTML 创建沙箱的步骤，确保安全可靠的 HTML 转 PDF 转换。
 
 ---
 

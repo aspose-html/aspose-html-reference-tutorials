@@ -77,6 +77,8 @@ url: /ru/java/css-html-form-editing/
 Узнайте, как получить элемент по id в Java с помощью Aspose.HTML и работать с вычисленными стилями, полное руководство.
 ### [Как получить стиль в Java – найти элемент и прочитать фон](./how-to-get-style-in-java-find-element-read-background/)
 Узнайте, как с помощью Aspose.HTML в Java получить стили элемента и считать значение фонового цвета.
+### [Как получить вычисленный стиль в Java – Полный пример Aspose.HTML](./how-to-get-computed-style-in-java-full-aspose-html-example/)
+Узнайте, как получить вычисленный стиль элемента в Java с помощью Aspose.HTML, используя полный пример кода.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

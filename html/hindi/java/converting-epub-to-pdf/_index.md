@@ -49,6 +49,9 @@ Aspose.HTML for Java के साथ अपने डिजिटल कंट�
 ### [EPUB को PDF में बदलना](./convert-epub-to-pdf/)
 Aspose.HTML for Java, शक्तिशाली जावा लाइब्रेरी के साथ EPUB को PDF रूपांतरण अनलॉक करें। आसानी से सुलभ कंटेंट बनाएं।
 
+### [epub to pdf ट्यूटोरियल – जावा के साथ अपने ईबुक को मिनटों में बदलें](./epub-to-pdf-tutorial-convert-your-ebooks-with-java-in-minute/)
+Aspose.HTML for Java का उपयोग करके जल्दी और आसानी से EPUB को PDF में बदलें। सिर्फ कुछ मिनटों में आपका ईबुक तैयार।
+
 ### [EPUB को PDF के लिए कस्टम स्ट्रीम प्रोवाइडर निर्दिष्ट करना](./convert-epub-to-pdf-specify-custom-stream-provider/)
 Aspose.HTML के साथ Java में EPUB को PDF में आसानी से बदलना सीखें, जिससे आपके दस्तावेज़ प्रोसेसिंग क्षमताओं में सुधार होगा।
 
@@ -62,7 +65,7 @@ Aspose.HTML for Java का उपयोग करके EPUB को PDF मे�
 Aspose.HTML for Java के साथ EPUB को PDF में बदलते समय फ़ॉन्ट एम्बेड करने की विस्तृत गाइड।
 
 ### [EPUB को BMP में बदलना](./convert-epub-to-bmp/)
-Aspose.HTML for Java का उपयोग करके EPUB को BMP में कैसे बदलें सीखें। कुशल कंटेंट ट्रांसफ़ॉर्मेशन के लिए चरण‑दर‑चरण गाइड।
+Aspose.HTML for Java का उपयोग करके EPUB को BMP में कैसे बदलें सीखें। कुशल कंटेंट ट्रांसफ़ॉर्मेशन के लिए चरण‑दर‑शरण गाइड।
 
 ### [EPUB को GIF में बदलना](./convert-epub-to-gif/)
 Aspose.HTML for Java का उपयोग करके EPUB को GIF में कैसे बदलें सीखें। आपके सभी मल्टीमीडिया आवश्यकताओं के लिए आसान और कुशल रूपांतरण प्रक्रिया।

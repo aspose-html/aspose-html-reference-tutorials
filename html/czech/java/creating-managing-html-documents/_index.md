@@ -105,6 +105,10 @@ Naučte se pomocí Aspose.HTML v Javě parsovat HTML a extrahovat čistý text z
 Naučte se převádět Markdown na HTML v Javě pomocí Aspose.HTML s podrobným návodem krok za krokem.
 ### [JavaScript setTimeout async: Spusťte JavaScript v Javě a aktualizujte HTML](./javascript-settimeout-async-run-javascript-in-java-and-updat/)
 Naučte se spouštět JavaScript pomocí setTimeout asynchronně v Javě a dynamicky aktualizovat HTML obsah.
+### [Načtení HTML dokumentu Aspose – Rychlý průvodce v Javě pro získání názvu stránky](./load-html-document-aspose-quick-java-guide-to-retrieve-page/)
+Rychlý návod, jak pomocí Aspose.HTML v Javě načíst HTML dokument a získat titulek stránky.
+### [Jak načíst HTML v Javě – krok‑za‑krokem průvodce](./how-to-load-html-in-java-step-by-step-guide/)
+Podrobný návod, jak pomocí Aspose.HTML načíst HTML dokument v Javě krok za krokem.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

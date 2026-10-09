@@ -79,6 +79,8 @@ Dowiedz się, jak programowo pobierać style CSS elementów w Javie przy użyciu
 Dowiedz się, jak w Javie pobrać element po ID i uzyskać jego obliczone style, krok po kroku.
 ### [Jak uzyskać styl w Javie – Znajdź element i odczytaj tło](./how-to-get-style-in-java-find-element-read-background/)
 Dowiedz się, jak w Javie znaleźć element i odczytać jego tło przy użyciu Aspose.HTML.
+### [Jak uzyskać obliczony styl w Javie – Pełny przykład Aspose.HTML](./how-to-get-computed-style-in-java-full-aspose-html-example/)
+Dowiedz się, jak programowo pobrać obliczony styl elementu HTML w Javie przy użyciu Aspose.HTML w pełnym przykładzie.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

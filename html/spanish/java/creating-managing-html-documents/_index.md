@@ -60,6 +60,10 @@ Aprenda a crear documentos HTML a partir de cadenas en Aspose.HTML para Java con
 Aprenda a convertir documentos Markdown a HTML en Java usando Aspose.HTML con esta guía paso a paso.
 ### [Cargar documentos HTML desde una URL en Aspose.HTML para Java](./load-html-documents-from-url/)
 Descubra cómo cargar fácilmente documentos HTML desde una URL en Java con Aspose.HTML. Incluye tutorial paso a paso.
+### [Cargar documento HTML con Aspose – Guía rápida de Java para obtener el título de la página](./load-html-document-aspose-quick-java-guide-to-retrieve-page/)
+Aprenda a cargar un documento HTML y extraer el título de la página usando Aspose.HTML en Java con esta guía paso a paso.
+### [Cómo cargar HTML en Java – Guía paso a paso](./how-to-load-html-in-java-step-by-step-guide/)
+Aprenda a cargar documentos HTML en Java con Aspose.HTML mediante una guía paso a paso, ideal para principiantes y desarrolladores avanzados.
 ### [Cómo consultar HTML en Java – Tutorial completo](./how-to-query-html-in-java-complete-tutorial/)
 Aprenda a consultar documentos HTML en Java usando Aspose.HTML con esta guía paso a paso completa.
 ### [Cómo consultar HTML en Java – Extraer URLs de imágenes](./how-to-query-html-in-java-extract-image-urls/)

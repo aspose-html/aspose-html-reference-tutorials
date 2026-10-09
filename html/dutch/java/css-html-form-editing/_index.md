@@ -77,6 +77,8 @@ Leer hoe u met querySelector en de berekende stijl CSS‑eigenschappen van eleme
 Leer hoe u met Aspose.HTML voor Java een element op id kunt ophalen en de berekende CSS‑stijlen kunt analyseren in deze praktische gids.
 ### [Hoe stijl ophalen in Java – Element vinden en achtergrond lezen](./how-to-get-style-in-java-find-element-read-background/)
 Leer hoe u met Aspose.HTML voor Java de stijl van een element kunt ophalen, inclusief achtergrondkleur en andere CSS‑eigenschappen.
+### [Hoe de berekende stijl op te halen in Java – Volledig Aspose.HTML-voorbeeld](./how-to-get-computed-style-in-java-full-aspose-html-example/)
+Leer hoe u met Aspose.HTML voor Java de berekende CSS‑stijl van een element kunt ophalen in een volledig voorbeeld.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

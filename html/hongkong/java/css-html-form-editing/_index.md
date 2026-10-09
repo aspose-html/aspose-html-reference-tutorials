@@ -77,6 +77,8 @@ url: /zh-hant/java/css-html-form-editing/
 本指南說明如何在 Java 中使用 Aspose.HTML 透過元素 ID 取得計算後的樣式，提供完整步驟與範例。
 ### [如何在 Java 中取得樣式 – 找元素並讀取背景](./how-to-get-style-in-java-find-element-read-background/)
 本教學示範如何使用 Aspose.HTML for Java 取得元素的樣式資訊，並讀取背景屬性，以便進行自訂化處理。
+### [如何在 Java 中獲取計算樣式 – 完整 Aspose.HTML 範例](./how-to-get-computed-style-in-java-full-aspose-html-example/)
+本完整範例示範如何使用 Aspose.HTML for Java 取得元素的計算樣式，涵蓋程式碼與步驟說明。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

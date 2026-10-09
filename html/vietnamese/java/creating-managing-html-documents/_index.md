@@ -111,6 +111,10 @@ Hướng dẫn chi tiết cách phân tích HTML trong Java để trích xuất 
 Hướng dẫn chi tiết cách chuyển đổi nội dung Markdown thành tài liệu HTML trong Java bằng Aspose.HTML, từng bước một.
 ### [javascript settimeout async: Chạy JavaScript trong Java và Cập nhật HTML](./javascript-settimeout-async-run-javascript-in-java-and-updat/)
 Hướng dẫn cách sử dụng setTimeout bất đồng bộ để chạy mã JavaScript trong môi trường Java và cập nhật nội dung HTML một cách hiệu quả.
+### [Tải tài liệu HTML Aspose – Hướng dẫn nhanh Java để lấy tiêu đề trang](./load-html-document-aspose-quick-java-guide-to-retrieve-page/)
+Hướng dẫn nhanh cách tải tài liệu HTML bằng Aspose trong Java và lấy tiêu đề trang một cách dễ dàng.
+### [Cách tải HTML trong Java – Hướng dẫn từng bước](./how-to-load-html-in-java-step-by-step-guide/)
+Hướng dẫn chi tiết cách tải tài liệu HTML trong Java bằng Aspose.HTML, bao gồm các bước thực hiện và mẹo tối ưu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

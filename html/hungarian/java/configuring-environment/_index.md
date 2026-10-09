@@ -142,6 +142,10 @@ Ismerd meg, hogyan állítható be egy egyedi felhasználói stíluslap az Aspos
 
 **Aspose HTML Sandbox létrehozása Java-ban**  
 Ismerd meg, hogyan hozhatsz létre biztonságos sandboxot az Aspose.HTML for Java-ban, részletes lépésekkel és példakóddal.
+### [How to Create Sandbox in Java – Full Guide](./how-to-create-sandbox-in-java-full-guide/)
+
+**Hogyan hozhatsz létre sandbox környezetet Java-ban – Teljes útmutató**  
+Ismerd meg, hogyan hozhatsz létre sandbox környezetet Java-ban a biztonságos HTML konverziókhoz.
 
 ---
 

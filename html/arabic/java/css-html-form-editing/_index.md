@@ -76,6 +76,7 @@ url: /ar/java/css-html-form-editing/
 ### [تحديد العنصر حسب المعرف في Java – دليل شامل للأنماط المحسوبة](./get-element-by-id-java-complete-guide-to-computed-styles/)
 تعلم كيفية الحصول على عنصر HTML باستخدام المعرف في Java وتطبيق الأنماط المحسوبة خطوة بخطوة باستخدام Aspose.HTML.
 ### [كيفية الحصول على النمط في Java – العثور على العنصر وقراءة الخلفية](./how-to-get-style-in-java-find-element-read-background/)
+### [كيفية الحصول على النمط المحسوب في Java – مثال كامل Aspose.HTML](./how-to-get-computed-style-in-java-full-aspose-html-example/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

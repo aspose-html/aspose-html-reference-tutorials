@@ -79,6 +79,8 @@ Aprenda a extraer estilos CSS de elementos en Java mediante querySelector y obte
 Aprenda a obtener elementos por ID en Java y a trabajar con estilos computados usando Aspose.HTML.
 ### [Cómo obtener estilo en Java – Encontrar elemento y leer fondo](./how-to-get-style-in-java-find-element-read-background/)
 Aprenda a obtener estilos de elementos en Java usando Aspose.HTML, incluyendo cómo encontrar un elemento y leer su fondo.
+### [Cómo obtener el estilo calculado en Java – Ejemplo completo de Aspose.HTML](./how-to-get-computed-style-in-java-full-aspose-html-example/)
+Aprenda a obtener el estilo calculado de un elemento en Java usando Aspose.HTML con un ejemplo completo paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

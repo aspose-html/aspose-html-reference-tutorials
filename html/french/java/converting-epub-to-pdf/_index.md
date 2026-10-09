@@ -90,6 +90,8 @@ Apprenez à convertir EPUB en images avec Aspose.HTML for Java. Transformez votr
 Apprenez à intégrer des polices lors de la conversion d'EPUB en PDF avec Aspose.HTML for Java, pour des documents PDF riches et fidèles.
 ### [Comment intégrer des polices dans le PDF avec Aspose HTML – guide de conversion d'EPUB en PDF](./how-to-embed-fonts-in-pdf-using-aspose-html-convert-epub-to/)
 Guide étape par étape pour intégrer des polices dans les PDF lors de la conversion d'EPUB avec Aspose.HTML for Java.
+### [Tutoriel epub to pdf – Convertissez vos eBooks avec Java en quelques minutes](./epub-to-pdf-tutorial-convert-your-ebooks-with-java-in-minute/)
+Apprenez à convertir rapidement vos eBooks EPUB en PDF avec Java grâce à Aspose.HTML.
 
 ### [Conversion d'EPUB en PDF avec Java – Guide étape par étape](./convert-epub-to-pdf-with-java-step-by-step-guide/)
 Suivez ce guide complet pour convertir des fichiers EPUB en PDF avec Java en quelques étapes simples.

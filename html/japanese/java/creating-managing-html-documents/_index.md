@@ -63,6 +63,8 @@ Java で XPath と CSS セレクタを活用し、HTML ドキュメントを効�
 
 ### [Java で HTML ドキュメントを作成 – JSON を取得してコンテンツを生成](./create-html-document-with-java-fetch-json-and-generate-conte/)
 Java で JSON データを取得し、動的に HTML コンテンツを生成する方法をステップバイステップで解説します。
+### [Aspose.HTML for Java で HTML ドキュメントを読み込み、ページタイトルを取得するクイックガイド](./load-html-document-aspose-quick-java-guide-to-retrieve-page/)
+Aspose.HTML for Java を使用して、HTML ドキュメントからページタイトルを簡単に取得する方法をステップバイステップで解説します。
 ### [Aspose.HTML for Java を使用して新しい HTML ドキュメントを生成する](./generate-new-html-documents/)
 この簡単なステップバイステップ ガイドで、Aspose.HTML for Java を使用して新しい HTML ドキュメントを作成する方法を学びます。動的な HTML コンテンツの生成を開始します。
 ### [Java で JavaScript から HTML を生成する – 完全ステップバイステップガイド](./generate-html-from-javascript-in-java-complete-step-by-step/)
@@ -70,9 +72,14 @@ Java で JSON データを取得し、動的に HTML コンテンツを生成す
 ### [Aspose.HTML for Java でドキュメント読み込みイベントを処理する](./handle-document-load-events/)
 このステップバイステップ ガイドで、Aspose.HTML for Java でドキュメント読み込みイベントを処理する方法を学習します。Web アプリケーションを強化します。
 ### [Aspose.HTML for Java で SVG ドキュメントを作成および管理する](./create-manage-svg-documents/)
-Aspose.HTML for Java を使用して SVG ドキュメントを作成および管理する方法を学びます。この包括的なガイドでは、基本的な作成から高度な操作まですべてをカバーしています。
+Aspose.HTML for Java を使用して SVG ドキュメントを作成および管理する方法を学びます。この包括的なガイドでは、基本的
+
 ### [Java で HTML のサンドボックスを作成する – ステップバイステップ ガイド](./create-sandbox-for-html-in-java-step-by-step-guide/)
-Java アプリで HTML のサンドボックス環境を構築し、安全にテストする方法をステップバイステップで学びます。
+Java アプリで HTML のサンドボックス環境を構築し、安全にテストする方法
+
+### [Java で HTML を読み込む方法 – ステップバイステップ ガイド](./how-to-load-html-in-java-step-by-step-guide/)
+Java アプリで HTML を簡単に読み込む手順をステップバイステップで解説します。
+
 ### [Java で HTML をクエリする方法 – 完全チュートリアル](./how-to-query-html-in-java-complete-tutorial/)
 Java で HTML を検索・抽出する方法をステップバイステップで解説します。XPath や CSS セレクタの活用例を含む完全ガイドです。
 ### [Java で HTML をクエリする方法 – 画像 URL の抽出](./how-to-query-html-in-java-extract-image-urls/)

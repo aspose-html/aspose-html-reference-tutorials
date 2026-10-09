@@ -111,6 +111,8 @@ Impara a configurare il DPI per ottenere PNG di alta qualità dalla conversione 
 ### [Come impostare i DPI quando si converte HTML in PNG – Guida completa Java](./how-to-set-dpi-when-converting-html-to-png-complete-java-gui/)
 Impara a configurare i DPI per la conversione da HTML a PNG usando Aspose.HTML for Java, con esempi pratici passo‑passo.
 ### [Imposta il rapporto di pixel del dispositivo in Java – Render HTML in PNG](./set-device-pixel-ratio-in-java-render-html-to-png/)
+### [Come impostare DPI durante la conversione di HTML in PNG – Guida Java](./how-to-set-dpi-when-converting-html-to-png-java-guide/)
+Impara a configurare il DPI per ottenere PNG di alta qualità usando Aspose.HTML for Java.
 ### [Conversione di HTML in TIFF](./convert-html-to-tiff/)
 Scopri come convertire facilmente HTML in TIFF usando Aspose.HTML for Java. Guida passo‑passo per una gestione efficiente dei documenti.
 

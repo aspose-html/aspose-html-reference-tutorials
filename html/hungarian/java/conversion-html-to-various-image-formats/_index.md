@@ -110,6 +110,8 @@ Ismerje meg, hogyan végezhet kötegelt HTML‑t PNG‑képekké konvertálást 
 Ismerje meg, hogyan állíthatja be a DPI értéket HTML PNG konvertálásakor az Aspose.HTML for Java segítségével.
 ### [HTML konvertálása PNG‑re DPI beállítással – Teljes Java útmutató](./how-to-set-dpi-when-converting-html-to-png-complete-java-gui/)
 Ismerje meg, hogyan állíthatja be a DPI‑t a PNG képekhez HTML konvertálásakor az Aspose.HTML for Java használatával.
+### [Hogyan állítsuk be a DPI-t HTML PNG konvertálásakor – Java útmutató](./how-to-set-dpi-when-converting-html-to-png-java-guide/)
+Ismerje meg, hogyan állíthatja be a DPI értéket HTML PNG konvertálásakor az Aspose.HTML for Java segítségével.
 ### [HTML átalakítása TIFF‑be](./convert-html-to-tiff/)
 Tanulja meg, hogyan konvertálhat HTML‑t TIFF‑be az Aspose.HTML for Java segítségével. Lépésről‑lépésre útmutató a hatékony dokumentumkezeléshez.
 ### [HTML konvertálása WebP‑be – Teljes Java útmutató az Aspose.HTML‑el](./convert-html-to-webp-complete-java-guide-with-aspose-html/)

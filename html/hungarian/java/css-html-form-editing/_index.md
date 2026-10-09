@@ -78,6 +78,8 @@ Ismerje meg, hogyan használhatja a querySelector-t és a Computed Style-t a CSS
 Ismerje meg, hogyan szerezheti meg egy elem számított stílusait ID alapján Java-ban az Aspose.HTML segítségével.
 ### [Stílus lekérése Java-ban – Elem keresése és háttér olvasása](./how-to-get-style-in-java-find-element-read-background/)
 Ismerje meg, hogyan találhat meg egy elemet Java-ban és olvashatja ki annak háttérstílusát az Aspose.HTML segítségével.
+### [Hogyan kapjuk meg a számított stílust Java-ban – Teljes Aspose.HTML példa](./how-to-get-computed-style-in-java-full-aspose-html-example/)
+Ismerje meg, hogyan szerezhet meg számított CSS‑stílusokat Java‑ban az Aspose.HTML teljes példáján keresztül.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

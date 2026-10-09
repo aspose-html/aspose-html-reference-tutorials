@@ -65,6 +65,10 @@ Markdown 파일을 Java로 변환하여 HTML을 생성하는 방법을 단계별
 Aspose.HTML을 사용하여 Java에서 URL에서 HTML 문서를 쉽게 로드하는 방법을 알아보세요. 단계별 튜토리얼이 포함되어 있습니다.
 ### [Java용 Aspose.HTML에서 JSON을 가져와 HTML 문서 생성](./create-html-document-with-java-fetch-json-and-generate-conte/)
 JSON 데이터를 가져와 동적으로 HTML 콘텐츠를 생성하는 방법을 단계별로 안내합니다.
+### [Java용 Aspose.HTML에서 HTML 로드 방법 – 단계별 가이드](./how-to-load-html-in-java-step-by-step-guide/)
+Aspose.HTML for Java를 사용해 Java에서 HTML을 로드하는 방법을 단계별로 안내합니다.
+### [Aspose를 사용한 HTML 문서 로드 – 페이지 제목 가져오기 빠른 Java 가이드](./load-html-document-aspose-quick-java-guide-to-retrieve-page/)
+Aspose.HTML for Java를 사용하여 HTML 문서에서 페이지 제목을 빠르게 추출하는 방법을 단계별로 안내합니다.
 ### [Java에서 HTML을 쿼리하는 방법 – 완전 튜토리얼](./how-to-query-html-in-java-complete-tutorial/)
 Java용 Aspose.HTML을 사용하여 HTML을 효율적으로 쿼리하는 방법을 단계별로 안내합니다.
 ### [Java용 HTML 파싱 방법 – 로드, 쿼리 및 요소 개수 세기](./how-to-parse-html-java-load-query-count-elements/)

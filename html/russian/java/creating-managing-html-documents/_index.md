@@ -65,6 +65,8 @@ Aspose.HTML для Java предлагает мощный набор инстр�
 Узнайте, как проходить по NodeList в Java, читать HTML и извлекать атрибут src изображений с помощью Aspose.HTML.
 ### [Загрузка HTML-документа Java – Полное руководство с XPath и CSS](./load-html-document-java-complete-guide-with-xpath-css/)
 Узнайте, как загружать HTML-документы в Java с помощью Aspose.HTML, используя XPath и CSS для точного выбора и стилизации.
+### [Загрузка HTML-документа Aspose – Быстрое руководство Java по получению заголовка страницы](./load-html-document-aspose-quick-java-guide-to-retrieve-page/)
+Узнайте, как быстро получить заголовок страницы из HTML-документа с помощью Aspose.HTML в Java.
 ### [Создание новых HTML-документов с помощью Aspose.HTML для Java](./generate-new-html-documents/)
 Узнайте, как создавать новые HTML документы с помощью Aspose.HTML для Java с помощью этого простого пошагового руководства. Начните создавать динамический HTML-контент.
 ### [Обработка событий загрузки документа в Aspose.HTML для Java](./handle-document-load-events/)
@@ -109,6 +111,8 @@ Aspose.HTML для Java предлагает мощный набор инстр�
 Узнайте, как с помощью Aspose.HTML для Java извлекать текст из HTML‑статей, используя парсинг и обработку контента.
 ### [JavaScript setTimeout async: запуск JavaScript в Java и обновление HTML](./javascript-settimeout-async-run-javascript-in-java-and-updat/)
 Узнайте, как выполнять асинхронный JavaScript с помощью setTimeout в Java и динамически обновлять HTML‑страницы.
+### [Как загрузить HTML в Java – пошаговое руководство](./how-to-load-html-in-java-step-by-step-guide/)
+Узнайте, как загружать HTML в Java с Aspose.HTML, следуя пошаговому руководству и практическим примерам.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

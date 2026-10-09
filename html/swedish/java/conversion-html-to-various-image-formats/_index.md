@@ -112,6 +112,7 @@ Att använda Aspose.HTML for Java förenklar konverteringen av HTML‑dokument t
 ### [Rendera HTML Java: Konvertera lång sida till PNG](./render-html-java-convert-long-page-to-png/)
 ### [Hur du ställer in DPI när du konverterar HTML till PNG – Komplett Java‑guide](./how-to-set-dpi-when-converting-html-to-png-complete-java-gui/)
 ### [Ställ in enhetens pixelförhållande i Java – Rendera HTML till PNG](./set-device-pixel-ratio-in-java-render-html-to-png/)
+### [Hur du ställer in DPI när du konverterar HTML till PNG – Java‑guide](./how-to-set-dpi-when-converting-html-to-png-java-guide/)
 
 ### [Hur man renderar HTML till PNG – Komplett guide för Java‑utvecklare](./how-to-render-html-to-png-complete-guide-for-java-developers/)
 ### [Skapa PNG från HTML i Java – Fullständig steg‑för‑steg‑guide](./create-png-from-html-in-java-full-step-by-step-guide/)

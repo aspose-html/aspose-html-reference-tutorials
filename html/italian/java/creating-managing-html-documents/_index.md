@@ -15,7 +15,7 @@ url: /it/java/creating-managing-html-documents/
 
 ## Introduzione
 
-Aspose.HTML per Java offre un potente toolkit per sviluppatori che mirano a lavorare con documenti HTML senza problemi all'interno delle loro applicazioni Java. Che tu sia un principiante o uno sviluppatore esperto, padroneggiare la creazione e la gestione di documenti HTML può migliorare significativamente le capacità del tuo progetto. Esploriamo alcuni dei migliori tutorial che possono guidarti attraverso il processo.
+Aspose.HTML per Java offre un potente toolkit per sviluppatori che mirano a lavorare con documenti HTML senza problemi all'interno delle loro applicazioni Java. Che tu sia un principiante o un sviluppatore esperto, padroneggiare la creazione e la gestione di documenti HTML può migliorare significativamente le capacità del tuo progetto. Esploriamo alcuni dei migliori tutorial che possono guidarti attraverso il processo.
 
 ## Creazione di documenti HTML in modo asincrono
 
@@ -62,6 +62,10 @@ Impara a creare un ambiente sandbox per HTML in Java, garantendo sicurezza e iso
 Scopri come caricare facilmente documenti HTML da un URL in Java con Aspose.HTML. Tutorial passo dopo passo incluso.
 ### [Carica documento HTML Java – Guida completa con XPath e CSS](./load-html-document-java-complete-guide-with-xpath-css/)
 Scopri come caricare documenti HTML in Java usando Aspose.HTML, con esempi di XPath e selettori CSS in questa guida completa.
+### [Carica documento HTML con Aspose – Guida rapida Java per recuperare il titolo della pagina](./load-html-document-aspose-quick-java-guide-to-retrieve-page/)
+Scopri come caricare un documento HTML con Aspose e ottenere il titolo della pagina in Java con questa guida rapida passo‑passo.
+### [Come caricare HTML in Java – Guida passo‑a‑passo](./how-to-load-html-in-java-step-by-step-guide/)
+Scopri come caricare HTML in Java con Aspose.HTML passo dopo passo, includendo suggerimenti pratici e esempi chiari.
 ### [Generare nuovi documenti HTML utilizzando Aspose.HTML per Java](./generate-new-html-documents/)
 Scopri come creare nuovi documenti HTML usando Aspose.HTML per Java con questa semplice guida passo-passo. Inizia a generare contenuti HTML dinamici.
 ### [Gestire gli eventi di caricamento dei documenti in Aspose.HTML per Java](./handle-document-load-events/)

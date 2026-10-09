@@ -82,6 +82,8 @@ Javaコードで要素のIDを取得し、計算されたスタイル情報を�
 ### [Javaでスタイルを取得する方法 – 要素の取得と背景の読み取り](./how-to-get-style-in-java-find-element-read-background/)
 Javaコードで要素のスタイル情報を取得し、背景色や画像を読み取る手順をステップバイステップで解説します。
 
+### [Javaで計算済みスタイルを取得する方法 – 完全な Aspose.HTML 例](./how-to-get-computed-style-in-java-full-aspose-html-example/)
+Aspose.HTML for Java を使用して、要素の計算済みスタイルを取得する完全なサンプルコードを解説します。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

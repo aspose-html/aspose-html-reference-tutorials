@@ -112,6 +112,9 @@ Pelajari cara menggunakan XPath di Java untuk membaca HTML dan mengekstrak teks 
 ### [Cara Menanyakan HTML di Java – Ekstrak URL Gambar](./how-to-query-html-in-java-extract-image-urls/)
 ### [Cara Mengurai HTML di Java – Ekstrak Teks dari Artikel HTML](./how-to-parse-html-in-java-extract-text-from-html-articles/)
 ### [javascript settimeout async: Jalankan JavaScript di Java dan Perbarui HTML](./javascript-settimeout-async-run-javascript-in-java-and-updat/)
+### [Cara Memuat HTML di Java – Panduan Langkah‑per‑Langkah](./how-to-load-html-in-java-step-by-step-guide/)
+Pelajari cara memuat HTML di Java dengan panduan langkah demi langkah ini.
+### [Muat Dokumen HTML Aspose – Panduan Cepat Java untuk Mengambil Judul Halaman](./load-html-document-aspose-quick-java-guide-to-retrieve-page/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -60,6 +60,8 @@ Ismerje meg, hogyan tölthet be HTML-dokumentumokat adatfolyamokból az Aspose.H
 Ebből a lépésről lépésre szóló útmutatóból megtudhatja, hogyan hozhat létre HTML-dokumentumokat karakterláncokból az Aspose.HTML for Java programban.
 ### [Töltsön be HTML dokumentumokat az Aspose.HTML for Java-ban található URL-ből](./load-html-documents-from-url/)
 Fedezze fel, hogyan tölthet be egyszerűen HTML dokumentumokat egy URL-ről Java nyelven az Aspose.HTML segítségével. Lépésről lépésre bemutató oktatóanyag.
+### [HTML-dokumentum betöltése Aspose – Gyors Java útmutató az oldal címének lekérdezéséhez](./load-html-document-aspose-quick-java-guide-to-retrieve-page/)
+Ismerje meg, hogyan tölthet be HTML-dokumentumot és kérdezheti le az oldal címét az Aspose.HTML for Java segítségével.
 ### [HTML lekérdezése Java-ban – Teljes útmutató](./how-to-query-html-in-java-complete-tutorial/)
 Ismerje meg, hogyan kérdezhet le HTML-t Java használatával, lépésről lépésre útmutató a hatékony adatkinyeréshez.
 ### [HTML elem betöltése, lekérdezése és számlálása Java-ban](./how-to-parse-html-java-load-query-count-elements/)
@@ -112,6 +114,8 @@ Ismerje meg, hogyan olvashat be HTML-t Java-ban, és használhatja az XPath-et a
 Ismerje meg, hogyan futtathat JavaScript kódot Java alkalmazásban setTimeout segítségével, és frissítheti a HTML-t dinamikusan.
 ### [HTML létrehozása Markdownból Java-ban – Teljes lépésről‑lépésre útmutató](./create-html-from-markdown-in-java-full-step-by-step-guide/)
 Ismerje meg, hogyan konvertálhat Markdown fájlokat HTML-re Java nyelven az Aspose.HTML segítségével, részletes, lépésről‑lépésre útmutatóval.
+### [HTML betöltése Java-ban – Lépésről‑lépésre útmutató](./how-to-load-html-in-java-step-by-step-guide/)
+Fedezze fel, hogyan tölthet be HTML-t Java alkalmazásba részletes, lépésről‑lépésre útmutatóval.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

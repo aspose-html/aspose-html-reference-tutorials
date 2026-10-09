@@ -110,6 +110,8 @@ Learn how to set DPI when converting HTML to PNG with Aspose.HTML for Java, ensu
 Learn how to render HTML to PNG with Aspose.HTML for Java. A detailed, step‑by‑step guide for high‑quality image generation.
 ### [How to Set DPI When Converting HTML to PNG – Complete Java Guide](./how-to-set-dpi-when-converting-html-to-png-complete-java-gui/)
 ### [set device pixel ratio in java – Render HTML to PNG](./set-device-pixel-ratio-in-java-render-html-to-png/)
+### [How to Set DPI When Converting HTML to PNG – Java Guide](./how-to-set-dpi-when-converting-html-to-png-java-guide/)
+Learn how to configure DPI settings for HTML‑to‑PNG conversion using Aspose.HTML for Java to control image resolution.
 ### [Converting HTML to TIFF](./convert-html-to-tiff/)
 Learn how to easily convert HTML to TIFF using Aspose.HTML for Java. Step-by-step guide for efficient document handling.
 ### [Convert HTML to WebP – Complete Java Guide with Aspose.HTML](./convert-html-to-webp-complete-java-guide-with-aspose-html/)

@@ -79,6 +79,8 @@ Java에서 querySelector와 Computed Style를 활용해 CSS 속성을 추출하�
 Java에서 요소를 ID로 선택하고, 계산된 스타일을 확인하는 방법을 단계별로 안내합니다.
 ### [Java에서 스타일 가져오기 – 요소 찾기 및 배경 읽기](./how-to-get-style-in-java-find-element-read-background/)
 Java용 Aspose.HTML을 사용하여 요소의 스타일을 가져오고 배경 색상을 읽는 방법을 단계별로 안내합니다.
+### [Java에서 계산된 스타일 가져오기 – 전체 Aspose.HTML 예제](./how-to-get-computed-style-in-java-full-aspose-html-example/)
+이 예제에서는 Aspose.HTML for Java를 사용해 요소의 계산된 CSS 스타일을 프로그래밍 방식으로 가져오는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

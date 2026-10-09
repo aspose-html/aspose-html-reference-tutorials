@@ -29,6 +29,7 @@ Lassen Sie uns nun einen Gang höher schalten und untersuchen, wie Sie HTML-Form
 
 ### [Erweiterte CSS-Erweiterungstechniken mit Aspose.HTML für Java](./advanced-css-extension/)
 Erfahren Sie, wie Sie mit Aspose.HTML für Java erweiterte CSS-Techniken anwenden, darunter benutzerdefinierte Seitenränder und dynamische Inhalte. Ein ausführliches, praktisches Tutorial für Entwickler.
+
 ### [Bearbeiten und Senden von HTML-Formularen mit Aspose.HTML für Java](./html-form-editing/)
 Erfahren Sie in dieser umfassenden Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.HTML für Java programmgesteuert HTML-Formulare bearbeiten und übermitteln.
 ### [Berechnetes CSS in Java abrufen – Vollständiger Aspose HTML Leitfaden](./get-computed-css-in-java-complete-aspose-html-guide/)
@@ -79,6 +80,9 @@ Erfahren Sie, wie Sie mit Aspose.HTML für Java CSS-Eigenschaften eines Elements
 Erfahren Sie, wie Sie mit Aspose.HTML für Java ein Element per ID auswählen und dessen berechnete Stile ermitteln – Schritt‑für‑Schritt‑Anleitung.
 ### [Wie man Stil in Java abruft – Element finden und Hintergrund auslesen](./how-to-get-style-in-java-find-element-read-background/)
 Erfahren Sie, wie Sie mit Aspose.HTML für Java das CSS‑Styling eines Elements ermitteln und den Hintergrundwert auslesen können.
+
+### [Wie man den berechneten Stil in Java abruft – Vollständiges Aspose.HTML-Beispiel](./how-to-get-computed-style-in-java-full-aspose-html-example/)
+Erfahren Sie, wie Sie mit Aspose.HTML für Java den berechneten Stil eines Elements ermitteln – vollständiges Beispiel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

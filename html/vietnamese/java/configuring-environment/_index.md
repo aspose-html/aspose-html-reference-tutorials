@@ -121,6 +121,8 @@ Tìm hiểu cách thiết lập stylesheet người dùng tùy chỉnh trong Asp
 
 ### [Tạo Sandbox Aspose HTML – Hướng dẫn Java toàn diện](./create-aspose-html-sandbox-complete-java-guide/)
 ### [Lấy Phiên Bản Thư Viện trong Java – Hướng Dẫn Nhanh để Hiển Thị Phiên Bản Thư Viện](./get-library-version-in-java-quick-guide-to-show-library-vers/)
+### [Cách tạo Sandbox trong Java – Hướng dẫn đầy đủ](./how-to-create-sandbox-in-java-full-guide/)
+Tìm hiểu cách tạo sandbox trong Java một cách chi tiết, bảo vệ môi trường thực thi khi chuyển đổi HTML sang PDF.
 
 ---
 

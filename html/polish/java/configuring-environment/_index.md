@@ -115,6 +115,8 @@ Dowiedz się, jak ustawić własny arkusz stylów użytkownika w Aspose.HTML for
 ### [Utwórz sandbox Aspose HTML – Kompletny przewodnik Java](./create-aspose-html-sandbox-complete-java-guide/)
 ### [Pobierz wersję biblioteki w Javie – szybki przewodnik wyświetlania wersji](./get-library-version-in-java-quick-guide-to-show-library-vers/)
 Dowiedz się, jak szybko uzyskać i wyświetlić wersję biblioteki Aspose.HTML w Javie.
+### [Jak utworzyć sandbox w Javie – pełny przewodnik](./how-to-create-sandbox-in-java-full-guide/)
+Dowiedz się, jak utworzyć sandbox w Javie, aby bezpiecznie izolować wykonywanie skryptów podczas konwersji HTML do PDF.
 
 ---
 

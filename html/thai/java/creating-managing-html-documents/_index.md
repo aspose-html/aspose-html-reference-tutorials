@@ -113,6 +113,11 @@ Aspose.HTML สำหรับ Java นำเสนอชุดเครื่�
 เรียนรู้วิธีใช้ setTimeout แบบอะซิงโครนัสเพื่อรัน JavaScript ใน Java และอัปเดตเนื้อหา HTML อย่างมีประสิทธิภาพ
 ### [สร้าง HTML จาก Markdown ใน Java – คู่มือเต็มขั้นตอนแบบทีละขั้นตอน](./create-html-from-markdown-in-java-full-step-by-step-guide/)
 เรียนรู้วิธีแปลงไฟล์ Markdown เป็นเอกสาร HTML ใน Java ด้วย Aspose.HTML ผ่านขั้นตอนละเอียดครบถ้วน
+### [โหลดเอกสาร HTML ด้วย Aspose – คู่มือ Java อย่างรวดเร็วเพื่อดึงชื่อหน้า](./load-html-document-aspose-quick-java-guide-to-retrieve-page/)
+เรียนรู้วิธีโหลดเอกสาร HTML ด้วย Aspose.HTML สำหรับ Java และดึงชื่อหน้าเว็บอย่างรวดเร็วในขั้นตอนง่ายๆ
+### [วิธีโหลด HTML ใน Java – คู่มือทีละขั้นตอน](./how-to-load-html-in-java-step-by-step-guide/)
+เรียนรู้วิธีโหลด HTML ใน Java อย่างละเอียดด้วยคู่มือขั้นตอนต่อขั้นตอนจาก Aspose.HTML
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

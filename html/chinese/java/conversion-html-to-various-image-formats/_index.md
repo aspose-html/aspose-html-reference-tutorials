@@ -111,6 +111,9 @@ weight: 24
 ### [在 Java 中设置设备像素比 – 将 HTML 渲染为 PNG](./set-device-pixel-ratio-in-java-render-html-to-png/)
 学习如何在 Java 使用 Aspose.HTML 设置设备像素比，以获得高分辨率的 PNG 渲染结果。
 
+### [如何在将 HTML 转换为 PNG 时设置 DPI – Java 指南](./how-to-set-dpi-when-converting-html-to-png-java-guide/)
+了解如何使用 Aspose.HTML for Java 在转换为 PNG 时自定义 DPI，以获得所需分辨率的图像。
+
 ### [Converting HTML to TIFF](./convert-html-to-tiff/)
 
 ### [将 HTML 转换为 WebP](./convert-html-to-webp-complete-java-guide-with-aspose-html/)

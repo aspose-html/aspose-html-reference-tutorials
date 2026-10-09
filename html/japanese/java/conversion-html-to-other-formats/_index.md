@@ -101,6 +101,8 @@ Aspose.HTML for Java を使用して HTML を XPS にシームレスに変換す
 Aspose.HTML を使用して Java でデバイスピクセル比を設定し、HTML をモバイルデバイス向けに変換する方法を学びます。
 ### [Converting Markdown to HTML](./convert-markdown-to-html/)
 Aspose.HTML for Java で Java の Markdown を HTML にシームレスに変換します。文書変換のニーズを効率化する手順をご確認ください。
+### [Create PDF from Markdown using Aspose HTML Converter (Java)](./create-pdf-from-markdown-using-aspose-html-converter-java/)
+Aspose.HTML を使い、Markdown ファイルを直接 PDF に変換する手順を解説します。
 ### [Converting SVG to Image](./convert-svg-to-image/)
 Aspose.HTML を使用して Java で SVG を画像に変換する方法を学びます。高品質出力のための包括的ガイドです。
 ### [Converting SVG to PDF](./convert-svg-to-pdf/)
@@ -124,6 +126,8 @@ Java のスレッドプールを活用して、HTML から PDF への大量変�
 Aspose.HTML を使用して Java で HTML を PDF/A‑2b に変換する手順を解説します。法的要件を満たす高品質な PDF を作成できます。
 ### [HTML to PDF 変換 – Aspose.HTML を使用したバッチ変換の完全ガイド](./html-to-pdf-conversion-complete-guide-to-batch-convert-files/)
 Aspose.HTML を使って複数の HTML ファイルを一括で PDF に変換する手順とベストプラクティスを解説します。
+### [JavaでPDFページサイズを設定 – Java HTML to PDF ガイド](./set-pdf-page-size-in-java-java-html-to-pdf-guide/)
+Java の Aspose.HTML を使用して、PDF のページサイズをカスタマイズする方法をステップバイステップで解説します。
 
 ### [JavaでHTMLをPDFに変換 – ページサイズと DPI の完全ガイド](./convert-html-to-pdf-in-java-full-guide-with-paper-size-dpi/)
 

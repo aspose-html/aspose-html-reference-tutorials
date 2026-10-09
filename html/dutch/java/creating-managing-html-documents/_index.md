@@ -60,6 +60,10 @@ Leer hoe u HTML-documenten van strings maakt in Aspose.HTML voor Java met deze s
 Ontdek hoe u eenvoudig HTML-documenten kunt laden vanaf een URL in Java met Aspose.HTML. Inclusief stapsgewijze tutorial.
 ### [HTML-document maken met Java – JSON ophalen en inhoud genereren](./create-html-document-with-java-fetch-json-and-generate-conte/)
 Leer hoe u met Java JSON-gegevens ophaalt en dynamisch een HTML-document genereert met Aspose.HTML.
+### [HTML laden in Java – Stapsgewijze handleiding](./how-to-load-html-in-java-step-by-step-guide/)
+Leer hoe u HTML-bestanden in Java laadt met Aspose.HTML, stap voor stap uitgelegd.
+### [HTML-document laden met Aspose – Snelle Java-gids om paginatitel op te halen](./load-html-document-aspose-quick-java-guide-to-retrieve-page/)
+Leer hoe u met Aspose.HTML in Java een HTML-document laadt en de paginatitel efficiënt ophaalt.
 ### [Genereer nieuwe HTML-documenten met Aspose.HTML voor Java](./generate-new-html-documents/)
 Leer hoe u nieuwe HTML-documenten maakt met Aspose.HTML voor Java met deze eenvoudige stapsgewijze handleiding. Begin met het genereren van dynamische HTML-inhoud.
 ### [HTML genereren vanuit JavaScript in Java – Complete stapsgewijze handleiding](./generate-html-from-javascript-in-java-complete-step-by-step/)

@@ -65,7 +65,10 @@ Aspose.HTML for Java 为开发人员提供了功能强大的工具包，旨在�
 
 ### [在 Aspose.HTML for Java 中从 URL 加载 HTML 文档](./load-html-documents-from-url/)
 了解如何使用 Aspose.HTML 轻松地从 Java 中的 URL 加载 HTML 文档。内含分步教程。
-
+### [使用 Aspose 加载 HTML 文档 – 快速 Java 指南获取页面标题](./load-html-document-aspose-quick-java-guide-to-retrieve-page/)
+本快速指南演示如何使用 Aspose.HTML for Java 加载 HTML 文档并提取页面标题，提供简明步骤和示例代码。
+### [在 Java 中加载 HTML – 步骤指南](./how-to-load-html-in-java-step-by-step-guide/)
+本分步指南展示如何在 Java 中使用 Aspose.HTML 加载 HTML 内容，提供代码示例和常见问题解答。
 ### [使用 Aspose.HTML for Java 生成新的 HTML 文档](./generate-new-html-documents/)
 通过本简单的分步指南学习如何使用 Aspose.HTML for Java 创建新的 HTML 文档。开始生成动态 HTML 内容。
 ### [使用 Java 创建 HTML 文档 – 获取 JSON 并生成内容](./create-html-document-with-java-fetch-json-and-generate-conte/)

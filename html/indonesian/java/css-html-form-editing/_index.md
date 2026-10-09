@@ -79,6 +79,8 @@ Pelajari cara mengambil properti CSS elemen di Java menggunakan querySelector da
 Pelajari cara mengambil elemen HTML berdasarkan ID menggunakan Java dan mengakses gaya terhitungnya dalam panduan langkah demi langkah.
 ### [Cara Mendapatkan Style di Java – Temukan Elemen & Baca Latar Belakang](./how-to-get-style-in-java-find-element-read-background/)
 Pelajari cara mengambil properti style elemen di Java, termasuk menemukan elemen dan membaca nilai latar belakangnya.
+### [Cara Mendapatkan Gaya Terhitung di Java – Contoh Lengkap Aspose.HTML](./how-to-get-computed-style-in-java-full-aspose-html-example/)
+Pelajari cara mengambil gaya terhitung elemen HTML menggunakan Aspose.HTML untuk Java dalam contoh lengkap langkah demi langkah.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -81,6 +81,7 @@ weight: 27
 เรียนรู้วิธีฝังฟอนต์ในไฟล์ PDF ระหว่างการแปลง EPUB ด้วย Aspose.HTML for Java เพื่อผลลัพธ์ที่คงฟอนต์ครบถ้วน
 ### [บทแนะนำ epub to pdf: แปลง eBook เป็น PDF ด้วย Aspose](./epub-to-pdf-tutorial-convert-ebook-to-pdf-with-aspose/)
 เรียนรู้วิธีแปลง eBook จาก EPUB ไปเป็น PDF อย่างง่ายดายด้วย Aspose.HTML for Java
+### [บทแนะนำ epub to pdf – แปลง eBook ของคุณด้วย Java ในไม่กี่นาที](./epub-to-pdf-tutorial-convert-your-ebooks-with-java-in-minute/)
 
 ## คำถามที่พบบ่อย
 

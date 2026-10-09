@@ -50,13 +50,11 @@ Erfahren Sie mit unserem ausführlichen Schritt-für‑Schritt‑Tutorial, wie S
 
 ### [Laden Sie HTML-Dokumente aus einer Datei in Aspose.HTML für Java](./load-html-documents-from-file/)
 Entfesseln Sie die Möglichkeiten der HTML-Manipulation mit Aspose.HTML für Java. Lernen Sie mit Schritt‑für‑Schritt‑Tutorials, HTML-Dokumente aus Dateien zu laden.
-
 ### [Erweitertes Laden von Dateien für HTML-Dokumente in Aspose.HTML für Java](./advanced-file-loading-html-documents/)
 Erfahren Sie in dieser Schritt‑für‑Schritt‑Anleitung, wie Sie HTML-Dokumente mit Aspose.HTML für Java laden, bearbeiten und speichern. Schalten Sie die erweiterte HTML-Verarbeitung in Ihren Java-Projekten frei.
 ### [Laden Sie HTML-Dokumente aus dem Stream mit Aspose.HTML für Java](./load-html-documents-from-stream/)
 Erfahren Sie, wie Sie mit Aspose.HTML für Java HTML-Dokumente aus Streams laden. Diese Anleitung bietet eine Schritt‑für‑Schritt‑Anleitung zur nahtlosen HTML-Bearbeitung.
 ### [Erstellen Sie HTML-Dokumente aus Zeichenfolgen in Aspose.HTML für Java](./create-html-documents-from-string/)
-Erfahren Sie in dieser Schritt‑für‑Schritt‑Anleitung, wie Sie in Aspose.HTML für Java HTML‑Dokumente aus Zeichenfolgen erstellen.
 ### [HTML-Dokument mit Java erstellen – JSON abrufen und Inhalt generieren](./create-html-document-with-java-fetch-json-and-generate-conte/)
 Erfahren Sie, wie Sie mit Aspose.HTML für Java ein HTML‑Dokument erstellen, JSON‑Daten abrufen und dynamisch Inhalte generieren.
 ### [HTML aus Markdown in Java erstellen – Vollständige Schritt‑für‑Schritt‑Anleitung](./create-html-from-markdown-in-java-full-step-by-step-guide/)
@@ -65,6 +63,10 @@ Erfahren Sie, wie Sie mit Aspose.HTML für Java Markdown in HTML konvertieren un
 ### [Laden Sie HTML-Dokumente von einer URL in Aspose.HTML für Java](./load-html-documents-from-url/)
 Entdecken Sie, wie Sie mit Aspose.HTML ganz einfach HTML-Dokumente von einer URL in Java laden. Schritt‑für‑Schritt‑Anleitung inklusive.
 
+### [HTML-Dokument laden mit Aspose – Schnell‑Java‑Leitfaden zum Abrufen des Seitentitels](./load-html-document-aspose-quick-java-guide-to-retrieve-page/)
+Erfahren Sie, wie Sie mit Aspose.HTML für Java ein HTML‑Dokument laden und den Seitentitel schnell auslesen.
+### [HTML in Java laden – Schritt‑für‑Schritt‑Leitfaden](./how-to-load-html-in-java-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.HTML für Java HTML-Inhalte laden und schnell in Ihre Anwendung integrieren – kompakte Schritt‑für‑Schritt‑Anleitung.
 ### [Generieren Sie neue HTML-Dokumente mit Aspose.HTML für Java](./generate-new-html-documents/)
 Erfahren Sie in dieser einfachen Schritt‑für‑Schritt‑Anleitung, wie Sie mit Aspose.HTML für Java neue HTML-Dokumente erstellen. Beginnen Sie mit der Generierung dynamischer HTML-Inhalte.
 ### [Behandeln von Dokumentladeereignissen in Aspose.HTML für Java](./handle-document-load-events/)

@@ -124,6 +124,8 @@ Apprenez comment définir une feuille de style utilisateur personnalisée dans A
 Apprenez comment créer un bac à sable Aspose HTML en Java, sécuriser l'exécution des scripts et convertir HTML en PDF en toute sécurité.
 ### [Obtenir la version de la bibliothèque en Java – Guide rapide pour afficher la version de la bibliothèque](./get-library-version-in-java-quick-guide-to-show-library-vers/)
 Apprenez comment récupérer et afficher la version d'Aspose.HTML for Java rapidement.
+### [Comment créer un bac à sable en Java – Guide complet](./how-to-create-sandbox-in-java-full-guide/)
+Apprenez comment créer un bac à sable en Java avec ce guide complet, assurant une exécution sécurisée des scripts lors de la conversion HTML en PDF.
 
 ---
 

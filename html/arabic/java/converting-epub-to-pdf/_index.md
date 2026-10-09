@@ -93,6 +93,8 @@ weight: 27
 تعلم كيفية تحويل ملفات EPUB إلى PDF بسهولة باستخدام Aspose.HTML for Java في هذا الدليل الشامل.
 ### [إنشاء PDF من EPUB – دليل Java خطوة بخطوة](./create-pdf-from-epub-step-by-step-java-guide/)
 دليل خطوة بخطوة لإنشاء ملف PDF من EPUB باستخدام Aspose.HTML for Java.
+### [دليل تحويل EPUB إلى PDF – حول كتبك الإلكترونية باستخدام Java في دقائق](./epub-to-pdf-tutorial-convert-your-ebooks-with-java-in-minute/)
+تعلم كيفية تحويل ملفات EPUB إلى PDF بسرعة باستخدام Aspose.HTML for Java في بضع دقائق.
 
 ## الأسئلة المتكررة
 

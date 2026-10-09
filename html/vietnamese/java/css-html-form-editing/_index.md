@@ -77,6 +77,8 @@ Hướng dẫn cách lấy CSS của phần tử trong Java bằng Aspose.HTML s
 Hướng dẫn chi tiết cách lấy phần tử HTML theo id trong Java và truy cập các kiểu tính toán bằng Aspose.HTML.
 ### [Cách lấy style trong Java – Tìm phần tử và đọc nền](./how-to-get-style-in-java-find-element-read-background/)
 Hướng dẫn cách sử dụng Aspose.HTML cho Java để tìm phần tử và đọc thuộc tính nền của nó.
+### [Cách lấy kiểu đã tính toán trong Java – Ví dụ đầy đủ Aspose.HTML](./how-to-get-computed-style-in-java-full-aspose-html-example/)
+Hướng dẫn chi tiết cách lấy thuộc tính kiểu đã tính toán của phần tử HTML trong Java bằng Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

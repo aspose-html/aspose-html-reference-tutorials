@@ -58,6 +58,8 @@ Dowiedz się, jak ładować dokumenty HTML ze strumieni za pomocą Aspose.HTML d
 Dowiedz się, jak tworzyć dokumenty HTML z ciągów znaków w Aspose.HTML dla Java, korzystając z tego przewodnika krok po kroku.
 ### [Ładowanie dokumentów HTML z adresu URL w Aspose.HTML dla Java](./load-html-documents-from-url/)
 Odkryj, jak łatwo ładować dokumenty HTML z adresu URL w Javie za pomocą Aspose.HTML. Zawiera samouczek krok po kroku.
+### [Ładowanie dokumentu HTML w Aspose – szybki przewodnik Java po pobraniu tytułu strony](./load-html-document-aspose-quick-java-guide-to-retrieve-page/)
+Dowiedz się, jak szybko pobrać tytuł strony z dokumentu HTML przy użyciu Aspose.HTML w Javie.
 ### [Generuj nowe dokumenty HTML za pomocą Aspose.HTML dla Java](./generate-new-html-documents/)
 Dowiedz się, jak tworzyć nowe dokumenty HTML za pomocą Aspose.HTML dla Java dzięki temu prostemu przewodnikowi krok po kroku. Zacznij generować dynamiczną zawartość HTML.
 ### [Utwórz dokument HTML w Javie – pobierz JSON i wygeneruj zawartość](./create-html-document-with-java-fetch-json-and-generate-conte/)
@@ -118,6 +120,8 @@ Dowiedz się, jak wyodrębnić tekst z artykułów HTML w Javie przy użyciu Asp
 Dowiedz się, jak uruchomić kod JavaScript w Javie przy użyciu setTimeout i dynamicznie aktualizować dokument HTML.
 ### [Utwórz HTML z Markdown w Javie – Pełny przewodnik krok po kroku](./create-html-from-markdown-in-java-full-step-by-step-guide/)
 Dowiedz się, jak konwertować pliki Markdown na HTML w Javie przy użyciu Aspose.HTML, krok po kroku.
+### [Jak załadować HTML w Javie – przewodnik krok po kroku](./how-to-load-html-in-java-step-by-step-guide/)
+Dowiedz się, jak w prosty sposób ładować dokumenty HTML w Javie przy użyciu Aspose.HTML, krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
