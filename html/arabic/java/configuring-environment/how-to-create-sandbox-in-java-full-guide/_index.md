@@ -22,14 +22,6 @@ title: كيفية إنشاء بيئة تجريبية في جافا – دليل 
 url: /ar/java/configuring-environment/how-to-create-sandbox-in-java-full-guide/
 ---
 
-? ..." Translate.
-
-We'll translate but keep bold formatting.
-
-Proceed.
-
-Will produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

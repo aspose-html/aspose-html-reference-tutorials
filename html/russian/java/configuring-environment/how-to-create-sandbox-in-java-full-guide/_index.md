@@ -22,18 +22,6 @@ title: Как создать песочницу в Java – Полное ру�
 url: /ru/java/configuring-environment/how-to-create-sandbox-in-java-full-guide/
 ---
 
-Also need to translate table content.
-
-We must not translate URLs, file paths, variable names, function names. So code blocks placeholders remain unchanged.
-
-We need to keep markdown formatting.
-
-Let's produce the translated content.
-
-We must keep the shortcodes at top and bottom.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

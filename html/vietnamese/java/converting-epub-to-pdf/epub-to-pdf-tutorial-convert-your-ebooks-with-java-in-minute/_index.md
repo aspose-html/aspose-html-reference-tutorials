@@ -25,9 +25,7 @@ title: Hướng dẫn chuyển epub sang pdf – Chuyển đổi eBook của b�
 url: /vi/java/converting-epub-to-pdf/epub-to-pdf-tutorial-convert-your-ebooks-with-java-in-minute/
 ---
 
-translate.
-
-Will produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

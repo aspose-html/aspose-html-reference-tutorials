@@ -22,11 +22,7 @@ title: Jak načíst HTML v Javě – krok za krokem
 url: /cs/java/creating-managing-html-documents/how-to-load-html-in-java-step-by-step-guide/
 ---
 
-fenced code blocks in the content besides placeholders. So fine.
-
-Check any inline code: we kept unchanged.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

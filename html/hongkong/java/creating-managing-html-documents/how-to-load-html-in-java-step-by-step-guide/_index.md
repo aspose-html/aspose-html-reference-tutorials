@@ -21,17 +21,7 @@ title: 如何在 Java 中載入 HTML – 步驟指南
 url: /zh-hant/java/creating-managing-html-documents/how-to-load-html-in-java-step-by-step-guide/
 ---
 
-"## Wrap‑Up" translate.
-
-Paragraphs translate.
-
-At the end shortcodes.
-
-Let's craft translation.
-
-Be careful with punctuation: Use Chinese punctuation? Usually maintain English punctuation but can use Chinese full-width? Probably okay to use Chinese punctuation.
-
-Let's produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

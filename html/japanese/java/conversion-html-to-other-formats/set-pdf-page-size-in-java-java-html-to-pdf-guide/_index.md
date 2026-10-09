@@ -21,20 +21,6 @@ title: JavaでPDFページサイズを設定 – Java HTMLからPDFへのガイ�
 url: /ja/java/conversion-html-to-other-formats/set-pdf-page-size-in-java-java-html-to-pdf-guide/
 ---
 
-/set-pdf-page-size.png "set pdf page size") Keep unchanged.
-
-Also there is a link in the "Further Reading & Next Steps" bullet list? Actually they are not links, just text.
-
-We need to translate all textual content, but keep technical terms in English.
-
-Let's produce final content.
-
-Be careful with "A4‑sized page" etc. Keep hyphen.
-
-Also "PDF page size" maybe keep English term but translate.
-
-Let's write.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

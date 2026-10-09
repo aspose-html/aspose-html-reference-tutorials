@@ -23,9 +23,7 @@ title: تحميل مستند HTML Aspose – دليل جافا السريع لا
 url: /ar/java/creating-managing-html-documents/load-html-document-aspose-quick-java-guide-to-retrieve-page/
 ---
 
-placeholders.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

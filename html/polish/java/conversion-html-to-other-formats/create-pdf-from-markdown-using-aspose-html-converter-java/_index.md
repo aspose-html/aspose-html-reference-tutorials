@@ -25,16 +25,6 @@ title: Utwórz PDF z Markdown przy użyciu Aspose HTML Converter (Java)
 url: /pl/java/conversion-html-to-other-formats/create-pdf-from-markdown-using-aspose-html-converter-java/
 ---
 
-"Rozwiązanie". Also the rows content: "PDF missing images", etc. Those are English; we need to translate them to Polish, but keep technical terms like "PDF", "Image paths", etc. Keep code snippets unchanged.
-
-Also need to translate bullet list items under "What You’ll Learn". Keep technical terms.
-
-Also translate the note about "Pro tip" etc.
-
-Make sure to keep markdown formatting.
-
-Let's produce final translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

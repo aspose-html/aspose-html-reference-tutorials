@@ -24,10 +24,6 @@ title: Atur Ukuran Halaman PDF di Java – Panduan Java HTML ke PDF
 url: /id/java/conversion-html-to-other-formats/set-pdf-page-size-in-java-java-html-to-pdf-guide/
 ---
 
-size example](https://example.com/images/set-pdf-page-size.png "set pdf page size") - keep unchanged.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

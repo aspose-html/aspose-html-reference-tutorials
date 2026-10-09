@@ -25,9 +25,7 @@ title: Установка размера страницы PDF в Java – Ру�
 url: /ru/java/conversion-html-to-other-formats/set-pdf-page-size-in-java-java-html-to-pdf-guide/
 ---
 
-produce final translation.
-
-Let's write it.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

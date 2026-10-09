@@ -22,13 +22,7 @@ title: Java'da HTML Nasıl Yüklenir – Adım Adım Rehber
 url: /tr/java/creating-managing-html-documents/how-to-load-html-in-java-step-by-step-guide/
 ---
 
-out? You’re not the only one." etc.
-
-Let's do it.
-
-We'll keep code block placeholders unchanged.
-
-Let's produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

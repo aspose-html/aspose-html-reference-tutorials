@@ -25,21 +25,7 @@ title: Cómo obtener el estilo computado en Java – Ejemplo completo de Aspose.
 url: /es/java/css-html-form-editing/how-to-get-computed-style-in-java-full-aspose-html-example/
 ---
 
-miss any markdown links. There are none besides maybe code blocks placeholders. No URLs.
-
-Check for any markdown link syntax: none.
-
-Check for any list items: we translated.
-
-Check for any alt attribute: we changed.
-
-Check for any headings: we translated.
-
-Check for any bold text: we kept **...** but translated inside.
-
-Check for any code blocks: placeholders remain.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

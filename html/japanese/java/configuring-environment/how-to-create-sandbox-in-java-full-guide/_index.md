@@ -20,10 +20,6 @@ title: Javaでサンドボックスを作成する方法 – 完全ガイド
 url: /ja/java/configuring-environment/how-to-create-sandbox-in-java-full-guide/
 ---
 
-keep markdown syntax.
-
-Let's craft Japanese translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

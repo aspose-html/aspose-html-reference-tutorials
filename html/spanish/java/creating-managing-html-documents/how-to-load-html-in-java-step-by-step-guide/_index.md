@@ -22,11 +22,7 @@ title: Cómo cargar HTML en Java – Guía paso a paso
 url: /es/java/creating-managing-html-documents/how-to-load-html-in-java-step-by-step-guide/
 ---
 
-content, then closing three shortcodes, then backtop button. All preserved.
-
-Make sure we didn't translate any URLs or code block placeholders. Good.
-
-Now produce final answer with only translated content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

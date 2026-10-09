@@ -22,7 +22,7 @@ title: Java에서 샌드박스 생성 방법 – 전체 가이드
 url: /ko/java/configuring-environment/how-to-create-sandbox-in-java-full-guide/
 ---
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

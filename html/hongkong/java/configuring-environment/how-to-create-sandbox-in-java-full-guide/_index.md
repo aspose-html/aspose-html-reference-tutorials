@@ -20,20 +20,6 @@ title: 如何在 Java 中創建沙盒 – 完整指南
 url: /zh-hant/java/configuring-environment/how-to-create-sandbox-in-java-full-guide/
 ---
 
-.
-
-Then final call to action.
-
-Translate.
-
-Then closing shortcodes.
-
-Make sure to keep all shortcodes unchanged.
-
-Now produce final content.
-
-Let's construct.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

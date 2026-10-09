@@ -22,9 +22,7 @@ title: Como carregar HTML em Java – Guia passo a passo
 url: /pt/java/creating-managing-html-documents/how-to-load-html-in-java-step-by-step-guide/
 ---
 
-.
-
-Now produce final content with all translations.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -22,8 +22,6 @@ title: Cách tạo sandbox trong Java – Hướng dẫn đầy đủ
 url: /vi/java/configuring-environment/how-to-create-sandbox-in-java-full-guide/
 ---
 
-produce final content with translations.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

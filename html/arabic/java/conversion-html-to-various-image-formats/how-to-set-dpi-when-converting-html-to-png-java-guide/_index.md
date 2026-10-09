@@ -22,20 +22,6 @@ title: كيفية ضبط DPI عند تحويل HTML إلى PNG – دليل Java
 url: /ar/java/conversion-html-to-various-image-formats/how-to-set-dpi-when-converting-html-to-png-java-guide/
 ---
 
-.
-
-Translate.
-
-Blockquote "Pro tip:" etc.
-
-Translate.
-
-All other content.
-
-Make sure to keep markdown formatting.
-
-Let's write.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

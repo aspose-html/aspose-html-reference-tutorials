@@ -23,7 +23,7 @@ title: Cómo crear un sandbox en Java – Guía completa
 url: /es/java/configuring-environment/how-to-create-sandbox-in-java-full-guide/
 ---
 
-answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

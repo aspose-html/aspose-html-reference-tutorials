@@ -24,18 +24,6 @@ title: samouczek epub do pdf – konwertuj swoje e‑booki w Javie w kilka minut
 url: /pl/java/converting-epub-to-pdf/epub-to-pdf-tutorial-convert-your-ebooks-with-java-in-minute/
 ---
 
-codes lines unchanged.
-
-Then heading "# epub to pdf tutorial – Convert Your eBooks with Java" translate: "# poradnik epub do pdf – konwertuj swoje e‑booki w Javie"
-
-Proceed.
-
-Let's craft translation.
-
-Will translate bullet points.
-
-Proceed step by step.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

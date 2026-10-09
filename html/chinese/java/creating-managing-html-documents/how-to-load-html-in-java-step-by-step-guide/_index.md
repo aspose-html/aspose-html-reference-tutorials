@@ -20,12 +20,6 @@ title: 如何在 Java 中加载 HTML – 步骤指南
 url: /zh/java/creating-managing-html-documents/how-to-load-html-in-java-step-by-step-guide/
 ---
 
-.
-
-We'll keep URLs unchanged.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

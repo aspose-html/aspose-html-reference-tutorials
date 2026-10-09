@@ -24,22 +24,6 @@ title: HTML betöltése Java-ban – Lépésről lépésre útmutató
 url: /hu/java/creating-managing-html-documents/how-to-load-html-in-java-step-by-step-guide/
 ---
 
-inside: **hogyan töltsünk be HTML-t**.
-
-Also keep code block placeholders.
-
-Lists: bullet points under Prerequisites translate.
-
-Image alt translation.
-
-Sections headings: "## How to Load HTML and Access Its Content" -> "## HTML betöltése és a tartalmához való hozzáférés". etc.
-
-Quotes > blockquote: keep > but translate text.
-
-Proceed.
-
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

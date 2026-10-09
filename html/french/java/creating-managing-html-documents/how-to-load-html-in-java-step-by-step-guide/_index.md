@@ -23,10 +23,6 @@ title: Comment charger du HTML en Java – Guide étape par étape
 url: /fr/java/creating-managing-html-documents/how-to-load-html-in-java-step-by-step-guide/
 ---
 
-, including blank lines.
-
-Let's write.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

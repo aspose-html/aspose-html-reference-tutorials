@@ -25,14 +25,6 @@ title: HTML दस्तावेज़ लोड करें Aspose – पृ
 url: /hi/java/creating-managing-html-documents/load-html-document-aspose-quick-java-guide-to-retrieve-page/
 ---
 
-before parentheses; it's not a URL. So we can translate.
-
-Let's produce translation.
-
-We need to keep shortcodes exactly as they are.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

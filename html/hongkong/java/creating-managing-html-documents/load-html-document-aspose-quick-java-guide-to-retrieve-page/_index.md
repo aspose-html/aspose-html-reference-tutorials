@@ -22,16 +22,6 @@ title: 載入 HTML 文件 aspose – 快速 Java 指南：取得頁面標題
 url: /zh-hant/java/creating-managing-html-documents/load-html-document-aspose-quick-java-guide-to-retrieve-page/
 ---
 
-load html document aspose – Java Tutorial for Page Title Retrieval
-
-... translate.
-
-Let's do.
-
-Note: Keep "load html document aspose" phrase maybe keep as is? It's a phrase; but it's part of the tutorial title. Should we translate? The phrase includes technical term "load html document aspose". According to rule: keep technical terms in English, but this phrase is a combination. Might keep as is. The title includes "load html document aspose – Java Tutorial for Page Title Retrieval". Could translate "Java 教學：取得頁面標題的 load html document aspose". But maybe keep phrase unchanged. We'll translate rest.
-
-Let's produce.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

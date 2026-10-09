@@ -24,11 +24,7 @@ title: Java'da PDF Sayfa Boyutunu Ayarlama – Java HTML'den PDF Rehberi
 url: /tr/java/conversion-html-to-other-formats/set-pdf-page-size-in-java-java-html-to-pdf-guide/
 ---
 
-A4 Sayfa Boyutunu Ayarla**.
-
-Make sure to keep code placeholders unchanged.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

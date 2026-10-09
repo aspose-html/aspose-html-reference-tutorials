@@ -25,20 +25,6 @@ title: Tạo PDF từ Markdown bằng Aspose HTML Converter (Java)
 url: /vi/java/conversion-html-to-other-formats/create-pdf-from-markdown-using-aspose-html-converter-java/
 ---
 
-can turn a `.md` file into a polished PDF in just a few lines of code."
-
-Translate to Vietnamese.
-
-Similarly rest.
-
-Make sure to keep markdown formatting.
-
-Let's craft translation.
-
-Also note "RTL formatting if needed" not relevant.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

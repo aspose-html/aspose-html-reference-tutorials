@@ -24,7 +24,7 @@ title: Jak získat vypočtený styl v Javě – Kompletní příklad Aspose.HTML
 url: /cs/java/css-html-form-editing/how-to-get-computed-style-in-java-full-aspose-html-example/
 ---
 
-produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

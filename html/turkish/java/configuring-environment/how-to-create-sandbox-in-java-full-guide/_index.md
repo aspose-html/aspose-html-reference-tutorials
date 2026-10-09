@@ -23,13 +23,7 @@ title: Java'da Sandbox Nasıl Oluşturulur – Tam Rehber
 url: /tr/java/configuring-environment/how-to-create-sandbox-in-java-full-guide/
 ---
 
-Now produce final content with same shortcodes at top and bottom.
-
-Make sure to keep the image markdown with alt translation.
-
-Also ensure that any code block placeholders remain unchanged.
-
-Now craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

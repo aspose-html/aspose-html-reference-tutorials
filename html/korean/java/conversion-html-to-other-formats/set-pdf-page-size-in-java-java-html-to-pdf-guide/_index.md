@@ -23,9 +23,7 @@ title: Java에서 PDF 페이지 크기 설정 – Java HTML to PDF 가이드
 url: /ko/java/conversion-html-to-other-formats/set-pdf-page-size-in-java-java-html-to-pdf-guide/
 ---
 
-stray markdown formatting like ** etc. Keep them.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

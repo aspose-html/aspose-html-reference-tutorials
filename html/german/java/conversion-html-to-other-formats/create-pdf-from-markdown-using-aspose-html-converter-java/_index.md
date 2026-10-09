@@ -25,11 +25,7 @@ title: PDF aus Markdown mit Aspose HTML Converter (Java) erstellen
 url: /de/java/conversion-html-to-other-formats/create-pdf-from-markdown-using-aspose-html-converter-java/
 ---
 
-closing shortcodes.
-
-Make sure to keep all placeholders and code blocks unchanged.
-
-Now produce final output with all translated content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

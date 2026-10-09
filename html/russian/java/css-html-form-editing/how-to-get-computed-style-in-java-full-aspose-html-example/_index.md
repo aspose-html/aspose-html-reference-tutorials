@@ -24,12 +24,6 @@ title: Как получить вычисленный стиль в Java – П
 url: /ru/java/css-html-form-editing/how-to-get-computed-style-in-java-full-aspose-html-example/
 ---
 
-document java** с использованием Aspose.HTML for Java." We'll keep the bold part unchanged.
-
-Similarly for other list items.
-
-Now produce final markdown.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

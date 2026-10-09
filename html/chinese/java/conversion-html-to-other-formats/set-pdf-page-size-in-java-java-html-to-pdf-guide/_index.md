@@ -22,26 +22,6 @@ title: 在 Java 中设置 PDF 页面大小 – Java HTML 转 PDF 指南
 url: /zh/java/conversion-html-to-other-formats/set-pdf-page-size-in-java-java-html-to-pdf-guide/
 ---
 
-extra tricks for a polished result. By the end you’ll know **how to convert HTML** to PDF Java‑style, and you’ll have a reusable snippet you can drop into any Maven or Gradle project."
-
-Translate.
-
-Then "## What You’ll Learn" -> "## 您将学习"
-
-List items.
-
-Translate each bullet.
-
-"Prerequisites" etc.
-
-Now code block placeholders remain unchanged.
-
-Proceed through sections.
-
-Make sure to keep markdown formatting.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

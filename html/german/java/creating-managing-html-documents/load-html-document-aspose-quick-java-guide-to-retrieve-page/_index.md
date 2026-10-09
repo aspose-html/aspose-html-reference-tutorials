@@ -25,9 +25,7 @@ title: HTML-Dokument mit Aspose laden – Schnellleitfaden für Java zum Abrufen
 url: /de/java/creating-managing-html-documents/load-html-document-aspose-quick-java-guide-to-retrieve-page/
 ---
 
-.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

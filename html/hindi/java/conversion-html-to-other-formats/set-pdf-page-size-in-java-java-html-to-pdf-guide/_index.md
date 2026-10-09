@@ -23,13 +23,7 @@ title: जावा में पीडीएफ पेज आकार से�
 url: /hi/java/conversion-html-to-other-formats/set-pdf-page-size-in-java-java-html-to-pdf-guide/
 ---
 
-Title: "set pdf page size" -> "pdf पेज आकार सेट करें". Keep URL unchanged.
-
-Now close shortcodes as original.
-
-Make sure to keep all shortcodes and code block placeholders unchanged.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

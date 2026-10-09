@@ -24,12 +24,6 @@ title: تعيين حجم صفحة PDF في Java – دليل Java لتحويل H
 url: /ar/java/conversion-html-to-other-formats/set-pdf-page-size-in-java-java-html-to-pdf-guide/
 ---
 
-write Arabic text.
-
-Also note that we need to keep technical terms in English: API, Aspose.HTML, Maven, Gradle, PDF, DPI, JavaScript, etc.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

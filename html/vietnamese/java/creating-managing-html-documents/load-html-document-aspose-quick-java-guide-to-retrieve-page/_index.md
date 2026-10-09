@@ -23,8 +23,6 @@ title: Tải tài liệu HTML Aspose – Hướng dẫn nhanh Java để lấy t
 url: /vi/java/creating-managing-html-documents/load-html-document-aspose-quick-java-guide-to-retrieve-page/
 ---
 
-with all translations and placeholders.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

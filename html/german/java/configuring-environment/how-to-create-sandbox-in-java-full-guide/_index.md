@@ -22,12 +22,6 @@ title: Wie man eine Sandbox in Java erstellt – Vollständige Anleitung
 url: /de/java/configuring-environment/how-to-create-sandbox-in-java-full-guide/
 ---
 
-sandbox diagram". Should we translate alt? Probably yes, because it's text content. But the alt attribute inside braces is also text. The alt attribute is part of markdown? It's a Hugo attribute. Should translate "How to create sandbox in Java diagram" to German. Keep braces.
-
-Let's translate.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

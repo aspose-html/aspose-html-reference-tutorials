@@ -22,22 +22,6 @@ title: كيفية تحميل HTML في جافا – دليل خطوة بخطوة
 url: /ar/java/creating-managing-html-documents/how-to-load-html-in-java-step-by-step-guide/
 ---
 
-the text after colon.
-
-Similarly for other blockquotes.
-
-Lists: bullet points.
-
-Now produce final content.
-
-Let's craft translation.
-
-Be careful with punctuation.
-
-Also translate "Prerequisites" heading.
-
-Now produce final answer.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

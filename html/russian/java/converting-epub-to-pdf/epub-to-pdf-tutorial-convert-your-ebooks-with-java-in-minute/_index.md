@@ -25,7 +25,7 @@ title: Учебник по конвертации EPUB в PDF – Преобра
 url: /ru/java/converting-epub-to-pdf/epub-to-pdf-tutorial-convert-your-ebooks-with-java-in-minute/
 ---
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

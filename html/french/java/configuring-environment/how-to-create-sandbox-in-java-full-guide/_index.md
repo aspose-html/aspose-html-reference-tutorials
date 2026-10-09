@@ -23,9 +23,7 @@ title: Comment créer un bac à sable en Java – Guide complet
 url: /fr/java/configuring-environment/how-to-create-sandbox-in-java-full-guide/
 ---
 
-alt attribute translation.
-
-Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

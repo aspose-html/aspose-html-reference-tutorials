@@ -22,8 +22,6 @@ title: epub to pdf 튜토리얼 – Java로 몇 분 안에 전자책 변환하�
 url: /ko/java/converting-epub-to-pdf/epub-to-pdf-tutorial-convert-your-ebooks-with-java-in-minute/
 ---
 
-craft Korean translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

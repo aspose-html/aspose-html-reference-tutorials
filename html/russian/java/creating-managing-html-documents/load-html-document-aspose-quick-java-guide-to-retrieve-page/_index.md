@@ -25,25 +25,7 @@ title: Загрузка HTML‑документа Aspose – Краткое ру
 url: /ru/java/creating-managing-html-documents/load-html-document-aspose-quick-java-guide-to-retrieve-page/
 ---
 
-aspose** – diagram showing the flow from file to script execution to title retrieval.
-
-Translate after **load html document aspose** unchanged.
-
-So alt text: **load html document aspose** – диаграмма, показывающая поток от файла к выполнению скрипта и извлечению заголовка.
-
-Title attribute after image: "Illustration of loading an HTML document with Aspose.HTML and extracting the title" translate.
-
-Now "## Conclusion"
-
-Translate.
-
-Paragraphs translate.
-
-Make sure to keep code block placeholders unchanged.
-
-Now produce final content with same shortcodes at top and bottom.
-
-Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -24,9 +24,7 @@ title: EPUB zu PDF Tutorial – Konvertieren Sie Ihre eBooks mit Java in Minuten
 url: /de/java/converting-epub-to-pdf/epub-to-pdf-tutorial-convert-your-ebooks-with-java-in-minute/
 ---
 
-. Ensure no extra spaces messing.
-
-Let's assemble.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
