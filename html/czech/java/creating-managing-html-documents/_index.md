@@ -60,6 +60,8 @@ Naučte se načítat HTML dokumenty ze streamů pomocí Aspose.HTML for Java. Ta
 Naučte se vytvářet HTML dokumenty z řetězců v Aspose.HTML pro Java pomocí tohoto podrobného průvodce.
 ### [Vytvořte HTML dokument v Javě – načtěte JSON a generujte obsah](./create-html-document-with-java-fetch-json-and-generate-conte/)
 Naučte se v Javě načíst JSON a generovat dynamický HTML obsah pomocí Aspose.HTML.
+### [Jak vygenerovat tabulku z dat pomocí HTML a Handlebars](./how-to-generate-table-from-data-with-html-and-handlebars/)
+Naučte se vytvořit tabulku z dat pomocí HTML a šablon Handlebars.
 ### [Načtěte HTML dokumenty z URL v Aspose.HTML pro Java](./load-html-documents-from-url/)
 Objevte, jak snadno načíst HTML dokumenty z URL v Javě pomocí Aspose.HTML. Včetně návodu krok za krokem.
 ### [Generujte nové HTML dokumenty pomocí Aspose.HTML pro Java](./generate-new-html-documents/)
@@ -109,6 +111,7 @@ Naučte se spouštět JavaScript pomocí setTimeout asynchronně v Javě a dynam
 Rychlý návod, jak pomocí Aspose.HTML v Javě načíst HTML dokument a získat titulek stránky.
 ### [Jak načíst HTML v Javě – krok‑za‑krokem průvodce](./how-to-load-html-in-java-step-by-step-guide/)
 Podrobný návod, jak pomocí Aspose.HTML načíst HTML dokument v Javě krok za krokem.
+### [Jak převést HTML šablonu na finální stránku pomocí Javy a Aspose.HTML](./how-to-convert-html-template-to-a-final-page-using-java-and/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

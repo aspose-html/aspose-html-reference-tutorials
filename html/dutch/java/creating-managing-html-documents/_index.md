@@ -56,6 +56,8 @@ Leer hoe u HTML-documenten laadt, bewerkt en opslaat met Aspose.HTML voor Java i
 Leer hoe u HTML-documenten laadt uit streams met Aspose.HTML voor Java. Deze gids biedt een stapsgewijze tutorial voor naadloze HTML-manipulatie.
 ### [HTML-documenten maken van strings in Aspose.HTML voor Java](./create-html-documents-from-string/)
 Leer hoe u HTML-documenten van strings maakt in Aspose.HTML voor Java met deze stapsgewijze handleiding.
+### [Hoe HTML-sjabloon omzetten naar een definitieve pagina met Java en Aspose.HTML](./how-to-convert-html-template-to-a-final-page-using-java-and/)
+Leer hoe u een HTML-sjabloon omzet naar een volledige pagina met Java en Aspose.HTML in een stapsgewijze tutorial.
 ### [HTML-documenten laden vanaf URL in Aspose.HTML voor Java](./load-html-documents-from-url/)
 Ontdek hoe u eenvoudig HTML-documenten kunt laden vanaf een URL in Java met Aspose.HTML. Inclusief stapsgewijze tutorial.
 ### [HTML-document maken met Java – JSON ophalen en inhoud genereren](./create-html-document-with-java-fetch-json-and-generate-conte/)
@@ -86,22 +88,8 @@ Leer stap‑voor‑stap hoe u HTML‑documenten laadt in Java met XPath‑ en CS
 Leer hoe u het aantal HTML‑tekens in een document kunt tellen met Aspose.HTML voor Java in deze stapsgewijze volledige gids.
 ### [Tekst extraheren uit HTML in Java – Complete programmeergids](./extract-text-from-html-in-java-complete-programming-guide/)
 Leer hoe u tekst uit HTML-documenten kunt extraheren in Java met deze volledige stap‑voor‑stap handleiding.
-
-
-
-
-
-
-
 ### [NodeList itereren in Java – HTML lezen en afbeeldings‑src ophalen](./iterate-nodelist-java-read-html-get-image-src/)
 Leer hoe u met Aspose.HTML voor Java een NodeList doorloopt, HTML-inhoud leest en de src‑attributen van afbeeldingen extraheert.
-
-
-
-
-
-
-
 ### [Tekst extraheren uit HTML met Java – Complete stap‑voor‑stap gids](./extract-text-from-html-with-java-complete-step-by-step-guide/)
 Leer hoe u tekst uit HTML haalt met Java in Aspose.HTML. Volledige stap‑voor‑stap handleiding.
 ### [NodeList itereren in Java – Complete gids](./iterate-over-nodelist-java-complete-guide/)
@@ -116,6 +104,8 @@ Leer hoe u HTML in Java kunt parseren en tekst uit HTML‑artikelen extraheren m
 Leer hoe u JavaScript met setTimeout asynchroon vanuit Java kunt uitvoeren en de HTML-inhoud dynamisch bijwerkt.
 ### [HTML maken vanuit Markdown in Java – Volledige stapsgewijze handleiding](./create-html-from-markdown-in-java-full-step-by-step-guide/)
 Leer hoe u Markdown naar HTML converteert in Java met een gedetailleerde stap‑voor‑stap handleiding.
+### [Hoe een tabel te genereren vanuit gegevens met HTML en Handlebars](./how-to-generate-table-from-data-with-html-and-handlebars/)
+Leer hoe u met Handlebars een tabel genereert uit data in HTML met Aspose.HTML voor Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

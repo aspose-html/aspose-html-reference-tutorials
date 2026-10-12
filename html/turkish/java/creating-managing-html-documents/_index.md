@@ -50,10 +50,12 @@ Her seviyedeki geliştirici için mükemmel olan detaylı adım adım eğitimimi
 Aspose.HTML for Java ile HTML manipülasyonunun gücünü açığa çıkarın. Adım adım eğitimlerle dosyalardan HTML belgeleri yüklemeyi öğrenin.
 ### [Java için Aspose.HTML'de HTML Belgeleri için Gelişmiş Dosya Yükleme](./advanced-file-loading-html-documents/)
 Bu adım adım kılavuzda Aspose.HTML for Java kullanarak HTML belgelerini nasıl yükleyeceğinizi, işleyeceğinizi ve kaydedeceğinizi öğrenin. Java projelerinizde gelişmiş HTML işlemenin kilidini açın.
-### [Java için Aspose.HTML ile Akıştan HTML Belgelerini Yükleyin](./load-html-documents-from-stream/)
+### [Java için Aspose.HTML'de Akıştan HTML Belgelerini Yükleyin](./load-html-documents-from-stream/)
 Java için Aspose.HTML kullanarak akışlardan HTML belgelerinin nasıl yükleneceğini öğrenin. Bu kılavuz, sorunsuz HTML işleme için adım adım bir eğitim sağlar.
 ### [Java için Aspose.HTML'de Dizeden HTML Belgeleri Oluşturma](./create-html-documents-from-string/)
 Bu adım adım kılavuzla Java için Aspose.HTML'de dizelerden HTML belgelerinin nasıl oluşturulacağını öğrenin.
+### [Java için Aspose.HTML'de HTML ve Handlebars ile Veriden Tablo Oluşturma](./how-to-generate-table-from-data-with-html-and-handlebars/)
+HTML ve Handlebars kullanarak veri setinden dinamik tablo oluşturmayı adım adım öğrenin.
 ### [Java için Aspose.HTML'de URL'den HTML Belgelerini Yükle](./load-html-documents-from-url/)
 Aspose.HTML ile Java'da bir URL'den HTML belgelerinin nasıl kolayca yükleneceğini keşfedin. Adım adım eğitim dahildir.
 ### [Java için Aspose.HTML'de HTML Yükleme – Adım Adım Kılavuz](./how-to-load-html-in-java-step-by-step-guide/)
@@ -76,40 +78,12 @@ Java için Aspose.HTML kullanarak XPath ve CSS ile HTML belgelerini nasıl yükl
 Java uygulamalarında Aspose.HTML kullanarak HTML belgelerindeki karakter sayısını adım adım öğrenin.
 ### [Java için Aspose.HTML'de HTML'den Metin Çıkarma – Tam Programlama Kılavuzu](./extract-text-from-html-in-java-complete-programming-guide/)
 Java için Aspose.HTML kullanarak HTML belgelerinden metin çıkarma konusunda adım adım rehber.
-
-
-
-
-
-
-
 ### [Java için Aspose.HTML'de HTML'i Java'da Ayrıştırma – Yükleme, Sorgulama ve Eleman Sayma](./how-to-parse-html-java-load-query-count-elements/)
 ### [Java'da Asenkron JavaScript Çalıştırma – Adım Adım Tam Kılavuz](./execute-async-javascript-in-java-complete-step-by-step-guide/)
-
-
-
-
-
-
-
 ### [Java için Aspose.HTML'de JavaScript'ten HTML Oluşturma – Tam Adım Adım Kılavuz](./generate-html-from-javascript-in-java-complete-step-by-step/)
-Java'da JavaScript kullanarak dinamik HTML oluşturmayı adım adım öğrenin.
-
-
-
-
-
-
-
+Java’da JavaScript kullanarak dinamik HTML oluşturmayı adım adım öğrenin.
 ### [Java için Aspose.HTML'de NodeList'i Döngüyle Gezin – HTML Oku ve Görüntü src'sini Al](./iterate-nodelist-java-read-html-get-image-src/)
 Java’da NodeList’i dolaşarak HTML içeriğinden görsel kaynaklarını (src) nasıl alacağınızı öğrenin.
-
-
-
-
-
-
-
 ### [Java için Aspose.HTML'de NodeList Üzerinde Döngü – Tam Kılavuz](./iterate-over-nodelist-java-complete-guide/)
 Java’da NodeList nesnelerini nasıl yineleyeceğinizi adım adım öğrenin, örnek kodlarla pratik yapın.
 ### [Java için Aspose.HTML'de HTML'den Metin Çıkarma – Tam Adım‑Adım Kılavuz](./extract-text-from-html-with-java-complete-step-by-step-guide/)
@@ -126,6 +100,8 @@ Java içinde setTimeout kullanarak asenkron JavaScript çalıştırın ve HTML i
 Java için Aspose.HTML kullanarak Markdown içeriğini tam adım adım HTML'e dönüştürmeyi öğrenin.
 ### [Java için Aspose.HTML'de HTML Belgesi Yükleme – Sayfa Başlığını Alma Hızlı Java Kılavuzu](./load-html-document-aspose-quick-java-guide-to-retrieve-page/)
 Java için Aspose.HTML kullanarak bir HTML belgesinin sayfa başlığını hızlıca nasıl alacağınızı öğrenin.
+### [Java ve Aspose.HTML kullanarak HTML şablonunu son sayfaya dönüştürme](./how-to-convert-html-template-to-a-final-page-using-java-and/)
+Java ve Aspose.HTML ile HTML şablonunu son sayfaya dönüştürmeyi adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -56,8 +56,12 @@ Découvrez comment charger des documents HTML à partir de flux à l'aide d'Aspo
 Apprenez à charger des documents HTML en Java avec Aspose.HTML, en utilisant XPath et CSS pour extraire et styliser le contenu.
 ### [Créer des documents HTML à partir d'une chaîne dans Aspose.HTML pour Java](./create-html-documents-from-string/)
 Apprenez à créer des documents HTML à partir de chaînes dans Aspose.HTML pour Java avec ce guide étape par étape.
+### [Comment convertir un modèle HTML en page finale avec Java et Aspose.HTML](./how-to-convert-html-template-to-a-final-page-using-java-and/)
+Apprenez à transformer un modèle HTML en page finale en Java avec Aspose.HTML, étape par étape.
 ### [Créer du HTML à partir de Markdown en Java – Guide complet étape par étape](./create-html-from-markdown-in-java-full-step-by-step-guide/)
 Apprenez à convertir du Markdown en HTML en Java avec Aspose.HTML grâce à ce guide complet étape par étape.
+### [Comment générer un tableau à partir de données avec HTML et Handlebars](./how-to-generate-table-from-data-with-html-and-handlebars/)
+Apprenez à créer dynamiquement un tableau HTML à partir de données en utilisant le moteur de templates Handlebars.
 ### [Charger des documents HTML à partir d'une URL dans Aspose.HTML pour Java](./load-html-documents-from-url/)
 Découvrez comment charger facilement des documents HTML à partir d'une URL en Java avec Aspose.HTML. Tutoriel étape par étape inclus.
 ### [Charger un document HTML avec Aspose – Guide rapide Java pour récupérer le titre de la page](./load-html-document-aspose-quick-java-guide-to-retrieve-page/)
@@ -76,18 +80,14 @@ Apprenez à créer un environnement sécurisé pour manipuler du HTML en Java av
 Apprenez à interroger et extraire des données HTML en Java avec Aspose.HTML grâce à ce guide complet étape par étape.
 ### [Comment interroger le HTML en Java – Extraire les URL d'images](./how-to-query-html-in-java-extract-image-urls/)
 Apprenez à extraire les URL d'images depuis du HTML en Java avec Aspose.HTML grâce à ce guide étape par étape.
-
 ### [Comment analyser le HTML en Java – Extraire le texte des articles HTML](./how-to-parse-html-in-java-extract-text-from-html-articles/)
 Apprenez à analyser le HTML en Java et à extraire le texte des articles HTML grâce à ce guide étape par étape.
-
 ### [Créer un document HTML avec Java – Récupérer JSON et générer du contenu](./create-html-document-with-java-fetch-json-and-generate-conte/)
 Apprenez à récupérer des données JSON et à générer dynamiquement du contenu HTML en Java avec Aspose.HTML.
 ### [Compter les caractères HTML en Java – Guide complet avec Aspose.HTML](./count-html-characters-in-java-full-guide-with-aspose-html/)
 Apprenez à compter le nombre de caractères dans un document HTML en Java à l'aide d'Aspose.HTML, avec un guide détaillé pas à pas.
 ### [Extraire du texte à partir de HTML en Java – Guide complet de programmation](./extract-text-from-html-in-java-complete-programming-guide/)
-Apprenez à extraire du texte d'un document HTML en Java avec Aspose.HTML grâce à ce guide complet étape par étape.
-
-
+Apprenez à extraire le texte d'un document HTML en Java avec Aspose.HTML grâce à ce guide complet étape par étape.
 
 
 
@@ -99,8 +99,6 @@ Apprenez à générer du HTML à partir de code JavaScript en Java avec ce guide
 Apprenez à charger, interroger et compter les éléments HTML en Java avec Aspose.HTML grâce à ce guide complet.
 ### [Exécuter du JavaScript asynchrone en Java – Guide complet étape par étape](./execute-async-javascript-in-java-complete-step-by-step-guide/)
 Apprenez à exécuter du JavaScript de façon asynchrone dans vos applications Java avec Aspose.HTML, guide complet pas à pas.
-
-
 
 
 

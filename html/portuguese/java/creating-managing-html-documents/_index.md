@@ -58,6 +58,8 @@ Aprenda a criar documentos HTML a partir de strings no Aspose.HTML para Java com
 Aprenda a converter arquivos Markdown em documentos HTML usando Aspose.HTML para Java com este tutorial detalhado passo a passo.
 ### [Carregar documentos HTML de URL em Aspose.HTML para Java](./load-html-documents-from-url/)
 Descubra como carregar facilmente documentos HTML de uma URL em Java com Aspose.HTML. Tutorial passo a passo incluso.
+### [Como converter modelo HTML em uma página final usando Java e Aspose.HTML](./how-to-convert-html-template-to-a-final-page-using-java-and/)
+Aprenda a transformar um modelo HTML em uma página final usando Java e Aspose.HTML com este guia passo a passo.
 ### [Como carregar HTML em Java – Guia passo a passo](./how-to-load-html-in-java-step-by-step-guide/)
 Aprenda a carregar documentos HTML em Java usando Aspose.HTML com este guia passo a passo fácil.
 ### [Carregar documento HTML Aspose – Guia rápido em Java para recuperar o título da página](./load-html-document-aspose-quick-java-guide-to-retrieve-page/)
@@ -76,6 +78,8 @@ Aprenda a extrair URLs de imagens de documentos HTML em Java usando Aspose.HTML 
 Aprenda a analisar documentos HTML em Java e extrair texto de artigos usando Aspose.HTML com este guia passo a passo.
 ### [Gerar novos documentos HTML usando Aspose.HTML para Java](./generate-new-html-documents/)
 Aprenda como criar novos documentos HTML usando Aspose.HTML para Java com este guia passo a passo fácil. Comece a gerar conteúdo HTML dinâmico.
+### [Como gerar tabela a partir de dados com HTML e Handlebars](./how-to-generate-table-from-data-with-html-and-handlebars/)
+Aprenda a gerar tabelas dinâmicas a partir de dados usando Handlebars com Aspose.HTML para Java.
 ### [Manipular eventos de carregamento de documentos em Aspose.HTML para Java](./handle-document-load-events/)
 Aprenda a manipular eventos de carregamento de documentos no Aspose.HTML para Java com este guia passo a passo. Aprimore seus aplicativos da web.
 ### [Crie e gerencie documentos SVG em Aspose.HTML para Java](./create-manage-svg-documents/)

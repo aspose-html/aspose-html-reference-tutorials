@@ -13,7 +13,7 @@ url: /ja/java/creating-managing-html-documents/
 
 # Aspose.HTML for Java での HTML ドキュメントの作成と管理
 
-## 導入
+##導入
 
 Aspose.HTML for Java は、Java アプリケーション内で HTML ドキュメントをシームレスに操作することを目指す開発者向けの強力なツールキットを提供します。初心者でも熟練した開発者でも、HTML ドキュメントの作成と管理を習得すると、プロジェクトの機能が大幅に向上します。プロセス全体をガイドするトップ チュートリアルをいくつか見てみましょう。
 
@@ -60,13 +60,14 @@ Aspose.HTML for Java を使用してストリームから HTML ドキュメン�
 Aspose.HTML を使用して、Java で URL から HTML ドキュメントを簡単に読み込む方法を説明します。ステップバイステップのチュートリアルが含まれています。
 ### [Java で HTML ドキュメントを読み込む – XPath と CSS を使用した完全ガイド](./load-html-document-java-complete-guide-with-xpath-css/)
 Java で XPath と CSS セレクタを活用し、HTML ドキュメントを効率的に読み込む完全ガイドです。ステップバイステップで解説します。
-
 ### [Java で HTML ドキュメントを作成 – JSON を取得してコンテンツを生成](./create-html-document-with-java-fetch-json-and-generate-conte/)
 Java で JSON データを取得し、動的に HTML コンテンツを生成する方法をステップバイステップで解説します。
 ### [Aspose.HTML for Java で HTML ドキュメントを読み込み、ページタイトルを取得するクイックガイド](./load-html-document-aspose-quick-java-guide-to-retrieve-page/)
 Aspose.HTML for Java を使用して、HTML ドキュメントからページタイトルを簡単に取得する方法をステップバイステップで解説します。
 ### [Aspose.HTML for Java を使用して新しい HTML ドキュメントを生成する](./generate-new-html-documents/)
 この簡単なステップバイステップ ガイドで、Aspose.HTML for Java を使用して新しい HTML ドキュメントを作成する方法を学びます。動的な HTML コンテンツの生成を開始します。
+### [Java と Aspose.HTML を使用して HTML テンプレートを最終ページに変換する方法](./how-to-convert-html-template-to-a-final-page-using-java-and/)
+Aspose.HTML for Java を活用し、HTML テンプレートを最終的なページへ変換する手順をステップバイステップで解説します。
 ### [Java で JavaScript から HTML を生成する – 完全ステップバイステップガイド](./generate-html-from-javascript-in-java-complete-step-by-step/)
 このステップバイステップ ガイドで、Java で JavaScript を使用して HTML を生成する方法を学びます。
 ### [Aspose.HTML for Java でドキュメント読み込みイベントを処理する](./handle-document-load-events/)
@@ -120,6 +121,8 @@ Aspose.HTML for Java を活用し、XPath を使って HTML からテキスト�
 ### [Java で Markdown から HTML を作成する – 完全ステップバイステップガイド](./create-html-from-markdown-in-java-full-step-by-step-guide/)
 Java アプリケーションで Markdown テキストを HTML に変換し、動的コンテンツを生成する手順を解説します。
 ### [javascript settimeout async: Java で JavaScript を実行し HTML を更新する](./javascript-settimeout-async-run-javascript-in-java-and-updat/)
+
+### [HTML と Handlebars を使用してデータからテーブルを生成する方法](./how-to-generate-table-from-data-with-html-and-handlebars/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

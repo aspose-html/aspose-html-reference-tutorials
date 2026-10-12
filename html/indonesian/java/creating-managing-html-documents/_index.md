@@ -58,6 +58,8 @@ Pelajari cara memuat dokumen HTML dari aliran menggunakan Aspose.HTML untuk Java
 Pelajari cara membuat dokumen HTML dari string di Aspose.HTML untuk Java dengan panduan langkah demi langkah ini.
 ### [Buat Dokumen HTML dengan Java – Ambil JSON dan Hasilkan Konten](./create-html-document-with-java-fetch-json-and-generate-conte/)
 Pelajari cara mengambil data JSON dan menghasilkan konten HTML secara dinamis menggunakan Aspose.HTML untuk Java dalam panduan langkah demi langkah.
+### [Cara menghasilkan tabel dari data dengan HTML dan Handlebars](./how-to-generate-table-from-data-with-html-and-handlebars/)
+Pelajari cara membuat tabel dinamis dari data menggunakan HTML dan template Handlebars dalam aplikasi Java.
 ### [Buat HTML dari Markdown di Java – Panduan Lengkap Langkah‑per‑Langkah](./create-html-from-markdown-in-java-full-step-by-step-guide/)
 Pelajari cara mengonversi file Markdown menjadi dokumen HTML di Java menggunakan Aspose.HTML dengan panduan langkah demi langkah yang mudah diikuti.
 ### [Memuat Dokumen HTML dari URL di Aspose.HTML untuk Java](./load-html-documents-from-url/)
@@ -75,40 +77,15 @@ Pelajari cara membuat sandbox HTML di Java dengan panduan langkah demi langkah u
 ### [Ekstrak Teks dari HTML di Java – Panduan Pemrograman Lengkap](./extract-text-from-html-in-java-complete-programming-guide/)
 Pelajari cara mengekstrak teks dari dokumen HTML menggunakan Aspose.HTML untuk Java dengan panduan langkah demi langkah yang lengkap.
 ### [Cara Menanyakan HTML di Java – Tutorial Lengkap](./how-to-query-html-in-java-complete-tutorial/)
+### [Cara mengonversi templat HTML menjadi halaman akhir menggunakan Java dan Aspose.HTML](./how-to-convert-html-template-to-a-final-page-using-java-and/)
 ### [Cara Mengurai HTML di Java – Memuat, Menanyakan & Menghitung Elemen](./how-to-parse-html-java-load-query-count-elements/)
 ### [Jalankan JavaScript Asinkron di Java – Panduan Lengkap Langkah‑per‑Langkah](./execute-async-javascript-in-java-complete-step-by-step-guide/)
 ### [Menghitung Karakter HTML di Java – Panduan Lengkap dengan Aspose HTML](./count-html-characters-in-java-full-guide-with-aspose-html/)
-Pelajari cara menghitung jumlah karakter HTML dalam dokumen menggunakan Aspose.HTML untuk Java dengan panduan langkah demi langkah.
-
-
-
-
-
-
-
 ### [Hasilkan HTML dari JavaScript di Java – Panduan Lengkap Langkah demi Langkah](./generate-html-from-javascript-in-java-complete-step-by-step/)
-Pelajari cara menghasilkan HTML dari JavaScript dalam aplikasi Java menggunakan Aspose.HTML dengan panduan langkah demi langkah lengkap.
-
-
-
-
-
-
-
 ### [Iterasi NodeList Java – Baca HTML & Dapatkan src Gambar](./iterate-nodelist-java-read-html-get-image-src/)
-
-
-
-
-
-
-
 ### [Iterasi NodeList di Java – Panduan Lengkap](./iterate-over-nodelist-java-complete-guide/)
-Pelajari cara mengiterasi NodeList di Java dengan panduan lengkap, termasuk contoh kode dan teknik terbaik.
 ### [Ekstrak teks dari HTML dengan Java – Panduan Lengkap Langkah‑per‑Langkah](./extract-text-from-html-with-java-complete-step-by-step-guide/)
-Pelajari cara mengekstrak teks dari dokumen HTML menggunakan Aspose.HTML untuk Java dengan panduan langkah demi langkah yang lengkap.
 ### [Cara Menggunakan XPath di Java – Membaca HTML dan Mengekstrak Teks](./how-to-use-xpath-in-java-read-html-and-extract-text/)
-Pelajari cara menggunakan XPath di Java untuk membaca HTML dan mengekstrak teks dengan mudah.
 ### [Cara Menanyakan HTML di Java – Ekstrak URL Gambar](./how-to-query-html-in-java-extract-image-urls/)
 ### [Cara Mengurai HTML di Java – Ekstrak Teks dari Artikel HTML](./how-to-parse-html-in-java-extract-text-from-html-articles/)
 ### [javascript settimeout async: Jalankan JavaScript di Java dan Perbarui HTML](./javascript-settimeout-async-run-javascript-in-java-and-updat/)

@@ -58,6 +58,8 @@ Aspose.HTML สำหรับ Java นำเสนอชุดเครื่�
 เรียนรู้วิธีสร้างเอกสาร HTML จากสตริงใน Aspose.HTML สำหรับ Java ด้วยคู่มือทีละขั้นตอนนี้
 ### [สร้าง HTML จาก JavaScript ใน Java – คู่มือเต็มแบบทีละขั้นตอน](./generate-html-from-javascript-in-java-complete-step-by-step/)
 เรียนรู้วิธีสร้าง HTML จากโค้ด JavaScript ใน Java ด้วยคู่มือขั้นตอนเต็มที่อธิบายอย่างละเอียด
+### [วิธีสร้างตารางจากข้อมูลด้วย HTML และ Handlebars](./how-to-generate-table-from-data-with-html-and-handlebars/)
+เรียนรู้วิธีสร้างตารางจากข้อมูลโดยใช้ HTML และ Handlebars ใน Java ด้วย Aspose.HTML
 ### [โหลดเอกสาร HTML จาก URL ใน Aspose.HTML สำหรับ Java](./load-html-documents-from-url/)
 ค้นพบวิธีการโหลดเอกสาร HTML จาก URL ใน Java ได้อย่างง่ายดายด้วย Aspose.HTML พร้อมบทช่วยสอนแบบทีละขั้นตอน
 ### [โหลดเอกสาร HTML ใน Java – คู่มือฉบับสมบูรณ์ด้วย XPath & CSS](./load-html-document-java-complete-guide-with-xpath-css/)
@@ -117,6 +119,9 @@ Aspose.HTML สำหรับ Java นำเสนอชุดเครื่�
 เรียนรู้วิธีโหลดเอกสาร HTML ด้วย Aspose.HTML สำหรับ Java และดึงชื่อหน้าเว็บอย่างรวดเร็วในขั้นตอนง่ายๆ
 ### [วิธีโหลด HTML ใน Java – คู่มือทีละขั้นตอน](./how-to-load-html-in-java-step-by-step-guide/)
 เรียนรู้วิธีโหลด HTML ใน Java อย่างละเอียดด้วยคู่มือขั้นตอนต่อขั้นตอนจาก Aspose.HTML
+
+### [วิธีแปลงเทมเพลต HTML เป็นหน้าสุดท้ายโดยใช้ Java และ Aspose.HTML](./how-to-convert-html-template-to-a-final-page-using-java-and/)
+เรียนรู้วิธีแปลงเทมเพลต HTML ให้เป็นหน้าเว็บขั้นสุดท้ายด้วย Java และ Aspose.HTML
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

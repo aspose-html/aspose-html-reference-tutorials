@@ -33,94 +33,82 @@ Aspose.HTML for Java 為旨在在 Java 應用程式中無縫處理 HTML 文件�
 
 想像一下，您需要根據使用者輸入或從 Web 檢索的資料動態產生 HTML 內容。這就是從字串建立 HTML 文件或直接從 URL 載入它們變得非常有價值的地方。 Aspose.HTML for Java 允許您使用原始 HTML 字串無縫建立 HTML 文件或從任何網址載入它們。這些教學課程為您提供了動態產生和操作 Web 內容的工具，讓您的 Java 應用程式更加靈活且反應迅速。[閱讀更多](./create-html-documents-from-string/)
 
-## 產生新的 HTML 文件並處理高級文件加載
-
-在產生新的 HTML 文件時，Aspose.HTML for Java 提供了強大的解決方案，讓您能夠從頭開始建立豐富的 Web 內容。無論您是在開發內容管理系統還是需要產生 HTML 格式的報告，了解如何建立和管理新的 HTML 文件都至關重要。此外，先進的文件載入技術可讓您處理複雜的 HTML 文檔，確保您可以輕鬆處理大型專案。這些教學將引導您完成每一步，確保您有能力應對任何與 HTML 相關的挑戰。[閱讀更多](./generate-new-html-documents/)
-
-## 管理 SVG 文件和處理事件
-
-最後，對於那些希望進一步提高技能的人來說，有大量的高級主題可供探索。了解如何管理 SVG 文件或處理文件載入事件以建立響應式動態 Web 應用程式。這些教學將帶您超越 HTML，深入了解可擴展向量圖形 (SVG) 和事件驅動程式設計的複雜性。[閱讀更多](./create-manage-svg-documents/)
-
-## 在 Aspose.HTML for Java 教程中建立和管理 HTML 文件
-### [在 Aspose.HTML for Java 中非同步建立 HTML 文檔](./create-html-documents-async/)
-使用 Aspose.HTML for Java 掌握非同步 HTML 文件建立。包含逐步指南、提示和常見問題解答，可幫助您快速學習。
-### [在 Aspose.HTML for Java 中建立空 HTML 文檔](./create-empty-html-documents/)
-透過我們詳細的分步教程，了解如何使用 Aspose.HTML 在 Java 中建立空 HTML 文檔，非常適合各個層級的開發人員。
-### [從 Aspose.HTML for Java 中的文件載入 HTML 文檔](./load-html-documents-from-file/)
-使用 Aspose.HTML for Java 釋放 HTML 操作的強大功能。透過逐步教學學習從文件載入 HTML 文件。
-### [Aspose.HTML for Java 中 HTML 文件的高級文件加載](./advanced-file-loading-html-documents/)
-在此逐步指南中了解如何使用 Aspose.HTML for Java 載入、操作和儲存 HTML 文件。在您的 Java 專案中解鎖進階 HTML 處理。
-### [使用 Aspose.HTML for Java 從流載入 HTML 文檔](./load-html-documents-from-stream/)
-了解如何使用 Aspose.HTML for Java 從流中載入 HTML 文件。本指南提供了無縫 HTML 操作的逐步教學。
 ### [在 Aspose.HTML for Java 中從字串建立 HTML 文檔](./create-html-documents-from-string/)
 透過此逐步指南，了解如何從 Aspose.HTML for Java 中的字串建立 HTML 文件。
+
+### [如何使用 Java 與 Aspose.HTML 將 HTML 模板轉換為最終頁面](./how-to-convert-html-template-to-a-final-page-using-java-and/)
+使用 Aspose.HTML for Java 將 HTML 模板轉換為完整的最終頁面，提供逐步說明。
+
 ### [在 Java 中從 Markdown 建立 HTML – 完整逐步指南](./create-html-from-markdown-in-java-full-step-by-step-guide/)
 使用 Aspose.HTML for Java 從 Markdown 轉換為 HTML，提供完整的逐步教學，幫助您快速上手。
+
 ### [從 Aspose.HTML for Java 中的 URL 載入 HTML 文檔](./load-html-documents-from-url/)
 了解如何使用 Aspose.HTML 從 Java 中的 URL 輕鬆載入 HTML 文件。包括逐步教程。
+
 ### [如何在 Java 中載入 HTML – 逐步指南](./how-to-load-html-in-java-step-by-step-guide/)
 透過此逐步指南，學習如何在 Java 中使用 Aspose.HTML 載入 HTML 文件。
+
 ### [使用 Aspose.HTML for Java 產生新的 HTML 文檔](./generate-new-html-documents/)
 透過這個簡單的逐步指南，了解如何使用 Aspose.HTML for Java 建立新的 HTML 文件。開始產生動態 HTML 內容。
+
 ### [使用 Java 建立 HTML 文檔 – 抓取 JSON 並生成內容](./create-html-document-with-java-fetch-json-and-generate-conte/)
 學習如何使用 Aspose.HTML for Java 從 JSON 資料抓取並動態生成 HTML 內容的完整步驟。
+
 ### [在 Aspose.HTML for Java 中處理文件載入事件](./handle-document-load-events/)
 透過此逐步指南，了解如何處理 Aspose.HTML for Java 中的文件載入事件。增強您的網頁應用程式。
+
 ### [在 Aspose.HTML for Java 中建立和管理 SVG 文檔](./create-manage-svg-documents/)
 學習使用 Aspose.HTML for Java 建立和管理 SVG 文件！這本綜合指南涵蓋了從基本創建到高級操作的所有內容。
+
 ### [在 Aspose.HTML for Java 中建立 HTML 沙盒 – 逐步指南](./create-sandbox-for-html-in-java-step-by-step-guide/)
 本指南說明如何在 Java 中使用 Aspose.HTML 建立安全的 HTML 沙盒環境，提供逐步說明。
+
 ### [在 Java 中查詢 HTML – 完整教學](./how-to-query-html-in-java-complete-tutorial/)
 學習使用 Aspose.HTML for Java 查詢 HTML 結構與內容的完整步驟，涵蓋選擇器、XPath 及實作範例。
+
 ### [在 Java 中載入 HTML 文檔 – 完整指南（XPath 與 CSS）](./load-html-document-java-complete-guide-with-xpath-css/)
 學習使用 Aspose.HTML for Java 在 Java 中載入 HTML 文檔，並使用 XPath 與 CSS 進行查詢的完整指南。
+
 ### [在 Java 中計算 HTML 字元 – Aspose HTML 完整指南](./count-html-characters-in-java-full-guide-with-aspose-html/)
 了解如何使用 Aspose.HTML for Java 計算 HTML 文檔中的字元數，提供完整步驟與範例。
+
 ### [在 Java 中從 HTML 提取文字 – 完整程式設計指南](./extract-text-from-html-in-java-complete-programming-guide/)
 使用 Aspose.HTML for Java 從 HTML 中提取文字的完整步驟指南，涵蓋示例與最佳實踐。
 
-
-
-
-
-
-
 ### [在 Java 中從 JavaScript 產生 HTML – 完整逐步指南](./generate-html-from-javascript-in-java-complete-step-by-step/)
 使用 Aspose.HTML for Java，從 JavaScript 生成 HTML，提供完整的逐步說明與範例，幫助您快速上手。
+
 ### [如何在 Java 中解析 HTML – 載入、查詢與計數元素](./how-to-parse-html-java-load-query-count-elements/)
 使用 Aspose.HTML for Java，學習在 Java 中載入 HTML、查詢元素並統計其數量的完整步驟指南。
+
 ### [在 Java 中執行非同步 JavaScript – 完整逐步指南](./execute-async-javascript-in-java-complete-step-by-step-guide/)
 了解如何在 Java 中使用 Aspose.HTML 執行非同步 JavaScript，提供完整的逐步說明與實作範例。
-
-
-
-
-
-
 
 ### [遍歷 NodeList（Java）– 讀取 HTML 並取得圖像 src](./iterate-nodelist-java-read-html-get-image-src/)
 學習如何在 Java 中遍歷 NodeList，讀取 HTML 並提取圖像的 src 屬性，適用於網頁解析與資料抓取。
 
-
-
-
-
-
-
 ### [在 Java 中遍歷 NodeList – 完整指南](./iterate-over-nodelist-java-complete-guide/)
 透過此完整指南，了解如何在 Aspose.HTML for Java 中遍歷 NodeList，掌握節點操作技巧。
+
 ### [使用 Java 從 HTML 提取文字 – 完整逐步指南](./extract-text-from-html-with-java-complete-step-by-step-guide/)
 使用 Aspose.HTML for Java 從 HTML 中提取文字的完整逐步指南，涵蓋關鍵技巧與範例。
+
 ### [在 Java 中使用 XPath – 讀取 HTML 並提取文字](./how-to-use-xpath-in-java-read-html-and-extract-text/)
 學習如何在 Java 中利用 Aspose.HTML 的 XPath 功能讀取 HTML 並提取所需文字內容。
+
 ### [在 Java 中查詢 HTML – 抽取圖片 URL](./how-to-query-html-in-java-extract-image-urls/)
 了解如何使用 Aspose.HTML for Java 在 Java 中抽取 HTML 中的圖片 URL，提供逐步指南。
+
 ### [在 Java 中解析 HTML – 從 HTML 文章提取文字](./how-to-parse-html-in-java-extract-text-from-html-articles/)
 使用 Aspose.HTML for Java 解析 HTML，從文章中提取純文字內容的完整步驟與範例。
+
 ### [JavaScript setTimeout 非同步：在 Java 中執行 JavaScript 並更新 HTML](./javascript-settimeout-async-run-javascript-in-java-and-updat/)
 說明如何在 Java 應用程式中使用 setTimeout 以非同步方式執行 JavaScript，並即時更新 HTML 內容。
+
 ### [使用 Aspose 載入 HTML 文件 – 快速 Java 指南：取得頁面標題](./load-html-document-aspose-quick-java-guide-to-retrieve-page/)
-透過此快速指南，學習如何使用 Aspose.HTML for Java 載入 HTML 文件並取得頁面標題。
+
+### [如何使用 HTML 與 Handlebars 從資料生成表格](./how-to-generate-table-from-data-with-html-and-handlebars/)
+使用 Aspose.HTML for Java 結合 Handlebars，從資料生成動態表格的完整步驟指南。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
