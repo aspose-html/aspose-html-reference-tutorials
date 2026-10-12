@@ -48,6 +48,8 @@ Odemkněte potenciál svého digitálního obsahu s Aspose.HTML for Java. Začn�
 ## Tutoriály pro převod EPUB do PDF
 ### [Převod EPUB do PDF](./convert-epub-to-pdf/)
 Odemkněte převod EPUB do PDF s Aspose.HTML for Java, výkonnou knihovnou pro Javu. Vytvářejte přístupný obsah bez námahy.
+### [Vytvoření PDF z EPUB – krok za krokem průvodce v Javě](./create-pdf-from-epub-step-by-step-java-guide/)
+Naučte se, jak v Javě pomocí Aspose.HTML krok za krokem vytvořit PDF z EPUB souboru.
 ### [Specifikace vlastního poskytovatele streamu pro EPUB do PDF](./convert-epub-to-pdf-specify-custom-stream-provider/)
 Naučte se, jak snadno převést EPUB do PDF v Javě pomocí Aspose.HTML, a rozšiřte své možnosti zpracování dokumentů.
 ### [Specifikace možností uložení PDF pro EPUB do PDF](./convert-epub-to-pdf-specify-pdf-save-options/)
@@ -70,7 +72,17 @@ Naučte se používat Aspose.HTML for Java: převod EPUB na obrázek a další. 
 Naučte se, jak převést EPUB na obrázky pomocí Aspose.HTML for Java. Přetvořte svůj digitální obsah bez námahy. Krok‑za‑krokem průvodce zahrnut.
 ### [Jak vložit písma při převodu EPUB do PDF v Javě](./how-to-embed-fonts-when-converting-epub-to-pdf-in-java/)
 Naučte se, jak vložit písma při převodu EPUB do PDF v Javě pomocí Aspose.HTML.
+### [Jak vložit písma do PDF pomocí Aspose HTML – průvodce převodem EPUB na PDF](./how-to-embed-fonts-in-pdf-using-aspose-html-convert-epub-to/)
+Naučte se, jak vložit písma do PDF při převodu EPUB na PDF pomocí Aspose.HTML for Java.
+### [Tutoriál EPUB do PDF – Převádějte své eKnihy v Javě během minut](./epub-to-pdf-tutorial-convert-your-ebooks-with-java-in-minute/)
+Naučte se rychle převést EPUB soubory do PDF pomocí Aspose.HTML for Java během několika minut.
 
+### [Převod EPUB do PDF pomocí Javy – průvodce krok za krokem](./convert-epub-to-pdf-with-java-step-by-step-guide/)
+Kompletní návod, jak převést soubory EPUB do PDF v Javě pomocí Aspose.HTML, krok po kroku.
+### [Jak vložit písma při převodu EPUB do PDF – průvodce pro Javu](./how-to-embed-fonts-when-converting-epub-to-pdf-java-guide/)
+Naučte se, jak při převodu EPUB do PDF v Javě vložit písma pro zachování vzhledu dokumentu.
+### [epub to pdf tutoriál: Převod eKnihy do PDF s Aspose](./epub-to-pdf-tutorial-convert-ebook-to-pdf-with-aspose/)
+Naučte se, jak převést eKnihy do PDF pomocí Aspose.HTML v Javě.
 ## Často kladené otázky
 
 **Q:** *Mohu převést chráněné soubory EPUB do PDF?*  

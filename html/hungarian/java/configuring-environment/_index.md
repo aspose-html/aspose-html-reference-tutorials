@@ -128,10 +128,24 @@ Ismerd meg, hogyan konfigurálható a Runtime Service az Aspose.HTML for Java-ba
 **Sandboxing megvalósítása az Aspose.HTML for Java-ban**  
 Ismerd meg, hogyan valósítható meg a sandboxing az Aspose.HTML for Java-ban a szkript végrehajtás biztonságos ellenőrzéséhez HTML dokumentumaidban, és hogyan konvertálhatók PDF-re.
 
+### [Get Library Version in Java – Quick Guide to Show Library Version](./get-library-version-in-java-quick-guide-to-show-library-vers/)
+
+**Könyvtár verzió lekérése Java-ban – Gyors útmutató a verzió megjelenítéséhez**  
+Ismerd meg, hogyan jelenítheted meg az Aspose.HTML for Java könyvtár verzióját a kódban.
+
 ### [Set User Style Sheet in Aspose.HTML for Java](./set-user-style-sheet/)
 
 **Felhasználói stíluslap beállítása az Aspose.HTML for Java-ban**  
 Ismerd meg, hogyan állítható be egy egyedi felhasználói stíluslap az Aspose.HTML for Java-ban, javítva a dokumentum stílusát és könnyedén konvertálva a HTML-t PDF-re.
+
+### [Aspose HTML Sandbox létrehozása – Teljes Java útmutató](./create-aspose-html-sandbox-complete-java-guide/)
+
+**Aspose HTML Sandbox létrehozása Java-ban**  
+Ismerd meg, hogyan hozhatsz létre biztonságos sandboxot az Aspose.HTML for Java-ban, részletes lépésekkel és példakóddal.
+### [How to Create Sandbox in Java – Full Guide](./how-to-create-sandbox-in-java-full-guide/)
+
+**Hogyan hozhatsz létre sandbox környezetet Java-ban – Teljes útmutató**  
+Ismerd meg, hogyan hozhatsz létre sandbox környezetet Java-ban a biztonságos HTML konverziókhoz.
 
 ---
 
