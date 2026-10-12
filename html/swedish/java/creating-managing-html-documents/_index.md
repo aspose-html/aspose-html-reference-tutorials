@@ -77,21 +77,27 @@ Lär dig hur du söker och extraherar bild‑URL:er från HTML-dokument i Java m
 ### [Hur du parsar HTML i Java – Extrahera text från HTML-artiklar](./how-to-parse-html-in-java-extract-text-from-html-articles/)
 Lär dig hur du analyserar HTML i Java och extraherar ren text från artiklar med steg-för-steg‑guide.
 ### [Generera nya HTML-dokument med Aspose.HTML för Java](./generate-new-html-documents/)
-Lär dig hur du skapar nya HTML-dokument med Aspose.HTML för Java med denna enkla steg-för-steg-guide. Börja generera dynamiskt HTML-innehåll.
+Lär dig hur du skapar nya HTML-dokument med Aspose.HTML för Java med denna enkla steg-för-steg‑guide. Börja generera dynamiskt HTML-innehåll.
+
+### [Hur man konverterar HTML-mall till en slutgiltig sida med Java och Aspose.HTML](./how-to-convert-html-template-to-a-final-page-using-java-and/)
+Lär dig att omvandla en HTML-mall till en färdig sida med Java och Aspose.HTML i en steg‑för‑steg‑guide.
 
 ### [Hantera dokumentladdningshändelser i Aspose.HTML för Java](./handle-document-load-events/)
-Lär dig att hantera dokumentladdningshändelser i Aspose.HTML för Java med denna steg-för-steg-guide. Förbättra dina webbapplikationer.
+Lär dig att hantera dokumentladdningshändelser i Aspose.HTML för Java med denna steg-för-steg‑guide. Förbättra dina webbapplikationer.
 
 ### [Skapa och hantera SVG-dokument i Aspose.HTML för Java](./create-manage-svg-documents/)
 Lär dig att skapa och hantera SVG-dokument med Aspose.HTML för Java! Den här omfattande guiden täcker allt från grundläggande skapande till avancerad manipulation.
 
 ### [Skapa sandlåda för HTML i Java – Steg‑för‑steg‑guide](./create-sandbox-for-html-in-java-step-by-step-guide/)
-Lär dig hur du skapar en säker sandlåda för HTML i Java med vår detaljerade steg-för-steg‑guide.
+Lär dig hur du skapar en säker sandlåda för HTML i Java med vår detaljerade steg‑för‑steg‑guide.
 ### [Extrahera text från HTML i Java – Komplett programmeringsguide](./extract-text-from-html-in-java-complete-programming-guide/)
 Lär dig hur du extraherar text från HTML-dokument i Java med en komplett steg‑för‑steg‑guide.
 
 ### [Skapa HTML-dokument med Java – Hämta JSON och generera innehåll](./create-html-document-with-java-fetch-json-and-generate-conte/)
 Lär dig hur du hämtar JSON-data i Java och genererar dynamiskt HTML-innehåll med Aspose.HTML.
+### [Hur du genererar tabell från data med HTML och Handlebars](./how-to-generate-table-from-data-with-html-and-handlebars/)
+Lär dig att skapa dynamiska tabeller från data med HTML och Handlebars i Java med vår steg‑för‑steg‑guide.
+
 ### [Ladda HTML-dokument i Java – Komplett guide med XPath och CSS](./load-html-document-java-complete-guide-with-xpath-css/)
 Lär dig hur du laddar HTML-dokument i Java och använder XPath och CSS för att extrahera och manipulera innehåll.
 
@@ -132,7 +138,7 @@ Lär dig hur du itererar en NodeList i Java för att läsa HTML och extrahera bi
 Lär dig hur du kör JavaScript asynkront med setTimeout i Java och dynamiskt uppdaterar HTML-innehåll i dina applikationer.
 
 ### [Skapa HTML från Markdown i Java – Fullständig steg‑för‑steg‑guide](./create-html-from-markdown-in-java-full-step-by-step-guide/)
-Lär dig hur du konverterar Markdown till HTML i Java med Aspose.HTML genom en komplett steg-för-steg‑guide.
+Lär dig hur du konverterar Markdown till HTML i Java med Aspose.HTML genom en komplett steg‑för‑steg‑guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

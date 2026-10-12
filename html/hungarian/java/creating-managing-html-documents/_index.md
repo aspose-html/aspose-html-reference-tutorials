@@ -63,17 +63,18 @@ Fedezze fel, hogyan tölthet be egyszerűen HTML dokumentumokat egy URL-ről Jav
 ### [HTML-dokumentum betöltése Aspose – Gyors Java útmutató az oldal címének lekérdezéséhez](./load-html-document-aspose-quick-java-guide-to-retrieve-page/)
 Ismerje meg, hogyan tölthet be HTML-dokumentumot és kérdezheti le az oldal címét az Aspose.HTML for Java segítségével.
 ### [HTML lekérdezése Java-ban – Teljes útmutató](./how-to-query-html-in-java-complete-tutorial/)
-Ismerje meg, hogyan kérdezhet le HTML-t Java használatával, lépésről lépésre útmutató a hatékony adatkinyeréshez.
+Ismerje meg, hogyan kérdezhet le HTML-t Java használatával, lépésről‑lépésre útmutató a hatékony adatkinyeréshez.
 ### [HTML elem betöltése, lekérdezése és számlálása Java-ban](./how-to-parse-html-java-load-query-count-elements/)
 Ismerje meg, hogyan tölthet be, kérdezhet le és számolhat meg HTML elemeket Java nyelven az Aspose.HTML segítségével.
 ### [HTML-dokumentum betöltése Java-ban – Teljes útmutató XPath és CSS használatával](./load-html-document-java-complete-guide-with-xpath-css/)
 Fedezze fel, hogyan tölthet be HTML-dokumentumokat Java-ban, és használhatja az XPath és CSS szelektorokat a tartalom lekérdezéséhez.
 ### [HTML szöveg kinyerése Java-ban – Teljes programozási útmutató](./extract-text-from-html-in-java-complete-programming-guide/)
-Ismerje meg, hogyan nyerhet ki szöveget HTML-ből Java használatával, lépésről lépésre útmutató a hatékony adatkinyeréshez.
+Ismerje meg, hogyan nyerhet ki szöveget HTML-ből Java használatával, lépésről‑lépésre útmutató a hatékony adatkinyeréshez.
+### [HTML sablon konvertálása végleges oldalra Java és Aspose.HTML használatával](./how-to-convert-html-template-to-a-final-page-using-java-and/)
 ### [HTML lekérdezése Java-ban – Képek URL-jeinek kinyerése](./how-to-query-html-in-java-extract-image-urls/)
-Ismerje meg, hogyan nyerheti ki a képek URL-jeit HTML-ből Java használatával, lépésről lépésre útmutató.
+Ismerje meg, hogyan nyerheti ki a képek URL-jeit HTML-ből Java használatával, lépésről‑lépésre útmutató.
 ### [HTML elemzése Java-ban – Szöveg kinyerése HTML cikkekből](./how-to-parse-html-in-java-extract-text-from-html-articles/)
-Ismerje meg, hogyan nyerhet ki szöveget HTML cikkekből Java használatával, lépésről lépésre útmutató.
+Ismerje meg, hogyan nyerhet ki szöveget HTML cikkekből Java használatával, lépésről‑lépésre útmutató.
 ### [Új HTML-dokumentumok létrehozása az Aspose.HTML for Java használatával](./generate-new-html-documents/)
 Ebből az egyszerű, lépésenkénti útmutatóból megtudhatja, hogyan hozhat létre új HTML-dokumentumokat az Aspose.HTML for Java használatával. Kezdje el a dinamikus HTML-tartalom generálását.
 ### [Kezelje a dokumentumbetöltési eseményeket az Aspose.HTML for Java-ban](./handle-document-load-events/)
@@ -86,24 +87,10 @@ Ismerje meg, hogyan számolhatja meg a HTML karaktereket Java-ban az Aspose.HTML
 Ismerje meg, hogyan hozhat létre biztonságos sandbox környezetet HTML feldolgozáshoz Java-ban, részletes lépésekkel.
 ### [HTML-dokumentum létrehozása Java-val – JSON lekérése és tartalom generálása](./create-html-document-with-java-fetch-json-and-generate-conte/)
 Ismerje meg, hogyan hozhat létre HTML-dokumentumot Java-ban JSON adatok lekérésével és dinamikus tartalom generálásával.
-
-
-
-
-
-
-
 ### [HTML generálása JavaScriptből Java-ban – Teljes lépésről‑lépésre útmutató](./generate-html-from-javascript-in-java-complete-step-by-step/)
 Ismerje meg, hogyan generálhat HTML-t JavaScript kódból Java alkalmazásban, részletes, lépésről‑lépésre útmutatóval.
-
-
-
-
-
-
-
 ### [NodeList bejárása Java – HTML olvasása és képek src lekérése](./iterate-nodelist-java-read-html-get-image-src/)
-Tanulja meg, hogyan járhatja be a NodeList-et Java-ban, olvashat HTML-t és szerezheti meg a képek src attribútumát lépésről lépésre.
+Tanulja meg, hogyan járhatja be a NodeList-et Java-ban, olvashat HTML-t és szerezheti meg a képek src attribútumát lépésről‑lépésre.
 ### [HTML-ből szöveg kinyerése Java-val – Teljes lépésről‑lépésre útmutató](./extract-text-from-html-with-java-complete-step-by-step-guide/)
 Fedezze fel, hogyan nyerhet ki szöveget HTML-ből Java használatával, részletes, lépésről‑lépésre útmutató.
 ### [NodeList bejárása Java-ban – Teljes útmutató](./iterate-over-nodelist-java-complete-guide/)
@@ -116,6 +103,8 @@ Ismerje meg, hogyan futtathat JavaScript kódot Java alkalmazásban setTimeout s
 Ismerje meg, hogyan konvertálhat Markdown fájlokat HTML-re Java nyelven az Aspose.HTML segítségével, részletes, lépésről‑lépésre útmutatóval.
 ### [HTML betöltése Java-ban – Lépésről‑lépésre útmutató](./how-to-load-html-in-java-step-by-step-guide/)
 Fedezze fel, hogyan tölthet be HTML-t Java alkalmazásba részletes, lépésről‑lépésre útmutatóval.
+### [Táblázat generálása adatokból HTML és Handlebars segítségével](./how-to-generate-table-from-data-with-html-and-handlebars/)
+Ismerje meg, hogyan hozhat dinamikus táblázatot HTML és Handlebars sablonokkal Java-ban.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

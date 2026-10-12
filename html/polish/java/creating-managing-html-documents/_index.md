@@ -83,28 +83,11 @@ Dowiedz się, jak liczyć znaki w dokumentach HTML przy użyciu Aspose.HTML w Ja
 ### [Wyodrębnianie tekstu z HTML w Javie – Kompletny przewodnik programistyczny](./extract-text-from-html-in-java-complete-programming-guide/)
 Dowiedz się, jak skutecznie wyodrębniać tekst z dokumentów HTML w Javie przy użyciu Aspose.HTML, krok po kroku.
 
-
-
-
-
-
-
 ### [Generowanie HTML z JavaScript w Javie – Kompletny przewodnik krok po kroku](./generate-html-from-javascript-in-java-complete-step-by-step/)
 Dowiedz się, jak generować HTML z kodu JavaScript w aplikacji Java, korzystając z pełnego przewodnika krok po kroku.
 
-
-
-
-
-
-
 ### [Iteruj NodeList w Javie – Odczytaj HTML i pobierz src obrazu](./iterate-nodelist-java-read-html-get-image-src/)
 Dowiedz się, jak iterować NodeList w Javie, odczytywać HTML i wyodrębniać atrybut src obrazów.
-
-
-
-
-
 
 ### [Iterowanie po NodeList w Javie – Kompletny przewodnik](./iterate-over-nodelist-java-complete-guide/)
 Poznaj, jak iterować po NodeList w Javie przy użyciu Aspose.HTML, krok po kroku, z praktycznymi przykładami.
@@ -122,6 +105,11 @@ Dowiedz się, jak uruchomić kod JavaScript w Javie przy użyciu setTimeout i dy
 Dowiedz się, jak konwertować pliki Markdown na HTML w Javie przy użyciu Aspose.HTML, krok po kroku.
 ### [Jak załadować HTML w Javie – przewodnik krok po kroku](./how-to-load-html-in-java-step-by-step-guide/)
 Dowiedz się, jak w prosty sposób ładować dokumenty HTML w Javie przy użyciu Aspose.HTML, krok po kroku.
+### [Jak wygenerować tabelę z danych przy użyciu HTML i Handlebars](./how-to-generate-table-from-data-with-html-and-handlebars/)
+Dowiedz się, jak przy użyciu Handlebars i HTML generować dynamiczne tabele z danych w Javie.
+
+### [Jak przekonwertować szablon HTML na gotową stronę przy użyciu Javy i Aspose.HTML](./how-to-convert-html-template-to-a-final-page-using-java-and/)
+Dowiedz się, jak przekształcić szablon HTML w finalną stronę przy użyciu Javy i biblioteki Aspose.HTML, krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

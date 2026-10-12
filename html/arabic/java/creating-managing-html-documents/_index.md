@@ -74,6 +74,8 @@ url: /ar/java/creating-managing-html-documents/
 تعلم كيفية إنشاء مستندات SVG وإدارتها باستخدام Aspose.HTML لـ Java! يغطي هذا الدليل الشامل كل شيء بدءًا من الإنشاء الأساسي وحتى المعالجة المتقدمة.
 ### [إنشاء HTML من Markdown في Java – دليل خطوة بخطوة كامل](./create-html-from-markdown-in-java-full-step-by-step-guide/)
 تعلم كيفية تحويل ملفات Markdown إلى مستندات HTML في Java باستخدام Aspose.HTML من خلال دليل شامل خطوة بخطوة.
+### [كيفية إنشاء جدول من البيانات باستخدام HTML و Handlebars](./how-to-generate-table-from-data-with-html-and-handlebars/)
+تعلم كيفية توليد جدول ديناميكي من البيانات باستخدام HTML ومكتبة Handlebars في Java.
 ### [إنشاء بيئة تجريبية لـ HTML في Java – دليل خطوة بخطوة](./create-sandbox-for-html-in-java-step-by-step-guide/)
 تعلم كيفية إنشاء بيئة تجريبية لمعالجة HTML في Java باستخدام Aspose.HTML من خلال دليل خطوة بخطوة.
 ### [كيفية الاستعلام عن HTML في Java – دليل كامل](./how-to-query-html-in-java-complete-tutorial/)
@@ -122,6 +124,9 @@ url: /ar/java/creating-managing-html-documents/
 تعلم كيفية استخراج النص من مقالات HTML باستخدام Aspose.HTML for Java عبر دليل خطوة بخطوة.
 ### [javascript settimeout async: تشغيل JavaScript في Java وتحديث HTML](./javascript-settimeout-async-run-javascript-in-java-and-updat/)
 تعلم كيفية تشغيل كود JavaScript باستخدام setTimeout داخل تطبيق Java وتحديث محتوى HTML بشكل غير متزامن.
+
+### [كيفية تحويل قالب HTML إلى صفحة نهائية باستخدام Java و Aspose.HTML](./how-to-convert-html-template-to-a-final-page-using-java-and/)
+تعلم كيفية تحويل قالب HTML إلى صفحة نهائية باستخدام Java و Aspose.HTML في دليل خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

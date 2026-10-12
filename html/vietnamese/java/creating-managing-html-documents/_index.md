@@ -82,20 +82,8 @@ Học cách thực thi JavaScript bất đồng bộ trong Java bằng Aspose.HT
 ### [đếm ký tự HTML trong Java – Hướng dẫn đầy đủ với Aspose HTML](./count-html-characters-in-java-full-guide-with-aspose-html/)
 Tìm hiểu cách đếm số ký tự HTML trong Java bằng Aspose.HTML qua hướng dẫn chi tiết từng bước.
 
-
-
-
-
-
-
 ### [Tạo HTML từ JavaScript trong Java – Hướng dẫn chi tiết từng bước](./generate-html-from-javascript-in-java-complete-step-by-step/)
 Tìm hiểu cách tạo HTML từ JavaScript trong Java bằng Aspose.HTML với hướng dẫn chi tiết từng bước.
-
-
-
-
-
-
 
 ### [Lặp qua NodeList trong Java – Hướng dẫn đầy đủ](./iterate-over-nodelist-java-complete-guide/)
 Tìm hiểu cách lặp qua NodeList trong Java bằng Aspose.HTML với hướng dẫn chi tiết và ví dụ thực tế.
@@ -115,6 +103,12 @@ Hướng dẫn cách sử dụng setTimeout bất đồng bộ để chạy mã 
 Hướng dẫn nhanh cách tải tài liệu HTML bằng Aspose trong Java và lấy tiêu đề trang một cách dễ dàng.
 ### [Cách tải HTML trong Java – Hướng dẫn từng bước](./how-to-load-html-in-java-step-by-step-guide/)
 Hướng dẫn chi tiết cách tải tài liệu HTML trong Java bằng Aspose.HTML, bao gồm các bước thực hiện và mẹo tối ưu.
+
+### [Cách tạo bảng từ dữ liệu bằng HTML và Handlebars](./how-to-generate-table-from-data-with-html-and-handlebars/)
+Hướng dẫn tạo bảng HTML từ dữ liệu sử dụng Handlebars trong Java.
+
+### [Cách chuyển đổi mẫu HTML thành trang cuối cùng bằng Java và Aspose.HTML](./how-to-convert-html-template-to-a-final-page-using-java-and/)
+Hướng dẫn chi tiết cách chuyển đổi mẫu HTML thành trang hoàn chỉnh bằng Java và Aspose.HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

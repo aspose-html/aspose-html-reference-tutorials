@@ -56,7 +56,9 @@ Learn how to load, manipulate, and save HTML documents using Aspose.HTML for Jav
 Learn how to load HTML documents from streams using Aspose.HTML for Java. This guide provides a step-by-step tutorial for seamless HTML manipulation.
 ### [Create HTML Documents from String in Aspose.HTML for Java](./create-html-documents-from-string/)
 Learn how to create HTML documents from strings in Aspose.HTML for Java with this step-by-step guide.
-### [Create HTML Document with Java – Fetch JSON and Generate Content](./create-html-document-with-java-fetch-json-and-generate-conte/)
+### [How to convert HTML template to a final page using Java and Aspose.HTML](./how-to-convert-html-template-to-a-final-page-using-java-and/)
+### [How to generate table from data with HTML and Handlebars](./how-to-generate-table-from-data-with-html-and-handlebars/)
+### [Create HTML Document with Java – Fetch JSON and Generate Content](./create-html-document-with-java-fetch-json-and-conte/)
 Learn how to fetch JSON in Java and generate HTML content using Aspose.HTML with this step-by-step guide.
 ### [Create HTML from Markdown in Java – Full Step‑by‑Step Guide](./create-html-from-markdown-in-java-full-step-by-step-guide/)
 Learn how to convert Markdown to HTML in Java using Aspose.HTML with a comprehensive step‑by‑step tutorial.
@@ -91,7 +93,7 @@ Learn how to load HTML documents in Java using Aspose.HTML, with comprehensive X
 ### [count html characters in Java – Full Guide with Aspose HTML](./count-html-characters-in-java-full-guide-with-aspose-html/)
 Learn how to count HTML characters in Java using Aspose.HTML with this comprehensive step‑by‑step guide.
 ### [Extract Text from HTML in Java – Complete Programming Guide](./extract-text-from-html-in-java-complete-programming-guide/)
-Learn how to extract text from HTML using Aspose.HTML for Java with this comprehensive step-by-step programming guide.
+Learn how to extract text from HTML using Aspose.HTML for Java with this comprehensive step‑by‑step programming guide.
 
 
 
@@ -111,7 +113,7 @@ Learn how to iterate a NodeList in Java to read HTML and extract image src attri
 ### [Iterate over NodeList Java – Complete Guide](./iterate-over-nodelist-java-complete-guide/)
 Learn how to iterate over a NodeList in Java using Aspose.HTML with this comprehensive step-by-step guide.
 ### [Extract text from HTML with Java – Complete Step‑by‑Step Guide](./extract-text-from-html-with-java-complete-step-by-step-guide/)
-Learn how to extract text from HTML using Aspose.HTML for Java with this comprehensive step-by-step tutorial.
+Learn how to extract text from HTML using Aspose.HTML for Java with this comprehensive step‑by‑step tutorial.
 ### [javascript settimeout async: Run JavaScript in Java and Update HTML](./javascript-settimeout-async-run-javascript-in-java-and-updat/)
 Learn how to execute JavaScript with setTimeout asynchronously in Java using Aspose.HTML and dynamically update HTML content.
 ### [load html document aspose – Quick Java Guide to Retrieve Page Title](./load-html-document-aspose-quick-java-guide-to-retrieve-page/)
