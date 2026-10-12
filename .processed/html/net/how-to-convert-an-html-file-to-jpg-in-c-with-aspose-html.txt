@@ -1,0 +1,7 @@
+Title: How to convert an HTML file to JPG in C# with Aspose.HTML
+Slug: how-to-convert-an-html-file-to-jpg-in-c-with-aspose-html
+Category: generate-jpg-and-png-images
+ProcessedDate: 2026-10-12T14:45:13.219346
+SourceRepo: AI Search API
+Keywords: html file to jpg, save html as image, convert html to jpg, render html to jpeg, render html image c#
+PRNumber: 299
