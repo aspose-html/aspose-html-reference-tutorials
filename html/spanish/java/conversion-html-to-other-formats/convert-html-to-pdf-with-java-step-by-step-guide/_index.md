@@ -24,11 +24,7 @@ title: Convertir HTML a PDF con Java – Guía paso a paso
 url: /es/java/conversion-html-to-other-formats/convert-html-to-pdf-with-java-step-by-step-guide/
 ---
 
-Also keep blockquote > formatting.
-
-Translate table content.
-
-Let's write final.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

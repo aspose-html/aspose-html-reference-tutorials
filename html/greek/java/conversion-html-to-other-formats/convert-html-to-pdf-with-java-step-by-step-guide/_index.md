@@ -24,10 +24,6 @@ title: Μετατροπή HTML σε PDF με Java – Οδηγός βήμα‑π
 url: /el/java/conversion-html-to-other-formats/convert-html-to-pdf-with-java-step-by-step-guide/
 ---
 
-with margins". We'll translate to Greek: "παράδειγμα μετατροπής html σε pdf που δείχνει σελίδα A4 με περιθώρια". Keep same attribute format.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

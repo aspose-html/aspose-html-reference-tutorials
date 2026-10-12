@@ -24,14 +24,6 @@ title: Converter HTML em PDF com Java – Guia passo a passo
 url: /pt/java/conversion-html-to-other-formats/convert-html-to-pdf-with-java-step-by-step-guide/
 ---
 
-the "Image Illustration" heading.
-
-Also translate "Wrap‑Up" heading.
-
-Also translate "Happy coding!" maybe "Bom codificação!" but maybe "Feliz codificação!" but typical Portuguese: "Bom código!" but we can say "Feliz codificação!" Keep exclamation.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

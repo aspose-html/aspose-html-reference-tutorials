@@ -22,14 +22,6 @@ title: JavaでHTMLページをPNGとして保存する – 完全チュートリ
 url: /ja/java/conversion-html-to-various-image-formats/save-html-page-as-png-in-java-complete-tutorial/
 ---
 
-text of image? The alt text "Screenshot of rendered HTML saved as PNG" should be translated? Probably yes, but keep the URL unchanged. The title attribute also. So translate alt and title.
-
-Also translate the "Pro tip:" etc.
-
-Make sure to keep code block placeholders unchanged.
-
-Let's produce final markdown.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

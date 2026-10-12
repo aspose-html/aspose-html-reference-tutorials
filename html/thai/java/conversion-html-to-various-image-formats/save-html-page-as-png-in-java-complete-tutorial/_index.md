@@ -22,8 +22,6 @@ title: บันทึกหน้า HTML เป็น PNG ใน Java – ค�
 url: /th/java/conversion-html-to-various-image-formats/save-html-page-as-png-in-java-complete-tutorial/
 ---
 
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -20,10 +20,6 @@ title: 在 Java 中將 HTML 頁面另存為 PNG – 完整教學
 url: /zh-hant/java/conversion-html-to-various-image-formats/save-html-page-as-png-in-java-complete-tutorial/
 ---
 
-with all sections.
-
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

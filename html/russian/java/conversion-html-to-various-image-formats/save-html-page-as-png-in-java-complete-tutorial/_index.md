@@ -24,11 +24,7 @@ title: Сохранить HTML‑страницу в PNG в Java – Полно
 url: /ru/java/conversion-html-to-various-image-formats/save-html-page-as-png-in-java-complete-tutorial/
 ---
 
-conclusion paragraph there is "You now have a reusable snippet that can be dropped into any Java project—whether it’s a backend service generating thumbnails or a test harness validating visual layouts." Already translated.
-
-Make sure to keep bold formatting (**). Keep code block placeholders unchanged.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -24,9 +24,7 @@ title: HTML oldal mentése PNG-ként Java-ban – Teljes útmutató
 url: /hu/java/conversion-html-to-various-image-formats/save-html-page-as-png-in-java-complete-tutorial/
 ---
 
-we didn't translate code block placeholders. Keep them.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

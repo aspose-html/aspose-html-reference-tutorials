@@ -23,14 +23,6 @@ title: HTML naar PDF converteren met Java – Stapsgewijze gids
 url: /nl/java/conversion-html-to-other-formats/convert-html-to-pdf-with-java-step-by-step-guide/
 ---
 
-naturally to Dutch, but keep technical terms. Alt attribute is text, so translate. But need to keep URL unchanged. So alt becomes Dutch.
-
-Similarly table entries: translate question and answer.
-
-Let's do translation.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

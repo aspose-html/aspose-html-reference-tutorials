@@ -24,18 +24,6 @@ title: HTML konvertálása PDF-re Java-val – Lépésről lépésre útmutató
 url: /hu/java/conversion-html-to-other-formats/convert-html-to-pdf-with-java-step-by-step-guide/
 ---
 
-Translate "Pro tip" etc.
-
-Translate "How it works", "Common question", etc.
-
-Translate table headings and content.
-
-Translate alt text.
-
-Translate wrap-up.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

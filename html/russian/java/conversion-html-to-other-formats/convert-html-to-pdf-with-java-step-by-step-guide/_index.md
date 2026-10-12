@@ -24,20 +24,6 @@ title: Конвертация HTML в PDF с помощью Java — поша�
 url: /ru/java/conversion-html-to-other-formats/convert-html-to-pdf-with-java-step-by-step-guide/
 ---
 
-to PDF with Java – Step‑by‑Step Guide
-
-Translate heading: "Convert HTML to PDF with Java – Step‑by‑Step Guide" => "Конвертация HTML в PDF с помощью Java – Пошаговое руководство"
-
-Then paragraph.
-
-We'll translate.
-
-Proceed.
-
-Make sure to keep **bold** formatting.
-
-Let's write translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

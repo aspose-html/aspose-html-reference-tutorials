@@ -23,18 +23,6 @@ title: HTML-pagina opslaan als PNG in Java – Complete handleiding
 url: /nl/java/conversion-html-to-various-image-formats/save-html-page-as-png-in-java-complete-tutorial/
 ---
 
-level.
-
-Proceed.
-
-Will translate bullet points, etc.
-
-Make sure code block placeholders remain unchanged.
-
-Also keep blockquotes etc.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

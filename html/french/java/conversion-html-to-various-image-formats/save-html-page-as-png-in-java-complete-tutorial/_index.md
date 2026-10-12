@@ -24,12 +24,6 @@ title: Enregistrer une page HTML en PNG avec Java – Tutoriel complet
 url: /fr/java/conversion-html-to-various-image-formats/save-html-page-as-png-in-java-complete-tutorial/
 ---
 
-sure to keep code block placeholders.
-
-Also keep blockquote >.
-
-Now produce final output.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -24,12 +24,6 @@ title: Salva pagina HTML come PNG in Java – Tutorial completo
 url: /it/java/conversion-html-to-various-image-formats/save-html-page-as-png-in-java-complete-tutorial/
 ---
 
-actual code; they are placeholders. Keep them.
-
-Now translate.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

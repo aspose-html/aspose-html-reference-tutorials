@@ -24,19 +24,7 @@ title: Java'da HTML Sayfasını PNG Olarak Kaydet – Tam Kılavuz
 url: /tr/java/conversion-html-to-various-image-formats/save-html-page-as-png-in-java-complete-tutorial/
 ---
 
-Also "### Changing the Device Pixel Ratio", "### Adding Custom Headers or Cookies", "### Rendering Multiple Pages".
-
-Also "## Troubleshooting Tips" and bullet points.
-
-Also "## Full Working Example (All Code in One Place)".
-
-Also "## Conclusion" and final paragraphs.
-
-Also "### What’s Next?" and bullet points.
-
-Make sure to keep markdown formatting.
-
-Let's produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
