@@ -40,6 +40,8 @@ Aspose.HTML for .NET'i .NET projelerinize entegre etmek zahmetsizdir. Kütüphan
 
 ### [Aspose.HTML ile .NET'te ImageDevice ile JPG Görüntüleri Oluşturun](./generate-jpg-images-by-imagedevice/)
 Aspose.HTML for .NET kullanarak dinamik web sayfaları oluşturmayı öğrenin. Bu adım adım eğitim, ön koşulları, ad alanlarını ve HTML'yi resimlere dönüştürmeyi kapsar.
+### [C# ile Aspose.HTML kullanarak HTML dosyasını JPG'ye dönüştürme](./how-to-convert-an-html-file-to-jpg-in-c-with-aspose-html/)
+C# ve Aspose.HTML ile HTML dosyasını JPG formatına dönüştürmeyi adım adım öğrenin.
 ### [Aspose.HTML ile .NET'te ImageDevice ile PNG Görüntüleri Oluşturun](./generate-png-images-by-imagedevice/)
 HTML belgelerini düzenlemek, HTML'yi resimlere dönüştürmek ve daha fazlası için Aspose.HTML for .NET'i kullanmayı öğrenin. SSS'li adım adım eğitim.
 ### [Word'ü PNG'ye Dönüştür – Geliştiriciler İçin Tam Kılavuz](./convert-word-to-png-complete-guide-for-developers/)
@@ -91,6 +93,9 @@ HTML içeriğinden C# kullanarak adım adım görüntü oluşturmayı öğrenin.
 C# kullanarak HTML'den PNG resim oluşturmayı adım adım öğrenin. Aspose.HTML'in tam kılavuzu.
 ### [HTML'yi PNG'ye Render Etme – Tam C# Kılavuzu](./how-to-render-html-to-png-complete-c-guide/)
 C# kullanarak HTML içeriğini PNG formatına dönüştürmeyi adım adım öğrenin.
+
+### [C# ile Aspose.HTML kullanarak HTML'yi PNG'ye render etme](./how-to-render-html-to-png-in-c-using-aspose-html/)
+C# ile Aspose.HTML kullanarak HTML'yi PNG formatına dönüştürmeyi adım adım öğrenin.
 
 ## Çözüm
 

@@ -110,11 +110,15 @@ Aspose.HTML for .NET kullanarak C# ile HTML'yi akışa kaydetmeyi adım adım ö
 ### [Aspose.HTML'de Handler Kullanımı – HTML Yükle ve ZIP Olarak Kaydet](./how-to-use-handler-in-aspose-html-load-html-save-as-zip/)
 Aspose.HTML for .NET ile bir handler aracılığıyla HTML dosyasını yükleyin ve ZIP arşivine kaydedin. Adım adım rehber.
 ### [C# ile HTML'yi ZIP Olarak Kaydet – Tam Kılavuz](./save-html-as-zip-in-c-complete-guide/)
-Aspose.HTML for .NET ile C# içinde HTML dosyalarını ZIP arşivine kaydetmeyi adım adım öğrenin.
+Aspose.HTML for .NET ile C# içinde HTML dosalarını ZIP arşivine kaydetmeyi adım adım öğrenin.
 ### [C#'ta Özel Kaynak İşleyicisi – HTML Yükle ve ZIP Olarak Kaydet](./custom-resource-handler-in-c-load-html-and-save-as-zip/)
 C# ile özel bir kaynak işleyicisi oluşturarak HTML dosyasını yükleyin ve ZIP arşivine kaydedin.
 ### [C#'ta Aspose.HTML ile HTML'yi String'e Dönüştürme – Tam Kılavuz](./convert-html-to-string-in-c-with-aspose-html-complete-guide/)
 Aspose.HTML for .NET kullanarak C# içinde HTML içeriğini string olarak elde etmeyi adım adım öğrenin.
+
+### [Aspose.HTML ile .NET'te HTML'yi ZIP'e dönüştürün](./convert-html-to-zip-in-c-complete-guide/)
+### [Aspose.HTML ile C#'ta HTML'yi akışa dönüştürme](./convert-html-to-stream-using-aspose-html-in-c/)
+C# ve Aspose.HTML kullanarak HTML içeriğini akışa dönüştürmeyi adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

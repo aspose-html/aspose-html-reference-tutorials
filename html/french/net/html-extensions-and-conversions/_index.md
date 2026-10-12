@@ -149,6 +149,8 @@ Apprenez à créer un document HTML et à le compresser dans un fichier ZIP avec
 Apprenez à créer un gestionnaire de ressources personnalisé en C# pour charger du HTML et le sauvegarder dans un fichier ZIP.
 ### [Convertir du HTML en chaîne en C# avec Aspose.HTML – Guide complet](./convert-html-to-string-in-c-with-aspose-html-complete-guide/)
 Apprenez à convertir du HTML en chaîne de caractères en C# avec Aspose.HTML grâce à ce guide complet étape par étape.
+### [Convertir le HTML en flux avec Aspose.HTML en C#](./convert-html-to-stream-using-aspose-html-in-c/)
+Apprenez à convertir du HTML en flux en C# avec Aspose.HTML, guide complet étape par étape.
 
 ## Conclusion
 

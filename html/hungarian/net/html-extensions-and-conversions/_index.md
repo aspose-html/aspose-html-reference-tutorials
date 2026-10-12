@@ -97,7 +97,7 @@ Megmutatjuk, hogyan menthet HTML-t közvetlenül memóriaáramba az Aspose.HTML 
 ### [Egyéni erőforráskezelő C#‑ban – HTML konvertálása ZIP‑archívumba memóriából](./custom-resource-handler-in-c-convert-html-to-zip-archive-fro/)
 Ismerje meg, hogyan használhat egyéni erőforráskezelőt C#‑ban a HTML memóriában történő ZIP‑archívumba konvertálásához az Aspose.HTML for .NET segítségével.
 ### [HTML zip-elése C#-ban – HTML betöltése és egyéni kezelő használata](./how-to-zip-html-in-c-load-html-use-custom-handler/)
-### [Egyéni erőforráskezelő C#-ban – HTML ZIP-be konvertálása oktatóanyag](./custom-resource-handler-in-c-convert-html-to-zip-tutorial/)
+### [Egyéni erőforráskezelő C#‑ban – HTML ZIP-be konvertálása oktatóanyag](./custom-resource-handler-in-c-convert-html-to-zip-tutorial/)
 Ismerje meg, hogyan használhat egyéni erőforráskezelőt a HTML ZIP-archívumba konvertálásához C#-ban az Aspose.HTML for .NET segítségével.
 ### [HTML konvertálása PDF-be az Aspose.HTML segítségével – Teljes lépésről‑lépésre útmutató](./convert-html-to-pdf-with-aspose-html-full-step-by-step-guide/)
 Részletes útmutató a HTML PDF-be konvertálásához az Aspose.HTML for .NET használatával, lépésről‑lépésre példákkal.
@@ -125,6 +125,8 @@ Ismerje meg, hogyan hozhat létre egy egyéni erőforráskezelőt C#‑ban, amel
 Részletes, lépésről‑lépésre útmutató a HTML zip‑eléshez C#‑ban az Aspose.HTML for .NET‑el.
 ### [HTML konvertálása sztringgé C#-ban az Aspose.HTML segítségével – Teljes útmutató](./convert-html-to-string-in-c-with-aspose-html-complete-guide/)
 Ismerje meg, hogyan konvertálhatja a HTML-t sztringgé C#-ban az Aspose.HTML könyvtárral, részletes lépésekkel és példákkal.
+### [HTML konvertálása stream-re az Aspose.HTML használatával C#-ban](./convert-html-to-stream-using-aspose-html-in-c/)
+Részletes útmutató a HTML stream-be konvertálásához C#-ban az Aspose.HTML segítségével.
 
 ## Következtetés
 

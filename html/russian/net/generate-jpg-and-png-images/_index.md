@@ -40,6 +40,7 @@ Aspose.HTML для .NET предлагает простой метод прео�
 
 ### [Генерация изображений JPG с помощью ImageDevice в .NET с Aspose.HTML](./generate-jpg-images-by-imagedevice/)
 Узнайте, как создавать динамические веб-страницы с помощью Aspose.HTML для .NET. Это пошаговое руководство охватывает предварительные условия, пространства имен и рендеринг HTML в изображения.
+### [Как конвертировать HTML‑файл в JPG на C# с Aspose.HTML](./how-to-convert-an-html-file-to-jpg-in-c-with-aspose-html/)
 ### [Генерация изображений PNG с помощью ImageDevice в .NET с Aspose.HTML](./generate-png-images-by-imagedevice/)
 Изучите Aspose.HTML для .NET для работы с HTML-документами, преобразования HTML в изображения и т. д. Пошаговое руководство с часто задаваемыми вопросами.
 ### [Конвертация Word в PNG – Полное руководство для разработчиков](./convert-word-to-png-complete-guide-for-developers/)
@@ -81,6 +82,8 @@ Aspose.HTML для .NET предлагает простой метод прео�
 Узнайте, как с помощью Aspose.HTML в C# преобразовать HTML‑страницу в PNG‑изображение шаг за шагом.
 ### [Как отрендерить HTML в PNG на C# – Полное руководство](./how-to-render-html-to-png-in-c-complete-guide/)
 Подробное руководство по рендерингу HTML в PNG с помощью Aspose.HTML для .NET на C#, включая настройки, примеры кода и оптимизацию.
+### [Как отрендерить HTML в PNG на C# с помощью Aspose.HTML](./how-to-render-html-to-png-in-c-using-aspose-html/)
+Краткое руководство по рендерингу HTML в PNG в C# с использованием Aspose.HTML.
 ### [Создание PNG из SVG в C# – Полное пошаговое руководство](./create-png-from-svg-in-c-full-step-by-step-guide/)
 Узнайте, как преобразовать SVG в PNG в C# с помощью Aspose.HTML для .NET, следуя полному пошаговому руководству.
 ### [Отображение HTML-изображения в C# – Полное руководство по Aspose.HTML](./render-html-image-in-c-complete-aspose-html-guide/)

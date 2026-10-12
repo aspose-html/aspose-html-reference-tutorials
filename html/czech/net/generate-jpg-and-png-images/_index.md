@@ -40,6 +40,8 @@ Integrace Aspose.HTML for .NET do vašich projektů .NET je bezproblémová. Kni
 
 ### [Generujte obrázky JPG pomocí ImageDevice v .NET pomocí Aspose.HTML](./generate-jpg-images-by-imagedevice/)
 Naučte se vytvářet dynamické webové stránky pomocí Aspose.HTML for .NET. Tento výukový program krok za krokem pokrývá předpoklady, jmenné prostory a vykreslování HTML do obrázků.
+### [Jak převést soubor HTML na JPG v C# pomocí Aspose.HTML](./how-to-convert-an-html-file-to-jpg-in-c-with-aspose-html/)
+Naučte se převést soubor HTML na JPG v C# pomocí Aspose.HTML s podrobným krok‑za‑krokovým návodem.
 ### [Generujte obrázky PNG pomocí ImageDevice v .NET pomocí Aspose.HTML](./generate-png-images-by-imagedevice/)
 Naučte se používat Aspose.HTML pro .NET k manipulaci s dokumenty HTML, převodu HTML na obrázky a další. Výukový program krok za krokem s nejčastějšími dotazy.
 ### [Převod Wordu do PNG – Kompletní průvodce pro vývojáře](./convert-word-to-png-complete-guide-for-developers/)
@@ -91,6 +93,8 @@ Naučte se, jak v C# pomocí Aspose.HTML převést HTML na obrázek pomocí podr
 Kompletní návod, jak v C# pomocí Aspose.HTML převést HTML na PNG obrázek s podrobným nastavením.
 ### [Jak renderovat HTML do PNG – Kompletní průvodce v C#](./how-to-render-html-to-png-complete-c-guide/)
 Kompletní návod, jak pomocí Aspose.HTML v C# převést HTML na PNG s nastavením kvality a rozměrů.
+### [Jak renderovat HTML do PNG v C# pomocí Aspose.HTML](./how-to-render-html-to-png-in-c-using-aspose-html/)
+Naučte se pomocí Aspose.HTML v C# převést HTML na PNG s podrobným návodem krok za krokem.
 
 ## Závěr
 

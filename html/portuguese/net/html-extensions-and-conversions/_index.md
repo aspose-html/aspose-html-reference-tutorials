@@ -162,6 +162,9 @@ Aprenda a criar um manipulador de recursos personalizado em C# para carregar doc
 ### [Converter HTML para String em C# com Aspose.HTML – Guia Completo](./convert-html-to-string-in-c-with-aspose-html-complete-guide/)
 Aprenda a converter documentos HTML em strings usando C# e Aspose.HTML com este guia passo a passo.
 
+### [Converter HTML para stream usando Aspose.HTML em C#](./convert-html-to-stream-using-aspose-html-in-c/)
+Aprenda a converter documentos HTML em streams em C# usando Aspose.HTML, com exemplo de código passo a passo.
+
 ## Conclusão
 
 Concluindo, extensões e conversões HTML são elementos essenciais do desenvolvimento web moderno. O Aspose.HTML para .NET simplifica o processo e o torna acessível a desenvolvedores de todos os níveis. Ao seguir nossos tutoriais, você estará no caminho certo para se tornar um desenvolvedor web proficiente com um amplo conjunto de habilidades.

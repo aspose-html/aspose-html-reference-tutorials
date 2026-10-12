@@ -86,7 +86,7 @@ Entdecken Sie die Leistungsfähigkeit von Aspose.HTML für .NET: Konvertieren Si
 ### [HTML in C# zippen – HTML in Zip speichern](./how-to-zip-html-in-c-save-html-to-zip/)
 Erfahren Sie, wie Sie HTML‑Inhalte mit Aspose.HTML für .NET in eine ZIP‑Datei komprimieren und speichern.
 ### [HTML-Dokument erstellen und als ZIP speichern – Vollständige C#‑Anleitung](./create-html-document-and-save-as-zip-complete-c-guide/)
-Erfahren Sie, wie Sie mit Aspose.HTML für .NET ein HTML-Dokument erzeugen und es als ZIP-Datei speichern – komplette Schritt‑für‑Schritt‑Anleitung.
+Erfahren Sie, wie Sie mit Aspose.HTML für .NET ein HTML‑Dokument erzeugen und es als ZIP‑Datei speichern – komplette Schritt‑für‑Schritt‑Anleitung.
 
 ### [HTML in C# zippen – Tutorial zum benutzerdefinierten Ressourcen‑Handler](./how-to-zip-html-in-c-custom-resource-handler-tutorial/)
 Erfahren Sie, wie Sie mit Aspose.HTML für .NET HTML‑Inhalte mithilfe eines benutzerdefinierten Ressourcen‑Handlers in ein ZIP‑Archiv komprimieren.
@@ -140,9 +140,12 @@ Erfahren Sie, wie Sie HTML mit Aspose.HTML für .NET in PDF konvertieren und Sch
 ### [Benutzerdefinierter Ressourcen‑Handler in C# – HTML laden und als ZIP speichern](./custom-resource-handler-in-c-load-html-and-save-as-zip/)
 Erfahren Sie, wie Sie mit Aspose.HTML für .NET einen benutzerdefinierten Ressourcen‑Handler implementieren, HTML laden und als ZIP‑Datei speichern.
 ### [HTML zippen in C# – Vollständige Anleitung](./how-to-zip-html-in-c-complete-guide/)
-Erfahren Sie, wie Sie HTML-Inhalte mit Aspose.HTML für .NET in ein ZIP-Archiv komprimieren und speichern – Schritt‑für‑Schritt‑Anleitung.
+Erfahren Sie, wie Sie HTML-Inhalte mit Aspose.HTML für .NET in ein ZIP‑Archiv komprimieren und speichern – Schritt‑für‑Schritt‑Anleitung.
 ### [HTML in String in C# mit Aspose.HTML – Komplettanleitung](./convert-html-to-string-in-c-with-aspose-html-complete-guide/)
-Erfahren Sie, wie Sie HTML-Inhalte mit Aspose.HTML für .NET in einen String konvertieren. Schritt‑für‑Schritt‑Anleitung inklusive Codebeispielen.
+Erfahren Sie, wie Sie HTML‑Inhalte mit Aspose.HTML für .NET in einen String konvertieren. Schritt‑für‑Schritt‑Anleitung inklusive Codebeispielen.
+
+### [HTML in Stream konvertieren mit Aspose.HTML in C#](./convert-html-to-stream-using-aspose-html-in-c/)
+Erfahren Sie, wie Sie HTML mit Aspose.HTML für .NET in einen Stream konvertieren – Schritt‑für‑Schritt‑Anleitung in C#.
 
 ## Abschluss
 

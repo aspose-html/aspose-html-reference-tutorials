@@ -53,7 +53,7 @@ Aspose.HTML для .NET — это не просто библиотека; эт�
 Полное руководство по созданию PDF из HTML с помощью Aspose.HTML в C#. Подробные шаги и примеры кода.
 ### [Создайте PDF из HTML – пошаговое руководство для разработчиков](./create-pdf-from-html-step-by-step-guide-for-developers/)
 Подробное пошаговое руководство по созданию PDF из HTML с использованием Aspose.HTML для .NET, предназначенное для разработчиков.
-### [Создайте PDF из HTML с Aspose – пошаговое руководство](./create-pdf-from-html-with-aspose-step-by-step-guide/)
+### [Создайте PDF из HTML – пошаговое руководство](./create-pdf-from-html-with-aspose-step-by-step-guide/)
 Пошаговое руководство по созданию PDF из HTML с использованием Aspose.HTML для .NET.
 ### [Создайте PDF из HTML – Полное руководство с Aspose.HTML](./create-pdf-from-html-complete-guide-with-aspose-html/)
 Полное пошаговое руководство по созданию PDF из HTML с использованием Aspose.HTML для .NET.
@@ -142,6 +142,8 @@ Aspose.HTML для .NET — это не просто библиотека; эт�
 Узнайте, как упаковать HTML‑файлы в ZIP‑архив с помощью Aspose.HTML, следуя пошаговому руководству.
 ### [Конвертировать HTML в строку в C# с Aspose.HTML – Полное руководство](./convert-html-to-string-in-c-with-aspose-html-complete-guide/)
 Узнайте, как преобразовать HTML‑документ в строку в C# с помощью Aspose.HTML, следуя пошаговому полному руководству.
+### [Конвертировать HTML в поток с помощью Aspose.HTML в C#](./convert-html-to-stream-using-aspose-html-in-c/)
+Узнайте, как сохранить HTML‑документ в поток в C# с помощью Aspose.HTML, используя параметры сохранения.
 
 ## Заключение
 

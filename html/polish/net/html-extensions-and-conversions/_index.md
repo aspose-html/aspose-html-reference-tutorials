@@ -62,7 +62,7 @@ Dowiedz się, jak konwertować EPUB na obrazy za pomocą Aspose.HTML dla .NET. S
 ### [Konwertuj EPUB do PDF w .NET za pomocą Aspose.HTML](./convert-epub-to-pdf/)
 Dowiedz się, jak przekonwertować EPUB na PDF za pomocą Aspose.HTML dla .NET. Ten przewodnik krok po kroku obejmuje opcje dostosowywania, FAQ i inne informacje dotyczące płynnej konwersji dokumentów.
 ### [Konwertuj EPUB do XPS w .NET za pomocą Aspose.HTML](./convert-epub-to-xps/)
-Dowiedz się, jak przekonwertować EPUB na XPS w .NET za pomocą Aspose.HTML dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby bezproblemowo przeprowadzić konwersję.
+Dowiedz się, jak przekonwertować EPUB na XPS w .NET przy użyciu Aspose.HTML dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby bezproblemowo przeprowadzić konwersję.
 ### [Konwersja HTML do BMP w .NET za pomocą Aspose.HTML](./convert-html-to-bmp/)
 Dowiedz się, jak przekonwertować HTML na BMP w .NET przy użyciu Aspose.HTML dla .NET. Kompleksowy przewodnik dla programistów stron internetowych dotyczący wykorzystania Aspose.HTML dla .NET.
 ### [Konwertuj HTML na DOC i DOCX w .NET za pomocą Aspose.HTML](./convert-html-to-doc-docx/)
@@ -70,7 +70,7 @@ Dowiedz się, jak wykorzystać moc Aspose.HTML dla .NET w tym przewodniku krok p
 ### [Konwertuj HTML na GIF w .NET za pomocą Aspose.HTML](./convert-html-to-gif/)
 Odkryj moc Aspose.HTML dla .NET: przewodnik krok po kroku po konwersji HTML na GIF. Wymagania wstępne, przykłady kodu, FAQ i więcej! Zoptymalizuj manipulację HTML za pomocą Aspose.HTML.
 ### [Konwersja HTML do JPEG w .NET za pomocą Aspose.HTML](./convert-html-to-jpeg/)
-Dowiedz się, jak konwertować HTML na JPEG w .NET za pomocą Aspose.HTML dla .NET. Przewodnik krok po kroku, jak wykorzystać moc Aspose.HTML dla .NET. Zoptymalizuj swoje zadania związane z tworzeniem stron internetowych bez wysiłku.
+Dowiedz się, jak konwertować HTML na JPEG w .NET przy użyciu Aspose.HTML dla .NET. Przewodnik krok po kroku, jak wykorzystać moc Aspose.HTML dla .NET. Zoptymalizuj swoje zadania związane z tworzeniem stron internetowych bez wysiłku.
 ### [Konwersja HTML do Markdown w .NET za pomocą Aspose.HTML](./convert-html-to-markdown/)
 Dowiedz się, jak konwertować HTML na Markdown w .NET przy użyciu Aspose.HTML w celu wydajnej manipulacji treścią. Uzyskaj wskazówki krok po kroku dotyczące płynnego procesu konwersji.
 ### [Konwersja HTML do MHTML w .NET za pomocą Aspose.HTML](./convert-html-to-mhtml/)
@@ -141,6 +141,7 @@ Dowiedz się, jak stworzyć własny obsługiwacz zasobów w C#, wczytać plik HT
 Dowiedz się, jak w C# zamienić kod HTML na ciąg znaków przy użyciu Aspose.HTML – pełny przewodnik krok po kroku.
 ### [Utwórz PDF z HTML – Pełny przewodnik C# z antyaliasingiem](./create-pdf-from-html-full-c-guide-with-antialiasing/)
 Kompletny przewodnik w C# pokazujący, jak generować PDF z HTML z włączonym antyaliasingiem dla lepszej jakości renderowania.
+### [Konwertuj HTML do strumienia przy użyciu Aspose.HTML w C#](./convert-html-to-stream-using-aspose-html-in-c/)
 
 ## Wniosek
 
