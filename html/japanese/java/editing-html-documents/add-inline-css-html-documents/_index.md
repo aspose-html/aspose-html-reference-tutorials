@@ -1,80 +1,130 @@
 ---
-title: Aspose.HTML for Java で HTML ドキュメントにインライン CSS を追加する
-linktitle: Aspose.HTML for Java で HTML ドキュメントにインライン CSS を追加する
-second_title: Aspose.HTML を使用した Java HTML 処理
-description: Aspose.HTML for Java を使用して HTML ドキュメントにインライン CSS を追加する方法を学びます。このステップ バイ ステップ ガイドは、HTML のスタイルを設定し、簡単に PDF に変換するのに役立ちます。
-weight: 14
+date: 2026-02-07
+description: Aspose.HTML for Java を使用して、CSS をインラインで追加する方法、CSS を追加する方法、HTML を PDF に変換する方法を、いくつかの簡単な手順で学びましょう。
+linktitle: Add Inline CSS to HTML Documents in Aspose.HTML
+second_title: Java HTML Processing with Aspose.HTML
+title: Aspose.HTML for JavaでHTMLドキュメントにインラインCSSを追加する方法
 url: /ja/java/editing-html-documents/add-inline-css-html-documents/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.HTML for Java で HTML ドキュメントにインライン CSS を追加する
+# HTML ドキュメントにインライン CSS を追加する（Aspose.HTML for Java）
 
-## 導入
-HTML ドキュメントを扱っていて、インライン CSS でコンテンツを華やかにしたい場合は、ここが最適な場所です。Aspose.HTML for Java は、HTML ファイルを操作する強力な方法を提供し、スタイルの追加、レスポンシブ デザインの作成など、さまざまな機能を提供します。ドキュメント作成の自動化を検討している開発者でも、Java を使用して HTML コンテンツを動的にスタイル設定する方法に関心がある開発者でも、このガイドでは、プロセスをステップごとに説明します。
+## はじめに
+HTML ドキュメントを扱い、**CSS の追加方法**、特にインライン CSS を学びたい方は、ここが最適です！ Aspose.HTML for Java は、HTML のスタイル属性をプログラムから設定したり、**HTML を PDF に変換**したりできる強力な API を提供します。レポート自動生成や動的な Web‑to‑PDF サービスの構築など、あらゆるシナリオで本チュートリアルがステップバイステップで全工程を案内します。
+
+## Quick Answers
+- **「インライン CSS」とは何ですか？** 要素の `style` 属性内に直接記述された CSS です。  
+- **スタイリング後に HTML を PDF に変換できますか？** はい – Aspose.HTML でワンコールで HTML を PDF にレンダリングできます。  
+- **インターネット接続は必要ですか？** いいえ、インストール後は完全にオフラインで動作します。  
+- **必要な Java のバージョンは？** JDK 8 以上。  
+- **ライセンスは必須ですか？** 本番利用には一時ライセンスまたはフルライセンスが必要です。
+
+## インライン CSS とは？なぜ使うのか
+インライン CSS は、外部スタイルシートを作成せずに単一要素に対してスタイルを適用できる方法です。メールテンプレートや、異なるレンダリングエンジンでもスタイルが必ず要素に付随することを保証したい場合に便利です。Aspose.HTML を使えば、プログラムからこれらのスタイルを注入でき、**HTML を PDF にレンダリング**する前に最終的な外観を完全にコントロールできます。
+
 ## 前提条件
-チュートリアルに進む前に、必要なものがすべて揃っていることを確認しましょう。
-1.  Aspose.HTML for Java: 開発環境にAspose.HTML for Javaがインストールされている必要があります。まだインストールしていない場合は、[Aspose.HTML for Java ダウンロード ページ](https://releases.aspose.com/html/java/).
-2. Java Development Kit (JDK): JDK 8 以上がインストールされていることを確認してください。インストールされていない場合は、Oracle Web サイトからダウンロードできます。
-3. 統合開発環境 (IDE): IntelliJ IDEA、Eclipse、NetBeans など、任意の IDE を使用できます。
-4.  Aspose.HTMLライセンス: Aspose.HTML for Javaは無料トライアルで試すことができますが、[一時ライセンス](https://purchase.aspose.com/temporary-license/)または、完全な機能を利用するにはフルライセンスを購入してください。
+作業を始める前に、以下が揃っていることを確認してください。
+
+1. **Aspose.HTML for Java** – [Aspose.HTML for Java ダウンロードページ](https://releases.aspose.com/html/java/) から取得。  
+2. **Java Development Kit (JDK) 8+** – `java -version` が 1.8 以上を示すこと。  
+3. **IDE** – IntelliJ IDEA、Eclipse、NetBeans、またはお好みのエディタ。  
+4. **Aspose.HTML ライセンス** – [一時ライセンス](https://purchase.aspose.com/temporary-license/) またはフルライセンスを取得。
 
 ## パッケージのインポート
-Aspose.HTML for Java の使用を開始するには、必要なパッケージを Java クラスにインポートする必要があります。インポートの設定方法は次のとおりです。
+Aspose.HTML for Java を使用するために、必要なクラスを Java ソースにインポートします。
+
 ```java
 import com.aspose.html.HTMLDocument;
 import com.aspose.html.HTMLElement;
 ```
-これらのインポートは、HTML ドキュメントを作成し、要素を操作し、出力を PDF としてレンダリングするために必要なクラスを取り込みます。
-## ステップ1: HTMLドキュメントを作成する
-HTML ドキュメントにインライン CSS を追加する最初のステップは、ドキュメント自体を作成することです。このドキュメントはキャンバスとなり、必要に応じてシンプルにも複雑にもできます。このチュートリアルでは、基本的な段落要素から始めます。
+
+これらのインポートにより、ドキュメントモデルや要素操作 API が利用可能になります。
+
+## 手順 1: HTML ドキュメントの作成
+まず、インライン CSS 用のキャンバスとなるシンプルな `HTMLDocument` を作成します。
+
 ```java
 String content = "<p>Inline CSS Example</p>";
 com.aspose.html.HTMLDocument document = new com.aspose.html.HTMLDocument(content, ".");
 ```
-このステップでは、`HTMLDocument` HTMLコンテンツを含む文字列からオブジェクトを取得します。2番目の引数`"."`ベース URL を示します。この場合は、現在のディレクトリです。
-## ステップ2: 段落要素を見つける
-ドキュメントの準備ができたら、次のステップはスタイルを設定したいHTML要素を見つけることです。この場合、`<p>`要素。
+
+文字列は単一の `<p>` 要素を含んでいます。第2引数の `"."` は、相対リソースのベース URL がカレントディレクトリであることを Aspose.HTML に指示しています。
+
+## 手順 2: `<p>` 要素の取得
+次に、スタイルを適用したい `<p>` 要素を取得します。
+
 ```java
 com.aspose.html.HTMLElement paragraph = (com.aspose.html.HTMLElement) document.getElementsByTagName("p").get_Item(0);
 ```
-ここで最初の`<p>`文書内の要素を使用して`getElementsByTagName`このメソッドは要素のリストを返し、`get_Item(0)`リストの最初のものを取得します。
-## ステップ3: インラインCSSを適用する
-段落要素ができたら、スタイルを追加します。インライン CSS は、HTML 要素内で直接、小さな特定の調整を行うのに最適です。
+
+`getElementsByTagName` はコレクションを返し、`get_Item(0)` が最初の要素を選択します。
+
+## 手順 3: インライン CSS の適用
+ここで `style` 属性を追加します。これが **インライン CSS を Java スタイルで追加** する部分です。
+
 ```java
 paragraph.setAttribute("style", "font-size: 250%; font-family: verdana; color: #cd66aa");
 ```
-このステップでは、`setAttribute`メソッドは、`style`属性を段落要素に追加します。CSS スタイルは文字列として記述され、フォント サイズ、フォント ファミリ、テキストの色を設定します。
-## ステップ4: HTMLドキュメントを保存する
-スタイルを適用した後は、変更したHTML文書を保存したいと思うでしょう。これは、`save` Aspose.HTML for Java によって提供されるメソッド。
+
+`style` 文字列には有効な CSS ルールを任意に記述でき、**HTML 要素のスタイルを正確に設定**できます。
+
+## 手順 4: HTML ドキュメントの保存
+スタイリングが完了したら、変更後の HTML を保存してブラウザで確認したり、レンダラに渡したりします。
+
 ```java
 document.save("edit-inline-css.html");
 ```
-ここでは、インラインCSSを含むHTMLドキュメントを次のファイルに保存します。`edit-inline-css.html`現在のディレクトリにあります。これにより、スタイル設定された HTML コンテンツをブラウザで表示できます。
-## ステップ5: HTMLドキュメントをPDFとしてレンダリングする
-最後に、スタイル設定された HTML ドキュメントを PDF に変換する場合は、Aspose.HTML for Java が役立ちます。これは、ドキュメントの印刷可能なバージョンが必要な場合に特に便利です。
+
+`edit-inline-css.html` というファイルがカレントディレクトリに生成されます。
+
+## 手順 5: HTML ドキュメントを PDF にレンダリング
+最後に、スタイルが適用された HTML を PDF ファイルに変換します。印刷可能なレポート作成でよく使われる手順です。
+
 ```java
 com.aspose.html.rendering.pdf.PdfDevice device = new com.aspose.html.rendering.pdf.PdfDevice("edit-inline-css.pdf");
 document.renderTo(device);
 ```
-この最後のステップでは、`PdfDevice`出力ファイル名を次のように指定します`edit-inline-css.pdf`次に、HTML ドキュメントをこの PDF デバイスにレンダリングし、HTML を PDF ファイルに効率的に変換します。
 
-## 結論
-以上です。Aspose.HTML for Java を使用して HTML ドキュメントにインライン CSS を追加する方法を学習しました。この強力なライブラリを使用すると、HTML コンテンツを簡単に操作し、PDF などのさまざまな形式にエクスポートできます。ドキュメント生成を自動化する場合でも、Web ベースのプロジェクトで作業する場合でも、このツールは必要な柔軟性とパワーを提供します。
-## よくある質問
-### インライン CSS を使用して複数のスタイルを適用できますか?
-はい、各CSSプロパティをセミコロンで区切ることで、複数のスタイルを適用できます。`setAttribute`方法。
-### Aspose.HTML for Java はすべての Java バージョンと互換性がありますか?
-Aspose.HTML for Java は JDK 8 以降と互換性があります。
-### Aspose.HTML for Java を使用して既存の HTML ファイルを編集できますか?
-はい、既存の HTML ファイルを読み込み、操作し、変更をファイル システムに保存することができます。
-### Aspose.HTML for Java は HTML を他のどのような形式に変換できますか?
-Aspose.HTML for Java は、HTML を PDF、XPS、画像などのさまざまな形式に変換できます。
-### Aspose.HTML for Java を使用するにはインターネット接続が必要ですか?
-いいえ、Aspose.HTML for Java はオフラインで動作しますが、ライブラリをダウンロードしたり、オンライン ドキュメントにアクセスするにはインターネット接続が必要です。
+このステップで **HTML から PDF を作成** する単一メソッド呼び出しにより、レイアウト・フォント・画像が自動的に処理されます。
+
+## よくある問題と対策
+| Issue | Why it Happens | Fix |
+|-------|----------------|-----|
+| **Missing fonts** | 対象システムに指定フォントが存在しない | フォントを埋め込むか、`Arial` などのウェブセーフフォントを使用 |
+| **Incorrect colors** | CSS のカラー値が認識されない | 16 進数 (`#RRGGBB`) または標準カラー名を使用 |
+| **PDF output is blank** | レンダリング前にドキュメントが保存されていない | `document.save(...)` を呼び出すか、`HTMLDocument` が完全にロードされていることを確認 |
+
+## FAQ
+
+### インライン CSS で複数のスタイルを適用できますか？
+はい、`style` 属性内で各 CSS プロパティをセミコロンで区切って記述します（例を参照）。
+
+### Aspose.HTML for Java はすべての Java バージョンと互換性がありますか？
+JDK 8 以降をサポートしており、最新の Java アプリケーションの大半で使用可能です。
+
+### 既存の HTML ファイルを編集できますか？
+もちろんです。`new HTMLDocument("input.html")` で既存ファイルを読み込み、要素を変更してから保存できます。
+
+### Aspose.HTML for Java が変換できる他のフォーマットは？
+PDF のほか、XPS、SVG、そしてラスタ画像（PNG、JPEG、BMP など）も生成可能です。
+
+### Aspose.HTML for Java の使用にインターネット接続は必要ですか？
+不要です。ライブラリをインストールすれば、すべてローカルで処理されます。
+
+## まとめ
+これで **インラインで CSS を追加**し、**HTML 要素のスタイルを設定**し、**HTML を PDF に変換**する方法が分かりました。プログラムからスタイリングとレンダリングをフルコントロールできるため、ドキュメント自動化パイプラインやレポートサービス、動的 HTML から高品質 PDF を生成するあらゆるシナリオに最適です。
+
+---
+
+**最終更新日:** 2026-02-07  
+**テスト環境:** Aspose.HTML for Java 24.12  
+**作者:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

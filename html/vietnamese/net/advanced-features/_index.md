@@ -25,6 +25,7 @@ Aspose.HTML for .NET là một công cụ mạnh mẽ cho phép các nhà phát 
 Trước khi đi sâu vào hướng dẫn, hãy cùng tìm hiểu lý do tại sao Aspose.HTML cho .NET là lựa chọn ưu tiên cho các nhà phát triển. Aspose.HTML trao cho bạn khả năng thao tác và quản lý các tài liệu HTML một cách dễ dàng. Với bộ tính năng mở rộng, bạn có thể thực hiện các tác vụ như phân tích cú pháp, kết xuất và chuyển đổi các tài liệu HTML một cách hiệu quả. Cho dù bạn là một nhà phát triển dày dạn kinh nghiệm hay chỉ mới bắt đầu, Aspose.HTML sẽ hợp lý hóa quy trình làm việc của bạn, giúp bạn tiết kiệm thời gian và công sức.
 
 ## Hướng dẫn tính năng nâng cao
+
 Trong lĩnh vực phát triển .NET, việc thành thạo các tính năng nâng cao có thể mở ra cánh cửa đến những khả năng vô tận. Aspose.HTML trang bị cho bạn các công cụ để khai thác toàn bộ tiềm năng của thao tác HTML. Bài viết này sẽ hướng dẫn bạn qua một số hướng dẫn, tiết lộ cách tận dụng Aspose.HTML cho nhiều tác vụ khác nhau.
 ### [Cấu hình môi trường trong .NET với Aspose.HTML](./environment-configuration/)
 Tìm hiểu cách làm việc với tài liệu HTML trong .NET bằng Aspose.HTML cho các tác vụ như quản lý tập lệnh, kiểu tùy chỉnh, kiểm soát thực thi JavaScript, v.v. Hướng dẫn toàn diện này cung cấp các ví dụ từng bước và Câu hỏi thường gặp để giúp bạn bắt đầu.
@@ -44,7 +45,14 @@ Tìm hiểu cách chuyển đổi HTML sang PDF, XPS và hình ảnh bằng Aspo
 Tìm hiểu cách sử dụng Aspose.HTML cho .NET để tạo tài liệu HTML động từ dữ liệu JSON. Khai thác sức mạnh của thao tác HTML trong các ứng dụng .NET của bạn.
 ### [Tạo memory stream C# – Hướng dẫn tạo luồng tùy chỉnh](./create-memory-stream-c-custom-stream-creation-guide/)
 Hướng dẫn chi tiết cách tạo memory stream trong C# bằng Aspose.HTML, bao gồm các bước thực hiện và ví dụ thực tế.
-
+### [Cách Kết Hợp Phông Chữ Theo Chương Trình trong C# – Hướng Dẫn Từng Bước](./how-to-combine-fonts-programmatically-in-c-step-by-step-guid/)
+Hướng dẫn chi tiết cách kết hợp nhiều phông chữ trong C# bằng Aspose.HTML, bao gồm mã mẫu và các lưu ý quan trọng.
+### [Lấy Phiên Bản Assembly trong C# – Hướng Dẫn Nhanh Để Lấy Phiên Bản Thư Viện](./get-assembly-version-in-c-quick-guide-to-retrieve-library-ve/)
+Hướng dẫn nhanh cách lấy phiên bản của một assembly trong C# để xác định phiên bản thư viện đang sử dụng.
+### [Trình xử lý tài nguyên tùy chỉnh trong Aspose HTML – Hướng dẫn lưu vào stream](./custom-resource-handler-in-aspose-html-save-to-stream-guide/)
+Hướng dẫn cách tạo trình xử lý tài nguyên tùy chỉnh trong Aspose HTML và lưu nội dung vào stream một cách hiệu quả.
+### [Cách nén HTML với Aspose HTML – Hướng dẫn đầy đủ](./how-to-zip-html-with-aspose-html-complete-guide/)
+Tìm hiểu cách nén các tệp HTML thành file zip bằng Aspose.HTML, bao gồm các ví dụ thực tế và hướng dẫn từng bước.
 
 ## Phần kết luận
 

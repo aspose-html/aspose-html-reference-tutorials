@@ -1,10 +1,11 @@
 ---
-date: 2025-12-05
-description: Aprenda cómo crear un archivo HTML, administrar recursos de red y convertir
-  HTML a PNG usando Aspose.HTML para Java con manejo de errores personalizado.
+date: 2026-02-07
+description: Aprende cómo crear archivos HTML con Java, gestionar recursos de red
+  y convertir HTML a PNG usando Aspose.HTML para Java con un controlador de errores
+  personalizado.
 linktitle: Set Up Network Service in Aspose.HTML
 second_title: Java HTML Processing with Aspose.HTML
-title: Crear archivo HTML y configurar servicio de red (Aspose.HTML Java)
+title: Crear archivo HTML en Java y configurar el servicio de red (Aspose.HTML)
 url: /es/java/configuring-environment/setup-network-service/
 weight: 13
 ---
@@ -13,36 +14,42 @@ weight: 13
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Crear archivo HTML y configurar el servicio de red (Aspose.HTML Java)
+# Crear archivo HTML Java y configurar el servicio de red (Aspose.HTML)
 
 ## Introducción
-If you need to **crear archivo html** that pulls images from the web and then turn that page into an image, you’re in the right spot. In this tutorial we’ll walk through every step required to configure Aspose.HTML for Java, **gestionar recursos de red**, handle missing assets with a custom error handler, **convertir html a png**, and finally **limpiar recursos** so your application stays healthy. Whether you’re building a reporting engine, an automated thumbnail generator, or just experimenting with HTML‑to‑image conversion, the pattern shown here will save you time and headaches.
+Si necesitas **crear html file java** que obtenga imágenes de la web y luego convertir esa página en una imagen, estás en el lugar correcto. En este tutorial recorreremos cada paso necesario para configurar Aspose.HTML para Java, **gestionar recursos de red**, manejar activos faltantes con un **controlador de errores personalizado**, **convertir html a png**, y finalmente **limpiar los recursos** para que tu aplicación se mantenga saludable. Ya sea que estés construyendo un motor de informes, un generador automático de miniaturas, o simplemente experimentando con la conversión de HTML a imagen, el patrón mostrado aquí te ahorrará tiempo y dolores de cabeza.
 
 ## Respuestas rápidas
 - **¿Cuál es el primer paso?** Crear un archivo HTML que haga referencia a imágenes alojadas en la red.  
 - **¿Qué clase configura la red?** `com.aspose.html.Configuration`.  
-- **¿Cómo capturo errores de carga?** Añadir un `MessageHandler` personalizado al `INetworkService`.  
+- **¿Cómo capturo errores de carga?** Añadiendo un `MessageHandler` personalizado al `INetworkService`.  
 - **¿Qué formato de salida produce este ejemplo?** Una imagen PNG (`output.png`).  
-- **¿Necesito liberar los objetos?** Sí – llame a `dispose()` tanto en el documento como en la configuración.
+- **¿Necesito liberar objetos?** Sí – llama a `dispose()` tanto en el documento como en la configuración.
+
+## ¿Qué significa “create html file java”?
+En el mundo de Aspose.HTML, **create html file java** simplemente significa generar un documento HTML desde una aplicación Java. Este archivo puede hacer referencia a recursos externos (imágenes, CSS, scripts) que la biblioteca obtendrá a través de la red al renderizar.
+
+## ¿Por qué configurar un servicio de red?
+Configurar un servicio de red te permite **gestionar recursos de red** como tiempos de espera, configuraciones de proxy y manejo de errores. Te brinda control total sobre cómo se descargan imágenes remotas y otros activos, lo cual es esencial para una conversión fiable de HTML a imagen en entornos de producción.
 
 ## Requisitos previos
-Before diving into the actual setup, let’s ensure you’ve got everything you need to get started:
-- **Java Development Kit (JDK)** 1.8 o posterior.  
-- **Aspose.HTML for Java** library – descargue la última versión desde la [página oficial de lanzamientos](https://releases.aspose.com/html/java/).  
-- **IDE** de su elección (IntelliJ IDEA, Eclipse, NetBeans, etc.).  
+Antes de sumergirte en la configuración real, asegúrate de tener todo lo necesario para comenzar:
+- **Java Development Kit (JDK)** 1.8 o superior.  
+- Biblioteca **Aspose.HTML for Java** – descarga la última versión desde la [página oficial de lanzamientos](https://releases.aspose.com/html/java/).  
+- **IDE** de tu elección (IntelliJ IDEA, Eclipse, NetBeans, etc.).  
 - Familiaridad básica con la sintaxis de Java y la configuración de proyectos Maven/Gradle.
 
 ## Importar paquetes
-First things first, you need to import the required packages into your Java project. These packages will enable you to utilize the various functionalities of Aspose.HTML for Java.
+Lo primero es importar los paquetes requeridos en tu proyecto Java. Estos paquetes te permitirán utilizar las distintas funcionalidades de Aspose.HTML para Java.
 
 ```java
 import java.io.IOException;
 ```
 
-These imports are the backbone of the functionality we’ll be discussing, so make sure they’re correctly placed at the beginning of your Java file.
+Estas importaciones son la columna vertebral de la funcionalidad que discutiremos, así que asegúrate de que estén correctamente ubicadas al inicio de tu archivo Java.
 
 ## Paso 1: Crear un archivo HTML con imágenes dependientes de la red
-To **crear archivo html** that references external resources, write a small snippet that injects a few `<img>` tags pointing to publicly available images.
+Para **create html file java** que haga referencia a recursos externos, escribe un pequeño fragmento que inserte algunas etiquetas `<img>` apuntando a imágenes públicas.
 
 ```java
 String code = "<img src=\"https://docs.aspose.com/svg/net/drawing-basics/filters-and-gradients/park.jpg\" >\r\n" +
@@ -53,19 +60,19 @@ try (java.io.FileWriter fileWriter = new java.io.FileWriter("document.html")) {
 }
 ```
 
-This HTML file is the entry point for the network service; the images will be fetched over HTTP when the document is loaded.
+Este archivo HTML es el punto de entrada para el servicio de red; las imágenes se obtendrán mediante HTTP cuando se cargue el documento.
 
 ## Paso 2: Inicializar el objeto Configuration
-Now let’s create the **configuración** that will host our network‑service settings.
+Ahora vamos a crear la **configuration** que alojará la configuración de nuestro servicio de red.
 
 ```java
 com.aspose.html.Configuration configuration = new com.aspose.html.Configuration();
 ```
 
-The `Configuration` object is where you’ll specify how Aspose.HTML should handle network traffic, logging, and error handling.
+El objeto `Configuration` es donde especificarás cómo Aspose.HTML debe manejar el tráfico de red, el registro y el manejo de errores.
 
-## Paso 3: Añadir un manejador de mensajes de error personalizado
-A custom `MessageHandler` gives you visibility into problems such as missing images or time‑outs.
+## Paso 3: Añadir un controlador de mensajes de error personalizado
+Un `MessageHandler` personalizado te brinda visibilidad sobre problemas como imágenes faltantes o tiempos de espera.
 
 ```java
 com.aspose.html.services.INetworkService network = configuration.getService(com.aspose.html.services.INetworkService.class);
@@ -73,19 +80,19 @@ com.aspose.html.net.MessageHandler logHandler = new LogMessageHandler();
 network.getMessageHandlers().addItem(logHandler);
 ```
 
-By attaching `LogMessageHandler`, every network‑related warning or error is captured, making debugging straightforward.
+Al adjuntar `LogMessageHandler`, cada advertencia o error relacionado con la red se captura, lo que facilita la depuración.
 
 ## Paso 4: Cargar el documento HTML con la configuración
-With the network service ready, load the HTML file we created earlier.
+Con el servicio de red listo, carga el archivo HTML que creamos anteriormente.
 
 ```java
 com.aspose.html.HTMLDocument document = new com.aspose.html.HTMLDocument("document.html", configuration);
 ```
 
-When the document loads, Aspose.HTML will use the custom network configuration and invoke our message handler for any issues.
+Cuando el documento se carga, Aspose.HTML usará la configuración de red personalizada e invocará nuestro controlador de mensajes ante cualquier incidencia.
 
 ## Paso 5: Convertir HTML a PNG
-Now we’ll **convertir html a png**, turning the loaded page (including any successfully fetched images) into a raster image.
+Ahora **convertiremos html to png**, transformando la página cargada (incluyendo las imágenes obtenidas con éxito) en una imagen rasterizada.
 
 ```java
 com.aspose.html.converters.Converter.convertHTML(
@@ -95,10 +102,10 @@ com.aspose.html.converters.Converter.convertHTML(
 );
 ```
 
-The result is a single PNG file (`output.png`) that you can embed elsewhere or serve to users.
+El resultado es un único archivo PNG (`output.png`) que puedes incrustar en otro sitio o servir a los usuarios.
 
-## Paso 6: Limpiar recursos
-Proper resource management is essential. After conversion, release the objects to **limpiar recursos** and avoid memory leaks.
+## Paso 6: Limpiar los recursos
+La gestión adecuada de recursos es esencial. Después de la conversión, libera los objetos para **clean up resources** y evitar fugas de memoria.
 
 ```java
 if (document != null) {
@@ -109,35 +116,35 @@ if (configuration != null) {
 }
 ```
 
-Think of this as washing the dishes after a meal—leaving resources hanging around can cause performance problems later.
+Piénsalo como lavar los platos después de una comida—dejar recursos colgando puede causar problemas de rendimiento más adelante.
 
 ## Problemas comunes y soluciones
 | Problema | Por qué ocurre | Cómo solucionarlo |
 |----------|----------------|-------------------|
-| Las imágenes no se cargan | Tiempo de espera de red o URL incorrecta | Verifique las URLs, aumente el tiempo de espera mediante la configuración de `NetworkService`, o añada lógica de respaldo en `LogMessageHandler`. |
-| El PNG está en blanco | El documento no se ha cargado completamente antes de la conversión | Asegúrese de que el `HTMLDocument` se instancie con la configuración que incluye el manejador personalizado; opcionalmente llame a `document.waitForLoad()` si usa carga asíncrona. |
-| Error de falta de memoria | HTML muy grande o muchas imágenes de alta resolución | Utilice `ImageSaveOptions.setMaxWidth/MaxHeight` para limitar el tamaño de salida, o libere los objetos intermedios rápidamente. |
+| Las imágenes no se cargan | Tiempo de espera de red o URL incorrecta | Verifica las URLs, aumenta el timeout mediante la configuración de `NetworkService`, o añade lógica de respaldo en `LogMessageHandler`. |
+| El PNG está en blanco | El documento no se ha cargado completamente antes de la conversión | Asegúrate de que el `HTMLDocument` se instancie con la configuración que incluye el controlador personalizado; opcionalmente llama a `document.waitForLoad()` si usas carga asíncrona. |
+| Error de falta de memoria | HTML muy grande o muchas imágenes de alta resolución | Usa `ImageSaveOptions.setMaxWidth/MaxHeight` para limitar el tamaño de salida, o libera los objetos intermedios rápidamente. |
 
 ## Preguntas frecuentes
 
 **P: ¿Cuál es el objetivo principal de configurar un servicio de red en Aspose.HTML para Java?**  
-R: Le permite **gestionar recursos de red** como imágenes remotas, scripts o hojas de estilo, y le brinda control sobre el manejo de errores y el registro.
+R: Permite **gestionar recursos de red** como imágenes remotas, scripts o hojas de estilo, y brinda control sobre el manejo de errores y el registro.
 
-**P: ¿Puedo usar esta configuración para generar otros formatos de imagen (p.ej., JPEG, BMP)?**  
-R: Sí—simplemente cambie la propiedad de formato de `ImageSaveOptions` al tipo de salida deseado.
+**P: ¿Puedo usar esta configuración para generar otros formatos de imagen (p. ej., JPEG, BMP)?**  
+R: Sí—simplemente cambia la propiedad `format` de `ImageSaveOptions` al tipo de salida deseado.
 
 **P: ¿En qué se diferencia el `MessageHandler` personalizado del registrador predeterminado?**  
-R: El manejador personalizado le permite dirigir los mensajes a su propio framework de registro, filtrar advertencias específicas o generar alertas, mientras que el registrador predeterminado solo escribe en la consola.
+R: El controlador personalizado te permite dirigir los mensajes a tu propio framework de registro, filtrar advertencias específicas o activar alertas, mientras que el registrador predeterminado solo escribe en la consola.
 
 **P: ¿Es necesario llamar a `dispose()` tanto en el documento como en la configuración?**  
-R: Absolutamente. Disponer libera recursos nativos y **limpia recursos** que la biblioteca mantiene internamente.
+R: Absolutamente. Disponer libera recursos nativos y **cleans up resources** que la biblioteca mantiene internamente.
 
 **P: ¿Dónde puedo encontrar más ejemplos de conversión de HTML a imágenes en Java?**  
-R: Consulte la documentación de Aspose.HTML para Java y la página oficial de ejemplos en GitHub para casos de uso adicionales como conversión a PDF, renderizado de SVG y procesamiento por lotes.
+R: Consulta la documentación de Aspose.HTML for Java y la página oficial de ejemplos en GitHub para casos de uso adicionales como conversión a PDF, renderizado SVG y procesamiento por lotes.
 
 ---
 
-**Última actualización:** 2025-12-05  
+**Última actualización:** 2026-02-07  
 **Probado con:** Aspose.HTML for Java 24.12 (última)  
 **Autor:** Aspose  
 
