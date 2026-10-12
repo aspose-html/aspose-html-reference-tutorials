@@ -55,6 +55,8 @@ url: /el/net/html-extensions-and-conversions/
 Δημιουργήστε PDF από HTML με το Aspose.HTML ακολουθώντας έναν πλήρη οδηγό βήμα‑βήμα για γρήγορη υλοποίηση.
 ### [Δημιουργία PDF από HTML – Οδηγός βήμα‑βήμα για προγραμματιστές](./create-pdf-from-html-step-by-step-guide-for-developers/)
 Μάθετε πώς να δημιουργήσετε PDF από HTML με οδηγίες βήμα‑βήμα, ειδικά για προγραμματιστές.
+### [Δημιουργία PDF από HTML – Πλήρης Οδηγός C# με Αντι-αποθώριασμα](./create-pdf-from-html-full-c-guide-with-antialiasing/)
+Μάθετε πώς να δημιουργήσετε PDF από HTML σε C# με πλήρη οδηγό και ενεργοποίηση αντι-αποθώριασμού για ομαλή απόδοση.
 ### [Μετατρέψτε το EPUB σε Εικόνα στο .NET με το Aspose.HTML](./convert-epub-to-image/)
 Μάθετε πώς να μετατρέπετε το EPUB σε εικόνες χρησιμοποιώντας το Aspose.HTML για .NET. Βήμα προς βήμα μάθημα με παραδείγματα κώδικα και προσαρμόσιμες επιλογές.
 ### [Μετατροπή EPUB σε PDF σε .NET με Aspose.HTML](./convert-epub-to-pdf/)
@@ -87,6 +89,8 @@ url: /el/net/html-extensions-and-conversions/
 Μάθετε πώς να φορτώσετε HTML και να το συμπιέσετε σε ZIP χρησιμοποιώντας προσαρμοσμένο διαχειριστή πόρων σε C#.
 ### [Πώς να συμπιέσετε HTML σε C# – Tutorial προσαρμοσμένου διαχειριστή πόρων](./how-to-zip-html-in-c-custom-resource-handler-tutorial/)
 Μάθετε πώς να συμπιέσετε αρχεία HTML σε ZIP χρησιμοποιώντας προσαρμοσμένο διαχειριστή πόρων στο C# με Aspose.HTML.
+### [Πώς να συμπιέσετε HTML σε C# – Πλήρης Οδηγός](./how-to-zip-html-in-c-complete-guide/)
+Μάθετε πώς να συμπιέσετε HTML σε αρχείο ZIP με C# χρησιμοποιώντας το Aspose.HTML – πλήρης οδηγός βήμα‑βήμα.
 ### [Δημιουργία εγγράφου HTML με μορφοποιημένο κείμενο και εξαγωγή σε PDF – Πλήρης οδηγός](./create-html-document-with-styled-text-and-export-to-pdf-full/)
 Μάθετε πώς να δημιουργήσετε ένα έγγραφο HTML με μορφοποιμένο κείμενο και να το εξάγετε σε PDF χρησιμοποιώντας το Aspose.HTML για .NET.
 ### [Αποθήκευση HTML ως ZIP – Πλήρης Εκπαιδευτικό C#](./save-html-as-zip-complete-c-tutorial/)
@@ -135,6 +139,8 @@ url: /el/net/html-extensions-and-conversions/
 
 ### [Προσαρμοσμένος Διαχειριστής Πόρων σε C# – Φόρτωση HTML και Αποθήκευση ως ZIP](./custom-resource-handler-in-c-load-html-and-save-as-zip/)
 Μάθετε πώς να δημιουργήσετε έναν προσαρμοσμένο διαχειριστή πόρων σε C# για φόρτωση αρχείων HTML και αποθήκευση τους σε αρχείο ZIP.
+### [Μετατροπή HTML σε συμβολοσειρά σε C# με Aspose.HTML – Πλήρης Οδηγός](./convert-html-to-string-in-c-with-aspose-html-complete-guide/)
+Μάθετε πώς να μετατρέψετε HTML σε συμβολοσειρά σε C# χρησιμοποιώντας το Aspose.HTML με πλήρη βήμα‑βήμα οδηγίες.
 
 ## Σύναψη
 

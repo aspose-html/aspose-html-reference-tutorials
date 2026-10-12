@@ -33,7 +33,7 @@ Aspose.HTML을 사용하여 .NET에서 HTML 문서를 다루는 방법을 알아
 .NET용 Aspose.HTML을 사용하여 HTML 문서를 효율적으로 조작하는 방법을 알아보세요. 개발자를 위한 단계별 튜토리얼.
 ### [Aspose.HTML을 사용한 .NET의 메모리 스트림 공급자](./memory-stream-provider/)
 Aspose.HTML로 .NET에서 멋진 HTML 문서를 만드는 방법을 알아보세요. 단계별 튜토리얼을 따라 HTML 조작의 힘을 풀어보세요.
-### [Aspose.HTML을 사용한 .NET에서의 웹 스크래핑](./web-scraping/)
+### [Aspose.HTML을 사용한 .NET에서 웹 스크래핑](./web-scraping/)
 Aspose.HTML을 사용하여 .NET에서 HTML 문서를 조작하는 방법을 배우세요. 향상된 웹 개발을 위해 요소를 효과적으로 탐색, 필터링, 쿼리 및 선택합니다.
 ### [Aspose.HTML을 사용하여 .NET에서 확장된 콘텐츠 속성 사용](./use-extended-content-property/)
 Aspose.HTML for .NET을 사용하여 동적 웹 콘텐츠를 만드는 방법을 알아보세요. 튜토리얼에서는 초보자를 위한 필수 조건, 단계별 지침 및 FAQ를 다룹니다.
@@ -53,6 +53,8 @@ Aspose.HTML을 사용해 HTML 파일을 ZIP 압축하는 방법을 단계별 예
 C# 코드를 사용해 어셈블리의 버전 정보를 간단히 추출하는 방법을 단계별로 안내합니다.
 ### [Aspose HTML에서 사용자 지정 리소스 핸들러 – 스트림 저장 가이드](./custom-resource-handler-in-aspose-html-save-to-stream-guide/)
 Aspose HTML에서 사용자 지정 리소스 핸들러를 구현하고, HTML 콘텐츠를 스트림에 저장하는 방법을 단계별로 안내합니다.
+### [C#에서 문서를 PDF로 저장하기 – ZIP 지원 포함 완전 가이드](./save-document-as-pdf-in-c-complete-guide-with-zip-support/)
+C#을 사용해 HTML 문서를 PDF로 변환하고, ZIP 압축을 지원하는 방법을 단계별로 안내합니다.
 
 ## 결론
 

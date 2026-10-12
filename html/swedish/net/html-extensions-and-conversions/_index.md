@@ -76,10 +76,14 @@ Upptäck hur du använder Aspose.HTML för .NET för att manipulera och konverte
 Lär dig hur du konverterar HTML till TIFF med Aspose.HTML för .NET. Följ vår steg-för-steg-guide för effektiv optimering av webbinnehåll.
 ### [Konvertera HTML till XPS i .NET med Aspose.HTML](./convert-html-to-xps/)
 Upptäck kraften i Aspose.HTML för .NET: Konvertera HTML till XPS utan ansträngning. Förutsättningar, steg-för-steg-guide och vanliga frågor ingår.
+### [Konvertera HTML till sträng i C# med Aspose.HTML – Komplett guide](./convert-html-to-string-in-c-with-aspose-html-complete-guide/)
+Lär dig hur du konverterar HTML till en sträng i C# med Aspose.HTML i en komplett steg‑för‑steg‑guide.
 ### [Hur du zippar HTML i C# – Spara HTML till zip](./how-to-zip-html-in-c-save-html-to-zip/)
 Lär dig hur du packar HTML-filer i en zip-arkiv med C# och Aspose.HTML för .NET i en steg-för-steg-guide.
 ### [Hur du zippar HTML i C# – Anpassad resurs‑hanterare‑handledning](./how-to-zip-html-in-c-custom-resource-handler-tutorial/)
 Lär dig hur du zippar HTML-filer med en anpassad resurs‑hanterare i C# med Aspose.HTML för .NET.
+### [Hur du zippar HTML i C# – Komplett guide](./how-to-zip-html-in-c-complete-guide/)
+Lär dig hur du zippar HTML-filer med C# i en komplett steg‑för‑steg‑guide med Aspose.HTML.
 ### [Skapa HTML-dokument med formaterad text och exportera till PDF – Fullständig guide](./create-html-document-with-styled-text-and-export-to-pdf-full/)
 Lär dig skapa ett HTML-dokument med stiliserad text och konvertera det till PDF med Aspose.HTML för .NET i en komplett steg-för-steg-guide.
 ### [Skapa HTML-dokument C# – Steg‑för‑steg‑guide](./create-html-document-c-step-by-step-guide/)
@@ -135,6 +139,8 @@ Lär dig steg‑för‑steg hur du skapar PDF från HTML med Aspose.HTML i en ko
 Lär dig skapa en anpassad resurs‑hanterare i C# för att ladda HTML‑innehåll och spara det som ett ZIP‑arkiv med Aspose.HTML.
 ### [Hur du zippar HTML med Aspose.HTML – Steg‑för‑steg‑guide](./how-to-zip-html-with-aspose-html-step-by-step-guide/)
 Lär dig hur du zippar HTML med Aspose.HTML i en detaljerad steg‑för‑steg‑guide.
+### [Skapa PDF från HTML – Fullständig C#‑guide med kantutjämning](./create-pdf-from-html-full-c-guide-with-antialiasing/)
+Lär dig skapa PDF från HTML i C# med antialiasing för skarp rendering. Steg‑för‑steg‑guide med kodexempel.
 
 ## Slutsats
 

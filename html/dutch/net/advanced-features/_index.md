@@ -52,6 +52,8 @@ Leer hoe u lettertypen programmatically combineert in C# met Aspose.HTML, inclus
 Leer hoe u de versie van een assembly in C# kunt ophalen met een eenvoudig codevoorbeeld.
 ### [HTML zippen met Aspose HTML – Complete gids](./how-to-zip-html-with-aspose-html-complete-guide/)
 Leer hoe u HTML-bestanden comprimeert met Aspose HTML, inclusief stapsgewijze instructies en voorbeeldcode.
+### [Document opslaan als PDF in C# – Complete gids met ZIP-ondersteuning](./save-document-as-pdf-in-c-complete-guide-with-zip-support/)
+Leer hoe u met Aspose.HTML documenten naar PDF converteert in C#, inclusief ondersteuning voor ZIP-compressie.
 
 ## Conclusie
 

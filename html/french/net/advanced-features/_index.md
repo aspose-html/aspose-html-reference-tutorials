@@ -40,6 +40,9 @@ Apprenez à manipuler des documents HTML dans .NET avec Aspose.HTML. Parcourez, 
 Découvrez comment créer du contenu Web dynamique à l'aide d'Aspose.HTML pour .NET. Notre didacticiel couvre les prérequis, les instructions étape par étape et les FAQ pour les débutants.
 ### [Générer un PDF crypté par PdfDevice dans .NET avec Aspose.HTML](./generate-encrypted-pdf-by-pdfdevice/)
 Convertissez du HTML en PDF de manière dynamique avec Aspose.HTML pour .NET. Intégration facile, options personnalisables et performances robustes.
+### [Enregistrer un document en PDF en C# – Guide complet avec prise en charge ZIP](./save-document-as-pdf-in-c-complete-guide-with-zip-support/)
+Apprenez à convertir et enregistrer des documents HTML en PDF en C#, incluant la création d'archives ZIP contenant les fichiers générés.
+
 ### [Ajustement précis des convertisseurs dans .NET avec Aspose.HTML](./fine-tuning-converters/)
 Découvrez comment convertir du HTML en PDF, XPS et images avec Aspose.HTML pour .NET. Tutoriel étape par étape avec des exemples de code et des FAQ.
 ### [Utilisation de modèles HTML dans .NET avec Aspose.HTML](./using-html-templates/)

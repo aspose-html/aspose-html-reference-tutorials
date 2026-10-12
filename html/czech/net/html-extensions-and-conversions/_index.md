@@ -65,6 +65,8 @@ Naučte se, jak v C# nastavit velikost stránky PDF při převodu HTML pomocí A
 Naučte se, jak pomocí Aspose.HTML převést HTML dokument do PDF pomocí podrobného průvodce krok za krokem.
 ### [Vytvořte PDF z HTML – Kompletní průvodce s Aspose.HTML](./create-pdf-from-html-complete-guide-with-aspose-html/)
 Naučte se, jak pomocí Aspose.HTML vytvořit PDF z HTML v podrobném kompletním průvodci s ukázkami kódu.
+### [Vytvořte PDF z HTML – Kompletní průvodce C# s antialiasingem](./create-pdf-from-html-full-c-guide-with-antialiasing/)
+Naučte se, jak pomocí Aspose.HTML v C# vytvořit PDF z HTML s antialiasingem pro ostrý výstup.
 ### [Převeďte EPUB na obrázek v .NET pomocí Aspose.HTML](./convert-epub-to-image/)
 Přečtěte si, jak převést EPUB na obrázky pomocí Aspose.HTML pro .NET. Výukový program krok za krokem s příklady kódu a přizpůsobitelnými možnostmi.
 ### [Převeďte EPUB do PDF v .NET pomocí Aspose.HTML](./convert-epub-to-pdf/)
@@ -95,6 +97,8 @@ Naučte se, jak pomocí Aspose.HTML pro .NET zabalit HTML soubor do ZIP archivu 
 Naučte se vytvořit HTML dokument se stylovaným textem a převést jej do PDF pomocí Aspose.HTML pro .NET.
 ### [Vytvořte HTML dokument v C# – průvodce krok za krokem](./create-html-document-c-step-by-step-guide/)
 Naučte se, jak pomocí Aspose.HTML v C# vytvořit HTML dokument krok za krokem s podrobnými ukázkami kódu.
+### [Jak zkomprimovat HTML v C# – Kompletní průvodce](./how-to-zip-html-in-c-complete-guide/)
+Kompletní návod, jak v C# pomocí Aspose.HTML zabalit HTML soubory do ZIP archivu.
 ### [Uložte HTML jako ZIP – Kompletní C# tutoriál](./save-html-as-zip-complete-c-tutorial/)
 Naučte se, jak uložit HTML soubor jako ZIP archiv pomocí Aspose.HTML pro .NET v kompletním C# tutoriálu.
 ### [Uložte HTML do ZIP v C# – Kompletní průvodce](./save-html-to-zip-in-c-complete-guide/)
@@ -136,6 +140,8 @@ Naučte se vytvořit HTML dokument a uložit jej jako ZIP archiv v kompletním C
 Naučte se pomocí Aspose.HTML v C# vytvořit vlastní handler zdrojů, načíst HTML a uložit jej do ZIP archivu.
 ### [Jak zkomprimovat HTML pomocí Aspose.HTML – krok za krokem](./how-to-zip-html-with-aspose-html-step-by-step-guide/)
 Naučte se, jak pomocí Aspose.HTML pro .NET zabalit HTML soubor do ZIP archivu krok za krokem.
+### [Převod HTML na řetězec v C# s Aspose.HTML – Kompletní průvodce](./convert-html-to-string-in-c-with-aspose-html-complete-guide/)
+Naučte se, jak v C# pomocí Aspose.HTML převést HTML dokument na řetězec, včetně podrobných ukázek kódu a tipů.
 
 ## Závěr
 

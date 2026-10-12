@@ -33,12 +33,14 @@ Aspose.HTML for .NET は、開発者が HTML ドキュメントをプログラ�
 Aspose.HTML for .NET を使用して HTML ドキュメントを効率的に操作する方法を学びます。開発者向けのステップバイステップのチュートリアルです。
 ### [Aspose.HTML を使用した .NET のメモリ ストリーム プロバイダー](./memory-stream-provider/)
 Aspose.HTML を使用して .NET で魅力的な HTML ドキュメントを作成する方法を学びます。ステップバイステップのチュートリアルに従って、HTML 操作のパワーを解き放ちましょう。
-### [Aspose.HTML を使用した .NET での Web スクレイピング](./web-scraping/)
+### [Aspose.HTML を使用した .NET の Web スクレイピング](./web-scraping/)
 Aspose.HTML を使用して .NET で HTML ドキュメントを操作する方法を学びます。要素を効果的にナビゲート、フィルター処理、クエリ、選択して、Web 開発を強化します。
 ### [Aspose.HTML を使用して .NET で拡張コンテンツ プロパティを使用する](./use-extended-content-property/)
 Aspose.HTML for .NET を使用して動的な Web コンテンツを作成する方法を学びます。このチュートリアルでは、前提条件、ステップバイステップの手順、および初心者向けの FAQ について説明します。
 ### [Aspose.HTML を使用して .NET で PdfDevice によって暗号化された PDF を生成する](./generate-encrypted-pdf-by-pdfdevice/)
 Aspose.HTML for .NET を使用して HTML を PDF に動的に変換します。簡単な統合、カスタマイズ可能なオプション、堅牢なパフォーマンスを実現します。
+### [C# でドキュメントを PDF に保存 – ZIP 対応 完全ガイド](./save-document-as-pdf-in-c-complete-guide-with-zip-support/)
+C# で HTML ドキュメントを PDF に変換し、ZIP 圧縮して保存する方法をステップバイステップで解説します。
 ### [Aspose.HTML を使用した .NET のコンバーターの微調整](./fine-tuning-converters/)
 Aspose.HTML for .NET を使用して HTML を PDF、XPS、画像に変換する方法を学びます。コード例と FAQ を含むステップバイステップのチュートリアルです。
 ### [Aspose.HTML を使用して .NET で HTML テンプレートを使用する](./using-html-templates/)

@@ -56,6 +56,8 @@ Erfahren Sie, wie Sie mit Aspose.HTML benutzerdefinierte Ressourcen-Handler impl
 
 ### [HTML mit Aspose HTML zippen – Vollständige Anleitung](./how-to-zip-html-with-aspose-html-complete-guide/)
 Erfahren Sie, wie Sie HTML-Dateien mit Aspose HTML komprimieren und zippen – Schritt‑für‑Schritt‑Anleitung für .NET‑Entwickler.
+### [Dokument als PDF in C# speichern – Vollständige Anleitung mit ZIP‑Unterstützung](./save-document-as-pdf-in-c-complete-guide-with-zip-support/)
+Erfahren Sie, wie Sie mit Aspose.HTML Dokumente in C# als PDF speichern und dabei ZIP‑Kompression für mehrere Dateien nutzen.
 
 ## Abschluss
 

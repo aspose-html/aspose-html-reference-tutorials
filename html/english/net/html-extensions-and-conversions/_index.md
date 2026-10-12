@@ -65,6 +65,8 @@ Create PDF from HTML using Aspose.HTML for .NET. Follow this step‑by‑step gu
 Learn how to create PDF files from HTML using Aspose.HTML for .NET with a comprehensive step‑by‑step guide.
 ### [Create PDF from HTML – Complete Guide with Aspose.Html](./create-pdf-from-html-complete-guide-with-aspose-html/)
 Comprehensive guide to generate PDFs from HTML using Aspose.HTML for .NET, covering all essential steps and code examples.
+### [Create PDF from HTML – Full C# Guide with Antialiasing](./create-pdf-from-html-full-c-guide-with-antialiasing/)
+Learn how to generate high‑quality PDFs from HTML in C# using Aspose.HTML with antialiasing for crisp rendering.
 ### [Convert HTML to BMP in .NET with Aspose.HTML](./convert-html-to-bmp/)
 Learn how to convert HTML to BMP in .NET using Aspose.HTML for .NET. Comprehensive guide for web developers for Leveraging Aspose.HTML for .NET.
 ### [Convert HTML to DOC and DOCX in .NET with Aspose.HTML](./convert-html-to-doc-docx/)
@@ -89,6 +91,8 @@ Learn how to zip HTML files in C# using Aspose.HTML, saving HTML content to a ZI
 Learn how to zip HTML files using a custom resource handler in C# with Aspose.HTML for .NET.
 ### [How to Zip HTML with Aspose.HTML – Step‑by‑Step Guide](./how-to-zip-html-with-aspose-html-step-by-step-guide/)
 Step-by-step guide to zip HTML files using Aspose.HTML, covering code examples and best practices for efficient archiving.
+### [How to Zip HTML in C# – Complete Guide](./how-to-zip-html-in-c-complete-guide/)
+Learn how to zip HTML files in C# with Aspose.HTML using a comprehensive, step‑by‑step guide.
 ### [Create HTML Document with Styled Text and Export to PDF – Full Guide](./create-html-document-with-styled-text-and-export-to-pdf-full/)
 Learn how to create an HTML document with styled text and export it to PDF using Aspose.HTML for .NET in this comprehensive guide.
 ### [Save HTML as ZIP – Complete C# Tutorial](./save-html-as-zip-complete-c-tutorial/)
@@ -135,6 +139,8 @@ Learn how to save HTML as PDF in C# using Aspose.HTML, including custom font emb
 Learn how to create an HTML document using C# with Aspose.HTML, following a detailed step‑by‑step guide.
 ### [Custom Resource Handler in C# – Load HTML and Save as ZIP](./custom-resource-handler-in-c-load-html-and-save-as-zip/)
 Learn how to implement a custom resource handler in C# to load HTML content and save it as a ZIP archive using Aspose.HTML.
+### [Convert HTML to String in C# with Aspose.HTML – Complete Guide](./convert-html-to-string-in-c-with-aspose-html-complete-guide/)
+Learn how to convert HTML content to a string using Aspose.HTML in C#. Step-by-step guide with code examples.
 
 ## Conclusion
 

@@ -53,6 +53,8 @@ Ismerje meg, hogyan kombinálhat több betűtípust C#‑ban az Aspose.HTML seg�
 Ismerje meg, hogyan kérheti le egy .NET könyvtár verziószámát C#‑ban egyszerű kóddal.
 ### [HTML tömörítése Aspose HTML-lel – Teljes útmutató](./how-to-zip-html-with-aspose-html-complete-guide/)
 Tanulja meg, hogyan tömörítheti a HTML-fájlokat az Aspose HTML segítségével, lépésről lépésre útmutatóval.
+### [Dokumentum mentése PDF-ként C#-ban – Teljes útmutató ZIP támogatással](./save-document-as-pdf-in-c-complete-guide-with-zip-support/)
+Ismerje meg, hogyan menthet HTML-dokumentumot PDF-be C#-ban, ZIP-fájlba csomagolva, lépésről lépésre útmutatóval.
 
 ## Következtetés
 

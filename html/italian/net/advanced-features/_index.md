@@ -53,6 +53,8 @@ Scopri come ottenere la versione di un assembly C# in modo rapido, usando Aspose
 Scopri come implementare un gestore di risorse personalizzato in Aspose HTML per salvare contenuti direttamente su stream.
 ### [Come comprimere HTML con Aspose HTML – Guida completa](./how-to-zip-html-with-aspose-html-complete-guide/)
 Impara a comprimere file HTML in archivi ZIP usando Aspose HTML, con esempi passo passo e consigli pratici.
+### [Salva documento come PDF in C# – Guida completa con supporto ZIP](./save-document-as-pdf-in-c-complete-guide-with-zip-support/)
+Impara a salvare documenti HTML come PDF in C# con supporto per archivi ZIP, includendo esempi passo passo e consigli pratici.
 
 ## Conclusione
 

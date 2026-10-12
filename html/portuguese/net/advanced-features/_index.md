@@ -52,6 +52,8 @@ Aprenda a obter a versão de um assembly em C# de forma simples e rápida, usand
 Aprenda a criar um manipulador de recursos personalizado no Aspose HTML e salvar o conteúdo diretamente em um fluxo.
 ### [Como compactar HTML com Aspose HTML – Guia completo](./how-to-zip-html-with-aspose-html-complete-guide/)
 Aprenda a compactar arquivos HTML em um arquivo ZIP usando Aspose HTML, com exemplos passo a passo e dicas práticas.
+### [Salvar documento como PDF em C# – Guia completo com suporte a ZIP](./save-document-as-pdf-in-c-complete-guide-with-zip-support/)
+Aprenda a salvar documentos HTML como PDF em C#, incluindo como compactar o resultado em um arquivo ZIP, passo a passo.
 
 ## Conclusão
 

@@ -53,6 +53,8 @@ Hướng dẫn nhanh cách lấy phiên bản của một assembly trong C# đ�
 Hướng dẫn cách tạo trình xử lý tài nguyên tùy chỉnh trong Aspose HTML và lưu nội dung vào stream một cách hiệu quả.
 ### [Cách nén HTML với Aspose HTML – Hướng dẫn đầy đủ](./how-to-zip-html-with-aspose-html-complete-guide/)
 Tìm hiểu cách nén các tệp HTML thành file zip bằng Aspose.HTML, bao gồm các ví dụ thực tế và hướng dẫn từng bước.
+### [Lưu tài liệu dưới dạng PDF trong C# – Hướng dẫn đầy đủ với hỗ trợ ZIP](./save-document-as-pdf-in-c-complete-guide-with-zip-support/)
+Hướng dẫn chi tiết cách lưu tài liệu HTML thành PDF trong C# với khả năng nén ZIP, bao gồm các ví dụ và mẹo thực tế.
 
 ## Phần kết luận
 

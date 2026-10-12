@@ -52,6 +52,8 @@ Dowiedz się, jak w C# odczytać wersję biblioteki z atrybutu AssemblyVersion, 
 Dowiedz się, jak utworzyć własny obsługiwacz zasobów w Aspose HTML i zapisywać zawartość bezpośrednio do strumienia.
 ### [Jak spakować HTML przy użyciu Aspose HTML – kompletny przewodnik](./how-to-zip-html-with-aspose-html-complete-guide/)
 Dowiedz się, jak kompresować pliki HTML do formatu ZIP przy użyciu Aspose HTML, krok po kroku, z przykładami kodu.
+### [Zapisz dokument jako PDF w C# – Kompletny przewodnik z obsługą ZIP](./save-document-as-pdf-in-c-complete-guide-with-zip-support/)
+Dowiedz się, jak zapisać dokument HTML jako PDF w C# z obsługą kompresji ZIP i dodatkowymi opcjami.
 
 ## Wniosek
 

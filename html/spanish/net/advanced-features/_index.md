@@ -52,6 +52,8 @@ Aprenda a combinar fuentes en C# de forma programática con ejemplos claros y pa
 Aprenda a obtener la versión del ensamblado en C# de forma sencilla y rápida.
 ### [Controlador de recursos personalizado en Aspose HTML – Guía para guardar en flujo](./custom-resource-handler-in-aspose-html-save-to-stream-guide/)
 Aprenda a crear un controlador de recursos personalizado en Aspose HTML y guardar contenido directamente en un flujo de datos.
+### [Guardar documento como PDF en C# – Guía completa con soporte ZIP](./save-document-as-pdf-in-c-complete-guide-with-zip-support/)
+Aprenda a guardar documentos HTML como PDF en C# con Aspose.HTML, incluyendo la generación de archivos ZIP para recursos adjuntos.
 
 ## Conclusión
 
