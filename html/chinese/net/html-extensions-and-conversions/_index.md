@@ -158,6 +158,8 @@ Aspose.HTML for .NET 不仅仅是一个库；它是 Web 开发领域的变革者
 使用 Aspose.HTML for .NET 在 C# 中将 HTML 打包为 ZIP 的完整指南，提供详细步骤和代码示例。
 ### [使用 Aspose.HTML 在 C# 中将 HTML 转换为字符串 – 完整指南](./convert-html-to-string-in-c-with-aspose-html-complete-guide/)
 使用 Aspose.HTML for .NET 在 C# 中将 HTML 内容转换为字符串的完整分步指南。
+### [使用 Aspose.HTML 在 C# 中将 HTML 转换为流](./convert-html-to-stream-using-aspose-html-in-c/)
+使用 Aspose.HTML for .NET 在 C# 中将 HTML 转换为流的完整分步指南。
 
 ## 结论
 

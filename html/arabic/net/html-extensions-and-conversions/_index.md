@@ -154,6 +154,8 @@ url: /ar/net/html-extensions-and-conversions/
 ### [تحويل HTML إلى سلسلة نصية في C# باستخدام Aspose.HTML – دليل كامل](./convert-html-to-string-in-c-with-aspose-html-complete-guide/)
 تعلم كيفية تحويل مستند HTML إلى سلسلة نصية في C# باستخدام مكتبة Aspose.HTML خطوة بخطوة.
 
+### [تحويل HTML إلى تدفق باستخدام Aspose.HTML في C#](./convert-html-to-stream-using-aspose-html-in-c/)
+
 ## خاتمة
 
 في الختام، تعد امتدادات HTML وتحويلاتها عناصر أساسية لتطوير الويب الحديث. يعمل Aspose.HTML for .NET على تبسيط العملية وجعلها في متناول المطورين من جميع المستويات. باتباع دروسنا التعليمية، ستكون على الطريق الصحيح لتصبح مطور ويب ماهرًا يتمتع بمجموعة واسعة من المهارات.

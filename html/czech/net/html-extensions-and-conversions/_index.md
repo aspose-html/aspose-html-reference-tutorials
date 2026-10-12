@@ -132,6 +132,10 @@ Naučte se pomocí Aspose.HTML v C# uložit celou webovou stránku do jediného 
 Naučte se pomocí Aspose.HTML pro .NET vytvořit vlastní handler zdrojů pro kompresi HTML do ZIP v C#.
 ### [Aspose HTML možnosti uložení: Uložení HTML do streamu v C#](./aspose-html-save-options-save-html-to-stream-in-c/)
 Naučte se, jak pomocí Aspose.HTML pro .NET uložit HTML do streamu v C# s podrobným průvodcem a ukázkami kódu.
+
+### [Převod HTML do streamu pomocí Aspose.HTML v C#](./convert-html-to-stream-using-aspose-html-in-c/)
+Naučte se převést HTML dokument do streamu v C# pomocí Aspose.HTML.
+
 ### [Jak použít handler v Aspose.HTML – načíst HTML a uložit jako ZIP](./how-to-use-handler-in-aspose-html-load-html-save-as-zip/)
 Naučte se pomocí Aspose.HTML načíst HTML dokument a uložit jej do ZIP archivu pomocí handleru v C#.
 ### [Vytvořte HTML dokument a uložte jako ZIP – Kompletní C# průvodce](./create-html-document-and-save-as-zip-complete-c-guide/)

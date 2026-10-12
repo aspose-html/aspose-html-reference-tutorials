@@ -141,6 +141,7 @@ Hướng dẫn chi tiết cách tạo tài liệu HTML và lưu nó dưới dạ
 Hướng dẫn tạo trình xử lý tài nguyên tùy chỉnh trong C# để tải HTML và lưu dưới dạng tệp ZIP.
 ### [Chuyển đổi HTML thành chuỗi trong C# với Aspose.HTML – Hướng dẫn đầy đủ](./convert-html-to-string-in-c-with-aspose-html-complete-guide/)
 Hướng dẫn chi tiết cách chuyển đổi nội dung HTML thành chuỗi trong C# bằng Aspose.HTML, bao gồm ví dụ mã và các tùy chọn cấu hình.
+### [Chuyển đổi HTML thành stream bằng Aspose.HTML trong C#](./convert-html-to-stream-using-aspose-html-in-c/)
 
 ## Phần kết luận
 

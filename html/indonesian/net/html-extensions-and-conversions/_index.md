@@ -142,6 +142,8 @@ Pelajari cara mengompres HTML menjadi arsip ZIP menggunakan Aspose.HTML dengan p
 Pelajari cara mengonversi HTML menjadi string di C# menggunakan Aspose.HTML dengan contoh kode lengkap.
 ### [Buat PDF dari HTML – Panduan Lengkap C# dengan Antialiasing](./create-pdf-from-html-full-c-guide-with-antialiasing/)
 Pelajari cara membuat PDF dari HTML menggunakan C# dengan antialiasing dalam panduan lengkap ini.
+### [Konversi HTML ke stream menggunakan Aspose.HTML di C#](./convert-html-to-stream-using-aspose-html-in-c/)
+Pelajari cara mengonversi HTML menjadi stream menggunakan Aspose.HTML di C#.
 
 ## Kesimpulan
 

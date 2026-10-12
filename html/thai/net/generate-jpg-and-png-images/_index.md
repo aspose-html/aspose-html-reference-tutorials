@@ -40,6 +40,8 @@ Aspose.HTML สำหรับ .NET นำเสนอวิธีการง�
 
 ### [สร้างรูปภาพ JPG โดย ImageDevice ใน .NET ด้วย Aspose.HTML](./generate-jpg-images-by-imagedevice/)
 เรียนรู้วิธีสร้างหน้าเว็บแบบไดนามิกโดยใช้ Aspose.HTML สำหรับ .NET บทช่วยสอนแบบทีละขั้นตอนนี้ครอบคลุมถึงข้อกำหนดเบื้องต้น เนมสเปซ และการเรนเดอร์ HTML ลงในรูปภาพ
+### [วิธีแปลงไฟล์ HTML เป็น JPG ด้วย C# และ Aspose.HTML](./how-to-convert-an-html-file-to-jpg-in-c-with-aspose-html/)
+เรียนรู้วิธีแปลงไฟล์ HTML เป็นรูปภาพ JPG ด้วย C# โดยใช้ Aspose.HTML
 ### [สร้างภาพ PNG โดย ImageDevice ใน .NET ด้วย Aspose.HTML](./generate-png-images-by-imagedevice/)
 เรียนรู้การใช้ Aspose.HTML สำหรับ .NET เพื่อจัดการเอกสาร HTML แปลง HTML เป็นรูปภาพ และอื่นๆ อีกมากมาย บทช่วยสอนแบบทีละขั้นตอนพร้อมคำถามที่พบบ่อย
 ### [แปลง Word เป็น PNG – คู่มือฉบับสมบูรณ์สำหรับนักพัฒนา](./convert-word-to-png-complete-guide-for-developers/)
@@ -80,6 +82,12 @@ Aspose.HTML สำหรับ .NET นำเสนอวิธีการง�
 เรียนรู้วิธีใช้ Aspose.HTML ใน C# เพื่อแปลง HTML เป็นไฟล์ PNG อย่างง่ายดายและมีคุณภาพสูง
 ### [วิธีเรนเดอร์ HTML เป็น PNG ด้วย C# – คู่มือฉบับสมบูรณ์](./how-to-render-html-to-png-in-c-complete-guide/)
 เรียนรู้วิธีเรนเดอร์ HTML เป็นไฟล์ PNG ด้วย C# อย่างละเอียดครบทุกขั้นตอน
+### [วิธีเรนเดอร์ HTML เป็น PNG ใน C# ด้วย Aspose.HTML](./how-to-render-html-to-png-in-c-using-aspose-html/)
+เรียนรู้วิธีเรนเดอร์ HTML เป็นไฟล์ PNG ด้วย C# โดยใช้ Aspose.HTML อย่างละเอียด
+### [เรนเดอร์ HTML เป็น PNG ใน C# – คู่มือขั้นตอนต่อขั้นตอน](./render-html-to-png-in-c-step-by-step-guide/)
+เรียนรู้วิธีแปลง HTML เป็นรูปภาพ PNG ด้วย C# โดยใช้ Aspose.HTML สำหรับ .NET อย่างละเอียด
+### [เรนเดอร์ HTML เป็น PNG ด้วย C# – คู่มือเต็มขั้นตอน](./render-html-to-png-in-c-complete-step-by-step-guide/)
+เรียนรู้วิธีแปลง HTML เป็นไฟล์ PNG อย่างละเอียดด้วย C# ผ่านขั้นตอนที่ชัดเจนและตัวอย่างโค้ด
 ### [สร้าง PNG จาก SVG ด้วย C# – คู่มือเต็มขั้นตอน](./create-png-from-svg-in-c-full-step-by-step-guide/)
 เรียนรู้วิธีแปลงไฟล์ SVG เป็น PNG ด้วย C# อย่างละเอียด พร้อมขั้นตอนและตัวอย่างโค้ด
 ### [เรนเดอร์รูปภาพ HTML ด้วย C# – คู่มือ Aspose.HTML ฉบับสมบูรณ์](./render-html-image-in-c-complete-aspose-html-guide/)

@@ -40,6 +40,9 @@ Aspose.HTML for .NET 提供了一种将 HTML 转换为图像的简单方法。�
 ### [使用 Aspose.HTML 在 .NET 中通过 ImageDevice 生成 JPG 图像](./generate-jpg-images-by-imagedevice/)
 了解如何使用 Aspose.HTML for .NET 创建动态网页。本分步教程涵盖先决条件、命名空间以及将 HTML 渲染为图像。
 
+### [如何在 C# 中使用 Aspose.HTML 将 HTML 文件转换为 JPG](./how-to-convert-an-html-file-to-jpg-in-c-with-aspose-html/)
+学习如何使用 Aspose.HTML for .NET 将 HTML 文件转换为 JPG 图像的完整步骤。
+
 ### [使用 Aspose.HTML 在 .NET 中通过 ImageDevice 生成 PNG 图像](./generate-png-images-by-imagedevice/)
 学习使用 Aspose.HTML for .NET 来操作 HTML 文档、将 HTML 转换为图像等。分步教程，包含常见问题解答。
 ### [将 Word 转换为 PNG – 开发者完整指南](./convert-word-to-png-complete-guide-for-developers/)
@@ -91,6 +94,8 @@ Aspose.HTML for .NET 提供了一种将 HTML 转换为图像的简单方法。�
 学习如何使用 Aspose.HTML for .NET 将 HTML 渲染为高质量 PNG 图像的完整步骤指南。
 ### [如何将 HTML 渲染为 PNG – 完整 C# 指南](./how-to-render-html-to-png-complete-c-guide/)
 本教程详细演示如何使用 C# 和 Aspose.HTML 将 HTML 页面渲染为 PNG 图像，涵盖步骤、代码示例和最佳实践。
+### [如何在 C# 中使用 Aspose.HTML 将 HTML 渲染为 PNG](./how-to-render-html-to-png-in-c-using-aspose-html/)
+学习使用 Aspose.HTML 在 C# 中将 HTML 渲染为 PNG 图像的完整步骤。
 
 ## 结论
 

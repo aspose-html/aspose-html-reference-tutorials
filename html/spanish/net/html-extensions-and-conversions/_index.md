@@ -144,6 +144,9 @@ Aprenda a crear un controlador de recursos personalizado en C# para cargar HTML 
 Aprenda a comprimir archivos HTML en un archivo ZIP usando C# y Aspose.HTML con una guía paso a paso completa.
 ### [Convertir HTML a cadena en C# con Aspose.HTML – Guía completa](./convert-html-to-string-in-c-with-aspose-html-complete-guide/)
 
+### [Convertir HTML a stream usando Aspose.HTML en C#](./convert-html-to-stream-using-aspose-html-in-c/)
+Aprenda a convertir contenido HTML a un flujo de datos en C# con Aspose.HTML, ideal para procesamiento en memoria.
+
 ## Conclusión
 
 En conclusión, las extensiones y conversiones HTML son elementos esenciales del desarrollo web moderno. Aspose.HTML para .NET simplifica el proceso y lo hace accesible a desarrolladores de todos los niveles. Si sigue nuestros tutoriales, estará en el camino correcto para convertirse en un desarrollador web competente con un amplio conjunto de habilidades.

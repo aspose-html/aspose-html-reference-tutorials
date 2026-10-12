@@ -129,6 +129,8 @@ Aspose.HTML for .NET を使用して、C# で Web ページを単一の HTML フ
 
 ### [Aspose.HTML Save Options: C# で HTML をストリームに保存](./aspose-html-save-options-save-html-to-stream-in-c/)
 
+### [Aspose.HTML を使用して C# で HTML をストリームに変換する](./convert-html-to-stream-using-aspose-html-in-c/)
+
 ### [Aspose.HTML のハンドラを使用する方法 – HTML を読み込み、ZIP に保存](./how-to-use-handler-in-aspose-html-load-html-save-as-zip/)
 Aspose.HTML のハンドラを利用して HTML をロードし、ZIP アーカイブとして保存する手順をステップバイステップで解説します。
 
