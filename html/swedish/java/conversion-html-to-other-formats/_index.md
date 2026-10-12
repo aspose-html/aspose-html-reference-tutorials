@@ -129,6 +129,8 @@ Lär dig hur du konverterar flera HTML‑filer till PDF parallellt i Java med As
 Lär dig hur du ställer in sidstorlek för PDF i Java när du konverterar HTML till PDF med Aspose.HTML.
 ### [Skapa PDF från Markdown med Aspose HTML Converter (Java)](./create-pdf-from-markdown-using-aspose-html-converter-java/)
 Lär dig hur du konverterar Markdown‑filer till PDF i Java med Aspose HTML Converter.
+### [Konvertera HTML till PDF med Java – Steg‑för‑steg‑guide](./convert-html-to-pdf-with-java-step-by-step-guide/)
+Lär dig konvertera HTML till PDF i Java med en detaljerad steg‑för‑steg‑guide.
 
 ### [Skapa PDF från HTML med anpassad sidstorlek och inbäddade teckensnitt](./create-pdf-from-html-with-custom-page-size-and-embedded-font/)
 Lär dig att skapa PDF‑filer med specifik sidstorlek och inbäddade teckensnitt från HTML i Java med Aspose.HTML.

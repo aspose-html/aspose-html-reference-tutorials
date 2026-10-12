@@ -150,6 +150,8 @@ Aprenda a configurar o Device Pixel Ratio ao renderizar HTML com Aspose.HTML for
 Aprenda a converter HTML para WebP em Java usando Aspose.HTML. Guia completo passo a passo para gerar imagens WebP de alta qualidade.
 ### [Definir a proporção de pixels do dispositivo em Java – Renderizar HTML para PNG](./set-device-pixel-ratio-in-java-render-html-to-png/)
 Aprenda a definir a proporção de pixels do dispositivo ao renderizar HTML em PNG com Aspose.HTML for Java.
+### [Salvar página HTML como PNG em Java – Tutorial completo](./save-html-page-as-png-in-java-complete-tutorial/)
+Aprenda a salvar uma página HTML como PNG em Java usando Aspose.HTML. Guia completo passo a passo.
 
 ## Perguntas Frequentes
 

@@ -117,6 +117,7 @@ weight: 24
 Δημιουργήστε HTML banner και αποδώστε το σε PNG με Aspose.HTML for Java – πλήρης οδηγός βήμα‑βήμα.
 ### [Ορισμός DPI κατά τη μετατροπή HTML σε PNG – Πλήρης οδηγός Java](./how-to-set-dpi-when-converting-html-to-png-complete-java-gui/)
 ### [Ορισμός αναλογίας εικονοστοιχείου σε Java – Απόδοση HTML σε PNG](./set-device-pixel-ratio-in-java-render-html-to-png/)
+### [Αποθήκευση σελίδας HTML ως PNG σε Java – Πλήρης Οδηγός](./save-html-page-as-png-in-java-complete-tutorial/)
 
 ### [Πώς να αποδώσετε HTML σε PNG σε Java – Πλήρης Οδηγός](./how-to-render-html-to-png-in-java-complete-guide/)
 ### [Πώς να δημιουργήσετε GIF από SVG – Οδηγός Java βήμα‑βήμα](./how-to-create-gif-from-svg-step-by-step-java-guide/)

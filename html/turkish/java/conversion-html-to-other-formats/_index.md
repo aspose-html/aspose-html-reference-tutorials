@@ -92,6 +92,8 @@ Aspose.HTML for Java kullanarak tek satır kodla HTML'yi PDF'ye dönüştürmeyi
 
 ### [HTML'yi Toplu Olarak PDF'ye Dönüştürme – Java NIO ve Paralel İşleme Kılavuzu](./convert-html-to-pdf-in-bulk-java-nio-guide-with-parallel-pro/)
 Java NIO ve paralel işleme ile birden çok HTML dosyasını toplu PDF'ye dönüştürün.
+### [HTML'yi Java ile PDF'ye Dönüştürme – Adım‑Adım Kılavuz](./convert-html-to-pdf-with-java-step-by-step-guide/)
+Java kullanarak HTML'yi PDF'ye dönüştürmenin adım adım ayrıntılı rehberi.
 ### [HTML'yi PDF'ye Dönüştürme Java’da – Sayfa Boyutu Ayarlarıyla Adım‑Adım Kılavuz](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Java’da HTML'yi PDF'ye dönüştürürken sayfa boyutu ayarlarını nasıl yapılandıracağınızı adım adım gösterir.
 ### [Özel Sayfa Boyutu ve Gömülü Yazı Tipleriyle HTML'den PDF Oluşturma](./create-pdf-from-html-with-custom-page-size-and-embedded-font/)

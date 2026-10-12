@@ -164,6 +164,7 @@ Aspose.HTML for Java を使用して HTML を WebP に変換します。完全�
 ### [HTML を PNG に変換する際の DPI 設定 – 完全な Java ガイド](./how-to-set-dpi-when-converting-html-to-png-complete-java-gui/)
 Aspose.HTML for Java を使用して、HTML を PNG に変換する際に DPI を設定する方法をステップバイステップで解説します。
 ### [HTML を PNG に変換する際の DPI 設定 – Java ガイド](./how-to-set-dpi-when-converting-html-to-png-java-guide/)
+### [Java で HTML ページを PNG に保存 – 完全チュートリアル](./save-html-page-as-png-in-java-complete-tutorial/)
 
 ## よくある質問
 

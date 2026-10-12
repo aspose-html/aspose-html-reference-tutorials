@@ -105,6 +105,8 @@ Leer hoe u met Java NIO en parallelle verwerking grote aantallen HTML‑bestande
 Leer stap‑voor‑stap hoe u HTML naar PDF converteert in Java, inclusief instellingen voor papierformaat en DPI voor optimale kwaliteit.
 ### [PDF-paginagrootte instellen in Java – Java HTML naar PDF-gids](./set-pdf-page-size-in-java-java-html-to-pdf-guide/)
 Leer hoe u de paginagrootte van PDF's kunt aanpassen tijdens HTML‑naar‑PDF conversie in Java met Aspose.HTML.
+### [HTML naar PDF converteren met Java – Stapsgewijze gids](./convert-html-to-pdf-with-java-step-by-step-guide/)
+Leer stap voor stap hoe u HTML naar PDF converteert met Java, inclusief configuratie‑opties en best practices.
 ### [HTML naar MHTML converteren](./convert-html-to-mhtml/)
 Converteer HTML moeiteloos naar MHTML met Aspose.HTML for Java. Volg onze stap‑voor‑stap gids voor efficiënte HTML‑naar‑MHTML conversie.
 ### [HTML naar XPS converteren](./convert-html-to-xps/)

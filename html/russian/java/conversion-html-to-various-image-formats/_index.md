@@ -164,6 +164,8 @@ weight: 24
 ### [Установка device pixel ratio в Java – рендер HTML в PNG](./set-device-pixel-ratio-in-java-render-html-to-png/)
 Узнайте, как установить device pixel ratio при рендеринге HTML в PNG в Java с помощью Aspose.HTML. Подробное руководство.
 
+### [Сохранить HTML‑страницу как PNG в Java – Полное руководство](./save-html-page-as-png-in-java-complete-tutorial/)
+
 ## Часто задаваемые вопросы
 
 **В: Можно ли конвертировать HTML в PNG с помощью Java без дополнительных библиотек для работы с изображениями?**  

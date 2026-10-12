@@ -134,6 +134,8 @@ Aspose.HTML for Java kullanarak cihaz piksel oranını nasıl ayarlayacağınız
 ### [HTML Banner Oluştur ve PNG Olarak Renderla – Tam Java Rehberi](./create-html-banner-and-render-to-png-full-java-guide/)
 Aspose.HTML for Java kullanarak HTML banner oluşturup PNG olarak renderlamayı adım adım öğrenin.
 ### [Java’da cihaz piksel oranını ayarla – HTML'yi PNG'ye renderla](./set-device-pixel-ratio-in-java-render-html-to-png/)
+### [HTML Sayfasını PNG Olarak Kaydet – Java Tam Rehberi](./save-html-page-as-png-in-java-complete-tutorial/)
+Aspose.HTML for Java kullanarak HTML sayfasını PNG formatında kaydetmeyi adım adım öğrenin.
 
 ### [HTML'yi PNG'ye Render Etme – Java Geliştiricileri için Tam Kılavuz](./how-to-render-html-to-png-complete-guide-for-java-developers/)
 Aspose.HTML for Java ile HTML'yi yüksek kaliteli PNG görüntüsüne dönüştürmeyi adım adım öğrenin.

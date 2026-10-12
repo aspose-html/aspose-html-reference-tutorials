@@ -89,6 +89,8 @@ weight: 25
 Μάθετε πώς να μειώσετε το μέγεθος των αρχείων PDF χρησιμοποιώντας Aspose.HTML for Java κατά τη μετατροπή.
 ### [Μετατροπή HTML σε PDF μαζικά – Οδηγός Java NIO με παράλληλη επεξεργασία](./convert-html-to-pdf-in-bulk-java-nio-guide-with-parallel-pro/)
 Μάθετε πώς να μετατρέψετε πολλαπλά αρχεία HTML σε PDF χρησιμοποιώντας Java NIO και παράλληλη επεξεργασία για υψηλή απόδοση.
+### [Μετατροπή HTML σε PDF με Java – Οδηγός βήμα‑βήμα](./convert-html-to-pdf-with-java-step-by-step-guide/)
+Ακολουθήστε τον πλήρη οδηγό βήμα‑βήμα για μετατροπή HTML σε PDF σε Java χρησιμοποιώντας το Aspose.HTML.
 ### [Μετατροπή HTML σε PDF σε Java – Οδηγός βήμα‑βήμα με ρυθμίσεις μεγέθους σελίδας](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Ακολουθήστε τον πλήρη οδηγό για μετατροπή HTML σε PDF σε Java, με παραμετροποίηση μεγέθους σελίδας για ακριβή έγγραφα.
 ### [Μετατροπή HTML σε PDF σε Java – Πλήρης Οδηγός Βήμα‑βήμα](./convert-html-to-pdf-in-java-complete-step-by-step-guide/)

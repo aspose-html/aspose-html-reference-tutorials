@@ -98,6 +98,8 @@ Dowiedz się, jak zmniejszyć rozmiar plików PDF przy użyciu Aspose.HTML for J
 
 ### [Konwertowanie HTML do PDF w trybie wsadowym – przewodnik Java NIO z przetwarzaniem równoległym](./convert-html-to-pdf-in-bulk-java-nio-guide-with-parallel-pro/)
 Dowiedz się, jak konwertować wiele plików HTML do PDF jednocześnie przy użyciu Java NIO i przetwarzania równoległego.
+### [Konwertowanie HTML do PDF w Javie – Przewodnik krok po kroku](./convert-html-to-pdf-with-java-step-by-step-guide/)
+Dowiedz się, jak w prosty sposób konwertować HTML do PDF w Javie, korzystając z Aspose.HTML, krok po kroku.
 ### [Konwertowanie HTML do PDF w Javie – Przewodnik krok po kroku z ustawieniami rozmiaru strony](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Dowiedz się, jak konwertować HTML do PDF w Javie, ustawiając rozmiar strony krok po kroku.
 ### [Konwertowanie HTML do PDF w Javie – Kompletny przewodnik z osadzaniem czcionek](./convert-html-to-pdf-in-java-complete-guide-with-font-embeddi/)
