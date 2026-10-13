@@ -237,7 +237,15 @@ public class BatchHtmlToWebP {
         webpOpts.setQuality(80);
         webpOpts.setLossless(false);
 
-        for
+        for (File htmlFile : htmlFiles) {
+            String outputName = htmlFile.getName().replace(".html", ".webp");
+            File outputFile = new File("output", outputName);
+            Converter.convertDocument(htmlFile.getAbsolutePath(), outputFile.getPath(), webpOpts);
+            System.out.println("Converted: " + htmlFile.getName() + " -> " + outputFile.getPath());
+        }
+    }
+}
+```
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
