@@ -112,6 +112,8 @@ A: Použijte `HtmlLoadOptions` s okraji `PageSetup` a povolte `EnableCssLayout`
 A: Ne. Jedna licence Aspose.HTML pro Java pokrývá všechny výstupní formáty, včetně PDF i XPS.
 
 ## Pokročilé použití tutoriálů Aspose.HTML Java
+
+
 ### [Přizpůsobení okrajů HTML stránky s Aspose.HTML](./css-extensions-adding-title-page-number/)
 Naučte se přizpůsobit okraje stránky, přidat číslování stránek a titulky do HTML dokumentů pomocí Aspose.HTML pro Java.
 ### [DOM Mutation Observer s Aspose.HTML pro Java](./dom-mutation-observer-observing-node-additions/)
@@ -128,12 +130,82 @@ Naučte se upravit velikost PDF stránky s Aspose.HTML pro Java. Vytvářejte vy
 Naučte se upravit velikost XPS stránky s Aspose.HTML pro Java. Jednoduše kontrolujte výstupní rozměry vašich XPS dokumentů.
 ### [Jak spustit JavaScript v Javě – Kompletní průvodce](./how-to-run-javascript-in-java-complete-guide/)
 Naučte se, jak spouštět JavaScript kód v Javě pomocí Aspose.HTML, včetně integrace, nastavení a praktických příkladů.
+### [Jak sandboxovat JavaScript – Kompletní průvodce Aspose.HTML](./how-to-sandbox-javascript-complete-aspose-html-guide/)
+Naučte se, jak bezpečně spouštět a izolovat JavaScript v Aspose.HTML, chránit prostředí a kontrolovat přístup k zdrojům.
+
+### [Nastavení poměru pixelů zařízení v Javě – Mobilní sandbox tutoriál](./set-device-pixel-ratio-in-java-mobile-sandbox-tutorial/)
+Naučte se, jak nastavit poměr pixelů zařízení v Javě pomocí mobilního sandboxu pro přesné vykreslování.
+### [Jak povolit JavaScript v Aspose HTML – Načíst HTML a získat text](./how-to-enable-javascript-in-aspose-html-load-html-get-text/)
+Naučte se povolit JavaScript při načítání HTML v Aspose.HTML a získat textový obsah dokumentu.
+### [Jak spouštět skripty v Javě – Kompletní průvodce pro vykonání JavaScriptu a extrakci dat](./how-to-run-scripts-in-java-complete-guide-to-execute-javascr/)
+Naučte se spouštět JavaScript v Javě a extrahovat data pomocí Aspose.HTML pro Java.
+### [Jak použít Aspose k převodu EPUB do DOCX – krok za krokem](./how-to-use-aspose-to-convert-epub-to-docx-step-by-step-guide/)
+Naučte se převádět soubory EPUB do DOCX pomocí Aspose.HTML pro Java v podrobném krok‑za‑krokem průvodci.
+### [Jak spustit JavaScript asynchronně pomocí CompletableFuture](./how-to-run-javascript-asynchronously-using-completablefuture/)
+Naučte se spouštět JavaScript asynchronně v Javě s CompletableFuture a Aspose.HTML pro efektivní zpracování.
+### [Jak načíst HTML, nastavit DPI zařízení a přečíst barvu pozadí](./how-to-load-html-set-device-dpi-read-background-color/)
+Naučte se načíst HTML, nastavit DPI zařízení a získat barvu pozadí pomocí Aspose.HTML pro Java.
+### [Jak povolit JavaScript v Javě – Kompletní průvodce Aspose.HTML](./how-to-enable-javascript-in-java-complete-aspose-html-guide/)
+Naučte se, jak povolit JavaScript v Javě pomocí Aspose.HTML, včetně nastavení a praktických ukázek.
+### [Volání Javy z JavaScriptu – Kompletní průvodce asynchronním fetch a vykonáváním JS enginu](./call-java-from-javascript-complete-guide-to-async-fetch-js-e/)
+Naučte se volat Java metody z JavaScriptu, používat asynchronní fetch a spravovat vykonávání skriptů v JS enginu pomocí Aspose.HTML pro Java.
+### [Jak používat Aspose HTML v Javě – Kompletní průvodce filtrováním pomocí XPath](./how-to-use-aspose-html-in-java-full-xpath-filtering-guide/)
+Naučte se, jak pomocí Aspose.HTML v Javě aplikovat kompletní filtrování XML/HTML pomocí XPath výrazů.
+### [Volání Javy z JavaScriptu – Přidání host objektu a spuštění JavaScriptu v Javě](./call-java-from-javascript-add-host-object-and-run-javascript/)
+Naučte se volat Java metody z JavaScriptu pomocí host objektu a spouštět JavaScript v Javě s Aspose.HTML.
 
 ---
 
 **Poslední aktualizace:** 2025-11-29  
 **Testováno s:** Aspose.HTML pro Java 24.11  
 **Autor:** Aspose  
+
+
+
+
+
+
+
+### [Extrahování HTML z MHTML – Kompletní průvodce pro Javu](./extract-html-from-mhtml-complete-java-guide/)
+Naučte se, jak pomocí Aspose.HTML pro Java extrahovat HTML obsah z MHTML souborů a pracovat s ním.
+
+---
+
+**Poslední aktualizace:** 2025-11-29  
+**Testováno s:** Aspose.HTML pro Java 24.11  
+**Autor:** Aspose  
+
+
+
+
+
+
+
+### [Spuštění JavaScriptu v Javě – Kompletní průvodce spouštěním JS z Javy](./execute-javascript-in-java-complete-guide-to-running-js-from/)
+Naučte se, jak spouštět JavaScript kód přímo z Javy pomocí Aspose.HTML, včetně integrace, ladění a správy skriptů.
+
+---
+
+**Poslední aktualizace:** 2025-11-29  
+**Testováno s:** Aspose.HTML pro Java 24.11  
+**Autor:** Aspose  
+
+
+
+
+
+
+
+### [Jak používat Sandbox pro HTML do PDF v Javě – krok za krokem průvodce](./how-to-use-sandbox-for-html-to-pdf-java-step-by-step-guide/)
+Naučte se, jak využít sandbox prostředí pro bezpečnou konverzi HTML do PDF v Javě pomocí Aspose.HTML.
+### [Povolení spouštění skriptů v Javě – Kompletní průvodce Aspose.HTML](./enable-script-execution-in-java-complete-aspose-html-guide/)
+Naučte se, jak povolit a spouštět JavaScript v Javě pomocí Aspose.HTML, včetně nastavení, zabezpečení a praktických příkladů.
+
+---
+
+**Poslední aktualizace:** 2025-11-29  
+**Testováno s:** Aspose.HTML pro Java 24.11  
+**Autor:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
