@@ -87,6 +87,8 @@ Panduan langkah demi langkah mengonversi eBook EPUB menjadi PDF menggunakan Aspo
 Pelajari cara membuat PDF dari EPUB menggunakan Java dengan Aspose.HTML dalam panduan langkah demi langkah.
 ### [Tutorial epub ke pdf – Konversi eBook Anda dengan Java dalam Hitungan Menit](./epub-to-pdf-tutorial-convert-your-ebooks-with-java-in-minute/)
 Pelajari cara cepat mengonversi eBook EPUB ke PDF menggunakan Aspose.HTML for Java dalam beberapa menit.
+### [Tutorial epub ke pdf: Mengonversi eBook dengan Java & Aspose](./epub-to-pdf-tutorial-convert-ebooks-with-java-aspose/)
+Pelajari cara mengonversi eBook ke PDF menggunakan Java dan Aspose.HTML dalam tutorial langkah demi langkah.
 
 ## Pertanyaan yang Sering Diajukan
 

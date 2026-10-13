@@ -81,6 +81,9 @@ weight: 27
 Μάθετε πώς να ενσωματώσετε γραμματοσειρές στο PDF κατά τη μετατροπή EPUB με Aspose.HTML for Java.
 ### [Οδηγός epub σε pdf: Μετατροπή eBook σε PDF με Aspose](./epub-to-pdf-tutorial-convert-ebook-to-pdf-with-aspose/)
 Μάθετε πώς να μετατρέψετε eBook σε PDF χρησιμοποιώντας το Aspose.HTML for Java σε απλά βήματα.
+### [οδηγός epub σε pdf: Μετατροπή eBooks με Java & Aspose](./epub-to-pdf-tutorial-convert-ebooks-with-java-aspose/)
+Μάθετε πώς να μετατρέψετε eBooks σε PDF χρησιμοποιώντας Java και τη βιβλιοθήκη Aspose.HTML.
+
 ## Συχνές Ερωτήσεις
 
 **Q:** *Μπορώ να μετατρέψω προστατευμένα αρχεία EPUB σε PDF;*  

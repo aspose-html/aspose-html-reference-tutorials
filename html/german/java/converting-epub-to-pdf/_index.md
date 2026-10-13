@@ -87,6 +87,8 @@ Erfahren Sie, wie Sie eBooks mit Aspose.HTML for Java in PDF umwandeln und dabei
 Erfahren Sie, wie Sie mit Aspose.HTML for Java EPUB‑Dateien in PDFs umwandeln – detaillierte Schritt‑für‑Schritt‑Anleitung.
 ### [epub to pdf Tutorial – Konvertieren Sie Ihre eBooks mit Java in Minuten](./epub-to-pdf-tutorial-convert-your-ebooks-with-java-in-minute/)
 Erfahren Sie, wie Sie mit Aspose.HTML for Java eBooks schnell von EPUB nach PDF konvertieren – in wenigen Minuten und mit minimalem Aufwand.
+### [EPUB zu PDF Tutorial: eBooks mit Java & Aspose konvertieren](./epub-to-pdf-tutorial-convert-ebooks-with-java-aspose/)
+Erfahren Sie, wie Sie eBooks mit Java und Aspose.HTML in PDF umwandeln.
 
 ## Häufig gestellte Fragen
 

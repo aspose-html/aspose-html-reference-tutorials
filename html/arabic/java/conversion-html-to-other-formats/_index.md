@@ -138,6 +138,18 @@ XPS هو صيغة الطباعة الخاصة بمايكروسوفت. باستخ
 دليل خطوة بخطوة لإنشاء ملفات PDF من HTML في Java باستخدام التحويل المتوازي للدفعات لزيادة الأداء.
 ### [تعيين حجم صفحة PDF في Java – دليل Java HTML إلى PDF](./set-pdf-page-size-in-java-java-html-to-pdf-guide/)
 تعلم كيفية ضبط حجم صفحة PDF أثناء التحويل من HTML باستخدام Aspose.HTML for Java.
+### [تحويل HTML إلى PDF/A باستخدام Aspose في Java](./java-html-to-pdf-convert-html-to-pdf-a-using-aspose/)
+### [كيفية تمكين JavaScript عند تحويل HTML إلى PDF في Java](./how-to-enable-javascript-when-converting-html-to-pdf-in-java/)
+### [كيفية تضمين الصور في HTML إلى PDF باستخدام Aspose – دليل Java](./how-to-embed-images-in-html-to-pdf-with-aspose-java-guide/)
+تعلم كيفية تضمين صور داخل مستندات PDF عند تحويل HTML باستخدام Aspose.HTML for Java خطوة بخطوة.
+### [كيفية تشفير PDF في Java – حماية PDF بكلمة مرور من HTML](./how-to-encrypt-pdf-in-java-password-protect-pdf-from-html/)
+تعلم كيفية تشفير ملفات PDF وحمايتها بكلمة مرور عند التحويل من HTML باستخدام Aspose.HTML for Java.
+### [إنشاء مجموعة خيوط ثابتة لتحويل HTML إلى PDF بالتوازي في Java](./create-fixed-thread-pool-for-parallel-html-to-pdf-conversion/)
+تعلم كيفية إنشاء مجموعة خيوط ثابتة لمعالجة تحويلات HTML إلى PDF بشكل متوازي باستخدام Aspose.HTML for Java.
+### [إنشاء PDF من HTML مع عرض الجوال – دليل Java كامل](./create-pdf-from-html-with-mobile-viewport-complete-java-guid/)
+تعلم كيفية إنشاء PDF من HTML مع ضبط عرض الشاشة للهواتف المحمولة باستخدام Aspose.HTML في Java.
+### [تحويل HTML إلى Markdown في Java – دليل خطوة بخطوة كامل](./convert-html-to-markdown-in-java-full-step-by-step-guide/)
+### [تحويل HTML إلى PDF – دليل كامل لحفظ PDF إلى Azure Blob](./convert-html-to-pdf-complete-guide-to-saving-pdf-to-azure-bl/)
 
 ### [كيفية ضغط PDF باستخدام Aspose HTML إلى PDF – دليل Java](./how-to-compress-pdf-with-aspose-html-to-pdf-java-guide/)
 تعلم كيفية تقليل حجم ملف PDF باستخدام Aspose.HTML إلى PDF في Java مع إرشادات خطوة بخطوة.
@@ -167,7 +179,6 @@ XPS هو صيغة الطباعة الخاصة بمايكروسوفت. باستخ
 ### [كيفية تعيين الإزاحة عند تحويل HTML إلى Markdown في Java](./how-to-set-offset-when-converting-html-to-markdown-in-java/)
 تعلم كيفية ضبط إزاحة المحتوى أثناء تحويل ملفات HTML إلى تنسيق Markdown باستخدام Aspose.HTML for Java.
 ### [إنشاء PDF من HTML في Java – دليل خطوة بخطوة كامل](./create-pdf-from-html-in-java-complete-step-by-step-guide/)
-### [إنشاء مجموعة خيوط ثابتة للتحويل المتوازي من HTML إلى PDF](./create-fixed-thread-pool-for-parallel-html-to-pdf-conversion/)
 ### [تحويل HTML إلى Markdown – دليل C# كامل](./convert-html-to-markdown-complete-c-guide/)
 ### [تحويل Markdown إلى PDF في Java – دليل كامل](./convert-markdown-to-pdf-in-java-complete-guide/)
 ### [تحويل HTML إلى PDF في Java – دليل مجموعة الخيوط الثابتة المتوازية](./convert-html-to-pdf-in-java-parallel-fixed-thread-pool-guide/)

@@ -138,6 +138,8 @@ Convert HTML to WebP with Aspose.HTML for Java. A complete guide for efficient H
 Create an HTML banner and render it to PNG using Aspose.HTML for Java. A full guide with step‑by‑step instructions.
 ### [Render HTML Java: Convert Long Page to PNG](./render-html-java-convert-long-page-to-png/)
 Learn how to render long HTML pages to PNG in Java using Aspose.HTML. Step-by-step guide for handling large pages.
+### [Convert HTML to WebP – Complete Java Guide for Aspose.HTML](./convert-html-to-webp-complete-java-guide-for-aspose-html/)
+Convert HTML to WebP with Aspose.HTML for Java. Detailed guide covering setup, options, and best practices for high‑quality WebP output.
 
 ### [How to Render HTML to PNG – Complete Guide for Java Developers](./how-to-render-html-to-png-complete-guide-for-java-developers/)
 A complete guide for Java developers on rendering HTML pages to PNG images using Aspose.HTML, with step‑by‑step code examples.

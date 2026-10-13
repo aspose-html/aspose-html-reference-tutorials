@@ -84,7 +84,6 @@ weight: 25
 
 ## Μετατροπή - HTML σε Άλλες Μορφές Μαθήματα
 ### [Μετατροπή HTML σε PDF](./convert-html-to-pdf/)
-Μάθετε πώς να μετατρέψετε HTML σε PDF σε Java χρησιμοποιώντας το Aspose.HTML. Δημιουργήστε PDF υψηλής ποιότητας από το περιεχόμενο HTML σας χωρίς κόπο.
 ### [Πώς να συμπιέσετε PDF με Aspose HTML to PDF – Οδηγός Java](./how-to-compress-pdf-with-aspose-html-to-pdf-java-guide/)
 Μάθετε πώς να μειώσετε το μέγεθος των αρχείων PDF χρησιμοποιώντας Aspose.HTML for Java κατά τη μετατροπή.
 ### [Μετατροπή HTML σε PDF μαζικά – Οδηγός Java NIO με παράλληλη επεξεργασία](./convert-html-to-pdf-in-bulk-java-nio-guide-with-parallel-pro/)
@@ -192,6 +191,22 @@ weight: 25
 Μάθετε πώς να εκτελείτε μαζική παράλληλη μετατροπή HTML σε PDF σε Java για γρήγορη επεξεργασία μεγάλου όγκου εγγράφων.
 ### [Ορισμός μεγέθους σελίδας PDF σε Java – Οδηγός Java HTML σε PDF](./set-pdf-page-size-in-java-java-html-to-pdf-guide/)
 Μάθετε πώς να ορίσετε προσαρμοσμένο μέγεθος σελίδας PDF κατά τη μετατροπή HTML σε PDF με Aspose.HTML for Java.
+### [Μετατροπή HTML σε PDF – Πλήρης Οδηγός για Αποθήκευση PDF σε Azure Blob](./convert-html-to-pdf-complete-guide-to-saving-pdf-to-azure-bl/)
+### [Java HTML σε PDF: Μετατροπή HTML σε PDF/A με Aspose](./java-html-to-pdf-convert-html-to-pdf-a-using-aspose/)
+Μάθετε πώς να μετατρέψετε HTML σε PDF/A σε Java με Aspose.HTML, διασφαλίζοντας συμμόρφωση με πρότυπα αρχείου.
+
+### [Πώς να ενεργοποιήσετε τη JavaScript κατά τη μετατροπή HTML σε PDF σε Java](./how-to-enable-javascript-when-converting-html-to-pdf-in-java/)
+Μάθετε πώς να ενεργοποιήσετε την εκτέλεση JavaScript κατά τη μετατροπή HTML σε PDF σε Java με Aspose.HTML.
+
+### [Πώς να ενσωματώσετε εικόνες σε HTML σε PDF με Aspose – οδηγός Java](./how-to-embed-images-in-html-to-pdf-with-aspose-java-guide/)
+Μάθετε πώς να ενσωματώσετε εικόνες στο PDF κατά τη μετατροπή HTML σε PDF με το Aspose.HTML for Java.
+
+### [Πώς να κρυπτογραφήσετε PDF σε Java – Προστασία PDF με κωδικό πρόσβασης από HTML](./how-to-encrypt-pdf-in-java-password-protect-pdf-from-html/)
+Μάθετε πώς να κρυπτογραφήσετε PDF με κωδικό πρόσβασης κατά τη μετατροπή HTML σε PDF χρησιμοποιώντας Aspose.HTML for Java.
+
+### [Δημιουργία PDF από HTML με Mobile Viewport – Πλήρης Οδηγός Java](./create-pdf-from-html-with-mobile-viewport-complete-java-guid/)
+
+### [Μετατροπή HTML σε Markdown σε Java – Πλήρης Οδηγός Βήμα‑βήμα](./convert-html-to-markdown-in-java-full-step-by-step-guide/)
 
 ## Συχνές Ερωτήσεις
 

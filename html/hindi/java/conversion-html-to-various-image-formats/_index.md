@@ -192,6 +192,8 @@ Aspose.HTML for Java का उपयोग करके HTML बैनर ब�
 Aspose.HTML for Java का उपयोग करके बड़े HTML पृष्ठ को PNG इमेज में परिवर्तित करने का विस्तृत गाइड।
 ### [Java में डिवाइस पिक्सेल अनुपात सेट करें – HTML को PNG में रेंडर करें](./set-device-pixel-ratio-in-java-render-html-to-png/)
 Aspose.HTML for Java में डिवाइस पिक्सेल रेशियो सेट करके HTML को उच्च‑रिज़ॉल्यूशन PNG में कैसे रेंडर करें, सीखें।
+### [HTML को WebP में बदलना – Aspose.HTML के लिए पूर्ण Java गाइड](./convert-html-to-webp-complete-java-guide-for-aspose-html/)
+Aspose.HTML for Java का उपयोग करके HTML को WebP इमेज में बदलें। चरण‑दर‑चरण गाइड जो उच्च‑गुणवत्ता WebP रूपांतरण दिखाता है।
 
 ## अक्सर पूछे जाने वाले प्रश्न
 

@@ -82,6 +82,8 @@ weight: 27
 ### [บทแนะนำ epub to pdf: แปลง eBook เป็น PDF ด้วย Aspose](./epub-to-pdf-tutorial-convert-ebook-to-pdf-with-aspose/)
 เรียนรู้วิธีแปลง eBook จาก EPUB ไปเป็น PDF อย่างง่ายดายด้วย Aspose.HTML for Java
 ### [บทแนะนำ epub to pdf – แปลง eBook ของคุณด้วย Java ในไม่กี่นาที](./epub-to-pdf-tutorial-convert-your-ebooks-with-java-in-minute/)
+### [บทแนะนำการแปลง EPUB เป็น PDF: แปลง eBooks ด้วย Java & Aspose](./epub-to-pdf-tutorial-convert-ebooks-with-java-aspose/)
+เรียนรู้วิธีแปลง eBook จาก EPUB เป็น PDF อย่างง่ายดายด้วย Java และ Aspose.HTML
 
 ## คำถามที่พบบ่อย
 

@@ -46,14 +46,17 @@ XPS 為 Microsoft 的列印就緒格式。使用 Aspose.HTML 您可以產生在�
 ### Converting Markdown to HTML (Java)
 Markdown 的簡潔結合 HTML 的豐富。將 Markdown 文件轉換為完整樣式的 HTML 頁面，方便網路發佈。
 
+### Convert HTML to Markdown in Java – Full Step‑by‑Step Guide
+了解如何使用 Aspose.HTML 在 Java 中將 HTML 轉換為 Markdown，提供完整的步驟說明與範例。
+
 ### Converting SVG to Image (Java)
 將向量圖形轉為點陣圖（PNG、JPEG），可用於電子郵件、報告或縮圖。
 
 ### Converting SVG to PDF (Java)
-直接將可縮放的 SVG 藝術作品嵌入 PDF，且不失真。
+產生包含向量圖形的 PDF 檔案，縮放時不會出現像素化。
 
 ### Converting SVG to XPS (Java)
-從 SVG 來源建立 XPS 文件，確保列印與分享的可靠性。
+將 SVG 圖形轉換為 XPS 格式，確保在各設備上的列印一致性。
 
 ## 詳細轉換指南
 
@@ -97,6 +100,12 @@ Aspose.HTML for Java 簡化了 HTML‑to‑PDF 工作流程。請參考專屬教
 說明如何使用 Aspose.HTML for Java 將 HTML 檔案轉換為 PDF，提供完整步驟與範例程式碼。
 ### [在 Java 中將 HTML 轉換為 PDF – 逐步指南](./convert-html-to-pdf-with-java-step-by-step-guide/)
 提供使用 Aspose.HTML for Java 的完整步驟，將 HTML 檔案轉換為 PDF，操作簡單、效果高品質。
+### [使用行動視口從 HTML 建立 PDF – 完整 Java 指南](./create-pdf-from-html-with-mobile-viewport-complete-java-guid/)
+說明如何在 Java 中使用 Aspose.HTML 針對行動裝置視口將 HTML 轉換為 PDF，確保行動版排版正確。
+### [如何在 Java 中將 HTML 轉換為 PDF 時啟用 JavaScript](./how-to-enable-javascript-when-converting-html-to-pdf-in-java/)
+說明如何在使用 Aspose.HTML for Java 轉換 HTML 為 PDF 時啟用 JavaScript，以確保動態內容正確渲染。
+### [java html to pdf：使用 Aspose 轉換 HTML 為 PDF/A](./java-html-to-pdf-convert-html-to-pdf-a-using-aspose/)
+說明如何使用 Aspose.HTML for Java 將 HTML 文件轉換為符合 PDF/A 標準的 PDF，確保長期保存與合規性。
 ### [在 Java 中將 HTML 轉換為 PDF – 逐步指南與頁面大小設定](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 提供在 Java 中使用 Aspose.HTML 逐步將 HTML 轉換為 PDF，並設定頁面尺寸的完整教學。
 ### [使用 Aspose HTML 設定 PDF 頁面大小 – 完整 Java 指南](./set-pdf-page-size-with-aspose-html-full-java-guide/)
@@ -133,6 +142,8 @@ Aspose.HTML for Java 簡化了 HTML‑to‑PDF 工作流程。請參考專屬教
 使用 Aspose.HTML for Java 在 Java 中將 Markdown 轉換為 PDF，提供完整的逐步教學與設定說明。
 ### [使用 Aspose HTML 轉換器 (Java) 從 Markdown 建立 PDF](./create-pdf-from-markdown-using-aspose-html-converter-java/)
 說明如何使用 Aspose.HTML for Java 將 Markdown 文件轉換為 PDF，提供步驟與範例程式碼。
+### [在 Java 中將 HTML 轉換為 Markdown – 完整步驟指南](./convert-html-to-markdown-in-java-full-step-by-step-guide/)
+了解如何使用 Aspose.HTML 在 Java 中將 HTML 轉換為 Markdown，提供完整的步驟說明與範例。
 ### [Converting SVG to Image](./convert-svg-to-image/)
 了解如何使用 Aspose.HTML 在 Java 中將 SVG 轉為影像，提供高品質輸出的完整指南。
 ### [Converting SVG to PDF](./convert-svg-to-pdf/)
@@ -166,6 +177,14 @@ Aspose.HTML for Java 簡化了 HTML‑to‑PDF 工作流程。請參考專屬教
 深入說明如何使用 Aspose.HTML 在 Java 中批量將多個 HTML 檔案轉換為 PDF，提升工作效率。
 ### [在 Java 中從 HTML 建立 PDF – 平行批次轉換指南](./create-pdf-from-html-in-java-parallel-batch-conversion-guide/)
 說明如何使用 Aspose.HTML 在 Java 中平行批次將多個 HTML 檔案轉換為 PDF，提高效率與效能。
+### [如何在 Java 中使用 Aspose 將圖像嵌入 HTML 轉 PDF – 教學](./how-to-embed-images-in-html-to-pdf-with-aspose-java-guide/)
+說明如何在使用 Aspose.HTML for Java 時，將 HTML 中的圖像正確嵌入並轉換為 PDF，確保圖像顯示完整。
+### [如何在 Java 中加密 PDF – 從 HTML 密碼保護 PDF](./how-to-encrypt-pdf-in-java-password-protect-pdf-from-html/)
+說明如何使用 Aspose.HTML for Java 將 HTML 轉換為 PDF 並設定密碼保護，確保文件安全。
+### [在 Java 中建立固定執行緒池以平行 HTML‑to‑PDF 轉換](./create-fixed-thread-pool-for-parallel-html-to-pdf-conversion/)
+說明如何使用固定執行緒池在 Java 中同時將多個 HTML 檔案轉換為 PDF，提高轉換效能。
+### [將 HTML 轉換為 PDF – 完整指南：將 PDF 儲存至 Azure Blob](./convert-html-to-pdf-complete-guide-to-saving-pdf-to-azure-bl/)
+說明如何使用 Aspose.HTML for Java 將 HTML 轉換為 PDF，並將 PDF 儲存至 Azure Blob 儲存體。
 
 ### [在 Java 中從 HTML 建立 PDF – 完整步驟指南](./create-pdf-from-html-in-java-complete-step-by-step-guide/)
 提供在 Java 中使用 Aspose.HTML 從 HTML 完整生成 PDF 的逐步教學，涵蓋設定、樣式與最佳化技巧。
@@ -173,8 +192,6 @@ Aspose.HTML for Java 簡化了 HTML‑to‑PDF 工作流程。請參考專屬教
 使用 Aspose.HTML for Java 在將 HTML 轉換為 Markdown 時設定偏移量的完整指南。
 ### [將 HTML 轉換為 Markdown – 完整 C# 指南](./convert-html-to-markdown-complete-c-guide/)
 了解如何使用 Aspose.HTML 在 C# 中將 HTML 轉換為 Markdown，提供完整步驟與最佳實踐。
-### [建立固定執行緒池以平行 HTML 轉 PDF 轉換](./create-fixed-thread-pool-for-parallel-html-to-pdf-conversion/)
-了解如何使用 Aspose.HTML 在 Java 中建立固定執行緒池，以平行執行 HTML 轉 PDF 的轉換。
 ### [HTML 轉 PDF 教學：在 Java 中一行程式碼完成 HTML 轉 PDF](./html-to-pdf-tutorial-convert-html-to-pdf-in-java-in-one-line/)
 只需一行程式碼，即可使用 Aspose.HTML 在 Java 中將 HTML 轉換為 PDF，簡化開發流程。
 ### [從 HTML 建立自訂尺寸 PDF（Java）完整指南](./create-pdf-custom-size-from-html-in-java-full-guide/)

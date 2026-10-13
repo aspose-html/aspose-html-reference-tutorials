@@ -86,6 +86,8 @@ SVG 그래픽을 XPS 형식으로 변환하여 기기 간 일관된 인쇄를 �
 Aspose.HTML를 사용하여 Java에서 HTML을 PDF로 변환하는 방법을 배우세요. HTML 콘텐츠에서 고품질 PDF를 손쉽게 생성합니다.
 ### [Aspose HTML for Java로 동적 HTML을 PDF로 변환](./convert-dynamic-html-pdf-with-aspose-html-for-java/)
 Aspose HTML for Java를 활용해 동적으로 생성된 HTML을 PDF로 변환하는 방법을 단계별로 안내합니다.
+### [Java에서 HTML을 PDF로 변환할 때 JavaScript를 활성화하는 방법](./how-to-enable-javascript-when-converting-html-to-pdf-in-java/)
+Aspose.HTML for Java를 사용해 HTML을 PDF로 변환할 때 JavaScript를 활성화하는 방법을 단계별로 안내합니다.
 ### [Java에서 HTML을 PDF로 변환 – 페이지 크기 설정을 포함한 단계별 가이드](./convert-html-to-pdf-in-java-step-by-step-guide-with-page-siz/)
 Aspose.HTML를 사용하여 Java에서 페이지 크기 옵션을 지정하며 HTML을 PDF로 변환하는 방법을 단계별로 안내합니다.
 ### [HTML을 PDF로 변환 – 폰트 임베딩 완전 가이드](./convert-html-to-pdf-in-java-complete-guide-with-font-embeddi/)
@@ -154,6 +156,18 @@ Aspose.HTML를 활용해 Java에서 멀티스레드 환경으로 HTML을 PDF로 
 Aspose.HTML를 사용해 여러 HTML 파일을 한 번에 PDF로 변환하는 전체 배치 가이드를 제공합니다.
 ### [html to pdf 튜토리얼 – Aspose.HTML Java로 HTML을 PDF로 변환](./html-to-pdf-tutorial-convert-html-to-pdf-with-aspose-html-ja/)
 Aspose.HTML Java를 사용하여 HTML을 PDF로 변환하는 방법을 단계별로 안내합니다.
+### [Java HTML to PDF: Aspose를 사용해 HTML을 PDF/A로 변환](./java-html-to-pdf-convert-html-to-pdf-a-using-aspose/)
+Aspose.HTML를 사용하여 Java에서 HTML을 PDF/A 형식으로 변환하는 방법을 단계별로 안내합니다.
+### [Aspose를 사용하여 HTML을 PDF에 이미지 삽입하는 방법 – Java 가이드](./how-to-embed-images-in-html-to-pdf-with-aspose-java-guide/)
+Aspose.HTML for Java를 활용해 HTML에서 이미지가 포함된 PDF를 생성하는 단계별 가이드를 제공합니다.
+### [Java에서 PDF를 암호화하는 방법 – HTML에서 PDF에 비밀번호 보호](./how-to-encrypt-pdf-in-java-password-protect-pdf-from-html/)
+Aspose.HTML를 사용하여 Java에서 HTML을 PDF로 변환하고 비밀번호로 보호하는 방법을 단계별로 안내합니다.
+### [모바일 뷰포트를 사용하여 HTML에서 PDF 만들기 – 완전한 Java 가이드](./create-pdf-from-html-with-mobile-viewport-complete-java-guid/)
+Aspose.HTML를 활용해 모바일 뷰포트를 적용한 HTML을 PDF로 변환하는 전체 가이드를 제공합니다.
+### [Java에서 HTML을 Markdown으로 변환 – 전체 단계별 가이드](./convert-html-to-markdown-in-java-full-step-by-step-guide/)
+Aspose.HTML를 사용하여 Java에서 HTML을 Markdown으로 변환하는 전체 단계별 가이드를 확인하세요.
+### [HTML을 PDF로 변환 – Azure Blob에 PDF 저장하는 완전 가이드](./convert-html-to-pdf-complete-guide-to-saving-pdf-to-azure-bl/)
+Aspose.HTML를 사용해 Java에서 HTML을 PDF로 변환하고, 결과 PDF를 Azure Blob 저장소에 저장하는 전체 과정을 안내합니다.
 
 ### [Aspose HTML을 사용하여 PDF 페이지 크기 설정 – 전체 Java 가이드](./set-pdf-page-size-with-aspose-html-full-java-guide/)
 Aspose.HTML를 사용하여 Java에서 PDF 페이지 크기를 설정하는 전체 단계별 가이드를 제공합니다.

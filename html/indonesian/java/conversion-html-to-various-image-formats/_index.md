@@ -114,6 +114,7 @@ Panduan langkah demi langkah mengatur DPI pada konversi HTML ke PNG menggunakan 
 ### [Mengatur Rasio Piksel Perangkat di Java – Render HTML ke PNG](./set-device-pixel-ratio-in-java-render-html-to-png/)
 ### [Simpan Halaman HTML sebagai PNG di Java – Tutorial Lengkap](./save-html-page-as-png-in-java-complete-tutorial/)
 Pelajari cara menyimpan halaman HTML sebagai file PNG menggunakan Aspose.HTML for Java dengan contoh kode lengkap dan langkah-langkah mudah.
+### [Mengonversi HTML ke WebP – Panduan Lengkap Java untuk Aspose.HTML](./convert-html-to-webp-complete-java-guide-for-aspose-html/)
 
 ### [Mengonversi HTML ke WebP – Panduan Lengkap Java dengan Aspose.HTML](./convert-html-to-webp-complete-java-guide-with-aspose-html/)
 ### [Cara merender HTML ke PNG di Java – Pandaan Lengkap](./how-to-render-html-to-png-in-java-complete-guide/)

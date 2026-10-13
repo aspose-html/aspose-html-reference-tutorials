@@ -87,6 +87,8 @@ Scopri come includere i font nei PDF generati da EPUB usando Aspose.HTML for Jav
 Scopri come trasformare un eBook EPUB in PDF usando Aspose.HTML for Java in pochi passaggi.
 ### [Tutorial epub to pdf – Converti i tuoi eBook con Java in pochi minuti](./epub-to-pdf-tutorial-convert-your-ebooks-with-java-in-minute/)
 Scopri come convertire rapidamente gli eBook EPUB in PDF usando Java con Aspose.HTML, in pochi minuti.
+### [Tutorial epub to pdf: Converti eBook con Java e Aspose](./epub-to-pdf-tutorial-convert-ebooks-with-java-aspose/)
+Impara a convertire eBook EPUB in PDF usando Java e Aspose.HTML, con esempi pratici e consigli di ottimizzazione.
 
 ## Domande frequenti
 

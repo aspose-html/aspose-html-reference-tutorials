@@ -103,6 +103,8 @@ Aspose.HTML を使用して Java でデバイスピクセル比を設定し、HT
 Aspose.HTML for Java で Java の Markdown を HTML にシームレスに変換します。文書変換のニーズを効率化する手順をご確認ください。
 ### [Create PDF from Markdown using Aspose HTML Converter (Java)](./create-pdf-from-markdown-using-aspose-html-converter-java/)
 Aspose.HTML を使い、Markdown ファイルを直接 PDF に変換する手順を解説します。
+### [JavaでHTMLをMarkdownに変換 – 完全ステップバイステップガイド](./convert-html-to-markdown-in-java-full-step-by-step-guide/)
+Aspose.HTML を使用して Java で HTML を Markdown に変換する完全な手順を解説します。シンプルなコードで変換を実装できます。
 ### [Converting SVG to Image](./convert-svg-to-image/)
 Aspose.HTML を使用して Java で SVG を画像に変換する方法を学びます。高品質出力のための包括的ガイドです。
 ### [Converting SVG to PDF](./convert-svg-to-pdf/)
@@ -130,6 +132,17 @@ Aspose.HTML を使って複数の HTML ファイルを一括で PDF に変換す
 Java の Aspose.HTML を使用して、PDF のページサイズをカスタマイズする方法をステップバイステップで解説します。
 ### [JavaでHTMLをPDFに変換 – ステップバイステップガイド](./convert-html-to-pdf-with-java-step-by-step-guide/)
 Aspose.HTML を使用して Java で HTML を PDF に変換する手順を詳しく解説します。
+### [Java で HTML を PDF/A に変換 – Aspose を使用](./java-html-to-pdf-convert-html-to-pdf-a-using-aspose/)
+Aspose.HTML を使用して Java で HTML を PDF/A に変換する手順を解説します。高品質な PDF/A 出力が簡単に実現できます。
+### [JavaでHTMLをPDFに変換する際にJavaScriptを有効にする方法](./how-to-enable-javascript-when-converting-html-to-pdf-in-java/)
+Aspose.HTML を使用して、HTML から PDF への変換時に JavaScript を有効化する手順を解説します。
+### [Aspose を使用した HTML から PDF への画像埋め込み方法 – Java ガイド](./how-to-embed-images-in-html-to-pdf-with-aspose-java-guide/)
+Aspose.HTML for Java を使って、HTML 内の画像を PDF に正しく埋め込む手順を解説します。
+### [JavaでPDFを暗号化する – HTMLからPDFをパスワード保護](./how-to-encrypt-pdf-in-java-password-protect-pdf-from-html/)
+Aspose.HTML for Java を使用して、HTML から生成した PDF にパスワードを設定し、暗号化する手順を解説します。
+### [HTML を PDF に変換 – Azure Blob へ PDF を保存する完全ガイド](./convert-html-to-pdf-complete-guide-to-saving-pdf-to-azure-bl/)
+Aspose.HTML を使用して Java で HTML を PDF に変換し、生成した PDF を Azure Blob Storage に保存する手順を詳しく解説します。
+### [モバイルビューポートでHTMLからPDFを作成 – 完全なJavaガイド](./create-pdf-from-html-with-mobile-viewport-complete-java-guid/)
 
 ### [JavaでHTMLをPDFに変換 – ページサイズと DPI の完全ガイド](./convert-html-to-pdf-in-java-full-guide-with-paper-size-dpi/)
 

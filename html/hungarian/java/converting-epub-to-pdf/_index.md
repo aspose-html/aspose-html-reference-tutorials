@@ -74,7 +74,7 @@ Tanuld meg, hogyan konvertálj EPUB‑t JPG képekké az Aspose.HTML for Java se
 Tanuld meg, hogyan konvertálj EPUB‑t PNG‑be az Aspose.HTML for Java használatával. Kövesd lépésről‑lépésre útmutatónkat, és tedd vizuálisan vonzóvá e-könyved tartalmát.
 
 ### [EPUB konvertálása TIFF‑be](./convert-epub-to-tiff/)
-Tanuld meg, hogyan konvertálj EPUB‑t TIFF‑be az Aspose.HTML for Java segítségével. Kövesd lépésről‑lépésre útmutatónkat a magas minőségű dokumentumkonvertáláshoz.
+Tanuld meg, hogyan konvertálj EPUB‑t TIFF‑be az Aspose.HTML for Java segítségével. Kövesd lépésről‑lépésre útmutatót a magas minőségű dokumentumkonvertáláshoz.
 
 ### [Egyedi Stream Provider megadása EPUB‑kép konvertáláshoz](./convert-epub-to-image-specify-custom-stream-provider/)
 Tanuld meg, hogyan használhatod az Aspose.HTML for Java-t EPUB fájlok képekké konvertálásához ebben a lépésről‑lépésre útmutatóban.
@@ -83,7 +83,10 @@ Tanuld meg, hogyan használhatod az Aspose.HTML for Java-t EPUB fájlok képekk�
 Tanuld meg, hogyan használhatod az Aspose.HTML for Java-t: EPUB konvertálása képpé és egyebek. Fedezd fel lépésről‑lépésre útmutatónkat.
 
 ### [EPUB konvertálása képpé](./convert-epub-to-image/)
-Tanuld meg, hogyan konvertálj EPUB‑t képekké az Aspose.HTML for Java segítségével. Átalakítsd digitális tartalmad könnyedén. Lépésről‑lépésre útmutató is tartalmaz.
+Tanulja meg, hogyan konvertálj EPUB‑t képekké az Aspose.HTML for Java segítségével. Átalakítsd digitális tartalmad könnyedén. Lépésről‑lépésre útmutató is tartalmaz.
+
+### [EPUB‑PDF oktatóanyag: e‑könyvek konvertálása Java‑val és Aspose‑szal](./epub-to-pdf-tutorial-convert-ebooks-with-java-aspose/)
+Ismerje meg, hogyan konvertálhat EPUB fájlokat PDF‑be Java és Aspose segítségével, egyszerű lépésekkel.
 
 ### [Hogyan ágyazzunk be betűtípusokat PDF-be az Aspose HTML használatával – EPUB PDF konvertálási útmutató](./how-to-embed-fonts-in-pdf-using-aspose-html-convert-epub-to/)
 Tanulja meg, hogyan ágyazhat be egyedi betűtípusokat PDF-be az Aspose.HTML segítségével az EPUB‑PDF konvertálás során.

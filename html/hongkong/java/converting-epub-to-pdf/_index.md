@@ -87,6 +87,8 @@ EPUB 檔案廣泛用於電子書，但有時您需要將其轉為 PDF 格式以�
 逐步說明如何使用 Aspose.HTML for Java 從 EPUB 檔案建立 PDF，適合新手開發者。
 ### [epub 轉 pdf 教學 – 使用 Java 在數分鐘內轉換您的電子書](./epub-to-pdf-tutorial-convert-your-ebooks-with-java-in-minute/)
 快速了解如何使用 Aspose.HTML for Java 將 EPUB 檔案在數分鐘內轉換為 PDF，簡化電子書處理流程。
+### [epub 轉 pdf 教學：使用 Java 與 Aspose 轉換電子書](./epub-to-pdf-tutorial-convert-ebooks-with-java-aspose/)
+了解如何使用 Aspose.HTML for Java 將 EPUB 轉換為 PDF，快速完成電子書轉檔。
 
 ## 常見問題
 
