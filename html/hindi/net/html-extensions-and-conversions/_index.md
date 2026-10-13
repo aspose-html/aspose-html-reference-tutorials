@@ -79,8 +79,6 @@ C# में Aspose.HTML का उपयोग करके HTML को PDF म
 C# में Aspose.HTML का उपयोग करके एंटीएलियासिंग के साथ HTML को PDF में बदलने का पूर्ण मार्गदर्शन।
 
 ### [Aspose.HTML के साथ .NET में EPUB को छवि में बदलें](./convert-epub-to-image/)
-.NET के लिए Aspose.HTML का उपयोग करके EPUB को छवियों में परिवर्तित करना सीखें। कोड उदाहरणों और अनुकूलन योग्य विकल्पों के साथ चरण‑दर‑चरण ट्यूटोरियल।
-
 ### [Aspose.HTML के साथ .NET में EPUB को PDF में बदलें](./convert-epub-to-pdf/)
 जानें कि .NET के लिए Aspose.HTML का उपयोग करके EPUB को PDF में कैसे बदलें। यह चरण‑दर‑स्टेप मार्गदर्शिका सहज दस्तावेज़ रूपांतरण के लिए अनुकूलन विकल्प, FAQ और बहुत कुछ शामिल करती है।
 
@@ -120,6 +118,7 @@ Aspose.HTML के साथ .NET में HTML को MHTML में बद�
 ### [स्टाइल्ड टेक्स्ट के साथ HTML दस्तावेज़ बनाएं और PDF में निर्यात करें – पूर्ण गाइड](./create-html-document-with-styled-text-and-export-to-pdf-full/)
 Aspose.HTML for .NET का उपयोग करके स्टाइल्ड टेक्ट वाले HTML दस्तावेज़ को बनाएं और उसे PDF में निर्यात करने की पूरी गाइड।
 .NET के लिए Aspose.HTML की शक्ति का पता लगाएं: HTML को XPS में आसानी से बदलें। पूर्वापेक्षाएँ, चरण-दर-स्टेप मार्गदर्शिका और FAQ शामिल हैं।
+
 ### [C# में HTML को ZIP में सहेजें – पूर्ण इन‑मेमोरी उदाहरण](./save-html-to-zip-in-c-complete-in-memory-example/)
 C# में इन‑मेमोरी में HTML को ZIP फ़ाइल में सहेजने का पूरा उदाहरण देखें।
 ### [C# में HTML दस्तावेज़ बनाएं – चरण‑दर‑चरण गाइड](./create-html-document-c-step-by-step-guide/)
@@ -172,6 +171,12 @@ C# में Aspose.HTML का उपयोग करके HTML को ZIP फ
 
 ### [Aspose.HTML के साथ C# में HTML को स्ट्रिंग में बदलें – पूर्ण गाइड](./convert-html-to-string-in-c-with-aspose-html-complete-guide/)
 C# में Aspose.HTML का उपयोग करके HTML को स्ट्रिंग में बदलने के चरण‑दर‑स्टेप पूर्ण मार्गदर्शन।
+
+### [C# में HTML को ज़िप कैसे करें – Aspose.HTML के साथ वेबपेज को ZIP में निर्यात करें](./how-to-zip-html-in-c-export-webpage-to-zip-with-aspose-html/)
+C# में Aspose.HTML का उपयोग करके वेबपेज को ZIP फ़ाइल में निर्यात करने का चरण‑दर‑स्टेप मार्गदर्शन।
+
+### [DOCX से HTML आर्काइव बनाएं – चरण‑दर‑चरण गाइड](./create-html-archive-from-docx-step-by-step-guide/)
+DOCX फ़ाइल को HTML आर्काइव में बदलने के चरण‑दर‑स्टेप मार्गदर्शन। Aspose.HTML for .NET का उपयोग करके आसान रूपांतरण सीखें।
 
 ## निष्कर्ष
 

@@ -90,7 +90,7 @@ Découvrez la puissance d'Aspose.HTML pour .NET : un guide étape par étape po
 ### [Convertir HTML en JPEG dans .NET avec Aspose.HTML](./convert-html-to-jpeg/)
 Découvrez comment convertir du HTML en JPEG dans .NET avec Aspose.HTML pour .NET. Un guide étape par étape pour exploiter la puissance d'Aspose.HTML pour .NET. Optimisez vos tâches de développement Web sans effort.
 ### [Convertir HTML en Markdown dans .NET avec Aspose.HTML](./convert-html-to-markdown/)
-Découvrez comment convertir du HTML en Markdown dans .NET à l'aide d'Aspose.HTML pour une manipulation efficace du contenu. Bénéficiez de conseils étape par étape pour un processus de conversion fluide.
+Découvrez comment convertir du HTML en Markdown dans .NET à l'aide d'Aspose.HTML pour une manipulation efficace du contenu. Bénéficiez de conseils étape à étape pour un processus de conversion fluide.
 ### [Convertir HTML en MHTML dans .NET avec Aspose.HTML](./convert-html-to-mhtml/)
 Convertissez du HTML en MHTML dans .NET avec Aspose.HTML - Un guide étape par étape pour un archivage efficace du contenu Web. Découvrez comment utiliser Aspose.HTML pour .NET pour créer des archives MHTML.
 ### [Convertir HTML en PNG dans .NET avec Aspose.HTML](./convert-html-to-png/)
@@ -149,6 +149,10 @@ Apprenez à créer un document HTML et à le compresser dans un fichier ZIP avec
 Apprenez à créer un gestionnaire de ressources personnalisé en C# pour charger du HTML et le sauvegarder dans un fichier ZIP.
 ### [Convertir du HTML en chaîne en C# avec Aspose.HTML – Guide complet](./convert-html-to-string-in-c-with-aspose-html-complete-guide/)
 Apprenez à convertir du HTML en chaîne de caractères en C# avec Aspose.HTML grâce à ce guide complet étape par étape.
+### [Comment zipper du HTML en C# – Exporter une page Web en ZIP avec Aspose.HTML](./how-to-zip-html-in-c-export-webpage-to-zip-with-aspose-html/)
+Apprenez à compresser une page HTML en fichier ZIP avec C# et Aspose.HTML grâce à ce guide étape par étape.
+### [Créer une archive HTML à partir de DOCX – Guide étape par étape](./create-html-archive-from-docx-step-by-step-guide/)
+Apprenez à générer une archive HTML à partir d'un fichier DOCX avec Aspose.HTML pour .NET, guide complet pas à pas.
 
 ## Conclusion
 

@@ -100,7 +100,8 @@ url: /ar/net/html-extensions-and-conversions/
 
 ### [تحويل HTML إلى XPS في .NET باستخدام Aspose.HTML](./convert-html-to-xps/)
 اكتشف قوة Aspose.HTML لـ .NET: تحويل HTML إلى XPS بسهولة. المتطلبات الأساسية، ودليل خطوة بخطوة، والأسئلة الشائعة متضمنة.
-
+### [إنشاء أرشيف HTML من DOCX – دليل خطوة بخطوة](./create-html-archive-from-docx-step-by-step-guide/)
+تعلم كيفية تحويل مستند DOCX إلى أرشيف HTML باستخدام Aspose.HTML خطوة بخطوة.
 ### [كيفية ضغط HTML في C# – حفظ HTML إلى ملف Zip](./how-to-zip-html-in-c-save-html-to-zip/)
 تعلم كيفية ضغط ملفات HTML وحفظها كملف Zip باستخدام C# ومكتبة Aspose.HTML.
 ### [كيفية ضغط HTML في C# – دليل كامل](./how-to-zip-html-in-c-complete-guide/)
@@ -153,6 +154,8 @@ url: /ar/net/html-extensions-and-conversions/
 تعلم كيفية ضغط ملفات HTML وحفظها كملف ZIP باستخدام Aspose.HTML خطوة بخطوة.
 ### [تحويل HTML إلى سلسلة نصية في C# باستخدام Aspose.HTML – دليل كامل](./convert-html-to-string-in-c-with-aspose-html-complete-guide/)
 تعلم كيفية تحويل مستند HTML إلى سلسلة نصية في C# باستخدام مكتبة Aspose.HTML خطوة بخطوة.
+### [كيفية ضغط HTML في C# – تصدير صفحة الويب إلى ملف ZIP باستخدام Aspose.HTML](./how-to-zip-html-in-c-export-webpage-to-zip-with-aspose-html/)
+اكتشف طريقة تصدير صفحة ويب كاملة إلى ملف ZIP باستخدام C# ومكتبة Aspose.HTML.
 
 ## خاتمة
 

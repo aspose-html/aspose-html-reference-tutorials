@@ -91,6 +91,8 @@ url: /el/net/html-extensions-and-conversions/
 Μάθετε πώς να συμπιέσετε αρχεία HTML σε ZIP χρησιμοποιώντας προσαρμοσμένο διαχειριστή πόρων στο C# με Aspose.HTML.
 ### [Πώς να συμπιέσετε HTML σε C# – Πλήρης Οδηγός](./how-to-zip-html-in-c-complete-guide/)
 Μάθετε πώς να συμπιέσετε HTML σε αρχείο ZIP με C# χρησιμοποιώντας το Aspose.HTML – πλήρης οδηγός βήμα‑βήμα.
+### [Πώς να συμπιέσετε HTML σε C# – Εξαγωγή ιστοσελίδας σε ZIP με Aspose.HTML](./how-to-zip-html-in-c-export-webpage-to-zip-with-aspose-html/)
+Μάθετε πώς να συμπιέσετε μια ιστοσελίδα HTML σε αρχείο ZIP χρησιμοποιώντας Aspose.HTML σε C#.
 ### [Δημιουργία εγγράφου HTML με μορφοποιημένο κείμενο και εξαγωγή σε PDF – Πλήρης οδηγός](./create-html-document-with-styled-text-and-export-to-pdf-full/)
 Μάθετε πώς να δημιουργήσετε ένα έγγραφο HTML με μορφοποιμένο κείμενο και να το εξάγετε σε PDF χρησιμοποιώντας το Aspose.HTML για .NET.
 ### [Αποθήκευση HTML ως ZIP – Πλήρης Εκπαιδευτικό C#](./save-html-as-zip-complete-c-tutorial/)
@@ -141,6 +143,8 @@ url: /el/net/html-extensions-and-conversions/
 Μάθετε πώς να δημιουργήσετε έναν προσαρμοσμένο διαχειριστή πόρων σε C# για φόρτωση αρχείων HTML και αποθήκευση τους σε αρχείο ZIP.
 ### [Μετατροπή HTML σε συμβολοσειρά σε C# με Aspose.HTML – Πλήρης Οδηγός](./convert-html-to-string-in-c-with-aspose-html-complete-guide/)
 Μάθετε πώς να μετατρέψετε HTML σε συμβολοσειρά σε C# χρησιμοποιώντας το Aspose.HTML με πλήρη βήμα‑βήμα οδηγίες.
+### [Δημιουργία αρχείου HTML από DOCX – Οδηγός βήμα‑βήμα](./create-html-archive-from-docx-step-by-step-guide/)
+Μάθετε πώς να δημιουργήσετε αρχείο HTML από έγγραφο DOCX χρησιμοποιώντας το Aspose.HTML για .NET, βήμα‑βήμα με παραδείγματα κώδικα.
 
 ## Σύναψη
 

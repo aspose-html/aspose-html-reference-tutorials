@@ -143,6 +143,10 @@ Aprenda a crear un controlador de recursos personalizado en C# para cargar HTML 
 ### [Cómo comprimir HTML en C# – Guía completa](./how-to-zip-html-in-c-complete-guide/)
 Aprenda a comprimir archivos HTML en un archivo ZIP usando C# y Aspose.HTML con una guía paso a paso completa.
 ### [Convertir HTML a cadena en C# con Aspose.HTML – Guía completa](./convert-html-to-string-in-c-with-aspose-html-complete-guide/)
+### [Cómo comprimir HTML en C# – Exportar página web a ZIP con Aspose.HTML](./how-to-zip-html-in-c-export-webpage-to-zip-with-aspose-html/)
+Aprenda a empaquetar una página web completa en un archivo ZIP usando C# y Aspose.HTML. Guía paso a paso con ejemplos de código.
+### [Crear archivo HTML a partir de DOCX – Guía paso a paso](./create-html-archive-from-docx-step-by-step-guide/)
+Aprenda a crear un archivo HTML a partir de un documento DOCX usando Aspose.HTML para .NET con esta guía paso a paso.
 
 ## Conclusión
 

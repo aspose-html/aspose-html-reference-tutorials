@@ -91,6 +91,8 @@ HTML içeriğinden C# kullanarak adım adım görüntü oluşturmayı öğrenin.
 C# kullanarak HTML'den PNG resim oluşturmayı adım adım öğrenin. Aspose.HTML'in tam kılavuzu.
 ### [HTML'yi PNG'ye Render Etme – Tam C# Kılavuzu](./how-to-render-html-to-png-complete-c-guide/)
 C# kullanarak HTML içeriğini PNG formatına dönüştürmeyi adım adım öğrenin.
+### [C# ile HTML Belgesi Oluşturun – Yüksek Kaliteli PNG Olarak Render Edin](./create-html-document-c-render-to-png-with-high-quality-outpu/)
+C# kullanarak HTML belgesi oluşturup, yüksek kaliteli PNG çıktısı elde etmeyi adım adım öğrenin.
 
 ## Çözüm
 

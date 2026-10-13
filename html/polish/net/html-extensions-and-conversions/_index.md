@@ -57,6 +57,8 @@ Kompletny przewodnik dla deweloperów, jak przekształcić HTML w PDF przy użyc
 Dowiedz się, jak w prosty sposób wygenerować plik PDF z kodu HTML przy użyciu Aspose.HTML w .NET – kompletny przewodnik krok po kroku.
 ### [Utwórz PDF z HTML – Kompletny przewodnik z Aspose.HTML](./create-pdf-from-html-complete-guide-with-aspose-html/)
 Dowiedz się, jak w pełni wykorzystać Aspose.HTML do generowania PDF z kodu HTML – kompletny przewodnik krok po kroku.
+### [Utwórz archiwum HTML z DOCX – przewodnik krok po kroku](./create-html-archive-from-docx-step-by-step-guide/)
+Dowiedz się, jak utworzyć archiwum HTML z pliku DOCX przy użyciu Aspose.HTML w .NET – kompletny przewodnik krok po kroku.
 ### [Konwersja EPUB do obrazu w .NET za pomocą Aspose.HTML](./convert-epub-to-image/)
 Dowiedz się, jak konwertować EPUB na obrazy za pomocą Aspose.HTML dla .NET. Samouczek krok po kroku z przykładami kodu i opcjami dostosowywania.
 ### [Konwertuj EPUB do PDF w .NET za pomocą Aspose.HTML](./convert-epub-to-pdf/)
@@ -93,6 +95,8 @@ Utwórz dokument HTML i zapisz go jako plik ZIP w C# przy użyciu Aspose.HTML �
 Dowiedz się, jak spakować HTML przy użyciu Aspose.HTML – kompletny przewodnik krok po kroku.
 ### [Jak spakować HTML w C# – Kompletny przewodnik](./how-to-zip-html-in-c-complete-guide/)
 Dowiedz się, jak spakować plik HTML do archiwum ZIP w C# przy użyciu Aspose.HTML – pełny przewodnik krok po kroku.
+### [Jak spakować HTML w C# – Eksportuj stronę internetową do ZIP przy użyciu Aspose.HTML](./how-to-zip-html-in-c-export-webpage-to-zip-with-aspose-html/)
+Dowiedz się, jak wyeksportować całą stronę internetową do pliku ZIP w C# przy użyciu Aspose.HTML.
 ### [Utwórz dokument HTML ze stylowanym tekstem i wyeksportuj do PDF – Pełny przewodnik](./create-html-document-with-styled-text-and-export-to-pdf-full/)
 Dowiedz się, jak stworzyć dokument HTML z formatowanym tekstem i wyeksportować go do PDF przy użyciu Aspose.HTML dla .NET.
 ### [Utwórz dokument HTML w C# – przewodnik krok po kroku](./create-html-document-c-step-by-step-guide/)
