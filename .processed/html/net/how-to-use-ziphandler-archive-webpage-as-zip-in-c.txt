@@ -1,0 +1,7 @@
+Title: How to Use ZipHandler – Archive Webpage as ZIP in C#
+Slug: how-to-use-ziphandler-archive-webpage-as-zip-in-c
+Category: html-extensions-and-conversions
+ProcessedDate: 2026-06-01T03:05:56.783912
+SourceRepo: AI Search API
+Keywords: how to use ziphandler, archive webpage as zip
+PRNumber: 167

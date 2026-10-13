@@ -1,24 +1,23 @@
 ---
 category: general
-date: 2026-03-18
-description: 建立固定執行緒池以快速將 HTML 轉換為 PDF。學習批次 HTML 轉 PDF、將 HTML 儲存為 PDF，並使用 Aspose.HTML
-  轉換多個 HTML 檔案。
+date: 2026-01-03
+description: 建立固定執行緒池，以快速將 HTML 轉換為 PDF，處理多個檔案，並在儲存為 PDF 前加入段落 HTML。
 draft: false
 keywords:
 - create fixed thread pool
 - convert html to pdf
-- batch html to pdf
+- process multiple files
+- add paragraph html
 - save html as pdf
-- convert multiple html files
 language: zh-hant
-og_description: 建立固定執行緒池以高效將 HTML 轉換為 PDF。本指南將帶領您完成批次 HTML 轉 PDF、將 HTML 儲存為 PDF，以及處理多個檔案。
-og_title: 建立固定執行緒池以平行執行 HTML 轉 PDF
+og_description: 建立固定執行緒池以快速將 HTML 轉換為 PDF，處理多個檔案，並在儲存為 PDF 前加入段落 HTML。
+og_title: 建立固定執行緒池以平行 HTML 轉 PDF
 tags:
 - Java
-- Multithreading
+- Concurrency
 - Aspose.HTML
-- PDF conversion
-title: 在 Java 中建立固定執行緒池以平行執行 HTML 轉 PDF 轉換
+- PDF Generation
+title: 建立固定執行緒池以平行執行 HTML 轉 PDF 轉換
 url: /zh-hant/java/conversion-html-to-other-formats/create-fixed-thread-pool-for-parallel-html-to-pdf-conversion/
 ---
 
@@ -26,178 +25,185 @@ url: /zh-hant/java/conversion-html-to-other-formats/create-fixed-thread-pool-for
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 在 Java 中建立固定執行緒池以平行執行 HTML‑to‑PDF 轉換
+# 建立固定執行緒池以平行 HTML 轉 PDF
 
-有沒有想過如何 **create fixed thread pool**，以閃電般的速度 **convert HTML to PDF**？你並非唯一有此疑問——開發者在需要一夜之間將報告資料夾轉成 PDF 時，常常卡關。  
+有沒有想過如何 **create fixed thread pool**，在不讓 CPU 超負荷的情況下 *convert HTML to PDF*？你並不孤單——許多開發者在需要 **process multiple files** 時會卡住。好消息是 Java 的 `ExecutorService` 讓這變得輕而易舉，特別是結合 Aspose.HTML 使用。在本教學中，我們將逐步說明如何設定固定執行緒池、載入每個 HTML 檔案、**add paragraph HTML** 以標示處理狀態，最後 **save HTML as PDF**。完成後，你將擁有一個完整、可直接投入任何 Java 專案的 production‑ready 範例。
 
-好消息是，你可以啟動一個工作執行緒池，將每個 HTML 檔交給 Aspose.HTML，讓 JVM 承擔繁重的工作。在本教學中，我們將批次處理 HTML 轉 PDF、save HTML as PDF，並示範如何 **convert multiple HTML files** 而不會把 CPU 爆炸。
+## 你將學到什麼
 
-## 你需要的環境
+* 為什麼 **fixed thread pool** 是 CPU‑bound 工作的最佳選擇。  
+* 如何使用 Aspose.HTML 的簡易 API **convert HTML to PDF**。  
+* 同時處理多個檔案的策略，確保記憶體使用可預測。  
+* 快速技巧：在每個文件中 **add paragraph HTML**，以便觀察轉換結果。  
+* 完整步驟：**save HTML as PDF** 並清理執行緒池。  
 
-- Java 17 或更新版本（此程式碼在任何近期 JDK 都可執行）  
-- Aspose.HTML for Java 23.9（或最新版本）— 內含我們將使用的 `Converter` 類別  
-- 幾個你想轉成 PDF 的 `.html` 檔案  
-- 你喜愛的 IDE 或簡易文字編輯器  
+不需要外部工具，也不需要神奇的「run‑it‑once」腳本——只要純 Java、少量程式碼，並清楚說明每個部分 *why* 重要的原因。
 
-就這樣。除了 classpath 上的 Aspose.HTML JAR，無需其他外部建置工具。
+![建立固定執行緒池示意圖](https://example.com/fixed-thread-pool.png "建立固定執行緒池示意圖"){alt="建立固定執行緒池示意圖"}
 
-## 步驟 1：列出要處理的 HTML 檔案
+## 步驟 1：建立平行處理的固定執行緒池
 
-首先，你需要一組來源檔案。把它想像成轉換工作所需的「購物清單」。
-
-```java
-// Step 1 – define the files that will be turned into PDFs
-String[] htmlFileNames = {
-        "YOUR_DIRECTORY/input1.html",
-        "YOUR_DIRECTORY/input2.html",
-        "YOUR_DIRECTORY/input3.html",
-        "YOUR_DIRECTORY/input4.html"
-};
-```
-
-為什麼要把清單放在陣列中？它簡單、型別安全，且之後可以用乾淨的 `for‑each` 迴圈遍歷。如果你需要從目錄讀取檔名，只要把陣列換成 `Files.list(Paths.get("YOUR_DIRECTORY"))…` 即可。
-
-## 步驟 2：**Create Fixed Thread Pool**（依 CPU 數量調整大小）
-
-現在我們真的 **create fixed thread pool**。執行緒池大小與邏輯核心數相同，通常能在不讓作業系統資源匱乏的情況下提供最佳吞吐量。
+我們首先需要一個工作執行緒池，其數量與機器的邏輯核心數相同。使用 `Runtime.getRuntime().availableProcessors()` 可確保不會過度佔用 CPU，避免實際上變慢。
 
 ```java
-// Step 2 – spin up a fixed thread pool based on available processors
-ExecutorService executor = Executors.newFixedThreadPool(
-        Runtime.getRuntime().availableProcessors());
-```
-
-*小技巧：* 如果你的轉換是 I/O‑bound（從磁碟讀取大型 HTML 檔），可以把池子大小稍微調高。但對於 CPU 密集的渲染工作，與核心數相同是最佳選擇。
-
-![固定執行緒池處理 HTML‑to‑PDF 任務的示意圖](/images/create-fixed-thread-pool-diagram.png "建立固定執行緒池示意圖")
-
-*Alt text:* 顯示平行將 HTML 檔案轉為 PDF 的固定執行緒池示意圖。
-
-## 步驟 3：為每個檔案提交 **Convert HTML to PDF** 任務
-
-執行緒池就緒後，我們將每個 HTML 路徑交給工作執行緒。於 lambda 內呼叫 Aspose.HTML 的 `Converter.convertDocument`，負責渲染頁面並寫入 PDF 的繁重工作。
-
-```java
-// Step 3 – enqueue a conversion job for every HTML file
-for (String sourcePath : htmlFileNames) {
-    executor.submit(() -> {
-        String destinationPath = sourcePath.replace(".html", ".pdf");
-        try {
-            // Convert HTML to PDF using Aspose.HTML
-            Converter.convertDocument(sourcePath, destinationPath, new PdfSaveOptions());
-            System.out.println("Converted: " + sourcePath);
-        } catch (Exception e) {
-            // Wrap checked exceptions to avoid cluttering the lambda
-            throw new RuntimeException(e);
-        }
-    });
-}
-```
-
-為什麼要包住例外？Lambda 無法直接拋出已檢查例外，除非使用 try‑catch；將其重新拋出為 `RuntimeException` 能讓程式碼保持簡潔，同時在主控台顯示失敗訊息。
-
-## 步驟 4：優雅地關閉執行緒池並 **Convert Multiple HTML Files**
-
-所有工作排入佇列後，我們指示 executor 停止接受新任務，並等待所有執行緒結束。這是 **batch HTML to PDF** 的乾淨做法，避免留下懸掛的執行緒。
-
-```java
-// Step 4 – stop accepting new tasks and wait for completion
-executor.shutdown();
-executor.awaitTermination(5, TimeUnit.MINUTES);
-```
-
-若逾時，程式會帶著警告退出——對於不想讓流程失控的 CI pipeline 來說相當合適。
-
-## 驗證結果 – **Save HTML as PDF**
-
-程式執行完畢後，你應該會在原始 `.html` 檔旁看到一系列 `.pdf` 檔。打開任一檔案，你會發現版面、CSS 與圖片都被完整保留——這正是使用現代渲染器 **save HTML as PDF** 時的預期結果。
-
-```text
-$ ls YOUR_DIRECTORY
-input1.html  input1.pdf  input2.html  input2.pdf  ...
-```
-
-如果缺少 PDF，請檢查主控台輸出的例外堆疊追蹤。常見問題包括：
-
-- 伺服器缺少字型（Aspose.HTML 會回退至預設字型，但外觀可能會變）  
-- 相對圖片路徑無法從工作目錄解析  
-- 記憶體不足以處理極大 HTML 頁面（可使用 `-Xmx2g` 增加 JVM 堆積）
-
-## 實務技巧與竅門
-
-| 情境 | 建議 |
-|-----------|----------------|
-| **大量批次（1000+ 檔案）** | 使用有界佇列（`LinkedBlockingQueue`）並分批提交任務，以避免 `OutOfMemoryError`。 |
-| **不同的輸出目錄** | 使用 `Paths.get(outputDir, filename + ".pdf")` 計算 `destinationPath`。 |
-| **自訂 PDF 設定** | 傳入已配置的 `PdfSaveOptions`（例如設定 `setCompress(true)`）取代預設值。 |
-| **使用日誌取代 `System.out`** | 導入 SLF4J 或 Log4j 以取得生產等級的日誌。 |
-| **錯誤處理** | 將失敗的檔案收集到清單中，於主要執行結束後重新嘗試。 |
-
-這些調整讓你能在生產環境中可靠地 **convert multiple HTML files**。
-
-## 完整範例程式
-
-以下是完整、可直接執行的 Java 類別。將它複製貼上至 `ParallelBatch.java`，將 Aspose.HTML JAR 加入 classpath，然後執行 `java ParallelBatch`。
-
-```java
-import com.aspose.html.converters.Converter;
-import com.aspose.html.saving.PdfSaveOptions;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
-public class ParallelBatch {
+public class ParallelConversion {
     public static void main(String[] args) throws Exception {
 
-        // Step 1: List the HTML files to be converted
-        String[] htmlFileNames = {
-                "YOUR_DIRECTORY/input1.html",
-                "YOUR_DIRECTORY/input2.html",
-                "YOUR_DIRECTORY/input3.html",
-                "YOUR_DIRECTORY/input4.html"
-        };
-
-        // Step 2: Create a fixed thread pool sized to the number of CPU cores
-        ExecutorService executor = Executors.newFixedThreadPool(
+        // Step 1: Create a thread pool sized to the available processors
+        ExecutorService pool = Executors.newFixedThreadPool(
                 Runtime.getRuntime().availableProcessors());
 
-        // Step 3: Submit a conversion task for each HTML file
-        for (String sourcePath : htmlFileNames) {
-            executor.submit(() -> {
-                String destinationPath = sourcePath.replace(".html", ".pdf");
+        // ... remaining code follows
+```
+
+*Why a fixed pool?* 因為它為執行緒提供固定的上限，防止 `newCachedThreadPool()` 可能引發的「執行緒爆炸」問題。它亦會重複使用閒置執行緒，減少不斷建立與銷毀的開銷。
+
+## 步驟 2：使用 Aspose.HTML 轉換 HTML 為 PDF
+
+Aspose.HTML 讓你直接將 HTML 檔案載入類 DOM 的 `HTMLDocument`。之後，將其儲存為 PDF 只需一行程式碼。此函式庫會處理 CSS、圖片，甚至 JavaScript（若啟用引擎），因此可得到像素完美的輸出。
+
+```java
+import com.aspose.html.HTMLDocument;
+
+// Inside the for‑each loop (see Step 3)
+HTMLDocument doc = new HTMLDocument(inputPath);
+```
+
+一旦文件載入記憶體，轉換就變得非常簡單：
+
+```java
+// Save the document as PDF (same name with .pdf extension)
+String outputPath = inputPath.replace(".html", ".pdf");
+doc.save(outputPath);
+```
+
+這就是 **convert html to pdf** 的核心——不需要手動渲染迴圈，也不需要繁瑣的 iText 操作。
+
+## 步驟 3：有效率地處理多個檔案
+
+既然已有執行緒池與轉換流程，我們需要將每個 HTML 檔案分派給工作執行緒。最簡單的做法是遍歷檔案路徑陣列，為每個檔案提交一個 `Runnable`。
+
+```java
+        // Step 2: List the HTML files to be converted
+        String[] inputFiles = {
+                "YOUR_DIRECTORY/a.html",
+                "YOUR_DIRECTORY/b.html",
+                "YOUR_DIRECTORY/c.html"
+        };
+
+        // Step 3: Submit a conversion task for each file
+        for (String inputPath : inputFiles) {
+            pool.submit(() -> {
                 try {
-                    // Convert the HTML document to PDF using Aspose.HTML
-                    Converter.convertDocument(sourcePath, destinationPath, new PdfSaveOptions());
-                    System.out.println("Converted: " + sourcePath);
+                    // Load, modify, and save (see next steps)
                 } catch (Exception e) {
-                    // Wrap any checked exception as an unchecked one for simplicity
-                    throw new RuntimeException(e);
+                    e.printStackTrace(); // minimal error handling for tutorial
                 }
             });
         }
+```
 
-        // Step 4: Shut down the pool and wait for all conversions to finish
-        executor.shutdown();
-        executor.awaitTermination(5, TimeUnit.MINUTES);
+由於每個任務都在自己的執行緒中執行，**process multiple files** 可平行處理，且不需額外同步程式碼。若檔案數量超過可用執行緒，執行緒池會自動排隊。
+
+## 步驟 4：為每個文件加入段落 HTML
+
+有時你可能想在輸出中加註記，證明檔案已被你的流程處理過。加入簡單的 `<p>` 元素是一個不錯的方式。Aspose.HTML 的 DOM API 讓這個操作變得直接：
+
+```java
+                    // Simple manipulation: add a paragraph indicating processing
+                    doc.getBody()
+                       .appendChild(doc.createElement("p"))
+                       .setTextContent("Processed");
+```
+
+這行 **add paragraph html** 於轉換前加入段落，使每個 PDF 在頁底都會顯示「Processed」字樣。當你稍後開啟 PDF 時，也能作為除錯提示。
+
+## 步驟 5：將 HTML 儲存為 PDF 並清理資源
+
+在加入段落後，我們將檔案寫入。所有任務提交完畢後，我們必須優雅地關閉執行緒池，以確保 JVM 能順利結束。
+
+```java
+        // Step 4: Shut down the pool and wait for all tasks to finish
+        pool.shutdown();
+        pool.awaitTermination(1, TimeUnit.HOURS);
     }
 }
 ```
 
-執行後，你會在主控台看到每個檔案的確認訊息：
+`awaitTermination` 會阻塞主執行緒，直到所有工作執行緒完成或超過一小時的上限——非常適合在 CI 流水線中執行的批次工作。
 
+## 完整範例
+
+將所有部件組合起來，以下是完整、可直接複製貼上的程式：
+
+```java
+import com.aspose.html.HTMLDocument;
+import java.util.concurrent.*;
+
+public class ParallelConversion {
+    public static void main(String[] args) throws Exception {
+
+        // Step 1: Create a thread pool sized to the available processors
+        ExecutorService pool = Executors.newFixedThreadPool(
+                Runtime.getRuntime().availableProcessors());
+
+        // Step 2: List the HTML files to be converted
+        String[] inputFiles = {
+                "YOUR_DIRECTORY/a.html",
+                "YOUR_DIRECTORY/b.html",
+                "YOUR_DIRECTORY/c.html"
+        };
+
+        // Step 3: Submit a conversion task for each file
+        for (String inputPath : inputFiles) {
+            pool.submit(() -> {
+                try {
+                    // Load the HTML document
+                    HTMLDocument doc = new HTMLDocument(inputPath);
+
+                    // Simple manipulation: add a paragraph indicating processing
+                    doc.getBody()
+                       .appendChild(doc.createElement("p"))
+                       .setTextContent("Processed");
+
+                    // Save the document as PDF (same name with .pdf extension)
+                    String outputPath = inputPath.replace(".html", ".pdf");
+                    doc.save(outputPath);
+                } catch (Exception e) {
+                    // Minimal error handling for the tutorial
+                    e.printStackTrace();
+                }
+            });
+        }
+
+        // Step 4: Shut down the pool and wait for all tasks to finish
+        pool.shutdown();
+        pool.awaitTermination(1, TimeUnit.HOURS);
+    }
+}
 ```
-Converted: YOUR_DIRECTORY/input1.html
-Converted: YOUR_DIRECTORY/input2.html
-...
-```
+
+**預期結果：** 執行程式後，你會在同一目錄中看到 `a.pdf`、`b.pdf`、`c.pdf`。打開任一檔案，即可看到原始 HTML 完美呈現，且頁底有「Processed」段落。
+
+## 專業提示與常見陷阱
+
+* **Thread count matters.** 如果將執行緒池大小設定超過核心數，會看到上下文切換的開銷。除非有充分理由，否則請使用 `availableProcessors()`。  
+* **File I/O can become a bottleneck.** 若要轉換數百 MB 的檔案，請考慮串流輸入或使用高速 SSD。  
+* **Exception handling.** 在正式環境中，你應將失敗記錄到檔案或監控系統，而非僅使用 `printStackTrace()`。  
+* **Memory usage.** 每個 `HTMLDocument` 會佔用執行緒的堆積記憶體直至任務結束。若記憶體不足，請將批次拆成較小的區塊或增加堆積大小 (`-Xmx`)。  
+* **Aspose licensing.** 此程式碼在免費評估版可執行，但商業使用時需取得正式授權以避免浮水印。
 
 ## 結論
 
-我們剛剛示範了如何在 Java 中 **create fixed thread pool**，並以平行方式 **convert HTML to PDF**。透過批次處理，你可以有效率地 **convert multiple HTML files**，讓 CPU 保持順暢，最終得到一組整齊的 PDF，隨時可供發佈。  
+我們示範了如何在 Java 中 **create fixed thread pool**，接著使用它 **convert HTML to PDF**、**process multiple files** 同時處理、**add paragraph HTML**，最後 **save HTML as PDF**。此方法具備執行緒安全、可擴充且易於延伸——只要加入更多檔案或將操作步驟換成更高階的處理即可。
 
-接下來，你可以探索更進階的 Aspose.HTML 功能——例如嵌入字型、加入浮水印，或將產生的 PDF 合併成單一報告。若想了解水平擴展，可將本機執行緒池換成分散式執行器，如 ForkJoinPool 或雲端工作佇列。  
+準備好下一步了嗎？試著在轉換前加入 CSS 樣式表，或是實驗不同的執行緒池策略，例如 `ForkJoinPool`。你在此建立的基礎，將能有效支援任何需要快速處理 HTML 文件的批次工作。
 
-試試看，調整池子大小，讓你的應用程式輕鬆處理下一波大量 HTML 報告。祝編程愉快！
+如果你覺得本指南對你有幫助，請給它一個星標，與同事分享，或留下你自己的調整建議。祝編程愉快！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

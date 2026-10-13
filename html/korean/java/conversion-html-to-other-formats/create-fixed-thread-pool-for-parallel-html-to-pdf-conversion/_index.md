@@ -1,25 +1,25 @@
 ---
 category: general
-date: 2026-03-18
-description: HTML을 PDF로 빠르게 변환하기 위해 고정 스레드 풀을 생성합니다. 배치 HTML을 PDF로 변환하는 방법을 배우고, HTML을
-  PDF로 저장하며, Aspose.HTML를 사용하여 여러 HTML 파일을 변환합니다.
+date: 2026-01-03
+description: HTML을 PDF로 빠르게 변환하기 위해 고정 스레드 풀을 생성하고, 여러 파일을 처리하며 PDF로 저장하기 전에 단락 HTML을
+  추가합니다.
 draft: false
 keywords:
 - create fixed thread pool
 - convert html to pdf
-- batch html to pdf
+- process multiple files
+- add paragraph html
 - save html as pdf
-- convert multiple html files
 language: ko
-og_description: HTML을 PDF로 효율적으로 변환하기 위해 고정 스레드 풀을 생성합니다. 이 가이드는 배치 HTML을 PDF로 변환하고,
-  HTML을 PDF로 저장하며, 여러 파일을 처리하는 방법을 안내합니다.
-og_title: 병렬 HTML‑to‑PDF 변환을 위한 고정 스레드 풀 생성
+og_description: 고정 스레드 풀을 생성하여 HTML을 빠르게 PDF로 변환하고, 여러 파일을 처리하며 PDF로 저장하기 전에 단락 HTML을
+  추가합니다.
+og_title: 병렬 HTML을 PDF로 변환하기 위한 고정 스레드 풀 생성
 tags:
 - Java
-- Multithreading
+- Concurrency
 - Aspose.HTML
-- PDF conversion
-title: Java에서 병렬 HTML을 PDF로 변환하기 위한 고정 스레드 풀 생성
+- PDF Generation
+title: HTML을 PDF로 병렬 변환하기 위한 고정 스레드 풀 생성
 url: /ko/java/conversion-html-to-other-formats/create-fixed-thread-pool-for-parallel-html-to-pdf-conversion/
 ---
 
@@ -27,177 +27,185 @@ url: /ko/java/conversion-html-to-other-formats/create-fixed-thread-pool-for-para
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java에서 병렬 HTML‑to‑PDF 변환을 위한 고정 스레드 풀 만들기
+# 병렬 HTML to PDF 변환을 위한 고정 스레드 풀 생성
 
-HTML을 PDF로 **고정 스레드 풀**을 사용해 번개처럼 빠르게 **변환**하는 방법이 궁금하셨나요? 여러분만 그런 것이 아닙니다—개발자들은 종종 밤새 폴더에 있는 보고서를 PDF로 변환해야 하는 상황에 부딪히곤 합니다.  
+CPU를 과부하 시키지 않고 **create fixed thread pool**을 사용해 *convert HTML to PDF* 할 수 있는 방법이 궁금하셨나요? 여러분만 그런 것이 아닙니다—많은 개발자들이 **process multiple files**를 빠르게 해야 할 때 벽에 부딪히곤 합니다. 좋은 소식은 Java의 `ExecutorService`가 특히 Aspose.HTML과 함께 사용할 때 매우 간편하게 만들어 준다는 것입니다. 이 튜토리얼에서는 고정 스레드 풀을 설정하고, 각 HTML 파일을 로드하며, **add paragraph HTML**을 추가해 처리 과정을 표시하고, 마지막으로 **save HTML as PDF**하는 과정을 단계별로 살펴보겠습니다. 끝까지 읽으면 어느 Java 프로젝트에든 바로 넣어 사용할 수 있는 완전한 프로덕션‑레디 예제를 얻게 될 것입니다.
 
-좋은 소식은 작업자 스레드 풀을 만들고 각 HTML 파일을 Aspose.HTML에 전달한 뒤 JVM이 무거운 작업을 처리하도록 할 수 있다는 점입니다. 이 튜토리얼에서는 HTML을 PDF로 배치 변환하고, HTML을 PDF로 저장하며, **여러 HTML 파일을 변환**하면서 CPU를 과부하시키지 않는 방법을 보여드립니다.
+## 배울 내용
 
-## 준비물
+* CPU‑bound 작업에 **fixed thread pool**이 최적의 선택인 이유.  
+* Aspose.HTML의 간단한 API를 사용해 **convert HTML to PDF**하는 방법.  
+* 메모리 사용량을 예측 가능하게 유지하면서 **process multiple files**를 동시에 처리하는 전략.  
+* **add paragraph HTML**을 각 문서에 빠르게 추가해 변환 결과를 확인하는 트릭.  
+* **save HTML as PDF**하고 스레드 풀을 정리하는 정확한 단계.
 
-- Java 17 이상 (코드는 최신 JDK에서 모두 동작)  
-- Aspose.HTML for Java 23.9 (또는 최신 버전) – 여기서 사용할 `Converter` 클래스가 포함되어 있습니다  
-- PDF로 변환하고 싶은 `.html` 파일 몇 개  
-- 좋아하는 IDE 또는 간단한 텍스트 편집기  
+외부 도구도, 마법 같은 “run‑it‑once” 스크립트도 없습니다—그냥 순수 Java와 몇 줄의 코드, 그리고 각 부분이 왜 중요한지에 대한 명확한 설명만 있습니다.
 
-이것만 있으면 됩니다. Aspose.HTML JAR만 클래스패스에 있으면 별도의 외부 빌드 도구는 필요하지 않습니다.
+![고정 스레드 풀 다이어그램](https://example.com/fixed-thread-pool.png "고정 스레드 풀 다이어그램"){alt="고정 스레드 풀 다이어그램"}
 
-## 1단계: 처리할 HTML 파일 목록 만들기  
+## 단계 1: 병렬 처리를 위한 고정 스레드 풀 생성
 
-먼저 변환할 소스 파일들의 컬렉션이 필요합니다. 이를 “쇼핑 리스트”에 비유해 보세요.
-
-```java
-// Step 1 – define the files that will be turned into PDFs
-String[] htmlFileNames = {
-        "YOUR_DIRECTORY/input1.html",
-        "YOUR_DIRECTORY/input2.html",
-        "YOUR_DIRECTORY/input3.html",
-        "YOUR_DIRECTORY/input4.html"
-};
-```
-
-배열에 목록을 보관하는 이유는 간단하고 타입‑안전하며, 이후에 깔끔한 `for‑each` 루프로 반복할 수 있기 때문입니다. 디렉터리에서 파일 이름을 읽어와야 한다면 `Files.list(Paths.get("YOUR_DIRECTORY"))…` 로 배열을 교체하면 됩니다.
-
-## 2단계: CPU에 맞는 **고정 스레드 풀** 생성  
-
-이제 실제로 **고정 스레드 풀**을 **생성**합니다. 풀 크기는 논리 코어 수와 일치시키며, 이는 일반적으로 OS를 과도하게 차단하지 않으면서 최고의 처리량을 제공합니다.
+우리가 먼저 필요로 하는 것은 머신의 논리 코어 수와 일치하는 작업자 스레드 풀입니다. `Runtime.getRuntime().availableProcessors()`를 사용하면 CPU를 과도하게 할당하지 않으므로 실제로 속도가 느려지는 일을 방지할 수 있습니다.
 
 ```java
-// Step 2 – spin up a fixed thread pool based on available processors
-ExecutorService executor = Executors.newFixedThreadPool(
-        Runtime.getRuntime().availableProcessors());
-```
-
-*팁:* 변환 작업이 I/O‑바운드(디스크에서 큰 HTML 파일을 읽는 경우)라면 풀 크기를 조금 더 크게 잡아도 됩니다. 하지만 CPU‑집중 렌더링이라면 코어 수와 맞추는 것이 최적입니다.
-
-![Diagram of a fixed thread pool handling HTML‑to‑PDF tasks](/images/create-fixed-thread-pool-diagram.png "create fixed thread pool illustration")
-*Alt text:* 고정 스레드 풀이 HTML 파일을 PDF로 병렬 변환하는 다이어그램.
-
-## 3단계: 각 파일에 대해 **Convert HTML to PDF** 작업 제출  
-
-풀을 준비했으면 각 HTML 경로를 작업자 스레드에 전달합니다. 람다 내부에서는 Aspose.HTML의 `Converter.convertDocument` 를 호출해 페이지 렌더링과 PDF 작성을 수행합니다.
-
-```java
-// Step 3 – enqueue a conversion job for every HTML file
-for (String sourcePath : htmlFileNames) {
-    executor.submit(() -> {
-        String destinationPath = sourcePath.replace(".html", ".pdf");
-        try {
-            // Convert HTML to PDF using Aspose.HTML
-            Converter.convertDocument(sourcePath, destinationPath, new PdfSaveOptions());
-            System.out.println("Converted: " + sourcePath);
-        } catch (Exception e) {
-            // Wrap checked exceptions to avoid cluttering the lambda
-            throw new RuntimeException(e);
-        }
-    });
-}
-```
-
-예외를 래핑하는 이유는 람다에서 체크 예외를 직접 던질 수 없기 때문이며, `RuntimeException` 으로 재throw 하면 코드를 간결하게 유지하면서도 콘솔에 실패를 표시할 수 있습니다.
-
-## 4단계: 풀을 정상적으로 종료하고 **Convert Multiple HTML Files** 수행  
-
-모든 작업을 큐에 넣은 뒤, 실행자를 새 작업을 받지 않도록 하고 모든 스레드가 끝날 때까지 기다립니다. 이는 **HTML을 PDF로 배치 변환**하면서 남은 스레드가 없도록 하는 깔끔한 방법입니다.
-
-```java
-// Step 4 – stop accepting new tasks and wait for completion
-executor.shutdown();
-executor.awaitTermination(5, TimeUnit.MINUTES);
-```
-
-타임아웃이 발생하면 프로그램이 경고와 함께 종료됩니다—CI 파이프라인에서 runaway 프로세스를 방지하고 싶을 때 딱 맞습니다.
-
-## 결과 확인 – **Save HTML as PDF**  
-
-프로그램이 끝나면 원본 `.html` 파일 옆에 일련의 `.pdf` 파일이 생성된 것을 볼 수 있습니다. 하나를 열어보면 레이아웃, CSS, 이미지가 그대로 보존되어 있음을 확인할 수 있습니다—이는 최신 렌더러로 **HTML을 PDF로 저장**했을 때 기대하는 바로 그 결과입니다.
-
-```text
-$ ls YOUR_DIRECTORY
-input1.html  input1.pdf  input2.html  input2.pdf  ...
-```
-
-PDF가 누락된 경우 콘솔에 출력된 예외 스택 트레이스를 확인하세요. 흔히 발생하는 문제는 다음과 같습니다:
-
-- 서버에 폰트가 없을 경우 (Aspose.HTML이 기본 폰트로 대체하지만 모양이 달라질 수 있음)  
-- 작업 디렉터리 기준으로 해석되지 않는 상대 이미지 경로  
-- 매우 큰 HTML 페이지에 대한 메모리 부족 (`-Xmx2g` 로 JVM 힙을 늘리세요)
-
-## 실제 사용을 위한 팁 & 트릭  
-
-| 상황 | 권장 사항 |
-|-----------|----------------|
-| **대규모 배치 (1000개 이상 파일)** | `LinkedBlockingQueue` 같은 제한된 큐를 사용하고 작업을 청크 단위로 제출해 `OutOfMemoryError` 를 방지하세요. |
-| **다른 출력 디렉터리** | `Paths.get(outputDir, filename + ".pdf")` 로 `destinationPath` 를 계산하세요. |
-| **맞춤형 PDF 설정** | 기본 옵션 대신 `PdfSaveOptions` 를 구성하여 `setCompress(true)` 와 같은 설정을 전달하세요. |
-| **`System.out` 대신 로깅** | 프로덕션 등급 로그를 위해 SLF4J 또는 Log4j 를 연결하세요. |
-| **오류 처리** | 실패한 파일을 리스트에 모아 두었다가 메인 실행이 끝난 뒤 재시도하세요. |
-
-이러한 조정으로 **여러 HTML 파일을 변환**하는 작업을 프로덕션 환경에서도 안정적으로 수행할 수 있습니다.
-
-## 전체 작업 예제  
-
-아래는 완전한 실행 가능한 Java 클래스입니다. `ParallelBatch.java` 파일에 복사·붙여넣기하고, Aspose.HTML JAR 를 클래스패스에 추가한 뒤 `java ParallelBatch` 로 실행하세요.
-
-```java
-import com.aspose.html.converters.Converter;
-import com.aspose.html.saving.PdfSaveOptions;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
-public class ParallelBatch {
+public class ParallelConversion {
     public static void main(String[] args) throws Exception {
 
-        // Step 1: List the HTML files to be converted
-        String[] htmlFileNames = {
-                "YOUR_DIRECTORY/input1.html",
-                "YOUR_DIRECTORY/input2.html",
-                "YOUR_DIRECTORY/input3.html",
-                "YOUR_DIRECTORY/input4.html"
-        };
-
-        // Step 2: Create a fixed thread pool sized to the number of CPU cores
-        ExecutorService executor = Executors.newFixedThreadPool(
+        // Step 1: Create a thread pool sized to the available processors
+        ExecutorService pool = Executors.newFixedThreadPool(
                 Runtime.getRuntime().availableProcessors());
 
-        // Step 3: Submit a conversion task for each HTML file
-        for (String sourcePath : htmlFileNames) {
-            executor.submit(() -> {
-                String destinationPath = sourcePath.replace(".html", ".pdf");
+        // ... remaining code follows
+```
+
+*Why a fixed pool?* 고정 풀은 스레드 수에 일정한 상한을 제공하여 `newCachedThreadPool()`에서 발생할 수 있는 끔찍한 “스레드 폭발”을 방지합니다. 또한 유휴 스레드를 재사용함으로써 지속적인 생성·소멸 오버헤드를 줄여줍니다.
+
+## 단계 2: Aspose.HTML을 사용해 HTML을 PDF로 변환
+
+Aspose.HTML을 사용하면 HTML 파일을 DOM과 유사한 `HTMLDocument`에 바로 로드할 수 있습니다. 여기서 PDF로 저장하는 것은 한 줄 코드로 가능합니다. 이 라이브러리는 CSS, 이미지, 그리고 엔진을 활성화하면 JavaScript까지 처리하므로 픽셀 단위로 완벽한 출력물을 얻을 수 있습니다.
+
+```java
+import com.aspose.html.HTMLDocument;
+
+// Inside the for‑each loop (see Step 3)
+HTMLDocument doc = new HTMLDocument(inputPath);
+```
+
+문서가 메모리에 로드되면 변환은 매우 간단합니다:
+
+```java
+// Save the document as PDF (same name with .pdf extension)
+String outputPath = inputPath.replace(".html", ".pdf");
+doc.save(outputPath);
+```
+
+이것이 **convert html to pdf**의 핵심입니다—수동 렌더링 루프도, 복잡한 iText 조작도 필요 없습니다.
+
+## 단계 3: 다수 파일을 효율적으로 처리
+
+이제 풀과 변환 루틴이 준비되었으니, 모든 HTML 파일을 작업자 스레드에 전달해야 합니다. 가장 간단한 방법은 파일 경로 배열을 순회하면서 각 파일에 대해 `Runnable`을 제출하는 것입니다.
+
+```java
+        // Step 2: List the HTML files to be converted
+        String[] inputFiles = {
+                "YOUR_DIRECTORY/a.html",
+                "YOUR_DIRECTORY/b.html",
+                "YOUR_DIRECTORY/c.html"
+        };
+
+        // Step 3: Submit a conversion task for each file
+        for (String inputPath : inputFiles) {
+            pool.submit(() -> {
                 try {
-                    // Convert the HTML document to PDF using Aspose.HTML
-                    Converter.convertDocument(sourcePath, destinationPath, new PdfSaveOptions());
-                    System.out.println("Converted: " + sourcePath);
+                    // Load, modify, and save (see next steps)
                 } catch (Exception e) {
-                    // Wrap any checked exception as an unchecked one for simplicity
-                    throw new RuntimeException(e);
+                    e.printStackTrace(); // minimal error handling for tutorial
                 }
             });
         }
+```
 
-        // Step 4: Shut down the pool and wait for all conversions to finish
-        executor.shutdown();
-        executor.awaitTermination(5, TimeUnit.MINUTES);
+각 작업이 자체 스레드에서 실행되므로 **process multiple files**를 추가 동기화 코드 없이 병렬로 수행할 수 있습니다. 파일 수가 사용 가능한 스레드보다 많을 경우 풀은 자동으로 작업을 큐에 넣습니다.
+
+## 단계 4: 각 문서에 Paragraph HTML 추가
+
+때때로 출력에 주석을 달고 싶을 때가 있습니다. 파이프라인이 파일을 처리했음을 증명하기 위해 간단한 `<p>` 요소를 추가하는 것이 좋은 방법입니다. Aspose.HTML의 DOM API를 사용하면 매우 간단합니다:
+
+```java
+                    // Simple manipulation: add a paragraph indicating processing
+                    doc.getBody()
+                       .appendChild(doc.createElement("p"))
+                       .setTextContent("Processed");
+```
+
+그 라인은 변환 직전 **add paragraph html**을 수행하므로, 모든 PDF는 페이지 하단에 “Processed”라는 단어가 포함됩니다. PDF를 나중에 열었을 때 디버깅 힌트로도 유용합니다.
+
+## 단계 5: HTML을 PDF로 저장하고 정리
+
+Paragraph를 추가한 후 파일을 저장합니다. 모든 작업을 제출한 뒤에는 풀을 정상적으로 종료시켜 JVM이 깔끔하게 종료되도록 해야 합니다.
+
+```java
+        // Step 4: Shut down the pool and wait for all tasks to finish
+        pool.shutdown();
+        pool.awaitTermination(1, TimeUnit.HOURS);
     }
 }
 ```
 
-실행하면 콘솔에 각 파일이 처리됐다는 메시지가 표시됩니다:
+`awaitTermination` 호출은 모든 작업자가 완료되거나 시간 제한(1시간)이 초과될 때까지 메인 스레드를 차단합니다—CI 파이프라인 내에서 실행되는 배치 작업에 이상적입니다.
 
+## 전체 작업 예제
+
+모든 요소를 결합하면, 다음은 복사‑붙여넣기만으로 바로 사용할 수 있는 완전한 프로그램입니다:
+
+```java
+import com.aspose.html.HTMLDocument;
+import java.util.concurrent.*;
+
+public class ParallelConversion {
+    public static void main(String[] args) throws Exception {
+
+        // Step 1: Create a thread pool sized to the available processors
+        ExecutorService pool = Executors.newFixedThreadPool(
+                Runtime.getRuntime().availableProcessors());
+
+        // Step 2: List the HTML files to be converted
+        String[] inputFiles = {
+                "YOUR_DIRECTORY/a.html",
+                "YOUR_DIRECTORY/b.html",
+                "YOUR_DIRECTORY/c.html"
+        };
+
+        // Step 3: Submit a conversion task for each file
+        for (String inputPath : inputFiles) {
+            pool.submit(() -> {
+                try {
+                    // Load the HTML document
+                    HTMLDocument doc = new HTMLDocument(inputPath);
+
+                    // Simple manipulation: add a paragraph indicating processing
+                    doc.getBody()
+                       .appendChild(doc.createElement("p"))
+                       .setTextContent("Processed");
+
+                    // Save the document as PDF (same name with .pdf extension)
+                    String outputPath = inputPath.replace(".html", ".pdf");
+                    doc.save(outputPath);
+                } catch (Exception e) {
+                    // Minimal error handling for the tutorial
+                    e.printStackTrace();
+                }
+            });
+        }
+
+        // Step 4: Shut down the pool and wait for all tasks to finish
+        pool.shutdown();
+        pool.awaitTermination(1, TimeUnit.HOURS);
+    }
+}
 ```
-Converted: YOUR_DIRECTORY/input1.html
-Converted: YOUR_DIRECTORY/input2.html
-...
-```
 
-## 결론  
+**Expected result:** 프로그램을 실행하면 동일한 디렉터리에서 `a.pdf`, `b.pdf`, `c.pdf` 파일을 찾을 수 있습니다. 파일을 열면 원본 HTML이 완벽하게 렌더링되고 페이지 하단에 “Processed” 단락이 추가된 것을 확인할 수 있습니다.
 
-우리는 Java에서 **고정 스레드 풀**을 **생성**하고 이를 사용해 **HTML을 PDF로 병렬 변환**하는 방법을 살펴보았습니다. 작업을 배치로 처리하면 **여러 HTML 파일을 변환**하면서 CPU를 효율적으로 활용하고, 깔끔한 PDF 세트를 손쉽게 만들 수 있습니다.  
+## 전문가 팁 및 흔히 발생하는 실수
 
-다음 단계로는 폰트 삽입, 워터마크 추가, 생성된 PDF들을 하나의 보고서로 병합하는 등 Aspose.HTML의 고급 기능을 탐색해 보세요. 혹은 스케일 아웃이 필요하다면 로컬 스레드 풀을 ForkJoinPool 이나 클라우드 기반 작업 큐와 같은 분산 실행기로 교체해 볼 수 있습니다.  
+* **Thread count matters.** 풀 크기를 코어 수보다 크게 설정하면 컨텍스트 스위치 오버헤드가 발생합니다. 특별한 이유가 없는 한 `availableProcessors()`를 사용하세요.  
+* **File I/O can become a bottleneck.** 수백 메가바이트를 변환하는 경우 입력을 스트리밍하거나 빠른 SSD를 사용하는 것을 고려하세요.  
+* **Exception handling.** 실제 운영 환경에서는 `printStackTrace()` 대신 실패를 파일이나 모니터링 시스템에 기록하는 것이 좋습니다.  
+* **Memory usage.** 각 `HTMLDocument`는 작업이 끝날 때까지 해당 스레드의 힙에 존재합니다. 메모리가 부족하면 배치를 더 작은 청크로 나누거나 힙 크기(`-Xmx`)를 늘리세요.  
+* **Aspose licensing.** 코드는 무료 평가 버전으로도 동작하지만, 상업적 사용 시 워터마크를 피하려면 정식 라이선스가 필요합니다.
 
-풀 크기를 조정해 보고, 다음 대규모 HTML 보고서 변환도 문제없이 처리해 보세요. 즐거운 코딩 되세요!
+## 결론
+
+Java에서 **create fixed thread pool**을 만드는 방법을 보여준 뒤, 이를 사용해 **convert HTML to PDF**, **process multiple files**를 동시에 수행하고, **add paragraph HTML**을 추가한 뒤 최종적으로 **save HTML as PDF**하는 과정을 살펴보았습니다. 이 접근 방식은 스레드 안전하고 확장 가능하며 쉽게 확장할 수 있습니다—파일을 더 추가하거나 조작 단계를 더 복잡한 것으로 교체하면 됩니다.
+
+다음 단계가 준비되셨나요? 변환 전에 CSS 스타일시트를 추가해 보거나 `ForkJoinPool`과 같은 다른 스레드 풀 전략을 실험해 보세요. 여기서 만든 기반은 HTML 문서를 빠르게 처리해야 하는 모든 배치 작업에 유용하게 활용될 것입니다.
+
+이 가이드가 도움이 되었다면 별점을 주시고, 팀원과 공유하거나 여러분만의 팁을 댓글로 남겨 주세요. 즐거운 코딩 되세요!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

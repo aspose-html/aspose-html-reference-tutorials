@@ -1,0 +1,7 @@
+Title: Limit HTML Resource Depth with Aspose.HTML for Python – Complete Guide
+Slug: limit-html-resource-depth-with-aspose-html-for-python-comple
+Category: general
+ProcessedDate: 2026-06-10T12:37:43.136082
+SourceRepo: AI Search API
+Keywords: limit html resource depth
+PRNumber: 180
