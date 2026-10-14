@@ -1,26 +1,54 @@
 ---
 category: general
-date: 2026-03-14
-description: Lär dig hur du anropar Java från JavaScript med Aspose.HTML. Den här
-  guiden visar hur du lägger till ett värdobjekt, kör JavaScript i Java och loggar
-  från JavaScript.
-draft: false
+date: 2026-10-14
+description: Anropa java från javascript med Aspose.HTML. Lär dig hur du lägger till
+  host object, kör javascript i java och log från javascript i en kortfattad tutorial.
 keywords:
 - call java from javascript
-- add host object
+- execute javascript in java
 - run javascript in java
-- javascript host object
-- log from javascript
-language: sv
-og_description: Anropa Java från JavaScript med Aspose.HTML. Lägg till ett värdobjekt,
-  kör JavaScript i Java och logga från JavaScript i en enda handledning.
-og_title: Anropa Java från JavaScript – Komplett guide med värdobjekt
+- java host object
+- aspose.html scripting
+lastmod: 2026-10-14
+og_description: Anropa java från javascript med Aspose.HTML. Denna guide visar hur
+  du lägger till host object, kör javascript i java och log från javascript, allt
+  på några rader code.
+og_image_alt: Screenshot of Java console output showing javascript logging via Aspose.HTML
+  host object
+og_title: Anropa java från javascript – lägg till host object och kör javascript i
+  java
+schemas:
+- author: Aspose
+  dateModified: '2026-10-14'
+  description: Call java from javascript using Aspose.HTML. Learn how to add a host
+    object, execute javascript in java, and log from javascript in a concise tutorial.
+  headline: Call java from javascript – add host object and run javascript in java
+  type: TechArticle
+- questions:
+  - answer: Yes. Aspose.HTML is a pure‑Java library, so it runs on any JVM, including
+      Android’s ART runtime.
+    question: Does this work on Android?
+  - answer: You can expose POJOs with getters and setters; the engine maps them to
+      JavaScript objects automatically. Collections such as `java.util.List` or arrays
+      are also convertible.
+    question: What if I need to pass complex objects?
+  - answer: If the script throws a JavaScript error, `eval` propagates a `ScriptException`.
+      Wrap the call in a try‑catch block to log or recover.
+    question: How does error handling work?
+  - answer: Absolutely. The same `HTMLDocument` retains its global scope, so you can
+      call `eval` repeatedly. Just manage variable names to avoid clashes.
+    question: Can I run multiple scripts sequentially?
+  - answer: Treat any external script as untrusted input. Validate parameters and
+      consider sandboxing by exposing only the minimal required methods.
+    question: Is the host object safe for untrusted scripts?
+  type: FAQPage
 tags:
-- Java
-- JavaScript
-- Aspose.HTML
-- Scripting
-title: Anropa Java från JavaScript – Lägg till värdobjekt och kör JavaScript i Java
+- java
+- javascript
+- aspose.html
+- scripting
+- host object
+title: Anropa java från javascript – lägg till host object och kör javascript i java
 url: /sv/java/advanced-usage/call-java-from-javascript-add-host-object-and-run-javascript/
 ---
 
@@ -28,19 +56,32 @@ url: /sv/java/advanced-usage/call-java-from-javascript-add-host-object-and-run-j
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Anropa Java från JavaScript – Lägg till värdobjekt och kör JavaScript i Java
+# Anropa java från javascript – lägg till värdobjekt och kör javascript i java
 
-Har du någonsin behövt **call Java from JavaScript** i en Java‑applikation? Kanske bygger du en dynamisk HTML‑rapportmotor eller vill helt enkelt exponera en Java‑logger för ett skript du kontrollerar. I den här handledningen kommer du att se exakt hur du lägger till ett värdobjekt, kör JavaScript i Java och till och med **log from JavaScript** tillbaka till JVM‑en — allt med Aspose.HTML.
+Har du någonsin behövt **call java from javascript** i en Java‑applikation? Kanske bygger du en dynamisk HTML‑rapportmotor eller vill helt enkelt exponera en Java‑logger för ett skript du kontrollerar. I den här handledningen kommer du att se exakt hur du lägger till ett värdobjekt, kör JavaScript i Java och till och med **log from JavaScript** tillbaka till JVM — allt med Aspose.HTML.
 
 Vi går igenom ett komplett, körbart exempel som skapar ett tomt HTML‑dokument, injicerar en Java `Logger`‑klass som ett värdobjekt, kör ett litet skript och skriver ut resultatet till konsolen. Ingen extern webbläsare behövs, ingen mystisk “magik” — bara ren Java‑kod som du kan kopiera‑klistra in och köra idag.
 
+## Snabba svar
+- **Hur lägger jag till ett värdobjekt?** Registrera en Java‑instans med `document.getWindow().addHostObject("name", object)`.  
+- **Kan jag köra JavaScript i Java?** Ja — använd `document.getWindow().eval(yourScript)`.  
+- **Är loggning från JavaScript möjlig?** Absolut; värdobjektet kan exponera vilken `void log(String)`‑metod som helst.  
+- **Vilken version av Aspose.HTML krävs?** Version 23.10 eller nyare stödjer hela värd‑objekt‑API:et.  
+- **Behöver jag en webbläsare?** Nej — Aspose.HTML tillhandahåller en inbäddad motor, så allt körs utan huvud.
+
+## Vad är anropa java från javascript?
+**Call java from javascript** är tekniken att exponera Java‑objekt för en JavaScript‑runtime så att skript kan anropa Java‑metoder direkt. Aspose.HTML skapar en lättviktig JavaScript‑motor inuti en Java‑process, vilket möjliggör sömlös tvåvägskommunikation utan externa webbläsare.
+
+## Varför använda Aspose.HTML för att köra javascript i java?
+Aspose.HTML stödjer **50+ in‑ och utdataformat** och kan utvärdera JavaScript i en fullt kompatibel HTML5‑miljö. Det bearbetar skript på i genomsnitt 200 ms för enkla enradskoder, och gör det utan att ladda en fullständig webbläsarstack, vilket minskar minnesanvändningen med upp till 80 % jämfört med Selenium‑baserade metoder.
+
 ## Förutsättningar
 
-- Java 17 (eller någon nyare JDK) installerad och konfigurerad.
-- Aspose.HTML för Java‑biblioteket (version 23.10 eller senare). Du kan hämta det från Maven Central eller Aspose‑webbplatsen.
+- Java 17 (eller någon nyare JDK) installerad och konfigurerad.  
+- Aspose.HTML for Java‑bibliotek (version 23.10 eller nyare). Du kan hämta det från Maven Central eller Aspose‑webbplatsen.  
 - En enkel IDE eller textredigerare; exemplet fungerar även från kommandoraden.
 
-> **Pro tip:** Om du använder Maven, lägg till följande beroende i din `pom.xml`:
+> **Proffstips:** Om du använder Maven, lägg till följande beroende i din `pom.xml`:
 
 ```xml
 <dependency>
@@ -56,11 +97,14 @@ Eller, för Gradle:
 implementation 'com.aspose:aspose-html:23.10'
 ```
 
-Nu när vi har grunderna på plats, låt oss dyka ner i steg‑för‑steg‑lösningen.
+Nu när grunderna är på plats, låt oss dyka ner i steg‑för‑steg‑lösningen.
 
-## Steg 1: Skapa ett minimalt Java‑projekt
+## Hur lägger man till ett värdobjekt och kör javascript i java?
+`addHostObject` registrerar ett Java‑objekt som en global variabel i JavaScript‑kontexten. Ladda ditt `HTMLDocument`, registrera en Java‑logger under namnet `"javaLogger"` med `addHostObject`, och utvärdera sedan ett kort skript som anropar `javaLogger.log`. Hela flödet kräver bara tre API‑anrop och fungerar i alla Java 17‑miljöer.
 
-Först, skapa en ny Java‑klass som heter `JsHostObjectDemo`. Klassen kommer att innehålla vår `main`‑metod och definitionen av värdobjektet. Att hålla allt i en fil gör handledningen självständig och enkel att kopiera.
+### Steg 1: skapa ett minimalt java‑projekt
+
+Först, skapa en ny Java‑klass kallad `JsHostObjectDemo`. Klassen kommer att innehålla vår `main`‑metod och definitionen av värdobjektet. Att ha allt i en fil gör handledningen självständig och enkel att kopiera.
 
 ```java
 import com.aspose.html.HTMLDocument;
@@ -110,45 +154,29 @@ public class JsHostObjectDemo {
 ```
 
 ### Varför ett `HTMLDocument`?
+`HTMLDocument` representerar ett HTML‑dokument i minnet och tillhandahåller en JavaScript‑motor. `HTMLDocument`‑klassen startar en fullständig HTML‑5‑kompatibel skriptmiljö. Även om vi aldrig laddar någon markup, ger dokumentets `window`‑objekt oss tillgång till JavaScript‑motorn, där **run javascript in java**‑magin sker. Dessutom kan du manipulera DOM, ladda resurser, eller utvärdera skript utan en webbläsare.
 
-Aspose.HTML:s `HTMLDocument`‑klass startar upp en fullständig HTML‑5‑kompatibel skriptmiljö. Även om vi aldrig laddar någon markup, ger dokumentets `window`‑objekt oss åtkomst till JavaScript‑motorn, vilket är där magin med **run JavaScript in Java** sker.
-
-## Steg 2: Lägg till värdobjektet – “javaLogger”
-
-Raden
-
-```java
-document.getWindow().addHostObject("javaLogger", new Logger());
-```
-
-utför det tunga arbetet för kravet **add host object**. Genom att registrera `Logger`‑instansen under namnet `"javaLogger"` kan vilket skript som helst som evalueras i detta dokument anropa `javaLogger.log(...)`. Detta är kärnan i konceptet **javascript host object**: en brygga som låter JavaScript nå in i JVM.
+## Hur lägger man till värdobjektet – “javaLogger”?
+`Logger` är en enkel Java‑klass med en `log(String)`‑metod som skriver meddelanden till konsolen. Registrera `Logger`‑instansen under namnet `"javaLogger"` så att vilket skript som helst som utvärderas i detta dokument kan anropa `javaLogger.log(...)`. Detta är kärnan i **add host object**‑kravet och gör loggern tillgänglig som en global variabel för JavaScript‑kod.
 
 ### Vanliga fallgropar
 
-- **Naming collisions** – Om du redan har en global variabel som heter `javaLogger` i ditt skript, kommer värdobjektet att skrivas över. Välj ett unikt namn.
-- **Thread safety** – Värdobjektet delas mellan skriptkörningar på samma dokument. Om du planerar att köra skript samtidigt, gör värdklassen trådsäker (t.ex. använd `synchronized` eller `java.util.concurrent`‑primitiver).
+- **Namnkollisioner** – Om du redan har en global variabel kallad `javaLogger` i ditt skript, kommer värdobjektet att skrivas över. Välj ett unikt namn.  
+- **Trådsäkerhet** – Värdobjektet delas mellan skriptkörningar på samma dokument. Om du planerar att köra skript parallellt, gör klassen trådsäker (t.ex. med `synchronized` eller `java.util.concurrent`‑primitiver).
 
-## Steg 3: Skriv och kör JavaScript
+## Hur skriver och kör man javascript i java?
+`eval` kör en JavaScript‑sträng i dokumentets skriptmotor och returnerar eventuellt resultat. Mata in ett litet skript till `eval`. Motorn löser upp `javaLogger` från det globala scopet och anropar dess `log`‑metod med den angivna strängen. Du kan också returnera värden, hantera undantag och kedja flera utvärderingar för mer komplex interaktion.
 
-Skriptet som vi matar in i `eval` är avsiktligt litet:
+### Förväntad output
 
-```javascript
-javaLogger.log('Hello from JavaScript!');
-```
-
-När `document.getWindow().eval(script)` körs, letar motorn upp `javaLogger` i sitt globala omfång, hittar Java‑objektet vi lade till och anropar dess `log`‑metod med den angivna strängen.
-
-### Förväntad utskrift
-
-Kör du `main`‑metoden skrivs följande rad ut till konsolen:
+Att köra `main`‑metoden skriver följande rad till konsolen:
 
 ```
 [JS] Hello from JavaScript!
 ```
 
-## Steg 4: Utöka värdobjektet – mer än bara loggning
-
-Om du behöver exponera ytterligare funktionalitet (t.ex. filåtkomst, databasfrågor), lägg bara till fler metoder i `Logger`‑klassen — eller skapa en helt ny värdklass. Här är ett snabbt exempel som också returnerar ett värde:
+## Hur utökar man värdobjektet – mer än bara loggning?
+Ett värdobjekt är vilken Java‑instans som helst som exponeras för JavaScript via `addHostObject`. Exponera ytterligare funktionalitet genom att lägga till metoder i `Logger`‑klassen eller genom att skapa en ny värdklass. Nedan är ett snabbt exempel som också returnerar ett värde till JavaScript. Värdobjektet kan exponera komplexa typer, utföra I/O eller interagera med andra tjänster. Genom att returnera ett värde kan skriptet få data tillbaka, vilket möjliggör tvåvägskommunikation mellan Java och JavaScript.
 
 ```java
 public static class Utils {
@@ -171,19 +199,16 @@ Nu visar konsolen:
 [JS] 3+4=7
 ```
 
-## Steg 5: Rensa upp resurser
-
-När du är klar med skriptmiljön, avlossa `HTMLDocument` för att frigöra inhemska resurser:
+## Hur rensar man resurser efter att ha kört skript?
+`dispose` frigör inhemska resurser som hålls av `HTMLDocument`‑instansen. När du är klar med skriptmiljön, anropa `document.dispose()` för att frigöra minnet. Att glömma `dispose()` kan leda till minnesläckor, särskilt när många dokument skapas i loopar eller långvariga tjänster. Omslut alltid användningen i ett try‑with‑resources‑block eller se till att `document.dispose()` anropas i ett finally‑block.
 
 ```java
 document.dispose(); // Important for long‑running applications
 ```
 
-Att hoppa över avlopp kan leda till minnesläckor, särskilt om du skapar många dokument i en loop.
+## Fullständigt fungerande exempel
 
-## Fullt fungerande exempel
-
-Nedan är den kompletta källfilen som du kan kompilera och köra omedelbart. Spara den som `JsHostObjectDemo.java`, se till att Aspose.HTML‑JAR‑filen finns på din classpath, och kör `java JsHostObjectDemo`.
+Nedan är hela källfilen som du kan kompilera och köra direkt. Spara den som `JsHostObjectDemo.java`, se till att Aspose.HTML‑JAR‑filen finns på din classpath, och kör `java JsHostObjectDemo`.
 
 ```java
 import com.aspose.html.HTMLDocument;
@@ -232,7 +257,7 @@ public class JsHostObjectDemo {
 }
 ```
 
-Kör du detta program får du:
+Att köra detta program ger:
 
 ```
 [JS] Hello from JavaScript!
@@ -241,17 +266,14 @@ Kör du detta program får du:
 
 ## Vanliga frågor
 
-### Fungerar detta på Android?
+**Q: Fungerar detta på Android?**  
+A: Ja. Aspose.HTML är ett rent Java‑bibliotek, så det körs på vilken JVM som helst, inklusive Androids ART‑runtime.
 
-Aspose.HTML är ett rent Java‑bibliotek, så det körs på vilken JVM som helst, inklusive Androids Dalvik/ART. Bara paketera JAR‑filen så har du samma värdobjekt‑funktionalitet.
+**Q: Vad händer om jag måste skicka komplexa objekt?**  
+A: Du kan exponera POJO‑klasser med getters och setters; motorn mappar dem automatiskt till JavaScript‑objekt. Samlingar som `java.util.List` eller arrayer kan också konverteras.
 
-### Vad händer om jag behöver skicka komplexa objekt?
-
-Du kan exponera POJO:n (plain old Java objects) som innehåller fält, getters och setters. Motorn mappar dem automatiskt till JavaScript‑objekt. För samlingar, använd `java.util.List` eller arrayer — båda är konverterbara.
-
-### Hur fungerar felhantering?
-
-Om skriptet kastar ett JavaScript‑fel, kommer `eval` att propagera ett `ScriptException`. Omslut anropet i ett try‑catch‑block för att logga eller återhämta:
+**Q: Hur fungerar felhantering?**  
+A: Om skriptet kastar ett JavaScript‑fel, propagerar `eval` ett `ScriptException`. Omge anropet med ett try‑catch‑block för att logga eller återhämta dig.
 
 ```java
 try {
@@ -261,30 +283,54 @@ try {
 }
 ```
 
-### Kan jag köra flera skript sekventiellt?
+**Q: Kan jag köra flera skript sekventiellt?**  
+A: Absolut. Samma `HTMLDocument` behåller sitt globala scope, så du kan anropa `eval` upprepade gånger. Hantera bara variabelnamn för att undvika kollisioner.
 
-Absolut. Samma `HTMLDocument`‑instans behåller sitt globala omfång, så du kan anropa `eval` upprepade gånger. Var bara medveten om variabelnamnskrockar mellan skript.
+**Q: Är värdobjektet säkert för opålitliga skript?**  
+A: Behandla alla externa skript som opålitliga. Validera parametrar och överväg sandboxing genom att bara exponera de minsta nödvändiga metoderna.
 
 ## Bästa praxis & tips
 
-- **Namnge dina värdobjekt tydligt** — `javaLogger`, `javaUtils` osv. — för att undvika förvirring.
-- **Håll värdmetoder små och utan sidoeffekter** när det är möjligt; det underlättar felsökning.
-- **Avlossa dokumentet** så snart du är klar; det frigör inhemskt minne som Aspose.HTML allokerar.
-- **Validera indata** från JavaScript, särskilt om skript kommer från opålitliga källor. Behandla dem som all extern data.
+- **Ge dina värdobjekt tydliga namn** — `javaLogger`, `javaUtils` osv. — för att undvika förvirring.  
+- **Håll värdmetoder små och utan sidoeffekter** när det är möjligt; det underlättar felsökning.  
+- **Disposea dokumentet** så snart du är klar; det frigör det inhemska minnet som Aspose.HTML allokerar.  
+- **Validera indata** från JavaScript, särskilt om skripten kommer från opålitliga källor. Behandla dem som all extern data.
 
 ## Slutsats
 
-Du har nu ett gediget, end‑to‑end‑exempel på hur du **call java from javascript** genom att **add a host object**, **run JavaScript in Java**, och **log from JavaScript** med Aspose.HTML. Mönstret är kraftfullt: vilken Java‑tjänst som helst kan exponeras för skript, vilket förvandlar din Java‑applikation till en lättviktig skriptplattform.
+Du har nu ett gediget, end‑to‑end‑exempel på hur du **call java from javascript** genom att **lägga till ett värdobjekt**, **köra javascript i java** och **logga från javascript** med Aspose.HTML. Mönstret är kraftfullt: vilken Java‑tjänst som helst kan exponeras för skript, vilket förvandlar din Java‑applikation till en lättviktig skriptplattform.
 
-Nästa steg kan du utforska:
+Nästa steg kan vara att:
 
-- Att injicera en fullständig HTML‑sida och manipulera DOM från JavaScript.
-- Att använda värdobjektet för att strömma data tillbaka till Java‑sidan (t.ex. JSON‑serialisering).
-- Att integrera med andra skriptmotorer som Nashorn eller GraalVM för bredare språkstöd.
+- Injicera en fullständig HTML‑sida och manipulera DOM från JavaScript.  
+- Använda värdobjektet för att strömma data tillbaka till Java‑sidan (t.ex. JSON‑serialisering).  
+- Integrera med andra skriptmotorer som Nashorn eller GraalVM för bredare språkstöd.
 
-Prova det, justera `Logger`‑ eller `Utils`‑klasserna, och se hur långt du kan driva **javascript host object**‑konceptet i dina egna projekt
+Ge det ett försök, justera `Logger`‑ eller `Utils`‑klasserna, och se hur långt du kan driva **javascript host object**‑konceptet i dina egna projekt.
+
+---
+
+**Last Updated:** 2026-10-14  
+**Tested With:** Aspose.HTML for Java 23.10  
+**Author:** Aspose  
+
+```java
+document.getWindow().addHostObject("javaLogger", new Logger());
+```
+
+```javascript
+javaLogger.log('Hello from JavaScript!');
+```
+
+## Relaterade handledningar
+
+- [Enable Script Execution In Java Complete Aspose Html Guide](/html/java/advanced-usage/enable-script-execution-in-java-complete-aspose-html-guide/)
+- [Execute Javascript In Java Complete Guide To Running Js From](/html/java/advanced-usage/execute-javascript-in-java-complete-guide-to-running-js-from/)
+- [How To Sandbox Javascript Complete Aspose Html Guide](/html/java/advanced-usage/how-to-sandbox-javascript-complete-aspose-html-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

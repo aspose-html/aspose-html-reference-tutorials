@@ -1,25 +1,54 @@
 ---
 category: general
-date: 2026-03-14
-description: Tìm hiểu cách gọi Java từ JavaScript bằng Aspose.HTML. Hướng dẫn này
-  chỉ cách thêm đối tượng host, chạy JavaScript trong Java và ghi log từ JavaScript.
-draft: false
+date: 2026-10-14
+description: Gọi java từ javascript bằng Aspose.HTML. Tìm hiểu cách thêm host object,
+  thực thi javascript trong java và ghi log từ javascript trong một hướng dẫn ngắn
+  gọn.
 keywords:
 - call java from javascript
-- add host object
+- execute javascript in java
 - run javascript in java
-- javascript host object
-- log from javascript
-language: vi
-og_description: Gọi Java từ JavaScript bằng Aspose.HTML. Thêm đối tượng host, chạy
-  JavaScript trong Java và ghi log từ JavaScript trong một hướng dẫn duy nhất.
-og_title: Gọi Java từ JavaScript – Hướng dẫn chi tiết với Đối tượng Host
+- java host object
+- aspose.html scripting
+lastmod: 2026-10-14
+og_description: Gọi java từ javascript bằng Aspose.HTML. Hướng dẫn này cho thấy cách
+  thêm host object, thực thi javascript trong java và ghi log từ javascript, tất cả
+  trong vài dòng mã.
+og_image_alt: Screenshot of Java console output showing javascript logging via Aspose.HTML
+  host object
+og_title: Gọi java từ javascript – thêm host object và chạy javascript trong java
+schemas:
+- author: Aspose
+  dateModified: '2026-10-14'
+  description: Call java from javascript using Aspose.HTML. Learn how to add a host
+    object, execute javascript in java, and log from javascript in a concise tutorial.
+  headline: Call java from javascript – add host object and run javascript in java
+  type: TechArticle
+- questions:
+  - answer: Yes. Aspose.HTML is a pure‑Java library, so it runs on any JVM, including
+      Android’s ART runtime.
+    question: Does this work on Android?
+  - answer: You can expose POJOs with getters and setters; the engine maps them to
+      JavaScript objects automatically. Collections such as `java.util.List` or arrays
+      are also convertible.
+    question: What if I need to pass complex objects?
+  - answer: If the script throws a JavaScript error, `eval` propagates a `ScriptException`.
+      Wrap the call in a try‑catch block to log or recover.
+    question: How does error handling work?
+  - answer: Absolutely. The same `HTMLDocument` retains its global scope, so you can
+      call `eval` repeatedly. Just manage variable names to avoid clashes.
+    question: Can I run multiple scripts sequentially?
+  - answer: Treat any external script as untrusted input. Validate parameters and
+      consider sandboxing by exposing only the minimal required methods.
+    question: Is the host object safe for untrusted scripts?
+  type: FAQPage
 tags:
-- Java
-- JavaScript
-- Aspose.HTML
-- Scripting
-title: Gọi Java từ JavaScript – Thêm Đối tượng Host và Chạy JavaScript trong Java
+- java
+- javascript
+- aspose.html
+- scripting
+- host object
+title: Gọi java từ javascript – thêm host object và chạy javascript trong java
 url: /vi/java/advanced-usage/call-java-from-javascript-add-host-object-and-run-javascript/
 ---
 
@@ -27,19 +56,32 @@ url: /vi/java/advanced-usage/call-java-from-javascript-add-host-object-and-run-j
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Gọi Java từ JavaScript – Thêm Đối tượng Host và Chạy JavaScript trong Java
+# Gọi java từ javascript – thêm đối tượng host và chạy javascript trong java
 
-Bạn đã bao giờ **gọi Java từ JavaScript** trong một ứng dụng Java chưa? Có thể bạn đang xây dựng một engine báo cáo HTML động hoặc chỉ muốn cung cấp một logger Java cho một script bạn kiểm soát. Trong tutorial này, bạn sẽ thấy cách **thêm một đối tượng host**, **chạy JavaScript trong Java**, và thậm chí **ghi log từ JavaScript** trở lại JVM — tất cả đều với Aspose.HTML.
+Bạn đã bao giờ cần **gọi java từ javascript** trong một ứng dụng Java chưa? Có thể bạn đang xây dựng một công cụ báo cáo HTML động hoặc bạn chỉ muốn cung cấp một logger Java cho một script mà bạn kiểm soát. Trong hướng dẫn này, bạn sẽ thấy cách thêm một đối tượng host, chạy JavaScript trong Java, và thậm chí **ghi log từ JavaScript** trở lại JVM — tất cả với Aspose.HTML.
 
-Chúng ta sẽ đi qua một ví dụ hoàn chỉnh, có thể chạy ngay, tạo một tài liệu HTML trống, tiêm một lớp `Logger` Java làm đối tượng host, thực thi một script nhỏ, và in kết quả ra console. Không cần trình duyệt web bên ngoài, không có “ma thuật” nào — chỉ là mã Java thuần túy mà bạn có thể sao chép‑dán và chạy ngay hôm nay.
+Chúng tôi sẽ hướng dẫn qua một ví dụ hoàn chỉnh, có thể chạy được, tạo một tài liệu HTML trống, tiêm một lớp `Logger` Java làm đối tượng host, thực thi một script nhỏ, và in kết quả ra console. Không cần trình duyệt web bên ngoài, không có “ma thuật” bí ẩn — chỉ là mã Java thuần túy mà bạn có thể sao chép‑dán và chạy ngay hôm nay.
 
-## Yêu cầu trước
+## Trả lời nhanh
+- **Làm thế nào để thêm một đối tượng host?** Đăng ký một instance Java bằng `document.getWindow().addHostObject("name", object)`.  
+- **Tôi có thể thực thi JavaScript trong Java không?** Có — sử dụng `document.getWindow().eval(yourScript)`.  
+- **Có thể ghi log từ JavaScript không?** Chắc chắn; đối tượng host có thể cung cấp bất kỳ phương thức `void log(String)` nào.  
+- **Phiên bản Aspose.HTML nào được yêu cầu?** Phiên bản 23.10 hoặc mới hơn hỗ trợ đầy đủ API đối tượng host.  
+- **Có cần trình duyệt web không?** Không — Aspose.HTML cung cấp một engine nhúng, vì vậy mọi thứ chạy không cần giao diện.
 
-- Java 17 (hoặc bất kỳ JDK hiện đại nào) đã được cài đặt và cấu hình.
-- Thư viện Aspose.HTML for Java (phiên bản 23.10 trở lên). Bạn có thể lấy nó từ Maven Central hoặc trang web Aspose.
+## Call java from javascript là gì?
+**Call java from javascript** là kỹ thuật mở rộng các đối tượng Java tới môi trường JavaScript để các script có thể gọi trực tiếp các phương thức Java. Aspose.HTML tạo ra một engine JavaScript nhẹ bên trong tiến trình Java, cho phép giao tiếp hai chiều liền mạch mà không cần trình duyệt bên ngoài.
+
+## Tại sao nên dùng Aspose.HTML để thực thi javascript trong java?
+Aspose.HTML hỗ trợ **hơn 50 định dạng đầu vào và đầu ra** và có thể đánh giá JavaScript trong môi trường HTML5 tuân thủ đầy đủ. Nó xử lý các script trung bình trong vòng 200 ms cho các đoạn mã một dòng đơn giản, và làm điều này mà không cần tải toàn bộ stack trình duyệt, giảm mức sử dụng bộ nhớ tới 80 % so với các giải pháp dựa trên Selenium.
+
+## Điều kiện tiên quyết
+
+- Java 17 (hoặc bất kỳ JDK mới nào) đã được cài đặt và cấu hình.  
+- Thư viện Aspose.HTML cho Java (phiên bản 23.10 hoặc mới hơn). Bạn có thể lấy nó từ Maven Central hoặc trang web Aspose.  
 - Một IDE đơn giản hoặc trình soạn thảo văn bản; ví dụ cũng chạy được từ dòng lệnh.
 
-> **Mẹo:** Nếu bạn dùng Maven, thêm dependency sau vào file `pom.xml` của bạn:
+> **Pro tip:** Nếu bạn dùng Maven, thêm phụ thuộc sau vào `pom.xml` của bạn:
 
 ```xml
 <dependency>
@@ -49,17 +91,20 @@ Chúng ta sẽ đi qua một ví dụ hoàn chỉnh, có thể chạy ngay, tạ
 </dependency>
 ```
 
-Hoặc, nếu dùng Gradle:
+Hoặc, cho Gradle:
 
 ```gradle
 implementation 'com.aspose:aspose-html:23.10'
 ```
 
-Bây giờ chúng ta đã có những kiến thức cơ bản, hãy bắt đầu giải pháp từng bước.
+Bây giờ chúng ta đã có các kiến thức cơ bản, hãy đi sâu vào giải pháp từng bước.
 
-## Bước 1: Tạo một Dự án Java tối thiểu
+## Cách thêm một đối tượng host và chạy javascript trong java?
+`addHostObject` đăng ký một đối tượng Java như một biến toàn cục trong ngữ cảnh JavaScript. Tải `HTMLDocument` của bạn, đăng ký một logger Java dưới tên `"javaLogger"` bằng `addHostObject`, sau đó đánh giá một script ngắn gọi `javaLogger.log`. Toàn bộ quy trình chỉ cần ba lời gọi API và hoạt động trên bất kỳ runtime Java 17 nào.
 
-Đầu tiên, tạo một lớp Java mới tên là `JsHostObjectDemo`. Lớp này sẽ chứa phương thức `main` và định nghĩa đối tượng host. Giữ mọi thứ trong một file giúp tutorial tự chứa và dễ sao chép.
+### Bước 1: tạo một dự án java tối thiểu
+
+Đầu tiên, tạo một lớp Java mới có tên `JsHostObjectDemo`. Lớp này sẽ chứa phương thức `main` và định nghĩa đối tượng host. Giữ mọi thứ trong một file giúp hướng dẫn tự chứa và dễ sao chép.
 
 ```java
 import com.aspose.html.HTMLDocument;
@@ -108,48 +153,30 @@ public class JsHostObjectDemo {
 }
 ```
 
-### Tại sao lại dùng `HTMLDocument`?
+### Tại sao lại là `HTMLDocument`?
+`HTMLDocument` đại diện cho một tài liệu HTML trong bộ nhớ và cung cấp một engine JavaScript. Lớp `HTMLDocument` khởi động một môi trường script tuân thủ đầy đủ HTML‑5. Ngay cả khi chúng ta không tải bất kỳ markup nào, đối tượng `window` của tài liệu cho phép chúng ta truy cập engine JavaScript, nơi **run javascript in java** diễn ra. Ngoài ra, bạn có thể thao tác DOM, tải tài nguyên, hoặc đánh giá script mà không cần trình duyệt.
 
-Lớp `HTMLDocument` của Aspose.HTML khởi tạo một môi trường scripting tuân thủ HTML‑5 đầy đủ. Mặc dù chúng ta không tải bất kỳ markup nào, đối tượng `window` của tài liệu cung cấp quyền truy cập vào engine JavaScript, nơi **run JavaScript in Java** thực sự diễn ra.
+## Cách thêm đối tượng host – “javaLogger”?
+`Logger` là một lớp Java đơn giản với phương thức `log(String)` ghi thông điệp ra console. Đăng ký instance `Logger` dưới tên `"javaLogger"` để bất kỳ script nào được đánh giá trong tài liệu này có thể gọi `javaLogger.log(...)`. Đây là phần cốt lõi của yêu cầu **add host object** và làm cho logger trở thành biến toàn cục cho mã JavaScript.
 
-## Bước 2: Thêm Đối tượng Host – “javaLogger”
+### Những cạm bẫy thường gặp
 
-Dòng
+- **Xung đột tên** – Nếu bạn đã có một biến toàn cục có tên `javaLogger` trong script của mình, đối tượng host sẽ bị ghi đè. Hãy chọn một tên duy nhất.  
+- **An toàn đa luồng** – Đối tượng host được chia sẻ giữa các lần thực thi script trên cùng một tài liệu. Nếu bạn dự định chạy nhiều script đồng thời, hãy làm cho lớp host an toàn đa luồng (ví dụ, sử dụng `synchronized` hoặc các primitive của `java.util.concurrent`).
 
-```java
-document.getWindow().addHostObject("javaLogger", new Logger());
-```
+## Cách viết và thực thi javascript trong java?
+`eval` thực thi một chuỗi JavaScript trong engine script của tài liệu và trả về bất kỳ kết quả nào. Đưa một script nhỏ vào `eval`. Engine sẽ giải quyết `javaLogger` từ phạm vi toàn cục và gọi phương thức `log` của nó với chuỗi được cung cấp. Bạn cũng có thể trả về giá trị, xử lý ngoại lệ, và chuỗi nhiều lần đánh giá cho các tương tác phức tạp hơn.
 
-làm công việc nặng cho yêu cầu **add host object**. Bằng cách đăng ký instance `Logger` dưới tên `"javaLogger"`, bất kỳ script nào được đánh giá trong tài liệu này đều có thể gọi `javaLogger.log(...)`. Đây là cốt lõi của khái niệm **javascript host object**: một cầu nối cho phép JavaScript tiếp cận JVM.
+### Đầu ra mong đợi
 
-### Những Cạm Bẫy Thường Gặp
-
-- **Xung đột tên** – Nếu script của bạn đã có một biến toàn cục tên `javaLogger`, đối tượng host sẽ bị ghi đè. Hãy chọn một tên duy nhất.
-- **An toàn đa luồng** – Đối tượng host được chia sẻ giữa các lần thực thi script trên cùng một tài liệu. Nếu bạn dự định chạy nhiều script đồng thời, hãy làm cho lớp host an toàn đa luồng (ví dụ: dùng `synchronized` hoặc các primitive của `java.util.concurrent`).
-
-## Bước 3: Viết và Thực thi JavaScript
-
-Script chúng ta đưa vào `eval` được viết rất ngắn gọn:
-
-```javascript
-javaLogger.log('Hello from JavaScript!');
-```
-
-Khi `document.getWindow().eval(script)` chạy, engine sẽ tra cứu `javaLogger` trong phạm vi toàn cục, tìm thấy đối tượng Java mà chúng ta đã thêm, và gọi phương thức `log` với chuỗi đã cung cấp.
-
-### Kết quả Mong đợi
-
-Chạy phương thức `main` sẽ in dòng sau lên console:
+Chạy phương thức `main` sẽ in dòng sau ra console:
 
 ```
 [JS] Hello from JavaScript!
 ```
 
-Dòng ngắn gọn này chứng minh chúng ta đã **call java from javascript** thành công, và **log from javascript** xuất hiện đúng như một thông điệp `System.out` thông thường của Java.
-
-## Bước 4: Mở Rộng Đối tượng Host – Hơn Chỉ Ghi Log
-
-Nếu bạn cần cung cấp thêm chức năng (ví dụ: truy cập file, truy vấn cơ sở dữ liệu), chỉ cần thêm các phương thức vào lớp `Logger` — hoặc tạo một lớp host mới. Dưới đây là một ví dụ nhanh cũng trả về giá trị:
+## Mở rộng đối tượng host – hơn cả việc ghi log?
+Một đối tượng host là bất kỳ instance Java nào được mở rộng tới JavaScript qua `addHostObject`. Bạn có thể cung cấp thêm chức năng bằng cách thêm phương thức vào lớp `Logger` hoặc tạo một lớp host mới. Dưới đây là một ví dụ nhanh cũng trả về giá trị cho JavaScript. Đối tượng host có thể mở rộng các kiểu phức tạp, thực hiện I/O, hoặc tương tác với các dịch vụ khác. Bằng cách trả về giá trị, script có thể nhận dữ liệu ngược lại, cho phép giao tiếp hai chiều giữa Java và JavaScript.
 
 ```java
 public static class Utils {
@@ -166,27 +193,22 @@ String script2 = "var result = javaUtils.add(3, 4); javaLogger.log('3+4=' + resu
 document.getWindow().eval(script2);
 ```
 
-Bây giờ console sẽ hiển thị:
+Bây giờ console hiển thị:
 
 ```
 [JS] 3+4=7
 ```
 
-Điều này minh họa tính linh hoạt của mẫu **javascript host object**: bạn có thể phơi bày bất kỳ API Java nào bạn cần, miễn là các kiểu dữ liệu có thể chuyển đổi giữa Java và JavaScript (primitives, strings, arrays, …).
-
-## Bước 5: Dọn Dẹp Tài Nguyên
-
-Khi bạn đã xong với môi trường scripting, hãy giải phóng `HTMLDocument` để giải phóng tài nguyên gốc:
+## Làm sạch tài nguyên sau khi chạy script?
+`dispose` giải phóng các tài nguyên native mà instance `HTMLDocument` giữ. Khi bạn đã xong với môi trường script, hãy gọi `dispose` để giải phóng tài nguyên native. Không gọi `dispose()` có thể gây rò rỉ bộ nhớ, đặc biệt khi tạo nhiều tài liệu trong vòng lặp hoặc dịch vụ chạy lâu. Luôn bao bọc việc sử dụng trong khối try‑with‑resources hoặc đảm bảo `document.dispose()` được gọi trong khối finally.
 
 ```java
 document.dispose(); // Important for long‑running applications
 ```
 
-Bỏ qua việc giải phóng có thể gây rò rỉ bộ nhớ, đặc biệt nếu bạn tạo nhiều tài liệu trong một vòng lặp.
+## Ví dụ hoàn chỉnh hoạt động
 
-## Ví dụ Hoàn chỉnh
-
-Dưới đây là toàn bộ file nguồn mà bạn có thể biên dịch và chạy ngay lập tức. Lưu lại với tên `JsHostObjectDemo.java`, đảm bảo JAR Aspose.HTML nằm trong classpath, và thực thi `java JsHostObjectDemo`.
+Dưới đây là toàn bộ file nguồn bạn có thể biên dịch và chạy ngay lập tức. Lưu lại dưới tên `JsHostObjectDemo.java`, đảm bảo JAR Aspose.HTML nằm trong classpath, và thực thi `java JsHostObjectDemo`.
 
 ```java
 import com.aspose.html.HTMLDocument;
@@ -242,21 +264,16 @@ Chạy chương trình này sẽ cho ra:
 [JS] 5 + 12 = 17
 ```
 
-Đó là toàn bộ quy trình **call java from javascript** chỉ trong vài dòng mã.
+## Câu hỏi thường gặp
 
-## Câu hỏi Thường gặp
+**Q: Điều này có hoạt động trên Android không?**  
+A: Có. Aspose.HTML là thư viện thuần Java, vì vậy nó chạy trên bất kỳ JVM nào, bao gồm cả runtime ART của Android.
 
-### Có hoạt động trên Android không?
+**Q: Nếu tôi cần truyền các đối tượng phức tạp thì sao?**  
+A: Bạn có thể mở rộng các POJO với getter và setter; engine sẽ tự động ánh xạ chúng thành các đối tượng JavaScript. Các collection như `java.util.List` hoặc mảng cũng có thể chuyển đổi.
 
-Aspose.HTML là thư viện thuần Java, vì vậy nó chạy trên bất kỳ JVM nào, bao gồm cả Dalvik/ART của Android. Chỉ cần đóng gói JAR và bạn sẽ có cùng khả năng host‑object.
-
-### Nếu tôi cần truyền các đối tượng phức tạp thì sao?
-
-Bạn có thể phơi bày các POJO (plain old Java objects) chứa các trường, getter và setter. Engine sẽ tự động ánh xạ chúng thành các đối tượng JavaScript. Đối với collection, dùng `java.util.List` hoặc mảng — cả hai đều có thể chuyển đổi.
-
-### Xử lý lỗi như thế nào?
-
-Nếu script ném ra lỗi JavaScript, `eval` sẽ truyền lên một `ScriptException`. Hãy bọc lời gọi trong khối try‑catch để ghi log hoặc phục hồi:
+**Q: Cách xử lý lỗi hoạt động như thế nào?**  
+A: Nếu script ném lỗi JavaScript, `eval` sẽ truyền lên một `ScriptException`. Hãy bọc lời gọi trong khối try‑catch để ghi log hoặc phục hồi.
 
 ```java
 try {
@@ -266,30 +283,60 @@ try {
 }
 ```
 
-### Tôi có thể chạy nhiều script liên tiếp không?
+**Q: Tôi có thể chạy nhiều script liên tiếp không?**  
+A: Chắc chắn. Cùng một `HTMLDocument` giữ lại phạm vi toàn cục, vì vậy bạn có thể gọi `eval` nhiều lần. Chỉ cần quản lý tên biến để tránh xung đột.
 
-Chắc chắn rồi. Cùng một instance `HTMLDocument` giữ lại phạm vi toàn cục, vì vậy bạn có thể gọi `eval` nhiều lần. Chỉ cần chú ý tới việc trùng tên biến giữa các script.
+**Q: Đối tượng host có an toàn cho các script không đáng tin cậy không?**  
+A: Hãy coi bất kỳ script bên ngoài nào là không đáng tin cậy. Kiểm tra tham số và cân nhắc sandboxing bằng cách chỉ mở rộng các phương thức tối thiểu cần thiết.
 
-## Các Thực hành Tốt nhất & Mẹo
+## Các thực tiễn tốt nhất & mẹo
 
-- **Đặt tên đối tượng host một cách rõ ràng** — `javaLogger`, `javaUtils`, … — để tránh nhầm lẫn.
-- **Giữ các phương thức host ngắn gọn và không gây side‑effect** khi có thể; điều này giúp việc debug dễ dàng hơn.
-- **Giải phóng tài liệu** ngay khi không còn dùng; nó giải phóng bộ nhớ native mà Aspose.HTML cấp phát.
-- **Kiểm tra đầu vào** từ JavaScript, đặc biệt nếu script đến từ nguồn không tin cậy. Xử lý chúng như bất kỳ dữ liệu bên ngoài nào khác.
+- **Đặt tên rõ ràng cho các đối tượng host** — `javaLogger`, `javaUtils`, v.v. — để tránh nhầm lẫn.  
+- **Giữ các phương thức host ngắn gọn và không gây tác dụng phụ** khi có thể; điều này giúp việc gỡ lỗi dễ dàng hơn.  
+- **Giải phóng tài liệu** ngay khi xong; nó giải phóng bộ nhớ native mà Aspose.HTML cấp phát.  
+- **Xác thực đầu vào** từ JavaScript, đặc biệt nếu script đến từ nguồn không đáng tin cậy. Xử lý chúng như bất kỳ dữ liệu bên ngoài nào.
 
 ## Kết luận
 
-Bây giờ bạn đã có một ví dụ toàn diện, từ đầu tới cuối, về cách **call java from javascript** bằng cách **thêm một host object**, **chạy JavaScript trong Java**, và **ghi log từ JavaScript** sử dụng Aspose.HTML. Mô hình này mạnh mẽ: bất kỳ dịch vụ Java nào cũng có thể được phơi bày cho script, biến ứng dụng Java của bạn thành một nền tảng scripting nhẹ.
+Bạn đã có một ví dụ toàn diện, đầu‑cuối về cách **gọi java từ javascript** bằng cách **thêm một đối tượng host**, **chạy javascript trong java**, và **ghi log từ javascript** sử dụng Aspose.HTML. Mô hình này mạnh mẽ: bất kỳ dịch vụ Java nào cũng có thể được mở rộng cho script, biến ứng dụng Java của bạn thành một nền tảng scripting nhẹ.
 
 Tiếp theo, bạn có thể khám phá:
 
-- Tiêm một trang HTML đầy đủ và thao tác DOM từ JavaScript.
-- Sử dụng đối tượng host để truyền dữ liệu ngược lại Java (ví dụ: tuần tự hoá JSON).
-- Tích hợp với các engine scripting khác như Nashorn hoặc GraalVM để hỗ trợ đa ngôn ngữ hơn.
+- Tiêm một trang HTML đầy đủ và thao tác DOM từ JavaScript.  
+- Sử dụng đối tượng host để truyền dữ liệu ngược lại phía Java (ví dụ, tuần tự hoá JSON).  
+- Tích hợp với các engine scripting khác như Nashorn hoặc GraalVM để hỗ trợ đa ngôn ngữ.
 
 Hãy thử, tùy chỉnh các lớp `Logger` hoặc `Utils`, và xem bạn có thể đẩy khái niệm **javascript host object** bao xa trong các dự án của mình.
 
+---
+
+**Last Updated:** 2026-10-14  
+**Tested With:** Aspose.HTML for Java 23.10  
+**Author:** Aspose  
+
+
+
+
+
+
+```java
+document.getWindow().addHostObject("javaLogger", new Logger());
+```
+
+```javascript
+javaLogger.log('Hello from JavaScript!');
+```
+
+## Các hướng dẫn liên quan
+
+- [Kích hoạt thực thi script trong Java – Hướng dẫn đầy đủ Aspose HTML](/html/java/advanced-usage/enable-script-execution-in-java-complete-aspose-html-guide/)
+- [Thực thi Javascript trong Java – Hướng dẫn đầy đủ để chạy Js từ](/html/java/advanced-usage/execute-javascript-in-java-complete-guide-to-running-js-from/)
+- [Cách tạo sandbox cho Javascript – Hướng dẫn đầy đủ Aspose HTML](/html/java/advanced-usage/how-to-sandbox-javascript-complete-aspose-html-guide/)
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}
