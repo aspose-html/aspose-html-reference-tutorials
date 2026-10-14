@@ -167,6 +167,12 @@ public class QueryDemo {
         if (cssMatches.getLength() > 0) {
             Element firstProduct = (Element) cssMatches.item(0);
             System.out.println("First product link: " + firstProduct.getAttribute("href"));
+        } else {
+            System.out.println("No matching product links found.");
+        }
+    }
+}
+```
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
