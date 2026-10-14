@@ -1,25 +1,75 @@
 ---
 category: general
-date: 2026-02-21
-description: Konvertieren Sie HTML schnell in PDF mit Java. Erfahren Sie, wie Sie
-  die PDF-Papiergröße, DPI einstellen und eine hochauflösende PDF-Konvertierung erreichen.
+date: 2026-10-14
+description: Erfahren Sie, wie Sie in Java die PDF-Papiergröße und DPI mit Aspose.HTML
+  festlegen, um HTML in PDF mit hochauflösender Ausgabe zu konvertieren.
 draft: false
 keywords:
-- convert html to pdf
 - set pdf paper size
+- java html to pdf
+- generate pdf from html
+- convert html pdf java
 - set pdf dpi
-- html to pdf java
-- high resolution pdf conversion
-language: de
-og_description: HTML in PDF in Java mit benutzerdefinierter Papiergröße und DPI konvertieren.
-  Dieser Leitfaden zeigt, wie Sie eine hochauflösende PDF‑Konvertierung erhalten.
-og_title: HTML in PDF mit Java konvertieren – Leitfaden für Papiergröße & DPI
+lastmod: 2026-10-14
+og_description: Erfahren Sie, wie Sie in Java die PDF-Papiergröße und DPI mit Aspose.HTML
+  festlegen, um HTML in PDF mit hochauflösender Ausgabe zu konvertieren. Ideal für
+  die Erstellung von PDFs aus HTML.
+og_image_alt: Developer guide showing how to set PDF paper size and DPI for HTML‑to‑PDF
+  conversion in Java
+og_title: PDF-Papiergröße und DPI für HTML‑zu‑PDF in Java festlegen
+schemas:
+- author: Aspose
+  dateModified: '2026-10-14'
+  description: Learn how to set PDF paper size and DPI in Java using Aspose.HTML to
+    convert HTML to PDF with high‑resolution output.
+  headline: Set PDF paper size and DPI for HTML‑to‑PDF in Java
+  type: TechArticle
+- description: Learn how to set PDF paper size and DPI in Java using Aspose.HTML to
+    convert HTML to PDF with high‑resolution output.
+  name: Set PDF paper size and DPI for HTML‑to‑PDF in Java
+  steps:
+  - name: '**Paper size mismatch** – If the content looks cramped, try `PaperSize.LETTER`
+      or a custom size via `options.setCustomSize(width, height)`.'
+    text: '**Paper size mismatch** – If the content looks cramped, try `PaperSize.LETTER`
+      or a custom size via `options.setCustomSize(width, height)`.'
+  - name: '**Margins too large** – Reduce the `setMarginTop/Bottom` values if you
+      need more printable area.'
+    text: '**Margins too large** – Reduce the `setMarginTop/Bottom` values if you
+      need more printable area.'
+  - name: '**DPI vs. file size** – For web‑focused PDFs, 150 DPI often suffices and
+      keeps the file size modest.'
+    text: '**DPI vs. file size** – For web‑focused PDFs, 150 DPI often suffices and
+      keeps the file size modest.'
+  - name: '**CSS media queries** – Ensure your HTML includes a `@media print` block;
+      otherwise the `mediaType` setting won’t affect rendering.'
+    text: '**CSS media queries** – Ensure your HTML includes a `@media print` block;
+      otherwise the `mediaType` setting won’t affect rendering.'
+  type: HowTo
+- questions:
+  - answer: Yes. Use `Converter.convert(new ByteArrayInputStream(htmlBytes), pdfPath,
+      options);` where `htmlBytes` contains UTF‑8 encoded HTML.
+    question: Does this work with HTML strings instead of files?
+  - answer: Absolutely. `FontSettings` is a class that manages font configuration
+      for the Aspose.HTML conversion engine. Register the font folder with `FontSettings.setFontsFolder("path/to/fonts",
+      true);` before conversion.
+    question: Can I embed custom fonts?
+  - answer: Ensure image URLs are absolute or that the HTML file resides in the same
+      directory as the images; the converter resolves relative paths relative to the
+      HTML file’s location.
+    question: What if my HTML references external images?
+  - answer: By default, text remains selectable and searchable because Aspose.HTML
+      renders text as vector outlines, not raster images. Only very low DPI settings
+      would rasterize the page.
+    question: Is the output PDF searchable?
+  - answer: For massive inputs, consider streaming the HTML via an `InputStream` and
+      enable `options.setPageCountLimit(...)` to avoid excessive memory consumption.
+    question: How do I handle very large HTML documents?
+  type: FAQPage
 tags:
 - pdf
 - java
 - aspose
-title: HTML in PDF in Java konvertieren – Vollständiger Leitfaden mit Papiergröße
-  und DPI
+title: PDF-Papiergröße und DPI für HTML‑zu‑PDF in Java festlegen
 url: /de/java/conversion-html-to-other-formats/convert-html-to-pdf-in-java-full-guide-with-paper-size-dpi/
 ---
 
@@ -27,33 +77,28 @@ url: /de/java/conversion-html-to-other-formats/convert-html-to-pdf-in-java-full-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# HTML in PDF konvertieren in Java – Vollständiger Programmierleitfaden
+# PDF-Papiergröße und DPI für HTML‑zu‑PDF in Java festlegen
 
-Haben Sie jemals **convert HTML to PDF** in einer Java-Anwendung benötigt, wussten aber nicht, wo Sie anfangen sollen? Sie sind nicht allein. Egal, ob Sie einen Reporting‑Dienst, einen Rechnungsgenerator bauen oder einfach nur eine druckbare Version einer Webseite benötigen, die Möglichkeit, HTML on‑the‑fly in PDF zu konvertieren, ist ein echter Produktivitätsschub.
+Wenn Sie in einer Java‑Anwendung **HTML in PDF** konvertieren müssen und eine präzise Kontrolle über die Seitengröße und Bildschärfe wünschen, sind Sie hier genau richtig. Egal, ob Sie eine Rechnungs‑Engine, einen Reporting‑Micro‑Service oder eine druckbare Version eines Web‑Dashboards erstellen, das Festlegen der PDF‑Papiergröße und des DPI stellt sicher, dass das erzeugte Dokument auf jedem Drucker exakt wie beabsichtigt aussieht.
 
-In diesem Tutorial zeigen wir Ihnen genau, wie Sie die Konvertierung mit Aspose.HTML für Java durchführen, und wir gehen auf die Optionen **set pdf paper size** und **set pdf dpi** ein, damit Ihre Ausgabe auf jedem Drucker scharf aussieht. Am Ende haben Sie ein sofort ausführbares Code‑Beispiel, das eine hochwertige PDF‑Datei erzeugt – keine geheimen Bibliotheken, keine fehlenden Teile.
+In diesem Leitfaden führen wir Sie durch den kompletten Workflow mit Aspose.HTML für Java, zeigen Ihnen, wie Sie **PDF‑Papiergröße festlegen**, **PDF‑DPI konfigurieren** und in nur wenigen Code‑Zeilen ein scharfes, hochauflösendes PDF erzeugen.
 
-## Was Sie lernen werden
+## Schnellantworten
+- **Welche Bibliothek übernimmt die HTML‑zu‑PDF‑Konvertierung in Java?** Aspose.HTML for Java.
+- **Wie lege ich die Papiergröße fest?** Verwenden Sie `options.setPaperSize(PaperSize.A4)` (oder einen anderen Enum‑Wert).
+- **Welches DPI liefert gute Druckqualität?** 300 DPI ist ein gängiger Sweet Spot für scharfe Grafiken.
+- **Benötige ich eine Lizenz für Tests?** Eine kostenlose Evaluationslizenz funktioniert für Entwicklung und Prototyping.
+- **Kann ich die Ränder ändern?** Ja, über `options.setMarginTop/Bottom/Left/Right`.
 
-- Wie man eine lokale HTML‑Datei lädt und den Konverter auf eine Ziel‑PDF‑Datei verweist.  
-- Wie man **set pdf paper size** (A4, Letter usw.) mit dem `PaperSize`‑Enum konfiguriert.  
-- Wie man **set pdf dpi** für eine **high resolution pdf conversion** einstellt (300 DPI ist ein gängiger Sweet Spot).  
-- Warum die Einstellung `mediaType` für CSS‑Druck‑Styles wichtig ist.  
-- Tipps zum Umgang mit großen Dokumenten, benutzerdefinierten Schriftarten und zur Fehlersuche bei häufigen Fallstricken.
+## Was Sie lernen werden?
+Sie lernen, wie Sie eine lokale HTML‑Datei laden, Konvertierungsoptionen (Papiergröße, DPI, Ränder, Medientyp) konfigurieren, die Konvertierung ausführen und das Ergebnis überprüfen. Am Ende haben Sie eine einsatzbereite Java‑Klasse, die ein hochauflösendes PDF ohne Trial‑and‑Error erzeugt.
 
-### Voraussetzungen
-
-- Java 8 oder neuer, auf Ihrem Rechner installiert.  
-- Maven (oder Gradle), um die Aspose.HTML‑für‑Java‑Abhängigkeit zu beziehen.  
-- Grundlegendes Verständnis der Java‑Syntax – wenn Sie eine `main`‑Methode schreiben können, sind Sie startklar.
-
-> **Pro‑Tipp:** Aspose.HTML ist eine kommerzielle Bibliothek, aber sie bieten eine kostenlose Evaluierungslizenz, die perfekt zum Lernen und Prototyping funktioniert.
-
----
+## Was sind die Voraussetzungen?
+Sie benötigen Java 8 oder neuer, Maven (oder Gradle), um die Aspose.HTML‑Abhängigkeit zu beziehen, und Grundkenntnisse der Java‑`main`‑Methode. Eine Evaluations‑Lizenzdatei (`Aspose.Total.lic`) muss im Klassenpfad liegen, damit das Beispiel ohne Lizenzfehler läuft, und Ihre IDE sollte auf Java 8 oder höher eingestellt sein.
 
 ## Schritt 1: Projekt einrichten und Aspose.HTML hinzufügen
 
-Zuerst erstellen Sie ein neues Maven‑Projekt (oder verwenden Ihr bevorzugtes Build‑Tool). Fügen Sie die folgende Abhängigkeit zu Ihrer `pom.xml` hinzu:
+Zuerst erstellen Sie ein Maven‑ (oder Gradle‑)Projekt und fügen die Aspose.HTML für Java‑Abhängigkeit hinzu. Das untenstehende Maven‑Snippet zieht Version 23.12, die **mehr als 50 Eingabe‑ und Ausgabeformate** unterstützt und mehrseitige Dokumente verarbeiten kann, ohne die gesamte Datei in den Speicher zu laden.
 
 ```xml
 <dependency>
@@ -69,9 +114,7 @@ Falls Sie Gradle bevorzugen, ist das Äquivalent:
 implementation 'com.aspose:aspose-html:23.12'
 ```
 
-Sobald die Bibliothek im Klassenpfad ist, können Sie die erforderlichen Klassen in Ihrer Java‑Quelldatei importieren.
-
----
+Nachdem die Bibliothek im Klassenpfad ist, können Sie die benötigten Klassen in Ihrer Java‑Quelldatei importieren.
 
 ## Schritt 2: Quell‑HTML‑ und Ziel‑PDF‑Pfade vorbereiten
 
@@ -83,13 +126,15 @@ String htmlPath = "YOUR_DIRECTORY/long-document.html";
 String pdfPath  = "YOUR_DIRECTORY/custom.pdf";
 ```
 
-> **Warum das wichtig ist:** Die Verwendung von absoluten oder gut strukturierten relativen Pfaden verhindert „Datei nicht gefunden“-Fehler, wenn der Konverter versucht, das HTML zu lesen.
-
----
+> **Warum das wichtig ist:** Durch die Verwendung absoluter oder gut strukturierter relativer Pfade werden „Datei nicht gefunden“-Fehler vermieden, wenn der Konverter das HTML liest.
 
 ## Schritt 3: Konvertierungsoptionen konfigurieren (Papiergröße, DPI, Medientyp)
 
-Hier passiert die Magie von **set pdf paper size** und **set pdf dpi**. Das Objekt `ConverterOptions` ermöglicht Ihnen, die Ausgabe fein abzustimmen.
+Die Klasse `ConverterOptions` ermöglicht das Festlegen von Ausgabeeinstellungen wie Papiergröße, DPI und Rändern.
+
+Das Enum `PaperSize` listet Standardseitengrößen wie A4 (210 × 297 mm) und LETTER (8,5 × 11 in). Die Auswahl der richtigen Größe stellt sicher, dass das PDF Ihrem Ziel‑Drucker oder Dokumentstandard entspricht.
+
+`options.setDpi(300)` weist die Engine an, Bilder und Schriftarten mit 300 Dots per Inch zu rendern, was der Industriestandard für hochwertige Druckausgaben ist. Niedrigere DPI‑Werte reduzieren die Dateigröße, können jedoch Grafiken pixelig erscheinen lassen.
 
 ```java
 // Create a fresh options object
@@ -109,16 +154,14 @@ options.setDpi(300);
 options.setMediaType("print");
 ```
 
-**Was ist die Auswirkung?**  
-- **Paper size** bestimmt die Seitenabmessungen; ein Wechsel zu `PaperSize.LETTER` liefert das US‑Standardformat 8,5×11 in.  
-- **DPI** beeinflusst die Bildqualität und Textdarstellung; ein niedriger DPI kann große Bilder pixelig erscheinen lassen, während ein höherer DPI die Dateigröße erhöht.  
-- **Margins** verhindern, dass Inhalte an den Rändern abgeschnitten werden, ein häufiges Problem bei der Konvertierung von langen HTML‑Dokumenten.
-
----
+**Welche Auswirkungen hat das?**  
+- **Papiergröße** bestimmt die physischen Abmessungen jeder Seite; ein Wechsel zu `PaperSize.LETTER` liefert den US‑Standard 8,5 × 11 in.  
+- **DPI** beeinflusst Bildklarheit und Textdarstellung; höheres DPI erzeugt schärfere Ausgaben, aber größere Dateien.  
+- **Ränder** verhindern, dass Inhalte an den Rändern abgeschnitten werden, ein häufiges Problem bei der Konvertierung von langen HTML‑Dokumenten.
 
 ## Schritt 4: Konvertierung ausführen
 
-Jetzt fügen wir alles zusammen. Die statische Methode `Converter.convert` übernimmt die schwere Arbeit.
+Jetzt fügen wir alles zusammen. Die statische Methode `Converter.convert` übernimmt die Hauptarbeit.
 
 ```java
 // Perform the conversion
@@ -126,11 +169,11 @@ Converter.convert(htmlPath, pdfPath, options);
 System.out.println("✅ PDF generated at: " + pdfPath);
 ```
 
-Wenn Sie die `main`‑Methode ausführen, analysiert Aspose.HTML das HTML, wendet das Print‑Media‑CSS an, beachtet die Ränder und schreibt ein PDF, das der von uns festgelegten Konfiguration entspricht.
+Wenn Sie die `main`‑Methode ausführen, analysiert Aspose.HTML das HTML, wendet etwaiges `@media print`‑CSS an, berücksichtigt die Ränder und schreibt ein PDF, das der von uns festgelegten Konfiguration entspricht.
 
-### Vollständiges funktionierendes Beispiel
+## Vollständiges funktionierendes Beispiel
 
-Unten finden Sie die komplette, sofort ausführbare Klasse. Kopieren Sie sie nach `src/main/java/ConvertWithOptions.java`, ersetzen Sie die Platzhalter‑Pfade und führen Sie sie aus.
+Unten finden Sie die komplette, einsatzbereite Klasse. Kopieren Sie sie nach `src/main/java/ConvertWithOptions.java`, ersetzen Sie die Platzhalter‑Pfade und führen Sie sie aus.
 
 ```java
 import com.aspose.html.converters.Converter;
@@ -161,48 +204,53 @@ public class ConvertWithOptions {
 **Erwartetes Ergebnis:**  
 Eine Datei namens `custom.pdf` erscheint in `YOUR_DIRECTORY`. Öffnen Sie sie mit einem beliebigen PDF‑Betrachter – Sie sollten das HTML auf A4‑großen Seiten, mit 20‑Punkt‑Ober‑/Unter‑Rändern und scharfen Grafiken dank der 300 DPI‑Einstellung sehen.
 
----
+## So überprüfen Sie die Ausgabe und passen Einstellungen an (optional)
+Nachdem die Konvertierung abgeschlossen ist, öffnen Sie das erzeugte PDF in einem Betrachter und prüfen, ob Layout, Ränder und Bildschärfe Ihren Erwartungen entsprechen. Vergewissern Sie sich, dass die gewählte Papiergröße auf jeder Seite korrekt angezeigt wird und der Text auswählbar bleibt, was bestätigt, dass die DPI‑Einstellung scharfe Grafiken ohne übermäßige Dateigröße erzeugt.
 
-## Schritt 5: Ausgabe überprüfen und Einstellungen anpassen (optional)
+Nach dem ersten Durchlauf möchten Sie vielleicht einige Dinge noch einmal überprüfen:
 
-Nach dem ersten Durchlauf möchten Sie vielleicht ein paar Dinge doppelt prüfen:
+1. **Papiergrößen‑Mismatch** – Wenn der Inhalt beengt wirkt, probieren Sie `PaperSize.LETTER` oder eine benutzerdefinierte Größe via `options.setCustomSize(width, height)`.  
+2. **Ränder zu groß** – Reduzieren Sie die Werte von `setMarginTop/Bottom`, wenn Sie mehr druckbare Fläche benötigen.  
+3. **DPI vs. Dateigröße** – Für web‑orientierte PDFs reicht oft 150 DPI aus und hält die Dateigröße moderat.  
+4. **CSS‑Media‑Queries** – Stellen Sie sicher, dass Ihr HTML einen `@media print`‑Block enthält; andernfalls wirkt die `mediaType`‑Einstellung nicht.
 
-1. **Paper Size Mismatch** – Wenn der Inhalt gedrängt wirkt, probieren Sie `PaperSize.LETTER` oder eine benutzerdefinierte Größe über `options.setCustomSize(width, height)`.  
-2. **Margins Too Large** – Reduzieren Sie die Werte von `setMarginTop/Bottom`, wenn Sie mehr druckbaren Bereich benötigen.  
-3. **DPI vs. File Size** – Für web‑orientierte PDFs reicht oft 150 DPI aus und hält die Datei kleiner.  
-4. **CSS Media Queries** – Stellen Sie sicher, dass Ihr HTML einen `@media print`‑Block enthält; andernfalls hat die Einstellung `mediaType` keine Wirkung.
-
-> **Häufiges Problem:** Das Vergessen, die Aspose‑Evaluierungslizenzdatei (`Aspose.Total.lic`) einzubinden, kann dazu führen, dass die Bibliothek eine Lizenz‑Ausnahme wirft. Platzieren Sie die `.lic`‑Datei im Klassenpfad‑Wurzelverzeichnis (z. B. `src/main/resources`).
-
----
+> **Häufiger Fehler:** Das Vergessen, die Aspose‑Evaluations‑Lizenzdatei (`Aspose.Total.lic`) im Klassenpfad‑Root (z. B. `src/main/resources`) zu platzieren, führt zur Laufzeit zu einer Lizenz‑Ausnahme.
 
 ## Häufig gestellte Fragen
 
-### Funktioniert das mit HTML‑Strings anstelle von Dateien?
+**Q: Funktioniert das mit HTML‑Strings anstelle von Dateien?**  
+A: Ja. Verwenden Sie `Converter.convert(new ByteArrayInputStream(htmlBytes), pdfPath, options);`, wobei `htmlBytes` HTML im UTF‑8‑Format enthält.
 
-Ja. Verwenden Sie `Converter.convert(new ByteArrayInputStream(htmlBytes), pdfPath, options);`, wobei `htmlBytes` der UTF‑8‑kodierte HTML‑Inhalt ist.
+**Q: Kann ich benutzerdefinierte Schriftarten einbetten?**  
+A: Absolut. `FontSettings` ist eine Klasse, die die Schriftartkonfiguration für die Aspose.HTML‑Konvertierungsengine verwaltet. Registrieren Sie den Schriftordner mit `FontSettings.setFontsFolder("path/to/fonts", true);` vor der Konvertierung.
 
-### Kann ich benutzerdefinierte Schriftarten einbetten?
+**Q: Was ist, wenn mein HTML externe Bilder referenziert?**  
+A: Stellen Sie sicher, dass Bild‑URLs absolut sind oder dass die HTML‑Datei im selben Verzeichnis wie die Bilder liegt; der Konverter löst relative Pfade relativ zum Speicherort der HTML‑Datei auf.
 
-Absolut. Registrieren Sie den Schriftordner mit `FontSettings.setFontsFolder("path/to/fonts", true);` vor der Konvertierung.
+**Q: Ist das erzeugte PDF durchsuchbar?**  
+A: Standardmäßig bleibt Text auswählbar und durchsuchbar, da Aspose.HTML Text als Vektor‑Outlines rendert, nicht als Rasterbilder. Nur sehr niedrige DPI‑Einstellungen würden die Seite rasterisieren.
 
-### Was ist, wenn mein HTML externe Bilder referenziert?
-
-Stellen Sie sicher, dass die Bild‑URLs absolut sind oder dass die HTML‑Datei im selben Verzeichnis wie die Bilder liegt. Der Konverter folgt relativen Pfaden relativ zum Speicherort der HTML‑Datei.
-
-### Ist das erzeugte PDF durchsuchbar?
-
-Standardmäßig bleibt Text auswählbar und durchsuchbar, da Aspose.HTML Text als Vektor‑Outlines rendert, nicht als Rasterbilder. Nur wenn Sie die Seite rasterisieren (z. B. durch Einstellung eines sehr niedrigen DPI) wird sie zu einem rein bildbasierten PDF.
-
----
+**Q: Wie gehe ich mit sehr großen HTML‑Dokumenten um?**  
+A: Bei massiven Eingaben sollten Sie das HTML über einen `InputStream` streamen und `options.setPageCountLimit(...)` aktivieren, um übermäßigen Speicherverbrauch zu vermeiden.
 
 ## Fazit
 
-Wir haben einen **convert html to pdf**‑Workflow in Java durchgangen, der Ihnen ermöglicht, **set pdf paper size**, **set pdf dpi** zu setzen und eine **high resolution pdf conversion** mit nur wenigen Zeilen zu erreichen. Der vollständige Quellcode ist eigenständig, die Optionen sind erklärt, und Sie wissen jetzt, wie Sie die Einstellungen für verschiedene Anwendungsfälle anpassen.
+Wir haben einen **HTML‑zu‑PDF‑Workflow** in Java durchlaufen, der Ihnen ermöglicht, **PDF‑Papiergröße festzulegen**, **PDF‑DPI zu setzen** und mit nur wenigen Zeilen Code eine **hochauflösende PDF‑Konvertierung** zu erreichen. Der vollständige Quellcode ist eigenständig, die Optionen sind erklärt, und Sie wissen jetzt, wie Sie die Einstellungen für verschiedene Anwendungsfälle anpassen.
 
-Nächste Schritte? Versuchen Sie, `PaperSize.A4` durch eine benutzerdefinierte Dimension zu ersetzen, experimentieren Sie mit `options.setMarginLeft/Right` oder integrieren Sie den Konverter in einen Spring‑Boot‑REST‑Endpoint, sodass Benutzer HTML hochladen und sofort ein PDF erhalten können. Sie können auch die Begleitfunktionen von Aspose.HTML wie **HTML to image** oder **PDF to HTML** erkunden, um eine echte Rundreise‑Dokumenten‑Pipeline zu erhalten.
+Nächste Schritte? Versuchen Sie, `PaperSize.A4` durch eine benutzerdefinierte Dimension zu ersetzen, experimentieren Sie mit `options.setMarginLeft/Right` oder stellen Sie den Konverter über einen Spring‑Boot‑REST‑Endpoint bereit, damit Benutzer HTML hochladen und sofort ein PDF erhalten. Sie können auch die Begleitfunktionen von Aspose.HTML wie **HTML‑zu‑Image** oder **PDF‑zu‑HTML** erkunden, um eine echte Rundreise‑Dokumenten‑Pipeline zu erhalten.
 
-Viel Spaß beim Coden, und möge Ihr PDF immer exakt so rendern, wie Sie es beabsichtigt haben! 🚀
+Viel Spaß beim Coden, und möge Ihr PDF stets genau so rendern, wie Sie es beabsichtigt haben! 🚀
+
+**Letzte Aktualisierung:** 2026-10-14  
+**Getestet mit:** Aspose.HTML für Java 23.12  
+**Autor:** Aspose
+
+## Verwandte Tutorials
+
+- [HTML nach PDF Java konvertieren – Umgebung konfigurieren in Aspose.HTML](/html/java/configuring-environment/)
+- [Wie man HTML nach PDF Java konvertiert – Seitenränder mit Aspose.HTML setzen](/html/java/advanced-usage/css-extensions-adding-title-page-number/)
+- [Wie man HTML nach PDF Java konvertiert – Verwendung von Aspose.HTML für Java](/html/java/conversion-html-to-other-formats/convert-html-to-pdf/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
